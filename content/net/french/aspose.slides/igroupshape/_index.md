@@ -1,6 +1,6 @@
 ---
 title: IGroupShape
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Représente un groupe de formes sur une diapositive.
 type: docs
 weight: 5880
@@ -19,10 +19,10 @@ public interface IGroupShape : IShape
 
 | Nom | Description |
 | --- | --- |
-| [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | Permet d'obtenir l'interface IShape de base. En lecture seule [`IShape`](../ishape). |
-| [GroupShapeLock](../../aspose.slides/igroupshape/groupshapelock) { get; } | Renvoie les verrous de la forme. En lecture seule [`IGroupShapeLock`](../igroupshapelock). |
-| [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | Renvoie les verrous de la forme. En lecture seule [`IGroupShapeLock`](../igroupshapelock). |
-| [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | Renvoie la collection de formes à l'intérieur du groupe. En lecture seule [`IShapeCollection`](../ishapecollection). |
+| [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | Permet d'obtenir l'interface de base IShape. Lecture seule [`IShape`](../ishape). |
+| [GroupShapeLock](../../aspose.slides/igroupshape/groupshapelock) { get; } | Renvoie les verrous de la forme. Lecture seule [`IGroupShapeLock`](../igroupshapelock). |
+| [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | Renvoie les verrous de la forme. Lecture seule [`IGroupShapeLock`](../igroupshapelock). |
+| [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | Renvoie la collection de formes à l'intérieur du groupe. Lecture seule [`IShapeCollection`](../ishapecollection). |
 
 ### Voir aussi
 

@@ -15,7 +15,7 @@ Gibt die Position eines Tabs zurück oder setzt sie. Das Zuweisen dieser Eigensc
 public double Position { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [Tab](../../tab)
 * Namespace [Aspose.Slides](../../tab)

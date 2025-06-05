@@ -1,7 +1,7 @@
 ---
 title: MarginRight
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den rechten Rand in einem TextFrame zurück oder setzt ihn. Lese-/Schreibzugriff Double.
+description: Gibt den rechten Rand in einem TextFrame zurück oder setzt ihn. Lese-/Schreibbarer Double.
 type: docs
 weight: 120
 url: /de/aspose.slides/cell/marginright/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/cell/marginright/
 
 ## Cell.MarginRight-Eigenschaft
 
-Gibt den rechten Rand in einem TextFrame zurück oder setzt ihn. Lese-/Schreibzugriff Double.
+Gibt den rechten Rand in einem TextFrame zurück oder setzt ihn. Lese-/Schreibbarer Double.
 
 ```csharp
 public double MarginRight { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [Cell](../../cell)
 * Namespace [Aspose.Slides](../../cell)

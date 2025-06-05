@@ -1,7 +1,7 @@
 ---
 title: IImageCollection
-second_title: Справочник по API Aspose.Silde для .NET
-description: Представляет коллекцию PPImage.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет собой коллекцию PPImage.
 type: docs
 weight: 5960
 url: /ru/aspose.slides/iimagecollection/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/iimagecollection/
 
 ## Интерфейс IImageCollection
 
-Представляет коллекцию PPImage.
+Представляет собой коллекцию PPImage.
 
 ```csharp
 public interface IImageCollection : IGenericCollection<IPPImage>
@@ -17,13 +17,13 @@ public interface IImageCollection : IGenericCollection<IPPImage>
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [Item](../../aspose.slides/iimagecollection/item) { get; } | Возвращает изображение по его индексу. |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(byte[]) | Добавляет изображение в презентацию из указанного буфера. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage)(IImage) | Добавляет изображение в презентацию. |

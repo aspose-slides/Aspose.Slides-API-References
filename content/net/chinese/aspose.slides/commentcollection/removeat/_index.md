@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Sildes for .NET API Reference
-description: 在集合中移除指定索引的元素。
+description: 移除集合中指定索引处的元素。
 type: docs
 weight: 140
 url: /zh/aspose.slides/commentcollection/removeat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/commentcollection/removeat/
 
 ## CommentCollection.RemoveAt 方法
 
-在集合中移除指定索引的元素。
+移除集合中指定索引处的元素。
 
 ```csharp
 public void RemoveAt(int index)
@@ -23,7 +23,7 @@ public void RemoveAt(int index)
 
 | 异常 | 条件 |
 | --- | --- |
-| ArgumentOutOfRangeException | 索引小于 0 或索引等于或大于 Count |
+| ArgumentOutOfRangeException | 索引小于 0 或者索引等于或大于 Count |
 | [PptxEditException](../../pptxeditexception) | 如果评论已经被移除则抛出。 |
 
 ### 另见

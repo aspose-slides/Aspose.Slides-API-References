@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/gradientformat/tileflip/
 ---
+
 ## GradientFormat.TileFlip property
 
 Returns or sets the flipping mode for a gradient. Read/write [`TileFlip`](../../tileflip).

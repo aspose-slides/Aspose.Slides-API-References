@@ -1,6 +1,6 @@
 ---
 title: CloseFigure
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 关闭此路径的当前图形
 type: docs
 weight: 50
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/igeometrypath/closefigure/
 public void CloseFigure()
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IGeometryPath](../../igeometrypath)
 * 命名空间 [Aspose.Slides](../../igeometrypath)

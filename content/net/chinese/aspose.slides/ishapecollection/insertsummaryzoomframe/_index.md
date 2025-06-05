@@ -1,7 +1,7 @@
 ---
 title: InsertSummaryZoomFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: 创建一个新的摘要缩放对象并将其插入到指定索引的集合中。
+description: 创建一个新的摘要缩放对象，并将其插入到指定索引的集合中。
 type: docs
 weight: 330
 url: /zh/aspose.slides/ishapecollection/insertsummaryzoomframe/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ishapecollection/insertsummaryzoomframe/
 
 ## IShapeCollection.InsertSummaryZoomFrame 方法
 
-创建一个新的摘要缩放对象并将其插入到指定索引的集合中。
+创建一个新的摘要缩放对象，并将其插入到指定索引的集合中。
 
 ```csharp
 public ISummaryZoomFrame InsertSummaryZoomFrame(int index, float x, float y, float width, 
@@ -18,11 +18,11 @@ public ISummaryZoomFrame InsertSummaryZoomFrame(int index, float x, float y, flo
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 要插入的部分缩放框的零基索引。 |
-| x | Single | 新部分缩放框的 X 坐标。 |
-| y | Single | 新部分缩放框的 Y 坐标。 |
-| width | Single | 新部分缩放框的宽度。 |
-| height | Single | 新部分缩放框的高度。 |
+| index | Int32 | 应该插入节缩放帧的零基索引。 |
+| x | Single | 新节缩放帧的 X 坐标。 |
+| y | Single | 新节缩放帧的 Y 坐标。 |
+| width | Single | 新节缩放帧的宽度。 |
+| height | Single | 新节缩放帧的高度。 |
 
 ### 返回值
 
@@ -32,15 +32,15 @@ public ISummaryZoomFrame InsertSummaryZoomFrame(int index, float x, float y, flo
 
 | 异常 | 条件 |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | 演示文稿中没有部分，或者目标幻灯片不属于任何部分。 |
+| [PptxEditException](../../pptxeditexception) | 演示文稿中没有节，或者目标幻灯片不属于任何节。 |
 
 ### 备注
 
-此方法创建一个新的摘要缩放，并为此演示文稿中的所有部分将对象集合放入其中。
+此方法创建一个新的摘要缩放，并为此演示文稿中的所有节放入一个对象集合。
 
 ### 示例
 
-此示例演示如何在集合的指定索引处创建和插入摘要缩放对象（假设“Presentation.pptx”演示文稿中至少有两个部分）：
+此示例演示如何在集合的指定索引处创建并插入一个摘要缩放对象（假设在“Presentation.pptx”演示文稿中至少有两个节）：
 
 ```csharp
 [C#]
@@ -50,7 +50,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [ISummaryZoomFrame](../../isummaryzoomframe)
 * 接口 [IShapeCollection](../../ishapecollection)

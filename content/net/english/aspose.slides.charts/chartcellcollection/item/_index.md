@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/chartcellcollection/item/
 ---
+
 ## ChartCellCollection indexer
 
 Returns a cell (IChartDataCell) by index.

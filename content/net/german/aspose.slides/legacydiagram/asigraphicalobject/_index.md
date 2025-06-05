@@ -1,7 +1,7 @@
 ---
 title: AsIGraphicalObject
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf die Basis-IgraficalObject-Schnittstelle. Nur lesbare IGraphicalObjectaspose.slides/igraphicalobject.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ermöglicht den Zugriff auf die Basis-IgraphicalObject-Schnittstelle. Schreibgeschützte IGraphicalObjectaspose.slides/igraphicalobject.
 type: docs
 weight: 10
 url: /de/aspose.slides/legacydiagram/asigraphicalobject/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/legacydiagram/asigraphicalobject/
 
 ## LegacyDiagram.AsIGraphicalObject-Eigenschaft
 
-Ermöglicht den Zugriff auf die Basis-IgraficalObject-Schnittstelle. Nur lesbare [`IGraphicalObject`](../../igraphicalobject).
+Ermöglicht den Zugriff auf die Basis-IgraphicalObject-Schnittstelle. Schreibgeschützte [`IGraphicalObject`](../../igraphicalobject).
 
 ```csharp
 public IGraphicalObject AsIGraphicalObject { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IGraphicalObject](../../igraphicalobject)
 * Klasse [LegacyDiagram](../../legacydiagram)

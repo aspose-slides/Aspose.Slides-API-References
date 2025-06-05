@@ -1,7 +1,7 @@
 ---
 title: IRippleTransition
-second_title: Aspose.Sildes for .NET API 参考
-description: 涟漪幻灯片切换效果。
+second_title: Aspose.Sildes for .NET API Reference
+description: 涟漪幻灯片过渡效果。
 type: docs
 weight: 9860
 url: /zh/aspose.slides.slideshow/irippletransition/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.slideshow/irippletransition/
 
 ## IRippleTransition 接口
 
-涟漪幻灯片切换效果。
+涟漪幻灯片过渡效果。
 
 ```csharp
 public interface IRippleTransition : ITransitionValueBase
@@ -19,10 +19,10 @@ public interface IRippleTransition : ITransitionValueBase
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | 允许获取基础 ITransitionValueBase 接口。只读 [`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [Direction](../../aspose.slides.slideshow/irippletransition/direction) { get; set; } | 切换的方向。读/写 [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype)。 |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | 允许获取基础的 ITransitionValueBase 接口。只读 [`ITransitionValueBase`](../itransitionvaluebase)。 |
+| [Direction](../../aspose.slides.slideshow/irippletransition/direction) { get; set; } | 过渡方向。读写 [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype)。 |
 
-### 另见
+### 参见
 
 * 接口 [ITransitionValueBase](../itransitionvaluebase)
 * 命名空间 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

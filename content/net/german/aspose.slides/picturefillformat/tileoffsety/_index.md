@@ -1,7 +1,7 @@
 ---
 title: TileOffsetY
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den vertikalen Offset der Textur vom Ursprung der Form in Punkten zurück oder setzt ihn. Ein positiver Wert verschiebt die Textur nach unten, während ein negativer Wert sie nach oben verschiebt. Lese-/Schreibzugriff auf Single.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt den vertikalen Versatz der Textur vom Ursprung der Form in Punkten zurück oder setzt ihn. Ein positiver Wert verschiebt die Textur nach unten, während ein negativer Wert sie nach oben verschiebt. Lesen/Schreiben Einzelwert.
 type: docs
 weight: 150
 url: /de/aspose.slides/picturefillformat/tileoffsety/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/picturefillformat/tileoffsety/
 
 ## PictureFillFormat.TileOffsetY-Eigenschaft
 
-Gibt den vertikalen Offset der Textur vom Ursprung der Form in Punkten zurück oder setzt ihn. Ein positiver Wert verschiebt die Textur nach unten, während ein negativer Wert sie nach oben verschiebt. Lese-/Schreibzugriff auf Single.
+Gibt den vertikalen Versatz der Textur vom Ursprung der Form in Punkten zurück oder setzt ihn. Ein positiver Wert verschiebt die Textur nach unten, während ein negativer Wert sie nach oben verschiebt. Lesen/Schreiben Einzelwert.
 
 ```csharp
 public float TileOffsetY { get; set; }
@@ -23,18 +23,18 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 {
     ISlide slide = presentation.Slides[0];
 
-    // Ruft das Bildfüllformat der Form ab
+    // Holt das Bildfüllformat der Form
     IPictureFillFormat pictureFillFormat = slide.Shapes[0].FillFormat.PictureFillFormat;
 
-    // Setzt den Bildfüllmodus auf Tile
+    // Setzt den Bildfüllmodus auf Kacheln
     pictureFillFormat.PictureFillMode = PictureFillMode.Tile;
 
-    // Setzt den vertikalen Offset der Textur auf -50 Punkte
+    // Setzt den vertikalen Versatz der Textur auf -50 Punkte
     pictureFillFormat.TileOffsetY = -50;
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [PictureFillFormat](../../picturefillformat)
 * Namespace [Aspose.Slides](../../picturefillformat)

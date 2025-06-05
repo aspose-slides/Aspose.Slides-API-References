@@ -1,7 +1,7 @@
 ---
 title: AddOnlineImagePlaceholder
-second_title: Aspose.Slides для .NET API Справочник
-description: Добавляет новую заглушку в макет слайда для размещения онлайн-изображения.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Добавляет новую фигурку-заполнитель на слайде макета для хранения онлайн-изображения.
 type: docs
 weight: 40
 url: /ru/aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder/
 
 ## LayoutPlaceholderManager.AddOnlineImagePlaceholder метод
 
-Добавляет новую заглушку в макет слайда для размещения онлайн-изображения.
+Добавляет новую фигурку-заполнитель на слайде макета для хранения онлайн-изображения.
 
 ```csharp
 public IAutoShape AddOnlineImagePlaceholder(float x, float y, float width, float height)
@@ -17,18 +17,18 @@ public IAutoShape AddOnlineImagePlaceholder(float x, float y, float width, float
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | Координата X новой заглушки. |
-| y | Single | Координата Y новой заглушки. |
-| width | Single | Ширина новой заглушки. |
-| height | Single | Высота новой заглушки. |
+| x | Single | Координата X новой фигурки-заполнителя. |
+| y | Single | Координата Y новой фигурки-заполнителя. |
+| width | Single | Ширина новой фигурки-заполнителя. |
+| height | Single | Высота новой фигурки-заполнителя. |
 
 ### Возвращаемое значение
 
-Созданный [`IAutoShape`](../../iautoshape) с заглушкой для онлайн-изображения.
+Созданный [`IAutoShape`](../../iautoshape) с заполнителем онлайн-изображения.
 
 ### Примеры
 
-Следующий пример показывает, как добавить заглушку для онлайн-изображения в макет слайда.
+Следующий пример показывает, как добавить фигурку-заполнитель онлайн-изображения на слайд макета.
 
 ```csharp
 [C#]

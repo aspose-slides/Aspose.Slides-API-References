@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/coloroperationcollection/clear/
 ---
+
 ## ColorOperationCollection.Clear method
 
 Removes all color operations.

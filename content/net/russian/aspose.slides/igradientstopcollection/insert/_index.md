@@ -1,6 +1,6 @@
 ---
-title: Вставка
-second_title: Ссылка по API Aspose.Slides для .NET
+title: Insert
+second_title: Aspose.Sildes для .NET API Reference
 description: Создает новую градиентную остановку и вставляет ее в указанном индексе в коллекцию.
 type: docs
 weight: 40
@@ -21,7 +21,7 @@ public void Insert(int index, float position, Color color)
 | position | Single | Позиция новой градиентной остановки. |
 | color | Color | Цвет новой градиентной остановки. |
 
-### См. также
+### Смотрите также
 
 * interface [IGradientStopCollection](../../igradientstopcollection)
 * namespace [Aspose.Slides](../../igradientstopcollection)
@@ -43,7 +43,7 @@ public void Insert(int index, float position, PresetColor presetColor)
 | position | Single | Позиция новой градиентной остановки. |
 | presetColor | PresetColor | Цвет новой градиентной остановки. |
 
-### См. также
+### Смотрите также
 
 * enum [PresetColor](../../presetcolor)
 * interface [IGradientStopCollection](../../igradientstopcollection)
@@ -66,7 +66,7 @@ public void Insert(int index, float position, SchemeColor schemeColor)
 | position | Single | Позиция новой градиентной остановки. |
 | schemeColor | SchemeColor | Цвет новой градиентной остановки. |
 
-### См. также
+### Смотрите также
 
 * enum [SchemeColor](../../schemecolor)
 * interface [IGradientStopCollection](../../igradientstopcollection)

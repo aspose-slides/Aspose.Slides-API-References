@@ -1,7 +1,7 @@
 ---
 title: ChildNodes
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt Sammlungen aller Kindknoten des aktuellen Knotens zurück. Schreibgeschütztes ISmartArtNodeCollectionaspose.slides.smartart/ismartartnodecollection.
+description: Gibt Sammlungen aller Kindknoten des aktuellen Knotens zurück. Nur-Lese ISmartArtNodeCollectionaspose.slides.smartart/ismartartnodecollection.
 type: docs
 weight: 20
 url: /de/aspose.slides.smartart/smartartnode/childnodes/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.smartart/smartartnode/childnodes/
 
 ## SmartArtNode.ChildNodes-Eigenschaft
 
-Gibt Sammlungen aller Kindknoten des aktuellen Knotens zurück. Schreibgeschütztes [`ISmartArtNodeCollection`](../../ismartartnodecollection).
+Gibt Sammlungen aller Kindknoten des aktuellen Knotens zurück. Nur-Lese [`ISmartArtNodeCollection`](../../ismartartnodecollection).
 
 ```csharp
 public ISmartArtNodeCollection ChildNodes { get; }

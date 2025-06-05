@@ -1,7 +1,7 @@
 ---
 title: ShapeFormattingController
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie et définit une interface de rappel qui permet à l'utilisateur de contrôler la conversion de forme. Lecture/écriture ISvgShapeFormattingControlleraspose.slides.export/isvgshapeformattingcontroller.
+second_title: Aspose.Slides pour .NET API Référence
+description: Renvoie et définit une interface de rappel qui permet à l'utilisateur de contrôler la conversion des formes. Lecture/écriture ISvgShapeFormattingControlleraspose.slides.export/isvgshapeformattingcontroller.
 type: docs
 weight: 120
 url: /fr/aspose.slides.export/isvgoptions/shapeformattingcontroller/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/isvgoptions/shapeformattingcontroller/
 
 ## Propriété ISVGOptions.ShapeFormattingController
 
-Renvoie et définit une interface de rappel qui permet à l'utilisateur de contrôler la conversion de forme. Lecture/écriture [`ISvgShapeFormattingController`](../../isvgshapeformattingcontroller).
+Renvoie et définit une interface de rappel qui permet à l'utilisateur de contrôler la conversion des formes. Lecture/écriture [`ISvgShapeFormattingController`](../../isvgshapeformattingcontroller).
 
 ```csharp
 public ISvgShapeFormattingController ShapeFormattingController { get; set; }

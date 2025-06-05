@@ -1,125 +1,125 @@
----  
-title: Добавить  
-second_title: Справочник по API Aspose.Slides для .NET  
-description: Создает новые серии диаграмм и добавляет их в коллекцию.
-type: docs  
-weight: 20  
+---
+title: Add
+second_title: Aspose.Sildes для .NET API Reference
+description: Создает новую серию диаграммы и добавляет ее в коллекцию.
+type: docs
+weight: 20
 url: /ru/aspose.slides.charts/ichartseriescollection/add/
----  
+---
 
-## Добавить(ChartType) {#add}  
+## Add(ChartType) {#add}
 
-Создает новые серии диаграмм и добавляет их в коллекцию.  
+Создает новую серию диаграммы и добавляет ее в коллекцию.
 
-```csharp  
-public IChartSeries Add(ChartType type)  
-```  
+```csharp
+public IChartSeries Add(ChartType type)
+```
 
-| Параметр | Тип | Описание |  
-| --- | --- | --- |  
-| type | ChartType | Тип серии |  
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| type | ChartType | Тип серии |
 
-### Возвращаемое значение  
+### Возвращаемое значение
 
-Новая серия диаграмм.  
+Новая серия диаграммы.
 
-### См. также  
+### См. также
 
-* интерфейс [IChartSeries](../../ichartseries)  
-* перечисление [ChartType](../../charttype)  
-* интерфейс [IChartSeriesCollection](../../ichartseriescollection)  
-* пространство имен [Aspose.Slides.Charts](../../ichartseriescollection)  
-* сборка [Aspose.Slides](../../../)  
+* interface [IChartSeries](../../ichartseries)
+* enum [ChartType](../../charttype)
+* interface [IChartSeriesCollection](../../ichartseriescollection)
+* namespace [Aspose.Slides.Charts](../../ichartseriescollection)
+* assembly [Aspose.Slides](../../../)
 
----  
+---
 
-## Добавить(IChartDataCell, ChartType) {#add_2}  
+## Add(IChartDataCell, ChartType) {#add_2}
 
-Создает новые серии диаграмм из [`IChartDataCell`](../../ichartdatacell) и добавляет их в коллекцию.  
+Создает новую серию диаграммы из [`IChartDataCell`](../../ichartdatacell) и добавляет ее в коллекцию.
 
-```csharp  
-public IChartSeries Add(IChartDataCell cellWithSeriesName, ChartType type)  
-```  
+```csharp
+public IChartSeries Add(IChartDataCell cellWithSeriesName, ChartType type)
+```
 
-| Параметр | Тип | Описание |  
-| --- | --- | --- |  
-| cellWithSeriesName | IChartDataCell | Ячейка, содержащая имя серии. |  
-| type | ChartType | Тип устанавливаемого типа серии |  
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| cellWithSeriesName | IChartDataCell | Ячейка, содержащая название серии. |
+| type | ChartType | Установленный тип серии |
 
-### Возвращаемое значение  
+### Возвращаемое значение
 
-Добавленная серия диаграмм или серия, которая уже есть в коллекции.  
+Добавленная серия диаграммы или серия, которая уже есть в коллекции.
 
-### Примечания  
+### Замечания
 
-Если серия диаграмм, созданная из той же ячейки, уже находится в коллекции, то метод ничего не добавляет и возвращает её индекс.  
+Если серия диаграммы, созданная из той же ячейки, уже есть в коллекции, то метод ничего не добавляет и возвращает ее индекс.
 
-### См. также  
+### См. также
 
-* интерфейс [IChartSeries](../../ichartseries)  
-* интерфейс [IChartDataCell](../../ichartdatacell)  
-* перечисление [ChartType](../../charttype)  
-* интерфейс [IChartSeriesCollection](../../ichartseriescollection)  
-* пространство имен [Aspose.Slides.Charts](../../ichartseriescollection)  
-* сборка [Aspose.Slides](../../../)  
+* interface [IChartSeries](../../ichartseries)
+* interface [IChartDataCell](../../ichartdatacell)
+* enum [ChartType](../../charttype)
+* interface [IChartSeriesCollection](../../ichartseriescollection)
+* namespace [Aspose.Slides.Charts](../../ichartseriescollection)
+* assembly [Aspose.Slides](../../../)
 
----  
+---
 
-## Добавить(IChartCellCollection, ChartType) {#add_1}  
+## Add(IChartCellCollection, ChartType) {#add_1}
 
-Создает новые серии диаграмм из [`IChartCellCollection`](../../ichartcellcollection) и добавляет их в коллекцию.  
+Создает новую серию диаграммы из [`IChartCellCollection`](../../ichartcellcollection) и добавляет ее в коллекцию.
 
-```csharp  
-public IChartSeries Add(IChartCellCollection cellsWithSeriesName, ChartType type)  
-```  
+```csharp
+public IChartSeries Add(IChartCellCollection cellsWithSeriesName, ChartType type)
+```
 
-| Параметр | Тип | Описание |  
-| --- | --- | --- |  
-| cellsWithSeriesName | IChartCellCollection | Ячейки, содержащие имя серии. |  
-| type | ChartType | Тип устанавливаемого типа серии |  
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| cellsWithSeriesName | IChartCellCollection | Ячейки, содержащие названия серий. |
+| type | ChartType | Установленный тип серии |
 
-### Возвращаемое значение  
+### Возвращаемое значение
 
-Добавленная серия диаграмм или серия, которая уже есть в коллекции.  
+Добавленная серия диаграммы или серия, которая уже есть в коллекции.
 
-### Примечания  
+### Замечания
 
-Если серия диаграмм, созданная из той же ячейки, уже находится в коллекции, то метод ничего не добавляет и возвращает её индекс.  
+Если серия диаграммы, созданная из той же ячейки, уже есть в коллекции, то метод ничего не добавляет и возвращает ее индекс.
 
-### См. также  
+### См. также
 
-* интерфейс [IChartSeries](../../ichartseries)  
-* интерфейс [IChartCellCollection](../../ichartcellcollection)  
-* перечисление [ChartType](../../charttype)  
-* интерфейс [IChartSeriesCollection](../../ichartseriescollection)  
-* пространство имен [Aspose.Slides.Charts](../../ichartseriescollection)  
-* сборка [Aspose.Slides](../../../)  
+* interface [IChartSeries](../../ichartseries)
+* interface [IChartCellCollection](../../ichartcellcollection)
+* enum [ChartType](../../charttype)
+* interface [IChartSeriesCollection](../../ichartseriescollection)
+* namespace [Aspose.Slides.Charts](../../ichartseriescollection)
+* assembly [Aspose.Slides](../../../)
 
----  
+---
 
-## Добавить(string, ChartType) {#add_3}  
+## Add(string, ChartType) {#add_3}
 
-Создает новые серии диаграмм из значения и добавляет их в коллекцию.  
+Создает новую серию диаграммы из значения и добавляет ее в коллекцию.
 
-```csharp  
-public IChartSeries Add(string name, ChartType type)  
-```  
+```csharp
+public IChartSeries Add(string name, ChartType type)
+```
 
-| Параметр | Тип | Описание |  
-| --- | --- | --- |  
-| name | String | Имя серии. |  
-| type | ChartType | Тип устанавливаемого типа серии |  
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| name | String | Название серии. |
+| type | ChartType | Установленный тип серии |
 
-### Возвращаемое значение  
+### Возвращаемое значение
 
-Добавленная серия диаграмм.  
+Добавленная серия диаграммы.
 
-### См. также  
+### См. также
 
-* интерфейс [IChartSeries](../../ichartseries)  
-* перечисление [ChartType](../../charttype)  
-* интерфейс [IChartSeriesCollection](../../ichartseriescollection)  
-* пространство имен [Aspose.Slides.Charts](../../ichartseriescollection)  
-* сборка [Aspose.Slides](../../../)  
+* interface [IChartSeries](../../ichartseries)
+* enum [ChartType](../../charttype)
+* interface [IChartSeriesCollection](../../ichartseriescollection)
+* namespace [Aspose.Slides.Charts](../../ichartseriescollection)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

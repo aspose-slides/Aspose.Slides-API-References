@@ -1,7 +1,7 @@
 ---
-title: DurchgestrichenHorizontal
-second_title: Aspose.Slides für .NET API-Referenz
-description: Durchgestrichen Horizontal ist standardmäßig false - gibt den versteckten oder sichtbaren Zustand einer durchgestrichenen horizontalen Linie an.
+title: StrikethroughHorizontal
+second_title: Aspose.Slides für .NET API Referenz
+description: Strikethrough Horizontal standardmäßig ist falsch - gibt den versteckten oder sichtbaren Zustand einer durchgestrichenen horizontalen Linie an.
 type: docs
 weight: 80
 url: /de/aspose.slides.mathtext/imathborderbox/strikethroughhorizontal/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathborderbox/strikethroughhorizontal/
 
 ## IMathBorderBox.StrikethroughHorizontal-Eigenschaft
 
-Durchgestrichen Horizontal (standardmäßig false) - gibt den versteckten oder sichtbaren Zustand einer durchgestrichenen horizontalen Linie an.
+Strikethrough Horizontal (standardmäßig ist falsch) - gibt den versteckten oder sichtbaren Zustand einer durchgestrichenen horizontalen Linie an.
 
 ```csharp
 public bool StrikethroughHorizontal { get; set; }
@@ -27,7 +27,7 @@ borderBox.StrikethroughHorizontal = true;
 
 ### Siehe auch
 
-* Interface [IMathBorderBox](../../imathborderbox)
+* Schnittstelle [IMathBorderBox](../../imathborderbox)
 * Namespace [Aspose.Slides.MathText](../../imathborderbox)
 * Assembly [Aspose.Slides](../../../)
 

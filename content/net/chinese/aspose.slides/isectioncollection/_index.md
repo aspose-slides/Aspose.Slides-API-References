@@ -1,7 +1,7 @@
 ---
 title: ISectionCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示一个部分的集合。
+description: 表示一个节的集合。
 type: docs
 weight: 6700
 url: /zh/aspose.slides/isectioncollection/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/isectioncollection/
 
 ## ISectionCollection 接口
 
-表示一个部分的集合。
+表示一个节的集合。
 
 ```csharp
 public interface ISectionCollection : IGenericCollection<ISection>
@@ -25,14 +25,14 @@ public interface ISectionCollection : IGenericCollection<ISection>
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddEmptySection](../../aspose.slides/isectioncollection/addemptysection)(string, int) | 在集合的指定位置添加空部分。 |
-| [AddSection](../../aspose.slides/isectioncollection/addsection)(string, ISlide) | 从特定幻灯片开始添加新部分。 |
-| [AppendEmptySection](../../aspose.slides/isectioncollection/appendemptysection)(string) | 在集合的末尾添加空部分。 |
-| [Clear](../../aspose.slides/isectioncollection/clear)() | 从集合中移除所有部分。 |
-| [IndexOf](../../aspose.slides/isectioncollection/indexof)(ISection) | 返回指定部分在集合中的索引。 |
-| [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | 移除部分。部分中包含的幻灯片将合并到前一部分。 |
-| [RemoveSectionWithSlides](../../aspose.slides/isectioncollection/removesectionwithslides)(ISection) | 移除部分及其包含的幻灯片。 |
-| [ReorderSectionWithSlides](../../aspose.slides/isectioncollection/reordersectionwithslides)(ISection, int) | 将部分及其幻灯片从集合移动到指定位置。 |
+| [AddEmptySection](../../aspose.slides/isectioncollection/addemptysection)(string, int) | 在集合的指定位置添加空节。 |
+| [AddSection](../../aspose.slides/isectioncollection/addsection)(string, ISlide) | 从特定幻灯片开始添加新节。 |
+| [AppendEmptySection](../../aspose.slides/isectioncollection/appendemptysection)(string) | 在集合的末尾添加空节。 |
+| [Clear](../../aspose.slides/isectioncollection/clear)() | 从集合中移除所有节。 |
+| [IndexOf](../../aspose.slides/isectioncollection/indexof)(ISection) | 返回指定节在集合中的索引。 |
+| [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | 移除节。节中包含的幻灯片将被合并到前一节。 |
+| [RemoveSectionWithSlides](../../aspose.slides/isectioncollection/removesectionwithslides)(ISection) | 移除节及其包含的幻灯片。 |
+| [ReorderSectionWithSlides](../../aspose.slides/isectioncollection/reordersectionwithslides)(ISection, int) | 将节及其幻灯片从集合中移动到指定位置。 |
 
 ### 另见
 

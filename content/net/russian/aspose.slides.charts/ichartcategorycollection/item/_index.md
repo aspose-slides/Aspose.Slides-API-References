@@ -1,13 +1,13 @@
 ---
-title: Элемент
-second_title: Справочник по API Aspose.Sildes для .NET
+title: Item
+second_title: Aspose.Sildes для .NET API Reference
 description: Получает элемент по указанному индексу.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/ichartcategorycollection/item/
 ---
 
-## Индексатор IChartCategoryCollection
+## IChartCategoryCollection индексатор
 
 Получает элемент по указанному индексу.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/ichartcategorycollection/item/
 public IChartCategory this[int index] { get; }
 ```
 
-### Возвращаемое значение
+### Значение Возврата
 
 Элемент по указанному индексу.
 
@@ -25,7 +25,7 @@ public IChartCategory this[int index] { get; }
 | --- | --- |
 | ArgumentOutOfRangeException | *index* не является допустимым индексом в IList. |
 
-### См. Также
+### См. также
 
 * интерфейс [IChartCategory](../../ichartcategory)
 * интерфейс [IChartCategoryCollection](../../ichartcategorycollection)

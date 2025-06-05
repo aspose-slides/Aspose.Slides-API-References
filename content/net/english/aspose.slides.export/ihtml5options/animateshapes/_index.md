@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export/ihtml5options/animateshapes/
 ---
+
 ## IHtml5Options.AnimateShapes property
 
 Returns or sets shapes animation option. Read/write Boolean.

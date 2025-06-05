@@ -1,7 +1,7 @@
 ---
 title: ShapeLock
-second_title: Aspose.Slides for .NET API 参考
-description: 返回形状锁。仅读 IConnectorLockaspose.slides/iconnectorlock。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回形状锁。只读 IConnectorLockaspose.slides/iconnectorlock。
 type: docs
 weight: 50
 url: /zh/aspose.slides/iconnector/shapelock/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/iconnector/shapelock/
 
 ## IConnector.ShapeLock 属性
 
-返回形状的锁。仅读 [`IConnectorLock`](../../iconnectorlock)。
+返回形状的锁。只读 [`IConnectorLock`](../../iconnectorlock)。
 
 ```csharp
 public IConnectorLock ShapeLock { get; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IConnectorLock](../../iconnectorlock)
 * 接口 [IConnector](../../iconnector)

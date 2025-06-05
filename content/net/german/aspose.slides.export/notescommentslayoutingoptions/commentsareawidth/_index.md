@@ -1,7 +1,7 @@
 ---
 title: CommentsAreaWidth
-second_title: Aspose.Slides für .NET API Referenz
-description: Legt die Breite des Kommentarausgabebereichs in Pixeln fest. Gilt nur, wenn Kommentare rechts angezeigt werden.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Breite des Kommentarausgabebereichs in Pixeln an oder setzt sie. Gilt nur, wenn Kommentare rechts angezeigt werden.
 type: docs
 weight: 30
 url: /de/aspose.slides.export/notescommentslayoutingoptions/commentsareawidth/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/notescommentslayoutingoptions/commentsareawidth/
 
 ## NotesCommentsLayoutingOptions.CommentsAreaWidth-Eigenschaft
 
-Legt die Breite des Kommentarausgabebereichs in Pixeln fest (Gilt nur, wenn Kommentare rechts angezeigt werden).
+Gibt die Breite des Kommentarausgabebereichs in Pixeln an oder setzt sie (Gilt nur, wenn Kommentare rechts angezeigt werden).
 
 ```csharp
 public int CommentsAreaWidth { get; set; }
@@ -17,7 +17,7 @@ public int CommentsAreaWidth { get; set; }
 
 ### Hinweise
 
-Der minimale und Standardwert beträgt **150**.
+Der minimale und Standardwert ist **150**.
 
 ### Siehe auch
 

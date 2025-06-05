@@ -19,28 +19,28 @@ public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallbac
 | --- | --- | --- |
 | regex | Regex | La expresión regular Regex para obtener cadenas a resaltar. |
 | highlightColor | Color | El color para resaltar el texto. |
-| callback | IFindResultCallback | El objeto de callback para recibir los resultados de búsqueda [`IFindResultCallback`](../../ifindresultcallback). |
+| callback | IFindResultCallback | El objeto de callback para recibir resultados de búsqueda [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Ejemplos
 
-El siguiente ejemplo de código muestra cómo resaltar texto en una presentación de PowerPoint utilizando una expresión regular.
+El siguiente fragmento de código muestra cómo resaltar texto en una presentación de PowerPoint utilizando una expresión regular.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// destacando todas las palabras con 10 o más caracteres
+	// resaltando todas las palabras con 10 caracteres o más
 	presentation.HighlightRegex(regex, Color.Blue, null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Véase también
+### Vea También
 
 * interfaz [IFindResultCallback](../../ifindresultcallback)
 * clase [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides](../../presentation)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

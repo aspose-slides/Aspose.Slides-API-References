@@ -1,27 +1,27 @@
 ---
-title: Recolectar
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa un grupo de métodos destinados a recolectar objetos modelo de diferentes tipos de Presentation../aspose.slides/presentation.
+title: Collect
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa un grupo de métodos destinados a recolectar objetos de modelo de diferentes tipos de Presentation../aspose.slides/presentation.
 type: docs
 weight: 7620
 url: /es/aspose.slides.lowcode/collect/
 ---
 
-## Clase Collect
+## Collect class
 
-Representa un grupo de métodos destinados a recolectar objetos modelo de diferentes tipos de [`Presentation`](../../aspose.slides/presentation).
+Representa un grupo de métodos destinados a recolectar objetos de modelo de diferentes tipos de [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public static class Collect
 ```
 
-## Métodos
+## Methods
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | static [Shapes](../../aspose.slides.lowcode/collect/shapes)(Presentation) | Recolecta todas las instancias de [`Shape`](../../aspose.slides/shape) en la [`Presentation`](../../aspose.slides/presentation). |
 
-### Ejemplos
+### Examples
 
 ```csharp
 using (Presentation pres = new Presentation("pres.pptx"))
@@ -33,7 +33,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }    
 ```
 
-### Ver También
+### See Also
 
 * namespace [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
 * assembly [Aspose.Slides](../../)

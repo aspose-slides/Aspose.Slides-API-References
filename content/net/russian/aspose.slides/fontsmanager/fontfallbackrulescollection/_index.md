@@ -1,7 +1,7 @@
 ---
 title: FontFallBackRulesCollection
-second_title: Aspose.Slides для .NET API Справка
-description: Представляет собой коллекцию правил FontFallBack пользователя для управления коллекциями шрифтов для правильных замен с помощью функции резервирования Чтение/запись IFontFallBackRulesCollectionaspose.slides/ifontfallbackrulescollection.
+second_title: Aspose.Sildes для .NET API Справка
+description: Представляет собой коллекцию правил FontFallBack пользователя для управления коллекциями шрифтов для правильной замены с помощью функции запасных шрифтов. Чтение/запись IFontFallBackRulesCollectionaspose.slides/ifontfallbackrulescollection.
 type: docs
 weight: 10
 url: /ru/aspose.slides/fontsmanager/fontfallbackrulescollection/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/fontsmanager/fontfallbackrulescollection/
 
 ## FontsManager.FontFallBackRulesCollection свойство
 
-Представляет собой коллекцию правил FontFallBack пользователя для управления коллекциями шрифтов для правильных замен с помощью функции резервирования Чтение/запись [`IFontFallBackRulesCollection`](../../ifontfallbackrulescollection).
+Представляет собой коллекцию правил FontFallBack пользователя для управления коллекциями шрифтов для правильной замены с помощью функции запасных шрифтов. Чтение/запись [`IFontFallBackRulesCollection`](../../ifontfallbackrulescollection).
 
 ```csharp
 public IFontFallBackRulesCollection FontFallBackRulesCollection { get; set; }
@@ -21,7 +21,7 @@ public IFontFallBackRulesCollection FontFallBackRulesCollection { get; set; }
 [C#]
 using (Presentation pres = new Presentation ())
 {
-    // Получение пустой или заранее инициализированной коллекции правил из FontsManager
+    // Получение пустой или предварительно инициализированной коллекции правил из FontsManager
     IFontFallBackRulesCollection rulesList = pres.FontsManager.FontFallBackRulesCollection;
 
     // добавление правил в коллекцию
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation ())
 }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IFontFallBackRulesCollection](../../ifontfallbackrulescollection)
 * класс [FontsManager](../../fontsmanager)

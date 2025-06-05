@@ -1,7 +1,7 @@
 ---
-title: Вставить
-second_title: Справка по API Aspose.Slides для .NET
-description: Создает новый градиентный стоп и вставляет его в указанном индексе в коллекцию.
+title: Insert
+second_title: Aspose.Sildes для .NET API Справочник
+description: Создает новую градиентную остановку и вставляет ее в указанном индексе в коллекцию.
 type: docs
 weight: 90
 url: /ru/aspose.slides/gradientstopcollection/insert/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/gradientstopcollection/insert/
 
 ## Insert(int, float, Color) {#insert_2}
 
-Создает новый градиентный стоп и вставляет его в указанном индексе в коллекцию.
+Создает новую градиентную остановку и вставляет ее в указанном индексе в коллекцию.
 
 ```csharp
 public void Insert(int index, float position, Color color)
@@ -17,11 +17,11 @@ public void Insert(int index, float position, Color color)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс в коллекции, куда будет вставлен новый градиентный стоп. |
-| position | Single | Позиция нового градиентного стопа. |
-| color | Color | Цвет нового градиентного стопа. |
+| index | Int32 | Индекс в коллекции, где будет вставлена новая градиентная остановка. |
+| position | Single | Позиция новой градиентной остановки. |
+| color | Color | Цвет новой градиентной остановки. |
 
-### См. также
+### Смотрите также
 
 * class [GradientStopCollection](../../gradientstopcollection)
 * namespace [Aspose.Slides](../../gradientstopcollection)
@@ -31,7 +31,7 @@ public void Insert(int index, float position, Color color)
 
 ## Insert(int, float, PresetColor) {#insert}
 
-Создает новый градиентный стоп и вставляет его в указанном индексе в коллекцию.
+Создает новую градиентную остановку и вставляет ее в указанном индексе в коллекцию.
 
 ```csharp
 public void Insert(int index, float position, PresetColor presetColor)
@@ -39,11 +39,11 @@ public void Insert(int index, float position, PresetColor presetColor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс в коллекции, куда будет вставлен новый градиентный стоп. |
-| position | Single | Позиция нового градиентного стопа. |
-| presetColor | PresetColor | Цвет нового градиентного стопа. |
+| index | Int32 | Индекс в коллекции, где будет вставлена новая градиентная остановка. |
+| position | Single | Позиция новой градиентной остановки. |
+| presetColor | PresetColor | Цвет новой градиентной остановки. |
 
-### См. также
+### Смотрите также
 
 * enum [PresetColor](../../presetcolor)
 * class [GradientStopCollection](../../gradientstopcollection)
@@ -54,7 +54,7 @@ public void Insert(int index, float position, PresetColor presetColor)
 
 ## Insert(int, float, SchemeColor) {#insert_1}
 
-Создает новый градиентный стоп и вставляет его в указанном индексе в коллекцию.
+Создает новую градиентную остановку и вставляет ее в указанном индексе в коллекцию.
 
 ```csharp
 public void Insert(int index, float position, SchemeColor schemeColor)
@@ -62,11 +62,11 @@ public void Insert(int index, float position, SchemeColor schemeColor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс в коллекции, куда будет вставлен новый градиентный стоп. |
-| position | Single | Позиция нового градиентного стопа. |
-| schemeColor | SchemeColor | Цвет нового градиентного стопа. |
+| index | Int32 | Индекс в коллекции, где будет вставлена новая градиентная остановка. |
+| position | Single | Позиция новой градиентной остановки. |
+| schemeColor | SchemeColor | Цвет новой градиентной остановки. |
 
-### См. также
+### Смотрите также
 
 * enum [SchemeColor](../../schemecolor)
 * class [GradientStopCollection](../../gradientstopcollection)

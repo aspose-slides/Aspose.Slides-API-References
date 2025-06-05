@@ -1,7 +1,7 @@
 ---
 title: PortionCollection
-second_title: Aspose.Slides для .NET API Ссылка
-description: Представляет коллекцию частей.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет собой коллекцию порций.
 type: docs
 weight: 9200
 url: /ru/aspose.slides/portioncollection/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/portioncollection/
 
 ## Класс PortionCollection
 
-Представляет коллекцию частей.
+Представляет собой коллекцию порций.
 
 ```csharp
 public sealed class PortionCollection : DomObject<Paragraph>, IPortionCollection
@@ -20,7 +20,7 @@ public sealed class PortionCollection : DomObject<Paragraph>, IPortionCollection
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.slides/portioncollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
-| [IsReadOnly](../../aspose.slides/portioncollection/isreadonly) { get; } | Получает значение, указывающее, является ли ICollection только для чтения. Только для чтения Boolean. |
+| [IsReadOnly](../../aspose.slides/portioncollection/isreadonly) { get; } | Получает значение, указывающее, является ли ICollection доступным только для чтения. Только для чтения Boolean. |
 | [Item](../../aspose.slides/portioncollection/item) { get; set; } | Получает элемент по указанному индексу. |
 
 ## Методы
@@ -31,11 +31,11 @@ public sealed class PortionCollection : DomObject<Paragraph>, IPortionCollection
 | [Clear](../../aspose.slides/portioncollection/clear)() | Удаляет все элементы из коллекции. |
 | [Contains](../../aspose.slides/portioncollection/contains)(IPortion) | Определяет, содержит ли ICollection определенное значение. |
 | [CopyTo](../../aspose.slides/portioncollection/copyto)(IPortion[], int) | Копирует элементы ICollection в массив, начиная с определенного индекса массива. |
-| [GetEnumerator](../../aspose.slides/portioncollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [GetEnumerator](../../aspose.slides/portioncollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 | [IndexOf](../../aspose.slides/portioncollection/indexof)(IPortion) | Определяет индекс конкретного элемента в IList. |
 | [Insert](../../aspose.slides/portioncollection/insert)(int, IPortion) | Вставляет Portion в коллекцию по указанному индексу. |
-| [Remove](../../aspose.slides/portioncollection/remove)(IPortion) | Удаляет первое вхождение определенного объекта из ICollection. |
-| [RemoveAt](../../aspose.slides/portioncollection/removeat)(int) | Удаляет элемент по указанному индексу из коллекции. |
+| [Remove](../../aspose.slides/portioncollection/remove)(IPortion) | Удаляет первое вхождение конкретного объекта из ICollection. |
+| [RemoveAt](../../aspose.slides/portioncollection/removeat)(int) | Удаляет элемент по указанному индексу в коллекции. |
 
 ### См. также
 

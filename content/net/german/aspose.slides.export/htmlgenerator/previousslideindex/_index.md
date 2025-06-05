@@ -1,7 +1,7 @@
 ---
 title: PreviousSlideIndex
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Index der vorherig gerenderten Folie zurück oder -1, wenn die erste Folie gerendert wird. Schreibgeschützter Int32.
+description: Gibt den Index der vorherig gerenderten Folie zurück oder -1, wenn die erste Folie gerendert wird. Nur lesbares Int32.
 type: docs
 weight: 20
 url: /de/aspose.slides.export/htmlgenerator/previousslideindex/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/htmlgenerator/previousslideindex/
 
 ## HtmlGenerator.PreviousSlideIndex-Eigenschaft
 
-Gibt den Index der vorherig gerenderten Folie zurück oder -1, wenn die erste Folie gerendert wird. Schreibgeschützter Int32.
+Gibt den Index der vorherig gerenderten Folie zurück oder -1, wenn die erste Folie gerendert wird. Nur lesbares Int32.
 
 ```csharp
 public int PreviousSlideIndex { get; }

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/masterslide/bodystyle/
 ---
+
 ## MasterSlide.BodyStyle property
 
 Returns the style of a body text. Read-only [`ITextStyle`](../../itextstyle).

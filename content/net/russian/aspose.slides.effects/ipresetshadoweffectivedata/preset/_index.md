@@ -1,21 +1,21 @@
 ---
-title: Пресет
-second_title: Справочник API Aspose.Slides для .NET
-description: Пресет. Свойство только для чтения PresetShadowTypeaspose.slides/presetshadowtype.
+title: Preset
+second_title: Aspose.Sildes для .NET API Reference
+description: Preset. Только для чтения PresetShadowTypeaspose.slides/presetshadowtype.
 type: docs
 weight: 40
 url: /ru/aspose.slides.effects/ipresetshadoweffectivedata/preset/
 ---
 
-## Свойство IPresetShadowEffectiveData.Preset
+## IPresetShadowEffectiveData.Preset свойство
 
-Пресет. Свойство только для чтения [`PresetShadowType`](../../../aspose.slides/presetshadowtype).
+Preset. Только для чтения [`PresetShadowType`](../../../aspose.slides/presetshadowtype).
 
 ```csharp
 public PresetShadowType Preset { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * enum [PresetShadowType](../../../aspose.slides/presetshadowtype)
 * interface [IPresetShadowEffectiveData](../../ipresetshadoweffectivedata)

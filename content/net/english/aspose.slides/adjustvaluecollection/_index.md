@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/adjustvaluecollection/
 ---
+
 ## AdjustValueCollection class
 
 Reprasents a collection of shape's adjustments.

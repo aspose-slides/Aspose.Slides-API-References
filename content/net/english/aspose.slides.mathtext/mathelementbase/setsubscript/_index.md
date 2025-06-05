@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides.mathtext/mathelementbase/setsubscript/
 ---
+
 ## SetSubscript(IMathElement) {#setsubscript}
 
 Creates subscript

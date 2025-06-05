@@ -1,7 +1,7 @@
 ---
-title: Einfügen
+title: Insert
 second_title: Aspose.Slides für .NET API-Referenz
-description: Fügt ein Mathe-Element an der angegebenen Indexstelle in die Sammlung ein.
+description: Fügt ein Mathe-Element an der angegebenen Stelle in die Sammlung ein.
 type: docs
 weight: 90
 url: /de/aspose.slides.mathtext/imathelementcollection/insert/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathelementcollection/insert/
 
 ## IMathElementCollection.Insert-Methode
 
-Fügt ein Mathe-Element an der angegebenen Indexstelle in die Sammlung ein.
+Fügt ein Mathe-Element an der angegebenen Stelle in die Sammlung ein.
 
 ```csharp
 public void Insert(int index, IMathElement item)
@@ -17,7 +17,7 @@ public void Insert(int index, IMathElement item)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Der null-basierte Index, an dem IMathElement eingefügt werden soll. |
+| index | Int32 | Der nullbasierte Index, an dem das IMathElement eingefügt werden soll. |
 | item | IMathElement | Das einzufügende IMathElement. |
 
 ### Beispiele

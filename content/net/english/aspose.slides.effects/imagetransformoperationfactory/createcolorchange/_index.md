@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.effects/imagetransformoperationfactory/createcolorchange/
 ---
+
 ## ImageTransformOperationFactory.CreateColorChange method
 
 Creates Color change effect.

@@ -1,7 +1,7 @@
 ---
 title: SetEffect
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: El constructor predeterminado.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: El constructor por defecto.
 type: docs
 weight: 10
 url: /es/aspose.slides.animation/seteffect/seteffect/
@@ -9,13 +9,13 @@ url: /es/aspose.slides.animation/seteffect/seteffect/
 
 ## Constructor de SetEffect
 
-El constructor predeterminado.
+El constructor por defecto.
 
 ```csharp
 public SetEffect()
 ```
 
-### Véase también
+### Ver También
 
 * clase [SetEffect](../../seteffect)
 * espacio de nombres [Aspose.Slides.Animation](../../seteffect)

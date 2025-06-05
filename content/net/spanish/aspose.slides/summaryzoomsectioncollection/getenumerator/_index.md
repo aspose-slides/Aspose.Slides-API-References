@@ -1,6 +1,6 @@
 ---
 title: GetEnumerator
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para la referencia de la API de .NET
 description: Devuelve un enumerador que itera a través de la colección.
 type: docs
 weight: 80
@@ -19,7 +19,7 @@ public IEnumerator<ISummaryZoomSection> GetEnumerator()
 
 Un IEnumerator que se puede utilizar para iterar a través de la colección.
 
-### Véase También
+### Vea También
 
 * interfaz [ISummaryZoomSection](../../isummaryzoomsection)
 * clase [SummaryZoomSectionCollection](../../summaryzoomsectioncollection)

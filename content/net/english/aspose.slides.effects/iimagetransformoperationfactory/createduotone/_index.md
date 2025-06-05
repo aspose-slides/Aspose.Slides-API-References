@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.effects/iimagetransformoperationfactory/createduotone/
 ---
+
 ## IImageTransformOperationFactory.CreateDuotone method
 
 Creates Duotone effect.

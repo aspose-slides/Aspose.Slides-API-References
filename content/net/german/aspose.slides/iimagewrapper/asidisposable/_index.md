@@ -15,11 +15,11 @@ Gibt das IDisposable-Interface zurück. Nur-Lese IDisposable.
 public IDisposable AsIDisposable { get; }
 ```
 
-### Bemerkungen
+### Hinweise
 
 Für COM-Kompatibilität.
 
-### Siehe Auch
+### Siehe auch
 
 * Interface [IImageWrapper](../../iimagewrapper)
 * Namespace [Aspose.Slides](../../iimagewrapper)

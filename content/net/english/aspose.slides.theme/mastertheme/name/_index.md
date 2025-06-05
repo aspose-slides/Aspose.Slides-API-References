@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.theme/mastertheme/name/
 ---
+
 ## MasterTheme.Name property
 
 Returns the name of a theme. Read/write String.

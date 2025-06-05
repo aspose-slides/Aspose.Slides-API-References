@@ -1,7 +1,7 @@
 ---
 title: ShowNarration
 second_title: Aspose.Slides für .NET API-Referenz
-description: Narration im Präsentationsmodus anzeigen
+description: Show Narration in Slide Show
 type: docs
 weight: 50
 url: /de/aspose.slides/slideshowsettings/shownarration/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/slideshowsettings/shownarration/
 
 ## SlideShowSettings.ShowNarration-Eigenschaft
 
-Narration im Präsentationsmodus anzeigen
+Show Narration in Slide Show
 
 ```csharp
 public bool ShowNarration { get; set; }

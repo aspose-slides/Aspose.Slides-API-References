@@ -1,5 +1,5 @@
 ---
-title: Iniciales
+title: Initials
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece las iniciales del autor. Cadena de lectura/escritura.
 type: docs
@@ -15,10 +15,10 @@ Devuelve o establece las iniciales del autor. Cadena de lectura/escritura.
 public string Initials { get; set; }
 ```
 
-### Véase También
+### Vea También
 
 * clase [CommentAuthor](../../commentauthor)
-* namespace [Aspose.Slides](../../commentauthor)
-* ensamblado [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides](../../commentauthor)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

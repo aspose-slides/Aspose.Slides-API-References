@@ -1,15 +1,15 @@
 ---
 title: GetEffective
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient des données de formatage de style de texte effectif avec l'héritage appliqué.
+second_title: Aspose.Sildes pour l'API .NET Référence
+description: Obtient les données de formatage de style de texte effectif avec l'héritage appliqué.
 type: docs
 weight: 20
 url: /fr/aspose.slides/itextstyle/geteffective/
 ---
 
-## Méthode ITextStyle.GetEffective
+## ITextStyle.GetEffective méthode
 
-Obtient des données de formatage de style de texte effectif avec l'héritage appliqué.
+Obtient les données de formatage de style de texte effectif avec l'héritage appliqué.
 
 ```csharp
 public ITextStyleEffectiveData GetEffective()

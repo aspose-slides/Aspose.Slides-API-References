@@ -1,13 +1,13 @@
 ---
 title: GetHashCode
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Référence API Aspose.Sildes pour .NET
 description: Sert de fonction de hachage pour un type particulier adapté à une utilisation dans des algorithmes de hachage et des structures de données comme une table de hachage.
 type: docs
 weight: 90
 url: /fr/aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode/
 ---
 
-## Méthode ImageTransformOCollectionEffectiveData.GetHashCode
+## ImageTransformOCollectionEffectiveData.GetHashCode méthode
 
 Sert de fonction de hachage pour un type particulier, adapté à une utilisation dans des algorithmes de hachage et des structures de données comme une table de hachage.
 
@@ -17,7 +17,7 @@ public override int GetHashCode()
 
 ### Valeur de retour
 
-Un code de hachage pour l'objet courant.
+Un code de hachage pour l'objet actuel.
 
 ### Voir aussi
 

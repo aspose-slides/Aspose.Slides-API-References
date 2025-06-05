@@ -1,7 +1,7 @@
 ---
 title: CreateParagraphFormat
-second_title: Aspose.Slides pour les références API .NET
-description: Crée un nouvel IParagraphFormataspose.slides/iparagraphformat.
+second_title: Aspose.Slides pour .NET Référence API
+description: Crée un nouvel IParagraphFormat aspose.slides/iparagraphformat.
 type: docs
 weight: 30
 url: /fr/aspose.slides/formatfactory/createparagraphformat/

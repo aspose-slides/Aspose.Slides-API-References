@@ -19,9 +19,9 @@ public interface IInkActions : IGraphicalObject
 
 | Nom | Description |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides.ink/iinkactions/asigraphicalobject) { get; } | Permet d'obtenir l'interface IGraphicalObject de base. En lecture seule [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides.ink/iinkactions/asigraphicalobject) { get; } | Permet d'obtenir l'interface de base IGraphicalObject. Lecture seule [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IGraphicalObject](../../aspose.slides/igraphicalobject)
 * namespace [Aspose.Slides.Ink](../../aspose.slides.ink)

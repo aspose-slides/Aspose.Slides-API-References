@@ -1,13 +1,13 @@
 ---
 title: CopyTo
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Ссылка
 description: Копировать в указанный массив.
 type: docs
 weight: 80
 url: /ru/aspose.slides.mathtext/mathblock/copyto/
 ---
 
-## Метод MathBlock.CopyTo
+## MathBlock.CopyTo метод
 
 Копировать в указанный массив.
 
@@ -34,7 +34,7 @@ IMathElement[] destinationArray = new IMathElement[mathBlock.Count];
 mathBlock.CopyTo(destinationArray, 0);
 ```
 
-### См. также
+### Также см.
 
 * интерфейс [IMathElement](../../imathelement)
 * класс [MathBlock](../../mathblock)

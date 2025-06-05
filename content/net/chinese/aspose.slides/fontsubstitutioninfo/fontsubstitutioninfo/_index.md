@@ -1,7 +1,7 @@
 ---
-title: 字体替换信息
-second_title: Aspose.Sildes for .NET API 参考
-description: 创建一个 FontSubstitutionInfoaspose.slides/fontsubstitutioninfo 类的实例。
+title: FontSubstitutionInfo
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建 FontSubstitutionInfoaspose.slides/fontsubstitutioninfo 类的实例。
 type: docs
 weight: 10
 url: /zh/aspose.slides/fontsubstitutioninfo/fontsubstitutioninfo/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/fontsubstitutioninfo/fontsubstitutioninfo/
 
 ## FontSubstitutionInfo 构造函数
 
-创建一个 [`FontSubstitutionInfo`](../../fontsubstitutioninfo) 类的实例。
+创建 [`FontSubstitutionInfo`](../../fontsubstitutioninfo) 类的实例。
 
 ```csharp
 public FontSubstitutionInfo(string originFontName, string substFontName)
@@ -17,8 +17,8 @@ public FontSubstitutionInfo(string originFontName, string substFontName)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| originFontName | 字符串 | 演示文稿中的源字体名称字符串 |
-| substFontName | 字符串 | 原始字体的替换字体名称字符串 |
+| originFontName | String | 演示文稿中的源字体名称 |
+| substFontName | String | 原始字体的替换字体名称 |
 
 ### 另请参见
 

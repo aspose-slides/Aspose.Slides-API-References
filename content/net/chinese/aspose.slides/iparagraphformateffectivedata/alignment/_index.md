@@ -1,7 +1,7 @@
 ---
-title: 对齐
-second_title: Aspose.Slides for .NET API 参考
-description: 返回段落中的文本对齐方式。只读 TextAlignment aspose.slides/textalignment。
+title: Alignment
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回段落中的文本对齐方式。只读 TextAlignmentaspose.slides/textalignment。
 type: docs
 weight: 10
 url: /zh/aspose.slides/iparagraphformateffectivedata/alignment/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/iparagraphformateffectivedata/alignment/
 public TextAlignment Alignment { get; }
 ```
 
-### 参见
+### 另请参阅
 
 * 枚举 [TextAlignment](../../textalignment)
 * 接口 [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)

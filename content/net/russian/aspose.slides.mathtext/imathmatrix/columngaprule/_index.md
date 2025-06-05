@@ -1,7 +1,7 @@
 ---
 title: ColumnGapRule
-second_title: Aspose.Slides для .NET API Справочник
-description: Тип горизонтального расстояния между столбцами матрицы. Единицы горизонтального расстояния могут быть em или точками, хранящимися в twips. По умолчанию SingleSpacingGap 0
+second_title: Aspose.Sildes для .NET API Справка
+description: Тип горизонтального расстояния между столбцами матрицы. Единицы измерения горизонтального расстояния могут быть em или пунктами, хранящимися в twips. По умолчанию SingleSpacingGap 0
 type: docs
 weight: 50
 url: /ru/aspose.slides.mathtext/imathmatrix/columngaprule/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/imathmatrix/columngaprule/
 
 ## IMathMatrix.ColumnGapRule свойство
 
-Тип горизонтального расстояния между столбцами матрицы; Единицы горизонтального расстояния могут быть em или точками (хранящимися в twips). По умолчанию: SingleSpacingGap (0)
+Тип горизонтального расстояния между столбцами матрицы; единицы измерения горизонтального расстояния могут быть em или пунктами (хранящимися в twips). По умолчанию: SingleSpacingGap (0)
 
 ```csharp
 public MathSpacingRules ColumnGapRule { get; set; }
@@ -25,7 +25,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.ColumnGapRule = MathSpacingRules.OneAndHalfSpacingGap;
 ```
 
-### Смотрите также
+### См. также
 
 * enum [MathSpacingRules](../../mathspacingrules)
 * interface [IMathMatrix](../../imathmatrix)

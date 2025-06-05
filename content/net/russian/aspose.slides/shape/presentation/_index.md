@@ -1,6 +1,6 @@
 ---
-title: Презентация
-second_title: Справочник API Aspose.Slides для .NET
+title: Presentation
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Возвращает родительскую презентацию слайда. Только для чтения IPresentationaspose.slides/ipresentation.
 type: docs
 weight: 220

@@ -1,13 +1,13 @@
 ---
 title: TextVerticalType
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает или задает тип вертикального текста. Чтение/запись TextVerticalTypeaspose.slides/textverticaltype.
 type: docs
 weight: 230
 url: /ru/aspose.slides/cell/textverticaltype/
 ---
 
-## Свойство Cell.TextVerticalType
+## Cell.TextVerticalType свойство
 
 Возвращает или задает тип вертикального текста. Чтение/запись [`TextVerticalType`](../../textverticaltype).
 

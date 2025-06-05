@@ -1,15 +1,15 @@
 ---
 title: SetDateTimeAndChildDateTimesText
-second_title: Aspose.Slides for .NET API 参考
-description: 设置主备注幻灯片的日期时间占位符及所有子日期时间占位符的文本。子占位符是指包含在依赖的备注幻灯片上的占位符。依赖的备注幻灯片使用并依赖于主备注幻灯片。
+second_title: Aspose.Sildes for .NET API Reference
+description: 设置主备注幻灯片日期时间占位符和所有子日期时间占位符的文本。子占位符意味着这些占位符包含在依赖的备注幻灯片上。依赖的备注幻灯片使用并依赖于主备注幻灯片。
 type: docs
 weight: 20
 url: /zh/aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext/
 ---
 
-## IMasterNotesSlideHeaderFooterManager.SetDateTimeAndChildDateTimesText 方法
+## IMasterNotesSlideHeaderFooterManager.SetDateTimeAndChildDateTimesText method
 
-设置主备注幻灯片的日期时间占位符及所有子日期时间占位符的文本。子占位符是指包含在依赖的备注幻灯片上的占位符。依赖的备注幻灯片使用并依赖于主备注幻灯片。
+设置主备注幻灯片日期时间占位符和所有子日期时间占位符的文本。子占位符意味着这些占位符包含在依赖的备注幻灯片上。依赖的备注幻灯片使用并依赖于主备注幻灯片。
 
 ```csharp
 public void SetDateTimeAndChildDateTimesText(string text)
@@ -19,7 +19,7 @@ public void SetDateTimeAndChildDateTimesText(string text)
 | --- | --- | --- |
 | text | String | 要设置的文本。 |
 
-### 另请参阅
+### 另见
 
 * 接口 [IMasterNotesSlideHeaderFooterManager](../../imasternotesslideheaderfootermanager)
 * 命名空间 [Aspose.Slides](../../imasternotesslideheaderfootermanager)

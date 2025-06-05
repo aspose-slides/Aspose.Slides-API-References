@@ -1,13 +1,13 @@
 ---
 title: IsOverrideThemeEnabled
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Determina si OverrideTheme anula el tema efectivo heredado Presentation.MasterTheme o no. Booleano de lectura/escritura.
 type: docs
 weight: 10
 url: /es/aspose.slides.theme/masterthememanager/isoverridethemeenabled/
 ---
 
-## Propiedad MasterThemeManager.IsOverrideThemeEnabled
+## MasterThemeManager.IsOverrideThemeEnabled propiedad
 
 Determina si OverrideTheme anula el tema efectivo heredado (Presentation.MasterTheme) o no. Booleano de lectura/escritura.
 
@@ -19,6 +19,6 @@ public bool IsOverrideThemeEnabled { get; set; }
 
 * clase [MasterThemeManager](../../masterthememanager)
 * espacio de nombres [Aspose.Slides.Theme](../../masterthememanager)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

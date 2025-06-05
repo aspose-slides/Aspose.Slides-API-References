@@ -1,7 +1,7 @@
 ---
 title: PathSegment
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente un segment du chemin graphique de GeometryShape
+second_title: Aspose.Sildes pour la référence API .NET
+description: Représente un segment de chemin graphique de GeometryShape
 type: docs
 weight: 9070
 url: /fr/aspose.slides/pathsegment/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/pathsegment/
 
 ## Classe PathSegment
 
-Représente un segment du chemin graphique de GeometryShape
+Représente un segment de chemin graphique de GeometryShape
 
 ```csharp
 public sealed class PathSegment : IPathSegment

@@ -1,6 +1,6 @@
 ---
 title: IndexOf
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает индекс указанного объекта SummaryZoomSection.
 type: docs
 weight: 100
@@ -17,7 +17,7 @@ public int IndexOf(ISummaryZoomSection summaryZoomSection)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| summaryZoomSection | ISummaryZoomSection | Объект SummaryZoomSection, который нужно найти [`ISummaryZoomSection`](../../isummaryzoomsection). |
+| summaryZoomSection | ISummaryZoomSection | Объект SummaryZoomSection, который необходимо найти [`ISummaryZoomSection`](../../isummaryzoomsection). |
 
 ### Возвращаемое значение
 
@@ -25,7 +25,7 @@ public int IndexOf(ISummaryZoomSection summaryZoomSection)
 
 ### Примеры
 
-В примере демонстрируется получение элемента Summary Zoom Section по индексу:
+Пример демонстрирует получение элемента Summary Zoom Section по индексу:
 
 ```csharp
 [C#]

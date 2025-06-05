@@ -1,7 +1,7 @@
 ---
 title: AddEmptySlide
-second_title: Aspose.Sildes for .NET API 参考
-description: 在集合的末尾添加一个新的空白幻灯片。
+second_title: Aspose.Sildes for .NET API Reference
+description: 添加一个新的空幻灯片到集合的末尾。
 type: docs
 weight: 30
 url: /zh/aspose.slides/islidecollection/addemptyslide/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/islidecollection/addemptyslide/
 
 ## ISlideCollection.AddEmptySlide 方法
 
-在集合的末尾添加一个新的空白幻灯片。
+添加一个新的空幻灯片到集合的末尾。
 
 ```csharp
 public ISlide AddEmptySlide(ILayoutSlide layout)
@@ -23,7 +23,7 @@ public ISlide AddEmptySlide(ILayoutSlide layout)
 
 添加的幻灯片。
 
-### 参见
+### 另请参见
 
 * 接口 [ISlide](../../islide)
 * 接口 [ILayoutSlide](../../ilayoutslide)

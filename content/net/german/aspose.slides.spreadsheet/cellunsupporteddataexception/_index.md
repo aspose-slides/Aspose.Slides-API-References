@@ -1,15 +1,15 @@
 ---
 title: CellUnsupportedDataException
 second_title: Aspose.Slides für .NET API Referenz
-description: Die Ausnahme, die ausgelöst wird, wenn nicht unterstützte Daten in einer Tabellenzelle gefunden werden.
+description: Die Ausnahme, die ausgelöst wird, wenn in einer Tabellenzelle nicht unterstützte Daten gefunden werden.
 type: docs
 weight: 10420
 url: /de/aspose.slides.spreadsheet/cellunsupporteddataexception/
 ---
 
-## CellUnsupportedDataException Klasse
+## CellUnsupportedDataException-Klasse
 
-Die Ausnahme, die ausgelöst wird, wenn nicht unterstützte Daten in einer Tabellenzelle gefunden werden.
+Die Ausnahme, die ausgelöst wird, wenn in einer Tabellenzelle nicht unterstützte Daten gefunden werden.
 
 ```csharp
 public class CellUnsupportedDataException : PptxEditException

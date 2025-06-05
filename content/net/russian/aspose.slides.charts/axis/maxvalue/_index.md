@@ -1,7 +1,7 @@
 ---
 title: MaxValue
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет максимальное значение на оси значений. Чтение/запись Double.
+second_title: Aspose.Slides для .NET API Справка
+description: Представляет максимальное значение на оси значений. Читаемое/записываемое Double.
 type: docs
 weight: 380
 url: /ru/aspose.slides.charts/axis/maxvalue/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/axis/maxvalue/
 
 ## Свойство Axis.MaxValue
 
-Представляет максимальное значение на оси значений. Чтение/запись Double.
+Представляет максимальное значение на оси значений. Читаемое/записываемое Double.
 
 ```csharp
 public double MaxValue { get; set; }

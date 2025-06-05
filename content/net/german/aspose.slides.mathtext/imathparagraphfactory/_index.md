@@ -7,7 +7,7 @@ weight: 8150
 url: /de/aspose.slides.mathtext/imathparagraphfactory/
 ---
 
-## IMathParagraphFactory-Schnittstelle
+## IMathParagraphFactory Schnittstelle
 
 Ermöglicht das Erstellen eines mathematischen Absatzes
 
@@ -19,14 +19,14 @@ public interface IMathParagraphFactory
 
 | Name | Beschreibung |
 | --- | --- |
-| [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph)() | Erstellt einen leeren mathematischen Absatz |
+| [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph)() | Leeren mathematischen Absatz erstellen |
 | [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph_1)(IMathBlock) | Erstellt einen mathematischen Absatz und platziert den angegebenen mathematischen Block darin |
 
-### Anmerkungen
+### Bemerkungen
 
 Für COM-Kompatibilität
 
-### Siehe auch
+### Siehe Auch
 
 * Namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * Assembly [Aspose.Slides](../../)

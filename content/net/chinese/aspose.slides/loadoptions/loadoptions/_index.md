@@ -15,7 +15,7 @@ url: /zh/aspose.slides/loadoptions/loadoptions/
 public LoadOptions()
 ```
 
-### 另请参阅
+### 参考
 
 * class [LoadOptions](../../loadoptions)
 * namespace [Aspose.Slides](../../loadoptions)
@@ -35,7 +35,7 @@ public LoadOptions(LoadFormat loadFormat)
 | --- | --- | --- |
 | loadFormat | LoadFormat | 要加载的演示文稿的格式。 |
 
-### 另请参阅
+### 参考
 
 * enum [LoadFormat](../../loadformat)
 * class [LoadOptions](../../loadoptions)

@@ -1,6 +1,6 @@
 ---
 title: MathParagraph
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Paragraphe mathématique
 type: docs
 weight: 10

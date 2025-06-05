@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/oleobjectframe/isobjectlink/
 ---
+
 ## OleObjectFrame.IsObjectLink property
 
 Determines whether an object is linked to external file. Read-only Boolean.

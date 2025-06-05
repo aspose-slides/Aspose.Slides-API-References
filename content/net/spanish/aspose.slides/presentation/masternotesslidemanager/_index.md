@@ -1,6 +1,6 @@
 ---
 title: MasterNotesSlideManager
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para referencia de API de .NET
 description: Devuelve el administrador de notas maestras. Solo lectura IMasterNotesSlideManageraspose.slides/imasternotesslidemanager.
 type: docs
 weight: 170
@@ -15,11 +15,11 @@ Devuelve el administrador de notas maestras. Solo lectura [`IMasterNotesSlideMan
 public IMasterNotesSlideManager MasterNotesSlideManager { get; }
 ```
 
-### Véase También
+### Véase también
 
-* interfaz [IMasterNotesSlideManager](../../imasternotesslidemanager)
-* clase [Presentation](../../presentation)
-* espacio de nombres [Aspose.Slides](../../presentation)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IMasterNotesSlideManager](../../imasternotesslidemanager)
+* clase [Presentation](../../presentation)
+* espacio de nombres [Aspose.Slides](../../presentation)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

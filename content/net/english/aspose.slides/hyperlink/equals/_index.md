@@ -3,9 +3,10 @@ title: Equals
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines whether the two Hyperlink instances are equal.
 type: docs
-weight: 200
+weight: 210
 url: /aspose.slides/hyperlink/equals/
 ---
+
 ## Equals(object) {#equals_1}
 
 Determines whether the two Hyperlink instances are equal.

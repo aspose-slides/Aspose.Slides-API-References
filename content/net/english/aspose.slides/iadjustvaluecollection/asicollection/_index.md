@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/iadjustvaluecollection/asicollection/
 ---
+
 ## IAdjustValueCollection.AsICollection property
 
 Allows to get base ICollection interface. Read-only ICollection.

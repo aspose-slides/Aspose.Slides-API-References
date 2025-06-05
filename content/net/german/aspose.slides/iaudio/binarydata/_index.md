@@ -1,7 +1,7 @@
 ---
 title: BinaryData
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt eine Kopie der Audiodaten zurück. Bei einer großen Menge an Daten sollten Sie die Methode GetStream../getstream verwenden, um zu verhindern, dass unnötige Audiodaten in den Speicher geladen werden oder sogar eine OutOfMemoryException auftritt. Nur lesbares Byte.
+description: Gibt eine Kopie der Audiodaten zurück. Bei einer großen Menge an Daten sollte die Verwendung der Methode GetStream../getstream in Betracht gezogen werden, um das unnötige Laden der Audiodaten in den Speicher oder sogar eine OutOfMemoryException zu vermeiden. Schreibgeschütztes Byte.
 type: docs
 weight: 10
 url: /de/aspose.slides/iaudio/binarydata/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/iaudio/binarydata/
 
 ## IAudio.BinaryData-Eigenschaft
 
-Gibt eine Kopie der Audiodaten zurück. Bei einer großen Menge an Daten sollten Sie die Methode [`GetStream`](../getstream) verwenden, um zu verhindern, dass unnötige Audiodaten in den Speicher geladen werden oder sogar eine OutOfMemoryException auftritt. Nur lesbares Byte[].
+Gibt eine Kopie der Audiodaten zurück. Bei einer großen Menge an Daten sollte die Verwendung der Methode [`GetStream`](../getstream) in Betracht gezogen werden, um das unnötige Laden der Audiodaten in den Speicher oder sogar eine OutOfMemoryException zu vermeiden. Schreibgeschütztes Byte[].
 
 ```csharp
 public byte[] BinaryData { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IAudio](../../iaudio)
 * Namespace [Aspose.Slides](../../iaudio)

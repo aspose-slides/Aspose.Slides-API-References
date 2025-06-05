@@ -1,7 +1,7 @@
 ---
 title: BevelType
 second_title: Aspose.Slides для .NET API Справочник
-description: Тип фаски. Только для чтения BevelPresetTypeaspose.slides/bevelpresettype.
+description: Тип скошенного края. Только для чтения BevelPresetTypeaspose.slides/bevelpresettype.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ishapebeveleffectivedata/beveltype/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/ishapebeveleffectivedata/beveltype/
 
 ## IShapeBevelEffectiveData.BevelType свойство
 
-Тип фаски. Только для чтения [`BevelPresetType`](../../bevelpresettype).
+Тип скошенного края. Только для чтения [`BevelPresetType`](../../bevelpresettype).
 
 ```csharp
 public BevelPresetType BevelType { get; }
 ```
 
-### См. также
+### Также смотри
 
 * enum [BevelPresetType](../../bevelpresettype)
 * interface [IShapeBevelEffectiveData](../../ishapebeveleffectivedata)

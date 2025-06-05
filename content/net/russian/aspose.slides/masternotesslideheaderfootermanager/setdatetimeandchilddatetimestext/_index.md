@@ -1,7 +1,7 @@
 ---
 title: SetDateTimeAndChildDateTimesText
-second_title: Aspose.Sildes для справки по API .NET
-description: Устанавливает текст для заполнителя даты и времени главного слайда и всех дочерних заполнителей даты и времени. Дочерние заполнители означают, что заполнители находятся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от главного слайда заметок.
+second_title: Aspose.Slides для .NET API Reference
+description: Устанавливает текст в заполнителе даты и времени основной слайд и все дочерние заполнители даты и времени. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от основного слайда заметок.
 type: docs
 weight: 10
 url: /ru/aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimestext/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchildda
 
 ## MasterNotesSlideHeaderFooterManager.SetDateTimeAndChildDateTimesText метод
 
-Устанавливает текст для заполнителя даты и времени главного слайда и всех дочерних заполнителей даты и времени. Дочерние заполнители означают, что заполнители находятся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от главного слайда заметок.
+Устанавливает текст в заполнителе даты и времени основной слайд и все дочерние заполнители даты и времени. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от основного слайда заметок.
 
 ```csharp
 public void SetDateTimeAndChildDateTimesText(string text)
@@ -19,7 +19,7 @@ public void SetDateTimeAndChildDateTimesText(string text)
 | --- | --- | --- |
 | text | String | Текст для установки. |
 
-### См. также
+### Смотрите также
 
 * класс [MasterNotesSlideHeaderFooterManager](../../masternotesslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../masternotesslideheaderfootermanager)

@@ -1,7 +1,7 @@
 ---
 title: BlurRadius
-second_title: Référence API Aspose.Slides pour .NET
-description: Rayonnement de flou. Lecture/écriture Double.
+second_title: Aspose.Slides pour .NET Référence API
+description: Rayon de flou. Lire/écrire Double.
 type: docs
 weight: 30
 url: /fr/aspose.slides.effects/ireflection/blurradius/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/ireflection/blurradius/
 
 ## Propriété IReflection.BlurRadius
 
-Rayonnement de flou. Lecture/écriture Double.
+Rayon de flou. Lire/écrire Double.
 
 ```csharp
 public double BlurRadius { get; set; }

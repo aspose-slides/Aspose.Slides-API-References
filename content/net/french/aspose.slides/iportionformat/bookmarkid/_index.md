@@ -1,15 +1,15 @@
 ---
 title: BookmarkId
-second_title: Référence API d'Aspose.Slides pour .NET
-description: Renvoie ou définit l'identifiant de signet. Lecture/écriture String.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Retourne ou définit l'identifiant du signet. Chaîne en lecture/écriture.
 type: docs
 weight: 30
 url: /fr/aspose.slides/iportionformat/bookmarkid/
 ---
 
-## Propriété IPortionFormat.BookmarkId
+## IPortionFormat.BookmarkId propriété
 
-Renvoie ou définit l'identifiant de signet. Lecture/écriture String.
+Retourne ou définit l'identifiant du signet. Chaîne en lecture/écriture.
 
 ```csharp
 public string BookmarkId { get; set; }

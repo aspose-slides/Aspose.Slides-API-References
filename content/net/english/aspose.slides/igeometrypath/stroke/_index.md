@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/igeometrypath/stroke/
 ---
+
 ## IGeometryPath.Stroke property
 
 Sets stroke appearance

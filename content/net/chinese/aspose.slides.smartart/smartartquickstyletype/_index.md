@@ -1,6 +1,6 @@
 ---
 title: SmartArtQuickStyleType
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示 SmartArt 图表的样式方案。
 type: docs
 weight: 10340
@@ -34,7 +34,7 @@ public enum SmartArtQuickStyleType
 | SunsetScene | `12` | SunsetScene |
 | BirdsEyeScene | `13` | BirdsEyeScene |
 
-### 参见
+### 另请参见
 
 * 命名空间 [Aspose.Slides.SmartArt](../../aspose.slides.smartart)
 * 程序集 [Aspose.Slides](../../)

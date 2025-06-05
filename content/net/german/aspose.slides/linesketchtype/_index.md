@@ -1,15 +1,15 @@
 ---
 title: LineSketchType
 second_title: Aspose.Slides für .NET API Referenz
-description: Repräsentiert, welcher Skizzen-Typ oder Effekt einer Form zugewiesen wurde.
+description: Stellt dar, welchem Skizzen-Typ oder Effekt eine Form zugewiesen wurde.
 type: docs
 weight: 7570
 url: /de/aspose.slides/linesketchtype/
 ---
 
-## LineSketchType-Aufzählung
+## LineSketchType Aufzählung
 
-Repräsentiert, welcher Skizzen-Typ oder Effekt einer Form zugewiesen wurde.
+Stellt dar, welchem Skizzen-Typ oder Effekt eine Form zugewiesen wurde.
 
 ```csharp
 public enum LineSketchType
@@ -19,11 +19,11 @@ public enum LineSketchType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| NotDefined | `-1` | Gibt an, dass der Skizzen-Effekt einer Form undefiniert ist. |
-| None | `0` | Gibt an, dass eine Form keinen Skizzen-Effekt hat. Dies entspricht, dass diese Eigenschaft leer ist. |
-| Curved | `1` | Gibt an, dass eine Form den Curved-Effekt hat, der jede Kante der Form in eine große sanfte Kurve verwandelt. |
-| Freehand | `2` | Gibt an, dass eine Form den Freehand-Effekt hat, der am ehesten einer unvollkommen gezeichneten Linie ähnelt. |
-| Scribble | `3` | Gibt an, dass eine Form den Scribble-Effekt hat, der übertriebene Oszillation aufweist, als ob absichtlich unordentlich gezeichnet. |
+| NotDefined | `-1` | Gibt an, dass der Skizzen-Effekt einer Form nicht definiert ist. |
+| None | `0` | Gibt an, dass eine Form keinen Skizzen-Effekt hat. Dies ist gleichbedeutend damit, dass diese Eigenschaft leer ist. |
+| Curved | `1` | Gibt an, dass eine Form den Effekt „Kurvig“ hat, der jede Kante der Form in eine große sanfte Kurve verwandelt. |
+| Freehand | `2` | Gibt an, dass eine Form den Effekt „Freihand“ hat, der am ehesten einer unvollkommen gezeichneten Linie ähnelt. |
+| Scribble | `3` | Gibt an, dass eine Form den Effekt „Kritzeln“ hat, der übertriebene Schwingungen zeigt, als ob absichtlich unordentlich gezeichnet wurde. |
 
 ### Siehe auch
 

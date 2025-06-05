@@ -1,15 +1,15 @@
 ---
 title: TextInheritanceLimit
 second_title: Aspose.Slides für .NET API-Referenz
-description: Steuert die Tiefe der Vererbung von Text Eigenschaften.
+description: Steuert die Tiefe der Vererbung von Text-Eigenschaften.
 type: docs
 weight: 4350
 url: /de/aspose.slides.export/textinheritancelimit/
 ---
 
-## TextInheritanceLimit Aufzählung
+## TextInheritanceLimit-Aufzählung
 
-Steuert die Tiefe der Vererbung von Text Eigenschaften.
+Steuert die Tiefe der Vererbung von Text-Eigenschaften.
 
 ```csharp
 public enum TextInheritanceLimit
@@ -19,11 +19,11 @@ public enum TextInheritanceLimit
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| All | `0` | Alle Text Eigenschaften vererben. |
-| TextBox | `1` | Nur vom Stil des TextFrames vererben. |
-| ParagraphOnly | `2` | Nur Eigenschaften verwenden, die für den Absatz definiert sind. |
+| All | `0` | Alle Text-Eigenschaften vererben. |
+| TextBox | `1` | Nur vom Stil des TextFrame erben. |
+| ParagraphOnly | `2` | Nur Eigenschaften verwenden, die für Absätze definiert sind. |
 
-### Siehe Auch
+### Siehe auch
 
 * Namespace [Aspose.Slides.Export](../../aspose.slides.export)
 * Assembly [Aspose.Slides](../../)

@@ -1,7 +1,7 @@
 ---
 title: CreateMathSuperscriptElement
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Crée un IMathSuperscriptElement
+description: Crée IMathSuperscriptElement
 type: docs
 weight: 20
 url: /fr/aspose.slides.mathtext/mathsuperscriptelementfactory/createmathsuperscriptelement/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/mathsuperscriptelementfactory/createmathsuperscr
 
 ## MathSuperscriptElementFactory.CreateMathSuperscriptElement méthode
 
-Crée un IMathSuperscriptElement
+Crée IMathSuperscriptElement
 
 ```csharp
 public IMathSuperscriptElement CreateMathSuperscriptElement(IMathElement baseArg, 
@@ -18,14 +18,14 @@ public IMathSuperscriptElement CreateMathSuperscriptElement(IMathElement baseArg
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| baseArg | IMathElement | Argument de base pour appliquer un exposant |
-| superScript | IMathElement | indice en haut à droite |
+| baseArg | IMathElement | Argument de base pour appliquer le superscript |
+| superScript | IMathElement | index supérieur droit |
 
-### Valeur de Retour
+### Valeur de retour
 
-nouveau IMathSuperscriptElement
+nouvel IMathSuperscriptElement
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathSuperscriptElement](../../imathsuperscriptelement)
 * interface [IMathElement](../../imathelement)

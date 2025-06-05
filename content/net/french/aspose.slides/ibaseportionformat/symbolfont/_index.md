@@ -1,21 +1,21 @@
 ---
 title: SymbolFont
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit les informations de la police symbolique. Null signifie que la police est indéfinie et doit être héritée du Maître. Lecture/écriture IFontDataaspose.slides/ifontdata.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Renvoie ou définit les informations de la police symbolique. Null signifie que la police est non définie et doit être héritée du Maître. Lecture/écriture IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 230
 url: /fr/aspose.slides/ibaseportionformat/symbolfont/
 ---
 
-## Propriété IBasePortionFormat.SymbolFont
+## IBasePortionFormat.SymbolFont propriété
 
-Renvoie ou définit les informations de la police symbolique. Null signifie que la police est indéfinie et doit être héritée du Maître. Lecture/écriture [`IFontData`](../../ifontdata).
+Renvoie ou définit les informations de la police symbolique. Null signifie que la police est non définie et doit être héritée du Maître. Lecture/écriture [`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData SymbolFont { get; set; }
 ```
 
-### Voir également
+### Voir Aussi
 
 * interface [IFontData](../../ifontdata)
 * interface [IBasePortionFormat](../../ibaseportionformat)

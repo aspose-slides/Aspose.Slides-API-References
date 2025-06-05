@@ -1,15 +1,15 @@
 ---
-title: Longueur de la tête de flèche finale
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie la longueur de la tête de flèche à la fin d'une ligne. En lecture seule LineArrowheadLengthaspose.slides/linearrowheadlength.
+title: EndArrowheadLength
+second_title: Aspose.Sildes pour .NET Référence API
+description: Renvoie la longueur de la flèche à l'extrémité d'une ligne. Lecture seule LineArrowheadLengthaspose.slides/linearrowheadlength.
 type: docs
 weight: 90
 url: /fr/aspose.slides/ilineformateffectivedata/endarrowheadlength/
 ---
 
-## Propriété ILineFormatEffectiveData.EndArrowheadLength
+## ILineFormatEffectiveData.EndArrowheadLength propriété
 
-Renvoie la longueur de la tête de flèche à la fin d'une ligne. En lecture seule [`LineArrowheadLength`](../../linearrowheadlength).
+Renvoie la longueur de la flèche à l'extrémité d'une ligne. Lecture seule [`LineArrowheadLength`](../../linearrowheadlength).
 
 ```csharp
 public LineArrowheadLength EndArrowheadLength { get; }

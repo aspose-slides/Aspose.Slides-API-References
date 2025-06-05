@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/coloroperationcollection/count/
 ---
+
 ## ColorOperationCollection.Count property
 
 Returns the number of operations in a collection. Read-only Int32.

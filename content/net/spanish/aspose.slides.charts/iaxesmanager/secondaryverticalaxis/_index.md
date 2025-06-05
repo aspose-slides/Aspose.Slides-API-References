@@ -1,7 +1,7 @@
 ---
 title: SecondaryVerticalAxis
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Obtiene el eje vertical secundario de los gráficos. Solo lectura IAxisaspose.slides.charts/iaxis.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Obtiene el eje vertical secundario del gráfico. Solo lectura IAxisaspose.slides.charts/iaxis.
 type: docs
 weight: 30
 url: /es/aspose.slides.charts/iaxesmanager/secondaryverticalaxis/
@@ -15,11 +15,11 @@ Obtiene el eje vertical secundario del gráfico. Solo lectura [`IAxis`](../../ia
 public IAxis SecondaryVerticalAxis { get; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [IAxis](../../iaxis)
-* interfaz [IAxesManager](../../iaxesmanager)
-* espacio de nombres [Aspose.Slides.Charts](../../iaxesmanager)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IAxis](../../iaxis)
+* interfaz [IAxesManager](../../iaxesmanager)
+* espacio de nombres [Aspose.Slides.Charts](../../iaxesmanager)
+* ensamblaje [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->

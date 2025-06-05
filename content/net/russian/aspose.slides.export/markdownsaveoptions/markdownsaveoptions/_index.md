@@ -1,6 +1,6 @@
 ---
 title: MarkdownSaveOptions
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Конструктор.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export/markdownsaveoptions/markdownsaveoptions/
 public MarkdownSaveOptions()
 ```
 
-### Смотрите также
+### См. Также
 
 * класс [MarkdownSaveOptions](../../markdownsaveoptions)
 * пространство имен [Aspose.Slides.Export](../../markdownsaveoptions)

@@ -1,6 +1,6 @@
 ---
 title: ModernCommentStatus
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Représente le statut d'un commentaire moderne.
 type: docs
 weight: 8830

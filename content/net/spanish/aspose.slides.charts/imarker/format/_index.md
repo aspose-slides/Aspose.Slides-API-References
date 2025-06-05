@@ -1,25 +1,25 @@
----
-title: Formato
-second_title: Referencia de la API de Aspose.Slides para .NET
+---  
+title: Format
+second_title: Referencia de API de Aspose.Slides para .NET  
 description: Obtiene el relleno del marcador. Solo lectura IFormataspose.slides.charts/iformat.
-type: docs
-weight: 10
+type: docs  
+weight: 10  
 url: /es/aspose.slides.charts/imarker/format/
----
+---  
 
-## Propiedad IMarker.Format
+## Propiedad IMarker.Format  
 
-Obtiene el relleno del marcador. Solo lectura [`IFormat`](../../iformat).
+Obtiene el relleno del marcador. Solo lectura [`IFormat`](../../iformat).  
 
-```csharp
-public IFormat Format { get; }
-```
+```csharp  
+public IFormat Format { get; }  
+```  
 
-### Véase también
+### Ver También  
 
-* interfaz [IFormat](../../iformat)
-* interfaz [IMarker](../../imarker)
-* espacio de nombres [Aspose.Slides.Charts](../../imarker)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IFormat](../../iformat)  
+* interfaz [IMarker](../../imarker)  
+* espacio de nombres [Aspose.Slides.Charts](../../imarker)  
+* ensamblado [Aspose.Slides](../../../)  
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  

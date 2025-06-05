@@ -6,6 +6,7 @@ type: docs
 weight: 210
 url: /aspose.slides.charts/chartdatapoint/yvalue/
 ---
+
 ## ChartDataPoint.YValue property
 
 YValue. Read-only [`IDoubleChartValue`](../../idoublechartvalue).

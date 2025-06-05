@@ -1,7 +1,7 @@
 ---
 title: IProtectionManager
-second_title: Référence API Aspose.Slides pour .NET
-description: Gestion de la protection par mot de passe des présentations.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Gestion de la protection par mot de passe de la présentation.
 type: docs
 weight: 6620
 url: /fr/aspose.slides/iprotectionmanager/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/iprotectionmanager/
 
 ## Interface IProtectionManager
 
-Gestion de la protection par mot de passe des présentations.
+Gestion de la protection par mot de passe de la présentation.
 
 ```csharp
 public interface IProtectionManager
@@ -19,26 +19,26 @@ public interface IProtectionManager
 
 | Nom | Description |
 | --- | --- |
-| [EncryptDocumentProperties](../../aspose.slides/iprotectionmanager/encryptdocumentproperties) { get; set; } | Cette propriété a du sens si la présentation est protégée par mot de passe. Si vrai, alors les propriétés du document sont chiffrées dans le fichier de présentation. Si faux, les propriétés du document sont publiques pendant que la présentation est chiffrée. Lecture/écriture Booléen. |
-| [EncryptionPassword](../../aspose.slides/iprotectionmanager/encryptionpassword) { get; } | Renvoie le mot de passe de chiffrement. Lecture seule Chaîne. |
-| [IsEncrypted](../../aspose.slides/iprotectionmanager/isencrypted) { get; } | Obtient une valeur indiquant si cette instance est chiffrée. Lecture seule Booléen. |
-| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/iprotectionmanager/isonlydocumentpropertiesloaded) { get; } | Cette propriété a du sens si le fichier de présentation est protégé par mot de passe et que les propriétés du document de ce fichier sont publiques. Une valeur de vrai signifie que seules les propriétés du document sont chargées à partir d'un fichier de présentation chiffré sans utiliser de mot de passe. Une valeur de faux signifie que l'ensemble de la présentation chiffrée est chargée en utilisant le bon mot de passe, et pas seulement les propriétés du document. Si la présentation n'est pas chiffrée, alors la valeur de la propriété est toujours faux. Si les propriétés du document d'un fichier chiffré ne sont pas publiques, alors la valeur de la propriété est toujours faux. Si PresentationEx.EncryptDocumentProperties est vrai, alors la valeur de la propriété IsOnlyDocumentPropertiesLoaded est toujours faux. Lecture seule Booléen. |
-| [IsWriteProtected](../../aspose.slides/iprotectionmanager/iswriteprotected) { get; } | Obtient une valeur indiquant si cette présentation est protégée contre l'écriture. Lecture seule Booléen. |
-| [ReadOnlyRecommended](../../aspose.slides/iprotectionmanager/readonlyrecommended) { get; set; } | Obtient ou définit la recommandation de lecture seule. Lecture/écriture Booléen. |
+| [EncryptDocumentProperties](../../aspose.slides/iprotectionmanager/encryptdocumentproperties) { get; set; } | Cette propriété a du sens si la présentation est protégée par un mot de passe. Si vrai, alors les propriétés du document sont chiffrées dans le fichier de présentation. Si faux, alors les propriétés du document sont publiques tandis que la présentation est chiffrée. Boolean en lecture/écriture. |
+| [EncryptionPassword](../../aspose.slides/iprotectionmanager/encryptionpassword) { get; } | Renvoie le mot de passe de chiffrement. Chaîne en lecture seule. |
+| [IsEncrypted](../../aspose.slides/iprotectionmanager/isencrypted) { get; } | Obtient une valeur indiquant si cette instance est chiffrée. Boolean en lecture seule. |
+| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/iprotectionmanager/isonlydocumentpropertiesloaded) { get; } | Cette propriété a du sens si le fichier de présentation est protégé par un mot de passe et que les propriétés du document de ce fichier sont publiques. Une valeur vraie signifie que seules les propriétés du document sont chargées à partir d'un fichier de présentation chiffré sans utilisation de mot de passe. Une valeur fausse signifie que l'ensemble de la présentation chiffrée est chargée avec le bon mot de passe, pas seulement les propriétés du document. Si la présentation n'est pas chiffrée, alors la valeur de la propriété est toujours fausse. Si les propriétés du document d'un fichier chiffré ne sont pas publiques, alors la valeur de la propriété est toujours fausse. Si PresentationEx.EncryptDocumentProperties est vrai, alors la valeur de la propriété IsOnlyDocumentPropertiesLoaded est toujours fausse. Boolean en lecture seule. |
+| [IsWriteProtected](../../aspose.slides/iprotectionmanager/iswriteprotected) { get; } | Obtient une valeur indiquant si cette présentation est protégée en écriture. Boolean en lecture seule. |
+| [ReadOnlyRecommended](../../aspose.slides/iprotectionmanager/readonlyrecommended) { get; set; } | Obtient ou définit la recommandation de lecture seule. Boolean en lecture/écriture. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [CheckWriteProtection](../../aspose.slides/iprotectionmanager/checkwriteprotection)(string) | Détermine si une présentation est protégée par mot de passe pour modification. |
+| [CheckWriteProtection](../../aspose.slides/iprotectionmanager/checkwriteprotection)(string) | Détermine si une présentation est protégée par un mot de passe pour la modification. |
 | [Encrypt](../../aspose.slides/iprotectionmanager/encrypt)(string) | Chiffre la présentation avec le mot de passe spécifié. |
 | [RemoveEncryption](../../aspose.slides/iprotectionmanager/removeencryption)() | Supprime le chiffrement. |
-| [RemoveWriteProtection](../../aspose.slides/iprotectionmanager/removewriteprotection)() | Supprime la protection contre l'écriture pour cette présentation. |
-| [SetWriteProtection](../../aspose.slides/iprotectionmanager/setwriteprotection)(string) | Définit la protection contre l'écriture pour cette présentation avec le mot de passe spécifié. |
+| [RemoveWriteProtection](../../aspose.slides/iprotectionmanager/removewriteprotection)() | Supprime la protection en écriture pour cette présentation. |
+| [SetWriteProtection](../../aspose.slides/iprotectionmanager/setwriteprotection)(string) | Définit la protection en écriture pour cette présentation avec le mot de passe spécifié. |
 
-### Voir Aussi
+### Voir aussi
 
-* espace de noms [Aspose.Slides](../../aspose.slides)
+* namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,6 +1,6 @@
 ---
 title: AddHtml
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Fügt formatierten HTML-Text hinzu.
 type: docs
 weight: 80
@@ -17,7 +17,7 @@ public void AddHtml(string html)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| html | String | Zu hinzufügender Text. |
+| html | String | Text, der hinzugefügt werden soll. |
 
 ### Siehe Auch
 
@@ -37,7 +37,7 @@ public void AddHtml(char[] html)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| html | Char[] | Zu hinzufügender Text. |
+| html | Char[] | Text, der hinzugefügt werden soll. |
 
 ### Siehe Auch
 
@@ -57,7 +57,7 @@ public void AddHtml(char[] html, int startIndex, int length)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| html | Char[] | Zu hinzufügender Text. |
+| html | Char[] | Text, der hinzugefügt werden soll. |
 | startIndex | Int32 | Startindex des hinzuzufügenden Teils. |
 | length | Int32 | Länge des hinzuzufügenden Teils. |
 

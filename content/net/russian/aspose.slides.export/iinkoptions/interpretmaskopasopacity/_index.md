@@ -1,13 +1,13 @@
 ---
 title: InterpretMaskOpAsOpacity
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Использует операцию ROP или непрозрачность для рендеринга кисти.
 type: docs
 weight: 20
 url: /ru/aspose.slides.export/iinkoptions/interpretmaskopasopacity/
 ---
 
-## Свойство IInkOptions.InterpretMaskOpAsOpacity
+## IInkOptions.InterpretMaskOpAsOpacity свойство
 
 Использует операцию ROP или непрозрачность для рендеринга кисти.
 
@@ -17,7 +17,7 @@ public bool InterpretMaskOpAsOpacity { get; set; }
 
 ### Примечания
 
-Значение по умолчанию — true.
+Значение по умолчанию - true.
 
 ### Примеры
 
@@ -33,7 +33,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Смотрите также
+### См. Также
 
 * интерфейс [IInkOptions](../../iinkoptions)
 * пространство имен [Aspose.Slides.Export](../../iinkoptions)

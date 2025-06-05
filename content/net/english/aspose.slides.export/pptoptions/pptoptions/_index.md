@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export/pptoptions/pptoptions/
 ---
+
 ## PptOptions constructor
 
 The default constructor.

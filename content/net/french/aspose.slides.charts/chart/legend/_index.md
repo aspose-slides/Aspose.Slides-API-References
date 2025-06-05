@@ -1,6 +1,6 @@
 ---
-title: Légende
-second_title: Référence API Aspose.Slides pour .NET
+title: Legend
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit une légende pour un graphique. Lecture seule ILegendaspose.slides.charts/ilegend.
 type: docs
 weight: 140
@@ -17,9 +17,9 @@ public ILegend Legend { get; }
 
 ### Voir aussi
 
-* interface [ILegend](../../ilegend)
-* class [Chart](../../chart)
-* namespace [Aspose.Slides.Charts](../../chart)
-* assembly [Aspose.Slides](../../../)
+* interface [ILegend](../../ilegend)
+* classe [Chart](../../chart)
+* namespace [Aspose.Slides.Charts](../../chart)
+* assembly [Aspose.Slides](../../../)
 
-<!-- NE PAS ÉDITER : généré par xmldocmd pour Aspose.Slides.dll -->
+<!-- NE PAS ÉDITEZ : généré par xmldocmd pour Aspose.Slides.dll -->

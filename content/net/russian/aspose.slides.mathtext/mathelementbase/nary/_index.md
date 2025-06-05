@@ -1,13 +1,13 @@
 ---
 title: Nary
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Создает N-арный оператор
 type: docs
 weight: 90
 url: /ru/aspose.slides.mathtext/mathelementbase/nary/
 ---
 
-## Nary(MathNaryOperatorTypes, IMathElement, IMathElement) {#nary}
+## Nary(MathNaryOperatorTypes, IMathElement, IMathElement) {#nary}
 
 Создает N-арный оператор
 
@@ -22,7 +22,7 @@ public IMathNaryOperator Nary(MathNaryOperatorTypes type, IMathElement lowerLimi
 | lowerLimit | IMathElement | Нижний предел |
 | upperLimit | IMathElement | Верхний предел |
 
-### Значение возвращаемого результата
+### Возврат Значения
 
 Новый экземпляр типа [`IMathNaryOperator`](../../imathnaryoperator)
 
@@ -38,7 +38,7 @@ IMathElement upperLimit = new MathematicalText("𝑛");
 IMathNaryOperator naryOperator = baseElement.Nary(MathNaryOperatorTypes.Summation, lowerLimit, upperLimit);
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IMathNaryOperator](../../imathnaryoperator)
 * перечисление [MathNaryOperatorTypes](../../mathnaryoperatortypes)
@@ -49,7 +49,7 @@ IMathNaryOperator naryOperator = baseElement.Nary(MathNaryOperatorTypes.Summatio
 
 ---
 
-## Nary(MathNaryOperatorTypes, string, string) {#nary_1}
+## Nary(MathNaryOperatorTypes, string, string) {#nary_1}
 
 Создает N-арный оператор
 
@@ -63,7 +63,7 @@ public IMathNaryOperator Nary(MathNaryOperatorTypes type, string lowerLimit, str
 | lowerLimit | String | Нижний предел |
 | upperLimit | String | Верхний предел |
 
-### Значение возвращаемого результата
+### Возврат Значения
 
 Новый экземпляр типа [`IMathNaryOperator`](../../imathnaryoperator)
 
@@ -76,7 +76,7 @@ public IMathNaryOperator Nary(MathNaryOperatorTypes type, string lowerLimit, str
 IMathNaryOperator naryOperator = new MathematicalText("i").Nary(MathNaryOperatorTypes.Summation, "i=0", "𝑛");
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IMathNaryOperator](../../imathnaryoperator)
 * перечисление [MathNaryOperatorTypes](../../mathnaryoperatortypes)

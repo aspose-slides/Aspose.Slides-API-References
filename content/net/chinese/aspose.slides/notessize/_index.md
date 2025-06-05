@@ -7,7 +7,7 @@ weight: 8860
 url: /zh/aspose.slides/notessize/
 ---
 
-## NotesSize 类
+## NotesSize class
 
 表示备注幻灯片的大小。
 

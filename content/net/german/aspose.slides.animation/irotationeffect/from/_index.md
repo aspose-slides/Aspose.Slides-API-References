@@ -1,7 +1,7 @@
 ---
-title: Von
-second_title: Aspose.Slides für .NET API-Referenz
-description: Beschreibt den Startwert für die Animation. Lese-/Schreibzugriff auf Single.
+title: From
+second_title: Aspose.Slides für .NET API Referenz
+description: Beschreibt den Startwert für die Animation. Lese-/Schreibzugriff Einzelwert.
 type: docs
 weight: 30
 url: /de/aspose.slides.animation/irotationeffect/from/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.animation/irotationeffect/from/
 
 ## IRotationEffect.From-Eigenschaft
 
-Beschreibt den Startwert für die Animation. Lese-/Schreibzugriff auf Single.
+Beschreibt den Startwert für die Animation. Lese-/Schreibzugriff Einzelwert.
 
 ```csharp
 public float From { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IRotationEffect](../../irotationeffect)
 * Namespace [Aspose.Slides.Animation](../../irotationeffect)

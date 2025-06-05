@@ -1,6 +1,6 @@
 ---
-title: Очистить
-second_title: Справочник по API Aspose.Slides для .NET
+title: Clear
+second_title: Aspose.Slides для .NET API Справочник
 description: Удаляет все элементы из коллекции.
 type: docs
 weight: 60
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/tabcollection/clear/
 public void Clear()
 ```
 
-### Смотрите также
+### Смотрите Также
 
 * класс [TabCollection](../../tabcollection)
 * пространство имен [Aspose.Slides](../../tabcollection)

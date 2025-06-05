@@ -1,7 +1,7 @@
 ---
-title: 最小列宽
-second_title: Aspose.Slides for .NET API 参考
-description: 列的最小宽度以 twips 表示（1/20 点）。间隔距也称为列间距或间隔宽度，加到 MinColumnWidth 上以确定不同列相同边缘之间的总矩阵列间距。默认值：0。
+title: MinColumnWidth
+second_title: Aspose.Sildes for .NET API Reference
+description: 最小列宽（以twips为单位，1/20个点）。间距（也称为列间距或间距宽度）会加到MinColumnWidth中，以确定不同列相同边缘之间的总矩阵列间距。默认值：0。
 type: docs
 weight: 80
 url: /zh/aspose.slides.mathtext/imathmatrix/mincolumnwidth/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathmatrix/mincolumnwidth/
 
 ## IMathMatrix.MinColumnWidth 属性
 
-列的最小宽度以 twips 表示（1/20 点）。间隔距（也称为“列间距”或“间隔宽度”）加到 MinColumnWidth 上以确定不同列相同边缘之间的总矩阵列间距。默认值：0。
+最小列宽（以twips为单位，1/20个点）。间距（也称为“列间距”或“间距宽度”）会加到MinColumnWidth中，以确定不同列相同边缘之间的总矩阵列间距。默认值：0。
 
 ```csharp
 public uint MinColumnWidth { get; set; }

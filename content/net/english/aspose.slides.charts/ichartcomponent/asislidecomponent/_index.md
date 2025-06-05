@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/ichartcomponent/asislidecomponent/
 ---
+
 ## IChartComponent.AsISlideComponent property
 
 Allows to get base ISlideComponent interface. Read-only [`ISlideComponent`](../../../aspose.slides/islidecomponent).

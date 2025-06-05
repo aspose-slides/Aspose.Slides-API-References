@@ -1,7 +1,7 @@
 ---
 title: CreateTint
-second_title: Référence API Aspose.Slides pour .NET
-description: Crée un effet de teinte.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Crée un effet Tint.
 type: docs
 weight: 170
 url: /fr/aspose.slides.effects/iimagetransformoperationfactory/createtint/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/iimagetransformoperationfactory/createtint/
 
 ## IImageTransformOperationFactory.CreateTint méthode
 
-Créer un effet de teinte.
+Crée un effet Tint.
 
 ```csharp
 public ITint CreateTint(float hue, float amount)
@@ -20,11 +20,11 @@ public ITint CreateTint(float hue, float amount)
 | hue | Single | Teinte. |
 | amount | Single | Montant. |
 
-### Valeur de retour
+### Valeur de Retour
 
-Effet de teinte.
+Effet Tint.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ITint](../../itint)
 * interface [IImageTransformOperationFactory](../../iimagetransformoperationfactory)

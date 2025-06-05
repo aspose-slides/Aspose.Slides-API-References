@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/bilevel/geteffective/
 ---
+
 ## BiLevel.GetEffective method
 
 Gets effective Bi-Level effect data with the inheritance applied.

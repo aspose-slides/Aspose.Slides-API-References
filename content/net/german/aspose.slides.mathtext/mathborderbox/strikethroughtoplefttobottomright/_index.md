@@ -1,15 +1,15 @@
 ---
-title: DurchstreichungVonObenLinksNachUntenRechts
+title: StrikethroughTopLeftToBottomRight
 second_title: Aspose.Slides für .NET API-Referenz
-description: Durchstreichung von oben links nach unten rechts, Standard ist false. Gibt den verborgenen oder sichtbaren Zustand einer durchgestrichenen diagonalen Linie von der oberen linken Ecke zur unteren rechten Ecke des Rahmens an.
+description: Durchgestrichen von oben links nach unten rechts, Standard ist falsch. Gibt den versteckten oder angezeigten Zustand einer durchgestrichenen diagonalen Linie von der oberen linken Ecke zur unteren rechten Ecke des Randkästchens an.
 type: docs
 weight: 90
 url: /de/aspose.slides.mathtext/mathborderbox/strikethroughtoplefttobottomright/
 ---
 
-## MathBorderBox.DurchstreichungVonObenLinksNachUntenRechts Eigenschaft
+## MathBorderBox.StrikethroughTopLeftToBottomRight-Eigenschaft
 
-Durchstreichung von oben links nach unten rechts (Standard ist false). Gibt den verborgenen oder sichtbaren Zustand einer durchgestrichenen diagonalen Linie von der oberen linken Ecke zur unteren rechten Ecke des Rahmens an.
+Durchgestrichen von oben links nach unten rechts (Standard ist falsch). Gibt den versteckten oder angezeigten Zustand einer durchgestrichenen diagonalen Linie von der oberen linken Ecke zur unteren rechten Ecke des Randkästchens an.
 
 ```csharp
 public bool StrikethroughTopLeftToBottomRight { get; set; }
@@ -25,7 +25,7 @@ MathBorderBox borderBox = new MathBorderBox(new MathematicalText("x"));
 borderBox.StrikethroughTopLeftToBottomRight = true;
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [MathBorderBox](../../mathborderbox)
 * Namespace [Aspose.Slides.MathText](../../mathborderbox)

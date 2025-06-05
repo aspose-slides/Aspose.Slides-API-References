@@ -7,7 +7,7 @@ weight: 30
 url: /ru/aspose.slides.export/handoutlayoutingoptions/printcomments/
 ---
 
-## Свойство HandoutLayoutingOptions.PrintComments
+## HandoutLayoutingOptions.PrintComments свойство
 
 Указывает, следует ли отображать комментарии на слайдах
 
@@ -17,7 +17,7 @@ public bool PrintComments { get; set; }
 
 ### Примечания
 
-Значение по умолчанию - **false**.
+Значение по умолчанию **false**.
 
 ### Примеры
 
@@ -40,7 +40,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. Также
+### См. также
 
 * класс [HandoutLayoutingOptions](../../handoutlayoutingoptions)
 * пространство имен [Aspose.Slides.Export](../../handoutlayoutingoptions)

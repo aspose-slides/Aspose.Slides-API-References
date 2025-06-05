@@ -1,7 +1,7 @@
 ---
-title: Von
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Beschreibt den relativen Offset-Wert für die Farbanimation. Lesen/Schreiben IColorOffsetaspose.slides/icoloroffset.
+title: By
+second_title: Aspose.Slides für .NET API-Referenz
+description: Beschreibt den relativen Versatzwert für die Farbanimation. Lesen/Schreiben von IColorOffsetaspose.slides.animation/icoloroffset.
 type: docs
 weight: 20
 url: /de/aspose.slides.animation/coloreffect/by/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.animation/coloreffect/by/
 
 ## ColorEffect.By-Eigenschaft
 
-Beschreibt den relativen Offset-Wert für die Farbanimation. Lesen/Schreiben [`IColorOffset`](../../icoloroffset).
+Beschreibt den relativen Versatzwert für die Farbanimation. Lesen/Schreiben von [`IColorOffset`](../../icoloroffset).
 
 ```csharp
 public IColorOffset By { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IColorOffset](../../icoloroffset)
 * Klasse [ColorEffect](../../coloreffect)

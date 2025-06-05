@@ -1,7 +1,7 @@
 ---
-title: Einträge
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erhält Legenden-Einträge. Nur-Lese ILegendEntryCollectionaspose.slides.charts/ilegendentrycollection.
+title: Entries
+second_title: Aspose.Slides für .NET API Referenz
+description: Ruft Legendeneinträge ab. Nur-Lesen ILegendEntryCollection aspose.slides.charts/ilegendentrycollection.
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/ilegend/entries/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/ilegend/entries/
 
 ## ILegend.Entries-Eigenschaft
 
-Erhält Legenden-Einträge. Nur-Lese [`ILegendEntryCollection`](../../ilegendentrycollection).
+Ruft Legendeneinträge ab. Nur-Lesen [`ILegendEntryCollection`](../../ilegendentrycollection).
 
 ```csharp
 public ILegendEntryCollection Entries { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ILegendEntryCollection](../../ilegendentrycollection)
 * Schnittstelle [ILegend](../../ilegend)

@@ -1,6 +1,6 @@
 ---
-title: 显示全屏
-second_title: Aspose.Slides for .NET API 参考
+title: ShowFullScreen
+second_title: Aspose.Slides for .NET API Reference
 description: 显示/隐藏全屏按钮。可以在 flashvars 中重写。默认值为 true。
 type: docs
 weight: 80
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.export/iswfoptions/showfullscreen/
 public bool ShowFullScreen { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [ISwfOptions](../../iswfoptions)
 * 命名空间 [Aspose.Slides.Export](../../iswfoptions)

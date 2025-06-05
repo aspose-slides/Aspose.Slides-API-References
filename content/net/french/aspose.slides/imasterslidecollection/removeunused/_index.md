@@ -1,15 +1,15 @@
 ---
 title: RemoveUnused
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Supprime les diapositives maîtresses inutilisées.
+second_title: Référence API Aspose.Slides pour .NET
+description: Supprime les modèles maîtres inutilisés.
 type: docs
 weight: 60
 url: /fr/aspose.slides/imasterslidecollection/removeunused/
 ---
 
-## IMasterSlideCollection.RemoveUnused méthode
+## IMasterSlideCollection.RemoveUnused method
 
-Supprime les diapositives maîtresses inutilisées.
+Supprime les modèles maîtres inutilisés.
 
 ```csharp
 public void RemoveUnused(bool ignorePreserveField)
@@ -17,7 +17,7 @@ public void RemoveUnused(bool ignorePreserveField)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| ignorePreserveField | Boolean | Détermine si cette méthode doit supprimer la diapositive maîtresse inutilisée même si sa propriété [`Preserve`](../../imasterslide/preserve) est définie sur true. |
+| ignorePreserveField | Boolean | Détermine si cette méthode doit supprimer le modèle maître inutilisé même si sa propriété [`Preserve`](../../imasterslide/preserve) est définie sur true. |
 
 ### Voir aussi
 

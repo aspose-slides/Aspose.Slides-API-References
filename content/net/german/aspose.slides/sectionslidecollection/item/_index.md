@@ -1,7 +1,7 @@
 ---
-title: Element
-second_title: Aspose.Slides für .NET API Referenz
-description: Ruft das Element am angegebenen Index ab. Nur lesendes ISlideaspose.slides/islide.
+title: Item
+second_title: Aspose.Slides für .NET API-Referenz
+description: Holt das Element am angegebenen Index. Nur lesender ISlide aspose.slides/islide.
 type: docs
 weight: 30
 url: /de/aspose.slides/sectionslidecollection/item/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/sectionslidecollection/item/
 
 ## SectionSlideCollection-Indexer
 
-Ruft das Element am angegebenen Index ab. Nur lesend [`ISlide`](../../islide).
+Holt das Element am angegebenen Index. Nur lesender [`ISlide`](../../islide).
 
 ```csharp
 public ISlide this[int index] { get; }

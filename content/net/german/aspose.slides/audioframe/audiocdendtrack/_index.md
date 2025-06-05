@@ -1,7 +1,7 @@
 ---
 title: AudioCdEndTrack
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den letzten Track-Index zurück oder setzt ihn. Lese-/Schreibzugriff Int32.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt einen letzten Track-Index zurück oder setzt ihn. Lese-/Schreibzugriff Int32.
 type: docs
 weight: 10
 url: /de/aspose.slides/audioframe/audiocdendtrack/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/audioframe/audiocdendtrack/
 
 ## AudioFrame.AudioCdEndTrack-Eigenschaft
 
-Gibt den letzten Track-Index zurück oder setzt ihn. Lese-/Schreibzugriff Int32.
+Gibt einen letzten Track-Index zurück oder setzt ihn. Lese-/Schreibzugriff Int32.
 
 ```csharp
 public int AudioCdEndTrack { get; set; }

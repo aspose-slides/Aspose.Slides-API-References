@@ -1,13 +1,13 @@
 ---
 title: AllNodes
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slidеs для .NET API Справочник
 description: Возвращает коллекции всех узлов в объекте SmartArt. Только для чтения ISmartArtNodeCollectionaspose.slides.smartart/ismartartnodecollection.
 type: docs
 weight: 10
 url: /ru/aspose.slides.smartart/ismartart/allnodes/
 ---
 
-## Свойство ISmartArt.AllNodes
+## ISmartArt.AllNodes свойство
 
 Возвращает коллекции всех узлов в объекте SmartArt. Только для чтения [`ISmartArtNodeCollection`](../../ismartartnodecollection).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.smartart/ismartart/allnodes/
 public ISmartArtNodeCollection AllNodes { get; }
 ```
 
-### См. также
+### Также смотри
 
 * интерфейс [ISmartArtNodeCollection](../../ismartartnodecollection)
 * интерфейс [ISmartArt](../../ismartart)

@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/itable/righttoleft/
 ---
+
 ## ITable.RightToLeft property
 
 Determines whether the table has right to left reading order. Read-write Boolean.

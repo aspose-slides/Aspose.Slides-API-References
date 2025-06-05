@@ -1,6 +1,6 @@
 ---
 title: CreateReflection
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Slides for .NET API Reference
 description: 创建反射效果。
 type: docs
 weight: 60
@@ -19,7 +19,7 @@ public IReflection CreateReflection()
 
 反射效果。
 
-### 另见
+### 参见
 
 * 接口 [IReflection](../../ireflection)
 * 接口 [IEffectFactory](../../ieffectfactory)

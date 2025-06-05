@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides/textframeformat/transform/
 ---
+
 ## TextFrameFormat.Transform property
 
 Gets or sets text wrapping shape. Read/write [`TextShapeType`](../../textshapetype).

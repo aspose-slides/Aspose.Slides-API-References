@@ -1,7 +1,7 @@
 ---
 title: InsertClone
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Insère une copie d'une diapositive maître spécifiée à la position spécifiée de la collection. Les diapositives de mise en page liées seront également copiées.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Insère une copie d'une diapositive maître spécifiée à une position spécifiée de la collection. Les diapositives de mise en page liées seront également copiées.
 type: docs
 weight: 80
 url: /fr/aspose.slides/masterslidecollection/insertclone/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/masterslidecollection/insertclone/
 
 ## Méthode MasterSlideCollection.InsertClone
 
-Insère une copie d'une diapositive maître spécifiée à la position spécifiée de la collection. Les diapositives de mise en page liées seront également copiées.
+Insère une copie d'une diapositive maître spécifiée à une position spécifiée de la collection. Les diapositives de mise en page liées seront également copiées.
 
 ```csharp
 public IMasterSlide InsertClone(int index, IMasterSlide sourceMaster)
@@ -36,18 +36,18 @@ using (Presentation srcPres = new Presentation("CloneToAnotherPresentationWithMa
     // Instancier la classe Presentation pour la présentation de destination (où la diapositive doit être clonée)
     using (Presentation destPres = new Presentation())
     {
-        // Instancier ISlide à partir de la collection de diapositives dans la présentation source
-        // avec Master slide
+        // Instancier ISlide à partir de la collection de diapositives dans la présentation source ainsi que
+        // Diapositive maître
         ISlide SourceSlide = srcPres.Slides[0];
         IMasterSlide SourceMaster = SourceSlide.LayoutSlide.MasterSlide;
-		// Obtenir les Master Slides de la présentation de destination
+		// Obtenir les diapositives maître de la présentation de destination
         IMasterSlideCollection masters = destPres.Masters;
-        // Cloner la diapositive maître souhaitée de la présentation source à la collection de maîtres dans la
+        // Cloner la diapositive maître souhaitée de la présentation source vers la collection de maîtres dans la
         // Présentation de destination
         IMasterSlide iSlide = masters.AddClone(SourceMaster);
         // Collection de diapositives dans la présentation de destination
         ISlideCollection slds = destPres.Slides;
-		// Cloner la diapositive source dans la collection de diapositives de destination.
+		// Cloner la diapositive source vers la collection de diapositives de destination.
         slds.AddClone(SourceSlide, iSlide, true);
         // Enregistrer la présentation de destination sur le disque
         destPres.Save("CloneToAnotherPresentationWithMaster_out.pptx", SaveFormat.Pptx);

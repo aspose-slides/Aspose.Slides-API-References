@@ -1,6 +1,6 @@
 ---
-title: 添加
-second_title: Aspose.Slides for .NET API 参考
+title: Add
+second_title: Aspose.Sildes for .NET API Reference
 description: 将新命令添加到路径
 type: docs
 weight: 40
@@ -23,7 +23,7 @@ public IMotionCmdPath Add(MotionCommandPathType type, PointF[] pts, MotionPathPo
 | ptsType | MotionPathPointsType |  |
 | bRelativeCoord | Boolean |  |
 
-### 另见
+### 另请参阅
 
 * 接口 [IMotionCmdPath](../../imotioncmdpath)
 * 枚举 [MotionCommandPathType](../../motioncommandpathtype)

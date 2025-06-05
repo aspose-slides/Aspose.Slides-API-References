@@ -1,15 +1,15 @@
 ---
 title: AspectRatioLocked
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si la forme doit préserver le rapport d'aspect lors du redimensionnement. Booléen en lecture/écriture.
+description: Détermine si la forme doit préserver le rapport d'aspect lors du redimensionnement. Valeur booléenne en lecture/écriture.
 type: docs
 weight: 20
 url: /fr/aspose.slides/igroupshapelock/aspectratiolocked/
 ---
 
-## Propriété IGroupShapeLock.AspectRatioLocked
+## IGroupShapeLock.AspectRatioLocked propriété
 
-Détermine si la forme doit préserver le rapport d'aspect lors du redimensionnement. Booléen en lecture/écriture.
+Détermine si la forme doit préserver le rapport d'aspect lors du redimensionnement. Valeur booléenne en lecture/écriture.
 
 ```csharp
 public bool AspectRatioLocked { get; set; }

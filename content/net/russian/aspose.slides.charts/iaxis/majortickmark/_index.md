@@ -1,6 +1,6 @@
 ---
 title: MajorTickMark
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справка по API Aspose.Sildes для .NET
 description: Представляет тип основного деления для указанной оси. Чтение/запись TickMarkTypeaspose.slides.charts/tickmarktype.
 type: docs
 weight: 350

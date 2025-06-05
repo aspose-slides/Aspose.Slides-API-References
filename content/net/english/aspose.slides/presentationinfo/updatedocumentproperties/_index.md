@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/presentationinfo/updatedocumentproperties/
 ---
+
 ## PresentationInfo.UpdateDocumentProperties method
 
 Updates properties of binded presentation.

@@ -1,6 +1,6 @@
 ---
 title: SizeLocked
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 确定是否禁止调整此形状的大小。可读写布尔值。
 type: docs
 weight: 110

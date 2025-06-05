@@ -1,13 +1,13 @@
 ---
-title: Трассы
-second_title: Справочник по API Aspose.Sildes для .NET
+title: Traces
+second_title: Aspose.Sildes для .NET API Справочник
 description: Получает все трассы, содержащиеся в элементе IInk IInkTraceaspose.slides/iinktrace. Только для чтения.
 type: docs
 weight: 10
 url: /ru/aspose.slides.ink/ink/traces/
 ---
 
-## Свойство Ink.Traces
+## Ink.Traces свойство
 
 Получает все трассы, содержащиеся в элементе IInk [`IInkTrace`](../../iinktrace). Только для чтения.
 
@@ -28,7 +28,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Смотрите Также
+### См. также
 
 * интерфейс [IInkTrace](../../iinktrace)
 * класс [Ink](../../ink)

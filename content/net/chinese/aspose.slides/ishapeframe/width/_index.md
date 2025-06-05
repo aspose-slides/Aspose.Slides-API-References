@@ -1,7 +1,7 @@
 ---
-title: 宽度
-second_title: Aspose.Slides for .NET API 参考
-description: 返回帧的宽度。只读单精度浮点数。
+title: Width
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回框架的宽度。只读单精度浮点数。
 type: docs
 weight: 80
 url: /zh/aspose.slides/ishapeframe/width/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ishapeframe/width/
 
 ## IShapeFrame.Width 属性
 
-返回帧的宽度。只读单精度浮点数。
+返回框架的宽度。只读单精度浮点数。
 
 ```csharp
 public float Width { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IShapeFrame](../../ishapeframe)
 * 命名空间 [Aspose.Slides](../../ishapeframe)

@@ -19,7 +19,7 @@ public void WriteAsSvg(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Целевой поток |
 
-### См. Также
+### См. также
 
 * класс [Shape](../../shape)
 * пространство имен [Aspose.Slides](../../shape)
@@ -40,7 +40,7 @@ public void WriteAsSvg(Stream stream, ISVGOptions svgOptions)
 | stream | Stream | Целевой поток |
 | svgOptions | ISVGOptions | Параметры генерации SVG |
 
-### См. Также
+### См. также
 
 * интерфейс [ISVGOptions](../../../aspose.slides.export/isvgoptions)
 * класс [Shape](../../shape)

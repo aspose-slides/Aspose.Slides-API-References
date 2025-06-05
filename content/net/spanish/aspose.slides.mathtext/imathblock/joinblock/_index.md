@@ -1,13 +1,13 @@
 ---
 title: JoinBlock
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Une otro bloque matemático con este
 type: docs
 weight: 50
 url: /es/aspose.slides.mathtext/imathblock/joinblock/
 ---
 
-## Método IMathBlock.JoinBlock
+## IMathBlock.JoinBlock método
 
 Une otro bloque matemático con este
 
@@ -17,11 +17,11 @@ public IMathBlock JoinBlock(IMathBlock other)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| other | IMathBlock | El bloque a unir |
+| other | IMathBlock | El bloque que se une |
 
 ### Valor de Retorno
 
-este bloque matemático después de unir
+este bloque matemático después de unirse
 
 ### Ejemplos
 

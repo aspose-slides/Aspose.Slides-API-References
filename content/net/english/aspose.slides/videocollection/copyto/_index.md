@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/videocollection/copyto/
 ---
+
 ## VideoCollection.CopyTo method
 
 Copies videos to specified array starting from specified index.

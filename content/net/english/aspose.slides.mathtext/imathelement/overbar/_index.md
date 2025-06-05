@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.mathtext/imathelement/overbar/
 ---
+
 ## IMathElement.Overbar method
 
 Sets a bar on the top of this element

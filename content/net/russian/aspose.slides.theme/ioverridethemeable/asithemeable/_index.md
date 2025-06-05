@@ -1,6 +1,6 @@
 ---
 title: AsIThemeable
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Возвращает интерфейс IThemeable. Только для чтения IThemeableaspose.slides.theme/ithemeable.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.theme/ioverridethemeable/asithemeable/
 public IThemeable AsIThemeable { get; }
 ```
 
-### Замечания
+### Примечания
 
 Для совместимости с COM.
 

@@ -1,15 +1,15 @@
 ---
 title: DepthPercents
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает или задает глубину 3D графика в процентном соотношении к ширине графика от 20 до 2000 процентов. Чтение/запись UInt16.
+second_title: Aspose.Sildes для .NET API Справка
+description: Возвращает или устанавливает глубину 3D графика в процентах от ширины графика в диапазоне от 20 до 2000 процентов. Чтение/запись UInt16.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/irotation3d/depthpercents/
 ---
 
-## Свойство IRotation3D.DepthPercents
+## IRotation3D.DepthPercents свойство
 
-Возвращает или задает глубину 3D графика в процентном соотношении к ширине графика (от 20 до 2000 процентов). Чтение/запись UInt16.
+Возвращает или устанавливает глубину 3D графика в процентах от ширины графика (в диапазоне от 20 до 2000 процентов). Чтение/запись UInt16.
 
 ```csharp
 public ushort DepthPercents { get; set; }

@@ -1,7 +1,7 @@
 ---
-title: Entfernen
-second_title: Aspose.Slides für .NET API-Referenz
-description: Entfernt die erste Instanz eines bestimmten Objekts aus der ICollection.
+title: Remove
+second_title: Aspose.Slides für .NET API Referenz
+description: Entfernt die erste Vorkommen eines bestimmten Objekts aus der ICollection.
 type: docs
 weight: 90
 url: /de/aspose.slides/iportioncollection/remove/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iportioncollection/remove/
 
 ## IPortionCollection.Remove-Methode
 
-Entfernt die erste Instanz eines bestimmten Objekts aus der ICollection.
+Entfernt die erste Vorkommen eines bestimmten Objekts aus der ICollection.
 
 ```csharp
 public bool Remove(IPortion item)
@@ -17,7 +17,7 @@ public bool Remove(IPortion item)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| item | IPortion | Das zu entfernende Objekt aus der ICollection. |
+| item | IPortion | Das Objekt, das aus der ICollection entfernt werden soll. |
 
 ### Rückgabewert
 
@@ -29,7 +29,7 @@ true, wenn *item* erfolgreich aus der ICollection entfernt wurde; andernfalls fa
 | --- | --- |
 | NotSupportedException | Die ICollection ist schreibgeschützt. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IPortion](../../iportion)
 * Schnittstelle [IPortionCollection](../../iportioncollection)

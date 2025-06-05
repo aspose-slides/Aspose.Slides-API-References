@@ -1,13 +1,13 @@
 ---
 title: StrokeOpacity
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Представляет свойство stroke.opacity
 type: docs
 weight: 990
 url: /ru/aspose.slides.animation/behaviorproperty/strokeopacity/
 ---
 
-## Свойство BehaviorProperty.StrokeOpacity
+## BehaviorProperty.StrokeOpacity свойство
 
 Представляет свойство 'stroke.opacity'
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/behaviorproperty/strokeopacity/
 public static BehaviorProperty StrokeOpacity { get; }
 ```
 
-### См. также
+### См. Также
 
 * класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)

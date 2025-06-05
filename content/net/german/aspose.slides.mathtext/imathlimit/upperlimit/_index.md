@@ -1,5 +1,5 @@
 ---
-title: Obergrenze
+title: UpperLimit
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt obere oder untere Grenze an
 type: docs
@@ -7,7 +7,7 @@ weight: 40
 url: /de/aspose.slides.mathtext/imathlimit/upperlimit/
 ---
 
-## IMathLimit.Obergrenze-Eigenschaft
+## IMathLimit.UpperLimit-Eigenschaft
 
 Gibt obere oder untere Grenze an
 

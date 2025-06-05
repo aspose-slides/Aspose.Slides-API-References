@@ -22,7 +22,7 @@ public enum SlideOrientation
 | Landscape | `0` | Orientación horizontal. |
 | Portrait | `1` | Orientación vertical. |
 
-### Véase también
+### Ver También
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

@@ -1,7 +1,7 @@
 ---
 title: DataSourceTypeForYPlusValues
-second_title: Référence API Aspose.Sildes pour .NET
-description: Spécifie si la propriété AsCell, AsLiteralString ou AsLiteralDouble est applicable dans l'objet de propriété YPlus des points de données pour les valeurs personnalisées des barres d'erreur. En d'autres termes, cela spécifie le type de valeur de la propriété ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. Propriété lisible/écrivable DataSourceTypeaspose.slides/datasourcetype.
+second_title: Aspose.Slides pour la référence API .NET
+description: Spécifie si la propriété AsCell, AsLiteralString ou AsLiteralDouble est actuelle dans l'objet de propriété YPlus des points de données pour les valeurs personnalisées des barres d'erreur. En d'autres termes, elle spécifie le type de valeur de la propriété ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. Lecture/écriture DataSourceTypeaspose.slides/datasourcetype.
 type: docs
 weight: 50
 url: /fr/aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcet
 
 ## DataSourceTypeForErrorBarsCustomValues.DataSourceTypeForYPlusValues property
 
-Spécifie si la propriété AsCell, AsLiteralString ou AsLiteralDouble est applicable dans l'objet de propriété YPlus des points de données pour les valeurs personnalisées des barres d'erreur. En d'autres termes, cela spécifie le type de valeur de la propriété ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. Propriété lisible/écrivable [`DataSourceType`](../../datasourcetype).
+Spécifie si la propriété AsCell, AsLiteralString ou AsLiteralDouble est actuelle dans l'objet de propriété YPlus des points de données pour les valeurs personnalisées des barres d'erreur. En d'autres termes, elle spécifie le type de valeur de la propriété ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. Lecture/écriture [`DataSourceType`](../../datasourcetype).
 
 ```csharp
 public DataSourceType DataSourceTypeForYPlusValues { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [DataSourceType](../../datasourcetype)
 * class [DataSourceTypeForErrorBarsCustomValues](../../datasourcetypeforerrorbarscustomvalues)

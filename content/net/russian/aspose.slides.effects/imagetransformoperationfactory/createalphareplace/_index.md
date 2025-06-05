@@ -1,7 +1,7 @@
 ---
 title: CreateAlphaReplace
-second_title: Aspose.Sildes для .NET API Справочник
-description: Создает эффект замены альфа.
+second_title: Aspose.Sildes для справки по API .NET
+description: Создает эффект замены альфа-канала.
 type: docs
 weight: 70
 url: /ru/aspose.slides.effects/imagetransformoperationfactory/createalphareplace/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/imagetransformoperationfactory/createalphareplace
 
 ## ImageTransformOperationFactory.CreateAlphaReplace метод
 
-Создает эффект замены альфа.
+Создает эффект замены альфа-канала.
 
 ```csharp
 public IAlphaReplace CreateAlphaReplace(float alpha)
@@ -21,7 +21,7 @@ public IAlphaReplace CreateAlphaReplace(float alpha)
 
 ### Возвращаемое значение
 
-Эффект замены альфа.
+Эффект замены альфа-канала.
 
 ### См. также
 

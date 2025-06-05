@@ -1,6 +1,6 @@
 ---
 title: RippleTransition
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Effet de transition de diapositive Ripple.
 type: docs
 weight: 9980

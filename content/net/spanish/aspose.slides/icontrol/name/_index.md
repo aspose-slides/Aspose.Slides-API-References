@@ -1,5 +1,5 @@
 ---
-title: Nombre
+title: Name
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el nombre de este control. Cadena de lectura/escritura.
 type: docs
@@ -19,6 +19,6 @@ public string Name { get; set; }
 
 * interfaz [IControl](../../icontrol)
 * espacio de nombres [Aspose.Slides](../../icontrol)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

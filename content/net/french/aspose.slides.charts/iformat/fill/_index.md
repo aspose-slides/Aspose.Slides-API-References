@@ -1,5 +1,5 @@
 ---
-title: Remplir
+title: Fill
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie les propriétés de style de remplissage d'un graphique. Lecture seule IFillFormataspose.slides/ifillformat.
 type: docs
@@ -7,7 +7,7 @@ weight: 30
 url: /fr/aspose.slides.charts/iformat/fill/
 ---
 
-## Propriété IFormat.Fill
+## IFormat.Fill property
 
 Renvoie les propriétés de style de remplissage d'un graphique. Lecture seule [`IFillFormat`](../../../aspose.slides/ifillformat).
 
@@ -15,7 +15,7 @@ Renvoie les propriétés de style de remplissage d'un graphique. Lecture seule [
 public IFillFormat Fill { get; }
 ```
 
-### Voir Aussi
+### See Also
 
 * interface [IFillFormat](../../../aspose.slides/ifillformat)
 * interface [IFormat](../../iformat)

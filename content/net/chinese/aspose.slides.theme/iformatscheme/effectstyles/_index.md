@@ -1,7 +1,7 @@
 ---
-title: 效果样式
-second_title: Aspose.Slides for .NET API 参考
-description: 返回一个主题定义的效果样式集合。只读 IEffectStyleCollection aspose.slides.theme/ieffectstylecollection。
+title: EffectStyles
+second_title: Aspose.Slides for .NET API Reference
+description: 返回一个主题定义的效果样式集合。 IRead-only IEffectStyleCollectionaspose.slides.theme/ieffectstylecollection。
 type: docs
 weight: 30
 url: /zh/aspose.slides.theme/iformatscheme/effectstyles/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.theme/iformatscheme/effectstyles/
 
 ## IFormatScheme.EffectStyles 属性
 
-返回一个主题定义的效果样式集合。只读 [`IEffectStyleCollection`](../../ieffectstylecollection)。
+返回一个主题定义的效果样式集合。 Read-only [`IEffectStyleCollection`](../../ieffectstylecollection)。
 
 ```csharp
 public IEffectStyleCollection EffectStyles { get; }
 ```
 
-### 另见
+### 相关内容
 
 * 接口 [IEffectStyleCollection](../../ieffectstylecollection)
 * 接口 [IFormatScheme](../../iformatscheme)

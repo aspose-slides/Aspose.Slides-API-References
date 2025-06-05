@@ -1,6 +1,6 @@
 ---
 title: ChartDataWorksheet
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет рабочий лист, связанный с IChartDataCell./ichartdatacell
 type: docs
 weight: 1310

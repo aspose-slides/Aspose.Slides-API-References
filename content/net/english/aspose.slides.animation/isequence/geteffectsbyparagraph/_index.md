@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.animation/isequence/geteffectsbyparagraph/
 ---
+
 ## ISequence.GetEffectsByParagraph method
 
 Returns array of effects for the specified paragraph.

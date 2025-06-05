@@ -1,13 +1,13 @@
 ---
 title: HtmlGenerator
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Генератор Html.
 type: docs
 weight: 3710
 url: /ru/aspose.slides.export/htmlgenerator/
 ---
 
-## Класс HtmlGenerator
+## HtmlGenerator class
 
 Генератор Html.
 
@@ -22,23 +22,23 @@ public sealed class HtmlGenerator : IHtmlGenerator
 | [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | Возвращает индекс слайда, который будет отображен после текущего слайда, или -1, если в данный момент отображается последний слайд. Только для чтения Int32. |
 | [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | Возвращает индекс ранее отображенного слайда или -1, если отображается первый слайд. Только для чтения Int32. |
 | [SlideImageSize](../../aspose.slides.export/htmlgenerator/slideimagesize) { get; } | Возвращает размер изображения слайда. Только для чтения SizeF. |
-| [SlideImageSizeUnit](../../aspose.slides.export/htmlgenerator/slideimagesizeunit) { get; } | Возвращает единицу, в которой задан размер изображения слайда. Только для чтения [`SvgCoordinateUnit`](../svgcoordinateunit). |
-| [SlideImageSizeUnitCode](../../aspose.slides.export/htmlgenerator/slideimagesizeunitcode) { get; } | Возвращает CSS-код единицы, в которой задан размер изображения слайда. Только для чтения String. |
+| [SlideImageSizeUnit](../../aspose.slides.export/htmlgenerator/slideimagesizeunit) { get; } | Возвращает единицу, в которой указан размер изображения слайда. Только для чтения [`SvgCoordinateUnit`](../svgcoordinateunit). |
+| [SlideImageSizeUnitCode](../../aspose.slides.export/htmlgenerator/slideimagesizeunitcode) { get; } | Возвращает css код единицы, в которой указан размер изображения слайда. Только для чтения String. |
 | [SlideIndex](../../aspose.slides.export/htmlgenerator/slideindex) { get; } | Возвращает индекс текущего отображаемого слайда. Только для чтения Int32. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue)(char[]) | Экранирует значение атрибута и добавляет его в HTML-файл. |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_2)(string) | Экранирует значение атрибута и добавляет его в HTML-файл. |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Экранирует значение атрибута и добавляет его в HTML-файл. |
-| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml)(char[]) | Добавляет форматированный HTML-текст. |
-| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_2)(string) | Добавляет форматированный HTML-текст. |
-| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_1)(char[], int, int) | Добавляет форматированный HTML-текст. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext)(char[]) | Добавляет простой текст в HTML-файлы, заменяя специальные символы на HTML-сущности. Переносы строк и пробелы не заменяются. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_2)(string) | Добавляет простой текст в HTML-файлы, заменяя специальные символы на HTML-сущности. Переносы строк и пробелы не заменяются. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_1)(char[], int, int) | Добавляет простой текст в HTML-файлы, заменяя специальные символы на HTML-сущности. Переносы строк и пробелы не заменяются. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue)(char[]) | Кавычит значение атрибута и добавляет его в html файл. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_2)(string) | Кавычит значение атрибута и добавляет его в html файл. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Кавычит значение атрибута и добавляет его в html файл. |
+| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml)(char[]) | Добавляет отформатированный HTML текст. |
+| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_2)(string) | Добавляет отформатированный HTML текст. |
+| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_1)(char[], int, int) | Добавляет отформатированный HTML текст. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext)(char[]) | Добавляет простой текст в html файлы, заменяя специальные символы на html сущности. Переносы строк и пробелы не заменяются. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_2)(string) | Добавляет простой текст в html файлы, заменяя специальные символы на html сущности. Переносы строк и пробелы не заменяются. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_1)(char[], int, int) | Добавляет простой текст в html файлы, заменяя специальные символы на html сущности. Переносы строк и пробелы не заменяются. |
 
 ### См. также
 

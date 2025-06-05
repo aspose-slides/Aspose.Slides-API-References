@@ -7,7 +7,7 @@ weight: 10
 url: /es/aspose.slides.effects/icolorreplace/asiaccessiblepviobject/
 ---
 
-## Propiedad IColorReplace.AsIAccessiblePVIObject
+## IColorReplace.AsIAccessiblePVIObject propiedad
 
 Permite obtener la interfaz base IAccessiblePVIObject. Solo lectura [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
 
@@ -15,7 +15,7 @@ Permite obtener la interfaz base IAccessiblePVIObject. Solo lectura [`IAccessibl
 public IAccessiblePVIObject<IColorReplaceEffectiveData> AsIAccessiblePVIObject { get; }
 ```
 
-### Ver También
+### Vea También
 
 * interfaz [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
 * interfaz [IColorReplaceEffectiveData](../../icolorreplaceeffectivedata)

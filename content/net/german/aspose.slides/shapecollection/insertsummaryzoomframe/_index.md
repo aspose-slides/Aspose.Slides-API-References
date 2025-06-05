@@ -1,6 +1,6 @@
 ---
 title: InsertSummaryZoomFrame
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Erstellt ein neues Summary Zoom-Objekt und fügt es an der angegebenen Stelle in eine Sammlung ein.
 type: docs
 weight: 380
@@ -9,7 +9,7 @@ url: /de/aspose.slides/shapecollection/insertsummaryzoomframe/
 
 ## ShapeCollection.InsertSummaryZoomFrame-Methode
 
-Erstellt ein neues Summary Zoom-Objekt und fügt es an der angegebenen Stelle in eine Sammlung ein.
+Erschafft ein neues Summary Zoom-Objekt und fügt es an der angegebenen Stelle in eine Sammlung ein.
 
 ```csharp
 public ISummaryZoomFrame InsertSummaryZoomFrame(int index, float x, float y, float width, 
@@ -18,11 +18,11 @@ public ISummaryZoomFrame InsertSummaryZoomFrame(int index, float x, float y, flo
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Der nullbasierte Index, an dem der Section Zoom-Frame eingefügt werden soll. |
-| x | Single | X-Koordinate eines neuen Section Zoom-Frames. |
-| y | Single | Y-Koordinate eines neuen Section Zoom-Frames. |
-| width | Single | Breite eines neuen Section Zoom-Frames. |
-| height | Single | Höhe eines neuen Section Zoom-Frames. |
+| index | Int32 | Der nullbasierte Index, an dem der Section Zoom-Rahmen eingefügt werden soll. |
+| x | Single | X-Koordinate eines neuen Section Zoom-Rahmens. |
+| y | Single | Y-Koordinate eines neuen Section Zoom-Rahmens. |
+| width | Single | Breite eines neuen Section Zoom-Rahmens. |
+| height | Single | Höhe eines neuen Section Zoom-Rahmens. |
 
 ### Rückgabewert
 
@@ -40,7 +40,7 @@ Diese Methode erstellt ein neues Summary Zoom und fügt eine Sammlung von Objekt
 
 ### Beispiele
 
-Dieses Beispiel demonstriert die Erstellung und das Einfügen eines Summary Zoom-Objekts an der angegebenen Stelle einer Sammlung (angenommen, dass es mindestens zwei Abschnitte in der Präsentation "Presentation.pptx" gibt):
+Dieses Beispiel zeigt die Erstellung und das Einfügen eines Summary Zoom-Objekts an der angegebenen Stelle einer Sammlung (nehmen Sie an, es gibt mindestens zwei Abschnitte in der "Presentation.pptx"-Präsentation):
 
 ```csharp
 [C#]

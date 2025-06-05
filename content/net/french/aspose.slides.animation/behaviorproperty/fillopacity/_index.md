@@ -1,6 +1,6 @@
 ---
-title: OpacitéDeRemplissage
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: FillOpacity
+second_title: Aspose.Slides pour .NET API Référence
 description: Représente la propriété fill.opacity
 type: docs
 weight: 370
@@ -21,4 +21,4 @@ public static BehaviorProperty FillOpacity { get; }
 * espace de noms [Aspose.Slides.Animation](../../behaviorproperty)
 * assembly [Aspose.Slides](../../../)
 
-<!-- NE PAS ÉDITER : généré par xmldocmd pour Aspose.Slides.dll -->
+<!-- DO NOT EDIT: généré par xmldocmd pour Aspose.Slides.dll -->

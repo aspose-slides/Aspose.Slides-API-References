@@ -1,7 +1,7 @@
 ---
 title: IAccessiblePVIObjectT
 second_title: Aspose.Slides for .NET API Reference
-description: 表示一种可以返回相应有效数据并应用继承的类型。
+description: 表示一种可以返回应用继承时相应有效数据的类型。
 type: docs
 weight: 4970
 url: /zh/aspose.slides/iaccessiblepviobject-1/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iaccessiblepviobject-1/
 
 ## IAccessiblePVIObject&lt;T&gt; 接口
 
-表示一种可以返回相应有效数据并应用继承的类型。
+表示一种可以返回应用继承时相应有效数据的类型。
 
 ```csharp
 public interface IAccessiblePVIObject<T>
@@ -24,9 +24,9 @@ public interface IAccessiblePVIObject<T>
 
 | 名称 | 描述 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/iaccessiblepviobject`1/geteffective)() | 获取应用了继承的有效数据。 |
+| [GetEffective](../../aspose.slides/iaccessiblepviobject`1/geteffective)() | 获取应用继承时的有效数据。 |
 
-### 另请参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

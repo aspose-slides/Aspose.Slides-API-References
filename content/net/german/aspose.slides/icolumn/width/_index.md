@@ -1,7 +1,7 @@
 ---
-title: Breite
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Breite einer Spalte zurück oder setzt sie. Lese-/Schreib-Wert vom Typ Double.
+title: Width
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Breite einer Spalte zurück oder setzt sie. Lese-/Schreibzugriff Double.
 type: docs
 weight: 40
 url: /de/aspose.slides/icolumn/width/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/icolumn/width/
 
 ## IColumn.Width-Eigenschaft
 
-Gibt die Breite einer Spalte zurück oder setzt sie. Lese-/Schreib-Wert vom Typ Double.
+Gibt die Breite einer Spalte zurück oder setzt sie. Lese-/Schreibzugriff Double.
 
 ```csharp
 public double Width { get; set; }

@@ -1,7 +1,7 @@
 ---
-title: Тип
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает тип плейсхолдера. Только для чтения PlaceholderTypeaspose.slides/placeholdertype.
+title: Type
+second_title: Справочник API Aspose.Sildes для .NET
+description: Получает или задает тип заполнителя. Только для чтения PlaceholderTypeaspose.slides/placeholdertype.
 type: docs
 weight: 40
 url: /ru/aspose.slides/placeholder/type/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/placeholder/type/
 
 ## Свойство Placeholder.Type
 
-Получает или задает тип плейсхолдера. Только для чтения [`PlaceholderType`](../../placeholdertype).
+Получает или задает тип заполнителя. Только для чтения [`PlaceholderType`](../../placeholdertype).
 
 ```csharp
 public PlaceholderType Type { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * enum [PlaceholderType](../../placeholdertype)
 * class [Placeholder](../../placeholder)

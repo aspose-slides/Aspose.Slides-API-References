@@ -1,6 +1,6 @@
 ---
 title: AddEffect
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Ajouter un nouvel effet à la fin de la séquence.
 type: docs
 weight: 50
@@ -18,12 +18,12 @@ public IEffect AddEffect(IShape shape, EffectType effectType, EffectSubtype subt
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| shape | IShape | Objet Shape [`IShape`](../../../aspose.slides/ishape) pour ajouter un effet |
-| effectType | EffectType | Type d'effet d'animation [`EffectType`](../../effecttype) |
+| shape | IShape | Objet de forme [`IShape`](../../../aspose.slides/ishape) pour ajouter un effet |
+| effectType | EffectType | Type d'un effet d'animation [`EffectType`](../../effecttype) |
 | subtype | EffectSubtype | Sous-types d'effet d'animation [`EffectSubtype`](../../effectsubtype) |
-| triggerType | EffectTriggerType | Type de déclencheur de l'effet [`EffectTriggerType`](../../effecttriggertype) |
+| triggerType | EffectTriggerType | Type de déclencheur d'effet [`EffectTriggerType`](../../effecttriggertype) |
 
-### Valeur de Retour
+### Valeur de retour
 
 Nouvel objet effet [`IEffect`](../../ieffect)
 
@@ -51,12 +51,12 @@ public IEffect AddEffect(IParagraph paragraph, EffectType effectType, EffectSubt
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| paragraph | IParagraph | Objet Paragraphe [`IParagraph`](../../../aspose.slides/iparagraph) |
-| effectType | EffectType | Type d'effet d'animation [`EffectType`](../../effecttype) |
+| paragraph | IParagraph | Objet paragraphe [`IParagraph`](../../../aspose.slides/iparagraph) |
+| effectType | EffectType | Type d'un effet d'animation [`EffectType`](../../effecttype) |
 | subtype | EffectSubtype | Sous-types d'effet d'animation [`EffectSubtype`](../../effectsubtype) |
-| triggerType | EffectTriggerType | Type de déclencheur de l'effet [`EffectTriggerType`](../../effecttriggertype) |
+| triggerType | EffectTriggerType | Type de déclencheur d'effet [`EffectTriggerType`](../../effecttriggertype) |
 
-### Valeur de Retour
+### Valeur de retour
 
 Nouvel objet effet [`IEffect`](../../ieffect)
 
@@ -70,7 +70,7 @@ using(Presentation presentation = new Presentation(path + "input.pptx"))
    IAutoShape autoShape = (IAutoShape)presentation.Slides[0].Shapes[0];
    IParagraph paragraph = autoShape.TextFrame.Paragraphs[0];
 
-   // ajouter l'effet d'animation Fly au paragraphe sélectionné
+   // ajouter un effet d'animation de vol au paragraphe sélectionné
    IEffect effect = presentation.Slides[0].Timeline.MainSequence.AddEffect(
    paragraph, EffectType.Fly, EffectSubtype.Left, EffectTriggerType.OnClick);
 }
@@ -91,7 +91,7 @@ using(Presentation presentation = new Presentation(path + "input.pptx"))
 
 ## AddEffect(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) {#addeffect}
 
-Ajoute le nouvel effet d'animation de graphique pour catégorie ou série à la fin de la séquence.
+Ajoute le nouvel effet d'animation pour le graphique pour catégories ou séries à la fin de la séquence.
 
 ```csharp
 public IEffect AddEffect(IChart chart, EffectChartMajorGroupingType type, int index, 
@@ -100,14 +100,14 @@ public IEffect AddEffect(IChart chart, EffectChartMajorGroupingType type, int in
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| chart | IChart | Objet Graphique [`IChart`](../../../aspose.slides.charts/ichart) |
-| type | EffectChartMajorGroupingType | Type d'effet d'animation [`EffectChartMinorGroupingType`](../../effectchartminorgroupingtype) |
+| chart | IChart | Objet graphique [`IChart`](../../../aspose.slides.charts/ichart) |
+| type | EffectChartMajorGroupingType | Type d'un effet d'animation [`EffectChartMinorGroupingType`](../../effectchartminorgroupingtype) |
 | index | Int32 | Index Int32 |
-| effectType | EffectType | Type d'effet d'animation [`EffectType`](../../effecttype) |
+| effectType | EffectType | Type d'un effet d'animation [`EffectType`](../../effecttype) |
 | subtype | EffectSubtype | Sous-types d'effet d'animation [`EffectSubtype`](../../effectsubtype) |
-| triggerType | EffectTriggerType | Type de déclencheur de l'effet [`EffectTriggerType`](../../effecttriggertype) |
+| triggerType | EffectTriggerType | Type de déclencheur d'effet [`EffectTriggerType`](../../effecttriggertype) |
 
-### Valeur de Retour
+### Valeur de retour
 
 Nouvel objet effet [`IEffect`](../../ieffect)
 
@@ -127,7 +127,7 @@ Nouvel objet effet [`IEffect`](../../ieffect)
 
 ## AddEffect(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) {#addeffect_1}
 
-Ajoute le nouvel effet d'animation de graphique pour les éléments dans la catégorie ou série à la fin de la séquence.
+Ajoute le nouvel effet d'animation pour les éléments dans la catégorie ou série à la fin de la séquence.
 
 ```csharp
 public IEffect AddEffect(IChart chart, EffectChartMinorGroupingType type, int seriesIndex, 
@@ -137,15 +137,15 @@ public IEffect AddEffect(IChart chart, EffectChartMinorGroupingType type, int se
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| chart | IChart | Objet Graphique [`IChart`](../../../aspose.slides.charts/ichart) |
-| type | EffectChartMinorGroupingType | Type d'effet d'animation [`EffectChartMinorGroupingType`](../../effectchartminorgroupingtype) |
+| chart | IChart | Objet graphique [`IChart`](../../../aspose.slides.charts/ichart) |
+| type | EffectChartMinorGroupingType | Type d'un effet d'animation [`EffectChartMinorGroupingType`](../../effectchartminorgroupingtype) |
 | seriesIndex | Int32 | Index de la série de graphique Int32 |
-| categoriesIndex | Int32 | Index de la catégorie Int32 |
-| effectType | EffectType | Type d'effet d'animation [`EffectType`](../../effecttype) |
+| categoriesIndex | Int32 | Index de catégorie Int32 |
+| effectType | EffectType | Type d'un effet d'animation [`EffectType`](../../effecttype) |
 | subtype | EffectSubtype | Sous-types d'effet d'animation [`EffectSubtype`](../../effectsubtype) |
-| triggerType | EffectTriggerType | Type de déclencheur de l'effet [`EffectTriggerType`](../../effecttriggertype) |
+| triggerType | EffectTriggerType | Type de déclencheur d'effet [`EffectTriggerType`](../../effecttriggertype) |
 
-### Valeur de Retour
+### Valeur de retour
 
 Nouvel objet effet [`IEffect`](../../ieffect)
 

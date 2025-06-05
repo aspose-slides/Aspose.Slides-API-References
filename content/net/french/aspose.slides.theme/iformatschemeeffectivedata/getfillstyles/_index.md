@@ -1,15 +1,15 @@
 ---
 title: GetFillStyles
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie une collection de styles de remplissage définis par le thème.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Retourne une collection de styles de remplissage définis par le thème.
 type: docs
 weight: 30
 url: /fr/aspose.slides.theme/iformatschemeeffectivedata/getfillstyles/
 ---
 
-## Méthode IFormatSchemeEffectiveData.GetFillStyles
+## IFormatSchemeEffectiveData.GetFillStyles méthode
 
-Renvoie une collection de styles de remplissage définis par le thème.
+Retourne une collection de styles de remplissage définis par le thème.
 
 ```csharp
 public IFillFormatCollectionEffectiveData GetFillStyles(Color styleColor)
@@ -17,13 +17,13 @@ public IFillFormatCollectionEffectiveData GetFillStyles(Color styleColor)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| styleColor | Color | Couleur Color |
+| styleColor | Color | Couleur de style |
 
-### Valeur de retour
+### Valeur de Retour
 
 Collection de formats de remplissage effectifs [`IFillFormatCollectionEffectiveData`](../../ifillformatcollectioneffectivedata)
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IFillFormatCollectionEffectiveData](../../ifillformatcollectioneffectivedata)
 * interface [IFormatSchemeEffectiveData](../../iformatschemeeffectivedata)

@@ -1,7 +1,7 @@
 ---
 title: NotesViewProperties
-second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie les propriétés de vue communes associées au mode de vue des notes. Lecture seule ICommonSlideViewProperties aspose.slides/icommonslideviewproperties.
+second_title: Aspose.Slides pour la référence API .NET
+description: Spécifie les propriétés de vue communes associées au mode de vue des notes. Lecture seule ICommonSlideViewPropertiesaspose.slides/icommonslideviewproperties.
 type: docs
 weight: 40
 url: /fr/aspose.slides/iviewproperties/notesviewproperties/
@@ -15,7 +15,7 @@ Spécifie les propriétés de vue communes associées au mode de vue des notes. 
 public ICommonSlideViewProperties NotesViewProperties { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ICommonSlideViewProperties](../../icommonslideviewproperties)
 * interface [IViewProperties](../../iviewproperties)

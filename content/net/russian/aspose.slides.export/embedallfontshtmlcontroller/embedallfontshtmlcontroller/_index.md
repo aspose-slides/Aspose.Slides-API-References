@@ -1,6 +1,6 @@
 ---
 title: EmbedAllFontsHtmlController
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Reference
 description: Создает новый экземпляр
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export/embedallfontshtmlcontroller/embedallfontshtmlcontr
 public EmbedAllFontsHtmlController()
 ```
 
-### См. Также
+### См. также
 
 * класс [EmbedAllFontsHtmlController](../../embedallfontshtmlcontroller)
 * пространство имен [Aspose.Slides.Export](../../embedallfontshtmlcontroller)
@@ -33,9 +33,9 @@ public EmbedAllFontsHtmlController(string[] fontNameExcludeList)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fontNameExcludeList | String[] | Шрифты, которые будут исключены из встраивания |
+| fontNameExcludeList | String[] | Шрифты, которые следует исключить из встраивания |
 
-### См. Также
+### См. также
 
 * класс [EmbedAllFontsHtmlController](../../embedallfontshtmlcontroller)
 * пространство имен [Aspose.Slides.Export](../../embedallfontshtmlcontroller)

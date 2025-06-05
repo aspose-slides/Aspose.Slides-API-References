@@ -1,21 +1,21 @@
 ---
 title: HangingPunctuation
-second_title: Справочная документация по Aspose.Slides для .NET
-description: Определяет, используется ли висячая пунктуация в параграфе. Наследование не применяется. Чтение/запись NullableBoolaspose.slides/nullablebool.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Определяет, используется ли висящая пунктуация в абзаце. Наследование не применяется. Чтение/запись NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 60
 url: /ru/aspose.slides/paragraphformat/hangingpunctuation/
 ---
 
-## Свойство ParagraphFormat.HangingPunctuation
+## ParagraphFormat.HangingPunctuation property
 
-Определяет, используется ли висячая пунктуация в параграфе. Наследование не применяется. Чтение/запись [`NullableBool`](../../nullablebool).
+Определяет, используется ли висящая пунктуация в абзаце. Наследование не применяется. Чтение/запись [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool HangingPunctuation { get; set; }
 ```
 
-### Смотрите также
+### Смотрите Также
 
 * enum [NullableBool](../../nullablebool)
 * class [ParagraphFormat](../../paragraphformat)

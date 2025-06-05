@@ -1,7 +1,7 @@
 ---
 title: GridSpacing
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit l'espacement de la grille qui doit être utilisé pour la grille sous-jacente du document de présentation en points. Lecture/écriture Simple.
+second_title: Aspose.Slides pour la référence de l'API .NET
+description: Renvoie ou définit l'espacement de la grille qui doit être utilisé pour la grille sous-jacente du document de présentation en points. Lecture/écriture Single.
 type: docs
 weight: 10
 url: /fr/aspose.slides/iviewproperties/gridspacing/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/iviewproperties/gridspacing/
 
 ## Propriété IViewProperties.GridSpacing
 
-Renvoie ou définit l'espacement de la grille qui doit être utilisé pour la grille sous-jacente du document de présentation, en points. Lecture/écriture Simple.
+Renvoie ou définit l'espacement de la grille qui doit être utilisé pour la grille sous-jacente du document de présentation, en points. Lecture/écriture Single.
 
 ```csharp
 public float GridSpacing { get; set; }
@@ -17,11 +17,11 @@ public float GridSpacing { get; set; }
 
 ### Remarques
 
-La valeur de l'espacement de la grille doit être un nombre positif. La plage de valeurs typiques est comprise entre 1 mm (2,8349607 points) et 2 pouces (144 points).
+La valeur de l'espacement de la grille doit être un nombre positif. La plage de valeurs typiques va de 1 mm (2.8349607 points) à 2 pouces (144 points).
 
 ### Exemples
 
-Le code exemple suivant montre comment changer l'espacement de la grille dans une présentation PowerPoint.
+Le code d'exemple suivant montre comment modifier l'espacement de la grille dans une présentation PowerPoint.
 
 ```csharp
 [C#]
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IViewProperties](../../iviewproperties)
 * namespace [Aspose.Slides](../../iviewproperties)

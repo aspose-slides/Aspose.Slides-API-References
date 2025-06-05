@@ -1,15 +1,15 @@
 ---
 title: RewindAudio
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Определяет, будет ли аудио автоматически перематываться в начало после воспроизведения. Читаемое/записываемое значение типа Boolean.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Определяет, будет ли аудио автоматически перематываться к началу после воспроизведения. Читаемое/записываемое булево значение.
 type: docs
 weight: 150
 url: /ru/aspose.slides/iaudioframe/rewindaudio/
 ---
 
-## Свойство IAudioFrame.RewindAudio
+## IAudioFrame.RewindAudio свойство
 
-Определяет, будет ли аудио автоматически перематываться в начало после воспроизведения. Читаемое/записываемое значение типа Boolean.
+Определяет, будет ли аудио автоматически перематываться к началу после воспроизведения. Читаемое/записываемое булево значение.
 
 ```csharp
 public bool RewindAudio { get; set; }
@@ -23,13 +23,13 @@ using (Presentation pres = new Presentation())
 {
     ISlide slide = pres.Slides[0];
 
-    // Добавить аудио-фрейм
+    // Добавить аудио фрейм
     IAudioFrame audioFrame = slide.Shapes.AddAudioFrameLinked(50, 50, 100, 100, "sampleaudio.wav");
 
-    // Установить воспроизведение аудио на слайдах
+    // Установить аудио для воспроизведения по слайдам
     audioFrame.PlayAcrossSlides = true;
 
-    // Установить автоматическую перемотку аудио в начало после воспроизведения
+    // Установить аудио для автоматической перемотки к началу после воспроизведения
     audioFrame.RewindAudio = true;
 
     pres.Save("AudioFrame_out.pptx", SaveFormat.Pptx);

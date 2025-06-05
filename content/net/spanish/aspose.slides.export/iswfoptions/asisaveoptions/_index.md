@@ -1,15 +1,15 @@
 ---
 title: AsISaveOptions
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve la interfaz ISaveOptions. ISaveOptions de solo lectura aspose.slides.export/isaveoptions.
+description: Devuelve la interfaz ISaveOptions. ISaveOptions solo de lectura aspose.slides.export/isaveoptions.
 type: docs
 weight: 10
 url: /es/aspose.slides.export/iswfoptions/asisaveoptions/
 ---
 
-## Propiedad ISwfOptions.AsISaveOptions
+## ISwfOptions.AsISaveOptions propiedad
 
-Devuelve la interfaz ISaveOptions. De solo lectura [`ISaveOptions`](../../isaveoptions).
+Devuelve la interfaz ISaveOptions. Solo de lectura [`ISaveOptions`](../../isaveoptions).
 
 ```csharp
 public ISaveOptions AsISaveOptions { get; }
@@ -19,7 +19,7 @@ public ISaveOptions AsISaveOptions { get; }
 
 Para compatibilidad con COM.
 
-### Véase También
+### Véase también
 
 * interfaz [ISaveOptions](../../isaveoptions)
 * interfaz [ISwfOptions](../../iswfoptions)

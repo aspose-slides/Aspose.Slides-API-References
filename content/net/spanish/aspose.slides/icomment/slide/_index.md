@@ -1,5 +1,5 @@
 ---
-title: Diapositiva
+title: Slide
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece la diapositiva principal de un comentario. Solo lectura ISlideaspose.slides/islide.
 type: docs
@@ -15,7 +15,7 @@ Devuelve o establece la diapositiva principal de un comentario. Solo lectura [`I
 public ISlide Slide { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [ISlide](../../islide)
 * interfaz [IComment](../../icomment)

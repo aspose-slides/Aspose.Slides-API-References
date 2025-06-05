@@ -19,7 +19,7 @@ public IParagraph CreateParagraph()
 
 Абзац.
 
-### Также см. 
+### Смотрите также
 
 * интерфейс [IParagraph](../../iparagraph)
 * интерфейс [IParagraphFactory](../../iparagraphfactory)
@@ -38,13 +38,13 @@ public IParagraph CreateParagraph(IParagraph paragraph)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| paragraph | IParagraph | Абзац для использования данных. |
+| paragraph | IParagraph | Абзац, данные которого будут использованы. |
 
 ### Возвращаемое значение
 
 Абзац.
 
-### Также см. 
+### Смотрите также
 
 * интерфейс [IParagraph](../../iparagraph)
 * интерфейс [IParagraphFactory](../../iparagraphfactory)

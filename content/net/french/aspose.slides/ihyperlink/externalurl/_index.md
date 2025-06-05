@@ -1,7 +1,7 @@
 ---
 title: ExternalUrl
 second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie l'URL externe. Si cette propriété devient non nulle, alors la propriété TargetSlide devient nulle. Chaîne en lecture seule.
+description: Spécifie l'URL externe. Si cette propriété devient non nulle, la propriété TargetSlide devient nulle. Chaîne en lecture seule.
 type: docs
 weight: 30
 url: /fr/aspose.slides/ihyperlink/externalurl/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ihyperlink/externalurl/
 
 ## Propriété IHyperlink.ExternalUrl
 
-Spécifie l'URL externe. Si cette propriété devient non nulle, alors la propriété TargetSlide devient nulle. Chaîne en lecture seule.
+Spécifie l'URL externe. Si cette propriété devient non nulle, la propriété TargetSlide devient nulle. Chaîne en lecture seule.
 
 ```csharp
 public string ExternalUrl { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IHyperlink](../../ihyperlink)
 * namespace [Aspose.Slides](../../ihyperlink)

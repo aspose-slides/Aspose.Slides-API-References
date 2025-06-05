@@ -1,13 +1,13 @@
 ---
 title: GetHashCode
-second_title: Aspose.Slides pour .NET Référence d'API
+second_title: Aspose.Slides pour la référence API .NET
 description: Sert de fonction de hachage pour un type particulier.
 type: docs
 weight: 30
 url: /fr/aspose.slides.effects/alphafloor/gethashcode/
 ---
 
-## Méthode AlphaFloor.GetHashCode
+## AlphaFloor.GetHashCode méthode
 
 Sert de fonction de hachage pour un type particulier.
 

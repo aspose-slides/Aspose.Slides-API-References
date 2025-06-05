@@ -1,6 +1,6 @@
 ---
 title: EnableSoftEdgeEffect
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Habilita el efecto de borde suave.
 type: docs
 weight: 240
@@ -15,7 +15,7 @@ Habilita el efecto de borde suave.
 public void EnableSoftEdgeEffect()
 ```
 
-### Ver También
+### Véase También
 
 * clase [EffectFormat](../../effectformat)
 * espacio de nombres [Aspose.Slides](../../effectformat)

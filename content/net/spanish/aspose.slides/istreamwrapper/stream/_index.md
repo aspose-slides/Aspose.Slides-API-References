@@ -1,6 +1,6 @@
 ---
-title: Flujo
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Stream
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Obtiene un flujo. Flujo de solo lectura.
 type: docs
 weight: 70
@@ -15,7 +15,7 @@ Obtiene un flujo. Flujo de solo lectura.
 public Stream Stream { get; }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [IStreamWrapper](../../istreamwrapper)
 * espacio de nombres [Aspose.Slides](../../istreamwrapper)

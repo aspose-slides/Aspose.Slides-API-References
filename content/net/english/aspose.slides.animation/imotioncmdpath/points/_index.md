@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.animation/imotioncmdpath/points/
 ---
+
 ## IMotionCmdPath.Points property
 
 Specifies points of command. Read/write PointF[].

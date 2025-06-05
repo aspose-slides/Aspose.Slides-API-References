@@ -6,6 +6,7 @@ type: docs
 weight: 530
 url: /aspose.slides.charts/axis/ticklabelspacing/
 ---
+
 ## Axis.TickLabelSpacing property
 
 Specifies how many tick labels to skip between label that is drawn. Applied to category or series axis. Read/write UInt32.

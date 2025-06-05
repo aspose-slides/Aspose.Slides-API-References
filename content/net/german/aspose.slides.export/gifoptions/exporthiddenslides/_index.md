@@ -1,13 +1,13 @@
 ---
 title: ExportHiddenSlides
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Bestimmt, ob versteckte Folien exportiert werden. Der Standardwert ist false.
 type: docs
 weight: 30
 url: /de/aspose.slides.export/gifoptions/exporthiddenslides/
 ---
 
-## GifOptions.ExportHiddenSlides Eigenschaft
+## GifOptions.ExportHiddenSlides-Eigenschaft
 
 Bestimmt, ob versteckte Folien exportiert werden. Der Standardwert ist false.
 
@@ -25,7 +25,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [GifOptions](../../gifoptions)
 * Namespace [Aspose.Slides.Export](../../gifoptions)

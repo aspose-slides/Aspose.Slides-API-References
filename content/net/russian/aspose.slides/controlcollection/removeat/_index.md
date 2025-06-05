@@ -1,15 +1,15 @@
 ---
-title: УдалитьПо
-second_title: Aspose.Slides для .NET Справочник по API
-description: Удаляет ActiveX-элемент управления, хранящийся на указанной позиции в коллекции.
+title: RemoveAt
+second_title: Aspose.Sildes для .NET API Reference
+description: Удаляет элемент ActiveX, хранящийся в указанной позиции, из коллекции.
 type: docs
 weight: 100
 url: /ru/aspose.slides/controlcollection/removeat/
 ---
 
-## ControlCollection.RemoveAt метод
+## ControlCollection.RemoveAt method
 
-Удаляет ActiveX-элемент управления, хранящийся на указанной позиции в коллекции.
+Удаляет элемент ActiveX, хранящийся в указанной позиции, из коллекции.
 
 ```csharp
 public void RemoveAt(int index)
@@ -17,9 +17,9 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс элемента управления, который нужно удалить. |
+| index | Int32 | Индекс элемента для удаления. |
 
-### См. Также
+### See Also
 
 * класс [ControlCollection](../../controlcollection)
 * пространство имен [Aspose.Slides](../../controlcollection)

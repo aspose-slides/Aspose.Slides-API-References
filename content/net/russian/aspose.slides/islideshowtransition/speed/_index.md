@@ -1,13 +1,13 @@
 ---
-title: Скорость
-second_title: Справочник по API Aspose.Slides для .NET
+title: Speed
+second_title: Aspose.Sildes для .NET API справочник
 description: Указывает скорость перехода, которая будет использоваться при переходе от текущего слайда к следующему. Чтение-запись TransitionSpeedaspose.slides.slideshow/transitionspeed.
 type: docs
 weight: 90
 url: /ru/aspose.slides/islideshowtransition/speed/
 ---
 
-## Свойство ISlideShowTransition.Speed
+## ISlideShowTransition.Speed свойство
 
 Указывает скорость перехода, которая будет использоваться при переходе от текущего слайда к следующему. Чтение-запись [`TransitionSpeed`](../../../aspose.slides.slideshow/transitionspeed).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/islideshowtransition/speed/
 public TransitionSpeed Speed { get; set; }
 ```
 
-### См. также
+### Смотрите Также
 
 * enum [TransitionSpeed](../../../aspose.slides.slideshow/transitionspeed)
 * interface [ISlideShowTransition](../../islideshowtransition)

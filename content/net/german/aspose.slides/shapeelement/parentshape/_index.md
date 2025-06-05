@@ -1,7 +1,7 @@
 ---
 title: ParentShape
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt eine Shape_PPT zurück, für die das Element erstellt wurde. Nur-lesbare Shapeaspose.slides/shape.
+description: Gibt eine Shape_PPT zurück, für die das Element erstellt wurde. Nur-Lese Shapeaspose.slides/shape.
 type: docs
 weight: 20
 url: /de/aspose.slides/shapeelement/parentshape/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/shapeelement/parentshape/
 
 ## ShapeElement.ParentShape-Eigenschaft
 
-Gibt eine Shape_PPT zurück, für die das Element erstellt wurde. Nur-lesbare [`Shape`](../../shape).
+Gibt eine Shape_PPT zurück, für die das Element erstellt wurde. Nur-Lese [`Shape`](../../shape).
 
 ```csharp
 public Shape ParentShape { get; }

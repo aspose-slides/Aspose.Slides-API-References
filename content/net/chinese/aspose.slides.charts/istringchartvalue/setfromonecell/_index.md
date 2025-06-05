@@ -1,6 +1,6 @@
 ---
-title: 从单元格设置
-second_title: Aspose.Slides for .NET API 参考
+title: SetFromOneCell
+second_title: Aspose.Slides for .NET API Reference
 description: 从指定单元格设置值。
 type: docs
 weight: 40
@@ -19,7 +19,7 @@ public void SetFromOneCell(IChartDataCell cell)
 | --- | --- | --- |
 | cell | IChartDataCell | 单元格。 |
 
-### 另请参阅
+### 另见
 
 * 接口 [IChartDataCell](../../ichartdatacell)
 * 接口 [IStringChartValue](../../istringchartvalue)

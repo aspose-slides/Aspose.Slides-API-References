@@ -1,7 +1,7 @@
 ---
 title: AsIMathElement
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf das basale IMathElement-Schnittstelle IMathElementaspose.slides.mathtext/imathelement
+second_title: Aspose.Sildes für .NET API Referenz
+description: Ermöglicht den Zugriff auf die Basis IMathElement-Schnittstelle IMathElementaspose.slides.mathtext/imathelement
 type: docs
 weight: 10
 url: /de/aspose.slides.mathtext/imathblock/asimathelement/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathblock/asimathelement/
 
 ## IMathBlock.AsIMathElement-Eigenschaft
 
-Ermöglicht den Zugriff auf das basale IMathElement-Schnittstelle [`IMathElement`](../../imathelement)
+Ermöglicht den Zugriff auf die Basis IMathElement-Schnittstelle [`IMathElement`](../../imathelement)
 
 ```csharp
 public IMathElement AsIMathElement { get; }

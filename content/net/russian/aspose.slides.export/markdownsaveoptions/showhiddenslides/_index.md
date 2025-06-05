@@ -1,21 +1,22 @@
 ---
 title: ShowHiddenSlides
-second_title: Aspose.Slides для .NET справочник по API
-description: Указывает, должен ли сгенерированный документ включать скрытые слайды или нет. По умолчанию - false.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Указывает, должно ли сгенерированное документ включать скрытые слайды или нет. По умолчанию false.
 type: docs
 weight: 100
 url: /ru/aspose.slides.export/markdownsaveoptions/showhiddenslides/
 ---
 
-## Свойство MarkdownSaveOptions.ShowHiddenSlides
+## MarkdownSaveOptions.ShowHiddenSlides свойство
 
-Указывает, должен ли сгенерированный документ включать скрытые слайды или нет. По умолчанию - `false`.
+Указывает, должно ли сгенерированное документ включать скрытые слайды или нет. По умолчанию `false`.
 
 ```csharp
 public bool ShowHiddenSlides { get; set; }
 ```
 
-### См. также
+### Также см.
+
 
 * класс [MarkdownSaveOptions](../../markdownsaveoptions)
 * пространство имен [Aspose.Slides.Export](../../markdownsaveoptions)

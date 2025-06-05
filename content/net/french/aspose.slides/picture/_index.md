@@ -1,6 +1,6 @@
 ---
-title: Image
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Picture
+second_title: Référence API Aspose.Slides pour .NET
 description: Représente une image dans une présentation.
 type: docs
 weight: 9110
@@ -19,19 +19,19 @@ public sealed class Picture : ISlidesPicture
 
 | Nom | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/picture/asipresentationcomponent) { get; } | Permet d'obtenir l'interface de base IPresentationComponent. En lecture seule [`IPresentationComponent`](../ipresentationcomponent). |
-| [Image](../../aspose.slides/picture/image) { get; set; } | Renvoie ou définit l'image embarquée. En lecture/écriture [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | Renvoie la collection d'effets de transformation d'image. En lecture seule [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
-| [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | Renvoie ou définit l'URL de l'image liée. En lecture/écriture String. |
-| [Presentation](../../aspose.slides/picture/presentation) { get; } | Renvoie la présentation. En lecture seule [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/picture/slide) { get; } | Renvoie la diapositive parente d'une image. En lecture seule [`IBaseSlide`](../ibaseslide). |
+| [AsIPresentationComponent](../../aspose.slides/picture/asipresentationcomponent) { get; } | Permet d'obtenir l'interface de base IPresentationComponent. Lecture seule [`IPresentationComponent`](../ipresentationcomponent). |
+| [Image](../../aspose.slides/picture/image) { get; set; } | Retourne ou définit l'image intégrée. Lecture/écriture [`IPPImage`](../ippimage). |
+| [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | Retourne la collection des effets de transformation d'image. Lecture seule [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
+| [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | Retourne ou définit l'URL de l'image liée. Lecture/écriture String. |
+| [Presentation](../../aspose.slides/picture/presentation) { get; } | Retourne la présentation. Lecture seule [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/picture/slide) { get; } | Retourne la diapositive parente d'une image. Lecture seule [`IBaseSlide`](../ibaseslide). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/picture/equals)(object) | Compare avec l'objet spécifié. |
-| override [GetHashCode](../../aspose.slides/picture/gethashcode)() | Renvoie le hachage. |
+| override [GetHashCode](../../aspose.slides/picture/gethashcode)() | Retourne le hash. |
 
 ### Voir aussi
 

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/connector/endshapeconnectedto/
 ---
+
 ## Connector.EndShapeConnectedTo property
 
 Returns or sets the shape to attach the end of the connector to. Read/write [`IShape`](../../ishape).

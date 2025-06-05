@@ -1,6 +1,6 @@
 ---
-title: 数量
-second_title: Aspose.Slides for .NET API 参考
+title: Count
+second_title: Aspose.Sildes for .NET API 参考
 description: 返回集合中的元素数量。只读 Int32。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/chartcategorycollection/count/
 public int Count { get; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * class [ChartCategoryCollection](../../chartcategorycollection)
 * namespace [Aspose.Slides.Charts](../../chartcategorycollection)

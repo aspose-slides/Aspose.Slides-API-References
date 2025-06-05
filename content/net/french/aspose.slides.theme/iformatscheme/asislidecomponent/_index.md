@@ -7,7 +7,7 @@ weight: 10
 url: /fr/aspose.slides.theme/iformatscheme/asislidecomponent/
 ---
 
-## Propriété IFormatScheme.AsISlideComponent
+## IFormatScheme.AsISlideComponent propriété
 
 Permet d'obtenir l'interface de base ISlideComponent. Lecture seule [`ISlideComponent`](../../../aspose.slides/islidecomponent).
 
@@ -15,7 +15,7 @@ Permet d'obtenir l'interface de base ISlideComponent. Lecture seule [`ISlideComp
 public ISlideComponent AsISlideComponent { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ISlideComponent](../../../aspose.slides/islidecomponent)
 * interface [IFormatScheme](../../iformatscheme)

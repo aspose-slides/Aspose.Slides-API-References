@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ipatternformateffectivedata/forecolor/
 ---
+
 ## IPatternFormatEffectiveData.ForeColor property
 
 Returns the foreground pattern color. Read-only Color.

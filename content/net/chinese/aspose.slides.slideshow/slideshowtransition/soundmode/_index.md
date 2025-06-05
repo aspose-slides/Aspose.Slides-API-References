@@ -1,7 +1,7 @@
 ---
-title: 声音模式
-second_title: Aspose.Slides for .NET API 参考
-description: 设置或返回幻灯片切换的声音模式。可读/可写 TransitionSoundModeaspose.slides.slideshow/transitionsoundmode。
+title: SoundMode
+second_title: Aspose.Sildes for .NET API 参考
+description: 设置或返回幻灯片切换的声音模式。可读写 TransitionSoundModeaspose.slides.slideshow/transitionsoundmode。
 type: docs
 weight: 70
 url: /zh/aspose.slides.slideshow/slideshowtransition/soundmode/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.slideshow/slideshowtransition/soundmode/
 
 ## SlideShowTransition.SoundMode 属性
 
-设置或返回幻灯片切换的声音模式。可读/可写 [`TransitionSoundMode`](../../transitionsoundmode)。
+设置或返回幻灯片切换的声音模式。可读写 [`TransitionSoundMode`](../../transitionsoundmode)。
 
 ```csharp
 public TransitionSoundMode SoundMode { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * 枚举 [TransitionSoundMode](../../transitionsoundmode)
 * 类 [SlideShowTransition](../../slideshowtransition)

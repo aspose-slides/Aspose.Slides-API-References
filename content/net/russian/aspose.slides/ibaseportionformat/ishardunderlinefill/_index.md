@@ -1,7 +1,7 @@
 ---
 title: IsHardUnderlineFill
-second_title: Aspose.Sildes для .NET API Справочник
-description: Определяет, имеет ли стиль подчеркивания свои собственные свойства FillFormat или наследует их от свойств FillFormat текста. Чтение/запись NullableBoolaspose.slides/nullablebool.
+second_title: Aspose.Slides для .NET API Справка
+description: Определяет, имеет ли стиль подчеркивания собственные свойства FillFormat или наследует их от свойств FillFormat текста. Чтение/запись NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 120
 url: /ru/aspose.slides/ibaseportionformat/ishardunderlinefill/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ibaseportionformat/ishardunderlinefill/
 
 ## IBasePortionFormat.IsHardUnderlineFill свойство
 
-Определяет, имеет ли стиль подчеркивания свои собственные свойства FillFormat или наследует их от свойств FillFormat текста. Чтение/запись [`NullableBool`](../../nullablebool).
+Определяет, имеет ли стиль подчеркивания собственные свойства FillFormat или наследует их от свойств FillFormat текста. Чтение/запись [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool IsHardUnderlineFill { get; set; }

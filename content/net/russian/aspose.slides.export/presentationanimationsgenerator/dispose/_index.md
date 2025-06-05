@@ -1,7 +1,7 @@
 ---
-title: Освобождение
-second_title: Ссылка на API Aspose.Sildes для .NET
-description: Освобождает экземпляр PresentationAnimationsGeneratoraspose.slides.export/presentationanimationsgenerator.
+title: Dispose
+second_title: Aspose.Sildes для .NET API Справочник
+description: Освобождает экземпляр PresentationAnimationsGenerator aspose.slides.export/presentationanimationsgenerator.
 type: docs
 weight: 70
 url: /ru/aspose.slides.export/presentationanimationsgenerator/dispose/
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export/presentationanimationsgenerator/dispose/
 public void Dispose()
 ```
 
-### См. Также
+### См. также
 
 * класс [PresentationAnimationsGenerator](../../presentationanimationsgenerator)
 * пространство имен [Aspose.Slides.Export](../../presentationanimationsgenerator)

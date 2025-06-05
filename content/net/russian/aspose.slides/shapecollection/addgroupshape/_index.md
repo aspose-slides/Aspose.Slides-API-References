@@ -1,86 +1,86 @@
----
+---  
 title: AddGroupShape
-second_title: Aspose.Slides для .NET Справочник API
-description: Создает новый GroupShape и добавляет его в конец коллекции. Размер и положение рамки GroupShape будут подогнаны по содержимому, когда новая фигура будет добавлена в GroupShape.
-type: docs
-weight: 130
+second_title: Aspose.Slides для .NET API Reference  
+description: Создает новый GroupShape и добавляет его в конец коллекции. Размер и положение рамки GroupShape будут подогнаны под содержимое, когда новая фигура будет добавлена в GroupShape.
+type: docs  
+weight: 130  
 url: /ru/aspose.slides/shapecollection/addgroupshape/
----
+---  
 
-## AddGroupShape() {#addgroupshape}
+## AddGroupShape() {#addgroupshape}  
 
-Создает новый GroupShape и добавляет его в конец коллекции. Размер и положение рамки GroupShape будут подогнаны по содержимому, когда новая фигура будет добавлена в GroupShape.
+Создает новый GroupShape и добавляет его в конец коллекции. Размер и положение рамки GroupShape будут подогнаны под содержимое, когда новая фигура будет добавлена в GroupShape.  
 
-```csharp
-public IGroupShape AddGroupShape()
-```
+```csharp  
+public IGroupShape AddGroupShape()  
+```  
 
-### Возвращаемое значение
+### Возвращаемое значение  
 
-Созданный объект GroupShape.
+Созданный объект GroupShape.  
 
-### Примеры
+### Примеры  
 
-Следующий пример показывает, как добавить групповой объект в слайд презентации PowerPoint.
+Следующий пример показывает, как добавить группу фигур на слайд презентации PowerPoint.  
 
-```csharp
-[C#]
-// Создание экземпляра класса Presentation
-using (Presentation pres = new Presentation())
-{
-    // Получение первого слайда
-    ISlide sld = pres.Slides[0];
-    // Доступ к коллекции фигур слайдов
-    IShapeCollection slideShapes = sld.Shapes;
-    // Добавление групповой фигуры на слайд
-    IGroupShape groupShape = slideShapes.AddGroupShape();
-    // Добавление фигур внутри добавленной групповой фигуры
-    groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 300, 100, 100, 100);
-    groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 500, 100, 100, 100);
-    groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 300, 300, 100, 100);
-    groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 500, 300, 100, 100);
-    // Добавление рамки групповой фигуры
-    groupShape.Frame = new ShapeFrame(100, 300, 500, 40, NullableBool.False, NullableBool.False, 0);
-    // Запись файла PPTX на диск
-    pres.Save("GroupShape_out.pptx", SaveFormat.Pptx);
-}
-```
+```csharp  
+[C#]  
+// Создание класса Presentation  
+using (Presentation pres = new Presentation())  
+{  
+    // Получение первого слайда  
+    ISlide sld = pres.Slides[0];  
+    // Доступ к коллекции фигур слайдов  
+    IShapeCollection slideShapes = sld.Shapes;  
+    // Добавление группы фигур на слайд  
+    IGroupShape groupShape = slideShapes.AddGroupShape();  
+    // Добавление фигур внутрь добавленной группы фигур  
+    groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 300, 100, 100, 100);  
+    groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 500, 100, 100, 100);  
+    groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 300, 300, 100, 100);  
+    groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 500, 300, 100, 100);  
+    // Добавление рамки группы фигур  
+    groupShape.Frame = new ShapeFrame(100, 300, 500, 40, NullableBool.False, NullableBool.False, 0);  
+    // Запись файла PPTX на диск  
+    pres.Save("GroupShape_out.pptx", SaveFormat.Pptx);  
+}  
+```  
 
-### См. также
+### См. также  
 
-* интерфейс [IGroupShape](../../igroupshape)
-* класс [ShapeCollection](../../shapecollection)
-* пространство имен [Aspose.Slides](../../shapecollection)
-* сборка [Aspose.Slides](../../../)
+* интерфейс [IGroupShape](../../igroupshape)  
+* класс [ShapeCollection](../../shapecollection)  
+* пространство имен [Aspose.Slides](../../shapecollection)  
+* сборка [Aspose.Slides](../../../)  
 
----
+---  
 
-## AddGroupShape(ISvgImage, float, float, float, float) {#addgroupshape_1}
+## AddGroupShape(ISvgImage, float, float, float, float) {#addgroupshape_1}  
 
-Создает новый GroupShape, заполняет его конвертированными фигурами из SVG и добавляет его в конец коллекции.
+Создает новый GroupShape, заполняет его сконвертированными фигурами из SVG и добавляет его в конец коллекции.  
 
-```csharp
-public IGroupShape AddGroupShape(ISvgImage svgImage, float x, float y, float width, float height)
-```
+```csharp  
+public IGroupShape AddGroupShape(ISvgImage svgImage, float x, float y, float width, float height)  
+```  
 
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| svgImage | ISvgImage | Объект svg изображения [`ISvgImage`](../../isvgimage) |
-| x | Single | Координата X для левой стороны рамки групповой фигуры. |
-| y | Single | Координата Y для верхней стороны рамки групповой фигуры. |
-| width | Single | Ширина группы рамки групповой фигуры. |
-| height | Single | Высота группы рамки групповой фигуры. |
+| Параметр | Тип | Описание |  
+| --- | --- | --- |  
+| svgImage | ISvgImage | Объект изображения Svg [`ISvgImage`](../../isvgimage) |  
+| x | Single | Координата X для левой стороны рамки группы фигур. |  
+| y | Single | Координата Y для верхней стороны рамки группы фигур. |  
+| width | Single | Ширина группы рамки группы фигур. |  
+| height | Single | Высота группы рамки группы фигур. |  
 
-### Возвращаемое значение
+### Возвращаемое значение  
 
-Созданный объект GroupShape.
+Созданный объект GroupShape.  
 
-### См. также
+### См. также  
 
-* интерфейс [IGroupShape](../../igroupshape)
-* интерфейс [ISvgImage](../../isvgimage)
-* класс [ShapeCollection](../../shapecollection)
-* пространство имен [Aspose.Slides](../../shapecollection)
-* сборка [Aspose.Slides](../../../)
+* интерфейс [IGroupShape](../../igroupshape)  
+* интерфейс [ISvgImage](../../isvgimage)  
+* класс [ShapeCollection](../../shapecollection)  
+* пространство имен [Aspose.Slides](../../shapecollection)  
+* сборка [Aspose.Slides](../../../)  
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->  

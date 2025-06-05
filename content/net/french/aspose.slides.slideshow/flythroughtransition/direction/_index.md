@@ -15,7 +15,7 @@ Direction de la transition. Lecture/écriture [`TransitionInOutDirectionType`](.
 public TransitionInOutDirectionType Direction { get; set; }
 ```
 
-### À voir aussi
+### Voir aussi
 
 * enum [TransitionInOutDirectionType](../../transitioninoutdirectiontype)
 * class [FlyThroughTransition](../../flythroughtransition)

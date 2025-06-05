@@ -1,6 +1,6 @@
 ---
 title: TextVerticalType
-second_title: Справка по API Aspose.Sildes для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает ориентацию текста. Только для чтения TextVerticalTypeaspose.slides/textverticaltype.
 type: docs
 weight: 110
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/itextframeformateffectivedata/textverticaltype/
 public TextVerticalType TextVerticalType { get; }
 ```
 
-### См. также
+### См. Также
 
 * enum [TextVerticalType](../../textverticaltype)
 * interface [ITextFrameFormatEffectiveData](../../itextframeformateffectivedata)

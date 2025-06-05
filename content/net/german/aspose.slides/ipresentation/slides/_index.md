@@ -1,21 +1,21 @@
 ---
-title: Folien
+title: Slides
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt eine Liste aller Folien zurück, die in der Präsentation definiert sind. Schreibgeschütztes ISlideCollectionaspose.slides/islidecollection.
+description: Gibt eine Liste aller Folien zurück, die in der Präsentation definiert sind. Nur-Lese ISlideCollectionaspose.slides/islidecollection.
 type: docs
 weight: 240
 url: /de/aspose.slides/ipresentation/slides/
 ---
 
-## IPresentation.Slides Eigenschaft
+## IPresentation.Slides-Eigenschaft
 
-Gibt eine Liste aller Folien zurück, die in der Präsentation definiert sind. Schreibgeschütztes [`ISlideCollection`](../../islidecollection).
+Gibt eine Liste aller Folien zurück, die in der Präsentation definiert sind. Nur-Lese [`ISlideCollection`](../../islidecollection).
 
 ```csharp
 public ISlideCollection Slides { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ISlideCollection](../../islidecollection)
 * Schnittstelle [IPresentation](../../ipresentation)

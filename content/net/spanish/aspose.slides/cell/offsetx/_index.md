@@ -1,7 +1,7 @@
 ---
 title: OffsetX
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve una distancia desde el lado izquierdo de una tabla hasta el lado izquierdo de una celda. Solo lectura Double.
+description: Devuelve una distancia desde el lado izquierdo de una tabla hasta el lado izquierdo de una celda. Solo lectura Doble.
 type: docs
 weight: 150
 url: /es/aspose.slides/cell/offsetx/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/cell/offsetx/
 
 ## Propiedad Cell.OffsetX
 
-Devuelve una distancia desde el lado izquierdo de una tabla hasta el lado izquierdo de una celda. Solo lectura Double.
+Devuelve una distancia desde el lado izquierdo de una tabla hasta el lado izquierdo de una celda. Solo lectura Doble.
 
 ```csharp
 public double OffsetX { get; }

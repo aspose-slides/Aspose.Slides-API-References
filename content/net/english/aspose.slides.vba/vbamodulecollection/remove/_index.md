@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.vba/vbamodulecollection/remove/
 ---
+
 ## VbaModuleCollection.Remove method
 
 Removes the first occurrence of a specific object from the collection.

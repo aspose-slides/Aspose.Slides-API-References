@@ -1,7 +1,7 @@
 ---
-title: 格式
-second_title: Aspose.Slides for .NET API 参考
-description: 返回标题的填充线效果样式。只读 IFormataspose.slides.charts/iformat。
+title: Format
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回标题的填充线条效果样式。只读 IFormataspose.slides.charts/iformat。
 type: docs
 weight: 30
 url: /zh/aspose.slides.charts/icharttitle/format/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/icharttitle/format/
 
 ## IChartTitle.Format 属性
 
-返回标题的填充、线条和效果样式。只读 [`IFormat`](../../iformat)。
+返回标题的填充、线条、效果样式。只读 [`IFormat`](../../iformat)。
 
 ```csharp
 public IFormat Format { get; }

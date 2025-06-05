@@ -7,9 +7,9 @@ weight: 10
 url: /fr/aspose.slides.slideshow/ishredtransition/asitransitionvaluebase/
 ---
 
-## Propriété IShredTransition.AsITransitionValueBase
+## IShredTransition.AsITransitionValueBase propriété
 
-Permet d'obtenir l'interface de base ITransitionValueBase. [`ITransitionValueBase`](../../itransitionvaluebase) en lecture seule.
+Permet d'obtenir l'interface de base ITransitionValueBase. Lecture seule [`ITransitionValueBase`](../../itransitionvaluebase).
 
 ```csharp
 public ITransitionValueBase AsITransitionValueBase { get; }

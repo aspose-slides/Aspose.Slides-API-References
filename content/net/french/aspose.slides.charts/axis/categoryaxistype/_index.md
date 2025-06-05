@@ -1,7 +1,7 @@
 ---
 title: CategoryAxisType
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie le type de l'axe des catégories. Lecture/écriture CategoryAxisTypeaspose.slides.charts/categoryaxistype.
+description: Spécifie le type de l'axe de catégorie. Lecture/écriture CategoryAxisTypeaspose.slides.charts/categoryaxistype.
 type: docs
 weight: 110
 url: /fr/aspose.slides.charts/axis/categoryaxistype/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/axis/categoryaxistype/
 
 ## Propriété Axis.CategoryAxisType
 
-Spécifie le type de l'axe des catégories. Lecture/écriture [`CategoryAxisType`](../../categoryaxistype).
+Spécifie le type de l'axe de catégorie. Lecture/écriture [`CategoryAxisType`](../../categoryaxistype).
 
 ```csharp
 public CategoryAxisType CategoryAxisType { get; set; }

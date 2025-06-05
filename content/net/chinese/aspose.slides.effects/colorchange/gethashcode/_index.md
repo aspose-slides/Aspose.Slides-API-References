@@ -17,7 +17,7 @@ public override int GetHashCode()
 
 ### 返回值
 
-当前对象的哈希码。
+当前对象的哈希代码。
 
 ### 另请参见
 

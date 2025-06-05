@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.charts/chartdatapoint/errorbarscustomvalues/
 ---
+
 ## ChartDataPoint.ErrorBarsCustomValues property
 
 Represents series error bars values in case of Custom value type. Read-only [`IErrorBarsCustomValues`](../../ierrorbarscustomvalues).

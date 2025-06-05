@@ -1,7 +1,7 @@
 ---
 title: CreateGlow
-second_title: Aspose.Sildes for .NET API 参考
-description: 创建光晕效果。
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建辉光效果。
 type: docs
 weight: 20
 url: /zh/aspose.slides.effects/ieffectfactory/createglow/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/ieffectfactory/createglow/
 
 ## IEffectFactory.CreateGlow 方法
 
-创建光晕效果。
+创建辉光效果。
 
 ```csharp
 public IGlow CreateGlow()
@@ -17,9 +17,9 @@ public IGlow CreateGlow()
 
 ### 返回值
 
-光晕效果。
+辉光效果。
 
-### 另见
+### 另请参阅
 
 * 接口 [IGlow](../../iglow)
 * 接口 [IEffectFactory](../../ieffectfactory)

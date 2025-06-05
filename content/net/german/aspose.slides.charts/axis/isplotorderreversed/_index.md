@@ -1,7 +1,7 @@
 ---
 title: IsPlotOrderReversed
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt dar, ob MS PowerPoint Datenpunkte von zuletzt nach zuerst darstellt. Schreib-/Leseboolesch.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt dar, ob MS PowerPoint Datenpunkte von zuletzt nach zuerst anzeigt. Lese-/Schreib-Boolean.
 type: docs
 weight: 290
 url: /de/aspose.slides.charts/axis/isplotorderreversed/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/axis/isplotorderreversed/
 
 ## Axis.IsPlotOrderReversed-Eigenschaft
 
-Stellt dar, ob MS PowerPoint Datenpunkte von zuletzt nach zuerst darstellt. Schreib-/Leseboolesch.
+Stellt dar, ob MS PowerPoint Datenpunkte von zuletzt nach zuerst anzeigt. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool IsPlotOrderReversed { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [Axis](../../axis)
 * Namespace [Aspose.Slides.Charts](../../axis)

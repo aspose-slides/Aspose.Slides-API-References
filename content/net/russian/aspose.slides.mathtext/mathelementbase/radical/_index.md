@@ -1,6 +1,6 @@
 ---
-title: Радикал
-second_title: Справочник по API Aspose.Slides для .NET
+title: Radical
+second_title: Aspose.Sildes для .NET API Reference
 description: Указывает математический корень заданной степени от указанного аргумента.
 type: docs
 weight: 110
@@ -17,7 +17,7 @@ public IMathRadical Radical(IMathElement degree)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| degree | IMathElement | Аргумент Радикала |
+| degree | IMathElement | Аргумент Radical |
 
 ### Возвращаемое значение
 
@@ -54,7 +54,7 @@ public IMathRadical Radical(string degree)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| degree | String | Аргумент Радикала |
+| degree | String | Аргумент Radical |
 
 ### Возвращаемое значение
 

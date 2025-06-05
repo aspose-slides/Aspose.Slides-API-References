@@ -1,7 +1,7 @@
 ---
 title: ToLatex
 second_title: Aspose.Sildes pour .NET Référence API
-description: Obtient l'équation mathématique au format LaTeX
+description: Obtient des équations mathématiques au format LaTeX
 type: docs
 weight: 30
 url: /fr/aspose.slides.mathtext/imathparagraph/tolatex/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/imathparagraph/tolatex/
 
 ## IMathParagraph.ToLatex méthode
 
-Obtient l'équation mathématique au format LaTeX
+Obtient des équations mathématiques au format LaTeX
 
 ```csharp
 public string ToLatex()
@@ -17,7 +17,7 @@ public string ToLatex()
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

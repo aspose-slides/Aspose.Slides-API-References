@@ -1,7 +1,7 @@
 ---
 title: IChartCellCollection
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет собой коллекцию ячеек с данными.
+second_title: Aspose.Sildes для .NET API Справка
+description: Представляет коллекцию ячеек с данными.
 type: docs
 weight: 1700
 url: /ru/aspose.slides.charts/ichartcellcollection/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/ichartcellcollection/
 
 ## Интерфейс IChartCellCollection
 
-Представляет собой коллекцию ячеек с данными.
+Представляет коллекцию ячеек с данными.
 
 ```csharp
 public interface IChartCellCollection : IEnumerable<IChartDataCell>
@@ -17,7 +17,7 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | Возвращает интерфейс ICollection. Только для чтения IEnumerable. |
 | [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | Получает количество ячеек в коллекции. Только для чтения Int32. |
@@ -25,12 +25,12 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | Добавляет новую ячейку в коллекцию. |
 | [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | Создает [`IChartDataCell`](../ichartdatacell) из указанного значения и добавляет его в коллекцию. |
 | [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | Возвращает адрес набора ячеек в рабочей книге. |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | Конкатенационная строка из всех строковых значений ячеек. |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | Конкатенация строк из всех строковых значений ячеек. |
 | [RemoveAt](../../aspose.slides.charts/ichartcellcollection/removeat)(int) | Удаляет ячейку из коллекции по индексу. |
 
 ### Смотрите также

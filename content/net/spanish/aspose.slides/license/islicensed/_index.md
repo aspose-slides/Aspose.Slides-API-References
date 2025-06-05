@@ -1,7 +1,7 @@
 ---
 title: IsLicensed
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Verificar si la licencia está aplicada al componente
+description: Verifique si se aplica la licencia al componente
 type: docs
 weight: 20
 url: /es/aspose.slides/license/islicensed/
@@ -9,17 +9,17 @@ url: /es/aspose.slides/license/islicensed/
 
 ## Método License.IsLicensed
 
-Verificar si la licencia está aplicada al componente
+Verifique si se aplica la licencia al componente
 
 ```csharp
 public bool IsLicensed()
 ```
 
-### Valor de retorno
+### Valor de Retorno
 
 `True` si el componente está licenciado, de lo contrario `false`
 
-### Véase también
+### Véase También
 
 * clase [License](../../license)
 * espacio de nombres [Aspose.Slides](../../license)

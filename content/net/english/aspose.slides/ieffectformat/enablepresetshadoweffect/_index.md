@@ -6,6 +6,7 @@ type: docs
 weight: 230
 url: /aspose.slides/ieffectformat/enablepresetshadoweffect/
 ---
+
 ## IEffectFormat.EnablePresetShadowEffect method
 
 Enables preset shadows effect.

@@ -1,15 +1,15 @@
 ---
 title: BubbleSizeRepresentation
-second_title: Aspose.Sildes pour la référence API .NET
-description: Spécifie comment les valeurs de taille des bulles sont représentées sur le graphique à bulles. Ceci est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est la projection de la propriété appropriée du groupe. Et donc, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété ParentSeriesGroup.BubbleSizeRepresentation en lecture/écriture pour modifier la valeur.
+second_title: Aspose.Sildes pour référence API .NET
+description: Spécifie comment les valeurs de taille des bulles sont représentées sur le graphique à bulles. C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est la projection de la propriété appropriée du groupe. Ainsi, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété en lecture/écriture ParentSeriesGroup.BubbleSizeRepresentation pour changer la valeur.
 type: docs
 weight: 30
 url: /fr/aspose.slides.charts/ichartseries/bubblesizerepresentation/
 ---
 
-## Propriété IChartSeries.BubbleSizeRepresentation
+## IChartSeries.BubbleSizeRepresentation propriété
 
-Spécifie comment les valeurs de taille des bulles sont représentées sur le graphique à bulles. Ceci est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est la projection de la propriété appropriée du groupe. Et donc, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété ParentSeriesGroup.BubbleSizeRepresentation en lecture/écriture pour modifier la valeur.
+Spécifie comment les valeurs de taille des bulles sont représentées sur le graphique à bulles. C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est la projection de la propriété appropriée du groupe. Ainsi, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété en lecture/écriture ParentSeriesGroup.BubbleSizeRepresentation pour changer la valeur.
 
 ```csharp
 public BubbleSizeRepresentationType BubbleSizeRepresentation { get; }
@@ -17,7 +17,7 @@ public BubbleSizeRepresentationType BubbleSizeRepresentation { get; }
 
 ### Remarques
 
-Ceci est la projection de la propriété ParentSeriesGroup.BubbleSizeRepresentation.
+C'est la projection de la propriété ParentSeriesGroup.BubbleSizeRepresentation.
 
 ### Voir aussi
 

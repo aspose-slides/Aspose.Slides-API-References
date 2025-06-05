@@ -1,13 +1,13 @@
 ---
 title: RemoveField
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence de l'API .NET
 description: Convertit cette portion de champ en portion simple.
 type: docs
 weight: 80
 url: /fr/aspose.slides/iportion/removefield/
 ---
 
-## Méthode IPortion.RemoveField
+## IPortion.RemoveField méthode
 
 Convertit cette portion de champ en portion simple.
 

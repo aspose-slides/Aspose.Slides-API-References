@@ -1,6 +1,6 @@
 ---
-title: Límite de Miter
-second_title: Referencia de API de Aspose.Slides para .NET
+title: MiterLimit
+second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve o establece el límite de miter de una línea. Lectura/escritura Simple.
 type: docs
 weight: 150
@@ -15,10 +15,10 @@ Devuelve o establece el límite de miter de una línea. Lectura/escritura Simple
 public float MiterLimit { get; set; }
 ```
 
-### Vea También
+### Ver También
 
-* interfaz [ILineFormat](../../ilineformat)
-* espacio de nombres [Aspose.Slides](../../ilineformat)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [ILineFormat](../../ilineformat)
+* espacio de nombres [Aspose.Slides](../../ilineformat)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

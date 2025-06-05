@@ -1,13 +1,13 @@
 ---
-title: Удалить
-second_title: Aspose.Sildes для .NET API Справка
+title: Remove
+second_title: Aspose.Sildes для .NET API Reference
 description: Удаляет первое вхождение конкретного объекта из ICollection.
 type: docs
 weight: 260
 url: /ru/aspose.slides.effects/imagetransformoperationcollection/remove/
 ---
 
-## Метод ImageTransformOperationCollection.Remove
+## ImageTransformOperationCollection.Remove метод
 
 Удаляет первое вхождение конкретного объекта из ICollection.
 
@@ -19,17 +19,17 @@ public bool Remove(IImageTransformOperation item)
 | --- | --- | --- |
 | item | IImageTransformOperation | Объект, который нужно удалить из ICollection. |
 
-### Значение Возврата
+### Возвращаемое значение
 
-true, если *item* был успешно удалён из ICollection; в противном случае - false. Этот метод также возвращает false, если *item* не найден в исходном ICollection.
+true, если *item* был успешно удален из ICollection; в противном случае false. Этот метод также возвращает false, если *item* не найден в исходном ICollection.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| NotSupportedException | ICollection является только для чтения. |
+| NotSupportedException | ICollection только для чтения. |
 
-### См. Также
+### См. также
 
 * интерфейс [IImageTransformOperation](../../iimagetransformoperation)
 * класс [ImageTransformOperationCollection](../../imagetransformoperationcollection)

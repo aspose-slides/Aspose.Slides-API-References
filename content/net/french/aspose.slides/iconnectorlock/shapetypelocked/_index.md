@@ -1,21 +1,21 @@
 ---
 title: ShapeTypeLocked
-second_title: Aspose.Slides pour .NET Référence de l'API
-description: Détermine si un changement de type de forme est interdit. Boolean en lecture/écriture.
+second_title: Aspose.Slides pour .NET API Reference
+description: Détermine si un changement de type de forme est interdit. Propriété booléenne en lecture/écriture.
 type: docs
 weight: 100
 url: /fr/aspose.slides/iconnectorlock/shapetypelocked/
 ---
 
-## Propriété IConnectorLock.ShapeTypeLocked
+## IConnectorLock.ShapeTypeLocked propriété
 
-Détermine si un changement de type de forme est interdit. Boolean en lecture/écriture.
+Détermine si un changement de type de forme est interdit. Propriété booléenne en lecture/écriture.
 
 ```csharp
 public bool ShapeTypeLocked { get; set; }
 ```
 
-### Voir également
+### Voir Aussi
 
 * interface [IConnectorLock](../../iconnectorlock)
 * namespace [Aspose.Slides](../../iconnectorlock)

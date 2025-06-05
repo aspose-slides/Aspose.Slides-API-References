@@ -1,7 +1,7 @@
 ---
-title: Basisrechtfertigung
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Ausrichtung des Arrays im Verhältnis zum umgebenden Text an. Text außerhalb des Arrays kann mit der Unterkante, Oberkante oder Mitte eines Array-Objekts ausgerichtet werden. Standardwert Mitte
+title: BaseJustification
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Ausrichtung des Arrays im Verhältnis zum umgebenden Text an. Text außerhalb des Arrays kann mit dem unteren, oberen oder mittleren Teil eines Array-Objekts ausgerichtet werden. Standardwert Mitte
 type: docs
 weight: 30
 url: /de/aspose.slides.mathtext/matharray/basejustification/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/matharray/basejustification/
 
 ## MathArray.BaseJustification-Eigenschaft
 
-Gibt die Ausrichtung des Arrays im Verhältnis zum umgebenden Text an. Text außerhalb des Arrays kann mit der Unterkante, Oberkante oder Mitte eines Array-Objekts ausgerichtet werden. Standardwert: Mitte
+Gibt die Ausrichtung des Arrays im Verhältnis zum umgebenden Text an. Text außerhalb des Arrays kann mit dem unteren, oberen oder mittleren Teil eines Array-Objekts ausgerichtet werden. Standardwert: Mitte
 
 ```csharp
 public MathVerticalAlignment BaseJustification { get; set; }

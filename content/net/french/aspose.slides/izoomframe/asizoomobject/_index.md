@@ -1,13 +1,13 @@
 ---
 title: AsIZoomObject
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Renvoie l'interface IZoomObject.
 type: docs
 weight: 10
 url: /fr/aspose.slides/izoomframe/asizoomobject/
 ---
 
-## Propriété IZoomFrame.AsIZoomObject
+## IZoomFrame.AsIZoomObject propriété
 
 Renvoie l'interface IZoomObject.
 

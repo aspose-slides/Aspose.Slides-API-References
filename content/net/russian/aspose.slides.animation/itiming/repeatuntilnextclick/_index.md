@@ -1,13 +1,13 @@
 ---
 title: RepeatUntilNextClick
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Этот атрибут указывает, будет ли эффект повторяться до следующего щелчка. Читаемое/записываемое логическое значение.
 type: docs
 weight: 80
 url: /ru/aspose.slides.animation/itiming/repeatuntilnextclick/
 ---
 
-## Свойство ITiming.RepeatUntilNextClick
+## ITiming.RepeatUntilNextClick свойство
 
 Этот атрибут указывает, будет ли эффект повторяться до следующего щелчка. Читаемое/записываемое логическое значение.
 
@@ -23,10 +23,10 @@ using (Presentation presentation = new Presentation("demo.pptx"))
     // Получить последовательность эффектов для первого слайда
     ISequence effectsSequence = presentation.Slides[0].Timeline.MainSequence;
 
-    // Получить первый эффект основной последовательности.
+    // Получить первый эффект главной последовательности.
     IEffect effect = effectsSequence[0];
 
-    // Изменить время/повтор эффекта на "До следующего щелчка"
+    // Изменить время эффекта / Повтор на "До следующего щелчка"
     effect.Timing.RepeatUntilNextClick = true;
 }
 ```

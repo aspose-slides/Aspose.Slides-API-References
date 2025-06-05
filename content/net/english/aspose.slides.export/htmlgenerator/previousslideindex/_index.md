@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.export/htmlgenerator/previousslideindex/
 ---
+
 ## HtmlGenerator.PreviousSlideIndex property
 
 Returns index of previously rendered slide or -1 if first slide is rendering. Read-only Int32.

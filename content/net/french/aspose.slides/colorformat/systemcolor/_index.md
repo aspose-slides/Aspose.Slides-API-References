@@ -1,6 +1,6 @@
 ---
 title: SystemColor
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Renvoie ou définit la couleur identifiée par la table des couleurs système. Lecture/écriture SystemColoraspose.slides/systemcolor.
 type: docs
 weight: 150

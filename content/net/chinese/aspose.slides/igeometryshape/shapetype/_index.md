@@ -1,7 +1,7 @@
 ---
-title: 形状类型
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置几何预设类型。注意，当值改变时，所有调整值将重置为其默认值。读/写 ShapeType aspose.slides/shapetype。
+title: ShapeType
+second_title: Aspose.Slides for .NET API Reference
+description: 返回或设置几何预设类型。注意，值更改时所有调整值将重置为其默认值。读/写 ShapeTypeaspose.slides/shapetype。
 type: docs
 weight: 40
 url: /zh/aspose.slides/igeometryshape/shapetype/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/igeometryshape/shapetype/
 
 ## IGeometryShape.ShapeType 属性
 
-返回或设置几何预设类型。注意：当值改变时，所有调整值将重置为其默认值。读/写 [`ShapeType`](../../shapetype)。
+返回或设置几何预设类型。注意：值更改时所有调整值将重置为其默认值。读/写 [`ShapeType`](../../shapetype)。
 
 ```csharp
 public ShapeType ShapeType { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * 枚举 [ShapeType](../../shapetype)
 * 接口 [IGeometryShape](../../igeometryshape)

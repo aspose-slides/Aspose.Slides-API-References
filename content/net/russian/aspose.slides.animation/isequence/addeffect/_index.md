@@ -1,6 +1,6 @@
 ---
 title: AddEffect
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET Справочник по API
 description: Добавить новый эффект в конец последовательности.
 type: docs
 weight: 50
@@ -42,7 +42,7 @@ public IEffect AddEffect(IShape shape, EffectType effectType, EffectSubtype subt
 
 ## AddEffect(IParagraph, EffectType, EffectSubtype, EffectTriggerType) {#addeffect_2}
 
-Добавить новый анимационный эффект для параграфа в конец последовательности.
+Добавить новый анимационный эффект для абзаца в конец последовательности.
 
 ```csharp
 public IEffect AddEffect(IParagraph paragraph, EffectType effectType, EffectSubtype subtype, 
@@ -51,7 +51,7 @@ public IEffect AddEffect(IParagraph paragraph, EffectType effectType, EffectSubt
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| paragraph | IParagraph | Объект параграфа [`IParagraph`](../../../aspose.slides/iparagraph) |
+| paragraph | IParagraph | Объект абзаца [`IParagraph`](../../../aspose.slides/iparagraph) |
 | effectType | EffectType | Тип анимационного эффекта [`EffectType`](../../effecttype) |
 | subtype | EffectSubtype | Подтипы анимационного эффекта [`EffectSubtype`](../../effectsubtype) |
 | triggerType | EffectTriggerType | Тип триггера эффекта [`EffectTriggerType`](../../effecttriggertype) |
@@ -66,11 +66,11 @@ public IEffect AddEffect(IParagraph paragraph, EffectType effectType, EffectSubt
 [C#]
 using(Presentation presentation = new Presentation(path + "input.pptx"))
 {        
-   // выбрать параграф для добавления эффекта
+   // выбрать абзац для добавления эффекта
    IAutoShape autoShape = (IAutoShape)presentation.Slides[0].Shapes[0];
    IParagraph paragraph = autoShape.TextFrame.Paragraphs[0];
 
-   // добавить эффект анимации Fly к выбранному параграфу
+   // добавить эффект анимации Fly к выбранному абзацу
    IEffect effect = presentation.Slides[0].Timeline.MainSequence.AddEffect(
    paragraph, EffectType.Fly, EffectSubtype.Left, EffectTriggerType.OnClick);
 }
@@ -91,7 +91,7 @@ using(Presentation presentation = new Presentation(path + "input.pptx"))
 
 ## AddEffect(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) {#addeffect}
 
-Добавляет новый анимационный эффект для категории или серии в конец последовательности.
+Добавляет новый анимационный эффект для категорий или серий в конце последовательности.
 
 ```csharp
 public IEffect AddEffect(IChart chart, EffectChartMajorGroupingType type, int index, 

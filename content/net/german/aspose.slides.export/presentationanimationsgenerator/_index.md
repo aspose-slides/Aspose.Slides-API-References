@@ -1,7 +1,7 @@
 ---
 title: PresentationAnimationsGenerator
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt einen Generator der Animationen in der Präsentation../aspose.slides/presentation dar.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt einen Generator der Animationen in der Präsentation dar ../aspose.slides/presentation.
 type: docs
 weight: 4190
 url: /de/aspose.slides.export/presentationanimationsgenerator/
@@ -26,23 +26,23 @@ public class PresentationAnimationsGenerator : IDisposable
 
 | Name | Beschreibung |
 | --- | --- |
-| [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | Ruft die standardmäßige Verzögerungszeit [ms] ab oder legt sie fest. |
-| [ExportedSlides](../../aspose.slides.export/presentationanimationsgenerator/exportedslides) { get; } | Gibt die Anzahl der exportierten Folien zurück. |
-| [IncludeHiddenSlides](../../aspose.slides.export/presentationanimationsgenerator/includehiddenslides) { get; set; } | Ruft ab oder legt fest, ob versteckte Folien enthalten sein sollen. |
+| [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | Erhält oder setzt die Standardverzögerungszeit [ms]. |
+| [ExportedSlides](../../aspose.slides.export/presentationanimationsgenerator/exportedslides) { get; } | Erhält die Anzahl der exportierten Folien. |
+| [IncludeHiddenSlides](../../aspose.slides.export/presentationanimationsgenerator/includehiddenslides) { get; set; } | Erhält oder setzt, ob versteckte Folien eingeschlossen werden sollen. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | [Dispose](../../aspose.slides.export/presentationanimationsgenerator/dispose)() | Gibt die Instanz des [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) frei. |
-| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run)(IEnumerable&lt;ISlide&gt;) | Führt die Generierung der Animationsevents für jede Folie aus. |
-| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run_1)(IEnumerable&lt;ISlide&gt;, int, FrameTickHandler) | Führt die Generierung der Animationsevents für jede Folie aus. |
+| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run)(IEnumerable&lt;ISlide&gt;) | Führt die Generierung der Animationsereignisse für jede Folie aus. |
+| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run_1)(IEnumerable&lt;ISlide&gt;, int, FrameTickHandler) | Führt die Generierung der Animationsereignisse für jede Folie aus. |
 
 ## Felder
 
 | Name | Beschreibung |
 | --- | --- |
-| readonly [FrameSize](../../aspose.slides.export/presentationanimationsgenerator/framesize) | Ruft die Rahmenhöhe ab. |
+| readonly [FrameSize](../../aspose.slides.export/presentationanimationsgenerator/framesize) | Erhält die Rahmengröße. |
 
 ## Ereignisse
 

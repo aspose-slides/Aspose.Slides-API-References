@@ -1,5 +1,5 @@
 ---
-title: Kommentare
+title: Comments
 second_title: Aspose.Slides für .NET API-Referenz
 description: Der Zweck der Signatur. Lese-/Schreib-String.
 type: docs
@@ -15,7 +15,7 @@ Der Zweck der Signatur. Lese-/Schreib-String.
 public string Comments { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [DigitalSignature](../../digitalsignature)
 * Namespace [Aspose.Slides](../../digitalsignature)

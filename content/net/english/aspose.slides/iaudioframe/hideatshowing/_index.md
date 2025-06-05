@@ -3,9 +3,10 @@ title: HideAtShowing
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines whether an AudioFrame is hidden. Read/write Boolean.
 type: docs
-weight: 80
+weight: 100
 url: /aspose.slides/iaudioframe/hideatshowing/
 ---
+
 ## IAudioFrame.HideAtShowing property
 
 Determines whether an AudioFrame is hidden. Read/write Boolean.

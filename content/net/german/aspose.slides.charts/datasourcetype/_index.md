@@ -1,7 +1,7 @@
 ---
 title: DataSourceType
-second_title: Aspose.Slides für .NET API Referenz
-description: Datentypen für Datenquellen.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Datentypen.
 type: docs
 weight: 1500
 url: /de/aspose.slides.charts/datasourcetype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/datasourcetype/
 
 ## DataSourceType Aufzählung
 
-Datentypen für Datenquellen.
+Datentypen.
 
 ```csharp
 public enum DataSourceType
@@ -19,9 +19,9 @@ public enum DataSourceType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Worksheet | `0` | Verwenden Sie CellXls-Objekte zum Speichern von XValue, YValue, Value oder BubbleSize eines Datenpunkts im Arbeitsblatt. |
-| StringLiterals | `1` | Verwenden Sie eine schnell zugängliche String-Variable zum Speichern von XValue, YValue, Value oder BubbleSize eines Datenpunkts. Das Arbeitsblatt wird NICHT zum Speichern von Werten verwendet. |
-| DoubleLiterals | `2` | Verwenden Sie eine schnell zugängliche Double-Variable zum Speichern von XValue, YValue, Value oder BubbleSize eines Datenpunkts. Das Arbeitsblatt wird NICHT zum Speichern von Werten verwendet. |
+| Worksheet | `0` | Verwenden Sie CellXls-Objekte zum Speichern von XValue, YValue, Value oder BubbleSize des Datenpunkts im Arbeitsblatt. |
+| StringLiterals | `1` | Verwenden Sie eine schnell abrufbare String-Variable zum Speichern von XValue, YValue, Value oder BubbleSize des Datenpunkts. Das Arbeitsblatt wird NICHT zum Speichern von Werten verwendet. |
+| DoubleLiterals | `2` | Verwenden Sie eine schnell abrufbare Double-Variable zum Speichern von XValue, YValue, Value oder BubbleSize des Datenpunkts. Das Arbeitsblatt wird NICHT zum Speichern von Werten verwendet. |
 
 ### Siehe auch
 

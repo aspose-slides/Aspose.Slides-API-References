@@ -1,13 +1,13 @@
 ---
-title: Effacer
-second_title: Référence API Aspose.Slides pour .NET
+title: Clear
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Supprime tous les effets d'image d'une collection.
 type: docs
 weight: 220
 url: /fr/aspose.slides.effects/imagetransformoperationcollection/clear/
 ---
 
-## Méthode ImageTransformOperationCollection.Clear
+## ImageTransformOperationCollection.Clear méthode
 
 Supprime tous les effets d'image d'une collection.
 
@@ -15,7 +15,7 @@ Supprime tous les effets d'image d'une collection.
 public void Clear()
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [ImageTransformOperationCollection](../../imagetransformoperationcollection)
 * espace de noms [Aspose.Slides.Effects](../../imagetransformoperationcollection)

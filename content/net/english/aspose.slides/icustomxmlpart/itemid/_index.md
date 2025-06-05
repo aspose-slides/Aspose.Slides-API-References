@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/icustomxmlpart/itemid/
 ---
+
 ## ICustomXmlPart.ItemId property
 
 Specifies a globally unique identifier (GUID) that uniquely identifies a single custom XML part within an Office Open XML document. Read-only Guid.

@@ -1,21 +1,21 @@
 ---
 title: DisableSoftEdgeEffect
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Desactiva el efecto de borde suave.
+description: Desactiva el efecto de bordes suaves.
 type: docs
 weight: 180
 url: /es/aspose.slides/ieffectformat/disablesoftedgeeffect/
 ---
 
-## Método IEffectFormat.DisableSoftEdgeEffect
+## IEffectFormat.DisableSoftEdgeEffect método
 
-Desactiva el efecto de borde suave.
+Desactiva el efecto de bordes suaves.
 
 ```csharp
 public void DisableSoftEdgeEffect()
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [IEffectFormat](../../ieffectformat)
 * espacio de nombres [Aspose.Slides](../../ieffectformat)

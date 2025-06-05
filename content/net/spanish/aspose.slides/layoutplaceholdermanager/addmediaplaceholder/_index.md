@@ -1,6 +1,6 @@
 ---
 title: AddMediaPlaceholder
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Agrega una nueva forma de marcador de posición a la diapositiva de diseño para contener un objeto multimedia.
 type: docs
 weight: 30
@@ -24,11 +24,11 @@ public IAutoShape AddMediaPlaceholder(float x, float y, float width, float heigh
 
 ### Valor de retorno
 
-Crea un [`IAutoShape`](../../iautoshape) con un marcador de posición de Multimedia.
+[`IAutoShape`](../../iautoshape) creado con un marcador de posición de Medios.
 
 ### Ejemplos
 
-El siguiente ejemplo muestra cómo agregar la forma de marcador de posición de Multimedia a la diapositiva de diseño.
+El siguiente ejemplo muestra cómo agregar la forma de marcador de posición de Medios a la diapositiva de diseño.
 
 ```csharp
 [C#]
@@ -44,6 +44,6 @@ using (Presentation pres = new Presentation())
 * interfaz [IAutoShape](../../iautoshape)
 * clase [LayoutPlaceholderManager](../../layoutplaceholdermanager)
 * espacio de nombres [Aspose.Slides](../../layoutplaceholdermanager)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

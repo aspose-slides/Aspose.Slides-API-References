@@ -1,6 +1,6 @@
 ---
 title: ProofDisabled
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Détermine si le texte ne doit pas être vérifié. Pas d'héritage appliqué. Lecture/écriture NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 200
@@ -15,7 +15,7 @@ Détermine si le texte ne doit pas être vérifié. Pas d'héritage appliqué. L
 public NullableBool ProofDisabled { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [NullableBool](../../nullablebool)
 * class [BasePortionFormat](../../baseportionformat)

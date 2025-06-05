@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides.mathtext/mathblock/insert/
 ---
+
 ## MathBlock.Insert method
 
 Inserts a MathElement into the collection at the specified index.

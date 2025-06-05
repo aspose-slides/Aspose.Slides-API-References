@@ -1,7 +1,7 @@
 ---
-title: 项目
-second_title: Aspose.Slides for .NET API 参考
-description: 通过索引返回签名。
+title: Item
+second_title: Aspose.Sildes for .NET API Reference
+description: 根据索引返回签名。
 type: docs
 weight: 10
 url: /zh/aspose.slides/idigitalsignaturecollection/item/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/idigitalsignaturecollection/item/
 
 ## IDigitalSignatureCollection 索引器
 
-通过索引返回签名。
+根据索引返回签名。
 
 ```csharp
 public IDigitalSignature this[int index] { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IDigitalSignature](../../idigitalsignature)
 * 接口 [IDigitalSignatureCollection](../../idigitalsignaturecollection)

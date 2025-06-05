@@ -1,7 +1,7 @@
 ---
 title: INotesSlide
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет заметочный слайд в презентации.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет слайд заметок в презентации.
 type: docs
 weight: 6300
 url: /ru/aspose.slides/inotesslide/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/inotesslide/
 
 ## Интерфейс INotesSlide
 
-Представляет заметочный слайд в презентации.
+Представляет слайд заметок в презентации.
 
 ```csharp
 public interface INotesSlide : IBaseSlide, IOverrideThemeable
@@ -17,13 +17,13 @@ public interface INotesSlide : IBaseSlide, IOverrideThemeable
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | Позволяет получить базовый интерфейс IBaseSlide. Только для чтения [`IBaseSlide`](../ibaseslide). |
 | [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | Возвращает интерфейс IOverrideThemeable. Только для чтения [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | Возвращает менеджер HeaderFooter заметочного слайда. Только для чтения [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
+| [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | Возвращает менеджер заголовков и подвалов слайда заметок. Только для чтения [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
 | [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | Возвращает TextFrame с текстом заметок, если он есть. Только для чтения [`ITextFrame`](../itextframe). |
-| [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | Возвращает ParentSlide. Только для чтения [`ISlide`](../islide). |
+| [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | Возвращает родительский слайд. Только для чтения [`ISlide`](../islide). |
 
 ### См. также
 

@@ -3,9 +3,10 @@ title: IOverridableText
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents overridable text for a chart.
 type: docs
-weight: 2070
+weight: 2100
 url: /aspose.slides.charts/ioverridabletext/
 ---
+
 ## IOverridableText interface
 
 Represents overridable text for a chart.

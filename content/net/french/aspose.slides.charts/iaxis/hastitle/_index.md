@@ -1,6 +1,6 @@
 ---
 title: HasTitle
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Détermine si un axe a un titre visible. Booléen en lecture/écriture.
 type: docs
 weight: 170
@@ -15,7 +15,7 @@ Détermine si un axe a un titre visible. Booléen en lecture/écriture.
 public bool HasTitle { get; set; }
 ```
 
-### Voir Aussi
+### Voir également
 
 * interface [IAxis](../../iaxis)
 * namespace [Aspose.Slides.Charts](../../iaxis)

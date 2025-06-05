@@ -6,6 +6,7 @@ type: docs
 weight: 1200
 url: /aspose.slides.animation/behaviorproperty/xshear/
 ---
+
 ## BehaviorProperty.XShear property
 
 Represents 'xshear' property

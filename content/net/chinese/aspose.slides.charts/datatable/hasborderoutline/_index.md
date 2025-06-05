@@ -1,7 +1,7 @@
 ---
 title: HasBorderOutline
-second_title: Aspose.Slides for .NET API Reference
-description: 如果图表数据表具有轮廓边框，则为真。可读/写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 如果图表数据表具有轮廓边框，则为 true。可读/可写布尔值。
 type: docs
 weight: 40
 url: /zh/aspose.slides.charts/datatable/hasborderoutline/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/datatable/hasborderoutline/
 
 ## DataTable.HasBorderOutline 属性
 
-如果图表数据表具有轮廓边框，则为真。可读/写布尔值。
+如果图表数据表具有轮廓边框，则为 true。可读/可写布尔值。
 
 ```csharp
 public bool HasBorderOutline { get; set; }

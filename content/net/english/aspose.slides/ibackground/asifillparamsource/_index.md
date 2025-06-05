@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ibackground/asifillparamsource/
 ---
+
 ## IBackground.AsIFillParamSource property
 
 Returns IFillParamSource interface. Read-only [`IFillParamSource`](../../ifillparamsource).

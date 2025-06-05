@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/basescript/base/
 ---
+
 ## BaseScript.Base property
 
 Base argument

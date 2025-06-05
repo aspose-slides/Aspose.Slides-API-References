@@ -1,7 +1,7 @@
 ---
 title: RelativeScaleWidth
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Maßstab der Breite relativ zur ursprünglichen Bildgröße des Bilderrahmens zurück oder setzt ihn. Der Wert 1.0 entspricht 100. Lese-/Schreibtyp Single.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Skalierung der Breite relativ zur ursprünglichen Bildgröße des Bildrahmens zurück oder legt sie fest. Der Wert 1.0 entspricht 100. Lese-/Schreibzugriff auf Single.
 type: docs
 weight: 50
 url: /de/aspose.slides/pictureframe/relativescalewidth/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/pictureframe/relativescalewidth/
 
 ## PictureFrame.RelativeScaleWidth-Eigenschaft
 
-Gibt den Maßstab der Breite (relativ zur ursprünglichen Bildgröße) des Bilderrahmens zurück oder setzt ihn. Der Wert 1.0 entspricht 100%. Lese-/Schreibtyp Single.
+Gibt die Skalierung der Breite (relativ zur ursprünglichen Bildgröße) des Bildrahmens zurück oder legt sie fest. Der Wert 1.0 entspricht 100 %. Lese-/Schreibzugriff auf Single.
 
 ```csharp
 public float RelativeScaleWidth { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [PictureFrame](../../pictureframe)
 * Namespace [Aspose.Slides](../../pictureframe)

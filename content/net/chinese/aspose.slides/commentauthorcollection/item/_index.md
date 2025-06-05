@@ -1,6 +1,6 @@
 ---
-title: 项目
-second_title: Aspose.Slides for .NET API 参考
+title: Item
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取指定索引处的元素。只读 ICommentAuthor aspose.slides/icommentauthor。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/commentauthorcollection/item/
 public ICommentAuthor this[int index] { get; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [ICommentAuthor](../../icommentauthor)
 * 类 [CommentAuthorCollection](../../commentauthorcollection)

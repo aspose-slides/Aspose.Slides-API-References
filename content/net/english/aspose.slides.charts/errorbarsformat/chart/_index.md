@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/errorbarsformat/chart/
 ---
+
 ## ErrorBarsFormat.Chart property
 
 Returns the parent chart. Read-only [`IChart`](../../ichart).

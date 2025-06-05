@@ -1,7 +1,7 @@
 ---
-title: Wachsen
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob die Grenzen des Objekts aufgrund der Unschärfe vergrößert werden sollen. Wahr bedeutet, dass die Grenzen vergrößert werden, während falsch bedeutet, dass dies nicht der Fall ist. Lese-/Schreib-Boolean.
+title: Grow
+second_title: Aspose.Sildes für .NET API Referenz
+description: Bestimmt, ob die Grenzen des Objekts aufgrund der Unschärfe vergrößert werden sollen. True weist darauf hin, dass die Grenzen vergrößert werden, während false angibt, dass dies nicht der Fall ist. Lese-/Schreib-Boolean.
 type: docs
 weight: 10
 url: /de/aspose.slides.effects/blur/grow/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/blur/grow/
 
 ## Blur.Grow-Eigenschaft
 
-Bestimmt, ob die Grenzen des Objekts aufgrund der Unschärfe vergrößert werden sollen. Wahr bedeutet, dass die Grenzen vergrößert werden, während falsch bedeutet, dass dies nicht der Fall ist. Lese-/Schreib-Boolean.
+Bestimmt, ob die Grenzen des Objekts aufgrund der Unschärfe vergrößert werden sollen. True weist darauf hin, dass die Grenzen vergrößert werden, während false angibt, dass dies nicht der Fall ist. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool Grow { get; set; }

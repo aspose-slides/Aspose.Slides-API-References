@@ -1,7 +1,7 @@
 ---
 title: RemoveSectionWithSlides
-second_title: Aspose.Slides for .NET API Reference
-description: 删除包含在节中的节和幻灯片。
+second_title: Aspose.Slidess for .NET API Reference
+description: 移除包含在部分中的节和幻灯片。
 type: docs
 weight: 130
 url: /zh/aspose.slides/sectioncollection/removesectionwithslides/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/sectioncollection/removesectionwithslides/
 
 ## SectionCollection.RemoveSectionWithSlides 方法
 
-删除包含在节中的节和幻灯片。
+移除包含在部分中的节和幻灯片。
 
 ```csharp
 public void RemoveSectionWithSlides(ISection section)
@@ -17,7 +17,7 @@ public void RemoveSectionWithSlides(ISection section)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| section | ISection | 要从集合中删除的节。 |
+| section | ISection | 要从集合中移除的节。 |
 
 ### 另见
 

@@ -1,7 +1,7 @@
 ---
 title: AsIGraphicalObject
-second_title: Référence API Aspose.Slides pour .NET
-description: Permet d'obtenir l'interface de base IGraphicalObject. IGraphicalObject en lecture seule aspose.slides/igraphicalobject.
+second_title: Référence de l'API Aspose.Slidess pour .NET
+description: Permet d'obtenir l'interface de base IGraphicalObject. IGraphicalObject en accès lecture seule aspose.slides/igraphicalobject.
 type: docs
 weight: 10
 url: /fr/aspose.slides/izoomobject/asigraphicalobject/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/izoomobject/asigraphicalobject/
 
 ## Propriété IZoomObject.AsIGraphicalObject
 
-Permet d'obtenir l'interface de base IGraphicalObject. Lecture seule [`IGraphicalObject`](../../igraphicalobject).
+Permet d'obtenir l'interface de base IGraphicalObject. Read-only [`IGraphicalObject`](../../igraphicalobject).
 
 ```csharp
 public IGraphicalObject AsIGraphicalObject { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IGraphicalObject](../../igraphicalobject)
 * interface [IZoomObject](../../izoomobject)

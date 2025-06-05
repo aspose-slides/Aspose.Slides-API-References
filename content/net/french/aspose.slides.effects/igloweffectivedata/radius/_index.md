@@ -1,7 +1,7 @@
 ---
-title: Rayon
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Rayon. Double en lecture seule.
+title: Radius
+second_title: Aspose.Slides pour .NET Référence API
+description: Radius. Lecture seule Double.
 type: docs
 weight: 30
 url: /fr/aspose.slides.effects/igloweffectivedata/radius/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/igloweffectivedata/radius/
 
 ## Propriété IGlowEffectiveData.Radius
 
-Rayon. Double en lecture seule.
+Radius. Lecture seule Double.
 
 ```csharp
 public double Radius { get; }

@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export/tiffoptions/tiffoptions/
 public TiffOptions()
 ```
 
-### См. также
+### См. так же
 
 * класс [TiffOptions](../../tiffoptions)
 * пространство имен [Aspose.Slides.Export](../../tiffoptions)

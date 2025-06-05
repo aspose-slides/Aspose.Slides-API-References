@@ -19,7 +19,7 @@ public IComment[] ToArray()
 
 Массив [`Comment`](../../comment).
 
-### Смотрите также
+### См. также
 
 * интерфейс [IComment](../../icomment)
 * класс [CommentCollection](../../commentcollection)
@@ -38,14 +38,14 @@ public IComment[] ToArray(int startIndex, int count)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startIndex | Int32 | Индекс первого комментария, который нужно вернуть. |
+| startIndex | Int32 | Индекс первого комментария для возврата. |
 | count | Int32 | Количество комментариев для возврата. |
 
 ### Возвращаемое значение
 
 Массив [`Comment`](../../comment).
 
-### Смотрите также
+### См. также
 
 * интерфейс [IComment](../../icomment)
 * класс [CommentCollection](../../commentcollection)

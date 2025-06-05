@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides.mathtext/mathelementbase/setsuperscript/
 ---
+
 ## SetSuperscript(IMathElement) {#setsuperscript}
 
 Creates superscript

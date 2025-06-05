@@ -1,6 +1,6 @@
 ---
-title: 获取几何路径
-second_title: Aspose.Slides for .NET API 参考
+title: GetGeometryPaths
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回几何形状路径的副本。坐标相对于形状的左上角。
 type: docs
 weight: 60
@@ -40,7 +40,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IGeometryPath](../../igeometrypath)
 * 接口 [IGeometryShape](../../igeometryshape)

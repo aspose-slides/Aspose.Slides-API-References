@@ -3,9 +3,10 @@ title: IPatternFormatEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which contains effective pattern filling properties.
 type: docs
-weight: 6200
+weight: 6430
 url: /aspose.slides/ipatternformateffectivedata/
 ---
+
 ## IPatternFormatEffectiveData interface
 
 Immutable object which contains effective pattern filling properties.
@@ -26,7 +27,7 @@ public interface IPatternFormatEffectiveData
 
 | Name | Description |
 | --- | --- |
-| [GetTileImage](../../aspose.slides/ipatternformateffectivedata/gettileimage)(Color, Color) | Creates a tile image for the pattern fill with a specified colors. |
+| [GetTileIImage](../../aspose.slides/ipatternformateffectivedata/gettileiimage)(Color, Color) | Creates a tile image for the pattern fill with a specified colors. |
 
 ### Remarks
 

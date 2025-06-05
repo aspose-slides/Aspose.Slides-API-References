@@ -1,13 +1,13 @@
 ---
-title: 点
-second_title: Aspose.Sildes for .NET API 参考
+title: Point
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示动画点。
 type: docs
 weight: 640
 url: /zh/aspose.slides.animation/point/
 ---
 
-## Point 类
+## Point class
 
 表示动画点。
 
@@ -26,11 +26,11 @@ public class Point : IPoint
 
 | 名称 | 描述 |
 | --- | --- |
-| [Formula](../../aspose.slides.animation/point/formula) { get; set; } | 值、from、to、by 属性中的公式可以由以下内容组成：标准算术运算符：‘+’，‘-‘，‘*’，‘/’，‘^’，‘%’（模）常量：‘pi’ ‘e’条件运算符：‘abs’，‘min’，‘max’，‘？’（如果）比较运算符： '=='，'&gt;='，''，'!='，'!'三角函数运算符：‘sin()’，‘cos()’，‘tan()’，‘asin()’，‘acos()’，‘atan()’自然对数‘ln()’属性引用（主机支持的属性），例如：“#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)”读/写字符串。 |
-| [Time](../../aspose.slides.animation/point/time) { get; set; } | 表示时间值。读/写单精度浮点数。 |
-| [Value](../../aspose.slides.animation/point/value) { get; set; } | 表示点值。仅限：bool，ColorFormat，float，int，string。读/写对象。 |
+| [Formula](../../aspose.slides.animation/point/formula) { get; set; } | 值、from、to、by 属性中的公式可以由以下内容组成：标准算术运算符：‘+’，‘-‘，‘*’，‘/’，‘^’，‘%’（mod） 常量：‘pi’ ‘e’ 条件运算符：‘abs’，‘min’，‘max’，‘?’（如果） 比较运算符：'=='，'&gt;='，''，'!='，'!' 三角函数运算符：‘sin()’，‘cos()’，‘tan()’，‘asin()’，‘acos()’，‘atan()’ 自然对数 ‘ln()’ 属性引用（主机支持的属性），例如：“#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)” 读/写 字符串。 |
+| [Time](../../aspose.slides.animation/point/time) { get; set; } | 表示时间值。 读/写 单精度浮点数。 |
+| [Value](../../aspose.slides.animation/point/value) { get; set; } | 表示点值。 仅限：bool，ColorFormat，float，int，string。 读/写 对象。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IPoint](../ipoint)
 * 命名空间 [Aspose.Slides.Animation](../../aspose.slides.animation)

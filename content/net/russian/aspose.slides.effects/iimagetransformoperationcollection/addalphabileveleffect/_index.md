@@ -1,6 +1,6 @@
 ---
 title: AddAlphaBiLevelEffect
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Добавляет новый эффект Alpha Bi-Level в конец коллекции.
 type: docs
 weight: 30
@@ -23,7 +23,7 @@ public IAlphaBiLevel AddAlphaBiLevelEffect(float threshold)
 
 Индекс нового эффекта изображения в коллекции.
 
-### См. также
+### Смотрите также
 
 * интерфейс [IAlphaBiLevel](../../ialphabilevel)
 * интерфейс [IImageTransformOperationCollection](../../iimagetransformoperationcollection)

@@ -1,6 +1,6 @@
 ---
 title: OtherStyle
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает стиль другого текста. Только для чтения ITextStyleaspose.slides/itextstyle.
 type: docs
 weight: 60
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/masterslide/otherstyle/
 public ITextStyle OtherStyle { get; }
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [ITextStyle](../../itextstyle)
 * класс [MasterSlide](../../masterslide)

@@ -1,6 +1,6 @@
 ---
-title: РазмерЗаполнителя
-second_title: Aspose.Slides для .NET API Справочник
+title: PlaceholderSize
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет размер заполнителя.
 type: docs
 weight: 9170
@@ -17,7 +17,7 @@ public enum PlaceholderSize : sbyte
 
 ### Значения
 
-| Имя | Значение | Описание |
+| Название | Значение | Описание |
 | --- | --- | --- |
 | Full | `0` | Полный. |
 | Half | `1` | Половина. |

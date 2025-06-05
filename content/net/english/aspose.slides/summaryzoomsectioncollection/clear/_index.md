@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/summaryzoomsectioncollection/clear/
 ---
+
 ## SummaryZoomSectionCollection.Clear method
 
 Removes all SummaryZoomSection objects from the collection.

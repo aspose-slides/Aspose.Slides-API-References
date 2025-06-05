@@ -1,7 +1,7 @@
 ---
-title: Сохранение
-second_title: Aspose.Slides для .NET API Reference
-description: Сохраняет все слайды презентации в файл указанного формата.
+title: Save
+second_title: Aspose.Sildes для .NET API Справка
+description: Сохраняет все слайды презентации в файл в указанном формате.
 type: docs
 weight: 370
 url: /ru/aspose.slides/ipresentation/save/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ipresentation/save/
 
 ## Save(string, SaveFormat) {#save_5}
 
-Сохраняет все слайды презентации в файл с указанным форматом.
+Сохраняет все слайды презентации в файл в указанном формате.
 
 ```csharp
 public void Save(string fname, SaveFormat format)
@@ -20,7 +20,7 @@ public void Save(string fname, SaveFormat format)
 | fname | String | Путь к созданному файлу. |
 | format | SaveFormat | Формат экспортируемых данных. |
 
-### См. также
+### См. Также
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [IPresentation](../../ipresentation)
@@ -42,7 +42,7 @@ public void Save(Stream stream, SaveFormat format)
 | stream | Stream | Выходной поток. |
 | format | SaveFormat | Формат экспортируемых данных. |
 
-### См. также
+### См. Также
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [IPresentation](../../ipresentation)
@@ -53,7 +53,7 @@ public void Save(Stream stream, SaveFormat format)
 
 ## Save(string, SaveFormat, ISaveOptions) {#save_6}
 
-Сохраняет все слайды презентации в файл с указанным форматом и дополнительными опциями.
+Сохраняет все слайды презентации в файл в указанном формате с дополнительными опциями.
 
 ```csharp
 public void Save(string fname, SaveFormat format, ISaveOptions options)
@@ -65,7 +65,7 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 | format | SaveFormat | Формат экспортируемых данных. |
 | options | ISaveOptions | Дополнительные параметры формата. |
 
-### См. также
+### См. Также
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
@@ -77,7 +77,7 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 
 ## Save(Stream, SaveFormat, ISaveOptions) {#save_2}
 
-Сохраняет все слайды презентации в поток в указанном формате и с дополнительными опциями.
+Сохраняет все слайды презентации в поток в указанном формате с дополнительными опциями.
 
 ```csharp
 public void Save(Stream stream, SaveFormat format, ISaveOptions options)
@@ -93,9 +93,9 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 | исключение | условие |
 | --- | --- |
-| NotSupportedException | Если вы пытаетесь сохранить зашифрованный файл в формате, отличном от Office 2007-2010 |
+| NotSupportedException | Если вы попытаетесь сохранить зашифрованный файл в формате, отличном от Office 2007-2010 |
 
-### См. также
+### См. Также
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
@@ -107,7 +107,7 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 ## Save(string, int[], SaveFormat) {#save_7}
 
-Сохраняет указанные слайды презентации в файл с указанным форматом.
+Сохраняет указанные слайды презентации в файл в указанном формате.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format)
@@ -125,9 +125,9 @@ public void Save(string fname, int[] slides, SaveFormat format)
 | --- | --- |
 | ArgumentNullException | Когда параметр stream или slides равен null. |
 | ArgumentOutOfRangeException | Когда параметр slides содержит неверные номера страниц. |
-| InvalidOperationException | Когда используется неподдерживаемый SaveFormat, например PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| InvalidOperationException | Когда используется неподдерживаемый SaveFormat, например, PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
-### См. также
+### См. Также
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [IPresentation](../../ipresentation)
@@ -138,7 +138,7 @@ public void Save(string fname, int[] slides, SaveFormat format)
 
 ## Save(string, int[], SaveFormat, ISaveOptions) {#save_8}
 
-Сохраняет указанные слайды презентации в файл с указанным форматом.
+Сохраняет указанные слайды презентации в файл в указанном формате.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions options)
@@ -157,9 +157,9 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 | --- | --- |
 | ArgumentNullException | Когда параметр stream или slides равен null. |
 | ArgumentOutOfRangeException | Когда параметр slides содержит неверные номера страниц. |
-| InvalidOperationException | Когда используется неподдерживаемый SaveFormat, например PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| InvalidOperationException | Когда используется неподдерживаемый SaveFormat, например, PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
-### См. также
+### См. Также
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
@@ -189,9 +189,9 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 | --- | --- |
 | ArgumentNullException | Когда параметр stream или slides равен null. |
 | ArgumentOutOfRangeException | Когда параметр slides содержит неверные номера страниц. |
-| InvalidOperationException | Когда используется неподдерживаемый SaveFormat, например PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| InvalidOperationException | Когда используется неподдерживаемый SaveFormat, например, PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
-### См. также
+### См. Также
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [IPresentation](../../ipresentation)
@@ -221,9 +221,9 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 | --- | --- |
 | ArgumentNullException | Когда параметр stream или slides равен null. |
 | ArgumentOutOfRangeException | Когда параметр slides содержит неверные номера страниц. |
-| InvalidOperationException | Когда используется неподдерживаемый SaveFormat, например PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| InvalidOperationException | Когда используется неподдерживаемый SaveFormat, например, PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
-### См. также
+### См. Также
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
@@ -255,7 +255,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. также
+### См. Также
 
 * interface [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
 * interface [IPresentation](../../ipresentation)

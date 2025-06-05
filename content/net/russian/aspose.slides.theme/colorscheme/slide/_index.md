@@ -1,13 +1,13 @@
 ---
-title: Слайд
-second_title: Справочник по API Aspose.Slides для .NET
+title: Slide
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает родительский слайд. Только для чтения IBaseSlideaspose.slides/ibaseslide.
 type: docs
 weight: 150
 url: /ru/aspose.slides.theme/colorscheme/slide/
 ---
 
-## Свойство ColorScheme.Slide
+## ColorScheme.Slide свойство
 
 Возвращает родительский слайд. Только для чтения [`IBaseSlide`](../../../aspose.slides/ibaseslide).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.theme/colorscheme/slide/
 public IBaseSlide Slide { get; }
 ```
 
-### Также смотри
+### См. также
 
 * интерфейс [IBaseSlide](../../../aspose.slides/ibaseslide)
 * класс [ColorScheme](../../colorscheme)

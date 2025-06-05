@@ -1,13 +1,13 @@
 ---
 title: JoinStyle
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Devuelve el estilo de unión de líneas. Solo lectura LineJoinStyleaspose.slides/linejoinstyle.
 type: docs
 weight: 130
 url: /es/aspose.slides/ilineformateffectivedata/joinstyle/
 ---
 
-## Propiedad ILineFormatEffectiveData.JoinStyle
+## ILineFormatEffectiveData.JoinStyle property
 
 Devuelve el estilo de unión de líneas. Solo lectura [`LineJoinStyle`](../../linejoinstyle).
 
@@ -15,7 +15,7 @@ Devuelve el estilo de unión de líneas. Solo lectura [`LineJoinStyle`](../../li
 public LineJoinStyle JoinStyle { get; }
 ```
 
-### Véase también
+### See Also
 
 * enum [LineJoinStyle](../../linejoinstyle)
 * interface [ILineFormatEffectiveData](../../ilineformateffectivedata)

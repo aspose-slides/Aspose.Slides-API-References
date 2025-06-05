@@ -1,7 +1,7 @@
 ---
 title: IColorOperationCollection
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет собой коллекцию операций цветовой трансформации.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет собой коллекцию операций преобразования цвета.
 type: docs
 weight: 5310
 url: /ru/aspose.slides/icoloroperationcollection/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/icoloroperationcollection/
 
 ## Интерфейс IColorOperationCollection
 
-Представляет собой коллекцию операций цветовой трансформации.
+Представляет собой коллекцию операций преобразования цвета.
 
 ```csharp
 public interface IColorOperationCollection : IGenericCloneable<IColorOperationCollection>, 
@@ -28,10 +28,10 @@ public interface IColorOperationCollection : IGenericCloneable<IColorOperationCo
 | --- | --- |
 | [Add](../../aspose.slides/icoloroperationcollection/add#add)(ColorTransformOperation) | Добавляет новую операцию в конец коллекции. |
 | [Add](../../aspose.slides/icoloroperationcollection/add#add_1)(ColorTransformOperation, float) | Добавляет новую операцию в конец коллекции. |
-| [Clear](../../aspose.slides/icoloroperationcollection/clear)() | Удаляет все цветовые операции. |
+| [Clear](../../aspose.slides/icoloroperationcollection/clear)() | Удаляет все операции цвета. |
 | [Insert](../../aspose.slides/icoloroperationcollection/insert#insert)(int, ColorTransformOperation) | Вставляет новую операцию в коллекцию. |
 | [Insert](../../aspose.slides/icoloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | Вставляет новую операцию в коллекцию. |
-| [RemoveAt](../../aspose.slides/icoloroperationcollection/removeat)(int) | Удаляет цветовую операцию из коллекции. |
+| [RemoveAt](../../aspose.slides/icoloroperationcollection/removeat)(int) | Удаляет операцию цвета из коллекции. |
 
 ### См. также
 

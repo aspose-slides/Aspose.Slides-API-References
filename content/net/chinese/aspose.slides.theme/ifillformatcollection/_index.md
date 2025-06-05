@@ -1,6 +1,6 @@
 ---
 title: IFillFormatCollection
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 表示填充样式的集合。
 type: docs
 weight: 10920

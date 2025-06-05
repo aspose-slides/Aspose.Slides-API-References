@@ -1,15 +1,15 @@
 ---
 title: IsSynchronized
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung threadsicher synchronisiert ist. Nur-lesbares Boolesches.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert threadsicher ist. Nur lesbarer Boolescher Wert.
 type: docs
 weight: 20
 url: /de/aspose.slides/gradientstopcollectioneffectivedata/issynchronized/
 ---
 
-## GradientStopCollectionEffectiveData.IsSynchronized-Eigenschaft
+## GradientStopCollectionEffectiveData.IsSynchronized Eigenschaft
 
-Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (threadsicher) ist. Nur-lesbares Boolesches.
+Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (threadsicher) ist. Nur lesbarer Boolescher Wert.
 
 ```csharp
 public bool IsSynchronized { get; }

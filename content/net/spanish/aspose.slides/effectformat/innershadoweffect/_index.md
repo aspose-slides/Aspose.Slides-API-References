@@ -1,5 +1,5 @@
 ---
-title: EfectoSombraInterior
+title: InnerShadowEffect
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Sombra interior. Lectura/escritura IInnerShadowaspose.slides.effects/iinnershadow.
 type: docs
@@ -20,6 +20,6 @@ public IInnerShadow InnerShadowEffect { get; set; }
 * interfaz [IInnerShadow](../../../aspose.slides.effects/iinnershadow)
 * clase [EffectFormat](../../effectformat)
 * espacio de nombres [Aspose.Slides](../../effectformat)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

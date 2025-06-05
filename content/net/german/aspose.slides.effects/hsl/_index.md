@@ -1,7 +1,7 @@
 ---
 title: HSL
-second_title: Aspose.Slides für .NET API Referenz
-description: Repräsentiert einen Farbton-/Sättigungs-/Helligkeitseffekt. Der Farbton, die Sättigung und die Helligkeit können jeweils relativ zu ihrem aktuellen Wert angepasst werden.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt einen Farbton/Sättigungs/Helligkeits-Effekt dar. Der Farbton, die Sättigung und die Helligkeit können jeweils relativ zu ihrem aktuellen Wert angepasst werden.
 type: docs
 weight: 2910
 url: /de/aspose.slides.effects/hsl/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/hsl/
 
 ## HSL-Klasse
 
-Repräsentiert einen Farbton-/Sättigungs-/Helligkeitseffekt. Der Farbton, die Sättigung und die Helligkeit können jeweils relativ zu ihrem aktuellen Wert angepasst werden.
+Stellt einen Farbton/Sättigungs/Helligkeits-Effekt dar. Der Farbton, die Sättigung und die Helligkeit können jeweils relativ zu ihrem aktuellen Wert angepasst werden.
 
 ```csharp
 public sealed class HSL : ImageTransformOperation, IHSL
@@ -19,14 +19,14 @@ public sealed class HSL : ImageTransformOperation, IHSL
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht den Zugriff auf die Basis-IPresentationComponent-Schnittstelle. Nur lesbar [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht den Zugriff auf die Basis-IPresentationComponent-Schnittstelle. Nur-Lese [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/hsl/equals)(object) | Bestimmt, ob das angegebene [`HSL`](../hsl) gleich dem aktuellen [`HSL`](../hsl) ist. |
-| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | Erhält die effektiven Farbton-/Sättigungs-/Helligkeitseffektdaten mit angewendeter Vererbung. |
+| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | Ruft die effektiven Farbton/Sättigung/Helligkeits-Effekt-Daten mit angewandtem Erbe ab. |
 | override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | Dient als Hash-Funktion für einen bestimmten Typ. |
 
 ### Siehe auch

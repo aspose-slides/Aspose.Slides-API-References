@@ -1,7 +1,7 @@
 ---
-title: TypeDeValeur
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente les manières possibles de déterminer la longueur des barres d'erreur. En cas de type de valeur personnalisé, pour spécifier la valeur, utilisez la propriété ErrorBarsCustomValuesaspose.slides/ichartdatapoint/errorbarscustomvalues d'un point de données spécifique dans la collection DataPoints de la série. En cas de type de valeur fixe, pourcentage ou écart type, utilisez la propriété Value pour spécifier la valeur. Propriété en lecture/écriture ErrorBarValueTypeaspose.slides/errorbarvaluetype.
+title: ValueType
+second_title: Aspose.Sildes pour .NET API Référence
+description: Représente les manières possibles de déterminer la longueur des barres d'erreur. Dans le cas d'un type de valeur personnalisé pour spécifier la valeur, utilisez la propriété ErrorBarsCustomValuesaspose.slides/ichartdatapoint/errorbarscustomvalues d'un point de données spécifique dans la collection DataPoints de la série. Dans le cas d'un type de valeur Fixe, Pourcentage ou ÉcartType, utilisez la propriété Value pour spécifier la valeur. Lire/écrire ErrorBarValueTypeaspose.slides/errorbarvaluetype.
 type: docs
 weight: 70
 url: /fr/aspose.slides.charts/errorbarsformat/valuetype/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/errorbarsformat/valuetype/
 
 ## Propriété ErrorBarsFormat.ValueType
 
-Représente les manières possibles de déterminer la longueur des barres d'erreur. En cas de type de valeur personnalisé, pour spécifier la valeur, utilisez la propriété [`ErrorBarsCustomValues`](../../ichartdatapoint/errorbarscustomvalues) d'un point de données spécifique dans la collection DataPoints de la série. En cas de type de valeur fixe, pourcentage ou écart type, utilisez la propriété Value pour spécifier la valeur. Propriété en lecture/écriture [`ErrorBarValueType`](../../errorbarvaluetype).
+Représente les manières possibles de déterminer la longueur des barres d'erreur. Dans le cas d'un type de valeur personnalisé pour spécifier la valeur, utilisez la propriété [`ErrorBarsCustomValues`](../../ichartdatapoint/errorbarscustomvalues) d'un point de données spécifique dans la collection DataPoints de la série. Dans le cas d'un type de valeur Fixe, Pourcentage ou ÉcartType, utilisez la propriété Value pour spécifier la valeur. Lire/écrire [`ErrorBarValueType`](../../errorbarvaluetype).
 
 ```csharp
 public ErrorBarValueType ValueType { get; set; }

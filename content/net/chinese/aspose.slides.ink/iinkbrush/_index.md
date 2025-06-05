@@ -1,7 +1,7 @@
 ---
 title: IInkBrush
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示轨迹刷。
+second_title: Aspose.Sildes for .NET API参考
+description: 表示描边画笔。
 type: docs
 weight: 7300
 url: /zh/aspose.slides.ink/iinkbrush/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.ink/iinkbrush/
 
 ## IInkBrush 接口
 
-表示轨迹刷。
+表示描边画笔。
 
 ```csharp
 public interface IInkBrush
@@ -19,8 +19,8 @@ public interface IInkBrush
 
 | 名称 | 描述 |
 | --- | --- |
-| [Color](../../aspose.slides.ink/iinkbrush/color) { get; set; } | 获取或设置线条的刷子颜色。 |
-| [Size](../../aspose.slides.ink/iinkbrush/size) { get; set; } | 获取或设置线条的刷子大小，以点为单位。 |
+| [Color](../../aspose.slides.ink/iinkbrush/color) { get; set; } | 获取或设置线条的画笔颜色。 |
+| [Size](../../aspose.slides.ink/iinkbrush/size) { get; set; } | 获取或设置线条的画笔大小，单位为磅。 |
 
 ### 参见
 

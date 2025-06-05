@@ -1,15 +1,15 @@
 ---
-title: Effacer
+title: Clear
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Effacer toutes les valeurs des cellules sur la feuille
+description: Effacer toutes les valeurs des cellules de la feuille
 type: docs
 weight: 30
 url: /fr/aspose.slides.charts/ichartdataworkbook/clear/
 ---
 
-## Méthode IChartDataWorkbook.Clear
+## IChartDataWorkbook.Clear method
 
-Effacer toutes les valeurs des cellules sur la feuille
+Effacer toutes les valeurs des cellules de la feuille
 
 ```csharp
 public void Clear(int sheetIndex)

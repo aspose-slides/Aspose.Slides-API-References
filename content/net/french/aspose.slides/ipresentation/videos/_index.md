@@ -1,5 +1,5 @@
 ---
-title: Vidéos
+title: Videos
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie la collection de tous les fichiers vidéo intégrés dans la présentation. Lecture seule IVideoCollectionaspose.slides/ivideocollection.
 type: docs
@@ -15,7 +15,7 @@ Renvoie la collection de tous les fichiers vidéo intégrés dans la présentati
 public IVideoCollection Videos { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IVideoCollection](../../ivideocollection)
 * interface [IPresentation](../../ipresentation)

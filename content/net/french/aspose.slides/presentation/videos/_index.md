@@ -1,7 +1,7 @@
 ---
-title: Vidéos
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie la collection de tous les fichiers vidéo intégrés dans la présentation. Lecture seule IVideoCollectionaspose.slides/ivideocollection.
+title: Videos
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Retourne la collection de tous les fichiers vidéo intégrés dans la présentation. En lecture seule IVideoCollectionaspose.slides/ivideocollection.
 type: docs
 weight: 280
 url: /fr/aspose.slides/presentation/videos/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/presentation/videos/
 
 ## Propriété Presentation.Videos
 
-Renvoie la collection de tous les fichiers vidéo intégrés dans la présentation. Lecture seule [`IVideoCollection`](../../ivideocollection).
+Retourne la collection de tous les fichiers vidéo intégrés dans la présentation. En lecture seule [`IVideoCollection`](../../ivideocollection).
 
 ```csharp
 public IVideoCollection Videos { get; }
@@ -40,7 +40,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-Les exemples suivants montrent comment ajouter une vidéo en passant le chemin du fichier vidéo directement dans la méthode AddVideoFrame pour une présentation PowerPoint.
+Les exemples suivants montrent comment ajouter une vidéo en passant le chemin du fichier vidéo directement dans la méthode AddVideoFrame pour la présentation PowerPoint.
 
 ```csharp
 [C#]
@@ -62,17 +62,17 @@ using (Presentation pres = new Presentation())
     using (FileStream fileStream = new FileStream(pathToVeryLargeVideo, FileMode.Open))
     {
         // Ajoutons la vidéo à la présentation - nous avons choisi le comportement KeepLocked car nous ne
-        // souhaitons pas accéder au fichier "veryLargeVideo.avi".
+        // avons pas l'intention d'accéder au fichier "veryLargeVideo.avi".
         IVideo video = pres.Videos.AddVideo(fileStream, LoadingStreamBehavior.KeepLocked);
         pres.Slides[0].Shapes.AddVideoFrame(0, 0, 480, 270, video);
-        // Enregistre la présentation. Alors qu'une grande présentation est générée, la consommation de mémoire
+        // Enregistre la présentation. Bien qu'une grande présentation soit générée, la consommation de mémoire
         // reste faible tout au long du cycle de vie de l'objet pres
         pres.Save("presentationWithLargeVideo.pptx", SaveFormat.Pptx);
     }
 }
 ```
 
-Les exemples suivants montrent comment exporter un gros fichier via BLOB depuis une présentation PowerPoint.
+Les exemples suivants montrent comment exporter un gros fichier via BLOB à partir de la présentation PowerPoint.
 
 ```csharp
 [C#]
@@ -87,17 +87,17 @@ LoadOptions loadOptions = new LoadOptions
 // Crée une instance de la présentation, verrouille le fichier "hugePresentationWithAudiosAndVideos.pptx".
 using (Presentation pres = new Presentation(hugePresentationWithAudiosAndVideosFile, loadOptions))
 {
-	// Enregistrons chaque vidéo dans un fichier. Pour éviter une forte consommation de mémoire, nous avons besoin d'un buffer qui sera utilisé
-	// pour transférer les données du flux vidéo de la présentation vers un flux pour un nouveau fichier vidéo créé.
+	// Enregistrons chaque vidéo dans un fichier. Pour éviter une utilisation élevée de la mémoire, nous avons besoin d'un tampon qui sera utilisé
+	// pour transférer les données du flux vidéo de la présentation vers un flux pour un fichier vidéo nouvellement créé.
 	byte[] buffer = new byte[8 * 1024];
 	// Itère à travers les vidéos
 	for (var index = 0; index < pres.Videos.Count; index++)
 	{
 		IVideo video = pres.Videos[index];
-		// Ouvre le flux vidéo de présentation. Veuillez noter que nous avons intentionnellement évité d'accéder à des propriétés
-		// comme video.BinaryData - car cette propriété retourne un tableau d'octets contenant une vidéo complète, ce qui provoque ensuite 
-		// le chargement des octets en mémoire. Nous utilisons video.GetStream, qui retourne un Stream - et ne nécessite PAS
-		// de charger la vidéo entière en mémoire.
+		// Ouvre le flux vidéo de la présentation. Notez que nous avons intentionnellement évité d'accéder aux propriétés
+		// comme video.BinaryData - car cette propriété retourne un tableau d'octets contenant une vidéo complète, ce qui
+		// entraîne le chargement des octets en mémoire. Nous utilisons video.GetStream, qui retournera un Stream - et ne nécessite PAS
+		// de charger toute la vidéo en mémoire.
 		using (Stream presVideoStream = video.GetStream())
 		{
 			using (FileStream outputFileStream = File.OpenWrite($"video{index}.avi"))
@@ -109,7 +109,7 @@ using (Presentation pres = new Presentation(hugePresentationWithAudiosAndVideosF
 				}
 			}
 		}
-		// La consommation de mémoire restera faible quelle que soit la taille de la vidéo ou de la présentation.
+		// La consommation de mémoire restera faible quelle que soit la taille de la vidéo ou de la présentation,
 	}
 	// Si nécessaire, vous pouvez appliquer les mêmes étapes pour les fichiers audio.
 }
@@ -124,12 +124,12 @@ using (Presentation pres = new Presentation())
     IVideo video = pres.Videos.AddVideo(File.ReadAllBytes("video.avi"));
     IVideoFrame videoFrame = pres.Slides[0].Shapes.AddVideoFrame(10, 10, 100, 100, video);
     videoFrame.HyperlinkClick = new Hyperlink("https://www.aspose.com/");
-    videoFrame.HyperlinkClick.Tooltip = "Plus de 70 % des entreprises du Fortune 100 font confiance aux API Aspose";
+    videoFrame.HyperlinkClick.Tooltip = "Plus de 70% des entreprises du Fortune 100 font confiance aux API Aspose";
     pres.Save("pres-out.pptx", SaveFormat.Pptx);
 }
 ```
 
-Les exemples suivants montrent comment créer un cadre vidéo avec vidéo depuis une source web dans une présentation PowerPoint.
+Les exemples suivants montrent comment créer un cadre vidéo avec une vidéo provenant d'une source web dans une présentation PowerPoint.
 
 ```csharp
 [C#]
@@ -143,10 +143,10 @@ public static void Run()
 }
 private static void AddVideoFromYouTube(Presentation pres, string videoId)
 {
-    //ajouter videoFrame
+    // ajouter un cadre vidéo
     IVideoFrame videoFrame = pres.Slides[0].Shapes.AddVideoFrame(10, 10, 427, 240, "https://www.youtube.com/embed/" + videoId);
     videoFrame.PlayMode = VideoPlayModePreset.Auto;
-    //charger la miniature
+    // charger la miniature
     using (WebClient client = new WebClient())
     {
         string thumbnailUri = "http://img.youtube.com/vi/" + videoId + "/hqdefault.jpg";
@@ -155,7 +155,7 @@ private static void AddVideoFromYouTube(Presentation pres, string videoId)
 }
 ```
 
-Les exemples suivants montrent comment extraire une vidéo d'une diapositive d'une présentation PowerPoint.
+Les exemples suivants montrent comment extraire une vidéo d'une diapositive de présentation PowerPoint.
 
 ```csharp
 [C#]
@@ -186,8 +186,8 @@ using (Presentation presentation = new Presentation("Video.pptx"))
 ### Voir aussi
 
 * interface [IVideoCollection](../../ivideocollection)
-* classe [Presentation](../../presentation)
-* espace de noms [Aspose.Slides](../../presentation)
+* class [Presentation](../../presentation)
+* namespace [Aspose.Slides](../../presentation)
 * assembly [Aspose.Slides](../../../)
 
-<!-- DO NOT EDIT: généré par xmldocmd pour Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

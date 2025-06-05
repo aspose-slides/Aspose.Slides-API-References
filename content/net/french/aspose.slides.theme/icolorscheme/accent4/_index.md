@@ -1,13 +1,13 @@
 ---
 title: Accent4
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Quatrième couleur d'accent dans le schéma. Lecture seule IColorFormat aspose.slides/icolorformat.
+second_title: Référence API Aspose.Slides pour .NET
+description: Quatrième couleur d'accent dans le schéma. Lecture seule IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 40
 url: /fr/aspose.slides.theme/icolorscheme/accent4/
 ---
 
-## Propriété IColorScheme.Accent4
+## IColorScheme.Accent4 propriété
 
 Quatrième couleur d'accent dans le schéma. Lecture seule [`IColorFormat`](../../../aspose.slides/icolorformat).
 
@@ -15,7 +15,7 @@ Quatrième couleur d'accent dans le schéma. Lecture seule [`IColorFormat`](../.
 public IColorFormat Accent4 { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IColorFormat](../../../aspose.slides/icolorformat)
 * interface [IColorScheme](../../icolorscheme)

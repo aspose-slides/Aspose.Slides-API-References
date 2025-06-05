@@ -3,9 +3,10 @@ title: IPPImage
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an image in a presentation.
 type: docs
-weight: 6120
+weight: 6350
 url: /aspose.slides/ippimage/
 ---
+
 ## IPPImage interface
 
 Represents an image in a presentation.
@@ -21,8 +22,8 @@ public interface IPPImage
 | [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | Returns the copy of an image's data. Read-only Byte[]. |
 | [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | Returns a MIME type of an image, encoded in [`BinaryData`](./binarydata). Read-only String. |
 | [Height](../../aspose.slides/ippimage/height) { get; } | Returns a height of an image. Read-only Int32. |
+| [Image](../../aspose.slides/ippimage/image) { get; } | Returns the copy of an image. Read-only [`Image`](./image). |
 | [SvgImage](../../aspose.slides/ippimage/svgimage) { get; set; } | Returns or sets ISvgImage object [`ISvgImage`](../isvgimage) |
-| [SystemImage](../../aspose.slides/ippimage/systemimage) { get; } | Returns the copy of an image of the System.Drawing.Image type. Read-only Image. |
 | [Width](../../aspose.slides/ippimage/width) { get; } | Returns a width of an image. Read-only Int32. |
 | [X](../../aspose.slides/ippimage/x) { get; } | Returns a X-offset of an image. Read-only Int32. |
 | [Y](../../aspose.slides/ippimage/y) { get; } | Returns a Y-offset of an image. Read-only Int32. |
@@ -31,9 +32,9 @@ public interface IPPImage
 
 | Name | Description |
 | --- | --- |
-| [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage_1)(byte[]) | Replaces image data. |
-| [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage_2)(Image) | Replaces image. |
-| [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage)(IPPImage) | Replaces image. |
+| [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage_2)(byte[]) | Replaces image data. |
+| [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage)(IImage) | Replaces image. |
+| [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage_1)(IPPImage) | Replaces image. |
 
 ### See Also
 

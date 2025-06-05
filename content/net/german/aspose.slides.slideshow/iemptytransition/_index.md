@@ -1,7 +1,7 @@
 ---
 title: IEmptyTransition
-second_title: Aspose.Slides für .NET API-Referenz
-description: Leerer Folienübergangseffekt.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Leerübergangseffekt für Folien.
 type: docs
 weight: 9770
 url: /de/aspose.slides.slideshow/iemptytransition/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.slideshow/iemptytransition/
 
 ## IEmptyTransition-Schnittstelle
 
-Leerer Folienübergangseffekt.
+Leerübergangseffekt für Folien.
 
 ```csharp
 public interface IEmptyTransition : ITransitionValueBase
@@ -19,7 +19,7 @@ public interface IEmptyTransition : ITransitionValueBase
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iemptytransition/asitransitionvaluebase) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle ITransitionValueBase. Nur lesbar [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iemptytransition/asitransitionvaluebase) { get; } | Ermöglicht den Zugriff auf die Basis-ITransitionValueBase-Schnittstelle. Nur-lesend [`ITransitionValueBase`](../itransitionvaluebase). |
 
 ### Siehe auch
 

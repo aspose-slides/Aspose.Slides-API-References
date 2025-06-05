@@ -17,11 +17,11 @@ public interface ITab : IComparable
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Alignment](../../aspose.slides/itab/alignment) { get; set; } | Возвращает или устанавливает стиль выравнивания табуляции. Чтение/запись [`TabAlignment`](../tabalignment). |
+| [Alignment](../../aspose.slides/itab/alignment) { get; set; } | Возвращает или устанавливает стиль выравнивания вкладки. Чтение/запись [`TabAlignment`](../tabalignment). |
 | [AsIComparable](../../aspose.slides/itab/asicomparable) { get; } | Возвращает интерфейс IComparable. Только для чтения IComparable. |
-| [Position](../../aspose.slides/itab/position) { get; set; } | Возвращает или устанавливает позицию табуляции. Присваивание этого свойства может изменить индекс табуляции в коллекции и сделать недействительным Enumerator. Чтение/запись Double. |
+| [Position](../../aspose.slides/itab/position) { get; set; } | Возвращает или устанавливает позицию вкладки. Присвоение этого свойства может изменить индекс вкладки в коллекции и сделать Enumerator недопустимым. Чтение/запись Double. |
 
 ### См. также
 

@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.charts/ichartparagraphformat/spaceafter/
 ---
+
 ## IChartParagraphFormat.SpaceAfter property
 
 Returns or sets the amount of space after the last line in a paragraph. Read/write Single.

@@ -1,21 +1,21 @@
 ---
-title: Формат
-second_title: Справочник по API Aspose.Silides для .NET
-description: Представляет формат погрешностей. Читаемый/записываемый IFormataspose.slides/iformat.
+title: Format
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет формат столбцов ошибок. Чтение/запись IFormataspose.slides.charts/iformat.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/errorbarsformat/format/
 ---
 
-## Свойство ErrorBarsFormat.Format
+## ErrorBarsFormat.Format свойство
 
-Представляет формат погрешностей. Читаемый/записываемый [`IFormat`](../../iformat).
+Представляет формат столбцов ошибок. Чтение/запись [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; set; }
 ```
 
-### Смотрите также
+### См. Также
 
 * интерфейс [IFormat](../../iformat)
 * класс [ErrorBarsFormat](../../errorbarsformat)

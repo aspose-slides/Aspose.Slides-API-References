@@ -1,7 +1,7 @@
 ---
 title: RemoveMasterNotesSlide
-second_title: Aspose.Sildes for .NET API 参考
-description: 删除母版注释幻灯片。
+second_title: Aspose.Slides for .NET API Reference
+description: 移除母版备注幻灯片。
 type: docs
 weight: 20
 url: /zh/aspose.slides/imasternotesslidemanager/removemasternotesslide/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/imasternotesslidemanager/removemasternotesslide/
 
 ## IMasterNotesSlideManager.RemoveMasterNotesSlide 方法
 
-删除母版注释幻灯片。
+移除母版备注幻灯片。
 
 ```csharp
 public void RemoveMasterNotesSlide()
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IMasterNotesSlideManager](../../imasternotesslidemanager)
 * 命名空间 [Aspose.Slides](../../imasternotesslidemanager)

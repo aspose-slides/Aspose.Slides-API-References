@@ -1,7 +1,7 @@
 ---
 title: XMinus
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Fehlerbalkenwert in negativer Richtung an. Verfügbar, wenn der Werttyp der Fehlerbalken benutzerdefiniert ist und ErrorBarsXFormat erlaubt ist. In jedem anderen Fall gibt diese Eigenschaft null zurück. Schreibgeschütztes IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt den Fehlerbalkenwert in negativer Richtung an. Verfügbar, wenn der Fehlerbalkenwerttyp benutzerdefiniert ist und ErrorBarsXFormat zulässig ist. In jedem anderen Fall gibt diese Eigenschaft null zurück. Nur lesbarer IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/ierrorbarscustomvalues/xminus/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/ierrorbarscustomvalues/xminus/
 
 ## IErrorBarsCustomValues.XMinus-Eigenschaft
 
-Gibt den Fehlerbalkenwert in negativer Richtung an. Verfügbar, wenn der Werttyp der Fehlerbalken benutzerdefiniert ist und ErrorBarsXFormat erlaubt ist. In jedem anderen Fall gibt diese Eigenschaft null zurück. Schreibgeschütztes [`IDoubleChartValue`](../../idoublechartvalue).
+Gibt den Fehlerbalkenwert in negativer Richtung an. Verfügbar, wenn der Fehlerbalkenwerttyp benutzerdefiniert ist und ErrorBarsXFormat zulässig ist. In jedem anderen Fall gibt diese Eigenschaft null zurück. Nur lesbarer [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue XMinus { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IDoubleChartValue](../../idoublechartvalue)
 * Schnittstelle [IErrorBarsCustomValues](../../ierrorbarscustomvalues)

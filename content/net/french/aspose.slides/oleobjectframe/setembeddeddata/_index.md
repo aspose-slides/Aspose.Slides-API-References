@@ -1,15 +1,15 @@
 ---
 title: SetEmbeddedData
-second_title: Aspose.Slides pour la référence de l'API .NET
-description: Définit des informations sur les données OLE intégrées. Cette méthode modifie les propriétés de l'objet pour refléter les nouvelles données et définit le drapeau IsObjectLink sur false, indiquant que l'objet OLE est intégré.
+second_title: Aspose.Sildes pour référence API .NET
+description: Définit les informations sur les données OLE intégrées. Cette méthode modifie les propriétés de l'objet pour refléter les nouvelles données et définit le drapeau IsObjectLink sur false, indiquant que l'objet OLE est intégré.
 type: docs
 weight: 150
 url: /fr/aspose.slides/oleobjectframe/setembeddeddata/
 ---
 
-## Méthode OleObjectFrame.SetEmbeddedData
+## OleObjectFrame.SetEmbeddedData méthode
 
-Définit des informations sur les données OLE intégrées. Cette méthode modifie les propriétés de l'objet pour refléter les nouvelles données et définit le drapeau IsObjectLink sur false, indiquant que l'objet OLE est intégré.
+Définit les informations sur les données OLE intégrées. Cette méthode modifie les propriétés de l'objet pour refléter les nouvelles données et définit le drapeau IsObjectLink sur false, indiquant que l'objet OLE est intégré.
 
 ```csharp
 public void SetEmbeddedData(IOleEmbeddedDataInfo embeddedData)
@@ -23,7 +23,7 @@ public void SetEmbeddedData(IOleEmbeddedDataInfo embeddedData)
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | Lorsque le paramètre embeddedData est null. |
+| ArgumentNullException | Lorsque le paramètre embeddedData est nul. |
 
 ### Exemples
 
@@ -40,10 +40,10 @@ using (Presentation pres = new Presentation("SomePresentation.pptx"))
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo)
-* classe [OleObjectFrame](../../oleobjectframe)
+* class [OleObjectFrame](../../oleobjectframe)
 * namespace [Aspose.Slides](../../oleobjectframe)
 * assembly [Aspose.Slides](../../../)
 

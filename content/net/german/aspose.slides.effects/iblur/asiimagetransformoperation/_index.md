@@ -1,7 +1,7 @@
 ---
 title: AsIImageTransformOperation
-second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht den Zugriff auf die Basisschnittstelle IImageTransformOperation. Nur lesbare IImageTransformOperationaspose.slides.effects/iimagetransformoperation.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ermöglicht den Zugriff auf die Basis-IImageTransformOperation-Schnittstelle. Schreibgeschützte IImageTransformOperationaspose.slides.effects/iimagetransformoperation.
 type: docs
 weight: 20
 url: /de/aspose.slides.effects/iblur/asiimagetransformoperation/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/iblur/asiimagetransformoperation/
 
 ## IBlur.AsIImageTransformOperation-Eigenschaft
 
-Ermöglicht den Zugriff auf die Basisschnittstelle IImageTransformOperation. Nur lesbare [`IImageTransformOperation`](../../iimagetransformoperation).
+Ermöglicht den Zugriff auf die Basis-IImageTransformOperation-Schnittstelle. Schreibgeschützte [`IImageTransformOperation`](../../iimagetransformoperation).
 
 ```csharp
 public IImageTransformOperation AsIImageTransformOperation { get; }

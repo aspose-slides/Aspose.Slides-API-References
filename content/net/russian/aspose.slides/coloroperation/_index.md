@@ -1,15 +1,15 @@
 ---
 title: ColorOperation
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет различные операции с цветом, используемые для цветовых преобразований. Неизменяемый объект.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет различные операции с цветом, используемые для цветовых преобразований. Неменяемый объект.
 type: docs
 weight: 2440
 url: /ru/aspose.slides/coloroperation/
 ---
 
-## Класс ColorOperation
+## ColorOperation класс
 
-Представляет различные операции с цветом, используемые для цветовых преобразований. Неизменяемый объект.
+Представляет различные операции с цветом, используемые для цветовых преобразований. Неменный объект.
 
 ```csharp
 public class ColorOperation : IColorOperation
@@ -34,9 +34,9 @@ public class ColorOperation : IColorOperation
 | Название | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides/coloroperation/equals)(object) | Определяет, равны ли два экземпляра ColorOperation. |
-| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | Служит хэш-функцией для конкретного типа, подходящей для использования в хэш-алгоритмах и структурах данных, таких как хэш-таблица. |
+| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | Служит хеш-функцией для определенного типа, подходящей для использования в хеширующих алгоритмах и структурах данных, таких как хеш-таблица. |
 
-### См. также
+### См. Также
 
 * интерфейс [IColorOperation](../icoloroperation)
 * пространство имен [Aspose.Slides](../../aspose.slides)

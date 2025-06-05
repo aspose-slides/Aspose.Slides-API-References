@@ -1,6 +1,6 @@
 ---
 title: AsIActualLayout
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回 IActualLayout 接口。
 type: docs
 weight: 10
@@ -15,9 +15,9 @@ url: /zh/aspose.slides.charts/ichartplotarea/asiactuallayout/
 public IActualLayout AsIActualLayout { get; }
 ```
 
-### 说明
+### 备注
 
-用于 COM 兼容性。
+为了与 COM 兼容。
 
 ### 另请参阅
 

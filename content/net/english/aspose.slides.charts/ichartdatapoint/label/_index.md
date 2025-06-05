@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.charts/ichartdatapoint/label/
 ---
+
 ## IChartDataPoint.Label property
 
 Represents the lable of chart data point. Read-only [`IDataLabel`](../../idatalabel).

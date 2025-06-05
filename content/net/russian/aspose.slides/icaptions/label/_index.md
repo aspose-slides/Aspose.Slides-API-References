@@ -1,15 +1,15 @@
 ---
-title: Ярлык
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает ярлык закрытых субтитров. Чтение/запись String.
+title: Label
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или устанавливает метку закрытых подписей. Читаемая/записываемая строка.
 type: docs
 weight: 40
 url: /ru/aspose.slides/icaptions/label/
 ---
 
-## Свойство ICaptions.Label
+## ICaptions.Label свойство
 
-Возвращает или устанавливает ярлык закрытых субтитров. Чтение/запись String.
+Возвращает или устанавливает метку закрытых подписей. Читаемая/записываемая строка.
 
 ```csharp
 public string Label { get; set; }

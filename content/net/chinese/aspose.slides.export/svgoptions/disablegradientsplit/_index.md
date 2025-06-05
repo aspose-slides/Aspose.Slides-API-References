@@ -1,7 +1,7 @@
 ---
-title: 禁用梯度分割
-second_title: Aspose.Slides for .NET API 参考
-description: 禁用从 FromCornerX 和 FromCenter 梯度的分割。可读/可写布尔值。
+title: DisableGradientSplit
+second_title: Aspose.Sildes for .NET API Reference
+description: 禁用从角落 X 和从中心渐变的拆分。可读/可写布尔值。
 type: docs
 weight: 80
 url: /zh/aspose.slides.export/svgoptions/disablegradientsplit/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.export/svgoptions/disablegradientsplit/
 
 ## SVGOptions.DisableGradientSplit 属性
 
-禁用从 FromCornerX 和 FromCenter 梯度的分割。可读/可写布尔值。
+禁用从角落 X 和从中心渐变的拆分。可读/可写布尔值。
 
 ```csharp
 public bool DisableGradientSplit { get; set; }
 ```
 
-### 另请参见
+### 参见
 
 * class [SVGOptions](../../svgoptions)
 * namespace [Aspose.Slides.Export](../../svgoptions)

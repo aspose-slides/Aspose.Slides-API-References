@@ -1,7 +1,7 @@
 ---
 title: AddNodeByPosition
-second_title: Référence API Aspose.Slides pour .NET
-description: Ajoutez un nouveau nœud à la position sélectionnée de la collection de nœuds.
+second_title: Aspose.Slidess pour .NET API Reference
+description: Ajouter un nouveau nœud à la position sélectionnée de la collection de nœuds.
 type: docs
 weight: 30
 url: /fr/aspose.slides.smartart/ismartartnodecollection/addnodebyposition/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.smartart/ismartartnodecollection/addnodebyposition/
 
 ## ISmartArtNodeCollection.AddNodeByPosition méthode
 
-Ajoutez un nouveau nœud à la position sélectionnée de la collection de nœuds.
+Ajouter un nouveau nœud à la position sélectionnée de la collection de nœuds.
 
 ```csharp
 public ISmartArtNode AddNodeByPosition(int position)
@@ -17,9 +17,9 @@ public ISmartArtNode AddNodeByPosition(int position)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| position | Int32 | Position du nœud à base zéro. |
+| position | Int32 | Position du nœud basée sur zéro. |
 
-### Valeur de Retour
+### Valeur de retour
 
 Nœud ajouté
 
@@ -27,9 +27,9 @@ Nœud ajouté
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | position est inférieure à 0. |
+| ArgumentOutOfRangeException | La position est inférieure à 0. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ISmartArtNode](../../ismartartnode)
 * interface [ISmartArtNodeCollection](../../ismartartnodecollection)

@@ -1,6 +1,6 @@
 ---
-title: Sonido
-second_title: Referencia de la API de Aspose.Slidess para .NET
+title: Sound
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece los datos de audio incrustados. Lectura/escritura IAudioaspose.slides/iaudio.
 type: docs
 weight: 40
@@ -15,11 +15,11 @@ Devuelve o establece los datos de audio incrustados. Lectura/escritura [`IAudio`
 public IAudio Sound { get; set; }
 ```
 
-### Véase También
+### Véase también
 
 * interfaz [IAudio](../../../aspose.slides/iaudio)
 * clase [SlideShowTransition](../../slideshowtransition)
 * espacio de nombres [Aspose.Slides.SlideShow](../../slideshowtransition)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

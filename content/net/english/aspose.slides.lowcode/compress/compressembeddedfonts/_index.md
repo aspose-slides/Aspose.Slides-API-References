@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.lowcode/compress/compressembeddedfonts/
 ---
+
 ## Compress.CompressEmbeddedFonts method
 
 Makes compression of the [`Presentation`](../../../aspose.slides/presentation) by removing unused characters from embedded fonts.

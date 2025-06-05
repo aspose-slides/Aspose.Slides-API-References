@@ -1,6 +1,6 @@
 ---
 title: ForeColor
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Renvoie la couleur du motif de premier plan. Couleur en lecture seule.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ Renvoie la couleur du motif de premier plan. Couleur en lecture seule.
 public Color ForeColor { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IPatternFormatEffectiveData](../../ipatternformateffectivedata)
 * namespace [Aspose.Slides](../../ipatternformateffectivedata)

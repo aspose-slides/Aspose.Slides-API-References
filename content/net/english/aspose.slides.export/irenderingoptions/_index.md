@@ -3,9 +3,10 @@ title: IRenderingOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides options that control how a presentation/slide is rendered.
 type: docs
-weight: 3770
+weight: 3870
 url: /aspose.slides.export/irenderingoptions/
 ---
+
 ## IRenderingOptions interface
 
 Provides options that control how a presentation/slide is rendered.
@@ -19,16 +20,18 @@ public interface IRenderingOptions : ISaveOptions
 | Name | Description |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | Returns ISaveOptions interface. Read-only [`ISaveOptions`](../isaveoptions). |
-| [NotesCommentsLayouting](../../aspose.slides.export/irenderingoptions/notescommentslayouting) { get; } | Provides options that control how notes and comments is placed in exported document. |
+| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | Gets or sets a value indicating whether text is rendered without using ligatures. When set to `true`, ligatures will be disabled in the rendered output. By default, this property is set to `false`. |
+| [InkOptions](../../aspose.slides.export/irenderingoptions/inkoptions) { get; } | Provides options that control the look of Ink objects in exported document. Read-only [`IInkOptions`](../iinkoptions) |
+| [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | Gets or sets the mode in which slides are placed on the page when exporting a presentation [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Examples
 
 ```csharp
 [C#]
 using (Presentation pres = new Presentation("pres.pptx"))
-  {
+{
   IRenderingOptions renderingOpts = new RenderingOptions();
-  renderingOpts.NotesCommentsLayouting.NotesPosition = NotesPositions.BottomTruncated;
+  renderingOpts.SlidesLayoutOptions = new NotesCommentsLayoutingOptions { NotesPosition = NotesPositions.BottomTruncated};
   
   pres.Slides[0].GetThumbnail(renderingOpts).Save("pres-Original.png", ImageFormat.Png);
   

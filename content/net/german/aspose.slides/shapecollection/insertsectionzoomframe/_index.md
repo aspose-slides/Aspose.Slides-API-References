@@ -1,7 +1,7 @@
 ---
 title: InsertSectionZoomFrame
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erstellt ein neues Section Zoom-Objekt und fügt es an dem angegebenen Index in eine Sammlung ein.
+second_title: Aspose.Slides für .NET API Referenz
+description: Erstellt ein neues Section Zoom-Objekt und fügt es an der angegebenen Stelle in eine Sammlung ein.
 type: docs
 weight: 370
 url: /de/aspose.slides/shapecollection/insertsectionzoomframe/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/shapecollection/insertsectionzoomframe/
 
 ## InsertSectionZoomFrame(int, float, float, float, float, ISection) {#insertsectionzoomframe}
 
-Erschafft ein neues Section Zoom-Objekt und fügt es an dem angegebenen Index in eine Sammlung ein.
+Erstellt ein neues Section Zoom-Objekt und fügt es an der angegebenen Stelle in eine Sammlung ein.
 
 ```csharp
 public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, float width, 
@@ -18,12 +18,12 @@ public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, flo
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Der nullbasierte Index, an dem der Section Zoom-Frame eingefügt werden soll. |
-| x | Single | X-Koordinate eines neuen Section Zoom-Frames. |
-| y | Single | Y-Koordinate eines neuen Section Zoom-Frames. |
-| width | Single | Breite eines neuen Section Zoom-Frames. |
-| height | Single | Höhe eines neuen Section Zoom-Frames. |
-| section | ISection | Das Folienobjekt, auf das der Section Zoom-Frame verweist [`ISection`](../../isection). |
+| index | Int32 | Der nullbasierte Index, an dem das Section Zoom-Frame eingefügt werden soll. |
+| x | Single | X-Koordinate eines neuen Section Zoom-Frames als Single. |
+| y | Single | Y-Koordinate eines neuen Section Zoom-Frames als Single. |
+| width | Single | Breite eines neuen Section Zoom-Frames als Single. |
+| height | Single | Höhe eines neuen Section Zoom-Frames als Single. |
+| section | ISection | Das Folienobjekt, auf das das Section Zoom-Frame verweist [`ISection`](../../isection). |
 
 ### Rückgabewert
 
@@ -33,11 +33,11 @@ Erstelltes Section Zoom-Objekt [`ISectionZoomFrame`](../../isectionzoomframe).
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentException | Die referenzierte Section gehört nicht zur aktuellen Präsentation oder enthält keine Folien. |
+| ArgumentException | Die referenzierte Sektion gehört nicht zur aktuellen Präsentation oder enthält keine Folien. |
 
 ### Beispiele
 
-Dieses Beispiel zeigt die Erstellung und Einfügung eines Section Zoom-Objekts an dem angegebenen Index einer Sammlung (angenommen, dass es mindestens zwei Sections in der Präsentation "Presentation.pptx" gibt):
+Dieses Beispiel zeigt die Erstellung und das Einfügen eines Section Zoom-Objekts am angegebenen Index einer Sammlung (angenommen, es gibt mindestens zwei Sektionen in der "Presentation.pptx"-Präsentation):
 
 ```csharp
 [C#]
@@ -59,7 +59,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 
 ## InsertSectionZoomFrame(int, float, float, float, float, ISection, IPPImage) {#insertsectionzoomframe_1}
 
-Erschafft ein neues Section Zoom-Objekt und fügt es an dem angegebenen Index in eine Sammlung ein.
+Erstellt ein neues Section Zoom-Objekt und fügt es an der angegebenen Stelle in eine Sammlung ein.
 
 ```csharp
 public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, float width, 
@@ -68,12 +68,12 @@ public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, flo
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Der nullbasierte Index, an dem der Section Zoom-Frame eingefügt werden soll. |
-| x | Single | X-Koordinate eines neuen Section Zoom-Frames. |
-| y | Single | Y-Koordinate eines neuen Section Zoom-Frames. |
-| width | Single | Breite eines neuen Section Zoom-Frames. |
-| height | Single | Höhe eines neuen Section Zoom-Frames. |
-| section | ISection | Das Folienobjekt, auf das der Section Zoom-Frame verweist [`ISection`](../../isection). |
+| index | Int32 | Der nullbasierte Index, an dem das Section Zoom-Frame eingefügt werden soll. |
+| x | Single | X-Koordinate eines neuen Section Zoom-Frames als Single. |
+| y | Single | Y-Koordinate eines neuen Section Zoom-Frames als Single. |
+| width | Single | Breite eines neuen Section Zoom-Frames als Single. |
+| height | Single | Höhe eines neuen Section Zoom-Frames als Single. |
+| section | ISection | Das Folienobjekt, auf das das Section Zoom-Frame verweist [`ISection`](../../isection). |
 | image | IPPImage | Das Bild für die referenzierte Folie [`IPPImage`](../../ippimage) |
 
 ### Rückgabewert
@@ -84,11 +84,11 @@ Erstelltes Section Zoom-Objekt [`ISectionZoomFrame`](../../isectionzoomframe).
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentException | Die referenzierte Section gehört nicht zur aktuellen Präsentation oder enthält keine Folien. |
+| ArgumentException | Die referenzierte Sektion gehört nicht zur aktuellen Präsentation oder enthält keine Folien. |
 
 ### Beispiele
 
-Dieses Beispiel zeigt die Erstellung und Einfügung eines Section Zoom-Objekts an dem angegebenen Index einer Sammlung (angenommen, dass es mindestens zwei Sections in der Präsentation "Presentation.pptx" gibt):
+Dieses Beispiel zeigt die Erstellung und das Einfügen eines Section Zoom-Objekts am angegebenen Index einer Sammlung (angenommen, es gibt mindestens zwei Sektionen in der "Presentation.pptx"-Präsentation):
 
 ```csharp
 [C#]

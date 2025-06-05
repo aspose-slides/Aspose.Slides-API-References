@@ -1,7 +1,7 @@
 ---
 title: SetHeaderAndChildHeadersText
-second_title: Aspose.Sildes for .NET API 参考
-description: 设置主备忘录幻灯片页眉占位符和所有子页眉占位符的文本。子占位符意味着占位符包含在依赖的备忘录幻灯片中。依赖的备忘录幻灯片使用并依赖于主备忘录幻灯片。
+second_title: Aspose.Sildes for .NET API Reference
+description: 设置主备注幻灯片标题占位符和所有子标题占位符的文本。子占位符意味着占位符位于依赖的备注幻灯片上。依赖的备注幻灯片使用并依赖主备注幻灯片。
 type: docs
 weight: 60
 url: /zh/aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildhea
 
 ## IMasterNotesSlideHeaderFooterManager.SetHeaderAndChildHeadersText 方法
 
-设置主备忘录幻灯片页眉占位符和所有子页眉占位符的文本。子占位符意味着占位符包含在依赖的备忘录幻灯片中。依赖的备忘录幻灯片使用并依赖于主备忘录幻灯片。
+设置主备注幻灯片标题占位符和所有子标题占位符的文本。子占位符意味着占位符位于依赖的备注幻灯片上。依赖的备注幻灯片使用并依赖主备注幻灯片。
 
 ```csharp
 public void SetHeaderAndChildHeadersText(string text)
@@ -19,7 +19,7 @@ public void SetHeaderAndChildHeadersText(string text)
 | --- | --- | --- |
 | text | String | 要设置的文本。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IMasterNotesSlideHeaderFooterManager](../../imasternotesslideheaderfootermanager)
 * 命名空间 [Aspose.Slides](../../imasternotesslideheaderfootermanager)

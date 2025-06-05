@@ -1,6 +1,6 @@
 ---
 title: ICaptions
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Représente les sous-titres WebVTT.
 type: docs
 weight: 5230
@@ -19,10 +19,10 @@ public interface ICaptions
 
 | Nom | Description |
 | --- | --- |
-| [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | Renvoie les données binaires des sous-titres. Lecture seule Byte[]. |
-| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | Renvoie l'identifiant unique mondial (GUID) des sous-titres. Lecture seule Guid. |
-| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | Renvoie les données des sous-titres sous forme de chaîne encodée en UTF-8 Lecture seule String. |
-| [Label](../../aspose.slides/icaptions/label) { get; set; } | Renvoie ou définit l'étiquette des sous-titres. Lecture/écriture String. |
+| [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | Retourne les données binaires des sous-titres. Lecture seule Byte[]. |
+| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | Retourne l'identifiant unique global (GUID) des sous-titres. Lecture seule Guid. |
+| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | Retourne les données des sous-titres sous forme de chaîne encodée en UTF-8 Lecture seule String. |
+| [Label](../../aspose.slides/icaptions/label) { get; set; } | Retourne ou définit l'étiquette des sous-titres. Lecture/écriture String. |
 
 ### Voir aussi
 

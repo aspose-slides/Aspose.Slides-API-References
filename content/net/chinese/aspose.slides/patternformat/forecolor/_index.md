@@ -1,7 +1,7 @@
 ---
-title: 前景色
-second_title: Aspose.Slides for .NET API 参考
-description: 返回前景图案颜色。只读 IColorFormat aspose.slides/icolorformat。
+title: ForeColor
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回前景模式颜色。只读 IColorFormat aspose.slides/icolorformat。
 type: docs
 weight: 20
 url: /zh/aspose.slides/patternformat/forecolor/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/patternformat/forecolor/
 
 ## PatternFormat.ForeColor 属性
 
-返回前景图案颜色。只读 [`IColorFormat`](../../icolorformat)。
+返回前景模式颜色。只读 [`IColorFormat`](../../icolorformat)。
 
 ```csharp
 public IColorFormat ForeColor { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IColorFormat](../../icolorformat)
 * 类 [PatternFormat](../../patternformat)

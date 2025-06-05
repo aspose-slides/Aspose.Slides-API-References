@@ -1,7 +1,7 @@
 ---
 title: SlideImageSizeUnitCode
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt einen CSS-Code der Einheit zurück, in der die Bildgröße der Folie angegeben ist. Nur lesbarer String.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt einen CSS-Code der Einheit zurück, in der die Folienbildgröße angegeben ist. Nur-Lese-Zeichenfolge.
 type: docs
 weight: 50
 url: /de/aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode/
 
 ## IHtmlGenerator.SlideImageSizeUnitCode-Eigenschaft
 
-Gibt einen CSS-Code der Einheit zurück, in der die Bildgröße der Folie angegeben ist. Nur lesbarer String.
+Gibt einen CSS-Code der Einheit zurück, in der die Folienbildgröße angegeben ist. Nur-Lese-Zeichenfolge.
 
 ```csharp
 public string SlideImageSizeUnitCode { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IHtmlGenerator](../../ihtmlgenerator)
 * Namespace [Aspose.Slides.Export](../../ihtmlgenerator)

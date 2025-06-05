@@ -1,83 +1,83 @@
----
+---  
 title: InsertOleObjectFrame
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erstellt ein neues OLE-Objekt und fügt es an der angegebenen Stelle in eine Sammlung ein.
-type: docs
-weight: 350
+second_title: Aspose.Sildes für .NET API Referenz  
+description: Erstellt ein neues OLE-Objekt und fügt es an der angegebenen Stelle in die Sammlung ein.
+type: docs  
+weight: 350  
 url: /de/aspose.slides/shapecollection/insertoleobjectframe/
----
+---  
 
-## InsertOleObjectFrame(int, float, float, float, float, IOleEmbeddedDataInfo) {#insertoleobjectframe}
+## InsertOleObjectFrame(int, float, float, float, float, IOleEmbeddedDataInfo) {#insertoleobjectframe}  
 
-Erstellt ein neues OLE-Objekt und fügt es an der angegebenen Stelle in eine Sammlung ein.
+Erstellt ein neues OLE-Objekt und fügt es an der angegebenen Stelle in die Sammlung ein.  
 
-```csharp
-public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float width, float height, 
-    IOleEmbeddedDataInfo dataInfo)
-```
+```csharp  
+public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float width, float height,  
+    IOleEmbeddedDataInfo dataInfo)  
+```  
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| index | Int32 | Der nullbasierte Index, an dem das OLE-Objekt eingefügt werden soll. |
-| x | Single | X-Koordinate eines neuen OLE-Rahmens. |
-| y | Single | Y-Koordinate eines neuen OLE-Rahmens. |
-| width | Single | Breite eines neuen OLE-Rahmens. |
-| height | Single | Höhe eines neuen OLE-Rahmens. |
-| dataInfo | IOleEmbeddedDataInfo | Eingebettete Dateninfo [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |
+| Parameter | Typ | Beschreibung |  
+| --- | --- | --- |  
+| index | Int32 | Der nullbasierte Index, an dem das OLE-Objekt eingefügt werden soll. |  
+| x | Single | X-Koordinate des neuen OLE-Rahmens. |  
+| y | Single | Y-Koordinate des neuen OLE-Rahmens. |  
+| width | Single | Breite des neuen OLE-Rahmens. |  
+| height | Single | Höhe des neuen OLE-Rahmens. |  
+| dataInfo | IOleEmbeddedDataInfo | Eingebettete Dateninfos [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |  
 
-### Rückgabewert
+### Rückgabewert  
 
-Erstelltes OLE-Objekt.
+Erstelltes OLE-Objekt.  
 
-### Beispiele
+### Beispiele  
 
-Dieses Beispiel demonstriert das Einfügen eines OLE-Objekts an der zweiten Stelle:
+Dieses Beispiel demonstriert das Einfügen eines OLE-Objekts an der zweiten Stelle:  
 
-```csharp
-[C#]
-byte[] fileData = File.ReadAllBytes("test.zip");
-IOleDataInfo dataInfo = new OleDataInfo(fileData, "zip");
-IOleObjectFrame oleObjectFrame = slidees.Shapes.AddOleObjectFrame(2, 150, 20, 50, 50, dataInfo);
-```
+```csharp  
+[C#]  
+byte[] fileData = File.ReadAllBytes("test.zip");  
+IOleDataInfo dataInfo = new OleDataInfo(fileData, "zip");  
+IOleObjectFrame oleObjectFrame = slidees.Shapes.AddOleObjectFrame(2, 150, 20, 50, 50, dataInfo);  
+```  
 
-### Siehe auch
+### Siehe auch  
 
-* Schnittstelle [IOleObjectFrame](../../ioleobjectframe)
-* Schnittstelle [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo)
-* Klasse [ShapeCollection](../../shapecollection)
-* Namensraum [Aspose.Slides](../../shapecollection)
-* Assembly [Aspose.Slides](../../../)
+* interface [IOleObjectFrame](../../ioleobjectframe)  
+* interface [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo)  
+* class [ShapeCollection](../../shapecollection)  
+* namespace [Aspose.Slides](../../shapecollection)  
+* assembly [Aspose.Slides](../../../)  
 
----
+---  
 
-## InsertOleObjectFrame(int, float, float, float, float, string, string) {#insertoleobjectframe_1}
+## InsertOleObjectFrame(int, float, float, float, float, string, string) {#insertoleobjectframe_1}  
 
-Erstellt ein neues OLE-Objekt und fügt es an der angegebenen Stelle in eine Sammlung ein.
+Erstellt ein neues OLE-Objekt und fügt es an der angegebenen Stelle in die Sammlung ein.  
 
-```csharp
-public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float width, float height, 
-    string className, string path)
-```
+```csharp  
+public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float width, float height,  
+    string className, string path)  
+```  
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| index | Int32 | Der nullbasierte Index, an dem das OLE-Objekt eingefügt werden soll. |
-| x | Single | X-Koordinate eines neuen OLE-Rahmens. |
-| y | Single | Y-Koordinate eines neuen OLE-Rahmens. |
-| width | Single | Breite eines neuen OLE-Rahmens. |
-| height | Single | Höhe eines neuen OLE-Rahmens. |
-| className | String | Name einer OLE-Klasse. |
-| path | String | Pfad zur verlinkten Datei. |
+| Parameter | Typ | Beschreibung |  
+| --- | --- | --- |  
+| index | Int32 | Der nullbasierte Index, an dem das OLE-Objekt eingefügt werden soll. |  
+| x | Single | X-Koordinate des neuen OLE-Rahmens. |  
+| y | Single | Y-Koordinate des neuen OLE-Rahmens. |  
+| width | Single | Breite des neuen OLE-Rahmens. |  
+| height | Single | Höhe des neuen OLE-Rahmens. |  
+| className | String | Name einer OLE-Klasse. |  
+| path | String | Pfad zur verlinkten Datei. |  
 
-### Rückgabewert
+### Rückgabewert  
 
-Erstelltes OLE-Objekt.
+Erstelltes OLE-Objekt.  
 
-### Siehe auch
+### Siehe auch  
 
-* Schnittstelle [IOleObjectFrame](../../ioleobjectframe)
-* Klasse [ShapeCollection](../../shapecollection)
-* Namensraum [Aspose.Slides](../../shapecollection)
-* Assembly [Aspose.Slides](../../../)
+* interface [IOleObjectFrame](../../ioleobjectframe)  
+* class [ShapeCollection](../../shapecollection)  
+* namespace [Aspose.Slides](../../shapecollection)  
+* assembly [Aspose.Slides](../../../)  
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

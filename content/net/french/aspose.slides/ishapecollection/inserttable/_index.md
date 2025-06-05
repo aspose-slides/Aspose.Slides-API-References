@@ -1,13 +1,13 @@
 ---
 title: InsertTable
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour l'API .NET Référence
 description: Crée une nouvelle table et l'insère dans la collection à l'index spécifié.
 type: docs
 weight: 340
 url: /fr/aspose.slides/ishapecollection/inserttable/
 ---
 
-## Méthode IShapeCollection.InsertTable
+## IShapeCollection.InsertTable méthode
 
 Crée une nouvelle table et l'insère dans la collection à l'index spécifié.
 

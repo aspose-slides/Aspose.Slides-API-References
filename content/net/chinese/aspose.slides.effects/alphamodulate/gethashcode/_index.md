@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Aspose.Sildes for .NET API Reference
-description: 用于特定类型的哈希函数。
+description: 作为特定类型的哈希函数。
 type: docs
 weight: 30
 url: /zh/aspose.slides.effects/alphamodulate/gethashcode/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/alphamodulate/gethashcode/
 
 ## AlphaModulate.GetHashCode 方法
 
-用于特定类型的哈希函数。
+作为特定类型的哈希函数。
 
 ```csharp
 public override int GetHashCode()
@@ -17,7 +17,7 @@ public override int GetHashCode()
 
 ### 返回值
 
-当前对象的哈希码。
+当前对象的哈希代码。
 
 ### 另请参阅
 

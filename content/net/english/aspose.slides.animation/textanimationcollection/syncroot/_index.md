@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.animation/textanimationcollection/syncroot/
 ---
+
 ## TextAnimationCollection.SyncRoot property
 
 Returns a synchronization root. Read-only Object.

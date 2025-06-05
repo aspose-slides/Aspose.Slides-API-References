@@ -1,15 +1,15 @@
 ---
-title: Opérateur
-second_title: Référence API Aspose.Slides pour .NET
-description: Caractère d'Opérateur N-aire Par exemple
+title: Operator
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Caractère Opérateur Naire Par exemple
 type: docs
 weight: 50
 url: /fr/aspose.slides.mathtext/imathnaryoperatorproperties/operator/
 ---
 
-## Propriété IMathNaryOperatorProperties.Operator
+## IMathNaryOperatorProperties.Operator property
 
-Caractère d'Opérateur N-aire Par exemple : '∑', '∫'
+Caractère Opérateur Naire Par exemple : '∑', '∫'
 
 ```csharp
 public char Operator { get; set; }
@@ -17,7 +17,7 @@ public char Operator { get; set; }
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]
@@ -25,7 +25,7 @@ IMathNaryOperator naryOperator = new MathematicalText("x").Nary(MathNaryOperator
 char operatorSymbol = naryOperator.Operator;
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathNaryOperatorProperties](../../imathnaryoperatorproperties)
 * namespace [Aspose.Slides.MathText](../../imathnaryoperatorproperties)

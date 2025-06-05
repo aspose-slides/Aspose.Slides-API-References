@@ -1,7 +1,7 @@
 ---
 title: AddAlphaReplaceEffect
 second_title: Aspose.Slides für .NET API-Referenz
-description: Fügt den neuen Alpha Replace-Effekt am Ende einer Sammlung hinzu.
+description: Fügt den neuen Alpha-Replace-Effekt am Ende einer Sammlung hinzu.
 type: docs
 weight: 90
 url: /de/aspose.slides.effects/iimagetransformoperationcollection/addalphareplaceeffect/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/iimagetransformoperationcollection/addalphareplac
 
 ## IImageTransformOperationCollection.AddAlphaReplaceEffect-Methode
 
-Fügt den neuen Alpha Replace-Effekt am Ende einer Sammlung hinzu.
+Fügt den neuen Alpha-Replace-Effekt am Ende einer Sammlung hinzu.
 
 ```csharp
 public IAlphaReplace AddAlphaReplaceEffect(float alpha)

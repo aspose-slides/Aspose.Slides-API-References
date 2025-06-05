@@ -1,6 +1,6 @@
 ---
 title: XamlOptions
-second_title: Справка по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Создает экземпляр XamlOptions.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export.xaml/xamloptions/xamloptions/
 public XamlOptions()
 ```
 
-### См. также
+### Также смотрите
 
 * класс [XamlOptions](../../xamloptions)
 * пространство имен [Aspose.Slides.Export.Xaml](../../xamloptions)

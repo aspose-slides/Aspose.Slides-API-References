@@ -1,7 +1,7 @@
 ---
-title: Bild
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das Bild zurück. Nur-lesendes ISlidesPictureaspose.slides/islidespicture.
+title: Picture
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt das Bild zurück. Nur-Lese ISlidesPictureaspose.slides/islidespicture.
 type: docs
 weight: 60
 url: /de/aspose.slides/picturefillformat/picture/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/picturefillformat/picture/
 
 ## PictureFillFormat.Picture-Eigenschaft
 
-Gibt das Bild zurück. Nur-lesend [`ISlidesPicture`](../../islidespicture).
+Gibt das Bild zurück. Nur-Lese [`ISlidesPicture`](../../islidespicture).
 
 ```csharp
 public ISlidesPicture Picture { get; }

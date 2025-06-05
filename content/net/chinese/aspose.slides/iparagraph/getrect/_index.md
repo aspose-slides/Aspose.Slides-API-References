@@ -1,7 +1,7 @@
 ---
 title: GetRect
-second_title: Aspose.Slides for .NET API 参考
-description: 获取包围段落的矩形的坐标。该矩形包括段落中所有的文本行，包括空行。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取包围段落的矩形的坐标。该矩形包含段落中的所有文本行，包括空行。
 type: docs
 weight: 70
 url: /zh/aspose.slides/iparagraph/getrect/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iparagraph/getrect/
 
 ## IParagraph.GetRect 方法
 
-获取包围段落的矩形的坐标。该矩形包括段落中所有的文本行，包括空行。
+获取包围段落的矩形的坐标。该矩形包含段落中的所有文本行，包括空行。
 
 ```csharp
 public RectangleF GetRect()

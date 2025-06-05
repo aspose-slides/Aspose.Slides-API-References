@@ -1,23 +1,23 @@
 ---
-title: EnArgumentDeFonction
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Prend la fonction spécifiée en utilisant cette instance comme argument
+title: AsArgumentOfFunction
+second_title: Aspose.Sildes pour la référence API .NET
+description: Prend une fonction spécifiée en utilisant cette instance comme argument
 type: docs
 weight: 20
 url: /fr/aspose.slides.mathtext/imathelement/asargumentoffunction/
 ---
 
-## EnArgumentDeFonction(IMathElement) {#asargumentoffunction}
+## AsArgumentOfFunction(IMathElement) {#asargumentoffunction}
 
-Prend la fonction spécifiée en utilisant cette instance comme argument
+Prend une fonction spécifiée en utilisant cette instance comme argument
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(IMathElement functionName)
 ```
 
-| Paramètre | Type | Description |
-| --- | --- | --- |
-| functionName | IMathElement | Nom de la fonction |
+| Paramètre      | Type         | Description       |
+|----------------|--------------|-------------------|
+| functionName   | IMathElement | Nom de la fonction |
 
 ### Valeur de retour
 
@@ -43,17 +43,17 @@ IMathFunction func = functionArg.AsArgumentOfFunction(functionName);
 
 ---
 
-## EnArgumentDeFonction(string) {#asargumentoffunction_4}
+## AsArgumentOfFunction(string) {#asargumentoffunction_4}
 
-Prend la fonction spécifiée en utilisant cette instance comme argument
+Prend une fonction spécifiée en utilisant cette instance comme argument
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(string functionName)
 ```
 
-| Paramètre | Type | Description |
-| --- | --- | --- |
-| functionName | String | Nom de la fonction |
+| Paramètre      | Type   | Description       |
+|----------------|--------|-------------------|
+| functionName   | String | Nom de la fonction |
 
 ### Valeur de retour
 
@@ -78,17 +78,17 @@ IMathFunction func = functionArg.AsArgumentOfFunction("cos");
 
 ---
 
-## EnArgumentDeFonction(MathFunctionsOfOneArgument) {#asargumentoffunction_1}
+## AsArgumentOfFunction(MathFunctionsOfOneArgument) {#asargumentoffunction_1}
 
-Prend la fonction spécifiée en utilisant cette instance comme argument
+Prend une fonction spécifiée en utilisant cette instance comme argument
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(MathFunctionsOfOneArgument functionType)
 ```
 
-| Paramètre | Type | Description |
-| --- | --- | --- |
-| functionType | MathFunctionsOfOneArgument | L'un des types de fonction courants d'un argument |
+| Paramètre      | Type                          | Description                                                      |
+|----------------|-------------------------------|------------------------------------------------------------------|
+| functionType   | MathFunctionsOfOneArgument    | L'un des types de fonction courants à un argument               |
 
 ### Valeur de retour
 
@@ -114,19 +114,19 @@ IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfOneArgument
 
 ---
 
-## EnArgumentDeFonction(MathFunctionsOfTwoArguments, IMathElement) {#asargumentoffunction_2}
+## AsArgumentOfFunction(MathFunctionsOfTwoArguments, IMathElement) {#asargumentoffunction_2}
 
-Prend la fonction spécifiée en utilisant cette instance comme argument et l'argument supplémentaire spécifié
+Prend une fonction spécifiée en utilisant cette instance comme argument et un argument supplémentaire spécifié
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionType, 
     IMathElement additionalArgument)
 ```
 
-| Paramètre | Type | Description |
-| --- | --- | --- |
-| functionType | MathFunctionsOfTwoArguments | L'un des types de fonctions courants de deux arguments : Log, Lim, Min, Max |
-| additionalArgument | IMathElement | Argument supplémentaire en fonction du type de fonction |
+| Paramètre          | Type                          | Description                                                      |
+|--------------------|-------------------------------|------------------------------------------------------------------|
+| functionType       | MathFunctionsOfTwoArguments    | L'un des types de fonction courants à deux arguments : Log, Lim, Min, Max |
+| additionalArgument  | IMathElement                  | Argument supplémentaire en fonction du type de fonction         |
 
 ### Valeur de retour
 
@@ -153,19 +153,19 @@ IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfTwoArgument
 
 ---
 
-## EnArgumentDeFonction(MathFunctionsOfTwoArguments, string) {#asargumentoffunction_3}
+## AsArgumentOfFunction(MathFunctionsOfTwoArguments, string) {#asargumentoffunction_3}
 
-Prend la fonction spécifiée en utilisant cette instance comme argument et l'argument supplémentaire spécifié
+Prend une fonction spécifiée en utilisant cette instance comme argument et un argument supplémentaire spécifié
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionType, 
     string additionalArgument)
 ```
 
-| Paramètre | Type | Description |
-| --- | --- | --- |
-| functionType | MathFunctionsOfTwoArguments | L'un des types de fonctions courants de deux arguments : Log, Lim, Min, Max |
-| additionalArgument | String | Argument supplémentaire en fonction du type de fonction |
+| Paramètre          | Type                          | Description                                                      |
+|--------------------|-------------------------------|------------------------------------------------------------------|
+| functionType       | MathFunctionsOfTwoArguments    | L'un des types de fonction courants à deux arguments : Log, Lim, Min, Max |
+| additionalArgument  | String                         | Argument supplémentaire en fonction du type de fonction         |
 
 ### Valeur de retour
 

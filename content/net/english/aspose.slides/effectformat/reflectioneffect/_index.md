@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/effectformat/reflectioneffect/
 ---
+
 ## EffectFormat.ReflectionEffect property
 
 Reflection. Read/write [`IReflection`](../../../aspose.slides.effects/ireflection).

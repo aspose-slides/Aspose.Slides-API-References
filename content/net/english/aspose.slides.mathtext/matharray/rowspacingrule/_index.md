@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.mathtext/matharray/rowspacingrule/
 ---
+
 ## MathArray.RowSpacingRule property
 
 The type of vertical spacing between array elements Default: SingleLineGap

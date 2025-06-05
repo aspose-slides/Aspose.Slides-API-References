@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/masterhandoutslide/thememanager/
 ---
+
 ## MasterHandoutSlide.ThemeManager property
 
 Returns the theme manager. Read-only [`IMasterThemeManager`](../../../aspose.slides.theme/imasterthememanager).

@@ -1,7 +1,7 @@
 ---
 title: ParentShape
-second_title: Aspose.Sildes pour la référence de l'API .NET
-description: Renvoie la forme parente ou null si l'objet parent n'implémente pas l'interface IShape en lecture seule IShapeaspose.slides/ishape.
+second_title: Référence API Aspose.Slides pour .NET
+description: Retourne la forme parente ou null si l'objet parent n'implémente pas l'interface IShape Lecture seule IShapeaspose.slides/ishape.
 type: docs
 weight: 40
 url: /fr/aspose.slides/textframe/parentshape/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/textframe/parentshape/
 
 ## Propriété TextFrame.ParentShape
 
-Renvoie la forme parente ou null si l'objet parent n'implémente pas l'interface IShape en lecture seule [`IShape`](../../ishape).
+Retourne la forme parente ou null si l'objet parent n'implémente pas l'interface IShape Lecture seule [`IShape`](../../ishape).
 
 ```csharp
 public IShape ParentShape { get; }
@@ -30,7 +30,7 @@ using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IShape](../../ishape)
 * class [TextFrame](../../textframe)

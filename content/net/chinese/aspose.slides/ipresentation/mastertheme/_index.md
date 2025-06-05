@@ -1,7 +1,7 @@
 ---
 title: MasterTheme
 second_title: Aspose.Slides for .NET API Reference
-description: 返回演示文稿的母版主题。只读 IMasterThemeaspose.slides.theme/imastertheme。
+description: 返回演示文稿的主主题。只读 IMasterTheme aspose.slides.theme/imastertheme。
 type: docs
 weight: 200
 url: /zh/aspose.slides/ipresentation/mastertheme/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ipresentation/mastertheme/
 
 ## IPresentation.MasterTheme 属性
 
-返回演示文稿的母版主题。只读 [`IMasterTheme`](../../../aspose.slides.theme/imastertheme)。
+返回演示文稿的主主题。只读 [`IMasterTheme`](../../../aspose.slides.theme/imastertheme)。
 
 ```csharp
 public IMasterTheme MasterTheme { get; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IMasterTheme](../../../aspose.slides.theme/imastertheme)
 * 接口 [IPresentation](../../ipresentation)

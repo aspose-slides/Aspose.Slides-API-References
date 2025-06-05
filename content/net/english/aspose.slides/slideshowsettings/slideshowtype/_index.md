@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/slideshowsettings/slideshowtype/
 ---
+
 ## SlideShowSettings.SlideShowType property
 
 Gets or sets the slide show type. Represented by the following `SlideShowType` ancestors: [`BrowsedAtKiosk`](../../browsedatkiosk), [`PresentedBySpeaker`](../../presentedbyspeaker) and [`BrowsedByIndividual`](../../browsedbyindividual)

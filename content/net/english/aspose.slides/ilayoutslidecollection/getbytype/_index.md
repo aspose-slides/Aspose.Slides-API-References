@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ilayoutslidecollection/getbytype/
 ---
+
 ## ILayoutSlideCollection.GetByType method
 
 Returns the first layout slide of specified type.

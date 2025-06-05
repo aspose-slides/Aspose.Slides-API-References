@@ -1,21 +1,21 @@
 ---
 title: LinearGradientAngle
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает угол градиента. Читаемый/записываемый тип Single.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или устанавливает угол градиента. Читаемый/записываемый Single.
 type: docs
 weight: 40
 url: /ru/aspose.slides/gradientformat/lineargradientangle/
 ---
 
-## Свойство GradientFormat.LinearGradientAngle
+## GradientFormat.LinearGradientAngle свойство
 
-Возвращает или устанавливает угол градиента. Читаемый/записываемый тип Single.
+Возвращает или устанавливает угол градиента. Читаемый/записываемый Single.
 
 ```csharp
 public float LinearGradientAngle { get; set; }
 ```
 
-### См. Также
+### Смотрите Также
 
 * класс [GradientFormat](../../gradientformat)
 * пространство имен [Aspose.Slides](../../gradientformat)

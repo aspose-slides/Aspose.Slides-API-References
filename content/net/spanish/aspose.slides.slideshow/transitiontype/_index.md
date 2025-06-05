@@ -1,7 +1,7 @@
 ---
 title: TransitionType
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Representa el tipo de transición de presentación.
+second_title: Aspose.Slides para .NET API Reference
+description: Representa el tipo de transición de una presentación.
 type: docs
 weight: 10140
 url: /es/aspose.slides.slideshow/transitiontype/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.slideshow/transitiontype/
 
 ## Enumeración TransitionType
 
-Representa el tipo de transición de presentación.
+Representa el tipo de transición de una presentación.
 
 ```csharp
 public enum TransitionType
@@ -22,7 +22,7 @@ public enum TransitionType
 | None | `0` |  |
 | Blinds | `1` |  |
 | Checker | `2` |  |
-| Circle | `3` | Relacionado con la forma de transición (con opción Circular) en PowerPoint 2010. |
+| Circle | `3` | Relacionado con la forma de transición (con opción Círculo) en PowerPoint 2010. |
 | Comb | `4` |  |
 | Cover | `5` |  |
 | Cut | `6` |  |
@@ -35,12 +35,12 @@ public enum TransitionType
 | Push | `13` |  |
 | Random | `14` |  |
 | RandomBar | `15` |  |
-| Split | `16` | Equivalente a la transición Borrado en PowerPoint 2010. |
+| Split | `16` | Equivalente a la transición Barrido en PowerPoint 2010. |
 | Strips | `17` |  |
-| Wedge | `18` | Relacionado con la transición Reloj (con opción Cuña) en PowerPoint 2010. |
-| Wheel | `19` | Relacionado con la transición Reloj (con opción Horario) en PowerPoint 2010. |
+| Wedge | `18` | Relacionado con la forma de transición Reloj (con opción Cuña) en PowerPoint 2010. |
+| Wheel | `19` | Relacionado con la forma de transición Reloj (con opción Horario) en PowerPoint 2010. |
 | Wipe | `20` |  |
-| Zoom | `21` | Relacionado con la forma de transición (con opciones En/Salida) en PowerPoint 2010. También ver Warp que se relaciona con la transición Zoom en PowerPoint 2010. |
+| Zoom | `21` | Relacionado con la forma de transición (con opciones Entrar/Saliendo) en PowerPoint 2010. Ver también Deformar que se relaciona con la transición Zoom en PowerPoint 2010. |
 | Vortex | `22` | Disponible en PowerPoint 2010. |
 | Switch | `23` | Disponible en PowerPoint 2010. |
 | Flip | `24` | Disponible en PowerPoint 2010. |
@@ -62,7 +62,7 @@ public enum TransitionType
 | Flash | `40` | Disponible en PowerPoint 2010. |
 | Shred | `41` | Disponible en PowerPoint 2010. |
 | Reveal | `42` | Disponible en PowerPoint 2010. |
-| WheelReverse | `43` | Relacionado con la transición Reloj (con opción Anti-horario) en PowerPoint 2010. Disponible en PowerPoint 2010. |
+| WheelReverse | `43` | Relacionado con la forma de transición Reloj (con opción Antihorario) en PowerPoint 2010. Disponible en PowerPoint 2010. |
 | FallOver | `44` | Disponible en PowerPoint 2013. |
 | Drape | `45` | Disponible en PowerPoint 2013. |
 | Curtains | `46` | Disponible en PowerPoint 2013. |
@@ -77,7 +77,7 @@ public enum TransitionType
 | Origami | `55` | Disponible en PowerPoint 2013. |
 | Morph | `56` | Relacionado con la transición Morph (con opción Tipo) en PowerPoint 2019. |
 
-### Ver También
+### Véase También
 
 * namespace [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * assembly [Aspose.Slides](../../)

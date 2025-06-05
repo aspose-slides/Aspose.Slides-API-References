@@ -1,7 +1,7 @@
 ---
 title: VolumeValue
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit le volume audio en pourcentage. Lecteur/écrivain Simple.
+description: Renvoie ou définit le volume audio en pourcentages. Lecture/écriture Single.
 type: docs
 weight: 180
 url: /fr/aspose.slides/audioframe/volumevalue/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/audioframe/volumevalue/
 
 ## Propriété AudioFrame.VolumeValue
 
-Renvoie ou définit le volume audio en pourcentage. Lecteur/écrivain Simple.
+Renvoie ou définit le volume audio en pourcentages. Lecture/écriture Single.
 
 ```csharp
 public float VolumeValue { get; set; }

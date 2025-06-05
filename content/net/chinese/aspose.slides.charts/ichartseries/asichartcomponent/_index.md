@@ -1,7 +1,7 @@
 ---
 title: AsIChartComponent
-second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基本的 IChartComponent 接口。只读 IChartComponent aspose.slides.charts/ichartcomponent。
+second_title: Aspose.Sildes for .NET API 参考
+description: 允许获得基础 IChartComponent 接口。只读 IChartComponentaspose.slides.charts/ichartcomponent。
 type: docs
 weight: 10
 url: /zh/aspose.slides.charts/ichartseries/asichartcomponent/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ichartseries/asichartcomponent/
 
 ## IChartSeries.AsIChartComponent 属性
 
-允许获取基本的 IChartComponent 接口。只读 [`IChartComponent`](../../ichartcomponent)。
+允许获得基础 IChartComponent 接口。只读 [`IChartComponent`](../../ichartcomponent)。
 
 ```csharp
 public IChartComponent AsIChartComponent { get; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IChartComponent](../../ichartcomponent)
 * 接口 [IChartSeries](../../ichartseries)

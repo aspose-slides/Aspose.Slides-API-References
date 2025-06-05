@@ -1,7 +1,7 @@
 ---
 title: DisplayEquation
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt an, dass die Gleichung für die Trendlinie im Diagramm im selben Label wie der Rsquaredvalue angezeigt wird. Lese-/Schreibboolean.
+description: Gibt an, dass die Gleichung für die Trendlinie im Diagramm im selben Label wie der Rsquaredwert angezeigt wird. Lese-/Schreib-Boolean.
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/itrendline/displayequation/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/itrendline/displayequation/
 
 ## ITrendline.DisplayEquation-Eigenschaft
 
-Gibt an, dass die Gleichung für die Trendlinie im Diagramm (im selben Label wie der Rsquaredvalue) angezeigt wird. Lese-/Schreibboolean.
+Gibt an, dass die Gleichung für die Trendlinie im Diagramm (im selben Label wie der Rsquaredwert) angezeigt wird. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool DisplayEquation { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ITrendline](../../itrendline)
 * Namespace [Aspose.Slides.Charts](../../itrendline)

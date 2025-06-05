@@ -1,13 +1,13 @@
 ---
 title: AsILineParamSource
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс ILineParamSource. Только для чтения ILineParamSourceaspose.slides/ilineparamsource.
+description: Позволяет получить базовый интерфейс ILineParamSource. Только для чтения ILineParamSource aspose.slides/ilineparamsource.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ilineformat/asilineparamsource/
 ---
 
-## Свойство ILineFormat.AsILineParamSource
+## ILineFormat.AsILineParamSource свойство
 
 Позволяет получить базовый интерфейс ILineParamSource. Только для чтения [`ILineParamSource`](../../ilineparamsource).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ilineformat/asilineparamsource/
 public ILineParamSource AsILineParamSource { get; }
 ```
 
-### См. Также
+### Смотрите также
 
 * интерфейс [ILineParamSource](../../ilineparamsource)
 * интерфейс [ILineFormat](../../ilineformat)

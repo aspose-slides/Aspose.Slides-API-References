@@ -1,7 +1,7 @@
 ---
 title: IsSynchronized
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve un valor que indica si el acceso a la colección es seguro para subprocesos. Booleano de solo lectura.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Devuelve un valor que indica si el acceso a la colección es seguro para hilos. Solo lectura Booleano.
 type: docs
 weight: 30
 url: /es/aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized/
@@ -9,16 +9,16 @@ url: /es/aspose.slides.effects/imagetransformocollectioneffectivedata/issynchron
 
 ## Propiedad ImageTransformOCollectionEffectiveData.IsSynchronized
 
-Devuelve un valor que indica si el acceso a la colección está sincronizado (seguro para subprocesos). Booleano de solo lectura.
+Devuelve un valor que indica si el acceso a la colección es sincronizado (seguro para hilos). Solo lectura Booleano.
 
 ```csharp
 public bool IsSynchronized { get; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [ImageTransformOCollectionEffectiveData](../../imagetransformocollectioneffectivedata)
 * espacio de nombres [Aspose.Slides.Effects](../../imagetransformocollectioneffectivedata)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

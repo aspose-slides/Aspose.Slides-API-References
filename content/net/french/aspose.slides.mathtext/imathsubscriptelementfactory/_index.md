@@ -1,6 +1,6 @@
 ---
 title: IMathSubscriptElementFactory
-second_title: Aspose.Sildes pour l'API .NET Référence
+second_title: Aspose.Sildes pour .NET API Référence
 description: Permet de créer IMathSubscriptElement
 type: docs
 weight: 8220

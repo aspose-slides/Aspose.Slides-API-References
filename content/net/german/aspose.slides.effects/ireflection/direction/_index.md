@@ -1,15 +1,15 @@
 ---
-title: Richtung
-second_title: Aspose.Slides für .NET API-Referenz
-description: Richtung der Reflexion. Lesen/Schreiben von Single.
+title: Direction
+second_title: Aspose.Slides für .NET API Referenz
+description: Richtung der Reflexion. Lese-/Schreibwert Single.
 type: docs
 weight: 40
 url: /de/aspose.slides.effects/ireflection/direction/
 ---
 
-## IReflection.Direction-Eigenschaft
+## IReflection.Direction property
 
-Richtung der Reflexion. Lesen/Schreiben von Single.
+Richtung der Reflexion. Lese-/Schreibwert Single.
 
 ```csharp
 public float Direction { get; set; }

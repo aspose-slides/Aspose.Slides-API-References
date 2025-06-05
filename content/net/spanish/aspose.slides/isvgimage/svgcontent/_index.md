@@ -1,7 +1,7 @@
 ---
 title: SvgContent
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve contenido SVG. Cadena de solo lectura.
+description: Devuelve contenido SVG. Cadena de sólo lectura.
 type: docs
 weight: 30
 url: /es/aspose.slides/isvgimage/svgcontent/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/isvgimage/svgcontent/
 
 ## Propiedad ISvgImage.SvgContent
 
-Devuelve contenido SVG. Cadena de solo lectura.
+Devuelve contenido SVG. Cadena de sólo lectura.
 
 ```csharp
 public string SvgContent { get; }
 ```
 
-### Véase también
+### Ver también
 
 * interfaz [ISvgImage](../../isvgimage)
 * espacio de nombres [Aspose.Slides](../../isvgimage)

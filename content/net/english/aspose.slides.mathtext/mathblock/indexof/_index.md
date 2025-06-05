@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.mathtext/mathblock/indexof/
 ---
+
 ## MathBlock.IndexOf method
 
 Determines the index of a specific math element in collection.

@@ -1,7 +1,7 @@
 ---
 title: AnimateTransitions
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit l'option d'animation des transitions. Écriture/lecture booléenne.
+second_title: Aspose.Slides pour .NET Référence API
+description: Renvoie ou définit l'option d'animation des transitions. Lecture/écriture Booléen.
 type: docs
 weight: 30
 url: /fr/aspose.slides.export.web/webdocumentoptions/animatetransitions/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export.web/webdocumentoptions/animatetransitions/
 
 ## WebDocumentOptions.AnimateTransitions propriété
 
-Renvoie ou définit l'option d'animation des transitions. Écriture/lecture booléenne.
+Renvoie ou définit l'option d'animation des transitions. Lecture/écriture Booléen.
 
 ```csharp
 public bool AnimateTransitions { get; set; }

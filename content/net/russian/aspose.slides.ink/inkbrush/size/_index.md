@@ -1,6 +1,6 @@
 ---
-title: Размер
-second_title: Справочник по API Aspose.Sildes для .NET
+title: Size
+second_title: Aspose.Sildes для .NET API Справочник
 description: Получает или устанавливает размер кисти для линии в пунктах.
 type: docs
 weight: 20

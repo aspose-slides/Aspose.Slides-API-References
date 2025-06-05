@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.animation/textanimationcollection/add/
 ---
+
 ## TextAnimationCollection.Add method
 
 Adds new text animation to the collection.

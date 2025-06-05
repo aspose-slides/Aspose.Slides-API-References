@@ -1,6 +1,6 @@
 ---
-title: 删除
-second_title: Aspose.Sildes for .NET API 参考
+title: Remove
+second_title: Aspose.Sildes for .NET API Reference
 description: 从演示文稿中移除自定义 XML 部分。
 type: docs
 weight: 50
@@ -17,11 +17,11 @@ public void Remove()
 
 ### 异常
 
-| 异常 | 条件 |
+| exception | condition |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | 如果 XML 部分已被移除，则抛出此异常。 |
+| [PptxEditException](../../pptxeditexception) | 如果 XML 部分已经被移除，则抛出该异常。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [ICustomXmlPart](../../icustomxmlpart)
 * 命名空间 [Aspose.Slides](../../icustomxmlpart)

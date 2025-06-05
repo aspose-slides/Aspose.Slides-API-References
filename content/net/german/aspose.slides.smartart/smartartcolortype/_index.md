@@ -1,13 +1,13 @@
 ---
 title: SmartArtColorType
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt das Farbschema eines SmartArt-Diagramms dar.
 type: docs
 weight: 10300
 url: /de/aspose.slides.smartart/smartartcolortype/
 ---
 
-## SmartArtColorType Aufzählung
+## SmartArtColorType Enumeration
 
 Stellt das Farbschema eines SmartArt-Diagramms dar.
 
@@ -58,7 +58,7 @@ public enum SmartArtColorType
 | GradientLoopAccent6 | `36` | GradientLoopAccent6 |
 | TransparentGradientRangeAccent6 | `37` | TransparentGradientRangeAccent6 |
 
-### Siehe Auch
+### Siehe auch
 
 * namespace [Aspose.Slides.SmartArt](../../aspose.slides.smartart)
 * assembly [Aspose.Slides](../../)

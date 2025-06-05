@@ -7,7 +7,7 @@ weight: 100
 url: /es/aspose.slides/ppimage/gethashcode/
 ---
 
-## Método PPImage.GetHashCode
+## PPImage.GetHashCode método
 
 Devuelve el código hash de una imagen.
 
@@ -23,6 +23,6 @@ Código hash.
 
 * clase [PPImage](../../ppimage)
 * espacio de nombres [Aspose.Slides](../../ppimage)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

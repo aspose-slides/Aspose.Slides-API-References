@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.theme/overridetheme/initfontschemefrom/
 ---
+
 ## OverrideTheme.InitFontSchemeFrom method
 
 Init FontScheme with new object for overriding FontScheme of InheritedTheme.

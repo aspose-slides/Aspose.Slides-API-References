@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.effects/icolorchange/fromcolor/
 ---
+
 ## IColorChange.FromColor property
 
 Color which will be replaced. Read-only [`IColorFormat`](../../../aspose.slides/icolorformat).

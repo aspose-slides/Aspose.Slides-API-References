@@ -1,7 +1,7 @@
 ---
 title: Rotation3D
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne une rotation 3D d'un graphique. En lecture seule IRotation3D aspose.slides.charts/irotation3d.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Retourne une rotation 3D d'un graphique. Lecture seule IRotation3Daspose.slides.charts/irotation3d.
 type: docs
 weight: 180
 url: /fr/aspose.slides.charts/ichart/rotation3d/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/ichart/rotation3d/
 
 ## Propriété IChart.Rotation3D
 
-Retourne une rotation 3D d'un graphique. En lecture seule [`IRotation3D`](../../irotation3d).
+Retourne une rotation 3D d'un graphique. Lecture seule [`IRotation3D`](../../irotation3d).
 
 ```csharp
 public IRotation3D Rotation3D { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IRotation3D](../../irotation3d)
 * interface [IChart](../../ichart)

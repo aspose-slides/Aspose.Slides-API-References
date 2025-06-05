@@ -1,6 +1,6 @@
 ---
 title: CellInvalidFormulaException
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Reference
 description: Initialise une nouvelle instance de la classe CellInvalidFormulaExceptionaspose.slides.spreadsheet/cellinvalidformulaexception.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Initialise une nouvelle instance de la classe [`CellInvalidFormulaException`](..
 public CellInvalidFormulaException()
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [CellInvalidFormulaException](../../cellinvalidformulaexception)
 * espace de noms [Aspose.Slides.Spreadsheet](../../cellinvalidformulaexception)
@@ -35,7 +35,7 @@ public CellInvalidFormulaException(string message)
 | --- | --- | --- |
 | message | String | Une chaîne qui décrit l'erreur. |
 
-### Voir aussi
+### Voir Aussi
 
 * classe [CellInvalidFormulaException](../../cellinvalidformulaexception)
 * espace de noms [Aspose.Slides.Spreadsheet](../../cellinvalidformulaexception)
@@ -56,7 +56,7 @@ public CellInvalidFormulaException(string message, Exception innerException)
 | message | String | Une chaîne qui décrit l'erreur. |
 | innerException | Exception | L'exception qui est la cause de l'exception actuelle. |
 
-### Voir aussi
+### Voir Aussi
 
 * classe [CellInvalidFormulaException](../../cellinvalidformulaexception)
 * espace de noms [Aspose.Slides.Spreadsheet](../../cellinvalidformulaexception)
@@ -66,7 +66,7 @@ public CellInvalidFormulaException(string message, Exception innerException)
 
 ## CellInvalidFormulaException(string, string) {#constructor_3}
 
-Initialise une nouvelle instance de la classe [`CellInvalidFormulaException`](../../cellinvalidformulaexception) avec un message d'erreur spécifié et une référence de cellule contenant la formule invalide.
+Initialise une nouvelle instance de la classe [`CellInvalidFormulaException`](../../cellinvalidformulaexception) avec un message d'erreur spécifié et une référence de cellule qui contient la formule invalide.
 
 ```csharp
 public CellInvalidFormulaException(string message, string reference)
@@ -77,7 +77,7 @@ public CellInvalidFormulaException(string message, string reference)
 | message | String |  |
 | reference | String |  |
 
-### Voir aussi
+### Voir Aussi
 
 * classe [CellInvalidFormulaException](../../cellinvalidformulaexception)
 * espace de noms [Aspose.Slides.Spreadsheet](../../cellinvalidformulaexception)

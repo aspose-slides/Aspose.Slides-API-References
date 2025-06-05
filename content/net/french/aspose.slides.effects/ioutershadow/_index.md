@@ -1,7 +1,7 @@
 ---
 title: IOuterShadow
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente un effet d'ombre portée.
+second_title: Aspose.Slides pour .NET API Référence
+description: Représente un effet d'ombre extérieure.
 type: docs
 weight: 3340
 url: /fr/aspose.slides.effects/ioutershadow/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/ioutershadow/
 
 ## Interface IOuterShadow
 
-Représente un effet d'ombre portée.
+Représente un effet d'ombre extérieure.
 
 ```csharp
 public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>, 
@@ -26,9 +26,9 @@ public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>,
 | [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Direction de l'ombre. Lecture/écriture Simple. |
 | [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Distance de l'ombre. Lecture/écriture Double. |
 | [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Alignement du rectangle. Lecture/écriture [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Indique si l'ombre doit tourner avec la forme si la forme est tournée. Lecture/écriture Booléen. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Spécifie le facteur d'échelle horizontal, une échelle négative entraîne un retournement. Lecture/écriture Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Spécifie le facteur d'échelle vertical, une échelle négative entraîne un retournement. Lecture/écriture Double. |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Spécifie si l'ombre doit tourner avec la forme si la forme est tournée. Lecture/écriture Booléen. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Spécifie le facteur de mise à l'échelle horizontal, une mise à l'échelle négative provoque un retournement. Lecture/écriture Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Spécifie le facteur de mise à l'échelle vertical, une mise à l'échelle négative provoque un retournement. Lecture/écriture Double. |
 | [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Couleur de l'ombre. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Spécifie l'angle de déformation horizontal (en degrés). Lecture/écriture Double. |
 | [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Spécifie l'angle de déformation vertical (en degrés). Lecture/écriture Double. |

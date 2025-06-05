@@ -1,28 +1,28 @@
----
+---  
 title: RemoveAt
-second_title: Aspose.Slides para referencia de API de .NET
+second_title: Referencia de API de Aspose.Slides para .NET  
 description: Elimina un efecto de una colección.
-type: docs
-weight: 110
+type: docs  
+weight: 110  
 url: /es/aspose.slides.animation/isequence/removeat/
----
+---  
 
-## Método ISequence.RemoveAt
+## ISequence.RemoveAt método  
 
-Elimina un efecto de una colección.
+Elimina un efecto de una colección.  
 
-```csharp
-public void RemoveAt(int index)
-```
+```csharp  
+public void RemoveAt(int index)  
+```  
 
-| Parámetro | Tipo | Descripción |
-| --- | --- | --- |
-| index | Int32 | Índice del efecto a eliminar Int32 |
+| Parámetro | Tipo | Descripción |  
+| --- | --- | --- |  
+| index | Int32 | Índice del efecto a eliminar Int32 |  
 
-### Véase También
+### Ver También  
 
-* interfaz [ISequence](../../isequence)
-* espacio de nombres [Aspose.Slides.Animation](../../isequence)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [ISequence](../../isequence)  
+* espacio de nombres [Aspose.Slides.Animation](../../isequence)  
+* ensamblado [Aspose.Slides](../../../)  
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  

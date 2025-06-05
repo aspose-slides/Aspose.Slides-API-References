@@ -19,7 +19,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | El índice basado en cero del elemento a eliminar. |
 
-### Vea También
+### Véase también
 
 * clase [PortionCollection](../../portioncollection)
 * espacio de nombres [Aspose.Slides](../../portioncollection)

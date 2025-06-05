@@ -1,7 +1,7 @@
 ---
 title: IRowCollection
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示表格行集合。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示表行集合。
 type: docs
 weight: 6660
 url: /zh/aspose.slides/irowcollection/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/irowcollection/
 
 ## IRowCollection 接口
 
-表示表格行集合。
+表示表行集合。
 
 ```csharp
 public interface IRowCollection : IGenericCollection<IRow>
@@ -25,11 +25,11 @@ public interface IRowCollection : IGenericCollection<IRow>
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | 创建指定模板行的副本并将其插入到表格底部。 |
-| [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | 创建指定模板行的副本并将其插入到表格的指定位置。 |
-| [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | 从表格中移除指定位置的行。 |
+| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | 创建指定模板行的副本，并将其插入到表的底部。 |
+| [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | 创建指定模板行的副本，并将其插入到表中的指定位置。 |
+| [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | 从表中移除指定位置的行。 |
 
-### 另见
+### 参见
 
 * 接口 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 接口 [IRow](../irow)

@@ -1,6 +1,6 @@
 ---
 title: StrokeOpacity
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slildes para .NET API Reference
 description: Representa la propiedad stroke.opacity
 type: docs
 weight: 990
@@ -19,6 +19,6 @@ public static BehaviorProperty StrokeOpacity { get; }
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

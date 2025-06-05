@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/pictureframelock/positionlocked/
 ---
+
 ## PictureFrameLock.PositionLocked property
 
 Determines whether a moving this shape is forbidden. Read/write Boolean.

@@ -1,7 +1,7 @@
 ---
 title: IsDecorative
-second_title: Aspose.Slides for .NET API Reference
-description: 获取或设置“标记为装饰性”选项，读/写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取或设置“标记为装饰性”选项的读取/写入布尔值。
 type: docs
 weight: 130
 url: /zh/aspose.slides/ishape/isdecorative/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ishape/isdecorative/
 
 ## IShape.IsDecorative 属性
 
-获取或设置“标记为装饰性”选项，读/写布尔值。
+获取或设置“标记为装饰性”选项的读取/写入布尔值。
 
 ```csharp
 public bool IsDecorative { get; set; }
@@ -24,7 +24,7 @@ using (Presentation pres = new Presentation("sample.pptx"))
 }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IShape](../../ishape)
 * 命名空间 [Aspose.Slides](../../ishape)

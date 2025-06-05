@@ -1,6 +1,6 @@
 ---
-title: Größe
-second_title: Aspose.Slides für .NET API-Referenz
+title: Size
+second_title: Aspose.Slides für .NET API Referenz
 description: Ruft die Größe eines Platzhalters ab oder legt sie fest. Nur lesbare PlaceholderSizeaspose.slides/placeholdersize.
 type: docs
 weight: 30
@@ -9,13 +9,13 @@ url: /de/aspose.slides/placeholder/size/
 
 ## Placeholder.Size-Eigenschaft
 
-Ruht die Größe eines Platzhalters ab oder legt sie fest. Nur lesbare [`PlaceholderSize`](../../placeholdersize).
+Ruft die Größe eines Platzhalters ab oder legt sie fest. Nur lesbare [`PlaceholderSize`](../../placeholdersize).
 
 ```csharp
 public PlaceholderSize Size { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [PlaceholderSize](../../placeholdersize)
 * class [Placeholder](../../placeholder)

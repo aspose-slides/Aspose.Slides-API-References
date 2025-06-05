@@ -1,13 +1,13 @@
 ---
 title: Svg
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Les diapositives doivent être converties au format SVG.
 type: docs
 weight: 30
 url: /fr/aspose.slides.export/slideimageformat/svg/
 ---
 
-## Méthode SlideImageFormat.Svg
+## SlideImageFormat.Svg method
 
 Les diapositives doivent être converties au format SVG.
 
@@ -19,10 +19,10 @@ public static SlideImageFormat Svg(SVGOptions options)
 | --- | --- | --- |
 | options | SVGOptions | Options pour l'exportation SVG. |
 
-### Voir Aussi
+### Voir aussi
 
-* classe [SVGOptions](../../svgoptions)
-* classe [SlideImageFormat](../../slideimageformat)
+* class [SVGOptions](../../svgoptions)
+* class [SlideImageFormat](../../slideimageformat)
 * namespace [Aspose.Slides.Export](../../slideimageformat)
 * assembly [Aspose.Slides](../../../)
 

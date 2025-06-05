@@ -1,6 +1,6 @@
 ---
 title: AddFromPdf
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Erstellt Folien aus dem PDF-Dokument und fügt sie am Ende der Sammlung hinzu.
 type: docs
 weight: 80
@@ -47,7 +47,7 @@ using (Presentation pres = new Presentation())
 
 ## AddFromPdf(string, PdfImportOptions) {#addfrompdf_3}
 
-Erstellt Folien aus dem PDF-Dokument und fügt sie am Ende der Sammlung hinzu, wobei die PDF-Importoptionen berücksichtigt werden.
+Erstellt Folien aus dem PDF-Dokument und fügt sie am Ende der Sammlung hinzu, unter Berücksichtigung der PDF-Importoptionen.
 
 ```csharp
 public ISlide[] AddFromPdf(string path, PdfImportOptions pdfImportOptions)

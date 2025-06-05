@@ -1,21 +1,21 @@
 ---
 title: StrikethroughType
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve o establece el tipo de tachado de un texto. No se aplica herencia. Lectura/escritura TextStrikethroughTypeaspose.slides/textstrikethroughtype.
+second_title: Aspose.Sildes para referencia de API de .NET
+description: Devuelve o establece el tipo de tachado de un texto. Sin herencia aplicada. Lectura/escritura TextStrikethroughTypeaspose.slides/textstrikethroughtype.
 type: docs
 weight: 220
 url: /es/aspose.slides/ibaseportionformat/strikethroughtype/
 ---
 
-## Propiedad IBasePortionFormat.StrikethroughType
+## IBasePortionFormat.StrikethroughType property
 
-Devuelve o establece el tipo de tachado de un texto. No se aplica herencia. Lectura/escritura [`TextStrikethroughType`](../../textstrikethroughtype).
+Devuelve o establece el tipo de tachado de un texto. Sin herencia aplicada. Lectura/escritura [`TextStrikethroughType`](../../textstrikethroughtype).
 
 ```csharp
 public TextStrikethroughType StrikethroughType { get; set; }
 ```
 
-### Vea También
+### Ver También
 
 * enum [TextStrikethroughType](../../textstrikethroughtype)
 * interface [IBasePortionFormat](../../ibaseportionformat)

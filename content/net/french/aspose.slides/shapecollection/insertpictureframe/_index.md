@@ -1,13 +1,13 @@
 ---
 title: InsertPictureFrame
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Crée un nouveau PictureFrame et l'insère dans la collection à l'index spécifié.
 type: docs
 weight: 360
 url: /fr/aspose.slides/shapecollection/insertpictureframe/
 ---
 
-## Méthode ShapeCollection.InsertPictureFrame
+## ShapeCollection.InsertPictureFrame méthode
 
 Crée un nouveau PictureFrame et l'insère dans la collection à l'index spécifié.
 
@@ -18,8 +18,8 @@ public IPictureFrame InsertPictureFrame(int index, ShapeType shapeType, float x,
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | L'index basé sur zéro auquel la valeur doit être insérée. |
-| shapeType | ShapeType | La forme contenue dans l'ensemble [`ShapeType`](../../shapetype) de formes, sauf tous les types de lignes : |
+| index | Int32 | L'index basé sur zéro au niveau duquel la valeur doit être insérée. |
+| shapeType | ShapeType | La forme contenue dans l'ensemble [`ShapeType`](../../shapetype) de formes, à l'exception de toutes sortes de lignes : |
 | x | Single | La coordonnée X pour le côté gauche du cadre de la forme. |
 | y | Single | La coordonnée Y pour le côté supérieur du cadre de la forme. |
 | width | Single | La largeur du cadre de la forme. |

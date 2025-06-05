@@ -1,7 +1,7 @@
 ---
 title: AddVideoFrame
-second_title: Aspose.Slides para .NET Referencia de API
-description: Agrega un nuevo fotograma de video al final de una colección.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Agrega un nuevo marco de video al final de una colección.
 type: docs
 weight: 180
 url: /es/aspose.slides/ishapecollection/addvideoframe/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/ishapecollection/addvideoframe/
 
 ## AddVideoFrame(float, float, float, float, string) {#addvideoframe_1}
 
-Agrega un nuevo fotograma de video al final de una colección.
+Agrega un nuevo marco de video al final de una colección.
 
 ```csharp
 public IVideoFrame AddVideoFrame(float x, float y, float width, float height, string fname)
@@ -17,10 +17,10 @@ public IVideoFrame AddVideoFrame(float x, float y, float width, float height, st
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| x | Single | Coordenada X de un nuevo fotograma de video. |
-| y | Single | Coordenada Y de un nuevo fotograma de video. |
-| width | Single | Ancho de un nuevo fotograma de video. |
-| height | Single | Alto de un nuevo fotograma de video. |
+| x | Single | Coordenada X de un nuevo marco de video. |
+| y | Single | Coordenada Y de un nuevo marco de video. |
+| width | Single | Ancho de un nuevo marco de video. |
+| height | Single | Altura de un nuevo marco de video. |
 | fname | String | Nombre del archivo de video. |
 
 ### Valor de retorno
@@ -38,7 +38,7 @@ Objeto VideoFrame creado.
 
 ## AddVideoFrame(float, float, float, float, IVideo) {#addvideoframe}
 
-Agrega un nuevo fotograma de video al final de una colección.
+Agrega un nuevo marco de video al final de una colección.
 
 ```csharp
 public IVideoFrame AddVideoFrame(float x, float y, float width, float height, IVideo video)
@@ -46,10 +46,10 @@ public IVideoFrame AddVideoFrame(float x, float y, float width, float height, IV
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| x | Single | Coordenada X de un nuevo fotograma de video. |
-| y | Single | Coordenada Y de un nuevo fotograma de video. |
-| width | Single | Ancho de un nuevo fotograma de video. |
-| height | Single | Alto de un nuevo fotograma de video. |
+| x | Single | Coordenada X de un nuevo marco de video. |
+| y | Single | Coordenada Y de un nuevo marco de video. |
+| width | Single | Ancho de un nuevo marco de video. |
+| height | Single | Altura de un nuevo marco de video. |
 | video | IVideo | Video. |
 
 ### Valor de retorno

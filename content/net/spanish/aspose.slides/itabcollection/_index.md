@@ -1,6 +1,6 @@
 ---
 title: ITabCollection
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Representa una colección de pestañas.
 type: docs
 weight: 6980
@@ -30,7 +30,7 @@ public interface ITabCollection : IGenericCollection<ITab>
 | [Clear](../../aspose.slides/itabcollection/clear)() | Elimina todos los elementos de la colección. |
 | [RemoveAt](../../aspose.slides/itabcollection/removeat)(int) | Elimina el elemento en el índice especificado de la colección. |
 
-### Véase También
+### Véase también
 
 * interfaz [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * interfaz [ITab](../itab)

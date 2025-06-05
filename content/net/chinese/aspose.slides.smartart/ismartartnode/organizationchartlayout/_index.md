@@ -1,7 +1,7 @@
 ---
-title: 组织图布局
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置与当前节点相关联的组织图布局类型。读写 OrganizationChartLayoutTypeaspose.slides.smartart/organizationchartlayouttype。
+title: OrganizationChartLayout
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置与当前节点关联的组织结构图布局类型。可读写 OrganizationChartLayoutTypeaspose.slides.smartart/organizationchartlayouttype。
 type: docs
 weight: 60
 url: /zh/aspose.slides.smartart/ismartartnode/organizationchartlayout/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.smartart/ismartartnode/organizationchartlayout/
 
 ## ISmartArtNode.OrganizationChartLayout 属性
 
-返回或设置与当前节点相关联的组织图布局类型。读写 [`OrganizationChartLayoutType`](../../organizationchartlayouttype)。
+返回或设置与当前节点关联的组织结构图布局类型。可读写 [`OrganizationChartLayoutType`](../../organizationchartlayouttype)。
 
 ```csharp
 public OrganizationChartLayoutType OrganizationChartLayout { get; set; }

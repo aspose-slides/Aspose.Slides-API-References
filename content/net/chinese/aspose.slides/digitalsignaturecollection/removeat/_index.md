@@ -1,6 +1,6 @@
 ---
 title: RemoveAt
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 删除指定索引处的签名。
 type: docs
 weight: 90
@@ -17,9 +17,9 @@ public void RemoveAt(int index)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 应删除的签名的索引。 |
+| index | Int32 | 应该被删除的签名的索引。 |
 
-### 另请参阅
+### 另请参见
 
 * 类 [DigitalSignatureCollection](../../digitalsignaturecollection)
 * 命名空间 [Aspose.Slides](../../digitalsignaturecollection)

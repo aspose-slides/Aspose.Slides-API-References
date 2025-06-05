@@ -1,13 +1,13 @@
 ---
-title: 段落集合
-second_title: Aspose.Slides for .NET API 参考
+title: ParagraphCollection
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示段落的集合。
 type: docs
 weight: 9020
 url: /zh/aspose.slides/paragraphcollection/
 ---
 
-## 段落集合类
+## ParagraphCollection class
 
 表示段落的集合。
 
@@ -15,34 +15,34 @@ url: /zh/aspose.slides/paragraphcollection/
 public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollection
 ```
 
-## 属性
+## Properties
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/paragraphcollection/count) { get; } | 获取集合中实际包含的元素数量。只读 Int32。 |
-| [IsReadOnly](../../aspose.slides/paragraphcollection/isreadonly) { get; } | 获取一个值，指示 ICollection 是否为只读。只读 Boolean。 |
+| [Count](../../aspose.slides/paragraphcollection/count) { get; } | 获取集合中实际包含的元素数量。 只读 Int32。 |
+| [IsReadOnly](../../aspose.slides/paragraphcollection/isreadonly) { get; } | 获取一个值，指示 ICollection 是否为只读。 只读 Boolean。 |
 | [Item](../../aspose.slides/paragraphcollection/item) { get; } | 获取指定索引处的元素。 |
 
-## 方法
+## Methods
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/paragraphcollection/add#add_1)(IParagraph) | 将一个段落添加到集合的末尾。 |
-| [Add](../../aspose.slides/paragraphcollection/add#add)(IParagraphCollection) | 将一个 ParagraphCollection 的内容添加到集合的末尾。 |
-| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml)(string) | 将指定 HTML 字符串中的文本添加到集合。 |
-| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | 将指定 HTML 字符串中的文本添加到集合。 |
+| [Add](../../aspose.slides/paragraphcollection/add#add_1)(IParagraph) | 将段落添加到集合的末尾。 |
+| [Add](../../aspose.slides/paragraphcollection/add#add)(IParagraphCollection) | 将 ParagraphCollection 的内容添加到集合的末尾。 |
+| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml)(string) | 将指定的 HTML 字符串中的文本添加到集合。 |
+| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | 将指定的 HTML 字符串中的文本添加到集合。 |
 | [Clear](../../aspose.slides/paragraphcollection/clear)() | 从集合中删除所有元素。 |
-| [Contains](../../aspose.slides/paragraphcollection/contains)(IParagraph) | 确定 ICollection 是否包含特定值。 |
+| [Contains](../../aspose.slides/paragraphcollection/contains)(IParagraph) | 判断 ICollection 是否包含特定值。 |
 | [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | 将 ICollection 的元素复制到数组，从特定数组索引开始。 |
-| [ExportToHtml](../../aspose.slides/paragraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | 将指定段落转换为 HTML，并将其作为字符串对象返回。 |
-| [GetEnumerator](../../aspose.slides/paragraphcollection/getenumerator)() | 返回一个枚举数，用于迭代集合。 |
+| [ExportToHtml](../../aspose.slides/paragraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | 将指定的段落转换为 HTML，并作为字符串对象返回。 |
+| [GetEnumerator](../../aspose.slides/paragraphcollection/getenumerator)() | 返回一个枚举数，该枚举数遍历集合。 |
 | [IndexOf](../../aspose.slides/paragraphcollection/indexof)(IParagraph) | 确定 IList 中特定项的索引。 |
-| [Insert](../../aspose.slides/paragraphcollection/insert#insert)(int, IParagraph) | 在指定索引处将一个段落插入集合。 |
-| [Insert](../../aspose.slides/paragraphcollection/insert#insert_1)(int, IParagraphCollection) | 在指定索引处将一个 ParagraphCollection 的内容插入集合。 |
+| [Insert](../../aspose.slides/paragraphcollection/insert#insert)(int, IParagraph) | 在指定索引处将段落插入集合。 |
+| [Insert](../../aspose.slides/paragraphcollection/insert#insert_1)(int, IParagraphCollection) | 在指定索引处将 ParagraphCollection 的内容插入集合。 |
 | [Remove](../../aspose.slides/paragraphcollection/remove)(IParagraph) | 从 ICollection 中删除特定对象的第一次出现。 |
-| [RemoveAt](../../aspose.slides/paragraphcollection/removeat)(int) | 从集合中删除指定索引处的元素。 |
+| [RemoveAt](../../aspose.slides/paragraphcollection/removeat)(int) | 删除集合中指定索引处的元素。 |
 
-### 另请参见
+### See Also
 
 * class [DomObject&lt;TParent&gt;](../domobject-1)
 * class [TextFrame](../textframe)

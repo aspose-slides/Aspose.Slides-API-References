@@ -1,7 +1,7 @@
 ---  
-title: GetEntity  
+title: GetEntity
 second_title: Aspose.Slides für .NET API Referenz  
-description: Verknüpft eine URI mit einem Objekt, das die tatsächliche Ressource enthält.
+description: Ordnet eine URI einem Objekt zu, das die tatsächliche Ressource enthält.
 type: docs  
 weight: 20  
 url: /de/aspose.slides.import/externalresourceresolver/getentity/
@@ -9,15 +9,15 @@ url: /de/aspose.slides.import/externalresourceresolver/getentity/
 
 ## ExternalResourceResolver.GetEntity-Methode  
 
-Verknüpft eine URI mit einem Objekt, das die tatsächliche Ressource enthält.  
+Ordnet eine URI einem Objekt zu, das die tatsächliche Ressource enthält.  
 
 ```csharp  
 public virtual Stream GetEntity(string absoluteUri)  
 ```  
 
-| Parameter     | Typ     | Beschreibung                        |  
-| --------------| ------- | ---------------------------------- |  
-| absoluteUri   | String  | Absolute URI zum Objekt.           |  
+| Parameter    | Typ    | Beschreibung                          |  
+|--------------|--------|--------------------------------------|  
+| absoluteUri  | String | Absolute URI zum Objekt.             |  
 
 ### Rückgabewert  
 

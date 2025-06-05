@@ -1,13 +1,13 @@
 ---
 title: InsertPictureFrame
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Crée un nouveau PictureFrame et l'insère dans la collection à l'index spécifié.
 type: docs
 weight: 310
 url: /fr/aspose.slides/ishapecollection/insertpictureframe/
 ---
 
-## Méthode IShapeCollection.InsertPictureFrame
+## IShapeCollection.InsertPictureFrame méthode
 
 Crée un nouveau PictureFrame et l'insère dans la collection à l'index spécifié.
 
@@ -18,19 +18,19 @@ public IPictureFrame InsertPictureFrame(int index, ShapeType shapeType, float x,
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | L'index de base zéro à laquelle la valeur doit être insérée. |
-| shapeType | ShapeType | La forme contenue dans l'ensemble [`ShapeType`](../../shapetype) de formes, à l'exception de tous les types de lignes : |
-| x | Single | La coordonnée X pour le côté gauche du cadre de la forme. |
-| y | Single | La coordonnée Y pour le côté supérieur du cadre de la forme. |
-| width | Single | La largeur du cadre de la forme. |
-| height | Single | La hauteur du cadre de la forme. |
-| image | IPPImage | L'image du cadre de la photo. |
+| index | Int32 | L'index basé sur zéro à lequel la valeur doit être insérée. |
+| shapeType | ShapeType | La forme contenue dans l'ensemble [`ShapeType`](../../shapetype) de formes, sauf tous les types de lignes : |
+| x | Single | La coordonnée X pour le côté gauche de la frame de la forme. |
+| y | Single | La coordonnée Y pour le côté supérieur de la frame de la forme. |
+| width | Single | La largeur de la frame de la forme. |
+| height | Single | La hauteur de la frame de la forme. |
+| image | IPPImage | L'image du picture frame. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Objet PictureFrame créé.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IPictureFrame](../../ipictureframe)
 * enum [ShapeType](../../shapetype)

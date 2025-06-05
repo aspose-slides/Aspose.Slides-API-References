@@ -1,5 +1,5 @@
 ---
-title: ResaltarTexto
+title: HighlightText
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Resalta todas las coincidencias del texto de muestra con el color especificado.
 type: docs
@@ -42,7 +42,7 @@ public void HighlightText(string text, Color highlightColor, ITextSearchOptions 
 | text | String | El texto a resaltar. |
 | highlightColor | Color | El color para resaltar el texto. |
 | options | ITextSearchOptions | Opciones de búsqueda de texto [`ITextSearchOptions`](../../itextsearchoptions). |
-| callback | IFindResultCallback | El objeto de callback para recibir los resultados de búsqueda [`IFindResultCallback`](../../ifindresultcallback). |
+| callback | IFindResultCallback | El objeto de retorno para recibir resultados de búsqueda [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Ejemplos
 

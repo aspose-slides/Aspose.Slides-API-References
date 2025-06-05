@@ -1,6 +1,6 @@
 ---
 title: GetValueByIndex
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence de l'API .NET
 description: Retourne la valeur d'une balise à l'index spécifié.
 type: docs
 weight: 70

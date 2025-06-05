@@ -1,7 +1,7 @@
 ---
 title: GroupingLocked
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob das Hinzufügen dieser Form zu einer Gruppe verboten ist. Lese-/Schreibbooleans.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt, ob das Hinzufügen dieser Form zu einer Gruppe verboten ist. Lese-/Schreib-Boolean.
 type: docs
 weight: 60
 url: /de/aspose.slides/pictureframelock/groupinglocked/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/pictureframelock/groupinglocked/
 
 ## PictureFrameLock.GroupingLocked-Eigenschaft
 
-Bestimmt, ob das Hinzufügen dieser Form zu einer Gruppe verboten ist. Lese-/Schreibbooleans.
+Bestimmt, ob das Hinzufügen dieser Form zu einer Gruppe verboten ist. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool GroupingLocked { get; set; }

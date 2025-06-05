@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.animation/motionpath/remove/
 ---
+
 ## MotionPath.Remove method
 
 Removes specified commans from the collection.

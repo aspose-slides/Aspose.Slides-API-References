@@ -1,6 +1,6 @@
 ---
 title: AddNotesSlide
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Gibt die Notizfolie für die aktuelle Folie zurück und erstellt eine, wenn keine vorhanden ist.
 type: docs
 weight: 20

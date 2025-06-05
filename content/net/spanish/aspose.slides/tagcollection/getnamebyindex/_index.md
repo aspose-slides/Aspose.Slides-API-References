@@ -1,13 +1,13 @@
 ---
 title: GetNameByIndex
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Devuelve la clave de una etiqueta en el índice especificado.
 type: docs
 weight: 100
 url: /es/aspose.slides/tagcollection/getnamebyindex/
 ---
 
-## Método TagCollection.GetNameByIndex
+## TagCollection.GetNameByIndex método
 
 Devuelve la clave de una etiqueta en el índice especificado.
 
@@ -23,7 +23,7 @@ public string GetNameByIndex(int index)
 
 Clave de una etiqueta.
 
-### Véase también
+### Ver también
 
 * clase [TagCollection](../../tagcollection)
 * espacio de nombres [Aspose.Slides](../../tagcollection)

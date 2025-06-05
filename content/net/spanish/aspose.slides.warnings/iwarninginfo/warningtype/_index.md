@@ -15,11 +15,11 @@ Devuelve un tipo de advertencia. Solo lectura `WarningType`.
 public WarningType WarningType { get; }
 ```
 
-### Véase también
+### Ver También
 
 * enum [WarningType](../../warningtype)
 * interface [IWarningInfo](../../iwarninginfo)
 * namespace [Aspose.Slides.Warnings](../../iwarninginfo)
 * assembly [Aspose.Slides](../../../)
 
-<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

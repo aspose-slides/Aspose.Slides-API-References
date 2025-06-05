@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/chartplotarea/actualheight/
 ---
+
 ## ChartPlotArea.ActualHeight property
 
 Specifies actual height of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read Single.

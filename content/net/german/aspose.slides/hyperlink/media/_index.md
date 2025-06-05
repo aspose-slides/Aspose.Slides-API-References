@@ -1,7 +1,7 @@
 ---
-title: Medien
+title: Media
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen speziellen Hyperlink zum "Abspielen von Mediendateien" zurück. Wird in AudioFrame und VideoFrame verwendet. Nur lesbarer Hyperlink aspose.slides/hyperlink.
+description: Gibt einen speziellen Hyperlink für "Mediendatei abspielen" zurück. Wird in AudioFrame und VideoFrame verwendet. Nur Lesezugriff Hyperlinkaspose.slides/hyperlink.
 type: docs
 weight: 60
 url: /de/aspose.slides/hyperlink/media/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/hyperlink/media/
 
 ## Hyperlink.Media-Eigenschaft
 
-Gibt einen speziellen Hyperlink zum "Abspielen von Mediendateien" zurück. Wird in AudioFrame und VideoFrame verwendet. Nur lesbarer [`Hyperlink`](../../hyperlink).
+Gibt einen speziellen Hyperlink für "Mediendatei abspielen" zurück. Wird in AudioFrame und VideoFrame verwendet. Nur Lesezugriff [`Hyperlink`](../../hyperlink).
 
 ```csharp
 public static Hyperlink Media { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [Hyperlink](../../hyperlink)
 * Namespace [Aspose.Slides](../../hyperlink)

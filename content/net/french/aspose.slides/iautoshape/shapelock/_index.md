@@ -1,7 +1,7 @@
 ---
 title: ShapeLock
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie les verrous des formes. IAutoShapeLock en lecture seule aspose.slides/iautoshapelock.
+second_title: Aspose.Slides pour la référence API .NET
+description: Renvoie les verrous de formes. Lecture seule IAutoShapeLockaspose.slides/iautoshapelock.
 type: docs
 weight: 40
 url: /fr/aspose.slides/iautoshape/shapelock/
@@ -15,7 +15,7 @@ Renvoie les verrous de la forme. Lecture seule [`IAutoShapeLock`](../../iautosha
 public IAutoShapeLock ShapeLock { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IAutoShapeLock](../../iautoshapelock)
 * interface [IAutoShape](../../iautoshape)

@@ -1,15 +1,15 @@
 ---
 title: AddDataPointForTreemapSeries
 second_title: Aspose.Slides para .NET Referencia de API
-description: Crea el nuevo punto de datos y lo añade al final de la colección. Aplicable para series cuyo tipo de gráfico es Treemap.
+description: Crea el nuevo punto de datos y lo agrega al final de la colección. Aplicable para series cuyo tipo de gráfico es Treemap.
 type: docs
 weight: 220
 url: /es/aspose.slides.charts/ichartdatapointcollection/adddatapointfortreemapseries/
 ---
 
-## Método IChartDataPointCollection.AddDataPointForTreemapSeries
+## IChartDataPointCollection.AddDataPointForTreemapSeries método
 
-Crea el nuevo punto de datos y lo añade al final de la colección. Aplicable para series cuyo tipo de gráfico es Treemap.
+Crea el nuevo punto de datos y lo agrega al final de la colección. Aplicable para series cuyo tipo de gráfico es Treemap.
 
 ```csharp
 public IChartDataPoint AddDataPointForTreemapSeries(IChartDataCell sizeValue)
@@ -25,10 +25,10 @@ Nuevo punto de datos.
 
 ### Véase También
 
-* interfaz [IChartDataPoint](../../ichartdatapoint)
-* interfaz [IChartDataCell](../../ichartdatacell)
-* interfaz [IChartDataPointCollection](../../ichartdatapointcollection)
-* espacio de nombres [Aspose.Slides.Charts](../../ichartdatapointcollection)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IChartDataPoint](../../ichartdatapoint)
+* interfaz [IChartDataCell](../../ichartdatacell)
+* interfaz [IChartDataPointCollection](../../ichartdatapointcollection)
+* espacio de nombres [Aspose.Slides.Charts](../../ichartdatapointcollection)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

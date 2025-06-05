@@ -1,7 +1,7 @@
 ---
-title: Zählen
+title: Count
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Anzahl der Zellen in einer Sammlung zurück. Nur lesbarer Int32.
+description: Gibt die Anzahl der Zellen in einer Sammlung zurück. Nur-Lesen Int32.
 type: docs
 weight: 10
 url: /de/aspose.slides/cellcollection/count/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/cellcollection/count/
 
 ## CellCollection.Count-Eigenschaft
 
-Gibt die Anzahl der Zellen in einer Sammlung zurück. Nur lesbarer Int32.
+Gibt die Anzahl der Zellen in einer Sammlung zurück. Nur-Lesen Int32.
 
 ```csharp
 public int Count { get; }

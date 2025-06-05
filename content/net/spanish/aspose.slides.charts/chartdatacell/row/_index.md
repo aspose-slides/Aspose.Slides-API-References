@@ -1,5 +1,5 @@
 ---
-title: Fila
+title: Row
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el índice de la fila de la hoja de cálculo en la que se encuentra la celda. Solo lectura Int32.
 type: docs
@@ -19,6 +19,6 @@ public int Row { get; }
 
 * clase [ChartDataCell](../../chartdatacell)
 * espacio de nombres [Aspose.Slides.Charts](../../chartdatacell)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

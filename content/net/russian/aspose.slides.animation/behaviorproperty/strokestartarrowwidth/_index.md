@@ -1,13 +1,13 @@
 ---
 title: StrokeStartArrowWidth
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет свойство stroke.startArrowWidth
 type: docs
 weight: 1030
 url: /ru/aspose.slides.animation/behaviorproperty/strokestartarrowwidth/
 ---
 
-## Свойство BehaviorProperty.StrokeStartArrowWidth
+## BehaviorProperty.StrokeStartArrowWidth свойство
 
 Представляет свойство 'stroke.startArrowWidth'
 

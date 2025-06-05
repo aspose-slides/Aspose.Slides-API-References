@@ -1,6 +1,6 @@
 ---
-title: Oculto
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Hidden
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Determina si la forma está oculta. Booleano de lectura/escritura.
 type: docs
 weight: 120
@@ -15,10 +15,10 @@ Determina si la forma está oculta. Booleano de lectura/escritura.
 public bool Hidden { get; set; }
 ```
 
-### Véase También
+### Véase también
 
 * interfaz [IShape](../../ishape)
 * espacio de nombres [Aspose.Slides](../../ishape)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

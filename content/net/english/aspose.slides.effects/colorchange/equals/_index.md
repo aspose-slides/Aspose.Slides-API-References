@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.effects/colorchange/equals/
 ---
+
 ## ColorChange.Equals method
 
 Determines whether the specified [`ColorChange`](../../colorchange) is equal to the current [`ColorChange`](../../colorchange).

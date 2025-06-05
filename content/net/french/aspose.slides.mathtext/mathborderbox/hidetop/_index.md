@@ -1,15 +1,15 @@
 ---
-title: CacherHaut
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Cacher le bord supérieur par défaut est faux - spécifie l'état caché ou affiché du bord supérieur de la zone de bordure.
+title: HideTop
+second_title: Aspose.Sildes pour .NET API Référence
+description: Cacher le bord supérieur par défaut est faux - spécifie l'état caché ou affiché du bord supérieur de la boîte de bordure.
 type: docs
 weight: 60
 url: /fr/aspose.slides.mathtext/mathborderbox/hidetop/
 ---
 
-## Propriété MathBorderBox.CacherHaut
+## MathBorderBox.HideTop propriété
 
-Cacher le bord supérieur (le défaut est faux) - spécifie l'état caché ou affiché du bord supérieur de la zone de bordure.
+Cacher le bord supérieur (le défaut est faux) - spécifie l'état caché ou affiché du bord supérieur de la boîte de bordure.
 
 ```csharp
 public bool HideTop { get; set; }
@@ -17,7 +17,7 @@ public bool HideTop { get; set; }
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

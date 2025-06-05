@@ -1,6 +1,6 @@
 ---
 title: PdfImportOptions
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Slides для .NET API Reference
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.import/pdfimportoptions/pdfimportoptions/
 public PdfImportOptions()
 ```
 
-### См. также
+### Смотрите также
 
 * класс [PdfImportOptions](../../pdfimportoptions)
 * пространство имен [Aspose.Slides.Import](../../pdfimportoptions)

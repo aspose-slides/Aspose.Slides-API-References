@@ -1,7 +1,7 @@
 ---
-title: Absätze
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Liste aller Absätze in einem Rahmen zurück. Schreibgeschützte IParagraphCollection aspose.slides/iparagraphcollection.
+title: Paragraphs
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Liste aller Absätze in einem Rahmen zurück. Nur zum Lesen IParagraphCollectionaspose.slides/iparagraphcollection.
 type: docs
 weight: 20
 url: /de/aspose.slides/textframe/paragraphs/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/textframe/paragraphs/
 
 ## TextFrame.Paragraphs-Eigenschaft
 
-Gibt die Liste aller Absätze in einem Rahmen zurück. Schreibgeschützte [`IParagraphCollection`](../../iparagraphcollection).
+Gibt die Liste aller Absätze in einem Rahmen zurück. Nur zum Lesen [`IParagraphCollection`](../../iparagraphcollection).
 
 ```csharp
 public IParagraphCollection Paragraphs { get; }

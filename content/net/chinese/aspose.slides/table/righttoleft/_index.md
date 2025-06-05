@@ -1,7 +1,7 @@
 ---
-title: 从右到左
-second_title: Aspose.Slides for .NET API 参考
-description: 确定表是否具有从右到左的阅读顺序。可读可写布尔值。
+title: RightToLeft
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定表是否具有从右到左的阅读顺序。读写布尔值。
 type: docs
 weight: 90
 url: /zh/aspose.slides/table/righttoleft/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/table/righttoleft/
 
 ## Table.RightToLeft 属性
 
-确定表是否具有从右到左的阅读顺序。可读可写布尔值。
+确定表是否具有从右到左的阅读顺序。读写布尔值。
 
 ```csharp
 public bool RightToLeft { get; set; }
 ```
 
-### 另请参阅
+### 参见
 
 * class [Table](../../table)
 * namespace [Aspose.Slides](../../table)

@@ -1,15 +1,15 @@
 ---
 title: VolumeValue
-second_title: Aspose.Sildes для .NET API Ссылка
-description: Возвращает или устанавливает уровень аудио в процентах. Читаемый/записываемый тип Single.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или задает громкость звука в процентах. Чтение/запись Single.
 type: docs
 weight: 180
 url: /ru/aspose.slides/audioframe/volumevalue/
 ---
 
-## Свойство AudioFrame.VolumeValue
+## AudioFrame.VolumeValue свойство
 
-Возвращает или устанавливает уровень аудио в процентах. Читаемый/записываемый тип Single.
+Возвращает или задает громкость звука в процентах. Чтение/запись Single.
 
 ```csharp
 public float VolumeValue { get; set; }
@@ -26,7 +26,7 @@ using (Presentation pres = new Presentation())
     IAudio audio = pres.Audios.AddAudio(File.ReadAllBytes("sampleaudio.mp3"));
     IAudioFrame audioFrame = pres.Slides[0].Shapes.AddAudioFrameEmbedded(50, 50, 100, 100, audio);
 
-    // Установите уровень аудио на 85%
+    // Установить громкость звука на 85%
     audioFrame.VolumeValue = 85f;
 
     pres.Save("AudioFrameValue_out.pptx", SaveFormat.Pptx);

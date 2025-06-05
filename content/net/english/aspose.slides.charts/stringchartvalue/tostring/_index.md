@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.charts/stringchartvalue/tostring/
 ---
+
 ## StringChartValue.ToString method
 
 Returns string value data. Return null if DataSourceType is false and no string value was assigned.

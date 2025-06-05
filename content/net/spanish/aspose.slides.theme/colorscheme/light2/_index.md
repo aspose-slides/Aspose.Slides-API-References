@@ -15,11 +15,11 @@ Segundo color claro en el esquema. Solo lectura [`IColorFormat`](../../../aspose
 public IColorFormat Light2 { get; }
 ```
 
-### Véase También
+### Ver También
 
-* interfaz [IColorFormat](../../../aspose.slides/icolorformat)
-* clase [ColorScheme](../../colorscheme)
-* espacio de nombres [Aspose.Slides.Theme](../../colorscheme)
-* ensamblaje [Aspose.Slides](../../../)
+* interface [IColorFormat](../../../aspose.slides/icolorformat)
+* class [ColorScheme](../../colorscheme)
+* namespace [Aspose.Slides.Theme](../../colorscheme)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

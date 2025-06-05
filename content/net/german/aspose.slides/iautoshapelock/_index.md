@@ -1,7 +1,7 @@
 ---
 title: IAutoShapeLock
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, welche Operationen im übergeordneten AutoshapeEx deaktiviert sind.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Bestimmt, welche Vorgänge auf dem übergeordneten AutoshapeEx deaktiviert sind.
 type: docs
 weight: 5050
 url: /de/aspose.slides/iautoshapelock/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iautoshapelock/
 
 ## IAutoShapeLock-Schnittstelle
 
-Bestimmt, welche Operationen im übergeordneten AutoshapeEx deaktiviert sind.
+Bestimmt, welche Vorgänge auf dem übergeordneten AutoshapeEx deaktiviert sind.
 
 ```csharp
 public interface IAutoShapeLock : IBaseShapeLock
@@ -19,18 +19,18 @@ public interface IAutoShapeLock : IBaseShapeLock
 
 | Name | Beschreibung |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/iautoshapelock/adjusthandleslocked) { get; set; } | Bestimmt, ob das Ändern der Anpassungswerte verboten ist. Lese-schreibbares Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/iautoshapelock/arrowheadslocked) { get; set; } | Bestimmt, ob das Ändern der Pfeilspitzen verboten ist. Lese-schreibbares Boolean. |
-| [AsIBaseShapeLock](../../aspose.slides/iautoshapelock/asibaseshapelock) { get; } | Ermöglicht den Zugriff auf die Basis-IBaseShapeLock-Schnittstelle. Nur-lesbares [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/iautoshapelock/aspectratiolocked) { get; set; } | Bestimmt, ob eine Form das Seitenverhältnis beim Ändern der Größe beibehalten muss. Lese-schreibbares Boolean. |
-| [EditPointsLocked](../../aspose.slides/iautoshapelock/editpointslocked) { get; set; } | Bestimmt, ob eine direkte Änderung des Konturs dieser Form verboten ist. Lese-schreibbares Boolean. |
-| [GroupingLocked](../../aspose.slides/iautoshapelock/groupinglocked) { get; set; } | Bestimmt, ob das Hinzufügen dieser Form zu einer Gruppe verboten ist. Lese-schreibbares Boolean. |
-| [PositionLocked](../../aspose.slides/iautoshapelock/positionlocked) { get; set; } | Bestimmt, ob das Verschieben dieser Form verboten ist. Lese-schreibbares Boolean. |
-| [RotateLocked](../../aspose.slides/iautoshapelock/rotatelocked) { get; set; } | Bestimmt, ob das Ändern des Rotationswinkels dieser Form verboten ist. Lese-schreibbares Boolean. |
-| [SelectLocked](../../aspose.slides/iautoshapelock/selectlocked) { get; set; } | Bestimmt, ob das Auswählen dieser Form verboten ist. Lese-schreibbares Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/iautoshapelock/shapetypelocked) { get; set; } | Bestimmt, ob eine Änderung des Formtyps verboten ist. Lese-schreibbares Boolean. |
-| [SizeLocked](../../aspose.slides/iautoshapelock/sizelocked) { get; set; } | Bestimmt, ob das Ändern der Größe dieser Form verboten ist. Lese-schreibbares Boolean. |
-| [TextLocked](../../aspose.slides/iautoshapelock/textlocked) { get; set; } | Bestimmt, ob das Bearbeiten von Text verboten ist. Lese-schreibbares Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/iautoshapelock/adjusthandleslocked) { get; set; } | Bestimmt, ob eine Änderung der Anpassungswerte verboten ist. Lese-/Schreibbare Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/iautoshapelock/arrowheadslocked) { get; set; } | Bestimmt, ob eine Änderung der Pfeilspitzen verboten ist. Lese-/Schreibbare Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/iautoshapelock/asibaseshapelock) { get; } | Ermöglicht den Zugriff auf die Basis-Schnittstelle IBaseShapeLock. Nur lesender [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/iautoshapelock/aspectratiolocked) { get; set; } | Bestimmt, ob eine Form das Seitenverhältnis beim Größenänderung beibehalten muss. Lese-/Schreibbare Boolean. |
+| [EditPointsLocked](../../aspose.slides/iautoshapelock/editpointslocked) { get; set; } | Bestimmt, ob eine direkte Änderung des Konturs dieser Form verboten ist. Lese-/Schreibbare Boolean. |
+| [GroupingLocked](../../aspose.slides/iautoshapelock/groupinglocked) { get; set; } | Bestimmt, ob das Hinzufügen dieser Form zu einer Gruppe verboten ist. Lese-/Schreibbare Boolean. |
+| [PositionLocked](../../aspose.slides/iautoshapelock/positionlocked) { get; set; } | Bestimmt, ob das Bewegen dieser Form verboten ist. Lese-/Schreibbare Boolean. |
+| [RotateLocked](../../aspose.slides/iautoshapelock/rotatelocked) { get; set; } | Bestimmt, ob eine Änderung des Drehwinkels dieser Form verboten ist. Lese-/Schreibbare Boolean. |
+| [SelectLocked](../../aspose.slides/iautoshapelock/selectlocked) { get; set; } | Bestimmt, ob das Auswählen dieser Form verboten ist. Lese-/Schreibbare Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/iautoshapelock/shapetypelocked) { get; set; } | Bestimmt, ob eine Änderung des Formtyps verboten ist. Lese-/Schreibbare Boolean. |
+| [SizeLocked](../../aspose.slides/iautoshapelock/sizelocked) { get; set; } | Bestimmt, ob eine Größenänderung dieser Form verboten ist. Lese-/Schreibbare Boolean. |
+| [TextLocked](../../aspose.slides/iautoshapelock/textlocked) { get; set; } | Bestimmt, ob ein Bearbeiten von Text verboten ist. Lese-/Schreibbare Boolean. |
 
 ### Siehe auch
 

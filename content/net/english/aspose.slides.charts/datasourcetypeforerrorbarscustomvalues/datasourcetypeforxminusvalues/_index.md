@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues/
 ---
+
 ## DataSourceTypeForErrorBarsCustomValues.DataSourceTypeForXMinusValues property
 
 Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points XMinus property object for error bars custom values. In other words it specifies the type of value of ChartDataPoint.ErrorBarsCustomValues.XMinus.Data property. Read/write [`DataSourceType`](../../datasourcetype).

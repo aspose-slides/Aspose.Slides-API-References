@@ -3,9 +3,10 @@ title: FillBlendMode
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines blend mode.
 type: docs
-weight: 4450
+weight: 4580
 url: /aspose.slides/fillblendmode/
 ---
+
 ## FillBlendMode enumeration
 
 Determines blend mode.

@@ -1,7 +1,7 @@
 ---
 title: BubbleSize
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Blasengröße eines Diagrammdatapunkts zurück. Nur-lesbares IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Blasengröße des Datenpunkts im Diagramm zurück. Nur-Lese IDoubleChartValueaspose.slides/idoublechartvalue.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/ichartdatapoint/bubblesize/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartdatapoint/bubblesize/
 
 ## IChartDataPoint.BubbleSize-Eigenschaft
 
-Gibt die Blasengröße eines Diagrammdatapunkts zurück. Nur-lesbares [`IDoubleChartValue`](../../idoublechartvalue).
+Gibt die Blasengröße des Datenpunkts im Diagramm zurück. Nur-Lese [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue BubbleSize { get; }

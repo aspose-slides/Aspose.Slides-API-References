@@ -1,6 +1,6 @@
 ---
 title: Dark1
-second_title: Aspose.Slides для справки по API .NET
+second_title: Справка по API Aspose.Slides для .NET
 description: Первый темный цвет в схеме. Только для чтения Color.
 type: docs
 weight: 70

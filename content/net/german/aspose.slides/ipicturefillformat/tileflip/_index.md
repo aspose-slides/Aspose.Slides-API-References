@@ -1,23 +1,23 @@
 ---
 title: TileFlip
 second_title: Aspose.Slides für .NET API-Referenz
-description: Dreht das Textur-Mosaik um seine horizontale, vertikale oder beide Achsen. Lese-/Schreibzugriff auf TileFlipaspose.slides/tileflip.
+description: Dreht das Textur-Kachel um seine horizontale, vertikale oder beide Achsen. Lesen/Schreiben von TileFlip aspose.slides/tileflip.
 type: docs
 weight: 140
 url: /de/aspose.slides/ipicturefillformat/tileflip/
 ---
 
-## IPictureFillFormat.TileFlip-Eigenschaft
+## IPictureFillFormat.TileFlip Eigenschaft
 
-Dreht das Textur-Mosaik um seine horizontale, vertikale oder beide Achsen. Lese-/Schreibzugriff auf [`TileFlip`](../../tileflip).
+Dreht das Textur-Kachel um seine horizontale, vertikale oder beide Achsen. Lesen/Schreiben von [`TileFlip`](../../tileflip).
 
 ```csharp
 public TileFlip TileFlip { get; set; }
 ```
 
-### Anmerkungen
+### Hinweise
 
-Der Standardwert ist NoFlip.
+Standard ist NoFlip.
 
 ### Beispiele
 
@@ -27,13 +27,13 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 {
     ISlide slide = presentation.Slides[0];
 
-    // Holt das Bildfüllformat der Form
+    // Ruft das Bildfüllformat der Form ab
     IPictureFillFormat pictureFillFormat = slide.Shapes[0].FillFormat.PictureFillFormat;
 
     // Setzt den Bildfüllmodus auf Tile
     pictureFillFormat.PictureFillMode = PictureFillMode.Tile;
 
-    // Dreht das Textur-Mosaik um seine vertikale Achse.
+    // Dreht das Textur-Kachel um seine vertikale Achse.
     pictureFillFormat.TileFlip = TileFlip.FlipY;
 }
 ```

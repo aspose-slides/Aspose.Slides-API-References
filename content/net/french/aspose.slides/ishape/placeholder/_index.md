@@ -1,7 +1,7 @@
 ---
-title: Espace réservé
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie l'espace réservé pour une forme. En lecture seule IPlaceholderaspose.slides/iplaceholder.
+title: Placeholder
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie le placeholder pour une forme. En lecture seule IPlaceholderaspose.slides/iplaceholder.
 type: docs
 weight: 200
 url: /fr/aspose.slides/ishape/placeholder/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ishape/placeholder/
 
 ## Propriété IShape.Placeholder
 
-Renvoie l'espace réservé pour une forme. En lecture seule [`IPlaceholder`](../../iplaceholder).
+Renvoie le placeholder pour une forme. En lecture seule [`IPlaceholder`](../../iplaceholder).
 
 ```csharp
 public IPlaceholder Placeholder { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IPlaceholder](../../iplaceholder)
 * interface [IShape](../../ishape)

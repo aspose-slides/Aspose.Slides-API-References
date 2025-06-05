@@ -1,15 +1,15 @@
 ---
-title: Betrag
+title: Amount
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen Betrag des Effekts in Prozent an. Lese-/Schreibbarer Single.
+description: Gibt einen Betrag des Effekts in Prozent zurück. Lese-/Schreib-Zahl.
 type: docs
 weight: 10
 url: /de/aspose.slides.effects/alphamodulatefixed/amount/
 ---
 
-## AlphaModulateFixed.Amount-Eigenschaft
+## AlphaModulateFixed.Amount Eigenschaft
 
-Gibt einen Betrag des Effekts in Prozent an. Lese-/Schreibbarer Single.
+Gibt einen Betrag des Effekts in Prozent zurück. Lese-/Schreib-Zahl.
 
 ```csharp
 public float Amount { get; set; }

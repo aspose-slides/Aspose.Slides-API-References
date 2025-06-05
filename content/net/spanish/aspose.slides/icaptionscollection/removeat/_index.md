@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Elimina los subtítulos cerrados en el índice especificado.
 type: docs
 weight: 60
 url: /es/aspose.slides/icaptionscollection/removeat/
 ---
 
-## Método ICaptionsCollection.RemoveAt
+## ICaptionsCollection.RemoveAt method
 
 Elimina los subtítulos cerrados en el índice especificado.
 

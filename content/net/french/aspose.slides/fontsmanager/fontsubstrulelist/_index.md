@@ -1,21 +1,21 @@
 ---
 title: FontSubstRuleList
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Substitutions de polices à utiliser lors du rendu. Lecture/écriture IFontSubstRuleCollectionaspose.slides/ifontsubstrulecollection.
+second_title: Aspose.Slides pour .NET Référence API
+description: Substitutions de police à utiliser lors du rendu. Lecture/écriture IFontSubstRuleCollectionaspose.slides/ifontsubstrulecollection.
 type: docs
 weight: 20
 url: /fr/aspose.slides/fontsmanager/fontsubstrulelist/
 ---
 
-## Propriété FontsManager.FontSubstRuleList
+## FontsManager.FontSubstRuleList propriété
 
-Substitutions de polices à utiliser lors du rendu. Lecture/écriture [`IFontSubstRuleCollection`](../../ifontsubstrulecollection).
+Substitutions de police à utiliser lors du rendu. Lecture/écriture [`IFontSubstRuleCollection`](../../ifontsubstrulecollection).
 
 ```csharp
 public IFontSubstRuleCollection FontSubstRuleList { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IFontSubstRuleCollection](../../ifontsubstrulecollection)
 * classe [FontsManager](../../fontsmanager)

@@ -7,7 +7,7 @@ weight: 70
 url: /fr/aspose.slides.charts/ichartseriescollection/removeat/
 ---
 
-## Méthode IChartSeriesCollection.RemoveAt
+## IChartSeriesCollection.RemoveAt méthode
 
 Supprime l'élément à l'index spécifié
 

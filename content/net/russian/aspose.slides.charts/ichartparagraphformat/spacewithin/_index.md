@@ -1,21 +1,21 @@
 ---
 title: SpaceWithin
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает количество пространства между базовыми линиями в абзаце. Читаемое/записываемое значение Single.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или устанавливает количество пространства между базовыми линиями в абзаце. Чтение/запись Single.
 type: docs
 weight: 130
 url: /ru/aspose.slides.charts/ichartparagraphformat/spacewithin/
 ---
 
-## Свойство IChartParagraphFormat.SpaceWithin
+## IChartParagraphFormat.SpaceWithin свойство
 
-Возвращает или задает количество пространства между базовыми линиями в абзаце. Читаемое/записываемое значение Single.
+Возвращает или устанавливает количество пространства между базовыми линиями в абзаце. Чтение/запись Single.
 
 ```csharp
 public float SpaceWithin { get; set; }
 ```
 
-### Также смотри
+### См. также
 
 * интерфейс [IChartParagraphFormat](../../ichartparagraphformat)
 * пространство имен [Aspose.Slides.Charts](../../ichartparagraphformat)

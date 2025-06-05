@@ -1,13 +1,13 @@
 ---
-title: Buscar
-second_title: Referencia de la API de Aspose.Sildes para .NET
+title: Seek
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Establece la posición dentro del flujo actual
 type: docs
 weight: 130
 url: /es/aspose.slides/streamwrapper/seek/
 ---
 
-## Método StreamWrapper.Seek
+## StreamWrapper.Seek método
 
 Establece la posición dentro del flujo actual
 
@@ -15,7 +15,7 @@ Establece la posición dentro del flujo actual
 public long Seek(long offset, SeekOrigin origin)
 ```
 
-### Véase también
+### Ver También
 
 * clase [StreamWrapper](../../streamwrapper)
 * espacio de nombres [Aspose.Slides](../../streamwrapper)

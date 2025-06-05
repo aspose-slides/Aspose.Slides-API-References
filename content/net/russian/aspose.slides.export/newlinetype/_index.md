@@ -1,13 +1,13 @@
 ---
 title: NewLineType
-second_title: Aspose.Slides для .NET Справочник по API
+second_title: Aspose.Sildes для .NET API Reference
 description: Тип новой строки, который будет использоваться в сгенерированном документе.
 type: docs
 weight: 4090
 url: /ru/aspose.slides.export/newlinetype/
 ---
 
-## Перечисление NewLineType
+## NewLineType enum
 
 Тип новой строки, который будет использоваться в сгенерированном документе.
 
@@ -21,7 +21,7 @@ public enum NewLineType
 | --- | --- | --- |
 | Windows | `0` |  |
 | Unix | `1` |  |
-| Mac | `2` | Новая строка Mac (OS 9) - \\r |
+| Mac | `2` | Mac (OS 9) новая строка - \\r |
 
 ### Примеры
 
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. также
+### Смотрите Также
 
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)

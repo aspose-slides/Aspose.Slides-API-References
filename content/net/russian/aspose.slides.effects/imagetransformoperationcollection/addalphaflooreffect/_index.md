@@ -1,6 +1,6 @@
 ---
 title: AddAlphaFloorEffect
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Добавляет новый эффект Alpha Floor в конец коллекции.
 type: docs
 weight: 70
@@ -17,9 +17,9 @@ public IAlphaFloor AddAlphaFloorEffect()
 
 ### Возвращаемое значение
 
-Индекс нового изображения эффекта в коллекции.
+Индекс нового эффекта изображения в коллекции.
 
-### См. также
+### Смотрите также
 
 * интерфейс [IAlphaFloor](../../ialphafloor)
 * класс [ImageTransformOperationCollection](../../imagetransformoperationcollection)

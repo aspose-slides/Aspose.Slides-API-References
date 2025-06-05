@@ -1,6 +1,6 @@
 ---
-title: 行格式
-second_title: Aspose.Slides for .NET API 参考
+title: RowFormat
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回包含此行格式属性的 RowFormat 对象。只读 IRowFormataspose.slides/irowformat。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/row/rowformat/
 public IRowFormat RowFormat { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IRowFormat](../../irowformat)
 * 类 [Row](../../row)

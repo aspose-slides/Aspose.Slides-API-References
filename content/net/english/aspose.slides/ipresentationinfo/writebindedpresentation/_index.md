@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/ipresentationinfo/writebindedpresentation/
 ---
+
 ## WriteBindedPresentation(Stream) {#writebindedpresentation}
 
 Writes binded presentation to stream.

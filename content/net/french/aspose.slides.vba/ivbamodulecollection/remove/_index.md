@@ -1,5 +1,5 @@
 ---
-title: Supprimer
+title: Remove
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Supprime la première occurrence d'un objet spécifique de la collection.
 type: docs
@@ -7,7 +7,7 @@ weight: 30
 url: /fr/aspose.slides.vba/ivbamodulecollection/remove/
 ---
 
-## Méthode IVbaModuleCollection.Remove
+## IVbaModuleCollection.Remove méthode
 
 Supprime la première occurrence d'un objet spécifique de la collection.
 
@@ -19,7 +19,7 @@ public void Remove(IVbaModule value)
 | --- | --- | --- |
 | value | IVbaModule | Le module à supprimer de la collection. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IVbaModule](../../ivbamodule)
 * interface [IVbaModuleCollection](../../ivbamodulecollection)

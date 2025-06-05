@@ -1,13 +1,13 @@
 ---
 title: AsIBaseSlide
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Permet d'obtenir l'interface de base IBaseSlide. Lecture seule IBaseSlideaspose.slides/ibaseslide.
+description: Permet d'obtenir l'interface de base IBaseSlide. Lecture seule IBaseSlide aspose.slides/ibaseslide.
 type: docs
 weight: 10
 url: /fr/aspose.slides/inotesslide/asibaseslide/
 ---
 
-## Propriété INotesSlide.AsIBaseSlide
+## INotesSlide.AsIBaseSlide propriété
 
 Permet d'obtenir l'interface de base IBaseSlide. Lecture seule [`IBaseSlide`](../../ibaseslide).
 
@@ -15,7 +15,7 @@ Permet d'obtenir l'interface de base IBaseSlide. Lecture seule [`IBaseSlide`](..
 public IBaseSlide AsIBaseSlide { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IBaseSlide](../../ibaseslide)
 * interface [INotesSlide](../../inotesslide)

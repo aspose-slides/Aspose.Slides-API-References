@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Supprime l'élément à l'index spécifié de la collection.
 type: docs
 weight: 430
 url: /fr/aspose.slides/shapecollection/removeat/
 ---
 
-## Méthode ShapeCollection.RemoveAt
+## ShapeCollection.RemoveAt méthode
 
 Supprime l'élément à l'index spécifié de la collection.
 

@@ -1,7 +1,7 @@
 ---
 title: BubbleSizeRepresentation
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt an, wie die Werte der Blasengröße im Blasendiagramm dargestellt werden. Lese-/Schreibzugriff auf BubbleSizeRepresentationTypeaspose.slides.charts/bubblesizerepresentationtype.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt an, wie die Blasengrößenwerte im Blasendiagramm dargestellt werden. Lese-/Schreibzugriff auf BubbleSizeRepresentationTypeaspose.slides/bubblesizerepresentationtype.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/chartseriesgroup/bubblesizerepresentation/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartseriesgroup/bubblesizerepresentation/
 
 ## ChartSeriesGroup.BubbleSizeRepresentation-Eigenschaft
 
-Gibt an, wie die Werte der Blasengröße im Blasendiagramm dargestellt werden. Lese-/Schreibzugriff auf [`BubbleSizeRepresentationType`](../../bubblesizerepresentationtype).
+Gibt an, wie die Blasengrößenwerte im Blasendiagramm dargestellt werden. Lese-/Schreibzugriff auf [`BubbleSizeRepresentationType`](../../bubblesizerepresentationtype).
 
 ```csharp
 public BubbleSizeRepresentationType BubbleSizeRepresentation { get; set; }

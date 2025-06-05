@@ -1,5 +1,5 @@
 ---
-title: NomsDesPropriétés
+title: NamesOfProperties
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie la collection des noms de propriétés. ICollection en lecture seule.
 type: docs
@@ -15,7 +15,7 @@ Renvoie la collection des noms de propriétés. ICollection en lecture seule.
 public ICollection NamesOfProperties { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [ControlPropertiesCollection](../../controlpropertiescollection)
 * espace de noms [Aspose.Slides](../../controlpropertiescollection)

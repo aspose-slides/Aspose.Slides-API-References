@@ -1,7 +1,7 @@
 ---
 title: AfterAnimationType
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Define un tipo de animación posterior para el efecto. Lectura/escritura AfterAnimationType aspose.slides.animation/ieffect/afteranimationtype.
+description: Define un tipo de animación posterior para el efecto. Lectura/escritura AfterAnimationTypeaspose.slides.animation/ieffect/afteranimationtype.
 type: docs
 weight: 20
 url: /es/aspose.slides.animation/ieffect/afteranimationtype/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.animation/ieffect/afteranimationtype/
 
 ## Propiedad IEffect.AfterAnimationType
 
-Define un tipo de animación posterior para el efecto. Lectura/escritura `AfterAnimationType`. 
+Define un tipo de animación posterior para el efecto. Lectura/escritura `AfterAnimationType`.
 
 ```csharp
 public AfterAnimationType AfterAnimationType { get; set; }
@@ -24,12 +24,12 @@ using (Presentation presentation = new Presentation("demo.pptx"))
     // Obtener el primer efecto de la primera diapositiva.
     IEffect firstSlideEffect = presentation.Slides[0].Timeline.MainSequence[0];
     
-    // Cambiar la animación posterior del efecto a "Ocultar en el siguiente clic del mouse"
+    // Cambiar la animación posterior del efecto a "Ocultar en el siguiente clic de ratón"
     firstSlideEffect.AfterAnimationType = AfterAnimationType.HideOnNextMouseClick;
 }
 ```
 
-### Ver También
+### Véase también
 
 * enum [AfterAnimationType](../../afteranimationtype)
 * interface [IEffect](../../ieffect)

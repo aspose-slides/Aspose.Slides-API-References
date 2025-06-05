@@ -1,6 +1,6 @@
 ---
 title: AsIOverridableText
-second_title: Aspose.Slides для .NET Справочник API
+second_title: Aspose.Slides для .NET API Справочник
 description: Позволяет получить базовый интерфейс IOverridableText. Только для чтения IOverridableTextaspose.slides.charts/ioverridabletext.
 type: docs
 weight: 20

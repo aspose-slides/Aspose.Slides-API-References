@@ -1,7 +1,7 @@
 ---
 title: AddClone
 second_title: Aspose.Slides für .NET API-Referenz
-description: Erstellt eine Kopie der angegebenen Vorlagenzeile und fügt sie am Ende einer Tabelle ein.
+description: Erstellt eine Kopie der angegebenen Vorlagezeile und fügt sie unten in eine Tabelle ein.
 type: docs
 weight: 20
 url: /de/aspose.slides/irowcollection/addclone/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/irowcollection/addclone/
 
 ## IRowCollection.AddClone-Methode
 
-Erstellt eine Kopie der angegebenen Vorlagenzeile und fügt sie am Ende einer Tabelle ein.
+Erstellt eine Kopie der angegebenen Vorlagezeile und fügt sie unten in eine Tabelle ein.
 
 ```csharp
 public IRow[] AddClone(IRow templ, bool withAttachedRows)
@@ -18,13 +18,13 @@ public IRow[] AddClone(IRow templ, bool withAttachedRows)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | templ | IRow | Zeile, die als Vorlage verwendet wird. |
-| withAttachedRows | Boolean | Wahr, um auch alle mit der Vorlagenzeile verbundenen Zeilen zu kopieren. |
+| withAttachedRows | Boolean | Wahr, um auch alle an die Vorlagezeile angehängten Zeilen zu kopieren. |
 
 ### Rückgabewert
 
 Hinzugefügte Zeilen.
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IRow](../../irow)
 * Schnittstelle [IRowCollection](../../irowcollection)

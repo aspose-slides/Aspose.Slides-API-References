@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ifontsubstrule/sourcefont/
 ---
+
 ## IFontSubstRule.SourceFont property
 
 Font to substitute Read-only [`IFontData`](../../ifontdata).

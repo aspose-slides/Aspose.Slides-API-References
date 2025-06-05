@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides/shapecollection/addmathshape/
 ---
+
 ## ShapeCollection.AddMathShape method
 
 Creates a new Autoshape tuned from default template to math content and adds it to the end of the collection.

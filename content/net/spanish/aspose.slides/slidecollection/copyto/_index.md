@@ -1,7 +1,7 @@
 ---
 title: CopyTo
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Copia todos los elementos de la colección al arreglo especificado.
+second_title: Aspose.Sildes para .NET API Reference
+description: Copia todos los elementos de la colección al array especificado.
 type: docs
 weight: 90
 url: /es/aspose.slides/slidecollection/copyto/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/slidecollection/copyto/
 
 ## Método SlideCollection.CopyTo
 
-Copia todos los elementos de la colección al arreglo especificado.
+Copia todos los elementos de la colección al array especificado.
 
 ```csharp
 public void CopyTo(Array array, int index)
@@ -17,13 +17,13 @@ public void CopyTo(Array array, int index)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| array | Array | Arreglo destino. |
-| index | Int32 | Índice inicial en el arreglo destino. |
+| array | Array | Array de destino. |
+| index | Int32 | Índice inicial en el array de destino. |
 
-### Ver También
+### Véase también
 
 * clase [SlideCollection](../../slidecollection)
 * espacio de nombres [Aspose.Slides](../../slidecollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,6 +1,6 @@
 ---
 title: IPresentationAnimationPlayer
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia API de Aspose.Slides para .NET
 description: Representa un reproductor de la animación. Animaciones generadas por PresentationAnimationsGenerator./presentationanimationsgenerator a través de su evento NewAnimation./presentationanimationsgenerator/newanimation.
 type: docs
 weight: 3860
@@ -25,7 +25,7 @@ public interface IPresentationAnimationPlayer
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | Obtener el fotograma para la posición de tiempo actual previamente establecida con el método [`SetTimePosition`](./settimeposition). |
+| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | Obtener el fotograma para la posición de tiempo actual previamente configurada con el método [`SetTimePosition`](./settimeposition). |
 | [SetTimePosition](../../aspose.slides.export/ipresentationanimationplayer/settimeposition)(double) | Establecer la posición de tiempo de la animación dentro de la [`Duration`](./duration). |
 
 ### Ejemplos
@@ -52,7 +52,7 @@ using (Presentation presentation = new Presentation("animated.pptx"))
 }
 ```
 
-### Véase También
+### Véase también
 
 * namespace [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)

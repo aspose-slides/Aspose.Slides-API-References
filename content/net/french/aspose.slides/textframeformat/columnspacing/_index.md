@@ -1,7 +1,7 @@
 ---
-title: EspacementDesColonnes
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit l'espace entre les colonnes de texte dans la zone de texte en points. Cela ne devrait s'appliquer que lorsqu'il y a plus d'une colonne présente. Cette valeur doit être un nombre positif. Sinon, la valeur sera fixée à zéro. Lecture/écriture Double.
+title: ColumnSpacing
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie ou définit l'espace entre les colonnes de texte dans la zone de texte en points. Cela ne doit s'appliquer que lorsqu'il y a plus d'une colonne présente. Cette valeur doit être un nombre positif. Sinon, la valeur sera définie à zéro. Lecture/écriture Double.
 type: docs
 weight: 60
 url: /fr/aspose.slides/textframeformat/columnspacing/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/textframeformat/columnspacing/
 
 ## Propriété TextFrameFormat.ColumnSpacing
 
-Renvoie ou définit l'espace entre les colonnes de texte dans la zone de texte (en points). Cela ne devrait s'appliquer que lorsqu'il y a plus d'une colonne présente. Cette valeur doit être un nombre positif. Sinon, la valeur sera fixée à zéro. Lecture/écriture Double.
+Renvoie ou définit l'espace entre les colonnes de texte dans la zone de texte (en points). Cela ne doit s'appliquer que lorsqu'il y a plus d'une colonne présente. Cette valeur doit être un nombre positif. Sinon, la valeur sera définie à zéro. Lecture/écriture Double.
 
 ```csharp
 public double ColumnSpacing { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [TextFrameFormat](../../textframeformat)
 * espace de noms [Aspose.Slides](../../textframeformat)

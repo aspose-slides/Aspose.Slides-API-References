@@ -1,21 +1,21 @@
 ---
 title: WYSIWYG
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne les paramètres pour la génération de fichiers SVG la plus précise. En lecture seule SVGOptionsaspose.slides.export/svgoptions.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie les paramètres pour la génération de fichiers SVG les plus précis. Lecture seule SVGOptionsaspose.slides/svgoptions.
 type: docs
 weight: 40
 url: /fr/aspose.slides.export/svgoptions/wysiwyg/
 ---
 
-## Propriété SVGOptions.WYSIWYG
+## SVGOptions.WYSIWYG propriété
 
-Retourne les paramètres pour la génération de fichiers SVG la plus précise. En lecture seule [`SVGOptions`](../../svgoptions).
+Renvoie les paramètres pour la génération de fichiers SVG les plus précis. Lecture seule [`SVGOptions`](../../svgoptions).
 
 ```csharp
 public static SVGOptions WYSIWYG { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [SVGOptions](../../svgoptions)
 * espace de noms [Aspose.Slides.Export](../../svgoptions)

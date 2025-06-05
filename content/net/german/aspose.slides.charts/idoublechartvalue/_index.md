@@ -1,7 +1,7 @@
 ---
 title: IDoubleChartValue
-second_title: Aspose.Slides für .NET API-Referenz
-description: Repräsentiert einen doppelten Wert, der auf zwei Arten in einem pptx-Präsentationsdokument gespeichert werden kann 1 in einer Zelle/einigen Zellen des Arbeitsbuchs, die mit dem Diagramm verbunden sind; 2 als literaler Wert.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt einen doppelten Wert dar, der in einem pptx-Präsentationsdokument auf zwei Arten gespeichert werden kann 1 in Zelle/n des Arbeitsbuchs, die mit dem Diagramm verbunden sind; 2 als literaler Wert.
 type: docs
 weight: 1990
 url: /de/aspose.slides.charts/idoublechartvalue/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/idoublechartvalue/
 
 ## IDoubleChartValue-Schnittstelle
 
-Repräsentiert einen doppelten Wert, der auf zwei Arten in einem pptx-Präsentationsdokument gespeichert werden kann: 1) in einer Zelle/einigen Zellen des Arbeitsbuchs, die mit dem Diagramm verbunden sind; 2) als literaler Wert.
+Stellt einen doppelten Wert dar, der in einem pptx-Präsentationsdokument auf zwei Arten gespeichert werden kann: 1) in Zelle/n des Arbeitsbuchs, die mit dem Diagramm verbunden sind; 2) als literaler Wert.
 
 ```csharp
 public interface IDoubleChartValue : ISingleCellChartValue
@@ -19,16 +19,16 @@ public interface IDoubleChartValue : ISingleCellChartValue
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsISingleCellChartValue](../../aspose.slides.charts/idoublechartvalue/asisinglecellchartvalue) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle ISingleCellChartValue. Nur lesend [`ISingleCellChartValue`](../isinglecellchartvalue). |
-| [AsLiteralDouble](../../aspose.slides.charts/idoublechartvalue/asliteraldouble) { get; set; } | Gibt den literalen doppelten Wert zurück oder setzt ihn, wenn DataSourceType = Charts.DataSourceType.DoubleLiterals. Lese-/Schreib-Doppelwert. |
+| [AsISingleCellChartValue](../../aspose.slides.charts/idoublechartvalue/asisinglecellchartvalue) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle ISingleCellChartValue. Nur lesbar [`ISingleCellChartValue`](../isinglecellchartvalue). |
+| [AsLiteralDouble](../../aspose.slides.charts/idoublechartvalue/asliteraldouble) { get; set; } | Gibt den literalen doppelten Wert zurück oder legt ihn fest, wenn DataSourceType = Charts.DataSourceType.DoubleLiterals. Lese-/Schreibzugriff auf Double. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [ToDouble](../../aspose.slides.charts/idoublechartvalue/todouble)() | Konvertiert in einen doppelten Wert. |
+| [ToDouble](../../aspose.slides.charts/idoublechartvalue/todouble)() | Konvertiert in einen double. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ISingleCellChartValue](../isinglecellchartvalue)
 * Namespace [Aspose.Slides.Charts](../../aspose.slides.charts)

@@ -1,6 +1,6 @@
 ---
-title: Imagen
-second_title: Referencia de la API Aspose.Sildes para .NET
+title: Image
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece la imagen incrustada. Lectura/escritura IPPImageaspose.slides/ippimage.
 type: docs
 weight: 20

@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForHistogramSeries
 second_title: Aspose.Sildes for .NET API Reference
-description: 创建新数据点并将其添加到集合的末尾。适用于图表类型为直方图的系列。
+description: 创建新的数据点并将其添加到集合末尾。适用于图表类型为直方图的系列。
 type: docs
 weight: 160
 url: /zh/aspose.slides.charts/chartdatapointcollection/adddatapointforhistogramseries/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/chartdatapointcollection/adddatapointforhistograms
 
 ## ChartDataPointCollection.AddDataPointForHistogramSeries 方法
 
-创建新数据点并将其添加到集合的末尾。适用于图表类型为直方图的系列。
+创建新的数据点并将其添加到集合末尾。适用于图表类型为直方图的系列。
 
 ```csharp
 public IChartDataPoint AddDataPointForHistogramSeries(IChartDataCell value)
@@ -21,9 +21,9 @@ public IChartDataPoint AddDataPointForHistogramSeries(IChartDataCell value)
 
 ### 返回值
 
-新数据点。
+新的数据点。
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IChartDataPoint](../../ichartdatapoint)
 * 接口 [IChartDataCell](../../ichartdatacell)

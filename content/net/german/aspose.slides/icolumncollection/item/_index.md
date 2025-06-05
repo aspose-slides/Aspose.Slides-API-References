@@ -1,15 +1,15 @@
 ---
-title: Element
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Spalte am angegebenen Index zurück. Nur lesen IColumnaspose.slides/icolumn.
+title: Item
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt die Spalte am angegebenen Index zurück. Nur-Lesen IColumnaspose.slides/icolumn.
 type: docs
 weight: 10
 url: /de/aspose.slides/icolumncollection/item/
 ---
 
-## IColumnCollection Indexer
+## IColumnCollection-Indexer
 
-Gibt die Spalte am angegebenen Index zurück. Nur lesen [`IColumn`](../../icolumn).
+Gibt die Spalte am angegebenen Index zurück. Nur-Lesen [`IColumn`](../../icolumn).
 
 ```csharp
 public IColumn this[int index] { get; }

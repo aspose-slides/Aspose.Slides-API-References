@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/commentauthorcollection/copyto/
 ---
+
 ## CommentAuthorCollection.CopyTo method
 
 Copies all elements from the collection to the specified array.

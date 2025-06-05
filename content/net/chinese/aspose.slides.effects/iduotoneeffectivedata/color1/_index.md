@@ -1,7 +1,7 @@
 ---
 title: Color1
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回暗像素的目标颜色格式。只读颜色。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回暗色像素的目标颜色格式。只读颜色。
 type: docs
 weight: 20
 url: /zh/aspose.slides.effects/iduotoneeffectivedata/color1/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.effects/iduotoneeffectivedata/color1/
 
 ## IDuotoneEffectiveData.Color1 属性
 
-返回暗像素的目标颜色格式。只读颜色。
+返回暗色像素的目标颜色格式。只读颜色。
 
 ```csharp
 public Color Color1 { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IDuotoneEffectiveData](../../iduotoneeffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../iduotoneeffectivedata)

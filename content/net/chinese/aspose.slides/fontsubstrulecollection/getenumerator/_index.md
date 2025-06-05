@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Slides for .NET API 参考
-description: 返回一个枚举器，该枚举器用于遍历集合。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回一个迭代集合的枚举器。
 type: docs
 weight: 80
 url: /zh/aspose.slides/fontsubstrulecollection/getenumerator/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/fontsubstrulecollection/getenumerator/
 
 ## FontSubstRuleCollection.GetEnumerator 方法
 
-返回一个枚举器，该枚举器用于遍历集合。
+返回一个迭代集合的枚举器。
 
 ```csharp
 public IEnumerator<IFontSubstRule> GetEnumerator()
@@ -17,9 +17,9 @@ public IEnumerator<IFontSubstRule> GetEnumerator()
 
 ### 返回值
 
-一个可以用于遍历集合的 IEnumerator。
+一个可以用于迭代集合的 IEnumerator。
 
-### 另请参阅
+### 参见
 
 * 接口 [IFontSubstRule](../../ifontsubstrule)
 * 类 [FontSubstRuleCollection](../../fontsubstrulecollection)

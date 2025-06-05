@@ -1,7 +1,7 @@
 ---
 title: AutofitType
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回文本自适应模式。只读 TextAutofitTypeaspose.slides/textautofittype。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回文本自动适应模式。只读 TextAutofitTypeaspose.slides/textautofittype。
 type: docs
 weight: 20
 url: /zh/aspose.slides/itextframeformateffectivedata/autofittype/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/itextframeformateffectivedata/autofittype/
 
 ## ITextFrameFormatEffectiveData.AutofitType 属性
 
-返回文本自适应模式。只读 [`TextAutofitType`](../../textautofittype)。
+返回文本自动适应模式。只读 [`TextAutofitType`](../../textautofittype)。
 
 ```csharp
 public TextAutofitType AutofitType { get; }

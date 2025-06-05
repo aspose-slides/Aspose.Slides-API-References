@@ -1,6 +1,6 @@
 ---
 title: RemoveAt
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Elimina una columna en la posición especificada de una tabla.
 type: docs
 weight: 90
@@ -17,7 +17,7 @@ public void RemoveAt(int firstColumnIndex, bool withAttachedRows)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| firstColumnIndex | Int32 | Índice de una columna a eliminar. |
+| firstColumnIndex | Int32 | Índice de una columna para eliminar. |
 | withAttachedRows | Boolean | Verdadero para eliminar también todas las columnas adjuntas. |
 
 ### Ver También

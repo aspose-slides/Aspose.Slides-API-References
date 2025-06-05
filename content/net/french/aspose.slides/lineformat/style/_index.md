@@ -1,13 +1,13 @@
 ---
 title: Style
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Renvoie ou définit le style de ligne. Lecture/écriture LineStyleaspose.slides/linestyle.
 type: docs
 weight: 160
 url: /fr/aspose.slides/lineformat/style/
 ---
 
-## Propriété LineFormat.Style
+## LineFormat.Style propriété
 
 Renvoie ou définit le style de ligne. Lecture/écriture [`LineStyle`](../../linestyle).
 

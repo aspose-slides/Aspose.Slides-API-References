@@ -9,13 +9,13 @@ url: /de/aspose.slides/table/stylepreset/
 
 ## Table.StylePreset-Eigenschaft
 
-Ruht den integrierten Tabellenstil ab oder legt ihn fest. Lese-/Schreibzugriff auf [`TableStylePreset`](../../tablestylepreset).
+Ruft den integrierten Tabellenstil ab oder legt ihn fest. Lese-/Schreibzugriff auf [`TableStylePreset`](../../tablestylepreset).
 
 ```csharp
 public TableStylePreset StylePreset { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [TableStylePreset](../../tablestylepreset)
 * class [Table](../../table)

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext/
 ---
+
 ## ILayoutSlideHeaderFooterManager.SetDateTimeAndChildDateTimesText method
 
 Sets text to layout slide date-time placeholder and all child date-time placeholders. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide.

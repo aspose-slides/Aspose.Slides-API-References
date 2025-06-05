@@ -1,15 +1,15 @@
 ---
-title: Insérer
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Insère un MathElement dans la collection à l'indice spécifié.
+title: Insert
+second_title: Aspose.Slides pour .NET API Référence
+description: Insère un MathElement dans la collection à l'index spécifié.
 type: docs
 weight: 130
 url: /fr/aspose.slides.mathtext/mathblock/insert/
 ---
 
-## Méthode MathBlock.Insert
+## MathBlock.Insert méthode
 
-Insère un MathElement dans la collection à l'indice spécifié.
+Insère un MathElement dans la collection à l'index spécifié.
 
 ```csharp
 public void Insert(int index, IMathElement item)
@@ -17,12 +17,12 @@ public void Insert(int index, IMathElement item)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | L'indice basé sur zéro à laquelle le MathElement doit être inséré. |
+| index | Int32 | L'index basé sur zéro à lequel le MathElement doit être inséré. |
 | item | IMathElement | Le MathElement à insérer. |
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -32,7 +32,7 @@ mathBlock.Add(plusElement);
 mathBlock.Insert(0, new MathRadical(new MathematicalText("x"), new MathematicalText("3")));
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathElement](../../imathelement)
 * class [MathBlock](../../mathblock)

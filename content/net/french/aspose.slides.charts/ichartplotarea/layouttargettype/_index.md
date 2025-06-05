@@ -1,15 +1,15 @@
 ---
 title: LayoutTargetType
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Si la disposition de la zone de tracé est définie manuellement, cette propriété spécifie s'il faut disposer la zone de tracé à l'intérieur sans inclure les axes et les étiquettes d'axe ou à l'extérieur en incluant les axes et les étiquettes d'axe. Lecture/écriture LayoutTargetType aspose.slides.charts/ichartplotarea/layouttargettype.
+description: Si la mise en page de la zone de tracé est définie manuellement, cette propriété spécifie si la zone de tracé doit être disposée à l'intérieur sans inclure les axes et les étiquettes des axes ou à l'extérieur y compris les axes et les étiquettes des axes. Lecture/écriture LayoutTargetType.
 type: docs
 weight: 40
 url: /fr/aspose.slides.charts/ichartplotarea/layouttargettype/
 ---
 
-## Propriété IChartPlotArea.LayoutTargetType
+## IChartPlotArea.LayoutTargetType property
 
-Si la disposition de la zone de tracé est définie manuellement, cette propriété spécifie s'il faut disposer la zone de tracé à l'intérieur (sans inclure les axes et les étiquettes d'axe) ou à l'extérieur (en incluant les axes et les étiquettes d'axe). Lecture/écriture `LayoutTargetType`.
+Si la mise en page de la zone de tracé est définie manuellement, cette propriété spécifie si la zone de tracé doit être disposée à l'intérieur (sans inclure les axes et les étiquettes des axes) ou à l'extérieur (y compris les axes et les étiquettes des axes). Lecture/écriture `LayoutTargetType`.
 
 ```csharp
 public LayoutTargetType LayoutTargetType { get; set; }
@@ -33,7 +33,7 @@ using (Presentation presentation = new Presentation())
 
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [LayoutTargetType](../../layouttargettype)
 * interface [IChartPlotArea](../../ichartplotarea)

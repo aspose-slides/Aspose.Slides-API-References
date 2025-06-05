@@ -1,7 +1,7 @@
 ---
 title: ComplexScriptFont
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die komplexe Schriftart zurück oder setzt sie. Lese-/Schreibzugriff IFontDataaspose.slides/ifontdata.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die komplexe Skriptschriftart zurück oder legt sie fest. Lese-/Schreibzugriff auf IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 10
 url: /de/aspose.slides/ifonts/complexscriptfont/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ifonts/complexscriptfont/
 
 ## IFonts.ComplexScriptFont-Eigenschaft
 
-Gibt die komplexe Schriftart zurück oder setzt sie. Lese-/Schreibzugriff [`IFontData`](../../ifontdata).
+Gibt die komplexe Skriptschriftart zurück oder legt sie fest. Lese-/Schreibzugriff auf [`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData ComplexScriptFont { get; set; }

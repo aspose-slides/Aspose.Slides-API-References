@@ -1,38 +1,38 @@
 ---
-title: Mot de passe
-second_title: Référence API Aspose.Slides pour .NET
-description: Obtient ou définit le mot de passe. Chaîne lisible/écrivable.
+title: Password
+second_title: Aspose.Sildes pour .NET API Référence
+description: Obtient ou définit le mot de passe. Chaîne en lecture/écriture.
 type: docs
 weight: 120
 url: /fr/aspose.slides/loadoptions/password/
 ---
 
-## Propriété LoadOptions.Password
+## LoadOptions.Password propriété
 
-Obtient ou définit le mot de passe. Chaîne lisible/écrivable.
+Obtient ou définit le mot de passe. Chaîne en lecture/écriture.
 
 ```csharp
 public string Password { get; set; }
 ```
 
-### Valeur de la propriété
+### Valeur de la Propriété
 
 Le mot de passe.
 
 ### Exemples
 
-Le code d'exemple suivant montre comment ouvrir une présentation PowerPoint protégée par mot de passe.
+Le code d'exemple suivant montre comment ouvrir une présentation PowerPoint protégée par un mot de passe.
 
 ```csharp
 [C#]
 	LoadOptions loadOptions = new LoadOptions {Password = "YOUR_PASSWORD"};
 	using (Presentation presentation = new Presentation("pres.pptx", loadOptions))
 	{
-	  // travailler avec la présentation décryptée
+	  // travailler avec la présentation déchiffrée
 	}
 ```
 
-### Voir aussi
+### Voir Également
 
 * classe [LoadOptions](../../loadoptions)
 * espace de noms [Aspose.Slides](../../loadoptions)

@@ -1,6 +1,6 @@
 ---
 title: ThemeManager
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve el administrador de temas. Solo lectura IMasterThemeManageraspose.slides.theme/imasterthememanager.
 type: docs
 weight: 40
@@ -15,11 +15,11 @@ Devuelve el administrador de temas. Solo lectura [`IMasterThemeManager`](../../.
 public IMasterThemeManager ThemeManager { get; }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [IMasterThemeManager](../../../aspose.slides.theme/imasterthememanager)
 * clase [MasterNotesSlide](../../masternotesslide)
 * espacio de nombres [Aspose.Slides](../../masternotesslide)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -3,9 +3,10 @@ title: RelativeScaleWidth
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets the scale of width relative to original picture size of the picture frame. Value 1.0 corresponds to 100. Read/write Single.
 type: docs
-weight: 40
+weight: 50
 url: /aspose.slides/pictureframe/relativescalewidth/
 ---
+
 ## PictureFrame.RelativeScaleWidth property
 
 Returns or sets the scale of width (relative to original picture size) of the picture frame. Value 1.0 corresponds to 100%. Read/write Single.

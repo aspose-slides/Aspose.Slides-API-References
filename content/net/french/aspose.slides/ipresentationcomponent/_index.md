@@ -19,9 +19,9 @@ public interface IPresentationComponent
 
 | Nom | Description |
 | --- | --- |
-| [Presentation](../../aspose.slides/ipresentationcomponent/presentation) { get; } | Renvoie la présentation. En lecture seule [`IPresentation`](../ipresentation). |
+| [Presentation](../../aspose.slides/ipresentationcomponent/presentation) { get; } | Renvoie la présentation. Lecture seule [`IPresentation`](../ipresentation). |
 
-### Voir aussi
+### Voir Aussi
 
 * espace de noms [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

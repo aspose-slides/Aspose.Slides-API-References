@@ -1,7 +1,7 @@
 ---
-title: NomDeLaTendance
-second_title: Référence API Aspose.Slides pour .NET
-description: Obtient ou définit le nom de la tendance. Lecture/écriture String.
+title: TrendlineName
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Obtient ou définit le nom de la ligne de tendance. Chaîne en lecture/écriture.
 type: docs
 weight: 110
 url: /fr/aspose.slides.charts/itrendline/trendlinename/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/itrendline/trendlinename/
 
 ## Propriété ITrendline.TrendlineName
 
-Obtient ou définit le nom de la tendance. Lecture/écriture String.
+Obtient ou définit le nom de la ligne de tendance. Chaîne en lecture/écriture.
 
 ```csharp
 public string TrendlineName { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ITrendline](../../itrendline)
 * espace de noms [Aspose.Slides.Charts](../../itrendline)

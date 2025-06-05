@@ -15,7 +15,7 @@ Devuelve los datos del archivo del objeto OLE incrustado Solo lectura Byte[].
 public byte[] EmbeddedFileData { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo)
 * espacio de nombres [Aspose.Slides](../../ioleembeddeddatainfo)

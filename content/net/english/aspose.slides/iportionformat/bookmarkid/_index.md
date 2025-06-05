@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/iportionformat/bookmarkid/
 ---
+
 ## IPortionFormat.BookmarkId property
 
 Returns or sets bookmark identifier. Read/write String.

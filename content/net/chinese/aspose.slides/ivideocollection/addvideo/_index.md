@@ -1,7 +1,7 @@
 ---
-title: 添加视频
-second_title: Aspose.Slides for .NET API 参考
-description: 从另一个演示中添加视频文件的副本。
+title: AddVideo
+second_title: Aspose.Sildes for .NET API Reference
+description: 从另一个演示文稿中添加视频文件的副本。
 type: docs
 weight: 20
 url: /zh/aspose.slides/ivideocollection/addvideo/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ivideocollection/addvideo/
 
 ## AddVideo(IVideo) {#addvideo}
 
-从另一个演示中添加视频文件的副本。
+从另一个演示文稿中添加视频文件的副本。
 
 ```csharp
 public IVideo AddVideo(IVideo video)
@@ -23,7 +23,7 @@ public IVideo AddVideo(IVideo video)
 
 添加的视频。
 
-### 另请参阅
+### 参见
 
 * 接口 [IVideo](../../ivideo)
 * 接口 [IVideoCollection](../../ivideocollection)
@@ -34,7 +34,7 @@ public IVideo AddVideo(IVideo video)
 
 ## AddVideo(Stream, LoadingStreamBehavior) {#addvideo_2}
 
-从流创建并添加视频到演示。
+从流创建并添加视频到演示文稿。
 
 ```csharp
 public IVideo AddVideo(Stream stream, LoadingStreamBehavior loadingStreamBehavior)
@@ -42,14 +42,14 @@ public IVideo AddVideo(Stream stream, LoadingStreamBehavior loadingStreamBehavio
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 从中添加视频文件的流。 |
+| stream | Stream | 用于添加视频文件的流。 |
 | loadingStreamBehavior | LoadingStreamBehavior | 将应用于流的行为。 |
 
 ### 返回值
 
 添加的 [`IVideo`](../../ivideo)。
 
-### 另请参阅
+### 参见
 
 * 接口 [IVideo](../../ivideo)
 * 枚举 [LoadingStreamBehavior](../../loadingstreambehavior)
@@ -61,7 +61,7 @@ public IVideo AddVideo(Stream stream, LoadingStreamBehavior loadingStreamBehavio
 
 ## AddVideo(byte[]) {#addvideo_1}
 
-从字节数组创建并添加视频到演示。
+从字节数组创建并添加视频到演示文稿。
 
 ```csharp
 public IVideo AddVideo(byte[] videoData)
@@ -75,7 +75,7 @@ public IVideo AddVideo(byte[] videoData)
 
 添加的视频。
 
-### 另请参阅
+### 参见
 
 * 接口 [IVideo](../../ivideo)
 * 接口 [IVideoCollection](../../ivideocollection)

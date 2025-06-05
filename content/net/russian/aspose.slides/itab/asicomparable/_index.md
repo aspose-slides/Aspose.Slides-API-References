@@ -1,6 +1,6 @@
 ---
 title: AsIComparable
-second_title: Aspose.Sildes для .NET Справочник по API
+second_title: Aspose.Slides для .NET API Reference
 description: Возвращает интерфейс IComparable. Только для чтения IComparable.
 type: docs
 weight: 20

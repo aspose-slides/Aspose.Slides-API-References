@@ -6,6 +6,7 @@ type: docs
 weight: 590
 url: /aspose.slides.animation/behaviorproperty/scaley/
 ---
+
 ## BehaviorProperty.ScaleY property
 
 Represents 'ScaleY' property

@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/connectorlock/selectlocked/
 ---
+
 ## ConnectorLock.SelectLocked property
 
 Determines whether a selecting this shape is forbidden. Read/write Boolean.

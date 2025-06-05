@@ -3,9 +3,10 @@ title: NewLineType
 second_title: Aspose.Sildes for .NET API Reference
 description: Type of new line that will be used in generated document.
 type: docs
-weight: 3970
+weight: 4090
 url: /aspose.slides.export/newlinetype/
 ---
+
 ## NewLineType enumeration
 
 Type of new line that will be used in generated document.
@@ -20,7 +21,7 @@ public enum NewLineType
 | --- | --- | --- |
 | Windows | `0` |  |
 | Unix | `1` |  |
-| Mac | `2` | Mac (OS 9) new line - \r |
+| Mac | `2` | Mac (OS 9) new line - \\r |
 
 ### Examples
 

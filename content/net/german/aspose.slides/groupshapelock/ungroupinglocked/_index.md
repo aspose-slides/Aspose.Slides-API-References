@@ -1,21 +1,21 @@
 ---
 title: UngroupingLocked
 second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob das Aufteilen dieser Gruppenform verboten ist. Lese-/Schreib-Boolean.
+description: Bestimmt, ob das Trennen dieser Gruppenform verboten ist. Lese-/Schreibbare Boolesche Variable.
 type: docs
 weight: 70
 url: /de/aspose.slides/groupshapelock/ungroupinglocked/
 ---
 
-## GroupShapeLock.UngroupingLocked-Eigenschaft
+## GroupShapeLock.UngroupingLocked Eigenschaft
 
-Bestimmt, ob das Aufteilen dieser Gruppenform verboten ist. Lese-/Schreib-Boolean.
+Bestimmt, ob das Trennen dieser Gruppenform verboten ist. Lese-/Schreibbare Boolesche Variable.
 
 ```csharp
 public bool UngroupingLocked { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [GroupShapeLock](../../groupshapelock)
 * Namespace [Aspose.Slides](../../groupshapelock)

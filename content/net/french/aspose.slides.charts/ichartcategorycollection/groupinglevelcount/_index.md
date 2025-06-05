@@ -1,15 +1,15 @@
 ---
 title: GroupingLevelCount
 second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie le nombre de niveaux de regroupement de catégories utilisés. Est supérieur à un pour les catégories à plusieurs niveaux. Lecture seule Int32.
+description: Renvoie le nombre de niveaux de regroupement de catégories utilisés. Est supérieur à un pour les catégories multilivres. Int32 en lecture seule.
 type: docs
 weight: 10
 url: /fr/aspose.slides.charts/ichartcategorycollection/groupinglevelcount/
 ---
 
-## Propriété IChartCategoryCollection.GroupingLevelCount
+## IChartCategoryCollection.GroupingLevelCount propriété
 
-Renvoie le nombre de niveaux de regroupement de catégories utilisés. Est supérieur à un pour les catégories à plusieurs niveaux. Lecture seule Int32.
+Renvoie le nombre de niveaux de regroupement de catégories utilisés. Est supérieur à un pour les catégories multilivres. Int32 en lecture seule.
 
 ```csharp
 public int GroupingLevelCount { get; }

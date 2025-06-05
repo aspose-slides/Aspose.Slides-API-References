@@ -1,7 +1,7 @@
 ---
 title: InitColorSchemeFromInherited
-second_title: Aspose.Slides für .NET API-Referenz
-description: Init ColorScheme mit neuem Objekt zum Überschreiben des ColorScheme von InheritedTheme. Und initialisiere die Daten dieses neuen Objekts mit den Daten des ColorScheme von InheritedTheme.
+second_title: Aspose.Slides für .NET API Reference
+description: Init ColorScheme mit einem neuen Objekt zum Überschreiben des ColorScheme des InheritedTheme. Und initialisiere die Daten dieses neuen Objekts mit den Daten des ColorScheme des InheritedTheme.
 type: docs
 weight: 60
 url: /de/aspose.slides.theme/ioverridetheme/initcolorschemefrominherited/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/ioverridetheme/initcolorschemefrominherited/
 
 ## IOverrideTheme.InitColorSchemeFromInherited-Methode
 
-Init ColorScheme mit neuem Objekt zum Überschreiben des ColorScheme von InheritedTheme. Und initialisiere die Daten dieses neuen Objekts mit den Daten des ColorScheme von InheritedTheme.
+Init ColorScheme mit einem neuen Objekt zum Überschreiben des ColorScheme des InheritedTheme. Und initialisiere die Daten dieses neuen Objekts mit den Daten des ColorScheme des InheritedTheme.
 
 ```csharp
 public void InitColorSchemeFromInherited()

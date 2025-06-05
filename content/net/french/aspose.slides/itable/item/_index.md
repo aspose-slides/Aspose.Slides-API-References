@@ -1,5 +1,5 @@
 ---
-title: Élément
+title: Item
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie la cellule aux index de colonne et de ligne spécifiés. Lecture seule ICellaspose.slides/icell.
 type: docs
@@ -15,7 +15,7 @@ Renvoie la cellule aux index de colonne et de ligne spécifiés. Lecture seule [
 public ICell this[int columnIndex, int rowIndex] { get; }
 ```
 
-### Voir aussi
+### Voir Également
 
 * interface [ICell](../../icell)
 * interface [ITable](../../itable)

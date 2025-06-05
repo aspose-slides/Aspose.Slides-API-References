@@ -1,6 +1,6 @@
 ---
 title: SetColumnAlignment
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides for .NET API Reference
 description: Setzen Sie die horizontale Ausrichtung der angegebenen Spalte
 type: docs
 weight: 200
@@ -30,7 +30,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.SetColumnAlignment(0, MathHorizontalAlignment.Left);
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [MathHorizontalAlignment](../../mathhorizontalalignment)
 * class [MathMatrix](../../mathmatrix)

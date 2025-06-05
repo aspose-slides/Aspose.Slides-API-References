@@ -1,13 +1,13 @@
 ---
 title: SetGroupingItem
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Setzt das Gruppierungselement für die definierte Ebene.
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/ichartcategorylevelsmanager/setgroupingitem/
 ---
 
-## IChartCategoryLevelsManager.SetGroupingItem-Methode
+## IChartCategoryLevelsManager.SetGroupingItem Methode
 
 Setzt das Gruppierungselement für die definierte Ebene.
 
@@ -20,7 +20,7 @@ public void SetGroupingItem(int level, object value)
 | level | Int32 | Kategorieebene Int32 |
 | value | Object | Gruppierungselement Objekt |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IChartCategoryLevelsManager](../../ichartcategorylevelsmanager)
 * Namespace [Aspose.Slides.Charts](../../ichartcategorylevelsmanager)

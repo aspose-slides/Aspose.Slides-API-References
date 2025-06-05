@@ -1,7 +1,7 @@
 ---
-title: 持续时间
-second_title: Aspose.Slides for .NET API 参考
-description: 描述动画效果的持续时间。可读可写的单精度浮点数。
+title: Duration
+second_title: Aspose.Sildes for .NET API Reference
+description: 描述动画效果的持续时间。可读写 Single。
 type: docs
 weight: 40
 url: /zh/aspose.slides.animation/timing/duration/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.animation/timing/duration/
 
 ## Timing.Duration 属性
 
-描述动画效果的持续时间。可读可写的单精度浮点数。
+描述动画效果的持续时间。可读写 Single。
 
 ```csharp
 public float Duration { get; set; }
 ```
 
-### 参见
+### 另请参阅
 
 * class [Timing](../../timing)
 * namespace [Aspose.Slides.Animation](../../timing)

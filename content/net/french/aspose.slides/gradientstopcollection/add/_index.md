@@ -1,15 +1,15 @@
 ---
-title: Ajouter
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Crée un nouveau point d'arrêt dégradé et l'ajoute à la fin de la collection.
+title: Add
+second_title: Aspose.Sildes pour la référence API .NET
+description: Crée le nouveau point d'arrêt de dégradé et l'ajoute à la fin de la collection.
 type: docs
 weight: 50
 url: /fr/aspose.slides/gradientstopcollection/add/
 ---
 
-## Ajouter(float, Color) {#add_2}
+## Add(float, Color) {#add_2}
 
-Crée un nouveau point d'arrêt dégradé et l'ajoute à la fin de la collection.
+Crée le nouveau point d'arrêt de dégradé et l'ajoute à la fin de la collection.
 
 ```csharp
 public IGradientStop Add(float position, Color color)
@@ -17,12 +17,12 @@ public IGradientStop Add(float position, Color color)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| position | Single | Position du nouveau point d'arrêt dégradé. |
-| color | Color | Couleur du nouveau point d'arrêt dégradé. |
+| position | Single | Position du nouveau point d'arrêt de dégradé. |
+| color | Color | Couleur du nouveau point d'arrêt de dégradé. |
 
 ### Valeur de retour
 
-Index du nouveau point d'arrêt dégradé dans la collection.
+Index du nouveau point d'arrêt de dégradé dans la collection.
 
 ### Voir aussi
 
@@ -33,9 +33,9 @@ Index du nouveau point d'arrêt dégradé dans la collection.
 
 ---
 
-## Ajouter(float, PresetColor) {#add}
+## Add(float, PresetColor) {#add}
 
-Crée un nouveau point d'arrêt dégradé et l'ajoute à la fin de la collection.
+Crée le nouveau point d'arrêt de dégradé et l'ajoute à la fin de la collection.
 
 ```csharp
 public IGradientStop Add(float position, PresetColor presetColor)
@@ -43,12 +43,12 @@ public IGradientStop Add(float position, PresetColor presetColor)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| position | Single | Position du nouveau point d'arrêt dégradé. |
-| presetColor | PresetColor | Couleur du nouveau point d'arrêt dégradé. |
+| position | Single | Position du nouveau point d'arrêt de dégradé. |
+| presetColor | PresetColor | Couleur du nouveau point d'arrêt de dégradé. |
 
 ### Valeur de retour
 
-Index du nouveau point d'arrêt dégradé dans la collection.
+Index du nouveau point d'arrêt de dégradé dans la collection.
 
 ### Voir aussi
 
@@ -60,9 +60,9 @@ Index du nouveau point d'arrêt dégradé dans la collection.
 
 ---
 
-## Ajouter(float, SchemeColor) {#add_1}
+## Add(float, SchemeColor) {#add_1}
 
-Crée un nouveau point d'arrêt dégradé et l'ajoute à la fin de la collection.
+Crée le nouveau point d'arrêt de dégradé et l'ajoute à la fin de la collection.
 
 ```csharp
 public IGradientStop Add(float position, SchemeColor schemeColor)
@@ -70,12 +70,12 @@ public IGradientStop Add(float position, SchemeColor schemeColor)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| position | Single | Position du nouveau point d'arrêt dégradé. |
-| schemeColor | SchemeColor | Couleur du nouveau point d'arrêt dégradé. |
+| position | Single | Position du nouveau point d'arrêt de dégradé. |
+| schemeColor | SchemeColor | Couleur du nouveau point d'arrêt de dégradé. |
 
 ### Valeur de retour
 
-Index du nouveau point d'arrêt dégradé dans la collection.
+Index du nouveau point d'arrêt de dégradé dans la collection.
 
 ### Voir aussi
 

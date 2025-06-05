@@ -1,7 +1,7 @@
 ---
 title: HyperlinkManager
 second_title: Aspose.Slides für .NET API Referenz
-description: Bietet das Management von Hyperlinks, einschließlich Hinzufügen und Entfernen.
+description: Verwaltung von Hyperlinks hinzufügen und entfernen.
 type: docs
 weight: 4950
 url: /de/aspose.slides/hyperlinkmanager/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/hyperlinkmanager/
 
 ## HyperlinkManager-Klasse
 
-Bietet das Management von Hyperlinks (Hinzufügen, Entfernen).
+Verwaltung von Hyperlinks (Hinzufügen, Entfernen).
 
 ```csharp
 public sealed class HyperlinkManager : IHyperlinkManager
@@ -19,13 +19,13 @@ public sealed class HyperlinkManager : IHyperlinkManager
 
 | Name | Beschreibung |
 | --- | --- |
-| [RemoveHyperlinkClick](../../aspose.slides/hyperlinkmanager/removehyperlinkclick)() | Entfernt Hyperlink beim Klicken. |
-| [RemoveHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/removehyperlinkmouseover)() | Entfernt Hyperlink bei Mouseover. |
-| [SetExternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkclick)(string) | Setzt externen Hyperlink beim Klicken. |
-| [SetExternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkmouseover)(string) | Setzt externen Hyperlink bei Mouseover. |
-| [SetInternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Setzt internen Hyperlink beim Klicken. |
-| [SetInternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | Setzt internen Hyperlink bei Mouseover. |
-| [SetMacroHyperlinkClick](../../aspose.slides/hyperlinkmanager/setmacrohyperlinkclick)(string) | Setzt Makro-Hyperlink beim Klicken. |
+| [RemoveHyperlinkClick](../../aspose.slides/hyperlinkmanager/removehyperlinkclick)() | Entfernt den Hyperlink bei Klick. |
+| [RemoveHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/removehyperlinkmouseover)() | Entfernt den Hyperlink bei Mouseover. |
+| [SetExternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkclick)(string) | Setzt den externen Hyperlink bei Klick. |
+| [SetExternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkmouseover)(string) | Setzt den externen Hyperlink bei Mouseover. |
+| [SetInternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Setzt den internen Hyperlink bei Klick. |
+| [SetInternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | Setzt den internen Hyperlink bei Mouseover. |
+| [SetMacroHyperlinkClick](../../aspose.slides/hyperlinkmanager/setmacrohyperlinkclick)(string) | Setzt den Makro-Hyperlink bei Klick. |
 
 ### Siehe auch
 

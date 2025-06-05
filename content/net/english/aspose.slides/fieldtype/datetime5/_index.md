@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/fieldtype/datetime5/
 ---
+
 ## FieldType.DateTime5 property
 
 Current date and time in a fifth predefined format (DD-Mon-YY for english). Read-only [`FieldType`](../../fieldtype).

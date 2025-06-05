@@ -1,6 +1,6 @@
 ---
-title: Formato
-second_title: Referencia de la API de Aspose.Slides para .NET
+title: Format
+second_title: Aspose.Slides para .NET Referencia de API
 description: Obtiene o establece el relleno del marcador. Solo lectura IFormataspose.slides.charts/iformat.
 type: docs
 weight: 10

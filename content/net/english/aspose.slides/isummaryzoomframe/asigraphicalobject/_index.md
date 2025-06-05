@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/isummaryzoomframe/asigraphicalobject/
 ---
+
 ## ISummaryZoomFrame.AsIGraphicalObject property
 
 Returns IGraphicalObject interface.

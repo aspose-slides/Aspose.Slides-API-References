@@ -1,6 +1,6 @@
 ---
 title: AsIPictureFrame
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Permet d'obtenir l'interface de base IPictureFrame. Lecture seule IPictureFrameaspose.slides/ipictureframe.
 type: docs
 weight: 10

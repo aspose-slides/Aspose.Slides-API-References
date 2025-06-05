@@ -1,7 +1,7 @@
 ---
 title: SlideThemeManager
-second_title: Aspose.Slides для .NET API Справочник
-description: Предоставляет доступ к переопределенной теме слайда.
+second_title: Aspose.Sildes для справки по API .NET
+description: Предоставляет доступ к теме слайда, переопределенной.
 type: docs
 weight: 11160
 url: /ru/aspose.slides.theme/slidethememanager/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.theme/slidethememanager/
 
 ## Класс SlideThemeManager
 
-Предоставляет доступ к переопределенной теме слайда.
+Предоставляет доступ к теме слайда, переопределенной.
 
 ```csharp
 public class SlideThemeManager : BaseOverrideThemeManager
@@ -17,19 +17,19 @@ public class SlideThemeManager : BaseOverrideThemeManager
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Определяет, переопределяет ли OverrideTheme унаследованную действительную тему или нет. Чтобы включить OverrideTheme для переопределения, используйте методы OverrideTheme.Init*(). Чтобы отключить OverrideTheme от переопределения, используйте метод OverrideTheme.Clear(). Свойство только для чтения типа Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Возвращает объект переопределяющей темы. Читаемое/записываемое свойство [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Определяет, переопределяет ли OverrideTheme унаследованную эффективную тему или нет. Чтобы включить OverrideTheme для переопределения, используйте методы OverrideTheme.Init*(). Чтобы отключить OverrideTheme от переопределения, используйте метод OverrideTheme.Clear(). Только для чтения, Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Возвращает объект переопределяющей темы. Чтение/запись [`IOverrideTheme`](../ioverridetheme). |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Применяет дополнительную цветовую схему к слайду. |
 | [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Возвращает объект темы. |
 
-### См. также
+### Смотрите также
 
 * класс [BaseOverrideThemeManager](../baseoverridethememanager)
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)

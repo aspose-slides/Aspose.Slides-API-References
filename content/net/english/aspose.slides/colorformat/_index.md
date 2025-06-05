@@ -3,9 +3,10 @@ title: ColorFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a color used in a presentation.
 type: docs
-weight: 2400
+weight: 2430
 url: /aspose.slides/colorformat/
 ---
+
 ## ColorFormat class
 
 Represents a color used in a presentation.

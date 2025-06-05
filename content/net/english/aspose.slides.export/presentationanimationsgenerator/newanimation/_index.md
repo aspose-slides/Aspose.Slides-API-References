@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.export/presentationanimationsgenerator/newanimation/
 ---
+
 ## PresentationAnimationsGenerator.NewAnimation event
 
 An event represents that a new animation was generated.

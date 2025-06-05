@@ -1,6 +1,6 @@
 ---
-title: Guardar
-second_title: Aspose.Slides para la referencia de API de .NET
+title: Save
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Guarda la imagen en un archivo.
 type: docs
 weight: 40
@@ -83,7 +83,7 @@ public void Save(string filename, ImageFormat format, int quality)
 | --- | --- | --- |
 | filename | String | La ruta al archivo donde se guardará la imagen. |
 | format | ImageFormat | El formato de la imagen. |
-| quality | Int32 | La calidad de la imagen guardada (0 a 100). Este parámetro solo afecta al guardado en Jpeg; para todos los demás formatos, se ignora. |
+| quality | Int32 | La calidad de la imagen guardada (0 a 100). Este parámetro solo afecta la guardado en Jpeg; para todos los demás formatos, es ignorado. |
 
 ### Ver También
 
@@ -106,7 +106,7 @@ public void Save(Stream stream, ImageFormat format, int quality)
 | --- | --- | --- |
 | stream | Stream | El flujo donde se guardará la imagen. |
 | format | ImageFormat | El formato de la imagen. |
-| quality | Int32 | La calidad de la imagen guardada (0 a 100). Este parámetro solo afecta al guardado en Jpeg; para todos los demás formatos, se ignora. |
+| quality | Int32 | La calidad de la imagen guardada (0 a 100). Este parámetro solo afecta la guardado en Jpeg; para todos los demás formatos, es ignorado. |
 
 ### Ver También
 

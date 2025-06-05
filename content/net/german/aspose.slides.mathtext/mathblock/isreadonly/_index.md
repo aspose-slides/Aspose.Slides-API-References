@@ -1,15 +1,15 @@
 ---
 title: IsReadOnly
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt false zurück, da die Sammlung der untergeordneten Elemente geändert werden kann.
+description: Gibt false zurück, da die Sammlung der untergeordneten Elemente verändert werden kann.
 type: docs
 weight: 30
 url: /de/aspose.slides.mathtext/mathblock/isreadonly/
 ---
 
-## MathBlock.IsReadOnly Eigenschaft
+## MathBlock.IsReadOnly-Eigenschaft
 
-Gibt false zurück, da die Sammlung der untergeordneten Elemente geändert werden kann.
+Gibt false zurück, da die Sammlung der untergeordneten Elemente verändert werden kann.
 
 ```csharp
 public bool IsReadOnly { get; }

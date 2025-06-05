@@ -1,23 +1,23 @@
 ---
-title: Präsentation
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt die Präsentation zurück. Nur-Lese-IPresentationaspose.slides/ipresentation.
+title: Presentation
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Präsentation zurück. Schreibgeschütztes IPresentationaspose.slides/ipresentation.
 type: docs
 weight: 50
 url: /de/aspose.slides/picture/presentation/
 ---
 
-## Picture.Presentation-Eigenschaft
+## Picture.Presentation Eigenschaft
 
-Gibt die Präsentation zurück. Nur-Lese [`IPresentation`](../../ipresentation).
+Gibt die Präsentation zurück. Schreibgeschütztes [`IPresentation`](../../ipresentation).
 
 ```csharp
 public IPresentation Presentation { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
-* Schnittstelle [IPresentation](../../ipresentation)
+* Interface [IPresentation](../../ipresentation)
 * Klasse [Picture](../../picture)
 * Namespace [Aspose.Slides](../../picture)
 * Assembly [Aspose.Slides](../../../)

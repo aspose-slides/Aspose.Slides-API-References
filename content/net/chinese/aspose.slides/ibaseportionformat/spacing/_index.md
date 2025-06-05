@@ -1,21 +1,21 @@
 ---
-title: 间距
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置字符间距增量。 **float.NaN** 意味着值未定义，应从母版继承。可读/写单精度。
+title: Spacing
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置字符间距增量。 **float.NaN** 意味着值是未定义的，应从母版继承。可读/写单精度浮点数。
 type: docs
 weight: 210
 url: /zh/aspose.slides/ibaseportionformat/spacing/
 ---
 
-## IBasePortionFormat.Spacing 属性
+## IBasePortionFormat.Spacing property
 
-返回或设置字符间距增量。 **float.NaN** 意味着值未定义，应从母版继承。可读/写单精度。
+返回或设置字符间距增量。 **float.NaN** 意味着值是未定义的，应从母版继承。可读/写单精度浮点数。
 
 ```csharp
 public float Spacing { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IBasePortionFormat](../../ibaseportionformat)
 * 命名空间 [Aspose.Slides](../../ibaseportionformat)

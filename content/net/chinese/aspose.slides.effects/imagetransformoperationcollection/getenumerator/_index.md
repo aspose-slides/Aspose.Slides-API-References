@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Slides for .NET API Reference
-description: 返回一个枚举器，用于遍历集合。
+description: 返回一个遍历集合的枚举器。
 type: docs
 weight: 250
 url: /zh/aspose.slides.effects/imagetransformoperationcollection/getenumerator/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/imagetransformoperationcollection/getenumerator/
 
 ## ImageTransformOperationCollection.GetEnumerator 方法
 
-返回一个枚举器，用于遍历集合。
+返回一个遍历集合的枚举器。
 
 ```csharp
 public IEnumerator<IImageTransformOperation> GetEnumerator()
@@ -17,9 +17,9 @@ public IEnumerator<IImageTransformOperation> GetEnumerator()
 
 ### 返回值
 
-一个可以用于遍历集合的 IEnumerator。
+一个可以用来遍历集合的 IEnumerator。
 
-### 另请参见
+### 另见
 
 * 接口 [IImageTransformOperation](../../iimagetransformoperation)
 * 类 [ImageTransformOperationCollection](../../imagetransformoperationcollection)

@@ -6,6 +6,7 @@ type: docs
 weight: 190
 url: /aspose.slides/presentation/mastertheme/
 ---
+
 ## Presentation.MasterTheme property
 
 Returns master theme. Read-only [`IMasterTheme`](../../../aspose.slides.theme/imastertheme).

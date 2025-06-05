@@ -1,7 +1,7 @@
 ---
 title: ToString
-second_title: Aspose.Slides for .NET API Reference
-description: 返回字符串表示形式。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回字符串表示。
 type: docs
 weight: 50
 url: /zh/aspose.slides.charts/istringchartvalue/tostring/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/istringchartvalue/tostring/
 
 ## IStringChartValue.ToString 方法
 
-返回字符串表示形式。
+返回字符串表示。
 
 ```csharp
 public string ToString()
@@ -17,9 +17,9 @@ public string ToString()
 
 ### 返回值
 
-值的字符串表示形式 String
+值的字符串表示 String
 
-### 参见
+### 另请参阅
 
 * 接口 [IStringChartValue](../../istringchartvalue)
 * 命名空间 [Aspose.Slides.Charts](../../istringchartvalue)

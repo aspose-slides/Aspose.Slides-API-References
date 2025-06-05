@@ -1,15 +1,15 @@
 ---
 title: Overbar
-second_title: Référence API Aspose.Slides pour .NET
-description: Définit une barre en haut de cet élément
+second_title: Aspose.Slides pour .NET Référence API
+description: Définit une barre sur le dessus de cet élément
 type: docs
 weight: 100
 url: /fr/aspose.slides.mathtext/mathelementbase/overbar/
 ---
 
-## Méthode MathElementBase.Overbar
+## MathElementBase.Overbar méthode
 
-Définit une barre en haut de cet élément
+Définit une barre sur le dessus de cet élément
 
 ```csharp
 public IMathBar Overbar()
@@ -21,7 +21,7 @@ Nouvelle instance de type [`IMathBar`](../../imathbar)
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

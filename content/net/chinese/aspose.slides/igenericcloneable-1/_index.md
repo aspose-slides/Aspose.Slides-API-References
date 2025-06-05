@@ -1,6 +1,6 @@
 ---
 title: IGenericCloneableT
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Slides for .NET API Reference
 description: 表示 ICloneable 的泛型版本
 type: docs
 weight: 5750
@@ -29,9 +29,9 @@ public interface IGenericCloneable<T> : ICloneable
 
 | 名称 | 描述 |
 | --- | --- |
-| [CloneT](../../aspose.slides/igenericcloneable`1/clonet)() | 创建一个新的对象，该对象是当前实例的副本。 |
+| [CloneT](../../aspose.slides/igenericcloneable`1/clonet)() | 创建一个当前实例的副本的新对象。 |
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

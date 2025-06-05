@@ -1,7 +1,7 @@
 ---
 title: EditPointsLocked
 second_title: Referencia de la API Aspose.Slides para .NET
-description: Determina si está prohibido cambiar directamente el contorno de esta forma. Booleano de lectura y escritura.
+description: Determina si se prohíbe el cambio directo del contorno de esta forma. Booleano de lectura y escritura.
 type: docs
 weight: 50
 url: /es/aspose.slides/iautoshapelock/editpointslocked/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/iautoshapelock/editpointslocked/
 
 ## Propiedad IAutoShapeLock.EditPointsLocked
 
-Determina si está prohibido cambiar directamente el contorno de esta forma. Booleano de lectura y escritura.
+Determina si se prohíbe el cambio directo del contorno de esta forma. Booleano de lectura y escritura.
 
 ```csharp
 public bool EditPointsLocked { get; set; }
@@ -19,6 +19,6 @@ public bool EditPointsLocked { get; set; }
 
 * interfaz [IAutoShapeLock](../../iautoshapelock)
 * espacio de nombres [Aspose.Slides](../../iautoshapelock)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

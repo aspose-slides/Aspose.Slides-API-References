@@ -6,6 +6,7 @@ type: docs
 weight: 260
 url: /aspose.slides/shapecollection/indexof/
 ---
+
 ## ShapeCollection.IndexOf method
 
 Returns the zero-based index of the first occurrence of a shape in the collection.

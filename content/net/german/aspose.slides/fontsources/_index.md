@@ -1,5 +1,5 @@
 ---
-title: Schriftquellen
+title: FontSources
 second_title: Aspose.Slides für .NET API-Referenz
 description: Bietet Datei- und Speicherquellen für externe Schriftarten.
 type: docs
@@ -7,7 +7,7 @@ weight: 4670
 url: /de/aspose.slides/fontsources/
 ---
 
-## Schriftquellen-Klasse
+## FontSources-Klasse
 
 Bietet Datei- und Speicherquellen für externe Schriftarten.
 
@@ -25,8 +25,8 @@ public class FontSources : IFontSources
 
 | Name | Beschreibung |
 | --- | --- |
-| [FontFolders](../../aspose.slides/fontsources/fontfolders) { get; set; } | Ordner, die Schriftdateien enthalten. Alle Schriftdateien in diesen Ordnern werden in die Sammlung aufgenommen. Ordner, die rekursiv durchsucht werden. |
-| [MemoryFonts](../../aspose.slides/fontsources/memoryfonts) { get; set; } | Eine Sammlung von Schriftarten, die als Byte-Arrays dargestellt sind. |
+| [FontFolders](../../aspose.slides/fontsources/fontfolders) { get; set; } | Ordner, die Schriftdateien enthalten. Alle Schriftdateien, die sich in diesen Ordnern befinden, sind in der Sammlung enthalten. Ordner, die rekursiv durchsucht werden. |
+| [MemoryFonts](../../aspose.slides/fontsources/memoryfonts) { get; set; } | Eine Sammlung von Schriftarten, die als Byte-Arrays dargestellt werden. |
 
 ### Siehe auch
 

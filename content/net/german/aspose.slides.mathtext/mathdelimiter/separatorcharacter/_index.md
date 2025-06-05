@@ -1,7 +1,7 @@
 ---
 title: SeparatorCharacter
-second_title: Aspose.Slides für .NET API Referenz
-description: Der Trennzeichen Separator Character gibt das Zeichen an, das die Argumente im Trennobjekt trennt. Der Standardwert ist x7C.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Der Trennzeichen-Trenncharakter gibt das Zeichen an, das die Argumente im Trennobjekt trennt. Der Standard ist x7C.
 type: docs
 weight: 70
 url: /de/aspose.slides.mathtext/mathdelimiter/separatorcharacter/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/mathdelimiter/separatorcharacter/
 
 ## MathDelimiter.SeparatorCharacter-Eigenschaft
 
-Der Trennzeichen Separator Character gibt das Zeichen an, das die Argumente im Trennobjekt trennt. Der Standardwert: '&#x7C;'.
+Der Trennzeichen-Trenncharakter gibt das Zeichen an, das die Argumente im Trennobjekt trennt. Der Standard: '&#x7C;'.
 
 ```csharp
 public char SeparatorCharacter { get; set; }

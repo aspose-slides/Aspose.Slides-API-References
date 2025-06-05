@@ -1,6 +1,6 @@
 ---
-title: Effacer
-second_title: Référence API Aspose.Slides pour .NET
+title: Clear
+second_title: Aspose.Sildes pour la référence API .NET
 description: Supprime tous les éléments de la collection.
 type: docs
 weight: 40

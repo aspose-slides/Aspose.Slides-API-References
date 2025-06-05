@@ -1,15 +1,15 @@
 ---
 title: IImageWrapper
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Wrapper System.Drawing.Image pour l'interface COM.
+second_title: Référence API Aspose.Slides pour .NET
+description: Enveloppe de System.Drawing.Image pour l'interface COM.
 type: docs
 weight: 5970
 url: /fr/aspose.slides/iimagewrapper/
 ---
 
-## Interface IImageWrapper
+## interface IImageWrapper
 
-Wrapper System.Drawing.Image pour l'interface COM.
+Enveloppe de System.Drawing.Image pour l'interface COM.
 
 ```csharp
 public interface IImageWrapper : IDisposable
@@ -19,19 +19,19 @@ public interface IImageWrapper : IDisposable
 
 | Nom | Description |
 | --- | --- |
-| [AsIDisposable](../../aspose.slides/iimagewrapper/asidisposable) { get; } | Retourne l'interface IDisposable. Lecture seule IDisposable. |
-| [ImageSource](../../aspose.slides/iimagewrapper/imagesource) { get; } | Obtient l'image. Image en lecture seule. |
-| [Size](../../aspose.slides/iimagewrapper/size) { get; } | Obtient la largeur et la hauteur, en pixels, de l'image. [`Size`](./size) en lecture seule. |
+| [AsIDisposable](../../aspose.slides/iimagewrapper/asidisposable) { get; } | Renvoie l'interface IDisposable. Lecture seule IDisposable. |
+| [ImageSource](../../aspose.slides/iimagewrapper/imagesource) { get; } | Obtient l'image Lecture seule Image. |
+| [Size](../../aspose.slides/iimagewrapper/size) { get; } | Obtient la largeur et la hauteur, en pixels, de l'Image Lecture seule [`Size`](./size). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | Enregistre l'image dans le fichier spécifié. |
-| [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | Enregistre l'image dans le flux spécifié dans le format spécifié. |
-| [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | Enregistre l'image dans le fichier spécifié dans le format spécifié. |
+| [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | Enregistre l'Image dans le fichier spécifié |
+| [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | Enregistre l'Image dans le flux spécifié dans le format spécifié. |
+| [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | Enregistre l'Image dans le fichier spécifié dans le format spécifié. |
 
-### Voir Aussi
+### Voir aussi
 
 * espace de noms [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

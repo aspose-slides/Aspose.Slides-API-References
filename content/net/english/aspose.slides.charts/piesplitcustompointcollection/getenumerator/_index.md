@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.charts/piesplitcustompointcollection/getenumerator/
 ---
+
 ## PieSplitCustomPointCollection.GetEnumerator method
 
 Returns an enumerator that iterates through the collection.

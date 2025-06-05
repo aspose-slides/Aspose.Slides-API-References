@@ -1,6 +1,6 @@
 ---
 title: GroupingLocked
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Определяет, запрещено ли добавление этой фигуры в группу. Читаемое/записываемое логическое значение.
 type: docs
 weight: 60

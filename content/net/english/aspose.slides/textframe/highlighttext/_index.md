@@ -1,14 +1,15 @@
 ---
 title: HighlightText
 second_title: Aspose.Sildes for .NET API Reference
-description: Highlight all matches of sample in text frame text using specified color.
+description: Highlights all matches of the sample text with the specified color.
 type: docs
-weight: 80
+weight: 100
 url: /aspose.slides/textframe/highlighttext/
 ---
+
 ## HighlightText(string, Color) {#highlighttext}
 
-Highlight all matches of sample in text frame text using specified color.
+Highlights all matches of the sample text with the specified color.
 
 ```csharp
 public void HighlightText(string text, Color highlightColor)
@@ -17,7 +18,7 @@ public void HighlightText(string text, Color highlightColor)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | text | String | Text sample to highlight. |
-| highlightColor | Color | Highlighting color. |
+| highlightColor | Color | The color to highlight the text. |
 
 ### See Also
 
@@ -27,41 +28,43 @@ public void HighlightText(string text, Color highlightColor)
 
 ---
 
-## HighlightText(string, Color, ITextHighlightingOptions) {#highlighttext_1}
+## HighlightText(string, Color, ITextSearchOptions, IFindResultCallback) {#highlighttext_2}
 
-Highlight all matches of sample in text frame text using specified color.
+Highlights all matches of the sample text with the specified color.
 
 ```csharp
-public void HighlightText(string text, Color highlightColor, ITextHighlightingOptions options)
+public void HighlightText(string text, Color highlightColor, ITextSearchOptions options, 
+    IFindResultCallback callback)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | String | Text sample to highlight. |
-| highlightColor | Color | Highlighting color. |
-| options | ITextHighlightingOptions | Highlighting options. |
+| text | String | The text to highlight. |
+| highlightColor | Color | The color to highlight the text. |
+| options | ITextSearchOptions | Text search options [`ITextSearchOptions`](../../itextsearchoptions). |
+| callback | IFindResultCallback | The callback object for receiving search results [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Examples
 
-The following sample code shows how to Highlight Text in a PowerPoint Presentation.
+The following code sample shows how to highlight text in a TextFrame.
 
 ```csharp
 [C#]
-using (Presentation presentation = new Presentation("SomePresentation.pptx")){
+using (Presentation presentation = new Presentation("SomePresentation.pptx"))
+{
 	// highlighting all words 'important'
-	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("title", Color.LightBlue);
+	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("important", Color.LightBlue);
 	// highlighting all separate 'the' occurrences
-	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("to", Color.Violet, new TextHighlightingOptions()
-	{
-		WholeWordsOnly = true
-	});
+	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("the", Color.Violet, new TextSearchOptions()
+	{ WholeWordsOnly = true }, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 }
 ```
 
 ### See Also
 
-* interface [ITextHighlightingOptions](../../itexthighlightingoptions)
+* interface [ITextSearchOptions](../../itextsearchoptions)
+* interface [IFindResultCallback](../../ifindresultcallback)
 * class [TextFrame](../../textframe)
 * namespace [Aspose.Slides](../../textframe)
 * assembly [Aspose.Slides](../../../)

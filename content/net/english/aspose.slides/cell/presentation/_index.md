@@ -6,6 +6,7 @@ type: docs
 weight: 170
 url: /aspose.slides/cell/presentation/
 ---
+
 ## Cell.Presentation property
 
 Returns the parent presentation of a cell. Read-only [`IPresentation`](../../ipresentation).

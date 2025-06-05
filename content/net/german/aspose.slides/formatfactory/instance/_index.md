@@ -1,15 +1,15 @@
 ---
-title: Instanz
-second_title: Aspose.Slides für .NET API-Referenz
-description: Formatfabrik statische Instanz. Nur-Lese FormatFactoryaspose.slides/formatfactory.
+title: Instance
+second_title: Aspose.Slides für .NET API Referenz
+description: Format-Fabrik statische Instanz. Nur-Lese FormatFactoryaspose.slides/formatfactory.
 type: docs
 weight: 20
 url: /de/aspose.slides/formatfactory/instance/
 ---
 
-## FormatFactory.Instance-Eigenschaft
+## FormatFactory.Instance Eigenschaft
 
-Formatfabrik statische Instanz. Nur-Lese [`FormatFactory`](../../formatfactory).
+Format-Fabrik statische Instanz. Nur-Lese [`FormatFactory`](../../formatfactory).
 
 ```csharp
 public static FormatFactory Instance { get; }

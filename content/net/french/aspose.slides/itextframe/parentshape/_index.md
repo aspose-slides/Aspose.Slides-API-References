@@ -17,7 +17,7 @@ public IShape ParentShape { get; }
 
 ### Exemples
 
-Le code exemple suivant montre
+Le code suivant montre
 
 ```csharp
 [C#]

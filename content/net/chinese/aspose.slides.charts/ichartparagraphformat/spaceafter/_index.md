@@ -1,7 +1,7 @@
 ---
 title: SpaceAfter
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置段落最后一行后的间距。可读/可写 单精度浮点数。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置段落最后一行后面的空间量。可读写单精度浮点数。
 type: docs
 weight: 110
 url: /zh/aspose.slides.charts/ichartparagraphformat/spaceafter/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ichartparagraphformat/spaceafter/
 
 ## IChartParagraphFormat.SpaceAfter 属性
 
-返回或设置段落最后一行后的间距。可读/可写 单精度浮点数。
+返回或设置段落最后一行后面的空间量。可读写单精度浮点数。
 
 ```csharp
 public float SpaceAfter { get; set; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IChartParagraphFormat](../../ichartparagraphformat)
 * 命名空间 [Aspose.Slides.Charts](../../ichartparagraphformat)

@@ -1,6 +1,6 @@
 ---
 title: RemoveNode
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Knoten oder Unterknoten nach Index entfernen.
 type: docs
 weight: 40
@@ -23,7 +23,7 @@ public void RemoveNode(int index)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentOutOfRangeException | Der Index ist kleiner als 0. -oder- der Index ist gleich oder größer als die Anzahl der Geschwister. |
+| ArgumentOutOfRangeException | index ist kleiner als 0. -oder- index ist gleich oder größer als die Anzahl der Geschwister. |
 
 ### Siehe Auch
 
@@ -43,7 +43,7 @@ public void RemoveNode(ISmartArtNode nodeObj)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| nodeObj | ISmartArtNode | Knoten, der entfernt werden soll. |
+| nodeObj | ISmartArtNode | Zu entfernender Knoten. |
 
 ### Siehe Auch
 

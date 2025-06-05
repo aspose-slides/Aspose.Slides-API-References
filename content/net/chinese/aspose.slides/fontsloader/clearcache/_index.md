@@ -1,7 +1,7 @@
 ---
-title: 清除缓存
-second_title: Aspose.Slides for .NET API 参考
-description: 释放所有用户定义的自定义字体
+title: ClearCache
+second_title: Aspose.Sildes for .NET API Reference
+description: 释放用户定义的所有自定义字体
 type: docs
 weight: 10
 url: /zh/aspose.slides/fontsloader/clearcache/
@@ -9,15 +9,15 @@ url: /zh/aspose.slides/fontsloader/clearcache/
 
 ## FontsLoader.ClearCache 方法
 
-释放所有用户定义的自定义字体
+释放用户定义的所有自定义字体
 
 ```csharp
 public static void ClearCache()
 ```
 
-### 备注
+### 说明
 
-该方法需要清除用户定义的自定义字体的缓存。
+此方法需要清除用户定义的自定义字体缓存。
 
 ### 参见
 

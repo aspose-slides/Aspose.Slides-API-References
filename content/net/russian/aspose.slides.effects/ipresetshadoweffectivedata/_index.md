@@ -1,7 +1,7 @@
 ---
 title: IPresetShadowEffectiveData
-second_title: Aspose.Slides для .NET API Справочник
-description: Неизменяемый объект, представляющий эффект предварительно заданной тени.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Неизменяемый объект, представляющий эффект предустановленной тени.
 type: docs
 weight: 3370
 url: /ru/aspose.slides.effects/ipresetshadoweffectivedata/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/ipresetshadoweffectivedata/
 
 ## Интерфейс IPresetShadowEffectiveData
 
-Неизменяемый объект, представляющий эффект предварительно заданной тени.
+Неизменяемый объект, представляющий эффект предустановленной тени.
 
 ```csharp
 public interface IPresetShadowEffectiveData : IEffectEffectiveData
@@ -17,7 +17,7 @@ public interface IPresetShadowEffectiveData : IEffectEffectiveData
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ipresetshadoweffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Direction](../../aspose.slides.effects/ipresetshadoweffectivedata/direction) { get; } | Направление тени. Только для чтения Single. |

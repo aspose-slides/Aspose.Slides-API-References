@@ -1,7 +1,7 @@
 ---
 title: HangingPunctuation
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si la ponctuation pendante est utilisée dans un paragraphe. Lecture/écriture NullableBoolaspose.slides/nullablebool.
+description: Détermine si la ponctuation suspendue est utilisée dans un paragraphe. Lecture/écriture NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 50
 url: /fr/aspose.slides.charts/ichartparagraphformat/hangingpunctuation/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ichartparagraphformat/hangingpunctuation/
 
 ## Propriété IChartParagraphFormat.HangingPunctuation
 
-Détermine si la ponctuation pendante est utilisée dans un paragraphe. Lecture/écriture [`NullableBool`](../../../aspose.slides/nullablebool).
+Détermine si la ponctuation suspendue est utilisée dans un paragraphe. Lecture/écriture [`NullableBool`](../../../aspose.slides/nullablebool).
 
 ```csharp
 public NullableBool HangingPunctuation { get; set; }

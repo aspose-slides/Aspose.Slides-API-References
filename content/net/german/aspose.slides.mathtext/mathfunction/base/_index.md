@@ -1,5 +1,5 @@
 ---
-title: Basis
+title: Base
 second_title: Aspose.Slides für .NET API-Referenz
 description: Funktionsargument
 type: docs
@@ -25,7 +25,7 @@ IMathFunction func = new MathematicalText("sin").Function("x");
 IMathElement base = func.Base;
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMathElement](../../imathelement)
 * Klasse [MathFunction](../../mathfunction)

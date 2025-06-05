@@ -1,6 +1,6 @@
 ---
-title: Количество
-second_title: Справочник по API Aspose.Slides для .NET
+title: Count
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает количество путей в коллекции. Только для чтения Int32.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/motionpath/count/
 public int Count { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [MotionPath](../../motionpath)
 * пространство имен [Aspose.Slides.Animation](../../motionpath)

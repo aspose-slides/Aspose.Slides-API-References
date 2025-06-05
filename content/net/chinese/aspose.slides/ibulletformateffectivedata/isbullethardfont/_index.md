@@ -1,7 +1,7 @@
 ---
 title: IsBulletHardFont
-second_title: Aspose.Sildes for .NET API 参考
-description: 确定项目符号是否具有自己的字体，或者是否从段落中的第一个部分继承它。如果项目符号具有自己的字体，则返回 **true**；如果项目符号从段落中的第一个部分继承字体，则返回 **true**。为只读布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定项目符号是否具有自己的字体或从段落中的第一部分继承字体。如果项目符号具有自己的字体，则返回 **true**；如果项目符号从段落中的第一部分继承字体，则返回 **true**。为只读布尔值。
 type: docs
 weight: 70
 url: /zh/aspose.slides/ibulletformateffectivedata/isbullethardfont/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ibulletformateffectivedata/isbullethardfont/
 
 ## IBulletFormatEffectiveData.IsBulletHardFont 属性
 
-确定项目符号是否具有自己的字体，或者是否从段落中的第一个部分继承它。如果项目符号具有自己的字体，则返回 **true**；如果项目符号从段落中的第一个部分继承字体，则返回 **true**。为只读布尔值。
+确定项目符号是否具有自己的字体或从段落中的第一部分继承字体。如果项目符号具有自己的字体，则返回 **true**；如果项目符号从段落中的第一部分继承字体，则返回 **true**。为只读布尔值。
 
 ```csharp
 public bool IsBulletHardFont { get; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IBulletFormatEffectiveData](../../ibulletformateffectivedata)
 * 命名空间 [Aspose.Slides](../../ibulletformateffectivedata)

@@ -1,7 +1,7 @@
 ---
-title: SensibiliteDossier
-second_title: Aspose.Slides pour .NET Référence API
-description: Définir sur vrai pour utiliser une recherche sensible à la casse, faux - sinon. Lecture/écriture Booléen.
+title: CaseSensitive
+second_title: Aspose.Sildes pour la référence de l'API .NET
+description: Définir sur vrai pour utiliser une recherche sensible à la casse, faux - sinon. Booléen en lecture/écriture.
 type: docs
 weight: 20
 url: /fr/aspose.slides/textsearchoptions/casesensitive/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/textsearchoptions/casesensitive/
 
 ## Propriété TextSearchOptions.CaseSensitive
 
-Définir sur vrai pour utiliser une recherche sensible à la casse, faux - sinon. Lecture/écriture Booléen.
+Définir sur vrai pour utiliser une recherche sensible à la casse, faux - sinon. Booléen en lecture/écriture.
 
 ```csharp
 public bool CaseSensitive { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [TextSearchOptions](../../textsearchoptions)
 * espace de noms [Aspose.Slides](../../textsearchoptions)

@@ -1,13 +1,13 @@
 ---
-title: Размер заметок
-second_title: Справка по API Aspose.Sildes для .NET
+title: NotesSize
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет размер слайда заметок.
 type: docs
 weight: 8860
 url: /ru/aspose.slides/notessize/
 ---
 
-## Класс NotesSize
+## NotesSize class
 
 Представляет размер слайда заметок.
 
@@ -25,7 +25,7 @@ public class NotesSize : INotesSize
 
 | Имя | Описание |
 | --- | --- |
-| [Size](../../aspose.slides/notessize/size) { get; set; } | Возвращает или задает размер в пунктах. Читаемо/записываемо SizeF. |
+| [Size](../../aspose.slides/notessize/size) { get; set; } | Возвращает или задает размер в пунктах. Чтение/запись SizeF. |
 
 ### Смотрите также
 

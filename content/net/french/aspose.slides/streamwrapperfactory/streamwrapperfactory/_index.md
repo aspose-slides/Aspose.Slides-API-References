@@ -1,6 +1,6 @@
 ---
 title: StreamWrapperFactory
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour référence API .NET
 description: Le constructeur par défaut.
 type: docs
 weight: 10

@@ -1,13 +1,13 @@
 ---
 title: AsIHtmlFormattingController
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Renvoie l'interface IHtmlFormattingController.
 type: docs
 weight: 10
 url: /fr/aspose.slides.export/iresponsivehtmlcontroller/asihtmlformattingcontroller/
 ---
 
-## Propriété IResponsiveHtmlController.AsIHtmlFormattingController
+## IResponsiveHtmlController.AsIHtmlFormattingController propriété
 
 Renvoie l'interface IHtmlFormattingController.
 

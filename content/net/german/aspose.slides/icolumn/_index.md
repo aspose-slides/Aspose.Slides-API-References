@@ -19,10 +19,10 @@ public interface IColumn : IBulkTextFormattable, ICellCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | Ermöglicht den Zugriff auf die Basis-IBulkTextFormattable-Schnittstelle. Nur lesbar [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | Ermöglicht den Zugriff auf die Basis-ICellCollection-Schnittstelle. Nur lesbar [`ICellCollection`](../icellcollection). |
-| [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | Gibt das ColumnFormat-Objekt zurück, das Formatierungseigenschaften für diese Spalte enthält. Nur lesbar [`IColumnFormat`](../icolumnformat). |
-| [Width](../../aspose.slides/icolumn/width) { get; set; } | Gibt die Breite einer Spalte zurück oder setzt sie. Lese-/Schreibzugriff Double. |
+| [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IBulkTextFormattable. Nur lesbar [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle ICellCollection. Nur lesbar [`ICellCollection`](../icellcollection). |
+| [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | Gibt das ColumnFormat-Objekt zurück, das Formatierungsattribute für diese Spalte enthält. Nur lesbar [`IColumnFormat`](../icolumnformat). |
+| [Width](../../aspose.slides/icolumn/width) { get; set; } | Gibt die Breite einer Spalte zurück oder legt sie fest. Lese-/Schreibzugriff Double. |
 
 ### Siehe auch
 

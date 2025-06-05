@@ -1,7 +1,7 @@
 ---
 title: IsSynchronized
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回一个值，指示对集合的访问是否是线程安全的。只读布尔值。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回一个值，指示对集合的访问是否是线程安全的同步。只读布尔值。
 type: docs
 weight: 20
 url: /zh/aspose.slides.vba/vbareferencecollection/issynchronized/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.vba/vbareferencecollection/issynchronized/
 public bool IsSynchronized { get; }
 ```
 
-### 另请参见
+### 参见
 
 * 类 [VbaReferenceCollection](../../vbareferencecollection)
 * 命名空间 [Aspose.Slides.Vba](../../vbareferencecollection)

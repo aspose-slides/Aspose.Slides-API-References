@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.charts/ichartparagraphformat/indent/
 ---
+
 ## IChartParagraphFormat.Indent property
 
 Returns or sets paragraph First Line Indent/Hanging Indent. Hanging Indent can be defined with negative values. Read/write Single.

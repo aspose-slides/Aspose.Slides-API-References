@@ -1,13 +1,13 @@
 ---
 title: RowFormat
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет формат строки таблицы.
 type: docs
 weight: 9460
 url: /ru/aspose.slides/rowformat/
 ---
 
-## Класс RowFormat
+## RowFormat class
 
 Представляет формат строки таблицы.
 

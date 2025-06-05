@@ -1,7 +1,7 @@
 ---
-title: Pfad
+title: Path
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Pfadprimitive gefolgt von Koordinaten für die Animationsbewegung an. Lese-/Schreibzugriff auf IMotionPathaspose.slides/imotionpath.
+description: Gibt das Pfadprimitive an, gefolgt von Koordinaten für die Animationsbewegung. Schreib-/Lesezugriff auf IMotionPathaspose.slides/imotionpath.
 type: docs
 weight: 60
 url: /de/aspose.slides.animation/motioneffect/path/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.animation/motioneffect/path/
 
 ## MotionEffect.Path-Eigenschaft
 
-Gibt die Pfadprimitive gefolgt von Koordinaten für die Animationsbewegung an. Lese-/Schreibzugriff auf [`IMotionPath`](../../imotionpath).
+Gibt das Pfadprimitive an, gefolgt von Koordinaten für die Animationsbewegung. Schreib-/Lesezugriff auf [`IMotionPath`](../../imotionpath).
 
 ```csharp
 public IMotionPath Path { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IMotionPath](../../imotionpath)
 * Klasse [MotionEffect](../../motioneffect)

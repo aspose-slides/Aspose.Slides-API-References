@@ -1,7 +1,7 @@
 ---
-title: Etiqueta
+title: Label
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve o establece la etiqueta de los subtítulos. Lectura/escritura String.
+description: Devuelve o establece la etiqueta de los subtítulos. Cadena de lectura/escritura.
 type: docs
 weight: 40
 url: /es/aspose.slides/captions/label/
@@ -9,15 +9,15 @@ url: /es/aspose.slides/captions/label/
 
 ## Propiedad Captions.Label
 
-Devuelve o establece la etiqueta de los subtítulos. Lectura/escritura String.
+Devuelve o establece la etiqueta de los subtítulos. Cadena de lectura/escritura.
 
 ```csharp
 public string Label { get; set; }
 ```
 
-### Véase también
+### Ver También
 
-* clase [Captions](../../captions)
+* class [Captions](../../captions)
 * namespace [Aspose.Slides](../../captions)
 * assembly [Aspose.Slides](../../../)
 

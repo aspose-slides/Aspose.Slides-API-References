@@ -1,21 +1,21 @@
 ---
 title: PointsType
-second_title: Aspose.Slides для .NET API Справочник
-description: Указывает тип командных точек Чтение/запись MotionPathPointsType aspose.slides.animation/motionpathpointstype.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Указывает тип точек команды Read/write MotionPathPointsTypeaspose.slides.animation/motionpathpointstype.
 type: docs
 weight: 40
 url: /ru/aspose.slides.animation/motioncmdpath/pointstype/
 ---
 
-## Свойство MotionCmdPath.PointsType
+## MotionCmdPath.PointsType свойство
 
-Указывает тип командных точек Чтение/запись [`MotionPathPointsType`](../../motionpathpointstype).
+Указывает тип точек команды Read/write [`MotionPathPointsType`](../../motionpathpointstype).
 
 ```csharp
 public MotionPathPointsType PointsType { get; set; }
 ```
 
-### См. Также
+### См. также
 
 * enum [MotionPathPointsType](../../motionpathpointstype)
 * class [MotionCmdPath](../../motioncmdpath)

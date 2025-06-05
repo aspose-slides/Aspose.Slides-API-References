@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.effects/ialphamodulatefixed/amount/
 ---
+
 ## IAlphaModulateFixed.Amount property
 
 Returns an amount of effect in percents. Read/write Single.

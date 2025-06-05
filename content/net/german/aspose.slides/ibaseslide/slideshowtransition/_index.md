@@ -1,7 +1,7 @@
 ---
 title: SlideShowTransition
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das TransitionEx-Objekt zurück, das Informationen darüber enthält, wie die angegebene Folie während einer Diashow voranschreitet. Nur lesezugriff ISlideShowTransitionaspose.slides/islideshowtransition.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt das TransitionEx-Objekt zurück, das Informationen darüber enthält, wie die angegebene Folie während einer Präsentation voranschreitet. Nur lesbar ISlideShowTransitionaspose.slides/islideshowtransition.
 type: docs
 weight: 100
 url: /de/aspose.slides/ibaseslide/slideshowtransition/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ibaseslide/slideshowtransition/
 
 ## IBaseSlide.SlideShowTransition-Eigenschaft
 
-Gibt das TransitionEx-Objekt zurück, das Informationen darüber enthält, wie die angegebene Folie während einer Diashow voranschreitet. Nur lesezugriff [`ISlideShowTransition`](../../islideshowtransition).
+Gibt das TransitionEx-Objekt zurück, das Informationen darüber enthält, wie die angegebene Folie während einer Präsentation voranschreitet. Nur lesbar [`ISlideShowTransition`](../../islideshowtransition).
 
 ```csharp
 public ISlideShowTransition SlideShowTransition { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ISlideShowTransition](../../islideshowtransition)
 * Schnittstelle [IBaseSlide](../../ibaseslide)

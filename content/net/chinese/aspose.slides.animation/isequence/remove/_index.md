@@ -1,7 +1,7 @@
 ---
-title: 移除
-second_title: Aspose.Slides for .NET API 参考
-description: 从集合中移除指定效果。
+title: Remove
+second_title: Aspose.Sildes for .NET API Reference
+description: 从集合中删除指定效果。
 type: docs
 weight: 100
 url: /zh/aspose.slides.animation/isequence/remove/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/isequence/remove/
 
 ## ISequence.Remove 方法
 
-从集合中移除指定效果。
+从集合中删除指定效果。
 
 ```csharp
 public void Remove(IEffect item)
@@ -17,9 +17,9 @@ public void Remove(IEffect item)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| item | IEffect | 要移除的效果。 |
+| item | IEffect | 要删除的效果。 |
 
-### 参考
+### 参见
 
 * 接口 [IEffect](../../ieffect)
 * 接口 [ISequence](../../isequence)

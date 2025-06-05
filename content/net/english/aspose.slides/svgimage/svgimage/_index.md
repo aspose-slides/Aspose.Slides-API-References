@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/svgimage/svgimage/
 ---
+
 ## SvgImage(byte[]) {#constructor}
 
 Creates new SvgImage object.

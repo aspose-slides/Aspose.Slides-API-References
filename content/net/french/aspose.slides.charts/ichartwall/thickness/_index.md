@@ -1,15 +1,15 @@
 ---
-title: Épaisseur
+title: Thickness
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit l'épaisseur des murs en tant que pourcentage de la plus grande dimension du volume de tracé. Lecture/écriture Int32.
+description: Renvoie ou définit l'épaisseur des murs comme un pourcentage de la plus grande dimension du volume de tracé. Lecture/écriture Int32.
 type: docs
 weight: 30
 url: /fr/aspose.slides.charts/ichartwall/thickness/
 ---
 
-## Propriété IChartWall.Thickness
+## IChartWall.Thickness property
 
-Renvoie ou définit l'épaisseur des murs en tant que pourcentage de la plus grande dimension du volume de tracé. Lecture/écriture Int32.
+Renvoie ou définit l'épaisseur des murs comme un pourcentage de la plus grande dimension du volume de tracé. Lecture/écriture Int32.
 
 ```csharp
 public int Thickness { get; set; }

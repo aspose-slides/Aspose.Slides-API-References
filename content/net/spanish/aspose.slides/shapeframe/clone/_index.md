@@ -1,5 +1,5 @@
 ---
-title: Clonar
+title: Clone
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Clones
 type: docs
@@ -9,7 +9,7 @@ url: /es/aspose.slides/shapeframe/clone/
 
 ## Método ShapeFrame.Clone
 
-Clona
+Clones
 
 ```csharp
 public object Clone()

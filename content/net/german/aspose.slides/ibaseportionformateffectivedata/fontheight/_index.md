@@ -1,7 +1,7 @@
 ---
-title: Schriftgröße
+title: FontHeight
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Schriftgröße eines Abschnitts zurück. Nur-Lesen Einzelwert.
+description: Gibt die Schriftgröße eines Teils zurück. Nur-Lesen Single.
 type: docs
 weight: 80
 url: /de/aspose.slides/ibaseportionformateffectivedata/fontheight/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ibaseportionformateffectivedata/fontheight/
 
 ## IBasePortionFormatEffectiveData.FontHeight-Eigenschaft
 
-Gibt die Schriftgröße eines Abschnitts zurück. Nur-Lesen Einzelwert.
+Gibt die Schriftgröße eines Teils zurück. Nur-Lesen Single.
 
 ```csharp
 public float FontHeight { get; }

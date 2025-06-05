@@ -15,7 +15,7 @@ url: /zh/aspose.slides/fontdatafactory/fontdatafactory/
 public FontDataFactory()
 ```
 
-### 另见
+### 另请参阅
 
 * class [FontDataFactory](../../fontdatafactory)
 * namespace [Aspose.Slides](../../fontdatafactory)

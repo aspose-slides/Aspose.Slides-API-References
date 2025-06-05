@@ -1,7 +1,7 @@
 ---
 title: AsIHtmlFormattingController
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie l'interface IHtmlFormattingController.
+description: Retourne l'interface IHtmlFormattingController.
 type: docs
 weight: 10
 url: /fr/aspose.slides.export/iembeddedeotfontshtmlcontroller/asihtmlformattingcontroller/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/iembeddedeotfontshtmlcontroller/asihtmlformattingc
 
 ## IEmbeddedEotFontsHtmlController.AsIHtmlFormattingController propriété
 
-Renvoie l'interface IHtmlFormattingController.
+Retourne l'interface IHtmlFormattingController.
 
 ```csharp
 public IHtmlFormattingController AsIHtmlFormattingController { get; }

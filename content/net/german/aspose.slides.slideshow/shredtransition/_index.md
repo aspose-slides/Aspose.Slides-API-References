@@ -1,15 +1,15 @@
 ---
 title: ShredTransition
-second_title: Aspose.Slides für .NET API Referenz
-description: Shred Folienübergangseffekt.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Shred-Folie Übergangseffekt.
 type: docs
 weight: 9990
 url: /de/aspose.slides.slideshow/shredtransition/
 ---
 
-## ShredTransition Klasse
+## ShredTransition-Klasse
 
-Shred Folienübergangseffekt.
+Shred-Folie Übergangseffekt.
 
 ```csharp
 public class ShredTransition : TransitionValueBase, IShredTransition
@@ -20,16 +20,16 @@ public class ShredTransition : TransitionValueBase, IShredTransition
 | Name | Beschreibung |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/shredtransition/direction) { get; set; } | Richtung des Übergangs. Lese-/Schreibzugriff [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | Bestimmt die Form der Visualisierungen, die während des Übergangs verwendet werden. Lese-/Schreibzugriff [`TransitionShredPattern`](../transitionshredpattern). |
+| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | Gibt die Form der visuellen Elemente an, die während des Übergangs verwendet werden. Lese-/Schreibzugriff [`TransitionShredPattern`](../transitionshredpattern). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestimmt, ob die beiden Instanzen von TransitionValueBase gleich sind. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ, geeignet für die Verwendung in Hashalgorithmen und Datenstrukturen wie einer Hashtabelle. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestimmt, ob die beiden TransitionValueBase-Instanzen gleich sind. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ, der für die Verwendung in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle geeignet ist. |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [TransitionValueBase](../transitionvaluebase)
 * Schnittstelle [IShredTransition](../ishredtransition)

@@ -1,6 +1,6 @@
 ---
-title: 视频
-second_title: Aspose.Slides for .NET API 参考
+title: Videos
+second_title: Aspose.Sildes for .NET API 参考
 description: 返回演示文稿中所有嵌入视频文件的集合。只读 IVideoCollectionaspose.slides/ivideocollection。
 type: docs
 weight: 280
@@ -17,7 +17,7 @@ public IVideoCollection Videos { get; }
 
 ### 示例
 
-以下示例显示如何在 PowerPoint 演示文稿中创建嵌入视频帧。
+以下示例展示了如何在 PowerPoint 演示文稿中创建嵌入式视频框架。
 
 ```csharp
 [C#]
@@ -26,21 +26,21 @@ using (Presentation pres = new Presentation())
 {
     // 获取第一张幻灯片
     ISlide sld = pres.Slides[0];
-    // 嵌入视频到演示文稿中
+    // 在演示文稿中嵌入视频
     IVideo vid = pres.Videos.AddVideo(new FileStream("Wildlife.mp4", FileMode.Open));
-    // 添加视频帧
+    // 添加视频框架
     IVideoFrame vf = sld.Shapes.AddVideoFrame(50, 150, 300, 350, vid);
-    // 设置视频为视频帧
+    // 将视频设置为视频框架
     vf.EmbeddedVideo = vid;
     // 设置视频的播放模式和音量
     vf.PlayMode = VideoPlayModePreset.Auto;
     vf.Volume = AudioVolumeMode.Loud;
-    // 将 PPTX 文件保存到磁盘
+    // 将 PPTX 文件写入磁盘
     pres.Save("VideoFrame_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-以下示例显示如何通过将视频文件的路径直接传递给 AddVideoFrame 方法来添加视频到 PowerPoint 演示文稿中。
+以下示例展示了如何直接将视频文件的路径传递给 AddVideoFrame 方法来添加视频到 PowerPoint 演示文稿。
 
 ```csharp
 [C#]
@@ -51,26 +51,26 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-以下示例显示如何通过 BLOB 向演示文稿添加大型文件。
+以下示例展示了如何通过 BLOB 向演示文稿添加大文件。
 
 ```csharp
 [C#]
 const string pathToVeryLargeVideo = "veryLargeVideo.avi";
-// 创建一个新的演示文稿，将添加视频
+// 创建一个新的演示文稿，视频将被添加到其中
 using (Presentation pres = new Presentation())
 {
     using (FileStream fileStream = new FileStream(pathToVeryLargeVideo, FileMode.Open))
     {
-        // 我们选择 KeepLocked 行为来添加视频，因为我们不打算访问“veryLargeVideo.avi”文件。
+        // 我们选择保持锁定行为，因为我们不打算访问 "veryLargeVideo.avi" 文件。
         IVideo video = pres.Videos.AddVideo(fileStream, LoadingStreamBehavior.KeepLocked);
         pres.Slides[0].Shapes.AddVideoFrame(0, 0, 480, 270, video);
-        // 保存演示文稿。在输出大型演示文稿时，内存消耗保持较低
+        // 保存演示文稿。尽管生成了一个大演示文稿，内存消耗在 pres 对象的整个生命周期中保持较低
         pres.Save("presentationWithLargeVideo.pptx", SaveFormat.Pptx);
     }
 }
 ```
 
-以下示例显示如何从 PowerPoint 演示文稿导出大型文件通过 BLOB。
+以下示例展示了如何通过 BLOB 从 PowerPoint 演示文稿中导出大文件。
 
 ```csharp
 [C#]
@@ -78,22 +78,23 @@ const string hugePresentationWithAudiosAndVideosFile = @"Large  Video File Test1
 LoadOptions loadOptions = new LoadOptions
 {
 	BlobManagementOptions = {
-		// 锁定源文件并不将其加载到内存中
+		// 锁定源文件，并不将其载入内存
 		PresentationLockingBehavior = PresentationLockingBehavior.KeepLocked,
 	}
 };
-// 创建演示文稿实例，锁定“hugePresentationWithAudiosAndVideos.pptx”文件。
+// 创建演示文稿实例，锁定 "hugePresentationWithAudiosAndVideos.pptx" 文件。
 using (Presentation pres = new Presentation(hugePresentationWithAudiosAndVideosFile, loadOptions))
 {
-	// 保存每个视频到文件。为了防止高内存使用，我们需要一个缓冲区，用于将数据从演示文稿的视频流传输到新创建的视频文件的流。
+	// 我们将每个视频保存到文件。为了防止高内存使用，我们需要一个缓冲区，
+	// 用于在演示文稿的视频流和新创建的视频文件的流之间传输数据。
 	byte[] buffer = new byte[8 * 1024];
-	// 遍历视频
+	// 迭代视频
 	for (var index = 0; index < pres.Videos.Count; index++)
 	{
 		IVideo video = pres.Videos[index];
-		// 打开演示文稿视频流。请注意，我们故意避免访问属性
-		// 像 video.BinaryData - 因为这个属性返回一个包含完整视频的字节数组，这将导致字节被加载到内存中。我们使用 video.GetStream，该方法将返回 Stream - 不需要
-		// 将整个视频加载到内存中。
+		// 打开演示文稿视频流。请注意，我们故意避免访问像 video.BinaryData
+		// 这样的属性，因为这个属性返回一个包含完整视频的字节数组，这会导致字节被加载到内存中。 
+		// 我们使用 video.GetStream，将返回 Stream 并且不需要将整个视频加载到内存中。
 		using (Stream presVideoStream = video.GetStream())
 		{
 			using (FileStream outputFileStream = File.OpenWrite($"video{index}.avi"))
@@ -105,13 +106,13 @@ using (Presentation pres = new Presentation(hugePresentationWithAudiosAndVideosF
 				}
 			}
 		}
-		// 无论视频或演示文稿的大小如何，内存消耗将保持较低
+		// 无论视频或演示文稿的大小如何，内存消耗将保持在较低水平
 	}
-	// 如有必要，您可以对音频文件应用相同的步骤。
+	// 如有必要，您可以对音频文件执行相同的步骤。
 }
 ```
 
-以下示例显示如何在 PowerPoint 演示文稿中为视频添加超链接。
+以下示例展示了如何在 PowerPoint 演示文稿中为视频添加超链接。
 
 ```csharp
 [C#]
@@ -125,7 +126,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-以下示例显示如何在 PowerPoint 演示文稿中从 Web 源创建包含视频的 Video Frame。
+以下示例展示了如何在 PowerPoint 演示文稿中从 Web 源创建视频框架。
 
 ```csharp
 [C#]
@@ -139,7 +140,7 @@ public static void Run()
 }
 private static void AddVideoFromYouTube(Presentation pres, string videoId)
 {
-    // 添加视频帧
+    // 添加视频框架
     IVideoFrame videoFrame = pres.Slides[0].Shapes.AddVideoFrame(10, 10, 427, 240, "https://www.youtube.com/embed/" + videoId);
     videoFrame.PlayMode = VideoPlayModePreset.Auto;
     // 加载缩略图
@@ -151,11 +152,11 @@ private static void AddVideoFromYouTube(Presentation pres, string videoId)
 }
 ```
 
-以下示例显示如何从 PowerPoint 演示文稿的幻灯片中提取视频。
+以下示例展示了如何从 PowerPoint 演示文稿的幻灯片中提取视频。
 
 ```csharp
 [C#]
-// 实例化一个表示演示文件的 Presentation 对象
+// 实例化一个表示演示文稿文件的 Presentation 对象
 using (Presentation presentation = new Presentation("Video.pptx"))
 {
 	foreach (ISlide slide in presentation.Slides)
@@ -179,7 +180,7 @@ using (Presentation presentation = new Presentation("Video.pptx"))
 }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IVideoCollection](../../ivideocollection)
 * 类 [Presentation](../../presentation)

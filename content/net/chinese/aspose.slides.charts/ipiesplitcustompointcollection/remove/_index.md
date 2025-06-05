@@ -1,7 +1,7 @@
 ---
-title: 移除
-second_title: Aspose.Slides for .NET API 参考
-description: 根据父系列点集合中的索引从集合中移除项目。
+title: Remove
+second_title: Aspose.Sildes for .NET API Reference
+description: 通过父系列点集合中的索引从集合中移除项目。
 type: docs
 weight: 40
 url: /zh/aspose.slides.charts/ipiesplitcustompointcollection/remove/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ipiesplitcustompointcollection/remove/
 
 ## IPieSplitCustomPointCollection.Remove 方法
 
-根据父系列点集合中的索引从集合中移除项目。
+通过父系列点集合中的索引从集合中移除项目。
 
 ```csharp
 public void Remove(int dataPointIndex)
@@ -17,7 +17,7 @@ public void Remove(int dataPointIndex)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| dataPointIndex | Int32 | 父系列点集合中数据点的索引。 |
+| dataPointIndex | Int32 | 在父系列点集合中的数据点索引。 |
 
 ### 另见
 

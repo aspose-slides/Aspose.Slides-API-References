@@ -1,7 +1,7 @@
 ---
 title: ParentGroup
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie l'objet GroupShape parent pour une collection de formes. Lecture seule IGroupShapeaspose.slides/igroupshape.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie l'objet GroupShape parent pour une collection de formes. Lecture seule IGroupShape aspose.slides/igroupshape.
 type: docs
 weight: 20
 url: /fr/aspose.slides/ishapecollection/parentgroup/

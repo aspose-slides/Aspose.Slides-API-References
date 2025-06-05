@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/icustomdata/tags/
 ---
+
 ## ICustomData.Tags property
 
 Returns the Customer Data Tags collection. Read-only [`ITagCollection`](../../itagcollection).

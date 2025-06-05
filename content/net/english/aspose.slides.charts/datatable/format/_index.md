@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/datatable/format/
 ---
+
 ## DataTable.Format property
 
 Returns the line, fill, and effect styles of an object. Read-only [`IFormat`](../../iformat).

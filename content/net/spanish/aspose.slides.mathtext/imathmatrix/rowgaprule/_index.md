@@ -1,15 +1,15 @@
 ---
 title: RowGapRule
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: El tipo de espaciado vertical entre filas de una matriz. Las unidades de espaciado vertical pueden ser líneas o puntos almacenados como twips. Predeterminado SingleSpacingGap 0
 type: docs
 weight: 110
 url: /es/aspose.slides.mathtext/imathmatrix/rowgaprule/
 ---
 
-## Propiedad IMathMatrix.RowGapRule
+## IMathMatrix.RowGapRule property
 
-El tipo de espaciado vertical entre filas de una matriz; las unidades de espaciado vertical pueden ser líneas o puntos (almacenados como twips). Predeterminado: SingleSpacingGap (0)
+El tipo de espaciado vertical entre filas de una matriz; Las unidades de espaciado vertical pueden ser líneas o puntos (almacenados como twips). Predeterminado: SingleSpacingGap (0)
 
 ```csharp
 public MathSpacingRules RowGapRule { get; set; }

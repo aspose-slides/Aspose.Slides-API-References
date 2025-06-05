@@ -1,7 +1,7 @@
 ---
-title: Добавить
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новую остановку градиента и добавляет ее в конец коллекции.
+title: Add
+second_title: Aspose.Sildes для .NET API Reference
+description: Создает новую цветовую остановку градиента и добавляет ее в конец коллекции.
 type: docs
 weight: 50
 url: /ru/aspose.slides/gradientstopcollection/add/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/gradientstopcollection/add/
 
 ## Add(float, Color) {#add_2}
 
-Создает новую остановку градиента и добавляет ее в конец коллекции.
+Создает новую цветовую остановку градиента и добавляет ее в конец коллекции.
 
 ```csharp
 public IGradientStop Add(float position, Color color)
@@ -17,12 +17,12 @@ public IGradientStop Add(float position, Color color)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| position | Single | Позиция новой остановки градиента. |
-| color | Color | Цвет новой остановки градиента. |
+| position | Single | Позиция новой цветовой остановки градиента. |
+| color | Color | Цвет новой цветовой остановки градиента. |
 
 ### Возвращаемое значение
 
-Индекс новой остановки градиента в коллекции.
+Индекс новой цветовой остановки в коллекции.
 
 ### См. также
 
@@ -35,7 +35,7 @@ public IGradientStop Add(float position, Color color)
 
 ## Add(float, PresetColor) {#add}
 
-Создает новую остановку градиента и добавляет ее в конец коллекции.
+Создает новую цветовую остановку градиента и добавляет ее в конец коллекции.
 
 ```csharp
 public IGradientStop Add(float position, PresetColor presetColor)
@@ -43,12 +43,12 @@ public IGradientStop Add(float position, PresetColor presetColor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| position | Single | Позиция новой остановки градиента. |
-| presetColor | PresetColor | Цвет новой остановки градиента. |
+| position | Single | Позиция новой цветовой остановки градиента. |
+| presetColor | PresetColor | Цвет новой цветовой остановки градиента. |
 
 ### Возвращаемое значение
 
-Индекс новой остановки градиента в коллекции.
+Индекс новой цветовой остановки в коллекции.
 
 ### См. также
 
@@ -62,7 +62,7 @@ public IGradientStop Add(float position, PresetColor presetColor)
 
 ## Add(float, SchemeColor) {#add_1}
 
-Создает новую остановку градиента и добавляет ее в конец коллекции.
+Создает новую цветовую остановку градиента и добавляет ее в конец коллекции.
 
 ```csharp
 public IGradientStop Add(float position, SchemeColor schemeColor)
@@ -70,12 +70,12 @@ public IGradientStop Add(float position, SchemeColor schemeColor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| position | Single | Позиция новой остановки градиента. |
-| schemeColor | SchemeColor | Цвет новой остановки градиента. |
+| position | Single | Позиция новой цветовой остановки градиента. |
+| schemeColor | SchemeColor | Цвет новой цветовой остановки градиента. |
 
 ### Возвращаемое значение
 
-Индекс новой остановки градиента в коллекции.
+Индекс новой цветовой остановки в коллекции.
 
 ### См. также
 

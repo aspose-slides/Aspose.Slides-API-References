@@ -1,13 +1,13 @@
 ---
 title: AsIBaseSlideHeaderFooterManager
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie l'interface IBaseSlideHeaderFooterManager.
 type: docs
 weight: 10
 url: /fr/aspose.slides/islideheaderfootermanager/asibaseslideheaderfootermanager/
 ---
 
-## Propriété ISlideHeaderFooterManager.AsIBaseSlideHeaderFooterManager
+## ISlideHeaderFooterManager.AsIBaseSlideHeaderFooterManager propriété
 
 Renvoie l'interface IBaseSlideHeaderFooterManager.
 

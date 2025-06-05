@@ -1,15 +1,15 @@
 ---
-title: Добавить
-second_title: Справка по API Aspose.Sildes для .NET
-description: Добавляет подпись в конце коллекции.
+title: Add
+second_title: Aspose.Sildes для .NET API Справочник
+description: Добавляет подпись в конец коллекции.
 type: docs
 weight: 50
 url: /ru/aspose.slides/digitalsignaturecollection/add/
 ---
 
-## Метод DigitalSignatureCollection.Add
+## DigitalSignatureCollection.Add метод
 
-Добавляет подпись в конце коллекции.
+Добавляет подпись в конец коллекции.
 
 ```csharp
 public void Add(IDigitalSignature signature)
@@ -28,11 +28,11 @@ using (Presentation pres = new Presentation())
     DigitalSignature signature = new DigitalSignature("testsignature1.pfx", @"testpass1");
     signature.Comments = "Тест цифровой подписи Aspose.Slides.";
     pres.DigitalSignatures.Add(signature);
-    pres.Save("SomePresentationSigned.pptx", SaveFormat.Pptx);
+    pres.Save("НекотороеПодписаниеПрезентации.pptx", SaveFormat.Pptx);
 }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IDigitalSignature](../../idigitalsignature)
 * класс [DigitalSignatureCollection](../../digitalsignaturecollection)

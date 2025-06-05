@@ -1,15 +1,15 @@
 ---
 title: GetFontEmbeddingLevel
-second_title: Aspose.Sildes pour la référence de l'API .NET
-description: Détermine le niveau d'incorporation d'une police à partir du tableau d'octets donné et du nom de la police.
+second_title: Aspose.Slides pour .NET Référence API
+description: Détermine le niveau d'incorporation d'une police à partir du tableau de bytes donné et du nom de la police.
 type: docs
 weight: 60
 url: /fr/aspose.slides/fontsmanager/getfontembeddinglevel/
 ---
 
-## Méthode FontsManager.GetFontEmbeddingLevel
+## FontsManager.GetFontEmbeddingLevel méthode
 
-Détermine le niveau d'incorporation d'une police à partir du tableau d'octets donné et du nom de la police.
+Détermine le niveau d'incorporation d'une police à partir du tableau de bytes donné et du nom de la police.
 
 ```csharp
 public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
@@ -17,10 +17,10 @@ public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| fontBytes | Byte[] | Le tableau d'octets contenant les données de la police. |
+| fontBytes | Byte[] | Le tableau de bytes contenant les données de la police. |
 | fontName | String | Le nom de la police. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Le niveau d'incorporation de la police spécifiée.
 
@@ -28,7 +28,7 @@ Le niveau d'incorporation de la police spécifiée.
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | Levé lorsque *fontBytes* est nul. |
+| ArgumentNullException | Levé lorsque *fontBytes* est null. |
 
 ### Exemples
 
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation(pptxFileName))
     // Récupérer toutes les polices utilisées dans la présentation
     IFontData[] fontDatas = pres.FontsManager.GetFonts();
 
-    // Obtenir le tableau d'octets représentant le style régulier de la première police dans la présentation
+    // Obtenir le tableau de bytes représentant le style régulier de la première police dans la présentation
     byte[] bytes = pres.FontsManager.GetFontBytes(fontDatas[0], FontStyle.Regular);
 
     // Déterminer le niveau d'incorporation de la police
@@ -47,7 +47,7 @@ using (Presentation pres = new Presentation(pptxFileName))
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [EmbeddingLevel](../../embeddinglevel)
 * class [FontsManager](../../fontsmanager)

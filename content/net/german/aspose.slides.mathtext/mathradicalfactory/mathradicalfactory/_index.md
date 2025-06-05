@@ -15,7 +15,7 @@ Der Standardkonstruktor.
 public MathRadicalFactory()
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [MathRadicalFactory](../../mathradicalfactory)
 * Namespace [Aspose.Slides.MathText](../../mathradicalfactory)

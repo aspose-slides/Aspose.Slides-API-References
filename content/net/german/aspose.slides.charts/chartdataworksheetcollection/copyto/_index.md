@@ -1,13 +1,13 @@
 ---
 title: CopyTo
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: In das angegebene Array kopieren.
 type: docs
 weight: 50
 url: /de/aspose.slides.charts/chartdataworksheetcollection/copyto/
 ---
 
-## ChartDataWorksheetCollection.CopyTo-Methode
+## ChartDataWorksheetCollection.CopyTo Methode
 
 In das angegebene Array kopieren.
 
@@ -20,7 +20,7 @@ public void CopyTo(Array array, int arrayIndex)
 | array | Array | Array, in das kopiert werden soll. |
 | arrayIndex | Int32 | Index, an dem das Kopieren beginnen soll. |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [ChartDataWorksheetCollection](../../chartdataworksheetcollection)
 * Namespace [Aspose.Slides.Charts](../../chartdataworksheetcollection)

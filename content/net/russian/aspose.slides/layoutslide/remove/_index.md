@@ -1,13 +1,13 @@
 ---
-title: Удалить
-second_title: Справочник по API Aspose.Sildes для .NET
+title: Remove
+second_title: Aspose.Sildes для .NET API Reference
 description: Удаляет макет из презентации.
 type: docs
 weight: 90
 url: /ru/aspose.slides/layoutslide/remove/
 ---
 
-## Метод LayoutSlide.Remove
+## LayoutSlide.Remove метод
 
 Удаляет макет из презентации.
 
@@ -19,9 +19,9 @@ public void Remove()
 
 | исключение | условие |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Выбрасывается, если макет уже удален из презентации или если макет используется в презентации (его свойство HasDependingSlides равно true). |
+| [PptxEditException](../../pptxeditexception) | Вызывается, если макет уже удалён из презентации или если макет используется в презентации (свойство HasDependingSlides равно true). |
 
-### Примечания
+### Замечания
 
 Чтобы избежать выбрасывания PptxEditException, проверьте свойство HasDependingSlides макета заранее.
 

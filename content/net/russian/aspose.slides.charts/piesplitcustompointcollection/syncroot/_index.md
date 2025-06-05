@@ -1,13 +1,13 @@
 ---
 title: SyncRoot
-second_title: Aspose.Sildes для .NET API Справочное руководство
+second_title: Aspose.Sildes для .NET API Reference
 description: Возвращает корень синхронизации. Объект только для чтения.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/piesplitcustompointcollection/syncroot/
 ---
 
-## Свойство PieSplitCustomPointCollection.SyncRoot
+## PieSplitCustomPointCollection.SyncRoot свойство
 
 Возвращает корень синхронизации. Объект только для чтения.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/piesplitcustompointcollection/syncroot/
 public object SyncRoot { get; }
 ```
 
-### См. Также
+### Смотрите также
 
 * класс [PieSplitCustomPointCollection](../../piesplitcustompointcollection)
 * пространство имен [Aspose.Slides.Charts](../../piesplitcustompointcollection)

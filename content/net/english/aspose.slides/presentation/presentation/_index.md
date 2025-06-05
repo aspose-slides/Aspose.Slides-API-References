@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/presentation/presentation/
 ---
+
 ## Presentation() {#constructor}
 
 This constructor creates new presentation from scratch. Created presentation has one empty slide.

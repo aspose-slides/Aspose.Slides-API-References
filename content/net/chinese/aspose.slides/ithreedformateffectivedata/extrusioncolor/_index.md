@@ -1,6 +1,6 @@
 ---
 title: ExtrusionColor
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回挤压的颜色。只读 Color。
 type: docs
 weight: 80
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ithreedformateffectivedata/extrusioncolor/
 public Color ExtrusionColor { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IThreeDFormatEffectiveData](../../ithreedformateffectivedata)
 * 命名空间 [Aspose.Slides](../../ithreedformateffectivedata)

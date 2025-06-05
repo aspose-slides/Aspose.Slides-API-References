@@ -1,7 +1,7 @@
 ---
-title: Entfernen
+title: Remove
 second_title: Aspose.Slides für .NET API-Referenz
-description: Entfernt das erste Vorkommen eines bestimmten Absatzes.
+description: Entfernt das erste Auftreten eines bestimmten Absatzes.
 type: docs
 weight: 100
 url: /de/aspose.slides/iparagraphcollection/remove/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iparagraphcollection/remove/
 
 ## IParagraphCollection.Remove-Methode
 
-Entfernt das erste Vorkommen eines bestimmten Absatzes.
+Entfernt das erste Auftreten eines bestimmten Absatzes.
 
 ```csharp
 public bool Remove(IParagraph item)
@@ -23,7 +23,7 @@ public bool Remove(IParagraph item)
 
 true, wenn *item* erfolgreich entfernt wurde; andernfalls false.
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IParagraph](../../iparagraph)
 * Schnittstelle [IParagraphCollection](../../iparagraphcollection)

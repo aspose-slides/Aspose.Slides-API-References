@@ -1,6 +1,6 @@
 ---
 title: ZOrderPosition
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回形状在 z-order 中的位置。Shapes0 返回 z-order 最后面的形状，ShapesShapes.Count - 1 返回 z-order 最前面的形状。只读 Int32。
 type: docs
 weight: 290
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ishape/zorderposition/
 public int ZOrderPosition { get; }
 ```
 
-### 相关内容
+### 另见
 
 * 接口 [IShape](../../ishape)
 * 命名空间 [Aspose.Slides](../../ishape)

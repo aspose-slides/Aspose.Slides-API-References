@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.charts/idatalabel/valuefromcell/
 ---
+
 ## IDataLabel.ValueFromCell property
 
 Gets or sets workbook data cell. Applied if IDataLabelFormat.ShowLabelValueFromCell property equals true.

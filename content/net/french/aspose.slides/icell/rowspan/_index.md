@@ -1,7 +1,7 @@
 ---
 title: RowSpan
 second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie le nombre de lignes qu'une cellule fusionnée occupe. Cela est utilisé en combinaison avec l'attribut vMerge sur d'autres cellules afin de spécifier la cellule de départ d'une fusion horizontale. Lecture seule Int32.
+description: Renvoie le nombre de lignes qu'une cellule fusionnée couvre. Cela est utilisé en combinaison avec l'attribut vMerge sur d'autres cellules afin de spécifier la cellule de début d'une fusion horizontale. Lecture seule Int32.
 type: docs
 weight: 180
 url: /fr/aspose.slides/icell/rowspan/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/icell/rowspan/
 
 ## Propriété ICell.RowSpan
 
-Renvoie le nombre de lignes qu'une cellule fusionnée occupe. Cela est utilisé en combinaison avec l'attribut vMerge sur d'autres cellules afin de spécifier la cellule de départ d'une fusion horizontale. Lecture seule Int32.
+Renvoie le nombre de lignes qu'une cellule fusionnée couvre. Cela est utilisé en combinaison avec l'attribut vMerge sur d'autres cellules afin de spécifier la cellule de début d'une fusion horizontale. Lecture seule Int32.
 
 ```csharp
 public int RowSpan { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ICell](../../icell)
 * namespace [Aspose.Slides](../../icell)

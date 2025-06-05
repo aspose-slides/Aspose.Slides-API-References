@@ -1,13 +1,13 @@
 ---
-title: Направление
-second_title: Справка по API Aspose.Slides для .NET
-description: Направление перехода. Чтение/распись TransitionInOutDirectionTypeaspose.slides.slideshow/transitioninoutdirectiontype.
+title: Direction
+second_title: Справочник API Aspose.Slides для .NET
+description: Направление перехода. Чтение/запись TransitionInOutDirectionTypeaspose.slides.slideshow/transitioninoutdirectiontype.
 type: docs
 weight: 20
 url: /ru/aspose.slides.slideshow/ishredtransition/direction/
 ---
 
-## Свойство IShredTransition.Direction
+## IShredTransition.Direction property
 
 Направление перехода. Чтение/запись [`TransitionInOutDirectionType`](../../transitioninoutdirectiontype).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.slideshow/ishredtransition/direction/
 public TransitionInOutDirectionType Direction { get; set; }
 ```
 
-### См. также
+### See Also
 
 * enum [TransitionInOutDirectionType](../../transitioninoutdirectiontype)
 * interface [IShredTransition](../../ishredtransition)

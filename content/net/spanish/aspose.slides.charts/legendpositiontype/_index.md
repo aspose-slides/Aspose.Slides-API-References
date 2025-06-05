@@ -23,7 +23,7 @@ public enum LegendPositionType
 | Left | `1` | Especifica que la leyenda se dibujará a la izquierda del gráfico. |
 | Right | `2` | Especifica que la leyenda se dibujará a la derecha del gráfico. |
 | Top | `3` | Especifica que la leyenda se dibujará en la parte superior del gráfico. |
-| TopRight | `4` | Especifica que la leyenda se dibujará en la parte superior derecha del gráfico. |
+| TopRight | `4` | Especifica que la leyenda se dibujará en la esquina superior derecha del gráfico. |
 
 ### Ver También
 

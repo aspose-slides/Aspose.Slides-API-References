@@ -1,15 +1,15 @@
 ---
-title: Слайды
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает общее количество слайдов в документе презентации. Только для чтения Int32.
+title: Slides
+second_title: Aspose.Sildes для .NET API Справочник
+description: Указывает общее число слайдов в документе презентации. Только для чтения Int32.
 type: docs
 weight: 300
 url: /ru/aspose.slides/idocumentproperties/slides/
 ---
 
-## Свойство IDocumentProperties.Slides
+## IDocumentProperties.Slides свойство
 
-Указывает общее количество слайдов в документе презентации. Только для чтения Int32.
+Указывает общее число слайдов в документе презентации. Только для чтения Int32.
 
 ```csharp
 public int Slides { get; }

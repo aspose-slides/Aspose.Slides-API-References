@@ -1,7 +1,7 @@
 ---
 title: CreateHSL
-second_title: Справка по API Aspose.Sildes для .NET
-description: Создает эффект оттенка, насыщенности и яркости.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает эффект оттенка, насыщенности и светимости.
 type: docs
 weight: 150
 url: /ru/aspose.slides.effects/iimagetransformoperationfactory/createhsl/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/iimagetransformoperationfactory/createhsl/
 
 ## IImageTransformOperationFactory.CreateHSL метод
 
-Создает эффект оттенка, насыщенности и яркости.
+Создает эффект оттенка, насыщенности и светимости.
 
 ```csharp
 public IHSL CreateHSL(float hue, float saturation, float luminance)
@@ -19,13 +19,13 @@ public IHSL CreateHSL(float hue, float saturation, float luminance)
 | --- | --- | --- |
 | hue | Single | Оттенок. |
 | saturation | Single | Насыщенность. |
-| luminance | Single | Яркость. |
+| luminance | Single | Светимость. |
 
-### Возвращаемое значение
+### Значение Возврата
 
-Эффект HSL.
+HSL эффект.
 
-### См. также
+### Также Смотрите
 
 * интерфейс [IHSL](../../ihsl)
 * интерфейс [IImageTransformOperationFactory](../../iimagetransformoperationfactory)

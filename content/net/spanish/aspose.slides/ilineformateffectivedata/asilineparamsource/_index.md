@@ -1,25 +1,25 @@
 ---
 title: AsILineParamSource
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Permite obtener la interfaz base ILineParamSource. ILineParamSource de solo lectura aspose.slides/ilineparamsource.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Permite obtener la interfaz base ILineParamSource. ILineParamSourceaspose.slides/ilineparamsource de sólo lectura.
 type: docs
 weight: 20
 url: /es/aspose.slides/ilineformateffectivedata/asilineparamsource/
 ---
 
-## Propiedad ILineFormatEffectiveData.AsILineParamSource
+## ILineFormatEffectiveData.AsILineParamSource property
 
-Permite obtener la interfaz base ILineParamSource. [`ILineParamSource`](../../ilineparamsource) de solo lectura.
+Permite obtener la interfaz base ILineParamSource. De solo lectura [`ILineParamSource`](../../ilineparamsource).
 
 ```csharp
 public ILineParamSource AsILineParamSource { get; }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [ILineParamSource](../../ilineparamsource)
 * interfaz [ILineFormatEffectiveData](../../ilineformateffectivedata)
-* namespace [Aspose.Slides](../../ilineformateffectivedata)
-* assembly [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides](../../ilineformateffectivedata)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

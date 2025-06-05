@@ -1,7 +1,7 @@
 ---
 title: KerningMinimalSize
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die minimale Schriftgröße zurück oder setzt sie, für die das Kerning aktiviert werden soll. float.NaN bedeutet, dass der Wert undefiniert ist und vom Master geerbt werden sollte. Lese-/Schreibzugriff auf Single.
+description: Gibt die minimale Schriftgröße zurück oder setzt sie, für die das Kerning aktiviert werden soll. float.NaN bedeutet, dass der Wert nicht definiert ist und vom Master geerbt werden sollte. Lese-/Schreib-Single.
 type: docs
 weight: 140
 url: /de/aspose.slides/baseportionformat/kerningminimalsize/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/baseportionformat/kerningminimalsize/
 
 ## BasePortionFormat.KerningMinimalSize-Eigenschaft
 
-Gibt die minimale Schriftgröße zurück oder setzt sie, für die das Kerning aktiviert werden soll. **float.NaN** bedeutet, dass der Wert undefiniert ist und vom Master geerbt werden sollte. Lese-/Schreibzugriff auf Single.
+Gibt die minimale Schriftgröße zurück oder setzt sie, für die das Kerning aktiviert werden soll. **float.NaN** bedeutet, dass der Wert nicht definiert ist und vom Master geerbt werden sollte. Lese-/Schreib-Single.
 
 ```csharp
 public float KerningMinimalSize { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [BasePortionFormat](../../baseportionformat)
 * Namespace [Aspose.Slides](../../baseportionformat)

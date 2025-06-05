@@ -1,7 +1,7 @@
 ---
 title: PictureFrameLock
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie les verrous des PictureFrames. Lecture seule IPictureFrameLockaspose.slides/ipictureframelock.
+description: Renvoie les verrous des PictureFrames. IPictureFrameLockaspose.slides/ipictureframelock en lecture seule.
 type: docs
 weight: 30
 url: /fr/aspose.slides/ipictureframe/pictureframelock/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ipictureframe/pictureframelock/
 
 ## Propriété IPictureFrame.PictureFrameLock
 
-Renvoie les verrous du PictureFrame. Lecture seule [`IPictureFrameLock`](../../ipictureframelock).
+Renvoie les verrous du PictureFrame. [`IPictureFrameLock`](../../ipictureframelock) en lecture seule.
 
 ```csharp
 public IPictureFrameLock PictureFrameLock { get; }

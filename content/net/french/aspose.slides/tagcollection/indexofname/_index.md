@@ -19,7 +19,7 @@ public int IndexOfName(string name)
 | --- | --- | --- |
 | name | String | Le nom à localiser dans la collection. |
 
-### Valeur de retour
+### Valeur de Retour
 
 L'index basé sur zéro de la clé, si la clé est trouvée dans la collection ; sinon, -1.
 

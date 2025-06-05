@@ -17,9 +17,9 @@ public IFillOverlay AddFillOverlayEffect()
 
 ### 返回值
 
-集合中新图像效果的索引。
+新图像效果在集合中的索引。
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IFillOverlay](../../ifilloverlay)
 * 接口 [IImageTransformOperationCollection](../../iimagetransformoperationcollection)

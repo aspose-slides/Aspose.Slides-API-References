@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/charttitle/format/
 ---
+
 ## ChartTitle.Format property
 
 Returns the fill, line, effect styles of a title. Read-only [`IFormat`](../../iformat).

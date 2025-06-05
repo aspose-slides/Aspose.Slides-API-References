@@ -1,7 +1,7 @@
 ---
 title: ColorValue
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回图表数据点的颜色值。与地图图表一起使用。只读 IDoubleChartValueaspose.slides.charts/idoublechartvalue。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回图表数据点的颜色值。用于地图图表。只读 IDoubleChartValueaspose.slides.charts/idoublechartvalue。
 type: docs
 weight: 30
 url: /zh/aspose.slides.charts/ichartdatapoint/colorvalue/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ichartdatapoint/colorvalue/
 
 ## IChartDataPoint.ColorValue 属性
 
-返回图表数据点的颜色值。与地图图表一起使用。只读 [`IDoubleChartValue`](../../idoublechartvalue)。
+返回图表数据点的颜色值。用于地图图表。只读 [`IDoubleChartValue`](../../idoublechartvalue)。
 
 ```csharp
 public IDoubleChartValue ColorValue { get; }
 ```
 
-### 参见
+### 另请参见
 
 * 接口 [IDoubleChartValue](../../idoublechartvalue)
 * 接口 [IChartDataPoint](../../ichartdatapoint)

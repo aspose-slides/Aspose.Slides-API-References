@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/interruptiontokensource/interruptiontokensource/
 ---
+
 ## InterruptionTokenSource constructor
 
 Creates a new [`InterruptionTokenSource`](../../interruptiontokensource).

@@ -1,15 +1,15 @@
 ---
 title: StartShapeConnectionSiteIndex
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает или устанавливает индекс соединительного узла для начальной фигуры. Чтение/запись UInt32.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или устанавливает индекс точки соединения для начальной формы. Читаемое/записываемое UInt32.
 type: docs
 weight: 70
 url: /ru/aspose.slides/connector/startshapeconnectionsiteindex/
 ---
 
-## Свойство Connector.StartShapeConnectionSiteIndex
+## Connector.StartShapeConnectionSiteIndex свойство
 
-Возвращает или устанавливает индекс соединительного узла для начальной фигуры. Чтение/запись UInt32.
+Возвращает или устанавливает индекс точки соединения для начальной формы. Читаемое/записываемое UInt32.
 
 ```csharp
 public uint StartShapeConnectionSiteIndex { get; set; }
@@ -19,9 +19,9 @@ public uint StartShapeConnectionSiteIndex { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Выдается, когда значение меньше StartShapeConnectedTo.ConnectionSiteCount |
+| ArgumentException | Выбрасывается, когда значение меньше StartShapeConnectedTo.ConnectionSiteCount |
 
-### Смотрите Также
+### См. также
 
 * класс [Connector](../../connector)
 * пространство имен [Aspose.Slides](../../connector)

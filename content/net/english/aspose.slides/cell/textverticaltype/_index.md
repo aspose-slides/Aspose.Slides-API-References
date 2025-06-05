@@ -6,6 +6,7 @@ type: docs
 weight: 230
 url: /aspose.slides/cell/textverticaltype/
 ---
+
 ## Cell.TextVerticalType property
 
 Returns or sets the type of vertical text. Read/write [`TextVerticalType`](../../textverticaltype).

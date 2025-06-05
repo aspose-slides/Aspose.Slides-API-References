@@ -1,7 +1,7 @@
 ---
 title: SendWarning
-second_title: Aspose.Slides for .NET API 参考
-description: 如果接收者不为空，则将警告发送给指定的接收者，如果接收者决定中止操作，则抛出 AbortRequestedException。
+second_title: Aspose.Sildes for .NET API Reference
+description: 如果接收者不为 null，则向指定的接收者发送警告，并在接收者决定中止操作时抛出 AbortRequestedException。
 type: docs
 weight: 30
 url: /zh/aspose.slides.warnings/iwarninginfo/sendwarning/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.warnings/iwarninginfo/sendwarning/
 
 ## IWarningInfo.SendWarning 方法
 
-如果接收者不为空，则将警告发送给指定的接收者，如果接收者决定中止操作，则抛出 AbortRequestedException。
+如果接收者不为 null，则向指定的接收者发送警告，并在接收者决定中止操作时抛出 AbortRequestedException。
 
 ```csharp
 public void SendWarning(IWarningCallback receiver)

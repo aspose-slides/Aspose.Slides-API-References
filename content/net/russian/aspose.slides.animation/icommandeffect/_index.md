@@ -1,7 +1,7 @@
 ---
 title: ICommandEffect
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет командный эффект для анимационного поведения.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет командный эффект для поведения анимации.
 type: docs
 weight: 400
 url: /ru/aspose.slides.animation/icommandeffect/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.animation/icommandeffect/
 
 ## Интерфейс ICommandEffect
 
-Представляет командный эффект для анимационного поведения.
+Представляет командный эффект для поведения анимации.
 
 ```csharp
 public interface ICommandEffect : IBehavior

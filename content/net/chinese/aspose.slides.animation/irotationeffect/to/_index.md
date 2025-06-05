@@ -1,7 +1,7 @@
 ---
-title: 到
-second_title: Aspose.Slides for .NET API 参考
-description: 描述动画的结束值。可读/写的 Single。
+title: To
+second_title: Aspose.Sildes for .NET API Reference
+description: 描述动画的结束值。可读写的单精度浮点数。
 type: docs
 weight: 40
 url: /zh/aspose.slides.animation/irotationeffect/to/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.animation/irotationeffect/to/
 
 ## IRotationEffect.To 属性
 
-描述动画的结束值。可读/写的 Single。
+描述动画的结束值。可读写的单精度浮点数。
 
 ```csharp
 public float To { get; set; }
 ```
 
-### 相关内容
+### 参见
 
 * 接口 [IRotationEffect](../../irotationeffect)
 * 命名空间 [Aspose.Slides.Animation](../../irotationeffect)

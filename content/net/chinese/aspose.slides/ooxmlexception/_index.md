@@ -1,13 +1,13 @@
 ---
 title: OOXMLException
-second_title: Aspose.Sildes for .NET API参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示与Office Open XML文件格式相关的标准内部异常类型。
 type: docs
 weight: 8930
 url: /zh/aspose.slides/ooxmlexception/
 ---
 
-## OOXMLException类
+## OOXMLException class
 
 表示与Office Open XML文件格式相关的标准内部异常类型。
 
@@ -20,8 +20,8 @@ public class OOXMLException : Exception
 | 名称 | 描述 |
 | --- | --- |
 | [OOXMLException](ooxmlexception#constructor)() | 默认构造函数。 |
-| [OOXMLException](ooxmlexception#constructor_1)(string) | 允许将消息添加到此异常的构造函数。 |
-| [OOXMLException](ooxmlexception#constructor_2)(string, Exception) | 包含消息和嵌入异常的异常构造函数。 |
+| [OOXMLException](ooxmlexception#constructor_1)(string) | 允许在此异常中添加消息的构造函数。 |
+| [OOXMLException](ooxmlexception#constructor_2)(string, Exception) | 包含消息和嵌入异常的构造函数。 |
 
 ### 另见
 

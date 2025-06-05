@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/commentcollection/item/
 ---
+
 ## CommentCollection indexer
 
 Gets the element at the specified index. Read-only [`Comment`](../../comment).

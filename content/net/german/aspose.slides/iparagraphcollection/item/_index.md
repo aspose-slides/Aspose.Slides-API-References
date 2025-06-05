@@ -1,15 +1,15 @@
 ---
-title: Element
+title: Item
 second_title: Aspose.Slides für .NET API-Referenz
-description: Holt das Element am angegebenen Index.
+description: Ruft das Element am angegebenen Index ab.
 type: docs
 weight: 40
 url: /de/aspose.slides/iparagraphcollection/item/
 ---
 
-## IParagraphCollection Indexer
+## IParagraphCollection-Indexer
 
-Holt das Element am angegebenen Index.
+Ruft das Element am angegebenen Index ab.
 
 ```csharp
 public IParagraph this[int index] { get; }

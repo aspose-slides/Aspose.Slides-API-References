@@ -1,6 +1,6 @@
 ---
 title: ICustomXmlPart
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour l'API .NET Reference
 description: Représente une partie XML personnalisée.
 type: docs
 weight: 5470
@@ -19,10 +19,10 @@ public interface ICustomXmlPart
 
 | Nom | Description |
 | --- | --- |
-| [ItemId](../../aspose.slides/icustomxmlpart/itemid) { get; set; } | Spécifie un identifiant unique global (GUID) qui identifie de manière unique une seule partie XML personnalisée dans un document Office Open XML. En lecture seule Guid. |
-| [NamespaceSchemas](../../aspose.slides/icustomxmlpart/namespaceschemas) { get; } | Renvoie la collection de schémas XML qui sont associés à la partie XML personnalisée. En lecture seule String[]. |
-| [XmlAsString](../../aspose.slides/icustomxmlpart/xmlasstring) { get; set; } | Renvoie ou définit les données XML sous forme de chaîne UTF-8. Lecture/écriture String. La valeur est `null`. La valeur est vide ou les données XML sont invalides. |
-| [XmlData](../../aspose.slides/icustomxmlpart/xmldata) { get; set; } | Renvoie ou définit les données XML. Lecture/écriture Byte[]. La valeur est `null`. La valeur est vide ou les données XML sont invalides. |
+| [ItemId](../../aspose.slides/icustomxmlpart/itemid) { get; set; } | Spécifie un identifiant unique global (GUID) qui identifie de manière unique une partie XML personnalisée au sein d'un document Office Open XML. Lecture seule Guid. |
+| [NamespaceSchemas](../../aspose.slides/icustomxmlpart/namespaceschemas) { get; } | Retourne la collection de schémas XML qui sont associés à la partie XML personnalisée. Lecture seule String[]. |
+| [XmlAsString](../../aspose.slides/icustomxmlpart/xmlasstring) { get; set; } | Retourne ou définit les données XML sous forme de chaîne UTF-8. Lecture/écriture String. la valeur est `null`. la valeur est vide ou les données XML sont invalides. |
+| [XmlData](../../aspose.slides/icustomxmlpart/xmldata) { get; set; } | Retourne ou définit les données XML. Lecture/écriture Byte[]. la valeur est `null`. la valeur est vide ou les données XML sont invalides. |
 
 ## Méthodes
 

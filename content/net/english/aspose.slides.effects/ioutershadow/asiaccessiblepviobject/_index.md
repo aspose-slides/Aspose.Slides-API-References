@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.effects/ioutershadow/asiaccessiblepviobject/
 ---
+
 ## IOuterShadow.AsIAccessiblePVIObject property
 
 Allows to get base IAccessiblePVIObject interface. Read-only [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).

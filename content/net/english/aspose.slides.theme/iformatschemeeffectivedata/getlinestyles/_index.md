@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.theme/iformatschemeeffectivedata/getlinestyles/
 ---
+
 ## IFormatSchemeEffectiveData.GetLineStyles method
 
 Returns a collection of theme defined line styles.

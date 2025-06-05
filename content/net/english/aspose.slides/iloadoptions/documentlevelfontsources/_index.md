@@ -3,9 +3,10 @@ title: DocumentLevelFontSources
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies sources for external fonts to be used by the presentation. These fonts are available to the presentation throughout its lifetime and are not shared with other presentations
 type: docs
-weight: 60
+weight: 70
 url: /aspose.slides/iloadoptions/documentlevelfontsources/
 ---
+
 ## ILoadOptions.DocumentLevelFontSources property
 
 Specifies sources for external fonts to be used by the presentation. These fonts are available to the presentation throughout its lifetime and are not shared with other presentations

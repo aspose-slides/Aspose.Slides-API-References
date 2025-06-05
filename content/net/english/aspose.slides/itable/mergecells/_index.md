@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides/itable/mergecells/
 ---
+
 ## ITable.MergeCells method
 
 Merges neighbour cells.

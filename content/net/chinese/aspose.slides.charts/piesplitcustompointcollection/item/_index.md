@@ -1,6 +1,6 @@
 ---
-title: 项
-second_title: Aspose.Sildes for .NET API参考
+title: Item
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回指定索引的图表数据点。
 type: docs
 weight: 40
@@ -23,7 +23,7 @@ public IChartDataPoint this[int index] { get; }
 
 图表数据点。
 
-### 参见
+### 另请参见
 
 * 接口 [IChartDataPoint](../../ichartdatapoint)
 * 类 [PieSplitCustomPointCollection](../../piesplitcustompointcollection)

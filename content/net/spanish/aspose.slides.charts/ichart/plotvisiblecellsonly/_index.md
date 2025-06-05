@@ -1,7 +1,7 @@
 ---
 title: PlotVisibleCellsOnly
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Determina si solo se trazan las celdas visibles. Falso para trazar tanto celdas visibles como ocultas. Booleano de lectura/escritura.
+description: Determina si solo se trazan las celdas visibles. Falso para trazar tanto las celdas visibles como las ocultas. Booleano de lectura/escritura.
 type: docs
 weight: 170
 url: /es/aspose.slides.charts/ichart/plotvisiblecellsonly/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.charts/ichart/plotvisiblecellsonly/
 
 ## Propiedad IChart.PlotVisibleCellsOnly
 
-Determina si solo se trazan las celdas visibles. Falso para trazar tanto celdas visibles como ocultas. Booleano de lectura/escritura.
+Determina si solo se trazan las celdas visibles. Falso para trazar tanto las celdas visibles como las ocultas. Booleano de lectura/escritura.
 
 ```csharp
 public bool PlotVisibleCellsOnly { get; set; }

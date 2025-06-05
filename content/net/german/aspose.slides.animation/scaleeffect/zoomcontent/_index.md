@@ -1,7 +1,7 @@
 ---
 title: ZoomContent
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob ein Inhalt gezoomt werden sollte. Lese-/Schreibbare NullableBoolaspose.slides/nullablebool.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt, ob ein Inhalt gezoomt werden soll. Lese-/Schreibbarer NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 50
 url: /de/aspose.slides.animation/scaleeffect/zoomcontent/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/scaleeffect/zoomcontent/
 
 ## ScaleEffect.ZoomContent-Eigenschaft
 
-Bestimmt, ob ein Inhalt gezoomt werden sollte. Lese-/schreibbare [`NullableBool`](../../../aspose.slides/nullablebool).
+Bestimmt, ob ein Inhalt gezoomt werden soll. Lese-/Schreibbarer [`NullableBool`](../../../aspose.slides/nullablebool).
 
 ```csharp
 public NullableBool ZoomContent { get; set; }

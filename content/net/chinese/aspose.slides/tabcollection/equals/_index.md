@@ -1,6 +1,6 @@
 ---
-title: 等于
-second_title: Aspose.Slides for .NET API 参考
+title: Equals
+second_title: Aspose.Slides for .NET API Reference
 description: 确定两个 TabsEx 实例是否相等。
 type: docs
 weight: 80
@@ -17,13 +17,13 @@ public override bool Equals(object obj)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | 与当前 TabsEx 进行比较的 TabsEx。 |
+| obj | Object | 要与当前 TabsEx 比较的 TabsEx。 |
 
 ### 返回值
 
-如果指定的 TabsEx 等于当前的 TabsEx，则为 **true**；否则为 **false**。
+如果指定的 TabsEx 等于当前的 TabsEx，则返回 **true**；否则返回 **false**。
 
-### 另请参见
+### 另见
 
 * 类 [TabCollection](../../tabcollection)
 * 命名空间 [Aspose.Slides](../../tabcollection)

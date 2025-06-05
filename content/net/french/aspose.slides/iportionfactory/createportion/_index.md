@@ -1,6 +1,6 @@
 ---
 title: CreatePortion
-second_title: Référence API d'Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Crée une portion de texte vide.
 type: docs
 weight: 10
@@ -15,11 +15,11 @@ Crée une portion de texte vide.
 public IPortion CreatePortion()
 ```
 
-### Valeur de Retour
+### Valeur de retour
 
 Portion.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IPortion](../../iportion)
 * interface [IPortionFactory](../../iportionfactory)
@@ -38,13 +38,13 @@ public IPortion CreatePortion(string str)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| str | String | Chaîne. |
+| str | String | Chaine. |
 
-### Valeur de Retour
+### Valeur de retour
 
 Portion.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IPortion](../../iportion)
 * interface [IPortionFactory](../../iportionfactory)
@@ -65,11 +65,11 @@ public IPortion CreatePortion(IPortion portion)
 | --- | --- | --- |
 | portion | IPortion | Une portion à utiliser. |
 
-### Valeur de Retour
+### Valeur de retour
 
 Portion.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IPortion](../../iportion)
 * interface [IPortionFactory](../../iportionfactory)

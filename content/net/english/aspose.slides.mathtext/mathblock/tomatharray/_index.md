@@ -6,6 +6,7 @@ type: docs
 weight: 180
 url: /aspose.slides.mathtext/mathblock/tomatharray/
 ---
+
 ## MathBlock.ToMathArray method
 
 Puts child elements in a vertical array

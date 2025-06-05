@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/ilegend/asilayoutable/
 ---
+
 ## ILegend.AsILayoutable property
 
 Allows to get base ILayoutable interface. Read-only [`ILayoutable`](../../ilayoutable).

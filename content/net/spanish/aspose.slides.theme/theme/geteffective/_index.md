@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Referencia de la API Aspose.Sildes para .NET
-description: Obtiene datos del tema efectivo con la herencia aplicada.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Obtiene datos de tema efectivos con la herencia aplicada.
 type: docs
 weight: 50
 url: /es/aspose.slides.theme/theme/geteffective/
@@ -9,19 +9,19 @@ url: /es/aspose.slides.theme/theme/geteffective/
 
 ## Método Theme.GetEffective
 
-Obtiene datos del tema efectivo con la herencia aplicada.
+Obtiene datos de tema efectivos con la herencia aplicada.
 
 ```csharp
 public IThemeEffectiveData GetEffective()
 ```
 
-### Valor de retorno
+### Valor de Retorno
 
 Un [`IThemeEffectiveData`](../../ithemeeffectivedata).
 
 ### Ejemplos
 
-Este ejemplo demuestra cómo obtener propiedades del tema efectivo.
+Este ejemplo demuestra cómo obtener propiedades efectivas del tema.
 
 ```csharp
 [C#]
@@ -31,11 +31,11 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 
 	Console.WriteLine("Nombre del esquema de fuente: " + effectiveTheme.FontScheme.Name);
 	Console.WriteLine("Fuente latina principal: " + effectiveTheme.FontScheme.Major.LatinFont.FontName);
-	Console.WriteLine("Fuente latina menor: " + effectiveTheme.FontScheme.Minor.LatinFont.FontName);
+	Console.WriteLine("Fuente latina secundaria: " + effectiveTheme.FontScheme.Minor.LatinFont.FontName);
 }
 ```
 
-### Ver también
+### Ver También
 
 * interfaz [IThemeEffectiveData](../../ithemeeffectivedata)
 * clase [Theme](../../theme)

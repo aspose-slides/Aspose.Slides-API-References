@@ -1,13 +1,13 @@
 ---
 title: ProgressCallback
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Representa un objeto de callback para guardar actualizaciones de progreso en porcentaje. Ver IProgressCallbackaspose.slides/iprogresscallback.
 type: docs
 weight: 30
 url: /es/aspose.slides.export/isaveoptions/progresscallback/
 ---
 
-## Propiedad ISaveOptions.ProgressCallback
+## ISaveOptions.ProgressCallback propiedad
 
 Representa un objeto de callback para guardar actualizaciones de progreso en porcentaje. Ver [`IProgressCallback`](../../../aspose.slides/iprogresscallback).
 

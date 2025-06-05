@@ -1,21 +1,21 @@
 ---
 title: FromBlack
-second_title: Référence API Aspose.Sildes pour .NET
-description: Cet attribut spécifie si la transition commencera à partir d'un écran noir, puis transitionnera la nouvelle diapositive sur un fond noir. Booléen en lecture/écriture.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Cet attribut spécifie si la transition commencera par un écran noir et ensuite transitionnera la nouvelle diapositive sur le noir. Booléen lisible/écrivable.
 type: docs
 weight: 20
 url: /fr/aspose.slides.slideshow/ioptionalblacktransition/fromblack/
 ---
 
-## Propriété IOptionalBlackTransition.FromBlack
+## IOptionalBlackTransition.FromBlack property
 
-Cet attribut spécifie si la transition commencera à partir d'un écran noir (puis transitionnera la nouvelle diapositive sur un fond noir). Booléen en lecture/écriture.
+Cet attribut spécifie si la transition commencera par un écran noir (et ensuite transitionnera la nouvelle diapositive sur le noir). Booléen lisible/écrivable.
 
 ```csharp
 public bool FromBlack { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IOptionalBlackTransition](../../ioptionalblacktransition)
 * namespace [Aspose.Slides.SlideShow](../../ioptionalblacktransition)

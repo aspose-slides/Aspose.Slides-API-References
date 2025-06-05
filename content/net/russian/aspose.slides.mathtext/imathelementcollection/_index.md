@@ -1,7 +1,7 @@
 ---
 title: IMathElementCollection
-second_title: Aspose.Slides для .NET Справочник API
-description: Представляет собой коллекцию математических элементов MathElement.
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет коллекцию математических элементов MathElement.
 type: docs
 weight: 7990
 url: /ru/aspose.slides.mathtext/imathelementcollection/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/imathelementcollection/
 
 ## Интерфейс IMathElementCollection
 
-Представляет собой коллекцию математических элементов (MathElement).
+Представляет коллекцию математических элементов (MathElement).
 
 ```csharp
 public interface IMathElementCollection : IEnumerable<IMathElement>
@@ -29,12 +29,12 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 | --- | --- |
 | [Add](../../aspose.slides.mathtext/imathelementcollection/add)(IMathElement) | Добавляет математический элемент в конец коллекции. |
 | [Clear](../../aspose.slides.mathtext/imathelementcollection/clear)() | Удаляет все элементы из коллекции. |
-| [Contains](../../aspose.slides.mathtext/imathelementcollection/contains)(IMathElement) | Определяет, содержит ли коллекция определенное значение. |
+| [Contains](../../aspose.slides.mathtext/imathelementcollection/contains)(IMathElement) | Определяет, содержит ли коллекция конкретное значение. |
 | [CopyTo](../../aspose.slides.mathtext/imathelementcollection/copyto)(IMathElement[], int) | Копирует в указанный массив. |
 | [IndexOf](../../aspose.slides.mathtext/imathelementcollection/indexof)(IMathElement) | Определяет индекс конкретного математического элемента в коллекции. |
 | [Insert](../../aspose.slides.mathtext/imathelementcollection/insert)(int, IMathElement) | Вставляет математический элемент в коллекцию по указанному индексу. |
 | [Remove](../../aspose.slides.mathtext/imathelementcollection/remove)(IMathElement) | Удаляет первое вхождение конкретного объекта из коллекции. |
-| [RemoveAt](../../aspose.slides.mathtext/imathelementcollection/removeat)(int) | Удаляет элемент по указанному индексу коллекции. |
+| [RemoveAt](../../aspose.slides.mathtext/imathelementcollection/removeat)(int) | Удаляет элемент по указанному индексу в коллекции. |
 
 ### Примеры
 
@@ -45,7 +45,8 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 IMathElementCollection collection = new MathBlock();
 ```
 
-### Также см.
+### См. также
+
 * интерфейс [IMathElement](../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)

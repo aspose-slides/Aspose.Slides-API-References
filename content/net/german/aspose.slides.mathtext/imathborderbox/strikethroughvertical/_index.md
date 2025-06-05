@@ -1,7 +1,7 @@
 ---
 title: StrikethroughVertical
-second_title: Aspose.Slides für .NET API-Referenz
-description: Strikethrough Vertical standardmäßig ist false - gibt den verborgenen oder sichtbaren Zustand einer durchgestrichenen vertikalen Linie an.
+second_title: Aspose.Slides für .NET API Referenz
+description: Strikethrough Vertical Standardwert ist false - gibt den versteckten oder sichtbaren Zustand einer durchgestrichenen vertikalen Linie an.
 type: docs
 weight: 100
 url: /de/aspose.slides.mathtext/imathborderbox/strikethroughvertical/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathborderbox/strikethroughvertical/
 
 ## IMathBorderBox.StrikethroughVertical-Eigenschaft
 
-Strikethrough Vertical (standardmäßig ist false) - gibt den verborgenen oder sichtbaren Zustand einer durchgestrichenen vertikalen Linie an.
+Strikethrough Vertical (Standardwert ist false) - gibt den versteckten oder sichtbaren Zustand einer durchgestrichenen vertikalen Linie an.
 
 ```csharp
 public bool StrikethroughVertical { get; set; }
@@ -25,7 +25,7 @@ IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox();
 borderBox.StrikethroughVertical = true;
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IMathBorderBox](../../imathborderbox)
 * Namespace [Aspose.Slides.MathText](../../imathborderbox)

@@ -1,7 +1,7 @@
 ---
 title: CreateGlow
 second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt einen Glow-Effekt.
+description: Erstellt Glow-Effekt.
 type: docs
 weight: 30
 url: /de/aspose.slides.effects/effectfactory/createglow/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/effectfactory/createglow/
 
 ## EffectFactory.CreateGlow-Methode
 
-Erstellt einen Glow-Effekt.
+Erstellt Glow-Effekt.
 
 ```csharp
 public IGlow CreateGlow()

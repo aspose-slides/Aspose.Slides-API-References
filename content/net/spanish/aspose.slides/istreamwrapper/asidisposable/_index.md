@@ -1,6 +1,6 @@
 ---
 title: AsIDisposable
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Permite obtener la interfaz base IDisposable. IDisposable de solo lectura.
 type: docs
 weight: 10

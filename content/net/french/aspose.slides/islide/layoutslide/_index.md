@@ -1,6 +1,6 @@
 ---
 title: LayoutSlide
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie ou définit la diapositive de mise en page pour la diapositive actuelle. Lecture/écriture ILayoutSlideaspose.slides/ilayoutslide.
 type: docs
 weight: 50

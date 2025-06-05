@@ -1,6 +1,6 @@
 ---
 title: FillColor2
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa la propiedad fill.color2
 type: docs
 weight: 290
@@ -15,7 +15,7 @@ Representa la propiedad 'fill.color2'
 public static BehaviorProperty FillColor2 { get; }
 ```
 
-### También Visto
+### Ver También
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)

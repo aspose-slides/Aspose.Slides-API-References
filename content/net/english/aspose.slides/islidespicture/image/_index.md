@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/islidespicture/image/
 ---
+
 ## ISlidesPicture.Image property
 
 Returns or sets the embedded image. Read/write [`IPPImage`](../../ippimage).

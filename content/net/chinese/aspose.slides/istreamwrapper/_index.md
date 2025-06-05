@@ -1,6 +1,6 @@
 ---
 title: IStreamWrapper
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: Aspose.IO.Stream 的 COM 接口包装器。
 type: docs
 weight: 6910
@@ -19,12 +19,12 @@ public interface IStreamWrapper : IDisposable
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIDisposable](../../aspose.slides/istreamwrapper/asidisposable) { get; } | 允许获取基本的 IDisposable 接口。只读 IDisposable。 |
+| [AsIDisposable](../../aspose.slides/istreamwrapper/asidisposable) { get; } | 允许获取基础 IDisposable 接口。只读 IDisposable。 |
 | [CanRead](../../aspose.slides/istreamwrapper/canread) { get; } | 获取一个值，指示当前流是否支持读取。只读布尔值。 |
 | [CanSeek](../../aspose.slides/istreamwrapper/canseek) { get; } | 获取一个值，指示当前流是否支持查找。只读布尔值。 |
 | [CanWrite](../../aspose.slides/istreamwrapper/canwrite) { get; } | 获取一个值，指示当前流是否支持写入。只读布尔值。 |
 | [Length](../../aspose.slides/istreamwrapper/length) { get; } | 获取流的字节长度。只读 Int64。 |
-| [Position](../../aspose.slides/istreamwrapper/position) { get; } | 获取当前流内的位置。只读 Int64。 |
+| [Position](../../aspose.slides/istreamwrapper/position) { get; } | 获取当前流中的位置。只读 Int64。 |
 | [Stream](../../aspose.slides/istreamwrapper/stream) { get; } | 获取一个流。只读 Stream。 |
 
 ## 方法
@@ -32,12 +32,12 @@ public interface IStreamWrapper : IDisposable
 | 名称 | 描述 |
 | --- | --- |
 | [Close](../../aspose.slides/istreamwrapper/close)() | 关闭当前流并释放任何资源。 |
-| [Flush](../../aspose.slides/istreamwrapper/flush)() | 清除此流的所有缓冲区，并导致任何缓冲的数据写入到底层设备。 |
-| [Read](../../aspose.slides/istreamwrapper/read)(byte[], int, int) | 从当前流中读取一系列字节，并按照读取的字节数向前移动流中位置。 |
-| [ReadByte](../../aspose.slides/istreamwrapper/readbyte)() | 从流中读取一个字节，并将流中的位置向前移动一个字节，或者在流的末尾时返回 -1。 |
-| [Seek](../../aspose.slides/istreamwrapper/seek)(long, SeekOrigin) | 设置当前流内的位置。 |
-| [Write](../../aspose.slides/istreamwrapper/write)(byte[], int, int) | 向当前流写入一系列字节，并将此流中的当前位置向前移动已写入的字节数。 |
-| [WriteByte](../../aspose.slides/istreamwrapper/writebyte)(byte) | 将一个字节写入流中的当前位置，并将流中的位置向前移动一个字节。 |
+| [Flush](../../aspose.slides/istreamwrapper/flush)() | 清除此流的所有缓冲区，并将任何缓冲的数据写入底层设备。 |
+| [Read](../../aspose.slides/istreamwrapper/read)(byte[], int, int) | 从当前流中读取一系列字节，并将流中的位置向前移动读取的字节数。 |
+| [ReadByte](../../aspose.slides/istreamwrapper/readbyte)() | 从流中读取一个字节，并将流中的位置前移一个字节，如果在流的末尾则返回 -1。 |
+| [Seek](../../aspose.slides/istreamwrapper/seek)(long, SeekOrigin) | 设置当前流中的位置。 |
+| [Write](../../aspose.slides/istreamwrapper/write)(byte[], int, int) | 向当前流写入一系列字节，并将该流中的当前位移向前移动写入的字节数。 |
+| [WriteByte](../../aspose.slides/istreamwrapper/writebyte)(byte) | 在流中的当前指针位置写入一个字节，并将流中的位置前移一个字节。 |
 
 ### 另见
 

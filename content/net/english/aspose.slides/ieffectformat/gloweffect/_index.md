@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/ieffectformat/gloweffect/
 ---
+
 ## IEffectFormat.GlowEffect property
 
 Glow effect. Read/write [`IGlow`](../../../aspose.slides.effects/iglow).

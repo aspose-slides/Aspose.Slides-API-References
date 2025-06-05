@@ -1,13 +1,13 @@
 ---
 title: op_Equality
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Testet zwei Hyperlinks auf Gleichheit.
 type: docs
 weight: 230
 url: /de/aspose.slides/hyperlink/op_equality/
 ---
 
-## Hyperlink Gleichheitsoperator
+## Hyperlink-Gleichheitsoperator
 
 Testet zwei Hyperlinks auf Gleichheit.
 
@@ -22,7 +22,7 @@ public static bool operator ==(Hyperlink hlink1, Hyperlink hlink2)
 
 ### Rückgabewert
 
-**True**, wenn die Hyperlinks gleich sind.
+**Wahr**, wenn die Hyperlinks gleich sind.
 
 ### Siehe auch
 

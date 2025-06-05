@@ -1,7 +1,7 @@
 ---
 title: SetDateTimeAndChildDateTimesVisibility
-second_title: Aspose.Slides for .NET API Reference
-description: 更改布局幻灯片时间占位符和所有子时间占位符的可见性。子占位符是指包含在依赖幻灯片上的占位符。依赖幻灯片使用并依赖于布局幻灯片。
+second_title: Aspose.Sildes for .NET API Reference
+description: 更改布局幻灯片日期时间占位符及所有子日期时间占位符的可见性。子占位符指的是包含在依赖幻灯片上的占位符。依赖幻灯片使用并依赖于布局幻灯片。
 type: docs
 weight: 20
 url: /zh/aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetim
 
 ## LayoutSlideHeaderFooterManager.SetDateTimeAndChildDateTimesVisibility 方法
 
-更改布局幻灯片时间占位符和所有子时间占位符的可见性。子占位符是指包含在依赖幻灯片上的占位符。依赖幻灯片使用并依赖于布局幻灯片。
+更改布局幻灯片日期时间占位符及所有子日期时间占位符的可见性。子占位符指的是包含在依赖幻灯片上的占位符。依赖幻灯片使用并依赖于布局幻灯片。
 
 ```csharp
 public void SetDateTimeAndChildDateTimesVisibility(bool isVisible)
@@ -17,9 +17,9 @@ public void SetDateTimeAndChildDateTimesVisibility(bool isVisible)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| isVisible | Boolean | true - 使时间占位符可见，否则 - 隐藏它们。 |
+| isVisible | Boolean | true - 使日期时间占位符可见，否则 - 隐藏它们。 |
 
-### 另请参阅
+### 另见
 
 * class [LayoutSlideHeaderFooterManager](../../layoutslideheaderfootermanager)
 * namespace [Aspose.Slides](../../layoutslideheaderfootermanager)

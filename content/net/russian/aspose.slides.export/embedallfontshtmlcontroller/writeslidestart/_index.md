@@ -1,15 +1,15 @@
 ---
 title: WriteSlideStart
-second_title: Aspose.Slides для .NET Справочник по API
-description: Вызывается для записи заголовка HTML-слайда. Вызывается один раз для каждого слайда.
+second_title: Справка по API Aspose.Slides для .NET
+description: Вызывается для записи заголовка слайда в формате html. Вызывается один раз для каждого слайда.
 type: docs
 weight: 90
 url: /ru/aspose.slides.export/embedallfontshtmlcontroller/writeslidestart/
 ---
 
-## EmbedAllFontsHtmlController.WriteSlideStart метод
+## EmbedAllFontsHtmlController.WriteSlideStart method
 
-Вызывается для записи заголовка HTML-слайда. Вызывается один раз для каждого слайда.
+Вызывается для записи заголовка слайда в формате html. Вызывается один раз для каждого слайда.
 
 ```csharp
 public virtual void WriteSlideStart(IHtmlGenerator generator, ISlide slide)
@@ -17,7 +17,7 @@ public virtual void WriteSlideStart(IHtmlGenerator generator, ISlide slide)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| generator | IHtmlGenerator | Выходной объект. |
+| generator | IHtmlGenerator | Объект вывода. |
 | slide | ISlide | Слайд, который в данный момент отображается. |
 
 ### См. также

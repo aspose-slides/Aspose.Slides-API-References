@@ -1,6 +1,6 @@
 ---
 title: Nary
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Aspose.Sildes pour .NET Référence API
 description: Crée un opérateur N-aire
 type: docs
 weight: 90
@@ -38,7 +38,7 @@ IMathElement upperLimit = new MathematicalText("𝑛");
 IMathNaryOperator naryOperator = baseElement.Nary(MathNaryOperatorTypes.Summation, lowerLimit, upperLimit);
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathNaryOperator](../../imathnaryoperator)
 * enum [MathNaryOperatorTypes](../../mathnaryoperatortypes)
@@ -76,7 +76,7 @@ Exemple :
 IMathNaryOperator naryOperator = new MathematicalText("i").Nary(MathNaryOperatorTypes.Summation, "i=0", "𝑛");
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathNaryOperator](../../imathnaryoperator)
 * enum [MathNaryOperatorTypes](../../mathnaryoperatortypes)

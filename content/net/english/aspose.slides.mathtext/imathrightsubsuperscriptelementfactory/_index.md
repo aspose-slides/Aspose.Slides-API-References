@@ -3,9 +3,10 @@ title: IMathRightSubSuperscriptElementFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: Allows to create IMathRightSubSuperscriptElementFactory
 type: docs
-weight: 7870
+weight: 8200
 url: /aspose.slides.mathtext/imathrightsubsuperscriptelementfactory/
 ---
+
 ## IMathRightSubSuperscriptElementFactory interface
 
 Allows to create IMathRightSubSuperscriptElementFactory

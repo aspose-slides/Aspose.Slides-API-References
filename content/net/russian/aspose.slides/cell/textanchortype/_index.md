@@ -1,6 +1,6 @@
 ---
 title: TextAnchorType
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справка по API Aspose.Slides для .NET
 description: Возвращает или устанавливает тип текстового якоря. Чтение/запись TextAnchorTypeaspose.slides/textanchortype.
 type: docs
 weight: 210
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/cell/textanchortype/
 public TextAnchorType TextAnchorType { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [TextAnchorType](../../textanchortype)
 * class [Cell](../../cell)

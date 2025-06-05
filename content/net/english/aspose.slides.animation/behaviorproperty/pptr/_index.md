@@ -6,6 +6,7 @@ type: docs
 weight: 530
 url: /aspose.slides.animation/behaviorproperty/pptr/
 ---
+
 ## BehaviorProperty.PptR property
 
 Represents 'ppt_r' property

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.vba/vbareferencefactory/createoletypelibreference/
 ---
+
 ## VbaReferenceFactory.CreateOleTypeLibReference method
 
 Creates new OLE Automation type library reference.

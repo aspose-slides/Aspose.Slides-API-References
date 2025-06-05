@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/iaudio/contenttype/
 ---
+
 ## IAudio.ContentType property
 
 Returns a MIME type of an audio, encoded in [`BinaryData`](../binarydata). Read-only String.

@@ -1,15 +1,15 @@
 ---
 title: DataPointLevels
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve un contenedor de niveles de puntos de datos. Aplicado para series Treeamp y Sunburst. La indexación de los niveles de puntos de datos es cero basada.
+description: Devuelve el contenedor de niveles de puntos de datos. Aplicado para las series Treeamp y Sunburst. La indexación de niveles de puntos de datos comienza en cero.
 type: docs
 weight: 70
 url: /es/aspose.slides.charts/chartdatapoint/datapointlevels/
 ---
 
-## Propiedad ChartDataPoint.DataPointLevels
+## ChartDataPoint.DataPointLevels property
 
-Devuelve un contenedor de niveles de puntos de datos. Aplicado para series Treeamp y Sunburst. La indexación de los niveles de puntos de datos es cero basada.
+Devuelve el contenedor de niveles de puntos de datos. Aplicado para las series Treeamp y Sunburst. La indexación de niveles de puntos de datos comienza en cero.
 
 ```csharp
 public IChartDataPointLevelsManager DataPointLevels { get; }
@@ -17,9 +17,9 @@ public IChartDataPointLevelsManager DataPointLevels { get; }
 
 ### Ver También
 
-* interfaz [IChartDataPointLevelsManager](../../ichartdatapointlevelsmanager)
-* clase [ChartDataPoint](../../chartdatapoint)
-* espacio de nombres [Aspose.Slides.Charts](../../chartdatapoint)
-* ensamblaje [Aspose.Slides](../../../)
+* interface [IChartDataPointLevelsManager](../../ichartdatapointlevelsmanager)
+* class [ChartDataPoint](../../chartdatapoint)
+* namespace [Aspose.Slides.Charts](../../chartdatapoint)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

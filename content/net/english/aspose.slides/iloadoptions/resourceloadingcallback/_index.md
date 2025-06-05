@@ -3,9 +3,10 @@ title: ResourceLoadingCallback
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets callback interface which manages external resources loading. Read/write IResourceLoadingCallbackaspose.slides/iresourceloadingcallback.
 type: docs
-weight: 110
+weight: 120
 url: /aspose.slides/iloadoptions/resourceloadingcallback/
 ---
+
 ## ILoadOptions.ResourceLoadingCallback property
 
 Returns or sets callback interface which manages external resources loading. Read/write [`IResourceLoadingCallback`](../../iresourceloadingcallback).

@@ -1,6 +1,6 @@
 ---
 title: GroupingLocked
-second_title: Aspose.Sildes pour la référence API .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Détermine si l'ajout de cette forme à un groupe est interdit. Booléen en lecture/écriture.
 type: docs
 weight: 70

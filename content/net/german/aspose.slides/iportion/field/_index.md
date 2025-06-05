@@ -1,7 +1,7 @@
 ---
-title: Feld
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt ein Feld dieses Abschnitts zurück. Nur lesbar IFieldaspose.slides/ifield.
+title: Field
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt ein Feld dieses Abschnitts zurück. Nur-lesbar IFieldaspose.slides/ifield.
 type: docs
 weight: 20
 url: /de/aspose.slides/iportion/field/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iportion/field/
 
 ## IPortion.Field-Eigenschaft
 
-Gibt ein Feld dieses Abschnitts zurück. Nur lesbar [`IField`](../../ifield).
+Gibt ein Feld dieses Abschnitts zurück. Nur-lesbar [`IField`](../../ifield).
 
 ```csharp
 public IField Field { get; }

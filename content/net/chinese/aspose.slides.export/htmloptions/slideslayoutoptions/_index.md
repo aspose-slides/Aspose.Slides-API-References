@@ -1,6 +1,6 @@
 ---
 title: SlidesLayoutOptions
-second_title: Aspose.Slidess for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 获取或设置导出演示文稿时幻灯片在页面上放置的模式 ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions。
 type: docs
 weight: 100
@@ -35,7 +35,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [ISlidesLayoutOptions](../../islideslayoutoptions)
 * 类 [HtmlOptions](../../htmloptions)

@@ -1,15 +1,15 @@
 ---
 title: IHtml5Options
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt eine HTML5-Exportoption dar.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt eine HTML5 Exportoption dar.
 type: docs
 weight: 3760
 url: /de/aspose.slides.export/ihtml5options/
 ---
 
-## IHtml5Options-Schnittstelle
+## IHtml5Options-Interface
 
-Stellt eine HTML5-Exportoption dar.
+Stellt eine HTML5 Exportoption dar.
 
 ```csharp
 public interface IHtml5Options : ISaveOptions
@@ -19,13 +19,13 @@ public interface IHtml5Options : ISaveOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | Gibt die Animationsoption für Formen zurück oder setzt sie. Lese-/Schreib-Boolean. |
-| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | Gibt die Animationsoption für Übergänge zurück oder setzt sie. Lese-/Schreib-Boolean. |
-| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | Gibt die ISaveOptions-Schnittstelle zurück. Nur-Lese [`ISaveOptions`](../isaveoptions). |
-| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | Erhält oder setzt einen Wert, der angibt, ob der Text ohne Verwendung von Ligaturen gerendert wird. Wenn auf `true` gesetzt, werden Ligaturen in der gerenderten Ausgabe deaktiviert. Standardmäßig ist diese Eigenschaft auf `false` gesetzt. |
-| [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | Gibt die Einbettungsoption für Bilder zurück oder setzt sie. Lese-/Schreib-Boolean. |
+| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | Gibt die Animationsoption für Formen zurück oder legt sie fest. Lese-/Schreib-Boolescher Wert. |
+| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | Gibt die Animationsoption für Übergänge zurück oder legt sie fest. Lese-/Schreib-Boolescher Wert. |
+| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | Gibt das ISaveOptions-Interface zurück. Nur-Lese [`ISaveOptions`](../isaveoptions). |
+| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob Text ohne Verwendung von Ligaturen gerendert wird. Wenn auf `true` gesetzt, werden Ligaturen im gerenderten Output deaktiviert. Standardmäßig ist diese Eigenschaft auf `false` gesetzt. |
+| [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | Gibt die Einbettungsoption für Bilder zurück oder legt sie fest. Lese-/Schreib-Boolescher Wert. |
 | [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | Bestimmt, wo externe Ressourcen gespeichert werden sollen. Lese-/Schreib-String. |
-| [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | Erhält oder setzt den Modus, in dem Folien beim Export einer Präsentation auf der Seite platziert werden [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | Ruft den Modus ab oder legt den Modus fest, in dem Folien beim Exportieren einer Präsentation auf der Seite platziert werden [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Beispiele
 
@@ -45,7 +45,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 
 ### Siehe auch
 
-* Schnittstelle [ISaveOptions](../isaveoptions)
+* Interface [ISaveOptions](../isaveoptions)
 * Namespace [Aspose.Slides.Export](../../aspose.slides.export)
 * Assembly [Aspose.Slides](../../)
 

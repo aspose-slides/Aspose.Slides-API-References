@@ -1,7 +1,7 @@
 ---
-title: Exposant
+title: Superscript
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Exposant
+description: Superscript
 type: docs
 weight: 30
 url: /fr/aspose.slides.mathtext/mathleftsubsuperscriptelement/superscript/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/mathleftsubsuperscriptelement/superscript/
 
 ## Propriété MathLeftSubSuperscriptElement.Superscript
 
-Exposant
+Superscript
 
 ```csharp
 public IMathElement Superscript { get; }

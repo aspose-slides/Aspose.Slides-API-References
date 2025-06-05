@@ -1,7 +1,7 @@
 ---
-title: Enthält
+title: Contains
 second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob die ICollection einen bestimmten Wert enthält.
+description: Bestimmt, ob ICollection einen bestimmten Wert enthält.
 type: docs
 weight: 60
 url: /de/aspose.slides.animation/behaviorpropertycollection/contains/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/behaviorpropertycollection/contains/
 
 ## Contains(IBehaviorProperty) {#contains}
 
-Bestimmt, ob die ICollection einen bestimmten Wert enthält.
+Bestimmt, ob ICollection einen bestimmten Wert enthält.
 
 ```csharp
 public bool Contains(IBehaviorProperty item)
@@ -34,7 +34,7 @@ true, wenn *item* in der ICollection gefunden wird; andernfalls false.
 
 ## Contains(string) {#contains_1}
 
-Bestimmt, ob die ICollection einen bestimmten Wert enthält.
+Bestimmt, ob ICollection einen bestimmten Wert enthält.
 
 ```csharp
 public bool Contains(string propertyValue)

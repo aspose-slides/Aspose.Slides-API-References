@@ -1,6 +1,6 @@
 ---
 title: AsIEnumerable
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает интерфейс IEnumerable. Только для чтения IEnumerable.
 type: docs
 weight: 10
@@ -19,7 +19,7 @@ public IEnumerable AsIEnumerable { get; }
 
 Для совместимости с COM.
 
-### Также смотри
+### См. Также
 
 * интерфейс [IMathElementCollection](../../imathelementcollection)
 * пространство имен [Aspose.Slides.MathText](../../imathelementcollection)

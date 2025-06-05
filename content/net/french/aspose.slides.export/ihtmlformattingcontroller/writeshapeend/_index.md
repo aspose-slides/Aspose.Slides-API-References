@@ -1,15 +1,15 @@
 ---
 title: WriteShapeEnd
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Appelée avant le rendu des formes. Appelée une fois pour chaque forme. Si cette fonction écrit quoi que ce soit dans le générateur, la génération de l'image de la diapositive actuelle sera terminée, le fragment HTML ajouté sera inséré et une nouvelle image sera commencée au-dessus de la précédente.
+second_title: Aspose.Slides pour .NET API Référence
+description: Appelé avant le rendu des formes. Appelé une fois par forme. Si cette fonction écrit quoi que ce soit dans le générateur, la génération de l'image de la diapositive actuelle sera terminée, un fragment HTML ajouté inséré et une nouvelle image sera commencée au-dessus de la précédente.
 type: docs
 weight: 30
 url: /fr/aspose.slides.export/ihtmlformattingcontroller/writeshapeend/
 ---
 
-## Méthode IHtmlFormattingController.WriteShapeEnd
+## IHtmlFormattingController.WriteShapeEnd méthode
 
-Appelée avant le rendu de la forme. Appelée une fois pour chaque forme. Si cette fonction écrit quoi que ce soit dans le générateur, la génération de l'image de la diapositive actuelle sera terminée, le fragment HTML ajouté sera inséré et une nouvelle image sera commencée au-dessus de la précédente.
+Appelé avant le rendu d'une forme. Appelé une fois par forme. Si cette fonction écrit quoi que ce soit dans le générateur, la génération de l'image de la diapositive actuelle sera terminée, un fragment HTML ajouté inséré et une nouvelle image sera commencée au-dessus de la précédente.
 
 ```csharp
 public void WriteShapeEnd(IHtmlGenerator generator, IShape shape)
@@ -20,7 +20,7 @@ public void WriteShapeEnd(IHtmlGenerator generator, IShape shape)
 | generator | IHtmlGenerator | Objet de sortie. |
 | shape | IShape | Forme qui est rendue en dernier. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IHtmlGenerator](../../ihtmlgenerator)
 * interface [IShape](../../../aspose.slides/ishape)

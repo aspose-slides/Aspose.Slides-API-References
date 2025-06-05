@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.effects/colorreplace/color/
 ---
+
 ## ColorReplace.Color property
 
 Returns color format which will replace color of every pixel. Read-only [`IColorFormat`](../../../aspose.slides/icolorformat).

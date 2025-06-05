@@ -1,7 +1,7 @@
 ---
 title: SizeLocked
-second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob die Größenänderung dieser Form verboten ist. Lese-/Schreib-Boolean.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Bestimmt, ob das Ändern der Größe dieser Form verboten ist. Lese-/Schreib-Boolescher Wert.
 type: docs
 weight: 60
 url: /de/aspose.slides/graphicalobjectlock/sizelocked/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/graphicalobjectlock/sizelocked/
 
 ## GraphicalObjectLock.SizeLocked-Eigenschaft
 
-Bestimmt, ob die Größenänderung dieser Form verboten ist. Lese-/Schreib-Boolean.
+Bestimmt, ob das Ändern der Größe dieser Form verboten ist. Lese-/Schreib-Boolescher Wert.
 
 ```csharp
 public bool SizeLocked { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [GraphicalObjectLock](../../graphicalobjectlock)
 * Namespace [Aspose.Slides](../../graphicalobjectlock)

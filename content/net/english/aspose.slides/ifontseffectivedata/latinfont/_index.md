@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ifontseffectivedata/latinfont/
 ---
+
 ## IFontsEffectiveData.LatinFont property
 
 Returns the Latin font. Read-only [`IFontData`](../../ifontdata).

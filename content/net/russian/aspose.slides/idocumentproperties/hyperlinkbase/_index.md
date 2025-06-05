@@ -1,7 +1,7 @@
 ---
 title: HyperlinkBase
-second_title: Справочное руководство по API Aspose.Slides для .NET
-description: Возвращает или устанавливает свойство HyperlinkBase документа. Читаемая/записываемая строка.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает или устанавливает свойство документа HyperlinkBase. Читаемая/записываемая строка.
 type: docs
 weight: 130
 url: /ru/aspose.slides/idocumentproperties/hyperlinkbase/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/idocumentproperties/hyperlinkbase/
 
 ## Свойство IDocumentProperties.HyperlinkBase
 
-Возвращает или устанавливает свойство HyperlinkBase документа. Читаемая/записываемая строка.
+Возвращает или устанавливает свойство документа HyperlinkBase. Читаемая/записываемая строка.
 
 ```csharp
 public string HyperlinkBase { get; set; }

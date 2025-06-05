@@ -7,7 +7,7 @@ weight: 11440
 url: /de/aspose.slides/viewtype/
 ---
 
-## ViewType-Enumeration
+## ViewType Aufzählung
 
 Präsentationsansichtstypen
 
@@ -20,13 +20,13 @@ public enum ViewType
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | NotDefined | `0` | Wert ist nicht definiert |
-| SlideView | `1` | Normale Folienansicht |
-| SlideMasterView | `2` | Folienmasteransicht |
-| NotesView | `3` | Notizenansicht |
-| HandoutView | `4` | Handoutsansicht |
-| NotesMasterView | `5` | Notizenmasteransicht |
+| SlideView | `1` | Normale Foliensicht |
+| SlideMasterView | `2` | Foliendesigneransicht |
+| NotesView | `3` | Notizansicht |
+| HandoutView | `4` | Handoutsicht |
+| NotesMasterView | `5` | Notizmasteransicht |
 | OutlineView | `6` | Gliederungsansicht |
-| SlideSorterView | `7` | Folien-sortiereransicht |
+| SlideSorterView | `7` | Foliensortiersicht |
 | SlideThumbnailView | `8` | Folienminiaturansicht |
 
 ### Siehe auch

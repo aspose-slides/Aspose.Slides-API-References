@@ -1,13 +1,13 @@
 ---
 title: DisableFontLigatures
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient ou définit une valeur indiquant si le texte est rendu sans utiliser de ligatures. Lorsqu'il est défini sur vrai, les ligatures seront désactivées dans la sortie rendue. Par défaut, cette propriété est définie sur faux.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Obtient ou définit une valeur indiquant si le texte est rendu sans utiliser de ligatures. Lorsqu'il est défini sur true, les ligatures seront désactivées dans la sortie rendue. Par défaut, cette propriété est définie sur false.
 type: docs
 weight: 20
 url: /fr/aspose.slides.export/renderingoptions/disablefontligatures/
 ---
 
-## Propriété RenderingOptions.DisableFontLigatures
+## RenderingOptions.DisableFontLigatures property
 
 Obtient ou définit une valeur indiquant si le texte est rendu sans utiliser de ligatures. Lorsqu'il est défini sur `true`, les ligatures seront désactivées dans la sortie rendue. Par défaut, cette propriété est définie sur `false`.
 
@@ -37,7 +37,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [RenderingOptions](../../renderingoptions)
 * espace de noms [Aspose.Slides.Export](../../renderingoptions)

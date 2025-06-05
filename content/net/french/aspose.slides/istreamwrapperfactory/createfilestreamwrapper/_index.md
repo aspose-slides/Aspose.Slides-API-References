@@ -1,15 +1,15 @@
 ---
 title: CreateFileStreamWrapper
-second_title: Aspose.Slides pour .NET Référence de l'API
-description: Crée un FileStream avec le chemin et le mode de création spécifiés.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Crée un FileStream avec le chemin spécifié et le mode de création.
 type: docs
 weight: 10
 url: /fr/aspose.slides/istreamwrapperfactory/createfilestreamwrapper/
 ---
 
-## CreateFileStreamWrapper(string, FileMode) {#createfilestreamwrapper}
+## CreateFileStreamWrapper(string, FileMode) {#createfilestreamwrapper}
 
-Crée un FileStream avec le chemin et le mode de création spécifiés.
+Crée un FileStream avec le chemin spécifié et le mode de création.
 
 ```csharp
 public IStreamWrapper CreateFileStreamWrapper(string fileName, FileMode fileMode)
@@ -17,14 +17,14 @@ public IStreamWrapper CreateFileStreamWrapper(string fileName, FileMode fileMode
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| fileName | String | Nom du fichier String |
+| fileName | String | Chaîne du nom de fichier |
 | fileMode | FileMode | Mode de fichier FileMode |
 
-### Valeur de retour
+### Valeur de Retour
 
 Wrapper de flux pour l'interface COM [`IStreamWrapper`](../../istreamwrapper)
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IStreamWrapper](../../istreamwrapper)
 * interface [IStreamWrapperFactory](../../istreamwrapperfactory)
@@ -33,9 +33,9 @@ Wrapper de flux pour l'interface COM [`IStreamWrapper`](../../istreamwrapper)
 
 ---
 
-## CreateFileStreamWrapper(string, FileMode, FileAccess) {#createfilestreamwrapper_1}
+## CreateFileStreamWrapper(string, FileMode, FileAccess) {#createfilestreamwrapper_1}
 
-Crée un FileStream avec le chemin, le mode de création et les autorisations de lecture/écriture spécifiés.
+Crée un FileStream avec le chemin spécifié, le mode de création et l'autorisation de lecture/écriture.
 
 ```csharp
 public IStreamWrapper CreateFileStreamWrapper(string fileName, FileMode fileMode, 
@@ -44,15 +44,15 @@ public IStreamWrapper CreateFileStreamWrapper(string fileName, FileMode fileMode
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| fileName | String | Nom du fichier String |
+| fileName | String | Chaîne du nom de fichier |
 | fileMode | FileMode | Mode de fichier FileMode |
 | fileAccess | FileAccess | Accès au fichier FileAccess |
 
-### Valeur de retour
+### Valeur de Retour
 
 Wrapper de flux pour l'interface COM [`IStreamWrapper`](../../istreamwrapper)
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IStreamWrapper](../../istreamwrapper)
 * interface [IStreamWrapperFactory](../../istreamwrapperfactory)

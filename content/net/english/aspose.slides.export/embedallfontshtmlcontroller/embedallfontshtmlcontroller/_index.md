@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export/embedallfontshtmlcontroller/embedallfontshtmlcontroller/
 ---
+
 ## EmbedAllFontsHtmlController() {#constructor}
 
 Creates new instance

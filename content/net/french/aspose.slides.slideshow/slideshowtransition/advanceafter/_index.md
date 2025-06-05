@@ -1,13 +1,13 @@
 ---
 title: AdvanceAfter
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Cet attribut spécifie si le diaporama passera à la diapositive suivante après un certain temps. Booléen en lecture/écriture.
 type: docs
 weight: 10
 url: /fr/aspose.slides.slideshow/slideshowtransition/advanceafter/
 ---
 
-## Propriété SlideShowTransition.AdvanceAfter
+## SlideShowTransition.AdvanceAfter property
 
 Cet attribut spécifie si le diaporama passera à la diapositive suivante après un certain temps. Booléen en lecture/écriture.
 
@@ -21,13 +21,13 @@ public bool AdvanceAfter { get; set; }
 [C#]
 using (Presentation pres = new Presentation("demo.pptx"))
 {
-    // Obtenir la transition de la première diapositive
+    // Obtenez la Transition de la première diapositive
     ISlideShowTransition slideTransition = pres.Slides[0].SlideShowTransition;
     
-    // Vérifier si le drapeau Advance Slide After est activé
+    // Vérifiez si le drapeau Avancer la diapositive après est coché
     if (slideTransition.AdvanceAfter)
     {
-        // Obtenir la valeur du temps Advance Slide After
+        // Obtenez la valeur du temps d'avance après
         uint advanceAfterTime = slideTransition.AdvanceAfterTime;
     }
 }

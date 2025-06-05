@@ -1,13 +1,13 @@
 ---
 title: FindAndReplaceText
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Slides для .NET API Reference
 description: Находит и заменяет текст в презентации с заданным форматом
 type: docs
 weight: 20
 url: /ru/aspose.slides.util/slideutil/findandreplacetext/
 ---
 
-## Метод SlideUtil.FindAndReplaceText
+## SlideUtil.FindAndReplaceText метод
 
 Находит и заменяет текст в презентации с заданным форматом
 
@@ -18,11 +18,11 @@ public static void FindAndReplaceText(IPresentation presentation, bool withMaste
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| presentation | IPresentation | Сканиуемая презентация. |
-| withMasters | Boolean | Определяет, следует ли сканировать мастер-слайды. |
-| find | String | Искомое значение строки. |
-| replace | String | Значение строки для замены. |
-| format | PortionFormat | Формат для замены текстовой части. Если null, будет использоваться формат первого символа найденной строки |
+| presentation | IPresentation | Просматриваемая презентация. |
+| withMasters | Boolean | Определяет, следует ли просматривать мастер-слайды. |
+| find | String | Строковое значение для поиска. |
+| replace | String | Строковое значение для замены. |
+| format | PortionFormat | Формат для замены текстовой части. Если null, будет использован формат первого символа найденной строки |
 
 ### Примеры
 

@@ -1,13 +1,13 @@
 ---
-title: Égal
-second_title: Référence API Aspose.Slides pour .NET
+title: Equals
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Vérifie l'égalité avec l'objet spécifié.
 type: docs
 weight: 170
 url: /fr/aspose.slides/colorformat/equals/
 ---
 
-## Méthode ColorFormat.Equals
+## ColorFormat.Equals méthode
 
 Vérifie l'égalité avec l'objet spécifié.
 

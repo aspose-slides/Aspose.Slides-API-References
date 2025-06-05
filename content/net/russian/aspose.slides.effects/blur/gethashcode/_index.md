@@ -1,25 +1,25 @@
 ---
 title: GetHashCode
-second_title: Aspose.Sildes для .NET API Справочник
-description: Используется в качестве хеш-функции для конкретного типа.
+second_title: Aspose.Sildes для .NET API Reference
+description: Является хеш-функцией для определенного типа.
 type: docs
 weight: 50
 url: /ru/aspose.slides.effects/blur/gethashcode/
 ---
 
-## Метод Blur.GetHashCode
+## Blur.GetHashCode метод
 
-Используется в качестве хеш-функции для конкретного типа.
+Является хеш-функцией для определенного типа.
 
 ```csharp
 public override int GetHashCode()
 ```
 
-### Значение Возврата
+### Возвращаемое значение
 
 Хеш-код для текущего объекта.
 
-### Также Смотрите
+### См. также
 
 * класс [Blur](../../blur)
 * пространство имен [Aspose.Slides.Effects](../../blur)

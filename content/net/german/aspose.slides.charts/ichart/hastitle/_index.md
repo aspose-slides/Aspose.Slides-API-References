@@ -1,7 +1,7 @@
 ---
 title: HasTitle
 second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob ein Diagramm einen sichtbaren Titel hat. Lese-/Schreib-Boolesch.
+description: Bestimmt, ob ein Diagramm einen sichtbaren Titel hat. Lese-/Schreib-Boolean.
 type: docs
 weight: 140
 url: /de/aspose.slides.charts/ichart/hastitle/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichart/hastitle/
 
 ## IChart.HasTitle-Eigenschaft
 
-Bestimmt, ob ein Diagramm einen sichtbaren Titel hat. Lese-/Schreib-Boolesch.
+Bestimmt, ob ein Diagramm einen sichtbaren Titel hat. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool HasTitle { get; set; }

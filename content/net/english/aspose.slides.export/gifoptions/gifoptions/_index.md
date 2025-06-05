@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export/gifoptions/gifoptions/
 ---
+
 ## GifOptions constructor
 
 Initializes a new instance of the GifOptions class.

@@ -1,7 +1,7 @@
 ---
 title: TrendLines
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Collection de lignes de tendance de série Lecture seule ITrendlineCollectionaspose.slides/itrendlinecollection.
+description: Collection de lignes de tendance de séries Lecture seule ITrendlineCollectionaspose.slides.charts/itrendlinecollection.
 type: docs
 weight: 430
 url: /fr/aspose.slides.charts/ichartseries/trendlines/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/ichartseries/trendlines/
 
 ## Propriété IChartSeries.TrendLines
 
-Collection de lignes de tendance de série Lecture seule [`ITrendlineCollection`](../../itrendlinecollection).
+Collection de lignes de tendance de séries Lecture seule [`ITrendlineCollection`](../../itrendlinecollection).
 
 ```csharp
 public ITrendlineCollection TrendLines { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ITrendlineCollection](../../itrendlinecollection)
 * interface [IChartSeries](../../ichartseries)

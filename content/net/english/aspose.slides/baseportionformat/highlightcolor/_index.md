@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/baseportionformat/highlightcolor/
 ---
+
 ## BasePortionFormat.HighlightColor property
 
 Returns the color used to highlight a text. No inheritance applied. Read-only [`IColorFormat`](../../icolorformat).

@@ -1,7 +1,7 @@
 ---
-title: 色调
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置HSL表示法中颜色的色调组件。所有颜色转换均被忽略。可读/可写单精度浮点数。
+title: Hue
+second_title: Aspose.Slides for .NET API Reference
+description: 返回或设置 HSL 表示法中颜色的色调组件。所有颜色转换将被忽略。可读/可写的单精度浮点数。
 type: docs
 weight: 100
 url: /zh/aspose.slides/icolorformat/hue/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/icolorformat/hue/
 
 ## IColorFormat.Hue 属性
 
-返回或设置HSL表示法中颜色的色调组件。所有颜色转换均被忽略。可读/可写单精度浮点数。
+返回或设置 HSL 表示法中颜色的色调组件。所有颜色转换将被忽略。可读/可写的单精度浮点数。
 
 ```csharp
 public float Hue { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IColorFormat](../../icolorformat)
 * 命名空间 [Aspose.Slides](../../icolorformat)

@@ -1,6 +1,6 @@
 ---
-title: 基础
-second_title: Aspose.Sildes for .NET API 参考
+title: Base
+second_title: Aspose.Slides for .NET API Reference
 description: 函数参数
 type: docs
 weight: 20
@@ -17,7 +17,7 @@ public IMathElement Base { get; }
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]

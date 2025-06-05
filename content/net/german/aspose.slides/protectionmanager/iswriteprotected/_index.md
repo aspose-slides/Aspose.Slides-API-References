@@ -1,15 +1,15 @@
 ---
 title: IsWriteProtected
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt einen Wert zurück, der angibt, ob diese Präsentation schreibgeschützt ist. Nur-Lese-Boolescher Wert.
+description: Gibt einen Wert an, der angibt, ob diese Präsentation schreibgeschützt ist. Nur lesbares Boolean.
 type: docs
 weight: 50
 url: /de/aspose.slides/protectionmanager/iswriteprotected/
 ---
 
-## ProtectionManager.IsWriteProtected-Eigenschaft
+## ProtectionManager.IsWriteProtected Eigenschaft
 
-Gibt einen Wert zurück, der angibt, ob diese Präsentation schreibgeschützt ist. Nur-Lese-Boolescher Wert.
+Gibt einen Wert an, der angibt, ob diese Präsentation schreibgeschützt ist. Nur lesbares Boolean.
 
 ```csharp
 public bool IsWriteProtected { get; }

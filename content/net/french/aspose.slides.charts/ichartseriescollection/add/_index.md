@@ -1,6 +1,6 @@
 ---
-title: Ajouter
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Add
+second_title: Aspose.Sildes pour .NET Référence API
 description: Crée de nouvelles séries de graphiques et les ajoute à la collection.
 type: docs
 weight: 20
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ichartseriescollection/add/
 
 ## Add(ChartType) {#add}
 
-Crée une nouvelle série de graphiques et l'ajoute à la collection.
+Crée de nouvelles séries de graphiques et les ajoute à la collection.
 
 ```csharp
 public IChartSeries Add(ChartType type)
@@ -19,11 +19,11 @@ public IChartSeries Add(ChartType type)
 | --- | --- | --- |
 | type | ChartType | Type de série |
 
-### Valeur de retour
+### Valeur de Retour
 
 Nouvelle série de graphiques.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IChartSeries](../../ichartseries)
 * enum [ChartType](../../charttype)
@@ -44,17 +44,17 @@ public IChartSeries Add(IChartDataCell cellWithSeriesName, ChartType type)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | cellWithSeriesName | IChartDataCell | Cellule qui contient le nom de la série. |
-| type | ChartType | Type défini pour la série |
+| type | ChartType | Type défini de série |
 
-### Valeur de retour
+### Valeur de Retour
 
-Série de graphiques ajoutée ou série déjà présente dans la collection.
+Série de graphiques ajoutée ou série qui est déjà dans la collection.
 
 ### Remarques
 
-Si la série de graphiques créée à partir de la même cellule est déjà dans la collection, alors la méthode n'ajoute rien et retourne son index.
+Si la série de graphiques créée à partir de la même cellule est déjà dans la collection, alors la méthode n'ajoute rien et renvoie son index.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IChartSeries](../../ichartseries)
 * interface [IChartDataCell](../../ichartdatacell)
@@ -76,17 +76,17 @@ public IChartSeries Add(IChartCellCollection cellsWithSeriesName, ChartType type
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | cellsWithSeriesName | IChartCellCollection | Cellules qui contiennent le nom de la série. |
-| type | ChartType | Type défini pour la série |
+| type | ChartType | Type défini de série |
 
-### Valeur de retour
+### Valeur de Retour
 
-Série de graphiques ajoutée ou série déjà présente dans la collection.
+Série de graphiques ajoutée ou série qui est déjà dans la collection.
 
 ### Remarques
 
-Si la série de graphiques créée à partir de la même cellule est déjà dans la collection, alors la méthode n'ajoute rien et retourne son index.
+Si la série de graphiques créée à partir de la même cellule est déjà dans la collection, alors la méthode n'ajoute rien et renvoie son index.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IChartSeries](../../ichartseries)
 * interface [IChartCellCollection](../../ichartcellcollection)
@@ -99,7 +99,7 @@ Si la série de graphiques créée à partir de la même cellule est déjà dans
 
 ## Add(string, ChartType) {#add_3}
 
-Crée une nouvelle série de graphiques à partir d'une valeur et l'ajoute à la collection.
+Crée une nouvelle série de graphiques à partir de la valeur et l'ajoute à la collection.
 
 ```csharp
 public IChartSeries Add(string name, ChartType type)
@@ -108,13 +108,13 @@ public IChartSeries Add(string name, ChartType type)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | name | String | Nom de la série. |
-| type | ChartType | Type défini pour la série |
+| type | ChartType | Type défini de série |
 
-### Valeur de retour
+### Valeur de Retour
 
 Série de graphiques ajoutée.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IChartSeries](../../ichartseries)
 * enum [ChartType](../../charttype)

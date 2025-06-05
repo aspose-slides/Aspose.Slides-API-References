@@ -1,5 +1,5 @@
 ---
-title: Diapositivas
+title: Slides
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Especifica el número total de diapositivas en un documento de presentación. Solo lectura Int32.
 type: docs
@@ -19,6 +19,6 @@ public int Slides { get; }
 
 * interfaz [IDocumentProperties](../../idocumentproperties)
 * espacio de nombres [Aspose.Slides](../../idocumentproperties)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

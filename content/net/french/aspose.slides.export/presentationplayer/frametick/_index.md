@@ -1,7 +1,7 @@
 ---
 title: FrameTick
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Événement de tick de cadre. Se produit lorsque chaque image de l'animation créée par PresentationAnimationsGeneratoraspose.slides.export/presentationanimationsgenerator est générée par le lecteur.
+description: Événement de tick de frame. Se produit lorsque chaque frame de l'animation créée par PresentationAnimationsGeneratoraspose.slides.export/presentationanimationsgenerator est générée par le lecteur.
 type: docs
 weight: 30
 url: /fr/aspose.slides.export/presentationplayer/frametick/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/presentationplayer/frametick/
 
 ## Événement PresentationPlayer.FrameTick
 
-Événement de tick de cadre. Se produit lorsque chaque image de l'animation créée par [`PresentationAnimationsGenerator`](../../presentationanimationsgenerator) est générée par le lecteur.
+Événement de tick de frame. Se produit lorsque chaque frame de l'animation créée par [`PresentationAnimationsGenerator`](../../presentationanimationsgenerator) est générée par le lecteur.
 
 ```csharp
 public event FrameTickHandler FrameTick;
@@ -34,7 +34,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * délégué [FrameTickHandler](../../presentationplayer.frametickhandler)
 * classe [PresentationPlayer](../../presentationplayer)

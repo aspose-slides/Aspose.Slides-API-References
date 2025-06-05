@@ -1,6 +1,6 @@
 ---
 title: InsertZoomFrame
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Crée un nouvel objet Zoom et l'insère dans une collection à l'index spécifié.
 type: docs
 weight: 410
@@ -18,11 +18,11 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | L'index basé sur zéro à laquelle le cadre Zoom doit être inséré. |
-| x | Single | Coordonnée X d'un nouveau cadre Zoom. |
-| y | Single | Coordonnée Y d'un nouveau cadre Zoom. |
-| width | Single | Largeur d'un nouveau cadre Zoom. |
-| height | Single | Hauteur d'un nouveau cadre Zoom. |
+| index | Int32 | L'index basé sur zéro auquel le cadre Zoom doit être inséré. |
+| x | Single | Coordonnée X d'un nouveau cadre Zoom Single. |
+| y | Single | Coordonnée Y d'un nouveau cadre Zoom Single. |
+| width | Single | Largeur d'un nouveau cadre Zoom Single. |
+| height | Single | Hauteur d'un nouveau cadre Zoom Single. |
 | slide | ISlide | L'objet diapositive référencé par le cadre Zoom [`ISlide`](../../islide). |
 
 ### Valeur de retour
@@ -37,7 +37,7 @@ Objet Zoom créé [`IZoomFrame`](../../izoomframe).
 
 ### Exemples
 
-Cet exemple illustre la création et l'insertion d'un objet Zoom à l'index spécifié d'une collection (supposons qu'il y ait au moins deux diapositives dans la présentation "Presentation.pptx"):
+Cet exemple démontre la création et l'insertion d'un objet Zoom à l'index spécifié d'une collection (supposons qu'il y ait au moins deux diapositives dans la présentation "Presentation.pptx"):
 
 ```csharp
 [C#]
@@ -68,11 +68,11 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | L'index basé sur zéro à laquelle le cadre Zoom doit être inséré. |
-| x | Single | Coordonnée X d'un nouveau cadre Zoom. |
-| y | Single | Coordonnée Y d'un nouveau cadre Zoom. |
-| width | Single | Largeur d'un nouveau cadre Zoom. |
-| height | Single | Hauteur d'un nouveau cadre Zoom. |
+| index | Int32 | L'index basé sur zéro auquel le cadre Zoom doit être inséré. |
+| x | Single | Coordonnée X d'un nouveau cadre Zoom Single. |
+| y | Single | Coordonnée Y d'un nouveau cadre Zoom Single. |
+| width | Single | Largeur d'un nouveau cadre Zoom Single. |
+| height | Single | Hauteur d'un nouveau cadre Zoom Single. |
 | slide | ISlide | L'objet diapositive référencé par le cadre Zoom [`ISlide`](../../islide). |
 | image | IPPImage | L'image pour la diapositive référencée [`IPPImage`](../../ippimage) |
 
@@ -88,7 +88,7 @@ Objet Zoom créé [`IZoomFrame`](../../izoomframe).
 
 ### Exemples
 
-Cet exemple illustre la création et l'insertion d'un objet Zoom à l'index spécifié d'une collection (supposons qu'il y ait au moins deux diapositives dans la présentation "Presentation.pptx"):
+Cet exemple démontre la création et l'insertion d'un objet Zoom à l'index spécifié d'une collection (supposons qu'il y ait au moins deux diapositives dans la présentation "Presentation.pptx"):
 
 ```csharp
 [C#]

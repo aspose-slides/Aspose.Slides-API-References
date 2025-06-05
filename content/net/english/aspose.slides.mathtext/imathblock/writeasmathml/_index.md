@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.mathtext/imathblock/writeasmathml/
 ---
+
 ## IMathBlock.WriteAsMathMl method
 
 Saves content of this [`IMathBlock`](../../imathblock) as MathML

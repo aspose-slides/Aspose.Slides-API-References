@@ -1,6 +1,6 @@
 ---
 title: IEffectEffectiveData
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示效果的不可变对象的基类。
 type: docs
 weight: 3160

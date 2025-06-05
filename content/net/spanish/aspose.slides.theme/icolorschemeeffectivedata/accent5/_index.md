@@ -7,7 +7,7 @@ weight: 50
 url: /es/aspose.slides.theme/icolorschemeeffectivedata/accent5/
 ---
 
-## Propiedad IColorSchemeEffectiveData.Accent5
+## IColorSchemeEffectiveData.Accent5 property
 
 Quinto color de acento en el esquema. Color de solo lectura.
 
@@ -15,10 +15,10 @@ Quinto color de acento en el esquema. Color de solo lectura.
 public Color Accent5 { get; }
 ```
 
-### Véase También
+### Ver También
 
-* interfaz [IColorSchemeEffectiveData](../../icolorschemeeffectivedata)
-* espacio de nombres [Aspose.Slides.Theme](../../icolorschemeeffectivedata)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IColorSchemeEffectiveData](../../icolorschemeeffectivedata)
+* namespace [Aspose.Slides.Theme](../../icolorschemeeffectivedata)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.export/presentationanimationsgenerator/includehiddenslides/
 ---
+
 ## PresentationAnimationsGenerator.IncludeHiddenSlides property
 
 Get or sets if hidden slides should be included.

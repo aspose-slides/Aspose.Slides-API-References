@@ -1,15 +1,15 @@
 ---
-title: Propriétés
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente des propriétés de comportement. Lecture seule IBehaviorPropertyCollection aspose.slides.animation/ibehaviorpropertycollection.
+title: Properties
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Représente les propriétés de comportement. Lecture seule IBehaviorPropertyCollectionaspose.slides.animation/ibehaviorpropertycollection.
 type: docs
 weight: 30
 url: /fr/aspose.slides.animation/ibehavior/properties/
 ---
 
-## Propriété IBehavior.Properties
+## IBehavior.Properties property
 
-Représente des propriétés de comportement. Lecture seule [`IBehaviorPropertyCollection`](../../ibehaviorpropertycollection).
+Représente les propriétés de comportement. Lecture seule [`IBehaviorPropertyCollection`](../../ibehaviorpropertycollection).
 
 ```csharp
 public IBehaviorPropertyCollection Properties { get; }

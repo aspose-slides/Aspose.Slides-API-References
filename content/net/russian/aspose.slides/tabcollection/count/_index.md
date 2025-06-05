@@ -1,13 +1,13 @@
 ---
-title: Количество
-second_title: Справочник по API Aspose.Slides для .NET
+title: Count
+second_title: Aspose.Sildes для .NET API Справочник
 description: Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
 type: docs
 weight: 10
 url: /ru/aspose.slides/tabcollection/count/
 ---
 
-## Свойство TabCollection.Count
+## TabCollection.Count свойство
 
 Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/tabcollection/count/
 public int Count { get; }
 ```
 
-### Смотрите также
+### Смотрите Также
 
 * класс [TabCollection](../../tabcollection)
 * пространство имен [Aspose.Slides](../../tabcollection)

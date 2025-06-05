@@ -1,7 +1,7 @@
 ---
 title: RevisionNumber
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Präsentationsrevisionnummer zurück oder setzt sie. Lese-/Schreibzugriff Int32.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Präsentations-Revisionnummer zurück oder setzt sie. Lese-/Schreibzugriff Int32.
 type: docs
 weight: 280
 url: /de/aspose.slides/documentproperties/revisionnumber/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/documentproperties/revisionnumber/
 
 ## DocumentProperties.RevisionNumber-Eigenschaft
 
-Gibt die Präsentationsrevisionnummer zurück oder setzt sie. Lese-/Schreibzugriff Int32.
+Gibt die Präsentations-Revisionnummer zurück oder setzt sie. Lese-/Schreibzugriff Int32.
 
 ```csharp
 public int RevisionNumber { get; set; }

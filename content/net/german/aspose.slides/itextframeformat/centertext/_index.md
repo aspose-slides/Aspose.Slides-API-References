@@ -1,7 +1,7 @@
 ---
 title: CenterText
-second_title: Aspose.Slides für .NET API-Referenz
-description: Wenn NullableBool.True, sollte der Text horizontal im Kästchen zentriert sein. Lesen/Schreiben von NullableBool aspose.slides/nullablebool.
+second_title: Aspose.Slides für .NET API Referenz
+description: Wenn NullableBool.True, dann sollte der Text horizontal im Feld zentriert sein. Lesen/Schreiben von NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 30
 url: /de/aspose.slides/itextframeformat/centertext/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/itextframeformat/centertext/
 
 ## ITextFrameFormat.CenterText-Eigenschaft
 
-Wenn NullableBool.True, sollte der Text horizontal im Kästchen zentriert sein. Lesen/Schreiben von [`NullableBool`](../../nullablebool).
+Wenn NullableBool.True, dann sollte der Text horizontal im Feld zentriert sein. Lesen/Schreiben von [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool CenterText { get; set; }

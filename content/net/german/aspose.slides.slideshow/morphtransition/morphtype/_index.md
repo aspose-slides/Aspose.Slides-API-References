@@ -1,6 +1,6 @@
 ---
 title: MorphType
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Typ des Morphübergangs. Lese-/Schreibzugriff auf TransitionMorphTypeaspose.slides.slideshow/transitionmorphtype.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Typ des Morphübergangs. Lese-/Schreibzugriff auf [`TransitionMorphType`](../../
 public TransitionMorphType MorphType { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [TransitionMorphType](../../transitionmorphtype)
 * class [MorphTransition](../../morphtransition)

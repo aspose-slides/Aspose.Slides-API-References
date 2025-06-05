@@ -3,9 +3,10 @@ title: VariableScale
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies that the view content should automatically scale to best fit the current window size. Read/write Boolean.
 type: docs
-weight: 20
+weight: 30
 url: /aspose.slides/commonslideviewproperties/variablescale/
 ---
+
 ## CommonSlideViewProperties.VariableScale property
 
 Specifies that the view content should automatically scale to best fit the current window size. Read/write Boolean.

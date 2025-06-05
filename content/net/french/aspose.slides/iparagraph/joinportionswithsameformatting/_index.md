@@ -1,15 +1,15 @@
 ---
 title: JoinPortionsWithSameFormatting
-second_title: Référence API Aspose.Slides pour .NET
-description: Joins les segments avec la même mise en forme.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Joint des parties avec la même mise en forme.
 type: docs
 weight: 80
 url: /fr/aspose.slides/iparagraph/joinportionswithsameformatting/
 ---
 
-## Méthode IParagraph.JoinPortionsWithSameFormatting
+## IParagraph.JoinPortionsWithSameFormatting méthode
 
-Joins les segments avec la même mise en forme.
+Joint des parties avec la même mise en forme.
 
 ```csharp
 public void JoinPortionsWithSameFormatting()

@@ -1,7 +1,7 @@
 ---
 title: SnapVerticalSplitter
-second_title: Aspose.Slides for .NET API 参考
-description: 指定当侧区域足够小时，垂直分隔符是否应固定为最小状态。可读写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定在侧区域足够小的情况下，垂直分隔条是否应该吸附到最小化状态。可读写布尔值。
 type: docs
 weight: 60
 url: /zh/aspose.slides/normalviewproperties/snapverticalsplitter/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/normalviewproperties/snapverticalsplitter/
 
 ## NormalViewProperties.SnapVerticalSplitter 属性
 
-指定当侧区域足够小时，垂直分隔符是否应固定为最小状态。可读写布尔值。
+指定在侧区域足够小的情况下，垂直分隔条是否应该吸附到最小化状态。可读写布尔值。
 
 ```csharp
 public bool SnapVerticalSplitter { get; set; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * class [NormalViewProperties](../../normalviewproperties)
 * namespace [Aspose.Slides](../../normalviewproperties)

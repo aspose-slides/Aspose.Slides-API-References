@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/baseportionformat/fontitalic/
 ---
+
 ## BasePortionFormat.FontItalic property
 
 Determines whether the font is itallic. No inheritance applied. Read/write [`NullableBool`](../../nullablebool).

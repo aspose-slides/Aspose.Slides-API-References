@@ -1,7 +1,7 @@
 ---
 title: PreviousSlide
-second_title: Aspose.Slides for .NET API 参考
-description: 返回到前一幻灯片的超链接。只读 Hyperlinkaspose.slides/hyperlink。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回指向上一张幻灯片的超链接。只读 Hyperlinkaspose.slides/hyperlink。
 type: docs
 weight: 90
 url: /zh/aspose.slides/hyperlink/previousslide/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/hyperlink/previousslide/
 
 ## Hyperlink.PreviousSlide 属性
 
-返回到前一幻灯片的超链接。只读 [`Hyperlink`](../../hyperlink)。
+返回指向上一张幻灯片的超链接。只读 [`Hyperlink`](../../hyperlink)。
 
 ```csharp
 public static Hyperlink PreviousSlide { get; }
 ```
 
-### 另请参阅
+### 参考
 
 * 类 [Hyperlink](../../hyperlink)
 * 命名空间 [Aspose.Slides](../../hyperlink)

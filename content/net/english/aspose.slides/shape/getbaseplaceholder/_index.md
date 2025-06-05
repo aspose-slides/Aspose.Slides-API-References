@@ -3,9 +3,10 @@ title: GetBasePlaceholder
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns a basic placeholder shape shape from the layout and/or master slide that the current shape is inherited from. A null is returned if the current shape is not inherited.
 type: docs
-weight: 330
+weight: 340
 url: /aspose.slides/shape/getbaseplaceholder/
 ---
+
 ## Shape.GetBasePlaceholder method
 
 Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from). A null is returned if the current shape is not inherited.
@@ -23,7 +24,7 @@ using (Presentation pres = new Presentation("sample.pptx"))
 {
     ISlide slide = pres.Slides[0];
     IShape shape = slide.Shapes[0];
-    IEffect[] shapeEffects = slide.LayoutSlide.Timeline.MainSequence.GetEffectsByShape(shape);
+    IEffect[] shapeEffects = slide.Timeline.MainSequence.GetEffectsByShape(shape);
 
     IShape layoutShape = shape.GetBasePlaceholder();
     IEffect[] layoutShapeEffects = slide.LayoutSlide.Timeline.MainSequence.GetEffectsByShape(layoutShape);

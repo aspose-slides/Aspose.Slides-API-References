@@ -1,6 +1,6 @@
 ---
 title: IsSeriesUsesXValueCoordinate
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回指定系列类型是否使用 X 值坐标。
 type: docs
 weight: 200
@@ -23,7 +23,7 @@ public static bool IsSeriesUsesXValueCoordinate(ChartType seriesType)
 
 如果使用则为 true，否则为 false。
 
-### 另见
+### 另请参阅
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

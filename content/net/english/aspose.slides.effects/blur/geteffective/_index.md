@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.effects/blur/geteffective/
 ---
+
 ## Blur.GetEffective method
 
 Gets effective Blur effect data with the inheritance applied.

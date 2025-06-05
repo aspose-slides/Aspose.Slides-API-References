@@ -1,7 +1,7 @@
 ---
-title: Richtung
+title: Direction
 second_title: Aspose.Slides für .NET API Referenz
-description: Lichtrichtung. Nur-lesbares LightingDirectionaspose.slides/lightingdirection.
+description: Lichtrichtung. Nur-Lese LightingDirectionaspose.slides/lightingdirection.
 type: docs
 weight: 10
 url: /de/aspose.slides/ilightrigeffectivedata/direction/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ilightrigeffectivedata/direction/
 
 ## ILightRigEffectiveData.Direction-Eigenschaft
 
-Lichtrichtung. Nur-lesbar [`LightingDirection`](../../lightingdirection).
+Lichtrichtung. Nur-Lese [`LightingDirection`](../../lightingdirection).
 
 ```csharp
 public LightingDirection Direction { get; }

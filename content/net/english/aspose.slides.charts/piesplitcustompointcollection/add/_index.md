@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.charts/piesplitcustompointcollection/add/
 ---
+
 ## Add(int) {#add_1}
 
 Adds data point by its index in parent series points collection.

@@ -1,7 +1,7 @@
 ---
 title: MathBar
 second_title: Aspose.Sildes for .NET API Reference
-description: 使用上方条表示初始化 MathBar
+description: 初始化具有上划线的 MathBar 顶部位置
 type: docs
 weight: 10
 url: /zh/aspose.slides.mathtext/mathbar/mathbar/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathbar/mathbar/
 
 ## MathBar(IMathElement) {#constructor}
 
-使用上方条表示初始化 MathBar
+初始化具有上划线的 MathBar (顶部位置)
 
 ```csharp
 public MathBar(IMathElement element)
@@ -17,18 +17,18 @@ public MathBar(IMathElement element)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| element | IMathElement | 应用条的基础元素 |
+| element | IMathElement | 应用该划线的基本元素 |
 
-### 例子
+### 示例
 
-例子:
+示例：
 
 ```csharp
 [C#]
 MathBar mathBar = new MathBar(new MathematicalText("x"));
 ```
 
-### 相关说明
+### 参见
 
 * 接口 [IMathElement](../../imathelement)
 * 类 [MathBar](../../mathbar)
@@ -39,7 +39,7 @@ MathBar mathBar = new MathBar(new MathematicalText("x"));
 
 ## MathBar(IMathElement, MathTopBotPositions) {#constructor_1}
 
-使用指定位置初始化 MathBar
+初始化具有指定位置的 MathBar
 
 ```csharp
 public MathBar(IMathElement element, MathTopBotPositions position)
@@ -47,19 +47,19 @@ public MathBar(IMathElement element, MathTopBotPositions position)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| element | IMathElement | 应用条的基础元素 |
-| position | MathTopBotPositions | 条线的位置。 |
+| element | IMathElement | 应用该划线的基本元素 |
+| position | MathTopBotPositions | 划线的位置。 |
 
-### 例子
+### 示例
 
-例子:
+示例：
 
 ```csharp
 [C#]
 MathBar mathBar = new MathBar(new MathematicalText("x"), MathTopBotPositions.Bottom);
 ```
 
-### 相关说明
+### 参见
 
 * 接口 [IMathElement](../../imathelement)
 * 枚举 [MathTopBotPositions](../../mathtopbotpositions)

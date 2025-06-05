@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/metered/metered/
 ---
+
 ## Metered constructor
 
 Initializes a new instance of this class.

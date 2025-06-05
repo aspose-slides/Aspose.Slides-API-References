@@ -1,7 +1,7 @@
 ---
 title: Y
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit la coordonnée y du coin supérieur gauche de la forme. Lecture/écriture Simple.
+description: Renvoie ou définit la coordonnée y du coin supérieur gauche de la forme. Lecture/écriture Single.
 type: docs
 weight: 310
 url: /fr/aspose.slides/shape/y/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/shape/y/
 
 ## Propriété Shape.Y
 
-Renvoie ou définit la coordonnée y du coin supérieur gauche de la forme. Lecture/écriture Simple.
+Renvoie ou définit la coordonnée y du coin supérieur gauche de la forme. Lecture/écriture Single.
 
 ```csharp
 public float Y { get; set; }
@@ -17,9 +17,9 @@ public float Y { get; set; }
 
 ### Remarques
 
-La valeur renvoyée est toujours définie (n'est pas float.NaN). La valeur assignée doit être définie (pas float.NaN). Vous pouvez définir des valeurs indéfinies pour les propriétés de l'instance RawFrame.
+La valeur renvoyée est toujours définie (n'est pas float.NaN). La valeur assignée doit être définie (pas float.NaN). Vous pouvez définir des valeurs indéfinies pour les propriétés des instances RawFrame.
 
-### Voir aussi
+### Voir Aussi
 
 * classe [Shape](../../shape)
 * espace de noms [Aspose.Slides](../../shape)

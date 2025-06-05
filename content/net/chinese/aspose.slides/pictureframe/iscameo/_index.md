@@ -1,6 +1,6 @@
 ---
 title: IsCameo
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 确定 PictureFrame 是否为 Cameo 对象。只读布尔值。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/pictureframe/iscameo/
 public bool IsCameo { get; }
 ```
 
-### 另见
+### 另请参见
 
 * class [PictureFrame](../../pictureframe)
 * namespace [Aspose.Slides](../../pictureframe)

@@ -6,6 +6,7 @@ type: docs
 weight: 220
 url: /aspose.slides.charts/chart/thememanager/
 ---
+
 ## Chart.ThemeManager property
 
 Returns theme manager. Read-only [`IOverrideThemeManager`](../../../aspose.slides.theme/ioverridethememanager).

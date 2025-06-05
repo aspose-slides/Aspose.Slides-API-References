@@ -1,7 +1,7 @@
 ---
 title: ViewerIncluded
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Spécifie si le document SWF généré doit inclure le visualiseur de documents intégré ou non. Par défaut, c'est vrai.
+second_title: Aspose.Slides pour .NET API Référence
+description: Spécifie si le document SWF généré doit inclure le visualiseur de document intégré ou non. La valeur par défaut est vraie.
 type: docs
 weight: 170
 url: /fr/aspose.slides.export/iswfoptions/viewerincluded/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/iswfoptions/viewerincluded/
 
 ## Propriété ISwfOptions.ViewerIncluded
 
-Spécifie si le document SWF généré doit inclure le visualiseur de documents intégré ou non. Par défaut, c'est `true`.
+Spécifie si le document SWF généré doit inclure le visualiseur de document intégré ou non. La valeur par défaut est `true`.
 
 ```csharp
 public bool ViewerIncluded { get; set; }

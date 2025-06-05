@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/picture/linkpathlong/
 ---
+
 ## Picture.LinkPathLong property
 
 Returns of sets linked image's URL. Read/write String.

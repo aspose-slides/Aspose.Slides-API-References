@@ -1,6 +1,6 @@
 ---
 title: IResponsiveHtmlController
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Responsiver HTML-Controller
 type: docs
 weight: 3880

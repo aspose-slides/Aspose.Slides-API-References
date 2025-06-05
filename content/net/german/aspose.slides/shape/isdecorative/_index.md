@@ -1,7 +1,7 @@
 ---
 title: IsDecorative
-second_title: Aspose.Slides für .NET API Referenz
-description: Ruft die Option "Als dekorativ markieren" ab oder setzt sie, Lese-/Schreib-Boolean.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Holt oder setzt die Option "Als dekorativ markieren" Lese/Schreibe Boolean.
 type: docs
 weight: 140
 url: /de/aspose.slides/shape/isdecorative/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/shape/isdecorative/
 
 ## Shape.IsDecorative-Eigenschaft
 
-Ruft die Option 'Als dekorativ markieren' ab oder setzt sie, Lese-/Schreib-Boolean.
+Holt oder setzt die Option "Als dekorativ markieren" Lese/Schreibe Boolean.
 
 ```csharp
 public bool IsDecorative { get; set; }

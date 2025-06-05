@@ -1,15 +1,15 @@
 ---
 title: ShapeElementFillSource
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt dar, wie ein Formelement gefüllt werden sollte.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Repräsentiert, wie das Formelement gefüllt werden soll.
 type: docs
 weight: 9570
 url: /de/aspose.slides/shapeelementfillsource/
 ---
 
-## ShapeElementFillSource Aufzählung
+## ShapeElementFillSource Enumeration
 
-Stellt dar, wie ein Formelement gefüllt werden sollte.
+Repräsentiert, wie das Formelement gefüllt werden soll.
 
 ```csharp
 public enum ShapeElementFillSource : byte
@@ -26,7 +26,7 @@ public enum ShapeElementFillSource : byte
 | Darken | `4` | Verwende die abgedunkelte Füllung der Form. |
 | DarkenLess | `5` | Verwende die weniger abgedunkelte Füllung der Form. |
 
-### Siehe Auch
+### Siehe auch
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

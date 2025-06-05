@@ -1,7 +1,7 @@
 ---
 title: MajorUnit
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Représente les unités majeures pour l'axe des dates ou des valeurs. Lecture/écriture Double.
+second_title: Référence API Aspose.Slides pour .NET
+description: Représente les unités majeures pour l'axe de date ou de valeur. Lecture/écriture Double.
 type: docs
 weight: 360
 url: /fr/aspose.slides.charts/axis/majorunit/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/axis/majorunit/
 
 ## Propriété Axis.MajorUnit
 
-Représente les unités majeures pour l'axe des dates ou des valeurs. Lecture/écriture Double.
+Représente les unités majeures pour l'axe de date ou de valeur. Lecture/écriture Double.
 
 ```csharp
 public double MajorUnit { get; set; }

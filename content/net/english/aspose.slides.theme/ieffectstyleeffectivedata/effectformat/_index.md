@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.theme/ieffectstyleeffectivedata/effectformat/
 ---
+
 ## IEffectStyleEffectiveData.EffectFormat property
 
 Returns an effect format. Read-only [`IEffectFormatEffectiveData`](../../../aspose.slides/ieffectformateffectivedata).

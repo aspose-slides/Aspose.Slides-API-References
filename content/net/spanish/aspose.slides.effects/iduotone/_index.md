@@ -1,7 +1,7 @@
 ---
 title: IDuotone
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa un efecto Duotone.
+second_title: Aspose.Sildes para .NET API Reference
+description: Representa un efecto de Duotono.
 type: docs
 weight: 3140
 url: /es/aspose.slides.effects/iduotone/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.effects/iduotone/
 
 ## Interfaz IDuotone
 
-Representa un efecto Duotone.
+Representa un efecto de Duotono.
 
 ```csharp
 public interface IDuotone : IAccessiblePVIObject<IDuotoneEffectiveData>, IImageTransformOperation
@@ -24,12 +24,12 @@ public interface IDuotone : IAccessiblePVIObject<IDuotoneEffectiveData>, IImageT
 | [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | Devuelve el formato de color objetivo para píxeles oscuros. Solo lectura [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | Devuelve el formato de color objetivo para píxeles claros. Solo lectura [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-### Véase también
+### Ver También
 
 * interfaz [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * interfaz [IDuotoneEffectiveData](../iduotoneeffectivedata)
 * interfaz [IImageTransformOperation](../iimagetransformoperation)
 * espacio de nombres [Aspose.Slides.Effects](../../aspose.slides.effects)
-* ensamblado [Aspose.Slides](../../)
+* ensamblaje [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: AdvanceAfterTime
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Zeit in Millisekunden an, nach der die Übergang beginnen sollte. Diese Einstellung kann in Verbindung mit dem advClick-Attribut verwendet werden. Wenn dieses Attribut nicht angegeben ist, wird davon ausgegangen, dass kein automatisches Vorlaufen auftritt. Lese- und schreibbar UInt32.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Zeit in Millisekunden an, nach der die Transition beginnen soll. Diese Einstellung kann zusammen mit dem advClick-Attribut verwendet werden. Wenn dieses Attribut nicht angegeben ist, wird davon ausgegangen, dass kein automatisches Vorankommen erfolgt. Lese- und Schreibzugriff UInt32.
 type: docs
 weight: 20
 url: /de/aspose.slides/islideshowtransition/advanceaftertime/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/islideshowtransition/advanceaftertime/
 
 ## ISlideShowTransition.AdvanceAfterTime-Eigenschaft
 
-Gibt die Zeit in Millisekunden an, nach der der Übergang beginnen sollte. Diese Einstellung kann in Verbindung mit dem advClick-Attribut verwendet werden. Wenn dieses Attribut nicht angegeben ist, wird davon ausgegangen, dass kein automatisches Vorlaufen auftritt. Lese- und schreibbar UInt32.
+Gibt die Zeit in Millisekunden an, nach der die Transition beginnen soll. Diese Einstellung kann zusammen mit dem advClick-Attribut verwendet werden. Wenn dieses Attribut nicht angegeben ist, wird davon ausgegangen, dass kein automatisches Vorankommen erfolgt. Lese- und Schreibzugriff UInt32.
 
 ```csharp
 public uint AdvanceAfterTime { get; set; }

@@ -30,7 +30,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [IHtml5Options](../../ihtml5options)
 * espacio de nombres [Aspose.Slides.Export](../../ihtml5options)

@@ -1,7 +1,7 @@
 ---
 title: LeaderLinesFormat
-second_title: Aspose.Slides pour .NET Référence de l'API
-description: Représente le format des lignes de leader des étiquettes de données. Lecture seule IChartLinesFormataspose.slides.charts/ichartlinesformat.
+second_title: Aspose.Slides pour .NET API Reference
+description: Représente le format des lignes directrices des étiquettes de données. Lecture seule IChartLinesFormat aspose.slides.charts/ichartlinesformat.
 type: docs
 weight: 70
 url: /fr/aspose.slides.charts/datalabelcollection/leaderlinesformat/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/datalabelcollection/leaderlinesformat/
 
 ## Propriété DataLabelCollection.LeaderLinesFormat
 
-Représente le format des lignes de leader des étiquettes de données. Lecture seule [`IChartLinesFormat`](../../ichartlinesformat).
+Représente le format des lignes directrices des étiquettes de données. Lecture seule [`IChartLinesFormat`](../../ichartlinesformat).
 
 ```csharp
 public IChartLinesFormat LeaderLinesFormat { get; }
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IChartLinesFormat](../../ichartlinesformat)
 * classe [DataLabelCollection](../../datalabelcollection)

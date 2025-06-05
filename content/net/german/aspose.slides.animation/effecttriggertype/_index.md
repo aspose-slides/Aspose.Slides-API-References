@@ -1,15 +1,15 @@
 ---
 title: EffectTriggerType
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Repräsentiert den Auslösetyp des Effekts.
+second_title: Aspose.Slides für .NET API Referenz
+description: Repräsentiert den Auslösertype eines Effekts.
 type: docs
 weight: 270
 url: /de/aspose.slides.animation/effecttriggertype/
 ---
 
-## EffectTriggerType Enumeration
+## EffectTriggerType-Enumeration
 
-Repräsentiert den Auslösetyp des Effekts.
+Repräsentiert den Auslösertype eines Effekts.
 
 ```csharp
 public enum EffectTriggerType
@@ -17,11 +17,11 @@ public enum EffectTriggerType
 
 ### Werte
 
-| Name          | Wert | Beschreibung |
-|---------------|------|--------------|
-| AfterPrevious | `0`  |              |
-| OnClick       | `1`  |              |
-| WithPrevious  | `2`  |              |
+| Name | Wert | Beschreibung |
+| --- | --- | --- |
+| AfterPrevious | `0` |  |
+| OnClick | `1` |  |
+| WithPrevious | `2` |  |
 
 ### Siehe auch
 

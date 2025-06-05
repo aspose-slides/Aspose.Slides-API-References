@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides.charts/chart/plotarea/
 ---
+
 ## Chart.PlotArea property
 
 Represents the plot area of a chart. Read-only [`IChartPlotArea`](../../ichartplotarea).

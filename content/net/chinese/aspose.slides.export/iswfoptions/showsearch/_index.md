@@ -1,7 +1,7 @@
 ---
 title: ShowSearch
-second_title: Aspose.Slides for .NET API 参考
-description: 显示/隐藏搜索部分。可以在 flashvars 中覆盖。默认值为 true。
+second_title: Aspose.Sildes for .NET API Reference
+description: 显示/隐藏搜索部分。可以在 flashvars 中重写。默认值为 true。
 type: docs
 weight: 130
 url: /zh/aspose.slides.export/iswfoptions/showsearch/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/iswfoptions/showsearch/
 
 ## ISwfOptions.ShowSearch 属性
 
-显示/隐藏搜索部分。可以在 flashvars 中覆盖。默认值为 true。
+显示/隐藏搜索部分。可以在 flashvars 中重写。默认值为 true。
 
 ```csharp
 public bool ShowSearch { get; set; }

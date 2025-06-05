@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/pictureframelock/editpointslocked/
 ---
+
 ## PictureFrameLock.EditPointsLocked property
 
 Determines whether a direct changing of contour of this shape is forbidden. Read/write Boolean.

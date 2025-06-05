@@ -1,7 +1,7 @@
 ---
 title: FrameSize
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Frame-Größe zurück.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ruft die Rahmengröße ab.
 type: docs
 weight: 50
 url: /de/aspose.slides.export/presentationanimationsgenerator/framesize/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.export/presentationanimationsgenerator/framesize/
 
 ## PresentationAnimationsGenerator.FrameSize-Feld
 
-Gibt die Frame-Größe zurück.
+Ruft die Rahmengröße ab.
 
 ```csharp
 public readonly Size FrameSize;
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [PresentationAnimationsGenerator](../../presentationanimationsgenerator)
 * Namespace [Aspose.Slides.Export](../../presentationanimationsgenerator)

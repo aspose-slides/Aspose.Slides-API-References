@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides/cell/minimalheight/
 ---
+
 ## Cell.MinimalHeight property
 
 Returns the minimum height of a cell. This is a sum of minimal heights of all rows cowered by the cell. Read-only Double.

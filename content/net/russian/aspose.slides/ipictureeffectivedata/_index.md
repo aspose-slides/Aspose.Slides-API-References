@@ -1,7 +1,7 @@
 ---
 title: IPictureEffectiveData
-second_title: Aspose.Sildes для .NET Справочник API
-description: Непосредственный объект, содержащий эффективные свойства изображения.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Неизменяемый объект, который содержит эффективные свойства изображения.
 type: docs
 weight: 6440
 url: /ru/aspose.slides/ipictureeffectivedata/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ipictureeffectivedata/
 
 ## Интерфейс IPictureEffectiveData
 
-Непосредственный объект, содержащий эффективные свойства изображения.
+Неизменяемый объект, который содержит эффективные свойства изображения.
 
 ```csharp
 public interface IPictureEffectiveData
@@ -20,10 +20,10 @@ public interface IPictureEffectiveData
 | Имя | Описание |
 | --- | --- |
 | [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | Возвращает встроенное изображение. Только для чтения [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | Возвращает коллекцию эффектов преобразования изображения. Только для чтения [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
+| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | Возвращает коллекцию эффектов трансформации изображения. Только для чтения [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
 | [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | Возвращает URL связанного изображения. Только для чтения String. |
 
-### Примечания
+### Замечания
 
 Этот интерфейс используется как часть [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata) и [`IBulletFormatEffectiveData`](../ibulletformateffectivedata).
 

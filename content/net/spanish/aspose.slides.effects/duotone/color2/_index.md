@@ -15,11 +15,11 @@ Devuelve el formato de color objetivo para píxeles claros. Solo lectura [`IColo
 public IColorFormat Color2 { get; }
 ```
 
-### Ver También
+### Véase también
 
-* interface [IColorFormat](../../../aspose.slides/icolorformat)
-* class [Duotone](../../duotone)
-* namespace [Aspose.Slides.Effects](../../duotone)
-* assembly [Aspose.Slides](../../../)
+* interfaz [IColorFormat](../../../aspose.slides/icolorformat)
+* clase [Duotone](../../duotone)
+* espacio de nombres [Aspose.Slides.Effects](../../duotone)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

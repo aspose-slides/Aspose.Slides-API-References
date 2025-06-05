@@ -1,15 +1,15 @@
 ---
 title: Disable3DText
 second_title: Aspose.Sildes for .NET API Reference
-description: 确定SVG中是否禁用3D文本。可读写布尔值。
+description: 确定是否在SVG中禁用3D文本。可读写的布尔值。
 type: docs
 weight: 30
 url: /zh/aspose.slides.export/isvgoptions/disable3dtext/
 ---
 
-## ISVGOptions.Disable3DText 属性
+## ISVGOptions.Disable3DText property
 
-确定SVG中是否禁用3D文本。可读写布尔值。
+确定是否在SVG中禁用3D文本。可读写的布尔值。
 
 ```csharp
 public bool Disable3DText { get; set; }

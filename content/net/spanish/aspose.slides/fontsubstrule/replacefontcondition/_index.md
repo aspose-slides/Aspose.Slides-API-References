@@ -1,13 +1,13 @@
 ---
 title: ReplaceFontCondition
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Regla a aplicar para la sustitución. Solo lectura FontSubstConditionaspose.slides/fontsubstcondition.
 type: docs
 weight: 30
 url: /es/aspose.slides/fontsubstrule/replacefontcondition/
 ---
 
-## Propiedad FontSubstRule.ReplaceFontCondition
+## FontSubstRule.ReplaceFontCondition propiedad
 
 Regla a aplicar para la sustitución. Solo lectura [`FontSubstCondition`](../../fontsubstcondition).
 
@@ -15,7 +15,7 @@ Regla a aplicar para la sustitución. Solo lectura [`FontSubstCondition`](../../
 public FontSubstCondition ReplaceFontCondition { get; }
 ```
 
-### Véase también
+### Ver También
 
 * enum [FontSubstCondition](../../fontsubstcondition)
 * class [FontSubstRule](../../fontsubstrule)

@@ -1,7 +1,7 @@
 ---
-title: Compter
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient le nombre d'éléments effectivement contenus dans la collection. Read-only Int32.
+title: Count
+second_title: Référence API Aspose.Slides pour .NET
+description: Obtient le nombre d'éléments réellement contenus dans la collection. Lecture seule Int32.
 type: docs
 weight: 10
 url: /fr/aspose.slides/slidecollection/count/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/slidecollection/count/
 
 ## Propriété SlideCollection.Count
 
-Obtient le nombre d'éléments effectivement contenus dans la collection. Read-only Int32.
+Obtient le nombre d'éléments réellement contenus dans la collection. Lecture seule Int32.
 
 ```csharp
 public int Count { get; }
@@ -17,7 +17,7 @@ public int Count { get; }
 
 ### Voir aussi
 
-* classe [SlideCollection](../../slidecollection)
+* class [SlideCollection](../../slidecollection)
 * namespace [Aspose.Slides](../../slidecollection)
 * assembly [Aspose.Slides](../../../)
 

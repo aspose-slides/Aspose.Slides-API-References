@@ -1,7 +1,7 @@
 ---
 title: Level
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Verschachtelungsebene des Knotens zurück. Nur-Lese Int32.
+description: Gibt die Verschachtelungsstufe des Knotens zurück. Nur-Lese Int32.
 type: docs
 weight: 50
 url: /de/aspose.slides.smartart/ismartartnode/level/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.smartart/ismartartnode/level/
 
 ## ISmartArtNode.Level Eigenschaft
 
-Gibt die Verschachtelungsebene des Knotens zurück. Nur-Lese Int32.
+Gibt die Verschachtelungsstufe des Knotens zurück. Nur-Lese Int32.
 
 ```csharp
 public int Level { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ISmartArtNode](../../ismartartnode)
 * Namespace [Aspose.Slides.SmartArt](../../ismartartnode)

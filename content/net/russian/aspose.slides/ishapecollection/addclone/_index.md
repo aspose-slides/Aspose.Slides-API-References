@@ -1,13 +1,13 @@
 ---
 title: AddClone
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Добавляет копию указанной фигуры в конец коллекции.
 type: docs
 weight: 80
 url: /ru/aspose.slides/ishapecollection/addclone/
 ---
 
-## AddClone(IShape, float, float, float, float) {#addclone_2}
+## AddClone(IShape, float, float, float, float) {#addclone_2}
 
 Добавляет копию указанной фигуры в конец коллекции.
 
@@ -23,11 +23,11 @@ public IShape AddClone(IShape sourceShape, float x, float y, float width, float 
 | width | Single | Ширина новой фигуры. |
 | height | Single | Высота новой фигуры. |
 
-### Возврат значения
+### Возвращаемое значение
 
 Новая фигура.
 
-### См. также
+### Смотрите также
 
 * interface [IShape](../../ishape)
 * interface [IShapeCollection](../../ishapecollection)
@@ -36,7 +36,7 @@ public IShape AddClone(IShape sourceShape, float x, float y, float width, float 
 
 ---
 
-## AddClone(IShape, float, float) {#addclone_1}
+## AddClone(IShape, float, float) {#addclone_1}
 
 Добавляет копию указанной фигуры в конец коллекции. Ширина и высота новой фигуры равны ширине и высоте *sourceShape*.
 
@@ -50,11 +50,11 @@ public IShape AddClone(IShape sourceShape, float x, float y)
 | x | Single | Координата X новой фигуры. |
 | y | Single | Координата Y новой фигуры. |
 
-### Возврат значения
+### Возвращаемое значение
 
 Новая фигура.
 
-### См. также
+### Смотрите также
 
 * interface [IShape](../../ishape)
 * interface [IShapeCollection](../../ishapecollection)
@@ -65,7 +65,7 @@ public IShape AddClone(IShape sourceShape, float x, float y)
 
 ## AddClone(IShape) {#addclone}
 
-Добавляет копию указанной фигуры в конец коллекции. X, Y, Ширина и Высота новой фигуры равны X, Y, Ширине и Высоте *sourceShape*.
+Добавляет копию указанной фигуры в конец коллекции. X, Y, ширина и высота новой фигуры равны X, Y, ширине и высоте *sourceShape*.
 
 ```csharp
 public IShape AddClone(IShape sourceShape)
@@ -75,11 +75,11 @@ public IShape AddClone(IShape sourceShape)
 | --- | --- | --- |
 | sourceShape | IShape | Фигура для клонирования. |
 
-### Возврат значения
+### Возвращаемое значение
 
 Новая фигура.
 
-### См. также
+### Смотрите также
 
 * interface [IShape](../../ishape)
 * interface [IShapeCollection](../../ishapecollection)

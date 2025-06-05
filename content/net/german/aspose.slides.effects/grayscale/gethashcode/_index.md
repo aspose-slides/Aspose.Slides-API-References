@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Aspose.Slides für .NET API-Referenz
-description: Dient als Hash-Funktion für einen bestimmten Typ.
+description: Dient als Hashfunktion für einen bestimmten Typ.
 type: docs
 weight: 30
 url: /de/aspose.slides.effects/grayscale/gethashcode/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/grayscale/gethashcode/
 
 ## GrayScale.GetHashCode-Methode
 
-Dient als Hash-Funktion für einen bestimmten Typ.
+Dient als Hashfunktion für einen bestimmten Typ.
 
 ```csharp
 public override int GetHashCode()
@@ -17,7 +17,7 @@ public override int GetHashCode()
 
 ### Rückgabewert
 
-Ein Hash-Code für das aktuelle Objekt.
+Ein Hashcode für das aktuelle Objekt.
 
 ### Siehe auch
 

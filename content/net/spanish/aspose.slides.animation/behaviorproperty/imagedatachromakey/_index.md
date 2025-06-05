@@ -15,10 +15,10 @@ Representa la propiedad 'imageData.chromakey'
 public static BehaviorProperty ImageDataChromakey { get; }
 ```
 
-### Ver También
+### Véase También
 
-* clase [BehaviorProperty](../../behaviorproperty)
-* espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)
-* ensamblaje [Aspose.Slides](../../../)
+* class [BehaviorProperty](../../behaviorproperty)
+* namespace [Aspose.Slides.Animation](../../behaviorproperty)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

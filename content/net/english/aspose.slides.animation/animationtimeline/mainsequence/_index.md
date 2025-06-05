@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.animation/animationtimeline/mainsequence/
 ---
+
 ## AnimationTimeLine.MainSequence property
 
 Returns main sequence which may contain only main effects collection. Read-only [`ISequence`](../../isequence).

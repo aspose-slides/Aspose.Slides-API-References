@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ooxmlcorruptfileexception/ooxmlcorruptfileexception/
 ---
+
 ## OOXMLCorruptFileException() {#constructor}
 
 Default constructor.

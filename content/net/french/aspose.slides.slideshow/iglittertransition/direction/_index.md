@@ -1,15 +1,15 @@
 ---
 title: Direction
-second_title: Référence API Aspose.Slides pour .NET
-description: Direction de la transition. Lecture/écriture TransitionSideDirectionTypeaspose.slides.slideshow/transitionsidedirectiontype.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Direction de la transition. Lecture/écriture de TransitionSideDirectionTypeaspose.slides.slideshow/transitionsidedirectiontype.
 type: docs
 weight: 20
 url: /fr/aspose.slides.slideshow/iglittertransition/direction/
 ---
 
-## Propriété IGlitterTransition.Direction
+## IGlitterTransition.Direction propriété
 
-Direction de la transition. Lecture/écriture [`TransitionSideDirectionType`](../../transitionsidedirectiontype).
+Direction de la transition. Lecture/écriture de [`TransitionSideDirectionType`](../../transitionsidedirectiontype).
 
 ```csharp
 public TransitionSideDirectionType Direction { get; set; }

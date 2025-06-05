@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.animation/irotationeffect/asibehavior/
 ---
+
 ## IRotationEffect.AsIBehavior property
 
 Allows to get base IBehavior interface. Read-only [`IBehavior`](../../ibehavior).

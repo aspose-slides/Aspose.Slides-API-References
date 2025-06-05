@@ -1,7 +1,7 @@
 ---
 title: AsIFormattedTextContainer
 second_title: Aspose.Slides для .NET API Справочник
-description: Позволяет получить базовый интерфейс IFormattedTextContainer. Т только для чтения IFormattedTextContaineraspose.slides.charts/iformattedtextcontainer.
+description: Позволяет получить базовый интерфейс IFormattedTextContainer. Только для чтения IFormattedTextContainer aspose.slides.charts/iformattedtextcontainer.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/idatalabelformat/asiformattedtextcontainer/
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/idatalabelformat/asiformattedtextcontainer/
 public IFormattedTextContainer AsIFormattedTextContainer { get; }
 ```
 
-### Также смотрите
+### См. также
 
 * интерфейс [IFormattedTextContainer](../../iformattedtextcontainer)
 * интерфейс [IDataLabelFormat](../../idatalabelformat)

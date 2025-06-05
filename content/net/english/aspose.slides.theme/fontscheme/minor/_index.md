@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.theme/fontscheme/minor/
 ---
+
 ## FontScheme.Minor property
 
 Returns the fonts collection for a "body" part of the slide. Read-only [`IFonts`](../../../aspose.slides/ifonts).

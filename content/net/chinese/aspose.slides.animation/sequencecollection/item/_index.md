@@ -1,6 +1,6 @@
 ---
-title: 项
-second_title: Aspose.Slides for .NET API 参考
+title: Item
+second_title: Aspose.Slides for .NET API Reference
 description: 返回指定索引处的序列。
 type: docs
 weight: 20
@@ -19,7 +19,7 @@ public ISequence this[int index] { get; }
 | --- | --- |
 | index |  |
 
-### 另见
+### 另请参阅
 
 * 接口 [ISequence](../../isequence)
 * 类 [SequenceCollection](../../sequencecollection)

@@ -1,7 +1,7 @@
 ---
 title: BevelTop
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit le type d'un biseau 3D supérieur. En lecture seule IShapeBevelaspose.slides/ishapebevel.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Renvoie ou définit le type d'un biseau 3D supérieur. Lecture seule IShapeBevelaspose.slides/ishapebevel.
 type: docs
 weight: 30
 url: /fr/aspose.slides/ithreedformat/beveltop/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ithreedformat/beveltop/
 
 ## Propriété IThreeDFormat.BevelTop
 
-Renvoie ou définit le type d'un biseau 3D supérieur. En lecture seule [`IShapeBevel`](../../ishapebevel).
+Renvoie ou définit le type d'un biseau 3D supérieur. Lecture seule [`IShapeBevel`](../../ishapebevel).
 
 ```csharp
 public IShapeBevel BevelTop { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IShapeBevel](../../ishapebevel)
 * interface [IThreeDFormat](../../ithreedformat)

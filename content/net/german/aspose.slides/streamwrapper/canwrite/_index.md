@@ -1,7 +1,7 @@
 ---
 title: CanWrite
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen Wert zurück, der angibt, ob der aktuelle Stream das Schreiben unterstützt. Schreibgeschütztes Boolean.
+description: Gibt einen Wert zurück, der angibt, ob der aktuelle Stream Schreibunterstützung bietet. Nur lesendes Boolean.
 type: docs
 weight: 40
 url: /de/aspose.slides/streamwrapper/canwrite/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/streamwrapper/canwrite/
 
 ## StreamWrapper.CanWrite-Eigenschaft
 
-Gibt einen Wert zurück, der angibt, ob der aktuelle Stream das Schreiben unterstützt. Schreibgeschütztes Boolean.
+Gibt einen Wert zurück, der angibt, ob der aktuelle Stream Schreibunterstützung bietet. Nur lesendes Boolean.
 
 ```csharp
 public bool CanWrite { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [StreamWrapper](../../streamwrapper)
 * Namespace [Aspose.Slides](../../streamwrapper)

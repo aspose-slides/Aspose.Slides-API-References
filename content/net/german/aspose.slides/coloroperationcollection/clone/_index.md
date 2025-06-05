@@ -1,7 +1,7 @@
 ---
-title: Klonen
-second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt eine Kopie einer ColorOperationCollection-Sammlung.
+title: Clone
+second_title: Aspose.Slides für .NET API-Referenz
+description: Erstellt eine Kopie einer ColorOperationCollection Sammlung.
 type: docs
 weight: 70
 url: /de/aspose.slides/coloroperationcollection/clone/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/coloroperationcollection/clone/
 
 ## ColorOperationCollection.Clone Methode
 
-Erstellt eine Kopie einer ColorOperationCollection-Sammlung.
+Erstellt eine Kopie einer ColorOperationCollection Sammlung.
 
 ```csharp
 public object Clone()

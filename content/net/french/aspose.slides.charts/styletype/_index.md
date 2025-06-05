@@ -1,6 +1,6 @@
 ---
 title: StyleType
-second_title: Aspose.Sildes pour .NET Référence API
+second_title: Référence API Aspose.Slides pour .NET
 description: Représente le style de graphique.
 type: docs
 weight: 2350
@@ -68,7 +68,7 @@ public enum StyleType
 | Style47 | `46` | Style 47 |
 | Style48 | `47` | Style 48 |
 
-### Voir aussi
+### Voir Aussi
 
 * espace de noms [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

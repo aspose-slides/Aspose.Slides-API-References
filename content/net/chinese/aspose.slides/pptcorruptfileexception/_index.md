@@ -1,7 +1,7 @@
 ---
 title: PptCorruptFileException
-second_title: Aspose.Slides for .NET API Reference
-description: 当演示文稿文件可能损坏时引发的异常。
+second_title: Aspose.Sildes for .NET API Reference
+description: 当演示文稿文件可能损坏时抛出的异常。
 type: docs
 weight: 9230
 url: /zh/aspose.slides/pptcorruptfileexception/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/pptcorruptfileexception/
 
 ## PptCorruptFileException 类
 
-当演示文稿文件可能损坏时引发的异常。
+当演示文稿文件可能损坏时抛出的异常。
 
 ```csharp
 public class PptCorruptFileException : PptReadException
@@ -21,9 +21,9 @@ public class PptCorruptFileException : PptReadException
 | --- | --- |
 | [PptCorruptFileException](pptcorruptfileexception#constructor)() | 默认构造函数。 |
 | [PptCorruptFileException](pptcorruptfileexception#constructor_1)(string) | 允许向此异常添加消息的构造函数。 |
-| [PptCorruptFileException](pptcorruptfileexception#constructor_2)(string, Exception) | 用于包含消息和嵌入异常的异常的构造函数。 |
+| [PptCorruptFileException](pptcorruptfileexception#constructor_2)(string, Exception) | 包含消息和嵌套异常的异常构造函数。 |
 
-### 另请参见
+### 参考
 
 * 类 [PptReadException](../pptreadexception)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

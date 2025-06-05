@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ihyperlink/externalurl/
 ---
+
 ## IHyperlink.ExternalUrl property
 
 Specifies the external URL If this property become not null then property TargetSlide become null. Read-only String.

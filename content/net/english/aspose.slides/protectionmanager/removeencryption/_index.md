@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/protectionmanager/removeencryption/
 ---
+
 ## ProtectionManager.RemoveEncryption method
 
 Removes the encryption.

@@ -1,6 +1,6 @@
 ---
 title: InsertComment
-second_title: Aspose.Sildes pour .NET API Référence
+second_title: Aspose.Sildes pour la référence de l'API .NET
 description: Insérer un nouveau commentaire dans une collection à l'index spécifié.
 type: docs
 weight: 110

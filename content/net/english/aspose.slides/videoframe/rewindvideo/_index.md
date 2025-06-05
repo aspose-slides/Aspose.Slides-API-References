@@ -3,9 +3,10 @@ title: RewindVideo
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines whether a video is automatically rewinded to start as soon as the movie has finished playing. Read/write Boolean.
 type: docs
-weight: 70
+weight: 80
 url: /aspose.slides/videoframe/rewindvideo/
 ---
+
 ## VideoFrame.RewindVideo property
 
 Determines whether a video is automatically rewinded to start as soon as the movie has finished playing. Read/write Boolean.

@@ -1,6 +1,6 @@
 ---
 title: GradientStyle
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sldes для .NET API Справочник
 description: Представляет доступные стили градиента.
 type: docs
 weight: 4860
@@ -17,12 +17,12 @@ public enum GradientStyle
 
 ### Значения
 
-| Имя | Значение | Описание |
+| Название | Значение | Описание |
 | --- | --- | --- |
 | Default | `0` | Стиль градиента по умолчанию. |
-| PowerPointUI | `1` | Стиль градиента, как он отображается в пользовательском интерфейсе PowerPoint. |
+| PowerPointUI | `1` | Стиль градиента, как он появляется в пользовательском интерфейсе PowerPoint. |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

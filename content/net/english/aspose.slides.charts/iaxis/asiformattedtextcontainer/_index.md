@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.charts/iaxis/asiformattedtextcontainer/
 ---
+
 ## IAxis.AsIFormattedTextContainer property
 
 Allows to get base IFormattedTextContainer interface. Read-only [`IFormattedTextContainer`](../../iformattedtextcontainer).

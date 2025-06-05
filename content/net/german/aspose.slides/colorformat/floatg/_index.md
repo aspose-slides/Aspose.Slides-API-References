@@ -1,7 +1,7 @@
 ---
 title: FloatG
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die grüne Komponente einer Farbe zurück oder legt sie fest. Alle Farbtransformationen werden ignoriert. Lese-/schreibbar Single.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die grüne Komponente einer Farbe zurück oder setzt sie. Alle Farbtransformationen werden ignoriert. Lesen/Schreiben Einzelwert.
 type: docs
 weight: 60
 url: /de/aspose.slides/colorformat/floatg/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/colorformat/floatg/
 
 ## ColorFormat.FloatG-Eigenschaft
 
-Gibt die grüne Komponente einer Farbe zurück oder legt sie fest. Alle Farbtransformationen werden ignoriert. Lese-/schreibbar Single.
+Gibt die grüne Komponente einer Farbe zurück oder setzt sie. Alle Farbtransformationen werden ignoriert. Lesen/Schreiben Einzelwert.
 
 ```csharp
 public float FloatG { get; set; }

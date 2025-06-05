@@ -1,6 +1,6 @@
 ---
-title: 计数
-second_title: Aspose.Slides for .NET API 参考
+title: Count
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回集合中的属性数量。只读 Int32。
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/icontrolpropertiescollection/count/
 public int Count { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IControlPropertiesCollection](../../icontrolpropertiescollection)
 * 命名空间 [Aspose.Slides](../../icontrolpropertiescollection)

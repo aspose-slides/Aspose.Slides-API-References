@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.mathtext/mathelementbase/asargumentoffunction/
 ---
+
 ## AsArgumentOfFunction(IMathElement) {#asargumentoffunction}
 
 Takes specified function using this instance as the argument

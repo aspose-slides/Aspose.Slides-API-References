@@ -1,15 +1,15 @@
 ---
 title: ExternalWorkbookPath
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente le chemin du classeur externe si la source de données est externe, null sinon
+second_title: Aspose.Slides pour .NET Référence API
+description: Représente le chemin externe du classeur si la source de données est externe, null sinon
 type: docs
 weight: 40
 url: /fr/aspose.slides.charts/ichartdata/externalworkbookpath/
 ---
 
-## Propriété IChartData.ExternalWorkbookPath
+## IChartData.ExternalWorkbookPath propriété
 
-Représente le chemin du classeur externe si la source de données est externe, null sinon
+Représente le chemin externe du classeur si la source de données est externe, null sinon
 
 ```csharp
 public string ExternalWorkbookPath { get; }

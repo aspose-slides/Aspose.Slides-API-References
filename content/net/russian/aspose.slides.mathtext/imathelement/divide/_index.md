@@ -1,15 +1,15 @@
 ---
-title: Деление
-second_title: Справочник по Aspose.Slides для .NET API
-description: Создает дробь с указанным числителем и заданным знаменателем
+title: Divide
+second_title: Aspose.Sildes для .NET API Reference
+description: Создает дробь с заданным числителем и указанным знаменателем
 type: docs
 weight: 30
 url: /ru/aspose.slides.mathtext/imathelement/divide/
 ---
 
-## Деление(IMathElement) {#divide}
+## Divide(IMathElement) {#divide}
 
-Создает дробь с указанным числителем и заданным знаменателем
+Создает дробь с заданным числителем и указанным знаменателем
 
 ```csharp
 public IMathFraction Divide(IMathElement denominator)
@@ -19,7 +19,7 @@ public IMathFraction Divide(IMathElement denominator)
 | --- | --- | --- |
 | denominator | IMathElement | Знаменатель |
 
-### Значение Возврата
+### Возвращаемое значение
 
 новая дробь
 
@@ -34,7 +34,7 @@ IMathElement denumerator = new MathematicalText("y");
 IMathFraction fraction = numerator.Divide(denumerator);
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [IMathFraction](../../imathfraction)
 * интерфейс [IMathElement](../../imathelement)
@@ -43,9 +43,9 @@ IMathFraction fraction = numerator.Divide(denumerator);
 
 ---
 
-## Деление(string) {#divide_2}
+## Divide(string) {#divide_2}
 
-Создает дробь с указанным числителем и заданным знаменателем
+Создает дробь с заданным числителем и указанным знаменателем
 
 ```csharp
 public IMathFraction Divide(string denominator)
@@ -55,7 +55,7 @@ public IMathFraction Divide(string denominator)
 | --- | --- | --- |
 | denominator | String | Знаменатель |
 
-### Значение Возврата
+### Возвращаемое значение
 
 новая дробь
 
@@ -69,7 +69,7 @@ IMathElement numerator = new MathematicalText("x");
 IMathFraction fraction = numerator.Divide("y");
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [IMathFraction](../../imathfraction)
 * интерфейс [IMathElement](../../imathelement)
@@ -78,9 +78,9 @@ IMathFraction fraction = numerator.Divide("y");
 
 ---
 
-## Деление(IMathElement, MathFractionTypes) {#divide_1}
+## Divide(IMathElement, MathFractionTypes) {#divide_1}
 
-Создает дробь указанного типа с указанным числителем и заданным знаменателем
+Создает дробь указанного типа с заданным числителем и указанным знаменателем
 
 ```csharp
 public IMathFraction Divide(IMathElement denominator, MathFractionTypes fractionType)
@@ -91,7 +91,7 @@ public IMathFraction Divide(IMathElement denominator, MathFractionTypes fraction
 | denominator | IMathElement | Знаменатель |
 | fractionType | MathFractionTypes | Тип дроби: Bar, NoBar, Skewed, Linear |
 
-### Значение Возврата
+### Возвращаемое значение
 
 новая дробь
 
@@ -106,7 +106,7 @@ IMathElement denumerator = new MathematicalText("y");
 IMathFraction fraction = numerator.Divide(denumerator, MathFractionTypes.Linear);
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [IMathFraction](../../imathfraction)
 * перечисление [MathFractionTypes](../../mathfractiontypes)
@@ -116,9 +116,9 @@ IMathFraction fraction = numerator.Divide(denumerator, MathFractionTypes.Linear)
 
 ---
 
-## Деление(string, MathFractionTypes) {#divide_3}
+## Divide(string, MathFractionTypes) {#divide_3}
 
-Создает дробь указанного типа с указанным числителем и заданным знаменателем
+Создает дробь указанного типа с заданным числителем и указанным знаменателем
 
 ```csharp
 public IMathFraction Divide(string denominator, MathFractionTypes fractionType)
@@ -129,7 +129,7 @@ public IMathFraction Divide(string denominator, MathFractionTypes fractionType)
 | denominator | String | Знаменатель |
 | fractionType | MathFractionTypes | Тип дроби: Bar, NoBar, Skewed, Linear |
 
-### Значение Возврата
+### Возвращаемое значение
 
 новая дробь
 
@@ -143,7 +143,7 @@ IMathElement numerator = new MathematicalText("x");
 IMathFraction fraction = numerator.Divide("y", MathFractionTypes.Linear);
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [IMathFraction](../../imathfraction)
 * перечисление [MathFractionTypes](../../mathfractiontypes)

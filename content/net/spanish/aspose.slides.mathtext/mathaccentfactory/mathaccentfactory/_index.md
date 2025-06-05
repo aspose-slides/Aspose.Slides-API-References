@@ -1,6 +1,6 @@
 ---
 title: MathAccentFactory
-second_title: Aspose.Sildes para .NET Referencia API
+second_title: Aspose.Sildes para .NET API Reference
 description: El constructor por defecto.
 type: docs
 weight: 10
@@ -19,6 +19,6 @@ public MathAccentFactory()
 
 * clase [MathAccentFactory](../../mathaccentfactory)
 * espacio de nombres [Aspose.Slides.MathText](../../mathaccentfactory)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

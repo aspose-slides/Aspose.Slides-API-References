@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides.mathtext/mathblock/joinblock/
 ---
+
 ## MathBlock.JoinBlock method
 
 Joins another mathematical block with this one

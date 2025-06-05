@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.mathtext/mathnaryoperator/base/
 ---
+
 ## MathNaryOperator.Base property
 
 Base argument

@@ -1,6 +1,6 @@
 ---
 title: CopyTo
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Копирует элементы ICollection в массив, начиная с определенного индекса массива.
 type: docs
 weight: 70
@@ -17,18 +17,18 @@ public void CopyTo(IBehavior[] array, int arrayIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| array | IBehavior[] | Одномерный массив, который является местом назначения элементов, скопированных из ICollection. Массив должен иметь индексацию с нуля. |
+| array | IBehavior[] | Одномерный массив, который является целью для элементов, скопированных из ICollection. Массив должен иметь индексацию с нуля. |
 | arrayIndex | Int32 | Индекс с нуля в *array*, с которого начинается копирование. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *array* равно null. |
+| ArgumentNullException | *array* является null. |
 | ArgumentOutOfRangeException | *arrayIndex* меньше 0. |
-| ArgumentException | Количество элементов в исходном ICollection больше доступного пространства от *arrayIndex* до конца целевого *array*. |
+| ArgumentException | Число элементов в исходном ICollection больше доступного пространства от *arrayIndex* до конца целевого *array*. |
 
-### См. Также
+### См. также
 
 * интерфейс [IBehavior](../../ibehavior)
 * класс [BehaviorCollection](../../behaviorcollection)

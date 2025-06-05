@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ishapebevel/beveltype/
 ---
+
 ## IShapeBevel.BevelType property
 
 Bevel type. Read/write [`BevelPresetType`](../../bevelpresettype).

@@ -7,7 +7,7 @@ weight: 8680
 url: /fr/aspose.slides.mathtext/mathradicalfactory/
 ---
 
-## Classe MathRadicalFactory
+## MathRadicalFactory class
 
 Permet de créer un radical mathématique
 
@@ -31,7 +31,7 @@ public class MathRadicalFactory : IMathRadicalFactory
 
 Pour la compatibilité COM
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathRadicalFactory](../imathradicalfactory)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

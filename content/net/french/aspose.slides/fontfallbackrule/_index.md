@@ -1,7 +1,7 @@
 ---
 title: FontFallBackRule
-second_title: Aspose.Sildes pour .NET API Reference
-description: Représente la règle de secours de la police
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Représente une règle de remplacement de police
 type: docs
 weight: 4650
 url: /fr/aspose.slides/fontfallbackrule/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/fontfallbackrule/
 
 ## Classe FontFallBackRule
 
-Représente la règle de secours de la police
+Représente une règle de remplacement de police
 
 ```csharp
 public class FontFallBackRule : IFontFallBackRule
@@ -26,25 +26,25 @@ public class FontFallBackRule : IFontFallBackRule
 
 | Nom | Description |
 | --- | --- |
-| [Count](../../aspose.slides/fontfallbackrule/count) { get; } | Obtient le nombre de polices effectivement définies pour la plage. Lecture seule Int32. |
+| [Count](../../aspose.slides/fontfallbackrule/count) { get; } | Obtient le nombre de polices réellement définies pour la plage. Lecture seule Int32. |
 | [Item](../../aspose.slides/fontfallbackrule/item) { get; } | Obtient le nom de la police à l'index spécifié. Lecture seule [`IFontFallBackRule`](../ifontfallbackrule). |
-| [RangeEndIndex](../../aspose.slides/fontfallbackrule/rangeendindex) { get; set; } | Obtient le dernier index de la plage unicode continue. |
-| [RangeStartIndex](../../aspose.slides/fontfallbackrule/rangestartindex) { get; set; } | Obtient le premier index de la plage unicode continue. |
+| [RangeEndIndex](../../aspose.slides/fontfallbackrule/rangeendindex) { get; set; } | Obtient le dernier index de la plage Unicode continue. |
+| [RangeStartIndex](../../aspose.slides/fontfallbackrule/rangestartindex) { get; set; } | Obtient le premier index de la plage Unicode continue. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Ajoute une ou plusieurs nouvelles polices à la liste des polices de secours. |
-| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Ajoute de nouvelles polices à la liste des polices de secours. |
+| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Ajoute une nouvelle police à la liste des polices de remplacement. |
+| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Ajoute de nouvelles polices à la liste des polices de remplacement. |
 | [Clear](../../aspose.slides/fontfallbackrule/clear)() | Supprime toutes les polices de la liste. |
-| [IndexOf](../../aspose.slides/fontfallbackrule/indexof)(string) | Retourne un index de la règle spécifiée dans la collection. |
-| [Remove](../../aspose.slides/fontfallbackrule/remove)(string) | Supprime la première occurrence d'une police de secours spécifique de la liste. |
-| [RemoveAt](../../aspose.slides/fontfallbackrule/removeat)(int) | Supprime la police de secours à l'index spécifié de la liste. |
-| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | Crée et retourne un tableau avec toutes les polices de secours pour cette règle. |
-| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | Crée et retourne un tableau avec toutes les polices de secours de la plage spécifiée dans la liste. |
+| [IndexOf](../../aspose.slides/fontfallbackrule/indexof)(string) | Renvoie l'index de la règle spécifiée dans la collection. |
+| [Remove](../../aspose.slides/fontfallbackrule/remove)(string) | Supprime la première occurrence d'une police de remplacement spécifique de la liste. |
+| [RemoveAt](../../aspose.slides/fontfallbackrule/removeat)(int) | Supprime la police de remplacement à l'index spécifié de la liste. |
+| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | Crée et renvoie un tableau contenant toutes les polices de remplacement pour cette règle. |
+| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | Crée et renvoie un tableau contenant toutes les polices de remplacement de la plage spécifiée dans la liste. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IFontFallBackRule](../ifontfallbackrule)
 * namespace [Aspose.Slides](../../aspose.slides)

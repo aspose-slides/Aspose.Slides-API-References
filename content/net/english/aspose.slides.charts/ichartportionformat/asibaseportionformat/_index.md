@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/ichartportionformat/asibaseportionformat/
 ---
+
 ## IChartPortionFormat.AsIBasePortionFormat property
 
 Returns IBasePortionFormat interface.

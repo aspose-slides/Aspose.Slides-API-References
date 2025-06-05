@@ -1,6 +1,6 @@
 ---
 title: PortionFactory
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Позволяет создавать тестовые порции
 type: docs
 weight: 9210
@@ -17,23 +17,23 @@ public class PortionFactory : IPortionFactory
 
 ## Конструкторы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [PortionFactory](portionfactory)() | Конструктор по умолчанию. |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion)() | Создает пустую текстовую порцию. |
-| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_1)(IPortion) | Создает порцию с использованием указанных данных порции. |
+| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_1)(IPortion) | Создает порцию, используя данные указанной порции. |
 | [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_2)(string) | Создает текстовую порцию из указанной строки. |
 
 ### Примечания
 
 Для совместимости с COM
 
-### См. Также
+### См. также
 
 * интерфейс [IPortionFactory](../iportionfactory)
 * пространство имен [Aspose.Slides](../../aspose.slides)

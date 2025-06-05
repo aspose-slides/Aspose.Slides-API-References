@@ -1,6 +1,6 @@
 ---
 title: AddVideoFrame
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET - ссылка по API
 description: Добавляет новый видеокадр в конец коллекции.
 type: docs
 weight: 210
@@ -50,7 +50,7 @@ public IVideoFrame AddVideoFrame(float x, float y, float width, float height, IV
 | y | Single | Координата Y нового видеокадра. |
 | width | Single | Ширина нового видеокадра. |
 | height | Single | Высота нового видеокадра. |
-| video | IVideo | Видеофайл для добавления. |
+| video | IVideo | Видео для добавления. |
 
 ### Возвращаемое значение
 

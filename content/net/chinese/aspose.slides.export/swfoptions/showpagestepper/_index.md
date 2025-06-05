@@ -1,6 +1,6 @@
 ---
 title: ShowPageStepper
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 显示/隐藏页面步进器。可以在 flashvars 中覆盖。默认值为 true。
 type: docs
 weight: 120
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.export/swfoptions/showpagestepper/
 public bool ShowPageStepper { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * class [SwfOptions](../../swfoptions)
 * namespace [Aspose.Slides.Export](../../swfoptions)

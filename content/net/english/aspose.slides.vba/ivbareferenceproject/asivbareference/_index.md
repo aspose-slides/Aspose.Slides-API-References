@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.vba/ivbareferenceproject/asivbareference/
 ---
+
 ## IVbaReferenceProject.AsIVbaReference property
 
 Returns IVbaReference interface. Read-only [`IVbaReference`](../../ivbareference).

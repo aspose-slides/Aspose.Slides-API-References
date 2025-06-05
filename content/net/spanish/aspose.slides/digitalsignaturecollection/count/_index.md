@@ -1,5 +1,5 @@
 ---
-title: Contar
+title: Count
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el número de elementos en la colección. Solo lectura Int32.
 type: docs
@@ -15,10 +15,10 @@ Devuelve el número de elementos en la colección. Solo lectura Int32.
 public int Count { get; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [DigitalSignatureCollection](../../digitalsignaturecollection)
 * espacio de nombres [Aspose.Slides](../../digitalsignaturecollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

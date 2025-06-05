@@ -17,7 +17,7 @@ public IEnumerator<IMasterSlide> GetEnumerator()
 
 ### Valor de retorno
 
-Un IEnumerator que se puede usar para iterar a través de la colección.
+Un IEnumerator que se puede utilizar para iterar a través de la colección.
 
 ### Véase también
 

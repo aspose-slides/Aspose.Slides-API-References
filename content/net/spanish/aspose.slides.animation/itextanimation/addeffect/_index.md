@@ -1,15 +1,15 @@
 ---
 title: AddEffect
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Agregar un nuevo efecto al final de la secuencia actual al final de las animaciones de texto del grupo. ¡Solo es válido si la cantidad de párrafos de texto es igual o mayor que la cantidad de efectos de este grupo!
+description: Agregar un nuevo efecto al final de la secuencia actual al final de las animaciones de texto del grupo. ¡Solo válido si la cantidad de párrafos de texto es igual o mayor que la cantidad de efectos de este grupo!
 type: docs
 weight: 30
 url: /es/aspose.slides.animation/itextanimation/addeffect/
 ---
 
-## Método ITextAnimation.AddEffect
+## ITextAnimation.AddEffect method
 
-Agregar un nuevo efecto al final de la secuencia actual al final de las animaciones de texto del grupo. ¡Solo es válido si la cantidad de párrafos de texto es igual o mayor que la cantidad de efectos de este grupo!
+Agregar un nuevo efecto al final de la secuencia actual al final de las animaciones de texto del grupo. ¡Solo válido si la cantidad de párrafos de texto es igual o mayor que la cantidad de efectos de este grupo!
 
 ```csharp
 public IEffect AddEffect(EffectType effectType, EffectSubtype subtype, 
@@ -20,7 +20,7 @@ public IEffect AddEffect(EffectType effectType, EffectSubtype subtype,
 | --- | --- | --- |
 | effectType | EffectType | Tipo de un efecto de animación [`EffectType`](../../effecttype) |
 | subtype | EffectSubtype | Subtipos de efecto de animación [`EffectSubtype`](../../effectsubtype) |
-| triggerType | EffectTriggerType | Tipo de disparador de efecto [`EffectTriggerType`](../../effecttriggertype) |
+| triggerType | EffectTriggerType | Tipo de activador del efecto [`EffectTriggerType`](../../effecttriggertype) |
 
 ### Valor de Retorno
 

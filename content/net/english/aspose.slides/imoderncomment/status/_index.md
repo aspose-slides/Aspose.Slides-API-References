@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/imoderncomment/status/
 ---
+
 ## IModernComment.Status property
 
 Returns or sets the status of the comment. Read/write [`ModernCommentStatus`](../../moderncommentstatus).

@@ -1,7 +1,7 @@
 ---
 title: AsIVbaReference
-second_title: Aspose.Slides for .NET API 参考
-description: 返回 IVbaReference 接口。仅读的 IVbaReference aspose.slides.vba/ivbareference。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回 IVbaReference 接口。只读 IVbaReferenceaspose.slides.vba/ivbareference。
 type: docs
 weight: 10
 url: /zh/aspose.slides.vba/ivbareferenceoletypelib/asivbareference/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.vba/ivbareferenceoletypelib/asivbareference/
 
 ## IVbaReferenceOleTypeLib.AsIVbaReference 属性
 
-返回 IVbaReference 接口。仅读 [`IVbaReference`](../../ivbareference)。
+返回 IVbaReference 接口。只读 [`IVbaReference`](../../ivbareference)。
 
 ```csharp
 public IVbaReference AsIVbaReference { get; }

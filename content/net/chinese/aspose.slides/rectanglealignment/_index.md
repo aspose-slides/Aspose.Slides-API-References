@@ -1,7 +1,7 @@
 ---
-title: 矩形对齐
-second_title: Aspose.Slides for .NET API 参考
-description: 定义二维对齐方式。
+title: RectangleAlignment
+second_title: Aspose.Sildes for .NET API Reference
+description: 定义二维对齐。
 type: docs
 weight: 9420
 url: /zh/aspose.slides/rectanglealignment/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/rectanglealignment/
 
 ## RectangleAlignment 枚举
 
-定义二维对齐方式。
+定义二维对齐。
 
 ```csharp
 public enum RectangleAlignment : sbyte

@@ -1,7 +1,7 @@
 ---
-title: 按类型获取
-second_title: Aspose.Slides for .NET API 参考
-description: 返回指定类型的第一个布局幻灯片。要查找的布局幻灯片类型。LayoutSlideaspose.slides/layoutslide 为指定类型的布局幻灯片，如果没有找到布局则为 null。
+title: GetByType
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回指定类型的第一个布局幻灯片。要查找的布局幻灯片类型。LayoutSlide 为指定类型或如果未找到布局则为 null。
 type: docs
 weight: 60
 url: /zh/aspose.slides/layoutslidecollection/getbytype/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/layoutslidecollection/getbytype/
 
 ## LayoutSlideCollection.GetByType 方法
 
-返回指定类型的第一个布局幻灯片。要查找的布局幻灯片类型。[`LayoutSlide`](../../layoutslide) 为指定类型的布局幻灯片，如果没有找到布局则为 null。
+返回指定类型的第一个布局幻灯片。要查找的布局幻灯片类型。[`LayoutSlide`](../../layoutslide) 为指定类型或如果未找到布局则为 null。
 
 ```csharp
 public ILayoutSlide GetByType(SlideLayoutType type)
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [ILayoutSlide](../../ilayoutslide)
 * 枚举 [SlideLayoutType](../../slidelayouttype)

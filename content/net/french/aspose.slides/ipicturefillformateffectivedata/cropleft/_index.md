@@ -1,7 +1,7 @@
 ---
 title: CropLeft
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie le nombre de pourcentages de la largeur réelle de l'image qui sont coupés à gauche de la photo. Lecture seule Single.
+description: Renvoie le nombre de pourcentages de la largeur réelle de l'image qui sont coupés à gauche de l'image. Lecture seule Single.
 type: docs
 weight: 30
 url: /fr/aspose.slides/ipicturefillformateffectivedata/cropleft/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ipicturefillformateffectivedata/cropleft/
 
 ## Propriété IPictureFillFormatEffectiveData.CropLeft
 
-Renvoie le nombre de pourcentages de la largeur réelle de l'image qui sont coupés à gauche de la photo. Lecture seule Single.
+Renvoie le nombre de pourcentages de la largeur réelle de l'image qui sont coupés à gauche de l'image. Lecture seule Single.
 
 ```csharp
 public float CropLeft { get; }

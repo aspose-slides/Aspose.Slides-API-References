@@ -15,7 +15,7 @@ url: /ru/aspose.slides/oleobjectframe/asigraphicalobject/
 public IGraphicalObject AsIGraphicalObject { get; }
 ```
 
-### См. также
+### Смотрите Также
 
 * интерфейс [IGraphicalObject](../../igraphicalobject)
 * класс [OleObjectFrame](../../oleobjectframe)

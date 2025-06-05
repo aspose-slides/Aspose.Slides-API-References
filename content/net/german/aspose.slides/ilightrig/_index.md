@@ -20,14 +20,14 @@ public interface ILightRig
 | Name | Beschreibung |
 | --- | --- |
 | [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | Lichtrichtung. Lese-/Schreibzugriff auf [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | Stellt einen vordefinierten Lichteffekt dar, der auf eine Form angewendet werden kann. Das Lichtensemble stellt eine Gruppe von Lichtern dar, die relativ zu einer 3D-Szene auf eine bestimmte Weise orientiert sind. Lese-/Schreibzugriff auf [`LightRigPresetType`](../lightrigpresettype). |
+| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | Stellt eine vordefinierte Lichtquelle dar, die auf eine Form angewendet werden kann. Die Lichtrig stellt eine Gruppe von Lichtern dar, die in einer bestimmten Weise relativ zu einer 3D-Szene ausgerichtet sind. Lese-/Schreibzugriff auf [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | Eine Rotation wird durch die Verwendung einer Breitengradkoordinate, einer Längengradkoordinate und einer Drehung um die Achse definiert, wie es die Breitengrad- und Längengradkoordinaten angeben. Erstes Element im Rückgabearray - Breitengrad, zweites - Längengrad, drittes - Drehung. |
-| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | Eine Rotation wird durch die Verwendung einer Breitengradkoordinate, einer Längengradkoordinate und einer Drehung um die Achse definiert, wie es die Breitengrad- und Längengradkoordinaten angeben. |
+| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | Eine Rotation wird durch die Verwendung einer Breitengradkoordinate, einer Längengradkoordinate und einer Umdrehung um die Achse definiert, wobei die Breitengrad- und Längengradkoordinaten verwendet werden. Erstes Element im Rückgabearray - Breitengrad, zweites - Längengrad, drittes - Umdrehung. |
+| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | Eine Rotation wird durch die Verwendung einer Breitengradkoordinate, einer Längengradkoordinate und einer Umdrehung um die Achse definiert, wobei die Breitengrad- und Längengradkoordinaten verwendet werden. |
 
 ### Siehe auch
 

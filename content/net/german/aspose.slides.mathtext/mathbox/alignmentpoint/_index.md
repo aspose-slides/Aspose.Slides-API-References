@@ -1,7 +1,7 @@
 ---
 title: AlignmentPoint
 second_title: Aspose.Slides für .NET API-Referenz
-description: Wenn wahr, dient dieser Operator-Emulator als Ausrichtungspunkt, d.h. festgelegte Ausrichtungspunkte in anderen Gleichungen können damit ausgerichtet werden. Standard falsch
+description: Wenn wahr, dient dieser Operator-Emulator als Ausrichtungspunkt; das heißt, festgelegte Ausrichtungspunkte in anderen Gleichungen können damit ausgerichtet werden. Standard falsch
 type: docs
 weight: 20
 url: /de/aspose.slides.mathtext/mathbox/alignmentpoint/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/mathbox/alignmentpoint/
 
 ## MathBox.AlignmentPoint-Eigenschaft
 
-Wenn wahr, dient dieser Operator-Emulator als Ausrichtungspunkt; d.h. festgelegte Ausrichtungspunkte in anderen Gleichungen können damit ausgerichtet werden. Standard: false
+Wenn wahr, dient dieser Operator-Emulator als Ausrichtungspunkt; das heißt, festgelegte Ausrichtungspunkte in anderen Gleichungen können damit ausgerichtet werden. Standard: falsch
 
 ```csharp
 public bool AlignmentPoint { get; set; }
@@ -25,7 +25,7 @@ IMathBox box = new MathematicalText("==").ToBox();
 box.AlignmentPoint = true;
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [MathBox](../../mathbox)
 * Namespace [Aspose.Slides.MathText](../../mathbox)

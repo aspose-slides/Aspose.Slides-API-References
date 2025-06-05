@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.effects/presetshadow/direction/
 ---
+
 ## PresetShadow.Direction property
 
 Direction of shadow. Read/write Single.

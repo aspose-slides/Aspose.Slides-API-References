@@ -1,21 +1,21 @@
 ---
 title: MinorUnitScale
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Представляет основную единицу измерения для оси дат. Чтение/запись TimeUnitTypeaspose.slides.charts/timeunittype.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет крупный единичный масштаб для оси даты. Чтение/запись TimeUnitTypeaspose.slides.charts/timeunittype.
 type: docs
 weight: 420
 url: /ru/aspose.slides.charts/axis/minorunitscale/
 ---
 
-## Св-property Axis.MinorUnitScale
+## Axis.MinorUnitScale property
 
-Представляет основную единицу измерения для оси дат. Чтение/запись [`TimeUnitType`](../../timeunittype).
+Представляет крупный единичный масштаб для оси даты. Чтение/запись [`TimeUnitType`](../../timeunittype).
 
 ```csharp
 public TimeUnitType MinorUnitScale { get; set; }
 ```
 
-### Дополнительно
+### См. также
 
 * enum [TimeUnitType](../../timeunittype)
 * class [Axis](../../axis)

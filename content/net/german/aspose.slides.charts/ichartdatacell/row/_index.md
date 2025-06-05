@@ -1,5 +1,5 @@
 ---
-title: Zeile
+title: Row
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt den Index der Zeile des Arbeitsblatts zurück, in der sich die Zelle befindet. Nur-Lese Int32.
 type: docs
@@ -15,7 +15,7 @@ Gibt den Index der Zeile des Arbeitsblatts zurück, in der sich die Zelle befind
 public int Row { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IChartDataCell](../../ichartdatacell)
 * Namespace [Aspose.Slides.Charts](../../ichartdatacell)

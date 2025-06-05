@@ -1,21 +1,21 @@
 ---
-title: AlternativTextTitel
+title: AlternativeTextTitle
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Titel des alternativen Textes zurück oder legt ihn fest, der mit einer Form verbunden ist. Lese-/Schreib-String.
+description: Gibt den Titel des zugeordneten Alternativtexts für eine Form zurück oder legt ihn fest. Lese-/Schreib-String.
 type: docs
 weight: 20
 url: /de/aspose.slides/shape/alternativetexttitle/
 ---
 
-## Shape.AlternativeTextTitle Eigenschaft
+## Shape.AlternativeTextTitle-Eigenschaft
 
-Gibt den Titel des alternativen Textes zurück oder legt ihn fest, der mit einer Form verbunden ist. Lese-/Schreib-String.
+Gibt den Titel des zugeordneten Alternativtexts für eine Form zurück oder legt ihn fest. Lese-/Schreib-String.
 
 ```csharp
 public string AlternativeTextTitle { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [Shape](../../shape)
 * Namespace [Aspose.Slides](../../shape)

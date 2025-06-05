@@ -1,6 +1,6 @@
 ---
-title: NombresDePropiedades
-second_title: Referencia de API de Aspose.Slides para .NET
+title: NamesOfProperties
+second_title: Referencia API de Aspose.Slides para .NET
 description: Devuelve la colección de nombres de propiedades. ICollection de solo lectura.
 type: docs
 weight: 30
@@ -19,6 +19,6 @@ public ICollection NamesOfProperties { get; }
 
 * clase [ControlPropertiesCollection](../../controlpropertiescollection)
 * espacio de nombres [Aspose.Slides](../../controlpropertiescollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

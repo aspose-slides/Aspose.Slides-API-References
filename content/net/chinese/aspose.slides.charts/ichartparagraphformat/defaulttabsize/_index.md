@@ -1,7 +1,7 @@
 ---
 title: DefaultTabSize
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置默认制表符大小。可读/写 单精度浮点数。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回或设置默认制表符大小。可读/写单精度浮点数。
 type: docs
 weight: 20
 url: /zh/aspose.slides.charts/ichartparagraphformat/defaulttabsize/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ichartparagraphformat/defaulttabsize/
 
 ## IChartParagraphFormat.DefaultTabSize 属性
 
-返回或设置默认制表符大小。可读/写 单精度浮点数。
+返回或设置默认制表符大小。可读/写单精度浮点数。
 
 ```csharp
 public float DefaultTabSize { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IChartParagraphFormat](../../ichartparagraphformat)
 * 命名空间 [Aspose.Slides.Charts](../../ichartparagraphformat)

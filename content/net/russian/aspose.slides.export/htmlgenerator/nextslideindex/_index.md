@@ -1,7 +1,7 @@
 ---
 title: NextSlideIndex
-second_title: Aspose.Slides для .NET API Reference
-description: Возвращает индекс слайда, который будет отрисован после текущего слайда, или -1, если в данный момент отрисовывается последний слайд. Для чтения только Int32.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает индекс слайда, который будет отрисован после текущего слайда, или -1, если в данный момент отрисовывается последний слайд. Только для чтения Int32.
 type: docs
 weight: 10
 url: /ru/aspose.slides.export/htmlgenerator/nextslideindex/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.export/htmlgenerator/nextslideindex/
 
 ## HtmlGenerator.NextSlideIndex свойство
 
-Возвращает индекс слайда, который будет отрисован после текущего слайда, или -1, если в данный момент отрисовывается последний слайд. Для чтения только Int32.
+Возвращает индекс слайда, который будет отрисован после текущего слайда, или -1, если в данный момент отрисовывается последний слайд. Только для чтения Int32.
 
 ```csharp
 public int NextSlideIndex { get; }
 ```
 
-### См. Также
+### См. также
 
 * класс [HtmlGenerator](../../htmlgenerator)
 * пространство имен [Aspose.Slides.Export](../../htmlgenerator)

@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides.charts/chartseries/invertedsolidfillcolor/
 ---
+
 ## ChartSeries.InvertedSolidFillColor property
 
 Specifies invert solid color for series. To apply color setting set series format FillType to FillType.Solid. Read/write [`ColorFormat`](../../../aspose.slides/colorformat).

@@ -1,7 +1,7 @@
 ---
 title: AsIFormattedTextContainer
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf die grundlegende IFormattedTextContainer-Schnittstelle. Nur-lesbare IFormattedTextContaineraspose.slides.charts/iformattedtextcontainer.
+description: Ermöglicht den Zugriff auf die Basis-IFormattedTextContainer-Schnittstelle. Nur-lesender IFormattedTextContaineraspose.slides.charts/iformattedtextcontainer.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/chart/asiformattedtextcontainer/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/chart/asiformattedtextcontainer/
 
 ## Chart.AsIFormattedTextContainer-Eigenschaft
 
-Ermöglicht den Zugriff auf die grundlegende IFormattedTextContainer-Schnittstelle. Nur-lesbare [`IFormattedTextContainer`](../../iformattedtextcontainer).
+Ermöglicht den Zugriff auf die Basis-IFormattedTextContainer-Schnittstelle. Nur-lesender [`IFormattedTextContainer`](../../iformattedtextcontainer).
 
 ```csharp
 public IFormattedTextContainer AsIFormattedTextContainer { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IFormattedTextContainer](../../iformattedtextcontainer)
 * Klasse [Chart](../../chart)

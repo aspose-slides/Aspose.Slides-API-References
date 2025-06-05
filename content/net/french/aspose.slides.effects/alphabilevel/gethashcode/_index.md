@@ -1,13 +1,13 @@
 ---
 title: GetHashCode
-second_title: Référence API d'Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Sert de fonction de hachage pour un type particulier.
 type: docs
 weight: 40
 url: /fr/aspose.slides.effects/alphabilevel/gethashcode/
 ---
 
-## Méthode AlphaBiLevel.GetHashCode
+## AlphaBiLevel.GetHashCode méthode
 
 Sert de fonction de hachage pour un type particulier.
 
@@ -15,11 +15,11 @@ Sert de fonction de hachage pour un type particulier.
 public override int GetHashCode()
 ```
 
-### Valeur de Retour
+### Valeur de retour
 
 Un code de hachage pour l'objet actuel.
 
-### Voir Aussi
+### Voir aussi
 
 * classe [AlphaBiLevel](../../alphabilevel)
 * espace de noms [Aspose.Slides.Effects](../../alphabilevel)

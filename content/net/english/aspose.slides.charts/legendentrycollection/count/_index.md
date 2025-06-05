@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/legendentrycollection/count/
 ---
+
 ## LegendEntryCollection.Count property
 
 Gets the number of legend entries. Read-only Int32.

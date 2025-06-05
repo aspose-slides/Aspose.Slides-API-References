@@ -1,7 +1,7 @@
 ---
 title: SetSubSuperscriptOnTheRight
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Crée un indice et un surindice à droite
+description: Crée un indice et un exposant à droite
 type: docs
 weight: 150
 url: /fr/aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright/
 
 ## SetSubSuperscriptOnTheRight(IMathElement, IMathElement) {#setsubsuperscriptontheright}
 
-Crée un indice et un surindice à droite
+Crée un indice et un exposant à droite
 
 ```csharp
 public IMathRightSubSuperscriptElement SetSubSuperscriptOnTheRight(IMathElement subscript, 
@@ -18,8 +18,8 @@ public IMathRightSubSuperscriptElement SetSubSuperscriptOnTheRight(IMathElement 
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| subscript | IMathElement | Indice (index inférieur à droite) |
-| superscript | IMathElement | Surindice (index supérieur à droite) |
+| subscript | IMathElement | Indice (indice inférieur à droite) |
+| superscript | IMathElement | Exposant (indice supérieur à droite) |
 
 ### Valeur de retour
 
@@ -49,7 +49,7 @@ IMathRightSubSuperscriptElement subsuperscript = baseElement.SetSubSuperscriptOn
 
 ## SetSubSuperscriptOnTheRight(string, string) {#setsubsuperscriptontheright_1}
 
-Crée un indice et un surindice à droite
+Crée un indice et un exposant à droite
 
 ```csharp
 public IMathRightSubSuperscriptElement SetSubSuperscriptOnTheRight(string subscript, 
@@ -58,8 +58,8 @@ public IMathRightSubSuperscriptElement SetSubSuperscriptOnTheRight(string subscr
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| subscript | String | Indice (index inférieur à droite) |
-| superscript | String | Surindice (index supérieur à droite) |
+| subscript | String | Indice (indice inférieur à droite) |
+| superscript | String | Exposant (indice supérieur à droite) |
 
 ### Valeur de retour
 

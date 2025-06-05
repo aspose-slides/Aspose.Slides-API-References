@@ -1,7 +1,7 @@
 ---
-title: 颜色
-second_title: Aspose.Slides for .NET API 参考
-description: 返回应用所有颜色变换后的结果颜色。设置 RGB 颜色并清除所有颜色变换。读/写 Color。
+title: Color
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回应用所有颜色转换后的结果颜色。设置RGB颜色并清除所有颜色转换。可读写颜色。
 type: docs
 weight: 30
 url: /zh/aspose.slides/icolorformat/color/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/icolorformat/color/
 
 ## IColorFormat.Color 属性
 
-返回应用所有颜色变换后的结果颜色。设置 RGB 颜色并清除所有颜色变换。读/写 Color。
+返回结果颜色（应用所有颜色转换后）。设置RGB颜色并清除所有颜色转换。可读写颜色。
 
 ```csharp
 public Color Color { get; set; }

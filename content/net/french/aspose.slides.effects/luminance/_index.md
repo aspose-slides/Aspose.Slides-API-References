@@ -1,7 +1,7 @@
 ---
 title: Luminance
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente un effet de luminance. La luminosité déplace linéairement toutes les couleurs vers le blanc ou le noir. Le contraste échelonne toutes les couleurs pour les rapprocher ou les éloigner.
+second_title: Référence API Aspose.Slides pour .NET
+description: Représente un effet de luminance. La luminosité déplace linéairement toutes les couleurs près du blanc ou du noir. Le contraste fait en sorte que toutes les couleurs soient soit plus proches soit plus éloignées les unes des autres.
 type: docs
 weight: 3490
 url: /fr/aspose.slides.effects/luminance/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/luminance/
 
 ## Classe Luminance
 
-Représente un effet de luminance. La luminosité déplace linéairement toutes les couleurs vers le blanc ou le noir. Le contraste échelonne toutes les couleurs pour les rapprocher ou les éloigner.
+Représente un effet de luminance. La luminosité déplace linéairement toutes les couleurs près du blanc ou du noir. Le contraste fait en sorte que toutes les couleurs soient soit plus proches soit plus éloignées les unes des autres.
 
 ```csharp
 public sealed class Luminance : ImageTransformOperation, ILuminance
@@ -19,14 +19,14 @@ public sealed class Luminance : ImageTransformOperation, ILuminance
 
 | Nom | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'accéder à l'interface de base IPresentationComponent. En lecture seule [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface de base IPresentationComponent. En lecture seule [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/luminance/equals)(object) | Détermine si la [`Luminance`](../luminance) spécifiée est égale à la [`Luminance`](../luminance) actuelle. |
-| [GetEffective](../../aspose.slides.effects/luminance/geteffective)() | Obtient les données d'effet de luminance effectives avec l'héritage appliqué. |
+| override [Equals](../../aspose.slides.effects/luminance/equals)(object) | Détermine si le [`Luminance`](../luminance) spécifié est égal au [`Luminance`](../luminance) actuel. |
+| [GetEffective](../../aspose.slides.effects/luminance/geteffective)() | Obtient les données effectives de l'effet de luminance avec l'héritage appliqué. |
 | override [GetHashCode](../../aspose.slides.effects/luminance/gethashcode)() | Sert de fonction de hachage pour un type particulier. |
 
 ### Voir aussi

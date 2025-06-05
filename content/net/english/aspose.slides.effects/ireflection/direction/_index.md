@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.effects/ireflection/direction/
 ---
+
 ## IReflection.Direction property
 
 Direction of reflection. Read/write Single.

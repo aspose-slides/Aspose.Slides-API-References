@@ -1,7 +1,7 @@
 ---
-title: 转为双精度浮点数
-second_title: Aspose.Slides for .NET API 参考
-description: 转换为双精度浮点数。
+title: ToDouble
+second_title: Aspose.Sildes for .NET API Reference
+description: 转换为 Double。
 type: docs
 weight: 40
 url: /zh/aspose.slides.charts/doublechartvalue/todouble/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/doublechartvalue/todouble/
 
 ## DoubleChartValue.ToDouble 方法
 
-转换为双精度浮点数。
+转换为 Double。
 
 ```csharp
 public double ToDouble()
@@ -17,7 +17,7 @@ public double ToDouble()
 
 ### 返回值
 
-如果 DataSourceType 等于 DoubleLiterals，则返回 LiteralDouble。如果 DataSourceType 等于 Worksheet，则返回成功转换为双精度浮点数的单元格值，否则返回 NaN。
+如果 DataSourceType 等于 DoubleLiterals，则返回 LiteralDouble。如果 DataSourceType 等于 Worksheet，则成功转换为 double 的单元格值，否则返回 NaN。
 
 ### 另见
 

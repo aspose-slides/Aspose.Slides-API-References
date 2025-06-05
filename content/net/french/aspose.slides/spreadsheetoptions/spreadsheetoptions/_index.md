@@ -1,6 +1,6 @@
 ---
 title: SpreadsheetOptions
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Initialise une nouvelle instance de la classe SpreadsheetOptionsaspose.slides/spreadsheetoptions.
 type: docs
 weight: 10

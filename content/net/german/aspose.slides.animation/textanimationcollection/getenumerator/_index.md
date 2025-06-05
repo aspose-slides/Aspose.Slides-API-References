@@ -1,6 +1,6 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt einen Enumerator zurück, der durch die Sammlung iteriert.
 type: docs
 weight: 80
@@ -19,7 +19,7 @@ public IEnumerator<ITextAnimation> GetEnumerator()
 
 Ein IEnumerator, der verwendet werden kann, um durch die Sammlung zu iterieren.
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ITextAnimation](../../itextanimation)
 * Klasse [TextAnimationCollection](../../textanimationcollection)

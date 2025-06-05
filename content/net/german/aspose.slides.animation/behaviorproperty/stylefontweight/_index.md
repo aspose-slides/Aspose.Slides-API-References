@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/behaviorproperty/stylefontweight/
 
 ## BehaviorProperty.StyleFontWeight-Eigenschaft
 
-Stellt die Eigenschaft 'style.fontWeight' dar
+Stellt die 'style.fontWeight'-Eigenschaft dar
 
 ```csharp
 public static BehaviorProperty StyleFontWeight { get; }

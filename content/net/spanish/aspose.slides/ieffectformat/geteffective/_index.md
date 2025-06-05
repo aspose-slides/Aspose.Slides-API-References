@@ -1,29 +1,29 @@
 ---
 title: GetEffective
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Obtiene los datos de formato de efecto efectivo con la herencia aplicada.
+second_title: Aspose.Sildes para .NET API Reference
+description: Obtiene los datos de formato de efecto efectivos con la herencia aplicada.
 type: docs
 weight: 260
 url: /es/aspose.slides/ieffectformat/geteffective/
 ---
 
-## Método IEffectFormat.GetEffective
+## IEffectFormat.GetEffective método
 
-Obtiene los datos de formato de efecto efectivo con la herencia aplicada.
+Obtiene los datos de formato de efecto efectivos con la herencia aplicada.
 
 ```csharp
 public IEffectFormatEffectiveData GetEffective()
 ```
 
-### Valor de Retorno
+### Valor de retorno
 
 Un [`IEffectFormatEffectiveData`](../../ieffectformateffectivedata).
 
-### Véase También
+### Véase también
 
-* interfaz [IEffectFormatEffectiveData](../../ieffectformateffectivedata)
-* interfaz [IEffectFormat](../../ieffectformat)
-* espacio de nombres [Aspose.Slides](../../ieffectformat)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IEffectFormatEffectiveData](../../ieffectformateffectivedata)
+* interfaz [IEffectFormat](../../ieffectformat)
+* espacio de nombres [Aspose.Slides](../../ieffectformat)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

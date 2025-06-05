@@ -1,7 +1,7 @@
 ---
 title: AddGroupShape
-second_title: Aspose.Slides pour .NET Documentation de référence
-description: Crée un nouveau GroupShape et l'ajoute à la fin de la collection. La taille et la position du cadre GroupShape seront ajustées au contenu lorsque de nouvelles formes seront ajoutées au GroupShape.
+second_title: Aspose.Slides pour .NET API Reference
+description: Crée un nouveau GroupShape et l'ajoute à la fin de la collection. La taille et la position du cadre GroupShape seront ajustées au contenu lorsque la nouvelle forme sera ajoutée au GroupShape.
 type: docs
 weight: 100
 url: /fr/aspose.slides/ishapecollection/addgroupshape/
@@ -9,17 +9,17 @@ url: /fr/aspose.slides/ishapecollection/addgroupshape/
 
 ## AddGroupShape() {#addgroupshape}
 
-Crée un nouveau GroupShape et l'ajoute à la fin de la collection. La taille et la position du cadre GroupShape seront ajustées au contenu lorsque de nouvelles formes seront ajoutées au GroupShape.
+Crée un nouveau GroupShape et l'ajoute à la fin de la collection. La taille et la position du cadre GroupShape seront ajustées au contenu lorsque la nouvelle forme sera ajoutée au GroupShape.
 
 ```csharp
 public IGroupShape AddGroupShape()
 ```
 
-### Valeur de retour
+### Valeur de Retour
 
 Objet GroupShape créé.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IGroupShape](../../igroupshape)
 * interface [IShapeCollection](../../ishapecollection)
@@ -39,16 +39,16 @@ public IGroupShape AddGroupShape(ISvgImage svgImage, float x, float y, float wid
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | svgImage | ISvgImage | Objet image Svg [`ISvgImage`](../../isvgimage) |
-| x | Single | La coordonnée X pour le côté gauche du cadre du groupe de formes. |
-| y | Single | La coordonnée Y pour le côté supérieur du cadre du groupe de formes. |
-| width | Single | La largeur du groupe du cadre du groupe de formes. |
-| height | Single | La hauteur d'un groupe du cadre du groupe de formes. |
+| x | Single | La coordonnée X pour le côté gauche du cadre de groupe de forme. |
+| y | Single | La coordonnée Y pour le côté supérieur du cadre de groupe de forme. |
+| width | Single | La largeur du groupe du cadre de groupe de forme. |
+| height | Single | La hauteur d'un groupe du cadre de groupe de forme. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Objet GroupShape créé.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IGroupShape](../../igroupshape)
 * interface [ISvgImage](../../isvgimage)

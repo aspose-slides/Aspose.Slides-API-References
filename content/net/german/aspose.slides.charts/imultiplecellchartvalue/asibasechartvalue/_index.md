@@ -1,7 +1,7 @@
 ---
 title: AsIBaseChartValue
 second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht den Zugriff auf die Basisschnittstelle IBaseChartValue. Schreibgeschütztes IBaseChartValueaspose.slides.charts/ibasechartvalue.
+description: Ermöglicht den Zugriff auf die Basis-IBaseChartValue-Schnittstelle. Nur-Lese-IBaseChartValueaspose.slides.charts/ibasechartvalue.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue/
 
 ## IMultipleCellChartValue.AsIBaseChartValue-Eigenschaft
 
-Ermöglicht den Zugriff auf die Basisschnittstelle IBaseChartValue. Schreibgeschützt [`IBaseChartValue`](../../ibasechartvalue).
+Ermöglicht den Zugriff auf die Basis-IBaseChartValue-Schnittstelle. Nur-Lese [`IBaseChartValue`](../../ibasechartvalue).
 
 ```csharp
 public IBaseChartValue AsIBaseChartValue { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IBaseChartValue](../../ibasechartvalue)
 * Schnittstelle [IMultipleCellChartValue](../../imultiplecellchartvalue)

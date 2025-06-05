@@ -1,7 +1,7 @@
 ---
 title: AddAudioFrameCD
 second_title: Aspose.Sildes for .NET API Reference
-description: 将带有 CD 的 AudioFrame 添加到集合的末尾。
+description: 将带有CD的AudioFrame添加到集合的末尾。
 type: docs
 weight: 30
 url: /zh/aspose.slides/ishapecollection/addaudioframecd/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ishapecollection/addaudioframecd/
 
 ## IShapeCollection.AddAudioFrameCD 方法
 
-将带有 CD 的 AudioFrame 添加到集合的末尾。
+将带有CD的AudioFrame添加到集合的末尾。
 
 ```csharp
 public IAudioFrame AddAudioFrameCD(float x, float y, float width, float height)
@@ -17,16 +17,16 @@ public IAudioFrame AddAudioFrameCD(float x, float y, float width, float height)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| x | Single | 新音频框的 X 坐标。 |
-| y | Single | 新音频框的 Y 坐标。 |
+| x | Single | 新音频框的X坐标。 |
+| y | Single | 新音频框的Y坐标。 |
 | width | Single | 新音频框的宽度。 |
 | height | Single | 新音频框的高度。 |
 
 ### 返回值
 
-创建的 AudioFrame 对象。
+创建的AudioFrame对象。
 
-### 相关信息
+### 另请参见
 
 * 接口 [IAudioFrame](../../iaudioframe)
 * 接口 [IShapeCollection](../../ishapecollection)

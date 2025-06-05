@@ -1,7 +1,7 @@
 ---
-title: Contar
+title: Count
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve la cantidad. Solo lectura Int32.
+description: Devuelve el conteo. Solo lectura Int32.
 type: docs
 weight: 10
 url: /es/aspose.slides.charts/chartdataworksheetcollection/count/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.charts/chartdataworksheetcollection/count/
 
 ## Propiedad ChartDataWorksheetCollection.Count
 
-Devuelve la cantidad. Solo lectura Int32.
+Devuelve el conteo. Solo lectura Int32.
 
 ```csharp
 public int Count { get; }
@@ -19,6 +19,6 @@ public int Count { get; }
 
 * clase [ChartDataWorksheetCollection](../../chartdataworksheetcollection)
 * espacio de nombres [Aspose.Slides.Charts](../../chartdataworksheetcollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -15,7 +15,7 @@ Devuelve o establece el índice de fuente de la forma en una colección de fuent
 public FontCollectionIndex FontCollectionIndex { get; set; }
 ```
 
-### Véase También
+### Ver También
 
 * enum [FontCollectionIndex](../../fontcollectionindex)
 * class [ShapeStyle](../../shapestyle)

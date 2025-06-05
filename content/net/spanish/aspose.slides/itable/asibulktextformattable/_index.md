@@ -1,13 +1,13 @@
 ---
 title: AsIBulkTextFormattable
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Permite obtener la interfaz base IBulkTextFormattable. Solo lectura IBulkTextFormattableaspose.slides/ibulktextformattable.
 type: docs
 weight: 10
 url: /es/aspose.slides/itable/asibulktextformattable/
 ---
 
-## Propiedad ITable.AsIBulkTextFormattable
+## ITable.AsIBulkTextFormattable propiedad
 
 Permite obtener la interfaz base IBulkTextFormattable. Solo lectura [`IBulkTextFormattable`](../../ibulktextformattable).
 
@@ -15,7 +15,7 @@ Permite obtener la interfaz base IBulkTextFormattable. Solo lectura [`IBulkTextF
 public IBulkTextFormattable AsIBulkTextFormattable { get; }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [IBulkTextFormattable](../../ibulktextformattable)
 * interfaz [ITable](../../itable)

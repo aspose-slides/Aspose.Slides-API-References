@@ -1,7 +1,7 @@
 ---
-title: Ancho
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Devuelve el ancho de una imagen. Solo lectura Int32.
+title: Width
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Devuelve el ancho de una imagen. Solo de lectura Int32.
 type: docs
 weight: 60
 url: /es/aspose.slides/ppimage/width/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/ppimage/width/
 
 ## Propiedad PPImage.Width
 
-Devuelve el ancho de una imagen. Solo lectura Int32.
+Devuelve el ancho de una imagen. Solo de lectura Int32.
 
 ```csharp
 public int Width { get; }

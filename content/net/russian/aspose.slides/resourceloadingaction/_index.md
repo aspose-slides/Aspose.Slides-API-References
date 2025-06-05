@@ -1,6 +1,6 @@
 ---
 title: ResourceLoadingAction
-second_title: Aspose.Sildes для .NET Справочник по API
+second_title: Справочное руководство по API Aspose.Sldes для .NET
 description: Указывает режим загрузки внешних ресурсов.
 type: docs
 weight: 9430
@@ -20,10 +20,10 @@ public enum ResourceLoadingAction
 | Имя | Значение | Описание |
 | --- | --- | --- |
 | Default | `0` | Aspose.Slides будет загружать внешние ресурсы как обычно. |
-| Skip | `1` | Aspose.Slides пропустит загрузку внешнего ресурса. Для изображения будет храниться только ссылка без данных. |
-| UserProvided | `2` | Aspose.Slides будет использовать массив байтов, предоставленный пользователем в [`SetData`](../iresourceloadingargs/setdata), в качестве данных изображения. |
+| Skip | `1` | Aspose.Slides пропустит загрузку внешнего ресурса. Будет сохранена только ссылка без данных для изображения. |
+| UserProvided | `2` | Aspose.Slides будет использовать массив байтов, предоставленный пользователем в [`SetData`](../iresourceloadingargs/setdata), как данные изображения. |
 
-### См. Также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

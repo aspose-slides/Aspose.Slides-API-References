@@ -1,13 +1,13 @@
 ---
-title: Eliminar
-second_title: Referencia de la API de Aspose.Slides para .NET
+title: Remove
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Elimina la diapositiva de la presentación.
 type: docs
 weight: 100
 url: /es/aspose.slides/islide/remove/
 ---
 
-## Método ISlide.Remove
+## ISlide.Remove método
 
 Elimina la diapositiva de la presentación.
 
@@ -19,12 +19,12 @@ public void Remove()
 
 | excepción | condición |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Se lanza si la diapositiva ya ha sido eliminada de la presentación. |
+| [PptxEditException](../../pptxeditexception) | Lanzada si la diapositiva ya ha sido eliminada de la presentación. |
 
-### Véase también
+### Vea También
 
-* interfaz [ISlide](../../islide)
-* espacio de nombres [Aspose.Slides](../../islide)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [ISlide](../../islide)
+* espacio de nombres [Aspose.Slides](../../islide)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

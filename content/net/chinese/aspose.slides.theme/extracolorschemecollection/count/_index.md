@@ -1,7 +1,7 @@
 ---
-title: 计数
-second_title: Aspose.Slides for .NET API 参考
-description: 返回集合中的元素数量。只读 Int32。
+title: Count
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回集合中的元素数量。仅可读 Int32。
 type: docs
 weight: 10
 url: /zh/aspose.slides.theme/extracolorschemecollection/count/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.theme/extracolorschemecollection/count/
 
 ## ExtraColorSchemeCollection.Count 属性
 
-返回集合中的元素数量。只读 Int32。
+返回集合中的元素数量。仅可读 Int32。
 
 ```csharp
 public int Count { get; }

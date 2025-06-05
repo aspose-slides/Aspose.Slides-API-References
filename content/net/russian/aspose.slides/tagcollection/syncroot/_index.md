@@ -1,6 +1,6 @@
 ---
 title: SyncRoot
-second_title: Справка по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает корень синхронизации. Объект только для чтения.
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/tagcollection/syncroot/
 public object SyncRoot { get; }
 ```
 
-### См. также
+### См. Также
 
 * класс [TagCollection](../../tagcollection)
 * пространство имен [Aspose.Slides](../../tagcollection)

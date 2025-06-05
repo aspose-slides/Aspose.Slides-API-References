@@ -1,7 +1,7 @@
 ---
 title: PieSplitPosition
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen Wert an, der verwendet werden soll, um zu bestimmen, welche Datenpunkte im zweiten Diagramm oder Balken eines Pie-of-Pie- oder Bar-of-Pie-Diagramms enthalten sind. Wird zusammen mit der Eigenschaft PieSplitBy verwendet. Lese-/Schreibzugriff Double.
+description: Gibt einen Wert an, der verwendet werden soll, um zu bestimmen, welche Datenpunkte im zweiten Kuchen oder Balken eines Kuchen-von-Kuchen- oder Balken-von-Kuchen-Diagramms enthalten sind. Wird zusammen mit der Eigenschaft PieSplitBy verwendet. Lese-/Schreibzugriff Double.
 type: docs
 weight: 150
 url: /de/aspose.slides.charts/chartseriesgroup/piesplitposition/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartseriesgroup/piesplitposition/
 
 ## ChartSeriesGroup.PieSplitPosition-Eigenschaft
 
-Gibt einen Wert an, der verwendet werden soll, um zu bestimmen, welche Datenpunkte im zweiten Diagramm oder Balken eines Pie-of-Pie- oder Bar-of-Pie-Diagramms enthalten sind. Wird zusammen mit der Eigenschaft PieSplitBy verwendet. Lese-/Schreibzugriff Double.
+Gibt einen Wert an, der verwendet werden soll, um zu bestimmen, welche Datenpunkte im zweiten Kuchen oder Balken eines Kuchen-von-Kuchen- oder Balken-von-Kuchen-Diagramms enthalten sind. Wird zusammen mit der Eigenschaft PieSplitBy verwendet. Lese-/Schreibzugriff Double.
 
 ```csharp
 public double PieSplitPosition { get; set; }

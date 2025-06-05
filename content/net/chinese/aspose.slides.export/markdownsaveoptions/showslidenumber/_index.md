@@ -1,6 +1,6 @@
 ---
 title: ShowSlideNumber
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 指定生成的文档是否应显示每张幻灯片的编号。默认值为 false。
 type: docs
 weight: 110

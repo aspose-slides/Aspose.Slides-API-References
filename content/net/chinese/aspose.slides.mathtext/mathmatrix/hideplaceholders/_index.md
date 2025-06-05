@@ -1,7 +1,7 @@
 ---
-title: 隐藏占位符
-second_title: Aspose.Slides for .NET API 参考
-description: 隐藏空矩阵元素的占位符 默认值 false
+title: HidePlaceholders
+second_title: Aspose.Sildes for .NET API Reference
+description: 隐藏空矩阵元素的占位符 默认值为 false
 type: docs
 weight: 60
 url: /zh/aspose.slides.mathtext/mathmatrix/hideplaceholders/
@@ -25,7 +25,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.HidePlaceholders = true;
 ```
 
-### 参见
+### 另请参见
 
 * 类 [MathMatrix](../../mathmatrix)
 * 命名空间 [Aspose.Slides.MathText](../../mathmatrix)

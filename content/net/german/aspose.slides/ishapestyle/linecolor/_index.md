@@ -1,7 +1,7 @@
 ---
-title: Linienfarbe
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Konturfarbe einer Form zurück. Nur-Lese-Interface IColorFormataspose.slides/icolorformat.
+title: LineColor
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Konturfarbe einer Form zurück. Schreibgeschütztes IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 70
 url: /de/aspose.slides/ishapestyle/linecolor/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ishapestyle/linecolor/
 
 ## IShapeStyle.LineColor-Eigenschaft
 
-Gibt die Konturfarbe einer Form zurück. Nur-Lese-Interface [`IColorFormat`](../../icolorformat).
+Gibt die Konturfarbe einer Form zurück. Schreibgeschützt [`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat LineColor { get; }
@@ -17,8 +17,8 @@ public IColorFormat LineColor { get; }
 
 ### Siehe auch
 
-* Interface [IColorFormat](../../icolorformat)
-* Interface [IShapeStyle](../../ishapestyle)
+* Schnittstelle [IColorFormat](../../icolorformat)
+* Schnittstelle [IShapeStyle](../../ishapestyle)
 * Namespace [Aspose.Slides](../../ishapestyle)
 * Assembly [Aspose.Slides](../../../)
 

@@ -1,7 +1,7 @@
 ---
 title: FillFormat
-second_title: Aspose.Slidess para .NET Referencia de API
-description: Devuelve el formato de relleno de viñetas de un párrafo. Solo lectura IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Devuelve el formato de relleno del viñeta de un párrafo. Solo lectura IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
 type: docs
 weight: 30
 url: /es/aspose.slides/ibulletformateffectivedata/fillformat/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/ibulletformateffectivedata/fillformat/
 
 ## Propiedad IBulletFormatEffectiveData.FillFormat
 
-Devuelve el formato de relleno de viñetas de un párrafo. Solo lectura [`IFillFormatEffectiveData`](../../ifillformateffectivedata).
+Devuelve el formato de relleno del viñeta de un párrafo. Solo lectura [`IFillFormatEffectiveData`](../../ifillformateffectivedata).
 
 ```csharp
 public IFillFormatEffectiveData FillFormat { get; }
@@ -17,13 +17,13 @@ public IFillFormatEffectiveData FillFormat { get; }
 
 ### Ejemplos
 
-Este ejemplo demuestra cómo recuperar los datos efectivos de relleno de las viñetas.
+Este ejemplo demuestra la recuperación de los datos efectivos de relleno de la viñeta.
 
 ```csharp
 [C#]
 using (Presentation pres = new Presentation("SomePresentation.pptx"))
 {
-    // Supongamos que la primera forma en la primera diapositiva es un AutoShape con algún texto...
+    // Suponga que la primera forma en la primera diapositiva es una AutoShape con algún texto...
     // Salida de información sobre las viñetas de los párrafos de texto
     AutoShape autoShape = (AutoShape)pres.Slides[0].Shapes[0];
     foreach (Paragraph para in autoShape.TextFrame.Paragraphs)
@@ -55,7 +55,7 @@ using (Presentation pres = new Presentation("SomePresentation.pptx"))
 }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [IFillFormatEffectiveData](../../ifillformateffectivedata)
 * interfaz [IBulletFormatEffectiveData](../../ibulletformateffectivedata)

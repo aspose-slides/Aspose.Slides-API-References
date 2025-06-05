@@ -1,6 +1,6 @@
 ---
 title: AddClone
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Ajoute une copie d'une forme spécifiée à la fin de la collection.
 type: docs
 weight: 80
@@ -23,11 +23,11 @@ public IShape AddClone(IShape sourceShape, float x, float y, float width, float 
 | width | Single | Largeur d'une nouvelle forme. |
 | height | Single | Hauteur d'une nouvelle forme. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Nouvelle forme.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IShape](../../ishape)
 * interface [IShapeCollection](../../ishapecollection)
@@ -50,11 +50,11 @@ public IShape AddClone(IShape sourceShape, float x, float y)
 | x | Single | Coordonnée X d'une nouvelle forme. |
 | y | Single | Coordonnée Y d'une nouvelle forme. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Nouvelle forme.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IShape](../../ishape)
 * interface [IShapeCollection](../../ishapecollection)
@@ -65,7 +65,7 @@ Nouvelle forme.
 
 ## AddClone(IShape) {#addclone}
 
-Ajoute une copie d'une forme spécifiée à la fin de la collection. Les coordonnées X, Y, la largeur et la hauteur de la nouvelle forme sont égales à celles de la *sourceShape*. 
+Ajoute une copie d'une forme spécifiée à la fin de la collection. X, Y, Largeur et Hauteur de la nouvelle forme sont égales à X, Y, Largeur et Hauteur de la *sourceShape*.
 
 ```csharp
 public IShape AddClone(IShape sourceShape)
@@ -75,11 +75,11 @@ public IShape AddClone(IShape sourceShape)
 | --- | --- | --- |
 | sourceShape | IShape | Forme à cloner. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Nouvelle forme.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IShape](../../ishape)
 * interface [IShapeCollection](../../ishapecollection)

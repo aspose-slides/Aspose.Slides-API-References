@@ -1,7 +1,7 @@
 ---
-title: 位置
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置评论在幻灯片上的位置。可读/写 PointF。
+title: Position
+second_title: Aspose.Slides for .NET API Reference
+description: 返回或设置幻灯片上评论的位置。可读写 PointF。
 type: docs
 weight: 40
 url: /zh/aspose.slides/comment/position/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/comment/position/
 
 ## Comment.Position 属性
 
-返回或设置评论在幻灯片上的位置。可读/写 PointF。
+返回或设置幻灯片上评论的位置。可读写 PointF。
 
 ```csharp
 public PointF Position { get; set; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * class [Comment](../../comment)
 * namespace [Aspose.Slides](../../comment)

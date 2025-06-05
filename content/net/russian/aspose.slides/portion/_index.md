@@ -1,6 +1,6 @@
 ---
-title: Порция
-second_title: Справочник по API Aspose.Sildes для .NET
+title: Portion
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет собой часть текста внутри текстового абзаца.
 type: docs
 weight: 9190
@@ -27,19 +27,19 @@ public class Portion : IPortion
 
 | Имя | Описание |
 | --- | --- |
-| [Field](../../aspose.slides/portion/field) { get; } | Возвращает поле этой порции. Только для чтения [`IField`](../ifield). |
-| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Возвращает объект форматирования, который содержит явно заданные свойства форматирования текстовой порции без применения наследования. Только для чтения [`IPortionFormat`](../iportionformat). |
-| [Text](../../aspose.slides/portion/text) { get; set; } | Получает или задает обычный текст порции. Чтение/запись String. |
+| [Field](../../aspose.slides/portion/field) { get; } | Возвращает поле этой части. Только для чтения [`IField`](../ifield). |
+| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Возвращает объект форматирования, который содержит явно установленные свойства форматирования текстовой части без применения наследования. Только для чтения [`IPortionFormat`](../iportionformat). |
+| [Text](../../aspose.slides/portion/text) { get; set; } | Получает или устанавливает обычный текст части. Чтение/запись Строка. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddField](../../aspose.slides/portion/addfield#addfield)(IFieldType) | Преобразует эту порцию в автоматически обновляемое поле. |
-| [AddField](../../aspose.slides/portion/addfield#addfield_1)(string) | Преобразует эту порцию в автоматически обновляемое поле. |
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Получает координаты начала порции. Координата X точки представляет начало порции с первого символа, включая левый отступ. Координата Y включает верхний отступ. |
-| [GetRect](../../aspose.slides/portion/getrect)() | Получает координаты прямоугольника, который ограничивает порцию. Прямоугольник включает все строки текста в порции, включая пустые. |
-| [RemoveField](../../aspose.slides/portion/removefield)() | Преобразует эту полевую порцию в простую порцию. |
+| [AddField](../../aspose.slides/portion/addfield#addfield)(IFieldType) | Преобразует эту часть в автоматически обновляемое поле. |
+| [AddField](../../aspose.slides/portion/addfield#addfield_1)(string) | Преобразует эту часть в автоматически обновляемое поле. |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Получает координаты начала части. X-координата точки представляет начало части с первого символа, включая левое обрамление. Y-координата включает верхнее обрамление. |
+| [GetRect](../../aspose.slides/portion/getrect)() | Получает координаты прямоугольника, который ограничивает часть. Прямоугольник включает все строки текста в части, включая пустые. |
+| [RemoveField](../../aspose.slides/portion/removefield)() | Преобразует эту часть поля в простую часть. |
 
 ### См. также
 

@@ -14,9 +14,9 @@ public delegate void ForEachSlideCallback(Slide slide, int index);
 
 ### Véase también
 
-* clase [Slide](../../aspose.slides/slide)
-* clase [ForEach](../foreach)
-* espacio de nombres [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
-* ensamblado [Aspose.Slides](../../)
+* class [Slide](../../aspose.slides/slide)
+* class [ForEach](../foreach)
+* namespace [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
+* assembly [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

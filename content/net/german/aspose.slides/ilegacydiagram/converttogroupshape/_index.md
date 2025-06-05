@@ -1,15 +1,15 @@
 ---
 title: ConvertToGroupShape
-second_title: Aspose.Slides für .NET API-Referenz
-description: Konvertiert das veraltete Diagramm in eine bearbeitbare Gruppenschablone. Das erstellte GroupShape-Objekt wird an der gleichen Position zur übergeordneten Gruppenschablone hinzugefügt.
+second_title: Aspose.Slides für .NET API Referenz
+description: Konvertiert ein veraltetes Diagramm in eine bearbeitbare Gruppenschablone. Das erstellte GroupShape-Objekt wird an derselben Position zur übergeordneten Gruppenschablone hinzugefügt.
 type: docs
 weight: 20
 url: /de/aspose.slides/ilegacydiagram/converttogroupshape/
 ---
 
-## ILegacyDiagram.ConvertToGroupShape-Methode
+## ILegacyDiagram.ConvertToGroupShape Methode
 
-Konvertiert das veraltete Diagramm in eine bearbeitbare Gruppenschablone. Das erstellte GroupShape-Objekt wird an der gleichen Position zur übergeordneten Gruppenschablone hinzugefügt.
+Konvertiert ein veraltetes Diagramm in eine bearbeitbare Gruppenschablone. Das erstellte GroupShape-Objekt wird an derselben Position zur übergeordneten Gruppenschablone hinzugefügt.
 
 ```csharp
 public IGroupShape ConvertToGroupShape()
@@ -19,7 +19,7 @@ public IGroupShape ConvertToGroupShape()
 
 Erstelltes GroupShape-Objekt.
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IGroupShape](../../igroupshape)
 * Schnittstelle [ILegacyDiagram](../../ilegacydiagram)

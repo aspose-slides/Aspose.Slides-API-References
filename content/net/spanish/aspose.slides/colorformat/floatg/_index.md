@@ -1,6 +1,6 @@
 ---
 title: FloatG
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve o establece el componente verde de un color. Se ignoran todas las transformaciones de color. Lectura/escritura Single.
 type: docs
 weight: 60
@@ -19,6 +19,6 @@ public float FloatG { get; set; }
 
 * clase [ColorFormat](../../colorformat)
 * espacio de nombres [Aspose.Slides](../../colorformat)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

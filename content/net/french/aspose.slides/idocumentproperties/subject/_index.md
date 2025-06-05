@@ -1,7 +1,7 @@
 ---
-title: Sujet
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit le sujet d'une présentation. Chaîne en lecture/écriture.
+title: Subject
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Renvoie ou définit le sujet d'une présentation. Lecture/écriture String.
 type: docs
 weight: 310
 url: /fr/aspose.slides/idocumentproperties/subject/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/idocumentproperties/subject/
 
 ## Propriété IDocumentProperties.Subject
 
-Renvoie ou définit le sujet d'une présentation. Chaîne en lecture/écriture.
+Renvoie ou définit le sujet d'une présentation. Lecture/écriture String.
 
 ```csharp
 public string Subject { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IDocumentProperties](../../idocumentproperties)
 * namespace [Aspose.Slides](../../idocumentproperties)

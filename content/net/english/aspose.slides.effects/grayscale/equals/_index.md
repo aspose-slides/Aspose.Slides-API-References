@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.effects/grayscale/equals/
 ---
+
 ## GrayScale.Equals method
 
 Determines whether the specified [`GrayScale`](../../grayscale) is equal to the current [`GrayScale`](../../grayscale).

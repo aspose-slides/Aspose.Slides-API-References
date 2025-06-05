@@ -1,15 +1,15 @@
 ---
 title: X
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die x-Koordinate der oberen linken Ecke der Form zurück oder setzt sie. Lese-/Schreibzugriff auf Single.
+description: Gibt die x-Koordinate der oberen linken Ecke der Form zurück oder setzt sie. Lese-/Schreibzugriff Single.
 type: docs
 weight: 270
 url: /de/aspose.slides/ishape/x/
 ---
 
-## IShape.X-Eigenschaft
+## IShape.X Eigenschaft
 
-Gibt die x-Koordinate der oberen linken Ecke der Form zurück oder setzt sie. Lese-/Schreibzugriff auf Single.
+Gibt die x-Koordinate der oberen linken Ecke der Form zurück oder setzt sie. Lese-/Schreibzugriff Single.
 
 ```csharp
 public float X { get; set; }
@@ -17,9 +17,9 @@ public float X { get; set; }
 
 ### Bemerkungen
 
-Der zurückgegebene Wert ist immer definiert (ist nicht float.NaN). Der zugewiesene Wert muss definiert sein (nicht float.NaN). Sie können undefinierte Werte für die Eigenschaften der RawFrame-Instanz festlegen.
+Der zurückgegebene Wert ist immer definiert (ist nicht float.NaN). Der zugewiesene Wert muss definiert sein (nicht float.NaN). Sie können undefinierte Werte für RawFrame Instanz Eigenschaften festlegen.
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IShape](../../ishape)
 * Namespace [Aspose.Slides](../../ishape)

@@ -21,11 +21,11 @@ public enum FillBlendMode
 | --- | --- | --- |
 | Darken | `0` | 变暗混合模式。 |
 | Lighten | `1` | 变亮混合模式。 |
-| Multiply | `2` | 叠加混合模式。 |
+| Multiply | `2` | 乘法混合模式。 |
 | Overlay | `3` | 覆盖混合模式。 |
 | Screen | `4` | 屏幕混合模式。 |
 
-### 另请参阅
+### 相关信息
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

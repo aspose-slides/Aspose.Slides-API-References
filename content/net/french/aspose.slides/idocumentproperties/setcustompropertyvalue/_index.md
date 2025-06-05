@@ -1,6 +1,6 @@
 ---
 title: SetCustomPropertyValue
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Reference
 description: Définit une propriété personnalisée booléenne nommée.
 type: docs
 weight: 420
@@ -20,7 +20,7 @@ public void SetCustomPropertyValue(string name, bool value)
 | name | String | Nom de la propriété personnalisée à définir |
 | value | Boolean | Valeur de la propriété personnalisée |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IDocumentProperties](../../idocumentproperties)
 * namespace [Aspose.Slides](../../idocumentproperties)
@@ -41,7 +41,7 @@ public void SetCustomPropertyValue(string name, int value)
 | name | String | Nom de la propriété personnalisée à définir |
 | value | Int32 | Valeur de la propriété personnalisée |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IDocumentProperties](../../idocumentproperties)
 * namespace [Aspose.Slides](../../idocumentproperties)
@@ -62,7 +62,7 @@ public void SetCustomPropertyValue(string name, DateTime value)
 | name | String | Nom de la propriété personnalisée à définir |
 | value | DateTime | Valeur de la propriété personnalisée |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IDocumentProperties](../../idocumentproperties)
 * namespace [Aspose.Slides](../../idocumentproperties)
@@ -83,7 +83,7 @@ public void SetCustomPropertyValue(string name, string value)
 | name | String | Nom de la propriété personnalisée à définir |
 | value | String | Valeur de la propriété personnalisée |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IDocumentProperties](../../idocumentproperties)
 * namespace [Aspose.Slides](../../idocumentproperties)
@@ -104,7 +104,7 @@ public void SetCustomPropertyValue(string name, float value)
 | name | String | Nom de la propriété personnalisée à définir |
 | value | Single | Valeur de la propriété personnalisée |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IDocumentProperties](../../idocumentproperties)
 * namespace [Aspose.Slides](../../idocumentproperties)
@@ -125,7 +125,7 @@ public void SetCustomPropertyValue(string name, double value)
 | name | String | Nom de la propriété personnalisée à définir |
 | value | Double | Valeur de la propriété personnalisée |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IDocumentProperties](../../idocumentproperties)
 * namespace [Aspose.Slides](../../idocumentproperties)

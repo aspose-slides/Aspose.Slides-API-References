@@ -1,6 +1,6 @@
 ---
 title: CountOfCustomProperties
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Sildes for .NET API 参考
 description: 返回集合中实际包含的自定义属性的数量。只读 Int32。
 type: docs
 weight: 100

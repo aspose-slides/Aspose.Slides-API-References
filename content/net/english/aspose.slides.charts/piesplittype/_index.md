@@ -3,9 +3,10 @@ title: PieSplitType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a type of splitting points in the second pie or bar on a pie-of-pie or bar-of-pie chart.
 type: docs
-weight: 2270
+weight: 2300
 url: /aspose.slides.charts/piesplittype/
 ---
+
 ## PieSplitType enumeration
 
 Represents a type of splitting points in the second pie or bar on a pie-of-pie or bar-of-pie chart.

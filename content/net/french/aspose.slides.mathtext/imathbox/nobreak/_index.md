@@ -1,15 +1,15 @@
 ---
 title: NoBreak
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Pas de rupture. Cette propriété spécifie la propriété "non cassable" de l'objet box. Lorsque la valeur est vraie, aucune interruption de ligne ne peut se produire à l'intérieur de la boîte. Cela peut être important pour les émulateurs d'opérateurs qui consistent en plus d'un opérateur binaire. Lorsque cet élément n'est pas spécifié, des ruptures peuvent se produire à l'intérieur de la boîte. Par défaut  vrai
+second_title: Référence API Aspose.Slides pour .NET
+description: Pas de rupture. Cette propriété spécifie la propriété "non cassable" sur l'objet boîte. Lorsque c'est vrai, aucune rupture de ligne ne peut se produire à l'intérieur de la boîte. Cela peut être important pour les émulateurs d'opérateurs qui consistent en plus d'un opérateur binaire. Lorsque cet élément n'est pas spécifié, des ruptures peuvent se produire à l'intérieur de la boîte. Par défaut  vrai
 type: docs
 weight: 60
 url: /fr/aspose.slides.mathtext/imathbox/nobreak/
 ---
 
-## Propriété IMathBox.NoBreak
+## IMathBox.NoBreak property
 
-Pas de rupture. Cette propriété spécifie la propriété "non cassable" de l'objet box. Lorsque la valeur est vraie, aucune interruption de ligne ne peut se produire à l'intérieur de la boîte. Cela peut être important pour les émulateurs d'opérateurs qui consistent en plus d'un opérateur binaire. Lorsque cet élément n'est pas spécifié, des ruptures peuvent se produire à l'intérieur de la boîte. Par défaut : vrai
+Pas de rupture. Cette propriété spécifie la propriété "non cassable" sur l'objet boîte. Lorsque c'est vrai, aucune rupture de ligne ne peut se produire à l'intérieur de la boîte. Cela peut être important pour les émulateurs d'opérateurs qui consistent en plus d'un opérateur binaire. Lorsque cet élément n'est pas spécifié, des ruptures peuvent se produire à l'intérieur de la boîte. Par défaut : vrai
 
 ```csharp
 public bool NoBreak { get; set; }

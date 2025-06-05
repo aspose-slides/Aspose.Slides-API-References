@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.mathtext/imathblockcollection/indexof/
 ---
+
 ## IMathBlockCollection.IndexOf method
 
 Determines the index of a specific IMathBlock in collection.

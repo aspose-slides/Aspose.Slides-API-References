@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/ipiesplitcustompointcollection/item/
 ---
+
 ## IPieSplitCustomPointCollection indexer
 
 Returns chart data point by index.

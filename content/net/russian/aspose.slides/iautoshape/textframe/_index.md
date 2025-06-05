@@ -1,7 +1,7 @@
 ---
 title: TextFrame
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает объект TextFrame для AutoShape. Только для чтения ITextFrameaspose.slides/itextframe.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает объект TextFrame для AutoShape. Только для чтения ITextFrame aspose.slides/itextframe.
 type: docs
 weight: 50
 url: /ru/aspose.slides/iautoshape/textframe/
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/iautoshape/textframe/
 public ITextFrame TextFrame { get; }
 ```
 
-### Также смотри
+### См. также
 
 * интерфейс [ITextFrame](../../itextframe)
 * интерфейс [IAutoShape](../../iautoshape)

@@ -1,13 +1,13 @@
 ---
-title: Diviser
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Divide
+second_title: Aspose.Sildes pour la référence d'API .NET
 description: Crée une fraction avec ce numérateur et le dénominateur spécifié
 type: docs
 weight: 30
 url: /fr/aspose.slides.mathtext/mathelementbase/divide/
 ---
 
-## Diviser(IMathElement) {#divide}
+## Divide(IMathElement) {#divide}
 
 Crée une fraction avec ce numérateur et le dénominateur spécifié
 
@@ -25,7 +25,7 @@ nouvelle fraction
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]
@@ -34,7 +34,7 @@ IMathElement denumerator = new MathematicalText("y");
 IMathFraction fraction = numerator.Divide(denumerator);
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathFraction](../../imathfraction)
 * interface [IMathElement](../../imathelement)
@@ -44,7 +44,7 @@ IMathFraction fraction = numerator.Divide(denumerator);
 
 ---
 
-## Diviser(string) {#divide_2}
+## Divide(string) {#divide_2}
 
 Crée une fraction avec ce numérateur et le dénominateur spécifié
 
@@ -62,7 +62,7 @@ nouvelle fraction
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]
@@ -70,7 +70,7 @@ IMathElement numerator = new MathematicalText("x");
 IMathFraction fraction = numerator.Divide("y");
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathFraction](../../imathfraction)
 * class [MathElementBase](../../mathelementbase)
@@ -79,7 +79,7 @@ IMathFraction fraction = numerator.Divide("y");
 
 ---
 
-## Diviser(IMathElement, MathFractionTypes) {#divide_1}
+## Divide(IMathElement, MathFractionTypes) {#divide_1}
 
 Crée une fraction du type spécifié avec ce numérateur et le dénominateur spécifié
 
@@ -98,7 +98,7 @@ nouvelle fraction
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]
@@ -107,7 +107,7 @@ IMathElement denumerator = new MathematicalText("y");
 IMathFraction fraction = numerator.Divide(denumerator, MathFractionTypes.Linear);
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathFraction](../../imathfraction)
 * interface [IMathElement](../../imathelement)
@@ -118,7 +118,7 @@ IMathFraction fraction = numerator.Divide(denumerator, MathFractionTypes.Linear)
 
 ---
 
-## Diviser(string, MathFractionTypes) {#divide_3}
+## Divide(string, MathFractionTypes) {#divide_3}
 
 Crée une fraction du type spécifié avec ce numérateur et le dénominateur spécifié
 
@@ -137,7 +137,7 @@ nouvelle fraction
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]
@@ -145,7 +145,7 @@ IMathElement numerator = new MathematicalText("x");
 IMathFraction fraction = numerator.Divide("y", MathFractionTypes.Linear);
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathFraction](../../imathfraction)
 * enum [MathFractionTypes](../../mathfractiontypes)

@@ -1,6 +1,6 @@
 ---
-title: 创建形状元素
-second_title: Aspose.Slides for .NET API 参考
+title: CreateShapeElements
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建并返回形状元素的数组。
 type: docs
 weight: 50
@@ -17,7 +17,7 @@ public IShapeElement[] CreateShapeElements()
 
 ### 返回值
 
-[`IShapeElement`](../../ishapeelement) 数组
+[`IShapeElement`](../../ishapeelement) 的数组
 
 ### 另请参见
 

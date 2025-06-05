@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/coloroperation/equals/
 ---
+
 ## ColorOperation.Equals method
 
 Determines whether the two ColorOperation instances are equal.

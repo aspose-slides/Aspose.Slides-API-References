@@ -1,6 +1,6 @@
 ---
 title: Type
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Références de l'API Aspose.Slides pour .NET
 description: Renvoie un type de ce groupe de séries. Propriété en lecture seule CombinableSeriesTypesGroupaspose.slides.charts/combinableseriestypesgroup.
 type: docs
 weight: 190

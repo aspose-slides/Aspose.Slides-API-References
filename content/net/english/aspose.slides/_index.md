@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/
 ---
+
 Contains classes for work with Microsoft PowerPoint presentations without utilizing Microsoft PowerPoint.
 
 ## Classes
@@ -33,6 +34,8 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [BuildVersionInfo](./buildversioninfo) | Contains information about version of Aspose.Slides. |
 | [BulletFormat](./bulletformat) | Represents paragraph bullet formatting properties. |
 | [Camera](./camera) | Represents Camera. |
+| [Captions](./captions) | Represents the WebVTT closed captions. |
+| [CaptionsCollection](./captionscollection) | Represents a collection of the closed captions. |
 | [Cell](./cell) | Represents a cell of a table. |
 | [CellCollection](./cellcollection) | Represents a collection of cells. |
 | [CellFormat](./cellformat) | Represents format of a table cell. |
@@ -59,6 +62,8 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [DigitalSignatureCollection](./digitalsignaturecollection) | Represents a collection of digital signatures attached to a document. |
 | [DocumentProperties](./documentproperties) | Represents properties of a presentation. |
 | [DomObject&lt;TParent&gt;](./domobject-1) | Base DOM object |
+| [DrawingGuide](./drawingguide) | Represents an adjustable drawing guide. |
+| [DrawingGuidesCollection](./drawingguidescollection) | Represents a collection of the adjustable drawing guides. |
 | [EffectFormat](./effectformat) | Represents effect properties of shape. |
 | [Field](./field) | Represents a field. |
 | [FieldType](./fieldtype) | Represents a type of field. This value determines which text will be set to the field portion when it will be updated. |
@@ -87,15 +92,18 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [GraphicalObjectLock](./graphicalobjectlock) | Determines which operations are disabled on the parent GraphicalObject. |
 | [GroupShape](./groupshape) | Represents a group of shapes on a slide. |
 | [GroupShapeLock](./groupshapelock) | Determines which operations are disabled on the parent GroupShape. |
+| [HeadingPair](./headingpair) | Represents a 'Heading pair' property of the document. It indicates the group name of document parts and the number of parts in group. |
 | [Hyperlink](./hyperlink) | Represents a hyperlink. |
 | [HyperlinkManager](./hyperlinkmanager) | Provide hyperlinks management (adding, removing). |
 | [HyperlinkQueries](./hyperlinkqueries) | Provide easy access to contained hyperlinks. |
 | [ImageCollection](./imagecollection) | Represents collection of PPImage. |
+| [Images](./images) | Methods to instantiate and work with [`IImage`](../aspose.slides/iimage). |
 | [ImageWrapper](./imagewrapper) | System.Drawing.Image wrapper for COM interface. |
 | [ImageWrapperFactory](./imagewrapperfactory) | This class allows to initialize IBitmapWrapper. |
 | [InterruptionToken](./interruptiontoken) | This class represents the token to use for signaling long running tasks whether the interruption was requested. |
 | [InterruptionTokenSource](./interruptiontokensource) | Represents the source of [`InterruptionToken`](../aspose.slides/interruptiontoken). |
 | [InvalidPasswordException](./invalidpasswordexception) | Exception which thrown when presentation file format is unsupported. |
+| [LayoutPlaceholderManager](./layoutplaceholdermanager) | Represents manager that allows you to add placeholders to the layout slide. |
 | [LayoutSlide](./layoutslide) | Represents a layout slide. |
 | [LayoutSlideCollection](./layoutslidecollection) | Represents a base class for collection of a layout slides. |
 | [LayoutSlideHeaderFooterManager](./layoutslideheaderfootermanager) | Represents manager which holds behavior of the layout slide footer, date-time, page number placeholders and all child placeholders. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide. |
@@ -195,7 +203,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [TagCollection](./tagcollection) | Represents the collection of tags (user defined pairs of strings) |
 | [TextFrame](./textframe) | Represents a TextFrame. |
 | [TextFrameFormat](./textframeformat) | Contains the TextFrame's formatTextFrameFormatting properties. |
-| [TextHighlightingOptions](./texthighlightingoptions) | Represents options which can be used to highlight text in text frame. |
+| [TextSearchOptions](./textsearchoptions) | Represents options that can be used to search for text in a Presentation, Slide or TextFrame. |
 | [TextStyle](./textstyle) | This class contains the text style formatting properties. |
 | [ThreeDFormat](./threedformat) | Represents 3-D properties. |
 | [Video](./video) | Represents an image embedded into a presentation. |
@@ -234,6 +242,8 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [IBulletFormatEffectiveData](./ibulletformateffectivedata) | Immutable object which contains effective paragraph bullet formatting properties. |
 | [ICamera](./icamera) | Represents Camera. |
 | [ICameraEffectiveData](./icameraeffectivedata) | Immutable object which contains effective camera properties. |
+| [ICaptions](./icaptions) | Represents the WebVTT closed captions. |
+| [ICaptionsCollection](./icaptionscollection) | Represents a collection of the closed captions. |
 | [ICell](./icell) | Represents a cell in a table. |
 | [ICellCollection](./icellcollection) | Represents a collection of cells. |
 | [ICellFormat](./icellformat) | Represents format of a table cell. |
@@ -261,6 +271,8 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [IDigitalSignature](./idigitalsignature) | Digital signature in signed file. |
 | [IDigitalSignatureCollection](./idigitalsignaturecollection) | Represents a collection of digital signatures attached to a document. |
 | [IDocumentProperties](./idocumentproperties) | Represents properties of a presentation. |
+| [IDrawingGuide](./idrawingguide) | Represents an adjustable drawing guide. |
+| [IDrawingGuidesCollection](./idrawingguidescollection) | Represents a collection of the adjustable drawing guides. |
 | [IEffectFormat](./ieffectformat) | Represents effect properties of shape. |
 | [IEffectFormatEffectiveData](./ieffectformateffectivedata) | Imutable object which contains effective effect formatting properties. |
 | [IEffectParamSource](./ieffectparamsource) | Auxiliary effect parameters interface. |
@@ -269,6 +281,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [IFillFormat](./ifillformat) | Represents a fill formatting options. |
 | [IFillFormatEffectiveData](./ifillformateffectivedata) | Immutable object which contains effective fill formatting properties. |
 | [IFillParamSource](./ifillparamsource) | Auxiliary fill parameters interface. |
+| [IFindResultCallback](./ifindresultcallback) | Callback interface used to getting search text result. |
 | [IFontData](./ifontdata) | Represents a font definition. |
 | [IFontDataFactory](./ifontdatafactory) | FontData factory interface |
 | [IFontFallBackRule](./ifontfallbackrule) | Represents font fallback rule |
@@ -296,15 +309,18 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [IGraphicalObjectLock](./igraphicalobjectlock) | Determines which operations are disabled on the parent GraphicalObjectEx. |
 | [IGroupShape](./igroupshape) | Represents a group of shapes on a slide. |
 | [IGroupShapeLock](./igroupshapelock) | Determines which operations are disabled on the parent GroupShape. |
+| [IHeadingPair](./iheadingpair) | Represents a 'Heading pair' property of the document. It indicates the group name of document parts and the number of parts in group. |
 | [IHyperlink](./ihyperlink) | Represents a hyperlink. |
 | [IHyperlinkContainer](./ihyperlinkcontainer) | Represents hyperlink object. |
 | [IHyperlinkManager](./ihyperlinkmanager) | Provide hyperlinks management (adding, removing). |
 | [IHyperlinkQueries](./ihyperlinkqueries) | Provide easy access to contained hyperlinks. |
+| [IImage](./iimage) | Represents a raster or vector image. |
 | [IImageCollection](./iimagecollection) | Represents collection of PPImage. |
 | [IImageWrapper](./iimagewrapper) | System.Drawing.Image wrapper for COM interface. |
 | [IImageWrapperFactory](./iimagewrapperfactory) | This interface allows to initialize IBitmapWrapper. |
 | [IInterruptionToken](./iinterruptiontoken) | This class represents the token to use for signaling long running tasks whether the interruption was requested. |
 | [IInterruptionTokenSource](./iinterruptiontokensource) | Represents the source of [`IInterruptionToken`](../aspose.slides/iinterruptiontoken). |
+| [ILayoutPlaceholderManager](./ilayoutplaceholdermanager) | Represents manager that allows you to add placeholders to the layout slide. |
 | [ILayoutSlide](./ilayoutslide) | Represents a layout slide. |
 | [ILayoutSlideCollection](./ilayoutslidecollection) | Represents a base class for collection of a layout slides. |
 | [ILayoutSlideHeaderFooterManager](./ilayoutslideheaderfootermanager) | Represents manager which holds behavior of the layout slide footer, date-time, page number placeholders and all child placeholders. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide. |
@@ -411,7 +427,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [ITextFrame](./itextframe) | Represents a TextFrame. |
 | [ITextFrameFormat](./itextframeformat) | Contains the TextFrame's formatting properties. |
 | [ITextFrameFormatEffectiveData](./itextframeformateffectivedata) | Immutable object which contains effective text frame formatting properties. |
-| [ITextHighlightingOptions](./itexthighlightingoptions) | Represents options which can be used to highlight text in text frame. |
+| [ITextSearchOptions](./itextsearchoptions) | Represents options that can be used to search for text in a Presentation, Slide or TextFrame. |
 | [ITextStyle](./itextstyle) | Text style formatting properties. |
 | [ITextStyleEffectiveData](./itextstyleeffectivedata) | Immutable object which contains effective text style properties. |
 | [IThreeDFormat](./ithreedformat) | Represents 3-D properties. |
@@ -439,6 +455,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [ColorTransformOperation](./colortransformoperation) | Defines color transform operation. |
 | [ColorType](./colortype) | Represents different color modes. |
 | [ControlType](./controltype) | Defines a control type which should be embedded by [`AddControl`](../aspose.slides/icontrolcollection/addcontrol). |
+| [EmbeddingLevel](./embeddinglevel) | Represents the licensing rights for embedding the font. |
 | [FillBlendMode](./fillblendmode) | Determines blend mode. |
 | [FillType](./filltype) | Specifies the interior fill type of various visual objects. |
 | [FontAlignment](./fontalignment) | Represents vertical font alignment. |
@@ -446,8 +463,10 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [FontSubstCondition](./fontsubstcondition) | Represents a rule fot font substitution |
 | [GradientDirection](./gradientdirection) | Represents the gradient style. |
 | [GradientShape](./gradientshape) | Represents the shape of gradient fill. |
+| [GradientStyle](./gradientstyle) | Represents the available gradient styles. |
 | [HyperlinkActionType](./hyperlinkactiontype) | Represents a type of hyperlink action. |
 | [HyperlinkColorSource](./hyperlinkcolorsource) | Represents source of hyperlink color. |
+| [ImageFormat](./imageformat) | Represents the file format of the image. |
 | [LightingDirection](./lightingdirection) | Constants which define light directions. |
 | [LightRigPresetType](./lightrigpresettype) | Constants which define light preset types. |
 | [LineAlignment](./linealignment) | Represents the lines alignment type. |
@@ -480,6 +499,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [RectangleAlignment](./rectanglealignment) | Defines 2-dimension allignment. |
 | [ResourceLoadingAction](./resourceloadingaction) | Specifies the mode of external resource loading. |
 | [SchemeColor](./schemecolor) | Represents colors in a color scheme. |
+| [ShapeAdjustmentType](./shapeadjustmenttype) | Specifies different types of shape adjustment values. |
 | [ShapeElementFillSource](./shapeelementfillsource) | Represents how shape element should be filled. |
 | [ShapeElementStrokeSource](./shapeelementstrokesource) | Represents how shape element should be drawn. |
 | [ShapesAlignmentType](./shapesalignmenttype) | Defines a way to change the placement of selected shapes on the slide. |

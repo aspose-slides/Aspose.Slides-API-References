@@ -1,7 +1,7 @@
 ---
 title: RemoveField
-second_title: Aspose.Slides for .NET API Reference
-description: 将此字段部分转换为简单部分。
+second_title: Aspose.Sildes for .NET API Reference
+description: 将该字段部分转换为简单部分。
 type: docs
 weight: 80
 url: /zh/aspose.slides/portion/removefield/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/portion/removefield/
 
 ## Portion.RemoveField 方法
 
-将此字段部分转换为简单部分。
+将该字段部分转换为简单部分。
 
 ```csharp
 public void RemoveField()
 ```
 
-### 另请参见
+### 另见
 
 * class [Portion](../../portion)
 * namespace [Aspose.Slides](../../portion)

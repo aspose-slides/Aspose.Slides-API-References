@@ -7,7 +7,7 @@ weight: 40
 url: /de/aspose.slides.mathtext/mathgroupingcharacter/position/
 ---
 
-## MathGroupingCharacter.Position-Eigenschaft
+## MathGroupingCharacter.Position property
 
 Position des Gruppierungszeichens. Standard: Unten
 

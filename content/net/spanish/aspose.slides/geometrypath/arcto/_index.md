@@ -1,7 +1,7 @@
 ---
 title: ArcTo
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Agrega el arco especificado al camino.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Añade el arco especificado al camino.
 type: docs
 weight: 50
 url: /es/aspose.slides/geometrypath/arcto/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/geometrypath/arcto/
 
 ## Método GeometryPath.ArcTo
 
-Agrega el arco especificado al camino.
+Añade el arco especificado al camino.
 
 ```csharp
 public void ArcTo(float width, float heigth, float startAngle, float sweepAngle)
@@ -25,7 +25,7 @@ public void ArcTo(float width, float heigth, float startAngle, float sweepAngle)
 ### Véase también
 
 * clase [GeometryPath](../../geometrypath)
-* espacio de nombres [Aspose.Slides](../../geometrypath)
-* ensamblado [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../geometrypath)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

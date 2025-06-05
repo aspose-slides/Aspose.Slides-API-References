@@ -20,7 +20,7 @@ public interface IGraphicalObjectLock : IBaseShapeLock
 | Nom | Description |
 | --- | --- |
 | [AsIBaseShapeLock](../../aspose.slides/igraphicalobjectlock/asibaseshapelock) { get; } | Permet d'obtenir l'interface de base IBaseShapeLock. Lecture seule [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/igraphicalobjectlock/aspectratiolocked) { get; set; } | Détermine si la forme doit préserver le rapport d'aspect lors du redimensionnement. Booléen en lecture/écriture. |
+| [AspectRatioLocked](../../aspose.slides/igraphicalobjectlock/aspectratiolocked) { get; set; } | Détermine si la forme doit préserver le ratio d'aspect lors du redimensionnement. Booléen en lecture/écriture. |
 | [DrilldownLocked](../../aspose.slides/igraphicalobjectlock/drilldownlocked) { get; set; } | Détermine si la sélection des sous-formes de cet objet est interdite. Booléen en lecture/écriture. |
 | [GroupingLocked](../../aspose.slides/igraphicalobjectlock/groupinglocked) { get; set; } | Détermine si l'ajout de cette forme à un groupe est interdit. Booléen en lecture/écriture. |
 | [PositionLocked](../../aspose.slides/igraphicalobjectlock/positionlocked) { get; set; } | Détermine si le déplacement de cette forme est interdit. Booléen en lecture/écriture. |

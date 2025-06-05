@@ -1,6 +1,6 @@
 ---
-title: 移除
-second_title: Aspose.Sildes for .NET API 参考
+title: Remove
+second_title: Aspose.Sildes for .NET API Reference
 description: 移除指定的值。
 type: docs
 weight: 60
@@ -17,7 +17,7 @@ public void Remove(IChartSeries value)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | IChartSeries | 要移除的值。 |
+| value | IChartSeries | 该值。 |
 
 ### 异常
 
@@ -25,7 +25,7 @@ public void Remove(IChartSeries value)
 | --- | --- |
 | ArgumentException | 在集合中未找到值参数。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IChartSeries](../../ichartseries)
 * 接口 [IChartSeriesCollection](../../ichartseriescollection)

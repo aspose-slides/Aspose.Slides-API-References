@@ -1,13 +1,13 @@
 ---
-title: Punkt
-second_title: Aspose.Slides für .NET API Referenz
+title: Point
+second_title: Aspose.Sildes für .NET API Referenz
 description: Standardkonstruktor.
 type: docs
 weight: 10
 url: /de/aspose.slides.animation/point/point/
 ---
 
-## Punkt() {#constructor}
+## Point() {#constructor}
 
 Standardkonstruktor.
 
@@ -15,7 +15,7 @@ Standardkonstruktor.
 public Point()
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [Point](../../point)
 * Namespace [Aspose.Slides.Animation](../../point)
@@ -23,7 +23,7 @@ public Point()
 
 ---
 
-## Punkt(float, object, string) {#constructor_1}
+## Point(float, object, string) {#constructor_1}
 
 Erstelle Animationspunkt mit Zeit, Wert und Formel.
 
@@ -37,7 +37,7 @@ public Point(float time, object value, string formula)
 | value | Object |  |
 | formula | String |  |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [Point](../../point)
 * Namespace [Aspose.Slides.Animation](../../point)

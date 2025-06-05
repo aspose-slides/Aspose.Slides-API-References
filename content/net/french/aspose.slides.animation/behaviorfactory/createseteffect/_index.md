@@ -1,28 +1,28 @@
 ---
 title: CreateSetEffect
 second_title: Référence API Aspose.Slides pour .NET
-description: Crée un effet de set.
+description: Crée un effet de type set.
 type: docs
 weight: 90
 url: /fr/aspose.slides.animation/behaviorfactory/createseteffect/
 ---
 
-## Méthode BehaviorFactory.CreateSetEffect
+## BehaviorFactory.CreateSetEffect méthode
 
-Crée un effet de set.
+Crée un effet de type set.
 
 ```csharp
 public ISetEffect CreateSetEffect()
 ```
 
-### Valeur de Retour
+### Valeur de retour
 
-Effet de set.
+Effet de type set.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ISetEffect](../../iseteffect)
-* class [BehaviorFactory](../../behaviorfactory)
+* classe [BehaviorFactory](../../behaviorfactory)
 * namespace [Aspose.Slides.Animation](../../behaviorfactory)
 * assembly [Aspose.Slides](../../../)
 

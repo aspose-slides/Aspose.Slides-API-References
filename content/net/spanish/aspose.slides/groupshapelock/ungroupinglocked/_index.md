@@ -1,7 +1,7 @@
 ---
-title: DesbloqueoDeGrupo
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Determina si se prohíbe dividir esta forma de grupo. Booleano de lectura/escritura.
+title: UngroupingLocked
+second_title: Aspose.Slides para .NET Referencia API
+description: Determina si se prohíbe dividir este gruposhape. Booleano de lectura/escritura.
 type: docs
 weight: 70
 url: /es/aspose.slides/groupshapelock/ungroupinglocked/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/groupshapelock/ungroupinglocked/
 
 ## Propiedad GroupShapeLock.UngroupingLocked
 
-Determina si se prohíbe dividir esta forma de grupo. Booleano de lectura/escritura.
+Determina si se prohíbe dividir este gruposhape. Booleano de lectura/escritura.
 
 ```csharp
 public bool UngroupingLocked { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * class [GroupShapeLock](../../groupshapelock)
 * namespace [Aspose.Slides](../../groupshapelock)

@@ -1,21 +1,21 @@
 ---
 title: ExternalUrlOriginal
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente un lien hypertexte qui est défini pour cette portion sans tenir compte du contenu réel de la portion. PowerPoint se comporte spécifiquement pour les liens et leur texte correspondant dans une portion. Il permet de créer un texte pour le lien hypertexte sous la forme d'une URL valide différente de l'adresse réelle du lien. Dans ce cas, lorsque vous visualisez le lien dans la fenêtre d'édition, il sera modifié pour correspondre à la portion de texte. Cette propriété représente la valeur originale du lien hypertexte.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Représente un hyperlien qui est défini pour cette portion indépendamment du contenu réel de la portion. PowerPoint se comporte spécifiquement pour les liens et leur texte correspondant dans une portion. Il permet de créer un texte pour l'hyperlien sous la forme d'une URL valide différente de l'adresse réelle du lien. Dans ce cas, lorsque vous visualisez le lien dans la fenêtre d'édition, il sera modifié pour correspondre à la portion de texte. Cette propriété représente la valeur originale de l'hyperlien.
 type: docs
 weight: 40
 url: /fr/aspose.slides/ihyperlink/externalurloriginal/
 ---
 
-## Propriété IHyperlink.ExternalUrlOriginal
+## IHyperlink.ExternalUrlOriginal property
 
-Représente un lien hypertexte qui est défini pour cette portion sans tenir compte du contenu réel de la portion. PowerPoint se comporte spécifiquement pour les liens et leur texte correspondant dans une portion. Il permet de créer un texte pour le lien hypertexte sous la forme d'une URL valide, différente de l'adresse réelle du lien. Dans ce cas, lorsque vous visualisez le lien dans la fenêtre d'édition, il sera modifié pour correspondre à la portion de texte. Cette propriété représente la valeur originale du lien hypertexte.
+Représente un hyperlien qui est défini pour cette portion indépendamment du contenu réel de la portion. PowerPoint se comporte spécifiquement pour les liens et leur texte correspondant dans une portion. Il permet de créer un texte pour l'hyperlien sous la forme d'une URL valide, différente de l'adresse réelle du lien. Dans ce cas, lorsque vous visualisez le lien dans la fenêtre d'édition, il sera modifié pour correspondre à la portion de texte. Cette propriété représente la valeur originale de l'hyperlien.
 
 ```csharp
 public string ExternalUrlOriginal { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IHyperlink](../../ihyperlink)
 * namespace [Aspose.Slides](../../ihyperlink)

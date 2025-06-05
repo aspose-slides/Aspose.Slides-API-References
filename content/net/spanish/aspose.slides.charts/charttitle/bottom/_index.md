@@ -1,24 +1,24 @@
 ---
-title: Inferior
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Inferior. Solo lectura Single.
+title: Bottom
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Bottom. Solo lectura Single.
 type: docs
 weight: 10
 url: /es/aspose.slides.charts/charttitle/bottom/
 ---
 
-## Propiedad ChartTitle.Bottom
+## ChartTitle.Bottom property
 
-Inferior. Solo lectura Single.
+Bottom. Solo lectura Single.
 
 ```csharp
 public float Bottom { get; }
 ```
 
-### Ver También
+### Ver también
 
-* clase [ChartTitle](../../charttitle)
-* espacio de nombres [Aspose.Slides.Charts](../../charttitle)
-* ensamblado [Aspose.Slides](../../../)
+* class [ChartTitle](../../charttitle)
+* namespace [Aspose.Slides.Charts](../../charttitle)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

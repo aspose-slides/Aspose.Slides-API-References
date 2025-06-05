@@ -1,15 +1,15 @@
 ---
 title: ShowLeaderLines
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente le comportement d'affichage des lignes de leader des étiquettes de données d'un graphique spécifié. True affiche les lignes de leader. False pour masquer. Booléen en lecture/écriture.
+second_title: Aspose.Slides pour .NET Référence API
+description: Représente un comportement d'affichage spécifié des lignes de leader des étiquettes de données d'un graphique. Vrai affiche les lignes de leader. Faux pour masquer. Booléen en lecture/écriture.
 type: docs
 weight: 110
 url: /fr/aspose.slides.charts/datalabelformat/showleaderlines/
 ---
 
-## Propriété DataLabelFormat.ShowLeaderLines
+## DataLabelFormat.ShowLeaderLines propriété
 
-Représente le comportement d'affichage des lignes de leader des étiquettes de données d'un graphique spécifié. True affiche les lignes de leader. False pour masquer. Booléen en lecture/écriture.
+Représente un comportement d'affichage spécifié des lignes de leader des étiquettes de données d'un graphique. Vrai affiche les lignes de leader. Faux pour masquer. Booléen en lecture/écriture.
 
 ```csharp
 public bool ShowLeaderLines { get; set; }
@@ -17,7 +17,7 @@ public bool ShowLeaderLines { get; set; }
 
 ### Remarques
 
-Si le parent de cet objet DataLabelFormat est une collection DataLabelCollection d'étiquettes de données, alors cette propriété obtient ou définit la valeur par défaut de la propriété ShowLeaderLines pour les nouvelles étiquettes de données dans la collection DataLabelCollection. Définir cette propriété avec une valeur fixe également cette valeur à la propriété ShowLeaderLines pour toutes les étiquettes de données dans la collection DataLabelCollection (c'est-à-dire "DataLabels.DefaultDataLabelFormat.ShowLeaderLines = val;" entraîne que toutes les DataLabels[i].ShowLeaderLines soit égale à val).
+Si le parent de cet objet DataLabelFormat est une collection DataLabelCollection d'étiquettes de données, alors cette propriété obtient ou définit la valeur par défaut de la propriété ShowLeaderLines pour les nouvelles étiquettes de données dans la collection DataLabelCollection. Définir cette propriété avec une valeur définit également cette valeur pour la propriété ShowLeaderLines pour toutes les étiquettes de données dans la collection DataLabelCollection (c'est-à-dire "DataLabels.DefaultDataLabelFormat.ShowLeaderLines = val;" entraîne que toutes les DataLabels[i].ShowLeaderLines soit égales à val).
 
 ### Voir aussi
 

@@ -1,15 +1,15 @@
 ---
 title: AddTable
 second_title: Référence API Aspose.Slides pour .NET
-description: Crée une nouvelle Table et l'ajoute à la fin de la collection.
+description: Crée un nouveau tableau et l'ajoute à la fin de la collection.
 type: docs
 weight: 170
 url: /fr/aspose.slides/ishapecollection/addtable/
 ---
 
-## Méthode IShapeCollection.AddTable
+## IShapeCollection.AddTable méthode
 
-Crée une nouvelle Table et l'ajoute à la fin de la collection.
+Crée un nouveau tableau et l'ajoute à la fin de la collection.
 
 ```csharp
 public ITable AddTable(float x, float y, double[] columnWidths, double[] rowHeights)
@@ -19,14 +19,14 @@ public ITable AddTable(float x, float y, double[] columnWidths, double[] rowHeig
 | --- | --- | --- |
 | x | Single | La coordonnée X pour un côté gauche du cadre de la forme. |
 | y | Single | La coordonnée Y pour un côté supérieur du cadre de la forme. |
-| columnWidths | Double[] | Tableau de doubles représentant les largeurs des colonnes dans la table. |
-| rowHeights | Double[] | Tableau de doubles représentant les hauteurs des lignes dans la table. |
+| columnWidths | Double[] | Tableau de doubles qui représente les largeurs des colonnes dans le tableau. |
+| rowHeights | Double[] | Tableau de doubles qui représente les hauteurs des lignes dans le tableau. |
 
 ### Valeur de retour
 
 Objet Table créé.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ITable](../../itable)
 * interface [IShapeCollection](../../ishapecollection)

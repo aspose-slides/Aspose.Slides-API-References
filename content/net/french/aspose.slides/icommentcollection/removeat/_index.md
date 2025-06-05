@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Supprime l'élément à l'index spécifié dans une collection.
 type: docs
 weight: 80
 url: /fr/aspose.slides/icommentcollection/removeat/
 ---
 
-## Méthode ICommentCollection.RemoveAt
+## ICommentCollection.RemoveAt méthode
 
 Supprime l'élément à l'index spécifié dans une collection.
 
@@ -24,7 +24,7 @@ public void RemoveAt(int index)
 | exception | condition |
 | --- | --- |
 | ArgumentOutOfRangeException | L'index est inférieur à 0 ou l'index est égal ou supérieur à Count |
-| [PptxEditException](../../pptxeditexception) | Levé si le commentaire a déjà été supprimé. |
+| [PptxEditException](../../pptxeditexception) | Lancé si le commentaire a déjà été supprimé. |
 
 ### Voir aussi
 

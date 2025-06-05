@@ -7,7 +7,7 @@ weight: 360
 url: /es/aspose.slides/idocumentproperties/clearbuiltinproperties/
 ---
 
-## Método IDocumentProperties.ClearBuiltInProperties
+## IDocumentProperties.ClearBuiltInProperties método
 
 Limpia y establece valores predeterminados para todas las propiedades integradas.
 
@@ -15,10 +15,10 @@ Limpia y establece valores predeterminados para todas las propiedades integradas
 public void ClearBuiltInProperties()
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [IDocumentProperties](../../idocumentproperties)
 * espacio de nombres [Aspose.Slides](../../idocumentproperties)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

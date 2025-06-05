@@ -19,22 +19,22 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides/imagecollection/count) { get; } | Gibt die Anzahl der Bilder in der Sammlung zurück. Nur lesbar Int32. |
-| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (thread-sicher) ist. Nur lesbar Boolean. |
-| [Item](../../aspose.slides/imagecollection/item) { get; } | Gibt das Element am angegebenen Index zurück. Nur lesbar [`IPPImage`](../ippimage). |
-| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | Gibt eine Synchronisierungswurzel zurück. Nur lesbar Object. |
+| [Count](../../aspose.slides/imagecollection/count) { get; } | Gibt die Anzahl der Bilder in der Sammlung zurück. Schreibgeschützter Int32. |
+| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (thread-sicher). Schreibgeschützter Boolean. |
+| [Item](../../aspose.slides/imagecollection/item) { get; } | Gibt das Element am angegebenen Index zurück. Schreibgeschützter [`IPPImage`](../ippimage). |
+| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | Gibt einen Synchronisierungswurzel zurück. Schreibgeschütztes Objekt. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_3)(byte[]) | Fügt ein Bild aus dem angegebenen Puffer zu einer Präsentation hinzu. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_3)(byte[]) | Fügt ein Bild aus einem angegebenen Puffer zu einer Präsentation hinzu. |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage)(IImage) | Fügt ein Bild zu einer Präsentation hinzu. |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_1)(IPPImage) | Fügt eine Kopie eines Bildes aus einer anderen Präsentation hinzu. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_2)(ISvgImage) | Fügt ein Bild von einem Svg-Objekt zu einer Präsentation hinzu. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_5)(MemoryStream) | Fügt ein Bild von einem Stream zu einer Präsentation hinzu. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream) | Fügt ein Bild von einem Stream zu einer Präsentation hinzu. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_7)(Stream, LoadingStreamBehavior) | Erstellt und fügt ein Bild von einem Stream zu einer Präsentation hinzu. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_2)(ISvgImage) | Fügt ein Bild aus einem Svg-Objekt zu einer Präsentation hinzu. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_5)(MemoryStream) | Fügt ein Bild aus einem Stream zu einer Präsentation hinzu. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream) | Fügt ein Bild aus einem Stream zu einer Präsentation hinzu. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_7)(Stream, LoadingStreamBehavior) | Erstellt und fügt ein Bild aus einem Stream zu einer Präsentation hinzu. |
 | [CopyTo](../../aspose.slides/imagecollection/copyto)(Array, int) | Kopiert alle Elemente aus der Sammlung in das angegebene Array. |
 | [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | Gibt einen Enumerator zurück, der durch die Sammlung iteriert. |
 

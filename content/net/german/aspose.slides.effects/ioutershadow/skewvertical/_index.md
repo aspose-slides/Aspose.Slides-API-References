@@ -1,7 +1,7 @@
 ---
 title: SkewVertical
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den vertikalen Schrägwinkel in Grad an. Lese-/Schreibbarer Double.
+description: Gibt den vertikalen Schiefwinkel in Grad an. Lese-/Schreibbare Double.
 type: docs
 weight: 120
 url: /de/aspose.slides.effects/ioutershadow/skewvertical/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/ioutershadow/skewvertical/
 
 ## IOuterShadow.SkewVertical-Eigenschaft
 
-Gibt den vertikalen Schrägwinkel (in Grad) an. Lese-/Schreibbarer Double.
+Gibt den vertikalen Schiefwinkel (in Grad) an. Lese-/Schreibbare Double.
 
 ```csharp
 public double SkewVertical { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: IsWriteProtected
-second_title: Aspose.Sildes для .NET API Справочник
-description: Получает значение, которое указывает, защищена ли связанная презентация от записи.
+second_title: Aspose.Slides для .NET Справочник по API
+description: Получает значение, указывающее, защищена ли связываемая презентация от записи.
 type: docs
 weight: 30
 url: /ru/aspose.slides/presentationinfo/iswriteprotected/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/presentationinfo/iswriteprotected/
 
 ## PresentationInfo.IsWriteProtected свойство
 
-Получает значение, которое указывает, защищена ли связанная презентация от записи.
+Получает значение, указывающее, защищена ли связываемая презентация от записи.
 
 ```csharp
 public NullableBool IsWriteProtected { get; }
 ```
 
-### Замечания
+### Примечания
 
 Если презентация защищена паролем для открытия, значение свойства равно NotDefined.
 

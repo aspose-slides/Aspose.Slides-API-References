@@ -1,6 +1,6 @@
 ---
 title: AddField
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 将此部分转换为自动更新的字段。
 type: docs
 weight: 50
@@ -19,7 +19,7 @@ public void AddField(IFieldType fieldType)
 | --- | --- | --- |
 | fieldType | IFieldType | 字段类型 [`IFieldType`](../../ifieldtype) |
 
-### 另见
+### 另请参见
 
 * 接口 [IFieldType](../../ifieldtype)
 * 接口 [IPortion](../../iportion)
@@ -38,9 +38,9 @@ public void AddField(string internalString)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| internalString | String | FieldTypeEx 字符串的内部名称 |
+| internalString | String | FieldTypeEx 的内部名称字符串 |
 
-### 另见
+### 另请参见
 
 * 接口 [IPortion](../../iportion)
 * 命名空间 [Aspose.Slides](../../iportion)

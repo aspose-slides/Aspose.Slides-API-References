@@ -17,23 +17,23 @@ public interface IConnector : IGeometryShape
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [AsIGeometryShape](../../aspose.slides/iconnector/asigeometryshape) { get; } | Позволяет получить базовый интерфейс IGeometryShape. Только для чтения [`IGeometryShape`](../igeometryshape). |
 | [ConnectorLock](../../aspose.slides/iconnector/connectorlock) { get; } | Возвращает блокировки соединителя. Только для чтения [`IConnectorLock`](../iconnectorlock). |
-| [EndShapeConnectedTo](../../aspose.slides/iconnector/endshapeconnectedto) { get; set; } | Возвращает или задает фигуру, к которой следует прикрепить конец соединителя. Чтение/запись [`IShape`](../ishape). |
-| [EndShapeConnectionSiteIndex](../../aspose.slides/iconnector/endshapeconnectionsiteindex) { get; set; } | Возвращает или задает индекс соединительной точки для конечной фигуры. Чтение/запись UInt32. |
+| [EndShapeConnectedTo](../../aspose.slides/iconnector/endshapeconnectedto) { get; set; } | Возвращает или устанавливает фигуру, к которой прикрепляется конец соединителя. Чтение/запись [`IShape`](../ishape). |
+| [EndShapeConnectionSiteIndex](../../aspose.slides/iconnector/endshapeconnectionsiteindex) { get; set; } | Возвращает или устанавливает индекс точки соединения для конца фигуры. Чтение/запись UInt32. |
 | [ShapeLock](../../aspose.slides/iconnector/shapelock) { get; } | Возвращает блокировки фигуры. Только для чтения [`IConnectorLock`](../iconnectorlock). |
-| [StartShapeConnectedTo](../../aspose.slides/iconnector/startshapeconnectedto) { get; set; } | Возвращает или задает фигуру, к которой следует прикрепить начало соединителя. Чтение/запись [`IShape`](../ishape). |
-| [StartShapeConnectionSiteIndex](../../aspose.slides/iconnector/startshapeconnectionsiteindex) { get; set; } | Возвращает или задает индекс соединительной точки для начальной фигуры. Чтение/запись UInt32. |
+| [StartShapeConnectedTo](../../aspose.slides/iconnector/startshapeconnectedto) { get; set; } | Возвращает или устанавливает фигуру, к которой прикрепляется начало соединителя. Чтение/запись [`IShape`](../ishape). |
+| [StartShapeConnectionSiteIndex](../../aspose.slides/iconnector/startshapeconnectionsiteindex) { get; set; } | Возвращает или устанавливает индекс точки соединения для начальной фигуры. Чтение/запись UInt32. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [Reroute](../../aspose.slides/iconnector/reroute)() | Перенаправляет соединитель так, чтобы он принимал самый короткий возможный путь между фигурами, которые он соединяет. |
 
-### Также см. 
+### Смотрите Также
 
 * интерфейс [IGeometryShape](../igeometryshape)
 * пространство имен [Aspose.Slides](../../aspose.slides)

@@ -1,7 +1,7 @@
 ---
 title: PositionLocked
-second_title: Aspose.Slides for .NET API Reference
-description: 确定移动此形状是否被禁止。可读/可写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定移动此形状是否被禁止。可读写布尔值。
 type: docs
 weight: 80
 url: /zh/aspose.slides/ipictureframelock/positionlocked/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ipictureframelock/positionlocked/
 
 ## IPictureFrameLock.PositionLocked 属性
 
-确定移动此形状是否被禁止。可读/可写布尔值。
+确定移动此形状是否被禁止。可读写布尔值。
 
 ```csharp
 public bool PositionLocked { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IPictureFrameLock](../../ipictureframelock)
 * 命名空间 [Aspose.Slides](../../ipictureframelock)

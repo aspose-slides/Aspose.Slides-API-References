@@ -1,7 +1,7 @@
 ---
 title: JoinStyle
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit le style de jonction des lignes. Lecture/écriture LineJoinStyle aspose.slides/linejoinstyle.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie ou définit le style de jonction des lignes. Lecture/écriture LineJoinStyleaspose.slides/linejoinstyle.
 type: docs
 weight: 130
 url: /fr/aspose.slides/lineformat/joinstyle/
@@ -15,7 +15,7 @@ Renvoie ou définit le style de jonction des lignes. Lecture/écriture [`LineJoi
 public LineJoinStyle JoinStyle { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [LineJoinStyle](../../linejoinstyle)
 * class [LineFormat](../../lineformat)

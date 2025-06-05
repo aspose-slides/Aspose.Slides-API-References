@@ -1,49 +1,49 @@
 ---
-title: 幻灯片转换
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示幻灯片转换。
+title: SlideShowTransition
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示幻灯片放映过渡。
 type: docs
 weight: 10010
 url: /zh/aspose.slides.slideshow/slideshowtransition/
 ---
 
-## SlideShowTransition 类
+## SlideShowTransition class
 
-表示幻灯片转换。
+表示幻灯片放映过渡。
 
 ```csharp
 public class SlideShowTransition : DomObject<BaseSlide>, ISlideShowTransition
 ```
 
-## 属性
+## Properties
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [AdvanceAfter](../../aspose.slides.slideshow/slideshowtransition/advanceafter) { get; set; } | 此属性指定幻灯片放映是否将在一定时间后移动到下一个幻灯片。可读/可写布尔值。 |
-| [AdvanceAfterTime](../../aspose.slides.slideshow/slideshowtransition/advanceaftertime) { get; set; } | 指定在转换开始之前的时间（以毫秒为单位）。该设置可以与 advClick 属性结合使用。如果未指定该属性，则假定不会发生自动推进。可读/可写 UInt32。 |
-| [AdvanceOnClick](../../aspose.slides.slideshow/slideshowtransition/advanceonclick) { get; set; } | 指定鼠标点击是否将推进幻灯片。如果未指定该属性，则假定为 true。可读/可写布尔值。 |
-| [Sound](../../aspose.slides.slideshow/slideshowtransition/sound) { get; set; } | 返回或设置嵌入的音频数据。可读/可写 [`IAudio`](../../aspose.slides/iaudio)。 |
-| [SoundIsBuiltIn](../../aspose.slides.slideshow/slideshowtransition/soundisbuiltin) { get; set; } | 指定该声音是否为内置声音。如果将此属性设置为 true，则生成的应用程序会被提醒检查其内置声音列表中指定的声音名称属性，并可以根据需要显示自定义名称或 UI。可读/可写布尔值。 |
-| [SoundLoop](../../aspose.slides.slideshow/slideshowtransition/soundloop) { get; set; } | 此属性指定声音是否将在幻灯片放映中循环，直到发生下一个声音事件。可读/可写布尔值。 |
-| [SoundMode](../../aspose.slides.slideshow/slideshowtransition/soundmode) { get; set; } | 设置或返回幻灯片过渡的声音模式。可读/可写 [`TransitionSoundMode`](../transitionsoundmode)。 |
-| [SoundName](../../aspose.slides.slideshow/slideshowtransition/soundname) { get; set; } | 指定转换声音的人类可读名称。必须为 [`Sound`](./sound) 属性赋值以获取或设置声音名称。可读/可写字符串。 |
-| [Speed](../../aspose.slides.slideshow/slideshowtransition/speed) { get; set; } | 指定在从当前幻灯片转换到下一个幻灯片时使用的转换速度。可读/可写 [`TransitionSpeed`](../transitionspeed)。 |
-| [Type](../../aspose.slides.slideshow/slideshowtransition/type) { get; set; } | 转换类型。可读/可写 [`TransitionType`](../transitiontype)。 |
-| [Value](../../aspose.slides.slideshow/slideshowtransition/value) { get; } | 幻灯片放映转换值。只读 [`ITransitionValueBase`](../itransitionvaluebase)。 |
+| [AdvanceAfter](../../aspose.slides.slideshow/slideshowtransition/advanceafter) { get; set; } | 此属性指定在一定时间后幻灯片放映是否将移至下一个幻灯片。可读写布尔值。 |
+| [AdvanceAfterTime](../../aspose.slides.slideshow/slideshowtransition/advanceaftertime) { get; set; } | 指定过渡开始的时间（以毫秒为单位）。此设置可以与advClick属性一起使用。如果未指定此属性，则假定不会发生自动推进。可读写UInt32。 |
+| [AdvanceOnClick](../../aspose.slides.slideshow/slideshowtransition/advanceonclick) { get; set; } | 指定鼠标单击是否将推进幻灯片。如果未指定此属性，则假定值为true。可读写布尔值。 |
+| [Sound](../../aspose.slides.slideshow/slideshowtransition/sound) { get; set; } | 返回或设置嵌入的音频数据。可读写 [`IAudio`](../../aspose.slides/iaudio)。 |
+| [SoundIsBuiltIn](../../aspose.slides.slideshow/slideshowtransition/soundisbuiltin) { get; set; } | 指定此声音是否为内置声音。如果将此属性设置为true，则生成应用程序会被提醒检查其内置声音列表中为此声音指定的名称属性，然后可以根据需要显示自定义名称或用户界面。可读写布尔值。 |
+| [SoundLoop](../../aspose.slides.slideshow/slideshowtransition/soundloop) { get; set; } | 此属性指定声音是否将循环，直到幻灯片放映中发生下一个声音事件。可读写布尔值。 |
+| [SoundMode](../../aspose.slides.slideshow/slideshowtransition/soundmode) { get; set; } | 设置或返回幻灯片过渡的声音模式。可读写 [`TransitionSoundMode`](../transitionsoundmode)。 |
+| [SoundName](../../aspose.slides.slideshow/slideshowtransition/soundname) { get; set; } | 指定过渡声音的人可读名称。必须分配 [`Sound`](./sound) 属性以获取或设置声音名称。可读写字符串。 |
+| [Speed](../../aspose.slides.slideshow/slideshowtransition/speed) { get; set; } | 指定在从当前幻灯片过渡到下一个幻灯片时要使用的过渡速度。可读写 [`TransitionSpeed`](../transitionspeed)。 |
+| [Type](../../aspose.slides.slideshow/slideshowtransition/type) { get; set; } | 过渡类型。可读写 [`TransitionType`](../transitiontype)。 |
+| [Value](../../aspose.slides.slideshow/slideshowtransition/value) { get; } | 幻灯片放映过渡值。只读 [`ITransitionValueBase`](../itransitionvaluebase)。 |
 
-## 方法
+## Methods
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/slideshowtransition/equals)(object) | 确定两个 SlideShowTransition 实例是否相等。可读/可写布尔值。 |
+| override [Equals](../../aspose.slides.slideshow/slideshowtransition/equals)(object) | 确定两个SlideShowTransition实例是否相等。可读写布尔值。 |
 | override [GetHashCode](../../aspose.slides.slideshow/slideshowtransition/gethashcode)() | 作为特定类型的哈希函数，适合在哈希算法和数据结构（如哈希表）中使用。 |
 
-### 另见
+### See Also
 
-* 类 [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* 类 [BaseSlide](../../aspose.slides/baseslide)
-* 接口 [ISlideShowTransition](../../aspose.slides/islideshowtransition)
-* 命名空间 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
-* 程序集 [Aspose.Slides](../../)
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [BaseSlide](../../aspose.slides/baseslide)
+* interface [ISlideShowTransition](../../aspose.slides/islideshowtransition)
+* namespace [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

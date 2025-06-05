@@ -1,7 +1,7 @@
 ---
 title: DisablePresetShadowEffect
 second_title: Aspose.Slides für .NET API Referenz
-description: Deaktiviert den voreingestellten Schatteneffekt.
+description: Deaktiviert den vordefinierten Schatteneffekt.
 type: docs
 weight: 150
 url: /de/aspose.slides/effectformat/disablepresetshadoweffect/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/effectformat/disablepresetshadoweffect/
 
 ## EffectFormat.DisablePresetShadowEffect-Methode
 
-Deaktiviert den voreingestellten Schatteneffekt.
+Deaktiviert den vordefinierten Schatteneffekt.
 
 ```csharp
 public void DisablePresetShadowEffect()
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [EffectFormat](../../effectformat)
 * Namespace [Aspose.Slides](../../effectformat)

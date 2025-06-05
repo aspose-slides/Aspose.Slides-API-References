@@ -1,15 +1,15 @@
 ---
 title: DisableFontLigatures
-second_title: Aspose.Slides pour la référence API .NET
-description: Obtient ou définit une valeur indiquant si le texte est rendu sans utiliser de ligatures. Lorsqu'il est défini sur true, les ligatures seront désactivées dans le rendu. Par défaut, cette propriété est définie sur false.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Obtient ou définit une valeur indiquant si le texte est rendu sans utiliser de ligatures. Lorsqu'elle est définie sur true, les ligatures seront désactivées dans la sortie rendue. Par défaut, cette propriété est définie sur false.
 type: docs
 weight: 20
 url: /fr/aspose.slides.export/irenderingoptions/disablefontligatures/
 ---
 
-## Propriété IRenderingOptions.DisableFontLigatures
+## IRenderingOptions.DisableFontLigatures propriété
 
-Obtient ou définit une valeur indiquant si le texte est rendu sans utiliser de ligatures. Lorsqu'il est défini sur `true`, les ligatures seront désactivées dans le rendu. Par défaut, cette propriété est définie sur `false`.
+Obtient ou définit une valeur indiquant si le texte est rendu sans utiliser de ligatures. Lorsqu'elle est définie sur `true`, les ligatures seront désactivées dans la sortie rendue. Par défaut, cette propriété est définie sur `false`.
 
 ```csharp
 public bool DisableFontLigatures { get; set; }

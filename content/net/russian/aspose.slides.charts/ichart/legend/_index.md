@@ -1,21 +1,21 @@
 ---
-title: Легенда
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Возвращает или устанавливает легенду для диаграммы. Только для чтения ILegend aspose.slides.charts/ilegend.
+title: Legend
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает или устанавливает легенду для графика. Только для чтения ILegendaspose.slides.charts/ilegend.
 type: docs
 weight: 150
 url: /ru/aspose.slides.charts/ichart/legend/
 ---
 
-## Свойство IChart.Legend
+## IChart.Legend свойство
 
-Возвращает или устанавливает легенду для диаграммы. Только для чтения [`ILegend`](../../ilegend).
+Возвращает или устанавливает легенду для графика. Только для чтения [`ILegend`](../../ilegend).
 
 ```csharp
 public ILegend Legend { get; }
 ```
 
-### Также смотри
+### См. также
 
 * интерфейс [ILegend](../../ilegend)
 * интерфейс [IChart](../../ichart)

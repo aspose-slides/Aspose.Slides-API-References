@@ -1,7 +1,7 @@
 ---
 title: SpaceAfter
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Menge an Platz nach der letzten Zeile in einem Absatz ohne Vererbung zurück oder setzt sie. Ein positiver Wert gibt den Prozentsatz der Schriftgröße an, den der Leerraum haben sollte. Ein negativer Wert gibt die Größe des Leerraums in Punktgröße an. Lese-/Schreib-Single.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Menge an Platz nach der letzten Zeile in einem Absatz ohne Vererbung zurück oder legt diese fest. Ein positiver Wert gibt den Prozentsatz der Schriftgröße an, den der Leerraum einnehmen sollte. Ein negativer Wert gibt die Größe des Leerraums in Punktgröße an. Lesen/Schreiben Einzelwert.
 type: docs
 weight: 120
 url: /de/aspose.slides/paragraphformat/spaceafter/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/paragraphformat/spaceafter/
 
 ## ParagraphFormat.SpaceAfter-Eigenschaft
 
-Gibt die Menge an Platz nach der letzten Zeile in einem Absatz ohne Vererbung zurück oder setzt sie. Ein positiver Wert gibt den Prozentsatz der Schriftgröße an, den der Leerraum haben sollte. Ein negativer Wert gibt die Größe des Leerraums in Punktgröße an. Lese-/Schreib-Single.
+Gibt die Menge an Platz nach der letzten Zeile in einem Absatz ohne Vererbung zurück oder legt diese fest. Ein positiver Wert gibt den Prozentsatz der Schriftgröße an, den der Leerraum einnehmen sollte. Ein negativer Wert gibt die Größe des Leerraums in Punktgröße an. Lesen/Schreiben Einzelwert.
 
 ```csharp
 public float SpaceAfter { get; set; }

@@ -1,13 +1,13 @@
 ---
 title: IndexOf
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Bestimmt den Index eines bestimmten Elements in der IList.
 type: docs
 weight: 110
 url: /de/aspose.slides/paragraphcollection/indexof/
 ---
 
-## ParagraphCollection.IndexOf Methode
+## ParagraphCollection.IndexOf-Methode
 
 Bestimmt den Index eines bestimmten Elements in der IList.
 
@@ -17,13 +17,13 @@ public int IndexOf(IParagraph item)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| item | IParagraph | Das Objekt, das in der IList lokalisiert werden soll. |
+| item | IParagraph | Das Objekt, das in der IList gefunden werden soll. |
 
 ### Rückgabewert
 
-Der Index von *item*, wenn es in der Liste gefunden wurde; andernfalls -1.
+Der Index von *item*, wenn es in der Liste gefunden wird; andernfalls -1.
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IParagraph](../../iparagraph)
 * Klasse [ParagraphCollection](../../paragraphcollection)

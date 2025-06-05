@@ -1,7 +1,7 @@
 ---
 title: UnderflowBin
-second_title: Aspose.Slides for .NET API 参考
-description: 指定下溢箱自定义值。当 IsAutomaticUnderflowBin 属性设置为 false 且 IsUnderflowBin 属性等于 true 时应用。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定下溢箱的自定义值。当 IsAutomaticUnderflowBin 属性设置为 false 且 IsUnderflowBin 属性为 true 时应用。
 type: docs
 weight: 560
 url: /zh/aspose.slides.charts/axis/underflowbin/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/axis/underflowbin/
 
 ## Axis.UnderflowBin 属性
 
-指定下溢箱自定义值。当 IsAutomaticUnderflowBin 属性设置为 false 且 IsUnderflowBin 属性等于 true 时应用。
+指定下溢箱的自定义值。当 IsAutomaticUnderflowBin 属性设置为 false 且 IsUnderflowBin 属性为 true 时应用。
 
 ```csharp
 public double UnderflowBin { get; set; }

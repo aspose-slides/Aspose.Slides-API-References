@@ -1,15 +1,15 @@
 ---
 title: InsertColumnBefore
 second_title: Aspose.Sildes for .NET API Reference
-description: 在指定列之前插入新列，最初新列中的所有元素都为 null。
+description: 在指定列之前插入一个新列。新列中的所有元素最初都是 null。
 type: docs
 weight: 160
 url: /zh/aspose.slides.mathtext/imathmatrix/insertcolumnbefore/
 ---
 
-## IMathMatrix.InsertColumnBefore 方法
+## IMathMatrix.InsertColumnBefore method
 
-在指定列之前插入新列，最初新列中的所有元素都为 null。
+在指定列之前插入一个新列。新列中的所有元素最初都是 null。
 
 ```csharp
 public void InsertColumnBefore(int columnIndex)
@@ -17,7 +17,7 @@ public void InsertColumnBefore(int columnIndex)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| columnIndex | Int32 | 要在其之前插入新列的列索引 |
+| columnIndex | Int32 | 在其之前插入新列的列索引 |
 
 ### 示例
 
@@ -29,7 +29,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.InsertColumnBefore(0);
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IMathMatrix](../../imathmatrix)
 * 命名空间 [Aspose.Slides.MathText](../../imathmatrix)

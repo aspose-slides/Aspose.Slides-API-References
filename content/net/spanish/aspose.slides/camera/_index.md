@@ -1,15 +1,15 @@
 ---
-title: Cámara
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa Cámara.
+title: Camera
+second_title: Aspose.Sildes for .NET API Reference
+description: Representa la cámara.
 type: docs
 weight: 1010
 url: /es/aspose.slides/camera/
 ---
 
-## Clase Cámara
+## Clase Camera
 
-Representa Cámara.
+Representa la cámara.
 
 ```csharp
 public sealed class Camera : PVIObject, ICamera
@@ -30,14 +30,14 @@ public sealed class Camera : PVIObject, ICamera
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compara con el objeto especificado. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Devuelve el código hash. |
-| [GetRotation](../../aspose.slides/camera/getrotation)() | Una rotación se define a través del uso de una coordenada de latitud, una coordenada de longitud y una revolución alrededor del eje como las coordenadas de latitud y longitud. primer elemento en el array de retorno - latitud, segundo - longitud, tercero - revolución. Devuelve nulo si no se define ninguna rotación. |
-| [SetRotation](../../aspose.slides/camera/setrotation)(float, float, float) | Una rotación se define a través del uso de una coordenada de latitud, una coordenada de longitud y una revolución alrededor del eje como las coordenadas de latitud y longitud. Si algún valor de coordenada es float.NaN, toda la rotación está indefinida. |
+| [GetRotation](../../aspose.slides/camera/getrotation)() | Una rotación se define mediante el uso de una coordenada de latitud, una coordenada de longitud, y una revolución alrededor del eje como las coordenadas de latitud y longitud. primer elemento en el array de retorno - latitud, segundo - longitud, tercero - revolución. Devuelve null si no se define ninguna rotación. |
+| [SetRotation](../../aspose.slides/camera/setrotation)(float, float, float) | Una rotación se define mediante el uso de una coordenada de latitud, una coordenada de longitud, y una revolución alrededor del eje como las coordenadas de latitud y longitud. Si cualquiera de los valores de coordenada es float.NaN, toda la rotación está indefinida. |
 
-### Véase También
+### Ver También
 
 * clase [PVIObject](../pviobject)
 * interfaz [ICamera](../icamera)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblaje [Aspose.Slides](../../)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

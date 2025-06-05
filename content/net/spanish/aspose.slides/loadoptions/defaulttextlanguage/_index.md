@@ -21,24 +21,24 @@ Ejemplo:
 
 ```csharp
 [C#]
-// Utilizar las opciones de carga para definir la cultura de texto predeterminada
+// Utiliza opciones de carga para definir la cultura de texto predeterminada
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.DefaultTextLanguage = "en-US";
 using (Presentation pres = new Presentation(loadOptions))
  {
-    // Agregar nueva forma rectangular con texto
+    // Agrega una nueva forma rectangular con texto
     IAutoShape shp = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 50, 50, 150, 50);
     shp.TextFrame.Text = "Nuevo Texto";
 
-    // Verificar el idioma de la primera porción
+    // Verifica el idioma de la primera porción
     Console.WriteLine(shp.TextFrame.Paragraphs[0].Portions[0].PortionFormat.LanguageId);
 }
 ```
 
-### Vea También
+### Ver También
 
-* clase [LoadOptions](../../loadoptions)
-* espacio de nombres [Aspose.Slides](../../loadoptions)
-* ensamblado [Aspose.Slides](../../../)
+* class [LoadOptions](../../loadoptions)
+* namespace [Aspose.Slides](../../loadoptions)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

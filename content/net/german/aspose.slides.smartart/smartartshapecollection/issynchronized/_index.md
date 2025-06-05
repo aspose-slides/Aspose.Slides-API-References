@@ -1,7 +1,7 @@
 ---
 title: IsSynchronized
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung threadsicher synchronisiert ist. Nur-Lese Boolean.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert Thread-sicher ist. Schreibgeschütztes Boolean.
 type: docs
 weight: 20
 url: /de/aspose.slides.smartart/smartartshapecollection/issynchronized/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.smartart/smartartshapecollection/issynchronized/
 
 ## SmartArtShapeCollection.IsSynchronized-Eigenschaft
 
-Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (threadsicher) ist. Nur-Lese Boolean.
+Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (Thread-sicher) ist. Schreibgeschütztes Boolean.
 
 ```csharp
 public bool IsSynchronized { get; }

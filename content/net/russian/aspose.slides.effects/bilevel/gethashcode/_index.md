@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
-second_title: Aspose.Slides для .NET API Справочник
-description: Используется как хеш-функция для определенного типа.
+second_title: Aspose.Sildes для .NET Справочник по API
+description: Служит в качестве хеш-функции для определённого типа.
 type: docs
 weight: 30
 url: /ru/aspose.slides.effects/bilevel/gethashcode/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/bilevel/gethashcode/
 
 ## BiLevel.GetHashCode метод
 
-Используется как хеш-функция для определенного типа.
+Служит в качестве хеш-функции для определённого типа.
 
 ```csharp
 public override int GetHashCode()

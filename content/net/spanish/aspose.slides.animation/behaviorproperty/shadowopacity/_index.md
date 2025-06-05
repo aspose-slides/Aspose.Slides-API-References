@@ -1,6 +1,6 @@
 ---
-title: SombraOpacidad
-second_title: Referencia de API de Aspose.Slides para .NET
+title: ShadowOpacity
+second_title: Aspose.Slides para .NET Referencia de API
 description: Representa la propiedad shadow.opacity
 type: docs
 weight: 730
@@ -15,10 +15,10 @@ Representa la propiedad 'shadow.opacity'
 public static BehaviorProperty ShadowOpacity { get; }
 ```
 
-### Véase También
+### Ver También
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
-title: Löschen
-second_title: Aspose.Slides für .NET API-Referenz
-description: Setzen Sie ColorScheme, FontScheme und FormatScheme auf null, um eine Überschreibung mit diesem Themenobjekt zu deaktivieren.
+title: Clear
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Setzen Sie ColorScheme, FontScheme, FormatScheme auf null, um eine Überschreibung mit diesem Themenobjekt zu deaktivieren.
 type: docs
 weight: 50
 url: /de/aspose.slides.theme/overridetheme/clear/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/overridetheme/clear/
 
 ## OverrideTheme.Clear-Methode
 
-Setzen Sie ColorScheme, FontScheme und FormatScheme auf null, um eine Überschreibung mit diesem Themenobjekt zu deaktivieren.
+Setzen Sie ColorScheme, FontScheme, FormatScheme auf null, um eine Überschreibung mit diesem Themenobjekt zu deaktivieren.
 
 ```csharp
 public void Clear()

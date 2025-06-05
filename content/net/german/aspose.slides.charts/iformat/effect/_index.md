@@ -1,7 +1,7 @@
 ---
-title: Effekt
+title: Effect
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die für ein Diagramm verwendeten Effekte zurück. Nur-lesend IEffectFormataspose.slides/ieffectformat.
+description: Gibt die Effekte zurück, die für ein Diagramm verwendet werden. Nur-lesender IEffectFormataspose.slides/ieffectformat.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/iformat/effect/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/iformat/effect/
 
 ## IFormat.Effect-Eigenschaft
 
-Gibt die für ein Diagramm verwendeten Effekte zurück. Nur-lesend [`IEffectFormat`](../../../aspose.slides/ieffectformat).
+Gibt die Effekte zurück, die für ein Diagramm verwendet werden. Nur-lesender [`IEffectFormat`](../../../aspose.slides/ieffectformat).
 
 ```csharp
 public IEffectFormat Effect { get; }

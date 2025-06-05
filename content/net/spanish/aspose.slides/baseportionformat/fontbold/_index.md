@@ -1,13 +1,13 @@
 ---
 title: FontBold
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si la fuente es negrita. No se aplica herencia. Lectura/escritura NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 70
 url: /es/aspose.slides/baseportionformat/fontbold/
 ---
 
-## Propiedad BasePortionFormat.FontBold
+## BasePortionFormat.FontBold property
 
 Determina si la fuente es negrita. No se aplica herencia. Lectura/escritura [`NullableBool`](../../nullablebool).
 
@@ -15,7 +15,7 @@ Determina si la fuente es negrita. No se aplica herencia. Lectura/escritura [`Nu
 public NullableBool FontBold { get; set; }
 ```
 
-### Véase también
+### Véase También
 
 * enum [NullableBool](../../nullablebool)
 * class [BasePortionFormat](../../baseportionformat)

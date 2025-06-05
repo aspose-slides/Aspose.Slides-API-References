@@ -1,7 +1,7 @@
 ---
 title: DataSourceTypeForBubbleSizes
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt an, ob die Eigenschaften AsCell, AsLiteralString oder AsLiteralDouble in den Datenpunkten der BubbleSize-Eigenschaft zutreffend sind. Mit anderen Worten, es wird der Typ des Wertes der Eigenschaft ChartDataPoint.BubbleSize.Data angegeben. Lese-/schreibbar DataSourceType aspose.slides.charts/datasourcetype.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt an, ob die Eigenschaften AsCell, AsLiteralString oder AsLiteralDouble in den Datenpunkten des BubbleSize-Eigenschaftsobjekts aktuell sind. Mit anderen Worten, es gibt den Typ des Wertes der ChartDataPoint.BubbleSize.Data-Eigenschaft an. Lese-/Schreibzugriff auf DataSourceTypeaspose.slides.charts/datasourcetype.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/chartdatapointcollection/datasourcetypeforbubblesizes/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartdatapointcollection/datasourcetypeforbubblesi
 
 ## ChartDataPointCollection.DataSourceTypeForBubbleSizes-Eigenschaft
 
-Gibt an, ob die Eigenschaften AsCell, AsLiteralString oder AsLiteralDouble in den Datenpunkten der BubbleSize-Eigenschaft zutreffend sind. Mit anderen Worten, es wird der Typ des Wertes der Eigenschaft ChartDataPoint.BubbleSize.Data angegeben. Lese-/schreibbar [`DataSourceType`](../../datasourcetype).
+Gibt an, ob die Eigenschaften AsCell, AsLiteralString oder AsLiteralDouble in den Datenpunkten des BubbleSize-Eigenschaftsobjekts aktuell sind. Mit anderen Worten, es gibt den Typ des Wertes der ChartDataPoint.BubbleSize.Data-Eigenschaft an. Lese-/Schreibzugriff auf [`DataSourceType`](../../datasourcetype).
 
 ```csharp
 public DataSourceType DataSourceTypeForBubbleSizes { get; set; }

@@ -7,7 +7,7 @@ weight: 4620
 url: /zh/aspose.slides/fontcollectionindex/
 ---
 
-## FontCollectionIndex枚举
+## FontCollectionIndex 枚举
 
 表示集合中字体的索引。
 
@@ -23,7 +23,7 @@ public enum FontCollectionIndex : byte
 | Minor | `1` |  |
 | Major | `2` |  |
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

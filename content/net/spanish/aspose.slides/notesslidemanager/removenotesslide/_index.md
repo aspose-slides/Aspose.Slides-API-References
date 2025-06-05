@@ -7,7 +7,7 @@ weight: 30
 url: /es/aspose.slides/notesslidemanager/removenotesslide/
 ---
 
-## Método NotesSlideManager.RemoveNotesSlide
+## NotesSlideManager.RemoveNotesSlide método
 
 Elimina la diapositiva de notas de la diapositiva actual.
 
@@ -15,7 +15,7 @@ Elimina la diapositiva de notas de la diapositiva actual.
 public void RemoveNotesSlide()
 ```
 
-### Véase También
+### Ver También
 
 * clase [NotesSlideManager](../../notesslidemanager)
 * espacio de nombres [Aspose.Slides](../../notesslidemanager)

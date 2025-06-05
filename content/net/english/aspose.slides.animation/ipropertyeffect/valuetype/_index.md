@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.animation/ipropertyeffect/valuetype/
 ---
+
 ## IPropertyEffect.ValueType property
 
 Specifies the type of a property value. Read/write [`PropertyValueType`](../../propertyvaluetype).

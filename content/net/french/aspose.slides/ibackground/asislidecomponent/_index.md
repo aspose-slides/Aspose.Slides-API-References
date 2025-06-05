@@ -1,7 +1,7 @@
 ---
 title: AsISlideComponent
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie l'interface ISlideComponent. Lecture seule ISlideComponentaspose.slides/islidecomponent.
+second_title: Référence API Aspose.Slides pour .NET
+description: Retourne l'interface ISlideComponent. ISlideComponent en lecture seule aspose.slides/islidecomponent.
 type: docs
 weight: 20
 url: /fr/aspose.slides/ibackground/asislidecomponent/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ibackground/asislidecomponent/
 
 ## Propriété IBackground.AsISlideComponent
 
-Renvoie l'interface ISlideComponent. Lecture seule [`ISlideComponent`](../../islidecomponent).
+Retourne l'interface ISlideComponent. Lecture seule [`ISlideComponent`](../../islidecomponent).
 
 ```csharp
 public ISlideComponent AsISlideComponent { get; }
@@ -19,7 +19,7 @@ public ISlideComponent AsISlideComponent { get; }
 
 Pour la compatibilité COM.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ISlideComponent](../../islidecomponent)
 * interface [IBackground](../../ibackground)

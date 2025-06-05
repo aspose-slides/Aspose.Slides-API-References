@@ -1,7 +1,7 @@
 ---
-title: Rahmen
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Rahmen des Steuerelements zurück oder legt ihn fest. Lese-/Schreibzugriff auf IShapeFrameaspose.slides/ishapeframe.
+title: Frame
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt das Steuerrahmen zurück oder setzt es. Lese-/Schreibzugriff auf IShapeFrameaspose.slides/ishapeframe.
 type: docs
 weight: 30
 url: /de/aspose.slides/control/frame/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/control/frame/
 
 ## Control.Frame-Eigenschaft
 
-Gibt den Rahmen des Steuerelements zurück oder legt ihn fest. Lese-/Schreibzugriff auf [`IShapeFrame`](../../ishapeframe).
+Gibt das Steuerrahmen zurück oder setzt es. Lese-/Schreibzugriff auf [`IShapeFrame`](../../ishapeframe).
 
 ```csharp
 public IShapeFrame Frame { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IShapeFrame](../../ishapeframe)
 * Klasse [Control](../../control)

@@ -1,6 +1,6 @@
 ---
 title: AddFallBackFonts
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Ajoute une nouvelle police à la liste des polices de secours.
 type: docs
 weight: 50
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ifontfallbackrule/addfallbackfonts/
 
 ## AddFallBackFonts(string) {#addfallbackfonts}
 
-Ajoute une nouvelle police à la liste des polices de secours.
+Ajoute une ou plusieurs nouvelles polices à la liste des polices de secours.
 
 ```csharp
 public void AddFallBackFonts(string fontName)
@@ -17,7 +17,7 @@ public void AddFallBackFonts(string fontName)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| fontName | String | Nom ou noms de la police (délimités par des virgules) pour les polices de secours |
+| fontName | String | Nom de la ou des polices (délimitées par des virgules) pour FallBack |
 
 ### Exemples
 
@@ -28,7 +28,7 @@ IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho");
 
 //Ajouter une deuxième police à la règle 
 newRule.AddFallBackFonts("MS Gothic");
-//Ajouter une troisième et une quatrième police à la règle 
+//Ajouter une troisième et une quatrième polices à la règle 
 newRule.AddFallBackFonts("Tahoma, Times New Roman");
 ```
 
@@ -50,7 +50,7 @@ public void AddFallBackFonts(string[] fontNames)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| fontNames | String[] | Nom ou noms de la police (délimités par des virgules) pour les polices de secours |
+| fontNames | String[] | Nom de la ou des polices (délimitées par des virgules) pour FallBack |
 
 ### Exemples
 

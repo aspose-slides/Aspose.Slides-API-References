@@ -1,13 +1,13 @@
 ---
 title: StyleVisibility
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Справка по API Aspose.Slides для .NET
 description: Представляет свойство style.visibility
 type: docs
 weight: 1190
 url: /ru/aspose.slides.animation/behaviorproperty/stylevisibility/
 ---
 
-## Свойство BehaviorProperty.StyleVisibility
+## BehaviorProperty.StyleVisibility property
 
 Представляет свойство 'style.visibility'
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/behaviorproperty/stylevisibility/
 public static BehaviorProperty StyleVisibility { get; }
 ```
 
-### Также смотри
+### Смотрите также
 
 * класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)

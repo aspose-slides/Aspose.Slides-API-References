@@ -1,7 +1,7 @@
 ---
-title: Überlappung
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt an, wie stark Säulen und Balken in 2D-Diagrammen als Prozentsatz von -100 bis 100 überlappen. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe. Es ist eine Projektion der entsprechenden Eigenschaft in der übergeordneten Seriengruppe, daher ist diese Eigenschaft schreibgeschützt. Um den Wert zu ändern, verwenden Sie die schreibbare Eigenschaft ParentSeriesGroup.Overlap. Schreibgeschützter SByte.
+title: Overlap
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt an, wie stark Balken und Säulen in 2D-Diagrammen als Prozentsatz von -100 bis 100 überlappen. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe. Es handelt sich um eine Projektion der entsprechenden Eigenschaft in der übergeordneten Seriengruppe, und daher ist diese Eigenschaft schreibgeschützt. Um den Wert zu ändern, verwenden Sie die schreibbare Eigenschaft ParentSeriesGroup.Overlap. Schreibgeschütztes SByte.
 type: docs
 weight: 270
 url: /de/aspose.slides.charts/chartseries/overlap/
@@ -9,15 +9,15 @@ url: /de/aspose.slides.charts/chartseries/overlap/
 
 ## ChartSeries.Overlap-Eigenschaft
 
-Gibt an, wie stark Säulen und Balken in 2D-Diagrammen als Prozentsatz (von -100% bis 100%) überlappen. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe. Es ist eine Projektion der entsprechenden Eigenschaft in der übergeordneten Seriengruppe, und daher ist diese Eigenschaft schreibgeschützt. Um den Wert zu ändern, verwenden Sie die !:ParentSeriesGroup.Overlap schreibbare Eigenschaft. Schreibgeschützter SByte.
+Gibt an, wie stark Balken und Säulen in 2D-Diagrammen als Prozentsatz (-100% bis 100%) überlappen. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe. Es handelt sich um eine Projektion der entsprechenden Eigenschaft in der übergeordneten Seriengruppe, und daher ist diese Eigenschaft schreibgeschützt. Um den Wert zu ändern, verwenden Sie die !:ParentSeriesGroup.Overlap schreibbare Eigenschaft. Schreibgeschütztes SByte.
 
 ```csharp
 public sbyte Overlap { get; }
 ```
 
-### Hinweise
+### Anmerkungen
 
-Overlap gibt den Grad der Überlappung oder den Abstand zwischen Säulen und Balken als Prozentsatz ihrer Breite an: - -100%: Maximaler Abstand (Balken sind vollständig getrennt). - 0%: Balken werden nebeneinander ohne Überlappung oder Abstand platziert. - 100%: Maximale Überlappung (Balken überlappen sich vollständig). Dies ist eine Projektion der Eigenschaft !:ParentSeriesGroup.Overlap.
+Overlap gibt den Grad der Überlappung oder den Abstand zwischen Balken und Säulen als Prozentsatz ihrer Breite an: - -100%: Maximale Abstände (Balken sind vollständig getrennt). - 0%: Balken sind nebeneinander ohne Überlappung oder Abstand angeordnet. - 100%: Maximale Überlappung (Balken überlappen sich vollständig). Dies ist eine Projektion der Eigenschaft !:ParentSeriesGroup.Overlap.
 
 ### Siehe Auch
 

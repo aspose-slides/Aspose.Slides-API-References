@@ -1,7 +1,7 @@
 ---
 title: SignTime
 second_title: Aspose.Slides für .NET API-Referenz
-description: Der Zeitpunkt, an dem das Dokument signiert wurde. Nur lesbarer DateTime.
+description: Der Zeitpunkt, an dem das Dokument signiert wurde. Nur-lesbare DateTime.
 type: docs
 weight: 40
 url: /de/aspose.slides/idigitalsignature/signtime/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/idigitalsignature/signtime/
 
 ## IDigitalSignature.SignTime-Eigenschaft
 
-Der Zeitpunkt, an dem das Dokument signiert wurde. Nur lesbarer DateTime.
+Der Zeitpunkt, an dem das Dokument signiert wurde. Nur-lesbare DateTime.
 
 ```csharp
 public DateTime SignTime { get; }
@@ -22,11 +22,11 @@ public DateTime SignTime { get; }
 using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
 {
     foreach (DigitalSignature signature in pres.DigitalSignatures)
-        Console.WriteLine("Signaturprüfung: " + (signature.IsValid ? "GÜLTIG" : "UNGÜLTIG") + ", Signierungszeit: " + signature.SignTime);
+        Console.WriteLine("Signaturüberprüfung: " + (signature.IsValid ? "GÜLTIG" : "UNGÜLTIG") + ", Signierungszeit: " + signature.SignTime);
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IDigitalSignature](../../idigitalsignature)
 * Namespace [Aspose.Slides](../../idigitalsignature)

@@ -1,6 +1,6 @@
 ---
 title: Accent5
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Cinquième couleur d'accent dans le schéma. Lecture seule IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 50
@@ -15,7 +15,7 @@ Cinquième couleur d'accent dans le schéma. Lecture seule [`IColorFormat`](../.
 public IColorFormat Accent5 { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IColorFormat](../../../aspose.slides/icolorformat)
 * classe [ColorScheme](../../colorscheme)

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.mathtext/mathblock/count/
 ---
+
 ## MathBlock.Count property
 
 Gets the number of child math elements actually contained in the collection. Read-only Int32.

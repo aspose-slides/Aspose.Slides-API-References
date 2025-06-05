@@ -7,7 +7,7 @@ weight: 100
 url: /es/aspose.slides/slide/joinportionswithsameformatting/
 ---
 
-## Método Slide.JoinPortionsWithSameFormatting
+## Slide.JoinPortionsWithSameFormatting method
 
 Une fragmentos con el mismo formato en todos los párrafos en todas las formas aceptables.
 
@@ -17,8 +17,8 @@ public override void JoinPortionsWithSameFormatting()
 
 ### Ver También
 
-* clase [Slide](../../slide)
-* espacio de nombres [Aspose.Slides](../../slide)
-* ensamblado [Aspose.Slides](../../../)
+* class [Slide](../../slide)
+* namespace [Aspose.Slides](../../slide)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

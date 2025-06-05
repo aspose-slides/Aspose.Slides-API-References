@@ -1,7 +1,7 @@
 ---
 title: CompressImage
-second_title: Aspose.Sildes für .NET API Referenz
-description: Komprimiert das Bild, indem es seine Größe basierend auf der Formgröße und der angegebenen Auflösung reduziert. Optional werden auch beschnittene Bereiche gelöscht.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Komprimiert das Bild, indem die Größe basierend auf der Formgröße und der angegebenen Auflösung verringert wird. Optional werden auch beschnittene Bereiche entfernt.
 type: docs
 weight: 180
 url: /de/aspose.slides/picturefillformat/compressimage/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/picturefillformat/compressimage/
 
 ## CompressImage(bool, PicturesCompression) {#compressimage}
 
-Komprimiert das Bild, indem es seine Größe basierend auf der Formgröße und der angegebenen Auflösung reduziert. Optional werden auch beschnittene Bereiche gelöscht.
+Komprimiert das Bild, indem die Größe basierend auf der Formgröße und der angegebenen Auflösung verringert wird. Optional werden auch beschnittene Bereiche entfernt.
 
 ```csharp
 public bool CompressImage(bool deleteCroppedAreasOfImage, PicturesCompression resolution)
@@ -17,12 +17,12 @@ public bool CompressImage(bool deleteCroppedAreasOfImage, PicturesCompression re
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| deleteCroppedAreasOfImage | Boolean | Wenn true, entfernt die Methode die beschnittenen Bereiche des Bildes, was möglicherweise die Größe weiter reduziert. |
+| deleteCroppedAreasOfImage | Boolean | Wenn wahr, entfernt die Methode die beschnittenen Bereiche des Bildes, wodurch die Größe möglicherweise weiter verringert wird. |
 | resolution | PicturesCompression | Die Zielauflösung für die Komprimierung, angegeben als Wert des [`PicturesCompression`](../../../aspose.slides.export/picturescompression) Enums. |
 
 ### Rückgabewert
 
-Ein Boolean, der angibt, ob das Bild erfolgreich komprimiert wurde. Gibt `true` zurück, wenn das Bild geändert oder beschnitten wurde, andernfalls `false`.
+Ein Boolean, der angibt, ob das Bild erfolgreich komprimiert wurde. Gibt `true` zurück, wenn das Bild geändert oder zugeschnitten wurde, andernfalls `false`.
 
 ### Ausnahmen
 
@@ -36,14 +36,14 @@ Diese Methode ändert die Größe und Auflösung des Bildes ähnlich wie die Fun
 
 ### Beispiele
 
-Das folgende Beispiel zeigt, wie man die Methode `CompressImage` verwendet, um die Größe eines Bildes in einer Präsentation zu reduzieren, indem eine Zielauflösung festgelegt und beschnittene Bereiche entfernt werden:
+Das folgende Beispiel zeigt, wie die Methode `CompressImage` verwendet werden kann, um die Größe eines Bildes in einer Präsentation durch Festlegen einer Zielauflösung und das Entfernen von beschnittenen Bereichen zu verringern:
 
 ```csharp
 using (Presentation presentation = new Presentation("demo.pptx"))
 {
     ISlide slide = presentation.Slides[0];
     IPictureFrame picFrame = slide.Shapes[0] as IPictureFrame;
-    // Komprimiere das Bild mit einer Zielauflösung von 150 DPI (Webauflösung) und entferne beschnittene Bereiche
+    // Komprimiert das Bild mit einer Zielauflösung von 150 DPI (Webauflösung) und entfernt beschnittene Bereiche
     bool result = picFrame.PictureFormat.CompressImage(true, PicturesCompression.Dpi150);
 }
 ```
@@ -59,7 +59,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 
 ## CompressImage(bool, float) {#compressimage_1}
 
-Komprimiert das Bild, indem es seine Größe basierend auf der Formgröße und der angegebenen Auflösung reduziert. Optional werden auch beschnittene Bereiche gelöscht.
+Komprimiert das Bild, indem die Größe basierend auf der Formgröße und der angegebenen Auflösung verringert wird. Optional werden auch beschnittene Bereiche entfernt.
 
 ```csharp
 public bool CompressImage(bool deleteCroppedAreasOfImage, float resolution)
@@ -67,12 +67,12 @@ public bool CompressImage(bool deleteCroppedAreasOfImage, float resolution)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| deleteCroppedAreasOfImage | Boolean | Wenn true, entfernt die Methode die beschnittenen Bereiche des Bildes, was möglicherweise die Größe weiter reduziert. |
-| resolution | Single | Die Zielauflösung in DPI. Dieser Wert muss positiv sein und definiert, wie das Bild skaliert wird. |
+| deleteCroppedAreasOfImage | Boolean | Wenn wahr, entfernt die Methode die beschnittenen Bereiche des Bildes, wodurch die Größe möglicherweise weiter verringert wird. |
+| resolution | Single | Die Zielauflösung in DPI. Dieser Wert muss positiv sein und definiert, wie das Bild verändert wird. |
 
 ### Rückgabewert
 
-Ein Boolean, der angibt, ob das Bild erfolgreich komprimiert wurde. Gibt `true` zurück, wenn das Bild geändert oder beschnitten wurde, andernfalls `false`.
+Ein Boolean, der angibt, ob das Bild erfolgreich komprimiert wurde. Gibt `true` zurück, wenn das Bild geändert oder zugeschnitten wurde, andernfalls `false`.
 
 ### Ausnahmen
 
@@ -86,7 +86,7 @@ Diese Methode ändert die Größe und Auflösung des Bildes ähnlich wie die Fun
 
 ### Beispiele
 
-Das folgende Beispiel zeigt, wie man die Methode `CompressImage` verwendet, um die Größe eines Bildes in einer Präsentation zu reduzieren, indem eine Zielauflösung festgelegt und beschnittene Bereiche entfernt werden:
+Das folgende Beispiel zeigt, wie die Methode `CompressImage` verwendet werden kann, um die Größe eines Bildes in einer Präsentation durch Festlegen einer Zielauflösung und das Entfernen von beschnittenen Bereichen zu verringern:
 
 ```csharp
 [C#]
@@ -97,7 +97,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
     // Holt das PictureFrame
     IPictureFrame picFrame = slide.Shapes[0] as IPictureFrame;
 
-    // Komprimiere das Bild mit einer Zielauflösung von 150 DPI (Webauflösung) und entferne beschnittene Bereiche
+    // Komprimiert das Bild mit einer Zielauflösung von 150 DPI (Webauflösung) und entfernt beschnittene Bereiche
     bool result=picFrame.PictureFormat.CompressImage(true, 150f); // Webauflösung
 }
 ```

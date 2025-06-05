@@ -1,7 +1,7 @@
 ---
 title: LimitLocation
-second_title: Aspose.Slides для .NET API Справочник
-description: Расположение пределов низкий индекс и верхний индекс
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Расположение пределов подстрочного и надстрочного текста
 type: docs
 weight: 60
 url: /ru/aspose.slides.mathtext/mathnaryoperator/limitlocation/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/mathnaryoperator/limitlocation/
 
 ## MathNaryOperator.LimitLocation свойство
 
-Расположение пределов (низкий индекс и верхний индекс)
+Расположение пределов (подстрочный и надстрочный текст)
 
 ```csharp
 public MathLimitLocations LimitLocation { get; set; }
@@ -25,7 +25,7 @@ IMathNaryOperator naryOperator = new MathematicalText("x").Nary(MathNaryOperator
 naryOperator.LimitLocation = MathLimitLocations.SubscriptSuperscript;
 ```
 
-### Смотрите также
+### См. Также
 
 * enum [MathLimitLocations](../../mathlimitlocations)
 * class [MathNaryOperator](../../mathnaryoperator)

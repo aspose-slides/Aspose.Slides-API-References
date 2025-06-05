@@ -1,7 +1,7 @@
 ---
-title: Inferior
+title: Bottom
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Inferior. Solo lectura de tipo Single.
+description: Bottom. Solo lectura Single.
 type: docs
 weight: 10
 url: /es/aspose.slides.charts/legend/bottom/
@@ -9,16 +9,16 @@ url: /es/aspose.slides.charts/legend/bottom/
 
 ## Propiedad Legend.Bottom
 
-Inferior. Solo lectura de tipo Single.
+Bottom. Solo lectura Single.
 
 ```csharp
 public float Bottom { get; }
 ```
 
-### También puede ver
+### Ver también
 
 * clase [Legend](../../legend)
-* espacio de nombres [Aspose.Slides.Charts](../../legend)
+* namespace [Aspose.Slides.Charts](../../legend)
 * ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

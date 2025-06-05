@@ -1,7 +1,7 @@
 ---
-title: Présentation
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie la présentation parent d'une diapositive. Lecture seule IPresentationaspose.slides/ipresentation.
+title: Presentation
+second_title: Aspose.Slides pour .NET API Reference
+description: Retourne la présentation parente d'une diapositive. Lecture seule IPresentationaspose.slides/ipresentation.
 type: docs
 weight: 30
 url: /fr/aspose.slides/background/presentation/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/background/presentation/
 
 ## Propriété Background.Presentation
 
-Renvoie la présentation parent d'une diapositive. Lecture seule [`IPresentation`](../../ipresentation).
+Retourne la présentation parente d'une diapositive. Lecture seule [`IPresentation`](../../ipresentation).
 
 ```csharp
 public IPresentation Presentation { get; }

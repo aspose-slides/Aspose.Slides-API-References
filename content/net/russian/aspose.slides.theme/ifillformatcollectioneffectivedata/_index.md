@@ -1,7 +1,7 @@
 ---
 title: IFillFormatCollectionEffectiveData
-second_title: Aspose.Sildes для справки по API .NET
-description: Невозможно изменяемый объект, представляющий собой только для чтения коллекцию эффективных форматов заливки.
+second_title: Aspose.Slides для .NET API Справочник
+description: Невзаимодействующий объект, представляющий собой только для чтения коллекцию эффективных форматов заливки.
 type: docs
 weight: 10930
 url: /ru/aspose.slides.theme/ifillformatcollectioneffectivedata/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.theme/ifillformatcollectioneffectivedata/
 
 ## Интерфейс IFillFormatCollectionEffectiveData
 
-Невозможно изменяемый объект, представляющий собой только для чтения коллекцию эффективных форматов заливки.
+Невзаимодействующий объект, представляющий собой только для чтения коллекцию эффективных форматов заливки.
 
 ```csharp
 public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFormatEffectiveData>
@@ -21,9 +21,9 @@ public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFo
 | --- | --- |
 | [Item](../../aspose.slides.theme/ifillformatcollectioneffectivedata/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
 
-### Примечания
+### Замечания
 
-Этот интерфейс используется как часть [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata).
+Этот интерфейс используется в качестве части [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata).
 
 ### См. также
 

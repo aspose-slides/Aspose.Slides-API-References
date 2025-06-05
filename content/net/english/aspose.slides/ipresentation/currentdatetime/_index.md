@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/ipresentation/currentdatetime/
 ---
+
 ## IPresentation.CurrentDateTime property
 
 Returns or sets date and time which will substitute content of datetime fields. Time of this Presentation object creation by default. Read/write DateTime.

@@ -3,9 +3,10 @@ title: MasterText
 second_title: Aspose.Sildes for .NET API Reference
 description: The text on the master pages shapes for this slide
 type: docs
-weight: 20
+weight: 30
 url: /aspose.slides/islidetext/mastertext/
 ---
+
 ## ISlideText.MasterText property
 
 The text on the master page's shapes for this slide

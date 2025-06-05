@@ -1,7 +1,7 @@
 ---
 title: IPresentationFactory
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Permet de créer des présentations via une interface COM
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Permet de créer des présentations via l'interface COM
 type: docs
 weight: 6570
 url: /fr/aspose.slides/ipresentationfactory/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ipresentationfactory/
 
 ## Interface IPresentationFactory
 
-Permet de créer des présentations via une interface COM
+Permet de créer des présentations via l'interface COM
 
 ```csharp
 public interface IPresentationFactory
@@ -26,14 +26,14 @@ public interface IPresentationFactory
 | [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Récupère le texte brut des diapositives |
 | [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Récupère le texte brut des diapositives |
 | [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Récupère le texte brut des diapositives |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation)(byte[]) | Lit une présentation existante à partir du tableau |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_2)(Stream) | Lit une présentation existante à partir du flux |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_4)(string) | Lit une présentation existante à partir du fichier |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Lit une présentation existante à partir du tableau avec des options de chargement supplémentaires |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Lit une présentation existante à partir du flux avec des options de chargement supplémentaires |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Lit une présentation existante à partir du flux avec des options de chargement supplémentaires |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation)(byte[]) | Lit une présentation existante à partir d'un tableau |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_2)(Stream) | Lit une présentation existante à partir d'un flux |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_4)(string) | Lit une présentation existante à partir d'un fichier |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Lit une présentation existante à partir d'un tableau avec des options de chargement supplémentaires |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Lit une présentation existante à partir d'un flux avec des options de chargement supplémentaires |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Lit une présentation existante à partir d'un flux avec des options de chargement supplémentaires |
 
-### Voir aussi
+### Voir Aussi
 
 * espace de noms [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

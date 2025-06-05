@@ -1,7 +1,7 @@
 ---
 title: Format
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente les propriétés de formatage au niveau du point de données. Lecture/écriture IFormataspose.slides.charts/iformat.
+second_title: Référence API d'Aspose.Slides pour .NET
+description: Représente les propriétés de formatage au niveau des points de données. Lecture/écriture IFormataspose.slides.charts/iformat.
 type: docs
 weight: 10
 url: /fr/aspose.slides.charts/ichartdatapointlevel/format/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ichartdatapointlevel/format/
 
 ## Propriété IChartDataPointLevel.Format
 
-Représente les propriétés de formatage au niveau du point de données. Lecture/écriture [`IFormat`](../../iformat).
+Représente les propriétés de formatage au niveau des points de données. Lecture/écriture [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; }

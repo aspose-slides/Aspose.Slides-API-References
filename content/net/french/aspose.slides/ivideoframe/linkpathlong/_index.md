@@ -1,7 +1,7 @@
 ---
 title: LinkPathLong
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit le nom d'un fichier vidéo qui est lié à un VideoFrame. Chaîne en lecture/écriture.
+description: Renvoie ou définit le nom d'un fichier vidéo qui est lié à un VideoFrame. Lecture/écriture String.
 type: docs
 weight: 60
 url: /fr/aspose.slides/ivideoframe/linkpathlong/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ivideoframe/linkpathlong/
 
 ## Propriété IVideoFrame.LinkPathLong
 
-Renvoie ou définit le nom d'un fichier vidéo qui est lié à un VideoFrame. Chaîne en lecture/écriture.
+Renvoie ou définit le nom d'un fichier vidéo qui est lié à un VideoFrame. Lecture/écriture String.
 
 ```csharp
 public string LinkPathLong { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IVideoFrame](../../ivideoframe)
 * namespace [Aspose.Slides](../../ivideoframe)

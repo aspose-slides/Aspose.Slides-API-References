@@ -1,6 +1,6 @@
 ---
 title: FontData
-second_title: Aspose.Sildes pour .NET Référence API
+second_title: Aspose.Sildes for .NET API Reference
 description: Représente une définition de police. Immutable.
 type: docs
 weight: 4630
@@ -32,9 +32,9 @@ public sealed class FontData : IFontData
 | Nom | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/fontdata/equals)(object) | Détermine si deux instances de FontData sont égales. |
-| [GetFontName](../../aspose.slides/fontdata/getfontname)(IThemeEffectiveData) | Renvoie le nom de la police, remplaçant la référence de thème par une police réelle utilisée. |
+| [GetFontName](../../aspose.slides/fontdata/getfontname)(IThemeEffectiveData) | Renvoie le nom de la police, remplaçant la référence du thème par une police réelle utilisée. |
 | override [GetHashCode](../../aspose.slides/fontdata/gethashcode)() | Sert de fonction de hachage pour un type particulier, adapté à une utilisation dans des algorithmes de hachage et des structures de données comme une table de hachage. |
-| override [ToString](../../aspose.slides/fontdata/tostring)() | Renvoie une représentation sous forme de chaîne. |
+| override [ToString](../../aspose.slides/fontdata/tostring)() | Renvoie la représentation sous forme de chaîne. |
 
 ### Voir aussi
 

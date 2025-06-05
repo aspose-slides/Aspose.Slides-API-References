@@ -1,15 +1,15 @@
 ---
 title: ActualMinorUnit
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die tatsächliche kleinere Einheit der Achse an. Rufen Sie zuvor die Methode IChart.ValidateChartLayout auf, um den tatsächlichen Wert zu erhalten.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die tatsächliche kleinere Einheit der Achse an. Rufen Sie vorher die Methode IChart.ValidateChartLayout auf, um den tatsächlichen Wert zu erhalten.
 type: docs
 weight: 40
 url: /de/aspose.slides.charts/axis/actualminorunit/
 ---
 
-## Axis.ActualMinorUnit-Eigenschaft
+## Axis.ActualMinorUnit Eigenschaft
 
-Gibt die tatsächliche kleinere Einheit der Achse an. Rufen Sie zuvor die Methode IChart.ValidateChartLayout() auf, um den tatsächlichen Wert zu erhalten.
+Gibt die tatsächliche kleinere Einheit der Achse an. Rufen Sie vorher die Methode IChart.ValidateChartLayout() auf, um den tatsächlichen Wert zu erhalten.
 
 ```csharp
 public double ActualMinorUnit { get; }

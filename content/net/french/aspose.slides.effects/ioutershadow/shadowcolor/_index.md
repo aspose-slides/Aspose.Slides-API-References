@@ -1,7 +1,7 @@
 ---
-title: CouleurDeOmbre
-second_title: Référence API Aspose.Slides pour .NET
-description: Couleur de l'ombre. Lecture seule IColorFormat aspose.slides/icolorformat.
+title: ShadowColor
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Couleur de l'ombre. Lecture seule IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 100
 url: /fr/aspose.slides.effects/ioutershadow/shadowcolor/

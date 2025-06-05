@@ -1,7 +1,7 @@
 ---
-title: 加密
-second_title: Aspose.Sildes for .NET API 参考
-description: 使用指定密码加密演示文稿。
+title: Encrypt
+second_title: Aspose.Sildes for .NET API Reference
+description: 使用指定的密码加密演示文稿。
 type: docs
 weight: 80
 url: /zh/aspose.slides/iprotectionmanager/encrypt/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iprotectionmanager/encrypt/
 
 ## IProtectionManager.Encrypt 方法
 
-使用指定密码加密演示文稿。
+使用指定的密码加密演示文稿。
 
 ```csharp
 public void Encrypt(string encryptionPassword)
@@ -17,9 +17,9 @@ public void Encrypt(string encryptionPassword)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| encryptionPassword | 字符串 | 密码。 |
+| encryptionPassword | String | 密码。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IProtectionManager](../../iprotectionmanager)
 * 命名空间 [Aspose.Slides](../../iprotectionmanager)

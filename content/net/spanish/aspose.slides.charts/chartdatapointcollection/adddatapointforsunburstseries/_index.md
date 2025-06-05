@@ -1,15 +1,15 @@
 ---
 title: AddDataPointForSunburstSeries
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Crea un nuevo punto de datos y lo agrega al final de la colección. Aplicable para series cuyo tipo de gráfico es Sunburst.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Crea el nuevo punto de datos y lo agrega al final de la colección. Aplicable para series cuyo tipo de gráfico es Sunburst.
 type: docs
 weight: 230
 url: /es/aspose.slides.charts/chartdatapointcollection/adddatapointforsunburstseries/
 ---
 
-## Método ChartDataPointCollection.AddDataPointForSunburstSeries
+## ChartDataPointCollection.AddDataPointForSunburstSeries method
 
-Crea un nuevo punto de datos y lo agrega al final de la colección. Aplicable para series cuyo tipo de gráfico es Sunburst.
+Crea el nuevo punto de datos y lo agrega al final de la colección. Aplicable para series cuyo tipo de gráfico es Sunburst.
 
 ```csharp
 public IChartDataPoint AddDataPointForSunburstSeries(IChartDataCell sizeValue)
@@ -17,13 +17,13 @@ public IChartDataPoint AddDataPointForSunburstSeries(IChartDataCell sizeValue)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| sizeValue | IChartDataCell | Valor de tamaño del punto de datos |
+| sizeValue | IChartDataCell | Punto de datos SizeValue |
 
 ### Valor de Retorno
 
 Nuevo punto de datos.
 
-### Ver También
+### Véase también
 
 * interfaz [IChartDataPoint](../../ichartdatapoint)
 * interfaz [IChartDataCell](../../ichartdatacell)

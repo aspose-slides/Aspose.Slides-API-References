@@ -1,7 +1,7 @@
 ---
 title: DownBarsFormat
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve el formato de las barras hacia abajo. Solo lectura IFormataspose.slides.charts/iformat.
+description: Devuelve el formato de las barras descendentes. Solo de lectura IFormataspose.slides.charts/iformat.
 type: docs
 weight: 10
 url: /es/aspose.slides.charts/iupdownbarsmanager/downbarsformat/
@@ -9,17 +9,17 @@ url: /es/aspose.slides.charts/iupdownbarsmanager/downbarsformat/
 
 ## Propiedad IUpDownBarsManager.DownBarsFormat
 
-Devuelve el formato de las barras hacia abajo. Solo lectura [`IFormat`](../../iformat).
+Devuelve el formato de las barras descendentes. Solo de lectura [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat DownBarsFormat { get; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [IFormat](../../iformat)
-* interfaz [IUpDownBarsManager](../../iupdownbarsmanager)
-* espacio de nombres [Aspose.Slides.Charts](../../iupdownbarsmanager)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IFormat](../../iformat)
+* interfaz [IUpDownBarsManager](../../iupdownbarsmanager)
+* espacio de nombres [Aspose.Slides.Charts](../../iupdownbarsmanager)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

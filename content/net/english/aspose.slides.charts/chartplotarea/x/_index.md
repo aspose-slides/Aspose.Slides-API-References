@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides.charts/chartplotarea/x/
 ---
+
 ## ChartPlotArea.X property
 
 Returns or sets the x coordinate of the upper left corner of plot area bounding box as a fraction of the width of the chart (from 0 to 1). Read/write Single.

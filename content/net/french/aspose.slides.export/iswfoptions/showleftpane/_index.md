@@ -1,15 +1,15 @@
 ---
 title: ShowLeftPane
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Afficher/masquer le panneau de gauche. Peut être remplacé dans flashvars. La valeur par défaut est true.
+description: Afficher/masquer le panneau de gauche. Peut être remplacé dans les flashvars. La valeur par défaut est true.
 type: docs
 weight: 100
 url: /fr/aspose.slides.export/iswfoptions/showleftpane/
 ---
 
-## Propriété ISwfOptions.ShowLeftPane
+## ISwfOptions.ShowLeftPane property
 
-Afficher/masquer le panneau de gauche. Peut être remplacé dans flashvars. La valeur par défaut est true.
+Afficher/masquer le panneau de gauche. Peut être remplacé dans les flashvars. La valeur par défaut est true.
 
 ```csharp
 public bool ShowLeftPane { get; set; }

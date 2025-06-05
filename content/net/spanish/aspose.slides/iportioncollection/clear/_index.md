@@ -1,13 +1,13 @@
 ---
-title: Limpiar
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Clear
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Elimina todos los elementos de la colección.
 type: docs
 weight: 50
 url: /es/aspose.slides/iportioncollection/clear/
 ---
 
-## Método IPortionCollection.Clear
+## IPortionCollection.Clear method
 
 Elimina todos los elementos de la colección.
 
@@ -15,10 +15,10 @@ Elimina todos los elementos de la colección.
 public void Clear()
 ```
 
-### Vea también
+### Ver También
 
-* interfaz [IPortionCollection](../../iportioncollection)
-* espacio de nombres [Aspose.Slides](../../iportioncollection)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IPortionCollection](../../iportioncollection)
+* espacio de nombres [Aspose.Slides](../../iportioncollection)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

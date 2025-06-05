@@ -1,7 +1,7 @@
 ---
 title: HeaderFooterManager
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie le gestionnaire HeaderFooter de la diapositive de mise en page. Lecture seule ILayoutSlideHeaderFooterManageraspose.slides/ilayoutslideheaderfootermanager.
+second_title: Référence API d'Aspose.Slides pour .NET
+description: Retourne le gestionnaire HeaderFooter de la diapositive de mise en page. Lecture seule ILayoutSlideHeaderFooterManageraspose.slides/ilayoutslideheaderfootermanager.
 type: docs
 weight: 40
 url: /fr/aspose.slides/ilayoutslide/headerfootermanager/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ilayoutslide/headerfootermanager/
 
 ## Propriété ILayoutSlide.HeaderFooterManager
 
-Renvoie le gestionnaire HeaderFooter de la diapositive de mise en page. Lecture seule [`ILayoutSlideHeaderFooterManager`](../../ilayoutslideheaderfootermanager).
+Retourne le gestionnaire HeaderFooter de la diapositive de mise en page. Lecture seule [`ILayoutSlideHeaderFooterManager`](../../ilayoutslideheaderfootermanager).
 
 ```csharp
 public ILayoutSlideHeaderFooterManager HeaderFooterManager { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ILayoutSlideHeaderFooterManager](../../ilayoutslideheaderfootermanager)
 * interface [ILayoutSlide](../../ilayoutslide)

@@ -1,15 +1,15 @@
 ---
 title: LayoutSlideCollection
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente une classe de base pour la collection de diapositives de mise en page.
+second_title: Référence API Aspose.Slides pour .NET
+description: Représente une classe de base pour la collection de diapositives de disposition.
 type: docs
 weight: 7410
 url: /fr/aspose.slides/layoutslidecollection/
 ---
 
-## Classe LayoutSlideCollection
+## LayoutSlideCollection class
 
-Représente une classe de base pour la collection de diapositives de mise en page.
+Représente une classe de base pour la collection de diapositives de disposition.
 
 ```csharp
 public class LayoutSlideCollection : ILayoutSlideCollection
@@ -19,9 +19,9 @@ public class LayoutSlideCollection : ILayoutSlideCollection
 
 | Nom | Description |
 | --- | --- |
-| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Renvoie le nombre de diapositives de mise en page dans une collection. Lecture seule Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (sûr pour les threads). Lecture seule Boolean. |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Renvoie la diapositive de mise en page par index. Lecture seule [`LayoutSlide`](../layoutslide). |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Renvoie le nombre de diapositives de disposition dans une collection. Lecture seule Int32. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (safe-thread). Lecture seule Boolean. |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Renvoie la diapositive de disposition par index. Lecture seule [`LayoutSlide`](../layoutslide). |
 | [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Renvoie une racine de synchronisation. Lecture seule Object. |
 
 ## Méthodes
@@ -29,10 +29,10 @@ public class LayoutSlideCollection : ILayoutSlideCollection
 | Nom | Description |
 | --- | --- |
 | [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Copie tous les éléments de la collection dans le tableau spécifié. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Renvoie la première diapositive de mise en page du type spécifié. Un type de diapositive de mise en page à trouver.[`LayoutSlide`](../layoutslide) avec le type spécifié ou null si aucune mise en page trouvée. |
-| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Renvoie un énumérateur qui parcourt la collection. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Renvoie la première diapositive de disposition du type spécifié. Un type de diapositive de disposition à trouver.[`LayoutSlide`](../layoutslide) avec le type spécifié ou null si aucune mise en page trouvée. |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Renvoie un énumérateur qui itère à travers la collection. |
 | [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Supprime une diapositive de la collection. |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Supprime les diapositives de mise en page non utilisées (diapositives de mise en page dont HasDependingSlides est faux). |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Supprime les diapositives de disposition inutilisées (diapositives de disposition dont HasDependingSlides est faux). |
 
 ### Voir aussi
 

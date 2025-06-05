@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft die effektiven Linienformatierungsdaten mit der angewendeten Vererbung ab.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt die effektiven Linienformatierungsdaten mit der angewendeten Vererbung zurück.
 type: docs
 weight: 200
 url: /de/aspose.slides/ilineformat/geteffective/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ilineformat/geteffective/
 
 ## ILineFormat.GetEffective-Methode
 
-Ruft die effektiven Linienformatierungsdaten mit der angewendeten Vererbung ab.
+Gibt die effektiven Linienformatierungsdaten mit der angewendeten Vererbung zurück.
 
 ```csharp
 public ILineFormatEffectiveData GetEffective()

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.animation/behaviorcollection/count/
 ---
+
 ## BehaviorCollection.Count property
 
 Returns the number of behaviors in a collection. Read-only Int32.

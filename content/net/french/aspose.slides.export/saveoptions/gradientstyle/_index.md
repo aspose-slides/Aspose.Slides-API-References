@@ -1,7 +1,7 @@
 ---
 title: GradientStyle
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit le style visuel du dégradé. Lecture/écriture GradientStyleaspose.slides/gradientstyle.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Retourne ou définit le style visuel du dégradé. Lecture/écriture GradientStyleaspose.slides/gradientstyle.
 type: docs
 weight: 20
 url: /fr/aspose.slides.export/saveoptions/gradientstyle/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/saveoptions/gradientstyle/
 
 ## Propriété SaveOptions.GradientStyle
 
-Renvoie ou définit le style visuel du dégradé. Lecture/écriture [`GradientStyle`](../../../aspose.slides/gradientstyle).
+Retourne ou définit le style visuel du dégradé. Lecture/écriture [`GradientStyle`](../../../aspose.slides/gradientstyle).
 
 ```csharp
 public GradientStyle GradientStyle { get; set; }

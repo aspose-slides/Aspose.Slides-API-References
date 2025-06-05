@@ -1,13 +1,13 @@
 ---
-title: Élément
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Item
+second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie ou définit l'opération à l'index spécifié. Lecture/écriture ColorOperationaspose.slides/coloroperation.
 type: docs
 weight: 30
 url: /fr/aspose.slides/coloroperationcollection/item/
 ---
 
-## Indice ColorOperationCollection
+## Indice de ColorOperationCollection
 
 Renvoie ou définit l'opération à l'index spécifié. Lecture/écriture [`ColorOperation`](../../coloroperation).
 

@@ -1,7 +1,7 @@
 ---
-title: 标题
-second_title: Aspose.Slides for .NET API 参考
-description: 返回 Summary Zoom Section 对象的文本标题。
+title: Title
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回摘要缩放部分对象的文本标题。
 type: docs
 weight: 30
 url: /zh/aspose.slides/isummaryzoomsection/title/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/isummaryzoomsection/title/
 
 ## ISummaryZoomSection.Title 属性
 
-返回 Summary Zoom Section 对象的文本标题。
+返回摘要缩放部分对象的文本标题。
 
 ```csharp
 public string Title { get; set; }
@@ -24,11 +24,11 @@ public string Title { get; set; }
 using (Presentation pres = new Presentation("pres.pptx"))
 {
     ISummaryZoomSection zoomSection = zoomFrame.SummaryZoomCollection[1];
-    zoomSection.Title = "标题";
+    zoomSection.Title = "Title";
 }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [ISummaryZoomSection](../../isummaryzoomsection)
 * 命名空间 [Aspose.Slides](../../isummaryzoomsection)

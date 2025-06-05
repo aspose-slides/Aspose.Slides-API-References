@@ -7,7 +7,7 @@ weight: 10
 url: /ru/aspose.slides/islide/asibaseslide/
 ---
 
-## Свойство ISlide.AsIBaseSlide
+## ISlide.AsIBaseSlide свойство
 
 Позволяет получить базовый интерфейс IBaseSlide. Только для чтения [`IBaseSlide`](../../ibaseslide).
 

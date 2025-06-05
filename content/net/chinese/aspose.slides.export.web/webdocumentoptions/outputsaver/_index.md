@@ -1,7 +1,7 @@
 ---
-title: 输出保存器
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置输出保存器。读/写 IOutputSaveraspose.slides.export.web/ioutputsaver。
+title: OutputSaver
+second_title: Aspose.Sildes for .NET API 参考
+description: 返回或设置输出保存器。读/写 IOutputSaveraspose.slides/ioutputsaver。
 type: docs
 weight: 50
 url: /zh/aspose.slides.export.web/webdocumentoptions/outputsaver/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.export.web/webdocumentoptions/outputsaver/
 public IOutputSaver OutputSaver { get; set; }
 ```
 
-### 另见
+### 参考
 
 * 接口 [IOutputSaver](../../ioutputsaver)
 * 类 [WebDocumentOptions](../../webdocumentoptions)

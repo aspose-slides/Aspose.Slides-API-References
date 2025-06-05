@@ -1,13 +1,13 @@
 ---
 title: CopyTo
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Copie tous les éléments de la collection vers le tableau spécifié.
 type: docs
 weight: 70
 url: /fr/aspose.slides/fontfallbackrulescollection/copyto/
 ---
 
-## Méthode FontFallBackRulesCollection.CopyTo
+## FontFallBackRulesCollection.CopyTo méthode
 
 Copie tous les éléments de la collection vers le tableau spécifié.
 
@@ -20,7 +20,7 @@ public void CopyTo(Array array, int index)
 | array | Array | Tableau cible. |
 | index | Int32 | Index de départ dans le tableau cible. |
 
-### Voir Aussi
+### Voir aussi
 
 * classe [FontFallBackRulesCollection](../../fontfallbackrulescollection)
 * espace de noms [Aspose.Slides](../../fontfallbackrulescollection)

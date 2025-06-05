@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/iparagraphformateffectivedata/latinlinebreak/
 ---
+
 ## IParagraphFormatEffectiveData.LatinLineBreak property
 
 Determines whether the Latin line break is used in a paragraph. Read-only Boolean.

@@ -14,10 +14,10 @@ public delegate void ForEachParagraphCallback(Paragraph para, BaseSlide slide, i
 
 ### Véase también
 
-* clase [Paragraph](../../aspose.slides/paragraph)
-* clase [BaseSlide](../../aspose.slides/baseslide)
-* clase [ForEach](../foreach)
-* espacio de nombres [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
-* ensamblaje [Aspose.Slides](../../)
+* class [Paragraph](../../aspose.slides/paragraph)
+* class [BaseSlide](../../aspose.slides/baseslide)
+* class [ForEach](../foreach)
+* namespace [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
+* assembly [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

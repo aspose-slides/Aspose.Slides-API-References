@@ -1,7 +1,7 @@
 ---
 title: RewindVideo
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Bestimmt, ob ein Video automatisch auf den Anfang zurückgespult wird, sobald der Film zu Ende ist. Lese-/Schreib-Boolescher Wert.
+description: Bestimmt, ob ein Video automatisch zurückgespult wird, sobald der Film zu Ende gespielt ist. Lese-/Schreib-Boolescher Wert.
 type: docs
 weight: 90
 url: /de/aspose.slides/ivideoframe/rewindvideo/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ivideoframe/rewindvideo/
 
 ## IVideoFrame.RewindVideo-Eigenschaft
 
-Bestimmt, ob ein Video automatisch auf den Anfang zurückgespult wird, sobald der Film zu Ende ist. Lese-/Schreib-Boolescher Wert.
+Bestimmt, ob ein Video automatisch zurückgespult wird, sobald der Film zu Ende gespielt ist. Lese-/Schreib-Boolescher Wert.
 
 ```csharp
 public bool RewindVideo { get; set; }

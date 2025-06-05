@@ -1,7 +1,7 @@
 ---
 title: GetPresentationInfo
-second_title: Aspose.Slides для .NET API Справочник
-description: Создает новый объект PresentationInfo из файла и связывает его с презентацией.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Создает новый объект PresentationInfo из файла и связывает с ним презентацию.
 type: docs
 weight: 40
 url: /ru/aspose.slides/presentationfactory/getpresentationinfo/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/presentationfactory/getpresentationinfo/
 
 ## GetPresentationInfo(string) {#getpresentationinfo_1}
 
-Создает новый объект PresentationInfo из файла и связывает его с презентацией.
+Создает новый объект PresentationInfo из файла и связывает с ним презентацию.
 
 ```csharp
 public IPresentationInfo GetPresentationInfo(string file)
@@ -23,7 +23,7 @@ public IPresentationInfo GetPresentationInfo(string file)
 
 Информация о презентации, связанная с презентацией.
 
-### См. Также
+### См. также
 
 * интерфейс [IPresentationInfo](../../ipresentationinfo)
 * класс [PresentationFactory](../../presentationfactory)
@@ -34,7 +34,7 @@ public IPresentationInfo GetPresentationInfo(string file)
 
 ## GetPresentationInfo(Stream) {#getpresentationinfo}
 
-Создает новый объект PresentationInfo из потока и связывает его с презентацией. Получает информацию о презентации в указанном потоке.
+Создает новый объект PresentationInfo из потока и связывает с ним презентацию. Получает информацию о презентации в указанном потоке.
 
 ```csharp
 public IPresentationInfo GetPresentationInfo(Stream stream)
@@ -48,7 +48,7 @@ public IPresentationInfo GetPresentationInfo(Stream stream)
 
 Информация о презентации, связанная с презентацией.
 
-### См. Также
+### См. также
 
 * интерфейс [IPresentationInfo](../../ipresentationinfo)
 * класс [PresentationFactory](../../presentationfactory)

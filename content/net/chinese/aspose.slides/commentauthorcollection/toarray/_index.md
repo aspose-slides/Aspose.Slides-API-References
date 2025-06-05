@@ -1,7 +1,7 @@
 ---
 title: ToArray
 second_title: Aspose.Sildes for .NET API Reference
-description: 创建并返回包含所有作者的数组。
+description: 创建并返回一个包含所有作者的数组。
 type: docs
 weight: 130
 url: /zh/aspose.slides/commentauthorcollection/toarray/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/commentauthorcollection/toarray/
 
 ## CommentAuthorCollection.ToArray 方法
 
-创建并返回包含所有作者的数组。
+创建并返回一个包含所有作者的数组。
 
 ```csharp
 public ICommentAuthor[] ToArray()
@@ -19,7 +19,7 @@ public ICommentAuthor[] ToArray()
 
 [`ICommentAuthor`](../../icommentauthor) 的数组
 
-### 另请参阅
+### 另见
 
 * 接口 [ICommentAuthor](../../icommentauthor)
 * 类 [CommentAuthorCollection](../../commentauthorcollection)

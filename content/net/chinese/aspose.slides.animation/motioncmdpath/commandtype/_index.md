@@ -1,6 +1,6 @@
 ---
 title: CommandType
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 指定命令类型。读/写 MotionCommandPathTypeaspose.slides.animation/motioncommandpathtype。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/motioncmdpath/commandtype/
 public MotionCommandPathType CommandType { get; set; }
 ```
 
-### 参见
+### 另请参见
 
 * enum [MotionCommandPathType](../../motioncommandpathtype)
 * class [MotionCmdPath](../../motioncmdpath)

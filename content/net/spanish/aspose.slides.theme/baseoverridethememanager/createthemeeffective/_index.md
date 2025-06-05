@@ -1,7 +1,7 @@
 ---
 title: CreateThemeEffective
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Devuelve el objeto de tema.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve el objeto tema.
 type: docs
 weight: 40
 url: /es/aspose.slides.theme/baseoverridethememanager/createthemeeffective/
@@ -9,13 +9,13 @@ url: /es/aspose.slides.theme/baseoverridethememanager/createthemeeffective/
 
 ## Método BaseOverrideThemeManager.CreateThemeEffective
 
-Devuelve el objeto de tema.
+Devuelve el objeto tema.
 
 ```csharp
 public IThemeEffectiveData CreateThemeEffective()
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [IThemeEffectiveData](../../ithemeeffectivedata)
 * clase [BaseOverrideThemeManager](../../baseoverridethememanager)

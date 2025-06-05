@@ -3,9 +3,10 @@ title: PresentationFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets the intended format of a presentation. Read/write String.
 type: docs
-weight: 190
+weight: 260
 url: /aspose.slides/idocumentproperties/presentationformat/
 ---
+
 ## IDocumentProperties.PresentationFormat property
 
 Returns or sets the intended format of a presentation. Read/write String.

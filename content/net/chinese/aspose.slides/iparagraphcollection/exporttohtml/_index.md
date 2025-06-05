@@ -1,7 +1,7 @@
 ---
 title: ExportToHtml
-second_title: Aspose.Slides for .NET API Reference
-description: 将指定段落转换为 HTML 并作为字符串对象返回。
+second_title: Aspose.Sildes for .NET API Reference
+description: 将指定段落转换为 HTML，并返回为字符串对象。
 type: docs
 weight: 80
 url: /zh/aspose.slides/iparagraphcollection/exporttohtml/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iparagraphcollection/exporttohtml/
 
 ## IParagraphCollection.ExportToHtml 方法
 
-将指定段落转换为 HTML 并作为字符串对象返回。
+将指定段落转换为 HTML，并返回为字符串对象。
 
 ```csharp
 public string ExportToHtml(int firstParagraphIndex, int paragraphsCount, 
@@ -18,8 +18,8 @@ public string ExportToHtml(int firstParagraphIndex, int paragraphsCount,
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| firstParagraphIndex | Int32 | 首个段落索引 Int32 |
-| paragraphsCount | Int32 | 段落数量 Int32 |
+| firstParagraphIndex | Int32 | 第一个段落索引 Int32 |
+| paragraphsCount | Int32 | 段落计数 Int32 |
 | options | ITextToHtmlConversionOptions | 转换选项 [`ITextToHtmlConversionOptions`](../../../aspose.slides.export/itexttohtmlconversionoptions) |
 
 ### 返回值

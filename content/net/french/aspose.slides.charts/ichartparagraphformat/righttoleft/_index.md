@@ -1,15 +1,15 @@
 ---
 title: RightToLeft
 second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Détermine si l'écriture de droite à gauche est utilisée dans un paragraphe. Lisible/écrivable NullableBoolaspose.slides/nullablebool.
+description: Détermine si l'écriture de droite à gauche est utilisée dans un paragraphe. Lecture/écriture NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 100
 url: /fr/aspose.slides.charts/ichartparagraphformat/righttoleft/
 ---
 
-## Propriété IChartParagraphFormat.RightToLeft
+## IChartParagraphFormat.RightToLeft property
 
-Détermine si l'écriture de droite à gauche est utilisée dans un paragraphe. Lisible/écrivable [`NullableBool`](../../../aspose.slides/nullablebool).
+Détermine si l'écriture de droite à gauche est utilisée dans un paragraphe. Lecture/écriture [`NullableBool`](../../../aspose.slides/nullablebool).
 
 ```csharp
 public NullableBool RightToLeft { get; set; }

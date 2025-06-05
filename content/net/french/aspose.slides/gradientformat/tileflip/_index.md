@@ -1,7 +1,7 @@
 ---
 title: TileFlip
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit le mode de retournement pour un dégradé. Lecture/écriture TileFlip aspose.slides/tileflip.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie ou définit le mode de retournement pour un dégradé. Lecture/écriture TileFlipaspose.slides/tileflip.
 type: docs
 weight: 60
 url: /fr/aspose.slides/gradientformat/tileflip/

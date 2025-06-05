@@ -1,7 +1,7 @@
 ---
 title: GlowEffect
 second_title: Aspose.Slides für .NET API Referenz
-description: Glüheffekt. Lesen/Schreiben von IGlowaspose.slides.effects/iglow.
+description: Glüheffekt. Lesen/Schreiben von IGlow aspose.slides.effects/iglow.
 type: docs
 weight: 30
 url: /de/aspose.slides/effectformat/gloweffect/
@@ -17,7 +17,7 @@ public IGlow GlowEffect { get; set; }
 
 ### Siehe auch
 
-* Interface [IGlow](../../../aspose.slides.effects/iglow)
+* Schnittstelle [IGlow](../../../aspose.slides.effects/iglow)
 * Klasse [EffectFormat](../../effectformat)
 * Namespace [Aspose.Slides](../../effectformat)
 * Assembly [Aspose.Slides](../../../)

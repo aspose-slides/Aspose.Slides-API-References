@@ -1,7 +1,7 @@
 ---
 title: DownBarsFormat
-second_title: Aspose.Slides for .NET API 参考
-description: 返回 DownBars 格式。只读 IFormat aspose.slides.charts/iformat。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回 DownBars 格式。只读 IFormataspose.slides.charts/iformat。
 type: docs
 weight: 10
 url: /zh/aspose.slides.charts/updownbarsmanager/downbarsformat/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/updownbarsmanager/downbarsformat/
 public IFormat DownBarsFormat { get; }
 ```
 
-### 参见
+### 另见
 
 * 接口 [IFormat](../../iformat)
 * 类 [UpDownBarsManager](../../updownbarsmanager)

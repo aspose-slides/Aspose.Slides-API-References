@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/igenericcollection-1/asicollection/
 ---
+
 ## IGenericCollection&lt;T&gt;.AsICollection property
 
 Returns ICollection interface.

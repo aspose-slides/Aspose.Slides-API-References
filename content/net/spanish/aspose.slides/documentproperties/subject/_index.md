@@ -1,21 +1,21 @@
 ---
-title: Asunto
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve o establece el asunto de una presentación. Cadena de lectura/escritura.
+title: Subject
+second_title: Aspose.Slides para .NET Referencia de la API
+description: Devuelve o establece el tema de una presentación. Lectura/escritura String.
 type: docs
 weight: 320
 url: /es/aspose.slides/documentproperties/subject/
 ---
 
-## Propiedad DocumentProperties.Subject
+## DocumentProperties.Subject propiedad
 
-Devuelve o establece el asunto de una presentación. Cadena de lectura/escritura.
+Devuelve o establece el tema de una presentación. Lectura/escritura String.
 
 ```csharp
 public string Subject { get; set; }
 ```
 
-### Véase También
+### Ver También
 
 * clase [DocumentProperties](../../documentproperties)
 * espacio de nombres [Aspose.Slides](../../documentproperties)

@@ -1,13 +1,13 @@
 ---
-title: Количество
-second_title: Справка по API Aspose.Slides для .NET
+title: Count
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает количество элементов в коллекции. Только для чтения Int32.
 type: docs
 weight: 10
 url: /ru/aspose.slides/icaptionscollection/count/
 ---
 
-## Свойство ICaptionsCollection.Count
+## ICaptionsCollection.Count свойство
 
 Возвращает количество элементов в коллекции. Только для чтения Int32.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/icaptionscollection/count/
 public int Count { get; }
 ```
 
-### См. также
+### Также смотри
 
 * интерфейс [ICaptionsCollection](../../icaptionscollection)
 * пространство имен [Aspose.Slides](../../icaptionscollection)

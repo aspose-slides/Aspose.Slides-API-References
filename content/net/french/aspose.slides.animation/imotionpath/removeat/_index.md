@@ -7,7 +7,7 @@ weight: 80
 url: /fr/aspose.slides.animation/imotionpath/removeat/
 ---
 
-## Méthode IMotionPath.RemoveAt
+## IMotionPath.RemoveAt méthode
 
 Supprime une commande à l'index spécifié.
 

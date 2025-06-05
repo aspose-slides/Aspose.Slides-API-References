@@ -1,13 +1,13 @@
 ---
-title: Обводка
-second_title: Справочник по API Aspose.Slides для .NET
+title: Stroke
+second_title: Aspose.Sildes для .NET API Reference
 description: Устанавливает внешний вид обводки
 type: docs
 weight: 40
 url: /ru/aspose.slides/geometrypath/stroke/
 ---
 
-## Свойство GeometryPath.Stroke
+## GeometryPath.Stroke свойство
 
 Устанавливает внешний вид обводки
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/geometrypath/stroke/
 public bool Stroke { get; set; }
 ```
 
-### Также смотрите
+### См. также
 
 * класс [GeometryPath](../../geometrypath)
 * пространство имен [Aspose.Slides](../../geometrypath)

@@ -1,6 +1,6 @@
 ---
 title: MathematicalText
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para referencia de API .NET
 description: El constructor predeterminado crea un valor String.Empty
 type: docs
 weight: 10
@@ -24,7 +24,7 @@ Ejemplo:
 MathematicalText mathText = new MathematicalText();
 ```
 
-### Véase también
+### Ver También
 
 * clase [MathematicalText](../../mathematicaltext)
 * espacio de nombres [Aspose.Slides.MathText](../../mathematicaltext)
@@ -34,7 +34,7 @@ MathematicalText mathText = new MathematicalText();
 
 ## MathematicalText(char) {#constructor_1}
 
-Crear MathText con un símbolo único
+Crear MathText con un solo símbolo
 
 ```csharp
 public MathematicalText(char mathSymbol)
@@ -42,7 +42,7 @@ public MathematicalText(char mathSymbol)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| mathSymbol | Char | símbolo único |
+| mathSymbol | Char | un solo símbolo |
 
 ### Ejemplos
 
@@ -53,7 +53,7 @@ Ejemplo:
 MathematicalText mathText = new MathematicalText('$');
 ```
 
-### Véase también
+### Ver También
 
 * clase [MathematicalText](../../mathematicaltext)
 * espacio de nombres [Aspose.Slides.MathText](../../mathematicaltext)
@@ -82,7 +82,7 @@ Ejemplo:
 MathematicalText mathText = new MathematicalText("x+y");
 ```
 
-### Véase también
+### Ver También
 
 * clase [MathematicalText](../../mathematicaltext)
 * espacio de nombres [Aspose.Slides.MathText](../../mathematicaltext)
@@ -113,7 +113,7 @@ IPortionFormat format = new PortionFormat() { FontHeight = 12 };
 MathematicalText mathText = new MathematicalText("x+y", format);
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IPortionFormat](../../../aspose.slides/iportionformat)
 * clase [MathematicalText](../../mathematicaltext)

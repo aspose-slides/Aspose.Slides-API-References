@@ -1,21 +1,21 @@
 ---
 title: SpaceAfter
 second_title: Aspose.Sildes for .NET API Reference
-description: 返回或设置段落最后一行之后的间距，且不进行继承。正值指定白色空间应占字体大小的百分比。负值指定白色空间的大小（以磅为单位）。可读/可写单精度浮点数。
+description: 返回或设置段落最后一行之后的空白量，且不继承。正值指定空白应占字体大小的百分比。负值指定空白的大小（以点为单位）。可读/可写 Single。
 type: docs
 weight: 120
 url: /zh/aspose.slides/paragraphformat/spaceafter/
 ---
 
-## ParagraphFormat.SpaceAfter 属性
+## ParagraphFormat.SpaceAfter property
 
-返回或设置段落最后一行之后的间距，且不进行继承。正值指定白色空间应占字体大小的百分比。负值指定白色空间的大小（以磅为单位）。可读/可写单精度浮点数。
+返回或设置段落最后一行之后的空白量，且不继承。正值指定空白应占字体大小的百分比。负值指定空白的大小（以点为单位）。可读/可写 Single。
 
 ```csharp
 public float SpaceAfter { get; set; }
 ```
 
-### 参见
+### 另见
 
 * class [ParagraphFormat](../../paragraphformat)
 * namespace [Aspose.Slides](../../paragraphformat)

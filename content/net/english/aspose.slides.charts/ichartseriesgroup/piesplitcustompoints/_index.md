@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides.charts/ichartseriesgroup/piesplitcustompoints/
 ---
+
 ## IChartSeriesGroup.PieSplitCustomPoints property
 
 The custom split information for a pie-of-pie or bar-of-pie chart with a custom split. Contains data points that shall be drawn in the second pie or bar in a pie-of-pie or bar-of-pie chart. Read-only [`IPieSplitCustomPointCollection`](../../ipiesplitcustompointcollection).

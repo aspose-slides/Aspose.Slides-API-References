@@ -1,6 +1,6 @@
 ---
-title: Radio
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Radius
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Radio. Leer/escribir Doble.
 type: docs
 weight: 20
@@ -15,10 +15,10 @@ Radio. Leer/escribir Doble.
 public double Radius { get; set; }
 ```
 
-### Véase También
+### Véase también
 
-* clase [Glow](../../glow)
-* espacio de nombres [Aspose.Slides.Effects](../../glow)
-* ensamblaje [Aspose.Slides](../../../)
+* class [Glow](../../glow)
+* namespace [Aspose.Slides.Effects](../../glow)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

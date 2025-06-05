@@ -1,7 +1,7 @@
 ---
-title: AktuellesDatumUndUhrzeit
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das Datum und die Uhrzeit zurück oder legt diese fest, die den Inhalt von datetime-Feldern ersetzen. Zeit der Erstellung dieses Präsentationsobjekts standardmäßig. Lese-/Schreibzugriff auf DateTime.
+title: CurrentDateTime
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt das Datum und die Uhrzeit zurück oder setzt diese, die den Inhalt der Datums-/Uhrzeitfelder ersetzen. Zeit der Erstellung dieses Präsentationsobjekts standardmäßig. Lese-/Schreibbare DateTime.
 type: docs
 weight: 50
 url: /de/aspose.slides/presentation/currentdatetime/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/presentation/currentdatetime/
 
 ## Presentation.CurrentDateTime-Eigenschaft
 
-Gibt das Datum und die Uhrzeit zurück oder legt diese fest, die den Inhalt von datetime-Feldern ersetzen. Zeit der Erstellung dieses Präsentationsobjekts standardmäßig. Lese-/Schreibzugriff auf DateTime.
+Gibt das Datum und die Uhrzeit zurück oder setzt diese, die den Inhalt der Datums-/Uhrzeitfelder ersetzen. Zeit der Erstellung dieses Präsentationsobjekts standardmäßig. Lese-/Schreibbare DateTime.
 
 ```csharp
 public DateTime CurrentDateTime { get; set; }

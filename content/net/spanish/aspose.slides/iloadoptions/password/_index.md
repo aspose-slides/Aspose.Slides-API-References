@@ -1,15 +1,15 @@
 ---
-title: Contraseña
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Obtiene o establece la contraseña. Cadena de lectura y escritura.
+title: Password
+second_title: Aspose.Slides para .NET Referencia de API
+description: Obtiene o establece la contraseña. Cadena de lectura-escritura.
 type: docs
 weight: 110
 url: /es/aspose.slides/iloadoptions/password/
 ---
 
-## Propiedad ILoadOptions.Password
+## ILoadOptions.Password propiedad
 
-Obtiene o establece la contraseña. Cadena de lectura y escritura.
+Obtiene o establece la contraseña. Cadena de lectura-escritura.
 
 ```csharp
 public string Password { get; set; }
@@ -21,8 +21,8 @@ La contraseña.
 
 ### Véase También
 
-* interfaz [ILoadOptions](../../iloadoptions)
-* espacio de nombres [Aspose.Slides](../../iloadoptions)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [ILoadOptions](../../iloadoptions)
+* espacio de nombres [Aspose.Slides](../../iloadoptions)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

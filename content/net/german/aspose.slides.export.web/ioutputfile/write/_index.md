@@ -1,7 +1,7 @@
 ---
-title: Schreiben
-second_title: Aspose.Slides für .NET API Referenz
-description: Schreibt den Dateiinhalt in den Stream.
+title: Write
+second_title: Aspose.Sildes für .NET API Referenz
+description: Schreibt den Inhalt der Datei in den Stream.
 type: docs
 weight: 10
 url: /de/aspose.slides.export.web/ioutputfile/write/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export.web/ioutputfile/write/
 
 ## IOutputFile.Write-Methode
 
-Schreibt den Dateiinhalt in den Stream.
+Schreibt den Inhalt der Datei in den Stream.
 
 ```csharp
 public void Write(Stream stream)

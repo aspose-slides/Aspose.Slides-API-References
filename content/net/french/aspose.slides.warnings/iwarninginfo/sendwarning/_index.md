@@ -1,15 +1,15 @@
 ---
 title: SendWarning
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Si le récepteur n'est pas nul, envoie un avertissement à un récepteur spécifié et lance l'AbortRequestedException si le récepteur a décidé d'aborter une opération.
+second_title: Aspose.Slides pour .NET Référence API
+description: Si le récepteur n'est pas nul, envoie un avertissement à un récepteur spécifié et lance l'AbortRequestedException si le récepteur décide d'aborter une opération.
 type: docs
 weight: 30
 url: /fr/aspose.slides.warnings/iwarninginfo/sendwarning/
 ---
 
-## Méthode IWarningInfo.SendWarning
+## IWarningInfo.SendWarning méthode
 
-Si le récepteur n'est pas nul, envoie un avertissement à un récepteur spécifié et lance l'AbortRequestedException si le récepteur a décidé d'aborter une opération.
+Si le récepteur n'est pas nul, envoie un avertissement à un récepteur spécifié et lance l'AbortRequestedException si le récepteur décide d'aborter une opération.
 
 ```csharp
 public void SendWarning(IWarningCallback receiver)
@@ -19,7 +19,7 @@ public void SendWarning(IWarningCallback receiver)
 | --- | --- | --- |
 | receiver | IWarningCallback | Objet récepteur [`IWarningCallback`](../../iwarningcallback) |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IWarningCallback](../../iwarningcallback)
 * interface [IWarningInfo](../../iwarninginfo)

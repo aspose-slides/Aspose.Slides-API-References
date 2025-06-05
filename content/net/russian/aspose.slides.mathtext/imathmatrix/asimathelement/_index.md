@@ -1,13 +1,13 @@
 ---
 title: AsIMathElement
-second_title: Aspose.Slides для .NET Справочник API
+second_title: Aspose.Slidеs для .NET API Справка
 description: Позволяет получить базовый интерфейс IMathElement IMathElementaspose.slides.mathtext/imathelement
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/imathmatrix/asimathelement/
 ---
 
-## Свойство IMathMatrix.AsIMathElement
+## IMathMatrix.AsIMathElement свойство
 
 Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../../imathelement)
 

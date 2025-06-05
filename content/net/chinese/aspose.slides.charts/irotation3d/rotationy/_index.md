@@ -1,7 +1,7 @@
 ---
 title: RotationY
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回或设置围绕 Y 轴的旋转角度，即在 3D 图表中的 X 方向，范围为 0 到 360 度。该属性与 ECMA-376 中的 21.2.2.158 rotY（Y 旋转）项以及 PowerPoint 2007 中的 "X 旋转" 选项匹配。可读/可写 UInt16。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置围绕 Y 轴的旋转角度，即 3D 图表中 X 方向的旋转角度（在 0 到 360 度之间）。该属性与 ECMA-376 中的 21.2.2.158 rotY Y 旋转项和 PowerPoint 2007 中的 X Rotation 选项匹配。可读写 UInt16。
 type: docs
 weight: 60
 url: /zh/aspose.slides.charts/irotation3d/rotationy/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/irotation3d/rotationy/
 
 ## IRotation3D.RotationY 属性
 
-返回或设置围绕 Y 轴的旋转角度，即在 3D 图表中的 X 方向（范围为 0 到 360 度）。该属性与 ECMA-376 中的 21.2.2.158 rotY（Y 旋转）项以及 PowerPoint 2007+ 中的 "X 旋转" 选项匹配。可读/可写 UInt16。
+返回或设置围绕 Y 轴的旋转角度，即 3D 图表中 X 方向的旋转角度（在 0 到 360 度之间）。该属性与 ECMA-376 中的 21.2.2.158 rotY（Y 旋转）项和 PowerPoint 2007+ 中的 "X Rotation" 选项匹配。可读写 UInt16。
 
 ```csharp
 public ushort RotationY { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IRotation3D](../../irotation3d)
 * 命名空间 [Aspose.Slides.Charts](../../irotation3d)

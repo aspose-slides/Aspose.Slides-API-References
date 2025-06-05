@@ -3,9 +3,10 @@ title: ISaveOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Options that control how a presentation is saved.
 type: docs
-weight: 3800
+weight: 3900
 url: /aspose.slides.export/isaveoptions/
 ---
+
 ## ISaveOptions interface
 
 Options that control how a presentation is saved.
@@ -19,7 +20,9 @@ public interface ISaveOptions
 | Name | Description |
 | --- | --- |
 | [DefaultRegularFont](../../aspose.slides.export/isaveoptions/defaultregularfont) { get; set; } | Returns or sets font used in case source font is not found. Read-write String. |
+| [GradientStyle](../../aspose.slides.export/isaveoptions/gradientstyle) { get; set; } | Returns or sets the visual style of the gradient. Read/write [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [ProgressCallback](../../aspose.slides.export/isaveoptions/progresscallback) { get; set; } | Represents a callback object for saving progress updates in percentage. See [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/isaveoptions/skipjavascriptlinks) { get; set; } | Specifies whether to skip hyperlinks with JavaScript calls when saving the presentation. Read/write Boolean. The default value is **false**. |
 | [WarningCallback](../../aspose.slides.export/isaveoptions/warningcallback) { get; set; } | Returns or sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### See Also

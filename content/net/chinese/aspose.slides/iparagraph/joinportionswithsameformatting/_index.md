@@ -1,7 +1,7 @@
 ---
 title: JoinPortionsWithSameFormatting
-second_title: Aspose.Sildes for .NET API Reference
-description: 连接具有相同格式的运行区。
+second_title: Aspose.Sildes for .NET API 参考
+description: 连接具有相同格式的文本块。
 type: docs
 weight: 80
 url: /zh/aspose.slides/iparagraph/joinportionswithsameformatting/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iparagraph/joinportionswithsameformatting/
 
 ## IParagraph.JoinPortionsWithSameFormatting 方法
 
-连接具有相同格式的运行区。
+连接具有相同格式的文本块。
 
 ```csharp
 public void JoinPortionsWithSameFormatting()

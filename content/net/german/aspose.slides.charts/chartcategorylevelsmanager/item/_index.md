@@ -1,6 +1,6 @@
 ---
-title: Element
-second_title: Aspose.Slides für .NET API-Referenz
+title: Item
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt das IChartDataCell-Objekt für das definierte Niveau zurück.
 type: docs
 weight: 10

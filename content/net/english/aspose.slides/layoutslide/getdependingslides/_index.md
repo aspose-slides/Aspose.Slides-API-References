@@ -3,9 +3,10 @@ title: GetDependingSlides
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns an array with all slides which depend on this layout slide.
 type: docs
-weight: 70
+weight: 80
 url: /aspose.slides/layoutslide/getdependingslides/
 ---
+
 ## LayoutSlide.GetDependingSlides method
 
 Returns an array with all slides, which depend on this layout slide.

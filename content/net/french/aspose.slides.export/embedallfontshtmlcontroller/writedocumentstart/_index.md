@@ -1,6 +1,6 @@
 ---
 title: WriteDocumentStart
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Appelé pour écrire l'en-tête du document html. Appelé une fois par conversion de présentation.
 type: docs
 weight: 40
@@ -18,9 +18,9 @@ public virtual void WriteDocumentStart(IHtmlGenerator generator, IPresentation p
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | generator | IHtmlGenerator | Objet de sortie. |
-| presentation | IPresentation | Présentation actuellement en cours de rendu. |
+| presentation | IPresentation | Présentation actuellement rendue. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IHtmlGenerator](../../ihtmlgenerator)
 * interface [IPresentation](../../../aspose.slides/ipresentation)

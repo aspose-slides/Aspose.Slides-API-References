@@ -1,7 +1,7 @@
 ---
-title: Foliennummer
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Nummer der Folie zurück. Der Index der Folie in der Slidesaspose.slides/presentation/slides Sammlung ist immer gleich SlideNumber - Presentation.FirstSlideNumber. Lese-/Schreibzugriff Int32.
+title: SlideNumber
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Nummer der Folie zurück. Der Index der Folie in der Slidesaspose.slides/presentation/slides Sammlung ist immer gleich SlideNumber - Presentation.FirstSlideNumber. Lese-/Schreib Int32.
 type: docs
 weight: 60
 url: /de/aspose.slides/slide/slidenumber/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/slide/slidenumber/
 
 ## Slide.SlideNumber-Eigenschaft
 
-Gibt die Nummer der Folie zurück. Der Index der Folie in der [`Slides`](../../presentation/slides) Sammlung ist immer gleich SlideNumber - Presentation.FirstSlideNumber. Lese-/Schreibzugriff Int32.
+Gibt die Nummer der Folie zurück. Der Index der Folie in der [`Slides`](../../presentation/slides) Sammlung ist immer gleich SlideNumber - Presentation.FirstSlideNumber. Lese-/Schreib Int32.
 
 ```csharp
 public int SlideNumber { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [Slide](../../slide)
 * Namespace [Aspose.Slides](../../slide)

@@ -1,15 +1,15 @@
 ---
-title: Sous-script
+title: Subscript
 second_title: Référence API Aspose.Slides pour .NET
-description: Sous-script
+description: Subscript
 type: docs
 weight: 30
 url: /fr/aspose.slides.mathtext/imathleftsubsuperscriptelement/subscript/
 ---
 
-## Propriété IMathLeftSubSuperscriptElement.Subscript
+## IMathLeftSubSuperscriptElement.Subscript property
 
-Sous-script
+Subscript
 
 ```csharp
 public IMathElement Subscript { get; }
@@ -28,7 +28,7 @@ MathLeftSubSuperscriptElement leftSubSuperscript = new MathLeftSubSuperscriptEle
 IMathElement sub = leftSubSuperscript.Subscript;
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathElement](../../imathelement)
 * interface [IMathLeftSubSuperscriptElement](../../imathleftsubsuperscriptelement)

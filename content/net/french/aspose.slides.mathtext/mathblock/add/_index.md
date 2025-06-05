@@ -1,5 +1,5 @@
 ---
-title: Ajouter
+title: Add
 second_title: Référence API Aspose.Slides pour .NET
 description: Ajoute un élément mathématique à la fin de la collection.
 type: docs
@@ -7,7 +7,7 @@ weight: 50
 url: /fr/aspose.slides.mathtext/mathblock/add/
 ---
 
-## Méthode MathBlock.Add
+## MathBlock.Add method
 
 Ajoute un élément mathématique à la fin de la collection.
 
@@ -21,7 +21,7 @@ public void Add(IMathElement item)
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

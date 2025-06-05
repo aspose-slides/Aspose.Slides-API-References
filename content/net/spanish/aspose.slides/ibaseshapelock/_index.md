@@ -21,9 +21,9 @@ public interface IBaseShapeLock
 | --- | --- |
 | [NoLocks](../../aspose.slides/ibaseshapelock/nolocks) { get; } | Devuelve verdadero si todas las banderas de bloqueo están deshabilitadas. Booleano de solo lectura. |
 
-### Vea También
+### Véase También
 
-* espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblado [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

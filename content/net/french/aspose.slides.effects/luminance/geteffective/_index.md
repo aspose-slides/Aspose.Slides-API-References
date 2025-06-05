@@ -1,6 +1,6 @@
 ---
 title: GetEffective
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Obtient les données effectives de l'effet de luminance avec l'héritage appliqué.
 type: docs
 weight: 20

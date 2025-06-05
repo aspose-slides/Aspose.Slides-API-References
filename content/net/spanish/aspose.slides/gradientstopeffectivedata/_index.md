@@ -1,6 +1,6 @@
 ---
 title: GradientStopEffectiveData
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Objeto inmutable que representa un punto de parada de degradado.
 type: docs
 weight: 4850
@@ -26,7 +26,7 @@ public class GradientStopEffectiveData : IGradientStopEffectiveData
 
 | Nombre | Descripción |
 | --- | --- |
-| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | Determina si el [`GradientStopEffectiveData`](../gradientstopeffectivedata) especificado es igual al [`GradientStopEffectiveData`](../gradientstopeffectivedata) actual. |
+| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | Determina si el [`GradientStopEffectiveData`](../gradientstopeffectivedata) especificado es igual al actual [`GradientStopEffectiveData`](../gradientstopeffectivedata). |
 | override [GetHashCode](../../aspose.slides/gradientstopeffectivedata/gethashcode)() |  |
 
 ### Véase también

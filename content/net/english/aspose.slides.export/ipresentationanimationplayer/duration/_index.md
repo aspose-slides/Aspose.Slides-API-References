@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export/ipresentationanimationplayer/duration/
 ---
+
 ## IPresentationAnimationPlayer.Duration property
 
 Get animation duration [ms]

@@ -1,7 +1,7 @@
 ---
 title: IsVisible
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Sichtbarkeit der Fehlerbalken zurück oder setzt sie. Schreib-/Lese-Boolean.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ruft die Sichtbarkeit der Fehlerbalken ab oder legt sie fest. Lese-/Schreib-Boolescher Wert.
 type: docs
 weight: 40
 url: /de/aspose.slides.charts/errorbarsformat/isvisible/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/errorbarsformat/isvisible/
 
 ## ErrorBarsFormat.IsVisible-Eigenschaft
 
-Gibt die Sichtbarkeit der Fehlerbalken zurück oder setzt sie. Schreib-/Lese-Boolean.
+Ruft die Sichtbarkeit der Fehlerbalken ab oder legt sie fest. Lese-/Schreib-Boolescher Wert.
 
 ```csharp
 public bool IsVisible { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: FillFormat
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Text FillFormat Eigenschaften zurück. Keine Vererbung angewendet. Schreibgeschütztes IFillFormataspose.slides/ifillformat.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Text FillFormat-Eigenschaften zurück. Keine Vererbung angewendet. Nur-Lese IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 60
 url: /de/aspose.slides/baseportionformat/fillformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/baseportionformat/fillformat/
 
 ## BasePortionFormat.FillFormat-Eigenschaft
 
-Gibt die Text FillFormat Eigenschaften zurück. Keine Vererbung angewendet. Schreibgeschützt [`IFillFormat`](../../ifillformat).
+Gibt die Text FillFormat-Eigenschaften zurück. Keine Vererbung angewendet. Nur-Lese [`IFillFormat`](../../ifillformat).
 
 ```csharp
 public IFillFormat FillFormat { get; }

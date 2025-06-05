@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/masterslide/preserve/
 ---
+
 ## MasterSlide.Preserve property
 
 Determines whether the corresponding master is deleted when all the slides that follow that master are deleted. Note: Aspose.Slides will never remove any unused master by itself, to actually remove unused masters call [`RemoveUnused`](../../masterslidecollection/removeunused) Read/write Boolean.

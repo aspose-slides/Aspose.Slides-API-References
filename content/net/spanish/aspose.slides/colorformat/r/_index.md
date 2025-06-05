@@ -1,7 +1,7 @@
 ---
 title: R
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve o establece el componente rojo de un color. Se ignoran todas las transformaciones de color. Lectura/escritura Byte.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Devuelve o establece el componente rojo de un color. Todas las transformaciones de color son ignoradas. Lectura/escritura Byte.
 type: docs
 weight: 120
 url: /es/aspose.slides/colorformat/r/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/colorformat/r/
 
 ## Propiedad ColorFormat.R
 
-Devuelve o establece el componente rojo de un color. Se ignoran todas las transformaciones de color. Lectura/escritura Byte.
+Devuelve o establece el componente rojo de un color. Todas las transformaciones de color son ignoradas. Lectura/escritura Byte.
 
 ```csharp
 public byte R { get; set; }

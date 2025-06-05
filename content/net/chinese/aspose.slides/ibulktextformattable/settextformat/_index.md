@@ -1,7 +1,7 @@
 ---
-title: 设置文本格式
-second_title: Aspose.Slides for .NET API 参考
-description: 将定义的部分格式属性设置为所有元素的分区。
+title: SetTextFormat
+second_title: Aspose.Sildes for .NET API Reference
+description: 将定义的部分格式属性设置为所有元素的部分。
 type: docs
 weight: 10
 url: /zh/aspose.slides/ibulktextformattable/settextformat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ibulktextformattable/settextformat/
 
 ## SetTextFormat(IPortionFormat) {#settextformat_1}
 
-将定义的部分格式属性设置为所有元素的分区。
+将定义的部分格式属性设置为所有元素的部分。
 
 ```csharp
 public void SetTextFormat(IPortionFormat source)
@@ -17,9 +17,9 @@ public void SetTextFormat(IPortionFormat source)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | IPortionFormat | 带有必要属性设置的IPortionFormat对象。 |
+| source | IPortionFormat | 设置了必要属性的IPortionFormat对象。 |
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IPortionFormat](../../iportionformat)
 * 接口 [IBulkTextFormattable](../../ibulktextformattable)
@@ -38,9 +38,9 @@ public void SetTextFormat(IParagraphFormat source)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | IParagraphFormat | 带有必要属性设置的IParagraphFormat对象。 |
+| source | IParagraphFormat | 设置了必要属性的IParagraphFormat对象。 |
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IParagraphFormat](../../iparagraphformat)
 * 接口 [IBulkTextFormattable](../../ibulktextformattable)
@@ -59,9 +59,9 @@ public void SetTextFormat(ITextFrameFormat source)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | ITextFrameFormat | 带有必要属性设置的ITextFrameFormat对象。 |
+| source | ITextFrameFormat | 设置了必要属性的ITextFrameFormat对象。 |
 
-### 另请参阅
+### 另请参见
 
 * 接口 [ITextFrameFormat](../../itextframeformat)
 * 接口 [IBulkTextFormattable](../../ibulktextformattable)

@@ -1,15 +1,15 @@
 ---
 title: WriteShapeStart
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Appelée avant le rendu des formes. Appelée une fois par forme. Si cette fonction écrit quoi que ce soit dans le générateur, la génération de l'image de la diapositive courante sera terminée, un fragment HTML ajouté sera inséré et une nouvelle image sera commencée au-dessus de la précédente.
+second_title: Aspose.Sildes pour .NET API Reference
+description: Appelé avant le rendu des formes. Appelé une seule fois pour chaque forme. Si cette fonction écrit quoi que ce soit dans le générateur, la génération de l'image de la diapositive actuelle sera terminée, le fragment html ajouté inséré et une nouvelle image sera commencée au-dessus de la précédente.
 type: docs
 weight: 40
 url: /fr/aspose.slides.export/ihtmlformattingcontroller/writeshapestart/
 ---
 
-## Méthode IHtmlFormattingController.WriteShapeStart
+## IHtmlFormattingController.WriteShapeStart méthode
 
-Appelée avant le rendu de la forme. Appelée une fois par chaque forme. Si cette fonction écrit quoi que ce soit dans le générateur, la génération de l'image de la diapositive courante sera terminée, un fragment HTML ajouté sera inséré et une nouvelle image sera commencée au-dessus de la précédente.
+Appelé avant le rendu de la forme. Appelé une seule fois pour chaque forme. Si cette fonction écrit quoi que ce soit dans le générateur, la génération de l'image de la diapositive actuelle sera terminée, le fragment html ajouté inséré et une nouvelle image sera commencée au-dessus de la précédente.
 
 ```csharp
 public void WriteShapeStart(IHtmlGenerator generator, IShape shape)

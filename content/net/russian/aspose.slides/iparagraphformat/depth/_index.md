@@ -1,15 +1,15 @@
 ---
-title: Глубина
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает глубину абзаца. Значение 0 означает неопределенное значение. Доступно для чтения/записи Int16.
+title: Depth
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или устанавливает глубину параграфа. Значение 0 означает неопределенное значение. Чтение/запись Int16.
 type: docs
 weight: 50
 url: /ru/aspose.slides/iparagraphformat/depth/
 ---
 
-## Свойство IParagraphFormat.Depth
+## IParagraphFormat.Depth свойство
 
-Возвращает или задает глубину абзаца. Значение 0 означает неопределенное значение. Доступно для чтения/записи Int16.
+Возвращает или устанавливает глубину параграфа. Значение 0 означает неопределенное значение. Чтение/запись Int16.
 
 ```csharp
 public short Depth { get; set; }

@@ -1,7 +1,7 @@
 ---
-title: Graphique
+title: Chart
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne le graphique. Lecture seule IChart aspose.slides.charts/ichart.
+description: Renvoie le graphique. Lecture seule IChartaspose.slides.charts/ichart.
 type: docs
 weight: 10
 url: /fr/aspose.slides.charts/datalabelformat/chart/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/datalabelformat/chart/
 
 ## Propriété DataLabelFormat.Chart
 
-Retourne le graphique. Lecture seule [`IChart`](../../ichart).
+Renvoie le graphique. Lecture seule [`IChart`](../../ichart).
 
 ```csharp
 public IChart Chart { get; }

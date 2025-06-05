@@ -1,24 +1,24 @@
 ---
 title: GroupingLocked
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Determina si se prohíbe agregar esta forma a un grupo. Booleano de lectura/escritura.
+second_title: Aspose.Sildes para referencia de API .NET
+description: Determina si se prohíbe añadir esta forma a un grupo. Booleano de lectura/escritura.
 type: docs
 weight: 60
 url: /es/aspose.slides/iconnectorlock/groupinglocked/
 ---
 
-## Propiedad IConnectorLock.GroupingLocked
+## IConnectorLock.Property GroupingLocked
 
-Determina si se prohíbe agregar esta forma a un grupo. Booleano de lectura/escritura.
+Determina si se prohíbe añadir esta forma a un grupo. Booleano de lectura/escritura.
 
 ```csharp
 public bool GroupingLocked { get; set; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [IConnectorLock](../../iconnectorlock)
-* espacio de nombres [Aspose.Slides](../../iconnectorlock)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IConnectorLock](../../iconnectorlock)
+* espacio de nombres [Aspose.Slides](../../iconnectorlock)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

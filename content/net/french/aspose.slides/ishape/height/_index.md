@@ -1,6 +1,6 @@
 ---
-title: Hauteur
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Height
+second_title: Aspose.Sildes pour .NET API Reference
 description: Renvoie ou définit la hauteur de la forme. Lecture/écriture Simple.
 type: docs
 weight: 110
@@ -17,7 +17,7 @@ public float Height { get; set; }
 
 ### Remarques
 
-La valeur renvoyée est toujours définie (n'est pas float.NaN). La valeur assignée doit être définie (pas float.NaN). Vous pouvez définir des valeurs non définies pour les propriétés d'instance RawFrame.
+La valeur renvoyée est toujours définie (n'est pas float.NaN). La valeur assignée doit être définie (pas float.NaN). Vous pouvez définir des valeurs indéfinies pour les propriétés d'instance de RawFrame.
 
 ### Voir aussi
 

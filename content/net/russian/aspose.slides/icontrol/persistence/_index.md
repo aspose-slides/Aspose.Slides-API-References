@@ -1,7 +1,7 @@
 ---
-title: Хранение
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает метод, используемый для хранения свойств элемента управления ActiveX. Только для чтения PersistenceTypeaspose.slides/persistencetype.
+title: Persistence
+second_title: Aspose.Sildes для .NET API Reference
+description: Получает метод, используемый для хранения свойств управляющего элемента ActiveX. Только для чтения PersistenceType aspose.slides/persistencetype.
 type: docs
 weight: 60
 url: /ru/aspose.slides/icontrol/persistence/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/icontrol/persistence/
 
 ## Свойство IControl.Persistence
 
-Получает метод, используемый для хранения свойств элемента управления ActiveX. Только для чтения [`PersistenceType`](../../persistencetype).
+Получает метод, используемый для хранения свойств управляющего элемента ActiveX. Только для чтения [`PersistenceType`](../../persistencetype).
 
 ```csharp
 public PersistenceType Persistence { get; }
 ```
 
-### См. Также
+### См. также
 
 * enum [PersistenceType](../../persistencetype)
 * interface [IControl](../../icontrol)

@@ -1,7 +1,7 @@
 ---
 title: SlideShowType
-second_title: Aspose.Slides для .NET API Справочник
-description: Получает или задает тип слайд-шоу. Представлен следующими предками SlideShowType BrowsedAtKioskaspose.slides/browsedatkiosk, PresentedBySpeakeraspose.slides/presentedbyspeaker и BrowsedByIndividualaspose.slides/browsedbyindividual
+second_title: Справка по API Aspose.Slides для .NET
+description: Получает или задает тип слайд-шоу. Представлен следующими предками SlideShowType aspose.slides/slideshowsettings/slideshowtype BrowsedAtKiosk aspose.slides/browsedatkiosk PresentedBySpeaker aspose.slides/presentedbyspeaker и BrowsedByIndividual aspose.slides/browsedbyindividual
 type: docs
 weight: 70
 url: /ru/aspose.slides/slideshowsettings/slideshowtype/
@@ -21,13 +21,13 @@ public SlideShowType SlideShowType { get; set; }
 [C#]
 using (Presentation pres = new Presentation())
 {
-    // установить тип "Просмотр в киоске (на весь экран)"
+    // чтобы задать тип "Просматривается на киоске (на весь экран)"
     pres.SlideShowSettings.SlideShowType = new BrowsedAtKiosk();
     
-    // установить тип "Просмотр индивидуально (в окне)"
+    // чтобы задать тип "Просматривается индивидуально (в окне)"
     pres.SlideShowSettings.SlideShowType = new BrowsedByIndividual();
     
-    // установить тип "Представлено докладчиком (на весь экран)"
+    // чтобы задать тип "Представляется спикером (на весь экран)"
     pres.SlideShowSettings.SlideShowType = new PresentedBySpeaker();
 }
 ```

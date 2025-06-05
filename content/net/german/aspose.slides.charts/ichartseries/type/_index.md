@@ -1,6 +1,6 @@
 ---
-title: Typ
-second_title: Aspose.Slides für .NET API Referenz
+title: Type
+second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt einen Typ dieser Serie zurück. Lese-/Schreibzugriff auf ChartTypeaspose.slides.charts/charttype.
 type: docs
 weight: 440

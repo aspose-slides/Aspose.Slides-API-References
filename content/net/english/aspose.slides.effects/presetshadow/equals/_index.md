@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.effects/presetshadow/equals/
 ---
+
 ## PresetShadow.Equals method
 
 Determines whether the specified [`PresetShadow`](../../presetshadow) is equal to the current [`PresetShadow`](../../presetshadow).

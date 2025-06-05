@@ -6,6 +6,7 @@ type: docs
 weight: 330
 url: /aspose.slides.animation/behaviorproperty/fillfocussizex/
 ---
+
 ## BehaviorProperty.FillFocusSizeX property
 
 Represents 'fill.focussize.x' property

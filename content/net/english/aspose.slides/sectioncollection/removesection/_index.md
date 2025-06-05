@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides/sectioncollection/removesection/
 ---
+
 ## SectionCollection.RemoveSection method
 
 Remove section. Slides contained in the section will be merged into previous section.

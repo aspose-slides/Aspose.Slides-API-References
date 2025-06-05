@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/idatalabelcollection/count/
 ---
+
 ## IDataLabelCollection.Count property
 
 Gets the number of all data labels in the collection. Read-only Int32.

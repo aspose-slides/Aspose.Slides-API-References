@@ -1,6 +1,6 @@
 ---
 title: GetPresentationInfo
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Reference
 description: Obtient des informations sur la présentation dans le fichier spécifié.
 type: docs
 weight: 20

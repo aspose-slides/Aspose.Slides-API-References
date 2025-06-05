@@ -1,40 +1,40 @@
 ---
-title: Вторичные категории
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает вторичные категории, если свойство UseSecondaryCategoriesaspose.slides.charts/ichartdata/usesecondarycategories равно true. Только для чтения IChartCategoryCollectionaspose.slides.charts/ichartcategorycollection.
+title: SecondaryCategories
+second_title: Aspose.Sildes для .NET API Reference
+description: Получает вторичные категории, если свойство UseSecondaryCategoriesaspose.slides.charts/ichartdata/usesecondarycategories истинно. Только для чтения IChartCategoryCollectionaspose.slides.charts/ichartcategorycollection.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/ichartdata/secondarycategories/
 ---
 
-## Свойство IChartData.SecondaryCategories
+## IChartData.SecondaryCategories property
 
-Получает вторичные категории, если свойство [`UseSecondaryCategories`](../usesecondarycategories) равно true. Только для чтения [`IChartCategoryCollection`](../../ichartcategorycollection).
+Получает вторичные категории, если свойство [`UseSecondaryCategories`](../usesecondarycategories) истинно. Только для чтения [`IChartCategoryCollection`](../../ichartcategorycollection).
 
 ```csharp
 public IChartCategoryCollection SecondaryCategories { get; }
 ```
 
-### Замечания
+### Remarks
 
-Если свойство [`UseSecondaryCategories`](../usesecondarycategories) равно false, то это свойство `SecondaryCategories` возвращает null, и данные в свойстве [`Categories`](../categories) используются как для первичных, так и для вторичных серий. Если свойство [`UseSecondaryCategories`](../usesecondarycategories) равно true, то данные в этом свойстве `SecondaryCategories` используются для вторичных серий, а данные в свойстве [`Categories`](../categories) используются для первичных серий.
+Если свойство [`UseSecondaryCategories`](../usesecondarycategories) ложно, то это свойство `SecondaryCategories` возвращает null, и данные в свойстве [`Categories`](../categories) используются как для первичных, так и для вторичных серий. Если свойство [`UseSecondaryCategories`](../usesecondarycategories) истинно, то данные в этом свойстве `SecondaryCategories` используются для вторичных серий, а данные в свойстве [`Categories`](../categories) используются для первичных серий.
 
-### Примеры
+### Examples
 
-Пример. Какие категории связаны с серией — ChartData.Categories или ChartData.SecondaryCategories?
+Пример. Какие категории относятся к серии - ChartData.Categories или ChartData.SecondaryCategories?
 
 ```csharp
 if (series.PlotOnSecondAxis && series.Chart.ChartData.UseSecondaryCategories)
 {
-    // связанные категории — series.Chart.ChartData.SecondaryCategories
+    // связанные категории - series.Chart.ChartData.SecondaryCategories
 }
 else
 {
-    // связанные категории — series.Chart.ChartData.Categories
+    // связанные категории - series.Chart.ChartData.Categories
 }
 ```
 
-### См. также
+### See Also
 
 * интерфейс [IChartCategoryCollection](../../ichartcategorycollection)
 * интерфейс [IChartData](../../ichartdata)

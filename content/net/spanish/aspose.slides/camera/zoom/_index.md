@@ -1,7 +1,7 @@
 ---
 title: Zoom
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Zoom de la cámara valor positivo en porcentaje. Lectura/escritura Single.
+description: Valor positivo del zoom de la cámara en porcentaje. Lectura/escritura Single.
 type: docs
 weight: 30
 url: /es/aspose.slides/camera/zoom/
@@ -15,10 +15,10 @@ Zoom de la cámara (valor positivo en porcentaje). Lectura/escritura Single.
 public float Zoom { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [Camera](../../camera)
 * espacio de nombres [Aspose.Slides](../../camera)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

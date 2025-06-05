@@ -3,9 +3,10 @@ title: FirstCol
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines whether the first column of a table has to be drawn with a special formatting. Read/write Boolean.
 type: docs
-weight: 20
+weight: 30
 url: /aspose.slides/table/firstcol/
 ---
+
 ## Table.FirstCol property
 
 Determines whether the first column of a table has to be drawn with a special formatting. Read/write Boolean.

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.effects/imagetransformoperationcollection/add/
 ---
+
 ## ImageTransformOperationCollection.Add method
 
 Adds the new image effect to the end of a collection.

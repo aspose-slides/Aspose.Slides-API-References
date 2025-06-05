@@ -1,6 +1,6 @@
 ---
-title: 清除
-second_title: Aspose.Slides for .NET API 参考
+title: Clear
+second_title: Aspose.Sildes for .NET API Reference
 description: 从集合中移除所有命令。
 type: docs
 weight: 50

@@ -1,6 +1,6 @@
 ---
 title: GifOptions
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Initialise une nouvelle instance de la classe GifOptions.
 type: docs
 weight: 10
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/gifoptions/gifoptions/
 
 ## Constructeur GifOptions
 
-Initie une nouvelle instance de la classe GifOptions.
+Initialise une nouvelle instance de la classe GifOptions.
 
 ```csharp
 public GifOptions()

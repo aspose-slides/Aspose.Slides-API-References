@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.theme/colorscheme/dark1/
 ---
+
 ## ColorScheme.Dark1 property
 
 First dark color in the scheme. Read-only [`IColorFormat`](../../../aspose.slides/icolorformat).

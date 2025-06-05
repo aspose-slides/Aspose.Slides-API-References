@@ -1,15 +1,15 @@
 ---
 title: MaximumDistribution
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Distribución máxima Cuando es verdadero, el arreglo se espacia hasta el ancho máximo del elemento contenedor página, columna, celda, etc..
+second_title: Referencia de la API Aspose.Slides para .NET
+description: Distribución máxima Cuando es verdadero, el arreglo se distribuye al ancho máximo del elemento contenedor página, columna, celda, etc..
 type: docs
 weight: 40
 url: /es/aspose.slides.mathtext/imatharray/maximumdistribution/
 ---
 
-## Propiedad IMathArray.MaximumDistribution
+## IMathArray.MaximumDistribution property
 
-Distribución máxima Cuando es verdadero, el arreglo se espacia hasta el ancho máximo del elemento contenedor (página, columna, celda, etc.).
+Distribución máxima Cuando es verdadero, el arreglo se distribuye al ancho máximo del elemento contenedor (página, columna, celda, etc.).
 
 ```csharp
 public bool MaximumDistribution { get; set; }

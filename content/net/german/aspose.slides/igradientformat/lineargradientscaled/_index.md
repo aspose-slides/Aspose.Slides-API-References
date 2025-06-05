@@ -1,7 +1,7 @@
 ---
 title: LinearGradientScaled
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob ein Verlauf skaliert ist. Lese-/Schreibzugriff auf NullableBoolaspose.slides/nullablebool.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt, ob ein Verlauf skaliert ist. Lese-/Schreibe-NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 60
 url: /de/aspose.slides/igradientformat/lineargradientscaled/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/igradientformat/lineargradientscaled/
 
 ## IGradientFormat.LinearGradientScaled-Eigenschaft
 
-Bestimmt, ob ein Verlauf skaliert ist. Lese-/Schreibzugriff auf [`NullableBool`](../../nullablebool).
+Bestimmt, ob ein Verlauf skaliert ist. Lese-/Schreibe- [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool LinearGradientScaled { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [NullableBool](../../nullablebool)
 * interface [IGradientFormat](../../igradientformat)

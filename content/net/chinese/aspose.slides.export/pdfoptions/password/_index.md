@@ -1,6 +1,6 @@
 ---
-title: 密码
-second_title: Aspose.Slides for .NET API 参考
+title: Password
+second_title: Aspose.Sildes for .NET API Reference
 description: 设置用户密码以保护 PDF 文档。可读/写字符串。
 type: docs
 weight: 140

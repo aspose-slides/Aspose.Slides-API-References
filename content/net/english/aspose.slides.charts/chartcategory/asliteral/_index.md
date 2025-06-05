@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/chartcategory/asliteral/
 ---
+
 ## ChartCategory.AsLiteral property
 
 Returns or sets AsLiteral object. Read/write Object.

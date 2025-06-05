@@ -1,7 +1,7 @@
 ---
-title: От
-second_title: Справочник по API Aspose.Slides для .NET
-description: Это значение используется для указания начального цвета поведения. Чтение/запись IColorFormataspose.slides/icolorformat.
+title: From
+second_title: Aspose.Slides для .NET API Справочник
+description: Это значение используется для задания начального цвета поведения. Чтение/запись IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 50
 url: /ru/aspose.slides.animation/coloreffect/from/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.animation/coloreffect/from/
 
 ## Свойство ColorEffect.From
 
-Это значение используется для указания начального цвета поведения. Чтение/запись [`IColorFormat`](../../../aspose.slides/icolorformat).
+Это значение используется для задания начального цвета поведения. Чтение/запись [`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat From { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IColorFormat](../../../aspose.slides/icolorformat)
 * класс [ColorEffect](../../coloreffect)

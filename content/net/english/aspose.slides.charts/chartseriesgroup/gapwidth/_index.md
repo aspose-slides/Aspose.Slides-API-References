@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.charts/chartseriesgroup/gapwidth/
 ---
+
 ## ChartSeriesGroup.GapWidth property
 
 Specifies the space between bar or column clusters, as a percentage of the bar or column width. Read/write UInt16.

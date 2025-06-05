@@ -3,9 +3,10 @@ title: SwfOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides options that control how a presentation is saved in Swf format.
 type: docs
-weight: 4220
+weight: 4340
 url: /aspose.slides.export/swfoptions/
 ---
+
 ## SwfOptions class
 
 Provides options that control how a presentation is saved in Swf format.
@@ -27,10 +28,10 @@ public class SwfOptions : SaveOptions, ISwfOptions
 | [Compressed](../../aspose.slides.export/swfoptions/compressed) { get; set; } | Specifies whether the generated SWF document should be compressed or not. Default is `true`. |
 | [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Returns or sets font used in case source font is not found. Read-write String. |
 | [EnableContextMenu](../../aspose.slides.export/swfoptions/enablecontextmenu) { get; set; } | Enable/disable context menu. Default is true. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Returns or sets the visual style of the gradient. Read/write [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [JpegQuality](../../aspose.slides.export/swfoptions/jpegquality) { get; set; } | Specifies the quality of JPEG images. Default is 95. |
 | [LogoImageBytes](../../aspose.slides.export/swfoptions/logoimagebytes) { get; set; } | Image that will be displayed as logo in the top right corner of the viewer. Image should be 32x64 pixels PNG image, otherwise logo can be displayed improperly. |
 | [LogoLink](../../aspose.slides.export/swfoptions/logolink) { get; set; } | Gets or sets the full hyperlink address for a logo. Has an effect only if a [`LogoImageBytes`](./logoimagebytes) is specified. |
-| [NotesCommentsLayouting](../../aspose.slides.export/swfoptions/notescommentslayouting) { get; } | Provides options that control how notes and comments is placed in exported document. |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Represents a callback object for saving progress updates in percentage. See [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
 | [ShowBottomPane](../../aspose.slides.export/swfoptions/showbottompane) { get; set; } | Show/hide bottom pane. Can be overridden in flashvars. Default is true. |
 | [ShowFullScreen](../../aspose.slides.export/swfoptions/showfullscreen) { get; set; } | Show/hide fullscreen button. Can be overridden in flashvars. Default is true. |
@@ -40,6 +41,8 @@ public class SwfOptions : SaveOptions, ISwfOptions
 | [ShowPageStepper](../../aspose.slides.export/swfoptions/showpagestepper) { get; set; } | Show/hide page stepper. Can be overridden in flashvars. Default is true. |
 | [ShowSearch](../../aspose.slides.export/swfoptions/showsearch) { get; set; } | Show/hide search section. Can be overridden in flashvars. Default is true. |
 | [ShowTopPane](../../aspose.slides.export/swfoptions/showtoppane) { get; set; } | Show/hide whole top pane. Can be overridden in flashvars. Default is true. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Specifies whether to skip hyperlinks with JavaScript calls when saving the presentation. Read/write Boolean. The default value is **false**. |
+| [SlidesLayoutOptions](../../aspose.slides.export/swfoptions/slideslayoutoptions) { get; set; } | Gets or sets the mode in which slides are placed on the page when exporting a presentation [`ISlidesLayoutOptions`](../islideslayoutoptions). This property doesn't support assigning objects of type [`HandoutLayoutingOptions`](../handoutlayoutingoptions) |
 | [StartOpenLeftPane](../../aspose.slides.export/swfoptions/startopenleftpane) { get; set; } | Start with opened left pane. Can be overridden in flashvars. Default is false. |
 | [ViewerIncluded](../../aspose.slides.export/swfoptions/viewerincluded) { get; set; } | Specifies whether the generated SWF document should include the integrated document viewer or not. Default is `true`. |
 | [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |

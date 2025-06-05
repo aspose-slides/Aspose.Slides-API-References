@@ -1,7 +1,7 @@
 ---
 title: ActualMinorUnit
-second_title: Aspose.Slides for .NET API 参考
-description: 指定轴的实际次单位。请先调用方法 IChart.ValidateChartLayout 以获取实际值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定轴的实际小单位。在获取实际值之前，请调用方法 IChart.ValidateChartLayout。
 type: docs
 weight: 40
 url: /zh/aspose.slides.charts/iaxis/actualminorunit/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/iaxis/actualminorunit/
 
 ## IAxis.ActualMinorUnit 属性
 
-指定轴的实际次单位。请先调用方法 IChart.ValidateChartLayout() 以获取实际值。
+指定轴的实际小单位。在获取实际值之前，请调用方法 IChart.ValidateChartLayout()。
 
 ```csharp
 public double ActualMinorUnit { get; }

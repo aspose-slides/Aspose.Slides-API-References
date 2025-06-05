@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/mathradicalfactory/mathradicalfactory/
 ---
+
 ## MathRadicalFactory constructor
 
 The default constructor.

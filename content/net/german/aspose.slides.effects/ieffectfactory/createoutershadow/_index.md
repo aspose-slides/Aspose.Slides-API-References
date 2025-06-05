@@ -1,7 +1,7 @@
 ---
 title: CreateOuterShadow
-second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt den äußeren Schatteneffekt.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Erstellt einen äußeren Schatteneffekt.
 type: docs
 weight: 40
 url: /de/aspose.slides.effects/ieffectfactory/createoutershadow/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/ieffectfactory/createoutershadow/
 
 ## IEffectFactory.CreateOuterShadow-Methode
 
-Erstellt den äußeren Schatteneffekt.
+Erstellt einen äußeren Schatteneffekt.
 
 ```csharp
 public IOuterShadow CreateOuterShadow()

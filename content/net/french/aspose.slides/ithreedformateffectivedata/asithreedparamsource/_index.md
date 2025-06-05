@@ -1,13 +1,13 @@
 ---
 title: AsIThreeDParamSource
-second_title: Référence API Aspose.Slides pour .NET
-description: Permet d'obtenir l'interface de base IThreeDParamSource. IThreeDParamSource en lecture seule aspose.slides/ithreedparamsource.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Permet d'obtenir l'interface de base IThreeDParamSource. Lecture seule IThreeDParamSourceaspose.slides/ithreedparamsource.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ithreedformateffectivedata/asithreedparamsource/
 ---
 
-## Propriété IThreeDFormatEffectiveData.AsIThreeDParamSource
+## IThreeDFormatEffectiveData.AsIThreeDParamSource propriété
 
 Permet d'obtenir l'interface de base IThreeDParamSource. Lecture seule [`IThreeDParamSource`](../../ithreedparamsource).
 

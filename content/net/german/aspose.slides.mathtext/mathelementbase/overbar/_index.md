@@ -1,6 +1,6 @@
 ---
 title: Overbar
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes for .NET API Referenz
 description: Setzt eine Linie oben auf dieses Element
 type: docs
 weight: 100
@@ -28,7 +28,7 @@ Beispiel:
 IMathBar bar = new MathematicalText("x").Overbar();
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IMathBar](../../imathbar)
 * Klasse [MathElementBase](../../mathelementbase)

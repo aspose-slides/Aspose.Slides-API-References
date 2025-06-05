@@ -1,7 +1,7 @@
 ---
 title: LastSavedTime
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie la date à laquelle une présentation a été modifiée pour la dernière fois. Les valeurs sont en UTC.P Lecture seule dans le cas de Presentation.DocumentProperties car elle sera mise à jour en interne pendant le processus de sauvegarde de l'objet IPresentation. Peut être modifié via l'instance DocumentProperties renvoyée par la méthode ReadDocumentPropertiesaspose.slides/ipresentationinfo/readdocumentproperties. Veuillez voir l'exemple dans le résumé de la méthode UpdateDocumentPropertiesaspose.slides/ipresentationinfo/updatedocumentproperties.
+second_title: Aspose.Slides pour .NET API Reference
+description: Renvoie la date de la dernière modification d'une présentation. Les valeurs sont en UTC.P En lecture seule dans le cas de Presentation.DocumentProperties car elle sera mise à jour en interne lors du processus de sauvegarde de l'objet IPresentation. Peut être modifié via une instance DocumentProperties retournée par la méthode ReadDocumentPropertiesaspose.slides/ipresentationinfo/readdocumentproperties. Veuillez consulter l'exemple dans le résumé de la méthode UpdateDocumentPropertiesaspose.slides/ipresentationinfo/updatedocumentproperties.
 type: docs
 weight: 190
 url: /fr/aspose.slides/idocumentproperties/lastsavedtime/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/idocumentproperties/lastsavedtime/
 
 ## Propriété IDocumentProperties.LastSavedTime
 
-Renvoie la date à laquelle une présentation a été modifiée pour la dernière fois. Les valeurs sont en UTC.P Lecture seule dans le cas de Presentation.DocumentProperties (car elle sera mise à jour en interne pendant le processus de sauvegarde de l'objet IPresentation). Peut être modifié via l'instance DocumentProperties renvoyée par la méthode [`ReadDocumentProperties`](../../ipresentationinfo/readdocumentproperties). Veuillez voir l'exemple dans le résumé de la méthode [`UpdateDocumentProperties`](../../ipresentationinfo/updatedocumentproperties).
+Renvoie la date de la dernière modification d'une présentation. Les valeurs sont en UTC.P En lecture seule dans le cas de Presentation.DocumentProperties (car elle sera mise à jour en interne lors du processus de sauvegarde de l'objet IPresentation). Peut être modifié via une instance DocumentProperties retournée par la méthode [`ReadDocumentProperties`](../../ipresentationinfo/readdocumentproperties). Veuillez consulter l'exemple dans le résumé de la méthode [`UpdateDocumentProperties`](../../ipresentationinfo/updatedocumentproperties).
 
 ```csharp
 public DateTime LastSavedTime { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IDocumentProperties](../../idocumentproperties)
 * namespace [Aspose.Slides](../../idocumentproperties)

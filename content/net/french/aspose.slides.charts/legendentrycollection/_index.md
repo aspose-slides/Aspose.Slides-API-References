@@ -1,15 +1,15 @@
 ---
 title: LegendEntryCollection
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente la collection de légendes.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Représente la collection des légendes.
 type: docs
 weight: 2220
 url: /fr/aspose.slides.charts/legendentrycollection/
 ---
 
-## Classe LegendEntryCollection
+## LegendEntryCollection class
 
-Représente la collection de légendes.
+Représente la collection des légendes.
 
 ```csharp
 public class LegendEntryCollection : ILegendEntryCollection

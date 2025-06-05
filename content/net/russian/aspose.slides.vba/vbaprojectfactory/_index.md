@@ -1,7 +1,7 @@
 ---
 title: VbaProjectFactory
-second_title: Aspose.Slildes для .NET API Справочник
-description: Позволяет создавать VBA проект через COM интерфейс
+second_title: Aspose.Sildes для .NET API Справочник
+description: Позволяет создавать проект VBA через интерфейс COM
 type: docs
 weight: 11350
 url: /ru/aspose.slides.vba/vbaprojectfactory/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.vba/vbaprojectfactory/
 
 ## Класс VbaProjectFactory
 
-Позволяет создавать VBA проект через COM интерфейс
+Позволяет создавать проект VBA через интерфейс COM
 
 ```csharp
 public class VbaProjectFactory : IVbaProjectFactory
@@ -17,22 +17,22 @@ public class VbaProjectFactory : IVbaProjectFactory
 
 ## Конструкторы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [VbaProjectFactory](vbaprojectfactory)() | Конструктор по умолчанию. |
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| static [Instance](../../aspose.slides.vba/vbaprojectfactory/instance) { get; } | Статический экземпляр фабрики VBA проектов. Только для чтения [`VbaProjectFactory`](../vbaprojectfactory). |
+| static [Instance](../../aspose.slides.vba/vbaprojectfactory/instance) { get; } | Статический экземпляр фабрики проектов VBA. Только для чтения [`VbaProjectFactory`](../vbaprojectfactory). |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [CreateVbaProject](../../aspose.slides.vba/vbaprojectfactory/createvbaproject)() | Создает новый VBA проект. |
-| [ReadVbaProject](../../aspose.slides.vba/vbaprojectfactory/readvbaproject)(byte[]) | Читает VBA проект из OLE контейнера. |
+| [CreateVbaProject](../../aspose.slides.vba/vbaprojectfactory/createvbaproject)() | Создает новый проект VBA. |
+| [ReadVbaProject](../../aspose.slides.vba/vbaprojectfactory/readvbaproject)(byte[]) | Читает проект VBA из контейнера OLE. |
 
 ### См. также
 

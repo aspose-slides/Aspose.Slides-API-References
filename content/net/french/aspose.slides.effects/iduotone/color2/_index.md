@@ -1,7 +1,7 @@
 ---
 title: Color2
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie le format de couleur cible pour les pixels clairs. Lecture seule IColorFormataspose.slides/icolorformat.
+description: Renvoie le format de couleur cible pour les pixels clairs. En lecture seule IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 40
 url: /fr/aspose.slides.effects/iduotone/color2/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/iduotone/color2/
 
 ## Propriété IDuotone.Color2
 
-Renvoie le format de couleur cible pour les pixels clairs. Lecture seule [`IColorFormat`](../../../aspose.slides/icolorformat).
+Renvoie le format de couleur cible pour les pixels clairs. En lecture seule [`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat Color2 { get; }

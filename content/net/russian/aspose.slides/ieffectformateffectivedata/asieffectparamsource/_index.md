@@ -1,6 +1,6 @@
 ---
 title: AsIEffectParamSource
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Slides для .NET API Справочник
 description: Позволяет получить базовый интерфейс IEffectParamSource. Только для чтения IEffectParamSourceaspose.slides/ieffectparamsource.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ieffectformateffectivedata/asieffectparamsource/
 public IEffectParamSource AsIEffectParamSource { get; }
 ```
 
-### См. Также
+### Смотрите также
 
 * интерфейс [IEffectParamSource](../../ieffectparamsource)
 * интерфейс [IEffectFormatEffectiveData](../../ieffectformateffectivedata)

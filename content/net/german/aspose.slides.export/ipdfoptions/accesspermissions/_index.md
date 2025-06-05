@@ -1,7 +1,7 @@
 ---
 title: AccessPermissions
-second_title: Aspose.Slides für .NET API Referenz
-description: Enthält eine Reihe von Flags, die angeben, welche Zugriffsberechtigungen gewährt werden sollten, wenn das Dokument mit Benutzerzugriff geöffnet wird. Siehe PdfAccessPermissionsaspose.slides.export/pdfaccesspermissions.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Enthält eine Reihe von Flags, die angeben, welche Zugriffsberechtigungen gewährt werden sollen, wenn das Dokument mit Benutzerzugriff geöffnet wird. Siehe PdfAccessPermissionsaspose.slides.export/pdfaccesspermissions.
 type: docs
 weight: 10
 url: /de/aspose.slides.export/ipdfoptions/accesspermissions/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/ipdfoptions/accesspermissions/
 
 ## IPdfOptions.AccessPermissions-Eigenschaft
 
-Enthält eine Reihe von Flags, die angeben, welche Zugriffsberechtigungen gewährt werden sollten, wenn das Dokument mit Benutzerzugriff geöffnet wird. Siehe [`PdfAccessPermissions`](../../pdfaccesspermissions).
+Enthält eine Reihe von Flags, die angeben, welche Zugriffsberechtigungen gewährt werden sollen, wenn das Dokument mit Benutzerzugriff geöffnet wird. Siehe [`PdfAccessPermissions`](../../pdfaccesspermissions).
 
 ```csharp
 public PdfAccessPermissions AccessPermissions { get; set; }
@@ -20,7 +20,7 @@ public PdfAccessPermissions AccessPermissions { get; set; }
 ```csharp
 [C#]
 var pdfOptions = new PdfOptions();
-pdfOptions.Password = "my_password";
+pdfOptions.Password = "mein_passwort";
 pdfOptions.AccessPermissions = PdfAccessPermissions.PrintDocument | PdfAccessPermissions.HighQualityPrint;
 
 using (var presentation = new Presentation())
@@ -29,7 +29,7 @@ using (var presentation = new Presentation())
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [PdfAccessPermissions](../../pdfaccesspermissions)
 * interface [IPdfOptions](../../ipdfoptions)

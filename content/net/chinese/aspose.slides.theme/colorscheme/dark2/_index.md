@@ -1,7 +1,7 @@
 ---
 title: Dark2
-second_title: Aspose.Slides for .NET API 参考
-description: 方案中的第二种深色。只读 IColorFormataspose.slides/../aspose.slides/icolorformat。
+second_title: Aspose.Sildes for .NET API Reference
+description: 方案中的第二种深色。只读 IColorFormataspose.slides/icolorformat。
 type: docs
 weight: 80
 url: /zh/aspose.slides.theme/colorscheme/dark2/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.theme/colorscheme/dark2/
 public IColorFormat Dark2 { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IColorFormat](../../../aspose.slides/icolorformat)
 * 类 [ColorScheme](../../colorscheme)

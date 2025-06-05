@@ -1,7 +1,7 @@
 ---
 title: WebDocument
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt eine Übergangsform der Präsentation zum Speichern in ein Webformat dar.
+second_title: Aspose.Sildes for .NET API Reference
+description: Stellt ein Übergabeformat der Präsentation dar, um in ein Webformat zu speichern.
 type: docs
 weight: 4490
 url: /de/aspose.slides.export.web/webdocument/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export.web/webdocument/
 
 ## WebDocument-Klasse
 
-Stellt eine Übergangsform der Präsentation zum Speichern in ein Webformat dar.
+Stellt ein Übergabeformat der Präsentation dar, um in ein Webformat zu speichern.
 
 ```csharp
 public class WebDocument
@@ -19,15 +19,15 @@ public class WebDocument
 
 | Name | Beschreibung |
 | --- | --- |
-| [WebDocument](webdocument)(WebDocumentOptions) | Konstruktor von [`WebDocument`](../webdocument). |
+| [WebDocument](webdocument)(WebDocumentOptions) | [`WebDocument`](../webdocument) Konstruktor. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Global](../../aspose.slides.export.web/webdocument/global) { get; } | Gibt den globalen Speicher des Dokuments zurück. Nur lesbar [`Storage`](../storage). |
+| [Global](../../aspose.slides.export.web/webdocument/global) { get; } | Gibt den globalen Speicher des Dokuments zurück. Nur-Lese [`Storage`](../storage). |
 | [Input](../../aspose.slides.export.web/webdocument/input) { get; } |  |
-| [Output](../../aspose.slides.export.web/webdocument/output) { get; } | Gibt die Sammlung der Ausgabeelemente des Dokuments zurück. Nur lesbar [`Output`](./output). |
+| [Output](../../aspose.slides.export.web/webdocument/output) { get; } | Gibt die Sammlung von Ausgabeelementen des Dokuments zurück. Nur-Lese [`Output`](./output). |
 
 ## Methoden
 

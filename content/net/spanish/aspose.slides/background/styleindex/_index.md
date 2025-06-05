@@ -1,6 +1,6 @@
 ---
 title: StyleIndex
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve un índice de BackgroundType.Themed fill en la colección de temas de fondo. 0 significa sin relleno. 1..999 - índice. Lectura/escritura UInt16.
 type: docs
 weight: 60
@@ -15,7 +15,7 @@ Devuelve un índice de BackgroundType.Themed fill en la colección de temas de f
 public ushort StyleIndex { get; set; }
 ```
 
-### Vea también
+### Ver También
 
 * clase [Background](../../background)
 * espacio de nombres [Aspose.Slides](../../background)

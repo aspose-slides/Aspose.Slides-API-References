@@ -1,15 +1,15 @@
 ---
 title: CameraPresetType
-second_title: Aspose.Slides für .NET API Referenz
-description: Konstanten, die den Kamera-Voreinstelltyp definieren.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Konstanten, die den Kameravoreinstellungstyp definieren.
 type: docs
 weight: 1020
 url: /de/aspose.slides/camerapresettype/
 ---
 
-## CameraPresetType Aufzählung
+## CameraPresetType enumeration
 
-Konstanten, die den Kamera-Voreinstelltyp definieren.
+Konstanten, die den Kameravoreinstellungstyp definieren.
 
 ```csharp
 public enum CameraPresetType

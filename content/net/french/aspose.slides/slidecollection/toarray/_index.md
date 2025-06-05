@@ -1,7 +1,7 @@
 ---
 title: ToArray
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Crée et renvoie un tableau contenant toutes les diapositives.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Crée et renvoie un tableau avec toutes les diapositives.
 type: docs
 weight: 180
 url: /fr/aspose.slides/slidecollection/toarray/
@@ -9,17 +9,17 @@ url: /fr/aspose.slides/slidecollection/toarray/
 
 ## ToArray() {#toarray}
 
-Crée et renvoie un tableau contenant toutes les diapositives.
+Crée et renvoie un tableau avec toutes les diapositives.
 
 ```csharp
 public ISlide[] ToArray()
 ```
 
-### Valeur de retour
+### Valeur de Retour
 
 Tableau de [`Slide`](../../slide)
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ISlide](../../islide)
 * classe [SlideCollection](../../slidecollection)
@@ -30,17 +30,17 @@ Tableau de [`Slide`](../../slide)
 
 ## ToArray(int, int) {#toarray_1}
 
-Crée et renvoie un tableau contenant toutes les diapositives du range spécifié. Un index de la première diapositive à ajouter. Un nombre de diapositives à ajouter.
+Crée et renvoie un tableau avec toutes les diapositives de la plage spécifiée. Un index de la première diapositive à ajouter. Un nombre de diapositives à ajouter.
 
 ```csharp
 public ISlide[] ToArray(int startIndex, int count)
 ```
 
-### Valeur de retour
+### Valeur de Retour
 
 Tableau de [`Slide`](../../slide)
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ISlide](../../islide)
 * classe [SlideCollection](../../slidecollection)

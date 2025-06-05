@@ -19,16 +19,16 @@ public interface IWarningInfo
 
 | Имя | Описание |
 | --- | --- |
-| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | Возвращает человекочитаемое описание этого предупреждения. Только для чтения String. |
+| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | Возвращает читабельное описание этого предупреждения. Только для чтения String. |
 | [WarningType](../../aspose.slides.warnings/iwarninginfo/warningtype) { get; } | Возвращает тип предупреждения. Только для чтения [`WarningType`](./warningtype). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [SendWarning](../../aspose.slides.warnings/iwarninginfo/sendwarning)(IWarningCallback) | Если получатель не равен null, отправляет предупреждение указанному получателю и выбрасывает исключение AbortRequestedException, если получатель решил прервать операцию. |
+| [SendWarning](../../aspose.slides.warnings/iwarninginfo/sendwarning)(IWarningCallback) | Если получатель не равен null, отправляет предупреждение указанному получателю и выбрасывает AbortRequestedException, если получатель решил прервать операцию. |
 
-### Смотрите также
+### Также см. 
 
 * пространство имен [Aspose.Slides.Warnings](../../aspose.slides.warnings)
 * сборка [Aspose.Slides](../../)

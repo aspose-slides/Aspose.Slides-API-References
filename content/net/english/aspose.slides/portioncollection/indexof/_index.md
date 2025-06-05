@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/portioncollection/indexof/
 ---
+
 ## PortionCollection.IndexOf method
 
 Determines the index of a specific item in the IList.

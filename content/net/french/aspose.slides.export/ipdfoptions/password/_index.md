@@ -1,13 +1,13 @@
 ---
-title: Mot de passe
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Password
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Définir le mot de passe utilisateur pour protéger le document PDF. Chaîne en lecture/écriture.
 type: docs
 weight: 140
 url: /fr/aspose.slides.export/ipdfoptions/password/
 ---
 
-## Propriété IPdfOptions.Password
+## IPdfOptions.Password propriété
 
 Définir le mot de passe utilisateur pour protéger le document PDF. Chaîne en lecture/écriture.
 

@@ -1,7 +1,7 @@
 ---
-title: 默认数据标签格式
-second_title: Aspose.Slides for .NET API 参考
-description: 获取默认数据标签格式。只读 IDataLabelFormataspose.slides.charts/idatalabelformat。
+title: DefaultDataLabelFormat
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取默认数据标签格式。只读 IDataLabelFormat aspose.slides.charts/idatalabelformat。
 type: docs
 weight: 40
 url: /zh/aspose.slides.charts/datalabelcollection/defaultdatalabelformat/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/datalabelcollection/defaultdatalabelformat/
 public IDataLabelFormat DefaultDataLabelFormat { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IDataLabelFormat](../../idatalabelformat)
 * 类 [DataLabelCollection](../../datalabelcollection)

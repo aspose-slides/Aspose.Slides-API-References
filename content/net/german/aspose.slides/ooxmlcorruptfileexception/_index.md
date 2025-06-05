@@ -1,15 +1,15 @@
 ---
 title: OOXMLCorruptFileException
 second_title: Aspose.Slides für .NET API Referenz
-description: Ausnahme, die ausgelöst wird, wenn das Dateiformat Office Open XML beschädigt ist.
+description: Ausnahme, die ausgelöst wird, wenn das Office Open XML-Dateiformat beschädigt ist.
 type: docs
 weight: 8920
 url: /de/aspose.slides/ooxmlcorruptfileexception/
 ---
 
-## OOXMLCorruptFileException Klasse
+## OOXMLCorruptFileException-Klasse
 
-Ausnahme, die ausgelöst wird, wenn das Dateiformat Office Open XML beschädigt ist.
+Ausnahme, die ausgelöst wird, wenn das Office Open XML-Dateiformat beschädigt ist.
 
 ```csharp
 public class OOXMLCorruptFileException : OOXMLException
@@ -23,7 +23,7 @@ public class OOXMLCorruptFileException : OOXMLException
 | [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_1)(string) | Konstruktor, der es ermöglicht, eine Nachricht zu dieser Ausnahme hinzuzufügen. |
 | [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_2)(string, Exception) | Konstruktor für eine Ausnahme, die eine Nachricht und eine eingebettete Ausnahme enthält. |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [OOXMLException](../ooxmlexception)
 * Namespace [Aspose.Slides](../../aspose.slides)

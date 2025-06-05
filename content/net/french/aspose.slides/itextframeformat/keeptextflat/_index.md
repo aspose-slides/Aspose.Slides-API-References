@@ -1,7 +1,7 @@
 ---
 title: KeepTextFlat
-second_title: Références API Aspose.Slides pour .NET
-description: Renvoie ou définit le maintien du texte entièrement en dehors de la scène 3D. Booléen lisible/inscriptible.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie ou définit le maintien du texte complètement hors de la scène 3D. Booléen en lecture/écriture.
 type: docs
 weight: 60
 url: /fr/aspose.slides/itextframeformat/keeptextflat/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/itextframeformat/keeptextflat/
 
 ## Propriété ITextFrameFormat.KeepTextFlat
 
-Renvoie ou définit le maintien du texte entièrement en dehors de la scène 3D. Booléen lisible/inscriptible.
+Renvoie ou définit le maintien du texte complètement hors de la scène 3D. Booléen en lecture/écriture.
 
 ```csharp
 public bool KeepTextFlat { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ITextFrameFormat](../../itextframeformat)
 * namespace [Aspose.Slides](../../itextframeformat)

@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/groupshapelock/ungroupinglocked/
 ---
+
 ## GroupShapeLock.UngroupingLocked property
 
 Determines whether splitting this groupshape is forbidden. Read/write Boolean.

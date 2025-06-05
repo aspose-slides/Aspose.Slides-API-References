@@ -1,15 +1,15 @@
 ---
 title: AsILayoutSlideCollection
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die ILayoutSlideCollection-Schnittstelle zurück. Nur-Lese ILayoutSlideCollection aspose.slides/ilayoutslidecollection.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt das ILayoutSlideCollection-Interface zurück. Nur-Lese ILayoutSlideCollection aspose.slides/ilayoutslidecollection.
 type: docs
 weight: 10
 url: /de/aspose.slides/imasterlayoutslidecollection/asilayoutslidecollection/
 ---
 
-## IMasterLayoutSlideCollection.AsILayoutSlideCollection Eigenschaft
+## IMasterLayoutSlideCollection.AsILayoutSlideCollection-Eigenschaft
 
-Gibt die ILayoutSlideCollection-Schnittstelle zurück. Nur-Lese [`ILayoutSlideCollection`](../../ilayoutslidecollection).
+Gibt das ILayoutSlideCollection-Interface zurück. Nur-Lese [`ILayoutSlideCollection`](../../ilayoutslidecollection).
 
 ```csharp
 public ILayoutSlideCollection AsILayoutSlideCollection { get; }

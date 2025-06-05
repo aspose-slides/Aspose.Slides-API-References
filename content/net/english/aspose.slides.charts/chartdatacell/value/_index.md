@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.charts/chartdatacell/value/
 ---
+
 ## ChartDataCell.Value property
 
 Gets or sets the value of a cell. Read/write Object.

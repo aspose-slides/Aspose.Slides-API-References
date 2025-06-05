@@ -1,7 +1,7 @@
 ---
-title: 按形状删除
-second_title: Aspose.Slidess for .NET API 参考
-description: 针对指定形状删除效果。
+title: RemoveByShape
+second_title: Aspose.Sildes for .NET API Reference
+description: 删除指定形状的效果。
 type: docs
 weight: 120
 url: /zh/aspose.slides.animation/isequence/removebyshape/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/isequence/removebyshape/
 
 ## ISequence.RemoveByShape 方法
 
-针对指定形状删除效果。
+删除指定形状的效果。
 
 ```csharp
 public void RemoveByShape(IShape shape)
@@ -19,7 +19,7 @@ public void RemoveByShape(IShape shape)
 | --- | --- | --- |
 | shape | IShape | 形状对象 [`IShape`](../../../aspose.slides/ishape) |
 
-### 另请参见
+### 另见
 
 * 接口 [IShape](../../../aspose.slides/ishape)
 * 接口 [ISequence](../../isequence)

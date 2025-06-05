@@ -1,15 +1,15 @@
 ---
 title: MarginRight
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает правый отступ в TextFrame. Читаемое/записываемое значение типа Double.
+second_title: Справка по API Aspose.Sildes для .NET
+description: Возвращает или задает правый отступ в TextFrame. Читаемое/записываемое значение Double.
 type: docs
 weight: 120
 url: /ru/aspose.slides/cell/marginright/
 ---
 
-## Свойство Cell.MarginRight
+## Cell.MarginRight свойство
 
-Возвращает или задает правый отступ в TextFrame. Читаемое/записываемое значение типа Double.
+Возвращает или задает правый отступ в TextFrame. Читаемое/записываемое значение Double.
 
 ```csharp
 public double MarginRight { get; set; }

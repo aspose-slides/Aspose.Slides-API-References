@@ -1,7 +1,7 @@
 ---
 title: RotationLocked
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si un changement de l'angle de rotation de cette forme est interdit. Booléen en lecture/écriture.
+second_title: Référence API Aspose.Slides pour .NET
+description: Détermine si un angle de rotation changeant de cette forme est interdit. Booléen en lecture/écriture.
 type: docs
 weight: 80
 url: /fr/aspose.slides/pictureframelock/rotationlocked/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/pictureframelock/rotationlocked/
 
 ## Propriété PictureFrameLock.RotationLocked
 
-Détermine si un changement de l'angle de rotation de cette forme est interdit. Booléen en lecture/écriture.
+Détermine si un angle de rotation changeant de cette forme est interdit. Booléen en lecture/écriture.
 
 ```csharp
 public bool RotationLocked { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [PictureFrameLock](../../pictureframelock)
 * espace de noms [Aspose.Slides](../../pictureframelock)

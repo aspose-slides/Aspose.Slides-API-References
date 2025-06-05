@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/slide/remove/
 ---
+
 ## Slide.Remove method
 
 Removes slide from presentation.

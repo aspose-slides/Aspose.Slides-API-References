@@ -1,15 +1,15 @@
 ---
 title: InitColorScheme
-second_title: Référence API Aspose.Slides pour .NET
-description: Initialiser le ColorScheme avec un nouvel objet pour remplacer le ColorScheme de InheritedTheme.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Init ColorScheme avec un nouvel objet pour remplacer le ColorScheme de InheritedTheme.
 type: docs
 weight: 40
 url: /fr/aspose.slides.theme/ioverridetheme/initcolorscheme/
 ---
 
-## Méthode IOverrideTheme.InitColorScheme
+## IOverrideTheme.InitColorScheme méthode
 
-Initialiser le ColorScheme avec un nouvel objet pour remplacer le ColorScheme de InheritedTheme.
+Init ColorScheme avec un nouvel objet pour remplacer le ColorScheme de InheritedTheme.
 
 ```csharp
 public void InitColorScheme()
@@ -21,7 +21,7 @@ public void InitColorScheme()
 | --- | --- |
 | InvalidOperationException | Lancé si le ColorScheme est déjà initialisé (non nul). |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IOverrideTheme](../../ioverridetheme)
 * namespace [Aspose.Slides.Theme](../../ioverridetheme)

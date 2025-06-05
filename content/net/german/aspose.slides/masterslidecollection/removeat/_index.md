@@ -7,7 +7,7 @@ weight: 100
 url: /de/aspose.slides/masterslidecollection/removeat/
 ---
 
-## MasterSlideCollection.RemoveAt Methode
+## MasterSlideCollection.RemoveAt-Methode
 
 Entfernt das Element am angegebenen Index der Sammlung.
 
@@ -23,11 +23,11 @@ public void RemoveAt(int index)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Wird ausgelöst, wenn der Master, der entfernt werden soll, in der Präsentation verwendet wird (die Eigenschaft HasDependingSlides ist true). |
+| [PptxEditException](../../pptxeditexception) | Wird ausgelöst, wenn der Master, der entfernt werden soll, in der Präsentation verwendet wird (seine Eigenschaft HasDependingSlides ist wahr). |
 
-### Bemerkungen
+### Anmerkungen
 
-Um das Auslösen der PptxEditException zu vermeiden, überprüfen Sie vorher die Eigenschaft HasDependingSlides des Masters.
+Um das Auslösen der PptxEditException zu vermeiden, überprüfen Sie zuvor die Eigenschaft HasDependingSlides des Masters.
 
 ### Siehe Auch
 

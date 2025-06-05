@@ -1,13 +1,13 @@
 ---
 title: ImageDataGrayscale
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes for .NET API Reference
 description: Représente la propriété imageData.grayscale
 type: docs
 weight: 500
 url: /fr/aspose.slides.animation/behaviorproperty/imagedatagrayscale/
 ---
 
-## Propriété BehaviorProperty.ImageDataGrayscale
+## BehaviorProperty.ImageDataGrayscale propriété
 
 Représente la propriété 'imageData.grayscale'
 
@@ -15,7 +15,7 @@ Représente la propriété 'imageData.grayscale'
 public static BehaviorProperty ImageDataGrayscale { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [BehaviorProperty](../../behaviorproperty)
 * espace de noms [Aspose.Slides.Animation](../../behaviorproperty)

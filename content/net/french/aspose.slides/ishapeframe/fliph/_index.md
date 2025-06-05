@@ -1,13 +1,13 @@
 ---
 title: FlipH
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Détermine si un cadre est retourné horizontalement. Lecture seule NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 30
 url: /fr/aspose.slides/ishapeframe/fliph/
 ---
 
-## IShapeFrame.FlipH propriété
+## Propriété IShapeFrame.FlipH
 
 Détermine si un cadre est retourné horizontalement. Lecture seule [`NullableBool`](../../nullablebool).
 

@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/background/geteffective/
 ---
+
 ## Background.GetEffective method
 
 Gets effective background data with the inheritance applied.

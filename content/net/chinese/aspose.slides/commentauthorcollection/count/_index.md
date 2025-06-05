@@ -1,7 +1,7 @@
 ---
-title: 计数
-second_title: Aspose.Slides for .NET API 参考
-description: 获取集合中实际包含的元素数量。唯读 Int32。
+title: Count
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取集合中实际包含的元素数量。只读 Int32。
 type: docs
 weight: 10
 url: /zh/aspose.slides/commentauthorcollection/count/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/commentauthorcollection/count/
 
 ## CommentAuthorCollection.Count 属性
 
-获取集合中实际包含的元素数量。唯读 Int32。
+获取集合中实际包含的元素数量。只读 Int32。
 
 ```csharp
 public int Count { get; }

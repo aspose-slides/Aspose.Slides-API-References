@@ -1,7 +1,7 @@
 ---
-title: Nœuds
+title: Nodes
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie des collections de nœuds racines dans l'objet SmartArt. Lecture seule ISmartArtNodeCollectionaspose.slides.smartart/ismartartnodecollection.
+description: Renvoie des collections de nœuds racines dans l'objet SmartArt. Collection ISmartArtNodeCollection en lecture seule aspose.slides.smartart/ismartartnodecollection.
 type: docs
 weight: 60
 url: /fr/aspose.slides.smartart/ismartart/nodes/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.smartart/ismartart/nodes/
 
 ## Propriété ISmartArt.Nodes
 
-Renvoie des collections de nœuds racines dans l'objet SmartArt. Lecture seule [`ISmartArtNodeCollection`](../../ismartartnodecollection).
+Renvoie des collections de nœuds racines dans l'objet SmartArt. Collection en lecture seule [`ISmartArtNodeCollection`](../../ismartartnodecollection).
 
 ```csharp
 public ISmartArtNodeCollection Nodes { get; }

@@ -1,25 +1,25 @@
 ---
 title: SpreadsheetOptions
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa opciones que se pueden utilizar para especificar el comportamiento adicional de las hojas de cálculo.
+second_title: Aspose.Slides para .NET API Reference
+description: Representa opciones que se pueden usar para especificar el comportamiento adicional de las hojas de cálculo.
 type: docs
 weight: 130
 url: /es/aspose.slides/iloadoptions/spreadsheetoptions/
 ---
 
-## Propiedad ILoadOptions.SpreadsheetOptions
+## ILoadOptions.SpreadsheetOptions property
 
-Representa opciones que se pueden utilizar para especificar el comportamiento adicional de las hojas de cálculo.
+Representa opciones que se pueden usar para especificar el comportamiento adicional de las hojas de cálculo.
 
 ```csharp
 public ISpreadsheetOptions SpreadsheetOptions { get; set; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [ISpreadsheetOptions](../../ispreadsheetoptions)
-* interfaz [ILoadOptions](../../iloadoptions)
-* espacio de nombres [Aspose.Slides](../../iloadoptions)
-* ensamblaje [Aspose.Slides](../../../)
+* interface [ISpreadsheetOptions](../../ispreadsheetoptions)
+* interface [ILoadOptions](../../iloadoptions)
+* namespace [Aspose.Slides](../../iloadoptions)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

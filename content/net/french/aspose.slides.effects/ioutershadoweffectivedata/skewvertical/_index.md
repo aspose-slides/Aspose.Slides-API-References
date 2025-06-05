@@ -1,15 +1,15 @@
 ---
 title: SkewVertical
-second_title: Aspose.Slides pour .NET Référence de l'API
-description: Spécifie l'angle de déformation vertical en degrés. Lecture seule Double.
+second_title: Aspose.Slides pour .NET Référence API
+description: Spécifie l'angle de déformation verticale en degrés. En lecture seule Double.
 type: docs
 weight: 110
 url: /fr/aspose.slides.effects/ioutershadoweffectivedata/skewvertical/
 ---
 
-## Propriété IOuterShadowEffectiveData.SkewVertical
+## IOuterShadowEffectiveData.SkewVertical propriété
 
-Spécifie l'angle de déformation vertical (en degrés). Lecture seule Double.
+Spécifie l'angle de déformation verticale (en degrés). En lecture seule Double.
 
 ```csharp
 public double SkewVertical { get; }

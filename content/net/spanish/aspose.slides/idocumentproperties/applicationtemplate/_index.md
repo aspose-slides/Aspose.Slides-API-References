@@ -1,24 +1,24 @@
 ---
 title: ApplicationTemplate
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Devuelve o establece la plantilla de una aplicación. Cadena de lectura/escritura.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Devuelve o establece la plantilla de una aplicación. Lectura/escritura String.
 type: docs
 weight: 10
 url: /es/aspose.slides/idocumentproperties/applicationtemplate/
 ---
 
-## Propiedad IDocumentProperties.ApplicationTemplate
+## IDocumentProperties.ApplicationTemplate property
 
-Devuelve o establece la plantilla de una aplicación. Cadena de lectura/escritura.
+Devuelve o establece la plantilla de una aplicación. Lectura/escritura String.
 
 ```csharp
 public string ApplicationTemplate { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IDocumentProperties](../../idocumentproperties)
 * espacio de nombres [Aspose.Slides](../../idocumentproperties)
 * ensamblado [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->

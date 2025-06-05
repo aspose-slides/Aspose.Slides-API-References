@@ -1,15 +1,15 @@
 ---
 title: TransitionSideDirectionType
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt die Übergangstypen für Seitenrichtungen dar.
+description: Repräsentiert Übergangstypen für Seiteneinstellungen.
 type: docs
 weight: 10110
 url: /de/aspose.slides.slideshow/transitionsidedirectiontype/
 ---
 
-## Enumeration TransitionSideDirectionType
+## TransitionSideDirectionType Aufzählung
 
-Stellt die Übergangstypen für Seitenrichtungen dar.
+Repräsentiert Übergangstypen für Seiteneinstellungen.
 
 ```csharp
 public enum TransitionSideDirectionType

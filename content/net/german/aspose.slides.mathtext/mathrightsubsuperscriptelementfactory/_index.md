@@ -7,7 +7,7 @@ weight: 8700
 url: /de/aspose.slides.mathtext/mathrightsubsuperscriptelementfactory/
 ---
 
-## MathRightSubSuperscriptElementFactory-Klasse
+## MathRightSubSuperscriptElementFactory Klasse
 
 Ermöglicht die Erstellung von IMathRightSubSuperscriptElementFactory
 

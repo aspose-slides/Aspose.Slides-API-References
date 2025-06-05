@@ -1,6 +1,6 @@
 ---
 title: ShadowColor2
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示 shadow.color2 属性
 type: docs
 weight: 610

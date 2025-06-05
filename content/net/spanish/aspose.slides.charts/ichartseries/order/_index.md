@@ -1,5 +1,5 @@
 ---
-title: Orden
+title: Order
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el orden de una serie. Lectura/escritura Int32.
 type: docs
@@ -7,7 +7,7 @@ weight: 260
 url: /es/aspose.slides.charts/ichartseries/order/
 ---
 
-## Propiedad IChartSeries.Order
+## IChartSeries.Order property
 
 Devuelve el orden de una serie. Lectura/escritura Int32.
 
@@ -15,10 +15,10 @@ Devuelve el orden de una serie. Lectura/escritura Int32.
 public int Order { get; set; }
 ```
 
-### Véase También
+### Ver también
 
 * interfaz [IChartSeries](../../ichartseries)
 * espacio de nombres [Aspose.Slides.Charts](../../ichartseries)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

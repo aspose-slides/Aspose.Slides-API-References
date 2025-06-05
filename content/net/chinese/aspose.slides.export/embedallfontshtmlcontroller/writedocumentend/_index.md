@@ -1,7 +1,7 @@
 ---
 title: WriteDocumentEnd
 second_title: Aspose.Sildes for .NET API Reference
-description: 被调用以写入html文档页脚。每次演示文稿转换时调用一次。
+description: 用于写入 HTML 文档页脚。每次演示文稿转换时调用一次。
 type: docs
 weight: 30
 url: /zh/aspose.slides.export/embedallfontshtmlcontroller/writedocumentend/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/embedallfontshtmlcontroller/writedocumentend/
 
 ## EmbedAllFontsHtmlController.WriteDocumentEnd 方法
 
-被调用以写入html文档页脚。每次演示文稿转换时调用一次。
+用于写入 HTML 文档页脚。每次演示文稿转换时调用一次。
 
 ```csharp
 public virtual void WriteDocumentEnd(IHtmlGenerator generator, IPresentation presentation)

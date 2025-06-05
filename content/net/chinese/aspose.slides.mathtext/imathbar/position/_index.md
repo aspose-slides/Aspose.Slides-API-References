@@ -1,7 +1,7 @@
 ---
-title: 位置
-second_title: Aspose.Slides for .NET API 参考
-description: 横杠线的位置。默认值：顶部
+title: Position
+second_title: Aspose.Sildes for .NET API Reference
+description: 条形线的位置信息。默认：顶部
 type: docs
 weight: 30
 url: /zh/aspose.slides.mathtext/imathbar/position/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathbar/position/
 
 ## IMathBar.Position 属性
 
-横杠线的位置。默认值：顶部
+条形线的位置信息。默认：顶部
 
 ```csharp
 public MathTopBotPositions Position { get; set; }
@@ -25,7 +25,7 @@ IMathBar mathBar = new MathBar(new MathematicalText("x"));
 mathBar.Position = MathTopBotPositions.Bottom;
 ```
 
-### 另见
+### 参见
 
 * enum [MathTopBotPositions](../../mathtopbotpositions)
 * interface [IMathBar](../../imathbar)

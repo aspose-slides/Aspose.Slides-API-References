@@ -1,7 +1,7 @@
 ---
 title: CreateMathBorderBox
-second_title: Aspose.Slides für .NET API Referenz
-description: Erstellen Sie eine Math-Bordbox, indem Sie auf das Element anwenden
+second_title: Aspose.Slides für .NET API-Referenz
+description: Erstellen Sie eine Mathematikrahmenbox durch Anwendung auf das Element
 type: docs
 weight: 20
 url: /de/aspose.slides.mathtext/mathborderboxfactory/createmathborderbox/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/mathborderboxfactory/createmathborderbox/
 
 ## CreateMathBorderBox(IMathElement) {#createmathborderbox}
 
-Erstellen Sie eine Math-Bordbox, indem Sie auf das Element anwenden
+Erstellen Sie eine Mathematikrahmenbox durch Anwendung auf das Element
 
 ```csharp
 public IMathBorderBox CreateMathBorderBox(IMathElement element)
@@ -17,11 +17,11 @@ public IMathBorderBox CreateMathBorderBox(IMathElement element)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| element | IMathElement | Math-Element, auf das die Bordbox angewendet werden soll |
+| element | IMathElement | Mathematikelement zum Anwenden der Rahmenbox |
 
 ### Rückgabewert
 
-neues Bordbox-Element
+neues Rahmenbox-Element
 
 ### Siehe Auch
 
@@ -35,7 +35,7 @@ neues Bordbox-Element
 
 ## CreateMathBorderBox(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) {#createmathborderbox_1}
 
-Erstellen Sie eine Math-Bordbox, indem Sie auf das Element anwenden
+Erstellen Sie eine Mathematikrahmenbox durch Anwendung auf das Element
 
 ```csharp
 public IMathBorderBox CreateMathBorderBox(IMathElement element, bool hideTop, bool hideBottom, 
@@ -45,19 +45,19 @@ public IMathBorderBox CreateMathBorderBox(IMathElement element, bool hideTop, bo
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| element | IMathElement | Math-Element, auf das die Bordbox angewendet werden soll |
-| hideTop | Boolean | Ob obere Kante ausblenden |
-| hideBottom | Boolean | Ob untere Kante ausblenden |
-| hideLeft | Boolean | Ob linke Kante ausblenden |
-| hideRight | Boolean | Ob rechte Kante ausblenden |
-| strikethroughHorizontal | Boolean | Horizontale Durchstreichung der Bordbox |
-| strikethroughVertical | Boolean | Vertikale Durchstreichung der Bordbox |
-| strikethroughBottomLeftToTopRight | Boolean | Durchstreichung von unten links nach oben rechts der Bordbox |
-| strikethroughTopLeftToBottomRight | Boolean | Durchstreichung von oben links nach unten rechts der Bordbox |
+| element | IMathElement | Mathematikelement zum Anwenden der Rahmenbox |
+| hideTop | Boolean | Oberen Rand ausblenden |
+| hideBottom | Boolean | Unteren Rand ausblenden |
+| hideLeft | Boolean | Linken Rand ausblenden |
+| hideRight | Boolean | Rechten Rand ausblenden |
+| strikethroughHorizontal | Boolean | Rahmenbox Durchstreichung Horizontal |
+| strikethroughVertical | Boolean | Rahmenbox Durchstreichung Vertikal |
+| strikethroughBottomLeftToTopRight | Boolean | Rahmenbox Durchstreichung von unten links nach oben rechts |
+| strikethroughTopLeftToBottomRight | Boolean | Rahmenbox Durchstreichung von oben links nach unten rechts |
 
 ### Rückgabewert
 
-neues Bordbox-Element
+neues Rahmenbox-Element
 
 ### Siehe Auch
 

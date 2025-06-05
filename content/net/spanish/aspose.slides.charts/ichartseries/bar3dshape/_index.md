@@ -1,21 +1,21 @@
 ---
 title: Bar3DShape
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Especifica la forma de una serie de un gráfico de barras 3-D. Cambiar el valor de esta propiedad puede provocar un cambio automático en el Tipo de serie. Lectura/escritura ChartShapeTypeaspose.slides/chartshapetype.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Especifica la forma de una serie de un gráfico de barras 3-D. Cambiar el valor de esta propiedad puede causar un cambio automático en el tipo de serie. Lectura/escritura ChartShapeTypeaspose.slides/chartshapetype.
 type: docs
 weight: 20
 url: /es/aspose.slides.charts/ichartseries/bar3dshape/
 ---
 
-## Propiedad IChartSeries.Bar3DShape
+## IChartSeries.Bar3DShape property
 
-Especifica la forma de una serie de un gráfico de barras 3-D. Cambiar el valor de esta propiedad puede provocar un cambio automático en el Tipo de serie. Lectura/escritura [`ChartShapeType`](../../chartshapetype).
+Especifica la forma de una serie de un gráfico de barras 3-D. Cambiar el valor de esta propiedad puede causar un cambio automático en el tipo de serie. Lectura/escritura [`ChartShapeType`](../../chartshapetype).
 
 ```csharp
 public ChartShapeType Bar3DShape { get; set; }
 ```
 
-### Ver También
+### See Also
 
 * enum [ChartShapeType](../../chartshapetype)
 * interface [IChartSeries](../../ichartseries)

@@ -7,7 +7,7 @@ weight: 40
 url: /ru/aspose.slides/idigitalsignaturecollection/removeat/
 ---
 
-## Метод IDigitalSignatureCollection.RemoveAt
+## IDigitalSignatureCollection.RemoveAt метод
 
 Удаляет подпись по указанному индексу.
 
@@ -17,9 +17,9 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс подписи, которая должна быть удалена. |
+| index | Int32 | Индекс подписи, которую следует удалить. |
 
-### См. Также
+### Смотрите также
 
 * интерфейс [IDigitalSignatureCollection](../../idigitalsignaturecollection)
 * пространство имен [Aspose.Slides](../../idigitalsignaturecollection)

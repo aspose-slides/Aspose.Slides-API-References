@@ -1,6 +1,6 @@
 ---
 title: OdpReadException
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt eine Ausnahme dar, die bei Fehlern beim Lesen von Präsentationen ausgelöst wird.
 type: docs
 weight: 8950

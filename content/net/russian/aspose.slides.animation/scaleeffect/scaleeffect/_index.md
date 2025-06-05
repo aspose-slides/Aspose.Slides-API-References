@@ -1,6 +1,6 @@
 ---
 title: ScaleEffect
-second_title: Aspose.Slidеs для .NET API Справочник
+second_title: Aspose.Slides для .NET API Справочник
 description: Конструктор по умолчанию.
 type: docs
 weight: 10

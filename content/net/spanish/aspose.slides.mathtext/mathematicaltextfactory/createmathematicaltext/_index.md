@@ -1,6 +1,6 @@
 ---
 title: CreateMathematicalText
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Referencia
 description: Crear elemento de texto matemático vacío
 type: docs
 weight: 20
@@ -15,11 +15,11 @@ Crear elemento de texto matemático vacío
 public IMathematicalText CreateMathematicalText()
 ```
 
-### Valor de Retorno
+### Valor de retorno
 
-nuevo Texto Matemático
+nuevo texto matemático
 
-### Véase También
+### Véase también
 
 * interfaz [IMathematicalText](../../imathematicaltext)
 * clase [MathematicalTextFactory](../../mathematicaltextfactory)
@@ -36,15 +36,15 @@ Crear elemento de texto matemático con el valor especificado
 public IMathematicalText CreateMathematicalText(char mathSymbol)
 ```
 
-| Parámetro  | Tipo | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| mathSymbol | Char | símbolo único para usar como valor de texto |
+| mathSymbol | Char | símbolo único a utilizar como valor de texto |
 
-### Valor de Retorno
+### Valor de retorno
 
-nuevo Texto Matemático
+nuevo texto matemático
 
-### Véase También
+### Véase también
 
 * interfaz [IMathematicalText](../../imathematicaltext)
 * clase [MathematicalTextFactory](../../mathematicaltextfactory)
@@ -61,15 +61,15 @@ Crear elemento de texto matemático vacío con el valor especificado
 public IMathematicalText CreateMathematicalText(string mathText)
 ```
 
-| Parámetro  | Tipo | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | mathText | String | valor de texto |
 
-### Valor de Retorno
+### Valor de retorno
 
-nuevo Texto Matemático
+nuevo texto matemático
 
-### Véase También
+### Véase también
 
 * interfaz [IMathematicalText](../../imathematicaltext)
 * clase [MathematicalTextFactory](../../mathematicaltextfactory)
@@ -86,16 +86,16 @@ Crear elemento de texto matemático vacío con el valor especificado y propiedad
 public IMathematicalText CreateMathematicalText(string mathText, IPortionFormat portionFormat)
 ```
 
-| Parámetro  | Tipo | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | mathText | String | valor de texto |
 | portionFormat | IPortionFormat | configuraciones de formato de texto |
 
-### Valor de Retorno
+### Valor de retorno
 
-nuevo Texto Matemático
+nuevo texto matemático
 
-### Véase También
+### Véase también
 
 * interfaz [IMathematicalText](../../imathematicaltext)
 * interfaz [IPortionFormat](../../../aspose.slides/iportionformat)

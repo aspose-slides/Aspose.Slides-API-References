@@ -1,7 +1,7 @@
 ---
-title: 添加数学形状
-second_title: Aspose.Slides for .NET API 参考
-description: 创建一个从默认模板调整到数学内容的新自动形状，并将其添加到集合的末尾。
+title: AddMathShape
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建一个新的自动形状，基于默认模板调整为数学内容，并将其添加到集合的末尾。
 type: docs
 weight: 140
 url: /zh/aspose.slides/shapecollection/addmathshape/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/shapecollection/addmathshape/
 
 ## ShapeCollection.AddMathShape 方法
 
-创建一个从默认模板调整到数学内容的新自动形状，并将其添加到集合的末尾。
+创建一个新的自动形状，基于默认模板调整为数学内容，并将其添加到集合的末尾。
 
 ```csharp
 public IAutoShape AddMathShape(float x, float y, float width, float height)
@@ -17,10 +17,10 @@ public IAutoShape AddMathShape(float x, float y, float width, float height)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| x | Single | 形状框架左侧的 X 坐标。 |
-| y | Single | 形状框架顶部的 Y 坐标。 |
-| width | Single | 形状框架的宽度。 |
-| height | Single | 形状框架的高度。 |
+| x | Single | 形状框左侧的 X 坐标。 |
+| y | Single | 形状框顶部的 Y 坐标。 |
+| width | Single | 形状框的宽度。 |
+| height | Single | 形状框的高度。 |
 
 ### 返回值
 
@@ -49,7 +49,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IAutoShape](../../iautoshape)
 * 类 [ShapeCollection](../../shapecollection)

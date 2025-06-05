@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/colorformat/b/
 ---
+
 ## ColorFormat.B property
 
 Returns or sets the blue component of a color. All color transformations are ignored. Read/write Byte.

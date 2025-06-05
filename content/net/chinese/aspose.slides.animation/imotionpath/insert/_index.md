@@ -1,6 +1,6 @@
 ---
-title: 插入
-second_title: Aspose.Slides for .NET API 参考
+title: Insert
+second_title: Aspose.Sildes for .NET API Reference
 description: 将新命令插入路径
 type: docs
 weight: 60
@@ -21,10 +21,10 @@ public void Insert(int index, MotionCommandPathType type, PointF[] pts,
 | index | Int32 | 命令插入的索引 Int32 |
 | type | MotionCommandPathType | 动画运动效果行为的命令类型 [`MotionCommandPathType`](../../motioncommandpathtype) |
 | pts | PointF[] | 点数组 PointF[] |
-| ptsType | MotionPathPointsType | 动画运动路径中点的类型 [`MotionPathPointsType`](../../motionpathpointstype) |
+| ptsType | MotionPathPointsType | 动画运动路径中的点的类型 [`MotionPathPointsType`](../../motionpathpointstype) |
 | bRelativeCoord | Boolean | 指示是否使用相对坐标 Boolean |
 
-### 另请参见
+### 参见
 
 * enum [MotionCommandPathType](../../motioncommandpathtype)
 * enum [MotionPathPointsType](../../motionpathpointstype)

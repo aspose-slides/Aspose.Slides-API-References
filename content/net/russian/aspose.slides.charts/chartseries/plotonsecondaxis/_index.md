@@ -1,7 +1,7 @@
 ---
 title: PlotOnSecondAxis
-second_title: Aspose.Slides для .NET Справочник по API
-description: Указывает, если эта серия отображается на вторичной оси. Читаемый/записываемый Boolean.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Указывает, построена ли эта серия на вторичной оси. Запись/чтение Boolean.
 type: docs
 weight: 330
 url: /ru/aspose.slides.charts/chartseries/plotonsecondaxis/
@@ -9,14 +9,13 @@ url: /ru/aspose.slides.charts/chartseries/plotonsecondaxis/
 
 ## ChartSeries.PlotOnSecondAxis свойство
 
-Указывает, если эта серия отображается на вторичной оси. Читаемый/записываемый Boolean.
+Указывает, построена ли эта серия на вторичной оси. Запись/чтение Boolean.
 
 ```csharp
 public bool PlotOnSecondAxis { get; set; }
 ```
 
-### Также см.
-
+### См. также
 
 * класс [ChartSeries](../../chartseries)
 * пространство имен [Aspose.Slides.Charts](../../chartseries)

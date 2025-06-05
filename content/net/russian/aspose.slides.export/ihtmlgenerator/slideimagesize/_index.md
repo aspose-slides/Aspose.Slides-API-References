@@ -1,13 +1,13 @@
 ---
-title: РазмерИзображенияСлайда
-second_title: Справка по API Aspose.Slides для .NET
+title: SlideImageSize
+second_title: Aspose.Sildes для .NET API Reference
 description: Возвращает размер изображения слайда. Только для чтения SizeF.
 type: docs
 weight: 30
 url: /ru/aspose.slides.export/ihtmlgenerator/slideimagesize/
 ---
 
-## Свойство IHtmlGenerator.SlideImageSize
+## IHtmlGenerator.SlideImageSize свойство
 
 Возвращает размер изображения слайда. Только для чтения SizeF.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export/ihtmlgenerator/slideimagesize/
 public SizeF SlideImageSize { get; }
 ```
 
-### Смотрите также
+### Смотрите Также
 
 * интерфейс [IHtmlGenerator](../../ihtmlgenerator)
 * пространство имен [Aspose.Slides.Export](../../ihtmlgenerator)

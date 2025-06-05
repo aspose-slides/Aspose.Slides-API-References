@@ -1,6 +1,6 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Slides for .NET API Reference
 description: Gibt einen Enumerator zurück, der durch die Sammlung iteriert.
 type: docs
 weight: 40
@@ -19,7 +19,7 @@ public IEnumerator<ITrendline> GetEnumerator()
 
 Ein IEnumerator, der verwendet werden kann, um durch die Sammlung zu iterieren.
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ITrendline](../../itrendline)
 * Klasse [TrendlineCollection](../../trendlinecollection)

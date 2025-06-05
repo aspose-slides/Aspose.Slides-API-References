@@ -1,7 +1,7 @@
 ---
-title: 亮度
-second_title: Aspose.Slides for .NET API 参考
-description: 亮度。只读单一值。
+title: Brightness
+second_title: Aspose.Sildes for .NET API Reference
+description: 亮度。只读单精度浮点数。
 type: docs
 weight: 20
 url: /zh/aspose.slides.effects/iluminanceeffectivedata/brightness/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.effects/iluminanceeffectivedata/brightness/
 
 ## ILuminanceEffectiveData.Brightness 属性
 
-亮度。只读单一值。
+亮度。只读单精度浮点数。
 
 ```csharp
 public float Brightness { get; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [ILuminanceEffectiveData](../../iluminanceeffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../iluminanceeffectivedata)

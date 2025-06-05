@@ -1,6 +1,6 @@
 ---
-title: Звук
-second_title: Ссылка на API Aspose.Slides для .NET
+title: Sound
+second_title: Aspose.Sildes для .NET Справочник по API
 description: Представляет воспроизводимый звук гиперссылки. Чтение/запись IAudioaspose.slides/iaudio.
 type: docs
 weight: 160
@@ -23,12 +23,12 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 {
     ISlide slide = presentation.Slides[0];
     
-    // Получить гиперссылку первой фигуры
+    // Получить первую гиперссылку фигуры
     IHyperlink link = presentation.Slides[0].Shapes[0].HyperlinkClick;
        
     if (link.Sound != null)
     {
-        // Извлечь звук гиперссылки в массив байт
+        // Извлечь звук гиперссылки в массив байтов
         byte[] audioData = link.Sound.BinaryData;
     }
 }

@@ -1,7 +1,7 @@
 ---
 title: StartPosAlpha
 second_title: Aspose.Sildes for .NET API Reference
-description: 指定起始透明度值百分比的起始位置（沿透明度渐变坡道）。可读写 Single。
+description: 指定起始 alpha 值百分比的 alpha 渐变坡道的起始位置。可读写单精度浮点数。
 type: docs
 weight: 150
 url: /zh/aspose.slides.effects/ireflection/startposalpha/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.effects/ireflection/startposalpha/
 
 ## IReflection.StartPosAlpha 属性
 
-指定起始透明度值（百分比）的起始位置（沿透明度渐变坡道）。可读写 Single。
+指定起始 alpha 值（百分比）的起始位置（沿着 alpha 渐变坡道）。可读写单精度浮点数。
 
 ```csharp
 public float StartPosAlpha { get; set; }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [IReflection](../../ireflection)
 * 命名空间 [Aspose.Slides.Effects](../../ireflection)

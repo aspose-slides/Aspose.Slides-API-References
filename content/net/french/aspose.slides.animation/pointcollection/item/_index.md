@@ -1,5 +1,5 @@
 ---
-title: Élément
+title: Item
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie un point à l'index spécifié.
 type: docs
@@ -19,7 +19,7 @@ public IPoint this[int index] { get; }
 | --- | --- |
 | index |  |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IPoint](../../ipoint)
 * class [PointCollection](../../pointcollection)

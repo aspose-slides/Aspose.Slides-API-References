@@ -1,7 +1,7 @@
 ---
 title: HasDependingSlides
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne vrai s'il existe au moins une diapositive qui dépend de cette diapositive maître. Booléen en lecture seule.
+description: Renvoie vrai s'il existe au moins une diapositive qui dépend de cette diapositive maître. Booléen en lecture seule.
 type: docs
 weight: 20
 url: /fr/aspose.slides/masterslide/hasdependingslides/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/masterslide/hasdependingslides/
 
 ## Propriété MasterSlide.HasDependingSlides
 
-Retourne vrai s'il existe au moins une diapositive qui dépend de cette diapositive maître. Booléen en lecture seule.
+Renvoie vrai s'il existe au moins une diapositive qui dépend de cette diapositive maître. Booléen en lecture seule.
 
 ```csharp
 public bool HasDependingSlides { get; }

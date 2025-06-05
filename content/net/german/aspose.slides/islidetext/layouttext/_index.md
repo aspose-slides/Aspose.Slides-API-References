@@ -17,7 +17,7 @@ public string LayoutText { get; }
 
 ### Siehe auch
 
-* Interface [ISlideText](../../islidetext)
+* Schnittstelle [ISlideText](../../islidetext)
 * Namespace [Aspose.Slides](../../islidetext)
 * Assembly [Aspose.Slides](../../../)
 

@@ -1,7 +1,7 @@
 ---
 title: LinkPathLong
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Devuelve la URL de imágenes vinculadas. Solo lectura String.
+second_title: Referencia de la API Aspose.Sildes para .NET
+description: Devuelve la URL de las imágenes vinculadas. Solo lectura String.
 type: docs
 weight: 30
 url: /es/aspose.slides/ipictureeffectivedata/linkpathlong/
@@ -15,7 +15,7 @@ Devuelve la URL de la imagen vinculada. Solo lectura String.
 public string LinkPathLong { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IPictureEffectiveData](../../ipictureeffectivedata)
 * espacio de nombres [Aspose.Slides](../../ipictureeffectivedata)

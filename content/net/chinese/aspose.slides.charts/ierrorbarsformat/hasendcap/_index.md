@@ -1,7 +1,7 @@
 ---
 title: HasEndCap
-second_title: Aspose.Slides for .NET API 参考
-description: 指定在误差条上不绘制端盖。可读写布尔值。
+second_title: Aspose.Slides for .NET API Reference
+description: 指定错误条形图上不绘制端帽。可读写的布尔值。
 type: docs
 weight: 30
 url: /zh/aspose.slides.charts/ierrorbarsformat/hasendcap/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ierrorbarsformat/hasendcap/
 
 ## IErrorBarsFormat.HasEndCap 属性
 
-指定在误差条上不绘制端盖。可读写布尔值。
+指定错误条形图上不绘制端帽。可读写的布尔值。
 
 ```csharp
 public bool HasEndCap { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IErrorBarsFormat](../../ierrorbarsformat)
 * 命名空间 [Aspose.Slides.Charts](../../ierrorbarsformat)

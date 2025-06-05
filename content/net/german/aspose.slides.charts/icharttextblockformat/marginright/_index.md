@@ -1,7 +1,7 @@
 ---
 title: MarginRight
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die rechten Randpunkte in einem TextFrame zurück oder legt diese fest. Die Änderung dieser Eigenschaft kann nur einen bestimmten Einfluss auf diese Chartteile haben DataLabel und DataLabelFormat vollständige Unterstützung in PowerPoint 2013; in PowerPoint 2007 hat sie keinen Einfluss auf das Rendering. Lesen/Schreiben Double.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die rechten Margin-Punkte in einem TextFrame zurück oder setzt sie. Die Änderung dieser Eigenschaft kann nur einen gewissen Einfluss auf diese Diagrammteile DataLabel und DataLabelFormat ausüben volle Unterstützung in PowerPoint 2013; in PowerPoint 2007 gibt es keinen Einfluss auf die Darstellung. Lese-/schreibbarer Double.
 type: docs
 weight: 60
 url: /de/aspose.slides.charts/icharttextblockformat/marginright/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/icharttextblockformat/marginright/
 
 ## IChartTextBlockFormat.MarginRight-Eigenschaft
 
-Gibt den rechten Rand (Punkte) in einem TextFrame zurück oder legt diesen fest. Die Änderung dieser Eigenschaft kann nur einen bestimmten Einfluss auf diese Chartteile haben: DataLabel und DataLabelFormat (vollständige Unterstützung in PowerPoint 2013; in PowerPoint 2007 hat sie keinen Einfluss auf das Rendering). Lesen/Schreiben Double.
+Gibt den rechten Rand (Punkte) in einem TextFrame zurück oder setzt ihn. Die Änderung dieser Eigenschaft kann nur einen gewissen Einfluss auf diese Diagrammteile: DataLabel und DataLabelFormat haben (volle Unterstützung in PowerPoint 2013; in PowerPoint 2007 gibt es keinen Einfluss auf die Darstellung). Lese-/schreibbarer Double.
 
 ```csharp
 public double MarginRight { get; set; }

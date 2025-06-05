@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.mathtext/mathematicaltext/value/
 ---
+
 ## MathematicalText.Value property
 
 Text value

@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides/baseslide/createthemeeffective/
 ---
+
 ## BaseSlide.CreateThemeEffective method
 
 Returns an effective theme for this slide.

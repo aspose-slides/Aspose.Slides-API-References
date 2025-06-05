@@ -1,21 +1,21 @@
 ---
-title: 计数
-second_title: Aspose.Slides for .NET API 参考
-description: 返回集合中自定义 XML 部件的计数。只读 Int32。
+title: Count
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回集合中的自定义 XML 部件的数量。只读 Int32。
 type: docs
 weight: 10
 url: /zh/aspose.slides/customxmlpartcollection/count/
 ---
 
-## CustomXmlPartCollection.Count 属性
+## CustomXmlPartCollection.Count property
 
-返回集合中自定义 XML 部件的计数。只读 Int32。
+返回集合中的自定义 XML 部件的数量。只读 Int32。
 
 ```csharp
 public int Count { get; }
 ```
 
-### 另请参阅
+### See Also
 
 * class [CustomXmlPartCollection](../../customxmlpartcollection)
 * namespace [Aspose.Slides](../../customxmlpartcollection)

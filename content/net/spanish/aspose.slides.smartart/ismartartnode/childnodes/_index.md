@@ -7,7 +7,7 @@ weight: 20
 url: /es/aspose.slides.smartart/ismartartnode/childnodes/
 ---
 
-## Propiedad ISmartArtNode.ChildNodes
+## ISmartArtNode.ChildNodes property
 
 Devuelve colecciones de todos los nodos hijos del nodo actual. Solo lectura [`ISmartArtNodeCollection`](../../ismartartnodecollection).
 
@@ -15,11 +15,11 @@ Devuelve colecciones de todos los nodos hijos del nodo actual. Solo lectura [`IS
 public ISmartArtNodeCollection ChildNodes { get; }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [ISmartArtNodeCollection](../../ismartartnodecollection)
 * interfaz [ISmartArtNode](../../ismartartnode)
 * espacio de nombres [Aspose.Slides.SmartArt](../../ismartartnode)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

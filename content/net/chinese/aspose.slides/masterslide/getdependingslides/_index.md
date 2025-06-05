@@ -1,7 +1,7 @@
 ---
-title: 获取依赖幻灯片
-second_title: Aspose.Slides for .NET API 参考
-description: 返回一个包含所有依赖于该母版幻灯片的幻灯片的数组。
+title: GetDependingSlides
+second_title: Aspose.Slides for .NET API Reference
+description: 返回一个数组，包含所有依赖于此母版幻灯片的幻灯片。
 type: docs
 weight: 120
 url: /zh/aspose.slides/masterslide/getdependingslides/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/masterslide/getdependingslides/
 
 ## MasterSlide.GetDependingSlides 方法
 
-返回一个包含所有依赖于该母版幻灯片的幻灯片的数组。
+返回一个数组，包含所有依赖于此母版幻灯片的幻灯片。
 
 ```csharp
 public ISlide[] GetDependingSlides()

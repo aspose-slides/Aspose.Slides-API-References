@@ -1,6 +1,6 @@
 ---
-title: Distancia
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Distance
+second_title: Aspose.Slides para .NET Referencia de API
 description: Distancia de la sombra. Solo lectura Double.
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ Distancia de la sombra. Solo lectura Double.
 public double Distance { get; }
 ```
 
-### Ver también
+### Véase también
 
 * interfaz [IInnerShadowEffectiveData](../../iinnershadoweffectivedata)
 * espacio de nombres [Aspose.Slides.Effects](../../iinnershadoweffectivedata)

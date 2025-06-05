@@ -1,13 +1,13 @@
 ---
-title: Hinzufügen
-second_title: Aspose.Sildes für .NET API Referenz
-description: Fügen Sie IMathBlock am Ende der Sammlung hinzu.
+title: Add
+second_title: Aspose.Slides für .NET API-Referenz
+description: Fügt IMathBlock am Ende der Sammlung hinzu.
 type: docs
 weight: 40
 url: /de/aspose.slides.mathtext/imathblockcollection/add/
 ---
 
-## IMathBlockCollection.Add Methode
+## IMathBlockCollection.Add-Methode
 
 Fügt IMathBlock am Ende der Sammlung hinzu.
 
@@ -29,7 +29,7 @@ IMathBlockCollection blockCollection = new MathParagraph();
 blockCollection.Add(new MathBlock(new MathematicalText("x")));
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMathBlock](../../imathblock)
 * Schnittstelle [IMathBlockCollection](../../imathblockcollection)

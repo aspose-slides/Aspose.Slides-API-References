@@ -1,7 +1,7 @@
 ---
 title: PositionLocked
 second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob das Bewegen dieser Form verboten ist. Lese-/Schreib-Boolesch.
+description: Bestimmt, ob das Bewegen dieser Form verboten ist. Schreib-/Lese-Boolean.
 type: docs
 weight: 70
 url: /de/aspose.slides/pictureframelock/positionlocked/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/pictureframelock/positionlocked/
 
 ## PictureFrameLock.PositionLocked-Eigenschaft
 
-Bestimmt, ob das Bewegen dieser Form verboten ist. Lese-/Schreib-Boolesch.
+Bestimmt, ob das Bewegen dieser Form verboten ist. Schreib-/Lese-Boolean.
 
 ```csharp
 public bool PositionLocked { get; set; }

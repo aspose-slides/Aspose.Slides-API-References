@@ -1,21 +1,21 @@
 ---
 title: AnchorPoint
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne ou définit un point dans l'espace 3D. Ce point est le point dans l'espace qui ancre le plan de fond. Point 3D représenté par un tableau de 3 valeurs flottantes qui définissent les coordonnées X, Y et Z. Lecture/écriture Simple.
+second_title: Aspose.Slides pour .NET API Référence
+description: Renvoie ou définit un point dans l'espace 3D. Ce point est le point dans l'espace qui ancre le plan de fond. Point 3D représenté par un tableau de 3 valeurs flottantes qui définissent les coordonnées X, Y et Z. Lecture/écriture Simple.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ibackdrop3dscene/anchorpoint/
 ---
 
-## Propriété IBackdrop3DScene.AnchorPoint
+## IBackdrop3DScene.AnchorPoint propriété
 
-Retourne ou définit un point dans l'espace 3D. Ce point est le point dans l'espace qui ancre le plan de fond. Point 3D représenté par un tableau de 3 valeurs flottantes qui définissent les coordonnées X, Y et Z. Lecture/écriture Simple[].
+Renvoie ou définit un point dans l'espace 3D. Ce point est le point dans l'espace qui ancre le plan de fond. Point 3D représenté par un tableau de 3 valeurs flottantes qui définissent les coordonnées X, Y et Z. Lecture/écriture Simple[].
 
 ```csharp
 public float[] AnchorPoint { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IBackdrop3DScene](../../ibackdrop3dscene)
 * namespace [Aspose.Slides](../../ibackdrop3dscene)

@@ -27,10 +27,8 @@ public class NotesSize : INotesSize
 | --- | --- |
 | [Size](../../aspose.slides/notessize/size) { get; set; } | Devuelve o establece el tamaño en puntos. Lectura/escritura SizeF. |
 
-### Vea También
+### Véase También
 
 * interfaz [INotesSize](../inotessize)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
 * ensamblado [Aspose.Slides](../../)
-
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

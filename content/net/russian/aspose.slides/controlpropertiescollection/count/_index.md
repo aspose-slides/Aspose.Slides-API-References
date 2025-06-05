@@ -1,6 +1,6 @@
 ---
-title: Количество
-second_title: Ссылка на API Aspose.Sildes для .NET
+title: Count
+second_title: Aspose.Sildes для .NET API Справка
 description: Возвращает количество свойств в коллекции. Только для чтения Int32.
 type: docs
 weight: 10

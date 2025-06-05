@@ -1,6 +1,6 @@
 ---
-title: Élément
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Item
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Obtient l'élément à l'index spécifié. Lecture seule IAudioaspose.slides/iaudio.
 type: docs
 weight: 10

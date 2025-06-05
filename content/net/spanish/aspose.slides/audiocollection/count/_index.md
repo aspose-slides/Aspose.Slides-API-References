@@ -1,5 +1,5 @@
 ---
-title: Conteo
+title: Count
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve un número de archivos de audio en la colección. Solo lectura Int32.
 type: docs
@@ -15,10 +15,10 @@ Devuelve un número de archivos de audio en la colección. Solo lectura Int32.
 public int Count { get; }
 ```
 
-### Vea También
+### Véase también
 
-* class [AudioCollection](../../audiocollection)
-* namespace [Aspose.Slides](../../audiocollection)
-* assembly [Aspose.Slides](../../../)
+* clase [AudioCollection](../../audiocollection)
+* espacio de nombres [Aspose.Slides](../../audiocollection)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

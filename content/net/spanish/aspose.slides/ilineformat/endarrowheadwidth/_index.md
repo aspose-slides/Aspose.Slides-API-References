@@ -7,7 +7,7 @@ weight: 110
 url: /es/aspose.slides/ilineformat/endarrowheadwidth/
 ---
 
-## Propiedad ILineFormat.EndArrowheadWidth
+## ILineFormat.EndArrowheadWidth property
 
 Devuelve o establece el ancho de la punta de la flecha al final de una línea. Lectura/escritura [`LineArrowheadWidth`](../../linearrowheadwidth).
 

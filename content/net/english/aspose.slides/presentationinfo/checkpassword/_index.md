@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/presentationinfo/checkpassword/
 ---
+
 ## PresentationInfo.CheckPassword method
 
 Checks whether a password is correct for a presentation protected with open password.

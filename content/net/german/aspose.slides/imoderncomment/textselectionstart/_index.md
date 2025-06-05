@@ -1,7 +1,7 @@
 ---
 title: TextSelectionStart
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt die Startposition der Textauswahl im Textfeld zurück oder setzt sie, wenn der Kommentar mit AutoShape verbunden ist. Lese-/Schreibzugriff Int32.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Startposition der Textauswahl im Textfeld zurück oder setzt sie, wenn der Kommentar mit AutoShape verknüpft ist. Lese-/Schreibzugriff auf Int32.
 type: docs
 weight: 50
 url: /de/aspose.slides/imoderncomment/textselectionstart/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/imoderncomment/textselectionstart/
 
 ## IModernComment.TextSelectionStart-Eigenschaft
 
-Gibt die Startposition der Textauswahl im Textfeld zurück oder setzt sie, wenn der Kommentar mit AutoShape verbunden ist. Lese-/Schreibzugriff Int32.
+Gibt die Startposition der Textauswahl im Textfeld zurück oder setzt sie, wenn der Kommentar mit AutoShape verknüpft ist. Lese-/Schreibzugriff auf Int32.
 
 ```csharp
 public int TextSelectionStart { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IModernComment](../../imoderncomment)
 * Namespace [Aspose.Slides](../../imoderncomment)

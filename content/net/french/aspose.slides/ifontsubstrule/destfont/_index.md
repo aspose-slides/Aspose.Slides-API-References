@@ -1,7 +1,7 @@
 ---
 title: DestFont
 second_title: Référence API Aspose.Slides pour .NET
-description: Police à utiliser pour la substitution. Lecture seule IFontDataaspose.slides/ifontdata.
+description: Police à utiliser pour la substitution Lecture seule IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ifontsubstrule/destfont/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ifontsubstrule/destfont/
 
 ## Propriété IFontSubstRule.DestFont
 
-Police à utiliser pour la substitution. Lecture seule [`IFontData`](../../ifontdata).
+Police à utiliser pour la substitution Lecture seule [`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData DestFont { get; }

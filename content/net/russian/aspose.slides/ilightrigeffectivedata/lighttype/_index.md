@@ -1,7 +1,7 @@
 ---
 title: LightType
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет предустановленный источник света, который можно применить к фигуре. Освещение представляет собой группу источников света, ориентированных определенным образом относительно 3D-сцены. Только для чтения LightRigPresetTypeaspose.slides/lightrigpresettype.
+second_title: Aspose.Sildes для .NET API Справка
+description: Представляет предустановленное освещение, которое можно применить к фигуре. Освещение представляет собой группу источников света, ориентированных определенным образом относительно 3D-сцены. Только для чтения LightRigPresetTypeaspose.slides/lightrigpresettype.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ilightrigeffectivedata/lighttype/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/ilightrigeffectivedata/lighttype/
 
 ## ILightRigEffectiveData.LightType свойство
 
-Представляет предустановленный источник света, который можно применить к фигуре. Освещение представляет собой группу источников света, ориентированных определенным образом относительно 3D-сцены. Только для чтения [`LightRigPresetType`](../../lightrigpresettype).
+Представляет предустановленное освещение, которое можно применить к фигуре. Освещение представляет собой группу источников света, ориентированных определенным образом относительно 3D-сцены. Только для чтения [`LightRigPresetType`](../../lightrigpresettype).
 
 ```csharp
 public LightRigPresetType LightType { get; }
 ```
 
-### См. также
+### Смотрите Также
 
 * enum [LightRigPresetType](../../lightrigpresettype)
 * interface [ILightRigEffectiveData](../../ilightrigeffectivedata)

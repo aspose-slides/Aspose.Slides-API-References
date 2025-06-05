@@ -1,7 +1,7 @@
 ---
 title: TableStylePreset
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente les styles de table intégrés.
+second_title: Référence API Aspose.Slides pour .NET
+description: Représente les styles de tableau intégrés.
 type: docs
 weight: 10570
 url: /fr/aspose.slides/tablestylepreset/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/tablestylepreset/
 
 ## Énumération TableStylePreset
 
-Représente les styles de table intégrés.
+Représente les styles de tableau intégrés.
 
 ```csharp
 public enum TableStylePreset
@@ -19,8 +19,8 @@ public enum TableStylePreset
 
 | Nom | Valeur | Description |
 | --- | --- | --- |
-| Custom | `-1` | La table a un style personnalisé. Ceci est une valeur en lecture seule. |
-| None | `0` | Aucun style. |
+| Custom | `-1` | Le tableau a un style personnalisé. Ceci est une valeur en lecture seule. |
+| None | `0` | Pas de style. |
 | MediumStyle2Accent1 | `1` | Style moyen 2 - Accent 1. |
 | MediumStyle2 | `2` | Style moyen 2. |
 | NoStyleNoGrid | `3` | Pas de style, pas de grille. |
@@ -30,7 +30,7 @@ public enum TableStylePreset
 | ThemedStyle1Accent4 | `7` | Style thématique 1 - Accent 4. |
 | ThemedStyle1Accent5 | `8` | Style thématique 1 - Accent 5. |
 | ThemedStyle1Accent6 | `9` | Style thématique 1 - Accent 6. |
-| NoStyleTableGrid | `10` | Pas de style, grille de table. |
+| NoStyleTableGrid | `10` | Pas de style, grille de tableau. |
 | ThemedStyle2Accent1 | `11` | Style thématique 2 - Accent 1. |
 | ThemedStyle2Accent2 | `12` | Style thématique 2 - Accent 2. |
 | ThemedStyle2Accent3 | `13` | Style thématique 2 - Accent 3. |

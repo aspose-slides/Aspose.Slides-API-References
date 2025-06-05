@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/iparagraphfactory/createparagraph/
 ---
+
 ## CreateParagraph() {#createparagraph}
 
 Creates a new empty paragraph.

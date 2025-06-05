@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/ieffectformateffectivedata/softedgeeffect/
 ---
+
 ## IEffectFormatEffectiveData.SoftEdgeEffect property
 
 Soft edge. Read-only [`ISoftEdgeEffectiveData`](../../../aspose.slides.effects/isoftedgeeffectivedata).

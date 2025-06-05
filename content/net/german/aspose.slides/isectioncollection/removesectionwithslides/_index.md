@@ -1,15 +1,15 @@
 ---
 title: RemoveSectionWithSlides
 second_title: Aspose.Slides für .NET API-Referenz
-description: Entfernen Sie die Sektion und die darin enthaltenen Folien.
+description: Entfernen Sie die Sektion und Folien, die in der Sektion enthalten sind.
 type: docs
 weight: 80
 url: /de/aspose.slides/isectioncollection/removesectionwithslides/
 ---
 
-## ISectionCollection.RemoveSectionWithSlides-Methode
+## ISectionCollection.RemoveSectionWithSlides Methode
 
-Entfernen Sie die Sektion und die darin enthaltenen Folien.
+Entfernen Sie die Sektion und Folien, die in der Sektion enthalten sind.
 
 ```csharp
 public void RemoveSectionWithSlides(ISection section)
@@ -19,7 +19,7 @@ public void RemoveSectionWithSlides(ISection section)
 | --- | --- | --- |
 | section | ISection | Die Sektion, die aus der Sammlung entfernt werden soll. |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ISection](../../isection)
 * Schnittstelle [ISectionCollection](../../isectioncollection)

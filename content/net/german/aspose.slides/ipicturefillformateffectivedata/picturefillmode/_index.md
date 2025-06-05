@@ -1,7 +1,7 @@
 ---
 title: PictureFillMode
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Bildfüllmodus zurück. Nur-Lese PictureFillModeaspose.slides/picturefillmode.
+description: Gibt den Bildfüllmodus zurück. Nur lesbarer PictureFillModeaspose.slides/picturefillmode.
 type: docs
 weight: 80
 url: /de/aspose.slides/ipicturefillformateffectivedata/picturefillmode/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ipicturefillformateffectivedata/picturefillmode/
 
 ## IPictureFillFormatEffectiveData.PictureFillMode-Eigenschaft
 
-Gibt den Bildfüllmodus zurück. Nur-Lese [`PictureFillMode`](../../picturefillmode).
+Gibt den Bildfüllmodus zurück. Nur lesbarer [`PictureFillMode`](../../picturefillmode).
 
 ```csharp
 public PictureFillMode PictureFillMode { get; }

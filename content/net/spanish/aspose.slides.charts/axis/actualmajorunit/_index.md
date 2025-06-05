@@ -1,6 +1,6 @@
 ---
 title: ActualMajorUnit
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Especifica la unidad mayor actual del eje. Llama al método IChart.ValidateChartLayout previamente para obtener el valor actual.
 type: docs
 weight: 10
@@ -15,10 +15,10 @@ Especifica la unidad mayor actual del eje. Llama al método IChart.ValidateChart
 public double ActualMajorUnit { get; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [Axis](../../axis)
 * espacio de nombres [Aspose.Slides.Charts](../../axis)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
-title: Geschichte
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob das Ziel des übergeordneten Hyperlinks zu einer Liste der angesehenen Hyperlinks hinzugefügt werden soll, wenn er aufgerufen wird. Lese-/Schreib-Boolean.
+title: History
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt, ob das Ziel des übergeordneten Hyperlinks zu einer Liste der angesehenen Hyperlinks hinzugefügt werden soll, wenn es aufgerufen wird. Lese-/schreibbares Boolesches.
 type: docs
 weight: 60
 url: /de/aspose.slides/ihyperlink/history/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ihyperlink/history/
 
 ## IHyperlink.History-Eigenschaft
 
-Bestimmt, ob das Ziel des übergeordneten Hyperlinks zu einer Liste der angesehenen Hyperlinks hinzugefügt werden soll, wenn er aufgerufen wird. Lese-/Schreib-Boolean.
+Bestimmt, ob das Ziel des übergeordneten Hyperlinks zu einer Liste der angesehenen Hyperlinks hinzugefügt werden soll, wenn es aufgerufen wird. Lese-/schreibbares Boolesches.
 
 ```csharp
 public bool History { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IHyperlink](../../ihyperlink)
 * Namespace [Aspose.Slides](../../ihyperlink)

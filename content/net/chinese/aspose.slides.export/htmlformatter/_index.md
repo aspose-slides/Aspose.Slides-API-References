@@ -1,6 +1,6 @@
 ---
 title: HtmlFormatter
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示 HTML 文件模板。
 type: docs
 weight: 3700
@@ -19,11 +19,11 @@ public sealed class HtmlFormatter : IHtmlFormatter
 
 | 名称 | 描述 |
 | --- | --- |
-| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | 创建并返回用于自定义回调驱动的 HTML 生成的 HTML 格式化程序。 |
-| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | 创建并返回用于简单文档视图的 HTML 格式化程序，该视图由一个个顺序排列的幻灯片组成。 |
-| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | 创建并返回用于简单幻灯片放映 HTML 的 HTML 格式化程序，该放映一个接一个地显示幻灯片。 |
+| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | 创建并返回用于自定义回调驱动的 HTML 生成的 HTML 格式化器。 |
+| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | 创建并返回用于简单文档视图的 HTML 格式化器，该视图由一个个的幻灯片序列组成。 |
+| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | 创建并返回用于简单幻灯片放映 HTML 的 HTML 格式化器，该放映依次显示幻灯片。 |
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IHtmlFormatter](../ihtmlformatter)
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)

@@ -1,13 +1,13 @@
 ---
-title: Ajouter
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Add
+second_title: Aspose.Sildes pour .NET API Reference
 description: Ajoute la nouvelle Trendline à la fin d'une collection et la renvoie.
 type: docs
 weight: 30
 url: /fr/aspose.slides.charts/trendlinecollection/add/
 ---
 
-## Méthode TrendlineCollection.Add
+## TrendlineCollection.Add method
 
 Ajoute la nouvelle Trendline à la fin d'une collection et la renvoie.
 

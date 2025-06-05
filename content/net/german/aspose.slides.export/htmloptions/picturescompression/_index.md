@@ -1,5 +1,5 @@
 ---
-title: BilderKompression
+title: PicturesCompression
 second_title: Aspose.Slides für .NET API Referenz
 description: Stellt das Kompressionsniveau der Bilder dar
 type: docs
@@ -15,7 +15,7 @@ Stellt das Kompressionsniveau der Bilder dar
 public PicturesCompression PicturesCompression { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [PicturesCompression](../../picturescompression)
 * class [HtmlOptions](../../htmloptions)

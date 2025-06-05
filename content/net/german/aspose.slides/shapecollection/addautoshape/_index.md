@@ -1,15 +1,15 @@
 ---
 title: AddAutoShape
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erstellt eine neue AutoShape, passt sie vom Standardtemplate an und fügt sie am Ende der Sammlung hinzu.
+second_title: Aspose.Slides für .NET API Referenz
+description: Erstellt eine neue AutoForm, passt sie von der Standardvorlage an und fügt sie ans Ende der Sammlung hinzu.
 type: docs
 weight: 90
 url: /de/aspose.slides/shapecollection/addautoshape/
 ---
 
-## AddAutoShape(ShapeType, float, float, float, float) {#addautoshape}
+## AddAutoShape(ShapeType, float, float, float, float) {#addautoshape}
 
-Erstellt eine neue AutoShape, passt sie vom Standardtemplate an und fügt sie am Ende der Sammlung hinzu.
+Erstellt eine neue AutoForm, passt sie von der Standardvorlage an und fügt sie ans Ende der Sammlung hinzu.
 
 ```csharp
 public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float width, float height)
@@ -25,7 +25,7 @@ public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float widt
 
 ### Rückgabewert
 
-Erstelltes AutoShape-Objekt.
+Erstelltes AutoForm-Objekt.
 
 ### Siehe auch
 
@@ -37,9 +37,9 @@ Erstelltes AutoShape-Objekt.
 
 ---
 
-## AddAutoShape(ShapeType, float, float, float, float, bool) {#addautoshape_1}
+## AddAutoShape(ShapeType, float, float, float, float, bool) {#addautoshape_1}
 
-Erstellt eine neue AutoShape und fügt sie am Ende der Sammlung hinzu.
+Erstellt eine neue AutoForm und fügt sie ans Ende der Sammlung hinzu.
 
 ```csharp
 public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float width, float height, 
@@ -53,11 +53,11 @@ public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float widt
 | y | Single | Die Y-Koordinate für die obere Seite des Rahmens der Form. |
 | width | Single | Die Breite des Rahmens der Form. |
 | height | Single | Die Höhe des Rahmens der Form. |
-| createFromTemplate | Boolean | Wenn true, wird die neue Form vom Standardtemplate angepasst. Name nicht leer, einfacher Stil, zentrierter Text werden der neuen Form zugewiesen. Wenn false, haben alle Werte der Eigenschaften der neuen Form Standardwerte. |
+| createFromTemplate | Boolean | Wenn true, wird die neue Form von der Standardvorlage angepasst. Ein nicht leerer Name, einfacher Stil, zentrierter Text wird der neuen Form zugewiesen. Wenn false, haben alle Werte der Eigenschaften der neuen Form Standardwerte. |
 
 ### Rückgabewert
 
-Erstelltes AutoShape-Objekt.
+Erstelltes AutoForm-Objekt.
 
 ### Siehe auch
 

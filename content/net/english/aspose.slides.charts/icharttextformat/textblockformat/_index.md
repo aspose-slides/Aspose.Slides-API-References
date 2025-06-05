@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/icharttextformat/textblockformat/
 ---
+
 ## IChartTextFormat.TextBlockFormat property
 
 Returns format for the chart text elements. Read-only [`IChartTextBlockFormat`](../../icharttextblockformat).

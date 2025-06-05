@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/svgimage/externalresourceresolver/
 ---
+
 ## SvgImage.ExternalResourceResolver property
 
 Return callback interface used to resolve external resources during Svg documents import. Read-only [`IExternalResourceResolver`](../../../aspose.slides.import/iexternalresourceresolver).

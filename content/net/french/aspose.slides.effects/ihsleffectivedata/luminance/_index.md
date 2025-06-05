@@ -1,21 +1,21 @@
 ---
 title: Luminance
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie le pourcentage de luminance. En lecture seule, type Single.
+second_title: Référence API Aspose.Slides pour .NET
+description: Retourne le pourcentage de luminance. Lecture seule Single.
 type: docs
 weight: 30
 url: /fr/aspose.slides.effects/ihsleffectivedata/luminance/
 ---
 
-## Propriété IHSLEffectiveData.Luminance
+## IHSLEffectiveData.Luminance propriété
 
-Renvoie le pourcentage de luminance. En lecture seule, type Single.
+Retourne le pourcentage de luminance. Lecture seule Single.
 
 ```csharp
 public float Luminance { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IHSLEffectiveData](../../ihsleffectivedata)
 * namespace [Aspose.Slides.Effects](../../ihsleffectivedata)

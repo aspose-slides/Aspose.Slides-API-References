@@ -1,6 +1,6 @@
 ---
 title: TextFrame
-second_title: Aspose.Sildes для справочной информации по API .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет TextFrame.
 type: docs
 weight: 10640
@@ -20,25 +20,25 @@ public sealed class TextFrame : ITextFrame
 | Название | Описание |
 | --- | --- |
 | [HyperlinkQueries](../../aspose.slides/textframe/hyperlinkqueries) { get; } | Обеспечивает легкий доступ к содержащимся гиперссылкам. Только для чтения [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [Paragraphs](../../aspose.slides/textframe/paragraphs) { get; } | Возвращает список всех параграфов в фрейме. Только для чтения [`IParagraphCollection`](../iparagraphcollection). |
+| [Paragraphs](../../aspose.slides/textframe/paragraphs) { get; } | Возвращает список всех абзацев в рамке. Только для чтения [`IParagraphCollection`](../iparagraphcollection). |
 | [ParentCell](../../aspose.slides/textframe/parentcell) { get; } | Возвращает родительскую ячейку или null, если родительский объект не реализует интерфейс ICell. Только для чтения [`ICell`](../icell). |
 | [ParentShape](../../aspose.slides/textframe/parentshape) { get; } | Возвращает родительскую фигуру или null, если родительский объект не реализует интерфейс IShape. Только для чтения [`IShape`](../ishape). |
-| [Presentation](../../aspose.slides/textframe/presentation) { get; } | Возвращает родительскую презентацию для TextFrame. Только для чтения [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/textframe/slide) { get; } | Возвращает родительский слайд для TextFrame. Только для чтения [`IBaseSlide`](../ibaseslide). |
-| [Text](../../aspose.slides/textframe/text) { get; set; } | Получает или устанавливает обычный текст для TextFrame. Чтение и запись строка. |
+| [Presentation](../../aspose.slides/textframe/presentation) { get; } | Возвращает родительскую презентацию TextFrame. Только для чтения [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/textframe/slide) { get; } | Возвращает родительский слайд TextFrame. Только для чтения [`IBaseSlide`](../ibaseslide). |
+| [Text](../../aspose.slides/textframe/text) { get; set; } | Получает или задает обычный текст для TextFrame. Чтение/запись String. |
 | [TextFrameFormat](../../aspose.slides/textframe/textframeformat) { get; } | Возвращает объект форматирования для этого объекта TextFrame. Только для чтения [`ITextFrameFormat`](../itextframeformat). |
 
 ## Методы
 
 | Название | Описание |
 | --- | --- |
-| [HighlightRegex](../../aspose.slides/textframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | Выделяет все совпадения регулярного выражения с указанным цветом. |
-| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext)(string, Color) | Выделяет все совпадения образца текста с указанным цветом. |
-| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | Выделяет все совпадения образца текста с указанным цветом. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/textframe/joinportionswithsameformatting)() | Объединяет части с одинаковым форматированием во всех параграфах. |
-| [ReplaceRegex](../../aspose.slides/textframe/replaceregex)(Regex, string, IFindResultCallback) | Заменяет все совпадения регулярного выражения на указанную строку. |
+| [HighlightRegex](../../aspose.slides/textframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | Подсвечивает все совпадения регулярного выражения с заданным цветом. |
+| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext)(string, Color) | Подсвечивает все совпадения образца текста с заданным цветом. |
+| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | Подсвечивает все совпадения образца текста с заданным цветом. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/textframe/joinportionswithsameformatting)() | Объединяет фрагменты с одинаковым форматированием во всех абзацах. |
+| [ReplaceRegex](../../aspose.slides/textframe/replaceregex)(Regex, string, IFindResultCallback) | Заменяет все совпадения регулярного выражения на заданную строку. |
 | [ReplaceText](../../aspose.slides/textframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Заменяет все вхождения указанного текста на другой указанный текст. |
-| [SplitTextByColumns](../../aspose.slides/textframe/splittextbycolumns)() | Делит текстовое содержимое [`ITextFrame`](../itextframe) на массив строк, где каждый элемент соответствует отдельной текстовой колонке внутри фрейма. |
+| [SplitTextByColumns](../../aspose.slides/textframe/splittextbycolumns)() | Разделяет текстовое содержимое [`ITextFrame`](../itextframe) на массив строк, где каждый элемент соответствует отдельному текстовому столбцу в рамке. |
 
 ### См. также
 
@@ -46,4 +46,4 @@ public sealed class TextFrame : ITextFrame
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 
-<!-- DO NOT EDIT: сгенерировано с помощью xmldocmd для Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

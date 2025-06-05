@@ -1,6 +1,6 @@
 ---
-title: 包含
-second_title: Aspose.Slides for .NET API 参考
+title: Contains
+second_title: Aspose.Sildes for .NET API Reference
 description: 确定 ICollection 是否包含特定值。
 type: docs
 weight: 80
@@ -17,11 +17,11 @@ public bool Contains(IChartDataPoint item)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| item | IChartDataPoint | 要在 ICollection 中定位的对象。 |
+| item | IChartDataPoint | 要在 ICollection 中查找的对象。 |
 
 ### 返回值
 
-如果 *item* 在 ICollection 中找到，则为 true；否则为 false。
+如果 *item* 在 ICollection 中被找到，则返回 true；否则返回 false。
 
 ### 另见
 

@@ -1,13 +1,13 @@
 ---
 title: WriteAsEmf
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Сохраняет содержимое слайда в файл EMF.
 type: docs
 weight: 120
 url: /ru/aspose.slides/islide/writeasemf/
 ---
 
-## Метод ISlide.WriteAsEmf
+## ISlide.WriteAsEmf метод
 
 Сохраняет содержимое слайда в файл EMF.
 

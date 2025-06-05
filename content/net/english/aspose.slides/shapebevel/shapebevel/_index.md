@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/shapebevel/shapebevel/
 ---
+
 ## ShapeBevel constructor
 
 Creates new instance.

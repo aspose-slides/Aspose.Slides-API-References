@@ -1,7 +1,7 @@
 ---
 title: AddVerticalTextPlaceholder
-second_title: Aspose.Slides for .NET API Reference
-description: 向布局幻灯片添加新的占位符形状，以垂直方向容纳文本内容。
+second_title: Aspose.Sildes for .NET API Reference
+description: 向布局幻灯片添加一个新的占位符形状，以垂直方向保存文本内容。
 type: docs
 weight: 100
 url: /zh/aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder/
 
 ## LayoutPlaceholderManager.AddVerticalTextPlaceholder 方法
 
-向布局幻灯片添加新的占位符形状，以垂直方向容纳文本内容。
+向布局幻灯片添加一个新的占位符形状，以垂直方向保存文本内容。
 
 ```csharp
 public IAutoShape AddVerticalTextPlaceholder(float x, float y, float width, float height)
@@ -17,18 +17,18 @@ public IAutoShape AddVerticalTextPlaceholder(float x, float y, float width, floa
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| x | Single | 新占位符形状的X坐标。 |
-| y | Single | 新占位符形状的Y坐标。 |
+| x | Single | 新占位符形状的 X 坐标。 |
+| y | Single | 新占位符形状的 Y 坐标。 |
 | width | Single | 新占位符形状的宽度。 |
 | height | Single | 新占位符形状的高度。 |
 
 ### 返回值
 
-创建的 [`IAutoShape`](../../iautoshape)，具有文本（垂直）占位符。
+创建的 [`IAutoShape`](../../iautoshape) 具有文本（垂直）占位符。
 
 ### 示例
 
-以下示例演示了如何将文本（垂直）占位符形状添加到布局幻灯片。
+以下示例显示如何向布局幻灯片添加文本（垂直）占位符形状。
 
 ```csharp
 [C#]
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [IAutoShape](../../iautoshape)
 * 类 [LayoutPlaceholderManager](../../layoutplaceholdermanager)

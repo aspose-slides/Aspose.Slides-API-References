@@ -1,7 +1,7 @@
 ---
 title: ICornerDirectionTransition
 second_title: Aspose.Slides für .NET API-Referenz
-description: Übergangseffekt der Eckenrichtung.
+description: Übergangseffekt in der Eckrichtung.
 type: docs
 weight: 9750
 url: /de/aspose.slides.slideshow/icornerdirectiontransition/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.slideshow/icornerdirectiontransition/
 
 ## ICornerDirectionTransition-Schnittstelle
 
-Übergangseffekt der Eckenrichtung.
+Übergangseffekt in der Eckrichtung.
 
 ```csharp
 public interface ICornerDirectionTransition : ITransitionValueBase
@@ -19,7 +19,7 @@ public interface ICornerDirectionTransition : ITransitionValueBase
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/icornerdirectiontransition/asitransitionvaluebase) { get; } | Ermöglicht den Zugriff auf die Basis-Schnittstelle ITransitionValueBase. Nur lesender [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/icornerdirectiontransition/asitransitionvaluebase) { get; } | Ermöglicht den Zugriff auf die grundlegende ITransitionValueBase-Schnittstelle. Nur lesend [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/icornerdirectiontransition/direction) { get; set; } | Richtung des Übergangs. Lese-/Schreibzugriff [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
 
 ### Siehe auch

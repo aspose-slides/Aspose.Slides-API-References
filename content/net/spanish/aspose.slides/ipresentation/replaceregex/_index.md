@@ -1,15 +1,15 @@
 ---
 title: ReplaceRegex
-second_title: Referencia de API Aspose.Slides para .NET
-description: Reemplaza todas las coincidencias de la expresión regular por la cadena especificada.
+second_title: Referencia de la API Aspose.Sildes para .NET
+description: Reemplaza todas las coincidencias de la expresión regular con la cadena especificada.
 type: docs
 weight: 350
 url: /es/aspose.slides/ipresentation/replaceregex/
 ---
 
-## Método IPresentation.ReplaceRegex
+## IPresentation.ReplaceRegex method
 
-Reemplaza todas las coincidencias de la expresión regular por la cadena especificada.
+Reemplaza todas las coincidencias de la expresión regular con la cadena especificada.
 
 ```csharp
 public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callback)
@@ -17,7 +17,7 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| regex | Regex | La expresión regular Regex para obtener cadenas a reemplazar. |
+| regex | Regex | La expresión regular Regex para obtener las cadenas a reemplazar. |
 | newText | String | La cadena para reemplazar todas las ocurrencias de las cadenas a ser reemplazadas. |
 | callback | IFindResultCallback | El objeto de callback para recibir resultados de búsqueda [`IFindResultCallback`](../../ifindresultcallback). |
 
@@ -30,7 +30,7 @@ El siguiente ejemplo de código muestra cómo reemplazar texto utilizando una ex
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// Reemplazar todas las palabras con 10 o más caracteres con '***'
+	// Reemplazar todas las palabras con 10 o más caracteres por '***'
 	presentation.ReplaceRegex(regex, "***", null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }

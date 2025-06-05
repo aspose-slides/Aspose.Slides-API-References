@@ -1,6 +1,6 @@
 ---
 title: InsertClone
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Erstellt eine Kopie der angegebenen Vorlagezeile und fügt sie an der angegebenen Position in einer Tabelle ein.
 type: docs
 weight: 80

@@ -1,7 +1,7 @@
 ---
 title: FollowedHyperlink
-second_title: Aspose.Slides für .NET API Referenz
-description: Farbe für die besuchten Hyperlinks. Schreibgeschütztes IColorFormataspose.slides/../aspose.slides/icolorformat.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Farbe für die besuchten Hyperlinks. Nur-Lesen IColorFormat aspose.slides/icolorformat.
 type: docs
 weight: 90
 url: /de/aspose.slides.theme/colorscheme/followedhyperlink/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/colorscheme/followedhyperlink/
 
 ## ColorScheme.FollowedHyperlink-Eigenschaft
 
-Farbe für die besuchten Hyperlinks. Schreibgeschütztes [`IColorFormat`](../../../aspose.slides/icolorformat).
+Farbe für die besuchten Hyperlinks. Nur-Lesen [`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat FollowedHyperlink { get; }

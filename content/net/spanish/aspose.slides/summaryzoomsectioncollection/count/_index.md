@@ -1,7 +1,7 @@
 ---
-title: Contar
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Obtiene el número de elementos que realmente se contienen en la colección. Solo lectura Int32.
+title: Count
+second_title: Aspose.Slides para .NET Referencia de API
+description: Obtiene el número de elementos que realmente contiene la colección. Solo lectura Int32.
 type: docs
 weight: 10
 url: /es/aspose.slides/summaryzoomsectioncollection/count/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/summaryzoomsectioncollection/count/
 
 ## Propiedad SummaryZoomSectionCollection.Count
 
-Obtiene el número de elementos que realmente se contienen en la colección. Solo lectura Int32.
+Obtiene el número de elementos que realmente contiene la colección. Solo lectura Int32.
 
 ```csharp
 public int Count { get; }
@@ -19,6 +19,6 @@ public int Count { get; }
 
 * clase [SummaryZoomSectionCollection](../../summaryzoomsectioncollection)
 * espacio de nombres [Aspose.Slides](../../summaryzoomsectioncollection)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

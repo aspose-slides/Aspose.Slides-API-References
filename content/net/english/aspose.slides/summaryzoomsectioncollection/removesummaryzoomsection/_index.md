@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/summaryzoomsectioncollection/removesummaryzoomsection/
 ---
+
 ## SummaryZoomSectionCollection.RemoveSummaryZoomSection method
 
 Remove Summary Zoom Section object from the collection.

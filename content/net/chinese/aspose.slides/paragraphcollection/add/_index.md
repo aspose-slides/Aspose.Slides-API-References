@@ -1,6 +1,6 @@
 ---
-title: 添加
-second_title: Aspose.Slides for .NET API 参考
+title: Add
+second_title: Aspose.Sildes for .NET API Reference
 description: 将段落添加到集合的末尾。
 type: docs
 weight: 40
@@ -42,7 +42,7 @@ public int Add(IParagraphCollection value)
 
 ### 返回值
 
-段落被添加的索引，如果没有内容可以添加，则返回 -1 。
+添加段落的索引，如果没有东西可添加则返回 -1。
 
 ### 另见
 

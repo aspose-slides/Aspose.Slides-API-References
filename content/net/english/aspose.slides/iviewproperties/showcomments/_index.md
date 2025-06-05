@@ -3,9 +3,10 @@ title: ShowComments
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies whether the slide comments should be shown. Read/write NullableBoolaspose.slides/nullablebool.
 type: docs
-weight: 40
+weight: 50
 url: /aspose.slides/iviewproperties/showcomments/
 ---
+
 ## IViewProperties.ShowComments property
 
 Specifies whether the slide comments should be shown. Read/write [`NullableBool`](../../nullablebool).

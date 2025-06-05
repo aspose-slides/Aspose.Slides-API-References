@@ -1,6 +1,6 @@
 ---
 title: IChart
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence de l'API .NET
 description: Représente un graphique sur une diapositive.
 type: docs
 weight: 1660
@@ -19,29 +19,29 @@ public interface IChart : IFormattedTextContainer, IGraphicalObject, IOverrideTh
 
 | Nom | Description |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ichart/asiformattedtextcontainer) { get; } | Permet d'obtenir l'interface de base IFormattedTextContainer. En lecture seule [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [AsIGraphicalObject](../../aspose.slides.charts/ichart/asigraphicalobject) { get; } | Permet d'obtenir l'interface de base IGraphicalObject. En lecture seule [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
-| [AsIOverrideThemeable](../../aspose.slides.charts/ichart/asioverridethemeable) { get; } | Retourne l'interface IOverrideThemeable. En lecture seule [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [Axes](../../aspose.slides.charts/ichart/axes) { get; } | Fournit un accès aux axes du graphique. En lecture seule [`IAxesManager`](../iaxesmanager). |
-| [BackWall](../../aspose.slides.charts/ichart/backwall) { get; } | Retourne un objet qui permet de changer le format de la paroi arrière d'un graphique 3D. En lecture seule [`IChartWall`](../ichartwall). |
-| [ChartData](../../aspose.slides.charts/ichart/chartdata) { get; } | Retourne des informations sur les données liées ou intégrées associées à un graphique. En lecture seule [`IChartData`](../ichartdata). |
-| [ChartDataTable](../../aspose.slides.charts/ichart/chartdatatable) { get; } | Retourne un tableau de données d'un graphique. En lecture seule [`IDataTable`](../idatatable). |
-| [ChartTitle](../../aspose.slides.charts/ichart/charttitle) { get; } | Retourne ou définit un titre de graphique. En lecture seule [`IChartTitle`](../icharttitle). |
-| [DisplayBlanksAs](../../aspose.slides.charts/ichart/displayblanksas) { get; set; } | Retourne ou définit la manière de tracer les cellules vides sur un graphique. En lecture/écriture [`DisplayBlanksAsType`](../displayblanksastype). |
-| [Floor](../../aspose.slides.charts/ichart/floor) { get; } | Retourne un objet qui permet de changer le format du sol d'un graphique 3D. En lecture seule [`IChartWall`](../ichartwall). |
-| [HasDataTable](../../aspose.slides.charts/ichart/hasdatatable) { get; set; } | Détermine si un graphique a un tableau de données. En lecture/écriture Boolean. |
-| [HasLegend](../../aspose.slides.charts/ichart/haslegend) { get; set; } | Détermine si un graphique a une légende. En lecture/écriture Boolean. |
-| [HasRoundedCorners](../../aspose.slides.charts/ichart/hasroundedcorners) { get; set; } | Spécifie si la zone du graphique doit avoir des coins arrondis. En lecture/écriture Boolean. |
-| [HasTitle](../../aspose.slides.charts/ichart/hastitle) { get; set; } | Détermine si un graphique a un titre visible. En lecture/écriture Boolean. |
-| [Legend](../../aspose.slides.charts/ichart/legend) { get; } | Retourne ou définit une légende pour un graphique. En lecture seule [`ILegend`](../ilegend). |
-| [PlotArea](../../aspose.slides.charts/ichart/plotarea) { get; } | Représente la zone de tracé d'un graphique. En lecture seule [`IChartPlotArea`](../ichartplotarea). |
-| [PlotVisibleCellsOnly](../../aspose.slides.charts/ichart/plotvisiblecellsonly) { get; set; } | Détermine si seules les cellules visibles sont tracées. False pour tracer à la fois les cellules visibles et cachées. En lecture/écriture Boolean. |
-| [Rotation3D](../../aspose.slides.charts/ichart/rotation3d) { get; } | Retourne une rotation 3D d'un graphique. En lecture seule [`IRotation3D`](../irotation3d). |
-| [ShowDataLabelsOverMaximum](../../aspose.slides.charts/ichart/showdatalabelsovermaximum) { get; set; } | Spécifie que les étiquettes de données au-dessus du maximum du graphique doivent être affichées. En lecture/écriture Boolean. |
-| [SideWall](../../aspose.slides.charts/ichart/sidewall) { get; } | Retourne un objet qui permet de changer le format de la paroi latérale d'un graphique 3D. En lecture seule [`IChartWall`](../ichartwall). |
-| [Style](../../aspose.slides.charts/ichart/style) { get; set; } | Retourne ou définit le style du graphique. En lecture/écriture [`StyleType`](../styletype). |
-| [Type](../../aspose.slides.charts/ichart/type) { get; set; } | Retourne ou définit le type de graphique. En lecture/écriture [`ChartType`](../charttype). |
-| [UserShapes](../../aspose.slides.charts/ichart/usershapes) { get; } | Spécifie les formes dessinées sur le graphique. En lecture seule [`IGroupShape`](../../aspose.slides/igroupshape). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ichart/asiformattedtextcontainer) { get; } | Permet d'obtenir l'interface de base IFormattedTextContainer. Lecture seule [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [AsIGraphicalObject](../../aspose.slides.charts/ichart/asigraphicalobject) { get; } | Permet d'obtenir l'interface de base IGraphicalObject. Lecture seule [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [AsIOverrideThemeable](../../aspose.slides.charts/ichart/asioverridethemeable) { get; } | Retourne l'interface IOverrideThemeable. Lecture seule [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [Axes](../../aspose.slides.charts/ichart/axes) { get; } | Fournit l'accès aux axes du graphique. Lecture seule [`IAxesManager`](../iaxesmanager). |
+| [BackWall](../../aspose.slides.charts/ichart/backwall) { get; } | Retourne un objet qui permet de changer le format du mur arrière d'un graphique 3D. Lecture seule [`IChartWall`](../ichartwall). |
+| [ChartData](../../aspose.slides.charts/ichart/chartdata) { get; } | Retourne des informations sur les données liées ou intégrées associées à un graphique. Lecture seule [`IChartData`](../ichartdata). |
+| [ChartDataTable](../../aspose.slides.charts/ichart/chartdatatable) { get; } | Retourne une table de données d'un graphique. Lecture seule [`IDataTable`](../idatatable). |
+| [ChartTitle](../../aspose.slides.charts/ichart/charttitle) { get; } | Retourne ou définit un titre de graphique. Lecture seule [`IChartTitle`](../icharttitle). |
+| [DisplayBlanksAs](../../aspose.slides.charts/ichart/displayblanksas) { get; set; } | Retourne ou définit la manière de tracer les cellules vides sur un graphique. Lecture/écriture [`DisplayBlanksAsType`](../displayblanksastype). |
+| [Floor](../../aspose.slides.charts/ichart/floor) { get; } | Retourne un objet qui permet de changer le format du sol d'un graphique 3D. Lecture seule [`IChartWall`](../ichartwall). |
+| [HasDataTable](../../aspose.slides.charts/ichart/hasdatatable) { get; set; } | Détermine si un graphique a une table de données. Lecture/écriture Boolean. |
+| [HasLegend](../../aspose.slides.charts/ichart/haslegend) { get; set; } | Détermine si un graphique a une légende. Lecture/écriture Boolean. |
+| [HasRoundedCorners](../../aspose.slides.charts/ichart/hasroundedcorners) { get; set; } | Spécifie que la zone du graphique doit avoir des coins arrondis. Lecture/écriture Boolean. |
+| [HasTitle](../../aspose.slides.charts/ichart/hastitle) { get; set; } | Détermine si un graphique a un titre visible. Lecture/écriture Boolean. |
+| [Legend](../../aspose.slides.charts/ichart/legend) { get; } | Retourne ou définit une légende pour un graphique. Lecture seule [`ILegend`](../ilegend). |
+| [PlotArea](../../aspose.slides.charts/ichart/plotarea) { get; } | Représente la zone de tracé d'un graphique. Lecture seule [`IChartPlotArea`](../ichartplotarea). |
+| [PlotVisibleCellsOnly](../../aspose.slides.charts/ichart/plotvisiblecellsonly) { get; set; } | Détermine si seules les cellules visibles sont tracées. Faux pour tracer à la fois les cellules visibles et cachées. Lecture/écriture Boolean. |
+| [Rotation3D](../../aspose.slides.charts/ichart/rotation3d) { get; } | Retourne une rotation 3D d'un graphique. Lecture seule [`IRotation3D`](../irotation3d). |
+| [ShowDataLabelsOverMaximum](../../aspose.slides.charts/ichart/showdatalabelsovermaximum) { get; set; } | Spécifie que les étiquettes de données au-dessus du maximum du graphique doivent être affichées. Lecture/écriture Boolean. |
+| [SideWall](../../aspose.slides.charts/ichart/sidewall) { get; } | Retourne un objet qui permet de changer le format du mur latéral d'un graphique 3D. Lecture seule [`IChartWall`](../ichartwall). |
+| [Style](../../aspose.slides.charts/ichart/style) { get; set; } | Retourne ou définit le style du graphique. Lecture/écriture [`StyleType`](../styletype). |
+| [Type](../../aspose.slides.charts/ichart/type) { get; set; } | Retourne ou définit le type de graphique. Lecture/écriture [`ChartType`](../charttype). |
+| [UserShapes](../../aspose.slides.charts/ichart/usershapes) { get; } | Spécifie les formes dessinées au-dessus du graphique. Lecture seule [`IGroupShape`](../../aspose.slides/igroupshape). |
 
 ## Méthodes
 

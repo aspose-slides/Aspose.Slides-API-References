@@ -1,13 +1,13 @@
 ---
 title: DeleteColumn
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Supprime la colonne spécifiée
 type: docs
 weight: 120
 url: /fr/aspose.slides.mathtext/imathmatrix/deletecolumn/
 ---
 
-## Méthode IMathMatrix.DeleteColumn
+## IMathMatrix.DeleteColumn méthode
 
 Supprime la colonne spécifiée
 
@@ -21,7 +21,7 @@ public void DeleteColumn(int columnIndex)
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]

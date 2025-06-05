@@ -1,6 +1,6 @@
 ---
 title: ISectionSlideCollection
-second_title: Aspose.Slides pour .NET Référence de l'API
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente une collection de diapositives dans la section.
 type: docs
 weight: 6710
@@ -19,7 +19,7 @@ public interface ISectionSlideCollection : IGenericCollection<ISlide>
 
 | Nom | Description |
 | --- | --- |
-| [Item](../../aspose.slides/isectionslidecollection/item) { get; } | Obtient l'élément à l'index spécifié. Lecture seule [`ISlide`](../islide). |
+| [Item](../../aspose.slides/isectionslidecollection/item) { get; } | Obtient l'élément à l'index spécifié. En lecture seule [`ISlide`](../islide). |
 
 ### Voir aussi
 

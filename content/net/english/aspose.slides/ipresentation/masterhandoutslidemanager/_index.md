@@ -6,6 +6,7 @@ type: docs
 weight: 170
 url: /aspose.slides/ipresentation/masterhandoutslidemanager/
 ---
+
 ## IPresentation.MasterHandoutSlideManager property
 
 Returns handout master manager. Read-only [`IMasterHandoutSlideManager`](../../imasterhandoutslidemanager).

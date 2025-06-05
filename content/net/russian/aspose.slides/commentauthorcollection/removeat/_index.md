@@ -1,13 +1,13 @@
 ---
-title: УдалитьПоИндексу
-second_title: Справочник по API Aspose.Slides для .NET
+title: RemoveAt
+second_title: Aspose.Slides для .NET API Справка
 description: Удаляет автора по указанному индексу коллекции.
 type: docs
 weight: 120
 url: /ru/aspose.slides/commentauthorcollection/removeat/
 ---
 
-## Метод CommentAuthorCollection.RemoveAt
+## CommentAuthorCollection.RemoveAt метод
 
 Удаляет автора по указанному индексу коллекции.
 
@@ -17,16 +17,16 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс элемента, который нужно удалить, основанный на нулях. |
+| index | Int32 | Индекс элемента, который нужно удалить, с нуля. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Индекс меньше 0 или индекс равен или больше чем Count |
+| ArgumentOutOfRangeException | Индекс меньше 0 или индекс равен или больше Count |
 | [PptxEditException](../../pptxeditexception) | Выбрасывается, если автор уже удален. |
 
-### См. также
+### См. Также
 
 * класс [CommentAuthorCollection](../../commentauthorcollection)
 * пространство имен [Aspose.Slides](../../commentauthorcollection)

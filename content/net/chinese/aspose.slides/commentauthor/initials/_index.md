@@ -1,21 +1,21 @@
 ---
-title: 首字母
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置作者的首字母。可读/可写字符串。
+title: Initials
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置作者的首字母缩写。可读/可写字符串。
 type: docs
 weight: 20
 url: /zh/aspose.slides/commentauthor/initials/
 ---
 
-## CommentAuthor.Initials 属性
+## CommentAuthor.Initials property
 
-返回或设置作者的首字母。可读/可写字符串。
+返回或设置作者的首字母缩写。可读/可写字符串。
 
 ```csharp
 public string Initials { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * class [CommentAuthor](../../commentauthor)
 * namespace [Aspose.Slides](../../commentauthor)

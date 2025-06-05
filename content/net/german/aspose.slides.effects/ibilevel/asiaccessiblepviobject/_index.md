@@ -1,7 +1,7 @@
 ---
 title: AsIAccessiblePVIObject
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf das Basiserte IAccessiblePVIObject-Interface. Nur lesbares IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ermöglicht den Zugriff auf die Basis-IAccessiblePVIObject-Schnittstelle. Nur-Lesen IAccessiblePVIObject aspose.slides/iaccessiblepviobject-1.
 type: docs
 weight: 10
 url: /de/aspose.slides.effects/ibilevel/asiaccessiblepviobject/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/ibilevel/asiaccessiblepviobject/
 
 ## IBiLevel.AsIAccessiblePVIObject-Eigenschaft
 
-Ermöglicht den Zugriff auf das Basiserte IAccessiblePVIObject-Interface. Nur lesbar [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
+Ermöglicht den Zugriff auf die Basis-IAccessiblePVIObject-Schnittstelle. Nur-Lesen [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
 
 ```csharp
 public IAccessiblePVIObject<IBiLevelEffectiveData> AsIAccessiblePVIObject { get; }
@@ -17,9 +17,9 @@ public IAccessiblePVIObject<IBiLevelEffectiveData> AsIAccessiblePVIObject { get;
 
 ### Siehe auch
 
-* Interface [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
-* Interface [IBiLevelEffectiveData](../../ibileveleffectivedata)
-* Interface [IBiLevel](../../ibilevel)
+* Schnittstelle [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
+* Schnittstelle [IBiLevelEffectiveData](../../ibileveleffectivedata)
+* Schnittstelle [IBiLevel](../../ibilevel)
 * Namespace [Aspose.Slides.Effects](../../ibilevel)
 * Assembly [Aspose.Slides](../../../)
 

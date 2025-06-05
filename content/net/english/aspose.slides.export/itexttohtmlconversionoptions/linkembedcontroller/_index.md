@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.export/itexttohtmlconversionoptions/linkembedcontroller/
 ---
+
 ## ITextToHtmlConversionOptions.LinkEmbedController property
 
 Returns or sets a callback object which controlls how external object will be stored. Read/write [`ILinkEmbedController`](../../ilinkembedcontroller).

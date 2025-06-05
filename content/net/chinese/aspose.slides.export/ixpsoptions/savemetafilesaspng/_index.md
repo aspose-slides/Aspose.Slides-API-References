@@ -1,7 +1,7 @@
 ---
 title: SaveMetafilesAsPng
 second_title: Aspose.Sildes for .NET API Reference
-description: 设置为 true 可将演示文稿中使用的所有元文件转换为 PNG 图像。可读/可写布尔值。
+description: 设置为 true 将演示文稿中使用的所有元文件转换为 PNG 图像。可读/可写布尔值。
 type: docs
 weight: 30
 url: /zh/aspose.slides.export/ixpsoptions/savemetafilesaspng/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/ixpsoptions/savemetafilesaspng/
 
 ## IXpsOptions.SaveMetafilesAsPng 属性
 
-设置为 true 可将演示文稿中使用的所有元文件转换为 PNG 图像。可读/可写布尔值。
+设置为 true 将演示文稿中使用的所有元文件转换为 PNG 图像。可读/可写布尔值。
 
 ```csharp
 public bool SaveMetafilesAsPng { get; set; }
@@ -19,7 +19,7 @@ public bool SaveMetafilesAsPng { get; set; }
 
 默认值为 **true**。
 
-### 另请参见
+### 参见
 
 * 接口 [IXpsOptions](../../ixpsoptions)
 * 命名空间 [Aspose.Slides.Export](../../ixpsoptions)

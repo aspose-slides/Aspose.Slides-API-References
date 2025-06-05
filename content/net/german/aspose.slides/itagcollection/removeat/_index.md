@@ -1,6 +1,6 @@
 ---
 title: RemoveAt
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Entfernt das Tag am angegebenen Index.
 type: docs
 weight: 100
@@ -19,7 +19,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Der nullbasierte Index des zu entfernenden Tags. |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ITagCollection](../../itagcollection)
 * Namespace [Aspose.Slides](../../itagcollection)

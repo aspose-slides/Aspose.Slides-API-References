@@ -1,7 +1,7 @@
 ---
 title: IRevealTransition
-second_title: Справочник по API Aspose.Slides для .NET
-description: Эффект перехода с раскрытием слайда.
+second_title: Aspose.Sildes для .NET API Reference
+description: Эффект перехода слайда Reveal.
 type: docs
 weight: 9850
 url: /ru/aspose.slides.slideshow/irevealtransition/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.slideshow/irevealtransition/
 
 ## Интерфейс IRevealTransition
 
-Эффект перехода с раскрытием слайда.
+Эффект перехода слайда Reveal.
 
 ```csharp
 public interface IRevealTransition : ITransitionValueBase
@@ -17,11 +17,11 @@ public interface IRevealTransition : ITransitionValueBase
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/irevealtransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/irevealtransition/direction) { get; set; } | Направление перехода. Чтение/запись [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
-| [ThroughBlack](../../aspose.slides.slideshow/irevealtransition/throughblack) { get; set; } | Указывает, затухает ли переход через черный. Чтение/запись Boolean. |
+| [ThroughBlack](../../aspose.slides.slideshow/irevealtransition/throughblack) { get; set; } | Указывает, переходит ли переход через черный цвет. Чтение/запись Boolean. |
 
 ### См. также
 

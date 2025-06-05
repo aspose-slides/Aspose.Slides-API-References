@@ -1,15 +1,15 @@
 ---
-title: Вставка
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Вставляет математический элемент в коллекцию по заданному индексу.
+title: Insert
+second_title: Aspose.Sildes для .NET API Справочник
+description: Вставляет математический элемент в коллекцию по указанному индексу.
 type: docs
 weight: 90
 url: /ru/aspose.slides.mathtext/imathelementcollection/insert/
 ---
 
-## Метод IMathElementCollection.Insert
+## IMathElementCollection.Insert метод
 
-Вставляет математический элемент в коллекцию по заданному индексу.
+Вставляет математический элемент в коллекцию по указанному индексу.
 
 ```csharp
 public void Insert(int index, IMathElement item)
@@ -17,8 +17,8 @@ public void Insert(int index, IMathElement item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс с нуля, по которому должен быть вставлен IMathElement. |
-| item | IMathElement | IMathElement, который необходимо вставить. |
+| index | Int32 | Индекс с нулевой основой, по которому должен быть вставлен IMathElement. |
+| item | IMathElement | IMathElement для вставки. |
 
 ### Примеры
 

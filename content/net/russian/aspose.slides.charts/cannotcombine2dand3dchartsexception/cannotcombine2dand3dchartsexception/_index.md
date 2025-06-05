@@ -1,6 +1,6 @@
 ---
 title: CannotCombine2DAnd3DChartsException
-second_title: Aspose.Slides для .NET API Ссылка
+second_title: Aspose.Slides для .NET API Reference
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/cannotcombine2dand3dchartsexception/cannotcombine2
 public CannotCombine2DAnd3DChartsException()
 ```
 
-### См. также
+### Смотрите также
 
 * класс [CannotCombine2DAnd3DChartsException](../../cannotcombine2dand3dchartsexception)
 * пространство имен [Aspose.Slides.Charts](../../cannotcombine2dand3dchartsexception)
@@ -35,7 +35,7 @@ public CannotCombine2DAnd3DChartsException(string message)
 | --- | --- | --- |
 | message | String | сообщение |
 
-### См. также
+### Смотрите также
 
 * класс [CannotCombine2DAnd3DChartsException](../../cannotcombine2dand3dchartsexception)
 * пространство имен [Aspose.Slides.Charts](../../cannotcombine2dand3dchartsexception)
@@ -45,7 +45,7 @@ public CannotCombine2DAnd3DChartsException(string message)
 
 ## CannotCombine2DAnd3DChartsException(string, Exception) {#constructor_2}
 
-Конструктор для исключения, содержащего сообщение и вложенное исключение.
+Конструктор для исключения, содержащего сообщение и встроенное исключение.
 
 ```csharp
 public CannotCombine2DAnd3DChartsException(string message, Exception exception)
@@ -56,7 +56,7 @@ public CannotCombine2DAnd3DChartsException(string message, Exception exception)
 | message | String | сообщение |
 | exception | Exception | оригинальное исключение |
 
-### См. также
+### Смотрите также
 
 * класс [CannotCombine2DAnd3DChartsException](../../cannotcombine2dand3dchartsexception)
 * пространство имен [Aspose.Slides.Charts](../../cannotcombine2dand3dchartsexception)

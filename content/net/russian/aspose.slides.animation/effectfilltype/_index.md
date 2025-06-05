@@ -1,7 +1,7 @@
 ---
 title: EffectFillType
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Представляет типы заполнения.
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет типы заливки.
 type: docs
 weight: 230
 url: /ru/aspose.slides.animation/effectfilltype/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.animation/effectfilltype/
 
 ## Перечисление EffectFillType
 
-Представляет типы заполнения.
+Представляет типы заливки.
 
 ```csharp
 public enum EffectFillType

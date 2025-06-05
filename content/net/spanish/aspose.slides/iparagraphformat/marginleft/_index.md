@@ -15,10 +15,10 @@ Devuelve o establece el margen izquierdo en un párrafo sin herencia. Lectura/es
 public float MarginLeft { get; set; }
 ```
 
-### Ver También
+### Ver también
 
-* interfaz [IParagraphFormat](../../iparagraphformat)
-* espacio de nombres [Aspose.Slides](../../iparagraphformat)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IParagraphFormat](../../iparagraphformat)
+* espacio de nombres [Aspose.Slides](../../iparagraphformat)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,15 +1,15 @@
 ---
 title: DataPoints
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve la colección de puntos de datos de esta serie. Solo lectura IChartDataPointCollection aspose.slides.charts/ichartdatapointcollection.
+description: Devuelve una colección de puntos de datos de esta serie. Solo lectura IChartDataPointCollectionaspose.slides.charts/ichartdatapointcollection.
 type: docs
 weight: 50
 url: /es/aspose.slides.charts/ichartseries/datapoints/
 ---
 
-## Propiedad IChartSeries.DataPoints
+## IChartSeries.DataPoints property
 
-Devuelve la colección de puntos de datos de esta serie. Solo lectura [`IChartDataPointCollection`](../../ichartdatapointcollection).
+Devuelve una colección de puntos de datos de esta serie. Solo lectura [`IChartDataPointCollection`](../../ichartdatapointcollection).
 
 ```csharp
 public IChartDataPointCollection DataPoints { get; }

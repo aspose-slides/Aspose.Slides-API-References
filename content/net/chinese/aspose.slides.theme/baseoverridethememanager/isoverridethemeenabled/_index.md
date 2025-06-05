@@ -1,7 +1,7 @@
 ---
 title: IsOverrideThemeEnabled
-second_title: Aspose.Slides for .NET API 参考
-description: 确定 OverrideTheme 是否覆盖继承的有效主题。要启用 OverrideTheme 以进行覆盖，请使用 OverrideTheme.Init 方法。要禁用 OverrideTheme 的覆盖，请使用 OverrideTheme.Clear 方法。只读布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定 OverrideTheme 是否覆盖继承的有效主题。要启用 OverrideTheme 进行覆盖，请使用 OverrideTheme.Init 方法。要禁用 OverrideTheme 的覆盖，请使用 OverrideTheme.Clear 方法。只读布尔值。
 type: docs
 weight: 10
 url: /zh/aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled/
 
 ## BaseOverrideThemeManager.IsOverrideThemeEnabled 属性
 
-确定 OverrideTheme 是否覆盖继承的有效主题。要启用 OverrideTheme 以进行覆盖，请使用 OverrideTheme.Init*() 方法。要禁用 OverrideTheme 的覆盖，请使用 OverrideTheme.Clear() 方法。只读布尔值。
+确定 OverrideTheme 是否覆盖继承的有效主题。要启用 OverrideTheme 进行覆盖，请使用 OverrideTheme.Init*() 方法。要禁用 OverrideTheme 的覆盖，请使用 OverrideTheme.Clear() 方法。只读布尔值。
 
 ```csharp
 public bool IsOverrideThemeEnabled { get; }
 ```
 
-### 另见
+### 另请参见
 
 * class [BaseOverrideThemeManager](../../baseoverridethememanager)
 * namespace [Aspose.Slides.Theme](../../baseoverridethememanager)

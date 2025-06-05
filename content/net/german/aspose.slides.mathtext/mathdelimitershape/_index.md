@@ -1,7 +1,7 @@
 ---
 title: MathDelimiterShape
 second_title: Aspose.Slides für .NET API-Referenz
-description: Die Position und Größe der Trennzeichen im Verhältnis zum Inhalt der Operanden
+description: Der Standort und die Größe der Trennzeichen relativ zum Inhalt der Operanden
 type: docs
 weight: 8410
 url: /de/aspose.slides.mathtext/mathdelimitershape/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/mathdelimitershape/
 
 ## MathDelimiterShape Aufzählung
 
-Die Position und Größe der Trennzeichen im Verhältnis zum Inhalt der Operanden
+Der Standort und die Größe der Trennzeichen relativ zum Inhalt der Operanden
 
 ```csharp
 public enum MathDelimiterShape
@@ -19,10 +19,10 @@ public enum MathDelimiterShape
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Centered | `0` | Zentriert zur Mathematik-Achse |
+| Centered | `0` | Zentriert zur Math-Ebene |
 | Match | `1` | Entspricht dem Inhalt |
 
-### Siehe Auch
+### Siehe auch
 
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * assembly [Aspose.Slides](../../)

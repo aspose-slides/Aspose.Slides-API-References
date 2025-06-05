@@ -1,7 +1,7 @@
 ---
 title: TileFlip
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Flip-Modus für einen Farbverlauf zurück oder setzt ihn. Lese-/Schreibzugriff auf TileFlipaspose.slides/tileflip.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt den Flip-Modus für einen Verlauf zurück oder setzt ihn. Lese-/Schreibzugriff auf TileFlipaspose.slides/tileflip.
 type: docs
 weight: 70
 url: /de/aspose.slides/igradientformat/tileflip/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/igradientformat/tileflip/
 
 ## IGradientFormat.TileFlip-Eigenschaft
 
-Gibt den Flip-Modus für einen Farbverlauf zurück oder setzt ihn. Lese-/Schreibzugriff auf [`TileFlip`](../../tileflip).
+Gibt den Flip-Modus für einen Verlauf zurück oder setzt ihn. Lese-/Schreibzugriff auf [`TileFlip`](../../tileflip).
 
 ```csharp
 public TileFlip TileFlip { get; set; }

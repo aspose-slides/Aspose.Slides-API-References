@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides/paragraphcollection/remove/
 ---
+
 ## ParagraphCollection.Remove method
 
 Removes the first occurrence of a specific object from the ICollection.

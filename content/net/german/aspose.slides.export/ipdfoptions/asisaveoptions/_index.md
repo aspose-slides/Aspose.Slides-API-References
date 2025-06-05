@@ -1,7 +1,7 @@
 ---
 title: AsISaveOptions
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das ISaveOptions-Interface zurück. Nur-Lese-ISaveOptionsaspose.slides.export/isaveoptions.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt das ISaveOptions-Interface zurück. Schreibgeschütztes ISaveOptionsaspose.slides.export/isaveoptions.
 type: docs
 weight: 40
 url: /de/aspose.slides.export/ipdfoptions/asisaveoptions/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.export/ipdfoptions/asisaveoptions/
 
 ## IPdfOptions.AsISaveOptions-Eigenschaft
 
-Gibt das ISaveOptions-Interface zurück. Nur-Lese [`ISaveOptions`](../../isaveoptions).
+Gibt das ISaveOptions-Interface zurück. Schreibgeschütztes [`ISaveOptions`](../../isaveoptions).
 
 ```csharp
 public ISaveOptions AsISaveOptions { get; }
 ```
 
-### Anmerkungen
+### Bemerkungen
 
 Für die COM-Kompatibilität.
 

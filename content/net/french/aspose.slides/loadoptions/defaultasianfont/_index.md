@@ -1,15 +1,15 @@
 ---
 title: DefaultAsianFont
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit la police asiatique utilisée en cas de non-fond de la police source. Chaîne lisible/écrite.
+description: Renvoie ou définit la police asiatique utilisée en cas de police source introuvable. Chaîne en lecture/écriture.
 type: docs
 weight: 30
 url: /fr/aspose.slides/loadoptions/defaultasianfont/
 ---
 
-## Propriété LoadOptions.DefaultAsianFont
+## LoadOptions.DefaultAsianFont propriété
 
-Renvoie ou définit la police asiatique utilisée en cas de non-fond de la police source. Chaîne lisible/écrite.
+Renvoie ou définit la police asiatique utilisée en cas de police source introuvable. Chaîne en lecture/écriture.
 
 ```csharp
 public string DefaultAsianFont { get; set; }

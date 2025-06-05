@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ieffectformateffectivedata/filloverlayeffect/
 ---
+
 ## IEffectFormatEffectiveData.FillOverlayEffect property
 
 Fill overlay effect. Read-only [`IFillOverlayEffectiveData`](../../../aspose.slides.effects/ifilloverlayeffectivedata).

@@ -1,13 +1,13 @@
 ---
 title: ShowHiddenSlides
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Especifica si el documento generado debe incluir diapositivas ocultas o no. El valor predeterminado es falso.
 type: docs
 weight: 90
 url: /es/aspose.slides.export/itiffoptions/showhiddenslides/
 ---
 
-## Propiedad ITiffOptions.ShowHiddenSlides
+## ITiffOptions.ShowHiddenSlides property
 
 Especifica si el documento generado debe incluir diapositivas ocultas o no. El valor predeterminado es `false`.
 
@@ -15,10 +15,10 @@ Especifica si el documento generado debe incluir diapositivas ocultas o no. El v
 public bool ShowHiddenSlides { get; set; }
 ```
 
-### Vea También
+### See Also
 
-* interfaz [ITiffOptions](../../itiffoptions)
-* espacio de nombres [Aspose.Slides.Export](../../itiffoptions)
-* ensamblaje [Aspose.Slides](../../../)
+* interface [ITiffOptions](../../itiffoptions)
+* namespace [Aspose.Slides.Export](../../itiffoptions)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

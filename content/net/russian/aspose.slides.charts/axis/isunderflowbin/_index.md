@@ -1,7 +1,7 @@
 ---
 title: IsUnderflowBin
-second_title: Aspose.Slides для .NET Справочник по API
-description: Указывает, применяется ли подналичник. Используйте IsAutomaticUnderflowBin и UnderflowBin для настройки значения подналичника.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Указывает, применяется ли бен переполнения. Используйте IsAutomaticUnderflowBin и UnderflowBin для настройки значения бена переполнения.
 type: docs
 weight: 300
 url: /ru/aspose.slides.charts/axis/isunderflowbin/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/axis/isunderflowbin/
 
 ## Axis.IsUnderflowBin свойство
 
-Указывает, применяется ли подналичник. Используйте IsAutomaticUnderflowBin и UnderflowBin для настройки значения подналичника.
+Указывает, применяется ли бен переполнения. Используйте IsAutomaticUnderflowBin и UnderflowBin для настройки значения бена переполнения.
 
 ```csharp
 public bool IsUnderflowBin { get; set; }

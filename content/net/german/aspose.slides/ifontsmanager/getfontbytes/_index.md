@@ -1,13 +1,13 @@
 ---
 title: GetFontBytes
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Ruft das Byte-Array ab, das die Schriftartdaten für einen bestimmten Schriftstil und Schriftartdaten darstellt.
 type: docs
 weight: 50
 url: /de/aspose.slides/ifontsmanager/getfontbytes/
 ---
 
-## IFontsManager.GetFontBytes Methode
+## IFontsManager.GetFontBytes-Methode
 
 Ruft das Byte-Array ab, das die Schriftartdaten für einen bestimmten Schriftstil und Schriftartdaten darstellt.
 
@@ -17,8 +17,8 @@ public byte[] GetFontBytes(IFontData fontData, FontStyle fontStyle)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| fontData | IFontData | Das Schriftartdatenobjekt, das die Informationen über die Schriftart enthält [`IFontData`](../../ifontdata). |
-| fontStyle | FontStyle | Der Stil der Schriftart, für den die Daten abgerufen werden sollen. |
+| fontData | IFontData | Das Schriftartdatenobjekt, das die Informationen über die Schriftart [`IFontData`](../../ifontdata) enthält. |
+| fontStyle | FontStyle | Der Stil der Schriftart, für den die Daten abgerufen werden sollen. FontStyle. |
 
 ### Rückgabewert
 
@@ -30,10 +30,10 @@ Ein Byte-Array, das die Schriftartdaten für den angegebenen Schriftstil enthäl
 [C#]
 using (Presentation pres = new Presentation ("Presentation.pptx"))
 {
-    // Alle in der Präsentation verwendeten Schriftarten abrufen
+    // Ruft alle in der Präsentation verwendeten Schriftarten ab
     IFontData[] fonts = pres.FontsManager.GetFonts();
 
-    // Das Byte-Array abrufen, das den regulären Stil der ersten Schriftart in der Präsentation darstellt
+    // Holt das Byte-Array, das den regulären Stil der ersten Schriftart in der Präsentation darstellt
     byte[] bytes = pres.FontsManager.GetFontBytes(fonts[0], FontStyle.Regular);
 }
 ```

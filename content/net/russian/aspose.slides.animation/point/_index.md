@@ -1,6 +1,6 @@
 ---
-title: Точка
-second_title: Справочник по API Aspose.Sildes для .NET
+title: Point
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет анимационную точку.
 type: docs
 weight: 640
@@ -20,15 +20,15 @@ public class Point : IPoint
 | Имя | Описание |
 | --- | --- |
 | [Point](point#constructor)() | Конструктор по умолчанию. |
-| [Point](point#constructor_1)(float, object, string) | Создать анимационную точку с временем, значением и формулой. |
+| [Point](point#constructor_1)(float, object, string) | Создает анимационную точку с временем, значением и формулой. |
 
 ## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Formula](../../aspose.slides.animation/point/formula) { get; set; } | Формулы в атрибутах значений from, to, by могут состоять из следующих: Стандартные арифметические операторы: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Константы: ‘pi’ ‘e’ Условные операторы: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Операторы сравнения: '==', '&gt;=', '', '!=', '!' Тригонометрические операторы: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Натуральный логарифм ‘ln()’ Ссылки на свойства (поддерживаемые хостом), например: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Чтение/запись Строка. |
-| [Time](../../aspose.slides.animation/point/time) { get; set; } | Представляет значение времени. Чтение/запись Одиночное. |
-| [Value](../../aspose.slides.animation/point/value) { get; set; } | Представляет значение точки. Только: bool, ColorFormat, float, int, string. Чтение/запись Объект. |
+| [Formula](../../aspose.slides.animation/point/formula) { get; set; } | Формулы внутри значений, из, к, по атрибутам могут состоять из следующих: Стандартные арифметические операторы: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Константы: ‘pi’ ‘e’ Условные операторы: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Операторы сравнения: '==', '&gt;=', '', '!=', '!' Тригонометрические операторы: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Натуральный логарифм ‘ln()’ Ссылки на свойства (поддерживаемые хостом) например: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Чтение/запись Строка. |
+| [Time](../../aspose.slides.animation/point/time) { get; set; } | Представляет значение времени. Чтение/запись Single. |
+| [Value](../../aspose.slides.animation/point/value) { get; set; } | Представляет значение точки. Только: bool, ColorFormat, float, int, string. Чтение/запись Object. |
 
 ### См. также
 

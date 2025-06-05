@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/isoftedgeeffectivedata/radius/
 ---
+
 ## ISoftEdgeEffectiveData.Radius property
 
 Specifies the radius of blur to apply to the edges. Read-only Double.

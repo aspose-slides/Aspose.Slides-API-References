@@ -1,6 +1,6 @@
 ---
 title: SetAllSlideNumbersVisibility
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 更改所有页码占位符的可见性，包括母版幻灯片、布局幻灯片和幻灯片。
 type: docs
 weight: 80
@@ -17,9 +17,9 @@ public void SetAllSlideNumbersVisibility(bool isVisible)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| isVisible | Boolean | true - 使页码占位符可见，否则 - 隐藏它们。 |
+| isVisible | Boolean | true - 使页码占位符可见，false - 隐藏它们。 |
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IPresentationHeaderFooterManager](../../ipresentationheaderfootermanager)
 * 命名空间 [Aspose.Slides](../../ipresentationheaderfootermanager)

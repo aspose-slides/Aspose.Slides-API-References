@@ -1,7 +1,7 @@
 ---
-title: 关键字
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置演示文稿的关键字。可读/写的字符串。
+title: Keywords
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置演示文稿的关键字。可读/写字符串。
 type: docs
 weight: 160
 url: /zh/aspose.slides/idocumentproperties/keywords/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/idocumentproperties/keywords/
 
 ## IDocumentProperties.Keywords 属性
 
-返回或设置演示文稿的关键字。可读/写的字符串。
+返回或设置演示文稿的关键字。可读/写字符串。
 
 ```csharp
 public string Keywords { get; set; }

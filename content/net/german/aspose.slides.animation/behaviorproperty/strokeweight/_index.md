@@ -1,7 +1,7 @@
 ---
 title: StrokeWeight
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt die StrokeWeight-Eigenschaft dar
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt die Eigenschaft stroke.weight dar
 type: docs
 weight: 1040
 url: /de/aspose.slides.animation/behaviorproperty/strokeweight/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/behaviorproperty/strokeweight/
 
 ## BehaviorProperty.StrokeWeight-Eigenschaft
 
-Stellt die 'stroke.weight' Eigenschaft dar
+Stellt die Eigenschaft 'stroke.weight' dar
 
 ```csharp
 public static BehaviorProperty StrokeWeight { get; }

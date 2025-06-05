@@ -1,21 +1,21 @@
 ---
 title: MarginRight
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den rechten Rand in einem Absatz ohne Vererbung zurück oder setzt ihn. Lese-/Schreibzugriff auf Single.
+description: Gibt den rechten Rand in einem Absatz ohne Vererbung zurück oder legt ihn fest. Lese-/Schreibzugriff auf Single.
 type: docs
 weight: 100
 url: /de/aspose.slides/paragraphformat/marginright/
 ---
 
-## ParagraphFormat.MarginRight Eigenschaft
+## ParagraphFormat.MarginRight-Eigenschaft
 
-Gibt den rechten Rand in einem Absatz ohne Vererbung zurück oder setzt ihn. Lese-/Schreibzugriff auf Single.
+Gibt den rechten Rand in einem Absatz ohne Vererbung zurück oder legt ihn fest. Lese-/Schreibzugriff auf Single.
 
 ```csharp
 public float MarginRight { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [ParagraphFormat](../../paragraphformat)
 * Namespace [Aspose.Slides](../../paragraphformat)

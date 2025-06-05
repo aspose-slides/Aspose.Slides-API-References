@@ -1,6 +1,6 @@
 ---
 title: ToColor
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 将被替换的颜色。只读颜色。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.effects/icolorchangeeffectivedata/tocolor/
 public Color ToColor { get; }
 ```
 
-### 另请参阅
+### 参见也
 
 * interface [IColorChangeEffectiveData](../../icolorchangeeffectivedata)
 * namespace [Aspose.Slides.Effects](../../icolorchangeeffectivedata)

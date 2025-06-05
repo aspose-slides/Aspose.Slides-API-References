@@ -1,7 +1,7 @@
 ---
-title: Motif
-second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie la forme des visuels utilisés pendant la transition. Lecture/écriture TransitionShredPattern aspose.slides.slideshow/transitionshredpattern.
+title: Pattern
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Spécifie la forme des visuels utilisés lors de la transition. Lecture/écriture TransitionShredPatternaspose.slides.slideshow/transitionshredpattern.
 type: docs
 weight: 20
 url: /fr/aspose.slides.slideshow/shredtransition/pattern/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.slideshow/shredtransition/pattern/
 
 ## Propriété ShredTransition.Pattern
 
-Spécifie la forme des visuels utilisés pendant la transition. Lecture/écriture [`TransitionShredPattern`](../../transitionshredpattern).
+Spécifie la forme des visuels utilisés lors de la transition. Lecture/écriture [`TransitionShredPattern`](../../transitionshredpattern).
 
 ```csharp
 public TransitionShredPattern Pattern { get; set; }

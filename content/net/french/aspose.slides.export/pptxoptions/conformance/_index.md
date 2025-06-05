@@ -1,13 +1,13 @@
 ---
-title: Conformité
-second_title: Référence API Aspose.Slides pour .NET
+title: Conformance
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Spécifie la classe de conformité à laquelle le document de présentation est conforme. La valeur par défaut est Ecma376_2006
 type: docs
 weight: 20
 url: /fr/aspose.slides.export/pptxoptions/conformance/
 ---
 
-## Propriété PptxOptions.Conformance
+## PptxOptions.Conformance propriété
 
 Spécifie la classe de conformité à laquelle le document de présentation est conforme. La valeur par défaut est Ecma376_2006
 

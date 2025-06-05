@@ -1,6 +1,6 @@
 ---
 title: CellCircularReferenceException
-second_title: Aspose.Slides para referencia de API de .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Inicializa una nueva instancia de la clase CellCircularReferenceExceptionaspose.slides.spreadsheet/cellcircularreferenceexception.
 type: docs
 weight: 10
@@ -66,7 +66,7 @@ public CellCircularReferenceException(string message, Exception innerException)
 
 ## CellCircularReferenceException(string, string) {#constructor_3}
 
-Inicializa una nueva instancia de la clase [`CellCircularReferenceException`](../../cellcircularreferenceexception) con un mensaje de error específico y una referencia circular de celda.
+Inicializa una nueva instancia de la clase [`CellCircularReferenceException`](../../cellcircularreferenceexception) con un mensaje de error específico y una referencia de celda circular.
 
 ```csharp
 public CellCircularReferenceException(string message, string reference)
@@ -75,7 +75,7 @@ public CellCircularReferenceException(string message, string reference)
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | message | String | Una cadena que describe el error. |
-| reference | String | Una referencia circular de celda. |
+| reference | String | Una referencia de celda circular. |
 
 ### Ver También
 

@@ -1,7 +1,7 @@
 ---
 title: IsLogarithmic
-second_title: Aspose.Slides for .NET API 参考
-description: 表示值轴比例类型是否为对数。可读/可写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示值轴的刻度类型是否为对数。可读写布尔值。
 type: docs
 weight: 260
 url: /zh/aspose.slides.charts/axis/islogarithmic/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/axis/islogarithmic/
 
 ## Axis.IsLogarithmic 属性
 
-表示值轴比例类型是否为对数。可读/可写布尔值。
+表示值轴的刻度类型是否为对数。可读写布尔值。
 
 ```csharp
 public bool IsLogarithmic { get; set; }
 ```
 
-### 参见
+### 另请参阅
 
 * class [Axis](../../axis)
 * namespace [Aspose.Slides.Charts](../../axis)

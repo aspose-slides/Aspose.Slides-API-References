@@ -1,21 +1,21 @@
 ---
 title: IsHeaderVisible
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient la valeur indiquant qu'un espace réservé pour l'en-tête est présent. Lecture Booléen.
+second_title: Référence API Aspose.Slides pour .NET
+description: Obtient une valeur indiquant qu'un espace réservé d'en-tête est présent. Lire Boolean.
 type: docs
 weight: 20
 url: /fr/aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible/
 ---
 
-## IBaseHandoutNotesSlideHeaderFooterManag.IsHeaderVisible propriété
+## IBaseHandoutNotesSlideHeaderFooterManag.IsHeaderVisible property
 
-Obtient la valeur indiquant qu'un espace réservé pour l'en-tête est présent. Lecture Booléen.
+Obtient une valeur indiquant qu'un espace réservé d'en-tête est présent. Lire Boolean.
 
 ```csharp
 public bool IsHeaderVisible { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IBaseHandoutNotesSlideHeaderFooterManag](../../ibasehandoutnotesslideheaderfootermanag)
 * namespace [Aspose.Slides](../../ibasehandoutnotesslideheaderfootermanag)

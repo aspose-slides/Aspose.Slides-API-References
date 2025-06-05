@@ -1,6 +1,6 @@
 ---
 title: RemoveAt
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Supprime l'élément à l'index spécifié de la collection.
 type: docs
 weight: 110
@@ -21,7 +21,7 @@ public void RemoveAt(int index)
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -32,7 +32,7 @@ collection.Insert(0, new MathRadical(new MathematicalText("x"), new Mathematical
 collection.RemoveAt(2);
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathElementCollection](../../imathelementcollection)
 * namespace [Aspose.Slides.MathText](../../imathelementcollection)

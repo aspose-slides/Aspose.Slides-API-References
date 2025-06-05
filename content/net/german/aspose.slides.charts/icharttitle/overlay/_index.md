@@ -1,7 +1,7 @@
 ---
 title: Overlay
-second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob andere -Diagrammelemente erlaubt sind, den Titel zu überlappen. Lese-/schreibbarer Boolean.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Bestimmt, ob andere Diagrammelemente das Titel überlappen dürfen. Lese-/Schreib-Boolean.
 type: docs
 weight: 40
 url: /de/aspose.slides.charts/icharttitle/overlay/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/icharttitle/overlay/
 
 ## IChartTitle.Overlay-Eigenschaft
 
-Bestimmt, ob andere Diagrammelemente erlaubt sind, den Titel zu überlappen. Lese-/schreibbarer Boolean.
+Bestimmt, ob andere Diagrammelemente das Titel überlappen dürfen. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool Overlay { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IChartTitle](../../icharttitle)
 * Namespace [Aspose.Slides.Charts](../../icharttitle)

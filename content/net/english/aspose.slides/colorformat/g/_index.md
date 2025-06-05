@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/colorformat/g/
 ---
+
 ## ColorFormat.G property
 
 Returns or sets the green component of a color. All color transformations are ignored.

@@ -7,7 +7,7 @@ weight: 80
 url: /es/aspose.slides/commentcollection/copyto/
 ---
 
-## Método CommentCollection.CopyTo
+## ComentarioCollection.CopyTo método
 
 Copia todos los elementos de la colección al array especificado.
 
@@ -17,10 +17,10 @@ public void CopyTo(Array array, int index)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| array | Array | Array de destino. |
-| index | Int32 | Índice de inicio en el array de destino. |
+| array | Array | Array objetivo. |
+| index | Int32 | Índice de inicio en el array objetivo. |
 
-### Véase también
+### Ver También
 
 * clase [CommentCollection](../../commentcollection)
 * espacio de nombres [Aspose.Slides](../../commentcollection)

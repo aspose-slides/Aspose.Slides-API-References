@@ -1,6 +1,6 @@
 ---
 title: MathDelimiter
-second_title: Référence API d'Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Initialise MathDelimiter avec l'élément spécifié comme argument de base unique
 type: docs
 weight: 10
@@ -17,13 +17,13 @@ public MathDelimiter(IMathElement element)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| element | IMathElement | L'élément de base auquel le délimiteur est appliqué. Peut être null. |
+| element | IMathElement | L'élément de base auquel le délimiteur est appliqué. Peut être nul. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | Se déclenche lorsque *element* est un conteneur pour d'autres éléments, tels que MathBlock. Dans ce cas, vous devez appeler un constructeur différent avec un argument IEnumerable. |
+| InvalidOperationException | Se produit lorsque *element* est un conteneur pour d'autres éléments, tels que MathBlock. Dans ce cas, vous devez appeler un autre constructeur avec un argument IEnumerable. |
 
 ### Exemples
 

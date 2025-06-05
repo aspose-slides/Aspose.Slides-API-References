@@ -1,7 +1,7 @@
 ---
 title: NumberFormatOfXValues
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置系列 x 值的数字格式。可读/写字符串。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置系列 x 值的数字格式。可读写字符串。
 type: docs
 weight: 240
 url: /zh/aspose.slides.charts/ichartseries/numberformatofxvalues/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ichartseries/numberformatofxvalues/
 
 ## IChartSeries.NumberFormatOfXValues 属性
 
-返回或设置系列 x 值的数字格式。可读/写字符串。
+返回或设置系列 x 值的数字格式。可读写字符串。
 
 ```csharp
 public string NumberFormatOfXValues { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IChartSeries](../../ichartseries)
 * 命名空间 [Aspose.Slides.Charts](../../ichartseries)

@@ -1,13 +1,13 @@
 ---
 title: Equals
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Bestimmt, ob zwei FontData-Instanzen gleich sind.
 type: docs
 weight: 30
 url: /de/aspose.slides/fontdata/equals/
 ---
 
-## FontData.Equals Methode
+## FontData.Equals-Methode
 
 Bestimmt, ob zwei FontData-Instanzen gleich sind.
 

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/bulletformat/height/
 ---
+
 ## BulletFormat.Height property
 
 Returns or sets the bullet height of a paragraph with no inheritance. Value float.NaN determines that bullet inherits height from the first portion in the paragraph. Read/write Single.
@@ -13,6 +14,10 @@ Returns or sets the bullet height of a paragraph with no inheritance. Value floa
 ```csharp
 public float Height { get; set; }
 ```
+
+### Remarks
+
+A negative height value means that the height is given in points and a positive value means the height is a percentage of the surrounding text.
 
 ### See Also
 

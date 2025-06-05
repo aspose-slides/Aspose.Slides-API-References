@@ -7,7 +7,7 @@ weight: 70
 url: /es/aspose.slides.effects/ioutershadow/rotateshadowwithshape/
 ---
 
-## Propiedad IOuterShadow.RotateShadowWithShape
+## IOuterShadow.RotateShadowWithShape property
 
 Especifica si la sombra debe rotar con la forma si la forma se rota. Booleano de lectura/escritura.
 
@@ -15,10 +15,10 @@ Especifica si la sombra debe rotar con la forma si la forma se rota. Booleano de
 public bool RotateShadowWithShape { get; set; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [IOuterShadow](../../ioutershadow)
-* espacio de nombres [Aspose.Slides.Effects](../../ioutershadow)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IOuterShadow](../../ioutershadow)
+* namespace [Aspose.Slides.Effects](../../ioutershadow)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

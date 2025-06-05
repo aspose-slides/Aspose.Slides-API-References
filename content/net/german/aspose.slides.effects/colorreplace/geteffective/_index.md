@@ -1,15 +1,15 @@
 ---
 title: GetEffective
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft effektive Daten des Farbwechsel-Effekts mit angewandter Vererbung ab.
+description: Ruft die effektiven Daten des Farbeersetzungseffekts mit angewendeter Vererbung ab.
 type: docs
 weight: 30
 url: /de/aspose.slides.effects/colorreplace/geteffective/
 ---
 
-## ColorReplace.GetEffective-Methode
+## ColorReplace.GetEffective Methode
 
-Ruft effektive Daten des Farbwechsel-Effekts mit angewandter Vererbung ab.
+Ruft die effektiven Daten des Farbeersetzungseffekts mit angewendeter Vererbung ab.
 
 ```csharp
 public IColorReplaceEffectiveData GetEffective()
@@ -19,9 +19,9 @@ public IColorReplaceEffectiveData GetEffective()
 
 Ein [`IColorReplaceEffectiveData`](../../icolorreplaceeffectivedata).
 
-### Siehe auch
+### Siehe Auch
 
-* Interface [IColorReplaceEffectiveData](../../icolorreplaceeffectivedata)
+* Schnittstelle [IColorReplaceEffectiveData](../../icolorreplaceeffectivedata)
 * Klasse [ColorReplace](../../colorreplace)
 * Namespace [Aspose.Slides.Effects](../../colorreplace)
 * Assembly [Aspose.Slides](../../../)

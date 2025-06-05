@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeArea
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt true zurück, wenn chartType einer der Untertypen von Area ist. Die Untertypen entsprechen dem entsprechenden Satz in PowerPoint siehe Dialogfeld "Diagrammtyp ändern" in PowerPoint Area, PercentsStackedArea, PercentsStackedArea3D, StackedArea, StackedArea3D, Area3D.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt true zurück, wenn chartType einer der Area-Subtypen ist. Die Subtypensätze entsprechen dem entsprechenden Satz in PowerPoint siehe Dialogfeld "Diagrammtyp ändern" in PowerPoint Area, PercentsStackedArea, PercentsStackedArea3D, StackedArea, StackedArea3D, Area3D.
 type: docs
 weight: 50
 url: /de/aspose.slides.charts/charttypecharacterizer/ischarttypearea/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/charttypecharacterizer/ischarttypearea/
 
 ## ChartTypeCharacterizer.IsChartTypeArea Methode
 
-Gibt true zurück, wenn chartType einer der Untertypen von Area ist. Die Untertypen entsprechen dem entsprechenden Satz in PowerPoint (siehe Dialogfeld "Diagrammtyp ändern" in PowerPoint): Area, PercentsStackedArea, PercentsStackedArea3D, StackedArea, StackedArea3D, Area3D.
+Gibt true zurück, wenn chartType einer der Area-Subtypen ist. Die Subtypensätze entsprechen dem entsprechenden Satz in PowerPoint (siehe Dialogfeld "Diagrammtyp ändern" in PowerPoint): Area, PercentsStackedArea, PercentsStackedArea3D, StackedArea, StackedArea3D, Area3D.
 
 ```csharp
 public static bool IsChartTypeArea(ChartType chartType)
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

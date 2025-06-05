@@ -1,15 +1,15 @@
 ---
 title: ShowMeanLine
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente la ligne moyenne. Vrai si la ligne moyenne est affichée sur le graphique BoxAndWhisker. S'applique uniquement aux graphiques BoxAndWhisker. Lecture/écriture Booléen.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Représente la ligne moyenne. Vrai si la ligne moyenne est affichée sur le graphique BoxAndWhisker. S'applique uniquement aux graphiques BoxAndWhisker. Valeur booléenne en lecture/écriture.
 type: docs
 weight: 390
 url: /fr/aspose.slides.charts/chartseries/showmeanline/
 ---
 
-## Propriété ChartSeries.ShowMeanLine
+## ChartSeries.ShowMeanLine property
 
-Représente la ligne moyenne. Vrai si la ligne moyenne est affichée sur le graphique BoxAndWhisker. S'applique uniquement aux graphiques BoxAndWhisker. Lecture/écriture Booléen.
+Représente la ligne moyenne. Vrai si la ligne moyenne est affichée sur le graphique BoxAndWhisker. S'applique uniquement aux graphiques BoxAndWhisker. Valeur booléenne en lecture/écriture.
 
 ```csharp
 public bool ShowMeanLine { get; set; }
@@ -17,7 +17,7 @@ public bool ShowMeanLine { get; set; }
 
 ### Voir Aussi
 
-* classe [ChartSeries](../../chartseries)
+* class [ChartSeries](../../chartseries)
 * namespace [Aspose.Slides.Charts](../../chartseries)
 * assembly [Aspose.Slides](../../../)
 

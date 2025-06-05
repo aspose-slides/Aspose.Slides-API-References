@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Entfernt eine Spalte an der angegebenen Position aus einer Tabelle.
 type: docs
 weight: 90
 url: /de/aspose.slides/columncollection/removeat/
 ---
 
-## ColumnCollection.RemoveAt Methode
+## ColumnCollection.RemoveAt-Methode
 
 Entfernt eine Spalte an der angegebenen Position aus einer Tabelle.
 
@@ -18,9 +18,9 @@ public void RemoveAt(int firstColumnIndex, bool withAttachedRows)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | firstColumnIndex | Int32 | Index der zu löschenden Spalte. |
-| withAttachedRows | Boolean | Wahr, um auch alle angehängten Spalten zu löschen. |
+| withAttachedRows | Boolean | True, um auch alle angehängten Spalten zu löschen. |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [ColumnCollection](../../columncollection)
 * Namespace [Aspose.Slides](../../columncollection)

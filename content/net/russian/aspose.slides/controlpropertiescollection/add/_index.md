@@ -1,13 +1,13 @@
 ---
-title: Добавить
-second_title: Справка по API Aspose.Slides для .NET
+title: Add
+second_title: Aspose.Sildes для .NET API Справочник
 description: Добавляет свойство в коллекцию.
 type: docs
 weight: 40
 url: /ru/aspose.slides/controlpropertiescollection/add/
 ---
 
-## Метод ControlPropertiesCollection.Add
+## ControlPropertiesCollection.Add метод
 
 Добавляет свойство в коллекцию.
 

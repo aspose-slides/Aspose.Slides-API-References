@@ -1,15 +1,15 @@
 ---
-title: CambioColor
-second_title: Referencia de API de Aspose.Slidess para .NET
-description: Representa un efecto de Cambio de Color. Las instancias de FromColor se reemplazan con instancias de ToColor.
+title: ColorChange
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Representa un efecto de cambio de color. Las instancias de FromColor se reemplazan con instancias de ToColor.
 type: docs
 weight: 2840
 url: /es/aspose.slides.effects/colorchange/
 ---
 
-## Clase CambioColor
+## Clase ColorChange
 
-Representa un efecto de Cambio de Color. Las instancias de FromColor se reemplazan con instancias de ToColor.
+Representa un efecto de cambio de color. Las instancias de FromColor se reemplazan con instancias de ToColor.
 
 ```csharp
 public sealed class ColorChange : ImageTransformOperation, IColorChange
@@ -28,10 +28,10 @@ public sealed class ColorChange : ImageTransformOperation, IColorChange
 | Nombre | Descripción |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/colorchange/equals)(object) | Determina si el [`ColorChange`](../colorchange) especificado es igual al [`ColorChange`](../colorchange) actual. |
-| [GetEffective](../../aspose.slides.effects/colorchange/geteffective)() | Obtiene los datos efectivos del efecto de Cambio de Color con la herencia aplicada. |
+| [GetEffective](../../aspose.slides.effects/colorchange/geteffective)() | Obtiene datos efectivos del efecto de cambio de color con la herencia aplicada. |
 | override [GetHashCode](../../aspose.slides.effects/colorchange/gethashcode)() | Sirve como una función hash para un tipo particular. |
 
-### Véase También
+### Véase también
 
 * clase [ImageTransformOperation](../imagetransformoperation)
 * interfaz [IColorChange](../icolorchange)

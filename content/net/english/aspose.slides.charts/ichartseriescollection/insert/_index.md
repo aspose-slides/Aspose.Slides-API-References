@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/ichartseriescollection/insert/
 ---
+
 ## IChartSeriesCollection.Insert method
 
 Creates new chart series and inserts it into the collection.

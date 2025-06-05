@@ -1,7 +1,7 @@
 ---
 title: FormatText
 second_title: Aspose.Sildes for .NET API Reference
-description: 此函数在将文本部分呈现为 SVG 之前被调用，以允许用户控制生成的 SVG。
+description: 该函数在文本部分渲染到SVG之前被调用，以允许用户控制生成的SVG。
 type: docs
 weight: 20
 url: /zh/aspose.slides.export/isvgshapeandtextformattingcontroller/formattext/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/isvgshapeandtextformattingcontroller/formattext/
 
 ## ISvgShapeAndTextFormattingController.FormatText 方法
 
-此函数在将文本部分呈现为 SVG 之前被调用，以允许用户控制生成的 SVG。
+该函数在文本部分渲染到SVG之前被调用，以允许用户控制生成的SVG。
 
 ```csharp
 public void FormatText(ISvgTSpan svgTSpan, IPortion portion, ITextFrame textFrame)
@@ -17,11 +17,11 @@ public void FormatText(ISvgTSpan svgTSpan, IPortion portion, ITextFrame textFram
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| svgTSpan | ISvgTSpan | 用于控制 SVG tspan 生成的对象。 |
+| svgTSpan | ISvgTSpan | 控制SVG tspan生成的对象。 |
 | portion | IPortion | 源部分。 |
-| textFrame | ITextFrame | 源部分文本框。 |
+| textFrame | ITextFrame | 源部分文本框架。 |
 
-### 另请参见
+### 另见
 
 * 接口 [ISvgTSpan](../../isvgtspan)
 * 接口 [IPortion](../../../aspose.slides/iportion)

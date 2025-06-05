@@ -1,7 +1,7 @@
 ---
 title: EndPosAlpha
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Endposition entlang des Alpha-Gradientenrumpfes des End-Alpha-Wertprozents an. Lese-/Schreibbare Einzelzahl.
+description: Gibt die Endposition entlang der Alpha-Gradientenrampe des End-Alpha-Wertes Prozentsätze an. Lese-/Schreibzugriff auf Single.
 type: docs
 weight: 60
 url: /de/aspose.slides.effects/ireflection/endposalpha/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/ireflection/endposalpha/
 
 ## IReflection.EndPosAlpha-Eigenschaft
 
-Gibt die Endposition (entlang des Alpha-Gradientenrumpfes) des End-Alpha-Werts (Prozentsätze) an. Lese-/Schreibbare Einzelzahl.
+Gibt die Endposition (entlang der Alpha-Gradientenrampe) des End-Alpha-Wertes (Prozentsätze) an. Lese-/Schreibzugriff auf Single.
 
 ```csharp
 public float EndPosAlpha { get; set; }

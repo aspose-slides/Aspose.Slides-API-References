@@ -1,7 +1,7 @@
 ---
-title: Element
+title: Item
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft das Element am angegebenen Index ab. Nur lesbarer IFillFormat aspose.slides/ifillformat.
+description: Holen Sie sich das Element am angegebenen Index. Nur-Lese IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 10
 url: /de/aspose.slides.theme/ifillformatcollection/item/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/ifillformatcollection/item/
 
 ## IFillFormatCollection-Indexer
 
-Ruft das Element am angegebenen Index ab. Nur lesbar [`IFillFormat`](../../../aspose.slides/ifillformat).
+Holt das Element am angegebenen Index. Nur-Lese [`IFillFormat`](../../../aspose.slides/ifillformat).
 
 ```csharp
 public IFillFormat this[int index] { get; }

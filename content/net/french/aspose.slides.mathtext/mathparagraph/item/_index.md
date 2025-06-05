@@ -1,15 +1,15 @@
 ---
-title: Élément
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient l'élément à l'index spécifié. Lecture seule IMathBlockaspose.slides.mathtext/imathblock.
+title: Item
+second_title: Référence API Aspose.Slides pour .NET
+description: Obtient l'élément à l'index spécifié. IMathBlock en lecture seule aspose.slides.mathtext/imathblock.
 type: docs
 weight: 30
 url: /fr/aspose.slides.mathtext/mathparagraph/item/
 ---
 
-## Indice MathParagraph
+## Indexeur MathParagraph
 
-Obtient l'élément à l'index spécifié. Lecture seule [`IMathBlock`](../../imathblock).
+Obtient l'élément à l'index spécifié. [`IMathBlock`](../../imathblock) en lecture seule.
 
 ```csharp
 public IMathBlock this[int index] { get; set; }
@@ -17,7 +17,7 @@ public IMathBlock this[int index] { get; set; }
 
 | Paramètre | Description |
 | --- | --- |
-| index | L'index basé sur zéro de l'élément à obtenir |
+| index | L'index de base zéro de l'élément à obtenir |
 
 ### Valeur de retour
 
@@ -36,7 +36,7 @@ mathParagraph.Add(new MathBlock(new MathematicalText("block2")));
 IMathBlock block = mathParagraph[1];
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathBlock](../../imathblock)
 * class [MathParagraph](../../mathparagraph)

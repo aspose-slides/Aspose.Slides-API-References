@@ -1,6 +1,6 @@
 ---
 title: ToMathArray
-second_title: Aspose.Slides для .NET Справочник API
+second_title: Справочник API Aspose.Sildes для .NET
 description: Помещает в вертикальный массив
 type: docs
 weight: 200
@@ -28,7 +28,7 @@ public virtual IMathArray ToMathArray()
 IMathArray array = new MathematicalText("x1").Join("x2").Join("x3").ToMathArray();
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IMathArray](../../imatharray)
 * класс [MathElementBase](../../mathelementbase)

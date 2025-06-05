@@ -1,7 +1,7 @@
 ---
 title: ShowHiddenSlides
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Especifica si el documento generado debe incluir diapositivas ocultas o no. El valor por defecto es falso.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Especifica si el documento generado debe incluir diapositivas ocultas o no. El valor predeterminado es falso.
 type: docs
 weight: 40
 url: /es/aspose.slides.export/xpsoptions/showhiddenslides/
@@ -9,16 +9,16 @@ url: /es/aspose.slides.export/xpsoptions/showhiddenslides/
 
 ## Propiedad XpsOptions.ShowHiddenSlides
 
-Especifica si el documento generado debe incluir diapositivas ocultas o no. El valor por defecto es `false`.
+Especifica si el documento generado debe incluir diapositivas ocultas o no. El valor predeterminado es `false`.
 
 ```csharp
 public bool ShowHiddenSlides { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [XpsOptions](../../xpsoptions)
 * espacio de nombres [Aspose.Slides.Export](../../xpsoptions)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

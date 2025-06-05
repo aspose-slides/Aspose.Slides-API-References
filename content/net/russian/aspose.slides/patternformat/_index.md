@@ -1,7 +1,7 @@
 ---
 title: PatternFormat
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет шаблон для заполнения фигуры.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет собой шаблон для заполнения фигуры.
 type: docs
 weight: 9080
 url: /ru/aspose.slides/patternformat/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/patternformat/
 
 ## Класс PatternFormat
 
-Представляет шаблон для заполнения фигуры.
+Представляет собой шаблон для заполнения фигуры.
 
 ```csharp
 public sealed class PatternFormat : PVIObject, IPatternFormat
@@ -17,23 +17,23 @@ public sealed class PatternFormat : PVIObject, IPatternFormat
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../ipresentationcomponent). |
 | [BackColor](../../aspose.slides/patternformat/backcolor) { get; } | Возвращает цвет фона шаблона. Только для чтения [`IColorFormat`](../icolorformat). |
 | [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | Возвращает цвет переднего плана шаблона. Только для чтения [`IColorFormat`](../icolorformat). |
-| [PatternStyle](../../aspose.slides/patternformat/patternstyle) { get; set; } | Возвращает или устанавливает стиль шаблона. Чтение/запись [`PatternStyle`](../patternstyle). |
+| [PatternStyle](../../aspose.slides/patternformat/patternstyle) { get; set; } | Возвращает или задает стиль шаблона. Чтение/запись [`PatternStyle`](../patternstyle). |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с указанным объектом. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хеш-код. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хэш-код. |
 | [GetTile](../../aspose.slides/patternformat/gettile#gettile)(Color) | Создает изображение плитки для заполнения шаблона. |
-| [GetTile](../../aspose.slides/patternformat/gettile#gettile_1)(Color, Color) | Создает изображение плитки для заполнения шаблона с указанными цветами. |
+| [GetTile](../../aspose.slides/patternformat/gettile#gettile_1)(Color, Color) | Создает изображение плитки для заполнения шаблона с заданными цветами. |
 
-### Смотрите также
+### См. также
 
 * класс [PVIObject](../pviobject)
 * интерфейс [IPatternFormat](../ipatternformat)

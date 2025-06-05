@@ -1,6 +1,6 @@
 ---
 title: ShapeLock
-second_title: Referencia de la API Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve los bloqueos de formas. Solo lectura IConnectorLockaspose.slides/iconnectorlock.
 type: docs
 weight: 40
@@ -15,11 +15,11 @@ Devuelve los bloqueos de la forma. Solo lectura [`IConnectorLock`](../../iconnec
 public IConnectorLock ShapeLock { get; }
 ```
 
-### Ver También
+### Véase También
 
 * interfaz [IConnectorLock](../../iconnectorlock)
 * clase [Connector](../../connector)
 * espacio de nombres [Aspose.Slides](../../connector)
 * ensamblaje [Aspose.Slides](../../../)
 
-<!-- NO EDITE: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

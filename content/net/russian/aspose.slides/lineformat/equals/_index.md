@@ -1,6 +1,6 @@
 ---
-title: Равно
-second_title: Aspose.Sildes для .NET API Reference
+title: Equals
+second_title: Aspose.Sildes для .NET API Справочник
 description: type docs
 weight: 180
 url: /ru/aspose.slides/lineformat/equals/
@@ -12,7 +12,7 @@ url: /ru/aspose.slides/lineformat/equals/
 public override bool Equals(object obj)
 ```
 
-### Смотри Также
+### См. также
 
 * класс [LineFormat](../../lineformat)
 * пространство имен [Aspose.Slides](../../lineformat)
@@ -32,11 +32,11 @@ public bool Equals(ILineFormat lineFormat)
 | --- | --- | --- |
 | lineFormat | ILineFormat | LineFormat для сравнения с текущим LineFormat. |
 
-### Возврат Значения
+### Значение, возвращаемое методом
 
 **true**, если указанный LineFormat равен текущему LineFormat; в противном случае **false**.
 
-### Смотри Также
+### См. также
 
 * интерфейс [ILineFormat](../../ilineformat)
 * класс [LineFormat](../../lineformat)

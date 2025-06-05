@@ -1,7 +1,7 @@
 ---
-title: Persistance
-second_title: Référence API Aspose.Slides pour .NET
-description: Obtient la méthode utilisée pour stocker les propriétés du contrôle ActiveX. Lecture seule PersistenceType aspose.slides/persistencetype.
+title: Persistence
+second_title: Aspose.Sildes pour .NET Référence API
+description: Obtient la méthode utilisée pour stocker les propriétés du contrôle ActiveX. Read only PersistenceTypeaspose.slides/persistencetype.
 type: docs
 weight: 50
 url: /fr/aspose.slides/control/persistence/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/control/persistence/
 
 ## Propriété Control.Persistence
 
-Obtient la méthode utilisée pour stocker les propriétés du contrôle ActiveX. Lecture seule [`PersistenceType`](../../persistencetype).
+Obtient la méthode utilisée pour stocker les propriétés du contrôle ActiveX. Read only [`PersistenceType`](../../persistencetype).
 
 ```csharp
 public PersistenceType Persistence { get; }
@@ -17,7 +17,7 @@ public PersistenceType Persistence { get; }
 
 ### Exemples
 
-L'exemple suivant montre l'utilisation de la propriété Persistence pour vérifier si les propriétés de l'objet ActiveX peuvent être modifiées en tant que propriétés ActiveX basées sur XML:
+L'exemple suivant montre l'utilisation de la propriété Persistence pour vérifier si les propriétés de l'objet ActiveX peuvent être modifiées en tant que propriétés ActiveX basées sur XML :
 
 ```csharp
 [C#]
@@ -31,7 +31,7 @@ else
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [PersistenceType](../../persistencetype)
 * class [Control](../../control)

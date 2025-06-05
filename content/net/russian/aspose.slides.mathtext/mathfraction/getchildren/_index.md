@@ -1,13 +1,13 @@
 ---
 title: GetChildren
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Slides для .NET API Справка
 description: Получить дочерние элементы
 type: docs
 weight: 50
 url: /ru/aspose.slides.mathtext/mathfraction/getchildren/
 ---
 
-## Метод MathFraction.GetChildren
+## MathFraction.GetChildren метод
 
 Получить дочерние элементы
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.mathtext/mathfraction/getchildren/
 public IMathElement[] GetChildren()
 ```
 
-### Смотрите также
+### Также смотрите
 
 * интерфейс [IMathElement](../../imathelement)
 * класс [MathFraction](../../mathfraction)

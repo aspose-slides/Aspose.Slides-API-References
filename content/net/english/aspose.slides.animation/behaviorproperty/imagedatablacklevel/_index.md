@@ -6,6 +6,7 @@ type: docs
 weight: 420
 url: /aspose.slides.animation/behaviorproperty/imagedatablacklevel/
 ---
+
 ## BehaviorProperty.ImageDataBlacklevel property
 
 Represents 'imageData.blacklevel' property

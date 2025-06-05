@@ -1,15 +1,15 @@
 ---
 title: RangeEndIndex
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtenez le dernier index de la plage unicode continue.
+description: Obtenez le dernier indice d'une plage unicode continue.
 type: docs
 weight: 30
 url: /fr/aspose.slides/ifontfallbackrule/rangeendindex/
 ---
 
-## Propriété IFontFallBackRule.RangeEndIndex
+## IFontFallBackRule.RangeEndIndex propriété
 
-Obtenez le dernier index de la plage unicode continue.
+Obtenez le dernier indice d'une plage unicode continue.
 
 ```csharp
 public uint RangeEndIndex { get; }

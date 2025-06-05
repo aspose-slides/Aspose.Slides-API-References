@@ -1,15 +1,15 @@
 ---
-title: Son
-second_title: Référence API Aspose.Sildes pour .NET
-description: Représente le son joué du lien hypertexte. Lecture/écriture IAudioaspose.slides/iaudio.
+title: Sound
+second_title: Aspose.Sildes pour .NET API Reference
+description: Représente le son en cours de lecture du lien hypertexte. Lecture/écriture IAudioaspose.slides/iaudio.
 type: docs
 weight: 70
 url: /fr/aspose.slides/ihyperlink/sound/
 ---
 
-## Propriété IHyperlink.Sound
+## IHyperlink.Sound propriété
 
-Représente le son joué du lien hypertexte. Lecture/écriture [`IAudio`](../../iaudio).
+Représente le son en cours de lecture du lien hypertexte. Lecture/écriture [`IAudio`](../../iaudio).
 
 ```csharp
 public IAudio Sound { get; set; }

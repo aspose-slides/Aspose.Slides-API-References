@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/ibulletformateffectivedata/font/
 ---
+
 ## IBulletFormatEffectiveData.Font property
 
 Returns the bullet font of a paragraph. Read-only [`IFontData`](../../ifontdata).

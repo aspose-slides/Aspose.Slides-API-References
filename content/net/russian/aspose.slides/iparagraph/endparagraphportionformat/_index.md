@@ -1,15 +1,15 @@
 ---
 title: EndParagraphPortionFormat
-second_title: Aspose.Sildes для .NET API Справочник
-description: Указывает свойства порции, которые будут использоваться, если после последней порции будет вставлена другая порция.
+second_title: Aspose.Slides для .NET API Справочник
+description: Указывает свойства части, которые будут использоваться, если после последней вставляется другая часть.
 type: docs
 weight: 20
 url: /ru/aspose.slides/iparagraph/endparagraphportionformat/
 ---
 
-## Свойство IParagraph.EndParagraphPortionFormat
+## IParagraph.EndParagraphPortionFormat свойство
 
-Указывает свойства порции, которые будут использоваться, если после последней порции будет вставлена другая порция.
+Указывает свойства части, которые будут использоваться, если после последней вставляется другая часть.
 
 ```csharp
 public IPortionFormat EndParagraphPortionFormat { get; set; }

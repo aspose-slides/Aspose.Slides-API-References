@@ -1,6 +1,6 @@
 ---
 title: PersistenceType
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Spécifie la méthode utilisée pour stocker les propriétés du contrôle ActiveX.
 type: docs
 weight: 9100
@@ -19,11 +19,11 @@ public enum PersistenceType
 
 | Nom | Valeur | Description |
 | --- | --- | --- |
-| NotDefined | `-1` | L'identifiant de persistance n'est pas spécifié. |
-| PersistPropertyBag | `0` | Spécifie que le contrôle ActiveX est persistant en utilisant la persistance basée sur un sac de propriétés. La persistance basée sur un sac de propriétés stocke un contrôle ActiveX par le biais d'une collection de paires nom-valeur qui spécifient les données persistées par le contrôle ActiveX. |
-| PersistStream | `1` | Spécifie que le contrôle ActiveX est persistant en utilisant une persistance basée sur un flux qui ne prend pas en charge l'initialisation du contrôle ActiveX à un état par défaut. |
-| PersistStreamInit | `2` | Spécifie que le contrôle ActiveX est persistant en utilisant une persistance basée sur un flux qui prend en charge l'initialisation du contrôle ActiveX à un état par défaut. |
-| PersistStorage | `3` | Spécifie que le contrôle ActiveX est persistant en utilisant une persistance basée sur le stockage. |
+| NotDefined | `-1` | Persistance non spécifiée. |
+| PersistPropertyBag | `0` | Spécifie que le contrôle ActiveX est persisté en utilisant une persistance basée sur un sac de propriétés. La persistance basée sur un sac de propriétés stocke un contrôle ActiveX par le biais d'une collection de paires nom et valeur qui spécifient les données persistées par le contrôle ActiveX. |
+| PersistStream | `1` | Spécifie que le contrôle ActiveX est persisté en utilisant une persistance basée sur un flux qui ne prend pas en charge l'initialisation du contrôle ActiveX à un état par défaut. |
+| PersistStreamInit | `2` | Spécifie que le contrôle ActiveX est persisté en utilisant une persistance basée sur un flux qui prend en charge l'initialisation du contrôle ActiveX à un état par défaut. |
+| PersistStorage | `3` | Spécifie que le contrôle ActiveX est persisté en utilisant une persistance basée sur le stockage. |
 
 ### Voir Aussi
 

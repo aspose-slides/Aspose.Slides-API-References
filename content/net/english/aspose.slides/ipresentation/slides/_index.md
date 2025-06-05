@@ -6,6 +6,7 @@ type: docs
 weight: 240
 url: /aspose.slides/ipresentation/slides/
 ---
+
 ## IPresentation.Slides property
 
 Returns a list of all slides that are defined in the presentation. Read-only [`ISlideCollection`](../../islidecollection).

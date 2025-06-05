@@ -1,21 +1,21 @@
 ---
 title: BinaryData
-second_title: Справка по API Aspose.Silides для .NET
-description: Возвращает бинарные данные закрытых субтитров. Тільки для чтения Byte.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает двоичные данные скрытых субтитров. Только для чтения Byte.
 type: docs
 weight: 10
 url: /ru/aspose.slides/icaptions/binarydata/
 ---
 
-## Свойство ICaptions.BinaryData
+## ICaptions.BinaryData свойство
 
-Возвращает бинарные данные закрытых субтитров. Только для чтения Byte[].
+Возвращает двоичные данные скрытых субтитров. Только для чтения Byte[].
 
 ```csharp
 public byte[] BinaryData { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [ICaptions](../../icaptions)
 * пространство имен [Aspose.Slides](../../icaptions)

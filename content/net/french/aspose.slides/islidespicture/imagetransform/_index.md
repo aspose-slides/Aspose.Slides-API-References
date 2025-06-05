@@ -1,15 +1,15 @@
 ---
 title: ImageTransform
 second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie la collection des effets de transformation d'image. Lecture seule IImageTransformOperationCollectionaspose.slides.effects/iimagetransformoperationcollection.
+description: Retourne la collection des effets de transformation d'image. Lecture seule IImageTransformOperationCollectionaspose.slides.effects/iimagetransformoperationcollection.
 type: docs
 weight: 30
 url: /fr/aspose.slides/islidespicture/imagetransform/
 ---
 
-## Propriété ISlidesPicture.ImageTransform
+## ISlidesPicture.ImageTransform propriété
 
-Renvoie la collection des effets de transformation d'image. Lecture seule [`IImageTransformOperationCollection`](../../../aspose.slides.effects/iimagetransformoperationcollection).
+Retourne la collection des effets de transformation d'image. Lecture seule [`IImageTransformOperationCollection`](../../../aspose.slides.effects/iimagetransformoperationcollection).
 
 ```csharp
 public IImageTransformOperationCollection ImageTransform { get; }

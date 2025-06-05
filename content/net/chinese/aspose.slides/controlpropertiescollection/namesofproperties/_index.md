@@ -1,7 +1,7 @@
 ---
-title: 属性名称
-second_title: Aspose.Slides for .NET API 参考
-description: 返回属性名称集合。只读 ICollection。
+title: NamesOfProperties
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回属性名称的集合。只读 ICollection。
 type: docs
 weight: 30
 url: /zh/aspose.slides/controlpropertiescollection/namesofproperties/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/controlpropertiescollection/namesofproperties/
 
 ## ControlPropertiesCollection.NamesOfProperties 属性
 
-返回属性名称集合。只读 ICollection。
+返回属性名称的集合。只读 ICollection。
 
 ```csharp
 public ICollection NamesOfProperties { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [ControlPropertiesCollection](../../controlpropertiescollection)
 * namespace [Aspose.Slides](../../controlpropertiescollection)

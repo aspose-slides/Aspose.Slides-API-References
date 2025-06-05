@@ -1,7 +1,7 @@
 ---
 title: LineTo
 second_title: Aspose.Sildes for .NET API Reference
-description: 将线添加到路径的末端
+description: 在路径末尾添加线条
 type: docs
 weight: 70
 url: /zh/aspose.slides/igeometrypath/lineto/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/igeometrypath/lineto/
 
 ## LineTo(PointF) {#lineto_2}
 
-将线添加到路径的末端
+在路径末尾添加线条
 
 ```csharp
 public void LineTo(PointF point)
@@ -17,9 +17,9 @@ public void LineTo(PointF point)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| point | PointF | 线的终点 |
+| point | PointF | 线条的终点 |
 
-### 另见
+### 另请参见
 
 * 接口 [IGeometryPath](../../igeometrypath)
 * 命名空间 [Aspose.Slides](../../igeometrypath)
@@ -29,7 +29,7 @@ public void LineTo(PointF point)
 
 ## LineTo(float, float) {#lineto}
 
-将线添加到路径的末端
+在路径末尾添加线条
 
 ```csharp
 public void LineTo(float x, float y)
@@ -37,10 +37,10 @@ public void LineTo(float x, float y)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| x | Single | 线的终点的 X 坐标 |
-| y | Single | 线的终点的 Y 坐标 |
+| x | Single | 线条终点的 X 坐标 |
+| y | Single | 线条终点的 Y 坐标 |
 
-### 另见
+### 另请参见
 
 * 接口 [IGeometryPath](../../igeometrypath)
 * 命名空间 [Aspose.Slides](../../igeometrypath)
@@ -50,7 +50,7 @@ public void LineTo(float x, float y)
 
 ## LineTo(PointF, uint) {#lineto_3}
 
-将线添加到路径的指定位置
+在路径的指定位置添加线条
 
 ```csharp
 public void LineTo(PointF point, uint index)
@@ -59,15 +59,15 @@ public void LineTo(PointF point, uint index)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | point | PointF | 终点 |
-| index | UInt32 | PathData 中段的索引 |
+| index | UInt32 | PathData 中片段的索引 |
 
 ### 异常
 
 | 异常 | 条件 |
 | --- | --- |
-| ArgumentOutOfRangeException | 段索引超出 PathData 范围 |
+| ArgumentOutOfRangeException | 片段索引超出 PathData 范围 |
 
-### 另见
+### 另请参见
 
 * 接口 [IGeometryPath](../../igeometrypath)
 * 命名空间 [Aspose.Slides](../../igeometrypath)
@@ -77,7 +77,7 @@ public void LineTo(PointF point, uint index)
 
 ## LineTo(float, float, uint) {#lineto_1}
 
-将线添加到路径的指定位置
+在路径的指定位置添加线条
 
 ```csharp
 public void LineTo(float x, float y, uint index)
@@ -87,15 +87,15 @@ public void LineTo(float x, float y, uint index)
 | --- | --- | --- |
 | x | Single | 点的 X 坐标 |
 | y | Single | 点的 Y 坐标 |
-| index | UInt32 | PathData 中段的索引 |
+| index | UInt32 | PathData 中片段的索引 |
 
 ### 异常
 
 | 异常 | 条件 |
 | --- | --- |
-| ArgumentOutOfRangeException | 段索引超出 PathData 范围 |
+| ArgumentOutOfRangeException | 片段索引超出 PathData 范围 |
 
-### 另见
+### 另请参见
 
 * 接口 [IGeometryPath](../../igeometrypath)
 * 命名空间 [Aspose.Slides](../../igeometrypath)

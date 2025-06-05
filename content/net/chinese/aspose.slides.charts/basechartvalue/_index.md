@@ -19,10 +19,10 @@ public abstract class BaseChartValue : IBaseChartValue
 
 | 名称 | 描述 |
 | --- | --- |
-| abstract [Data](../../aspose.slides.charts/basechartvalue/data) { get; set; } | 数据。可读/可写对象。 |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | 指定 AsCell、AsCells、AsLiteralString 或 AsLiteralDouble 属性在子类中是否有效。换句话说，它指定 Data 属性值的类型。可读/可写 [`DataSourceType`](../datasourcetype)。 |
+| abstract [Data](../../aspose.slides.charts/basechartvalue/data) { get; set; } | 数据。可读写对象。 |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | 指定 AsCell、AsCells、AsLiteralString 或 AsLiteralDouble 属性在子类中是否有效。换句话说，它指定 Data 属性的值的类型。可读写 [`DataSourceType`](../datasourcetype)。 |
 
-### 另请参阅
+### 另见
 
 * 接口 [IBaseChartValue](../ibasechartvalue)
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)

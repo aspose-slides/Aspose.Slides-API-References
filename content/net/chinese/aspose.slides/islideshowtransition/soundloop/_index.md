@@ -1,7 +1,7 @@
 ---
 title: SoundLoop
-second_title: Aspose.Slides for .NET API 参考
-description: 该属性指定声音是否会循环，直到幻灯片中发生下一个声音事件。可读写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 该属性指定声音是否将在幻灯片中循环，直到下一个声音事件发生。可读写的布尔值。
 type: docs
 weight: 60
 url: /zh/aspose.slides/islideshowtransition/soundloop/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/islideshowtransition/soundloop/
 
 ## ISlideShowTransition.SoundLoop 属性
 
-该属性指定声音是否会循环，直到幻灯片中发生下一个声音事件。可读写布尔值。
+该属性指定声音是否将在幻灯片中循环，直到下一个声音事件发生。可读写的布尔值。
 
 ```csharp
 public bool SoundLoop { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [ISlideShowTransition](../../islideshowtransition)
 * 命名空间 [Aspose.Slides](../../islideshowtransition)

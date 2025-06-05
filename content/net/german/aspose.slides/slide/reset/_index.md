@@ -1,7 +1,7 @@
 ---
-title: Zurücksetzen
+title: Reset
 second_title: Aspose.Slides für .NET API-Referenz
-description: Setzt die Positionsgröße und das Format jeder Form zurück, die ein Prototyp auf LayoutSlide hat.
+description: Setzt Position, Größe und Formatierung jeder Form zurück, die ein Prototyp auf LayoutSlide hat.
 type: docs
 weight: 120
 url: /de/aspose.slides/slide/reset/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/slide/reset/
 
 ## Slide.Reset-Methode
 
-Setzt die Position, Größe und das Format jeder Form zurück, die ein Prototyp auf LayoutSlide hat.
+Setzt Position, Größe und Formatierung jeder Form zurück, die ein Prototyp auf LayoutSlide hat.
 
 ```csharp
 public void Reset()

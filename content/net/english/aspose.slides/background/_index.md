@@ -3,9 +3,10 @@ title: Background
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents background of a slide.
 type: docs
-weight: 840
+weight: 850
 url: /aspose.slides/background/
 ---
+
 ## Background class
 
 Represents background of a slide.

@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/iprotectionmanager/readonlyrecommended/
 ---
+
 ## IProtectionManager.ReadOnlyRecommended property
 
 Gets or sets read-only recommendation. Read/write Boolean.

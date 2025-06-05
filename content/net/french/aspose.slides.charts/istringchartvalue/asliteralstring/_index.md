@@ -1,7 +1,7 @@
 ---
 title: AsLiteralString
-second_title: Référence API d'Aspose.Slides pour .NET
-description: Renvoie ou définit la chaîne littérale si la propriété DataSourceType est DataSourceType.StringLiterals. Lecture/écriture String.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Renvoie ou définit la chaîne littérale si la propriété DataSourceType est DataSourceType.StringLiterals. Lecture/écriture de chaîne.
 type: docs
 weight: 20
 url: /fr/aspose.slides.charts/istringchartvalue/asliteralstring/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/istringchartvalue/asliteralstring/
 
 ## Propriété IStringChartValue.AsLiteralString
 
-Renvoie ou définit la chaîne littérale si la propriété DataSourceType est DataSourceType.StringLiterals. Lecture/écriture String.
+Renvoie ou définit la chaîne littérale si la propriété DataSourceType est DataSourceType.StringLiterals. Lecture/écriture de chaîne.
 
 ```csharp
 public string AsLiteralString { get; set; }

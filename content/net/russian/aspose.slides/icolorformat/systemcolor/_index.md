@@ -1,6 +1,6 @@
 ---
 title: SystemColor
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справка
 description: Возвращает или устанавливает цвет, определяемый таблицей системных цветов. Чтение/запись SystemColoraspose.slides/systemcolor.
 type: docs
 weight: 160
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/icolorformat/systemcolor/
 public SystemColor SystemColor { get; set; }
 ```
 
-### Смотрите также
+### Также смотрите
 
 * enum [SystemColor](../../systemcolor)
 * interface [IColorFormat](../../icolorformat)

@@ -1,6 +1,6 @@
 ---
-title: Largeur
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Width
+second_title: Aspose.Slides pour .NET Référence API
 description: Renvoie ou définit la largeur d'une colonne. Lecture/écriture Double.
 type: docs
 weight: 20

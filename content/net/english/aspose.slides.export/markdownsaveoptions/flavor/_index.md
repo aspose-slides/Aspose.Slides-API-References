@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.export/markdownsaveoptions/flavor/
 ---
+
 ## MarkdownSaveOptions.Flavor property
 
 Specifies markdown specification to convert presentation. Default is `Multi-markdown`.

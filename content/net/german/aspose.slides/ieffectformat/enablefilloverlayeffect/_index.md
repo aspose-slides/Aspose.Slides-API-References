@@ -1,6 +1,6 @@
 ---
 title: EnableFillOverlayEffect
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Aktiviert den Füllüberlagerungseffekt.
 type: docs
 weight: 190
@@ -15,7 +15,7 @@ Aktiviert den Füllüberlagerungseffekt.
 public void EnableFillOverlayEffect()
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IEffectFormat](../../ieffectformat)
 * Namespace [Aspose.Slides](../../ieffectformat)

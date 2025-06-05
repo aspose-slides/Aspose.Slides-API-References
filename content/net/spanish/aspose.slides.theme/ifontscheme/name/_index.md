@@ -1,5 +1,5 @@
 ---
-title: Nombre
+title: Name
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el nombre del esquema de fuente. Cadena de lectura/escritura.
 type: docs
@@ -19,6 +19,6 @@ public string Name { get; set; }
 
 * interfaz [IFontScheme](../../ifontscheme)
 * espacio de nombres [Aspose.Slides.Theme](../../ifontscheme)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

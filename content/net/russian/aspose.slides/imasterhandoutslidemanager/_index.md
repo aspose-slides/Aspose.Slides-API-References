@@ -1,7 +1,7 @@
 ---
 title: IMasterHandoutSlideManager
-second_title: Aspose.Slides для .NET API Reference
-description: Менеджер слайдов мастерских раздаток.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Менеджер мастера раздаточных слайдов.
 type: docs
 weight: 6170
 url: /ru/aspose.slides/imasterhandoutslidemanager/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/imasterhandoutslidemanager/
 
 ## Интерфейс IMasterHandoutSlideManager
 
-Менеджер слайдов мастерских раздаток.
+Менеджер мастера раздаточных слайдов.
 
 ```csharp
 public interface IMasterHandoutSlideManager
@@ -17,16 +17,16 @@ public interface IMasterHandoutSlideManager
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | Возвращает мастер для всех слайдов заметок этой презентации, если он есть, в противном случае возвращает null. Только для чтения [`IMasterHandoutSlide`](../imasterhandoutslide). |
+| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | Возвращает мастера для всех слайдов заметок этой презентации, если такой есть, в противном случае возвращает null. Только для чтения [`IMasterHandoutSlide`](../imasterhandoutslide). |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | Удаляет мастер-слайд раздатки. |
-| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | Устанавливает мастер-слайд раздатки по умолчанию для связанного слайда раздатки. |
+| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | Удаляет мастер раздаточного слайда. |
+| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | Устанавливает мастер раздаточного слайда по умолчанию для связанного раздаточного слайда. |
 
 ### См. также
 

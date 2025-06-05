@@ -1,7 +1,7 @@
 ---
 title: ShowComments
-second_title: Aspose.Sildes for .NET API 参考
-description: 指定生成的文档是否应显示注释。默认值为 false。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定生成的文档是否应显示评论。默认值为 false。
 type: docs
 weight: 90
 url: /zh/aspose.slides.export/markdownsaveoptions/showcomments/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.export/markdownsaveoptions/showcomments/
 
 ## MarkdownSaveOptions.ShowComments 属性
 
-指定生成的文档是否应显示注释。默认值为 `false`。
+指定生成的文档是否应显示评论。默认值为 `false`。
 
 ```csharp
 public bool ShowComments { get; set; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * class [MarkdownSaveOptions](../../markdownsaveoptions)
 * namespace [Aspose.Slides.Export](../../markdownsaveoptions)

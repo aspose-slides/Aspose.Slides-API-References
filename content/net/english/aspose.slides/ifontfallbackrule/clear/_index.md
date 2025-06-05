@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/ifontfallbackrule/clear/
 ---
+
 ## IFontFallBackRule.Clear method
 
 Removes all fonts from the list.

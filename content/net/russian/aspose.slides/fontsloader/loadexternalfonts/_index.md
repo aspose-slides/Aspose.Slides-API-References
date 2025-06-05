@@ -1,6 +1,6 @@
 ---
 title: LoadExternalFonts
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Добавляет дополнительные папки для поиска шрифтов.
 type: docs
 weight: 40
@@ -17,7 +17,7 @@ public static void LoadExternalFonts(string[] directories)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| directories | String[] | Каталоги для чтения дополнительных шрифтов. |
+| directories | String[] | Папки для чтения дополнительных шрифтов. |
 
 ### Примеры
 
@@ -25,17 +25,17 @@ public static void LoadExternalFonts(string[] directories)
 
 ```csharp
 [C#]
-// Путь к каталогу документов.
+// Путь к директории документов.
 string dataDir = "C:\\";
 // папки для поиска шрифтов
 String[] folders = new String[] { dataDir };
-// Загрузите шрифты из каталога пользовательских шрифтов
+// Загрузить шрифты из директории пользовательских шрифтов
 FontsLoader.LoadExternalFonts(folders);
-// Выполните некоторую работу и выполните рендеринг презентации/слайдов
+// Выполнить несколько задач и отобразить презентацию/слайды
 using (Presentation presentation = new Presentation(dataDir + "DefaultFonts.pptx"))
 {
     presentation.Save(dataDir + "NewFonts_out.pptx", SaveFormat.Pptx);
-	// Очистить кеш шрифтов
+	// Очистить кэш шрифтов
 	FontsLoader.ClearCache();
 }
 ```

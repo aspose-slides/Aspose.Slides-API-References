@@ -7,7 +7,7 @@ weight: 30
 url: /fr/aspose.slides.charts/iupdownbarsmanager/hasupdownbars/
 ---
 
-## Propriété IUpDownBarsManager.HasUpDownBars
+## IUpDownBarsManager.HasUpDownBars propriété
 
 Détermine si le graphique a des barres montantes/descendantes. Booléen en lecture/écriture.
 

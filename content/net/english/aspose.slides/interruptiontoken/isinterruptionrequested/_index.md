@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/interruptiontoken/isinterruptionrequested/
 ---
+
 ## InterruptionToken.IsInterruptionRequested property
 
 Returns Boolean.true if interruption was requested.

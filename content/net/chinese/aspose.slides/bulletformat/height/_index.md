@@ -1,7 +1,7 @@
 ---
-title: 高度
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置一个段落的子弹高度，且不进行继承。值 float.NaN 表示子弹从段落中的第一部分继承高度。可读/可写单精度浮点数。
+title: Height
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置无继承的段落的项目符号高度。值 float.NaN 表示项目符号从段落中的第一部分继承高度。可读/写单精度浮点数。
 type: docs
 weight: 40
 url: /zh/aspose.slides/bulletformat/height/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/bulletformat/height/
 
 ## BulletFormat.Height 属性
 
-返回或设置一个段落的子弹高度，且不进行继承。值 float.NaN 表示子弹从段落中的第一部分继承高度。可读/可写单精度浮点数。
+返回或设置无继承的段落的项目符号高度。值 float.NaN 表示项目符号从段落中的第一部分继承高度。可读/写单精度浮点数。
 
 ```csharp
 public float Height { get; set; }
@@ -17,7 +17,7 @@ public float Height { get; set; }
 
 ### 备注
 
-负高度值表示高度以磅为单位给出，正值表示高度为周围文本的百分比。
+负高度值表示高度以磅为单位，正值表示高度是周围文本的百分比。
 
 ### 另请参阅
 

@@ -1,7 +1,7 @@
 ---
 title: AsIThemeable
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das IThemeable-Interface zurück. Schreibgeschütztes IThemeable aspose.slides.theme/ithemeable.
+description: Gibt das IThemeable-Interface zurück. Nur-Lese IThemeableaspose.slides.theme/ithemeable.
 type: docs
 weight: 10
 url: /de/aspose.slides.theme/imasterthemeable/asithemeable/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/imasterthemeable/asithemeable/
 
 ## IMasterThemeable.AsIThemeable-Eigenschaft
 
-Gibt das IThemeable-Interface zurück. Schreibgeschützt [`IThemeable`](../../ithemeable).
+Gibt das IThemeable-Interface zurück. Nur-Lese [`IThemeable`](../../ithemeable).
 
 ```csharp
 public IThemeable AsIThemeable { get; }
@@ -21,8 +21,8 @@ Für COM-Kompatibilität.
 
 ### Siehe auch
 
-* Schnittstelle [IThemeable](../../ithemeable)
-* Schnittstelle [IMasterThemeable](../../imasterthemeable)
+* Interface [IThemeable](../../ithemeable)
+* Interface [IMasterThemeable](../../imasterthemeable)
 * Namespace [Aspose.Slides.Theme](../../imasterthemeable)
 * Assembly [Aspose.Slides](../../../)
 

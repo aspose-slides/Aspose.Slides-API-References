@@ -1,7 +1,7 @@
 ---
 title: DepthPercents
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Tiefe eines 3D-Diagramms als Prozentsatz einer Diagrammbreite zwischen 20 und 2000 Prozent zurück oder setzt sie. Lese-/Schreibzugriff auf UInt16.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Tiefe eines 3D-Diagramms in Prozent der Diagrammbreite zwischen 20 und 2000 Prozent zurück oder legt sie fest. Lese-/Schreibzugriff UInt16.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/rotation3d/depthpercents/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/rotation3d/depthpercents/
 
 ## Rotation3D.DepthPercents-Eigenschaft
 
-Gibt die Tiefe eines 3D-Diagramms als Prozentsatz einer Diagrammbreite (zwischen 20 und 2000 Prozent) zurück oder setzt sie. Lese-/Schreibzugriff auf UInt16.
+Gibt die Tiefe eines 3D-Diagramms in Prozent der Diagrammbreite (zwischen 20 und 2000 Prozent) zurück oder legt sie fest. Lese-/Schreibzugriff UInt16.
 
 ```csharp
 public ushort DepthPercents { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [Rotation3D](../../rotation3d)
 * Namespace [Aspose.Slides.Charts](../../rotation3d)

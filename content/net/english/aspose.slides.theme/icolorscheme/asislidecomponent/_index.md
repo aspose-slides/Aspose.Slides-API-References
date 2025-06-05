@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.theme/icolorscheme/asislidecomponent/
 ---
+
 ## IColorScheme.AsISlideComponent property
 
 Returns ISlideComponent interface. Read-only [`ISlideComponent`](../../../aspose.slides/islidecomponent).

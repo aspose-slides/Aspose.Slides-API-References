@@ -7,7 +7,7 @@ weight: 9500
 url: /fr/aspose.slides/sectionslidecollection/
 ---
 
-## Classe SectionSlideCollection
+## SectionSlideCollection class
 
 Représente une collection de diapositives dans la section.
 
@@ -19,8 +19,8 @@ public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCo
 
 | Nom | Description |
 | --- | --- |
-| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | Obtient le nombre d'éléments effectivement contenus dans la collection. Lecture seule Int32. |
-| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (thread-safe). Lecture seule Boolean. |
+| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | Obtient le nombre d'éléments réellement contenus dans la collection. Lecture seule Int32. |
+| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (sécurisé pour les threads). Lecture seule Boolean. |
 | [Item](../../aspose.slides/sectionslidecollection/item) { get; } | Obtient l'élément à l'index spécifié. Lecture seule [`ISlide`](../islide). |
 | [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | Renvoie une racine de synchronisation. Lecture seule Object. |
 
@@ -29,12 +29,12 @@ public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCo
 | Nom | Description |
 | --- | --- |
 | [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | Copie l'ensemble de la collection dans le tableau spécifié. |
-| [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | Renvoie un énumérateur qui parcourt la collection. |
+| [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | Renvoie un énumérateur qui itère à travers la collection. |
 
 ### Voir aussi
 
-* classe [DomObject&lt;TParent&gt;](../domobject-1)
-* classe [Section](../section)
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [Section](../section)
 * interface [ISectionSlideCollection](../isectionslidecollection)
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

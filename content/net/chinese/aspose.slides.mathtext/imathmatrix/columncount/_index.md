@@ -1,13 +1,13 @@
 ---
-title: 列数
-second_title: Aspose.Sildes for .NET API 参考
+title: ColumnCount
+second_title: Aspose.Sildes for .NET API Reference
 description: 矩阵中的列数
 type: docs
 weight: 30
 url: /zh/aspose.slides.mathtext/imathmatrix/columncount/
 ---
 
-## IMathMatrix.ColumnCount 属性
+## IMathMatrix.ColumnCount property
 
 矩阵中的列数
 
@@ -17,7 +17,7 @@ public int ColumnCount { get; }
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -25,7 +25,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 int columnCount = matrix.ColumnCount;
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IMathMatrix](../../imathmatrix)
 * 命名空间 [Aspose.Slides.MathText](../../imathmatrix)

@@ -1,7 +1,7 @@
 ---
-title: Sol
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie un objet qui permet de changer le format du sol d'un graphique 3D. En lecture seule IChartWall aspose.slides.charts/ichartwall.
+title: Floor
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Renvoie un objet qui permet de changer le format du sol d'un graphique 3D. Lecture seule IChartWallaspose.slides.charts/ichartwall.
 type: docs
 weight: 90
 url: /fr/aspose.slides.charts/chart/floor/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/chart/floor/
 
 ## Propriété Chart.Floor
 
-Renvoie un objet qui permet de changer le format du sol d'un graphique 3D. En lecture seule [`IChartWall`](../../ichartwall).
+Renvoie un objet qui permet de changer le format du sol d'un graphique 3D. Lecture seule [`IChartWall`](../../ichartwall).
 
 ```csharp
 public IChartWall Floor { get; }

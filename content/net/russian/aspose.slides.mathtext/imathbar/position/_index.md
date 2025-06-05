@@ -1,15 +1,15 @@
 ---
-title: Положение
-second_title: Справка по API Aspose.Sildes для .NET
-description: Положение линии бара. По умолчанию Вверх
+title: Position
+second_title: Aspose.Sildes для .NET API Reference
+description: Позиция линии бара. По умолчанию Вверх
 type: docs
 weight: 30
 url: /ru/aspose.slides.mathtext/imathbar/position/
 ---
 
-## Свойство IMathBar.Position
+## IMathBar.Position свойство
 
-Положение линии бара. По умолчанию: Вверх
+Позиция линии бара. По умолчанию: Вверх
 
 ```csharp
 public MathTopBotPositions Position { get; set; }
@@ -25,7 +25,7 @@ IMathBar mathBar = new MathBar(new MathematicalText("x"));
 mathBar.Position = MathTopBotPositions.Bottom;
 ```
 
-### Также смотри
+### См. также
 
 * enum [MathTopBotPositions](../../mathtopbotpositions)
 * interface [IMathBar](../../imathbar)

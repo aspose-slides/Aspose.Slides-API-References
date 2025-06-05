@@ -1,7 +1,7 @@
 ---
 title: SetDateTimeAndChildDateTimesText
-second_title: Référence API Aspose.Slides pour .NET
-description: Définit le texte pour le champ de date-heure de la diapositive de mise en page et tous les champs de date-heure enfants. Les champs enfants signifient que les champs sont contenus dans des diapositives dépendantes. Les diapositives dépendantes utilisent et dépendent de la diapositive de mise en page.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Définit le texte du champ de date-heure de la diapositive de mise en page et de tous les champs de date-heure enfants. Les champs enfants signifient que les champs sont contenus dans des diapositives dépendantes. Les diapositives dépendantes utilisent et dépendent de la diapositive de mise en page.
 type: docs
 weight: 20
 url: /fr/aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddateti
 
 ## ILayoutSlideHeaderFooterManager.SetDateTimeAndChildDateTimesText méthode
 
-Définit le texte pour le champ de date-heure de la diapositive de mise en page et tous les champs de date-heure enfants. Les champs enfants signifient que les champs sont contenus dans des diapositives dépendantes. Les diapositives dépendantes utilisent et dépendent de la diapositive de mise en page.
+Définit le texte du champ de date-heure de la diapositive de mise en page et de tous les champs de date-heure enfants. Les champs enfants signifient que les champs sont contenus dans des diapositives dépendantes. Les diapositives dépendantes utilisent et dépendent de la diapositive de mise en page.
 
 ```csharp
 public void SetDateTimeAndChildDateTimesText(string text)
@@ -19,7 +19,7 @@ public void SetDateTimeAndChildDateTimesText(string text)
 | --- | --- | --- |
 | text | String | Texte à définir. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ILayoutSlideHeaderFooterManager](../../ilayoutslideheaderfootermanager)
 * namespace [Aspose.Slides](../../ilayoutslideheaderfootermanager)

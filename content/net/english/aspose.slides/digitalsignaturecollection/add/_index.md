@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/digitalsignaturecollection/add/
 ---
+
 ## DigitalSignatureCollection.Add method
 
 Adds the signature at the end of collection.

@@ -1,7 +1,7 @@
 ---
 title: CopyTo
-second_title: Aspose.Slides für .NET API-Referenz
-description: Kopiert die Elemente der ICollection in ein Array, beginnend an einem bestimmten Array-Index.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Kopiert die Elemente der ICollection in ein Array, beginnend bei einem bestimmten Array-Index.
 type: docs
 weight: 70
 url: /de/aspose.slides.animation/behaviorcollection/copyto/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/behaviorcollection/copyto/
 
 ## BehaviorCollection.CopyTo-Methode
 
-Kopiert die Elemente der ICollection in ein Array, beginnend an einem bestimmten Array-Index.
+Kopiert die Elemente der ICollection in ein Array, beginnend bei einem bestimmten Array-Index.
 
 ```csharp
 public void CopyTo(IBehavior[] array, int arrayIndex)
@@ -17,7 +17,7 @@ public void CopyTo(IBehavior[] array, int arrayIndex)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| array | IBehavior[] | Das eindimensionale Array, das das Ziel der aus ICollection kopierten Elemente ist. Das Array muss nullbasiertes Indexing haben. |
+| array | IBehavior[] | Das eindimensionale Array, das das Ziel der aus ICollection kopierten Elemente ist. Das Array muss nullbasiert indiziert sein. |
 | arrayIndex | Int32 | Der nullbasierte Index in *array*, an dem das Kopieren beginnt. |
 
 ### Ausnahmen

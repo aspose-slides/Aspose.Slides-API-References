@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.animation/textanimationcollection/textanimationcollection/
 ---
+
 ## TextAnimationCollection constructor
 
 The default constructor.

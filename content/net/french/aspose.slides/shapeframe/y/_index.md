@@ -1,6 +1,6 @@
 ---
 title: Y
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie la coordonnée Y du coin supérieur gauche d'un cadre. Lecture seule Single.
 type: docs
 weight: 110

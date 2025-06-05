@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarninginfo/
 ---
+
 ## IObsoletePresLockingBehaviorWarningInfo.AsIWarningInfo property
 
 Returns IWarningInfo interface. Read-only [`IWarningInfo`](../../iwarninginfo).

@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/irow/rowformat/
 ---
+
 ## IRow.RowFormat property
 
 Returns the RowFormat object that contains formatting properties for this row. Read-only [`IRowFormat`](../../irowformat).

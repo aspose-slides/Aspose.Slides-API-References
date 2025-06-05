@@ -1,7 +1,7 @@
 ---
-title: 轨迹
-second_title: Aspose.Sildes for .NET API 参考
-description: 获取包含在 IInk 元素中的所有轨迹 IInkTraceaspose.slides/iinktrace。 只读。
+title: Traces
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取包含在 IInk 元素中的所有痕迹 IInkTraceaspose.slides/iinktrace。只读。
 type: docs
 weight: 20
 url: /zh/aspose.slides.ink/iink/traces/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.ink/iink/traces/
 
 ## IInk.Traces 属性
 
-获取包含在 IInk 元素中的所有轨迹 [`IInkTrace`](../../iinktrace)。 只读。
+获取包含在 IInk 元素中的所有痕迹 [`IInkTrace`](../../iinktrace)。只读。
 
 ```csharp
 public IInkTrace[] Traces { get; }

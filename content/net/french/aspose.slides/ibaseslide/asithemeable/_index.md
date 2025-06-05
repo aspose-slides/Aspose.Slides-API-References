@@ -1,7 +1,7 @@
 ---
 title: AsIThemeable
 second_title: Référence API Aspose.Slides pour .NET
-description: Permet d'obtenir l'interface de base IThemeable. IThemeable en lecture seule aspose.slides.theme/ithemeable.
+description: Permet d'obtenir l'interface de base IThemeable. Lecture seule IThemeableaspose.slides.theme/ithemeable.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ibaseslide/asithemeable/

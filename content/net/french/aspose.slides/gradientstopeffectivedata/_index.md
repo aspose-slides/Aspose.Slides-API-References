@@ -1,7 +1,7 @@
 ---
 title: GradientStopEffectiveData
-second_title: Référence API Aspose.Slides pour .NET
-description: Objet immuable qui représente un arrêt de dégradé.
+second_title: Aspose.Slides pour .NET Référence API
+description: Objet immuable qui représente un arrêt de gradient.
 type: docs
 weight: 4850
 url: /fr/aspose.slides/gradientstopeffectivedata/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/gradientstopeffectivedata/
 
 ## Classe GradientStopEffectiveData
 
-Objet immuable qui représente un arrêt de dégradé.
+Objet immuable qui représente un arrêt de gradient.
 
 ```csharp
 public class GradientStopEffectiveData : IGradientStopEffectiveData
@@ -19,14 +19,14 @@ public class GradientStopEffectiveData : IGradientStopEffectiveData
 
 | Nom | Description |
 | --- | --- |
-| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | Retourne la couleur d'un arrêt de dégradé. Lecture seule Color. |
-| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | Retourne la position (0..1) d'un arrêt de dégradé. Lecture seule Single. |
+| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | Renvoie la couleur d'un arrêt de gradient. Lecture seule Color. |
+| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | Renvoie la position (0..1) d'un arrêt de gradient. Lecture seule Single. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | Détermine si le [`GradientStopEffectiveData`](../gradientstopeffectivedata) spécifié est égal à l'actuel [`GradientStopEffectiveData`](../gradientstopeffectivedata). |
+| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | Détermine si le [`GradientStopEffectiveData`](../gradientstopeffectivedata) spécifié est égal à l'[`GradientStopEffectiveData`](../gradientstopeffectivedata) actuel. |
 | override [GetHashCode](../../aspose.slides/gradientstopeffectivedata/gethashcode)() |  |
 
 ### Voir aussi

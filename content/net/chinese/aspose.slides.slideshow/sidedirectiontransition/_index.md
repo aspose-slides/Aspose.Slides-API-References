@@ -1,6 +1,6 @@
 ---
 title: SideDirectionTransition
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 侧向幻灯片过渡效果。
 type: docs
 weight: 10000
@@ -26,9 +26,9 @@ public class SideDirectionTransition : TransitionValueBase, ISideDirectionTransi
 | 名称 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 确定两个 TransitionValueBase 实例是否相等。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作为特定类型的哈希函数，适合用于哈希算法和数据结构，如哈希表。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作为特定类型的哈希函数，适合在哈希算法和数据结构（如哈希表）中使用。 |
 
-### 另请参阅
+### 另见
 
 * 类 [TransitionValueBase](../transitionvaluebase)
 * 接口 [ISideDirectionTransition](../isidedirectiontransition)

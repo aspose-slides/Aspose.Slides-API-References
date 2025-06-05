@@ -1,6 +1,6 @@
 ---
 title: MathArray
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Crea un array matemático y coloca el elemento especificado en él
 type: docs
 weight: 10
@@ -28,7 +28,7 @@ Ejemplo:
 MathArray mathArray = new MathArray(new MathematicalText("item1"));
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [IMathElement](../../imathelement)
 * clase [MathArray](../../matharray)
@@ -49,7 +49,7 @@ public MathArray(IEnumerable<IMathElement> elements)
 | --- | --- | --- |
 | elements | IEnumerable`1 | Elementos a colocar en el array |
 
-### Ver También
+### Véase también
 
 * interfaz [IMathElement](../../imathelement)
 * clase [MathArray](../../matharray)

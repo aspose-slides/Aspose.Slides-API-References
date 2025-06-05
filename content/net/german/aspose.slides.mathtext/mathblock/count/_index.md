@@ -1,7 +1,7 @@
 ---
-title: Anzahl
+title: Count
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen untergeordneten Mathelemente zurück. Nur-Lesen Int32.
+description: Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen untergeordneten Matheelemente zurück. Schreibgeschützter Int32.
 type: docs
 weight: 20
 url: /de/aspose.slides.mathtext/mathblock/count/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/mathblock/count/
 
 ## MathBlock.Count-Eigenschaft
 
-Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen untergeordneten Mathelemente zurück. Nur-Lesen Int32.
+Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen untergeordneten Matheelemente zurück. Schreibgeschützter Int32.
 
 ```csharp
 public int Count { get; }

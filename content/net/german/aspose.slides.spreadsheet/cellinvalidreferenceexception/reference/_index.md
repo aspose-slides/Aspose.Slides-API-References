@@ -1,6 +1,6 @@
 ---
-title: Referenz
-second_title: Aspose.Slides für .NET API Referenz
+title: Reference
+second_title: Aspose.Slides für .NET API-Referenz
 description: Erhält eine ungültige Zellreferenz.
 type: docs
 weight: 20

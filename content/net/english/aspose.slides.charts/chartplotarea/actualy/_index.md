@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.charts/chartplotarea/actualy/
 ---
+
 ## ChartPlotArea.ActualY property
 
 Specifies actual top of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read Single.

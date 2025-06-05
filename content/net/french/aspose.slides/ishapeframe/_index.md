@@ -1,6 +1,6 @@
 ---
 title: IShapeFrame
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Reference
 description: Représente les propriétés des cadres de forme.
 type: docs
 weight: 6780
@@ -19,16 +19,16 @@ public interface IShapeFrame : IGenericCloneable<IShapeFrame>
 
 | Nom | Description |
 | --- | --- |
-| [CenterX](../../aspose.slides/ishapeframe/centerx) { get; } | Retourne la coordonnée X du centre d'un cadre. Lecture seule Single. |
-| [CenterY](../../aspose.slides/ishapeframe/centery) { get; } | Retourne la coordonnée Y du centre d'un cadre. Lecture seule Single. |
+| [CenterX](../../aspose.slides/ishapeframe/centerx) { get; } | Renvoie la coordonnée X du centre d'un cadre. Lecture seule Single. |
+| [CenterY](../../aspose.slides/ishapeframe/centery) { get; } | Renvoie la coordonnée Y du centre d'un cadre. Lecture seule Single. |
 | [FlipH](../../aspose.slides/ishapeframe/fliph) { get; } | Détermine si un cadre est retourné horizontalement. Lecture seule [`NullableBool`](../nullablebool). |
 | [FlipV](../../aspose.slides/ishapeframe/flipv) { get; } | Détermine si un cadre est retourné verticalement. Lecture seule [`NullableBool`](../nullablebool). |
-| [Height](../../aspose.slides/ishapeframe/height) { get; } | Retourne la hauteur d'un cadre. Lecture seule Single. |
-| [Rectangle](../../aspose.slides/ishapeframe/rectangle) { get; } | Retourne les coordonnées d'un cadre. Lecture seule RectangleF. |
-| [Rotation](../../aspose.slides/ishapeframe/rotation) { get; } | Retourne le nombre de degrés par lesquels un cadre est tourné autour de l'axe z. Une valeur positive indique une rotation dans le sens des aiguilles d'une montre ; une valeur négative indique une rotation dans le sens inverse. Lecture seule Single. |
-| [Width](../../aspose.slides/ishapeframe/width) { get; } | Retourne la largeur d'un cadre. Lecture seule Single. |
-| [X](../../aspose.slides/ishapeframe/x) { get; } | Retourne la coordonnée X du coin supérieur gauche d'un cadre. Lecture seule Single. |
-| [Y](../../aspose.slides/ishapeframe/y) { get; } | Retourne la coordonnée Y du coin supérieur gauche d'un cadre. Lecture seule Single. |
+| [Height](../../aspose.slides/ishapeframe/height) { get; } | Renvoie la hauteur d'un cadre. Lecture seule Single. |
+| [Rectangle](../../aspose.slides/ishapeframe/rectangle) { get; } | Renvoie les coordonnées d'un cadre. Lecture seule RectangleF. |
+| [Rotation](../../aspose.slides/ishapeframe/rotation) { get; } | Renvoie le nombre de degrés qu'un cadre est tourné autour de l'axe z. Une valeur positive indique une rotation dans le sens des aiguilles d'une montre; une valeur négative indique une rotation dans le sens inverse des aiguilles d'une montre. Lecture seule Single. |
+| [Width](../../aspose.slides/ishapeframe/width) { get; } | Renvoie la largeur d'un cadre. Lecture seule Single. |
+| [X](../../aspose.slides/ishapeframe/x) { get; } | Renvoie la coordonnée X du coin supérieur gauche d'un cadre. Lecture seule Single. |
+| [Y](../../aspose.slides/ishapeframe/y) { get; } | Renvoie la coordonnée Y du coin supérieur gauche d'un cadre. Lecture seule Single. |
 
 ### Voir aussi
 

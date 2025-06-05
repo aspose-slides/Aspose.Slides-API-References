@@ -1,6 +1,6 @@
 ---
 title: ThreeDFormat
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Renvoie l'objet ThreeDFormat qui contient des propriétés de formatage de ligne pour une forme. Lecture seule IThreeDFormataspose.slides/ithreedformat.
 type: docs
 weight: 240

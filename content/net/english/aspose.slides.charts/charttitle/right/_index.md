@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.charts/charttitle/right/
 ---
+
 ## ChartTitle.Right property
 
 Right. Read-only Single.

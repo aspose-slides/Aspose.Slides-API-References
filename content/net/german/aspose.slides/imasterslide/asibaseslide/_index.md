@@ -1,7 +1,7 @@
 ---
 title: AsIBaseSlide
-second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht den Zugriff auf das Basis-IBaseSlide-Interface. Nur lesbares IBaseSlideaspose.slides/ibaseslide.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Ermöglicht den Zugriff auf die Basis-IBaseSlide-Schnittstelle. Nur-Lese-IBaseSlide aspose.slides/ibaseslide.
 type: docs
 weight: 10
 url: /de/aspose.slides/imasterslide/asibaseslide/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/imasterslide/asibaseslide/
 
 ## IMasterSlide.AsIBaseSlide-Eigenschaft
 
-Ermöglicht den Zugriff auf das Basis-IBaseSlide-Interface. Nur lesbares [`IBaseSlide`](../../ibaseslide).
+Ermöglicht den Zugriff auf die Basis-IBaseSlide-Schnittstelle. Nur-Lese [`IBaseSlide`](../../ibaseslide).
 
 ```csharp
 public IBaseSlide AsIBaseSlide { get; }
@@ -17,8 +17,8 @@ public IBaseSlide AsIBaseSlide { get; }
 
 ### Siehe auch
 
-* Interface [IBaseSlide](../../ibaseslide)
-* Interface [IMasterSlide](../../imasterslide)
+* Schnittstelle [IBaseSlide](../../ibaseslide)
+* Schnittstelle [IMasterSlide](../../imasterslide)
 * Namespace [Aspose.Slides](../../imasterslide)
 * Assembly [Aspose.Slides](../../../)
 

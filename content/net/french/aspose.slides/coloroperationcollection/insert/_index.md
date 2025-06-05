@@ -1,13 +1,13 @@
 ---
-title: Insérer
-second_title: Référence API Aspose.Slides pour .NET
+title: Insert
+second_title: Aspose.Slides pour la référence API .NET
 description: Insère la nouvelle opération dans une collection.
 type: docs
 weight: 110
 url: /fr/aspose.slides/coloroperationcollection/insert/
 ---
 
-## Insérer(int, ColorTransformOperation, float) {#insert_1}
+## Insert(int, ColorTransformOperation, float) {#insert_1}
 
 Insère la nouvelle opération dans une collection.
 
@@ -17,7 +17,7 @@ public IColorOperation Insert(int position, ColorTransformOperation operation, f
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| position | Int32 | L'index auquel l'opération sera insérée. |
+| position | Int32 | L'index à lequel l'opération sera insérée. |
 | operation | ColorTransformOperation | Type d'opération. |
 | parameter | Single | Paramètre de l'opération. |
 
@@ -35,7 +35,7 @@ Opération insérée.
 
 ---
 
-## Insérer(int, ColorTransformOperation) {#insert}
+## Insert(int, ColorTransformOperation) {#insert}
 
 Insère la nouvelle opération dans une collection.
 
@@ -45,7 +45,7 @@ public IColorOperation Insert(int position, ColorTransformOperation operation)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| position | Int32 | L'index auquel l'opération sera insérée. |
+| position | Int32 | L'index à lequel l'opération sera insérée. |
 | operation | ColorTransformOperation | Type d'opération. |
 
 ### Valeur de retour

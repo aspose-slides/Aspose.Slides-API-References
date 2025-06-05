@@ -1,6 +1,6 @@
 ---
-title: 启用上下文菜单
-second_title: Aspose.Slides for .NET API 参考
+title: EnableContextMenu
+second_title: Aspose.Sildes for .NET API Reference
 description: 启用/禁用上下文菜单。默认值为 true。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.export/iswfoptions/enablecontextmenu/
 public bool EnableContextMenu { get; set; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [ISwfOptions](../../iswfoptions)
 * 命名空间 [Aspose.Slides.Export](../../iswfoptions)

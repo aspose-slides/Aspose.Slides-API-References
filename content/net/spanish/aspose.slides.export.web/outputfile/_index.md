@@ -1,5 +1,5 @@
 ---
-title: Archivo de Salida
+title: OutputFile
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa un archivo de salida.
 type: docs
@@ -21,7 +21,7 @@ public abstract class OutputFile : IOutputFile
 | --- | --- |
 | abstract [Write](../../aspose.slides.export.web/outputfile/write)(Stream) | Escribe el contenido del archivo en el flujo. |
 
-### Véase También
+### Véase también
 
 * interfaz [IOutputFile](../ioutputfile)
 * espacio de nombres [Aspose.Slides.Export.Web](../../aspose.slides.export.web)

@@ -1,5 +1,5 @@
 ---
-title: Élément
+title: Item
 second_title: Référence API Aspose.Slides pour .NET
 description: Obtient l'élément à l'index spécifié. Lecture seule ISlideaspose.slides/islide.
 type: docs
@@ -7,7 +7,7 @@ weight: 30
 url: /fr/aspose.slides/sectionslidecollection/item/
 ---
 
-## Indexeur SectionSlideCollection
+## SectionSlideCollection indexer
 
 Obtient l'élément à l'index spécifié. Lecture seule [`ISlide`](../../islide).
 
@@ -15,7 +15,7 @@ Obtient l'élément à l'index spécifié. Lecture seule [`ISlide`](../../islide
 public ISlide this[int index] { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ISlide](../../islide)
 * classe [SectionSlideCollection](../../sectionslidecollection)

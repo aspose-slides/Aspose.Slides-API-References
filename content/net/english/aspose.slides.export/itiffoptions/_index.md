@@ -3,9 +3,10 @@ title: ITiffOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides options that control how a presentation is saved in TIFF format.
 type: docs
-weight: 3890
+weight: 4000
 url: /aspose.slides.export/itiffoptions/
 ---
+
 ## ITiffOptions interface
 
 Provides options that control how a presentation is saved in TIFF format.
@@ -19,13 +20,15 @@ public interface ITiffOptions : ISaveOptions
 | Name | Description |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/itiffoptions/asisaveoptions) { get; } | Returns ISaveOptions interface. Read-only [`ISaveOptions`](../isaveoptions). |
+| [BwConversionMode](../../aspose.slides.export/itiffoptions/bwconversionmode) { get; set; } | Specifies the algorithm for converting a color image into a black and white image. This option will applied only if [`CompressionType`](./compressiontype) is set to CCITT4 or CCITT3 Read/write [`BlackWhiteConversionMode`](../blackwhiteconversionmode). Default is Default. |
 | [CompressionType](../../aspose.slides.export/itiffoptions/compressiontype) { get; set; } | Specifies the compression type. Read/write [`TiffCompressionTypes`](../tiffcompressiontypes). |
 | [DpiX](../../aspose.slides.export/itiffoptions/dpix) { get; set; } | Specifies the horizontal resolution in dots per inch. Read/write UInt32. |
 | [DpiY](../../aspose.slides.export/itiffoptions/dpiy) { get; set; } | Specifies the vertical resolution in dots per inch. Read/write UInt32. |
 | [ImageSize](../../aspose.slides.export/itiffoptions/imagesize) { get; set; } | Specifies size of a generated TIFF image. Default value is 0x0, what means that generated image sizes will be calculated based on presentation slide size value. Read/write Size. |
-| [NotesCommentsLayouting](../../aspose.slides.export/itiffoptions/notescommentslayouting) { get; } | Provides options that control how notes and comments is placed in exported document. |
+| [InkOptions](../../aspose.slides.export/itiffoptions/inkoptions) { get; } | Provides options that control the look of Ink objects in exported document. Read-only [`IInkOptions`](../iinkoptions) |
 | [PixelFormat](../../aspose.slides.export/itiffoptions/pixelformat) { get; set; } | Specifies the pixel format for the generated images. Read/write [`ImagePixelFormat`](../imagepixelformat). |
 | [ShowHiddenSlides](../../aspose.slides.export/itiffoptions/showhiddenslides) { get; set; } | Specifies whether the generated document should include hidden slides or not. Default is `false`. |
+| [SlidesLayoutOptions](../../aspose.slides.export/itiffoptions/slideslayoutoptions) { get; set; } | Gets or sets the mode in which slides are placed on the page when exporting a presentation [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### See Also
 

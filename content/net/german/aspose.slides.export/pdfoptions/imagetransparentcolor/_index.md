@@ -1,15 +1,15 @@
 ---
 title: ImageTransparentColor
-second_title: Aspose.Sildes für .NET API Referenz
-description: Ruft die transparente Farbe des Bildes ab oder legt sie fest.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ruft die Bildtransparenzfarbe ab oder setzt sie.
 type: docs
 weight: 100
 url: /de/aspose.slides.export/pdfoptions/imagetransparentcolor/
 ---
 
-## PdfOptions.ImageTransparentColor Eigenschaft
+## PdfOptions.ImageTransparentColor-Eigenschaft
 
-Ruft die transparente Farbe des Bildes ab oder legt sie fest.
+Ruft die Bildtransparenzfarbe ab oder setzt sie.
 
 ```csharp
 public Color ImageTransparentColor { get; set; }
@@ -17,7 +17,7 @@ public Color ImageTransparentColor { get; set; }
 
 ### Eigenschaftenwert
 
-Die Farbe des transparenten Bildes.
+Die Farbe der Bildtransparenz.
 
 ### Siehe auch
 

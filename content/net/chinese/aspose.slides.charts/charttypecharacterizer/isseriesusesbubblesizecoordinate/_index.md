@@ -1,6 +1,6 @@
 ---
 title: IsSeriesUsesBubbleSizeCoordinate
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回气泡大小坐标是否可以用于指定的系列类型。
 type: docs
 weight: 180
@@ -21,7 +21,7 @@ public static bool IsSeriesUsesBubbleSizeCoordinate(ChartType seriesType)
 
 ### 返回值
 
-如果可以使用，则为真；否则为假。
+如果可以使用则为true，否则为false。
 
 ### 另请参阅
 

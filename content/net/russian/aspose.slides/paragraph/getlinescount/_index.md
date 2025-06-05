@@ -31,8 +31,8 @@ using (Presentation pres = new Presentation())
     IAutoShape ashp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 150, 75, 150, 50);
     IParagraph para = ashp.TextFrame.Paragraphs[0];
     IPortion portion = para.Portions[0];
-    portion.Text = "Aspose Paragraph GetLinesCount() Пример";
-    Console.WriteLine("Количество строк = {0}", para.GetLinesCount());
+    portion.Text = "Aspose Paragraph GetLinesCount() Example";
+    Console.WriteLine("Lines Count = {0}", para.GetLinesCount());
 }
 ```
 

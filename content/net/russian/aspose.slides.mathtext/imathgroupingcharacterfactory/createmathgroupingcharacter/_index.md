@@ -1,6 +1,6 @@
 ---
 title: CreateMathGroupingCharacter
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Создает математический группировочный символ
 type: docs
 weight: 10

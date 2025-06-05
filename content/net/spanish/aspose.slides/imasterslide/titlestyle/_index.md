@@ -15,7 +15,7 @@ Devuelve el estilo de un texto de título. Solo lectura [`ITextStyle`](../../ite
 public ITextStyle TitleStyle { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [ITextStyle](../../itextstyle)
 * interfaz [IMasterSlide](../../imasterslide)

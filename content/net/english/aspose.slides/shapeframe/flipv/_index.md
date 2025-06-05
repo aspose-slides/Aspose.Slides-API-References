@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/shapeframe/flipv/
 ---
+
 ## ShapeFrame.FlipV property
 
 Determines whether a frame is flipped vertically. Read-only [`NullableBool`](../../nullablebool).

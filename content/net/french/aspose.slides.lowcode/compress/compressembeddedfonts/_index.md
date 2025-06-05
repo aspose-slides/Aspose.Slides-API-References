@@ -1,7 +1,7 @@
 ---
-title: CompresserLesPolicesIntégrées
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Réalise la compression de la Presentationaspose.slides/../aspose.slides/presentation en supprimant les caractères inutilisés des polices intégrées.
+title: CompressEmbeddedFonts
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Effectue la compression de la Presentationaspose.slides/../aspose.slides/presentation en supprimant les caractères inutilisés des polices intégrées.
 type: docs
 weight: 10
 url: /fr/aspose.slides.lowcode/compress/compressembeddedfonts/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.lowcode/compress/compressembeddedfonts/
 
 ## Méthode Compress.CompressEmbeddedFonts
 
-Réalise la compression de la [`Presentation`](../../../aspose.slides/presentation) en supprimant les caractères inutilisés des polices intégrées.
+Effectue la compression de la [`Presentation`](../../../aspose.slides/presentation) en supprimant les caractères inutilisés des polices intégrées.
 
 ```csharp
 public static void CompressEmbeddedFonts(Presentation pres)
@@ -30,7 +30,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [Presentation](../../../aspose.slides/presentation)
 * classe [Compress](../../compress)

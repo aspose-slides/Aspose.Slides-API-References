@@ -1,15 +1,15 @@
 ---
 title: InsertClone
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Inserta una copia de una diapositiva especificada en una posición especificada de la colección.
+description: Inserta una copia de una diapositiva especificada en una posición específica de la colección.
 type: docs
 weight: 70
 url: /es/aspose.slides/islidecollection/insertclone/
 ---
 
-## InsertClone(int, ISlide) {#insertclone}
+## InsertClone(int, ISlide) {#insertclone}
 
-Inserta una copia de una diapositiva especificada en una posición especificada de la colección.
+Inserta una copia de una diapositiva especificada en una posición específica de la colección.
 
 ```csharp
 public ISlide InsertClone(int index, ISlide sourceSlide)
@@ -26,20 +26,20 @@ Diapositiva insertada.
 
 ### Observaciones
 
-Al clonar una diapositiva entre diferentes presentaciones, el maestro de la diapositiva también puede ser clonado. Se utiliza un registro interno para rastrear automáticamente los maestros clonados y evitar la creación de múltiples clones de la misma diapositiva maestra. El clonado manual de diapositivas maestras no será prevenido ni registrado. Si necesitas más control sobre el proceso de clonación usa [`InsertClone`](../insertclone) o [`InsertClone`](../insertclone) para clonar diapositivas y [`AddClone`](../../imasterslidecollection/addclone) para clonar maestros.
+Al clonar una diapositiva entre diferentes presentaciones, también se puede clonar el máster de la diapositiva. Se utiliza un registro interno para rastrear automáticamente los másters clonados para evitar la creación de múltiples clones de la misma diapositiva máster. La clonación manual de diapositivas máster no será ni prevenida ni registrada. Si necesitas más control sobre el proceso de clonación, utiliza [`InsertClone`](../insertclone) o [`InsertClone`](../insertclone) para clonar diapositivas y [`AddClone`](../../imasterslidecollection/addclone) para clonar másters.
 
-### Véase También
+### Vea También
 
 * interfaz [ISlide](../../islide)
 * interfaz [ISlideCollection](../../islidecollection)
-* espacio de nombres [Aspose.Slides](../../islidecollection)
-* ensamblado [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## InsertClone(int, ISlide, ILayoutSlide) {#insertclone_1}
+## InsertClone(int, ISlide, ILayoutSlide) {#insertclone_1}
 
-Inserta una copia de una diapositiva especificada en una posición especificada de la colección.
+Inserta una copia de una diapositiva especificada en una posición específica de la colección.
 
 ```csharp
 public ISlide InsertClone(int index, ISlide sourceSlide, ILayoutSlide destLayout)
@@ -49,25 +49,25 @@ public ISlide InsertClone(int index, ISlide sourceSlide, ILayoutSlide destLayout
 | --- | --- | --- |
 | index | Int32 | Índice de la nueva diapositiva. |
 | sourceSlide | ISlide | Diapositiva a clonar. |
-| destLayout | ILayoutSlide | Diapositiva de diseño para una nueva diapositiva. |
+| destLayout | ILayoutSlide | Diseño de la diapositiva nueva. |
 
 ### Valor de Retorno
 
 Diapositiva insertada.
 
-### Véase También
+### Vea También
 
 * interfaz [ISlide](../../islide)
 * interfaz [ILayoutSlide](../../ilayoutslide)
 * interfaz [ISlideCollection](../../islidecollection)
-* espacio de nombres [Aspose.Slides](../../islidecollection)
-* ensamblado [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## InsertClone(int, ISlide, IMasterSlide, bool) {#insertclone_2}
+## InsertClone(int, ISlide, IMasterSlide, bool) {#insertclone_2}
 
-Inserta una copia de una diapositiva fuente especificada en una posición especificada de la colección. Se seleccionará automáticamente el diseño apropiado del maestro especificado (el diseño apropiado es el diseño con el mismo tipo o nombre que el del diseño de la diapositiva fuente). Si no hay un diseño apropiado, entonces se clonará el diseño de la diapositiva fuente (si allowCloneMissingLayout es verdadero) o se lanzará PptxEditException (si allowCloneMissingLayout es falso).
+Inserta una copia de una diapositiva fuente especificada en una posición específica de la colección. Se seleccionará automáticamente el diseño apropiado del máster especificado (el diseño apropiado es el diseño con el mismo Tipo o Nombre que el diseño de la diapositiva fuente). Si no hay un diseño apropiado, entonces se clonará el diseño de la diapositiva fuente (si allowCloneMissingLayout es verdadero) o se lanzará PptxEditException (si allowCloneMissingLayout es falso).
 
 ```csharp
 public ISlide InsertClone(int index, ISlide sourceSlide, IMasterSlide destMaster, 
@@ -78,8 +78,8 @@ public ISlide InsertClone(int index, ISlide sourceSlide, IMasterSlide destMaster
 | --- | --- | --- |
 | index | Int32 | Índice de la nueva diapositiva. |
 | sourceSlide | ISlide | Diapositiva a clonar. |
-| destMaster | IMasterSlide | Diapositiva maestra para una nueva diapositiva. |
-| allowCloneMissingLayout | Boolean | Si no hay un diseño apropiado en el maestro especificado, entonces el diseño de la diapositiva fuente será clonado (si allowCloneMissingLayout es verdadero) o se lanzará PptxEditException (si allowCloneMissingLayout es falso). |
+| destMaster | IMasterSlide | Diapositiva máster para una nueva diapositiva. |
+| allowCloneMissingLayout | Boolean | Si no hay un diseño apropiado en el máster especificado, entonces se clonará el diseño de la diapositiva fuente (si allowCloneMissingLayout es verdadero) o se lanzará PptxEditException (si allowCloneMissingLayout es falso). |
 
 ### Valor de Retorno
 
@@ -89,14 +89,14 @@ Diapositiva insertada.
 
 | excepción | condición |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Lanzado si no hay un diseño apropiado en el maestro especificado y allowCloneMissingLayout es falso. |
+| [PptxEditException](../../pptxeditexception) | Lanzada si no hay un diseño apropiado en el máster especificado y allowCloneMissingLayout es falso. |
 
-### Véase También
+### Vea También
 
 * interfaz [ISlide](../../islide)
 * interfaz [IMasterSlide](../../imasterslide)
 * interfaz [ISlideCollection](../../islidecollection)
-* espacio de nombres [Aspose.Slides](../../islidecollection)
-* ensamblado [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

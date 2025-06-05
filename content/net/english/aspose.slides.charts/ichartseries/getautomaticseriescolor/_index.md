@@ -6,6 +6,7 @@ type: docs
 weight: 450
 url: /aspose.slides.charts/ichartseries/getautomaticseriescolor/
 ---
+
 ## IChartSeries.GetAutomaticSeriesColor method
 
 Returns an automatic color of series based on series index and chart style. This color is used by default if FillType equals NotDefined.

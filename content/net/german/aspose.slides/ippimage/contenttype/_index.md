@@ -1,7 +1,7 @@
 ---
 title: ContentType
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen MIME-Typ eines Bildes zurück, das in BinaryDataaspose.slides/ippimage/binarydata codiert ist. Nur-Lese-String.
+description: Gibt einen MIME-Typ eines Bildes zurück, das in BinaryDataaspose.slides/ippimage/binarydata kodiert ist. Nur lesen String.
 type: docs
 weight: 20
 url: /de/aspose.slides/ippimage/contenttype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ippimage/contenttype/
 
 ## IPPImage.ContentType-Eigenschaft
 
-Gibt einen MIME-Typ eines Bildes zurück, das in [`BinaryData`](../binarydata) codiert ist. Nur-Lese-String.
+Gibt einen MIME-Typ eines Bildes zurück, das in [`BinaryData`](../binarydata) kodiert ist. Nur lesen String.
 
 ```csharp
 public string ContentType { get; }

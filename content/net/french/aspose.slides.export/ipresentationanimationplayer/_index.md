@@ -1,7 +1,7 @@
 ---
 title: IPresentationAnimationPlayer
-second_title: Aspose.Sildes pour la référence API .NET
-description: Représente un lecteur d'animation. Animations générées par PresentationAnimationsGenerator./presentationanimationsgenerator via son événement NewAnimation./presentationanimationsgenerator/newanimation.
+second_title: Aspose.Slidese pour .NET API Référence
+description: Représente un lecteur de l'animation. Animations générées par PresentationAnimationsGenerator./presentationanimationsgenerator via son événement NewAnimation./presentationanimationsgenerator/newanimation.
 type: docs
 weight: 3860
 url: /fr/aspose.slides.export/ipresentationanimationplayer/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/ipresentationanimationplayer/
 
 ## Interface IPresentationAnimationPlayer
 
-Représente un lecteur d'animation. Animations générées par [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) via son événement [`NewAnimation`](../presentationanimationsgenerator/newanimation).
+Représente un lecteur de l'animation. Animations générées par [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) via son événement [`NewAnimation`](../presentationanimationsgenerator/newanimation).
 
 ```csharp
 public interface IPresentationAnimationPlayer
@@ -25,7 +25,7 @@ public interface IPresentationAnimationPlayer
 
 | Nom | Description |
 | --- | --- |
-| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | Obtenir l'image pour la position temporelle actuelle précédemment définie avec la méthode [`SetTimePosition`](./settimeposition). |
+| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | Obtenir le cadre pour la position temporelle actuelle précédemment définie avec la méthode [`SetTimePosition`](./settimeposition). |
 | [SetTimePosition](../../aspose.slides.export/ipresentationanimationplayer/settimeposition)(double) | Définir la position temporelle de l'animation dans la [`Duration`](./duration). |
 
 ### Exemples
@@ -52,7 +52,7 @@ using (Presentation presentation = new Presentation("animated.pptx"))
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * namespace [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)

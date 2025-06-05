@@ -1,7 +1,7 @@
 ---
-title: 对齐方式
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置段落中的文本对齐方式，且不继承。可读/可写 TextAlignmentaspose.slides/textalignment。
+title: Alignment
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置段落中的文本对齐方式，不继承。可读/写 TextAlignmentaspose.slides/textalignment。
 type: docs
 weight: 10
 url: /zh/aspose.slides/iparagraphformat/alignment/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/iparagraphformat/alignment/
 
 ## IParagraphFormat.Alignment 属性
 
-返回或设置段落中的文本对齐方式，且不继承。可读/可写 [`TextAlignment`](../../textalignment)。
+返回或设置段落中的文本对齐方式，不继承。可读/写 [`TextAlignment`](../../textalignment)。
 
 ```csharp
 public TextAlignment Alignment { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * 枚举 [TextAlignment](../../textalignment)
 * 接口 [IParagraphFormat](../../iparagraphformat)

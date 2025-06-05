@@ -18,10 +18,12 @@ public void CopyTo(Array array, int index)
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | array | Array | Array de destino. |
-| index | Int32 | Índice de inicio en el array de destino. |
+| index | Int32 | Índice inicial en el array de destino. |
 
-### Vea También
+### Véase También
 
 * clase [ImageCollection](../../imagecollection)
 * espacio de nombres [Aspose.Slides](../../imagecollection)
 * ensamblado [Aspose.Slides](../../../)
+
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

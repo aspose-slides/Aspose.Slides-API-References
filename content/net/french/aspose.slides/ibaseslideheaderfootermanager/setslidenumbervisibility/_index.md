@@ -1,15 +1,15 @@
 ---
 title: SetSlideNumberVisibility
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Change la visibilité du placeholder du numéro de page de la diapositive.
+second_title: Référence API Aspose.Slides pour .NET
+description: Modifie la visibilité de l'espace réservé au numéro de page de la diapositive.
 type: docs
 weight: 90
 url: /fr/aspose.slides/ibaseslideheaderfootermanager/setslidenumbervisibility/
 ---
 
-## Méthode IBaseSlideHeaderFooterManager.SetSlideNumberVisibility
+## IBaseSlideHeaderFooterManager.SetSlideNumberVisibility méthode
 
-Change la visibilité du placeholder du numéro de page de la diapositive.
+Modifie la visibilité de l'espace réservé au numéro de page de la diapositive.
 
 ```csharp
 public void SetSlideNumberVisibility(bool isVisible)
@@ -17,9 +17,9 @@ public void SetSlideNumberVisibility(bool isVisible)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| isVisible | Boolean | true - rend le placeholder du numéro de page visible, sinon - le cache. |
+| isVisible | Boolean | true - rend un espace réservé pour le numéro de page visible, sinon - le cache. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IBaseSlideHeaderFooterManager](../../ibaseslideheaderfootermanager)
 * namespace [Aspose.Slides](../../ibaseslideheaderfootermanager)

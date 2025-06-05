@@ -1,6 +1,6 @@
 ---
 title: DisableBlurEffect
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para la referencia de API de .NET
 description: Desactiva el efecto de desenfoque.
 type: docs
 weight: 110
@@ -15,10 +15,10 @@ Desactiva el efecto de desenfoque.
 public void DisableBlurEffect()
 ```
 
-### Ver También
+### Ver también
 
-* interfaz [IEffectFormat](../../ieffectformat)
-* espacio de nombres [Aspose.Slides](../../ieffectformat)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IEffectFormat](../../ieffectformat)
+* espacio de nombres [Aspose.Slides](../../ieffectformat)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

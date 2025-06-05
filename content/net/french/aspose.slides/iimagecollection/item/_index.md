@@ -1,13 +1,13 @@
 ---
-title: Élément
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Item
+second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie l'image par son index.
 type: docs
 weight: 10
 url: /fr/aspose.slides/iimagecollection/item/
 ---
 
-## Indexeur IImageCollection
+## Indice IImageCollection
 
 Renvoie l'image par son index.
 

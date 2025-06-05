@@ -1,7 +1,7 @@
 ---
 title: ShowPercentage
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente le comportement d'affichage de la valeur de pourcentage d'une étiquette de données de graphique spécifiée. True affiche la valeur en pourcentage. False pour cacher. Booléen en lecture/écriture.
+second_title: Aspose.Sildes pour .NET API Reference
+description: Représente un comportement d'affichage de la valeur de pourcentage d'étiquette de données d'un graphique spécifié. Vrai affiche la valeur en pourcentage. Faux pour cacher. Boolean en lecture/écriture.
 type: docs
 weight: 130
 url: /fr/aspose.slides.charts/idatalabelformat/showpercentage/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/idatalabelformat/showpercentage/
 
 ## Propriété IDataLabelFormat.ShowPercentage
 
-Représente le comportement d'affichage de la valeur de pourcentage d'une étiquette de données de graphique spécifiée. True affiche la valeur en pourcentage. False pour cacher. Booléen en lecture/écriture.
+Représente un comportement d'affichage de la valeur de pourcentage d'étiquette de données d'un graphique spécifié. Vrai affiche la valeur en pourcentage. Faux pour cacher. Boolean en lecture/écriture.
 
 ```csharp
 public bool ShowPercentage { get; set; }
@@ -17,7 +17,7 @@ public bool ShowPercentage { get; set; }
 
 ### Remarques
 
-Si le parent de cet objet DataLabelFormat est une collection DataLabelCollection d'étiquettes de données, alors cette propriété obtient ou définit la valeur par défaut de la propriété ShowPercentage pour les nouvelles étiquettes de données dans la collection DataLabelCollection. Définir cette propriété avec une valeur fixe également cette valeur à la propriété ShowPercentage pour toutes les étiquettes de données dans la collection DataLabelCollection (c'est-à-dire "DataLabels.DefaultDataLabelFormat.ShowPercentage = val;" fait que toutes les DataLabels[i].ShowPercentage est égale à val).
+Si le parent de cet objet DataLabelFormat est une collection de DataLabelCollection d'étiquettes de données, alors cette propriété obtient ou définit la valeur par défaut de la propriété ShowPercentage pour les nouvelles étiquettes de données dans la collection DataLabelCollection. Définir cette propriété avec une valeur définit également cette valeur pour la propriété ShowPercentage de toutes les étiquettes de données dans la collection DataLabelCollection (c'est-à-dire "DataLabels.DefaultDataLabelFormat.ShowPercentage = val;" cause à ce que toutes les DataLabels[i].ShowPercentage soit égale à val).
 
 ### Voir Aussi
 

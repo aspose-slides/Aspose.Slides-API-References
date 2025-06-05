@@ -1,15 +1,15 @@
 ---
-title: Formas
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Recoge todas las instancias de Shapeaspose.slides/shape en la Presentationaspose.slides/presentation.
+title: Shapes
+second_title: Aspose.Sildes for .NET API Reference
+description: Recopila todas las instancias de Shapeaspose.slides/shape en la Presentationaspose.slides/presentation.
 type: docs
 weight: 10
 url: /es/aspose.slides.lowcode/collect/shapes/
 ---
 
-## Método Collect.Shapes
+## Collect.Shapes method
 
-Recoge todas las instancias de [`Shape`](../../../aspose.slides/shape) en la [`Presentation`](../../../aspose.slides/presentation).
+Recopila todas las instancias de [`Shape`](../../../aspose.slides/shape) en la [`Presentation`](../../../aspose.slides/presentation).
 
 ```csharp
 public static IEnumerable<Shape> Shapes(Presentation pres)
@@ -17,9 +17,9 @@ public static IEnumerable<Shape> Shapes(Presentation pres)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| pres | Presentation | Presentación para recoger formas |
+| pres | Presentation | Presentación para recopilar formas |
 
-### Valor de Retorno
+### Valor de retorno
 
 Colección de todas las formas que contiene la presentación
 
@@ -30,7 +30,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     foreach (Shape shape in Collect.Shapes(pres))
     {
-        // si la forma es AutoShape, agrega un borde sólido negro
+        // si la forma es AutoShape, añade un borde sólido negro
         if (shape is AutoShape autoShape)
         {
             autoShape.LineFormat.Style = LineStyle.Single;
@@ -44,7 +44,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }        
 ```
 
-### Véase También
+### Ver también
 
 * class [Shape](../../../aspose.slides/shape)
 * class [Presentation](../../../aspose.slides/presentation)

@@ -1,6 +1,6 @@
 ---
 title: AsISvgShapeFormattingController
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve la interfaz ISvgShapeFormattingController.
 type: docs
 weight: 10
@@ -15,15 +15,15 @@ Devuelve la interfaz ISvgShapeFormattingController.
 public ISvgShapeFormattingController AsISvgShapeFormattingController { get; }
 ```
 
-### Observaciones
+### Comentarios
 
 Para compatibilidad con COM.
 
-### Véase también
+### Véase También
 
 * interfaz [ISvgShapeFormattingController](../../isvgshapeformattingcontroller)
 * interfaz [ISvgShapeAndTextFormattingController](../../isvgshapeandtextformattingcontroller)
 * espacio de nombres [Aspose.Slides.Export](../../isvgshapeandtextformattingcontroller)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

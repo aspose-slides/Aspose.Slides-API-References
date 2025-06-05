@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.smartart/ismartartnode/level/
 ---
+
 ## ISmartArtNode.Level property
 
 Returns nesting level of the node. Read-only Int32.

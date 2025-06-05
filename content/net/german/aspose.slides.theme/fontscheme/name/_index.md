@@ -1,15 +1,15 @@
 ---
 title: Name
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Namen des Schriftartschemas zurück. Lese-/Schreib-String.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Namen des Schriftmusters zurück. Lese-/Schreibzeichenfolge.
 type: docs
 weight: 30
 url: /de/aspose.slides.theme/fontscheme/name/
 ---
 
-## FontScheme.Name Eigenschaften
+## FontScheme.Name-Eigenschaft
 
-Gibt den Namen des Schriftartschemas zurück. Lese-/Schreib-String.
+Gibt den Namen des Schriftmusters zurück. Lese-/Schreibzeichenfolge.
 
 ```csharp
 public string Name { get; set; }

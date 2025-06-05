@@ -1,6 +1,6 @@
 ---
 title: PortionFormat
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie le format de portion. Lecture seule IChartPortionFormataspose.slides.charts/ichartportionformat.
 type: docs
 weight: 20

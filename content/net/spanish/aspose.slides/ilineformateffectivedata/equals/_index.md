@@ -1,6 +1,6 @@
 ---
-title: Iguales
-second_title: Referencia de la API de Aspose.Slides para .NET
+title: Equals
+second_title: Aspose.Slides para .NET Referencia de la API
 description: Determina si las dos instancias de ILineFormatEffectiveData son iguales.
 type: docs
 weight: 180
@@ -17,13 +17,13 @@ public bool Equals(ILineFormatEffectiveData lf)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| lf | ILineFormatEffectiveData | El ILineFormatEffectiveData con el que comparar la instancia actual de ILineFormatEffectiveData. |
+| lf | ILineFormatEffectiveData | El ILineFormatEffectiveData a comparar con el ILineFormatEffectiveData actual. |
 
 ### Valor de Retorno
 
-**true** si el ILineFormatEffectiveData especificado es igual a la instancia actual de ILineFormatEffectiveData; de lo contrario, **false**.
+**true** si el ILineFormatEffectiveData especificado es igual al ILineFormatEffectiveData actual; de lo contrario, **false**.
 
-### También Vea
+### Véase También
 
 * interfaz [ILineFormatEffectiveData](../../ilineformateffectivedata)
 * espacio de nombres [Aspose.Slides](../../ilineformateffectivedata)

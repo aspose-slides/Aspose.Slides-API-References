@@ -1,7 +1,7 @@
 ---
 title: IsObjectIcon
 second_title: Aspose.Sildes for .NET API Reference
-description: 确定对象是否可作为图标可见。可读/写布尔值。
+description: 确定一个对象是否可作为图标可见。可读/可写布尔值。
 type: docs
 weight: 50
 url: /zh/aspose.slides/oleobjectframe/isobjecticon/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/oleobjectframe/isobjecticon/
 
 ## OleObjectFrame.IsObjectIcon 属性
 
-确定对象是否可作为图标可见。可读/写布尔值。
+确定一个对象是否可作为图标可见。可读/可写布尔值。
 
 ```csharp
 public bool IsObjectIcon { get; set; }
 ```
 
-### 另外参见
+### 另见
 
 * class [OleObjectFrame](../../oleobjectframe)
 * namespace [Aspose.Slides](../../oleobjectframe)

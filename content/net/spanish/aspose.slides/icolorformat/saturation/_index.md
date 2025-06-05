@@ -1,6 +1,6 @@
 ---
-title: Saturación
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Saturation
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Devuelve o establece el componente de saturación de un color en representación HSL. Se ignoran todas las transformaciones de color. Lectura/escritura Single.
 type: docs
 weight: 140
@@ -15,10 +15,10 @@ Devuelve o establece el componente de saturación de un color en representación
 public float Saturation { get; set; }
 ```
 
-### Ver También
+### Vea También
 
-* interfaz [IColorFormat](../../icolorformat)
-* espacio de nombres [Aspose.Slides](../../icolorformat)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IColorFormat](../../icolorformat)
+* espacio de nombres [Aspose.Slides](../../icolorformat)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
-title: Диаграмма
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает родительскую диаграмму. Только для чтения IChartaspose.slides.charts/ichart.
+title: Chart
+second_title: Справочник API Aspose.Sildes для .NET
+description: Возвращает родительский график. Только для чтения IChartaspose.slides.charts/ichart.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/legendentryproperties/chart/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.charts/legendentryproperties/chart/
 
 ## Свойство LegendEntryProperties.Chart
 
-Возвращает родительскую диаграмму. Только для чтения [`IChart`](../../ichart).
+Возвращает родительский график. Только для чтения [`IChart`](../../ichart).
 
 ```csharp
 public IChart Chart { get; }
 ```
 
-### Также смотри
+### См. также
 
 * интерфейс [IChart](../../ichart)
 * класс [LegendEntryProperties](../../legendentryproperties)

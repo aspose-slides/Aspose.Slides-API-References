@@ -1,15 +1,15 @@
 ---
 title: MathDelimiterShape
-second_title: Aspose.Slides для .NET API справочник
-description: Положение и размер разделителей относительно содержимого операндов
+second_title: Aspose.Sildes для .NET API Справочник
+description: Расположение и размер разделителей относительно содержимого операндов
 type: docs
 weight: 8410
 url: /ru/aspose.slides.mathtext/mathdelimitershape/
 ---
 
-## Перечисление MathDelimiterShape
+## MathDelimiterShape перечисление
 
-Положение и размер разделителей относительно содержимого операндов
+Расположение и размер разделителей относительно содержимого операндов
 
 ```csharp
 public enum MathDelimiterShape
@@ -19,10 +19,10 @@ public enum MathDelimiterShape
 
 | Название | Значение | Описание |
 | --- | --- | --- |
-| Centered | `0` | Центрировано по математической оси |
+| Centered | `0` | Центрировано относительно математической оси |
 | Match | `1` | Соответствует содержимому |
 
-### См. также
+### См. Также
 
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)

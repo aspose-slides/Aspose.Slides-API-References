@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.mathtext/mathbox/getchildren/
 ---
+
 ## MathBox.GetChildren method
 
 Get children elements

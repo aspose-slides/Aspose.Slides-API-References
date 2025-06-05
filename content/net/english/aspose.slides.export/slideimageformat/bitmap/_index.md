@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.export/slideimageformat/bitmap/
 ---
+
 ## SlideImageFormat.Bitmap method
 
 Slides should be converted to a raster image.

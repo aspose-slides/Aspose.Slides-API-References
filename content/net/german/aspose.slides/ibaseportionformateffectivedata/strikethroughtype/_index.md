@@ -1,7 +1,7 @@
 ---
 title: StrikethroughType
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Durchstreichungsstil eines Textes zurück. Nur-Lesen TextStrikethroughTypeaspose.slides/textstrikethroughtype.
+description: Gibt den Durchstreichungstyp eines Textes zurück. Nur lesbar TextStrikethroughTypeaspose.slides/textstrikethroughtype.
 type: docs
 weight: 230
 url: /de/aspose.slides/ibaseportionformateffectivedata/strikethroughtype/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ibaseportionformateffectivedata/strikethroughtype/
 
 ## IBasePortionFormatEffectiveData.StrikethroughType-Eigenschaft
 
-Gibt den Durchstreichungsstil eines Textes zurück. Nur-Lesen [`TextStrikethroughType`](../../textstrikethroughtype).
+Gibt den Durchstreichungstyp eines Textes zurück. Nur lesbar [`TextStrikethroughType`](../../textstrikethroughtype).
 
 ```csharp
 public TextStrikethroughType StrikethroughType { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [TextStrikethroughType](../../textstrikethroughtype)
 * interface [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)

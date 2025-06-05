@@ -1,13 +1,13 @@
 ---
 title: HyperlinkClick
-second_title: Aspose.Slides pour .NET Référence de l'API
+second_title: Aspose.Slides pour .NET API Référence
 description: Renvoie l'hyperlien défini pour le clic de souris. Lecture seule IHyperlinkaspose.slides/ihyperlink.
 type: docs
 weight: 30
 url: /fr/aspose.slides/iportionformateffectivedata/hyperlinkclick/
 ---
 
-## Propriété IPortionFormatEffectiveData.HyperlinkClick
+## IPortionFormatEffectiveData.HyperlinkClick propriété
 
 Renvoie l'hyperlien défini pour le clic de souris. Lecture seule [`IHyperlink`](../../ihyperlink).
 
@@ -15,7 +15,7 @@ Renvoie l'hyperlien défini pour le clic de souris. Lecture seule [`IHyperlink`]
 public IHyperlink HyperlinkClick { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IHyperlink](../../ihyperlink)
 * interface [IPortionFormatEffectiveData](../../iportionformateffectivedata)

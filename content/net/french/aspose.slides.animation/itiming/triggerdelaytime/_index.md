@@ -1,15 +1,15 @@
 ---
 title: TriggerDelayTime
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Décrit le temps de délai après le déclenchement. Lecture/écriture Simple.
+second_title: Aspose.Slides pour .NET API Reference
+description: Décrit le temps de retard après le déclencheur. Lecture/écriture Single.
 type: docs
 weight: 120
 url: /fr/aspose.slides.animation/itiming/triggerdelaytime/
 ---
 
-## Propriété ITiming.TriggerDelayTime
+## ITiming.TriggerDelayTime propriété
 
-Décrit le temps de délai après le déclenchement. Lecture/écriture Simple.
+Décrit le temps de retard après le déclencheur. Lecture/écriture Single.
 
 ```csharp
 public float TriggerDelayTime { get; set; }

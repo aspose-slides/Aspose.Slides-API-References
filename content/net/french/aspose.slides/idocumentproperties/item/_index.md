@@ -1,5 +1,5 @@
 ---
-title: Élément
+title: Item
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit la propriété personnalisée associée à un nom spécifié. Objet en lecture/écriture.
 type: docs
@@ -7,7 +7,7 @@ weight: 150
 url: /fr/aspose.slides/idocumentproperties/item/
 ---
 
-## Indexeur IDocumentProperties
+## IDocumentProperties indexeur
 
 Renvoie ou définit la propriété personnalisée associée à un nom spécifié. Objet en lecture/écriture.
 

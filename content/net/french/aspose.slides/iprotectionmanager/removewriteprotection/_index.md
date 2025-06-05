@@ -1,6 +1,6 @@
 ---
 title: RemoveWriteProtection
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Supprime la protection en écriture pour cette présentation.
 type: docs
 weight: 100

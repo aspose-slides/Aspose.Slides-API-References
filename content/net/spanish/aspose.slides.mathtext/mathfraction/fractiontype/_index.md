@@ -1,7 +1,7 @@
 ---
 title: FractionType
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Tipo de fracción Bar por defecto
+second_title: Aspose.Sildes para .NET API Reference
+description: Tipo de fracción Predeterminado Bar
 type: docs
 weight: 30
 url: /es/aspose.slides.mathtext/mathfraction/fractiontype/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.mathtext/mathfraction/fractiontype/
 
 ## Propiedad MathFraction.FractionType
 
-Tipo de fracción por defecto: Bar
+Tipo de fracción Predeterminado: Bar
 
 ```csharp
 public MathFractionTypes FractionType { get; set; }
@@ -25,7 +25,7 @@ IMathFraction mathFraction = new MathematicalText("x").Divide("y");
 mathFraction.FractionType = MathFractionTypes.Linear;
 ```
 
-### Véase también
+### Ver También
 
 * enum [MathFractionTypes](../../mathfractiontypes)
 * class [MathFraction](../../mathfraction)

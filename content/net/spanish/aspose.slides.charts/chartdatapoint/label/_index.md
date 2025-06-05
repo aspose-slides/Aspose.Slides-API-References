@@ -1,7 +1,7 @@
 ---
-title: Etiqueta
+title: Label
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Etiqueta. Solo lectura IDataLabelaspose.slides/idatalabel.
+description: Label. Solo lectura IDataLabelaspose.slides.charts/idatalabel.
 type: docs
 weight: 140
 url: /es/aspose.slides.charts/chartdatapoint/label/
@@ -9,17 +9,17 @@ url: /es/aspose.slides.charts/chartdatapoint/label/
 
 ## Propiedad ChartDataPoint.Label
 
-Etiqueta. Solo lectura [`IDataLabel`](../../idatalabel).
+Label. Solo lectura [`IDataLabel`](../../idatalabel).
 
 ```csharp
 public IDataLabel Label { get; }
 ```
 
-### Véase también
+### Vea También
 
 * interfaz [IDataLabel](../../idatalabel)
 * clase [ChartDataPoint](../../chartdatapoint)
 * espacio de nombres [Aspose.Slides.Charts](../../chartdatapoint)
-* asamblea [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

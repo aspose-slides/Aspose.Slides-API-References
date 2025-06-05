@@ -1,7 +1,7 @@
 ---
 title: SvgData
-second_title: Aspose.Slides for .NET API 参考
-description: 返回 SVG 数据。只读 Byte。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回SVG数据。只读Byte。
 type: docs
 weight: 40
 url: /zh/aspose.slides/isvgimage/svgdata/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/isvgimage/svgdata/
 
 ## ISvgImage.SvgData 属性
 
-返回 SVG 数据。只读 Byte[]。
+返回SVG数据。只读Byte[]。
 
 ```csharp
 public byte[] SvgData { get; }

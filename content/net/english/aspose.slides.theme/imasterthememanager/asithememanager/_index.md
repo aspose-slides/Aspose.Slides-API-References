@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.theme/imasterthememanager/asithememanager/
 ---
+
 ## IMasterThemeManager.AsIThemeManager property
 
 Allows to get base IThemeManager interface. Read-only [`IThemeManager`](../../ithememanager).

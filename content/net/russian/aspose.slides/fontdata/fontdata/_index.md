@@ -1,6 +1,6 @@
 ---
 title: FontData
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Создает новый объект FontData с указанным именем шрифта.
 type: docs
 weight: 10

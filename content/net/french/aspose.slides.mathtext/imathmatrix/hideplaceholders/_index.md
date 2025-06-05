@@ -1,7 +1,7 @@
 ---
-title: Masquer les espaces réservés
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Masquer les espaces réservés pour les éléments de matrice vides. Valeur par défaut  faux
+title: HidePlaceholders
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Masquer les espaces réservés pour les éléments de matrice vides Par défaut  faux
 type: docs
 weight: 60
 url: /fr/aspose.slides.mathtext/imathmatrix/hideplaceholders/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/imathmatrix/hideplaceholders/
 
 ## Propriété IMathMatrix.HidePlaceholders
 
-Masquer les espaces réservés pour les éléments de matrice vides. Valeur par défaut : faux
+Masquer les espaces réservés pour les éléments de matrice vides Par défaut : faux
 
 ```csharp
 public bool HidePlaceholders { get; set; }

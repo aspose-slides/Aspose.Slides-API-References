@@ -1,7 +1,7 @@
 ---
 title: SetTextFormat
-second_title: Aspose.Slides für .NET API-Referenz
-description: Setzt definierte Abschnittsformat-Eigenschaften auf alle Portions der Tabellenzellen.
+second_title: Aspose.Slides für .NET API Referenz
+description: Setzt definierte Format-Eigenschaften für alle Teile der Tabellenzellen.
 type: docs
 weight: 150
 url: /de/aspose.slides/table/settextformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/table/settextformat/
 
 ## SetTextFormat(IPortionFormat) {#settextformat_1}
 
-Setzt definierte Abschnittsformat-Eigenschaften auf alle Portions der Tabellenzellen.
+Setzt definierte Format-Eigenschaften für alle Teile der Tabellenzellen.
 
 ```csharp
 public void SetTextFormat(IPortionFormat source)
@@ -17,9 +17,9 @@ public void SetTextFormat(IPortionFormat source)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| source | IPortionFormat | IPortionFormat-Objekt mit den erforderlichen Eigenschaften. |
+| source | IPortionFormat | IPortionFormat-Objekt mit den notwendigen Eigenschaften. |
 
-### Siehe auch
+### Siehe Auch
 
 * interface [IPortionFormat](../../iportionformat)
 * class [Table](../../table)
@@ -30,7 +30,7 @@ public void SetTextFormat(IPortionFormat source)
 
 ## SetTextFormat(IParagraphFormat) {#settextformat}
 
-Setzt definierte Absatzformat-Eigenschaften auf alle Absätze der Tabellenzellen.
+Setzt definierte Format-Eigenschaften für alle Absätze der Tabellenzellen.
 
 ```csharp
 public void SetTextFormat(IParagraphFormat source)
@@ -38,9 +38,9 @@ public void SetTextFormat(IParagraphFormat source)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| source | IParagraphFormat | IParagraphFormat-Objekt mit den erforderlichen Eigenschaften. |
+| source | IParagraphFormat | IParagraphFormat-Objekt mit den notwendigen Eigenschaften. |
 
-### Siehe auch
+### Siehe Auch
 
 * interface [IParagraphFormat](../../iparagraphformat)
 * class [Table](../../table)
@@ -51,7 +51,7 @@ public void SetTextFormat(IParagraphFormat source)
 
 ## SetTextFormat(ITextFrameFormat) {#settextformat_2}
 
-Setzt definierte Textrahmenformat-Eigenschaften auf alle Textrahmen der Tabellenzellen.
+Setzt definierte Format-Eigenschaften für alle Textfelder der Tabellenzellen.
 
 ```csharp
 public void SetTextFormat(ITextFrameFormat source)
@@ -59,9 +59,9 @@ public void SetTextFormat(ITextFrameFormat source)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| source | ITextFrameFormat | ITextFrameFormat-Objekt mit den erforderlichen Eigenschaften. |
+| source | ITextFrameFormat | ITextFrameFormat-Objekt mit den notwendigen Eigenschaften. |
 
-### Siehe auch
+### Siehe Auch
 
 * interface [ITextFrameFormat](../../itextframeformat)
 * class [Table](../../table)

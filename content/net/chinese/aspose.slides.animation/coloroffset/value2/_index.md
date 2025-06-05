@@ -1,7 +1,7 @@
 ---
 title: Value2
-second_title: Aspose.Slides for .NET API 参考
-description: 定义偏移量的第三个值。可读/写单精度浮点数。
+second_title: Aspose.Slides for .NET API Reference
+description: 定义偏移量的第三个值。可读/可写单精度浮点数。
 type: docs
 weight: 40
 url: /zh/aspose.slides.animation/coloroffset/value2/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.animation/coloroffset/value2/
 
 ## ColorOffset.Value2 属性
 
-定义偏移量的第三个值。可读/写单精度浮点数。
+定义偏移量的第三个值。可读/可写单精度浮点数。
 
 ```csharp
 public float Value2 { get; set; }
 ```
 
-### 另见
+### 参见
 
 * class [ColorOffset](../../coloroffset)
 * namespace [Aspose.Slides.Animation](../../coloroffset)

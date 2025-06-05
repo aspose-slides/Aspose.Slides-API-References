@@ -1,7 +1,7 @@
 ---
-title: 移除
-second_title: Aspose.Slides for .NET API 参考
-description: 从集合中移除特定 FallBack 规则的第一次出现。
+title: Remove
+second_title: Aspose.Sildes for .NET API Reference
+description: 从集合中移除特定的 FallBack 规则的第一次出现。
 type: docs
 weight: 30
 url: /zh/aspose.slides/ifontfallbackrulescollection/remove/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ifontfallbackrulescollection/remove/
 
 ## IFontFallBackRulesCollection.Remove 方法
 
-从集合中移除特定 FallBack 规则的第一次出现。
+从集合中移除特定的 FallBack 规则的第一次出现。
 
 ```csharp
 public void Remove(IFontFallBackRule targetRule)
@@ -25,10 +25,10 @@ public void Remove(IFontFallBackRule targetRule)
 [C#]
 using (Presentation pres = new Presentation ())
 {
-    // 从 FontsManager 获取空的或预初始化的规则集合
+    // 从 FontsManager 获取空或预初始化的规则集合
     IFontFallBackRulesCollection rulesList = pres.FontsManager.FontFallBackRulesCollection;
 
-    // 将几个规则添加到集合中
+    // 向集合中添加多个规则
     rulesList.Add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
     rulesList.Add(new FontFallBackRule(0x3040, 0x309F, "MS Mincho"));
 
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation ())
 }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IFontFallBackRule](../../ifontfallbackrule)
 * 接口 [IFontFallBackRulesCollection](../../ifontfallbackrulescollection)

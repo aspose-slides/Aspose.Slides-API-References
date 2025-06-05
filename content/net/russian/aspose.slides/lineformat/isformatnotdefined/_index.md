@@ -1,21 +1,21 @@
 ---
 title: IsFormatNotDefined
-second_title: Aspose.Slides для .NET API Reference
-description: Возвращает true, если формат линии не определен как только что созданный по умолчанию. Свойство только для чтения Boolean.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает true, если формат линии не определён как только что созданный по умолчанию. Только для чтения Boolean.
 type: docs
 weight: 120
 url: /ru/aspose.slides/lineformat/isformatnotdefined/
 ---
 
-## Свойство LineFormat.IsFormatNotDefined
+## LineFormat.IsFormatNotDefined свойство
 
-Возвращает true, если формат линии не определен (как только что созданный, по умолчанию). Свойство только для чтения Boolean.
+Возвращает true, если формат линии не определён (как только что созданный, по умолчанию). Только для чтения Boolean.
 
 ```csharp
 public bool IsFormatNotDefined { get; }
 ```
 
-### См. Также
+### Смотрите Также
 
 * класс [LineFormat](../../lineformat)
 * пространство имен [Aspose.Slides](../../lineformat)

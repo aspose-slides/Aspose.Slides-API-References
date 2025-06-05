@@ -1,6 +1,6 @@
 ---
 title: ThroughBlack
-second_title: Referencia de la API Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Especifica si la transición se desvanece a través del negro. Booleano de lectura/escritura.
 type: docs
 weight: 30

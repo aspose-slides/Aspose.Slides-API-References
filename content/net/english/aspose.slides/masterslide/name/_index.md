@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/masterslide/name/
 ---
+
 ## MasterSlide.Name property
 
 Returns or sets the name of a master slide. Read/write String.

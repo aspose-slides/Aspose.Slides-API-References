@@ -1,15 +1,15 @@
 ---
 title: WrapText
-second_title: Aspose.Slides для .NET API Справочник
-description: True, если текст обернут по краям TextFrames. Читаемое/записываемое NullableBoolaspose.slides/nullablebool.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Истина, если текст оборачивается на границах TextFrames. Чтение/запись NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 160
 url: /ru/aspose.slides/textframeformat/wraptext/
 ---
 
-## Свойство TextFrameFormat.WrapText
+## TextFrameFormat.WrapText свойство
 
-**True**, если текст обернут по краям TextFrame. Читаемое/записываемое [`NullableBool`](../../nullablebool).
+**Истина** если текст оборачивается на границах TextFrame. Чтение/запись [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool WrapText { get; set; }
@@ -17,7 +17,7 @@ public NullableBool WrapText { get; set; }
 
 ### Примеры
 
-Следующий пример кода показывает, как обернуть текст в презентации.
+Следующий образец кода показывает, как обернуть текст в Презентации.
 
 ```csharp
 [C#]
@@ -35,7 +35,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### См. также
+### Также см.
 
 * enum [NullableBool](../../nullablebool)
 * class [TextFrameFormat](../../textframeformat)

@@ -1,6 +1,6 @@
 ---
 title: ScaleEffect
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 默认构造函数。
 type: docs
 weight: 10

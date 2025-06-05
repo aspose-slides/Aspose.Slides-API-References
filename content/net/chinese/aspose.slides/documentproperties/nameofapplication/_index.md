@@ -1,7 +1,7 @@
 ---
-title: 应用程序名称
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置应用程序的名称。可读/可写字符串。
+title: NameOfApplication
+second_title: Aspose.Slides for .NET API Reference
+description: 返回或设置应用程序的名称。可读写字符串。
 type: docs
 weight: 240
 url: /zh/aspose.slides/documentproperties/nameofapplication/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/documentproperties/nameofapplication/
 
 ## DocumentProperties.NameOfApplication 属性
 
-返回或设置应用程序的名称。可读/可写字符串。
+返回或设置应用程序的名称。可读写字符串。
 
 ```csharp
 public string NameOfApplication { get; set; }
 ```
 
-### 参见
+### 另请参见
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)

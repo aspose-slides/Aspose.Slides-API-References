@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/iduotoneeffectivedata/color1/
 ---
+
 ## IDuotoneEffectiveData.Color1 property
 
 Returns target color format for dark pixels. Read-only Color.

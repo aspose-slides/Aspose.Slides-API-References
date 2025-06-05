@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/rowformat/geteffective/
 ---
+
 ## RowFormat.GetEffective method
 
 Gets effective table row formatting properties with inheritance and table styles applied.

@@ -1,7 +1,7 @@
 ---
 title: GetFontEmbeddingLevel
-second_title: Aspose.Slides для .NET Справочник по API
-description: Определяет уровень встраивания шрифта на основе данного массива байтов и имени шрифта.
+second_title: Aspose.Sildes для .NET API Reference
+description: Определяет уровень встраивания шрифта из данного массива байтов и имени шрифта.
 type: docs
 weight: 60
 url: /ru/aspose.slides/fontsmanager/getfontembeddinglevel/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/fontsmanager/getfontembeddinglevel/
 
 ## FontsManager.GetFontEmbeddingLevel метод
 
-Определяет уровень встраивания шрифта на основе данного массива байтов и имени шрифта.
+Определяет уровень встраивания шрифта из данного массива байтов и имени шрифта.
 
 ```csharp
 public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
@@ -20,7 +20,7 @@ public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
 | fontBytes | Byte[] | Массив байтов, содержащий данные шрифта. |
 | fontName | String | Имя шрифта. |
 
-### Возвращаемое значение
+### Значение Возврата
 
 Уровень встраивания указанного шрифта.
 
@@ -28,7 +28,7 @@ public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Выбрасывается, когда *fontBytes* равен null. |
+| ArgumentNullException | Вызывается, когда *fontBytes* равно null. |
 
 ### Примеры
 
@@ -36,18 +36,18 @@ public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
 [C#]
 using (Presentation pres = new Presentation(pptxFileName))
 {
-    // Получить все шрифты, используемые в презентации
+    // Извлекаем все шрифты, используемые в презентации
     IFontData[] fontDatas = pres.FontsManager.GetFonts();
 
-    // Получить массив байтов, представляющий обычный стиль первого шрифта в презентации
+    // Получаем массив байтов, представляющий обычный стиль первого шрифта в презентации
     byte[] bytes = pres.FontsManager.GetFontBytes(fontDatas[0], FontStyle.Regular);
 
-    // Определить уровень встраивания шрифта
+    // Определяем уровень встраивания шрифта
     EmbeddingLevel embeddingLevel = pres.FontsManager.GetFontEmbeddingLevel(bytes, fontDatas[0].FontName);
 }
 ```
 
-### См. также
+### См. Также
 
 * enum [EmbeddingLevel](../../embeddinglevel)
 * class [FontsManager](../../fontsmanager)

@@ -1,7 +1,7 @@
 ---
 title: BevelTop
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置顶部 3D 倒角的类型。只读 IShapeBevelaspose.slides/ishapebevel。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置顶部 3D 倾斜的类型。只读 IShapeBevelaspose.slides/ishapebevel。
 type: docs
 weight: 30
 url: /zh/aspose.slides/ithreedformat/beveltop/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ithreedformat/beveltop/
 
 ## IThreeDFormat.BevelTop 属性
 
-返回或设置顶部 3D 倒角的类型。只读 [`IShapeBevel`](../../ishapebevel)。
+返回或设置顶部 3D 倾斜的类型。只读 [`IShapeBevel`](../../ishapebevel)。
 
 ```csharp
 public IShapeBevel BevelTop { get; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IShapeBevel](../../ishapebevel)
 * 接口 [IThreeDFormat](../../ithreedformat)

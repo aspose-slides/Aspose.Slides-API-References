@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/behaviorproperty/strokeon/
 public static BehaviorProperty StrokeOn { get; }
 ```
 
-### 相关内容
+### 参见
 
 * 类 [BehaviorProperty](../../behaviorproperty)
 * 命名空间 [Aspose.Slides.Animation](../../behaviorproperty)

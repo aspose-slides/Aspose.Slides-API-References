@@ -1,6 +1,6 @@
 ---
 title: op_Inequality
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Teste deux hyperliens pour inégalité.
 type: docs
 weight: 240
@@ -20,11 +20,11 @@ public static bool operator !=(Hyperlink hlink1, Hyperlink hlink2)
 | hlink1 | Hyperlink | Premier hyperlien à tester. |
 | hlink2 | Hyperlink | Deuxième hyperlien à tester. |
 
-### Valeur de retour
+### Valeur de Retour
 
 **False** si les hyperliens sont égaux.
 
-### Voir aussi
+### Voir Aussi
 
 * classe [Hyperlink](../../hyperlink)
 * espace de noms [Aspose.Slides](../../hyperlink)

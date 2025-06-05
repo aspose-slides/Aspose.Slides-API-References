@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.export.web/output/bindresource/
 ---
+
 ## Output.BindResource method
 
 Binds resource to output file.

@@ -1,13 +1,13 @@
 ---
-title: 图像转换操作
-second_title: Aspose.Slides for .NET API 参考
+title: ImageTransformOperation
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示抽象图像转换效果。
 type: docs
 weight: 3450
 url: /zh/aspose.slides.effects/imagetransformoperation/
 ---
 
-## 图像转换操作类
+## ImageTransformOperation class
 
 表示抽象图像转换效果。
 
@@ -15,20 +15,20 @@ url: /zh/aspose.slides.effects/imagetransformoperation/
 public abstract class ImageTransformOperation : PVIObject, IImageTransformOperation
 ```
 
-## 属性
+## Properties
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基接口 IPresentationComponent。只读 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本的 IPresentationComponent 接口。只读 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
 
-## 方法
+## Methods
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 与指定对象进行比较。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 返回哈希代码。 |
 
-### 另见
+### See Also
 
 * class [PVIObject](../../aspose.slides/pviobject)
 * interface [IImageTransformOperation](../iimagetransformoperation)

@@ -1,13 +1,13 @@
 ---
-title: Contar
-second_title: Referencia de la API de Aspose.Slides para .NET
+title: Count
+second_title: Referencia de la API de Aspose.Slidess para .NET
 description: Obtiene el número de todos los elementos en la colección. Solo lectura Int32.
 type: docs
 weight: 10
 url: /es/aspose.slides/idrawingguidescollection/count/
 ---
 
-## IDrawingGuidesCollection.Count propiedad
+## Propiedad IDrawingGuidesCollection.Count
 
 Obtiene el número de todos los elementos en la colección. Solo lectura Int32.
 

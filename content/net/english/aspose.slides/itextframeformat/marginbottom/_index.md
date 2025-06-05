@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/itextframeformat/marginbottom/
 ---
+
 ## ITextFrameFormat.MarginBottom property
 
 Returns or sets the bottom margin (points) in a TextFrame. Read/write Double.

@@ -1,6 +1,6 @@
 ---
-title: Nombre
-second_title: Referencia de API de Aspose.Sildes para .NET
+title: Name
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa el nombre de la referencia del proyecto VBA. Lectura/escritura String.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Representa el nombre de la referencia del proyecto VBA. Lectura/escritura String
 public string Name { get; set; }
 ```
 
-### Ver También
+### Ver también
 
 * interfaz [IVbaReference](../../ivbareference)
 * espacio de nombres [Aspose.Slides.Vba](../../ivbareference)

@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.effects/imagetransformoperationcollection/addalphamodulatefixedeffect/
 ---
+
 ## ImageTransformOperationCollection.AddAlphaModulateFixedEffect method
 
 Adds the new Alpha Modulate Fixed effect to the end of a collection.

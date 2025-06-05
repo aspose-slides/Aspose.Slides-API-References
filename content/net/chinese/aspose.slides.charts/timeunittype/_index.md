@@ -1,7 +1,7 @@
 ---
 title: TimeUnitType
 second_title: Aspose.Sildes for .NET API Reference
-description: 代表类别轴的基本单位
+description: 表示类别轴的基本单位
 type: docs
 weight: 2380
 url: /zh/aspose.slides.charts/timeunittype/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/timeunittype/
 
 ## TimeUnitType 枚举
 
-代表类别轴的基本单位
+表示类别轴的基本单位
 
 ```csharp
 public enum TimeUnitType
@@ -19,12 +19,12 @@ public enum TimeUnitType
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 值将原样显示。 |
+| None | `0` | 值将如实显示。 |
 | Days | `1` | 指定图表数据应以天为单位显示。 |
 | Months | `2` | 指定图表数据应以月为单位显示。 |
 | Years | `3` | 指定图表数据应以年为单位显示。 |
 
-### 另请参见
+### 参见
 
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程序集 [Aspose.Slides](../../)

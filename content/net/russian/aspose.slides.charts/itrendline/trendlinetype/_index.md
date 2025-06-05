@@ -1,7 +1,7 @@
 ---
-title: ТипТрендовойЛинии
-second_title: Справочная информация по Aspose.Slides для .NET
-description: Получает или устанавливает тип трендовой линии. Чтение/запись TrendlineTypeaspose.slides.charts/itrendline/trendlinetype.
+title: TrendlineType
+second_title: Aspose.Slides для .NET API Справка
+description: Получает или задает тип трендовой линии. Чтение/запись TrendlineTypeaspose.slides.charts/itrendline/trendlinetype.
 type: docs
 weight: 120
 url: /ru/aspose.slides.charts/itrendline/trendlinetype/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.charts/itrendline/trendlinetype/
 
 ## Свойство ITrendline.TrendlineType
 
-Получает или устанавливает тип трендовой линии. Чтение/запись `TrendlineType`.
+Получает или задает тип трендовой линии. Чтение/запись `TrendlineType`.
 
 ```csharp
 public TrendlineType TrendlineType { get; set; }
 ```
 
-### См. также
+### Также смотри
 
 * enum [TrendlineType](../../trendlinetype)
 * interface [ITrendline](../../itrendline)

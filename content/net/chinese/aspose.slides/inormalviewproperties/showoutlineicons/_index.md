@@ -1,7 +1,7 @@
 ---
 title: ShowOutlineIcons
 second_title: Aspose.Sildes for .NET API Reference
-description: 指定应用程序是否应该在正常视图模式的任何内容区域显示轮廓内容时显示图标。可读写的布尔值。
+description: 指定如果在正常视图模式的任何内容区域中显示大纲内容，应用程序是否应该显示图标。可读/写布尔值。
 type: docs
 weight: 50
 url: /zh/aspose.slides/inormalviewproperties/showoutlineicons/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/inormalviewproperties/showoutlineicons/
 
 ## INormalViewProperties.ShowOutlineIcons 属性
 
-指定应用程序是否应该在正常视图模式的任何内容区域显示轮廓内容时显示图标。可读写的布尔值。
+指定如果在正常视图模式的任何内容区域中显示大纲内容，应用程序是否应该显示图标。可读/写布尔值。
 
 ```csharp
 public bool ShowOutlineIcons { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [INormalViewProperties](../../inormalviewproperties)
 * 命名空间 [Aspose.Slides](../../inormalviewproperties)

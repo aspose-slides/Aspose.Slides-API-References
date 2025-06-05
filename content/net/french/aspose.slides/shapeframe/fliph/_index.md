@@ -1,6 +1,6 @@
 ---
 title: FlipH
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Détermine si un cadre est retourné horizontalement. Lecture seule NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 40

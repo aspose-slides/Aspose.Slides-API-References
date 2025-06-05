@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides/icell/marginleft/
 ---
+
 ## ICell.MarginLeft property
 
 Returns or sets the left margin in a TextFrame. Read/write Double.

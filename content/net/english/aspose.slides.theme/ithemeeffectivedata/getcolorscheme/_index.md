@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.theme/ithemeeffectivedata/getcolorscheme/
 ---
+
 ## IThemeEffectiveData.GetColorScheme method
 
 Returns the color scheme.

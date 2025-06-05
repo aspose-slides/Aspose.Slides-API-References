@@ -1,7 +1,7 @@
 ---
 title: AlphaCeiling
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt einen Alpha Ceiling-Effekt dar. Alpha-Opazitätswerte größer als null werden auf 100 geändert. Mit anderen Worten, alles, was teilweise undurchsichtig ist, wird vollständig undurchsichtig.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt einen Alpha Ceiling-Effekt dar. Alpha-Opazitätswerte größer als null werden auf 100 geändert. Mit anderen Worten, alles, was teilweise opak ist, wird vollständig opak.
 type: docs
 weight: 2760
 url: /de/aspose.slides.effects/alphaceiling/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/alphaceiling/
 
 ## AlphaCeiling-Klasse
 
-Stellt einen Alpha Ceiling-Effekt dar. Alpha (Opazität) Werte größer als null werden auf 100% geändert. Mit anderen Worten, alles, was teilweise undurchsichtig ist, wird vollständig undurchsichtig.
+Stellt einen Alpha Ceiling-Effekt dar. Alpha (Opazität) Werte größer als null werden auf 100% geändert. Mit anderen Worten, alles, was teilweise opak ist, wird vollständig opak.
 
 ```csharp
 public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
@@ -19,14 +19,14 @@ public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht den Zugriff auf die Basis-IPresentationComponent-Schnittstelle. Nur lesbar [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basis-IPresentationComponent-Schnittstelle. Nur Lesezugriff [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphaceiling/equals)(object) | Bestimmt, ob das angegebene [`AlphaCeiling`](../alphaceiling) gleich dem aktuellen [`AlphaCeiling`](../alphaceiling) ist. |
-| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | Erhält die effektiven Alpha Ceiling-Effektdaten mit der angewendeten Vererbung. |
+| override [Equals](../../aspose.slides.effects/alphaceiling/equals)(object) | Bestimmt, ob das angegebene [`AlphaCeiling`](../alphaceiling) dem aktuellen [`AlphaCeiling`](../alphaceiling) entspricht. |
+| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | Ruft die effektiven Alpha Ceiling-Effekt-Daten mit der angewandten Vererbung ab. |
 | override [GetHashCode](../../aspose.slides.effects/alphaceiling/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ. |
 
 ### Siehe auch

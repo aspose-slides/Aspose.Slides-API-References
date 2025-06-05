@@ -1,7 +1,7 @@
 ---
 title: IBlur
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente un effet de flou qui est appliqué à l'ensemble de la forme, y compris son remplissage. Tous les canaux de couleur, y compris l'alpha, sont affectés.
+second_title: Référence API Aspose.Slides pour .NET
+description: Représente un effet de flou qui est appliqué à la forme entière, y compris son remplissage. Tous les canaux de couleur, y compris l'alpha, sont affectés.
 type: docs
 weight: 3080
 url: /fr/aspose.slides.effects/iblur/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/iblur/
 
 ## Interface IBlur
 
-Représente un effet de flou qui est appliqué à l'ensemble de la forme, y compris son remplissage. Tous les canaux de couleur, y compris l'alpha, sont affectés.
+Représente un effet de flou qui est appliqué à la forme entière, y compris son remplissage. Tous les canaux de couleur, y compris l'alpha, sont affectés.
 
 ```csharp
 public interface IBlur : IAccessiblePVIObject<IBlurEffectiveData>, IImageTransformOperation
@@ -19,9 +19,9 @@ public interface IBlur : IAccessiblePVIObject<IBlurEffectiveData>, IImageTransfo
 
 | Nom | Description |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iblur/asiaccessiblepviobject) { get; } | Permet d'obtenir l'interface de base IAccessiblePVIObject. En lecture seule [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iblur/asiimagetransformoperation) { get; } | Permet d'obtenir l'interface de base IImageTransformOperation. En lecture seule [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | Détermine si les tailles de l'objet doivent être agrandies suite au flou. Vrai indique que les tailles sont agrandies tandis que faux indique qu'elles ne le sont pas. Booléen en lecture/écriture. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iblur/asiaccessiblepviobject) { get; } | Permet d'obtenir l'interface de base IAccessiblePVIObject. Lecture seule [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iblur/asiimagetransformoperation) { get; } | Permet d'obtenir l'interface de base IImageTransformOperation. Lecture seule [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | Détermine si les limites de l'objet doivent être agrandies à la suite du flou. Vrai indique que les limites sont agrandies tandis que faux indique qu'elles ne le sont pas. Booléen en lecture/écriture. |
 | [Radius](../../aspose.slides.effects/iblur/radius) { get; set; } | Retourne ou définit le rayon de flou. Double en lecture/écriture. |
 
 ### Voir aussi

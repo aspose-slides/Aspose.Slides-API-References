@@ -1,7 +1,7 @@
 ---
 title: MathDelimiter
-second_title: Aspose.Sildes для .NET API Справочник
-description: Инициализирует MathDelimiter с указанным элементом в качестве единственного аргумента
+second_title: Справочник по API Aspose.Slides для .NET
+description: Инициализирует MathDelimiter с указанным элементом в качестве единственного базового аргумента
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathdelimiter/mathdelimiter/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/mathdelimiter/mathdelimiter/
 
 ## Конструктор MathDelimiter
 
-Инициализирует MathDelimiter с указанным элементом в качестве единственного аргумента
+Инициализирует MathDelimiter с указанным элементом в качестве единственного базового аргумента
 
 ```csharp
 public MathDelimiter(IMathElement element)
@@ -23,7 +23,7 @@ public MathDelimiter(IMathElement element)
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Выбрасывается, если *element* является контейнером для других элементов, таких как MathBlock. В этом случае необходимо вызвать другой конструктор с аргументом IEnumerable. |
+| InvalidOperationException | Выбрасывается, когда *element* является контейнером для других элементов, таких как MathBlock. В этом случае необходимо вызвать другой конструктор с аргументом IEnumerable. |
 
 ### Примеры
 

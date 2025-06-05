@@ -1,15 +1,15 @@
 ---
 title: CopyTo
-second_title: Aspose.Sildes для .NET API Справка
-description: Копирует все элементы из коллекции в указанный массив.
+second_title: Aspose.Slides для .NET API Справочник
+description: Копирует все элементы из коллекции в заданный массив.
 type: docs
 weight: 70
 url: /ru/aspose.slides/commentauthorcollection/copyto/
 ---
 
-## Метод CommentAuthorCollection.CopyTo
+## CommentAuthorCollection.CopyTo метод
 
-Копирует все элементы из коллекции в указанный массив.
+Копирует все элементы из коллекции в заданный массив.
 
 ```csharp
 public void CopyTo(Array array, int index)

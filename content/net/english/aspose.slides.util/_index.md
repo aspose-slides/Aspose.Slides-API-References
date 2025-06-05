@@ -6,6 +6,7 @@ type: docs
 weight: 170
 url: /aspose.slides.util/
 ---
+
 Contains util classes that helps to work with presentations.
 
 ## Classes

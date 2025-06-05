@@ -1,13 +1,13 @@
 ---
-title: Limpiar
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Clear
+second_title: Aspose.Sildes para .NET API Reference
 description: Elimina todas las formas de la colección.
 type: docs
 weight: 230
 url: /es/aspose.slides/shapecollection/clear/
 ---
 
-## Método ShapeCollection.Clear
+## ShapeCollection.Clear method
 
 Elimina todas las formas de la colección.
 
@@ -17,8 +17,8 @@ public void Clear()
 
 ### Ver También
 
-* clase [ShapeCollection](../../shapecollection)
-* espacio de nombres [Aspose.Slides](../../shapecollection)
-* ensamblado [Aspose.Slides](../../../)
+* class [ShapeCollection](../../shapecollection)
+* namespace [Aspose.Slides](../../shapecollection)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

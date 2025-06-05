@@ -1,15 +1,15 @@
 ---
 title: IFillOverlayEffectiveData
 second_title: Aspose.Slides für .NET API Referenz
-description: Unveränderliches Objekt, das einen Fill Overlay Effekt darstellt. Ein Fill Overlay kann verwendet werden, um eine zusätzliche Füllung für ein Objekt zu spezifizieren und die beiden Füllungen zu mischen.
+description: Unabhängiges Objekt, das einen Fill Overlay-Effekt darstellt. Ein Fill Overlay kann verwendet werden, um eine zusätzliche Füllung für ein Objekt zu spezifizieren und die beiden Füllungen miteinander zu mischen.
 type: docs
 weight: 3190
 url: /de/aspose.slides.effects/ifilloverlayeffectivedata/
 ---
 
-## IFillOverlayEffectiveData-Interface
+## IFillOverlayEffectiveData-Schnittstelle
 
-Unveränderliches Objekt, das einen Fill Overlay Effekt darstellt. Ein Fill Overlay kann verwendet werden, um eine zusätzliche Füllung für ein Objekt zu spezifizieren und die beiden Füllungen zusammen zu mischen.
+Unabhängiges Objekt, das einen Fill Overlay-Effekt darstellt. Ein Fill Overlay kann verwendet werden, um eine zusätzliche Füllung für ein Objekt zu spezifizieren und die beiden Füllungen miteinander zu mischen.
 
 ```csharp
 public interface IFillOverlayEffectiveData : IEffectEffectiveData
@@ -19,13 +19,13 @@ public interface IFillOverlayEffectiveData : IEffectEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata) { get; } | Ermöglicht den Zugriff auf die Basis-IInterface IEffectEffectiveData. Schreibgeschützt [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Blend](../../aspose.slides.effects/ifilloverlayeffectivedata/blend) { get; } | FillBlendMode. Schreibgeschützt [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | Füllformat. Schreibgeschützt [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IEffectEffectiveData. Nur-Lese [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Blend](../../aspose.slides.effects/ifilloverlayeffectivedata/blend) { get; } | FillBlendMode. Nur-Lese [`FillBlendMode`](../../aspose.slides/fillblendmode). |
+| [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | Füllformat. Nur-Lese [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
 
-### Siehe Auch
+### Siehe auch
 
-* Interface [IEffectEffectiveData](../ieffecteffectivedata)
+* Schnittstelle [IEffectEffectiveData](../ieffecteffectivedata)
 * Namespace [Aspose.Slides.Effects](../../aspose.slides.effects)
 * Assembly [Aspose.Slides](../../)
 

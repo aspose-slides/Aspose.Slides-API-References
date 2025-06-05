@@ -1,15 +1,15 @@
 ---
-title: Commentaires
-second_title: Référence de l’API Aspose.Slides pour .NET
-description: Renvoie ou définit les commentaires d'une présentation. Lecture/écriture Chaîne.
+title: Comments
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie ou définit les commentaires d'une présentation. Chaîne en lecture/écriture.
 type: docs
 weight: 60
 url: /fr/aspose.slides/documentproperties/comments/
 ---
 
-## Propriété DocumentProperties.Comments
+## DocumentProperties.Comments property
 
-Renvoie ou définit les commentaires d'une présentation. Lecture/écriture Chaîne.
+Renvoie ou définit les commentaires d'une présentation. Chaîne en lecture/écriture.
 
 ```csharp
 public string Comments { get; set; }
@@ -17,7 +17,7 @@ public string Comments { get; set; }
 
 ### Voir aussi
 
-* classe [DocumentProperties](../../documentproperties)
+* class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)
 * assembly [Aspose.Slides](../../../)
 

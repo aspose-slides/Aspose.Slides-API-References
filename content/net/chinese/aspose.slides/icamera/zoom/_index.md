@@ -1,7 +1,7 @@
 ---
-title: 缩放
-second_title: Aspose.Slides for .NET API 参考
-description: 相机缩放正值以百分比表示 读/写 单精度浮点数。
+title: Zoom
+second_title: Aspose.Sildes for .NET API Reference
+description: 相机缩放正值百分比 读/写 单精度浮点数。
 type: docs
 weight: 30
 url: /zh/aspose.slides/icamera/zoom/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/icamera/zoom/
 
 ## ICamera.Zoom 属性
 
-相机缩放（正值以百分比表示）读/写 单精度浮点数。
+相机缩放（正值百分比） 读/写 单精度浮点数。
 
 ```csharp
 public float Zoom { get; set; }

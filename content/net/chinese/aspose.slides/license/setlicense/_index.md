@@ -17,7 +17,7 @@ public void SetLicense(string licenseName)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| licenseName | String | 可以是完整或简短的文件名或嵌入资源的名称。使用空字符串切换到评估模式。 |
+| licenseName | String | 可以是完整或短文件名或嵌入资源的名称。使用空字符串切换到评估模式。 |
 
 ### 备注
 
@@ -33,7 +33,7 @@ public void SetLicense(string licenseName)
 
 5. 客户端调用程序集中的嵌入资源。
 
-**注意：**在 .NET Compact Framework 上，只会在以下位置查找许可证：
+**注意：**在 .NET Compact Framework 上，仅尝试在这些位置查找许可证：
 
 1. 显式路径。
 
@@ -41,7 +41,7 @@ public void SetLicense(string licenseName)
 
 ### 示例
 
-在此示例中，将尝试在包含组件的文件夹、调用程序集的文件夹、入口程序集的文件夹以及调用程序集的嵌入资源中查找名为 MyLicense.lic 的许可证文件。
+在此示例中，将尝试在包含组件的文件夹、包含调用程序集的文件夹、入口程序集的文件夹以及调用程序集的嵌入资源中查找名为 MyLicense.lic 的许可证文件。
 
 ```csharp
 [C#]
@@ -56,7 +56,7 @@ Dim license As License = New License
 license.SetLicense("MyLicense.lic")
 ```
 
-### 另请参见
+### 另请参阅
 
 * class [License](../../license)
 * namespace [Aspose.Slides](../../license)
@@ -95,7 +95,7 @@ Dim license as License = new License
 license.SetLicense(myStream)
 ```
 
-### 另请参见
+### 另请参阅
 
 * class [License](../../license)
 * namespace [Aspose.Slides](../../license)

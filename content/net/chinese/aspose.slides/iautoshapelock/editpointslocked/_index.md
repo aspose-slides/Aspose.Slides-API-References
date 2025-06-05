@@ -1,7 +1,7 @@
 ---
 title: EditPointsLocked
-second_title: Aspose.Slides for .NET API 参考
-description: 确定是否禁止直接更改此形状的轮廓。可读写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定是否禁止直接更改该形状的轮廓。可读写布尔值。
 type: docs
 weight: 50
 url: /zh/aspose.slides/iautoshapelock/editpointslocked/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/iautoshapelock/editpointslocked/
 
 ## IAutoShapeLock.EditPointsLocked 属性
 
-确定是否禁止直接更改此形状的轮廓。可读写布尔值。
+确定是否禁止直接更改该形状的轮廓。可读写布尔值。
 
 ```csharp
 public bool EditPointsLocked { get; set; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IAutoShapeLock](../../iautoshapelock)
 * 命名空间 [Aspose.Slides](../../iautoshapelock)

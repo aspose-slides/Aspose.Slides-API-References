@@ -27,19 +27,19 @@ public void WriteAsEmf(Stream stream)
 
 ### Exemples
 
-L'exemple suivant démontre comment enregistrer l'image SVG dans un fichier métadonnées.
+L'exemple suivant montre comment enregistrer l'image SVG dans un fichier de métadonnées.
 
 ```csharp
 [C#]
 // Crée la nouvelle image SVG
 ISvgImage svgImage = new SvgImage(System.IO.File.ReadAllText("content.svg"));
 
-// Enregistre l'image SVG en tant que fichier métadonnées
+// Enregistre l'image SVG en tant que fichier de métadonnées
 using (var fileStream = System.IO.File.OpenWrite("SvgAsEmf.emf"))
     svgImage.WriteAsEmf(fileStream);
 ```
 
-Cet exemple montre comment ajouter l'image SVG en tant que fichier métadonnées à la collection d'images de la présentation.
+Cet exemple montre comment ajouter l'image SVG en tant que fichier de métadonnées à la collection d'images de la présentation.
 
 ```csharp
 [C#]
@@ -49,9 +49,9 @@ using (Presentation pres = new Presentation())
     ISvgImage svgImage = new SvgImage(System.IO.File.ReadAllText("content.svg"));
     using (var memStream = new MemoryStream())
     {
-        // Enregistre l'image SVG en tant que fichier métadonnées
+        // Enregistre l'image SVG en tant que fichier de métadonnées
         svgImage.WriteAsEmf(memStream);
-        // Ajoute le fichier métadonnées à la collection d'images
+        // Ajoute le fichier de métadonnées à la collection d'images
         pres.Images.AddImage(memStream.ToArray());
     }
 }

@@ -1,7 +1,7 @@
 ---
 title: Labels
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Labels einer Serie zurück. Nur-Lese IDataLabelCollectionaspose.slides.charts/idatalabelcollection.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Labels einer Reihe zurück. Nur lesend IDataLabelCollectionaspose.slides.charts/idatalabelcollection.
 type: docs
 weight: 190
 url: /de/aspose.slides.charts/ichartseries/labels/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartseries/labels/
 
 ## IChartSeries.Labels-Eigenschaft
 
-Gibt die Labels einer Serie zurück. Nur-Lese [`IDataLabelCollection`](../../idatalabelcollection).
+Gibt die Labels einer Reihe zurück. Nur lesend [`IDataLabelCollection`](../../idatalabelcollection).
 
 ```csharp
 public IDataLabelCollection Labels { get; }
@@ -17,8 +17,8 @@ public IDataLabelCollection Labels { get; }
 
 ### Siehe auch
 
-* Interface [IDataLabelCollection](../../idatalabelcollection)
-* Interface [IChartSeries](../../ichartseries)
+* Schnittstelle [IDataLabelCollection](../../idatalabelcollection)
+* Schnittstelle [IChartSeries](../../ichartseries)
 * Namespace [Aspose.Slides.Charts](../../ichartseries)
 * Assembly [Aspose.Slides](../../../)
 

@@ -1,15 +1,15 @@
 ---
 title: TextSelectionStart
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit la position de départ de la sélection de texte dans le cadre de texte si le commentaire est associé à AutoShape. Lecture/écriture Int32.
+second_title: Aspose.Slides pour .NET API Reference
+description: Renvoie ou définit la position de départ de la sélection de texte dans le cadre de texte si le commentaire associé à AutoShape. Lecture/écriture Int32.
 type: docs
 weight: 50
 url: /fr/aspose.slides/imoderncomment/textselectionstart/
 ---
 
-## Propriété IModernComment.TextSelectionStart
+## IModernComment.TextSelectionStart propriété
 
-Renvoie ou définit la position de départ de la sélection de texte dans le cadre de texte si le commentaire est associé à AutoShape. Lecture/écriture Int32.
+Renvoie ou définit la position de départ de la sélection de texte dans le cadre de texte si le commentaire associé à AutoShape. Lecture/écriture Int32.
 
 ```csharp
 public int TextSelectionStart { get; set; }

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/hsl/geteffective/
 ---
+
 ## HSL.GetEffective method
 
 Gets effective Hue/Saturation/Luminance effect data with the inheritance applied.

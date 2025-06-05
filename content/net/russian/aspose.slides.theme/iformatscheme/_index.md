@@ -1,6 +1,6 @@
 ---
 title: IFormatScheme
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Хранит форматы, определенные темой, для фигур.
 type: docs
 weight: 10960
@@ -20,12 +20,12 @@ public interface IFormatScheme : ISlideComponent
 | Имя | Описание |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides.theme/iformatscheme/asislidecomponent) { get; } | Позволяет получить базовый интерфейс ISlideComponent. Только для чтения [`ISlideComponent`](../../aspose.slides/islidecomponent). |
-| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | Возвращает коллекцию стилей заливки фона, определенных темой. Только для чтения [`IFillFormatCollection`](../ifillformatcollection). |
+| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | Возвращает коллекцию стилей заполнения фона, определенных темой. Только для чтения [`IFillFormatCollection`](../ifillformatcollection). |
 | [EffectStyles](../../aspose.slides.theme/iformatscheme/effectstyles) { get; } | Возвращает коллекцию стилей эффектов, определенных темой. Только для чтения [`IEffectStyleCollection`](../ieffectstylecollection). |
-| [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | Возвращает коллекцию стилей заливки, определенных темой. Только для чтения [`IFillFormatCollection`](../ifillformatcollection). |
+| [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | Возвращает коллекцию стилей заполнения, определенных темой. Только для чтения [`IFillFormatCollection`](../ifillformatcollection). |
 | [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | Возвращает коллекцию стилей линий, определенных темой. Только для чтения [`ILineFormatCollection`](../ilineformatcollection). |
 
-### Также см. 
+### См. также
 
 * интерфейс [ISlideComponent](../../aspose.slides/islidecomponent)
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)

@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Удаляет эффект из коллекции.
 type: docs
 weight: 110
 url: /ru/aspose.slides.animation/isequence/removeat/
 ---
 
-## Метод ISequence.RemoveAt
+## ISequence.RemoveAt метод
 
 Удаляет эффект из коллекции.
 
@@ -17,7 +17,7 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс эффекта для удаления Int32 |
+| index | Int32 | Индекс эффекта, который нужно удалить Int32 |
 
 ### См. также
 

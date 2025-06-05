@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.export/slideimageformat/svg/
 ---
+
 ## SlideImageFormat.Svg method
 
 Slides should converted to a SVG format.

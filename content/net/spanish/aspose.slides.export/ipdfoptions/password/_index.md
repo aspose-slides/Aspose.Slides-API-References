@@ -1,15 +1,15 @@
 ---
-title: Contraseña
+title: Password
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Establecer una contraseña de usuario para proteger el documento PDF. Cadena de lectura/escritura.
+description: Establecer la contraseña del usuario para proteger el documento PDF. Lectura/escritura String.
 type: docs
 weight: 140
 url: /es/aspose.slides.export/ipdfoptions/password/
 ---
 
-## Propiedad IPdfOptions.Password
+## IPdfOptions.Password property
 
-Establecer una contraseña de usuario para proteger el documento PDF. Cadena de lectura/escritura.
+Establecer la contraseña del usuario para proteger el documento PDF. Lectura/escritura String.
 
 ```csharp
 public string Password { get; set; }
@@ -17,8 +17,8 @@ public string Password { get; set; }
 
 ### Ver También
 
-* interfaz [IPdfOptions](../../ipdfoptions)
-* espacio de nombres [Aspose.Slides.Export](../../ipdfoptions)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IPdfOptions](../../ipdfoptions)
+* namespace [Aspose.Slides.Export](../../ipdfoptions)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

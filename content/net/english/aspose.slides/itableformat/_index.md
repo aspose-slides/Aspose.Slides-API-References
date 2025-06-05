@@ -3,9 +3,10 @@ title: ITableFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents format of a table.
 type: docs
-weight: 6790
+weight: 7020
 url: /aspose.slides/itableformat/
 ---
+
 ## ITableFormat interface
 
 Represents format of a table.
@@ -19,6 +20,7 @@ public interface ITableFormat
 | Name | Description |
 | --- | --- |
 | [FillFormat](../../aspose.slides/itableformat/fillformat) { get; } | Returns a table fill properties object. Read-only [`IFillFormat`](../ifillformat). |
+| [Transparency](../../aspose.slides/itableformat/transparency) { get; set; } | Gets or sets the transparency of the fill color. Read/write Single. |
 
 ## Methods
 

@@ -1,7 +1,7 @@
 ---
-title: 相关宽度比例
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置相对于原始图片大小的图片框的宽度比例。值 1.0 对应于 100。可读/写 单精度浮点数。
+title: RelativeScaleWidth
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置图像框宽度相对于原始图像大小的缩放比例。值 1.0 对应于 100。读/写单精度浮点数。
 type: docs
 weight: 50
 url: /zh/aspose.slides/ipictureframe/relativescalewidth/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ipictureframe/relativescalewidth/
 
 ## IPictureFrame.RelativeScaleWidth 属性
 
-返回或设置图片框的宽度比例（相对于原始图片大小）。值 1.0 对应于 100%。可读/写 单精度浮点数。
+返回或设置图像框的宽度缩放比例（相对于原始图像大小）。值 1.0 对应于 100%。读/写单精度浮点数。
 
 ```csharp
 public float RelativeScaleWidth { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IPictureFrame](../../ipictureframe)
 * 命名空间 [Aspose.Slides](../../ipictureframe)

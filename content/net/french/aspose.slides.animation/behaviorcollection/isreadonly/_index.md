@@ -15,11 +15,11 @@ Obtient une valeur indiquant si l'ICollection est en lecture seule. Booléen en 
 public bool IsReadOnly { get; }
 ```
 
-### Valeur de Retour
+### Valeur de retour
 
 true si l'ICollection est en lecture seule ; sinon, false.
 
-### Voir Aussi
+### Voir aussi
 
 * classe [BehaviorCollection](../../behaviorcollection)
 * espace de noms [Aspose.Slides.Animation](../../behaviorcollection)

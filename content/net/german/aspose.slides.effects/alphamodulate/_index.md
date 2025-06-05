@@ -1,7 +1,7 @@
 ---
 title: AlphaModulate
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt einen Alpha Modulate-Effekt dar. Die Alpha-Opazitätswerte des Effekts werden mit einem festen Prozentsatz multipliziert. Der Effektcontainer spezifiziert einen Effekt, der Alpha-Werte zur Modulation enthält.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt einen Alpha Modulate-Effekt dar. Die Alpha-Transparenzwerte des Effekts werden mit einem festen Prozentsatz multipliziert. Der Effektcontainer gibt einen Effekt an, der Alpha-Werte zur Modulation enthält.
 type: docs
 weight: 2790
 url: /de/aspose.slides.effects/alphamodulate/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/alphamodulate/
 
 ## AlphaModulate-Klasse
 
-Stellt einen Alpha Modulate-Effekt dar. Die Alpha- (Opazitäts-) Werte des Effekts werden mit einem festen Prozentsatz multipliziert. Der Effektcontainer spezifiziert einen Effekt, der Alpha-Werte zur Modulation enthält.
+Stellt einen Alpha Modulate-Effekt dar. Die Alpha- (Transparenz-) Werte des Effekts werden mit einem festen Prozentsatz multipliziert. Der Effektcontainer gibt einen Effekt an, der Alpha-Werte zur Modulation enthält.
 
 ```csharp
 public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
@@ -19,14 +19,14 @@ public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht den Zugriff auf die Basis-IPresentationComponent-Schnittstelle. Nur zum Lesen [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht den Zugriff auf die basale IPresentationComponent-Schnittstelle. Nur-Lese [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphamodulate/equals)(object) | Bestimmt, ob das angegebene [`AlphaModulate`](../alphamodulate) gleich dem aktuellen [`AlphaModulate`](../alphamodulate) ist. |
-| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | Erhält die effektiven Alpha Modulate-Effektdaten mit der angewandten Vererbung. |
+| override [Equals](../../aspose.slides.effects/alphamodulate/equals)(object) | Bestimmt, ob der angegebene [`AlphaModulate`](../alphamodulate) gleich dem aktuellen [`AlphaModulate`](../alphamodulate) ist. |
+| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | Gibt die effektiven Alpha Modulate-Effektdaten mit der angewendeten Vererbung zurück. |
 | override [GetHashCode](../../aspose.slides.effects/alphamodulate/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ. |
 
 ### Siehe auch

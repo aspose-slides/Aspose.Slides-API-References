@@ -1,6 +1,6 @@
 ---
 title: PresentationInfo
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Informations sur le fichier de présentation
 type: docs
 weight: 9350
@@ -19,7 +19,7 @@ public sealed class PresentationInfo : IPresentationInfo
 
 | Nom | Description |
 | --- | --- |
-| [IsEncrypted](../../aspose.slides/presentationinfo/isencrypted) { get; } | Renvoie True si la présentation liée est cryptée, sinon False. Lecture seule, Boolean. |
+| [IsEncrypted](../../aspose.slides/presentationinfo/isencrypted) { get; } | Renvoie True si la présentation liée est cryptée, sinon False. Lecture seule Boolean. |
 | [IsPasswordProtected](../../aspose.slides/presentationinfo/ispasswordprotected) { get; } | Renvoie une valeur qui indique si une présentation liée est protégée par un mot de passe pour l'ouvrir. |
 | [IsWriteProtected](../../aspose.slides/presentationinfo/iswriteprotected) { get; } | Renvoie une valeur qui indique si une présentation liée est protégée en écriture. |
 | [LoadFormat](../../aspose.slides/presentationinfo/loadformat) { get; } | Renvoie le format de la présentation liée. Lecture seule [`LoadFormat`](../loadformat). |
@@ -29,10 +29,10 @@ public sealed class PresentationInfo : IPresentationInfo
 | Nom | Description |
 | --- | --- |
 | [CheckPassword](../../aspose.slides/presentationinfo/checkpassword)(string) | Vérifie si un mot de passe est correct pour une présentation protégée par un mot de passe d'ouverture. |
-| [CheckWriteProtection](../../aspose.slides/presentationinfo/checkwriteprotection)(string) | Vérifie si un mot de passe pour modifier est correct pour une présentation protégée en écriture. |
-| [ReadDocumentProperties](../../aspose.slides/presentationinfo/readdocumentproperties)() | Renvoie les propriétés du document de la présentation liée. |
+| [CheckWriteProtection](../../aspose.slides/presentationinfo/checkwriteprotection)(string) | Vérifie si un mot de passe de modification est correct pour une présentation protégée en écriture. |
+| [ReadDocumentProperties](../../aspose.slides/presentationinfo/readdocumentproperties)() | Obtient les propriétés du document de la présentation liée. |
 | [UpdateDocumentProperties](../../aspose.slides/presentationinfo/updatedocumentproperties)(IDocumentProperties) | Met à jour les propriétés de la présentation liée. |
-| [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | Écrit la présentation liée dans le flux. |
+| [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | Écrit la présentation liée dans un flux. |
 | [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation#writebindedpresentation_1)(string) | Écrit la présentation liée dans un fichier. |
 
 ### Voir aussi

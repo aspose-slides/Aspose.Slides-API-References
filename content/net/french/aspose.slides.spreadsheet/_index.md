@@ -1,6 +1,6 @@
 ---
 title: Aspose.Slides.Spreadsheet
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Contient des classes pour travailler avec des objets de feuille de calcul dans des présentations Microsoft PowerPoint.
 type: docs
 weight: 150
@@ -13,7 +13,7 @@ Contient des classes pour travailler avec des objets de feuille de calcul dans d
 
 | Classe | Description |
 | --- | --- |
-| [CellCircularReferenceException](./cellcircularreferenceexception) | L'exception qui est levée lorsqu'une ou plusieurs références circulaires sont détectées là où une formule se réfère à sa propre cellule, soit directement, soit indirectement. |
+| [CellCircularReferenceException](./cellcircularreferenceexception) | L'exception qui est levée lorsqu'une ou plusieurs références circulaires sont détectées, où une formule se réfère à sa propre cellule directement ou indirectement. |
 | [CellInvalidFormulaException](./cellinvalidformulaexception) | L'exception qui est levée lorsqu'une formule calculée n'est pas correcte ou n'a pas été analysée. |
 | [CellInvalidReferenceException](./cellinvalidreferenceexception) | L'exception qui est levée lorsqu'une référence de cellule invalide est rencontrée. |
 | [CellUnsupportedDataException](./cellunsupporteddataexception) | L'exception qui est levée lorsqu'une donnée non prise en charge est rencontrée dans une cellule de feuille de calcul. |

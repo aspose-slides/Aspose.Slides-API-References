@@ -19,7 +19,7 @@ public sealed class TableFormat : DomObject<Table>, ITableFormat
 
 | Nombre | Descripción |
 | --- | --- |
-| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | Devuelve un objeto de propiedades de relleno de la tabla. Solo lectura [`IFillFormat`](../ifillformat). |
+| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | Devuelve un objeto de propiedades de relleno de tabla. Solo lectura [`IFillFormat`](../ifillformat). |
 | [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | Obtiene o establece la transparencia del color de relleno. Lectura/escritura Single. |
 
 ## Métodos

@@ -19,7 +19,7 @@ public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignat
 
 | Nombre | Descripción |
 | --- | --- |
-| [Item](../../aspose.slides/idigitalsignaturecollection/item) { get; } | Retorna la firma por índice. |
+| [Item](../../aspose.slides/idigitalsignaturecollection/item) { get; } | Devuelve la firma por índice. |
 
 ## Métodos
 

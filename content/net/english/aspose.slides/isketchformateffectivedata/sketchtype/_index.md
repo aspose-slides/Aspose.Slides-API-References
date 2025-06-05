@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/isketchformateffectivedata/sketchtype/
 ---
+
 ## ISketchFormatEffectiveData.SketchType property
 
 Returns the sketch type. Read only [`LineSketchType`](../../linesketchtype).

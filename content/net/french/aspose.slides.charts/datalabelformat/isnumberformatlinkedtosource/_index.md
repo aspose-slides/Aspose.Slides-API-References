@@ -1,13 +1,13 @@
 ---
 title: IsNumberFormatLinkedToSource
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes for .NET API Reference
 description: Lire/écrire un booléen.
 type: docs
 weight: 30
 url: /fr/aspose.slides.charts/datalabelformat/isnumberformatlinkedtosource/
 ---
 
-## Propriété DataLabelFormat.IsNumberFormatLinkedToSource
+## DataLabelFormat.IsNumberFormatLinkedToSource propriété
 
 Lire/écrire un booléen.
 
@@ -17,9 +17,9 @@ public bool IsNumberFormatLinkedToSource { get; set; }
 
 ### Remarques
 
-Si le parent de cet objet DataLabelFormat est une collection DataLabelCollection de labels de données, alors cette propriété obtient ou définit la valeur par défaut de la propriété IsNumberFormatLinkedToSource pour les nouveaux labels de données dans la collection DataLabelCollection. Définir cette propriété avec une valeur définit également cette valeur à la propriété IsNumberFormatLinkedToSource pour tous les labels de données dans la collection DataLabelCollection (c'est-à-dire que "DataLabels.DefaultDataLabelFormat.IsNumberFormatLinkedToSource = val;" entraîne que tous DataLabels[i].IsNumberFormatLinkedToSource est égal à val).
+Si le parent de cet objet DataLabelFormat est une collection DataLabelCollection de labels de données, alors cette propriété obtient ou définit la valeur par défaut de la propriété IsNumberFormatLinkedToSource pour les nouveaux labels de données dans la collection DataLabelCollection. Définir cette propriété avec une valeur définit également cette valeur pour la propriété IsNumberFormatLinkedToSource pour tous les labels de données dans la collection DataLabelCollection (c'est-à-dire "DataLabels.DefaultDataLabelFormat.IsNumberFormatLinkedToSource = val;" entraîne que tous les DataLabels[i].IsNumberFormatLinkedToSource soit égal à val).
 
-### Voir également
+### Voir Aussi
 
 * classe [DataLabelFormat](../../datalabelformat)
 * espace de noms [Aspose.Slides.Charts](../../datalabelformat)

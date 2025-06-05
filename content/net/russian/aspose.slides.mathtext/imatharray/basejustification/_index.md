@@ -1,7 +1,7 @@
 ---
 title: BaseJustification
-second_title: Aspose.Slides для .NET API Справочник
-description: Указывает выравнивание массива относительно окружающего текста. Текст вне массива может быть выровнен по низу, верху или центру объекта массива. Значение по умолчанию Центр
+second_title: Aspose.Sildes для .NET API Справочник
+description: Указывает выравнивание массива относительно окружающего текста. Текст вне массива может быть выровнен относительно нижней, верхней или центральной части объекта массива. Значение по умолчанию Центр
 type: docs
 weight: 30
 url: /ru/aspose.slides.mathtext/imatharray/basejustification/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/imatharray/basejustification/
 
 ## IMathArray.BaseJustification свойство
 
-Указывает выравнивание массива относительно окружающего текста. Текст вне массива может быть выровнен по низу, верху или центру объекта массива. Значение по умолчанию: Центр
+Указывает выравнивание массива относительно окружающего текста. Текст вне массива может быть выровнен относительно нижней, верхней или центральной части объекта массива. Значение по умолчанию: Центр
 
 ```csharp
 public MathVerticalAlignment BaseJustification { get; set; }
@@ -25,7 +25,7 @@ IMathArray mathArray = new MathArray(new MathematicalText("item1"));
 mathArray.BaseJustification = MathVerticalAlignment.Top;
 ```
 
-### См. также
+### Также см.
 
 * enum [MathVerticalAlignment](../../mathverticalalignment)
 * interface [IMathArray](../../imatharray)

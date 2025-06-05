@@ -1,24 +1,24 @@
 ---
 title: AsIBaseTableFormatEffectiveData
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf das Basisinterface IBaseTableFormatEffectiveData. Schreibgeschütztes IBaseTableFormatEffectiveDataaspose.slides/ibasetableformateffectivedata.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ermöglicht das Abrufen der Basis-IBaseTableFormatEffectiveData-Schnittstelle. Nur-lesbare IBaseTableFormatEffectiveData aspose.slides/ibasetableformateffectivedata.
 type: docs
 weight: 10
 url: /de/aspose.slides/itableformateffectivedata/asibasetableformateffectivedata/
 ---
 
-## ITableFormatEffectiveData.AsIBaseTableFormatEffectiveData-Eigenschaft
+## ITableFormatEffectiveData.AsIBaseTableFormatEffectiveData property
 
-Ermöglicht den Zugriff auf das Basisinterface IBaseTableFormatEffectiveData. Schreibgeschütztes [`IBaseTableFormatEffectiveData`](../../ibasetableformateffectivedata).
+Ermöglicht das Abrufen der Basis-IBaseTableFormatEffectiveData-Schnittstelle. Nur-lesbare [`IBaseTableFormatEffectiveData`](../../ibasetableformateffectivedata).
 
 ```csharp
 public IBaseTableFormatEffectiveData AsIBaseTableFormatEffectiveData { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
-* Interface [IBaseTableFormatEffectiveData](../../ibasetableformateffectivedata)
-* Interface [ITableFormatEffectiveData](../../itableformateffectivedata)
+* Schnittstelle [IBaseTableFormatEffectiveData](../../ibasetableformateffectivedata)
+* Schnittstelle [ITableFormatEffectiveData](../../itableformateffectivedata)
 * Namespace [Aspose.Slides](../../itableformateffectivedata)
 * Assembly [Aspose.Slides](../../../)
 

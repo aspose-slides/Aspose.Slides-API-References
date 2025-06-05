@@ -1,12 +1,12 @@
 ---
 title: HandleRepeatedSpaces
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: type docs
 weight: 50
 url: /de/aspose.slides.export/markdownsaveoptions/handlerepeatedspaces/
 ---
 
-## MarkdownSaveOptions.HandleRepeatedSpaces-Eigenschaft
+## MarkdownSaveOptions.HandleRepeatedSpaces Eigenschaft
 
 ```csharp
 public HandleRepeatedSpaces HandleRepeatedSpaces { get; set; }

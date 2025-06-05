@@ -1,15 +1,15 @@
 ---
 title: SetAllHeadersVisibility
 second_title: Aspose.Slides for .NET API Reference
-description: 更改所有页眉占位符的可见性，包括备注母版、备注幻灯片和讲义母版。
+description: 修改所有页眉占位符的可见性，包括备注主控件、备注幻灯片和讲义主控件。
 type: docs
 weight: 60
 url: /zh/aspose.slides/presentationheaderfootermanager/setallheadersvisibility/
 ---
 
-## PresentationHeaderFooterManager.SetAllHeadersVisibility 方法
+## PresentationHeaderFooterManager.SetAllHeadersVisibility method
 
-更改所有页眉占位符的可见性，包括备注母版、备注幻灯片和讲义母版。
+修改所有页眉占位符的可见性，包括备注主控件、备注幻灯片和讲义主控件。
 
 ```csharp
 public void SetAllHeadersVisibility(bool isVisible)
@@ -17,9 +17,9 @@ public void SetAllHeadersVisibility(bool isVisible)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| isVisible | Boolean | true - 使页眉占位符可见，否则 - 隐藏它们。 |
+| isVisible | Boolean | true - 使页眉占位符可见，false - 隐藏它们。 |
 
-### 另请参阅
+### 另见
 
 * class [PresentationHeaderFooterManager](../../presentationheaderfootermanager)
 * namespace [Aspose.Slides](../../presentationheaderfootermanager)

@@ -1,13 +1,13 @@
 ---
 title: ThrowIfInterruptionRequested
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Lance une OperationCanceledException si une interruption a été demandée. Lancé lorsque l'interruption a été demandée.
 type: docs
 weight: 20
 url: /fr/aspose.slides/iinterruptiontoken/throwifinterruptionrequested/
 ---
 
-## Méthode IInterruptionToken.ThrowIfInterruptionRequested
+## IInterruptionToken.ThrowIfInterruptionRequested méthode
 
 Lance une OperationCanceledException si une interruption a été demandée. Lancé lorsque l'interruption a été demandée.
 
@@ -15,7 +15,7 @@ Lance une OperationCanceledException si une interruption a été demandée. Lanc
 public void ThrowIfInterruptionRequested()
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IInterruptionToken](../../iinterruptiontoken)
 * namespace [Aspose.Slides](../../iinterruptiontoken)

@@ -1,6 +1,6 @@
 ---
-title: MargenDerecho
-second_title: Referencia de API de Aspose.Slides para .NET
+title: MarginRight
+second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve o establece el margen derecho en un párrafo sin herencia. Lectura/escritura Single.
 type: docs
 weight: 100
@@ -15,10 +15,10 @@ Devuelve o establece el margen derecho en un párrafo sin herencia. Lectura/escr
 public float MarginRight { get; set; }
 ```
 
-### Ver También
+### Véase También
 
 * clase [ParagraphFormat](../../paragraphformat)
 * espacio de nombres [Aspose.Slides](../../paragraphformat)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

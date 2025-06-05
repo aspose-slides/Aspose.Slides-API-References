@@ -1,6 +1,6 @@
 ---
-title: УдалитьСтроку
-second_title: Aspose.Slides для .NET API Reference
+title: DeleteRow
+second_title: Aspose.Sildes for .NET API Reference
 description: Удаляет указанную строку
 type: docs
 weight: 130
@@ -36,7 +36,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.DeleteRow(0);
 ```
 
-### См. Также
+### Смотрите Также
 
 * класс [MathMatrix](../../mathmatrix)
 * пространство имен [Aspose.Slides.MathText](../../mathmatrix)

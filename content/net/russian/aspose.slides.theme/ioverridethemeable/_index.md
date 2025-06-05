@@ -1,7 +1,7 @@
 ---
 title: IOverrideThemeable
-second_title: Aspose.Sildes для .NET API Reference
-description: Представляет менеджер переопределения тем.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет менеджер замены темы.
 type: docs
 weight: 11050
 url: /ru/aspose.slides.theme/ioverridethemeable/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.theme/ioverridethemeable/
 
 ## Интерфейс IOverrideThemeable
 
-Представляет менеджер переопределения тем.
+Представляет менеджер замены темы.
 
 ```csharp
 public interface IOverrideThemeable : IThemeable
@@ -20,7 +20,7 @@ public interface IOverrideThemeable : IThemeable
 | Имя | Описание |
 | --- | --- |
 | [AsIThemeable](../../aspose.slides.theme/ioverridethemeable/asithemeable) { get; } | Возвращает интерфейс IThemeable. Только для чтения [`IThemeable`](../ithemeable). |
-| [ThemeManager](../../aspose.slides.theme/ioverridethemeable/thememanager) { get; } | Возвращает менеджер переопределения тем. Только для чтения [`IOverrideThemeManager`](../ioverridethememanager). |
+| [ThemeManager](../../aspose.slides.theme/ioverridethemeable/thememanager) { get; } | Возвращает менеджер замены темы. Только для чтения [`IOverrideThemeManager`](../ioverridethememanager). |
 
 ### См. также
 

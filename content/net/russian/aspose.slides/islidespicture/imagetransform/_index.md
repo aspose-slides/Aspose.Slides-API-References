@@ -1,15 +1,15 @@
 ---
 title: ImageTransform
 second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает коллекцию эффектов преобразования изображений. Только для чтения IImageTransformOperationCollectionaspose.slides.effects/iimagetransformoperationcollection.
+description: Возвращает коллекцию эффектов трансформации изображений. Только для чтения IImageTransformOperationCollectionaspose.slides.effects/iimagetransformoperationcollection.
 type: docs
 weight: 30
 url: /ru/aspose.slides/islidespicture/imagetransform/
 ---
 
-## Свойство ISlidesPicture.ImageTransform
+## ISlidesPicture.ImageTransform свойство
 
-Возвращает коллекцию эффектов преобразования изображений. Только для чтения [`IImageTransformOperationCollection`](../../../aspose.slides.effects/iimagetransformoperationcollection).
+Возвращает коллекцию эффектов трансформации изображений. Только для чтения [`IImageTransformOperationCollection`](../../../aspose.slides.effects/iimagetransformoperationcollection).
 
 ```csharp
 public IImageTransformOperationCollection ImageTransform { get; }

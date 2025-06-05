@@ -28,7 +28,7 @@ MathLeftSubSuperscriptElement leftSubSuperscript = new MathLeftSubSuperscriptEle
 IMathElement sub = leftSubSuperscript.Subscript;
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IMathElement](../../imathelement)
 * Schnittstelle [IMathLeftSubSuperscriptElement](../../imathleftsubsuperscriptelement)

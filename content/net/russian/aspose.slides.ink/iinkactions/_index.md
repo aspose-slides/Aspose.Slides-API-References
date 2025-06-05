@@ -1,6 +1,6 @@
 ---
 title: IInkActions
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Slides для .NET API Справка
 description: Представляет объект чернил на слайде.
 type: docs
 weight: 7290
@@ -21,7 +21,7 @@ public interface IInkActions : IGraphicalObject
 | --- | --- |
 | [AsIGraphicalObject](../../aspose.slides.ink/iinkactions/asigraphicalobject) { get; } | Позволяет получить базовый интерфейс IGraphicalObject. Только для чтения [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
 
-### Смотрите также
+### Также см. 
 
 * интерфейс [IGraphicalObject](../../aspose.slides/igraphicalobject)
 * пространство имен [Aspose.Slides.Ink](../../aspose.slides.ink)

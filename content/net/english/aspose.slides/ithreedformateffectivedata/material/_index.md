@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/ithreedformateffectivedata/material/
 ---
+
 ## IThreeDFormatEffectiveData.Material property
 
 Returns the type of a material. Read-only [`MaterialPresetType`](../../materialpresettype).

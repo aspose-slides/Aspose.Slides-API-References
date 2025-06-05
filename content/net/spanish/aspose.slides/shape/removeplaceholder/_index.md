@@ -1,6 +1,6 @@
 ---
 title: RemovePlaceholder
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Define que esta forma no es un marcador de posición.
 type: docs
 weight: 360
@@ -15,10 +15,10 @@ Define que esta forma no es un marcador de posición.
 public void RemovePlaceholder()
 ```
 
-### Véase también
+### Ver también
 
 * clase [Shape](../../shape)
 * espacio de nombres [Aspose.Slides](../../shape)
 * ensamblaje [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->

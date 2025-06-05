@@ -1,13 +1,13 @@
 ---
-title: Supprimer
-second_title: Référence API Aspose.Slides pour .NET
+title: Remove
+second_title: Aspose.Slides pour la référence API .NET
 description: Supprime la première occurrence d'une règle FallBack spécifique de la collection.
 type: docs
 weight: 30
 url: /fr/aspose.slides/ifontfallbackrulescollection/remove/
 ---
 
-## Méthode IFontFallBackRulesCollection.Remove
+## IFontFallBackRulesCollection.Remove méthode
 
 Supprime la première occurrence d'une règle FallBack spécifique de la collection.
 
@@ -25,7 +25,7 @@ public void Remove(IFontFallBackRule targetRule)
 [C#]
 using (Presentation pres = new Presentation ())
 {
-    //Obtention d'une collection de règles vide ou préinitialisée depuis FontsManager
+    //Obtention d'une collection de règles vide ou préinitialisée à partir de FontsManager
     IFontFallBackRulesCollection rulesList = pres.FontsManager.FontFallBackRulesCollection;
 
     //Ajout de plusieurs règles à la collection
@@ -34,7 +34,7 @@ using (Presentation pres = new Presentation ())
 
     //Récupération de l'objet de la première règle dans la collection
     IFontFallBackRule firstRule = rulesList[0];
-    //Suppression
+    //Suppression 
     rulesList.Remove (firstRule);
 }
 ```

@@ -1,15 +1,15 @@
 ---
 title: RemoveUnusedLayoutSlides
 second_title: Aspose.Slides für .NET API-Referenz
-description: Führt eine Komprimierung der Presentation durch, indem unbenutzte Layout-Folien entfernt werden.
+description: Führt die Komprimierung der Präsentation aspose.slides/presentation durch, indem nicht verwendete Layoutfolien entfernt werden.
 type: docs
 weight: 20
 url: /de/aspose.slides.lowcode/compress/removeunusedlayoutslides/
 ---
 
-## Compress.RemoveUnusedLayoutSlides-Methode
+## Compress.RemoveUnusedLayoutSlides Methode
 
-Führt eine Komprimierung der [`Presentation`](../../../aspose.slides/presentation) durch, indem unbenutzte Layout-Folien entfernt werden.
+Führt die Komprimierung der [`Presentation`](../../../aspose.slides/presentation) durch, indem nicht verwendete Layoutfolien entfernt werden.
 
 ```csharp
 public static void RemoveUnusedLayoutSlides(Presentation pres)
@@ -30,7 +30,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [Presentation](../../../aspose.slides/presentation)
 * Klasse [Compress](../../compress)

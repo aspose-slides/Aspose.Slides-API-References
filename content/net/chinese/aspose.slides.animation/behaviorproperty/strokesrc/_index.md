@@ -1,6 +1,6 @@
 ---
 title: StrokeSrc
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示 stroke.src 属性
 type: docs
 weight: 1000
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/behaviorproperty/strokesrc/
 public static BehaviorProperty StrokeSrc { get; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * class [BehaviorProperty](../../behaviorproperty)
 * namespace [Aspose.Slides.Animation](../../behaviorproperty)

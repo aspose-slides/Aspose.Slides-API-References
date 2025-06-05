@@ -1,6 +1,6 @@
 ---
 title: TextAnchorType
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve o establece el tipo de anclaje de texto. Lectura/escritura TextAnchorTypeaspose.slides/textanchortype.
 type: docs
 weight: 210
@@ -15,7 +15,7 @@ Devuelve o establece el tipo de anclaje de texto. Lectura/escritura [`TextAnchor
 public TextAnchorType TextAnchorType { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * enum [TextAnchorType](../../textanchortype)
 * class [Cell](../../cell)

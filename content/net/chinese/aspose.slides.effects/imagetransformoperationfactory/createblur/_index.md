@@ -1,6 +1,6 @@
 ---
 title: CreateBlur
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建模糊效果。
 type: docs
 weight: 100
@@ -18,13 +18,13 @@ public IBlur CreateBlur(double radius, bool grow)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | radius | Double | 半径。 |
-| grow | Boolean | 增长。 |
+| grow | Boolean | 扩展。 |
 
 ### 返回值
 
 模糊效果。
 
-### 另见
+### 另请参阅
 
 * 接口 [IBlur](../../iblur)
 * 类 [ImageTransformOperationFactory](../../imagetransformoperationfactory)

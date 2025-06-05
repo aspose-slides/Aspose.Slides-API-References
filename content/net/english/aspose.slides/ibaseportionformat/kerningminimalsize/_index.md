@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides/ibaseportionformat/kerningminimalsize/
 ---
+
 ## IBasePortionFormat.KerningMinimalSize property
 
 Returns or sets the minimal font size, for which kerning should be switched on. **float.NaN** means value is undefined and should be inherited from the Master. Read/write Single.

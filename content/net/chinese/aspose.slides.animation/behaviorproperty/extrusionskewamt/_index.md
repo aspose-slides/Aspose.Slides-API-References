@@ -1,6 +1,6 @@
 ---
 title: ExtrusionSkewAmt
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Slides for .NET API 参考
 description: 表示 extrusion.skewamt 属性
 type: docs
 weight: 190
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/behaviorproperty/extrusionskewamt/
 public static BehaviorProperty ExtrusionSkewAmt { get; }
 ```
 
-### 参见
+### 另见
 
 * class [BehaviorProperty](../../behaviorproperty)
 * namespace [Aspose.Slides.Animation](../../behaviorproperty)

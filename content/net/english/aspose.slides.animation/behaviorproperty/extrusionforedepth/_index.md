@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.animation/behaviorproperty/extrusionforedepth/
 ---
+
 ## BehaviorProperty.ExtrusionForeDepth property
 
 Represents 'extrusion.foredepth' property

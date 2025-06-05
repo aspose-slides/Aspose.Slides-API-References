@@ -1,7 +1,7 @@
 ---
 title: IPresentationComponent
 second_title: Aspose.Slides für .NET API Referenz
-description: Stellt ein Element einer Präsentation dar.
+description: Stellt eine Komponente einer Präsentation dar.
 type: docs
 weight: 6560
 url: /de/aspose.slides/ipresentationcomponent/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ipresentationcomponent/
 
 ## IPresentationComponent-Schnittstelle
 
-Stellt ein Element einer Präsentation dar.
+Stellt eine Komponente einer Präsentation dar.
 
 ```csharp
 public interface IPresentationComponent

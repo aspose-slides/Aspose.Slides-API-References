@@ -19,7 +19,7 @@ public void InitFormatScheme()
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | Lancé si le FormatScheme est déjà initialisé (non nul). |
+| InvalidOperationException | Déclenchée si le FormatScheme est déjà initialisé (non nul). |
 
 ### Voir aussi
 

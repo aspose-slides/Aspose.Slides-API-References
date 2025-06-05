@@ -1,6 +1,6 @@
 ---
 title: CopyTo
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: In angegebenes Array kopieren.
 type: docs
 weight: 280
@@ -18,7 +18,7 @@ public void CopyTo(Array array, int arrayIndex)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | array | Array | Array, in das kopiert werden soll. |
-| arrayIndex | Int32 | Index, von dem aus das Kopieren beginnen soll. |
+| arrayIndex | Int32 | Index, an dem das Kopieren beginnen soll. |
 
 ### Siehe auch
 

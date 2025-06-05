@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.smartart/smartartnodecollection/removenode/
 ---
+
 ## RemoveNode(int) {#removenode_1}
 
 Remove node or sub node by index

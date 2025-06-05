@@ -1,7 +1,7 @@
 ---
-title: 旋转
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置指定形状绕 z 轴旋转的度数。正值表示顺时针旋转，负值表示逆时针旋转。可读/可写单精度浮点数。
+title: Rotation
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置指定图形围绕 z 轴旋转的角度（以度为单位）。正值表示顺时针旋转，负值表示逆时针旋转。可读/可写单精度浮点数。
 type: docs
 weight: 240
 url: /zh/aspose.slides/shape/rotation/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/shape/rotation/
 
 ## Shape.Rotation 属性
 
-返回或设置指定形状绕 z 轴旋转的度数。正值表示顺时针旋转；负值表示逆时针旋转。可读/可写单精度浮点数。
+返回或设置指定图形围绕 z 轴旋转的角度（以度为单位）。正值表示顺时针旋转；负值表示逆时针旋转。可读/可写单精度浮点数。
 
 ```csharp
 public float Rotation { get; set; }
@@ -17,7 +17,7 @@ public float Rotation { get; set; }
 
 ### 备注
 
-返回值始终是定义的（不是 float.NaN）。赋值必须是定义的（不是 float.NaN）。您可以为 RawFrame 实例属性设置未定义的值。
+返回的值始终是定义的（不是 float.NaN）。赋值必须是定义的（不是 float.NaN）。您可以为 RawFrame 实例属性设置未定义值。
 
 ### 另请参阅
 

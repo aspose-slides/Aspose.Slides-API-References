@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/chartwall/format/
 ---
+
 ## ChartWall.Format property
 
 Returns the wall fill, line, effect, 3d styles. Read-only [`IFormat`](../../iformat).

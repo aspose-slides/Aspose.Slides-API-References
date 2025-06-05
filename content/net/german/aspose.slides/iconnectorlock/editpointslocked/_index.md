@@ -1,21 +1,21 @@
 ---
 title: EditPointsLocked
-second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob eine direkte Änderung des Konturs dieser Form verboten ist. Lese-/Schreibbare Boolesche Variable.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Bestimmt, ob eine direkte Änderung des Kontours dieser Form verboten ist. Lese-/Schreib-Boolean.
 type: docs
 weight: 50
 url: /de/aspose.slides/iconnectorlock/editpointslocked/
 ---
 
-## IConnectorLock.EditPointsLocked Eigenschaft
+## IConnectorLock.EditPointsLocked-Eigenschaft
 
-Bestimmt, ob eine direkte Änderung des Konturs dieser Form verboten ist. Lese-/Schreibbare Boolesche Variable.
+Bestimmt, ob eine direkte Änderung des Kontours dieser Form verboten ist. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool EditPointsLocked { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IConnectorLock](../../iconnectorlock)
 * Namespace [Aspose.Slides](../../iconnectorlock)

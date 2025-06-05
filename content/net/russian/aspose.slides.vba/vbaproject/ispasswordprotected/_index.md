@@ -27,8 +27,8 @@ using (var presentation = new Presentation(path + "demo.pptm"))
 }
 ```
 
-### См. также
-
+### Дополнительно
+ 
 * класс [VbaProject](../../vbaproject)
 * пространство имен [Aspose.Slides.Vba](../../vbaproject)
 * сборка [Aspose.Slides](../../../)

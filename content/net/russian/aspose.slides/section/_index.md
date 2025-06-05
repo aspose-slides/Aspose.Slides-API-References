@@ -1,7 +1,7 @@
 ---
-title: Раздел
-second_title: Справка по API Aspose.Slides для .NET
-description: Представляет раздел слайдов.
+title: Section
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет секцию слайдов.
 type: docs
 weight: 9480
 url: /ru/aspose.slides/section/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/section/
 
 ## Класс Section
 
-Представляет раздел слайдов.
+Представляет секцию слайдов.
 
 ```csharp
 public class Section : DomObject<SectionCollection>, ISection
@@ -19,17 +19,17 @@ public class Section : DomObject<SectionCollection>, ISection
 
 | Имя | Описание |
 | --- | --- |
-| [Name](../../aspose.slides/section/name) { get; set; } | Имя раздела. |
-| [SectionId](../../aspose.slides/section/sectionid) { get; } | Идентификатор раздела. |
-| [StartedFromSlide](../../aspose.slides/section/startedfromslide) { get; } | Возвращает первый слайд раздела. |
+| [Name](../../aspose.slides/section/name) { get; set; } | Имя секции. |
+| [SectionId](../../aspose.slides/section/sectionid) { get; } | Идентификатор секции. |
+| [StartedFromSlide](../../aspose.slides/section/startedfromslide) { get; } | Возвращает первый слайд секции. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetSlidesListOfSection](../../aspose.slides/section/getslideslistofsection)() | Возвращает список слайдов в разделе. |
+| [GetSlidesListOfSection](../../aspose.slides/section/getslideslistofsection)() | Возвращает список слайдов в секции. |
 
-### См. Также
+### См. также
 
 * класс [DomObject&lt;TParent&gt;](../domobject-1)
 * класс [SectionCollection](../sectioncollection)

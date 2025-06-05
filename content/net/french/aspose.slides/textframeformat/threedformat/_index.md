@@ -1,6 +1,6 @@
 ---
 title: ThreeDFormat
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie l'objet ThreeDFormat qui représente les propriétés d'effet 3D pour un texte. Lecture seule IThreeDFormataspose.slides/ithreedformat.
 type: docs
 weight: 140

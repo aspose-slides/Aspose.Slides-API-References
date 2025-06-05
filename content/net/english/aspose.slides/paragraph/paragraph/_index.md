@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/paragraph/paragraph/
 ---
+
 ## Paragraph() {#constructor}
 
 Initializes a new instance of the Paragraph class with default properties.

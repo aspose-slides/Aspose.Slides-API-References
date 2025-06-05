@@ -1,6 +1,6 @@
 ---
-title: Направление света
-second_title: Справочник по API Aspose.Slides для .NET
+title: LightingDirection
+second_title: Aspose.Sildes для.NET API Справочник
 description: Константы, определяющие направления света.
 type: docs
 weight: 7470
@@ -17,7 +17,7 @@ public enum LightingDirection
 
 ### Значения
 
-| Название | Значение | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | TopLeft | `0` |  |

@@ -1,6 +1,6 @@
 ---
 title: EnableInnerShadowEffect
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Active l'effet d'ombre intérieure.
 type: docs
 weight: 210

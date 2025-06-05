@@ -6,6 +6,7 @@ type: docs
 weight: 170
 url: /aspose.slides.mathtext/mathelementbase/setupperlimit/
 ---
+
 ## SetUpperLimit(IMathElement) {#setupperlimit}
 
 Takes upper limit

@@ -1,7 +1,7 @@
 ---
 title: TileOffsetX
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回或设置纹理相对于形状原点的水平偏移量（以点为单位）。正值将纹理向右移动，而负值将其向左移动。可读/可写 Single。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置纹理相对于形状原点的水平偏移量（以点为单位）。正值将纹理向右移动，而负值将其向左移动。可读/写单精度浮点数。
 type: docs
 weight: 150
 url: /zh/aspose.slides/ipicturefillformat/tileoffsetx/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ipicturefillformat/tileoffsetx/
 
 ## IPictureFillFormat.TileOffsetX 属性
 
-返回或设置纹理相对于形状原点的水平偏移量（以点为单位）。正值将纹理向右移动，而负值将其向左移动。可读/可写 Single。
+返回或设置纹理相对于形状原点的水平偏移量（以点为单位）。正值将纹理向右移动，而负值将其向左移动。可读/写单精度浮点数。
 
 ```csharp
 public float TileOffsetX { get; set; }
@@ -26,10 +26,10 @@ using (Presentation presentation = new Presentation("demo.pptx"))
     // 获取形状的图片填充格式
     IPictureFillFormat pictureFillFormat = slide.Shapes[0].FillFormat.PictureFillFormat;
 
-    // 将图片填充模式设置为 Tile
+    // 将图片填充模式设置为平铺
     pictureFillFormat.PictureFillMode = PictureFillMode.Tile;
 
-    // 将纹理的水平偏移量设置为 20 点
+    // 将纹理的水平偏移量设置为20点
     pictureFillFormat.TileOffsetX = 20f;
 }
 ```

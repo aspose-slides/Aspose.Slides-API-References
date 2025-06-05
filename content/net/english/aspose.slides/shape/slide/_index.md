@@ -3,9 +3,10 @@ title: Slide
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns the parent slide of a shape. Read-only IBaseSlideaspose.slides/ibaseslide.
 type: docs
-weight: 250
+weight: 260
 url: /aspose.slides/shape/slide/
 ---
+
 ## Shape.Slide property
 
 Returns the parent slide of a shape. Read-only [`IBaseSlide`](../../ibaseslide).

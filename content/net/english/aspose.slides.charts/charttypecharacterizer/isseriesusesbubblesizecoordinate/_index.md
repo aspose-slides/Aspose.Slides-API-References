@@ -6,6 +6,7 @@ type: docs
 weight: 180
 url: /aspose.slides.charts/charttypecharacterizer/isseriesusesbubblesizecoordinate/
 ---
+
 ## ChartTypeCharacterizer.IsSeriesUsesBubbleSizeCoordinate method
 
 Returns if bubble size coordinates can be used for specified series type.

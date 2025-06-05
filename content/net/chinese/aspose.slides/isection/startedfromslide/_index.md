@@ -1,6 +1,6 @@
 ---
 title: StartedFromSlide
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回节的第一张幻灯片。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/isection/startedfromslide/
 public ISlide StartedFromSlide { get; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [ISlide](../../islide)
 * 接口 [ISection](../../isection)

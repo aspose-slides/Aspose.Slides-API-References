@@ -1,7 +1,7 @@
 ---
 title: By
-second_title: Aspose.Slides for .NET API 参考
-description: 描述动画的相对偏移值（以百分比表示）。可读/可写 PointF。
+second_title: Aspose.Sildes for .NET API Reference
+description: 描述动画的相对偏移值（以百分比表示）。可读写 PointF。
 type: docs
 weight: 20
 url: /zh/aspose.slides.animation/iscaleeffect/by/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.animation/iscaleeffect/by/
 
 ## IScaleEffect.By 属性
 
-描述动画的相对偏移值（以百分比表示）。可读/可写 PointF。
+描述动画的相对偏移值（以百分比表示）。可读写 PointF。
 
 ```csharp
 public PointF By { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IScaleEffect](../../iscaleeffect)
 * 命名空间 [Aspose.Slides.Animation](../../iscaleeffect)

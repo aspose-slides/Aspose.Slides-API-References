@@ -1,7 +1,7 @@
 ---
-title: Contient
-second_title: Référence API Aspose.Slides pour .NET
-description: Détermine si la ICollection contient une valeur spécifique.
+title: Contains
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Détermine si l'ICollection contient une valeur spécifique.
 type: docs
 weight: 60
 url: /fr/aspose.slides/portioncollection/contains/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/portioncollection/contains/
 
 ## Méthode PortionCollection.Contains
 
-Détermine si la ICollection contient une valeur spécifique.
+Détermine si l'ICollection contient une valeur spécifique.
 
 ```csharp
 public bool Contains(IPortion item)
@@ -17,11 +17,11 @@ public bool Contains(IPortion item)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| item | IPortion | L'objet à localiser dans la ICollection. |
+| item | IPortion | L'objet à localiser dans l'ICollection. |
 
 ### Valeur de Retour
 
-true si *item* est trouvé dans la ICollection ; sinon, false.
+true si *item* est trouvé dans l'ICollection; sinon, false.
 
 ### Voir Aussi
 

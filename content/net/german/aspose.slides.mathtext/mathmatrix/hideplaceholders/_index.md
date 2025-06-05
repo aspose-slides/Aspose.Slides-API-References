@@ -1,15 +1,15 @@
 ---
 title: HidePlaceholders
-second_title: Aspose.Slides für .NET API-Referenz
-description: Verstecken Sie die Platzhalter für leere Matrixelemente. Standard false
+second_title: Aspose.Slides für .NET API Referenz
+description: Die Platzhalter für leere Matrixelemente ausblenden. Standard false
 type: docs
 weight: 60
 url: /de/aspose.slides.mathtext/mathmatrix/hideplaceholders/
 ---
 
-## MathMatrix.HidePlaceholders-Eigenschaft
+## MathMatrix.HidePlaceholders Eigenschaft
 
-Verstecken Sie die Platzhalter für leere Matrixelemente. Standard: false
+Die Platzhalter für leere Matrixelemente ausblenden. Standard: false
 
 ```csharp
 public bool HidePlaceholders { get; set; }
@@ -25,7 +25,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.HidePlaceholders = true;
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [MathMatrix](../../mathmatrix)
 * Namespace [Aspose.Slides.MathText](../../mathmatrix)

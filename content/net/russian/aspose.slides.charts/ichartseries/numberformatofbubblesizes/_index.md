@@ -1,15 +1,15 @@
 ---
 title: NumberFormatOfBubbleSizes
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает числовой формат для размеров пузырьков серии. Читаемый/записываемый строковый тип.
+second_title: Aspose.Slides для .NET API Reference
+description: Возвращает или задает формат числа для размеров пузырьков сериала. Читаемая/записываемая строка.
 type: docs
 weight: 220
 url: /ru/aspose.slides.charts/ichartseries/numberformatofbubblesizes/
 ---
 
-## Свойство IChartSeries.NumberFormatOfBubbleSizes
+## IChartSeries.NumberFormatOfBubbleSizes свойство
 
-Возвращает или устанавливает числовой формат для размеров пузырьков серии. Читаемый/записываемый строковый тип.
+Возвращает или задает формат числа для размеров пузырьков сериала. Читаемая/записываемая строка.
 
 ```csharp
 public string NumberFormatOfBubbleSizes { get; set; }

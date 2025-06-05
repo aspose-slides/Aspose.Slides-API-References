@@ -1,5 +1,5 @@
 ---
-title: Iguales
+title: Equals
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si el AlphaReplaceaspose.slides.effects/alphareplace especificado es igual al AlphaReplaceaspose.slides.effects/alphareplace actual.
 type: docs
@@ -19,11 +19,11 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | El [`AlphaReplace`](../../alphareplace) a comparar. |
 
-### Valor de retorno
+### Valor de Retorno
 
 true si los objetos son iguales; de lo contrario, false.
 
-### Véase también
+### Véase También
 
 * clase [AlphaReplace](../../alphareplace)
 * espacio de nombres [Aspose.Slides.Effects](../../alphareplace)

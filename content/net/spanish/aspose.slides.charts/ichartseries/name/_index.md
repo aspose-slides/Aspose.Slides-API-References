@@ -1,7 +1,7 @@
 ---
-title: Nombre
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve el nombre de la serie. Solo lectura IStringChartValueaspose.slides.charts/istringchartvalue.
+title: Name
+second_title: Aspose.Slides para .NET Referencia de API
+description: Devuelve el nombre de la serie. Solo lectura IStringChartValue aspose.slides.charts/istringchartvalue.
 type: docs
 weight: 210
 url: /es/aspose.slides.charts/ichartseries/name/
@@ -20,6 +20,6 @@ public IStringChartValue Name { get; }
 * interfaz [IStringChartValue](../../istringchartvalue)
 * interfaz [IChartSeries](../../ichartseries)
 * espacio de nombres [Aspose.Slides.Charts](../../ichartseries)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

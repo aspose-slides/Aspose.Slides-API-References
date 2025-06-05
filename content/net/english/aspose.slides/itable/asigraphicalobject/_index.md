@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/itable/asigraphicalobject/
 ---
+
 ## ITable.AsIGraphicalObject property
 
 Allows to get base IGraphicalObject interface. Read-only [`IGraphicalObject`](../../igraphicalobject).

@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/behaviorproperty/strokesrc/
 public static BehaviorProperty StrokeSrc { get; }
 ```
 
-### См. Также
+### См. также
 
 * класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)

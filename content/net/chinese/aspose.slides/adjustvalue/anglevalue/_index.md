@@ -1,6 +1,6 @@
 ---
 title: AngleValue
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Sildes for .NET API 参考
 description: 返回或设置值，将其解释为以度为单位的角度。可读/写 Single。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/adjustvalue/anglevalue/
 public float AngleValue { get; set; }
 ```
 
-### 参见
+### 另见
 
 * class [AdjustValue](../../adjustvalue)
 * namespace [Aspose.Slides](../../adjustvalue)

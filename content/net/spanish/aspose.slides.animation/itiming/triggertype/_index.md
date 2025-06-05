@@ -1,6 +1,6 @@
 ---
 title: TriggerType
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Describe el tipo de activador. Lectura/escritura EffectTriggerTypeaspose.slides.animation/effecttriggertype.
 type: docs
 weight: 130
@@ -15,7 +15,7 @@ Describe el tipo de activador. Lectura/escritura [`EffectTriggerType`](../../eff
 public EffectTriggerType TriggerType { get; set; }
 ```
 
-### Véase También
+### Ver También
 
 * enum [EffectTriggerType](../../effecttriggertype)
 * interface [ITiming](../../itiming)

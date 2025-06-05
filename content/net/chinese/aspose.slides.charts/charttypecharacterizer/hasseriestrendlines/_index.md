@@ -1,7 +1,7 @@
 ---
 title: HasSeriesTrendLines
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回指定系列类型是否存在系列趋势线。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回指定系列类型的系列趋势线是否存在。
 type: docs
 weight: 10
 url: /zh/aspose.slides.charts/charttypecharacterizer/hasseriestrendlines/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/charttypecharacterizer/hasseriestrendlines/
 
 ## ChartTypeCharacterizer.HasSeriesTrendLines 方法
 
-返回指定系列类型是否存在系列趋势线。
+返回指定系列类型的系列趋势线是否存在。
 
 ```csharp
 public static bool HasSeriesTrendLines(ChartType seriesType)
@@ -23,7 +23,7 @@ public static bool HasSeriesTrendLines(ChartType seriesType)
 
 如果存在则为真，否则为假。
 
-### 参见
+### 另见
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

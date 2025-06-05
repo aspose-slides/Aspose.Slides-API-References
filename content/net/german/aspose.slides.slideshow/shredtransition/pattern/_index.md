@@ -1,15 +1,15 @@
 ---
-title: Muster
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Form der Visuals an, die während der Übergang verwendet werden. Lese-/Schreibzugriff auf TransitionShredPatternaspose.slides.slideshow/transitionshredpattern.
+title: Pattern
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt die Form der visuellen Elemente, die während der Übergangs verwendet werden. Lese-/Schreibzugriff auf TransitionShredPatternaspose.slides.slideshow/transitionshredpattern.
 type: docs
 weight: 20
 url: /de/aspose.slides.slideshow/shredtransition/pattern/
 ---
 
-## ShredTransition.Pattern Eigenschaft
+## ShredTransition.Pattern-Eigenschaft
 
-Gibt die Form der Visuals an, die während des Übergangs verwendet werden. Lese-/Schreibzugriff auf [`TransitionShredPattern`](../../transitionshredpattern).
+Bestimmt die Form der visuellen Elemente, die während des Übergangs verwendet werden. Lese-/Schreibzugriff auf [`TransitionShredPattern`](../../transitionshredpattern).
 
 ```csharp
 public TransitionShredPattern Pattern { get; set; }

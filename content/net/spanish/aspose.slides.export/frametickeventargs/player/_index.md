@@ -1,7 +1,7 @@
 ---
-title: Reproductor
+title: Player
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Obtén el reproductor de presentaciones
+description: Obtenga el reproductor de presentación
 type: docs
 weight: 10
 url: /es/aspose.slides.export/frametickeventargs/player/
@@ -9,17 +9,17 @@ url: /es/aspose.slides.export/frametickeventargs/player/
 
 ## Propiedad FrameTickEventArgs.Player
 
-Obtén el reproductor de presentaciones
+Obtenga el reproductor de presentación
 
 ```csharp
 public PresentationPlayer Player { get; }
 ```
 
-### También Véase
+### Vea También
 
 * clase [PresentationPlayer](../../presentationplayer)
 * clase [FrameTickEventArgs](../../frametickeventargs)
-* namespace [Aspose.Slides.Export](../../frametickeventargs)
-* assembly [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides.Export](../../frametickeventargs)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

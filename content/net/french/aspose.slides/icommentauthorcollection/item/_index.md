@@ -1,5 +1,5 @@
 ---
-title: Élément
+title: Item
 second_title: Référence API Aspose.Slides pour .NET
 description: Obtient l'élément à l'index spécifié. Lecture seule ICommentAuthoraspose.slides/icommentauthor.
 type: docs
@@ -7,7 +7,7 @@ weight: 10
 url: /fr/aspose.slides/icommentauthorcollection/item/
 ---
 
-## Indiceur ICommentAuthorCollection
+## ICommentAuthorCollection indexer
 
 Obtient l'élément à l'index spécifié. Lecture seule [`ICommentAuthor`](../../icommentauthor).
 
@@ -15,7 +15,7 @@ Obtient l'élément à l'index spécifié. Lecture seule [`ICommentAuthor`](../.
 public ICommentAuthor this[int index] { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ICommentAuthor](../../icommentauthor)
 * interface [ICommentAuthorCollection](../../icommentauthorcollection)

@@ -1,13 +1,13 @@
 ---
 title: AsIEnumerable
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Referencia
 description: Permite obtener la interfaz base IEnumerable. IEnumerable de solo lectura.
 type: docs
 weight: 10
 url: /es/aspose.slides.animation/isequence/asienumerable/
 ---
 
-## Propiedad ISequence.AsIEnumerable
+## ISequence.AsIEnumerable propiedad
 
 Permite obtener la interfaz base IEnumerable. IEnumerable de solo lectura.
 

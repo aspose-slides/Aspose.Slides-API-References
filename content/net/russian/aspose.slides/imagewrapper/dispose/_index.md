@@ -1,7 +1,7 @@
 ---
-title: Освободить
-second_title: Справка по API Aspose.Slides для .NET
-description: Освобождение ImageWrapper
+title: Dispose
+second_title: Aspose.Slides для .NET Справочник по API
+description: Освободить ImageWrapper
 type: docs
 weight: 30
 url: /ru/aspose.slides/imagewrapper/dispose/
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/imagewrapper/dispose/
 public void Dispose()
 ```
 
-### Смотрите также
+### См. также
 
 * класс [ImageWrapper](../../imagewrapper)
 * пространство имен [Aspose.Slides](../../imagewrapper)

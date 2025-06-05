@@ -1,15 +1,15 @@
 ---
 title: IErrorBarsCustomValues
-second_title: Aspose.Slides für .NET API Referenz
-description: Spezifiziert die Fehlerbalkenwerte. Sie soll nur verwendet werden, wenn der Fehlerbalkenwerttyp benutzerdefiniert ist.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt die Fehlerbalkenwerte an. Es sollte nur verwendet werden, wenn der Wertebereich der Fehlerbalken benutzerdefiniert ist.
 type: docs
 weight: 2000
 url: /de/aspose.slides.charts/ierrorbarscustomvalues/
 ---
 
-## IErrorBarsCustomValues Schnittstelle
+## IErrorBarsCustomValues-Schnittstelle
 
-Spezifiziert die Fehlerbalkenwerte. Sie soll nur verwendet werden, wenn der Fehlerbalkenwerttyp benutzerdefiniert ist.
+Gibt die Fehlerbalkenwerte an. Es sollte nur verwendet werden, wenn der Wertebereich der Fehlerbalken benutzerdefiniert ist.
 
 ```csharp
 public interface IErrorBarsCustomValues
@@ -19,10 +19,10 @@ public interface IErrorBarsCustomValues
 
 | Name | Beschreibung |
 | --- | --- |
-| [XMinus](../../aspose.slides.charts/ierrorbarscustomvalues/xminus) { get; } | Spezifiziert den Fehlerbalkenwert in negativer Richtung. Verfügbar, wenn der Fehlerbalkenwerttyp benutzerdefiniert ist und ErrorBarsXFormat erlaubt ist. In jedem anderen Fall gibt diese Eigenschaft null zurück. Nur-Lese [`IDoubleChartValue`](../idoublechartvalue). |
-| [XPlus](../../aspose.slides.charts/ierrorbarscustomvalues/xplus) { get; } | Spezifiziert den Fehlerbalkenwert in positiver Richtung. Verfügbar, wenn der Fehlerbalkenwerttyp benutzerdefiniert ist und ErrorBarsXFormat erlaubt ist. In jedem anderen Fall gibt diese Eigenschaft null zurück. Nur-Lese [`IDoubleChartValue`](../idoublechartvalue). |
-| [YMinus](../../aspose.slides.charts/ierrorbarscustomvalues/yminus) { get; } | Spezifiziert den Fehlerbalkenwert in negativer Richtung. Verfügbar, wenn der Fehlerbalkenwerttyp benutzerdefiniert ist und ErrorBarsYFormat erlaubt ist. In jedem anderen Fall gibt diese Eigenschaft null zurück. Nur-Lese [`IDoubleChartValue`](../idoublechartvalue). |
-| [YPlus](../../aspose.slides.charts/ierrorbarscustomvalues/yplus) { get; } | Spezifiziert den Fehlerbalkenwert in positiver Richtung. Verfügbar, wenn der Fehlerbalkenwerttyp benutzerdefiniert ist und ErrorBarsYFormat erlaubt ist. In jedem anderen Fall gibt diese Eigenschaft null zurück. Nur-Lese [`IDoubleChartValue`](../idoublechartvalue). |
+| [XMinus](../../aspose.slides.charts/ierrorbarscustomvalues/xminus) { get; } | Gibt den Fehlerbalkenwert in negativer Richtung an. Verfügbar, wenn der Wertebereich der Fehlerbalken benutzerdefiniert ist und ErrorBarsXFormat erlaubt ist. In jedem anderen Fall gibt diese Eigenschaft null zurück. Nur lesbar [`IDoubleChartValue`](../idoublechartvalue). |
+| [XPlus](../../aspose.slides.charts/ierrorbarscustomvalues/xplus) { get; } | Gibt den Fehlerbalkenwert in positiver Richtung an. Verfügbar, wenn der Wertebereich der Fehlerbalken benutzerdefiniert ist und ErrorBarsXFormat erlaubt ist. In jedem anderen Fall gibt diese Eigenschaft null zurück. Nur lesbar [`IDoubleChartValue`](../idoublechartvalue). |
+| [YMinus](../../aspose.slides.charts/ierrorbarscustomvalues/yminus) { get; } | Gibt den Fehlerbalkenwert in negativer Richtung an. Verfügbar, wenn der Wertebereich der Fehlerbalken benutzerdefiniert ist und ErrorBarsYFormat erlaubt ist. In jedem anderen Fall gibt diese Eigenschaft null zurück. Nur lesbar [`IDoubleChartValue`](../idoublechartvalue). |
+| [YPlus](../../aspose.slides.charts/ierrorbarscustomvalues/yplus) { get; } | Gibt den Fehlerbalkenwert in positiver Richtung an. Verfügbar, wenn der Wertebereich der Fehlerbalken benutzerdefiniert ist und ErrorBarsYFormat erlaubt ist. In jedem anderen Fall gibt diese Eigenschaft null zurück. Nur lesbar [`IDoubleChartValue`](../idoublechartvalue). |
 
 ### Siehe auch
 

@@ -1,6 +1,6 @@
 ---
 title: MathDelimiterFactory
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: El constructor por defecto.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ El constructor por defecto.
 public MathDelimiterFactory()
 ```
 
-### Véase también
+### Ver También
 
 * clase [MathDelimiterFactory](../../mathdelimiterfactory)
 * espacio de nombres [Aspose.Slides.MathText](../../mathdelimiterfactory)

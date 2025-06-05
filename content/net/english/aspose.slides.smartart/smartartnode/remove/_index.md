@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.smartart/smartartnode/remove/
 ---
+
 ## SmartArtNode.Remove method
 
 Remove current node.

@@ -1,6 +1,6 @@
 ---
 title: FillBlendMode
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Détermine le mode de fusion.
 type: docs
 weight: 4580

@@ -1,13 +1,13 @@
 ---
 title: DisableFillOverlayEffect
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Отключает эффект наложения заливки.
 type: docs
 weight: 120
 url: /ru/aspose.slides/ieffectformat/disablefilloverlayeffect/
 ---
 
-## Метод IEffectFormat.DisableFillOverlayEffect
+## IEffectFormat.DisableFillOverlayEffect метод
 
 Отключает эффект наложения заливки.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ieffectformat/disablefilloverlayeffect/
 public void DisableFillOverlayEffect()
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IEffectFormat](../../ieffectformat)
 * пространство имен [Aspose.Slides](../../ieffectformat)

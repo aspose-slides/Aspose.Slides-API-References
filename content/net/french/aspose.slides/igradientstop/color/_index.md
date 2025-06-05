@@ -1,7 +1,7 @@
 ---
-title: Couleur
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie la couleur d'un point d'arrêt de dégradé. Lecture seule IColorFormat aspose.slides/icolorformat.
+title: Color
+second_title: Aspose.Slides pour la référence API .NET
+description: Renvoie la couleur d'un point d'arrêt de gradient. Lecture seule IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 10
 url: /fr/aspose.slides/igradientstop/color/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/igradientstop/color/
 
 ## Propriété IGradientStop.Color
 
-Renvoie la couleur d'un point d'arrêt de dégradé. Lecture seule [`IColorFormat`](../../icolorformat).
+Renvoie la couleur d'un point d'arrêt de gradient. Lecture seule [`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat Color { get; }

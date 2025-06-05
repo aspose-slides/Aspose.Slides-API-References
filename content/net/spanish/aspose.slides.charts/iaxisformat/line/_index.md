@@ -1,6 +1,6 @@
 ---
-title: Línea
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Line
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve las propiedades del estilo de línea de un eje. Solo lectura ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 30
@@ -15,11 +15,11 @@ Devuelve las propiedades del estilo de línea de un eje. Solo lectura [`ILineFor
 public ILineFormat Line { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [ILineFormat](../../../aspose.slides/ilineformat)
 * interfaz [IAxisFormat](../../iaxisformat)
 * espacio de nombres [Aspose.Slides.Charts](../../iaxisformat)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

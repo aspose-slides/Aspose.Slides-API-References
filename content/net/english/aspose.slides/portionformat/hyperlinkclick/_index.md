@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/portionformat/hyperlinkclick/
 ---
+
 ## PortionFormat.HyperlinkClick property
 
 Returns or sets the hyperlink defined for mouse click. Read/write [`IHyperlink`](../../ihyperlink).

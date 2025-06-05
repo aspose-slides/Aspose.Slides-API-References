@@ -19,9 +19,9 @@ public interface IPptxOptions : ISaveOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ipptxoptions/asisaveoptions) { get; } | Ermöglicht das Abrufen der Basisschnittstelle ISaveOptions. Nur-Lese [`ISaveOptions`](../isaveoptions). |
-| [Conformance](../../aspose.slides.export/ipptxoptions/conformance) { get; set; } | Gibt die Konformitätsklasse an, der das Präsentationsdokument entspricht. Der Standardwert ist Ecma376_2006 |
-| [RefreshThumbnail](../../aspose.slides.export/ipptxoptions/refreshthumbnail) { get; set; } | Gibt an, ob das Miniaturbild der Präsentation aktualisiert wird. Lese-/Schreib-Boolean. Der Standardwert ist **true**. |
+| [AsISaveOptions](../../aspose.slides.export/ipptxoptions/asisaveoptions) { get; } | Ermöglicht den Zugriff auf die Basis-Schnittstelle ISaveOptions. Nur-Lese [`ISaveOptions`](../isaveoptions). |
+| [Conformance](../../aspose.slides.export/ipptxoptions/conformance) { get; set; } | Gibt die Konformitätsklasse an, der das Präsentationsdokument entspricht. Standardwert ist Ecma376_2006 |
+| [RefreshThumbnail](../../aspose.slides.export/ipptxoptions/refreshthumbnail) { get; set; } | Gibt an, ob das Miniaturbild der Präsentation aktualisiert wird. Lese-/Schreib-Boolean. Standardwert ist **true**. |
 | [Zip64Mode](../../aspose.slides.export/ipptxoptions/zip64mode) { get; set; } | Gibt an, ob das ZIP64-Format für das Präsentationsdokument verwendet wird. Der Standardwert ist IfNecessary |
 
 ### Siehe auch

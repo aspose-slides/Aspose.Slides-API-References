@@ -1,7 +1,7 @@
 ---
 title: EffectFormat
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Text-Effektformat-Eigenschaften zurück. Keine Vererbung angewendet. Nur-lesbarer IEffectFormataspose.slides/ieffectformat.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Texteigenschaften von EffectFormat zurück. Keine Vererbung angewendet. Nur-Lese IEffectFormataspose.slides/ieffectformat.
 type: docs
 weight: 40
 url: /de/aspose.slides/baseportionformat/effectformat/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/baseportionformat/effectformat/
 
 ## BasePortionFormat.EffectFormat-Eigenschaft
 
-Gibt die Text-Effektformat-Eigenschaften zurück. Keine Vererbung angewendet. Nur-lesbar [`IEffectFormat`](../../ieffectformat).
+Gibt die Texteigenschaften von EffectFormat zurück. Keine Vererbung angewendet. Nur-Lese [`IEffectFormat`](../../ieffectformat).
 
 ```csharp
 public IEffectFormat EffectFormat { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IEffectFormat](../../ieffectformat)
 * Klasse [BasePortionFormat](../../baseportionformat)

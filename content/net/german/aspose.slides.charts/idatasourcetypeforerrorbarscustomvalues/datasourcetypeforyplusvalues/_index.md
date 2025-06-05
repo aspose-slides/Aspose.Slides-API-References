@@ -1,21 +1,21 @@
 ---
 title: DataSourceTypeForYPlusValues
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt an, ob die AsCell-, AsLiteralString- oder AsLiteralDouble-Eigenschaft in den YPlus-Eigenschaften der Datenpunkte für benutzerdefinierte Fehlerbalkenwerte aktuell ist. Mit anderen Worten, es gibt den Typ des Wertes der ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data-Eigenschaft an. Schreib-/Lesezugriff auf DataSourceTypeaspose.slides.charts/datasourcetype.
+description: Gibt an, ob die Eigenschaften AsCell, AsLiteralString oder AsLiteralDouble für die YPlus-Eigenschaftsobjekte der Datenpunkte für benutzerdefinierte Fehlerbalkenwerte aktuell sind. Mit anderen Worten, sie gibt den Typ des Wertes der Eigenschaft ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data an. Lese-/Schreibzugriff auf DataSourceTypeaspose.slides/datasourcetype.
 type: docs
 weight: 40
 url: /de/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues/
 ---
 
-## IDataSourceTypeForErrorBarsCustomValues.DataSourceTypeForYPlusValues-Eigenschaft
+## IDataSourceTypeForErrorBarsCustomValues.DataSourceTypeForYPlusValues Eigenschaft
 
-Gibt an, ob die AsCell-, AsLiteralString- oder AsLiteralDouble-Eigenschaft in den YPlus-Eigenschaften der Datenpunkte für benutzerdefinierte Fehlerbalkenwerte aktuell ist. Mit anderen Worten, es gibt den Typ des Wertes der ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data-Eigenschaft an. Schreib-/Lesezugriff auf [`DataSourceType`](../../datasourcetype).
+Gibt an, ob die Eigenschaften AsCell, AsLiteralString oder AsLiteralDouble für die YPlus-Eigenschaftsobjekte der Datenpunkte für benutzerdefinierte Fehlerbalkenwerte aktuell sind. Mit anderen Worten, sie gibt den Typ des Wertes der Eigenschaft ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data an. Lese-/Schreibzugriff auf [`DataSourceType`](../../datasourcetype).
 
 ```csharp
 public DataSourceType DataSourceTypeForYPlusValues { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [DataSourceType](../../datasourcetype)
 * interface [IDataSourceTypeForErrorBarsCustomValues](../../idatasourcetypeforerrorbarscustomvalues)

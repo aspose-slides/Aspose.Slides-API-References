@@ -1,6 +1,6 @@
 ---
-title: Elemento
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Item
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Devuelve la firma por índice.
 type: docs
 weight: 30

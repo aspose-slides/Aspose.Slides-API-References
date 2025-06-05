@@ -1,7 +1,7 @@
 ---
-title: Compte
+title: Count
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne le nombre de comportements dans une collection. En lecture seule Int32.
+description: Renvoie le nombre de comportements dans une collection. Lecture seule Int32.
 type: docs
 weight: 10
 url: /fr/aspose.slides.animation/behaviorcollection/count/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/behaviorcollection/count/
 
 ## Propriété BehaviorCollection.Count
 
-Retourne le nombre de comportements dans une collection. En lecture seule Int32.
+Renvoie le nombre de comportements dans une collection. Lecture seule Int32.
 
 ```csharp
 public int Count { get; }

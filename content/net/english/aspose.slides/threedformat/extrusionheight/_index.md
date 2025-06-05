@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/threedformat/extrusionheight/
 ---
+
 ## ThreeDFormat.ExtrusionHeight property
 
 Returns or sets the height of an extrusion effect. Read/write Double.

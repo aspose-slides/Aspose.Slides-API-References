@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient les données d'effet de plafond alpha effectif avec l'héritage appliqué.
+description: Obtient les données effectives de l'effet Alpha Ceiling avec l'héritage appliqué.
 type: docs
 weight: 20
 url: /fr/aspose.slides.effects/alphaceiling/geteffective/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/alphaceiling/geteffective/
 
 ## AlphaCeiling.GetEffective méthode
 
-Obtient les données d'effet de plafond alpha effectif avec l'héritage appliqué.
+Obtient les données effectives de l'effet Alpha Ceiling avec l'héritage appliqué.
 
 ```csharp
 public IAlphaCeilingEffectiveData GetEffective()
@@ -17,7 +17,7 @@ public IAlphaCeilingEffectiveData GetEffective()
 
 ### Valeur de retour
 
-Un [`IAlphaCeilingEffectiveData`](../../ialphaceilingeffectivedata).
+Une [`IAlphaCeilingEffectiveData`](../../ialphaceilingeffectivedata).
 
 ### Voir aussi
 

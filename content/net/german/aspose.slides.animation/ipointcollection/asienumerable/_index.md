@@ -1,7 +1,7 @@
 ---
 title: AsIEnumerable
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf die Basis-IEnumerable-Schnittstelle. Nur-Lese IEnumerable.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ermöglicht den Zugriff auf die Basis-IEnumerable-Schnittstelle. Nur-Lese-IEnumerable.
 type: docs
 weight: 10
 url: /de/aspose.slides.animation/ipointcollection/asienumerable/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/ipointcollection/asienumerable/
 
 ## IPointCollection.AsIEnumerable-Eigenschaft
 
-Ermöglicht den Zugriff auf die Basis-IEnumerable-Schnittstelle. Nur-Lese IEnumerable.
+Ermöglicht den Zugriff auf die Basis-IEnumerable-Schnittstelle. Nur-Lese-IEnumerable.
 
 ```csharp
 public IEnumerable AsIEnumerable { get; }

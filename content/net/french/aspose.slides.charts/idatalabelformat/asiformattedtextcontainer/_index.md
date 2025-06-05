@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/idatalabelformat/asiformattedtextcontainer/
 
 ## Propriété IDataLabelFormat.AsIFormattedTextContainer
 
-Permet d'obtenir l'interface de base IFormattedTextContainer. Lecture seule [`IFormattedTextContainer`](../../iformattedtextcontainer).
+Permet d'obtenir l'interface de base IFormattedTextContainer. IFormattedTextContainer en lecture seule [`IFormattedTextContainer`](../../iformattedtextcontainer).
 
 ```csharp
 public IFormattedTextContainer AsIFormattedTextContainer { get; }

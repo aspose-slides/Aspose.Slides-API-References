@@ -1,7 +1,7 @@
 ---
-title: Diapositives
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Plage de diapositives
+title: Slides
+second_title: Aspose.Slides pour la référence API .NET
+description: Plage des diapositives
 type: docs
 weight: 60
 url: /fr/aspose.slides/slideshowsettings/slides/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/slideshowsettings/slides/
 
 ## Propriété SlideShowSettings.Slides
 
-Plage de diapositives
+Plage des diapositives
 
 ```csharp
 public SlidesRange Slides { get; set; }

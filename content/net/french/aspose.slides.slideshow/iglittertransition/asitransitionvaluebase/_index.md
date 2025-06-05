@@ -9,13 +9,13 @@ url: /fr/aspose.slides.slideshow/iglittertransition/asitransitionvaluebase/
 
 ## Propriété IGlitterTransition.AsITransitionValueBase
 
-Permet d'obtenir l'interface de base ITransitionValueBase. ITransitionValueBase en lecture seule [`ITransitionValueBase`](../../itransitionvaluebase).
+Permet d'obtenir l'interface de base ITransitionValueBase. [`ITransitionValueBase`](../../itransitionvaluebase) en lecture seule.
 
 ```csharp
 public ITransitionValueBase AsITransitionValueBase { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ITransitionValueBase](../../itransitionvaluebase)
 * interface [IGlitterTransition](../../iglittertransition)

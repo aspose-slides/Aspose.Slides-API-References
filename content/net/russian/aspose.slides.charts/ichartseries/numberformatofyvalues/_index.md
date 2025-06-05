@@ -1,21 +1,21 @@
 ---
 title: NumberFormatOfYValues
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает или устанавливает формат чисел для значений y серии. Читаемая/Записываемая строка.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или задает формат числа для значений y серии. Читаемый/Записываемый String.
 type: docs
 weight: 250
 url: /ru/aspose.slides.charts/ichartseries/numberformatofyvalues/
 ---
 
-## Свойство IChartSeries.NumberFormatOfYValues
+## IChartSeries.NumberFormatOfYValues свойство
 
-Возвращает или устанавливает формат чисел для значений y серии. Читаемая/Записываемая строка.
+Возвращает или задает формат числа для значений y серии. Читаемый/Записываемый String.
 
 ```csharp
 public string NumberFormatOfYValues { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IChartSeries](../../ichartseries)
 * пространство имен [Aspose.Slides.Charts](../../ichartseries)

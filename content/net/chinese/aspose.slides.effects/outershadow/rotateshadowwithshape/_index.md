@@ -1,21 +1,21 @@
 ---
-title: 旋转阴影与形状
-second_title: Aspose.Sildes for .NET API 参考
-description: 指定当形状旋转时，阴影是否随之旋转。可读写布尔值。
+title: RotateShadowWithShape
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定如果形状旋转，阴影是否随之旋转。可读/写布尔值。
 type: docs
 weight: 50
 url: /zh/aspose.slides.effects/outershadow/rotateshadowwithshape/
 ---
 
-## OuterShadow.RotateShadowWithShape 属性
+## OuterShadow.RotateShadowWithShape property
 
-指定当形状旋转时，阴影是否随之旋转。可读写布尔值。
+指定如果形状旋转，阴影是否随之旋转。可读/写布尔值。
 
 ```csharp
 public bool RotateShadowWithShape { get; set; }
 ```
 
-### 另请参阅
+### See Also
 
 * class [OuterShadow](../../outershadow)
 * namespace [Aspose.Slides.Effects](../../outershadow)

@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides.theme/
 ---
+
 Contains classes for work with different types of themes.
 
 ## Classes

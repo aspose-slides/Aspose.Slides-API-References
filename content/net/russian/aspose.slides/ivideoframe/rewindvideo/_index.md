@@ -1,21 +1,21 @@
 ---
 title: RewindVideo
-second_title: Aspose.Sildes для .NET API Справочник
-description: Определяет, будет ли видео автоматически перематываться на начало, как только фильм закончится. Доступно для чтения/записи Boolean.
+second_title: Ссылка на API Aspose.Sildes для .NET
+description: Определяет, будет ли видео автоматически перематываться к началу, как только фильм закончится. Чтение/запись логическое значение.
 type: docs
 weight: 90
 url: /ru/aspose.slides/ivideoframe/rewindvideo/
 ---
 
-## Свойство IVideoFrame.RewindVideo
+## IVideoFrame.RewindVideo property
 
-Определяет, будет ли видео автоматически перематываться на начало, как только фильм закончится. Доступно для чтения/записи Boolean.
+Определяет, будет ли видео автоматически перематываться к началу, как только фильм закончится. Чтение/запись логическое значение.
 
 ```csharp
 public bool RewindVideo { get; set; }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IVideoFrame](../../ivideoframe)
 * пространство имен [Aspose.Slides](../../ivideoframe)

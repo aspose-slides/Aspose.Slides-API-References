@@ -1,7 +1,7 @@
 ---
 title: ChildNodes
-second_title: Aspose.Slides for .NET API Reference
-description: 返回当前节点的所有子节点的集合。只读 ISmartArtNodeCollectionaspose.slides.smartart/ismartartnodecollection。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回当前节点的所有子节点集合。只读 ISmartArtNodeCollectionaspose.slides.smartart/ismartartnodecollection。
 type: docs
 weight: 20
 url: /zh/aspose.slides.smartart/ismartartnode/childnodes/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.smartart/ismartartnode/childnodes/
 
 ## ISmartArtNode.ChildNodes 属性
 
-返回当前节点的所有子节点的集合。只读 [`ISmartArtNodeCollection`](../../ismartartnodecollection)。
+返回当前节点的所有子节点集合。只读 [`ISmartArtNodeCollection`](../../ismartartnodecollection)。
 
 ```csharp
 public ISmartArtNodeCollection ChildNodes { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [ISmartArtNodeCollection](../../ismartartnodecollection)
 * 接口 [ISmartArtNode](../../ismartartnode)

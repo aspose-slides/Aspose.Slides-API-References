@@ -1,6 +1,6 @@
 ---
 title: AsIDisposable
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt das IDisposable-Interface zurück. Nur lesbares IDisposable.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ Gibt das IDisposable-Interface zurück. Nur lesbares IDisposable.
 public IDisposable AsIDisposable { get; }
 ```
 
-### Bemerkungen
+### Hinweise
 
 Für COM-Kompatibilität.
 

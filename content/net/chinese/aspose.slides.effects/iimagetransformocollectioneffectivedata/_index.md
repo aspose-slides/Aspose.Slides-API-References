@@ -1,7 +1,7 @@
 ---
 title: IImageTransformOCollectionEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
-description: 不可变对象，表示只读的有效图像变换效果集合。
+description: 不可变对象，表示有效图像变换效果的只读集合。
 type: docs
 weight: 3260
 url: /zh/aspose.slides.effects/iimagetransformocollectioneffectivedata/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/iimagetransformocollectioneffectivedata/
 
 ## IImageTransformOCollectionEffectiveData 接口
 
-不可变对象，表示只读的有效图像变换效果集合。
+不可变对象，表示有效图像变换效果的只读集合。
 
 ```csharp
 public interface IImageTransformOCollectionEffectiveData : IGenericCollection<IEffectEffectiveData>
@@ -19,13 +19,13 @@ public interface IImageTransformOCollectionEffectiveData : IGenericCollection<IE
 
 | 名称 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides.effects/iimagetransformocollectioneffectivedata/item) { get; } | 根据索引返回元素。 |
+| [Item](../../aspose.slides.effects/iimagetransformocollectioneffectivedata/item) { get; } | 通过索引返回元素。 |
 
 ### 备注
 
-名称 IImageTransformOperationCollectionEffectiveData 被截短为 IImageTransformOCollectionEffectiveData，因为 COM 名称的长度不能超过 39 个字符。
+名称 IImageTransformOperationCollectionEffectiveData 被截断为 IImageTransformOCollectionEffectiveData，因为 COM 名称的长度不能超过 39 个字符。
 
-### 另请参阅
+### 另见
 
 * 接口 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 接口 [IEffectEffectiveData](../ieffecteffectivedata)

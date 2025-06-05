@@ -1,7 +1,7 @@
 ---
-title: 评论
-second_title: Aspose.Slides for .NET API 参考
-description: 返回此作者所做评论的集合。只读 ICommentCollection aspose.slides/icommentcollection。
+title: Comments
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回此作者所做的评论集合。只读 ICommentCollection aspose.slides/icommentcollection。
 type: docs
 weight: 10
 url: /zh/aspose.slides/icommentauthor/comments/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/icommentauthor/comments/
 
 ## ICommentAuthor.Comments 属性
 
-返回此作者所做评论的集合。只读 [`ICommentCollection`](../../icommentcollection)。
+返回此作者所做的评论集合。只读 [`ICommentCollection`](../../icommentcollection)。
 
 ```csharp
 public ICommentCollection Comments { get; }

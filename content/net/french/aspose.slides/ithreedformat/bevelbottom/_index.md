@@ -1,7 +1,7 @@
 ---
 title: BevelBottom
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit le type d'un biseau 3D inférieur. En lecture seule IShapeBevelaspose.slides/ishapebevel.
+second_title: Aspose.Slides pour référence API .NET
+description: Retourne ou définit le type d'un biseau 3D inférieur. En lecture seule IShapeBevelaspose.slides/ishapebevel.
 type: docs
 weight: 20
 url: /fr/aspose.slides/ithreedformat/bevelbottom/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ithreedformat/bevelbottom/
 
 ## Propriété IThreeDFormat.BevelBottom
 
-Renvoie ou définit le type d'un biseau 3D inférieur. En lecture seule [`IShapeBevel`](../../ishapebevel).
+Retourne ou définit le type d'un biseau 3D inférieur. En lecture seule [`IShapeBevel`](../../ishapebevel).
 
 ```csharp
 public IShapeBevel BevelBottom { get; }

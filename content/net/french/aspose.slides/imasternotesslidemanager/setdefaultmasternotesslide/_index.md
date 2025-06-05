@@ -1,7 +1,7 @@
 ---
 title: SetDefaultMasterNotesSlide
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Définit la diapositive de notes maîtres par défaut pour les diapositives de notes associées.
+second_title: Aspose.Slides pour .NET API Reference
+description: Définit la diapositive de notes maître par défaut pour la diapositive de notes associée.
 type: docs
 weight: 30
 url: /fr/aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide/
 
 ## IMasterNotesSlideManager.SetDefaultMasterNotesSlide méthode
 
-Définit la diapositive de notes maîtres par défaut pour les diapositives de notes associées.
+Définit la diapositive de notes maître par défaut pour la diapositive de notes associée.
 
 ```csharp
 public IMasterNotesSlide SetDefaultMasterNotesSlide()
@@ -17,7 +17,7 @@ public IMasterNotesSlide SetDefaultMasterNotesSlide()
 
 ### Valeur de retour
 
-Diapositive de notes maîtres par défaut [`IMasterNotesSlide`](../../imasternotesslide)
+La diapositive de notes maître par défaut [`IMasterNotesSlide`](../../imasternotesslide)
 
 ### Voir aussi
 

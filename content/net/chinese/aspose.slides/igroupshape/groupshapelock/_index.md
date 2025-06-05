@@ -15,7 +15,7 @@ url: /zh/aspose.slides/igroupshape/groupshapelock/
 public IGroupShapeLock GroupShapeLock { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IGroupShapeLock](../../igroupshapelock)
 * 接口 [IGroupShape](../../igroupshape)

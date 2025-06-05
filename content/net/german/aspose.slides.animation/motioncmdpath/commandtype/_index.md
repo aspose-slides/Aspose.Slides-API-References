@@ -1,6 +1,6 @@
 ---
 title: CommandType
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Gibt den Befehlstyp an. Lese-/Schreibzugriff auf MotionCommandPathTypeaspose.slides.animation/motioncommandpathtype.
 type: docs
 weight: 10

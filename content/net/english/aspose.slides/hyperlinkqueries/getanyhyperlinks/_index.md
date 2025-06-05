@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/hyperlinkqueries/getanyhyperlinks/
 ---
+
 ## HyperlinkQueries.GetAnyHyperlinks method
 
 Get all IHyperlinkContainer subobjects that contain not null HyperlinkMouseOver. With given IHyperlinkContainer object you can manage its hyperlink (read, update or remove). See IHyperlinkContainer interface.

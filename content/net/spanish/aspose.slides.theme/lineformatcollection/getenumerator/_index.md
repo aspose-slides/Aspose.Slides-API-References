@@ -17,13 +17,13 @@ public IEnumerator<ILineFormat> GetEnumerator()
 
 ### Valor de retorno
 
-Un IEnumerator que se puede utilizar para iterar a través de la colección.
+Un IEnumerator que se puede usar para iterar a través de la colección.
 
 ### Véase también
 
 * interfaz [ILineFormat](../../../aspose.slides/ilineformat)
 * clase [LineFormatCollection](../../lineformatcollection)
-* namespace [Aspose.Slides.Theme](../../lineformatcollection)
+* espacio de nombres [Aspose.Slides.Theme](../../lineformatcollection)
 * ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

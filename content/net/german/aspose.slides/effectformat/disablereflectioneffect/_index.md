@@ -7,7 +7,7 @@ weight: 160
 url: /de/aspose.slides/effectformat/disablereflectioneffect/
 ---
 
-## EffectFormat.DisableReflectionEffect-Methode
+## EffectFormat.DisableReflectionEffect Methode
 
 Deaktiviert den Reflexionseffekt.
 
@@ -15,7 +15,7 @@ Deaktiviert den Reflexionseffekt.
 public void DisableReflectionEffect()
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [EffectFormat](../../effectformat)
 * Namespace [Aspose.Slides](../../effectformat)

@@ -1,6 +1,6 @@
 ---
-title: 二进制数据
-second_title: Aspose.Slides for .NET API 参考
+title: BinaryData
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回图像数据的副本。只读 Byte。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ppimage/binarydata/
 public byte[] BinaryData { get; }
 ```
 
-### 参见
+### 另请参见
 
 * class [PPImage](../../ppimage)
 * namespace [Aspose.Slides](../../ppimage)

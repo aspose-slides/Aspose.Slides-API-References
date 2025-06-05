@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/ibaseslideheaderfootermanager/setfootertext/
 ---
+
 ## IBaseSlideHeaderFooterManager.SetFooterText method
 
 Sets text to slide footer placeholder.

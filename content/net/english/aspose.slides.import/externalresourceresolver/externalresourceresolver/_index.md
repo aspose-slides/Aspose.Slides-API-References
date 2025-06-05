@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.import/externalresourceresolver/externalresourceresolver/
 ---
+
 ## ExternalResourceResolver constructor
 
 The default constructor.

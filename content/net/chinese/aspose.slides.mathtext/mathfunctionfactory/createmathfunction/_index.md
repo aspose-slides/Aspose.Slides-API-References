@@ -1,6 +1,6 @@
 ---
 title: CreateMathFunction
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Slides for .NET API 参考
 description: 创建数学函数
 type: docs
 weight: 20

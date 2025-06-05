@@ -1,13 +1,13 @@
 ---
 title: PresetShadowEffect
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Sombra preestablecida. Solo lectura IPresetShadowEffectiveDataaspose.slides.effects/ipresetshadoweffectivedata.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Sombra preestablecida. Solo lectura IPresetShadowEffectiveDataaspose.slides/../aspose.slides.effects/ipresetshadoweffectivedata.
 type: docs
 weight: 80
 url: /es/aspose.slides/ieffectformateffectivedata/presetshadoweffect/
 ---
 
-## Propiedad IEffectFormatEffectiveData.PresetShadowEffect
+## IEffectFormatEffectiveData.PresetShadowEffect property
 
 Sombra preestablecida. Solo lectura [`IPresetShadowEffectiveData`](../../../aspose.slides.effects/ipresetshadoweffectivedata).
 

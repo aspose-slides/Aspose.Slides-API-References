@@ -1,15 +1,15 @@
 ---
 title: SetSubSuperscriptOnTheLeft
 second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt Subscript und Superscript auf der linken Seite
+description: Erstellt tiefgestellte und hochgestellte Schrift auf der linken Seite
 type: docs
 weight: 140
 url: /de/aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheleft/
 ---
 
-## SetSubSuperscriptOnTheLeft(IMathElement, IMathElement) {#setsubsuperscriptontheleft}
+## SetSubSuperscriptOnTheLeft(IMathElement, IMathElement) {#setsubsuperscriptontheleft}
 
-Erstellt Subscript und Superscript auf der linken Seite
+Erstellt tiefgestellte und hochgestellte Schrift auf der linken Seite
 
 ```csharp
 public IMathLeftSubSuperscriptElement SetSubSuperscriptOnTheLeft(IMathElement subscript, 
@@ -18,12 +18,12 @@ public IMathLeftSubSuperscriptElement SetSubSuperscriptOnTheLeft(IMathElement su
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| subscript | IMathElement | Subscript (unterer Index auf der linken Seite) |
-| superscript | IMathElement | Superscript (oberer Index auf der linken Seite) |
+| subscript | IMathElement | Tiefgestellt (unterer Index auf der linken Seite) |
+| superscript | IMathElement | Hochgestellt (oberer Index auf der linken Seite) |
 
 ### Rückgabewert
 
-Neues Mathelement vom Typ [`IMathLeftSubSuperscriptElement`](../../imathleftsubsuperscriptelement)
+Neues Matheelement vom Typ [`IMathLeftSubSuperscriptElement`](../../imathleftsubsuperscriptelement)
 
 ### Beispiele
 
@@ -37,19 +37,19 @@ IMathElement superscript = new MathematicalText("j");
 IMathLeftSubSuperscriptElement leftSubsuperscript = baseElement.SetSubSuperscriptOnTheLeft(subscript, superscript);
 ```
 
-### Siehe auch
+### Siehe Auch
 
-* Schnittstelle [IMathLeftSubSuperscriptElement](../../imathleftsubsuperscriptelement)
-* Schnittstelle [IMathElement](../../imathelement)
+* Interface [IMathLeftSubSuperscriptElement](../../imathleftsubsuperscriptelement)
+* Interface [IMathElement](../../imathelement)
 * Klasse [MathElementBase](../../mathelementbase)
 * Namespace [Aspose.Slides.MathText](../../mathelementbase)
 * Assembly [Aspose.Slides](../../../)
 
 ---
 
-## SetSubSuperscriptOnTheLeft(string, string) {#setsubsuperscriptontheleft_1}
+## SetSubSuperscriptOnTheLeft(string, string) {#setsubsuperscriptontheleft_1}
 
-Erstellt Subscript und Superscript auf der linken Seite
+Erstellt tiefgestellte und hochgestellte Schrift auf der linken Seite
 
 ```csharp
 public IMathLeftSubSuperscriptElement SetSubSuperscriptOnTheLeft(string subscript, 
@@ -58,12 +58,12 @@ public IMathLeftSubSuperscriptElement SetSubSuperscriptOnTheLeft(string subscrip
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| subscript | String | Subscript (unterer Index auf der linken Seite) |
-| superscript | String | Superscript (oberer Index auf der linken Seite) |
+| subscript | String | Tiefgestellt (unterer Index auf der linken Seite) |
+| superscript | String | Hochgestellt (oberer Index auf der linken Seite) |
 
 ### Rückgabewert
 
-Neues Mathelement vom Typ [`IMathLeftSubSuperscriptElement`](../../imathleftsubsuperscriptelement)
+Neues Matheelement vom Typ [`IMathLeftSubSuperscriptElement`](../../imathleftsubsuperscriptelement)
 
 ### Beispiele
 
@@ -75,9 +75,9 @@ IMathElement baseElement = new MathematicalText("N");
 IMathLeftSubSuperscriptElement leftSubsuperscript = baseElement.SetSubSuperscriptOnTheLeft("i", "j");
 ```
 
-### Siehe auch
+### Siehe Auch
 
-* Schnittstelle [IMathLeftSubSuperscriptElement](../../imathleftsubsuperscriptelement)
+* Interface [IMathLeftSubSuperscriptElement](../../imathleftsubsuperscriptelement)
 * Klasse [MathElementBase](../../mathelementbase)
 * Namespace [Aspose.Slides.MathText](../../mathelementbase)
 * Assembly [Aspose.Slides](../../../)

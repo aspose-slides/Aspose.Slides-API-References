@@ -1,7 +1,7 @@
 ---
 title: ShapeLock
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve los bloqueos de las formas. Solo lectura IBaseShapeLockaspose.slides/ibaseshapelock.
+description: Devuelve bloqueos de formas. Solo lectura IBaseShapeLockaspose.slides/ibaseshapelock.
 type: docs
 weight: 230
 url: /es/aspose.slides/ishape/shapelock/
@@ -15,7 +15,7 @@ Devuelve los bloqueos de la forma. Solo lectura [`IBaseShapeLock`](../../ibasesh
 public IBaseShapeLock ShapeLock { get; }
 ```
 
-### Véase también
+### Vea También
 
 * interfaz [IBaseShapeLock](../../ibaseshapelock)
 * interfaz [IShape](../../ishape)

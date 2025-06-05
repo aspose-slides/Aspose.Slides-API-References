@@ -1,15 +1,15 @@
 ---
 title: ChartDataWorkbook
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Fournit un accès au classeur Excel intégré
+second_title: Référence API Aspose.Slides pour .NET
+description: Fournit un accès au classeur Excel embarqué
 type: docs
 weight: 1300
 url: /fr/aspose.slides.charts/chartdataworkbook/
 ---
 
-## Classe ChartDataWorkbook
+## ChartDataWorkbook class
 
-Fournit un accès au classeur Excel intégré
+Fournit un accès au classeur Excel embarqué
 
 ```csharp
 public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
@@ -25,14 +25,14 @@ public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
 
 | Nom | Description |
 | --- | --- |
-| [CalculateFormulas](../../aspose.slides.charts/chartdataworkbook/calculateformulas)() | Calcule toutes les formules dans le classeur et met à jour les valeurs correspondantes des cellules. |
+| [CalculateFormulas](../../aspose.slides.charts/chartdataworkbook/calculateformulas)() | Calcule toutes les formules dans le classeur et met à jour les valeurs des cellules correspondantes. |
 | [Clear](../../aspose.slides.charts/chartdataworkbook/clear)(int) | Efface toutes les valeurs des cellules sur la feuille |
 | [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_2)(int, string) | Obtient la cellule qui peut être utilisée pour les séries ou catégories de graphiques |
 | [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell)(int, int, int) | Obtient la cellule qui peut être utilisée pour les séries ou catégories de graphiques |
 | [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_3)(int, string, object) | Obtient la cellule qui peut être utilisée pour les séries ou catégories de graphiques |
 | [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_4)(string, int, int) | Obtient la cellule qui peut être utilisée pour les séries ou catégories de graphiques |
 | [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_1)(int, int, int, object) | Obtient la cellule qui peut être utilisée pour les séries ou catégories de graphiques |
-| [GetCellCollection](../../aspose.slides.charts/chartdataworkbook/getcellcollection)(string, bool) | Obtient l'ensemble de cellules. |
+| [GetCellCollection](../../aspose.slides.charts/chartdataworkbook/getcellcollection)(string, bool) | Obtient l'ensemble des cellules. |
 
 ### Voir Aussi
 

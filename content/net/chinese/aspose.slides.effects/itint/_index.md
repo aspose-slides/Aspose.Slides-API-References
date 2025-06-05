@@ -1,7 +1,7 @@
 ---
 title: ITint
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示渐变效果。按照指定的量将效果颜色值向色调移动或远离。
+description: 表示一个色调效果。按指定量将效果颜色值向色相移动/远离。
 type: docs
 weight: 3420
 url: /zh/aspose.slides.effects/itint/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/itint/
 
 ## ITint 接口
 
-表示渐变效果。按照指定的量将效果颜色值向色调移动或远离。
+表示一个色调效果。按指定量将效果颜色值向色相移动/远离。
 
 ```csharp
 public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransformOperation
@@ -19,10 +19,10 @@ public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransfo
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | 允许获取基本的 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | 允许获取基本的 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | 允许获取基础 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | 允许获取基础 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 接口 [ITintEffectiveData](../itinteffectivedata)

@@ -1,13 +1,13 @@
 ---
-title: Количество
-second_title: Справочник по API Aspose.Sildes для .NET
+title: Count
+second_title: Aspose.Sildes для .NET API Справочник
 description: Получает количество ячеек в коллекции. Только для чтения Int32.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/chartcellcollection/count/
 ---
 
-## Свойство ChartCellCollection.Count
+## ChartCellCollection.Count свойство
 
 Получает количество ячеек в коллекции. Только для чтения Int32.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/chartcellcollection/count/
 public int Count { get; }
 ```
 
-### См. Также
+### См. также
 
 * класс [ChartCellCollection](../../chartcellcollection)
 * пространство имен [Aspose.Slides.Charts](../../chartcellcollection)

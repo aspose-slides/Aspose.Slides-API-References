@@ -1,6 +1,6 @@
 ---
 title: IMathParagraph
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 数学段落，是数学块 IMathBlock 的容器
 type: docs
 weight: 8140
@@ -19,14 +19,14 @@ public interface IMathParagraph : IMathBlockCollection
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIMathBlockCollection](../../aspose.slides.mathtext/imathparagraph/asimathblockcollection) { get; } | 允许获取基本的 IMathBlockCollection 接口 [`IMathBlockCollection`](../imathblockcollection) |
-| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | 段落对齐，默认值：居中对齐 |
+| [AsIMathBlockCollection](../../aspose.slides.mathtext/imathparagraph/asimathblockcollection) { get; } | 允许获取基础 IMathBlockCollection 接口 [`IMathBlockCollection`](../imathblockcollection) |
+| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | 段落对齐 默认值：CenteredAsGroup |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [ToLatex](../../aspose.slides.mathtext/imathparagraph/tolatex)() | 获取以 LaTeX 格式表示的数学方程 |
+| [ToLatex](../../aspose.slides.mathtext/imathparagraph/tolatex)() | 获取 LaTeX 格式的数学方程 |
 | [WriteAsMathMl](../../aspose.slides.mathtext/imathparagraph/writeasmathml)(Stream) | 将此 [`IMathParagraph`](../imathparagraph) 的内容保存为 MathML |
 
 ### 示例
@@ -40,7 +40,7 @@ IMathParagraph mathParagraph = (shape.TextFrame.Paragraphs[0].Portions[0] as Mat
 mathParagraph.Justification = MathJustification.LeftJustified;
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IMathBlockCollection](../imathblockcollection)
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

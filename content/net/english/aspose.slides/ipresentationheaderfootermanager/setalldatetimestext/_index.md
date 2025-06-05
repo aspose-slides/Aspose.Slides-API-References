@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ipresentationheaderfootermanager/setalldatetimestext/
 ---
+
 ## IPresentationHeaderFooterManager.SetAllDateTimesText method
 
 Sets text to all date-time placeholders, including master slides, layout slides and slides.

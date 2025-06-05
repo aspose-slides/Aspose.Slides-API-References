@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Aspose.Sildes for .NET API Reference
-description: 获取应用继承的有效模糊效果数据。
+description: 获取有效的模糊效果数据，并应用继承。
 type: docs
 weight: 40
 url: /zh/aspose.slides.effects/blur/geteffective/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/blur/geteffective/
 
 ## Blur.GetEffective 方法
 
-获取应用继承的有效模糊效果数据。
+获取有效的模糊效果数据，并应用继承。
 
 ```csharp
 public IBlurEffectiveData GetEffective()

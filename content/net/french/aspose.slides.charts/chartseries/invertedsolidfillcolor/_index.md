@@ -1,15 +1,15 @@
 ---
-title: CouleurDeRemplissageSolideInversée
+title: InvertedSolidFillColor
 second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie la couleur solide inversée pour les séries. Pour appliquer le paramètre de couleur, définissez le type de remplissage du format de série sur FillType.Solid. Lecture/écriture de ColorFormataspose.slides/../aspose.slides/colorformat.
+description: Spécifie la couleur solide inversée pour la série. Pour appliquer les réglages de couleur, définissez le type de remplissage de la série sur FillType.Solid. Lecture/écriture de ColorFormataspose.slides/../aspose.slides/colorformat.
 type: docs
 weight: 160
 url: /fr/aspose.slides.charts/chartseries/invertedsolidfillcolor/
 ---
 
-## Propriété ChartSeries.InvertedSolidFillColor
+## ChartSeries.InvertedSolidFillColor propriété
 
-Spécifie la couleur solide inversée pour les séries. Pour appliquer le paramètre de couleur, définissez le type de remplissage du format de série sur FillType.Solid. Lecture/écriture de [`ColorFormat`](../../../aspose.slides/colorformat).
+Spécifie la couleur solide inversée pour la série. Pour appliquer les réglages de couleur, définissez le type de remplissage de la série sur FillType.Solid. Lecture/écriture de [`ColorFormat`](../../../aspose.slides/colorformat).
 
 ```csharp
 public IColorFormat InvertedSolidFillColor { get; }
@@ -18,7 +18,7 @@ public IColorFormat InvertedSolidFillColor { get; }
 ### Voir aussi
 
 * interface [IColorFormat](../../../aspose.slides/icolorformat)
-* classe [ChartSeries](../../chartseries)
+* class [ChartSeries](../../chartseries)
 * namespace [Aspose.Slides.Charts](../../chartseries)
 * assembly [Aspose.Slides](../../../)
 

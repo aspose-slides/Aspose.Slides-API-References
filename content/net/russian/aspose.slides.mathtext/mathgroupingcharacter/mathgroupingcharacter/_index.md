@@ -1,7 +1,7 @@
 ---
 title: MathGroupingCharacter
-second_title: Справочная информация по API Aspose.Slides для .NET
-description: Инициализирует новый экземпляр класса MathGroupingCharacter со стандартным символом группировки U23DF нижняя фигурная скобка
+second_title: Aspose.Sildes для .NET API Reference
+description: Инициализирует новый экземпляр класса MathGroupingCharacter с символом группировки по умолчанию U23DF BOTTOM CURLY BRACKET
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathgroupingcharacter/mathgroupingcharacter/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/mathgroupingcharacter/mathgroupingcharacter/
 
 ## MathGroupingCharacter(IMathElement) {#constructor}
 
-Инициализирует новый экземпляр класса MathGroupingCharacter со стандартным символом группировки U+23DF (нижняя фигурная скобка)
+Инициализирует новый экземпляр класса MathGroupingCharacter с символом группировки по умолчанию U+23DF (BOTTOM CURLY BRACKET)
 
 ```csharp
 public MathGroupingCharacter(IMathElement element)
@@ -17,7 +17,7 @@ public MathGroupingCharacter(IMathElement element)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | Основной элемент, к которому применяется символ группировки |
+| element | IMathElement | Базовый элемент, к которому применяется бар |
 
 ### Примеры
 
@@ -48,10 +48,10 @@ public MathGroupingCharacter(IMathElement element, char character, MathTopBotPos
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | Основной элемент, к которому применяется символ группировки |
+| element | IMathElement | Базовый элемент, к которому применяется бар |
 | character | Char | Символ группировки |
-| position | MathTopBotPositions | Положение символа группировки |
-| verticalJustification | MathTopBotPositions | Вертикальное выравнивание символа группировки |
+| position | MathTopBotPositions | Позиция символа группировки |
+| verticalJustification | MathTopBotPositions | Вертикальное выравнивание символа группы |
 
 ### Примеры
 

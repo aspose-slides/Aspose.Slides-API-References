@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/ithreedformateffectivedata/camera/
 ---
+
 ## IThreeDFormatEffectiveData.Camera property
 
 Returns the settings of a camera. Read-only [`ICameraEffectiveData`](../../icameraeffectivedata).

@@ -1,13 +1,13 @@
 ---
-title: Insérer
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Insert
+second_title: Référence API Aspose.Slides pour .NET
 description: Crée de nouvelles séries de graphiques et les insère dans la collection.
 type: docs
 weight: 50
 url: /fr/aspose.slides.charts/ichartseriescollection/insert/
 ---
 
-## Méthode IChartSeriesCollection.Insert
+## IChartSeriesCollection.Insert méthode
 
 Crée de nouvelles séries de graphiques et les insère dans la collection.
 

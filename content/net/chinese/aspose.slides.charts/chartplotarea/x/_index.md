@@ -1,21 +1,21 @@
 ---
 title: X
-second_title: Aspose.Slides for .NET API Reference
-description: 返回或设置绘图区域边界框左上角的 x 坐标，作为图表宽度的一个分数（从 0 到 1）。可读写的 Single 类型。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置绘图区域边界框的左上角的 x 坐标，作为图表宽度的一个分数（从 0 到 1）。可读写单精度浮点数。
 type: docs
 weight: 130
 url: /zh/aspose.slides.charts/chartplotarea/x/
 ---
 
-## ChartPlotArea.X 属性
+## ChartPlotArea.X property
 
-返回或设置绘图区域边界框左上角的 x 坐标，作为图表宽度的一个分数（从 0 到 1）。可读写的 Single 类型。
+返回或设置绘图区域边界框的左上角的 x 坐标，作为图表宽度的一个分数（从 0 到 1）。可读写单精度浮点数。
 
 ```csharp
 public float X { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * class [ChartPlotArea](../../chartplotarea)
 * namespace [Aspose.Slides.Charts](../../chartplotarea)

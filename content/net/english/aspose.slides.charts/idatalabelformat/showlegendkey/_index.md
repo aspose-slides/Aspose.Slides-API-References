@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.charts/idatalabelformat/showlegendkey/
 ---
+
 ## IDataLabelFormat.ShowLegendKey property
 
 Represents a specified chart's data label legend key display behavior. True if the data label legend key is visible. Read/write Boolean.

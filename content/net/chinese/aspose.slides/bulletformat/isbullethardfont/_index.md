@@ -1,7 +1,7 @@
 ---
 title: IsBulletHardFont
-second_title: Aspose.Sildes for .NET API Reference
-description: 确定项目符号是否具有自己的字体，或者是否从段落中的第一个部分继承字体。如果项目符号具有自己的字体，则为 **NullableBool.True**；如果项目符号从段落中的第一个部分继承字体，则为 **NullableBool.False**。可读写 NullableBoolaspose.slides/nullablebool。
+second_title: Aspose.Slides for .NET API Reference
+description: 确定项目符号是否具有自己的字体，或者是否从段落中的第一部分继承字体。如果项目符号具有自己的字体，则为 **NullableBool.True**，如果项目符号从段落中的第一部分继承字体，则为 **NullableBool.False**。可读/可写 NullableBoolaspose.slides/nullablebool。
 type: docs
 weight: 60
 url: /zh/aspose.slides/bulletformat/isbullethardfont/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/bulletformat/isbullethardfont/
 
 ## BulletFormat.IsBulletHardFont 属性
 
-确定项目符号是否具有自己的字体，或者是否从段落中的第一个部分继承字体。如果项目符号具有自己的字体，则为 **NullableBool.True**；如果项目符号从段落中的第一个部分继承字体，则为 **NullableBool.False**。可读写 [`NullableBool`](../../nullablebool)。
+确定项目符号是否具有自己的字体，或者是否从段落中的第一部分继承字体。如果项目符号具有自己的字体，则为 **NullableBool.True**，如果项目符号从段落中的第一部分继承字体，则为 **NullableBool.False**。可读/可写 [`NullableBool`](../../nullablebool)。
 
 ```csharp
 public NullableBool IsBulletHardFont { get; set; }

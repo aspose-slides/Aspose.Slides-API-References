@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/textframe/paragraphs/
 ---
+
 ## TextFrame.Paragraphs property
 
 Returns the list of all paragraphs in a frame. Read-only [`IParagraphCollection`](../../iparagraphcollection).

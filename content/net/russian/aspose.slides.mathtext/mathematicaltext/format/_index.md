@@ -1,13 +1,13 @@
 ---
-title: Формат
-second_title: Справочник по API Aspose.Slides для .NET
+title: Format
+second_title: Aspose.Slides для .NET API Справочник
 description: Свойства форматирования текста
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/mathematicaltext/format/
 ---
 
-## Свойство MathematicalText.Format
+## MathematicalText.Format свойство
 
 Свойства форматирования текста
 

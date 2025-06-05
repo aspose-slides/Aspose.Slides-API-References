@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/background/fillformat/
 ---
+
 ## Background.FillFormat property
 
 Returns a FillFormat for BackgroundType.OwnBackground fill. Read-only [`IFillFormat`](../../ifillformat).

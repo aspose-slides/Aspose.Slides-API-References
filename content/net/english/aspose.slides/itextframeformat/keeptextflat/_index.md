@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/itextframeformat/keeptextflat/
 ---
+
 ## ITextFrameFormat.KeepTextFlat property
 
 Returns or set keeping text out of 3D scene entirely. Read/write Boolean.

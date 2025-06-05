@@ -1,6 +1,6 @@
 ---
-title: 格式
-second_title: Aspose.Slides for .NET API 参考
+title: Format
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回系列的格式。只读 IFormataspose.slides.charts/iformat。
 type: docs
 weight: 110
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/ichartseries/format/
 public IFormat Format { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IFormat](../../iformat)
 * 接口 [IChartSeries](../../ichartseries)

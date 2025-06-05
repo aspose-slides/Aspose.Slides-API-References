@@ -1,6 +1,6 @@
 ---
 title: ToString
-second_title: Справочная информация по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает строковое представление.
 type: docs
 weight: 50
@@ -19,7 +19,7 @@ public string ToString()
 
 Строковое представление значения String
 
-### См. также
+### Смотрите также
 
 * интерфейс [IStringChartValue](../../istringchartvalue)
 * пространство имен [Aspose.Slides.Charts](../../istringchartvalue)

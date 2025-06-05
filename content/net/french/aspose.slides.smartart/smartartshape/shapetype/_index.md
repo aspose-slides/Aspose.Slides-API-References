@@ -1,7 +1,7 @@
 ---
 title: ShapeType
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne ou définit le type de présélection de géométrie. Notez qu'en changeant la valeur, tous les valeurs d'ajustement seront réinitialisées à leurs valeurs par défaut. Lecture/écriture ShapeTypeaspose.slides/shapetype.
+description: Renvoie ou définit le type de préréglage de la géométrie. Remarque  lors du changement de valeur, tous les valeurs d'ajustement seront réinitialisées à leurs valeurs par défaut. Lecture/écriture ShapeTypeaspose.slides/shapetype.
 type: docs
 weight: 10
 url: /fr/aspose.slides.smartart/smartartshape/shapetype/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.smartart/smartartshape/shapetype/
 
 ## Propriété SmartArtShape.ShapeType
 
-Retourne ou définit le type de présélection de géométrie. Note : en changeant la valeur, toutes les valeurs d'ajustement seront réinitialisées à leurs valeurs par défaut. Lecture/écriture [`ShapeType`](../../../aspose.slides/shapetype).
+Renvoie ou définit le type de préréglage de la géométrie. Remarque : lors du changement de valeur, tous les valeurs d'ajustement seront réinitialisées à leurs valeurs par défaut. Lecture/écriture [`ShapeType`](../../../aspose.slides/shapetype).
 
 ```csharp
 public override ShapeType ShapeType { get; set; }
@@ -19,9 +19,9 @@ public override ShapeType ShapeType { get; set; }
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Lancée lorsque la valeur est ShapeType.NotDefined ou ShapeType.Custom |
+| ArgumentException | Lancé lorsque la valeur est ShapeType.NotDefined ou ShapeType.Custom |
 
-### Voir aussi
+### Voir Aussi
 
 * enum [ShapeType](../../../aspose.slides/shapetype)
 * class [SmartArtShape](../../smartartshape)

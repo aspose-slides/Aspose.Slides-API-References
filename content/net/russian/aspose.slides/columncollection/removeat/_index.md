@@ -7,7 +7,7 @@ weight: 90
 url: /ru/aspose.slides/columncollection/removeat/
 ---
 
-## Метод ColumnCollection.RemoveAt
+## ColumnCollection.RemoveAt метод
 
 Удаляет столбец в указанной позиции из таблицы.
 
@@ -18,9 +18,9 @@ public void RemoveAt(int firstColumnIndex, bool withAttachedRows)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | firstColumnIndex | Int32 | Индекс столбца для удаления. |
-| withAttachedRows | Boolean | Истина, чтобы удалить также все связанные столбцы. |
+| withAttachedRows | Boolean | True для удаления также всех прикрепленных столбцов. |
 
-### См. Также
+### Смотрите также
 
 * класс [ColumnCollection](../../columncollection)
 * пространство имен [Aspose.Slides](../../columncollection)

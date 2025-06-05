@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides for .NET API Referenz
 description: Entfernt einen Farbverlauf-Stopp am angegebenen Index.
 type: docs
 weight: 100
 url: /de/aspose.slides/gradientstopcollection/removeat/
 ---
 
-## GradientStopCollection.RemoveAt-Methode
+## GradientStopCollection.RemoveAt Methode
 
 Entfernt einen Farbverlauf-Stopp am angegebenen Index.
 
@@ -17,7 +17,7 @@ public void RemoveAt(int index)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Index eines Farbverlauf-Stopp, der gelöscht werden soll. |
+| index | Int32 | Index eines Farbverlauf-Stops, der gelöscht werden soll. |
 
 ### Siehe auch
 

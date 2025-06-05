@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export/iembeddedwofffontshtmlcontroller/asihtmlformattingcontroller/
 ---
+
 ## IEmbeddedWoffFontsHtmlController.AsIHtmlFormattingController property
 
 Returns IHtmlFormattingController interface.

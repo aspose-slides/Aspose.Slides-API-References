@@ -1,21 +1,21 @@
 ---
 title: HeightPercents
-second_title: Aspose.Sildes для .NET API справочник
-description: Указывает высоту 3-D графика в процентах от ширины графика от 5 до 500 процентов. Чтение/запись UInt16.
+second_title: Aspose.Slides для .NET API Справочник
+description: Указывает высоту 3-D графика как процент от ширины графика в диапазоне от 5 до 500 процентов. Чтение/запись UInt16.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/irotation3d/heightpercents/
 ---
 
-## Свойство IRotation3D.HeightPercents
+## IRotation3D.HeightPercents свойство
 
-Указывает высоту 3-D графика в процентах от ширины графика (от 5 до 500 процентов). Чтение/запись UInt16.
+Указывает высоту 3-D графика как процент от ширины графика (в диапазоне от 5 до 500 процентов). Чтение/запись UInt16.
 
 ```csharp
 public ushort HeightPercents { get; set; }
 ```
 
-### Также смотрите
+### См. также
 
 * интерфейс [IRotation3D](../../irotation3d)
 * пространство имен [Aspose.Slides.Charts](../../irotation3d)

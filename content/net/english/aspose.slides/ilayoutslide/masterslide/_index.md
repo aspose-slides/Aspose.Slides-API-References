@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/ilayoutslide/masterslide/
 ---
+
 ## ILayoutSlide.MasterSlide property
 
 Returns or sets the master slide for a layout. Read/write [`IMasterSlide`](../../imasterslide).

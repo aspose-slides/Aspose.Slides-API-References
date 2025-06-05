@@ -1,15 +1,15 @@
 ---
 title: ResolveUri
 second_title: Aspose.Slides für .NET API Referenz
-description: Löst die absolute URI aus der Basis- und den relativen URIs.
+description: Löst die absolute URI aus der Basis- und relativen URI auf.
 type: docs
 weight: 30
 url: /de/aspose.slides.import/externalresourceresolver/resolveuri/
 ---
 
-## ExternalResourceResolver.ResolveUri-Methode
+## ExternalResourceResolver.ResolveUri Methode
 
-Löst die absolute URI aus der Basis- und den relativen URIs.
+Löst die absolute URI aus der Basis- und relativen URI auf.
 
 ```csharp
 public virtual string ResolveUri(string baseUri, string relativeUri)

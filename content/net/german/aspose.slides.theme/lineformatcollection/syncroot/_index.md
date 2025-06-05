@@ -7,7 +7,7 @@ weight: 40
 url: /de/aspose.slides.theme/lineformatcollection/syncroot/
 ---
 
-## LineFormatCollection.SyncRoot-Eigenschaft
+## LineFormatCollection.SyncRoot Eigenschaft
 
 Gibt einen Synchronisierungsstamm zurück. Nur-Lese-Objekt.
 
@@ -15,7 +15,7 @@ Gibt einen Synchronisierungsstamm zurück. Nur-Lese-Objekt.
 public object SyncRoot { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [LineFormatCollection](../../lineformatcollection)
 * Namespace [Aspose.Slides.Theme](../../lineformatcollection)

@@ -1,5 +1,5 @@
 ---
-title: Boucle
+title: Loop
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Diaporama en boucle
 type: docs

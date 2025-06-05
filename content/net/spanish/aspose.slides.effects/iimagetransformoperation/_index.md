@@ -15,9 +15,9 @@ Representa un efecto de transformación de imagen abstracto.
 public interface IImageTransformOperation
 ```
 
-### Ver También
+### Consulta También
 
-* namespace [Aspose.Slides.Effects](../../aspose.slides.effects)
-* assembly [Aspose.Slides](../../)
+* espacio de nombres [Aspose.Slides.Effects](../../aspose.slides.effects)
+* ensamblaje [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

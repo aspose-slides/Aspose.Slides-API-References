@@ -1,7 +1,7 @@
 ---
 title: HighlightClick
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si l'hyperlien doit être mis en surbrillance au clic. Booléen en lecture/écriture.
+description: Détermine si l'hyperlien doit être surligné au clic. Booléen en lecture/écriture.
 type: docs
 weight: 140
 url: /fr/aspose.slides/hyperlink/highlightclick/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/hyperlink/highlightclick/
 
 ## Propriété Hyperlink.HighlightClick
 
-Détermine si l'hyperlien doit être mis en surbrillance au clic. Booléen en lecture/écriture.
+Détermine si l'hyperlien doit être surligné au clic. Booléen en lecture/écriture.
 
 ```csharp
 public bool HighlightClick { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [Hyperlink](../../hyperlink)
 * espace de noms [Aspose.Slides](../../hyperlink)

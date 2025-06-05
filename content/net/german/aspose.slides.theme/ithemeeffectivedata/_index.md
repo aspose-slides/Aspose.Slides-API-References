@@ -1,7 +1,7 @@
 ---
 title: IThemeEffectiveData
-second_title: Aspose.Slides für .NET API Referenz
-description: Unveränderliches Objekt, das effektive Themenattribute enthält.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Unveränderliches Objekt, das effektive Themeneigenschaften enthält.
 type: docs
 weight: 11070
 url: /de/aspose.slides.theme/ithemeeffectivedata/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/ithemeeffectivedata/
 
 ## IThemeEffectiveData-Schnittstelle
 
-Unveränderliches Objekt, das effektive Themenattribute enthält.
+Unveränderliches Objekt, das effektive Themeneigenschaften enthält.
 
 ```csharp
 public interface IThemeEffectiveData
@@ -19,8 +19,8 @@ public interface IThemeEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | Gibt das Schriftartschema zurück. Nur-lesend [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
-| [FormatScheme](../../aspose.slides.theme/ithemeeffectivedata/formatscheme) { get; } | Gibt das Formatschriftartschema zurück. Nur-lesend [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata). |
+| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | Gibt das Schriftartschema zurück. Nur-lesbar [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
+| [FormatScheme](../../aspose.slides.theme/ithemeeffectivedata/formatscheme) { get; } | Gibt das Formatschema der Form zurück. Nur-lesbar [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata). |
 
 ## Methoden
 
@@ -32,7 +32,7 @@ public interface IThemeEffectiveData
 
 Diese Schnittstelle wird zusammen mit der [`ITheme`](../itheme) Schnittstelle verwendet, um effektive Formatierungswerte mit angewendeter Vererbung zurückzugeben.
 
-### Siehe Auch
+### Siehe auch
 
 * Namespace [Aspose.Slides.Theme](../../aspose.slides.theme)
 * Assembly [Aspose.Slides](../../)

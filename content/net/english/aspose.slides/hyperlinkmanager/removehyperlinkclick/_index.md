@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/hyperlinkmanager/removehyperlinkclick/
 ---
+
 ## HyperlinkManager.RemoveHyperlinkClick method
 
 Removes hyperlink on click.

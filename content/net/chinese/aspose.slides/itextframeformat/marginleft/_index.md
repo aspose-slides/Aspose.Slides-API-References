@@ -1,7 +1,7 @@
 ---
 title: MarginLeft
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回或设置 TextFrame 中的左边距点数。可读写 Double。
+second_title: Aspose.Slides for .NET API 参考
+description: 返回或设置 TextFrame 中的左边距点。可读写 Double。
 type: docs
 weight: 80
 url: /zh/aspose.slides/itextframeformat/marginleft/

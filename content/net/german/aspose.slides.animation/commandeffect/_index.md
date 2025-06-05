@@ -1,7 +1,7 @@
 ---
 title: CommandEffect
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt einen Befehls-Effekt für ein Animationsverhalten dar.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt einen Befehlseffekt für ein Animationsverhalten dar.
 type: docs
 weight: 180
 url: /de/aspose.slides.animation/commandeffect/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/commandeffect/
 
 ## CommandEffect-Klasse
 
-Stellt einen Befehls-Effekt für ein Animationsverhalten dar.
+Stellt einen Befehlseffekt für ein Animationsverhalten dar.
 
 ```csharp
 public class CommandEffect : Behavior, ICommandEffect
@@ -25,15 +25,15 @@ public class CommandEffect : Behavior, ICommandEffect
 
 | Name | Beschreibung |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Gibt an, ob Animationsverhalten akkumuliert werden. Lese-/Schreibzugriff [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Gibt an, ob das aktuelle Animationsverhalten mit anderen laufenden Animationen kombiniert wird. Lese-/Schreibzugriff [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Stellt dar, ob Animationsverhalten akkumuliert werden. Lese-/Schreibzugriff [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Stellt dar, ob das aktuelle Animationsverhalten mit anderen laufenden Animationen kombiniert wird. Lese-/Schreibzugriff [`BehaviorAdditiveType`](../behavioradditivetype). |
 | [CommandString](../../aspose.slides.animation/commandeffect/commandstring) { get; set; } | Definiert den Befehlsstring. Lese-/Schreibzugriff String. |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Stellt die Eigenschaften des Verhaltens dar. Nur-Lesezugriff [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [ShapeTarget](../../aspose.slides.animation/commandeffect/shapetarget) { get; set; } | Definiert die Formziel des Befehls-Effekts. Lese-/Schreibzugriff [`IShape`](../../aspose.slides/ishape). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Stellt die Zeitparameter für das Effektverhalten dar. Lese-/Schreibzugriff [`ITiming`](../itiming). |
-| [Type](../../aspose.slides.animation/commandeffect/type) { get; set; } | Definiert den Befehls-Effekt-Typ des Verhaltens. Lese-/Schreibzugriff [`CommandEffectType`](../commandeffecttype). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Stellt Eigenschaften des Verhaltens dar. Nur Lesezugriff [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [ShapeTarget](../../aspose.slides.animation/commandeffect/shapetarget) { get; set; } | Definiert das Zielshape des Befehlseffekts. Lese-/Schreibzugriff [`IShape`](../../aspose.slides/ishape). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Stellt Zeitangaben für das Effektverhalten dar. Lese-/Schreibzugriff [`ITiming`](../itiming). |
+| [Type](../../aspose.slides.animation/commandeffect/type) { get; set; } | Definiert den Befehlseffekt-Typ des Verhaltens. Lese-/Schreibzugriff [`CommandEffectType`](../commandeffecttype). |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [Behavior](../behavior)
 * Schnittstelle [ICommandEffect](../icommandeffect)

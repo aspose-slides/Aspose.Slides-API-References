@@ -1,6 +1,6 @@
 ---
 title: WriteAsEmf
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 将幻灯片内容保存为 EMF 文件。
 type: docs
 weight: 130
@@ -27,7 +27,7 @@ public void WriteAsEmf(Stream stream)
 
 ### 示例
 
-以下代码示例演示如何将 PowerPoint 演示文稿中的第一张幻灯片转换为一个元文件。
+以下代码示例演示如何将 PowerPoint 演示文稿中的第一张幻灯片转换为元文件。
 
 ```csharp
 [C#]

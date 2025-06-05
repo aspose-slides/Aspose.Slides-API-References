@@ -1,7 +1,7 @@
 ---
 title: SetRotation
-second_title: Aspose.Slides for .NET API 参考
-description: 旋转通过使用纬度坐标、经度坐标以及围绕轴的旋转来定义，作为纬度和经度坐标。
+second_title: Aspose.Sildes for .NET API Reference
+description: 旋转是通过使用纬度坐标、经度坐标和围绕轴的旋转来定义的，纬度和经度坐标就是这个轴。
 type: docs
 weight: 40
 url: /zh/aspose.slides/ilightrig/setrotation/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ilightrig/setrotation/
 
 ## ILightRig.SetRotation 方法
 
-旋转通过使用纬度坐标、经度坐标以及围绕轴的旋转来定义，作为纬度和经度坐标。
+旋转是通过使用纬度坐标、经度坐标和围绕轴的旋转来定义的，纬度和经度坐标就是这个轴。
 
 ```csharp
 public void SetRotation(float latitude, float longitude, float revolution)

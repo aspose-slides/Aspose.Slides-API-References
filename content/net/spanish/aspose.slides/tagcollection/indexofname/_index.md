@@ -1,13 +1,13 @@
 ---
 title: IndexOfName
-second_title: Aspose.Slides para .NET API Reference
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Devuelve el índice basado en cero de la clave especificada en la colección.
 type: docs
 weight: 130
 url: /es/aspose.slides/tagcollection/indexofname/
 ---
 
-## Método TagCollection.IndexOfName
+## TagCollection.IndexOfName método
 
 Devuelve el índice basado en cero de la clave especificada en la colección.
 
@@ -21,12 +21,12 @@ public int IndexOfName(string name)
 
 ### Valor de Retorno
 
-El índice basado en cero de la clave, si se encuentra la clave en la colección; de lo contrario, -1.
+El índice basado en cero de la clave, si la clave se encuentra en la colección; de lo contrario, -1.
 
 ### Véase También
 
 * clase [TagCollection](../../tagcollection)
 * espacio de nombres [Aspose.Slides](../../tagcollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

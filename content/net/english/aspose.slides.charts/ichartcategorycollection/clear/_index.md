@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/ichartcategorycollection/clear/
 ---
+
 ## IChartCategoryCollection.Clear method
 
 Removes all elements from the collection.

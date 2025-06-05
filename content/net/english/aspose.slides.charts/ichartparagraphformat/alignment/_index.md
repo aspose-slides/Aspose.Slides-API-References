@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/ichartparagraphformat/alignment/
 ---
+
 ## IChartParagraphFormat.Alignment property
 
 Returns or sets the text alignment in a paragraph. Read/write [`TextAlignment`](../../../aspose.slides/textalignment).

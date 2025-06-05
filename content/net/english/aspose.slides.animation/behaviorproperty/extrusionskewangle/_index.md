@@ -6,6 +6,7 @@ type: docs
 weight: 200
 url: /aspose.slides.animation/behaviorproperty/extrusionskewangle/
 ---
+
 ## BehaviorProperty.ExtrusionSkewAngle property
 
 Represents 'extrusion.skewangle' property

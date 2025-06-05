@@ -1,28 +1,28 @@
 ---
 title: IsGrouped
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Determina si la forma está agrupada. Booleano de solo lectura.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Determina si la forma está agrupada. Solo lectura Boolean.
 type: docs
 weight: 140
 url: /es/aspose.slides/ishape/isgrouped/
 ---
 
-## Propiedad IShape.IsGrouped
+## IShape.IsGrouped propiedad
 
-Determina si la forma está agrupada. Booleano de solo lectura.
+Determina si la forma está agrupada. Solo lectura Boolean.
 
 ```csharp
 public bool IsGrouped { get; }
 ```
 
-### Comentarios
+### Observaciones
 
-La propiedad [`ParentGroup`](../parentgroup) devuelve el objeto GroupShape padre si la forma está agrupada.
+La propiedad [`ParentGroup`](../parentgroup) retorna el objeto GroupShape padre si la forma está agrupada.
 
 ### Véase también
 
 * interfaz [IShape](../../ishape)
 * espacio de nombres [Aspose.Slides](../../ishape)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

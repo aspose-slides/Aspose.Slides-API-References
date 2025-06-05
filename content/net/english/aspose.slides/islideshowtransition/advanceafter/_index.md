@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/islideshowtransition/advanceafter/
 ---
+
 ## ISlideShowTransition.AdvanceAfter property
 
 This attribute specifies if the slideshow will move to the next slide after a certain time. Read/write Boolean.

@@ -1,7 +1,7 @@
 ---
 title: BrowsedAtKiosk
 second_title: Aspose.Sildes for .NET API Reference
-description: 初始化 BrowsedAtKiosk 类的新实例。
+description: 初始化一个新的 BrowsedAtKiosk 类实例。
 type: docs
 weight: 10
 url: /zh/aspose.slides/browsedatkiosk/browsedatkiosk/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/browsedatkiosk/browsedatkiosk/
 
 ## BrowsedAtKiosk 构造函数
 
-初始化 BrowsedAtKiosk 类的新实例。
+初始化一个新的 BrowsedAtKiosk 类实例。
 
 ```csharp
 public BrowsedAtKiosk()
@@ -26,7 +26,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 另请参阅
+### 参见
 
 * class [BrowsedAtKiosk](../../browsedatkiosk)
 * namespace [Aspose.Slides](../../browsedatkiosk)

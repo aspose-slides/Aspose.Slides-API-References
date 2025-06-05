@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.animation/seteffect/to/
 ---
+
 ## SetEffect.To property
 
 Specifies the certain attribute of a effect after an animation effect. Represents point value. Only: bool, ColorFormat, float, int, string. Read/write Object.

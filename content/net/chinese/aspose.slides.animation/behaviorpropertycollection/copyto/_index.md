@@ -1,7 +1,7 @@
 ---
-title: 复制到
-second_title: Aspose.Slides for .NET API 参考
-description: 从特定的数组索引开始，将 ICollection 的元素复制到数组。
+title: CopyTo
+second_title: Aspose.Sildes for .NET API Reference
+description: 将 ICollection 的元素复制到从特定数组索引开始的数组中。
 type: docs
 weight: 70
 url: /zh/aspose.slides.animation/behaviorpropertycollection/copyto/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/behaviorpropertycollection/copyto/
 
 ## BehaviorPropertyCollection.CopyTo 方法
 
-从特定的数组索引开始，将 ICollection 的元素复制到数组。
+将 ICollection 的元素复制到数组中，从特定数组索引开始。
 
 ```csharp
 public void CopyTo(IBehaviorProperty[] array, int arrayIndex)
@@ -17,8 +17,8 @@ public void CopyTo(IBehaviorProperty[] array, int arrayIndex)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| array | IBehaviorProperty[] | 一维数组，作为从 ICollection 复制的元素的目标。数组必须具有零基索引。 |
-| arrayIndex | Int32 | 在 *array* 中复制开始的零基索引。 |
+| array | IBehaviorProperty[] | 作为从 ICollection 复制的元素目标的一维数组。数组必须具有零基索引。 |
+| arrayIndex | Int32 | 在 *array* 中开始复制的零基索引。 |
 
 ### 异常
 
@@ -26,7 +26,7 @@ public void CopyTo(IBehaviorProperty[] array, int arrayIndex)
 | --- | --- |
 | ArgumentNullException | *array* 为 null。 |
 | ArgumentOutOfRangeException | *arrayIndex* 小于 0。 |
-| ArgumentException | 源 ICollection 中的元素数量大于从 *arrayIndex* 到目标 *array* 末尾的可用空间。 |
+| ArgumentException | 来源 ICollection 中的元素数量大于从 *arrayIndex* 到目标 *array* 末尾的可用空间。 |
 
 ### 另见
 

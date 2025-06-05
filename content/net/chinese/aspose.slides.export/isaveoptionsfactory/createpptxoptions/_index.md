@@ -1,6 +1,6 @@
 ---
 title: CreatePptxOptions
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 创建 PPTX 保存选项。
 type: docs
 weight: 10
@@ -19,7 +19,7 @@ public IPptxOptions CreatePptxOptions()
 
 保存选项。
 
-### 另请参见
+### 参见
 
 * 接口 [IPptxOptions](../../ipptxoptions)
 * 接口 [ISaveOptionsFactory](../../isaveoptionsfactory)

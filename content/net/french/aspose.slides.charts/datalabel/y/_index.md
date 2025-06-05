@@ -1,7 +1,7 @@
 ---
 title: Y
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit la coordonnée y d'un titre en tant que fraction de la hauteur du graphique. Lecture/écriture Single.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Retourne ou définit la coordonnée y d'un titre en tant que fraction de la hauteur du graphique. Lecture/écriture Simple.
 type: docs
 weight: 170
 url: /fr/aspose.slides.charts/datalabel/y/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/datalabel/y/
 
 ## Propriété DataLabel.Y
 
-Renvoie ou définit la coordonnée y d'un titre en tant que fraction de la hauteur du graphique. Lecture/écriture Single.
+Retourne ou définit la coordonnée y d'un titre en tant que fraction de la hauteur du graphique. Lecture/écriture Simple.
 
 ```csharp
 public float Y { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [DataLabel](../../datalabel)
 * espace de noms [Aspose.Slides.Charts](../../datalabel)

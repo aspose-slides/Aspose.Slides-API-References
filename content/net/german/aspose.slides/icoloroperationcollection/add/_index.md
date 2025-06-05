@@ -1,15 +1,15 @@
 ---
-title: Hinzufügen
-second_title: Aspose.Slides für .NET API Referenz
-description: Fügt eine neue Operation am Ende der Sammlung hinzu.
+title: Add
+second_title: Aspose.Sildes für .NET API Referenz
+description: Fügt eine neue Operation ans Ende der Sammlung hinzu.
 type: docs
 weight: 20
 url: /de/aspose.slides/icoloroperationcollection/add/
 ---
 
-## Hinzufügen(ColorTransformOperation, float) {#add_1}
+## Add(ColorTransformOperation, float) {#add_1}
 
-Fügt eine neue Operation am Ende der Sammlung hinzu.
+Fügt eine neue Operation ans Ende der Sammlung hinzu.
 
 ```csharp
 public IColorOperation Add(ColorTransformOperation operation, float parameter)
@@ -34,9 +34,9 @@ Hinzugefügte Operation.
 
 ---
 
-## Hinzufügen(ColorTransformOperation) {#add}
+## Add(ColorTransformOperation) {#add}
 
-Fügt eine neue Operation am Ende der Sammlung hinzu.
+Fügt eine neue Operation ans Ende der Sammlung hinzu.
 
 ```csharp
 public IColorOperation Add(ColorTransformOperation operation)

@@ -1,6 +1,6 @@
 ---
 title: IChartDataWorksheetCollection
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Représente la collection de feuilles de calcul du classeur de données de graphique.
 type: docs
 weight: 1800
@@ -19,7 +19,7 @@ public interface IChartDataWorksheetCollection : IGenericCollection<IChartDataWo
 
 | Nom | Description |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartdataworksheetcollection/item) { get; } | Retourne la feuille de calcul par index. |
+| [Item](../../aspose.slides.charts/ichartdataworksheetcollection/item) { get; } | Renvoie la feuille de calcul par index. |
 
 ### Exemples
 

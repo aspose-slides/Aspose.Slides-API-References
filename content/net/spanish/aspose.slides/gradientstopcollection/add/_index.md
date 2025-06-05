@@ -1,7 +1,7 @@
 ---
-title: Agregar
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Crea el nuevo punto de degradado y lo agrega al final de la colección.
+title: Add
+second_title: Aspose.Slides para referencia de la API de .NET
+description: Crea el nuevo punto de degradado y lo añade al final de la colección.
 type: docs
 weight: 50
 url: /es/aspose.slides/gradientstopcollection/add/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/gradientstopcollection/add/
 
 ## Add(float, Color) {#add_2}
 
-Crea el nuevo punto de degradado y lo agrega al final de la colección.
+Crea el nuevo punto de degradado y lo añade al final de la colección.
 
 ```csharp
 public IGradientStop Add(float position, Color color)
@@ -35,7 +35,7 @@ public IGradientStop Add(float position, Color color)
 
 ## Add(float, PresetColor) {#add}
 
-Crea el nuevo punto de degradado y lo agrega al final de la colección.
+Crea el nuevo punto de degradado y lo añade al final de la colección.
 
 ```csharp
 public IGradientStop Add(float position, PresetColor presetColor)
@@ -62,7 +62,7 @@ public IGradientStop Add(float position, PresetColor presetColor)
 
 ## Add(float, SchemeColor) {#add_1}
 
-Crea el nuevo punto de degradado y lo agrega al final de la colección.
+Crea el nuevo punto de degradado y lo añade al final de la colección.
 
 ```csharp
 public IGradientStop Add(float position, SchemeColor schemeColor)

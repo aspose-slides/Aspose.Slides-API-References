@@ -1,6 +1,6 @@
 ---
 title: Direction
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Direction de la transition. Lecture/écriture TransitionEightDirectionTypeaspose.slides.slideshow/transitioneightdirectiontype.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Direction de la transition. Lecture/écriture [`TransitionEightDirectionType`](.
 public TransitionEightDirectionType Direction { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [TransitionEightDirectionType](../../transitioneightdirectiontype)
 * class [EightDirectionTransition](../../eightdirectiontransition)

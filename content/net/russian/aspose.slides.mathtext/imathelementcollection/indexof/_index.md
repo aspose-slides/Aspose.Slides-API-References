@@ -1,6 +1,6 @@
 ---
 title: IndexOf
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Reference
 description: Определяет индекс конкретного математического элемента в коллекции.
 type: docs
 weight: 80
@@ -17,7 +17,7 @@ public int IndexOf(IMathElement item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | IMathElement | Элемент для поиска в коллекции. |
+| item | IMathElement | Элемент, который нужно найти в коллекции. |
 
 ### Возвращаемое значение
 

@@ -1,6 +1,6 @@
 ---
 title: ColorEffect
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Slides для .NET API Справочник
 description: Создает новый экземпляр.
 type: docs
 weight: 10

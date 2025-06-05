@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/imathradicalfactory/createmathradical/
 ---
+
 ## IMathRadicalFactory.CreateMathRadical method
 
 Creates a math radical

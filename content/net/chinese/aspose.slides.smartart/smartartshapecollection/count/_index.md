@@ -1,6 +1,6 @@
 ---
-title: 计数
-second_title: Aspose.Slides for .NET API 参考
+title: Count
+second_title: Aspose.Sildes for .NET API 参考
 description: 获取集合中实际包含的元素数量。只读 Int32。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.smartart/smartartshapecollection/count/
 public int Count { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [SmartArtShapeCollection](../../smartartshapecollection)
 * namespace [Aspose.Slides.SmartArt](../../smartartshapecollection)

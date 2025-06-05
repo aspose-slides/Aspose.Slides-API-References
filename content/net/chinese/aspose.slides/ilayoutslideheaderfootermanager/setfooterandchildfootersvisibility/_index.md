@@ -1,15 +1,15 @@
 ---
-title: 设置页脚和子页脚可见性
-second_title: Aspose.Slides for .NET API 参考
-description: 更改布局幻灯片页脚占位符和所有子页脚占位符的可见性。子占位符是指包含在依赖幻灯片上的占位符。依赖幻灯片使用并依赖于母版幻灯片。
+title: SetFooterAndChildFootersVisibility
+second_title: Aspose.Sildes for .NET API Reference
+description: 更改布局幻灯片页脚占位符和所有子页脚占位符的可见性。子占位符意味着占位符包含在依赖幻灯片上。依赖幻灯片使用并依赖于母版幻灯片。
 type: docs
 weight: 50
 url: /zh/aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility/
 ---
 
-## ILayoutSlideHeaderFooterManager.SetFooterAndChildFootersVisibility 方法
+## ILayoutSlideHeaderFooterManager.SetFooterAndChildFootersVisibility method
 
-更改布局幻灯片页脚占位符和所有子页脚占位符的可见性。子占位符是指包含在依赖幻灯片上的占位符。依赖幻灯片使用并依赖于母版幻灯片。
+更改布局幻灯片页脚占位符和所有子页脚占位符的可见性。子占位符意味着占位符包含在依赖幻灯片上。依赖幻灯片使用并依赖于母版幻灯片。
 
 ```csharp
 public void SetFooterAndChildFootersVisibility(bool isVisible)
@@ -17,9 +17,9 @@ public void SetFooterAndChildFootersVisibility(bool isVisible)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| isVisible | 布尔值 | true - 使页脚占位符可见，否则 - 隐藏它们。 |
+| isVisible | Boolean | true - 使页脚占位符可见，反之 - 隐藏它们。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [ILayoutSlideHeaderFooterManager](../../ilayoutslideheaderfootermanager)
 * 命名空间 [Aspose.Slides](../../ilayoutslideheaderfootermanager)

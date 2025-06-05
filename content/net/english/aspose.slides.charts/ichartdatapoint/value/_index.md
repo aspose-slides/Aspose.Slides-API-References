@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides.charts/ichartdatapoint/value/
 ---
+
 ## IChartDataPoint.Value property
 
 Returns the value of chart data point. Read-only [`IDoubleChartValue`](../../idoublechartvalue).

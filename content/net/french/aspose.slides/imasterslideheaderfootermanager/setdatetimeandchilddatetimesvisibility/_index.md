@@ -1,15 +1,15 @@
 ---
 title: SetDateTimeAndChildDateTimesVisibility
-second_title: Aspose.Slides pour .NET Référence API
-description: Change la visibilité de l'espace réservé à la date-heure de la diapositive maître et de tous les espaces réservés à la date-heure enfants. Les espaces réservés enfants signifient que les espaces réservés sont contenus dans des diapositives de disposition dépendantes et des diapositives dépendantes. Les diapositives de disposition dépendantes et les diapositives utilisent et dépendent de la diapositive maître.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Change la visibilité du champ de date-heure de la diapositive maître et de tous les champs de date-heure enfants. Les espaces réservés enfants signifient que les espaces réservés sont contenus dans des diapositives de mise en page dépendantes et des diapositives dépendantes. Les diapositives de mise en page dépendantes et les diapositives utilisent et dépendent de la diapositive maître.
 type: docs
 weight: 30
 url: /fr/aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility/
 ---
 
-## IMasterSlideHeaderFooterManager.SetDateTimeAndChildDateTimesVisibility méthode
+## IMasterSlideHeaderFooterManager.SetDateTimeAndChildDateTimesVisibility method
 
-Change la visibilité de l'espace réservé à la date-heure de la diapositive maître et de tous les espaces réservés à la date-heure enfants. Les espaces réservés enfants signifient que les espaces réservés sont contenus dans des diapositives de disposition dépendantes et des diapositives dépendantes. Les diapositives de disposition dépendantes et les diapositives utilisent et dépendent de la diapositive maître.
+Change la visibilité du champ de date-heure de la diapositive maître et de tous les champs de date-heure enfants. Les espaces réservés enfants signifient que les espaces réservés sont contenus dans des diapositives de mise en page dépendantes et des diapositives dépendantes. Les diapositives de mise en page dépendantes et les diapositives utilisent et dépendent de la diapositive maître.
 
 ```csharp
 public void SetDateTimeAndChildDateTimesVisibility(bool isVisible)
@@ -17,9 +17,9 @@ public void SetDateTimeAndChildDateTimesVisibility(bool isVisible)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| isVisible | Boolean | true - rend les espaces réservés à la date-heure visibles, sinon - les cache. |
+| isVisible | Boolean | true - rend les champs de date-heure visibles, sinon - les cache. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMasterSlideHeaderFooterManager](../../imasterslideheaderfootermanager)
 * namespace [Aspose.Slides](../../imasterslideheaderfootermanager)

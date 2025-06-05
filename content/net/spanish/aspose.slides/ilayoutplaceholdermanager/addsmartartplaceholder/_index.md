@@ -1,7 +1,7 @@
 ---
 title: AddSmartArtPlaceholder
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Agrega una nueva forma de marcador de posición a la diapositiva de diseño para contener un diagrama SmartArt.
+description: Agrega una nueva forma de marcador de posición a la diapositiva de diseño para contener un diagrama de SmartArt.
 type: docs
 weight: 60
 url: /es/aspose.slides/ilayoutplaceholdermanager/addsmartartplaceholder/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/ilayoutplaceholdermanager/addsmartartplaceholder/
 
 ## ILayoutPlaceholderManager.AddSmartArtPlaceholder método
 
-Agrega una nueva forma de marcador de posición a la diapositiva de diseño para contener un diagrama SmartArt.
+Agrega una nueva forma de marcador de posición a la diapositiva de diseño para contener un diagrama de SmartArt.
 
 ```csharp
 public IAutoShape AddSmartArtPlaceholder(float x, float y, float width, float height)
@@ -22,13 +22,13 @@ public IAutoShape AddSmartArtPlaceholder(float x, float y, float width, float he
 | width | Single | El ancho de la nueva forma de marcador de posición. |
 | height | Single | La altura de la nueva forma de marcador de posición. |
 
-### Valor de Retorno
+### Valor de retorno
 
-[`IAutoShape`](../../iautoshape) creado con un marcador de posición SmartArt.
+Creado [`IAutoShape`](../../iautoshape) con un marcador de posición de SmartArt.
 
 ### Ejemplos
 
-El siguiente ejemplo muestra cómo agregar la forma de marcador de posición SmartArt a la diapositiva de diseño.
+El siguiente ejemplo muestra cómo agregar la forma de marcador de posición de SmartArt a la diapositiva de diseño.
 
 ```csharp
 [C#]
@@ -39,11 +39,11 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Véase También
+### Véase también
 
 * interfaz [IAutoShape](../../iautoshape)
 * interfaz [ILayoutPlaceholderManager](../../ilayoutplaceholdermanager)
 * espacio de nombres [Aspose.Slides](../../ilayoutplaceholdermanager)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

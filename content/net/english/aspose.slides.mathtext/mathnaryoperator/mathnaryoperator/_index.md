@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/mathnaryoperator/mathnaryoperator/
 ---
+
 ## MathNaryOperator(char, IMathElement, IMathElement, IMathElement) {#constructor_2}
 
 Initializes a new instance of the MathNaryOperator class.

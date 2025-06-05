@@ -1,6 +1,6 @@
 ---
-title: 行间距规则
-second_title: Aspose.Slides for .NET API 参考
+title: RowSpacingRule
+second_title: Aspose.Sildes for .NET API Reference
 description: 数组元素之间的垂直间距类型
 type: docs
 weight: 70
@@ -17,7 +17,7 @@ public MathRowSpacingRule RowSpacingRule { get; set; }
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -25,7 +25,7 @@ IMathArray mathArray = new MathArray(new MathematicalText("item1"));
 mathArray.RowSpacingRule = MathRowSpacingRule.OneAndAHalfLineGap;
 ```
 
-### 另请参见
+### 另见
 
 * enum [MathRowSpacingRule](../../mathrowspacingrule)
 * interface [IMathArray](../../imatharray)

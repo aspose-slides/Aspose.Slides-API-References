@@ -1,15 +1,15 @@
 ---
-title: Степень
-second_title: Справочник по API Aspose.Slides для .NET
-description: Аргумент степени
+title: Degree
+second_title: Aspose.Sildes для .NET API Reference
+description: Аргумент Degree
 type: docs
 weight: 30
 url: /ru/aspose.slides.mathtext/mathradical/degree/
 ---
 
-## Свойство MathRadical.Degree
+## MathRadical.Degree свойство
 
-Аргумент степени
+Аргумент Degree
 
 ```csharp
 public IMathElement Degree { get; }

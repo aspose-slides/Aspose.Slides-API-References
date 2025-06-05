@@ -1,7 +1,7 @@
 ---
 title: ErrorBarsCustomValues
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt die Fehlerbalkenwerte der Serie im Falle des benutzerdefinierten Wertetyps dar. Schreibgeschütztes IErrorBarsCustomValuesaspose.slides/ierrorbarscustomvalues.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt die Werte der Fehlerbalken der Serie im Falle des benutzerdefinierten Wertetyps dar. Nur für Lesezwecke IErrorBarsCustomValuesaspose.slides/ierrorbarscustomvalues.
 type: docs
 weight: 80
 url: /de/aspose.slides.charts/chartdatapoint/errorbarscustomvalues/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartdatapoint/errorbarscustomvalues/
 
 ## ChartDataPoint.ErrorBarsCustomValues-Eigenschaft
 
-Stellt die Fehlerbalkenwerte der Serie im Falle des benutzerdefinierten Wertetyps dar. Schreibgeschützt [`IErrorBarsCustomValues`](../../ierrorbarscustomvalues).
+Stellt die Werte der Fehlerbalken der Serie im Falle des benutzerdefinierten Wertetyps dar. Nur für Lesezwecke [`IErrorBarsCustomValues`](../../ierrorbarscustomvalues).
 
 ```csharp
 public IErrorBarsCustomValues ErrorBarsCustomValues { get; }

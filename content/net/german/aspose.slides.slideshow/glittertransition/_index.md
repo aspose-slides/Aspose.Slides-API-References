@@ -1,7 +1,7 @@
 ---
 title: GlitterTransition
-second_title: Aspose.Slides für .NET API Referenz
-description: Glitter-Folienübergangseffekt.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Glitter-Slide-Übergangseffekt.
 type: docs
 weight: 9740
 url: /de/aspose.slides.slideshow/glittertransition/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.slideshow/glittertransition/
 
 ## GlitterTransition-Klasse
 
-Glitter-Folienübergangseffekt.
+Glitter-Slide-Übergangseffekt.
 
 ```csharp
 public class GlitterTransition : TransitionValueBase, IGlitterTransition
@@ -27,7 +27,7 @@ public class GlitterTransition : TransitionValueBase, IGlitterTransition
 | Name | Beschreibung |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestimmt, ob die beiden Instanzen von TransitionValueBase gleich sind. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ, geeignet für die Verwendung in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ, geeignet für die Verwendung in Hashalgorithmen und Datenstrukturen wie einer Hashtabelle. |
 
 ### Siehe auch
 

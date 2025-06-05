@@ -1,21 +1,21 @@
 ---
 title: SpaceAfter
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit la quantité d'espace après la dernière ligne d'un paragraphe sans héritage. Une valeur positive spécifie le pourcentage de la taille de la police que devrait occuper l'espace blanc. Une valeur négative spécifie la taille de l'espace blanc en points. Lecture/écriture Simple.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Retourne ou définit la quantité d'espace après la dernière ligne d'un paragraphe sans héritage. Une valeur positive spécifie le pourcentage de la taille de police que doit représenter l'espace blanc. Une valeur négative spécifie la taille de l'espace blanc en points. Lecture/écriture Single.
 type: docs
 weight: 140
 url: /fr/aspose.slides/iparagraphformat/spaceafter/
 ---
 
-## Propriété IParagraphFormat.SpaceAfter
+## IParagraphFormat.SpaceAfter propriété
 
-Renvoie ou définit la quantité d'espace après la dernière ligne d'un paragraphe sans héritage. Une valeur positive spécifie le pourcentage de la taille de la police que devrait occuper l'espace blanc. Une valeur négative spécifie la taille de l'espace blanc en points. Lecture/écriture Simple.
+Retourne ou définit la quantité d'espace après la dernière ligne d'un paragraphe sans héritage. Une valeur positive spécifie le pourcentage de la taille de police que doit représenter l'espace blanc. Une valeur négative spécifie la taille de l'espace blanc en points. Lecture/écriture Single.
 
 ```csharp
 public float SpaceAfter { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IParagraphFormat](../../iparagraphformat)
 * namespace [Aspose.Slides](../../iparagraphformat)

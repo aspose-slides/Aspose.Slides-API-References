@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/fonts/latinfont/
 ---
+
 ## Fonts.LatinFont property
 
 Returns or sets the Latin font. Read/write [`IFontData`](../../ifontdata).

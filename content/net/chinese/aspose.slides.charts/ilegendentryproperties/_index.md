@@ -1,6 +1,6 @@
 ---
 title: ILegendEntryProperties
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示图表的图例属性。
 type: docs
 weight: 2070
@@ -19,7 +19,7 @@ public interface ILegendEntryProperties : IFormattedTextContainer
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer) { get; } | 允许获取基础 IFormattedTextContainer 接口。只读 [`IFormattedTextContainer`](../iformattedtextcontainer)。 |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer) { get; } | 允许获取基础的 IFormattedTextContainer 接口。只读 [`IFormattedTextContainer`](../iformattedtextcontainer)。 |
 | [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | 返回或设置图例条目的隐藏标志。可读写布尔值。 |
 
 ### 另见

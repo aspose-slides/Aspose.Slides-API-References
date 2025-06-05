@@ -1,6 +1,6 @@
 ---
 title: RemoveAt
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Références API Aspose.Slides pour .NET
 description: Supprime une partie xml personnalisée à l'index spécifié.
 type: docs
 weight: 100
@@ -17,13 +17,13 @@ public void RemoveAt(int index)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | L'index basé sur zéro de l'élément à supprimer. |
+| index | Int32 | L'index de base zéro de l'élément à supprimer. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | index est inférieur à 0.-ou-index est égal ou supérieur à Count |
+| ArgumentOutOfRangeException | index est inférieur à 0.-ou- index est égal ou supérieur à Count |
 
 ### Voir aussi
 

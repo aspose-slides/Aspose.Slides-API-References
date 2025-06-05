@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.animation/animationtimeline/interactivesequences/
 ---
+
 ## AnimationTimeLine.InteractiveSequences property
 
 Returns collection of interactive sequences. This sequences may contain only effects by "click on shape" with specifies target shape. Read-only [`ISequenceCollection`](../../isequencecollection).

@@ -1,6 +1,6 @@
 ---
-title: Transformar
-second_title: Referencia de API de Aspose.Sildes para .NET
+title: Transform
+second_title: Aspose.Slides para .NET Referencia de API
 description: Obtiene o establece la forma de ajuste de texto. Lectura/escritura TextShapeTypeaspose.slides/textshapetype.
 type: docs
 weight: 150

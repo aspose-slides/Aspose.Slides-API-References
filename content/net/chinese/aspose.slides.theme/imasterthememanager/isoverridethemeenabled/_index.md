@@ -1,6 +1,6 @@
 ---
 title: IsOverrideThemeEnabled
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 确定 OverrideTheme 是否覆盖继承的有效主题 Presentation.MasterTheme。可读/可写布尔值。
 type: docs
 weight: 20

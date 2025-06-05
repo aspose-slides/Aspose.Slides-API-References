@@ -1,7 +1,7 @@
 ---
-title: Вкус
-second_title: Справочник API Aspose.Slides для .NET
-description: Указывает спецификацию markdown для преобразования презентации. По умолчанию используется Multi-markdown.
+title: Flavor
+second_title: Aspose.Sildes для .NET API Справка
+description: Указывает спецификацию markdown для конвертации презентации. По умолчанию используется Multi-markdown.
 type: docs
 weight: 40
 url: /ru/aspose.slides.export/markdownsaveoptions/flavor/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export/markdownsaveoptions/flavor/
 
 ## Свойство MarkdownSaveOptions.Flavor
 
-Указывает спецификацию markdown для преобразования презентации. По умолчанию используется `Multi-markdown`.
+Указывает спецификацию markdown для конвертации презентации. По умолчанию используется `Multi-markdown`.
 
 ```csharp
 public Flavor Flavor { get; set; }

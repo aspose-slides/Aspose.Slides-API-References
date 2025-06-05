@@ -1,6 +1,6 @@
 ---
 title: FindByNameAndInitials
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 根据名称和首字母在集合中查找作者。
 type: docs
 weight: 50
@@ -17,7 +17,7 @@ public ICommentAuthor[] FindByNameAndInitials(string name, string initials)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 要查找的作者的名字。 |
+| name | String | 要查找的作者的名称。 |
 | initials | String | 要查找的作者的首字母。 |
 
 ### 返回值

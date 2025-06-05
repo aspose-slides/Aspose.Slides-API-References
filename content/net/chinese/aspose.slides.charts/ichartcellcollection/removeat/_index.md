@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
-second_title: Aspose.Slides for .NET API Reference
-description: 通过索引从集合中移除一个单元格。
+second_title: Aspose.Sildes for .NET API Reference
+description: 按索引从集合中删除一个单元格。
 type: docs
 weight: 70
 url: /zh/aspose.slides.charts/ichartcellcollection/removeat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ichartcellcollection/removeat/
 
 ## IChartCellCollection.RemoveAt 方法
 
-通过索引从集合中移除一个单元格。
+按索引从集合中删除一个单元格。
 
 ```csharp
 public void RemoveAt(int index)
@@ -19,7 +19,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | 要移除的单元格的索引。 |
 
-### 参见
+### 另请参阅
 
 * 接口 [IChartCellCollection](../../ichartcellcollection)
 * 命名空间 [Aspose.Slides.Charts](../../ichartcellcollection)

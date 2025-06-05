@@ -1,15 +1,15 @@
 ---
-title: GestionnaireDeThème
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie le gestionnaire de thème de substitution. Lecture seule IOverrideThemeManageraspose.slides.theme/ioverridethememanager.
+title: ThemeManager
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Retourne le gestionnaire de thème de substitution. Lecture seule IOverrideThemeManageraspose.slides.theme/ioverridethememanager.
 type: docs
 weight: 20
 url: /fr/aspose.slides.theme/ioverridethemeable/thememanager/
 ---
 
-## Propriété IOverrideThemeable.ThemeManager
+## IOverrideThemeable.ThemeManager property
 
-Renvoie le gestionnaire de thème de substitution. Lecture seule [`IOverrideThemeManager`](../../ioverridethememanager).
+Retourne le gestionnaire de thème de substitution. Lecture seule [`IOverrideThemeManager`](../../ioverridethememanager).
 
 ```csharp
 public IOverrideThemeManager ThemeManager { get; }

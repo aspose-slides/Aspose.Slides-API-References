@@ -1,15 +1,15 @@
 ---
 title: ChartData
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает информацию о связанных или встроенных данных, связанных с диаграммой. Только для чтения IChartDataaspose.slides.charts/ichartdata.
+second_title: Aspose.Slidеs для .NET API Справочник
+description: Возвращает информацию о связанных или встроенных данных, связанных с графиком. Только для чтения IChartData aspose.slides.charts/ichartdata.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/chart/chartdata/
 ---
 
-## Свойство Chart.ChartData
+## Chart.ChartData свойство
 
-Возвращает информацию о связанных или встроенных данных, связанных с диаграммой. Только для чтения [`IChartData`](../../ichartdata).
+Возвращает информацию о связанных или встроенных данных, связанных с графиком. Только для чтения [`IChartData`](../../ichartdata).
 
 ```csharp
 public IChartData ChartData { get; }

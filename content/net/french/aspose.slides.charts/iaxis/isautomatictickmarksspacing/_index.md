@@ -1,7 +1,7 @@
 ---
 title: IsAutomaticTickMarksSpacing
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie la valeur de l'espacement automatique des marques de graduation. Si faux, utilisez la propriété TickMarksSpacing. Booléen en lecture/écriture.
+description: Spécifie la valeur d'espacement automatique des repères. Si faux, utilisez la propriété TickMarksSpacing. Lecture/écriture Boolean.
 type: docs
 weight: 240
 url: /fr/aspose.slides.charts/iaxis/isautomatictickmarksspacing/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/iaxis/isautomatictickmarksspacing/
 
 ## Propriété IAxis.IsAutomaticTickMarksSpacing
 
-Spécifie la valeur de l'espacement automatique des marques de graduation. Si faux : utilisez la propriété TickMarksSpacing. Booléen en lecture/écriture.
+Spécifie la valeur d'espacement automatique des repères. Si faux : utilisez la propriété TickMarksSpacing. Lecture/écriture Boolean.
 
 ```csharp
 public bool IsAutomaticTickMarksSpacing { get; set; }

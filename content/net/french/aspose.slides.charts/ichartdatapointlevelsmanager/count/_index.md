@@ -1,21 +1,21 @@
 ---
-title: Compter
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne le nombre de niveaux de points de données.
+title: Count
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie le nombre de niveaux de points de données.
 type: docs
 weight: 10
 url: /fr/aspose.slides.charts/ichartdatapointlevelsmanager/count/
 ---
 
-## IChartDataPointLevelsManager.Count propriété
+## Propriété IChartDataPointLevelsManager.Count
 
-Retourne le nombre de niveaux de points de données.
+Renvoie le nombre de niveaux de points de données.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IChartDataPointLevelsManager](../../ichartdatapointlevelsmanager)
 * namespace [Aspose.Slides.Charts](../../ichartdatapointlevelsmanager)

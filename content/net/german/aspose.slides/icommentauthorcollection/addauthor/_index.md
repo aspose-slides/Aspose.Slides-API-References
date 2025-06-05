@@ -28,7 +28,7 @@ Neues [`ICommentAuthor`](../../icommentauthor) Objekt.
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Wird ausgelöst, wenn ein Autor mit demselben Namen und denselben Initialen bereits hinzugefügt wurde. |
+| [PptxEditException](../../pptxeditexception) | Wird ausgelöst, wenn ein Autor mit dem gleichen Namen und den gleichen Initialen bereits hinzugefügt wurde. |
 
 ### Siehe Auch
 

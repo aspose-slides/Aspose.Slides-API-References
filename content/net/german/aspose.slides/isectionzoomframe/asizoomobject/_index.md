@@ -17,7 +17,7 @@ public IZoomObject AsIZoomObject { get; }
 
 ### Bemerkungen
 
-Für die COM-Kompatibilität.
+Für COM-Kompatibilität.
 
 ### Siehe auch
 

@@ -1,6 +1,6 @@
 ---
 title: PresetClassType
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Referencia
 description: Define la clase de efecto. Lectura/escritura EffectPresetClassTypeaspose.slides.animation/effectpresetclasstype.
 type: docs
 weight: 60
@@ -15,7 +15,7 @@ Define la clase de efecto. Lectura/escritura [`EffectPresetClassType`](../../eff
 public EffectPresetClassType PresetClassType { get; set; }
 ```
 
-### Véase también
+### Véase También
 
 * enum [EffectPresetClassType](../../effectpresetclasstype)
 * class [Effect](../../effect)

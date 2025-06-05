@@ -1,7 +1,7 @@
 ---
 title: CreateMemoryStreamWrapper
 second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt ein MemoryStream Wrapper.
+description: Erstellt einen MemoryStream Wrapper.
 type: docs
 weight: 30
 url: /de/aspose.slides/streamwrapperfactory/creatememorystreamwrapper/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/streamwrapperfactory/creatememorystreamwrapper/
 
 ## CreateMemoryStreamWrapper() {#creatememorystreamwrapper}
 
-Erstellt ein MemoryStream Wrapper.
+Erstellt einen MemoryStream Wrapper.
 
 ```csharp
 public IStreamWrapper CreateMemoryStreamWrapper()
@@ -26,7 +26,7 @@ public IStreamWrapper CreateMemoryStreamWrapper()
 
 ## CreateMemoryStreamWrapper(byte[]) {#creatememorystreamwrapper_1}
 
-Erstellt ein MemoryStream Wrapper basierend auf dem angegebenen Byte-Array.
+Erstellt einen MemoryStream Wrapper basierend auf dem angegebenen Byte-Array.
 
 ```csharp
 public IStreamWrapper CreateMemoryStreamWrapper(byte[] buffer)

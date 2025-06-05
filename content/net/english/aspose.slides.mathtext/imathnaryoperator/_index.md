@@ -3,9 +3,10 @@ title: IMathNaryOperator
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies an N-ary mathematical object such as Summation and Integral. It consists of an operator a base or operand and optional upper and lower limits. Examples of N-ary operators are Summation Union Intersection Integral
 type: docs
-weight: 7780
+weight: 8110
 url: /aspose.slides.mathtext/imathnaryoperator/
 ---
+
 ## IMathNaryOperator interface
 
 Specifies an N-ary mathematical object, such as Summation and Integral. It consists of an operator, a base (or operand), and optional upper and lower limits. Examples of N-ary operators are: Summation, Union, Intersection, Integral

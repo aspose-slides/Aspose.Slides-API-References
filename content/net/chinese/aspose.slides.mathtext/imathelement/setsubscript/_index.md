@@ -1,6 +1,6 @@
 ---
 title: SetSubscript
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建下标
 type: docs
 weight: 140
@@ -17,11 +17,11 @@ public IMathSubscriptElement SetSubscript(IMathElement subscript)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| subscript | IMathElement | 下标（右侧的下标） |
+| subscript | IMathElement | 下标（右侧的小索引） |
 
 ### 返回值
 
-类型为 [`IMathSubscriptElement`](../../imathsubscriptelement) 的新数学元素
+新创建的数学元素，类型为 [`IMathSubscriptElement`](../../imathsubscriptelement)
 
 ### 示例
 
@@ -53,11 +53,11 @@ public IMathSubscriptElement SetSubscript(string subscript)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| subscript | String | 下标（右侧的下标） |
+| subscript | String | 下标（右侧的小索引） |
 
 ### 返回值
 
-类型为 [`IMathSubscriptElement`](../../imathsubscriptelement) 的新数学元素
+新创建的数学元素，类型为 [`IMathSubscriptElement`](../../imathsubscriptelement)
 
 ### 示例
 

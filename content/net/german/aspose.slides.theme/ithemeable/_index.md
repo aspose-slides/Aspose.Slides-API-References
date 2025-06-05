@@ -25,7 +25,7 @@ public interface IThemeable : ISlideComponent
 
 | Name | Beschreibung |
 | --- | --- |
-| [CreateThemeEffective](../../aspose.slides.theme/ithemeable/createthemeeffective)() | Gibt ein effektives Thema für dieses themisierbare Objekt zurück. |
+| [CreateThemeEffective](../../aspose.slides.theme/ithemeable/createthemeeffective)() | Gibt ein effektives Thema für dieses thematisierbare Objekt zurück. |
 
 ### Siehe auch
 

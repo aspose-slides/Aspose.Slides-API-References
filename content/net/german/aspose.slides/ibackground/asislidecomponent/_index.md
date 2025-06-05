@@ -1,7 +1,7 @@
 ---
 title: AsISlideComponent
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das ISlideComponent-Interface zurück. Nur-lesbares ISlideComponent aspose.slides/islidecomponent.
+description: Gibt das ISlideComponent-Interface zurück. Nur-lesbares ISlideComponentaspose.slides/islidecomponent.
 type: docs
 weight: 20
 url: /de/aspose.slides/ibackground/asislidecomponent/
@@ -15,11 +15,11 @@ Gibt das ISlideComponent-Interface zurück. Nur-lesbares [`ISlideComponent`](../
 public ISlideComponent AsISlideComponent { get; }
 ```
 
-### Anmerkungen
+### Bemerkungen
 
-Für die COM-Kompatibilität.
+Für COM-Kompatibilität.
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ISlideComponent](../../islidecomponent)
 * Schnittstelle [IBackground](../../ibackground)

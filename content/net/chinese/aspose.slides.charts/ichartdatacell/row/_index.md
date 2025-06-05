@@ -1,5 +1,5 @@
 ---
-title: 行
+title: Row
 second_title: Aspose.Slides for .NET API 参考
 description: 返回单元格所在工作表的行索引。只读 Int32。
 type: docs
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/ichartdatacell/row/
 public int Row { get; }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [IChartDataCell](../../ichartdatacell)
 * 命名空间 [Aspose.Slides.Charts](../../ichartdatacell)

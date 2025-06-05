@@ -15,11 +15,11 @@ url: /ru/aspose.slides.effects/iimagetransformoperationcollection/asienumerable/
 public IEnumerable AsIEnumerable { get; }
 ```
 
-### Примечания
+### Замечания
 
 Для совместимости с COM.
 
-### См. Также
+### См. также
 
 * интерфейс [IImageTransformOperationCollection](../../iimagetransformoperationcollection)
 * пространство имен [Aspose.Slides.Effects](../../iimagetransformoperationcollection)

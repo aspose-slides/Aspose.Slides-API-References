@@ -3,9 +3,10 @@ title: SummaryZoomSectionCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of Summary Zoom Section objects.
 type: docs
-weight: 10140
+weight: 10480
 url: /aspose.slides/summaryzoomsectioncollection/
 ---
+
 ## SummaryZoomSectionCollection class
 
 Represents a collection of Summary Zoom Section objects.

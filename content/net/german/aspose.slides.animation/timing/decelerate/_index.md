@@ -1,7 +1,7 @@
 ---
-title: Verzögern
-second_title: Aspose.Slides für .NET API-Referenz
-description: Beschreibt den Prozentsatz der Dauerverzögerungseffektverhaltens. Lesbar/schreibbar Single.
+title: Decelerate
+second_title: Aspose.Sildes für .NET API Referenz
+description: Beschreibt den Prozentsatz der Dauer des Verzögerungseffekts. Lesen/Schreiben Einzelwert.
 type: docs
 weight: 30
 url: /de/aspose.slides.animation/timing/decelerate/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/timing/decelerate/
 
 ## Timing.Decelerate-Eigenschaft
 
-Beschreibt den Prozentsatz der Dauerverzögerungseffektverhaltens. Lesbar/schreibbar Single.
+Beschreibt den Prozentsatz der Dauer des Verzögerungseffekts. Lesen/Schreiben Einzelwert.
 
 ```csharp
 public float Decelerate { get; set; }

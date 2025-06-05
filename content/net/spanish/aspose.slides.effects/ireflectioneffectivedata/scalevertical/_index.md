@@ -1,13 +1,13 @@
 ---
 title: ScaleVertical
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Especifica el factor de escalado vertical, el escalado negativo causa un volteo. porcentajes Solo lectura Doble.
 type: docs
 weight: 110
 url: /es/aspose.slides.effects/ireflectioneffectivedata/scalevertical/
 ---
 
-## Propiedad IReflectionEffectiveData.ScaleVertical
+## IReflectionEffectiveData.ScaleVertical property
 
 Especifica el factor de escalado vertical, el escalado negativo causa un volteo. (porcentajes) Solo lectura Doble.
 
@@ -15,10 +15,10 @@ Especifica el factor de escalado vertical, el escalado negativo causa un volteo.
 public double ScaleVertical { get; }
 ```
 
-### Ver También
+### Véase También
 
-* interfaz [IReflectionEffectiveData](../../ireflectioneffectivedata)
-* espacio de nombres [Aspose.Slides.Effects](../../ireflectioneffectivedata)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IReflectionEffectiveData](../../ireflectioneffectivedata)
+* namespace [Aspose.Slides.Effects](../../ireflectioneffectivedata)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

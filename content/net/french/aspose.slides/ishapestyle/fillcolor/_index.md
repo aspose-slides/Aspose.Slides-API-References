@@ -1,6 +1,6 @@
 ---
-title: CouleurRemplissage
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: FillColor
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Renvoie la couleur de remplissage d'une forme. Lecture seule IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ Renvoie la couleur de remplissage d'une forme. Lecture seule [`IColorFormat`](..
 public IColorFormat FillColor { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IColorFormat](../../icolorformat)
 * interface [IShapeStyle](../../ishapestyle)

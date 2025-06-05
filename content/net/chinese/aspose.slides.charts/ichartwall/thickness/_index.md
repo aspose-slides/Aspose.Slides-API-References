@@ -1,21 +1,21 @@
 ---
-title: 厚度
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置墙的厚度，作为绘图体积最大维度的百分比。可读/可写 Int32。
+title: Thickness
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置墙壁的厚度，作为绘图体积最大尺寸的百分比。可读/可写 Int32。
 type: docs
 weight: 30
 url: /zh/aspose.slides.charts/ichartwall/thickness/
 ---
 
-## IChartWall.Thickness 属性
+## IChartWall.Thickness property
 
-返回或设置墙的厚度，作为绘图体积最大维度的百分比。可读/可写 Int32。
+返回或设置墙壁的厚度，作为绘图体积最大尺寸的百分比。可读/可写 Int32。
 
 ```csharp
 public int Thickness { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IChartWall](../../ichartwall)
 * 命名空间 [Aspose.Slides.Charts](../../ichartwall)

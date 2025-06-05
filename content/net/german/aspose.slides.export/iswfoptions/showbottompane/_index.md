@@ -1,7 +1,7 @@
 ---
 title: ShowBottomPane
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Zeigt/versteckt das untere Fenster. Kann in flashvars überschrieben werden. Standard ist true.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Anzeigen/ausblenden des unteren Bereichs. Kann in flashvars überschrieben werden. Standard ist wahr.
 type: docs
 weight: 70
 url: /de/aspose.slides.export/iswfoptions/showbottompane/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/iswfoptions/showbottompane/
 
 ## ISwfOptions.ShowBottomPane-Eigenschaft
 
-Zeigt/versteckt das untere Fenster. Kann in flashvars überschrieben werden. Standard ist true.
+Anzeigen/ausblenden des unteren Bereichs. Kann in flashvars überschrieben werden. Standard ist wahr.
 
 ```csharp
 public bool ShowBottomPane { get; set; }

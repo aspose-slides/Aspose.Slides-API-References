@@ -1,7 +1,7 @@
 ---
 title: ITextToHtmlConversionOptions
-second_title: Aspose.Slides for .NET API Reference
-description: 从Pptx文本中提取HTML的选项。
+second_title: Aspose.Sildes for .NET API Reference
+description: 从Pptx文本提取HTML的选项。
 type: docs
 weight: 3990
 url: /zh/aspose.slides.export/itexttohtmlconversionoptions/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/itexttohtmlconversionoptions/
 
 ## ITextToHtmlConversionOptions 接口
 
-从Pptx文本中提取HTML的选项。
+从Pptx文本提取HTML的选项。
 
 ```csharp
 public interface ITextToHtmlConversionOptions
@@ -19,10 +19,10 @@ public interface ITextToHtmlConversionOptions
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddClipboardFragmentHeader](../../aspose.slides.export/itexttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | 返回或设置值，指示是否应该添加剪贴板标题。可读写布尔值。 |
-| [EncodingName](../../aspose.slides.export/itexttohtmlconversionoptions/encodingname) { get; set; } | 返回或设置HTML编码名称。该值将被保存到生成的HTML文件中，但由调用者确保文件将以此编码保存。可读写字符串。 |
-| [LinkEmbedController](../../aspose.slides.export/itexttohtmlconversionoptions/linkembedcontroller) { get; set; } | 返回或设置一个回调对象，该对象控制外部对象如何存储。可读写 [`ILinkEmbedController`](../ilinkembedcontroller)。 |
-| [TextInheritanceLimit](../../aspose.slides.export/itexttohtmlconversionoptions/textinheritancelimit) { get; set; } | 返回或设置文本属性的继承深度。可读写 [`TextInheritanceLimit`](./textinheritancelimit)。 |
+| [AddClipboardFragmentHeader](../../aspose.slides.export/itexttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | 返回或设置一个值，指示是否应添加剪贴板标题。可读/写布尔值。 |
+| [EncodingName](../../aspose.slides.export/itexttohtmlconversionoptions/encodingname) { get; set; } | 返回或设置HTML编码名称。此值将保存到生成的HTML文件中，但调用者需要确保文件以此编码保存。可读/写字符串。 |
+| [LinkEmbedController](../../aspose.slides.export/itexttohtmlconversionoptions/linkembedcontroller) { get; set; } | 返回或设置一个回调对象，用于控制外部对象将如何存储。可读/写 [`ILinkEmbedController`](../ilinkembedcontroller)。 |
+| [TextInheritanceLimit](../../aspose.slides.export/itexttohtmlconversionoptions/textinheritancelimit) { get; set; } | 返回或设置文本属性的继承深度。可读/写 [`TextInheritanceLimit`](./textinheritancelimit)。 |
 
 ### 另见
 

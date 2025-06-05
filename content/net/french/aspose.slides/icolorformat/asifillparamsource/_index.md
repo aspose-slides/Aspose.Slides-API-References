@@ -1,15 +1,15 @@
 ---
 title: AsIFillParamSource
 second_title: Référence API Aspose.Slides pour .NET
-description: Retourne l'interface IFillParamSource. Lecture seule IFillParamSource aspose.slides/ifillparamsource.
+description: Renvoie l'interface IFillParamSource. Lecture seule IFillParamSourceaspose.slides/ifillparamsource.
 type: docs
 weight: 10
 url: /fr/aspose.slides/icolorformat/asifillparamsource/
 ---
 
-## Propriété IColorFormat.AsIFillParamSource
+## IColorFormat.AsIFillParamSource propriété
 
-Retourne l'interface IFillParamSource. Lecture seule [`IFillParamSource`](../../ifillparamsource).
+Renvoie l'interface IFillParamSource. Lecture seule [`IFillParamSource`](../../ifillparamsource).
 
 ```csharp
 public IFillParamSource AsIFillParamSource { get; }

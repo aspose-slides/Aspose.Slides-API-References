@@ -1,6 +1,6 @@
 ---
-title: 添加
-second_title: Aspose.Slides for .NET API 参考
+title: Add
+second_title: Aspose.Sildes for .NET API Reference
 description: 将新的图像效果添加到集合的末尾。
 type: docs
 weight: 40
@@ -19,7 +19,7 @@ public void Add(IImageTransformOperation operation)
 | --- | --- | --- |
 | operation | IImageTransformOperation | 要添加到集合末尾的图像效果。 |
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IImageTransformOperation](../../iimagetransformoperation)
 * 类 [ImageTransformOperationCollection](../../imagetransformoperationcollection)

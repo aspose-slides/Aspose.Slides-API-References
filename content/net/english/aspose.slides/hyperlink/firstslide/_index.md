@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/hyperlink/firstslide/
 ---
+
 ## Hyperlink.FirstSlide property
 
 Returns a hyperlink to the first slide of the presentation. Read-only [`Hyperlink`](../../hyperlink).

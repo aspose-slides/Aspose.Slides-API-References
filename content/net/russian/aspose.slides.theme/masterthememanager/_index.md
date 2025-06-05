@@ -1,7 +1,7 @@
 ---
 title: MasterThemeManager
-second_title: Справочник по API Aspose.Slides для .NET
-description: Предоставляет доступ к основной теме презентации.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Предоставляет доступ к основному стилю презентации.
 type: docs
 weight: 11130
 url: /ru/aspose.slides.theme/masterthememanager/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.theme/masterthememanager/
 
 ## Класс MasterThemeManager
 
-Предоставляет доступ к основной теме презентации.
+Предоставляет доступ к основному стилю презентации.
 
 ```csharp
 public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
@@ -19,15 +19,15 @@ public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
 
 | Имя | Описание |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | Определяет, переопределяет ли OverrideTheme унаследованную эффективную тему (Presentation.MasterTheme) или нет. Чтение/запись Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | Возвращает объект переопределяющей темы. Чтение/запись [`IMasterTheme`](../imastertheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | Определяет, переопределяет ли OverrideTheme унаследованный эффективный стиль (Presentation.MasterTheme) или нет. Читаемое/записываемое Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | Возвращает объект переопределяющего стиля. Читаемое/записываемое [`IMasterTheme`](../imastertheme). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | [ApplyColorScheme](../../aspose.slides.theme/masterthememanager/applycolorscheme)(IExtraColorScheme) | Применяет дополнительную цветовую схему к слайду. |
-| [CreateThemeEffective](../../aspose.slides.theme/masterthememanager/createthemeeffective)() | Возвращает объект темы. |
+| [CreateThemeEffective](../../aspose.slides.theme/masterthememanager/createthemeeffective)() | Возвращает объект стиля. |
 
 ### Смотрите также
 

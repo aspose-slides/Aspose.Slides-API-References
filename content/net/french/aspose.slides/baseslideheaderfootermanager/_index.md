@@ -1,7 +1,7 @@
 ---
 title: BaseSlideHeaderFooterManager
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente le gestionnaire qui gère le comportement des espaces réservés pour le pied de page, la date-heure et le numéro de page pour tous les types de diapositives.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Représente le gestionnaire qui contient le comportement des espaces réservés pour la date-heure et le numéro de page de pied de page pour tous les types de diapositives.
 type: docs
 weight: 920
 url: /fr/aspose.slides/baseslideheaderfootermanager/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/baseslideheaderfootermanager/
 
 ## Classe BaseSlideHeaderFooterManager
 
-Représente le gestionnaire qui gère le comportement du pied de page, de la date-heure et des espaces réservés pour le numéro de page pour tous les types de diapositives.
+Représente le gestionnaire qui contient le comportement du pied de page, de la date-heure et des espaces réservés pour le numéro de page pour tous les types de diapositives.
 
 ```csharp
 public abstract class BaseSlideHeaderFooterManager : BaseHeaderFooterManager
@@ -19,19 +19,19 @@ public abstract class BaseSlideHeaderFooterManager : BaseHeaderFooterManager
 
 | Nom | Description |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Obtient la valeur indiquant qu'un espace réservé pour la date-heure est présent. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Obtient la valeur indiquant qu'un espace réservé pour le pied de page est présent. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Obtient la valeur indiquant qu'un espace réservé de date-heure est présent. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Obtient la valeur indiquant qu'un espace réservé de pied de page est présent. Read Boolean. |
 | [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Obtient la valeur indiquant qu'un espace réservé pour le numéro de page est présent. ReadBoolean. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Définit le texte de l'espace réservé pour la date-heure de la diapositive. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Modifie la visibilité de l'espace réservé pour la date-heure de la diapositive. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Définit le texte de l'espace réservé pour le pied de page de la diapositive. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Modifie la visibilité de l'espace réservé pour le pied de page de la diapositive. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Modifie la visibilité de l'espace réservé pour le numéro de page de la diapositive. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Définit le texte de l'espace réservé de date-heure de la diapositive. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Change la visibilité de l'espace réservé de date-heure de la diapositive. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Définit le texte de l'espace réservé de pied de page de la diapositive. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Change la visibilité de l'espace réservé de pied de page de la diapositive. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Change la visibilité de l'espace réservé du numéro de page de la diapositive. |
 
 ### Voir aussi
 

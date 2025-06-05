@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.mathtext/imathbar/position/
 ---
+
 ## IMathBar.Position property
 
 Position of the bar line. Default: Top

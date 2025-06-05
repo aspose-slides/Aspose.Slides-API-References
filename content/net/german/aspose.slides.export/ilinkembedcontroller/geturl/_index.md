@@ -1,7 +1,7 @@
 ---
 title: GetUrl
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt eine URL zu einem externen Objekt zurück. Diese Methode wird immer aufgerufen, wenn GetObjectStoringLocationaspose.slides.export/ilinkembedcontroller/getobjectstoringlocation Link zurückgegeben hat und kann aufgerufen werden, wenn GetObjectStoringLocationaspose.slides.export/ilinkembedcontroller/getobjectstoringlocation Embed zurückgegeben hat, aber das Einbetten unmöglich ist. Kann mehrfach für dieselbe Objekt-ID aufgerufen werden.
+description: Gibt eine URL zu einem externen Objekt zurück. Diese Methode wird immer aufgerufen, wenn GetObjectStoringLocation Link zurückgegeben hat, und kann aufgerufen werden, wenn GetObjectStoringLocation Embed zurückgegeben hat, aber das Einbetten unmöglich ist. Kann mehrfach für dieselbe Objekt-ID aufgerufen werden.
 type: docs
 weight: 20
 url: /de/aspose.slides.export/ilinkembedcontroller/geturl/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/ilinkembedcontroller/geturl/
 
 ## ILinkEmbedController.GetUrl-Methode
 
-Gibt eine URL zu einem externen Objekt zurück. Diese Methode wird immer aufgerufen, wenn [`GetObjectStoringLocation`](../getobjectstoringlocation) Link zurückgegeben hat und kann aufgerufen werden, wenn [`GetObjectStoringLocation`](../getobjectstoringlocation) Embed zurückgegeben hat, aber das Einbetten unmöglich ist. Kann mehrfach für dieselbe Objekt-ID aufgerufen werden.
+Gibt eine URL zu einem externen Objekt zurück. Diese Methode wird immer aufgerufen, wenn [`GetObjectStoringLocation`](../getobjectstoringlocation) Link zurückgegeben hat, und kann aufgerufen werden, wenn [`GetObjectStoringLocation`](../getobjectstoringlocation) Embed zurückgegeben hat, aber das Einbetten unmöglich ist. Kann mehrfach für dieselbe Objekt-ID aufgerufen werden.
 
 ```csharp
 public string GetUrl(int id, int referrer)
@@ -17,8 +17,8 @@ public string GetUrl(int id, int referrer)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| id | Int32 | Objekt-ID. Diese ID ist operationenweit eindeutig. |
-| referrer | Int32 | ID des referenzierenden Objekts oder 0, wenn das Objekt vom Hauptdokument referenziert wird. Kann verwendet werden, um einen relativen Link zu generieren. |
+| id | Int32 | Objekt-ID. Diese ID ist betrieblich einzigartig. |
+| referrer | Int32 | ID des referenzierenden Objekts oder 0, wenn das Objekt vom Stamm-Dokument referenziert wird. Kann zur Generierung eines relativen Links verwendet werden. |
 
 ### Rückgabewert
 

@@ -1,6 +1,6 @@
 ---
 title: TableStylePreset
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет встроенные стили таблиц.
 type: docs
 weight: 10570
@@ -17,10 +17,10 @@ public enum TableStylePreset
 
 ### Значения
 
-| Имя | Значение | Описание |
+| Название | Значение | Описание |
 | --- | --- | --- |
 | Custom | `-1` | Таблица имеет пользовательский стиль. Это значение только для возврата. |
-| None | `0` | Без стиля. |
+| None | `0` | Нет стиля. |
 | MediumStyle2Accent1 | `1` | Средний стиль 2 - Акцент 1. |
 | MediumStyle2 | `2` | Средний стиль 2. |
 | NoStyleNoGrid | `3` | Без стиля, без сетки. |
@@ -30,7 +30,7 @@ public enum TableStylePreset
 | ThemedStyle1Accent4 | `7` | Тематический стиль 1 - Акцент 4. |
 | ThemedStyle1Accent5 | `8` | Тематический стиль 1 - Акцент 5. |
 | ThemedStyle1Accent6 | `9` | Тематический стиль 1 - Акцент 6. |
-| NoStyleTableGrid | `10` | Без стиля, таблица с сеткой. |
+| NoStyleTableGrid | `10` | Без стиля, таблица сетки. |
 | ThemedStyle2Accent1 | `11` | Тематический стиль 2 - Акцент 1. |
 | ThemedStyle2Accent2 | `12` | Тематический стиль 2 - Акцент 2. |
 | ThemedStyle2Accent3 | `13` | Тематический стиль 2 - Акцент 3. |
@@ -96,7 +96,7 @@ public enum TableStylePreset
 | DarkStyle2Accent5Accent6 | `73` | Темный стиль 2 - Акцент 5/Акцент 6. |
 | LightStyle1Accent5 | `74` | Светлый стиль 1 - Акцент 5. |
 
-### Смотрите Также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

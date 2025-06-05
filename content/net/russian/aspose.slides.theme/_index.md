@@ -13,24 +13,24 @@ url: /ru/aspose.slides.theme/
 
 | Класс | Описание |
 | --- | --- |
-| [BaseOverrideThemeManager](./baseoverridethememanager) | Базовый класс для классов, которые предоставляют доступ к различным типам переопределённых тем. |
+| [BaseOverrideThemeManager](./baseoverridethememanager) | Базовый класс для классов, которые предоставляют доступ к различным типам переопределенных тем. |
 | [BaseThemeManager](./basethememanager) | Базовый класс для классов, которые предоставляют доступ к различным типам тем. |
-| [ChartThemeManager](./chartthememanager) | Предоставляет доступ к переопределённой теме диаграммы. |
+| [ChartThemeManager](./chartthememanager) | Предоставляет доступ к переопределенной теме графика. |
 | [ColorScheme](./colorscheme) | Хранит цвета, определенные темой. |
 | [EffectStyle](./effectstyle) | Представляет стиль эффекта. |
 | [EffectStyleCollection](./effectstylecollection) | Представляет коллекцию стилей эффектов. |
-| [ExtraColorScheme](./extracolorscheme) | Представляет дополнительную цветовую схему, которая может быть назначена слайду. |
+| [ExtraColorScheme](./extracolorscheme) | Представляет дополнительную цветовую схему, которую можно назначить слайду. |
 | [ExtraColorSchemeCollection](./extracolorschemecollection) | Представляет коллекцию дополнительных цветовых схем. |
 | [FillFormatCollection](./fillformatcollection) | Представляет коллекцию стилей заливки. |
 | [FontScheme](./fontscheme) | Хранит шрифты, определенные темой. |
 | [FormatScheme](./formatscheme) | Хранит форматы, определенные темой, для фигур. |
-| [LayoutSlideThemeManager](./layoutslidethememanager) | Предоставляет доступ к переопределённой теме макета слайда. |
+| [LayoutSlideThemeManager](./layoutslidethememanager) | Предоставляет доступ к переопределенной теме макета слайда. |
 | [LineFormatCollection](./lineformatcollection) | Представляет коллекцию стилей линий. |
-| [MasterTheme](./mastertheme) | Представляет мастер-тему. |
-| [MasterThemeManager](./masterthememanager) | Предоставляет доступ к мастер-теме презентации. |
-| [NotesSlideThemeManager](./notesslidethememanager) | Предоставляет доступ к переопределённой теме слайда заметок. |
-| [OverrideTheme](./overridetheme) | Представляет переопределённую тему. |
-| [SlideThemeManager](./slidethememanager) | Предоставляет доступ к переопределённой теме слайда. |
+| [MasterTheme](./mastertheme) | Представляет основную тему. |
+| [MasterThemeManager](./masterthememanager) | Предоставляет доступ к основной теме презентации. |
+| [NotesSlideThemeManager](./notesslidethememanager) | Предоставляет доступ к переопределенной теме слайда заметок. |
+| [OverrideTheme](./overridetheme) | Представляет переопределенную тему. |
+| [SlideThemeManager](./slidethememanager) | Предоставляет доступ к переопределенной теме слайда. |
 | [Theme](./theme) | Представляет тему. |
 ## Интерфейсы
 
@@ -42,7 +42,7 @@ url: /ru/aspose.slides.theme/
 | [IEffectStyleCollection](./ieffectstylecollection) | Представляет коллекцию стилей эффектов. |
 | [IEffectStyleCollectionEffectiveData](./ieffectstylecollectioneffectivedata) | Неизменяемый объект, который представляет только для чтения коллекцию эффективных стилей эффектов. |
 | [IEffectStyleEffectiveData](./ieffectstyleeffectivedata) | Неизменяемый объект, который содержит свойства эффективного стиля эффекта. |
-| [IExtraColorScheme](./iextracolorscheme) | Представляет дополнительную цветовую схему, которая может быть назначена слайду. |
+| [IExtraColorScheme](./iextracolorscheme) | Представляет дополнительную цветовую схему, которую можно назначить слайду. |
 | [IExtraColorSchemeCollection](./iextracolorschemecollection) | Представляет коллекцию дополнительных цветовых схем. |
 | [IFillFormatCollection](./ifillformatcollection) | Представляет коллекцию стилей заливки. |
 | [IFillFormatCollectionEffectiveData](./ifillformatcollectioneffectivedata) | Неизменяемый объект, который представляет только для чтения коллекцию эффективных форматов заливки. |
@@ -52,12 +52,12 @@ url: /ru/aspose.slides.theme/
 | [IFormatSchemeEffectiveData](./iformatschemeeffectivedata) | Неизменяемый объект, который содержит свойства эффективной схемы форматов. |
 | [ILineFormatCollection](./ilineformatcollection) | Представляет коллекцию стилей линий. |
 | [ILineFormatCollectionEffectiveData](./ilineformatcollectioneffectivedata) | Неизменяемый объект, который представляет только для чтения коллекцию эффективных форматов линий. |
-| [IMasterTheme](./imastertheme) | Представляет мастер-тему. |
-| [IMasterThemeable](./imasterthemeable) | Представляет менеджер мастер-тем. |
-| [IMasterThemeManager](./imasterthememanager) | Предоставляет доступ к мастер-теме презентации. |
-| [IOverrideTheme](./ioverridetheme) | Представляет переопределённую тему. |
-| [IOverrideThemeable](./ioverridethemeable) | Представляет менеджер переопределённых тем. |
-| [IOverrideThemeManager](./ioverridethememanager) | Предоставляет доступ к различным типам переопределённых тем. |
+| [IMasterTheme](./imastertheme) | Представляет основную тему. |
+| [IMasterThemeable](./imasterthemeable) | Представляет менеджер основной темы. |
+| [IMasterThemeManager](./imasterthememanager) | Предоставляет доступ к основной теме презентации. |
+| [IOverrideTheme](./ioverridetheme) | Представляет переопределенную тему. |
+| [IOverrideThemeable](./ioverridethemeable) | Представляет менеджер переопределенной темы. |
+| [IOverrideThemeManager](./ioverridethememanager) | Предоставляет доступ к различным типам переопределенных тем. |
 | [ITheme](./itheme) | Представляет тему. |
 | [IThemeable](./ithemeable) | Представляет объекты, которые могут быть оформлены с помощью [`ITheme`](../aspose.slides.theme/itheme). |
 | [IThemeEffectiveData](./ithemeeffectivedata) | Неизменяемый объект, который содержит свойства эффективной темы. |

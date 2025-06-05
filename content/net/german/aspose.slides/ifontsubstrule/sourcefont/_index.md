@@ -1,7 +1,7 @@
 ---
 title: SourceFont
 second_title: Aspose.Slides für .NET API-Referenz
-description: Schriftart zum Ersetzen von Read-only IFontDataaspose.slides/ifontdata.
+description: Schriftart zur Ersetzung von Read-only IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 30
 url: /de/aspose.slides/ifontsubstrule/sourcefont/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ifontsubstrule/sourcefont/
 
 ## IFontSubstRule.SourceFont-Eigenschaft
 
-Schriftart zum Ersetzen von Read-only [`IFontData`](../../ifontdata).
+Schriftart zur Ersetzung von Read-only [`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData SourceFont { get; }

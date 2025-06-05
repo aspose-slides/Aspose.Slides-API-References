@@ -1,24 +1,24 @@
 ---
 title: IsVisible
-second_title: Referencia de la API de Aspose.Sildes para .NET
-description: Obtiene o establece la visibilidad de las Barras de Error. Booleano de lectura/escritura.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Obtiene o establece la visibilidad de las barras de error. Booleano de lectura/escritura.
 type: docs
 weight: 40
 url: /es/aspose.slides.charts/ierrorbarsformat/isvisible/
 ---
 
-## Propiedad IErrorBarsFormat.IsVisible
+## IErrorBarsFormat.IsVisible property
 
-Obtiene o establece la visibilidad de las Barras de Error. Booleano de lectura/escritura.
+Obtiene o establece la visibilidad de las barras de error. Booleano de lectura/escritura.
 
 ```csharp
 public bool IsVisible { get; set; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [IErrorBarsFormat](../../ierrorbarsformat)
-* espacio de nombres [Aspose.Slides.Charts](../../ierrorbarsformat)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IErrorBarsFormat](../../ierrorbarsformat)
+* espacio de nombres [Aspose.Slides.Charts](../../ierrorbarsformat)
+* ensamblado [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->

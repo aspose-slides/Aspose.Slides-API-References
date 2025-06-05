@@ -1,6 +1,6 @@
 ---
 title: CommandString
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Définit la chaîne de commande. Lecture/écriture String.
 type: docs
 weight: 20

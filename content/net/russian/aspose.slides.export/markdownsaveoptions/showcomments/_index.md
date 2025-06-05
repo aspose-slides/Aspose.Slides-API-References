@@ -1,21 +1,21 @@
 ---
 title: ShowComments
-second_title: Aspose.Slides для .NET API Reference
-description: Указывает, должен ли сгенерированный документ отображать комментарии или нет. Значение по умолчанию - false.
+second_title: Aspose.Sildes для .NET API Справка
+description: Указывает, следует ли в сгенерированном документе отображать комментарии или нет. Значение по умолчанию - false.
 type: docs
 weight: 90
 url: /ru/aspose.slides.export/markdownsaveoptions/showcomments/
 ---
 
-## Свойство MarkdownSaveOptions.ShowComments
+## MarkdownSaveOptions.ShowComments свойство
 
-Указывает, должен ли сгенерированный документ отображать комментарии или нет. Значение по умолчанию - `false`.
+Указывает, следует ли в сгенерированном документе отображать комментарии или нет. Значение по умолчанию - `false`.
 
 ```csharp
 public bool ShowComments { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [MarkdownSaveOptions](../../markdownsaveoptions)
 * пространство имен [Aspose.Slides.Export](../../markdownsaveoptions)

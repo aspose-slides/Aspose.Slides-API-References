@@ -1,7 +1,7 @@
 ---
 title: ThemeManager
-second_title: Aspose.Sildes für .NET API Referenz
-description: Gibt den übergeordneten Themenmanager zurück. Nur-Lese IOverrideThemeManageraspose.slides/../aspose.slides.theme/ioverridethememanager.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den übergeordneten Thema-Manager zurück. Schreibgeschützter IOverrideThemeManager aspose.slides.theme/ioverridethememanager.
 type: docs
 weight: 50
 url: /de/aspose.slides/notesslide/thememanager/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/notesslide/thememanager/
 
 ## NotesSlide.ThemeManager-Eigenschaft
 
-Gibt den übergeordneten Themenmanager zurück. Nur-Lese [`IOverrideThemeManager`](../../../aspose.slides.theme/ioverridethememanager).
+Gibt den übergeordneten Thema-Manager zurück. Schreibgeschützter [`IOverrideThemeManager`](../../../aspose.slides.theme/ioverridethememanager).
 
 ```csharp
 public IOverrideThemeManager ThemeManager { get; }

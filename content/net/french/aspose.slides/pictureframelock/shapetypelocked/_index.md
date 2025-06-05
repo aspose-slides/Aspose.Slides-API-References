@@ -1,21 +1,21 @@
 ---
 title: ShapeTypeLocked
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Détermine si le changement de type de forme est interdit. Booléen en lecture/écriture.
+second_title: Aspose.Slides pour la référence de l'API .NET
+description: Détermine si un changement de type de forme est interdit. Booléen en lecture/écriture.
 type: docs
 weight: 100
 url: /fr/aspose.slides/pictureframelock/shapetypelocked/
 ---
 
-## Propriété PictureFrameLock.ShapeTypeLocked
+## PictureFrameLock.ShapeTypeLocked propriété
 
-Détermine si le changement de type de forme est interdit. Booléen en lecture/écriture.
+Détermine si un changement de type de forme est interdit. Booléen en lecture/écriture.
 
 ```csharp
 public bool ShapeTypeLocked { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [PictureFrameLock](../../pictureframelock)
 * espace de noms [Aspose.Slides](../../pictureframelock)

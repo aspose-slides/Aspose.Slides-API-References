@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/icharttitle/asilayoutable/
 ---
+
 ## IChartTitle.AsILayoutable property
 
 Allows to get base ILayoutable interface. Read-only [`ILayoutable`](../../ilayoutable).

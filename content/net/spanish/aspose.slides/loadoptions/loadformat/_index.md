@@ -1,15 +1,15 @@
 ---
 title: LoadFormat
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve o establece el formato de una presentación para cargar. Lectura/escritura LoadFormataspose.slides/loadformat.
+second_title: Aspose.Sildes para referencia de API de .NET
+description: Devuelve o establece el formato de una presentación a cargar. Lectura/escritura LoadFormataspose.slides/loadformat.
 type: docs
 weight: 100
 url: /es/aspose.slides/loadoptions/loadformat/
 ---
 
-## Propiedad LoadOptions.LoadFormat
+## LoadOptions.LoadFormat property
 
-Devuelve o establece el formato de una presentación para cargar. Lectura/escritura [`LoadFormat`](../../loadformat).
+Devuelve o establece el formato de una presentación a cargar. Lectura/escritura [`LoadFormat`](../../loadformat).
 
 ```csharp
 public LoadFormat LoadFormat { get; set; }

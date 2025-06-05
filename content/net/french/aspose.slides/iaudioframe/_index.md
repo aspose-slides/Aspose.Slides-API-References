@@ -1,6 +1,6 @@
 ---
 title: IAudioFrame
-second_title: Aspose.Sildes pour la référence API .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Représente un clip audio sur une diapositive.
 type: docs
 weight: 5030
@@ -20,24 +20,24 @@ public interface IAudioFrame : IPictureFrame
 | Nom | Description |
 | --- | --- |
 | [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | Permet d'obtenir l'interface de base IPictureFrame. Lecture seule [`IPictureFrame`](../ipictureframe). |
-| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | Renvoie ou définit un index de dernière piste. Lecture/écriture Int32. |
-| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | Renvoie ou définit un temps de dernière piste. Lecture/écriture Int32. |
-| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | Renvoie ou définit un index de piste de début. Lecture/écriture Int32. |
-| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | Renvoie ou définit un temps de piste de début. Lecture/écriture Int32. |
+| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | Retourne ou définit un index de dernière piste. Lecture/écriture Int32. |
+| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | Retourne ou définit un temps de dernière piste. Lecture/écriture Int32. |
+| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | Retourne ou définit un index de première piste. Lecture/écriture Int32. |
+| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | Retourne ou définit un temps de première piste. Lecture/écriture Int32. |
 | [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | Détermine si un son est intégré à une présentation. Lecture seule Boolean. |
-| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | Renvoie ou définit un objet audio intégré. Lecture/écriture [`IAudio`](../iaudio). |
-| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | Spécifie la durée pour le fondu d'entrée initial du média en millisecondes. Lecture/écriture Single. |
-| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | Spécifie la durée pour le fondu de sortie du média en millisecondes. Lecture/écriture Single. |
-| [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | Détermine si un AudioFrame est masqué. Lecture/écriture Boolean. |
-| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | Renvoie ou définit le nom d'un fichier audio lié à un AudioFrame. Lecture/écriture String. |
+| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | Retourne ou définit un objet audio intégré. Lecture/écriture [`IAudio`](../iaudio). |
+| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | Spécifie la durée en millisecondes pour le fondu d'entrée initial du média. Lecture/écriture Single. |
+| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | Spécifie la durée en millisecondes pour le fondu de sortie final du média. Lecture/écriture Single. |
+| [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | Détermine si un AudioFrame est caché. Lecture/écriture Boolean. |
+| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | Retourne ou définit le nom d'un fichier audio qui est lié à un AudioFrame. Lecture/écriture String. |
 | [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | Détermine si un audio est joué à travers les diapositives. Lecture/écriture Boolean. |
 | [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | Détermine si un audio est en boucle. Lecture/écriture Boolean. |
-| [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | Renvoie ou définit le mode de lecture audio. Lecture/écriture [`AudioPlayModePreset`](../audioplaymodepreset). |
-| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | Détermine si un audio est automatiquement rembobiné au début après la lecture. Lecture/écriture Boolean. |
-| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | Spécifie la durée à retirer de la fin du média pendant la lecture, en millisecondes. Lecture/écriture Single. |
-| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | Spécifie la durée à retirer du début du média pendant la lecture, en millisecondes. Lecture/écriture Single. |
-| [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | Renvoie ou définit le volume audio. Lecture/écriture [`AudioVolumeMode`](../audiovolumemode). |
-| [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | Renvoie ou définit le volume audio en pourcentages. Lecture/écriture Single. |
+| [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | Retourne ou définit le mode de lecture audio. Lecture/écriture [`AudioPlayModePreset`](../audioplaymodepreset). |
+| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | Détermine si un audio est automatiquement rembobiné au début après lecture. Lecture/écriture Boolean. |
+| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | Spécifie la durée à retirer de la fin du média lors de la lecture, en millisecondes. Lecture/écriture Single. |
+| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | Spécifie la durée à retirer du début du média lors de la lecture, en millisecondes. Lecture/écriture Single. |
+| [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | Retourne ou définit le volume audio. Lecture/écriture [`AudioVolumeMode`](../audiovolumemode). |
+| [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | Retourne ou définit le volume audio en pourcentage. Lecture/écriture Single. |
 
 ### Voir aussi
 

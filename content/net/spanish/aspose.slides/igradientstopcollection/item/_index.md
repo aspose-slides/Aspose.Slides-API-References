@@ -1,21 +1,21 @@
 ---
-title: Ítem
+title: Item
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve el punto de parada del degradado por índice.
+description: Devuelve el punto de parada de gradiente por índice.
 type: docs
 weight: 10
 url: /es/aspose.slides/igradientstopcollection/item/
 ---
 
-## Indexador IGradientStopCollection
+## IGradientStopCollection indexer
 
-Devuelve el punto de parada del degradado por índice.
+Devuelve el punto de parada de gradiente por índice.
 
 ```csharp
 public IGradientStop this[int index] { get; }
 ```
 
-### Véase también
+### Ver también
 
 * interfaz [IGradientStop](../../igradientstop)
 * interfaz [IGradientStopCollection](../../igradientstopcollection)

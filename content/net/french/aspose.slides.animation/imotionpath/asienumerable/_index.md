@@ -1,21 +1,21 @@
 ---
 title: AsIEnumerable
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Permet d'obtenir l'interface de base IBehavior. IEnumerable en lecture seule.
+second_title: Aspose.Slides pour .NET API Référence
+description: Permet d'obtenir l'interface de base IBehavior. IReadOnly IEnumerable.
 type: docs
 weight: 10
 url: /fr/aspose.slides.animation/imotionpath/asienumerable/
 ---
 
-## Propriété IMotionPath.AsIEnumerable
+## IMotionPath.AsIEnumerable propriété
 
-Permet d'obtenir l'interface de base IBehavior. IEnumerable en lecture seule.
+Permet d'obtenir l'interface de base IBehavior. IReadOnly IEnumerable.
 
 ```csharp
 public IEnumerable AsIEnumerable { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMotionPath](../../imotionpath)
 * namespace [Aspose.Slides.Animation](../../imotionpath)

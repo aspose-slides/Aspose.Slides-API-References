@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/ibulletformateffectivedata/isbullethardcolor/
 ---
+
 ## IBulletFormatEffectiveData.IsBulletHardColor property
 
 Determines whether the bullet has own color or inherits it from the first portion in the paragraph. Returns **true** if bullet has own color and **false** if bullet inherits color from the first portion in the paragraph. Read-only Boolean.

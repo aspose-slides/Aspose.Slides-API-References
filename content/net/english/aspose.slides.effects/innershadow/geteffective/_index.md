@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.effects/innershadow/geteffective/
 ---
+
 ## InnerShadow.GetEffective method
 
 Gets effective Inner Shadow effect data with the inheritance applied.

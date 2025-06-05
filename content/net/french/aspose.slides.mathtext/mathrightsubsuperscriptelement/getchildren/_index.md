@@ -1,6 +1,6 @@
 ---
 title: GetChildren
-second_title: Aspose.Slides pour l'API .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Obtenir les éléments enfants
 type: docs
 weight: 50
@@ -15,7 +15,7 @@ Obtenir les éléments enfants
 public IMathElement[] GetChildren()
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathElement](../../imathelement)
 * classe [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement)

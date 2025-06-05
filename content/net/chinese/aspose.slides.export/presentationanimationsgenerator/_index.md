@@ -1,15 +1,15 @@
 ---
 title: PresentationAnimationsGenerator
 second_title: Aspose.Sildes for .NET API Reference
-description: 代表演示文稿中的动画生成器../aspose.slides/presentation。
+description: 表示演示文稿中的动画生成器../aspose.slides/presentation.
 type: docs
 weight: 4190
 url: /zh/aspose.slides.export/presentationanimationsgenerator/
 ---
 
-## PresentationAnimationsGenerator 类
+## PresentationAnimationsGenerator class
 
-代表 [`Presentation`](../../aspose.slides/presentation) 中的动画生成器。
+表示演示文稿中的动画生成器 [`Presentation`](../../aspose.slides/presentation)。
 
 ```csharp
 public class PresentationAnimationsGenerator : IDisposable
@@ -27,16 +27,16 @@ public class PresentationAnimationsGenerator : IDisposable
 | 名称 | 描述 |
 | --- | --- |
 | [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | 获取或设置默认延迟时间 [ms]。 |
-| [ExportedSlides](../../aspose.slides.export/presentationanimationsgenerator/exportedslides) { get; } | 获取导出的幻灯片数量。 |
-| [IncludeHiddenSlides](../../aspose.slides.export/presentationanimationsgenerator/includehiddenslides) { get; set; } | 获取或设置是否应包含隐藏的幻灯片。 |
+| [ExportedSlides](../../aspose.slides.export/presentationanimationsgenerator/exportedslides) { get; } | 获取导出幻灯片的数量。 |
+| [IncludeHiddenSlides](../../aspose.slides.export/presentationanimationsgenerator/includehiddenslides) { get; set; } | 获取或设置是否应包含隐藏幻灯片。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [Dispose](../../aspose.slides.export/presentationanimationsgenerator/dispose)() | 处理 [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) 的实例。 |
-| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run)(IEnumerable&lt;ISlide&gt;) | 为每个幻灯片运行动画事件生成。 |
-| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run_1)(IEnumerable&lt;ISlide&gt;, int, FrameTickHandler) | 为每个幻灯片运行动画事件生成。 |
+| [Dispose](../../aspose.slides.export/presentationanimationsgenerator/dispose)() | 处置 [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) 的实例。 |
+| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run)(IEnumerable&lt;ISlide&gt;) | 为每个幻灯片生成动画事件。 |
+| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run_1)(IEnumerable&lt;ISlide&gt;, int, FrameTickHandler) | 为每个幻灯片生成动画事件。 |
 
 ## 字段
 
@@ -48,7 +48,7 @@ public class PresentationAnimationsGenerator : IDisposable
 
 | 名称 | 描述 |
 | --- | --- |
-| event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | 事件表示生成了一个新的动画。 |
+| event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | 表示生成了新动画的事件。 |
 
 ### 示例
 
@@ -69,7 +69,7 @@ using (Presentation presentation = new Presentation("animated.pptx"))
 }
 ```
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)
 * 程序集 [Aspose.Slides](../../)

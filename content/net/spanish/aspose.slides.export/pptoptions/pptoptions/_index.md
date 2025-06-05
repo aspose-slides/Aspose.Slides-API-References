@@ -15,10 +15,10 @@ El constructor predeterminado.
 public PptOptions()
 ```
 
-### Ver también
+### Véase también
 
-* clase [PptOptions](../../pptoptions)
-* espacio de nombres [Aspose.Slides.Export](../../pptoptions)
-* ensamblado [Aspose.Slides](../../../)
+* clase [PptOptions](../../pptoptions)
+* espacio de nombres [Aspose.Slides.Export](../../pptoptions)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/customxmlpartcollection/copyto/
 ---
+
 ## CustomXmlPartCollection.CopyTo method
 
 Copy to specified array.

@@ -1,7 +1,7 @@
 ---
 title: Direction
 second_title: Référence API Aspose.Slides pour .NET
-description: Direction de la réflexion. Lecture/écriture de type Single.
+description: Direction de la réflexion. Lecture/écriture Single.
 type: docs
 weight: 40
 url: /fr/aspose.slides.effects/ireflection/direction/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.effects/ireflection/direction/
 
 ## Propriété IReflection.Direction
 
-Direction de la réflexion. Lecture/écriture de type Single.
+Direction de la réflexion. Lecture/écriture Single.
 
 ```csharp
 public float Direction { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IReflection](../../ireflection)
 * namespace [Aspose.Slides.Effects](../../ireflection)

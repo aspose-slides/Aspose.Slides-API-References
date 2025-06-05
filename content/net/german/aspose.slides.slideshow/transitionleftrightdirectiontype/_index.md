@@ -7,7 +7,7 @@ weight: 10070
 url: /de/aspose.slides.slideshow/transitionleftrightdirectiontype/
 ---
 
-## TransitionLeftRightDirectionType Enumeration
+## TransitionLeftRightDirectionType Aufzählung
 
 Gibt eine Richtung an, die auf die Werte links und rechts beschränkt ist.
 
@@ -19,8 +19,8 @@ public enum TransitionLeftRightDirectionType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Left | `0` |  |
-| Right | `1` |  |
+| Links | `0` |  |
+| Rechts | `1` |  |
 
 ### Siehe auch
 

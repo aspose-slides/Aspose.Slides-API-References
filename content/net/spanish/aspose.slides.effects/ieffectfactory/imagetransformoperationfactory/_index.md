@@ -15,7 +15,7 @@ Devuelve ImageTransformOperationFactory. Solo lectura [`IImageTransformOperation
 public IImageTransformOperationFactory ImageTransformOperationFactory { get; }
 ```
 
-### Véase también
+### Vea también
 
 * interfaz [IImageTransformOperationFactory](../../iimagetransformoperationfactory)
 * interfaz [IEffectFactory](../../ieffectfactory)

@@ -1,7 +1,7 @@
 ---
 title: ToArray
-second_title: Aspose.Sildes для .NET API Справка
-description: Создает и возвращает массив со всеми альтернативными шрифтами для этого правила.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Создает и возвращает массив со всеми шрифтами FallBack для этого правила.
 type: docs
 weight: 110
 url: /ru/aspose.slides/fontfallbackrule/toarray/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/fontfallbackrule/toarray/
 
 ## ToArray() {#toarray}
 
-Создает и возвращает массив со всеми альтернативными шрифтами для этого правила.
+Создает и возвращает массив со всеми шрифтами FallBack для этого правила.
 
 ```csharp
 public string[] ToArray()
 ```
 
-### Возвращаемое значение
+### Значение Возрата
 
 Массив строк
 
@@ -23,10 +23,10 @@ public string[] ToArray()
 
 ```csharp
 [C#]
-// Создать правило, содержащее список шрифтов.
+// Создание правила, содержащего список шрифтов.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma, Times New Roman");
 
-// Получить все имена шрифтов в виде массива.
+// Получение всех имен шрифтов в виде массива.
 string[] fontNames = newRule.ToArray();
 ```
 
@@ -40,7 +40,7 @@ string[] fontNames = newRule.ToArray();
 
 ## ToArray(int, int) {#toarray_1}
 
-Создает и возвращает массив со всеми альтернативными шрифтами из заданного диапазона в списке.
+Создает и возвращает массив со всеми шрифтами FallBack из указанного диапазона в списке.
 
 ```csharp
 public string[] ToArray(int startIndex, int count)
@@ -51,7 +51,7 @@ public string[] ToArray(int startIndex, int count)
 | startIndex | Int32 | Индекс первого шрифта для добавления. |
 | count | Int32 | Количество шрифтов для добавления. |
 
-### Возвращаемое значение
+### Значение Возрата
 
 Массив строк
 
@@ -59,10 +59,10 @@ public string[] ToArray(int startIndex, int count)
 
 ```csharp
 [C#]
-// Создать правило, содержащее список шрифтов.
+// Создание правила, содержащего список шрифтов.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma, Times New Roman");
 
-// Получить последние два имени шрифтов в виде массива.
+// Получение последних двух имен шрифтов в виде массива.
 string[] fontNames = newRule.ToArray(2,2);
 ```
 

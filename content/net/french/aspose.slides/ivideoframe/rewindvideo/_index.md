@@ -1,7 +1,7 @@
 ---
 title: RewindVideo
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si une vidéo est automatiquement rembobinée au début dès que le film a fini de jouer. Booléen en lecture/écriture.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Détermine si une vidéo est automatiquement rembobinée au début dès que le film a fini de jouer. Boolean en lecture/écriture.
 type: docs
 weight: 90
 url: /fr/aspose.slides/ivideoframe/rewindvideo/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ivideoframe/rewindvideo/
 
 ## Propriété IVideoFrame.RewindVideo
 
-Détermine si une vidéo est automatiquement rembobinée au début dès que le film a fini de jouer. Booléen en lecture/écriture.
+Détermine si une vidéo est automatiquement rembobinée au début dès que le film a fini de jouer. Boolean en lecture/écriture.
 
 ```csharp
 public bool RewindVideo { get; set; }

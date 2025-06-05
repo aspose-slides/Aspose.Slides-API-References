@@ -1,21 +1,21 @@
 ---
 title: HyperlinksChanged
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie qu'un ou plusieurs hyperliens dans cette partie ont été mis à jour exclusivement dans cette partie par un producteur. Le prochain producteur à ouvrir ce document doit mettre à jour les relations d'hyperliens avec les nouveaux hyperliens spécifiés dans cette partie. Lecture/écriture Booléen.
+second_title: Référence API Aspose.Slides pour .NET
+description: Spécifie qu'un ou plusieurs hyperliens dans cette partie ont été mis à jour exclusivement dans cette partie par un producteur. Le prochain producteur à ouvrir ce document devra mettre à jour les relations d'hyperliens avec les nouveaux hyperliens spécifiés dans cette partie. Lecture/écriture Booléen.
 type: docs
 weight: 150
 url: /fr/aspose.slides/documentproperties/hyperlinkschanged/
 ---
 
-## DocumentProperties.HyperlinksChanged propriété
+## DocumentProperties.HyperlinksChanged property
 
-Spécifie qu'un ou plusieurs hyperliens dans cette partie ont été mis à jour exclusivement dans cette partie par un producteur. Le prochain producteur à ouvrir ce document doit mettre à jour les relations d'hyperliens avec les nouveaux hyperliens spécifiés dans cette partie. Lecture/écriture Booléen.
+Spécifie qu'un ou plusieurs hyperliens dans cette partie ont été mis à jour exclusivement dans cette partie par un producteur. Le prochain producteur à ouvrir ce document devra mettre à jour les relations d'hyperliens avec les nouveaux hyperliens spécifiés dans cette partie. Lecture/écriture Booléen.
 
 ```csharp
 public bool HyperlinksChanged { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)

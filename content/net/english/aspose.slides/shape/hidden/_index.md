@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/shape/hidden/
 ---
+
 ## Shape.Hidden property
 
 Determines whether the shape is hidden. Read/write Boolean.

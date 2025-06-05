@@ -1,13 +1,13 @@
 ---
-title: Feld
-second_title: Aspose.Slides für .NET API-Referenz
+title: Field
+second_title: Aspose.Slides für .NET API Referenz
 description: Stellt ein Feld dar.
 type: docs
 weight: 4560
 url: /de/aspose.slides/field/
 ---
 
-## Feldklasse
+## Field-Klasse
 
 Stellt ein Feld dar.
 
@@ -19,7 +19,7 @@ public sealed class Field : DomObject<Portion>, IField
 
 | Name | Beschreibung |
 | --- | --- |
-| [Typ](../../aspose.slides/field/type) { get; set; } | Gibt den Typ des Feldes zurück oder setzt ihn. Lese-/Schreibzugriff [`IFieldType`](../ifieldtype). |
+| [Type](../../aspose.slides/field/type) { get; set; } | Gibt den Typ des Feldes zurück oder setzt ihn. Lese-/Schreibzugriff [`IFieldType`](../ifieldtype). |
 
 ### Siehe auch
 

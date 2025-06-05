@@ -1,6 +1,6 @@
 ---
 title: MathBorderBox
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Создает элемент MathBorderBox с прямоугольной рамкой
 type: docs
 weight: 10
@@ -28,7 +28,7 @@ public MathBorderBox(IMathElement element)
 MathBorderBox borderBox = new MathBorderBox(new MathematicalText("x"));
 ```
 
-### Также смотри
+### См. также
 
 * интерфейс [IMathElement](../../imathelement)
 * класс [MathBorderBox](../../mathborderbox)
@@ -50,14 +50,14 @@ public MathBorderBox(IMathElement element, bool hideTop, bool hideBottom, bool h
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | element | IMathElement | Базовый элемент, к которому применяется рамка |
-| hideTop | Boolean | Скрыть верхний край |
-| hideBottom | Boolean | Скрыть нижний край |
-| hideLeft | Boolean | Скрыть левый край |
-| hideRight | Boolean | Скрыть правый край |
-| strikethroughHorizontal | Boolean | Перечеркнуть горизонтально |
-| strikethroughVertical | Boolean | Перечеркнуть вертикально |
-| strikethroughBottomLeftToTopRight | Boolean | Перечеркнуть от нижнего левого угла к верхнему правому |
-| strikethroughTopLeftToBottomRight | Boolean | Перечеркнуть от верхнего левого угла к нижнему правому |
+| hideTop | Boolean | Скрыть верхнюю грань |
+| hideBottom | Boolean | Скрыть нижнюю грань |
+| hideLeft | Boolean | Скрыть левую грань |
+| hideRight | Boolean | Скрыть правую грань |
+| strikethroughHorizontal | Boolean | Перекрестие по горизонтали |
+| strikethroughVertical | Boolean | Перекрестие по вертикали |
+| strikethroughBottomLeftToTopRight | Boolean | Перекрестие от левого нижнего к правому верхнему |
+| strikethroughTopLeftToBottomRight | Boolean | Перекрестие от правого верхнего к левому нижнему |
 
 ### Примеры
 
@@ -68,7 +68,7 @@ public MathBorderBox(IMathElement element, bool hideTop, bool hideBottom, bool h
 MathBorderBox borderBox = new MathBorderBox(new MathematicalText("x"), true, true, true, false, true, true, true, true)
 ```
 
-### Также смотри
+### См. также
 
 * интерфейс [IMathElement](../../imathelement)
 * класс [MathBorderBox](../../mathborderbox)

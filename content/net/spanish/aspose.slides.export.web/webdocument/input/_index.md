@@ -1,12 +1,12 @@
 ---
-title: Entrada
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Input
+second_title: Aspose.Slides para .NET Referencia de API
 description: type docs
 weight: 30
 url: /es/aspose.slides.export.web/webdocument/input/
 ---
 
-## Propiedad WebDocument.Input
+## WebDocument.Input propiedad
 
 ```csharp
 public Input Input { get; }

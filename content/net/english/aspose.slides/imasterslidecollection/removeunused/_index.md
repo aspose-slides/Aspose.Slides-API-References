@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/imasterslidecollection/removeunused/
 ---
+
 ## IMasterSlideCollection.RemoveUnused method
 
 Removes unused master slides.

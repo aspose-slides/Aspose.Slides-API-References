@@ -1,7 +1,7 @@
 ---
 title: CreateOuterShadow
-second_title: Aspose.Slides for .NET API 参考
-description: 创建外阴影效果。
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建外部阴影效果。
 type: docs
 weight: 40
 url: /zh/aspose.slides.effects/ieffectfactory/createoutershadow/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/ieffectfactory/createoutershadow/
 
 ## IEffectFactory.CreateOuterShadow 方法
 
-创建外阴影效果。
+创建外部阴影效果。
 
 ```csharp
 public IOuterShadow CreateOuterShadow()
@@ -17,9 +17,9 @@ public IOuterShadow CreateOuterShadow()
 
 ### 返回值
 
-外阴影效果。
+外部阴影效果。
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IOuterShadow](../../ioutershadow)
 * 接口 [IEffectFactory](../../ieffectfactory)

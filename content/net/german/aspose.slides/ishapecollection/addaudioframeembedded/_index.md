@@ -1,7 +1,7 @@
 ---
 title: AddAudioFrameEmbedded
-second_title: Aspose.Slides für .NET API Referenz
-description: Fügt am Ende einer Sammlung einen neuen Audio-Frame mit eingebettetem Audiofile hinzu. Das eingebettete Audiofile kann nur eine WAV-Datei sein. Es fügt neue Audiodaten zur Liste Presentation.Audios hinzu.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Fügt einer Sammlung ein neues Audio-Frame mit eingebetteter Audiodatei hinzu. Die eingebettete Audiodatei kann nur im WAV-Format vorliegen. Es fügt neues Audio zur Liste Presentation.Audios hinzu.
 type: docs
 weight: 40
 url: /de/aspose.slides/ishapecollection/addaudioframeembedded/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ishapecollection/addaudioframeembedded/
 
 ## AddAudioFrameEmbedded(float, float, float, float, Stream) {#addaudioframeembedded_1}
 
-Fügt am Ende einer Sammlung einen neuen Audio-Frame mit eingebettetem Audiofile hinzu. Das eingebettete Audiofile kann nur eine WAV-Datei sein. Es fügt neue Audiodaten zur Liste Presentation.Audios hinzu.
+Fügt einer Sammlung ein neues Audio-Frame mit eingebetteter Audiodatei hinzu. Die eingebettete Audiodatei kann nur im WAV-Format vorliegen. Es fügt neues Audio zur Liste Presentation.Audios hinzu.
 
 ```csharp
 public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float height, 
@@ -22,7 +22,7 @@ public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float he
 | y | Single | Y-Koordinate eines neuen Audio-Frames. |
 | width | Single | Breite eines neuen Audio-Frames. |
 | height | Single | Höhe eines neuen Audio-Frames. |
-| audio_stream | Stream | Eingehender Stream mit Audiodaten. |
+| audio_stream | Stream | Eingabe-Stream mit Audiodaten. |
 
 ### Rückgabewert
 
@@ -39,7 +39,7 @@ Erstelltes AudioFrame-Objekt.
 
 ## AddAudioFrameEmbedded(float, float, float, float, IAudio) {#addaudioframeembedded}
 
-Fügt am Ende einer Sammlung einen neuen Audio-Frame mit eingebettetem Audiofile hinzu. Es verwendet die Audiodatei aus der Liste Presentation.Audios.
+Fügt einer Sammlung ein neues Audio-Frame mit eingebetteter Audiodatei hinzu. Es verwendet die Audiodatei aus der Liste Presentation.Audios.
 
 ```csharp
 public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float height, IAudio audio)

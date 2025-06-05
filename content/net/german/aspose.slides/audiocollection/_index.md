@@ -1,6 +1,6 @@
 ---
 title: AudioCollection
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt eine Sammlung eingebetteter Audiodateien dar.
 type: docs
 weight: 780
@@ -19,20 +19,20 @@ public class AudioCollection : DomObject<Presentation>, IAudioCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides/audiocollection/count) { get; } | Gibt die Anzahl der Audiodateien in der Sammlung zurück. Nur lesebares Int32. |
-| [IsSynchronized](../../aspose.slides/audiocollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (thread-sicher). Nur lesebares Boolean. |
-| [Item](../../aspose.slides/audiocollection/item) { get; } | Gibt das Element am angegebenen Index zurück. Nur lesebares [`IAudio`](../iaudio). |
-| [SyncRoot](../../aspose.slides/audiocollection/syncroot) { get; } | Gibt eine Synchronisierungswurzel zurück. Nur lesebares Object. |
+| [Count](../../aspose.slides/audiocollection/count) { get; } | Gibt die Anzahl der Audiodateien in der Sammlung zurück. Schreibgeschützter Int32. |
+| [IsSynchronized](../../aspose.slides/audiocollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (threadsicher). Schreibgeschützter Boolean. |
+| [Item](../../aspose.slides/audiocollection/item) { get; } | Gibt das Element am angegebenen Index zurück. Schreibgeschütztes [`IAudio`](../iaudio). |
+| [SyncRoot](../../aspose.slides/audiocollection/syncroot) { get; } | Gibt eine Synchronisationswurzel zurück. Schreibgeschütztes Objekt. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_1)(byte[]) | Erstellt und fügt eine Audiodatei aus einem Byte-Array zu einer Präsentation hinzu. |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_1)(byte[]) | Erstellt und fügt eine Audiodatei aus einem Byte-Array in eine Präsentation ein. |
 | [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio)(IAudio) | Fügt eine Kopie einer Audiodatei aus einer anderen Präsentation hinzu. |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_2)(Stream) | Erstellt und fügt eine Audiodatei aus einem Stream zu einer Präsentation hinzu. |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Erstellt und fügt eine Audiodatei aus einem Stream zu einer Präsentation hinzu. |
-| [CopyTo](../../aspose.slides/audiocollection/copyto)(Array, int) | Kopiert Audiodateien in das angegebene Array, beginnend mit dem angegebenen Index. |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_2)(Stream) | Erstellt und fügt eine Audiodatei aus einem Stream in eine Präsentation ein. |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Erstellt und fügt eine Audiodatei aus einem Stream in eine Präsentation ein. |
+| [CopyTo](../../aspose.slides/audiocollection/copyto)(Array, int) | Kopiert Audiodateien in das angegebene Array, beginnend ab dem angegebenen Index. |
 | [GetEnumerator](../../aspose.slides/audiocollection/getenumerator)() | Gibt einen Enumerator zurück, der durch die Sammlung iteriert. |
 
 ### Siehe auch

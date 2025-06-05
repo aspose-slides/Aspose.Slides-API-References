@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/textframeformat/marginright/
 ---
+
 ## TextFrameFormat.MarginRight property
 
 Returns or sets the right margin (points) in a TextFrame. Read/write Double.

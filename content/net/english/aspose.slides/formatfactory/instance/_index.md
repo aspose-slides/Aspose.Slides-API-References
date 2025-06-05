@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/formatfactory/instance/
 ---
+
 ## FormatFactory.Instance property
 
 Format factory static instance. Read-only [`FormatFactory`](../../formatfactory).

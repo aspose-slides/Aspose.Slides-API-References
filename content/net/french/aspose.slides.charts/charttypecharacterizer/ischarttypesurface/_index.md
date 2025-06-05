@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeSurface
-second_title: Référence API Aspose.Slides pour .NET
-description: Retourne vrai si chartType est l'un des sous-types de Surface. L'ensemble des sous-types correspond à l'ensemble approprié dans PowerPoint voir la boîte de dialogue "Changer le type de graphique" dans PowerPoint  Surface3D, WireframeSurface3D, Contour, WireframeContour.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Retourne vrai si chartType est l'un des sous-types Surface. L'ensemble des sous-types correspond à l'ensemble approprié dans PowerPoint voir la boîte de dialogue "Modifier le type de graphique" dans PowerPoint  Surface3D, WireframeSurface3D, Contour, WireframeContour.
 type: docs
 weight: 150
 url: /fr/aspose.slides.charts/charttypecharacterizer/ischarttypesurface/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/charttypecharacterizer/ischarttypesurface/
 
 ## ChartTypeCharacterizer.IsChartTypeSurface méthode
 
-Retourne vrai si chartType est l'un des sous-types de Surface. L'ensemble des sous-types correspond à l'ensemble approprié dans PowerPoint (voir la boîte de dialogue "Changer le type de graphique" dans PowerPoint) : Surface3D, WireframeSurface3D, Contour, WireframeContour.
+Retourne vrai si chartType est l'un des sous-types Surface. L'ensemble des sous-types correspond à l'ensemble approprié dans PowerPoint (voir la boîte de dialogue "Modifier le type de graphique" dans PowerPoint) : Surface3D, WireframeSurface3D, Contour, WireframeContour.
 
 ```csharp
 public static bool IsChartTypeSurface(ChartType chartType)
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

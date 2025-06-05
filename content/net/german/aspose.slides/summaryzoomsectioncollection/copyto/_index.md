@@ -7,7 +7,7 @@ weight: 70
 url: /de/aspose.slides/summaryzoomsectioncollection/copyto/
 ---
 
-## SummaryZoomSectionCollection.CopyTo-Methode
+## SummaryZoomSectionCollection.CopyTo Methode
 
 Kopiert die gesamte Sammlung in das angegebene Array.
 
@@ -20,7 +20,7 @@ public void CopyTo(Array array, int index)
 | array | Array | Ziel-Array |
 | index | Int32 | Index im Ziel-Array. |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [SummaryZoomSectionCollection](../../summaryzoomsectioncollection)
 * Namespace [Aspose.Slides](../../summaryzoomsectioncollection)

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension/
 ---
+
 ## OleEmbeddedDataInfo.EmbeddedFileExtension property
 
 Returns the file extension for the current embedded OLE object Read only String.

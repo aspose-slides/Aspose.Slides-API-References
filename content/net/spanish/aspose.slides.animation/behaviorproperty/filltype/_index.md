@@ -1,6 +1,6 @@
 ---
 title: FillType
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Referencia
 description: Representa la propiedad fill.type
 type: docs
 weight: 390

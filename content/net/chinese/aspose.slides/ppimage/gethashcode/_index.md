@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
-second_title: Aspose.Slides for .NET API 参考
-description: 返回图像的哈希码。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回图像的哈希代码。
 type: docs
 weight: 100
 url: /zh/aspose.slides/ppimage/gethashcode/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ppimage/gethashcode/
 
 ## PPImage.GetHashCode 方法
 
-返回图像的哈希码。
+返回图像的哈希代码。
 
 ```csharp
 public override int GetHashCode()
@@ -17,7 +17,7 @@ public override int GetHashCode()
 
 ### 返回值
 
-哈希码。
+哈希代码。
 
 ### 另请参阅
 

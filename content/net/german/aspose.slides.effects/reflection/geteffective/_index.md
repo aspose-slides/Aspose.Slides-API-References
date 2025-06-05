@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides für .NET API-Referenz
-description: Holt die effektiven Reflexionseffektdaten mit der angewendeten Vererbung.
+second_title: Aspose.Slidess für .NET API Referenz
+description: Holt effektive Reflexionseffekt-Daten mit angewendeter Vererbung.
 type: docs
 weight: 160
 url: /de/aspose.slides.effects/reflection/geteffective/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/reflection/geteffective/
 
 ## Reflection.GetEffective-Methode
 
-Holt effektive Reflexionseffektdaten mit der angewendeten Vererbung.
+Holt effektive Reflexionseffekt-Daten mit angewendeter Vererbung.
 
 ```csharp
 public IReflectionEffectiveData GetEffective()

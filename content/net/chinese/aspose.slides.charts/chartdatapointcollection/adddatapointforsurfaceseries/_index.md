@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForSurfaceSeries
-second_title: Aspose.Slides for .NET API 参考
-description: 创建新的数据点并将其添加到集合的末尾。适用于图表类型为表面子类型之一的系列，另见 IsChartTypeSurfaceaspose.slides/charttypecharacterizer/ischarttypesurface 方法。
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建新的数据点并将其添加到集合的末尾。适用于 chartType 为表面子类型之一的系列，另见 IsChartTypeSurfaceaspose.slides/charttypecharacterizer/ischarttypesurface 方法。
 type: docs
 weight: 240
 url: /zh/aspose.slides.charts/chartdatapointcollection/adddatapointforsurfaceseries/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/chartdatapointcollection/adddatapointforsurfaceser
 
 ## AddDataPointForSurfaceSeries(IChartDataCell) {#adddatapointforsurfaceseries}
 
-创建新的数据点并将其添加到集合的末尾。适用于图表类型为表面子类型之一的系列（另见 [`IsChartTypeSurface`](../../charttypecharacterizer/ischarttypesurface) 方法）。
+创建新的数据点并将其添加到集合的末尾。适用于 chartType 为表面子类型之一的系列（另见 [`IsChartTypeSurface`](../../charttypecharacterizer/ischarttypesurface) 方法）。
 
 ```csharp
 public IChartDataPoint AddDataPointForSurfaceSeries(IChartDataCell value)
@@ -35,7 +35,7 @@ public IChartDataPoint AddDataPointForSurfaceSeries(IChartDataCell value)
 
 ## AddDataPointForSurfaceSeries(double) {#adddatapointforsurfaceseries_1}
 
-创建新的数据点并将其添加到集合的末尾。适用于图表类型为表面子类型之一的系列（另见 [`IsChartTypeSurface`](../../charttypecharacterizer/ischarttypesurface) 方法）。
+创建新的数据点并将其添加到集合的末尾。适用于 chartType 为表面子类型之一的系列（另见 [`IsChartTypeSurface`](../../charttypecharacterizer/ischarttypesurface) 方法）。
 
 ```csharp
 public IChartDataPoint AddDataPointForSurfaceSeries(double value)

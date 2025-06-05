@@ -1,6 +1,6 @@
 ---
-title: 移除
-second_title: Aspose.Slides for .NET API 参考
+title: Remove
+second_title: Aspose.Sildes for .NET API Reference
 description: 移除指定的值。
 type: docs
 weight: 260
@@ -17,13 +17,13 @@ public void Remove(IChartDataPoint value)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | IChartDataPoint | 该值。 |
+| value | IChartDataPoint | 值。 |
 
 ### 异常
 
 | 异常 | 条件 |
 | --- | --- |
-| ArgumentException | 在集合中未找到值参数。 |
+| ArgumentException | 找不到值参数在集合中。 |
 
 ### 另见
 

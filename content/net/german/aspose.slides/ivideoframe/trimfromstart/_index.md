@@ -1,13 +1,13 @@
 ---
 title: TrimFromStart
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Trim Start ms
 type: docs
 weight: 110
 url: /de/aspose.slides/ivideoframe/trimfromstart/
 ---
 
-## IVideoFrame.TrimFromStart-Eigenschaft
+## IVideoFrame.TrimFromStart property
 
 Trim Start [ms]
 
@@ -27,10 +27,10 @@ using (Presentation pres = new Presentation())
     IVideo video = pres.Videos.AddVideo(File.ReadAllBytes("video.mp4"));
     var videoFrame = slide.Shapes.AddVideoFrame(0, 0, 100, 100, video);
 
-    //setze Trim Startzeit auf 1 Sekunde
+    //set triming start time 1sec
     videoFrame.TrimFromStart = 1000f;
 
-    //setze Trim Endzeit auf 2 Sekunden
+    //set triming end time 2sec
     videoFrame.TrimFromEnd = 2000f;
 }
 ```

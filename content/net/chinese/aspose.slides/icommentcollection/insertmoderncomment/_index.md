@@ -1,7 +1,7 @@
 ---
 title: InsertModernComment
 second_title: Aspose.Sildes for .NET API Reference
-description: 在指定索引处向集合中插入新的现代注释。
+description: 在指定索引处向集合插入新的现代评论。
 type: docs
 weight: 60
 url: /zh/aspose.slides/icommentcollection/insertmoderncomment/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/icommentcollection/insertmoderncomment/
 
 ## ICommentCollection.InsertModernComment 方法
 
-在指定索引处向集合中插入新的现代注释。
+在指定索引处向集合插入新的现代评论。
 
 ```csharp
 public IModernComment InsertModernComment(int index, string text, ISlide slide, IShape shape, 
@@ -18,18 +18,18 @@ public IModernComment InsertModernComment(int index, string text, ISlide slide, 
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 在集合中要插入现代注释的元素索引。 |
-| text | String | 新现代注释的纯文本。 |
-| slide | ISlide | 在演示文稿中添加新现代注释的幻灯片。 |
-| shape | IShape | 在幻灯片上与新现代注释相关联的形状。 |
-| position | PointF | 在幻灯片上添加新现代注释的位置。 |
-| creationTime | DateTime | 现代注释创建的时间。 |
+| index | Int32 | 在集合中应插入现代评论的元素索引。 |
+| text | String | 新的现代评论的普通文本。 |
+| slide | ISlide | 在演示文稿中添加新的现代评论的幻灯片。 |
+| shape | IShape | 与新的现代评论相关联的幻灯片上的形状。 |
+| position | PointF | 在幻灯片上添加新的现代评论的位置。 |
+| creationTime | DateTime | 现代评论创建的时间。 |
 
 ### 返回值
 
-插入的现代注释。
+插入的现代评论。
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IModernComment](../../imoderncomment)
 * 接口 [ISlide](../../islide)

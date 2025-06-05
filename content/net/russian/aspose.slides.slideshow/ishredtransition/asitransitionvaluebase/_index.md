@@ -1,7 +1,7 @@
 ---
 title: AsITransitionValueBase
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения ITransitionValueBaseaspose.slides.slideshow/itransitionvaluebase.
+second_title: Aspose.Slides для .NET API Справочник
+description: Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения ITransitionValueBase aspose.slides.slideshow/itransitionvaluebase.
 type: docs
 weight: 10
 url: /ru/aspose.slides.slideshow/ishredtransition/asitransitionvaluebase/
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.slideshow/ishredtransition/asitransitionvaluebase/
 public ITransitionValueBase AsITransitionValueBase { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [ITransitionValueBase](../../itransitionvaluebase)
 * интерфейс [IShredTransition](../../ishredtransition)

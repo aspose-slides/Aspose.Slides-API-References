@@ -1,7 +1,7 @@
 ---
 title: FormatShape
-second_title: Aspose.Sildes for .NET API 参考
-description: 此函数在渲染形状到 SVG 之前调用，以允许用户控制生成的 SVG。
+second_title: Aspose.Sildes for .NET API Reference
+description: 此函数在将形状渲染为SVG之前被调用，以允许用户控制生成的SVG。
 type: docs
 weight: 10
 url: /zh/aspose.slides.export/isvgshapeformattingcontroller/formatshape/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/isvgshapeformattingcontroller/formatshape/
 
 ## ISvgShapeFormattingController.FormatShape 方法
 
-此函数在渲染形状到 SVG 之前调用，以允许用户控制生成的 SVG。
+此函数在将形状渲染为SVG之前被调用，以允许用户控制生成的SVG。
 
 ```csharp
 public void FormatShape(ISvgShape svgShape, IShape shape)
@@ -17,10 +17,10 @@ public void FormatShape(ISvgShape svgShape, IShape shape)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| svgShape | ISvgShape | 控制 SVG 形状生成的对象。 |
+| svgShape | ISvgShape | 控制SVG形状生成的对象。 |
 | shape | IShape | 源形状。 |
 
-### 另请参见
+### 另请参阅
 
 * 接口 [ISvgShape](../../isvgshape)
 * 接口 [IShape](../../../aspose.slides/ishape)

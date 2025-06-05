@@ -7,7 +7,7 @@ weight: 20
 url: /fr/aspose.slides/gradientformat/gradientshape/
 ---
 
-## Propriété GradientFormat.GradientShape
+## GradientFormat.GradientShape propriété
 
 Renvoie ou définit la forme d'un dégradé. Lecture/écriture [`GradientShape`](../../gradientshape).
 
@@ -15,7 +15,7 @@ Renvoie ou définit la forme d'un dégradé. Lecture/écriture [`GradientShape`]
 public GradientShape GradientShape { get; set; }
 ```
 
-### Voir aussi
+### Voir également
 
 * enum [GradientShape](../../gradientshape)
 * class [GradientFormat](../../gradientformat)

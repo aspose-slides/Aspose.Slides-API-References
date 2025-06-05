@@ -1,7 +1,7 @@
 ---
 title: HeaderFooterManager
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den aktuellen HeaderFooter-Manager zurück. Nur-Lese IPresentationHeaderFooterManageraspose.slides/ipresentationheaderfootermanager.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den aktuellen HeaderFooter-Manager zurück. Nur lesender IPresentationHeaderFooterManageraspose.slides/ipresentationheaderfootermanager.
 type: docs
 weight: 120
 url: /de/aspose.slides/presentation/headerfootermanager/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/presentation/headerfootermanager/
 
 ## Presentation.HeaderFooterManager-Eigenschaft
 
-Gibt den aktuellen HeaderFooter-Manager zurück. Nur-Lese [`IPresentationHeaderFooterManager`](../../ipresentationheaderfootermanager).
+Gibt den aktuellen HeaderFooter-Manager zurück. Nur lesender [`IPresentationHeaderFooterManager`](../../ipresentationheaderfootermanager).
 
 ```csharp
 public IPresentationHeaderFooterManager HeaderFooterManager { get; }
@@ -17,64 +17,64 @@ public IPresentationHeaderFooterManager HeaderFooterManager { get; }
 
 ### Beispiele
 
-Das folgende Beispiel zeigt, wie die Sichtbarkeit des Fußzeilenplatzhalters in einer PowerPoint-Präsentation festgelegt wird.
+Das folgende Beispiel zeigt, wie die Fußzeilen-Sichtbarkeit innerhalb einer Folie der PowerPoint-Präsentation eingestellt werden kann.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("presentation.ppt"))
 {
     IBaseSlideHeaderFooterManager headerFooterManager = presentation.Slides[0].HeaderFooterManager;
-	// Die Eigenschaft IsFooterVisible wird verwendet, um anzuzeigen, dass kein Fußzeilenplatzhalter vorhanden ist.
+	// Die Eigenschaft IsFooterVisible wird verwendet, um anzuzeigen, dass ein Fußzeilen-Platzhalter nicht vorhanden ist.
     if (!headerFooterManager.IsFooterVisible)
     {
-		// Die Methode SetFooterVisibility wird verwendet, um einen Fußzeilenplatzhalter sichtbar zu machen.
+		// Die Methode SetFooterVisibility wird verwendet, um einen Fußzeilen-Platzhalter sichtbar zu machen.
         headerFooterManager.SetFooterVisibility(true);
     }
-	// Die Eigenschaft IsSlideNumberVisible wird verwendet, um anzuzeigen, dass kein Seitenzahlenplatzhalter vorhanden ist.
+	// Die Eigenschaft IsSlideNumberVisible wird verwendet, um anzuzeigen, dass ein Foliennummern-Platzhalter nicht vorhanden ist.
     if (!headerFooterManager.IsSlideNumberVisible)
     {
-		// Die Methode SetSlideNumberVisibility wird verwendet, um einen Seitenzahlenplatzhalter sichtbar zu machen.
+		// Die Methode SetSlideNumberVisibility wird verwendet, um einen Foliennummern-Platzhalter sichtbar zu machen.
         headerFooterManager.SetSlideNumberVisibility(true);
     }
-	// Die Eigenschaft IsDateTimeVisible wird verwendet, um anzuzeigen, dass kein Datums- und Uhrzeitplatzhalter vorhanden ist.
+	// Die Eigenschaft IsDateTimeVisible wird verwendet, um anzuzeigen, dass ein Datums-/Uhrzeit-Platzhalter nicht vorhanden ist.
     if (!headerFooterManager.IsDateTimeVisible)
     {
-		// Die Methode SetFooterVisibility wird verwendet, um einen Datums- und Uhrzeitplatzhalter sichtbar zu machen.
+		// Die Methode SetFooterVisibility wird verwendet, um einen Datums-/Uhrzeit-Platzhalter sichtbar zu machen.
         headerFooterManager.SetDateTimeVisibility(true);
     }
-	// Die Methode SetFooterText wird verwendet, um Text für den Fußzeilenplatzhalter festzulegen.
-    headerFooterManager.SetFooterText("Fußzeilentext");
-	// Die Methode SetDateTimeText wird verwendet, um Text für den Datums- und Uhrzeitplatzhalter festzulegen.
-    headerFooterManager.SetDateTimeText("Datum und Uhrzeit Text");
-	presentation.Save("Presentation.ppt", SaveFormat.ppt);
+	// Die Methode SetFooterText wird verwendet, um Text zum Fußzeilen-Platzhalter hinzuzufügen.
+    headerFooterManager.SetFooterText("Footer text");
+	// Die Methode SetDateTimeText wird verwendet, um Text zum Datums-/Uhrzeit-Platzhalter hinzuzufügen.
+    headerFooterManager.SetDateTimeText("Date and time text");
+	presentation.Save("Presentation.ppt",SaveFormat.ppt);
 }
 ```
 
-Das folgende Beispiel zeigt, wie die Sichtbarkeit von Fußzeilenplatzhaltern in einer Master-Folie und deren untergeordneten Folien festgelegt wird.
+Das folgende Beispiel zeigt, wie die Sichtbarkeit der Kinderfußzeilen innerhalb einer Folie eingestellt werden kann.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("presentation.ppt"))
 {
     IMasterSlideHeaderFooterManager headerFooterManager = presentation.Masters[0].HeaderFooterManager;
-	// Die Methode SetFooterAndChildFootersVisibility wird verwendet, um einen Master-Folie und alle untergeordneten Fußzeilenplatzhalter sichtbar zu machen.
+	// Die Methode SetFooterAndChildFootersVisibility wird verwendet, um einen Masterfolie und alle Kinderfußzeilen-Platzhalter sichtbar zu machen.
     headerFooterManager.SetFooterAndChildFootersVisibility(true);
-	// Die Methode SetSlideNumberAndChildSlideNumbersVisibility wird verwendet, um einen Master-Folie und alle untergeordneten Seitenzahlenplatzhalter sichtbar zu machen.
+	// Die Methode SetSlideNumberAndChildSlideNumbersVisibility wird verwendet, um einen Masterfolie und alle Kinderfoliennummern-Platzhalter sichtbar zu machen.
     headerFooterManager.SetSlideNumberAndChildSlideNumbersVisibility(true);
-	// Die Methode SetDateTimeAndChildDateTimesVisibility wird verwendet, um einen Master-Folie und alle untergeordneten Datums- und Uhrzeitplatzhalter sichtbar zu machen.
+	// Die Methode SetDateTimeAndChildDateTimesVisibility wird verwendet, um einen Masterfolie und alle Kinder-Datums-/Uhrzeit-Platzhalter sichtbar zu machen.
     headerFooterManager.SetDateTimeAndChildDateTimesVisibility(true);
-	// Die Methode SetFooterAndChildFootersText wird verwendet, um Text für den Master-Folie und alle untergeordneten Fußzeilenplatzhalter festzulegen.
-    headerFooterManager.SetFooterAndChildFootersText("Fußzeilentext");
-	// Die Methode SetDateTimeAndChildDateTimesText wird verwendet, um Text für den Master-Folie und alle untergeordneten Datums- und Uhrzeitplatzhalter festzulegen.
-    headerFooterManager.SetDateTimeAndChildDateTimesText("Datum und Uhrzeit Text");
+	// Die Methode SetFooterAndChildFootersText wird verwendet, um Text zum Masterfolie und allen Kinderfußzeilen-Platzhaltern hinzuzufügen.
+    headerFooterManager.SetFooterAndChildFootersText("Footer text");
+	// Die Methode SetDateTimeAndChildDateTimesText wird verwendet, um Text zum Masterfolie und allen Kinder-Datums-/Uhrzeit-Platzhaltern hinzuzufügen.
+    headerFooterManager.SetDateTimeAndChildDateTimesText("Date and time text");
 }
 ```
 
 ### Siehe auch
 
-* Schnittstelle [IPresentationHeaderFooterManager](../../ipresentationheaderfootermanager)
-* Klasse [Presentation](../../presentation)
-* Namespace [Aspose.Slides](../../presentation)
-* Assembly [Aspose.Slides](../../../)
+* Schnittstelle [IPresentationHeaderFooterManager](../../ipresentationheaderfootermanager)
+* Klasse [Presentation](../../presentation)
+* Namespace [Aspose.Slides](../../presentation)
+* Assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

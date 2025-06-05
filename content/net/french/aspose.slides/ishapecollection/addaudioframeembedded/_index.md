@@ -1,7 +1,7 @@
 ---
 title: AddAudioFrameEmbedded
-second_title: Aspose.Slides pour .NET Référence de l'API
-description: Ajoute un nouveau cadre audio avec un fichier audio intégré à la fin d'une collection. Le fichier audio intégré ne peut être qu'un WAV. Il ajoute un nouvel audio à la liste Presentation.Audios.
+second_title: Aspose.Sildes pour l'API .NET
+description: Ajoute un nouveau cadre audio avec un fichier audio intégré à la fin d'une collection. Le fichier audio intégré peut uniquement être un WAV. Il ajoute le nouvel audio à la liste Presentation.Audios.
 type: docs
 weight: 40
 url: /fr/aspose.slides/ishapecollection/addaudioframeembedded/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ishapecollection/addaudioframeembedded/
 
 ## AddAudioFrameEmbedded(float, float, float, float, Stream) {#addaudioframeembedded_1}
 
-Ajoute un nouveau cadre audio avec un fichier audio intégré à la fin d'une collection. Le fichier audio intégré ne peut être qu'un WAV. Il ajoute un nouvel audio à la liste Presentation.Audios.
+Ajoute un nouveau cadre audio avec un fichier audio intégré à la fin d'une collection. Le fichier audio intégré peut uniquement être un WAV. Il ajoute le nouvel audio à la liste Presentation.Audios.
 
 ```csharp
 public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float height, 
@@ -22,9 +22,9 @@ public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float he
 | y | Single | Coordonnée Y d'un nouveau cadre audio. |
 | width | Single | Largeur d'un nouveau cadre audio. |
 | height | Single | Hauteur d'un nouveau cadre audio. |
-| audio_stream | Stream | Flux en entrée avec des données audio. |
+| audio_stream | Stream | Flux d'entrée comportant des données audio. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Objet AudioFrame créé.
 
@@ -53,7 +53,7 @@ public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float he
 | height | Single | Hauteur d'un nouveau cadre audio. |
 | audio | IAudio | Audio de la liste Presentation.Audios. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Objet AudioFrame créé.
 

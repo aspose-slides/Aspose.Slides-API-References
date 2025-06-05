@@ -1,6 +1,6 @@
 ---
 title: Tab
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Représente une tabulation pour un texte.
 type: docs
 weight: 10510
@@ -25,19 +25,19 @@ public sealed class Tab : PVIObject, ITab
 
 | Nom | Description |
 | --- | --- |
-| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | Renvoie ou définit le style d'alignement d'une tabulation. Lecture/écriture [`TabAlignment`](../tabalignment). |
+| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | Retourne ou définit le style d'alignement d'une tabulation. Lecture/écriture [`TabAlignment`](../tabalignment). |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface de base IPresentationComponent. Lecture seule [`IPresentationComponent`](../ipresentationcomponent). |
-| [Position](../../aspose.slides/tab/position) { get; set; } | Renvoie ou définit la position d'une tabulation. L'attribution de cette propriété peut modifier l'index de la tabulation dans la collection et invalider l'Enumerator. Lecture/écriture Double. |
+| [Position](../../aspose.slides/tab/position) { get; set; } | Retourne ou définit la position d'une tabulation. L'attribution de cette propriété peut changer l'index de la tabulation dans la collection et invalider l'Enumerator. Lecture/écriture Double. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [CompareTo](../../aspose.slides/tab/compareto)(object) | Compare l'instance actuelle à un autre objet du même type. |
+| [CompareTo](../../aspose.slides/tab/compareto)(object) | Compare l'instance actuelle avec un autre objet du même type. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compare avec l'objet spécifié. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Renvoie le code de hachage. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Retourne le code de hachage. |
 
-### Voir Aussi
+### Voir aussi
 
 * classe [PVIObject](../pviobject)
 * interface [ITab](../itab)

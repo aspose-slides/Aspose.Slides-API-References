@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides.theme/icolorschemeeffectivedata/light2/
 ---
+
 ## IColorSchemeEffectiveData.Light2 property
 
 Second light color in the scheme. Read-only Color.

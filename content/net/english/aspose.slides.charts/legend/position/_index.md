@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.charts/legend/position/
 ---
+
 ## Legend.Position property
 
 Specifies the position of the legend on a chart. Non-NaN values of X, Y, Width, Heigt properties override effect of this property. Read/write [`LegendPositionType`](../../legendpositiontype).

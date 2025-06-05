@@ -1,7 +1,7 @@
 ---
 title: ConnectionSiteCount
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Anzahl der Verbindungspunkte auf der Form zurück. Nur-Lese Int32.
+description: Gibt die Anzahl der Anschlussstellen auf der Form zurück. Nur-Lese Int32.
 type: docs
 weight: 60
 url: /de/aspose.slides/ishape/connectionsitecount/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ishape/connectionsitecount/
 
 ## IShape.ConnectionSiteCount-Eigenschaft
 
-Gibt die Anzahl der Verbindungspunkte auf der Form zurück. Nur-Lese Int32.
+Gibt die Anzahl der Anschlussstellen auf der Form zurück. Nur-Lese Int32.
 
 ```csharp
 public int ConnectionSiteCount { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IShape](../../ishape)
 * Namespace [Aspose.Slides](../../ishape)

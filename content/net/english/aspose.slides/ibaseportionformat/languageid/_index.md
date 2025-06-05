@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides/ibaseportionformat/languageid/
 ---
+
 ## IBasePortionFormat.LanguageId property
 
 Returns or sets the Id of a proofing language. Used for checking spelling and grammar. Read/write String.

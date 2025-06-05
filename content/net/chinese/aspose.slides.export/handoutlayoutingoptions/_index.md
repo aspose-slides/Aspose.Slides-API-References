@@ -1,13 +1,13 @@
 ---
 title: HandoutLayoutingOptions
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示导出时的讲义演示布局模式。
 type: docs
 weight: 3670
 url: /zh/aspose.slides.export/handoutlayoutingoptions/
 ---
 
-## HandoutLayoutingOptions 类
+## HandoutLayoutingOptions class
 
 表示导出时的讲义演示布局模式。
 
@@ -25,12 +25,12 @@ public class HandoutLayoutingOptions : ISlidesLayoutOptions
 
 | 名称 | 描述 |
 | --- | --- |
-| [Handout](../../aspose.slides.export/handoutlayoutingoptions/handout) { get; set; } | 指定页面上将放置多少幻灯片以及它们的顺序 [`HandoutType`](../handouttype)。 |
+| [Handout](../../aspose.slides.export/handoutlayoutingoptions/handout) { get; set; } | 指定在页面上将放置多少幻灯片以及顺序 [`HandoutType`](../handouttype)。 |
 | [PrintComments](../../aspose.slides.export/handoutlayoutingoptions/printcomments) { get; set; } | 指定是否在幻灯片上显示评论 |
-| [PrintFrameSlide](../../aspose.slides.export/handoutlayoutingoptions/printframeslide) { get; set; } | 指定是否在显示的幻灯片周围绘制框架。 |
+| [PrintFrameSlide](../../aspose.slides.export/handoutlayoutingoptions/printframeslide) { get; set; } | 指定是否在显示的幻灯片周围画框。 |
 | [PrintSlideNumbers](../../aspose.slides.export/handoutlayoutingoptions/printslidenumbers) { get; set; } | 指定是否打印显示的幻灯片编号。 |
 
-### 另见
+### 另请参见
 
 * 接口 [ISlidesLayoutOptions](../islideslayoutoptions)
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)

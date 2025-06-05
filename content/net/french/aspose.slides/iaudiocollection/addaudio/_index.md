@@ -19,7 +19,7 @@ public IAudio AddAudio(IAudio audio)
 | --- | --- | --- |
 | audio | IAudio | Audio source. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Audio ajouté.
 
@@ -42,10 +42,10 @@ public IAudio AddAudio(Stream stream, LoadingStreamBehavior loadingStreamBehavio
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Flux à partir duquel ajouter le son vidéo. |
+| stream | Stream | Flux à partir duquel ajouter l'audio vidéo. |
 | loadingStreamBehavior | LoadingStreamBehavior | Le comportement qui sera appliqué au flux. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Audio ajouté.
 
@@ -69,9 +69,9 @@ public IAudio AddAudio(byte[] audioData)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| audioData | Byte[] | Octets audio. |
+| audioData | Byte[] | Bytes audio. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Audio ajouté.
 

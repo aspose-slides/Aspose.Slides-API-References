@@ -1,7 +1,7 @@
 ---
 title: RemoveField
-second_title: Aspose.Slides для .NET API Справочник
-description: Преобразует эту часть поля в простую часть.
+second_title: Aspose.Slides for .NET API Reference
+description: Преобразует этот фрагмент поля в простой фрагмент.
 type: docs
 weight: 80
 url: /ru/aspose.slides/iportion/removefield/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/iportion/removefield/
 
 ## IPortion.RemoveField метод
 
-Преобразует эту часть поля в простую часть.
+Преобразует этот фрагмент поля в простой фрагмент.
 
 ```csharp
 public void RemoveField()
 ```
 
-### См. Также
+### Посмотреть также
 
 * интерфейс [IPortion](../../iportion)
 * пространство имен [Aspose.Slides](../../iportion)

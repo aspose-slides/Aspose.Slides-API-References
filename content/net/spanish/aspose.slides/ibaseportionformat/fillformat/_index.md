@@ -1,7 +1,7 @@
 ---
 title: FillFormat
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve las propiedades de FillFormat de texto. Sin herencia aplicada. Solo lectura IFillFormataspose.slides/ifillformat.
+description: Devuelve las propiedades de texto FillFormat. No se aplica herencia. Solo lectura IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 60
 url: /es/aspose.slides/ibaseportionformat/fillformat/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/ibaseportionformat/fillformat/
 
 ## Propiedad IBasePortionFormat.FillFormat
 
-Devuelve las propiedades de FillFormat de texto. Sin herencia aplicada. Solo lectura [`IFillFormat`](../../ifillformat).
+Devuelve las propiedades de texto FillFormat. No se aplica herencia. Solo lectura [`IFillFormat`](../../ifillformat).
 
 ```csharp
 public IFillFormat FillFormat { get; }

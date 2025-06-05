@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/tagcollection/item/
 ---
+
 ## TagCollection indexer
 
 Returns or sets a key and a value pair of a tag.

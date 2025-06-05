@@ -1,7 +1,7 @@
 ---
 title: IColumnFormatEffectiveData
 second_title: Aspose.Slides für .NET API Referenz
-description: Unveränderliches Objekt, das effektive Eigenschaften der Formatierung von Tabellenkolonnen enthält.
+description: Unveränderliches Objekt, das effektive Eigenschaften der Tabellen-Spaltenformatierung enthält.
 type: docs
 weight: 5350
 url: /de/aspose.slides/icolumnformateffectivedata/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/icolumnformateffectivedata/
 
 ## IColumnFormatEffectiveData-Schnittstelle
 
-Unveränderliches Objekt, das effektive Eigenschaften der Formatierung von Tabellenkolonnen enthält.
+Unveränderliches Objekt, das effektive Eigenschaften der Tabellen-Spaltenformatierung enthält.
 
 ```csharp
 public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -19,11 +19,11 @@ public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata) { get; } | Ermöglicht den Zugriff auf die grundlegende IBaseTableFormatEffectiveData-Schnittstelle. Nur lesender [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IBaseTableFormatEffectiveData. Nur lesbar [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
 
-### Anmerkungen
+### Bemerkungen
 
-Diese Schnittstelle wird zusammen mit der [`IColumnFormat`](../icolumnformat) Schnittstelle verwendet, um effektive Formatierungswerte mit angewandter Vererbung und Tabellenstilen zurückzugeben.
+Diese Schnittstelle wird zusammen mit der [`IColumnFormat`](../icolumnformat) Schnittstelle verwendet, um effektive Formatierungswerte mit vererbten und angewendeten Tabellenstilen zurückzugeben.
 
 ### Siehe auch
 

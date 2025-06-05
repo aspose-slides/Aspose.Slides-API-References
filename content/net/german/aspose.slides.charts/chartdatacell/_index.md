@@ -1,7 +1,7 @@
 ---
 title: ChartDataCell
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt eine Zelle für Chartdaten dar.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt eine Zelle für Diagrammdaten dar.
 type: docs
 weight: 1240
 url: /de/aspose.slides.charts/chartdatacell/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartdatacell/
 
 ## ChartDataCell-Klasse
 
-Stellt eine Zelle für Chartdaten dar.
+Stellt eine Zelle für Diagrammdaten dar.
 
 ```csharp
 public class ChartDataCell : IChartDataCell
@@ -19,15 +19,15 @@ public class ChartDataCell : IChartDataCell
 
 | Name | Beschreibung |
 | --- | --- |
-| [ChartDataWorksheet](../../aspose.slides.charts/chartdatacell/chartdataworksheet) { get; } | Gibt das Arbeitsblatt zurück. Nur-Lese [`IChartDataWorksheet`](../ichartdataworksheet). |
-| [Column](../../aspose.slides.charts/chartdatacell/column) { get; } | Gibt den Index der Spalte des Arbeitsblatts zurück, in der sich die Zelle befindet. Nur-Lese Int32. |
-| [CustomNumberFormat](../../aspose.slides.charts/chartdatacell/customnumberformat) { get; set; } | Ruft das benutzerdefinierte Anzeigeformat für Zahlen und Daten ab oder legt es fest. Wenn der Wert leer ist, wird der Wert von PresetNumberFormat verwendet. Lesen/Schreiben String. |
-| [Formula](../../aspose.slides.charts/chartdatacell/formula) { get; set; } | Ruft die Formel im A1-Stil ab oder legt sie fest. |
-| [IsHidden](../../aspose.slides.charts/chartdatacell/ishidden) { get; } | Bestimmt, ob die Zelle verborgen ist. Nur-Lese Boolean. |
-| [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | Ruft das integrierte Anzeigeformat für Zahlen und Daten ab oder legt es fest. Die vordefinierte Zahl muss in [0..22] oder [37..49] liegen. Lesen/Schreiben Byte. |
-| [R1C1Formula](../../aspose.slides.charts/chartdatacell/r1c1formula) { get; set; } | Ruft die Formel im R1C1-Stil ab oder legt sie fest. |
-| [Row](../../aspose.slides.charts/chartdatacell/row) { get; } | Gibt den Index der Zeile des Arbeitsblatts zurück, in der sich die Zelle befindet. Nur-Lese Int32. |
-| [Value](../../aspose.slides.charts/chartdatacell/value) { get; set; } | Ruft den Wert einer Zelle ab oder legt ihn fest. Lesen/Schreiben Object. |
+| [ChartDataWorksheet](../../aspose.slides.charts/chartdatacell/chartdataworksheet) { get; } | Gibt das Arbeitsblatt zurück. Nur lesbar [`IChartDataWorksheet`](../ichartdataworksheet). |
+| [Column](../../aspose.slides.charts/chartdatacell/column) { get; } | Gibt den Index der Spalte des Arbeitsblatts zurück, in der sich die Zelle befindet. Nur lesbar Int32. |
+| [CustomNumberFormat](../../aspose.slides.charts/chartdatacell/customnumberformat) { get; set; } | Gibt das benutzerdefinierte Anzeigeformat für Zahlen und Daten zurück oder setzt es. Wenn der Wert leer ist, wird der PresetNumberFormat-Wert verwendet. Lesen/Schreiben String. |
+| [Formula](../../aspose.slides.charts/chartdatacell/formula) { get; set; } | Gibt die Formel im A1-Stil zurück oder setzt sie. |
+| [IsHidden](../../aspose.slides.charts/chartdatacell/ishidden) { get; } | Bestimmt, ob die Zelle verborgen ist. Nur lesbar Boolean. |
+| [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | Gibt das integrierte Anzeigeformat für Zahlen und Daten zurück oder setzt es. Die vordefinierte Zahl muss im Bereich [0..22] oder [37..49] liegen. Lesen/Schreiben Byte. |
+| [R1C1Formula](../../aspose.slides.charts/chartdatacell/r1c1formula) { get; set; } | Gibt die Formel im R1C1-Stil zurück oder setzt sie. |
+| [Row](../../aspose.slides.charts/chartdatacell/row) { get; } | Gibt den Index der Zeile des Arbeitsblatts zurück, in der sich die Zelle befindet. Nur lesbar Int32. |
+| [Value](../../aspose.slides.charts/chartdatacell/value) { get; set; } | Gibt den Wert einer Zelle zurück oder setzt ihn. Lesen/Schreiben Object. |
 
 ## Methoden
 

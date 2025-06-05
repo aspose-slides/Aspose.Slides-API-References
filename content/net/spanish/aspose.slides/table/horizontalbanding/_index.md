@@ -15,7 +15,7 @@ Determina si las filas pares deben dibujarse con un formato diferente. Booleano 
 public bool HorizontalBanding { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [Table](../../table)
 * espacio de nombres [Aspose.Slides](../../table)

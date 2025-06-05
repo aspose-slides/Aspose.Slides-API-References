@@ -1,13 +1,13 @@
 ---
 title: AddOleObjectFrame
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Fügt ein neues OLE-Objekt am Ende einer Sammlung hinzu.
 type: docs
 weight: 120
 url: /de/aspose.slides/ishapecollection/addoleobjectframe/
 ---
 
-## AddOleObjectFrame(float, float, float, float, IOleEmbeddedDataInfo) {#addoleobjectframe}
+## AddOleObjectFrame(float, float, float, float, IOleEmbeddedDataInfo) {#addoleobjectframe}
 
 Fügt ein neues OLE-Objekt am Ende einer Sammlung hinzu.
 
@@ -22,13 +22,13 @@ public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float he
 | y | Single | Y-Koordinate eines neuen OLE-Rahmens. |
 | width | Single | Breite eines neuen OLE-Rahmens. |
 | height | Single | Höhe eines neuen OLE-Rahmens. |
-| dataInfo | IOleEmbeddedDataInfo | Eingebettete Dateninformationen [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |
+| dataInfo | IOleEmbeddedDataInfo | Eingebettete Dateninformation [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |
 
 ### Rückgabewert
 
 Erstelltes OLE-Objekt.
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IOleObjectFrame](../../ioleobjectframe)
 * Schnittstelle [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo)
@@ -38,7 +38,7 @@ Erstelltes OLE-Objekt.
 
 ---
 
-## AddOleObjectFrame(float, float, float, float, string, string) {#addoleobjectframe_1}
+## AddOleObjectFrame(float, float, float, float, string, string) {#addoleobjectframe_1}
 
 Fügt ein neues OLE-Objekt am Ende einer Sammlung hinzu.
 
@@ -54,13 +54,13 @@ public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float he
 | width | Single | Breite eines neuen OLE-Rahmens. |
 | height | Single | Höhe eines neuen OLE-Rahmens. |
 | className | String | Name einer OLE-Klasse. |
-| path | String | Pfad zur verlinkten Datei. |
+| path | String | Pfad zur verknüpften Datei. |
 
 ### Rückgabewert
 
 Erstelltes OLE-Objekt.
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IOleObjectFrame](../../ioleobjectframe)
 * Schnittstelle [IShapeCollection](../../ishapecollection)

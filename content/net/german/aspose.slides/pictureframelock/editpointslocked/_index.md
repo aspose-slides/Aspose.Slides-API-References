@@ -1,7 +1,7 @@
 ---
 title: EditPointsLocked
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob eine direkte Änderung des Konturs dieser Form verboten ist. Lese-/Schreib-Boolescher Wert.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt, ob eine direkte Änderung des Konturs dieser Form verboten ist. Lese-/Schreib-Boolean.
 type: docs
 weight: 50
 url: /de/aspose.slides/pictureframelock/editpointslocked/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/pictureframelock/editpointslocked/
 
 ## PictureFrameLock.EditPointsLocked-Eigenschaft
 
-Bestimmt, ob eine direkte Änderung des Konturs dieser Form verboten ist. Lese-/Schreib-Boolescher Wert.
+Bestimmt, ob eine direkte Änderung des Konturs dieser Form verboten ist. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool EditPointsLocked { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [PictureFrameLock](../../pictureframelock)
 * Namespace [Aspose.Slides](../../pictureframelock)

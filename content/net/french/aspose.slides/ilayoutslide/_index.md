@@ -1,6 +1,6 @@
 ---
 title: ILayoutSlide
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Représente une diapositive de mise en page.
 type: docs
 weight: 6020
@@ -25,13 +25,13 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 | [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | Renvoie le gestionnaire d'en-tête et de pied de page de la diapositive de mise en page. Lecture seule [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
 | [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | Renvoie le type de mise en page de cette diapositive de mise en page. Lecture seule [`SlideLayoutType`](../slidelayouttype). |
 | [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | Renvoie ou définit la diapositive maître pour une mise en page. Lecture/écriture [`IMasterSlide`](../imasterslide). |
-| [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | Renvoie le gestionnaire de zones de texte de la diapositive de mise en page. Lecture seule [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
+| [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | Renvoie le gestionnaire d'espace réservé de la diapositive de mise en page. Lecture seule [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [GetDependingSlides](../../aspose.slides/ilayoutslide/getdependingslides)() | Renvoie un tableau contenant toutes les diapositives qui dépendent de cette diapositive de mise en page. |
+| [GetDependingSlides](../../aspose.slides/ilayoutslide/getdependingslides)() | Renvoie un tableau de toutes les diapositives qui dépendent de cette diapositive de mise en page. |
 | [Remove](../../aspose.slides/ilayoutslide/remove)() | Supprime la mise en page de la présentation. |
 
 ### Voir aussi

@@ -1,21 +1,21 @@
 ---
 title: DataSourceTypeForYMinusValues
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает, является ли свойство AsCell, AsLiteralString или AsLiteralDouble актуальным в объекте свойства YMinus точек данных для пользовательских значений столбцов ошибок. Другими словами, оно указывает тип значения свойства ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Чтение/запись DataSourceType aspose.slides.charts/datasourcetype.
+second_title: Справочник API Aspose.Slides для .NET
+description: Указывает, является ли свойство AsCell, AsLiteralString или AsLiteralDouble актуальным в объекте свойства YMinus для пользовательских значений ошибок. Другими словами, оно указывает тип значения свойства ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Чтение/запись DataSourceTypeaspose.slides.charts/datasourcetype.
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues/
 ---
 
-## DataSourceTypeForErrorBarsCustomValues.DataSourceTypeForYMinusValues свойство
+## DataSourceTypeForErrorBarsCustomValues.DataSourceTypeForYMinusValues property
 
-Указывает, является ли свойство AsCell, AsLiteralString или AsLiteralDouble актуальным в объекте свойства YMinus точек данных для пользовательских значений столбцов ошибок. Другими словами, оно указывает тип значения свойства ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Чтение/запись [`DataSourceType`](../../datasourcetype).
+Указывает, является ли свойство AsCell, AsLiteralString или AsLiteralDouble актуальным в объекте свойства YMinus для пользовательских значений ошибок. Другими словами, оно указывает тип значения свойства ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Чтение/запись [`DataSourceType`](../../datasourcetype).
 
 ```csharp
 public DataSourceType DataSourceTypeForYMinusValues { get; set; }
 ```
 
-### См. Также
+### See Also
 
 * enum [DataSourceType](../../datasourcetype)
 * class [DataSourceTypeForErrorBarsCustomValues](../../datasourcetypeforerrorbarscustomvalues)

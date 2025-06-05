@@ -1,7 +1,7 @@
 ---
 title: EmbeddedFileExtension
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Dateierweiterung für das aktuelle eingebettete OLE-Objekt zurück. Nur lesender String.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Dateierweiterung für das aktuelle eingebettete OLE-Objekt zurück. Nur lesbarer String.
 type: docs
 weight: 30
 url: /de/aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension/
 
 ## OleEmbeddedDataInfo.EmbeddedFileExtension-Eigenschaft
 
-Gibt die Dateierweiterung für das aktuelle eingebettete OLE-Objekt zurück. Nur lesender String.
+Gibt die Dateierweiterung für das aktuelle eingebettete OLE-Objekt zurück. Nur lesbarer String.
 
 ```csharp
 public string EmbeddedFileExtension { get; }

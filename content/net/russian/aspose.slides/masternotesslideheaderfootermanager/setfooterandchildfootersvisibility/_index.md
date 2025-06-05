@@ -1,15 +1,15 @@
 ---
 title: SetFooterAndChildFootersVisibility
 second_title: Справочник по API Aspose.Slides для .NET
-description: Изменяет видимость элемента-заголовка нижнего колонтитула слайда и всех дочерних элементов-заголовков нижнего колонтитула. Дочерние элементы-заголовки означают, что элементы содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от основного слайда заметок.
+description: Изменяет видимость текстового поля нижнего колонтитула на главном слайде и всех дочерних текстовых полей нижнего колонтитула. Дочерние текстовые поля означают, что текстовые поля содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от главного слайда заметок.
 type: docs
 weight: 40
 url: /ru/aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfootersvisibility/
 ---
 
-## Метод MasterNotesSlideHeaderFooterManager.SetFooterAndChildFootersVisibility
+## MasterNotesSlideHeaderFooterManager.SetFooterAndChildFootersVisibility method
 
-Изменяет видимость элемента-заголовка нижнего колонтитула слайда и всех дочерних элементов-заголовков нижнего колонтитула. Дочерние элементы-заголовки означают, что элементы содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от основного слайда заметок.
+Изменяет видимость текстового поля нижнего колонтитула на главном слайде и всех дочерних текстовых полей нижнего колонтитула. Дочерние текстовые поля означают, что текстовые поля содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от главного слайда заметок.
 
 ```csharp
 public void SetFooterAndChildFootersVisibility(bool isVisible)
@@ -17,9 +17,9 @@ public void SetFooterAndChildFootersVisibility(bool isVisible)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| isVisible | Boolean | true - делает элементы-заголовки нижнего колонтитула видимыми, в противном случае - скрывает их. |
+| isVisible | Boolean | true - делает текстовые поля нижнего колонтитула видимыми, в противном случае - скрывает их. |
 
-### См. также
+### Смотрите также
 
 * класс [MasterNotesSlideHeaderFooterManager](../../masternotesslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../masternotesslideheaderfootermanager)

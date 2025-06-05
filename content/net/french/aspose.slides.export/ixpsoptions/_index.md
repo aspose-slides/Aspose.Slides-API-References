@@ -1,7 +1,7 @@
 ---
 title: IXpsOptions
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Fournit des options qui contrôlent la façon dont une présentation est enregistrée au format XPS.
+second_title: Référence API d'Aspose.Slides pour .NET
+description: Offre des options qui contrôlent comment une présentation est enregistrée au format XPS.
 type: docs
 weight: 4030
 url: /fr/aspose.slides.export/ixpsoptions/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/ixpsoptions/
 
 ## Interface IXpsOptions
 
-Fournit des options qui contrôlent la façon dont une présentation est enregistrée au format XPS.
+Offre des options qui contrôlent comment une présentation est enregistrée au format XPS.
 
 ```csharp
 public interface IXpsOptions : ISaveOptions
@@ -21,8 +21,8 @@ public interface IXpsOptions : ISaveOptions
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/ixpsoptions/asisaveoptions) { get; } | Renvoie l'interface ISaveOptions. Lecture seule [`ISaveOptions`](../isaveoptions). |
 | [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | Vrai pour dessiner un cadre noir autour de chaque diapositive. Booléen en lecture/écriture. |
-| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | Vrai pour convertir tous les mét fichiers utilisés dans une présentation en images PNG. Booléen en lecture/écriture. |
-| [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | Spécifie si le document généré doit inclure ou non les diapositives cachées. La valeur par défaut est `false`. |
+| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | Vrai pour convertir tous les métadonnées utilisées dans une présentation en images PNG. Booléen en lecture/écriture. |
+| [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | Indique si le document généré doit inclure des diapositives cachées ou non. Par défaut `false`. |
 
 ### Voir aussi
 

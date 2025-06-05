@@ -1,6 +1,6 @@
 ---
 title: FontsLoader
-second_title: Aspose.Sildes справочник по API для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Класс для загрузки пользовательских шрифтов, определенных пользователем. Должен использоваться перед созданием любых объектов презентации.
 type: docs
 weight: 4730
@@ -20,7 +20,7 @@ public sealed class FontsLoader : IFontsLoader
 | Имя | Описание |
 | --- | --- |
 | static [ClearCache](../../aspose.slides/fontsloader/clearcache)() | Освобождает все пользовательские шрифты, определенные пользователем |
-| static [GetFontFolders](../../aspose.slides/fontsloader/getfontfolders)() | Получает папки со шрифтами. Возвращает папки, которые были добавлены с помощью метода LoadExternalFonts, а также системные папки шрифтов |
+| static [GetFontFolders](../../aspose.slides/fontsloader/getfontfolders)() | Получает папки шрифтов. Возвращает папки, которые были добавлены с помощью метода LoadExternalFonts, а также системные папки шрифтов |
 | static [LoadExternalFont](../../aspose.slides/fontsloader/loadexternalfont)(byte[]) | Добавляет шрифт из двоичных данных |
 | static [LoadExternalFonts](../../aspose.slides/fontsloader/loadexternalfonts)(string[]) | Добавляет дополнительные папки для поиска шрифтов. |
 

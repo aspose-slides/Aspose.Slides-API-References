@@ -7,7 +7,7 @@ weight: 50
 url: /fr/aspose.slides/icustomxmlpartcollection/removeat/
 ---
 
-## Méthode ICustomXmlPartCollection.RemoveAt
+## ICustomXmlPartCollection.RemoveAt méthode
 
 Supprime la partie xml personnalisée à l'index spécifié.
 
@@ -25,7 +25,7 @@ public void RemoveAt(int index)
 | --- | --- |
 | ArgumentOutOfRangeException | index est inférieur à 0.-ou-index est égal ou supérieur à Count |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ICustomXmlPartCollection](../../icustomxmlpartcollection)
 * namespace [Aspose.Slides](../../icustomxmlpartcollection)

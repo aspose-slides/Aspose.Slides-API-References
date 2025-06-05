@@ -1,7 +1,7 @@
 ---
-title: Farbe
+title: Color
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Farbe eines Farbverlaufs-Stops zurück. Nur-Lese IColorFormat aspose.slides/icolorformat.
+description: Gibt die Farbe eines Farbverlaufs-Stops zurück. Nur-lesendes IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 10
 url: /de/aspose.slides/igradientstop/color/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/igradientstop/color/
 
 ## IGradientStop.Color-Eigenschaft
 
-Gibt die Farbe eines Farbverlaufs-Stops zurück. Nur-Lese [`IColorFormat`](../../icolorformat).
+Gibt die Farbe eines Farbverlaufs-Stops zurück. Nur-lesend [`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat Color { get; }

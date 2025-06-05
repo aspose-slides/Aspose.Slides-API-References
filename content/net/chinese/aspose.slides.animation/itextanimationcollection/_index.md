@@ -19,9 +19,9 @@ public interface ITextAnimationCollection : IGenericCollection<ITextAnimation>
 
 | 名称 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides.animation/itextanimationcollection/item) { get; } | 通过索引返回元素。 (2 个索引器) |
+| [Item](../../aspose.slides.animation/itextanimationcollection/item) { get; } | 根据索引返回元素。 (2 个索引器) |
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 接口 [ITextAnimation](../itextanimation)

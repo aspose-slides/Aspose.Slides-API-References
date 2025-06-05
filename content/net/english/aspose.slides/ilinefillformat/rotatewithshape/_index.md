@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/ilinefillformat/rotatewithshape/
 ---
+
 ## ILineFillFormat.RotateWithShape property
 
 Determines whether the fill should be rotated with a shape. Read/write [`NullableBool`](../../nullablebool).

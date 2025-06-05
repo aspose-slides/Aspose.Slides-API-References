@@ -1,7 +1,7 @@
 ---
 title: ISaveOptions
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Параметры, которые контролируют, как сохраняется презентация.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Опции, которые контролируют, как сохраняется презентация.
 type: docs
 weight: 3900
 url: /ru/aspose.slides.export/isaveoptions/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export/isaveoptions/
 
 ## Интерфейс ISaveOptions
 
-Параметры, которые контролируют, как сохраняется презентация.
+Опции, которые контролируют, как сохраняется презентация.
 
 ```csharp
 public interface ISaveOptions
@@ -19,13 +19,13 @@ public interface ISaveOptions
 
 | Имя | Описание |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/isaveoptions/defaultregularfont) { get; set; } | Возвращает или устанавливает шрифт, используемый в случае отсутствия исходного шрифта. Читаемый и записываемый строковый тип. |
-| [GradientStyle](../../aspose.slides.export/isaveoptions/gradientstyle) { get; set; } | Возвращает или устанавливает визуальный стиль градиента. Читаемый/записываемый [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/isaveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для обновления состояния сохранения в процентах. Смотрите [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/isaveoptions/skipjavascriptlinks) { get; set; } | Указывает, следует ли пропускать гиперссылки с вызовами JavaScript при сохранении презентации. Читаемый/записываемый логический тип. Значение по умолчанию **false**. |
-| [WarningCallback](../../aspose.slides.export/isaveoptions/warningcallback) { get; set; } | Возвращает или устанавливает объект, который получает предупреждения и решает, продолжится ли процесс загрузки или будет прерван. Читаемый/записываемый [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/isaveoptions/defaultregularfont) { get; set; } | Возвращает или задает шрифт, используемый в случае, если исходный шрифт не найден. Читаемый и записываемый String. |
+| [GradientStyle](../../aspose.slides.export/isaveoptions/gradientstyle) { get; set; } | Возвращает или задает визуальный стиль градиента. Читаемый и записываемый [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/isaveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для обновления информации о процессе сохранения в процентах. См. [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/isaveoptions/skipjavascriptlinks) { get; set; } | Указывает, следует ли пропускать гиперссылки с вызовами JavaScript при сохранении презентации. Читаемый и записываемый Boolean. Значение по умолчанию **false**. |
+| [WarningCallback](../../aspose.slides.export/isaveoptions/warningcallback) { get; set; } | Возвращает или задает объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или прерван. Читаемый и записываемый [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-### См. также
+### Также см. 
 
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)

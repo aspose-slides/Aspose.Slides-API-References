@@ -1,7 +1,7 @@
 ---
 title: AsICellCollection
-second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基本的 ICellCollection 接口。只读 ICellCollection aspose.slides/icellcollection。
+second_title: Aspose.Slides for .NET API Reference
+description: 允许获取基础 ICellCollection 接口。只读 ICellCollection aspose.slides/icellcollection。
 type: docs
 weight: 20
 url: /zh/aspose.slides/irow/asicellcollection/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/irow/asicellcollection/
 
 ## IRow.AsICellCollection 属性
 
-允许获取基本的 ICellCollection 接口。只读 [`ICellCollection`](../../icellcollection)。
+允许获取基础 ICellCollection 接口。只读 [`ICellCollection`](../../icellcollection)。
 
 ```csharp
 public ICellCollection AsICellCollection { get; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [ICellCollection](../../icellcollection)
 * 接口 [IRow](../../irow)

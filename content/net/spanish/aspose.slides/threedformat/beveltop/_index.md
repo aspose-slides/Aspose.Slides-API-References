@@ -1,6 +1,6 @@
 ---
 title: BevelTop
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API Aspose.Slides para .NET
 description: Devuelve o establece el tipo de un bisel 3D superior. Solo lectura IShapeBevelaspose.slides/ishapebevel.
 type: docs
 weight: 20
@@ -20,6 +20,6 @@ public IShapeBevel BevelTop { get; }
 * interfaz [IShapeBevel](../../ishapebevel)
 * clase [ThreeDFormat](../../threedformat)
 * espacio de nombres [Aspose.Slides](../../threedformat)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->

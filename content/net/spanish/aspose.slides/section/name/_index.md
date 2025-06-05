@@ -1,5 +1,5 @@
 ---
-title: Nombre
+title: Name
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Nombre de la sección.
 type: docs
@@ -17,8 +17,8 @@ public string Name { get; set; }
 
 ### Ver También
 
-* clase [Section](../../section)
-* espacio de nombres [Aspose.Slides](../../section)
-* ensamblado [Aspose.Slides](../../../)
+* class [Section](../../section)
+* namespace [Aspose.Slides](../../section)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.lowcode/convert/tosvg/
 ---
+
 ## ToSvg(string) {#tosvg_3}
 
 Converts [`Presentation`](../../../aspose.slides/presentation) to SVG.

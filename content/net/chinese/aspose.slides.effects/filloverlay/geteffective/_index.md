@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Aspose.Sildes for .NET API Reference
-description: 获取有效的填充叠加效果数据，应用了继承。
+second_title: Aspose.Slid es for .NET API Reference
+description: 获取应用继承的有效填充叠加效果数据。
 type: docs
 weight: 40
 url: /zh/aspose.slides.effects/filloverlay/geteffective/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/filloverlay/geteffective/
 
 ## FillOverlay.GetEffective 方法
 
-获取有效的填充叠加效果数据，应用了继承。
+获取应用继承的有效填充叠加效果数据。
 
 ```csharp
 public IFillOverlayEffectiveData GetEffective()

@@ -1,7 +1,7 @@
 ---
 title: AlphaReplace
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente un effet Alpha Replace. Les valeurs alpha opacité de l'effet sont remplacées par un alpha fixe.
+second_title: Aspose.Sildes for .NET API Reference
+description: Représente un effet de remplacement alpha. Les valeurs alpha opacité de l'effet sont remplacées par un alpha fixe.
 type: docs
 weight: 2810
 url: /fr/aspose.slides.effects/alphareplace/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/alphareplace/
 
 ## Classe AlphaReplace
 
-Représente un effet Alpha Replace. Les valeurs alpha (opacité) de l'effet sont remplacées par un alpha fixe.
+Représente un effet de remplacement alpha. Les valeurs alpha (opacité) de l'effet sont remplacées par un alpha fixe.
 
 ```csharp
 public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
@@ -25,8 +25,8 @@ public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
 
 | Nom | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphareplace/equals)(object) | Détermine si le [`AlphaReplace`](../alphareplace) spécifié est égal au [`AlphaReplace`](../alphareplace) actuel. |
-| [GetEffective](../../aspose.slides.effects/alphareplace/geteffective)() | Obtient les données de l'effet Alpha Replace effectif avec l'héritage appliqué. |
+| override [Equals](../../aspose.slides.effects/alphareplace/equals)(object) | Détermine si le [`AlphaReplace`](../alphareplace) spécifié est égal à l'[`AlphaReplace`](../alphareplace) actuel. |
+| [GetEffective](../../aspose.slides.effects/alphareplace/geteffective)() | Obtient les données de l'effet de remplacement alpha effectif avec l'héritage appliqué. |
 | override [GetHashCode](../../aspose.slides.effects/alphareplace/gethashcode)() | Sert de fonction de hachage pour un type particulier. |
 
 ### Voir aussi

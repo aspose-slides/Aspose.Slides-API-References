@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides.charts/chartdatapointcollection/adddatapointforhistogramseries/
 ---
+
 ## ChartDataPointCollection.AddDataPointForHistogramSeries method
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Histogram.

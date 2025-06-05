@@ -1,6 +1,6 @@
 ---
 title: CreateMathSubscriptElement
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Справочник API Aspose.Slides для .NET
 description: Создает IMathSubscriptElement
 type: docs
 weight: 20
@@ -18,14 +18,14 @@ public IMathSubscriptElement CreateMathSubscriptElement(IMathElement baseArg,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| baseArg | IMathElement | Базовый аргумент для применения индекса |
+| baseArg | IMathElement | Основной аргумент для применения индекса |
 | subScript | IMathElement | нижний правый индекс |
 
 ### Возвращаемое значение
 
 новый IMathSubscriptElement
 
-### Также смотрите
+### См. также
 
 * интерфейс [IMathSubscriptElement](../../imathsubscriptelement)
 * интерфейс [IMathElement](../../imathelement)

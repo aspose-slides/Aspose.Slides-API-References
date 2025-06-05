@@ -1,7 +1,7 @@
 ---
 title: ShowHiddenSlides
-second_title: Aspose.Slides for .NET API 参考
-description: 指定生成的文档是否应包括隐藏幻灯片。 默认为 false。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定生成的文档是否应包含隐藏幻灯片。默认值为 false。
 type: docs
 weight: 170
 url: /zh/aspose.slides.export/ipdfoptions/showhiddenslides/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/ipdfoptions/showhiddenslides/
 
 ## IPdfOptions.ShowHiddenSlides 属性
 
-指定生成的文档是否应包括隐藏幻灯片。 默认为 `false`。
+指定生成的文档是否应包含隐藏幻灯片。默认值为 `false`。
 
 ```csharp
 public bool ShowHiddenSlides { get; set; }

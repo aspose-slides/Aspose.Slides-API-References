@@ -15,7 +15,7 @@ Determina si se prohíbe la edición de texto. Booleano de lectura/escritura.
 public bool TextLocked { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [AutoShapeLock](../../autoshapelock)
 * espacio de nombres [Aspose.Slides](../../autoshapelock)

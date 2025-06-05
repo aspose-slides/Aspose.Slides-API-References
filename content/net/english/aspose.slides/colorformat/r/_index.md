@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides/colorformat/r/
 ---
+
 ## ColorFormat.R property
 
 Returns or sets the red component of a color. All color transformations are ignored. Read/write Byte.

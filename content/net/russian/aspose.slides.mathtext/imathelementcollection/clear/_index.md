@@ -1,13 +1,13 @@
 ---
-title: Очистить
-second_title: Справочник по API Aspose.Sildes для .NET
+title: Clear
+second_title: Aspose.Sildes для справки по API .NET
 description: Удаляет все элементы из коллекции.
 type: docs
 weight: 50
 url: /ru/aspose.slides.mathtext/imathelementcollection/clear/
 ---
 
-## Метод IMathElementCollection.Clear
+## IMathElementCollection.Clear метод
 
 Удаляет все элементы из коллекции.
 

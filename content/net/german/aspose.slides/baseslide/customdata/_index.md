@@ -1,7 +1,7 @@
 ---
 title: CustomData
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die benutzerdefinierten Daten der Folie zurück. Nur-lesbares ICustomDataaspose.slides/icustomdata.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die benutzerdefinierten Daten der Folien zurück. Nur lesen ICustomDataaspose.slides/icustomdata.
 type: docs
 weight: 30
 url: /de/aspose.slides/baseslide/customdata/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/baseslide/customdata/
 
 ## BaseSlide.CustomData-Eigenschaft
 
-Gibt die benutzerdefinierten Daten der Folie zurück. Nur-lesbares [`ICustomData`](../../icustomdata).
+Gibt die benutzerdefinierten Daten der Folie zurück. Nur lesen [`ICustomData`](../../icustomdata).
 
 ```csharp
 public ICustomData CustomData { get; }

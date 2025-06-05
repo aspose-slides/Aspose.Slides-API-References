@@ -1,7 +1,7 @@
 ---
-title: Element
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Layout-Slide anhand des Index zurück. Nur-lesbarer LayoutSlideaspose.slides/layoutslide.
+title: Item
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Layoutfolie nach Index zurück. Nur lesbare LayoutSlideaspose.slides/layoutslide.
 type: docs
 weight: 30
 url: /de/aspose.slides/layoutslidecollection/item/
@@ -9,15 +9,15 @@ url: /de/aspose.slides/layoutslidecollection/item/
 
 ## LayoutSlideCollection-Indexer
 
-Gibt den Layout-Slide anhand des Index zurück. Nur-lesbarer [`LayoutSlide`](../../layoutslide).
+Gibt die Layoutfolie nach Index zurück. Nur lesbare [`LayoutSlide`](../../layoutslide).
 
 ```csharp
 public ILayoutSlide this[int index] { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
-* Interface [ILayoutSlide](../../ilayoutslide)
+* Schnittstelle [ILayoutSlide](../../ilayoutslide)
 * Klasse [LayoutSlideCollection](../../layoutslidecollection)
 * Namensraum [Aspose.Slides](../../layoutslidecollection)
 * Assembly [Aspose.Slides](../../../)

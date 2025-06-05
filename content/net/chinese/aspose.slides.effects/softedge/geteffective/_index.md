@@ -1,6 +1,6 @@
 ---
 title: GetEffective
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取应用继承的有效软边缘效果数据。
 type: docs
 weight: 30
@@ -19,7 +19,7 @@ public ISoftEdgeEffectiveData GetEffective()
 
 一个 [`ISoftEdgeEffectiveData`](../../isoftedgeeffectivedata)。
 
-### 另请参阅
+### 另见
 
 * 接口 [ISoftEdgeEffectiveData](../../isoftedgeeffectivedata)
 * 类 [SoftEdge](../../softedge)

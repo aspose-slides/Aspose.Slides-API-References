@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.animation/ibehaviorfactory/createpropertyeffect/
 ---
+
 ## IBehaviorFactory.CreatePropertyEffect method
 
 Creates property effect.

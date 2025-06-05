@@ -1,6 +1,6 @@
 ---
 title: AudioPlayModePreset
-second_title: Aspose.Sildes pour la référence API .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Constantes qui définissent comment un son est joué.
 type: docs
 weight: 800
@@ -25,7 +25,7 @@ public enum AudioPlayModePreset
 | AllSlides | `2` | Jouer sur toutes les diapositives. Veuillez utiliser la propriété [`PlayAcrossSlides`](../iaudioframe/playacrossslides) à la place. Cet élément est obsolète depuis PowerPoint 2013. |
 | InClickSequence | `3` | Jouer automatiquement avec un clic. |
 
-### Voir Aussi
+### Voir aussi
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

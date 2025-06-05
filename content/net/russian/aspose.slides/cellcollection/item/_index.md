@@ -1,6 +1,6 @@
 ---
-title: Элемент
-second_title: Справочник по API Aspose.Slides для .NET
+title: Item
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает ячейку по ее позиции. Только для чтения Cellaspose.slides/cell.
 type: docs
 weight: 30
@@ -19,7 +19,7 @@ public ICell this[int index] { get; }
 
 Один объект Cell может быть возвращен для нескольких индексов в случае, если ячейка объединена.
 
-### См. также
+### Смотрите также
 
 * интерфейс [ICell](../../icell)
 * класс [CellCollection](../../cellcollection)

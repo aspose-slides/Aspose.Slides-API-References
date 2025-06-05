@@ -1,6 +1,6 @@
 ---
 title: ColorSource
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示超链接颜色的来源 - 可以是样式或部分格式。读/写 HyperlinkColorSourceaspose.slides/hyperlinkcolorsource。
 type: docs
 weight: 110
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/hyperlink/colorsource/
 public HyperlinkColorSource ColorSource { get; set; }
 ```
 
-### 参见
+### 另请参见
 
 * enum [HyperlinkColorSource](../../hyperlinkcolorsource)
 * class [Hyperlink](../../hyperlink)

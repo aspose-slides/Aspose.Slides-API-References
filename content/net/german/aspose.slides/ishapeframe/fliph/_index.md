@@ -1,7 +1,7 @@
 ---
 title: FlipH
-second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob ein Frame horizontal gespiegelt ist. Nur lesbare NullableBoolaspose.slides/nullablebool.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Bestimmt, ob ein Rahmen horizontal gespiegelt ist. Nur-lesbar NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 30
 url: /de/aspose.slides/ishapeframe/fliph/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ishapeframe/fliph/
 
 ## IShapeFrame.FlipH-Eigenschaft
 
-Bestimmt, ob ein Frame horizontal gespiegelt ist. Nur lesbare [`NullableBool`](../../nullablebool).
+Bestimmt, ob ein Rahmen horizontal gespiegelt ist. Nur-lesbar [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool FlipH { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [NullableBool](../../nullablebool)
 * interface [IShapeFrame](../../ishapeframe)

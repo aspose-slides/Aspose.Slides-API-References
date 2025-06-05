@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.mathtext/mathgroupingcharacter/position/
 ---
+
 ## MathGroupingCharacter.Position property
 
 Position of grouping character. Default: Bottom

@@ -1,7 +1,7 @@
 ---
-title: Konformität
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Konformitätsklasse an, zu der das Präsentationsdokument gehört. Standardwert ist Ecma376_2006
+title: Conformance
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt die Konformitätsklasse an, zu der das Präsentationsdokument konform ist. Der Standardwert ist Ecma376_2006
 type: docs
 weight: 20
 url: /de/aspose.slides.export/ipptxoptions/conformance/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.export/ipptxoptions/conformance/
 
 ## IPptxOptions.Conformance-Eigenschaft
 
-Gibt die Konformitätsklasse an, zu der das Präsentationsdokument gehört. Standardwert ist Ecma376_2006
+Gibt die Konformitätsklasse an, zu der das Präsentationsdokument konform ist. Der Standardwert ist Ecma376_2006
 
 ```csharp
 public Conformance Conformance { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [Conformance](../../conformance)
 * interface [IPptxOptions](../../ipptxoptions)

@@ -1,7 +1,7 @@
 ---
 title: EastAsianFont
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Informationen zur ostasiatischen Schriftart zurück oder setzt sie. Null bedeutet, dass die Schriftart undefiniert ist und vom Master übernommen werden sollte. Lese-/Schreibzugriff auf IFontDataaspose.slides/ifontdata.
+description: Gibt die Informationen zur ostasiatischen Schriftart zurück oder legt sie fest. Null bedeutet, dass die Schriftart undefiniert ist und von der Mastervorlage geerbt werden sollte. Lese-/schreibbarer IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 30
 url: /de/aspose.slides/baseportionformat/eastasianfont/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/baseportionformat/eastasianfont/
 
 ## BasePortionFormat.EastAsianFont-Eigenschaft
 
-Gibt die Informationen zur ostasiatischen Schriftart zurück oder setzt sie. Null bedeutet, dass die Schriftart undefiniert ist und vom Master übernommen werden sollte. Lese-/Schreibzugriff auf [`IFontData`](../../ifontdata).
+Gibt die Informationen zur ostasiatischen Schriftart zurück oder legt sie fest. Null bedeutet, dass die Schriftart undefiniert ist und von der Mastervorlage geerbt werden sollte. Lese-/schreibbar [`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData EastAsianFont { get; set; }

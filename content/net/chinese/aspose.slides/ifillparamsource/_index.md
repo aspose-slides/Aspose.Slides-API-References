@@ -1,6 +1,6 @@
 ---
 title: IFillParamSource
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 辅助填充参数接口。
 type: docs
 weight: 5610

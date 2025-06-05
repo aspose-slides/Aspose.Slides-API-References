@@ -1,6 +1,6 @@
 ---
 title: Videos
-second_title: Aspose.Slides para .NET API Reference
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve la colección de todos los archivos de video incrustados en la presentación. Solo lectura IVideoCollectionaspose.slides/ivideocollection.
 type: docs
 weight: 280
@@ -17,7 +17,7 @@ public IVideoCollection Videos { get; }
 
 ### Ejemplos
 
-Los siguientes ejemplos muestran cómo crear un Marco de Video incrustado en una Presentación de PowerPoint.
+Los siguientes ejemplos muestran cómo crear un marco de video incrustado en una presentación de PowerPoint.
 
 ```csharp
 [C#]
@@ -28,19 +28,19 @@ using (Presentation pres = new Presentation())
     ISlide sld = pres.Slides[0];
     // Incrustar video dentro de la presentación
     IVideo vid = pres.Videos.AddVideo(new FileStream("Wildlife.mp4", FileMode.Open));
-    // Agregar Marco de Video
+    // Agregar marco de video
     IVideoFrame vf = sld.Shapes.AddVideoFrame(50, 150, 300, 350, vid);
-    // Establecer video en el Marco de Video
+    // Establecer video en el marco de video
     vf.EmbeddedVideo = vid;
-    // Establecer modo de reproducción y volumen del Video
+    // Establecer modo de reproducción y volumen del video
     vf.PlayMode = VideoPlayModePreset.Auto;
     vf.Volume = AudioVolumeMode.Loud;
-    // Escribir el archivo PPTX en disco
+    // Escribir el archivo PPTX en el disco
     pres.Save("VideoFrame_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-Los siguientes ejemplos muestran cómo agregar un video pasando la ruta del archivo de video directamente al método AddVideoFrame para la Presentación de PowerPoint.
+Los siguientes ejemplos muestran cómo agregar un video pasando la ruta al archivo de video directamente en el método AddVideoFrame para la presentación de PowerPoint.
 
 ```csharp
 [C#]
@@ -51,28 +51,28 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-Los siguientes ejemplos muestran cómo agregar un archivo grande a través de BLOB a una Presentación.
+Los siguientes ejemplos muestran cómo agregar un archivo grande a través de BLOB a una presentación.
 
 ```csharp
 [C#]
 const string pathToVeryLargeVideo = "veryLargeVideo.avi";
-// Crea una nueva presentación a la que se añadirá el video
+// Crea una nueva presentación a la que se agregará el video
 using (Presentation pres = new Presentation())
 {
     using (FileStream fileStream = new FileStream(pathToVeryLargeVideo, FileMode.Open))
     {
-        // Vamos a agregar el video a la presentación - elegimos el comportamiento KeepLocked porque no
+        // Vamos a agregar el video a la presentación - elegimos el comportamiento KeepLocked porque no 
         // pretendemos acceder al archivo "veryLargeVideo.avi".
         IVideo video = pres.Videos.AddVideo(fileStream, LoadingStreamBehavior.KeepLocked);
         pres.Slides[0].Shapes.AddVideoFrame(0, 0, 480, 270, video);
-        // Guarda la presentación. Mientras se genera una presentación grande, el consumo de memoria
-        // se mantiene bajo durante el ciclo de vida del objeto pres
+        // Guarda la presentación. Mientras una presentación grande se genera, el consumo de memoria 
+        // se mantiene bajo a lo largo del ciclo de vida del objeto pres
         pres.Save("presentationWithLargeVideo.pptx", SaveFormat.Pptx);
     }
 }
 ```
 
-Los siguientes ejemplos muestran cómo exportar archivos grandes a través de BLOB desde una Presentación de PowerPoint.
+Los siguientes ejemplos muestran cómo exportar un archivo grande a través de BLOB desde la presentación de PowerPoint.
 
 ```csharp
 [C#]
@@ -80,24 +80,24 @@ const string hugePresentationWithAudiosAndVideosFile = @"Large  Video File Test1
 LoadOptions loadOptions = new LoadOptions
 {
 	BlobManagementOptions = {
-		// Bloquea el archivo de origen y NO lo carga en memoria
+		// Bloquea el archivo fuente y NO lo carga en la memoria
 		PresentationLockingBehavior = PresentationLockingBehavior.KeepLocked,
 	}
 };
 // Crea una instancia de Presentation, bloquea el archivo "hugePresentationWithAudiosAndVideos.pptx".
 using (Presentation pres = new Presentation(hugePresentationWithAudiosAndVideosFile, loadOptions))
 {
-	// Vamos a guardar cada video en un archivo. Para prevenir un alto uso de memoria, necesitamos un búfer que se usará
-	// para transferir los datos del flujo de video de la presentación a un flujo para un archivo de video recién creado.
+	// Vamos a guardar cada video en un archivo. Para prevenir un alto uso de memoria, necesitamos un búfer que se usará 
+	// para transferir los datos desde el flujo de video de la presentación a un flujo para un archivo de video recién creado.
 	byte[] buffer = new byte[8 * 1024];
 	// Itera a través de los videos
 	for (var index = 0; index < pres.Videos.Count; index++)
 	{
 		IVideo video = pres.Videos[index];
-		// Abre el flujo de video de la presentación. Tenga en cuenta que evitamos intencionalmente acceder a propiedades
-		// como video.BinaryData - porque esta propiedad devuelve un array de bytes que contiene un video completo, que luego
-		// causa que los bytes se carguen en memoria. Usamos video.GetStream, que devolverá Stream - y NO
-		// requiere que carguemos todo el video en la memoria.
+		// Abre el flujo de video de la presentación. Por favor, ten en cuenta que evitamos intencionalmente acceder a propiedades
+		// como video.BinaryData, porque esta propiedad devuelve un arreglo de bytes que contiene un video completo, lo que luego
+		// provoca que los bytes se carguen en memoria. Usamos video.GetStream, que devolverá Stream y NO
+		//  requiere que carguemos el video completo en la memoria.
 		using (Stream presVideoStream = video.GetStream())
 		{
 			using (FileStream outputFileStream = File.OpenWrite($"video{index}.avi"))
@@ -109,13 +109,13 @@ using (Presentation pres = new Presentation(hugePresentationWithAudiosAndVideosF
 				}
 			}
 		}
-		// El consumo de memoria se mantendrá bajo independientemente del tamaño del video o de la presentación,
+		// El consumo de memoria se mantendrá bajo independientemente del tamaño del video o la presentación.
 	}
-	// Si es necesario, puede aplicar los mismos pasos para archivos de audio.
+	// Si es necesario, puedes aplicar los mismos pasos para archivos de audio.
 }
 ```
 
-Los siguientes ejemplos muestran cómo agregar un hipervínculo a un video en una Presentación de PowerPoint.
+Los siguientes ejemplos muestran cómo agregar un hipervínculo a un video en una presentación de PowerPoint.
 
 ```csharp
 [C#]
@@ -124,12 +124,12 @@ using (Presentation pres = new Presentation())
     IVideo video = pres.Videos.AddVideo(File.ReadAllBytes("video.avi"));
     IVideoFrame videoFrame = pres.Slides[0].Shapes.AddVideoFrame(10, 10, 100, 100, video);
     videoFrame.HyperlinkClick = new Hyperlink("https://www.aspose.com/");
-    videoFrame.HyperlinkClick.Tooltip = "Más del 70% de las empresas Fortune 100 confían en las API de Aspose";
+    videoFrame.HyperlinkClick.Tooltip = "Más del 70% de las empresas del Fortune 100 confían en las API de Aspose";
     pres.Save("pres-out.pptx", SaveFormat.Pptx);
 }
 ```
 
-Los siguientes ejemplos muestran cómo crear un Marco de Video con Video de una Fuente Web en una Presentación de PowerPoint.
+Los siguientes ejemplos muestran cómo crear un marco de video con video de fuente web en una presentación de PowerPoint.
 
 ```csharp
 [C#]
@@ -155,7 +155,7 @@ private static void AddVideoFromYouTube(Presentation pres, string videoId)
 }
 ```
 
-Los siguientes ejemplos muestran cómo extraer Video de una diapositiva de una Presentación de PowerPoint.
+Los siguientes ejemplos muestran cómo extraer el video de la diapositiva de la presentación de PowerPoint.
 
 ```csharp
 [C#]
@@ -185,9 +185,9 @@ using (Presentation presentation = new Presentation("Video.pptx"))
 
 ### Ver También
 
-* interfaz [IVideoCollection](../../ivideocollection)
-* clase [Presentation](../../presentation)
-* espacio de nombres [Aspose.Slides](../../presentation)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IVideoCollection](../../ivideocollection)
+* clase [Presentation](../../presentation)
+* espacio de nombres [Aspose.Slides](../../presentation)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

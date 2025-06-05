@@ -1,13 +1,13 @@
 ---
 title: CreateVideoPlayerHtmlController
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Créer un contrôleur HTML de lecteur vidéo.
 type: docs
 weight: 10
 url: /fr/aspose.slides.export/ivideoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller/
 ---
 
-## Méthode IVideoPlayerHtmlControllerFactory.CreateVideoPlayerHtmlController
+## IVideoPlayerHtmlControllerFactory.CreateVideoPlayerHtmlController méthode
 
 Créer un contrôleur HTML de lecteur vidéo.
 
@@ -19,7 +19,7 @@ public IVideoPlayerHtmlController CreateVideoPlayerHtmlController(string path, s
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | path | String | Chemin. |
-| fileName | String | Nom du fichier. |
+| fileName | String | Nom de fichier. |
 | baseUri | String | URI de base. |
 
 ### Valeur de retour

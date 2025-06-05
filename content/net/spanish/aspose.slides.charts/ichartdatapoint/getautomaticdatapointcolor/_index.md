@@ -1,15 +1,15 @@
 ---
 title: GetAutomaticDataPointColor
-second_title: Aspose.Slides para .NET API Reference
-description: Devuelve un color automático del punto de datos basado en el índice de serie, índice de punto de datos, propiedad ParentSeriesGroup.IsColorVaried y estilo de gráfico. Este color se utiliza por defecto si FillType es igual a NotDefined.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Devuelve un color automático del punto de datos basado en el índice de la serie, el índice del punto de datos, la propiedad ParentSeriesGroup.IsColorVaried y el estilo del gráfico. Este color se utiliza por defecto si FillType es igual a NotDefined.
 type: docs
 weight: 190
 url: /es/aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor/
 ---
 
-## Método IChartDataPoint.GetAutomaticDataPointColor
+## IChartDataPoint.GetAutomaticDataPointColor método
 
-Devuelve un color automático del punto de datos basado en el índice de serie, índice de punto de datos, propiedad ParentSeriesGroup.IsColorVaried y estilo de gráfico. Este color se utiliza por defecto si FillType es igual a NotDefined.
+Devuelve un color automático del punto de datos basado en el índice de la serie, el índice del punto de datos, la propiedad ParentSeriesGroup.IsColorVaried y el estilo del gráfico. Este color se utiliza por defecto si FillType es igual a NotDefined.
 
 ```csharp
 public Color GetAutomaticDataPointColor()
@@ -19,10 +19,10 @@ public Color GetAutomaticDataPointColor()
 
 Color automático del punto de datos Color
 
-### Véase También
+### Ver También
 
-* interfaz [IChartDataPoint](../../ichartdatapoint)
-* espacio de nombres [Aspose.Slides.Charts](../../ichartdatapoint)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IChartDataPoint](../../ichartdatapoint)
+* espacio de nombres [Aspose.Slides.Charts](../../ichartdatapoint)
+* ensamblaje [Aspose.Slides](../../../)
 
-<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

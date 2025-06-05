@@ -1,13 +1,13 @@
 ---
-title: 高度
-second_title: Aspose.Slides for .NET API 参考
+title: Height
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取图像的高度（以像素为单位）。
 type: docs
 weight: 10
 url: /zh/aspose.slides/iimage/height/
 ---
 
-## IImage.Height 属性
+## IImage.Height属性
 
 获取图像的高度（以像素为单位）。
 
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/iimage/height/
 public int Height { get; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IImage](../../iimage)
 * 命名空间 [Aspose.Slides](../../iimage)

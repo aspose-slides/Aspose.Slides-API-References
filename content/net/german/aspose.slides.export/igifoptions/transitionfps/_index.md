@@ -1,6 +1,6 @@
 ---
 title: TransitionFps
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Ruft die Übergangs-FPS Bilder/Sekunde ab oder legt sie fest. Der Standardwert ist 25.
 type: docs
 weight: 50

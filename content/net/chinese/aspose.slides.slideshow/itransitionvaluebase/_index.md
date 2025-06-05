@@ -1,6 +1,6 @@
 ---
 title: ITransitionValueBase
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示幻灯片过渡效果的基类。
 type: docs
 weight: 9900
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.slideshow/itransitionvaluebase/
 public interface ITransitionValueBase
 ```
 
-### 另见
+### 参考
 
 * 命名空间 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * 程序集 [Aspose.Slides](../../)

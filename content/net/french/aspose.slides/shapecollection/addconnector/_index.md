@@ -1,7 +1,7 @@
 ---
 title: AddConnector
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Crée un nouveau Connector, l'ajuste à partir du modèle par défaut et l'ajoute à la fin de la collection.
+second_title: Référence API Aspose.Slides pour .NET
+description: Crée un nouveau Connecteur, l'ajuste à partir du modèle par défaut et l'ajoute à la fin de la collection.
 type: docs
 weight: 120
 url: /fr/aspose.slides/shapecollection/addconnector/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/shapecollection/addconnector/
 
 ## AddConnector(ShapeType, float, float, float, float) {#addconnector}
 
-Crée un nouveau Connector, l'ajuste à partir du modèle par défaut et l'ajoute à la fin de la collection.
+Crée un nouveau Connecteur, l'ajuste à partir du modèle par défaut et l'ajoute à la fin de la collection.
 
 ```csharp
 public IConnector AddConnector(ShapeType shapeType, float x, float y, float width, float height)
@@ -27,7 +27,7 @@ public IConnector AddConnector(ShapeType shapeType, float x, float y, float widt
 
 L'index basé sur zéro de la forme créée.
 
-Objet Connector créé.
+Objet Connecteur créé.
 
 ### Exemples
 
@@ -35,28 +35,28 @@ L'exemple suivant montre comment ajouter un connecteur (un connecteur courbé) e
 
 ```csharp
 [C#]
-// Instancie une classe de présentation qui représente un fichier PPTX
+// Instantiates a presentation class that represents a PPTX file
 using (Presentation input = new Presentation())
 {
-    // Accède à la collection de formes pour une diapositive spécifique
+    // Accesses the shapes collection for a specific slide
     IShapeCollection shapes = input.Slides[0].Shapes;
-    // Ajoute une forme automatique Ellipse
+    // Adds an Ellipse autoshape
     IAutoShape ellipse = shapes.AddAutoShape(ShapeType.Ellipse, 0, 100, 100, 100);
-    // Ajoute une forme automatique Rectangle
+    // Adds a Rectangle autoshape
     IAutoShape rectangle = shapes.AddAutoShape(ShapeType.Rectangle, 100, 300, 100, 100);
-    // Ajoute une forme connecteur à la collection de formes de la diapositive
+    // Adds a connector shape to the slide shape collection
     IConnector connector = shapes.AddConnector(ShapeType.BentConnector2, 0, 0, 10, 10);
-    // Connecte les formes à l'aide du connecteur
+    // Connects the shapes using the connector
     connector.StartShapeConnectedTo = ellipse;
     connector.EndShapeConnectedTo = rectangle;
-    // Appelle reroute qui définit le chemin automatique le plus court entre les formes
+    // Calls reroute that sets the automatic shortest path between shapes
     connector.Reroute();
-    // Sauvegarde la présentation
+    // Saves the presentation
     input.Save("Shapes-connector.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IConnector](../../iconnector)
 * enum [ShapeType](../../shapetype)
@@ -68,7 +68,7 @@ using (Presentation input = new Presentation())
 
 ## AddConnector(ShapeType, float, float, float, float, bool) {#addconnector_1}
 
-Crée un nouveau Connector et l'ajoute à la fin de la collection.
+Crée un nouveau Connecteur et l'ajoute à la fin de la collection.
 
 ```csharp
 public IConnector AddConnector(ShapeType shapeType, float x, float y, float width, float height, 
@@ -82,15 +82,15 @@ public IConnector AddConnector(ShapeType shapeType, float x, float y, float widt
 | y | Single | La coordonnée Y pour le côté supérieur du cadre de la forme. |
 | width | Single | La largeur du cadre de la forme. |
 | height | Single | La hauteur du cadre de la forme. |
-| createFromTemplate | Boolean | Si vrai, alors la nouvelle forme sera ajustée à partir du modèle par défaut. Un nom non vide, un style simple, un texte centré seront assignés à la nouvelle forme. Si faux, alors toutes les valeurs des propriétés de la nouvelle forme auront des valeurs par défaut. |
+| createFromTemplate | Boolean | Si vrai, la nouvelle forme sera ajustée à partir du modèle par défaut. Un nom non vide, un style simple et du texte centré seront assignés à la nouvelle forme. Si faux, alors toutes les valeurs des propriétés de la nouvelle forme auront des valeurs par défaut. |
 
 ### Valeur de retour
 
 L'index basé sur zéro de la forme créée.
 
-Objet Connector créé.
+Objet Connecteur créé.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IConnector](../../iconnector)
 * enum [ShapeType](../../shapetype)

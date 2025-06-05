@@ -1,7 +1,7 @@
 ---
-title: 通过黑色
-second_title: Aspose.Slides for .NET API 参考
-description: 指定过渡是否淡入黑色。可读写布尔值。
+title: ThroughBlack
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定过渡是否逐渐变黑。可读写布尔值。
 type: docs
 weight: 30
 url: /zh/aspose.slides.slideshow/irevealtransition/throughblack/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.slideshow/irevealtransition/throughblack/
 
 ## IRevealTransition.ThroughBlack 属性
 
-指定过渡是否淡入黑色。可读写布尔值。
+指定过渡是否逐渐变黑。可读写布尔值。
 
 ```csharp
 public bool ThroughBlack { get; set; }
 ```
 
-### 另请参见
+### 见也
 
 * 接口 [IRevealTransition](../../irevealtransition)
 * 命名空间 [Aspose.Slides.SlideShow](../../irevealtransition)

@@ -6,6 +6,7 @@ type: docs
 weight: 540
 url: /aspose.slides.animation/behaviorproperty/pptw/
 ---
+
 ## BehaviorProperty.PptW property
 
 Represents 'ppt_w' property

@@ -1,7 +1,7 @@
 ---
 title: DataSourceTypeForXPlusValues
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt an, ob die Eigenschaften AsCell, AsLiteralString oder AsLiteralDouble in den Datenpunkten des XPlus-Objekts für benutzerdefinierte Fehlerbalkenwerte aktuell sind. Mit anderen Worten, es wird der Typ des Wertes der Eigenschaft ChartDataPoint.ErrorBarsCustomValues.XPlus.Data angegeben. Lese-/Schreibzugriff auf DataSourceTypeaspose.slides.charts/datasourcetype.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt an, ob die AsCell-, AsLiteralString- oder AsLiteralDouble-Eigenschaft in den Datenpunkten des XPlus-Objekts für benutzerdefinierte Werte der Fehlerbalken aktuell ist. Mit anderen Worten, es spezifiziert den Typ des Wertes der ChartDataPoint.ErrorBarsCustomValues.XPlus.Data-Eigenschaft. Lese-/Schreibezugriff auf DataSourceTypeaspose.slides/datasourcetype.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasource
 
 ## IDataSourceTypeForErrorBarsCustomValues.DataSourceTypeForXPlusValues-Eigenschaft
 
-Gibt an, ob die Eigenschaften AsCell, AsLiteralString oder AsLiteralDouble in den Datenpunkten des XPlus-Objekts für benutzerdefinierte Fehlerbalkenwerte aktuell sind. Mit anderen Worten, es wird der Typ des Wertes der Eigenschaft ChartDataPoint.ErrorBarsCustomValues.XPlus.Data angegeben. Lese-/Schreibzugriff auf [`DataSourceType`](../../datasourcetype).
+Gibt an, ob die AsCell-, AsLiteralString- oder AsLiteralDouble-Eigenschaft in den Datenpunkten des XPlus-Objekts für benutzerdefinierte Werte der Fehlerbalken aktuell ist. Mit anderen Worten, es spezifiziert den Typ des Wertes der ChartDataPoint.ErrorBarsCustomValues.XPlus.Data-Eigenschaft. Lese-/Schreibezugriff auf [`DataSourceType`](../../datasourcetype).
 
 ```csharp
 public DataSourceType DataSourceTypeForXPlusValues { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [DataSourceType](../../datasourcetype)
 * interface [IDataSourceTypeForErrorBarsCustomValues](../../idatasourcetypeforerrorbarscustomvalues)

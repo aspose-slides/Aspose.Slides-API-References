@@ -1,15 +1,15 @@
 ---
 title: UseCell
-second_title: Référence API Aspose.Slides pour .NET
-description: Si vrai, alors la propriété AsCell est applicable. En d'autres termes, la feuille de calcul est utilisée pour stocker la catégorie, dans ce cas, cela prend en charge une catégorie à plusieurs niveaux. Si faux, alors la propriété AsLiteral est applicable. En d'autres termes, la feuille de calcul N'EST PAS utilisée pour stocker la catégorie et ce cas ne prend pas en charge des catégories à plusieurs niveaux. Boolean en lecture seule.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Si vrai, alors la propriété AsCell est actuelle. En d'autres termes, la feuille de calcul est utilisée pour stocker la catégorie, ce qui supporte un niveau de catégorie multiple. Si faux, alors la propriété AsLiteral est actuelle. En d'autres termes, la feuille de calcul n'est PAS utilisée pour stocker la catégorie et ce cas ne supporte pas les catégories à plusieurs niveaux. Booléen en lecture seule.
 type: docs
 weight: 40
 url: /fr/aspose.slides.charts/ichartcategory/usecell/
 ---
 
-## Propriété IChartCategory.UseCell
+## IChartCategory.UseCell property
 
-Si vrai, alors la propriété AsCell est applicable. En d'autres termes, la feuille de calcul est utilisée pour stocker la catégorie (dans ce cas, cela prend en charge une catégorie à plusieurs niveaux). Si faux, alors la propriété AsLiteral est applicable. En d'autres termes, la feuille de calcul N'EST PAS utilisée pour stocker la catégorie (et ce cas ne prend pas en charge des catégories à plusieurs niveaux). Boolean en lecture seule.
+Si vrai, alors la propriété AsCell est actuelle. En d'autres termes, la feuille de calcul est utilisée pour stocker la catégorie (ce cas supporte un niveau de catégorie multiple). Si faux, alors la propriété AsLiteral est actuelle. En d'autres termes, la feuille de calcul n'est PAS utilisée pour stocker la catégorie (et ce cas ne supporte pas les catégories à plusieurs niveaux). Booléen en lecture seule.
 
 ```csharp
 public bool UseCell { get; }
@@ -17,7 +17,7 @@ public bool UseCell { get; }
 
 ### Remarques
 
-Pour changer la valeur de cette propriété (pour toutes les catégories dans la collection), définissez une nouvelle valeur pour la propriété ChartCategoryCollection.UseCells.
+Pour changer la valeur de cette propriété (pour toutes les catégories dans la collection), définissez une nouvelle valeur à la propriété ChartCategoryCollection.UseCells.
 
 ### Voir aussi
 

@@ -1,13 +1,13 @@
 ---
-title: 占位符
-second_title: Aspose.Sildes for .NET API 参考
+title: Placeholder
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示幻灯片上的占位符。
 type: docs
 weight: 9160
 url: /zh/aspose.slides/placeholder/
 ---
 
-## Placeholder 类
+## Placeholder class
 
 表示幻灯片上的占位符。
 
@@ -15,16 +15,16 @@ url: /zh/aspose.slides/placeholder/
 public class Placeholder : IPlaceholder
 ```
 
-## 属性
+## Properties
 
 | 名称 | 描述 |
 | --- | --- |
-| [Index](../../aspose.slides/placeholder/index) { get; } | 获取或设置占位符的索引。只读 UInt32。 |
-| [Orientation](../../aspose.slides/placeholder/orientation) { get; } | 获取或设置占位符的方向。只读 [`Orientation`](../orientation)。 |
-| [Size](../../aspose.slides/placeholder/size) { get; } | 获取或设置占位符的大小。只读 [`PlaceholderSize`](../placeholdersize)。 |
-| [Type](../../aspose.slides/placeholder/type) { get; } | 获取或设置占位符的类型。只读 [`PlaceholderType`](../placeholdertype)。 |
+| [Index](../../aspose.slides/placeholder/index) { get; } | 获取或设置占位符的索引。唯读 UInt32。 |
+| [Orientation](../../aspose.slides/placeholder/orientation) { get; } | 获取或设置占位符的方向。唯读 [`Orientation`](../orientation)。 |
+| [Size](../../aspose.slides/placeholder/size) { get; } | 获取或设置占位符的大小。唯读 [`PlaceholderSize`](../placeholdersize)。 |
+| [Type](../../aspose.slides/placeholder/type) { get; } | 获取或设置占位符的类型。唯读 [`PlaceholderType`](../placeholdertype)。 |
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IPlaceholder](../iplaceholder)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

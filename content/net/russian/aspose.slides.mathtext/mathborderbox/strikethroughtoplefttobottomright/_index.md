@@ -1,7 +1,7 @@
 ---
-title: Перечеркнуто сверху-слева до снизу-справа
-second_title: Справка по API Aspose.Slides для .NET
-description: Перечеркнуто сверху-слева до снизу-справа по умолчанию false. Указывает скрытое или отображаемое состояние перечеркнутой диагональной линии от верхнего левого угла до нижнего правого угла границы.
+title: StrikethroughTopLeftToBottomRight
+second_title: Aspose.Sildes для .NET API Справочник
+description: Защита строки сверху слева до нижнего справа по умолчанию установлена в значение false. Определяет скрытое или отображаемое состояние диагональной линии с защитой от верхнего левого угла до нижнего правого угла рамки.
 type: docs
 weight: 90
 url: /ru/aspose.slides.mathtext/mathborderbox/strikethroughtoplefttobottomright/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/mathborderbox/strikethroughtoplefttobottomright/
 
 ## MathBorderBox.StrikethroughTopLeftToBottomRight свойство
 
-Перечеркнуто сверху-слева до снизу-справа (по умолчанию false). Указывает скрытое или отображаемое состояние перечеркнутой диагональной линии от верхнего левого угла до нижнего правого угла границы.
+Защита строки сверху слева до нижнего справа (по умолчанию установлена в значение false). Определяет скрытое или отображаемое состояние диагональной линии с защитой от верхнего левого угла до нижнего правого угла рамки.
 
 ```csharp
 public bool StrikethroughTopLeftToBottomRight { get; set; }

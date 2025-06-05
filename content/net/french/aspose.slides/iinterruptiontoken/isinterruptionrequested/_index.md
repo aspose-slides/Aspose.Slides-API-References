@@ -1,7 +1,7 @@
 ---
 title: IsInterruptionRequested
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie Boolean.true si une interruption a été demandée.
+second_title: Aspose.Slides pour la référence API .NET
+description: Retourne Boolean.true si une interruption a été demandée.
 type: docs
 weight: 10
 url: /fr/aspose.slides/iinterruptiontoken/isinterruptionrequested/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/iinterruptiontoken/isinterruptionrequested/
 
 ## Propriété IInterruptionToken.IsInterruptionRequested
 
-Renvoie Boolean.true si une interruption a été demandée.
+Retourne Boolean.true si une interruption a été demandée.
 
 ```csharp
 public bool IsInterruptionRequested { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IInterruptionToken](../../iinterruptiontoken)
 * namespace [Aspose.Slides](../../iinterruptiontoken)

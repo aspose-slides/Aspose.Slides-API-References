@@ -15,7 +15,7 @@ Quatrième couleur d'accent dans le schéma. Lecture seule [`IColorFormat`](../.
 public IColorFormat Accent4 { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IColorFormat](../../../aspose.slides/icolorformat)
 * classe [ColorScheme](../../colorscheme)

@@ -1,7 +1,7 @@
 ---
 title: GetOrCreateByValue
-second_title: Aspose.Sildes for .NET API 参考
-description: 根据值查找现有的行为属性，或创建具有指定值的新自定义属性
+second_title: Aspose.Sildes for .NET API Reference
+description: 通过值查找现有行为属性，或使用指定值创建新的自定义属性
 type: docs
 weight: 1220
 url: /zh/aspose.slides.animation/behaviorproperty/getorcreatebyvalue/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/behaviorproperty/getorcreatebyvalue/
 
 ## BehaviorProperty.GetOrCreateByValue 方法
 
-根据值查找现有的行为属性，或创建具有指定值的新自定义属性
+通过值查找现有行为属性，或使用指定值创建新的自定义属性
 
 ```csharp
 public static BehaviorProperty GetOrCreateByValue(string propertyValue)
@@ -17,7 +17,7 @@ public static BehaviorProperty GetOrCreateByValue(string propertyValue)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| propertyValue | String | 属性的值 |
+| propertyValue | String | 属性值 |
 
 ### 返回值
 

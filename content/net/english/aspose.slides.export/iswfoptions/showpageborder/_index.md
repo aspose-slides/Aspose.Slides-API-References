@@ -3,9 +3,10 @@ title: ShowPageBorder
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies whether border around pages should be shown. Default is true.
 type: docs
-weight: 120
+weight: 110
 url: /aspose.slides.export/iswfoptions/showpageborder/
 ---
+
 ## ISwfOptions.ShowPageBorder property
 
 Specifies whether border around pages should be shown. Default is true.

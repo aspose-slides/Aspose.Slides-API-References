@@ -6,6 +6,7 @@ type: docs
 weight: 350
 url: /aspose.slides.charts/chartseries/relatedlegendentry/
 ---
+
 ## ChartSeries.RelatedLegendEntry property
 
 Represents legend entry related with this series Read-only [`ILegendEntryProperties`](../../ilegendentryproperties).

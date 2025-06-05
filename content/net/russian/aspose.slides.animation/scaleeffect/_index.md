@@ -1,13 +1,13 @@
 ---
 title: ScaleEffect
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет эффект масштабирования анимации.
 type: docs
 weight: 700
 url: /ru/aspose.slides.animation/scaleeffect/
 ---
 
-## Класс ScaleEffect
+## ScaleEffect class
 
 Представляет эффект масштабирования анимации.
 
@@ -25,16 +25,16 @@ public class ScaleEffect : Behavior, IScaleEffect
 
 | Имя | Описание |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Представляет, накапливаются ли анимационные поведения. Чтение/запись [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Представляет, комбинируется ли текущее анимационное поведение с другими запущенными анимациями. Чтение/запись [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Представляет, следует ли накапливать анимационные поведения. Чтение/запись [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Представляет, комбинируется ли текущее анимационное поведение с другими работающими анимациями. Чтение/запись [`BehaviorAdditiveType`](../behavioradditivetype). |
 | [By](../../aspose.slides.animation/scaleeffect/by) { get; set; } | Описывает относительное значение смещения для анимации (в процентах). Чтение/запись PointF. |
 | [From](../../aspose.slides.animation/scaleeffect/from) { get; set; } | Указывает координаты x/y, с которых начинается анимация (в процентах). Чтение/запись PointF. |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Представляет свойства поведения. Только для чтения [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
 | [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Представляет временные свойства для поведения эффекта. Чтение/запись [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/scaleeffect/to) { get; set; } | Указывает целевое место для эффекта масштабирования анимации (в процентах). Чтение/запись PointF. |
-| [ZoomContent](../../aspose.slides.animation/scaleeffect/zoomcontent) { get; set; } | Определяет, следует ли увеличивать масштаб содержимого. Чтение/запись [`NullableBool`](../../aspose.slides/nullablebool). |
+| [To](../../aspose.slides.animation/scaleeffect/to) { get; set; } | Указывает целевое местоположение для эффекта масштабирования анимации (в процентах). Чтение/запись PointF. |
+| [ZoomContent](../../aspose.slides.animation/scaleeffect/zoomcontent) { get; set; } | Определяет, следует ли увеличивать контент. Чтение/запись [`NullableBool`](../../aspose.slides/nullablebool). |
 
-### Смотрите также
+### См. также
 
 * класс [Behavior](../behavior)
 * интерфейс [IScaleEffect](../iscaleeffect)

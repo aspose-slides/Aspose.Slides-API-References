@@ -6,6 +6,7 @@ type: docs
 weight: 430
 url: /aspose.slides.charts/ichartseries/trendlines/
 ---
+
 ## IChartSeries.TrendLines property
 
 Collection of series trend lines Read-only [`ITrendlineCollection`](../../itrendlinecollection).

@@ -1,7 +1,7 @@
 ---
 title: HeaderFooterManager
-second_title: Référence API Aspose.Slides pour .NET
-description: Retourne le gestionnaire de HeaderFooter actuel. IPresentationHeaderFooterManager en lecture seule aspose.slides/ipresentationheaderfootermanager.
+second_title: Aspose.Slides pour la référence API .NET
+description: Retourne le gestionnaire HeaderFooter actuel. Lecture seule IPresentationHeaderFooterManageraspose.slides/ipresentationheaderfootermanager.
 type: docs
 weight: 120
 url: /fr/aspose.slides/presentation/headerfootermanager/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/presentation/headerfootermanager/
 
 ## Propriété Presentation.HeaderFooterManager
 
-Retourne le gestionnaire de HeaderFooter actuel. Lecture seule [`IPresentationHeaderFooterManager`](../../ipresentationheaderfootermanager).
+Retourne le gestionnaire HeaderFooter actuel. Lecture seule [`IPresentationHeaderFooterManager`](../../ipresentationheaderfootermanager).
 
 ```csharp
 public IPresentationHeaderFooterManager HeaderFooterManager { get; }
@@ -24,28 +24,28 @@ L'exemple suivant montre comment définir la visibilité du pied de page à l'in
 using (Presentation presentation = new Presentation("presentation.ppt"))
 {
     IBaseSlideHeaderFooterManager headerFooterManager = presentation.Slides[0].HeaderFooterManager;
-	// La propriété IsFooterVisible est utilisée pour indiquer qu'un espace réservé de pied de page de diapositive n'est pas présent.
+	// La propriété IsFooterVisible est utilisée pour indiquer qu'un espace réservé de pied de page pour une diapositive n'est pas présent.
     if (!headerFooterManager.IsFooterVisible)
     {
-		// La méthode SetFooterVisibility est utilisée pour rendre un espace réservé de pied de page de diapositive visible.
+		// La méthode SetFooterVisibility est utilisée pour rendre un espace réservé de pied de page pour une diapositive visible.
         headerFooterManager.SetFooterVisibility(true);
     }
-	// La propriété IsSlideNumberVisible est utilisée pour indiquer qu'un espace réservé de numéro de page de diapositive n'est pas présent.
+	// La propriété IsSlideNumberVisible est utilisée pour indiquer qu'un espace réservé de numéro de page pour une diapositive n'est pas présent.
     if (!headerFooterManager.IsSlideNumberVisible)
     {
-		// La méthode SetSlideNumberVisibility est utilisée pour rendre un espace réservé de numéro de page de diapositive visible.
+		// La méthode SetSlideNumberVisibility est utilisée pour rendre un espace réservé de numéro de page pour une diapositive visible.
         headerFooterManager.SetSlideNumberVisibility(true);
     }
-	// La propriété IsDateTimeVisible est utilisée pour indiquer qu'un espace réservé de date-heure de diapositive n'est pas présent.
+	// La propriété IsDateTimeVisible est utilisée pour indiquer qu'un espace réservé de date-heure pour une diapositive n'est pas présent.
     if (!headerFooterManager.IsDateTimeVisible)
     {
-		// La méthode SetFooterVisibility est utilisée pour rendre un espace réservé de date-heure de diapositive visible.
+		// La méthode SetFooterVisibility est utilisée pour rendre un espace réservé de date-heure pour une diapositive visible.
         headerFooterManager.SetDateTimeVisibility(true);
     }
-	// La méthode SetFooterText est utilisée pour définir le texte du pied de page de diapositive.
+	// La méthode SetFooterText est utilisée pour définir le texte dans l'espace réservé de pied de page pour une diapositive.
     headerFooterManager.SetFooterText("Texte du pied de page");
-	// La méthode SetDateTimeText est utilisée pour définir le texte de l'espace réservé de date-heure de diapositive.
-    headerFooterManager.SetDateTimeText("Texte de date et heure");
+	// La méthode SetDateTimeText est utilisée pour définir le texte dans l'espace réservé de date-heure pour une diapositive.
+    headerFooterManager.SetDateTimeText("Texte de la date et de l'heure");
 	presentation.Save("Presentation.ppt",SaveFormat.ppt);
 }
 ```
@@ -57,20 +57,20 @@ L'exemple suivant montre comment définir la visibilité du pied de page enfant 
 using (Presentation presentation = new Presentation("presentation.ppt"))
 {
     IMasterSlideHeaderFooterManager headerFooterManager = presentation.Masters[0].HeaderFooterManager;
-	// La méthode SetFooterAndChildFootersVisibility est utilisée pour rendre un pied de page de diapositive maître et tous les espaces réservés de pied de page enfant visibles.
+	// La méthode SetFooterAndChildFootersVisibility est utilisée pour rendre une diapositive maître et tous les espaces réservés de pied de page enfant visibles.
     headerFooterManager.SetFooterAndChildFootersVisibility(true);
-	// La méthode SetSlideNumberAndChildSlideNumbersVisibility est utilisée pour rendre un numéro de page de diapositive maître et tous les espaces réservés de numéros de diapositive enfant visibles.
+	// La méthode SetSlideNumberAndChildSlideNumbersVisibility est utilisée pour rendre une diapositive maître et tous les espaces réservés de numéro de page enfant visibles.
     headerFooterManager.SetSlideNumberAndChildSlideNumbersVisibility(true);
-	// La méthode SetDateTimeAndChildDateTimesVisibility est utilisée pour rendre un maître de diapositive et tous les endroits réservés de date-heure enfant visibles.
+	// La méthode SetDateTimeAndChildDateTimesVisibility est utilisée pour rendre une diapositive maître et tous les espaces réservés de date-heure enfant visibles.
     headerFooterManager.SetDateTimeAndChildDateTimesVisibility(true);
-	// La méthode SetFooterAndChildFootersText est utilisée pour définir le texte du pied de page maître et de tous les espaces réservés de pied de page enfant.
+	// La méthode SetFooterAndChildFootersText est utilisée pour définir le texte dans la diapositive maître et tous les espaces réservés de pied de page enfant.
     headerFooterManager.SetFooterAndChildFootersText("Texte du pied de page");
-	// La méthode SetDateTimeAndChildDateTimesText est utilisée pour définir le texte du maître de diapositive et de tous les espaces réservés de date-heure enfant.
-    headerFooterManager.SetDateTimeAndChildDateTimesText("Texte de date et heure");
+	// La méthode SetDateTimeAndChildDateTimesText est utilisée pour définir le texte dans la diapositive maître et tous les espaces réservés de date-heure enfant.
+    headerFooterManager.SetDateTimeAndChildDateTimesText("Texte de la date et de l'heure");
 }
 ```
 
-### À voir aussi
+### Voir aussi
 
 * interface [IPresentationHeaderFooterManager](../../ipresentationheaderfootermanager)
 * class [Presentation](../../presentation)

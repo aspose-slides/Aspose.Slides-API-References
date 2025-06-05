@@ -1,7 +1,7 @@
 ---
-title: 清除
-second_title: Aspose.Slides for .NET API 参考
-description: 从列表中移除所有字体。
+title: Clear
+second_title: Aspose.Sildes for .NET API Reference
+description: 移除列表中的所有字体。
 type: docs
 weight: 60
 url: /zh/aspose.slides/ifontfallbackrule/clear/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ifontfallbackrule/clear/
 
 ## IFontFallBackRule.Clear 方法
 
-从列表中移除所有字体。
+移除列表中的所有字体。
 
 ```csharp
 public void Clear()
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IFontFallBackRule](../../ifontfallbackrule)
 * 命名空间 [Aspose.Slides](../../ifontfallbackrule)

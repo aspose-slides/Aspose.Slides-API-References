@@ -1,7 +1,7 @@
 ---
 title: RangeEndIndex
-second_title: Aspose.Slides for .NET API Reference
-description: 获取连续 Unicode 范围的最后索引。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取连续 Unicode 范围的最后一个索引。
 type: docs
 weight: 40
 url: /zh/aspose.slides/fontfallbackrule/rangeendindex/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/fontfallbackrule/rangeendindex/
 
 ## FontFallBackRule.RangeEndIndex 属性
 
-获取连续 Unicode 范围的最后索引。
+获取连续 Unicode 范围的最后一个索引。
 
 ```csharp
 public uint RangeEndIndex { get; set; }

@@ -19,7 +19,7 @@ public void ReplaceImage(byte[] newImageData)
 | --- | --- | --- |
 | newImageData | Byte[] | Les données de la nouvelle image. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IPPImage](../../ippimage)
 * namespace [Aspose.Slides](../../ippimage)
@@ -39,7 +39,7 @@ public void ReplaceImage(IImage newImage)
 | --- | --- | --- |
 | newImage | IImage | La nouvelle image. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IImage](../../iimage)
 * interface [IPPImage](../../ippimage)
@@ -60,7 +60,7 @@ public void ReplaceImage(IPPImage newImage)
 | --- | --- | --- |
 | newImage | IPPImage | Le nouvel IPPImage. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IPPImage](../../ippimage)
 * namespace [Aspose.Slides](../../ippimage)

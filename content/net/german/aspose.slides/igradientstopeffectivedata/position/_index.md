@@ -1,7 +1,7 @@
 ---
 title: Position
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Position 0..1 eines Farbverlaufs-Stopp-Punktes zurück. Nur-Lese Single.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Position 0..1 eines Gradientenanhalts zurück. Schreibgeschützter Single.
 type: docs
 weight: 20
 url: /de/aspose.slides/igradientstopeffectivedata/position/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/igradientstopeffectivedata/position/
 
 ## IGradientStopEffectiveData.Position-Eigenschaft
 
-Gibt die Position (0..1) eines Farbverlaufs-Stopp-Punktes zurück. Nur-Lese Single.
+Gibt die Position (0..1) eines Gradientenanhalts zurück. Schreibgeschützter Single.
 
 ```csharp
 public float Position { get; }

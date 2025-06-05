@@ -1,7 +1,7 @@
 ---
 title: ColumnFormat
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne l'objet ColumnFormat qui contient les propriétés de mise en forme pour cette colonne. Lecture seule IColumnFormataspose.slides/icolumnformat.
+description: Renvoie l'objet ColumnFormat qui contient les propriétés de formatage pour cette colonne. Lecture seule IColumnFormataspose.slides/icolumnformat.
 type: docs
 weight: 10
 url: /fr/aspose.slides/column/columnformat/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/column/columnformat/
 
 ## Propriété Column.ColumnFormat
 
-Retourne l'objet ColumnFormat qui contient les propriétés de mise en forme pour cette colonne. Lecture seule [`IColumnFormat`](../../icolumnformat).
+Renvoie l'objet ColumnFormat qui contient les propriétés de formatage pour cette colonne. Lecture seule [`IColumnFormat`](../../icolumnformat).
 
 ```csharp
 public IColumnFormat ColumnFormat { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IColumnFormat](../../icolumnformat)
 * class [Column](../../column)

@@ -3,9 +3,10 @@ title: SaveFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Constants which define the format of a saved presentation.
 type: docs
-weight: 4130
+weight: 4250
 url: /aspose.slides.export/saveformat/
 ---
+
 ## SaveFormat enumeration
 
 Constants which define the format of a saved presentation.
@@ -38,6 +39,7 @@ public enum SaveFormat
 | Gif | `22` | Save presentation in GIF format. |
 | Html5 | `23` | Save presentation in HTML format using new HTML5 templating system. |
 | Md | `24` | Save presentation in Markdown format |
+| Xml | `25` | Save presentation in PowerPoint XML Presentation format. |
 
 ### See Also
 

@@ -3,9 +3,10 @@ title: PixelFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the pixel format for the generated images. Read/write ImagePixelFormataspose.slides.export/imagepixelformat.
 type: docs
-weight: 70
+weight: 80
 url: /aspose.slides.export/itiffoptions/pixelformat/
 ---
+
 ## ITiffOptions.PixelFormat property
 
 Specifies the pixel format for the generated images. Read/write [`ImagePixelFormat`](../../imagepixelformat).

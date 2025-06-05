@@ -1,13 +1,13 @@
 ---
 title: ToDouble
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Convertit en double.
 type: docs
 weight: 50
 url: /fr/aspose.slides.charts/stringordoublechartvalue/todouble/
 ---
 
-## Méthode StringOrDoubleChartValue.ToDouble
+## StringOrDoubleChartValue.ToDouble méthode
 
 Convertit en double.
 
@@ -15,11 +15,11 @@ Convertit en double.
 public double ToDouble()
 ```
 
-### Valeur de retour
+### Valeur de Retour
 
 Valeur double.
 
-### Voir aussi
+### Voir Aussi
 
 * classe [StringOrDoubleChartValue](../../stringordoublechartvalue)
 * espace de noms [Aspose.Slides.Charts](../../stringordoublechartvalue)

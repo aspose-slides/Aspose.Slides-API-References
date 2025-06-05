@@ -1,7 +1,7 @@
 ---
-title: 其他样式
-second_title: Aspose.Slides for .NET API 参考
-description: 返回其他文本的样式。只读 ITextStyle aspose.slides/itextstyle。
+title: OtherStyle
+second_title: Aspose.Slides for .NET API Reference
+description: 返回其他文本的样式。只读 ITextStyleaspose.slides/itextstyle。
 type: docs
 weight: 60
 url: /zh/aspose.slides/masterslide/otherstyle/

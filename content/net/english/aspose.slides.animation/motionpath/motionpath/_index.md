@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.animation/motionpath/motionpath/
 ---
+
 ## MotionPath constructor
 
 The default constructor.

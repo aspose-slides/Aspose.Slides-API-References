@@ -1,25 +1,25 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides pour .NET Référence API
-description: Obtient les données d'effet de flou effectif avec l'héritage appliqué.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Obtient des données effectives d'effet de flou avec l'héritage appliqué.
 type: docs
 weight: 40
 url: /fr/aspose.slides.effects/blur/geteffective/
 ---
 
-## Méthode Blur.GetEffective
+## Blur.GetEffective méthode
 
-Obtient les données d'effet de flou effectif avec l'héritage appliqué.
+Obtient des données effectives d'effet de flou avec l'héritage appliqué.
 
 ```csharp
 public IBlurEffectiveData GetEffective()
 ```
 
-### Valeur de retour
+### Valeur de Retour
 
 Un [`IBlurEffectiveData`](../../iblureffectivedata).
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IBlurEffectiveData](../../iblureffectivedata)
 * classe [Blur](../../blur)

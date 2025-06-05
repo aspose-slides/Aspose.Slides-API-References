@@ -1,6 +1,6 @@
 ---
 title: RemoveAt
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Entfernt einen Befehl am angegebenen Index.
 type: docs
 weight: 90
@@ -15,9 +15,9 @@ Entfernt einen Befehl am angegebenen Index.
 public void RemoveAt(int index)
 ```
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| index | Int32 |  |
+| Parameter | Typ   | Beschreibung |
+| ---       | ---   | ---          |
+| index     | Int32 |              |
 
 ### Siehe auch
 

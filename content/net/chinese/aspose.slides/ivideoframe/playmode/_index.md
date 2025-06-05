@@ -1,6 +1,6 @@
 ---
-title: 播放模式
-second_title: Aspose.Slides for .NET API 参考
+title: PlayMode
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回或设置视频播放模式。可读/写 VideoPlayModePresetaspose.slides/videoplaymodepreset。
 type: docs
 weight: 80

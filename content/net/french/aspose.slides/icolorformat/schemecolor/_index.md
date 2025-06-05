@@ -1,7 +1,7 @@
 ---
 title: SchemeColor
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit la couleur identifiée par un schéma de couleurs. Lecture/écriture SchemeColoraspose.slides/schemecolor.
+description: Récupère ou définit la couleur identifiée par un schéma de couleurs. Lecture/écriture SchemeColoraspose.slides/schemecolor.
 type: docs
 weight: 150
 url: /fr/aspose.slides/icolorformat/schemecolor/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/icolorformat/schemecolor/
 
 ## Propriété IColorFormat.SchemeColor
 
-Renvoie ou définit la couleur identifiée par un schéma de couleurs. Lecture/écriture [`SchemeColor`](../../schemecolor).
+Récupère ou définit la couleur identifiée par un schéma de couleurs. Lecture/écriture [`SchemeColor`](../../schemecolor).
 
 ```csharp
 public SchemeColor SchemeColor { get; set; }

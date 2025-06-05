@@ -1,7 +1,7 @@
 ---
-title: Größe
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Größe in Punkten zurück oder setzt sie. Lese-/Schreibzugriff auf SizeF.
+title: Size
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Größe in Punkten zurück oder setzt sie. Lese-/Schreibzugriff SizeF.
 type: docs
 weight: 20
 url: /de/aspose.slides/notessize/size/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/notessize/size/
 
 ## NotesSize.Size Eigenschaft
 
-Gibt die Größe in Punkten zurück oder setzt sie. Lese-/Schreibzugriff auf SizeF.
+Gibt die Größe in Punkten zurück oder setzt sie. Lese-/Schreibzugriff SizeF.
 
 ```csharp
 public SizeF Size { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [NotesSize](../../notessize)
 * Namespace [Aspose.Slides](../../notessize)

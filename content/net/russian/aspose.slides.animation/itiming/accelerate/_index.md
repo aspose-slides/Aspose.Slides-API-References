@@ -1,21 +1,21 @@
 ---
-title: Ускорение
-second_title: Справочник API Aspose.Sildes для .NET
-description: Описание процента эффекта ускорения длительности. Чтение/запись Single.
+title: Accelerate
+second_title: Aspose.Sildes для справки по API .NET
+description: Описывает процентное значение эффекта ускорения длительности поведения. Чтение/запись Single.
 type: docs
 weight: 10
 url: /ru/aspose.slides.animation/itiming/accelerate/
 ---
 
-## Свойство ITiming.Accelerate
+## ITiming.Accelerate свойство
 
-Описание процента эффекта ускорения длительности. Чтение/запись Single.
+Описывает процентное значение эффекта ускорения длительности поведения. Чтение/запись Single.
 
 ```csharp
 public float Accelerate { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [ITiming](../../itiming)
 * пространство имен [Aspose.Slides.Animation](../../itiming)

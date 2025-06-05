@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ieffectparamsource/
 public interface IEffectParamSource
 ```
 
-### 另外请参见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

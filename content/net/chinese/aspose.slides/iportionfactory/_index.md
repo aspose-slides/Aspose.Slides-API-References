@@ -1,6 +1,6 @@
 ---
 title: IPortionFactory
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Slides for .NET API Reference
 description: 允许创建测试部分
 type: docs
 weight: 6520
@@ -27,7 +27,7 @@ public interface IPortionFactory
 
 用于 COM 兼容性
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

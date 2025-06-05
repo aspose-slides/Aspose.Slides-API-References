@@ -6,6 +6,7 @@ type: docs
 weight: 990
 url: /aspose.slides.animation/behaviorproperty/strokeopacity/
 ---
+
 ## BehaviorProperty.StrokeOpacity property
 
 Represents 'stroke.opacity' property

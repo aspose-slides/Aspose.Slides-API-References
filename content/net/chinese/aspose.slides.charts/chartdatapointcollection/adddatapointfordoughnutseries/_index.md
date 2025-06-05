@@ -1,7 +1,7 @@
 ---
-title: 为甜甜圈系列添加数据点
+title: AddDataPointForDoughnutSeries
 second_title: Aspose.Sildes for .NET API 参考
-description: 创建新的数据点并将其添加到集合的末尾。适用于图表类型为甜甜圈子类型之一的系列，另请参见 IsChartTypeDoughnutaspose.slides/charttypecharacterizer/ischarttypedoughnut 方法。
+description: 创建新的数据点并将其添加到集合的末尾。适用于图表类型为其中一个Doughnut子类型的系列，另请参见IsChartTypeDoughnutaspose.slides/charttypecharacterizer/ischarttypedoughnut方法。
 type: docs
 weight: 140
 url: /zh/aspose.slides.charts/chartdatapointcollection/adddatapointfordoughnutseries/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/chartdatapointcollection/adddatapointfordoughnutse
 
 ## AddDataPointForDoughnutSeries(IChartDataCell) {#adddatapointfordoughnutseries}
 
-创建新的数据点并将其添加到集合的末尾。适用于图表类型为甜甜圈子类型之一的系列（另请参见 [`IsChartTypeDoughnut`](../../charttypecharacterizer/ischarttypedoughnut) 方法）。
+创建新的数据点并将其添加到集合的末尾。适用于图表类型为其中一个Doughnut子类型的系列（另请参见[`IsChartTypeDoughnut`](../../charttypecharacterizer/ischarttypedoughnut)方法）。
 
 ```csharp
 public IChartDataPoint AddDataPointForDoughnutSeries(IChartDataCell value)
@@ -23,7 +23,7 @@ public IChartDataPoint AddDataPointForDoughnutSeries(IChartDataCell value)
 
 新的数据点。
 
-### 另请参见
+### 参见
 
 * 接口 [IChartDataPoint](../../ichartdatapoint)
 * 接口 [IChartDataCell](../../ichartdatacell)
@@ -35,7 +35,7 @@ public IChartDataPoint AddDataPointForDoughnutSeries(IChartDataCell value)
 
 ## AddDataPointForDoughnutSeries(double) {#adddatapointfordoughnutseries_1}
 
-创建新的数据点并将其添加到集合的末尾。适用于图表类型为甜甜圈子类型之一的系列（另请参见 [`IsChartTypeDoughnut`](../../charttypecharacterizer/ischarttypedoughnut) 方法）。
+创建新的数据点并将其添加到集合的末尾。适用于图表类型为其中一个Doughnut子类型的系列（另请参见[`IsChartTypeDoughnut`](../../charttypecharacterizer/ischarttypedoughnut)方法）。
 
 ```csharp
 public IChartDataPoint AddDataPointForDoughnutSeries(double value)
@@ -49,7 +49,7 @@ public IChartDataPoint AddDataPointForDoughnutSeries(double value)
 
 新的数据点。
 
-### 另请参见
+### 参见
 
 * 接口 [IChartDataPoint](../../ichartdatapoint)
 * 类 [ChartDataPointCollection](../../chartdatapointcollection)

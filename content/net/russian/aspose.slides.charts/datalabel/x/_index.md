@@ -1,7 +1,7 @@
 ---
 title: X
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает или устанавливает координату x заголовка как долю ширины диаграммы. Читаемое/записываемое значение типа Single.
+second_title: Справочник API Aspose.Sildes для .NET
+description: Возвращает или устанавливает координату x заголовка как дробь от ширины диаграммы. Чтение/запись Single.
 type: docs
 weight: 160
 url: /ru/aspose.slides.charts/datalabel/x/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/datalabel/x/
 
 ## DataLabel.X свойство
 
-Возвращает или устанавливает координату x заголовка как долю ширины диаграммы. Читаемое/записываемое значение типа Single.
+Возвращает или устанавливает координату x заголовка как дробь от ширины диаграммы. Чтение/запись Single.
 
 ```csharp
 public float X { get; set; }

@@ -1,7 +1,7 @@
 ---
-title: 同步根
-second_title: Aspose.Slides for .NET API 参考
-description: 返回一个同步根。只读对象。
+title: SyncRoot
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回同步根。只读对象。
 type: docs
 weight: 40
 url: /zh/aspose.slides.smartart/smartartshapecollection/syncroot/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.smartart/smartartshapecollection/syncroot/
 
 ## SmartArtShapeCollection.SyncRoot 属性
 
-返回一个同步根。只读对象。
+返回同步根。只读对象。
 
 ```csharp
 public object SyncRoot { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * class [SmartArtShapeCollection](../../smartartshapecollection)
 * namespace [Aspose.Slides.SmartArt](../../smartartshapecollection)

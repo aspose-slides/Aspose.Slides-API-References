@@ -1,15 +1,15 @@
 ---
-title: Funktion
-second_title: Aspose.Slides für .NET API-Referenz
-description: Nimmt eine Funktion eines Arguments und verwendet diese Instanz als Funktionsnamen
+title: Function
+second_title: Aspose.Slides für .NET API Referenz
+description: Nimmt eine Funktion eines Arguments unter Verwendung dieser Instanz als Funktionsnamen
 type: docs
 weight: 50
 url: /de/aspose.slides.mathtext/mathelementbase/function/
 ---
 
-## Funktion(IMathElement) {#function}
+## Function(IMathElement) {#function}
 
-Nimmt eine Funktion eines Arguments und verwendet diese Instanz als Funktionsnamen
+Nimmt eine Funktion eines Arguments unter Verwendung dieser Instanz als Funktionsnamen
 
 ```csharp
 public IMathFunction Function(IMathElement functionArgument)
@@ -21,7 +21,7 @@ public IMathFunction Function(IMathElement functionArgument)
 
 ### Rückgabewert
 
-Neues Mathematikelement vom Typ [`IMathFunction`](../../imathfunction)
+Neues mathematisches Element des Typs [`IMathFunction`](../../imathfunction)
 
 ### Beispiele
 
@@ -44,9 +44,9 @@ IMathFunction func = functionName.Function(functionArg);
 
 ---
 
-## Funktion(string) {#function_1}
+## Function(string) {#function_1}
 
-Nimmt eine Funktion eines Arguments und verwendet diese Instanz als Funktionsnamen
+Nimmt eine Funktion eines Arguments unter Verwendung dieser Instanz als Funktionsnamen
 
 ```csharp
 public IMathFunction Function(string functionArgument)
@@ -58,7 +58,7 @@ public IMathFunction Function(string functionArgument)
 
 ### Rückgabewert
 
-Neues Mathematikelement vom Typ [`IMathFunction`](../../imathfunction)
+Neues mathematisches Element des Typs [`IMathFunction`](../../imathfunction)
 
 ### Beispiele
 

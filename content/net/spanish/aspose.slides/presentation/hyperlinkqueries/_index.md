@@ -1,7 +1,7 @@
 ---
 title: HyperlinkQueries
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Proporciona acceso fácil a todos los hipervínculos contenidos en todas las diapositivas de presentación que no están en las diapositivas de notas de diseño maestro. Solo lectura IHyperlinkQueriesaspose.slides/ihyperlinkqueries.
+description: Proporciona acceso fácil a todos los hipervínculos contenidos en todas las diapositivas de la presentación que no están en las diapositivas de notas del diseño maestro. Solo lectura IHyperlinkQueriesaspose.slides/ihyperlinkqueries.
 type: docs
 weight: 130
 url: /es/aspose.slides/presentation/hyperlinkqueries/
@@ -9,17 +9,17 @@ url: /es/aspose.slides/presentation/hyperlinkqueries/
 
 ## Propiedad Presentation.HyperlinkQueries
 
-Proporciona acceso fácil a todos los hipervínculos contenidos en todas las diapositivas de presentación (no en las diapositivas maestro, de diseño o de notas). Solo lectura [`IHyperlinkQueries`](../../ihyperlinkqueries).
+Proporciona acceso fácil a todos los hipervínculos contenidos en todas las diapositivas de la presentación (no en maestro, diseño, diapositivas de notas). Solo lectura [`IHyperlinkQueries`](../../ihyperlinkqueries).
 
 ```csharp
 public IHyperlinkQueries HyperlinkQueries { get; }
 ```
 
-### Véase También
+### Ver También
 
-* interfaz [IHyperlinkQueries](../../ihyperlinkqueries)
-* clase [Presentation](../../presentation)
-* espacio de nombres [Aspose.Slides](../../presentation)
-* ensamblaje [Aspose.Slides](../../../)
+* interface [IHyperlinkQueries](../../ihyperlinkqueries)
+* class [Presentation](../../presentation)
+* namespace [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

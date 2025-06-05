@@ -1,7 +1,7 @@
 ---
-title: 速度
-second_title: Aspose.Slides for .NET API 参考
-description: 指定加速或减慢时间的百分比。可读/可写单精度浮点数。
+title: Speed
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定加快或减慢时间的百分比。可读写单精度浮点数。
 type: docs
 weight: 110
 url: /zh/aspose.slides.animation/timing/speed/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.animation/timing/speed/
 
 ## Timing.Speed 属性
 
-指定加速（或减慢）时间的百分比。可读/可写单精度浮点数。
+指定加快（或减慢）时间的百分比。可读写单精度浮点数。
 
 ```csharp
 public float Speed { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * class [Timing](../../timing)
 * namespace [Aspose.Slides.Animation](../../timing)

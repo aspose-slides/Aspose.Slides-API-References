@@ -1,7 +1,7 @@
 ---
 title: SizeLocked
 second_title: Aspose.Slides for .NET API Reference
-description: 判断是否禁止调整此形状的大小。可读/写布尔值。
+description: 确定是否禁止调整此形状的大小。可读/写布尔值。
 type: docs
 weight: 70
 url: /zh/aspose.slides/igraphicalobjectlock/sizelocked/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/igraphicalobjectlock/sizelocked/
 
 ## IGraphicalObjectLock.SizeLocked 属性
 
-判断是否禁止调整此形状的大小。可读/写布尔值。
+确定是否禁止调整此形状的大小。可读/写布尔值。
 
 ```csharp
 public bool SizeLocked { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IGraphicalObjectLock](../../igraphicalobjectlock)
 * 命名空间 [Aspose.Slides](../../igraphicalobjectlock)

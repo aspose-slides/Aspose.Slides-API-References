@@ -1,15 +1,15 @@
 ---
-title: Indentation
+title: Indent
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie l'indentation de première ligne/indentation suspendue du paragraphe. L'indentation suspendue peut être définie avec des valeurs négatives. Lecture seule Simple.
+description: Renvoie le retrait de la première ligne du paragraphe / retrait suspendu. Le retrait suspendu peut être défini avec des valeurs négatives. Lecture seule Unique.
 type: docs
 weight: 90
 url: /fr/aspose.slides/iparagraphformateffectivedata/indent/
 ---
 
-## Propriété IParagraphFormatEffectiveData.Indent
+## IParagraphFormatEffectiveData.Indent property
 
-Renvoie l'indentation de première ligne/indentation suspendue du paragraphe. L'indentation suspendue peut être définie avec des valeurs négatives. Lecture seule Simple.
+Renvoie le retrait de la première ligne du paragraphe / retrait suspendu. Le retrait suspendu peut être défini avec des valeurs négatives. Lecture seule Unique.
 
 ```csharp
 public float Indent { get; }

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/section/getslideslistofsection/
 ---
+
 ## Section.GetSlidesListOfSection method
 
 Returns list of slides in the section.

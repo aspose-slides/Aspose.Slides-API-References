@@ -1,6 +1,6 @@
 ---
-title: Graphique
-second_title: Référence API Aspose.Slides pour .NET
+title: Chart
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Renvoie le graphique parent. Lecture seule IChartaspose.slides.charts/ichart.
 type: docs
 weight: 20

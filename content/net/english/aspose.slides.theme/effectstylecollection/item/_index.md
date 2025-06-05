@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.theme/effectstylecollection/item/
 ---
+
 ## EffectStyleCollection indexer
 
 Returns an element at specified position. Read-only [`EffectStyle`](../../effectstyle).

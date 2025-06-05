@@ -1,7 +1,7 @@
 ---
-title: 方向
-second_title: Aspose.Slides for .NET API 参考
-description: 光照方向。读取/写入 LightingDirectionaspose.slides/lightingdirection。
+title: Direction
+second_title: Aspose.Sildes for .NET API Reference
+description: 光线方向。读/写 LightingDirectionaspose.slides/lightingdirection。
 type: docs
 weight: 10
 url: /zh/aspose.slides/ilightrig/direction/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ilightrig/direction/
 
 ## ILightRig.Direction 属性
 
-光照方向。读取/写入 [`LightingDirection`](../../lightingdirection)。
+光线方向。读/写 [`LightingDirection`](../../lightingdirection)。
 
 ```csharp
 public LightingDirection Direction { get; set; }
 ```
 
-### 参见
+### 另见
 
 * 枚举 [LightingDirection](../../lightingdirection)
 * 接口 [ILightRig](../../ilightrig)

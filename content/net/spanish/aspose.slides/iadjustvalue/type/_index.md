@@ -1,21 +1,21 @@
 ---
-title: Tipo
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve el tipo de ajuste de forma. Solo lectura ShapeAdjustmentTypeaspose.slides/shapeadjustmenttype.
+title: Type
+second_title: Aspose.Sildes para .NET API Reference
+description: Devuelve el tipo del ajuste de forma. Solo lectura ShapeAdjustmentTypeaspose.slides/shapeadjustmenttype.
 type: docs
 weight: 40
 url: /es/aspose.slides/iadjustvalue/type/
 ---
 
-## Propiedad IAdjustValue.Type
+## IAdjustValue.Type property
 
-Devuelve el tipo de ajuste de forma. Solo lectura [`ShapeAdjustmentType`](../../shapeadjustmenttype).
+Devuelve el tipo del ajuste de forma. Solo lectura [`ShapeAdjustmentType`](../../shapeadjustmenttype).
 
 ```csharp
 public ShapeAdjustmentType Type { get; }
 ```
 
-### Véase También
+### See Also
 
 * enum [ShapeAdjustmentType](../../shapeadjustmenttype)
 * interface [IAdjustValue](../../iadjustvalue)

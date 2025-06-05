@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/icontrolpropertiescollection/namesofproperties/
 ---
+
 ## IControlPropertiesCollection.NamesOfProperties property
 
 Returns a number of properties in the collection. Read-only ICollection.

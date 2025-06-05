@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides/icolorformat/systemcolor/
 ---
+
 ## IColorFormat.SystemColor property
 
 Returns or sets the color identified by the system color table. Read/write [`SystemColor`](../../systemcolor).

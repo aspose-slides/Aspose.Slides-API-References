@@ -1,15 +1,15 @@
 ---
 title: FontAlignment
-second_title: Aspose.Slides für .NET API Referenz
-description: Repräsentiert die vertikale Schriftartenausrichtung.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt die vertikale Schriftartenausrichtung dar.
 type: docs
 weight: 4610
 url: /de/aspose.slides/fontalignment/
 ---
 
-## FontAlignment-Aufzählung
+## FontAlignment Aufzählung
 
-Repräsentiert die vertikale Schriftartenausrichtung.
+Stellt die vertikale Schriftartenausrichtung dar.
 
 ```csharp
 public enum FontAlignment

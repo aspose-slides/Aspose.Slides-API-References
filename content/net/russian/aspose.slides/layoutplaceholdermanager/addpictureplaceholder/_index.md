@@ -1,15 +1,15 @@
 ---
 title: AddPicturePlaceholder
 second_title: Aspose.Sildes для .NET API Справочник
-description: Добавляет новую форму-заполнитель на слайд макета для размещения изображения.
+description: Добавляет новую фигуру-заполнитель на макете слайда для удержания изображения.
 type: docs
 weight: 50
 url: /ru/aspose.slides/layoutplaceholdermanager/addpictureplaceholder/
 ---
 
-## Метод LayoutPlaceholderManager.AddPicturePlaceholder
+## LayoutPlaceholderManager.AddPicturePlaceholder метод
 
-Добавляет новую форму-заполнитель на слайд макета для размещения изображения.
+Добавляет новую фигуру-заполнитель на макете слайда для удержания изображения.
 
 ```csharp
 public IAutoShape AddPicturePlaceholder(float x, float y, float width, float height)
@@ -17,18 +17,18 @@ public IAutoShape AddPicturePlaceholder(float x, float y, float width, float hei
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X-координата новой формы-заполнителя. |
-| y | Single | Y-координата новой формы-заполнителя. |
-| width | Single | Ширина новой формы-заполнителя. |
-| height | Single | Высота новой формы-заполнителя. |
+| x | Single | Координата X новой фигуры-заполнителя. |
+| y | Single | Координата Y новой фигуры-заполнителя. |
+| width | Single | Ширина новой фигуры-заполнителя. |
+| height | Single | Высота новой фигуры-заполнителя. |
 
-### Возвращаемое значение
+### Значение Возврата
 
-Созданный [`IAutoShape`](../../iautoshape) с заполнителем для изображения.
+Созданный [`IAutoShape`](../../iautoshape) с заполнителем изображения.
 
 ### Примеры
 
-Следующий пример показывает, как добавить форму-заполнитель для изображения на слайд макета.
+Следующий пример показывает, как добавить фигуру-заполнитель изображения на макет слайда.
 
 ```csharp
 [C#]

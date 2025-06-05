@@ -6,6 +6,7 @@ type: docs
 weight: 200
 url: /aspose.slides.charts/chart/style/
 ---
+
 ## Chart.Style property
 
 Returns or sets the chart style. Read/write [`StyleType`](../../styletype).

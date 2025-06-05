@@ -6,6 +6,7 @@ type: docs
 weight: 190
 url: /aspose.slides/cell/slide/
 ---
+
 ## Cell.Slide property
 
 Returns the parent slide of a cell. Read-only [`IBaseSlide`](../../ibaseslide).

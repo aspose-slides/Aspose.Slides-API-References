@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/customxmlpart/xmlasstring/
 ---
+
 ## CustomXmlPart.XmlAsString property
 
 Returns or sets xml data as UTF-8 string. Read/write String. value is `null`.value is empty or xml-data is invalid.

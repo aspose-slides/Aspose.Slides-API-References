@@ -1,7 +1,7 @@
 ---
-title: Подстрочный индекс
-second_title: Справочник по API Aspose.Slides для .NET
-description: Подстрочный индекс
+title: Subscript
+second_title: Aspose.Slides для .NET API Справка
+description: Subscript
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/mathsubscriptelement/subscript/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/mathsubscriptelement/subscript/
 
 ## MathSubscriptElement.Subscript свойство
 
-Подстрочный индекс
+Subscript
 
 ```csharp
 public IMathElement Subscript { get; }

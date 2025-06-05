@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.charts/chartplotarea/right/
 ---
+
 ## ChartPlotArea.Right property
 
 Right. Read-only Single.

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.effects/filloverlay/equals/
 ---
+
 ## FillOverlay.Equals method
 
 Determines whether the specified [`FillOverlay`](../../filloverlay) is equal to the current [`FillOverlay`](../../filloverlay).

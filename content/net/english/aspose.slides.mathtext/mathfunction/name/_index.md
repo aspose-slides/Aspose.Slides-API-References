@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.mathtext/mathfunction/name/
 ---
+
 ## MathFunction.Name property
 
 Function name For example, function names are sin and cos

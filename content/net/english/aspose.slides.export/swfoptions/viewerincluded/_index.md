@@ -6,6 +6,7 @@ type: docs
 weight: 170
 url: /aspose.slides.export/swfoptions/viewerincluded/
 ---
+
 ## SwfOptions.ViewerIncluded property
 
 Specifies whether the generated SWF document should include the integrated document viewer or not. Default is `true`.

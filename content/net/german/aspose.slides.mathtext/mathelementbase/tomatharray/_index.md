@@ -1,13 +1,13 @@
 ---
 title: ToMathArray
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Fügt in ein vertikales Array ein
 type: docs
 weight: 200
 url: /de/aspose.slides.mathtext/mathelementbase/tomatharray/
 ---
 
-## MathElementBase.ToMathArray-Methode
+## MathElementBase.ToMathArray Methode
 
 Fügt in ein vertikales Array ein
 
@@ -28,7 +28,7 @@ Beispiel:
 IMathArray array = new MathematicalText("x1").Join("x2").Join("x3").ToMathArray();
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMathArray](../../imatharray)
 * Klasse [MathElementBase](../../mathelementbase)

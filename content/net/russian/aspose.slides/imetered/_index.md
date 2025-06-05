@@ -1,7 +1,7 @@
 ---
 title: IMetered
-second_title: Справочник по API Aspose.Slides для .NET
-description: Предоставляет методы для установки метированного ключа.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Предоставляет методы для установки лимитированного ключа.
 type: docs
 weight: 6250
 url: /ru/aspose.slides/imetered/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/imetered/
 
 ## Интерфейс IMetered
 
-Предоставляет методы для установки метированного ключа.
+Предоставляет методы для установки лимитированного ключа.
 
 ```csharp
 public interface IMetered
@@ -17,11 +17,11 @@ public interface IMetered
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [SetMeteredKey](../../aspose.slides/imetered/setmeteredkey)(string, string) | Устанавливает публичный и приватный метированный ключ. |
+| [SetMeteredKey](../../aspose.slides/imetered/setmeteredkey)(string, string) | Устанавливает лимитированный публичный и приватный ключ. |
 
-### Смотрите также
+### Также смотри
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

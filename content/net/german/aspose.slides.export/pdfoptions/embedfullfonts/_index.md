@@ -1,7 +1,7 @@
 ---
 title: EmbedFullFonts
-second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob alle Zeichen der Schriftart eingebettet werden sollen oder nur der verwendete Teil. Lese-/Schreibbare Boolean.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Bestimmt, ob alle Zeichen der Schriftart eingebettet werden sollen oder nur das verwendete Teilmengen. Lese-/Schreib-Boolesch.
 type: docs
 weight: 80
 url: /de/aspose.slides.export/pdfoptions/embedfullfonts/
@@ -9,17 +9,17 @@ url: /de/aspose.slides.export/pdfoptions/embedfullfonts/
 
 ## PdfOptions.EmbedFullFonts-Eigenschaft
 
-Bestimmt, ob alle Zeichen der Schriftart eingebettet werden sollen oder nur der verwendete Teil. Lese-/Schreibbare Boolean.
+Bestimmt, ob alle Zeichen der Schriftart eingebettet werden sollen oder nur das verwendete Teilmengen. Lese-/Schreib-Boolesch.
 
 ```csharp
 public bool EmbedFullFonts { get; set; }
 ```
 
-### Hinweise
+### Bemerkungen
 
-Standardmäßig ist **false**.
+Standard ist **false**.
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [PdfOptions](../../pdfoptions)
 * Namespace [Aspose.Slides.Export](../../pdfoptions)

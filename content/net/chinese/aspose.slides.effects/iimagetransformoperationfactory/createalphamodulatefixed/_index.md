@@ -23,7 +23,7 @@ public IAlphaModulateFixed CreateAlphaModulateFixed(float amount)
 
 Alpha 调制固定效果。
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IAlphaModulateFixed](../../ialphamodulatefixed)
 * 接口 [IImageTransformOperationFactory](../../iimagetransformoperationfactory)

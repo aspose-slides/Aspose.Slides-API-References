@@ -1,7 +1,7 @@
 ---
 title: InitColorScheme
-second_title: Aspose.Slides for .NET API 参考
-description: 使用新对象初始化 ColorScheme，以覆盖 InheritedTheme 的 ColorScheme。
+second_title: Aspose.Sildes for .NET API 参考
+description: 使用新对象初始化 ColorScheme 以覆盖 InheritedTheme 的 ColorScheme。
 type: docs
 weight: 60
 url: /zh/aspose.slides.theme/overridetheme/initcolorscheme/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.theme/overridetheme/initcolorscheme/
 
 ## OverrideTheme.InitColorScheme 方法
 
-使用新对象初始化 ColorScheme，以覆盖 InheritedTheme 的 ColorScheme。
+使用新对象初始化 ColorScheme 以覆盖 InheritedTheme 的 ColorScheme。
 
 ```csharp
 public void InitColorScheme()
@@ -17,9 +17,9 @@ public void InitColorScheme()
 
 ### 异常
 
-| 异常 | 条件 |
+| exception | condition |
 | --- | --- |
-| InvalidOperationException | 如果 ColorScheme 已经初始化（不为 null），则抛出。 |
+| InvalidOperationException | 如果 ColorScheme 已经初始化（非 null），则抛出。 |
 
 ### 另见
 

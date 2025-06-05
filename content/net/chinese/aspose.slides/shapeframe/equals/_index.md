@@ -1,7 +1,7 @@
 ---
-title: 等于
-second_title: Aspose.Slides for .NET API 参考
-description: 返回一个值，指示此实例是否等于指定对象。
+title: Equals
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回一个值，用于指示此实例是否等于指定的对象。
 type: docs
 weight: 140
 url: /zh/aspose.slides/shapeframe/equals/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/shapeframe/equals/
 
 ## Equals(object) {#equals_1}
 
-返回一个值，指示此实例是否等于指定对象。
+返回一个值，用于指示此实例是否等于指定的对象。
 
 ```csharp
 public override bool Equals(object obj)
@@ -17,13 +17,13 @@ public override bool Equals(object obj)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | 要与此实例进行比较的对象。 |
+| obj | Object | 要与此实例比较的对象。 |
 
 ### 返回值
 
-如果 obj 是一个与此实例具有相同值的 ShapeFrame，则为 **True**；否则为 **false**。
+如果 obj 是具有与此实例相同值的 ShapeFrame，则为 **True**；否则，返回 **false**。
 
-### 另请参阅
+### 参见
 
 * 类 [ShapeFrame](../../shapeframe)
 * 命名空间 [Aspose.Slides](../../shapeframe)
@@ -33,7 +33,7 @@ public override bool Equals(object obj)
 
 ## Equals(ShapeFrame) {#equals}
 
-返回一个值，指示此实例是否等于指定对象。
+返回一个值，用于指示此实例是否等于指定的对象。
 
 ```csharp
 public bool Equals(ShapeFrame value)
@@ -41,13 +41,13 @@ public bool Equals(ShapeFrame value)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | ShapeFrame | 要与此实例进行比较的 ShapeFRameEx。 |
+| value | ShapeFrame | 要与此实例比较的 ShapeFRameEx。 |
 
 ### 返回值
 
-如果 value 是一个与此实例具有相同值的 ShapeFrame，则为 **True**；否则为 **false**。
+如果 value 是具有与此实例相同值的 ShapeFrame，则为 **True**；否则，返回 **false**。
 
-### 另请参阅
+### 参见
 
 * 类 [ShapeFrame](../../shapeframe)
 * 命名空间 [Aspose.Slides](../../shapeframe)

@@ -1,6 +1,6 @@
 ---
 title: AsIAccessiblePVIObject
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Slides для .NET API Справочник
 description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.effects/icolorreplace/asiaccessiblepviobject/
 public IAccessiblePVIObject<IColorReplaceEffectiveData> AsIAccessiblePVIObject { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
 * интерфейс [IColorReplaceEffectiveData](../../icolorreplaceeffectivedata)

@@ -1,13 +1,13 @@
 ---
 title: AsIBaseSlideHeaderFooterManager
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Renvoie l'interface IBaseSlideHeaderFooterManager.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ilayoutslideheaderfootermanager/asibaseslideheaderfootermanager/
 ---
 
-## Propriété ILayoutSlideHeaderFooterManager.AsIBaseSlideHeaderFooterManager
+## ILayoutSlideHeaderFooterManager.AsIBaseSlideHeaderFooterManager propriété
 
 Renvoie l'interface IBaseSlideHeaderFooterManager.
 
@@ -19,7 +19,7 @@ public IBaseSlideHeaderFooterManager AsIBaseSlideHeaderFooterManager { get; }
 
 Pour la compatibilité COM.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IBaseSlideHeaderFooterManager](../../ibaseslideheaderfootermanager)
 * interface [ILayoutSlideHeaderFooterManager](../../ilayoutslideheaderfootermanager)

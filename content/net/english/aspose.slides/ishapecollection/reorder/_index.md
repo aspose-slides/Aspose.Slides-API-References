@@ -6,6 +6,7 @@ type: docs
 weight: 390
 url: /aspose.slides/ishapecollection/reorder/
 ---
+
 ## Reorder(int, IShape) {#reorder}
 
 Moves a shape from the collection to the specified position.

@@ -1,7 +1,7 @@
 ---
-title: Par
+title: By
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie une valeur de décalage relative pour l'animation par rapport à sa position avant le début de l'animation. Chaîne en lecture/écriture.
+description: Spécifie une valeur de décalage relative pour l'animation par rapport à sa position avant le début de l'animation. Lecture/écriture String.
 type: docs
 weight: 20
 url: /fr/aspose.slides.animation/ipropertyeffect/by/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/ipropertyeffect/by/
 
 ## Propriété IPropertyEffect.By
 
-Spécifie une valeur de décalage relative pour l'animation par rapport à sa position avant le début de l'animation. Chaîne en lecture/écriture.
+Spécifie une valeur de décalage relative pour l'animation par rapport à sa position avant le début de l'animation. Lecture/écriture String.
 
 ```csharp
 public string By { get; set; }

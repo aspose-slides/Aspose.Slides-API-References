@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.charts/itrendline/displayrsquaredvalue/
 ---
+
 ## ITrendline.DisplayRSquaredValue property
 
 Specifies that the R-squared value of the trendline is displayed on the chart (in the same label as the equation). Read/write Boolean.

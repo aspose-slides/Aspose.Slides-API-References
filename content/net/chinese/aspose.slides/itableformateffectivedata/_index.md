@@ -19,14 +19,14 @@ public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | 允许获取基础的 IBaseTableFormatEffectiveData 接口。只读 [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata)。 |
-| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | 获取填充颜色的透明度。返回单精度浮点数。 |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | 允许获取基本的 IBaseTableFormatEffectiveData 接口。只读 [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata)。 |
+| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | 获取填充颜色的透明度。返回单精度数。 |
 
-### 说明
+### 备注
 
-此接口与 [`ITableFormat`](../itableformat) 接口一起使用，以返回有效的格式值，适用于继承和表格样式。
+此接口与 [`ITableFormat`](../itableformat) 接口一起使用，以返回应用了继承和表格样式的有效格式值。
 
-### 另见
+### 另请参阅
 
 * 接口 [IBaseTableFormatEffectiveData](../ibasetableformateffectivedata)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/colorformat/luminance/
 ---
+
 ## ColorFormat.Luminance property
 
 Returns or sets the luminance component of a color in HSL representation. All color transformations are ignored. Read/write Single.

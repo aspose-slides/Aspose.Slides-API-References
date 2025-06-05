@@ -1,6 +1,6 @@
 ---
 title: BlurEffect
-second_title: Aspose.Slides для .NET API Справка
+second_title: Aspose.Sildes для .NET API Справочник
 description: Эффект размытия. Чтение/запись IBluraspose.slides.effects/iblur.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/effectformat/blureffect/
 public IBlur BlurEffect { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IBlur](../../../aspose.slides.effects/iblur)
 * класс [EffectFormat](../../effectformat)

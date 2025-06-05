@@ -1,6 +1,6 @@
 ---
 title: IControlCollection
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Eine Sammlung von ActiveX-Steuerelementen.
 type: docs
 weight: 5440

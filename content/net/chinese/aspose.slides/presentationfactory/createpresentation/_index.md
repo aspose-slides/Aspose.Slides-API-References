@@ -1,7 +1,7 @@
 ---
-title: 创建演示文稿
-second_title: Aspose.Slides for .NET API 参考
-description: 创建新的演示文稿。
+title: CreatePresentation
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建新演示文稿。
 type: docs
 weight: 30
 url: /zh/aspose.slides/presentationfactory/createpresentation/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/presentationfactory/createpresentation/
 
 ## CreatePresentation() {#createpresentation}
 
-创建新的演示文稿。
+创建新演示文稿。
 
 ```csharp
 public IPresentation CreatePresentation()
@@ -17,7 +17,7 @@ public IPresentation CreatePresentation()
 
 ### 返回值
 
-新的演示文稿
+新演示文稿
 
 ### 另请参阅
 
@@ -30,7 +30,7 @@ public IPresentation CreatePresentation()
 
 ## CreatePresentation(ILoadOptions) {#createpresentation_1}
 
-使用附加加载选项创建新的演示文稿
+使用附加加载选项创建新演示文稿
 
 ```csharp
 public IPresentation CreatePresentation(ILoadOptions options)
@@ -42,7 +42,7 @@ public IPresentation CreatePresentation(ILoadOptions options)
 
 ### 返回值
 
-新的演示文稿
+新演示文稿
 
 ### 另请参阅
 

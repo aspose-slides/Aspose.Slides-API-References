@@ -1,6 +1,6 @@
 ---
 title: NewLineType
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Especifica si el documento generado debe tener nuevas líneas \\rMacintosh de \\nUnix o \\r\\nWindows. El valor predeterminado es Unix.
 type: docs
 weight: 70

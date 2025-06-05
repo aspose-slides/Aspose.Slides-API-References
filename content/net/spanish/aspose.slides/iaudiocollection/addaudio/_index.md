@@ -1,6 +1,6 @@
 ---
 title: AddAudio
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes for .NET API Reference
 description: Agrega una copia de un archivo de audio de otra presentación.
 type: docs
 weight: 20
@@ -34,7 +34,7 @@ Audio agregado.
 
 ## AddAudio(Stream, LoadingStreamBehavior) {#addaudio_3}
 
-Crea y agrega un audio a una presentación desde un flujo.
+Crea y agrega un audio a una presentación desde un stream.
 
 ```csharp
 public IAudio AddAudio(Stream stream, LoadingStreamBehavior loadingStreamBehavior)
@@ -42,8 +42,8 @@ public IAudio AddAudio(Stream stream, LoadingStreamBehavior loadingStreamBehavio
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| stream | Stream | Flujo para agregar audio de video. |
-| loadingStreamBehavior | LoadingStreamBehavior | El comportamiento que se aplicará al flujo. |
+| stream | Stream | Stream para agregar audio de video. |
+| loadingStreamBehavior | LoadingStreamBehavior | El comportamiento que se aplicará al stream. |
 
 ### Valor de Retorno
 

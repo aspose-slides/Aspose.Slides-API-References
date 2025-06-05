@@ -1,6 +1,6 @@
 ---
-title: Diapositiva
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Slide
+second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve la diapositiva principal de una forma. Solo lectura IBaseSlideaspose.slides/ibaseslide.
 type: docs
 weight: 260
@@ -17,9 +17,9 @@ public IBaseSlide Slide { get; }
 
 ### Ver También
 
-* interfaz [IBaseSlide](../../ibaseslide)
-* clase [Shape](../../shape)
-* espacio de nombres [Aspose.Slides](../../shape)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IBaseSlide](../../ibaseslide)
+* clase [Shape](../../shape)
+* espacio de nombres [Aspose.Slides](../../shape)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

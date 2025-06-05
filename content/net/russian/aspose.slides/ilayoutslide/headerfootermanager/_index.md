@@ -1,7 +1,7 @@
 ---
 title: HeaderFooterManager
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает менеджер HeaderFooter для слайд-макета. Только для чтения ILayoutSlideHeaderFooterManageraspose.slides/ilayoutslideheaderfootermanager.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает менеджер HeaderFooter макета слайда. Только для чтения ILayoutSlideHeaderFooterManageraspose.slides/ilayoutslideheaderfootermanager.
 type: docs
 weight: 40
 url: /ru/aspose.slides/ilayoutslide/headerfootermanager/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ilayoutslide/headerfootermanager/
 
 ## Свойство ILayoutSlide.HeaderFooterManager
 
-Возвращает менеджер HeaderFooter для слайд-макета. Только для чтения [`ILayoutSlideHeaderFooterManager`](../../ilayoutslideheaderfootermanager).
+Возвращает менеджер HeaderFooter макета слайда. Только для чтения [`ILayoutSlideHeaderFooterManager`](../../ilayoutslideheaderfootermanager).
 
 ```csharp
 public ILayoutSlideHeaderFooterManager HeaderFooterManager { get; }

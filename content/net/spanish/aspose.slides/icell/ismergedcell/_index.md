@@ -1,21 +1,21 @@
 ---
 title: IsMergedCell
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve verdadero si la celda está fusionada con alguna celda ajustada, falso en caso contrario. Booleano de solo lectura.
+second_title: Aspose.Sildes para referencia de API de .NET
+description: Devuelve verdadero si la celda está combinada con cualquier celda ajustada, falso de lo contrario. Booleano de solo lectura.
 type: docs
 weight: 100
 url: /es/aspose.slides/icell/ismergedcell/
 ---
 
-## Propiedad ICell.IsMergedCell
+## ICell.IsMergedCell propiedad
 
-Devuelve verdadero si la celda está fusionada con alguna celda ajustada, falso en caso contrario. Booleano de solo lectura.
+Devuelve verdadero si la celda está combinada con cualquier celda ajustada, falso de lo contrario. Booleano de solo lectura.
 
 ```csharp
 public bool IsMergedCell { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [ICell](../../icell)
 * espacio de nombres [Aspose.Slides](../../icell)

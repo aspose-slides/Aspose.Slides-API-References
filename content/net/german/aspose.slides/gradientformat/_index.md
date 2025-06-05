@@ -1,7 +1,7 @@
 ---
 title: GradientFormat
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt ein Verlaufformat dar.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt ein Farbverlaufformat dar.
 type: docs
 weight: 4800
 url: /de/aspose.slides/gradientformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/gradientformat/
 
 ## GradientFormat-Klasse
 
-Stellt ein Verlaufformat dar.
+Stellt ein Farbverlaufformat dar.
 
 ```csharp
 public sealed class GradientFormat : PVIObject, IGradientFormat
@@ -19,13 +19,13 @@ public sealed class GradientFormat : PVIObject, IGradientFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht den Zugriff auf die grundlegende IPresentationComponent-Schnittstelle. Nur-lesend [`IPresentationComponent`](../ipresentationcomponent). |
-| [GradientDirection](../../aspose.slides/gradientformat/gradientdirection) { get; set; } | Gibt den Stil eines Verlaufs zurück oder setzt ihn. Lese-/schreibbar [`GradientDirection`](../gradientdirection). |
-| [GradientShape](../../aspose.slides/gradientformat/gradientshape) { get; set; } | Gibt die Form eines Verlaufs zurück oder setzt sie. Lese-/schreibbar [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | Gibt die Sammlung der Verlaufsstopps zurück. Nur-lesend [`IGradientStopCollection`](../igradientstopcollection). |
-| [LinearGradientAngle](../../aspose.slides/gradientformat/lineargradientangle) { get; set; } | Gibt den Winkel eines Verlaufs zurück oder setzt ihn. Lese-/schreibbar Single. |
-| [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | Bestimmt, ob ein Verlauf skaliert ist. Lese-/schreibbar [`NullableBool`](../nullablebool). |
-| [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | Gibt den Flip-Modus für einen Verlauf zurück oder setzt ihn. Lese-/schreibbar [`TileFlip`](../tileflip). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IPresentationComponent. Nur lesbar [`IPresentationComponent`](../ipresentationcomponent). |
+| [GradientDirection](../../aspose.slides/gradientformat/gradientdirection) { get; set; } | Gibt den Stil eines Farbverlaufs zurück oder legt ihn fest. Lese-/Schreibzugriff [`GradientDirection`](../gradientdirection). |
+| [GradientShape](../../aspose.slides/gradientformat/gradientshape) { get; set; } | Gibt die Form eines Farbverlaufs zurück oder legt sie fest. Lese-/Schreibzugriff [`GradientShape`](../gradientshape). |
+| [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | Gibt die Sammlung der Farbverlaufsstopps zurück. Nur lesbar [`IGradientStopCollection`](../igradientstopcollection). |
+| [LinearGradientAngle](../../aspose.slides/gradientformat/lineargradientangle) { get; set; } | Gibt den Winkel eines Farbverlaufs zurück oder legt ihn fest. Lese-/Schreibzugriff Single. |
+| [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | Bestimmt, ob ein Farbverlauf skaliert ist. Lese-/Schreibzugriff [`NullableBool`](../nullablebool). |
+| [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | Gibt den Flip-Modus für einen Farbverlauf zurück oder legt ihn fest. Lese-/Schreibzugriff [`TileFlip`](../tileflip). |
 
 ## Methoden
 

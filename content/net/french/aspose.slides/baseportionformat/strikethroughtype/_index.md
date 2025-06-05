@@ -1,7 +1,7 @@
 ---
-title: TypeDeBarré
-second_title: Référence API Aspose.Slides pour .NET
-description: Retourne ou définit le type de barré d'un texte. Pas d'héritage appliqué. Lecture/écriture TextStrikethroughTypeaspose.slides/textstrikethroughtype.
+title: StrikethroughType
+second_title: Aspose.Slides pour .NET Référence API
+description: Renvoie ou définit le type de barré d'un texte. Pas d'héritage appliqué. Lecture/écriture TextStrikethroughTypeaspose.slides/textstrikethroughtype.
 type: docs
 weight: 220
 url: /fr/aspose.slides/baseportionformat/strikethroughtype/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/baseportionformat/strikethroughtype/
 
 ## Propriété BasePortionFormat.StrikethroughType
 
-Retourne ou définit le type de barré d'un texte. Pas d'héritage appliqué. Lecture/écriture [`TextStrikethroughType`](../../textstrikethroughtype).
+Renvoie ou définit le type de barré d'un texte. Pas d'héritage appliqué. Lecture/écriture [`TextStrikethroughType`](../../textstrikethroughtype).
 
 ```csharp
 public TextStrikethroughType StrikethroughType { get; set; }

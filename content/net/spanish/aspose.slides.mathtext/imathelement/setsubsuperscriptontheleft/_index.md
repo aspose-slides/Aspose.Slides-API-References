@@ -1,13 +1,13 @@
 ---
 title: SetSubSuperscriptOnTheLeft
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API Aspose.Slides para .NET
 description: Crea subíndices y superíndices a la izquierda
 type: docs
 weight: 150
 url: /es/aspose.slides.mathtext/imathelement/setsubsuperscriptontheleft/
 ---
 
-## SetSubSuperscriptOnTheLeft(IMathElement, IMathElement) {#setsubsuperscriptontheleft}
+## SetSubSuperscriptOnTheLeft(IMathElement, IMathElement) {#setsubsuperscriptontheleft}
 
 Crea subíndices y superíndices a la izquierda
 
@@ -21,7 +21,7 @@ public IMathLeftSubSuperscriptElement SetSubSuperscriptOnTheLeft(IMathElement su
 | subscript | IMathElement | Subíndice (índice inferior a la izquierda) |
 | superscript | IMathElement | Superíndice (índice superior a la izquierda) |
 
-### Valor de Retorno
+### Valor de regreso
 
 Nuevo elemento matemático de tipo [`IMathLeftSubSuperscriptElement`](../../imathleftsubsuperscriptelement)
 
@@ -37,7 +37,7 @@ IMathElement superscript = new MathematicalText("j");
 IMathLeftSubSuperscriptElement leftSubsuperscript = baseElement.SetSubSuperscriptOnTheLeft(subscript, superscript);
 ```
 
-### Véase También
+### Véase también
 
 * interfaz [IMathLeftSubSuperscriptElement](../../imathleftsubsuperscriptelement)
 * interfaz [IMathElement](../../imathelement)
@@ -46,7 +46,7 @@ IMathLeftSubSuperscriptElement leftSubsuperscript = baseElement.SetSubSuperscrip
 
 ---
 
-## SetSubSuperscriptOnTheLeft(string, string) {#setsubsuperscriptontheleft_1}
+## SetSubSuperscriptOnTheLeft(string, string) {#setsubsuperscriptontheleft_1}
 
 Crea subíndices y superíndices a la izquierda
 
@@ -60,7 +60,7 @@ public IMathLeftSubSuperscriptElement SetSubSuperscriptOnTheLeft(string subscrip
 | subscript | String | Subíndice (índice inferior a la izquierda) |
 | superscript | String | Superíndice (índice superior a la izquierda) |
 
-### Valor de Retorno
+### Valor de regreso
 
 Nuevo elemento matemático de tipo [`IMathLeftSubSuperscriptElement`](../../imathleftsubsuperscriptelement)
 
@@ -74,7 +74,7 @@ IMathElement baseElement = new MathematicalText("N");
 IMathLeftSubSuperscriptElement leftSubsuperscript = baseElement.SetSubSuperscriptOnTheLeft("i", "j");
 ```
 
-### Véase También
+### Véase también
 
 * interfaz [IMathLeftSubSuperscriptElement](../../imathleftsubsuperscriptelement)
 * interfaz [IMathElement](../../imathelement)

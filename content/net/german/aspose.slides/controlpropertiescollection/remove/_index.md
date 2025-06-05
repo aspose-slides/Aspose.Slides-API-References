@@ -1,5 +1,5 @@
 ---
-title: Entfernen
+title: Remove
 second_title: Aspose.Slides für .NET API-Referenz
 description: Entfernt eine Eigenschaft mit dem angegebenen Namen.
 type: docs
@@ -19,7 +19,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | Der Name der zu entfernenden Eigenschaft. |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [ControlPropertiesCollection](../../controlpropertiescollection)
 * Namespace [Aspose.Slides](../../controlpropertiescollection)

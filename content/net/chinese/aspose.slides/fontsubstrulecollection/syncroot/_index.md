@@ -15,7 +15,7 @@ url: /zh/aspose.slides/fontsubstrulecollection/syncroot/
 public object SyncRoot { get; }
 ```
 
-### 请参见
+### 另请参见
 
 * class [FontSubstRuleCollection](../../fontsubstrulecollection)
 * namespace [Aspose.Slides](../../fontsubstrulecollection)

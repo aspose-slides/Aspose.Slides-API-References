@@ -1,6 +1,6 @@
 ---
-title: 说明
-second_title: Aspose.Slides for .NET API 参考
+title: Notes
+second_title: Aspose.Slides for .NET API Reference
 description: 返回包含备注的演示文稿中的幻灯片数量。只读 Int32。
 type: docs
 weight: 250
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/documentproperties/notes/
 public int Notes { get; }
 ```
 
-### 另请参见
+### 另见
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)

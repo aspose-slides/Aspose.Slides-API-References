@@ -1,13 +1,13 @@
 ---
-title: A
-second_title: Aspose.Slides para .NET Referencia de la API
+title: To
+second_title: Aspose.Slides para .NET Referencia de API
 description: Especifica la ubicación objetivo para un efecto de movimiento de animación en porcentajes. Lectura/escritura PointF.
 type: docs
 weight: 90
 url: /es/aspose.slides.animation/imotioneffect/to/
 ---
 
-## Propiedad IMotionEffect.To
+## IMotionEffect.To propiedad
 
 Especifica la ubicación objetivo para un efecto de movimiento de animación (en porcentajes). Lectura/escritura PointF.
 
@@ -15,7 +15,7 @@ Especifica la ubicación objetivo para un efecto de movimiento de animación (en
 public PointF To { get; set; }
 ```
 
-### Ver también
+### Ver También
 
 * interfaz [IMotionEffect](../../imotioneffect)
 * espacio de nombres [Aspose.Slides.Animation](../../imotioneffect)

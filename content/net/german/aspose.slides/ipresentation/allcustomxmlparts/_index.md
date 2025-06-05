@@ -1,7 +1,7 @@
 ---
-title: AlleCustomXmlTeile
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt alle benutzerdefinierten Datenteile in der Präsentation zurück. Nur lesbar ICustomXmlPartaspose.slides/icustomxmlpart.
+title: AllCustomXmlParts
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt alle benutzerdefinierten Datenpartien in der Präsentation zurück. Nur lesend ICustomXmlPartaspose.slides/icustomxmlpart.
 type: docs
 weight: 10
 url: /de/aspose.slides/ipresentation/allcustomxmlparts/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ipresentation/allcustomxmlparts/
 
 ## IPresentation.AllCustomXmlParts-Eigenschaft
 
-Gibt alle benutzerdefinierten Datenteile in der Präsentation zurück. Nur lesbar [`ICustomXmlPart`](../../icustomxmlpart)[].
+Gibt alle benutzerdefinierten Datenpartien in der Präsentation zurück. Nur lesend [`ICustomXmlPart`](../../icustomxmlpart)[].
 
 ```csharp
 public ICustomXmlPart[] AllCustomXmlParts { get; }

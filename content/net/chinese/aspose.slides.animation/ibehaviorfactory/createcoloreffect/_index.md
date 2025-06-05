@@ -1,6 +1,6 @@
 ---
-title: 创建颜色效果
-second_title: Aspose.Slides for .NET API 参考
+title: CreateColorEffect
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建颜色效果。
 type: docs
 weight: 10

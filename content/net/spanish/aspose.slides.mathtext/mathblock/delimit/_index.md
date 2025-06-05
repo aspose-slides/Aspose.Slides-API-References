@@ -1,15 +1,15 @@
 ---
-title: Delimitar
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Delimita elementos secundarios con un carácter separador sin los corchetes
+title: Delimit
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Delimita elementos hijos con carácter separador sin los corchetes
 type: docs
 weight: 90
 url: /es/aspose.slides.mathtext/mathblock/delimit/
 ---
 
-## Método MathBlock.Delimit
+## MathBlock.Delimit método
 
-Delimita elementos secundarios con un carácter separador (sin los corchetes)
+Delimita elementos hijos con carácter separador (sin los corchetes)
 
 ```csharp
 public IMathDelimiter Delimit(char separatorCharacter)
@@ -19,7 +19,7 @@ public IMathDelimiter Delimit(char separatorCharacter)
 | --- | --- | --- |
 | separatorCharacter | Char | Carácter separador |
 
-### Valor de Retorno
+### Valor de retorno
 
 El elemento matemático de tipo [`IMathDelimiter`](../../imathdelimiter)
 
@@ -33,11 +33,11 @@ MathBlock mathBlock = new MathematicalText("x").Join("y");
 IMathDelimiter delimiterElement = mathBlock.Delimit('|');
 ```
 
-### Ver También
+### Ver también
 
 * interfaz [IMathDelimiter](../../imathdelimiter)
 * clase [MathBlock](../../mathblock)
-* espacio de nombres [Aspose.Slides.MathText](../../mathblock)
-* ensamblaje [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.MathText](../../mathblock)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

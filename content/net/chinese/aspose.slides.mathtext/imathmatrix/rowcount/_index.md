@@ -1,7 +1,7 @@
 ---
-title: 行数
-second_title: Aspose.Sildes for .NET API 参考
-description: 矩阵中的行数
+title: RowCount
+second_title: Aspose.Sildes for .NET API Reference
+description: 矩阵的行数
 type: docs
 weight: 90
 url: /zh/aspose.slides.mathtext/imathmatrix/rowcount/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathmatrix/rowcount/
 
 ## IMathMatrix.RowCount 属性
 
-矩阵中的行数
+矩阵的行数
 
 ```csharp
 public int RowCount { get; }
@@ -25,7 +25,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 int rowCount = matrix.RowCount;
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IMathMatrix](../../imathmatrix)
 * 命名空间 [Aspose.Slides.MathText](../../imathmatrix)

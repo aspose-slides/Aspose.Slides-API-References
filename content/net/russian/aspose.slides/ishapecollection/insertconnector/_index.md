@@ -1,7 +1,7 @@
 ---
 title: InsertConnector
-second_title: Aspose.Slides для .NET API Справочник
-description: Создает новый соединитель, настраивает его по умолчанию и вставляет его в коллекцию по указанному индексу.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Создает новый Connector, настраивает его по умолчанию и вставляет в коллекцию по указанному индексу.
 type: docs
 weight: 280
 url: /ru/aspose.slides/ishapecollection/insertconnector/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ishapecollection/insertconnector/
 
 ## InsertConnector(int, ShapeType, float, float, float, float) {#insertconnector}
 
-Создает новый соединитель, настраивает его по умолчанию и вставляет его в коллекцию по указанному индексу.
+Создает новый Connector, настраивает его по умолчанию и вставляет в коллекцию по указанному индексу.
 
 ```csharp
 public IConnector InsertConnector(int index, ShapeType shapeType, float x, float y, float width, 
@@ -18,18 +18,18 @@ public IConnector InsertConnector(int index, ShapeType shapeType, float x, float
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс, начиная с 0, в который должно быть вставлено значение. |
-| shapeType | ShapeType | [`ShapeType`](../../shapetype) формы. |
-| x | Single | X-координата для левой стороны рамки формы. |
-| y | Single | Y-координата для верхней стороны рамки формы. |
-| width | Single | Ширина рамки формы. |
-| height | Single | Высота рамки формы. |
+| index | Int32 | Индекс, начиная с нуля, в который должно быть вставлено значение. |
+| shapeType | ShapeType | [`ShapeType`](../../shapetype) фигуры. |
+| x | Single | X-координата для левой стороны рамки фигуры. |
+| y | Single | Y-координата для верхней стороны рамки фигуры. |
+| width | Single | Ширина рамки фигуры. |
+| height | Single | Высота рамки фигуры. |
 
-### Возвращаемое значение
+### Возвращаемое Значение
 
-Созданный объект соединителя.
+Созданный объект Connector.
 
-### См. также
+### Смотрите Также
 
 * интерфейс [IConnector](../../iconnector)
 * перечисление [ShapeType](../../shapetype)
@@ -41,7 +41,7 @@ public IConnector InsertConnector(int index, ShapeType shapeType, float x, float
 
 ## InsertConnector(int, ShapeType, float, float, float, float, bool) {#insertconnector_1}
 
-Создает новый соединитель и вставляет его в коллекцию по указанному индексу.
+Создает новый Connector и вставляет его в коллекцию по указанному индексу.
 
 ```csharp
 public IConnector InsertConnector(int index, ShapeType shapeType, float x, float y, float width, 
@@ -50,19 +50,19 @@ public IConnector InsertConnector(int index, ShapeType shapeType, float x, float
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс, начиная с 0, в который должно быть вставлено значение. |
-| shapeType | ShapeType | [`ShapeType`](../../shapetype) формы. |
-| x | Single | X-координата для левой стороны рамки формы. |
-| y | Single | Y-координата для верхней стороны рамки формы. |
-| width | Single | Ширина рамки формы. |
-| height | Single | Высота рамки формы. |
-| createFromTemplate | Boolean | Если true, то новая форма будет настроена по умолчанию. Новой форме будет присвоено ненулевое имя, простой стиль, выравнивание текста по центру. Если false, то все значения свойств новой формы будут иметь значения по умолчанию. |
+| index | Int32 | Индекс, начиная с нуля, в который должно быть вставлено значение. |
+| shapeType | ShapeType | [`ShapeType`](../../shapetype) фигуры. |
+| x | Single | X-координата для левой стороны рамки фигуры. |
+| y | Single | Y-координата для верхней стороны рамки фигуры. |
+| width | Single | Ширина рамки фигуры. |
+| height | Single | Высота рамки фигуры. |
+| createFromTemplate | Boolean | Если true, то новая фигура будет настроена по умолчанию. несодержательное имя, простой стиль, текст по центру будет присвоен новой фигуре. Если false, все значения свойств новой фигуры будут иметь значения по умолчанию. |
 
-### Возвращаемое значение
+### Возвращаемое Значение
 
-Созданный объект соединителя.
+Созданный объект Connector.
 
-### См. также
+### Смотрите Также
 
 * интерфейс [IConnector](../../iconnector)
 * перечисление [ShapeType](../../shapetype)

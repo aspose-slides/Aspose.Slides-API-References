@@ -1,13 +1,13 @@
 ---
 title: ParentComment
-second_title: Справочник по API Aspose.Slidess для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Получает или устанавливает родительский комментарий. Чтение/запись ICommentaspose.slides/icomment.
 type: docs
 weight: 30
 url: /ru/aspose.slides/icomment/parentcomment/
 ---
 
-## Свойство IComment.ParentComment
+## IComment.ParentComment свойство
 
 Получает или устанавливает родительский комментарий. Чтение/запись [`IComment`](../../icomment).
 
@@ -19,9 +19,9 @@ public IComment ParentComment { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Генерируется, если установка значения приводит к циклической ссылке |
+| [PptxEditException](../../pptxeditexception) | Выбрасывается, если установка значения приводит к круговой ссылке |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IComment](../../icomment)
 * пространство имен [Aspose.Slides](../../icomment)

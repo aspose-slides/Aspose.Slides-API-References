@@ -3,9 +3,10 @@ title: Section
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents section of slides.
 type: docs
-weight: 9150
+weight: 9480
 url: /aspose.slides/section/
 ---
+
 ## Section class
 
 Represents section of slides.

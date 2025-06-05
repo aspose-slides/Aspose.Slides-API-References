@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/portioncollection/insert/
 ---
+
 ## PortionCollection.Insert method
 
 Inserts a Portion into the collection at the specified index.

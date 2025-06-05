@@ -1,6 +1,6 @@
 ---
-title: Элемент
-second_title: Aspose.Slides для .NET API Справочник
+title: Item
+second_title: Aspose.Slides для .NET API Reference
 description: Элемент матрицы
 type: docs
 weight: 70
@@ -30,7 +30,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix[0, 0] = new MathematicalText("item.1.1");
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IMathElement](../../imathelement)
 * класс [MathMatrix](../../mathmatrix)

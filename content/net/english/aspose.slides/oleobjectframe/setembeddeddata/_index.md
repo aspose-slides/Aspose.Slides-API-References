@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides/oleobjectframe/setembeddeddata/
 ---
+
 ## OleObjectFrame.SetEmbeddedData method
 
 Sets information about OLE embedded data.  This method changes the properties of the object to reflect the new data and sets the IsObjectLink flag to false, indicating that the OLE object is embedded.

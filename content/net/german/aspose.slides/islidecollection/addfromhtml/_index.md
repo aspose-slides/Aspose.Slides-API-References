@@ -1,13 +1,13 @@
 ---
 title: AddFromHtml
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Erstellt Folien aus HTML-Text und fügt sie am Ende der Sammlung hinzu.
 type: docs
 weight: 40
 url: /de/aspose.slides/islidecollection/addfromhtml/
 ---
 
-## AddFromHtml(string, IExternalResourceResolver, string) {#addfromhtml_5}
+## AddFromHtml(string, IExternalResourceResolver, string) {#addfromhtml_5}
 
 Erstellt Folien aus HTML-Text und fügt sie am Ende der Sammlung hinzu.
 
@@ -17,7 +17,7 @@ public ISlide[] AddFromHtml(string htmlText, IExternalResourceResolver resolver,
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| htmlText | String | HTML zum Hinzufügen. |
+| htmlText | String | Zu hinzufügendes HTML. |
 | resolver | IExternalResourceResolver | Ein Callback-Objekt, das verwendet wird, um externe Objekte abzurufen. Wenn dieser Parameter null ist, werden alle externen Objekte ignoriert. |
 | uri | String | Eine URI des angegebenen HTML. Wird verwendet, um relative Links aufzulösen. |
 
@@ -27,11 +27,11 @@ Hinzugefügte Folien.
 
 ### Siehe auch
 
-* Schnittstelle [ISlide](../../islide)
-* Schnittstelle [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
-* Schnittstelle [ISlideCollection](../../islidecollection)
-* Namensraum [Aspose.Slides](../../islidecollection)
-* Assembly [Aspose.Slides](../../../)
+* interface [ISlide](../../islide)
+* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* interface [ISlideCollection](../../islidecollection)
+* namespace [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -45,7 +45,7 @@ public ISlide[] AddFromHtml(string htmlText)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| htmlText | String | HTML zum Hinzufügen. |
+| htmlText | String | Zu hinzufügendes HTML. |
 
 ### Rückgabewert
 
@@ -53,14 +53,14 @@ Hinzugefügte Folien
 
 ### Siehe auch
 
-* Schnittstelle [ISlide](../../islide)
-* Schnittstelle [ISlideCollection](../../islidecollection)
-* Namensraum [Aspose.Slides](../../islidecollection)
-* Assembly [Aspose.Slides](../../../)
+* interface [ISlide](../../islide)
+* interface [ISlideCollection](../../islidecollection)
+* namespace [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## AddFromHtml(TextReader, IExternalResourceResolver, string) {#addfromhtml_3}
+## AddFromHtml(TextReader, IExternalResourceResolver, string) {#addfromhtml_3}
 
 Erstellt Folien aus HTML-Text und fügt sie am Ende der Sammlung hinzu.
 
@@ -80,11 +80,11 @@ Hinzugefügte Folien.
 
 ### Siehe auch
 
-* Schnittstelle [ISlide](../../islide)
-* Schnittstelle [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
-* Schnittstelle [ISlideCollection](../../islidecollection)
-* Namensraum [Aspose.Slides](../../islidecollection)
-* Assembly [Aspose.Slides](../../../)
+* interface [ISlide](../../islide)
+* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* interface [ISlideCollection](../../islidecollection)
+* namespace [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -106,14 +106,14 @@ Hinzugefügte Folien
 
 ### Siehe auch
 
-* Schnittstelle [ISlide](../../islide)
-* Schnittstelle [ISlideCollection](../../islidecollection)
-* Namensraum [Aspose.Slides](../../islidecollection)
-* Assembly [Aspose.Slides](../../../)
+* interface [ISlide](../../islide)
+* interface [ISlideCollection](../../islidecollection)
+* namespace [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## AddFromHtml(Stream, IExternalResourceResolver, string) {#addfromhtml_1}
+## AddFromHtml(Stream, IExternalResourceResolver, string) {#addfromhtml_1}
 
 Erstellt Folien aus HTML-Text und fügt sie am Ende der Sammlung hinzu.
 
@@ -133,11 +133,11 @@ Hinzugefügte Folien.
 
 ### Siehe auch
 
-* Schnittstelle [ISlide](../../islide)
-* Schnittstelle [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
-* Schnittstelle [ISlideCollection](../../islidecollection)
-* Namensraum [Aspose.Slides](../../islidecollection)
-* Assembly [Aspose.Slides](../../../)
+* interface [ISlide](../../islide)
+* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* interface [ISlideCollection](../../islidecollection)
+* namespace [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -159,9 +159,9 @@ Hinzugefügte Folien
 
 ### Siehe auch
 
-* Schnittstelle [ISlide](../../islide)
-* Schnittstelle [ISlideCollection](../../islidecollection)
-* Namensraum [Aspose.Slides](../../islidecollection)
-* Assembly [Aspose.Slides](../../../)
+* interface [ISlide](../../islide)
+* interface [ISlideCollection](../../islidecollection)
+* namespace [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

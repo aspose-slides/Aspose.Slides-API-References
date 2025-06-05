@@ -1,15 +1,15 @@
 ---
 title: GetEffective
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient les données d'effet Bi-Level effectives avec l'héritage appliqué.
+description: Obtient les données efficaces de l'effet Bi-Level avec l'héritage appliqué.
 type: docs
 weight: 20
 url: /fr/aspose.slides.effects/bilevel/geteffective/
 ---
 
-## Méthode BiLevel.GetEffective
+## BiLevel.GetEffective méthode
 
-Obtient les données d'effet Bi-Level effectives avec l'héritage appliqué.
+Obtient les données efficaces de l'effet Bi-Level avec l'héritage appliqué.
 
 ```csharp
 public IBiLevelEffectiveData GetEffective()

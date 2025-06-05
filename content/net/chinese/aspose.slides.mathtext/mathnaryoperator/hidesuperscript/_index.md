@@ -1,6 +1,6 @@
 ---
-title: 隐藏上标
-second_title: Aspose.Slides for .NET API 参考
+title: HideSuperscript
+second_title: Aspose.Sildes for .NET API Reference
 description: 隐藏上标
 type: docs
 weight: 50
@@ -25,7 +25,7 @@ IMathNaryOperator naryOperator = new MathematicalText("x").Nary(MathNaryOperator
 naryOperator.HideSuperscript = true;
 ```
 
-### 另请参阅
+### 另见
 
 * class [MathNaryOperator](../../mathnaryoperator)
 * namespace [Aspose.Slides.MathText](../../mathnaryoperator)

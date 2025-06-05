@@ -20,8 +20,8 @@ public class OdpException : Exception
 | Nombre | Descripción |
 | --- | --- |
 | [OdpException](odpexception#constructor)() | Constructor predeterminado |
-| [OdpException](odpexception#constructor_1)(string) | Constructor que permite agregar un mensaje a esta excepción. |
-| [OdpException](odpexception#constructor_2)(string, Exception) | Constructor para una excepción que contiene un mensaje y una excepción embebida. |
+| [OdpException](odpexception#constructor_1)(string) | Constructor que permite añadir un mensaje a esta excepción. |
+| [OdpException](odpexception#constructor_2)(string, Exception) | Constructor para una excepción que contiene un mensaje y una excepción interna. |
 
 ### Véase también
 

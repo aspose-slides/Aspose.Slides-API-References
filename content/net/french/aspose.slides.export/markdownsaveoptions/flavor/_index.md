@@ -1,7 +1,7 @@
 ---
-title: Saveur
+title: Flavor
 second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie la spécification markdown pour convertir la présentation. Par défaut, c'est Multi-markdown.
+description: Spécifie la spécification markdown pour convertir la présentation. La valeur par défaut est Multi-markdown.
 type: docs
 weight: 40
 url: /fr/aspose.slides.export/markdownsaveoptions/flavor/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/markdownsaveoptions/flavor/
 
 ## Propriété MarkdownSaveOptions.Flavor
 
-Spécifie la spécification markdown pour convertir la présentation. Par défaut, c'est `Multi-markdown`.
+Spécifie la spécification markdown pour convertir la présentation. La valeur par défaut est `Multi-markdown`.
 
 ```csharp
 public Flavor Flavor { get; set; }

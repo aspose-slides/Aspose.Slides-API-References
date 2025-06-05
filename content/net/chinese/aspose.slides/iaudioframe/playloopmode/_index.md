@@ -1,7 +1,7 @@
 ---
-title: 播放循环模式
-second_title: Aspose.Slides for .NET API 参考
-description: 确定音频是否循环。可读/可写布尔值。
+title: PlayLoopMode
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定音频是否循环播放。可读/可写布尔值。
 type: docs
 weight: 130
 url: /zh/aspose.slides/iaudioframe/playloopmode/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/iaudioframe/playloopmode/
 
 ## IAudioFrame.PlayLoopMode 属性
 
-确定音频是否循环。可读/可写布尔值。
+确定音频是否循环播放。可读/可写布尔值。
 
 ```csharp
 public bool PlayLoopMode { get; set; }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [IAudioFrame](../../iaudioframe)
 * 命名空间 [Aspose.Slides](../../iaudioframe)

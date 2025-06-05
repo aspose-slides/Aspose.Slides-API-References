@@ -1,7 +1,7 @@
 ---
 title: AddEmbeddedFont
-second_title: Aspose.Slides для .NET API Reference
-description: Добавляет встроенный шрифт. Имейте в виду, что большинство шрифтов имеют авторские права. Сначала найдите лицензию на шрифт заранее и убедитесь, что его можно свободно передавать на другое устройство. Исключение ArgumentException может возникнуть, если данные шрифта равны null или этот шрифт уже встроен.
+second_title: Aspose.Sildes для .NET API Reference
+description: Добавляет встроенный шрифт. Имейте в виду, что большинство шрифтов защищено авторским правом. Сначала найдите лицензию на шрифт и проверьте, можно ли его свободно перенести на другую машину. Исключение ArgumentException может быть выброшено, если данные шрифта равны null или этот шрифт уже встроен.
 type: docs
 weight: 30
 url: /ru/aspose.slides/fontsmanager/addembeddedfont/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/fontsmanager/addembeddedfont/
 
 ## AddEmbeddedFont(IFontData, EmbedFontCharacters) {#addembeddedfont}
 
-Добавляет встроенный шрифт. Имейте в виду, что большинство шрифтов имеют авторские права. Сначала найдите лицензию на шрифт заранее и убедитесь, что его можно свободно передавать на другое устройство. Исключение ArgumentException может возникнуть, если данные шрифта равны null или этот шрифт уже встроен.
+Добавляет встроенный шрифт. Имейте в виду, что большинство шрифтов защищено авторским правом. Сначала найдите лицензию на шрифт и проверьте, можно ли его свободно перенести на другую машину. Исключение ArgumentException может быть выброшено, если данные шрифта равны null или этот шрифт уже встроен.
 
 ```csharp
 public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRule)
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [IFontData](../../ifontdata)
 * перечисление [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters)
@@ -27,13 +27,13 @@ public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRul
 
 ## AddEmbeddedFont(byte[], EmbedFontCharacters) {#addembeddedfont_1}
 
-Добавляет встроенный шрифт. Имейте в виду, что большинство шрифтов имеют авторские права. Сначала найдите лицензию на шрифт заранее и убедитесь, что его можно свободно передавать на другое устройство. Исключение ArgumentException может возникнуть, если данные шрифта равны null или этот шрифт уже встроен.
+Добавляет встроенный шрифт. Имейте в виду, что большинство шрифтов защищено авторским правом. Сначала найдите лицензию на шрифт и проверьте, можно ли его свободно перенести на другую машину. Исключение ArgumentException может быть выброшено, если данные шрифта равны null или этот шрифт уже встроен.
 
 ```csharp
 public void AddEmbeddedFont(byte[] fontData, EmbedFontCharacters embedFontRule)
 ```
 
-### См. Также
+### См. также
 
 * перечисление [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters)
 * класс [FontsManager](../../fontsmanager)

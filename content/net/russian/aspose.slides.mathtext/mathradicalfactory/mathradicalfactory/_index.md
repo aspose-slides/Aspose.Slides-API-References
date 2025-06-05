@@ -1,6 +1,6 @@
 ---
 title: MathRadicalFactory
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Конструктор по умолчанию.
 type: docs
 weight: 10

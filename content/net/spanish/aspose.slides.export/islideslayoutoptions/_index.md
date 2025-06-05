@@ -15,9 +15,9 @@ Representa el modo de diseño de la presentación para exportación.
 public interface ISlidesLayoutOptions
 ```
 
-### Ver También
+### Véase También
 
-* namespace [Aspose.Slides.Export](../../aspose.slides.export)
-* assembly [Aspose.Slides](../../)
+* espacio de nombres [Aspose.Slides.Export](../../aspose.slides.export)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

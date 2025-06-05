@@ -1,7 +1,7 @@
 ---
-title: Länge
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Länge in Bytes des Streams zurück. Nur lesbares Int64.
+title: Length
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt die Länge in Bytes des Streams zurück. Nur-lesend Int64.
 type: docs
 weight: 50
 url: /de/aspose.slides/streamwrapper/length/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/streamwrapper/length/
 
 ## StreamWrapper.Length-Eigenschaft
 
-Gibt die Länge in Bytes des Streams zurück. Nur lesbares Int64.
+Gibt die Länge in Bytes des Streams zurück. Nur-lesend Int64.
 
 ```csharp
 public long Length { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [StreamWrapper](../../streamwrapper)
 * Namespace [Aspose.Slides](../../streamwrapper)

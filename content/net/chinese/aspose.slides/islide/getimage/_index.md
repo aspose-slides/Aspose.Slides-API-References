@@ -1,41 +1,41 @@
 ---
-title: 获取图像
-second_title: Aspose.Slides for .NET API 参考
-description: 返回一个具有自定义缩放的图像对象。
+title: GetImage
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回带有自定义缩放的图像对象。
 type: docs
 weight: 80
 url: /zh/aspose.slides/islide/getimage/
 ---
 
-## GetImage(float, float) {#getimage_5}
+## GetImage(float, float) {#getimage_5}
 
-返回一个具有自定义缩放的图像对象。
+返回带有自定义缩放的图像对象。
 
 ```csharp
 public IImage GetImage(float scaleX, float scaleY)
 ```
 
-| 参数    | 类型    | 描述                                                          |
-| ------- | ------- | ------------------------------------------------------------- |
-| scaleX  | Single  | 用于在 x 轴方向上缩放此缩略图的值。                       |
-| scaleY  | Single  | 用于在 y 轴方向上缩放此缩略图的值。                       |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| scaleX | Single | 用于在 x 轴方向缩放缩略图的值。 |
+| scaleY | Single | 用于在 y 轴方向缩放缩略图的值。 |
 
 ### 返回值
 
 图像对象 Bitmap
 
-### 参见
+### 另请参见
 
-* 接口 [IImage](../../iimage)
-* 接口 [ISlide](../../islide)
-* 命名空间 [Aspose.Slides](../../islide)
-* 程序集 [Aspose.Slides](../../../)
+* 接口 [IImage](../../iimage)
+* 接口 [ISlide](../../islide)
+* 命名空间 [Aspose.Slides](../../islide)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
 ## GetImage() {#getimage}
 
-返回一个缩略图图像对象（实际大小的 20%）。
+返回缩略图图像对象（实际大小的 20%）。
 
 ```csharp
 public IImage GetImage()
@@ -45,143 +45,143 @@ public IImage GetImage()
 
 图像对象 Bitmap
 
-### 参见
+### 另请参见
 
-* 接口 [IImage](../../iimage)
-* 接口 [ISlide](../../islide)
-* 命名空间 [Aspose.Slides](../../islide)
-* 程序集 [Aspose.Slides](../../../)
+* 接口 [IImage](../../iimage)
+* 接口 [ISlide](../../islide)
+* 命名空间 [Aspose.Slides](../../islide)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
 ## GetImage(Size) {#getimage_6}
 
-返回一个具有指定大小的图像对象。
+返回带有指定大小的图像对象。
 
 ```csharp
 public IImage GetImage(Size imageSize)
 ```
 
-| 参数      | 类型  | 描述                      |
-| --------- | ----- | ------------------------- |
-| imageSize | Size  | 要创建的图像的大小。    |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| imageSize | Size | 要创建的图像的大小。 |
 
 ### 返回值
 
 Bitmap 对象。
 
-### 参见
+### 另请参见
 
-* 接口 [IImage](../../iimage)
-* 接口 [ISlide](../../islide)
-* 命名空间 [Aspose.Slides](../../islide)
-* 程序集 [Aspose.Slides](../../../)
+* 接口 [IImage](../../iimage)
+* 接口 [ISlide](../../islide)
+* 命名空间 [Aspose.Slides](../../islide)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
 ## GetImage(ITiffOptions) {#getimage_4}
 
-返回具有指定参数的缩略图 tiff 位图对象。
+返回带有指定参数的缩略图 tiff 位图对象。
 
 ```csharp
 public IImage GetImage(ITiffOptions options)
 ```
 
-| 参数   | 类型         | 描述          |
-| ------ | ------------ | ------------- |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
 | options | ITiffOptions | Tiff 选项。 |
 
 ### 返回值
 
 图像对象。
 
-### 参见
+### 另请参见
 
-* 接口 [IImage](../../iimage)
-* 接口 [ITiffOptions](../../../aspose.slides.export/itiffoptions)
-* 接口 [ISlide](../../islide)
-* 命名空间 [Aspose.Slides](../../islide)
-* 程序集 [Aspose.Slides](../../../)
+* 接口 [IImage](../../iimage)
+* 接口 [ITiffOptions](../../../aspose.slides.export/itiffoptions)
+* 接口 [ISlide](../../islide)
+* 命名空间 [Aspose.Slides](../../islide)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
 ## GetImage(IRenderingOptions) {#getimage_1}
 
-返回一个缩略图 Bitmap 对象。
+返回缩略图 Bitmap 对象。
 
 ```csharp
 public IImage GetImage(IRenderingOptions options)
 ```
 
-| 参数   | 类型               | 描述                 |
-| ------ | ------------------ | -------------------- |
-| options | IRenderingOptions | 渲染选项。         |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| options | IRenderingOptions | 渲染选项。 |
 
 ### 返回值
 
 Bitmap 对象。
 
-### 参见
+### 另请参见
 
-* 接口 [IImage](../../iimage)
-* 接口 [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
-* 接口 [ISlide](../../islide)
-* 命名空间 [Aspose.Slides](../../islide)
-* 程序集 [Aspose.Slides](../../../)
+* 接口 [IImage](../../iimage)
+* 接口 [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* 接口 [ISlide](../../islide)
+* 命名空间 [Aspose.Slides](../../islide)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
-## GetImage(IRenderingOptions, float, float) {#getimage_2}
+## GetImage(IRenderingOptions, float, float) {#getimage_2}
 
-返回一个具有自定义缩放的缩略图 Bitmap 对象。
+返回带有自定义缩放的缩略图 Bitmap 对象。
 
 ```csharp
 public IImage GetImage(IRenderingOptions options, float scaleX, float scaleY)
 ```
 
-| 参数   | 类型               | 描述                                     |
-| ------ | ------------------ | ---------------------------------------- |
-| options | IRenderingOptions | 渲染选项。                             |
-| scaleX  | Single             | 用于在 x 轴方向上缩放此缩略图的值。  |
-| scaleY  | Single             | 用于在 y 轴方向上缩放此缩略图的值。  |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| options | IRenderingOptions | 渲染选项。 |
+| scaleX | Single | 用于在 x 轴方向缩放缩略图的值。 |
+| scaleY | Single | 用于在 y 轴方向缩放缩略图的值。 |
 
 ### 返回值
 
 Bitmap 对象。
 
-### 参见
+### 另请参见
 
-* 接口 [IImage](../../iimage)
-* 接口 [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
-* 接口 [ISlide](../../islide)
-* 命名空间 [Aspose.Slides](../../islide)
-* 程序集 [Aspose.Slides](../../../)
+* 接口 [IImage](../../iimage)
+* 接口 [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* 接口 [ISlide](../../islide)
+* 命名空间 [Aspose.Slides](../../islide)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
-## GetImage(IRenderingOptions, Size) {#getimage_3}
+## GetImage(IRenderingOptions, Size) {#getimage_3}
 
-返回一个具有指定大小的缩略图 Bitmap 对象。
+返回带有指定大小的缩略图 Bitmap 对象。
 
 ```csharp
 public IImage GetImage(IRenderingOptions options, Size imageSize)
 ```
 
-| 参数   | 类型               | 描述                                    |
-| ------ | ------------------ | --------------------------------------- |
-| options | IRenderingOptions | 渲染选项。                            |
-| imageSize | Size            | 要创建的图像的大小。                |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| options | IRenderingOptions | 渲染选项。 |
+| imageSize | Size | 要创建的图像的大小。 |
 
 ### 返回值
 
 Bitmap 对象。
 
-### 参见
+### 另请参见
 
-* 接口 [IImage](../../iimage)
-* 接口 [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
-* 接口 [ISlide](../../islide)
-* 命名空间 [Aspose.Slides](../../islide)
-* 程序集 [Aspose.Slides](../../../)
+* 接口 [IImage](../../iimage)
+* 接口 [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* 接口 [ISlide](../../islide)
+* 命名空间 [Aspose.Slides](../../islide)
+* 程序集 [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

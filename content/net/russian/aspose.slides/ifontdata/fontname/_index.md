@@ -1,13 +1,13 @@
 ---
 title: FontName
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает название шрифта. Доступно только для чтения String.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ifontdata/fontname/
 ---
 
-## Свойство IFontData.FontName
+## IFontData.FontName свойство
 
 Возвращает название шрифта. Доступно только для чтения String.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ifontdata/fontname/
 public string FontName { get; }
 ```
 
-### Смотрите также
+### См. Также
 
 * интерфейс [IFontData](../../ifontdata)
 * пространство имен [Aspose.Slides](../../ifontdata)

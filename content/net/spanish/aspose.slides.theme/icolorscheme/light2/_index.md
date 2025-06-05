@@ -1,6 +1,6 @@
 ---
 title: Light2
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Segundo color claro en el esquema. Solo lectura IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 140
@@ -15,11 +15,11 @@ Segundo color claro en el esquema. Solo lectura [`IColorFormat`](../../../aspose
 public IColorFormat Light2 { get; }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [IColorFormat](../../../aspose.slides/icolorformat)
 * interfaz [IColorScheme](../../icolorscheme)
 * espacio de nombres [Aspose.Slides.Theme](../../icolorscheme)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

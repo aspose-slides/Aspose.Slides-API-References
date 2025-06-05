@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/gradientstopcollection/clear/
 ---
+
 ## GradientStopCollection.Clear method
 
 Removes all gradient stops from a collection.

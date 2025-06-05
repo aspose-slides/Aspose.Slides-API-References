@@ -1,13 +1,13 @@
 ---
-title: Tamaño
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Size
+second_title: Referencia de la API Aspose.Slides para .NET
 description: Devuelve o establece el tamaño en puntos. Lectura/escritura SizeF.
 type: docs
 weight: 10
 url: /es/aspose.slides/inotessize/size/
 ---
 
-## Propiedad INotesSize.Size
+## INotesSize.Size property
 
 Devuelve o establece el tamaño en puntos. Lectura/escritura SizeF.
 
@@ -15,10 +15,10 @@ Devuelve o establece el tamaño en puntos. Lectura/escritura SizeF.
 public SizeF Size { get; set; }
 ```
 
-### Ver También
+### Vea también
 
-* interfaz [INotesSize](../../inotessize)
-* espacio de nombres [Aspose.Slides](../../inotessize)
-* ensamblado [Aspose.Slides](../../../)
+* interface [INotesSize](../../inotessize)
+* namespace [Aspose.Slides](../../inotessize)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

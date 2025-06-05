@@ -1,7 +1,7 @@
 ---
 title: IBlur
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt einen Weichzeichnereffekt dar, der auf die gesamte Form einschließlich ihrer Füllung angewendet wird. Alle Farbkanäle, einschließlich Alpha, sind betroffen.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt einen Weichzeichnungseffekt dar, der auf die gesamte Form einschließlich ihrer Füllung angewendet wird. Alle Farbkanäle, einschließlich Alpha, sind betroffen.
 type: docs
 weight: 3080
 url: /de/aspose.slides.effects/iblur/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/iblur/
 
 ## IBlur-Schnittstelle
 
-Stellt einen Weichzeichnereffekt dar, der auf die gesamte Form, einschließlich ihrer Füllung, angewendet wird. Alle Farbkanäle, einschließlich Alpha, sind betroffen.
+Stellt einen Weichzeichnungseffekt dar, der auf die gesamte Form angewendet wird, einschließlich ihrer Füllung. Alle Farbkanäle, einschließlich Alpha, sind betroffen.
 
 ```csharp
 public interface IBlur : IAccessiblePVIObject<IBlurEffectiveData>, IImageTransformOperation
@@ -19,10 +19,10 @@ public interface IBlur : IAccessiblePVIObject<IBlurEffectiveData>, IImageTransfo
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iblur/asiaccessiblepviobject) { get; } | Ermöglicht das Abrufen der Basis-IaccessiblePVIObject-Schnittstelle. Nur-lesend [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iblur/asiimagetransformoperation) { get; } | Ermöglicht das Abrufen der Basis-IImageTransformOperation-Schnittstelle. Nur-lesend [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | Bestimmt, ob die Grenzen des Objekts als Ergebnis des Weichzeichnens vergrößert werden sollen. Wahr zeigt an, dass die Grenzen vergrößert werden, während falsch anzeigt, dass sie es nicht werden. Lese-/Schreib-Boolean. |
-| [Radius](../../aspose.slides.effects/iblur/radius) { get; set; } | Gibt den Weichzeichneradius zurück oder setzt ihn. Lese-/Schreib-Doppel. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iblur/asiaccessiblepviobject) { get; } | Ermöglicht den Zugriff auf die grundliegende IAccessiblePVIObject-Schnittstelle. Nur lesbar [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iblur/asiimagetransformoperation) { get; } | Ermöglicht den Zugriff auf die grundliegende IImageTransformOperation-Schnittstelle. Nur lesbar [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | Bestimmt, ob die Grenzen des Objekts aufgrund der Weichzeichnung vergrößert werden sollen. Wahr bedeutet, dass die Grenzen vergrößert werden, während falsch bedeutet, dass dies nicht der Fall ist. Lese-/Schreib-Boolean. |
+| [Radius](../../aspose.slides.effects/iblur/radius) { get; set; } | Gibt den Weichzeichnungsradius zurück oder setzt ihn. Lese-/Schreib-Double. |
 
 ### Siehe auch
 

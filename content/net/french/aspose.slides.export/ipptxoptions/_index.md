@@ -1,6 +1,6 @@
 ---
 title: IPptxOptions
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Représente les options pour enregistrer des présentations OpenXml PPTX PPSX POTX PPTM PPSM POTM.
 type: docs
 weight: 3850
@@ -19,9 +19,9 @@ public interface IPptxOptions : ISaveOptions
 
 | Nom | Description |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ipptxoptions/asisaveoptions) { get; } | Permet d'obtenir l'interface de base ISaveOptions. Lecture seule [`ISaveOptions`](../isaveoptions). |
+| [AsISaveOptions](../../aspose.slides.export/ipptxoptions/asisaveoptions) { get; } | Permet d'obtenir l'interface de base ISaveOptions. En lecture seule [`ISaveOptions`](../isaveoptions). |
 | [Conformance](../../aspose.slides.export/ipptxoptions/conformance) { get; set; } | Spécifie la classe de conformité à laquelle le document de présentation se conforme. La valeur par défaut est Ecma376_2006 |
-| [RefreshThumbnail](../../aspose.slides.export/ipptxoptions/refreshthumbnail) { get; set; } | Spécifie si la miniature de la présentation sera actualisée. Booléen en lecture/écriture. La valeur par défaut est **true**. |
+| [RefreshThumbnail](../../aspose.slides.export/ipptxoptions/refreshthumbnail) { get; set; } | Spécifie si la miniature de la présentation sera mise à jour. Booléen en lecture/écriture. La valeur par défaut est **true**. |
 | [Zip64Mode](../../aspose.slides.export/ipptxoptions/zip64mode) { get; set; } | Spécifie si le format ZIP64 est utilisé pour le document de présentation. La valeur par défaut est IfNecessary |
 
 ### Voir aussi

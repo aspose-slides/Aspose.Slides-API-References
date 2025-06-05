@@ -1,7 +1,7 @@
 ---
 title: Orientation
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit l'orientation de la diapositive. Changer cette valeur échangera les dimensions de la diapositive. Lecture/écriture SlideOrientationaspose.slides/slideorientation.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Renvoie ou définit l'orientation de la diapositive. Modifier cette valeur échangera les dimensions de la diapositive. Lecture/écriture SlideOrientationaspose.slides/slideorientation.
 type: docs
 weight: 10
 url: /fr/aspose.slides/slidesize/orientation/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/slidesize/orientation/
 
 ## Propriété SlideSize.Orientation
 
-Renvoie ou définit l'orientation de la diapositive. Changer cette valeur échangera les dimensions de la diapositive. Lecture/écriture [`SlideOrientation`](../../slideorientation).
+Renvoie ou définit l'orientation de la diapositive. Modifier cette valeur échangera les dimensions de la diapositive. Lecture/écriture [`SlideOrientation`](../../slideorientation).
 
 ```csharp
 public SlideOrientation Orientation { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [SlideOrientation](../../slideorientation)
 * class [SlideSize](../../slidesize)

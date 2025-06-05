@@ -1,7 +1,7 @@
 ---
 title: ClassId
-second_title: Référence API d'Aspose.Slides pour .NET
-description: Obtient l'identifiant de classe de ce contrôle. Guid en lecture seule.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Récupère l'identifiant de classe de ce contrôle. Guid en lecture seule.
 type: docs
 weight: 30
 url: /fr/aspose.slides/icontrol/classid/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/icontrol/classid/
 
 ## Propriété IControl.ClassId
 
-Obtient l'identifiant de classe de ce contrôle. Guid en lecture seule.
+Récupère l'identifiant de classe de ce contrôle. Guid en lecture seule.
 
 ```csharp
 public Guid ClassId { get; }

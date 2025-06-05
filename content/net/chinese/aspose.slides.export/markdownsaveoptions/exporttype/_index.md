@@ -7,7 +7,7 @@ weight: 30
 url: /zh/aspose.slides.export/markdownsaveoptions/exporttype/
 ---
 
-## MarkdownSaveOptions.ExportType属性
+## MarkdownSaveOptions.ExportType 属性
 
 指定用于转换演示文稿的markdown规范。默认值为 `TextOnly`。
 
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.export/markdownsaveoptions/exporttype/
 public MarkdownExportType ExportType { get; set; }
 ```
 
-### 相关内容
+### 参见
 
 * enum [MarkdownExportType](../../markdownexporttype)
 * class [MarkdownSaveOptions](../../markdownsaveoptions)

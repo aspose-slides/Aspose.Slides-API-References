@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides/paragraphformat/spacewithin/
 ---
+
 ## ParagraphFormat.SpaceWithin property
 
 Returns or sets the amount of space between base lines in a paragraph. Positive value means percentage, negative - size in points. No inheritance applied. Read/write Single.

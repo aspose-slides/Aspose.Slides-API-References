@@ -1,7 +1,7 @@
 ---
 title: Delimit
-second_title: Aspose.Slides für .NET API-Referenz
-description: Begrenzt Argumente mit dem angegebenen Trennzeichen
+second_title: Aspose.Slides für .NET API Referenz
+description: Trennt Argumente mit dem angegebenen Trennzeichen
 type: docs
 weight: 80
 url: /de/aspose.slides.mathtext/imathdelimiter/delimit/
@@ -9,15 +9,15 @@ url: /de/aspose.slides.mathtext/imathdelimiter/delimit/
 
 ## IMathDelimiter.Delimit-Methode
 
-Begrenzt Argumente mit dem angegebenen Trennzeichen
+Trennt Argumente mit dem angegebenen Trennzeichen
 
 ```csharp
 public IMathDelimiter Delimit(char separatorCharacter)
 ```
 
-| Parameter          | Typ  | Beschreibung                   |
-|--------------------|------|--------------------------------|
-| separatorCharacter  | Char | Trennzeichen                   |
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| separatorCharacter | Char | Trennzeichen |
 
 ### Rückgabewert
 

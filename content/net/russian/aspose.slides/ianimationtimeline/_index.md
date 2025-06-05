@@ -17,13 +17,13 @@ public interface IAnimationTimeLine
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | Возвращает коллекцию интерактивных последовательностей. Эти последовательности могут содержать только эффекты по "щелчку на фигуре" с указанной целевой фигурой. Только для чтения [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
-| [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | Возвращает основную последовательность, которая может содержать только коллекцию основных эффектов. Только для чтения [`ISequence`](../../aspose.slides.animation/isequence). |
+| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | Возвращает коллекцию интерактивных последовательностей. Эти последовательности могут содержать только эффекты по "клику на фигуру" с указанной целевой фигурой. Только для чтения [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
+| [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | Возвращает главную последовательность, которая может содержать только основную коллекцию эффектов. Только для чтения [`ISequence`](../../aspose.slides.animation/isequence). |
 | [TextAnimationCollection](../../aspose.slides/ianimationtimeline/textanimationcollection) { get; } | Возвращает коллекцию текстовых анимаций. Только для чтения [`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection). |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

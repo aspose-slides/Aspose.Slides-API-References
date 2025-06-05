@@ -1,7 +1,7 @@
 ---
 title: CreatePortionFormat
-second_title: Aspose.Slides for .NET API Reference
-description: 创建新的 IPortionFormat aspose.slides/iportionformat。
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建新的 IPortionFormataspose.slides/iportionformat。
 type: docs
 weight: 40
 url: /zh/aspose.slides/formatfactory/createportionformat/
@@ -19,7 +19,7 @@ public IPortionFormat CreatePortionFormat()
 
 新的部分格式。
 
-### 另见
+### 另请参见
 
 * 接口 [IPortionFormat](../../iportionformat)
 * 类 [FormatFactory](../../formatfactory)

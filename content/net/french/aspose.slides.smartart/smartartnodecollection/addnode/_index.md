@@ -1,15 +1,15 @@
 ---
 title: AddNode
-second_title: Référence API d'Aspose.Slides pour .NET
-description: Ajouter un nouveau nœud ou sous-nœud d'art intelligent.
+second_title: Aspose.Slides pour .NET API Reference
+description: Ajouter un nouveau nœud d'art intelligent ou un sous-nœud.
 type: docs
 weight: 50
 url: /fr/aspose.slides.smartart/smartartnodecollection/addnode/
 ---
 
-## Méthode SmartArtNodeCollection.AddNode
+## SmartArtNodeCollection.AddNode méthode
 
-Ajouter un nouveau nœud ou sous-nœud d'art intelligent.
+Ajouter un nouveau nœud d'art intelligent ou un sous-nœud.
 
 ```csharp
 public ISmartArtNode AddNode()

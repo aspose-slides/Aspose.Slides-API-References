@@ -1,7 +1,7 @@
 ---
 title: X
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit la coordonnée x du coin supérieur gauche de la boîte englobante de la zone de tracé en tant que fraction de la largeur du graphique, de 0 à 1. Lecture/écriture Single.
+description: Renvoie ou définit la coordonnée x du coin supérieur gauche de la zone de tracé comme une fraction de la largeur du graphique, de 0 à 1. Lecture/écriture Simple.
 type: docs
 weight: 130
 url: /fr/aspose.slides.charts/chartplotarea/x/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/chartplotarea/x/
 
 ## Propriété ChartPlotArea.X
 
-Renvoie ou définit la coordonnée x du coin supérieur gauche de la boîte englobante de la zone de tracé en tant que fraction de la largeur du graphique (de 0 à 1). Lecture/écriture Single.
+Renvoie ou définit la coordonnée x du coin supérieur gauche de la zone de tracé comme une fraction de la largeur du graphique (de 0 à 1). Lecture/écriture Simple.
 
 ```csharp
 public float X { get; set; }

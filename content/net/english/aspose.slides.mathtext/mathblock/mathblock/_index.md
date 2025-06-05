@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/mathblock/mathblock/
 ---
+
 ## MathBlock() {#constructor}
 
 Initializes a new instance of the MathBlock class.

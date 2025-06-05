@@ -1,13 +1,13 @@
 ---
 title: CreateBlur
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Crea efecto de desenfoque.
 type: docs
 weight: 90
 url: /es/aspose.slides.effects/iimagetransformoperationfactory/createblur/
 ---
 
-## IImageTransformOperationFactory.CreateBlur método
+## IImageTransformOperationFactory.CreateBlur method
 
 Crea efecto de desenfoque.
 
@@ -26,9 +26,9 @@ Efecto de desenfoque.
 
 ### Véase también
 
-* interfaz [IBlur](../../iblur)
-* interfaz [IImageTransformOperationFactory](../../iimagetransformoperationfactory)
-* espacio de nombres [Aspose.Slides.Effects](../../iimagetransformoperationfactory)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IBlur](../../iblur)
+* interface [IImageTransformOperationFactory](../../iimagetransformoperationfactory)
+* namespace [Aspose.Slides.Effects](../../iimagetransformoperationfactory)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

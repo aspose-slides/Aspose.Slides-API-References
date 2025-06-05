@@ -1,21 +1,21 @@
 ---
-title: 隐藏
-second_title: Aspose.Slides for .NET API 参考
-description: 确定指定幻灯片在幻灯片放映期间是否被隐藏。 可读/可写布尔值。
+title: Hidden
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定指定的幻灯片在幻灯片放映期间是否隐藏。可读/可写布尔值。
 type: docs
 weight: 20
 url: /zh/aspose.slides/slide/hidden/
 ---
 
-## Slide.Hidden 属性
+## Slide.Hidden property
 
-确定指定幻灯片在幻灯片放映期间是否被隐藏。 可读/可写布尔值。
+确定指定的幻灯片在幻灯片放映期间是否隐藏。可读/可写布尔值。
 
 ```csharp
 public bool Hidden { get; set; }
 ```
 
-### 另请参阅
+### See Also
 
 * class [Slide](../../slide)
 * namespace [Aspose.Slides](../../slide)

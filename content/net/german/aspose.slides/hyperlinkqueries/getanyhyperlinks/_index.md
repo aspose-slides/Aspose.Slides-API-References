@@ -1,7 +1,7 @@
 ---
 title: GetAnyHyperlinks
-second_title: Aspose.Slides für .NET API Referenz
-description: Erhalten Sie alle IHyperlinkContainer-Unterobjekte, die nicht null HyperlinkMouseOver enthalten. Mit dem gegebenen IHyperlinkContainer-Objekt können Sie seine Hyperlinks verwalten lesen, aktualisieren oder entfernen. Siehe IHyperlinkContainer-Schnittstelle.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Holen Sie sich alle IHyperlinkContainer-Subobjekte, die nicht null HyperlinkMouseOver enthalten. Mit dem gegebenen IHyperlinkContainer-Objekt können Sie seine Hyperlinks verwalten lesen, aktualisieren oder entfernen. Siehe IHyperlinkContainer-Schnittstelle.
 type: docs
 weight: 10
 url: /de/aspose.slides/hyperlinkqueries/getanyhyperlinks/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/hyperlinkqueries/getanyhyperlinks/
 
 ## HyperlinkQueries.GetAnyHyperlinks-Methode
 
-Erhalten Sie alle IHyperlinkContainer-Unterobjekte, die nicht null HyperlinkMouseOver enthalten. Mit dem gegebenen IHyperlinkContainer-Objekt können Sie seine Hyperlinks verwalten (lesen, aktualisieren oder entfernen). Siehe IHyperlinkContainer-Schnittstelle.
+Holen Sie sich alle IHyperlinkContainer-Subobjekte, die nicht null HyperlinkMouseOver enthalten. Mit dem gegebenen IHyperlinkContainer-Objekt können Sie seine Hyperlinks verwalten (lesen, aktualisieren oder entfernen). Siehe IHyperlinkContainer-Schnittstelle.
 
 ```csharp
 public IList<IHyperlinkContainer> GetAnyHyperlinks()

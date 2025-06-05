@@ -1,7 +1,7 @@
 ---
 title: Dark1
-second_title: Aspose.Slides für .NET API Referenz
-description: Erste dunkle Farbe im Schema. Nur-lesend IColorFormataspose.slides/icolorformat.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Erste dunkle Farbe im Farbschema. Nur-Lese IColorFormataspose.slides/../aspose.slides/icolorformat.
 type: docs
 weight: 80
 url: /de/aspose.slides.theme/icolorscheme/dark1/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/icolorscheme/dark1/
 
 ## IColorScheme.Dark1-Eigenschaft
 
-Erste dunkle Farbe im Schema. Nur-lesend [`IColorFormat`](../../../aspose.slides/icolorformat).
+Erste dunkle Farbe im Farbschema. Nur-Lese [`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat Dark1 { get; }

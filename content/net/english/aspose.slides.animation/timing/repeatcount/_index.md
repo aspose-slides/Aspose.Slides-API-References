@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.animation/timing/repeatcount/
 ---
+
 ## Timing.RepeatCount property
 
 Describes the number of times the effect should repeat. Read/write Single.

@@ -1,7 +1,7 @@
 ---
-title: Égal
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si le FillOverlayaspose.slides.effects/filloverlay spécifié est égal au FillOverlayaspose.slides.effects/filloverlay actuel.
+title: Equals
+second_title: Référence API Aspose.Slides pour .NET
+description: Détermine si le FillOverlay spécifié aspose.slides.effects/filloverlay est égal au FillOverlay actuel aspose.slides.effects/filloverlay.
 type: docs
 weight: 30
 url: /fr/aspose.slides.effects/filloverlay/equals/

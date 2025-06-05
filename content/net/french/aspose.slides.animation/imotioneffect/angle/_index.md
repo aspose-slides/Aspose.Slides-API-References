@@ -1,15 +1,15 @@
 ---
 title: Angle
-second_title: Référence API Aspose.Slides pour .NET
-description: Décrit l'angle relatif du chemin de mouvement. Lecture/écriture Single.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Décrit l'angle relatif du chemin de mouvement. Lecture/écriture Unique.
 type: docs
 weight: 10
 url: /fr/aspose.slides.animation/imotioneffect/angle/
 ---
 
-## Propriété IMotionEffect.Angle
+## IMotionEffect.Angle property
 
-Décrit l'angle relatif du chemin de mouvement. Lecture/écriture Single.
+Décrit l'angle relatif du chemin de mouvement. Lecture/écriture Unique.
 
 ```csharp
 public float Angle { get; set; }

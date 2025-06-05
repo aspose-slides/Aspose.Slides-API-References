@@ -1,13 +1,13 @@
 ---
 title: AsIAccessiblePVIObject
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de la API
 description: Permite obtener la interfaz base IAccessiblePVIObject. Solo lectura IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
 type: docs
 weight: 10
 url: /es/aspose.slides.effects/ialphareplace/asiaccessiblepviobject/
 ---
 
-## Propiedad IAlphaReplace.AsIAccessiblePVIObject
+## IAlphaReplace.AsIAccessiblePVIObject propiedad
 
 Permite obtener la interfaz base IAccessiblePVIObject. Solo lectura [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
 
@@ -15,12 +15,12 @@ Permite obtener la interfaz base IAccessiblePVIObject. Solo lectura [`IAccessibl
 public IAccessiblePVIObject<IAlphaReplaceEffectiveData> AsIAccessiblePVIObject { get; }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
 * interfaz [IAlphaReplaceEffectiveData](../../ialphareplaceeffectivedata)
 * interfaz [IAlphaReplace](../../ialphareplace)
 * espacio de nombres [Aspose.Slides.Effects](../../ialphareplace)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: ISectionSlideCollection
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt eine Sammlung von Folien im Abschnitt dar.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt eine Sammlung von Folien in der Sektion dar.
 type: docs
 weight: 6710
 url: /de/aspose.slides/isectionslidecollection/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/isectionslidecollection/
 
 ## ISectionSlideCollection-Schnittstelle
 
-Stellt eine Sammlung von Folien im Abschnitt dar.
+Stellt eine Sammlung von Folien in der Sektion dar.
 
 ```csharp
 public interface ISectionSlideCollection : IGenericCollection<ISlide>
@@ -19,7 +19,7 @@ public interface ISectionSlideCollection : IGenericCollection<ISlide>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.slides/isectionslidecollection/item) { get; } | Gibt das Element am angegebenen Index zurück. Nur lesbar [`ISlide`](../islide). |
+| [Item](../../aspose.slides/isectionslidecollection/item) { get; } | Gibt das Element am angegebenen Index zurück. Nur-Lese [`ISlide`](../islide). |
 
 ### Siehe auch
 

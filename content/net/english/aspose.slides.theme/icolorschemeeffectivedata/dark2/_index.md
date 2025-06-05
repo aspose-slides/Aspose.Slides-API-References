@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.theme/icolorschemeeffectivedata/dark2/
 ---
+
 ## IColorSchemeEffectiveData.Dark2 property
 
 Second dark color in the scheme. Read-only Color.

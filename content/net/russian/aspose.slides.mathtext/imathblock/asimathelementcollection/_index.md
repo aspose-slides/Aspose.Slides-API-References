@@ -7,7 +7,7 @@ weight: 20
 url: /ru/aspose.slides.mathtext/imathblock/asimathelementcollection/
 ---
 
-## Свойство IMathBlock.AsIMathElementCollection
+## IMathBlock.AsIMathElementCollection свойство
 
 Позволяет получить базовый интерфейс IMathElementCollection [`IMathElementCollection`](../../imathelementcollection)
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.mathtext/imathblock/asimathelementcollection/
 public IMathElementCollection AsIMathElementCollection { get; }
 ```
 
-### Также смотрите
+### См. также
 
 * интерфейс [IMathElementCollection](../../imathelementcollection)
 * интерфейс [IMathBlock](../../imathblock)

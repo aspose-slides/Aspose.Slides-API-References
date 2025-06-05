@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.animation/ibehaviorcollection/insert/
 ---
+
 ## IBehaviorCollection.Insert method
 
 Inserts new behavior to a collection at the specified index.

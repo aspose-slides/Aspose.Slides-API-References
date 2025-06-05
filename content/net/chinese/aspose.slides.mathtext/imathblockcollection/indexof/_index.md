@@ -1,6 +1,6 @@
 ---
 title: IndexOf
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 确定集合中特定 IMathBlock 的索引。
 type: docs
 weight: 70

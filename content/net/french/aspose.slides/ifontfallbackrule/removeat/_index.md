@@ -1,6 +1,6 @@
 ---
 title: RemoveAt
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Supprime la police FallBack à l'index spécifié de la liste.
 type: docs
 weight: 90
@@ -26,7 +26,7 @@ public void RemoveAt(int index)
 // Créer une règle contenant une liste de polices.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma, Times New Roman");
 
-// Suppression de Tahoma de la liste
+//Suppression de Tahoma de la liste
 newRule.Remove (2);
 ```
 

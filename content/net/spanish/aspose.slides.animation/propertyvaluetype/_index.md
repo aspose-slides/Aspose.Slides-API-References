@@ -1,7 +1,7 @@
 ---
 title: PropertyValueType
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Representar tipos de valor de propiedad.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Representar tipos de valores de propiedad.
 type: docs
 weight: 680
 url: /es/aspose.slides.animation/propertyvaluetype/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.animation/propertyvaluetype/
 
 ## Enumeración PropertyValueType
 
-Representar tipos de valor de propiedad.
+Representar tipos de valores de propiedad.
 
 ```csharp
 public enum PropertyValueType
@@ -24,9 +24,9 @@ public enum PropertyValueType
 | Number | `1` |  |
 | Color | `2` |  |
 
-### Véase también
+### Vea también
 
-* espacio de nombres [Aspose.Slides.Animation](../../aspose.slides.animation)
-* ensamblado [Aspose.Slides](../../)
+* namespace [Aspose.Slides.Animation](../../aspose.slides.animation)
+* assembly [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

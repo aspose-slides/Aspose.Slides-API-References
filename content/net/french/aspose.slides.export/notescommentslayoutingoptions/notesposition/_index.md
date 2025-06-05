@@ -1,13 +1,13 @@
 ---
 title: NotesPosition
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient ou définit la position des notes sur la page.
 type: docs
 weight: 50
 url: /fr/aspose.slides.export/notescommentslayoutingoptions/notesposition/
 ---
 
-## NotesCommentsLayoutingOptions.NotesPosition propriété
+## NotesCommentsLayoutingOptions.NotesPosition property
 
 Obtient ou définit la position des notes sur la page.
 

@@ -6,6 +6,7 @@ type: docs
 weight: 280
 url: /aspose.slides.charts/chartseries/parentlabellayout/
 ---
+
 ## ChartSeries.ParentLabelLayout property
 
 Represents layout of parent category labels. Applies only to Treemap charts.

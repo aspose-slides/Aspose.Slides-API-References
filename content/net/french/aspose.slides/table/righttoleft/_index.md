@@ -1,6 +1,6 @@
 ---
-title: DroiteÀGauche
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: RightToLeft
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Détermine si le tableau a un ordre de lecture de droite à gauche. Booléen en lecture-écriture.
 type: docs
 weight: 90
@@ -15,7 +15,7 @@ Détermine si le tableau a un ordre de lecture de droite à gauche. Booléen en 
 public bool RightToLeft { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [Table](../../table)
 * espace de noms [Aspose.Slides](../../table)

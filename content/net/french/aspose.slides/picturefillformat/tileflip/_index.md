@@ -1,25 +1,25 @@
 ---
 title: TileFlip
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne le carreau de texture autour de son axe horizontal, vertical ou des deux. Lire/écrire TileFlipaspose.slides/tileflip.
+second_title: Référence API Aspose.Slides pour .NET
+description: Retourne la tuile de texture autour de son axe horizontal, vertical ou les deux. Lire/écrire TileFlipaspose.slides/tileflip.
 type: docs
 weight: 130
 url: /fr/aspose.slides/picturefillformat/tileflip/
 ---
 
-## Propriété PictureFillFormat.TileFlip
+## PictureFillFormat.TileFlip property
 
-Retourne le carreau de texture autour de son axe horizontal, vertical ou des deux. Lire/écrire [`TileFlip`](../../tileflip).
+Retourne la tuile de texture autour de son axe horizontal, vertical ou les deux. Lire/écrire [`TileFlip`](../../tileflip).
 
 ```csharp
 public TileFlip TileFlip { get; set; }
 ```
 
-### Remarques
+### Remarks
 
 Par défaut, c'est NoFlip.
 
-### Exemples
+### Examples
 
 ```csharp
 [C#]
@@ -33,12 +33,12 @@ using (Presentation presentation = new Presentation("demo.pptx"))
     // Définit le mode de remplissage d'image sur Tile
     pictureFillFormat.PictureFillMode = PictureFillMode.Tile;
 
-    // Retourne le carreau de texture autour de son axe vertical.
+    // Retourne la tuile de texture autour de son axe vertical.
     pictureFillFormat.TileFlip = TileFlip.FlipY;
 }
 ```
 
-### Voir Aussi
+### See Also
 
 * enum [TileFlip](../../tileflip)
 * class [PictureFillFormat](../../picturefillformat)

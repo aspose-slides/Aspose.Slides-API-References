@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/ishape/frame/
 ---
+
 ## IShape.Frame property
 
 Returns or sets the shape frame's properties. Read/write [`IShapeFrame`](../../ishapeframe).

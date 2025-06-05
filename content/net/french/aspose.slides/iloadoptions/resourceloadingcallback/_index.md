@@ -1,13 +1,13 @@
 ---
 title: ResourceLoadingCallback
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Reference
 description: Renvoie ou définit l'interface de rappel qui gère le chargement des ressources externes. Lecture/écriture IResourceLoadingCallbackaspose.slides/iresourceloadingcallback.
 type: docs
 weight: 120
 url: /fr/aspose.slides/iloadoptions/resourceloadingcallback/
 ---
 
-## Propriété ILoadOptions.ResourceLoadingCallback
+## ILoadOptions.ResourceLoadingCallback propriété
 
 Renvoie ou définit l'interface de rappel qui gère le chargement des ressources externes. Lecture/écriture [`IResourceLoadingCallback`](../../iresourceloadingcallback).
 

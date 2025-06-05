@@ -1,6 +1,6 @@
 ---
 title: MathFunctionFactory
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Permet de créer une fonction mathématique
 type: docs
 weight: 8470
@@ -30,7 +30,7 @@ public class MathFunctionFactory : IMathFunctionFactory
 
 ### Remarques
 
-Pour la compatibilité avec COM
+Pour la compatibilité COM
 
 ### Voir aussi
 

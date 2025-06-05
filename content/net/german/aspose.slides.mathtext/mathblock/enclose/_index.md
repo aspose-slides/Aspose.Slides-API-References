@@ -1,7 +1,7 @@
 ---
-title: Umschließen
-second_title: Aspose.Sildes für .NET API Referenz
-description: Umschließt die Kindelemente dieses Blocks in angegebenen Zeichen wie Klammern oder anderen Zeichen als Rahmen
+title: Enclose
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Schließt die Kindelemente dieses Blocks in angegebenen Zeichen wie Klammern oder andere Zeichen als Rahmen ein
 type: docs
 weight: 100
 url: /de/aspose.slides.mathtext/mathblock/enclose/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/mathblock/enclose/
 
 ## Enclose(char, char) {#enclose_1}
 
-Umschließt die Kindelemente dieses Blocks in angegebenen Zeichen wie Klammern oder anderen Zeichen als Rahmen
+Schließt die Kindelemente dieses Blocks in angegebenen Zeichen wie Klammern oder andere Zeichen als Rahmen ein
 
 ```csharp
 public override IMathDelimiter Enclose(char beginningCharacter, char endingCharacter)
@@ -22,7 +22,7 @@ public override IMathDelimiter Enclose(char beginningCharacter, char endingChara
 
 ### Rückgabewert
 
-Das Mathe-Element vom Typ [`IMathDelimiter`](../../imathdelimiter), das die angegebenen Zeichen als Rahmen enthält
+Das Mathe-Element vom Typ [`IMathDelimiter`](../../imathdelimiter), das angegebene Zeichen als Rahmen enthält
 
 ### Beispiele
 
@@ -45,7 +45,7 @@ IMathDelimiter delimiter = block.Enclose('[', ']');
 
 ## Enclose(char, char, char) {#enclose_2}
 
-Umschließt die Kindelemente dieses Blocks in angegebenen Zeichen wie Klammern oder anderen als Rahmen und trennt mit einem Trennzeichen
+Schließt die Kindelemente dieses Blocks in angegebenen Zeichen wie Klammern oder andere als Rahmen ein und trennt sie mit einem Trennzeichen
 
 ```csharp
 public IMathDelimiter Enclose(char beginningCharacter, char endingCharacter, 
@@ -60,7 +60,7 @@ public IMathDelimiter Enclose(char beginningCharacter, char endingCharacter,
 
 ### Rückgabewert
 
-Das Mathe-Element vom Typ [`IMathDelimiter`](../../imathdelimiter), das die angegebenen Zeichen als Rahmen und Trennzeichen enthält
+Das Mathe-Element vom Typ [`IMathDelimiter`](../../imathdelimiter), das angegebene Zeichen als Rahmen und Trennzeichen enthält
 
 ### Beispiele
 

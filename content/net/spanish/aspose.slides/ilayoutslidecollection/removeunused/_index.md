@@ -1,13 +1,13 @@
 ---
 title: RemoveUnused
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Elimina las diapositivas de diseño no utilizadas cuyas HasDependingSlides son falsas.
 type: docs
 weight: 40
 url: /es/aspose.slides/ilayoutslidecollection/removeunused/
 ---
 
-## Método ILayoutSlideCollection.RemoveUnused
+## ILayoutSlideCollection.RemoveUnused método
 
 Elimina las diapositivas de diseño no utilizadas (diapositivas de diseño cuyas HasDependingSlides son falsas).
 
@@ -15,7 +15,7 @@ Elimina las diapositivas de diseño no utilizadas (diapositivas de diseño cuyas
 public void RemoveUnused()
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [ILayoutSlideCollection](../../ilayoutslidecollection)
 * espacio de nombres [Aspose.Slides](../../ilayoutslidecollection)

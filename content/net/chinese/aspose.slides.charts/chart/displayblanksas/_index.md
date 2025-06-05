@@ -1,7 +1,7 @@
 ---
 title: DisplayBlanksAs
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置在图表上绘制空单元格的方式。读写 DisplayBlanksAsTypeaspose.slides.charts/displayblanksastype。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置在图表上绘制空单元格的方式。可读/写 DisplayBlanksAsTypeaspose.slides.charts/displayblanksastype。
 type: docs
 weight: 80
 url: /zh/aspose.slides.charts/chart/displayblanksas/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/chart/displayblanksas/
 
 ## Chart.DisplayBlanksAs 属性
 
-返回或设置在图表上绘制空单元格的方式。读写 [`DisplayBlanksAsType`](../../displayblanksastype)。
+返回或设置在图表上绘制空单元格的方式。可读/写 [`DisplayBlanksAsType`](../../displayblanksastype)。
 
 ```csharp
 public DisplayBlanksAsType DisplayBlanksAs { get; set; }

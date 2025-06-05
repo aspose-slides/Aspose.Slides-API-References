@@ -1,7 +1,7 @@
 ---
-title: Insertar
+title: Insert
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Insertar un nuevo comando en la ruta
+description: Insertar nuevo comando en la ruta
 type: docs
 weight: 70
 url: /es/aspose.slides.animation/motionpath/insert/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.animation/motionpath/insert/
 
 ## Método MotionPath.Insert
 
-Insertar un nuevo comando en la ruta
+Insertar nuevo comando en la ruta
 
 ```csharp
 public void Insert(int index, MotionCommandPathType type, PointF[] pts, 
@@ -24,7 +24,7 @@ public void Insert(int index, MotionCommandPathType type, PointF[] pts,
 | ptsType | MotionPathPointsType |  |
 | bRelativeCoord | Boolean |  |
 
-### También vea
+### Ver También
 
 * enum [MotionCommandPathType](../../motioncommandpathtype)
 * enum [MotionPathPointsType](../../motionpathpointstype)

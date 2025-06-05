@@ -1,7 +1,7 @@
 ---
 title: ToArray
-second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt und gibt ein Array mit allen FallBack-Schriften für diese Regel zurück.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Erstellt und gibt ein Array mit allen FallBack-Schriftarten für diese Regel zurück.
 type: docs
 weight: 100
 url: /de/aspose.slides/ifontfallbackrule/toarray/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ifontfallbackrule/toarray/
 
 ## ToArray() {#toarray}
 
-Erstellt und gibt ein Array mit allen FallBack-Schriften für diese Regel zurück.
+Erstellt und gibt ein Array mit allen FallBack-Schriftarten für diese Regel zurück.
 
 ```csharp
 public string[] ToArray()
@@ -23,10 +23,10 @@ Array von String
 
 ```csharp
 [C#]
-// Erstellen Sie eine Regel, die eine Liste von Schriften enthält.
+// Erstelle eine Regel, die eine Liste von Schriftarten enthält.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma, Times New Roman");
 
-//Erhalten Sie alle Schriftarten-Namen als Array
+//Erhalte alle Schriftartnamen als Array
 string[] fontNames = newRule.ToArray();
 ```
 
@@ -40,16 +40,16 @@ string[] fontNames = newRule.ToArray();
 
 ## ToArray(int, int) {#toarray_1}
 
-Erstellt und gibt ein Array mit allen FallBack-Schriften aus dem angegebenen Bereich in der Liste zurück.
+Erstellt und gibt ein Array mit allen FallBack-Schriftarten aus dem angegebenen Bereich in der Liste zurück.
 
 ```csharp
 public string[] ToArray(int startIndex, int count)
 ```
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| startIndex | Int32 | Ein Index der ersten Schriftart, die hinzugefügt werden soll. |
-| count | Int32 | Eine Anzahl von Schriftarten, die hinzugefügt werden sollen. |
+| Parameter  | Typ    | Beschreibung                           |
+|------------|--------|----------------------------------------|
+| startIndex | Int32  | Ein Index der ersten zu hinzufügenden Schriftart. |
+| count      | Int32  | Anzahl der hinzuzufügenden Schriftarten. |
 
 ### Rückgabewert
 
@@ -59,10 +59,10 @@ Array von String
 
 ```csharp
 [C#]
-// Erstellen Sie eine Regel, die eine Liste von Schriften enthält.
+// Erstelle eine Regel, die eine Liste von Schriftarten enthält.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma, Times New Roman");
 
-//Erhalten Sie die letzten zwei Schriftarten-Namen als Array
+//Erhalte die letzten zwei Schriftartnamen als Array
 string[] fontNames = newRule.ToArray(2,2);
 ```
 

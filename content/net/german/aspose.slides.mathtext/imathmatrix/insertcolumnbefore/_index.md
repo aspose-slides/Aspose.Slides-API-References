@@ -1,13 +1,13 @@
 ---
 title: InsertColumnBefore
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Fügen Sie eine neue Spalte vor der angegebenen ein. Zunächst sind alle Elemente in der neuen Spalte null.
 type: docs
 weight: 160
 url: /de/aspose.slides.mathtext/imathmatrix/insertcolumnbefore/
 ---
 
-## IMathMatrix.InsertColumnBefore-Methode
+## IMathMatrix.InsertColumnBefore Methode
 
 Fügen Sie eine neue Spalte vor der angegebenen ein. Zunächst sind alle Elemente in der neuen Spalte null.
 
@@ -15,9 +15,9 @@ Fügen Sie eine neue Spalte vor der angegebenen ein. Zunächst sind alle Element
 public void InsertColumnBefore(int columnIndex)
 ```
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| columnIndex | Int32 | Index der Spalte, vor der eine neue eingefügt werden soll |
+| Parameter   | Typ     | Beschreibung                                                |
+| ----------- | ------- | ---------------------------------------------------------- |
+| columnIndex | Int32   | Index der Spalte, vor der eine neue eingefügt werden soll |
 
 ### Beispiele
 

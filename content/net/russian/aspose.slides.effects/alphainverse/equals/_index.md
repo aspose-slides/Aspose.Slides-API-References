@@ -1,13 +1,13 @@
 ---
-title: Равно
-second_title: Справочник по API Aspose.Slides для .NET
+title: Equals
+second_title: Aspose.Sildes для .NET API Справочник
 description: Определяет, равен ли указанный AlphaInverseaspose.slides.effects/alphainverse текущему AlphaInverseaspose.slides.effects/alphainverse.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/alphainverse/equals/
 ---
 
-## Метод AlphaInverse.Equals
+## AlphaInverse.Equals метод
 
 Определяет, равен ли указанный [`AlphaInverse`](../../alphainverse) текущему [`AlphaInverse`](../../alphainverse).
 
@@ -23,7 +23,7 @@ public override bool Equals(object obj)
 
 true, если объекты равны; в противном случае false.
 
-### См. также
+### Также смотрите
 
 * класс [AlphaInverse](../../alphainverse)
 * пространство имен [Aspose.Slides.Effects](../../alphainverse)

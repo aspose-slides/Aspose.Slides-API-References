@@ -7,7 +7,7 @@ weight: 4370
 url: /de/aspose.slides.export/tiffcompressiontypes/
 ---
 
-## TiffCompressionTypes Aufzählung
+## TiffCompressionTypes-Enumeration
 
 Bietet Optionen, die steuern, wie eine Präsentation im TIFF-Format komprimiert wird.
 
@@ -19,14 +19,14 @@ public enum TiffCompressionTypes
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Default | `0` | Gibt das Standard-Komprimierungsschema (LZW) an. |
+| Default | `0` | Gibt das Standardkomprimierungsschema (LZW) an. |
 | None | `1` | Gibt an, dass keine Komprimierung erfolgt. |
 | CCITT3 | `2` | Gibt das CCITT3-Komprimierungsschema an. |
 | CCITT4 | `3` | Gibt das CCITT4-Komprimierungsschema an. |
 | LZW | `4` | Gibt das LZW-Komprimierungsschema (Standard) an. |
 | RLE | `5` | Gibt das RLE-Komprimierungsschema an. |
 
-### Siehe Auch
+### Siehe auch
 
 * namespace [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)

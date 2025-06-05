@@ -1,15 +1,15 @@
 ---
-title: Distanz
-second_title: Aspose.Slides für .NET API-Referenz
-description: Distanz des Schattens. Schreib-/lesbarer Double.
+title: Distance
+second_title: Aspose.Slides für .NET API Referenz
+description: Abstand des Schattens. Lese-/Schreibwert Double.
 type: docs
 weight: 20
 url: /de/aspose.slides.effects/presetshadow/distance/
 ---
 
-## PresetShadow.Distance-Eigenschaft
+## PresetShadow.Distance Eigenschaft
 
-Distanz des Schattens. Schreib-/lesbarer Double.
+Abstand des Schattens. Lese-/Schreibwert Double.
 
 ```csharp
 public double Distance { get; set; }

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/cellformat/borderbottom/
 ---
+
 ## CellFormat.BorderBottom property
 
 Returns a bottom border line properties object. Read-only [`ILineFormat`](../../ilineformat).

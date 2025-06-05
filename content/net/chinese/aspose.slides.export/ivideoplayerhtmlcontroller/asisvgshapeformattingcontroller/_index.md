@@ -1,7 +1,7 @@
 ---
 title: AsISvgShapeFormattingController
-second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基础 ISvgShapeFormattingController 接口。仅读 ISvgShapeFormattingControlleraspose.slides.export/isvgshapeformattingcontroller。
+second_title: Aspose.Sildes for .NET API 参考
+description: 允许获取基础 ISvgShapeFormattingController 接口。只读 ISvgShapeFormattingControlleraspose.slides.export/isvgshapeformattingcontroller。
 type: docs
 weight: 30
 url: /zh/aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingco
 
 ## IVideoPlayerHtmlController.AsISvgShapeFormattingController 属性
 
-允许获取基础 ISvgShapeFormattingController 接口。仅读 [`ISvgShapeFormattingController`](../../isvgshapeformattingcontroller)。
+允许获取基础 ISvgShapeFormattingController 接口。只读 [`ISvgShapeFormattingController`](../../isvgshapeformattingcontroller)。
 
 ```csharp
 public ISvgShapeFormattingController AsISvgShapeFormattingController { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [ISvgShapeFormattingController](../../isvgshapeformattingcontroller)
 * 接口 [IVideoPlayerHtmlController](../../ivideoplayerhtmlcontroller)

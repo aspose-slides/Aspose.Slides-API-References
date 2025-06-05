@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/mathparagraphfactory/mathparagraphfactory/
 ---
+
 ## MathParagraphFactory constructor
 
 The default constructor.

@@ -6,6 +6,7 @@ type: docs
 weight: 210
 url: /aspose.slides.charts/iaxis/isautomaticminvalue/
 ---
+
 ## IAxis.IsAutomaticMinValue property
 
 Indicates whether the min value is automatically assigned. Read/write Boolean.

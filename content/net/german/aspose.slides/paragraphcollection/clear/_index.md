@@ -1,6 +1,6 @@
 ---
-title: Löschen
-second_title: Aspose.Slides für .NET API-Referenz
+title: Clear
+second_title: Aspose.Slides für .NET API Referenz
 description: Entfernt alle Elemente aus der Sammlung.
 type: docs
 weight: 60
@@ -15,7 +15,7 @@ Entfernt alle Elemente aus der Sammlung.
 public void Clear()
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [ParagraphCollection](../../paragraphcollection)
 * Namespace [Aspose.Slides](../../paragraphcollection)

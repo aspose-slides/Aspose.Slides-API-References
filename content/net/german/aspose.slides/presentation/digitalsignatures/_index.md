@@ -1,15 +1,15 @@
 ---
-title: DigitaleSignaturen
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Sammlung von Signaturen zurück, die zum Signieren der Präsentation verwendet werden. Nur lesbare IDigitalSignatureCollectionaspose.slides/idigitalsignaturecollection.
+title: DigitalSignatures
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Sammlung von Signaturen zurück, die zum Signieren der Präsentation verwendet werden. Schreibhilfe IDigitalSignatureCollectionaspose.slides/idigitalsignaturecollection.
 type: docs
 weight: 80
 url: /de/aspose.slides/presentation/digitalsignatures/
 ---
 
-## Präsentation.DigitaleSignaturen Eigenschaft
+## Presentation.DigitalSignatures-Eigenschaft
 
-Gibt die Sammlung von Signaturen zurück, die zum Signieren der Präsentation verwendet werden. Nur lesbare [`IDigitalSignatureCollection`](../../idigitalsignaturecollection).
+Gibt die Sammlung von Signaturen zurück, die zum Signieren der Präsentation verwendet werden. Schreibgeschützte [`IDigitalSignatureCollection`](../../idigitalsignaturecollection).
 
 ```csharp
 public IDigitalSignatureCollection DigitalSignatures { get; }
@@ -41,10 +41,10 @@ using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IDigitalSignatureCollection](../../idigitalsignaturecollection)
-* Klasse [Präsentation](../../presentation)
+* Klasse [Presentation](../../presentation)
 * Namespace [Aspose.Slides](../../presentation)
 * Assembly [Aspose.Slides](../../../)
 

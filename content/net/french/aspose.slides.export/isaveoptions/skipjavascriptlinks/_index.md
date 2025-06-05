@@ -1,7 +1,7 @@
 ---
 title: SkipJavaScriptLinks
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie s'il faut ignorer les hyperliens avec des appels JavaScript lors de l'enregistrement de la présentation. Booléen en lecture/écriture. La valeur par défaut est false.
+second_title: Référence API Aspose.Slides pour .NET
+description: Spécifie s'il faut ignorer les hyperliens contenant des appels JavaScript lors de l'enregistrement de la présentation. Booléen en lecture/écriture. La valeur par défaut est false.
 type: docs
 weight: 40
 url: /fr/aspose.slides.export/isaveoptions/skipjavascriptlinks/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/isaveoptions/skipjavascriptlinks/
 
 ## Propriété ISaveOptions.SkipJavaScriptLinks
 
-Spécifie s'il faut ignorer les hyperliens avec des appels JavaScript lors de l'enregistrement de la présentation. Booléen en lecture/écriture. La valeur par défaut est **false**.
+Spécifie s'il faut ignorer les hyperliens contenant des appels JavaScript lors de l'enregistrement de la présentation. Booléen en lecture/écriture. La valeur par défaut est **false**.
 
 ```csharp
 public bool SkipJavaScriptLinks { get; set; }
@@ -17,7 +17,7 @@ public bool SkipJavaScriptLinks { get; set; }
 
 ### Remarques
 
-Lorsque cette propriété est définie sur **true**, les hyperliens avec des appels JavaScript seront ignorés lors de l'enregistrement.
+Lorsque cette propriété est définie sur **true**, les hyperliens contenant des appels JavaScript seront ignorés lors de l'enregistrement.
 
 Lorsque cette propriété est définie sur **false**, tous les hyperliens seront enregistrés.
 

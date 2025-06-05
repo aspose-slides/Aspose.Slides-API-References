@@ -1,7 +1,7 @@
 ---
 title: FontSources
-second_title: Aspose.Slides для .NET API Справочник
-description: Создает новые параметры шрифта по умолчанию.
+second_title: Ссылка на API Aspose.Sildes для .NET
+description: Создает новые параметры шрифтов по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides/fontsources/fontsources/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/fontsources/fontsources/
 
 ## Конструктор FontSources
 
-Создает новые параметры шрифта по умолчанию.
+Создает новые параметры шрифтов по умолчанию.
 
 ```csharp
 public FontSources()

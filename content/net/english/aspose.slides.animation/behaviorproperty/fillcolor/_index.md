@@ -6,6 +6,7 @@ type: docs
 weight: 280
 url: /aspose.slides.animation/behaviorproperty/fillcolor/
 ---
+
 ## BehaviorProperty.FillColor property
 
 Represents 'fillcolor' property

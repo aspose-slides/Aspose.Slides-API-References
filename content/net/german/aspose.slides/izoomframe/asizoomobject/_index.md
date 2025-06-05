@@ -1,7 +1,7 @@
 ---
 title: AsIZoomObject
-second_title: Aspose.Slides für .NET API Reference
-description: Gibt die IZoomObject-Schnittstelle zurück.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt das IZoomObject-Interface zurück.
 type: docs
 weight: 10
 url: /de/aspose.slides/izoomframe/asizoomobject/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/izoomframe/asizoomobject/
 
 ## IZoomFrame.AsIZoomObject-Eigenschaft
 
-Gibt die IZoomObject-Schnittstelle zurück.
+Gibt das IZoomObject-Interface zurück.
 
 ```csharp
 public IZoomObject AsIZoomObject { get; }
@@ -21,8 +21,8 @@ Für die COM-Kompatibilität.
 
 ### Siehe auch
 
-* Schnittstelle [IZoomObject](../../izoomobject)
-* Schnittstelle [IZoomFrame](../../izoomframe)
+* Interface [IZoomObject](../../izoomobject)
+* Interface [IZoomFrame](../../izoomframe)
 * Namespace [Aspose.Slides](../../izoomframe)
 * Assembly [Aspose.Slides](../../../)
 

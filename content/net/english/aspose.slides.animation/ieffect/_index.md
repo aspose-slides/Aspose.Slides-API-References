@@ -3,9 +3,10 @@ title: IEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents animation effect.
 type: docs
-weight: 400
+weight: 410
 url: /aspose.slides.animation/ieffect/
 ---
+
 ## IEffect interface
 
 Represents animation effect.
@@ -20,7 +21,9 @@ public interface IEffect
 | --- | --- |
 | [AfterAnimationColor](../../aspose.slides.animation/ieffect/afteranimationcolor) { get; set; } | Defined an after animation color for effect. Read/write [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [AfterAnimationType](../../aspose.slides.animation/ieffect/afteranimationtype) { get; set; } | Defined an after animation type for effect. Read/write [`AfterAnimationType`](./afteranimationtype). |
+| [AnimateTextType](../../aspose.slides.animation/ieffect/animatetexttype) { get; set; } | Defines an animate text type for effect. The shape text can be animated by letter, by word or all at once. Read/write [`AnimateTextType`](./animatetexttype). |
 | [Behaviors](../../aspose.slides.animation/ieffect/behaviors) { get; set; } | Returns collection of behavior for effect. Read/write [`IBehaviorCollection`](../ibehaviorcollection). |
+| [DelayBetweenTextParts](../../aspose.slides.animation/ieffect/delaybetweentextparts) { get; set; } | Defines a delay between animated text parts (words or letters). A positive value specifies the percentage of effect duration. A negative value specifies the delay in seconds. Read/write Single. |
 | [PresetClassType](../../aspose.slides.animation/ieffect/presetclasstype) { get; set; } | Defines class of effect. Read/write [`EffectPresetClassType`](../effectpresetclasstype). |
 | [Sequence](../../aspose.slides.animation/ieffect/sequence) { get; } | Returns a sequence for an effect. Read-only [`ISequence`](../isequence). |
 | [Sound](../../aspose.slides.animation/ieffect/sound) { get; set; } | Defined embedded sound for effect. Read/write [`IAudio`](../../aspose.slides/iaudio). |

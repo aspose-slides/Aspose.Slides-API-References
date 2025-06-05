@@ -18,7 +18,7 @@ public ITextStyle OtherStyle { get; }
 ### Voir aussi
 
 * interface [ITextStyle](../../itextstyle)
-* classe [MasterSlide](../../masterslide)
+* class [MasterSlide](../../masterslide)
 * namespace [Aspose.Slides](../../masterslide)
 * assembly [Aspose.Slides](../../../)
 

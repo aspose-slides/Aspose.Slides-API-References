@@ -1,7 +1,7 @@
 ---
 title: IRowCollection
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente la collection de lignes de table.
+second_title: Référence API Aspose.Slides pour .NET
+description: Représente la collection de lignes de tableau.
 type: docs
 weight: 6660
 url: /fr/aspose.slides/irowcollection/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/irowcollection/
 
 ## Interface IRowCollection
 
-Représente la collection de lignes de table.
+Représente la collection de lignes de tableau.
 
 ```csharp
 public interface IRowCollection : IGenericCollection<IRow>
@@ -25,11 +25,11 @@ public interface IRowCollection : IGenericCollection<IRow>
 
 | Nom | Description |
 | --- | --- |
-| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | Crée une copie de la ligne modèle spécifiée et l'insère au bas d'une table. |
-| [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | Crée une copie de la ligne modèle spécifiée et l'insère à la position spécifiée dans une table. |
-| [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | Supprime une ligne à la position spécifiée d'une table. |
+| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | Crée une copie de la ligne modèle spécifiée et l'insère en bas d'un tableau. |
+| [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | Crée une copie de la ligne modèle spécifiée et l'insère à la position spécifiée dans un tableau. |
+| [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | Supprime une ligne à la position spécifiée d'un tableau. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * interface [IRow](../irow)

@@ -1,6 +1,6 @@
 ---
 title: ITabFactory
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Ermöglicht die Erstellung von ITab-Instanzen
 type: docs
 weight: 7000
@@ -21,7 +21,7 @@ public interface ITabFactory
 | --- | --- |
 | [CreateTab](../../aspose.slides/itabfactory/createtab)(double, TabAlignment) | Erstellt eine neue ITab-Instanz. |
 
-### Hinweise
+### Anmerkungen
 
 Für die COM-Kompatibilität.
 

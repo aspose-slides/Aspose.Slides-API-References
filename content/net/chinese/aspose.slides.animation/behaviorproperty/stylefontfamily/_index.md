@@ -1,6 +1,6 @@
 ---
 title: StyleFontFamily
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示 style.fontFamily 属性
 type: docs
 weight: 1060
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/behaviorproperty/stylefontfamily/
 public static BehaviorProperty StyleFontFamily { get; }
 ```
 
-### 另见
+### 参见
 
 * 类 [BehaviorProperty](../../behaviorproperty)
 * 命名空间 [Aspose.Slides.Animation](../../behaviorproperty)

@@ -1,7 +1,7 @@
 ---
 title: SplitTextByColumns
-second_title: Aspose.Slides for .NET API Reference
-description: 将ITextFrameaspose.slides/itextframe的文本内容拆分成一个字符串数组，每个元素对应于框架内的单独文本列。
+second_title: Aspose.Sildes for .NET API Reference
+description: 将ITextFrameaspose.slides/itextframe的文本内容拆分为字符串数组，其中每个元素对应于框架内的一个单独文本列。
 type: docs
 weight: 130
 url: /zh/aspose.slides/itextframe/splittextbycolumns/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/itextframe/splittextbycolumns/
 
 ## ITextFrame.SplitTextByColumns 方法
 
-将[`ITextFrame`](../../itextframe)的文本内容拆分成一个字符串数组，其中每个元素对应于框架内的单独文本列。
+将[`ITextFrame`](../../itextframe)的文本内容拆分为字符串数组，其中每个元素对应于框架内的一个单独文本列。
 
 ```csharp
 public string[] SplitTextByColumns()
@@ -21,18 +21,18 @@ public string[] SplitTextByColumns()
 
 ### 备注
 
-如果文本框不包含多列，则返回的数组将只有一个元素，包含完整文本。空列将表示为数组中的空字符串。
+如果文本框不包含多个列，则返回的数组将包含一个元素，其中包含完整的文本。空列将在数组中表示为空字符串。
 
 ### 示例
 
-以下示例演示了如何使用`SplitTextByColumns`：
+以下示例演示如何使用`SplitTextByColumns`：
 
 ```csharp
 using (Presentation pres = new Presentation("example.pptx"))
 {
-    // 获取幻灯片上的第一个形状并将其转型为ITextFrame
+    // 获取幻灯片上的第一个形状并将其转换为ITextFrame
     ITextFrame textFrame = pres.Slides[0].Shapes[0] as ITextFrame;
-    // 将文本框内容拆分成列
+    // 将文本框内容拆分为列
     string[] columnsText = textFrame.SplitTextByColumns();
     // 将每列的文本打印到控制台
     foreach (string column in columnsText)
@@ -40,7 +40,7 @@ using (Presentation pres = new Presentation("example.pptx"))
 }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [ITextFrame](../../itextframe)
 * 命名空间 [Aspose.Slides](../../itextframe)

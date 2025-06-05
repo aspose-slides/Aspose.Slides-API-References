@@ -15,7 +15,7 @@ Devuelve una raíz de sincronización. Objeto de solo lectura.
 public object SyncRoot { get; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [TabCollection](../../tabcollection)
 * espacio de nombres [Aspose.Slides](../../tabcollection)

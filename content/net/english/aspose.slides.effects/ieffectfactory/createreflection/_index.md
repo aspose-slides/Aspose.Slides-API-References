@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.effects/ieffectfactory/createreflection/
 ---
+
 ## IEffectFactory.CreateReflection method
 
 Creates Reflection effect.

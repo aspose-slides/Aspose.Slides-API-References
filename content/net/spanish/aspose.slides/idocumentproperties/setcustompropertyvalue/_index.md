@@ -72,7 +72,7 @@ public void SetCustomPropertyValue(string name, DateTime value)
 
 ## SetCustomPropertyValue(string, string) {#setcustompropertyvalue_5}
 
-Establece una propiedad personalizada de cadena con nombre.
+Establece una propiedad personalizada de tipo string con nombre.
 
 ```csharp
 public void SetCustomPropertyValue(string name, string value)
@@ -93,7 +93,7 @@ public void SetCustomPropertyValue(string name, string value)
 
 ## SetCustomPropertyValue(string, float) {#setcustompropertyvalue_3}
 
-Establece una propiedad personalizada float con nombre.
+Establece una propiedad personalizada de tipo float con nombre.
 
 ```csharp
 public void SetCustomPropertyValue(string name, float value)
@@ -114,7 +114,7 @@ public void SetCustomPropertyValue(string name, float value)
 
 ## SetCustomPropertyValue(string, double) {#setcustompropertyvalue_1}
 
-Establece una propiedad personalizada double con nombre.
+Establece una propiedad personalizada de tipo double con nombre.
 
 ```csharp
 public void SetCustomPropertyValue(string name, double value)

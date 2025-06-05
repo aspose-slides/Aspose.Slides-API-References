@@ -1,15 +1,15 @@
 ---
 title: IsPasswordProtected
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt an, ob das VBAProject durch ein Passwort zum Anzeigen der Projekteigenschaften geschützt ist. Nur-lesbarer Boolean.
+description: Gibt an, ob das VBAProject durch ein Passwort geschützt ist, um die Projekteigenschaften anzuzeigen. Nur-lesender Boolean.
 type: docs
 weight: 20
 url: /de/aspose.slides.vba/vbaproject/ispasswordprotected/
 ---
 
-## VbaProject.IsPasswordProtected-Eigenschaft
+## VbaProject.IsPasswordProtected Eigenschaft
 
-Gibt an, ob das VBAProject durch ein Passwort zum Anzeigen der Projekteigenschaften geschützt ist. Nur-lesbarer Boolean.
+Gibt an, ob das VBAProject durch ein Passwort geschützt ist, um die Projekteigenschaften anzuzeigen. Nur-lesender Boolean.
 
 ```csharp
 public bool IsPasswordProtected { get; }
@@ -23,7 +23,7 @@ using (var presentation = new Presentation(path + "demo.pptm"))
 {
     if (presentation.VbaProject.IsPasswordProtected)
         Console.WriteLine("Das VBAProject '" + presentation.VbaProject.Name + 
-            "' ist durch ein Passwort zum Anzeigen der Projekteigenschaften geschützt.");
+            "' ist durch ein Passwort geschützt, um die Projekteigenschaften anzuzeigen.");
 }
 ```
 

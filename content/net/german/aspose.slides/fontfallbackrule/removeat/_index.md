@@ -1,15 +1,15 @@
 ---
 title: RemoveAt
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Entfernt die FallBack-Schriftart am angegebenen Index der Liste.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Entfernt die FallBack-Schriftart an dem angegebenen Index der Liste.
 type: docs
 weight: 100
 url: /de/aspose.slides/fontfallbackrule/removeat/
 ---
 
-## FontFallBackRule.RemoveAt-Methode
+## FontFallBackRule.RemoveAt Methode
 
-Entfernt die FallBack-Schriftart am angegebenen Index der Liste.
+Entfernt die FallBack-Schriftart an dem angegebenen Index der Liste.
 
 ```csharp
 public void RemoveAt(int index)
@@ -30,7 +30,7 @@ IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS 
 newRule.Remove (2);
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [FontFallBackRule](../../fontfallbackrule)
 * Namespace [Aspose.Slides](../../fontfallbackrule)

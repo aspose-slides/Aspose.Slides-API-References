@@ -1,15 +1,15 @@
 ---
 title: HtmlFormatter
-second_title: Aspose.Slides para .NET Referencia de API
-description: Devuelve o establece la plantilla HTML. Leer/escribir IHtmlFormatteraspose.slides.export/ihtmlformatter.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve o establece la plantilla HTML. Lectura/escritura IHtmlFormatteraspose.slides.export/ihtmlformatter.
 type: docs
 weight: 40
 url: /es/aspose.slides.export/ihtmloptions/htmlformatter/
 ---
 
-## Propiedad IHtmlOptions.HtmlFormatter
+## IHtmlOptions.HtmlFormatter propiedad
 
-Devuelve o establece la plantilla HTML. Leer/escribir [`IHtmlFormatter`](../../ihtmlformatter).
+Devuelve o establece la plantilla HTML. Lectura/escritura [`IHtmlFormatter`](../../ihtmlformatter).
 
 ```csharp
 public IHtmlFormatter HtmlFormatter { get; set; }

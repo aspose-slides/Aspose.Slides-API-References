@@ -1,21 +1,21 @@
 ---
 title: DisplayEquation
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie que l'équation de la ligne de tendance est affichée sur le graphique dans la même étiquette que la valeur Rsquared. Booléen lisible/écrivable.
+description: Spécifie que l'équation de la ligne de tendance est affichée sur le graphique dans la même étiquette que la valeur Rsquared. Booléen en lecture/écriture.
 type: docs
 weight: 30
 url: /fr/aspose.slides.charts/itrendline/displayequation/
 ---
 
-## Propriété ITrendline.DisplayEquation
+## ITrendline.DisplayEquation property
 
-Spécifie que l'équation de la ligne de tendance est affichée sur le graphique (dans la même étiquette que la valeur Rsquared). Booléen lisible/écrivable.
+Spécifie que l'équation de la ligne de tendance est affichée sur le graphique (dans la même étiquette que la valeur Rsquared). Booléen en lecture/écriture.
 
 ```csharp
 public bool DisplayEquation { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ITrendline](../../itrendline)
 * namespace [Aspose.Slides.Charts](../../itrendline)

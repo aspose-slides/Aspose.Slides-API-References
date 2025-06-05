@@ -1,7 +1,7 @@
 ---
 title: NextSlideIndex
-second_title: Aspose.Slides for .NET API 参考
-description: 返回将在当前幻灯片后呈现的幻灯片索引，如果当前正在渲染最后一张幻灯片，则返回 -1。只读 Int32。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回将要在当前幻灯片之后渲染的幻灯片索引，如果当前渲染的是最后一张幻灯片，则返回 -1。只读 Int32。
 type: docs
 weight: 10
 url: /zh/aspose.slides.export/htmlgenerator/nextslideindex/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/htmlgenerator/nextslideindex/
 
 ## HtmlGenerator.NextSlideIndex 属性
 
-返回将在当前幻灯片后呈现的幻灯片索引，如果当前正在渲染最后一张幻灯片，则返回 -1。只读 Int32。
+返回将要在当前幻灯片之后渲染的幻灯片索引，如果当前渲染的是最后一张幻灯片，则返回 -1。只读 Int32。
 
 ```csharp
 public int NextSlideIndex { get; }

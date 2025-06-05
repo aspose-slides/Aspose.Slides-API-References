@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.lowcode/convert/autobyextension/
 ---
+
 ## Convert.AutoByExtension method
 
 Converts [`Presentation`](../../../aspose.slides/presentation) using the passed output path extension to determine the required export format.

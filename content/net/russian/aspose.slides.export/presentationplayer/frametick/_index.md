@@ -1,7 +1,7 @@
 ---
 title: FrameTick
-second_title: Aspose.Slides для .NET API Reference
-description: Событие кадрового тика. Происходит, когда каждый кадр анимации, созданной с помощью PresentationAnimationsGeneratoraspose.slides.export/presentationanimationsgenerator, генерируется воспроизведением.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Событие таймера кадров. Происходит, когда каждый кадр анимации, созданной PresentationAnimationsGenerator, генерируется проигрывателем.
 type: docs
 weight: 30
 url: /ru/aspose.slides.export/presentationplayer/frametick/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export/presentationplayer/frametick/
 
 ## PresentationPlayer.FrameTick событие
 
-Событие кадрового тика. Происходит, когда каждый кадр анимации, созданной с помощью [`PresentationAnimationsGenerator`](../../presentationanimationsgenerator), генерируется воспроизведением.
+Событие таймера кадров. Происходит, когда каждый кадр анимации, созданной [`PresentationAnimationsGenerator`](../../presentationanimationsgenerator), генерируется проигрывателем.
 
 ```csharp
 public event FrameTickHandler FrameTick;
@@ -34,7 +34,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. также
+### См. Также
 
 * делегат [FrameTickHandler](../../presentationplayer.frametickhandler)
 * класс [PresentationPlayer](../../presentationplayer)

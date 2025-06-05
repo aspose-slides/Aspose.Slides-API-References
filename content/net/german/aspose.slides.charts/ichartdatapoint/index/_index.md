@@ -1,7 +1,7 @@
 ---
 title: Index
 second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, auf welches Kind der Sammlung der Eltern dieser Datenpunkt zutrifft. Lesen Sie UInt32.
+description: Bestimmt, auf welches Kind der Sammlung des Elternteils dieser Datenpunkt zutrifft. Lesen Sie UInt32.
 type: docs
 weight: 80
 url: /de/aspose.slides.charts/ichartdatapoint/index/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/ichartdatapoint/index/
 
 ## IChartDataPoint.Index-Eigenschaft
 
-Bestimmt, auf welches Kind der Sammlung der Eltern dieser Datenpunkt zutrifft. Lesen Sie UInt32.
+Bestimmt, auf welches Kind der Sammlung des Elternteils dieser Datenpunkt zutrifft. Lesen Sie UInt32.
 
 ```csharp
 public uint Index { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IChartDataPoint](../../ichartdatapoint)
 * Namespace [Aspose.Slides.Charts](../../ichartdatapoint)

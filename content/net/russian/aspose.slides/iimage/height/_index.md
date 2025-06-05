@@ -1,13 +1,13 @@
 ---
-title: Высота
-second_title: Справка по API Aspose.Sildes для .NET
+title: Height
+second_title: Aspose.Sildes для .NET API Справочник
 description: Получает высоту изображения в пикселях.
 type: docs
 weight: 10
 url: /ru/aspose.slides/iimage/height/
 ---
 
-## Свойство IImage.Height
+## IImage.Height свойство
 
 Получает высоту изображения в пикселях.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/iimage/height/
 public int Height { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IImage](../../iimage)
 * пространство имен [Aspose.Slides](../../iimage)

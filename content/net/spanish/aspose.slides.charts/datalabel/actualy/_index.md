@@ -1,7 +1,7 @@
 ---
 title: ActualY
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Especifica la parte superior actual del elemento del gráfico en relación con la esquina superior izquierda del gráfico. Llama al método IChart.ValidateChartLayout antes de obtener los valores actuales. Lee Single.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Especifica la parte superior actual del elemento del gráfico en relación con la esquina superior izquierda del gráfico. Llame al método IChart.ValidateChartLayout antes de obtener los valores actuales. Leer un solo.
 type: docs
 weight: 50
 url: /es/aspose.slides.charts/datalabel/actualy/
@@ -9,16 +9,16 @@ url: /es/aspose.slides.charts/datalabel/actualy/
 
 ## Propiedad DataLabel.ActualY
 
-Especifica la parte superior actual del elemento del gráfico en relación con la esquina superior izquierda del gráfico. Llama al método IChart.ValidateChartLayout() antes de obtener los valores actuales. Lee Single.
+Especifica la parte superior actual del elemento del gráfico en relación con la esquina superior izquierda del gráfico. Llame al método IChart.ValidateChartLayout() antes de obtener los valores actuales. Leer un solo.
 
 ```csharp
 public float ActualY { get; }
 ```
 
-### Ver También
+### Véase también
 
-* clase [DataLabel](../../datalabel)
-* espacio de nombres [Aspose.Slides.Charts](../../datalabel)
-* ensamblado [Aspose.Slides](../../../)
+* class [DataLabel](../../datalabel)
+* namespace [Aspose.Slides.Charts](../../datalabel)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

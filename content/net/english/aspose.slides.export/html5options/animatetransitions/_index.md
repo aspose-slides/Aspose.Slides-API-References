@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.export/html5options/animatetransitions/
 ---
+
 ## Html5Options.AnimateTransitions property
 
 Returns or sets transitions animation option. Read/write Boolean.

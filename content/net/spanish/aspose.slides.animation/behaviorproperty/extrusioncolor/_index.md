@@ -15,7 +15,7 @@ Representa la propiedad 'extrusion.color'
 public static BehaviorProperty ExtrusionColor { get; }
 ```
 
-### Ver También
+### Vea También
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)

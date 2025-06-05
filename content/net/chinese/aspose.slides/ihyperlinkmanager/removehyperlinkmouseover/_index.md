@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ihyperlinkmanager/removehyperlinkmouseover/
 public void RemoveHyperlinkMouseOver()
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IHyperlinkManager](../../ihyperlinkmanager)
 * 命名空间 [Aspose.Slides](../../ihyperlinkmanager)

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/ibasetableformateffectivedata/borderleft/
 ---
+
 ## IBaseTableFormatEffectiveData.BorderLeft property
 
 Returns left border line format effective value. Read-only [`ILineFormatEffectiveData`](../../ilineformateffectivedata).

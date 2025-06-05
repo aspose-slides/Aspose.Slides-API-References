@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/textframeformat/keeptextflat/
 ---
+
 ## TextFrameFormat.KeepTextFlat property
 
 Gets or sets keeping text flat even if a 3-D Rotation effect was applied. Read/write Boolean.

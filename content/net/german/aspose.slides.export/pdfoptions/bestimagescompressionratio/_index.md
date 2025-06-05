@@ -1,7 +1,7 @@
 ---
 title: BestImagesCompressionRatio
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt an, ob die effektivste Kompression anstelle der Standardkompression automatisch für jedes Bild ausgewählt werden muss. Wenn auf Boolean.true gesetzt, wird für jedes Bild in der Präsentation der geeignetste Kompressionsalgorithmus ausgewählt, was zu einer kleineren Größe des resultierenden PDF-Dokuments führt. Die Auswahl des besten Bildkompressionsverhältnisses ist rechenintensiv und benötigt zusätzlichen RAM, und diese Option ist standardmäßig auf Boolean.false eingestellt.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt an, ob für jedes Bild automatisch die effektivste Kompression anstelle der Standardkompression ausgewählt werden muss. Wenn auf Boolean.true gesetzt, wird für jedes Bild in der Präsentation der passendste Kompressionsalgorithmus ausgewählt, was zu einer geringeren Größe des resultierenden PDF-Dokuments führen wird. Die Auswahl des besten Bildkompressionsverhältnisses ist rechenintensiv und erfordert zusätzlichen RAM, und diese Option ist standardmäßig auf Boolean.false gesetzt.
 type: docs
 weight: 50
 url: /de/aspose.slides.export/pdfoptions/bestimagescompressionratio/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/pdfoptions/bestimagescompressionratio/
 
 ## PdfOptions.BestImagesCompressionRatio-Eigenschaft
 
-Gibt an, ob die effektivste Kompression (anstelle der Standardkompression) für jedes Bild automatisch ausgewählt werden muss. Wenn auf Boolean.true gesetzt, wird für jedes Bild in der Präsentation der geeignetste Kompressionsalgorithmus ausgewählt, was zu einer kleineren Größe des resultierenden PDF-Dokuments führt. Die Auswahl des besten Bildkompressionsverhältnisses ist rechenintensiv und benötigt zusätzlich RAM, und diese Option ist standardmäßig auf Boolean.false eingestellt.
+Gibt an, ob für jedes Bild automatisch die effektivste Kompression (anstatt der Standardkompression) ausgewählt werden muss. Wenn auf Boolean.true gesetzt, wird für jedes Bild in der Präsentation der passendste Kompressionsalgorithmus ausgewählt, was zu einer geringeren Größe des resultierenden PDF-Dokuments führen wird. Die Auswahl des besten Bildkompressionsverhältnisses ist rechenintensiv und erfordert zusätzlichen RAM, und diese Option ist standardmäßig auf Boolean.false gesetzt.
 
 ```csharp
 public bool BestImagesCompressionRatio { get; set; }

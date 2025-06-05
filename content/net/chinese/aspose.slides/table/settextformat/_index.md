@@ -1,7 +1,7 @@
 ---
-title: 设置文本格式
-second_title: Aspose.Sildes for .NET API 参考
-description: 将定义的部分格式属性设置为所有表格单元格部分。
+title: SetTextFormat
+second_title: Aspose.Sildes for .NET API Reference
+description: 将定义的部分格式属性设置为所有表格单元格的部分。
 type: docs
 weight: 150
 url: /zh/aspose.slides/table/settextformat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/table/settextformat/
 
 ## SetTextFormat(IPortionFormat) {#settextformat_1}
 
-将定义的部分格式属性设置为所有表格单元格部分。
+将定义的部分格式属性设置为所有表格单元格的部分。
 
 ```csharp
 public void SetTextFormat(IPortionFormat source)
@@ -17,9 +17,9 @@ public void SetTextFormat(IPortionFormat source)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | IPortionFormat | 设置必要属性的IPortionFormat对象。 |
+| source | IPortionFormat | 带有必要属性的IPortionFormat对象。 |
 
-### 参见
+### 另见
 
 * 接口 [IPortionFormat](../../iportionformat)
 * 类 [Table](../../table)
@@ -30,7 +30,7 @@ public void SetTextFormat(IPortionFormat source)
 
 ## SetTextFormat(IParagraphFormat) {#settextformat}
 
-将定义的段落格式属性设置为所有表格单元格段落。
+将定义的段落格式属性设置为所有表格单元格的段落。
 
 ```csharp
 public void SetTextFormat(IParagraphFormat source)
@@ -38,9 +38,9 @@ public void SetTextFormat(IParagraphFormat source)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | IParagraphFormat | 设置必要属性的IParagraphFormat对象。 |
+| source | IParagraphFormat | 带有必要属性的IParagraphFormat对象。 |
 
-### 参见
+### 另见
 
 * 接口 [IParagraphFormat](../../iparagraphformat)
 * 类 [Table](../../table)
@@ -51,7 +51,7 @@ public void SetTextFormat(IParagraphFormat source)
 
 ## SetTextFormat(ITextFrameFormat) {#settextformat_2}
 
-将定义的文本框格式属性设置为所有表格单元格文本框。
+将定义的文本框格式属性设置为所有表格单元格的文本框。
 
 ```csharp
 public void SetTextFormat(ITextFrameFormat source)
@@ -59,9 +59,9 @@ public void SetTextFormat(ITextFrameFormat source)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | ITextFrameFormat | 设置必要属性的ITextFrameFormat对象。 |
+| source | ITextFrameFormat | 带有必要属性的ITextFrameFormat对象。 |
 
-### 参见
+### 另见
 
 * 接口 [ITextFrameFormat](../../itextframeformat)
 * 类 [Table](../../table)

@@ -1,7 +1,7 @@
 ---
 title: RotateLocked
 second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob ein sich ändernder Rotationswinkel dieser Form verboten ist. Lese-/Schreib-Boolescher Wert.
+description: Bestimmt, ob ein sich ändernder Drehwinkel dieser Form verboten ist. Lese-/Schreibbare boolesche Variable.
 type: docs
 weight: 80
 url: /de/aspose.slides/iconnectorlock/rotatelocked/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iconnectorlock/rotatelocked/
 
 ## IConnectorLock.RotateLocked-Eigenschaft
 
-Bestimmt, ob ein sich ändernder Rotationswinkel dieser Form verboten ist. Lese-/Schreib-Boolescher Wert.
+Bestimmt, ob ein sich ändernder Drehwinkel dieser Form verboten ist. Lese-/Schreibbare boolesche Variable.
 
 ```csharp
 public bool RotateLocked { get; set; }

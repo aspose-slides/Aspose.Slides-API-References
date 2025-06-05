@@ -7,7 +7,7 @@ weight: 50
 url: /de/aspose.slides.animation/isequence/addeffect/
 ---
 
-## AddEffect(IShape, EffectType, EffectSubtype, EffectTriggerType) {#addeffect_3}
+## AddEffect(IShape, EffectType, EffectSubtype, EffectTriggerType) {#addeffect_3}
 
 Fügen Sie einen neuen Effekt am Ende der Sequenz hinzu.
 
@@ -21,26 +21,26 @@ public IEffect AddEffect(IShape shape, EffectType effectType, EffectSubtype subt
 | shape | IShape | Shape-Objekt [`IShape`](../../../aspose.slides/ishape) zum Hinzufügen eines Effekts |
 | effectType | EffectType | Art eines Animationseffekts [`EffectType`](../../effecttype) |
 | subtype | EffectSubtype | Subtypen des Animationseffekts [`EffectSubtype`](../../effectsubtype) |
-| triggerType | EffectTriggerType | Auslösetyp des Effekts [`EffectTriggerType`](../../effecttriggertype) |
+| triggerType | EffectTriggerType | Auslösertyp des Effekts [`EffectTriggerType`](../../effecttriggertype) |
 
 ### Rückgabewert
 
-Neues Effekt-Objekt [`IEffect`](../../ieffect)
+Neues Effektobjekt [`IEffect`](../../ieffect)
 
 ### Siehe auch
 
 * Schnittstelle [IEffect](../../ieffect)
 * Schnittstelle [IShape](../../../aspose.slides/ishape)
-* Aufzählung [EffectType](../../effecttype)
-* Aufzählung [EffectSubtype](../../effectsubtype)
-* Aufzählung [EffectTriggerType](../../effecttriggertype)
+* Enum [EffectType](../../effecttype)
+* Enum [EffectSubtype](../../effectsubtype)
+* Enum [EffectTriggerType](../../effecttriggertype)
 * Schnittstelle [ISequence](../../isequence)
 * Namespace [Aspose.Slides.Animation](../../isequence)
 * Assembly [Aspose.Slides](../../../)
 
 ---
 
-## AddEffect(IParagraph, EffectType, EffectSubtype, EffectTriggerType) {#addeffect_2}
+## AddEffect(IParagraph, EffectType, EffectSubtype, EffectTriggerType) {#addeffect_2}
 
 Fügen Sie einen neuen Animationseffekt für den Absatz am Ende der Sequenz hinzu.
 
@@ -51,14 +51,14 @@ public IEffect AddEffect(IParagraph paragraph, EffectType effectType, EffectSubt
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| paragraph | IParagraph | Absatz-Objekt [`IParagraph`](../../../aspose.slides/iparagraph) |
+| paragraph | IParagraph | Absatzobjekt [`IParagraph`](../../../aspose.slides/iparagraph) |
 | effectType | EffectType | Art eines Animationseffekts [`EffectType`](../../effecttype) |
 | subtype | EffectSubtype | Subtypen des Animationseffekts [`EffectSubtype`](../../effectsubtype) |
-| triggerType | EffectTriggerType | Auslösetyp des Effekts [`EffectTriggerType`](../../effecttriggertype) |
+| triggerType | EffectTriggerType | Auslösertyp des Effekts [`EffectTriggerType`](../../effecttriggertype) |
 
 ### Rückgabewert
 
-Neues Effekt-Objekt [`IEffect`](../../ieffect)
+Neues Effektobjekt [`IEffect`](../../ieffect)
 
 ### Beispiele
 
@@ -80,18 +80,18 @@ using(Presentation presentation = new Presentation(path + "input.pptx"))
 
 * Schnittstelle [IEffect](../../ieffect)
 * Schnittstelle [IParagraph](../../../aspose.slides/iparagraph)
-* Aufzählung [EffectType](../../effecttype)
-* Aufzählung [EffectSubtype](../../effectsubtype)
-* Aufzählung [EffectTriggerType](../../effecttriggertype)
+* Enum [EffectType](../../effecttype)
+* Enum [EffectSubtype](../../effectsubtype)
+* Enum [EffectTriggerType](../../effecttriggertype)
 * Schnittstelle [ISequence](../../isequence)
 * Namespace [Aspose.Slides.Animation](../../isequence)
 * Assembly [Aspose.Slides](../../../)
 
 ---
 
-## AddEffect(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) {#addeffect}
+## AddEffect(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) {#addeffect}
 
-Fügt den neuen Diagrammeffekt für Kategorien oder Serien am Ende der Sequenz hinzu.
+Fügt den neuen Chart-Animationseffekt für Kategorie oder Serie am Ende der Sequenz hinzu.
 
 ```csharp
 public IEffect AddEffect(IChart chart, EffectChartMajorGroupingType type, int index, 
@@ -100,34 +100,34 @@ public IEffect AddEffect(IChart chart, EffectChartMajorGroupingType type, int in
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| chart | IChart | Diagramm-Objekt [`IChart`](../../../aspose.slides.charts/ichart) |
+| chart | IChart | Chart-Objekt [`IChart`](../../../aspose.slides.charts/ichart) |
 | type | EffectChartMajorGroupingType | Art eines Animationseffekts [`EffectChartMinorGroupingType`](../../effectchartminorgroupingtype) |
 | index | Int32 | Index Int32 |
 | effectType | EffectType | Art eines Animationseffekts [`EffectType`](../../effecttype) |
 | subtype | EffectSubtype | Subtypen des Animationseffekts [`EffectSubtype`](../../effectsubtype) |
-| triggerType | EffectTriggerType | Auslösetyp des Effekts [`EffectTriggerType`](../../effecttriggertype) |
+| triggerType | EffectTriggerType | Auslösertyp des Effekts [`EffectTriggerType`](../../effecttriggertype) |
 
 ### Rückgabewert
 
-Neues Effekt-Objekt [`IEffect`](../../ieffect)
+Neues Effektobjekt [`IEffect`](../../ieffect)
 
 ### Siehe auch
 
 * Schnittstelle [IEffect](../../ieffect)
 * Schnittstelle [IChart](../../../aspose.slides.charts/ichart)
-* Aufzählung [EffectChartMajorGroupingType](../../effectchartmajorgroupingtype)
-* Aufzählung [EffectType](../../effecttype)
-* Aufzählung [EffectSubtype](../../effectsubtype)
-* Aufzählung [EffectTriggerType](../../effecttriggertype)
+* Enum [EffectChartMajorGroupingType](../../effectchartmajorgroupingtype)
+* Enum [EffectType](../../effecttype)
+* Enum [EffectSubtype](../../effectsubtype)
+* Enum [EffectTriggerType](../../effecttriggertype)
 * Schnittstelle [ISequence](../../isequence)
 * Namespace [Aspose.Slides.Animation](../../isequence)
 * Assembly [Aspose.Slides](../../../)
 
 ---
 
-## AddEffect(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) {#addeffect_1}
+## AddEffect(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) {#addeffect_1}
 
-Fügt den neuen Diagrammeffekt für Elemente in Kategorie oder Serie am Ende der Sequenz hinzu.
+Fügt den neuen Chart-Animationseffekt für Elemente in Kategorie oder Serie am Ende der Sequenz hinzu.
 
 ```csharp
 public IEffect AddEffect(IChart chart, EffectChartMinorGroupingType type, int seriesIndex, 
@@ -137,28 +137,28 @@ public IEffect AddEffect(IChart chart, EffectChartMinorGroupingType type, int se
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| chart | IChart | Diagramm-Objekt [`IChart`](../../../aspose.slides.charts/ichart) |
+| chart | IChart | Chart-Objekt [`IChart`](../../../aspose.slides.charts/ichart) |
 | type | EffectChartMinorGroupingType | Art eines Animationseffekts [`EffectChartMinorGroupingType`](../../effectchartminorgroupingtype) |
-| seriesIndex | Int32 | Index der Diagrammreihe Int32 |
+| seriesIndex | Int32 | Index der Chart-Serie Int32 |
 | categoriesIndex | Int32 | Index der Kategorie Int32 |
 | effectType | EffectType | Art eines Animationseffekts [`EffectType`](../../effecttype) |
 | subtype | EffectSubtype | Subtypen des Animationseffekts [`EffectSubtype`](../../effectsubtype) |
-| triggerType | EffectTriggerType | Auslösetyp des Effekts [`EffectTriggerType`](../../effecttriggertype) |
+| triggerType | EffectTriggerType | Auslösertyp des Effekts [`EffectTriggerType`](../../effecttriggertype) |
 
 ### Rückgabewert
 
-Neues Effekt-Objekt [`IEffect`](../../ieffect)
+Neues Effektobjekt [`IEffect`](../../ieffect)
 
 ### Siehe auch
 
 * Schnittstelle [IEffect](../../ieffect)
 * Schnittstelle [IChart](../../../aspose.slides.charts/ichart)
-* Aufzählung [EffectChartMinorGroupingType](../../effectchartminorgroupingtype)
-* Aufzählung [EffectType](../../effecttype)
-* Aufzählung [EffectSubtype](../../effectsubtype)
-* Aufzählung [EffectTriggerType](../../effecttriggertype)
+* Enum [EffectChartMinorGroupingType](../../effectchartminorgroupingtype)
+* Enum [EffectType](../../effecttype)
+* Enum [EffectSubtype](../../effectsubtype)
+* Enum [EffectTriggerType](../../effecttriggertype)
 * Schnittstelle [ISequence](../../isequence)
 * Namespace [Aspose.Slides.Animation](../../isequence)
 * Assembly [Aspose.Slides](../../../)
 
-<!-- DO NOT EDIT: generiert von xmldocmd für Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

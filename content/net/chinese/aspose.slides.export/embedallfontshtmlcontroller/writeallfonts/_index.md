@@ -1,7 +1,7 @@
 ---
 title: WriteAllFonts
-second_title: Aspose.Sildes for .NET API 参考
-description: 写入所有包含在Presentationaspose.slides/presentation中的字体。
+second_title: Aspose.Sildes for .NET API Reference
+description: 写入包含在 Presentationaspose.slides/../aspose.slides/presentation 中的所有字体。
 type: docs
 weight: 20
 url: /zh/aspose.slides.export/embedallfontshtmlcontroller/writeallfonts/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/embedallfontshtmlcontroller/writeallfonts/
 
 ## EmbedAllFontsHtmlController.WriteAllFonts 方法
 
-写入所有包含在 [`Presentation`](../../../aspose.slides/presentation) 中的字体。
+写入包含在 [`Presentation`](../../../aspose.slides/presentation) 中的所有字体。
 
 ```csharp
 public virtual void WriteAllFonts(IHtmlGenerator generator, IPresentation presentation)
@@ -20,7 +20,7 @@ public virtual void WriteAllFonts(IHtmlGenerator generator, IPresentation presen
 | generator | IHtmlGenerator | 输出对象。 |
 | presentation | IPresentation | 当前正在呈现的演示文稿。 |
 
-### 另请参阅
+### 另见
 
 * 接口 [IHtmlGenerator](../../ihtmlgenerator)
 * 接口 [IPresentation](../../../aspose.slides/ipresentation)

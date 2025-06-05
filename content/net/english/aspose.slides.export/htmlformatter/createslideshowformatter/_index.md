@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.export/htmlformatter/createslideshowformatter/
 ---
+
 ## HtmlFormatter.CreateSlideShowFormatter method
 
 Creates and returns HTML formatter for a simple slide show html which shows slides one after another.

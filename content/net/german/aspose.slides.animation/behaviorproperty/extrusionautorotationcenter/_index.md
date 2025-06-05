@@ -1,7 +1,7 @@
 ---
 title: ExtrusionAutoRotationCenter
 second_title: Aspose.Slides für .NET API Referenz
-description: Stellt die 'extrusion.autorotationcenter'-Eigenschaft dar
+description: Stellt die Eigenschaft extrusion.autorotationcenter dar
 type: docs
 weight: 10
 url: /de/aspose.slides.animation/behaviorproperty/extrusionautorotationcenter/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/behaviorproperty/extrusionautorotationcenter/
 
 ## BehaviorProperty.ExtrusionAutoRotationCenter-Eigenschaft
 
-Stellt die 'extrusion.autorotationcenter'-Eigenschaft dar
+Stellt die Eigenschaft 'extrusion.autorotationcenter' dar
 
 ```csharp
 public static BehaviorProperty ExtrusionAutoRotationCenter { get; }

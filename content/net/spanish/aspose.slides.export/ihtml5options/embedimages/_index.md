@@ -1,15 +1,15 @@
 ---
 title: EmbedImages
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve o establece la opción de incrustación de imágenes. Booleano de lectura/escritura.
+description: Devuelve o establece la opción de incrustar imágenes. Booleano de lectura/escritura.
 type: docs
 weight: 50
 url: /es/aspose.slides.export/ihtml5options/embedimages/
 ---
 
-## Propiedad IHtml5Options.EmbedImages
+## IHtml5Options.EmbedImages property
 
-Devuelve o establece la opción de incrustación de imágenes. Booleano de lectura/escritura.
+Devuelve o establece la opción de incrustar imágenes. Booleano de lectura/escritura.
 
 ```csharp
 public bool EmbedImages { get; set; }
@@ -30,10 +30,10 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### Véase también
+### Vea También
 
 * interfaz [IHtml5Options](../../ihtml5options)
 * espacio de nombres [Aspose.Slides.Export](../../ihtml5options)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

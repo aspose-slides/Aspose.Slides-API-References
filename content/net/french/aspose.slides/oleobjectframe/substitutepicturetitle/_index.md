@@ -1,15 +1,15 @@
 ---
 title: SubstitutePictureTitle
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit le titre de l'icône OleObject. Chaîne en lecture/écriture.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie ou définit le titre pour l'icône OleObject. Chaîne lisible/écriture.
 type: docs
 weight: 130
 url: /fr/aspose.slides/oleobjectframe/substitutepicturetitle/
 ---
 
-## Propriété OleObjectFrame.SubstitutePictureTitle
+## OleObjectFrame.SubstitutePictureTitle propriété
 
-Renvoie ou définit le titre de l'icône OleObject. Chaîne en lecture/écriture.
+Renvoie ou définit le titre pour l'icône OleObject. Chaîne lisible/écriture.
 
 ```csharp
 public string SubstitutePictureTitle { get; set; }

@@ -1,13 +1,13 @@
 ---
-title: Gráfico
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve el gráfico padre. Solo lectura IChartaspose.slides.charts/ichart.
+title: Chart
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Devuelve el gráfico padre. Solo lectura IChart aspose.slides.charts/ichart.
 type: docs
 weight: 10
 url: /es/aspose.slides.charts/legendentryproperties/chart/
 ---
 
-## Propiedad LegendEntryProperties.Chart
+## LegendEntryProperties.Chart propiedad
 
 Devuelve el gráfico padre. Solo lectura [`IChart`](../../ichart).
 
@@ -15,7 +15,7 @@ Devuelve el gráfico padre. Solo lectura [`IChart`](../../ichart).
 public IChart Chart { get; }
 ```
 
-### Véase También
+### Véase también
 
 * interfaz [IChart](../../ichart)
 * clase [LegendEntryProperties](../../legendentryproperties)

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.charts/ichartdatapoint/datapointlevels/
 ---
+
 ## IChartDataPoint.DataPointLevels property
 
 Returns container of data point levels. Applied for Treeamp and Sunburst series. Data point levels indexing is zero-based.

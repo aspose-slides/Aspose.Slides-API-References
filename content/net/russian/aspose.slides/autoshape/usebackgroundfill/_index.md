@@ -1,7 +1,7 @@
 ---
 title: UseBackgroundFill
-second_title: Справка по API Aspose.Sildes для .NET
-description: Определяет, следует ли заполнять эту автоформу фоном слайдов вместо указанного стилем или форматом заполнения. Читаемый/записываемый логический тип.
+second_title: Aspose.Sildes для справки по API .NET
+description: Определяет, следует ли заполнять эту автоформу фоном слайдов, а не заданным стилем или форматом заполнения. Читаемое/записываемое Булево.
 type: docs
 weight: 50
 url: /ru/aspose.slides/autoshape/usebackgroundfill/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/autoshape/usebackgroundfill/
 
 ## AutoShape.UseBackgroundFill свойство
 
-Определяет, следует ли заполнять эту автоформу фоном слайдов вместо указанного стилем или форматом заполнения. Читаемый/записываемый логический тип.
+Определяет, следует ли заполнять эту автоформу фоном слайда, а не заданным стилем или форматом заполнения. Читаемое/записываемое Булево.
 
 ```csharp
 public bool UseBackgroundFill { get; set; }

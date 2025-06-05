@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/iportion/portionformat/
 ---
+
 ## IPortion.PortionFormat property
 
 Returns formatting object which contains explicitly set formatting properties of the text portion with no inheritance applied. Read-only [`IPortionFormat`](../../iportionformat).

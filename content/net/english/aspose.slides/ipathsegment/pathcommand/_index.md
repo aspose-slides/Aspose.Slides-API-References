@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ipathsegment/pathcommand/
 ---
+
 ## IPathSegment.PathCommand property
 
 Path type of the segment

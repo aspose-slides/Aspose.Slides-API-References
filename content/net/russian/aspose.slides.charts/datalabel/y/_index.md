@@ -1,15 +1,15 @@
 ---
 title: Y
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает или задает координату y заголовка как долю высоты графика. Чтение/запись Single.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Возвращает или устанавливает координату y заголовка как долю от высоты графика. Чтение/запись Single.
 type: docs
 weight: 170
 url: /ru/aspose.slides.charts/datalabel/y/
 ---
 
-## Свойство DataLabel.Y
+## DataLabel.Y свойство
 
-Возвращает или задает координату y заголовка как долю высоты графика. Чтение/запись Single.
+Возвращает или устанавливает координату y заголовка как долю от высоты графика. Чтение/запись Single.
 
 ```csharp
 public float Y { get; set; }

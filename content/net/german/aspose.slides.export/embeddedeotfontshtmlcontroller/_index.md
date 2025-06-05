@@ -1,7 +1,7 @@
 ---
 title: EmbeddedEotFontsHtmlController
 second_title: Aspose.Slides für .NET API-Referenz
-description: Die Formatierungscontroller-Klasse, die für das Einbetten von Schriftarten im EOT-Format verwendet wird
+description: Die Formatierungssteuerungsklasse, die zum Einbetten von Schriftarten im EOT-Format verwendet wird
 type: docs
 weight: 3610
 url: /de/aspose.slides.export/embeddedeotfontshtmlcontroller/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/embeddedeotfontshtmlcontroller/
 
 ## EmbeddedEotFontsHtmlController-Klasse
 
-Die Formatierungscontroller-Klasse, die für das Einbetten von Schriftarten im EOT-Format verwendet wird
+Die Formatierungssteuerungsklasse, die zum Einbetten von Schriftarten im EOT-Format verwendet wird
 
 ```csharp
 public class EmbeddedEotFontsHtmlController : IEmbeddedEotFontsHtmlController

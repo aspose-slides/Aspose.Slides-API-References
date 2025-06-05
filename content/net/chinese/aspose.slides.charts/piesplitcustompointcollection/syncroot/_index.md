@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/piesplitcustompointcollection/syncroot/
 public object SyncRoot { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * class [PieSplitCustomPointCollection](../../piesplitcustompointcollection)
 * namespace [Aspose.Slides.Charts](../../piesplitcustompointcollection)

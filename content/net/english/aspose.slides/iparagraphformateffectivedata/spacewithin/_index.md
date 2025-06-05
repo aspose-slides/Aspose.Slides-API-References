@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides/iparagraphformateffectivedata/spacewithin/
 ---
+
 ## IParagraphFormatEffectiveData.SpaceWithin property
 
 Returns the amount of space between base lines in a paragraph. Read-only Single.

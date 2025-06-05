@@ -1,5 +1,5 @@
 ---
-title: Effacer
+title: Clear
 second_title: Référence API Aspose.Slides pour .NET
 description: Supprime tous les éléments de la collection.
 type: docs

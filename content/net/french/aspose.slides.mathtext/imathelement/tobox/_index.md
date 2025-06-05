@@ -1,21 +1,21 @@
 ---
 title: ToBox
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Place cet élément dans un groupe logique de boîte non visuelle qui est utilisé pour regrouper les composants d'une équation ou d'une autre instance de texte mathématique. Un objet encadré peut par exemple servir d'émulateur d'opérateur avec ou sans un point d'alignement, servir de point de rupture de ligne ou être regroupé de manière à ne pas permettre des ruptures de ligne à l'intérieur.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Place cet élément dans une boîte non visible regroupement logique qui est utilisée pour regrouper les composants d'une équation ou d'un autre exemple de texte mathématique. Un objet encadré peut par exemple servir d'émulateur d'opérateur avec ou sans point d'alignement, servir de point de saut de ligne ou être regroupé de manière à ne pas permettre de sauts de ligne à l'intérieur.
 type: docs
 weight: 200
 url: /fr/aspose.slides.mathtext/imathelement/tobox/
 ---
 
-## Méthode IMathElement.ToBox
+## IMathElement.ToBox méthode
 
-Place cet élément dans une boîte non visuelle (groupe logique) qui est utilisé pour regrouper les composants d'une équation ou d'une autre instance de texte mathématique. Un objet encadré peut (par exemple) servir d'émulateur d'opérateur avec ou sans un point d'alignement, servir de point de rupture de ligne, ou être regroupé de manière à ne pas permettre des ruptures de ligne à l'intérieur.
+Place cet élément dans une boîte non visible (regroupement logique) qui est utilisée pour regrouper les composants d'une équation ou d'un autre exemple de texte mathématique. Un objet encadré peut (par exemple) servir d'émulateur d'opérateur avec ou sans point d'alignement, servir de point de saut de ligne, ou être regroupé de manière à ne pas permettre de sauts de ligne à l'intérieur.
 
 ```csharp
 public IMathBox ToBox()
 ```
 
-### Valeur de Retour
+### Valeur de retour
 
 Boîte logique avec cet élément placé à l'intérieur
 
@@ -28,7 +28,7 @@ Exemple:
 IMathBox box = new MathematicalText("x:=y").ToBox();
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathBox](../../imathbox)
 * interface [IMathElement](../../imathelement)

@@ -1,7 +1,7 @@
 ---
-title: Kommentare
+title: Comments
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Sammlung von Kommentaren zurück, die von diesem Autor erstellt wurden. Nur Lesezugriff ICommentCollection aspose.slides/icommentcollection.
+description: Gibt die Sammlung von Kommentaren zurück, die von diesem Autor verfasst wurden. Nur lesbare ICommentCollectionaspose.slides/icommentcollection.
 type: docs
 weight: 10
 url: /de/aspose.slides/commentauthor/comments/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/commentauthor/comments/
 
 ## CommentAuthor.Comments-Eigenschaft
 
-Gibt die Sammlung von Kommentaren zurück, die von diesem Autor erstellt wurden. Nur Lesezugriff [`ICommentCollection`](../../icommentcollection).
+Gibt die Sammlung von Kommentaren zurück, die von diesem Autor verfasst wurden. Nur lesbar [`ICommentCollection`](../../icommentcollection).
 
 ```csharp
 public ICommentCollection Comments { get; }

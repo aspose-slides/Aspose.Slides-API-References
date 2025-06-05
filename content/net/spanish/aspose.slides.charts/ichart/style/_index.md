@@ -1,21 +1,21 @@
 ---
-title: Estilo
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve o establece el estilo del gráfico. Lectura/escritura StyleTypeaspose.slides.charts/styletype.
+title: Style
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve o establece el estilo del gráfico. Escritura/lectura StyleTypeaspose.slides.charts/styletype.
 type: docs
 weight: 210
 url: /es/aspose.slides.charts/ichart/style/
 ---
 
-## Propiedad IChart.Style
+## IChart.Style property
 
-Devuelve o establece el estilo del gráfico. Lectura/escritura [`StyleType`](../../styletype).
+Devuelve o establece el estilo del gráfico. Escritura/lectura [`StyleType`](../../styletype).
 
 ```csharp
 public StyleType Style { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * enum [StyleType](../../styletype)
 * interface [IChart](../../ichart)

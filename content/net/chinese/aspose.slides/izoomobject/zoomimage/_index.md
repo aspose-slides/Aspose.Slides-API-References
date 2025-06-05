@@ -1,6 +1,6 @@
 ---
 title: ZoomImage
-second_title: Aspose.Sildes for .NET API参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取或设置缩放对象的图像。读/写 IPPImageaspose.slides/ippimage。
 type: docs
 weight: 60
@@ -17,7 +17,7 @@ public IPPImage ZoomImage { get; set; }
 
 ### 示例
 
-该示例演示了如何更改 Zoom 对象的图像：
+该示例演示了如何更改缩放对象的图像：
 
 ```csharp
 [C#]
@@ -29,7 +29,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [IPPImage](../../ippimage)
 * 接口 [IZoomObject](../../izoomobject)

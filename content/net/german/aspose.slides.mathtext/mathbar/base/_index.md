@@ -1,6 +1,6 @@
 ---
-title: Basis
-second_title: Aspose.Slides für .NET API-Referenz
+title: Base
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Basis-Argument
 type: docs
 weight: 20
@@ -25,7 +25,7 @@ MathBar mathBar = new MathBar(new MathematicalText("x"));
 IMathElement base = mathBar.Base;
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IMathElement](../../imathelement)
 * Klasse [MathBar](../../mathbar)

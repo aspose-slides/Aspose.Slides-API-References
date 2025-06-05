@@ -1,7 +1,7 @@
 ---
 title: SetFooterAndChildFootersVisibility
 second_title: Aspose.Slides für .NET API Referenz
-description: Ändert die Sichtbarkeit des Fußzeilen-Platzhalters der Masterfolie und aller kindlichen Fußzeilen-Platzhalter. Kindliche Platzhalter bedeuten, dass Platzhalter auf abhängigen Layoutfolien und abhängigen Folien enthalten sind. Abhängige Layoutfolien und Folien verwenden und hängen von der Masterfolie ab.
+description: Ändert die Sichtbarkeit des Fußzeilen-Platzhalters der Masterfolie und aller Fußzeilen-Platzhalter der untergeordneten Folien. Untergeordnete Platzhalter bedeuten, dass Platzhalter in abhängigen Layoutfolien und abhängigen Folien enthalten sind. Abhängige Layoutfolien und Folien verwenden und hängen von der Masterfolie ab.
 type: docs
 weight: 40
 url: /de/aspose.slides/masterslideheaderfootermanager/setfooterandchildfootersvisibility/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/masterslideheaderfootermanager/setfooterandchildfootersvi
 
 ## MasterSlideHeaderFooterManager.SetFooterAndChildFootersVisibility-Methode
 
-Ändert die Sichtbarkeit des Fußzeilen-Platzhalters der Masterfolie und aller kindlichen Fußzeilen-Platzhalter. Kindliche Platzhalter bedeuten, dass Platzhalter auf abhängigen Layoutfolien und abhängigen Folien enthalten sind. Abhängige Layoutfolien und Folien verwenden und hängen von der Masterfolie ab.
+Ändert die Sichtbarkeit des Fußzeilen-Platzhalters der Masterfolie und aller Fußzeilen-Platzhalter der untergeordneten Folien. Untergeordnete Platzhalter bedeuten, dass Platzhalter in abhängigen Layoutfolien und abhängigen Folien enthalten sind. Abhängige Layoutfolien und Folien verwenden und hängen von der Masterfolie ab.
 
 ```csharp
 public void SetFooterAndChildFootersVisibility(bool isVisible)
@@ -17,9 +17,9 @@ public void SetFooterAndChildFootersVisibility(bool isVisible)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| isVisible | Boolean | true - macht die Fußzeilen-Platzhalter sichtbar, andernfalls - versteckt sie. |
+| isVisible | Boolean | true - macht einen Fußzeilen-Platzhalter sichtbar, andernfalls - versteckt sie. |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [MasterSlideHeaderFooterManager](../../masterslideheaderfootermanager)
 * Namespace [Aspose.Slides](../../masterslideheaderfootermanager)

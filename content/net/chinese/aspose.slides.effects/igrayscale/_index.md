@@ -1,7 +1,7 @@
 ---
 title: IGrayScale
 second_title: Aspose.Sildes for .NET API Reference
-description: 代表 IImageTransformOperation 接口。
+description: 表示 IImageTransformOperation 接口。
 type: docs
 weight: 3220
 url: /zh/aspose.slides.effects/igrayscale/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/igrayscale/
 
 ## IGrayScale 接口
 
-代表 IImageTransformOperation 接口。
+表示 IImageTransformOperation 接口。
 
 ```csharp
 public interface IGrayScale : IAccessiblePVIObject<IGrayScaleEffectiveData>, 
@@ -20,10 +20,10 @@ public interface IGrayScale : IAccessiblePVIObject<IGrayScaleEffectiveData>,
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/igrayscale/asiaccessiblepviobject) { get; } | 允许获取基础 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/igrayscale/asiaccessiblepviobject) { get; } | 允许获取基本的 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
 | [AsIImageTransformOperation](../../aspose.slides.effects/igrayscale/asiimagetransformoperation) { get; } | 返回 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 接口 [IGrayScaleEffectiveData](../igrayscaleeffectivedata)

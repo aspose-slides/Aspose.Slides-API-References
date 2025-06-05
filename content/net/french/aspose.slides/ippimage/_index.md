@@ -1,6 +1,6 @@
 ---
 title: IPPImage
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Représente une image dans une présentation.
 type: docs
 weight: 6350
@@ -19,14 +19,14 @@ public interface IPPImage
 
 | Nom | Description |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | Retourne une copie des données d'une image. Lecture seule Byte[]. |
-| [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | Retourne un type MIME d'une image, encodé dans [`BinaryData`](./binarydata). Lecture seule String. |
-| [Height](../../aspose.slides/ippimage/height) { get; } | Retourne la hauteur d'une image. Lecture seule Int32. |
-| [Image](../../aspose.slides/ippimage/image) { get; } | Retourne une copie d'une image. Lecture seule [`Image`](./image). |
-| [SvgImage](../../aspose.slides/ippimage/svgimage) { get; set; } | Retourne ou définit l'objet ISvgImage [`ISvgImage`](../isvgimage) |
-| [Width](../../aspose.slides/ippimage/width) { get; } | Retourne la largeur d'une image. Lecture seule Int32. |
-| [X](../../aspose.slides/ippimage/x) { get; } | Retourne un décalage X d'une image. Lecture seule Int32. |
-| [Y](../../aspose.slides/ippimage/y) { get; } | Retourne un décalage Y d'une image. Lecture seule Int32. |
+| [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | Renvoie la copie des données d'une image. Lecture seule Byte[]. |
+| [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | Renvoie un type MIME d'une image, encodé dans [`BinaryData`](./binarydata). Lecture seule String. |
+| [Height](../../aspose.slides/ippimage/height) { get; } | Renvoie une hauteur d'une image. Lecture seule Int32. |
+| [Image](../../aspose.slides/ippimage/image) { get; } | Renvoie la copie d'une image. Lecture seule [`Image`](./image). |
+| [SvgImage](../../aspose.slides/ippimage/svgimage) { get; set; } | Renvoie ou définit l'objet ISvgImage [`ISvgImage`](../isvgimage) |
+| [Width](../../aspose.slides/ippimage/width) { get; } | Renvoie une largeur d'une image. Lecture seule Int32. |
+| [X](../../aspose.slides/ippimage/x) { get; } | Renvoie un décalage X d'une image. Lecture seule Int32. |
+| [Y](../../aspose.slides/ippimage/y) { get; } | Renvoie un décalage Y d'une image. Lecture seule Int32. |
 
 ## Méthodes
 
@@ -36,7 +36,7 @@ public interface IPPImage
 | [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage)(IImage) | Remplace l'image. |
 | [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage_1)(IPPImage) | Remplace l'image. |
 
-### Voir aussi
+### Voir Aussi
 
 * espace de noms [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

@@ -1,6 +1,6 @@
 ---
-title: Verschlüsseln
-second_title: Aspose.Slides für .NET API-Referenz
+title: Encrypt
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Verschlüsselt die Präsentation mit dem angegebenen Passwort.
 type: docs
 weight: 80
@@ -32,7 +32,7 @@ using (Presentation presentation = new Presentation("pres.pptx"))
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [ProtectionManager](../../protectionmanager)
 * Namespace [Aspose.Slides](../../protectionmanager)

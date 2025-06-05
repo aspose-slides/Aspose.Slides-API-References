@@ -1,13 +1,13 @@
 ---
 title: GetActualLabelText
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el texto de la etiqueta actual basado en la configuración de DataLabelFormat o el valor de TextFrameForOverriding.Text.
 type: docs
 weight: 70
 url: /es/aspose.slides.charts/idatalabel/getactuallabeltext/
 ---
 
-## Método IDataLabel.GetActualLabelText
+## IDataLabel.GetActualLabelText método
 
 Devuelve el texto de la etiqueta actual basado en la configuración de DataLabelFormat o el valor de TextFrameForOverriding.Text.
 
@@ -15,11 +15,11 @@ Devuelve el texto de la etiqueta actual basado en la configuración de DataLabel
 public string GetActualLabelText()
 ```
 
-### Valor de retorno
+### Valor de Retorno
 
 Texto de la etiqueta actual String
 
-### Véase también
+### Véase También
 
 * interfaz [IDataLabel](../../idatalabel)
 * espacio de nombres [Aspose.Slides.Charts](../../idatalabel)

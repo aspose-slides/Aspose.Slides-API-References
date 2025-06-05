@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.theme/icolorscheme/followedhyperlink/
 ---
+
 ## IColorScheme.FollowedHyperlink property
 
 Color for the visited hyperlinks. Read-only [`IColorFormat`](../../../aspose.slides/icolorformat).

@@ -6,6 +6,7 @@ type: docs
 weight: 230
 url: /aspose.slides/effectformat/enablereflectioneffect/
 ---
+
 ## EffectFormat.EnableReflectionEffect method
 
 Enables reflection effect.

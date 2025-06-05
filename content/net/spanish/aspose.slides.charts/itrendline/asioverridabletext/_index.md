@@ -15,15 +15,15 @@ Devuelve la interfaz IOverridableText. Solo lectura [`IOverridableText`](../../i
 public IOverridableText AsIOverridableText { get; }
 ```
 
-### Observaciones
+### Comentarios
 
 Para compatibilidad con COM.
 
 ### Véase también
 
-* interfaz [IOverridableText](../../ioverridabletext)
-* interfaz [ITrendline](../../itrendline)
-* espacio de nombres [Aspose.Slides.Charts](../../itrendline)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IOverridableText](../../ioverridabletext)
+* interfaz [ITrendline](../../itrendline)
+* espacio de nombres [Aspose.Slides.Charts](../../itrendline)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

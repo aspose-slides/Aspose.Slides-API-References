@@ -1,7 +1,7 @@
 ---
 title: NumberedBulletStyle
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Stil einer nummerierten Aufzählung zurück. Nur-Lese-Property NumberedBulletStyleaspose.slides/numberedbulletstyle.
+description: Gibt den Stil eines nummerierten Aufzählungszeichens zurück. Nur-lesbar NumberedBulletStyleaspose.slides/numberedbulletstyle.
 type: docs
 weight: 90
 url: /de/aspose.slides/ibulletformateffectivedata/numberedbulletstyle/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ibulletformateffectivedata/numberedbulletstyle/
 
 ## IBulletFormatEffectiveData.NumberedBulletStyle-Eigenschaft
 
-Gibt den Stil einer nummerierten Aufzählung zurück. Nur-Lese-Property [`NumberedBulletStyle`](../../numberedbulletstyle).
+Gibt den Stil eines nummerierten Aufzählungszeichens zurück. Nur-lesbar [`NumberedBulletStyle`](../../numberedbulletstyle).
 
 ```csharp
 public NumberedBulletStyle NumberedBulletStyle { get; }

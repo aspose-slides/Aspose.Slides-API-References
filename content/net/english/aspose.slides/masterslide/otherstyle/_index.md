@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/masterslide/otherstyle/
 ---
+
 ## MasterSlide.OtherStyle property
 
 Returns the style of an other text. Read-only [`ITextStyle`](../../itextstyle).

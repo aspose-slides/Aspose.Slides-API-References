@@ -1,7 +1,7 @@
 ---
 title: ITrendline
-second_title: Aspose.Sildes для .NET API Справочник
-description: Класс представляет трендовую линию серии графиков
+second_title: Aspose.Sildes for .NET API Reference
+description: Класс представляет трендовую линию серии диаграммы
 type: docs
 weight: 2160
 url: /ru/aspose.slides.charts/itrendline/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/itrendline/
 
 ## Интерфейс ITrendline
 
-Класс представляет трендовую линию серии графиков
+Класс представляет трендовую линию серии диаграммы
 
 ```csharp
 public interface ITrendline : IOverridableText
@@ -17,20 +17,20 @@ public interface ITrendline : IOverridableText
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [AsIOverridableText](../../aspose.slides.charts/itrendline/asioverridabletext) { get; } | Возвращает интерфейс IOverridableText. Только для чтения [`IOverridableText`](../ioverridabletext). |
-| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | Указывает количество категорий (или единиц на диаграмме рассеяния), на которые трендовая линия простирается перед данными для серии, которая подвергается анализу. На диаграммах рассеяния и не рассеяния значение должно быть любым неотрицательным. Чтение/запись Double. |
-| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | Указывает, что уравнение для трендовой линии отображается на графике (в той же метке, что и значение R-квадрат). Чтение/запись Boolean. |
-| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | Указывает, что значение R-квадрат для трендовой линии отображается на графике (в той же метке, что и уравнение). Чтение/запись Boolean. |
+| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | Указывает количество категорий (или единиц на дисперсионной диаграмме), которые трендовая линия простирается перед данными для серии, которая подлежит тренду. На дисперсионных и недисперсионных диаграммах значение должно быть любым неотрицательным значением. Чтение/запись Double. |
+| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | Указывает, что уравнение для трендовой линии отображается на диаграмме (в том же ярлыке, что и значение R-квадрат). Чтение/запись Boolean. |
+| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | Указывает, что R-квадрат значения трендовой линии отображается на диаграмме (в том же ярлыке, что и уравнение). Чтение/запись Boolean. |
 | [Format](../../aspose.slides.charts/itrendline/format) { get; set; } | Представляет формат трендовой линии. Чтение/запись [`IFormat`](../iformat). |
-| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | Указывает количество категорий (или единиц на диаграмме рассеяния), на которые трендовая линия простирается после данных для серии, которая подвергается анализу. На диаграммах рассеяния и не рассеяния значение должно быть любым неотрицательным. Чтение/запись Double. |
-| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | Указывает значение, при котором трендовая линия пересекает ось y. Это свойство поддерживается только когда тип трендовой линии - экспоненциальный, линейный или полином. Чтение/запись Double. |
-| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | Указывает порядок полиномиальной трендовой линии. Оно игнорируется для других типов трендовых линий. Значение должно быть между 2 и 6. Чтение/запись Byte. |
-| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | Указывает период трендовой линии для скользящей средней трендовой линии. Оно игнорируется для других вариантов трендовых линий. Значение должно быть между 2 и 255. Чтение/запись Byte. |
-| [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | Представляет запись легенды, связанную с этой трендовой линией. Только для чтения [`ILegendEntryProperties`](../ilegendentryproperties). |
-| [TrendlineName](../../aspose.slides.charts/itrendline/trendlinename) { get; set; } | Получает или задает название трендовой линии. Чтение/запись String. |
-| [TrendlineType](../../aspose.slides.charts/itrendline/trendlinetype) { get; set; } | Получает или задает тип трендовой линии. Чтение/запись [`TrendlineType`](./trendlinetype). |
+| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | Указывает количество категорий (или единиц на дисперсионной диаграмме), которые трендовая линия простирается после данных для серии, которая подлежит тренду. На дисперсионных и недисперсионных диаграммах значение должно быть любым неотрицательным значением. Чтение/запись Double. |
+| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | Указывает значение, при котором трендовая линия будет пересекать ось y. Это свойство поддерживается только когда тип трендовой линии является эксп, линейным или полиномиальным. Чтение/запись Double. |
+| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | Указывает порядок полиномиальной трендовой линии. Игнорируется для других типов трендовых линий. Значение должно быть между 2 и 6. Чтение/запись Byte. |
+| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | Указывает период трендовой линии для скользящей средней трендовой линии. Игнорируется для других вариантов трендовых линий. Значение должно быть между 2 и 255. Чтение/запись Byte. |
+| [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | Представляет элемент легенды, связанный с этой трендовой линией. Только для чтения [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [TrendlineName](../../aspose.slides.charts/itrendline/trendlinename) { get; set; } | Получает или устанавливает имя трендовой линии. Чтение/запись String. |
+| [TrendlineType](../../aspose.slides.charts/itrendline/trendlinetype) { get; set; } | Получает или устанавливает тип трендовой линии. Чтение/запись [`TrendlineType`](./trendlinetype). |
 
 ### См. также
 

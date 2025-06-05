@@ -1,13 +1,13 @@
 ---
 title: ControlPropertiesCollection
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Une collection de propriétés AcitveX.
 type: docs
 weight: 2620
 url: /fr/aspose.slides/controlpropertiescollection/
 ---
 
-## Classe ControlPropertiesCollection
+## ControlPropertiesCollection class
 
 Une collection de propriétés AcitveX.
 
@@ -29,7 +29,7 @@ public class ControlPropertiesCollection : IControlPropertiesCollection
 | --- | --- |
 | [Add](../../aspose.slides/controlpropertiescollection/add)(string, string) | Ajoute une propriété à la collection. |
 | [Clear](../../aspose.slides/controlpropertiescollection/clear)() | Supprime toutes les propriétés. |
-| [GetEnumerator](../../aspose.slides/controlpropertiescollection/getenumerator)() | Renvoie un énumérateur qui itère à travers la collection. |
+| [GetEnumerator](../../aspose.slides/controlpropertiescollection/getenumerator)() | Renvoie un énumérateur qui parcourt la collection. |
 | [Remove](../../aspose.slides/controlpropertiescollection/remove)(string) | Supprime une propriété avec le nom spécifié. |
 
 ### Voir aussi

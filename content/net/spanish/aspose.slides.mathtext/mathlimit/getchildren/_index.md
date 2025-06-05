@@ -7,7 +7,7 @@ weight: 50
 url: /es/aspose.slides.mathtext/mathlimit/getchildren/
 ---
 
-## Método MathLimit.GetChildren
+## MathLimit.GetChildren método
 
 Obtener elementos hijos
 
@@ -15,11 +15,11 @@ Obtener elementos hijos
 public IMathElement[] GetChildren()
 ```
 
-### Ver También
+### También Véase
 
 * interfaz [IMathElement](../../imathelement)
 * clase [MathLimit](../../mathlimit)
 * espacio de nombres [Aspose.Slides.MathText](../../mathlimit)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

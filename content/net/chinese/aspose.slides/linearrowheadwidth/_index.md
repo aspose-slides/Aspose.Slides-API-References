@@ -1,7 +1,7 @@
 ---
 title: LineArrowheadWidth
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示箭头的宽度。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示箭头宽度。
 type: docs
 weight: 7510
 url: /zh/aspose.slides/linearrowheadwidth/
@@ -24,7 +24,7 @@ public enum LineArrowheadWidth : sbyte
 | Medium | `1` |  |
 | Wide | `2` |  |
 
-### 另请参见
+### 参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

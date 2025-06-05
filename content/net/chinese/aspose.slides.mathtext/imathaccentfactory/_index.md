@@ -1,13 +1,13 @@
 ---
 title: IMathAccentFactory
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 允许创建数学重音
 type: docs
 weight: 7840
 url: /zh/aspose.slides.mathtext/imathaccentfactory/
 ---
 
-## IMathAccentFactory 接口
+## IMathAccentFactory接口
 
 允许创建数学重音
 
@@ -19,14 +19,14 @@ public interface IMathAccentFactory
 
 | 名称 | 描述 |
 | --- | --- |
-| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | 创建一个应用于指定数学元素的数学重音，使用默认的重音字符值 |
-| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | 创建一个应用于指定数学元素的数学重音 |
+| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | 创建一个数学重音，应用于指定的数学元素，使用默认的重音字符值 |
+| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | 创建一个数学重音，应用于指定的数学元素 |
 
-### 备注
+### 注释
 
-为了与 COM 兼容
+为了与COM兼容
 
-### 参见
+### 另请参见
 
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 程序集 [Aspose.Slides](../../)

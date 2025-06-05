@@ -15,7 +15,7 @@ Gibt den HeaderFooter-Manager der Master-Handout-Folie zurück. Schreibgeschütz
 public IMasterHandoutSlideHeaderFooterManager HeaderFooterManager { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMasterHandoutSlideHeaderFooterManager](../../imasterhandoutslideheaderfootermanager)
 * Klasse [MasterHandoutSlide](../../masterhandoutslide)

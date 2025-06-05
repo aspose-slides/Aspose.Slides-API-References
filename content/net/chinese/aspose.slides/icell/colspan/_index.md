@@ -1,7 +1,7 @@
 ---
-title: 列跨度
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回当前单元格将在父表的表网格中跨越的网格列的数量。此属性允许单元格具有合并的外观，因为它们跨越表中其他单元格的垂直边界。只读 Int32。
+title: ColSpan
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回当前单元格将在其父表的表格网格中跨越的网格列数。此属性允许单元格呈现合并的外观，因为它们跨越表中其他单元格的垂直边界。只读 Int32。
 type: docs
 weight: 40
 url: /zh/aspose.slides/icell/colspan/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/icell/colspan/
 
 ## ICell.ColSpan 属性
 
-返回当前单元格将在父表的表网格中跨越的网格列的数量。此属性允许单元格具有合并的外观，因为它们跨越表中其他单元格的垂直边界。只读 Int32。
+返回当前单元格将在其父表的表格网格中跨越的网格列数。此属性允许单元格呈现合并的外观，因为它们跨越表中其他单元格的垂直边界。只读 Int32。
 
 ```csharp
 public int ColSpan { get; }

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.animation/textanimation/buildtype/
 ---
+
 ## TextAnimation.BuildType property
 
 List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation. Read/write [`BuildType`](../../buildtype).

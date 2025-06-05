@@ -1,7 +1,7 @@
 ---
 title: BorderTop
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt ein Eigenschaftenobjekt der oberen Rahmenlinie zurück. Nur-Lese ILineFormataspose.slides/ilineformat.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt ein Objekt mit den Eigenschaften der oberen Rahmenlinie zurück. Nur lesbar ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 60
 url: /de/aspose.slides/icellformat/bordertop/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/icellformat/bordertop/
 
 ## ICellFormat.BorderTop-Eigenschaft
 
-Gibt ein Eigenschaftenobjekt der oberen Rahmenlinie zurück. Nur-Lese [`ILineFormat`](../../ilineformat).
+Gibt ein Objekt mit den Eigenschaften der oberen Rahmenlinie zurück. Nur lesbar [`ILineFormat`](../../ilineformat).
 
 ```csharp
 public ILineFormat BorderTop { get; }

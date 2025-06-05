@@ -1,13 +1,13 @@
 ---
 title: SourceFormat
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt das Quelldateiformat dar.
 type: docs
 weight: 10370
 url: /de/aspose.slides/sourceformat/
 ---
 
-## SourceFormat Aufzählung
+## Aufzählung SourceFormat
 
 Stellt das Quelldateiformat dar.
 

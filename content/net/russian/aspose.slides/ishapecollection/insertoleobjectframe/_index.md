@@ -1,13 +1,13 @@
 ---
 title: InsertOleObjectFrame
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Slides для .NET API Справочник
 description: Создает новый OLE объект и вставляет его в коллекцию по указанному индексу.
 type: docs
 weight: 300
 url: /ru/aspose.slides/ishapecollection/insertoleobjectframe/
 ---
 
-## InsertOleObjectFrame(int, float, float, float, float, IOleEmbeddedDataInfo) {#insertoleobjectframe}
+## InsertOleObjectFrame(int, float, float, float, float, IOleEmbeddedDataInfo) {#insertoleobjectframe}
 
 Создает новый OLE объект и вставляет его в коллекцию по указанному индексу.
 
@@ -18,9 +18,9 @@ public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float w
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс, с нуля, по которому должен быть вставлен OLE объект. |
-| x | Single | Координата X нового OLE фрейма. |
-| y | Single | Координата Y нового OLE фрейма. |
+| index | Int32 | Индекс, начиная с нуля, по которому должен быть вставлен OLE объект. |
+| x | Single | X координата нового OLE фрейма. |
+| y | Single | Y координата нового OLE фрейма. |
 | width | Single | Ширина нового OLE фрейма. |
 | height | Single | Высота нового OLE фрейма. |
 | dataInfo | IOleEmbeddedDataInfo | Информация о встроенных данных [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |
@@ -29,7 +29,7 @@ public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float w
 
 Созданный OLE объект.
 
-### См. также
+### Смотрите также
 
 * интерфейс [IOleObjectFrame](../../ioleobjectframe)
 * интерфейс [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo)
@@ -39,7 +39,7 @@ public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float w
 
 ---
 
-## InsertOleObjectFrame(int, float, float, float, float, string, string) {#insertoleobjectframe_1}
+## InsertOleObjectFrame(int, float, float, float, float, string, string) {#insertoleobjectframe_1}
 
 Создает новый OLE объект и вставляет его в коллекцию по указанному индексу.
 
@@ -50,9 +50,9 @@ public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float w
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс, с нуля, по которому должен быть вставлен OLE объект. |
-| x | Single | Координата X нового OLE фрейма. |
-| y | Single | Координата Y нового OLE фрейма. |
+| index | Int32 | Индекс, начиная с нуля, по которому должен быть вставлен OLE объект. |
+| x | Single | X координата нового OLE фрейма. |
+| y | Single | Y координата нового OLE фрейма. |
 | width | Single | Ширина нового OLE фрейма. |
 | height | Single | Высота нового OLE фрейма. |
 | className | String | Имя OLE класса. |
@@ -62,7 +62,7 @@ public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float w
 
 Созданный OLE объект.
 
-### См. также
+### Смотрите также
 
 * интерфейс [IOleObjectFrame](../../ioleobjectframe)
 * интерфейс [IShapeCollection](../../ishapecollection)

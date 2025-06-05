@@ -1,7 +1,7 @@
 ---
 title: ShowSlideNumber
-second_title: Aspose.Slides für .NET API-Referenz
-description: Legt fest, ob das generierte Dokument die Nummer jeder Folie anzeigen soll oder nicht. Standard ist false.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt an, ob das generierte Dokument die Nummer jeder Folie anzeigen soll oder nicht. Standard ist false.
 type: docs
 weight: 110
 url: /de/aspose.slides.export/markdownsaveoptions/showslidenumber/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/markdownsaveoptions/showslidenumber/
 
 ## MarkdownSaveOptions.ShowSlideNumber-Eigenschaft
 
-Lässt festlegen, ob das generierte Dokument die Nummer jeder Folie anzeigen soll oder nicht. Standard ist `false`.
+Gibt an, ob das generierte Dokument die Nummer jeder Folie anzeigen soll oder nicht. Standard ist `false`.
 
 ```csharp
 public bool ShowSlideNumber { get; set; }

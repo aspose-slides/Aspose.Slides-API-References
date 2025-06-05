@@ -19,8 +19,8 @@ public interface IFilterEffect : IBehavior
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/ifiltereffect/asibehavior) { get; } | Ermöglicht den Zugriff auf die grundlegende IBehavior-Schnittstelle. Nur gelesen [`IBehavior`](../ibehavior). |
-| [Reveal](../../aspose.slides.animation/ifiltereffect/reveal) { get; set; } | Stellt dar, dass der Effekt mit Verhalten offenbaren muss (ein/aus). Lese-/Schreibzugriff [`FilterEffectRevealType`](../filtereffectrevealtype). |
+| [AsIBehavior](../../aspose.slides.animation/ifiltereffect/asibehavior) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IBehavior. Nur-Lese [`IBehavior`](../ibehavior). |
+| [Reveal](../../aspose.slides.animation/ifiltereffect/reveal) { get; set; } | Stellt dar, dass der Effekt mit Verhalten offenbart werden muss (ein/aus) Lese-/Schreibzugriff [`FilterEffectRevealType`](../filtereffectrevealtype). |
 | [Subtype](../../aspose.slides.animation/ifiltereffect/subtype) { get; set; } | Stellt den Subtyp des Filtereffekts dar. Lese-/Schreibzugriff [`FilterEffectSubtype`](../filtereffectsubtype). |
 | [Type](../../aspose.slides.animation/ifiltereffect/type) { get; set; } | Stellt den Typ des Filtereffekts dar. Lese-/Schreibzugriff [`FilterEffectType`](../filtereffecttype). |
 

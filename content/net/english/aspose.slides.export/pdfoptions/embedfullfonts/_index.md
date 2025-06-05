@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.export/pdfoptions/embedfullfonts/
 ---
+
 ## PdfOptions.EmbedFullFonts property
 
 Determines if all characters of font should be embedded or only used subset. Read/write Boolean.

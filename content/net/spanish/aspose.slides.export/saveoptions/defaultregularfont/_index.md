@@ -1,7 +1,7 @@
 ---
 title: DefaultRegularFont
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve o establece la fuente utilizada en caso de que no se encuentre la fuente de origen. Cadena de lectura/escritura.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Devuelve o establece la fuente utilizada en caso de que no se encuentre la fuente fuente. Cadena de lectura y escritura.
 type: docs
 weight: 10
 url: /es/aspose.slides.export/saveoptions/defaultregularfont/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.export/saveoptions/defaultregularfont/
 
 ## Propiedad SaveOptions.DefaultRegularFont
 
-Devuelve o establece la fuente utilizada en caso de que no se encuentre la fuente de origen. Cadena de lectura/escritura.
+Devuelve o establece la fuente utilizada en caso de que no se encuentre la fuente fuente. Cadena de lectura y escritura.
 
 ```csharp
 public string DefaultRegularFont { get; set; }
@@ -34,10 +34,10 @@ using (Presentation pres = new Presentation("SomePresentation.pptx"))
 }
 ```
 
-### Ver También
+### Véase también
 
 * clase [SaveOptions](../../saveoptions)
 * espacio de nombres [Aspose.Slides.Export](../../saveoptions)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

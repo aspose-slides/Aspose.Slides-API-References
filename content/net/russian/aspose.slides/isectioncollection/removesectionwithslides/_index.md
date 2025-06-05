@@ -1,6 +1,6 @@
 ---
 title: RemoveSectionWithSlides
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Sildes для .NET API справочник
 description: Удалить секцию и слайды, содержащиеся в секции.
 type: docs
 weight: 80
@@ -19,7 +19,7 @@ public void RemoveSectionWithSlides(ISection section)
 | --- | --- | --- |
 | section | ISection | Секция, которую нужно удалить из коллекции. |
 
-### См. Также
+### См. также
 
 * интерфейс [ISection](../../isection)
 * интерфейс [ISectionCollection](../../isectioncollection)

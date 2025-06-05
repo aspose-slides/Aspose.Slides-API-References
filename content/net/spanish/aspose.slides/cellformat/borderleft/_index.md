@@ -17,9 +17,9 @@ public ILineFormat BorderLeft { get; }
 
 ### Véase también
 
-* interfaz [ILineFormat](../../ilineformat)
-* clase [CellFormat](../../cellformat)
-* espacio de nombres [Aspose.Slides](../../cellformat)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [ILineFormat](../../ilineformat)
+* clase [CellFormat](../../cellformat)
+* espacio de nombres [Aspose.Slides](../../cellformat)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

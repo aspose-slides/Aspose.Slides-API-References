@@ -1,7 +1,7 @@
 ---
 title: SkewHorizontal
-second_title: Aspose.Slides for .NET API 参考
-description: 指定水平方向的倾斜角度。可读/写 Double。
+second_title: Aspose.Slides for .NET API Reference
+description: 指定水平倾斜角度。可读/写 Double。
 type: docs
 weight: 130
 url: /zh/aspose.slides.effects/ireflection/skewhorizontal/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/ireflection/skewhorizontal/
 
 ## IReflection.SkewHorizontal 属性
 
-指定水平方向的倾斜角度。可读/写 Double。
+指定水平倾斜角度。可读/写 Double。
 
 ```csharp
 public double SkewHorizontal { get; set; }

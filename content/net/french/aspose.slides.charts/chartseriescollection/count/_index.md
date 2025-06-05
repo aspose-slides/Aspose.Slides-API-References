@@ -1,7 +1,7 @@
 ---
-title: Compter
-second_title: Référence API Aspose.Sildes pour .NET
-description: Renvoie le nombre d'objets dans la collection. Lecture seule Int32.
+title: Count
+second_title: Aspose.Slides pour .NET Référence API
+description: Retourne un nombre d'objets dans la collection. En lecture seule Int32.
 type: docs
 weight: 10
 url: /fr/aspose.slides.charts/chartseriescollection/count/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/chartseriescollection/count/
 
 ## Propriété ChartSeriesCollection.Count
 
-Renvoie le nombre d'objets dans la collection. Lecture seule Int32.
+Retourne un nombre d'objets dans la collection. En lecture seule Int32.
 
 ```csharp
 public int Count { get; }

@@ -1,13 +1,13 @@
 ---
 title: GetCustomPropertyName
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API Aspose.Slides para .NET
 description: Devuelve un nombre de propiedad personalizada en el índice especificado.
 type: docs
 weight: 420
 url: /es/aspose.slides/documentproperties/getcustompropertyname/
 ---
 
-## Método DocumentProperties.GetCustomPropertyName
+## DocumentProperties.GetCustomPropertyName método
 
 Devuelve un nombre de propiedad personalizada en el índice especificado.
 
@@ -19,7 +19,7 @@ public string GetCustomPropertyName(int index)
 | --- | --- | --- |
 | index | Int32 | El índice basado en cero de una propiedad personalizada a obtener. |
 
-### Valor de Retorno
+### Valor de retorno
 
 Nombre de la propiedad personalizada en el índice especificado.
 
@@ -27,12 +27,12 @@ Nombre de la propiedad personalizada en el índice especificado.
 
 | excepción | condición |
 | --- | --- |
-| ArgumentOutOfRangeException | El índice es inferior a cero. El índice es igual o mayor que Count. |
+| ArgumentOutOfRangeException | El índice es menor que cero. El índice es igual o mayor que Count. |
 
-### Véase También
+### Véase también
 
 * clase [DocumentProperties](../../documentproperties)
 * espacio de nombres [Aspose.Slides](../../documentproperties)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

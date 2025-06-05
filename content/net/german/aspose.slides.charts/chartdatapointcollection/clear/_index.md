@@ -1,5 +1,5 @@
 ---
-title: Leeren
+title: Clear
 second_title: Aspose.Slides für .NET API Referenz
 description: Entfernt alle Elemente aus der Sammlung.
 type: docs
@@ -15,7 +15,7 @@ Entfernt alle Elemente aus der Sammlung.
 public void Clear()
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [ChartDataPointCollection](../../chartdatapointcollection)
 * Namespace [Aspose.Slides.Charts](../../chartdatapointcollection)

@@ -1,7 +1,7 @@
 ---
 title: BinaryData
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie les données binaires des sous-titres. En lecture seule Byte.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Renvoie les données binaires des sous-titres. Lecture seule Byte.
 type: docs
 weight: 10
 url: /fr/aspose.slides/icaptions/binarydata/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/icaptions/binarydata/
 
 ## Propriété ICaptions.BinaryData
 
-Renvoie les données binaires des sous-titres. En lecture seule Byte[].
+Renvoie les données binaires des sous-titres. Lecture seule Byte[].
 
 ```csharp
 public byte[] BinaryData { get; }

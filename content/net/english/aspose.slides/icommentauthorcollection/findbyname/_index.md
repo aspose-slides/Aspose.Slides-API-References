@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/icommentauthorcollection/findbyname/
 ---
+
 ## ICommentAuthorCollection.FindByName method
 
 Find author in a collection by name.

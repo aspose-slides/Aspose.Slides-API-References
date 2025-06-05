@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/itrendline/backward/
 ---
+
 ## ITrendline.Backward property
 
 Specifies the number of categories (or units on a scatter chart) that the trend line extends before the data for the series that is being trended. On scatter and non-scatter charts, the value shall be any nonnegative value. Read/write Double.

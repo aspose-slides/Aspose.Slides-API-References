@@ -1,21 +1,21 @@
 ---
-title: 部分的标题
-second_title: Aspose.Sildes for .NET API 参考
+title: TitlesOfParts
+second_title: Aspose.Sildes for .NET API Reference
 description: 指定每个文档部分的标题。这些部分不是文档部分，而是文档部分的概念性表示。只读字符串。
 type: docs
 weight: 330
 url: /zh/aspose.slides/idocumentproperties/titlesofparts/
 ---
 
-## IDocumentProperties.TitlesOfParts 属性
+## IDocumentProperties.TitlesOfParts property
 
-指定每个文档部分的标题。这些部分不是文档部分，而是文档部分的概念性表示。只读字符串数组。
+指定每个文档部分的标题。这些部分不是文档部分，而是文档部分的概念性表示。只读字符串[]。
 
 ```csharp
 public string[] TitlesOfParts { get; }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [IDocumentProperties](../../idocumentproperties)
 * 命名空间 [Aspose.Slides](../../idocumentproperties)

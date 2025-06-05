@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ilegacydiagram/asigraphicalobject/
 ---
+
 ## ILegacyDiagram.AsIGraphicalObject property
 
 Allows to get base IGraphicalObject interface. Read-only [`IGraphicalObject`](../../igraphicalobject).

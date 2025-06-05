@@ -1,7 +1,7 @@
 ---
 title: OffsetY
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie une distance du côté supérieur d'un tableau au côté supérieur d'une cellule. Lecture seule Double.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie une distance du bord supérieur d'un tableau au bord supérieur d'une cellule. En lecture seule Double.
 type: docs
 weight: 170
 url: /fr/aspose.slides/icell/offsety/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/icell/offsety/
 
 ## Propriété ICell.OffsetY
 
-Renvoie une distance du côté supérieur d'un tableau au côté supérieur d'une cellule. Lecture seule Double.
+Renvoie une distance du bord supérieur d'un tableau au bord supérieur d'une cellule. En lecture seule Double.
 
 ```csharp
 public double OffsetY { get; }

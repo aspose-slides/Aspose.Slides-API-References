@@ -1,13 +1,13 @@
 ---
 title: AsIEnumerable
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Aspose.Slides pour .NET API Référence
 description: Renvoie l'interface IEnumerable. IEnumerable en lecture seule.
 type: docs
 weight: 10
 url: /fr/aspose.slides.animation/ibehaviorcollection/asienumerable/
 ---
 
-## Propriété IBehaviorCollection.AsIEnumerable
+## IBehaviorCollection.AsIEnumerable propriété
 
 Renvoie l'interface IEnumerable. IEnumerable en lecture seule.
 

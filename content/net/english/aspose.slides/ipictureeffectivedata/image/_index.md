@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ipictureeffectivedata/image/
 ---
+
 ## IPictureEffectiveData.Image property
 
 Returns the embedded image. Read-only [`IPPImage`](../../ippimage).

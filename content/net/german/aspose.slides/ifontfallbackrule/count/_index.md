@@ -1,6 +1,6 @@
 ---
-title: Zählen
-second_title: Aspose.Slides für .NET API-Referenz
+title: Count
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Anzahl der tatsächlich für den Bereich definierten Schriftarten zurück.
 type: docs
 weight: 10

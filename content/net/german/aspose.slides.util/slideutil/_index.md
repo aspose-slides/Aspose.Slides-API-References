@@ -1,13 +1,13 @@
 ---
 title: SlideUtil
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Bietet Methoden, die helfen, Formen und Text in einer Präsentation zu suchen.
 type: docs
 weight: 11210
 url: /de/aspose.slides.util/slideutil/
 ---
 
-## SlideUtil-Klasse
+## SlideUtil Klasse
 
 Bietet Methoden, die helfen, Formen und Text in einer Präsentation zu suchen.
 
@@ -19,17 +19,17 @@ public static class SlideUtil
 
 | Name | Beschreibung |
 | --- | --- |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes)(ShapesAlignmentType, bool, IBaseSlide) | Ändert die Platzierung aller Formen auf der Folie. Richtet Formen an den Rändern oder der Kante der Folie aus oder ordnet sie relativ zueinander an. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_2)(ShapesAlignmentType, bool, IGroupShape) | Ändert die Platzierung aller Formen innerhalb der Gruppierungsform. Richtet Formen an den Rändern oder der Kante der Folie aus oder ordnet sie relativ zueinander an. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_1)(ShapesAlignmentType, bool, IBaseSlide, int[]) | Ändert die Platzierung ausgewählter Formen auf der Folie. Richtet Formen an den Rändern oder der Kante der Folie aus oder ordnet sie relativ zueinander an. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_3)(ShapesAlignmentType, bool, IGroupShape, int[]) | Ändert die Platzierung ausgewählter Formen innerhalb der Gruppierungsform. Richtet Formen an den Rändern oder der Kante der Folie aus oder ordnet sie relativ zueinander an. |
-| static [FindAndReplaceText](../../aspose.slides.util/slideutil/findandreplacetext)(IPresentation, bool, string, string, PortionFormat) | Sucht und ersetzt Text in der Präsentation mit dem gegebenen Format |
-| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape)(IBaseSlide, string) | Sucht eine Form nach alternativem Text auf einer Folie in einer PPTX-Präsentation. |
-| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape_1)(IPresentation, string) | Sucht eine Form nach alternativem Text in einer PPTX-Präsentation. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes)(ShapesAlignmentType, bool, IBaseSlide) | Ändert die Platzierung aller Formen auf der Folie. Richtet Formen an den Rändern oder am Rand der Folie aus oder richtet sie relativ zueinander aus. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_2)(ShapesAlignmentType, bool, IGroupShape) | Ändert die Platzierung aller Formen innerhalb der Gruppenform. Richtet Formen an den Rändern oder am Rand der Folie aus oder richtet sie relativ zueinander aus. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_1)(ShapesAlignmentType, bool, IBaseSlide, int[]) | Ändert die Platzierung ausgewählter Formen auf der Folie. Richtet Formen an den Rändern oder am Rand der Folie aus oder richtet sie relativ zueinander aus. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_3)(ShapesAlignmentType, bool, IGroupShape, int[]) | Ändert die Platzierung ausgewählter Formen innerhalb der Gruppenform. Richtet Formen an den Rändern oder am Rand der Folie aus oder richtet sie relativ zueinander aus. |
+| static [FindAndReplaceText](../../aspose.slides.util/slideutil/findandreplacetext)(IPresentation, bool, string, string, PortionFormat) | Findet und ersetzt Text in der Präsentation mit dem gegebenen Format. |
+| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape)(IBaseSlide, string) | Findet eine Form anhand des Alternativtexts auf einer Folie in einer PPTX-Präsentation. |
+| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape_1)(IPresentation, string) | Findet eine Form anhand des Alternativtexts in einer PPTX-Präsentation. |
 | static [GetAllTextBoxes](../../aspose.slides.util/slideutil/getalltextboxes)(IBaseSlide) | Gibt alle Textfelder auf einer Folie in einer PPTX-Präsentation zurück. |
 | static [GetAllTextFrames](../../aspose.slides.util/slideutil/getalltextframes)(IPresentation, bool) | Gibt alle Textfelder in einer PPTX-Präsentation zurück. |
 
-### Siehe Auch
+### Siehe auch
 
 * namespace [Aspose.Slides.Util](../../aspose.slides.util)
 * assembly [Aspose.Slides](../../)

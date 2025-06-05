@@ -6,6 +6,7 @@ type: docs
 weight: 230
 url: /aspose.slides/fieldtype/op_inequality/
 ---
+
 ## FieldType Inequality operator
 
 Checks if two FieldType objects is inequal.

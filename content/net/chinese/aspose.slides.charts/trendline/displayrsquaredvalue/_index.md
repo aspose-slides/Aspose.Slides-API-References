@@ -1,7 +1,7 @@
 ---
-title: 显示R平方值
-second_title: Aspose.Slides for .NET API 参考
-description: 指定趋势线的R平方值在图表上与方程式显示在同一标签中。可读/可写布尔值。
+title: DisplayRSquaredValue
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定趋势线的R平方值在图表上与方程式在同一标签中显示。可读写布尔值。
 type: docs
 weight: 40
 url: /zh/aspose.slides.charts/trendline/displayrsquaredvalue/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/trendline/displayrsquaredvalue/
 
 ## Trendline.DisplayRSquaredValue 属性
 
-指定趋势线的R平方值在图表上显示（与方程式在同一标签中）。可读/可写布尔值。
+指定趋势线的R平方值在图表上显示（与方程式在同一标签中）。可读写布尔值。
 
 ```csharp
 public bool DisplayRSquaredValue { get; set; }

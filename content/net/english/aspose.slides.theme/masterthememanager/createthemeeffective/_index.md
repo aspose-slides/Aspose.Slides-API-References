@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.theme/masterthememanager/createthemeeffective/
 ---
+
 ## MasterThemeManager.CreateThemeEffective method
 
 Returns the theme object.

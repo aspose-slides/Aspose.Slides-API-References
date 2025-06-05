@@ -1,7 +1,7 @@
 ---
 title: Format
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Wandfüllungslinieneffekt 3D-Stile zurück. Nur lesbar IFormataspose.slides.charts/iformat.
+description: Gibt die 3D-Stile für Wandfüllung, Linieneffekt zurück. Nur lesbare IFormataspose.slides.charts/iformat.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/ichartwall/format/

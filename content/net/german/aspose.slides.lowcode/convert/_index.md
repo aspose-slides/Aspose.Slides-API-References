@@ -1,15 +1,15 @@
 ---
-title: Konvertieren
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt eine Gruppe von Methoden dar, die zum Konvertieren von Presentationaspose.slides/aspose.slides/presentation gedacht sind.
+title: Convert
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt eine Gruppe von Methoden dar, die zum Konvertieren von Presentationaspose.slides/aspose.slides/presentation vorgesehen sind.
 type: docs
 weight: 7640
 url: /de/aspose.slides.lowcode/convert/
 ---
 
-## Konvertieren Klasse
+## Convert class
 
-Stellt eine Gruppe von Methoden dar, die zum Konvertieren von [`Presentation`](../../aspose.slides/presentation) gedacht sind.
+Stellt eine Gruppe von Methoden dar, die zum Konvertieren von [`Presentation`](../../aspose.slides/presentation) vorgesehen sind.
 
 ```csharp
 public static class Convert
@@ -19,7 +19,7 @@ public static class Convert
 
 | Name | Beschreibung |
 | --- | --- |
-| static [AutoByExtension](../../aspose.slides.lowcode/convert/autobyextension)(string, string) | Konvertiert [`Presentation`](../../aspose.slides/presentation) unter Verwendung der übergebenen Ausgabepfad-Erweiterung, um das erforderliche Exportformat zu bestimmen. |
+| static [AutoByExtension](../../aspose.slides.lowcode/convert/autobyextension)(string, string) | Konvertiert [`Presentation`](../../aspose.slides/presentation) unter Verwendung der übergebenen Ausgabe-Pfad-Erweiterung, um das erforderliche Exportformat zu bestimmen. |
 | static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf)(Presentation, string) | Konvertiert [`Presentation`](../../aspose.slides/presentation) in PDF. |
 | static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf_2)(string, string) | Konvertiert [`Presentation`](../../aspose.slides/presentation) in PDF. |
 | static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf_1)(Presentation, string, IPdfOptions) | Konvertiert [`Presentation`](../../aspose.slides/presentation) in PDF. |
@@ -30,7 +30,7 @@ public static class Convert
 | static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_4)(string, GetOutPathCallback) | Konvertiert [`Presentation`](../../aspose.slides/presentation) in SVG. |
 | static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_2)(Presentation, GetOutPathCallback, ISVGOptions) | Konvertiert [`Presentation`](../../aspose.slides/presentation) in SVG. |
 
-## Weitere Mitglieder
+## Andere Mitglieder
 
 | Name | Beschreibung |
 | --- | --- |

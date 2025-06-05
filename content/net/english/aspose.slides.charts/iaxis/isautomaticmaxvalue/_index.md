@@ -6,6 +6,7 @@ type: docs
 weight: 190
 url: /aspose.slides.charts/iaxis/isautomaticmaxvalue/
 ---
+
 ## IAxis.IsAutomaticMaxValue property
 
 Indicates whether the max value is automatically assigned. Read/write Boolean.

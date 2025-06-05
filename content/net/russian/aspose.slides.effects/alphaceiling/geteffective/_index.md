@@ -1,6 +1,6 @@
 ---
 title: GetEffective
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Получает данные эффективного эффекта Alpha Ceiling с применением наследования.
 type: docs
 weight: 20

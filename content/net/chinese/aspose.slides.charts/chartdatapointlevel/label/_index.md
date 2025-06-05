@@ -1,7 +1,7 @@
 ---
-title: 标签
-second_title: Aspose.Slides for .NET API 参考
-description: 表示数据点级别的数据标签。适用于 Treemap 和 Sunburst 系列类型。只读 IDataLabelaspose.slides/idatalabel。
+title: Label
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示数据点级别的数据标签。适用于树图和旭日图系列类型。只读 IDataLabelaspose.slides/idatalabel。
 type: docs
 weight: 20
 url: /zh/aspose.slides.charts/chartdatapointlevel/label/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/chartdatapointlevel/label/
 
 ## ChartDataPointLevel.Label 属性
 
-表示数据点级别的数据标签。适用于 Treemap 和 Sunburst 系列类型。只读 [`IDataLabel`](../../idatalabel)。
+表示数据点级别的数据标签。适用于树图和旭日图系列类型。只读 [`IDataLabel`](../../idatalabel)。
 
 ```csharp
 public IDataLabel Label { get; }
@@ -36,7 +36,7 @@ using (Presentation pres = new Presentation())
 
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IDataLabel](../../idatalabel)
 * 类 [ChartDataPointLevel](../../chartdatapointlevel)

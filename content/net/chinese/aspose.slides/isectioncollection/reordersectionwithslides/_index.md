@@ -1,6 +1,6 @@
 ---
 title: ReorderSectionWithSlides
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 将节及其幻灯片从集合移动到指定位置。
 type: docs
 weight: 90
@@ -20,7 +20,7 @@ public void ReorderSectionWithSlides(ISection section, int index)
 | index | ISection | 目标索引。 |
 | section | Int32 | 要移动的节。 |
 
-### 另请参阅
+### 另请参见
 
 * 接口 [ISection](../../isection)
 * 接口 [ISectionCollection](../../isectioncollection)

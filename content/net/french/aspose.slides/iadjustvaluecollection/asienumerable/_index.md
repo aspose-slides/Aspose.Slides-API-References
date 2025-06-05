@@ -7,7 +7,7 @@ weight: 20
 url: /fr/aspose.slides/iadjustvaluecollection/asienumerable/
 ---
 
-## Propriété IAdjustValueCollection.AsIEnumerable
+## IAdjustValueCollection.AsIEnumerable propriété
 
 Renvoie l'interface IEnumerable. IEnumerable en lecture seule.
 

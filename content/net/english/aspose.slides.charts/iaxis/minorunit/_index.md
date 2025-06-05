@@ -6,6 +6,7 @@ type: docs
 weight: 410
 url: /aspose.slides.charts/iaxis/minorunit/
 ---
+
 ## IAxis.MinorUnit property
 
 Represents the minor units for the date or value axis. Read/write Double.

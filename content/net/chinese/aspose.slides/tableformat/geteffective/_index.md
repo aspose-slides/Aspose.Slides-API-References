@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Aspose.Slides for .NET API Reference
-description: 获取应用继承和表样式的有效表格格式属性。
+description: 获取应用了继承和表样式的有效表格式属性。
 type: docs
 weight: 30
 url: /zh/aspose.slides/tableformat/geteffective/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/tableformat/geteffective/
 
 ## TableFormat.GetEffective 方法
 
-获取应用继承和表样式的有效表格格式属性。
+获取应用了继承和表样式的有效表格式属性。
 
 ```csharp
 public ITableFormatEffectiveData GetEffective()
@@ -21,7 +21,7 @@ public ITableFormatEffectiveData GetEffective()
 
 ### 示例
 
-此示例演示了如何获取不同表格逻辑部分的有效填充格式。请注意，单元格格式的优先级始终高于行格式，行优于列，列优于整个表。因此，最终 CellFormatEffectiveData 属性始终用于绘制表格。以下代码只是该 API 的示例。
+该示例演示了如何获取不同表逻辑部分的有效填充格式。请注意，单元格格式总是比行格式具有更高的优先级，而行格式又高于列格式，列格式又高于整个表。因此，最终 CellFormatEffectiveData 属性总是用于绘制表格。以下代码仅是 API 的一个示例。
 
 ```csharp
 [C#]

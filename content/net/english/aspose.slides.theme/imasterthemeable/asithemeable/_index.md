@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.theme/imasterthemeable/asithemeable/
 ---
+
 ## IMasterThemeable.AsIThemeable property
 
 Returns IThemeable interface. Read-only [`IThemeable`](../../ithemeable).

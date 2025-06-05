@@ -1,7 +1,7 @@
 ---
 title: CustomData
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die benutzerdefinierten Daten der Präsentation zurück. Nur-Lese ICustomDataaspose.slides/icustomdata.
+description: Gibt die benutzerdefinierten Daten der Präsentation zurück. Schreibgeschütztes ICustomDataaspose.slides/icustomdata.
 type: docs
 weight: 70
 url: /de/aspose.slides/ipresentation/customdata/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ipresentation/customdata/
 
 ## IPresentation.CustomData-Eigenschaft
 
-Gibt die benutzerdefinierten Daten der Präsentation zurück. Nur-Lese [`ICustomData`](../../icustomdata).
+Gibt die benutzerdefinierten Daten der Präsentation zurück. Schreibgeschützt [`ICustomData`](../../icustomdata).
 
 ```csharp
 public ICustomData CustomData { get; }

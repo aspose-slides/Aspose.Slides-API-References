@@ -1,6 +1,6 @@
 ---
 title: ExportHiddenSlides
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si las diapositivas ocultas se exportarán.
 type: docs
 weight: 20
@@ -29,6 +29,6 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 * clase [XamlOptions](../../xamloptions)
 * espacio de nombres [Aspose.Slides.Export.Xaml](../../xamloptions)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

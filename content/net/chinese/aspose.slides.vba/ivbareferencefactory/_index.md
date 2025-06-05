@@ -1,6 +1,6 @@
 ---
 title: IVbaReferenceFactory
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 允许通过 COM 接口创建 VBA 项目引用
 type: docs
 weight: 11280

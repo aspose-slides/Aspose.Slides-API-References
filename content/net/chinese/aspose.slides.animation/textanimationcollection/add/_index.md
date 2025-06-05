@@ -1,6 +1,6 @@
 ---
-title: 添加
-second_title: Aspose.Slides for .NET API 参考
+title: Add
+second_title: Aspose.Sildes for .NET API Reference
 description: 将新的文本动画添加到集合中。
 type: docs
 weight: 60

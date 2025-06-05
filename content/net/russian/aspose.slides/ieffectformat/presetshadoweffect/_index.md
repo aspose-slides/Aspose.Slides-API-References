@@ -1,6 +1,6 @@
 ---
 title: PresetShadowEffect
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Предустановленная тень. Чтение/запись IPresetShadowaspose.slides.effects/ipresetshadow.
 type: docs
 weight: 80
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ieffectformat/presetshadoweffect/
 public IPresetShadow PresetShadowEffect { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IPresetShadow](../../../aspose.slides.effects/ipresetshadow)
 * интерфейс [IEffectFormat](../../ieffectformat)

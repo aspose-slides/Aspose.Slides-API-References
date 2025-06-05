@@ -1,6 +1,6 @@
 ---
 title: SvgCoordinateUnit
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示用于定义 SVG 坐标的 CSS2 坐标单位。
 type: docs
 weight: 4290
@@ -20,14 +20,14 @@ public enum SvgCoordinateUnit
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
 | Inch | `0` | 英寸 |
-| Centimeter | `1` | 厘米 |
-| Millimeter | `2` | 毫米 |
-| Point | `3` | 点（1/72 英寸） |
-| Pica | `4` | 派卡（1/6 英寸） |
-| Em | `5` | 所含元素字体的 Em 大小 |
-| Ex | `6` | 所含元素字体的小写字母的 Ex 大小（通常是“x”） |
-| Pixel | `7` | 像素大小 |
-| Percent | `8` | 百分比 |
+| Centimeter | `1` | 厘米。 |
+| Millimeter | `2` | 毫米。 |
+| Point | `3` | 点（1/72 英寸）， |
+| Pica | `4` | 派卡（1/6 英寸）。 |
+| Em | `5` | 包含元素的字体的 Em 大小。 |
+| Ex | `6` | 包含元素的字体的小写字母的 Ex 大小（通常是“x”）。 |
+| Pixel | `7` | 像素大小。 |
+| Percent | `8` | 百分比。 |
 
 ### 另见
 

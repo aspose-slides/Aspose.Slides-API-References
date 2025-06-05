@@ -1,7 +1,7 @@
 ---
 title: IsOverflowBin
 second_title: Aspose.Sildes for .NET API 参考
-description: 指定是否应用溢出箱。使用 IsAutomaticOverflowBin 和 OverflowBin 来调整溢出箱值。
+description: 指定是否应用了溢出箱。使用 IsAutomaticOverflowBin 和 OverflowBin 调整溢出箱值。
 type: docs
 weight: 280
 url: /zh/aspose.slides.charts/iaxis/isoverflowbin/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/iaxis/isoverflowbin/
 
 ## IAxis.IsOverflowBin 属性
 
-指定是否应用溢出箱。使用 IsAutomaticOverflowBin 和 OverflowBin 来调整溢出箱值。
+指定是否应用了溢出箱。使用 IsAutomaticOverflowBin 和 OverflowBin 调整溢出箱值。
 
 ```csharp
 public bool IsOverflowBin { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IAxis](../../iaxis)
 * 命名空间 [Aspose.Slides.Charts](../../iaxis)

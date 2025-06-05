@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/ichartdata/secondarycategories/
 ---
+
 ## IChartData.SecondaryCategories property
 
 Gets the secondary categories if [`UseSecondaryCategories`](../usesecondarycategories) property is true. Read-only [`IChartCategoryCollection`](../../ichartcategorycollection).

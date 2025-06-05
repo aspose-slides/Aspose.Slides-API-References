@@ -1,6 +1,6 @@
 ---
 title: ShowMinorGridLines
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Pour cacher les lignes de grille mineures, définissez MinorGridLinesFormat.Line.FillFormat.FillType sur FillType.NoFill. Booléen en lecture seule.
 type: docs
 weight: 490

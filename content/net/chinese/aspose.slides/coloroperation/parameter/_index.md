@@ -1,7 +1,7 @@
 ---
-title: 参数
-second_title: Aspose.Slides for .NET API 参考
-description: 返回一个操作的参数。只读 Single。
+title: Parameter
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回操作的参数。只读单一值。
 type: docs
 weight: 30
 url: /zh/aspose.slides/coloroperation/parameter/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/coloroperation/parameter/
 
 ## ColorOperation.Parameter 属性
 
-返回一个操作的参数。只读 Single。
+返回操作的参数。只读单一值。
 
 ```csharp
 public float Parameter { get; }

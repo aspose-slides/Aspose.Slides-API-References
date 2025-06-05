@@ -1,7 +1,7 @@
 ---
 title: EndArrowheadStyle
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Pfeilspitzenstil am Ende einer Linie zurück. Schreibgeschützter LineArrowheadStyleaspose.slides/linearrowheadstyle.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den Pfeilspitzenstil am Ende einer Linie zurück. Nur lesbar LineArrowheadStyleaspose.slides/linearrowheadstyle.
 type: docs
 weight: 100
 url: /de/aspose.slides/ilineformateffectivedata/endarrowheadstyle/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ilineformateffectivedata/endarrowheadstyle/
 
 ## ILineFormatEffectiveData.EndArrowheadStyle-Eigenschaft
 
-Gibt den Pfeilspitzenstil am Ende einer Linie zurück. Schreibgeschützt [`LineArrowheadStyle`](../../linearrowheadstyle).
+Gibt den Pfeilspitzenstil am Ende einer Linie zurück. Nur lesbar [`LineArrowheadStyle`](../../linearrowheadstyle).
 
 ```csharp
 public LineArrowheadStyle EndArrowheadStyle { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [LineArrowheadStyle](../../linearrowheadstyle)
 * interface [ILineFormatEffectiveData](../../ilineformateffectivedata)

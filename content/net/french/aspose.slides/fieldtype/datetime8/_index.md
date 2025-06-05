@@ -1,7 +1,7 @@
 ---
 title: DateTime8
-second_title: Référence API Aspose.Slides pour .NET
-description: Date et heure actuelles dans un huitième format prédéfini MM/JJ/AAAA hhmm AM/PM pour l'anglais. Type de champ en lecture seule aspose.slides/fieldtype.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Date et heure actuelles dans un huitième format prédéfini MM/JJ/AAAA hhmm AM/PM pour l'anglais. FieldType en lecture seule aspose.slides/fieldtype.
 type: docs
 weight: 140
 url: /fr/aspose.slides/fieldtype/datetime8/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/fieldtype/datetime8/
 
 ## Propriété FieldType.DateTime8
 
-Date et heure actuelles dans un huitième format prédéfini (MM/JJ/AAAA hh:mm AM/PM pour l'anglais). Type de champ en lecture seule [`FieldType`](../../fieldtype).
+Date et heure actuelles dans un huitième format prédéfini (MM/JJ/AAAA hh:mm AM/PM pour l'anglais). [`FieldType`](../../fieldtype) en lecture seule.
 
 ```csharp
 public static FieldType DateTime8 { get; }

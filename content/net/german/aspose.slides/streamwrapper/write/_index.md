@@ -1,7 +1,7 @@
 ---
-title: Schreiben
-second_title: Aspose.Slides für .NET API-Referenz
-description: Schreibt eine Sequenz von Bytes in den aktuellen Stream und verschiebt die aktuelle Position innerhalb dieses Streams um die Anzahl der geschriebenen Bytes.
+title: Write
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Schreibt eine Folge von Bytes in den aktuellen Stream und verschiebt die aktuelle Position innerhalb dieses Streams um die Anzahl der geschriebenen Bytes.
 type: docs
 weight: 140
 url: /de/aspose.slides/streamwrapper/write/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/streamwrapper/write/
 
 ## StreamWrapper.Write-Methode
 
-Schreibt eine Sequenz von Bytes in den aktuellen Stream und verschiebt die aktuelle Position innerhalb dieses Streams um die Anzahl der geschriebenen Bytes.
+Schreibt eine Folge von Bytes in den aktuellen Stream und verschiebt die aktuelle Position innerhalb dieses Streams um die Anzahl der geschriebenen Bytes.
 
 ```csharp
 public void Write(byte[] buffer, int offset, int count)
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [StreamWrapper](../../streamwrapper)
 * Namespace [Aspose.Slides](../../streamwrapper)

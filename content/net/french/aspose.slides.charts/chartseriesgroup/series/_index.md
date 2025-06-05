@@ -1,7 +1,7 @@
 ---
-title: Séries
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie une collection de séries. Collection IChartSeriesReadonlyCollectionen lecture seule aspose.slides.charts/ichartseriesreadonlycollection.
+title: Series
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Renvoie une collection de séries. Lecture seule IChartSeriesReadonlyCollectionaspose.slides.charts/ichartseriesreadonlycollection.
 type: docs
 weight: 180
 url: /fr/aspose.slides.charts/chartseriesgroup/series/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/chartseriesgroup/series/
 
 ## Propriété ChartSeriesGroup.Series
 
-Renvoie une collection de séries. Collection [`IChartSeriesReadonlyCollection`](../../ichartseriesreadonlycollection) en lecture seule.
+Renvoie une collection de séries. Lecture seule [`IChartSeriesReadonlyCollection`](../../ichartseriesreadonlycollection).
 
 ```csharp
 public IChartSeriesReadonlyCollection Series { get; }

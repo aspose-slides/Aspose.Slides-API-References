@@ -1,7 +1,7 @@
 ---
 title: IsSynchronized
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung thread-sicher synchronisiert ist. Nur-Lesen Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert thread-sicher ist. Nur-lese Boolean.
 type: docs
 weight: 20
 url: /de/aspose.slides/slidecollection/issynchronized/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/slidecollection/issynchronized/
 
 ## SlideCollection.IsSynchronized Eigenschaft
 
-Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (thread-sicher) ist. Nur-Lesen Boolean.
+Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (thread-sicher) ist. Nur-lese Boolean.
 
 ```csharp
 public bool IsSynchronized { get; }

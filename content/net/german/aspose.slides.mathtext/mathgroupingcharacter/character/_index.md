@@ -1,7 +1,7 @@
 ---
-title: Zeichen
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gruppierungszeichen Standardwert U+23DF UNTEN GEBOGENES KLEMMER
+title: Character
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gruppierungszeichen Standardwert U23DF UNTERE GEKRÜMMTE KLAMMER
 type: docs
 weight: 30
 url: /de/aspose.slides.mathtext/mathgroupingcharacter/character/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/mathgroupingcharacter/character/
 
 ## MathGroupingCharacter.Character-Eigenschaft
 
-Gruppierungszeichen Standardwert: U+23DF (UNTEN GEBOGENES KLEMMER)
+Gruppierungszeichen Standardwert: U+23DF (UNTERE GEKRÜMMTE KLAMMER)
 
 ```csharp
 public char Character { get; set; }

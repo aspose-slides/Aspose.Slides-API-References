@@ -1,7 +1,7 @@
 ---
-title: Info-bulle
+title: Tooltip
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie la chaîne qui peut être affichée dans une interface utilisateur comme associée au lien hypertexte parent. Chaîne en lecture/écriture.
+description: Renvoie la chaîne qui peut être affichée dans une interface utilisateur comme associée à l'hyperlien parent. Chaîne en lecture/écriture.
 type: docs
 weight: 200
 url: /fr/aspose.slides/hyperlink/tooltip/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/hyperlink/tooltip/
 
 ## Propriété Hyperlink.Tooltip
 
-Renvoie la chaîne qui peut être affichée dans une interface utilisateur comme associée au lien hypertexte parent. Chaîne en lecture/écriture.
+Renvoie la chaîne qui peut être affichée dans une interface utilisateur comme associée à l'hyperlien parent. Chaîne en lecture/écriture.
 
 ```csharp
 public string Tooltip { get; set; }

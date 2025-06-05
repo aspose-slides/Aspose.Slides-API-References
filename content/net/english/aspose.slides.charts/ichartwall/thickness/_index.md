@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/ichartwall/thickness/
 ---
+
 ## IChartWall.Thickness property
 
 Returns or sets the walls thickness as a percentage of the largest dimension of the plot volume. Read/write Int32.

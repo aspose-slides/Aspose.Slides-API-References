@@ -1,6 +1,6 @@
 ---
-title: Índice
-second_title: Referencia de la API de Aspose.Slides para .NET
+title: Index
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene o establece el índice de un marcador de posición. Solo lectura UInt32.
 type: docs
 weight: 10

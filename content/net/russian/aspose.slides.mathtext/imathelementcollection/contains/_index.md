@@ -1,7 +1,7 @@
 ---
-title: Содержит
-second_title: Aspose.Slides для .NET Справочник API
-description: Определяет, содержит ли коллекция определенное значение.
+title: Contains
+second_title: Aspose.Sildes для .NET API Справочник
+description: Определяет, содержит ли коллекция конкретное значение.
 type: docs
 weight: 60
 url: /ru/aspose.slides.mathtext/imathelementcollection/contains/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/imathelementcollection/contains/
 
 ## IMathElementCollection.Contains метод
 
-Определяет, содержит ли коллекция определенное значение.
+Определяет, содержит ли коллекция конкретное значение.
 
 ```csharp
 public bool Contains(IMathElement item)
@@ -17,7 +17,7 @@ public bool Contains(IMathElement item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | IMathElement | Объект, который необходимо найти в коллекции. |
+| item | IMathElement | Объект для поиска в коллекции. |
 
 ### Возвращаемое значение
 
@@ -36,7 +36,7 @@ collection.Add(new MathRadical(new MathematicalText("x"), new MathematicalText("
 bool contains = collection.Contains(plusElement);
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IMathElement](../../imathelement)
 * интерфейс [IMathElementCollection](../../imathelementcollection)

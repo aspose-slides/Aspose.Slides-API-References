@@ -1,7 +1,7 @@
 ---
 title: ColorType
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回或设置颜色定义方法。读写 ColorTypeaspose.slides/colortype。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置颜色定义方法。读/写 ColorTypeaspose.slides/colortype。
 type: docs
 weight: 50
 url: /zh/aspose.slides/icolorformat/colortype/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/icolorformat/colortype/
 
 ## IColorFormat.ColorType 属性
 
-返回或设置颜色定义方法。读写 [`ColorType`](../../colortype)。
+返回或设置颜色定义方法。读/写 [`ColorType`](../../colortype)。
 
 ```csharp
 public ColorType ColorType { get; set; }
 ```
 
-### 参见
+### 另见
 
 * 枚举 [ColorType](../../colortype)
 * 接口 [IColorFormat](../../icolorformat)

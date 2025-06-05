@@ -1,21 +1,21 @@
 ---
-title: A
+title: To
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Describe el valor final para la animación. Lectura/escritura Simple.
+description: Describe el valor final para la animación. Lectura/escritura Single.
 type: docs
 weight: 40
 url: /es/aspose.slides.animation/irotationeffect/to/
 ---
 
-## Propiedad IRotationEffect.To
+## IRotationEffect.To property
 
-Describe el valor final para la animación. Lectura/escritura Simple.
+Describe el valor final para la animación. Lectura/escritura Single.
 
 ```csharp
 public float To { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IRotationEffect](../../irotationeffect)
 * espacio de nombres [Aspose.Slides.Animation](../../irotationeffect)

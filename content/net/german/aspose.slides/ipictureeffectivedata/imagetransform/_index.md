@@ -1,7 +1,7 @@
 ---
 title: ImageTransform
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Sammlung von Bildtransformationseffekten zurück. Nur lesend IImageTransformOCollectionEffectiveDataaspose.slides.effects/iimagetransformocollectioneffectivedata.
+description: Gibt die Sammlung von Bildtransformations-Effekten zurück. Schreibgeschütztes IImageTransformOCollectionEffectiveDataaspose.slides.effects/iimagetransformocollectioneffectivedata.
 type: docs
 weight: 20
 url: /de/aspose.slides/ipictureeffectivedata/imagetransform/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ipictureeffectivedata/imagetransform/
 
 ## IPictureEffectiveData.ImageTransform-Eigenschaft
 
-Gibt die Sammlung von Bildtransformationseffekten zurück. Nur lesend [`IImageTransformOCollectionEffectiveData`](../../../aspose.slides.effects/iimagetransformocollectioneffectivedata).
+Gibt die Sammlung von Bildtransformations-Effekten zurück. Schreibgeschütztes [`IImageTransformOCollectionEffectiveData`](../../../aspose.slides.effects/iimagetransformocollectioneffectivedata).
 
 ```csharp
 public IImageTransformOCollectionEffectiveData ImageTransform { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IImageTransformOCollectionEffectiveData](../../../aspose.slides.effects/iimagetransformocollectioneffectivedata)
 * Schnittstelle [IPictureEffectiveData](../../ipictureeffectivedata)

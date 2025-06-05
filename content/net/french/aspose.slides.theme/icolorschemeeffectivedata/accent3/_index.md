@@ -1,6 +1,6 @@
 ---
 title: Accent3
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Troisième couleur d'accent dans le schéma. Couleur en lecture seule.
 type: docs
 weight: 30

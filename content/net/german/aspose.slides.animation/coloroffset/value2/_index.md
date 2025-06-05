@@ -1,7 +1,7 @@
 ---
 title: Value2
 second_title: Aspose.Slides für .NET API-Referenz
-description: Definiert den dritten Wert des Offsets. Lesen/Schreiben Single.
+description: Definiert den dritten Wert des Offsets. Lesen/Schreiben von Single.
 type: docs
 weight: 40
 url: /de/aspose.slides.animation/coloroffset/value2/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.animation/coloroffset/value2/
 
 ## ColorOffset.Value2-Eigenschaft
 
-Definiert den dritten Wert des Offsets. Lesen/Schreiben Single.
+Definiert den dritten Wert des Offsets. Lesen/Schreiben von Single.
 
 ```csharp
 public float Value2 { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [ColorOffset](../../coloroffset)
 * Namespace [Aspose.Slides.Animation](../../coloroffset)

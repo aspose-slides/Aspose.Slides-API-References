@@ -1,6 +1,6 @@
 ---
-title: DirectionDuDégradé
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: GradientDirection
+second_title: Aspose.Slides pour .NET API Reference
 description: Renvoie ou définit le style d'un dégradé. Lecture/écriture GradientDirectionaspose.slides/gradientdirection.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ Renvoie ou définit le style d'un dégradé. Lecture/écriture [`GradientDirecti
 public GradientDirection GradientDirection { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [GradientDirection](../../gradientdirection)
 * interface [IGradientFormat](../../igradientformat)

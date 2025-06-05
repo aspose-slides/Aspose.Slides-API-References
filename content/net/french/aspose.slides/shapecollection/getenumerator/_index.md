@@ -1,13 +1,13 @@
 ---
 title: GetEnumerator
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie un énumérateur qui parcourt la collection.
 type: docs
 weight: 250
 url: /fr/aspose.slides/shapecollection/getenumerator/
 ---
 
-## Méthode ShapeCollection.GetEnumerator
+## ShapeCollection.GetEnumerator méthode
 
 Renvoie un énumérateur qui parcourt la collection.
 

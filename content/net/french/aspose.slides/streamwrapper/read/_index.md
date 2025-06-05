@@ -1,23 +1,23 @@
 ---
-title: Lire
-second_title: Référence API Aspose.Slides pour .NET
-description: Lit une séquence d'octets à partir du flux actuel et fait avancer la position dans le flux du nombre d'octets lus.
+title: Read
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Lit une séquence d'octets à partir du flux actuel et avance la position dans le flux du nombre d'octets lus.
 type: docs
 weight: 110
 url: /fr/aspose.slides/streamwrapper/read/
 ---
 
-## Méthode StreamWrapper.Read
+## StreamWrapper.Read method
 
-Lit une séquence d'octets à partir du flux actuel et fait avancer la position dans le flux du nombre d'octets lus.
+Lit une séquence d'octets à partir du flux actuel et avance la position dans le flux du nombre d'octets lus.
 
 ```csharp
 public void Read(byte[] buffer, int offset, int count)
 ```
 
-### Voir Aussi
+### Voir aussi
 
-* classe [StreamWrapper](../../streamwrapper)
+* class [StreamWrapper](../../streamwrapper)
 * namespace [Aspose.Slides](../../streamwrapper)
 * assembly [Aspose.Slides](../../../)
 

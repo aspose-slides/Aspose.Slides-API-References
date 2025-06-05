@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/fontfallbackrule/item/
 ---
+
 ## FontFallBackRule indexer
 
 Gets the font name at the specified index. Read-only [`IFontFallBackRule`](../../ifontfallbackrule).

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller/
 ---
+
 ## IVideoPlayerHtmlController.AsIHtmlFormattingController property
 
 Allows to get base IHtmlFormattingController interface. Read-only [`IHtmlFormattingController`](../../ihtmlformattingcontroller).

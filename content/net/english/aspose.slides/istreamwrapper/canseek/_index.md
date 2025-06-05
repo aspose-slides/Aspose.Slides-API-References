@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/istreamwrapper/canseek/
 ---
+
 ## IStreamWrapper.CanSeek property
 
 Gets a value indicating whether the current stream supports seeking. Read-only Boolean.

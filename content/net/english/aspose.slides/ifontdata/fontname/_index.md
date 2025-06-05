@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ifontdata/fontname/
 ---
+
 ## IFontData.FontName property
 
 Returns the font name. Read-only String.

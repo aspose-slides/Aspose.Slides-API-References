@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.charts/ichartparagraphformat/spacebefore/
 ---
+
 ## IChartParagraphFormat.SpaceBefore property
 
 Returns or sets the amount of space before the first line in a paragraph. Read/write Single.

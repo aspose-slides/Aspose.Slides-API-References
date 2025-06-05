@@ -1,6 +1,6 @@
 ---
-title: Вкладка
-second_title: Справочник по API Aspose.Slides для .NET
+title: Tab
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет табуляцию для текста.
 type: docs
 weight: 10510
@@ -19,15 +19,15 @@ public sealed class Tab : PVIObject, ITab
 
 | Имя | Описание |
 | --- | --- |
-| [Tab](tab)(double, TabAlignment) | Создает новую вкладку |
+| [Tab](tab)(double, TabAlignment) | Создает новый Tab |
 
 ## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | Возвращает или задает стиль выравнивания вкладки. Чтение/Запись [`TabAlignment`](../tabalignment). |
+| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | Возвращает или устанавливает стиль выравнивания табуляции. Чтение/запись [`TabAlignment`](../tabalignment). |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../ipresentationcomponent). |
-| [Position](../../aspose.slides/tab/position) { get; set; } | Возвращает или задает позицию вкладки. Присвоение этого свойства может изменить индекс вкладки в коллекции и сделать недействительным Enumerator. Чтение/Запись Double. |
+| [Position](../../aspose.slides/tab/position) { get; set; } | Возвращает или устанавливает позицию табуляции. Установка этого свойства может изменить индекс табуляции в коллекции и сделать недействительным перечислитель. Чтение/запись Double. |
 
 ## Методы
 
@@ -35,7 +35,7 @@ public sealed class Tab : PVIObject, ITab
 | --- | --- |
 | [CompareTo](../../aspose.slides/tab/compareto)(object) | Сравнивает текущий экземпляр с другим объектом того же типа. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с указанным объектом. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хэш-код. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает код хеширования. |
 
 ### См. также
 

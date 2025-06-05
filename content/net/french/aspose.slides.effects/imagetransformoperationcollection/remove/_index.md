@@ -1,6 +1,6 @@
 ---
-title: Supprimer
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Remove
+second_title: Aspose.Sildes pour l'API .NET Référence
 description: Supprime la première occurrence d'un objet spécifique de l'ICollection.
 type: docs
 weight: 260
@@ -17,11 +17,11 @@ public bool Remove(IImageTransformOperation item)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| item | IImageTransformOperation | L'objet à supprimer de l'ICollection. |
+| item | IImageTransformOperation | L'objet à retirer de l'ICollection. |
 
-### Valeur de retour
+### Valeur de Retour
 
-true si *item* a été supprimé avec succès de l'ICollection ; sinon, false. Cette méthode retourne également false si *item* n'est pas trouvé dans l'ICollection d'origine.
+true si *item* a été retiré avec succès de l'ICollection ; sinon, false. Cette méthode retourne également false si *item* n'est pas trouvé dans l'ICollection d'origine.
 
 ### Exceptions
 
@@ -29,7 +29,7 @@ true si *item* a été supprimé avec succès de l'ICollection ; sinon, false. C
 | --- | --- |
 | NotSupportedException | L'ICollection est en lecture seule. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IImageTransformOperation](../../iimagetransformoperation)
 * class [ImageTransformOperationCollection](../../imagetransformoperationcollection)

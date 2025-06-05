@@ -1,13 +1,13 @@
 ---
-title: Supprimer
-second_title: Aspose.Sildes pour .NET Référence de l'API
+title: Remove
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Supprime la valeur spécifiée.
 type: docs
 weight: 60
 url: /fr/aspose.slides.charts/ichartseriescollection/remove/
 ---
 
-## Méthode IChartSeriesCollection.Remove
+## IChartSeriesCollection.Remove method
 
 Supprime la valeur spécifiée.
 

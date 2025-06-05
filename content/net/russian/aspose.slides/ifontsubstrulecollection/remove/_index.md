@@ -1,13 +1,13 @@
 ---
-title: Удалить
-second_title: Справочник по API Aspose.Slides для .NET
+title: Remove
+second_title: Aspose.Sildes для .NET API Reference
 description: Удаляет первое вхождение конкретного объекта из коллекции.
 type: docs
 weight: 30
 url: /ru/aspose.slides/ifontsubstrulecollection/remove/
 ---
 
-## Метод IFontSubstRuleCollection.Remove
+## IFontSubstRuleCollection.Remove метод
 
 Удаляет первое вхождение конкретного объекта из коллекции.
 
@@ -17,7 +17,7 @@ public void Remove(IFontSubstRule value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | IFontSubstRule | Модуль, который необходимо удалить из коллекции. |
+| value | IFontSubstRule | Модуль, который нужно удалить из коллекции. |
 
 ### См. также
 

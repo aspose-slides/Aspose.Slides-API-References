@@ -1,15 +1,15 @@
 ---
 title: AsIVbaReference
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie l'interface IVbaReference. Lecture seule IVbaReferenceaspose.slides.vba/ivbareference.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Retourne l'interface IVbaReference. Lecture seule IVbaReferenceaspose.slides.vba/ivbareference.
 type: docs
 weight: 10
 url: /fr/aspose.slides.vba/ivbareferenceoletwiddledtypelib/asivbareference/
 ---
 
-## Propriété IVbaReferenceOleTwiddledTypeLib.AsIVbaReference
+## IVbaReferenceOleTwiddledTypeLib.AsIVbaReference propriété
 
-Renvoie l'interface IVbaReference. Lecture seule [`IVbaReference`](../../ivbareference).
+Retourne l'interface IVbaReference. Lecture seule [`IVbaReference`](../../ivbareference).
 
 ```csharp
 public IVbaReference AsIVbaReference { get; }

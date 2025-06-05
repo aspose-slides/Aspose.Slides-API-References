@@ -1,7 +1,7 @@
 ---
-title: Contar
-second_title: Referencia de API de Aspose.Slidess para .NET
-description: Obtiene el número de elementos que realmente están contenidos en la colección. Solo lectura Int32.
+title: Count
+second_title: Aspose.Sildes para .NET Referencia de la API
+description: Obtiene el número de elementos que realmente contiene la colección. Solo lectura Int32.
 type: docs
 weight: 10
 url: /es/aspose.slides.vba/vbareferencecollection/count/
@@ -9,16 +9,16 @@ url: /es/aspose.slides.vba/vbareferencecollection/count/
 
 ## Propiedad VbaReferenceCollection.Count
 
-Obtiene el número de elementos que realmente están contenidos en la colección. Solo lectura Int32.
+Obtiene el número de elementos que realmente contiene la colección. Solo lectura Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Véase también
+### Ver También
 
-* class [VbaReferenceCollection](../../vbareferencecollection)
-* namespace [Aspose.Slides.Vba](../../vbareferencecollection)
-* assembly [Aspose.Slides](../../../)
+* clase [VbaReferenceCollection](../../vbareferencecollection)
+* espacio de nombres [Aspose.Slides.Vba](../../vbareferencecollection)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

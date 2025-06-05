@@ -6,6 +6,7 @@ type: docs
 weight: 1170
 url: /aspose.slides.animation/behaviorproperty/styletextshadow/
 ---
+
 ## BehaviorProperty.StyleTextShadow property
 
 Represents 'style.textShadow' property

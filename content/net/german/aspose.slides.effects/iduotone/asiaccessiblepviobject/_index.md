@@ -1,7 +1,7 @@
 ---
 title: AsIAccessiblePVIObject
-second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht den Zugriff auf die grundlegende IAccessiblePVIObject-Schnittstelle. Nur-lesbare IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ermöglicht den Zugriff auf die grundlegende IAccessiblePVIObject-Schnittstelle. Nur-Lese IAccessiblePVIObjectaspose.slides/../aspose.slides/iaccessiblepviobject-1.
 type: docs
 weight: 10
 url: /de/aspose.slides.effects/iduotone/asiaccessiblepviobject/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.effects/iduotone/asiaccessiblepviobject/
 
 ## IDuotone.AsIAccessiblePVIObject-Eigenschaft
 
-Ermöglicht den Zugriff auf die grundlegende IAccessiblePVIObject-Schnittstelle. Nur-lesbare [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
+Ermöglicht den Zugriff auf die grundlegende IAccessiblePVIObject-Schnittstelle. Nur-Lese [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
 
 ```csharp
 public IAccessiblePVIObject<IDuotoneEffectiveData> AsIAccessiblePVIObject { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
 * Schnittstelle [IDuotoneEffectiveData](../../iduotoneeffectivedata)

@@ -1,6 +1,6 @@
 ---
 title: NumberFormatOfYValues
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: NumberFormatOfYValues. Leer/escribir String.
 type: docs
 weight: 250
@@ -15,10 +15,10 @@ NumberFormatOfYValues. Leer/escribir String.
 public string NumberFormatOfYValues { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [ChartSeries](../../chartseries)
 * espacio de nombres [Aspose.Slides.Charts](../../chartseries)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

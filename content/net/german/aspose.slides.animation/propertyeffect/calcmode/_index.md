@@ -1,7 +1,7 @@
 ---
 title: CalcMode
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Interpolationsmodus für die Animation an. Schreib-/Leseeigenschaft PropertyCalcModeType aspose.slides.animation/propertycalcmodetype.
+description: Gibt den Interpolationsmodus für die Animation an. Lese-/Schreibeigenschaft PropertyCalcModeTypeaspose.slides/propertycalcmodetype.
 type: docs
 weight: 30
 url: /de/aspose.slides.animation/propertyeffect/calcmode/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.animation/propertyeffect/calcmode/
 
 ## PropertyEffect.CalcMode-Eigenschaft
 
-Gibt den Interpolationsmodus für die Animation an. Schreib-/Leseeigenschaft [`PropertyCalcModeType`](../../propertycalcmodetype).
+Gibt den Interpolationsmodus für die Animation an. Lese-/Schreibeigenschaft [`PropertyCalcModeType`](../../propertycalcmodetype).
 
 ```csharp
 public PropertyCalcModeType CalcMode { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [PropertyCalcModeType](../../propertycalcmodetype)
 * class [PropertyEffect](../../propertyeffect)

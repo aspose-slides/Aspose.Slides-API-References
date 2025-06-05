@@ -16,17 +16,17 @@ public IMathRightSubSuperscriptElement CreateMathRightSubSuperscriptElement(IMat
     IMathElement subScript, IMathElement superScript)
 ```
 
-| 参数 | 类型 | 描述 |
-| --- | --- | --- |
-| baseArg | IMathElement | 应用于索引的基本参数 |
-| subScript | IMathElement | 右下索引 |
-| superScript | IMathElement | 右上索引 |
+| 参数         | 类型         | 描述                     |
+| ------------ | ------------ | ------------------------ |
+| baseArg      | IMathElement  | 用于应用索引的基础参数   |
+| subScript    | IMathElement  | 右下索引                 |
+| superScript  | IMathElement  | 右上索引                 |
 
 ### 返回值
 
 new IMathLeftSubSuperscriptElement
 
-### 另请参阅
+### 参见
 
 * 接口 [IMathRightSubSuperscriptElement](../../imathrightsubsuperscriptelement)
 * 接口 [IMathElement](../../imathelement)

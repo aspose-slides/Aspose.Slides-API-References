@@ -1,6 +1,6 @@
 ---
 title: ComplexScriptFont
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Informationen zur komplexen Schriftart zurück. Schreibgeschütztes IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 20

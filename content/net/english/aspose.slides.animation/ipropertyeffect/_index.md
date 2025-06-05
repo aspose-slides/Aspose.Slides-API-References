@@ -3,9 +3,10 @@ title: IPropertyEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: Represent property effect behavior.
 type: docs
-weight: 470
+weight: 480
 url: /aspose.slides.animation/ipropertyeffect/
 ---
+
 ## IPropertyEffect interface
 
 Represent property effect behavior.

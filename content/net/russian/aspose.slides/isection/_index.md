@@ -1,6 +1,6 @@
 ---
 title: ISection
-second_title: Aspose.Sildes для справочника API .NET
+second_title: Aspose.Sildes для .NET Справочник по API
 description: Представляет раздел слайдов.
 type: docs
 weight: 6690
@@ -17,7 +17,7 @@ public interface ISection
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [Name](../../aspose.slides/isection/name) { get; set; } | Название раздела. |
 | [SectionId](../../aspose.slides/isection/sectionid) { get; } | Идентификатор раздела. |
@@ -25,7 +25,7 @@ public interface ISection
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [GetSlidesListOfSection](../../aspose.slides/isection/getslideslistofsection)() | Возвращает список слайдов в разделе. |
 

@@ -1,13 +1,13 @@
 ---
-title: Supprimer
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Remove
+second_title: Aspose.Sildes pour .NET Référence API
 description: Supprimer le nœud actuel.
 type: docs
 weight: 100
 url: /fr/aspose.slides.smartart/smartartnode/remove/
 ---
 
-## Méthode SmartArtNode.Remove
+## SmartArtNode.Remove méthode
 
 Supprimer le nœud actuel.
 
@@ -15,11 +15,11 @@ Supprimer le nœud actuel.
 public bool Remove()
 ```
 
-### Valeur de retour
+### Valeur de Retour
 
 `True` si supprimé avec succès, sinon `false`
 
-### Voir aussi
+### Voir Aussi
 
 * classe [SmartArtNode](../../smartartnode)
 * espace de noms [Aspose.Slides.SmartArt](../../smartartnode)

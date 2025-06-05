@@ -1,15 +1,15 @@
 ---
 title: FontCollectionIndex
-second_title: Aspose.Slides для .NET Документация
-description: Возвращает или устанавливает индекс шрифта для фигур в коллекции шрифта. Чтение/запись FontCollectionIndexaspose.slides/fontcollectionindex.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает или устанавливает индекс шрифта формы в коллекции шрифтов. Чтение/запись FontCollectionIndexaspose.slides/fontcollectionindex.
 type: docs
 weight: 50
 url: /ru/aspose.slides/ishapestyle/fontcollectionindex/
 ---
 
-## Свойство IShapeStyle.FontCollectionIndex
+## IShapeStyle.FontCollectionIndex свойство
 
-Возвращает или устанавливает индекс шрифта фигуры в коллекции шрифта. Чтение/запись [`FontCollectionIndex`](../../fontcollectionindex).
+Возвращает или устанавливает индекс шрифта формы в коллекции шрифтов. Чтение/запись [`FontCollectionIndex`](../../fontcollectionindex).
 
 ```csharp
 public FontCollectionIndex FontCollectionIndex { get; set; }

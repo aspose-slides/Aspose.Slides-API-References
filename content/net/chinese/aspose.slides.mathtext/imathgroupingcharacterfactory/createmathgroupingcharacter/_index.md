@@ -1,15 +1,15 @@
 ---
 title: CreateMathGroupingCharacter
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建数学分组字符
 type: docs
 weight: 10
 url: /zh/aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 
-## CreateMathGroupingCharacter(IMathElement, char, MathTopBotPositions, MathTopBotPositions) {#createmathgroupingcharacter_1}
+## CreateMathGroupingCharacter(IMathElement, char, MathTopBotPositions, MathTopBotPositions) {#createmathgroupingcharacter_1}
 
-创建一个数学分组字符
+创建数学分组字符
 
 ```csharp
 public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element, char character, 
@@ -27,7 +27,7 @@ public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element, 
 
 新的分组字符元素
 
-### 另见
+### 参见
 
 * 接口 [IMathGroupingCharacter](../../imathgroupingcharacter)
 * 接口 [IMathElement](../../imathelement)
@@ -40,7 +40,7 @@ public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element, 
 
 ## CreateMathGroupingCharacter(IMathElement) {#createmathgroupingcharacter}
 
-创建一个数学分组字符
+创建数学分组字符
 
 ```csharp
 public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element)
@@ -54,7 +54,7 @@ public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element)
 
 新的分组字符元素
 
-### 另见
+### 参见
 
 * 接口 [IMathGroupingCharacter](../../imathgroupingcharacter)
 * 接口 [IMathElement](../../imathelement)

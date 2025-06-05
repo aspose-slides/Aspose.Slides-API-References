@@ -1,7 +1,7 @@
 ---
 title: TickLabelSpacing
-second_title: Aspose.Sildes for .NET API 参考
-description: 指定在绘制标签之间跳过多少个刻度标签。可读写的 UInt32。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定在绘制的标签之间跳过多少个刻度标签。可读写 UInt32。
 type: docs
 weight: 520
 url: /zh/aspose.slides.charts/iaxis/ticklabelspacing/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/iaxis/ticklabelspacing/
 
 ## IAxis.TickLabelSpacing 属性
 
-指定在绘制标签之间跳过多少个刻度标签。可读写的 UInt32。
+指定在绘制的标签之间跳过多少个刻度标签。可读写 UInt32。
 
 ```csharp
 public uint TickLabelSpacing { get; set; }

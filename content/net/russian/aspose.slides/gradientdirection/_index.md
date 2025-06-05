@@ -1,6 +1,6 @@
 ---
-title: НаправлениеГрадиента
-second_title: Ссылка на API Aspose.Slides для .NET
+title: GradientDirection
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет стиль градиента.
 type: docs
 weight: 4790
@@ -26,7 +26,7 @@ public enum GradientDirection
 | FromCorner4 | `3` | Из нижнего правого угла |
 | FromCenter | `4` | Из центра |
 
-### См. Также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

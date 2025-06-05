@@ -1,6 +1,6 @@
 ---
 title: BlurRadius
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence de l'API .NET
 description: Rayon de flou. Lecture/écriture Double.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ Rayon de flou. Lecture/écriture Double.
 public double BlurRadius { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IOuterShadow](../../ioutershadow)
 * namespace [Aspose.Slides.Effects](../../ioutershadow)

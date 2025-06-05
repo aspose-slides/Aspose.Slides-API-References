@@ -1,15 +1,15 @@
 ---
-title: Ajouter
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Ajoutez une nouvelle règle FallBack à la fin de la collection.
+title: Add
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Ajoute une nouvelle règle FallBack à la fin de la collection.
 type: docs
 weight: 20
 url: /fr/aspose.slides/ifontfallbackrulescollection/add/
 ---
 
-## Méthode IFontFallBackRulesCollection.Add
+## IFontFallBackRulesCollection.Add method
 
-Ajoutez une nouvelle règle FallBack à la fin de la collection.
+Ajoute une nouvelle règle FallBack à la fin de la collection.
 
 ```csharp
 public void Add(IFontFallBackRule sourceRule)
@@ -25,7 +25,7 @@ public void Add(IFontFallBackRule sourceRule)
 [C#]
 using (Presentation pres = new Presentation ())
 {
-    //Obtention d'une collection de règles vide ou préinitialisée depuis FontsManager
+    //Obtention d'une collection de règles vide ou préinitialisée à partir de FontsManager
     IFontFallBackRulesCollection rulesList = pres.FontsManager.FontFallBackRulesCollection;
 
     //Ajout d'une nouvelle règle à la collection
@@ -33,7 +33,7 @@ using (Presentation pres = new Presentation ())
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IFontFallBackRule](../../ifontfallbackrule)
 * interface [IFontFallBackRulesCollection](../../ifontfallbackrulescollection)

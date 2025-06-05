@@ -1,7 +1,7 @@
 ---
 title: SlideViewProperties
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt allgemeine Ansichtseigenschaften an, die mit dem Folienansichtsmodus verbunden sind. Nur lesbar ICommonSlideViewPropertiesaspose.slides/icommonslideviewproperties.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt allgemeine Ansichtseigenschaften an, die mit dem Präsentationsmodus verbunden sind. Nur lesbar ICommonSlideViewPropertiesaspose.slides/icommonslideviewproperties.
 type: docs
 weight: 60
 url: /de/aspose.slides/iviewproperties/slideviewproperties/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iviewproperties/slideviewproperties/
 
 ## IViewProperties.SlideViewProperties-Eigenschaft
 
-Gibt allgemeine Ansichtseigenschaften an, die mit dem Folienansichtsmodus verbunden sind. Nur lesbar [`ICommonSlideViewProperties`](../../icommonslideviewproperties).
+Gibt allgemeine Ansichtseigenschaften an, die mit dem Präsentationsmodus verbunden sind. Nur lesbar [`ICommonSlideViewProperties`](../../icommonslideviewproperties).
 
 ```csharp
 public ICommonSlideViewProperties SlideViewProperties { get; }

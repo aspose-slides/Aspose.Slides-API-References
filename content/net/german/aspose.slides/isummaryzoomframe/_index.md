@@ -1,7 +1,7 @@
 ---
 title: ISummaryZoomFrame
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt einen Summary Zoom-Rahmen in einer Folie dar.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt einen Summary Zoom-Frame in einer Folie dar.
 type: docs
 weight: 6930
 url: /de/aspose.slides/isummaryzoomframe/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/isummaryzoomframe/
 
 ## ISummaryZoomFrame-Schnittstelle
 
-Stellt einen Summary Zoom-Rahmen in einer Folie dar.
+Stellt einen Summary Zoom-Frame in einer Folie dar.
 
 ```csharp
 public interface ISummaryZoomFrame : IGraphicalObject
@@ -20,10 +20,10 @@ public interface ISummaryZoomFrame : IGraphicalObject
 | Name | Beschreibung |
 | --- | --- |
 | [AsIGraphicalObject](../../aspose.slides/isummaryzoomframe/asigraphicalobject) { get; } | Gibt die IGraphicalObject-Schnittstelle zurück. |
-| [Layout](../../aspose.slides/isummaryzoomframe/layout) { get; } | Gibt das Layout der Summary Zoom-Abschnitte im Rahmen zurück. Standardwert ist GridLayout. |
-| [SummaryZoomCollection](../../aspose.slides/isummaryzoomframe/summaryzoomcollection) { get; } | Gibt [`ISummaryZoomSectionCollection`](../isummaryzoomsectioncollection) für das Summary Zoom-Rahmenobjekt zurück. |
+| [Layout](../../aspose.slides/isummaryzoomframe/layout) { get; } | Gibt das Layout der Summary Zoom-Abschnitte im Frame zurück. Der Standardwert ist GridLayout. |
+| [SummaryZoomCollection](../../aspose.slides/isummaryzoomframe/summaryzoomcollection) { get; } | Gibt [`ISummaryZoomSectionCollection`](../isummaryzoomsectioncollection) für das Summary Zoom Frame-Objekt zurück. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IGraphicalObject](../igraphicalobject)
 * Namespace [Aspose.Slides](../../aspose.slides)

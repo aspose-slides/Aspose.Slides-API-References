@@ -6,6 +6,7 @@ type: docs
 weight: 290
 url: /aspose.slides/presentation/viewproperties/
 ---
+
 ## Presentation.ViewProperties property
 
 Gets presentation wide view properties. Read-only [`IViewProperties`](../../iviewproperties).

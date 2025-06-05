@@ -1,7 +1,7 @@
 ---
 title: AsLiteralString
 second_title: Aspose.Sildes for .NET API Reference
-description: 当 DataSourceType 属性为 DataSourceType.StringLiterals 时，返回或设置文字字符串。可读/写字符串。
+description: 如果 DataSourceType 属性为 DataSourceType.StringLiterals，则返回或设置字面字符串。可读写字符串。
 type: docs
 weight: 20
 url: /zh/aspose.slides.charts/istringchartvalue/asliteralstring/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/istringchartvalue/asliteralstring/
 
 ## IStringChartValue.AsLiteralString 属性
 
-当 DataSourceType 属性为 DataSourceType.StringLiterals 时，返回或设置文字字符串。可读/写字符串。
+如果 DataSourceType 属性为 DataSourceType.StringLiterals，则返回或设置字面字符串。可读写字符串。
 
 ```csharp
 public string AsLiteralString { get; set; }
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [IStringChartValue](../../istringchartvalue)
 * 命名空间 [Aspose.Slides.Charts](../../istringchartvalue)

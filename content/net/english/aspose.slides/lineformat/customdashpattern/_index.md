@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/lineformat/customdashpattern/
 ---
+
 ## LineFormat.CustomDashPattern property
 
 Returns or sets the custom dash pattern. Read/write Single[].

@@ -1,6 +1,6 @@
 ---
 title: Compliance
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Gewünschtes Konformitätsniveau für das generierte PDF-Dokument. Lese-/Schreibzugriff auf PdfComplianceaspose.slides.export/pdfcompliance.
 type: docs
 weight: 60
@@ -15,9 +15,9 @@ Gewünschtes Konformitätsniveau für das generierte PDF-Dokument. Lese-/Schreib
 public PdfCompliance Compliance { get; set; }
 ```
 
-### Anmerkungen
+### Bemerkungen
 
-Standard ist Pdf17.
+Voreinstellung ist Pdf17.
 
 ### Siehe auch
 

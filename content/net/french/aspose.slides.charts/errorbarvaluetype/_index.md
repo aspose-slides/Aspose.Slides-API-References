@@ -1,6 +1,6 @@
 ---
 title: ErrorBarValueType
-second_title: Aspose.Slildes pour .NET API Référence
+second_title: Aspose.Slides pour .NET API Référence
 description: Représente le type de valeur de barre d'erreur
 type: docs
 weight: 1570
@@ -19,11 +19,11 @@ public enum ErrorBarValueType
 
 | Nom | Valeur | Description |
 | --- | --- | --- |
-| Custom | `0` | Spécifie que la longueur des barres d'erreur doit être déterminée par les éléments Plus et Moins. |
-| Fixed | `1` | Spécifie que la longueur des barres d'erreur doit être la valeur fixe déterminée par la valeur de barre d'erreur. |
-| Percentage | `2` | Spécifie que la longueur des barres d'erreur doit être un pourcentage de la valeur de barre d'erreur par rapport aux données. |
-| StandardDeviation | `3` | Spécifie que la longueur des barres d'erreur doit être des écarts-types de la valeur de barre d'erreur par rapport aux données. |
-| StandardError | `4` | Spécifie que la longueur des barres d'erreur doit être des erreurs standards de la valeur de barre d'erreur par rapport aux données. |
+| Custom | `0` | Spécifie que la longueur des barres d'erreur sera déterminée par les éléments Plus et Moins. |
+| Fixed | `1` | Spécifie que la longueur des barres d'erreur sera la valeur fixe déterminée par la valeur de la barre d'erreur. |
+| Percentage | `2` | Spécifie que la longueur des barres d'erreur sera le pourcentage de la valeur de la barre d'erreur des données. |
+| StandardDeviation | `3` | Spécifie que la longueur des barres d'erreur sera les écarts-types de la valeur de la barre d'erreur des données. |
+| StandardError | `4` | Spécifie que la longueur des barres d'erreur sera les erreurs-types de la valeur de la barre d'erreur des données. |
 
 ### Voir aussi
 

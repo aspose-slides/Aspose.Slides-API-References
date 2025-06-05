@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.animation/pointcollection/pointcollection/
 ---
+
 ## PointCollection constructor
 
 The default constructor.

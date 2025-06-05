@@ -1,21 +1,21 @@
 ---
 title: IsChartTypeScatter
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt true zurück, wenn chartType einer der Scatter-Subtypen ist. Die Subtypen entsprechen dem entsprechenden Satz in PowerPoint siehe "Diagrammtyp ändern"-Dialog in PowerPoint ScatterWithMarkers, ScatterWithSmoothLines, ScatterWithSmoothLinesAndMarkers, ScatterWithStraightLines, ScatterWithStraightLinesAndMarkers.
+description: Gibt true zurück, wenn chartType einer der Scatter-Subtypen ist. Die Subtypensätze entsprechen dem entsprechenden Satz in PowerPoint siehe Dialogfeld „Diagrammtyp ändern“ in PowerPoint ScatterWithMarkers, ScatterWithSmoothLines, ScatterWithSmoothLinesAndMarkers, ScatterWithStraightLines, ScatterWithStraightLinesAndMarkers.
 type: docs
 weight: 130
 url: /de/aspose.slides.charts/charttypecharacterizer/ischarttypescatter/
 ---
 
-## ChartTypeCharacterizer.IsChartTypeScatter Methode
+## ChartTypeCharacterizer.IsChartTypeScatter-Methode
 
-Gibt true zurück, wenn chartType einer der Scatter-Subtypen ist. Die Subtypen entsprechen dem entsprechenden Satz in PowerPoint (siehe "Diagrammtyp ändern"-Dialog in PowerPoint): ScatterWithMarkers, ScatterWithSmoothLines, ScatterWithSmoothLinesAndMarkers, ScatterWithStraightLines, ScatterWithStraightLinesAndMarkers.
+Gibt true zurück, wenn chartType einer der Scatter-Subtypen ist. Die Subtypensätze entsprechen dem entsprechenden Satz in PowerPoint (siehe Dialogfeld „Diagrammtyp ändern“ in PowerPoint): ScatterWithMarkers, ScatterWithSmoothLines, ScatterWithSmoothLinesAndMarkers, ScatterWithStraightLines, ScatterWithStraightLinesAndMarkers.
 
 ```csharp
 public static bool IsChartTypeScatter(ChartType chartType)
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

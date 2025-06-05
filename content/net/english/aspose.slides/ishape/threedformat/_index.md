@@ -3,9 +3,10 @@ title: ThreeDFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns the ThreeDFormat object that contains line formatting properties for a shape. Read-only IThreeDFormataspose.slides/ithreedformat.
 type: docs
-weight: 230
+weight: 240
 url: /aspose.slides/ishape/threedformat/
 ---
+
 ## IShape.ThreeDFormat property
 
 Returns the ThreeDFormat object that contains line formatting properties for a shape. Read-only [`IThreeDFormat`](../../ithreedformat).

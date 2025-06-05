@@ -1,15 +1,15 @@
 ---
 title: Explosion
 second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie la quantité que le point de données doit être déplacé du centre du secteur. Lecture/écriture Int32.
+description: Spécifie la quantité de déplacement du point de données par rapport au centre du graphique en secteurs. Lecture/écriture Int32.
 type: docs
 weight: 60
 url: /fr/aspose.slides.charts/ichartdatapoint/explosion/
 ---
 
-## Propriété IChartDataPoint.Explosion
+## IChartDataPoint.Explosion property
 
-Spécifie la quantité que le point de données doit être déplacé du centre du secteur. Lecture/écriture Int32.
+Spécifie la quantité de déplacement du point de données par rapport au centre du graphique en secteurs. Lecture/écriture Int32.
 
 ```csharp
 public int Explosion { get; set; }

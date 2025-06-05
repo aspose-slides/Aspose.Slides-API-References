@@ -1,6 +1,6 @@
 ---
 title: AddZoomFrame
-second_title: Aspose.Sildes para .NET Referencia de API
+second_title: Aspose.Sildes para .NET API Reference
 description: Agrega un nuevo objeto Zoom al final de una colección.
 type: docs
 weight: 190
@@ -45,11 +45,11 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Ver También
+### Véase También
 
-* interface [IZoomFrame](../../izoomframe)
-* interface [ISlide](../../islide)
-* interface [IShapeCollection](../../ishapecollection)
+* interfaz [IZoomFrame](../../izoomframe)
+* interfaz [ISlide](../../islide)
+* interfaz [IShapeCollection](../../ishapecollection)
 * namespace [Aspose.Slides](../../ishapecollection)
 * assembly [Aspose.Slides](../../../)
 
@@ -96,12 +96,12 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Ver También
+### Véase También
 
-* interface [IZoomFrame](../../izoomframe)
-* interface [ISlide](../../islide)
-* interface [IPPImage](../../ippimage)
-* interface [IShapeCollection](../../ishapecollection)
+* interfaz [IZoomFrame](../../izoomframe)
+* interfaz [ISlide](../../islide)
+* interfaz [IPPImage](../../ippimage)
+* interfaz [IShapeCollection](../../ishapecollection)
 * namespace [Aspose.Slides](../../ishapecollection)
 * assembly [Aspose.Slides](../../../)
 

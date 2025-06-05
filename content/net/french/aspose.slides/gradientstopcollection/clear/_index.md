@@ -1,13 +1,13 @@
 ---
-title: Effacer
-second_title: Référence de l'API Aspose.Sildes pour .NET
+title: Clear
+second_title: Aspose.Sildes pour la référence de l'API .NET
 description: Supprime tous les arrêts de dégradé d'une collection.
 type: docs
 weight: 60
 url: /fr/aspose.slides/gradientstopcollection/clear/
 ---
 
-## Méthode GradientStopCollection.Clear
+## GradientStopCollection.Clear méthode
 
 Supprime tous les arrêts de dégradé d'une collection.
 
@@ -15,7 +15,7 @@ Supprime tous les arrêts de dégradé d'une collection.
 public void Clear()
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [GradientStopCollection](../../gradientstopcollection)
 * espace de noms [Aspose.Slides](../../gradientstopcollection)

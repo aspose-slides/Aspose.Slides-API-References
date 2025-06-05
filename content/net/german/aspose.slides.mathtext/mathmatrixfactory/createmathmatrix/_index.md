@@ -1,6 +1,6 @@
 ---
 title: CreateMathMatrix
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Erstellt eine mathematische Matrix
 type: docs
 weight: 20

@@ -1,6 +1,6 @@
 ---
 title: AlternativeLanguageId
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает Id альтернативного языка. Только для чтения строка.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ibaseportionformateffectivedata/alternativelanguageid/
 public string AlternativeLanguageId { get; }
 ```
 
-### Также см.
+### См. Также
 
 * интерфейс [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
 * пространство имен [Aspose.Slides](../../ibaseportionformateffectivedata)

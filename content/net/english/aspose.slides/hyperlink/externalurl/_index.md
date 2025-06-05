@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides/hyperlink/externalurl/
 ---
+
 ## Hyperlink.ExternalUrl property
 
 Specifies the external URL. Read-only String.

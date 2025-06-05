@@ -1,7 +1,7 @@
 ---
 title: LatinLineBreak
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob der lateinische Zeilenumbruch in einem Absatz verwendet wird. Nur-Lesen-Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt, ob der lateinische Zeilenumbruch in einem Absatz verwendet wird. Nur-Lese Boolescher Wert.
 type: docs
 weight: 100
 url: /de/aspose.slides/iparagraphformateffectivedata/latinlinebreak/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iparagraphformateffectivedata/latinlinebreak/
 
 ## IParagraphFormatEffectiveData.LatinLineBreak-Eigenschaft
 
-Bestimmt, ob der lateinische Zeilenumbruch in einem Absatz verwendet wird. Nur-Lesen-Boolean.
+Bestimmt, ob der lateinische Zeilenumbruch in einem Absatz verwendet wird. Nur-Lese Boolescher Wert.
 
 ```csharp
 public bool LatinLineBreak { get; }

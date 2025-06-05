@@ -1,15 +1,15 @@
 ---
-title: Ajouter
+title: Add
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Ajoute un paragraphe à la fin de la collection.
+description: Ajoute un Paragraphe à la fin de la collection.
 type: docs
 weight: 50
 url: /fr/aspose.slides/iparagraphcollection/add/
 ---
 
-## Ajouter(IParagraph) {#add_1}
+## Add(IParagraph) {#add_1}
 
-Ajoute un paragraphe à la fin de la collection.
+Ajoute un Paragraphe à la fin de la collection.
 
 ```csharp
 public void Add(IParagraph value)
@@ -17,7 +17,7 @@ public void Add(IParagraph value)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| value | IParagraph | Le paragraphe à ajouter à la fin de la collection. |
+| value | IParagraph | Le Paragraphe à ajouter à la fin de la collection. |
 
 ### Voir aussi
 
@@ -28,7 +28,7 @@ public void Add(IParagraph value)
 
 ---
 
-## Ajouter(IParagraphCollection) {#add}
+## Add(IParagraphCollection) {#add}
 
 Ajoute le contenu de ParagraphCollection à la fin de la collection.
 
@@ -42,7 +42,7 @@ public int Add(IParagraphCollection value)
 
 ### Valeur de retour
 
-L'index auquel le paragraphe a été ajouté ou -1 s'il n'y a rien à ajouter.
+L'index auquel le Paragraphe a été ajouté ou -1 s'il n'y a rien à ajouter.
 
 ### Voir aussi
 

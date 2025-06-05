@@ -1,7 +1,7 @@
 ---
 title: AsIHtmlFormattingController
-second_title: Aspose.Slides для .NET API Справочник
-description: Позволяет получить базовый интерфейс IHtmlFormattingController. Только для чтения IHtmlFormattingController aspose.slides.export/ihtmlformattingcontroller.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Позволяет получить базовый интерфейс IHtmlFormattingController. Только для чтения IHtmlFormattingControlleraspose.slides.export/ihtmlformattingcontroller.
 type: docs
 weight: 10
 url: /ru/aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller/
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontro
 public IHtmlFormattingController AsIHtmlFormattingController { get; }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IHtmlFormattingController](../../ihtmlformattingcontroller)
 * интерфейс [IVideoPlayerHtmlController](../../ivideoplayerhtmlcontroller)

@@ -1,6 +1,6 @@
 ---
 title: ITextStyleEffectiveData
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 不可变对象，包含有效的文本样式属性。
 type: docs
 weight: 7100
@@ -29,9 +29,9 @@ public interface ITextStyleEffectiveData
 
 ### 备注
 
-此接口与 [`ITextStyle`](../itextstyle) 接口一起使用，以返回应用继承的有效格式值。
+此接口与 [`ITextStyle`](../itextstyle) 接口一起使用，以返回应用了继承的有效格式值。
 
-### 另请参见
+### 相关内容
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

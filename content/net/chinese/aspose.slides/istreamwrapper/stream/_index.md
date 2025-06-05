@@ -1,6 +1,6 @@
 ---
-title: 流
-second_title: Aspose.Slides for .NET API 参考
+title: Stream
+second_title: Aspose.Slides for .NET API Reference
 description: 获取一个流。只读流。
 type: docs
 weight: 70
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/istreamwrapper/stream/
 public Stream Stream { get; }
 ```
 
-### 参见也
+### 另见
 
 * 接口 [IStreamWrapper](../../istreamwrapper)
 * 命名空间 [Aspose.Slides](../../istreamwrapper)

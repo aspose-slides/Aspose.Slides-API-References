@@ -1,13 +1,13 @@
 ---
-title: РежимВоспроизведения
-second_title: Справочник по API Aspose.Slides для .NET
+title: PlayMode
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает или задает режим воспроизведения видео. Чтение/запись VideoPlayModePresetaspose.slides/videoplaymodepreset.
 type: docs
 weight: 80
 url: /ru/aspose.slides/ivideoframe/playmode/
 ---
 
-## Свойство IVideoFrame.PlayMode
+## IVideoFrame.PlayMode свойство
 
 Возвращает или задает режим воспроизведения видео. Чтение/запись [`VideoPlayModePreset`](../../videoplaymodepreset).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ivideoframe/playmode/
 public VideoPlayModePreset PlayMode { get; set; }
 ```
 
-### См. Также
+### См. также
 
 * enum [VideoPlayModePreset](../../videoplaymodepreset)
 * interface [IVideoFrame](../../ivideoframe)

@@ -1,6 +1,6 @@
 ---
 title: TriggerDelayTime
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Beschreibt die Verzögerungszeit nach dem Trigger. Lese-/Schreibzugriff auf Single.
 type: docs
 weight: 120
@@ -15,7 +15,7 @@ Beschreibt die Verzögerungszeit nach dem Trigger. Lese-/Schreibzugriff auf Sing
 public float TriggerDelayTime { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ITiming](../../itiming)
 * Namespace [Aspose.Slides.Animation](../../itiming)

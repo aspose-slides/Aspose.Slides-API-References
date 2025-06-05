@@ -1,7 +1,7 @@
 ---
 title: SyncRoot
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie une racine de synchronisation. Objet en lecture seule.
+second_title: Référence API Aspose.Slides pour .NET
+description: Retourne une racine de synchronisation. Objet en lecture seule.
 type: docs
 weight: 50
 url: /fr/aspose.slides/fontfallbackrulescollection/syncroot/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/fontfallbackrulescollection/syncroot/
 
 ## Propriété FontFallBackRulesCollection.SyncRoot
 
-Renvoie une racine de synchronisation. Objet en lecture seule.
+Retourne une racine de synchronisation. Objet en lecture seule.
 
 ```csharp
 public object SyncRoot { get; }

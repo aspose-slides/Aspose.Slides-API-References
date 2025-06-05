@@ -15,7 +15,7 @@ Wirft eine OperationCanceledException, wenn eine Unterbrechung angefordert wurde
 public void ThrowIfInterruptionRequested()
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IInterruptionToken](../../iinterruptiontoken)
 * Namespace [Aspose.Slides](../../iinterruptiontoken)

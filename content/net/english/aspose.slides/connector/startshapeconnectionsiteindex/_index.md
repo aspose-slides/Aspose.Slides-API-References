@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/connector/startshapeconnectionsiteindex/
 ---
+
 ## Connector.StartShapeConnectionSiteIndex property
 
 Returns or sets the index of connection site for start shape. Read/write UInt32.

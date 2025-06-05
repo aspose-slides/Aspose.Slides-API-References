@@ -1,6 +1,6 @@
 ---
 title: ColorTransform
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Slides for .NET API Reference
 description: 返回应用于颜色的颜色转换集合。只读 IColorOperationCollectionaspose.slides/icoloroperationcollection。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/colorformat/colortransform/
 public IColorOperationCollection ColorTransform { get; }
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [IColorOperationCollection](../../icoloroperationcollection)
 * 类 [ColorFormat](../../colorformat)

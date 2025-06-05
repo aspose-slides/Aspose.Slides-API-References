@@ -1,7 +1,7 @@
 ---
 title: IsChartTypePie
 second_title: Aspose.Sildes for .NET API Reference
-description: 如果 chartType 是饼图的子类型之一，则返回 true。子类型集对应于 PowerPoint 中的适当集合，参见 PowerPoint 的 "更改图表类型" 对话框：BarOfPie，ExplodedPie，ExplodedPie3D，Pie，Pie3D，PieOfPie。
+description: 如果 chartType 是其中一个饼图子类型，则返回 true。子类型集合对应于 PowerPoint 中的相应集合（请参见 PowerPoint 中的“更改图表类型”对话框）：BarOfPie，ExplodedPie，ExplodedPie3D，Pie，Pie3D，PieOfPie。
 type: docs
 weight: 110
 url: /zh/aspose.slides.charts/charttypecharacterizer/ischarttypepie/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/charttypecharacterizer/ischarttypepie/
 
 ## ChartTypeCharacterizer.IsChartTypePie 方法
 
-如果 chartType 是饼图的子类型之一，则返回 true。子类型集对应于 PowerPoint 中的适当集合（参见 PowerPoint 的 "更改图表类型" 对话框）：BarOfPie，ExplodedPie，ExplodedPie3D，Pie，Pie3D，PieOfPie。
+如果 chartType 是其中一个饼图子类型，则返回 true。子类型集合对应于 PowerPoint 中的相应集合（请参见 “更改图表类型” 对话框）：BarOfPie，ExplodedPie，ExplodedPie3D，Pie，Pie3D，PieOfPie。
 
 ```csharp
 public static bool IsChartTypePie(ChartType chartType)
 ```
 
-### 另见
+### 相关链接
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

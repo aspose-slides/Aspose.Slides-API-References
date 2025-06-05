@@ -1,15 +1,15 @@
 ---
 title: DisplayBlanksAs
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает или задает способ отображения пустых ячеек на диаграмме. Чтение/запись DisplayBlanksAsTypeaspose.slides.charts/displayblanksastype.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает или устанавливает способ отображения пустых ячеек на графике. Чтение/запись DisplayBlanksAsTypeaspose.slides.charts/displayblanksastype.
 type: docs
 weight: 80
 url: /ru/aspose.slides.charts/chart/displayblanksas/
 ---
 
-## Свойство Chart.DisplayBlanksAs
+## Chart.DisplayBlanksAs свойство
 
-Возвращает или задает способ отображения пустых ячеек на диаграмме. Чтение/запись [`DisplayBlanksAsType`](../../displayblanksastype).
+Возвращает или устанавливает способ отображения пустых ячеек на графике. Чтение/запись [`DisplayBlanksAsType`](../../displayblanksastype).
 
 ```csharp
 public DisplayBlanksAsType DisplayBlanksAs { get; set; }

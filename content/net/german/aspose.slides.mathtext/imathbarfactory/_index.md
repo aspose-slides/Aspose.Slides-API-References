@@ -1,6 +1,6 @@
 ---
 title: IMathBarFactory
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Ermöglicht das Erstellen einer Mathematik-Leiste
 type: docs
 weight: 7880
@@ -19,8 +19,8 @@ public interface IMathBarFactory
 
 | Name | Beschreibung |
 | --- | --- |
-| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar)(IMathElement) | Erstellt eine Mathematik-Leiste, indem sie auf das Element angewendet wird |
-| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | Erstellt eine Mathematik-Leiste, indem sie auf das Element angewendet wird |
+| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar)(IMathElement) | Erstellen einer Mathematik-Leiste durch Anwenden auf das Element |
+| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | Erstellen einer Mathematik-Leiste durch Anwenden auf das Element |
 
 ### Anmerkungen
 

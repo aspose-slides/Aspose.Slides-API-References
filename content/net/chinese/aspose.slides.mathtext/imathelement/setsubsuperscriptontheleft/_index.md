@@ -1,6 +1,6 @@
 ---
 title: SetSubSuperscriptOnTheLeft
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 在左侧创建下标和上标
 type: docs
 weight: 150
@@ -23,11 +23,11 @@ public IMathLeftSubSuperscriptElement SetSubSuperscriptOnTheLeft(IMathElement su
 
 ### 返回值
 
-类型为 [`IMathLeftSubSuperscriptElement`](../../imathleftsubsuperscriptelement) 的新数学元素
+新数学元素类型为 [`IMathLeftSubSuperscriptElement`](../../imathleftsubsuperscriptelement)
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -37,7 +37,7 @@ IMathElement superscript = new MathematicalText("j");
 IMathLeftSubSuperscriptElement leftSubsuperscript = baseElement.SetSubSuperscriptOnTheLeft(subscript, superscript);
 ```
 
-### 参见
+### 相关内容
 
 * 接口 [IMathLeftSubSuperscriptElement](../../imathleftsubsuperscriptelement)
 * 接口 [IMathElement](../../imathelement)
@@ -62,11 +62,11 @@ public IMathLeftSubSuperscriptElement SetSubSuperscriptOnTheLeft(string subscrip
 
 ### 返回值
 
-类型为 [`IMathLeftSubSuperscriptElement`](../../imathleftsubsuperscriptelement) 的新数学元素
+新数学元素类型为 [`IMathLeftSubSuperscriptElement`](../../imathleftsubsuperscriptelement)
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -74,7 +74,7 @@ IMathElement baseElement = new MathematicalText("N");
 IMathLeftSubSuperscriptElement leftSubsuperscript = baseElement.SetSubSuperscriptOnTheLeft("i", "j");
 ```
 
-### 参见
+### 相关内容
 
 * 接口 [IMathLeftSubSuperscriptElement](../../imathleftsubsuperscriptelement)
 * 接口 [IMathElement](../../imathelement)

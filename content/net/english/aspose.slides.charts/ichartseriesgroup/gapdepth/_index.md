@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.charts/ichartseriesgroup/gapdepth/
 ---
+
 ## IChartSeriesGroup.GapDepth property
 
 Returns or sets the distance, as a percentage of the marker width, between the data series in a 3D chart. Read/write UInt16.

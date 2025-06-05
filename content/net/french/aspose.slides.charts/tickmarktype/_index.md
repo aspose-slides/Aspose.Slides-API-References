@@ -1,7 +1,7 @@
 ---
 title: TickMarkType
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente le type de marque de graduation pour l'axe spécifié.
+second_title: Référence API Aspose.Slides pour .NET
+description: Représente le type de repère pour l'axe spécifié.
 type: docs
 weight: 2370
 url: /fr/aspose.slides.charts/tickmarktype/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/tickmarktype/
 
 ## Énumération TickMarkType
 
-Représente le type de marque de graduation pour l'axe spécifié.
+Représente le type de repère pour l'axe spécifié.
 
 ```csharp
 public enum TickMarkType
@@ -19,10 +19,10 @@ public enum TickMarkType
 
 | Nom | Valeur | Description |
 | --- | --- | --- |
-| Cross | `0` | Spécifie que les marques de graduation doivent croiser l'axe. |
-| Inside | `1` | Spécifie que les marques de graduation doivent être à l'intérieur de la zone de tracé. |
-| None | `2` | Spécifie qu'il ne doit y avoir aucune marque de graduation. |
-| Outside | `3` | Spécifie que les marques de graduation doivent être à l'extérieur de la zone de tracé. |
+| Cross | `0` | Spécifie que les repères doivent traverser l'axe. |
+| Inside | `1` | Spécifie que les repères doivent être à l'intérieur de la zone de tracé. |
+| None | `2` | Spécifie qu'il ne doit y avoir aucun repère. |
+| Outside | `3` | Spécifie que les repères doivent être à l'extérieur de la zone de tracé. |
 
 ### Voir aussi
 

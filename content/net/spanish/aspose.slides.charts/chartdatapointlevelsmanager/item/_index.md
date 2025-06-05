@@ -1,5 +1,5 @@
 ---
-title: Ítem
+title: Item
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el objeto IChartDataPointLevel para el nivel definido.
 type: docs
@@ -7,7 +7,7 @@ weight: 20
 url: /es/aspose.slides.charts/chartdatapointlevelsmanager/item/
 ---
 
-## Índice de ChartDataPointLevelsManager
+## Indexador ChartDataPointLevelsManager
 
 Devuelve el objeto IChartDataPointLevel para el nivel definido.
 

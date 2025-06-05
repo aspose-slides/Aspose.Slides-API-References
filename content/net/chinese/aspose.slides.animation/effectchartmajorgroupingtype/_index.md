@@ -1,13 +1,13 @@
 ---
 title: EffectChartMajorGroupingType
-second_title: Aspose.Slides for .NET API参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示图表元素的动画效果类型。
 type: docs
 weight: 210
 url: /zh/aspose.slides.animation/effectchartmajorgroupingtype/
 ---
 
-## EffectChartMajorGroupingType枚举
+## EffectChartMajorGroupingType 枚举
 
 表示图表元素的动画效果类型。
 
@@ -22,7 +22,7 @@ public enum EffectChartMajorGroupingType
 | BySeries | `0` | 按系列动画图表 |
 | ByCategory | `1` | 按类别动画图表 |
 
-### 另请参见
+### 参见
 
 * 命名空间 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 程序集 [Aspose.Slides](../../)

@@ -7,7 +7,7 @@ weight: 90
 url: /ru/aspose.slides.animation/behaviorcollection/
 ---
 
-## Класс BehaviorCollection
+## BehaviorCollection класс
 
 Представляет коллекцию эффектов поведения.
 
@@ -27,17 +27,17 @@ public class BehaviorCollection : IBehaviorCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.slides.animation/behaviorcollection/add)(IBehavior) | Добавляет новое поведение в коллекцию. |
+| [Add](../../aspose.slides.animation/behaviorcollection/add)(IBehavior) | Добавить новое поведение в коллекцию. |
 | [Clear](../../aspose.slides.animation/behaviorcollection/clear)() | Удаляет все поведения из коллекции. |
 | [Contains](../../aspose.slides.animation/behaviorcollection/contains)(IBehavior) | Определяет, содержит ли ICollection конкретное значение. |
-| [CopyTo](../../aspose.slides.animation/behaviorcollection/copyto)(IBehavior[], int) | Копирует элементы ICollection в массив, начиная с определенного индекса массива. |
-| [GetEnumerator](../../aspose.slides.animation/behaviorcollection/getenumerator)() | Возвращает перечислитель, который проходит через коллекцию. |
+| [CopyTo](../../aspose.slides.animation/behaviorcollection/copyto)(IBehavior[], int) | Копирует элементы ICollection в массив, начиная с указанного индекса массива. |
+| [GetEnumerator](../../aspose.slides.animation/behaviorcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
 | [IndexOf](../../aspose.slides.animation/behaviorcollection/indexof)(IBehavior) | Определяет индекс конкретного элемента в IList. |
 | [Insert](../../aspose.slides.animation/behaviorcollection/insert)(int, IBehavior) | Вставляет новое поведение в коллекцию по указанному индексу. |
 | [Remove](../../aspose.slides.animation/behaviorcollection/remove)(IBehavior) | Удаляет указанное поведение из коллекции. |
 | [RemoveAt](../../aspose.slides.animation/behaviorcollection/removeat)(int) | Удаляет поведение из коллекции по указанному индексу. |
 
-### См. также
+### См. Также
 
 * интерфейс [IBehaviorCollection](../ibehaviorcollection)
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)

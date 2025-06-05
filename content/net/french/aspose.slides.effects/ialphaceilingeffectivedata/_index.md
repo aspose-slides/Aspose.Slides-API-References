@@ -1,15 +1,15 @@
 ---
 title: IAlphaCeilingEffectiveData
-second_title: Aspose.Sildes pour la référence API .NET
-description: Objet immutable qui représente un effet de plafond alpha. Les valeurs d'opacité alpha supérieures à zéro sont changées en 100. En d'autres termes, tout ce qui est partiellement opaque devient entièrement opaque.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Objet immuable qui représente un effet de plafond alpha. Les valeurs d'opacité alpha supérieures à zéro sont changées à 100. En d'autres termes, tout ce qui est partiellement opaque devient complètement opaque.
 type: docs
 weight: 2950
 url: /fr/aspose.slides.effects/ialphaceilingeffectivedata/
 ---
 
-## Interface IAlphaCeilingEffectiveData
+## IAlphaCeilingEffectiveData interface
 
-Objet immutable qui représente un effet de plafond alpha. Les valeurs alpha (opacité) supérieures à zéro sont changées en 100 %. En d'autres termes, tout ce qui est partiellement opaque devient entièrement opaque.
+Objet immuable qui représente un effet de plafond alpha. Les valeurs alpha (opacité) supérieures à zéro sont changées à 100 %. En d'autres termes, tout ce qui est partiellement opaque devient complètement opaque.
 
 ```csharp
 public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
@@ -19,9 +19,9 @@ public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
 
 | Nom | Description |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | Permet d'obtenir l'interface de base IEffectEffectiveData. En lecture seule [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | Permet d'obtenir l'interface de base IEffectEffectiveData. Lecture seule [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IEffectEffectiveData](../ieffecteffectivedata)
 * namespace [Aspose.Slides.Effects](../../aspose.slides.effects)

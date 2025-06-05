@@ -1,5 +1,5 @@
 ---
-title: EstilosDeEfecto
+title: EffectStyles
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve una colección de estilos de efecto definidos por el tema. Solo lectura IEffectStyleCollectionaspose.slides.theme/ieffectstylecollection.
 type: docs
@@ -15,11 +15,11 @@ Devuelve una colección de estilos de efecto definidos por el tema. Solo lectura
 public IEffectStyleCollection EffectStyles { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IEffectStyleCollection](../../ieffectstylecollection)
 * interfaz [IFormatScheme](../../iformatscheme)
 * espacio de nombres [Aspose.Slides.Theme](../../iformatscheme)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

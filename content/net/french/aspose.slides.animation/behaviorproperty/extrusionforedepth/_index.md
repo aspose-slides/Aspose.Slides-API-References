@@ -1,13 +1,13 @@
 ---
 title: ExtrusionForeDepth
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Représente la propriété extrusion.foredepth
 type: docs
 weight: 50
 url: /fr/aspose.slides.animation/behaviorproperty/extrusionforedepth/
 ---
 
-## Propriété BehaviorProperty.ExtrusionForeDepth
+## BehaviorProperty.ExtrusionForeDepth propriété
 
 Représente la propriété 'extrusion.foredepth'
 

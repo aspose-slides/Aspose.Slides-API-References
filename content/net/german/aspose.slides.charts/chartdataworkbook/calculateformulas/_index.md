@@ -1,7 +1,7 @@
 ---
-title: BerechneFormeln
-second_title: Aspose.Slides für .NET API-Referenz
-description: Berechnet alle Formeln im Arbeitsbuch und aktualisiert die entsprechenden Zellwerte.
+title: CalculateFormulas
+second_title: Aspose.Slides für .NET API Referenz
+description: Berechnet alle Formeln in der Arbeitsmappe und aktualisiert die entsprechenden Zellwerte.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/chartdataworkbook/calculateformulas/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartdataworkbook/calculateformulas/
 
 ## ChartDataWorkbook.CalculateFormulas-Methode
 
-Berechnet alle Formeln im Arbeitsbuch und aktualisiert die entsprechenden Zellwerte.
+Berechnet alle Formeln in der Arbeitsmappe und aktualisiert die entsprechenden Zellwerte.
 
 ```csharp
 public void CalculateFormulas()
@@ -19,12 +19,12 @@ public void CalculateFormulas()
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| [CellCircularReferenceException](../../../aspose.slides.spreadsheet/cellcircularreferenceexception) | Das Arbeitsbuch enthält Formeln mit einer zirkulären Referenz. |
-| [CellUnsupportedDataException](../../../aspose.slides.spreadsheet/cellunsupporteddataexception) | Zellendaten werden nicht unterstützt. |
+| [CellCircularReferenceException](../../../aspose.slides.spreadsheet/cellcircularreferenceexception) | Die Arbeitsmappe enthält Formeln mit einer zirkulären Referenz. |
+| [CellUnsupportedDataException](../../../aspose.slides.spreadsheet/cellunsupporteddataexception) | Die Zellendaten werden nicht unterstützt. |
 
 ### Beispiele
 
-Das Beispiel zeigt, wie man eine Formel der Zelle zuweist und einen Wert berechnet. Der Wert der Zelle "B4" wird auf 5 gesetzt.
+Dieses Beispiel zeigt, wie man einer Zelle eine Formel zuweist und einen Wert berechnet. Der Wert der Zelle "B4" wird auf 5 gesetzt.
 
 ```csharp
 [C#]
@@ -33,14 +33,14 @@ using (Presentation pres = new Presentation())
     IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.Pie, 100, 100, 300, 400);
     IChartDataWorkbook wb = chart.ChartData.ChartDataWorkbook;
     wb.GetCell(0, "B2", 2);	
-    wb.GetCell(0, "B3", 3);	
+	wb.GetCell(0, "B3", 3);	
     wb.GetCell(0, "B4").Formula = "B2+B3";
     wb.CalculateFormulas();
     ...
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [ChartDataWorkbook](../../chartdataworkbook)
 * Namespace [Aspose.Slides.Charts](../../chartdataworkbook)

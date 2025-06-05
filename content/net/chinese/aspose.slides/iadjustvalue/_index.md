@@ -1,7 +1,7 @@
 ---
 title: IAdjustValue
-second_title: Aspose.Slides for .NET API Reference
-description: 表示几何图形的调整值。这些值影响图形的形状。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示几何形状的调整值。这些值会影响形状的形式。
 type: docs
 weight: 4980
 url: /zh/aspose.slides/iadjustvalue/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iadjustvalue/
 
 ## IAdjustValue 接口
 
-表示几何图形的调整值。这些值影响图形的形状。
+表示几何形状的调整值。这些值会影响形状的形式。
 
 ```csharp
 public interface IAdjustValue
@@ -19,10 +19,10 @@ public interface IAdjustValue
 
 | 名称 | 描述 |
 | --- | --- |
-| [AngleValue](../../aspose.slides/iadjustvalue/anglevalue) { get; set; } | 返回或设置值，解释为角度（以度为单位）。可读写 Single。 |
+| [AngleValue](../../aspose.slides/iadjustvalue/anglevalue) { get; set; } | 返回或设置值，将其解释为角度（度）。可读写 Single。 |
 | [Name](../../aspose.slides/iadjustvalue/name) { get; } | 返回此调整值的名称。只读 String。 |
 | [RawValue](../../aspose.slides/iadjustvalue/rawvalue) { get; set; } | 返回或设置调整值“原样”。可读写 Int64。 |
-| [Type](../../aspose.slides/iadjustvalue/type) { get; } | 返回图形调整的类型。只读 [`ShapeAdjustmentType`](../shapeadjustmenttype)。 |
+| [Type](../../aspose.slides/iadjustvalue/type) { get; } | 返回形状调整的类型。只读 [`ShapeAdjustmentType`](../shapeadjustmenttype)。 |
 
 ### 另见
 

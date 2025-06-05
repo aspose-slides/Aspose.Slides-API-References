@@ -1,6 +1,6 @@
 ---
 title: YShear
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Stellt die yshear-Eigenschaft dar
 type: docs
 weight: 1210

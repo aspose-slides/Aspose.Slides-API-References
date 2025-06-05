@@ -1,13 +1,13 @@
 ---
-title: Parámetro
-second_title: Referencia de la API de Aspose.Slides para .NET
+title: Parameter
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve un parámetro de una operación. Solo lectura Single.
 type: docs
 weight: 30
 url: /es/aspose.slides/coloroperation/parameter/
 ---
 
-## Propiedad ColorOperation.Parameter
+## ColorOperation.Parameter property
 
 Devuelve un parámetro de una operación. Solo lectura Single.
 
@@ -15,10 +15,10 @@ Devuelve un parámetro de una operación. Solo lectura Single.
 public float Parameter { get; }
 ```
 
-### Vea También
+### Ver También
 
-* clase [ColorOperation](../../coloroperation)
-* espacio de nombres [Aspose.Slides](../../coloroperation)
-* ensamblaje [Aspose.Slides](../../../)
+* class [ColorOperation](../../coloroperation)
+* namespace [Aspose.Slides](../../coloroperation)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

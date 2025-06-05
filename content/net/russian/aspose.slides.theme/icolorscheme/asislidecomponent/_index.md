@@ -15,11 +15,11 @@ url: /ru/aspose.slides.theme/icolorscheme/asislidecomponent/
 public ISlideComponent AsISlideComponent { get; }
 ```
 
-### Замечки
+### Примечания
 
 Для совместимости с COM.
 
-### См. также
+### Также см. 
 
 * интерфейс [ISlideComponent](../../../aspose.slides/islidecomponent)
 * интерфейс [IColorScheme](../../icolorscheme)

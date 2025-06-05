@@ -1,7 +1,7 @@
 ---
-title: Données
+title: Data
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit l'objet Data. Objet en lecture/écriture.
+description: Retourne ou définit l'objet Data. Objet en lecture/écriture.
 type: docs
 weight: 30
 url: /fr/aspose.slides.charts/stringchartvalue/data/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/stringchartvalue/data/
 
 ## Propriété StringChartValue.Data
 
-Renvoie ou définit l'objet Data. Objet en lecture/écriture.
+Retourne ou définit l'objet Data. Objet en lecture/écriture.
 
 ```csharp
 public override object Data { get; set; }

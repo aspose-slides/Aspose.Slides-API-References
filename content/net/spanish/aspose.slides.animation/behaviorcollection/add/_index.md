@@ -1,7 +1,7 @@
 ---
-title: Agregar
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Agregar un nuevo comportamiento a una colección.
+title: Add
+second_title: Referencia de la API de Aspose.Sildes para .NET
+description: Agregar nuevo comportamiento a una colección.
 type: docs
 weight: 40
 url: /es/aspose.slides.animation/behaviorcollection/add/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.animation/behaviorcollection/add/
 
 ## Método BehaviorCollection.Add
 
-Agregar un nuevo comportamiento a una colección.
+Agregar nuevo comportamiento a una colección.
 
 ```csharp
 public void Add(IBehavior item)

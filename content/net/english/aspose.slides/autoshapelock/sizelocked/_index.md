@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/autoshapelock/sizelocked/
 ---
+
 ## AutoShapeLock.SizeLocked property
 
 Determines whether a resizing this shape is forbidden. Read/write Boolean.

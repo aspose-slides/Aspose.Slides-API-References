@@ -1,15 +1,15 @@
 ---
 title: CreateAlphaBiLevel
-second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt den Alpha BiLevel-Effekt.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Erstellt Alpha BiLevel-Effekt.
 type: docs
 weight: 10
 url: /de/aspose.slides.effects/iimagetransformoperationfactory/createalphabilevel/
 ---
 
-## IImageTransformOperationFactory.CreateAlphaBiLevel-Methode
+## IImageTransformOperationFactory.CreateAlphaBiLevel Methode
 
-Erstellt den Alpha BiLevel-Effekt.
+Erstellt Alpha BiLevel-Effekt.
 
 ```csharp
 public IAlphaBiLevel CreateAlphaBiLevel(float threshold)

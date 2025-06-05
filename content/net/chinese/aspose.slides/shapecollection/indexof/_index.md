@@ -21,9 +21,9 @@ public int IndexOf(IShape shape)
 
 ### 返回值
 
-集合中形状第一次出现的零基索引，如果找到；否则，-1。
+集合中形状第一次出现的零基索引，如果找到则返回；否则，返回 -1。
 
-### 另见
+### 另请参见
 
 * 接口 [IShape](../../ishape)
 * 类 [ShapeCollection](../../shapecollection)

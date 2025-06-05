@@ -1,13 +1,13 @@
 ---
-title: Сжатие текста
-second_title: Справочник по API Aspose.Sildes для .NET
+title: TextCompression
+second_title: Aspose.Sildes для .NET API Справочник
 description: Указывает тип сжатия, который будет использоваться для всего текстового содержимого в документе. Чтение/запись PdfTextCompressionaspose.slides.export/pdftextcompression.
 type: docs
 weight: 200
 url: /ru/aspose.slides.export/pdfoptions/textcompression/
 ---
 
-## Свойство PdfOptions.TextCompression
+## PdfOptions.TextCompression свойство
 
 Указывает тип сжатия, который будет использоваться для всего текстового содержимого в документе. Чтение/запись [`PdfTextCompression`](../../pdftextcompression).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export/pdfoptions/textcompression/
 public PdfTextCompression TextCompression { get; set; }
 ```
 
-### Примечания
+### Замечания
 
 По умолчанию используется Flate.
 

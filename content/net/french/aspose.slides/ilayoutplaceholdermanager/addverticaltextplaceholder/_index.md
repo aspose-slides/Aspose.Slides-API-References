@@ -1,15 +1,15 @@
 ---
-title: AjouterUnEspaceDeTexteVertical
-second_title: Référence API Aspose.Slides pour .NET
-description: Ajoute une nouvelle forme de remplacement à la diapositive de mise en page pour contenir le contenu textuel dans une direction verticale.
+title: AddVerticalTextPlaceholder
+second_title: Aspose.Slides pour .NET API Référence
+description: Ajoute une nouvelle forme de zone de texte au diapositive de mise en page pour contenir le texte dans une direction verticale.
 type: docs
 weight: 100
 url: /fr/aspose.slides/ilayoutplaceholdermanager/addverticaltextplaceholder/
 ---
 
-## Méthode ILayoutPlaceholderManager.AddVerticalTextPlaceholder
+## ILayoutPlaceholderManager.AddVerticalTextPlaceholder méthode
 
-Ajoute une nouvelle forme de remplacement à la diapositive de mise en page pour contenir le contenu textuel dans une direction verticale.
+Ajoute une nouvelle forme de zone de texte à la diapositive de mise en page pour contenir le contenu textuel dans une direction verticale.
 
 ```csharp
 public IAutoShape AddVerticalTextPlaceholder(float x, float y, float width, float height)
@@ -17,18 +17,18 @@ public IAutoShape AddVerticalTextPlaceholder(float x, float y, float width, floa
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| x | Single | La coordonnée X de la nouvelle forme de remplacement. |
-| y | Single | La coordonnée Y de la nouvelle forme de remplacement. |
-| width | Single | La largeur de la nouvelle forme de remplacement. |
-| height | Single | La hauteur de la nouvelle forme de remplacement. |
+| x | Single | La coordonnée X de la nouvelle forme de zone de texte. |
+| y | Single | La coordonnée Y de la nouvelle forme de zone de texte. |
+| width | Single | La largeur de la nouvelle forme de zone de texte. |
+| height | Single | La hauteur de la nouvelle forme de zone de texte. |
 
 ### Valeur de retour
 
-Créé [`IAutoShape`](../../iautoshape) avec un espace de remplacement de texte (Vertical).
+Créé un [`IAutoShape`](../../iautoshape) avec un espace réservé de texte (Vertical).
 
 ### Exemples
 
-L'exemple suivant montre comment ajouter la forme d'espace de remplacement de texte (Vertical) à la diapositive de mise en page.
+L'exemple suivant montre comment ajouter la forme de zone de texte (Vertical) à la diapositive de mise en page.
 
 ```csharp
 [C#]

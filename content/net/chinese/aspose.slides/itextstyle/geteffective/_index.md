@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Aspose.Sildes for .NET API Reference
-description: 获取应用了继承的有效文本样式格式数据。
+description: 获取应用继承的有效文本样式格式化数据。
 type: docs
 weight: 20
 url: /zh/aspose.slides/itextstyle/geteffective/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/itextstyle/geteffective/
 
 ## ITextStyle.GetEffective 方法
 
-获取应用了继承的有效文本样式格式数据。
+获取应用继承的有效文本样式格式化数据。
 
 ```csharp
 public ITextStyleEffectiveData GetEffective()
@@ -19,7 +19,7 @@ public ITextStyleEffectiveData GetEffective()
 
 一个 [`ITextStyleEffectiveData`](../../itextstyleeffectivedata)。
 
-### 另请参阅
+### 另见
 
 * 接口 [ITextStyleEffectiveData](../../itextstyleeffectivedata)
 * 接口 [ITextStyle](../../itextstyle)

@@ -15,7 +15,7 @@ Standardkonstruktor.
 public PptxException()
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [PptxException](../../pptxexception)
 * Namespace [Aspose.Slides](../../pptxexception)
@@ -35,7 +35,7 @@ public PptxException(string message)
 | --- | --- | --- |
 | message | String | Nachricht |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [PptxException](../../pptxexception)
 * Namespace [Aspose.Slides](../../pptxexception)
@@ -56,7 +56,7 @@ public PptxException(string message, Exception exception)
 | message | String | Nachricht |
 | exception | Exception | ursprüngliche Ausnahme |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [PptxException](../../pptxexception)
 * Namespace [Aspose.Slides](../../pptxexception)

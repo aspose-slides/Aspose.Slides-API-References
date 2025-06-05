@@ -1,6 +1,6 @@
 ---
 title: ITabFactory
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 允许创建 ITab 实例
 type: docs
 weight: 7000
@@ -19,13 +19,13 @@ public interface ITabFactory
 
 | 名称 | 描述 |
 | --- | --- |
-| [CreateTab](../../aspose.slides/itabfactory/createtab)(double, TabAlignment) | 创建一个新的 ITab 实例。 |
+| [CreateTab](../../aspose.slides/itabfactory/createtab)(double, TabAlignment) | 创建一个新的 ITab 实例。 |
 
 ### 备注
 
-用于 COM 兼容性。
+为了兼容 COM。
 
-### 另请参阅
+### 参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

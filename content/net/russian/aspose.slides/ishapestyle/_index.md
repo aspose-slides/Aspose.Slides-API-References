@@ -1,7 +1,7 @@
 ---
 title: IShapeStyle
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет ссылку на стиль формы.
+second_title: Aspose.Sildes для .NET API Reference
+description: Ссылка на стиль формы.
 type: docs
 weight: 6790
 url: /ru/aspose.slides/ishapestyle/
@@ -20,13 +20,13 @@ public interface IShapeStyle
 | Название | Описание |
 | --- | --- |
 | [EffectColor](../../aspose.slides/ishapestyle/effectcolor) { get; } | Возвращает цвет эффекта формы. Только для чтения [`IColorFormat`](../icolorformat). |
-| [EffectStyleIndex](../../aspose.slides/ishapestyle/effectstyleindex) { get; set; } | Возвращает или задает индекс столбца эффекта формы в матрице стилей. Чтение/запись UInt32. |
+| [EffectStyleIndex](../../aspose.slides/ishapestyle/effectstyleindex) { get; set; } | Возвращает или задает индекс колонки эффекта формы в матрице стилей. Чтение/запись UInt32. |
 | [FillColor](../../aspose.slides/ishapestyle/fillcolor) { get; } | Возвращает цвет заливки формы. Только для чтения [`IColorFormat`](../icolorformat). |
-| [FillStyleIndex](../../aspose.slides/ishapestyle/fillstyleindex) { get; set; } | Возвращает или задает индекс столбца заливки формы в матрицах стилей. 0 означает отсутствие заливки, положительное значение - индекс в стилях заливки темы, отрицательное значение - индекс в стилях фона темы. Чтение/запись Int16. |
+| [FillStyleIndex](../../aspose.slides/ishapestyle/fillstyleindex) { get; set; } | Возвращает или задает индекс колонки заливки формы в матрицах стилей. 0 означает отсутствие заливки, положительное значение - индекс в стилях заливки темы, отрицательное значение - индекс в стилях фона темы. Чтение/запись Int16. |
 | [FontCollectionIndex](../../aspose.slides/ishapestyle/fontcollectionindex) { get; set; } | Возвращает или задает индекс шрифта формы в коллекции шрифтов. Чтение/запись [`FontCollectionIndex`](../fontcollectionindex). |
 | [FontColor](../../aspose.slides/ishapestyle/fontcolor) { get; } | Возвращает цвет шрифта формы. Только для чтения [`IColorFormat`](../icolorformat). |
 | [LineColor](../../aspose.slides/ishapestyle/linecolor) { get; } | Возвращает цвет контура формы. Только для чтения [`IColorFormat`](../icolorformat). |
-| [LineStyleIndex](../../aspose.slides/ishapestyle/linestyleindex) { get; set; } | Возвращает или задает индекс столбца линии в матрице стилей. Чтение/запись UInt16. |
+| [LineStyleIndex](../../aspose.slides/ishapestyle/linestyleindex) { get; set; } | Возвращает или задает индекс колонки линии в матрице стилей. Чтение/запись UInt16. |
 
 ### См. также
 

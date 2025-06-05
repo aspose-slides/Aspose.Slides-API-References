@@ -1,6 +1,6 @@
 ---
 title: IndexOf
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve un índice del DataLabel especificado en la colección.
 type: docs
 weight: 110
@@ -17,17 +17,17 @@ public int IndexOf(IDataLabel value)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| value | IDataLabel | DataLabel a encontrar. |
+| value | IDataLabel | DataLabel a buscar. |
 
 ### Valor de Retorno
 
-Índice de un DataLabel o -1 si el DataLabel no pertenece a esta colección.
+Índice de un DataLabel o -1 si el DataLabel no está en esta colección.
 
-### Véase También
+### Vea También
 
 * interfaz [IDataLabel](../../idatalabel)
 * interfaz [IDataLabelCollection](../../idatalabelcollection)
 * espacio de nombres [Aspose.Slides.Charts](../../idatalabelcollection)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

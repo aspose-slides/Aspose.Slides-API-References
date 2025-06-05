@@ -1,7 +1,7 @@
 ---
 title: IsSynchronized
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回一个值，指示对集合的访问是否是线程安全的同步。只读布尔值。
+second_title: Aspose.Slides for .NET API 参考
+description: 返回一个值，指示对集合的访问是否是同步的（线程安全的）。只读布尔值。
 type: docs
 weight: 30
 url: /zh/aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.effects/imagetransformocollectioneffectivedata/issynchron
 public bool IsSynchronized { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 类 [ImageTransformOCollectionEffectiveData](../../imagetransformocollectioneffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../imagetransformocollectioneffectivedata)

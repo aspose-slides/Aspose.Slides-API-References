@@ -1,13 +1,13 @@
 ---
 title: GroupingLocked
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Bestimmt, ob das Hinzufügen dieser Form zu einer Gruppe verboten ist. Lese-/Schreib-Boolean.
 type: docs
 weight: 50
 url: /de/aspose.slides/autoshapelock/groupinglocked/
 ---
 
-## AutoShapeLock.GroupingLocked-Eigenschaft
+## AutoShapeLock.GroupingLocked Eigenschaft
 
 Bestimmt, ob das Hinzufügen dieser Form zu einer Gruppe verboten ist. Lese-/Schreib-Boolean.
 

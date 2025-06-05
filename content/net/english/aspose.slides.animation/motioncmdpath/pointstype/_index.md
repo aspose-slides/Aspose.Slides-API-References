@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.animation/motioncmdpath/pointstype/
 ---
+
 ## MotionCmdPath.PointsType property
 
 Specifies command points type Read/write [`MotionPathPointsType`](../../motionpathpointstype).

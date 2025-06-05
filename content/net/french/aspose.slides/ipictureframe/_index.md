@@ -1,7 +1,7 @@
 ---
 title: IPictureFrame
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente un cadre contenant une image.
+second_title: Aspose.Sildes pour la référence de l'API .NET
+description: Représente un cadre avec une image à l'intérieur.
 type: docs
 weight: 6470
 url: /fr/aspose.slides/ipictureframe/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ipictureframe/
 
 ## Interface IPictureFrame
 
-Représente un cadre contenant une image.
+Représente un cadre avec une image à l'intérieur.
 
 ```csharp
 public interface IPictureFrame : IGeometryShape
@@ -21,12 +21,12 @@ public interface IPictureFrame : IGeometryShape
 | --- | --- |
 | [AsIGeometryShape](../../aspose.slides/ipictureframe/asigeometryshape) { get; } | Permet d'obtenir l'interface de base IGeometryShape. Lecture seule [`IGeometryShape`](../igeometryshape). |
 | [PictureFormat](../../aspose.slides/ipictureframe/pictureformat) { get; } | Renvoie l'objet PictureFillFormat pour un cadre d'image. Lecture seule [`IPictureFillFormat`](../ipicturefillformat). |
-| [PictureFrameLock](../../aspose.slides/ipictureframe/pictureframelock) { get; } | Renvoie les verrous du PictureFrame. Lecture seule [`IPictureFrameLock`](../ipictureframelock). |
-| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | Renvoie ou définit l'échelle de la hauteur (relatif à la taille d'origine de l'image) du cadre d'image. La valeur 1.0 correspond à 100%. Lecture/écriture Single. |
-| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | Renvoie ou définit l'échelle de la largeur (relatif à la taille d'origine de l'image) du cadre d'image. La valeur 1.0 correspond à 100%. Lecture/écriture Single. |
-| [ShapeLock](../../aspose.slides/ipictureframe/shapelock) { get; } | Renvoie les verrous de la forme. Lecture seule [`IPictureFrameLock`](../ipictureframelock). |
+| [PictureFrameLock](../../aspose.slides/ipictureframe/pictureframelock) { get; } | Renvoie les verrouillages du cadre d'image. Lecture seule [`IPictureFrameLock`](../ipictureframelock). |
+| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | Renvoie ou définit l'échelle de hauteur (par rapport à la taille d'image originale) du cadre d'image. La valeur 1.0 correspond à 100%. Lecture/écriture Single. |
+| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | Renvoie ou définit l'échelle de largeur (par rapport à la taille d'image originale) du cadre d'image. La valeur 1.0 correspond à 100%. Lecture/écriture Single. |
+| [ShapeLock](../../aspose.slides/ipictureframe/shapelock) { get; } | Renvoie les verrouillages de la forme. Lecture seule [`IPictureFrameLock`](../ipictureframelock). |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IGeometryShape](../igeometryshape)
 * namespace [Aspose.Slides](../../aspose.slides)

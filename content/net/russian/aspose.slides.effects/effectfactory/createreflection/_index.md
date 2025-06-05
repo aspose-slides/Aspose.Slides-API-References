@@ -1,13 +1,13 @@
 ---
 title: CreateReflection
-second_title: Справка по API Aspose.Sildes для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Создает эффект отражения.
 type: docs
 weight: 70
 url: /ru/aspose.slides.effects/effectfactory/createreflection/
 ---
 
-## Метод EffectFactory.CreateReflection
+## EffectFactory.CreateReflection метод
 
 Создает эффект отражения.
 

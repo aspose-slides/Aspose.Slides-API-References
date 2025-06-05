@@ -15,7 +15,7 @@ Erstellt eine neue Instanz.
 public CommandEffect()
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [CommandEffect](../../commandeffect)
 * Namespace [Aspose.Slides.Animation](../../commandeffect)

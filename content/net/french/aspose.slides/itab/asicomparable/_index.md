@@ -1,13 +1,13 @@
 ---
 title: AsIComparable
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Renvoie l'interface IComparable. IComparable en lecture seule.
 type: docs
 weight: 20
 url: /fr/aspose.slides/itab/asicomparable/
 ---
 
-## Propriété ITab.AsIComparable
+## ITab.AsIComparable propriété
 
 Renvoie l'interface IComparable. IComparable en lecture seule.
 

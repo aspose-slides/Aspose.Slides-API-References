@@ -19,10 +19,10 @@ public interface IMasterThemeable : IThemeable
 
 | Nom | Description |
 | --- | --- |
-| [AsIThemeable](../../aspose.slides.theme/imasterthemeable/asithemeable) { get; } | Retourne l'interface IThemeable. Lecture seule [`IThemeable`](../ithemeable). |
-| [ThemeManager](../../aspose.slides.theme/imasterthemeable/thememanager) { get; } | Retourne le gestionnaire de thème principal. Lecture seule [`IMasterThemeManager`](../imasterthememanager). |
+| [AsIThemeable](../../aspose.slides.theme/imasterthemeable/asithemeable) { get; } | Renvoie l'interface IThemeable. Lecture seule [`IThemeable`](../ithemeable). |
+| [ThemeManager](../../aspose.slides.theme/imasterthemeable/thememanager) { get; } | Renvoie le gestionnaire de thème principal. Lecture seule [`IMasterThemeManager`](../imasterthememanager). |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IThemeable](../ithemeable)
 * namespace [Aspose.Slides.Theme](../../aspose.slides.theme)

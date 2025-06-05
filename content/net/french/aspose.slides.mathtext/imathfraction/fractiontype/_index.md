@@ -1,6 +1,6 @@
 ---
 title: FractionType
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Type de fraction par défaut  Bar
 type: docs
 weight: 30
@@ -17,7 +17,7 @@ public MathFractionTypes FractionType { get; set; }
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

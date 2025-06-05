@@ -1,6 +1,6 @@
 ---
-title: 相等
-second_title: Aspose.Slides for .NET API 参考
+title: Equals
+second_title: Aspose.Sildes for .NET API Reference
 description: 确定指定的 AlphaInverseaspose.slides.effects/alphainverse 是否等于当前的 AlphaInverseaspose.slides.effects/alphainverse。
 type: docs
 weight: 10
@@ -21,9 +21,9 @@ public override bool Equals(object obj)
 
 ### 返回值
 
-如果对象相等，则为 true；否则，返回 false。
+如果对象相等，则为 true；否则为 false。
 
-### 参见
+### 另见
 
 * 类 [AlphaInverse](../../alphainverse)
 * 命名空间 [Aspose.Slides.Effects](../../alphainverse)

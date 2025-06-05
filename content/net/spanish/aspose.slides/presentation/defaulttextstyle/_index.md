@@ -17,9 +17,9 @@ public ITextStyle DefaultTextStyle { get; }
 
 ### Véase también
 
-* interfaz [ITextStyle](../../itextstyle)
-* clase [Presentation](../../presentation)
-* espacio de nombres [Aspose.Slides](../../presentation)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [ITextStyle](../../itextstyle)
+* clase [Presentation](../../presentation)
+* espacio de nombres [Aspose.Slides](../../presentation)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

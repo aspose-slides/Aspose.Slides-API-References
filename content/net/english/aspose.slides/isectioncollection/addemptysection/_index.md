@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/isectioncollection/addemptysection/
 ---
+
 ## ISectionCollection.AddEmptySection method
 
 Add empty section to specified position of the collection.

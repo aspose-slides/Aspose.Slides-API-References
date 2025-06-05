@@ -1,7 +1,7 @@
 ---
-title: HauteurDePolice
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie la hauteur de police d'une portion. En lecture seule, Single.
+title: FontHeight
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Renvoie la hauteur de police d'une portion. Seule lecture Single.
 type: docs
 weight: 80
 url: /fr/aspose.slides/ibaseportionformateffectivedata/fontheight/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ibaseportionformateffectivedata/fontheight/
 
 ## Propriété IBasePortionFormatEffectiveData.FontHeight
 
-Renvoie la hauteur de police d'une portion. En lecture seule, Single.
+Renvoie la hauteur de police d'une portion. Seule lecture Single.
 
 ```csharp
 public float FontHeight { get; }

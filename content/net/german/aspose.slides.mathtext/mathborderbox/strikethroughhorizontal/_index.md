@@ -1,15 +1,15 @@
 ---
-title: Strichdurch Horizontal
-second_title: Aspose.Slides für .NET API Referenz
-description: Strichdurch Horizontal standardmäßig ist falsch - bestimmt den versteckten oder angezeigten Zustand einer strichdurchgezogenen horizontalen Linie.
+title: StrikethroughHorizontal
+second_title: Aspose.Sildes für .NET API Referenz
+description: Strikethrough Horizontal standardmäßig ist falsch - gibt den versteckten oder sichtbaren Zustand einer durchgestrichenen horizontalen Linie an.
 type: docs
 weight: 80
 url: /de/aspose.slides.mathtext/mathborderbox/strikethroughhorizontal/
 ---
 
-## MathBorderBox.StrikethroughHorizontal Eigenschaft
+## MathBorderBox.StrikethroughHorizontal-Eigenschaft
 
-Strichdurch Horizontal (standardmäßig ist falsch) - bestimmt den versteckten oder angezeigten Zustand einer strichdurchgezogenen horizontalen Linie.
+Strikethrough Horizontale (standardmäßig ist falsch) - gibt den versteckten oder sichtbaren Zustand einer durchgestrichenen horizontalen Linie an.
 
 ```csharp
 public bool StrikethroughHorizontal { get; set; }
@@ -25,7 +25,7 @@ MathBorderBox borderBox = new MathBorderBox(new MathematicalText("x"));
 borderBox.StrikethroughHorizontal = true;
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [MathBorderBox](../../mathborderbox)
 * Namespace [Aspose.Slides.MathText](../../mathborderbox)

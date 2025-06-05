@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/imagewrapper/dispose/
 ---
+
 ## ImageWrapper.Dispose method
 
 Dispose ImageWrapper

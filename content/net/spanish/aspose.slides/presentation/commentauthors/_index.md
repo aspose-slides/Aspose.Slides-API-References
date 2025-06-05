@@ -1,6 +1,6 @@
 ---
-title: ComentariosAutores
-second_title: Referencia de API de Aspose.Slides para .NET
+title: CommentAuthors
+second_title: Aspose.Sildes para .NET API Reference
 description: Devuelve la colección de autores de comentarios. Solo lectura ICommentAuthorCollectionaspose.slides/icommentauthorcollection.
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ Devuelve la colección de autores de comentarios. Solo lectura [`ICommentAuthorC
 public ICommentAuthorCollection CommentAuthors { get; }
 ```
 
-### Véase También
+### Véase también
 
 * interfaz [ICommentAuthorCollection](../../icommentauthorcollection)
 * clase [Presentation](../../presentation)

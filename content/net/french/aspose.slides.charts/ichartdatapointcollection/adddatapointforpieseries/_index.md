@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForPieSeries
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types de Pie, voir aussi la méthode ChartTypeCharacterizer.IsChartTypePieChartType.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le type de graphique est l'un des sous-types de secteur, voir aussi la méthode ChartTypeCharacterizer.IsChartTypePieChartType.
 type: docs
 weight: 160
 url: /fr/aspose.slides.charts/ichartdatapointcollection/adddatapointforpieseries/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ichartdatapointcollection/adddatapointforpieseries
 
 ## AddDataPointForPieSeries(IChartDataCell) {#adddatapointforpieseries}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types de Pie (voir aussi la méthode ChartTypeCharacterizer.IsChartTypePie(ChartType)).
+Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le type de graphique est l'un des sous-types de secteur (voir aussi la méthode ChartTypeCharacterizer.IsChartTypePie(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForPieSeries(IChartDataCell value)
@@ -19,11 +19,11 @@ public IChartDataPoint AddDataPointForPieSeries(IChartDataCell value)
 | --- | --- | --- |
 | value | IChartDataCell | Valeur du point de données |
 
-### Valeur de Retour
+### Valeur de retour
 
 Nouveau point de données.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataCell](../../ichartdatacell)
@@ -35,7 +35,7 @@ Nouveau point de données.
 
 ## AddDataPointForPieSeries(double) {#adddatapointforpieseries_1}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types de Pie (voir aussi la méthode ChartTypeCharacterizer.IsChartTypePie(ChartType)).
+Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le type de graphique est l'un des sous-types de secteur (voir aussi la méthode ChartTypeCharacterizer.IsChartTypePie(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForPieSeries(double value)
@@ -45,11 +45,11 @@ public IChartDataPoint AddDataPointForPieSeries(double value)
 | --- | --- | --- |
 | value | Double | Valeur du point de données |
 
-### Valeur de Retour
+### Valeur de retour
 
 Nouveau point de données.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataPointCollection](../../ichartdatapointcollection)

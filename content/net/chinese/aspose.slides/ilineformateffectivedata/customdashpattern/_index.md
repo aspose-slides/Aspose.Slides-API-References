@@ -1,7 +1,7 @@
 ---
-title: 自定义虚线模式
-second_title: Aspose.Slides for .NET API 参考
-description: 返回自定义虚线模式。只读 Single。
+title: CustomDashPattern
+second_title: Aspose.Sildes for .NET API 参考
+description: 返回自定义虚线模式。只读单一值。
 type: docs
 weight: 70
 url: /zh/aspose.slides/ilineformateffectivedata/customdashpattern/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ilineformateffectivedata/customdashpattern/
 public float[] CustomDashPattern { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [ILineFormatEffectiveData](../../ilineformateffectivedata)
 * 命名空间 [Aspose.Slides](../../ilineformateffectivedata)

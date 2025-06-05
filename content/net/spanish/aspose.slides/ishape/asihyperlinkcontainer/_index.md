@@ -1,13 +1,13 @@
 ---
 title: AsIHyperlinkContainer
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Permite obtener la interfaz base IHyperlinkContainer. Solo lectura IHyperlinkContaineraspose.slides/ihyperlinkcontainer.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Permite obtener la interfaz base IHyperlinkContainer. Solo lectura IHyperlinkContainer aspose.slides/ihyperlinkcontainer.
 type: docs
 weight: 30
 url: /es/aspose.slides/ishape/asihyperlinkcontainer/
 ---
 
-## Propiedad IShape.AsIHyperlinkContainer
+## IShape.AsIHyperlinkContainer propiedad
 
 Permite obtener la interfaz base IHyperlinkContainer. Solo lectura [`IHyperlinkContainer`](../../ihyperlinkcontainer).
 
@@ -15,11 +15,11 @@ Permite obtener la interfaz base IHyperlinkContainer. Solo lectura [`IHyperlinkC
 public IHyperlinkContainer AsIHyperlinkContainer { get; }
 ```
 
-### Ver También
+### Véase también
 
-* interfaz [IHyperlinkContainer](../../ihyperlinkcontainer)
-* interfaz [IShape](../../ishape)
-* espacio de nombres [Aspose.Slides](../../ishape)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IHyperlinkContainer](../../ihyperlinkcontainer)
+* interfaz [IShape](../../ishape)
+* espacio de nombres [Aspose.Slides](../../ishape)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

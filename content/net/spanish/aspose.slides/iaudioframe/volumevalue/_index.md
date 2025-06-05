@@ -1,6 +1,6 @@
 ---
 title: VolumeValue
-second_title: Aspose.Slides para .NET API Reference
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve o establece el volumen de audio en porcentajes. Lectura/escritura Single.
 type: docs
 weight: 190
@@ -26,7 +26,7 @@ using (Presentation pres = new Presentation())
     IAudio audio = pres.Audios.AddAudio(File.ReadAllBytes("sampleaudio.mp3"));
     IAudioFrame audioFrame = pres.Slides[0].Shapes.AddAudioFrameEmbedded(50, 50, 100, 100, audio);
 
-    // Establecer el volumen de audio en 85%
+    // Establecer el volumen de audio al 85%
     audioFrame.VolumeValue = 85f;
 
     pres.Save("AudioFrameValue_out.pptx", SaveFormat.Pptx);

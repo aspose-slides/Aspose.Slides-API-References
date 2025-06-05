@@ -1,13 +1,13 @@
 ---
 title: TextStrikethroughType
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示文本删除线的类型。
 type: docs
 weight: 10680
 url: /zh/aspose.slides/textstrikethroughtype/
 ---
 
-## TextStrikethroughType 枚举
+## TextStrikethroughType enumeration
 
 表示文本删除线的类型。
 

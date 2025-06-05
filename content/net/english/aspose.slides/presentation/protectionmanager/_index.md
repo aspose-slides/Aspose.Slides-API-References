@@ -6,6 +6,7 @@ type: docs
 weight: 210
 url: /aspose.slides/presentation/protectionmanager/
 ---
+
 ## Presentation.ProtectionManager property
 
 Gets manager of the permissions for this presentation. Read-only [`IProtectionManager`](../../iprotectionmanager).

@@ -1,7 +1,7 @@
 ---
 title: IChartPlotArea
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Representa propiedades del título del gráfico.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Representa las propiedades del título del gráfico.
 type: docs
 weight: 1830
 url: /es/aspose.slides.charts/ichartplotarea/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.charts/ichartplotarea/
 
 ## Interfaz IChartPlotArea
 
-Representa propiedades del título del gráfico.
+Representa las propiedades del título del gráfico.
 
 ```csharp
 public interface IChartPlotArea : IActualLayout, ILayoutable
@@ -22,13 +22,13 @@ public interface IChartPlotArea : IActualLayout, ILayoutable
 | [AsIActualLayout](../../aspose.slides.charts/ichartplotarea/asiactuallayout) { get; } | Devuelve la interfaz IActualLayout. |
 | [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | Permite obtener la interfaz base ILayoutable. Solo lectura [`ILayoutable`](../ilayoutable). |
 | [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | Devuelve el formato de un área de trazado. Solo lectura [`IFormat`](../iformat). |
-| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Si la disposición del área de trazado se define manualmente, esta propiedad especifica si se debe disponer el área de trazado por su interior (sin incluir ejes y etiquetas de ejes) o por fuera (incluyendo ejes y etiquetas de ejes). Lectura/escritura [`LayoutTargetType`](./layouttargettype). |
+| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Si el diseño del área de trazado se define manualmente, esta propiedad especifica si se debe organizar el área de trazado por su interior (sin incluir ejes y etiquetas de ejes) o por su exterior (incluyendo ejes y etiquetas de ejes). Lectura/escritura [`LayoutTargetType`](./layouttargettype). |
 
-### Véase también
+### Véase También
 
 * interfaz [IActualLayout](../iactuallayout)
 * interfaz [ILayoutable](../ilayoutable)
-* espacio de nombres [Aspose.Slides.Charts](../../aspose.slides.charts)
-* ensamblaje [Aspose.Slides](../../)
+* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,6 +1,6 @@
 ---
 title: CopyTo
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Копирует все элементы коллекции в указанный массив.
 type: docs
 weight: 90
@@ -20,7 +20,7 @@ public void CopyTo(Array array, int index)
 | array | Array | Целевой массив. |
 | index | Int32 | Начальный индекс в массиве. |
 
-### См. также
+### См. Также
 
 * класс [ChartCategoryCollection](../../chartcategorycollection)
 * пространство имен [Aspose.Slides.Charts](../../chartcategorycollection)

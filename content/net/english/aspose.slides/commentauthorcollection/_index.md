@@ -3,9 +3,10 @@ title: CommentAuthorCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of comment authors.
 type: docs
-weight: 2520
+weight: 2550
 url: /aspose.slides/commentauthorcollection/
 ---
+
 ## CommentAuthorCollection class
 
 Represents a collection of comment authors.

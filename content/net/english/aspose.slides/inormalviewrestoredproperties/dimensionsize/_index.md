@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/inormalviewrestoredproperties/dimensionsize/
 ---
+
 ## INormalViewRestoredProperties.DimensionSize property
 
 Specifies the size of the slide region (width when a child of RestoredTop, height when a child of RestoredLeft). Read/write Single. Throws when value less than 0 ar greater than 100.

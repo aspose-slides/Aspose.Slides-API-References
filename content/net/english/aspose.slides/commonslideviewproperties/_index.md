@@ -3,9 +3,10 @@ title: CommonSlideViewProperties
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents common slide view properties.
 type: docs
-weight: 2540
+weight: 2570
 url: /aspose.slides/commonslideviewproperties/
 ---
+
 ## CommonSlideViewProperties class
 
 Represents common slide view properties.
@@ -18,6 +19,7 @@ public class CommonSlideViewProperties : ICommonSlideViewProperties
 
 | Name | Description |
 | --- | --- |
+| [DrawingGuides](../../aspose.slides/commonslideviewproperties/drawingguides) { get; } | Returns the collection of the drawing guides. Read-only [`IDrawingGuidesCollection`](../idrawingguidescollection) |
 | [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | Specifies the view scaling ratio in percentages. Read/write Int32. |
 | [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | Specifies that the view content should automatically scale to best fit the current window size. Read/write Boolean. |
 

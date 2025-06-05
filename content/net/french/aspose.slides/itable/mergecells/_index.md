@@ -1,13 +1,13 @@
 ---
 title: MergeCells
-second_title: Aspose.Slides pour .NET API Référence
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Fusionne les cellules voisines.
 type: docs
 weight: 150
 url: /fr/aspose.slides/itable/mergecells/
 ---
 
-## Méthode ITable.MergeCells
+## ITable.MergeCells méthode
 
 Fusionne les cellules voisines.
 
@@ -19,9 +19,9 @@ public ICell MergeCells(ICell cell1, ICell cell2, bool allowSplitting)
 | --- | --- | --- |
 | cell1 | ICell | Cellule à fusionner. |
 | cell2 | ICell | Cellule à fusionner. |
-| allowSplitting | Boolean | Vrai pour autoriser la séparation des cellules. |
+| allowSplitting | Boolean | Vrai pour permettre la séparation des cellules. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Cellule fusionnée.
 

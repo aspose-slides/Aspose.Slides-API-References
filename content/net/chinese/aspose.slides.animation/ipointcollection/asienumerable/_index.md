@@ -1,6 +1,6 @@
 ---
 title: AsIEnumerable
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 允许获取基本的 IEnumerable 接口。只读 IEnumerable。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/ipointcollection/asienumerable/
 public IEnumerable AsIEnumerable { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IPointCollection](../../ipointcollection)
 * 命名空间 [Aspose.Slides.Animation](../../ipointcollection)

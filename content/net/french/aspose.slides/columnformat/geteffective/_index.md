@@ -1,15 +1,15 @@
 ---
 title: GetEffective
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient les propriétés de formatage de colonne de table effectives avec héritage et styles de table appliqués.
+description: Obtient les propriétés de formatage de colonne de tableau effectives avec héritage et styles de tableau appliqués.
 type: docs
 weight: 10
 url: /fr/aspose.slides/columnformat/geteffective/
 ---
 
-## Méthode ColumnFormat.GetEffective
+## ColumnFormat.GetEffective méthode
 
-Obtient les propriétés de formatage de colonne de table effectives avec héritage et styles de table appliqués.
+Obtient les propriétés de formatage de colonne de tableau effectives avec héritage et styles de tableau appliqués.
 
 ```csharp
 public IColumnFormatEffectiveData GetEffective()
@@ -21,7 +21,7 @@ Un [`IColumnFormatEffectiveData`](../../icolumnformateffectivedata).
 
 ### Exemples
 
-Cet exemple montre comment obtenir le format de remplissage effectif pour différentes parties de la logique de table. Veuillez noter que le formatage des cellules a toujours une priorité plus élevée que le formatage des lignes, le formatage des lignes a une priorité plus élevée que celui des colonnes, et le formatage des colonnes a une priorité plus élevée que celui de toute la table. Ainsi, les propriétés CellFormatEffectiveData sont toujours utilisées pour dessiner la table. Le code suivant est juste un exemple d'API.
+Cet exemple démontre l'obtention du format de remplissage effectif pour différentes parties logiques du tableau. Veuillez noter que le formatage des cellules a toujours une priorité plus élevée que le formatage des lignes, le formatage des lignes - plus élevé que celui des colonnes, le formatage des colonnes - plus élevé que celui de l'ensemble du tableau. Ainsi, finalement, les propriétés CellFormatEffectiveData sont toujours utilisées pour dessiner le tableau. Le code suivant est juste un exemple de l'API.
 
 ```csharp
 [C#]
@@ -36,7 +36,7 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 }
 ```
 
-### Voir également
+### Voir aussi
 
 * interface [IColumnFormatEffectiveData](../../icolumnformateffectivedata)
 * class [ColumnFormat](../../columnformat)

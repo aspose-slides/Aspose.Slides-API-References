@@ -1,7 +1,7 @@
 ---
-title: 标签
-second_title: Aspose.Slides for .NET API 参考
-description: 标签。只读 IDataLabel aspose.slides.charts/idatalabel。
+title: Label
+second_title: Aspose.Sildes for .NET API Reference
+description: Label. 只读 IDataLabelaspose.slides.charts/idatalabel。
 type: docs
 weight: 140
 url: /zh/aspose.slides.charts/chartdatapoint/label/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/chartdatapoint/label/
 
 ## ChartDataPoint.Label 属性
 
-标签。只读 [`IDataLabel`](../../idatalabel)。
+Label. 只读 [`IDataLabel`](../../idatalabel)。
 
 ```csharp
 public IDataLabel Label { get; }
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [IDataLabel](../../idatalabel)
 * 类 [ChartDataPoint](../../chartdatapoint)

@@ -1,7 +1,7 @@
 ---
-title: Entfernen
+title: Remove
 second_title: Aspose.Slides für .NET API Referenz
-description: Entfernt ein Element aus der Sammlung anhand seines Index in der übergeordneten Serienpunktesammlung.
+description: Entfernt ein Element aus der Sammlung anhand seines Index in der übergeordneten Punktesammlung der Serie.
 type: docs
 weight: 40
 url: /de/aspose.slides.charts/ipiesplitcustompointcollection/remove/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ipiesplitcustompointcollection/remove/
 
 ## IPieSplitCustomPointCollection.Remove-Methode
 
-Entfernt ein Element aus der Sammlung anhand seines Index in der übergeordneten Serienpunktesammlung.
+Entfernt ein Element aus der Sammlung anhand seines Index in der übergeordneten Punktesammlung der Serie.
 
 ```csharp
 public void Remove(int dataPointIndex)
@@ -17,7 +17,7 @@ public void Remove(int dataPointIndex)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| dataPointIndex | Int32 | Index des Datenpunkts in der übergeordneten Serienpunktesammlung. |
+| dataPointIndex | Int32 | Index des Datenpunktes in der übergeordneten Punktesammlung der Serie. |
 
 ### Siehe Auch
 

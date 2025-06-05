@@ -1,6 +1,6 @@
 ---
 title: EffectFactory
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для справки по API .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.effects/effectfactory/effectfactory/
 public EffectFactory()
 ```
 
-### См. Также
+### См. также
 
 * класс [EffectFactory](../../effectfactory)
 * пространство имен [Aspose.Slides.Effects](../../effectfactory)

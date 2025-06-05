@@ -1,13 +1,13 @@
 ---
-title: Löschen
-second_title: Aspose.Slides für .NET API-Verweis
+title: Clear
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Entfernt alle Untertitel aus der Sammlung.
 type: docs
 weight: 40
 url: /de/aspose.slides/captionscollection/clear/
 ---
 
-## CaptionsCollection.Clear-Methode
+## CaptionsCollection.Clear Methode
 
 Entfernt alle Untertitel aus der Sammlung.
 

@@ -1,13 +1,13 @@
 ---
-title: 调整值
-second_title: Aspose.Slides for .NET API 参考
+title: AdjustValue
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示几何形状的调整值。这些值影响形状的形式。
 type: docs
 weight: 10
 url: /zh/aspose.slides/adjustvalue/
 ---
 
-## AdjustValue 类
+## AdjustValue class
 
 表示几何形状的调整值。这些值影响形状的形式。
 
@@ -15,16 +15,16 @@ url: /zh/aspose.slides/adjustvalue/
 public class AdjustValue : IAdjustValue
 ```
 
-## 属性
+## Properties
 
 | 名称 | 描述 |
 | --- | --- |
-| [AngleValue](../../aspose.slides/adjustvalue/anglevalue) { get; set; } | 返回或设置值，并将其解释为以度为单位的角度。读/写 Single。 |
-| [Name](../../aspose.slides/adjustvalue/name) { get; } | 返回此调整值的名称。只读 String。 |
-| [RawValue](../../aspose.slides/adjustvalue/rawvalue) { get; set; } | 返回或设置调整值“原样”。读/写 Int64。 |
+| [AngleValue](../../aspose.slides/adjustvalue/anglevalue) { get; set; } | 返回或设置值，将其解释为以度为单位的角度。可读写单精度浮点数。 |
+| [Name](../../aspose.slides/adjustvalue/name) { get; } | 返回此调整值的名称。只读字符串。 |
+| [RawValue](../../aspose.slides/adjustvalue/rawvalue) { get; set; } | 返回或设置“原始”调整值。可读写64位整数。 |
 | [Type](../../aspose.slides/adjustvalue/type) { get; } | 返回形状调整的类型。只读 [`ShapeAdjustmentType`](../shapeadjustmenttype)。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IAdjustValue](../iadjustvalue)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

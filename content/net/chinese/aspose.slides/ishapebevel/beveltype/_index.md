@@ -1,7 +1,7 @@
 ---
 title: BevelType
-second_title: Aspose.Sildes for .NET API 参考
-description: 倾斜类型。读/写 BevelPresetTypeaspose.slides/bevelpresettype。
+second_title: Aspose.Sildes for .NET API Reference
+description: 倒角类型。读/写 BevelPresetTypeaspose.slides/bevelpresettype。
 type: docs
 weight: 10
 url: /zh/aspose.slides/ishapebevel/beveltype/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ishapebevel/beveltype/
 
 ## IShapeBevel.BevelType 属性
 
-倾斜类型。读/写 [`BevelPresetType`](../../bevelpresettype)。
+倒角类型。读/写 [`BevelPresetType`](../../bevelpresettype)。
 
 ```csharp
 public BevelPresetType BevelType { get; set; }

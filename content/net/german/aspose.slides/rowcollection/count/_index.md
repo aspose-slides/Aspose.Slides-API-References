@@ -1,7 +1,7 @@
 ---
-title: Anzahl
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erhält die tatsächliche Anzahl der Zeilen, die in der Sammlung enthalten sind. Nur-lesbare Int32.
+title: Count
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Zeilen zurück. Nur Lesezugriff Int32.
 type: docs
 weight: 10
 url: /de/aspose.slides/rowcollection/count/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/rowcollection/count/
 
 ## RowCollection.Count-Eigenschaft
 
-Erhält die tatsächliche Anzahl der Zeilen, die in der Sammlung enthalten sind. Nur-lesbare Int32.
+Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Zeilen zurück. Nur Lesezugriff Int32.
 
 ```csharp
 public int Count { get; }

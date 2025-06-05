@@ -1,6 +1,6 @@
 ---
-title: 项
-second_title: Aspose.Slides for .NET API 参考
+title: Item
+second_title: Aspose.Slides for .NET API Reference
 description: 返回指定索引处的点。
 type: docs
 weight: 30

@@ -1,15 +1,15 @@
 ---
 title: UseCells
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Si vrai, alors la feuille de calcul est utilisée pour stocker des catégories ; ce cas prend en charge des catégories multi-niveaux. Si faux, alors la feuille de calcul n'est PAS utilisée pour stocker des valeurs et ce cas ne prend pas en charge des catégories multi-niveaux. Booléen lisible/écrivible.
+description: Si vrai, la feuille de calcul est utilisée pour stocker des catégories, ce cas prend en charge des catégories à plusieurs niveaux. Si faux, la feuille de calcul n'est PAS utilisée pour stocker des valeurs et ce cas ne prend pas en charge des catégories à plusieurs niveaux. Lecture/écriture Booléen.
 type: docs
 weight: 60
 url: /fr/aspose.slides.charts/chartcategorycollection/usecells/
 ---
 
-## Propriété ChartCategoryCollection.UseCells
+## ChartCategoryCollection.UseCells propriété
 
-Si vrai, alors la feuille de calcul est utilisée pour stocker des catégories (ce cas prend en charge des catégories multi-niveaux). Si faux, alors la feuille de calcul n'est PAS utilisée pour stocker des valeurs (et ce cas ne prend pas en charge des catégories multi-niveaux). Booléen lisible/écrivable.
+Si vrai, la feuille de calcul est utilisée pour stocker des catégories (ce cas prend en charge des catégories à plusieurs niveaux). Si faux, la feuille de calcul n'est PAS utilisée pour stocker des valeurs (et ce cas ne prend pas en charge des catégories à plusieurs niveaux). Lecture/écriture Booléen.
 
 ```csharp
 public bool UseCells { get; set; }

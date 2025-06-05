@@ -3,9 +3,10 @@ title: IMathRadical
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the radical function consisting of a base and an optional degree. Example of radical object is .
 type: docs
-weight: 7840
+weight: 8170
 url: /aspose.slides.mathtext/imathradical/
 ---
+
 ## IMathRadical interface
 
 Specifies the radical function, consisting of a base, and an optional degree. Example of radical object is √𝑥.

@@ -1,7 +1,7 @@
 ---
-title: 角度
-second_title: Aspose.Slides for .NET API 参考
-description: 角度参数
+title: Degree
+second_title: Aspose.Sildes for .NET API Reference
+description: Degree argument
 type: docs
 weight: 30
 url: /zh/aspose.slides.mathtext/mathradical/degree/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathradical/degree/
 
 ## MathRadical.Degree 属性
 
-角度参数
+度参数
 
 ```csharp
 public IMathElement Degree { get; }
@@ -17,7 +17,7 @@ public IMathElement Degree { get; }
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -25,7 +25,7 @@ MathRadical radical = new MathRadical(new MathematicalText("x"), new Mathematica
 IMathElement degreeElem = radical.Degree;
 ```
 
-### 参见
+### 另见
 
 * 接口 [IMathElement](../../imathelement)
 * 类 [MathRadical](../../mathradical)

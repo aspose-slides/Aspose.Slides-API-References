@@ -1,7 +1,7 @@
 ---
 title: CountOfCustomProperties
-second_title: Référence API Aspose.Slides pour .NET
-description: Retourne le nombre de propriétés personnalisées effectivement contenues dans une collection. Int32 en lecture seule.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie le nombre de propriétés personnalisées réellement contenues dans une collection. En lecture seule Int32.
 type: docs
 weight: 90
 url: /fr/aspose.slides/idocumentproperties/countofcustomproperties/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/idocumentproperties/countofcustomproperties/
 
 ## Propriété IDocumentProperties.CountOfCustomProperties
 
-Retourne le nombre de propriétés personnalisées effectivement contenues dans une collection. Int32 en lecture seule.
+Renvoie le nombre de propriétés personnalisées réellement contenues dans une collection. En lecture seule Int32.
 
 ```csharp
 public int CountOfCustomProperties { get; }

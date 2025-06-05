@@ -1,7 +1,7 @@
 ---
-title: 添加
-second_title: Aspose.Slides for .NET API 参考
-description: 向集合添加新行为。
+title: Add
+second_title: Aspose.Sildes for .NET API Reference
+description: 向集合中添加新行为。
 type: docs
 weight: 40
 url: /zh/aspose.slides.animation/behaviorcollection/add/
@@ -9,15 +9,15 @@ url: /zh/aspose.slides.animation/behaviorcollection/add/
 
 ## BehaviorCollection.Add 方法
 
-向集合添加新行为。
+向集合中添加新行为。
 
 ```csharp
 public void Add(IBehavior item)
 ```
 
-| 参数 | 类型 | 描述 |
-| --- | --- | --- |
-| item | IBehavior | 要添加的行为。 |
+| 参数     | 类型       | 描述             |
+| -------- | ---------- | ---------------- |
+| item     | IBehavior  | 要添加的行为。   |
 
 ### 另请参见
 

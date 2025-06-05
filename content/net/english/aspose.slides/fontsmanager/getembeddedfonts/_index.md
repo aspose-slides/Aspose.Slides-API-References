@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/fontsmanager/getembeddedfonts/
 ---
+
 ## FontsManager.GetEmbeddedFonts method
 
 Returns the fonts embedded in the presentation

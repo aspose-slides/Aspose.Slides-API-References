@@ -1,7 +1,7 @@
 ---
 title: GetEffectStyles
 second_title: Aspose.Slides для .NET API Reference
-description: Возвращает коллекцию стилей эффектов, определённых темой.
+description: Возвращает коллекцию стилей эффектов, определенных темой.
 type: docs
 weight: 20
 url: /ru/aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles/
 
 ## IFormatSchemeEffectiveData.GetEffectStyles метод
 
-Возвращает коллекцию стилей эффектов, определённых темой.
+Возвращает коллекцию стилей эффектов, определенных темой.
 
 ```csharp
 public IEffectStyleCollectionEffectiveData GetEffectStyles(Color styleColor)
@@ -17,13 +17,13 @@ public IEffectStyleCollectionEffectiveData GetEffectStyles(Color styleColor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| styleColor | Color | Цвет цвета |
+| styleColor | Color | Цвет цветa |
 
-### Значение возврата
+### Возвращаемое значение
 
 Коллекция эффективных стилей эффектов [`IEffectStyleCollectionEffectiveData`](../../ieffectstylecollectioneffectivedata)
 
-### См. также
+### Смотрите также
 
 * интерфейс [IEffectStyleCollectionEffectiveData](../../ieffectstylecollectioneffectivedata)
 * интерфейс [IFormatSchemeEffectiveData](../../iformatschemeeffectivedata)

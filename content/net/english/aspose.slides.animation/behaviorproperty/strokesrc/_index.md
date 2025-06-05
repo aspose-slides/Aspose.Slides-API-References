@@ -6,6 +6,7 @@ type: docs
 weight: 1000
 url: /aspose.slides.animation/behaviorproperty/strokesrc/
 ---
+
 ## BehaviorProperty.StrokeSrc property
 
 Represents 'stroke.src' property

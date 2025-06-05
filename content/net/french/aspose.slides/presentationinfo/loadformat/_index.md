@@ -1,7 +1,7 @@
 ---
 title: LoadFormat
-second_title: Référence API Aspose.Slides pour .NET
-description: Obtient le format de la présentation liée. Format en lecture seule LoadFormataspose.slides/loadformat.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Obtient le format de la présentation liée. Lecture seule LoadFormataspose.slides/loadformat.
 type: docs
 weight: 40
 url: /fr/aspose.slides/presentationinfo/loadformat/

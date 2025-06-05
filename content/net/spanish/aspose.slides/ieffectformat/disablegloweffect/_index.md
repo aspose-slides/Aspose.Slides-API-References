@@ -1,7 +1,7 @@
 ---
-title: DesactivarEfectoBrillo
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Desactivar efecto de brillo.
+title: DisableGlowEffect
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Desactivar el efecto de resplandor.
 type: docs
 weight: 130
 url: /es/aspose.slides/ieffectformat/disablegloweffect/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/ieffectformat/disablegloweffect/
 
 ## IEffectFormat.DisableGlowEffect método
 
-Desactivar efecto de brillo.
+Desactivar el efecto de resplandor.
 
 ```csharp
 public void DisableGlowEffect()
@@ -17,8 +17,8 @@ public void DisableGlowEffect()
 
 ### Ver También
 
-* interfaz [IEffectFormat](../../ieffectformat)
-* espacio de nombres [Aspose.Slides](../../ieffectformat)
-* ensamblaje [Aspose.Slides](../../../)
+* interface [IEffectFormat](../../ieffectformat)
+* namespace [Aspose.Slides](../../ieffectformat)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

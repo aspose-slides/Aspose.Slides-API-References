@@ -1,7 +1,7 @@
 ---
 title: SyncRoot
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen Synchronisationswurzel zurück. Nur-Lese-Objekt.
+description: Gibt eine Synchronisationswurzel zurück. Nur-Lese-Objekt.
 type: docs
 weight: 40
 url: /de/aspose.slides/tabcollection/syncroot/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/tabcollection/syncroot/
 
 ## TabCollection.SyncRoot-Eigenschaft
 
-Gibt einen Synchronisationswurzel zurück. Nur-Lese-Objekt.
+Gibt eine Synchronisationswurzel zurück. Nur-Lese-Objekt.
 
 ```csharp
 public object SyncRoot { get; }

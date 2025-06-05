@@ -1,15 +1,15 @@
 ---
-title: 添加嵌入音频框
-second_title: Aspose.Sildes for .NET API 参考
-description: 在集合末尾添加一个带有嵌入音频文件的新音频框。嵌入的音频文件只能是WAV格式。它将新音频添加到Presentation.Audios列表中。
+title: AddAudioFrameEmbedded
+second_title: Aspose.Sildes for .NET API Reference
+description: 在集合的末尾添加一个带嵌入音频文件的新音频框架。嵌入的音频文件只能是WAV格式。它将新音频添加到Presentation.Audios列表中。
 type: docs
 weight: 40
 url: /zh/aspose.slides/ishapecollection/addaudioframeembedded/
 ---
 
-## 添加嵌入音频框(float, float, float, float, Stream) {#addaudioframeembedded_1}
+## AddAudioFrameEmbedded(float, float, float, float, Stream) {#addaudioframeembedded_1}
 
-在集合末尾添加一个带有嵌入音频文件的新音频框。嵌入的音频文件只能是WAV格式。它将新音频添加到Presentation.Audios列表中。
+在集合的末尾添加一个带嵌入音频文件的新音频框架。嵌入的音频文件只能是WAV格式。它将新音频添加到Presentation.Audios列表中。
 
 ```csharp
 public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float height, 
@@ -18,17 +18,17 @@ public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float he
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| x | 单精度浮点数 | 新音频框的X坐标。 |
-| y | 单精度浮点数 | 新音频框的Y坐标。 |
-| width | 单精度浮点数 | 新音频框的宽度。 |
-| height | 单精度浮点数 | 新音频框的高度。 |
-| audio_stream | Stream | 带有音频数据的输入输出流。 |
+| x | Single | 新音频框架的X坐标。 |
+| y | Single | 新音频框架的Y坐标。 |
+| width | Single | 新音频框架的宽度。 |
+| height | Single | 新音频框架的高度。 |
+| audio_stream | Stream | 包含音频数据的输入输出流。 |
 
 ### 返回值
 
 创建的AudioFrame对象。
 
-### 参见
+### 另请参见
 
 * 接口 [IAudioFrame](../../iaudioframe)
 * 接口 [IShapeCollection](../../ishapecollection)
@@ -37,9 +37,9 @@ public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float he
 
 ---
 
-## 添加嵌入音频框(float, float, float, float, IAudio) {#addaudioframeembedded}
+## AddAudioFrameEmbedded(float, float, float, float, IAudio) {#addaudioframeembedded}
 
-在集合末尾添加一个带有嵌入音频文件的新音频框。它从Presentation.Audios列表中使用音频文件。
+在集合的末尾添加一个带嵌入音频文件的新音频框架。它从Presentation.Audios列表中使用音频文件。
 
 ```csharp
 public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float height, IAudio audio)
@@ -47,17 +47,17 @@ public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float he
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| x | 单精度浮点数 | 新音频框的X坐标。 |
-| y | 单精度浮点数 | 新音频框的Y坐标。 |
-| width | 单精度浮点数 | 新音频框的宽度。 |
-| height | 单精度浮点数 | 新音频框的高度。 |
+| x | Single | 新音频框架的X坐标。 |
+| y | Single | 新音频框架的Y坐标。 |
+| width | Single | 新音频框架的宽度。 |
+| height | Single | 新音频框架的高度。 |
 | audio | IAudio | 来自Presentation.Audios列表的音频。 |
 
 ### 返回值
 
 创建的AudioFrame对象。
 
-### 参见
+### 另请参见
 
 * 接口 [IAudioFrame](../../iaudioframe)
 * 接口 [IAudio](../../iaudio)

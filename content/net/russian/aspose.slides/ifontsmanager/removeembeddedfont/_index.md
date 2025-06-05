@@ -1,6 +1,6 @@
 ---
 title: RemoveEmbeddedFont
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Slide для .NET API Reference
 description: Удаляет встроенный шрифт
 type: docs
 weight: 90

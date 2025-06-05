@@ -15,10 +15,10 @@ Devuelve o establece el nombre de un archivo de video que está vinculado a un V
 public string LinkPathLong { get; set; }
 ```
 
-### Véase también
+### Ver También
 
-* clase [VideoFrame](../../videoframe)
-* espacio de nombres [Aspose.Slides](../../videoframe)
-* ensamblaje [Aspose.Slides](../../../)
+* class [VideoFrame](../../videoframe)
+* namespace [Aspose.Slides](../../videoframe)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -6,6 +6,7 @@ type: docs
 weight: 210
 url: /aspose.slides.mathtext/mathmatrix/setcolumnsalignment/
 ---
+
 ## MathMatrix.SetColumnsAlignment method
 
 Set the horizontal alignment of the specified columns

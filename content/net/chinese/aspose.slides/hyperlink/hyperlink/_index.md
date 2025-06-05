@@ -1,6 +1,6 @@
 ---
-title: 超链接
-second_title: Aspose.Slides for .NET API 参考
+title: Hyperlink
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建一个超链接实例。
 type: docs
 weight: 10
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/hyperlink/hyperlink/
 
 ## Hyperlink(string) {#constructor_2}
 
-创建一个超链接的实例。
+创建一个超链接实例。
 
 ```csharp
 public Hyperlink(string url)
@@ -19,7 +19,7 @@ public Hyperlink(string url)
 | --- | --- | --- |
 | url | String | 超链接 URL。 |
 
-### 另请参见
+### 参见
 
 * class [Hyperlink](../../hyperlink)
 * namespace [Aspose.Slides](../../hyperlink)
@@ -29,7 +29,7 @@ public Hyperlink(string url)
 
 ## Hyperlink(ISlide) {#constructor_1}
 
-创建一个指向特定幻灯片的超链接实例。注意：创建的超链接应赋值给同一演示文稿中的某个对象，否则链接将被保存为 NoAction。
+创建一个指向特定幻灯片的超链接实例。注意：创建的超链接应分配给同一演示文稿中的某个对象，否则链接将保存为 NoAction。
 
 ```csharp
 public Hyperlink(ISlide slide)
@@ -39,7 +39,7 @@ public Hyperlink(ISlide slide)
 | --- | --- | --- |
 | slide | ISlide | 目标幻灯片。 |
 
-### 另请参见
+### 参见
 
 * interface [ISlide](../../islide)
 * class [Hyperlink](../../hyperlink)
@@ -50,7 +50,7 @@ public Hyperlink(ISlide slide)
 
 ## Hyperlink(Hyperlink, string, string, bool, bool, bool) {#constructor}
 
-使用另一个超链接作为源来创建超链接实例，覆盖次要属性。
+使用另一个超链接作为源创建超链接实例，覆盖次要属性。
 
 ```csharp
 public Hyperlink(Hyperlink source, string targetFrame, string tooltip, bool history, 
@@ -66,7 +66,7 @@ public Hyperlink(Hyperlink source, string targetFrame, string tooltip, bool hist
 | stopSoundsOnClick | Boolean |  |
 | highlightClick | Boolean |  |
 
-### 另请参见
+### 参见
 
 * class [Hyperlink](../../hyperlink)
 * namespace [Aspose.Slides](../../hyperlink)

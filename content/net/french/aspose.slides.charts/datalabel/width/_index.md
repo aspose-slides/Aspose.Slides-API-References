@@ -1,7 +1,7 @@
 ---
-title: Largeur
+title: Width
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit la largeur d'un titre en tant que fraction de la largeur du graphique. Lecture/écriture Simple.
+description: Renvoie ou définit la largeur d'un titre en tant que fraction de la largeur du graphique. Lecture/écriture Single.
 type: docs
 weight: 150
 url: /fr/aspose.slides.charts/datalabel/width/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/datalabel/width/
 
 ## Propriété DataLabel.Width
 
-Renvoie ou définit la largeur d'un titre en tant que fraction de la largeur du graphique. Lecture/écriture Simple.
+Renvoie ou définit la largeur d'un titre en tant que fraction de la largeur du graphique. Lecture/écriture Single.
 
 ```csharp
 public float Width { get; set; }
@@ -17,7 +17,7 @@ public float Width { get; set; }
 
 ### Voir aussi
 
-* class [DataLabel](../../datalabel)
+* classe [DataLabel](../../datalabel)
 * namespace [Aspose.Slides.Charts](../../datalabel)
 * assembly [Aspose.Slides](../../../)
 

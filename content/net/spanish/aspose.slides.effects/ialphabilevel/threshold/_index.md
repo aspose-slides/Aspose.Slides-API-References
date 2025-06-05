@@ -1,5 +1,5 @@
 ---
-title: Umbral
+title: Threshold
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el umbral del efecto. Lectura/escritura Single.
 type: docs
@@ -15,10 +15,10 @@ Devuelve el umbral del efecto. Lectura/escritura Single.
 public float Threshold { get; set; }
 ```
 
-### Véase también
+### Ver también
 
-* interfaz [IAlphaBiLevel](../../ialphabilevel)
-* espacio de nombres [Aspose.Slides.Effects](../../ialphabilevel)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IAlphaBiLevel](../../ialphabilevel)
+* espacio de nombres [Aspose.Slides.Effects](../../ialphabilevel)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

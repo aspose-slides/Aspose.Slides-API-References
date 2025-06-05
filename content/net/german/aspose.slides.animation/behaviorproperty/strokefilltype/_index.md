@@ -1,7 +1,7 @@
 ---
 title: StrokeFillType
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt die stroke.filltype-Eigenschaft dar
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt die Eigenschaft stroke.filltype dar
 type: docs
 weight: 940
 url: /de/aspose.slides.animation/behaviorproperty/strokefilltype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/behaviorproperty/strokefilltype/
 
 ## BehaviorProperty.StrokeFillType-Eigenschaft
 
-Stellt die 'stroke.filltype'-Eigenschaft dar
+Stellt die Eigenschaft 'stroke.filltype' dar
 
 ```csharp
 public static BehaviorProperty StrokeFillType { get; }

@@ -1,7 +1,7 @@
 ---
-title: Element
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das IChartDataPointLevel-Objekt für das definierte Level zurück.
+title: Item
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt das IChartDataPointLevel-Objekt für die definierte Ebene zurück.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/chartdatapointlevelsmanager/item/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/chartdatapointlevelsmanager/item/
 
 ## ChartDataPointLevelsManager-Indexer
 
-Gibt das IChartDataPointLevel-Objekt für das definierte Level zurück.
+Gibt das IChartDataPointLevel-Objekt für die definierte Ebene zurück.
 
 ```csharp
 public IChartDataPointLevel this[int level] { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * interface [IChartDataPointLevel](../../ichartdatapointlevel)
 * class [ChartDataPointLevelsManager](../../chartdatapointlevelsmanager)

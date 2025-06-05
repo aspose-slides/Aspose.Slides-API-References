@@ -1,6 +1,6 @@
 ---
 title: DataLabel
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API Aspose.Slides para .NET
 description: Crea una nueva instancia de la clase DataLabel.
 type: docs
 weight: 10
@@ -17,13 +17,13 @@ public DataLabel(IChartDataPoint parentImmediate)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| parentImmediate | IChartDataPoint | Parent ChartDataPoint. |
+| parentImmediate | IChartDataPoint | ChartDataPoint padre. |
 
-### Véase también
+### Ver También
 
-* interface [IChartDataPoint](../../ichartdatapoint)
-* class [DataLabel](../../datalabel)
-* namespace [Aspose.Slides.Charts](../../datalabel)
-* assembly [Aspose.Slides](../../../)
+* interfaz [IChartDataPoint](../../ichartdatapoint)
+* clase [DataLabel](../../datalabel)
+* espacio de nombres [Aspose.Slides.Charts](../../datalabel)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/itint/asiimagetransformoperation/
 ---
+
 ## ITint.AsIImageTransformOperation property
 
 Allows to get base IImageTransformOperation interface. Read-only [`IImageTransformOperation`](../../iimagetransformoperation).

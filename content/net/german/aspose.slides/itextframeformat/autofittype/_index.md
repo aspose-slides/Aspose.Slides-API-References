@@ -1,7 +1,7 @@
 ---
 title: AutofitType
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Autofit-Modus des Textes zurück oder setzt ihn. Lesen/Schreiben von TextAutofitTypeaspose.slides/textautofittype.
+description: Gibt den Autofit-Modus für Texte zurück oder legt ihn fest. Lese-/Schreibzugriff auf TextAutofitTypeaspose.slides/textautofittype.
 type: docs
 weight: 20
 url: /de/aspose.slides/itextframeformat/autofittype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/itextframeformat/autofittype/
 
 ## ITextFrameFormat.AutofitType-Eigenschaft
 
-Gibt den Autofit-Modus des Textes zurück oder setzt ihn. Lesen/Schreiben von [`TextAutofitType`](../../textautofittype).
+Gibt den Autofit-Modus des Textes zurück oder legt ihn fest. Lese-/Schreibzugriff auf [`TextAutofitType`](../../textautofittype).
 
 ```csharp
 public TextAutofitType AutofitType { get; set; }

@@ -1,15 +1,15 @@
 ---
 title: AddSmartArtPlaceholder
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Ajoute une nouvelle forme de zone de contenu à la diapositive de mise en page pour contenir un diagramme SmartArt.
+description: Ajoute une nouvelle forme de placeholder à la diapositive de mise en page pour contenir un diagramme SmartArt.
 type: docs
 weight: 60
 url: /fr/aspose.slides/layoutplaceholdermanager/addsmartartplaceholder/
 ---
 
-## Méthode LayoutPlaceholderManager.AddSmartArtPlaceholder
+## LayoutPlaceholderManager.AddSmartArtPlaceholder méthode
 
-Ajoute une nouvelle forme de zone de contenu à la diapositive de mise en page pour contenir un diagramme SmartArt.
+Ajoute une nouvelle forme de placeholder à la diapositive de mise en page pour contenir un diagramme SmartArt.
 
 ```csharp
 public IAutoShape AddSmartArtPlaceholder(float x, float y, float width, float height)
@@ -17,18 +17,18 @@ public IAutoShape AddSmartArtPlaceholder(float x, float y, float width, float he
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| x | Single | La coordonnée X de la nouvelle forme de zone de contenu. |
-| y | Single | La coordonnée Y de la nouvelle forme de zone de contenu. |
-| width | Single | La largeur de la nouvelle forme de zone de contenu. |
-| height | Single | La hauteur de la nouvelle forme de zone de contenu. |
+| x | Single | La coordonnée X de la nouvelle forme de placeholder. |
+| y | Single | La coordonnée Y de la nouvelle forme de placeholder. |
+| width | Single | La largeur de la nouvelle forme de placeholder. |
+| height | Single | La hauteur de la nouvelle forme de placeholder. |
 
-### Valeur de retour
+### Valeur de Retour
 
-Créé un [`IAutoShape`](../../iautoshape) avec un espace réservé SmartArt.
+[`IAutoShape`](../../iautoshape) créé avec un placeholder SmartArt.
 
 ### Exemples
 
-L'exemple suivant montre comment ajouter la forme de zone de contenu SmartArt à la diapositive de mise en page.
+L'exemple suivant montre comment ajouter la forme de placeholder SmartArt à la diapositive de mise en page.
 
 ```csharp
 [C#]
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IAutoShape](../../iautoshape)
 * classe [LayoutPlaceholderManager](../../layoutplaceholdermanager)

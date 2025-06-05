@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/igeometrypath/removeat/
 ---
+
 ## IGeometryPath.RemoveAt method
 
 Removes segment at the specified index of the geometry path.

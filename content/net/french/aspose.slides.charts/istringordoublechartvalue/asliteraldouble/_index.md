@@ -1,7 +1,7 @@
 ---
 title: AsLiteralDouble
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit le double littéral si la propriété DataSourceType est DataSourceType.DoubleLiterals. Lecture/écriture Double.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Retourne ou définit le double littéral si la propriété DataSourceType est DataSourceType.DoubleLiterals. Lecture/écriture Double.
 type: docs
 weight: 20
 url: /fr/aspose.slides.charts/istringordoublechartvalue/asliteraldouble/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/istringordoublechartvalue/asliteraldouble/
 
 ## Propriété IStringOrDoubleChartValue.AsLiteralDouble
 
-Renvoie ou définit le double littéral si la propriété DataSourceType est DataSourceType.DoubleLiterals. Lecture/écriture Double.
+Retourne ou définit le double littéral si la propriété DataSourceType est DataSourceType.DoubleLiterals. Lecture/écriture Double.
 
 ```csharp
 public double AsLiteralDouble { get; set; }

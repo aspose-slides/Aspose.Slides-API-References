@@ -1,7 +1,7 @@
 ---
 title: IPatternFormatEffectiveData
-second_title: Référence API Aspose.Slides pour .NET
-description: Objet immutable qui contient des propriétés de remplissage de motif effectif.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Objet immuable contenant les propriétés de remplissage de motif effectif.
 type: docs
 weight: 6430
 url: /fr/aspose.slides/ipatternformateffectivedata/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ipatternformateffectivedata/
 
 ## Interface IPatternFormatEffectiveData
 
-Objet immutable qui contient des propriétés de remplissage de motif effectif.
+Objet immuable contenant les propriétés de remplissage de motif effectif.
 
 ```csharp
 public interface IPatternFormatEffectiveData
@@ -19,19 +19,19 @@ public interface IPatternFormatEffectiveData
 
 | Nom | Description |
 | --- | --- |
-| [BackColor](../../aspose.slides/ipatternformateffectivedata/backcolor) { get; } | Renvoie la couleur de fond du motif. Lecture seule Color. |
-| [ForeColor](../../aspose.slides/ipatternformateffectivedata/forecolor) { get; } | Renvoie la couleur de premier plan du motif. Lecture seule Color. |
-| [PatternStyle](../../aspose.slides/ipatternformateffectivedata/patternstyle) { get; } | Renvoie le style du motif. Lecture seule [`PatternStyle`](../patternstyle). |
+| [BackColor](../../aspose.slides/ipatternformateffectivedata/backcolor) { get; } | Retourne la couleur de fond du motif. Lecture seule Color. |
+| [ForeColor](../../aspose.slides/ipatternformateffectivedata/forecolor) { get; } | Retourne la couleur de premier plan du motif. Lecture seule Color. |
+| [PatternStyle](../../aspose.slides/ipatternformateffectivedata/patternstyle) { get; } | Retourne le style de motif. Lecture seule [`PatternStyle`](../patternstyle). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [GetTileIImage](../../aspose.slides/ipatternformateffectivedata/gettileiimage)(Color, Color) | Crée une image de tuile pour le remplissage de motif avec des couleurs spécifiées. |
+| [GetTileIImage](../../aspose.slides/ipatternformateffectivedata/gettileiimage)(Color, Color) | Crée une image de carreau pour le remplissage du motif avec des couleurs spécifiques. |
 
 ### Remarques
 
-Cette interface est utilisée comme partie de [`IFillFormatEffectiveData`](../ifillformateffectivedata) et [`ILineFillFormatEffectiveData`](../ilinefillformateeffectivedata).
+Cette interface est utilisée comme partie de [`IFillFormatEffectiveData`](../ifillformateffectivedata) et [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata).
 
 ### Voir aussi
 

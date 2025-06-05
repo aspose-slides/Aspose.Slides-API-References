@@ -1,13 +1,13 @@
 ---
 title: ColorOffset
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Der Standardkonstruktor.
 type: docs
 weight: 10
 url: /de/aspose.slides.animation/coloroffset/coloroffset/
 ---
 
-## ColorOffset-Konstruktor
+## ColorOffset Konstruktor
 
 Der Standardkonstruktor.
 
@@ -15,7 +15,7 @@ Der Standardkonstruktor.
 public ColorOffset()
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [ColorOffset](../../coloroffset)
 * Namespace [Aspose.Slides.Animation](../../coloroffset)

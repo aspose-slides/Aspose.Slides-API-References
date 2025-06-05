@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext/
 ---
+
 ## IBaseHandoutNotesSlideHeaderFooterManag.SetHeaderText method
 
 Sets text to slide header placeholder.

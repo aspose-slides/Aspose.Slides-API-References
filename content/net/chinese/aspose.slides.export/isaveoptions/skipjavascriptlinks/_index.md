@@ -1,7 +1,7 @@
 ---
 title: SkipJavaScriptLinks
-second_title: Aspose.Slides for .NET API Reference
-description: 指定在保存演示文稿时是否跳过包含JavaScript调用的超链接。可读/可写布尔值。默认值为false。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定在保存演示文稿时是否跳过带有 JavaScript 调用的超链接。可读/可写布尔值。默认值为 false。
 type: docs
 weight: 40
 url: /zh/aspose.slides.export/isaveoptions/skipjavascriptlinks/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/isaveoptions/skipjavascriptlinks/
 
 ## ISaveOptions.SkipJavaScriptLinks 属性
 
-指定在保存演示文稿时是否跳过包含JavaScript调用的超链接。可读/可写布尔值。默认值为 **false**。
+指定在保存演示文稿时是否跳过带有 JavaScript 调用的超链接。可读/可写布尔值。默认值为 **false**。
 
 ```csharp
 public bool SkipJavaScriptLinks { get; set; }
@@ -17,13 +17,13 @@ public bool SkipJavaScriptLinks { get; set; }
 
 ### 备注
 
-当此属性设置为 **true** 时，包含JavaScript调用的超链接在保存时将被忽略。
+当此属性设置为 **true** 时，带有 JavaScript 调用的超链接在保存时将被忽略。
 
-当此属性设置为 **false** 时，将保存所有超链接。
+当此属性设置为 **false** 时，所有超链接将被保存。
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -36,7 +36,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [ISaveOptions](../../isaveoptions)
 * 命名空间 [Aspose.Slides.Export](../../isaveoptions)

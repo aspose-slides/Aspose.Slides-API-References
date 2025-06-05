@@ -1,7 +1,7 @@
 ---
 title: HasBorderHorizontal
-second_title: Aspose.Slides für .NET API Referenz
-description: Wahr, wenn die Datentabelle des Diagramms horizontale Zellengrenzen hat. Lese-/schreibbare Boolesche Variable.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Wahr, wenn die Diagrammdaten-Tabelle horizontale Zellränder hat. Lese-/Schreib-Boolean.
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/idatatable/hasborderhorizontal/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/idatatable/hasborderhorizontal/
 
 ## IDataTable.HasBorderHorizontal-Eigenschaft
 
-Wahr, wenn die Datentabelle des Diagramms horizontale Zellengrenzen hat. Lese-/schreibbare Boolesche Variable.
+Wahr, wenn die Diagrammdaten-Tabelle horizontale Zellränder hat. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool HasBorderHorizontal { get; set; }

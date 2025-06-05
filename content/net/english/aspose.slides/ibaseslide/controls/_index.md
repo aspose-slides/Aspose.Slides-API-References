@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ibaseslide/controls/
 ---
+
 ## IBaseSlide.Controls property
 
 Returns the collection of ActiveX controls on a slide. Read-only [`IControlCollection`](../../icontrolcollection).

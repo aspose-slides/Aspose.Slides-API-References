@@ -6,6 +6,7 @@ type: docs
 weight: 270
 url: /aspose.slides.animation/behaviorproperty/fillangle/
 ---
+
 ## BehaviorProperty.FillAngle property
 
 Represents 'fill.angle' property

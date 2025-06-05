@@ -1,7 +1,7 @@
 ---
-title: ZoneDeDessin
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente la zone de dessin d'un graphique. Lecture seule IChartPlotAreaaspose.slides.charts/ichartplotarea.
+title: PlotArea
+second_title: Aspose.Slides pour .NET API Référence
+description: Représente la zone de tracé d'un graphique. Lecture seule IChartPlotAreaaspose.slides.charts/ichartplotarea.
 type: docs
 weight: 160
 url: /fr/aspose.slides.charts/ichart/plotarea/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ichart/plotarea/
 
 ## Propriété IChart.PlotArea
 
-Représente la zone de dessin d'un graphique. Lecture seule [`IChartPlotArea`](../../ichartplotarea).
+Représente la zone de tracé d'un graphique. Lecture seule [`IChartPlotArea`](../../ichartplotarea).
 
 ```csharp
 public IChartPlotArea PlotArea { get; }

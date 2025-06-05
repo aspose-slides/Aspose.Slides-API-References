@@ -1,13 +1,13 @@
 ---
 title: ColorScheme
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie un schéma de couleurs. Lecture seule IColorSchemeaspose.slides.theme/icolorscheme.
 type: docs
 weight: 10
 url: /fr/aspose.slides.theme/extracolorscheme/colorscheme/
 ---
 
-## Propriété ExtraColorScheme.ColorScheme
+## ExtraColorScheme.ColorScheme propriété
 
 Renvoie un schéma de couleurs. Lecture seule [`IColorScheme`](../../icolorscheme).
 
@@ -15,7 +15,7 @@ Renvoie un schéma de couleurs. Lecture seule [`IColorScheme`](../../icolorschem
 public IColorScheme ColorScheme { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IColorScheme](../../icolorscheme)
 * class [ExtraColorScheme](../../extracolorscheme)

@@ -1,13 +1,13 @@
 ---
-title: Formato
-second_title: Referencia de la API Aspose.Slides para .NET
+title: Format
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Devuelve el formato de una leyenda. Solo lectura IFormataspose.slides.charts/iformat.
 type: docs
 weight: 40
 url: /es/aspose.slides.charts/ilegend/format/
 ---
 
-## Propiedad ILegend.Format
+## ILegend.Format propiedad
 
 Devuelve el formato de una leyenda. Solo lectura [`IFormat`](../../iformat).
 

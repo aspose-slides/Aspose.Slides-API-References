@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.mathtext/imathdelimiter/asimathelement/
 ---
+
 ## IMathDelimiter.AsIMathElement property
 
 Allows to get base IMathElement interface [`IMathElement`](../../imathelement)

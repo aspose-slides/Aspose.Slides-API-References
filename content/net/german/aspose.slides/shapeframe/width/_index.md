@@ -1,5 +1,5 @@
 ---
-title: Breite
+title: Width
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Breite eines Rahmens zurück. Nur-Lese Single.
 type: docs
@@ -7,7 +7,7 @@ weight: 90
 url: /de/aspose.slides/shapeframe/width/
 ---
 
-## ShapeFrame.Width-Eigenschaft
+## ShapeFrame.Width Eigenschaft
 
 Gibt die Breite eines Rahmens zurück. Nur-Lese Single.
 

@@ -1,7 +1,7 @@
 ---
-title: 由
-second_title: Aspose.Sildes for .NET API 参考
-description: 描述颜色动画的相对偏移值。可读/可写 IColorOffsetaspose.slides/icoloroffset。
+title: By
+second_title: Aspose.Sildes for .NET API Reference
+description: 描述颜色动画的相对偏移值。读/写 IColorOffsetaspose.slides/icoloroffset。
 type: docs
 weight: 20
 url: /zh/aspose.slides.animation/coloreffect/by/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/coloreffect/by/
 
 ## ColorEffect.By 属性
 
-描述颜色动画的相对偏移值。可读/可写 [`IColorOffset`](../../icoloroffset)。
+描述颜色动画的相对偏移值。读/写 [`IColorOffset`](../../icoloroffset)。
 
 ```csharp
 public IColorOffset By { get; set; }

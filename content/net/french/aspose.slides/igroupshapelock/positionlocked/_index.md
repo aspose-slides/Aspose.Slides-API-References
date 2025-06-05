@@ -1,13 +1,13 @@
 ---
-title: PositionVerrouillée
-second_title: Référence API Aspose.Sildes pour .NET
+title: PositionLocked
+second_title: Aspose.Slides pour référence API .NET
 description: Détermine si le déplacement de cette forme est interdit. Booléen en lecture/écriture.
 type: docs
 weight: 40
 url: /fr/aspose.slides/igroupshapelock/positionlocked/
 ---
 
-## Propriété IGroupShapeLock.PositionLocked
+## IGroupShapeLock.PositionLocked propriété
 
 Détermine si le déplacement de cette forme est interdit. Booléen en lecture/écriture.
 

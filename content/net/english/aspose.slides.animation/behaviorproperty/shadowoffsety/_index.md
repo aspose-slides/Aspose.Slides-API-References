@@ -6,6 +6,7 @@ type: docs
 weight: 710
 url: /aspose.slides.animation/behaviorproperty/shadowoffsety/
 ---
+
 ## BehaviorProperty.ShadowOffsetY property
 
 Represents 'shadow.offset.y' property

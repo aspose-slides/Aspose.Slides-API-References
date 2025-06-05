@@ -1,7 +1,7 @@
 ---
-title: Droit
+title: Right
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient le droit de l'élément de graphique en tant que fraction de la largeur du graphique. Lecture seule Single.
+description: Obtient la droite de l'élément de graphique en tant que fraction de la largeur du graphique. Lecture seule Single.
 type: docs
 weight: 40
 url: /fr/aspose.slides.charts/ilayoutable/right/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ilayoutable/right/
 
 ## Propriété ILayoutable.Right
 
-Obtient le droit de l'élément de graphique en tant que fraction de la largeur du graphique. Lecture seule Single.
+Obtient la droite de l'élément de graphique en tant que fraction de la largeur du graphique. Lecture seule Single.
 
 ```csharp
 public float Right { get; }

@@ -1,6 +1,6 @@
 ---
 title: AddEmptyModule
-second_title: Aspose.Sildes для .NET API справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Добавляет новый пустой модуль в проект VBA.
 type: docs
 weight: 50

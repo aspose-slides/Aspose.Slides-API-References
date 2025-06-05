@@ -1,21 +1,21 @@
 ---
 title: SpreadsheetOptions
-second_title: Aspose.Sildes for .NET API Reference
-description: 初始化一个新的SpreadsheetOptionsaspose.slides/spreadsheetoptions类实例。
+second_title: Aspose.Slides for .NET API 参考
+description: 初始化一个新的 SpreadsheetOptionsaspose.slides/spreadsheetoptions 类的实例。
 type: docs
 weight: 10
 url: /zh/aspose.slides/spreadsheetoptions/spreadsheetoptions/
 ---
 
-## SpreadsheetOptions构造函数
+## SpreadsheetOptions 构造函数
 
-初始化一个新的[`SpreadsheetOptions`](../../spreadsheetoptions)类实例。
+初始化一个新的 [`SpreadsheetOptions`](../../spreadsheetoptions) 类的实例。
 
 ```csharp
 public SpreadsheetOptions()
 ```
 
-### 参见
+### 另见
 
 * 类 [SpreadsheetOptions](../../spreadsheetoptions)
 * 命名空间 [Aspose.Slides](../../spreadsheetoptions)

@@ -7,7 +7,7 @@ weight: 10
 url: /fr/aspose.slides/imasterslideheaderfootermanager/asibaseslideheaderfootermanager/
 ---
 
-## Propriété IMasterSlideHeaderFooterManager.AsIBaseSlideHeaderFooterManager
+## IMasterSlideHeaderFooterManager.AsIBaseSlideHeaderFooterManager propriété
 
 Renvoie l'interface IBaseSlideHeaderFooterManager.
 

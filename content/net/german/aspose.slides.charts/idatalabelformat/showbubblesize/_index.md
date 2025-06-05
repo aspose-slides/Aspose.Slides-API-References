@@ -1,7 +1,7 @@
 ---
 title: ShowBubbleSize
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt das Anzeigeverhalten des Bubble-Größenwerts eines bestimmten Diagramm-Labels dar. True zeigt den Bubble-Größenwert an. False zum Verstecken. Schreib-/Lese-Boolescher Wert.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt das Anzeigeverhalten des Werts der Blasengröße für die angegebenen Datenetiketten eines Charts dar. Wahr zeigt den Wert der Blasengröße an. Falsch, um es auszublenden. Schreib-/lesbarer Boolescher Wert.
 type: docs
 weight: 70
 url: /de/aspose.slides.charts/idatalabelformat/showbubblesize/
@@ -9,15 +9,15 @@ url: /de/aspose.slides.charts/idatalabelformat/showbubblesize/
 
 ## IDataLabelFormat.ShowBubbleSize-Eigenschaft
 
-Stellt das Anzeigeverhalten des Bubble-Größenwerts eines bestimmten Diagramm-Labels dar. True zeigt den Bubble-Größenwert an. False zum Verstecken. Schreib-/Lese-Boolescher Wert.
+Stellt das Anzeigeverhalten des Werts der Blasengröße des Datenetiketts eines angegebenen Charts dar. Wahr zeigt den Wert der Blasengröße an. Falsch, um es auszublenden. Schreib-/lesbarer Boolescher Wert.
 
 ```csharp
 public bool ShowBubbleSize { get; set; }
 ```
 
-### Hinweise
+### Bemerkungen
 
-Wenn der Elternteil dieses DataLabelFormat-Objekts eine DataLabelCollection-Sammlung von Daten-Labels ist, wird durch diese Eigenschaft der Standardwert der ShowBubbleSize-Eigenschaft für die neuen Daten-Labels in der DataLabelCollection-Sammlung abgerufen oder festgelegt. Das Setzen dieser Eigenschaft mit einem Wert setzt diesen Wert auch für die ShowBubbleSize-Eigenschaft aller Daten-Labels in der DataLabelCollection-Sammlung (d.h. "DataLabels.DefaultDataLabelFormat.ShowBubbleSize = val;" bewirkt, dass alle DataLabels[i].ShowBubbleSize gleich val sind).
+Wenn der Elternteil dieses DataLabelFormat-Objekts eine DataLabelCollection-Sammlung von Datenetiketten ist, erhält oder setzt diese Eigenschaft den Standardwert der ShowBubbleSize-Eigenschaft für die neuen Datenetiketten in der DataLabelCollection-Sammlung. Wenn Sie diese Eigenschaft mit einem Wert festlegen, wird dieser Wert auch für die ShowBubbleSize-Eigenschaft aller Datenetiketten in der DataLabelCollection-Sammlung festgelegt (d.h. "DataLabels.DefaultDataLabelFormat.ShowBubbleSize = val;" bewirkt, dass alle DataLabels[i].ShowBubbleSize gleich val ist).
 
 ### Siehe auch
 

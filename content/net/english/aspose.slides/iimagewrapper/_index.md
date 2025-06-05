@@ -3,9 +3,10 @@ title: IImageWrapper
 second_title: Aspose.Sildes for .NET API Reference
 description: System.Drawing.Image wrapper for COM interface.
 type: docs
-weight: 5750
+weight: 5970
 url: /aspose.slides/iimagewrapper/
 ---
+
 ## IImageWrapper interface
 
 System.Drawing.Image wrapper for COM interface.
@@ -19,7 +20,7 @@ public interface IImageWrapper : IDisposable
 | Name | Description |
 | --- | --- |
 | [AsIDisposable](../../aspose.slides/iimagewrapper/asidisposable) { get; } | Returns IDisposable interface. Read-only IDisposable. |
-| [Image](../../aspose.slides/iimagewrapper/image) { get; } | Gets the Syste.Drawing.Image Read-only [`Image`](./image). |
+| [ImageSource](../../aspose.slides/iimagewrapper/imagesource) { get; } | Gets the image Read-only Image. |
 | [Size](../../aspose.slides/iimagewrapper/size) { get; } | Gets the width and height, in pixels, of the Image Read-only [`Size`](./size). |
 
 ## Methods

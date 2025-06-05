@@ -1,7 +1,7 @@
 ---
 title: SeriesAxis
 second_title: Aspose.Slides für .NET API Referenz
-description: Erhält die Serienachse des Diagramms. Nur-Lese IAxisaspose.slides/iaxis.
+description: Gibt die Serienachse des Diagramms zurück. Nur lesend IAxisaspose.slides.charts/iaxis.
 type: docs
 weight: 40
 url: /de/aspose.slides.charts/iaxesmanager/seriesaxis/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/iaxesmanager/seriesaxis/
 
 ## IAxesManager.SeriesAxis-Eigenschaft
 
-Erhält die Serienachse des Diagramms. Nur-Lese [`IAxis`](../../iaxis).
+Gibt die Serienachse des Diagramms zurück. Nur lesend [`IAxis`](../../iaxis).
 
 ```csharp
 public IAxis SeriesAxis { get; }

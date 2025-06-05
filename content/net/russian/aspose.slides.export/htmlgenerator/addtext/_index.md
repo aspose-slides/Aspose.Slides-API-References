@@ -1,7 +1,7 @@
 ---
 title: AddText
-second_title: Aspose.Sildes для .NET API Reference
-description: Добавляет простой текст в html файлы, заменяя специальные символы на html сущности. Разрывы строк и пробелы не заменяются.
+second_title: Aspose.Sildes для .NET Справочник по API
+description: Добавляет обычный текст в HTML-файлы, заменяя специальные символы на HTML-сущности. Переносы строк и пробелы не заменяются.
 type: docs
 weight: 90
 url: /ru/aspose.slides.export/htmlgenerator/addtext/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export/htmlgenerator/addtext/
 
 ## AddText(string) {#addtext_2}
 
-Добавляет простой текст в html файлы, заменяя специальные символы на html сущности. Разрывы строк и пробелы не заменяются.
+Добавляет обычный текст в HTML-файлы, заменяя специальные символы на HTML-сущности. Переносы строк и пробелы не заменяются.
 
 ```csharp
 public void AddText(string text)
@@ -19,7 +19,7 @@ public void AddText(string text)
 | --- | --- | --- |
 | text | String | Текст для добавления. |
 
-### Также посмотрите
+### Также см.
 
 * класс [HtmlGenerator](../../htmlgenerator)
 * пространство имен [Aspose.Slides.Export](../../htmlgenerator)
@@ -29,7 +29,7 @@ public void AddText(string text)
 
 ## AddText(char[]) {#addtext}
 
-Добавляет простой текст в html файлы, заменяя специальные символы на html сущности. Разрывы строк и пробелы не заменяются.
+Добавляет обычный текст в HTML-файлы, заменяя специальные символы на HTML-сущности. Переносы строк и пробелы не заменяются.
 
 ```csharp
 public void AddText(char[] text)
@@ -39,7 +39,7 @@ public void AddText(char[] text)
 | --- | --- | --- |
 | text | Char[] | Текст для добавления. |
 
-### Также посмотрите
+### Также см.
 
 * класс [HtmlGenerator](../../htmlgenerator)
 * пространство имен [Aspose.Slides.Export](../../htmlgenerator)
@@ -49,7 +49,7 @@ public void AddText(char[] text)
 
 ## AddText(char[], int, int) {#addtext_1}
 
-Добавляет простой текст в html файлы, заменяя специальные символы на html сущности. Разрывы строк и пробелы не заменяются.
+Добавляет обычный текст в HTML-файлы, заменяя специальные символы на HTML-сущности. Переносы строк и пробелы не заменяются.
 
 ```csharp
 public void AddText(char[] text, int startIndex, int length)
@@ -58,10 +58,10 @@ public void AddText(char[] text, int startIndex, int length)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | text | Char[] | Текст для добавления. |
-| startIndex | Int32 | Начальный индекс части для добавления. |
-| length | Int32 | Длина части для добавления. |
+| startIndex | Int32 | Начальный индекс порции для добавления. |
+| length | Int32 | Длина порции для добавления. |
 
-### Также посмотрите
+### Также см.
 
 * класс [HtmlGenerator](../../htmlgenerator)
 * пространство имен [Aspose.Slides.Export](../../htmlgenerator)

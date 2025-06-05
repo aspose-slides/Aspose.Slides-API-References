@@ -1,7 +1,7 @@
 ---
 title: FontCollectionIndex
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt den Index von Schriftarten in einer Sammlung dar.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt den Schriftartenindex in einer Sammlung dar.
 type: docs
 weight: 4620
 url: /de/aspose.slides/fontcollectionindex/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/fontcollectionindex/
 
 ## FontCollectionIndex Aufzählung
 
-Stellt den Index einer Schriftart in einer Sammlung dar.
+Stellt den Index der Schriftart in einer Sammlung dar.
 
 ```csharp
 public enum FontCollectionIndex : byte
@@ -23,7 +23,7 @@ public enum FontCollectionIndex : byte
 | Minor | `1` |  |
 | Major | `2` |  |
 
-### Siehe auch
+### Siehe Auch
 
 * Namespace [Aspose.Slides](../../aspose.slides)
 * Assembly [Aspose.Slides](../../)

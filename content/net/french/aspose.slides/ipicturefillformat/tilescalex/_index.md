@@ -1,7 +1,7 @@
 ---
 title: TileScaleX
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit l'échelle horizontale pour le remplissage de texture en pourcentage. Lecture/écriture Unitaire.
+description: Renvoie ou définit l'échelle horizontale pour le remplissage de texture en pourcentage. Lecture/écriture Single.
 type: docs
 weight: 170
 url: /fr/aspose.slides/ipicturefillformat/tilescalex/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ipicturefillformat/tilescalex/
 
 ## Propriété IPictureFillFormat.TileScaleX
 
-Renvoie ou définit l'échelle horizontale pour le remplissage de texture en pourcentage. Lecture/écriture Unitaire.
+Renvoie ou définit l'échelle horizontale pour le remplissage de texture en pourcentage. Lecture/écriture Single.
 
 ```csharp
 public float TileScaleX { get; set; }
@@ -26,7 +26,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
     // Obtient le format de remplissage d'image de la forme
     IPictureFillFormat pictureFillFormat = slide.Shapes[0].FillFormat.PictureFillFormat;
 
-    // Définit le mode de remplissage d'image sur Carreaux
+    // Définit le mode de remplissage d'image sur Tile
     pictureFillFormat.PictureFillMode = PictureFillMode.Tile;
 
     // Définit l'échelle horizontale pour la texture à 120 pourcents

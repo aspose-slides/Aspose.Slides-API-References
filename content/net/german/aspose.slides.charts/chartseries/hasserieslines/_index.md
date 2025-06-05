@@ -1,7 +1,7 @@
 ---
 title: HasSeriesLines
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob es Serienlinien für diese Serie und verwandte Serien gibt. Dies ist das Eigentum nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist die Projektion der entsprechenden Gruppen-Eigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die Eigenschaft ParentSeriesGroup, um auf die übergeordnete Seriengruppe zuzugreifen. Verwenden Sie die Eigenschaften ParentSeriesGroup.HasSeriesLines zum Lesen/Ändern des Werts. Verwenden Sie die Eigenschaft ParentSeriesGroup.SeriesLinesFormat, um Serienlinien zu formatieren. Schreibgeschützter Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt, ob es Serienlinien für diese Serie und verwandte Serien gibt. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist eine Projektion der entsprechenden Gruppeneigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die ParentSeriesGroup-Eigenschaft, um auf die übergeordnete Seriengruppe zuzugreifen. Verwenden Sie die lesbaren/schreibbaren ParentSeriesGroup.HasSeriesLines-Eigenschaft, um den Wert zu ändern. Verwenden Sie die ParentSeriesGroup.SeriesLinesFormat-Eigenschaft, um die Serienlinien zu formatieren. Schreibgeschützter Boolean.
 type: docs
 weight: 140
 url: /de/aspose.slides.charts/chartseries/hasserieslines/
@@ -9,17 +9,17 @@ url: /de/aspose.slides.charts/chartseries/hasserieslines/
 
 ## ChartSeries.HasSeriesLines-Eigenschaft
 
-Bestimmt, ob es Serienlinien für diese Serie und verwandte Serien gibt. Dies ist das Eigentum nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist die Projektion der entsprechenden Gruppen-Eigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die Eigenschaft ParentSeriesGroup, um auf die übergeordnete Seriengruppe zuzugreifen. Verwenden Sie die Eigenschaften ParentSeriesGroup.HasSeriesLines zum Lesen/Ändern des Werts. Verwenden Sie die Eigenschaft ParentSeriesGroup.SeriesLinesFormat, um Serienlinien zu formatieren. Schreibgeschützter Boolean.
+Bestimmt, ob es Serienlinien für diese Serie und verwandte Serien gibt. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist eine Projektion der entsprechenden Gruppeneigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die ParentSeriesGroup-Eigenschaft, um auf die übergeordnete Seriengruppe zuzugreifen. Verwenden Sie die lesbaren/schreibbaren ParentSeriesGroup.HasSeriesLines-Eigenschaft, um den Wert zu ändern. Verwenden Sie die ParentSeriesGroup.SeriesLinesFormat-Eigenschaft, um die Serienlinien zu formatieren. Schreibgeschützter Boolean.
 
 ```csharp
 public bool HasSeriesLines { get; }
 ```
 
-### Hinweise
+### Anmerkungen
 
 Dies ist die Projektion der Eigenschaft ParentSeriesGroup.HasSeriesLines.
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [ChartSeries](../../chartseries)
 * Namespace [Aspose.Slides.Charts](../../chartseries)

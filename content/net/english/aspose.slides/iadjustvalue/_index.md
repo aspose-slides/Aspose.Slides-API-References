@@ -3,9 +3,10 @@ title: IAdjustValue
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a geometry shapes adjustment value. These values affect shapes form.
 type: docs
-weight: 4830
+weight: 4980
 url: /aspose.slides/iadjustvalue/
 ---
+
 ## IAdjustValue interface
 
 Represents a geometry shape's adjustment value. These values affect shape's form.
@@ -20,7 +21,8 @@ public interface IAdjustValue
 | --- | --- |
 | [AngleValue](../../aspose.slides/iadjustvalue/anglevalue) { get; set; } | Returns or sets value, interpreting it as angle in degrees. Read/write Single. |
 | [Name](../../aspose.slides/iadjustvalue/name) { get; } | Returns a name of this adjustment value. Read-only String. |
-| [RawValue](../../aspose.slides/iadjustvalue/rawvalue) { get; set; } | Returns or sets ajustment value "as is". Read/write Int64. |
+| [RawValue](../../aspose.slides/iadjustvalue/rawvalue) { get; set; } | Returns or sets adjustment value "as is". Read/write Int64. |
+| [Type](../../aspose.slides/iadjustvalue/type) { get; } | Returns the type of the shape adjustment. Read-only [`ShapeAdjustmentType`](../shapeadjustmenttype). |
 
 ### See Also
 

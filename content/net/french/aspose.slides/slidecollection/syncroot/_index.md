@@ -1,7 +1,7 @@
 ---
 title: SyncRoot
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie une racine de synchronisation. Objet en lecture seule.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Retourne une racine de synchronisation. Objet en lecture seule.
 type: docs
 weight: 40
 url: /fr/aspose.slides/slidecollection/syncroot/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/slidecollection/syncroot/
 
 ## Propriété SlideCollection.SyncRoot
 
-Renvoie une racine de synchronisation. Objet en lecture seule.
+Retourne une racine de synchronisation. Objet en lecture seule.
 
 ```csharp
 public object SyncRoot { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [SlideCollection](../../slidecollection)
 * espace de noms [Aspose.Slides](../../slidecollection)

@@ -1,13 +1,13 @@
 ---
 title: SizeLocked
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Détermine si le redimensionnement de cette forme est interdit. Booléen en lecture/écriture.
 type: docs
 weight: 70
 url: /fr/aspose.slides/igraphicalobjectlock/sizelocked/
 ---
 
-## Propriété IGraphicalObjectLock.SizeLocked
+## IGraphicalObjectLock.SizeLocked propriété
 
 Détermine si le redimensionnement de cette forme est interdit. Booléen en lecture/écriture.
 
@@ -15,7 +15,7 @@ Détermine si le redimensionnement de cette forme est interdit. Booléen en lect
 public bool SizeLocked { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IGraphicalObjectLock](../../igraphicalobjectlock)
 * namespace [Aspose.Slides](../../igraphicalobjectlock)

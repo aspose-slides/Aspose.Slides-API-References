@@ -1,6 +1,6 @@
 ---
 title: Clear
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Elimina todos los elementos de la colección.
 type: docs
 weight: 80
@@ -15,7 +15,7 @@ Elimina todos los elementos de la colección.
 public void Clear()
 ```
 
-### Ver También
+### Ver también
 
 * clase [ChartCategoryCollection](../../chartcategorycollection)
 * espacio de nombres [Aspose.Slides.Charts](../../chartcategorycollection)

@@ -1,7 +1,7 @@
 ---
 title: IControl
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет элемент управления ActiveX.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет ActiveX-контрол.
 type: docs
 weight: 5430
 url: /ru/aspose.slides/icontrol/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/icontrol/
 
 ## Интерфейс IControl
 
-Представляет элемент управления ActiveX.
+Представляет ActiveX-контрол.
 
 ```csharp
 public interface IControl : ISlideComponent
@@ -19,16 +19,16 @@ public interface IControl : ISlideComponent
 
 | Имя | Описание |
 | --- | --- |
-| [ActiveXControlBinary](../../aspose.slides/icontrol/activexcontrolbinary) { get; } | Указывает на постоянство элемента управления ActiveX, когда метод, используемый для сохранения, — это PersistStream, PersistStreamInit или PersistStorage. |
+| [ActiveXControlBinary](../../aspose.slides/icontrol/activexcontrolbinary) { get; } | Указывает на сохранение ActiveX-контроля, когда метод, используемый для сохранения, является либо PersistStream, PersistStreamInit или PersistStorage. |
 | [AsISlideComponent](../../aspose.slides/icontrol/asislidecomponent) { get; } | Позволяет получить базовый интерфейс ISlideComponent. Только для чтения [`ISlideComponent`](../islidecomponent). |
-| [ClassId](../../aspose.slides/icontrol/classid) { get; } | Получает идентификатор класса этого элемента управления. Только для чтения Guid. |
-| [Frame](../../aspose.slides/icontrol/frame) { get; set; } | Возвращает или устанавливает рамку элемента управления. Чтение/запись [`IShapeFrame`](../ishapeframe). |
-| [Name](../../aspose.slides/icontrol/name) { get; set; } | Возвращает имя этого элемента управления. Чтение/запись String. |
-| [Persistence](../../aspose.slides/icontrol/persistence) { get; } | Получает метод, используемый для хранения свойств элемента управления ActiveX. Только для чтения [`PersistenceType`](../persistencetype). |
+| [ClassId](../../aspose.slides/icontrol/classid) { get; } | Получает идентификатор класса этого управления. Только для чтения Guid. |
+| [Frame](../../aspose.slides/icontrol/frame) { get; set; } | Возвращает или устанавливает рамку управляющего элемента. Чтение/запись [`IShapeFrame`](../ishapeframe). |
+| [Name](../../aspose.slides/icontrol/name) { get; set; } | Возвращает имя этого контроллера. Чтение/запись String. |
+| [Persistence](../../aspose.slides/icontrol/persistence) { get; } | Получает метод, используемый для хранения свойств ActiveX-контрола. Только для чтения [`PersistenceType`](../persistencetype). |
 | [Properties](../../aspose.slides/icontrol/properties) { get; } | Возвращает коллекцию свойств ActiveX. Только для чтения [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
 | [SubstitutePictureFormat](../../aspose.slides/icontrol/substitutepictureformat) { get; } | Возвращает объект свойств заполнения изображения ControlEx. Только для чтения [`IPictureFillFormat`](../ipicturefillformat). |
 
-### См. также
+### См. Также
 
 * интерфейс [ISlideComponent](../islidecomponent)
 * пространство имен [Aspose.Slides](../../aspose.slides)

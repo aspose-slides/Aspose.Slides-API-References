@@ -1,6 +1,6 @@
 ---
 title: FillFocusPositionX
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Referencia
 description: Representa la propiedad fill.focusposition.x
 type: docs
 weight: 310
@@ -15,10 +15,10 @@ Representa la propiedad 'fill.focusposition.x'
 public static BehaviorProperty FillFocusPositionX { get; }
 ```
 
-### Véase también
+### Ver también
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

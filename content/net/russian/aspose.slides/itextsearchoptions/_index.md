@@ -1,6 +1,6 @@
 ---
 title: ITextSearchOptions
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Sildes for .NET API Reference
 description: Представляет параметры, которые можно использовать для поиска текста в слайде презентации или TextFrame.
 type: docs
 weight: 7080
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/itextsearchoptions/
 
 ## Интерфейс ITextSearchOptions
 
-Предstavляет параметры, которые можно использовать для поиска текста в презентации, слайде или TextFrame.
+Представляет параметры, которые можно использовать для поиска текста в презентации, слайде или TextFrame.
 
 ```csharp
 public interface ITextSearchOptions
@@ -17,10 +17,10 @@ public interface ITextSearchOptions
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | Установите true для использования чувствительного к регистру поиска, false - в противном случае. Читаемый/записываемый логический тип. |
-| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | Установите true для соответствия только целым словам, false - в противном случае. Читаемый/записываемый логический тип. |
+| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | Установите true для использования чувствительного к регистру поиска, false - в противном случае. Чтение/запись Boolean. |
+| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | Установите true, чтобы соответствовать только целым словам, false - в противном случае. Чтение/запись Boolean. |
 
 ### См. также
 

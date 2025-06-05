@@ -1,7 +1,7 @@
 ---
 title: IChartCategoryLevelsManager
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Conteneur géré des valeurs des niveaux de catégories de graphiques.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Conteneur géré des valeurs des niveaux de catégorie de graphique.
 type: docs
 weight: 1690
 url: /fr/aspose.slides.charts/ichartcategorylevelsmanager/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ichartcategorylevelsmanager/
 
 ## Interface IChartCategoryLevelsManager
 
-Conteneur géré des valeurs des niveaux de catégories de graphiques.
+Conteneur géré des valeurs des niveaux de catégorie de graphique.
 
 ```csharp
 public interface IChartCategoryLevelsManager
@@ -25,8 +25,8 @@ public interface IChartCategoryLevelsManager
 
 | Nom | Description |
 | --- | --- |
-| [DeleteGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/deletegroupingitem)(int) | Supprime un élément de groupement pour le niveau défini. |
-| [SetGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/setgroupingitem)(int, object) | Définit un élément de groupement pour le niveau défini. |
+| [DeleteGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/deletegroupingitem)(int) | Supprime un élément de regroupement pour le niveau défini. |
+| [SetGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/setgroupingitem)(int, object) | Définit un élément de regroupement pour le niveau défini. |
 
 ### Voir Aussi
 

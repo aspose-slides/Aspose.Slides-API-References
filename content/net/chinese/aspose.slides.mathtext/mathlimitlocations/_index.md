@@ -1,7 +1,7 @@
 ---
 title: MathLimitLocations
 second_title: Aspose.Sildes for .NET API Reference
-description: n-元运算符中极限下标/上标的位置。
+description: n-ary 运算符中的极限下标/上标位置。
 type: docs
 weight: 8580
 url: /zh/aspose.slides.mathtext/mathlimitlocations/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathlimitlocations/
 
 ## MathLimitLocations 枚举
 
-n-元运算符中极限（下标/上标）的位置。
+n-ary 运算符中极限（下标/上标）的位置。
 
 ```csharp
 public enum MathLimitLocations
@@ -20,7 +20,7 @@ public enum MathLimitLocations
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
 | NotDefined | `0` | 未定义 |
-| UnderOver | `1` | 在运算符符号的顶部和底部绘制极限 |
+| UnderOver | `1` | 极限位于运算符符号的顶部和底部 |
 | SubscriptSuperscript | `2` | 极限作为下标和上标绘制 |
 
 ### 另见

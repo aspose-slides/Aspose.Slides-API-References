@@ -1,15 +1,15 @@
 ---
 title: ThreeDFormat
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает объект ThreeDFormat, который представляет свойства 3D-эффекта для текста. Только для чтения IThreeDFormataspose.slides/ithreedformat.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает объект ThreeDFormat, представляющий свойства 3D-эффекта для текста. Только для чтения IThreeDFormataspose.slides/ithreedformat.
 type: docs
 weight: 140
 url: /ru/aspose.slides/textframeformat/threedformat/
 ---
 
-## Свойство TextFrameFormat.ThreeDFormat
+## TextFrameFormat.ThreeDFormat свойство
 
-Возвращает объект ThreeDFormat, который представляет свойства 3D-эффекта для текста. Только для чтения [`IThreeDFormat`](../../ithreedformat).
+Возвращает объект ThreeDFormat, представляющий свойства 3D-эффекта для текста. Только для чтения [`IThreeDFormat`](../../ithreedformat).
 
 ```csharp
 public IThreeDFormat ThreeDFormat { get; }
@@ -25,12 +25,12 @@ using (Presentation pres = new Presentation())
 
     ITextFrame textFrame = autoShape.TextFrame;
 
-    textFrame.Text = "Aspose.Slide Тестовый текст";
+    textFrame.Text = "Aspose.Slide Test Text";
 
-    // Установить трансформацию текста
+    // Установить преобразование текста
     textFrame.TextFrameFormat.Transform = TextShapeType.ArchUpPour;
 
-    // Установить экструзию
+    // Установить экструзия
     textFrame.TextFrameFormat.ThreeDFormat.ExtrusionColor.Color = Color.Orange;
     textFrame.TextFrameFormat.ThreeDFormat.ExtrusionHeight = 6;
 

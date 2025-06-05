@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.effects/imagetransformoperationcollection/item/
 ---
+
 ## ImageTransformOperationCollection indexer
 
 Returns an [`ImageTransformOperation`](../../imagetransformoperation) from the collection by it's index.

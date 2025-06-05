@@ -1,13 +1,13 @@
 ---
-title: Agregar
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Add
+second_title: Aspose.Slides para .NET Referencia de API
 description: Agrega una nueva etiqueta a la colección.
 type: docs
 weight: 20
 url: /es/aspose.slides/itagcollection/add/
 ---
 
-## Método ITagCollection.Add
+## ITagCollection.Add método
 
 Agrega una nueva etiqueta a la colección.
 
@@ -22,9 +22,9 @@ public int Add(string name, string value)
 
 ### Valor de Retorno
 
-El índice de la etiqueta añadida.
+El índice de la etiqueta agregada.
 
-### Ver También
+### Véase También
 
 * interfaz [ITagCollection](../../itagcollection)
 * espacio de nombres [Aspose.Slides](../../itagcollection)

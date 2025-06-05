@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/icolumncollection/item/
 ---
+
 ## IColumnCollection indexer
 
 Returns the column at the specified index. Read-only [`IColumn`](../../icolumn).

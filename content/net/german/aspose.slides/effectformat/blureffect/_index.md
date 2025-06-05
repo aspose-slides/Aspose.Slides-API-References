@@ -1,7 +1,7 @@
 ---
 title: BlurEffect
-second_title: Aspose.Slides für .NET API-Referenz
-description: Weichzeichnungseffekt. Lesen/Schreiben von IBluraspose.slides.effects/iblur.
+second_title: Aspose.Slides für .NET API Referenz
+description: Weichzeichner-Effekt. Lesen/Schreiben von IBluraspose.slides.effects/iblur.
 type: docs
 weight: 10
 url: /de/aspose.slides/effectformat/blureffect/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/effectformat/blureffect/
 
 ## EffectFormat.BlurEffect-Eigenschaft
 
-Weichzeichnungseffekt. Lesen/Schreiben von [`IBlur`](../../../aspose.slides.effects/iblur).
+Weichzeichner-Effekt. Lesen/Schreiben von [`IBlur`](../../../aspose.slides.effects/iblur).
 
 ```csharp
 public IBlur BlurEffect { get; set; }

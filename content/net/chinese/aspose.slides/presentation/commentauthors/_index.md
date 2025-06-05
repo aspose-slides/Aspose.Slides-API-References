@@ -1,7 +1,7 @@
 ---
-title: 评论作者
-second_title: Aspose.Slides for .NET API 参考
-description: 返回评论作者的集合。只读 ICommentAuthorCollection aspose.slides/icommentauthorcollection。
+title: CommentAuthors
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回评论作者的集合。只读 ICommentAuthorCollectionaspose.slides/icommentauthorcollection。
 type: docs
 weight: 40
 url: /zh/aspose.slides/presentation/commentauthors/

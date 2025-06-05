@@ -1,6 +1,6 @@
 ---
 title: IColorReplace
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: Представляет эффект замены цвета.
 type: docs
 weight: 3120
@@ -18,7 +18,7 @@ public interface IColorReplace : IAccessiblePVIObject<IColorReplaceEffectiveData
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../iimagetransformoperation). |

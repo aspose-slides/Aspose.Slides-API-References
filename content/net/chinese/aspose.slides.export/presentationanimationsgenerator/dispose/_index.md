@@ -1,7 +1,7 @@
 ---
-title: 处置
-second_title: Aspose.Slides for .NET API 参考
-description: 处置 PresentationAnimationsGeneratoraspose.slides/presentationanimationsgenerator 实例。
+title: Dispose
+second_title: Aspose.Sildes for .NET API Reference
+description: 释放PresentationAnimationsGenerator实例。
 type: docs
 weight: 70
 url: /zh/aspose.slides.export/presentationanimationsgenerator/dispose/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/presentationanimationsgenerator/dispose/
 
 ## PresentationAnimationsGenerator.Dispose 方法
 
-处置 [`PresentationAnimationsGenerator`](../../presentationanimationsgenerator) 实例。
+释放[`PresentationAnimationsGenerator`](../../presentationanimationsgenerator)的实例。
 
 ```csharp
 public void Dispose()

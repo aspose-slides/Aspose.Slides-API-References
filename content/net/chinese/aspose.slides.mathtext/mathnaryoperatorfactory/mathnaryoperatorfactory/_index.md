@@ -15,7 +15,7 @@ url: /zh/aspose.slides.mathtext/mathnaryoperatorfactory/mathnaryoperatorfactory/
 public MathNaryOperatorFactory()
 ```
 
-### 见也
+### 另请参阅
 
 * class [MathNaryOperatorFactory](../../mathnaryoperatorfactory)
 * namespace [Aspose.Slides.MathText](../../mathnaryoperatorfactory)

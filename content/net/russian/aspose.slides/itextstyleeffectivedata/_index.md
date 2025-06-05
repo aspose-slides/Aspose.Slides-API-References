@@ -1,7 +1,7 @@
 ---
 title: ITextStyleEffectiveData
-second_title: Aspose.Slides для .NET API Reference
-description: Неизменяемый объект, содержащий эффективные свойства стилей текста.
+second_title: Aspose.Sildes для .NET API Reference
+description: Неизменяемый объект, содержащий эффективные свойства текстового стиля.
 type: docs
 weight: 7100
 url: /ru/aspose.slides/itextstyleeffectivedata/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/itextstyleeffectivedata/
 
 ## Интерфейс ITextStyleEffectiveData
 
-Неизменяемый объект, содержащий эффективные свойства стилей текста.
+Неизменяемый объект, содержащий эффективные свойства текстового стиля.
 
 ```csharp
 public interface ITextStyleEffectiveData
@@ -17,21 +17,21 @@ public interface ITextStyleEffectiveData
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | Возвращает эффективные свойства по умолчанию для абзаца. Только для чтения [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [GetLevel](../../aspose.slides/itextstyleeffectivedata/getlevel)(int) | Возвращает уровень эффективного стиля. |
 
 ### Примечания
 
-Этот интерфейс используется вместе с интерфейсом [`ITextStyle`](../itextstyle) для возвращения эффективных значений форматирования с применением наследования.
+Этот интерфейс используется вместе с интерфейсом [`ITextStyle`](../itextstyle) для возврата эффективных значений форматирования с примененной наследственностью.
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

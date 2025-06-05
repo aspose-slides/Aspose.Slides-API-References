@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/izoomframe/targetslide/
 ---
+
 ## IZoomFrame.TargetSlide property
 
 Gets or sets the slide object that the Slide Zoom object links to. Read/write [`ISlide`](../../islide).

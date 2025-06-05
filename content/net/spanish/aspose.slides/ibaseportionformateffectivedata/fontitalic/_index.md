@@ -1,15 +1,15 @@
 ---
 title: FontItalic
-second_title: Aspose.Slides para .NET Referencia de API
-description: Determina si la fuente es cursiva. Solo lectura Boolean.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Determina si la fuente está en cursiva. Solo lectura Boolean.
 type: docs
 weight: 90
 url: /es/aspose.slides/ibaseportionformateffectivedata/fontitalic/
 ---
 
-## Propiedad IBasePortionFormatEffectiveData.FontItalic
+## IBasePortionFormatEffectiveData.FontItalic property
 
-Determina si la fuente es cursiva. Solo lectura Boolean.
+Determina si la fuente está en cursiva. Solo lectura Boolean.
 
 ```csharp
 public bool FontItalic { get; }

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/inormalviewproperties/restoredtop/
 ---
+
 ## INormalViewProperties.RestoredTop property
 
 This element specifies the sizing of the top slide region of the normal view, when the region is of a variable restored size(neither minimized nor maximized). Read only [`INormalViewRestoredProperties`](../../inormalviewrestoredproperties).

@@ -1,6 +1,6 @@
 ---
 title: IColorEffect
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Représente un effet de couleur pour un comportement d'animation.
 type: docs
 weight: 380
@@ -22,9 +22,9 @@ public interface IColorEffect : IBehavior
 | [AsIBehavior](../../aspose.slides.animation/icoloreffect/asibehavior) { get; } | Permet d'obtenir l'interface de base IBehavior. Lecture seule [`IBehavior`](../ibehavior). |
 | [By](../../aspose.slides.animation/icoloreffect/by) { get; set; } | Décrit la valeur de décalage relative pour l'animation de couleur. Lecture/écriture [`IColorOffset`](../icoloroffset). |
 | [ColorSpace](../../aspose.slides.animation/icoloreffect/colorspace) { get; set; } | Représente l'espace colorimétrique du comportement. Lecture/écriture [`ColorSpace`](./colorspace). |
-| [Direction](../../aspose.slides.animation/icoloreffect/direction) { get; set; } | Spécifie la direction dans laquelle faire tourner la teinte autour de la roue des couleurs. Lecture/écriture [`ColorDirection`](../colordirection). |
-| [From](../../aspose.slides.animation/icoloreffect/from) { get; set; } | Ce value est utilisé pour spécifier la couleur de départ du comportement. Lecture/écriture [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [To](../../aspose.slides.animation/icoloreffect/to) { get; set; } | Décrit la couleur résultante pour le changement de couleur de l'animation. Lecture/écriture [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Direction](../../aspose.slides.animation/icoloreffect/direction) { get; set; } | Spécifie la direction à suivre pour faire pivoter la teinte autour de la roue des couleurs. Lecture/écriture [`ColorDirection`](../colordirection). |
+| [From](../../aspose.slides.animation/icoloreffect/from) { get; set; } | Cette valeur est utilisée pour spécifier la couleur de départ du comportement. Lecture/écriture [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [To](../../aspose.slides.animation/icoloreffect/to) { get; set; } | Décrit la couleur résultante pour le changement de couleur d'animation. Lecture/écriture [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Voir aussi
 

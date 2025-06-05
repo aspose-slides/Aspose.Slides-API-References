@@ -34,7 +34,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 }
 ```
 
-### Ver También
+### Véase también
 
 * clase [PictureFillFormat](../../picturefillformat)
 * espacio de nombres [Aspose.Slides](../../picturefillformat)

@@ -1,56 +1,56 @@
----
+---  
 title: ILineFormatEffectiveData
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference  
 description: 不可变对象，包含有效的线条格式属性。
-type: docs
-weight: 6120
+type: docs  
+weight: 6120  
 url: /zh/aspose.slides/ilineformateffectivedata/
----
+---  
 
-## ILineFormatEffectiveData 接口
+## ILineFormatEffectiveData 接口  
 
-不可变对象，包含有效的线条格式属性。
+不可变对象，包含有效的线条格式属性。  
 
-```csharp
-public interface ILineFormatEffectiveData : ILineParamSource
-```
+```csharp  
+public interface ILineFormatEffectiveData : ILineParamSource  
+```  
 
-## 属性
+## 属性  
 
-| 名称 | 描述 |
-| --- | --- |
-| [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | 返回线条对齐方式。只读 [`LineAlignment`](../linealignment)。 |
-| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | 允许获取基础 ILineParamSource 接口。只读 [`ILineParamSource`](../ilineparamsource)。 |
-| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | 返回线条开始处的箭头长度。只读 [`LineArrowheadLength`](../linearrowheadlength)。 |
-| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | 返回线条开始处的箭头样式。只读 [`LineArrowheadStyle`](../linearrowheadstyle)。 |
-| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | 返回线条开始处的箭头宽度。只读 [`LineArrowheadWidth`](../linearrowheadwidth)。 |
-| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | 返回线条末端样式。只读 [`LineCapStyle`](../linecapstyle)。 |
-| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | 返回自定义虚线模式。只读 Single[]. |
-| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | 返回线条虚线样式。只读 [`LineDashStyle`](../linedashstyle)。 |
-| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | 返回线条末尾的箭头长度。只读 [`LineArrowheadLength`](../linearrowheadlength)。 |
-| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | 返回线条末尾的箭头样式。只读 [`LineArrowheadStyle`](../linearrowheadstyle)。 |
-| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | 返回线条末尾的箭头宽度。只读 [`LineArrowheadWidth`](../linearrowheadwidth)。 |
-| [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | 返回线条的填充格式。只读 [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata)。 |
-| [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | 返回线条连接样式。只读 [`LineJoinStyle`](../linejoinstyle)。 |
-| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | 返回线条的斜接限制。只读 Single。 |
-| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | 返回线条的草图格式。只读 [`ISketchFormatEffectiveData`](../isketchformateffectivedata)。 |
-| [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | 返回线条样式。只读 [`LineStyle`](../linestyle)。 |
-| [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | 返回线条宽度。只读 Double。 |
+| 名称 | 描述 |  
+| --- | --- |  
+| [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | 返回线条对齐方式。只读 [`LineAlignment`](../linealignment)。 |  
+| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | 允许获取基本的 ILineParamSource 接口。只读 [`ILineParamSource`](../ilineparamsource)。 |  
+| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | 返回线条起始处的箭头长度。只读 [`LineArrowheadLength`](../linearrowheadlength)。 |  
+| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | 返回线条起始处的箭头样式。只读 [`LineArrowheadStyle`](../linearrowheadstyle)。 |  
+| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | 返回线条起始处的箭头宽度。只读 [`LineArrowheadWidth`](../linearrowheadwidth)。 |  
+| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | 返回线条端点样式。只读 [`LineCapStyle`](../linecapstyle)。 |  
+| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | 返回自定义虚线模式。只读 Single[]. |  
+| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | 返回线条虚线样式。只读 [`LineDashStyle`](../linedashstyle)。 |  
+| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | 返回线条末尾的箭头长度。只读 [`LineArrowheadLength`](../linearrowheadlength)。 |  
+| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | 返回线条末尾的箭头样式。只读 [`LineArrowheadStyle`](../linearrowheadstyle)。 |  
+| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | 返回线条末尾的箭头宽度。只读 [`LineArrowheadWidth`](../linearrowheadwidth)。 |  
+| [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | 返回线条的填充格式。只读 [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata)。 |  
+| [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | 返回线条连接样式。只读 [`LineJoinStyle`](../linejoinstyle)。 |  
+| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | 返回线条的斜接限制。只读 Single。 |  
+| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | 返回线条的草图格式。只读 [`ISketchFormatEffectiveData`](../isketchformateffectivedata)。 |  
+| [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | 返回线条样式。只读 [`LineStyle`](../linestyle)。 |  
+| [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | 返回线条的宽度。只读 Double。 |  
 
-## 方法
+## 方法  
 
-| 名称 | 描述 |
-| --- | --- |
-| [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | 确定两个 ILineFormatEffectiveData 实例是否相等。 |
+| 名称 | 描述 |  
+| --- | --- |  
+| [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | 确定两个 ILineFormatEffectiveData 实例是否相等。 |  
 
-### 备注
+### 备注  
 
-该接口与 [`ILineFormat`](../ilineformat) 接口一起使用，以返回应用了继承的有效格式值。
+该接口结合 [`ILineFormat`](../ilineformat) 接口使用，以返回应用继承的有效格式值。  
 
-### 另见
+### 另请参见  
 
-* 接口 [ILineParamSource](../ilineparamsource)
-* 命名空间 [Aspose.Slides](../../aspose.slides)
-* 程序集 [Aspose.Slides](../../)
+* 接口 [ILineParamSource](../ilineparamsource)  
+* 命名空间 [Aspose.Slides](../../aspose.slides)  
+* 程序集 [Aspose.Slides](../../)  
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->  

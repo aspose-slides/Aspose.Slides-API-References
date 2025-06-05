@@ -1,7 +1,7 @@
 ---
 title: CopyTo
 second_title: Aspose.Sildes for .NET API Reference
-description: 将集合中的所有元素复制到指定数组。
+description: 将集合中的所有元素复制到指定数组中。
 type: docs
 weight: 60
 url: /zh/aspose.slides/columncollection/copyto/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/columncollection/copyto/
 
 ## ColumnCollection.CopyTo 方法
 
-将集合中的所有元素复制到指定数组。
+将集合中的所有元素复制到指定数组中。
 
 ```csharp
 public void CopyTo(Array array, int index)

@@ -1,7 +1,7 @@
 ---
-title: 阈值
-second_title: Aspose.Slides for .NET API 参考
-description: 返回效果阈值。可读/写单精度浮点数。
+title: Threshold
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回效果阈值。可读/可写单精度浮点数。
 type: docs
 weight: 10
 url: /zh/aspose.slides.effects/alphabilevel/threshold/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.effects/alphabilevel/threshold/
 
 ## AlphaBiLevel.Threshold 属性
 
-返回效果阈值。可读/写单精度浮点数。
+返回效果阈值。可读/可写单精度浮点数。
 
 ```csharp
 public float Threshold { get; set; }
 ```
 
-### 参见
+### 另见
 
 * class [AlphaBiLevel](../../alphabilevel)
 * namespace [Aspose.Slides.Effects](../../alphabilevel)

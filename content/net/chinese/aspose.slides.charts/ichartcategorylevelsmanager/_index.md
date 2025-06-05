@@ -1,6 +1,6 @@
 ---
 title: IChartCategoryLevelsManager
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 图表类别级别值的托管容器。
 type: docs
 weight: 1690
@@ -28,7 +28,7 @@ public interface IChartCategoryLevelsManager
 | [DeleteGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/deletegroupingitem)(int) | 删除定义级别的分组项。 |
 | [SetGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/setgroupingitem)(int, object) | 设置定义级别的分组项。 |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程序集 [Aspose.Slides](../../)

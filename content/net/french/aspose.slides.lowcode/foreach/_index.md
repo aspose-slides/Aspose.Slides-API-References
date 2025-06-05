@@ -1,7 +1,7 @@
 ---
 title: ForEach
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente un groupe de méthodes destinées à itérer sur différents objets du modèle Presentationaspose.slides/aspose.slides/presentation. Ces méthodes peuvent être utiles si vous devez itérer et modifier le formatage ou le contenu de certains éléments de la présentation, par exemple, changer le formatage de chaque portion.
+second_title: Référence API Aspose.Slides pour .NET
+description: Représente un groupe de méthodes destinées à itérer sur différents objets du modèle Presentationaspose.slides/aspose.slides/presentation. Ces méthodes peuvent être utiles si vous devez itérer et changer le formatage ou le contenu de certains éléments de la présentation, par exemple changer le formatage de chaque portion.
 type: docs
 weight: 7660
 url: /fr/aspose.slides.lowcode/foreach/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.lowcode/foreach/
 
 ## Classe ForEach
 
-Représente un groupe de méthodes destinées à itérer sur différents objets du modèle [`Presentation`](../../aspose.slides/presentation). Ces méthodes peuvent être utiles si vous devez itérer et modifier le formatage ou le contenu de certains éléments de la présentation, par exemple, changer le formatage de chaque portion.
+Représente un groupe de méthodes destinées à itérer sur différents objets du modèle [`Presentation`](../../aspose.slides/presentation). Ces méthodes peuvent être utiles si vous devez itérer et changer le formatage ou le contenu de certains éléments de la présentation, par exemple changer le formatage de chaque portion.
 
 ```csharp
 public static class ForEach
@@ -25,12 +25,12 @@ public static class ForEach
 | static [Paragraph](../../aspose.slides.lowcode/foreach/paragraph#paragraph)(Presentation, bool, ForEachParagraphCallback) | Itérer chaque [`Paragraph`](./paragraph) dans la [`Presentation`](../../aspose.slides/presentation). Les formes seront itérées dans tous les types de diapositives - [`Slide`](./slide), [`MasterSlide`](./masterslide), [`LayoutSlide`](./layoutslide) et [`NotesSlide`](../../aspose.slides/notesslide) |
 | static [Portion](../../aspose.slides.lowcode/foreach/portion#portion_1)(Presentation, ForEachPortionCallback) | Itérer chaque [`Portion`](./portion) dans la [`Presentation`](../../aspose.slides/presentation). Les portions seront itérées dans tous les types de diapositives - [`Slide`](./slide), [`MasterSlide`](./masterslide) et [`LayoutSlide`](./layoutslide) |
 | static [Portion](../../aspose.slides.lowcode/foreach/portion#portion)(Presentation, bool, ForEachPortionCallback) | Itérer chaque [`Portion`](./portion) dans la [`Presentation`](../../aspose.slides/presentation). Les portions seront itérées dans tous les types de diapositives - [`Slide`](./slide), [`MasterSlide`](./masterslide), [`LayoutSlide`](./layoutslide) et [`NotesSlide`](../../aspose.slides/notesslide) |
-| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape)(BaseSlide, ForEachShapeCallback) | Itérer chaque [`Shape`](./shape) dans la [`BaseSlide`](../../aspose.slides/baseslide). La [`BaseSlide`](../../aspose.slides/baseslide) est le type de base pour [`Slide`](./slide), [`MasterSlide`](./masterslide) et [`LayoutSlide`](./layoutslide) |
+| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape)(BaseSlide, ForEachShapeCallback) | Itérer chaque [`Shape`](./shape) dans la [`BaseSlide`](../../aspose.slides/baseslide). [`BaseSlide`](../../aspose.slides/baseslide) est le type de base pour [`Slide`](./slide), [`MasterSlide`](./masterslide) et [`LayoutSlide`](./layoutslide) |
 | static [Shape](../../aspose.slides.lowcode/foreach/shape#shape_2)(Presentation, ForEachShapeCallback) | Itérer chaque [`Shape`](./shape) dans la [`Presentation`](../../aspose.slides/presentation). Les formes seront itérées dans tous les types de diapositives - [`Slide`](./slide), [`MasterSlide`](./masterslide) et [`LayoutSlide`](./layoutslide) |
 | static [Shape](../../aspose.slides.lowcode/foreach/shape#shape_1)(Presentation, bool, ForEachShapeCallback) | Itérer chaque [`Shape`](./shape) dans la [`Presentation`](../../aspose.slides/presentation). Les formes seront itérées dans tous les types de diapositives - [`Slide`](./slide), [`MasterSlide`](./masterslide), [`LayoutSlide`](./layoutslide) et [`NotesSlide`](../../aspose.slides/notesslide) si nécessaire. |
 | static [Slide](../../aspose.slides.lowcode/foreach/slide)(Presentation, ForEachSlideCallback) | Itérer chaque [`Slide`](./slide) dans la [`Presentation`](../../aspose.slides/presentation). |
 
-## Autres membres
+## Autres Membres
 
 | Nom | Description |
 | --- | --- |
@@ -55,7 +55,7 @@ using (Presentation presentation = new Presentation("pres.pptx"))
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * namespace [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
 * assembly [Aspose.Slides](../../)

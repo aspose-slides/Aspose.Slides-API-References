@@ -15,7 +15,7 @@ ParagraphFormat. Solo lectura [`IChartParagraphFormat`](../../ichartparagraphfor
 public IChartParagraphFormat ParagraphFormat { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IChartParagraphFormat](../../ichartparagraphformat)
 * clase [ChartTextFormat](../../charttextformat)

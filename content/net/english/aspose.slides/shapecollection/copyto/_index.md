@@ -6,6 +6,7 @@ type: docs
 weight: 240
 url: /aspose.slides/shapecollection/copyto/
 ---
+
 ## ShapeCollection.CopyTo method
 
 Copies all elements from the collection to the specified array.

@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.animation/behaviorpropertycollection/insert/
 ---
+
 ## Insert(int, IBehaviorProperty) {#insert}
 
 Inserts a new property to the collection at the specified index.

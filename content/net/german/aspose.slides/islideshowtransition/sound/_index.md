@@ -1,7 +1,7 @@
 ---
-title: Klang
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die eingebetteten Audiodaten zurück oder legt sie fest. Lese- und schreibbar IAudioaspose.slides/iaudio.
+title: Sound
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt die eingebetteten Audiodaten zurück oder legt sie fest. Lesen und Schreiben IAudioaspose.slides/iaudio.
 type: docs
 weight: 40
 url: /de/aspose.slides/islideshowtransition/sound/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/islideshowtransition/sound/
 
 ## ISlideShowTransition.Sound-Eigenschaft
 
-Gibt die eingebetteten Audiodaten zurück oder legt sie fest. Lese- und schreibbar [`IAudio`](../../iaudio).
+Gibt die eingebetteten Audiodaten zurück oder legt sie fest. Lesen und Schreiben [`IAudio`](../../iaudio).
 
 ```csharp
 public IAudio Sound { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IAudio](../../iaudio)
 * Schnittstelle [ISlideShowTransition](../../islideshowtransition)

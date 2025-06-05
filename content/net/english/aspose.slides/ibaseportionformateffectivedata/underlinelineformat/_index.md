@@ -6,6 +6,7 @@ type: docs
 weight: 270
 url: /aspose.slides/ibaseportionformateffectivedata/underlinelineformat/
 ---
+
 ## IBasePortionFormatEffectiveData.UnderlineLineFormat property
 
 Returns the LineFormat properties used to outline underline line. Read-only [`ILineFormatEffectiveData`](../../ilineformateffectivedata).

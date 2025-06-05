@@ -19,6 +19,6 @@ public bool IsCameo { get; }
 
 * clase [PictureFrame](../../pictureframe)
 * espacio de nombres [Aspose.Slides](../../pictureframe)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

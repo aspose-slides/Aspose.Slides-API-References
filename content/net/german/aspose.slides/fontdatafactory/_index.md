@@ -1,15 +1,15 @@
 ---
 title: FontDataFactory
-second_title: Aspose.Slides für .NET API Referenz
-description: FontData Fabrik
+second_title: Aspose.Slides für .NET API-Referenz
+description: FontData-Fabrik
 type: docs
 weight: 4640
 url: /de/aspose.slides/fontdatafactory/
 ---
 
-## FontDataFactory Klasse
+## FontDataFactory-Klasse
 
-FontData Fabrik
+FontData-Fabrik
 
 ```csharp
 public class FontDataFactory : IFontDataFactory
@@ -27,9 +27,9 @@ public class FontDataFactory : IFontDataFactory
 | --- | --- |
 | [CreateFontData](../../aspose.slides/fontdatafactory/createfontdata)(string) | Erstellt FontData mit dem angegebenen Schriftartnamen. |
 
-### Siehe auch
+### Siehe Auch
 
-* Interface [IFontDataFactory](../ifontdatafactory)
+* Schnittstelle [IFontDataFactory](../ifontdatafactory)
 * Namespace [Aspose.Slides](../../aspose.slides)
 * Assembly [Aspose.Slides](../../)
 

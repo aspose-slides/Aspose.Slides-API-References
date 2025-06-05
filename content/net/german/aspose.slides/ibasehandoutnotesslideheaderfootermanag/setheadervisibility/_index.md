@@ -1,15 +1,15 @@
 ---
 title: SetHeaderVisibility
-second_title: Aspose.Slides für .NET API Referenz
-description: Ändert die Sichtbarkeit des Platzhalters für den Folientitel.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Ändert die Sichtbarkeit des Platzhalters für den Folienheader.
 type: docs
 weight: 40
 url: /de/aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadervisibility/
 ---
 
-## IBaseHandoutNotesSlideHeaderFooterManag.SetHeaderVisibility-Methode
+## IBaseHandoutNotesSlideHeaderFooterManag.SetHeaderVisibility Methode
 
-Ändert die Sichtbarkeit des Platzhalters für den Folientitel.
+Ändert die Sichtbarkeit des Platzhalters für den Folienheader.
 
 ```csharp
 public void SetHeaderVisibility(bool isVisible)
@@ -17,9 +17,9 @@ public void SetHeaderVisibility(bool isVisible)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| isVisible | Boolean | true - macht einen Platzhalter für den Titel sichtbar, andernfalls - versteckt ihn. |
+| isVisible | Boolean | true - macht einen Platzhalter für den Header sichtbar, andernfalls - blendet ihn aus. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IBaseHandoutNotesSlideHeaderFooterManag](../../ibasehandoutnotesslideheaderfootermanag)
 * Namespace [Aspose.Slides](../../ibasehandoutnotesslideheaderfootermanag)

@@ -1,6 +1,6 @@
 ---
 title: IDigitalSignature
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 签名文件中的数字签名。
 type: docs
 weight: 5490
@@ -20,11 +20,11 @@ public interface IDigitalSignature
 | 名称 | 描述 |
 | --- | --- |
 | [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | 用于签署文档的证书对象。只读 X509Certificate2。 |
-| [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | 签名的目的。可读写字符串。 |
-| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | 如果该数字签名有效并且文档未被篡改，则该值为 true。只读布尔值。 |
-| [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | 文档签署的时间。只读 DateTime。 |
+| [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | 签名的目的。读/写字符串。 |
+| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | 如果此数字签名有效且文档未被篡改，则该值为 true。只读布尔值。 |
+| [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | 文档被签署的时间。只读 DateTime。 |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

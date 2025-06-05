@@ -1,7 +1,7 @@
 ---
 title: PptxUnsupportedFormatException
-second_title: Aspose.Sildes для .NET API Справка
-description: Исключение, которое возникает, когда формат файла презентации не поддерживается.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Исключение, которое выбрасывается, когда формат файла презентации не поддерживается.
 type: docs
 weight: 9310
 url: /ru/aspose.slides/pptxunsupportedformatexception/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/pptxunsupportedformatexception/
 
 ## Класс PptxUnsupportedFormatException
 
-Исключение, которое возникает, когда формат файла презентации не поддерживается.
+Исключение, которое выбрасывается, когда формат файла презентации не поддерживается.
 
 ```csharp
 public class PptxUnsupportedFormatException : PptxReadException
@@ -17,13 +17,13 @@ public class PptxUnsupportedFormatException : PptxReadException
 
 ## Конструкторы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor)() | Конструктор по умолчанию. |
-| [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение к этому исключению. |
+| [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor)() | Стандартный конструктор. |
+| [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor_1)(string) | Конструктор, который позволяет добавить сообщение к этому исключению. |
 | [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor_2)(string, Exception) | Конструктор для исключения, содержащего сообщение и встроенное исключение. |
 
-### Смотрите также
+### См. также
 
 * класс [PptxReadException](../pptxreadexception)
 * пространство имен [Aspose.Slides](../../aspose.slides)

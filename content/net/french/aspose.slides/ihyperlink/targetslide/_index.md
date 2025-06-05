@@ -1,7 +1,7 @@
 ---
 title: TargetSlide
-second_title: Référence API Aspose.Slides pour .NET
-description: Si le HyperlinkEx cible une diapositive spécifique, cela renvoie cette diapositive. Si la propriété devient non nulle, alors la propriété ExternalUrl devient nulle. Lecture seule ISlideaspose.slides/islide.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Si le HyperlinkEx cible une diapositive spécifique, renvoie cette diapositive. Si la propriété devient non nulle, alors la propriété ExternalUrl devient nulle. Lecture seule ISlideaspose.slides/islide.
 type: docs
 weight: 100
 url: /fr/aspose.slides/ihyperlink/targetslide/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ihyperlink/targetslide/
 
 ## Propriété IHyperlink.TargetSlide
 
-Si le HyperlinkEx cible une diapositive spécifique, cela renvoie cette diapositive. Si la propriété devient non nulle, alors la propriété ExternalUrl devient nulle. Lecture seule [`ISlide`](../../islide).
+Si le HyperlinkEx cible une diapositive spécifique, renvoie cette diapositive. Si la propriété devient non nulle, alors la propriété ExternalUrl devient nulle. Lecture seule [`ISlide`](../../islide).
 
 ```csharp
 public ISlide TargetSlide { get; }

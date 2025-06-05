@@ -1,7 +1,7 @@
 ---
 title: HasRoundedCorners
-second_title: Справка по API Aspose.Slides для .NET
-description: Указывает, что область графика должна иметь закругленные углы. Ввод/вывод логическое значение.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Указывает, что область графика должна иметь закругленные углы. Читаемое/записываемое логическое значение.
 type: docs
 weight: 130
 url: /ru/aspose.slides.charts/ichart/hasroundedcorners/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/ichart/hasroundedcorners/
 
 ## IChart.HasRoundedCorners свойство
 
-Указывает, что область графика должна иметь закругленные углы. Ввод/вывод логическое значение.
+Указывает, что область графика должна иметь закругленные углы. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool HasRoundedCorners { get; set; }

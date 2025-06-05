@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt Hash zurück.
+description: Gibt den Hash zurück.
 type: docs
 weight: 80
 url: /de/aspose.slides/picture/gethashcode/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/picture/gethashcode/
 
 ## Picture.GetHashCode-Methode
 
-Gibt Hash zurück.
+Gibt den Hash zurück.
 
 ```csharp
 public override int GetHashCode()

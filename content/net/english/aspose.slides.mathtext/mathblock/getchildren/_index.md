@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.mathtext/mathblock/getchildren/
 ---
+
 ## MathBlock.GetChildren method
 
 Get children elements

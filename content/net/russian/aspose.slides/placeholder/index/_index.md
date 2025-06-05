@@ -1,7 +1,7 @@
 ---
-title: Индекс
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает индекс заполнителья. Только для чтения UInt32.
+title: Index
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает или устанавливает индекс заполнителя. Доступ только для чтения UInt32.
 type: docs
 weight: 10
 url: /ru/aspose.slides/placeholder/index/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/placeholder/index/
 
 ## Свойство Placeholder.Index
 
-Получает или задает индекс заполнителья. Только для чтения UInt32.
+Получает или устанавливает индекс заполнителя. Доступ только для чтения UInt32.
 
 ```csharp
 public uint Index { get; }
 ```
 
-### См. Также
+### Смотрите также
 
 * класс [Placeholder](../../placeholder)
 * пространство имен [Aspose.Slides](../../placeholder)

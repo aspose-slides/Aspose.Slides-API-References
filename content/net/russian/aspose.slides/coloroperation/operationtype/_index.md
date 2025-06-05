@@ -1,6 +1,6 @@
 ---
 title: OperationType
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Ссылка
 description: Возвращает или устанавливает тип операции. Только для чтения ColorTransformOperationaspose.slides/colortransformoperation.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/coloroperation/operationtype/
 public ColorTransformOperation OperationType { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [ColorTransformOperation](../../colortransformoperation)
 * class [ColorOperation](../../coloroperation)

@@ -1,6 +1,6 @@
 ---
 title: IsVisible
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Representa si el eje es visible. Booleano de lectura/escritura.
 type: docs
 weight: 310
@@ -15,10 +15,10 @@ Representa si el eje es visible. Booleano de lectura/escritura.
 public bool IsVisible { get; set; }
 ```
 
-### Ver También
+### Véase También
 
 * interfaz [IAxis](../../iaxis)
 * espacio de nombres [Aspose.Slides.Charts](../../iaxis)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

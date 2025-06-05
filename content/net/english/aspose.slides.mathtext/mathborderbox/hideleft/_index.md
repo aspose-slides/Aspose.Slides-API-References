@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.mathtext/mathborderbox/hideleft/
 ---
+
 ## MathBorderBox.HideLeft property
 
 Hide Left Edge (default is false) - specifies the hidden or shown state of the left edge of border box.

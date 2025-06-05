@@ -1,6 +1,6 @@
 ---
-title: Borrar
-second_title: Referencia de la API de Aspose.Slides para .NET
+title: Clear
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Elimina todos los efectos de una colección.
 type: docs
 weight: 50
@@ -15,10 +15,10 @@ Elimina todos los efectos de una colección.
 public void Clear()
 ```
 
-### Vea También
+### Véase También
 
 * clase [Sequence](../../sequence)
 * espacio de nombres [Aspose.Slides.Animation](../../sequence)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

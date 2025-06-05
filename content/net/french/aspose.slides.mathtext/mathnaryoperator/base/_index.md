@@ -1,6 +1,6 @@
 ---
 title: Base
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Argument de base
 type: docs
 weight: 20
@@ -25,7 +25,7 @@ IMathNaryOperator naryOperator = new MathematicalText("x").Nary(MathNaryOperator
 IMathElement baseArg = naryOperator.Base;
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathElement](../../imathelement)
 * classe [MathNaryOperator](../../mathnaryoperator)

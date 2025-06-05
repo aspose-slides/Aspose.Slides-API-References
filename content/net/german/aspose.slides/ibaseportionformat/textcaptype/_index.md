@@ -1,7 +1,7 @@
 ---
 title: TextCapType
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Typ der Textkapitalisierung zurück oder setzt ihn. Keine Vererbung angewendet. Lese-/Schreibzugriff auf TextCapTypeaspose.slides/textcaptype.
+description: Gibt den Typ der Textkapitalisierung zurück oder legt ihn fest. Keine Vererbung angewendet. Lese-/Schreibzugriff auf TextCapType aspose.slides/textcaptype.
 type: docs
 weight: 240
 url: /de/aspose.slides/ibaseportionformat/textcaptype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ibaseportionformat/textcaptype/
 
 ## IBasePortionFormat.TextCapType-Eigenschaft
 
-Gibt den Typ der Textkapitalisierung zurück oder setzt ihn. Keine Vererbung angewendet. Lese-/Schreibzugriff auf [`TextCapType`](../../textcaptype).
+Gibt den Typ der Textkapitalisierung zurück oder legt ihn fest. Keine Vererbung angewendet. Lese-/Schreibzugriff auf [`TextCapType`](../../textcaptype).
 
 ```csharp
 public TextCapType TextCapType { get; set; }

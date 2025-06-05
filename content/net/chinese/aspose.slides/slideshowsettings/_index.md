@@ -1,13 +1,13 @@
 ---
-title: 幻灯片放映设置
-second_title: Aspose.Sildes for .NET API 参考
+title: SlideShowSettings
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示演示文稿的幻灯片放映设置。
 type: docs
 weight: 10170
 url: /zh/aspose.slides/slideshowsettings/
 ---
 
-## SlideShowSettings 类
+## SlideShowSettings class
 
 表示演示文稿的幻灯片放映设置。
 
@@ -22,13 +22,13 @@ public class SlideShowSettings
 | [Loop](../../aspose.slides/slideshowsettings/loop) { get; set; } | 循环幻灯片放映 |
 | [PenColor](../../aspose.slides/slideshowsettings/pencolor) { get; } | 幻灯片放映的笔颜色 |
 | [ShowAnimation](../../aspose.slides/slideshowsettings/showanimation) { get; set; } | 在幻灯片放映中显示动画 |
-| [ShowMediaControls](../../aspose.slides/slideshowsettings/showmediacontrols) { get; set; } | 显示媒体控制 |
-| [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | 在幻灯片放映中显示旁白 |
+| [ShowMediaControls](../../aspose.slides/slideshowsettings/showmediacontrols) { get; set; } | 显示媒体控制器 |
+| [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | 在幻灯片放映中显示解说 |
 | [Slides](../../aspose.slides/slideshowsettings/slides) { get; set; } | 幻灯片范围 |
-| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | 获取或设置幻灯片放映类型。由以下 [`SlideShowType`](./slideshowtype) 祖先表示：[`BrowsedAtKiosk`](../browsedatkiosk)、[`PresentedBySpeaker`](../presentedbyspeaker) 和 [`BrowsedByIndividual`](../browsedbyindividual) |
+| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | 获取或设置幻灯片放映类型。由以下[`SlideShowType`](./slideshowtype)祖先表示：[`BrowsedAtKiosk`](../browsedatkiosk)、[`PresentedBySpeaker`](../presentedbyspeaker)和[`BrowsedByIndividual`](../browsedbyindividual) |
 | [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | 在幻灯片放映中使用时间设置 |
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

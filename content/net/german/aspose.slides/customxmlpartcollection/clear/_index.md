@@ -1,5 +1,5 @@
 ---
-title: Löschen
+title: Clear
 second_title: Aspose.Slides für .NET API-Referenz
 description: Entfernt alle Elemente aus der Sammlung.
 type: docs
@@ -7,7 +7,7 @@ weight: 60
 url: /de/aspose.slides/customxmlpartcollection/clear/
 ---
 
-## CustomXmlPartCollection.Clear-Methode
+## CustomXmlPartCollection.Clear Methode
 
 Entfernt alle Elemente aus der Sammlung.
 

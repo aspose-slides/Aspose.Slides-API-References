@@ -1,6 +1,6 @@
 ---
-title: 评论
-second_title: Aspose.Slides for .NET API 参考
+title: Comments
+second_title: Aspose.Slides for .NET API Reference
 description: 签名的目的。读/写字符串。
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/idigitalsignature/comments/
 public string Comments { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IDigitalSignature](../../idigitalsignature)
 * 命名空间 [Aspose.Slides](../../idigitalsignature)

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.theme/extracolorschemecollection/issynchronized/
 ---
+
 ## ExtraColorSchemeCollection.IsSynchronized property
 
 Returns a value indicating whether access to the ArrayList is synchronized (thread safe). Read-only Boolean.

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.spreadsheet/cellinvalidreferenceexception/reference/
 ---
+
 ## CellInvalidReferenceException.Reference property
 
 Gets an invalid cell reference.

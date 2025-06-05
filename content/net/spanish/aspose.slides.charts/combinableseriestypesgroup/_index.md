@@ -1,6 +1,6 @@
 ---
 title: CombinableSeriesTypesGroup
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Enumeración de grupos de tipos de series combinables. Cada elemento se relaciona con un grupo de tipos de series de gráficos que pueden persistir simultáneamente en un ChartSeriesGroup. Por ejemplo, la serie ChartType.PercentsStackedArea no puede estar simultáneamente con la serie ChartType.StackedArea en un ChartSeriesGroup. Pero dos o más ChartType.PercentsStackedArea pueden estar en un ChartSeriesGroup simultáneamente CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea. Y la serie ChartType.Line puede estar con la serie ChartType.LineWithMarkers simultáneamente en un CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup.
 type: docs
 weight: 1450

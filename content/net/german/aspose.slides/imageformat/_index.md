@@ -1,15 +1,15 @@
 ---
-title: Bildformat
-second_title: Aspose.Slides für .NET API-Referenz
-description: Repräsentiert das Dateiformat des Bildes.
+title: ImageFormat
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt das Dateiformat des Bildes dar.
 type: docs
 weight: 7210
 url: /de/aspose.slides/imageformat/
 ---
 
-## Bildformat-Enumeration
+## ImageFormat Aufzählung
 
-Repräsentiert das Dateiformat des Bildes.
+Stellt das Dateiformat des Bildes dar.
 
 ```csharp
 public enum ImageFormat
@@ -19,16 +19,16 @@ public enum ImageFormat
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| MemoryBmp | `0` | Repräsentiert das Format eines Bitmaps im Speicher. |
-| Bmp | `1` | Repräsentiert das Bitmap (BMP) Bildformat. |
-| Emf | `2` | Repräsentiert das Enhanced Metafile (EMF) Bildformat. |
-| Wmf | `3` | Repräsentiert das Windows Metafile (WMF) Bildformat. |
-| Gif | `4` | Repräsentiert das Graphics Interchange Format (GIF) Bildformat. |
-| Jpeg | `5` | Repräsentiert das Joint Photographic Experts Group (JPEG) Bildformat. |
-| Png | `6` | Repräsentiert das W3C Portable Network Graphics (PNG) Bildformat. |
-| Tiff | `7` | Repräsentiert das Tagged Image File Format (TIFF) Bildformat. |
-| Exif | `8` | Repräsentiert das Exchangeable Image File (Exif) Format. |
-| Icon | `9` | Repräsentiert das Windows Icon Bildformat. |
+| MemoryBmp | `0` | Stellt das Format eines Bitmaps im Arbeitsspeicher dar. |
+| Bmp | `1` | Stellt das Bitmap (BMP) Bildformat dar. |
+| Emf | `2` | Stellt das Enhanced Metafile (EMF) Bildformat dar. |
+| Wmf | `3` | Stellt das Windows Metafile (WMF) Bildformat dar. |
+| Gif | `4` | Stellt das Graphics Interchange Format (GIF) Bildformat dar. |
+| Jpeg | `5` | Stellt das Joint Photographic Experts Group (JPEG) Bildformat dar. |
+| Png | `6` | Stellt das W3C Portable Network Graphics (PNG) Bildformat dar. |
+| Tiff | `7` | Stellt das Tagged Image File Format (TIFF) Bildformat dar. |
+| Exif | `8` | Stellt das Exchangeable Image File (Exif) Format dar. |
+| Icon | `9` | Stellt das Windows Icon Bildformat dar. |
 
 ### Siehe auch
 

@@ -1,6 +1,6 @@
 ---
-title: EstablecerTamaño
-second_title: Referencia de API de Aspose.Slides para .NET
+title: SetSize
+second_title: Aspose.Sildes para .NET API Reference
 description: Establece el tipo de tamaño de diapositiva y escala el contenido utilizando el tipo de escala. Asignar cualquier valor excepto Personalizado cambiará Sizeaspose.slides/slidesize/size en consecuencia, pero mantendrá Orientationaspose.slides/slidesize/orientation intacto.
 type: docs
 weight: 40
@@ -15,12 +15,12 @@ Establece el tipo de tamaño de diapositiva y escala el contenido utilizando el 
 public void SetSize(SlideSizeType type, SlideSizeScaleType scaleType)
 ```
 
-| Parámetro | Tipo | Descripción |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | type | SlideSizeType | Tipo de tamaño de diapositiva. |
 | scaleType | SlideSizeScaleType | Tipo de escala del contenido de la diapositiva. |
 
-### Ver También
+### See Also
 
 * enum [SlideSizeType](../../slidesizetype)
 * enum [SlideSizeScaleType](../../slidesizescaletype)
@@ -38,13 +38,13 @@ Establece el tamaño en puntos y escala el contenido utilizando el tipo de escal
 public void SetSize(float width, float height, SlideSizeScaleType scaleType)
 ```
 
-| Parámetro | Tipo | Descripción |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | width | Single | Ancho. |
 | height | Single | Altura. |
 | scaleType | SlideSizeScaleType | Tipo de escala del contenido de la diapositiva. |
 
-### Ver También
+### See Also
 
 * enum [SlideSizeScaleType](../../slidesizescaletype)
 * class [SlideSize](../../slidesize)

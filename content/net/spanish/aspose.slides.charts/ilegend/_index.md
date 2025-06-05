@@ -1,6 +1,6 @@
 ---
 title: ILegend
-second_title: Referencia de API de Aspose.Slidess para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Representa las propiedades de la leyenda de los gráficos.
 type: docs
 weight: 2050
@@ -9,7 +9,7 @@ url: /es/aspose.slides.charts/ilegend/
 
 ## Interfaz ILegend
 
-Representa las propiedades de la leyenda de un gráfico.
+Representa las propiedades de la leyenda del gráfico.
 
 ```csharp
 public interface ILegend : IFormattedTextContainer, ILayoutable
@@ -23,8 +23,8 @@ public interface ILegend : IFormattedTextContainer, ILayoutable
 | [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Permite obtener la interfaz base ILayoutable. Solo lectura [`ILayoutable`](../ilayoutable). |
 | [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Obtiene las entradas de la leyenda. Solo lectura [`ILegendEntryCollection`](../ilegendentrycollection). |
 | [Format](../../aspose.slides.charts/ilegend/format) { get; } | Devuelve el formato de una leyenda. Solo lectura [`IFormat`](../iformat). |
-| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Determina si otros elementos del gráfico pueden exceder la leyenda. Lectura/escritura Booleano. |
-| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Especifica la posición de la leyenda en un gráfico. Los valores no NaN de las propiedades X, Y, Width, Height anulan el efecto de esta propiedad. Lectura/escritura [`LegendPositionType`](../legendpositiontype). |
+| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Determina si otros elementos del gráfico pueden superponerse a la leyenda. Lectura/escritura booleano. |
+| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Especifica la posición de la leyenda en un gráfico. Los valores no NaN de las propiedades X, Y, Ancho y Altura anulan el efecto de esta propiedad. Lectura/escritura [`LegendPositionType`](../legendpositiontype). |
 
 ### Ver También
 

@@ -1,7 +1,7 @@
 ---
-title: IndexDébutPlage
-second_title: Référence API Aspose.Slides pour .NET
-description: Obtenir le premier index d'une plage unicode continue.
+title: RangeStartIndex
+second_title: Aspose.Sildes pour la référence API .NET
+description: Obtenez le premier index de la plage unicode continue.
 type: docs
 weight: 40
 url: /fr/aspose.slides/ifontfallbackrule/rangestartindex/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ifontfallbackrule/rangestartindex/
 
 ## Propriété IFontFallBackRule.RangeStartIndex
 
-Obtenir le premier index d'une plage unicode continue.
+Obtenez le premier index de la plage unicode continue.
 
 ```csharp
 public uint RangeStartIndex { get; }

@@ -1,7 +1,7 @@
 ---
-title: Количество
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает количество элементов в коллекции. Только для чтения Int32. Только для чтения Int32.
+title: Count
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает количество элементов в коллекции. Только для чтения Int32, Только для чтения Int32.
 type: docs
 weight: 10
 url: /ru/aspose.slides.theme/effectstylecollection/count/
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.theme/effectstylecollection/count/
 public int Count { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [EffectStyleCollection](../../effectstylecollection)
 * пространство имен [Aspose.Slides.Theme](../../effectstylecollection)

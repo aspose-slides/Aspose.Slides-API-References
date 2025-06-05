@@ -1,21 +1,21 @@
 ---
 title: Dispose
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Instanz des PresentationAnimationsGeneratoraspose.slides.export/presentationanimationsgenerator frei.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Verwirft die Instanz des PresentationAnimationsGeneratoraspose.slides.export/presentationanimationsgenerator.
 type: docs
 weight: 70
 url: /de/aspose.slides.export/presentationanimationsgenerator/dispose/
 ---
 
-## PresentationAnimationsGenerator.Dispose Methode
+## PresentationAnimationsGenerator.Dispose-Methode
 
-Gibt die Instanz des [`PresentationAnimationsGenerator`](../../presentationanimationsgenerator) frei.
+Verwirft die Instanz des [`PresentationAnimationsGenerator`](../../presentationanimationsgenerator).
 
 ```csharp
 public void Dispose()
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [PresentationAnimationsGenerator](../../presentationanimationsgenerator)
 * Namespace [Aspose.Slides.Export](../../presentationanimationsgenerator)

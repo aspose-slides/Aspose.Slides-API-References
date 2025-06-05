@@ -1,21 +1,21 @@
 ---
 title: ValueType
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente les manières possibles de déterminer la longueur des barres d'erreur. Dans le cas d'un type de valeur personnalisé, pour spécifier une valeur, utilisez la propriété ErrorBarsCustomValuesaspose.slides/ichartdatapoint/errorbarscustomvalues d'un point de données spécifique dans la collection DataPoints de la série. Lecture/écriture du ErrorBarValueTypeaspose.slides/errorbarvaluetype.
+second_title: Aspose.Slides pour .NET API Reference
+description: Représente les moyens possibles de déterminer la longueur des barres d'erreur. Dans le cas d'un type de valeur personnalisé, pour spécifier la valeur, utilisez la propriété ErrorBarsCustomValuesaspose.slides/ichartdatapoint/errorbarscustomvalues du point de données spécifique dans la collection DataPoints de la série. Lecture/écriture ErrorBarValueTypeaspose.slides/errorbarvaluetype.
 type: docs
 weight: 70
 url: /fr/aspose.slides.charts/ierrorbarsformat/valuetype/
 ---
 
-## Propriété IErrorBarsFormat.ValueType
+## IErrorBarsFormat.ValueType property
 
-Représente les manières possibles de déterminer la longueur des barres d'erreur. Dans le cas d'un type de valeur personnalisé, pour spécifier une valeur, utilisez la propriété [`ErrorBarsCustomValues`](../../ichartdatapoint/errorbarscustomvalues) d'un point de données spécifique dans la collection DataPoints de la série. Lecture/écriture du [`ErrorBarValueType`](../../errorbarvaluetype).
+Représente les moyens possibles de déterminer la longueur des barres d'erreur. Dans le cas d'un type de valeur personnalisé, pour spécifier la valeur, utilisez la propriété [`ErrorBarsCustomValues`](../../ichartdatapoint/errorbarscustomvalues) du point de données spécifique dans la collection DataPoints de la série. Lecture/écriture [`ErrorBarValueType`](../../errorbarvaluetype).
 
 ```csharp
 public ErrorBarValueType ValueType { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [ErrorBarValueType](../../errorbarvaluetype)
 * interface [IErrorBarsFormat](../../ierrorbarsformat)

@@ -1,21 +1,21 @@
 ---
 title: TextStyle
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie le style de texte effectif. En lecture seule ITextStyleEffectiveData aspose.slides/itextstyleeffectivedata.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie le style de texte effectif. Lecture seule ITextStyleEffectiveDataaspose.slides/itextstyleeffectivedata.
 type: docs
 weight: 100
 url: /fr/aspose.slides/itextframeformateffectivedata/textstyle/
 ---
 
-## Propriété ITextFrameFormatEffectiveData.TextStyle
+## ITextFrameFormatEffectiveData.TextStyle propriété
 
-Renvoie le style effectif du texte. En lecture seule [`ITextStyleEffectiveData`](../../itextstyleeffectivedata).
+Renvoie le style de texte effectif. Lecture seule [`ITextStyleEffectiveData`](../../itextstyleeffectivedata).
 
 ```csharp
 public ITextStyleEffectiveData TextStyle { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ITextStyleEffectiveData](../../itextstyleeffectivedata)
 * interface [ITextFrameFormatEffectiveData](../../itextframeformateffectivedata)

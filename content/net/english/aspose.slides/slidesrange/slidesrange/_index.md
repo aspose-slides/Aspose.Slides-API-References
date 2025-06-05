@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/slidesrange/slidesrange/
 ---
+
 ## SlidesRange constructor
 
 The default constructor.

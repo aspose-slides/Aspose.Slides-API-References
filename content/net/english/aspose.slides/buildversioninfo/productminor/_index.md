@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/buildversioninfo/productminor/
 ---
+
 ## BuildVersionInfo.ProductMinor field
 
 Minor version number.

@@ -1,7 +1,7 @@
 ---
 title: CellUnsupportedDataException
-second_title: Aspose.Sildes for .NET API 参考
-description: 初始化 CellUnsupportedDataExceptionaspose.slides.spreadsheet/cellunsupporteddataexception 类的新实例。
+second_title: Aspose.Sildes for .NET API Reference
+description: 初始化一个新的 CellUnsupportedDataExceptionaspose.slides.spreadsheet/cellunsupporteddataexception 类的实例。
 type: docs
 weight: 10
 url: /zh/aspose.slides.spreadsheet/cellunsupporteddataexception/cellunsupporteddataexception/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.spreadsheet/cellunsupporteddataexception/cellunsupportedd
 
 ## CellUnsupportedDataException() {#constructor}
 
-初始化 [`CellUnsupportedDataException`](../../cellunsupporteddataexception) 类的新实例。
+初始化一个新的 [`CellUnsupportedDataException`](../../cellunsupporteddataexception) 类的实例。
 
 ```csharp
 public CellUnsupportedDataException()
 ```
 
-### 另请参阅
+### 参见
 
 * 类 [CellUnsupportedDataException](../../cellunsupporteddataexception)
 * 命名空间 [Aspose.Slides.Spreadsheet](../../cellunsupporteddataexception)
@@ -25,7 +25,7 @@ public CellUnsupportedDataException()
 
 ## CellUnsupportedDataException(string) {#constructor_1}
 
-使用指定的错误消息初始化 [`CellUnsupportedDataException`](../../cellunsupporteddataexception) 类的新实例。
+初始化一个新的 [`CellUnsupportedDataException`](../../cellunsupporteddataexception) 类的实例，并指定错误消息。
 
 ```csharp
 public CellUnsupportedDataException(string message)
@@ -35,7 +35,7 @@ public CellUnsupportedDataException(string message)
 | --- | --- | --- |
 | message | String | 描述错误的字符串。 |
 
-### 另请参阅
+### 参见
 
 * 类 [CellUnsupportedDataException](../../cellunsupporteddataexception)
 * 命名空间 [Aspose.Slides.Spreadsheet](../../cellunsupporteddataexception)
@@ -45,7 +45,7 @@ public CellUnsupportedDataException(string message)
 
 ## CellUnsupportedDataException(string, Exception) {#constructor_2}
 
-使用指定的错误消息和对导致此异常的内部异常的引用初始化 [`CellUnsupportedDataException`](../../cellunsupporteddataexception) 类的新实例。
+初始化一个新的 [`CellUnsupportedDataException`](../../cellunsupporteddataexception) 类的实例，并指定错误消息和指向导致此异常的内部异常的引用。
 
 ```csharp
 public CellUnsupportedDataException(string message, Exception innerException)
@@ -56,7 +56,7 @@ public CellUnsupportedDataException(string message, Exception innerException)
 | message | String | 描述错误的字符串。 |
 | innerException | Exception | 导致当前异常的异常。 |
 
-### 另请参阅
+### 参见
 
 * 类 [CellUnsupportedDataException](../../cellunsupporteddataexception)
 * 命名空间 [Aspose.Slides.Spreadsheet](../../cellunsupporteddataexception)

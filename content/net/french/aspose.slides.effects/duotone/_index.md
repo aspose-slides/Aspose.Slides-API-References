@@ -1,7 +1,7 @@
 ---
 title: Duotone
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente un effet Duotone. Pour chaque pixel, combine Color1 et Color2 par une interpolation linéaire pour déterminer la nouvelle couleur de ce pixel.
+description: Représente un effet Duotone. Pour chaque pixel, combine Color1 et Color2 à travers une interpolation linéaire pour déterminer la nouvelle couleur de ce pixel.
 type: docs
 weight: 2860
 url: /fr/aspose.slides.effects/duotone/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/duotone/
 
 ## Classe Duotone
 
-Représente un effet Duotone. Pour chaque pixel, combine Color1 et Color2 par une interpolation linéaire pour déterminer la nouvelle couleur de ce pixel.
+Représente un effet Duotone. Pour chaque pixel, combine Color1 et Color2 à travers une interpolation linéaire pour déterminer la nouvelle couleur de ce pixel.
 
 ```csharp
 public sealed class Duotone : ImageTransformOperation, IDuotone
@@ -28,10 +28,10 @@ public sealed class Duotone : ImageTransformOperation, IDuotone
 | Nom | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/duotone/equals)(object) | Détermine si le [`Duotone`](../duotone) spécifié est égal au [`Duotone`](../duotone) actuel. |
-| [GetEffective](../../aspose.slides.effects/duotone/geteffective)() | Obtient les données de l'effet Duotone effectif avec l'héritage appliqué. |
+| [GetEffective](../../aspose.slides.effects/duotone/geteffective)() | Obtient les données effectives de l'effet Duotone avec l'héritage appliqué. |
 | override [GetHashCode](../../aspose.slides.effects/duotone/gethashcode)() | Sert de fonction de hachage pour un type particulier. |
 
-### Voir Aussi
+### Voir aussi
 
 * classe [ImageTransformOperation](../imagetransformoperation)
 * interface [IDuotone](../iduotone)

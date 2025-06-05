@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.animation/imotionpath/asienumerable/
 ---
+
 ## IMotionPath.AsIEnumerable property
 
 Allows to get base IBehavior interface. Read-only IEnumerable.

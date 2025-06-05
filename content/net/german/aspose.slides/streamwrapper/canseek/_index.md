@@ -1,7 +1,7 @@
 ---
 title: CanSeek
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen Wert zurück, der angibt, ob der aktuelle Stream das Suchen unterstützt. Nur-Lese-Boolescher Wert.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt einen Wert an, der angibt, ob der aktuelle Stream das Suchen unterstützt. Schreibgeschütztes Boolean.
 type: docs
 weight: 30
 url: /de/aspose.slides/streamwrapper/canseek/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/streamwrapper/canseek/
 
 ## StreamWrapper.CanSeek-Eigenschaft
 
-Gibt einen Wert zurück, der angibt, ob der aktuelle Stream das Suchen unterstützt. Nur-Lese-Boolescher Wert.
+Gibt einen Wert an, der angibt, ob der aktuelle Stream das Suchen unterstützt. Schreibgeschütztes Boolean.
 
 ```csharp
 public bool CanSeek { get; }

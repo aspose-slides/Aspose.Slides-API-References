@@ -1,7 +1,7 @@
 ---
 title: AsIMathElementCollection
-second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基础 IMathElementCollection 接口 IMathElementCollection aspose.slides.mathtext/imathelementcollection
+second_title: Aspose.Sildes for .NET API Reference
+description: 允许获取基础 IMathElementCollection 接口 IMathElementCollectionaspose.slides.mathtext/imathelementcollection
 type: docs
 weight: 20
 url: /zh/aspose.slides.mathtext/imathblock/asimathelementcollection/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.mathtext/imathblock/asimathelementcollection/
 public IMathElementCollection AsIMathElementCollection { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IMathElementCollection](../../imathelementcollection)
 * 接口 [IMathBlock](../../imathblock)

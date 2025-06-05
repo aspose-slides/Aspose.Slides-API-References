@@ -1,6 +1,6 @@
 ---
 title: ScaleEffect
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: El constructor predeterminado.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ El constructor predeterminado.
 public ScaleEffect()
 ```
 
-### Véase también
+### Ver también
 
 * clase [ScaleEffect](../../scaleeffect)
 * espacio de nombres [Aspose.Slides.Animation](../../scaleeffect)

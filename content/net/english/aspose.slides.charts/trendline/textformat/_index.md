@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.charts/trendline/textformat/
 ---
+
 ## Trendline.TextFormat property
 
 Returns text format. Read-only [`IChartTextFormat`](../../icharttextformat).

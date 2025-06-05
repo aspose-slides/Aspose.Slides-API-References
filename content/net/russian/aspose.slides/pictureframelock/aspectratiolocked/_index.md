@@ -1,7 +1,7 @@
 ---
 title: AspectRatioLocked
 second_title: Aspose.Slides для .NET API Справка
-description: Определяет, должно ли фигура сохранять соотношение сторон при изменении размера. Свойство типа Boolean для чтения и записи.
+description: Определяет, необходимо ли объекту сохранять соотношение сторон при изменении размера. Доступно для чтения/записи Boolean.
 type: docs
 weight: 30
 url: /ru/aspose.slides/pictureframelock/aspectratiolocked/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/pictureframelock/aspectratiolocked/
 
 ## PictureFrameLock.AspectRatioLocked свойство
 
-Определяет, должно ли фигура сохранять соотношение сторон при изменении размера. Свойство типа Boolean для чтения и записи.
+Определяет, необходимо ли объекту сохранять соотношение сторон при изменении размера. Доступно для чтения/записи Boolean.
 
 ```csharp
 public bool AspectRatioLocked { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [PictureFrameLock](../../pictureframelock)
 * пространство имен [Aspose.Slides](../../pictureframelock)

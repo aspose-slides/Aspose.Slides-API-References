@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt einen Enumerator zurück, der durch die Sammlung iteriert.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt einen Enumerator zurück, der die Sammlung durchläuft.
 type: docs
 weight: 80
 url: /de/aspose.slides/fontsubstrulecollection/getenumerator/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/fontsubstrulecollection/getenumerator/
 
 ## FontSubstRuleCollection.GetEnumerator-Methode
 
-Gibt einen Enumerator zurück, der durch die Sammlung iteriert.
+Gibt einen Enumerator zurück, der die Sammlung durchläuft.
 
 ```csharp
 public IEnumerator<IFontSubstRule> GetEnumerator()
@@ -17,9 +17,9 @@ public IEnumerator<IFontSubstRule> GetEnumerator()
 
 ### Rückgabewert
 
-Ein IEnumerator, der verwendet werden kann, um durch die Sammlung zu iterieren.
+Ein IEnumerator, der verwendet werden kann, um die Sammlung durchzulaufen.
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IFontSubstRule](../../ifontsubstrule)
 * Klasse [FontSubstRuleCollection](../../fontsubstrulecollection)

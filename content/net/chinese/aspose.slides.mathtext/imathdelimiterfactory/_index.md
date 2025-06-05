@@ -1,7 +1,7 @@
 ---
 title: IMathDelimiterFactory
-second_title: Aspose.Slides for .NET API 参考
-description: 允许创建数学分隔符
+second_title: Aspose.Sildes for .NET API Reference
+description: 允许创建数学定界符
 type: docs
 weight: 7970
 url: /zh/aspose.slides.mathtext/imathdelimiterfactory/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathdelimiterfactory/
 
 ## IMathDelimiterFactory 接口
 
-允许创建数学分隔符
+允许创建数学定界符
 
 ```csharp
 public interface IMathDelimiterFactory
@@ -19,14 +19,14 @@ public interface IMathDelimiterFactory
 
 | 名称 | 描述 |
 | --- | --- |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | 通过应用于元素创建数学分隔符 |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | 通过应用于元素创建数学分隔符 |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | 通过应用于元素创建数学定界符 |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | 通过应用于元素创建数学定界符 |
 
 ### 备注
 
-为了兼容 COM
+为了与COM兼容
 
-### 另请参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 程序集 [Aspose.Slides](../../)

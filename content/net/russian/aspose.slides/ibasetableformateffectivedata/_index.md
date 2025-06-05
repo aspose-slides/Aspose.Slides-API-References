@@ -1,7 +1,7 @@
 ---
 title: IBaseTableFormatEffectiveData
-second_title: Aspose.Slides для .NET API Справочник
-description: Базовый интерфейс для неизменяемых объектов, содержащих эффективные свойства форматирования таблиц.
+second_title: Aspose.Sildes для .NET API Reference
+description: Основной интерфейс для неизменяемых объектов, которые содержат свойства эффективного форматирования таблиц.
 type: docs
 weight: 5160
 url: /ru/aspose.slides/ibasetableformateffectivedata/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ibasetableformateffectivedata/
 
 ## Интерфейс IBaseTableFormatEffectiveData
 
-Базовый интерфейс для неизменяемых объектов, содержащих эффективные свойства форматирования таблиц.
+Основной интерфейс для неизменяемых объектов, которые содержат свойства эффективного форматирования таблиц.
 
 ```csharp
 public interface IBaseTableFormatEffectiveData
@@ -20,14 +20,14 @@ public interface IBaseTableFormatEffectiveData
 | Название | Описание |
 | --- | --- |
 | [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | Возвращает эффективное значение формата нижней границы. Только для чтения [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | Возвращает эффективное значение формата нижней диагональной линии. Только для чтения [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | Возвращает эффективное значение формата верхней диагональной линии. Только для чтения [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | Возвращает эффективное значение формата диагональной линии вниз. Только для чтения [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | Возвращает эффективное значение формата диагональной линии вверх. Только для чтения [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
 | [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | Возвращает эффективное значение формата левой границы. Только для чтения [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
 | [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | Возвращает эффективное значение формата правой границы. Только для чтения [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
 | [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | Возвращает эффективное значение формата верхней границы. Только для чтения [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
 | [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | Возвращает эффективное значение формата заливки. Только для чтения [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

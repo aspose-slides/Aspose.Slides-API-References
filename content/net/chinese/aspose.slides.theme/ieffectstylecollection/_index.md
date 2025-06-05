@@ -1,6 +1,6 @@
 ---
 title: IEffectStyleCollection
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示效果样式的集合。
 type: docs
 weight: 10870
@@ -21,7 +21,7 @@ public interface IEffectStyleCollection : IGenericCollection<IEffectStyle>
 | --- | --- |
 | [Item](../../aspose.slides.theme/ieffectstylecollection/item) { get; } | 返回指定位置的元素。只读 [`IEffectStyle`](../ieffectstyle)。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 接口 [IEffectStyle](../ieffectstyle)

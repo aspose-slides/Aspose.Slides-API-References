@@ -1,7 +1,7 @@
 ---
 title: IsVisible
 second_title: Aspose.Sildes for .NET API Reference
-description: False表示数据标签不可见，因此所有Show-flags ShowValue ...都是false。只读布尔值。
+description: False意味着数据标签不可见，因此所有显示标志ShowValue等都为false。只读布尔值。
 type: docs
 weight: 50
 url: /zh/aspose.slides.charts/idatalabel/isvisible/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/idatalabel/isvisible/
 
 ## IDataLabel.IsVisible 属性
 
-False表示数据标签不可见（因此所有Show*-flags（ShowValue，...）都是false）。只读布尔值。
+False意味着数据标签不可见（因此所有Show*-标志（ShowValue等）都为false）。只读布尔值。
 
 ```csharp
 public bool IsVisible { get; }
@@ -17,9 +17,9 @@ public bool IsVisible { get; }
 
 ### 备注
 
-如果数据标签可见，可以使用Hide()方法使其隐藏。但是，如果数据标签不可见（IsVisible为false），可以通过将Show*-flags（ShowValue，...）设置为true来使数据标签可见。
+如果数据标签可见，您可以使用Hide()方法将其隐藏。但是，如果数据标签不可见（IsVisible为false），您可以通过将Show*-标志（ShowValue等）设置为true来使数据标签可见。
 
-### 另见
+### 另请参阅
 
 * 接口 [IDataLabel](../../idatalabel)
 * 命名空间 [Aspose.Slides.Charts](../../idatalabel)

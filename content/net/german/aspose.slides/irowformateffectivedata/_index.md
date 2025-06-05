@@ -1,7 +1,7 @@
 ---
 title: IRowFormatEffectiveData
 second_title: Aspose.Slides für .NET API Referenz
-description: Unveränderliches Objekt, das effektive Formatierungseigenschaften für Tabellenzeilen enthält.
+description: Unveränderliches Objekt, das effektive Eigenschaften der Tabellenzeilenformatierung enthält.
 type: docs
 weight: 6680
 url: /de/aspose.slides/irowformateffectivedata/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/irowformateffectivedata/
 
 ## IRowFormatEffectiveData-Schnittstelle
 
-Unveränderliches Objekt, das effektive Formatierungseigenschaften für Tabellenzeilen enthält.
+Unveränderliches Objekt, das effektive Eigenschaften der Tabellenzeilenformatierung enthält.
 
 ```csharp
 public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -19,11 +19,11 @@ public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IBaseTableFormatEffectiveData. Nur-lesbar [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | Ermöglicht den Zugriff auf die Basis-IBaseTableFormatEffectiveData-Schnittstelle. Nur-lesend [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
 
-### Bemerkungen
+### Hinweise
 
-Diese Schnittstelle wird zusammen mit der [`IRowFormat`](../irowformat) Schnittstelle verwendet, um effektive Formatierungswerte mit vererbten und angewendeten Tabellenstilen zurückzugeben.
+Diese Schnittstelle wird zusammen mit der [`IRowFormat`](../irowformat) Schnittstelle verwendet, um effektive Formatierungswerte mit angewandter Vererbung und Tabellenstilen zurückzugeben.
 
 ### Siehe auch
 

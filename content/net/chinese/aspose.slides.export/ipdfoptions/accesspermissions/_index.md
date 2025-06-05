@@ -1,6 +1,6 @@
 ---
-title: 访问权限
-second_title: Aspose.Slides for .NET API 参考
+title: AccessPermissions
+second_title: Aspose.Sildes for .NET API Reference
 description: 包含一组标志，指定在以用户访问权限打开文档时应授予哪些访问权限。请参见 PdfAccessPermissionsaspose.slides.export/pdfaccesspermissions。
 type: docs
 weight: 10
@@ -29,7 +29,7 @@ using (var presentation = new Presentation())
 }
 ```
 
-### 另请参阅
+### 另见
 
 * enum [PdfAccessPermissions](../../pdfaccesspermissions)
 * interface [IPdfOptions](../../ipdfoptions)

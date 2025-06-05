@@ -1,7 +1,7 @@
 ---
 title: SpaceBefore
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Menge an Platz vor der ersten Zeile in einem Absatz ohne Vererbung zurück oder setzt sie. Ein positiver Wert gibt den Prozentsatz der Schriftgröße an, den der Leerraum haben soll. Ein negativer Wert gibt die Größe des Leerraums in Punktgröße an. Lese-/Schreibzugriff auf Single.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt die Menge an Platz vor der ersten Zeile in einem Absatz ohne Vererbung zurück oder setzt diese. Ein positiver Wert gibt den Prozentsatz der Schriftgröße an, den der Leerraum haben sollte. Ein negativer Wert gibt die Größe des Leerraums in Punktgröße an. Lesen/Schreiben Einzelwert.
 type: docs
 weight: 130
 url: /de/aspose.slides/paragraphformat/spacebefore/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/paragraphformat/spacebefore/
 
 ## ParagraphFormat.SpaceBefore-Eigenschaft
 
-Gibt die Menge an Platz vor der ersten Zeile in einem Absatz ohne Vererbung zurück oder setzt sie. Ein positiver Wert gibt den Prozentsatz der Schriftgröße an, den der Leerraum haben soll. Ein negativer Wert gibt die Größe des Leerraums in Punktgröße an. Lese-/Schreibzugriff auf Single.
+Gibt die Menge an Platz vor der ersten Zeile in einem Absatz ohne Vererbung zurück oder setzt diese. Ein positiver Wert gibt den Prozentsatz der Schriftgröße an, den der Leerraum haben sollte. Ein negativer Wert gibt die Größe des Leerraums in Punktgröße an. Lesen/Schreiben Einzelwert.
 
 ```csharp
 public float SpaceBefore { get; set; }

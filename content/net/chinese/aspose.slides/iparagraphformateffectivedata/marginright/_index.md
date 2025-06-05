@@ -1,7 +1,7 @@
 ---
 title: MarginRight
-second_title: Aspose.Slides for .NET API 参考
-description: 返回段落的右边距。为只读单精度浮点数。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回段落中的右边距。只读单精度浮点数。
 type: docs
 weight: 120
 url: /zh/aspose.slides/iparagraphformateffectivedata/marginright/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iparagraphformateffectivedata/marginright/
 
 ## IParagraphFormatEffectiveData.MarginRight 属性
 
-返回段落的右边距。为只读单精度浮点数。
+返回段落中的右边距。只读单精度浮点数。
 
 ```csharp
 public float MarginRight { get; }

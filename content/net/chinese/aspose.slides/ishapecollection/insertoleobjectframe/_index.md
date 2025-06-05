@@ -1,7 +1,7 @@
 ---
 title: InsertOleObjectFrame
-second_title: Aspose.Slides for .NET API 参考
-description: 创建一个新的 OLE 对象并将其插入到指定索引的集合中。
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建一个新的OLE对象，并将其插入到指定索引的集合中。
 type: docs
 weight: 300
 url: /zh/aspose.slides/ishapecollection/insertoleobjectframe/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ishapecollection/insertoleobjectframe/
 
 ## InsertOleObjectFrame(int, float, float, float, float, IOleEmbeddedDataInfo) {#insertoleobjectframe}
 
-创建一个新的 OLE 对象并将其插入到指定索引的集合中。
+创建一个新的OLE对象，并将其插入到指定索引的集合中。
 
 ```csharp
 public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float width, float height, 
@@ -18,16 +18,16 @@ public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float w
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | OLE 对象应插入的零基索引。 |
-| x | Single | 新 OLE 框的 X 坐标。 |
-| y | Single | 新 OLE 框的 Y 坐标。 |
-| width | Single | 新 OLE 框的宽度。 |
-| height | Single | 新 OLE 框的高度。 |
+| index | Int32 | OLE对象应插入的零基索引。 |
+| x | Single | 新OLE框架的X坐标。 |
+| y | Single | 新OLE框架的Y坐标。 |
+| width | Single | 新OLE框架的宽度。 |
+| height | Single | 新OLE框架的高度。 |
 | dataInfo | IOleEmbeddedDataInfo | 嵌入数据信息 [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo)。 |
 
 ### 返回值
 
-创建的 OLE 对象。
+创建的OLE对象。
 
 ### 另见
 
@@ -41,7 +41,7 @@ public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float w
 
 ## InsertOleObjectFrame(int, float, float, float, float, string, string) {#insertoleobjectframe_1}
 
-创建一个新的 OLE 对象并将其插入到指定索引的集合中。
+创建一个新的OLE对象，并将其插入到指定索引的集合中。
 
 ```csharp
 public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float width, float height, 
@@ -50,17 +50,17 @@ public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float w
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | OLE 对象应插入的零基索引。 |
-| x | Single | 新 OLE 框的 X 坐标。 |
-| y | Single | 新 OLE 框的 Y 坐标。 |
-| width | Single | 新 OLE 框的宽度。 |
-| height | Single | 新 OLE 框的高度。 |
-| className | String | OLE 类的名称。 |
+| index | Int32 | OLE对象应插入的零基索引。 |
+| x | Single | 新OLE框架的X坐标。 |
+| y | Single | 新OLE框架的Y坐标。 |
+| width | Single | 新OLE框架的宽度。 |
+| height | Single | 新OLE框架的高度。 |
+| className | String | OLE类的名称。 |
 | path | String | 链接文件的路径。 |
 
 ### 返回值
 
-创建的 OLE 对象。
+创建的OLE对象。
 
 ### 另见
 

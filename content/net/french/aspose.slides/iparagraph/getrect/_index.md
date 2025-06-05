@@ -1,15 +1,15 @@
 ---
 title: GetRect
-second_title: Référence API Aspose.Slides pour .NET
-description: Obtenez les coordonnées du rectangle qui délimite le paragraphe. Le rectangle inclut toutes les lignes de texte dans le paragraphe, y compris les lignes vides.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Obtenez les coordonnées du rectangle qui encadre le paragraphe. Le rectangle inclut toutes les lignes de texte du paragraphe, y compris celles vides.
 type: docs
 weight: 70
 url: /fr/aspose.slides/iparagraph/getrect/
 ---
 
-## Méthode IParagraph.GetRect
+## IParagraph.GetRect méthode
 
-Obtenez les coordonnées du rectangle qui délimite le paragraphe. Le rectangle inclut toutes les lignes de texte dans le paragraphe, y compris les lignes vides.
+Obtenez les coordonnées du rectangle qui encadre le paragraphe. Le rectangle inclut toutes les lignes de texte du paragraphe, y compris celles vides.
 
 ```csharp
 public RectangleF GetRect()
@@ -17,7 +17,7 @@ public RectangleF GetRect()
 
 ### Valeur de retour
 
-Rectangle qui délimite le paragraphe RectangleF
+Rectangle qui encadre le paragraphe RectangleF
 
 ### Voir aussi
 

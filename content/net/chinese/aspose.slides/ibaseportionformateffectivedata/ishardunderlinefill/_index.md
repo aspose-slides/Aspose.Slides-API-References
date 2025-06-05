@@ -1,7 +1,7 @@
 ---
 title: IsHardUnderlineFill
-second_title: Aspose.Sildes for .NET API 参考
-description: 确定下划线样式是否具有自己的 FillFormat 属性，或者从文本的 FillFormat 属性继承。只读布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定下划线样式是否具有自己的 FillFormat 属性，或者是否从文本的 FillFormat 属性继承。只读布尔值。
 type: docs
 weight: 120
 url: /zh/aspose.slides/ibaseportionformateffectivedata/ishardunderlinefill/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ibaseportionformateffectivedata/ishardunderlinefill/
 
 ## IBasePortionFormatEffectiveData.IsHardUnderlineFill 属性
 
-确定下划线样式是否具有自己的 FillFormat 属性，或者从文本的 FillFormat 属性继承。只读布尔值。
+确定下划线样式是否具有自己的 FillFormat 属性，或者是否从文本的 FillFormat 属性继承。只读布尔值。
 
 ```csharp
 public bool IsHardUnderlineFill { get; }

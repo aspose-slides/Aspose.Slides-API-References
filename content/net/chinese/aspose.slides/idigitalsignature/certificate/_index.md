@@ -1,6 +1,6 @@
 ---
-title: 证书
-second_title: Aspose.Slides for .NET API 参考
+title: Certificate
+second_title: Aspose.Sildes for .NET API Reference
 description: 用于签署文档的证书对象。只读 X509Certificate2。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/idigitalsignature/certificate/
 public X509Certificate2 Certificate { get; }
 ```
 
-### 相关链接
+### 参见
 
 * 接口 [IDigitalSignature](../../idigitalsignature)
 * 命名空间 [Aspose.Slides](../../idigitalsignature)

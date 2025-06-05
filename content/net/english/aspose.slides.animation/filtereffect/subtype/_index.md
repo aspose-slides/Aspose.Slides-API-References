@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.animation/filtereffect/subtype/
 ---
+
 ## FilterEffect.Subtype property
 
 Represents subtype of filter effect. Read/write [`FilterEffectSubtype`](../../filtereffectsubtype).

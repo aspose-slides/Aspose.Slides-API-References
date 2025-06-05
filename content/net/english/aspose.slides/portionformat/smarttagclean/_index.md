@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/portionformat/smarttagclean/
 ---
+
 ## PortionFormat.SmartTagClean property
 
 Determines whether the smart tag should be cleaned. No inheritance applied. Read/write Boolean.

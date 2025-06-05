@@ -1,7 +1,7 @@
 ---
 title: LoadFormat
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das Format der gebundenen Präsentation zurück. Nur lesbarer LoadFormataspose.slides/loadformat.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Erhält das Format der gebundenen Präsentation. Nur-lesbarer LoadFormat aspose.slides/loadformat.
 type: docs
 weight: 40
 url: /de/aspose.slides/presentationinfo/loadformat/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/presentationinfo/loadformat/
 
 ## PresentationInfo.LoadFormat-Eigenschaft
 
-Gibt das Format der gebundenen Präsentation zurück. Nur lesbar [`LoadFormat`](../../loadformat).
+Erhält das Format der gebundenen Präsentation. Nur-lesbarer [`LoadFormat`](../../loadformat).
 
 ```csharp
 public LoadFormat LoadFormat { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [LoadFormat](../../loadformat)
 * class [PresentationInfo](../../presentationinfo)

@@ -1,15 +1,15 @@
 ---
 title: SetDateTimeVisibility
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Modifie la visibilité du modèle de date-heure de la diapositive.
+second_title: Référence API Aspose.Slides pour .NET
+description: Modifie la visibilité de l'espace réservé pour la date et l'heure de la diapositive.
 type: docs
 weight: 60
 url: /fr/aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility/
 ---
 
-## Méthode IBaseSlideHeaderFooterManager.SetDateTimeVisibility
+## IBaseSlideHeaderFooterManager.SetDateTimeVisibility méthode
 
-Modifie la visibilité du modèle de date-heure de la diapositive.
+Modifie la visibilité de l'espace réservé pour la date et l'heure de la diapositive.
 
 ```csharp
 public void SetDateTimeVisibility(bool isVisible)
@@ -17,7 +17,7 @@ public void SetDateTimeVisibility(bool isVisible)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| isVisible | Boolean | true - rend un modèle de date-heure visible, sinon - le cache. |
+| isVisible | Boolean | true - rend un espace réservé pour la date et l'heure visible, sinon - le cache. |
 
 ### Voir Aussi
 

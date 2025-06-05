@@ -1,6 +1,6 @@
 ---
 title: IBaseChartValue
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 表示图表的值。
 type: docs
 weight: 1650
@@ -19,8 +19,8 @@ public interface IBaseChartValue
 
 | 名称 | 描述 |
 | --- | --- |
-| [Data](../../aspose.slides.charts/ibasechartvalue/data) { get; set; } | 可读写对象。 |
-| [DataSourceType](../../aspose.slides.charts/ibasechartvalue/datasourcetype) { get; set; } | 指定 AsCell、AsLiteralString 或 AsLiteralDouble 属性是否有效。换句话说，它指定 Data 属性的值的类型。此属性是只读的。要更改此属性的值，可以使用 ChartDataPointCollection.DataSourceTypeFor&lt;...&gt; 属性之一。可读写 [`DataSourceType`](./datasourcetype)。 |
+| [Data](../../aspose.slides.charts/ibasechartvalue/data) { get; set; } | 读/写对象。 |
+| [DataSourceType](../../aspose.slides.charts/ibasechartvalue/datasourcetype) { get; set; } | 指定 AsCell 或 AsLiteralString 或 AsLiteralDouble 属性是否有效。换句话说，它指定 Data 属性值的类型。此属性为只读。要更改此属性的值，您可以使用 ChartDataPointCollection.DataSourceTypeFor&lt;...&gt; 属性之一。读/写 [`DataSourceType`](./datasourcetype)。 |
 
 ### 另见
 

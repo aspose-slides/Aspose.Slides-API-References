@@ -1,6 +1,6 @@
 ---
 title: GetHashCode
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve el código hash.
 type: docs
 weight: 180
@@ -15,11 +15,11 @@ Devuelve el código hash.
 public override int GetHashCode()
 ```
 
-### Valor de Retorno
+### Valor de retorno
 
 Código hash.
 
-### Véase También
+### Véase también
 
 * clase [ColorFormat](../../colorformat)
 * espacio de nombres [Aspose.Slides](../../colorformat)

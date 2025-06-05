@@ -1,7 +1,7 @@
 ---
-title: Element
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt einen Knoten nach Index zurück. Schreibgeschützter ISmartArtNodeaspose.slides.smartart/ismartartnode
+title: Item
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den Knoten nach Index zurück. Nur-Lese ISmartArtNodeaspose.slides.smartart/ismartartnode
 type: docs
 weight: 10
 url: /de/aspose.slides.smartart/ismartartnodecollection/item/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.smartart/ismartartnodecollection/item/
 
 ## ISmartArtNodeCollection-Indexer
 
-Gibt einen Knoten nach Index zurück. Schreibgeschützt [`ISmartArtNode`](../../ismartartnode)
+Gibt den Knoten nach Index zurück. Nur-Lese [`ISmartArtNode`](../../ismartartnode)
 
 ```csharp
 public ISmartArtNode this[int index] { get; }
@@ -19,7 +19,7 @@ public ISmartArtNode this[int index] { get; }
 | --- | --- |
 | index | Der nullbasierte Index des Elements. |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ISmartArtNode](../../ismartartnode)
 * Schnittstelle [ISmartArtNodeCollection](../../ismartartnodecollection)

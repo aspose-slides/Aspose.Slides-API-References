@@ -1,15 +1,15 @@
 ---
 title: VideoPlayerHtmlControllerFactory
-second_title: Aspose.Sildes для .NET Справочник по API
-description: Позволяет создать VideoPlayerHtmlController.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Позволяет создавать VideoPlayerHtmlController.
 type: docs
 weight: 4400
 url: /ru/aspose.slides.export/videoplayerhtmlcontrollerfactory/
 ---
 
-## Класс VideoPlayerHtmlControllerFactory
+## VideoPlayerHtmlControllerFactory class
 
-Позволяет создать VideoPlayerHtmlController.
+Позволяет создавать VideoPlayerHtmlController.
 
 ```csharp
 public class VideoPlayerHtmlControllerFactory : IVideoPlayerHtmlControllerFactory
@@ -17,13 +17,13 @@ public class VideoPlayerHtmlControllerFactory : IVideoPlayerHtmlControllerFactor
 
 ## Конструкторы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [VideoPlayerHtmlControllerFactory](videoplayerhtmlcontrollerfactory)() | Конструктор по умолчанию. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [CreateVideoPlayerHtmlController](../../aspose.slides.export/videoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller)(string, string, string) | Создает новый `VideoPlayerHtmlController`. |
 

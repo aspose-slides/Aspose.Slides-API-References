@@ -1,7 +1,7 @@
 ---
 title: FontCollectionIndex
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回或设置形状在字体集合中的字体索引。可读/可写 FontCollectionIndexaspose.slides/fontcollectionindex。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置形状在字体集合中的字体索引。可读写 FontCollectionIndexaspose.slides/fontcollectionindex。
 type: docs
 weight: 50
 url: /zh/aspose.slides/shapestyle/fontcollectionindex/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/shapestyle/fontcollectionindex/
 
 ## ShapeStyle.FontCollectionIndex 属性
 
-返回或设置形状在字体集合中的字体索引。可读/可写 [`FontCollectionIndex`](../../fontcollectionindex)。
+返回或设置形状在字体集合中的字体索引。可读写 [`FontCollectionIndex`](../../fontcollectionindex)。
 
 ```csharp
 public FontCollectionIndex FontCollectionIndex { get; set; }

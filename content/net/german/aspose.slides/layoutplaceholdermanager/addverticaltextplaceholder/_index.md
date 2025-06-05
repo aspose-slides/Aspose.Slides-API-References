@@ -1,7 +1,7 @@
 ---
 title: AddVerticalTextPlaceholder
-second_title: Aspose.Slides für .NET API Referenz
-description: Fügt der Layout-Folie eine neue Platzhalterform hinzu, um Textinhalte in vertikaler Richtung zu halten.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Fügt eine neue Platzhalterform zur Layout-Folie hinzu, um Textinhalte in vertikaler Richtung zu halten.
 type: docs
 weight: 100
 url: /de/aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder/
 
 ## LayoutPlaceholderManager.AddVerticalTextPlaceholder-Methode
 
-Fügt der Layout-Folie eine neue Platzhalterform hinzu, um Textinhalte in vertikaler Richtung zu halten.
+Fügt eine neue Platzhalterform zur Layout-Folie hinzu, um Textinhalte in vertikaler Richtung zu halten.
 
 ```csharp
 public IAutoShape AddVerticalTextPlaceholder(float x, float y, float width, float height)
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Interface [IAutoShape](../../iautoshape)
 * Klasse [LayoutPlaceholderManager](../../layoutplaceholdermanager)

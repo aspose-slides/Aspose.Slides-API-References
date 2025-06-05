@@ -1,6 +1,6 @@
 ---
-title: Параметр
-second_title: Aspose.Slides для .NET API Справочник
+title: Parameter
+second_title: Aspose.Sildes для .NET Справочник по API
 description: Возвращает параметр операции. Только для чтения Single.
 type: docs
 weight: 30

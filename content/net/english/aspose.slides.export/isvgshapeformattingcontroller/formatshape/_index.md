@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export/isvgshapeformattingcontroller/formatshape/
 ---
+
 ## ISvgShapeFormattingController.FormatShape method
 
 This function is called before rendering of shape to SVG to allow user to control resulting SVG.

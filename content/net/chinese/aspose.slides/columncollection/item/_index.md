@@ -1,6 +1,6 @@
 ---
-title: 项
-second_title: Aspose.Slides for .NET API 参考
+title: Item
+second_title: Aspose.Slides for .NET API Reference
 description: 返回指定索引处的列。只读 Columnaspose.slides/column。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/columncollection/item/
 public IColumn this[int index] { get; }
 ```
 
-### 参见
+### 另请参见
 
 * 接口 [IColumn](../../icolumn)
 * 类 [ColumnCollection](../../columncollection)

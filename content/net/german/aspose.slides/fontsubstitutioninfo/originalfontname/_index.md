@@ -1,15 +1,15 @@
 ---
 title: OriginalFontName
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Quellschriftartnamen in der Präsentation an. Schreibgeschützter String
+second_title: Aspose.Slids für .NET API Referenz
+description: Gibt den Quellschriftartnamen in der Präsentation an. Nur-Lese-Zeichenfolge
 type: docs
 weight: 20
 url: /de/aspose.slides/fontsubstitutioninfo/originalfontname/
 ---
 
-## FontSubstitutionInfo.OriginalFontName-Eigenschaft
+## FontSubstitutionInfo.OriginalFontName Eigenschaft
 
-Gibt den Quellschriftartnamen in der Präsentation an. Schreibgeschützter String
+Gibt den Quellschriftartnamen in der Präsentation an. Nur-Lese-Zeichenfolge
 
 ```csharp
 public string OriginalFontName { get; }

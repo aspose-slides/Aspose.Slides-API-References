@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回一个枚举数，用于迭代集合。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回一个枚举器，用于遍历集合。
 type: docs
 weight: 80
 url: /zh/aspose.slides/customxmlpartcollection/getenumerator/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/customxmlpartcollection/getenumerator/
 
 ## CustomXmlPartCollection.GetEnumerator 方法
 
-返回一个枚举数，用于迭代集合。
+返回一个枚举器，用于遍历集合。
 
 ```csharp
 public IEnumerator<ICustomXmlPart> GetEnumerator()
@@ -17,9 +17,9 @@ public IEnumerator<ICustomXmlPart> GetEnumerator()
 
 ### 返回值
 
-一个可以用于迭代集合的 IEnumerator。
+一个可以用于遍历集合的 IEnumerator。
 
-### 另请参阅
+### 另请参见
 
 * 接口 [ICustomXmlPart](../../icustomxmlpart)
 * 类 [CustomXmlPartCollection](../../customxmlpartcollection)

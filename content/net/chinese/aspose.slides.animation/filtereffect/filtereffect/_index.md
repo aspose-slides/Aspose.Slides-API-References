@@ -1,6 +1,6 @@
 ---
 title: FilterEffect
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 默认构造函数。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/filtereffect/filtereffect/
 public FilterEffect()
 ```
 
-### 另请参见
+### 参见
 
 * class [FilterEffect](../../filtereffect)
 * namespace [Aspose.Slides.Animation](../../filtereffect)

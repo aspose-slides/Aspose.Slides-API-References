@@ -1,7 +1,7 @@
 ---
 title: MajorUnitScale
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt die Haupteinheitenskala für die Datumsachse dar. Lese-/schreibbar TimeUnitTypeaspose.slides/timeunittype.
+description: Stellt die Haupt Einheitsskala für die Datumsachse dar. Lese-/Schreibzeit TimeUnitTypeaspose.slides.charts/timeunittype.
 type: docs
 weight: 370
 url: /de/aspose.slides.charts/axis/majorunitscale/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/axis/majorunitscale/
 
 ## Axis.MajorUnitScale-Eigenschaft
 
-Stellt die Haupteinheitenskala für die Datumsachse dar. Lese-/schreibbar [`TimeUnitType`](../../timeunittype).
+Stellt die Haupt Einheitsskala für die Datumsachse dar. Lese-/Schreib [`TimeUnitType`](../../timeunittype).
 
 ```csharp
 public TimeUnitType MajorUnitScale { get; set; }

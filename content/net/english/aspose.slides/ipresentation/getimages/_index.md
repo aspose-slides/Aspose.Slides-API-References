@@ -1,0 +1,173 @@
+---
+title: GetImages
+second_title: Aspose.Sildes for .NET API Reference
+description: Returns a Thumbnail Image objects for all slides of a presentation.
+type: docs
+weight: 300
+url: /aspose.slides/ipresentation/getimages/
+---
+
+## GetImages(IRenderingOptions) {#getimages}
+
+Returns a Thumbnail Image objects for all slides of a presentation.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | IRenderingOptions | Rendering options. |
+
+### Return Value
+
+Bitmap objects.
+
+### See Also
+
+* interface [IImage](../../iimage)
+* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## GetImages(IRenderingOptions, int[]) {#getimages_1}
+
+Returns a Thumbnail Bitmap objects for specified slides of a presentation.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options, int[] slides)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | IRenderingOptions | Rendering options. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
+
+### Return Value
+
+Bitmap objects.
+
+### See Also
+
+* interface [IImage](../../iimage)
+* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## GetImages(IRenderingOptions, float, float) {#getimages_4}
+
+Returns a Thumbnail Image objects for all slides of a presentation with custom scaling.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options, float scaleX, float scaleY)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | IRenderingOptions | Rendering options. |
+| scaleX | Single | The value by which to scale this Thumbnail in the x-axis direction. |
+| scaleY | Single | The value by which to scale this Thumbnail in the y-axis direction. |
+
+### Return Value
+
+Bitmap objects.
+
+### See Also
+
+* interface [IImage](../../iimage)
+* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## GetImages(IRenderingOptions, int[], float, float) {#getimages_2}
+
+Returns a Thumbnail Image objects for specified slides of a presentation with custom scaling.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | IRenderingOptions | Rendering options. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
+| scaleX | Single | The value by which to scale this Thumbnail in the x-axis direction. |
+| scaleY | Single | The value by which to scale this Thumbnail in the y-axis direction. |
+
+### Return Value
+
+Bitmap objects.
+
+### See Also
+
+* interface [IImage](../../iimage)
+* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## GetImages(IRenderingOptions, Size) {#getimages_5}
+
+Returns a Thumbnail Image objects for all slides of a presentation with specified size.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options, Size imageSize)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | IRenderingOptions | Rendering options. |
+| imageSize | Size | Size of the image to create. |
+
+### Return Value
+
+Bitmap objects.
+
+### See Also
+
+* interface [IImage](../../iimage)
+* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## GetImages(IRenderingOptions, int[], Size) {#getimages_3}
+
+Returns a Thumbnail Image objects for specified slides of a presentation with specified size.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options, int[] slides, Size imageSize)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | IRenderingOptions | Rendering options. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
+| imageSize | Size | Size of the image to create. |
+
+### Return Value
+
+Bitmap objects.
+
+### See Also
+
+* interface [IImage](../../iimage)
+* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

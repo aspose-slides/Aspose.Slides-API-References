@@ -1,7 +1,7 @@
 ---
 title: NoBreak
 second_title: Aspose.Sildes for .NET API Reference
-description: 不可断裂 该属性指定对象框上的不可断裂属性。当为 true 时，不可以在框内产生换行。这对于由多个二元操作符组成的操作符仿真器可能很重要。当未指定该元素时，可以在框内出现断裂。默认值：true
+description: 不换行 此属性指定对象框上的不可换行属性。当为真时，框内无法发生换行。这对于由多个二元操作符组成的操作符仿真器可能非常重要。当未指定此元素时，框内可以发生换行。默认值：真
 type: docs
 weight: 60
 url: /zh/aspose.slides.mathtext/mathbox/nobreak/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathbox/nobreak/
 
 ## MathBox.NoBreak 属性
 
-不可断裂 该属性指定对象框上的 "不可断裂" 属性。当为 true 时，不可以在框内产生换行。这对于由多个二元操作符组成的操作符仿真器可能很重要。当未指定该元素时，可以在框内出现断裂。默认值：true
+不换行 此属性指定对象框上的“不可换行”属性。当为真时，框内无法发生换行。这对于由多个二元操作符组成的操作符仿真器可能非常重要。当未指定此元素时，框内可以发生换行。默认值：真
 
 ```csharp
 public bool NoBreak { get; set; }
@@ -25,7 +25,7 @@ MathBox box = new MathBox(new MathematicalText("*****"));
 box.NoBreak = false;
 ```
 
-### 另请参阅
+### 参见
 
 * 类 [MathBox](../../mathbox)
 * 命名空间 [Aspose.Slides.MathText](../../mathbox)

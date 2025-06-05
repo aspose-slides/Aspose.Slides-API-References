@@ -1,7 +1,7 @@
 ---
 title: HasRoundedCorners
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Especifica que el área del gráfico debe tener esquinas redondeadas. Booleano de lectura/escritura.
+second_title: Aspose.Slides para .NET API Reference
+description: Especifica que el área del gráfico tendrá bordes redondeados. Valor booleano de lectura/escritura.
 type: docs
 weight: 120
 url: /es/aspose.slides.charts/chart/hasroundedcorners/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.charts/chart/hasroundedcorners/
 
 ## Propiedad Chart.HasRoundedCorners
 
-Especifica que el área del gráfico debe tener esquinas redondeadas. Booleano de lectura/escritura.
+Especifica que el área del gráfico tendrá bordes redondeados. Valor booleano de lectura/escritura.
 
 ```csharp
 public bool HasRoundedCorners { get; set; }
@@ -19,6 +19,6 @@ public bool HasRoundedCorners { get; set; }
 
 * clase [Chart](../../chart)
 * espacio de nombres [Aspose.Slides.Charts](../../chart)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

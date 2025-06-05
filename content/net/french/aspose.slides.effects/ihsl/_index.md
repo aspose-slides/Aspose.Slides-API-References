@@ -1,7 +1,7 @@
 ---
 title: IHSL
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente un effet de teinte/saturation/luminance. La teinte, la saturation et la luminance peuvent chacune être ajustées par rapport à leur valeur actuelle.
+second_title: Référence API Aspose.Slides pour .NET
+description: Représente un effet Teinte/Saturation/Luminance. La teinte, la saturation et la luminance peuvent chacune être ajustées par rapport à leur valeur actuelle.
 type: docs
 weight: 3240
 url: /fr/aspose.slides.effects/ihsl/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/ihsl/
 
 ## Interface IHSL
 
-Représente un effet de teinte/saturation/luminance. La teinte, la saturation et la luminance peuvent chacune être ajustées par rapport à leur valeur actuelle.
+Représente un effet Teinte/Saturation/Luminance. La teinte, la saturation et la luminance peuvent chacune être ajustées par rapport à leur valeur actuelle.
 
 ```csharp
 public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransformOperation
@@ -22,7 +22,7 @@ public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransform
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ihsl/asiaccessiblepviobject) { get; } | Permet d'obtenir l'interface de base IAccessiblePVIObject. Lecture seule [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ihsl/asiimagetransformoperation) { get; } | Retourne l'interface IImageTransformOperation. Lecture seule [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### À voir aussi
+### Voir aussi
 
 * interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * interface [IHSLEffectiveData](../ihsleffectivedata)

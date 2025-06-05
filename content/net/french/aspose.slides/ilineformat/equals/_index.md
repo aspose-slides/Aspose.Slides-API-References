@@ -1,6 +1,6 @@
 ---
-title: Égal
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Equals
+second_title: Aspose.Sildes pour .NET API Référence
 description: Détermine si les deux instances de LineFormat sont égales.
 type: docs
 weight: 190

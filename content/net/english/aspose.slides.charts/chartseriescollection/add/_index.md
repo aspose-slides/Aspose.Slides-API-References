@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/chartseriescollection/add/
 ---
+
 ## Add(ChartType) {#add}
 
 Creates new chart series and adds it to the collection.

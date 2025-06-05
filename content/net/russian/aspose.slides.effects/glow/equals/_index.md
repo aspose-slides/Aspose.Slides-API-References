@@ -1,15 +1,15 @@
 ---
-title: Равенство
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Определяет, равен ли указанный Glowaspose.slides.effects/glow текущему Glowaspose.slides.effects/glow.
+title: Equals
+second_title: Aspose.Sildes для .NET API Справочник
+description: Определяет, равен ли заданный Glowaspose.slides.effects/glow текущему Glowaspose.slides.effects/glow.
 type: docs
 weight: 30
 url: /ru/aspose.slides.effects/glow/equals/
 ---
 
-## Метод Glow.Equals
+## Glow.Equals метод
 
-Определяет, равен ли указанный [`Glow`](../../glow) текущему [`Glow`](../../glow).
+Определяет, равен ли заданный [`Glow`](../../glow) текущему [`Glow`](../../glow).
 
 ```csharp
 public override bool Equals(object obj)
@@ -17,11 +17,11 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`Glow`](../../glow) для сравнения. |
+| obj | Object | [`Glow`](../../glow), который нужно сравнить. |
 
 ### Возвращаемое значение
 
-true, если объекты равны; в противном случае false.
+true, если объекты равны; в противном случае - false.
 
 ### См. также
 

@@ -1,6 +1,6 @@
 ---
 title: Format
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt das Format der Trendlinie dar. Lese-/Schreibzugriff auf IFormataspose.slides.charts/iformat.
 type: docs
 weight: 50

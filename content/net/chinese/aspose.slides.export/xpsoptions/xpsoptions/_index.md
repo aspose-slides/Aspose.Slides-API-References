@@ -1,6 +1,6 @@
 ---
 title: XpsOptions
-second_title: Aspose.Slides for .NET API参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 默认构造函数。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.export/xpsoptions/xpsoptions/
 public XpsOptions()
 ```
 
-### 另见
+### 另请参见
 
 * class [XpsOptions](../../xpsoptions)
 * namespace [Aspose.Slides.Export](../../xpsoptions)

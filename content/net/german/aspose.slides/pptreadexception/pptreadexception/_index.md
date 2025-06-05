@@ -1,7 +1,7 @@
 ---
 title: PptReadException
 second_title: Aspose.Slides für .NET API Referenz
-description: Standard-Konstruktor.
+description: Standardkonstruktor.
 type: docs
 weight: 10
 url: /de/aspose.slides/pptreadexception/pptreadexception/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/pptreadexception/pptreadexception/
 
 ## PptReadException() {#constructor}
 
-Standard-Konstruktor.
+Standardkonstruktor.
 
 ```csharp
 public PptReadException()

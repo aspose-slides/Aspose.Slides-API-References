@@ -7,7 +7,7 @@ weight: 150
 url: /de/aspose.slides.animation/coloreffect/
 ---
 
-## ColorEffect-Klasse
+## ColorEffect Klasse
 
 Stellt einen Farbeffekt für ein Animationsverhalten dar.
 
@@ -27,10 +27,10 @@ public class ColorEffect : Behavior, IColorEffect
 | --- | --- |
 | [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Stellt dar, ob Animationsverhalten akkumuliert werden. Lese-/Schreibzugriff [`NullableBool`](../../aspose.slides/nullablebool). |
 | [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Stellt dar, ob das aktuelle Animationsverhalten mit anderen laufenden Animationen kombiniert wird. Lese-/Schreibzugriff [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [By](../../aspose.slides.animation/coloreffect/by) { get; set; } | Beschreibt den relativen Offset-Wert für die Farbenanimation. Lese-/Schreibzugriff [`IColorOffset`](../icoloroffset). |
+| [By](../../aspose.slides.animation/coloreffect/by) { get; set; } | Beschreibt den relativen Offsetwert für die Farbanimation. Lese-/Schreibzugriff [`IColorOffset`](../icoloroffset). |
 | [ColorSpace](../../aspose.slides.animation/coloreffect/colorspace) { get; set; } | Stellt den Farbraum des Verhaltens dar. Lese-/Schreibzugriff [`ColorSpace`](../colorspace). |
-| [Direction](../../aspose.slides.animation/coloreffect/direction) { get; set; } | Gibt an, in welche Richtung der Farbton um das Farbkreis zirkuliert. Lese-/Schreibzugriff [`ColorDirection`](../colordirection). |
-| [From](../../aspose.slides.animation/coloreffect/from) { get; set; } | Dieser Wert wird verwendet, um die Ausgangsfarbe des Verhaltens festzulegen. Lese-/Schreibzugriff [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Direction](../../aspose.slides.animation/coloreffect/direction) { get; set; } | Gibt an, in welche Richtung der Farbton um das Farbrad zirkulieren soll. Lese-/Schreibzugriff [`ColorDirection`](../colordirection). |
+| [From](../../aspose.slides.animation/coloreffect/from) { get; set; } | Dieser Wert wird verwendet, um die Startfarbe des Verhaltens anzugeben. Lese-/Schreibzugriff [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Stellt die Eigenschaften des Verhaltens dar. Nur Lesezugriff [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
 | [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Stellt die Timing-Eigenschaften für das Effektverhalten dar. Lese-/Schreibzugriff [`ITiming`](../itiming). |
 | [To](../../aspose.slides.animation/coloreffect/to) { get; set; } | Beschreibt die resultierende Farbe für die Farbänderung der Animation. Lese-/Schreibzugriff [`IColorFormat`](../../aspose.slides/icolorformat). |

@@ -1,7 +1,7 @@
 ---
 title: X
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit la coordonnée x du coin supérieur gauche de la forme. Lecture/écriture Simple.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie ou définit la coordonnée x du coin supérieur gauche de la forme. Lecture/écriture Single.
 type: docs
 weight: 270
 url: /fr/aspose.slides/ishape/x/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ishape/x/
 
 ## Propriété IShape.X
 
-Renvoie ou définit la coordonnée x du coin supérieur gauche de la forme. Lecture/écriture Simple.
+Renvoie ou définit la coordonnée x du coin supérieur gauche de la forme. Lecture/écriture Single.
 
 ```csharp
 public float X { get; set; }
@@ -17,7 +17,7 @@ public float X { get; set; }
 
 ### Remarques
 
-La valeur renvoyée est toujours définie (n'est pas float.NaN). La valeur assignée doit être définie (pas float.NaN). Vous pouvez définir des valeurs indéfinies pour les propriétés d'instance RawFrame.
+La valeur retournée est toujours définie (n'est pas float.NaN). La valeur assignée doit être définie (pas float.NaN). Vous pouvez définir des valeurs indéfinies pour les propriétés de l'instance RawFrame.
 
 ### Voir aussi
 

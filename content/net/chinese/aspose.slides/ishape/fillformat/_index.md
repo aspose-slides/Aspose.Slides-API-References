@@ -1,6 +1,6 @@
 ---
-title: 填充格式
-second_title: Aspose.Slides for .NET API 参考
+title: FillFormat
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回包含形状填充格式属性的 FillFormat 对象。只读 IFillFormataspose.slides/ifillformat。
 type: docs
 weight: 90
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ishape/fillformat/
 public IFillFormat FillFormat { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IFillFormat](../../ifillformat)
 * 接口 [IShape](../../ishape)

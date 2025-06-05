@@ -1,5 +1,5 @@
 ---
-title: Élément
+title: Item
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie un point à l'index spécifié.
 type: docs
@@ -7,7 +7,7 @@ weight: 30
 url: /fr/aspose.slides.animation/ipointcollection/item/
 ---
 
-## Indexeur IPointCollection
+## IPointCollection indexer
 
 Renvoie un point à l'index spécifié.
 

@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.charts/datalabelformat/showbubblesize/
 ---
+
 ## DataLabelFormat.ShowBubbleSize property
 
 Represents a specified chart's data label bubble size value display behavior. True displays the bubble size value. False to hide. Read/write Boolean.

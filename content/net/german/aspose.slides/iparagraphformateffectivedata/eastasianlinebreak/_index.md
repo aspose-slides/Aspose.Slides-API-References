@@ -1,7 +1,7 @@
 ---
 title: EastAsianLineBreak
-second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob der ostasiatische Zeilenumbruch in einem Absatz verwendet wird. Nur-Lesen Boolean.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Bestimmt, ob der ostasiatische Zeilenumbruch in einem Absatz verwendet wird. Nur lesbarer Boolean.
 type: docs
 weight: 60
 url: /de/aspose.slides/iparagraphformateffectivedata/eastasianlinebreak/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iparagraphformateffectivedata/eastasianlinebreak/
 
 ## IParagraphFormatEffectiveData.EastAsianLineBreak-Eigenschaft
 
-Bestimmt, ob der ostasiatische Zeilenumbruch in einem Absatz verwendet wird. Nur-Lesen Boolean.
+Bestimmt, ob der ostasiatische Zeilenumbruch in einem Absatz verwendet wird. Nur lesbarer Boolean.
 
 ```csharp
 public bool EastAsianLineBreak { get; }

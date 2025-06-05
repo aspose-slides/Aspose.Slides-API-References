@@ -1,7 +1,7 @@
 ---
 title: AsIAccessiblePVIObject
-second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基础 IAccessiblePVIObject 接口。只读 IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1。
+second_title: Aspose.Slides for .NET API Reference
+description: 允许获取基本的 IAccessiblePVIObject 接口。只读 IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1。
 type: docs
 weight: 10
 url: /zh/aspose.slides.effects/ialphabilevel/asiaccessiblepviobject/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/ialphabilevel/asiaccessiblepviobject/
 
 ## IAlphaBiLevel.AsIAccessiblePVIObject 属性
 
-允许获取基础 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1)。
+允许获取基本的 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1)。
 
 ```csharp
 public IAccessiblePVIObject<IAlphaBiLevelEffectiveData> AsIAccessiblePVIObject { get; }

@@ -1,6 +1,6 @@
 ---
 title: IMasterHandoutSlide
-second_title: Aspose.Sildes для справки по API .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет мастер-слайд для раздаточных материалов.
 type: docs
 weight: 6150
@@ -17,13 +17,13 @@ public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | Позволяет получить базовый интерфейс IBaseSlide. Только для чтения [`IBaseSlide`](../ibaseslide). |
 | [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | Возвращает интерфейс IMasterThemeable. Только для чтения [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Возвращает менеджер заголовков и колонтитулов мастер-слайда раздаточного материала. Только для чтения [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
+| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Возвращает менеджер заголовков и подвалов мастер-слайда раздаточных материалов. Только для чтения [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IBaseSlide](../ibaseslide)
 * интерфейс [IMasterThemeable](../../aspose.slides.theme/imasterthemeable)

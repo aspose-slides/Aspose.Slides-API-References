@@ -1,6 +1,6 @@
 ---
-title: 宽度
-second_title: Aspose.Slides for .NET API 参考
+title: Width
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回图像的宽度。只读 Int32。
 type: docs
 weight: 60

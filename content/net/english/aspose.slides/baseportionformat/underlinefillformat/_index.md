@@ -6,6 +6,7 @@ type: docs
 weight: 250
 url: /aspose.slides/baseportionformat/underlinefillformat/
 ---
+
 ## BasePortionFormat.UnderlineFillFormat property
 
 Returns the underline line FillFormat properties. No inheritance applied. Read-only [`IFillFormat`](../../ifillformat).

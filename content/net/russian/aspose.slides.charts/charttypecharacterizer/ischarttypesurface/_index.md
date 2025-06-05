@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeSurface
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает true, если chartType является одним из подтипов Surface. Набор подтипов соответствует соответствующему набору в PowerPoint см. диалоговое окно "Изменить тип диаграммы" в PowerPoint Surface3D, WireframeSurface3D, Contour, WireframeContour.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает true, если chartType является одним из подтипов Surface. Набор подтипов соответствует соответствующему набору в PowerPoint см. диалог "Изменение типа диаграммы" в PowerPoint Surface3D, WireframeSurface3D, Contour, WireframeContour.
 type: docs
 weight: 150
 url: /ru/aspose.slides.charts/charttypecharacterizer/ischarttypesurface/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.charts/charttypecharacterizer/ischarttypesurface/
 
 ## ChartTypeCharacterizer.IsChartTypeSurface метод
 
-Возвращает true, если chartType является одним из подтипов Surface. Набор подтипов соответствует соответствующему набору в PowerPoint (см. диалоговое окно "Изменить тип диаграммы" в PowerPoint): Surface3D, WireframeSurface3D, Contour, WireframeContour.
+Возвращает true, если chartType является одним из подтипов Surface. Набор подтипов соответствует соответствующему набору в PowerPoint (см. диалог "Изменение типа диаграммы" в PowerPoint): Surface3D, WireframeSurface3D, Contour, WireframeContour.
 
 ```csharp
 public static bool IsChartTypeSurface(ChartType chartType)
 ```
 
-### См. также
+### См. Также
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

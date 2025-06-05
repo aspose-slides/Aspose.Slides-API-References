@@ -1,13 +1,13 @@
 ---
 title: CanWrite
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Получает значение, указывающее, поддерживает ли текущий поток запись. Только для чтения логическое значение.
 type: docs
 weight: 40
 url: /ru/aspose.slides/streamwrapper/canwrite/
 ---
 
-## Свойство StreamWrapper.CanWrite
+## StreamWrapper.CanWrite свойство
 
 Получает значение, указывающее, поддерживает ли текущий поток запись. Только для чтения логическое значение.
 

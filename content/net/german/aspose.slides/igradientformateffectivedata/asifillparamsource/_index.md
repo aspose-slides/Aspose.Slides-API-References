@@ -1,7 +1,7 @@
 ---
 title: AsIFillParamSource
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf die Basis-IFillParamSource-Schnittstelle. Nur lesbare IFillParamSourceaspose.slides/ifillparamsource.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ermöglicht den Zugriff auf die grundlegende IFillParamSource-Schnittstelle. Schreibgeschützte IFillParamSource aspose.slides/ifillparamsource.
 type: docs
 weight: 10
 url: /de/aspose.slides/igradientformateffectivedata/asifillparamsource/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/igradientformateffectivedata/asifillparamsource/
 
 ## IGradientFormatEffectiveData.AsIFillParamSource-Eigenschaft
 
-Ermöglicht den Zugriff auf die Basis-IFillParamSource-Schnittstelle. Nur lesbare [`IFillParamSource`](../../ifillparamsource).
+Ermöglicht den Zugriff auf die grundlegende IFillParamSource-Schnittstelle. Schreibgeschützte [`IFillParamSource`](../../ifillparamsource).
 
 ```csharp
 public IFillParamSource AsIFillParamSource { get; }

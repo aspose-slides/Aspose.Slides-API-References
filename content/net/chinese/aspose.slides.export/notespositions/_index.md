@@ -1,7 +1,7 @@
 ---
 title: NotesPositions
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示将注释呈现到导出文档中的规则
+description: 表示将备注呈现到导出文档的规则
 type: docs
 weight: 4110
 url: /zh/aspose.slides.export/notespositions/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/notespositions/
 
 ## NotesPositions 枚举
 
-表示将注释呈现到导出文档中的规则
+表示将备注呈现到导出文档的规则
 
 ```csharp
 public enum NotesPositions
@@ -19,11 +19,11 @@ public enum NotesPositions
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 指定不应显示注释。 |
-| BottomFull | `1` | 指定应使用额外页面完整显示注释，视需要而定。 |
-| BottomTruncated | `2` | 指定注释应仅显示在一页上。 |
+| None | `0` | 指定备注不应显示。 |
+| BottomFull | `1` | 指定备注应充分显示，并根据需要使用额外页面。 |
+| BottomTruncated | `2` | 指定备注应仅在一页中显示。 |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)
 * 程序集 [Aspose.Slides](../../)

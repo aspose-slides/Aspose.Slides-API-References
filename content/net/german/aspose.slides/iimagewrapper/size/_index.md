@@ -1,7 +1,7 @@
 ---
-title: Größe
+title: Size
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Breite und Höhe in Pixeln des Bildes, schreibgeschützte Size, zurück.
+description: Erhält die Breite und Höhe in Pixeln des Bildes. Schreibgeschütztes Size.
 type: docs
 weight: 30
 url: /de/aspose.slides/iimagewrapper/size/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/iimagewrapper/size/
 
 ## IImageWrapper.Size-Eigenschaft
 
-Gibt die Breite und Höhe in Pixeln des Bildes, schreibgeschützte `Size`, zurück.
+Erhält die Breite und Höhe, in Pixeln, des Bildes. Schreibgeschütztes `Size`.
 
 ```csharp
 public Size Size { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IImageWrapper](../../iimagewrapper)
 * Namespace [Aspose.Slides](../../iimagewrapper)

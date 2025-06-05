@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/shapestyle/linestyleindex/
 ---
+
 ## ShapeStyle.LineStyleIndex property
 
 Returns or sets line's column index in a style matrix. Read/write UInt16.

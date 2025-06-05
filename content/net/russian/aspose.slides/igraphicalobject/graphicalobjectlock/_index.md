@@ -1,7 +1,7 @@
 ---
 title: GraphicalObjectLock
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает блокировки объектов. Только для чтения IGraphicalObjectLockaspose.slides/igraphicalobjectlock.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает блокировки форм. Только для чтения IGraphicalObjectLockaspose.slides/igraphicalobjectlock.
 type: docs
 weight: 20
 url: /ru/aspose.slides/igraphicalobject/graphicalobjectlock/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/igraphicalobject/graphicalobjectlock/
 
 ## Свойство IGraphicalObject.GraphicalObjectLock
 
-Возвращает блокировки объекта. Только для чтения [`IGraphicalObjectLock`](../../igraphicalobjectlock).
+Возвращает блокировки формы. Только для чтения [`IGraphicalObjectLock`](../../igraphicalobjectlock).
 
 ```csharp
 public IGraphicalObjectLock GraphicalObjectLock { get; }

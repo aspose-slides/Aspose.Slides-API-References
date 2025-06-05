@@ -1,6 +1,6 @@
 ---
-title: 计数
-second_title: Aspose.Slides for .NET API 参考
+title: Count
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取范围内实际定义的字体数量。只读 Int32。
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/fontfallbackrule/count/
 public int Count { get; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * class [FontFallBackRule](../../fontfallbackrule)
 * namespace [Aspose.Slides](../../fontfallbackrule)

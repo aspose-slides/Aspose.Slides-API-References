@@ -1,7 +1,7 @@
 ---
 title: Rewind
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Cet attribut spécifie si l'effet sera rembobiné une fois la lecture terminée. Booléen en lecture/écriture.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Cet attribut spécifie si l'effet sera rembobiné après lecture. Booléen en lecture/écriture.
 type: docs
 weight: 100
 url: /fr/aspose.slides.animation/timing/rewind/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/timing/rewind/
 
 ## Propriété Timing.Rewind
 
-Cet attribut spécifie si l'effet sera rembobiné une fois la lecture terminée. Booléen en lecture/écriture.
+Cet attribut spécifie si l'effet sera rembobiné après lecture. Booléen en lecture/écriture.
 
 ```csharp
 public bool Rewind { get; set; }
@@ -20,13 +20,13 @@ public bool Rewind { get; set; }
 ```csharp
 using (Presentation presentation = new Presentation("demo.pptx"))
 {
-    // Obtenez la séquence d'effets pour la première diapositive
+    // Obtenez la séquence des effets pour la première diapositive
     ISequence effectsSequence = presentation.Slides[0].Timeline.MainSequence;
 
     // Obtenez le premier effet de la séquence principale.
     IEffect effect = effectsSequence[0];
 
-    // Activez le Timing/Rewind de l'effet.
+    // Activez le timing/rembobinage de l'effet.
     effect.Timing.Rewind = true;
 }
 ```

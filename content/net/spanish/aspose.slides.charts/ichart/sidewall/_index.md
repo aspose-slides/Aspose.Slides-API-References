@@ -1,13 +1,13 @@
 ---
 title: SideWall
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Devuelve un objeto que permite cambiar el formato de la pared lateral de un gráfico 3D. Solo lectura IChartWallaspose.slides.charts/ichartwall.
 type: docs
 weight: 200
 url: /es/aspose.slides.charts/ichart/sidewall/
 ---
 
-## Propiedad IChart.SideWall
+## IChart.SideWall propiedad
 
 Devuelve un objeto que permite cambiar el formato de la pared lateral de un gráfico 3D. Solo lectura [`IChartWall`](../../ichartwall).
 
@@ -15,11 +15,11 @@ Devuelve un objeto que permite cambiar el formato de la pared lateral de un grá
 public IChartWall SideWall { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IChartWall](../../ichartwall)
 * interfaz [IChart](../../ichart)
 * espacio de nombres [Aspose.Slides.Charts](../../ichart)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

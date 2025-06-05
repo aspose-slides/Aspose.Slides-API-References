@@ -1,6 +1,6 @@
 ---
 title: GetHashCode
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: type docs
 weight: 40
 url: /ru/aspose.slides/gradientstopeffectivedata/gethashcode/

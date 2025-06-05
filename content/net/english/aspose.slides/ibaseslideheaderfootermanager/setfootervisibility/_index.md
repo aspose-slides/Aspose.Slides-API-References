@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/ibaseslideheaderfootermanager/setfootervisibility/
 ---
+
 ## IBaseSlideHeaderFooterManager.SetFooterVisibility method
 
 Changes slide footer placeholder visibility.

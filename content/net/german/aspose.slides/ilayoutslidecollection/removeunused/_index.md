@@ -1,13 +1,13 @@
 ---
 title: RemoveUnused
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Entfernt ungenutzte Layoutfolien, deren HasDependingSlides false ist.
 type: docs
 weight: 40
 url: /de/aspose.slides/ilayoutslidecollection/removeunused/
 ---
 
-## ILayoutSlideCollection.RemoveUnused Methode
+## ILayoutSlideCollection.RemoveUnused-Methode
 
 Entfernt ungenutzte Layoutfolien (Layoutfolien, deren HasDependingSlides false ist).
 
@@ -15,7 +15,7 @@ Entfernt ungenutzte Layoutfolien (Layoutfolien, deren HasDependingSlides false i
 public void RemoveUnused()
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ILayoutSlideCollection](../../ilayoutslidecollection)
 * Namespace [Aspose.Slides](../../ilayoutslidecollection)

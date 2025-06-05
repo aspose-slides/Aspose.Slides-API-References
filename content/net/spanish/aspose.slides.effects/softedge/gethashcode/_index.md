@@ -1,15 +1,15 @@
 ---
 title: GetHashCode
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Sirve como una función hash para un tipo particular.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Sirve como una función de hash para un tipo particular.
 type: docs
 weight: 40
 url: /es/aspose.slides.effects/softedge/gethashcode/
 ---
 
-## Método SoftEdge.GetHashCode
+## SoftEdge.GetHashCode método
 
-Sirve como una función hash para un tipo particular.
+Sirve como una función de hash para un tipo particular.
 
 ```csharp
 public override int GetHashCode()
@@ -23,6 +23,6 @@ Un código hash para el objeto actual.
 
 * clase [SoftEdge](../../softedge)
 * espacio de nombres [Aspose.Slides.Effects](../../softedge)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

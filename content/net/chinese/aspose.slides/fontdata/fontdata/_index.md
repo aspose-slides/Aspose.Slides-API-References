@@ -1,7 +1,7 @@
 ---
 title: FontData
-second_title: Aspose.Slides for .NET API 参考
-description: 创建一个带有指定字体名称的新 FontData 对象。
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建一个具有指定字体名称的新 FontData 对象。
 type: docs
 weight: 10
 url: /zh/aspose.slides/fontdata/fontdata/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/fontdata/fontdata/
 
 ## FontData 构造函数
 
-创建一个带有指定字体名称的新 FontData 对象。
+创建一个具有指定字体名称的新 FontData 对象。
 
 ```csharp
 public FontData(string fontName)

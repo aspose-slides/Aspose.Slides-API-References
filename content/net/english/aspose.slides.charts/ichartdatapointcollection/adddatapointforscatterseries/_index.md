@@ -6,6 +6,7 @@ type: docs
 weight: 180
 url: /aspose.slides.charts/ichartdatapointcollection/adddatapointforscatterseries/
 ---
+
 ## AddDataPointForScatterSeries(IChartDataCell, IChartDataCell) {#adddatapointforscatterseries}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer.IsChartTypeScatter(ChartType) method).

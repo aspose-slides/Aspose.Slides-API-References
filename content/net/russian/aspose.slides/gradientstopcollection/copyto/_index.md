@@ -1,13 +1,13 @@
 ---
 title: CopyTo
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Slides для .NET API Справочник
 description: Копирует все элементы из коллекции в указанный массив.
 type: docs
 weight: 70
 url: /ru/aspose.slides/gradientstopcollection/copyto/
 ---
 
-## Метод GradientStopCollection.CopyTo
+## GradientStopCollection.CopyTo метод
 
 Копирует все элементы из коллекции в указанный массив.
 

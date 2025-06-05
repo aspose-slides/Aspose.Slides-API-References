@@ -1,7 +1,7 @@
 ---
 title: NotesSize
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente une taille de diapositive de notes.
+description: Représente la taille d'une diapositive de notes.
 type: docs
 weight: 8860
 url: /fr/aspose.slides/notessize/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/notessize/
 
 ## Classe NotesSize
 
-Représente une taille de diapositive de notes.
+Représente la taille d'une diapositive de notes.
 
 ```csharp
 public class NotesSize : INotesSize
@@ -25,7 +25,7 @@ public class NotesSize : INotesSize
 
 | Nom | Description |
 | --- | --- |
-| [Size](../../aspose.slides/notessize/size) { get; set; } | Renvoie ou définit la taille en points. Lecture/écriture SizeF. |
+| [Size](../../aspose.slides/notessize/size) { get; set; } | Retourne ou définit la taille en points. Lecture/écriture SizeF. |
 
 ### Voir aussi
 

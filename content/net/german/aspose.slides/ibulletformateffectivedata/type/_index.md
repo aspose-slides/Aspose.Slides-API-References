@@ -1,7 +1,7 @@
 ---
-title: Typ
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Bullet-Typ eines Absatzes zurück. Schreibgeschützter BulletTypeaspose.slides/bullettype.
+title: Type
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Aufzählungstyp eines Absatzes zurück. Nur lesbarer BulletType aspose.slides/bullettype.
 type: docs
 weight: 100
 url: /de/aspose.slides/ibulletformateffectivedata/type/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ibulletformateffectivedata/type/
 
 ## IBulletFormatEffectiveData.Type-Eigenschaft
 
-Gibt den Bullet-Typ eines Absatzes zurück. Schreibgeschützt [`BulletType`](../../bullettype).
+Gibt den Aufzählungstyp eines Absatzes zurück. Nur lesbar [`BulletType`](../../bullettype).
 
 ```csharp
 public BulletType Type { get; }

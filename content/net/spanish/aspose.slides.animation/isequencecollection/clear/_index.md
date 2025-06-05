@@ -1,13 +1,13 @@
 ---
-title: Limpiar
-second_title: Referencia de la API Aspose.Slides para .NET
+title: Clear
+second_title: Aspose.Sildes para referencia de API de .NET
 description: Elimina todas las secuencias de una colección.
 type: docs
 weight: 50
 url: /es/aspose.slides.animation/isequencecollection/clear/
 ---
 
-## Método ISequenceCollection.Clear
+## ISequenceCollection.Clear method
 
 Elimina todas las secuencias de una colección.
 
@@ -15,10 +15,10 @@ Elimina todas las secuencias de una colección.
 public void Clear()
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [ISequenceCollection](../../isequencecollection)
 * espacio de nombres [Aspose.Slides.Animation](../../isequencecollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
-<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

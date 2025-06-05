@@ -1,7 +1,7 @@
 ---
 title: Accent3
-second_title: Aspose.Slides for .NET API 参考
-description: 方案中的第三个强调色。只读颜色。
+second_title: Aspose.Sildes for .NET API Reference
+description: 方案中的第三种强调颜色。只读颜色。
 type: docs
 weight: 30
 url: /zh/aspose.slides.theme/icolorschemeeffectivedata/accent3/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.theme/icolorschemeeffectivedata/accent3/
 
 ## IColorSchemeEffectiveData.Accent3 属性
 
-方案中的第三个强调色。只读颜色。
+方案中的第三种强调颜色。只读颜色。
 
 ```csharp
 public Color Accent3 { get; }
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [IColorSchemeEffectiveData](../../icolorschemeeffectivedata)
 * 命名空间 [Aspose.Slides.Theme](../../icolorschemeeffectivedata)

@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Supprime l'élément à l'index spécifié de la collection.
 type: docs
 weight: 50
 url: /fr/aspose.slides/imasterslidecollection/removeat/
 ---
 
-## Méthode IMasterSlideCollection.RemoveAt
+## IMasterSlideCollection.RemoveAt méthode
 
 Supprime l'élément à l'index spécifié de la collection.
 

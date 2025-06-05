@@ -1,7 +1,7 @@
 ---
 title: ChartDataSourceType
 second_title: Aspose.Slides для .NET API Справочник
-description: Представляет тип источника данных для графика
+description: Представляет тип источника данных диаграммы
 type: docs
 weight: 1290
 url: /ru/aspose.slides.charts/chartdatasourcetype/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/chartdatasourcetype/
 
 ## Перечисление ChartDataSourceType
 
-Представляет тип источника данных для графика
+Представляет тип источника данных диаграммы
 
 ```csharp
 public enum ChartDataSourceType

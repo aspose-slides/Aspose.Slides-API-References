@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.animation/pointcollection/getenumerator/
 ---
+
 ## PointCollection.GetEnumerator method
 
 Returns an enumerator that iterates through the collection.

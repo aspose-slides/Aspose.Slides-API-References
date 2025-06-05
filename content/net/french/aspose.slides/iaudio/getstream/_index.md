@@ -1,7 +1,7 @@
 ---
 title: GetStream
-second_title: Aspose.Sildes pour référence API .NET
-description: Renvoie un flux Stream pour la lecture. Utilisez 'using' ou fermez le flux après utilisation.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Retourne un flux Stream pour la lecture. Utilisez using ou fermez le flux après utilisation.
 type: docs
 weight: 30
 url: /fr/aspose.slides/iaudio/getstream/
@@ -9,17 +9,17 @@ url: /fr/aspose.slides/iaudio/getstream/
 
 ## Méthode IAudio.GetStream
 
-Renvoie un flux Stream pour la lecture. Utilisez 'using' ou fermez le flux après utilisation.
+Retourne un flux Stream pour la lecture. Utilisez 'using' ou fermez le flux après utilisation.
 
 ```csharp
 public Stream GetStream()
 ```
 
-### Valeur de retour
+### Valeur de Retour
 
-Stream pour la lecture.
+Flux pour la lecture.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IAudio](../../iaudio)
 * namespace [Aspose.Slides](../../iaudio)

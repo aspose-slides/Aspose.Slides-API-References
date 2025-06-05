@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/slide/layoutslide/
 ---
+
 ## Slide.LayoutSlide property
 
 Returns or sets the layout slide for the current slide. Read/write [`ILayoutSlide`](../../ilayoutslide).

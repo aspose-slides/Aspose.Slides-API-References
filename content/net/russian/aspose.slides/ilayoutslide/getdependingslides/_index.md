@@ -1,6 +1,6 @@
 ---
 title: GetDependingSlides
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Возвращает массив со всеми слайдами, которые зависят от этого макета слайда.
 type: docs
 weight: 80
@@ -15,11 +15,11 @@ url: /ru/aspose.slides/ilayoutslide/getdependingslides/
 public ISlide[] GetDependingSlides()
 ```
 
-### Возвращаемое значение
+### Значение Возврата
 
-Массив со всеми слайдами, которые зависят от этого макета слайда
+Массив со всеми слайдами, которые зависят от этого макета слайда.
 
-### Смотрите также
+### См. также
 
 * интерфейс [ISlide](../../islide)
 * интерфейс [ILayoutSlide](../../ilayoutslide)

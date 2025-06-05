@@ -1,6 +1,6 @@
 ---
 title: IGenericCollectionT
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Slides for .NET API Reference
 description: 辅助通用集合接口。
 type: docs
 weight: 5760
@@ -24,7 +24,7 @@ public interface IGenericCollection<T> : ICollection, IEnumerable<T>
 | 名称 | 描述 |
 | --- | --- |
 | [AsICollection](../../aspose.slides/igenericcollection`1/asicollection) { get; } | 返回 ICollection 接口。 |
-| [AsIEnumerable](../../aspose.slides/igenericcollection`1/asienumerable) { get; } | 返回 IEnumerable 接口。只读 IEnumerable。 |
+| [AsIEnumerable](../../aspose.slides/igenericcollection`1/asienumerable) { get; } | 返回 IEnumerable 接口。仅限读取的 IEnumerable。 |
 
 ### 另请参阅
 

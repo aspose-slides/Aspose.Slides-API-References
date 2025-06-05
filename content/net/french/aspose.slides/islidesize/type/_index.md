@@ -1,7 +1,7 @@
 ---
 title: Type
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit le type de taille de diapositive. L'attribution de toute valeur sauf Custom changera Sizeaspose.slides/islidesize/size en conséquence mais conservera Orientationaspose.slides/islidesize/orientation intact. Lecture/écriture SlideSizeTypeaspose.slides/slidesizetype.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie ou définit le type de taille de diapositive. L'attribution de toute valeur sauf Custom modifiera Size../size en conséquence, mais conservera Orientation../orientation intact. Lecture/écriture de SlideSizeTypeaspose.slides/slidesizetype.
 type: docs
 weight: 30
 url: /fr/aspose.slides/islidesize/type/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/islidesize/type/
 
 ## Propriété ISlideSize.Type
 
-Renvoie ou définit le type de taille de diapositive. L'attribution de toute valeur sauf Custom changera [`Size`](../size) en conséquence, mais conservera [`Orientation`](../orientation) intact. Lecture/écriture [`SlideSizeType`](../../slidesizetype).
+Renvoie ou définit le type de taille de diapositive. L'attribution de toute valeur sauf Custom modifiera [`Size`](../size) en conséquence, mais conservera [`Orientation`](../orientation) intact. Lecture/écriture de [`SlideSizeType`](../../slidesizetype).
 
 ```csharp
 public SlideSizeType Type { get; }

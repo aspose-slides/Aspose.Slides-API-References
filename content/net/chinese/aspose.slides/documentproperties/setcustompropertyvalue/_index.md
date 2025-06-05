@@ -20,7 +20,7 @@ public void SetCustomPropertyValue(string name, bool value)
 | name | String | 要设置的自定义属性名称 |
 | value | Boolean | 自定义属性值 |
 
-### 另见
+### 另请参阅
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)
@@ -41,7 +41,7 @@ public void SetCustomPropertyValue(string name, int value)
 | name | String | 要设置的自定义属性名称 |
 | value | Int32 | 自定义属性值 |
 
-### 另见
+### 另请参阅
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)
@@ -62,7 +62,7 @@ public void SetCustomPropertyValue(string name, DateTime value)
 | name | String | 要设置的自定义属性名称 |
 | value | DateTime | 自定义属性值 |
 
-### 另见
+### 另请参阅
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)
@@ -83,7 +83,7 @@ public void SetCustomPropertyValue(string name, string value)
 | name | String | 要设置的自定义属性名称 |
 | value | String | 自定义属性值 |
 
-### 另见
+### 另请参阅
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)
@@ -93,7 +93,7 @@ public void SetCustomPropertyValue(string name, string value)
 
 ## SetCustomPropertyValue(string, float) {#setcustompropertyvalue_3}
 
-设置命名的浮点数自定义属性。
+设置命名的浮点自定义属性。
 
 ```csharp
 public void SetCustomPropertyValue(string name, float value)
@@ -104,7 +104,7 @@ public void SetCustomPropertyValue(string name, float value)
 | name | String | 要设置的自定义属性名称 |
 | value | Single | 自定义属性值 |
 
-### 另见
+### 另请参阅
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)
@@ -125,7 +125,7 @@ public void SetCustomPropertyValue(string name, double value)
 | name | String | 要设置的自定义属性名称 |
 | value | Double | 自定义属性值 |
 
-### 另见
+### 另请参阅
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)

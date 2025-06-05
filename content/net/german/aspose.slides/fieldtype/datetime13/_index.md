@@ -1,21 +1,21 @@
 ---
 title: DateTime13
 second_title: Aspose.Slides für .NET API-Referenz
-description: Aktuelles Datum und Uhrzeit im dreizehnten vordefinierten Format hhmmss AM/PM für Englisch. Schreibgeschützter FieldTypeaspose.slides/fieldtype.
+description: Aktuelles Datum und Uhrzeit in einem dreizehnten vordefinierten Format hhmmss AM/PM für Englisch. Schreibgeschützter FieldType aspose.slides/fieldtype.
 type: docs
 weight: 70
 url: /de/aspose.slides/fieldtype/datetime13/
 ---
 
-## FieldType.DateTime13-Eigenschaft
+## FieldType.DateTime13 Eigenschaft
 
-Aktuelles Datum und Uhrzeit im dreizehnten vordefinierten Format (hh:mm:ss AM/PM für Englisch). Schreibgeschützt [`FieldType`](../../fieldtype).
+Aktuelles Datum und Uhrzeit in einem dreizehnten vordefinierten Format (hh:mm:ss AM/PM für Englisch). Schreibgeschützter [`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType DateTime13 { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [FieldType](../../fieldtype)
 * Namespace [Aspose.Slides](../../fieldtype)

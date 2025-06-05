@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.animation/ibehaviorcollection/removeat/
 ---
+
 ## IBehaviorCollection.RemoveAt method
 
 Removes behavior from a collection at the specified index.

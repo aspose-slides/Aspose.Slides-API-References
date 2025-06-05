@@ -1,7 +1,7 @@
 ---
 title: GetRect
-second_title: Справочная информация по API Aspose.Slides для .NET
-description: Получите координаты прямоугольника, ограничивающего порцию. Прямоугольник включает все строки текста в порции, включая пустые.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получить координаты прямоугольника, который охватывает порцию. Прямоугольник включает все строки текста в порции, включая пустые.
 type: docs
 weight: 70
 url: /ru/aspose.slides/portion/getrect/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/portion/getrect/
 
 ## Метод Portion.GetRect
 
-Получите координаты прямоугольника, который ограничивает порцию. Прямоугольник включает все строки текста в порции, включая пустые.
+Получить координаты прямоугольника, который охватывает порцию. Прямоугольник включает все строки текста в порции, включая пустые.
 
 ```csharp
 public RectangleF GetRect()
@@ -28,7 +28,7 @@ using (Presentation pres = new Presentation())
 
    shape.TextFrame.Paragraphs[0].Portions.Clear();
    var portion0 = new Portion("Некоторый текст");
-   var portion1 = new Portion("Текст GetRect");
+   var portion1 = new Portion("GetRect текст");
 
    shape.TextFrame.Paragraphs[0].Portions.Add(portion0);
    shape.TextFrame.Paragraphs[0].Portions.Add(portion1);
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation())
 
 ```
 
-### Также посмотрите
+### См. также
 
 * класс [Portion](../../portion)
 * пространство имен [Aspose.Slides](../../portion)

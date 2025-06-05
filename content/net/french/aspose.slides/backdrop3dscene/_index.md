@@ -1,7 +1,7 @@
 ---
 title: Backdrop3DScene
-second_title: Référence API Aspose.Slides pour .NET
-description: Définit un plan dans lequel des effets tels que la lueur et l'ombre sont appliqués par rapport à la forme à laquelle ils sont appliqués.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Définit un plan dans lequel des effets tels que l'éclat et l'ombre sont appliqués par rapport à la forme à laquelle ils sont appliqués.
 type: docs
 weight: 840
 url: /fr/aspose.slides/backdrop3dscene/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/backdrop3dscene/
 
 ## Classe Backdrop3DScene
 
-Définit un plan dans lequel des effets, tels que la lueur et l'ombre, sont appliqués par rapport à la forme à laquelle ils sont appliqués.
+Définit un plan dans lequel des effets, tels que l'éclat et l'ombre, sont appliqués par rapport à la forme à laquelle ils sont appliqués.
 
 ```csharp
 public sealed class Backdrop3DScene : PVIObject, IBackdrop3DScene
@@ -19,10 +19,10 @@ public sealed class Backdrop3DScene : PVIObject, IBackdrop3DScene
 
 | Nom | Description |
 | --- | --- |
-| [AnchorPoint](../../aspose.slides/backdrop3dscene/anchorpoint) { get; set; } | Renvoie ou définit un point dans l'espace 3D. Ce point est le point dans l'espace qui ancre le plan de fond. Point 3D représenté par un tableau de 3 valeurs float qui défini les coordonnées X, Y et Z. Lecture/écriture Single[]. |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface de base IPresentationComponent. Lecture seule [`IPresentationComponent`](../ipresentationcomponent). |
-| [NormalVector](../../aspose.slides/backdrop3dscene/normalvector) { get; set; } | Renvoie ou définit un vecteur normal. Pour être plus précis, cet attribut définit un vecteur normal à la face du plan de fond. Vecteur représenté par un tableau de 3 valeurs float qui définissent les coordonnées X, Y et Z. Lecture/écriture Single[]. |
-| [UpVector](../../aspose.slides/backdrop3dscene/upvector) { get; set; } | Renvoie ou définit un vecteur représentant le haut. Pour être plus précis, cet attribut définit un vecteur représentant le haut par rapport à la face du plan de fond. Vecteur représenté par un tableau de 3 valeurs float qui définissent les coordonnées X, Y et Z. Lecture/écriture Single[]. |
+| [AnchorPoint](../../aspose.slides/backdrop3dscene/anchorpoint) { get; set; } | Renvoie ou définit un point dans l'espace 3D. Ce point est le point dans l'espace qui ancre le plan de fond. 3D point représenté par un tableau de 3 valeurs flottantes qui définissent les coordonnées X, Y et Z. Lecture/écriture Single[]. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface de base IPresentationComponent. En lecture seule [`IPresentationComponent`](../ipresentationcomponent). |
+| [NormalVector](../../aspose.slides/backdrop3dscene/normalvector) { get; set; } | Renvoie ou définit un vecteur normal. Pour être plus précis, cet attribut définit un vecteur normal à la face du plan de fond. Vecteur représenté par un tableau de 3 valeurs flottantes qui définissent les coordonnées X, Y et Z. Lecture/écriture Single[]. |
+| [UpVector](../../aspose.slides/backdrop3dscene/upvector) { get; set; } | Renvoie ou définit un vecteur représentant le haut. Pour être plus précis, cet attribut définit un vecteur représentant le haut par rapport à la face du plan de fond. Vecteur représenté par un tableau de 3 valeurs flottantes qui définissent les coordonnées X, Y et Z. Lecture/écriture Single[]. |
 
 ## Méthodes
 
@@ -31,7 +31,7 @@ public sealed class Backdrop3DScene : PVIObject, IBackdrop3DScene
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compare avec l'objet spécifié. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Renvoie le code de hachage. |
 
-### Voir Aussi
+### Voir aussi
 
 * classe [PVIObject](../pviobject)
 * interface [IBackdrop3DScene](../ibackdrop3dscene)

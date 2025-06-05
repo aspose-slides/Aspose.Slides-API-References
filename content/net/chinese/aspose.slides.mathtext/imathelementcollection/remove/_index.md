@@ -1,6 +1,6 @@
 ---
-title: 移除
-second_title: Aspose.Slides for .NET API 参考
+title: Remove
+second_title: Aspose.Sildes for .NET API Reference
 description: 从集合中移除特定对象的第一次出现。
 type: docs
 weight: 100
@@ -21,7 +21,7 @@ public bool Remove(IMathElement item)
 
 ### 返回值
 
-如果 *item* 成功从集合中移除，则返回 true；否则返回 false。如果在原始集合中找不到 *item*，此方法也会返回 false。
+如果 *item* 成功从集合中移除，则返回 true；否则返回 false。如果 *item* 在原始集合中未找到，则此方法也会返回 false。
 
 ### 示例
 
@@ -36,7 +36,7 @@ collection.Add(new MathRadical(new MathematicalText("x"), new MathematicalText("
 collection.Remove(plusElement);
 ```
 
-### 参见
+### 另请参见
 
 * 接口 [IMathElement](../../imathelement)
 * 接口 [IMathElementCollection](../../imathelementcollection)

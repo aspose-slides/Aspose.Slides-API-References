@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/itabcollection/clear/
 ---
+
 ## ITabCollection.Clear method
 
 Removes all elements from the collection.

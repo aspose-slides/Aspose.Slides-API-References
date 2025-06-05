@@ -1,7 +1,7 @@
 ---
-title: 包围
-second_title: Aspose.Slides for .NET API 参考
-description: 将数学元素用指定字符包围，例如括号或其他用于框架的字符
+title: Enclose
+second_title: Aspose.Sildes for .NET API Reference
+description: 用指定的字符（如括号或其他字符）将数学元素括起来
 type: docs
 weight: 90
 url: /zh/aspose.slides.mathtext/mathdelimiter/enclose/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathdelimiter/enclose/
 
 ## MathDelimiter.Enclose 方法
 
-将数学元素用指定字符包围，例如括号或其他用于框架的字符
+用指定的字符（如括号或其他字符）将数学元素括起来
 
 ```csharp
 public override IMathDelimiter Enclose(char beginningCharacter, char endingCharacter)
@@ -22,7 +22,7 @@ public override IMathDelimiter Enclose(char beginningCharacter, char endingChara
 
 ### 返回值
 
-如果 *beginningCharacter* 和 *endingCharacter* 为 null， 相应的属性仅被赋值，不会创建新的对象（返回该实例）。否则，返回包含指定字符作为框架的新数学元素，类型为 Delimiter，该元素将此 [`MathDelimiter`](../../mathdelimiter) 实例包围在内。
+如果 *beginningCharacter* 和 *endingCharacter* 为 null，则仅分配相应属性的值，不会创建新对象（返回此实例）。否则，返回类型为 Delimiter 的新数学元素，其中包含指定字符作为框架，并且此 [`MathDelimiter`](../../mathdelimiter) 实例被框架包裹在内。
 
 ### 示例
 

@@ -1,15 +1,15 @@
 ---
 title: CellInvalidFormulaException
-second_title: Aspose.Slides für .NET API-Verweis
-description: Die Ausnahme, die ausgelöst wird, wenn eine berechnete Formel nicht korrekt ist oder nicht analysiert wurde.
+second_title: Aspose.Slides für .NET API Referenz
+description: Die Ausnahme, die ausgelöst wird, wenn eine berechnete Formel nicht korrekt ist oder nicht geparst wurde.
 type: docs
 weight: 10400
 url: /de/aspose.slides.spreadsheet/cellinvalidformulaexception/
 ---
 
-## CellInvalidFormulaException-Klasse
+## CellInvalidFormulaException Klasse
 
-Die Ausnahme, die ausgelöst wird, wenn eine berechnete Formel nicht korrekt ist oder nicht analysiert wurde.
+Die Ausnahme, die ausgelöst wird, wenn eine berechnete Formel nicht korrekt ist oder nicht geparst wurde.
 
 ```csharp
 public class CellInvalidFormulaException : PptxEditException
@@ -19,10 +19,10 @@ public class CellInvalidFormulaException : PptxEditException
 
 | Name | Beschreibung |
 | --- | --- |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor)() | Initialisiert eine neue Instanz der [`CellInvalidFormulaException`](../cellinvalidformulaexception)-Klasse. |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | Initialisiert eine neue Instanz der [`CellInvalidFormulaException`](../cellinvalidformulaexception)-Klasse mit einer angegebenen Fehlermeldung. |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | Initialisiert eine neue Instanz der [`CellInvalidFormulaException`](../cellinvalidformulaexception)-Klasse mit einer angegebenen Fehlermeldung und einer Referenz auf die innere Ausnahme, die die Ursache dieser Ausnahme ist. |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | Initialisiert eine neue Instanz der [`CellInvalidFormulaException`](../cellinvalidformulaexception)-Klasse mit einer angegebenen Fehlermeldung und einem Zellverweis, der die ungültige Formel enthält. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor)() | Initialisiert eine neue Instanz der [`CellInvalidFormulaException`](../cellinvalidformulaexception) Klasse. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | Initialisiert eine neue Instanz der [`CellInvalidFormulaException`](../cellinvalidformulaexception) Klasse mit einer angegebenen Fehlermeldung. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | Initialisiert eine neue Instanz der [`CellInvalidFormulaException`](../cellinvalidformulaexception) Klasse mit einer angegebenen Fehlermeldung und einem Verweis auf die innere Ausnahme, die die Ursache dieser Ausnahme ist. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | Initialisiert eine neue Instanz der [`CellInvalidFormulaException`](../cellinvalidformulaexception) Klasse mit einer angegebenen Fehlermeldung und einem Zellverweis, der die ungültige Formel enthält. |
 
 ## Eigenschaften
 

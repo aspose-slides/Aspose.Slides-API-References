@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ipictureeffectivedata/imagetransform/
 ---
+
 ## IPictureEffectiveData.ImageTransform property
 
 Returns the collection of image transform effects. Read-only [`IImageTransformOCollectionEffectiveData`](../../../aspose.slides.effects/iimagetransformocollectioneffectivedata).

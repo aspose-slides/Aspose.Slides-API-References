@@ -1,6 +1,6 @@
 ---
-title: Posición
-second_title: Referencia de la API de Aspose.Slides para .NET
+title: Position
+second_title: Aspose.Sildes para .NET API Reference
 description: Representa la posición de la etiqueta de datos. Lectura/escritura LegendDataLabelPositionaspose.slides.charts/legenddatalabelposition.
 type: docs
 weight: 50
@@ -15,11 +15,11 @@ Representa la posición de la etiqueta de datos. Lectura/escritura [`LegendDataL
 public LegendDataLabelPosition Position { get; set; }
 ```
 
-### Observaciones
+### Comentarios
 
-Si el padre de este objeto DataLabelFormat es una colección DataLabelCollection de etiquetas de datos, entonces esta propiedad obtiene o establece el valor predeterminado de la propiedad Position para las nuevas etiquetas de datos en la colección DataLabelCollection. Representa la posición para los objetos DataLabel. Establecer esta propiedad con un valor también establece este valor en la propiedad Position para todas las etiquetas de datos en la colección DataLabelCollection (es decir, "DataLabels.DefaultDataLabelFormat.Position = val;" provoca que todas las DataLabels[i].Position sea igual a val).
+Si el padre de este objeto DataLabelFormat es una colección DataLabelCollection de etiquetas de datos, entonces esta propiedad obtiene o establece el valor predeterminado de la propiedad Position para las nuevas etiquetas de datos en la colección DataLabelCollection. Representa la posición para los objetos DataLabel. Establecer esta propiedad con un valor también establece este valor a la propiedad Position para todas las etiquetas de datos en la colección DataLabelCollection (es decir, "DataLabels.DefaultDataLabelFormat.Position = val;" causa que todos DataLabels[i].Position sea igual a val).
 
-### Véase también
+### Véase También
 
 * enum [LegendDataLabelPosition](../../legenddatalabelposition)
 * interface [IDataLabelFormat](../../idatalabelformat)

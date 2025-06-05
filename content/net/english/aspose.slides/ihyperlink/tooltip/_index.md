@@ -3,9 +3,10 @@ title: Tooltip
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns the string which may be surfaced in a user interface as associated with the parent hyperlink. Read/write String.
 type: docs
-weight: 100
+weight: 110
 url: /aspose.slides/ihyperlink/tooltip/
 ---
+
 ## IHyperlink.Tooltip property
 
 Returns the string which may be surfaced in a user interface as associated with the parent hyperlink. Read/write String.

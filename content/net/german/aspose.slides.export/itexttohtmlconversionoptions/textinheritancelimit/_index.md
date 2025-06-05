@@ -1,7 +1,7 @@
 ---
 title: TextInheritanceLimit
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Vererbungstiefe für Textattribute zurück oder setzt sie. Lesen/Schreiben TextInheritanceLimitaspose.slides.export/itexttohtmlconversionoptions/textinheritancelimit.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt die Vererbungstiefe für Texteigenschaften zurück oder legt sie fest. Lesen/Schreiben TextInheritanceLimitaspose.slides.export/itexttohtmlconversionoptions/textinheritancelimit.
 type: docs
 weight: 40
 url: /de/aspose.slides.export/itexttohtmlconversionoptions/textinheritancelimit/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/itexttohtmlconversionoptions/textinheritancelimit/
 
 ## ITextToHtmlConversionOptions.TextInheritanceLimit-Eigenschaft
 
-Gibt die Vererbungstiefe für Textattribute zurück oder setzt sie. Lesen/Schreiben `TextInheritanceLimit`.
+Gibt die Vererbungstiefe für Texteigenschaften zurück oder legt sie fest. Lesen/Schreiben `TextInheritanceLimit`.
 
 ```csharp
 public TextInheritanceLimit TextInheritanceLimit { get; set; }

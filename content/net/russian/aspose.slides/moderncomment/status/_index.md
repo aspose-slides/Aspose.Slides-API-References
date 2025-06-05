@@ -1,15 +1,15 @@
 ---
-title: Статус
-second_title: Справка по API Aspose.Slides для .NET
-description: Получает или задает статус комментария. Читаемое/записываемое ModernCommentStatusaspose.slides/moderncommentstatus.
+title: Status
+second_title: Aspose.Slides для .NET API Справочник
+description: Получает или задает статус комментария. Чтение/запись ModernCommentStatus aspose.slides/moderncommentstatus.
 type: docs
 weight: 20
 url: /ru/aspose.slides/moderncomment/status/
 ---
 
-## Свойство ModernComment.Status
+## ModernComment.Status свойство
 
-Получает или задает статус комментария. Читаемое/записываемое [`ModernCommentStatus`](../../moderncommentstatus).
+Получает или задает статус комментария. Чтение/запись [`ModernCommentStatus`](../../moderncommentstatus).
 
 ```csharp
 public ModernCommentStatus Status { get; set; }

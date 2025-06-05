@@ -1,13 +1,13 @@
 ---
-title: Élement
-second_title: Référence API Aspose.Slides pour .NET
+title: Item
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient l'élément à l'index spécifié.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ifontsubstrulecollection/item/
 ---
 
-## Indice de IFontSubstRuleCollection
+## IFontSubstRuleCollection indexer
 
 Obtient l'élément à l'index spécifié.
 

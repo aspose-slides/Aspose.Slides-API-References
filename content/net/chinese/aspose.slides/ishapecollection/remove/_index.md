@@ -1,6 +1,6 @@
 ---
-title: 移除
-second_title: Aspose.Slides for .NET API 参考
+title: Remove
+second_title: Aspose.Slides for .NET API Reference
 description: 从集合中移除特定形状的第一个出现。
 type: docs
 weight: 370
@@ -19,7 +19,7 @@ public void Remove(IShape shape)
 | --- | --- | --- |
 | shape | IShape | 要从集合中移除的形状。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IShape](../../ishape)
 * 接口 [IShapeCollection](../../ishapecollection)

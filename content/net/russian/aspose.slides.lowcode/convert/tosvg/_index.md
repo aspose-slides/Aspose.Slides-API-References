@@ -1,6 +1,6 @@
 ---
 title: ToSvg
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Преобразует Presentationaspose.slides/presentation в SVG.
 type: docs
 weight: 30
@@ -44,7 +44,7 @@ public static void ToSvg(string presPath, GetOutPathCallback getOutPath)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | presPath | String | Путь к входной презентации |
-| getOutPath | GetOutPathCallback | Коллбэк, который возвращает путь выхода SVG для каждого слайда в презентации |
+| getOutPath | GetOutPathCallback | Обратный вызов, который возвращает путь SVG-выхода для каждого слайда в презентации |
 
 ### Примеры
 
@@ -72,7 +72,7 @@ public static void ToSvg(Presentation pres, GetOutPathCallback getOutPath)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pres | Presentation | Входная презентация |
-| getOutPath | GetOutPathCallback | Коллбэк, который возвращает путь выхода SVG для каждого слайда в презентации |
+| getOutPath | GetOutPathCallback | Обратный вызов, который возвращает путь SVG-выхода для каждого слайда в презентации |
 
 ### Примеры
 
@@ -104,7 +104,7 @@ public static void ToSvg(Presentation pres, ISVGOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pres | Presentation | Входная презентация |
-| options | ISVGOptions | Опции экспорта в SVG |
+| options | ISVGOptions | Опции экспорта SVG |
 
 ### Примеры
 
@@ -136,8 +136,8 @@ public static void ToSvg(Presentation pres, GetOutPathCallback getOutPath, ISVGO
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pres | Presentation | Входная презентация |
-| getOutPath | GetOutPathCallback | Коллбэк, который возвращает путь выхода SVG для каждого слайда в презентации |
-| options | ISVGOptions | Опции экспорта в SVG |
+| getOutPath | GetOutPathCallback | Обратный вызов, который возвращает путь SVG-выхода для каждого слайда в презентации |
+| options | ISVGOptions | Опции экспорта SVG |
 
 ### Примеры
 

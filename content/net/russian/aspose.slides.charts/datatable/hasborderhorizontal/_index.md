@@ -1,7 +1,7 @@
 ---
 title: HasBorderHorizontal
 second_title: Справочник по API Aspose.Slides для .NET
-description: Истина, если таблица данных диаграммы имеет горизонтальные границы ячеек. Читаемая/записываемая логическая переменная.
+description: Истина, если таблица данных графика имеет горизонтальные границы ячеек. Читаемое/записываемое логическое значение.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/datatable/hasborderhorizontal/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.charts/datatable/hasborderhorizontal/
 
 ## DataTable.HasBorderHorizontal свойство
 
-Истина, если таблица данных диаграммы имеет горизонтальные границы ячеек. Читаемая/записываемая логическая переменная.
+Истина, если таблица данных графика имеет горизонтальные границы ячеек. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool HasBorderHorizontal { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [DataTable](../../datatable)
 * пространство имен [Aspose.Slides.Charts](../../datatable)

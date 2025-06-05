@@ -1,7 +1,7 @@
 ---
 title: LinkPathLong
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den vollständigen Pfad zu einer verlinkten Datei zurück. Langer Dateiname wird verwendet. Lese-/Schreib-String.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den vollständigen Pfad zu einer verknüpften Datei zurück. Es wird der lange Dateiname verwendet. Lese-/Schreib-String.
 type: docs
 weight: 80
 url: /de/aspose.slides/ioleobjectframe/linkpathlong/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ioleobjectframe/linkpathlong/
 
 ## IOleObjectFrame.LinkPathLong-Eigenschaft
 
-Gibt den vollständigen Pfad zu einer verlinkten Datei zurück. Langer Dateiname wird verwendet. Lese-/Schreib-String.
+Gibt den vollständigen Pfad zu einer verknüpften Datei zurück. Es wird der lange Dateiname verwendet. Lese-/Schreib-String.
 
 ```csharp
 public string LinkPathLong { get; set; }

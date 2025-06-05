@@ -1,7 +1,7 @@
 ---
 title: ErrorBarsCustomValues
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Especifica los valores de las barras de error. Debe usarse solo cuando el tipo de valor de las barras de error sea Personalizado.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Especifica los valores de las barras de error. Debe usarse únicamente cuando el tipo de valor de las barras de error sea Personalizado.
 type: docs
 weight: 1580
 url: /es/aspose.slides.charts/errorbarscustomvalues/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.charts/errorbarscustomvalues/
 
 ## Clase ErrorBarsCustomValues
 
-Especifica los valores de las barras de error. Debe usarse solo cuando el tipo de valor de las barras de error sea Personalizado.
+Especifica los valores de las barras de error. Debe usarse únicamente cuando el tipo de valor de las barras de error sea Personalizado.
 
 ```csharp
 public class ErrorBarsCustomValues : DomObject<ChartDataPoint>, IErrorBarsCustomValues
@@ -24,7 +24,7 @@ public class ErrorBarsCustomValues : DomObject<ChartDataPoint>, IErrorBarsCustom
 | [YMinus](../../aspose.slides.charts/errorbarscustomvalues/yminus) { get; } | Especifica el valor de la barra de error en la dirección negativa. Disponible si el tipo de valor de las barras de error es Personalizado y se permite ErrorBarsYFormat. En cualquier otro caso, esta propiedad devuelve null. Solo lectura [`IDoubleChartValue`](../idoublechartvalue). |
 | [YPlus](../../aspose.slides.charts/errorbarscustomvalues/yplus) { get; } | Especifica el valor de la barra de error en la dirección positiva. Disponible si el tipo de valor de las barras de error es Personalizado y se permite ErrorBarsYFormat. En cualquier otro caso, esta propiedad devuelve null. Solo lectura [`IDoubleChartValue`](../idoublechartvalue). |
 
-### Ver También
+### Véase también
 
 * clase [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * clase [ChartDataPoint](../chartdatapoint)

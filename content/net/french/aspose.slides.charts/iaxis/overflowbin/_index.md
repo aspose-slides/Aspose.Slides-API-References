@@ -7,7 +7,7 @@ weight: 460
 url: /fr/aspose.slides.charts/iaxis/overflowbin/
 ---
 
-## Propriété IAxis.OverflowBin
+## IAxis.OverflowBin property
 
 Spécifie la valeur personnalisée du bac de débordement. Appliqué lorsque la propriété IsAutomaticOverflowBin est définie sur false et que la propriété IsOverflowBin est égale à true.
 
@@ -15,7 +15,7 @@ Spécifie la valeur personnalisée du bac de débordement. Appliqué lorsque la 
 public double OverflowBin { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IAxis](../../iaxis)
 * namespace [Aspose.Slides.Charts](../../iaxis)

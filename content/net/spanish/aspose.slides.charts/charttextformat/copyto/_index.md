@@ -1,13 +1,13 @@
 ---
-title: CopiarA
-second_title: Referencia de la API de Aspose.Slides para .NET
+title: CopyTo
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Copia el formato de texto al marco de texto especificado.
 type: docs
 weight: 50
 url: /es/aspose.slides.charts/charttextformat/copyto/
 ---
 
-## Método ChartTextFormat.CopyTo
+## ChartTextFormat.CopyTo método
 
 Copia el formato de texto al marco de texto especificado.
 
@@ -19,7 +19,7 @@ public void CopyTo(ITextFrame destTextFrame)
 | --- | --- | --- |
 | destTextFrame | ITextFrame | Marco de texto al que se copiará el formato de texto. |
 
-### Véase también
+### Ver También
 
 * interfaz [ITextFrame](../../../aspose.slides/itextframe)
 * clase [ChartTextFormat](../../charttextformat)

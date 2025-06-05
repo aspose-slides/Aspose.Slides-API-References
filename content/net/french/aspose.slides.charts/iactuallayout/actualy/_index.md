@@ -1,15 +1,15 @@
 ---
 title: ActualY
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie le haut réel de l'élément de graphique par rapport au coin supérieur gauche du graphique. Appelez la méthode IChart.ValidateChartLayout avant d'obtenir les valeurs réelles. Lire Single.
+second_title: Référence API Aspose.Slides pour .NET
+description: Spécifie le sommet actuel de l'élément de graphique par rapport au coin supérieur gauche du graphique. Appelez la méthode IChart.ValidateChartLayout avant de récupérer les valeurs actuelles. Lire Single.
 type: docs
 weight: 40
 url: /fr/aspose.slides.charts/iactuallayout/actualy/
 ---
 
-## Propriété IActualLayout.ActualY
+## IActualLayout.ActualY property
 
-Spécifie le haut réel de l'élément de graphique par rapport au coin supérieur gauche du graphique. Appelez la méthode IChart.ValidateChartLayout() avant d'obtenir les valeurs réelles. Lire Single.
+Spécifie le sommet actuel de l'élément de graphique par rapport au coin supérieur gauche du graphique. Appelez la méthode IChart.ValidateChartLayout() avant de récupérer les valeurs actuelles. Lire Single.
 
 ```csharp
 public float ActualY { get; }

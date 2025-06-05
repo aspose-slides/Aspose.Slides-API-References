@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.theme/ifontschemeeffectivedata/name/
 ---
+
 ## IFontSchemeEffectiveData.Name property
 
 Returns the font scheme name. Read-only String.

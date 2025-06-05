@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/icontrolpropertiescollection/clear/
 ---
+
 ## IControlPropertiesCollection.Clear method
 
 Removes all properties.

@@ -1,6 +1,6 @@
 ---
 title: ToString
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает строку, представляющую текущий цветовой формат.
 type: docs
 weight: 190
@@ -17,13 +17,13 @@ public string ToString(ColorStringFormat format)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| format | ColorStringFormat | Тип цветового строкового формата. |
+| format | ColorStringFormat | Тип строкового формата цвета. |
 
 ### Возвращаемое значение
 
 Строка, представляющая текущий цветовой формат.
 
-### Смотрите также
+### См. также
 
 * enum [ColorStringFormat](../../colorstringformat)
 * class [ColorFormat](../../colorformat)

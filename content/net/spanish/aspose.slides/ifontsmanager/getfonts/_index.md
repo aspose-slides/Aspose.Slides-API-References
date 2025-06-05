@@ -1,13 +1,13 @@
 ---
 title: GetFonts
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve las fuentes utilizadas en la presentación
 type: docs
 weight: 70
 url: /es/aspose.slides/ifontsmanager/getfonts/
 ---
 
-## Método IFontsManager.GetFonts
+## IFontsManager.GetFonts método
 
 Devuelve las fuentes utilizadas en la presentación
 
@@ -15,15 +15,15 @@ Devuelve las fuentes utilizadas en la presentación
 public IFontData[] GetFonts()
 ```
 
-### Valor de retorno
+### Valor de Retorno
 
-Un arreglo de fuentes
+Un array de fuentes
 
-### Véase también
+### Véase También
 
 * interfaz [IFontData](../../ifontdata)
 * interfaz [IFontsManager](../../ifontsmanager)
-* espacio de nombres [Aspose.Slides](../../ifontsmanager)
+* namespace [Aspose.Slides](../../ifontsmanager)
 * ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

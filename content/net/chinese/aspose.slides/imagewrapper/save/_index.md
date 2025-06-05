@@ -1,7 +1,7 @@
 ---
-title: 保存
-second_title: Aspose.Slides for .NET API 参考
-description: 将图像保存到指定的文件
+title: Save
+second_title: Aspose.Sildes for .NET API Reference
+description: 将图像保存到指定文件
 type: docs
 weight: 40
 url: /zh/aspose.slides/imagewrapper/save/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/imagewrapper/save/
 
 ## Save(string) {#save_1}
 
-将图像保存到指定的文件
+将图像保存到指定文件
 
 ```csharp
 public void Save(string fileName)
 ```
 
-### 另见
+### 另请参阅
 
 * class [ImageWrapper](../../imagewrapper)
 * namespace [Aspose.Slides](../../imagewrapper)
@@ -25,13 +25,13 @@ public void Save(string fileName)
 
 ## Save(Stream, PPImageFormat) {#save}
 
-将图像保存到指定的流中，并使用指定的格式。
+将图像保存到指定流，并以指定格式保存。
 
 ```csharp
 public void Save(Stream stream, PPImageFormat imageFormat)
 ```
 
-### 另见
+### 另请参阅
 
 * enum [PPImageFormat](../../ppimageformat)
 * class [ImageWrapper](../../imagewrapper)
@@ -42,13 +42,13 @@ public void Save(Stream stream, PPImageFormat imageFormat)
 
 ## Save(string, PPImageFormat) {#save_2}
 
-将图像保存到指定的文件中，并使用指定的格式。
+将图像保存到指定文件，并以指定格式保存。
 
 ```csharp
 public void Save(string fileName, PPImageFormat imageFormat)
 ```
 
-### 另见
+### 另请参阅
 
 * enum [PPImageFormat](../../ppimageformat)
 * class [ImageWrapper](../../imagewrapper)

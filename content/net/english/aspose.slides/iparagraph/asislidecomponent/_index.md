@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/iparagraph/asislidecomponent/
 ---
+
 ## IParagraph.AsISlideComponent property
 
 Allows to get base ISlideComponent interface. Read-only [`ISlideComponent`](../../islidecomponent).

@@ -7,7 +7,7 @@ weight: 160
 url: /de/aspose.slides.effects/iimagetransformoperationcollection/addgrayscaleeffect/
 ---
 
-## IImageTransformOperationCollection.AddGrayScaleEffect Methode
+## IImageTransformOperationCollection.AddGrayScaleEffect-Methode
 
 Fügt den neuen Graustufen-Effekt am Ende einer Sammlung hinzu.
 
@@ -17,7 +17,7 @@ public IGrayScale AddGrayScaleEffect()
 
 ### Rückgabewert
 
-Index des neuen Bildeffekts in einer Sammlung.
+Index des neuen Bild-Effekts in einer Sammlung.
 
 ### Siehe auch
 

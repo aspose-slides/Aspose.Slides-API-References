@@ -1,7 +1,7 @@
 ---
 title: CreateGrayScale
-second_title: Référence API Aspose.Sildes pour .NET
-description: Crée un effet d'échelle de gris.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Crée un effet en niveaux de gris.
 type: docs
 weight: 140
 url: /fr/aspose.slides.effects/iimagetransformoperationfactory/creategrayscale/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/iimagetransformoperationfactory/creategrayscale/
 
 ## IImageTransformOperationFactory.CreateGrayScale méthode
 
-Crée un effet d'échelle de gris.
+Crée un effet en niveaux de gris.
 
 ```csharp
 public IGrayScale CreateGrayScale()
@@ -17,7 +17,7 @@ public IGrayScale CreateGrayScale()
 
 ### Valeur de retour
 
-Renvoie un effet d'échelle de gris.
+Renvoie un effet en niveaux de gris.
 
 ### Voir aussi
 

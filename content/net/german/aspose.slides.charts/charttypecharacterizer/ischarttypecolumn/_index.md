@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeColumn
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt true zurück, wenn chartType einer der Untertypen von Column ist. Die Untertypensätze entsprechen dem entsprechenden Satz in PowerPoint siehe Dialogfeld "Diagrammtyp ändern" in PowerPoint ClusteredColumn, ClusteredColumn3D, ClusteredCone, ClusteredCylinder, ClusteredPyramid, PercentsStackedColumn, PercentsStackedColumn3D, PercentsStackedCone, PercentsStackedCylinder, PercentsStackedPyramid, StackedColumn, StackedColumn3D, StackedCone, StackedCylinder, StackedPyramid, Column3D, Cylinder3D, Cone3D, Pyramid3D.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt true zurück, wenn chartType einer der Column-Subtypen ist. Die Subtypen entsprechen dem entsprechenden Satz in PowerPoint siehe Dialogfeld "Diagrammtyp ändern" in PowerPoint ClusteredColumn, ClusteredColumn3D, ClusteredCone, ClusteredCylinder, ClusteredPyramid, PercentsStackedColumn, PercentsStackedColumn3D, PercentsStackedCone, PercentsStackedCylinder, PercentsStackedPyramid, StackedColumn, StackedColumn3D, StackedCone, StackedCylinder, StackedPyramid, Column3D, Cylinder3D, Cone3D, Pyramid3D.
 type: docs
 weight: 80
 url: /de/aspose.slides.charts/charttypecharacterizer/ischarttypecolumn/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/charttypecharacterizer/ischarttypecolumn/
 
 ## ChartTypeCharacterizer.IsChartTypeColumn-Methode
 
-Gibt true zurück, wenn chartType einer der Untertypen von Column ist. Die Untertypensätze entsprechen dem entsprechenden Satz in PowerPoint (siehe Dialogfeld "Diagrammtyp ändern" in PowerPoint): ClusteredColumn, ClusteredColumn3D, ClusteredCone, ClusteredCylinder, ClusteredPyramid, PercentsStackedColumn, PercentsStackedColumn3D, PercentsStackedCone, PercentsStackedCylinder, PercentsStackedPyramid, StackedColumn, StackedColumn3D, StackedCone, StackedCylinder, StackedPyramid, Column3D, Cylinder3D, Cone3D, Pyramid3D.
+Gibt true zurück, wenn chartType einer der Column-Subtypen ist. Die Subtypen entsprechen dem entsprechenden Satz in PowerPoint (siehe Dialogfeld "Diagrammtyp ändern" in PowerPoint): ClusteredColumn, ClusteredColumn3D, ClusteredCone, ClusteredCylinder, ClusteredPyramid, PercentsStackedColumn, PercentsStackedColumn3D, PercentsStackedCone, PercentsStackedCylinder, PercentsStackedPyramid, StackedColumn, StackedColumn3D, StackedCone, StackedCylinder, StackedPyramid, Column3D, Cylinder3D, Cone3D, Pyramid3D.
 
 ```csharp
 public static bool IsChartTypeColumn(ChartType chartType)
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

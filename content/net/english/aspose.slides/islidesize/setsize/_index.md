@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/islidesize/setsize/
 ---
+
 ## SetSize(SlideSizeType, SlideSizeScaleType) {#setsize}
 
 Sets the type of slide size and scales content using scale type. Assigning any value except Custom will change [`Size`](../size) accordingly, but will keep [`Orientation`](../orientation) intact.

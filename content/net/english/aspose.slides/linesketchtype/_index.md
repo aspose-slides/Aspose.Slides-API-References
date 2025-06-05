@@ -3,9 +3,10 @@ title: LineSketchType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents which sketch type or effect a shape has been assigned.
 type: docs
-weight: 7240
+weight: 7570
 url: /aspose.slides/linesketchtype/
 ---
+
 ## LineSketchType enumeration
 
 Represents which sketch type or effect a shape has been assigned.

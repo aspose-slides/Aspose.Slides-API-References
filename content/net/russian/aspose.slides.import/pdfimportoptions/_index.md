@@ -7,7 +7,7 @@ weight: 7270
 url: /ru/aspose.slides.import/pdfimportoptions/
 ---
 
-## Класс PdfImportOptions
+## PdfImportOptions class
 
 Представляет параметры импорта PDF
 
@@ -25,9 +25,9 @@ public class PdfImportOptions
 
 | Имя | Описание |
 | --- | --- |
-| [DetectTables](../../aspose.slides.import/pdfimportoptions/detecttables) { get; set; } | Определяет, следует ли обнаруживать таблицы при импорте pdf-файла. |
+| [DetectTables](../../aspose.slides.import/pdfimportoptions/detecttables) { get; set; } | Устанавливает, нужно ли определять таблицы при импорте PDF-файла. |
 
-### См. Также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.Import](../../aspose.slides.import)
 * сборка [Aspose.Slides](../../)

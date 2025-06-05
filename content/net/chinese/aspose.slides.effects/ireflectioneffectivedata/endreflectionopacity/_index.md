@@ -1,6 +1,6 @@
 ---
-title: 结束反射不透明度
-second_title: Aspose.Sildes for .NET API 参考
+title: EndReflectionOpacity
+second_title: Aspose.Slides for .NET API Reference
 description: 结束反射不透明度。百分比。只读单精度浮点数。
 type: docs
 weight: 60
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity/
 public float EndReflectionOpacity { get; }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [IReflectionEffectiveData](../../ireflectioneffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../ireflectioneffectivedata)

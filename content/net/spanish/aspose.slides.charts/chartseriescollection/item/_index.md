@@ -1,5 +1,5 @@
 ---
-title: Elemento
+title: Item
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene el elemento en el índice especificado.
 type: docs
@@ -7,7 +7,7 @@ weight: 30
 url: /es/aspose.slides.charts/chartseriescollection/item/
 ---
 
-## Índice de ChartSeriesCollection
+## Indexador de ChartSeriesCollection
 
 Obtiene el elemento en el índice especificado.
 

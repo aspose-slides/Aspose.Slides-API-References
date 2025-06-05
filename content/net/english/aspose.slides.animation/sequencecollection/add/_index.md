@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.animation/sequencecollection/add/
 ---
+
 ## SequenceCollection.Add method
 
 Add new interactive sequence. Read/write [`Sequence`](../../sequence).

@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.charts/chartdata/setexternalworkbook/
 ---
+
 ## SetExternalWorkbook(string) {#setexternalworkbook}
 
 Sets external workbook as a data source for the chart. Chart data will be updated from the target workbook.

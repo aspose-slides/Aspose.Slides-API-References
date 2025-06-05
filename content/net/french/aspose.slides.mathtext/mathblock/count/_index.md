@@ -1,7 +1,7 @@
 ---
-title: Compter
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient le nombre d'éléments mathématiques enfants réellement contenus dans la collection. En lecture seule Int32.
+title: Count
+second_title: Référence API Aspose.Sildes pour .NET
+description: Obtient le nombre d'éléments mathématiques enfants effectivement contenus dans la collection. En lecture seule Int32.
 type: docs
 weight: 20
 url: /fr/aspose.slides.mathtext/mathblock/count/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/mathblock/count/
 
 ## Propriété MathBlock.Count
 
-Obtient le nombre d'éléments mathématiques enfants réellement contenus dans la collection. En lecture seule Int32.
+Obtient le nombre d'éléments mathématiques enfants effectivement contenus dans la collection. En lecture seule Int32.
 
 ```csharp
 public int Count { get; }
@@ -17,7 +17,7 @@ public int Count { get; }
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -25,7 +25,7 @@ MathBlock mathBlock = new MathBlock(new MathematicalText("x"));
 int count = mathBlock.Count;
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [MathBlock](../../mathblock)
 * espace de noms [Aspose.Slides.MathText](../../mathblock)

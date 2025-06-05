@@ -1,13 +1,13 @@
 ---
 title: EnableSoftEdgeEffect
-second_title: Aspose.Slides pour la référence API .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Active l'effet de bord doux.
 type: docs
 weight: 250
 url: /fr/aspose.slides/ieffectformat/enablesoftedgeeffect/
 ---
 
-## Méthode IEffectFormat.EnableSoftEdgeEffect
+## IEffectFormat.EnableSoftEdgeEffect méthode
 
 Active l'effet de bord doux.
 

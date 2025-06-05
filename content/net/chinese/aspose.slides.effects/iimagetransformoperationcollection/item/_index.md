@@ -1,7 +1,7 @@
 ---
-title: 项
-second_title: Aspose.Slides for .NET API 参考
-description: 根据索引从集合中返回一个 IImageTransformOperationaspose.slides.effects/iimagetransformoperation。
+title: Item
+second_title: Aspose.Sildes for .NET API Reference
+description: 根据索引从集合中返回一个IImageTransformOperationaspose.slides.effects/iimagetransformoperation。
 type: docs
 weight: 20
 url: /zh/aspose.slides.effects/iimagetransformoperationcollection/item/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/iimagetransformoperationcollection/item/
 
 ## IImageTransformOperationCollection 索引器
 
-根据索引从 [`IImageTransformOperation`](../../iimagetransformoperation) 集合中返回一个实例。
+根据索引从集合中返回一个 [`IImageTransformOperation`](../../iimagetransformoperation)。
 
 ```csharp
 public IImageTransformOperation this[int index] { get; }
@@ -19,7 +19,7 @@ public IImageTransformOperation this[int index] { get; }
 | --- | --- |
 | index |  |
 
-### 参见
+### 另见
 
 * 接口 [IImageTransformOperation](../../iimagetransformoperation)
 * 接口 [IImageTransformOperationCollection](../../iimagetransformoperationcollection)

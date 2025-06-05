@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Obtiene datos de formato de marco de texto efectivo con la herencia aplicada.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Obtiene datos de formato efectivo del marco de texto con la herencia aplicada.
 type: docs
 weight: 170
 url: /es/aspose.slides/textframeformat/geteffective/
@@ -9,19 +9,19 @@ url: /es/aspose.slides/textframeformat/geteffective/
 
 ## Método TextFrameFormat.GetEffective
 
-Obtiene datos de formato de marco de texto efectivo con la herencia aplicada.
+Obtiene datos de formato efectivo del marco de texto con la herencia aplicada.
 
 ```csharp
 public ITextFrameFormatEffectiveData GetEffective()
 ```
 
-### Valor de retorno
+### Valor de Retorno
 
 Un [`ITextFrameFormatEffectiveData`](../../itextframeformateffectivedata).
 
 ### Ejemplos
 
-Este ejemplo demuestra cómo obtener algunas propiedades efectivas de formato de marco de texto.
+Este ejemplo demuestra cómo obtener algunas de las propiedades de formato efectivo del marco de texto.
 
 ```csharp
 [C#]
@@ -34,18 +34,18 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
     Console.WriteLine("Tipo de ajuste automático: " + effectiveTextFrameFormat.AutofitType);
     Console.WriteLine("Tipo de texto vertical: " + effectiveTextFrameFormat.TextVerticalType);
     Console.WriteLine("Márgenes");
-    Console.WriteLine("   Izquierdo: " + effectiveTextFrameFormat.MarginLeft);
-    Console.WriteLine("   Superior: " + effectiveTextFrameFormat.MarginTop);
-    Console.WriteLine("   Derecho: " + effectiveTextFrameFormat.MarginRight);
-    Console.WriteLine("   Inferior: " + effectiveTextFrameFormat.MarginBottom);
+    Console.WriteLine("   Izquierda: " + effectiveTextFrameFormat.MarginLeft);
+    Console.WriteLine("   Arriba: " + effectiveTextFrameFormat.MarginTop);
+    Console.WriteLine("   Derecha: " + effectiveTextFrameFormat.MarginRight);
+    Console.WriteLine("   Abajo: " + effectiveTextFrameFormat.MarginBottom);
 }
 ```
 
-### Véase también
+### También Vea
 
-* interfaz [ITextFrameFormatEffectiveData](../../itextframeformateffectivedata)
-* clase [TextFrameFormat](../../textframeformat)
-* espacio de nombres [Aspose.Slides](../../textframeformat)
-* ensamblaje [Aspose.Slides](../../../) 
+* interface [ITextFrameFormatEffectiveData](../../itextframeformateffectivedata)
+* class [TextFrameFormat](../../textframeformat)
+* namespace [Aspose.Slides](../../textframeformat)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

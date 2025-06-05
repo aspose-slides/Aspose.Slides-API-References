@@ -1,7 +1,7 @@
 ---
 title: LogBase
-second_title: Aspose.Slides for .NET API 参考
-description: 表示对数基数。默认值为 10。可读/写 Double。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示对数基数。默认值为 10。可读写的 Double。
 type: docs
 weight: 330
 url: /zh/aspose.slides.charts/iaxis/logbase/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/iaxis/logbase/
 
 ## IAxis.LogBase 属性
 
-表示对数基数。默认值为 10。可读/写 Double。
+表示对数基数。默认值为 10。可读写的 Double。
 
 ```csharp
 public double LogBase { get; set; }
 ```
 
-### 相关内容
+### 参见
 
 * 接口 [IAxis](../../iaxis)
 * 命名空间 [Aspose.Slides.Charts](../../iaxis)

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.animation/ibehaviorpropertycollection/indexof/
 ---
+
 ## IBehaviorPropertyCollection.IndexOf method
 
 Determines the index of a specific item by property value in the IList.

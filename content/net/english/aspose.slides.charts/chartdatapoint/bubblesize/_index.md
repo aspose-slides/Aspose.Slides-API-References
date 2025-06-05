@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/chartdatapoint/bubblesize/
 ---
+
 ## ChartDataPoint.BubbleSize property
 
 BubbleSize. Read-only [`IDoubleChartValue`](../../idoublechartvalue).

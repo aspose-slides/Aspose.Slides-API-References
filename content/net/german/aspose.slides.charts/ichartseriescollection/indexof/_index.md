@@ -1,7 +1,7 @@
 ---
 title: IndexOf
-second_title: Aspose.Slides für .NET API Referenz
-description: Sucht nach dem angegebenen IChartSeriesaspose.slides.charts/ichartseries und gibt den nullbasierten Index der ersten Vorkommen innerhalb der gesamten Sammlung zurück
+second_title: Aspose.Sildes für .NET API Referenz
+description: Sucht nach dem angegebenen IChartSeriesaspose.slides.charts/ichartseries und gibt den nullbasierten Index des ersten Vorkommens innerhalb der gesamten Sammlung zurück
 type: docs
 weight: 40
 url: /de/aspose.slides.charts/ichartseriescollection/indexof/
@@ -21,7 +21,7 @@ public int IndexOf(IChartSeries value)
 
 ### Rückgabewert
 
-Der nullbasierte Index des ersten Vorkommens von value innerhalb der gesamten CollectionBase, falls gefunden; andernfalls -1.
+Der nullbasierte Index des ersten Vorkommens des Wertes innerhalb der gesamten CollectionBase, wenn gefunden; andernfalls -1.
 
 ### Siehe auch
 

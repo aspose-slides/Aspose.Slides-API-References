@@ -3,9 +3,10 @@ title: MotionCmdPath
 second_title: Aspose.Sildes for .NET API Reference
 description: Represent one command of a path.
 type: docs
-weight: 560
+weight: 570
 url: /aspose.slides.animation/motioncmdpath/
 ---
+
 ## MotionCmdPath class
 
 Represent one command of a path.

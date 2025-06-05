@@ -1,6 +1,6 @@
 ---
 title: IWarningCallback
-second_title: Référence API Aspose.Sldes pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Interface pour les classes qui reçoivent des avertissements
 type: docs
 weight: 11490
@@ -21,7 +21,7 @@ public interface IWarningCallback
 | --- | --- |
 | [Warning](../../aspose.slides.warnings/iwarningcallback/warning)(IWarningInfo) | Méthode de rappel qui reçoit un avertissement et décide si l'opération doit être annulée. |
 
-### À voir aussi
+### Voir aussi
 
 * espace de noms [Aspose.Slides.Warnings](../../aspose.slides.warnings)
 * assembly [Aspose.Slides](../../)

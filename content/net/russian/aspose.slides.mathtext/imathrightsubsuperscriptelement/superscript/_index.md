@@ -1,6 +1,6 @@
 ---
-title: Надстрочный текст
-second_title: Справочник по API Aspose.Slides для .NET
+title: Superscript
+second_title: Aspose.Sildes для .NET API Справочник
 description: Аргумент надстрочного текста
 type: docs
 weight: 50
@@ -28,7 +28,7 @@ MathRightSubSuperscriptElement subsuperscript = new MathRightSubSuperscriptEleme
 IMathElement sup = subsuperscript.Superscript;
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IMathElement](../../imathelement)
 * интерфейс [IMathRightSubSuperscriptElement](../../imathrightsubsuperscriptelement)

@@ -1,7 +1,7 @@
 ---
 title: BeginArrowheadStyle
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie le style de flèche au début d'une ligne. En lecture seule LineArrowheadStyleaspose.slides/linearrowheadstyle.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Renvoie le style de flèche au début d'une ligne. Lecture seule LineArrowheadStyleaspose.slides/linearrowheadstyle.
 type: docs
 weight: 40
 url: /fr/aspose.slides/ilineformateffectivedata/beginarrowheadstyle/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ilineformateffectivedata/beginarrowheadstyle/
 
 ## Propriété ILineFormatEffectiveData.BeginArrowheadStyle
 
-Renvoie le style de flèche au début d'une ligne. En lecture seule [`LineArrowheadStyle`](../../linearrowheadstyle).
+Renvoie le style de flèche au début d'une ligne. Lecture seule [`LineArrowheadStyle`](../../linearrowheadstyle).
 
 ```csharp
 public LineArrowheadStyle BeginArrowheadStyle { get; }

@@ -1,7 +1,7 @@
 ---
 title: JoinPortionsWithSameFormatting
-second_title: Aspose.Sildes for .NET API 参考
-description: 在所有幻灯片的所有可接受形状的所有段落中合并具有相同格式的文本块。
+second_title: Aspose.Sildes for .NET API Reference
+description: 在所有幻灯片中所有可接受的形状中的所有段落中合并具有相同格式的文本段。
 type: docs
 weight: 350
 url: /zh/aspose.slides/presentation/joinportionswithsameformatting/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/presentation/joinportionswithsameformatting/
 
 ## Presentation.JoinPortionsWithSameFormatting 方法
 
-在所有幻灯片的所有可接受形状的所有段落中合并具有相同格式的文本块。
+在所有幻灯片中所有可接受的形状中的所有段落中合并具有相同格式的文本段。
 
 ```csharp
 public void JoinPortionsWithSameFormatting()
 ```
 
-### 参见
+### 另请参阅
 
 * class [Presentation](../../presentation)
 * namespace [Aspose.Slides](../../presentation)

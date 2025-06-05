@@ -1,21 +1,21 @@
 ---
-title: Transparenz
+title: Transparency
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Transparenz der Füllfarbe zurück. Lese Single.
+description: Erhält die Transparenz der Füllfarbe. Lesen Sie Einzel.
 type: docs
 weight: 20
 url: /de/aspose.slides/icellformateffectivedata/transparency/
 ---
 
-## ICellFormatEffectiveData.Transparency-Eigenschaft
+## ICellFormatEffectiveData.Transparency Eigenschaft
 
-Gibt die Transparenz der Füllfarbe zurück. Lese Single.
+Erhält die Transparenz der Füllfarbe. Lesen Sie Einzel.
 
 ```csharp
 public float Transparency { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ICellFormatEffectiveData](../../icellformateffectivedata)
 * Namespace [Aspose.Slides](../../icellformateffectivedata)

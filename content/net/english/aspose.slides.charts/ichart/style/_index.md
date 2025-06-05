@@ -6,6 +6,7 @@ type: docs
 weight: 210
 url: /aspose.slides.charts/ichart/style/
 ---
+
 ## IChart.Style property
 
 Returns or sets the chart style. Read/write [`StyleType`](../../styletype).

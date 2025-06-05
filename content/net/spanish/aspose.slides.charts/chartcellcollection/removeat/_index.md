@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Elimina una celda de la colección por índice.
 type: docs
 weight: 70
 url: /es/aspose.slides.charts/chartcellcollection/removeat/
 ---
 
-## Método ChartCellCollection.RemoveAt
+## ChartCellCollection.RemoveAt método
 
 Elimina una celda de la colección por índice.
 
@@ -17,9 +17,9 @@ public void RemoveAt(int index)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| index | Int32 | Índice de una celda para eliminar. |
+| index | Int32 | Índice de la celda a eliminar. |
 
-### Véase también
+### Ver También
 
 * clase [ChartCellCollection](../../chartcellcollection)
 * espacio de nombres [Aspose.Slides.Charts](../../chartcellcollection)

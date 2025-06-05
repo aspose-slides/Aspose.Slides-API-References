@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.effects/ialphareplaceeffectivedata/alpha/
 ---
+
 ## IAlphaReplaceEffectiveData.Alpha property
 
 Returns new alpha value in the interval [0..1] Read-only Single.

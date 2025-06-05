@@ -6,6 +6,7 @@ type: docs
 weight: 240
 url: /aspose.slides.animation/behaviorproperty/extrusionviewpointx/
 ---
+
 ## BehaviorProperty.ExtrusionViewPointX property
 
 Represents 'extrusion.viewpoint.x' property

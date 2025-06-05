@@ -1,7 +1,7 @@
 ---
 title: EditPointsLocked
-second_title: Aspose.Slides для .NET API Справочник
-description: Определяет, запрещено ли прямое изменение контура этой формы. Читаемое/записываемое логическое значение.
+second_title: Aspose.Slides для .NET API Reference
+description: Определяет, запрещена ли прямая смена контура этой фигуры. Читаемое/записываемое логическое значение.
 type: docs
 weight: 40
 url: /ru/aspose.slides/autoshapelock/editpointslocked/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/autoshapelock/editpointslocked/
 
 ## AutoShapeLock.EditPointsLocked свойство
 
-Определяет, запрещено ли прямое изменение контура этой формы. Читаемое/записываемое логическое значение.
+Определяет, запрещена ли прямая смена контура этой фигуры. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool EditPointsLocked { get; set; }

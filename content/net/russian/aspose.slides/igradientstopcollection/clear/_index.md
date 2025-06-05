@@ -1,15 +1,15 @@
 ---
-title: Очистить
-second_title: Справочник по API Aspose.Slides для .NET
-description: Удаляет все градиентные остановки из коллекции.
+title: Clear
+second_title: Aspose.Sildes для .NET API Reference
+description: Удаляет все остановки градиента из коллекции.
 type: docs
 weight: 30
 url: /ru/aspose.slides/igradientstopcollection/clear/
 ---
 
-## Метод IGradientStopCollection.Clear
+## IGradientStopCollection.Clear метод
 
-Удаляет все градиентные остановки из коллекции.
+Удаляет все остановки градиента из коллекции.
 
 ```csharp
 public void Clear()

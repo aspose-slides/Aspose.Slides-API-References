@@ -1,7 +1,7 @@
 ---
 title: BorderBottom
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt ein Objekt für die Eigenschaften der unteren Rahmenlinie zurück. Nur-Lese ILineFormataspose.slides/ilineformat.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt ein Objekt für die Eigenschaften der unteren Randlinie zurück. Nur lesbar ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 10
 url: /de/aspose.slides/icellformat/borderbottom/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/icellformat/borderbottom/
 
 ## ICellFormat.BorderBottom-Eigenschaft
 
-Gibt ein Objekt für die Eigenschaften der unteren Rahmenlinie zurück. Nur-Lese [`ILineFormat`](../../ilineformat).
+Gibt ein Objekt für die Eigenschaften der unteren Randlinie zurück. Nur lesbar [`ILineFormat`](../../ilineformat).
 
 ```csharp
 public ILineFormat BorderBottom { get; }

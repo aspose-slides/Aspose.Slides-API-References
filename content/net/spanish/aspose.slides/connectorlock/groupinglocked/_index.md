@@ -1,6 +1,6 @@
 ---
 title: GroupingLocked
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si agregar esta forma a un grupo está prohibido. Booleano de lectura/escritura.
 type: docs
 weight: 50
@@ -15,7 +15,7 @@ Determina si agregar esta forma a un grupo está prohibido. Booleano de lectura/
 public bool GroupingLocked { get; set; }
 ```
 
-### También Véase
+### Vea También
 
 * clase [ConnectorLock](../../connectorlock)
 * espacio de nombres [Aspose.Slides](../../connectorlock)

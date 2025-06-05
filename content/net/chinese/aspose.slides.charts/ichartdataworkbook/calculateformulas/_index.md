@@ -1,7 +1,7 @@
 ---
-title: 计算公式
-second_title: Aspose.Slides for .NET API 参考
-description: 计算工作簿中的所有公式并更新相应单元格的值。
+title: CalculateFormulas
+second_title: Aspose.Sildes for .NET API Reference
+description: 计算工作簿中的所有公式并更新相应的单元格值。
 type: docs
 weight: 20
 url: /zh/aspose.slides.charts/ichartdataworkbook/calculateformulas/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ichartdataworkbook/calculateformulas/
 
 ## IChartDataWorkbook.CalculateFormulas 方法
 
-计算工作簿中的所有公式并更新相应单元格的值。
+计算工作簿中的所有公式并更新相应的单元格值。
 
 ```csharp
 public void CalculateFormulas()
@@ -24,7 +24,7 @@ public void CalculateFormulas()
 
 ### 示例
 
-示例演示如何将公式分配给单元格并计算值。将“B4”单元格的值设置为 5。
+示例展示了如何为单元格分配公式并计算值。“B4”单元格的值被设置为 5。
 
 ```csharp
 [C#]

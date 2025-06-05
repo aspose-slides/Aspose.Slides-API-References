@@ -1,7 +1,7 @@
 ---
 title: ToMathArray
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt Kindelemente in einem vertikalen Array dar
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt Kind-Elemente in einem vertikalen Array dar
 type: docs
 weight: 180
 url: /de/aspose.slides.mathtext/mathblock/tomatharray/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/mathblock/tomatharray/
 
 ## MathBlock.ToMathArray-Methode
 
-Stellt Kindelemente in einem vertikalen Array dar
+Stellt Kind-Elemente in einem vertikalen Array dar
 
 ```csharp
 public override IMathArray ToMathArray()
@@ -17,7 +17,7 @@ public override IMathArray ToMathArray()
 
 ### Rückgabewert
 
-Neue Instanz vom Typ [`IMathArray`](../../imatharray)
+Neue Instanz des Typs [`IMathArray`](../../imatharray)
 
 ### Beispiele
 

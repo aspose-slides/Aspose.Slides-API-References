@@ -1,7 +1,7 @@
 ---
 title: GetLevel
-second_title: Aspose.Slides für .NET API-Referenz
-description: Wenn der Stillevel existiert, wird er zurückgegeben, sonst wird null zurückgegeben.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Wenn der Stil vorhanden ist, wird er zurückgegeben, andernfalls wird null zurückgegeben.
 type: docs
 weight: 30
 url: /de/aspose.slides/textstyle/getlevel/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/textstyle/getlevel/
 
 ## TextStyle.GetLevel-Methode
 
-Wenn der Stillevel existiert, wird er zurückgegeben, sonst wird null zurückgegeben.
+Wenn der Stil vorhanden ist, wird er zurückgegeben, andernfalls wird null zurückgegeben.
 
 ```csharp
 public IParagraphFormat GetLevel(int index)

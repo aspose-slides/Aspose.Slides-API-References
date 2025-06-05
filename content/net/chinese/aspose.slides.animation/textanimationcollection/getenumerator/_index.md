@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Sildes for .NET API Reference
-description: 返回一个枚举器，用于迭代集合。
+description: 返回一个可以迭代集合的枚举数。
 type: docs
 weight: 80
 url: /zh/aspose.slides.animation/textanimationcollection/getenumerator/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/textanimationcollection/getenumerator/
 
 ## TextAnimationCollection.GetEnumerator 方法
 
-返回一个枚举器，用于迭代集合。
+返回一个可以迭代集合的枚举数。
 
 ```csharp
 public IEnumerator<ITextAnimation> GetEnumerator()
@@ -19,7 +19,7 @@ public IEnumerator<ITextAnimation> GetEnumerator()
 
 一个可以用于迭代集合的 IEnumerator。
 
-### 另请参阅
+### 另见
 
 * 接口 [ITextAnimation](../../itextanimation)
 * 类 [TextAnimationCollection](../../textanimationcollection)

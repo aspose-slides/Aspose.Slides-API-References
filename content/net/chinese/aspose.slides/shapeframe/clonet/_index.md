@@ -1,6 +1,6 @@
 ---
 title: CloneT
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 克隆。
 type: docs
 weight: 130
@@ -19,7 +19,7 @@ public IShapeFrame CloneT()
 
 克隆的形状框架。
 
-### 另见
+### 另请参阅
 
 * 接口 [IShapeFrame](../../ishapeframe)
 * 类 [ShapeFrame](../../shapeframe)

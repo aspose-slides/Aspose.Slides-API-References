@@ -1,15 +1,15 @@
 ---
 title: AddPicturePlaceholder
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Ajoute une nouvelle forme de placeholder à la diapositive de mise en page pour contenir une image.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Ajoute une nouvelle forme d'espace réservé à la diapositive de mise en page pour contenir une image.
 type: docs
 weight: 50
 url: /fr/aspose.slides/layoutplaceholdermanager/addpictureplaceholder/
 ---
 
-## Méthode LayoutPlaceholderManager.AddPicturePlaceholder
+## LayoutPlaceholderManager.AddPicturePlaceholder méthode
 
-Ajoute une nouvelle forme de placeholder à la diapositive de mise en page pour contenir une image.
+Ajoute une nouvelle forme d'espace réservé à la diapositive de mise en page pour contenir une image.
 
 ```csharp
 public IAutoShape AddPicturePlaceholder(float x, float y, float width, float height)
@@ -17,18 +17,18 @@ public IAutoShape AddPicturePlaceholder(float x, float y, float width, float hei
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| x | Single | La coordonnée X de la nouvelle forme de placeholder. |
-| y | Single | La coordonnée Y de la nouvelle forme de placeholder. |
-| width | Single | La largeur de la nouvelle forme de placeholder. |
-| height | Single | La hauteur de la nouvelle forme de placeholder. |
+| x | Single | La coordonnée X de la nouvelle forme d'espace réservé. |
+| y | Single | La coordonnée Y de la nouvelle forme d'espace réservé. |
+| width | Single | La largeur de la nouvelle forme d'espace réservé. |
+| height | Single | La hauteur de la nouvelle forme d'espace réservé. |
 
 ### Valeur de retour
 
-[`IAutoShape`](../../iautoshape) créé avec un placeholder d'image.
+[`IAutoShape`](../../iautoshape) créé avec un espace réservé pour une image.
 
 ### Exemples
 
-L'exemple suivant montre comment ajouter la forme de placeholder d'image à la diapositive de mise en page.
+L'exemple suivant montre comment ajouter la forme d'espace réservé pour une image à la diapositive de mise en page.
 
 ```csharp
 [C#]

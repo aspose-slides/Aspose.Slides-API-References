@@ -1,6 +1,6 @@
 ---
 title: IResourceLoadingArgs
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Интерфейс для аргументов загрузки внешних ресурсов.
 type: docs
 weight: 6630
@@ -17,18 +17,18 @@ public interface IResourceLoadingArgs
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | Оригинальный URI ресурса, указанный в импортированном представлении. |
-| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | URI ресурса, который используется для загрузки, если [`ResourceLoading`](../iresourceloadingcallback/resourceloading) возвращает Default. Изначально он установлен на оригинальный URI ресурса, но может быть переопределен на любое значение. |
+| [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | Исходный URI ресурса, как указано в импортированной презентации. |
+| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | URI ресурса, который используется для загрузки, если [`ResourceLoading`](../iresourceloadingcallback/resourceloading) возвращает Default. Изначально установлен на исходный URI ресурса, но может быть переопределен на любое значение. |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | Устанавливает данные, предоставленные пользователем, о ресурсе, которые используются, если [`ResourceLoading`](../iresourceloadingcallback/resourceloading) возвращает UserProvided. |
+| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | Устанавливает предоставленные пользователем данные ресурса, которые используются, если [`ResourceLoading`](../iresourceloadingcallback/resourceloading) возвращает UserProvided. |
 
-### См. также
+### Также см. 
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

@@ -1,7 +1,7 @@
 ---
 title: EastAsianLineBreak
-second_title: Aspose.Slides for .NET API Reference
-description: 确定段落中是否使用东亚换行符。只读布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定段落中是否使用东亚换行。只读布尔值。
 type: docs
 weight: 60
 url: /zh/aspose.slides/iparagraphformateffectivedata/eastasianlinebreak/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iparagraphformateffectivedata/eastasianlinebreak/
 
 ## IParagraphFormatEffectiveData.EastAsianLineBreak 属性
 
-确定段落中是否使用东亚换行符。只读布尔值。
+确定段落中是否使用东亚换行。只读布尔值。
 
 ```csharp
 public bool EastAsianLineBreak { get; }

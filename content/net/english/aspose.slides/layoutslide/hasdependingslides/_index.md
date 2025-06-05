@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/layoutslide/hasdependingslides/
 ---
+
 ## LayoutSlide.HasDependingSlides property
 
 Returns true if there exists at least one slide that depends on this layout slide. Read-only Boolean.

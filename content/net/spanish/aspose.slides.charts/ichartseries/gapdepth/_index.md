@@ -1,7 +1,7 @@
 ---
 title: GapDepth
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve o establece la distancia como un porcentaje del ancho del marcador entre las series de datos en un gráfico 3D. Esta es la propiedad no solo de esta serie, sino de todas las series del grupo de series padre; esta es la proyección de la propiedad del grupo correspondiente. Y así, esta propiedad es de solo lectura. Utilice la propiedad ParentSeriesGroup para acceder al grupo de series padre. Utilice la propiedad de lectura/escritura ParentSeriesGroup.GapDepth para cambiar el valor. Solo lectura Int32.
+second_title: Aspose.Sildes para .NET API Referencia
+description: Devuelve o establece la distancia como un porcentaje del ancho del marcador entre las series de datos en un gráfico 3D. Esta es una propiedad no solo de esta serie, sino de todas las series del grupo de series padre; esta es la proyección de la propiedad apropiada del grupo. Y así, esta propiedad es de solo lectura. Use la propiedad ParentSeriesGroup para acceder al grupo de series padre. Use la propiedad de lectura/escritura ParentSeriesGroup.GapDepth para cambiar el valor. Entero de solo lectura Int32.
 type: docs
 weight: 120
 url: /es/aspose.slides.charts/ichartseries/gapdepth/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.charts/ichartseries/gapdepth/
 
 ## IChartSeries.GapDepth property
 
-Devuelve o establece la distancia, como un porcentaje del ancho del marcador, entre las series de datos en un gráfico 3D. Esta es la propiedad no solo de esta serie, sino de todas las series del grupo de series padre; esta es la proyección de la propiedad del grupo correspondiente. Y así, esta propiedad es de solo lectura. Utilice la propiedad ParentSeriesGroup para acceder al grupo de series padre. Utilice la propiedad de lectura/escritura ParentSeriesGroup.GapDepth para cambiar el valor. Solo lectura Int32.
+Devuelve o establece la distancia, como un porcentaje del ancho del marcador, entre las series de datos en un gráfico 3D. Esta es la propiedad no solo de esta serie, sino de todas las series del grupo de series padre; esta es la proyección de la propiedad apropiada del grupo. Y así, esta propiedad es de solo lectura. Use la propiedad ParentSeriesGroup para acceder al grupo de series padre. Use la propiedad de lectura/escritura ParentSeriesGroup.GapDepth para cambiar el valor. Entero de solo lectura Int32.
 
 ```csharp
 public int GapDepth { get; }

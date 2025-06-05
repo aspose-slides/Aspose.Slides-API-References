@@ -1,6 +1,6 @@
 ---
 title: AsIWarningInfo
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 返回 IWarningInfo 接口。只读 IWarningInfoaspose.slides.warnings/iwarninginfo。
 type: docs
 weight: 10
@@ -19,7 +19,7 @@ public IWarningInfo AsIWarningInfo { get; }
 
 为了兼容 COM。
 
-### 另见
+### 另请参阅
 
 * 接口 [IWarningInfo](../../iwarninginfo)
 * 接口 [IObsoletePresLockingBehaviorWarningInfo](../../iobsoletepreslockingbehaviorwarninginfo)

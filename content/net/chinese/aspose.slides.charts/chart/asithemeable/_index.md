@@ -1,6 +1,6 @@
 ---
 title: AsIThemeable
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 允许获取基本的 IThemeable 接口。只读 IThemeable aspose.slides.theme/ithemeable。
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/chart/asithemeable/
 public IThemeable AsIThemeable { get; }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [IThemeable](../../../aspose.slides.theme/ithemeable)
 * 类 [Chart](../../chart)

@@ -1,7 +1,7 @@
 ---
-title: 插入
-second_title: Aspose.Slides for .NET API参考
-description: 在指定索引处将数学元素插入集合中。
+title: Insert
+second_title: Aspose.Sildes for .NET API Reference
+description: 在指定的索引处插入数学元素到集合中。
 type: docs
 weight: 90
 url: /zh/aspose.slides.mathtext/imathelementcollection/insert/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathelementcollection/insert/
 
 ## IMathElementCollection.Insert 方法
 
-在指定索引处将数学元素插入集合中。
+在指定的索引处将数学元素插入到集合中。
 
 ```csharp
 public void Insert(int index, IMathElement item)
@@ -17,8 +17,8 @@ public void Insert(int index, IMathElement item)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | IMathElement 应插入的零基索引。 |
-| item | IMathElement | 要插入的 IMathElement。 |
+| index | Int32 | 插入IMathElement的零基索引。 |
+| item | IMathElement | 要插入的IMathElement。 |
 
 ### 示例
 
@@ -32,7 +32,7 @@ collection.Add(plusElement);
 collection.Insert(0, new MathRadical(new MathematicalText("x"), new MathematicalText("3")));
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IMathElement](../../imathelement)
 * 接口 [IMathElementCollection](../../imathelementcollection)

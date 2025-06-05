@@ -1,13 +1,13 @@
 ---
-title: 添加散点系列的数据点
-second_title: Aspose.Slides for .NET API 参考
+title: AddDataPointForScatterSeries
+second_title: Aspose.Slides for .NET API Reference
 description: 创建新的数据点并将其添加到集合的末尾。适用于图表类型为散点子类型之一的系列，另见 ChartTypeCharacterizer.IsChartTypeScatterChartType 方法。
 type: docs
 weight: 180
 url: /zh/aspose.slides.charts/ichartdatapointcollection/adddatapointforscatterseries/
 ---
 
-## 添加散点系列的数据点(IChartDataCell, IChartDataCell) {#adddatapointforscatterseries}
+## AddDataPointForScatterSeries(IChartDataCell, IChartDataCell) {#adddatapointforscatterseries}
 
 创建新的数据点并将其添加到集合的末尾。适用于图表类型为散点子类型之一的系列（另见 ChartTypeCharacterizer.IsChartTypeScatter(ChartType) 方法）。
 
@@ -17,12 +17,12 @@ public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, IChar
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| xValue | IChartDataCell | 数据点 X 值 |
-| yValue | IChartDataCell | 数据点 Y 值 |
+| xValue | IChartDataCell | 数据点 XValue |
+| yValue | IChartDataCell | 数据点 YValue |
 
 ### 返回值
 
-新数据点。
+新的数据点。
 
 ### 另见
 
@@ -34,7 +34,7 @@ public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, IChar
 
 ---
 
-## 添加散点系列的数据点(double, IChartDataCell) {#adddatapointforscatterseries_2}
+## AddDataPointForScatterSeries(double, IChartDataCell) {#adddatapointforscatterseries_2}
 
 创建新的数据点并将其添加到集合的末尾。适用于图表类型为散点子类型之一的系列（另见 ChartTypeCharacterizer.IsChartTypeScatter(ChartType) 方法）。
 
@@ -44,12 +44,12 @@ public IChartDataPoint AddDataPointForScatterSeries(double xValue, IChartDataCel
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| xValue | Double | 数据点 X 值 |
-| yValue | IChartDataCell | 数据点 Y 值 |
+| xValue | Double | 数据点 XValue |
+| yValue | IChartDataCell | 数据点 YValue |
 
 ### 返回值
 
-新数据点。
+新的数据点。
 
 ### 另见
 
@@ -61,7 +61,7 @@ public IChartDataPoint AddDataPointForScatterSeries(double xValue, IChartDataCel
 
 ---
 
-## 添加散点系列的数据点(string, IChartDataCell) {#adddatapointforscatterseries_4}
+## AddDataPointForScatterSeries(string, IChartDataCell) {#adddatapointforscatterseries_4}
 
 创建新的数据点并将其添加到集合的末尾。适用于图表类型为散点子类型之一的系列（另见 ChartTypeCharacterizer.IsChartTypeScatter(ChartType) 方法）。
 
@@ -71,12 +71,12 @@ public IChartDataPoint AddDataPointForScatterSeries(string xValue, IChartDataCel
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| xValue | String | 数据点 X 值 |
-| yValue | IChartDataCell | 数据点 Y 值 |
+| xValue | String | 数据点 XValue |
+| yValue | IChartDataCell | 数据点 YValue |
 
 ### 返回值
 
-新数据点。
+新的数据点。
 
 ### 另见
 
@@ -88,7 +88,7 @@ public IChartDataPoint AddDataPointForScatterSeries(string xValue, IChartDataCel
 
 ---
 
-## 添加散点系列的数据点(IChartDataCell, double) {#adddatapointforscatterseries_1}
+## AddDataPointForScatterSeries(IChartDataCell, double) {#adddatapointforscatterseries_1}
 
 创建新的数据点并将其添加到集合的末尾。适用于图表类型为散点子类型之一的系列（另见 ChartTypeCharacterizer.IsChartTypeScatter(ChartType) 方法）。
 
@@ -98,12 +98,12 @@ public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, doubl
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| xValue | IChartDataCell | 数据点 X 值 |
-| yValue | Double | 数据点 Y 值 |
+| xValue | IChartDataCell | 数据点 XValue |
+| yValue | Double | 数据点 YValue |
 
 ### 返回值
 
-新数据点。
+新的数据点。
 
 ### 另见
 
@@ -115,7 +115,7 @@ public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, doubl
 
 ---
 
-## 添加散点系列的数据点(double, double) {#adddatapointforscatterseries_3}
+## AddDataPointForScatterSeries(double, double) {#adddatapointforscatterseries_3}
 
 创建新的数据点并将其添加到集合的末尾。适用于图表类型为散点子类型之一的系列（另见 ChartTypeCharacterizer.IsChartTypeScatter(ChartType) 方法）。
 
@@ -125,12 +125,12 @@ public IChartDataPoint AddDataPointForScatterSeries(double xValue, double yValue
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| xValue | Double | 数据点 X 值 |
-| yValue | Double | 数据点 Y 值 |
+| xValue | Double | 数据点 XValue |
+| yValue | Double | 数据点 YValue |
 
 ### 返回值
 
-新数据点。
+新的数据点。
 
 ### 另见
 
@@ -141,7 +141,7 @@ public IChartDataPoint AddDataPointForScatterSeries(double xValue, double yValue
 
 ---
 
-## 添加散点系列的数据点(string, double) {#adddatapointforscatterseries_5}
+## AddDataPointForScatterSeries(string, double) {#adddatapointforscatterseries_5}
 
 创建新的数据点并将其添加到集合的末尾。适用于图表类型为散点子类型之一的系列（另见 ChartTypeCharacterizer.IsChartTypeScatter(ChartType) 方法）。
 
@@ -151,12 +151,12 @@ public IChartDataPoint AddDataPointForScatterSeries(string xValue, double yValue
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| xValue | String | 数据点 X 值 |
-| yValue | Double | 数据点 Y 值 |
+| xValue | String | 数据点 XValue |
+| yValue | Double | 数据点 YValue |
 
 ### 返回值
 
-新数据点。
+新的数据点。
 
 ### 另见
 

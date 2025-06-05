@@ -15,10 +15,10 @@ Devuelve o establece la coordenada x de un título como una fracción del ancho 
 public float X { get; set; }
 ```
 
-### Ver También
+### Ver también
 
 * clase [DataLabel](../../datalabel)
 * espacio de nombres [Aspose.Slides.Charts](../../datalabel)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

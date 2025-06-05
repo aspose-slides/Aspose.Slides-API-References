@@ -3,9 +3,10 @@ title: BrowsedByIndividual
 second_title: Aspose.Sildes for .NET API Reference
 description: Browsed by individual window
 type: docs
-weight: 960
+weight: 970
 url: /aspose.slides/browsedbyindividual/
 ---
+
 ## BrowsedByIndividual class
 
 Browsed by individual (window)

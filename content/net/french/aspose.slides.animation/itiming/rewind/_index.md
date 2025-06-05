@@ -1,7 +1,7 @@
 ---
-title: Rembobiner
-second_title: Références API Aspose.Sildes pour .NET
-description: Cet attribut spécifie si l'effet sera rembobiné une fois la lecture terminée. Booléen en lecture/écriture.
+title: Rewind
+second_title: Aspose.Sildes pour la référence API .NET
+description: Cet attribut spécifie si l'effet sera rembobiné une fois terminé. Booléen en lecture/écriture.
 type: docs
 weight: 100
 url: /fr/aspose.slides.animation/itiming/rewind/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/itiming/rewind/
 
 ## Propriété ITiming.Rewind
 
-Cet attribut spécifie si l'effet sera rembobiné une fois la lecture terminée. Booléen en lecture/écriture.
+Cet attribut spécifie si l'effet sera rembobiné une fois terminé. Booléen en lecture/écriture.
 
 ```csharp
 public bool Rewind { get; set; }

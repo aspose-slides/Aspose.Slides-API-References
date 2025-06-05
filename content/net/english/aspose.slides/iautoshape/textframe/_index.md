@@ -1,14 +1,15 @@
 ---
 title: TextFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: Returns TextFrameEx object for the AutoShapeEx. Read-only ITextFrameaspose.slides/itextframe.
+description: Returns TextFrame object for the AutoShape. Read-only ITextFrameaspose.slides/itextframe.
 type: docs
 weight: 50
 url: /aspose.slides/iautoshape/textframe/
 ---
+
 ## IAutoShape.TextFrame property
 
-Returns TextFrameEx object for the AutoShapeEx. Read-only [`ITextFrame`](../../itextframe).
+Returns TextFrame object for the AutoShape. Read-only [`ITextFrame`](../../itextframe).
 
 ```csharp
 public ITextFrame TextFrame { get; }

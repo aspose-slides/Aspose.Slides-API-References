@@ -1,7 +1,7 @@
 ---
-title: Vider
-second_title: Référence API Aspose.Slides pour .NET
-description: Efface tous les tampons pour ce flux et provoque l'écriture de toutes les données mises en tampon sur le périphérique sous-jacent.
+title: Flush
+second_title: Aspose.Slides pour .NET API Reference
+description: Efface tous les tampons pour ce flux et provoque l'écriture de toutes les données mises en mémoire tampon sur le périphérique sous-jacent.
 type: docs
 weight: 90
 url: /fr/aspose.slides/istreamwrapper/flush/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/istreamwrapper/flush/
 
 ## Méthode IStreamWrapper.Flush
 
-Efface tous les tampons pour ce flux et provoque l'écriture de toutes les données mises en tampon sur le périphérique sous-jacent.
+Efface tous les tampons pour ce flux et provoque l'écriture de toutes les données mises en mémoire tampon sur le périphérique sous-jacent.
 
 ```csharp
 public void Flush()

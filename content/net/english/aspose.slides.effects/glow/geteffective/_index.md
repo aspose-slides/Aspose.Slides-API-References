@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.effects/glow/geteffective/
 ---
+
 ## Glow.GetEffective method
 
 Gets effective Glow effect data with the inheritance applied.

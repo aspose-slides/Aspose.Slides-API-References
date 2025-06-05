@@ -1,6 +1,6 @@
 ---
 title: RemoveAt
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Elimina un efecto de una colección.
 type: docs
 weight: 110
@@ -22,7 +22,7 @@ public void RemoveAt(int index)
 ### Ver También
 
 * clase [Sequence](../../sequence)
-* namespace [Aspose.Slides.Animation](../../sequence)
-* assembly [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides.Animation](../../sequence)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

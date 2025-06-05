@@ -1,13 +1,13 @@
 ---
-title: Punktkollektion
-second_title: Aspose.Slides für .NET API-Referenz
+title: PointCollection
+second_title: Aspose.Slides für .NET API Referenz
 description: Der Standardkonstruktor.
 type: docs
 weight: 10
 url: /de/aspose.slides.animation/pointcollection/pointcollection/
 ---
 
-## Konstruktor der Punktkollektion
+## PointCollection Konstruktor
 
 Der Standardkonstruktor.
 
@@ -15,7 +15,7 @@ Der Standardkonstruktor.
 public PointCollection()
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [PointCollection](../../pointcollection)
 * Namespace [Aspose.Slides.Animation](../../pointcollection)

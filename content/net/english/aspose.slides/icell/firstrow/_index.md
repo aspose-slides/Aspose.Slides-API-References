@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/icell/firstrow/
 ---
+
 ## ICell.FirstRow property
 
 Gets first row of cell. Read-only [`IRow`](../../irow).

@@ -1,13 +1,13 @@
 ---
 title: SegmentData
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Данные пути сегмента
 type: docs
 weight: 20
 url: /ru/aspose.slides/ipathsegment/segmentdata/
 ---
 
-## Свойство IPathSegment.SegmentData
+## IPathSegment.SegmentData свойство
 
 Данные пути сегмента
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ipathsegment/segmentdata/
 public float[] SegmentData { get; }
 ```
 
-### Также смотрите
+### См. также
 
 * интерфейс [IPathSegment](../../ipathsegment)
 * пространство имен [Aspose.Slides](../../ipathsegment)

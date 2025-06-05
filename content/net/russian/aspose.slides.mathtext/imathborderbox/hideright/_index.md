@@ -1,15 +1,15 @@
 ---
-title: СкрытьПравый
-second_title: Aspose.Slides для .NET API Справочник
-description: Скрыть правый край по умолчанию равно false - указывает на скрытое или показанное состояние правого края рамки.
+title: HideRight
+second_title: Справка по API Aspose.Slides для .NET
+description: Параметр Hide Right Edge по умолчанию false указывает на скрытое или показанное состояние правого края границы.
 type: docs
 weight: 50
 url: /ru/aspose.slides.mathtext/imathborderbox/hideright/
 ---
 
-## IMathBorderBox.HideRight свойство
+## IMathBorderBox.HideRight property
 
-Скрыть правый край (по умолчанию равно false) - указывает на скрытое или показанное состояние правого края рамки.
+Параметр Hide Right Edge (по умолчанию false) указывает на скрытое или показанное состояние правого края границы.
 
 ```csharp
 public bool HideRight { get; set; }
@@ -25,7 +25,7 @@ IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox();
 borderBox.HideRight = true;
 ```
 
-### Также см.
+### См. также
 
 * интерфейс [IMathBorderBox](../../imathborderbox)
 * пространство имен [Aspose.Slides.MathText](../../imathborderbox)

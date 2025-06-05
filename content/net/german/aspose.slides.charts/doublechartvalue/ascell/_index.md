@@ -1,7 +1,7 @@
 ---
 title: AsCell
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Diagrammdatenzelle zurück oder setzt sie. Lese-/Schreibzugriff auf IChartDataCellaspose.slides/ichartdatacell.
+description: Gibt die Zelle der Diagrammdaten zurück oder legt sie fest. Lese-/Schreibzugriff auf IChartDataCellaspose.slides/ichartdatacell.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/doublechartvalue/ascell/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/doublechartvalue/ascell/
 
 ## DoubleChartValue.AsCell-Eigenschaft
 
-Gibt die Diagrammdatenzelle zurück oder setzt sie. Lese-/Schreibzugriff auf [`IChartDataCell`](../../ichartdatacell).
+Gibt die Zelle der Diagrammdaten zurück oder legt sie fest. Lese-/Schreibzugriff auf [`IChartDataCell`](../../ichartdatacell).
 
 ```csharp
 public IChartDataCell AsCell { get; set; }

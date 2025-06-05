@@ -1,6 +1,6 @@
 ---
 title: MathBlockFactory
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Permet de créer un bloc mathématique
 type: docs
 weight: 8340
@@ -33,7 +33,7 @@ public class MathBlockFactory : IMathBlockFactory
 
 Pour la compatibilité COM
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathBlockFactory](../imathblockfactory)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

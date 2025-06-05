@@ -3,9 +3,10 @@ title: ShowTopPane
 second_title: Aspose.Sildes for .NET API Reference
 description: Show/hide whole top pane. Can be overridden in flashvars. Default is true.
 type: docs
-weight: 150
+weight: 140
 url: /aspose.slides.export/swfoptions/showtoppane/
 ---
+
 ## SwfOptions.ShowTopPane property
 
 Show/hide whole top pane. Can be overridden in flashvars. Default is true.

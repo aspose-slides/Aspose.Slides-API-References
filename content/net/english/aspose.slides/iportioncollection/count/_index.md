@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/iportioncollection/count/
 ---
+
 ## IPortionCollection.Count property
 
 Gets the number of elements actually contained in the collection. Read-only Int32.

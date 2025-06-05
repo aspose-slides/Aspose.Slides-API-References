@@ -1,5 +1,5 @@
 ---
-title: DirectionDeGradient
+title: GradientDirection
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie le style d'un dégradé. Lecture seule GradientDirectionaspose.slides/gradientdirection.
 type: docs
@@ -7,7 +7,7 @@ weight: 20
 url: /fr/aspose.slides/igradientformateffectivedata/gradientdirection/
 ---
 
-## Propriété IGradientFormatEffectiveData.GradientDirection
+## IGradientFormatEffectiveData.GradientDirection propriété
 
 Renvoie le style d'un dégradé. Lecture seule [`GradientDirection`](../../gradientdirection).
 
@@ -15,7 +15,7 @@ Renvoie le style d'un dégradé. Lecture seule [`GradientDirection`](../../gradi
 public GradientDirection GradientDirection { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [GradientDirection](../../gradientdirection)
 * interface [IGradientFormatEffectiveData](../../igradientformateffectivedata)

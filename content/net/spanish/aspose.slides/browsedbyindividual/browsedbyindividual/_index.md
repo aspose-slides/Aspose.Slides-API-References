@@ -1,6 +1,6 @@
 ---
 title: BrowsedByIndividual
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Inicializa una nueva instancia de la clase BrowsedByIndividual.
 type: docs
 weight: 10
@@ -26,9 +26,9 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Véase También
+### Véase también
 
-* clase [BrowsedByIndividual](../../browsedbyindividual)
+* class [BrowsedByIndividual](../../browsedbyindividual)
 * namespace [Aspose.Slides](../../browsedbyindividual)
 * assembly [Aspose.Slides](../../../)
 

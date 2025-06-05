@@ -1,7 +1,7 @@
 ---
-title: Ausrichtung
+title: Orientation
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ausrichtung des Übergangsplitters. Lese-/Schreibausrichtungaspose.slides/orientation.
+description: Ausrichtung des Übergangsteils. Lesen/Schreiben von Orientationaspose.slides/../aspose.slides/orientation.
 type: docs
 weight: 20
 url: /de/aspose.slides.slideshow/splittransition/orientation/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.slideshow/splittransition/orientation/
 
 ## SplitTransition.Orientation-Eigenschaft
 
-Ausrichtung des Übergangsplitters. Lese-/Schreib- [`Orientation`](../../../aspose.slides/orientation).
+Ausrichtung des Übergangsteils. Lesen/Schreiben von [`Orientation`](../../../aspose.slides/orientation).
 
 ```csharp
 public Orientation Orientation { get; set; }

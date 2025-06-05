@@ -1,6 +1,6 @@
 ---
 title: InsertAudioFrameCD
-second_title: Aspose.Sildes для .NET API Справка
+second_title: Aspose.Slidеs для .NET API Reference
 description: Вставить AudioFrame с CD.
 type: docs
 weight: 220
@@ -17,17 +17,17 @@ public IAudioFrame InsertAudioFrameCD(int index, float x, float y, float width, 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Нулевой индекс, по которому должен быть вставлен видеокадр. |
-| x | Single | Координата X нового аудиокадра. |
-| y | Single | Координата Y нового аудиокадра. |
-| width | Single | Ширина нового аудиокадра. |
-| height | Single | Высота нового аудиокадра. |
+| index | Int32 | Индекс, начиная с нуля, по которому должен быть вставлен видеокадр. |
+| x | Single | Координата X нового аудио фрейма. |
+| y | Single | Координата Y нового аудио фрейма. |
+| width | Single | Ширина нового аудио фрейма. |
+| height | Single | Высота нового аудио фрейма. |
 
 ### Возвращаемое значение
 
 Созданный объект AudioFrame.
 
-### См. Также
+### См. также
 
 * интерфейс [IAudioFrame](../../iaudioframe)
 * интерфейс [IShapeCollection](../../ishapecollection)

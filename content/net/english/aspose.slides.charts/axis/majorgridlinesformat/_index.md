@@ -6,6 +6,7 @@ type: docs
 weight: 340
 url: /aspose.slides.charts/axis/majorgridlinesformat/
 ---
+
 ## Axis.MajorGridLinesFormat property
 
 Represents major gridlines format on a chart axis. Read-only [`IChartLinesFormat`](../../ichartlinesformat).

@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.charts/legend/textformat/
 ---
+
 ## Legend.TextFormat property
 
 Text format. Read-only [`IChartTextFormat`](../../icharttextformat).

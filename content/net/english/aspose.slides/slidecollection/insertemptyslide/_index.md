@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides/slidecollection/insertemptyslide/
 ---
+
 ## SlideCollection.InsertEmptySlide method
 
 Inserts a copy of a specified slide to specified position of the collection.

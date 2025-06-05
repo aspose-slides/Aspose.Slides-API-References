@@ -3,9 +3,10 @@ title: WarningCallback
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallbackaspose.slides.warnings/iwarningcallback.
 type: docs
-weight: 140
+weight: 150
 url: /aspose.slides/loadoptions/warningcallback/
 ---
+
 ## LoadOptions.WarningCallback property
 
 Returns or sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write [`IWarningCallback`](../../../aspose.slides.warnings/iwarningcallback).

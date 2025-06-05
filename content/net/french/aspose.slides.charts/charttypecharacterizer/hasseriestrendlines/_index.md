@@ -1,15 +1,15 @@
 ---
 title: HasSeriesTrendLines
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Indique s'il existe des lignes de tendance pour le type de série spécifié.
+description: Retourne si des lignes de tendance de série existent pour le type de série spécifié.
 type: docs
 weight: 10
 url: /fr/aspose.slides.charts/charttypecharacterizer/hasseriestrendlines/
 ---
 
-## Méthode ChartTypeCharacterizer.HasSeriesTrendLines
+## ChartTypeCharacterizer.HasSeriesTrendLines méthode
 
-Indique s'il existe des lignes de tendance pour le type de série spécifié.
+Retourne si des lignes de tendance de série existent pour le type de série spécifié.
 
 ```csharp
 public static bool HasSeriesTrendLines(ChartType seriesType)
@@ -19,7 +19,7 @@ public static bool HasSeriesTrendLines(ChartType seriesType)
 | --- | --- | --- |
 | seriesType | ChartType | Type de série. |
 
-### Valeur de Retour
+### Valeur de retour
 
 Vrai si présent, sinon faux.
 

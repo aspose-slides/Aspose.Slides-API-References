@@ -1,21 +1,21 @@
 ---
-title: Смешивание
-second_title: Справочник по API Aspose.Slides для .NET
-description: FillBlendMode. Только для чтения FillBlendModeaspose.slides/fillblendmode.
+title: Blend
+second_title: Aspose.Sildes for .NET API Reference
+description: FillBlendMode. Read-only FillBlendModeaspose.slides/fillblendmode.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/ifilloverlayeffectivedata/blend/
 ---
 
-## Свойство IFillOverlayEffectiveData.Blend
+## IFillOverlayEffectiveData.Blend свойство
 
-FillBlendMode. Только для чтения [`FillBlendMode`](../../../aspose.slides/fillblendmode).
+FillBlendMode. Read-only [`FillBlendMode`](../../../aspose.slides/fillblendmode).
 
 ```csharp
 public FillBlendMode Blend { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * enum [FillBlendMode](../../../aspose.slides/fillblendmode)
 * interface [IFillOverlayEffectiveData](../../ifilloverlayeffectivedata)

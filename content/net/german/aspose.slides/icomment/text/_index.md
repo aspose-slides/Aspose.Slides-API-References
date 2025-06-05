@@ -1,7 +1,7 @@
 ---
 title: Text
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den reinen Text eines Kommentars zu einer Folie zurück oder setzt ihn. Lese-/Schreib-String.
+description: Gibt den einfachen Text eines Folienkommentars zurück oder legt ihn fest. Lese-/Schreib-String.
 type: docs
 weight: 60
 url: /de/aspose.slides/icomment/text/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/icomment/text/
 
 ## IComment.Text-Eigenschaft
 
-Gibt den reinen Text eines Kommentars zu einer Folie zurück oder setzt ihn. Lese-/Schreib-String.
+Gibt den einfachen Text eines Folienkommentars zurück oder legt ihn fest. Lese-/Schreib-String.
 
 ```csharp
 public string Text { get; set; }

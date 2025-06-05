@@ -1,6 +1,6 @@
 ---
 title: IParagraph
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Stellt einen Absatz eines Textes dar.
 type: docs
 weight: 6360
@@ -19,21 +19,21 @@ public interface IParagraph : ISlideComponent
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/iparagraph/asislidecomponent) { get; } | Ermöglicht den Zugriff auf die Basis-Schnittstelle ISlideComponent. Nur lesbar [`ISlideComponent`](../islidecomponent). |
-| [EndParagraphPortionFormat](../../aspose.slides/iparagraph/endparagraphportionformat) { get; set; } | Gibt die Eigenschaften des Portionsformats an, die verwendet werden sollen, wenn eine andere Portion nach der letzten eingefügt wird. |
+| [AsISlideComponent](../../aspose.slides/iparagraph/asislidecomponent) { get; } | Ermöglicht den Zugriff auf die grundlegende ISlideComponent-Schnittstelle. Nur lesbar [`ISlideComponent`](../islidecomponent). |
+| [EndParagraphPortionFormat](../../aspose.slides/iparagraph/endparagraphportionformat) { get; set; } | Gibt die Eigenschaften der Portion an, die verwendet werden sollen, wenn eine andere Portion nach der letzten eingefügt wird. |
 | [ParagraphFormat](../../aspose.slides/iparagraph/paragraphformat) { get; } | Gibt das Formatierungsobjekt für diesen Absatz zurück. Nur lesbar [`IParagraphFormat`](../iparagraphformat). |
-| [Portions](../../aspose.slides/iparagraph/portions) { get; } | Gibt die Sammlung der Textportionen zurück. Nur lesbar [`IPortionCollection`](../iportioncollection). |
-| [Text](../../aspose.slides/iparagraph/text) { get; set; } | Holt oder setzt den einfachen Text eines Absatzes. Lesen/Schreiben String. |
+| [Portions](../../aspose.slides/iparagraph/portions) { get; } | Gibt die Sammlung von Textportionen zurück. Nur lesbar [`IPortionCollection`](../iportioncollection). |
+| [Text](../../aspose.slides/iparagraph/text) { get; set; } | Ruft den einfachen Text eines Absatzes ab oder legt ihn fest. Lese-/Schreibzugriff String. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | [GetLinesCount](../../aspose.slides/iparagraph/getlinescount)() | Gibt die Anzahl der Zeilen in einem Absatz zurück. |
-| [GetRect](../../aspose.slides/iparagraph/getrect)() | Gibt die Koordinaten des Rechtecks zurück, das den Absatz umschließt. Das Rechteck umfasst alle Zeilen Text im Absatz, einschließlich leerer Zeilen. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | Verbindet Absätze mit demselben Format. |
+| [GetRect](../../aspose.slides/iparagraph/getrect)() | Gibt die Koordinaten des Rechtecks zurück, das den Absatz umfasst. Das Rechteck enthält alle Textzeilen im Absatz, einschließlich leerer. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | Verbindet Abschnitte mit demselben Format. |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ISlideComponent](../islidecomponent)
 * Namespace [Aspose.Slides](../../aspose.slides)

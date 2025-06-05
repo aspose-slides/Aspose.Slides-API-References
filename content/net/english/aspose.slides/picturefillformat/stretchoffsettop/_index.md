@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/picturefillformat/stretchoffsettop/
 ---
+
 ## PictureFillFormat.StretchOffsetTop property
 
 Returns or sets top edge of the fill rectangle that is defined by a percentage offset from the top edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write Single.

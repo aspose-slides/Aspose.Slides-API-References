@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/iresourceloadingcallback/resourceloading/
 ---
+
 ## IResourceLoadingCallback.ResourceLoading method
 
 Callback method which regulates external resources loading.

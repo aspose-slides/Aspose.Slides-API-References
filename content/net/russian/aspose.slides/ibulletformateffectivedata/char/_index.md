@@ -1,15 +1,15 @@
 ---
-title: Символ
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает символ маркера абзаца. Свойство только для чтения Char.
+title: Char
+second_title: Aspose.Sildes для .NET API Справка
+description: Возвращает символ буллета абзаца. Только для чтения Char.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ibulletformateffectivedata/char/
 ---
 
-## Свойство IBulletFormatEffectiveData.Char
+## IBulletFormatEffectiveData.Char свойство
 
-Возвращает символ маркера абзаца. Свойство только для чтения Char.
+Возвращает символ буллета абзаца. Только для чтения Char.
 
 ```csharp
 public char Char { get; }

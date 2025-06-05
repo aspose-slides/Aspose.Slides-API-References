@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/ithreedformateffectivedata/lightrig/
 ---
+
 ## IThreeDFormatEffectiveData.LightRig property
 
 Returns the type of a light. Read-only [`ILightRigEffectiveData`](../../ilightrigeffectivedata).

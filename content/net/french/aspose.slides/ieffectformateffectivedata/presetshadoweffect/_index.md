@@ -15,7 +15,7 @@ Ombre prédéfinie. Données [`IPresetShadowEffectiveData`](../../../aspose.slid
 public IPresetShadowEffectiveData PresetShadowEffect { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IPresetShadowEffectiveData](../../../aspose.slides.effects/ipresetshadoweffectivedata)
 * interface [IEffectFormatEffectiveData](../../ieffectformateffectivedata)

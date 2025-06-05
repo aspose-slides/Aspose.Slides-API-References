@@ -1,7 +1,7 @@
 ---
 title: SlideImageSize
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Bildgröße der Folie zurück. Nur-Lese SizeF.
+description: Gibt die Größe des Folienbilds zurück. Nur-Lese SizeF.
 type: docs
 weight: 30
 url: /de/aspose.slides.export/ihtmlgenerator/slideimagesize/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/ihtmlgenerator/slideimagesize/
 
 ## IHtmlGenerator.SlideImageSize-Eigenschaft
 
-Gibt die Bildgröße der Folie zurück. Nur-Lese SizeF.
+Gibt die Größe des Folienbilds zurück. Nur-Lese SizeF.
 
 ```csharp
 public SizeF SlideImageSize { get; }

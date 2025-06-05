@@ -1,15 +1,15 @@
 ---
 title: DataSourceTypeForXValues
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie si la propriété AsCell, AsLiteralString ou AsLiteralDouble est actuelle dans l'objet propriété XValue des points de données. En d'autres termes, cela spécifie le type de valeur de la propriété ChartDataPointEx.XValue.Data. Propriété en lecture/écriture DataSourceTypeaspose.slides/datasourcetype.
+second_title: Aspose.Slides pour référence API .NET
+description: Spécifie si la propriété AsCell, AsLiteralString ou AsLiteralDouble est actuelle dans l'objet propriété XValue des points de données. En d'autres termes, cela spécifie le type de valeur de la propriété ChartDataPointEx.XValue.Data. Écriture/lecture DataSourceTypeaspose.slides.charts/datasourcetype.
 type: docs
 weight: 40
 url: /fr/aspose.slides.charts/ichartdatapointcollection/datasourcetypeforxvalues/
 ---
 
-## Propriété IChartDataPointCollection.DataSourceTypeForXValues
+## IChartDataPointCollection.DataSourceTypeForXValues propriété
 
-Spécifie si la propriété AsCell, AsLiteralString ou AsLiteralDouble est actuelle dans l'objet propriété XValue des points de données. En d'autres termes, cela spécifie le type de valeur de la propriété ChartDataPointEx.XValue.Data. Propriété en lecture/écriture [`DataSourceType`](../../datasourcetype).
+Spécifie si la propriété AsCell, AsLiteralString ou AsLiteralDouble est actuelle dans l'objet propriété XValue des points de données. En d'autres termes, cela spécifie le type de valeur de la propriété ChartDataPointEx.XValue.Data. Écriture/lecture [`DataSourceType`](../../datasourcetype).
 
 ```csharp
 public DataSourceType DataSourceTypeForXValues { get; set; }

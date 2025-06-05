@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/pptcorruptfileexception/pptcorruptfileexception/
 ---
+
 ## PptCorruptFileException() {#constructor}
 
 Default constructor.

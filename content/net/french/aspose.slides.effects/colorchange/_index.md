@@ -1,6 +1,6 @@
 ---
 title: ColorChange
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour les références de l'API .NET
 description: Représente un effet de changement de couleur. Les instances de FromColor sont remplacées par des instances de ToColor.
 type: docs
 weight: 2840
@@ -19,19 +19,19 @@ public sealed class ColorChange : ImageTransformOperation, IColorChange
 
 | Nom | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface de base IPresentationComponent. Lecture seule [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [FromColor](../../aspose.slides.effects/colorchange/fromcolor) { get; } | Couleur qui sera remplacée. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [ToColor](../../aspose.slides.effects/colorchange/tocolor) { get; } | Couleur qui remplacera. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface de base IPresentationComponent. En lecture seule [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [FromColor](../../aspose.slides.effects/colorchange/fromcolor) { get; } | Couleur qui sera remplacée. En lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [ToColor](../../aspose.slides.effects/colorchange/tocolor) { get; } | Couleur qui remplacera. En lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/colorchange/equals)(object) | Détermine si le [`ColorChange`](../colorchange) spécifié est égal au [`ColorChange`](../colorchange) actuel. |
-| [GetEffective](../../aspose.slides.effects/colorchange/geteffective)() | Obtient les données d'effet de changement de couleur effectif avec l'héritage appliqué. |
+| [GetEffective](../../aspose.slides.effects/colorchange/geteffective)() | Obtient les données effectives de l'effet de changement de couleur avec l'héritage appliqué. |
 | override [GetHashCode](../../aspose.slides.effects/colorchange/gethashcode)() | Sert de fonction de hachage pour un type particulier. |
 
-### Voir Aussi
+### Voir aussi
 
 * classe [ImageTransformOperation](../imagetransformoperation)
 * interface [IColorChange](../icolorchange)

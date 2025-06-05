@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.effects/alphamodulatefixed/geteffective/
 ---
+
 ## AlphaModulateFixed.GetEffective method
 
 Gets effective Alpha Modulate Fixed effect data with the inheritance applied.

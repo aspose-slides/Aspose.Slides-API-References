@@ -1,7 +1,7 @@
 ---
 title: FadeDirection
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Richtung an, in die die Reflexion verschoben werden soll. Winkel. Lese-/Schreibzugriff Single.
+description: Gibt die Richtung an, um die Reflexion zu verschieben. Winkel. Lese-/Schreib-Zahl.
 type: docs
 weight: 80
 url: /de/aspose.slides.effects/ireflection/fadedirection/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.effects/ireflection/fadedirection/
 
 ## IReflection.FadeDirection-Eigenschaft
 
-Gibt die Richtung an, in die die Reflexion verschoben werden soll. (Winkel). Lese-/Schreibzugriff Single.
+Gibt die Richtung an, um die Reflexion zu verschieben. (Winkel). Lese-/Schreib-Zahl.
 
 ```csharp
 public float FadeDirection { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IReflection](../../ireflection)
 * Namespace [Aspose.Slides.Effects](../../ireflection)

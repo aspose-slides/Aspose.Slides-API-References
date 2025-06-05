@@ -1,13 +1,13 @@
 ---
-title: Chiffrer
-second_title: Référence API Aspose.Slides pour .NET
+title: Encrypt
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Chiffre la présentation avec le mot de passe spécifié.
 type: docs
 weight: 80
 url: /fr/aspose.slides/protectionmanager/encrypt/
 ---
 
-## Méthode ProtectionManager.Encrypt
+## ProtectionManager.Encrypt method
 
 Chiffre la présentation avec le mot de passe spécifié.
 

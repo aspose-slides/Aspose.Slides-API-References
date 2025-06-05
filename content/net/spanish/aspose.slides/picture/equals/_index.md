@@ -1,6 +1,6 @@
 ---
-title: Iguales
-second_title: Referencia de la API Aspose.Slides para .NET
+title: Equals
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Compara con el objeto especificado.
 type: docs
 weight: 70
@@ -27,6 +27,6 @@ Verdadero si los objetos son iguales, de lo contrario falso.
 
 * clase [Picture](../../picture)
 * espacio de nombres [Aspose.Slides](../../picture)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

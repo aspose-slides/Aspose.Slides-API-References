@@ -1,7 +1,7 @@
 ---
-title: Largeur
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit la largeur d'une ligne. Lecture/écriture Double.
+title: Width
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie ou définit la largeur d'une ligne. Écriture/lecture Double.
 type: docs
 weight: 170
 url: /fr/aspose.slides/lineformat/width/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/lineformat/width/
 
 ## Propriété LineFormat.Width
 
-Renvoie ou définit la largeur d'une ligne. Lecture/écriture Double.
+Renvoie ou définit la largeur d'une ligne. Écriture/lecture Double.
 
 ```csharp
 public double Width { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [LineFormat](../../lineformat)
 * espace de noms [Aspose.Slides](../../lineformat)

@@ -1,6 +1,6 @@
 ---
-title: 从
-second_title: Aspose.Slides for .NET API 参考
+title: From
+second_title: Aspose.Sildes for .NET API Reference
 description: 指定动画的起始值。可读写字符串。
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/ipropertyeffect/from/
 public string From { get; set; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IPropertyEffect](../../ipropertyeffect)
 * 命名空间 [Aspose.Slides.Animation](../../ipropertyeffect)

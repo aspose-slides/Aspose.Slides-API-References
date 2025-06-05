@@ -6,6 +6,7 @@ type: docs
 weight: 390
 url: /aspose.slides/shapecollection/inserttable/
 ---
+
 ## ShapeCollection.InsertTable method
 
 Creates a new Table and inserts it to the collection at the specified index.

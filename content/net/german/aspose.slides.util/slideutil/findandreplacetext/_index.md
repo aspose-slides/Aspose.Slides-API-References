@@ -1,15 +1,15 @@
 ---
 title: FindAndReplaceText
-second_title: Aspose.Slides für .NET API-Referenz
-description: Findet und ersetzt Text in Präsentationen mit dem angegebenen Format
+second_title: Aspose.Slides für .NET API Referenz
+description: Findet und ersetzt Text in Präsentationen mit gegebenem Format
 type: docs
 weight: 20
 url: /de/aspose.slides.util/slideutil/findandreplacetext/
 ---
 
-## SlideUtil.FindAndReplaceText-Methode
+## SlideUtil.FindAndReplaceText Methode
 
-Findet und ersetzt Text in der Präsentation mit dem angegebenen Format
+Findet und ersetzt Text in Präsentationen mit gegebenem Format
 
 ```csharp
 public static void FindAndReplaceText(IPresentation presentation, bool withMasters, string find, 
@@ -19,10 +19,10 @@ public static void FindAndReplaceText(IPresentation presentation, bool withMaste
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | presentation | IPresentation | Durchsuchte Präsentation. |
-| withMasters | Boolean | Bestimmt, ob Masterfolien durchsuch werden sollen. |
-| find | String | Zu suchender String-Wert. |
-| replace | String | Zu ersetzender String-Wert. |
-| format | PortionFormat | Format für das Ersetzen des Textteils. Wenn null, wird das Format des ersten Zeichens des gefundenen Strings verwendet. |
+| withMasters | Boolean | Bestimmt, ob Masterfolien durchforstet werden sollen. |
+| find | String | Zu suchender Stringwert. |
+| replace | String | Zu ersetzender Stringwert. |
+| format | PortionFormat | Format zum Ersetzen des Textabschnitts. Wenn null, wird das Format des ersten Zeichens der gefundenen Zeichenfolge verwendet. |
 
 ### Beispiele
 

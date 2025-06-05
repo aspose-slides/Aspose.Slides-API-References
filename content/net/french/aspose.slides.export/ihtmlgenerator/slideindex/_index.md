@@ -1,21 +1,21 @@
 ---
 title: SlideIndex
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie l'index de la diapositive en cours de rendu. Int32 en lecture seule.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Retourne l'index de la diapositive actuellement affichée. Lecture seule Int32.
 type: docs
 weight: 60
 url: /fr/aspose.slides.export/ihtmlgenerator/slideindex/
 ---
 
-## IHtmlGenerator.SlideIndex propriété
+## Propriété IHtmlGenerator.SlideIndex
 
-Renvoie l'index de la diapositive en cours de rendu. Int32 en lecture seule.
+Retourne l'index de la diapositive actuellement affichée. Lecture seule Int32.
 
 ```csharp
 public int SlideIndex { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IHtmlGenerator](../../ihtmlgenerator)
 * namespace [Aspose.Slides.Export](../../ihtmlgenerator)

@@ -1,7 +1,7 @@
 ---
 title: LayoutSlide
-second_title: Référence API Aspose.Slides pour .NET
-description: Itérez chaque LayoutSlideaspose.slides.lowcode/foreach/layoutslide dans la Presentationaspose.slides/presentation.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Itérer chaque LayoutSlide aspose.slides.lowcode/foreach/layoutslide dans la Presentation aspose.slides/presentation.
 type: docs
 weight: 10
 url: /fr/aspose.slides.lowcode/foreach/layoutslide/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.lowcode/foreach/layoutslide/
 
 ## Méthode ForEach.LayoutSlide
 
-Itérez chaque `LayoutSlide` dans la [`Presentation`](../../../aspose.slides/presentation).
+Itérer chaque `LayoutSlide` dans la [`Presentation`](../../../aspose.slides/presentation).
 
 ```csharp
 public static void LayoutSlide(Presentation pres, ForEachLayoutSlideCallback forEachLayoutSlide)
@@ -17,7 +17,7 @@ public static void LayoutSlide(Presentation pres, ForEachLayoutSlideCallback for
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| pres | Presentation | Présentation à itérer des diapositives de mise en page |
+| pres | Presentation | Présentation pour itérer les diapositives de mise en page |
 | forEachLayoutSlide | ForEachLayoutSlideCallback | Callback qui sera invoqué pour chaque diapositive de mise en page |
 
 ### Exemples

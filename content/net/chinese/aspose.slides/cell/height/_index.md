@@ -1,15 +1,15 @@
 ---
-title: 高度
-second_title: Aspose.Slides for .NET API 参考
-description: 返回单元格的高度。只读 Double。
+title: Height
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回单元格的高度。只读双精度浮点数。
 type: docs
 weight: 80
 url: /zh/aspose.slides/cell/height/
 ---
 
-## Cell.Height 属性
+## Cell.Height property
 
-返回单元格的高度。只读 Double。
+返回单元格的高度。只读双精度浮点数。
 
 ```csharp
 public double Height { get; }

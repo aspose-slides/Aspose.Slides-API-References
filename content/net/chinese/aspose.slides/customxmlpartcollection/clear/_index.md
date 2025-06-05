@@ -1,6 +1,6 @@
 ---
-title: 清除
-second_title: Aspose.Slides for .NET API 参考
+title: Clear
+second_title: Aspose.Sildes for .NET API Reference
 description: 从集合中删除所有项。
 type: docs
 weight: 60
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/customxmlpartcollection/clear/
 public void Clear()
 ```
 
-### 另见
+### 另请参阅
 
 * 类 [CustomXmlPartCollection](../../customxmlpartcollection)
 * 命名空间 [Aspose.Slides](../../customxmlpartcollection)

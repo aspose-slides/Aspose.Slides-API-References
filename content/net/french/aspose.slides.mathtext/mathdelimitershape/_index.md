@@ -1,15 +1,15 @@
 ---
 title: MathDelimiterShape
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: L'emplacement et la taille des délimiteurs par rapport au contenu des opérandes
+second_title: Aspose.Sildes pour la référence de l'API .NET
+description: La position et la taille des délimiteurs par rapport au contenu des opérandes
 type: docs
 weight: 8410
 url: /fr/aspose.slides.mathtext/mathdelimitershape/
 ---
 
-## Énumération MathDelimiterShape
+## MathDelimiterShape énumération
 
-L'emplacement et la taille des délimiteurs par rapport au contenu des opérandes
+La position et la taille des délimiteurs par rapport au contenu des opérandes
 
 ```csharp
 public enum MathDelimiterShape
@@ -19,10 +19,10 @@ public enum MathDelimiterShape
 
 | Nom | Valeur | Description |
 | --- | --- | --- |
-| Centré | `0` | Centré par rapport à l'axe mathématique |
-| Correspondre | `1` | Correspondre au contenu |
+| Centered | `0` | Centré sur l'axe mathématique |
+| Match | `1` | Correspond au contenu |
 
-### Voir Aussi
+### Voir aussi
 
 * espace de noms [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * assembly [Aspose.Slides](../../)

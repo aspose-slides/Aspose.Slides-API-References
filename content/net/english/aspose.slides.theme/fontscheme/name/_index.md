@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.theme/fontscheme/name/
 ---
+
 ## FontScheme.Name property
 
 Returns the font scheme name. Read/write String.

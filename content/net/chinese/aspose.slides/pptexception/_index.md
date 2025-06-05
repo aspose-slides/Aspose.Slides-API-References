@@ -1,15 +1,15 @@
 ---
 title: PptException
-second_title: Aspose.Slides for .NET API Reference
-description: 表示一种标准的内部异常类型。
+second_title: Aspose.Sildes for .NET API Reference
+description: 代表一个标准的内部异常类型。
 type: docs
 weight: 9250
 url: /zh/aspose.slides/pptexception/
 ---
 
-## PptException 类
+## PptException类
 
-表示一种标准的内部异常类型。
+代表一个标准的内部异常类型。
 
 ```csharp
 public class PptException : Exception
@@ -21,9 +21,9 @@ public class PptException : Exception
 | --- | --- |
 | [PptException](pptexception#constructor)() | 默认构造函数。 |
 | [PptException](pptexception#constructor_1)(string) | 允许向此异常添加消息的构造函数。 |
-| [PptException](pptexception#constructor_2)(string, Exception) | 包含消息和嵌入异常的异常的构造函数。 |
+| [PptException](pptexception#constructor_2)(string, Exception) | 包含消息和嵌套异常的异常构造函数。 |
 
-### 另请参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

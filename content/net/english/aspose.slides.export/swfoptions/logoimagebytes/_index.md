@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.export/swfoptions/logoimagebytes/
 ---
+
 ## SwfOptions.LogoImageBytes property
 
 Image that will be displayed as logo in the top right corner of the viewer. Image should be 32x64 pixels PNG image, otherwise logo can be displayed improperly.

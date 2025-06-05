@@ -1,7 +1,7 @@
 ---
 title: ShowPageBorder
-second_title: Aspose.Slides for .NET API Reference
-description: 指定是否显示页面周围的边框。默认为 true。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定页面周围是否应显示边框。默认值为 true。
 type: docs
 weight: 110
 url: /zh/aspose.slides.export/swfoptions/showpageborder/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.export/swfoptions/showpageborder/
 
 ## SwfOptions.ShowPageBorder 属性
 
-指定是否显示页面周围的边框。默认为 true。
+指定页面周围是否应显示边框。默认值为 true。
 
 ```csharp
 public bool ShowPageBorder { get; set; }
 ```
 
-### 参见也
+### 另请参阅
 
 * class [SwfOptions](../../swfoptions)
 * namespace [Aspose.Slides.Export](../../swfoptions)

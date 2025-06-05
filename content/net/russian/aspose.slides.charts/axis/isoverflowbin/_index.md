@@ -1,15 +1,15 @@
 ---
 title: IsOverflowBin
 second_title: Aspose.Sildes для .NET API Справочник
-description: Определяет, применяется ли переполнение бина. Используйте IsAutomaticOverflowBin и OverflowBin для настройки значения переполнения бина.
+description: Указывает, применен ли переполненный бункер. Используйте IsAutomaticOverflowBin и OverflowBin для настройки значения переполненного бункера.
 type: docs
 weight: 280
 url: /ru/aspose.slides.charts/axis/isoverflowbin/
 ---
 
-## Свойство Axis.IsOverflowBin
+## Axis.IsOverflowBin свойство
 
-Определяет, применяется ли переполнение бина. Используйте IsAutomaticOverflowBin и OverflowBin для настройки значения переполнения бина.
+Указывает, применен ли переполненный бункер. Используйте IsAutomaticOverflowBin и OverflowBin для настройки значения переполненного бункера.
 
 ```csharp
 public bool IsOverflowBin { get; set; }

@@ -17,9 +17,9 @@ public void RemoveByShape(IShape shape)
 
 ### Ver También
 
-* interfaz [IShape](../../../aspose.slides/ishape)
-* clase [Sequence](../../sequence)
-* espacio de nombres [Aspose.Slides.Animation](../../sequence)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IShape](../../../aspose.slides/ishape)
+* clase [Sequence](../../sequence)
+* espacio de nombres [Aspose.Slides.Animation](../../sequence)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

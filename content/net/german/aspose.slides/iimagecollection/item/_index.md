@@ -1,15 +1,15 @@
 ---
-title: Element
+title: Item
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt ein Bild anhand seines Index zurück.
+description: Gibt das Bild anhand seines Index zurück.
 type: docs
 weight: 10
 url: /de/aspose.slides/iimagecollection/item/
 ---
 
-## IImageCollection-Indexer
+## IImageCollection Indexer
 
-Gibt ein Bild anhand seines Index zurück.
+Gibt das Bild anhand seines Index zurück.
 
 ```csharp
 public IPPImage this[int index] { get; }

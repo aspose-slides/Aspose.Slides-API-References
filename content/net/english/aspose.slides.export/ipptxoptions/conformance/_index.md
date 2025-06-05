@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.export/ipptxoptions/conformance/
 ---
+
 ## IPptxOptions.Conformance property
 
 Specifies the conformance class to which the Presentation document conforms. Default value is Ecma376_2006

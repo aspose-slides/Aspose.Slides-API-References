@@ -1,7 +1,7 @@
 ---
 title: ShowMasterShapes
-second_title: Aspose.Slides для .NET API Справочник
-description: Указывает, должны ли фигуры на главном слайде отображаться на слайдах или нет. Для самого главного слайда это свойство всегда возвращает false. Читаемое/записываемое логическое значение.
+second_title: Aspose.Sildes для справки по API .NET
+description: Указывает, должны ли формы на главном слайде отображаться на слайдах или нет. Для самого главного слайда это свойство всегда возвращает false. Читаемое/записываемое логическое значение.
 type: docs
 weight: 80
 url: /ru/aspose.slides/masterslide/showmastershapes/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/masterslide/showmastershapes/
 
 ## MasterSlide.ShowMasterShapes свойство
 
-Указывает, должны ли фигуры на главном слайде отображаться на слайдах или нет. Для самого главного слайда это свойство всегда возвращает `false`. Читаемое/записываемое логическое значение.
+Указывает, должны ли формы на главном слайде отображаться на слайдах или нет. Для самого главного слайда это свойство всегда возвращает `false`. Читаемое/записываемое логическое значение.
 
 ```csharp
 public override bool ShowMasterShapes { get; set; }
@@ -19,7 +19,7 @@ public override bool ShowMasterShapes { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| NotSupportedException | Выбрасывается, если установить `true` для главного слайда. |
+| NotSupportedException | Вызывается, если установлено `true` для главного слайда. |
 
 ### См. также
 

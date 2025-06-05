@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/iportionformat/asihyperlinkcontainer/
 ---
+
 ## IPortionFormat.AsIHyperlinkContainer property
 
 Allows to get base IHyperlinkContainer interface. Read-only [`IHyperlinkContainer`](../../ihyperlinkcontainer).

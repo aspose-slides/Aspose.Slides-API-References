@@ -1,7 +1,7 @@
 ---
 title: ObjectName
-second_title: Справочник API Aspose.Slides для .NET
-description: Возвращает или устанавливает имя объекта. Читаемое/записываемое значение типа String.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Возвращает или устанавливает имя объекта. Читаемое и писаемое строковое значение.
 type: docs
 weight: 100
 url: /ru/aspose.slides/ioleobjectframe/objectname/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/ioleobjectframe/objectname/
 
 ## Свойство IOleObjectFrame.ObjectName
 
-Возвращает или устанавливает имя объекта. Читаемое/записываемое значение типа String.
+Возвращает или устанавливает имя объекта. Читаемое и писаемое строковое значение.
 
 ```csharp
 public string ObjectName { get; set; }
 ```
 
-### Также смотрите
+### См. также
 
 * интерфейс [IOleObjectFrame](../../ioleobjectframe)
 * пространство имен [Aspose.Slides](../../ioleobjectframe)

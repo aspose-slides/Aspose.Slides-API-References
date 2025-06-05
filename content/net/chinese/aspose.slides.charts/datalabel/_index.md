@@ -1,59 +1,59 @@
----
-title: 数据标签
-second_title: Aspose.Slides for .NET API 参考
-description: 表示系列标签。
-type: docs
-weight: 1470
+---  
+title: DataLabel
+second_title: Aspose.Sildes for .NET API Reference  
+description: 表示一系列标签。
+type: docs  
+weight: 1470  
 url: /zh/aspose.slides.charts/datalabel/
----
-
-## DataLabel 类
-
-表示系列标签。
-
-```csharp
-public class DataLabel : IDataLabel
-```
-
-## 构造函数
-
-| 名称 | 描述 |
-| --- | --- |
-| [DataLabel](datalabel)(IChartDataPoint) | 创建 DataLabel 类的新实例。 |
-
-## 属性
-
-| 名称 | 描述 |
-| --- | --- |
-| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | 指定图表元素的实际高度。在获取实际值之前调用方法 IChart.ValidateChartLayout()。读取单值。 |
-| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | 指定图表元素的实际宽度。在获取实际值之前调用方法 IChart.ValidateChartLayout()。读取单值。 |
-| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | 指定图表元素相对于图表左上角的实际 x 位置（左）。在获取实际值之前调用方法 IChart.ValidateChartLayout()。读取单值。 |
-| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | 指定图表元素相对于图表左上角的实际顶部。在获取实际值之前调用方法 IChart.ValidateChartLayout()。读取单值。 |
-| [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | 底部。只读单值。 |
-| [Chart](../../aspose.slides.charts/datalabel/chart) { get; } | 返回父图表。只读 [`IChart`](../ichart)。 |
-| [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | 返回数据标签格式。只读 [`IDataLabelFormat`](../idatalabelformat)。 |
-| [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | 返回或设置标题的高度，占图表高度的比例。读/写单值。 |
-| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | False 表示数据标签不可见（因此所有 Show*-flags（ShowValue，...）均为 false）。只读布尔值。 |
-| [Right](../../aspose.slides.charts/datalabel/right) { get; } | 右侧。只读单值。 |
-| [TextFormat](../../aspose.slides.charts/datalabel/textformat) { get; } | 返回文本格式。只读 [`IChartTextFormat`](../icharttextformat)。 |
-| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | 可以包含富格式文本。如果此属性不为 null，则该格式化文本值将覆盖数据标签的自动生成文本。数据标签的自动生成文本是指由 ShowSeriesName、ShowValue 等属性管理并使用 TextFormatManager.TextFormat 属性格式化的文本。只读 [`ITextFrame`](../../aspose.slides/itextframe)。 |
-| [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | 获取或设置工作簿数据单元格。当 IDataLabelFormat.ShowLabelValueFromCell 属性等于 true 时应用此属性。 |
-| [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | 返回或设置标题的宽度，占图表宽度的比例。读/写单值。 |
-| [X](../../aspose.slides.charts/datalabel/x) { get; set; } | 返回或设置标题的 x 坐标，占图表宽度的比例。读/写单值。 |
-| [Y](../../aspose.slides.charts/datalabel/y) { get; set; } | 返回或设置标题的 y 坐标，占图表高度的比例。读/写单值。 |
-
-## 方法
-
-| 名称 | 描述 |
-| --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | 用参数“text”中的文本初始化 TextFrameForOverriding。如果 TextFrameForOverriding 已经初始化，则只需更改其文本。 |
-| [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | 根据 DataLabelFormat 设置或 TextFrameForOverriding.Text 值返回实际标签文本。 |
-| [Hide](../../aspose.slides.charts/datalabel/hide)() | 通过将所有 Show*-flags（ShowValue，...）设置为 false，使数据标签隐藏。此后 IsVisible 将为 false。 |
-
-### 另见
-
-* 接口 [IDataLabel](../idatalabel)
-* 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
-* 程序集 [Aspose.Slides](../../)
-
+---  
+  
+## DataLabel class  
+  
+表示一系列标签。  
+  
+```csharp  
+public class DataLabel : IDataLabel  
+```  
+  
+## 构造函数  
+  
+| 名称 | 描述 |  
+| --- | --- |  
+| [DataLabel](datalabel)(IChartDataPoint) | 创建 DataLabel 类的新实例。 |  
+  
+## 属性  
+  
+| 名称 | 描述 |  
+| --- | --- |  
+| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | 指定图表元素的实际高度。在获取实际值之前调用方法 IChart.ValidateChartLayout()。读取为单精度浮点数。 |  
+| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | 指定图表元素的实际宽度。在获取实际值之前调用方法 IChart.ValidateChartLayout()。读取为单精度浮点数。 |  
+| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | 指定图表元素相对于图表左上角的实际 x 位置（左）。在获取实际值之前调用方法 IChart.ValidateChartLayout()。读取为单精度浮点数。 |  
+| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | 指定图表元素相对于图表左上角的实际顶部。在获取实际值之前调用方法 IChart.ValidateChartLayout()。读取为单精度浮点数。 |  
+| [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | 底部。只读单精度浮点数。 |  
+| [Chart](../../aspose.slides.charts/datalabel/chart) { get; } | 返回父图表。只读 [`IChart`](../ichart)。 |  
+| [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | 返回数据标签格式。只读 [`IDataLabelFormat`](../idatalabelformat)。 |  
+| [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | 返回或设置标题的高度，作为图表高度的一个比例。可读/写单精度浮点数。 |  
+| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | False 表示数据标签不可见（因此所有 Show*-标志（ShowValue 等）都是 false）。只读布尔值。 |  
+| [Right](../../aspose.slides.charts/datalabel/right) { get; } | 右侧。只读单精度浮点数。 |  
+| [TextFormat](../../aspose.slides.charts/datalabel/textformat) { get; } | 返回文本格式。只读 [`IChartTextFormat`](../icharttextformat)。 |  
+| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | 可以包含富格式文本。如果此属性不为 null，则此格式化文本的值将覆盖数据标签的自动生成文本。数据标签的自动生成文本是由 ShowSeriesName、ShowValue 等属性管理的文本，并由 TextFormatManager.TextFormat 属性格式化。只读 [`ITextFrame`](../../aspose.slides/itextframe)。 |  
+| [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | 获取或设置工作簿数据单元格。如果 IDataLabelFormat.ShowLabelValueFromCell 属性为 true，则应用此属性。 |  
+| [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | 返回或设置标题的宽度，作为图表宽度的一个比例。可读/写单精度浮点数。 |  
+| [X](../../aspose.slides.charts/datalabel/x) { get; set; } | 返回或设置标题的 x 坐标，作为图表宽度的一个比例。可读/写单精度浮点数。 |  
+| [Y](../../aspose.slides.charts/datalabel/y) { get; set; } | 返回或设置标题的 y 坐标，作为图表高度的一个比例。可读/写单精度浮点数。 |  
+  
+## 方法  
+  
+| 名称 | 描述 |  
+| --- | --- |  
+| [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | 使用参数“text”中的文本初始化 TextFrameForOverriding。如果 TextFrameForOverriding 已经被初始化，则仅更改其文本。 |  
+| [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | 根据 DataLabelFormat 设置或 TextFrameForOverriding.Text 值返回实际标签文本。 |  
+| [Hide](../../aspose.slides.charts/datalabel/hide)() | 通过将所有 Show*-标志（ShowValue 等）设置为 false 状态，使数据标签隐藏。此后 IsVisible 将为 false。 |  
+  
+### 另见  
+  
+* interface [IDataLabel](../idatalabel)  
+* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)  
+* assembly [Aspose.Slides](../../)  
+  
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

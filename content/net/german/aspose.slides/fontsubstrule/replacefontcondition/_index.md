@@ -1,7 +1,7 @@
 ---
 title: ReplaceFontCondition
-second_title: Aspose.Slides für .NET API Referenz
-description: Regel für die Substitution. Schreibgeschützte FontSubstConditionaspose.slides/fontsubstcondition.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Regel, die für die Substitution angewendet werden soll. Schreibgeschützte FontSubstConditionaspose.slides/fontsubstcondition.
 type: docs
 weight: 30
 url: /de/aspose.slides/fontsubstrule/replacefontcondition/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/fontsubstrule/replacefontcondition/
 
 ## FontSubstRule.ReplaceFontCondition-Eigenschaft
 
-Regel für die Substitution. Schreibgeschützte [`FontSubstCondition`](../../fontsubstcondition).
+Regel, die für die Substitution angewendet werden soll. Schreibgeschützte [`FontSubstCondition`](../../fontsubstcondition).
 
 ```csharp
 public FontSubstCondition ReplaceFontCondition { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [FontSubstCondition](../../fontsubstcondition)
 * class [FontSubstRule](../../fontsubstrule)

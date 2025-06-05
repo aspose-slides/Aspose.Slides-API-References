@@ -1,6 +1,6 @@
 ---
 title: MathVerticalAlignment
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Вертикальное выравнивание
 type: docs
 weight: 8780
@@ -17,14 +17,14 @@ public enum MathVerticalAlignment
 
 ### Значения
 
-| Название | Значение | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | NotDefined | `0` | Значение не определено |
 | Top | `1` | Вверх |
 | Center | `2` | Центр |
-| Bottom | `3` | Вниз |
+| Bottom | `3` | Низ |
 
-### См. также
+### См. Также
 
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)

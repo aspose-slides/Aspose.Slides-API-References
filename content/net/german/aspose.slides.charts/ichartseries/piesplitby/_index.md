@@ -1,7 +1,7 @@
 ---
 title: PieSplitBy
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt an, wie bestimmt wird, welche Datenpunkte im zweiten Kreis oder Balken in einem Kreis-von-Kreis- oder Balken-von-Kreis-Diagramm enthalten sind. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der Elternseriengruppe - dies ist eine Projektion der entsprechenden Gruppeneigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die Eigenschaft ParentSeriesGroup, um auf die Elternseriengruppe zuzugreifen. Verwenden Sie die schreibbare Eigenschaft ParentSeriesGroup.PieSplitBy, um den Wert zu ändern. Schreibgeschützter PieSplitTypeaspose.slides/piesplittype.
+description: Gibt an, wie bestimmt wird, welche Datenpunkte im zweiten Kreis oder Balken eines Kreis-von-Kreis oder Balken-von-Kreis Diagramms enthalten sind. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist die Projektion der entsprechenden Gruppeneigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die ParentSeriesGroup-Eigenschaft, um auf die übergeordnete Seriengruppe zuzugreifen. Verwenden Sie die schreibbare Eigenschaft ParentSeriesGroup.PieSplitBy, um den Wert zu ändern. Schreibgeschütztes PieSplitTypeaspose.slides/piesplittype.
 type: docs
 weight: 300
 url: /de/aspose.slides.charts/ichartseries/piesplitby/
@@ -9,15 +9,15 @@ url: /de/aspose.slides.charts/ichartseries/piesplitby/
 
 ## IChartSeries.PieSplitBy-Eigenschaft
 
-Gibt an, wie bestimmt wird, welche Datenpunkte im zweiten Kreis oder Balken in einem Kreis-von-Kreis- oder Balken-von-Kreis-Diagramm enthalten sind. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der Elternseriengruppe - dies ist eine Projektion der entsprechenden Gruppeneigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die Eigenschaft ParentSeriesGroup, um auf die Elternseriengruppe zuzugreifen. Verwenden Sie die schreibbare Eigenschaft ParentSeriesGroup.PieSplitBy, um den Wert zu ändern. Schreibgeschützter [`PieSplitType`](../../piesplittype).
+Gibt an, wie bestimmt wird, welche Datenpunkte im zweiten Kreis oder Balken eines Kreis-von-Kreis oder Balken-von-Kreis Diagramms enthalten sind. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist die Projektion der entsprechenden Gruppeneigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die ParentSeriesGroup-Eigenschaft, um auf die übergeordnete Seriengruppe zuzugreifen. Verwenden Sie die schreibbare Eigenschaft ParentSeriesGroup.PieSplitBy, um den Wert zu ändern. Schreibgeschütztes [`PieSplitType`](../../piesplittype).
 
 ```csharp
 public PieSplitType PieSplitBy { get; }
 ```
 
-### Bemerkungen
+### Anmerkungen
 
-1) Dies ist die Projektion der Eigenschaft ParentSeriesGroup.PieSplitBy. 2) Wenn der Eigenschaftswert PieSplitType.Custom ist, können Sie benutzerdefinierte Split-Informationen mit der Eigenschaft ParentSeriesGroup.PieSplitCustomPoints definieren.
+1) Dies ist die Projektion der Eigenschaft ParentSeriesGroup.PieSplitBy. 2) Wenn der Eigenschaftswert PieSplitType.Custom ist, können Sie benutzerdefinierte Split-Informationen mit der ParentSeriesGroup.PieSplitCustomPoints-Eigenschaft definieren.
 
 ### Siehe auch
 

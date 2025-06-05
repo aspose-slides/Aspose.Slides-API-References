@@ -1,7 +1,7 @@
 ---
 title: IMathBlock
-second_title: Aspose.Slides для .NET API Справочник
-description: Указывает экземпляр математического текста, содержащегося в MathParagraph и начинающегося с новой строки. Все математические зоны, включая уравнения, выражения, массивы уравнений или выражений, и формулы представлены математическим блоком.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Указывает экземпляр математического текста, который содержится в MathParagraph и начинается с новой строки. Все математические зоны, включая уравнения, выражения, массивы уравнений или выражений и формулы, представлены математическим блоком.
 type: docs
 weight: 7890
 url: /ru/aspose.slides.mathtext/imathblock/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/imathblock/
 
 ## Интерфейс IMathBlock
 
-Указывает экземпляр математического текста, содержащегося в MathParagraph и начинающегося с новой строки. Все математические зоны, включая уравнения, выражения, массивы уравнений или выражений, и формулы представлены математическим блоком.
+Указывает экземпляр математического текста, который содержится в MathParagraph и начинается с новой строки. Все математические зоны, включая уравнения, выражения, массивы уравнений или выражений и формулы, представлены математическим блоком.
 
 ```csharp
 public interface IMathBlock : IMathElement, IMathElementCollection
@@ -17,17 +17,17 @@ public interface IMathBlock : IMathElement, IMathElementCollection
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathblock/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
 | [AsIMathElementCollection](../../aspose.slides.mathtext/imathblock/asimathelementcollection) { get; } | Позволяет получить базовый интерфейс IMathElementCollection [`IMathElementCollection`](../imathelementcollection) |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | Разделяет все дочерние элементы с помощью символа-разделителя (без скобок) |
-| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | Ограничивает дочерние элементы этого блока заданными символами, такими как скобки или другими как рамки, и разделяет с помощью символа-разделителя |
+| [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | Ограничивает все дочерние элементы с помощью символа-разделителя (без скобок) |
+| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | Заключает дочерние элементы этого блока в указанные символы, такие как скобки или другие, и ограничивает с помощью символа-разделителя |
 | [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | Объединяет другой математический блок с этим |
 | [WriteAsMathMl](../../aspose.slides.mathtext/imathblock/writeasmathml)(Stream) | Сохраняет содержимое этого [`IMathBlock`](../imathblock) в формате MathML |
 
@@ -40,7 +40,7 @@ public interface IMathBlock : IMathElement, IMathElementCollection
 IMathBlock mathBlock = new MathBlock();
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IMathElement](../imathelement)
 * интерфейс [IMathElementCollection](../imathelementcollection)

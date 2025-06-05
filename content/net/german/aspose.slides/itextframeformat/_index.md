@@ -1,7 +1,7 @@
 ---
 title: ITextFrameFormat
 second_title: Aspose.Slides für .NET API Referenz
-description: Enthält die Formatierungsproperties von TextFrames.
+description: Enthält die Formatierungseigenschaften der TextFrames.
 type: docs
 weight: 7060
 url: /de/aspose.slides/itextframeformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/itextframeformat/
 
 ## ITextFrameFormat-Schnittstelle
 
-Enthält die Formatierungsproperties des TextFrames.
+Enthält die Formatierungseigenschaften des TextFrames.
 
 ```csharp
 public interface ITextFrameFormat
@@ -19,32 +19,32 @@ public interface ITextFrameFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/itextframeformat/anchoringtype) { get; set; } | Gibt den vertikalen Ankertext in einem TextFrame zurück oder setzt ihn. Lese-/Schreibzugriff [`TextAnchorType`](../textanchortype). |
-| [AutofitType](../../aspose.slides/itextframeformat/autofittype) { get; set; } | Gibt den Autofit-Modus des Textes zurück oder setzt ihn. Lese-/Schreibzugriff [`TextAutofitType`](../textautofittype). |
-| [CenterText](../../aspose.slides/itextframeformat/centertext) { get; set; } | Wenn NullableBool.True, sollte der Text im Kästchen horizontal zentriert werden. Lese-/Schreibzugriff [`NullableBool`](../nullablebool). |
-| [ColumnCount](../../aspose.slides/itextframeformat/columncount) { get; set; } | Gibt die Anzahl der Spalten im Textbereich zurück oder setzt sie. Dieser Wert muss eine positive Zahl sein. Andernfalls wird der Wert auf null gesetzt. Wert 0 bedeutet undefinierter Wert. Lese-/Schreibzugriff Int32. |
-| [ColumnSpacing](../../aspose.slides/itextframeformat/columnspacing) { get; set; } | Gibt den Abstand zwischen Textspalten im Textbereich (in Punkten) zurück oder setzt ihn. Dies sollte nur gelten, wenn mehr als 1 Spalte vorhanden ist. Dieser Wert muss eine positive Zahl sein. Andernfalls wird der Wert auf null gesetzt. Lese-/Schreibzugriff Double. |
-| [KeepTextFlat](../../aspose.slides/itextframeformat/keeptextflat) { get; set; } | Gibt zurück oder setzt, dass der Text vollständig aus der 3D-Szene herausgehalten wird. Lese-/Schreibzugriff Boolean. |
-| [MarginBottom](../../aspose.slides/itextframeformat/marginbottom) { get; set; } | Gibt den unteren Rand (in Punkten) in einem TextFrame zurück oder setzt ihn. Lese-/Schreibzugriff Double. |
-| [MarginLeft](../../aspose.slides/itextframeformat/marginleft) { get; set; } | Gibt den linken Rand (in Punkten) in einem TextFrame zurück oder setzt ihn. Lese-/Schreibzugriff Double. |
-| [MarginRight](../../aspose.slides/itextframeformat/marginright) { get; set; } | Gibt den rechten Rand (in Punkten) in einem TextFrame zurück oder setzt ihn. Lese-/Schreibzugriff Double. |
-| [MarginTop](../../aspose.slides/itextframeformat/margintop) { get; set; } | Gibt den oberen Rand (in Punkten) in einem TextFrame zurück oder setzt ihn. Lese-/Schreibzugriff Double. |
-| [RotationAngle](../../aspose.slides/itextframeformat/rotationangle) { get; set; } | Gibt den benutzerdefinierten Drehwinkel an, der auf den Text innerhalb des Begrenzungsrahmens angewendet wird. Wenn nicht angegeben, wird der Drehwinkel der begleitenden Form verwendet. Wenn angegeben, wird dies unabhängig von der Form angewendet. Das bedeutet, dass die Form zusätzlich zu dem Text selbst eine Drehung haben kann. Der resultierende Wert der visuellen Textdrehung, die sich aus dieser Eigenschaft und dem vordefinierten vertikalen Typ in der Eigenschaft TextVerticalType ergibt. Lese-/Schreibzugriff Single. |
-| [TextStyle](../../aspose.slides/itextframeformat/textstyle) { get; } | Gibt den Stil des Textes zurück. Nur Lesezugriff [`ITextStyle`](../itextstyle). |
-| [TextVerticalType](../../aspose.slides/itextframeformat/textverticaltype) { get; set; } | Bestimmt die Textausrichtung. Der resultierende Wert der visuellen Textrotation ergibt sich aus dieser Eigenschaft und dem benutzerdefinierten Winkel in der Eigenschaft RotationAngle. Lese-/Schreibzugriff [`TextVerticalType`](../textverticaltype). |
-| [ThreeDFormat](../../aspose.slides/itextframeformat/threedformat) { get; } | Gibt das ThreeDFormat-Objekt zurück, das die 3D-Effekteigenschaften für einen Text darstellt. Nur Lesezugriff [`IThreeDFormat`](../ithreedformat). |
-| [Transform](../../aspose.slides/itextframeformat/transform) { get; set; } | Gibt die Form des Textumbruchs zurück oder setzt diese. Lese-/Schreibzugriff [`TextShapeType`](../textshapetype). |
-| [WrapText](../../aspose.slides/itextframeformat/wraptext) { get; set; } | **True**, wenn der Text an den Rändern des TextFrames umbrochen wird. Lese-/Schreibzugriff [`NullableBool`](../nullablebool). |
+| [AnchoringType](../../aspose.slides/itextframeformat/anchoringtype) { get; set; } | Gibt den vertikalen Ankertext in einem TextFrame zurück oder legt ihn fest. Lesen/schreiben [`TextAnchorType`](../textanchortype). |
+| [AutofitType](../../aspose.slides/itextframeformat/autofittype) { get; set; } | Gibt den Autofit-Modus des Textes zurück oder legt ihn fest. Lesen/schreiben [`TextAutofitType`](../textautofittype). |
+| [CenterText](../../aspose.slides/itextframeformat/centertext) { get; set; } | Wenn NullableBool.True, sollte der Text horizontal im Feld zentriert sein. Lesen/schreiben [`NullableBool`](../nullablebool). |
+| [ColumnCount](../../aspose.slides/itextframeformat/columncount) { get; set; } | Gibt die Anzahl der Spalten im Textbereich zurück oder legt sie fest. Dieser Wert muss eine positive Zahl sein. Andernfalls wird der Wert auf null gesetzt. Wert 0 bedeutet undefinierter Wert. Lesen/schreiben Int32. |
+| [ColumnSpacing](../../aspose.slides/itextframeformat/columnspacing) { get; set; } | Gibt den Abstand zwischen den Textspalten im Textbereich (in Punkten) zurück oder legt ihn fest. Dies sollte nur gelten, wenn mehr als 1 Spalte vorhanden ist. Dieser Wert muss eine positive Zahl sein. Andernfalls wird der Wert auf null gesetzt. Lesen/schreiben Double. |
+| [KeepTextFlat](../../aspose.slides/itextframeformat/keeptextflat) { get; set; } | Gibt zurück oder legt fest, dass der Text vollständig aus der 3D-Szene herausgehalten werden soll. Lesen/schreiben Boolean. |
+| [MarginBottom](../../aspose.slides/itextframeformat/marginbottom) { get; set; } | Gibt den unteren Rand (Punkte) in einem TextFrame zurück oder legt ihn fest. Lesen/schreiben Double. |
+| [MarginLeft](../../aspose.slides/itextframeformat/marginleft) { get; set; } | Gibt den linken Rand (Punkte) in einem TextFrame zurück oder legt ihn fest. Lesen/schreiben Double. |
+| [MarginRight](../../aspose.slides/itextframeformat/marginright) { get; set; } | Gibt den rechten Rand (Punkte) in einem TextFrame zurück oder legt ihn fest. Lesen/schreiben Double. |
+| [MarginTop](../../aspose.slides/itextframeformat/margintop) { get; set; } | Gibt den oberen Rand (Punkte) in einem TextFrame zurück oder legt ihn fest. Lesen/schreiben Double. |
+| [RotationAngle](../../aspose.slides/itextframeformat/rotationangle) { get; set; } | Gibt die benutzerdefinierte Rotation an, die auf den Text innerhalb des Begrenzungsrahmens angewendet wird. Wenn sie nicht angegeben ist, wird die Rotation der begleitenden Form verwendet. Wenn sie angegeben ist, wird sie unabhängig von der Form angewendet. Das bedeutet, dass die Form eine Rotation haben kann, zusätzlich zur Rotation des Textes selbst. Der resultierende Wert der visuellen Textrotation wird aus dieser Eigenschaft und dem vordefinierten vertikalen Typ in der Eigenschaft TextVerticalType zusammengefasst. Lesen/schreiben Single. |
+| [TextStyle](../../aspose.slides/itextframeformat/textstyle) { get; } | Gibt den Stil des Textes zurück. Nur lesen [`ITextStyle`](../itextstyle). |
+| [TextVerticalType](../../aspose.slides/itextframeformat/textverticaltype) { get; set; } | Bestimmt die Textausrichtung. Der resultierende Wert der visuellen Textrotation wird aus dieser Eigenschaft und dem benutzerdefinierten Winkel in der Eigenschaft RotationAngle zusammengefasst. Lesen/schreiben [`TextVerticalType`](../textverticaltype). |
+| [ThreeDFormat](../../aspose.slides/itextframeformat/threedformat) { get; } | Gibt das ThreeDFormat-Objekt zurück, das die 3D-Effekteigenschaften für einen Text darstellt. Nur lesen [`IThreeDFormat`](../ithreedformat). |
+| [Transform](../../aspose.slides/itextframeformat/transform) { get; set; } | Holt oder legt die Form für den Textumbruch fest. Lesen/schreiben [`TextShapeType`](../textshapetype). |
+| [WrapText](../../aspose.slides/itextframeformat/wraptext) { get; set; } | **True**, wenn der Text an den Rändern des TextFrames umbrochen wird. Lesen/schreiben [`NullableBool`](../nullablebool). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itextframeformat/geteffective)() | Holt die effektiven Formatierungsdaten des Textrahmens mit angewandtem Erbe. |
+| [GetEffective](../../aspose.slides/itextframeformat/geteffective)() | Holt die effektiven Formatierungsdaten des Textrahmens mit der angewandten Vererbung. |
 
-### Siehe Auch
+### Siehe auch
 
-* Namespace [Aspose.Slides](../../aspose.slides)
-* Assembly [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.charts/charttitle/textformat/
 ---
+
 ## ChartTitle.TextFormat property
 
 Returns text format. Read-only [`IChartTextFormat`](../../icharttextformat).

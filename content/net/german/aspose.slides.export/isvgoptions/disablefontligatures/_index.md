@@ -1,7 +1,7 @@
 ---
 title: DisableFontLigatures
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft einen Wert ab oder legt ihn fest, der angibt, ob Text ohne die Verwendung von Ligaturen gerendert wird. Wenn auf true gesetzt, werden Ligaturen im gerenderten Ausgabe deaktiviert. Standardmäßig ist diese Eigenschaft auf false gesetzt.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Ruft einen Wert ab oder legt diesen fest, der angibt, ob Text ohne die Verwendung von Ligaturen gerendert wird. Wenn auf true gesetzt, werden Ligaturen im gerenderten Output deaktiviert. Standardmäßig ist diese Eigenschaft auf false gesetzt.
 type: docs
 weight: 40
 url: /de/aspose.slides.export/isvgoptions/disablefontligatures/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/isvgoptions/disablefontligatures/
 
 ## ISVGOptions.DisableFontLigatures-Eigenschaft
 
-Ruft einen Wert ab oder legt ihn fest, der angibt, ob Text ohne die Verwendung von Ligaturen gerendert wird. Wenn auf `true` gesetzt, werden Ligaturen im gerenderten Ausgabe deaktiviert. Standardmäßig ist diese Eigenschaft auf `false` gesetzt.
+Ruft einen Wert ab oder legt diesen fest, der angibt, ob Text ohne die Verwendung von Ligaturen gerendert wird. Wenn auf `true` gesetzt, werden Ligaturen im gerenderten Output deaktiviert. Standardmäßig ist diese Eigenschaft auf `false` gesetzt.
 
 ```csharp
 public bool DisableFontLigatures { get; set; }
@@ -23,9 +23,9 @@ Beispiel:
 [C#]
 using (Presentation pres = new Presentation("pres.pptx"))
 {
-    SVGOptions options = new SVGOptions
+    SVGOptions options = new SVFOptions
     {
-        DisableFontLigatures = true // Deaktivieren Sie Ligaturen im Text-Rendering
+        DisableFontLigatures = true // Ligaturen im Text-Rendering deaktivieren
     };
     
     using (FileStream fileStream = new FileStream("slide-0.svg", FileMode.Create, FileAccess.Write))
@@ -35,7 +35,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ISVGOptions](../../isvgoptions)
 * Namespace [Aspose.Slides.Export](../../isvgoptions)

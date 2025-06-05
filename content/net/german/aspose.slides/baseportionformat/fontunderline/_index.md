@@ -1,7 +1,7 @@
 ---
 title: FontUnderline
-second_title: Aspose.Sildes für .NET API Referenz
-description: Gibt den Schriftunterstreichungstyp zurück oder legt ihn fest. Keine Vererbung angewendet. Lese-/Schreibzugriff auf TextUnderlineTypeaspose.slides/textunderlinetype.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Textunterstreichungstyp zurück oder setzt ihn. Keine Vererbung angewendet. Lese-/Schreibzugriff auf TextUnderlineTypeaspose.slides/textunderlinetype.
 type: docs
 weight: 100
 url: /de/aspose.slides/baseportionformat/fontunderline/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/baseportionformat/fontunderline/
 
 ## BasePortionFormat.FontUnderline-Eigenschaft
 
-Gibt den Schriftunterstreichungstyp zurück oder legt ihn fest. Keine Vererbung angewendet. Lese-/Schreibzugriff auf [`TextUnderlineType`](../../textunderlinetype).
+Gibt den Textunterstreichungstyp zurück oder setzt ihn. Keine Vererbung angewendet. Lese-/Schreibzugriff auf [`TextUnderlineType`](../../textunderlinetype).
 
 ```csharp
 public TextUnderlineType FontUnderline { get; set; }
 ```
 
-### Weitere Informationen
+### Siehe auch
 
 * enum [TextUnderlineType](../../textunderlinetype)
 * class [BasePortionFormat](../../baseportionformat)

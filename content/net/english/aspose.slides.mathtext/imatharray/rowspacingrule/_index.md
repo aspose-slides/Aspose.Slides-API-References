@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.mathtext/imatharray/rowspacingrule/
 ---
+
 ## IMathArray.RowSpacingRule property
 
 The type of vertical spacing between array elements

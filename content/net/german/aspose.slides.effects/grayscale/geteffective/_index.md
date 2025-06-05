@@ -1,15 +1,15 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erhält effektive Graustufen-Effektdaten mit der angewendeten Vererbung.
+second_title: Aspose.Slides für .NET API Referenz
+description: Erhält effektive Graustufen-Effekt-Daten mit der angewandten Vererbung.
 type: docs
 weight: 20
 url: /de/aspose.slides.effects/grayscale/geteffective/
 ---
 
-## GrayScale.GetEffective-Methode
+## GrayScale.GetEffective Methode
 
-Erhält effektive Graustufen-Effektdaten mit der angewendeten Vererbung.
+Erhält effektive Graustufen-Effekt-Daten mit der angewandten Vererbung.
 
 ```csharp
 public IGrayScaleEffectiveData GetEffective()

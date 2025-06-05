@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ifontfallbackrule/item/
 ---
+
 ## IFontFallBackRule indexer
 
 Gets the font name at the specified index.

@@ -1,15 +1,15 @@
 ---
 title: SlidesLayoutOptions
-second_title: Aspose.Slides pour l'API .NET Référence
-description: Obtient ou définit le mode dans lequel les diapositives sont placées sur la page lors de l'exportation d'une présentation ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions. Cette propriété ne prend pas en charge l'attribution d'objets de type Aspose.Slides.Export.HandoutLayoutingOptions
+second_title: Aspose.Sildes pour .NET Référence API
+description: Obtient ou définit le mode dans lequel les diapositives sont placées sur la page lors de l'exportation d'une présentation ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions. Cette propriété ne prend pas en charge l'assignation d'objets de type Aspose.Slides.Export.HandoutLayoutingOptions
 type: docs
 weight: 150
 url: /fr/aspose.slides.export/iswfoptions/slideslayoutoptions/
 ---
 
-## Propriété ISwfOptions.SlidesLayoutOptions
+## ISwfOptions.SlidesLayoutOptions propriété
 
-Obtient ou définit le mode dans lequel les diapositives sont placées sur la page lors de l'exportation d'une présentation [`ISlidesLayoutOptions`](../../islideslayoutoptions). Cette propriété ne prend pas en charge l'attribution d'objets de type `Aspose.Slides.Export.HandoutLayoutingOptions`
+Obtient ou définit le mode dans lequel les diapositives sont placées sur la page lors de l'exportation d'une présentation [`ISlidesLayoutOptions`](../../islideslayoutoptions). Cette propriété ne prend pas en charge l'assignation d'objets de type `Aspose.Slides.Export.HandoutLayoutingOptions`
 
 ```csharp
 public ISlidesLayoutOptions SlidesLayoutOptions { get; set; }
@@ -35,7 +35,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Voir Également
+### Voir aussi
 
 * interface [ISlidesLayoutOptions](../../islideslayoutoptions)
 * interface [ISwfOptions](../../iswfoptions)

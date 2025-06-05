@@ -1,7 +1,7 @@
 ---
-title: Anzahl
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Anzahl der Farbverlauf-Stops in einer Sammlung zurück. Nur-Lesen Int32.
+title: Count
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt die Anzahl der Farbverlauf-Stoppstellen in einer Sammlung zurück. Nur-lesenswertes Int32.
 type: docs
 weight: 10
 url: /de/aspose.slides/gradientstopcollection/count/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/gradientstopcollection/count/
 
 ## GradientStopCollection.Count-Eigenschaft
 
-Gibt die Anzahl der Farbverlauf-Stops in einer Sammlung zurück. Nur-Lesen Int32.
+Gibt die Anzahl der Farbverlauf-Stoppstellen in einer Sammlung zurück. Nur-lesenswertes Int32.
 
 ```csharp
 public int Count { get; }

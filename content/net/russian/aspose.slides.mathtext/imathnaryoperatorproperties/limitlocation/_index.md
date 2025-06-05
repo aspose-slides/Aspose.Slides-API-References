@@ -1,7 +1,7 @@
 ---
 title: LimitLocation
-second_title: Aspose.Slides для .NET API Справочник
-description: Положение ограничений нижний индекс и верхний индекс
+second_title: Aspose.Sildes для .NET API Справочник
+description: Местоположение лимитов нижнего и верхнего индексов
 type: docs
 weight: 40
 url: /ru/aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation/
 
 ## IMathNaryOperatorProperties.LimitLocation свойство
 
-Положение ограничений (нижний индекс и верхний индекс)
+Местоположение лимитов (нижний и верхний индекс)
 
 ```csharp
 public MathLimitLocations LimitLocation { get; set; }

@@ -1,21 +1,21 @@
 ---
-title: Référence
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient une référence de cellule qui contient la formule invalide.
+title: Reference
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Obtient une référence de cellule contenant la formule invalide.
 type: docs
 weight: 20
 url: /fr/aspose.slides.spreadsheet/cellinvalidformulaexception/reference/
 ---
 
-## CellInvalidFormulaException.Reference propriété
+## CellInvalidFormulaException.Reference property
 
-Obtient une référence de cellule qui contient la formule invalide.
+Obtient une référence de cellule contenant la formule invalide.
 
 ```csharp
 public string Reference { get; }
 ```
 
-### Voir aussi
+### See Also
 
 * class [CellInvalidFormulaException](../../cellinvalidformulaexception)
 * namespace [Aspose.Slides.Spreadsheet](../../cellinvalidformulaexception)

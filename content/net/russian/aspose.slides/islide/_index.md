@@ -1,6 +1,6 @@
 ---
 title: ISlide
-second_title: Aspose.Sildes для справки по API .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет слайд в презентации.
 type: docs
 weight: 6820
@@ -21,23 +21,23 @@ public interface ISlide : IBaseSlide, IOverrideThemeable
 | --- | --- |
 | [AsIBaseSlide](../../aspose.slides/islide/asibaseslide) { get; } | Позволяет получить базовый интерфейс IBaseSlide. Только для чтения [`IBaseSlide`](../ibaseslide). |
 | [AsIOverrideThemeable](../../aspose.slides/islide/asioverridethemeable) { get; } | Возвращает интерфейс IOverrideThemeable. Только для чтения [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | Возвращает менеджер заголовков и подвала слайда. Только для чтения [`ISlideHeaderFooterManager`](../islideheaderfootermanager). |
+| [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | Возвращает менеджер HeaderFooter слайда. Только для чтения [`ISlideHeaderFooterManager`](../islideheaderfootermanager). |
 | [Hidden](../../aspose.slides/islide/hidden) { get; set; } | Определяет, скрыт ли указанный слайд во время показа слайдов. Чтение/запись Boolean. |
-| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | Возвращает или устанавливает слайд макета для текущего слайда. Чтение/запись [`ILayoutSlide`](../ilayoutslide). |
-| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | Позволяет получить доступ к слайду с заметками, добавлять и удалять его. Только для чтения [`INotesSlideManager`](../inotesslidemanager). |
+| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | Возвращает или задает слайд макета для текущего слайда. Чтение/запись [`ILayoutSlide`](../ilayoutslide). |
+| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | Позволяет получить доступ к слайду заметок, добавлять и удалять его. Только для чтения [`INotesSlideManager`](../inotesslidemanager). |
 | [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | Возвращает номер слайда. Индекс слайда в коллекции [`Slides`](../ipresentation/slides) всегда равен SlideNumber - 1. Чтение/запись Int32. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetImage](../../aspose.slides/islide/getimage#getimage)() | Возвращает объект изображения миниатюры (20% от реального размера). |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_1)(IRenderingOptions) | Возвращает объект Bitmap миниатюры. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_4)(ITiffOptions) | Возвращает объект tiff bitmap миниатюры с указанными параметрами. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_6)(Size) | Возвращает объект изображения с указанным размером. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage)() | Возвращает объект Thumbnail Image (20% от реального размера). |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_1)(IRenderingOptions) | Возвращает объект Thumbnail Bitmap. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_4)(ITiffOptions) | Возвращает объект Thumbnail tiff bitmap с заданными параметрами. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_6)(Size) | Возвращает объект изображения с заданным размером. |
 | [GetImage](../../aspose.slides/islide/getimage#getimage_5)(float, float) | Возвращает объект изображения с пользовательским масштабированием. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_3)(IRenderingOptions, Size) | Возвращает объект Bitmap миниатюры с указанным размером. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | Возвращает объект Bitmap миниатюры с пользовательским масштабированием. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_3)(IRenderingOptions, Size) | Возвращает объект Thumbnail Bitmap с заданным размером. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | Возвращает объект Thumbnail Bitmap с пользовательским масштабированием. |
 | [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | Возвращает все комментарии к слайду, добавленные конкретным автором. |
 | [Remove](../../aspose.slides/islide/remove)() | Удаляет слайд из презентации. |
 | [Reset](../../aspose.slides/islide/reset)() | Сбрасывает позицию, размер и форматирование каждой формы, которая имеет прототип на LayoutSlide. |
@@ -45,7 +45,7 @@ public interface ISlide : IBaseSlide, IOverrideThemeable
 | [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg)(Stream) | Сохраняет содержимое слайда в виде файла SVG. |
 | [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg_1)(Stream, ISVGOptions) | Сохраняет содержимое слайда в виде файла SVG. |
 
-### См. также
+### Смотрите Также
 
 * интерфейс [IBaseSlide](../ibaseslide)
 * интерфейс [IOverrideThemeable](../../aspose.slides.theme/ioverridethemeable)

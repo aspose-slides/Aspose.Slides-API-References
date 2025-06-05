@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ibaseportionformateffectivedata/languageid/
 public string LanguageId { get; }
 ```
 
-### См. Также
+### Также смотри
 
 * интерфейс [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
 * пространство имен [Aspose.Slides](../../ibaseportionformateffectivedata)

@@ -1,15 +1,15 @@
 ---
 title: RawFrame
-second_title: Aspose.Slides для .NET API Reference
-description: Возвращает или устанавливает свойства необработанных рамок формы. Чтение/запись IShapeFrameaspose.slides/ishapeframe.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает или устанавливает свойства рамки сырой формы. Чтение/запись IShapeFrameaspose.slides/ishapeframe.
 type: docs
 weight: 230
 url: /ru/aspose.slides/shape/rawframe/
 ---
 
-## Свойство Shape.RawFrame
+## Shape.RawFrame свойство
 
-Возвращает или устанавливает свойства рамки необработанной формы. Чтение/запись [`IShapeFrame`](../../ishapeframe).
+Возвращает или устанавливает свойства рамки сырой формы. Чтение/запись [`IShapeFrame`](../../ishapeframe).
 
 ```csharp
 public IShapeFrame RawFrame { get; set; }
@@ -17,7 +17,7 @@ public IShapeFrame RawFrame { get; set; }
 
 ### Примеры
 
-Код, который пытается назначить неопределенную рамку для IShape.Frame, в общем случае не имеет смысла (особенно в случае, когда родительская GroupShape многократно вложена в другие GroupShape). Например:
+Код, который пытается присвоить неопределенную рамку IShape.Frame, не имеет смысла в общем случае (особенно если родительская GroupShape вложена в другие GroupShape). Например:
 
 ```csharp
 IShape shape = ...;
@@ -62,14 +62,14 @@ IShapeCollection shapes = ...;
 }
 ```
 
-Но свойства рамки IShape.RawFrame могут быть неопределенными. Это имеет смысл, когда форма связана с заполнительным элементом. Тогда неопределенные значения рамки формы переопределяются из родительской рамки заполнителя. Если для этой формы нет родительской рамки заполнителя, то эта форма использует значения по умолчанию при оценке эффективной рамки на основе ее IShape.RawFrame. Значения по умолчанию равны 0 и NullableBool.False для x, y, width, height, flipH, flipV и rotationAngle. Например:
+Но свойства рамки IShape.RawFrame могут быть неопределенными. Это имеет смысл, когда форма связана с заполнительными элементами. Тогда неопределенные значения рамки формы переопределяются значениями родительской формы-заполнителя. Если для этой формы нет родительской формы-заполнителя, то она использует значения по умолчанию при оценке эффективной рамки на основе своего IShape.RawFrame. Значения по умолчанию - 0 и NullableBool.False для x, y, width, height, flipH, flipV и rotationAngle. Например:
 
 ```csharp
-IShape shape = ...; // форма связана с заполнительным элементом
-shape.RawFrame = new ShapeFrame(float.NaN, float.NaN, 100, float.NaN, NullableBool.NotDefined, NullableBool.NotDefined, 0); // теперь форма наследует значения x, y, height, flipH, flipV от заполнителя и переопределяет width=100 и rotationAngle=0.
+IShape shape = ...; // форма связана с заполнителем
+shape.RawFrame = new ShapeFrame(float.NaN, float.NaN, 100, float.NaN, NullableBool.NotDefined, NullableBool.NotDefined, 0); // теперь форма унаследует значения x, y, height, flipH, flipV от заполнителя и переопределяет width=100 и rotationAngle=0.
 ```
 
-### См. Также
+### Смотрите также
 
 * интерфейс [IShapeFrame](../../ishapeframe)
 * класс [Shape](../../shape)

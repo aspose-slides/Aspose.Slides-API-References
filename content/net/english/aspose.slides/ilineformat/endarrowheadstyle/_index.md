@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/ilineformat/endarrowheadstyle/
 ---
+
 ## ILineFormat.EndArrowheadStyle property
 
 Returns or sets the arrowhead style at the end of a line. Read/write [`LineArrowheadStyle`](../../linearrowheadstyle).

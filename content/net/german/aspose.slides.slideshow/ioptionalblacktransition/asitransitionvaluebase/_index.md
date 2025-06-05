@@ -1,24 +1,24 @@
 ---
 title: AsITransitionValueBase
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf das Basis-ITransitionValueBase-Interface. Nur-lesbares ITransitionValueBase aspose.slides.slideshow/itransitionvaluebase.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ermöglicht den Zugriff auf die Basis-ITransitionValueBase-Schnittstelle. Schreibgeschützte ITransitionValueBaseaspose.slides.slideshow/itransitionvaluebase.
 type: docs
 weight: 10
 url: /de/aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase/
 ---
 
-## IOptionalBlackTransition.AsITransitionValueBase-Eigenschaft
+## IOptionalBlackTransition.AsITransitionValueBase Eigenschaft
 
-Ermöglicht den Zugriff auf das Basis-ITransitionValueBase-Interface. Nur-lesbares [`ITransitionValueBase`](../../itransitionvaluebase).
+Ermöglicht den Zugriff auf die Basis-ITransitionValueBase-Schnittstelle. Schreibgeschützte [`ITransitionValueBase`](../../itransitionvaluebase).
 
 ```csharp
 public ITransitionValueBase AsITransitionValueBase { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
-* Interface [ITransitionValueBase](../../itransitionvaluebase)
-* Interface [IOptionalBlackTransition](../../ioptionalblacktransition)
+* Schnittstelle [ITransitionValueBase](../../itransitionvaluebase)
+* Schnittstelle [IOptionalBlackTransition](../../ioptionalblacktransition)
 * Namespace [Aspose.Slides.SlideShow](../../ioptionalblacktransition)
 * Assembly [Aspose.Slides](../../../)
 

@@ -1,6 +1,6 @@
 ---
-title: 清除
-second_title: Aspose.Slides for .NET API 参考
+title: Clear
+second_title: Aspose.Sildes for .NET API Reference
 description: 从集合中移除所有元素。
 type: docs
 weight: 50
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/iportioncollection/clear/
 public void Clear()
 ```
 
-### 参见
+### 另见
 
 * 接口 [IPortionCollection](../../iportioncollection)
 * 命名空间 [Aspose.Slides](../../iportioncollection)

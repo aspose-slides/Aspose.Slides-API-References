@@ -1,15 +1,15 @@
 ---
 title: CreateAlphaModulateFixed
-second_title: Aspose.Slides para .NET Referencia de API
-description: Crea un efecto de modulación de alfa fijo.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Crea un efecto de modulación alfa fijo.
 type: docs
 weight: 50
 url: /es/aspose.slides.effects/iimagetransformoperationfactory/createalphamodulatefixed/
 ---
 
-## IImageTransformOperationFactory.CreateAlphaModulateFixed método
+## IImageTransformOperationFactory.CreateAlphaModulateFixed method
 
-Crea un efecto de modulación de alfa fijo.
+Crea un efecto de modulación alfa fijo.
 
 ```csharp
 public IAlphaModulateFixed CreateAlphaModulateFixed(float amount)
@@ -21,13 +21,13 @@ public IAlphaModulateFixed CreateAlphaModulateFixed(float amount)
 
 ### Valor de Retorno
 
-Efecto de modulación de alfa fijo.
+Efecto de modulación alfa fijo.
 
 ### Véase También
 
-* interfaz [IAlphaModulateFixed](../../ialphamodulatefixed)
-* interfaz [IImageTransformOperationFactory](../../iimagetransformoperationfactory)
-* espacio de nombres [Aspose.Slides.Effects](../../iimagetransformoperationfactory)
-* ensamblaje [Aspose.Slides](../../../)
+* interface [IAlphaModulateFixed](../../ialphamodulatefixed)
+* interface [IImageTransformOperationFactory](../../iimagetransformoperationfactory)
+* namespace [Aspose.Slides.Effects](../../iimagetransformoperationfactory)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

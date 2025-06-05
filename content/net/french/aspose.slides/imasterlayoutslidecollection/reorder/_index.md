@@ -1,5 +1,5 @@
 ---
-title: Réorganiser
+title: Reorder
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Déplace la diapositive de mise en page de la collection vers la position spécifiée.
 type: docs
@@ -7,7 +7,7 @@ weight: 70
 url: /fr/aspose.slides/imasterlayoutslidecollection/reorder/
 ---
 
-## Méthode IMasterLayoutSlideCollection.Reorder
+## IMasterLayoutSlideCollection.Reorder méthode
 
 Déplace la diapositive de mise en page de la collection vers la position spécifiée.
 

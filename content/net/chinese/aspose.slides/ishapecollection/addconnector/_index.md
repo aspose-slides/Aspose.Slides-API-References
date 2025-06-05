@@ -1,7 +1,7 @@
 ---
 title: AddConnector
-second_title: Aspose.Slides for .NET API Reference
-description: 创建一个新的连接器，从默认模板进行调整，并将其添加到集合的末尾。
+second_title: Aspose.Sildes for .NET API 参考
+description: 创建一个新的连接器，从默认模板调整并将其添加到集合的末尾。
 type: docs
 weight: 90
 url: /zh/aspose.slides/ishapecollection/addconnector/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ishapecollection/addconnector/
 
 ## AddConnector(ShapeType, float, float, float, float) {#addconnector}
 
-创建一个新的连接器，从默认模板进行调整，并将其添加到集合的末尾。
+创建一个新的连接器，从默认模板调整并将其添加到集合的末尾。
 
 ```csharp
 public IConnector AddConnector(ShapeType shapeType, float x, float y, float width, float height)
@@ -19,17 +19,17 @@ public IConnector AddConnector(ShapeType shapeType, float x, float y, float widt
 | --- | --- | --- |
 | shapeType | ShapeType | 形状的 [`ShapeType`](../../shapetype)。 |
 | x | Single | 形状框左侧的 X 坐标。 |
-| y | Single | 形状框顶部的 Y 坐标。 |
+| y | Single | 形状框上侧的 Y 坐标。 |
 | width | Single | 形状框的宽度。 |
 | height | Single | 形状框的高度。 |
 
 ### 返回值
 
-创建形状的零基索引。
+创建的形状的零基索引。
 
 创建的连接器对象。
 
-### 另请参阅
+### 另见
 
 * 接口 [IConnector](../../iconnector)
 * 枚举 [ShapeType](../../shapetype)
@@ -41,7 +41,7 @@ public IConnector AddConnector(ShapeType shapeType, float x, float y, float widt
 
 ## AddConnector(ShapeType, float, float, float, float, bool) {#addconnector_1}
 
-创建一个新的连接器，并将其添加到集合的末尾。
+创建一个新的连接器并将其添加到集合的末尾。
 
 ```csharp
 public IConnector AddConnector(ShapeType shapeType, float x, float y, float width, float height, 
@@ -52,18 +52,18 @@ public IConnector AddConnector(ShapeType shapeType, float x, float y, float widt
 | --- | --- | --- |
 | shapeType | ShapeType | 形状的 [`ShapeType`](../../shapetype)。 |
 | x | Single | 形状框左侧的 X 坐标。 |
-| y | Single | 形状框顶部的 Y 坐标。 |
+| y | Single | 形状框上侧的 Y 坐标。 |
 | width | Single | 形状框的宽度。 |
 | height | Single | 形状框的高度。 |
-| createFromTemplate | Boolean | 如果为 true，则新形状将从默认模板中调整。新形状将被赋予非空名称、简单样式、居中的文本。如果为 false，则新形状的所有属性值将具有默认值。 |
+| createFromTemplate | Boolean | 如果为 true，则新形状将从默认模板调整。新形状将分配非空名称、简单样式和居中文本。如果为 false，则新形状的所有属性值将具有默认值。 |
 
 ### 返回值
 
-创建形状的零基索引。
+创建的形状的零基索引。
 
 创建的连接器对象。
 
-### 另请参阅
+### 另见
 
 * 接口 [IConnector](../../iconnector)
 * 枚举 [ShapeType](../../shapetype)

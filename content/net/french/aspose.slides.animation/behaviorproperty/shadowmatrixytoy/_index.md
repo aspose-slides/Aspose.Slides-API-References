@@ -1,13 +1,13 @@
 ---
 title: ShadowMatrixYtoY
 second_title: Aspose.Slides pour .NET Référence API
-description: Représente la propriété shadow.matrix.ytoy
+description: Représente la propriété 'shadow.matrix.ytoy'
 type: docs
 weight: 670
 url: /fr/aspose.slides.animation/behaviorproperty/shadowmatrixytoy/
 ---
 
-## Propriété BehaviorProperty.ShadowMatrixYtoY
+## BehaviorProperty.ShadowMatrixYtoY propriété
 
 Représente la propriété 'shadow.matrix.ytoy'
 
@@ -15,7 +15,7 @@ Représente la propriété 'shadow.matrix.ytoy'
 public static BehaviorProperty ShadowMatrixYtoY { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [BehaviorProperty](../../behaviorproperty)
 * espace de noms [Aspose.Slides.Animation](../../behaviorproperty)

@@ -1,13 +1,13 @@
 ---
 title: AsIBehavior
-second_title: Referencia de API de Aspose.Slidess para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Permite obtener la interfaz base IBehavior. IBehavior de solo lectura aspose.slides.animation/ibehavior.
 type: docs
 weight: 10
 url: /es/aspose.slides.animation/icommandeffect/asibehavior/
 ---
 
-## Propiedad ICommandEffect.AsIBehavior
+## ICommandEffect.AsIBehavior property
 
 Permite obtener la interfaz base IBehavior. [`IBehavior`](../../ibehavior) de solo lectura.
 
@@ -20,6 +20,6 @@ public IBehavior AsIBehavior { get; }
 * interfaz [IBehavior](../../ibehavior)
 * interfaz [ICommandEffect](../../icommandeffect)
 * espacio de nombres [Aspose.Slides.Animation](../../icommandeffect)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->

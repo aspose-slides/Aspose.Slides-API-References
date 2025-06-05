@@ -1,21 +1,21 @@
 ---
-title: Mots
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie le nombre total de mots contenus dans un document. Lecture seule Int32.
+title: Words
+second_title: Référence API Aspose.Slides pour .NET
+description: Spécifie le nombre total de mots contenus dans un document. En lecture seule Int32.
 type: docs
 weight: 350
 url: /fr/aspose.slides/idocumentproperties/words/
 ---
 
-## Propriété IDocumentProperties.Words
+## IDocumentProperties.Words propriété
 
-Spécifie le nombre total de mots contenus dans un document. Lecture seule Int32.
+Spécifie le nombre total de mots contenus dans un document. En lecture seule Int32.
 
 ```csharp
 public int Words { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IDocumentProperties](../../idocumentproperties)
 * namespace [Aspose.Slides](../../idocumentproperties)

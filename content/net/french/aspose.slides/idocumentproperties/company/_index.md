@@ -1,15 +1,15 @@
 ---
-title: Entreprise
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit la propriété entreprise. Chaîne en lecture/écriture.
+title: Company
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie ou définit la propriété company. Chaîne en lecture/écriture.
 type: docs
 weight: 60
 url: /fr/aspose.slides/idocumentproperties/company/
 ---
 
-## Propriété IDocumentProperties.Company
+## IDocumentProperties.Company property
 
-Renvoie ou définit la propriété entreprise. Chaîne en lecture/écriture.
+Renvoie ou définit la propriété company. Chaîne en lecture/écriture.
 
 ```csharp
 public string Company { get; set; }

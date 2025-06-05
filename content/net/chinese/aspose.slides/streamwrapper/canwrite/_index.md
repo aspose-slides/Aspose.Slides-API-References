@@ -1,7 +1,7 @@
 ---
 title: CanWrite
-second_title: Aspose.Sildes for .NET API 参考
-description: 获取一个值，该值指示当前流是否支持写入。只读布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取一个值，指示当前流是否支持写入。只读布尔值。
 type: docs
 weight: 40
 url: /zh/aspose.slides/streamwrapper/canwrite/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/streamwrapper/canwrite/
 
 ## StreamWrapper.CanWrite 属性
 
-获取一个值，该值指示当前流是否支持写入。只读布尔值。
+获取一个值，指示当前流是否支持写入。只读布尔值。
 
 ```csharp
 public bool CanWrite { get; }

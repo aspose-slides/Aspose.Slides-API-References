@@ -1,6 +1,6 @@
 ---
-title: 插入
-second_title: Aspose.Slides for .NET API 参考
+title: Insert
+second_title: Aspose.Sildes for .NET API Reference
 description: 在指定索引处将 IMathBlock 插入集合中。
 type: docs
 weight: 90
@@ -17,12 +17,12 @@ public void Insert(int index, IMathBlock mathBlock)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 应该插入项的零基础索引。 |
+| index | Int32 | 应插入项的零基础索引。 |
 | mathBlock | IMathBlock | 要插入的 IMathBlock。 |
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -32,7 +32,7 @@ IMathBlock block = new MathBlock(new MathematicalText("y"));
 mathParagraph.Insert(0, block);
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [IMathBlock](../../imathblock)
 * 类 [MathParagraph](../../mathparagraph)

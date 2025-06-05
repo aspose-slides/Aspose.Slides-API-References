@@ -6,6 +6,7 @@ type: docs
 weight: 170
 url: /aspose.slides.charts/ichartdatapoint/xvalue/
 ---
+
 ## IChartDataPoint.XValue property
 
 Returns the x value of chart data point. Read-only [`IStringOrDoubleChartValue`](../../istringordoublechartvalue).

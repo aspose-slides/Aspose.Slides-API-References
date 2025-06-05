@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/digitalsignature/certificate/
 ---
+
 ## DigitalSignature.Certificate property
 
 Certificate object that was used to sign the document. Read-only X509Certificate2.

@@ -1,6 +1,6 @@
 ---
 title: IColorChange
-second_title: Aspose.Sildes para .NET Referencia de API
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un efecto de Cambio de Color. Las instancias de FromColor son reemplazadas por instancias de ToColor.
 type: docs
 weight: 3100

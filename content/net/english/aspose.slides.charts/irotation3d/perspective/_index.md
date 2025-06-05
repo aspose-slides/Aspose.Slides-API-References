@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/irotation3d/perspective/
 ---
+
 ## IRotation3D.Perspective property
 
 Returns or sets the perspective value (field of view angle) for 3D charts (between 0 and 100). Ignored if RightAngleAxes property value is true. Read/write Byte.

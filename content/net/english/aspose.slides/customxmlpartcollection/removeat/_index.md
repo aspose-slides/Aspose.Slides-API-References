@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/customxmlpartcollection/removeat/
 ---
+
 ## CustomXmlPartCollection.RemoveAt method
 
 Removes custom xml part at the specified index.

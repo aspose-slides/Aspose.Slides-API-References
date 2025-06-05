@@ -1,6 +1,6 @@
 ---
 title: AsIWarningInfo
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Возвращает интерфейс IWarningInfo. Только для чтения IWarningInfoaspose.slides.warnings/iwarninginfo.
 type: docs
 weight: 10
@@ -15,11 +15,11 @@ url: /ru/aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarni
 public IWarningInfo AsIWarningInfo { get; }
 ```
 
-### Примечания
+### Замечания
 
 Для совместимости с COM.
 
-### См. также
+### См. Также
 
 * интерфейс [IWarningInfo](../../iwarninginfo)
 * интерфейс [IObsoletePresLockingBehaviorWarningInfo](../../iobsoletepreslockingbehaviorwarninginfo)

@@ -1,7 +1,7 @@
 ---
 title: BeginArrowheadLength
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Pfeilspitzenlänge am Anfang einer Linie zurück. Nur lesbar LineArrowheadLengthaspose.slides/linearrowheadlength.
+description: Gibt die Länge des Pfeilkopfes am Anfang einer Linie zurück. Nur-Lese LineArrowheadLengthaspose.slides/linearrowheadlength.
 type: docs
 weight: 30
 url: /de/aspose.slides/ilineformateffectivedata/beginarrowheadlength/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ilineformateffectivedata/beginarrowheadlength/
 
 ## ILineFormatEffectiveData.BeginArrowheadLength-Eigenschaft
 
-Gibt die Pfeilspitzenlänge am Anfang einer Linie zurück. Nur lesbar [`LineArrowheadLength`](../../linearrowheadlength).
+Gibt die Länge des Pfeilkopfes am Anfang einer Linie zurück. Nur-Lese [`LineArrowheadLength`](../../linearrowheadlength).
 
 ```csharp
 public LineArrowheadLength BeginArrowheadLength { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [LineArrowheadLength](../../linearrowheadlength)
 * interface [ILineFormatEffectiveData](../../ilineformateffectivedata)

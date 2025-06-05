@@ -1,6 +1,6 @@
 ---
 title: ExtrusionRotationAngleX
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Représente la propriété extrusion.rotationangle.x
 type: docs
 weight: 140

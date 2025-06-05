@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/baseslideheaderfootermanager/isdatetimevisible/
 ---
+
 ## BaseSlideHeaderFooterManager.IsDateTimeVisible property
 
 Gets value indicating that a date-time placeholder is present. ReadBoolean.

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.animation/icoloroffset/value0/
 ---
+
 ## IColorOffset.Value0 property
 
 Defines first value of offset. Read/write Single.

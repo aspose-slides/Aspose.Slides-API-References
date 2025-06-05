@@ -1,15 +1,15 @@
 ---
 title: AddPlaceholder
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Ajoute un nouvel espace réservé s'il n'y en a pas et définit les propriétés de l'espace réservé à celles spécifiées.
+description: Ajoute un nouvel espace réservé s'il n'y en a pas et définit les propriétés de l'espace réservé à un spécifié.
 type: docs
 weight: 300
 url: /fr/aspose.slides/ishape/addplaceholder/
 ---
 
-## Méthode IShape.AddPlaceholder
+## IShape.AddPlaceholder méthode
 
-Ajoute un nouvel espace réservé s'il n'y en a pas et définit les propriétés de l'espace réservé à celles spécifiées.
+Ajoute un nouvel espace réservé s'il n'y en a pas et définit les propriétés de l'espace réservé à un spécifié.
 
 ```csharp
 public IPlaceholder AddPlaceholder(IPlaceholder placeholderToCopyFrom)

@@ -1,21 +1,21 @@
 ---
 title: AsISvgShapeFormattingController
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf die Basis-ISvgShapeFormattingController-Schnittstelle. Nur-Lese-ISvgShapeFormattingControlleraspose.slides.export/isvgshapeformattingcontroller.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ermöglicht den Zugriff auf die grundlegende ISvgShapeFormattingController-Schnittstelle. Nur lesbare ISvgShapeFormattingControlleraspose.slides.export/isvgshapeformattingcontroller.
 type: docs
 weight: 30
 url: /de/aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller/
 ---
 
-## IVideoPlayerHtmlController.AsISvgShapeFormattingController-Eigenschaft
+## IVideoPlayerHtmlController.AsISvgShapeFormattingController Eigenschaft
 
-Ermöglicht den Zugriff auf die Basis-ISvgShapeFormattingController-Schnittstelle. Nur-Lese [`ISvgShapeFormattingController`](../../isvgshapeformattingcontroller).
+Ermöglicht den Zugriff auf die grundlegende ISvgShapeFormattingController-Schnittstelle. Nur lesbar [`ISvgShapeFormattingController`](../../isvgshapeformattingcontroller).
 
 ```csharp
 public ISvgShapeFormattingController AsISvgShapeFormattingController { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ISvgShapeFormattingController](../../isvgshapeformattingcontroller)
 * Schnittstelle [IVideoPlayerHtmlController](../../ivideoplayerhtmlcontroller)

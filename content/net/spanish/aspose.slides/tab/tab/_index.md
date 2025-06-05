@@ -1,15 +1,15 @@
 ---
-title: Pestaña
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Crea una nueva pestaña
+title: Tab
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Crea un nuevo Tab
 type: docs
 weight: 10
 url: /es/aspose.slides/tab/tab/
 ---
 
-## Constructor de Pestaña
+## Constructor de Tab
 
-Crea una nueva pestaña
+Crea un nuevo Tab
 
 ```csharp
 public Tab(double position, TabAlignment align)
@@ -17,14 +17,14 @@ public Tab(double position, TabAlignment align)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| position | Doble | Posición de la pestaña. |
-| align | TabAlignment | Alinear. |
+| position | Double | Posición del Tab. |
+| align | TabAlignment | Alineación. |
 
-### Ver También
+### Ver también
 
 * enum [TabAlignment](../../tabalignment)
 * class [Tab](../../tab)
 * namespace [Aspose.Slides](../../tab)
 * assembly [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->

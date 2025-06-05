@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/presentation/firstslidenumber/
 ---
+
 ## Presentation.FirstSlideNumber property
 
 Represents the first slide number in the presentation

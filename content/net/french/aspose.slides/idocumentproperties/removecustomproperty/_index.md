@@ -1,13 +1,13 @@
 ---
 title: RemoveCustomProperty
-second_title: Aspose.Sildes pour la référence API .NET
+second_title: Aspose.Sildes pour .NET API Reference
 description: Supprimer une propriété personnalisée associée à un nom spécifié.
 type: docs
 weight: 410
 url: /fr/aspose.slides/idocumentproperties/removecustomproperty/
 ---
 
-## Méthode IDocumentProperties.RemoveCustomProperty
+## IDocumentProperties.RemoveCustomProperty méthode
 
 Supprimer une propriété personnalisée associée à un nom spécifié.
 

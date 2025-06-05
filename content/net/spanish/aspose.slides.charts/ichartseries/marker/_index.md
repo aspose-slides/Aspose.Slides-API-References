@@ -1,7 +1,7 @@
 ---
-title: Marcador
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve el marcador de la serie. Solo lectura IMarkeraspose.slides.charts/imarker.
+title: Marker
+second_title: Aspose.Slides para .NET Referencia de API
+description: Devuelve el marcador de la serie. Solo lectura IMarker aspose.slides.charts/imarker.
 type: docs
 weight: 200
 url: /es/aspose.slides.charts/ichartseries/marker/
@@ -15,7 +15,7 @@ Devuelve el marcador de la serie. Solo lectura [`IMarker`](../../imarker).
 public IMarker Marker { get; }
 ```
 
-### Véase también
+### Véase También
 
 * interfaz [IMarker](../../imarker)
 * interfaz [IChartSeries](../../ichartseries)

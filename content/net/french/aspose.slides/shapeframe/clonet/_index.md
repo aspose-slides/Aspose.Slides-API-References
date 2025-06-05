@@ -7,7 +7,7 @@ weight: 130
 url: /fr/aspose.slides/shapeframe/clonet/
 ---
 
-## Méthode ShapeFrame.CloneT
+## ShapeFrame.CloneT méthode
 
 Clones.
 
@@ -15,7 +15,7 @@ Clones.
 public IShapeFrame CloneT()
 ```
 
-### Valeur de Retour
+### Valeur de retour
 
 Cadre de forme cloné.
 

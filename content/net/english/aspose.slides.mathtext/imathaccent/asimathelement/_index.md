@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/imathaccent/asimathelement/
 ---
+
 ## IMathAccent.AsIMathElement property
 
 Allows to get base IMathElement interface [`IMathElement`](../../imathelement)

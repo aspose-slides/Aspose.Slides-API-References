@@ -1,7 +1,7 @@
 ---
-title: Symbole
+title: Symbol
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente le style de marqueur dans un graphique linéaire, un graphique de dispersion ou un graphique radar. Lecture/écriture MarkerStyleTypeaspose.slides.charts/markerstyletype.
+description: Représente le style de marqueur dans un graphique à lignes, un graphique de dispersion ou un graphique radar. Lecture/écriture MarkerStyleTypeaspose.slides.charts/markerstyletype.
 type: docs
 weight: 30
 url: /fr/aspose.slides.charts/marker/symbol/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/marker/symbol/
 
 ## Propriété Marker.Symbol
 
-Représente le style de marqueur dans un graphique linéaire, un graphique de dispersion ou un graphique radar. Lecture/écriture [`MarkerStyleType`](../../markerstyletype).
+Représente le style de marqueur dans un graphique à lignes, un graphique de dispersion ou un graphique radar. Lecture/écriture [`MarkerStyleType`](../../markerstyletype).
 
 ```csharp
 public MarkerStyleType Symbol { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [MarkerStyleType](../../markerstyletype)
 * class [Marker](../../marker)

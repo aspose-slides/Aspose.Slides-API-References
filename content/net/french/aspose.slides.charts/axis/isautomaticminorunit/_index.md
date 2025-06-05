@@ -1,15 +1,15 @@
 ---
 title: IsAutomaticMinorUnit
-second_title: Référence API Aspose.Slides pour .NET
-description: Indique si l'unité mineure de l'axe est assignée automatiquement. Booléen en lecture/écriture.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Indique si l'unité mineure de l'axe est automatiquement assignée. Booléen en lecture/écriture.
 type: docs
 weight: 200
 url: /fr/aspose.slides.charts/axis/isautomaticminorunit/
 ---
 
-## Propriété Axis.IsAutomaticMinorUnit
+## Axis.IsAutomaticMinorUnit propriété
 
-Indique si l'unité mineure de l'axe est assignée automatiquement. Booléen en lecture/écriture.
+Indique si l'unité mineure de l'axe est automatiquement assignée. Booléen en lecture/écriture.
 
 ```csharp
 public bool IsAutomaticMinorUnit { get; set; }

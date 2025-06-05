@@ -1,15 +1,15 @@
 ---
-title: Höhe
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Aufzählungszeichenhöhe eines Absatzes ohne Vererbung zurück oder legt sie fest. Der Wert float.NaN bestimmt, dass das Aufzählungszeichen die Höhe vom ersten Teil im Absatz erbt. Lese-/Schreibzugriff Einzel.
+title: Height
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Aufzählungshöhe eines Absatzes ohne Vererbung zurück oder setzt sie. Der Wert float.NaN bestimmt, dass die Aufzählungshöhe vom ersten Teil des Absatzes geerbt wird. Lese-/Schreibzugriff Single.
 type: docs
 weight: 40
 url: /de/aspose.slides/ibulletformat/height/
 ---
 
-## IBulletFormat.Height-Eigenschaft
+## IBulletFormat.Height Eigenschaft
 
-Gibt die Aufzählungszeichenhöhe eines Absatzes ohne Vererbung zurück oder legt sie fest. Der Wert float.NaN bestimmt, dass das Aufzählungszeichen die Höhe vom ersten Teil im Absatz erbt. Lese-/Schreibzugriff Einzel.
+Gibt die Aufzählungshöhe eines Absatzes ohne Vererbung zurück oder setzt sie. Der Wert float.NaN bestimmt, dass die Aufzählungshöhe vom ersten Teil des Absatzes geerbt wird. Lese-/Schreibzugriff Single.
 
 ```csharp
 public float Height { get; set; }

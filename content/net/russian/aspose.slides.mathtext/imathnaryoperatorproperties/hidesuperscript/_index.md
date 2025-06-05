@@ -1,15 +1,15 @@
 ---
 title: HideSuperscript
 second_title: Aspose.Sildes для справки по API .NET
-description: Скрыть верхний индекс
+description: Скрыть надстрочный текст
 type: docs
 weight: 30
 url: /ru/aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript/
 ---
 
-## Свойство IMathNaryOperatorProperties.HideSuperscript
+## IMathNaryOperatorProperties.HideSuperscript свойство
 
-Скрыть верхний индекс
+Скрыть надстрочный текст
 
 ```csharp
 public bool HideSuperscript { get; set; }
@@ -25,7 +25,7 @@ IMathNaryOperator naryOperator = new MathematicalText("x").Nary(MathNaryOperator
 naryOperator.HideSuperscript = true;
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IMathNaryOperatorProperties](../../imathnaryoperatorproperties)
 * пространство имен [Aspose.Slides.MathText](../../imathnaryoperatorproperties)

@@ -1,7 +1,7 @@
 ---
-title: 添加
-second_title: Aspose.Slides for .NET API 参考
-description: 在集合的末尾添加新的趋势线并返回它。
+title: Add
+second_title: Aspose.Sildes for .NET API Reference
+description: 在集合末尾添加新的趋势线并返回它。
 type: docs
 weight: 30
 url: /zh/aspose.slides.charts/trendlinecollection/add/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/trendlinecollection/add/
 
 ## TrendlineCollection.Add 方法
 
-在集合的末尾添加新的趋势线并返回它。
+在集合末尾添加新的趋势线并返回它。
 
 ```csharp
 public ITrendline Add(TrendlineType trendlineType)
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [ITrendline](../../itrendline)
 * 枚举 [TrendlineType](../../trendlinetype)

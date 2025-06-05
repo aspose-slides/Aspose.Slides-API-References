@@ -19,7 +19,7 @@ public ColorOperation(ColorTransformOperation op)
 | --- | --- | --- |
 | op | ColorTransformOperation | Тип операции. |
 
-### См. также
+### Также см.
 
 * enum [ColorTransformOperation](../../colortransformoperation)
 * class [ColorOperation](../../coloroperation)
@@ -41,7 +41,7 @@ public ColorOperation(ColorTransformOperation op, float parameter)
 | op | ColorTransformOperation | Тип операции. |
 | parameter | Single | Параметр операции. |
 
-### См. также
+### Также см.
 
 * enum [ColorTransformOperation](../../colortransformoperation)
 * class [ColorOperation](../../coloroperation)

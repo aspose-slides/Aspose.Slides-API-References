@@ -1,7 +1,7 @@
 ---
-title: 默认段落格式
-second_title: Aspose.Slides for .NET API 参考
-description: 默认段落属性。只读 IParagraphFormataspose.slides/iparagraphformat。
+title: DefaultParagraphFormat
+second_title: Aspose.Slides for .NET API Reference
+description: 默认段落属性。唯读 IParagraphFormataspose.slides/iparagraphformat。
 type: docs
 weight: 10
 url: /zh/aspose.slides/textstyle/defaultparagraphformat/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/textstyle/defaultparagraphformat/
 
 ## TextStyle.DefaultParagraphFormat 属性
 
-默认段落属性。只读 [`IParagraphFormat`](../../iparagraphformat)。
+默认段落属性。唯读 [`IParagraphFormat`](../../iparagraphformat)。
 
 ```csharp
 public IParagraphFormat DefaultParagraphFormat { get; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IParagraphFormat](../../iparagraphformat)
 * 类 [TextStyle](../../textstyle)

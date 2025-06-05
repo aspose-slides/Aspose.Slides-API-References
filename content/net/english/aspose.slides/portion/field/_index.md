@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/portion/field/
 ---
+
 ## Portion.Field property
 
 Returns a field of this portion. Read-only [`IField`](../../ifield).

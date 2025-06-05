@@ -1,15 +1,15 @@
 ---
 title: CreateMathFraction
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Erstellt einen mathematischen Bruch
 type: docs
 weight: 10
 url: /de/aspose.slides.mathtext/imathfractionfactory/createmathfraction/
 ---
 
-## CreateMathFraction(IMathElement, IMathElement, MathFractionTypes) {#createmathfraction_1}
+## CreateMathFraction(IMathElement, IMathElement, MathFractionTypes) {#createmathfraction_1}
 
-Erschafft einen mathematischen Bruch
+Erstellt einen mathematischen Bruch
 
 ```csharp
 public IMathFraction CreateMathFraction(IMathElement numerator, IMathElement denominator, 
@@ -20,13 +20,13 @@ public IMathFraction CreateMathFraction(IMathElement numerator, IMathElement den
 | --- | --- | --- |
 | numerator | IMathElement | Zähler |
 | denominator | IMathElement | Nenner |
-| fractionType | MathFractionTypes | Brucht-Typ |
+| fractionType | MathFractionTypes | Bruchtyp |
 
 ### Rückgabewert
 
 Neuer mathematischer Bruch [`IMathFraction`](../../imathfraction)
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMathFraction](../../imathfraction)
 * Schnittstelle [IMathElement](../../imathelement)
@@ -37,9 +37,9 @@ Neuer mathematischer Bruch [`IMathFraction`](../../imathfraction)
 
 ---
 
-## CreateMathFraction(IMathElement, IMathElement) {#createmathfraction}
+## CreateMathFraction(IMathElement, IMathElement) {#createmathfraction}
 
-Erschafft einen mathematischen Bruch
+Erstellt einen mathematischen Bruch
 
 ```csharp
 public IMathFraction CreateMathFraction(IMathElement numerator, IMathElement denominator)
@@ -54,7 +54,7 @@ public IMathFraction CreateMathFraction(IMathElement numerator, IMathElement den
 
 Neuer mathematischer Bruch [`IMathFraction`](../../imathfraction)
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMathFraction](../../imathfraction)
 * Schnittstelle [IMathElement](../../imathelement)

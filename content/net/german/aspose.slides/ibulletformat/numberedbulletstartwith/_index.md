@@ -1,7 +1,7 @@
 ---
 title: NumberedBulletStartWith
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die erste Nummer zurück oder setzt diese, die für eine Gruppe von nummerierten Aufzählungszeichen ohne Vererbung verwendet wird. Lese-/Schreibzugriff Int16.
+description: Gibt die erste Nummer zurück oder setzt sie, die für eine Gruppe von nummerierten Aufzählungszeichen ohne Vererbung verwendet wird. Lese-/Schreibwert Int16.
 type: docs
 weight: 70
 url: /de/aspose.slides/ibulletformat/numberedbulletstartwith/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ibulletformat/numberedbulletstartwith/
 
 ## IBulletFormat.NumberedBulletStartWith-Eigenschaft
 
-Gibt die erste Nummer zurück oder setzt diese, die für eine Gruppe von nummerierten Aufzählungszeichen ohne Vererbung verwendet wird. Lese-/Schreibzugriff Int16.
+Gibt die erste Nummer zurück oder setzt sie, die für eine Gruppe von nummerierten Aufzählungszeichen ohne Vererbung verwendet wird. Lese-/Schreibwert Int16.
 
 ```csharp
 public short NumberedBulletStartWith { get; set; }

@@ -1,6 +1,6 @@
 ---
-title: 添加
-second_title: Aspose.Slides for .NET API 参考
+title: Add
+second_title: Aspose.Sildes for .NET API Reference
 description: 添加新的交互序列。
 type: docs
 weight: 40
@@ -21,9 +21,9 @@ public ISequence Add(IShape shapeTrigger)
 
 ### 返回值
 
-新序列 [`ISequence`](../../isequence)
+新的序列 [`ISequence`](../../isequence)
 
-### 另见
+### 参见
 
 * 接口 [ISequence](../../isequence)
 * 接口 [IShape](../../../aspose.slides/ishape)

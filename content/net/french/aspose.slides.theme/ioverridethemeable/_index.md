@@ -1,15 +1,15 @@
 ---
 title: IOverrideThemeable
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente le gestionnaire de thème de substitution.
+description: Représente le gestionnaire de thème de remplacement.
 type: docs
 weight: 11050
 url: /fr/aspose.slides.theme/ioverridethemeable/
 ---
 
-## Interface IOverrideThemeable
+## IOverrideThemeable interface
 
-Représente le gestionnaire de thème de substitution.
+Représente le gestionnaire de thème de remplacement.
 
 ```csharp
 public interface IOverrideThemeable : IThemeable
@@ -19,8 +19,8 @@ public interface IOverrideThemeable : IThemeable
 
 | Nom | Description |
 | --- | --- |
-| [AsIThemeable](../../aspose.slides.theme/ioverridethemeable/asithemeable) { get; } | Renvoie l'interface IThemeable. En lecture seule [`IThemeable`](../ithemeable). |
-| [ThemeManager](../../aspose.slides.theme/ioverridethemeable/thememanager) { get; } | Renvoie le gestionnaire de thème de substitution. En lecture seule [`IOverrideThemeManager`](../ioverridethememanager). |
+| [AsIThemeable](../../aspose.slides.theme/ioverridethemeable/asithemeable) { get; } | Retourne l'interface IThemeable. En lecture seule [`IThemeable`](../ithemeable). |
+| [ThemeManager](../../aspose.slides.theme/ioverridethemeable/thememanager) { get; } | Retourne le gestionnaire de thème de remplacement. En lecture seule [`IOverrideThemeManager`](../ioverridethememanager). |
 
 ### Voir aussi
 

@@ -6,6 +6,7 @@ type: docs
 weight: 390
 url: /aspose.slides.charts/ichartseries/showmeanline/
 ---
+
 ## IChartSeries.ShowMeanLine property
 
 Represents mean markers. True if mean line are shown on the BoxAndWhisker chart. Applies only to BoxAndWhisker charts. Read/write Boolean.

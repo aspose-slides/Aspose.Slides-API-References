@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/coloroperation/coloroperation/
 ---
+
 ## ColorOperation(ColorTransformOperation) {#constructor}
 
 Creates new color transform operation.

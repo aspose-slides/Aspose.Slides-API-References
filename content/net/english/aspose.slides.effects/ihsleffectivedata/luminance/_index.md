@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.effects/ihsleffectivedata/luminance/
 ---
+
 ## IHSLEffectiveData.Luminance property
 
 Returns luminance percentage. Read-only Single.

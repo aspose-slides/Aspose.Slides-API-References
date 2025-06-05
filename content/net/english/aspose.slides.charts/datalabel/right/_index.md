@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.charts/datalabel/right/
 ---
+
 ## DataLabel.Right property
 
 Right. Read-only Single.

@@ -1,6 +1,6 @@
 ---
-title: 数学分隔符形状
-second_title: Aspose.Slides for .NET API 参考
+title: MathDelimiterShape
+second_title: Aspose.Sildes for .NET API Reference
 description: 分隔符相对于操作数内容的位置和大小
 type: docs
 weight: 8410
@@ -22,7 +22,7 @@ public enum MathDelimiterShape
 | Centered | `0` | 相对于数学轴居中 |
 | Match | `1` | 与内容匹配 |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 程序集 [Aspose.Slides](../../)

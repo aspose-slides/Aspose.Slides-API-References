@@ -1,6 +1,6 @@
 ---
 title: PptxUnsupportedFormatException
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Slides для .NET API Reference
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
@@ -45,7 +45,7 @@ public PptxUnsupportedFormatException(string message)
 
 ## PptxUnsupportedFormatException(string, Exception) {#constructor_2}
 
-Конструктор для исключения, содержащего сообщение и вложенное исключение.
+Конструктор для исключения, содержащего сообщение и встроенное исключение.
 
 ```csharp
 public PptxUnsupportedFormatException(string message, Exception exception)
@@ -54,7 +54,7 @@ public PptxUnsupportedFormatException(string message, Exception exception)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | сообщение |
-| exception | Exception | оригинальное исключение |
+| exception | Exception | исходное исключение |
 
 ### См. Также
 

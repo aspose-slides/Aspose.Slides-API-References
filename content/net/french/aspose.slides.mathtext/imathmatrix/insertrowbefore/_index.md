@@ -1,13 +1,13 @@
 ---
 title: InsertRowBefore
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence de l'API .NET
 description: Insérer une nouvelle ligne avant celle spécifiée. Initialement, tous les éléments de la nouvelle ligne sont nuls.
 type: docs
 weight: 180
 url: /fr/aspose.slides.mathtext/imathmatrix/insertrowbefore/
 ---
 
-## Méthode IMathMatrix.InsertRowBefore
+## IMathMatrix.InsertRowBefore méthode
 
 Insérer une nouvelle ligne avant celle spécifiée. Initialement, tous les éléments de la nouvelle ligne sont nuls.
 
@@ -17,11 +17,11 @@ public void InsertRowBefore(int rowIndex)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| rowIndex | Int32 | Index de la ligne avant laquelle insérer une nouvelle ligne |
+| rowIndex | Int32 | Index de la ligne avant laquelle insérer une nouvelle |
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]
@@ -29,7 +29,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.InsertRowBefore(1);
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathMatrix](../../imathmatrix)
 * namespace [Aspose.Slides.MathText](../../imathmatrix)

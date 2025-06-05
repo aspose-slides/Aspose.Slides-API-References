@@ -1,13 +1,13 @@
 ---
-title: Устойчивость
-second_title: Справочник по API Aspose.Slides для .NET
+title: Persistence
+second_title: Aspose.Sildes для .NET API Справочник
 description: Получает метод, используемый для хранения свойств элемента управления ActiveX. Только для чтения PersistenceTypeaspose.slides/persistencetype.
 type: docs
 weight: 50
 url: /ru/aspose.slides/control/persistence/
 ---
 
-## Свойство Control.Persistence
+## Control.Persistence свойство
 
 Получает метод, используемый для хранения свойств элемента управления ActiveX. Только для чтения [`PersistenceType`](../../persistencetype).
 
@@ -17,7 +17,7 @@ public PersistenceType Persistence { get; }
 
 ### Примеры
 
-Следующий пример показывает использование свойства Persistence для проверки, могут ли свойства объекта ActiveX быть изменены как XML-основанные свойства ActiveX:
+Следующий пример показывает использование свойства Persistence для проверки, могут ли свойства объекта ActiveX быть изменены как свойства ActiveX на основе XML:
 
 ```csharp
 [C#]

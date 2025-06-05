@@ -1,15 +1,15 @@
 ---
-title: Exposant
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Argument d'exposant
+title: Superscript
+second_title: Aspose.Sildes pour .NET Référence API
+description: Argument de superscript
 type: docs
 weight: 40
 url: /fr/aspose.slides.mathtext/mathrightsubsuperscriptelement/superscript/
 ---
 
-## Propriété MathRightSubSuperscriptElement.Superscript
+## MathRightSubSuperscriptElement.Superscript propriété
 
-Argument d'exposant
+Argument de superscript
 
 ```csharp
 public IMathElement Superscript { get; }
@@ -17,7 +17,7 @@ public IMathElement Superscript { get; }
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -31,7 +31,7 @@ IMathElement sup = subsuperscript.Superscript;
 ### Voir Aussi
 
 * interface [IMathElement](../../imathelement)
-* classe [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement)
+* class [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement)
 * namespace [Aspose.Slides.MathText](../../mathrightsubsuperscriptelement)
 * assembly [Aspose.Slides](../../../)
 

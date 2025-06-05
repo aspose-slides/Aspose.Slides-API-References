@@ -1,7 +1,7 @@
 ---
 title: SetAllSlideNumbersVisibility
 second_title: Aspose.Slides für .NET API Referenz
-description: Ändert die Sichtbarkeit aller Platzhalter für Seitennummern, einschließlich Master-Folien, Layout-Folien, Folien, Master-Notizen, Notizen-Folien und Handout-Master.
+description: Ändert die Sichtbarkeit aller Platzhalter für Seitenzahlen, einschließlich Masterfolien, Layoutfolien, Folien, Notizenmaster, Notizenfolien und Handout-Master.
 type: docs
 weight: 70
 url: /de/aspose.slides/presentationheaderfootermanager/setallslidenumbersvisibility/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/presentationheaderfootermanager/setallslidenumbersvisibil
 
 ## PresentationHeaderFooterManager.SetAllSlideNumbersVisibility Methode
 
-Ändert die Sichtbarkeit aller Platzhalter für Seitennummern, einschließlich Master-Folien, Layout-Folien, Folien, Master-Notizen, Notizen-Folien und Handout-Master.
+Ändert die Sichtbarkeit aller Platzhalter für Seitenzahlen, einschließlich Masterfolien, Layoutfolien, Folien, Notizenmaster, Notizenfolien und Handout-Master.
 
 ```csharp
 public void SetAllSlideNumbersVisibility(bool isVisible)
@@ -17,7 +17,7 @@ public void SetAllSlideNumbersVisibility(bool isVisible)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| isVisible | Boolean | true - macht die Platzhalter für Seitennummern sichtbar, andernfalls - blendet sie aus. |
+| isVisible | Boolean | true - macht Platzhalter für Seitenzahlen sichtbar, andernfalls - versteckt sie. |
 
 ### Siehe Auch
 

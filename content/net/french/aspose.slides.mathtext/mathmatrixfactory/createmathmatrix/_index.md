@@ -1,13 +1,13 @@
 ---
 title: CreateMathMatrix
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Crée une matrice mathématique
 type: docs
 weight: 20
 url: /fr/aspose.slides.mathtext/mathmatrixfactory/createmathmatrix/
 ---
 
-## Méthode MathMatrixFactory.CreateMathMatrix
+## MathMatrixFactory.CreateMathMatrix méthode
 
 Crée une matrice mathématique
 

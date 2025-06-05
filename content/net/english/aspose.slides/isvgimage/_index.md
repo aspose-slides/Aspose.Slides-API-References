@@ -3,9 +3,10 @@ title: ISvgImage
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an SVG image.
 type: docs
-weight: 6730
+weight: 6960
 url: /aspose.slides/isvgimage/
 ---
+
 ## ISvgImage interface
 
 Represents an SVG image.
@@ -22,6 +23,12 @@ public interface ISvgImage
 | [ExternalResourceResolver](../../aspose.slides/isvgimage/externalresourceresolver) { get; } | Return callback interface used to resolve external resources during SVG documents import. Read-only [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
 | [SvgContent](../../aspose.slides/isvgimage/svgcontent) { get; } | Returns SVG content. Read-only String. |
 | [SvgData](../../aspose.slides/isvgimage/svgdata) { get; } | Returns SVG data. Read-only Byte[]. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [WriteAsEmf](../../aspose.slides/isvgimage/writeasemf)(Stream) | Saves the SVG image as an EMF file. |
 
 ### See Also
 

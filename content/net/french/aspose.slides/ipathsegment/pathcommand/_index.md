@@ -1,13 +1,13 @@
 ---
 title: PathCommand
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Reference
 description: Type de chemin du segment
 type: docs
 weight: 10
 url: /fr/aspose.slides/ipathsegment/pathcommand/
 ---
 
-## Propriété IPathSegment.PathCommand
+## IPathSegment.PathCommand propriété
 
 Type de chemin du segment
 
@@ -15,7 +15,7 @@ Type de chemin du segment
 public PathCommandType PathCommand { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [PathCommandType](../../pathcommandtype)
 * interface [IPathSegment](../../ipathsegment)

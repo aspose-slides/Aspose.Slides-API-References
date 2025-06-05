@@ -1,7 +1,7 @@
 ---
 title: Distance
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Distance de l'ombre. Lecture/écriture Double.
+second_title: Référence API Aspose.Slides pour .NET
+description: Distance de l'ombre. Lire/écrire Double.
 type: docs
 weight: 30
 url: /fr/aspose.slides.effects/outershadow/distance/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.effects/outershadow/distance/
 
 ## Propriété OuterShadow.Distance
 
-Distance de l'ombre. Lecture/écriture Double.
+Distance de l'ombre. Lire/écrire Double.
 
 ```csharp
 public double Distance { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [OuterShadow](../../outershadow)
 * espace de noms [Aspose.Slides.Effects](../../outershadow)

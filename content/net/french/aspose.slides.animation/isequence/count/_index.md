@@ -1,7 +1,7 @@
 ---
-title: Compter
-second_title: Référence API Aspose.Slides pour .NET
-description: Retourne le nombre d'effets dans une séquence. Lecture seule Int32.
+title: Count
+second_title: Aspose.Slides pour .NET API Référence
+description: Renvoie le nombre d'effets dans une séquence. Lecture seule Int32.
 type: docs
 weight: 20
 url: /fr/aspose.slides.animation/isequence/count/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/isequence/count/
 
 ## Propriété ISequence.Count
 
-Retourne le nombre d'effets dans une séquence. Lecture seule Int32.
+Renvoie le nombre d'effets dans une séquence. Lecture seule Int32.
 
 ```csharp
 public int Count { get; }

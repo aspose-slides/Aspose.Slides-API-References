@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides/oleobjectframe/substitutepictureformat/
 ---
+
 ## OleObjectFrame.SubstitutePictureFormat property
 
 Returns OleObject image fill properties object. Read-only [`IPictureFillFormat`](../../ipicturefillformat).

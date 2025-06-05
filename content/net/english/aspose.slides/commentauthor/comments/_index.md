@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/commentauthor/comments/
 ---
+
 ## CommentAuthor.Comments property
 
 Returns the collection of comments made by this author. Read-only [`ICommentCollection`](../../icommentcollection).

@@ -1,7 +1,7 @@
 ---
 title: NotesSlide
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie la diapositive de notes pour la diapositive actuelle. Renvoie null si la diapositive n'a pas de diapositive de notes. Lecture seule INotesSlideaspose.slides/inotesslide.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie la diapositive de notes pour la diapositive en cours. Renvoie null si la diapositive n'a pas de diapositive de notes. Lecture seule INotesSlideaspose.slides/inotesslide.
 type: docs
 weight: 10
 url: /fr/aspose.slides/inotesslidemanager/notesslide/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/inotesslidemanager/notesslide/
 
 ## Propriété INotesSlideManager.NotesSlide
 
-Renvoie la diapositive de notes pour la diapositive actuelle. Renvoie null si la diapositive n'a pas de diapositive de notes. Lecture seule [`INotesSlide`](../../inotesslide).
+Renvoie la diapositive de notes pour la diapositive en cours. Renvoie null si la diapositive n'a pas de diapositive de notes. Lecture seule [`INotesSlide`](../../inotesslide).
 
 ```csharp
 public INotesSlide NotesSlide { get; }

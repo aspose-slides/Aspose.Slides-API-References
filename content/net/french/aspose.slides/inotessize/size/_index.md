@@ -1,5 +1,5 @@
 ---
-title: Taille
+title: Size
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie ou définit la taille en points. Lecture/écriture SizeF.
 type: docs
@@ -7,7 +7,7 @@ weight: 10
 url: /fr/aspose.slides/inotessize/size/
 ---
 
-## Propriété INotesSize.Size
+## INotesSize.Size propriété
 
 Renvoie ou définit la taille en points. Lecture/écriture SizeF.
 
@@ -15,7 +15,7 @@ Renvoie ou définit la taille en points. Lecture/écriture SizeF.
 public SizeF Size { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [INotesSize](../../inotessize)
 * namespace [Aspose.Slides](../../inotessize)

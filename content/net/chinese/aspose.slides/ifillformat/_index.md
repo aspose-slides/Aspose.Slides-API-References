@@ -24,7 +24,7 @@ public interface IFillFormat : IFillParamSource
 | [GradientFormat](../../aspose.slides/ifillformat/gradientformat) { get; } | 返回渐变填充格式。只读 [`IGradientFormat`](../igradientformat)。 |
 | [PatternFormat](../../aspose.slides/ifillformat/patternformat) { get; } | 返回图案填充格式。只读 [`IPatternFormat`](../ipatternformat)。 |
 | [PictureFillFormat](../../aspose.slides/ifillformat/picturefillformat) { get; } | 返回图片填充格式。只读 [`IPictureFillFormat`](../ipicturefillformat)。 |
-| [RotateWithShape](../../aspose.slides/ifillformat/rotatewithshape) { get; set; } | 决定填充是否与形状一起旋转。读写 [`NullableBool`](../nullablebool)。 |
+| [RotateWithShape](../../aspose.slides/ifillformat/rotatewithshape) { get; set; } | 确定填充是否应随形状旋转。读写 [`NullableBool`](../nullablebool)。 |
 | [SolidFillColor](../../aspose.slides/ifillformat/solidfillcolor) { get; } | 返回填充颜色。只读 [`IColorFormat`](../icolorformat)。 |
 
 ## 方法

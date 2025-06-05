@@ -1,24 +1,24 @@
----  
-title: Color  
-second_title: Referencia de API de Aspose.Slides para .NET  
-description: Color. Color de solo lectura.
-type: docs  
-weight: 20  
+---
+title: Color
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Color. Solo lectura de Color.
+type: docs
+weight: 20
 url: /es/aspose.slides.effects/igloweffectivedata/color/
----  
+---
 
-## IGlowEffectiveData.Color propiedad  
+## IGlowEffectiveData.Color propiedad
 
-Color. Color de solo lectura.  
+Color. Solo lectura de Color.
 
-```csharp  
-public Color Color { get; }  
-```  
+```csharp
+public Color Color { get; }
+```
 
-### Ver también  
+### Ver También
 
-* interfaz [IGlowEffectiveData](../../igloweffectivedata)  
-* espacio de nombres [Aspose.Slides.Effects](../../igloweffectivedata)  
-* ensamblado [Aspose.Slides](../../../)  
+* interfaz [IGlowEffectiveData](../../igloweffectivedata)
+* espacio de nombres [Aspose.Slides.Effects](../../igloweffectivedata)
+* ensamblado [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

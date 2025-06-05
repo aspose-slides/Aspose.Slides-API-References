@@ -1,7 +1,7 @@
 ---
 title: GetCustomPropertyValue
-second_title: Aspose.Slides pour la référence API .NET
-description: Obtient une valeur booléenne nommée des propriétés personnalisées.
+second_title: Aspose.Slides pour .NET API Référence
+description: Obtient une valeur booléenne nommée à partir des propriétés personnalisées.
 type: docs
 weight: 400
 url: /fr/aspose.slides/idocumentproperties/getcustompropertyvalue/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/idocumentproperties/getcustompropertyvalue/
 
 ## GetCustomPropertyValue(string, out bool) {#getcustompropertyvalue}
 
-Obtient une valeur booléenne nommée des propriétés personnalisées.
+Obtient une valeur booléenne nommée à partir des propriétés personnalisées.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out bool value)
@@ -30,7 +30,7 @@ public void GetCustomPropertyValue(string name, out bool value)
 
 ## GetCustomPropertyValue(string, out int) {#getcustompropertyvalue_2}
 
-Obtient une valeur entière nommée des propriétés personnalisées.
+Obtient une valeur entière nommée à partir des propriétés personnalisées.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out int value)
@@ -51,7 +51,7 @@ public void GetCustomPropertyValue(string name, out int value)
 
 ## GetCustomPropertyValue(string, out DateTime) {#getcustompropertyvalue_4}
 
-Obtient une valeur DateTime nommée des propriétés personnalisées.
+Obtient une valeur DateTime nommée à partir des propriétés personnalisées.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out DateTime value)
@@ -72,7 +72,7 @@ public void GetCustomPropertyValue(string name, out DateTime value)
 
 ## GetCustomPropertyValue(string, out string) {#getcustompropertyvalue_5}
 
-Obtient une valeur chaîne nommée des propriétés personnalisées.
+Obtient une valeur chaîne nommée à partir des propriétés personnalisées.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out string value)
@@ -93,7 +93,7 @@ public void GetCustomPropertyValue(string name, out string value)
 
 ## GetCustomPropertyValue(string, out float) {#getcustompropertyvalue_3}
 
-Obtient une valeur float nommée des propriétés personnalisées.
+Obtient une valeur float nommée à partir des propriétés personnalisées.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out float value)
@@ -114,7 +114,7 @@ public void GetCustomPropertyValue(string name, out float value)
 
 ## GetCustomPropertyValue(string, out double) {#getcustompropertyvalue_1}
 
-Obtient une valeur double nommée des propriétés personnalisées.
+Obtient une valeur double nommée à partir des propriétés personnalisées.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out double value)

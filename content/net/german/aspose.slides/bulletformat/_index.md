@@ -1,7 +1,7 @@
 ---
 title: BulletFormat
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt die Eigenschaften der Aufzählungsformatierung von Absätzen dar.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt die Eigenschaften der Aufzählungsformatierung eines Absatzes dar.
 type: docs
 weight: 990
 url: /de/aspose.slides/bulletformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/bulletformat/
 
 ## BulletFormat-Klasse
 
-Stellt die Eigenschaften der Aufzählungsformatierung von Absätzen dar.
+Stellt die Eigenschaften der Aufzählungsformatierung eines Absatzes dar.
 
 ```csharp
 public sealed class BulletFormat : PVIObject, IBulletFormat
@@ -19,32 +19,32 @@ public sealed class BulletFormat : PVIObject, IBulletFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basis-IPresentationComponent-Schnittstelle. Nur lesend [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IPresentationComponent. Nur lesbar [`IPresentationComponent`](../ipresentationcomponent). |
 | [Char](../../aspose.slides/bulletformat/char) { get; set; } | Gibt das Aufzählungszeichen eines Absatzes ohne Vererbung zurück oder legt es fest. Lese-/Schreibzugriff Char. |
-| [Color](../../aspose.slides/bulletformat/color) { get; } | Gibt das Farbformat eines Aufzählungszeichens eines Absatzes ohne Vererbung zurück. Nur lesend [`IColorFormat`](../icolorformat). |
-| [Font](../../aspose.slides/bulletformat/font) { get; set; } | Gibt die Schriftart des Aufzählungszeichens eines Absatzes ohne Vererbung zurück oder legt sie fest. Lese-/Schreibzugriff [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/bulletformat/height) { get; set; } | Gibt die Höhe des Aufzählungszeichens eines Absatzes ohne Vererbung zurück oder legt sie fest. Der Wert float.NaN bestimmt, dass das Aufzählungszeichen die Höhe vom ersten Teil im Absatz erbt. Lese-/Schreibzugriff Single. |
-| [IsBulletHardColor](../../aspose.slides/bulletformat/isbullethardcolor) { get; set; } | Bestimmt, ob das Aufzählungszeichen eine eigene Farbe hat oder sie vom ersten Teil im Absatz erbt. **NullableBool.True**, wenn das Aufzählungszeichen eine eigene Farbe hat, und **NullableBool.False**, wenn das Aufzählungszeichen die Farbe vom ersten Teil im Absatz erbt. Lese-/Schreibzugriff [`NullableBool`](../nullablebool). |
-| [IsBulletHardFont](../../aspose.slides/bulletformat/isbullethardfont) { get; set; } | Bestimmt, ob das Aufzählungszeichen eine eigene Schriftart hat oder sie vom ersten Teil im Absatz erbt. **NullableBool.True**, wenn das Aufzählungszeichen eine eigene Schriftart hat, und **NullableBool.False**, wenn das Aufzählungszeichen die Schriftart vom ersten Teil im Absatz erbt. Lese-/Schreibzugriff [`NullableBool`](../nullablebool). |
-| [NumberedBulletStartWith](../../aspose.slides/bulletformat/numberedbulletstartwith) { get; set; } | Gibt die erste Zahl zurück oder legt sie fest, die für eine Gruppe nummerierter Aufzählungszeichen ohne Vererbung verwendet wird. Lese-/Schreibzugriff Int16. |
-| [NumberedBulletStyle](../../aspose.slides/bulletformat/numberedbulletstyle) { get; set; } | Gibt den Stil eines nummerierten Aufzählungszeichens ohne Vererbung zurück oder legt ihn fest. Lese-/Schreibzugriff [`NumberedBulletStyle`](../numberedbulletstyle). |
-| [Picture](../../aspose.slides/bulletformat/picture) { get; } | Gibt das Bild zurück, das als Aufzählungszeichen in einem Absatz ohne Vererbung verwendet wird. Nur lesend [`ISlidesPicture`](../islidespicture). |
-| [Type](../../aspose.slides/bulletformat/type) { get; set; } | Gibt den Typ des Aufzählungszeichens eines Absatzes ohne Vererbung zurück oder legt ihn fest. Lese-/Schreibzugriff [`BulletType`](../bullettype). |
+| [Color](../../aspose.slides/bulletformat/color) { get; } | Gibt das Farbformat einer Aufzählung eines Absatzes ohne Vererbung zurück. Nur lesbar [`IColorFormat`](../icolorformat). |
+| [Font](../../aspose.slides/bulletformat/font) { get; set; } | Gibt die Schriftart der Aufzählung eines Absatzes ohne Vererbung zurück oder legt sie fest. Lese-/Schreibzugriff [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/bulletformat/height) { get; set; } | Gibt die Höhe der Aufzählung eines Absatzes ohne Vererbung zurück oder legt sie fest. Der Wert float.NaN bestimmt, dass die Aufzählung die Höhe von dem ersten Abschnitt im Absatz erbt. Lese-/Schreibzugriff Single. |
+| [IsBulletHardColor](../../aspose.slides/bulletformat/isbullethardcolor) { get; set; } | Bestimmt, ob die Aufzählung eine eigene Farbe hat oder sie vom ersten Abschnitt im Absatz erbt. **NullableBool.True**, wenn die Aufzählung eine eigene Farbe hat, und **NullableBool.False**, wenn die Aufzählung die Farbe vom ersten Abschnitt im Absatz erbt. Lese-/Schreibzugriff [`NullableBool`](../nullablebool). |
+| [IsBulletHardFont](../../aspose.slides/bulletformat/isbullethardfont) { get; set; } | Bestimmt, ob die Aufzählung eine eigene Schriftart hat oder sie vom ersten Abschnitt im Absatz erbt. **NullableBool.True**, wenn die Aufzählung eine eigene Schriftart hat, und **NullableBool.False**, wenn die Aufzählung die Schriftart vom ersten Abschnitt im Absatz erbt. Lese-/Schreibzugriff [`NullableBool`](../nullablebool). |
+| [NumberedBulletStartWith](../../aspose.slides/bulletformat/numberedbulletstartwith) { get; set; } | Gibt die erste Nummer zurück oder legt sie fest, die für eine Gruppe von nummerierten Aufzählungen ohne Vererbung verwendet wird. Lese-/Schreibzugriff Int16. |
+| [NumberedBulletStyle](../../aspose.slides/bulletformat/numberedbulletstyle) { get; set; } | Gibt den Stil einer nummerierten Aufzählung ohne Vererbung zurück oder legt ihn fest. Lese-/Schreibzugriff [`NumberedBulletStyle`](../numberedbulletstyle). |
+| [Picture](../../aspose.slides/bulletformat/picture) { get; } | Gibt das Bild zurück, das als Aufzählung in einem Absatz ohne Vererbung verwendet wird. Nur lesbar [`ISlidesPicture`](../islidespicture). |
+| [Type](../../aspose.slides/bulletformat/type) { get; set; } | Gibt den Aufzählungstyp eines Absatzes ohne Vererbung zurück oder legt ihn fest. Lese-/Schreibzugriff [`BulletType`](../bullettype). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/bulletformat/applydefaultparagraphindentsshifts)() | Setzt standardmäßige, von Null verschiedene Verschiebungen für effektive Absatzeinzüge und MarginLeft, wenn Aufzählungszeichen aktiviert sind (wie PowerPoint es macht, wenn Aufzählungszeichen/Nummerierungen aktiviert sind). Wenn Aufzählungszeichen deaktiviert sind, wird der Absatzeinzug und MarginLeft einfach zurückgesetzt (wie PowerPoint es macht, wenn Aufzählungszeichen/Nummerierungen deaktiviert sind). Die Einzugverschiebungen werden im Hinblick auf den aktuellen Aufzählungskontext angewendet - IBulletFormat.Type, .NumberedBulletStyle und FontHeight des ersten Teils. Von Null verschiedene Einzugsverschiebungen werden auf den effektiven Einzug und MarginLeft des aktuellen Absatzes angewendet (dadurch werden die Ergebniswerte lokale Werte). |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/bulletformat/applydefaultparagraphindentsshifts)() | Setzt standardmäßige, von null verschiedene Verschiebungen für effektive Absatz-Indentation und MarginLeft, wenn Aufzählungen aktiviert sind (so wie PowerPoint es macht, wenn Aufzählungen/Nummerierungen im Absatz aktiviert sind). Wenn Aufzählungen deaktiviert sind, werden lediglich Absatz-Indentation und MarginLeft zurückgesetzt (so wie PowerPoint es macht, wenn Aufzählungen/Nummerierungen im Absatz deaktiviert sind). Die Indentation-Verschiebungen werden in Bezug auf den aktuellen Aufzählungskontext angewendet - IBulletFormat.Type, .NumberedBulletStyle und FontHeight des ersten Abschnitts. Von null verschiedene Indentation-Verschiebungen werden auf die effektive Indentation und MarginLeft des aktuellen Absatzes angewendet (Rahmenwerte werden zu lokalen Werten gemacht). |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Vergleicht mit dem angegebenen Objekt. |
-| [GetEffective](../../aspose.slides/bulletformat/geteffective)() | Ruft die effektiven Aufzählungsformatierungsdaten mit angewendeter Vererbung ab. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Gibt den Hash-Code zurück. |
+| [GetEffective](../../aspose.slides/bulletformat/geteffective)() | Holt effektive Aufzählungsformatierungsdaten mit der angewandten Vererbung. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Gibt den Hashcode zurück. |
 
 ### Siehe auch
 
 * Klasse [PVIObject](../pviobject)
 * Schnittstelle [IBulletFormat](../ibulletformat)
 * Namespace [Aspose.Slides](../../aspose.slides)
-* Assembly [Aspose.Slides](../../) 
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

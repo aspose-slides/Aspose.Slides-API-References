@@ -1,13 +1,13 @@
 ---
-title: Supprimer
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Remove
+second_title: Aspose.Sildes pour .NET API Référence
 description: Supprime la propriété spécifiée de la collection.
 type: docs
 weight: 60
 url: /fr/aspose.slides.animation/ibehaviorpropertycollection/remove/
 ---
 
-## Méthode IBehaviorPropertyCollection.Remove
+## IBehaviorPropertyCollection.Remove méthode
 
 Supprime la propriété spécifiée de la collection.
 
@@ -19,7 +19,7 @@ public bool Remove(string propertyValue)
 | --- | --- | --- |
 | propertyValue | String | Valeur de la propriété à supprimer. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Vrai si une propriété a été supprimée avec succès Boolean
 

@@ -1,6 +1,6 @@
 ---
 title: PictureType
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает или устанавливает тип изображения. Чтение/запись PictureTypeaspose.slides.charts/ichartwall/picturetype.
 type: docs
 weight: 20

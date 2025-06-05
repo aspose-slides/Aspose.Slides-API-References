@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.mathtext/imathematicaltext/format/
 ---
+
 ## IMathematicalText.Format property
 
 Text formatting properties

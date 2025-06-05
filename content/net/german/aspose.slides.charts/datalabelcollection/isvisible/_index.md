@@ -1,7 +1,7 @@
 ---
 title: IsVisible
 second_title: Aspose.Slides für .NET API-Referenz
-description: False bedeutet, dass das Datenlabel standardmäßig nicht sichtbar ist und daher alle Show-Flags ShowValue ... des DefaultDataLabelFormat-Flags false sind. Nur-lesbares Boolean.
+description: False bedeutet, dass das Datenetikett standardmäßig nicht sichtbar ist und daher alle Show-Flags ShowValue ... der DefaultDataLabelFormat-Eigenschaft false sind. Nur lesbarer Boolean.
 type: docs
 weight: 50
 url: /de/aspose.slides.charts/datalabelcollection/isvisible/
@@ -9,15 +9,15 @@ url: /de/aspose.slides.charts/datalabelcollection/isvisible/
 
 ## DataLabelCollection.IsVisible-Eigenschaft
 
-False bedeutet, dass das Datenlabel standardmäßig nicht sichtbar ist (und daher alle Show*-Flags (ShowValue, ...) des DefaultDataLabelFormat-Flags false sind). Nur-lesbares Boolean.
+False bedeutet, dass das Datenetikett standardmäßig nicht sichtbar ist (und daher alle Show*-Flags (ShowValue, ...) der DefaultDataLabelFormat-Eigenschaft false sind). Nur lesbarer Boolean.
 
 ```csharp
 public bool IsVisible { get; }
 ```
 
-### Anmerkungen
+### Bemerkungen
 
-Wenn das Datenlabel standardmäßig sichtbar ist, können Sie es standardmäßig mit der Methode Hide() ausblenden. Aber wenn das Datenlabel standardmäßig nicht sichtbar ist (IsVisible ist false), können Sie das Datenlabel "standardmäßig sichtbar" machen, indem Sie die Show*-Flags (ShowValue, ...) des DefaultDataLabelFormat-Flags auf true setzen.
+Wenn das Datenetikett standardmäßig sichtbar ist, können Sie es mit der Hide()-Methode standardmäßig ausblenden. Wenn das Datenetikett jedoch standardmäßig nicht sichtbar ist (IsVisible ist false), können Sie das Datenetikett "standardmäßig sichtbar" machen, indem Sie die Show*-Flags (ShowValue, ...) der DefaultDataLabelFormat-Eigenschaft auf den Zustand true setzen.
 
 ### Siehe auch
 

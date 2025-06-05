@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForPieSeries
-second_title: Aspose.Slides for .NET API Reference
-description: 创建新的数据点并将其添加到集合的末尾。适用于图表类型为饼图子类型之一的系列，另请参阅 IsChartTypePie 方法。
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建新的数据点并将其添加到集合的末尾。适用于图表类型为饼图子类型之一的系列，另见方法 IsChartTypePie aspose.slides.charts/charttypecharacterizer/ischarttypepie。
 type: docs
 weight: 190
 url: /zh/aspose.slides.charts/chartdatapointcollection/adddatapointforpieseries/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/chartdatapointcollection/adddatapointforpieseries/
 
 ## AddDataPointForPieSeries(IChartDataCell) {#adddatapointforpieseries}
 
-创建新的数据点并将其添加到集合的末尾。适用于图表类型为饼图子类型之一的系列（另请参阅 [`IsChartTypePie`](../../charttypecharacterizer/ischarttypepie) 方法）。
+创建新的数据点并将其添加到集合的末尾。适用于图表类型为饼图子类型之一的系列（另见 [`IsChartTypePie`](../../charttypecharacterizer/ischarttypepie) 方法）。
 
 ```csharp
 public IChartDataPoint AddDataPointForPieSeries(IChartDataCell value)
@@ -21,9 +21,9 @@ public IChartDataPoint AddDataPointForPieSeries(IChartDataCell value)
 
 ### 返回值
 
-新的数据点。
+新数据点。
 
-### 另请参阅
+### 另见
 
 * 接口 [IChartDataPoint](../../ichartdatapoint)
 * 接口 [IChartDataCell](../../ichartdatacell)
@@ -35,7 +35,7 @@ public IChartDataPoint AddDataPointForPieSeries(IChartDataCell value)
 
 ## AddDataPointForPieSeries(double) {#adddatapointforpieseries_1}
 
-创建新的数据点并将其添加到集合的末尾。适用于图表类型为饼图子类型之一的系列（另请参阅 [`IsChartTypePie`](../../charttypecharacterizer/ischarttypepie) 方法）。
+创建新的数据点并将其添加到集合的末尾。适用于图表类型为饼图子类型之一的系列（另见 [`IsChartTypePie`](../../charttypecharacterizer/ischarttypepie) 方法）。
 
 ```csharp
 public IChartDataPoint AddDataPointForPieSeries(double value)
@@ -47,9 +47,9 @@ public IChartDataPoint AddDataPointForPieSeries(double value)
 
 ### 返回值
 
-新的数据点。
+新数据点。
 
-### 另请参阅
+### 另见
 
 * 接口 [IChartDataPoint](../../ichartdatapoint)
 * 类 [ChartDataPointCollection](../../chartdatapointcollection)

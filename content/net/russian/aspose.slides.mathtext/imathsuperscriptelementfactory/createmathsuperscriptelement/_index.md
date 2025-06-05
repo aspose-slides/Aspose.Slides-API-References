@@ -1,13 +1,13 @@
 ---
 title: CreateMathSuperscriptElement
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Slides для .NET справочник API
 description: Создает IMathSuperscriptElement
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/imathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
-## Метод IMathSuperscriptElementFactory.CreateMathSuperscriptElement
+## IMathSuperscriptElementFactory.CreateMathSuperscriptElement метод
 
 Создает IMathSuperscriptElement
 

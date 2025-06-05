@@ -1,7 +1,7 @@
 ---
 title: AsIImageTransformOperation
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Permet d'obtenir l'interface IImageTransformOperation de base. IImageTransformOperation en lecture seule aspose.slides.effects/iimagetransformoperation.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Permet d'obtenir l'interface de base IImageTransformOperation. IImageTransformOperation en lecture seule aspose.slides.effects/iimagetransformoperation.
 type: docs
 weight: 20
 url: /fr/aspose.slides.effects/ipresetshadow/asiimagetransformoperation/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.effects/ipresetshadow/asiimagetransformoperation/
 
 ## Propriété IPresetShadow.AsIImageTransformOperation
 
-Permet d'obtenir l'interface IImageTransformOperation de base. Lecture seule [`IImageTransformOperation`](../../iimagetransformoperation).
+Permet d'obtenir l'interface de base IImageTransformOperation. Lecture seule [`IImageTransformOperation`](../../iimagetransformoperation).
 
 ```csharp
 public IImageTransformOperation AsIImageTransformOperation { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IImageTransformOperation](../../iimagetransformoperation)
 * interface [IPresetShadow](../../ipresetshadow)

@@ -1,13 +1,13 @@
 ---
-title: Количество
-second_title: Справочник по API Aspose.Sildes для .NET
+title: Count
+second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает количество элементов в коллекции. Только для чтения Int32.
 type: docs
 weight: 10
 url: /ru/aspose.slides/drawingguidescollection/count/
 ---
 
-## Свойство DrawingGuidesCollection.Count
+## DrawingGuidesCollection.Count property
 
 Возвращает количество элементов в коллекции. Только для чтения Int32.
 

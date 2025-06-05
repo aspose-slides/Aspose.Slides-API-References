@@ -1,7 +1,7 @@
 ---
-title: Elemento
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Obtiene el elemento en el índice especificado. Solo lectura IColorFormat aspose.slides/icolorformat.
+title: Item
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Obtiene el elemento en el índice especificado. Solo lectura IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 110
 url: /es/aspose.slides.theme/colorscheme/item/
@@ -17,10 +17,10 @@ public IColorFormat this[ColorSchemeIndex index] { get; }
 
 ### Ver También
 
-* interfaz [IColorFormat](../../../aspose.slides/icolorformat)
+* interface [IColorFormat](../../../aspose.slides/icolorformat)
 * enum [ColorSchemeIndex](../../../aspose.slides/colorschemeindex)
-* clase [ColorScheme](../../colorscheme)
-* espacio de nombres [Aspose.Slides.Theme](../../colorscheme)
-* ensamblado [Aspose.Slides](../../../)
+* class [ColorScheme](../../colorscheme)
+* namespace [Aspose.Slides.Theme](../../colorscheme)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

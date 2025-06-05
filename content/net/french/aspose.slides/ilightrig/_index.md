@@ -19,15 +19,15 @@ public interface ILightRig
 
 | Nom | Description |
 | --- | --- |
-| [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | Direction de la lumière. Lecture/écriture [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | Représente un type de lumière prédéfini qui peut être appliqué à une forme. Le dispositif d'éclairage représente un groupe de lumières orientées d'une manière spécifique par rapport à une scène 3D. Lecture/écriture [`LightRigPresetType`](../lightrigpresettype). |
+| [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | Direction de la lumière. Lire/écrire [`LightingDirection`](../lightingdirection). |
+| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | Représente une lumière préconfigurée qui peut être appliquée à une forme. Le dispositif d'éclairage représente un groupe de lumières orientées d'une manière spécifique par rapport à une scène 3D. Lire/écrire [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | Une rotation est définie par l'utilisation d'une coordonnée de latitude, d'une coordonnée de longitude, et d'une révolution autour de l'axe selon les coordonnées de latitude et de longitude. Premier élément du tableau de retour - latitude, deuxième - longitude, troisième - révolution. |
-| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | Une rotation est définie par l'utilisation d'une coordonnée de latitude, d'une coordonnée de longitude, et d'une révolution autour de l'axe selon les coordonnées de latitude et de longitude. |
+| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | Une rotation est définie par l'utilisation d'une coordonnée de latitude, d'une coordonnée de longitude et d'une révolution autour de l'axe à mesure que les coordonnées de latitude et de longitude. premier élément dans le tableau de retour - latitude, deuxième - longitude, troisième - révolution. |
+| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | Une rotation est définie par l'utilisation d'une coordonnée de latitude, d'une coordonnée de longitude et d'une révolution autour de l'axe à mesure que les coordonnées de latitude et de longitude. |
 
 ### Voir aussi
 

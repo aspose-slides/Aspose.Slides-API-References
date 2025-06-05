@@ -1,7 +1,7 @@
 ---
 title: SetFooterAndChildFootersVisibility
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ändert die Sichtbarkeit des Fußbereichsplatzhalters der Layoutfolie und aller untergeordneten Fußbereichsplatzhalter. Untergeordnete Platzhalter sind Platzhalter, die auf abhängigen Folien enthalten sind. Abhängige Folien verwenden und hängen von der Masterfolie ab.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ändert die Sichtbarkeit des Platzhalters für den Fußbereich der Layoutfolie und aller untergeordneten Platzhalter für den Fußbereich. Untergeordnete Platzhalter bedeuten, dass Platzhalter auf abhängigen Folien enthalten sind. Abhängige Folien verwenden und hängen von der Masterfolie ab.
 type: docs
 weight: 50
 url: /de/aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility/
@@ -9,15 +9,15 @@ url: /de/aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersv
 
 ## ILayoutSlideHeaderFooterManager.SetFooterAndChildFootersVisibility-Methode
 
-Ändert die Sichtbarkeit des Fußbereichsplatzhalters der Layoutfolie und aller untergeordneten Fußbereichsplatzhalter. Untergeordnete Platzhalter sind Platzhalter, die auf abhängigen Folien enthalten sind. Abhängige Folien verwenden und hängen von der Masterfolie ab.
+Ändert die Sichtbarkeit des Platzhalters für den Fußbereich der Layoutfolie und aller untergeordneten Platzhalter für den Fußbereich. Untergeordnete Platzhalter bedeuten, dass Platzhalter auf abhängigen Folien enthalten sind. Abhängige Folien verwenden und hängen von der Masterfolie ab.
 
 ```csharp
 public void SetFooterAndChildFootersVisibility(bool isVisible)
 ```
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| isVisible | Boolean | true - macht Fußbereichsplatzhalter sichtbar, andernfalls - blendet sie aus. |
+| Parameter   | Typ      | Beschreibung                                                                 |
+|-------------|----------|-----------------------------------------------------------------------------|
+| isVisible   | Boolean  | true - macht einen Platzhalter für den Fußbereich sichtbar, andernfalls - versteckt ihn. |
 
 ### Siehe auch
 

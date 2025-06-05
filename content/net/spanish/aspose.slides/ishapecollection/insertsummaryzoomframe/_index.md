@@ -1,15 +1,15 @@
 ---
 title: InsertSummaryZoomFrame
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Crea un nuevo objeto Summary Zoom e inserta en una colección en el índice especificado.
+second_title: Aspose.Slides para .NET API Reference
+description: Crea un nuevo objeto de Zoom Resumido e inserta en una colección en el índice especificado.
 type: docs
 weight: 330
 url: /es/aspose.slides/ishapecollection/insertsummaryzoomframe/
 ---
 
-## Método IShapeCollection.InsertSummaryZoomFrame
+## IShapeCollection.InsertSummaryZoomFrame método
 
-Crea un nuevo objeto Summary Zoom e inserta en una colección en el índice especificado.
+Crea un nuevo objeto de Zoom Resumido e inserta en una colección en el índice especificado.
 
 ```csharp
 public ISummaryZoomFrame InsertSummaryZoomFrame(int index, float x, float y, float width, 
@@ -18,29 +18,29 @@ public ISummaryZoomFrame InsertSummaryZoomFrame(int index, float x, float y, flo
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| index | Int32 | El índice basado en cero en el cual el marco de Section Zoom debe ser insertado. |
-| x | Single | Coordenada X de un nuevo marco de Section Zoom. |
-| y | Single | Coordenada Y de un nuevo marco de Section Zoom. |
-| width | Single | Ancho de un nuevo marco de Section Zoom. |
-| height | Single | Altura de un nuevo marco de Section Zoom. |
+| index | Int32 | El índice basado en cero en el que se debe insertar el marco de Zoom de Sección. |
+| x | Single | Coordenada X de un nuevo marco de Zoom de Sección Single. |
+| y | Single | Coordenada Y de un nuevo marco de Zoom de Sección Single. |
+| width | Single | Ancho de un nuevo marco de Zoom de Sección Single. |
+| height | Single | Altura de un nuevo marco de Zoom de Sección Single. |
 
 ### Valor de Retorno
 
-Objeto Summary Zoom creado [`ISummaryZoomFrame`](../../isummaryzoomframe).
+Objeto de Zoom Resumido creado [`ISummaryZoomFrame`](../../isummaryzoomframe).
 
 ### Excepciones
 
 | excepción | condición |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | No hay secciones en la presentación, o la diapositiva objetivo no pertenece a ninguna sección. |
+| [PptxEditException](../../pptxeditexception) | No hay secciones en la presentación, o la diapositiva de destino no pertenece a ninguna sección. |
 
 ### Observaciones
 
-Este método crea un nuevo Summary Zoom y coloca una colección de objetos en él para todas las secciones en esta presentación.
+Este método crea un nuevo Zoom Resumido y coloca una colección de objetos en él para todas las secciones en esta presentación.
 
 ### Ejemplos
 
-Este ejemplo demuestra la creación e inserción de un objeto Summary Zoom en el índice especificado de una colección (suponga que hay al menos dos secciones en la presentación "Presentation.pptx"):
+Este ejemplo demuestra la creación e inserción de un objeto de Zoom Resumido en el índice especificado de una colección (suponiendo que hay al menos dos secciones en la presentación "Presentation.pptx"):
 
 ```csharp
 [C#]

@@ -17,7 +17,7 @@ public MathLimit(IMathElement baseArg, IMathElement limit, bool upperLimit)
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -35,7 +35,7 @@ MathLimit limitElement = new MathLimit(new MathematicalText("lim"), new Mathemat
 
 ## MathLimit(IMathElement, IMathElement) {#constructor}
 
-Initialise une nouvelle instance de la classe MathLimit avec limite inférieure.
+Initialise une nouvelle instance de la classe MathLimit avec une limite inférieure
 
 ```csharp
 public MathLimit(IMathElement baseArg, IMathElement limit)
@@ -43,7 +43,7 @@ public MathLimit(IMathElement baseArg, IMathElement limit)
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

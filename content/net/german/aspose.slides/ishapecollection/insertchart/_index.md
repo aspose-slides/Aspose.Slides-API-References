@@ -1,7 +1,7 @@
 ---
 title: InsertChart
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erstellt ein neues Diagramm, initialisiert es mit Beispielseriendaten und Einstellungen und fügt es an der angegebenen Position in der Sammlung ein.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Erstellt ein neues Diagramm, initialisiert es mit Beispieldaten und Einstellungen und fügt es an der angegebenen Position in der Sammlung ein.
 type: docs
 weight: 260
 url: /de/aspose.slides/ishapecollection/insertchart/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ishapecollection/insertchart/
 
 ## InsertChart(ChartType, float, float, float, float, int) {#insertchart}
 
-Erstellt ein neues Diagramm, initialisiert es mit Beispielseriendaten und Einstellungen und fügt es an der angegebenen Position in der Sammlung ein.
+Erstellt ein neues Diagramm, initialisiert es mit Beispieldaten und Einstellungen und fügt es an der angegebenen Position in der Sammlung ein.
 
 ```csharp
 public IChart InsertChart(ChartType type, float x, float y, float width, float height, int index)
@@ -17,7 +17,7 @@ public IChart InsertChart(ChartType type, float x, float y, float width, float h
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| type | ChartType | Typ des Diagramms. |
+| type | ChartType | Art des Diagramms. |
 | x | Single | X-Koordinate eines neuen Diagramms. |
 | y | Single | Y-Koordinate eines neuen Diagramms. |
 | width | Single | Breite des Diagramms. |
@@ -49,13 +49,13 @@ public IChart InsertChart(ChartType type, float x, float y, float width, float h
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| type | ChartType | Typ des Diagramms. |
+| type | ChartType | Art des Diagramms. |
 | x | Single | X-Koordinate eines neuen Diagramms. |
 | y | Single | Y-Koordinate eines neuen Diagramms. |
 | width | Single | Breite des Diagramms. |
 | height | Single | Höhe des Diagramms. |
 | index | Int32 | Position des Diagramms in der Sammlung. |
-| initWithSample | Boolean | Wenn wahr, wird das neue Diagramm mit Beispielseriendaten und -einstellungen initialisiert. Wenn falsch, hat das neue Diagramm keine Serien und minimale Einstellungen. In diesem Fall erfolgt die Diagrammerstellung schneller. |
+| initWithSample | Boolean | Wenn wahr, wird das neue Diagramm mit Beispieldaten und Einstellungen initialisiert. Wenn falsch, hat das neue Diagramm keine Serien und minimale Einstellungen. In diesem Fall wird die Diagrammerstellung schneller sein. |
 
 ### Rückgabewert
 

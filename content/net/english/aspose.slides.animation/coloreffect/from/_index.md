@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.animation/coloreffect/from/
 ---
+
 ## ColorEffect.From property
 
 This value is used to specify the starting color of behavior. Read/write [`IColorFormat`](../../../aspose.slides/icolorformat).

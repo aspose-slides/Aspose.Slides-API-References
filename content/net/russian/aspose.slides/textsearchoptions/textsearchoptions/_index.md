@@ -1,7 +1,7 @@
 ---
 title: TextSearchOptions
-second_title: Aspose.Sildes для .NET API Справочник
-description: Создает новые стандартные параметры поиска текста.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает новые параметры поиска текста по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides/textsearchoptions/textsearchoptions/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/textsearchoptions/textsearchoptions/
 
 ## Конструктор TextSearchOptions
 
-Создает новые стандартные параметры поиска текста.
+Создает новые параметры поиска текста по умолчанию.
 
 ```csharp
 public TextSearchOptions()

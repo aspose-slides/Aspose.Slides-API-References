@@ -1,15 +1,15 @@
 ---
 title: ISplitTransition
-second_title: Aspose.Slides für .NET API-Referenz
-description: Split-Slide-Übergangseffekt.
+second_title: Aspose.Slildes für .NET API Referenz
+description: Split-Folienübergangseffekt.
 type: docs
 weight: 9890
 url: /de/aspose.slides.slideshow/isplittransition/
 ---
 
-## ISplitTransition-Schnittstelle
+## ISplitTransition Schnittstelle
 
-Split-Slide-Übergangseffekt.
+Split-Folienübergangseffekt.
 
 ```csharp
 public interface ISplitTransition : ITransitionValueBase
@@ -19,11 +19,11 @@ public interface ISplitTransition : ITransitionValueBase
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/isplittransition/asitransitionvaluebase) { get; } | Ermöglicht das Abrufen der Basis-ITransitionValueBase-Schnittstelle. Nur lesbar [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | Richtung des Übergangssplits. Lesen/Schreiben [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | Orientierung des Übergangssplits. Lesen/Schreiben [`Orientation`](../../aspose.slides/orientation). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/isplittransition/asitransitionvaluebase) { get; } | Ermöglicht den Zugriff auf die Basis-ITransitionValueBase-Schnittstelle. Nur lesbar [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | Richtung der Übergangsteilung. Lese-/Schreibzugriff [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | Orientierung der Übergangsteilung. Lese-/Schreibzugriff [`Orientation`](../../aspose.slides/orientation). |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ITransitionValueBase](../itransitionvaluebase)
 * Namespace [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

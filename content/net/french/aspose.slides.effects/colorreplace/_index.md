@@ -1,15 +1,15 @@
 ---
 title: ColorReplace
-second_title: Aspose.Sildes pour .NET API Référence
-description: Représente un effet de remplacement de couleur. Toutes les couleurs de l'effet sont changées en une couleur fixe. Les valeurs Alpha ne sont pas affectées.
+second_title: Aspose.Sildes pour .NET API Reference
+description: Représente un effet de remplacement de couleur. Toutes les couleurs de l'effet sont changées en une couleur fixe. Les valeurs alpha ne sont pas affectées.
 type: docs
 weight: 2850
 url: /fr/aspose.slides.effects/colorreplace/
 ---
 
-## Classe ColorReplace
+## ColorReplace class
 
-Représente un effet de remplacement de couleur. Toutes les couleurs de l'effet sont changées en une couleur fixe. Les valeurs Alpha ne sont pas affectées.
+Représente un effet de remplacement de couleur. Toutes les couleurs de l'effet sont changées en une couleur fixe. Les valeurs alpha ne sont pas affectées.
 
 ```csharp
 public sealed class ColorReplace : ImageTransformOperation, IColorReplace
@@ -19,7 +19,7 @@ public sealed class ColorReplace : ImageTransformOperation, IColorReplace
 
 | Nom | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface IPresentationComponent de base. Lecture seule [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface de base IPresentationComponent. Lecture seule [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [Color](../../aspose.slides.effects/colorreplace/color) { get; } | Renvoie le format de couleur qui remplacera la couleur de chaque pixel. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Méthodes
@@ -32,7 +32,7 @@ public sealed class ColorReplace : ImageTransformOperation, IColorReplace
 
 ### Voir aussi
 
-* classe [ImageTransformOperation](../imagetransformoperation)
+* class [ImageTransformOperation](../imagetransformoperation)
 * interface [IColorReplace](../icolorreplace)
 * namespace [Aspose.Slides.Effects](../../aspose.slides.effects)
 * assembly [Aspose.Slides](../../)

@@ -1,7 +1,7 @@
 ---
 title: StartedFromSlide
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne la première diapositive de la section.
+description: Renvoie la première diapositive de la section.
 type: docs
 weight: 30
 url: /fr/aspose.slides/section/startedfromslide/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/section/startedfromslide/
 
 ## Propriété Section.StartedFromSlide
 
-Retourne la première diapositive de la section.
+Renvoie la première diapositive de la section.
 
 ```csharp
 public ISlide StartedFromSlide { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ISlide](../../islide)
 * class [Section](../../section)

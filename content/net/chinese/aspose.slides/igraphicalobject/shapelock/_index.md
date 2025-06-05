@@ -1,6 +1,6 @@
 ---
 title: ShapeLock
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回形状锁。只读 IGraphicalObjectLockaspose.slides/igraphicalobjectlock。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/igraphicalobject/shapelock/
 public IGraphicalObjectLock ShapeLock { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IGraphicalObjectLock](../../igraphicalobjectlock)
 * 接口 [IGraphicalObject](../../igraphicalobject)

@@ -1,7 +1,7 @@
 ---
-title: Trazas
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Obtiene todas las trazas que contienen el elemento IInk IInkTraceaspose.slides/iinktrace. Solo lectura.
+title: Traces
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Obtiene todos los trazos contenidos en el elemento IInk IInkTraceaspose.slides/iinktrace. Solo lectura.
 type: docs
 weight: 10
 url: /es/aspose.slides.ink/ink/traces/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.ink/ink/traces/
 
 ## Propiedad Ink.Traces
 
-Obtiene todas las trazas que contienen el elemento IInk [`IInkTrace`](../../iinktrace). Solo lectura.
+Obtiene todos los trazos contenidos en el elemento IInk [`IInkTrace`](../../iinktrace). Solo lectura.
 
 ```csharp
 public IInkTrace[] Traces { get; }
@@ -28,11 +28,11 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [IInkTrace](../../iinktrace)
 * clase [Ink](../../ink)
 * espacio de nombres [Aspose.Slides.Ink](../../ink)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

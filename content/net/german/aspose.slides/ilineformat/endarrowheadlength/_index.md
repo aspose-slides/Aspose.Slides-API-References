@@ -1,21 +1,21 @@
 ---
 title: EndArrowheadLength
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Pfeilspitzenlänge am Ende einer Linie zurück oder setzt sie. Lese-/Schreibzugriff auf LineArrowheadLengthaspose.slides/linearrowheadlength.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Länge des Pfeilspitzes am Ende einer Linie zurück oder legt sie fest. Lese-/Schreibzugriff auf LineArrowheadLengthaspose.slides/linearrowheadlength.
 type: docs
 weight: 90
 url: /de/aspose.slides/ilineformat/endarrowheadlength/
 ---
 
-## ILineFormat.EndArrowheadLength Eigenschaft
+## ILineFormat.EndArrowheadLength-Eigenschaft
 
-Gibt die Pfeilspitzenlänge am Ende einer Linie zurück oder setzt sie. Lese-/Schreibzugriff auf [`LineArrowheadLength`](../../linearrowheadlength).
+Gibt die Länge des Pfeilspitzes am Ende einer Linie zurück oder legt sie fest. Lese-/Schreibzugriff auf [`LineArrowheadLength`](../../linearrowheadlength).
 
 ```csharp
 public LineArrowheadLength EndArrowheadLength { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [LineArrowheadLength](../../linearrowheadlength)
 * interface [ILineFormat](../../ilineformat)

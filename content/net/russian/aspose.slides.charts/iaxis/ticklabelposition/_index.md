@@ -1,7 +1,7 @@
 ---
 title: TickLabelPosition
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет положение меток делений на указанной оси. Чтение/запись TickLabelPositionTypeaspose.slides.charts/ticklabelpositiontype.
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет позицию меток делений на указанной оси. Читаемый/Записываемый TickLabelPositionTypeaspose.slides/ticklabelpositiontype.
 type: docs
 weight: 500
 url: /ru/aspose.slides.charts/iaxis/ticklabelposition/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.charts/iaxis/ticklabelposition/
 
 ## Свойство IAxis.TickLabelPosition
 
-Представляет положение меток делений на указанной оси. Чтение/запись [`TickLabelPositionType`](../../ticklabelpositiontype).
+Представляет позицию меток делений на указанной оси. Читаемый/Записываемый [`TickLabelPositionType`](../../ticklabelpositiontype).
 
 ```csharp
 public TickLabelPositionType TickLabelPosition { get; set; }
 ```
 
-### См. также
+### Также см.
 
 * enum [TickLabelPositionType](../../ticklabelpositiontype)
 * interface [IAxis](../../iaxis)

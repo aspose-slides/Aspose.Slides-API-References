@@ -3,9 +3,10 @@ title: ImageWrapperFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: This class allows to initialize IBitmapWrapper.
 type: docs
-weight: 6990
+weight: 7230
 url: /aspose.slides/imagewrapperfactory/
 ---
+
 ## ImageWrapperFactory class
 
 This class allows to initialize IBitmapWrapper.
@@ -24,9 +25,9 @@ public class ImageWrapperFactory : IImageWrapperFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper)(Image) | Initializes a new instance of the BitmapWrapper class from the specified existing image. |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | Initializes a new instance of the BitmapWrapper class from the specified data stream. |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | Initializes a new instance of the BitmapWrapper class from the specified file. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Initializes a new instance of the ImageWrapper class from the specified existing image. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_2)(Stream) | Initializes a new instance of the BitmapWrapper class from the specified data stream. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_3)(string) | Initializes a new instance of the BitmapWrapper class from the specified file. |
 
 ### See Also
 

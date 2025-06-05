@@ -1,7 +1,7 @@
 ---
 title: FillFormat
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt ein FillFormat für den Hintergrundtyp. Eigenhintergrundfüllung zurück. Schreibgeschütztes IFillFormataspose.slides/ifillformat.
+description: Gibt ein FillFormat für die Füllung BackgroundType.OwnBackground zurück. Nur-Lese IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 40
 url: /de/aspose.slides/ibackground/fillformat/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ibackground/fillformat/
 
 ## IBackground.FillFormat-Eigenschaft
 
-Gibt ein FillFormat für den Hintergrundtyp. Eigenhintergrundfüllung zurück. Schreibgeschützt [`IFillFormat`](../../ifillformat).
+Gibt ein FillFormat für die Füllung BackgroundType.OwnBackground zurück. Nur-Lese [`IFillFormat`](../../ifillformat).
 
 ```csharp
 public IFillFormat FillFormat { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IFillFormat](../../ifillformat)
 * Schnittstelle [IBackground](../../ibackground)

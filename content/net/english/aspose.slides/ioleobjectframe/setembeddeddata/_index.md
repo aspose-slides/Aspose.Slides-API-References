@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides/ioleobjectframe/setembeddeddata/
 ---
+
 ## IOleObjectFrame.SetEmbeddedData method
 
 Sets information about OLE embedded data.

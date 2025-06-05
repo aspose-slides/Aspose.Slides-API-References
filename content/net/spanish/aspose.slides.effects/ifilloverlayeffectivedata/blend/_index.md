@@ -1,13 +1,13 @@
 ---
-title: Mezcla
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Blend
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: FillBlendMode. Solo lectura FillBlendModeaspose.slides/fillblendmode.
 type: docs
 weight: 20
 url: /es/aspose.slides.effects/ifilloverlayeffectivedata/blend/
 ---
 
-## Propiedad IFillOverlayEffectiveData.Blend
+## IFillOverlayEffectiveData.Blend property
 
 FillBlendMode. Solo lectura [`FillBlendMode`](../../../aspose.slides/fillblendmode).
 
@@ -15,7 +15,7 @@ FillBlendMode. Solo lectura [`FillBlendMode`](../../../aspose.slides/fillblendmo
 public FillBlendMode Blend { get; }
 ```
 
-### Ver También
+### Véase también
 
 * enum [FillBlendMode](../../../aspose.slides/fillblendmode)
 * interface [IFillOverlayEffectiveData](../../ifilloverlayeffectivedata)

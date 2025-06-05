@@ -1,21 +1,21 @@
 ---
 title: ConnectionSiteCount
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает количество точек подключения на фигуре. Только для чтения Int32.
+second_title: Aspose.Sildes для .NET - Справочник по API
+description: Возвращает количество точек соединения на фигуре. Только для чтения Int32.
 type: docs
 weight: 60
 url: /ru/aspose.slides/ishape/connectionsitecount/
 ---
 
-## Свойство IShape.ConnectionSiteCount
+## IShape.ConnectionSiteCount свойство
 
-Возвращает количество точек подключения на фигуре. Только для чтения Int32.
+Возвращает количество точек соединения на фигуре. Только для чтения Int32.
 
 ```csharp
 public int ConnectionSiteCount { get; }
 ```
 
-### См. также
+### Также смотри
 
 * интерфейс [IShape](../../ishape)
 * пространство имен [Aspose.Slides](../../ishape)

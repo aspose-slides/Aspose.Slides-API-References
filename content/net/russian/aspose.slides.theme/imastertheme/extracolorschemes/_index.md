@@ -1,7 +1,7 @@
 ---
 title: ExtraColorSchemes
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает коллекцию дополнительных цветовых схем. Эти схемы не влияют на внешний вид презентации, их можно выбрать в качестве основной цветовой схемы для слайда. Только для чтения IExtraColorSchemeCollectionaspose.slides.theme/iextracolorschemecollection.
+second_title: Aspose.Sildes для .NET API Справка
+description: Возвращает коллекцию дополнительных цветовых схем. Эти схемы не влияют на внешний вид презентаций, их можно выбрать в качестве основной цветовой схемы для слайда. Только для чтения IExtraColorSchemeCollectionaspose.slides.theme/iextracolorschemecollection.
 type: docs
 weight: 20
 url: /ru/aspose.slides.theme/imastertheme/extracolorschemes/
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.theme/imastertheme/extracolorschemes/
 public IExtraColorSchemeCollection ExtraColorSchemes { get; }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IExtraColorSchemeCollection](../../iextracolorschemecollection)
 * интерфейс [IMasterTheme](../../imastertheme)

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/svgimage/baseuri/
 ---
+
 ## SvgImage.BaseUri property
 
 Returns base URI of the specified Svg. Used to resolve relative links. Read-only String.

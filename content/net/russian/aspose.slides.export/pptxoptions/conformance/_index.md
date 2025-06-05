@@ -1,21 +1,21 @@
 ---
-title: Соответствие
-second_title: Справочник API Aspose.Slides для .NET
-description: Указывает класс соответствия, которому соответствует документ презентации. Значение по умолчанию - Ecma376_2006
+title: Conformance
+second_title: Aspose.Sildes для .NET API Справка
+description: Указывает класс соответствия, которому соответствует документ презентации. Значение по умолчанию — Ecma376_2006
 type: docs
 weight: 20
 url: /ru/aspose.slides.export/pptxoptions/conformance/
 ---
 
-## Свойство PptxOptions.Conformance
+## PptxOptions.Conformance свойство
 
-Указывает класс соответствия, которому соответствует документ презентации. Значение по умолчанию - Ecma376_2006
+Указывает класс соответствия, которому соответствует документ презентации. Значение по умолчанию — Ecma376_2006
 
 ```csharp
 public Conformance Conformance { get; set; }
 ```
 
-### См. также
+### Дополнительная информация
 
 * enum [Conformance](../../conformance)
 * class [PptxOptions](../../pptxoptions)

@@ -1,7 +1,7 @@
 ---
 title: AsISlideComponent
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Permet d'obtenir l'interface de base ISlideComponent. ISlideComponent en lecture seule aspose.slides/islidecomponent.
+second_title: Aspose.Slides pour .NET Référence API
+description: Permet d'obtenir l'interface de base ISlideComponent. Lecture seule ISlideComponentaspose.slides/islidecomponent.
 type: docs
 weight: 10
 url: /fr/aspose.slides/iparagraph/asislidecomponent/
@@ -15,7 +15,7 @@ Permet d'obtenir l'interface de base ISlideComponent. Lecture seule [`ISlideComp
 public ISlideComponent AsISlideComponent { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ISlideComponent](../../islidecomponent)
 * interface [IParagraph](../../iparagraph)

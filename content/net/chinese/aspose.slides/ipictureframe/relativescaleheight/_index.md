@@ -1,7 +1,7 @@
 ---
-title: 相对高度缩放
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置与原始图片大小相对的图片框的高度缩放。值为 1.0 对应于 100%。可读/可写单精度浮点数。
+title: RelativeScaleHeight
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置图片框高度的比例（相对于原始图片大小）。值 1.0 对应于 100%。可读/写 Single。
 type: docs
 weight: 40
 url: /zh/aspose.slides/ipictureframe/relativescaleheight/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ipictureframe/relativescaleheight/
 
 ## IPictureFrame.RelativeScaleHeight 属性
 
-返回或设置图片框高度的缩放（相对于原始图片大小）。值为 1.0 对应于 100%。可读/可写单精度浮点数。
+返回或设置图片框高度的比例（相对于原始图片大小）。值 1.0 对应于 100%。可读/写 Single。
 
 ```csharp
 public float RelativeScaleHeight { get; set; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IPictureFrame](../../ipictureframe)
 * 命名空间 [Aspose.Slides](../../ipictureframe)

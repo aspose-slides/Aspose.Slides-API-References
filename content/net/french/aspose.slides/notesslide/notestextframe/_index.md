@@ -1,7 +1,7 @@
 ---
 title: NotesTextFrame
-second_title: Référence API Aspose.Slides pour .NET
-description: Retourne un TextFrame avec le texte des notes s'il y en a un. Lecture seule ITextFrameaspose.slides/itextframe.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie un TextFrame contenant le texte des notes s'il y en a un. ITextFrame en lecture seule aspose.slides/itextframe.
 type: docs
 weight: 20
 url: /fr/aspose.slides/notesslide/notestextframe/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/notesslide/notestextframe/
 
 ## Propriété NotesSlide.NotesTextFrame
 
-Retourne un TextFrame avec le texte des notes s'il y en a un. Lecture seule [`ITextFrame`](../../itextframe).
+Renvoie un TextFrame avec le texte des notes s'il y en a un. [`ITextFrame`](../../itextframe) en lecture seule.
 
 ```csharp
 public ITextFrame NotesTextFrame { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ITextFrame](../../itextframe)
 * classe [NotesSlide](../../notesslide)

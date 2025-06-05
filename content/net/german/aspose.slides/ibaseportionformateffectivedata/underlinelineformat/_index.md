@@ -1,21 +1,21 @@
 ---
-title: UnterstreichLinienFormat
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die LineFormat-Eigenschaften zurück, die verwendet werden, um die unterstrichene Linie zu umreißen. Nur-lesbare ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
+title: UnderlineLineFormat
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die LineFormat-Eigenschaften zurück, die verwendet werden, um die unterstrichene Linie zu umrissen. Nur lesbar ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs
 weight: 270
 url: /de/aspose.slides/ibaseportionformateffectivedata/underlinelineformat/
 ---
 
-## IBasePortionFormatEffectiveData.UnderlineLineFormat Eigenschaft
+## IBasePortionFormatEffectiveData.UnderlineLineFormat-Eigenschaft
 
-Gibt die LineFormat-Eigenschaften zurück, die verwendet werden, um die unterstrichene Linie zu umreißen. Nur-lesbare [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
+Gibt die LineFormat-Eigenschaften zurück, die verwendet werden, um die unterstrichene Linie zu umrissen. Nur lesbar [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
 
 ```csharp
 public ILineFormatEffectiveData UnderlineLineFormat { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ILineFormatEffectiveData](../../ilineformateffectivedata)
 * Schnittstelle [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)

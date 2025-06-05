@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ieffectformat/asieffectparamsource/
 ---
+
 ## IEffectFormat.AsIEffectParamSource property
 
 Allows to get base IEffectParamSource interface. Read-only [`IEffectParamSource`](../../ieffectparamsource).

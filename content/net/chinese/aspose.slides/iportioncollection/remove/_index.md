@@ -1,7 +1,7 @@
 ---
-title: 移除
-second_title: Aspose.Sildes for .NET API 参考
-description: 从 ICollection 中移除特定对象的第一个出现。
+title: Remove
+second_title: Aspose.Sildes for .NET API Reference
+description: 从 ICollection 中移除特定对象的第一次出现。
 type: docs
 weight: 90
 url: /zh/aspose.slides/iportioncollection/remove/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iportioncollection/remove/
 
 ## IPortionCollection.Remove 方法
 
-从 ICollection 中移除特定对象的第一个出现。
+从 ICollection 中移除特定对象的第一次出现。
 
 ```csharp
 public bool Remove(IPortion item)
@@ -21,15 +21,15 @@ public bool Remove(IPortion item)
 
 ### 返回值
 
-如果 *item* 已成功从 ICollection 中移除，则返回 true；否则，返回 false。如果 *item* 在原始 ICollection 中未找到，此方法也会返回 false。
+如果 *item* 成功从 ICollection 中移除，则返回 true；否则，返回 false。如果在原始 ICollection 中找不到 *item*，此方法也会返回 false。
 
 ### 异常
 
 | 异常 | 条件 |
 | --- | --- |
-| NotSupportedException | ICollection 为只读。 |
+| NotSupportedException | ICollection 是只读的。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IPortion](../../iportion)
 * 接口 [IPortionCollection](../../iportioncollection)

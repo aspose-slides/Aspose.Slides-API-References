@@ -1,6 +1,6 @@
 ---
 title: ClassId
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Obtiene el id de clase de este control. Solo lectura Guid.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ Obtiene el id de clase de este control. Solo lectura Guid.
 public Guid ClassId { get; }
 ```
 
-### Ver También
+### Véase También
 
 * interfaz [IControl](../../icontrol)
 * espacio de nombres [Aspose.Slides](../../icontrol)

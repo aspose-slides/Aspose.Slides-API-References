@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/mathradical/mathradical/
 ---
+
 ## MathRadical constructor
 
 Initializes a new instance of the MathRadical class.

@@ -1,6 +1,6 @@
 ---
-title: 检查写保护
-second_title: Aspose.Slides for .NET API 参考
+title: CheckWriteProtection
+second_title: Aspose.Sildes for .NET API Reference
 description: 检查修改密码是否正确以用于写保护的演示文稿。
 type: docs
 weight: 60
@@ -31,7 +31,7 @@ public bool CheckWriteProtection(string password)
 
 ### 备注
 
-1. 在调用此方法之前，您应该检查 [`IsWriteProtected`](../iswriteprotected) 属性。 2. 当密码为 null 或为空时，此方法返回 false。
+1. 在调用此方法之前，您应该检查 [`IsWriteProtected`](../iswriteprotected) 属性。 2. 当密码为 null 或空时，此方法返回 false。
 
 ### 示例
 
@@ -44,7 +44,7 @@ if (info.IsWriteProtected == NullableBool.True)
 }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IPresentationInfo](../../ipresentationinfo)
 * 命名空间 [Aspose.Slides](../../ipresentationinfo)

@@ -1,13 +1,13 @@
 ---
 title: Base
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Argument de base
 type: docs
 weight: 20
 url: /fr/aspose.slides.mathtext/imathleftsubsuperscriptelement/base/
 ---
 
-## Propriété IMathLeftSubSuperscriptElement.Base
+## IMathLeftSubSuperscriptElement.Base propriété
 
 Argument de base
 
@@ -28,7 +28,7 @@ MathLeftSubSuperscriptElement leftSubSuperscript = new MathLeftSubSuperscriptEle
 IMathElement baseElem = leftSubSuperscript.Base;
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathElement](../../imathelement)
 * interface [IMathLeftSubSuperscriptElement](../../imathleftsubsuperscriptelement)

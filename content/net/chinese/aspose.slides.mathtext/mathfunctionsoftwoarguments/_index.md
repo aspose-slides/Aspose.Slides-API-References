@@ -1,13 +1,13 @@
 ---
-title: 两个参数的数学函数
-second_title: Aspose.Slides for .NET API 参考
-description: 两个参数的常见数学函数
+title: MathFunctionsOfTwoArguments
+second_title: Aspose.Sildes for .NET API Reference
+description: 常见的两个参数的数学函数
 type: docs
 weight: 8490
 url: /zh/aspose.slides.mathtext/mathfunctionsoftwoarguments/
 ---
 
-## 两个参数的数学函数枚举
+## MathFunctionsOfTwoArguments 枚举
 
 两个参数的常见数学函数
 
@@ -24,7 +24,7 @@ public enum MathFunctionsOfTwoArguments
 | Min | `2` | 最小值 |
 | Max | `3` | 最大值 |
 
-### 参见
+### 另请参见
 
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 程序集 [Aspose.Slides](../../)

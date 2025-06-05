@@ -1,7 +1,7 @@
 ---
-title: Couleur
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie la couleur résultante avec toutes les transformations de couleur appliquées. Définit les couleurs RVB et efface toutes les transformations de couleur. Lecture/écriture de la Couleur.
+title: Color
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Renvoie la couleur résultante avec toutes les transformations de couleur appliquées. Définit les couleurs RVB et efface toutes les transformations de couleur. Propriété couleur en lecture/écriture.
 type: docs
 weight: 30
 url: /fr/aspose.slides/icolorformat/color/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/icolorformat/color/
 
 ## Propriété IColorFormat.Color
 
-Renvoie la couleur résultante (avec toutes les transformations de couleur appliquées). Définit les couleurs RVB et efface toutes les transformations de couleur. Lecture/écriture de la Couleur.
+Renvoie la couleur résultante (avec toutes les transformations de couleur appliquées). Définit les couleurs RVB et efface toutes les transformations de couleur. Propriété couleur en lecture/écriture.
 
 ```csharp
 public Color Color { get; set; }

@@ -3,9 +3,10 @@ title: DataTable
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents data table properties.
 type: docs
-weight: 1490
+weight: 1520
 url: /aspose.slides.charts/datatable/
 ---
+
 ## DataTable class
 
 Represents data table properties.

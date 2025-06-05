@@ -7,7 +7,7 @@ weight: 10
 url: /es/aspose.slides.export/ihtmlgenerator/nextslideindex/
 ---
 
-## Propiedad IHtmlGenerator.NextSlideIndex
+## IHtmlGenerator.NextSlideIndex property
 
 Devuelve el índice de una diapositiva, que se renderizará después de la diapositiva actual o -1 si actualmente se está renderizando la última diapositiva. Solo lectura Int32.
 

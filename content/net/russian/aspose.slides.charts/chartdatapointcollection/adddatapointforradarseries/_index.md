@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForRadarSeries
-second_title: Aspose.Sildes для .NET API Справка
-description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, для которых chartType является одним из подтипов Radar, см. также метод IsChartTypeRadar aspose.slides.charts/charttypecharacterizer/ischarttyperadar.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых chartType является одним из подтипов Radar, см. также метод IsChartTypeRadaraspose.slides.charts/charttypecharacterizer/ischarttyperadar.
 type: docs
 weight: 200
 url: /ru/aspose.slides.charts/chartdatapointcollection/adddatapointforradarseries/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/chartdatapointcollection/adddatapointforradarserie
 
 ## AddDataPointForRadarSeries(IChartDataCell) {#adddatapointforradarseries}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, для которых chartType является одним из подтипов Radar (см. также метод [`IsChartTypeRadar`](../../charttypecharacterizer/ischarttyperadar)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых chartType является одним из подтипов Radar (см. также [`IsChartTypeRadar`](../../charttypecharacterizer/ischarttyperadar) метод).
 
 ```csharp
 public IChartDataPoint AddDataPointForRadarSeries(IChartDataCell value)
@@ -19,11 +19,11 @@ public IChartDataPoint AddDataPointForRadarSeries(IChartDataCell value)
 | --- | --- | --- |
 | value | IChartDataCell | Значение точки данных |
 
-### Возвращаемое значение
+### Значение Возврата
 
 Новая точка данных.
 
-### См. также
+### См. Также
 
 * интерфейс [IChartDataPoint](../../ichartdatapoint)
 * интерфейс [IChartDataCell](../../ichartdatacell)
@@ -35,7 +35,7 @@ public IChartDataPoint AddDataPointForRadarSeries(IChartDataCell value)
 
 ## AddDataPointForRadarSeries(double) {#adddatapointforradarseries_1}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, для которых chartType является одним из подтипов Radar (см. также метод [`IsChartTypeRadar`](../../charttypecharacterizer/ischarttyperadar)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых chartType является одним из подтипов Radar (см. также [`IsChartTypeRadar`](../../charttypecharacterizer/ischarttyperadar) метод).
 
 ```csharp
 public IChartDataPoint AddDataPointForRadarSeries(double value)
@@ -45,11 +45,11 @@ public IChartDataPoint AddDataPointForRadarSeries(double value)
 | --- | --- | --- |
 | value | Double | Значение точки данных |
 
-### Возвращаемое значение
+### Значение Возврата
 
 Новая точка данных.
 
-### См. также
+### См. Также
 
 * интерфейс [IChartDataPoint](../../ichartdatapoint)
 * класс [ChartDataPointCollection](../../chartdatapointcollection)

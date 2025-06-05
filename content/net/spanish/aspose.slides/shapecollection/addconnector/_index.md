@@ -1,7 +1,7 @@
 ---
 title: AddConnector
-second_title: Aspose.Slides para .NET Referencia de API
-description: Crea un nuevo conector, lo ajusta a partir de la plantilla predeterminada y lo agrega al final de la colección.
+second_title: Aspose.Sildes para .NET API Reference
+description: Crea un nuevo conector, lo ajusta a partir de una plantilla predeterminada y lo añade al final de la colección.
 type: docs
 weight: 120
 url: /es/aspose.slides/shapecollection/addconnector/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/shapecollection/addconnector/
 
 ## AddConnector(ShapeType, float, float, float, float) {#addconnector}
 
-Crea un nuevo conector, lo ajusta a partir de la plantilla predeterminada y lo agrega al final de la colección.
+Crea un nuevo conector, lo ajusta a partir de una plantilla predeterminada y lo añade al final de la colección.
 
 ```csharp
 public IConnector AddConnector(ShapeType shapeType, float x, float y, float width, float height)
@@ -27,11 +27,11 @@ public IConnector AddConnector(ShapeType shapeType, float x, float y, float widt
 
 El índice basado en cero de la forma creada.
 
-Objeto conector creado.
+Objeto Connector creado.
 
 ### Ejemplos
 
-El siguiente ejemplo muestra cómo agregar un conector (un conector doblado) entre dos formas (una elipse y un rectángulo) en una presentación de PowerPoint.
+El siguiente ejemplo muestra cómo añadir un conector (un conector doblado) entre dos formas (una elipse y un rectángulo) en una presentación de PowerPoint.
 
 ```csharp
 [C#]
@@ -40,23 +40,23 @@ using (Presentation input = new Presentation())
 {
     // Accede a la colección de formas para una diapositiva específica
     IShapeCollection shapes = input.Slides[0].Shapes;
-    // Agrega una forma automática de elipse
+    // Añade una forma autoshape de Elipse
     IAutoShape ellipse = shapes.AddAutoShape(ShapeType.Ellipse, 0, 100, 100, 100);
-    // Agrega una forma automática de rectángulo
+    // Añade una forma autoshape de Rectángulo
     IAutoShape rectangle = shapes.AddAutoShape(ShapeType.Rectangle, 100, 300, 100, 100);
-    // Agrega una forma de conector a la colección de formas de la diapositiva
+    // Añade una forma de conector a la colección de formas de la diapositiva
     IConnector connector = shapes.AddConnector(ShapeType.BentConnector2, 0, 0, 10, 10);
     // Conecta las formas usando el conector
     connector.StartShapeConnectedTo = ellipse;
     connector.EndShapeConnectedTo = rectangle;
-    // Llama a reroute que establece la ruta automática más corta entre las formas
+    // Llama a reroute que establece el camino automático más corto entre las formas
     connector.Reroute();
     // Guarda la presentación
     input.Save("Shapes-connector.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Véase También
+### También Puede Interesar
 
 * interface [IConnector](../../iconnector)
 * enum [ShapeType](../../shapetype)
@@ -68,7 +68,7 @@ using (Presentation input = new Presentation())
 
 ## AddConnector(ShapeType, float, float, float, float, bool) {#addconnector_1}
 
-Crea un nuevo conector y lo agrega al final de la colección.
+Crea un nuevo conector y lo añade al final de la colección.
 
 ```csharp
 public IConnector AddConnector(ShapeType shapeType, float x, float y, float width, float height, 
@@ -82,15 +82,15 @@ public IConnector AddConnector(ShapeType shapeType, float x, float y, float widt
 | y | Single | La coordenada Y para el lado superior del marco de la forma. |
 | width | Single | El ancho del marco de la forma. |
 | height | Single | La altura del marco de la forma. |
-| createFromTemplate | Boolean | Si es verdadero, la nueva forma se ajustará a partir de la plantilla predeterminada. Un nombre no vacío, un estilo simple, el texto centrado se asignará a la nueva forma. Si es falso, todos los valores de las propiedades de la nueva forma tendrán valores predeterminados. |
+| createFromTemplate | Boolean | Si es cierto, entonces la nueva forma se ajustará a partir de la plantilla predeterminada. Se asignará un nombre no vacío, un estilo simple y texto centrado a la nueva forma. Si es falso, entonces todos los valores de las propiedades de la nueva forma tendrán valores predeterminados. |
 
 ### Valor de Retorno
 
 El índice basado en cero de la forma creada.
 
-Objeto conector creado.
+Objeto Connector creado.
 
-### Véase También
+### También Puede Interesar
 
 * interface [IConnector](../../iconnector)
 * enum [ShapeType](../../shapetype)

@@ -1,7 +1,7 @@
 ---
 title: IPatternFormatEffectiveData
-second_title: Aspose.Sildes for .NET API 参考
-description: 包含有效模式填充属性的不变对象。
+second_title: Aspose.Sildes for .NET API Reference
+description: 不可变对象，包含有效的图案填充属性。
 type: docs
 weight: 6430
 url: /zh/aspose.slides/ipatternformateffectivedata/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ipatternformateffectivedata/
 
 ## IPatternFormatEffectiveData 接口
 
-包含有效模式填充属性的不变对象。
+不可变对象，包含有效的图案填充属性。
 
 ```csharp
 public interface IPatternFormatEffectiveData
@@ -19,15 +19,15 @@ public interface IPatternFormatEffectiveData
 
 | 名称 | 描述 |
 | --- | --- |
-| [BackColor](../../aspose.slides/ipatternformateffectivedata/backcolor) { get; } | 返回背景模式颜色。只读 Color。 |
-| [ForeColor](../../aspose.slides/ipatternformateffectivedata/forecolor) { get; } | 返回前景模式颜色。只读 Color。 |
-| [PatternStyle](../../aspose.slides/ipatternformateffectivedata/patternstyle) { get; } | 返回模式样式。只读 [`PatternStyle`](../patternstyle)。 |
+| [BackColor](../../aspose.slides/ipatternformateffectivedata/backcolor) { get; } | 返回背景图案颜色。只读 Color。 |
+| [ForeColor](../../aspose.slides/ipatternformateffectivedata/forecolor) { get; } | 返回前景图案颜色。只读 Color。 |
+| [PatternStyle](../../aspose.slides/ipatternformateffectivedata/patternstyle) { get; } | 返回图案样式。只读 [`PatternStyle`](../patternstyle)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [GetTileIImage](../../aspose.slides/ipatternformateffectivedata/gettileiimage)(Color, Color) | 为模式填充创建具有指定颜色的图块图像。 |
+| [GetTileIImage](../../aspose.slides/ipatternformateffectivedata/gettileiimage)(Color, Color) | 创建具有指定颜色的图案填充的平铺图像。 |
 
 ### 备注
 

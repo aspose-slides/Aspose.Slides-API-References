@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/ibaseslide/slideid/
 ---
+
 ## IBaseSlide.SlideId property
 
 Returns the ID of a slide. Read-only UInt32.

@@ -1,13 +1,13 @@
 ---
 title: HideAtShowing
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si un VideoFrame está oculto. Booleano de lectura/escritura.
 type: docs
 weight: 50
 url: /es/aspose.slides/ivideoframe/hideatshowing/
 ---
 
-## Propiedad IVideoFrame.HideAtShowing
+## IVideoFrame.HideAtShowing propiedad
 
 Determina si un VideoFrame está oculto. Booleano de lectura/escritura.
 
@@ -15,10 +15,10 @@ Determina si un VideoFrame está oculto. Booleano de lectura/escritura.
 public bool HideAtShowing { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IVideoFrame](../../ivideoframe)
 * espacio de nombres [Aspose.Slides](../../ivideoframe)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

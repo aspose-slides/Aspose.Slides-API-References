@@ -1,15 +1,15 @@
 ---
-title: Thema
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt ein Thema dar.
+title: Theme
+second_title: Aspose.Slides für .NET API-Referenz
+description: Repräsentiert ein Thema.
 type: docs
 weight: 11170
 url: /de/aspose.slides.theme/theme/
 ---
 
-## Thema-Klasse
+## Theme-Klasse
 
-Stellt ein Thema dar.
+Repräsentiert ein Thema.
 
 ```csharp
 public abstract class Theme : ITheme
@@ -21,16 +21,16 @@ public abstract class Theme : ITheme
 | --- | --- |
 | abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | Gibt das Farbschema zurück. Nur lesbar [`IColorScheme`](../icolorscheme). |
 | abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | Gibt das Schriftschema zurück. Nur lesbar [`IFontScheme`](../ifontscheme). |
-| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | Gibt das Formatschriftmuster zurück. Nur lesbar [`IFormatScheme`](../iformatscheme). |
+| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | Gibt das Format-Schema der Form zurück. Nur lesbar [`IFormatScheme`](../iformatscheme). |
 | [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Gibt die übergeordnete Präsentation zurück. Nur lesbar [`IPresentation`](../../aspose.slides/ipresentation). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Holt die effektiven Themen-Daten mit der angewandten Vererbung. |
+| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Holt die effektiven Themen-Daten mit der angewendeten Vererbung. |
 
-### Siehe Auch
+### Siehe auch
 
 * interface [ITheme](../itheme)
 * namespace [Aspose.Slides.Theme](../../aspose.slides.theme)

@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/effectformat/isnoeffects/
 ---
+
 ## EffectFormat.IsNoEffects property
 
 Returns true if all effects are disabled (as just created, default EffectFormat object). Read-only Boolean.

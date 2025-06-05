@@ -1,13 +1,13 @@
 ---
 title: IVbaModuleCollection
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示VBA项目模块的集合。
 type: docs
 weight: 11230
 url: /zh/aspose.slides.vba/ivbamodulecollection/
 ---
 
-## IVbaModuleCollection 接口
+## IVbaModuleCollection接口
 
 表示VBA项目模块的集合。
 
@@ -28,7 +28,7 @@ public interface IVbaModuleCollection : IGenericCollection<IVbaModule>
 | [AddEmptyModule](../../aspose.slides.vba/ivbamodulecollection/addemptymodule)(string) | 向VBA项目添加一个新的空模块。 |
 | [Remove](../../aspose.slides.vba/ivbamodulecollection/remove)(IVbaModule) | 从集合中删除特定对象的第一次出现。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 接口 [IVbaModule](../ivbamodule)

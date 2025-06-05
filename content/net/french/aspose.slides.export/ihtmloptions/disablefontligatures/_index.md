@@ -1,7 +1,7 @@
 ---
 title: DisableFontLigatures
-second_title: Référence API Aspose.Slides pour .NET
-description: Obtient ou définit une valeur indiquant si le texte est rendu sans utiliser de ligatures. Lorsqu'elle est définie sur true, les ligatures seront désactivées dans la sortie rendue. Par défaut, cette propriété est définie sur false.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Obtient ou définit une valeur indiquant si le texte est rendu sans utiliser de ligatures. Lorsqu'il est défini sur true, les ligatures seront désactivées dans la sortie rendue. Par défaut, cette propriété est définie sur false.
 type: docs
 weight: 30
 url: /fr/aspose.slides.export/ihtmloptions/disablefontligatures/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/ihtmloptions/disablefontligatures/
 
 ## Propriété IHtmlOptions.DisableFontLigatures
 
-Obtient ou définit une valeur indiquant si le texte est rendu sans utiliser de ligatures. Lorsqu'elle est définie sur `true`, les ligatures seront désactivées dans la sortie rendue. Par défaut, cette propriété est définie sur `false`.
+Obtient ou définit une valeur indiquant si le texte est rendu sans utiliser de ligatures. Lorsqu'il est défini sur `true`, les ligatures seront désactivées dans la sortie rendue. Par défaut, cette propriété est définie sur `false`.
 
 ```csharp
 public bool DisableFontLigatures { get; set; }
@@ -17,7 +17,7 @@ public bool DisableFontLigatures { get; set; }
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Voir Aussi
+### Voir également
 
 * interface [IHtmlOptions](../../ihtmloptions)
 * namespace [Aspose.Slides.Export](../../ihtmloptions)

@@ -1,13 +1,13 @@
 ---
 title: PdfAccessPermissions
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Enthält eine Reihe von Flags, die angeben, welche Zugriffsberechtigungen gewährt werden sollen, wenn das Dokument mit Benutzerzugriff geöffnet wird.
 type: docs
 weight: 4120
 url: /de/aspose.slides.export/pdfaccesspermissions/
 ---
 
-## PdfAccessPermissions-Enumeration
+## PdfAccessPermissions Aufzählung
 
 Enthält eine Reihe von Flags, die angeben, welche Zugriffsberechtigungen gewährt werden sollen, wenn das Dokument mit Benutzerzugriff geöffnet wird.
 
@@ -21,16 +21,16 @@ public enum PdfAccessPermissions
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | None | `0` | Gibt an, dass ein Benutzer keine Zugriffsberechtigungen hat. |
-| PrintDocument | `4` | Gibt an, ob ein Benutzer das Dokument drucken darf (möglicherweise nicht in der höchsten Qualitätsstufe, abhängig davon, ob das Bit HighQualityPrint ebenfalls gesetzt ist). |
-| ModifyContent | `8` | Gibt an, ob ein Benutzer den Inhalt des Dokuments durch andere Operationen als die von den Bits AddOrModifyFields, FillExistingFields, AssembleDocument gesteuerten ändern darf. |
-| CopyTextAndGraphics | `10` | Gibt an, ob ein Benutzer Text und Grafiken aus dem Dokument durch andere Operationen als die von dem Bit ExtractTextAndGraphics gesteuerten kopieren oder extrahieren darf. |
-| AddOrModifyFields | `20` | Gibt an, ob ein Benutzer Textannotationen hinzufügen oder ändern, interaktive Formularfelder ausfüllen und, wenn das Bit ModifyContent ebenfalls gesetzt ist, interaktive Formularfelder (einschließlich Signaturfelder) erstellen oder ändern darf. |
-| FillExistingFields | `100` | Gibt an, ob ein Benutzer vorhandene interaktive Formularfelder (einschließlich Signaturfelder) ausfüllen darf, auch wenn das Bit AddOrModifyFields nicht gesetzt ist. |
+| PrintDocument | `4` | Gibt an, ob ein Benutzer das Dokument drucken darf (möglicherweise nicht in der höchsten Qualität, abhängig davon, ob das Bit HighQualityPrint ebenfalls gesetzt ist). |
+| ModifyContent | `8` | Gibt an, ob ein Benutzer den Inhalt des Dokuments durch Operationen, die nicht durch die Bits AddOrModifyFields, FillExistingFields, AssembleDocument gesteuert werden, ändern darf. |
+| CopyTextAndGraphics | `10` | Gibt an, ob ein Benutzer Text und Grafiken aus dem Dokument durch Operationen, die nicht durch das Bit ExtractTextAndGraphics gesteuert werden, kopieren oder extrahieren darf. |
+| AddOrModifyFields | `20` | Gibt an, ob ein Benutzer Textanmerkungen hinzufügen oder ändern, interaktive Formularfelder ausfüllen und, wenn das Bit ModifyContent ebenfalls gesetzt ist, interaktive Formularfelder (einschließlich Unterschriftfelder) erstellen oder ändern darf. |
+| FillExistingFields | `100` | Gibt an, ob ein Benutzer vorhandene interaktive Formularfelder (einschließlich Unterschriftfelder) ausfüllen darf, selbst wenn das Bit AddOrModifyFields nicht gesetzt ist. |
 | ExtractTextAndGraphics | `200` | Gibt an, ob ein Benutzer Text und Grafiken zur Unterstützung der Zugänglichkeit für Benutzer mit Behinderungen oder für andere Zwecke extrahieren darf. |
-| AssembleDocument | `400` | Gibt an, ob ein Benutzer das Dokument zusammenstellen darf (Seiten einfügen, drehen oder löschen und Lesezeichen oder Miniaturansichten erstellen), auch wenn das Bit ModifyContent nicht gesetzt ist. |
-| HighQualityPrint | `800` | Gibt an, ob ein Benutzer das Dokument in einer Darstellung drucken darf, aus der eine getreue digitale Kopie des PDF-Inhalts erstellt werden könnte. Wenn dieses Bit nicht gesetzt ist (und das Bit PrintDocument gesetzt ist), ist das Drucken auf eine niederstufige Darstellung des Aussehens beschränkt, möglicherweise in degradierter Qualität. |
+| AssembleDocument | `400` | Gibt an, ob ein Benutzer das Dokument zusammenstellen darf (Seiten einfügen, drehen oder löschen und Lesezeichen oder Thumbnail-Bilder erstellen), selbst wenn das Bit ModifyContent nicht gesetzt ist. |
+| HighQualityPrint | `800` | Gibt an, ob ein Benutzer das Dokument so drucken darf, dass eine treue digitale Kopie des PDF-Inhalts erstellt werden kann. Wenn dieses Bit nicht gesetzt ist (und das Bit PrintDocument gesetzt ist), ist das Drucken auf eine niedrigere Darstellung des Erscheinungsbilds mit möglicherweise verminderter Qualität beschränkt. |
 
-### Siehe auch
+### Siehe Auch
 
 * namespace [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)

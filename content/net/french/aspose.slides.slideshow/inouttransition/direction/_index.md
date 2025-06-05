@@ -1,13 +1,13 @@
 ---
 title: Direction
-second_title: Aspose.Sildes pour .NET API Référence
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Direction d'un effet de transition. Lecture/écriture TransitionInOutDirectionTypeaspose.slides.slideshow/transitioninoutdirectiontype.
 type: docs
 weight: 10
 url: /fr/aspose.slides.slideshow/inouttransition/direction/
 ---
 
-## Propriété InOutTransition.Direction
+## InOutTransition.Direction propriété
 
 Direction d'un effet de transition. Lecture/écriture [`TransitionInOutDirectionType`](../../transitioninoutdirectiontype).
 

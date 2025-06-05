@@ -1,7 +1,7 @@
 ---
 title: CreateMathBlock
-second_title: Aspose.Slides для .NET API Reference
-description: Создать математический блок
+second_title: Aspose.Sildes для .NET API Reference
+description: Создание математического блока
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/imathblockfactory/createmathblock/
@@ -9,17 +9,17 @@ url: /ru/aspose.slides.mathtext/imathblockfactory/createmathblock/
 
 ## CreateMathBlock() {#createmathblock}
 
-Создать математический блок
+Создание математического блока
 
 ```csharp
 public IMathBlock CreateMathBlock()
 ```
 
-### Return Value
+### Возвращаемое значение
 
 новый математический блок
 
-### See Also
+### См. также
 
 * интерфейс [IMathBlock](../../imathblock)
 * интерфейс [IMathBlockFactory](../../imathblockfactory)
@@ -30,7 +30,7 @@ public IMathBlock CreateMathBlock()
 
 ## CreateMathBlock(IMathElement) {#createmathblock_1}
 
-Создать математический блок и поместить элемент в него
+Создание математического блока и размещение элемента в нем
 
 ```csharp
 public IMathBlock CreateMathBlock(IMathElement mathElement)
@@ -40,11 +40,11 @@ public IMathBlock CreateMathBlock(IMathElement mathElement)
 | --- | --- | --- |
 | mathElement | IMathElement | Математический элемент |
 
-### Return Value
+### Возвращаемое значение
 
 новый математический блок
 
-### See Also
+### См. также
 
 * интерфейс [IMathBlock](../../imathblock)
 * интерфейс [IMathElement](../../imathelement)
@@ -56,7 +56,7 @@ public IMathBlock CreateMathBlock(IMathElement mathElement)
 
 ## CreateMathBlock(IMathElementCollection) {#createmathblock_2}
 
-Создать математический блок и поместить элементы в него
+Создание математического блока и размещение элементов в нем
 
 ```csharp
 public IMathBlock CreateMathBlock(IMathElementCollection mathElements)
@@ -66,11 +66,11 @@ public IMathBlock CreateMathBlock(IMathElementCollection mathElements)
 | --- | --- | --- |
 | mathElements | IMathElementCollection | математические элементы |
 
-### Return Value
+### Возвращаемое значение
 
 новый математический блок
 
-### See Also
+### См. также
 
 * интерфейс [IMathBlock](../../imathblock)
 * интерфейс [IMathElementCollection](../../imathelementcollection)

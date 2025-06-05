@@ -1,7 +1,7 @@
 ---
 title: NoLocks
 second_title: Aspose.Sildes für .NET API Referenz
-description: Gibt true zurück, wenn alle Sperrflags deaktiviert sind. Schreibgeschützter Boolean.
+description: Gibt true zurück, wenn alle Sperr-Flags deaktiviert sind. Schreibgeschütztes Boolean.
 type: docs
 weight: 10
 url: /de/aspose.slides/ibaseshapelock/nolocks/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ibaseshapelock/nolocks/
 
 ## IBaseShapeLock.NoLocks-Eigenschaft
 
-Gibt true zurück, wenn alle Sperrflags deaktiviert sind. Schreibgeschützter Boolean.
+Gibt true zurück, wenn alle Sperr-Flags deaktiviert sind. Schreibgeschütztes Boolean.
 
 ```csharp
 public bool NoLocks { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IBaseShapeLock](../../ibaseshapelock)
 * Namespace [Aspose.Slides](../../ibaseshapelock)

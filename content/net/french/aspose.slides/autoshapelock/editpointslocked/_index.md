@@ -1,15 +1,15 @@
 ---
 title: EditPointsLocked
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si un changement direct du contour de cette forme est interdit. Booléen en lecture/écriture.
+description: Détermine si un changement direct du contour de cette forme est interdit. Lecteur/écrivain Booléen.
 type: docs
 weight: 40
 url: /fr/aspose.slides/autoshapelock/editpointslocked/
 ---
 
-## Propriété AutoShapeLock.EditPointsLocked
+## AutoShapeLock.EditPointsLocked propriété
 
-Détermine si un changement direct du contour de cette forme est interdit. Booléen en lecture/écriture.
+Détermine si un changement direct du contour de cette forme est interdit. Lecteur/écrivain Booléen.
 
 ```csharp
 public bool EditPointsLocked { get; set; }

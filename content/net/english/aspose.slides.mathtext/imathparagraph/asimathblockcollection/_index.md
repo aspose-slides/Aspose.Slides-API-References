@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/imathparagraph/asimathblockcollection/
 ---
+
 ## IMathParagraph.AsIMathBlockCollection property
 
 Allows to get base IMathBlockCollection interface [`IMathBlockCollection`](../../imathblockcollection)

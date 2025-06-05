@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.animation/behaviorcollection/item/
 ---
+
 ## BehaviorCollection indexer
 
 Retirns a behavior at the specified index.

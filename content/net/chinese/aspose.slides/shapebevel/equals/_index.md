@@ -1,6 +1,6 @@
 ---
-title: 等于
-second_title: Aspose.Slides for .NET API参考
+title: Equals
+second_title: Aspose.Sildes for .NET API Reference
 description: type docs
 weight: 50
 url: /zh/aspose.slides/shapebevel/equals/

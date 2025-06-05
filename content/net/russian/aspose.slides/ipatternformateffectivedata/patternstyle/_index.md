@@ -1,13 +1,13 @@
 ---
 title: PatternStyle
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает стиль шаблона. Только для чтения PatternStyleaspose.slides/patternstyle.
 type: docs
 weight: 30
 url: /ru/aspose.slides/ipatternformateffectivedata/patternstyle/
 ---
 
-## Свойство IPatternFormatEffectiveData.PatternStyle
+## IPatternFormatEffectiveData.PatternStyle свойство
 
 Возвращает стиль шаблона. Только для чтения [`PatternStyle`](../../patternstyle).
 

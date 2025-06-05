@@ -1,7 +1,7 @@
 ---
 title: ColorDirection
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente la direction de couleur pour le comportement de l'effet de couleur.
+second_title: Aspose.Slides pour la référence API .NET
+description: Représente la direction des couleurs pour le comportement d'effet de couleur.
 type: docs
 weight: 140
 url: /fr/aspose.slides.animation/colordirection/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/colordirection/
 
 ## Énumération ColorDirection
 
-Représente la direction de couleur pour le comportement de l'effet de couleur.
+Représente la direction des couleurs pour le comportement d'effet de couleur.
 
 ```csharp
 public enum ColorDirection

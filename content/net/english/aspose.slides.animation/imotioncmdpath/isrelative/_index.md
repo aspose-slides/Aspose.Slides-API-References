@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.animation/imotioncmdpath/isrelative/
 ---
+
 ## IMotionCmdPath.IsRelative property
 
 Determine command coordinates relative or not. Read/write Boolean.

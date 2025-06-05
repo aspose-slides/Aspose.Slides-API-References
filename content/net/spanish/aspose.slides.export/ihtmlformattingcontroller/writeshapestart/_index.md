@@ -1,15 +1,15 @@
 ---
 title: WriteShapeStart
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Llamado antes del renderizado de las formas. Se llama una vez por cada forma. Si esta función escribe algo en el generador, la generación de la imagen de la diapositiva actual finalizará, se insertará un fragmento de html y se comenzará una nueva imagen encima de la anterior.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Llamado antes de la renderización de formas. Se llama una vez por cada forma. Si esta función escribe algo en el generador, la generación de la imagen de la diapositiva actual se finalizará, se insertará el fragmento de html añadido y se iniciará una nueva imagen sobre la anterior.
 type: docs
 weight: 40
 url: /es/aspose.slides.export/ihtmlformattingcontroller/writeshapestart/
 ---
 
-## Método IHtmlFormattingController.WriteShapeStart
+## IHtmlFormattingController.WriteShapeStart method
 
-Llamado antes del renderizado de la forma. Se llama una vez por cada forma. Si esta función escribe algo en el generador, la generación de la imagen de la diapositiva actual finalizará, se insertará un fragmento de html y se comenzará una nueva imagen encima de la anterior.
+Llamado antes de la renderización de la forma. Se llama una vez por cada forma. Si esta función escribe algo en el generador, la generación de la imagen de la diapositiva actual se finalizará, se insertará el fragmento de html añadido y se iniciará una nueva imagen sobre la anterior.
 
 ```csharp
 public void WriteShapeStart(IHtmlGenerator generator, IShape shape)
@@ -20,7 +20,7 @@ public void WriteShapeStart(IHtmlGenerator generator, IShape shape)
 | generator | IHtmlGenerator | Objeto de salida. |
 | shape | IShape | Forma que está a punto de renderizarse. |
 
-### Ver También
+### Véase también
 
 * interface [IHtmlGenerator](../../ihtmlgenerator)
 * interface [IShape](../../../aspose.slides/ishape)

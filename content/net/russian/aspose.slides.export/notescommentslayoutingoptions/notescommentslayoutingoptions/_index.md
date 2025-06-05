@@ -1,6 +1,6 @@
 ---
 title: NotesCommentsLayoutingOptions
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export/notescommentslayoutingoptions/notescommentslayouti
 public NotesCommentsLayoutingOptions()
 ```
 
-### Смотрите также
+### См. Также
 
 * класс [NotesCommentsLayoutingOptions](../../notescommentslayoutingoptions)
 * пространство имен [Aspose.Slides.Export](../../notescommentslayoutingoptions)

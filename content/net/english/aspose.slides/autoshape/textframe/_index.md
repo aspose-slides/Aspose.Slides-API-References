@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/autoshape/textframe/
 ---
+
 ## AutoShape.TextFrame property
 
 Returns TextFrame object for the AutoShape. Read-only [`ITextFrame`](../../itextframe).

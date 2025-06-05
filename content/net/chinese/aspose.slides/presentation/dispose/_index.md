@@ -1,6 +1,6 @@
 ---
-title: 释放
-second_title: Aspose.Sildes for .NET API 参考
+title: Dispose
+second_title: Aspose.Sildes for .NET API Reference
 description: 释放此 Presentation 对象使用的所有资源。
 type: docs
 weight: 300
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/presentation/dispose/
 public void Dispose()
 ```
 
-### 参见
+### 另请参阅
 
 * class [Presentation](../../presentation)
 * namespace [Aspose.Slides](../../presentation)

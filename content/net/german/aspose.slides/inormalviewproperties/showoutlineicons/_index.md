@@ -1,7 +1,7 @@
 ---
 title: ShowOutlineIcons
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt an, ob die Anwendung Icons anzeigen soll, wenn sie Gliederungsinhalte in einem der Inhaltsbereiche des Normalansichtsmodus darstellt. Lese-/Schreibbarer Boolean.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt an, ob die Anwendung Symbole anzeigen soll, wenn Umrissinhalte in einem der Inhaltsbereiche des normalen Ansichtsmodus angezeigt werden. Lese-/schreibbare Boolesche Werte.
 type: docs
 weight: 50
 url: /de/aspose.slides/inormalviewproperties/showoutlineicons/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/inormalviewproperties/showoutlineicons/
 
 ## INormalViewProperties.ShowOutlineIcons-Eigenschaft
 
-Gibt an, ob die Anwendung Icons anzeigen soll, wenn sie Gliederungsinhalte in einem der Inhaltsbereiche des Normalansichtsmodus darstellt. Lese-/Schreibbarer Boolean.
+Gibt an, ob die Anwendung Symbole anzeigen soll, wenn Umrissinhalte in einem der Inhaltsbereiche des normalen Ansichtsmodus angezeigt werden. Lese-/schreibbare Boolesche Werte.
 
 ```csharp
 public bool ShowOutlineIcons { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [INormalViewProperties](../../inormalviewproperties)
 * Namespace [Aspose.Slides](../../inormalviewproperties)

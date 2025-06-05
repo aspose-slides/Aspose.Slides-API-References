@@ -1,7 +1,7 @@
 ---
 title: DisableFontLigatures
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft einen Wert ab oder legt ihn fest, der angibt, ob Text ohne Verwendung von Ligaturen gerendert wird. Wenn er auf true gesetzt ist, werden Ligaturen in der gerenderten Ausgabe deaktiviert. Standardmäßig ist diese Eigenschaft auf false gesetzt.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob Text ohne die Verwendung von Ligaturen gerendert wird. Wenn auf true gesetzt, werden Ligaturen im gerenderten Ausgabe deaktiviert. Standardmäßig ist diese Eigenschaft auf false gesetzt.
 type: docs
 weight: 40
 url: /de/aspose.slides.export/ihtml5options/disablefontligatures/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/ihtml5options/disablefontligatures/
 
 ## IHtml5Options.DisableFontLigatures-Eigenschaft
 
-Ruft einen Wert ab oder legt ihn fest, der angibt, ob Text ohne Verwendung von Ligaturen gerendert wird. Wenn er auf `true` gesetzt ist, werden Ligaturen in der gerenderten Ausgabe deaktiviert. Standardmäßig ist diese Eigenschaft auf `false` gesetzt.
+Ruht einen Wert ab oder legt einen Wert fest, der angibt, ob Text ohne die Verwendung von Ligaturen gerendert wird. Wenn auf `true` gesetzt, werden Ligaturen im gerenderten Ausgabe deaktiviert. Standardmäßig ist diese Eigenschaft auf `false` gesetzt.
 
 ```csharp
 public bool DisableFontLigatures { get; set; }
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IHtml5Options](../../ihtml5options)
 * Namespace [Aspose.Slides.Export](../../ihtml5options)

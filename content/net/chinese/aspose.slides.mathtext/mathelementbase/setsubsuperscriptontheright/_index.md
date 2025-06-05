@@ -1,7 +1,7 @@
 ---
 title: SetSubSuperscriptOnTheRight
 second_title: Aspose.Sildes for .NET API Reference
-description: 创建右侧的下标和上标
+description: 在右侧创建下标和上标
 type: docs
 weight: 150
 url: /zh/aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright/
 
 ## SetSubSuperscriptOnTheRight(IMathElement, IMathElement) {#setsubsuperscriptontheright}
 
-创建右侧的下标和上标
+在右侧创建下标和上标
 
 ```csharp
 public IMathRightSubSuperscriptElement SetSubSuperscriptOnTheRight(IMathElement subscript, 
@@ -18,8 +18,8 @@ public IMathRightSubSuperscriptElement SetSubSuperscriptOnTheRight(IMathElement 
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| subscript | IMathElement | 下标（右侧的下标） |
-| superscript | IMathElement | 上标（右侧的上标） |
+| subscript | IMathElement | 下标（右侧下标） |
+| superscript | IMathElement | 上标（右侧上标） |
 
 ### 返回值
 
@@ -37,7 +37,7 @@ IMathElement superscript = new MathematicalText("j");
 IMathRightSubSuperscriptElement subsuperscript = baseElement.SetSubSuperscriptOnTheRight(subscript, superscript);
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [IMathRightSubSuperscriptElement](../../imathrightsubsuperscriptelement)
 * 接口 [IMathElement](../../imathelement)
@@ -49,17 +49,17 @@ IMathRightSubSuperscriptElement subsuperscript = baseElement.SetSubSuperscriptOn
 
 ## SetSubSuperscriptOnTheRight(string, string) {#setsubsuperscriptontheright_1}
 
-创建右侧的下标和上标
+在右侧创建下标和上标
 
 ```csharp
-public IMathRightSubSuperscriptElement SetSubSuberscriptOnTheRight(string subscript, 
+public IMathRightSubSuperscriptElement SetSubSuperscriptOnTheRight(string subscript, 
     string superscript)
 ```
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| subscript | String | 下标（右侧的下标） |
-| superscript | String | 上标（右侧的上标） |
+| subscript | String | 下标（右侧下标） |
+| superscript | String | 上标（右侧上标） |
 
 ### 返回值
 
@@ -75,7 +75,7 @@ IMathElement baseElement = new MathematicalText("N");
 IMathRightSubSuperscriptElement subsuperscript = baseElement.SetSubSuperscriptOnTheRight("i", "j");
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [IMathRightSubSuperscriptElement](../../imathrightsubsuperscriptelement)
 * 类 [MathElementBase](../../mathelementbase)

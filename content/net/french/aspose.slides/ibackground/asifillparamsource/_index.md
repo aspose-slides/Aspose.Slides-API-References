@@ -1,7 +1,7 @@
 ---
 title: AsIFillParamSource
-second_title: Référence API Aspose.Slides pour .NET
-description: Retourne l'interface IFillParamSource. IFillParamSource en lecture seule aspose.slides/ifillparamsource.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie l'interface IFillParamSource. IFillParamSourceaspose.slides/ifillparamsource en lecture seule.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ibackground/asifillparamsource/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ibackground/asifillparamsource/
 
 ## Propriété IBackground.AsIFillParamSource
 
-Retourne l'interface IFillParamSource. Lecture seule [`IFillParamSource`](../../ifillparamsource).
+Renvoie l'interface IFillParamSource. [`IFillParamSource`](../../ifillparamsource) en lecture seule.
 
 ```csharp
 public IFillParamSource AsIFillParamSource { get; }
@@ -19,7 +19,7 @@ public IFillParamSource AsIFillParamSource { get; }
 
 Pour la compatibilité COM.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IFillParamSource](../../ifillparamsource)
 * interface [IBackground](../../ibackground)

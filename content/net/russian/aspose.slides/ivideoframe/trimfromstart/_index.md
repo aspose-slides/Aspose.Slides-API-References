@@ -1,15 +1,15 @@
 ---
 title: TrimFromStart
-second_title: Справочная информация по API Aspose.Slides для .NET
-description: Обрезка начала ms
+second_title: Aspose.Slides для .NET API Справочник
+description: Обрезать начало мс
 type: docs
 weight: 110
 url: /ru/aspose.slides/ivideoframe/trimfromstart/
 ---
 
-## Свойство IVideoFrame.TrimFromStart
+## IVideoFrame.TrimFromStart свойство
 
-Обрезка начала [ms]
+Обрезать начало [мс]
 
 ```csharp
 public float TrimFromStart { get; set; }
@@ -27,15 +27,15 @@ using (Presentation pres = new Presentation())
     IVideo video = pres.Videos.AddVideo(File.ReadAllBytes("video.mp4"));
     var videoFrame = slide.Shapes.AddVideoFrame(0, 0, 100, 100, video);
 
-    //установка времени начала обрезки 1сек
+    //установить время начала обрезки 1сек
     videoFrame.TrimFromStart = 1000f;
 
-    //установка времени конца обрезки 2сек
+    //установить время окончания обрезки 2сек
     videoFrame.TrimFromEnd = 2000f;
 }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IVideoFrame](../../ivideoframe)
 * пространство имен [Aspose.Slides](../../ivideoframe)

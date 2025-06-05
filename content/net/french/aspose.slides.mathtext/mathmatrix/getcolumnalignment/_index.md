@@ -1,15 +1,15 @@
 ---
 title: GetColumnAlignment
-second_title: Aspose.Sildes pour la référence API .NET
-description: Obtenir l'alignement horizontal de la colonne spécifiée
+second_title: Aspose.Sildes pour .NET API Reference
+description: Obtenez l'alignement horizontal de la colonne spécifiée
 type: docs
 weight: 150
 url: /fr/aspose.slides.mathtext/mathmatrix/getcolumnalignment/
 ---
 
-## Méthode MathMatrix.GetColumnAlignment
+## MathMatrix.GetColumnAlignment méthode
 
-Obtenir l'alignement horizontal de la colonne spécifiée
+Obtenez l'alignement horizontal de la colonne spécifiée
 
 ```csharp
 public MathHorizontalAlignment GetColumnAlignment(int columnIndex)
@@ -25,7 +25,7 @@ Alignement horizontal de la colonne spécifiée
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

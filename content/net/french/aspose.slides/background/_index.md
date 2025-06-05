@@ -1,7 +1,7 @@
 ---
-title: Contexte
+title: Background
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente le fond d'une diapositive.
+description: Représente l'arrière-plan d'une diapositive.
 type: docs
 weight: 850
 url: /fr/aspose.slides/background/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/background/
 
 ## Classe Background
 
-Représente le fond d'une diapositive.
+Représente l'arrière-plan d'une diapositive.
 
 ```csharp
 public sealed class Background : PVIObject, IBackground
@@ -19,24 +19,24 @@ public sealed class Background : PVIObject, IBackground
 
 | Nom | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface IPresentationComponent de base. Lecture seule [`IPresentationComponent`](../ipresentationcomponent). |
-| [EffectFormat](../../aspose.slides/background/effectformat) { get; } | Renvoie un EffectFormat pour un remplissage de BackgroundType.OwnBackground. Lecture seule [`IEffectFormat`](../ieffectformat). |
-| [FillFormat](../../aspose.slides/background/fillformat) { get; } | Renvoie un FillFormat pour un remplissage de BackgroundType.OwnBackground. Lecture seule [`IFillFormat`](../ifillformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface de base IPresentationComponent. Lecture seule [`IPresentationComponent`](../ipresentationcomponent). |
+| [EffectFormat](../../aspose.slides/background/effectformat) { get; } | Renvoie un EffectFormat pour le remplissage BackgroundType.OwnBackground. Lecture seule [`IEffectFormat`](../ieffectformat). |
+| [FillFormat](../../aspose.slides/background/fillformat) { get; } | Renvoie un FillFormat pour le remplissage BackgroundType.OwnBackground. Lecture seule [`IFillFormat`](../ifillformat). |
 | [Presentation](../../aspose.slides/background/presentation) { get; } | Renvoie la présentation parente d'une diapositive. Lecture seule [`IPresentation`](../ipresentation). |
 | [Slide](../../aspose.slides/background/slide) { get; } | Renvoie la diapositive parente d'une forme. Lecture seule [`IBaseSlide`](../ibaseslide). |
-| [StyleColor](../../aspose.slides/background/stylecolor) { get; } | Renvoie un ColorFormat pour un remplissage de BackgroundType.Themed. Lecture seule [`IColorFormat`](../icolorformat). |
-| [StyleIndex](../../aspose.slides/background/styleindex) { get; set; } | Renvoie un index de remplissage de BackgroundType.Themed dans la collection de thèmes de fond. 0 signifie pas de remplissage. 1..999 - index. Lecture/écriture UInt16. |
-| [Type](../../aspose.slides/background/type) { get; set; } | Renvoie un type de remplissage de fond. Lecture/écriture [`BackgroundType`](../backgroundtype). |
+| [StyleColor](../../aspose.slides/background/stylecolor) { get; } | Renvoie un ColorFormat pour un remplissage BackgroundType.Themed. Lecture seule [`IColorFormat`](../icolorformat). |
+| [StyleIndex](../../aspose.slides/background/styleindex) { get; set; } | Renvoie un index de remplissage BackgroundType.Themed dans la collection de thèmes d'arrière-plan. 0 signifie aucun remplissage. 1..999 - index. Lecture/écriture UInt16. |
+| [Type](../../aspose.slides/background/type) { get; set; } | Renvoie un type de remplissage d'arrière-plan. Lecture/écriture [`BackgroundType`](../backgroundtype). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compare avec l'objet spécifié. |
-| [GetEffective](../../aspose.slides/background/geteffective)() | Obtient les données de fond effectives avec l'héritage appliqué. |
+| [GetEffective](../../aspose.slides/background/geteffective)() | Obtient les données d'arrière-plan effectives avec l'héritage appliqué. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Renvoie le code de hachage. |
 
-### Voir aussi
+### Voir Aussi
 
 * classe [PVIObject](../pviobject)
 * interface [IBackground](../ibackground)

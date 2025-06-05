@@ -1,6 +1,6 @@
 ---
 title: CreateMemoryStreamWrapper
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Aspose.Sildes pour la référence API .NET
 description: Crée un wrapper MemoryStream.
 type: docs
 weight: 30
@@ -26,7 +26,7 @@ public IStreamWrapper CreateMemoryStreamWrapper()
 
 ## CreateMemoryStreamWrapper(byte[]) {#creatememorystreamwrapper_1}
 
-Crée un wrapper MemoryStream basé sur le tableau de bytes spécifié.
+Crée un wrapper MemoryStream basé sur le tableau d'octets spécifié.
 
 ```csharp
 public IStreamWrapper CreateMemoryStreamWrapper(byte[] buffer)

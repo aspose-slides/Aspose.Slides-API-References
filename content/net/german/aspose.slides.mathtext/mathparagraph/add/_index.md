@@ -1,5 +1,5 @@
 ---
-title: Hinzufügen
+title: Add
 second_title: Aspose.Slides für .NET API Referenz
 description: Fügt IMathBlock am Ende der Sammlung hinzu.
 type: docs
@@ -15,9 +15,9 @@ Fügt IMathBlock am Ende der Sammlung hinzu.
 public void Add(IMathBlock mathBlock)
 ```
 
-| Parameter   | Typ         | Beschreibung                                                        |
-|-------------|-------------|---------------------------------------------------------------------|
-| mathBlock   | IMathBlock  | Ein mathematischer Block, der am Ende der Sammlung hinzugefügt wird |
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| mathBlock | IMathBlock | Ein mathematischer Block, der am Ende der Sammlung hinzugefügt wird |
 
 ### Beispiele
 

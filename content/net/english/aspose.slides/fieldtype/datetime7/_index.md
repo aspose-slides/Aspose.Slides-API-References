@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides/fieldtype/datetime7/
 ---
+
 ## FieldType.DateTime7 property
 
 Current date and time in a seventh predefined format (Mon-YY for english). Read-only [`FieldType`](../../fieldtype).

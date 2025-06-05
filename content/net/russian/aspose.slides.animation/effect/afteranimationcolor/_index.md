@@ -1,13 +1,13 @@
 ---
 title: AfterAnimationColor
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Определяет цвет после анимации для эффекта. Чтение/запись IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 10
 url: /ru/aspose.slides.animation/effect/afteranimationcolor/
 ---
 
-## Свойство Effect.AfterAnimationColor
+## Effect.AfterAnimationColor свойство
 
 Определяет цвет после анимации для эффекта. Чтение/запись [`IColorFormat`](../../../aspose.slides/icolorformat).
 
@@ -21,18 +21,18 @@ public IColorFormat AfterAnimationColor { get; set; }
 [C#]
 using (Presentation presentation = new Presentation("demo.pptx"))
 {
-    // Получите первый эффект первого слайда.
+    // Получить первый эффект первого слайда.
     IEffect firstSlideEffect = presentation.Slides[0].Timeline.MainSequence[0];
     
-    // Измените тип эффекта после анимации на "Color"
+    // Изменить тип эффекта после анимации на "Цвет"
     firstSlideEffect.AfterAnimationType = AfterAnimationType.Color;
     
-    // Установите цвет эффекта после анимации.
+    // Установить цвет после анимации для эффекта.
     firstSlideEffect.AfterAnimationColor.Color = Color.Green;
 }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IColorFormat](../../../aspose.slides/icolorformat)
 * класс [Effect](../../effect)

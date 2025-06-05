@@ -1,6 +1,6 @@
 ---
 title: SetGroupingItem
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 设置定义级别的分组项。
 type: docs
 weight: 30
@@ -18,7 +18,7 @@ public void SetGroupingItem(int level, object value)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | level | Int32 | 类别级别 Int32 |
-| value | Object | 分组项对象 |
+| value | Object | 分组项 Object |
 
 ### 另请参见
 

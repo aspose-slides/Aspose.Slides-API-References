@@ -7,7 +7,7 @@ weight: 10
 url: /fr/aspose.slides.charts/imultiplecellchartvalue/ascells/
 ---
 
-## IMultipleCellChartValue.AsCells propriété
+## Propriété IMultipleCellChartValue.AsCells
 
 Renvoie ou définit la collection de cellules de graphique. Lecture/écriture [`IChartCellCollection`](../../ichartcellcollection).
 
@@ -17,7 +17,7 @@ public IChartCellCollection AsCells { get; set; }
 
 ### Remarques
 
-L'assignation de valeur nulle n'est pas autorisée.
+L'attribution de la valeur nulle n'est pas autorisée.
 
 ### Voir aussi
 

@@ -1,15 +1,15 @@
 ---
 title: InsertAutoShape
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Crée un nouvel AutoShape, le règle à partir du modèle par défaut et l'insère dans la collection à l'index spécifié. Notez que le type de la forme sera déterminé par le paramètre shapeType.
+second_title: Aspose.Slides pour .NET API Référence
+description: Crée un nouvel AutoShape, le personnalise à partir du modèle par défaut et l'insère dans la collection à l'index spécifié. Notez que le type de la forme sera déterminé par le paramètre shapeType.
 type: docs
 weight: 300
 url: /fr/aspose.slides/shapecollection/insertautoshape/
 ---
 
-## InsertAutoShape(int, ShapeType, float, float, float, float) {#insertautoshape}
+## InsertAutoShape(int, ShapeType, float, float, float, float) {#insertautoshape}
 
-Crée un nouvel AutoShape, le règle à partir du modèle par défaut et l'insère dans la collection à l'index spécifié. Note : le type de la forme sera déterminé par le paramètre shapeType.
+Crée un nouvel AutoShape, le personnalise à partir du modèle par défaut et l'insère dans la collection à l'index spécifié. Remarque : le type de la forme sera déterminé par le paramètre shapeType.
 
 ```csharp
 public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float y, float width, 
@@ -18,18 +18,18 @@ public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | L'index basé sur zéro à laquelle la valeur doit être insérée. |
+| index | Int32 | L'index basé sur zéro où la valeur doit être insérée. |
 | shapeType | ShapeType | Un [`ShapeType`](../../shapetype) de forme. |
 | x | Single | La coordonnée X pour le côté gauche du cadre de la forme. |
 | y | Single | La coordonnée Y pour le côté supérieur du cadre de la forme. |
 | width | Single | La largeur du cadre de la forme. |
 | height | Single | La hauteur du cadre de la forme. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Objet AutoShape créé.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IAutoShape](../../iautoshape)
 * enum [ShapeType](../../shapetype)
@@ -39,9 +39,9 @@ Objet AutoShape créé.
 
 ---
 
-## InsertAutoShape(int, ShapeType, float, float, float, float, bool) {#insertautoshape_1}
+## InsertAutoShape(int, ShapeType, float, float, float, float, bool) {#insertautoshape_1}
 
-Crée un nouvel AutoShape et l'insère dans la collection à l'index spécifié. Note : le type de la forme sera déterminé par le paramètre shapeType.
+Crée un nouvel AutoShape et l'insère dans la collection à l'index spécifié. Remarque : le type de la forme sera déterminé par le paramètre shapeType.
 
 ```csharp
 public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float y, float width, 
@@ -50,19 +50,19 @@ public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | L'index basé sur zéro à laquelle la valeur doit être insérée. |
+| index | Int32 | L'index basé sur zéro où la valeur doit être insérée. |
 | shapeType | ShapeType | Un [`ShapeType`](../../shapetype) de forme. |
 | x | Single | La coordonnée X pour le côté gauche du cadre de la forme. |
 | y | Single | La coordonnée Y pour le côté supérieur du cadre de la forme. |
 | width | Single | La largeur du cadre de la forme. |
 | height | Single | La hauteur du cadre de la forme. |
-| createFromTemplate | Boolean | Si vrai, alors la nouvelle forme sera réglée à partir du modèle par défaut. Un nom non vide, un style simple, et un texte centré seront assignés à la nouvelle forme. Si faux, alors toutes les valeurs des propriétés de la nouvelle forme auront des valeurs par défaut. |
+| createFromTemplate | Boolean | Si vrai, alors la nouvelle forme sera personnalisée à partir du modèle par défaut. Un nom non vide, un style simple, et un texte centré seront attribués à la nouvelle forme. Si faux, alors toutes les valeurs des propriétés de la nouvelle forme auront des valeurs par défaut. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Objet AutoShape créé.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IAutoShape](../../iautoshape)
 * enum [ShapeType](../../shapetype)

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export.xaml/xamloptions/xamloptions/
 ---
+
 ## XamlOptions constructor
 
 Creates the XamlOptions instance.

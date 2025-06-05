@@ -1,6 +1,6 @@
 ---
 title: OOXMLCorruptFileException
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Standardkonstruktor.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Standardkonstruktor.
 public OOXMLCorruptFileException()
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [OOXMLCorruptFileException](../../ooxmlcorruptfileexception)
 * Namespace [Aspose.Slides](../../ooxmlcorruptfileexception)
@@ -35,7 +35,7 @@ public OOXMLCorruptFileException(string message)
 | --- | --- | --- |
 | message | String | Nachricht |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [OOXMLCorruptFileException](../../ooxmlcorruptfileexception)
 * Namespace [Aspose.Slides](../../ooxmlcorruptfileexception)
@@ -54,9 +54,9 @@ public OOXMLCorruptFileException(string message, Exception exception)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | message | String | Nachricht |
-| exception | Exception | ursprüngliche Ausnahme |
+| exception | Exception | Originalausnahme |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [OOXMLCorruptFileException](../../ooxmlcorruptfileexception)
 * Namespace [Aspose.Slides](../../ooxmlcorruptfileexception)

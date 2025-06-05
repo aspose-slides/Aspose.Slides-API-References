@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.export/svgoptions/default/
 ---
+
 ## SVGOptions.Default property
 
 Returns default settings. Read-only [`SVGOptions`](../../svgoptions).

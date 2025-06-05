@@ -1,7 +1,7 @@
 ---
 title: AddOleObjectFrame
-second_title: Aspose.Sildes для .NET API Reference
-description: Добавляет новый OLE-объект в конец коллекции.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Добавляет новый OLE объект в конец коллекции.
 type: docs
 weight: 150
 url: /ru/aspose.slides/shapecollection/addoleobjectframe/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/shapecollection/addoleobjectframe/
 
 ## AddOleObjectFrame(float, float, float, float, IOleEmbeddedDataInfo) {#addoleobjectframe}
 
-Добавляет новый OLE-объект в конец коллекции.
+Добавляет новый OLE объект в конец коллекции.
 
 ```csharp
 public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float height, 
@@ -18,28 +18,28 @@ public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float he
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | Координата X нового OLE-рамки. |
-| y | Single | Координата Y нового OLE-рамки. |
-| width | Single | Ширина нового OLE-рамки. |
-| height | Single | Высота нового OLE-рамки. |
+| x | Single | X-координата нового OLE фрейма. |
+| y | Single | Y-координата нового OLE фрейма. |
+| width | Single | Ширина нового OLE фрейма. |
+| height | Single | Высота нового OLE фрейма. |
 | dataInfo | IOleEmbeddedDataInfo | Информация о встроенных данных [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |
 
 ### Возвращаемое значение
 
-Созданный OLE-объект.
+Созданный OLE объект.
 
 ### Примеры
 
-Следующие примеры показывают, как добавлять OLE Object Frames в слайды PowerPoint презентации.
+Следующие примеры показывают, как добавить OLE Object Frames в слайды презентации PowerPoint.
 
 ```csharp
 [C#]
-// Создает экземпляр класса Presentation, представляющего файл PPTX
+// Создает экземпляр класса Presentation, который представляет файл PPTX
 using (Presentation pres = new Presentation())
 {
     // Получает первый слайд
     ISlide sld = pres.Slides[0];
-    // Загружает файл excel в поток
+    // Загружает файл Excel в поток
     MemoryStream mstream = new MemoryStream();
     using (FileStream fs = new FileStream("book1.xlsx", FileMode.Open, FileAccess.Read))
     {
@@ -57,7 +57,7 @@ using (Presentation pres = new Presentation())
     // Добавляет форму Ole Object Frame
     IOleObjectFrame oleObjectFrame = sld.Shapes.AddOleObjectFrame(0, 0, pres.SlideSize.Size.Width,
         pres.SlideSize.Size.Height, dataInfo);
-    // Сохраняет файл PPTX на диск
+    // Записывает файл PPTX на диск
     pres.Save("OleEmbed_out.pptx", SaveFormat.Pptx);
 }
 ```
@@ -74,7 +74,7 @@ using (Presentation pres = new Presentation())
 
 ## AddOleObjectFrame(float, float, float, float, string, string) {#addoleobjectframe_1}
 
-Добавляет новый OLE-объект в конец коллекции.
+Добавляет новый OLE объект в конец коллекции.
 
 ```csharp
 public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float height, 
@@ -83,16 +83,16 @@ public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float he
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | Координата X нового OLE-рамки. |
-| y | Single | Координата Y нового OLE-рамки. |
-| width | Single | Ширина нового OLE-рамки. |
-| height | Single | Высота нового OLE-рамки. |
-| className | String | Имя OLE класса. |
+| x | Single | X-координата нового OLE фрейма. |
+| y | Single | Y-координата нового OLE фрейма. |
+| width | Single | Ширина нового OLE фрейма. |
+| height | Single | Высота нового OLE фрейма. |
+| className | String | Имя класса OLE. |
 | path | String | Путь к связанному файлу. |
 
 ### Возвращаемое значение
 
-Созданный OLE-объект.
+Созданный OLE объект.
 
 ### См. также
 

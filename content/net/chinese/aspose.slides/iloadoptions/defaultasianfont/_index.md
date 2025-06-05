@@ -1,7 +1,7 @@
 ---
-title: 默认亚洲字体
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置在找不到源字体的情况下使用的亚洲字体。可读写字符串。
+title: DefaultAsianFont
+second_title: Aspose.Slides for .NET API Reference
+description: 返回或设置在找不到源字体的情况下使用的中文字体。可读写字符串。
 type: docs
 weight: 20
 url: /zh/aspose.slides/iloadoptions/defaultasianfont/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/iloadoptions/defaultasianfont/
 
 ## ILoadOptions.DefaultAsianFont 属性
 
-返回或设置在找不到源字体的情况下使用的亚洲字体。可读写字符串。
+返回或设置在找不到源字体的情况下使用的中文字体。可读写字符串。
 
 ```csharp
 public string DefaultAsianFont { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [ILoadOptions](../../iloadoptions)
 * 命名空间 [Aspose.Slides](../../iloadoptions)

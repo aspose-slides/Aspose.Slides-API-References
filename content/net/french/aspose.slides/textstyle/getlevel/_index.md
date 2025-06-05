@@ -1,7 +1,7 @@
 ---
 title: GetLevel
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Si le niveau de style existe, le renvoie, sinon renvoie null.
+description: Si le niveau de style existe, il le retourne, sinon retourne null.
 type: docs
 weight: 30
 url: /fr/aspose.slides/textstyle/getlevel/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/textstyle/getlevel/
 
 ## Méthode TextStyle.GetLevel
 
-Si le niveau de style existe, le renvoie, sinon renvoie null.
+Si le niveau de style existe, il le retourne, sinon retourne null.
 
 ```csharp
 public IParagraphFormat GetLevel(int index)

@@ -1,21 +1,21 @@
 ---
 title: EffectStyleIndex
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает индекс столбца эффекта формы в матрице стилей. Чтение/запись UInt32.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или задает индекс столбца эффекта формы в матрице стиля. Чтение/запись UInt32.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ishapestyle/effectstyleindex/
 ---
 
-## Свойство IShapeStyle.EffectStyleIndex
+## IShapeStyle.EffectStyleIndex свойство
 
-Возвращает или задает индекс столбца эффекта формы в матрице стилей. Чтение/запись UInt32.
+Возвращает или задает индекс столбца эффекта формы в матрице стиля. Чтение/запись UInt32.
 
 ```csharp
 public uint EffectStyleIndex { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IShapeStyle](../../ishapestyle)
 * пространство имен [Aspose.Slides](../../ishapestyle)

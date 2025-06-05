@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForLineSeries
 second_title: Aspose.Sildes for .NET API Reference
-description: 创建新的数据点并将其添加到集合的末尾。适用于chartType为Line子类型之一的系列，详见ChartTypeCharacterizer.IsChartTypeLineChartType方法。
+description: 创建新的数据点并将其添加到集合的末尾。适用于图表类型为线型子类型之一的系列，参见 ChartTypeCharacterizer.IsChartTypeLineChartType 方法。
 type: docs
 weight: 140
 url: /zh/aspose.slides.charts/ichartdatapointcollection/adddatapointforlineseries/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ichartdatapointcollection/adddatapointforlineserie
 
 ## AddDataPointForLineSeries(IChartDataCell) {#adddatapointforlineseries}
 
-创建新的数据点并将其添加到集合的末尾。适用于chartType为Line子类型之一的系列（详见ChartTypeCharacterizer.IsChartTypeLine(ChartType)方法）。
+创建新的数据点并将其添加到集合的末尾。适用于图表类型为线型子类型之一的系列（参见 ChartTypeCharacterizer.IsChartTypeLine(ChartType) 方法）。
 
 ```csharp
 public IChartDataPoint AddDataPointForLineSeries(IChartDataCell value)
@@ -35,7 +35,7 @@ public IChartDataPoint AddDataPointForLineSeries(IChartDataCell value)
 
 ## AddDataPointForLineSeries(double) {#adddatapointforlineseries_1}
 
-创建新的数据点并将其添加到集合的末尾。适用于chartType为Line子类型之一的系列（详见ChartTypeCharacterizer.IsChartTypeLine(ChartType)方法）。
+创建新的数据点并将其添加到集合的末尾。适用于图表类型为线型子类型之一的系列（参见 ChartTypeCharacterizer.IsChartTypeLine(ChartType) 方法）。
 
 ```csharp
 public IChartDataPoint AddDataPointForLineSeries(double value)

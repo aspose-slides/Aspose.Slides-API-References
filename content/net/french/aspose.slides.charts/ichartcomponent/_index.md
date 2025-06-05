@@ -22,7 +22,7 @@ public interface IChartComponent : ISlideComponent
 | [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | Permet d'obtenir l'interface de base ISlideComponent. Lecture seule [`ISlideComponent`](../../aspose.slides/islidecomponent). |
 | [Chart](../../aspose.slides.charts/ichartcomponent/chart) { get; } | Retourne le graphique. Lecture seule [`IChart`](../ichart). |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ISlideComponent](../../aspose.slides/islidecomponent)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)

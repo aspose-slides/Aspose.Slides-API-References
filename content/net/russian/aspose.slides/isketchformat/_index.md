@@ -1,7 +1,7 @@
 ---
 title: ISketchFormat
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет свойства для формата линий эскиза.
+second_title: Aspose.Slides справочник API для .NET
+description: Представляет свойства для формата эскизов линий.
 type: docs
 weight: 6800
 url: /ru/aspose.slides/isketchformat/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/isketchformat/
 
 ## Интерфейс ISketchFormat
 
-Представляет свойства для формата линий эскиза.
+Представляет свойства для формата эскизов линий.
 
 ```csharp
 public interface ISketchFormat
@@ -17,11 +17,11 @@ public interface ISketchFormat
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [SketchType](../../aspose.slides/isketchformat/sketchtype) { get; set; } | Возвращает или устанавливает тип эскиза. Чтение/запись [`LineSketchType`](../linesketchtype). |
+| [SketchType](../../aspose.slides/isketchformat/sketchtype) { get; set; } | Возвращает или задает тип эскиза. Чтение/запись [`LineSketchType`](../linesketchtype). |
 
-### Также см.
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

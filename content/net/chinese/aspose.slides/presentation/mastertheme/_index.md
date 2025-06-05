@@ -1,7 +1,7 @@
 ---
 title: MasterTheme
-second_title: Aspose.Slides for .NET API参考
-description: 返回主主题。只读 IMasterTheme aspose.slides.theme/imastertheme。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回母主题。只读 IMasterTheme aspose.slides.theme/imastertheme。
 type: docs
 weight: 190
 url: /zh/aspose.slides/presentation/mastertheme/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/presentation/mastertheme/
 
 ## Presentation.MasterTheme 属性
 
-返回主主题。只读 [`IMasterTheme`](../../../aspose.slides.theme/imastertheme)。
+返回母主题。只读 [`IMasterTheme`](../../../aspose.slides.theme/imastertheme)。
 
 ```csharp
 public IMasterTheme MasterTheme { get; }
@@ -17,11 +17,11 @@ public IMasterTheme MasterTheme { get; }
 
 ### 示例
 
-以下示例显示如何通过改变 PowerPoint 演示文稿元素的部分来更改主题效果。
+以下示例展示了如何通过改变 PowerPoint 演示文稿元素的部分来更改主题效果。
 
 ```csharp
 [C#]
-//实例化一个表示演示文稿文件的演示文稿对象
+//实例化一个表示演示文件的演示对象
 using (Presentation pres = new Presentation("Subtle_Moderate_Intense.pptx"))
 {
     pres.MasterTheme.FormatScheme.LineStyles[0].FillFormat.SolidFillColor.Color = Color.Red;
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation("Subtle_Moderate_Intense.pptx"))
 }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IMasterTheme](../../../aspose.slides.theme/imastertheme)
 * 类 [Presentation](../../presentation)

@@ -6,6 +6,7 @@ type: docs
 weight: 630
 url: /aspose.slides.animation/behaviorproperty/shadowmatrixperspectivey/
 ---
+
 ## BehaviorProperty.ShadowMatrixPerspectiveY property
 
 Represents 'shadow.matrix.perspectiveY' property

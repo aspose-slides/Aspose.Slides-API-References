@@ -1,13 +1,13 @@
 ---
 title: AddEmptySlide
-second_title: Référence API d'Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Ajoute une nouvelle diapositive vide à la fin de la collection.
 type: docs
 weight: 30
 url: /fr/aspose.slides/islidecollection/addemptyslide/
 ---
 
-## Méthode ISlideCollection.AddEmptySlide
+## ISlideCollection.AddEmptySlide méthode
 
 Ajoute une nouvelle diapositive vide à la fin de la collection.
 

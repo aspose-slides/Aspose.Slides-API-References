@@ -1,6 +1,6 @@
 ---
 title: CreateMathBorderBox
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Aspose.Slides pour la référence de l'API .NET
 description: Créer une bordure mathématique en l'appliquant à l'élément
 type: docs
 weight: 10
@@ -17,11 +17,11 @@ public IMathBorderBox CreateMathBorderBox(IMathElement element)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| element | IMathElement | élément mathématique à appliquer la bordure |
+| element | IMathElement | élément mathématique auquel appliquer la bordure |
 
-### Valeur de Retour
+### Valeur de retour
 
-nouveau élément de bordure
+nouvel élément de bordure
 
 ### Voir aussi
 
@@ -45,19 +45,19 @@ public IMathBorderBox CreateMathBorderBox(IMathElement element, bool hideTop, bo
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| element | IMathElement | élément mathématique à appliquer la bordure |
+| element | IMathElement | élément mathématique auquel appliquer la bordure |
 | hideTop | Boolean | Masquer le bord supérieur |
 | hideBottom | Boolean | Masquer le bord inférieur |
 | hideLeft | Boolean | Masquer le bord gauche |
 | hideRight | Boolean | Masquer le bord droit |
-| strikethroughHorizontal | Boolean | Rayure horizontale de la bordure |
-| strikethroughVertical | Boolean | Rayure verticale de la bordure |
-| strikethroughBottomLeftToTopRight | Boolean | Rayure de la bordure de Bas-Gauche à Haut-Droit |
-| strikethroughTopLeftToBottomRight | Boolean | Rayure de la bordure de Haut-Gauche à Bas-Droit |
+| strikethroughHorizontal | Boolean | Strikethrough horizontal de la bordure |
+| strikethroughVertical | Boolean | Strikethrough vertical de la bordure |
+| strikethroughBottomLeftToTopRight | Boolean | Strikethrough de la bordure du bas-gauche au haut-droit |
+| strikethroughTopLeftToBottomRight | Boolean | Strikethrough de la bordure du haut-gauche au bas-droit |
 
-### Valeur de Retour
+### Valeur de retour
 
-nouveau élément de bordure
+nouvel élément de bordure
 
 ### Voir aussi
 

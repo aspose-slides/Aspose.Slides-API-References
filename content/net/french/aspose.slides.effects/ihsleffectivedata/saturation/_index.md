@@ -1,15 +1,15 @@
 ---
 title: Saturation
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie le pourcentage de saturation. Lecture seule Single.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Retourne le pourcentage de saturation. Lecture seule, Single.
 type: docs
 weight: 40
 url: /fr/aspose.slides.effects/ihsleffectivedata/saturation/
 ---
 
-## IHSLEffectiveData.Saturation propriété
+## Propriété IHSLEffectiveData.Saturation
 
-Renvoie le pourcentage de saturation. Lecture seule Single.
+Retourne le pourcentage de saturation. Lecture seule, Single.
 
 ```csharp
 public float Saturation { get; }

@@ -1,7 +1,7 @@
 ---
 title: CategoryAxisType
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Especifica el tipo del eje de categorías. Lectura/escritura CategoryAxisTypeaspose.slides.charts/iaxis/categoryaxistype.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Especifica el tipo del eje de categoría. Lectura/escritura CategoryAxisTypeaspose.slides.charts/iaxis/categoryaxistype.
 type: docs
 weight: 120
 url: /es/aspose.slides.charts/iaxis/categoryaxistype/
@@ -9,13 +9,13 @@ url: /es/aspose.slides.charts/iaxis/categoryaxistype/
 
 ## Propiedad IAxis.CategoryAxisType
 
-Especifica el tipo del eje de categorías. Lectura/escritura `CategoryAxisType`.
+Especifica el tipo del eje de categoría. Lectura/escritura `CategoryAxisType`.
 
 ```csharp
 public CategoryAxisType CategoryAxisType { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * enum [CategoryAxisType](../../categoryaxistype)
 * interface [IAxis](../../iaxis)

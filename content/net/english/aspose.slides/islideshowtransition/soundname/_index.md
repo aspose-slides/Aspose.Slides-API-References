@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/islideshowtransition/soundname/
 ---
+
 ## ISlideShowTransition.SoundName property
 
 Specifies a human readable name for the sound of the transition. The [`Sound`](../sound) property must be assigned to get or set the sound name. Read-write String.

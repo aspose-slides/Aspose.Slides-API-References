@@ -1,13 +1,13 @@
 ---
-title: Éléments
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Item
+second_title: Aspose.Slides pour référence API .NET
 description: Obtient l'élément à l'index spécifié. Lecture seule IMasterSlideaspose.slides/imasterslide.
 type: docs
 weight: 10
 url: /fr/aspose.slides/imasterslidecollection/item/
 ---
 
-## Indexeur IMasterSlideCollection
+## IMasterSlideCollection indexer
 
 Obtient l'élément à l'index spécifié. Lecture seule [`IMasterSlide`](../../imasterslide).
 
@@ -15,7 +15,7 @@ Obtient l'élément à l'index spécifié. Lecture seule [`IMasterSlide`](../../
 public IMasterSlide this[int index] { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMasterSlide](../../imasterslide)
 * interface [IMasterSlideCollection](../../imasterslidecollection)

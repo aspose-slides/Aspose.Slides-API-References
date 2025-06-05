@@ -1,6 +1,6 @@
 ---
 title: LineArrowheadStyle
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет стиль наконечника стрелы.
 type: docs
 weight: 7500
@@ -27,7 +27,7 @@ public enum LineArrowheadStyle : sbyte
 | Oval | `4` |  |
 | Open | `5` |  |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

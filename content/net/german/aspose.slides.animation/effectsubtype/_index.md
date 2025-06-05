@@ -1,15 +1,15 @@
 ---
 title: EffectSubtype
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt Subtypen von Animationseffekten dar.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt Untertypen von Animationseffekten dar.
 type: docs
 weight: 260
 url: /de/aspose.slides.animation/effectsubtype/
 ---
 
-## EffectSubtype-Enumeration
+## EffectSubtype Aufzählung
 
-Stellt Subtypen von Animationseffekten dar.
+Stellt Untertypen von Animationseffekten dar.
 
 ```csharp
 public enum EffectSubtype

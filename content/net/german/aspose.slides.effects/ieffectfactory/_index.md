@@ -1,7 +1,7 @@
 ---
 title: IEffectFactory
-second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht das Erstellen von Effektinstanzen
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ermöglicht die Erstellung von Effektinstanzen
 type: docs
 weight: 3170
 url: /de/aspose.slides.effects/ieffectfactory/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/ieffectfactory/
 
 ## IEffectFactory-Schnittstelle
 
-Ermöglicht das Erstellen von Effektinstanzen
+Ermöglicht die Erstellung von Effektinstanzen
 
 ```csharp
 public interface IEffectFactory
@@ -19,7 +19,7 @@ public interface IEffectFactory
 
 | Name | Beschreibung |
 | --- | --- |
-| [ImageTransformOperationFactory](../../aspose.slides.effects/ieffectfactory/imagetransformoperationfactory) { get; } | Gibt ImageTransformOperationFactory zurück. Nur lesbar [`IImageTransformOperationFactory`](../iimagetransformoperationfactory). |
+| [ImageTransformOperationFactory](../../aspose.slides.effects/ieffectfactory/imagetransformoperationfactory) { get; } | Gibt ImageTransformOperationFactory zurück. Schreibgeschützt [`IImageTransformOperationFactory`](../iimagetransformoperationfactory). |
 
 ## Methoden
 
@@ -32,7 +32,7 @@ public interface IEffectFactory
 | [CreateReflection](../../aspose.slides.effects/ieffectfactory/createreflection)() | Erstellt Reflection-Effekt. |
 | [CreateSoftEdge](../../aspose.slides.effects/ieffectfactory/createsoftedge)() | Erstellt Soft Edge-Effekt. |
 
-### Anmerkungen
+### Bemerkungen
 
 Für COM-Kompatibilität.
 

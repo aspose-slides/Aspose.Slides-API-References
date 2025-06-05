@@ -15,11 +15,11 @@ url: /ru/aspose.slides/formatfactory/createtextframeformat/
 public ITextFrameFormat CreateTextFrameFormat()
 ```
 
-### Возвращаемое Значение
+### Значение Возврата
 
-Новый формат текстового фрейма.
+Новый формат текстового кадра.
 
-### См. Также
+### См. также
 
 * интерфейс [ITextFrameFormat](../../itextframeformat)
 * класс [FormatFactory](../../formatfactory)

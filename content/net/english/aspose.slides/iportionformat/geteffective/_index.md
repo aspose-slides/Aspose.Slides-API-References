@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/iportionformat/geteffective/
 ---
+
 ## IPortionFormat.GetEffective method
 
 Gets effective portion formatting data with the inheritance applied.

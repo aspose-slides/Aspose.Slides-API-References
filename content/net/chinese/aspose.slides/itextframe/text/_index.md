@@ -1,7 +1,7 @@
 ---
-title: 文本
-second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置 TextFrame 的纯文本。可读/写 字符串。
+title: Text
+second_title: Aspose.Slides for .NET API Reference
+description: 获取或设置 TextFrame 的纯文本。可读写字符串。
 type: docs
 weight: 60
 url: /zh/aspose.slides/itextframe/text/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/itextframe/text/
 
 ## ITextFrame.Text 属性
 
-获取或设置 TextFrame 的纯文本。可读/写 字符串。
+获取或设置 TextFrame 的纯文本。可读写字符串。
 
 ```csharp
 public string Text { get; set; }
@@ -19,7 +19,7 @@ public string Text { get; set; }
 
 文本。
 
-### 另请参见
+### 另请参阅
 
 * 接口 [ITextFrame](../../itextframe)
 * 命名空间 [Aspose.Slides](../../itextframe)

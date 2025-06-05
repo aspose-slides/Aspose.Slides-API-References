@@ -1,7 +1,7 @@
 ---
 title: ICamera
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示摄像机。
+description: 表示相机。
 type: docs
 weight: 5210
 url: /zh/aspose.slides/icamera/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/icamera/
 
 ## ICamera 接口
 
-表示摄像机。
+表示相机。
 
 ```csharp
 public interface ICamera
@@ -19,18 +19,18 @@ public interface ICamera
 
 | 名称 | 描述 |
 | --- | --- |
-| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | 摄像机类型 读/写 [`CameraPresetType`](../camerapresettype)。 |
-| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | 摄像机视场 (0-180度，视场) 读/写 单精度浮点数。 |
-| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | 摄像机缩放（正值以百分比表示） 读/写 单精度浮点数。 |
+| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | 相机类型 读写 [`CameraPresetType`](../camerapresettype)。 |
+| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | 相机视场 (0-180 度，视场) 读写 单精度浮点数。 |
+| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | 相机变焦 (正值，以百分比表示) 读写 单精度浮点数。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icamera/getrotation)() | 旋转是通过使用一个纬度坐标、一个经度坐标和围绕轴的旋转来定义的，纬度和经度坐标作为返回数组的第一个元素 - 纬度，第二个 - 经度，第三个 - 旋转。如果没有定义旋转，返回 null。 |
-| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | 旋转是通过使用一个纬度坐标、一个经度坐标和围绕轴的旋转来定义的。如果任何坐标值为 float.NaN，则所有旋转是未定义的。 |
+| [GetRotation](../../aspose.slides/icamera/getrotation)() | 旋转是通过使用纬度坐标、经度坐标和围绕坐标轴的旋转来定义的。返回数组中的第一个元素 - 纬度，第二个 - 经度，第三个 - 旋转。如果未定义旋转，则返回 null。 |
+| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | 旋转是通过使用纬度坐标、经度坐标和围绕坐标轴的旋转来定义的。如果任何坐标值为 float.NaN，则所有旋转均未定义。 |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

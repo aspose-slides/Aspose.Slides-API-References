@@ -1,6 +1,6 @@
 ---
-title: Élément
-second_title: Référence API Aspose.Slides pour .NET
+title: Item
+second_title: Aspose.Slides pour .NET API Reference
 description: Obtient l'élément à l'index spécifié.
 type: docs
 weight: 30
@@ -23,7 +23,7 @@ L'élément à l'index spécifié.
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | *index* n'est pas un index valide dans la IList. |
+| ArgumentOutOfRangeException | *index* n'est pas un index valide dans le IList. |
 
 ### Voir Aussi
 

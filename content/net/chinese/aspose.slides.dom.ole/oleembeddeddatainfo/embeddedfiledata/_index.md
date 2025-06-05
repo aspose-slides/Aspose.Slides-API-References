@@ -1,7 +1,7 @@
 ---
-title: 嵌入文件数据
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回嵌入的 OLE 对象的文件数据，只读 Byte。
+title: EmbeddedFileData
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回嵌入OLE对象的文件数据 仅限读取的 Byte。
 type: docs
 weight: 20
 url: /zh/aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata/
 
 ## OleEmbeddedDataInfo.EmbeddedFileData 属性
 
-返回嵌入的 OLE 对象的文件数据，只读 Byte[]。
+返回嵌入OLE对象的文件数据 仅限读取的 Byte[]。
 
 ```csharp
 public byte[] EmbeddedFileData { get; }
 ```
 
-### 另见
+### 参见
 
 * class [OleEmbeddedDataInfo](../../oleembeddeddatainfo)
 * namespace [Aspose.Slides.DOM.Ole](../../oleembeddeddatainfo)

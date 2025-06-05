@@ -1,7 +1,7 @@
 ---
 title: GetSlideComments
-second_title: Aspose.Sildes для .NET API Референс
-description: Возвращает все комментарии слайдов, добавленные конкретным автором.
+second_title: Aspose.Sildes для справочника API .NET
+description: Возвращает все комментарии к слайдам, добавленные конкретным автором.
 type: docs
 weight: 90
 url: /ru/aspose.slides/islide/getslidecomments/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/islide/getslidecomments/
 
 ## ISlide.GetSlideComments метод
 
-Возвращает все комментарии слайдов, добавленные конкретным автором.
+Возвращает все комментарии к слайдам, добавленные конкретным автором.
 
 ```csharp
 public IComment[] GetSlideComments(ICommentAuthor author)
@@ -17,7 +17,7 @@ public IComment[] GetSlideComments(ICommentAuthor author)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| author | ICommentAuthor | Автор комментариев для поиска или null для возвращения всех комментариев. |
+| author | ICommentAuthor | Автор комментариев для поиска или null для возврата всех комментариев. |
 
 ### Возвращаемое значение
 

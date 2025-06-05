@@ -1,6 +1,6 @@
 ---
-title: Hauteur
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Height
+second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie la hauteur de la cellule. Lecture seule Double.
 type: docs
 weight: 90

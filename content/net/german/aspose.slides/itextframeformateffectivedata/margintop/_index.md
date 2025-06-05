@@ -1,21 +1,21 @@
 ---
 title: MarginTop
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die oberen Margenpunkte in einem TextFrame zurück. Nur-Lese Double.
+description: Gibt den oberen Rand in Punkten in einem TextFrame zurück. Nur lesbarer Double.
 type: docs
 weight: 90
 url: /de/aspose.slides/itextframeformateffectivedata/margintop/
 ---
 
-## ITextFrameFormatEffectiveData.MarginTop-Eigenschaft
+## ITextFrameFormatEffectiveData.MarginTop Eigenschaft
 
-Gibt die obere Margin (Punkte) in einem TextFrame zurück. Nur-Lese Double.
+Gibt den oberen Rand (Punkte) in einem TextFrame zurück. Nur lesbarer Double.
 
 ```csharp
 public double MarginTop { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ITextFrameFormatEffectiveData](../../itextframeformateffectivedata)
 * Namespace [Aspose.Slides](../../itextframeformateffectivedata)

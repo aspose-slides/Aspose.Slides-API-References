@@ -1,15 +1,15 @@
 ---
-title: Значение
-second_title: Справка по API Aspose.Sildes для .NET
-description: Получает или устанавливает значение ячейки. Читаемый/записываемый объект.
+title: Value
+second_title: Aspose.Slides для .NET API Справочник
+description: Получает или задает значение ячейки. Чтение/запись Объект.
 type: docs
 weight: 90
 url: /ru/aspose.slides.charts/chartdatacell/value/
 ---
 
-## Свойство ChartDataCell.Value
+## ChartDataCell.Value свойство
 
-Получает или устанавливает значение ячейки. Читаемый/записываемый объект.
+Получает или задает значение ячейки. Чтение/запись Объект.
 
 ```csharp
 public object Value { get; set; }

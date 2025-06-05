@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/ilayoutable/asichartcomponent/
 ---
+
 ## ILayoutable.AsIChartComponent property
 
 Allows to get base IChartComponent interface. Read-only [`IChartComponent`](../../ichartcomponent).

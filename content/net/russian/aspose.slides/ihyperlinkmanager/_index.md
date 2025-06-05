@@ -1,6 +1,6 @@
 ---
 title: IHyperlinkManager
-second_title: Aspose.Slides для .NET API Справка
+second_title: Aspose.Sildes для .NET API Reference
 description: Управление гиперссылками добавление и удаление.
 type: docs
 weight: 5930
@@ -19,16 +19,16 @@ public interface IHyperlinkManager
 
 | Название | Описание |
 | --- | --- |
-| [RemoveHyperlinkClick](../../aspose.slides/ihyperlinkmanager/removehyperlinkclick)() | Удаляет гиперссылку при клике. |
+| [RemoveHyperlinkClick](../../aspose.slides/ihyperlinkmanager/removehyperlinkclick)() | Удаляет гиперссылку по клику. |
 | [RemoveHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/removehyperlinkmouseover)() | Удаляет гиперссылку при наведении мыши. |
-| [SetExternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkclick)(string) | Устанавливает внешнюю гиперссылку при клике. |
+| [SetExternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkclick)(string) | Устанавливает внешнюю гиперссылку по клику. |
 | [SetExternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkmouseover)(string) | Устанавливает внешнюю гиперссылку при наведении мыши. |
-| [SetInternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Устанавливает внутреннюю гиперссылку при клике. |
+| [SetInternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Устанавливает внутреннюю гиперссылку по клику. |
 | [SetInternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | Устанавливает внутреннюю гиперссылку при наведении мыши. |
-| [SetMacroHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setmacrohyperlinkclick)(string) | Устанавливает макро-гиперссылку при клике. |
+| [SetMacroHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setmacrohyperlinkclick)(string) | Устанавливает макро гиперссылку по клику. |
 
-### Также см.
- 
+### См. также
+
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

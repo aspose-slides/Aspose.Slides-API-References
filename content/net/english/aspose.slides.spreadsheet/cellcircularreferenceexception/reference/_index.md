@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.spreadsheet/cellcircularreferenceexception/reference/
 ---
+
 ## CellCircularReferenceException.Reference property
 
 Gets a circular cell reference.

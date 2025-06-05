@@ -1,7 +1,7 @@
 ---
 title: LogoLink
 second_title: Aspose.Slides für .NET API Referenz
-description: Ruft die vollständige Hyperlink-Adresse für ein Logo ab oder setzt sie. Hat nur dann Auswirkungen, wenn ein LogoImageBytes../logoimagebytes angegeben ist.
+description: Ruft die vollständige Hyperlink-Adresse für ein Logo ab oder legt sie fest. Hat nur dann eine Wirkung, wenn LogoImageBytesaspose.slides.export/swfoptions/logoimagebytes angegeben ist.
 type: docs
 weight: 60
 url: /de/aspose.slides.export/swfoptions/logolink/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/swfoptions/logolink/
 
 ## SwfOptions.LogoLink-Eigenschaft
 
-Ruft die vollständige Hyperlink-Adresse für ein Logo ab oder setzt sie. Hat nur dann Auswirkungen, wenn ein [`LogoImageBytes`](../logoimagebytes) angegeben ist.
+Ruft die vollständige Hyperlink-Adresse für ein Logo ab oder legt sie fest. Hat nur dann eine Wirkung, wenn ein [`LogoImageBytes`](../logoimagebytes) angegeben ist.
 
 ```csharp
 public string LogoLink { get; set; }

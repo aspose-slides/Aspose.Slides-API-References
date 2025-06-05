@@ -1,7 +1,7 @@
 ---
 title: ShadowMatrixXtoX
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Représente la propriété shadow.matrix.xtox
+second_title: Aspose.Slides pour .NET Référence API
+description: Représente la propriété 'shadow.matrix.xtox'
 type: docs
 weight: 640
 url: /fr/aspose.slides.animation/behaviorproperty/shadowmatrixxtox/

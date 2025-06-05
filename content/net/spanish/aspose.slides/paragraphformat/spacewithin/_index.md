@@ -1,6 +1,6 @@
 ---
 title: SpaceWithin
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Devuelve o establece la cantidad de espacio entre líneas base en un párrafo. Un valor positivo significa porcentaje, negativo - tamaño en puntos. No se aplica herencia. Lectura/escritura Simple.
 type: docs
 weight: 140
@@ -15,7 +15,7 @@ Devuelve o establece la cantidad de espacio entre líneas base en un párrafo. U
 public float SpaceWithin { get; set; }
 ```
 
-### Consulta También
+### Ver También
 
 * clase [ParagraphFormat](../../paragraphformat)
 * espacio de nombres [Aspose.Slides](../../paragraphformat)

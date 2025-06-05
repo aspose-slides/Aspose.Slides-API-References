@@ -1,15 +1,15 @@
 ---
 title: IsNumberFormatLinkedToSource
-second_title: Aspose.Sildes pour .NET Référence API
-description: Indique si le format est lié aux données source. Lecture/écriture Booléen.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Indique si le format est lié aux données source. Booléen en lecture/écriture.
 type: docs
 weight: 270
 url: /fr/aspose.slides.charts/iaxis/isnumberformatlinkedtosource/
 ---
 
-## Propriété IAxis.IsNumberFormatLinkedToSource
+## IAxis.IsNumberFormatLinkedToSource propriété
 
-Indique si le format est lié aux données source. Lecture/écriture Booléen.
+Indique si le format est lié aux données source. Booléen en lecture/écriture.
 
 ```csharp
 public bool IsNumberFormatLinkedToSource { get; set; }

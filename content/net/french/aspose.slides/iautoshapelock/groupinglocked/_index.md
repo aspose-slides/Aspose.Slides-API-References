@@ -15,7 +15,7 @@ Détermine si l'ajout de cette forme à un groupe est interdit. Booléen en lect
 public bool GroupingLocked { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IAutoShapeLock](../../iautoshapelock)
 * namespace [Aspose.Slides](../../iautoshapelock)

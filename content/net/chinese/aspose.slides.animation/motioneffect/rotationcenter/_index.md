@@ -1,21 +1,21 @@
 ---
-title: 旋转中心
-second_title: Aspose.Slides for .NET API 参考
-description: 描述用于按 X 角度旋转运动路径的旋转中心。可读写 PointF。
+title: RotationCenter
+second_title: Aspose.Sildes for .NET API Reference
+description: 描述用于按照 X 角度旋转运动路径的旋转中心。可读写 PointF。
 type: docs
 weight: 80
 url: /zh/aspose.slides.animation/motioneffect/rotationcenter/
 ---
 
-## MotionEffect.RotationCenter 属性
+## MotionEffect.RotationCenter property
 
-描述用于按 X 角度旋转运动路径的旋转中心。可读写 PointF。
+描述用于按照 X 角度旋转运动路径的旋转中心。可读写 PointF。
 
 ```csharp
 public PointF RotationCenter { get; set; }
 ```
 
-### 另见
+### See Also
 
 * class [MotionEffect](../../motioneffect)
 * namespace [Aspose.Slides.Animation](../../motioneffect)

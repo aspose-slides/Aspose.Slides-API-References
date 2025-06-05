@@ -1,7 +1,7 @@
 ---
 title: AddTextPlaceholder
-second_title: Aspose.Slides для .NET API Справочник
-description: Добавляет новую фигуру-заполнитель на макетный слайд для содержания текста.
+second_title: Aspose.Slides для .NET API Справка
+description: Добавляет новую форму-заместитель на слайд макета для хранения текстового содержимого.
 type: docs
 weight: 80
 url: /ru/aspose.slides/ilayoutplaceholdermanager/addtextplaceholder/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ilayoutplaceholdermanager/addtextplaceholder/
 
 ## ILayoutPlaceholderManager.AddTextPlaceholder метод
 
-Добавляет новую фигуру-заполнитель на макетный слайд для содержания текста.
+Добавляет новую форму-заместитель на слайд макета для хранения текстового содержимого.
 
 ```csharp
 public IAutoShape AddTextPlaceholder(float x, float y, float width, float height)
@@ -17,18 +17,18 @@ public IAutoShape AddTextPlaceholder(float x, float y, float width, float height
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | Координата X новой фигуры-заместителя. |
-| y | Single | Координата Y новой фигуры-заместителя. |
-| width | Single | Ширина новой фигуры-заместителя. |
-| height | Single | Высота новой фигуры-заместителя. |
+| x | Single | X-координата новой формы-заместителя. |
+| y | Single | Y-координата новой формы-заместителя. |
+| width | Single | Ширина новой формы-заместителя. |
+| height | Single | Высота новой формы-заместителя. |
 
 ### Возвращаемое значение
 
-Созданный [`IAutoShape`](../../iautoshape) с текстовым заполнителем.
+Созданный [`IAutoShape`](../../iautoshape) с текстовым формой-заместителем.
 
 ### Примеры
 
-Следующий пример показывает, как добавить фигуру-заполнитель текста на макетный слайд.
+Следующий пример показывает, как добавить форму-заместитель текста на слайд макета.
 
 ```csharp
 [C#]

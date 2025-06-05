@@ -1,6 +1,6 @@
 ---
 title: op_Equality
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Verifica si dos objetos FieldType son iguales.
 type: docs
 weight: 220

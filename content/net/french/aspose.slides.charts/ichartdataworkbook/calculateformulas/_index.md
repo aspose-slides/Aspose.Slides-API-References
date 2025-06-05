@@ -1,13 +1,13 @@
 ---
-title: CalculerFormules
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: CalculateFormulas
+second_title: Aspose.Sildes pour .NET Référence API
 description: Calcule toutes les formules dans le classeur et met à jour les valeurs des cellules correspondantes.
 type: docs
 weight: 20
 url: /fr/aspose.slides.charts/ichartdataworkbook/calculateformulas/
 ---
 
-## Méthode IChartDataWorkbook.CalculateFormulas
+## IChartDataWorkbook.CalculateFormulas méthode
 
 Calcule toutes les formules dans le classeur et met à jour les valeurs des cellules correspondantes.
 
@@ -24,7 +24,7 @@ public void CalculateFormulas()
 
 ### Exemples
 
-L'exemple montre comment attribuer une formule à la cellule et calculer une valeur. La valeur de la cellule "B4" est définie sur 5.
+L'exemple montre comment attribuer une formule à la cellule et calculer une valeur. La valeur de la cellule "B4" est fixée à 5.
 
 ```csharp
 [C#]

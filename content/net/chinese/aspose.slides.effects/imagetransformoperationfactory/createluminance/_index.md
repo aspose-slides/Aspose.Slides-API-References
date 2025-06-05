@@ -1,7 +1,7 @@
 ---
 title: CreateLuminance
-second_title: Aspose.Slides for .NET API Reference
-description: 创建 Luminance 效果。
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建亮度效果。
 type: docs
 weight: 170
 url: /zh/aspose.slides.effects/imagetransformoperationfactory/createluminance/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/imagetransformoperationfactory/createluminance/
 
 ## ImageTransformOperationFactory.CreateLuminance 方法
 
-创建 Luminance 效果。
+创建亮度效果。
 
 ```csharp
 public ILuminance CreateLuminance(float brightness, float contrast)
@@ -22,7 +22,7 @@ public ILuminance CreateLuminance(float brightness, float contrast)
 
 ### 返回值
 
-Luminance 效果。
+亮度效果。
 
 ### 另请参阅
 

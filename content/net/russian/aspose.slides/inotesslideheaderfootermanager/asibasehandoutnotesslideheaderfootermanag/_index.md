@@ -1,6 +1,6 @@
 ---
 title: AsIBaseHandoutNotesSlideHeaderFooterManag
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает интерфейс IBaseHandoutNotesSlideHeaderFooterManag.
 type: docs
 weight: 10
@@ -19,8 +19,8 @@ public IBaseHandoutNotesSlideHeaderFooterManag AsIBaseHandoutNotesSlideHeaderFoo
 
 Для совместимости с COM.
 
-### См. также
-
+### Также см.
+ 
 * интерфейс [IBaseHandoutNotesSlideHeaderFooterManag](../../ibasehandoutnotesslideheaderfootermanag)
 * интерфейс [INotesSlideHeaderFooterManager](../../inotesslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../inotesslideheaderfootermanager)

@@ -6,6 +6,7 @@ type: docs
 weight: 260
 url: /aspose.slides/ibaseportionformateffectivedata/underlinefillformat/
 ---
+
 ## IBasePortionFormatEffectiveData.UnderlineFillFormat property
 
 Returns the underline line FillFormat properties. Read-only [`IFillFormatEffectiveData`](../../ifillformateffectivedata).

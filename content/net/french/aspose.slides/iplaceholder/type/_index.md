@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Référence API Aspose.Slides pour .NET
-description: Obtient le type d'un espace réservé. Lecture seule PlaceholderType aspose.slides/placeholdertype.
+description: Obtient le type d'un espace réservé. Lecture seule PlaceholderTypeaspose.slides/placeholdertype.
 type: docs
 weight: 40
 url: /fr/aspose.slides/iplaceholder/type/

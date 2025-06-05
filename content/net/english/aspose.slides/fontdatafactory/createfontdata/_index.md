@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/fontdatafactory/createfontdata/
 ---
+
 ## FontDataFactory.CreateFontData method
 
 Creates FontData with specified font name.

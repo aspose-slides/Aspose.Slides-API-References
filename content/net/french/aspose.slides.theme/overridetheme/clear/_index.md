@@ -1,7 +1,7 @@
 ---
-title: Effacer
+title: Clear
 second_title: Référence API Aspose.Slides pour .NET
-description: Définir ColorScheme, FontScheme, FormatScheme sur null pour désactiver tout remplacement avec cet objet de thème.
+description: Définissez ColorScheme, FontScheme, FormatScheme sur null pour désactiver toute substitution avec cet objet de thème.
 type: docs
 weight: 50
 url: /fr/aspose.slides.theme/overridetheme/clear/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.theme/overridetheme/clear/
 
 ## Méthode OverrideTheme.Clear
 
-Définir ColorScheme, FontScheme, FormatScheme sur null pour désactiver tout remplacement avec cet objet de thème.
+Définissez ColorScheme, FontScheme, FormatScheme sur null pour désactiver toute substitution avec cet objet de thème.
 
 ```csharp
 public void Clear()
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [OverrideTheme](../../overridetheme)
 * espace de noms [Aspose.Slides.Theme](../../overridetheme)

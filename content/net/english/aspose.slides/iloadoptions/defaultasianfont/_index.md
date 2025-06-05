@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/iloadoptions/defaultasianfont/
 ---
+
 ## ILoadOptions.DefaultAsianFont property
 
 Returns or sets Asian font used in case source font is not found. Read-write String.

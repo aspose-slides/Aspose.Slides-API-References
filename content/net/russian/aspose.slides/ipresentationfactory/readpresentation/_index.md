@@ -1,6 +1,6 @@
 ---
 title: ReadPresentation
-second_title: Aspose.Slides для справки по API .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Читает существующую презентацию из массива
 type: docs
 weight: 40

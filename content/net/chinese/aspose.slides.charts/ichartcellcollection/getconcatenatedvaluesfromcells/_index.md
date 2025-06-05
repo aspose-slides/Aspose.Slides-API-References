@@ -1,7 +1,7 @@
 ---
-title: 从单元格获取连接值
-second_title: Aspose.Sildes for .NET API 参考
-description: 从所有单元格字符串值中连接字符串。
+title: GetConcatenatedValuesFromCells
+second_title: Aspose.Sldes for .NET API Reference
+description: 从所有单元格字符串值中串联字符串。
 type: docs
 weight: 60
 url: /zh/aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcell
 
 ## IChartCellCollection.GetConcatenatedValuesFromCells 方法
 
-从所有单元格字符串值中连接字符串。
+从所有单元格字符串值中串联字符串。
 
 ```csharp
 public string GetConcatenatedValuesFromCells()
@@ -19,7 +19,7 @@ public string GetConcatenatedValuesFromCells()
 
 结果字符串 String
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IChartCellCollection](../../ichartcellcollection)
 * 命名空间 [Aspose.Slides.Charts](../../ichartcellcollection)

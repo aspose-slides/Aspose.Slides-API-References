@@ -1,7 +1,7 @@
 ---
 title: EffectStyle
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt einen Effektstil dar.
+second_title: Aspose.Slides für .NET API Referenz
+description: Repräsentiert einen Effektstil.
 type: docs
 weight: 10770
 url: /de/aspose.slides.theme/effectstyle/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/effectstyle/
 
 ## EffectStyle-Klasse
 
-Stellt einen Effektstil dar.
+Repräsentiert einen Effektstil.
 
 ```csharp
 public class EffectStyle : DomObject<EffectStyleCollection>, IEffectStyle

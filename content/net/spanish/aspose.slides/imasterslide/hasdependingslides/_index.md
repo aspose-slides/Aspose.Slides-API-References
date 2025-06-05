@@ -1,13 +1,13 @@
 ---
 title: HasDependingSlides
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve verdadero si existe al menos una diapositiva que depende de esta diapositiva maestra. Booleano de solo lectura.
 type: docs
 weight: 40
 url: /es/aspose.slides/imasterslide/hasdependingslides/
 ---
 
-## Propiedad IMasterSlide.HasDependingSlides
+## IMasterSlide.HasDependingSlides property
 
 Devuelve verdadero si existe al menos una diapositiva que depende de esta diapositiva maestra. Booleano de solo lectura.
 

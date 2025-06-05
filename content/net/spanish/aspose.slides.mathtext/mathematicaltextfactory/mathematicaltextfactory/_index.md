@@ -1,6 +1,6 @@
 ---
 title: MathematicalTextFactory
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de API Aspose.Slides para .NET
 description: El constructor predeterminado.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ El constructor predeterminado.
 public MathematicalTextFactory()
 ```
 
-### Véase También
+### Véase también
 
 * clase [MathematicalTextFactory](../../mathematicaltextfactory)
 * espacio de nombres [Aspose.Slides.MathText](../../mathematicaltextfactory)

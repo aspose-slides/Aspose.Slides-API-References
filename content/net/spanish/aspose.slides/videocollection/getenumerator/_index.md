@@ -1,6 +1,6 @@
 ---
 title: GetEnumerator
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de la API
 description: Devuelve un enumerador que itera a través de la colección.
 type: docs
 weight: 70
@@ -17,7 +17,7 @@ public IEnumerator<IVideo> GetEnumerator()
 
 ### Valor de Retorno
 
-Un IEnumerator que se puede utilizar para iterar a través de la colección.
+Un IEnumerator que se puede usar para iterar a través de la colección.
 
 ### Véase También
 

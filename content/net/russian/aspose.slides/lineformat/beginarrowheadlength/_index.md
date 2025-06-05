@@ -1,13 +1,13 @@
 ---
 title: BeginArrowheadLength
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает или устанавливает длину стрелки в начале линии. Чтение/запись LineArrowheadLengthaspose.slides/linearrowheadlength.
 type: docs
 weight: 20
 url: /ru/aspose.slides/lineformat/beginarrowheadlength/
 ---
 
-## Свойство LineFormat.BeginArrowheadLength
+## LineFormat.BeginArrowheadLength свойство
 
 Возвращает или устанавливает длину стрелки в начале линии. Чтение/запись [`LineArrowheadLength`](../../linearrowheadlength).
 

@@ -1,13 +1,13 @@
 ---
-title: Категории
-second_title: Справочник по API Aspose.Slides для .NET
+title: Categories
+second_title: Aspose.Slides для .NET API Справочник
 description: Получает основные категории или как основные, так и вторичные категории, если свойство UseSecondaryCategoriesaspose.slides.charts/chartdata/usesecondarycategories равно false. Только для чтения IChartCategoryCollectionaspose.slides.charts/ichartcategorycollection.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/chartdata/categories/
 ---
 
-## Свойство ChartData.Categories
+## ChartData.Categories свойство
 
 Получает основные категории (или как основные, так и вторичные категории, если свойство [`UseSecondaryCategories`](../usesecondarycategories) равно false). Только для чтения [`IChartCategoryCollection`](../../ichartcategorycollection).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/chartdata/categories/
 public IChartCategoryCollection Categories { get; }
 ```
 
-### Заметки
+### Примечания
 
 Если свойство [`UseSecondaryCategories`](../usesecondarycategories) равно false, то свойство [`SecondaryCategories`](../secondarycategories) возвращает null, и данные в этом свойстве `Categories` используются как для основных, так и для вторичных серий. Если свойство [`UseSecondaryCategories`](../usesecondarycategories) равно true, то данные в свойстве [`SecondaryCategories`](../secondarycategories) используются для вторичных серий, а данные в этом свойстве `Categories` используются для основных серий.
 
@@ -26,15 +26,15 @@ public IChartCategoryCollection Categories { get; }
 ```csharp
 if (series.PlotOnSecondAxis && series.Chart.ChartData.UseSecondaryCategories)
 {
-    // связанные категории - series.Chart.ChartData.SecondaryCategories
+    // связанные категории это series.Chart.ChartData.SecondaryCategories
 }
 else
 {
-    // связанные категории - series.Chart.ChartData.Categories
+    // связанные категории это series.Chart.ChartData.Categories
 }
 ```
 
-### Также см.
+### См. также
 
 * интерфейс [IChartCategoryCollection](../../ichartcategorycollection)
 * класс [ChartData](../../chartdata)

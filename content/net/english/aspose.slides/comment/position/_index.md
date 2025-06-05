@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/comment/position/
 ---
+
 ## Comment.Position property
 
 Returns or sets the position of a comment on a slide. Read/write PointF.

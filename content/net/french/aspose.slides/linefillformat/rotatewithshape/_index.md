@@ -1,21 +1,21 @@
 ---
 title: RotateWithShape
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si le remplissage doit être rotaté avec une forme. Lecture/écriture NullableBoolaspose.slides/nullablebool.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Détermine si le remplissage doit être tourné avec une forme. Lecture/écriture NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 40
 url: /fr/aspose.slides/linefillformat/rotatewithshape/
 ---
 
-## Propriété LineFillFormat.RotateWithShape
+## LineFillFormat.RotateWithShape propriété
 
-Détermine si le remplissage doit être rotaté avec une forme. Lecture/écriture [`NullableBool`](../../nullablebool).
+Détermine si le remplissage doit être tourné avec une forme. Lecture/écriture [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool RotateWithShape { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [NullableBool](../../nullablebool)
 * class [LineFillFormat](../../linefillformat)

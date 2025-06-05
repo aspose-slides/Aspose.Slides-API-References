@@ -1,15 +1,15 @@
 ---
 title: AsIThemeable
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie l'interface IThemeable. Lecture seule IThemeable aspose.slides.theme/ithemeable.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie l'interface IThemeable. IThemeable aspose.slides.theme/ithemeable en lecture seule.
 type: docs
 weight: 10
 url: /fr/aspose.slides.theme/ioverridethemeable/asithemeable/
 ---
 
-## Propriété IOverrideThemeable.AsIThemeable
+## IOverrideThemeable.AsIThemeable propriété
 
-Renvoie l'interface IThemeable. Lecture seule [`IThemeable`](../../ithemeable).
+Renvoie l'interface IThemeable. [`IThemeable`](../../ithemeable) en lecture seule.
 
 ```csharp
 public IThemeable AsIThemeable { get; }
@@ -17,7 +17,7 @@ public IThemeable AsIThemeable { get; }
 
 ### Remarques
 
-Pour la compatibilité COM.
+Pour la compatibilité avec COM.
 
 ### Voir aussi
 

@@ -1,15 +1,15 @@
 ---
 title: ContentType
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает MIME-тип изображения, закодированного в BinaryDataaspose.slides/ippimage/binarydata. Свойство доступно только для чтения типа String.
+second_title: Справочник API Aspose.Slides для .NET
+description: Возвращает MIME тип изображения, закодированного в BinaryDataaspose.slides/ippimage/binarydata. Свойство только для чтения строкового типа.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ippimage/contenttype/
 ---
 
-## Свойство IPPImage.ContentType
+## IPPImage.ContentType свойство
 
-Возвращает MIME-тип изображения, закодированного в [`BinaryData`](../binarydata). Свойство доступно только для чтения типа String.
+Возвращает MIME тип изображения, закодированного в [`BinaryData`](../binarydata). Свойство только для чтения строкового типа.
 
 ```csharp
 public string ContentType { get; }

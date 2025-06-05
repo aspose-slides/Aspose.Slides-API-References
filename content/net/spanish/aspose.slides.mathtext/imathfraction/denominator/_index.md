@@ -1,7 +1,7 @@
 ---
-title: Denominador
-second_title: Referencia de la API de Aspose.Sildes para .NET
-description: Denominador
+title: Denominator
+second_title: Referencia de la API Aspose.Slides para .NET
+description: Denominator
 type: docs
 weight: 20
 url: /es/aspose.slides.mathtext/imathfraction/denominator/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.mathtext/imathfraction/denominator/
 
 ## Propiedad IMathFraction.Denominator
 
-Denominador
+Denominator
 
 ```csharp
 public IMathElement Denominator { get; }

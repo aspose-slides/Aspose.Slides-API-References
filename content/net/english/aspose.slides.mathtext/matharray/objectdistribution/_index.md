@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.mathtext/matharray/objectdistribution/
 ---
+
 ## MathArray.ObjectDistribution property
 
 Object Distribution When true, the contents of the array are spaced to the maximum width of the array object.

@@ -1,7 +1,7 @@
 ---
 title: SmartTagClean
-second_title: Référence API Aspose.Slides pour .NET
-description: Détermine si le tag intelligent doit être nettoyé. Aucune héritage appliqué. Booléen en lecture/écriture.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Détermine si le tag intelligent doit être nettoyé. Pas d'héritage appliqué. Booléen en lecture/écriture.
 type: docs
 weight: 60
 url: /fr/aspose.slides/portionformat/smarttagclean/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/portionformat/smarttagclean/
 
 ## Propriété PortionFormat.SmartTagClean
 
-Détermine si le tag intelligent doit être nettoyé. Aucune héritage appliqué. Booléen en lecture/écriture.
+Détermine si le tag intelligent doit être nettoyé. Pas d'héritage appliqué. Booléen en lecture/écriture.
 
 ```csharp
 public bool SmartTagClean { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: RecoverWorkbookFromChartCache
 second_title: Aspose.Sildes für .NET API Referenz
-description: Wenn die Datenquelle für das Diagramm eine externe Arbeitsmappe ist und diese nicht verfügbar ist, wird sie aus dem Diagramm-Cache wiederhergestellt.
+description: Wenn die Datenquelle für das Diagramm eine externe Arbeitsmappe ist und nicht verfügbar ist, wird sie aus dem Diagramm-Cache wiederhergestellt.
 type: docs
 weight: 30
 url: /de/aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache/
 
 ## SpreadsheetOptions.RecoverWorkbookFromChartCache-Eigenschaft
 
-Wenn die Datenquelle für das Diagramm eine externe Arbeitsmappe ist und sie nicht verfügbar ist, wird sie aus dem Diagramm-Cache wiederhergestellt.
+Wenn die Datenquelle für das Diagramm eine externe Arbeitsmappe ist und nicht verfügbar ist, wird sie aus dem Diagramm-Cache wiederhergestellt.
 
 ```csharp
 public bool RecoverWorkbookFromChartCache { get; set; }
@@ -42,7 +42,7 @@ using (Presentation pres = new Presentation("Presentation.pptx", loadOptions))
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [SpreadsheetOptions](../../spreadsheetoptions)
 * Namespace [Aspose.Slides](../../spreadsheetoptions)

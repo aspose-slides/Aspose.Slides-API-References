@@ -1,5 +1,5 @@
 ---
-title: Élément
+title: Item
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie la feuille de calcul par index.
 type: docs
@@ -7,7 +7,7 @@ weight: 10
 url: /fr/aspose.slides.charts/ichartdataworksheetcollection/item/
 ---
 
-## Indice IChartDataWorksheetCollection
+## IChartDataWorksheetCollection indexer
 
 Renvoie la feuille de calcul par index.
 
@@ -19,11 +19,11 @@ public IChartDataWorksheet this[int index] { get; }
 | --- | --- |
 | index | Index de la feuille de calcul dans la collection. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Instance de IChartDataWorksheet.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IChartDataWorksheet](../../ichartdataworksheet)
 * interface [IChartDataWorksheetCollection](../../ichartdataworksheetcollection)

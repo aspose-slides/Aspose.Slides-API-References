@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.slideshow/leftrightdirectiontransition/direction/
 ---
+
 ## LeftRightDirectionTransition.Direction property
 
 Direction of transition. Read/write [`TransitionLeftRightDirectionType`](../../transitionleftrightdirectiontype).

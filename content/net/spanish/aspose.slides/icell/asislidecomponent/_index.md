@@ -7,7 +7,7 @@ weight: 20
 url: /es/aspose.slides/icell/asislidecomponent/
 ---
 
-## Propiedad ICell.AsISlideComponent
+## ICell.AsISlideComponent propiedad
 
 Permite obtener la interfaz base ISlideComponent. Solo lectura [`ISlideComponent`](../../islidecomponent).
 
@@ -15,7 +15,7 @@ Permite obtener la interfaz base ISlideComponent. Solo lectura [`ISlideComponent
 public ISlideComponent AsISlideComponent { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [ISlideComponent](../../islidecomponent)
 * interfaz [ICell](../../icell)

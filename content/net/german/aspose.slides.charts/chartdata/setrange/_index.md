@@ -1,15 +1,15 @@
 ---
 title: SetRange
-second_title: Aspose.Slides für .NET API Referenz
-description: Setzen des Datenbereichs für Diagramme. Serien und Kategorien werden basierend auf dem neuen Datenbereich aktualisiert. Wenn die Anzahl der Serien im Datenbereich größer ist als die Anzahl der Serien im Diagramm, werden zusätzliche Serien mit dem gleichen Typ wie die letzte Serie in der aktuellen Sammlung am Ende der Sammlung hinzugefügt.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Setzen Sie den Datenbereich des Diagramms. Serien und Kategorien werden basierend auf dem neuen Datenbereich aktualisiert. Wenn die Anzahl der Serien im Datenbereich größer ist als die Anzahl der Serien im Diagramm, werden zusätzliche Serien vom gleichen Typ wie die letzte Serie in der aktuellen Sammlung am Ende der Sammlung hinzugefügt.
 type: docs
 weight: 120
 url: /de/aspose.slides.charts/chartdata/setrange/
 ---
 
-## ChartData.SetRange Methode
+## ChartData.SetRange-Methode
 
-Setzen des Datenbereichs für Diagramme. Serien und Kategorien werden basierend auf dem neuen Datenbereich aktualisiert. Wenn die Anzahl der Serien im Datenbereich größer ist als die Anzahl der Serien im Diagramm, werden zusätzliche Serien mit dem gleichen Typ wie die letzte Serie in der aktuellen Sammlung am Ende der Sammlung hinzugefügt.
+Setzen Sie den Datenbereich des Diagramms. Serien und Kategorien werden basierend auf dem neuen Datenbereich aktualisiert. Wenn die Anzahl der Serien im Datenbereich größer ist als die Anzahl der Serien im Diagramm, werden zusätzliche Serien vom gleichen Typ wie die letzte Serie in der aktuellen Sammlung am Ende der Sammlung hinzugefügt.
 
 ```csharp
 public void SetRange(string formula)
@@ -17,7 +17,7 @@ public void SetRange(string formula)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| formula | String | Die Formel für den Zellen-Datenbereich. Z.B: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
+| formula | String | Die Zellen-Datenbereichsformel. Z.B.: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
 
 ### Ausnahmen
 

@@ -1,7 +1,7 @@
 ---
 title: MarginRight
-second_title: Aspose.Slildes for .NET API Reference
-description: 返回或设置 TextFrame 中的右边距。可读/可写 Double。
+second_title: Aspose.Slides for .NET API 参考
+description: 返回或设置 TextFrame 的右边距。可读可写 Double。
 type: docs
 weight: 120
 url: /zh/aspose.slides/cell/marginright/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/cell/marginright/
 
 ## Cell.MarginRight 属性
 
-返回或设置 TextFrame 中的右边距。可读/可写 Double。
+返回或设置 TextFrame 的右边距。可读可写 Double。
 
 ```csharp
 public double MarginRight { get; set; }

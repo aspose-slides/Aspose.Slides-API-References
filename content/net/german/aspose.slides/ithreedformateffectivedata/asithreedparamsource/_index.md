@@ -1,7 +1,7 @@
 ---
 title: AsIThreeDParamSource
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht das Abrufen der Basis-IThreeDParamSource-Schnittstelle. Schreibgeschützte IThreeDParamSourceaspose.slides/ithreedparamsource.
+description: Ermöglicht das Abrufen der Basis-IThreeDParamSource-Schnittstelle. Nur-lesbare IThreeDParamSourceaspose.slides/ithreedparamsource.
 type: docs
 weight: 10
 url: /de/aspose.slides/ithreedformateffectivedata/asithreedparamsource/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ithreedformateffectivedata/asithreedparamsource/
 
 ## IThreeDFormatEffectiveData.AsIThreeDParamSource-Eigenschaft
 
-Ermöglicht das Abrufen der Basis-IThreeDParamSource-Schnittstelle. Schreibgeschützte [`IThreeDParamSource`](../../ithreedparamsource).
+Ermöglicht das Abrufen der Basis-IThreeDParamSource-Schnittstelle. Nur-lesbare [`IThreeDParamSource`](../../ithreedparamsource).
 
 ```csharp
 public IThreeDParamSource AsIThreeDParamSource { get; }

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/ichart/asigraphicalobject/
 ---
+
 ## IChart.AsIGraphicalObject property
 
 Allows to get base IGraphicalObject interface. Read-only [`IGraphicalObject`](../../../aspose.slides/igraphicalobject).

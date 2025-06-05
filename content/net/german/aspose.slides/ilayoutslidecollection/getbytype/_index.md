@@ -1,15 +1,15 @@
 ---
 title: GetByType
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die erste Layout-Folie des angegebenen Typs zurück.
+description: Gibt die erste Folienlayout des angegebenen Typs zurück.
 type: docs
 weight: 20
 url: /de/aspose.slides/ilayoutslidecollection/getbytype/
 ---
 
-## ILayoutSlideCollection.GetByType-Methode
+## ILayoutSlideCollection.GetByType Methode
 
-Gibt die erste Layout-Folie des angegebenen Typs zurück.
+Gibt die erste Folienlayout des angegebenen Typs zurück.
 
 ```csharp
 public ILayoutSlide GetByType(SlideLayoutType type)
@@ -17,7 +17,7 @@ public ILayoutSlide GetByType(SlideLayoutType type)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| type | SlideLayoutType | Ein Typ von Layout-Folie, der gefunden werden soll. |
+| type | SlideLayoutType | Ein Typ von Folienlayout, das gefunden werden soll. |
 
 ### Rückgabewert
 

@@ -1,7 +1,7 @@
 ---
 title: InsertChart
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Crea un nuevo gráfico, lo inicializa con datos de serie de muestra y configuraciones, e inserta en la posición especificada en la colección.
+second_title: Referencia de la API de Aspose.Sildes para .NET
+description: Crea un nuevo gráfico, lo inicializa con datos y configuraciones de muestra y lo inserta en la posición especificada en la colección.
 type: docs
 weight: 260
 url: /es/aspose.slides/ishapecollection/insertchart/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/ishapecollection/insertchart/
 
 ## InsertChart(ChartType, float, float, float, float, int) {#insertchart}
 
-Crea un nuevo gráfico, lo inicializa con datos de serie de muestra y configuraciones, e inserta en la posición especificada en la colección.
+Crea un nuevo gráfico, lo inicializa con datos y configuraciones de muestra y lo inserta en la posición especificada en la colección.
 
 ```csharp
 public IChart InsertChart(ChartType type, float x, float y, float width, float height, int index)
@@ -18,21 +18,21 @@ public IChart InsertChart(ChartType type, float x, float y, float width, float h
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | type | ChartType | Tipo de gráfico. |
-| x | Single | Coordenada X del nuevo gráfico. |
-| y | Single | Coordenada Y del nuevo gráfico. |
+| x | Single | Coordenada X de un nuevo gráfico. |
+| y | Single | Coordenada Y de un nuevo gráfico. |
 | width | Single | Ancho del gráfico. |
 | height | Single | Altura del gráfico. |
 | index | Int32 | Posición del gráfico en la colección. |
 
-### Valor de Retorno
+### Valor de retorno
 
 Gráfico creado.
 
-### Véase También
+### Ver también
 
-* interfaz [IChart](../../../aspose.slides.charts/ichart)
+* interface [IChart](../../../aspose.slides.charts/ichart)
 * enum [ChartType](../../../aspose.slides.charts/charttype)
-* interfaz [IShapeCollection](../../ishapecollection)
+* interface [IShapeCollection](../../ishapecollection)
 * namespace [Aspose.Slides](../../ishapecollection)
 * assembly [Aspose.Slides](../../../)
 
@@ -40,7 +40,7 @@ Gráfico creado.
 
 ## InsertChart(ChartType, float, float, float, float, int, bool) {#insertchart_1}
 
-Crea un nuevo gráfico e inserta en la posición especificada en la colección.
+Crea un nuevo gráfico y lo inserta en la posición especificada en la colección.
 
 ```csharp
 public IChart InsertChart(ChartType type, float x, float y, float width, float height, int index, 
@@ -50,22 +50,22 @@ public IChart InsertChart(ChartType type, float x, float y, float width, float h
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | type | ChartType | Tipo de gráfico. |
-| x | Single | Coordenada X del nuevo gráfico. |
-| y | Single | Coordenada Y del nuevo gráfico. |
+| x | Single | Coordenada X de un nuevo gráfico. |
+| y | Single | Coordenada Y de un nuevo gráfico. |
 | width | Single | Ancho del gráfico. |
 | height | Single | Altura del gráfico. |
 | index | Int32 | Posición del gráfico en la colección. |
-| initWithSample | Boolean | Si es verdadero, el nuevo gráfico se inicializará con datos de serie de muestra y configuraciones. Si es falso, el nuevo gráfico no tendrá series y tendrá configuraciones mínimas. En este caso, la creación del gráfico será más rápida. |
+| initWithSample | Boolean | Si es verdadero, el nuevo gráfico se inicializará con datos de series de muestra y configuraciones. Si es falso, el nuevo gráfico no tendrá series y tendrá configuraciones mínimas. En este caso, la creación del gráfico será más rápida. |
 
-### Valor de Retorno
+### Valor de retorno
 
 Gráfico creado.
 
-### Véase También
+### Ver también
 
-* interfaz [IChart](../../../aspose.slides.charts/ichart)
+* interface [IChart](../../../aspose.slides.charts/ichart)
 * enum [ChartType](../../../aspose.slides.charts/charttype)
-* interfaz [IShapeCollection](../../ishapecollection)
+* interface [IShapeCollection](../../ishapecollection)
 * namespace [Aspose.Slides](../../ishapecollection)
 * assembly [Aspose.Slides](../../../)
 

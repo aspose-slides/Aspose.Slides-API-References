@@ -1,7 +1,7 @@
 ---
 title: EffectStyleIndex
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve o establece el índice de la columna de efectos de las formas en una matriz de estilo. Lectura/escritura UInt32.
+second_title: Aspose.Slides para .NET API Reference
+description: Devuelve o establece el índice de columna de efecto de las formas en una matriz de estilo. Lectura/escritura UInt32.
 type: docs
 weight: 20
 url: /es/aspose.slides/shapestyle/effectstyleindex/
@@ -9,16 +9,16 @@ url: /es/aspose.slides/shapestyle/effectstyleindex/
 
 ## Propiedad ShapeStyle.EffectStyleIndex
 
-Devuelve o establece el índice de la columna de efectos de la forma en una matriz de estilo. Lectura/escritura UInt32.
+Devuelve o establece el índice de columna de efecto de la forma en una matriz de estilo. Lectura/escritura UInt32.
 
 ```csharp
 public uint EffectStyleIndex { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [ShapeStyle](../../shapestyle)
 * espacio de nombres [Aspose.Slides](../../shapestyle)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITE: generado por xmldocmd para Aspose.Slides.dll -->

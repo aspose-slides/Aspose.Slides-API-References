@@ -1,7 +1,7 @@
 ---
 title: UpVector
-second_title: Aspose.Slides for .NET API Reference
-description: 返回或设置表示向上的向量。更准确地说，此属性定义了一个表示相对于背景平面面部的向上的向量。该向量由一个包含3个浮点值的数组表示，这些值定义了X、Y和Z坐标。可读/写的单一数组。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置表示向上的向量。更具体地说，属性定义了一个相对于背景平面面朝上的向量。向量由一个包含3个浮点值的数组表示，分别定义X、Y和Z坐标。可读可写的单一数组。
 type: docs
 weight: 30
 url: /zh/aspose.slides/ibackdrop3dscene/upvector/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ibackdrop3dscene/upvector/
 
 ## IBackdrop3DScene.UpVector 属性
 
-返回或设置表示向上的向量。更准确地说，此属性定义了一个表示相对于背景平面面部的向上的向量。该向量由一个包含3个浮点值的数组表示，这些值定义了X、Y和Z坐标。可读/写的 Single[].
+返回或设置表示向上的向量。更具体地说，该属性定义了一个相对于背景平面面朝上的向量。向量由一个包含3个浮点值的数组表示，分别定义X、Y和Z坐标。可读可写的 Single[].
 
 ```csharp
 public float[] UpVector { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IBackdrop3DScene](../../ibackdrop3dscene)
 * 命名空间 [Aspose.Slides](../../ibackdrop3dscene)

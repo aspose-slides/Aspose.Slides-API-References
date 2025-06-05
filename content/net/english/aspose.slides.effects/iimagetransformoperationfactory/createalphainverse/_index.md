@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.effects/iimagetransformoperationfactory/createalphainverse/
 ---
+
 ## IImageTransformOperationFactory.CreateAlphaInverse method
 
 Creates Alpha inverse effect.

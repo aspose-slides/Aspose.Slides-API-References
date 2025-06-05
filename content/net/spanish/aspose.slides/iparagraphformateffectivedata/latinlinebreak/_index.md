@@ -1,15 +1,15 @@
 ---
 title: LatinLineBreak
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Determina si se utiliza el corte de línea latino en un párrafo. Booleano de solo lectura.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Determina si se utiliza el salto de línea latino en un párrafo. Solo lectura Boolean.
 type: docs
 weight: 100
 url: /es/aspose.slides/iparagraphformateffectivedata/latinlinebreak/
 ---
 
-## Propiedad IParagraphFormatEffectiveData.LatinLineBreak
+## IParagraphFormatEffectiveData.LatinLineBreak property
 
-Determina si se utiliza el corte de línea latino en un párrafo. Booleano de solo lectura.
+Determina si se utiliza el salto de línea latino en un párrafo. Solo lectura Boolean.
 
 ```csharp
 public bool LatinLineBreak { get; }
@@ -19,6 +19,6 @@ public bool LatinLineBreak { get; }
 
 * interfaz [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
 * espacio de nombres [Aspose.Slides](../../iparagraphformateffectivedata)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.charts/ichartparagraphformat/marginright/
 ---
+
 ## IChartParagraphFormat.MarginRight property
 
 Returns or sets the right margin in a paragraph. Read/write Single.

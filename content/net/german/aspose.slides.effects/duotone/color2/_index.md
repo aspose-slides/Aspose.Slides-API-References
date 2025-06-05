@@ -1,7 +1,7 @@
 ---
 title: Color2
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Ziel-Farbformat für helle Pixel zurück. Nur-Lesen IColorFormataspose.slides/icolorformat.
+description: Gibt das Ziel-Farbformat für helle Pixel zurück. Nur lesbarer IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 20
 url: /de/aspose.slides.effects/duotone/color2/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/duotone/color2/
 
 ## Duotone.Color2-Eigenschaft
 
-Gibt das Ziel-Farbformat für helle Pixel zurück. Nur-Lesen [`IColorFormat`](../../../aspose.slides/icolorformat).
+Gibt das Ziel-Farbformat für helle Pixel zurück. Nur lesbar [`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat Color2 { get; }

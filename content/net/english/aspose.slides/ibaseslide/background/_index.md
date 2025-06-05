@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ibaseslide/background/
 ---
+
 ## IBaseSlide.Background property
 
 Returns slide's background. Read-only [`IBackground`](../../ibackground).

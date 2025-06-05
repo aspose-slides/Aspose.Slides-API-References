@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.charts/ichartdatapoint/explosion/
 ---
+
 ## IChartDataPoint.Explosion property
 
 Specifies the amount the data point shall be moved from the center of the pie. Read/write Int32.

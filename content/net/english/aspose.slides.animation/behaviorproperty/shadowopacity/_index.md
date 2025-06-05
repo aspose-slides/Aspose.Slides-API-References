@@ -6,6 +6,7 @@ type: docs
 weight: 730
 url: /aspose.slides.animation/behaviorproperty/shadowopacity/
 ---
+
 ## BehaviorProperty.ShadowOpacity property
 
 Represents 'shadow.opacity' property

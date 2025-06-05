@@ -6,6 +6,7 @@ type: docs
 weight: 490
 url: /aspose.slides.charts/axis/showminorgridlines/
 ---
+
 ## Axis.ShowMinorGridLines property
 
 To hide minor gridline set MinorGridLinesFormat.Line.FillFormat.FillType to FillType.NoFill. Read-only Boolean.

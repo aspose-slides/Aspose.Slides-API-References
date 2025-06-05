@@ -1,7 +1,7 @@
 ---
 title: RelatedLegendEntry
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt einen Legenden-Eintrag dar, der mit dieser Serie verbunden ist. Schreibgeschützte ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
+description: Stellt den Legenden-Eintrag dar, der mit dieser Serie verbunden ist. Nur-Lese ILegendEntryPropertiesaspose.slides/ilegendentryproperties.
 type: docs
 weight: 350
 url: /de/aspose.slides.charts/chartseries/relatedlegendentry/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartseries/relatedlegendentry/
 
 ## ChartSeries.RelatedLegendEntry-Eigenschaft
 
-Stellt einen Legenden-Eintrag dar, der mit dieser Serie verbunden ist. Schreibgeschützte [`ILegendEntryProperties`](../../ilegendentryproperties).
+Stellt den Legenden-Eintrag dar, der mit dieser Serie verbunden ist. Nur-Lese [`ILegendEntryProperties`](../../ilegendentryproperties).
 
 ```csharp
 public ILegendEntryProperties RelatedLegendEntry { get; }

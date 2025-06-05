@@ -1,15 +1,15 @@
 ---
-title: Eliminar
+title: Remove
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Elimina el autor de la colección padre.
+description: Elimina el autor de la colección principal.
 type: docs
 weight: 40
 url: /es/aspose.slides/icommentauthor/remove/
 ---
 
-## Método ICommentAuthor.Remove
+## ICommentAuthor.Remove method
 
-Elimina el autor de la colección padre.
+Elimina el autor de la colección principal.
 
 ```csharp
 public void Remove()
@@ -19,7 +19,7 @@ public void Remove()
 
 | excepción | condición |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Se lanza si el autor ya ha sido eliminado. |
+| [PptxEditException](../../pptxeditexception) | Lanzada si el autor ya ha sido eliminado. |
 
 ### Véase También
 

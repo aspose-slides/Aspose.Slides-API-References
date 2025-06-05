@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/ipresentation/commentauthors/
 ---
+
 ## IPresentation.CommentAuthors property
 
 Returns the collection of comments autors. Read-only [`ICommentAuthorCollection`](../../icommentauthorcollection).

@@ -1,7 +1,7 @@
 ---
 title: ContourWidth
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Breite eines 3D-Konturs zurück oder setzt sie. Lese-/Schreibzugriff Double.
+description: Gibt die Breite eines 3D-Konturs zurück oder legt sie fest. Lese-/Schreibzugriff Double.
 type: docs
 weight: 60
 url: /de/aspose.slides/ithreedformat/contourwidth/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ithreedformat/contourwidth/
 
 ## IThreeDFormat.ContourWidth-Eigenschaft
 
-Gibt die Breite eines 3D-Konturs zurück oder setzt sie. Lese-/Schreibzugriff Double.
+Gibt die Breite eines 3D-Konturs zurück oder legt sie fest. Lese-/Schreibzugriff Double.
 
 ```csharp
 public double ContourWidth { get; set; }

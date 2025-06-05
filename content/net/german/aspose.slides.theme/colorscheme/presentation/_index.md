@@ -1,7 +1,7 @@
 ---
-title: Präsentation
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die übergeordnete Präsentation zurück. Nur lesbar IPresentationaspose.slides/ipresentation.
+title: Presentation
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die übergeordnete Präsentation zurück. Nur lesbare IPresentationaspose.slides/ipresentation.
 type: docs
 weight: 140
 url: /de/aspose.slides.theme/colorscheme/presentation/

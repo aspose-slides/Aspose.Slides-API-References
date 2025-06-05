@@ -1,15 +1,15 @@
 ---
 title: Notes
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie le nombre de diapositives dans une présentation contenant des notes. En lecture seule Int32.
+description: Renvoie le nombre de diapositives dans une présentation contenant des notes. Lecture seule Int32.
 type: docs
 weight: 250
 url: /fr/aspose.slides/documentproperties/notes/
 ---
 
-## Propriété DocumentProperties.Notes
+## DocumentProperties.Notes property
 
-Renvoie le nombre de diapositives dans une présentation contenant des notes. En lecture seule Int32.
+Renvoie le nombre de diapositives dans une présentation contenant des notes. Lecture seule Int32.
 
 ```csharp
 public int Notes { get; }

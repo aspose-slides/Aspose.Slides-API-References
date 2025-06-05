@@ -1,6 +1,6 @@
 ---
 title: MathBarFactory
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Le constructeur par défaut.
 type: docs
 weight: 10

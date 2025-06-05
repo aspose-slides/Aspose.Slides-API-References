@@ -1,7 +1,7 @@
 ---
 title: LinkFileName
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den vollständigen Pfad zu einer verknüpften Datei zurück. Es wird der kurze Dateiname verwendet. Nur lesender String.
+description: Gibt den vollständigen Pfad zu einer verknüpften Datei zurück. Der kurze Dateiname wird verwendet. Schreibgeschützter String.
 type: docs
 weight: 70
 url: /de/aspose.slides/oleobjectframe/linkfilename/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/oleobjectframe/linkfilename/
 
 ## OleObjectFrame.LinkFileName-Eigenschaft
 
-Gibt den vollständigen Pfad zu einer verknüpften Datei zurück. Es wird der kurze Dateiname verwendet. Nur lesender String.
+Gibt den vollständigen Pfad zu einer verknüpften Datei zurück. Der kurze Dateiname wird verwendet. Schreibgeschützter String.
 
 ```csharp
 public string LinkFileName { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [OleObjectFrame](../../oleobjectframe)
 * Namespace [Aspose.Slides](../../oleobjectframe)

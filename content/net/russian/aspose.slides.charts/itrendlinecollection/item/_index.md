@@ -1,13 +1,13 @@
 ---
-title: Элемент
-second_title: Справочник API Aspose.Slides для .NET
+title: Item
+second_title: Aspose.Sildes для .NET API Reference
 description: Получает элемент по указанному индексу. Только для чтения ITrendlineaspose.slides.charts/itrendline.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/itrendlinecollection/item/
 ---
 
-## Индексатор ITrendlineCollection
+## ITrendlineCollection индексатор
 
 Получает элемент по указанному индексу. Только для чтения [`ITrendline`](../../itrendline).
 

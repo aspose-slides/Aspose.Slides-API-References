@@ -1,6 +1,6 @@
 ---
 title: ParagraphFormat
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочная информация по API Aspose.Slides для .NET
 description: Возвращает объект форматирования для этого абзаца. Только для чтения IParagraphFormataspose.slides/iparagraphformat.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/iparagraph/paragraphformat/
 public IParagraphFormat ParagraphFormat { get; }
 ```
 
-### См. Также
+### Также смотрите
 
 * интерфейс [IParagraphFormat](../../iparagraphformat)
 * интерфейс [IParagraph](../../iparagraph)

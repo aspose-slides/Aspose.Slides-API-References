@@ -1,6 +1,6 @@
 ---
 title: ILineFormatCollection
-second_title: Aspose.Sildes для справки по API .NET
+second_title: Aspose.Sildes для .NET API Ссылка
 description: Представляет коллекцию стилей линий.
 type: docs
 weight: 10980
@@ -17,7 +17,7 @@ public interface ILineFormatCollection : IGenericCollection<ILineFormat>
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [Item](../../aspose.slides.theme/ilineformatcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`ILineFormat`](../../aspose.slides/ilineformat). |
 

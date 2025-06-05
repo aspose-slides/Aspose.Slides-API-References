@@ -1,13 +1,13 @@
 ---
 title: RightToLeft
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Determina si se utiliza la escritura de derecha a izquierda en un párrafo. No se aplica herencia. Lectura/escritura NullableBool aspose.slides/nullablebool.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Determina si se utiliza la escritura de derecha a izquierda en un párrafo. No se aplica herencia. Lectura/escritura NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 130
 url: /es/aspose.slides/iparagraphformat/righttoleft/
 ---
 
-## Propiedad IParagraphFormat.RightToLeft
+## IParagraphFormat.RightToLeft propiedad
 
 Determina si se utiliza la escritura de derecha a izquierda en un párrafo. No se aplica herencia. Lectura/escritura [`NullableBool`](../../nullablebool).
 
@@ -15,7 +15,7 @@ Determina si se utiliza la escritura de derecha a izquierda en un párrafo. No s
 public NullableBool RightToLeft { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * enum [NullableBool](../../nullablebool)
 * interface [IParagraphFormat](../../iparagraphformat)

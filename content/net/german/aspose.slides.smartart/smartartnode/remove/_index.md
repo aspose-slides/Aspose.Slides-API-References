@@ -1,13 +1,13 @@
 ---
-title: Entfernen
-second_title: Aspose.Slides für .NET API-Referenz
+title: Remove
+second_title: Aspose.Slides für .NET API Referenz
 description: Entfernen Sie den aktuellen Knoten.
 type: docs
 weight: 100
 url: /de/aspose.slides.smartart/smartartnode/remove/
 ---
 
-## SmartArtNode.Remove-Methode
+## SmartArtNode.Remove Methode
 
 Entfernen Sie den aktuellen Knoten.
 

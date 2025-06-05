@@ -1,7 +1,7 @@
 ---
-title: 最小值
-second_title: Aspose.Slides for .NET API 参考
-description: 表示值轴上的最小值。可读/写 Double。
+title: MinValue
+second_title: Aspose.Slides for .NET API Reference
+description: 表示值轴上的最小值。可读/写的 Double。
 type: docs
 weight: 430
 url: /zh/aspose.slides.charts/axis/minvalue/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/axis/minvalue/
 
 ## Axis.MinValue 属性
 
-表示值轴上的最小值。可读/写 Double。
+表示值轴上的最小值。可读/写的 Double。
 
 ```csharp
 public double MinValue { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * class [Axis](../../axis)
 * namespace [Aspose.Slides.Charts](../../axis)

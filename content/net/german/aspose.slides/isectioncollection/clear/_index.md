@@ -1,5 +1,5 @@
 ---
-title: Leeren
+title: Clear
 second_title: Aspose.Slides für .NET API-Referenz
 description: Entfernt alle Abschnitte aus der Sammlung.
 type: docs
@@ -7,7 +7,7 @@ weight: 50
 url: /de/aspose.slides/isectioncollection/clear/
 ---
 
-## ISectionCollection.Clear-Methode
+## ISectionCollection.Clear Methode
 
 Entfernt alle Abschnitte aus der Sammlung.
 
@@ -15,7 +15,7 @@ Entfernt alle Abschnitte aus der Sammlung.
 public void Clear()
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ISectionCollection](../../isectioncollection)
 * Namespace [Aspose.Slides](../../isectioncollection)

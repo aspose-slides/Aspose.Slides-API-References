@@ -17,9 +17,9 @@ public static SlideImageFormat Svg(SVGOptions options)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| options | SVGOptions | SVG 导出的选项。 |
+| options | SVGOptions | SVG 导出选项。 |
 
-### 另请参阅
+### 另请参见
 
 * class [SVGOptions](../../svgoptions)
 * class [SlideImageFormat](../../slideimageformat)

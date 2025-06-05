@@ -1,6 +1,6 @@
 ---
-title: СтильЛинии
-second_title: Справочник по API Aspose.Slides для .NET
+title: LineStyle
+second_title: Справочник API Aspose.Slides для .NET
 description: Представляет стиль линии.
 type: docs
 weight: 7580
@@ -26,7 +26,7 @@ public enum LineStyle : sbyte
 | ThinThick | `3` |  |
 | ThickBetweenThin | `4` |  |
 
-### Также см.
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

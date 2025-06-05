@@ -1,7 +1,7 @@
 ---
 title: TotalEditingTime
-second_title: Aspose.Slides für .NET API Referenz
-description: Gesamte Bearbeitungszeit einer Präsentation. Lese-/Schreib TimeSpan.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gesamte Bearbeitungszeit einer Präsentation. Lese-/Schreibzeitspanne.
 type: docs
 weight: 350
 url: /de/aspose.slides/documentproperties/totaleditingtime/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/documentproperties/totaleditingtime/
 
 ## DocumentProperties.TotalEditingTime-Eigenschaft
 
-Gesamte Bearbeitungszeit einer Präsentation. Lese-/Schreib TimeSpan.
+Gesamte Bearbeitungszeit einer Präsentation. Lese-/Schreibzeitspanne.
 
 ```csharp
 public TimeSpan TotalEditingTime { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [DocumentProperties](../../documentproperties)
 * Namespace [Aspose.Slides](../../documentproperties)

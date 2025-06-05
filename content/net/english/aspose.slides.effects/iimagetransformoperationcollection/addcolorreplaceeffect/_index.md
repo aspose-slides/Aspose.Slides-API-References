@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides.effects/iimagetransformoperationcollection/addcolorreplaceeffect/
 ---
+
 ## IImageTransformOperationCollection.AddColorReplaceEffect method
 
 Adds the new Color Replacement effect to the end of a collection.

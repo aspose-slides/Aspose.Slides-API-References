@@ -1,7 +1,7 @@
 ---
-title: 嵌入音频
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置嵌入音频对象。读/写 IAudioaspose.slides/iaudio。
+title: EmbeddedAudio
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置嵌入的音频对象。读/写 IAudioaspose.slides/iaudio。
 type: docs
 weight: 70
 url: /zh/aspose.slides/iaudioframe/embeddedaudio/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/iaudioframe/embeddedaudio/
 
 ## IAudioFrame.EmbeddedAudio 属性
 
-返回或设置嵌入音频对象。读/写 [`IAudio`](../../iaudio)。
+返回或设置嵌入的音频对象。读/写 [`IAudio`](../../iaudio)。
 
 ```csharp
 public IAudio EmbeddedAudio { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IAudio](../../iaudio)
 * 接口 [IAudioFrame](../../iaudioframe)

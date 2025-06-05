@@ -3,9 +3,10 @@ title: PresetClassType
 second_title: Aspose.Sildes for .NET API Reference
 description: Defines class of effect. Read/write EffectPresetClassTypeaspose.slides.animation/effectpresetclasstype.
 type: docs
-weight: 40
+weight: 60
 url: /aspose.slides.animation/ieffect/presetclasstype/
 ---
+
 ## IEffect.PresetClassType property
 
 Defines class of effect. Read/write [`EffectPresetClassType`](../../effectpresetclasstype).

@@ -1,7 +1,7 @@
 ---
 title: SpaceAfter
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает количество пространства после последней строки в абзаце. Только для чтения Single.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает количество пробела после последней строки в абзаце. Только для чтения Single.
 type: docs
 weight: 140
 url: /ru/aspose.slides/iparagraphformateffectivedata/spaceafter/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/iparagraphformateffectivedata/spaceafter/
 
 ## IParagraphFormatEffectiveData.SpaceAfter свойство
 
-Возвращает количество пространства после последней строки в абзаце. Только для чтения Single.
+Возвращает количество пробела после последней строки в абзаце. Только для чтения Single.
 
 ```csharp
 public float SpaceAfter { get; }
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
 * пространство имен [Aspose.Slides](../../iparagraphformateffectivedata)

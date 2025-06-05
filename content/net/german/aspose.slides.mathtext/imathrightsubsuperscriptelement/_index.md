@@ -1,7 +1,7 @@
 ---
 title: IMathRightSubSuperscriptElement
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Sub-Superscript-Objekt an, das aus einer Basis sowie einem Subscript und Superscript besteht, die rechts von der Basis platziert sind.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt das Sub-Superscript-Objekt an, das aus einer Basis sowie einem Subskript und Superskript besteht, die rechts von der Basis platziert sind.
 type: docs
 weight: 8190
 url: /de/aspose.slides.mathtext/imathrightsubsuperscriptelement/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathrightsubsuperscriptelement/
 
 ## IMathRightSubSuperscriptElement-Schnittstelle
 
-Gibt das Sub-Superscript-Objekt an, das aus einer Basis sowie einem Subscript und Superscript besteht, die rechts von der Basis platziert sind.
+Gibt das Sub-Superscript-Objekt an, das aus einer Basis sowie einem Subskript und Superskript besteht, die rechts von der Basis platziert sind.
 
 ```csharp
 public interface IMathRightSubSuperscriptElement : IMathElement
@@ -19,11 +19,11 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 
 | Name | Beschreibung |
 | --- | --- |
-| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Gibt die Ausrichtung von Subscript/Superscript an. Wenn wahr, sind Subscript und Superscript horizontal zueinander ausgerichtet. Wenn falsch, sind sie an die Form der Basis angeketteter. Der Standardwert ist falsch. |
+| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Gibt die Ausrichtung von Subskript/Superskript an. Wenn true, werden Subskript und Superskript horizontal zueinander ausgerichtet. Wenn false, sind sie an die Form der Basis angepasst. Der Standardwert ist false. |
 | [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | Ermöglicht den Zugriff auf die Basis-IMathElement-Schnittstelle [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | Basisargument |
-| [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | Subscript-Argument |
-| [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | Superscript-Argument |
+| [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | Basis-Argument |
+| [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | Subskript-Argument |
+| [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | Superskript-Argument |
 
 ### Beispiele
 
@@ -34,7 +34,7 @@ Beispiel:
 IMathRightSubSuperscriptElement subsuperscript = new MathematicalText("N").SetSubSuperscriptOnTheRight("i", "j");
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IMathElement](../imathelement)
 * Namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

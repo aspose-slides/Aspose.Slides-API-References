@@ -1,21 +1,21 @@
 ---
 title: AutofitType
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit le mode d'ajustement automatique du texte. Le changement de cette propriété peut avoir une certaine influence uniquement sur ces parties de graphique  DataLabel et DataLabelFormat prise en charge complète dans PowerPoint 2013 ; dans PowerPoint 2007, il n'y a pas d'effet pour le rendu. Lecture/écriture TextAutofitTypeaspose.slides/../aspose.slides/textautofittype.
+description: Renvoie ou définit le mode d'ajustement automatique des textes. Le changement de cette propriété peut avoir une certaine influence uniquement sur ces parties de graphique  DataLabel et DataLabelFormat support complet dans PowerPoint 2013 ; dans PowerPoint 2007, il n'y a aucun effet sur le rendu. Lecture/écriture TextAutofitTypeaspose.slides/../aspose.slides/textautofittype.
 type: docs
 weight: 20
 url: /fr/aspose.slides.charts/icharttextblockformat/autofittype/
 ---
 
-## IChartTextBlockFormat.AutofitType propriété
+## IChartTextBlockFormat.AutofitType property
 
-Renvoie ou définit le mode d'ajustement automatique du texte. Le changement de cette propriété peut avoir une certaine influence uniquement sur ces parties de graphique : DataLabel et DataLabelFormat (prise en charge complète dans PowerPoint 2013 ; dans PowerPoint 2007, il n'y a pas d'effet pour le rendu). Lecture/écriture [`TextAutofitType`](../../../aspose.slides/textautofittype).
+Renvoie ou définit le mode d'ajustement automatique du texte. Le changement de cette propriété peut avoir une certaine influence uniquement sur ces parties de graphique : DataLabel et DataLabelFormat (support complet dans PowerPoint 2013 ; dans PowerPoint 2007, il n'y a aucun effet sur le rendu). Lecture/écriture [`TextAutofitType`](../../../aspose.slides/textautofittype).
 
 ```csharp
 public TextAutofitType AutofitType { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [TextAutofitType](../../../aspose.slides/textautofittype)
 * interface [IChartTextBlockFormat](../../icharttextblockformat)

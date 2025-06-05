@@ -1,7 +1,7 @@
 ---
 title: AddClone
-second_title: Aspose.Slides для .NET API Справочник
-description: Добавляет копию указанного слайд-макета в презентацию.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Добавляет копию указанного слайда макета в презентацию.
 type: docs
 weight: 20
 url: /ru/aspose.slides/globallayoutslidecollection/addclone/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/globallayoutslidecollection/addclone/
 
 ## AddClone(ILayoutSlide) {#addclone}
 
-Добавляет копию указанного слайд-макета в презентацию.
+Добавляет копию указанного слайда макета в презентацию.
 
 ```csharp
 public ILayoutSlide AddClone(ILayoutSlide sourceLayout)
@@ -25,7 +25,7 @@ public ILayoutSlide AddClone(ILayoutSlide sourceLayout)
 
 ### Примечания
 
-При клонировании макета между различными презентациями можно клонировать и мастер макета, чтобы сохранить исходное форматирование. Используется внутренний реестр для отслеживания автоматически клонированных мастеров, чтобы предотвратить создание нескольких клонов одного и того же мастера слайда. Ручное клонирование мастер-слайдов не будет предотвращено и не будет зарегистрировано.
+При клонировании макета между различными презентациями может быть также скопирован главный макет, чтобы сохранить исходное форматирование. Используется внутренний реестр для отслеживания автоматически клонированных мастеров, чтобы предотвратить создание нескольких клонов одного и того же главного слайда. Ручное клонирование главных слайдов не будет предотвращено и не будет зарегистрировано.
 
 ### См. также
 
@@ -38,7 +38,7 @@ public ILayoutSlide AddClone(ILayoutSlide sourceLayout)
 
 ## AddClone(ILayoutSlide, IMasterSlide) {#addclone_1}
 
-Добавляет копию указанного слайд-макета в презентацию.
+Добавляет копию указанного слайда макета в презентацию.
 
 ```csharp
 public ILayoutSlide AddClone(ILayoutSlide sourceLayout, IMasterSlide destMaster)
@@ -47,7 +47,7 @@ public ILayoutSlide AddClone(ILayoutSlide sourceLayout, IMasterSlide destMaster)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceLayout | ILayoutSlide | Слайд для клонирования. |
-| destMaster | IMasterSlide | Мастер-слайд для нового макета. |
+| destMaster | IMasterSlide | Главный слайд для нового макета. |
 
 ### Возвращаемое значение
 
@@ -55,7 +55,7 @@ public ILayoutSlide AddClone(ILayoutSlide sourceLayout, IMasterSlide destMaster)
 
 ### Примечания
 
-1) Новый макет будет связан с определённым мастером в целевой презентации. Таким образом, это аналог копирования/вставки с опцией "Использовать тему назначения" в PowerPoint. 2) Аналог этого метода — метод [`AddClone`](../../imasterlayoutslidecollection/addclone), доступный через свойство [`LayoutSlides`](../../imasterslide/layoutslides).
+1) Новый макет будет связан с определенным мастером в целевой презентации. Таким образом, это аналог копирования/вставки с опцией "Использовать тему назначения" в PowerPoint. 2) Аналогом этого метода является метод [`AddClone`](../../imasterlayoutslidecollection/addclone), доступный с помощью свойства [`LayoutSlides`](../../imasterslide/layoutslides).
 
 ### См. также
 

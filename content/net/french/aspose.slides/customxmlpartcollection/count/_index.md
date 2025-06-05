@@ -1,7 +1,7 @@
 ---
-title: Compte
-second_title: Référence API Aspose.Sildes pour .NET
-description: Renvoie le nombre de parties XML personnalisées dans la collection. Int32 en lecture seule.
+title: Count
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Renvoie le nombre de parties XML personnalisées dans la collection. Lecture seule Int32.
 type: docs
 weight: 10
 url: /fr/aspose.slides/customxmlpartcollection/count/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/customxmlpartcollection/count/
 
 ## Propriété CustomXmlPartCollection.Count
 
-Renvoie le nombre de parties XML personnalisées dans la collection. Int32 en lecture seule.
+Renvoie le nombre de parties XML personnalisées dans la collection. Lecture seule Int32.
 
 ```csharp
 public int Count { get; }

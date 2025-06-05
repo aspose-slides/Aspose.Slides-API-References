@@ -1,7 +1,7 @@
 ---
 title: OverrideTheme
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das übergeordnete Themenobjekt zurück. Lese-/schreibe IMasterThemeaspose.slides.theme/imastertheme.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt das übergreifende Themenobjekt zurück. Lese-/Schreibzugriff auf IMasterThemeaspose.slides.theme/imastertheme.
 type: docs
 weight: 30
 url: /de/aspose.slides.theme/imasterthememanager/overridetheme/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/imasterthememanager/overridetheme/
 
 ## IMasterThemeManager.OverrideTheme-Eigenschaft
 
-Gibt das übergeordnete Themenobjekt zurück. Lese-/schreibe [`IMasterTheme`](../../imastertheme).
+Gibt das übergreifende Themenobjekt zurück. Lese-/Schreibzugriff auf [`IMasterTheme`](../../imastertheme).
 
 ```csharp
 public IMasterTheme OverrideTheme { get; set; }

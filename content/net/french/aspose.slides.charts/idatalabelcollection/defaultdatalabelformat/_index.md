@@ -1,7 +1,7 @@
 ---
 title: DefaultDataLabelFormat
-second_title: Aspose.Slides pour .NET Référence de l'API
-description: Retourne le format par défaut de toutes les étiquettes de données dans la collection. Read-only IDataLabelFormat aspose.slides.charts/idatalabelformat.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Renvoie le format par défaut de toutes les étiquettes de données dans la collection. Lecture seule IDataLabelFormataspose.slides.charts/idatalabelformat.
 type: docs
 weight: 50
 url: /fr/aspose.slides.charts/idatalabelcollection/defaultdatalabelformat/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/idatalabelcollection/defaultdatalabelformat/
 
 ## Propriété IDataLabelCollection.DefaultDataLabelFormat
 
-Retourne le format par défaut de toutes les étiquettes de données dans la collection. Read-only [`IDataLabelFormat`](../../idatalabelformat).
+Renvoie le format par défaut de toutes les étiquettes de données dans la collection. Lecture seule [`IDataLabelFormat`](../../idatalabelformat).
 
 ```csharp
 public IDataLabelFormat DefaultDataLabelFormat { get; }

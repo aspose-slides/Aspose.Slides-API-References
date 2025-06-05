@@ -1,7 +1,7 @@
 ---
 title: ZoomContent
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Determina si un contenido debe ser ampliado. Lectura/escritura NullableBoolaspose.slides/nullablebool.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Determina si un contenido debe ser ampliado. Lectura/escritura NullableBoolaspose.slides/../aspose.slides/nullablebool.
 type: docs
 weight: 50
 url: /es/aspose.slides.animation/scaleeffect/zoomcontent/
@@ -15,7 +15,7 @@ Determina si un contenido debe ser ampliado. Lectura/escritura [`NullableBool`](
 public NullableBool ZoomContent { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * enum [NullableBool](../../../aspose.slides/nullablebool)
 * class [ScaleEffect](../../scaleeffect)

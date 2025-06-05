@@ -7,7 +7,7 @@ weight: 10
 url: /fr/aspose.slides.charts/ichartcellcollection/asienumerable/
 ---
 
-## Propriété IChartCellCollection.AsIEnumerable
+## IChartCellCollection.AsIEnumerable propriété
 
 Renvoie l'interface ICollection. IEnumerable en lecture seule.
 
@@ -17,7 +17,7 @@ public IEnumerable AsIEnumerable { get; }
 
 ### Remarques
 
-Pour la compatibilité avec COM.
+Pour la compatibilité COM.
 
 ### Voir aussi
 

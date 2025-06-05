@@ -1,7 +1,7 @@
 ---
 title: ISlideHeaderFooterManager
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt einen Manager dar, der das Verhalten der Platzhalter für das Fußzeilen-Datum, die Uhrzeit und die Seitenzahl der Folie hält.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt den Manager dar, der das Verhalten der Platzhalter für das Fußzeilen-Datum, die Uhrzeit und die Seitennummern der Folie hält.
 type: docs
 weight: 6850
 url: /de/aspose.slides/islideheaderfootermanager/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/islideheaderfootermanager/
 
 ## ISlideHeaderFooterManager-Schnittstelle
 
-Stellt einen Manager dar, der das Verhalten der Fußzeile der Folie, die Uhrzeit und die Platzhalter für die Seitenzahl hält.
+Stellt den Manager dar, der das Verhalten der Fußzeile, des Datums, der Uhrzeit und der Seitennummern-Platzhalter der Folie hält.
 
 ```csharp
 public interface ISlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -19,7 +19,7 @@ public interface ISlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/islideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Gibt die Schnittstelle IBaseSlideHeaderFooterManager zurück. |
+| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/islideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Gibt die IBaseSlideHeaderFooterManager-Schnittstelle zurück. |
 
 ### Siehe auch
 

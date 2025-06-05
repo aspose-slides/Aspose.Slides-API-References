@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/ichartplotarea/asiactuallayout/
 ---
+
 ## IChartPlotArea.AsIActualLayout property
 
 Returns IActualLayout interface.

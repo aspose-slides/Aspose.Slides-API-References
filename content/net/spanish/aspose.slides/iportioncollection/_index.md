@@ -20,7 +20,7 @@ public interface IPortionCollection : IEnumerable<IPortion>
 | Nombre | Descripción |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides/iportioncollection/asienumerable) { get; } | Devuelve la interfaz IEnumerable. Solo lectura IEnumerable. |
-| [Count](../../aspose.slides/iportioncollection/count) { get; } | Obtiene el número de elementos que realmente contiene la colección. Solo lectura Int32. |
+| [Count](../../aspose.slides/iportioncollection/count) { get; } | Obtiene el número de elementos realmente contenidos en la colección. Solo lectura Int32. |
 | [Item](../../aspose.slides/iportioncollection/item) { get; } | Obtiene el elemento en el índice especificado. |
 
 ## Métodos
@@ -35,7 +35,7 @@ public interface IPortionCollection : IEnumerable<IPortion>
 | [Remove](../../aspose.slides/iportioncollection/remove)(IPortion) | Elimina la primera ocurrencia de un objeto específico de la ICollection. |
 | [RemoveAt](../../aspose.slides/iportioncollection/removeat)(int) | Elimina el elemento en el índice especificado de la colección. |
 
-### Véase también
+### Ver También
 
 * interfaz [IPortion](../iportion)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)

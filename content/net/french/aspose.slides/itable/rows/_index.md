@@ -1,7 +1,7 @@
 ---
-title: Lignes
+title: Rows
 second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie la collection de lignes. Lecture seule IRowCollection aspose.slides/irowcollection.
+description: Renvoie la collection de lignes. En lecture seule IRowCollectionaspose.slides/irowcollection.
 type: docs
 weight: 110
 url: /fr/aspose.slides/itable/rows/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/itable/rows/
 
 ## Propriété ITable.Rows
 
-Renvoie la collection de lignes. Lecture seule [`IRowCollection`](../../irowcollection).
+Renvoie la collection de lignes. En lecture seule [`IRowCollection`](../../irowcollection).
 
 ```csharp
 public IRowCollection Rows { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IRowCollection](../../irowcollection)
 * interface [ITable](../../itable)

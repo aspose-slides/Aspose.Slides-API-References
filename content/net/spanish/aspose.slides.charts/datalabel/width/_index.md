@@ -1,6 +1,6 @@
 ---
-title: Ancho
-second_title: Referencia de la API de Aspose.Slides para .NET
+title: Width
+second_title: Aspose.Sildes para .NET API Reference
 description: Devuelve o establece el ancho de un título como una fracción del ancho del gráfico. Lectura/escritura Single.
 type: docs
 weight: 150
@@ -15,10 +15,10 @@ Devuelve o establece el ancho de un título como una fracción del ancho del gr�
 public float Width { get; set; }
 ```
 
-### Véase también
+### Ver También
 
-* clase [DataLabel](../../datalabel)
-* espacio de nombres [Aspose.Slides.Charts](../../datalabel)
-* ensamblaje [Aspose.Slides](../../../)
+* class [DataLabel](../../datalabel)
+* namespace [Aspose.Slides.Charts](../../datalabel)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

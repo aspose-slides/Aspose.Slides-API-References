@@ -1,13 +1,13 @@
 ---
-title: Contar
-second_title: Referencia de la API de Aspose.Slides para .NET
+title: Count
+second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve el número de operaciones en una colección. Solo lectura Int32.
 type: docs
 weight: 10
 url: /es/aspose.slides/coloroperationcollection/count/
 ---
 
-## Propiedad ColorOperationCollection.Count
+## ColorOperationCollection.Count propiedad
 
 Devuelve el número de operaciones en una colección. Solo lectura Int32.
 
@@ -15,10 +15,10 @@ Devuelve el número de operaciones en una colección. Solo lectura Int32.
 public int Count { get; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [ColorOperationCollection](../../coloroperationcollection)
-* namespace [Aspose.Slides](../../coloroperationcollection)
-* ensamblaje [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides](../../coloroperationcollection)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

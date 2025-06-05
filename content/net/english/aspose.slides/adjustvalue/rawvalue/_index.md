@@ -1,14 +1,15 @@
 ---
 title: RawValue
 second_title: Aspose.Sildes for .NET API Reference
-description: Returns or sets ajustment value as is. Read/write Int64.
+description: Returns or sets adjustment value as is. Read/write Int64.
 type: docs
 weight: 30
 url: /aspose.slides/adjustvalue/rawvalue/
 ---
+
 ## AdjustValue.RawValue property
 
-Returns or sets ajustment value "as is". Read/write Int64.
+Returns or sets adjustment value "as is". Read/write Int64.
 
 ```csharp
 public long RawValue { get; set; }

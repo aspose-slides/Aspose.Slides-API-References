@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.effects/innershadow/shadowcolor/
 ---
+
 ## InnerShadow.ShadowColor property
 
 Color of shadow. Read-only [`IColorFormat`](../../../aspose.slides/icolorformat).

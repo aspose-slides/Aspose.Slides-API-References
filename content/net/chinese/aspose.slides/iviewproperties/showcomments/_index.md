@@ -1,7 +1,7 @@
 ---
 title: ShowComments
-second_title: Aspose.Slides for .NET API 参考
-description: 指定幻灯片评论是否应显示。可读/写 NullableBoolaspose.slides/nullablebool。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定幻灯片评论是否应显示。读/写 NullableBoolaspose.slides/nullablebool。
 type: docs
 weight: 50
 url: /zh/aspose.slides/iviewproperties/showcomments/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/iviewproperties/showcomments/
 
 ## IViewProperties.ShowComments 属性
 
-指定幻灯片评论是否应显示。可读/写 [`NullableBool`](../../nullablebool)。
+指定幻灯片评论是否应显示。读/写 [`NullableBool`](../../nullablebool)。
 
 ```csharp
 public NullableBool ShowComments { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * 枚举 [NullableBool](../../nullablebool)
 * 接口 [IViewProperties](../../iviewproperties)

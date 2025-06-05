@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides.animation/timing/triggertype/
 ---
+
 ## Timing.TriggerType property
 
 Describes trigger type. Read/write [`EffectTriggerType`](../../effecttriggertype).

@@ -1,13 +1,13 @@
 ---
-title: Значение
-second_title: Справочник API Aspose.Slides для .NET
-description: Представляет значение точки. Только bool ColorFormat float int string. Чтение/запись Object.
+title: Value
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет значение точки. Только bool, ColorFormat, float, int, string. Чтение/запись Object.
 type: docs
 weight: 40
 url: /ru/aspose.slides.animation/point/value/
 ---
 
-## Свойство Point.Value
+## Point.Value свойство
 
 Представляет значение точки. Только: bool, ColorFormat, float, int, string. Чтение/запись Object.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/point/value/
 public object Value { get; set; }
 ```
 
-### См. Также
+### Смотрите Также
 
 * класс [Point](../../point)
 * пространство имен [Aspose.Slides.Animation](../../point)

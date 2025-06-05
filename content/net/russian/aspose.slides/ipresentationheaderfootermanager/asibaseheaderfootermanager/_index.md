@@ -1,6 +1,6 @@
 ---
 title: AsIBaseHeaderFooterManager
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Возвращает интерфейс IBaseHeaderFooterManager.
 type: docs
 weight: 10

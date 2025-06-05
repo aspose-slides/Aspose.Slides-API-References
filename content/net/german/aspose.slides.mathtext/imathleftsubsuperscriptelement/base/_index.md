@@ -1,7 +1,7 @@
 ---
-title: Basis
-second_title: Aspose.Slides für .NET API-Referenz
-description: Basisargument
+title: Base
+second_title: Aspose.Slides für .NET API Referenz
+description: Basis-Argument
 type: docs
 weight: 20
 url: /de/aspose.slides.mathtext/imathleftsubsuperscriptelement/base/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathleftsubsuperscriptelement/base/
 
 ## IMathLeftSubSuperscriptElement.Base-Eigenschaft
 
-Basisargument
+Basis-Argument
 
 ```csharp
 public IMathElement Base { get; }

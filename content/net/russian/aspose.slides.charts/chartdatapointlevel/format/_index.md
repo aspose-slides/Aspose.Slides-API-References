@@ -1,15 +1,15 @@
 ---
-title: Формат
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Представляет свойства форматирования на уровне точек данных. Чтение/запись IFormataspose.slides.charts/iformat.
+title: Format
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет свойства форматирования уровня точек данных. Чтение/запись IFormataspose.slides.charts/iformat.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/chartdatapointlevel/format/
 ---
 
-## Свойство ChartDataPointLevel.Format
+## ChartDataPointLevel.Format property
 
-Представляет свойства форматирования на уровне точек данных. Чтение/запись [`IFormat`](../../iformat).
+Представляет свойства форматирования уровня точек данных. Чтение/запись [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; }
@@ -29,7 +29,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Также смотрите
+### См. также
 
 * интерфейс [IFormat](../../iformat)
 * класс [ChartDataPointLevel](../../chartdatapointlevel)

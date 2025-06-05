@@ -1,7 +1,7 @@
 ---
-title: Шаблон
-second_title: Справка по API Aspose.Slides для .NET
-description: Указывает форму визуальных элементов, используемых в процессе перехода. Чтение/запись TransitionPatternaspose.slides.slideshow/transitionpattern.
+title: Pattern
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Указывает форму визуальных элементов, используемых во время перехода. Чтение/запись TransitionPatternaspose.slides.slideshow/transitionpattern.
 type: docs
 weight: 30
 url: /ru/aspose.slides.slideshow/iglittertransition/pattern/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.slideshow/iglittertransition/pattern/
 
 ## IGlitterTransition.Pattern свойство
 
-Указывает форму визуальных элементов, используемых в процессе перехода. Чтение/запись [`TransitionPattern`](../../transitionpattern).
+Указывает форму визуальных элементов, используемых во время перехода. Чтение/запись [`TransitionPattern`](../../transitionpattern).
 
 ```csharp
 public TransitionPattern Pattern { get; set; }

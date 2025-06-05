@@ -1,7 +1,7 @@
 ---
 title: IMasterNotesSlideHeaderFooterManager
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示一个管理器，该管理器持有主备注幻灯片页脚、日期时间、页码占位符及所有子占位符的行为。子占位符表示包含在依赖备注幻灯片上的占位符。依赖备注幻灯片使用并依赖主备注幻灯片。
+description: 表示管理器，持有主备注幻灯片页脚、日期时间、页码占位符和所有子占位符的行为。子占位符是指包含在依赖于的备注幻灯片上的占位符。依赖的备注幻灯片使用并依赖于主备注幻灯片。
 type: docs
 weight: 6200
 url: /zh/aspose.slides/imasternotesslideheaderfootermanager/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/imasternotesslideheaderfootermanager/
 
 ## IMasterNotesSlideHeaderFooterManager 接口
 
-表示一个管理器，该管理器持有主备注幻灯片页脚、日期时间、页码占位符及所有子占位符的行为。子占位符表示包含在依赖备注幻灯片上的占位符。依赖备注幻灯片使用并依赖主备注幻灯片。
+表示管理器，持有主备注幻灯片页脚、日期时间、页码占位符和所有子占位符的行为。子占位符是指包含在依赖于的备注幻灯片上的占位符。依赖的备注幻灯片使用并依赖于主备注幻灯片。
 
 ```csharp
 public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -25,15 +25,15 @@ public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHe
 
 | 名称 | 描述 |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | 设置主备注幻灯片日期时间占位符及所有子日期时间占位符的文本。子占位符表示包含在依赖备注幻灯片上的占位符。依赖备注幻灯片使用并依赖主备注幻灯片。 |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | 更改主备注幻灯片日期时间占位符及所有子日期时间占位符的可见性。子占位符表示包含在依赖备注幻灯片上的占位符。依赖备注幻灯片使用并依赖主备注幻灯片。 |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | 设置主备注幻灯片页脚占位符及所有子页脚占位符的文本。子占位符表示包含在依赖备注幻灯片上的占位符。依赖备注幻灯片使用并依赖主备注幻灯片。 |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | 更改主备注幻灯片页脚占位符及所有子页脚占位符的可见性。子占位符表示包含在依赖备注幻灯片上的占位符。依赖备注幻灯片使用并依赖主备注幻灯片。 |
-| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | 设置主备注幻灯片页眉占位符及所有子页眉占位符的文本。子占位符表示包含在依赖备注幻灯片上的占位符。依赖备注幻灯片使用并依赖主备注幻灯片。 |
-| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | 更改主备注幻灯片页眉占位符及所有子页眉占位符的可见性。子占位符表示包含在依赖备注幻灯片上的占位符。依赖备注幻灯片使用并依赖主备注幻灯片。 |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | 更改主备注幻灯片页码占位符及所有子页码占位符的可见性。子占位符表示包含在依赖备注幻灯片上的占位符。依赖备注幻灯片使用并依赖主备注幻灯片。 |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | 设置主备注幻灯片日期时间占位符和所有子日期时间占位符的文本。子占位符是指包含在依赖于的备注幻灯片上的占位符。依赖的备注幻灯片使用并依赖于主备注幻灯片。 |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | 更改主备注幻灯片日期时间占位符和所有子日期时间占位符的可见性。子占位符是指包含在依赖于的备注幻灯片上的占位符。依赖的备注幻灯片使用并依赖于主备注幻灯片。 |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | 设置主备注幻灯片页脚占位符和所有子页脚占位符的文本。子占位符是指包含在依赖于的备注幻灯片上的占位符。依赖的备注幻灯片使用并依赖于主备注幻灯片。 |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | 更改主备注幻灯片页脚占位符和所有子页脚占位符的可见性。子占位符是指包含在依赖于的备注幻灯片上的占位符。依赖的备注幻灯片使用并依赖于主备注幻灯片。 |
+| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | 设置主备注幻灯片页眉占位符和所有子页眉占位符的文本。子占位符是指包含在依赖于的备注幻灯片上的占位符。依赖的备注幻灯片使用并依赖于主备注幻灯片。 |
+| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | 更改主备注幻灯片页眉占位符和所有子页眉占位符的可见性。子占位符是指包含在依赖于的备注幻灯片上的占位符。依赖的备注幻灯片使用并依赖于主备注幻灯片。 |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | 更改主备注幻灯片页码占位符和所有子页码占位符的可见性。子占位符是指包含在依赖于的备注幻灯片上的占位符。依赖的备注幻灯片使用并依赖于主备注幻灯片。 |
 
-### 参见
+### 另请参阅
 
 * 接口 [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

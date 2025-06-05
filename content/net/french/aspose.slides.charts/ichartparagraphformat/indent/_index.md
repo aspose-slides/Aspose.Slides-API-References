@@ -1,7 +1,7 @@
 ---
-title: Retrait
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit le retrait de première ligne/retrait suspendu du paragraphe. Le retrait suspendu peut être défini avec des valeurs négatives. Lecture/écriture Unique.
+title: Indent
+second_title: Aspose.Sildes pour .NET Référence API
+description: Renvoie ou définit le retrait de la première ligne du paragraphe / retrait suspendu. Le retrait suspendu peut être défini avec des valeurs négatives. Lecture/écriture Simple.
 type: docs
 weight: 60
 url: /fr/aspose.slides.charts/ichartparagraphformat/indent/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ichartparagraphformat/indent/
 
 ## Propriété IChartParagraphFormat.Indent
 
-Renvoie ou définit le retrait de première ligne/retrait suspendu du paragraphe. Le retrait suspendu peut être défini avec des valeurs négatives. Lecture/écriture Unique.
+Renvoie ou définit le retrait de la première ligne du paragraphe / retrait suspendu. Le retrait suspendu peut être défini avec des valeurs négatives. Lecture/écriture Simple.
 
 ```csharp
 public float Indent { get; set; }

@@ -1,15 +1,15 @@
 ---
 title: OrganizationChartLayout
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает или устанавливает тип компоновки организационной диаграммы, связанный с текущим узлом. Чтение/запись OrganizationChartLayoutTypeaspose.slides.smartart/organizationchartlayouttype.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или устанавливает тип макета организационной схемы, связанный с текущим узлом. Чтение/запись OrganizationChartLayoutTypeaspose.slides.smartart/organizationchartlayouttype.
 type: docs
 weight: 60
 url: /ru/aspose.slides.smartart/ismartartnode/organizationchartlayout/
 ---
 
-## Свойство ISmartArtNode.OrganizationChartLayout
+## ISmartArtNode.OrganizationChartLayout свойство
 
-Возвращает или устанавливает тип компоновки организационной диаграммы, связанный с текущим узлом. Чтение/запись [`OrganizationChartLayoutType`](../../organizationchartlayouttype).
+Возвращает или устанавливает тип макета организационной схемы, связанный с текущим узлом. Чтение/запись [`OrganizationChartLayoutType`](../../organizationchartlayouttype).
 
 ```csharp
 public OrganizationChartLayoutType OrganizationChartLayout { get; set; }

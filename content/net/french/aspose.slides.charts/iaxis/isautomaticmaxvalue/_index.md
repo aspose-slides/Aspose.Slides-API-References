@@ -1,15 +1,15 @@
 ---
 title: IsAutomaticMaxValue
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Indique si la valeur maximale est attribuée automatiquement. Booléen en lecture/écriture.
+second_title: Référence API Aspose.Slides pour .NET
+description: Indique si la valeur maximum est attribuée automatiquement. Booléen en lecture/écriture.
 type: docs
 weight: 190
 url: /fr/aspose.slides.charts/iaxis/isautomaticmaxvalue/
 ---
 
-## Propriété IAxis.IsAutomaticMaxValue
+## IAxis.IsAutomaticMaxValue property
 
-Indique si la valeur maximale est attribuée automatiquement. Booléen en lecture/écriture.
+Indique si la valeur maximum est attribuée automatiquement. Booléen en lecture/écriture.
 
 ```csharp
 public bool IsAutomaticMaxValue { get; set; }

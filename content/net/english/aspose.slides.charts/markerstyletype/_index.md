@@ -3,9 +3,10 @@ title: MarkerStyleType
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines form of marker on charts data point.
 type: docs
-weight: 2230
+weight: 2260
 url: /aspose.slides.charts/markerstyletype/
 ---
+
 ## MarkerStyleType enumeration
 
 Determines form of marker on chart's data point.

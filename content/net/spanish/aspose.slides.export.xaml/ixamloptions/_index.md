@@ -20,7 +20,7 @@ public interface IXamlOptions : ISaveOptions
 | Nombre | Descripción |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export.xaml/ixamloptions/asisaveoptions) { get; } | Devuelve la interfaz ISaveOptions. Solo lectura [`ISaveOptions`](../../aspose.slides.export/isaveoptions). |
-| [ExportHiddenSlides](../../aspose.slides.export.xaml/ixamloptions/exporthiddenslides) { get; set; } | Determina si las diapositivas ocultas serán exportadas. |
+| [ExportHiddenSlides](../../aspose.slides.export.xaml/ixamloptions/exporthiddenslides) { get; set; } | Determina si las diapositivas ocultas se exportarán. |
 | [OutputSaver](../../aspose.slides.export.xaml/ixamloptions/outputsaver) { get; set; } | Representa una implementación de la interfaz IOutputSaver. |
 
 ### Ejemplos
@@ -33,7 +33,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Ver También
+### Véase También
 
 * interfaz [ISaveOptions](../../aspose.slides.export/isaveoptions)
 * espacio de nombres [Aspose.Slides.Export.Xaml](../../aspose.slides.export.xaml)

@@ -1,7 +1,7 @@
 ---
 title: SplitTextByColumns
 second_title: Référence API Aspose.Slides pour .NET
-description: Divise le contenu textuel de l'ITextFrameaspose.slides/itextframe en un tableau de chaînes où chaque élément correspond à une colonne de texte distincte dans le cadre.
+description: Divise le contenu texte de l'ITextFrameaspose.slides/itextframe en un tableau de chaînes où chaque élément correspond à une colonne de texte distincte dans le cadre.
 type: docs
 weight: 140
 url: /fr/aspose.slides/textframe/splittextbycolumns/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/textframe/splittextbycolumns/
 
 ## Méthode TextFrame.SplitTextByColumns
 
-Divise le contenu textuel de l[`ITextFrame`](../../itextframe) en un tableau de chaînes, où chaque élément correspond à une colonne de texte distincte dans le cadre.
+Divise le contenu texte de l[`ITextFrame`](../../itextframe) en un tableau de chaînes, où chaque élément correspond à une colonne de texte distincte dans le cadre.
 
 ```csharp
 public string[] SplitTextByColumns()
@@ -17,24 +17,24 @@ public string[] SplitTextByColumns()
 
 ### Valeur de retour
 
-Un tableau de chaînes, où chaque chaîne représente le contenu textuel d'une colonne spécifique dans l[`ITextFrame`](../../itextframe).
+Un tableau de chaînes, où chaque chaîne représente le contenu texte d'une colonne spécifique dans l[`ITextFrame`](../../itextframe).
 
 ### Remarques
 
-Si le cadre texte ne contient pas plusieurs colonnes, le tableau retourné aura un seul élément contenant le texte complet. Les colonnes vides seront représentées par des chaînes vides dans le tableau.
+Si le cadre de texte ne contient pas plusieurs colonnes, le tableau retourné contiendra un seul élément contenant le texte complet. Les colonnes vides seront représentées par des chaînes vides dans le tableau.
 
 ### Exemples
 
-L'exemple suivant montre comment utiliser `SplitTextByColumns`:
+L'exemple suivant démontre comment utiliser `SplitTextByColumns` :
 
 ```csharp
 using (Presentation pres = new Presentation("example.pptx"))
 {
-    // Obtenez la première forme de la diapositive et castrez-la en ITextFrame
+    // Obtenez la première forme sur la diapositive et castrez-la en ITextFrame
     ITextFrame textFrame = pres.Slides[0].Shapes[0] as ITextFrame;
     // Divisez le contenu du cadre de texte en colonnes
     string[] columnsText = textFrame.SplitTextByColumns();
-    // Imprimez le texte de chaque colonne dans la console
+    // Imprimez le texte de chaque colonne sur la console
     foreach (string column in columnsText)
         Console.WriteLine(column);
 }

@@ -1,7 +1,7 @@
 ---
 title: TileFlip
-second_title: Aspose.Slides für .NET API-Referenz
-description: Dreht das Texturfliesen um seine horizontale, vertikale oder beide Achsen. Lesen/Schreiben von TileFlipaspose.slides/tileflip.
+second_title: Aspose.Slides für .NET API Referenz
+description: Dreht das Textur-Tile um seine horizontale, vertikale oder beide Achsen. Lesen/Schreiben von TileFlipaspose.slides/tileflip.
 type: docs
 weight: 130
 url: /de/aspose.slides/picturefillformat/tileflip/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/picturefillformat/tileflip/
 
 ## PictureFillFormat.TileFlip-Eigenschaft
 
-Dreht das Texturfliesen um seine horizontale, vertikale oder beide Achsen. Lesen/Schreiben von [`TileFlip`](../../tileflip).
+Dreht das Textur-Tile um seine horizontale, vertikale oder beide Achsen. Lesen/Schreiben von [`TileFlip`](../../tileflip).
 
 ```csharp
 public TileFlip TileFlip { get; set; }
@@ -17,7 +17,7 @@ public TileFlip TileFlip { get; set; }
 
 ### Hinweise
 
-Der Standardwert ist NoFlip.
+Standard ist NoFlip.
 
 ### Beispiele
 
@@ -33,7 +33,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
     // Setzt den Bildfüllmodus auf Tile
     pictureFillFormat.PictureFillMode = PictureFillMode.Tile;
 
-    // Dreht das Texturfliesen um seine vertikale Achse.
+    // Dreht das Textur-Tile um seine vertikale Achse.
     pictureFillFormat.TileFlip = TileFlip.FlipY;
 }
 ```

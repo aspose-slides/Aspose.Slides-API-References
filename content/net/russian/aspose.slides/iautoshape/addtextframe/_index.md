@@ -1,7 +1,7 @@
 ---
 title: AddTextFrame
-second_title: Справочник по API Aspose.Slides для .NET
-description: Добавляет новый TextFrame к фигуре. Если у фигуры уже есть TextFrame, то просто изменяет его текст.
+second_title: Aspose.Slides для .NET API Справочник
+description: Добавляет новый TextFrame к фигуре. Если фигура уже имеет TextFrame, то просто изменяет его текст.
 type: docs
 weight: 70
 url: /ru/aspose.slides/iautoshape/addtextframe/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/iautoshape/addtextframe/
 
 ## IAutoShape.AddTextFrame метод
 
-Добавляет новый TextFrame к фигуре. Если у фигуры уже есть TextFrame, то просто изменяет его текст.
+Добавляет новый TextFrame к фигуре. Если фигура уже имеет TextFrame, то просто изменяет его текст.
 
 ```csharp
 public ITextFrame AddTextFrame(string text)
@@ -19,7 +19,7 @@ public ITextFrame AddTextFrame(string text)
 | --- | --- | --- |
 | text | String | Текст по умолчанию для нового TextFrame. |
 
-### Возвращаемое значение
+### Значение Возврата
 
 Новый [`ITextFrame`](../../itextframe) объект.
 

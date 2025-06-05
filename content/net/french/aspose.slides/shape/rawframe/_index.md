@@ -1,7 +1,7 @@
 ---
 title: RawFrame
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit les propriétés des cadres de forme bruts. Lecture/écriture IShapeFrameaspose.slides/ishapeframe.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Renvoie ou définit les propriétés des frames de forme brutes. Lecture/écriture IShapeFrameaspose.slides/ishapeframe.
 type: docs
 weight: 230
 url: /fr/aspose.slides/shape/rawframe/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/shape/rawframe/
 
 ## Propriété Shape.RawFrame
 
-Renvoie ou définit les propriétés du cadre de forme brut. Lecture/écriture [`IShapeFrame`](../../ishapeframe).
+Renvoie ou définit les propriétés de la frame de forme brute. Lecture/écriture [`IShapeFrame`](../../ishapeframe).
 
 ```csharp
 public IShapeFrame RawFrame { get; set; }
@@ -17,7 +17,7 @@ public IShapeFrame RawFrame { get; set; }
 
 ### Exemples
 
-Le code qui tente d'assigner un cadre indéfini à IShape.Frame n'a pas de sens dans le cas général (particulièrement dans le cas où le GroupShape parent est plusieurs fois imbriqué dans d'autres GroupShape). Par exemple :
+Le code qui tente d'assigner une frame non définie à IShape.Frame n'a pas de sens dans le cas général (particulièrement lorsque le groupe parent GroupShape est imbriqué plusieurs fois dans d'autres GroupShape). Par exemple :
 
 ```csharp
 IShape shape = ...;
@@ -30,14 +30,14 @@ ou
 slide.Shapes.AddAutoShape(ShapeType.RoundCornerRectangle, float.NaN, float.NaN, float.NaN, float.NaN);
 ```
 
-Un tel code peut conduire à des situations peu claires. Des restrictions ont donc été ajoutées pour l'utilisation de valeurs indéfinies pour IShape.Frame. Les valeurs de x, y, largeur, hauteur, flipH, flipV et angle de rotation doivent être définies (pas float.NaN ou NullableBool.NotDefined). Le code d'exemple ci-dessus déclenche maintenant une exception ArgumentException. Cela s'applique à ces cas d'utilisation :
+Un tel code peut entraîner des situations peu claires. Des restrictions ont donc été ajoutées pour l'utilisation de valeurs non définies pour IShape.Frame. Les valeurs de x, y, width, height, flipH, flipV et rotationAngle doivent être définies (pas float.NaN ou NullableBool.NotDefined). Le code exemple ci-dessus provoque maintenant une exception ArgumentException. Cela s'applique à ces cas d'utilisation :
 
 ```csharp
 IShape shape = ...;
-shape.Frame = ...; // ne peut pas être indéfini
+shape.Frame = ...; // ne peut pas être non défini
 
 IShapeCollection shapes = ...;
-// les paramètres x, y, largeur, hauteur ne peuvent pas être float.NaN :
+// les paramètres x, y, width, height ne peuvent pas être float.NaN :
 {
     shapes.AddAudioFrameCD(...);
     shapes.AddAudioFrameEmbedded(...);
@@ -62,11 +62,11 @@ IShapeCollection shapes = ...;
 }
 ```
 
-Mais les propriétés du cadre IShape.RawFrame peuvent être indéfinies. Cela a du sens lorsque la forme est liée à un espace réservé. Ensuite, les valeurs de cadre de forme indéfinies sont remplacées par celles de la forme de l'espace réservé parent. S'il n'y a pas de forme d'espace réservé parent pour cette forme, alors cette forme utilise les valeurs par défaut lorsqu'elle évalue le cadre effectif basé sur son IShape.RawFrame. Les valeurs par défaut sont 0 et NullableBool.False pour x, y, largeur, hauteur, flipH, flipV et angle de rotation. Par exemple :
+Mais les propriétés de frame IShape.RawFrame peuvent être non définies. Cela a du sens lorsque la forme est liée à un espace réservé. Dans ce cas, les valeurs de frame de forme non définies sont remplacées par celles de la forme d'espace réservé parent. S'il n'y a pas de forme d'espace réservé parent pour cette forme, alors cette forme utilise des valeurs par défaut lorsqu'elle évalue la frame effective basée sur son IShape.RawFrame. Les valeurs par défaut sont 0 et NullableBool.False pour x, y, width, height, flipH, flipV et rotationAngle. Par exemple :
 
 ```csharp
 IShape shape = ...; // la forme est liée à un espace réservé
-shape.RawFrame = new ShapeFrame(float.NaN, float.NaN, 100, float.NaN, NullableBool.NotDefined, NullableBool.NotDefined, 0); // maintenant, la forme hérite des valeurs x, y, hauteur, flipH, flipV de l'espace réservé et remplace largeur=100 et angle de rotation=0.
+shape.RawFrame = new ShapeFrame(float.NaN, float.NaN, 100, float.NaN, NullableBool.NotDefined, NullableBool.NotDefined, 0); // maintenant la forme hérite des valeurs x, y, height, flipH, flipV de l'espace réservé et remplace width=100 et rotationAngle=0.
 ```
 
 ### Voir aussi

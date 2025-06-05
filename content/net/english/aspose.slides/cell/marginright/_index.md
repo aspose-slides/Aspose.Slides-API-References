@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides/cell/marginright/
 ---
+
 ## Cell.MarginRight property
 
 Returns or sets the right margin in a TextFrame. Read/write Double.

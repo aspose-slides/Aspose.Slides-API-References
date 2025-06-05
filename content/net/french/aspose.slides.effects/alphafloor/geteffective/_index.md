@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides pour .NET API Référence
-description: Obtient les données d'effet Alpha Floor effectif avec l'héritage appliqué.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Obtient les données effet Alpha Floor effectives avec l'héritage appliqué.
 type: docs
 weight: 20
 url: /fr/aspose.slides.effects/alphafloor/geteffective/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/alphafloor/geteffective/
 
 ## AlphaFloor.GetEffective méthode
 
-Obtient les données d'effet Alpha Floor effectif avec l'héritage appliqué.
+Obtient les données effet Alpha Floor effectives avec l'héritage appliqué.
 
 ```csharp
 public IAlphaFloorEffectiveData GetEffective()

@@ -1,7 +1,7 @@
 ---
 title: AsCells
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает или устанавливает коллекцию ячеек диаграммы. Чтение/запись IChartCellCollectionaspose.slides.charts/ichartcellcollection.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или задает коллекцию ячеек диаграммы. Чтение/запись IChartCellCollectionaspose.slides.charts/ichartcellcollection.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/imultiplecellchartvalue/ascells/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/imultiplecellchartvalue/ascells/
 
 ## IMultipleCellChartValue.AsCells свойство
 
-Возвращает или устанавливает коллекцию ячеек диаграммы. Чтение/запись [`IChartCellCollection`](../../ichartcellcollection).
+Возвращает или задает коллекцию ячеек диаграммы. Чтение/запись [`IChartCellCollection`](../../ichartcellcollection).
 
 ```csharp
 public IChartCellCollection AsCells { get; set; }
@@ -17,7 +17,7 @@ public IChartCellCollection AsCells { get; set; }
 
 ### Примечания
 
-Присвоение значения null не допускается.
+Назначение значения null не допускается.
 
 ### Смотрите также
 

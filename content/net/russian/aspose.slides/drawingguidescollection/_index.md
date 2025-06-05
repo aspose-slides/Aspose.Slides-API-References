@@ -1,7 +1,7 @@
 ---
 title: DrawingGuidesCollection
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Представляет собой коллекцию настраиваемых вспомогательных линий для рисования.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет собой коллекцию настраиваемых направляющих рисования.
 type: docs
 weight: 2730
 url: /ru/aspose.slides/drawingguidescollection/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/drawingguidescollection/
 
 ## Класс DrawingGuidesCollection
 
-Представляет собой коллекцию настраиваемых вспомогательных линий для рисования.
+Представляет собой коллекцию настраиваемых направляющих рисования.
 
 ```csharp
 public sealed class DrawingGuidesCollection : IDrawingGuidesCollection
@@ -17,22 +17,22 @@ public sealed class DrawingGuidesCollection : IDrawingGuidesCollection
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [Count](../../aspose.slides/drawingguidescollection/count) { get; } | Возвращает количество элементов в коллекции. Только для чтения Int32. |
-| [Item](../../aspose.slides/drawingguidescollection/item) { get; } | Возвращает вспомогательную линию для рисования по индексу. Только для чтения [`IDrawingGuide`](../idrawingguide). |
+| [Item](../../aspose.slides/drawingguidescollection/item) { get; } | Возвращает направляющую рисования по индексу. Только для чтения [`IDrawingGuide`](../idrawingguide). |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Add](../../aspose.slides/drawingguidescollection/add)(Orientation, float) | Добавляет вспомогательную линию для рисования в конец коллекции. |
+| [Add](../../aspose.slides/drawingguidescollection/add)(Orientation, float) | Добавляет направляющую рисования в конец коллекции. |
 | [Clear](../../aspose.slides/drawingguidescollection/clear)() | Удаляет все элементы из коллекции. |
-| [CopyTo](../../aspose.slides/drawingguidescollection/copyto)(IDrawingGuide[], int) | Копирует все элементы из коллекции в указанную массив. |
-| [GetEnumerator](../../aspose.slides/drawingguidescollection/getenumerator)() | Возвращает перечислитель, который проходит через коллекцию. |
-| [RemoveAt](../../aspose.slides/drawingguidescollection/removeat)(int) | Удаляет вспомогательную линию для рисования по указанному индексу. |
+| [CopyTo](../../aspose.slides/drawingguidescollection/copyto)(IDrawingGuide[], int) | Копирует все элементы из коллекции в указанный массив. |
+| [GetEnumerator](../../aspose.slides/drawingguidescollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [RemoveAt](../../aspose.slides/drawingguidescollection/removeat)(int) | Удаляет направляющую рисования по указанному индексу. |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IDrawingGuidesCollection](../idrawingguidescollection)
 * пространство имен [Aspose.Slides](../../aspose.slides)

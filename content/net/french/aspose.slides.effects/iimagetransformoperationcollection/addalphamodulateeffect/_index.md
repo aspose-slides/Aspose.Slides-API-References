@@ -1,6 +1,6 @@
 ---
-title: AjouterEffetAlphaModulate
-second_title: Référence de l'API Aspose.Sildes pour .NET
+title: AddAlphaModulateEffect
+second_title: Aspose.Sildes pour la référence de l'API .NET
 description: Ajoute le nouvel effet Alpha Modulate à la fin d'une collection.
 type: docs
 weight: 70
@@ -15,11 +15,11 @@ Ajoute le nouvel effet Alpha Modulate à la fin d'une collection.
 public IAlphaModulate AddAlphaModulateEffect()
 ```
 
-### Valeur de Retour
+### Valeur de retour
 
-Index du nouvel effet d'image dans une collection.
+Indice du nouvel effet d'image dans une collection.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IAlphaModulate](../../ialphamodulate)
 * interface [IImageTransformOperationCollection](../../iimagetransformoperationcollection)

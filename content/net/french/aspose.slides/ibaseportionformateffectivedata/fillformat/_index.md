@@ -1,21 +1,21 @@
 ---
-title: RemplissageFormat
+title: FillFormat
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie les propriétés de format de remplissage de texte. Lecture seule IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
+description: Renvoie les propriétés de remplissage de texte FillFormat. Lecture seule IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
 type: docs
 weight: 60
 url: /fr/aspose.slides/ibaseportionformateffectivedata/fillformat/
 ---
 
-## Propriété IBasePortionFormatEffectiveData.RemplissageFormat
+## Propriété IBasePortionFormatEffectiveData.FillFormat
 
-Renvoie les propriétés de format de remplissage de texte. Lecture seule [`IFillFormatEffectiveData`](../../ifillformateffectivedata).
+Renvoie les propriétés de remplissage de texte FillFormat. Lecture seule [`IFillFormatEffectiveData`](../../ifillformateffectivedata).
 
 ```csharp
 public IFillFormatEffectiveData FillFormat { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IFillFormatEffectiveData](../../ifillformateffectivedata)
 * interface [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)

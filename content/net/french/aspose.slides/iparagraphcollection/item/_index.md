@@ -1,5 +1,5 @@
 ---
-title: Élément
+title: Item
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient l'élément à l'index spécifié.
 type: docs
@@ -7,7 +7,7 @@ weight: 40
 url: /fr/aspose.slides/iparagraphcollection/item/
 ---
 
-## Indexeur IParagraphCollection
+## IParagraphCollection indexer
 
 Obtient l'élément à l'index spécifié.
 

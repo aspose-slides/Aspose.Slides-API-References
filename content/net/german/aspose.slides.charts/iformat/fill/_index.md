@@ -1,21 +1,21 @@
 ---
-title: Füllung
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Eigenschaften des Füllstils eines Diagramms zurück. Nur-Lese IFillFormataspose.slides/../aspose.slides/ifillformat.
+title: Fill
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Eigenschaften des Füllstils eines Diagramms zurück. Nur lesen IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/iformat/fill/
 ---
 
-## IFormat.Fill-Eigenschaft
+## IFormat.Fill Eigenschaft
 
-Gibt die Eigenschaften des Füllstils eines Diagramms zurück. Nur-Lese [`IFillFormat`](../../../aspose.slides/ifillformat).
+Gibt die Eigenschaften des Füllstils eines Diagramms zurück. Nur lesen [`IFillFormat`](../../../aspose.slides/ifillformat).
 
 ```csharp
 public IFillFormat Fill { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IFillFormat](../../../aspose.slides/ifillformat)
 * Schnittstelle [IFormat](../../iformat)

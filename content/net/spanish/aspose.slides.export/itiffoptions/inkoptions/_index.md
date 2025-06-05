@@ -1,6 +1,6 @@
 ---
 title: InkOptions
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de API Aspose.Slides para .NET
 description: Proporciona opciones que controlan la apariencia de los objetos de tinta en el documento exportado. Solo lectura IInkOptionsaspose.slides.export/iinkoptions
 type: docs
 weight: 70
@@ -15,11 +15,11 @@ Proporciona opciones que controlan la apariencia de los objetos de tinta en el d
 public IInkOptions InkOptions { get; }
 ```
 
-### Véase También
+### Ver también
 
-* interfaz [IInkOptions](../../iinkoptions)
-* interfaz [ITiffOptions](../../itiffoptions)
-* espacio de nombres [Aspose.Slides.Export](../../itiffoptions)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IInkOptions](../../iinkoptions)
+* interfaz [ITiffOptions](../../itiffoptions)
+* espacio de nombres [Aspose.Slides.Export](../../itiffoptions)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

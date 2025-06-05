@@ -1,7 +1,7 @@
 ---
 title: AsIAccessiblePVIObject
 second_title: Aspose.Sildes for .NET API Reference
-description: 允许获取基础 IAccessiblePVIObject 接口。只读 IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1。
+description: 允许获取基本的 IAccessiblePVIObject 接口。只读 IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1。
 type: docs
 weight: 20
 url: /zh/aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject/
 
 ## IAlphaModulateFixed.AsIAccessiblePVIObject 属性
 
-允许获取基础 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1)。
+允许获取基本的 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1)。
 
 ```csharp
 public IAccessiblePVIObject<IAlphaModulateFixedEffectiveData> AsIAccessiblePVIObject { get; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
 * 接口 [IAlphaModulateFixedEffectiveData](../../ialphamodulatefixedeffectivedata)

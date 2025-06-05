@@ -1,6 +1,6 @@
 ---
 title: CopyTo
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Copie les éléments de l'ICollection dans un tableau en commençant à un index particulier du tableau.
 type: docs
 weight: 70
@@ -17,8 +17,8 @@ public void CopyTo(IBehavior[] array, int arrayIndex)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| array | IBehavior[] | Le tableau unidimensionnel qui est la destination des éléments copiés depuis l'ICollection. Le tableau doit avoir un index basé sur zéro. |
-| arrayIndex | Int32 | L'index basé sur zéro dans *array* à partir duquel la copie commence. |
+| array | IBehavior[] | Le tableau unidimensionnel qui est la destination des éléments copiés à partir de l'ICollection. Le tableau doit avoir un index basé sur zéro. |
+| arrayIndex | Int32 | L'index basé sur zéro dans *array* où la copie commence. |
 
 ### Exceptions
 
@@ -26,9 +26,9 @@ public void CopyTo(IBehavior[] array, int arrayIndex)
 | --- | --- |
 | ArgumentNullException | *array* est nul. |
 | ArgumentOutOfRangeException | *arrayIndex* est inférieur à 0. |
-| ArgumentException | Le nombre d'éléments dans l'ICollection source est supérieur à l'espace disponible de *arrayIndex* à la fin du *array* destination. |
+| ArgumentException | Le nombre d'éléments dans l'ICollection source est supérieur à l'espace disponible de *arrayIndex* jusqu'à la fin du *array* de destination. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IBehavior](../../ibehavior)
 * class [BehaviorCollection](../../behaviorcollection)

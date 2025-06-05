@@ -1,6 +1,6 @@
 ---
 title: GetEffective
-second_title: Aspose.Sildes para .NET Referencia de API
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene datos de formato de relleno efectivo con la herencia aplicada.
 type: docs
 weight: 80
@@ -19,7 +19,7 @@ public IFillFormatEffectiveData GetEffective()
 
 Un [`IFillFormatEffectiveData`](../../ifillformateffectivedata).
 
-### Véase También
+### Consulta También
 
 * interfaz [IFillFormatEffectiveData](../../ifillformateffectivedata)
 * interfaz [IFillFormat](../../ifillformat)

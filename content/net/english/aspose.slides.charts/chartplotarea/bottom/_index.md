@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/chartplotarea/bottom/
 ---
+
 ## ChartPlotArea.Bottom property
 
 Bottom. Read-only Single.

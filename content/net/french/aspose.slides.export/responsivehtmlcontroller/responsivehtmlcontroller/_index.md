@@ -1,6 +1,6 @@
 ---
 title: ResponsiveHtmlController
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Crée une nouvelle instance
 type: docs
 weight: 10

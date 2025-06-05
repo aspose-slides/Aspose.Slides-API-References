@@ -1,6 +1,6 @@
 ---
 title: ImageDataCropRight
-second_title: Aspose.Slides para .NET Referencia de API
+second_title: Referencia de la API Aspose.Slides para .NET
 description: Representa la propiedad imageData.cropRight
 type: docs
 weight: 460
@@ -19,6 +19,6 @@ public static BehaviorProperty ImageDataCropRight { get; }
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

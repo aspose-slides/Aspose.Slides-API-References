@@ -1,6 +1,6 @@
 ---
 title: NullableBool
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Représente des valeurs booléennes triples.
 type: docs
 weight: 8900
@@ -19,7 +19,7 @@ public enum NullableBool : sbyte
 
 | Nom | Valeur | Description |
 | --- | --- | --- |
-| NotDefined | `-1` | La valeur booléenne n'est pas définie. |
+| NotDefined | `-1` | La valeur booléenne est indéfinie. |
 | False | `0` | Valeur fausse. |
 | True | `1` | Valeur vraie. |
 
@@ -28,4 +28,4 @@ public enum NullableBool : sbyte
 * espace de noms [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
-<!-- NE PAS ÉDITER : généré par xmldocmd pour Aspose.Slides.dll -->
+<!-- NE PAS MODIFIER : généré par xmldocmd pour Aspose.Slides.dll -->

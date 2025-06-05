@@ -1,6 +1,6 @@
 ---
 title: CreateInnerShadow
-second_title: Aspose.Slildes for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 创建内阴影效果。
 type: docs
 weight: 40

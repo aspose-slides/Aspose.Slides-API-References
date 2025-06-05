@@ -1,7 +1,7 @@
 ---
 title: GetLevel
-second_title: Aspose.Sildes для .NET API Reference
-description: Возвращает уровень действующего стиля.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает уровень эффективного стиля.
 type: docs
 weight: 20
 url: /ru/aspose.slides/itextstyleeffectivedata/getlevel/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/itextstyleeffectivedata/getlevel/
 
 ## ITextStyleEffectiveData.GetLevel метод
 
-Возвращает уровень действующего стиля.
+Возвращает уровень эффективного стиля.
 
 ```csharp
 public IParagraphFormatEffectiveData GetLevel(int index)
@@ -17,7 +17,7 @@ public IParagraphFormatEffectiveData GetLevel(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс уровня с нуля. Должен находиться в интервале 0..8. |
+| index | Int32 | Индекс уровня, начинающийся с нуля. Должен находиться в интервале 0..8. |
 
 ### Возвращаемое значение
 

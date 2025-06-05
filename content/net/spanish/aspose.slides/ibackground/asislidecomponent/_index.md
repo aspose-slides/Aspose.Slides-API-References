@@ -1,15 +1,15 @@
 ---
 title: AsISlideComponent
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve la interfaz ISlideComponent. ISlideComponent de solo lectura aspose.slides/islidecomponent.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Devuelve la interfaz ISlideComponent. Solo lectura ISlideComponent aspose.slides/islidecomponent.
 type: docs
 weight: 20
 url: /es/aspose.slides/ibackground/asislidecomponent/
 ---
 
-## Propiedad IBackground.AsISlideComponent
+## IBackground.AsISlideComponent propiedad
 
-Devuelve la interfaz ISlideComponent. [`ISlideComponent`](../../islidecomponent) de solo lectura.
+Devuelve la interfaz ISlideComponent. Solo lectura [`ISlideComponent`](../../islidecomponent).
 
 ```csharp
 public ISlideComponent AsISlideComponent { get; }
@@ -19,11 +19,11 @@ public ISlideComponent AsISlideComponent { get; }
 
 Para compatibilidad con COM.
 
-### Véase También
+### Ver También
 
-* interfaz [ISlideComponent](../../islidecomponent)
-* interfaz [IBackground](../../ibackground)
-* espacio de nombres [Aspose.Slides](../../ibackground)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [ISlideComponent](../../islidecomponent)
+* interfaz [IBackground](../../ibackground)
+* espacio de nombres [Aspose.Slides](../../ibackground)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

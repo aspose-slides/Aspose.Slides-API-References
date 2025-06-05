@@ -1,13 +1,13 @@
 ---
 title: DefaultParagraphFormat
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Propiedades del párrafo predeterminado. Solo lectura IParagraphFormat aspose.slides/iparagraphformat.
 type: docs
 weight: 10
 url: /es/aspose.slides/textstyle/defaultparagraphformat/
 ---
 
-## Propiedad TextStyle.DefaultParagraphFormat
+## TextStyle.DefaultParagraphFormat propiedad
 
 Propiedades del párrafo predeterminado. Solo lectura [`IParagraphFormat`](../../iparagraphformat).
 
@@ -22,4 +22,4 @@ public IParagraphFormat DefaultParagraphFormat { get; }
 * espacio de nombres [Aspose.Slides](../../textstyle)
 * ensamblado [Aspose.Slides](../../../)
 
-<!-- NO EDITE: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -7,7 +7,7 @@ weight: 10
 url: /fr/aspose.slides/iformatfactory/createparagraphformat/
 ---
 
-## Méthode IFormatFactory.CreateParagraphFormat
+## IFormatFactory.CreateParagraphFormat méthode
 
 Crée un nouvel [`IParagraphFormat`](../../iparagraphformat).
 

@@ -1,5 +1,5 @@
 ---
-title: Tamaño
+title: Size
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece el tamaño en puntos. Lectura/escritura SizeF.
 type: docs
@@ -15,10 +15,10 @@ Devuelve o establece el tamaño en puntos. Lectura/escritura SizeF.
 public SizeF Size { get; set; }
 ```
 
-### Vera También
+### Véase también
 
 * clase [NotesSize](../../notessize)
-* espacio de nombres [Aspose.Slides](../../notessize)
-* ensamblaje [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../notessize)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

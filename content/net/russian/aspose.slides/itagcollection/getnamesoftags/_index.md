@@ -15,11 +15,11 @@ url: /ru/aspose.slides/itagcollection/getnamesoftags/
 public string[] GetNamesOfTags()
 ```
 
-### Значение Возврата
+### Возвращаемое значение
 
 Имена тегов.
 
-### См. Также
+### Также смотрите
 
 * интерфейс [ITagCollection](../../itagcollection)
 * пространство имен [Aspose.Slides](../../itagcollection)

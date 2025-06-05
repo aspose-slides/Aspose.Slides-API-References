@@ -1,21 +1,21 @@
 ---
-title: Agrandir
-second_title: Référence API Aspose.Slides pour .NET
-description: Détermine si les limites de l'objet doivent être agrandies à la suite du flou. True indique que les limites sont agrandies tandis que false indique qu'elles ne le sont pas. Booléen en lecture/écriture.
+title: Grow
+second_title: Aspose.Slides pour .NET API Référence
+description: Détermine si les limites de l'objet doivent être étendues en raison du flou. True indique que les limites sont étendues tandis que false indique qu'elles ne le sont pas. Booléen en lecture/écriture.
 type: docs
 weight: 30
 url: /fr/aspose.slides.effects/iblur/grow/
 ---
 
-## Propriété IBlur.Grow
+## IBlur.Grow property
 
-Détermine si les limites de l'objet doivent être agrandies à la suite du flou. True indique que les limites sont agrandies tandis que false indique qu'elles ne le sont pas. Booléen en lecture/écriture.
+Détermine si les limites de l'objet doivent être étendues en raison du flou. True indique que les limites sont étendues tandis que false indique qu'elles ne le sont pas. Booléen en lecture/écriture.
 
 ```csharp
 public bool Grow { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IBlur](../../iblur)
 * namespace [Aspose.Slides.Effects](../../iblur)

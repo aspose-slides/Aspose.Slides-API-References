@@ -1,21 +1,21 @@
 ---
-title: Компания
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает или задает свойство компании. Читаемое/записываемое строковое значение.
+title: Company
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или устанавливает свойство компании. Читаемое/записываемое String.
 type: docs
 weight: 70
 url: /ru/aspose.slides/documentproperties/company/
 ---
 
-## Свойство DocumentProperties.Company
+## DocumentProperties.Company свойство
 
-Возвращает или задает свойство компании. Читаемое/записываемое строковое значение.
+Возвращает или устанавливает свойство компании. Читаемое/записываемое String.
 
 ```csharp
 public string Company { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [DocumentProperties](../../documentproperties)
 * пространство имен [Aspose.Slides](../../documentproperties)

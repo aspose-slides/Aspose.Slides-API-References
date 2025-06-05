@@ -1,6 +1,6 @@
 ---
 title: ILineFormatCollectionEffectiveData
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Objet immuable qui représente une collection en lecture seule de formats de ligne effectifs.
 type: docs
 weight: 10990
@@ -23,7 +23,7 @@ public interface ILineFormatCollectionEffectiveData : IGenericCollection<ILineFo
 
 ### Remarques
 
-Cette interface est utilisée comme partie de [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata).
+Cette interface est utilisée comme une partie de [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata).
 
 ### Voir aussi
 

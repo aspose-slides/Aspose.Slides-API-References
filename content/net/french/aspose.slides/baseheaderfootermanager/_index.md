@@ -1,7 +1,7 @@
 ---
 title: BaseHeaderFooterManager
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente un gestionnaire qui conserve le comportement des espaces réservés pour le pied de page, la date-heure et le numéro de page pour tous les types de diapositives.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Représente le gestionnaire qui gère le comportement des espaceurs de date-heure et de numéro de page du pied de page pour tous les types de diapositives.
 type: docs
 weight: 880
 url: /fr/aspose.slides/baseheaderfootermanager/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/baseheaderfootermanager/
 
 ## Classe BaseHeaderFooterManager
 
-Représente un gestionnaire qui conserve le comportement des espaces réservés pour le pied de page, la date-heure et le numéro de page pour tous les types de diapositives.
+Représente le gestionnaire qui gère le comportement du pied de page, de la date-heure, et des espaceurs de numéro de page pour tous les types de diapositives.
 
 ```csharp
 public abstract class BaseHeaderFooterManager : IBaseHeaderFooterManager

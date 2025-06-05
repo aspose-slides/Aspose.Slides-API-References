@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/idatalabel/isvisible/
 ---
+
 ## IDataLabel.IsVisible property
 
 False means that data label is not visible (and so all Show*-flags (ShowValue, ...) are false). Read-only Boolean.

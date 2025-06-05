@@ -1,13 +1,13 @@
 ---
 title: MorphType
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Slides для .NET API Справочник
 description: Тип морфного перехода. Чтение/запись TransitionMorphTypeaspose.slides.slideshow/transitionmorphtype.
 type: docs
 weight: 20
 url: /ru/aspose.slides.slideshow/imorphtransition/morphtype/
 ---
 
-## Свойство IMorphTransition.MorphType
+## IMorphTransition.MorphType свойство
 
 Тип морфного перехода. Чтение/запись [`TransitionMorphType`](../../transitionmorphtype).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.slideshow/imorphtransition/morphtype/
 public TransitionMorphType MorphType { get; set; }
 ```
 
-### См. также
+### См. Также
 
 * enum [TransitionMorphType](../../transitionmorphtype)
 * interface [IMorphTransition](../../imorphtransition)

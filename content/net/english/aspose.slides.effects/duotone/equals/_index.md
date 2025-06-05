@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.effects/duotone/equals/
 ---
+
 ## Duotone.Equals method
 
 Determines whether the specified [`Duotone`](../../duotone) is equal to the current [`Duotone`](../../duotone).

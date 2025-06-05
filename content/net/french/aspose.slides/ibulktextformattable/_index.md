@@ -1,6 +1,6 @@
 ---
 title: IBulkTextFormattable
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Représente un objet avec la possibilité de définir en masse les formats des éléments de texte enfants.
 type: docs
 weight: 5180

@@ -1,13 +1,13 @@
 ---
 title: GetDependingSlides
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve un arreglo con todas las diapositivas que dependen de esta diapositiva maestra.
 type: docs
 weight: 120
 url: /es/aspose.slides/masterslide/getdependingslides/
 ---
 
-## Método MasterSlide.GetDependingSlides
+## MasterSlide.GetDependingSlides método
 
 Devuelve un arreglo con todas las diapositivas que dependen de esta diapositiva maestra.
 
@@ -15,11 +15,11 @@ Devuelve un arreglo con todas las diapositivas que dependen de esta diapositiva 
 public ISlide[] GetDependingSlides()
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [ISlide](../../islide)
 * clase [MasterSlide](../../masterslide)
 * espacio de nombres [Aspose.Slides](../../masterslide)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

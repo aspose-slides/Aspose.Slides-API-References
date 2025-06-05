@@ -1,6 +1,6 @@
 ---
 title: Equals
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: type docs
 weight: 50
 url: /de/aspose.slides/shapebevel/equals/
@@ -12,7 +12,7 @@ url: /de/aspose.slides/shapebevel/equals/
 public override bool Equals(object obj)
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [ShapeBevel](../../shapebevel)
 * Namespace [Aspose.Slides](../../shapebevel)

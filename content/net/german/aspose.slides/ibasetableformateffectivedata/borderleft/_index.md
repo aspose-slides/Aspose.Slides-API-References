@@ -1,7 +1,7 @@
 ---
 title: BorderLeft
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den effektiven Wert des Formatierungsstils der linken Rahmenlinie zurück. Nur lesbar ILineFormatEffectiveData aspose.slides/ilineformateffectivedata.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den effektiven Wert des linken Rahmenelements zurück. Nur-Lese ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs
 weight: 40
 url: /de/aspose.slides/ibasetableformateffectivedata/borderleft/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ibasetableformateffectivedata/borderleft/
 
 ## IBaseTableFormatEffectiveData.BorderLeft-Eigenschaft
 
-Gibt den effektiven Wert des Formatierungsstils der linken Rahmenlinie zurück. Nur lesbar [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
+Gibt den effektiven Wert des linken Rahmenelements zurück. Nur-Lese [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
 
 ```csharp
 public ILineFormatEffectiveData BorderLeft { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ILineFormatEffectiveData](../../ilineformateffectivedata)
 * Schnittstelle [IBaseTableFormatEffectiveData](../../ibasetableformateffectivedata)

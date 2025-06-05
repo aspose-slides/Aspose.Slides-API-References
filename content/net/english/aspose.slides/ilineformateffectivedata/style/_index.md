@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides/ilineformateffectivedata/style/
 ---
+
 ## ILineFormatEffectiveData.Style property
 
 Returns the line style. Read-only [`LineStyle`](../../linestyle).

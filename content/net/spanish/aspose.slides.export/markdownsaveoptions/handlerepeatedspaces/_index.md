@@ -12,7 +12,7 @@ url: /es/aspose.slides.export/markdownsaveoptions/handlerepeatedspaces/
 public HandleRepeatedSpaces HandleRepeatedSpaces { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * enum [HandleRepeatedSpaces](../../handlerepeatedspaces)
 * class [MarkdownSaveOptions](../../markdownsaveoptions)

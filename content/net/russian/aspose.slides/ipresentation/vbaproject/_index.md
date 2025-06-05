@@ -1,13 +1,13 @@
 ---
 title: VbaProject
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes for .NET API Reference
 description: Получает проект VBA с макросами презентации. Чтение/запись IVbaProjectaspose.slides.vba/ivbaproject.
 type: docs
 weight: 270
 url: /ru/aspose.slides/ipresentation/vbaproject/
 ---
 
-## Свойство IPresentation.VbaProject
+## IPresentation.VbaProject свойство
 
 Получает проект VBA с макросами презентации. Чтение/запись [`IVbaProject`](../../../aspose.slides.vba/ivbaproject).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ipresentation/vbaproject/
 public IVbaProject VbaProject { get; set; }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IVbaProject](../../../aspose.slides.vba/ivbaproject)
 * интерфейс [IPresentation](../../ipresentation)

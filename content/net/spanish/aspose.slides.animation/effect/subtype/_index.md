@@ -1,6 +1,6 @@
 ---
-title: Subtipo
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Subtype
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Define el subtipo de efecto. Lectura/escritura EffectSubtypeaspose.slides.animation/effectsubtype.
 type: docs
 weight: 100
@@ -15,7 +15,7 @@ Define el subtipo de efecto. Lectura/escritura [`EffectSubtype`](../../effectsub
 public EffectSubtype Subtype { get; set; }
 ```
 
-### Véase también
+### Ver también
 
 * enum [EffectSubtype](../../effectsubtype)
 * class [Effect](../../effect)

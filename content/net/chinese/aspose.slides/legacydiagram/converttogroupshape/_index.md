@@ -1,7 +1,7 @@
 ---
-title: 转换为群组形状
-second_title: Aspose.Slides for .NET API 参考
-description: 将遗留图表转换为可编辑的群组形状。创建的 GroupShape 对象在相同位置添加到父群组形状中。
+title: ConvertToGroupShape
+second_title: Aspose.Slides for .NET API Reference
+description: 将遗留图表转换为可编辑的组形状。创建的 GroupShape 对象将添加到父组形状的相同位置。
 type: docs
 weight: 20
 url: /zh/aspose.slides/legacydiagram/converttogroupshape/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/legacydiagram/converttogroupshape/
 
 ## LegacyDiagram.ConvertToGroupShape 方法
 
-将遗留图表转换为可编辑的群组形状。创建的 GroupShape 对象在相同位置添加到父群组形状中。
+将遗留图表转换为可编辑的组形状。创建的 GroupShape 对象将添加到父组形状的相同位置。
 
 ```csharp
 public IGroupShape ConvertToGroupShape()
@@ -19,7 +19,7 @@ public IGroupShape ConvertToGroupShape()
 
 创建的 GroupShape 对象。
 
-### 参见
+### 另请参阅
 
 * 接口 [IGroupShape](../../igroupshape)
 * 类 [LegacyDiagram](../../legacydiagram)

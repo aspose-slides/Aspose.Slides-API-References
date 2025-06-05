@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/layoutslidecollection/item/
 ---
+
 ## LayoutSlideCollection indexer
 
 Returns the layout slide by index. Read-only [`LayoutSlide`](../../layoutslide).

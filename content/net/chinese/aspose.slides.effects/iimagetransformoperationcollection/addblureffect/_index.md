@@ -1,15 +1,15 @@
 ---
-title: 添加模糊效果
-second_title: Aspose.Sildes for .NET API 参考
-description: 在集合的末尾添加新的模糊效果。
+title: AddBlurEffect
+second_title: Aspose.Sildes for .NET API Reference
+description: 将新的模糊效果添加到集合的末尾。
 type: docs
 weight: 110
 url: /zh/aspose.slides.effects/iimagetransformoperationcollection/addblureffect/
 ---
 
-## IImageTransformOperationCollection.AddBlurEffect 方法
+## IImageTransformOperationCollection.AddBlurEffect method
 
-在集合的末尾添加新的模糊效果。
+将新的模糊效果添加到集合的末尾。
 
 ```csharp
 public IBlur AddBlurEffect(double radius, bool grow)
@@ -17,14 +17,14 @@ public IBlur AddBlurEffect(double radius, bool grow)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| radius | Double | 模糊的半径。 |
-| grow | Boolean | 指定模糊后对象的边界是否应扩大。True表示边界扩大，而false表示不扩大。 |
+| radius | Double | 模糊半径。 |
+| grow | Boolean | 指定模糊后对象的边界是否应扩展。True 表示边界扩展，而 false 表示不扩展。 |
 
 ### 返回值
 
 新图像效果在集合中的索引。
 
-### 另见
+### 参见
 
 * 接口 [IBlur](../../iblur)
 * 接口 [IImageTransformOperationCollection](../../iimagetransformoperationcollection)

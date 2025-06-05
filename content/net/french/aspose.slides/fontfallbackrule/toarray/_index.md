@@ -1,6 +1,6 @@
 ---
 title: ToArray
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Crée et renvoie un tableau avec toutes les polices FallBack pour cette règle.
 type: docs
 weight: 110
@@ -17,7 +17,7 @@ public string[] ToArray()
 
 ### Valeur de retour
 
-Tableau de String
+Tableau de chaînes
 
 ### Exemples
 
@@ -32,7 +32,7 @@ string[] fontNames = newRule.ToArray();
 
 ### Voir aussi
 
-* classe [FontFallBackRule](../../fontfallbackrule)
+* class [FontFallBackRule](../../fontfallbackrule)
 * namespace [Aspose.Slides](../../fontfallbackrule)
 * assembly [Aspose.Slides](../../../)
 
@@ -40,7 +40,7 @@ string[] fontNames = newRule.ToArray();
 
 ## ToArray(int, int) {#toarray_1}
 
-Crée et renvoie un tableau avec toutes les polices FallBack du range spécifié dans la liste.
+Crée et renvoie un tableau avec toutes les polices FallBack de la plage spécifiée dans la liste.
 
 ```csharp
 public string[] ToArray(int startIndex, int count)
@@ -53,7 +53,7 @@ public string[] ToArray(int startIndex, int count)
 
 ### Valeur de retour
 
-Tableau de String
+Tableau de chaînes
 
 ### Exemples
 
@@ -68,7 +68,7 @@ string[] fontNames = newRule.ToArray(2,2);
 
 ### Voir aussi
 
-* classe [FontFallBackRule](../../fontfallbackrule)
+* class [FontFallBackRule](../../fontfallbackrule)
 * namespace [Aspose.Slides](../../fontfallbackrule)
 * assembly [Aspose.Slides](../../../)
 

@@ -1,15 +1,15 @@
 ---
 title: SvgEvent
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt Optionen für die SVG-Form dar.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt Optionen für SVG-Formen dar.
 type: docs
 weight: 4300
 url: /de/aspose.slides.export/svgevent/
 ---
 
-## SvgEvent-Aufzählung
+## SvgEvent Aufzählung
 
-Stellt Optionen für die SVG-Form dar.
+Stellt Optionen für SVG-Formen dar.
 
 ```csharp
 public enum SvgEvent
@@ -20,26 +20,26 @@ public enum SvgEvent
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | OnFocusIn | `0` | Tritt auf, wenn ein Element den Fokus erhält, z. B. wenn ein Text ausgewählt wird. |
-| OnFocusOut | `1` | Tritt auf, wenn ein Element den Fokus verliert, z. B. wenn ein Text nicht mehr ausgewählt ist. |
+| OnFocusOut | `1` | Tritt auf, wenn ein Element den Fokus verliert, z. B. wenn ein Text abgewählt wird. |
 | OnActivate | `2` | Tritt auf, wenn ein Element aktiviert wird, beispielsweise durch einen Mausklick oder einen Tastendruck. |
-| OnClick | `3` | Tritt auf, wenn die Taste des Zeigegeräts über einem Element geklickt wird. |
-| OnMouseDown | `4` | Tritt auf, wenn die Taste des Zeigegeräts über einem Element gedrückt wird. |
-| OnMouseUp | `5` | Tritt auf, wenn die Taste des Zeigegeräts über einem Element losgelassen wird. |
-| OnMouseOver | `6` | Tritt auf, wenn das Zeigegerät über ein Element bewegt wird. |
-| OnMouseMove | `7` | Tritt auf, wenn das Zeigegerät bewegt wird, während es sich über einem Element befindet. |
-| OnMouseOut | `8` | Tritt auf, wenn das Zeigegerät von einem Element weg bewegt wird. |
-| OnLoad | `9` | Tritt auf, wenn der Benutzer-Agent das Element und seine Nachfahren vollständig analysiert hat sowie alle verwandten Ressourcen, die erforderlich sind, um es darzustellen. |
-| OnUnload | `10` | Tritt auf, wenn die DOM-Implementierung ein Dokument aus einem Fenster oder Frame entfernt. Nur anwendbar auf die äußersten SVG-Elemente. |
-| OnAbort | `11` | Tritt auf, wenn das Laden der Seite gestoppt wird, bevor ein Element vollständig geladen werden konnte. |
-| OnError | `12` | Tritt auf, wenn ein Element nicht richtig geladen wird oder wenn ein Fehler während der Skriptausführung auftritt. |
-| OnResize | `13` | Tritt auf, wenn eine Dokumentansicht verkleinert oder vergrößert wird. Nur anwendbar auf die äußersten SVG-Elemente. |
-| OnScroll | `14` | Tritt auf, wenn eine Dokumentansicht entlang der X- oder Y-Achse oder beider Achsen verschoben wird. Nur anwendbar auf die äußersten SVG-Elemente. |
-| OnZoom | `15` | Tritt auf, wenn die Zoomstufe einer Dokumentansicht geändert wird. Nur anwendbar auf die äußersten SVG-Elemente. |
+| OnClick | `3` | Tritt auf, wenn die Maustaste über einem Element geklickt wird. |
+| OnMouseDown | `4` | Tritt auf, wenn die Maustaste über einem Element gedrückt wird. |
+| OnMouseUp | `5` | Tritt auf, wenn die Maustaste über einem Element losgelassen wird. |
+| OnMouseOver | `6` | Tritt auf, wenn das Zeigegerät auf ein Element bewegt wird. |
+| OnMouseMove | `7` | Tritt auf, wenn das Zeigegerät bewegt wird, während es über einem Element ist. |
+| OnMouseOut | `8` | Tritt auf, wenn das Zeigegerät von einem Element wegbewegt wird. |
+| OnLoad | `9` | Tritt auf, wenn der Benutzeragent das Element und seine Nachkommen sowie alle referenzierten Ressourcen, die benötigt werden, um es darzustellen, vollständig analysiert hat. |
+| OnUnload | `10` | Tritt auf, wenn die DOM-Implementierung ein Dokument aus einem Fenster oder Rahmen entfernt. Nur anwendbar auf äußerste svg-Elemente. |
+| OnAbort | `11` | Tritt auf, wenn das Laden der Seite gestoppt wird, bevor ein Element vollständig geladen werden durfte. |
+| OnError | `12` | Tritt auf, wenn ein Element nicht richtig geladen wird oder wenn während der Skriptausführung ein Fehler auftritt. |
+| OnResize | `13` | Tritt auf, wenn eine Dokumentansicht resized wird. Nur anwendbar auf äußerste svg-Elemente. |
+| OnScroll | `14` | Tritt auf, wenn eine Dokumentansicht entlang der X- oder Y-Achse oder beider Achsen verschoben wird. Nur anwendbar auf äußerste svg-Elemente. |
+| OnZoom | `15` | Tritt auf, wenn der Zoomfaktor einer Dokumentansicht geändert wird. Nur anwendbar auf äußerste svg-Elemente. |
 | OnBegin | `16` | Tritt auf, wenn ein Animationselement beginnt. |
 | OnEnd | `17` | Tritt auf, wenn ein Animationselement endet. |
 | OnRepeat | `18` | Tritt auf, wenn ein Animationselement wiederholt wird. |
 
-### Siehe auch
+### Siehe Auch
 
 * namespace [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)

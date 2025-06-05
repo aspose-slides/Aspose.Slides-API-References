@@ -1,21 +1,21 @@
 ---
 title: IsHidden
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si la cellule est masquée. Lecture seule Boolean.
+second_title: Aspose.Slides pour .NET Référence API
+description: Détermine si la cellule est masquée. Boolean en lecture seule.
 type: docs
 weight: 50
 url: /fr/aspose.slides.charts/chartdatacell/ishidden/
 ---
 
-## Propriété ChartDataCell.IsHidden
+## ChartDataCell.IsHidden propriété
 
-Détermine si la cellule est masquée. Lecture seule Boolean.
+Détermine si la cellule est masquée. Boolean en lecture seule.
 
 ```csharp
 public bool IsHidden { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [ChartDataCell](../../chartdatacell)
 * espace de noms [Aspose.Slides.Charts](../../chartdatacell)

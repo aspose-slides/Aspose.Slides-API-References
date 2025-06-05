@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.theme/ieffectstylecollectioneffectivedata/item/
 ---
+
 ## IEffectStyleCollectionEffectiveData indexer
 
 Gets the element at the specified index. Read-only [`IEffectStyleEffectiveData`](../../ieffectstyleeffectivedata).

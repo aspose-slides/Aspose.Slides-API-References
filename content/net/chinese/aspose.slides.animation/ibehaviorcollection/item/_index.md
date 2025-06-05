@@ -1,6 +1,6 @@
 ---
-title: 项目
-second_title: Aspose.Slides for .NET API 参考
+title: Item
+second_title: Aspose.Slides for .NET API Reference
 description: 返回指定索引处的行为。
 type: docs
 weight: 30
@@ -23,7 +23,7 @@ public IBehavior this[int index] { get; set; }
 
 动画行为。
 
-### 参见
+### 参考
 
 * 接口 [IBehavior](../../ibehavior)
 * 接口 [IBehaviorCollection](../../ibehaviorcollection)

@@ -1,15 +1,15 @@
 ---
 title: IndexOf
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Recherche la catégorie de graphique spécifiée IChartCategoryaspose.slides.charts/ichartcategory et renvoie l'index basé sur zéro de la première occurrence dans l'ensemble de la Collection
+description: Recherche le IChartCategory spécifié aspose.slides.charts/ichartcategory et renvoie l'index basé sur zéro de la première occurrence dans l'ensemble de la Collection
 type: docs
 weight: 60
 url: /fr/aspose.slides.charts/ichartcategorycollection/indexof/
 ---
 
-## Méthode IChartCategoryCollection.IndexOf
+## IChartCategoryCollection.IndexOf méthode
 
-Recherche la catégorie de graphique spécifiée [`IChartCategory`](../../ichartcategory) et renvoie l'index basé sur zéro de la première occurrence dans l'ensemble de la Collection
+Recherche le [`IChartCategory`](../../ichartcategory) spécifié et renvoie l'index basé sur zéro de la première occurrence dans l'ensemble de la Collection
 
 ```csharp
 public int IndexOf(IChartCategory value)
@@ -19,11 +19,11 @@ public int IndexOf(IChartCategory value)
 | --- | --- | --- |
 | value | IChartCategory | Catégorie de graphique. |
 
-### Valeur de retour
+### Valeur de Retour
 
-L'index basé sur zéro de la première occurrence de value dans l'ensemble de CollectionBase, si trouvé ; sinon, -1.
+L'index basé sur zéro de la première occurrence de la valeur dans l'ensemble de la CollectionBase, si trouvé ; sinon, -1.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IChartCategory](../../ichartcategory)
 * interface [IChartCategoryCollection](../../ichartcategorycollection)

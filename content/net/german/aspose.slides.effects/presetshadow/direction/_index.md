@@ -1,5 +1,5 @@
 ---
-title: Richtung
+title: Direction
 second_title: Aspose.Slides für .NET API-Referenz
 description: Richtung des Schattens. Lese-/Schreibzugriff auf Single.
 type: docs
@@ -15,7 +15,7 @@ Richtung des Schattens. Lese-/Schreibzugriff auf Single.
 public float Direction { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [PresetShadow](../../presetshadow)
 * Namespace [Aspose.Slides.Effects](../../presetshadow)

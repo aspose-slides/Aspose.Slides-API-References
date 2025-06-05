@@ -1,5 +1,5 @@
 ---
-title: Formato
+title: Format
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el formato de un área de gráfico. Solo lectura IFormataspose.slides.charts/iformat.
 type: docs
@@ -15,11 +15,11 @@ Devuelve el formato de un área de gráfico. Solo lectura [`IFormat`](../../ifor
 public IFormat Format { get; }
 ```
 
-### Véase también
+### Ver también
 
 * interfaz [IFormat](../../iformat)
 * clase [ChartPlotArea](../../chartplotarea)
 * espacio de nombres [Aspose.Slides.Charts](../../chartplotarea)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

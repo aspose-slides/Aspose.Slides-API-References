@@ -1,13 +1,13 @@
 ---
-title: Effacer
-second_title: Référence API Aspose.Sildes pour .NET
+title: Clear
+second_title: Aspose.Slides pour .NET API Reference
 description: Supprime toutes les séquences d'une collection.
 type: docs
 weight: 50
 url: /fr/aspose.slides.animation/isequencecollection/clear/
 ---
 
-## Méthode ISequenceCollection.Clear
+## ISequenceCollection.Clear méthode
 
 Supprime toutes les séquences d'une collection.
 
@@ -15,7 +15,7 @@ Supprime toutes les séquences d'une collection.
 public void Clear()
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ISequenceCollection](../../isequencecollection)
 * namespace [Aspose.Slides.Animation](../../isequencecollection)

@@ -1,15 +1,15 @@
 ---
-title: Разделитель
-second_title: Справочник по API Aspose.Slides для .NET
-description: Устанавливает или возвращает Variant, представляющий разделитель, используемый для меток данных на графике. Читаемый/записываемый String.
+title: Separator
+second_title: Aspose.Sildes для .NET API Справочник
+description: Устанавливает или возвращает Variant, представляющий разделитель, используемый для меток данных на диаграмме. Чтение/запись String.
 type: docs
 weight: 60
 url: /ru/aspose.slides.charts/datalabelformat/separator/
 ---
 
-## Свойство DataLabelFormat.Separator
+## DataLabelFormat.Separator свойство
 
-Устанавливает или возвращает Variant, представляющий разделитель, используемый для меток данных на графике. Читаемый/записываемый String.
+Устанавливает или возвращает Variant, представляющий разделитель, используемый для меток данных на диаграмме. Чтение/запись String.
 
 ```csharp
 public string Separator { get; set; }
@@ -17,9 +17,9 @@ public string Separator { get; set; }
 
 ### Примечания
 
-Если родительским объектом этого объекта DataLabelFormat является коллекция DataLabelCollection меток данных, то это свойство получает или устанавливает значение по умолчанию для свойства Separator для новых меток данных в коллекции DataLabelCollection. Установка этого свойства с значением также устанавливает это значение для свойства Separator для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.Separator = val;" приводит к тому, что все DataLabels[i].Separator равно val).
+Если родителем этого объекта DataLabelFormat является коллекция DataLabelCollection меток данных, то это свойство получает или устанавливает значение по умолчанию для свойства Separator для новых меток данных в коллекции DataLabelCollection. Установив это свойство с значением, вы также устанавливаете это значение свойству Separator для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.Separator = val;" приводит к тому, что все DataLabels[i].Separator равны val).
 
-### См. также
+### См. Также
 
 * класс [DataLabelFormat](../../datalabelformat)
 * пространство имен [Aspose.Slides.Charts](../../datalabelformat)

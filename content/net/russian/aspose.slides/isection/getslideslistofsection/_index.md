@@ -1,13 +1,13 @@
 ---
 title: GetSlidesListOfSection
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает список слайдов в разделе.
 type: docs
 weight: 40
 url: /ru/aspose.slides/isection/getslideslistofsection/
 ---
 
-## Метод ISection.GetSlidesListOfSection
+## ISection.GetSlidesListOfSection метод
 
 Возвращает список слайдов в разделе.
 

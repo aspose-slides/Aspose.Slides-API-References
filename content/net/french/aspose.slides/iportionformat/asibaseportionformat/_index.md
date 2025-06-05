@@ -1,15 +1,15 @@
 ---
 title: AsIBasePortionFormat
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie l'interface IBasePortionFormat. Lecture seule IBasePortionFormataspose.slides/ibaseportionformat.
+second_title: Aspose.Slides pour .NET API Référence
+description: Renvoie l'interface IBasePortionFormat. En lecture seule IBasePortionFormat aspose.slides/ibaseportionformat.
 type: docs
 weight: 10
 url: /fr/aspose.slides/iportionformat/asibaseportionformat/
 ---
 
-## Propriété IPortionFormat.AsIBasePortionFormat
+## IPortionFormat.AsIBasePortionFormat propriété
 
-Renvoie l'interface IBasePortionFormat. Lecture seule [`IBasePortionFormat`](../../ibaseportionformat).
+Renvoie l'interface IBasePortionFormat. En lecture seule [`IBasePortionFormat`](../../ibaseportionformat).
 
 ```csharp
 public IBasePortionFormat AsIBasePortionFormat { get; }
@@ -17,7 +17,7 @@ public IBasePortionFormat AsIBasePortionFormat { get; }
 
 ### Remarques
 
-Pour la compatibilité COM.
+Pour la compatibilité avec COM.
 
 ### Voir aussi
 

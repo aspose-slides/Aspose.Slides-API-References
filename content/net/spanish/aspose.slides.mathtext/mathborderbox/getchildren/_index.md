@@ -1,6 +1,6 @@
 ---
 title: GetChildren
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Obtener elementos hijos
 type: docs
 weight: 110
@@ -15,11 +15,11 @@ Obtener elementos hijos
 public IMathElement[] GetChildren()
 ```
 
-### Vea También
+### Ver También
 
-* interface [IMathElement](../../imathelement)
-* class [MathBorderBox](../../mathborderbox)
-* namespace [Aspose.Slides.MathText](../../mathborderbox)
-* assembly [Aspose.Slides](../../../)
+* interfaz [IMathElement](../../imathelement)
+* clase [MathBorderBox](../../mathborderbox)
+* espacio de nombres [Aspose.Slides.MathText](../../mathborderbox)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: CreateTint
-second_title: Aspose.Slides for .NET API Reference
-description: 创建色调效果。
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建渐变效果。
 type: docs
 weight: 170
 url: /zh/aspose.slides.effects/iimagetransformoperationfactory/createtint/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/iimagetransformoperationfactory/createtint/
 
 ## IImageTransformOperationFactory.CreateTint 方法
 
-创建色调效果。
+创建渐变效果。
 
 ```csharp
 public ITint CreateTint(float hue, float amount)
@@ -17,12 +17,12 @@ public ITint CreateTint(float hue, float amount)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| hue | Single | 色调。 |
+| hue | Single | 色相。 |
 | amount | Single | 数量。 |
 
 ### 返回值
 
-色调效果。
+渐变效果。
 
 ### 参见
 

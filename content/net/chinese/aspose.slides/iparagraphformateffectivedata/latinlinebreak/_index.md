@@ -1,21 +1,21 @@
 ---
 title: LatinLineBreak
-second_title: Aspose.Slides for .NET API 参考
-description: 确定段落中是否使用拉丁行断。只读布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定段落中是否使用拉丁换行。只读布尔值。
 type: docs
 weight: 100
 url: /zh/aspose.slides/iparagraphformateffectivedata/latinlinebreak/
 ---
 
-## IParagraphFormatEffectiveData.LatinLineBreak 属性
+## IParagraphFormatEffectiveData.LatinLineBreak property
 
-确定段落中是否使用拉丁行断。只读布尔值。
+确定段落中是否使用拉丁换行。只读布尔值。
 
 ```csharp
 public bool LatinLineBreak { get; }
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
 * 命名空间 [Aspose.Slides](../../iparagraphformateffectivedata)

@@ -1,7 +1,7 @@
 ---
 title: IOuterShadowEffectiveData
-second_title: Aspose.Slides für .NET API Referenz
-description: Unveränderliches Objekt, das einen Außen-Schatteneffekt darstellt.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Unveränderliches Objekt, das einen äußeren Schatteneffekt darstellt.
 type: docs
 weight: 3350
 url: /de/aspose.slides.effects/ioutershadoweffectivedata/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/ioutershadoweffectivedata/
 
 ## IOuterShadowEffectiveData-Schnittstelle
 
-Unveränderliches Objekt, das einen Außen-Schatteneffekt darstellt.
+Unveränderliches Objekt, das einen äußeren Schatteneffekt darstellt.
 
 ```csharp
 public interface IOuterShadowEffectiveData : IEffectEffectiveData
@@ -23,13 +23,13 @@ public interface IOuterShadowEffectiveData : IEffectEffectiveData
 | [BlurRadius](../../aspose.slides.effects/ioutershadoweffectivedata/blurradius) { get; } | Unschärferadius. Nur zum Lesen Double. |
 | [Direction](../../aspose.slides.effects/ioutershadoweffectivedata/direction) { get; } | Richtung des Schattens. Nur zum Lesen Single. |
 | [Distance](../../aspose.slides.effects/ioutershadoweffectivedata/distance) { get; } | Entfernung des Schattens. Nur zum Lesen Double. |
-| [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | Rechteck-Ausrichtung. Nur zum Lesen [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | Gibt an, ob der Schatten mit der Form rotieren soll, wenn die Form gedreht wird. Nur zum Lesen Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | Legt den horizontalen Skalierungsfaktor fest, negative Skalierung verursacht eine Umkehrung. Nur zum Lesen Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | Legt den vertikalen Skalierungsfaktor fest, negative Skalierung verursacht eine Umkehrung. Nur zum Lesen Double. |
+| [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | Rechteckausrichtung. Nur zum Lesen [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | Gibt an, ob der Schatten mit der Form gedreht werden soll, wenn die Form gedreht wird. Nur zum Lesen Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | Gibt den horizontalen Skalierungsfaktor an, negatives Skalieren verursacht eine Umkehrung. Nur zum Lesen Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | Gibt den vertikalen Skalierungsfaktor an, negatives Skalieren verursacht eine Umkehrung. Nur zum Lesen Double. |
 | [ShadowColor](../../aspose.slides.effects/ioutershadoweffectivedata/shadowcolor) { get; } | Farbe des Schattens. Nur zum Lesen Color. |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | Legt den horizontalen Schrägwinkel (in Grad) fest. Nur zum Lesen Double. |
-| [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | Legt den vertikalen Schrägwinkel (in Grad) fest. Nur zum Lesen Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | Gibt den horizontalen Schrägungswinkel (in Grad) an. Nur zum Lesen Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | Gibt den vertikalen Schrägungswinkel (in Grad) an. Nur zum Lesen Double. |
 
 ### Siehe auch
 

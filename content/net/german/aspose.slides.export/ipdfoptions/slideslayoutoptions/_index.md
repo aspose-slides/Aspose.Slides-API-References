@@ -1,7 +1,7 @@
 ---
 title: SlidesLayoutOptions
 second_title: Aspose.Slides für .NET API Referenz
-description: Ruft den Modus ab oder setzt ihn, in dem Folien auf der Seite platziert werden, wenn eine Präsentation exportiert wird ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
+description: Ruft den Modus ab oder legt ihn fest, in dem Folien auf der Seite platziert werden, wenn eine Präsentation exportiert wird ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
 type: docs
 weight: 180
 url: /de/aspose.slides.export/ipdfoptions/slideslayoutoptions/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/ipdfoptions/slideslayoutoptions/
 
 ## IPdfOptions.SlidesLayoutOptions-Eigenschaft
 
-Ruht den Modus ab oder setzt ihn, in dem Folien auf der Seite platziert werden, wenn eine Präsentation exportiert wird [`ISlidesLayoutOptions`](../../islideslayoutoptions).
+Ruft den Modus ab oder legt ihn fest, in dem Folien auf der Seite platziert werden, wenn eine Präsentation exportiert wird [`ISlidesLayoutOptions`](../../islideslayoutoptions).
 
 ```csharp
 public ISlidesLayoutOptions SlidesLayoutOptions { get; set; }
@@ -35,7 +35,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ISlidesLayoutOptions](../../islideslayoutoptions)
 * Schnittstelle [IPdfOptions](../../ipdfoptions)

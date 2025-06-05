@@ -1,6 +1,6 @@
 ---
 title: ReadWorkbookStream
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Schreibt das intern enthaltene Excel-Arbeitsbuch in einen Speicherstream.
 type: docs
 weight: 100

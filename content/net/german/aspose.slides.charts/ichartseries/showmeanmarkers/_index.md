@@ -1,7 +1,7 @@
 ---
 title: ShowMeanMarkers
-second_title: Aspose.Slides für .NET API-Referenz
-description: Repräsentiert Durchschnittsmarkierungen. Wahr, wenn Durchschnittsmarkierungen im BoxAndWhisker-Diagramm angezeigt werden. Gilt nur für BoxAndWhisker-Diagramme. Schreib-/Lese-Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt Durchschnittsmarkierungen dar. Wahr, wenn Durchschnittsmarkierungen im BoxAndWhisker-Diagramm angezeigt werden. Gilt nur für BoxAndWhisker-Diagramme. Lese-/Schreib-Boolean.
 type: docs
 weight: 400
 url: /de/aspose.slides.charts/ichartseries/showmeanmarkers/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartseries/showmeanmarkers/
 
 ## IChartSeries.ShowMeanMarkers-Eigenschaft
 
-Repräsentiert Durchschnittsmarkierungen. Wahr, wenn Durchschnittsmarkierungen im BoxAndWhisker-Diagramm angezeigt werden. Gilt nur für BoxAndWhisker-Diagramme. Schreib-/Lese-Boolean.
+Stellt Durchschnittsmarkierungen dar. Wahr, wenn Durchschnittsmarkierungen im BoxAndWhisker-Diagramm angezeigt werden. Gilt nur für BoxAndWhisker-Diagramme. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool ShowMeanMarkers { get; set; }

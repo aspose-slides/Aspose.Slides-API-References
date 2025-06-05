@@ -1,13 +1,13 @@
 ---
-title: Pestañas
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Tabs
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Devuelve las tabulaciones de un párrafo. Solo lectura ITabCollectionaspose.slides/itabcollection.
 type: docs
 weight: 140
 url: /es/aspose.slides.charts/ichartparagraphformat/tabs/
 ---
 
-## Propiedad IChartParagraphFormat.Tabs
+## IChartParagraphFormat.Tabs propiedad
 
 Devuelve las tabulaciones de un párrafo. Solo lectura [`ITabCollection`](../../../aspose.slides/itabcollection).
 

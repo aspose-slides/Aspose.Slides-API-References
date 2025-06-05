@@ -1,7 +1,7 @@
 ---
-title: 超级链接已更改
-second_title: Aspose.Slides for .NET API 参考
-description: 指定此部分中的一个或多个超链接是由生成器在此部分中独立更新的。下一个打开此文档的生成器应使用此部分中指定的新超链接更新超链接关系。可读/可写布尔值。
+title: HyperlinksChanged
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定在此部分中由生产者独占更新的一个或多个超链接。下一个打开此文档的生产者应使用此部分中指定的新超链接更新超链接关系。可读写布尔值。
 type: docs
 weight: 140
 url: /zh/aspose.slides/idocumentproperties/hyperlinkschanged/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/idocumentproperties/hyperlinkschanged/
 
 ## IDocumentProperties.HyperlinksChanged 属性
 
-指定此部分中的一个或多个超链接是由生成器在此部分中独立更新的。下一个打开此文档的生成器应使用此部分中指定的新超链接更新超链接关系。可读/可写布尔值。
+指定在此部分中由生产者独占更新的一个或多个超链接。下一个打开此文档的生产者应使用此部分中指定的新超链接更新超链接关系。可读写布尔值。
 
 ```csharp
 public bool HyperlinksChanged { get; set; }

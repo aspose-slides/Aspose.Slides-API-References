@@ -1,7 +1,7 @@
 ---
-title: Kontrast
-second_title: Aspose.Slides für .NET API Referenz
-description: Kontrast. Nur-Lese Einzelwert.
+title: Contrast
+second_title: Aspose.Slides für .NET API-Referenz
+description: Contrast. Nur-Lese Single.
 type: docs
 weight: 30
 url: /de/aspose.slides.effects/iluminanceeffectivedata/contrast/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/iluminanceeffectivedata/contrast/
 
 ## ILuminanceEffectiveData.Contrast-Eigenschaft
 
-Kontrast. Nur-Lese Einzelwert.
+Contrast. Nur-Lese Single.
 
 ```csharp
 public float Contrast { get; }

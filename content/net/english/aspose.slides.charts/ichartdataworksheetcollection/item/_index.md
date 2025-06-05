@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/ichartdataworksheetcollection/item/
 ---
+
 ## IChartDataWorksheetCollection indexer
 
 Returns the worksheet by index.

@@ -1,6 +1,6 @@
 ---
-title: 字体
-second_title: Aspose.Slides for .NET API 参考
+title: Font
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回段落的项目符号字体。只读 IFontDataaspose.slides/ifontdata。
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ibulletformateffectivedata/font/
 public IFontData Font { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IFontData](../../ifontdata)
 * 接口 [IBulletFormatEffectiveData](../../ibulletformateffectivedata)

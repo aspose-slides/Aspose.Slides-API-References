@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/isection/name/
 ---
+
 ## ISection.Name property
 
 Name of the section.

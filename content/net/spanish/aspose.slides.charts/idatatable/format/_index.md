@@ -1,5 +1,5 @@
 ---
-title: Formato
+title: Format
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve los estilos de línea, relleno y efecto de un objeto. Solo lectura IFormataspose.slides.charts/iformat.
 type: docs
@@ -20,6 +20,6 @@ public IFormat Format { get; }
 * interfaz [IFormat](../../iformat)
 * interfaz [IDataTable](../../idatatable)
 * espacio de nombres [Aspose.Slides.Charts](../../idatatable)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

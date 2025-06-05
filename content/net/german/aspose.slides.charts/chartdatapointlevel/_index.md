@@ -1,15 +1,15 @@
 ---
 title: ChartDataPointLevel
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt den Datenpunktlevel dar. Gilt für Treemap- und Sunburst-Diagramme.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt die Datenpunktstufe dar. Gilt für Treemap- und Sunburst-Diagramme.
 type: docs
 weight: 1270
 url: /de/aspose.slides.charts/chartdatapointlevel/
 ---
 
-## ChartDataPointLevel-Klasse
+## ChartDataPointLevel Klasse
 
-Stellt den Datenpunktlevel dar. Gilt für Treemap- und Sunburst-Diagramme.
+Stellt die Datenpunktstufe dar. Gilt für Treemap- und Sunburst-Diagramme.
 
 ```csharp
 public class ChartDataPointLevel : DomObject<ChartDataPointLevelsManager>, IChartDataPointLevel
@@ -19,10 +19,10 @@ public class ChartDataPointLevel : DomObject<ChartDataPointLevelsManager>, IChar
 
 | Name | Beschreibung |
 | --- | --- |
-| [Format](../../aspose.slides.charts/chartdatapointlevel/format) { get; } | Stellt die Formatierungseigenschaften des Datenpunktlevels dar. Lese-/Schreibzugriff [`IFormat`](../iformat). |
-| [Label](../../aspose.slides.charts/chartdatapointlevel/label) { get; } | Stellt das Datenlabel des Datenpunktlevels dar. Gilt für Treemap- und Sunburst-Serie-Typen. Schreibgeschützt [`IDataLabel`](../idatalabel). |
+| [Format](../../aspose.slides.charts/chartdatapointlevel/format) { get; } | Stellt die Formatierungseigenschaften der Datenpunktstufe dar. Lese-/Schreibzugriff [`IFormat`](../iformat). |
+| [Label](../../aspose.slides.charts/chartdatapointlevel/label) { get; } | Stellt das Datenetikett der Datenpunktstufe dar. Gilt für Treemap- und Sunburst-Serie-Typen. Nur lesen [`IDataLabel`](../idatalabel). |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * Klasse [ChartDataPointLevelsManager](../chartdatapointlevelsmanager)

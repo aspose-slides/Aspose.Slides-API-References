@@ -1,6 +1,6 @@
 ---
 title: GradientStopCollectionEffectiveData
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет собой коллекцию объектов GradientStopData.
 type: docs
 weight: 4840
@@ -17,21 +17,21 @@ public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffect
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | Возвращает количество градиентных остановок в коллекции. Только для чтения Int32. |
-| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (безопасный для потоков). Только для чтения Boolean. |
-| [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | Возвращает градиентную остановку по индексу. |
+| [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | Возвращает количество градиентных точек в коллекции. Только для чтения Int32. |
+| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (безопасно для потоков). Только для чтения Boolean. |
+| [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | Возвращает градиентную точку по индексу. |
 | [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [CopyTo](../../aspose.slides/gradientstopcollectioneffectivedata/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
 | [GetEnumerator](../../aspose.slides/gradientstopcollectioneffectivedata/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IGradientStopCollectionEffectiveData](../igradientstopcollectioneffectivedata)
 * пространство имен [Aspose.Slides](../../aspose.slides)

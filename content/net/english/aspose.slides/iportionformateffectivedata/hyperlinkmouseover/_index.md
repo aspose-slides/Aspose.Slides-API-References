@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/iportionformateffectivedata/hyperlinkmouseover/
 ---
+
 ## IPortionFormatEffectiveData.HyperlinkMouseOver property
 
 Returns the hyperlink defined for mouse over. Read-only [`IHyperlink`](../../ihyperlink).

@@ -1,6 +1,6 @@
 ---
 title: IHtmlFormattingController
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Slides for .NET API Reference
 description: 控制 HTML 文件的生成。
 type: docs
 weight: 3780
@@ -19,14 +19,14 @@ public interface IHtmlFormattingController
 
 | 名称 | 描述 |
 | --- | --- |
-| [WriteDocumentEnd](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | 被调用以写入 HTML 文档的尾部。每次演示文稿转换时调用一次。 |
-| [WriteDocumentStart](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | 被调用以写入 HTML 文档的头部。每次演示文稿转换时调用一次。 |
-| [WriteShapeEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeshapeend)(IHtmlGenerator, IShape) | 被调用在形状渲染之前。每个形状调用一次。如果此函数向生成器写入任何内容，则当前幻灯片的图像生成将完成，添加的 HTML 片段将被插入，新图像将在之前的图像顶部开始。 |
-| [WriteShapeStart](../../aspose.slides.export/ihtmlformattingcontroller/writeshapestart)(IHtmlGenerator, IShape) | 被调用在形状渲染之前。每个形状调用一次。如果此函数向生成器写入任何内容，则当前幻灯片的图像生成将完成，添加的 HTML 片段将被插入，新图像将在之前的图像顶部开始。 |
-| [WriteSlideEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeslideend)(IHtmlGenerator, ISlide) | 被调用以写入 HTML 幻灯片的尾部。每个幻灯片调用一次。 |
-| [WriteSlideStart](../../aspose.slides.export/ihtmlformattingcontroller/writeslidestart)(IHtmlGenerator, ISlide) | 被调用以写入 HTML 幻灯片的头部。每个幻灯片调用一次。 |
+| [WriteDocumentEnd](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | 被调用来写入 HTML 文档的页脚。每次演示文稿转换时调用一次。 |
+| [WriteDocumentStart](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | 被调用来写入 HTML 文档的头部。每次演示文稿转换时调用一次。 |
+| [WriteShapeEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeshapeend)(IHtmlGenerator, IShape) | 在形状渲染之前被调用。每个形状调用一次。如果这个函数向生成器写入任何内容，当前幻灯片的图像生成将结束，添加的 HTML 片段将插入，新的图像将在之前的图像顶部开始。 |
+| [WriteShapeStart](../../aspose.slides.export/ihtmlformattingcontroller/writeshapestart)(IHtmlGenerator, IShape) | 在形状渲染之前被调用。每个形状调用一次。如果这个函数向生成器写入任何内容，当前幻灯片的图像生成将结束，添加的 HTML 片段将插入，新的图像将在之前的图像顶部开始。 |
+| [WriteSlideEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeslideend)(IHtmlGenerator, ISlide) | 被调用来写入 HTML 幻灯片的页脚。每个幻灯片调用一次。 |
+| [WriteSlideStart](../../aspose.slides.export/ihtmlformattingcontroller/writeslidestart)(IHtmlGenerator, ISlide) | 被调用来写入 HTML 幻灯片的头部。每个幻灯片调用一次。 |
 
-### 另见
+### 参见
 
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)
 * 程序集 [Aspose.Slides](../../)

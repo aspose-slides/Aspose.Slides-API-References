@@ -1,6 +1,6 @@
 ---
 title: FontSubstRuleCollection
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 默认构造函数。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/fontsubstrulecollection/fontsubstrulecollection/
 public FontSubstRuleCollection()
 ```
 
-### 另请参阅
+### 参见
 
 * class [FontSubstRuleCollection](../../fontsubstrulecollection)
 * namespace [Aspose.Slides](../../fontsubstrulecollection)

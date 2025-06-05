@@ -1,7 +1,7 @@
 ---
-title: Referenz
-second_title: Aspose.Slides für .NET API Referenz
-description: Erhält einen Zellenverweis, der die ungültige Formel enthält.
+title: Reference
+second_title: Aspose.Sildes für .NET API Referenz
+description: Erhält eine Zellreferenz, die die ungültige Formel enthält.
 type: docs
 weight: 20
 url: /de/aspose.slides.spreadsheet/cellinvalidformulaexception/reference/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.spreadsheet/cellinvalidformulaexception/reference/
 
 ## CellInvalidFormulaException.Reference-Eigenschaft
 
-Erhält einen Zellenverweis, der die ungültige Formel enthält.
+Erhält eine Zellreferenz, die die ungültige Formel enthält.
 
 ```csharp
 public string Reference { get; }

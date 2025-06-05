@@ -1,15 +1,15 @@
 ---
 title: FrameTick
-second_title: Aspose.Slides für .NET API Referenz
-description: Frame-Tick-Ereignis. Tritt auf, wenn jeder Frame der von PresentationAnimationsGeneratoraspose.slides.export/presentationanimationsgenerator erzeugten Animation vom Player generiert wird.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Frame-Tick-Ereignis. Tritt auf, wenn jeder Frame der von PresentationAnimationsGeneratoraspose.slides.export/presentationanimationsgenerator erstellten Animation vom Player generiert wird.
 type: docs
 weight: 30
 url: /de/aspose.slides.export/presentationplayer/frametick/
 ---
 
-## PresentationPlayer.FrameTick Ereignis
+## PresentationPlayer.FrameTick-Ereignis
 
-Frame-Tick-Ereignis. Tritt auf, wenn jeder Frame der von [`PresentationAnimationsGenerator`](../../presentationanimationsgenerator) erzeugten Animation vom Player generiert wird.
+Frame-Tick-Ereignis. Tritt auf, wenn jeder Frame der von [`PresentationAnimationsGenerator`](../../presentationanimationsgenerator) erstellten Animation vom Player generiert wird.
 
 ```csharp
 public event FrameTickHandler FrameTick;
@@ -34,7 +34,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * delegate [FrameTickHandler](../../presentationplayer.frametickhandler)
 * class [PresentationPlayer](../../presentationplayer)

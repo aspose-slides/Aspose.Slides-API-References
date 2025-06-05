@@ -1,6 +1,6 @@
 ---
 title: ReadByte
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Liest ein Byte aus dem Stream und verschiebt die Position innerhalb des Streams um ein Byte oder gibt -1 zurück, wenn das Ende des Streams erreicht ist.
 type: docs
 weight: 110
@@ -9,7 +9,7 @@ url: /de/aspose.slides/istreamwrapper/readbyte/
 
 ## IStreamWrapper.ReadByte-Methode
 
-Liest ein Byte aus dem Stream und verschiebt die Position innerhalb des Streams um ein Byte oder gibt -1 zurück, wenn das Ende des Streams erreicht ist.
+Liest ein Byte aus dem Stream und verschiebt die Position innerhalb des Streams um ein Byte, oder gibt -1 zurück, wenn das Ende des Streams erreicht ist.
 
 ```csharp
 public int ReadByte()
@@ -19,7 +19,7 @@ public int ReadByte()
 
 Gelesenes Byte Int32
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IStreamWrapper](../../istreamwrapper)
 * Namespace [Aspose.Slides](../../istreamwrapper)

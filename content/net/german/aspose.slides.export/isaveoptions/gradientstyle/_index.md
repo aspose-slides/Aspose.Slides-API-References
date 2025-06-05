@@ -1,7 +1,7 @@
 ---
 title: GradientStyle
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den visuellen Stil des Farbverlaufs zurück oder legt ihn fest. Lese-/Schreibzugriff auf GradientStyleaspose.slides/gradientstyle.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt den visuellen Stil des Verlaufs zurück oder setzt diesen. Lese-/Schreibzugriff auf GradientStyleaspose.slides/gradientstyle.
 type: docs
 weight: 20
 url: /de/aspose.slides.export/isaveoptions/gradientstyle/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/isaveoptions/gradientstyle/
 
 ## ISaveOptions.GradientStyle-Eigenschaft
 
-Gibt den visuellen Stil des Farbverlaufs zurück oder legt ihn fest. Lese-/Schreibzugriff auf [`GradientStyle`](../../../aspose.slides/gradientstyle).
+Gibt den visuellen Stil des Verlaufs zurück oder setzt diesen. Lese-/Schreibzugriff auf [`GradientStyle`](../../../aspose.slides/gradientstyle).
 
 ```csharp
 public GradientStyle GradientStyle { get; set; }

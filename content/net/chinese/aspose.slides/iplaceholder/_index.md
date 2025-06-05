@@ -24,7 +24,7 @@ public interface IPlaceholder
 | [Size](../../aspose.slides/iplaceholder/size) { get; } | 获取占位符的大小。只读 [`PlaceholderSize`](../placeholdersize)。 |
 | [Type](../../aspose.slides/iplaceholder/type) { get; } | 获取占位符的类型。只读 [`PlaceholderType`](../placeholdertype)。 |
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

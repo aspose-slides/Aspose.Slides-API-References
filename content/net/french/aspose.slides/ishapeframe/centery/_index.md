@@ -1,7 +1,7 @@
 ---
 title: CenterY
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie la coordonnée Y du centre d'un cadre. Lire seul Single.
+description: Renvoie la coordonnée Y du centre d'un cadre. Lecture seule Single.
 type: docs
 weight: 20
 url: /fr/aspose.slides/ishapeframe/centery/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ishapeframe/centery/
 
 ## Propriété IShapeFrame.CenterY
 
-Renvoie la coordonnée Y du centre d'un cadre. Lire seul Single.
+Renvoie la coordonnée Y du centre d'un cadre. Lecture seule Single.
 
 ```csharp
 public float CenterY { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IShapeFrame](../../ishapeframe)
 * namespace [Aspose.Slides](../../ishapeframe)

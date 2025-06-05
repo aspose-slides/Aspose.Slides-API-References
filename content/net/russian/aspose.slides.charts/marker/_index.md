@@ -1,6 +1,6 @@
 ---
-title: Маркер
-second_title: Справка по API Aspose.Slides для .NET
+title: Marker
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет маркер диаграммы.
 type: docs
 weight: 2250
@@ -17,11 +17,11 @@ public class Marker : IMarker
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Format](../../aspose.slides.charts/marker/format) { get; } | Получает или устанавливает заливку маркера. Только для чтения [`IFormat`](../iformat). |
-| [Size](../../aspose.slides.charts/marker/size) { get; set; } | Представляет размер маркера на линейной диаграмме, диаграмме разброса или радарной диаграмме. Чтение/запись Int32. |
-| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | Представляет стиль маркера на линейной диаграмме, диаграмме разброса или радарной диаграмме. Чтение/запись [`MarkerStyleType`](../markerstyletype). |
+| [Format](../../aspose.slides.charts/marker/format) { get; } | Получает или устанавливает заливку маркера. Тольо для чтения [`IFormat`](../iformat). |
+| [Size](../../aspose.slides.charts/marker/size) { get; set; } | Представляет размер маркера в линейной диаграмме, диаграмме рассеяния или радиальной диаграмме. Чтение/запись Int32. |
+| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | Представляет стиль маркера в линейной диаграмме, диаграмме рассеяния или радиальной диаграмме. Чтение/запись [`MarkerStyleType`](../markerstyletype). |
 
 ### Смотрите также
 

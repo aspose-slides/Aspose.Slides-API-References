@@ -1,6 +1,6 @@
 ---
 title: IFillFormat
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет параметры форматирования заливки.
 type: docs
 weight: 5590
@@ -17,21 +17,21 @@ public interface IFillFormat : IFillParamSource
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ifillformat/asifillparamsource) { get; } | Позволяет получить базовый интерфейс IFillParamSource. Только для чтения [`IFillParamSource`](../ifillparamsource). |
 | [FillType](../../aspose.slides/ifillformat/filltype) { get; set; } | Возвращает или устанавливает тип заливки. Чтение/запись [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ifillformat/gradientformat) { get; } | Возвращает формат заливки градиентом. Только для чтения [`IGradientFormat`](../igradientformat). |
+| [GradientFormat](../../aspose.slides/ifillformat/gradientformat) { get; } | Возвращает формат градиентной заливки. Только для чтения [`IGradientFormat`](../igradientformat). |
 | [PatternFormat](../../aspose.slides/ifillformat/patternformat) { get; } | Возвращает формат заливки узором. Только для чтения [`IPatternFormat`](../ipatternformat). |
 | [PictureFillFormat](../../aspose.slides/ifillformat/picturefillformat) { get; } | Возвращает формат заливки изображением. Только для чтения [`IPictureFillFormat`](../ipicturefillformat). |
-| [RotateWithShape](../../aspose.slides/ifillformat/rotatewithshape) { get; set; } | Определяет, должна ли заливка вращаться вместе с фигурой. Чтение/запись [`NullableBool`](../nullablebool). |
+| [RotateWithShape](../../aspose.slides/ifillformat/rotatewithshape) { get; set; } | Определяет, должна ли заливка вращаться вместе с формой. Чтение/запись [`NullableBool`](../nullablebool). |
 | [SolidFillColor](../../aspose.slides/ifillformat/solidfillcolor) { get; } | Возвращает цвет заливки. Только для чтения [`IColorFormat`](../icolorformat). |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ifillformat/geteffective)() | Получает данные об эффективном форматировании заливки с применением наследования. |
+| [GetEffective](../../aspose.slides/ifillformat/geteffective)() | Получает эффективные данные форматирования заливки с применением наследования. |
 
 ### См. также
 

@@ -1,7 +1,7 @@
 ---
 title: DrilldownLocked
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Determina si se prohíbe la selección de subformas de este objeto. Booleano de lectura/escritura.
+description: Determina si la selección de subformas de este objeto está prohibida. Booleano de lectura/escritura.
 type: docs
 weight: 20
 url: /es/aspose.slides/graphicalobjectlock/drilldownlocked/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/graphicalobjectlock/drilldownlocked/
 
 ## Propiedad GraphicalObjectLock.DrilldownLocked
 
-Determina si se prohíbe la selección de subformas de este objeto. Booleano de lectura/escritura.
+Determina si la selección de subformas de este objeto está prohibida. Booleano de lectura/escritura.
 
 ```csharp
 public bool DrilldownLocked { get; set; }
@@ -19,6 +19,6 @@ public bool DrilldownLocked { get; set; }
 
 * clase [GraphicalObjectLock](../../graphicalobjectlock)
 * espacio de nombres [Aspose.Slides](../../graphicalobjectlock)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

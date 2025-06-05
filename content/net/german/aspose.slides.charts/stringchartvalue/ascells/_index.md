@@ -1,7 +1,7 @@
 ---
 title: AsCells
-second_title: Aspose.Slides für .NET API Referenz
-description: Die Zuweisung eines Nullwerts ist nicht erlaubt. Der Rückgabewert ist immer nicht null. Lese-/Schreibzugriff auf IChartCellCollectionaspose.slides/ichartcellcollection.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Die Zuweisung eines Nullwerts ist nicht erlaubt. Der zurückgegebene Wert ist immer nicht null. Lesen/Schreiben IChartCellCollectionaspose.slides/ichartcellcollection.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/stringchartvalue/ascells/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/stringchartvalue/ascells/
 
 ## StringChartValue.AsCells-Eigenschaft
 
-Die Zuweisung eines Nullwerts ist nicht erlaubt. Der Rückgabewert ist immer nicht null. Lese-/Schreibzugriff auf [`IChartCellCollection`](../../ichartcellcollection).
+Die Zuweisung eines Nullwerts ist nicht erlaubt. Der zurückgegebene Wert ist immer nicht null. Lesen/Schreiben [`IChartCellCollection`](../../ichartcellcollection).
 
 ```csharp
 public IChartCellCollection AsCells { get; set; }

@@ -1,6 +1,6 @@
 ---
 title: AddDataPointForWaterfallSeries
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建新的数据点并将其添加到集合的末尾。适用于图表类型为瀑布的系列。
 type: docs
 weight: 260
@@ -21,9 +21,9 @@ public IChartDataPoint AddDataPointForWaterfallSeries(IChartDataCell value)
 
 ### 返回值
 
-新的数据点。
+新数据点。
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IChartDataPoint](../../ichartdatapoint)
 * 接口 [IChartDataCell](../../ichartdatacell)

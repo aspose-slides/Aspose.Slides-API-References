@@ -1,7 +1,7 @@
 ---
 title: AdjustValue
-second_title: Справка по API Aspose.Slides для .NET
-description: Представляет значение настройки геометрических фигур. Эти значения влияют на форму фигур.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет значение регулировки геометрических фигур. Эти значения влияют на форму фигур.
 type: docs
 weight: 10
 url: /ru/aspose.slides/adjustvalue/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/adjustvalue/
 
 ## Класс AdjustValue
 
-Представляет значение настройки геометрической фигуры. Эти значения влияют на форму фигуры.
+Представляет значение регулировки геометрической фигуры. Эти значения влияют на форму фигуры.
 
 ```csharp
 public class AdjustValue : IAdjustValue
@@ -17,12 +17,12 @@ public class AdjustValue : IAdjustValue
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [AngleValue](../../aspose.slides/adjustvalue/anglevalue) { get; set; } | Возвращает или задает значение, интерпретируя его как угол в градусах. Чтение/запись Single. |
-| [Name](../../aspose.slides/adjustvalue/name) { get; } | Возвращает имя этого значения настройки. Только для чтения String. |
-| [RawValue](../../aspose.slides/adjustvalue/rawvalue) { get; set; } | Возвращает или задает значение настройки “как есть”. Чтение/запись Int64. |
-| [Type](../../aspose.slides/adjustvalue/type) { get; } | Возвращает тип настройки фигуры. Только для чтения [`ShapeAdjustmentType`](../shapeadjustmenttype). |
+| [AngleValue](../../aspose.slides/adjustvalue/anglevalue) { get; set; } | Возвращает или устанавливает значение, интерпретируя его как угол в градусах. Чтение/запись Single. |
+| [Name](../../aspose.slides/adjustvalue/name) { get; } | Возвращает имя этого значения регулировки. Только для чтения String. |
+| [RawValue](../../aspose.slides/adjustvalue/rawvalue) { get; set; } | Возвращает или устанавливает значение регулировки "как есть". Чтение/запись Int64. |
+| [Type](../../aspose.slides/adjustvalue/type) { get; } | Возвращает тип регулировки фигуры. Только для чтения [`ShapeAdjustmentType`](../shapeadjustmenttype). |
 
 ### См. также
 

@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.lowcode/foreach/slide/
 ---
+
 ## ForEach.Slide method
 
 Iterate each `Slide` in the [`Presentation`](../../../aspose.slides/presentation).

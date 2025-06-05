@@ -1,7 +1,7 @@
 ---
-title: 禁用渐变拆分
-second_title: Aspose.Slides for .NET API 参考
-description: 禁用从 FromCornerX 和 FromCenter 渐变的拆分。可读/写布尔值。
+title: DisableGradientSplit
+second_title: Aspose.Sildes for .NET API Reference
+description: 禁用从 FromCornerX 和 FromCenter 渐变的拆分。可读写布尔值。
 type: docs
 weight: 50
 url: /zh/aspose.slides.export/isvgoptions/disablegradientsplit/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/isvgoptions/disablegradientsplit/
 
 ## ISVGOptions.DisableGradientSplit 属性
 
-禁用从 FromCornerX 和 FromCenter 渐变的拆分。可读/写布尔值。
+禁用从 FromCornerX 和 FromCenter 渐变的拆分。可读写布尔值。
 
 ```csharp
 public bool DisableGradientSplit { get; set; }

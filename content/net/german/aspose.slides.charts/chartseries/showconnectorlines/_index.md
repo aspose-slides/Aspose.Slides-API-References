@@ -1,7 +1,7 @@
 ---
 title: ShowConnectorLines
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt Verbindungslinien dar. Gilt nur für Wasserfall-Diagramme.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt Verbindungslinien dar. Gilt nur für Wasserfalldiagramme.
 type: docs
 weight: 370
 url: /de/aspose.slides.charts/chartseries/showconnectorlines/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartseries/showconnectorlines/
 
 ## ChartSeries.ShowConnectorLines-Eigenschaft
 
-Stellt Verbindungslinien dar. Gilt nur für Wasserfall-Diagramme.
+Stellt Verbindungslinien dar. Gilt nur für Wasserfalldiagramme.
 
 ```csharp
 public bool ShowConnectorLines { get; set; }

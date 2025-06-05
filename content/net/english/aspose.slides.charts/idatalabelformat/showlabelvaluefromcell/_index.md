@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.charts/idatalabelformat/showlabelvaluefromcell/
 ---
+
 ## IDataLabelFormat.ShowLabelValueFromCell property
 
 Represents a specified chart's data label cell value display behavior. True displays cell value. False to hide. Read/write Boolean.

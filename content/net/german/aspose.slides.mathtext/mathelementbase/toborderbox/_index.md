@@ -49,14 +49,14 @@ public IMathBorderBox ToBorderBox(bool hideTop, bool hideBottom, bool hideLeft, 
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| hideTop | Boolean | Ob die obere Kante versteckt werden soll |
-| hideBottom | Boolean | Ob die untere Kante versteckt werden soll |
-| hideLeft | Boolean | Ob die linke Kante versteckt werden soll |
-| hideRight | Boolean | Ob die rechte Kante versteckt werden soll |
-| strikethroughHorizontal | Boolean | Durchgestrichen horizontal für die Border-Box |
-| strikethroughVertical | Boolean | Durchgestrichen vertikal für die Border-Box |
-| strikethroughBottomLeftToTopRight | Boolean | Durchgestrichen von unten links nach oben rechts für die Border-Box |
-| strikethroughTopLeftToBottomRight | Boolean | Durchgestrichen von oben links nach unten rechts für die Border-Box |
+| hideTop | Boolean | Ob die obere Kante скрыть |
+| hideBottom | Boolean | Ob die untere Kante скрыть |
+| hideLeft | Boolean | Ob die linke Kante скрыть |
+| hideRight | Boolean | Ob die rechte Kante скрыть |
+| strikethroughHorizontal | Boolean | Durchgestrichene Border Box Horizontal |
+| strikethroughVertical | Boolean | Durchgestrichene Border Box Vertikal |
+| strikethroughBottomLeftToTopRight | Boolean | Durchgestrichene Border Box von unten links nach oben rechts |
+| strikethroughTopLeftToBottomRight | Boolean | Durchgestrichene Border Box von oben links nach unten rechts |
 
 ### Rückgabewert
 

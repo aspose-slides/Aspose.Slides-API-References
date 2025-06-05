@@ -1,24 +1,24 @@
 ---
-title: Puntos
+title: Points
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Especifica los puntos del comando. Lectura/escritura de PointF.
+description: Especifica puntos de comando. Lectura/escritura PointF.
 type: docs
 weight: 30
 url: /es/aspose.slides.animation/imotioncmdpath/points/
 ---
 
-## Propiedad IMotionCmdPath.Points
+## IMotionCmdPath.Points property
 
-Especifica los puntos del comando. Lectura/escritura de PointF[].
+Especifica puntos de comando. Lectura/escritura PointF[].
 
 ```csharp
 public PointF[] Points { get; set; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [IMotionCmdPath](../../imotioncmdpath)
-* espacio de nombres [Aspose.Slides.Animation](../../imotioncmdpath)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IMotionCmdPath](../../imotioncmdpath)
+* espacio de nombres [Aspose.Slides.Animation](../../imotioncmdpath)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: IShredTransition
-second_title: Aspose.Slides для .NET API Справочник
-description: Эффект перехода с настройкой Shred.
+second_title: Aspose.Slides для .NET API Reference
+description: Эффект перехода срывного слайда.
 type: docs
 weight: 9870
 url: /ru/aspose.slides.slideshow/ishredtransition/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.slideshow/ishredtransition/
 
 ## Интерфейс IShredTransition
 
-Эффект перехода с настройкой Shred.
+Эффект перехода срывного слайда.
 
 ```csharp
 public interface IShredTransition : ITransitionValueBase
@@ -17,13 +17,13 @@ public interface IShredTransition : ITransitionValueBase
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/ishredtransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/ishredtransition/direction) { get; set; } | Направление перехода. Чтение/запись [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/ishredtransition/pattern) { get; set; } | Указывает форму визуальных эффектов, используемых во время перехода. Чтение/запись [`TransitionShredPattern`](../transitionshredpattern). |
+| [Direction](../../aspose.slides.slideshow/ishredtransition/direction) { get; set; } | Направление перехода. Читаемое/записываемое [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/ishredtransition/pattern) { get; set; } | Указывает форму визуальных элементов, используемых во время перехода. Читаемое/записываемое [`TransitionShredPattern`](../transitionshredpattern). |
 
-### Смотрите также
+### См. также
 
 * интерфейс [ITransitionValueBase](../itransitionvaluebase)
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

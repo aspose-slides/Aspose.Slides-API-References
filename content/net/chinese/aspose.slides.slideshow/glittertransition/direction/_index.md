@@ -1,7 +1,7 @@
 ---
-title: 方向
-second_title: Aspose.Slides for .NET API 参考
-description: 转场方向。可读/可写 TransitionSideDirectionType aspose.slides.slideshow/transitionsidedirectiontype。
+title: Direction
+second_title: Aspose.Sildes for .NET API Reference
+description: 转换方向。读/写 TransitionSideDirectionTypeaspose.slides.slideshow/transitionsidedirectiontype。
 type: docs
 weight: 10
 url: /zh/aspose.slides.slideshow/glittertransition/direction/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.slideshow/glittertransition/direction/
 
 ## GlitterTransition.Direction 属性
 
-转场方向。可读/可写 [`TransitionSideDirectionType`](../../transitionsidedirectiontype)。
+转换方向。读/写 [`TransitionSideDirectionType`](../../transitionsidedirectiontype)。
 
 ```csharp
 public TransitionSideDirectionType Direction { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 枚举 [TransitionSideDirectionType](../../transitionsidedirectiontype)
 * 类 [GlitterTransition](../../glittertransition)

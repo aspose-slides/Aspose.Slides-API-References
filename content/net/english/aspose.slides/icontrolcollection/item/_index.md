@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/icontrolcollection/item/
 ---
+
 ## IControlCollection indexer
 
 Returns a control at the specified position.

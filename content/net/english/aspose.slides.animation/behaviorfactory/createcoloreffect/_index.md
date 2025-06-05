@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.animation/behaviorfactory/createcoloreffect/
 ---
+
 ## BehaviorFactory.CreateColorEffect method
 
 Creates color effect.

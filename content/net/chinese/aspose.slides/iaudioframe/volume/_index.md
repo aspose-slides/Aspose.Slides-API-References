@@ -1,7 +1,7 @@
 ---
-title: 音量
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置音频音量。可读/可写 AudioVolumeMode aspose.slides/audiovolumemodeaspose.slides/audiovolumemode。
+title: Volume
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置音频音量。可读/可写 AudioVolumeModeaspose.slides/audiovolumemode。
 type: docs
 weight: 180
 url: /zh/aspose.slides/iaudioframe/volume/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/iaudioframe/volume/
 public AudioVolumeMode Volume { get; set; }
 ```
 
-### 参见
+### 另见
 
 * 枚举 [AudioVolumeMode](../../audiovolumemode)
 * 接口 [IAudioFrame](../../iaudioframe)

@@ -1,7 +1,7 @@
 ---
 title: IsWriteProtected
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient une valeur indiquant si cette présentation est protégée en écriture. Boolean en lecture seule.
+second_title: Référence API Aspose.Slides pour .NET
+description: Obtient une valeur indiquant si cette présentation est protégée en écriture. Booléen en lecture seule.
 type: docs
 weight: 50
 url: /fr/aspose.slides/protectionmanager/iswriteprotected/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/protectionmanager/iswriteprotected/
 
 ## Propriété ProtectionManager.IsWriteProtected
 
-Obtient une valeur indiquant si cette présentation est protégée en écriture. Boolean en lecture seule.
+Obtient une valeur indiquant si cette présentation est protégée en écriture. Booléen en lecture seule.
 
 ```csharp
 public bool IsWriteProtected { get; }
@@ -19,6 +19,6 @@ public bool IsWriteProtected { get; }
 
 * classe [ProtectionManager](../../protectionmanager)
 * espace de noms [Aspose.Slides](../../protectionmanager)
-* assembly [Aspose.Slides](../../../)
+* assemblage [Aspose.Slides](../../../)
 
-<!-- NE PAS ÉDITER : généré par xmldocmd pour Aspose.Slides.dll -->
+<!-- NE PAS MODIFIER : généré par xmldocmd pour Aspose.Slides.dll -->

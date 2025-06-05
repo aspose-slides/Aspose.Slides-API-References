@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/ieffectformateffectivedata/reflectioneffect/
 ---
+
 ## IEffectFormatEffectiveData.ReflectionEffect property
 
 Reflection. Read-only [`IReflectionEffectiveData`](../../../aspose.slides.effects/ireflectioneffectivedata).

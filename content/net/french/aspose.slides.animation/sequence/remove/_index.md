@@ -1,13 +1,13 @@
 ---
-title: Supprimer
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Remove
+second_title: Référence API Aspose.Slides pour .NET
 description: Supprime l'effet spécifié d'une collection.
 type: docs
 weight: 100
 url: /fr/aspose.slides.animation/sequence/remove/
 ---
 
-## Méthode Sequence.Remove
+## Sequence.Remove méthode
 
 Supprime l'effet spécifié d'une collection.
 

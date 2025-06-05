@@ -1,6 +1,6 @@
 ---
 title: OriginalFontName
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示演示文稿中的源字体名称。只读字符串
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/fontsubstitutioninfo/originalfontname/
 public string OriginalFontName { get; }
 ```
 
-### 参见
+### 另请参见
 
 * 类 [FontSubstitutionInfo](../../fontsubstitutioninfo)
 * 命名空间 [Aspose.Slides](../../fontsubstitutioninfo)

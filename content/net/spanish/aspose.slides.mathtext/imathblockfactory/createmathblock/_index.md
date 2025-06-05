@@ -1,6 +1,6 @@
 ---
 title: CreateMathBlock
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Crear un bloque matemático
 type: docs
 weight: 10
@@ -36,9 +36,9 @@ Crear un bloque matemático y colocar el elemento en él
 public IMathBlock CreateMathBlock(IMathElement mathElement)
 ```
 
-| Parámetro | Tipo | Descripción |
-| --- | --- | --- |
-| mathElement | IMathElement | Un elemento matemático |
+| Parámetro  | Tipo            | Descripción          |
+|------------|-----------------|---------------------|
+| mathElement| IMathElement    | Un elemento matemático|
 
 ### Valor de Retorno
 
@@ -62,9 +62,9 @@ Crear un bloque matemático y colocar elementos en él
 public IMathBlock CreateMathBlock(IMathElementCollection mathElements)
 ```
 
-| Parámetro | Tipo | Descripción |
-| --- | --- | --- |
-| mathElements | IMathElementCollection | elementos matemáticos |
+| Parámetro    | Tipo                      | Descripción       |
+|--------------|---------------------------|-------------------|
+| mathElements | IMathElementCollection     | elementos matemáticos |
 
 ### Valor de Retorno
 

@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.effects/ipresetshadoweffectivedata/shadowcolor/
 ---
+
 ## IPresetShadowEffectiveData.ShadowColor property
 
 Color of shadow. Read-only Color.

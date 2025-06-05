@@ -1,7 +1,7 @@
 ---
 title: Description
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie une description lisible par l'homme de cet avertissement. Chaîne en lecture seule.
+description: Renvoie une description lisible par un humain de cet avertissement. Chaîne en lecture seule.
 type: docs
 weight: 10
 url: /fr/aspose.slides.warnings/iwarninginfo/description/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.warnings/iwarninginfo/description/
 
 ## Propriété IWarningInfo.Description
 
-Renvoie une description lisible par l'homme de cet avertissement. Chaîne en lecture seule.
+Renvoie une description lisible par un humain de cet avertissement. Chaîne en lecture seule.
 
 ```csharp
 public string Description { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IWarningInfo](../../iwarninginfo)
 * namespace [Aspose.Slides.Warnings](../../iwarninginfo)

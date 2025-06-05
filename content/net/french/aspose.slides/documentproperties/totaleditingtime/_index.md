@@ -1,15 +1,15 @@
 ---
 title: TotalEditingTime
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Temps total d'édition d'une présentation. Lecture/écriture TimeSpan.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Temps total de modification d'une présentation. Lecture/écriture TimeSpan.
 type: docs
 weight: 350
 url: /fr/aspose.slides/documentproperties/totaleditingtime/
 ---
 
-## Propriété DocumentProperties.TotalEditingTime
+## DocumentProperties.TotalEditingTime propriété
 
-Temps total d'édition d'une présentation. Lecture/écriture TimeSpan.
+Temps total de modification d'une présentation. Lecture/écriture TimeSpan.
 
 ```csharp
 public TimeSpan TotalEditingTime { get; set; }

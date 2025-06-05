@@ -1,15 +1,15 @@
 ---
-title: Интервал
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает или устанавливает значение интервала между символами. **float.NaN** означает, что значение не определено и должно наследоваться от Master. Чтение/запись Single.
+title: Spacing
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или задает приращение межсимвольного интервала. **float.NaN** означает, что значение неопределено и должно наследоваться от Master. Чтение/запись Single.
 type: docs
 weight: 210
 url: /ru/aspose.slides/baseportionformat/spacing/
 ---
 
-## Свойство BasePortionFormat.Spacing
+## BasePortionFormat.Spacing свойство
 
-Возвращает или устанавливает значение интервала между символами. **float.NaN** означает, что значение не определено и должно наследоваться от Master. Чтение/запись Single.
+Возвращает или задает приращение межсимвольного интервала. **float.NaN** означает, что значение неопределено и должно наследоваться от Master. Чтение/запись Single.
 
 ```csharp
 public float Spacing { get; set; }

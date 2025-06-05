@@ -1,15 +1,15 @@
 ---
 title: SlideOrientation
-second_title: Aspose.Slides für .NET API-Dokumentation
-description: Stellt die Folienausrichtung dar.
+second_title: Aspose.Slides für .NET API Referenz
+description: Repräsentiert die Folienausrichtung.
 type: docs
 weight: 9690
 url: /de/aspose.slides/slideorientation/
 ---
 
-## SlideOrientation Aufzählung
+## SlideOrientation Enumeration
 
-Stellt die Folienausrichtung dar.
+Repräsentiert die Folienausrichtung.
 
 ```csharp
 public enum SlideOrientation
@@ -19,8 +19,8 @@ public enum SlideOrientation
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Landschaft | `0` | Landschaftsformat. |
-| Porträt | `1` | Hochformat. |
+| Landschaft | `0` | Landschaftsausrichtung. |
+| Hochformat | `1` | Hochformatausrichtung. |
 
 ### Siehe auch
 

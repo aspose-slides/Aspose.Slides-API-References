@@ -1,7 +1,7 @@
 ---
-title: Anzahlen
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente ab. Schreibgeschützter Int32.
+title: Count
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt die Anzahl der Elemente zurück, die tatsächlich in der Sammlung enthalten sind. Schreibgeschütztes Int32.
 type: docs
 weight: 10
 url: /de/aspose.slides/sectionslidecollection/count/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/sectionslidecollection/count/
 
 ## SectionSlideCollection.Count-Eigenschaft
 
-Ruft die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente ab. Schreibgeschützter Int32.
+Gibt die Anzahl der Elemente zurück, die tatsächlich in der Sammlung enthalten sind. Schreibgeschütztes Int32.
 
 ```csharp
 public int Count { get; }

@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/tabcollection/add/
 ---
+
 ## Add(double, TabAlignment) {#add}
 
 Adds a Tab to the collection.

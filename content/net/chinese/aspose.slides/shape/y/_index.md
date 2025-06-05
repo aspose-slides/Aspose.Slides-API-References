@@ -1,7 +1,7 @@
 ---
 title: Y
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回或设置形状的左上角的 y 坐标。可读写单精度浮点数。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置形状左上角的 y 坐标。读/写单精度浮点数。
 type: docs
 weight: 310
 url: /zh/aspose.slides/shape/y/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/shape/y/
 
 ## Shape.Y 属性
 
-返回或设置形状的左上角的 y 坐标。可读写单精度浮点数。
+返回或设置形状左上角的 y 坐标。读/写单精度浮点数。
 
 ```csharp
 public float Y { get; set; }
@@ -17,9 +17,9 @@ public float Y { get; set; }
 
 ### 备注
 
-返回的值总是被定义（不是 float.NaN）。赋值必须被定义（不是 float.NaN）。您可以为 RawFrame 实例属性设置未定义的值。
+返回的值始终是定义的（不是 float.NaN）。赋值必须是定义的（不是 float.NaN）。您可以为 RawFrame 实例属性设置未定义的值。
 
-### 另见
+### 另请参阅
 
 * class [Shape](../../shape)
 * namespace [Aspose.Slides](../../shape)

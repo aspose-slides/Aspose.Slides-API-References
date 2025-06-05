@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForRadarSeries
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Radar-Subtypen ist, siehe auch die Methode IsChartTypeRadaraspose.slides.charts/charttypecharacterizer/ischarttyperadar.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Radar-Subtypen ist, siehe auch die Methode IsChartTypeRadar.
 type: docs
 weight: 200
 url: /de/aspose.slides.charts/chartdatapointcollection/adddatapointforradarseries/
@@ -17,7 +17,7 @@ public IChartDataPoint AddDataPointForRadarSeries(IChartDataCell value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| value | IChartDataCell | Wert des Datenpunkts |
+| value | IChartDataCell | Datenpunktwert |
 
 ### Rückgabewert
 
@@ -43,7 +43,7 @@ public IChartDataPoint AddDataPointForRadarSeries(double value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| value | Double | Wert des Datenpunkts |
+| value | Double | Datenpunktwert |
 
 ### Rückgabewert
 

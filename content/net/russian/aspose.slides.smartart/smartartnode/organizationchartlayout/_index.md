@@ -1,13 +1,13 @@
 ---
 title: OrganizationChartLayout
-second_title: Aspose.Sildes для справки по API .NET
+second_title: Справка по API Aspose.Sildes для .NET
 description: Возвращает или устанавливает тип макета организационной схемы, связанный с текущим узлом. Чтение/запись OrganizationChartLayoutTypeaspose.slides.smartart/organizationchartlayouttype.
 type: docs
 weight: 60
 url: /ru/aspose.slides.smartart/smartartnode/organizationchartlayout/
 ---
 
-## Свойство SmartArtNode.OrganizationChartLayout
+## SmartArtNode.OrganizationChartLayout property
 
 Возвращает или устанавливает тип макета организационной схемы, связанный с текущим узлом. Чтение/запись [`OrganizationChartLayoutType`](../../organizationchartlayouttype).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.smartart/smartartnode/organizationchartlayout/
 public OrganizationChartLayoutType OrganizationChartLayout { get; set; }
 ```
 
-### См. также
+### See Also
 
 * enum [OrganizationChartLayoutType](../../organizationchartlayouttype)
 * class [SmartArtNode](../../smartartnode)

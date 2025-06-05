@@ -17,13 +17,13 @@ public IAlphaModulateFixed AddAlphaModulateFixedEffect(float amount)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| amount | Single | Der prozentuale Betrag zum Skalieren der Alpha. |
+| amount | Single | Der Prozentsatz, um den die Alpha skaliert werden soll. |
 
 ### Rückgabewert
 
 Index des neuen Bildeffekts in einer Sammlung.
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IAlphaModulateFixed](../../ialphamodulatefixed)
 * Schnittstelle [IImageTransformOperationCollection](../../iimagetransformoperationcollection)

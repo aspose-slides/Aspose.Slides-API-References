@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/coloroperationcollection/issynchronized/
 ---
+
 ## ColorOperationCollection.IsSynchronized property
 
 Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean.

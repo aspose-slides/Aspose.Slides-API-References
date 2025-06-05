@@ -1,6 +1,6 @@
 ---
 title: IChart
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API Aspose.Slides para .NET
 description: Representa un gráfico en una diapositiva.
 type: docs
 weight: 1660
@@ -24,20 +24,20 @@ public interface IChart : IFormattedTextContainer, IGraphicalObject, IOverrideTh
 | [AsIOverrideThemeable](../../aspose.slides.charts/ichart/asioverridethemeable) { get; } | Devuelve la interfaz IOverrideThemeable. Solo lectura [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
 | [Axes](../../aspose.slides.charts/ichart/axes) { get; } | Proporciona acceso a los ejes del gráfico. Solo lectura [`IAxesManager`](../iaxesmanager). |
 | [BackWall](../../aspose.slides.charts/ichart/backwall) { get; } | Devuelve un objeto que permite cambiar el formato de la pared trasera de un gráfico 3D. Solo lectura [`IChartWall`](../ichartwall). |
-| [ChartData](../../aspose.slides.charts/ichart/chartdata) { get; } | Devuelve información sobre los datos vinculados o integrados asociados a un gráfico. Solo lectura [`IChartData`](../ichartdata). |
+| [ChartData](../../aspose.slides.charts/ichart/chartdata) { get; } | Devuelve información sobre los datos vinculados o incrustados asociados con un gráfico. Solo lectura [`IChartData`](../ichartdata). |
 | [ChartDataTable](../../aspose.slides.charts/ichart/chartdatatable) { get; } | Devuelve una tabla de datos de un gráfico. Solo lectura [`IDataTable`](../idatatable). |
 | [ChartTitle](../../aspose.slides.charts/ichart/charttitle) { get; } | Devuelve o establece un título para el gráfico. Solo lectura [`IChartTitle`](../icharttitle). |
-| [DisplayBlanksAs](../../aspose.slides.charts/ichart/displayblanksas) { get; set; } | Devuelve o establece la forma de graficar celdas en blanco en un gráfico. Lectura/escritura [`DisplayBlanksAsType`](../displayblanksastype). |
+| [DisplayBlanksAs](../../aspose.slides.charts/ichart/displayblanksas) { get; set; } | Devuelve o establece la forma de representar las celdas en blanco en un gráfico. Lectura/escritura [`DisplayBlanksAsType`](../displayblanksastype). |
 | [Floor](../../aspose.slides.charts/ichart/floor) { get; } | Devuelve un objeto que permite cambiar el formato del piso de un gráfico 3D. Solo lectura [`IChartWall`](../ichartwall). |
-| [HasDataTable](../../aspose.slides.charts/ichart/hasdatatable) { get; set; } | Determina si un gráfico tiene una tabla de datos. Lectura/escritura Boolean. |
-| [HasLegend](../../aspose.slides.charts/ichart/haslegend) { get; set; } | Determina si un gráfico tiene una leyenda. Lectura/escritura Boolean. |
-| [HasRoundedCorners](../../aspose.slides.charts/ichart/hasroundedcorners) { get; set; } | Especifica si el área del gráfico debe tener esquinas redondeadas. Lectura/escritura Boolean. |
-| [HasTitle](../../aspose.slides.charts/ichart/hastitle) { get; set; } | Determina si un gráfico tiene un título visible. Lectura/escritura Boolean. |
+| [HasDataTable](../../aspose.slides.charts/ichart/hasdatatable) { get; set; } | Determina si un gráfico tiene una tabla de datos. Lectura/escritura Booleano. |
+| [HasLegend](../../aspose.slides.charts/ichart/haslegend) { get; set; } | Determina si un gráfico tiene una leyenda. Lectura/escritura Booleano. |
+| [HasRoundedCorners](../../aspose.slides.charts/ichart/hasroundedcorners) { get; set; } | Especifica si el área del gráfico debe tener esquinas redondeadas. Lectura/escritura Booleano. |
+| [HasTitle](../../aspose.slides.charts/ichart/hastitle) { get; set; } | Determina si un gráfico tiene un título visible. Lectura/escritura Booleano. |
 | [Legend](../../aspose.slides.charts/ichart/legend) { get; } | Devuelve o establece una leyenda para un gráfico. Solo lectura [`ILegend`](../ilegend). |
 | [PlotArea](../../aspose.slides.charts/ichart/plotarea) { get; } | Representa el área de trazado de un gráfico. Solo lectura [`IChartPlotArea`](../ichartplotarea). |
-| [PlotVisibleCellsOnly](../../aspose.slides.charts/ichart/plotvisiblecellsonly) { get; set; } | Determina si solo se trazan las celdas visibles. Falso para trazar celdas tanto visibles como ocultas. Lectura/escritura Boolean. |
+| [PlotVisibleCellsOnly](../../aspose.slides.charts/ichart/plotvisiblecellsonly) { get; set; } | Determina si solo se trazan las celdas visibles. Falso para trazar tanto las celdas visibles como las ocultas. Lectura/escritura Booleano. |
 | [Rotation3D](../../aspose.slides.charts/ichart/rotation3d) { get; } | Devuelve una rotación 3D de un gráfico. Solo lectura [`IRotation3D`](../irotation3d). |
-| [ShowDataLabelsOverMaximum](../../aspose.slides.charts/ichart/showdatalabelsovermaximum) { get; set; } | Especifica si las etiquetas de datos sobre el máximo del gráfico deben mostrarse. Lectura/escritura Boolean. |
+| [ShowDataLabelsOverMaximum](../../aspose.slides.charts/ichart/showdatalabelsovermaximum) { get; set; } | Especifica que las etiquetas de datos sobre el máximo del gráfico deben mostrarse. Lectura/escritura Booleano. |
 | [SideWall](../../aspose.slides.charts/ichart/sidewall) { get; } | Devuelve un objeto que permite cambiar el formato de la pared lateral de un gráfico 3D. Solo lectura [`IChartWall`](../ichartwall). |
 | [Style](../../aspose.slides.charts/ichart/style) { get; set; } | Devuelve o establece el estilo del gráfico. Lectura/escritura [`StyleType`](../styletype). |
 | [Type](../../aspose.slides.charts/ichart/type) { get; set; } | Devuelve o establece el tipo de gráfico. Lectura/escritura [`ChartType`](../charttype). |
@@ -47,7 +47,7 @@ public interface IChart : IFormattedTextContainer, IGraphicalObject, IOverrideTh
 
 | Nombre | Descripción |
 | --- | --- |
-| [ValidateChartLayout](../../aspose.slides.charts/ichart/validatechartlayout)() | Calcula los valores reales de los elementos del gráfico. Los valores reales incluyen la posición de los elementos que implementan la interfaz IActualLayout (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight) y los valores de ejes reales (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale) |
+| [ValidateChartLayout](../../aspose.slides.charts/ichart/validatechartlayout)() | Calcula los valores reales de los elementos del gráfico. Los valores reales incluyen la posición de los elementos que implementan la interfaz IActualLayout (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight) y los valores reales de los ejes (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale) |
 
 ### Ver También
 
@@ -55,6 +55,6 @@ public interface IChart : IFormattedTextContainer, IGraphicalObject, IOverrideTh
 * interfaz [IGraphicalObject](../../aspose.slides/igraphicalobject)
 * interfaz [IOverrideThemeable](../../aspose.slides.theme/ioverridethemeable)
 * espacio de nombres [Aspose.Slides.Charts](../../aspose.slides.charts)
-* ensamblado [Aspose.Slides](../../)
+* ensamblaje [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,13 +1,13 @@
 ---
-title: Efecto de Reflexión
-second_title: Referencia de la API Aspose.Slides para .NET
+title: ReflectionEffect
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Reflexión. Solo lectura IReflectionEffectiveDataaspose.slides.effects/ireflectioneffectivedata.
 type: docs
 weight: 90
 url: /es/aspose.slides/ieffectformateffectivedata/reflectioneffect/
 ---
 
-## Propiedad IEffectFormatEffectiveData.ReflectionEffect
+## IEffectFormatEffectiveData.ReflectionEffect property
 
 Reflexión. Solo lectura [`IReflectionEffectiveData`](../../../aspose.slides.effects/ireflectioneffectivedata).
 
@@ -15,11 +15,11 @@ Reflexión. Solo lectura [`IReflectionEffectiveData`](../../../aspose.slides.eff
 public IReflectionEffectiveData ReflectionEffect { get; }
 ```
 
-### También Visto
+### Ver También
 
-* interfaz [IReflectionEffectiveData](../../../aspose.slides.effects/ireflectioneffectivedata)
-* interfaz [IEffectFormatEffectiveData](../../ieffectformateffectivedata)
-* espacio de nombres [Aspose.Slides](../../ieffectformateffectivedata)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IReflectionEffectiveData](../../../aspose.slides.effects/ireflectioneffectivedata)
+* interfaz [IEffectFormatEffectiveData](../../ieffectformateffectivedata)
+* espacio de nombres [Aspose.Slides](../../ieffectformateffectivedata)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

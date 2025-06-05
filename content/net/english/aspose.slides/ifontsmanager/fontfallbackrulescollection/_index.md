@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ifontsmanager/fontfallbackrulescollection/
 ---
+
 ## IFontsManager.FontFallBackRulesCollection property
 
 Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Read/write [`IFontFallBackRulesCollection`](../../ifontfallbackrulescollection).

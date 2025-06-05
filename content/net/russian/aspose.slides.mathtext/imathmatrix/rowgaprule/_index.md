@@ -1,7 +1,7 @@
 ---
 title: RowGapRule
-second_title: Aspose.Slides для .NET API справочник
-description: Тип вертикального расстояния между строками матрицы. Единицы вертикального расстояния могут быть строками или точками, хранящимися в твипсах. По умолчанию SingleSpacingGap 0
+second_title: Aspose.Slides для .NET API Справочник
+description: Тип вертикального отступа между строками матрицы. Вертикальные единицы измерения могут быть линиями или пунктами, хранящимися в твипах. По умолчанию SingleSpacingGap 0
 type: docs
 weight: 110
 url: /ru/aspose.slides.mathtext/imathmatrix/rowgaprule/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/imathmatrix/rowgaprule/
 
 ## IMathMatrix.RowGapRule свойство
 
-Тип вертикального расстояния между строками матрицы; единицы вертикального расстояния могут быть строками или точками (хранящимися в твипсах). По умолчанию: SingleSpacingGap (0)
+Тип вертикального отступа между строками матрицы; вертикальные единицы измерения могут быть линиями или пунктами (хранящимися в твипах). По умолчанию: SingleSpacingGap (0)
 
 ```csharp
 public MathSpacingRules RowGapRule { get; set; }
@@ -25,7 +25,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.RowGapRule = MathSpacingRules.OneAndHalfSpacingGap;
 ```
 
-### Также см.
+### См. также
 
 * enum [MathSpacingRules](../../mathspacingrules)
 * interface [IMathMatrix](../../imathmatrix)

@@ -1,7 +1,7 @@
 ---
 title: DateTime4
-second_title: Справочник по API Aspose.Slides для .NET
-description: Текущая дата и время в четвертом предопределенном формате Месяц ДД ГГГГ для английского. Поле только для чтения FieldTypeaspose.slides/fieldtype.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Текущая дата и время в четвертом предопределенном формате Месяц ДД ГГГГ для английского. Поле только для чтения FieldType aspose.slides/fieldtype.
 type: docs
 weight: 100
 url: /ru/aspose.slides/fieldtype/datetime4/

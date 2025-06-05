@@ -1,7 +1,7 @@
 ---
-title: Hinzufügen
-second_title: Aspose.Slides für .NET API-Referenz
-description: Fügen Sie einen neuen Befehl zum Pfad hinzu
+title: Add
+second_title: Aspose.Slides für .NET API Referenz
+description: Neuen Befehl zum Pfad hinzufügen
 type: docs
 weight: 40
 url: /de/aspose.slides.animation/imotionpath/add/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/imotionpath/add/
 
 ## IMotionPath.Add-Methode
 
-Fügen Sie einen neuen Befehl zum Pfad hinzu
+Neuen Befehl zum Pfad hinzufügen
 
 ```csharp
 public IMotionCmdPath Add(MotionCommandPathType type, PointF[] pts, MotionPathPointsType ptsType, 
@@ -18,9 +18,9 @@ public IMotionCmdPath Add(MotionCommandPathType type, PointF[] pts, MotionPathPo
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| type | MotionCommandPathType | Typ des Befehls für das Verhalten des Animationsbewegungseffekts [`MotionCommandPathType`](../../motioncommandpathtype) |
-| pts | PointF[] | Punktesarray PointF[] |
-| ptsType | MotionPathPointsType | Typ der Punkte im Animationsbewegungspfad [`MotionPathPointsType`](../../motionpathpointstype) |
+| type | MotionCommandPathType | Art des Befehls für das Verhalten des Animationsbewegungseffekts [`MotionCommandPathType`](../../motioncommandpathtype) |
+| pts | PointF[] | Punktarray PointF[] |
+| ptsType | MotionPathPointsType | Art der Punkte im Animationsbewegungspfad [`MotionPathPointsType`](../../motionpathpointstype) |
 | bRelativeCoord | Boolean | Gibt an, ob relative Koordinaten verwendet werden sollen oder nicht Boolean |
 
 ### Rückgabewert
@@ -30,8 +30,8 @@ Befehl eines Pfades [`IMotionCmdPath`](../../imotioncmdpath)
 ### Siehe auch
 
 * Schnittstelle [IMotionCmdPath](../../imotioncmdpath)
-* Aufzählung [MotionCommandPathType](../../motioncommandpathtype)
-* Aufzählung [MotionPathPointsType](../../motionpathpointstype)
+* enum [MotionCommandPathType](../../motioncommandpathtype)
+* enum [MotionPathPointsType](../../motionpathpointstype)
 * Schnittstelle [IMotionPath](../../imotionpath)
 * Namensraum [Aspose.Slides.Animation](../../imotionpath)
 * Assembly [Aspose.Slides](../../../)

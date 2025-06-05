@@ -1,6 +1,6 @@
 ---
 title: LayoutSlide
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Iterar cada LayoutSlide aspose.slides.lowcode/foreach/layoutslide en la Presentación aspose.slides/presentation.
 type: docs
 weight: 10
@@ -17,7 +17,7 @@ public static void LayoutSlide(Presentation pres, ForEachLayoutSlideCallback for
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| pres | Presentation | Presentación para iterar sobre las diapositivas de diseño |
+| pres | Presentation | Presentación para iterar diapositivas de diseño |
 | forEachLayoutSlide | ForEachLayoutSlideCallback | Callback que será invocado para cada diapositiva de diseño |
 
 ### Ejemplos
@@ -32,12 +32,12 @@ using (Presentation pres = new Presentation("pres.pptx"))
 } 
 ```
 
-### Véase También
+### También Vea
 
-* class [Presentation](../../../aspose.slides/presentation)
-* delegate [ForEachLayoutSlideCallback](../../foreach.foreachlayoutslidecallback)
-* class [ForEach](../../foreach)
-* namespace [Aspose.Slides.LowCode](../../foreach)
-* assembly [Aspose.Slides](../../../)
+* clase [Presentation](../../../aspose.slides/presentation)
+* delegado [ForEachLayoutSlideCallback](../../foreach.foreachlayoutslidecallback)
+* clase [ForEach](../../foreach)
+* espacio de nombres [Aspose.Slides.LowCode](../../foreach)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

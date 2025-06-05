@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.charts/datalabel/chart/
 ---
+
 ## DataLabel.Chart property
 
 Returns the parent chart. Read-only [`IChart`](../../ichart).

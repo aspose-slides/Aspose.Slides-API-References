@@ -1,7 +1,7 @@
 ---
 title: Accent1
 second_title: Référence API Aspose.Slides pour .NET
-description: Première couleur d'accent dans le schéma. Lecture seule IColorFormataspose.slides/icolorformat.
+description: Première couleur d'accent dans le schéma. Lecture seule IColorFormataspose.slides/../aspose.slides/icolorformat.
 type: docs
 weight: 10
 url: /fr/aspose.slides.theme/colorscheme/accent1/

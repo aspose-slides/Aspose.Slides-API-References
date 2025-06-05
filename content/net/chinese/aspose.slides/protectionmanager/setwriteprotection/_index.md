@@ -1,7 +1,7 @@
 ---
-title: 设置写保护
-second_title: Aspose.Slides for .NET API 参考
-description: 使用指定密码为该演示文稿设置写保护。
+title: SetWriteProtection
+second_title: Aspose.Sildes for .NET API Reference
+description: 使用指定的密码设置此演示文稿的写保护。
 type: docs
 weight: 110
 url: /zh/aspose.slides/protectionmanager/setwriteprotection/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/protectionmanager/setwriteprotection/
 
 ## ProtectionManager.SetWriteProtection 方法
 
-使用指定密码为该演示文稿设置写保护。
+使用指定的密码设置此演示文稿的写保护。
 
 ```csharp
 public void SetWriteProtection(string password)
@@ -17,11 +17,11 @@ public void SetWriteProtection(string password)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| password | 字符串 | 密码。 |
+| password | String | 密码。 |
 
 ### 示例
 
-下面的示例代码演示了如何为演示文稿设置写保护。
+以下示例代码展示了如何为演示文稿设置写保护。
 
 ```csharp
 [C#]
@@ -32,7 +32,7 @@ using (Presentation presentation = new Presentation("pres.pptx"))
 }
 ```
 
-### 另见
+### 另请参见
 
 * class [ProtectionManager](../../protectionmanager)
 * namespace [Aspose.Slides](../../protectionmanager)

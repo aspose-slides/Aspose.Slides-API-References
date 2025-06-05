@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.effects/iimagetransformoperationcollection/addalphamodulateeffect/
 ---
+
 ## IImageTransformOperationCollection.AddAlphaModulateEffect method
 
 Adds the new Alpha Modulate effect to the end of a collection.

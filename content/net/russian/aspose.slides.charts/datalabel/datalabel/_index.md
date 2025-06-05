@@ -1,6 +1,6 @@
 ---
 title: DataLabel
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Создает новый экземпляр класса DataLabel.
 type: docs
 weight: 10

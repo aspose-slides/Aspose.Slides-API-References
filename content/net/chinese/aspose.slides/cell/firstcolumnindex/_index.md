@@ -1,7 +1,7 @@
 ---
 title: FirstColumnIndex
-second_title: Aspose.Slides for .NET API Reference
-description: 返回由单元格覆盖的第一个列的索引。只读 Int32。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回由单元格覆盖的第一列的索引。只读 Int32。
 type: docs
 weight: 50
 url: /zh/aspose.slides/cell/firstcolumnindex/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/cell/firstcolumnindex/
 
 ## Cell.FirstColumnIndex 属性
 
-返回由单元格覆盖的第一个列的索引。只读 Int32。
+返回由单元格覆盖的第一列的索引。只读 Int32。
 
 ```csharp
 public int FirstColumnIndex { get; }
 ```
 
-### 另请参见
+### 参见
 
 * class [Cell](../../cell)
 * namespace [Aspose.Slides](../../cell)

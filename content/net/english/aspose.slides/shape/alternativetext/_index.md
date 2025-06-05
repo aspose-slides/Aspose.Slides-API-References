@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/shape/alternativetext/
 ---
+
 ## Shape.AlternativeText property
 
 Returns or sets the alternative text associated with a shape. Read/write String.

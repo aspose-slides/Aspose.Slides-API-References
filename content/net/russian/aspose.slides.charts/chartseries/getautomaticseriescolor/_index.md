@@ -1,6 +1,6 @@
 ---
 title: GetAutomaticSeriesColor
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает автоматический цвет серии на основе индекса серии и стиля графика. Этот цвет используется по умолчанию, если FillType равен NotDefined.
 type: docs
 weight: 450
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/chartseries/getautomaticseriescolor/
 public Color GetAutomaticSeriesColor()
 ```
 
-### Также посмотрите
+### Смотрите также
 
 * класс [ChartSeries](../../chartseries)
 * пространство имен [Aspose.Slides.Charts](../../chartseries)

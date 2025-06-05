@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides für .NET API-Referenz
-description: Holt effektive Themedaten mit der angewendeten Vererbung.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ruft effektive Themendaten mit der angewendeten Vererbung ab.
 type: docs
 weight: 50
 url: /de/aspose.slides.theme/theme/geteffective/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/theme/geteffective/
 
 ## Theme.GetEffective-Methode
 
-Holt effektive Themedaten mit der angewendeten Vererbung.
+Ruft effektive Themendaten mit der angewendeten Vererbung ab.
 
 ```csharp
 public IThemeEffectiveData GetEffective()
@@ -21,7 +21,7 @@ Ein [`IThemeEffectiveData`](../../ithemeeffectivedata).
 
 ### Beispiele
 
-Dieses Beispiel demonstriert das Abrufen effektiver Themenattribute.
+Dieses Beispiel zeigt, wie effektive Themenattribute abgerufen werden.
 
 ```csharp
 [C#]
@@ -35,7 +35,7 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * interface [IThemeEffectiveData](../../ithemeeffectivedata)
 * class [Theme](../../theme)

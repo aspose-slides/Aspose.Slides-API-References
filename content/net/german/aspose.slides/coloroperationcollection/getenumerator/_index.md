@@ -1,13 +1,13 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Silder für .NET API-Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt einen Enumerator zurück, der durch die Sammlung iteriert.
 type: docs
 weight: 100
 url: /de/aspose.slides/coloroperationcollection/getenumerator/
 ---
 
-## ColorOperationCollection.GetEnumerator-Methode
+## ColorOperationCollection.GetEnumerator Methode
 
 Gibt einen Enumerator zurück, der durch die Sammlung iteriert.
 
@@ -19,9 +19,9 @@ public IEnumerator<IColorOperation> GetEnumerator()
 
 Ein IEnumerator, der verwendet werden kann, um durch die Sammlung zu iterieren.
 
-### Siehe auch
+### Siehe Auch
 
-* Schnittstelle [IColorOperation](../../icoloroperation)
+* Interface [IColorOperation](../../icoloroperation)
 * Klasse [ColorOperationCollection](../../coloroperationcollection)
 * Namespace [Aspose.Slides](../../coloroperationcollection)
 * Assembly [Aspose.Slides](../../../)

@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.mathtext/mathdelimiter/separatorcharacter/
 ---
+
 ## MathDelimiter.SeparatorCharacter property
 
 Delimiter Separator Character specifies the character that separates arguments in the delimiter object. The default: '&#x7C;'.

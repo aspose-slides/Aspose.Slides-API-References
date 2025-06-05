@@ -1,6 +1,6 @@
 ---
 title: ExtrusionViewPointY
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Représente la propriété extrusion.viewpoint.y
 type: docs
 weight: 250
@@ -15,7 +15,7 @@ Représente la propriété 'extrusion.viewpoint.y'
 public static BehaviorProperty ExtrusionViewPointY { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [BehaviorProperty](../../behaviorproperty)
 * espace de noms [Aspose.Slides.Animation](../../behaviorproperty)

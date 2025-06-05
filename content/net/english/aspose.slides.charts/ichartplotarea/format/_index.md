@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/ichartplotarea/format/
 ---
+
 ## IChartPlotArea.Format property
 
 Returns the format of a plot area. Read-only [`IFormat`](../../iformat).

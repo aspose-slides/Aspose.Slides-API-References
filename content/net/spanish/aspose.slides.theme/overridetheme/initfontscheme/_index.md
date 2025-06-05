@@ -19,12 +19,12 @@ public void InitFontScheme()
 
 | excepción | condición |
 | --- | --- |
-| InvalidOperationException | Se lanza si el FontScheme ya está inicializado (no es nulo). |
+| InvalidOperationException | Lanzada si el FontScheme ya está inicializado (no nulo). |
 
-### Ver También
+### Véase también
 
 * clase [OverrideTheme](../../overridetheme)
-* namespace [Aspose.Slides.Theme](../../overridetheme)
+* espacio de nombres [Aspose.Slides.Theme](../../overridetheme)
 * ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

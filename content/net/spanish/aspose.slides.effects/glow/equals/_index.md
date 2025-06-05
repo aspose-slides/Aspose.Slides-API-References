@@ -1,13 +1,13 @@
 ---
-title: Iguales
-second_title: Referencia de la API de Aspose.Slides para .NET
+title: Equals
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Determina si el Glowaspose.slides.effects/glow especificado es igual al Glowaspose.slides.effects/glow actual.
 type: docs
 weight: 30
 url: /es/aspose.slides.effects/glow/equals/
 ---
 
-## Método Glow.Equals
+## Glow.Equals método
 
 Determina si el [`Glow`](../../glow) especificado es igual al [`Glow`](../../glow) actual.
 
@@ -23,10 +23,10 @@ public override bool Equals(object obj)
 
 true si los objetos son iguales; de lo contrario, false.
 
-### Véase también
+### Ver También
 
 * clase [Glow](../../glow)
 * espacio de nombres [Aspose.Slides.Effects](../../glow)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

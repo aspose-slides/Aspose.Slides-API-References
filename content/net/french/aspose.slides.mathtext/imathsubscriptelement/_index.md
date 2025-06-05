@@ -1,13 +1,13 @@
 ---
 title: IMathSubscriptElement
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Aspose.Sildes pour .NET API Reference
 description: Spécifie l'objet indice qui se compose d'une base et d'un indice de taille réduite placé en dessous et à droite.
 type: docs
 weight: 8210
 url: /fr/aspose.slides.mathtext/imathsubscriptelement/
 ---
 
-## Interface IMathSubscriptElement
+## IMathSubscriptElement interface
 
 Spécifie l'objet indice, qui se compose d'une base et d'un indice de taille réduite placé en dessous et à droite.
 
@@ -25,7 +25,7 @@ public interface IMathSubscriptElement : IMathElement
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]

@@ -1,15 +1,15 @@
 ---
 title: PatternFormat
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt ein Muster zum Füllen einer Form dar.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt ein Muster zum Ausfüllen einer Form dar.
 type: docs
 weight: 9080
 url: /de/aspose.slides/patternformat/
 ---
 
-## PatternFormat-Klasse
+## PatternFormat Klasse
 
-Stellt ein Muster zum Füllen einer Form dar.
+Stellt ein Muster zum Ausfüllen einer Form dar.
 
 ```csharp
 public sealed class PatternFormat : PVIObject, IPatternFormat
@@ -19,17 +19,17 @@ public sealed class PatternFormat : PVIObject, IPatternFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht den Zugriff auf die grundlegende IPresentationComponent-Schnittstelle. Nur lesbar [`IPresentationComponent`](../ipresentationcomponent). |
-| [BackColor](../../aspose.slides/patternformat/backcolor) { get; } | Gibt die Hintergrundmusterfarbe zurück. Nur lesbar [`IColorFormat`](../icolorformat). |
-| [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | Gibt die Vordergrundmusterfarbe zurück. Nur lesbar [`IColorFormat`](../icolorformat). |
-| [PatternStyle](../../aspose.slides/patternformat/patternstyle) { get; set; } | Gibt den Musterstil zurück oder setzt ihn. Lese-/Schreibzugriff [`PatternStyle`](../patternstyle). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IPresentationComponent. Nur-Lese [`IPresentationComponent`](../ipresentationcomponent). |
+| [BackColor](../../aspose.slides/patternformat/backcolor) { get; } | Gibt die Hintergrundmusterfarbe zurück. Nur-Lese [`IColorFormat`](../icolorformat). |
+| [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | Gibt die Vordergrundmusterfarbe zurück. Nur-Lese [`IColorFormat`](../icolorformat). |
+| [PatternStyle](../../aspose.slides/patternformat/patternstyle) { get; set; } | Gibt den Musterstil zurück oder legt ihn fest. Lese-/Schreibzugriff [`PatternStyle`](../patternstyle). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Vergleicht mit dem angegebenen Objekt. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Gibt den Hashcode zurück. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Gibt den Hash-Code zurück. |
 | [GetTile](../../aspose.slides/patternformat/gettile#gettile)(Color) | Erstellt ein Kachelbild für die Musterfüllung. |
 | [GetTile](../../aspose.slides/patternformat/gettile#gettile_1)(Color, Color) | Erstellt ein Kachelbild für die Musterfüllung mit angegebenen Farben. |
 

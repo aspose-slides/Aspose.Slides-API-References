@@ -7,15 +7,15 @@ weight: 60
 url: /de/aspose.slides/fieldtype/datetime12/
 ---
 
-## FieldType.DateTime12-Eigenschaft
+## FieldType.DateTime12 Eigenschaft
 
-Aktuelles Datum und Uhrzeit in einem zwölften vordefinierten Format (hh:mm AM/PM für Englisch). Schreibgeschützt [`FieldType`](../../fieldtype).
+Aktuelles Datum und Uhrzeit in einem zwölften vordefinierten Format (hh:mm AM/PM für Englisch). Schreibgeschützter [`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType DateTime12 { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [FieldType](../../fieldtype)
 * Namespace [Aspose.Slides](../../fieldtype)

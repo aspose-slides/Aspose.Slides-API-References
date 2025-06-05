@@ -7,7 +7,7 @@ weight: 10
 url: /de/aspose.slides.mathtext/mathbarfactory/mathbarfactory/
 ---
 
-## MathBarFactory Konstruktor
+## MathBarFactory-Konstruktor
 
 Der Standardkonstruktor.
 

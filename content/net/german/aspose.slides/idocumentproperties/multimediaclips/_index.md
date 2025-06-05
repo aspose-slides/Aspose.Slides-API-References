@@ -1,7 +1,7 @@
 ---
 title: MultimediaClips
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Gesamtzahl der im Dokument enthaltenen Audio- oder Videoclips an. Schreibgeschütztes Int32.
+description: Gibt die Gesamtanzahl der im Dokument enthaltenen Audio- oder Videoclips an. Schreibgeschützter Int32.
 type: docs
 weight: 220
 url: /de/aspose.slides/idocumentproperties/multimediaclips/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/idocumentproperties/multimediaclips/
 
 ## IDocumentProperties.MultimediaClips-Eigenschaft
 
-Gibt die Gesamtzahl der im Dokument enthaltenen Audio- oder Videoclips an. Schreibgeschütztes Int32.
+Gibt die Gesamtanzahl der im Dokument enthaltenen Audio- oder Videoclips an. Schreibgeschützter Int32.
 
 ```csharp
 public int MultimediaClips { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IDocumentProperties](../../idocumentproperties)
 * Namespace [Aspose.Slides](../../idocumentproperties)

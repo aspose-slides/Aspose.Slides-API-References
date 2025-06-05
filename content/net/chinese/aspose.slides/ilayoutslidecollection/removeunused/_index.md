@@ -1,6 +1,6 @@
 ---
 title: RemoveUnused
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 移除未使用的布局幻灯片，即 HasDependingSlides 为 false 的布局幻灯片。
 type: docs
 weight: 40
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ilayoutslidecollection/removeunused/
 
 ## ILayoutSlideCollection.RemoveUnused 方法
 
-移除未使用的布局幻灯片（HasDependingSlides 为 false 的布局幻灯片）。
+移除未使用的布局幻灯片（即 HasDependingSlides 为 false 的布局幻灯片）。
 
 ```csharp
 public void RemoveUnused()
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [ILayoutSlideCollection](../../ilayoutslidecollection)
 * 命名空间 [Aspose.Slides](../../ilayoutslidecollection)

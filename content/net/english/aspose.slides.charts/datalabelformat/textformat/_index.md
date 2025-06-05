@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides.charts/datalabelformat/textformat/
 ---
+
 ## DataLabelFormat.TextFormat property
 
 Returns chart text format. Read-only [`IChartTextFormat`](../../icharttextformat).

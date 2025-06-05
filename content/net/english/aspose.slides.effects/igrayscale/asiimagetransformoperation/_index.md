@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/igrayscale/asiimagetransformoperation/
 ---
+
 ## IGrayScale.AsIImageTransformOperation property
 
 Returns IImageTransformOperation interface. Read-only [`IImageTransformOperation`](../../iimagetransformoperation).

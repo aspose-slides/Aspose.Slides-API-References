@@ -15,11 +15,11 @@ Devuelve el objeto TableFormat que contiene propiedades de formato para esta tab
 public ITableFormat TableFormat { get; }
 ```
 
-### También te puede interesar
+### Véase También
 
 * interfaz [ITableFormat](../../itableformat)
 * interfaz [ITable](../../itable)
 * espacio de nombres [Aspose.Slides](../../itable)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

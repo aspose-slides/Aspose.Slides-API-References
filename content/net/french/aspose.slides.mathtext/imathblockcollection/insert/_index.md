@@ -1,6 +1,6 @@
 ---
-title: Insérer
-second_title: Référence API Aspose.Slides pour .NET
+title: Insert
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Insère IMathBlock dans la collection à l'index spécifié.
 type: docs
 weight: 80
@@ -17,12 +17,12 @@ public void Insert(int index, IMathBlock item)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | L'index basé sur zéro à lequel un élément doit être inséré. |
+| index | Int32 | L'index basé sur zéro au niveau duquel un élément doit être inséré. |
 | item | IMathBlock | L'IMathBlock à insérer. |
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

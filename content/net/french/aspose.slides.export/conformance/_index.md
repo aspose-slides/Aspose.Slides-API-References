@@ -1,15 +1,15 @@
 ---
-title: Conformité
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie la classe de conformité à laquelle le document PresentationML se conforme.
+title: Conformance
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Spécifie la classe de conformité à laquelle le document PresentationML est conforme.
 type: docs
 weight: 3580
 url: /fr/aspose.slides.export/conformance/
 ---
 
-## Énumération Conformité
+## Énumération Conformance
 
-Spécifie la classe de conformité à laquelle le document PresentationML se conforme.
+Spécifie la classe de conformité à laquelle le document PresentationML est conforme.
 
 ```csharp
 public enum Conformance
@@ -19,9 +19,9 @@ public enum Conformance
 
 | Nom | Valeur | Description |
 | --- | --- | --- |
-| Ecma376_2006 | `0` | Spécifie que le document se conforme à l'ECMA376:2006. |
-| Iso29500_2008_Transitional | `1` | Spécifie que le document se conforme à la classe de conformité ISO/IEC 29500:2008 Transitional. |
-| Iso29500_2008_Strict | `2` | Spécifie que le document se conforme à la classe de conformité ISO/IEC 29500:2008 Strict. |
+| Ecma376_2006 | `0` | Spécifie que le document est conforme à l'ECMA376:2006. |
+| Iso29500_2008_Transitional | `1` | Spécifie que le document est conforme à la classe de conformité ISO/IEC 29500:2008 Transitional. |
+| Iso29500_2008_Strict | `2` | Spécifie que le document est conforme à la classe de conformité ISO/IEC 29500:2008 Strict. |
 
 ### Voir Aussi
 

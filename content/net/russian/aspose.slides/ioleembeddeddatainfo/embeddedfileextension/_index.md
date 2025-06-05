@@ -1,6 +1,6 @@
 ---
 title: EmbeddedFileExtension
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает расширение файла для текущего встроенного OLE объекта. Только для чтения строка.
 type: docs
 weight: 20

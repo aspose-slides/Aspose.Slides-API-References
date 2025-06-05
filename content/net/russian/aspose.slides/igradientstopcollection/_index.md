@@ -17,24 +17,24 @@ public interface IGradientStopCollection : IGenericCollection<IGradientStop>
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [Item](../../aspose.slides/igradientstopcollection/item) { get; } | Возвращает градиентную остановку по индексу. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.slides/igradientstopcollection/add#add_2)(float, Color) | Создает новую градиентную остановку и добавляет её в конец коллекции. |
-| [Add](../../aspose.slides/igradientstopcollection/add#add)(float, PresetColor) | Создает новую градиентную остановку и добавляет её в конец коллекции. |
-| [Add](../../aspose.slides/igradientstopcollection/add#add_1)(float, SchemeColor) | Создает новую градиентную остановку и добавляет её в конец коллекции. |
+| [Add](../../aspose.slides/igradientstopcollection/add#add_2)(float, Color) | Создает новую градиентную остановку и добавляет ее в конец коллекции. |
+| [Add](../../aspose.slides/igradientstopcollection/add#add)(float, PresetColor) | Создает новую градиентную остановку и добавляет ее в конец коллекции. |
+| [Add](../../aspose.slides/igradientstopcollection/add#add_1)(float, SchemeColor) | Создает новую градиентную остановку и добавляет ее в конец коллекции. |
 | [Clear](../../aspose.slides/igradientstopcollection/clear)() | Удаляет все градиентные остановки из коллекции. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | Создает новую градиентную остановку и вставляет её в указанное место в коллекции. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | Создает новую градиентную остановку и вставляет её в указанное место в коллекции. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Создает новую градиентную остановку и вставляет её в указанное место в коллекции. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | Создает новую градиентную остановку и вставляет ее в указанную позицию в коллекции. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | Создает новую градиентную остановку и вставляет ее в указанную позицию в коллекции. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Создает новую градиентную остановку и вставляет ее в указанную позицию в коллекции. |
 | [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | Удаляет градиентную остановку по указанному индексу. |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * интерфейс [IGradientStop](../igradientstop)

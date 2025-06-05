@@ -1,7 +1,7 @@
 ---
-title: Текст
-second_title: Справка по API Aspose.Sildes для .NET
-description: Получает или устанавливает простой текст части. Читаемый/записываемый String.
+title: Text
+second_title: Aspose.Sildes для .NET API Справка
+description: Получает или устанавливает обычный текст части. Читаемый/записываемый String.
 type: docs
 weight: 40
 url: /ru/aspose.slides/portion/text/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/portion/text/
 
 ## Свойство Portion.Text
 
-Получает или устанавливает простой текст части. Читаемый/записываемый String.
+Получает или устанавливает обычный текст части. Читаемый/записываемый String.
 
 ```csharp
 public string Text { get; set; }
@@ -19,7 +19,7 @@ public string Text { get; set; }
 
 Текст.
 
-### См. также
+### См. Также
 
 * класс [Portion](../../portion)
 * пространство имен [Aspose.Slides](../../portion)

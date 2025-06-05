@@ -1,7 +1,7 @@
 ---
 title: JoinBlock
 second_title: Aspose.Sildes for .NET API Reference
-description: 将另一个数学块与此块合并
+description: 将另一个数学块与此块连接
 type: docs
 weight: 150
 url: /zh/aspose.slides.mathtext/mathblock/joinblock/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathblock/joinblock/
 
 ## MathBlock.JoinBlock 方法
 
-将另一个数学块与此块合并
+将另一个数学块与此块连接
 
 ```csharp
 public IMathBlock JoinBlock(IMathBlock other)
@@ -17,11 +17,11 @@ public IMathBlock JoinBlock(IMathBlock other)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| other | IMathBlock | 要合并的块 |
+| other | IMathBlock | 要连接的块 |
 
 ### 返回值
 
-合并后的数学块
+连接后的数学块
 
 ### 示例
 
@@ -35,7 +35,7 @@ IMathBlock block2 = new MathSuperscriptElement(new MathematicalText("a"), new Ma
 IMathBlock block3 = block1.JoinBlock(block2);
 ```
 
-### 另见
+### 参见
 
 * 接口 [IMathBlock](../../imathblock)
 * 类 [MathBlock](../../mathblock)

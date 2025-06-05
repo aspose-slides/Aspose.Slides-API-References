@@ -1,13 +1,13 @@
 ---
 title: WriteAsMathMl
-second_title: Справка по API Aspose.Sildes для .NET
-description: Сохраняет содержимое этого MathBlock aspose.slides.mathtext/mathblock в формате MathML
+second_title: Aspose.Sildes для .NET API Справочник
+description: Сохраняет содержимое этого MathBlockaspose.slides.mathtext/mathblock в формате MathML
 type: docs
 weight: 190
 url: /ru/aspose.slides.mathtext/mathblock/writeasmathml/
 ---
 
-## Метод MathBlock.WriteAsMathMl
+## MathBlock.WriteAsMathMl метод
 
 Сохраняет содержимое этого [`MathBlock`](../../mathblock) в формате MathML
 

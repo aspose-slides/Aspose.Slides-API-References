@@ -6,6 +6,7 @@ type: docs
 weight: 540
 url: /aspose.slides.charts/axis/tickmarksspacing/
 ---
+
 ## Axis.TickMarksSpacing property
 
 Specifies how many tick marks shall be skipped before the next one shall be drawn. Applied to category or series axis. Read/write UInt16.

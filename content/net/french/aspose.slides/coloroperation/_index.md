@@ -1,6 +1,6 @@
 ---
 title: ColorOperation
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Représente différentes opérations de couleur utilisées pour les transformations de couleur. Objet immuable.
 type: docs
 weight: 2440
@@ -26,17 +26,17 @@ public class ColorOperation : IColorOperation
 
 | Nom | Description |
 | --- | --- |
-| [OperationType](../../aspose.slides/coloroperation/operationtype) { get; } | Retourne ou définit le type d'une opération. Lecture seule [`ColorTransformOperation`](../colortransformoperation). |
-| [Parameter](../../aspose.slides/coloroperation/parameter) { get; } | Retourne un paramètre d'une opération. Lecture seule Single. |
+| [OperationType](../../aspose.slides/coloroperation/operationtype) { get; } | Retourne ou définit le type d'une opération. En lecture seule [`ColorTransformOperation`](../colortransformoperation). |
+| [Parameter](../../aspose.slides/coloroperation/parameter) { get; } | Retourne un paramètre d'une opération. En lecture seule Single. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/coloroperation/equals)(object) | Détermine si les deux instances de ColorOperation sont égales. |
-| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | Sert de fonction de hachage pour un type particulier, adaptée à l'utilisation dans des algorithmes de hachage et des structures de données comme une table de hachage. |
+| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | Sert de fonction de hachage pour un type particulier, adapté à une utilisation dans des algorithmes de hachage et des structures de données comme une table de hachage. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IColorOperation](../icoloroperation)
 * namespace [Aspose.Slides](../../aspose.slides)

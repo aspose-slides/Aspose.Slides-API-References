@@ -6,6 +6,7 @@ type: docs
 weight: 280
 url: /aspose.slides/presentation/videos/
 ---
+
 ## Presentation.Videos property
 
 Returns the collection of all embedded video files in the presentation. Read-only [`IVideoCollection`](../../ivideocollection).

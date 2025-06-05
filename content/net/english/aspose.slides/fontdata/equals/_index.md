@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/fontdata/equals/
 ---
+
 ## FontData.Equals method
 
 Determines whether two FontData instances are equal.

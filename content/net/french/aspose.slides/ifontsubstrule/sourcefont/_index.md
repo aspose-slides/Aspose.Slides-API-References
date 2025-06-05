@@ -1,7 +1,7 @@
 ---
 title: SourceFont
-second_title: Référence API Aspose.Slides pour .NET
-description: Police à substituer Lecture seule IFontDataaspose.slides/ifontdata.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Police à substituer en lecture seule IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 30
 url: /fr/aspose.slides/ifontsubstrule/sourcefont/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ifontsubstrule/sourcefont/
 
 ## Propriété IFontSubstRule.SourceFont
 
-Police à substituer Lecture seule [`IFontData`](../../ifontdata).
+Police à substituer en lecture seule [`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData SourceFont { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IFontData](../../ifontdata)
 * interface [IFontSubstRule](../../ifontsubstrule)

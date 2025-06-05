@@ -1,7 +1,7 @@
 ---
 title: GroupingLocked
-second_title: Aspose.Sildes for .NET API 参考
-description: 确定将此形状添加到组是否被禁止。可读/写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定将此形状添加到组中是否被禁止。可读写布尔值。
 type: docs
 weight: 60
 url: /zh/aspose.slides/pictureframelock/groupinglocked/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/pictureframelock/groupinglocked/
 
 ## PictureFrameLock.GroupingLocked 属性
 
-确定将此形状添加到组是否被禁止。可读/写布尔值。
+确定将此形状添加到组中是否被禁止。可读写布尔值。
 
 ```csharp
 public bool GroupingLocked { get; set; }

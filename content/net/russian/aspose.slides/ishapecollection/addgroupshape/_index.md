@@ -1,7 +1,7 @@
 ---
 title: AddGroupShape
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новый GroupShape и добавляет его в конец коллекции. Размер и положение рамки GroupShape будут подстраиваться под содержимое, когда новая фигура будет добавлена в GroupShape.
+second_title: Aspose.Slides для .NET API Reference
+description: Создает новую GroupShape и добавляет её в конец коллекции. Размеры и положение рамки GroupShape будут подгоняться под содержимое, когда новая фигура будет добавлена в GroupShape.
 type: docs
 weight: 100
 url: /ru/aspose.slides/ishapecollection/addgroupshape/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ishapecollection/addgroupshape/
 
 ## AddGroupShape() {#addgroupshape}
 
-Создает новый GroupShape и добавляет его в конец коллекции. Размер и положение рамки GroupShape будут подстраиваться под содержимое, когда новая фигура будет добавлена в GroupShape.
+Создает новую GroupShape и добавляет её в конец коллекции. Размеры и положение рамки GroupShape будут подгоняться под содержимое, когда новая фигура будет добавлена в GroupShape.
 
 ```csharp
 public IGroupShape AddGroupShape()
@@ -19,7 +19,7 @@ public IGroupShape AddGroupShape()
 
 Созданный объект GroupShape.
 
-### Смотрите также
+### См. также
 
 * интерфейс [IGroupShape](../../igroupshape)
 * интерфейс [IShapeCollection](../../ishapecollection)
@@ -30,7 +30,7 @@ public IGroupShape AddGroupShape()
 
 ## AddGroupShape(ISvgImage, float, float, float, float) {#addgroupshape_1}
 
-Создает новый GroupShape, заполняет его преобразованными фигурами из SVG и добавляет его в конец коллекции.
+Создает новую GroupShape, заполняет её преобразованными фигурами из SVG и добавляет её в конец коллекции.
 
 ```csharp
 public IGroupShape AddGroupShape(ISvgImage svgImage, float x, float y, float width, float height)
@@ -38,7 +38,7 @@ public IGroupShape AddGroupShape(ISvgImage svgImage, float x, float y, float wid
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| svgImage | ISvgImage | Объект svg-изображения [`ISvgImage`](../../isvgimage) |
+| svgImage | ISvgImage | Объект SVG изображения [`ISvgImage`](../../isvgimage) |
 | x | Single | Координата X для левой стороны рамки группы фигур. |
 | y | Single | Координата Y для верхней стороны рамки группы фигур. |
 | width | Single | Ширина рамки группы фигур. |
@@ -48,7 +48,7 @@ public IGroupShape AddGroupShape(ISvgImage svgImage, float x, float y, float wid
 
 Созданный объект GroupShape.
 
-### Смотрите также
+### См. также
 
 * интерфейс [IGroupShape](../../igroupshape)
 * интерфейс [ISvgImage](../../isvgimage)

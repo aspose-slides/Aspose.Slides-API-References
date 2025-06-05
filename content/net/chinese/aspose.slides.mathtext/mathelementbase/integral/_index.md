@@ -1,13 +1,13 @@
 ---
-title: 积分
-second_title: Aspose.Sildes for .NET API 参考
+title: Integral
+second_title: Aspose.Sildes for .NET API Reference
 description: 计算积分
 type: docs
 weight: 70
 url: /zh/aspose.slides.mathtext/mathelementbase/integral/
 ---
 
-## Integral(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) {#integral_2}
+## Integral(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) {#integral_2}
 
 计算积分
 
@@ -25,7 +25,7 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement l
 
 ### 返回值
 
-返回类型为 [`IMathNaryOperator`](../../imathnaryoperator) 的新实例
+新实例类型 [`IMathNaryOperator`](../../imathnaryoperator)
 
 ### 示例
 
@@ -41,17 +41,17 @@ IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, lowe
 
 ### 参见
 
-* 接口 [IMathNaryOperator](../../imathnaryoperator)
-* 枚举 [MathIntegralTypes](../../mathintegraltypes)
-* 接口 [IMathElement](../../imathelement)
-* 枚举 [MathLimitLocations](../../mathlimitlocations)
-* 类 [MathElementBase](../../mathelementbase)
-* 命名空间 [Aspose.Slides.MathText](../../mathelementbase)
-* 程序集 [Aspose.Slides](../../../)
+* 接口 [IMathNaryOperator](../../imathnaryoperator)
+* 枚举 [MathIntegralTypes](../../mathintegraltypes)
+* 接口 [IMathElement](../../imathelement)
+* 枚举 [MathLimitLocations](../../mathlimitlocations)
+* 类 [MathElementBase](../../mathelementbase)
+* 命名空间 [Aspose.Slides.MathText](../../mathelementbase)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
-## Integral(MathIntegralTypes, IMathElement, IMathElement) {#integral_1}
+## Integral(MathIntegralTypes, IMathElement, IMathElement) {#integral_1}
 
 计算积分
 
@@ -68,7 +68,7 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement l
 
 ### 返回值
 
-返回类型为 [`IMathNaryOperator`](../../imathnaryoperator) 的新实例
+新实例类型 [`IMathNaryOperator`](../../imathnaryoperator)
 
 ### 示例
 
@@ -84,18 +84,18 @@ IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, lowe
 
 ### 参见
 
-* 接口 [IMathNaryOperator](../../imathnaryoperator)
-* 枚举 [MathIntegralTypes](../../mathintegraltypes)
-* 接口 [IMathElement](../../imathelement)
-* 类 [MathElementBase](../../mathelementbase)
-* 命名空间 [Aspose.Slides.MathText](../../mathelementbase)
-* 程序集 [Aspose.Slides](../../../)
+* 接口 [IMathNaryOperator](../../imathnaryoperator)
+* 枚举 [MathIntegralTypes](../../mathintegraltypes)
+* 接口 [IMathElement](../../imathelement)
+* 类 [MathElementBase](../../mathelementbase)
+* 命名空间 [Aspose.Slides.MathText](../../mathelementbase)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
 ## Integral(MathIntegralTypes) {#integral}
 
-计算无限制积分
+计算无界积分
 
 ```csharp
 public IMathNaryOperator Integral(MathIntegralTypes integralType)
@@ -107,7 +107,7 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType)
 
 ### 返回值
 
-返回类型为 [`IMathNaryOperator`](../../imathnaryoperator) 的新实例
+新实例类型 [`IMathNaryOperator`](../../imathnaryoperator)
 
 ### 示例
 
@@ -121,15 +121,15 @@ IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Contour);
 
 ### 参见
 
-* 接口 [IMathNaryOperator](../../imathnaryoperator)
-* 枚举 [MathIntegralTypes](../../mathintegraltypes)
-* 类 [MathElementBase](../../mathelementbase)
-* 命名空间 [Aspose.Slides.MathText](../../mathelementbase)
-* 程序集 [Aspose.Slides](../../../)
+* 接口 [IMathNaryOperator](../../imathnaryoperator)
+* 枚举 [MathIntegralTypes](../../mathintegraltypes)
+* 类 [MathElementBase](../../mathelementbase)
+* 命名空间 [Aspose.Slides.MathText](../../mathelementbase)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
-## Integral(MathIntegralTypes, string, string, MathLimitLocations) {#integral_4}
+## Integral(MathIntegralTypes, string, string, MathLimitLocations) {#integral_4}
 
 计算积分
 
@@ -147,7 +147,7 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLi
 
 ### 返回值
 
-返回类型为 [`IMathNaryOperator`](../../imathnaryoperator) 的新实例
+新实例类型 [`IMathNaryOperator`](../../imathnaryoperator)
 
 ### 示例
 
@@ -161,16 +161,16 @@ IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, "1",
 
 ### 参见
 
-* 接口 [IMathNaryOperator](../../imathnaryoperator)
-* 枚举 [MathIntegralTypes](../../mathintegraltypes)
-* 枚举 [MathLimitLocations](../../mathlimitlocations)
-* 类 [MathElementBase](../../mathelementbase)
-* 命名空间 [Aspose.Slides.MathText](../../mathelementbase)
-* 程序集 [Aspose.Slides](../../../)
+* 接口 [IMathNaryOperator](../../imathnaryoperator)
+* 枚举 [MathIntegralTypes](../../mathintegraltypes)
+* 枚举 [MathLimitLocations](../../mathlimitlocations)
+* 类 [MathElementBase](../../mathelementbase)
+* 命名空间 [Aspose.Slides.MathText](../../mathelementbase)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
-## Integral(MathIntegralTypes, string, string) {#integral_3}
+## Integral(MathIntegralTypes, string, string) {#integral_3}
 
 计算积分
 
@@ -187,7 +187,7 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLi
 
 ### 返回值
 
-返回类型为 [`IMathNaryOperator`](../../imathnaryoperator) 的新实例
+新实例类型 [`IMathNaryOperator`](../../imathnaryoperator)
 
 ### 示例
 
@@ -201,10 +201,10 @@ IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, "1",
 
 ### 参见
 
-* 接口 [IMathNaryOperator](../../imathnaryoperator)
-* 枚举 [MathIntegralTypes](../../mathintegraltypes)
-* 类 [MathElementBase](../../mathelementbase)
-* 命名空间 [Aspose.Slides.MathText](../../mathelementbase)
-* 程序集 [Aspose.Slides](../../../)
+* 接口 [IMathNaryOperator](../../imathnaryoperator)
+* 枚举 [MathIntegralTypes](../../mathintegraltypes)
+* 类 [MathElementBase](../../mathelementbase)
+* 命名空间 [Aspose.Slides.MathText](../../mathelementbase)
+* 程序集 [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

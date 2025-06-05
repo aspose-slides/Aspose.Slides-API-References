@@ -1,15 +1,15 @@
 ---
 title: IPictureFillFormatEffectiveData
-second_title: Aspose.Slides für .NET API-Referenz
-description: Unveränderbares Objekt, das die Eigenschaften des Bildfüllformats enthält.
+second_title: Aspose.Slides für .NET API Referenz
+description: Unveränderliches Objekt, das die Eigenschaften der Bildfüllung enthält.
 type: docs
 weight: 6460
 url: /de/aspose.slides/ipicturefillformateffectivedata/
 ---
 
-## IPictureFillFormatEffectiveData-Schnittstelle
+## IPictureFillFormatEffectiveData Schnittstelle
 
-Unveränderbares Objekt, das die Eigenschaften des Bildfüllformats enthält.
+Unveränderliches Objekt, das die Eigenschaften der Bildfüllung enthält.
 
 ```csharp
 public interface IPictureFillFormatEffectiveData : IFillParamSource
@@ -19,20 +19,20 @@ public interface IPictureFillFormatEffectiveData : IFillParamSource
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ipicturefillformateffectivedata/asifillparamsource) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IFillParamSource. Nur lesbar [`IFillParamSource`](../ifillparamsource). |
-| [CropBottom](../../aspose.slides/ipicturefillformateffectivedata/cropbottom) { get; } | Gibt die Anzahl der Prozent der tatsächlichen Bildhöhe zurück, die von unten vom Bild abgeschnitten sind. Nur lesbar Single. |
-| [CropLeft](../../aspose.slides/ipicturefillformateffectivedata/cropleft) { get; } | Gibt die Anzahl der Prozent der tatsächlichen Bildbreite zurück, die von links vom Bild abgeschnitten sind. Nur lesbar Single. |
-| [CropRight](../../aspose.slides/ipicturefillformateffectivedata/cropright) { get; } | Gibt die Anzahl der Prozent der tatsächlichen Bildbreite zurück, die von rechts vom Bild abgeschnitten sind. Nur lesbar Single. |
-| [CropTop](../../aspose.slides/ipicturefillformateffectivedata/croptop) { get; } | Gibt die Anzahl der Prozent der tatsächlichen Bildhöhe zurück, die von oben vom Bild abgeschnitten sind. Nur lesbar Single. |
-| [Dpi](../../aspose.slides/ipicturefillformateffectivedata/dpi) { get; } | Gibt die DPI zurück, die verwendet wird, um ein Bild zu füllen. Nur lesbar Int32. |
+| [AsIFillParamSource](../../aspose.slides/ipicturefillformateffectivedata/asifillparamsource) { get; } | Ermöglicht den Zugriff auf die Grundschnittstelle IFillParamSource. Nur lesbar [`IFillParamSource`](../ifillparamsource). |
+| [CropBottom](../../aspose.slides/ipicturefillformateffectivedata/cropbottom) { get; } | Gibt die Anzahl der Prozente der tatsächlichen Bildhöhe zurück, die vom unteren Rand des Bildes abgeschnitten sind. Nur lesbar Single. |
+| [CropLeft](../../aspose.slides/ipicturefillformateffectivedata/cropleft) { get; } | Gibt die Anzahl der Prozente der tatsächlichen Bildbreite zurück, die vom linken Rand des Bildes abgeschnitten sind. Nur lesbar Single. |
+| [CropRight](../../aspose.slides/ipicturefillformateffectivedata/cropright) { get; } | Gibt die Anzahl der Prozente der tatsächlichen Bildbreite zurück, die vom rechten Rand des Bildes abgeschnitten sind. Nur lesbar Single. |
+| [CropTop](../../aspose.slides/ipicturefillformateffectivedata/croptop) { get; } | Gibt die Anzahl der Prozente der tatsächlichen Bildhöhe zurück, die vom oberen Rand des Bildes abgeschnitten sind. Nur lesbar Single. |
+| [Dpi](../../aspose.slides/ipicturefillformateffectivedata/dpi) { get; } | Gibt die dpi zurück, die verwendet wird, um ein Bild zu füllen. Nur lesbar Int32. |
 | [Picture](../../aspose.slides/ipicturefillformateffectivedata/picture) { get; } | Gibt das Bild zurück. Nur lesbar [`IPictureEffectiveData`](../ipictureeffectivedata). |
 | [PictureFillMode](../../aspose.slides/ipicturefillformateffectivedata/picturefillmode) { get; } | Gibt den Bildfüllmodus zurück. Nur lesbar [`PictureFillMode`](../picturefillmode). |
 
-### Bemerkungen
+### Anmerkungen
 
 Diese Schnittstelle wird als Teil von [`IFillFormatEffectiveData`](../ifillformateffectivedata) verwendet.
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IFillParamSource](../ifillparamsource)
 * Namespace [Aspose.Slides](../../aspose.slides)

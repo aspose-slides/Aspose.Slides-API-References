@@ -1,6 +1,6 @@
 ---
 title: IMathSuperscriptElementFactory
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Ermöglicht die Erstellung von IMathSuperscriptElement
 type: docs
 weight: 8240
@@ -21,7 +21,7 @@ public interface IMathSuperscriptElementFactory
 | --- | --- |
 | [CreateMathSuperscriptElement](../../aspose.slides.mathtext/imathsuperscriptelementfactory/createmathsuperscriptelement)(IMathElement, IMathElement) | Erstellt IMathSuperscriptElement |
 
-### Bemerkungen
+### Anmerkungen
 
 Für COM-Kompatibilität
 

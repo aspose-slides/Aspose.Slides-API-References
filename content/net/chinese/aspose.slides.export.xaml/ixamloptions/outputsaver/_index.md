@@ -1,7 +1,7 @@
 ---
 title: OutputSaver
-second_title: Aspose.Slides for .NET API Reference
-description: 表示 IOutputSaver 接口的实现。
+second_title: Aspose.Sildes for .NET API Reference
+description: 代表 IOutputSaver 接口的实现。
 type: docs
 weight: 30
 url: /zh/aspose.slides.export.xaml/ixamloptions/outputsaver/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export.xaml/ixamloptions/outputsaver/
 
 ## IXamlOptions.OutputSaver 属性
 
-表示 IOutputSaver 接口的实现。
+代表 IOutputSaver 接口的实现。
 
 ```csharp
 public IXamlOutputSaver OutputSaver { get; set; }

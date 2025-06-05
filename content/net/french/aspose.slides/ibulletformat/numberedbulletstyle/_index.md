@@ -1,15 +1,15 @@
 ---
-title: Style de Puce Numérotée
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit le style d'une puce numérotée sans héritage. Lecture/écriture NumberedBulletStyleaspose.slides/ibulletformat/numberedbulletstyle.
+title: NumberedBulletStyle
+second_title: Aspose.Sildes pour la référence de l'API .NET
+description: Renvoie ou définit le style d'un point numéroté sans héritage. Lecture/écriture NumberedBulletStyleaspose.slides/ibulletformat/numberedbulletstyle.
 type: docs
 weight: 80
 url: /fr/aspose.slides/ibulletformat/numberedbulletstyle/
 ---
 
-## Propriété IBulletFormat.NumberedBulletStyle
+## IBulletFormat.NumberedBulletStyle propriété
 
-Renvoie ou définit le style d'une puce numérotée sans héritage. Lecture/écriture `NumberedBulletStyle`.
+Renvoie ou définit le style d'un point numéroté sans héritage. Lecture/écriture `NumberedBulletStyle`.
 
 ```csharp
 public NumberedBulletStyle NumberedBulletStyle { get; set; }

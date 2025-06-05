@@ -1,5 +1,5 @@
 ---
-title: RemplissageFormat
+title: FillFormat
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie le format de remplissage d'une ligne. Lecture seule ILineFillFormatEffectiveDataaspose.slides/ilinefillformateffectivedata.
 type: docs
@@ -7,7 +7,7 @@ weight: 120
 url: /fr/aspose.slides/ilineformateffectivedata/fillformat/
 ---
 
-## Propriété ILineFormatEffectiveData.RemplissageFormat
+## Propriété ILineFormatEffectiveData.FillFormat
 
 Renvoie le format de remplissage d'une ligne. Lecture seule [`ILineFillFormatEffectiveData`](../../ilinefillformateffectivedata).
 
@@ -15,7 +15,7 @@ Renvoie le format de remplissage d'une ligne. Lecture seule [`ILineFillFormatEff
 public ILineFillFormatEffectiveData FillFormat { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ILineFillFormatEffectiveData](../../ilinefillformateffectivedata)
 * interface [ILineFormatEffectiveData](../../ilineformateffectivedata)

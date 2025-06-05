@@ -1,7 +1,7 @@
 ---
-title: Wiederholungsdauer
+title: RepeatDuration
 second_title: Aspose.Slides für .NET API-Referenz
-description: Beschreibt, wie oft der Effekt wiederholt werden soll. Lese-/schreibbarer Single.
+description: Beschreibt die Anzahl der Wiederholungen des Effekts. Lese-/schreibbarer Single.
 type: docs
 weight: 60
 url: /de/aspose.slides.animation/itiming/repeatduration/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/itiming/repeatduration/
 
 ## ITiming.RepeatDuration-Eigenschaft
 
-Beschreibt, wie oft der Effekt wiederholt werden soll. Lese-/schreibbarer Single.
+Beschreibt die Anzahl der Wiederholungen des Effekts. Lese-/schreibbarer Single.
 
 ```csharp
 public float RepeatDuration { get; set; }

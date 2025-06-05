@@ -1,13 +1,13 @@
 ---
 title: AddFromHtml
-second_title: Aspose.Slides для .NET Справочник по API
+second_title: Aspose.Sildes для .NET API Reference
 description: Создает слайды из HTML текста и добавляет их в конец коллекции.
 type: docs
 weight: 70
 url: /ru/aspose.slides/slidecollection/addfromhtml/
 ---
 
-## AddFromHtml(string, IExternalResourceResolver, string) {#addfromhtml_5}
+## AddFromHtml(string, IExternalResourceResolver, string) {#addfromhtml_5}
 
 Создает слайды из HTML текста и добавляет их в конец коллекции.
 
@@ -17,21 +17,21 @@ public ISlide[] AddFromHtml(string htmlText, IExternalResourceResolver resolver,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| htmlText | String | HTML для добавления. |
-| resolver | IExternalResourceResolver | Объект обратного вызова, используемый для получения внешних объектов. Если этот параметр равен null, все внешние объекты будут проигнорированы. |
+| htmlText | String | Html для добавления. |
+| resolver | IExternalResourceResolver | Объект обратного вызова, используемый для получения внешних объектов. Если этот параметр равен null, все внешние объекты будут игнорироваться. |
 | uri | String | URI указанного HTML. Используется для разрешения относительных ссылок. |
 
-### Возвращаемое значение
+### Возврат
 
 Добавленные слайды.
 
-### См. также
+### Смотрите также
 
-* interface [ISlide](../../islide)
-* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
-* class [SlideCollection](../../slidecollection)
-* namespace [Aspose.Slides](../../slidecollection)
-* assembly [Aspose.Slides](../../../)
+* interface [ISlide](../../islide)
+* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* class [SlideCollection](../../slidecollection)
+* namespace [Aspose.Slides](../../slidecollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -45,22 +45,22 @@ public ISlide[] AddFromHtml(string htmlText)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| htmlText | String | HTML для добавления. |
+| htmlText | String | Html для добавления. |
 
-### Возвращаемое значение
+### Возврат
 
 Добавленные слайды
 
-### См. также
+### Смотрите также
 
-* interface [ISlide](../../islide)
-* class [SlideCollection](../../slidecollection)
-* namespace [Aspose.Slides](../../slidecollection)
-* assembly [Aspose.Slides](../../../)
+* interface [ISlide](../../islide)
+* class [SlideCollection](../../slidecollection)
+* namespace [Aspose.Slides](../../slidecollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## AddFromHtml(TextReader, IExternalResourceResolver, string) {#addfromhtml_3}
+## AddFromHtml(TextReader, IExternalResourceResolver, string) {#addfromhtml_3}
 
 Создает слайды из HTML текста и добавляет их в конец коллекции.
 
@@ -70,21 +70,21 @@ public ISlide[] AddFromHtml(TextReader htmlReader, IExternalResourceResolver res
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| htmlReader | TextReader | Объект TextReader, который будет использован в качестве источника файла HTML. |
-| resolver | IExternalResourceResolver | Объект обратного вызова, используемый для получения внешних объектов. Если этот параметр равен null, все внешние объекты будут проигнорированы. |
+| htmlReader | TextReader | Объект TextReader, который будет использоваться в качестве источника HTML файла. |
+| resolver | IExternalResourceResolver | Объект обратного вызова, используемый для получения внешних объектов. Если этот параметр равен null, все внешние объекты будут игнорироваться. |
 | uri | String | URI указанного HTML. Используется для разрешения относительных ссылок. |
 
-### Возвращаемое значение
+### Возврат
 
 Добавленные слайды.
 
-### См. также
+### Смотрите также
 
-* interface [ISlide](../../islide)
-* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
-* class [SlideCollection](../../slidecollection)
-* namespace [Aspose.Slides](../../slidecollection)
-* assembly [Aspose.Slides](../../../)
+* interface [ISlide](../../islide)
+* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* class [SlideCollection](../../slidecollection)
+* namespace [Aspose.Slides](../../slidecollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -98,22 +98,22 @@ public ISlide[] AddFromHtml(TextReader htmlReader)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| htmlReader | TextReader | Объект TextReader, который будет использован в качестве источника файла HTML. |
+| htmlReader | TextReader | Объект TextReader, который будет использоваться в качестве источника HTML файла. |
 
-### Возвращаемое значение
+### Возврат
 
 Добавленные слайды
 
-### См. также
+### Смотрите также
 
-* interface [ISlide](../../islide)
-* class [SlideCollection](../../slidecollection)
-* namespace [Aspose.Slides](../../slidecollection)
-* assembly [Aspose.Slides](../../../)
+* interface [ISlide](../../islide)
+* class [SlideCollection](../../slidecollection)
+* namespace [Aspose.Slides](../../slidecollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## AddFromHtml(Stream, IExternalResourceResolver, string) {#addfromhtml_1}
+## AddFromHtml(Stream, IExternalResourceResolver, string) {#addfromhtml_1}
 
 Создает слайды из HTML текста и добавляет их в конец коллекции.
 
@@ -123,21 +123,21 @@ public ISlide[] AddFromHtml(Stream htmlStream, IExternalResourceResolver resolve
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| htmlStream | Stream | Объект Stream, который будет использован в качестве источника файла HTML. |
-| resolver | IExternalResourceResolver | Объект обратного вызова, используемый для получения внешних объектов. Если этот параметр равен null, все внешние объекты будут проигнорированы. |
+| htmlStream | Stream | Объект Stream, который будет использоваться в качестве источника HTML файла. |
+| resolver | IExternalResourceResolver | Объект обратного вызова, используемый для получения внешних объектов. Если этот параметр равен null, все внешние объекты будут игнорироваться. |
 | uri | String | URI указанного HTML. Используется для разрешения относительных ссылок. |
 
-### Возвращаемое значение
+### Возврат
 
 Добавленные слайды.
 
-### См. также
+### Смотрите также
 
-* interface [ISlide](../../islide)
-* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
-* class [SlideCollection](../../slidecollection)
-* namespace [Aspose.Slides](../../slidecollection)
-* assembly [Aspose.Slides](../../../)
+* interface [ISlide](../../islide)
+* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* class [SlideCollection](../../slidecollection)
+* namespace [Aspose.Slides](../../slidecollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -151,9 +151,9 @@ public ISlide[] AddFromHtml(Stream htmlStream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| htmlStream | Stream | Объект Stream, который будет использован в качестве источника файла HTML. |
+| htmlStream | Stream | Объект Stream, который будет использоваться в качестве источника HTML файла. |
 
-### Возвращаемое значение
+### Возврат
 
 Добавленные слайды
 
@@ -166,19 +166,19 @@ using (var presentation = new Presentation())
 {
     using (var htmlStream = File.OpenRead("page.html"))
     {
-        // Вызовите метод AddFromHtml и передайте файл HTML.
+		// Вызовите метод AddFromHtml и передайте HTML файл.
         presentation.Slides.AddFromHtml(htmlStream);
     }
-    // Используйте метод Save, чтобы сохранить файл как документ PowerPoint.
+	// Используйте метод Save для сохранения файла в качестве документа PowerPoint.
     presentation.Save("MyPresentation.pptx", SaveFormat.Pptx);
 }
 ```
 
-### См. также
+### Смотрите также
 
-* interface [ISlide](../../islide)
-* class [SlideCollection](../../slidecollection)
-* namespace [Aspose.Slides](../../slidecollection)
-* assembly [Aspose.Slides](../../../)
+* interface [ISlide](../../islide)
+* class [SlideCollection](../../slidecollection)
+* namespace [Aspose.Slides](../../slidecollection)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

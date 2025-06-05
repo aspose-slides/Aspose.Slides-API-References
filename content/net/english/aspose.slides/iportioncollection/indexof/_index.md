@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/iportioncollection/indexof/
 ---
+
 ## IPortionCollection.IndexOf method
 
 Determines the index of a specific portion in collection.

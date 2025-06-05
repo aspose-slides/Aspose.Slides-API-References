@@ -3,9 +3,10 @@ title: Duotone
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a Duotone effect. For each pixel combines Color1 and Color2 through a linear interpolation to determine the new color for that pixel.
 type: docs
-weight: 2810
+weight: 2860
 url: /aspose.slides.effects/duotone/
 ---
+
 ## Duotone class
 
 Represents a Duotone effect. For each pixel, combines Color1 and Color2 through a linear interpolation to determine the new color for that pixel.

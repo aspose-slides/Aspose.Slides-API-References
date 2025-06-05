@@ -1,6 +1,6 @@
 ---
-title: DerechaAIzquierda
-second_title: Referencia de la API de Aspose.Slides para .NET
+title: RightToLeft
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si la tabla tiene un orden de lectura de derecha a izquierda. Booleano de lectura y escritura.
 type: docs
 weight: 90
@@ -19,6 +19,6 @@ public bool RightToLeft { get; set; }
 
 * clase [Table](../../table)
 * espacio de nombres [Aspose.Slides](../../table)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
-title: 幻灯片布局选项
-second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置导出演示文稿时幻灯片在页面上的放置模式 ISlidesLayoutOptionsaspose.slides/islideslayoutoptions.
+title: SlidesLayoutOptions
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取或设置导出演示文稿时幻灯片在页面上放置的模式 ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions。
 type: docs
 weight: 40
 url: /zh/aspose.slides.export/irenderingoptions/slideslayoutoptions/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/irenderingoptions/slideslayoutoptions/
 
 ## IRenderingOptions.SlidesLayoutOptions 属性
 
-获取或设置导出演示文稿时幻灯片在页面上的放置模式 [`ISlidesLayoutOptions`](../../islideslayoutoptions)。
+获取或设置导出演示文稿时幻灯片在页面上放置的模式 [`ISlidesLayoutOptions`](../../islideslayoutoptions)。
 
 ```csharp
 public ISlidesLayoutOptions SlidesLayoutOptions { get; set; }
@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [ISlidesLayoutOptions](../../islideslayoutoptions)
 * 接口 [IRenderingOptions](../../irenderingoptions)

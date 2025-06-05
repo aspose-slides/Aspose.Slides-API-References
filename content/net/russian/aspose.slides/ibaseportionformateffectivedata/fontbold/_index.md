@@ -1,7 +1,7 @@
 ---
 title: FontBold
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, является ли шрифт жирным. Свойство только для чтения, тип Boolean.
+second_title: Aspose.Slides для .NET API Справочник
+description: Определяет, является ли шрифт жирным. Только для чтения Boolean.
 type: docs
 weight: 70
 url: /ru/aspose.slides/ibaseportionformateffectivedata/fontbold/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/ibaseportionformateffectivedata/fontbold/
 
 ## IBasePortionFormatEffectiveData.FontBold свойство
 
-Определяет, является ли шрифт жирным. Свойство только для чтения, тип Boolean.
+Определяет, является ли шрифт жирным. Только для чтения Boolean.
 
 ```csharp
 public bool FontBold { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
 * пространство имен [Aspose.Slides](../../ibaseportionformateffectivedata)

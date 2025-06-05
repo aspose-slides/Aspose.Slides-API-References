@@ -1,13 +1,13 @@
 ---
 title: SkewHorizontal
-second_title: Referencia API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Especifica el ángulo de sesgo horizontal en grados. Lectura/escritura Double.
 type: docs
 weight: 110
 url: /es/aspose.slides.effects/ioutershadow/skewhorizontal/
 ---
 
-## Propiedad IOuterShadow.SkewHorizontal
+## IOuterShadow.SkewHorizontal property
 
 Especifica el ángulo de sesgo horizontal (en grados). Lectura/escritura Double.
 
@@ -15,10 +15,10 @@ Especifica el ángulo de sesgo horizontal (en grados). Lectura/escritura Double.
 public double SkewHorizontal { get; set; }
 ```
 
-### También Visto
+### Ver También
 
-* interfaz [IOuterShadow](../../ioutershadow)
-* espacio de nombres [Aspose.Slides.Effects](../../ioutershadow)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IOuterShadow](../../ioutershadow)
+* namespace [Aspose.Slides.Effects](../../ioutershadow)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

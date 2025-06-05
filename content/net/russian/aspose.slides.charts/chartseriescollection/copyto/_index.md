@@ -1,13 +1,13 @@
 ---
 title: CopyTo
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Копирует всю коллекцию в указанный массив.
 type: docs
 weight: 70
 url: /ru/aspose.slides.charts/chartseriescollection/copyto/
 ---
 
-## Метод ChartSeriesCollection.CopyTo
+## ChartSeriesCollection.CopyTo метод
 
 Копирует всю коллекцию в указанный массив.
 

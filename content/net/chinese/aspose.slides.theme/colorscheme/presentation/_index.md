@@ -1,7 +1,7 @@
 ---
-title: 演示文稿
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回父演示文稿。只读 IPresentationaspose.slides/ipresentation。
+title: Presentation
+second_title: Aspose.Slides for .NET API Reference
+description: 返回父演示文稿。只读 IPresentation aspose.slides/ipresentation。
 type: docs
 weight: 140
 url: /zh/aspose.slides.theme/colorscheme/presentation/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.theme/colorscheme/presentation/
 public IPresentation Presentation { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IPresentation](../../../aspose.slides/ipresentation)
 * 类 [ColorScheme](../../colorscheme)

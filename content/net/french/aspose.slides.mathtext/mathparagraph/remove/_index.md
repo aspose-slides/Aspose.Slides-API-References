@@ -1,13 +1,13 @@
 ---
-title: Retirer
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Supprime la première occurrence d'un objet spécifique de la collection/&gt;.
+title: Remove
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Supprime la première occurrence d'un objet spécifique de la collection/gt.
 type: docs
 weight: 100
 url: /fr/aspose.slides.mathtext/mathparagraph/remove/
 ---
 
-## MathParagraph.Remove méthode
+## MathParagraph.Remove method
 
 Supprime la première occurrence d'un objet spécifique de la collection/&gt;.
 
@@ -19,13 +19,13 @@ public bool Remove(IMathBlock mathBlock)
 | --- | --- | --- |
 | mathBlock | IMathBlock | L'objet à supprimer de la collection. |
 
-### Valeur de retour
+### Valeur de Retour
 
-true si *mathBlock* a été supprimé avec succès de la collection ; sinon, false. Cette méthode retourne également false si *mathBlock* n'est pas trouvé dans la collection d'origine/&gt;.
+true si *mathBlock* a été supprimé avec succès de la collection; sinon, false. Cette méthode retourne également false si *mathBlock* n'est pas trouvé dans la collection d'origine/&gt;.
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -37,7 +37,7 @@ mathParagraph.Add(block);
 mathParagraph.Remove(block);
 ```
 
-### Voir aussi
+### Voir Également
 
 * interface [IMathBlock](../../imathblock)
 * class [MathParagraph](../../mathparagraph)

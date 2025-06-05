@@ -1,6 +1,6 @@
 ---
-title: База
-second_title: Справочник по API Aspose.Slides для .NET
+title: Base
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Аргумент, к которому был применен акцент
 type: docs
 weight: 20
@@ -25,7 +25,7 @@ IMathAccent accent = new MathematicalText("x").Accent('~');
 IMathElement base = accent.Base;
 ```
 
-### См. также
+### Также смотри
 
 * интерфейс [IMathElement](../../imathelement)
 * класс [MathAccent](../../mathaccent)

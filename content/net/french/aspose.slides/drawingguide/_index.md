@@ -7,7 +7,7 @@ weight: 2720
 url: /fr/aspose.slides/drawingguide/
 ---
 
-## Classe DrawingGuide
+## DrawingGuide class
 
 Représente un guide de dessin ajustable.
 
@@ -20,7 +20,7 @@ public sealed class DrawingGuide : IDrawingGuide
 | Nom | Description |
 | --- | --- |
 | [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | Renvoie ou définit l'orientation du guide de dessin. Lecture/écriture [`Orientation`](../orientation). |
-| [Position](../../aspose.slides/drawingguide/position) { get; set; } | Renvoie ou définit la position du guide de dessin en points à partir du coin supérieur gauche de la diapositive. Lecture/écriture Single. |
+| [Position](../../aspose.slides/drawingguide/position) { get; set; } | Renvoie ou définit la position du guide de dessin en points depuis le coin supérieur gauche de la diapositive. Lecture/écriture Single. |
 
 ### Voir aussi
 

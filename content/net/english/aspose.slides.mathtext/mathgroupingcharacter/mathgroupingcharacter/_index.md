@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/mathgroupingcharacter/mathgroupingcharacter/
 ---
+
 ## MathGroupingCharacter(IMathElement) {#constructor}
 
 Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET)

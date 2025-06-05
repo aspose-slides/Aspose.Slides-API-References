@@ -1,24 +1,24 @@
 ---
 title: BlobManagementOptions
-second_title: Aspose.Slides pour .NET Référence API
-description: Représente les options qui peuvent être utilisées pour gérer le comportement de traitement des objets binaires volumineux BLOBs, tels que l'utilisation de fichiers temporaires ou le maximum de bytes de BLOBs en mémoire. Ces options visent à établir le meilleur rapport performance/consommation mémoire pour un environnement ou des exigences particuliers. Un objet binaire volumineux BLOB est une donnée binaire stockée en tant qu'entité unique - c'est-à-dire qu'un BLOB peut être un audio, une vidéo ou une présentation elle-même.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Représente les options qui peuvent être utilisées pour gérer le comportement de manipulation des objets binaires de grande taille BLOB, tels que l'utilisation de fichiers temporaires ou le nombre maximum d'octets BLOB en mémoire. Ces options sont destinées à établir le meilleur rapport performance/consommation de mémoire pour un environnement ou des exigences particulières. Un objet binaire de grande taille BLOB est des données binaires stockées en tant qu'entité unique - c'est-à-dire qu'un BLOB peut être un audio, une vidéo ou une présentation elle-même.
 type: docs
 weight: 20
 url: /fr/aspose.slides/loadoptions/blobmanagementoptions/
 ---
 
-## LoadOptions.BlobManagementOptions propriété
+## LoadOptions.BlobManagementOptions property
 
-Représente les options qui peuvent être utilisées pour gérer le comportement de traitement des objets binaires volumineux (BLOBs), tels que l'utilisation de fichiers temporaires ou le maximum de bytes de BLOBs en mémoire. Ces options visent à établir le meilleur rapport performance/consommation mémoire pour un environnement ou des exigences particuliers. Un objet binaire volumineux (BLOB) est une donnée binaire stockée en tant qu'entité unique - c'est-à-dire qu'un BLOB peut être un audio, une vidéo ou une présentation elle-même.
+Représente les options qui peuvent être utilisées pour gérer le comportement de manipulation des objets binaires de grande taille (BLOB), tels que l'utilisation de fichiers temporaires ou le nombre maximum d'octets BLOB en mémoire. Ces options sont destinées à établir le meilleur rapport performance/consommation de mémoire pour un environnement ou des exigences particulières. Un objet binaire de grande taille (BLOB) est des données binaires stockées en tant qu'entité unique - c'est-à-dire qu'un BLOB peut être un audio, une vidéo ou une présentation elle-même.
 
 ```csharp
 public IBlobManagementOptions BlobManagementOptions { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IBlobManagementOptions](../../iblobmanagementoptions)
-* class [LoadOptions](../../loadoptions)
+* classe [LoadOptions](../../loadoptions)
 * namespace [Aspose.Slides](../../loadoptions)
 * assembly [Aspose.Slides](../../../)
 

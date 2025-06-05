@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/imasterslide/getdependingslides/
 ---
+
 ## IMasterSlide.GetDependingSlides method
 
 Returns an array with all slides, which depend on this master slide.

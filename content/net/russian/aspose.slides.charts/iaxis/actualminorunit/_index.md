@@ -1,21 +1,21 @@
 ---
 title: ActualMinorUnit
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает фактическую меньшую единицу оси. Вызывайте метод IChart.ValidateChartLayout ранее, чтобы получить фактическое значение.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Указывает фактическую минимальную единицу оси. Вызовите метод IChart.ValidateChartLayout ранее, чтобы получить фактическое значение.
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/iaxis/actualminorunit/
 ---
 
-## Свойство IAxis.ActualMinorUnit
+## IAxis.ActualMinorUnit свойство
 
-Указывает фактическую меньшую единицу оси. Вызывайте метод IChart.ValidateChartLayout() ранее, чтобы получить фактическое значение.
+Указывает фактическую минимальную единицу оси. Вызовите метод IChart.ValidateChartLayout() ранее, чтобы получить фактическое значение.
 
 ```csharp
 public double ActualMinorUnit { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IAxis](../../iaxis)
 * пространство имен [Aspose.Slides.Charts](../../iaxis)

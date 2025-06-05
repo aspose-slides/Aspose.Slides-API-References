@@ -1,15 +1,15 @@
 ---
 title: GetConsumptionQuantity
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Dateigröße des Verbrauchs zurück
+description: Ruft die Dateigröße des Verbrauchs ab
 type: docs
 weight: 40
 url: /de/aspose.slides/metered/getconsumptionquantity/
 ---
 
-## Metered.GetConsumptionQuantity Methode
+## Metered.GetConsumptionQuantity-Methode
 
-Gibt die Dateigröße des Verbrauchs zurück
+Ruft die Dateigröße des Verbrauchs ab
 
 ```csharp
 public static decimal GetConsumptionQuantity()

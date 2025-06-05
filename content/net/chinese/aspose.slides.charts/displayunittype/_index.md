@@ -1,7 +1,7 @@
 ---
 title: DisplayUnitType
-second_title: Aspose.Sildes for .NET API 参考
-description: 决定显示数据的倍数。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定显示数据的倍数。
 type: docs
 weight: 1540
 url: /zh/aspose.slides.charts/displayunittype/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/displayunittype/
 
 ## DisplayUnitType 枚举
 
-决定显示数据的倍数。
+确定显示数据的倍数。
 
 ```csharp
 public enum DisplayUnitType
@@ -19,7 +19,7 @@ public enum DisplayUnitType
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 值将按原样显示。 |
+| None | `0` | 值将原样显示。 |
 | Hundreds | `1` | 指定图表上的值应除以 100。 |
 | Thousands | `2` | 指定图表上的值应除以 1,000。 |
 | TenThousands | `3` | 指定图表上的值应除以 10,000。 |
@@ -31,7 +31,7 @@ public enum DisplayUnitType
 | Trillions | `9` | 指定图表上的值应除以 1,000,000,000。 |
 | CustomValue | `10` | 指定图表上的值应除以自定义值。 |
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程序集 [Aspose.Slides](../../)

@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/ichartdatapointcollection/datasourcetypeforyvalues/
 ---
+
 ## IChartDataPointCollection.DataSourceTypeForYValues property
 
 Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points YValue property object. In other words it specifies the type of value of ChartDataPointEx.YValue.Data property. Read/write [`DataSourceType`](../../datasourcetype).

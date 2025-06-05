@@ -1,7 +1,7 @@
 ---
 title: PathSegment
 second_title: Aspose.Slides für .NET API Referenz
-description: Stellt ein Segment des Grafikpfades von GeometryShape dar
+description: Stellt ein Segment des Grafikpfads von GeometryShape dar
 type: docs
 weight: 9070
 url: /de/aspose.slides/pathsegment/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/pathsegment/
 
 ## PathSegment-Klasse
 
-Stellt ein Segment des Grafikpfades von GeometryShape dar
+Stellt ein Segment des Grafikpfads von GeometryShape dar
 
 ```csharp
 public sealed class PathSegment : IPathSegment

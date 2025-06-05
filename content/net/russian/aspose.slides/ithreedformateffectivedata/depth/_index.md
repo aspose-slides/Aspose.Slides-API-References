@@ -1,7 +1,7 @@
 ---
-title: Глубина
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает глубину 3D-формы. Только для чтения Double.
+title: Depth
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает глубину 3D формы. Только для чтения Double.
 type: docs
 weight: 70
 url: /ru/aspose.slides/ithreedformateffectivedata/depth/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/ithreedformateffectivedata/depth/
 
 ## Свойство IThreeDFormatEffectiveData.Depth
 
-Возвращает глубину 3D-формы. Только для чтения Double.
+Возвращает глубину 3D формы. Только для чтения Double.
 
 ```csharp
 public double Depth { get; }
 ```
 
-### Также см.
+### Также смотри
 
 * интерфейс [IThreeDFormatEffectiveData](../../ithreedformateffectivedata)
 * пространство имен [Aspose.Slides](../../ithreedformateffectivedata)

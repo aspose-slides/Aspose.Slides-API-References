@@ -1,7 +1,7 @@
 ---
 title: FormatShape
 second_title: Aspose.Slides für .NET API-Referenz
-description: Diese Funktion wird vor dem Rendering der Form zu SVG aufgerufen, um es dem Benutzer zu ermöglichen, das resultierende SVG zu steuern.
+description: Diese Funktion wird vor dem Rendern der Form in SVG aufgerufen, um dem Benutzer die Kontrolle über das resultierende SVG zu ermöglichen.
 type: docs
 weight: 10
 url: /de/aspose.slides.export/isvgshapeformattingcontroller/formatshape/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/isvgshapeformattingcontroller/formatshape/
 
 ## ISvgShapeFormattingController.FormatShape-Methode
 
-Diese Funktion wird vor dem Rendering der Form zu SVG aufgerufen, um es dem Benutzer zu ermöglichen, das resultierende SVG zu steuern.
+Diese Funktion wird vor dem Rendern der Form in SVG aufgerufen, um dem Benutzer die Kontrolle über das resultierende SVG zu ermöglichen.
 
 ```csharp
 public void FormatShape(ISvgShape svgShape, IShape shape)
@@ -17,10 +17,10 @@ public void FormatShape(ISvgShape svgShape, IShape shape)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| svgShape | ISvgShape | Objekt zur Steuerung der SVG-Formerzeugung. |
+| svgShape | ISvgShape | Objekt zur Steuerung der SVG-Formgenerierung. |
 | shape | IShape | Quellform. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ISvgShape](../../isvgshape)
 * Schnittstelle [IShape](../../../aspose.slides/ishape)

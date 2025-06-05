@@ -1,7 +1,7 @@
 ---
-title: Элемент
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает руководящее изображение по индексу. Только для чтения IDrawingGuideaspose.slides/idrawingguide.
+title: Item
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает направляющую рисования по индексу. Доступно только для чтения IDrawingGuideaspose.slides/idrawingguide.
 type: docs
 weight: 20
 url: /ru/aspose.slides/idrawingguidescollection/item/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/idrawingguidescollection/item/
 
 ## Индексатор IDrawingGuidesCollection
 
-Возвращает руководящее изображение по индексу. Только для чтения [`IDrawingGuide`](../../idrawingguide).
+Возвращает направляющую рисования по индексу. Доступно только для чтения [`IDrawingGuide`](../../idrawingguide).
 
 ```csharp
 public IDrawingGuide this[int index] { get; }
 ```
 
-### См. Также
+### Также смотри
 
 * интерфейс [IDrawingGuide](../../idrawingguide)
 * интерфейс [IDrawingGuidesCollection](../../idrawingguidescollection)

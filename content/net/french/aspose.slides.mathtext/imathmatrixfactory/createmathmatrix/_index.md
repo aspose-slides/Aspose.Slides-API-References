@@ -1,6 +1,6 @@
 ---
 title: CreateMathMatrix
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Crée une matrice mathématique
 type: docs
 weight: 10
@@ -20,11 +20,11 @@ public IMathMatrix CreateMathMatrix(int rowCount, int columnCount)
 | rowCount | Int32 | nombre de lignes |
 | columnCount | Int32 | nombre de colonnes |
 
-### Valeur de retour
+### Valeur de Retour
 
 nouvelle matrice mathématique
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathMatrix](../../imathmatrix)
 * interface [IMathMatrixFactory](../../imathmatrixfactory)

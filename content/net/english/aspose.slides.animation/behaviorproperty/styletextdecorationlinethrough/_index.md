@@ -6,6 +6,7 @@ type: docs
 weight: 1130
 url: /aspose.slides.animation/behaviorproperty/styletextdecorationlinethrough/
 ---
+
 ## BehaviorProperty.StyleTextDecorationLineThrough property
 
 Represents 'style.textDecorationLineThrough' property

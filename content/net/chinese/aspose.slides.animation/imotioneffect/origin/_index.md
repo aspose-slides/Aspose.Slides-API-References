@@ -1,15 +1,15 @@
 ---
-title: 源
-second_title: Aspose.Slidess for .NET API 参考
-description: 指定运动路径的起点相对于幻灯片的布局或父级的位置。可读/写 MotionOriginTypeaspose.slides.animation/motionorigintype。
+title: Origin
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定运动路径的起点相对于幻灯片的布局或父对象的是什么。读取/写入 MotionOriginTypeaspose.slides/motionorigintype。
 type: docs
 weight: 50
 url: /zh/aspose.slides.animation/imotioneffect/origin/
 ---
 
-## IMotionEffect.Origin 属性
+## IMotionEffect.Origin property
 
-指定运动路径的起点相对于幻灯片的布局或父级的位置。可读/写 [`MotionOriginType`](../../motionorigintype)。
+指定运动路径的起点相对于幻灯片的布局或父对象的是什么。读取/写入 [`MotionOriginType`](../../motionorigintype)。
 
 ```csharp
 public MotionOriginType Origin { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: LinkPathLong
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Namen einer Videodatei zurück oder setzt ihn, die mit einem VideoFrame verknüpft ist. Lese-/Schreib-String.
+description: Gibt den Namen einer Videodatei zurück oder legt ihn fest, die mit einem VideoFrame verknüpft ist. Lese-/Schreib-String.
 type: docs
 weight: 50
 url: /de/aspose.slides/videoframe/linkpathlong/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/videoframe/linkpathlong/
 
 ## VideoFrame.LinkPathLong-Eigenschaft
 
-Gibt den Namen einer Videodatei zurück oder setzt ihn, die mit einem VideoFrame verknüpft ist. Lese-/Schreib-String.
+Gibt den Namen einer Videodatei zurück oder legt ihn fest, die mit einem VideoFrame verknüpft ist. Lese-/Schreib-String.
 
 ```csharp
 public string LinkPathLong { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: FirstSliceAngle
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Winkel der ersten Segment- oder Donut-Diagrammscheibe in Grad im Uhrzeigersinn von oben von 0 bis 360 Grad an. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist die Projektion der entsprechenden Gruppeneigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die Eigenschaft ParentSeriesGroup, um auf die übergeordnete Seriengruppe zuzugreifen. Verwenden Sie die lese-/schreibbare Eigenschaft ParentSeriesGroup.FirstSliceAngle, um den Wert zu ändern. Schreibgeschützt UInt16.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Winkel der ersten Torte oder Donut-Diagrammscheibe in Grad im Uhrzeigersinn von oben von 0 bis 360 Grad an. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist die Projektion der entsprechenden Gruppeigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die ParentSeriesGroup-Eigenschaft, um auf die übergeordnete Seriengruppe zuzugreifen. Verwenden Sie die ParentSeriesGroup.FirstSliceAngle-Lese-/Schreib-Eigenschaft, um den Wert zu ändern. Schreibgeschützter UInt16.
 type: docs
 weight: 100
 url: /de/aspose.slides.charts/ichartseries/firstsliceangle/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartseries/firstsliceangle/
 
 ## IChartSeries.FirstSliceAngle-Eigenschaft
 
-Gibt den Winkel der ersten Segment- oder Donut-Diagrammscheibe in Grad an (im Uhrzeigersinn von oben, von 0 bis 360 Grad). Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist die Projektion der entsprechenden Gruppeneigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die Eigenschaft ParentSeriesGroup, um auf die übergeordnete Seriengruppe zuzugreifen. Verwenden Sie die lese-/schreibbare Eigenschaft ParentSeriesGroup.FirstSliceAngle, um den Wert zu ändern. Schreibgeschützt UInt16.
+Gibt den Winkel der ersten Torte oder Donut-Diagrammscheibe in Grad (im Uhrzeigersinn von oben, von 0 bis 360 Grad) an. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist die Projektion der entsprechenden Gruppeigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die ParentSeriesGroup-Eigenschaft, um auf die übergeordnete Seriengruppe zuzugreifen. Verwenden Sie die ParentSeriesGroup.FirstSliceAngle-Lese-/Schreib-Eigenschaft, um den Wert zu ändern. Schreibgeschützter UInt16.
 
 ```csharp
 public ushort FirstSliceAngle { get; }

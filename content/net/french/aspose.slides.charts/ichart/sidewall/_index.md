@@ -1,7 +1,7 @@
 ---
 title: SideWall
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie un objet qui permet de changer le format de la paroi latérale d'un graphique 3D. Lecture seule IChartWallaspose.slides.charts/ichartwall.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie un objet qui permet de changer le format du mur latéral d'un graphique 3D. Lecture seule IChartWall aspose.slides.charts/ichartwall.
 type: docs
 weight: 200
 url: /fr/aspose.slides.charts/ichart/sidewall/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/ichart/sidewall/
 
 ## Propriété IChart.SideWall
 
-Renvoie un objet qui permet de changer le format de la paroi latérale d'un graphique 3D. Lecture seule [`IChartWall`](../../ichartwall).
+Renvoie un objet qui permet de changer le format du mur latéral d'un graphique 3D. Lecture seule [`IChartWall`](../../ichartwall).
 
 ```csharp
 public IChartWall SideWall { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IChartWall](../../ichartwall)
 * interface [IChart](../../ichart)

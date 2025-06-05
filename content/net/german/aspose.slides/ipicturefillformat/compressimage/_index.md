@@ -1,7 +1,7 @@
 ---
 title: CompressImage
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Komprimiert das Bild, indem seine Größe basierend auf der Formgröße und der angegebenen Auflösung reduziert wird. Optional werden auch zugeschnittene Bereiche entfernt.
+description: Komprimiert das Bild, indem seine Größe basierend auf der Formgröße und der angegebenen Auflösung reduziert wird. Optional werden auch beschnittene Bereiche gelöscht.
 type: docs
 weight: 190
 url: /de/aspose.slides/ipicturefillformat/compressimage/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ipicturefillformat/compressimage/
 
 ## CompressImage(bool, PicturesCompression) {#compressimage}
 
-Komprimiert das Bild, indem seine Größe basierend auf der Formgröße und der angegebenen Auflösung reduziert wird. Optional werden auch zugeschnittene Bereiche entfernt.
+Komprimiert das Bild, indem seine Größe basierend auf der Formgröße und der angegebenen Auflösung reduziert wird. Optional werden auch beschnittene Bereiche gelöscht.
 
 ```csharp
 public bool CompressImage(bool deleteCroppedAreasOfImage, PicturesCompression resolution)
@@ -17,7 +17,7 @@ public bool CompressImage(bool deleteCroppedAreasOfImage, PicturesCompression re
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| deleteCroppedAreasOfImage | Boolean | Wenn wahr, entfernt die Methode die zugeschnittenen Bereiche des Bildes, was die Größe möglicherweise weiter reduziert. |
+| deleteCroppedAreasOfImage | Boolean | Wenn true, entfernt die Methode die beschnittenen Bereiche des Bildes, wodurch die Größe möglicherweise weiter reduziert wird. |
 | resolution | PicturesCompression | Die Zielauflösung für die Komprimierung, angegeben als Wert des [`PicturesCompression`](../../../aspose.slides.export/picturescompression) Enums. |
 
 ### Rückgabewert
@@ -28,22 +28,22 @@ Ein Boolean, der angibt, ob das Bild erfolgreich komprimiert wurde. Gibt `true` 
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentException | Wird ausgelöst, wenn die Auflösung kein gültiger Wert ist. |
+| ArgumentException | Wird ausgelöst, wenn die Auflösung keinen gültigen Wert hat. |
 
 ### Anmerkungen
 
-Diese Methode ändert die Größe und Auflösung des Bildes ähnlich wie die Funktion "Bildformat -> Bilder komprimieren" in PowerPoint.
+Diese Methode ändert die Größe und Auflösung des Bildes ähnlich wie die Funktion "Bildformat -&gt; Bilder komprimieren" in PowerPoint.
 
 ### Beispiele
 
-Das folgende Beispiel zeigt, wie man die `CompressImage`-Methode verwendet, um die Größe eines Bildes in einer Präsentation zu reduzieren, indem eine Zielauflösung festgelegt und zugeschnittene Bereiche entfernt werden:
+Das folgende Beispiel zeigt, wie die Methode `CompressImage` verwendet wird, um die Größe eines Bildes in einer Präsentation zu reduzieren, indem eine Zielauflösung festgelegt und beschnittene Bereiche entfernt werden:
 
 ```csharp
 using (Presentation presentation = new Presentation("demo.pptx"))
 {
     ISlide slide = presentation.Slides[0];
     IPictureFrame picFrame = slide.Shapes[0] as IPictureFrame;
-    // Komprimiert das Bild mit einer Zielauflösung von 150 DPI (Webauflösung) und entfernt zugeschnittene Bereiche
+    // Komprimiere das Bild mit einer Zielauflösung von 150 DPI (Webauflösung) und entferne beschnittene Bereiche
     bool result = picFrame.PictureFormat.CompressImage(true, PicturesCompression.Dpi150);
 }
 ```
@@ -59,7 +59,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 
 ## CompressImage(bool, float) {#compressimage_1}
 
-Komprimiert das Bild, indem seine Größe basierend auf der Formgröße und der angegebenen Auflösung reduziert wird. Optional werden auch zugeschnittene Bereiche entfernt.
+Komprimiert das Bild, indem seine Größe basierend auf der Formgröße und der angegebenen Auflösung reduziert wird. Optional werden auch beschnittene Bereiche gelöscht.
 
 ```csharp
 public bool CompressImage(bool deleteCroppedAreasOfImage, float resolution)
@@ -67,7 +67,7 @@ public bool CompressImage(bool deleteCroppedAreasOfImage, float resolution)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| deleteCroppedAreasOfImage | Boolean | Wenn wahr, entfernt die Methode die zugeschnittenen Bereiche des Bildes, was die Größe möglicherweise weiter reduziert. |
+| deleteCroppedAreasOfImage | Boolean | Wenn true, entfernt die Methode die beschnittenen Bereiche des Bildes, wodurch die Größe möglicherweise weiter reduziert wird. |
 | resolution | Single | Die Zielauflösung in DPI. Dieser Wert muss positiv sein und definiert, wie das Bild verkleinert wird. |
 
 ### Rückgabewert
@@ -78,15 +78,15 @@ Ein Boolean, der angibt, ob das Bild erfolgreich komprimiert wurde. Gibt `true` 
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentException | Wird ausgelöst, wenn die Auflösung kein positiver Wert ist. |
+| ArgumentException | Wird ausgelöst, wenn die Auflösung keinen positiven Wert hat. |
 
 ### Anmerkungen
 
-Diese Methode ändert die Größe und Auflösung des Bildes ähnlich wie die Funktion "Bildformat -> Bilder komprimieren" in PowerPoint.
+Diese Methode ändert die Größe und Auflösung des Bildes ähnlich wie die Funktion "Bildformat -&gt; Bilder komprimieren" in PowerPoint.
 
 ### Beispiele
 
-Das folgende Beispiel zeigt, wie man die `CompressImage`-Methode verwendet, um die Größe eines Bildes in einer Präsentation zu reduzieren, indem eine Zielauflösung festgelegt und zugeschnittene Bereiche entfernt werden:
+Das folgende Beispiel zeigt, wie die Methode `CompressImage` verwendet wird, um die Größe eines Bildes in einer Präsentation zu reduzieren, indem eine Zielauflösung festgelegt und beschnittene Bereiche entfernt werden:
 
 ```csharp
 [C#]
@@ -97,7 +97,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
     // Holt das PictureFrame
     IPictureFrame picFrame = slide.Shapes[0] as IPictureFrame;
 
-    // Komprimiert das Bild mit einer Zielauflösung von 150 DPI (Webauflösung) und entfernt zugeschnittene Bereiche
+    // Komprimiere das Bild mit einer Zielauflösung von 150 DPI (Webauflösung) und entferne beschnittene Bereiche
     bool result=picFrame.PictureFormat.CompressImage(true, 150f); // Webauflösung
 }
 ```

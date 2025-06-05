@@ -1,15 +1,15 @@
 ---
 title: GetFontName
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie le nom de la police en remplaçant la référence de thème par une police réelle utilisée.
+second_title: Aspose.Slides pour .NET Référence API
+description: Retourne le nom de la police en remplaçant la référence de thème par une police réelle utilisée.
 type: docs
 weight: 20
 url: /fr/aspose.slides/ifontdata/getfontname/
 ---
 
-## Méthode IFontData.GetFontName
+## IFontData.GetFontName méthode
 
-Renvoie le nom de la police, remplaçant la référence de thème par une police réelle utilisée.
+Retourne le nom de la police, en remplaçant la référence de thème par une police réelle utilisée.
 
 ```csharp
 public string GetFontName(IThemeEffectiveData theme)
@@ -17,13 +17,13 @@ public string GetFontName(IThemeEffectiveData theme)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| theme | IThemeEffectiveData | Thème à partir duquel le nom de la police thématique doit être pris. Il appartient à l'appelant de fournir une valeur correcte. |
+| theme | IThemeEffectiveData | Thème à partir duquel le nom de police thématisé doit être pris. Il revient à l'appelant de fournir une valeur correcte. |
 
 ### Valeur de Retour
 
 Nom de la police.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IThemeEffectiveData](../../../aspose.slides.theme/ithemeeffectivedata)
 * interface [IFontData](../../ifontdata)

@@ -1,7 +1,7 @@
 ---
-title: Präsentation
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die übergeordnete Präsentation einer Zelle zurück. Nur-lesbar IPresentationaspose.slides/ipresentation.
+title: Presentation
+second_title: Aspose.Slidess für .NET API Referenz
+description: Gibt die übergeordnete Präsentation einer Zelle zurück. Nur-Lese IPresentation aspose.slides/ipresentation.
 type: docs
 weight: 170
 url: /de/aspose.slides/cell/presentation/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/cell/presentation/
 
 ## Cell.Presentation-Eigenschaft
 
-Gibt die übergeordnete Präsentation einer Zelle zurück. Nur-lesbar [`IPresentation`](../../ipresentation).
+Gibt die übergeordnete Präsentation einer Zelle zurück. Nur-Lese [`IPresentation`](../../ipresentation).
 
 ```csharp
 public IPresentation Presentation { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IPresentation](../../ipresentation)
 * Klasse [Cell](../../cell)

@@ -1,15 +1,15 @@
 ---
 title: AddClone
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Crée une copie de la ligne de modèle spécifiée et l'insère au bas d'un tableau.
+second_title: Référence API Aspose.Slides pour .NET
+description: Crée une copie de la ligne de modèle spécifiée et l'insère en bas d'un tableau.
 type: docs
 weight: 20
 url: /fr/aspose.slides/irowcollection/addclone/
 ---
 
-## Méthode IRowCollection.AddClone
+## IRowCollection.AddClone method
 
-Crée une copie de la ligne de modèle spécifiée et l'insère au bas d'un tableau.
+Crée une copie de la ligne de modèle spécifiée et l'insère en bas d'un tableau.
 
 ```csharp
 public IRow[] AddClone(IRow templ, bool withAttachedRows)
@@ -17,8 +17,8 @@ public IRow[] AddClone(IRow templ, bool withAttachedRows)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| templ | IRow | Ligne qui est utilisée comme modèle. |
-| withAttachedRows | Boolean | True pour copier également toutes les lignes attachées à la ligne de modèle. |
+| templ | IRow | Ligne utilisée comme modèle. |
+| withAttachedRows | Boolean | Vrai pour copier également toutes les lignes attachées à la ligne de modèle. |
 
 ### Valeur de retour
 

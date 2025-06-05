@@ -6,6 +6,7 @@ type: docs
 weight: 940
 url: /aspose.slides.animation/behaviorproperty/strokefilltype/
 ---
+
 ## BehaviorProperty.StrokeFillType property
 
 Represents 'stroke.filltype' property

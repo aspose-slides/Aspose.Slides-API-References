@@ -1,15 +1,15 @@
 ---
-title: 段落
-second_title: Aspose.Slides for .NET API 参考
-description: 遍历每个段落aspose.slides.lowcode/foreach/paragraph 在演示文稿aspose.slides/presentation中。形状将在所有类型的幻灯片中遍历 - 幻灯片aspose.slides.lowcode/foreach/slide 主幻灯片aspose.slides.lowcode/foreach/masterslide 和布局幻灯片aspose.slides.lowcode/foreach/layoutslide
+title: Paragraph
+second_title: Aspose.Sildes for .NET API Reference
+description: 遍历每个段落aspose.slides.lowcode/foreach/paragraph在演示文稿aspose.slides/presentation中。形状将在所有类型的幻灯片中遍历 - 幻灯片aspose.slides.lowcode/foreach/slide 主幻灯片aspose.slides.lowcode/foreach/masterslide 和布局幻灯片aspose.slides.lowcode/foreach/layoutslide
 type: docs
 weight: 30
 url: /zh/aspose.slides.lowcode/foreach/paragraph/
 ---
 
-## 段落(Presentation, ForEachParagraphCallback) {#paragraph_1}
+## Paragraph(Presentation, ForEachParagraphCallback) {#paragraph_1}
 
-遍历[`Presentation`](../../../aspose.slides/presentation)中的每个`Paragraph`。形状将在所有类型的幻灯片中遍历 - [`Slide`](../slide)、[`MasterSlide`](../masterslide) 和 [`LayoutSlide`](../layoutslide)
+遍历每个 `Paragraph` 在 [`Presentation`](../../../aspose.slides/presentation) 中。形状将在所有类型的幻灯片中遍历 - [`Slide`](../slide), [`MasterSlide`](../masterslide) 和 [`LayoutSlide`](../layoutslide)
 
 ```csharp
 public static void Paragraph(Presentation pres, ForEachParagraphCallback forEachParagraph)
@@ -17,7 +17,7 @@ public static void Paragraph(Presentation pres, ForEachParagraphCallback forEach
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| pres | Presentation | 用于遍历段落的演示文稿 |
+| pres | Presentation | 要遍历段落的演示文稿 |
 | forEachParagraph | ForEachParagraphCallback | 将为每个段落调用的回调 |
 
 ### 示例
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }        
 ```
 
-### 另请参见
+### 另见
 
 * class [Presentation](../../../aspose.slides/presentation)
 * delegate [ForEachParagraphCallback](../../foreach.foreachparagraphcallback)
@@ -42,9 +42,9 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ---
 
-## 段落(Presentation, bool, ForEachParagraphCallback) {#paragraph}
+## Paragraph(Presentation, bool, ForEachParagraphCallback) {#paragraph}
 
-遍历[`Presentation`](../../../aspose.slides/presentation)中的每个[`Paragraph`](../paragraph)。形状将在所有类型的幻灯片中遍历 - [`Slide`](../slide)、[`MasterSlide`](../masterslide)、[`LayoutSlide`](../layoutslide) 和 [`NotesSlide`](../../../aspose.slides/notesslide)
+遍历每个 [`Paragraph`](../paragraph) 在 [`Presentation`](../../../aspose.slides/presentation) 中。形状将在所有类型的幻灯片中遍历 - [`Slide`](../slide), [`MasterSlide`](../masterslide), [`LayoutSlide`](../layoutslide) 和 [`NotesSlide`](../../../aspose.slides/notesslide)
 
 ```csharp
 public static void Paragraph(Presentation pres, bool includeNotes, 
@@ -53,7 +53,7 @@ public static void Paragraph(Presentation pres, bool includeNotes,
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| pres | Presentation | 用于遍历段落的演示文稿 |
+| pres | Presentation | 要遍历段落的演示文稿 |
 | includeNotes | Boolean | 指示是否应在处理过程中包含NotesSlides的标志。 |
 | forEachParagraph | ForEachParagraphCallback | 将为每个段落调用的回调 |
 
@@ -69,7 +69,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }        
 ```
 
-### 另请参见
+### 另见
 
 * class [Presentation](../../../aspose.slides/presentation)
 * delegate [ForEachParagraphCallback](../../foreach.foreachparagraphcallback)

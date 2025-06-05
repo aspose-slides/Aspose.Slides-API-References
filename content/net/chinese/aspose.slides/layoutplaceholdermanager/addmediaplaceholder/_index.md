@@ -1,7 +1,7 @@
 ---
 title: AddMediaPlaceholder
-second_title: Aspose.Slides for .NET API Reference
-description: 向布局幻灯片添加一个新的占位符形状，以容纳媒体对象。
+second_title: Aspose.Sildes for .NET API Reference
+description: 向布局幻灯片添加新的占位符形状以容纳媒体对象。
 type: docs
 weight: 30
 url: /zh/aspose.slides/layoutplaceholdermanager/addmediaplaceholder/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/layoutplaceholdermanager/addmediaplaceholder/
 
 ## LayoutPlaceholderManager.AddMediaPlaceholder 方法
 
-向布局幻灯片添加一个新的占位符形状，以容纳媒体对象。
+向布局幻灯片添加新的占位符形状以容纳媒体对象。
 
 ```csharp
 public IAutoShape AddMediaPlaceholder(float x, float y, float width, float height)
@@ -17,8 +17,8 @@ public IAutoShape AddMediaPlaceholder(float x, float y, float width, float heigh
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| x | Single | 新占位符形状的 X 坐标。 |
-| y | Single | 新占位符形状的 Y 坐标。 |
+| x | Single | 新占位符形状的X坐标。 |
+| y | Single | 新占位符形状的Y坐标。 |
 | width | Single | 新占位符形状的宽度。 |
 | height | Single | 新占位符形状的高度。 |
 
@@ -28,7 +28,7 @@ public IAutoShape AddMediaPlaceholder(float x, float y, float width, float heigh
 
 ### 示例
 
-以下示例演示了如何将媒体占位符形状添加到布局幻灯片。
+以下示例演示了如何将媒体占位符形状添加到布局幻灯片中。
 
 ```csharp
 [C#]
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IAutoShape](../../iautoshape)
 * 类 [LayoutPlaceholderManager](../../layoutplaceholdermanager)

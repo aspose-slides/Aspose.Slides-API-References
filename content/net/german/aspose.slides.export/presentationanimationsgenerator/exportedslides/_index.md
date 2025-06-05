@@ -1,5 +1,5 @@
 ---
-title: ExportierteFolien
+title: ExportedSlides
 second_title: Aspose.Slides für .NET API-Referenz
 description: Erhalten Sie die Anzahl der exportierten Folien.
 type: docs

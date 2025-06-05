@@ -1,7 +1,7 @@
 ---
 title: PositionLocked
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob das Verschieben dieser Form verboten ist. Lese-/Schreib-Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt, ob das Bewegen dieser Form verboten ist. Lese-/Schreibbare Boolesche Variable.
 type: docs
 weight: 40
 url: /de/aspose.slides/igroupshapelock/positionlocked/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/igroupshapelock/positionlocked/
 
 ## IGroupShapeLock.PositionLocked Eigenschaft
 
-Bestimmt, ob das Verschieben dieser Form verboten ist. Lese-/Schreib-Boolean.
+Bestimmt, ob das Bewegen dieser Form verboten ist. Lese-/Schreibbare Boolesche Variable.
 
 ```csharp
 public bool PositionLocked { get; set; }

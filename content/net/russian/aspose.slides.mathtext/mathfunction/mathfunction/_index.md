@@ -1,6 +1,6 @@
 ---
 title: MathFunction
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Инициализирует новый экземпляр класса MathFunction.
 type: docs
 weight: 10
@@ -24,7 +24,7 @@ public MathFunction(IMathElement funcName, IMathElement baseArgument)
 MathFunction func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IMathElement](../../imathelement)
 * класс [MathFunction](../../mathfunction)
@@ -50,7 +50,7 @@ public MathFunction(string funcName, IMathElement baseArgument)
 MathFunction func = new MathFunction("sin", new MathematicalText("x"));
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IMathElement](../../imathelement)
 * класс [MathFunction](../../mathfunction)

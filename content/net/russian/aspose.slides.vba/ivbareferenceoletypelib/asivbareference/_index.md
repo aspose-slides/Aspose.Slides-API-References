@@ -1,6 +1,6 @@
 ---
 title: AsIVbaReference
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает интерфейс IVbaReference. Только для чтения IVbaReferenceaspose.slides.vba/ivbareference.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.vba/ivbareferenceoletypelib/asivbareference/
 public IVbaReference AsIVbaReference { get; }
 ```
 
-### Заметки
+### Примечания
 
 Для совместимости с COM.
 

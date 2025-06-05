@@ -1,13 +1,13 @@
 ---
-title: Verbinden
-second_title: Aspose.Slides für .NET API-Dokumentation
+title: Join
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Verbindet ein mathematisches Element und bildet einen mathematischen Block
 type: docs
 weight: 90
 url: /de/aspose.slides.mathtext/imathelement/join/
 ---
 
-## Verbinden(IMathElement) {#join}
+## Join(IMathElement) {#join}
 
 Verbindet ein mathematisches Element und bildet einen mathematischen Block
 
@@ -34,7 +34,7 @@ IMathElement element2 = new MathematicalText("y");
 IMathBlock block = element1.Join(element2);
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IMathBlock](../../imathblock)
 * Schnittstelle [IMathElement](../../imathelement)
@@ -43,7 +43,7 @@ IMathBlock block = element1.Join(element2);
 
 ---
 
-## Verbinden(string) {#join_1}
+## Join(string) {#join_1}
 
 Verbindet einen mathematischen Text und bildet einen mathematischen Block
 
@@ -69,7 +69,7 @@ IMathElement element = new MathematicalText("x");
 IMathBlock block = element.Join("+y");
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IMathBlock](../../imathblock)
 * Schnittstelle [IMathElement](../../imathelement)

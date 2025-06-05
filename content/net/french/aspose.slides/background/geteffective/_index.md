@@ -1,15 +1,15 @@
 ---
 title: GetEffective
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient des données d'arrière-plan effectives avec l'héritage appliqué.
+second_title: Référence API Aspose.Slides pour .NET
+description: Obtient les données de fond effectives avec l'héritage appliqué.
 type: docs
 weight: 80
 url: /fr/aspose.slides/background/geteffective/
 ---
 
-## Méthode Background.GetEffective
+## Background.GetEffective méthode
 
-Obtient des données d'arrière-plan effectives avec l'héritage appliqué.
+Obtient les données de fond effectives avec l'héritage appliqué.
 
 ```csharp
 public IBackgroundEffectiveData GetEffective()
@@ -21,7 +21,7 @@ Un [`IBackgroundEffectiveData`](../../ibackgroundeffectivedata).
 
 ### Exemples
 
-Cet exemple démontre l'obtention des propriétés d'arrière-plan effectives.
+Cet exemple démontre comment obtenir les propriétés de fond effectives.
 
 ```csharp
 [C#]
@@ -29,7 +29,7 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 {
 	IBackgroundEffectiveData effectiveBackground = pres.Slides[0].Background.GetEffective();
 
-	Console.WriteLine("Type de remplissage d'arrière-plan : " + effectiveBackground.FillFormat.FillType);
+	Console.WriteLine("Type de remplissage de fond : " + effectiveBackground.FillFormat.FillType);
 	Console.WriteLine("Des effets appliqués : " + !effectiveBackground.EffectFormat.IsNoEffects);
 }
 ```

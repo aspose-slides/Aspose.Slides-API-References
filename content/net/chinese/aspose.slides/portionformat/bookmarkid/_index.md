@@ -1,7 +1,7 @@
 ---
 title: BookmarkId
-second_title: Aspose.Slides for .NET API Reference
-description: 返回或设置书签标识符。可读/写字符串。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置书签标识符。可读写字符串。
 type: docs
 weight: 20
 url: /zh/aspose.slides/portionformat/bookmarkid/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/portionformat/bookmarkid/
 
 ## PortionFormat.BookmarkId 属性
 
-返回或设置书签标识符。可读/写字符串。
+返回或设置书签标识符。可读写字符串。
 
 ```csharp
 public string BookmarkId { get; set; }
 ```
 
-### 参见
+### 另外请参见
 
 * class [PortionFormat](../../portionformat)
 * namespace [Aspose.Slides](../../portionformat)

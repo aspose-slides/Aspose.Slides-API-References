@@ -1,7 +1,7 @@
 ---
 title: DataPointLevels
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt einen Container für Datenpunktstufen zurück. Angewendet für Treeamp- und Sunburst-Serien. Die Indizierung der Datenpunktstufen beginnt bei null.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt einen Container von Datenpunktstufen zurück. Wird für Treeamp- und Sunburst-Serien angewendet. Die Indizierung der Datenpunktstufen ist nullbasiert.
 type: docs
 weight: 70
 url: /de/aspose.slides.charts/chartdatapoint/datapointlevels/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/chartdatapoint/datapointlevels/
 
 ## ChartDataPoint.DataPointLevels-Eigenschaft
 
-Gibt einen Container für Datenpunktstufen zurück. Angewendet für Treeamp- und Sunburst-Serien. Die Indizierung der Datenpunktstufen beginnt bei null.
+Gibt einen Container von Datenpunktstufen zurück. Wird für Treeamp- und Sunburst-Serien angewendet. Die Indizierung der Datenpunktstufen ist nullbasiert.
 
 ```csharp
 public IChartDataPointLevelsManager DataPointLevels { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * interface [IChartDataPointLevelsManager](../../ichartdatapointlevelsmanager)
 * class [ChartDataPoint](../../chartdatapoint)

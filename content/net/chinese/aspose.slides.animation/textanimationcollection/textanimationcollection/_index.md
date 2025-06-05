@@ -1,13 +1,13 @@
 ---
-title: 文本动画集合
-second_title: Aspose.Slides for .NET API 参考
+title: TextAnimationCollection
+second_title: Aspose.Sildes for .NET API Reference
 description: 默认构造函数。
 type: docs
 weight: 10
 url: /zh/aspose.slides.animation/textanimationcollection/textanimationcollection/
 ---
 
-## 文本动画集合构造函数
+## TextAnimationCollection 构造函数
 
 默认构造函数。
 

@@ -1,13 +1,13 @@
 ---
-title: Добавить
-second_title: Справочник по API Aspose.Sildes для .NET
+title: Add
+second_title: Aspose.Sildes для .NET API Reference
 description: Добавляет новое правило замены шрифта в коллекцию
 type: docs
 weight: 20
 url: /ru/aspose.slides/ifontsubstrulecollection/add/
 ---
 
-## Метод IFontSubstRuleCollection.Add
+## IFontSubstRuleCollection.Add метод
 
 Добавляет новое правило замены шрифта в коллекцию
 
@@ -19,7 +19,7 @@ public void Add(IFontSubstRule value)
 | --- | --- | --- |
 | value | IFontSubstRule | Правило замены шрифта [`IFontSubstRule`](../../ifontsubstrule) |
 
-### Смотрите Также
+### См. также
 
 * интерфейс [IFontSubstRule](../../ifontsubstrule)
 * интерфейс [IFontSubstRuleCollection](../../ifontsubstrulecollection)

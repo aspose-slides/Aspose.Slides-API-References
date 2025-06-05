@@ -1,6 +1,6 @@
 ---
 title: AsIBasePortionFormatEffectiveData
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 返回 IBasePortionFormatEffectiveData 接口。
 type: docs
 weight: 10
@@ -17,9 +17,9 @@ public IBasePortionFormatEffectiveData AsIBasePortionFormatEffectiveData { get; 
 
 ### 备注
 
-用于 COM 兼容性。
+为了兼容 COM。
 
-### 另见
+### 另请参阅
 
 * 接口 [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
 * 接口 [IPortionFormatEffectiveData](../../iportionformateffectivedata)

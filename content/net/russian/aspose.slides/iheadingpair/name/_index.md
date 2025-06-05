@@ -1,21 +1,21 @@
 ---
-title: Имя
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает название группы частей документа. Только для чтения строка.
+title: Name
+second_title: Ссылка на API Aspose.Slides для .NET
+description: Возвращает имя группы частей документа. Свойство только для чтения типа String.
 type: docs
 weight: 20
 url: /ru/aspose.slides/iheadingpair/name/
 ---
 
-## Свойство IHeadingPair.Name
+## IHeadingPair.Name свойство
 
-Возвращает название группы частей документа. Только для чтения строка.
+Возвращает имя группы частей документа. Свойство только для чтения типа String.
 
 ```csharp
 public string Name { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IHeadingPair](../../iheadingpair)
 * пространство имен [Aspose.Slides](../../iheadingpair)

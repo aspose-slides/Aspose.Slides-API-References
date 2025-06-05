@@ -15,10 +15,10 @@ Devuelve verdadero si todos los efectos están deshabilitados (como el objeto Ef
 public bool IsNoEffects { get; }
 ```
 
-### Véase También
+### Ver También
 
 * clase [EffectFormat](../../effectformat)
 * espacio de nombres [Aspose.Slides](../../effectformat)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

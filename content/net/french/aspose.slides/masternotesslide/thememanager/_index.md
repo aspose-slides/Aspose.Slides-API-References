@@ -1,7 +1,7 @@
 ---
 title: ThemeManager
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie le gestionnaire de thème. Lecture seule IMasterThemeManageraspose.slides.theme/imasterthememanager.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Renvoie le gestionnaire de thème. Lecture seule IMasterThemeManageraspose.slides/../aspose.slides.theme/imasterthememanager.
 type: docs
 weight: 40
 url: /fr/aspose.slides/masternotesslide/thememanager/

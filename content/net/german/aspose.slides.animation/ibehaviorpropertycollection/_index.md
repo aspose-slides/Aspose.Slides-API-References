@@ -1,7 +1,7 @@
 ---
 title: IBehaviorPropertyCollection
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt Zeitproperties für das Effektverhalten dar.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt Timing-Eigenschaften für das Effektverhalten dar.
 type: docs
 weight: 370
 url: /de/aspose.slides.animation/ibehaviorpropertycollection/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/ibehaviorpropertycollection/
 
 ## IBehaviorPropertyCollection-Schnittstelle
 
-Stellt Zeitproperties für das Effektverhalten dar.
+Stellt Timing-Eigenschaften für das Effektverhalten dar.
 
 ```csharp
 public interface IBehaviorPropertyCollection : IList<IBehaviorProperty>
@@ -19,7 +19,7 @@ public interface IBehaviorPropertyCollection : IList<IBehaviorProperty>
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/ibehaviorpropertycollection/asienumerable) { get; } | Gibt IEnumerable-Schnittstellen zurück. Nur-lesbares IEnumerable. |
+| [AsIEnumerable](../../aspose.slides.animation/ibehaviorpropertycollection/asienumerable) { get; } | Gibt IEnumerable-Schnittstellen zurück. Nur-lesendes IEnumerable. |
 
 ## Methoden
 
@@ -27,7 +27,7 @@ public interface IBehaviorPropertyCollection : IList<IBehaviorProperty>
 | --- | --- |
 | [Add](../../aspose.slides.animation/ibehaviorpropertycollection/add)(string) | Fügt der Sammlung eine neue Eigenschaft hinzu. |
 | [Contains](../../aspose.slides.animation/ibehaviorpropertycollection/contains)(string) | Bestimmt, ob die ICollection einen bestimmten Wert enthält. |
-| [IndexOf](../../aspose.slides.animation/ibehaviorpropertycollection/indexof)(string) | Bestimmt den Index eines bestimmten Elements anhand des Eigenschaftswertes in der IList. |
+| [IndexOf](../../aspose.slides.animation/ibehaviorpropertycollection/indexof)(string) | Bestimmt den Index eines bestimmten Elements nach Eigenschaftswert in der IList. |
 | [Insert](../../aspose.slides.animation/ibehaviorpropertycollection/insert)(int, string) | Fügt der Sammlung an dem angegebenen Index eine neue Eigenschaft (mit dem angegebenen Eigenschaftswert) hinzu. |
 | [Remove](../../aspose.slides.animation/ibehaviorpropertycollection/remove)(string) | Entfernt die angegebene Eigenschaft aus der Sammlung. |
 

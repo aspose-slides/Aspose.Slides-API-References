@@ -1,7 +1,7 @@
 ---
-title: 目标框架
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回父超链接的目标在父 HTML 框架集中的框架（如果存在）。可读/可写字符串。
+title: TargetFrame
+second_title: Aspose.Sildes for .NET API Reference
+description: 当存在时，返回父超链接的目标在父 HTML 框架集中的框架。可读/写字符串。
 type: docs
 weight: 180
 url: /zh/aspose.slides/hyperlink/targetframe/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/hyperlink/targetframe/
 
 ## Hyperlink.TargetFrame 属性
 
-返回父超链接的目标在父 HTML 框架集中的框架（如果存在）。可读/可写字符串。
+当存在时，返回父超链接的目标在父 HTML 框架集中的框架。可读/写字符串。
 
 ```csharp
 public string TargetFrame { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * class [Hyperlink](../../hyperlink)
 * namespace [Aspose.Slides](../../hyperlink)

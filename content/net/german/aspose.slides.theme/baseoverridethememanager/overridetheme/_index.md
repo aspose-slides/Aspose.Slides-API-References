@@ -1,6 +1,6 @@
 ---
 title: OverrideTheme
-second_title: Aspose.Sildes für .NET API-Dokumentation
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Gibt das übergeordnete Themenobjekt zurück. Lese-/Schreibzugriff auf IOverrideThemeaspose.slides.theme/ioverridetheme.
 type: docs
 weight: 20

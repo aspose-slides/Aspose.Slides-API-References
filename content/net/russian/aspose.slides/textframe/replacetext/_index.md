@@ -1,13 +1,13 @@
 ---
 title: ReplaceText
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для справочной информации по .NET API
 description: Заменяет все вхождения указанного текста на другой указанный текст.
 type: docs
 weight: 130
 url: /ru/aspose.slides/textframe/replacetext/
 ---
 
-## Метод TextFrame.ReplaceText
+## TextFrame.ReplaceText метод
 
 Заменяет все вхождения указанного текста на другой указанный текст.
 
@@ -18,14 +18,14 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| oldText | String | Строка, которую необходимо заменить. |
-| newText | String | Строка, заменяющая все вхождения oldText. |
+| oldText | String | Строка, которая будет заменена. |
+| newText | String | Строка для замены всех вхождений oldText. |
 | options | ITextSearchOptions | Опции поиска текста [`ITextSearchOptions`](../../itextsearchoptions). |
 | callback | IFindResultCallback | Объект обратного вызова для сохранения результата операции замены [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Примеры
 
-Следующий образец кода демонстрирует, как заменить одну указанную строку на другую указанную строку.
+Следующий пример кода показывает, как заменить одну указанную строку на другую указанную строку.
 
 ```csharp
 [C#]
@@ -37,7 +37,7 @@ using (Presentation presentation = new Presentation("SomePresentation.pptx")){
 }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [ITextSearchOptions](../../itextsearchoptions)
 * интерфейс [IFindResultCallback](../../ifindresultcallback)

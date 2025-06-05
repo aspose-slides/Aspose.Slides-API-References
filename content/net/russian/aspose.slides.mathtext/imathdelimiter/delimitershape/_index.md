@@ -1,7 +1,7 @@
 ---
 title: DelimiterShape
 second_title: Aspose.Sildes для .NET API Справочник
-description: Указывает форму ограничителей в объекте ограничителей. Когда используется MathDelimiterShape.Centered, ограничители центрируются вокруг математической оси математического текста и могут быть подогнаны под всю высоту их содержимого. Когда используется MathDelimiterShape.Match, их высота и форма изменяются так, чтобы точно соответствовать их содержимому.
+description: Указывает форму разделителей в объекте разделителей. Когда используется MathDelimiterShape.Centered, разделители центрируются вокруг математической оси математического текста и могут быть подогнаны по высоте под все содержимое. Когда используется MathDelimiterShape.Match, их высота и форма изменяются так, чтобы точно соответствовать содержимому.
 type: docs
 weight: 40
 url: /ru/aspose.slides.mathtext/imathdelimiter/delimitershape/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/imathdelimiter/delimitershape/
 
 ## IMathDelimiter.DelimiterShape свойство
 
-Указывает форму ограничителей в объекте ограничителей. Когда используется MathDelimiterShape.Centered, ограничители центрируются вокруг математической оси математического текста и могут быть подогнаны под всю высоту их содержимого. Когда используется MathDelimiterShape.Match, их высота и форма изменяются так, чтобы точно соответствовать их содержимому.
+Указывает форму разделителей в объекте разделителей. Когда используется MathDelimiterShape.Centered, разделители центрируются вокруг математической оси математического текста и могут быть подогнаны по высоте под все содержимое. Когда используется MathDelimiterShape.Match, их высота и форма изменяются так, чтобы точно соответствовать содержимому.
 
 ```csharp
 public MathDelimiterShape DelimiterShape { get; set; }
@@ -25,7 +25,7 @@ IMathDelimiter delimiter = new MathematicalText("x").Divide("y").Enclose();
 delimiter.DelimiterShape = MathDelimiterShape.Match;
 ```
 
-### Смотрите также
+### Также см.
 
 * enum [MathDelimiterShape](../../mathdelimitershape)
 * interface [IMathDelimiter](../../imathdelimiter)

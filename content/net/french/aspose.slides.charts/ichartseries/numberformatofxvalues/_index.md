@@ -1,7 +1,7 @@
 ---
 title: NumberFormatOfXValues
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit le format numérique pour les valeurs x de la série. Lecture/écriture de type String.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie ou définit le format numérique pour les valeurs x de la série. Chaîne en lecture/écriture.
 type: docs
 weight: 240
 url: /fr/aspose.slides.charts/ichartseries/numberformatofxvalues/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ichartseries/numberformatofxvalues/
 
 ## Propriété IChartSeries.NumberFormatOfXValues
 
-Renvoie ou définit le format numérique pour les valeurs x de la série. Lecture/écriture de type String.
+Renvoie ou définit le format numérique pour les valeurs x de la série. Chaîne en lecture/écriture.
 
 ```csharp
 public string NumberFormatOfXValues { get; set; }

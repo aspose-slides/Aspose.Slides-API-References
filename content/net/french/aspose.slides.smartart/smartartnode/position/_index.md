@@ -1,6 +1,6 @@
 ---
 title: Position
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Renvoie ou définit la position de nœud basée sur zéro parmi les nœuds frères. Lecture/écriture Int32.
 type: docs
 weight: 70

@@ -1,42 +1,44 @@
 ---
 title: HighlightRegex
 second_title: Aspose.Sildes for .NET API Reference
-description: Highlight all matches of regular expression in text frame text using specified color.
+description: Highlights all matches of the regular expression with the specified color.
 type: docs
-weight: 70
+weight: 90
 url: /aspose.slides/textframe/highlightregex/
 ---
+
 ## TextFrame.HighlightRegex method
 
-Highlight all matches of regular expression in text frame text using specified color.
+Highlights all matches of the regular expression with the specified color.
 
 ```csharp
-public void HighlightRegex(string regex, Color highlightColor, ITextHighlightingOptions options)
+public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallback callback)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| regex | String | Text of regular expression to get text to highlight. |
-| highlightColor | Color | Highlighting color. |
-| options | ITextHighlightingOptions | Highlighting options. |
+| regex | Regex | The regular expression Regex to get strings to highlight. |
+| highlightColor | Color | The color to highlight the text. |
+| callback | IFindResultCallback | The callback object for receiving search results [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Examples
 
-The following sample code shows how to Highlight Text using regular expression in a PowerPoint Presentation.
+The following code sample shows how to highlight text in a TextFrame using a regular expression.
 
 ```csharp
 [C#]
-using (Presentation presentation = new Presentation("SomePresentation.pptx")){
-	TextHighlightingOptions options = new TextHighlightingOptions();
-	// highlighting all words with 10 symbols or longer
-	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightRegex(@"\b[^\s]{5,}\b", Color.Blue, options);
+using (Presentation presentation = new Presentation("SomePresentation.pptx"))
+{
+	Regex regex = new Regex(@"\b[^\s]{10,}\b");
+	// highlighting all words with 10 or more characters
+	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightRegex(regex, Color.Blue, null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }
 ```
 
 ### See Also
 
-* interface [ITextHighlightingOptions](../../itexthighlightingoptions)
+* interface [IFindResultCallback](../../ifindresultcallback)
 * class [TextFrame](../../textframe)
 * namespace [Aspose.Slides](../../textframe)
 * assembly [Aspose.Slides](../../../)

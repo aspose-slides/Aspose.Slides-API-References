@@ -1,13 +1,13 @@
 ---
-title: CargaDeRecursos
-second_title: Referencia de la API de Aspose.Slides para .NET
+title: ResourceLoading
+second_title: Aspose.Slides para .NET Referencia de la API
 description: Método de callback que regula la carga de recursos externos.
 type: docs
 weight: 10
 url: /es/aspose.slides/iresourceloadingcallback/resourceloading/
 ---
 
-## Método IResourceLoadingCallback.ResourceLoading
+## IResourceLoadingCallback.ResourceLoading método
 
 Método de callback que regula la carga de recursos externos.
 

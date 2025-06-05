@@ -1,13 +1,13 @@
 ---
 title: VectorizeText
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Bestimmt, ob der Text auf einer Folie als Grafik gespeichert wird. Lese-/Schreib-Boolean.
 type: docs
 weight: 150
 url: /de/aspose.slides.export/isvgoptions/vectorizetext/
 ---
 
-## ISVGOptions.VectorizeText-Eigenschaft
+## ISVGOptions.VectorizeText Eigenschaft
 
 Bestimmt, ob der Text auf einer Folie als Grafik gespeichert wird. Lese-/Schreib-Boolean.
 

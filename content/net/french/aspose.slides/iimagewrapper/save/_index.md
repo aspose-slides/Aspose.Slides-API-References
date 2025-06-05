@@ -1,6 +1,6 @@
 ---
-title: Enregistrer
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Save
+second_title: Référence API Aspose.Slides pour .NET
 description: Enregistre l'image dans le fichier spécifié
 type: docs
 weight: 40
@@ -29,7 +29,7 @@ public void Save(string fileName)
 
 ## Save(Stream, PPImageFormat) {#save}
 
-Enregistre l'image dans le flux spécifié au format spécifié.
+Enregistre l'image dans le flux spécifié dans le format spécifié.
 
 ```csharp
 public void Save(Stream stream, PPImageFormat imageFormat)
@@ -38,7 +38,7 @@ public void Save(Stream stream, PPImageFormat imageFormat)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | stream | Stream | Flux pour enregistrer l'image |
-| imageFormat | PPImageFormat | Format de l'image [`PPImageFormat`](../../ppimageformat) |
+| imageFormat | PPImageFormat | Format d'image [`PPImageFormat`](../../ppimageformat) |
 
 ### Voir aussi
 
@@ -51,7 +51,7 @@ public void Save(Stream stream, PPImageFormat imageFormat)
 
 ## Save(string, PPImageFormat) {#save_2}
 
-Enregistre l'image dans le fichier spécifié au format spécifié.
+Enregistre l'image dans le fichier spécifié dans le format spécifié.
 
 ```csharp
 public void Save(string fileName, PPImageFormat imageFormat)
@@ -60,7 +60,7 @@ public void Save(string fileName, PPImageFormat imageFormat)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | fileName | String | Chaîne du nom de fichier |
-| imageFormat | PPImageFormat | Format de l'image [`PPImageFormat`](../../ppimageformat) |
+| imageFormat | PPImageFormat | Format d'image [`PPImageFormat`](../../ppimageformat) |
 
 ### Voir aussi
 

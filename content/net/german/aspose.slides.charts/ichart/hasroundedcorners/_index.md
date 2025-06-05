@@ -1,7 +1,7 @@
 ---
-title: HatAbgerundeteEcken
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt an, ob der Diagrammbereich abgerundete Ecken haben soll. Lese-/Schreib-Boolescher Wert.
+title: HasRoundedCorners
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt an, dass der Diagrammbereich abgerundete Ecken haben soll. Lese-/Schreib-Boolean.
 type: docs
 weight: 130
 url: /de/aspose.slides.charts/ichart/hasroundedcorners/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichart/hasroundedcorners/
 
 ## IChart.HasRoundedCorners-Eigenschaft
 
-Gibt an, ob der Diagrammbereich abgerundete Ecken haben soll. Lese-/Schreib-Boolescher Wert.
+Gibt an, dass der Diagrammbereich abgerundete Ecken haben soll. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool HasRoundedCorners { get; set; }

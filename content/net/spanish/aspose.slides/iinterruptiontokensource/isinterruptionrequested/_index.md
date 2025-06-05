@@ -1,15 +1,15 @@
 ---
 title: IsInterruptionRequested
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve verdadero si se solicita interrupción, falso en caso contrario.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve verdadero si se solicita la interrupción, falso en caso contrario.
 type: docs
 weight: 10
 url: /es/aspose.slides/iinterruptiontokensource/isinterruptionrequested/
 ---
 
-## Propiedad IInterruptionTokenSource.IsInterruptionRequested
+## IInterruptionTokenSource.IsInterruptionRequested propiedad
 
-Devuelve verdadero si se solicita interrupción, falso en caso contrario.
+Devuelve verdadero si se solicita la interrupción, falso en caso contrario.
 
 ```csharp
 public bool IsInterruptionRequested { get; }

@@ -1,7 +1,7 @@
 ---
 title: IMathArray
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt ein vertikales Array von Gleichungen oder anderen mathematischen Objekten an
+second_title: Aspose.Slides für .NET API Referenz
+description: Spezifiziert ein vertikales Array von Gleichungen oder anderen mathematischen Objekten
 type: docs
 weight: 7850
 url: /de/aspose.slides.mathtext/imatharray/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imatharray/
 
 ## IMathArray-Schnittstelle
 
-Gibt ein vertikales Array von Gleichungen oder anderen mathematischen Objekten an
+Spezifiziert ein vertikales Array von Gleichungen oder anderen mathematischen Objekten
 
 ```csharp
 public interface IMathArray : IMathElement
@@ -20,12 +20,12 @@ public interface IMathArray : IMathElement
 | Name | Beschreibung |
 | --- | --- |
 | [Arguments](../../aspose.slides.mathtext/imatharray/arguments) { get; } | Die Menge der Elemente des Arrays |
-| [AsIMathElement](../../aspose.slides.mathtext/imatharray/asimathelement) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IMathElement [`IMathElement`](../imathelement) |
-| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | Gibt die Ausrichtung des Arrays im Verhältnis zum umgebenden Text an Text außerhalb des Arrays kann mit dem unteren, oberen oder mittleren Teil eines Array-Objekts ausgerichtet werden. Standardwert: Zentrum |
-| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | Maximale Verteilung Wenn true, wird das Array auf die maximale Breite des umgebenden Elements (Seite, Spalte, Zelle usw.) verteilt. |
+| [AsIMathElement](../../aspose.slides.mathtext/imatharray/asimathelement) { get; } | Ermöglicht den Zugriff auf die Basis-IMathElement-Schnittstelle [`IMathElement`](../imathelement) |
+| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | Gibt die Ausrichtung des Arrays im Verhältnis zum umgebenden Text an. Text außerhalb des Arrays kann am unteren, oberen oder mittleren Rand eines Array-Objekts ausgerichtet werden. Standardwert: Mitte |
+| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | Maximale Verteilung Wenn true, wird das Array auf die maximale Breite des umschließenden Elements (Seite, Spalte, Zelle usw.) verteilt. |
 | [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | Objektverteilung Wenn true, werden die Inhalte des Arrays auf die maximale Breite des Array-Objekts verteilt. |
-| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | Abstand zwischen den Zeilen eines Arrays Wird nur verwendet, wenn RowSpacingRule auf 3 Genau eingestellt ist, in welchem Fall die Einheit Punkte oder Mehrfach ist, in welchem Fall die Einheit halbe Zeilen ist. Standard: 0 |
-| [RowSpacingRule](../../aspose.slides.mathtext/imatharray/rowspacingrule) { get; set; } | Der Typ des vertikalen Abstands zwischen den Array-Elementen |
+| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | Abstände zwischen den Zeilen eines Arrays. Wird nur verwendet, wenn RowSpacingRule auf 3 festgelegt ist. In diesem Fall ist die Maßeinheit Punkte oder mehrere, wobei die Maßeinheit Halblinien ist. Standard: 0 |
+| [RowSpacingRule](../../aspose.slides.mathtext/imatharray/rowspacingrule) { get; set; } | Die Art des vertikalen Abstands zwischen den Array-Elementen |
 
 ### Beispiele
 

@@ -1,7 +1,7 @@
 ---
 title: EndReflectionOpacity
 second_title: Aspose.Slides für .NET API-Referenz
-description: Endreflexionsopazität. Prozent. Lese-/Schreib-Single.
+description: Endreflexionsopazität. Prozentsätze. Lese-/Schreibzugriff auf Single.
 type: docs
 weight: 70
 url: /de/aspose.slides.effects/ireflection/endreflectionopacity/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.effects/ireflection/endreflectionopacity/
 
 ## IReflection.EndReflectionOpacity-Eigenschaft
 
-Endreflexionsopazität. (Prozent). Lese-/Schreib-Single.
+Endreflexionsopazität. (Prozentsätze). Lese-/Schreibzugriff auf Single.
 
 ```csharp
 public float EndReflectionOpacity { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IReflection](../../ireflection)
 * Namespace [Aspose.Slides.Effects](../../ireflection)

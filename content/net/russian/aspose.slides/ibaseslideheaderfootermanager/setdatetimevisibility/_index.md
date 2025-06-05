@@ -1,13 +1,13 @@
 ---
 title: SetDateTimeVisibility
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Slides для .NET API Reference
 description: Изменяет видимость заполнителя даты и времени слайда.
 type: docs
 weight: 60
 url: /ru/aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility/
 ---
 
-## Метод IBaseSlideHeaderFooterManager.SetDateTimeVisibility
+## IBaseSlideHeaderFooterManager.SetDateTimeVisibility method
 
 Изменяет видимость заполнителя даты и времени слайда.
 
@@ -17,9 +17,9 @@ public void SetDateTimeVisibility(bool isVisible)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| isVisible | Boolean | true - делает заполнитель даты и времени видимым, иначе - скрывает его. |
+| isVisible | Boolean | true - делает заполнитель даты и времени видимым, в противном случае - скрывает его. |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IBaseSlideHeaderFooterManager](../../ibaseslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../ibaseslideheaderfootermanager)

@@ -7,7 +7,7 @@ weight: 130
 url: /ru/aspose.slides.mathtext/mathparagraph/writeasmathml/
 ---
 
-## Метод MathParagraph.WriteAsMathMl
+## MathParagraph.WriteAsMathMl метод
 
 Сохраняет содержимое этого [`MathParagraph`](../../mathparagraph) в формате MathML
 

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.effects/effectfactory/createinnershadow/
 ---
+
 ## EffectFactory.CreateInnerShadow method
 
 Creates Inner shafow effect.

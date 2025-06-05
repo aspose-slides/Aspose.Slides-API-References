@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides.export/swfoptions/startopenleftpane/
 ---
+
 ## SwfOptions.StartOpenLeftPane property
 
 Start with opened left pane. Can be overridden in flashvars. Default is false.

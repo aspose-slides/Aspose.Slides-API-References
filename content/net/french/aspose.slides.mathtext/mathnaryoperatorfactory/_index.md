@@ -7,7 +7,7 @@ weight: 8620
 url: /fr/aspose.slides.mathtext/mathnaryoperatorfactory/
 ---
 
-## Classe MathNaryOperatorFactory
+## MathNaryOperatorFactory class
 
 Permet de créer IMathNaryOperator
 
@@ -31,9 +31,9 @@ public class MathNaryOperatorFactory : IMathNaryOperatorFactory
 
 ### Remarques
 
-Pour la compatibilité COM
+Pour la comparabilité COM
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathNaryOperatorFactory](../imathnaryoperatorfactory)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

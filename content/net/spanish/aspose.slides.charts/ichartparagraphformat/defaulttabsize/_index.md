@@ -1,15 +1,15 @@
 ---
 title: DefaultTabSize
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve o establece el tamaño de tabulación predeterminado. Lectura/escritura Simple.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Devuelve o establece el tamaño de tabulación predeterminado. Lectura/escritura Single.
 type: docs
 weight: 20
 url: /es/aspose.slides.charts/ichartparagraphformat/defaulttabsize/
 ---
 
-## Propiedad IChartParagraphFormat.DefaultTabSize
+## IChartParagraphFormat.DefaultTabSize propiedad
 
-Devuelve o establece el tamaño de tabulación predeterminado. Lectura/escritura Simple.
+Devuelve o establece el tamaño de tabulación predeterminado. Lectura/escritura Single.
 
 ```csharp
 public float DefaultTabSize { get; set; }
@@ -19,6 +19,6 @@ public float DefaultTabSize { get; set; }
 
 * interfaz [IChartParagraphFormat](../../ichartparagraphformat)
 * espacio de nombres [Aspose.Slides.Charts](../../ichartparagraphformat)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
-<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,6 +1,6 @@
 ---
 title: ChartDataWorksheet
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API 参考
 description: 获取工作表。只读 IChartDataWorksheetaspose.slides.charts/ichartdataworksheet。
 type: docs
 weight: 10

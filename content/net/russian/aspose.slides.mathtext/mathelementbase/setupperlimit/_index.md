@@ -1,6 +1,6 @@
 ---
 title: SetUpperLimit
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Ссылки
 description: Принимает верхний предел
 type: docs
 weight: 170

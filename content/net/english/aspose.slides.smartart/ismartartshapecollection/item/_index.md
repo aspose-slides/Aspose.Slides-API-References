@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.smartart/ismartartshapecollection/item/
 ---
+
 ## ISmartArtShapeCollection indexer
 
 Gets the element at the specified index. Read-only [`ISmartArtShape`](../../ismartartshape). Zero-based index of the element

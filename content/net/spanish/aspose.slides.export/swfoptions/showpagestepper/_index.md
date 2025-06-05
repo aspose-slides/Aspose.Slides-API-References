@@ -1,24 +1,24 @@
 ---
 title: ShowPageStepper
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Mostrar/ocultar el separador de páginas. Se puede anular en flashvars. El valor predeterminado es verdadero.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Mostrar/ocultar el paso de la página. Se puede sobrescribir en flashvars. El valor predeterminado es verdadero.
 type: docs
 weight: 120
 url: /es/aspose.slides.export/swfoptions/showpagestepper/
 ---
 
-## Propiedad SwfOptions.ShowPageStepper
+## SwfOptions.ShowPageStepper propiedad
 
-Mostrar/ocultar el separador de páginas. Se puede anular en flashvars. El valor predeterminado es verdadero.
+Mostrar/ocultar el paso de la página. Se puede sobrescribir en flashvars. El valor predeterminado es verdadero.
 
 ```csharp
 public bool ShowPageStepper { get; set; }
 ```
 
-### Véase también
+### Ver También
 
-* clase [SwfOptions](../../swfoptions)
-* espacio de nombres [Aspose.Slides.Export](../../swfoptions)
-* ensamblaje [Aspose.Slides](../../../)
+* class [SwfOptions](../../swfoptions)
+* namespace [Aspose.Slides.Export](../../swfoptions)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

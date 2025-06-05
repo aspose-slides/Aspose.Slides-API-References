@@ -1,13 +1,13 @@
 ---
 title: StrokeImageSizeY
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет свойство stroke.imagesize.y
 type: docs
 weight: 960
 url: /ru/aspose.slides.animation/behaviorproperty/strokeimagesizey/
 ---
 
-## Свойство BehaviorProperty.StrokeImageSizeY
+## BehaviorProperty.StrokeImageSizeY свойство
 
 Представляет свойство 'stroke.imagesize.y'
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/behaviorproperty/strokeimagesizey/
 public static BehaviorProperty StrokeImageSizeY { get; }
 ```
 
-### Дополнительно
+### См. также
 
 * класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)

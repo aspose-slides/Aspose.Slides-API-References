@@ -1,13 +1,13 @@
 ---
 title: MinorUnit
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Representa las unidades menores para el eje de fecha o valor. Lectura/escritura Double.
 type: docs
 weight: 410
 url: /es/aspose.slides.charts/iaxis/minorunit/
 ---
 
-## Propiedad IAxis.MinorUnit
+## IAxis.MinorUnit propiedad
 
 Representa las unidades menores para el eje de fecha o valor. Lectura/escritura Double.
 
@@ -15,10 +15,10 @@ Representa las unidades menores para el eje de fecha o valor. Lectura/escritura 
 public double MinorUnit { get; set; }
 ```
 
-### Ver También
+### Véase también
 
-* interfaz [IAxis](../../iaxis)
-* espacio de nombres [Aspose.Slides.Charts](../../iaxis)
-* ensamblaje [Aspose.Slides](../../../)
+* interface [IAxis](../../iaxis)
+* namespace [Aspose.Slides.Charts](../../iaxis)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

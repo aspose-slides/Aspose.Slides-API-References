@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/
 ---
+
 Contains classes for work with charts in Microsoft PowerPoint presentations.
 
 ## Classes

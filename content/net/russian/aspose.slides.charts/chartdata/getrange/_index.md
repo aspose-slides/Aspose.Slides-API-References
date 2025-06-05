@@ -1,13 +1,13 @@
 ---
 title: GetRange
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET Справочник по API
 description: Получает диапазон данных графика.
 type: docs
 weight: 90
 url: /ru/aspose.slides.charts/chartdata/getrange/
 ---
 
-## Метод ChartData.GetRange
+## ChartData.GetRange метод
 
 Получает диапазон данных графика.
 
@@ -23,11 +23,11 @@ public string GetRange()
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | График не использует рабочую книгу в качестве источника данных |
+| InvalidOperationException | График не использует книгу как источник данных |
 
 ### Примеры
 
-Пример на C#
+Пример C#
 
 ```csharp
 using (Presentation pres = new Presentation())

@@ -1,21 +1,21 @@
 ---
 title: UseTimings
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Использование времени в слайд-шоу
+second_title: Aspose.Sildes для .NET API Справочник
+description: Используйте тайминги в слайд-шоу
 type: docs
 weight: 80
 url: /ru/aspose.slides/slideshowsettings/usetimings/
 ---
 
-## Свойство SlideShowSettings.UseTimings
+## SlideShowSettings.UseTimings свойство
 
-Использование времени в слайд-шоу
+Используйте тайминги в слайд-шоу
 
 ```csharp
 public bool UseTimings { get; set; }
 ```
 
-### См. Также
+### См. также
 
 * класс [SlideShowSettings](../../slideshowsettings)
 * пространство имен [Aspose.Slides](../../slideshowsettings)

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/ichartcategory/groupinglevels/
 ---
+
 ## IChartCategory.GroupingLevels property
 
 Managed container of the values of the chart category grouping levels. Multi-level category contain more then one grouping level. Grouping levels indexing is zero-based. Read-only [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/isectionzoomframe/targetsection/
 ---
+
 ## ISectionZoomFrame.TargetSection property
 
 Gets or sets the section object that the Section Zoom object is linked to. Read/write [`ISection`](../../isection).

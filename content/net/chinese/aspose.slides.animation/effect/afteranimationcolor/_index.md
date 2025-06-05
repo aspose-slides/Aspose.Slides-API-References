@@ -1,7 +1,7 @@
 ---
 title: AfterAnimationColor
-second_title: Aspose.Slides for .NET API Reference
-description: 定义效果的动画后颜色。可读写 IColorFormataspose.slides/../aspose.slides/icolorformat。
+second_title: Aspose.Sildes for .NET API Reference
+description: 定义效果的动画后的颜色。可读写 IColorFormataspose.slides/../aspose.slides/icolorformat。
 type: docs
 weight: 10
 url: /zh/aspose.slides.animation/effect/afteranimationcolor/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/effect/afteranimationcolor/
 
 ## Effect.AfterAnimationColor 属性
 
-定义效果的动画后颜色。可读写 [`IColorFormat`](../../../aspose.slides/icolorformat)。
+定义效果的动画后的颜色。可读写 [`IColorFormat`](../../../aspose.slides/icolorformat)。
 
 ```csharp
 public IColorFormat AfterAnimationColor { get; set; }
@@ -32,7 +32,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IColorFormat](../../../aspose.slides/icolorformat)
 * 类 [Effect](../../effect)

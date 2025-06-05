@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.theme/overridetheme/isempty/
 ---
+
 ## OverrideTheme.IsEmpty property
 
 True value means that ColorScheme, FontScheme, FormatScheme is null and any overriding with this theme object are disabled. Read-only Boolean.

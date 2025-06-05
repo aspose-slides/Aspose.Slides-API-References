@@ -1,6 +1,6 @@
 ---
 title: IGraphicalObject
-second_title: Aspose.Slides для .NET Справочник по API
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет абстрактный графический объект.
 type: docs
 weight: 5860
@@ -17,14 +17,13 @@ public interface IGraphicalObject : IShape
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | Позволяет получить базовый интерфейс IShape. Только для чтения [`IShape`](../ishape). |
 | [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | Возвращает блокировки формы. Только для чтения [`IGraphicalObjectLock`](../igraphicalobjectlock). |
 | [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | Возвращает блокировки формы. Только для чтения [`IGraphicalObjectLock`](../igraphicalobjectlock). |
 
-### См. также
-
+### Также см.
 * интерфейс [IShape](../ishape)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

@@ -1,7 +1,7 @@
 ---
 title: SymbolFont
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie les informations de la police symbolique. Lecture seule IFontData aspose.slides/ifontdata.
+description: Renvoie les informations de la police symbolique. Lecture seule IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 240
 url: /fr/aspose.slides/ibaseportionformateffectivedata/symbolfont/

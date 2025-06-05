@@ -1,7 +1,7 @@
 ---
 title: AsCells
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置图表单元格集合。可读/写 IChartCellCollectionaspose.slides.charts/ichartcellcollection。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回或设置图表单元格集合。可读/写 IChartCellCollectionaspose.slides/ichartcellcollection。
 type: docs
 weight: 10
 url: /zh/aspose.slides.charts/imultiplecellchartvalue/ascells/
@@ -17,9 +17,9 @@ public IChartCellCollection AsCells { get; set; }
 
 ### 备注
 
-不允许赋值为 null 值。
+不允许分配 null 值。
 
-### 另见
+### 另请参阅
 
 * 接口 [IChartCellCollection](../../ichartcellcollection)
 * 接口 [IMultipleCellChartValue](../../imultiplecellchartvalue)

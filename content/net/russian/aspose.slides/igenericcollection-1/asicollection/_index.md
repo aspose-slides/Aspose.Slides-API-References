@@ -1,6 +1,6 @@
 ---
 title: AsICollection
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Возвращает интерфейс ICollection.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/igenericcollection-1/asicollection/
 public ICollection AsICollection { get; }
 ```
 
-### Примечания
+### Замечания
 
 Для совместимости с COM.
 

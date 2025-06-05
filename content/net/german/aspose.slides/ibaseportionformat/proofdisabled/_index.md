@@ -1,6 +1,6 @@
 ---
 title: ProofDisabled
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Bestimmt, ob der Text nicht geprüft werden soll. Keine Vererbung angewendet. Lese-/Schreibzugriff auf NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 200

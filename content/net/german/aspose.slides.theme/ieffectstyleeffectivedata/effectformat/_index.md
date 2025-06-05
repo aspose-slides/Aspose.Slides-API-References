@@ -1,7 +1,7 @@
 ---
 title: EffectFormat
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt ein Effektformat zurück. Nur-Lese IEffectFormatEffectiveDataaspose.slides/../aspose.slides/ieffectformateffectivedata.
+description: Gibt ein Effektformat zurück. Nur lesbarer IEffectFormatEffectiveDataaspose.slides/ieffectformateffectivedata.
 type: docs
 weight: 10
 url: /de/aspose.slides.theme/ieffectstyleeffectivedata/effectformat/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.theme/ieffectstyleeffectivedata/effectformat/
 
 ## IEffectStyleEffectiveData.EffectFormat-Eigenschaft
 
-Gibt ein Effektformat zurück. Nur-Lese [`IEffectFormatEffectiveData`](../../../aspose.slides/ieffectformateffectivedata).
+Gibt ein Effektformat zurück. Nur lesbar [`IEffectFormatEffectiveData`](../../../aspose.slides/ieffectformateffectivedata).
 
 ```csharp
 public IEffectFormatEffectiveData EffectFormat { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IEffectFormatEffectiveData](../../../aspose.slides/ieffectformateffectivedata)
 * Schnittstelle [IEffectStyleEffectiveData](../../ieffectstyleeffectivedata)

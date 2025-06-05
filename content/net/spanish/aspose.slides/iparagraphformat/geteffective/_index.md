@@ -1,15 +1,15 @@
 ---
 title: GetEffective
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Obtiene datos de formato de párrafo efectivos con la herencia aplicada.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Obtiene los datos de formato de párrafo efectivo con la herencia aplicada.
 type: docs
 weight: 180
 url: /es/aspose.slides/iparagraphformat/geteffective/
 ---
 
-## Método IParagraphFormat.GetEffective
+## IParagraphFormat.GetEffective método
 
-Obtiene datos de formato de párrafo efectivos con la herencia aplicada.
+Obtiene los datos de formato de párrafo efectivo con la herencia aplicada.
 
 ```csharp
 public IParagraphFormatEffectiveData GetEffective()
@@ -24,6 +24,6 @@ Un [`IParagraphFormatEffectiveData`](../../iparagraphformateffectivedata).
 * interfaz [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
 * interfaz [IParagraphFormat](../../iparagraphformat)
 * espacio de nombres [Aspose.Slides](../../iparagraphformat)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

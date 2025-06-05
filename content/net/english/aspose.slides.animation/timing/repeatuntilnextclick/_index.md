@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.animation/timing/repeatuntilnextclick/
 ---
+
 ## Timing.RepeatUntilNextClick property
 
 This attribute specifies if the effect will repeat until the next click. Read/write Boolean.

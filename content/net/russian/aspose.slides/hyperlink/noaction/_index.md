@@ -1,7 +1,7 @@
 ---
 title: NoAction
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает специальную гиперссылку, которая ничего не делает. Только для чтения Hyperlinkaspose.slides/hyperlink.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Возвращает специальную гиперссылку "ничего не делать". Только для чтения Hyperlinkaspose.slides/hyperlink.
 type: docs
 weight: 80
 url: /ru/aspose.slides/hyperlink/noaction/

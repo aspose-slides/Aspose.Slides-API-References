@@ -1,13 +1,13 @@
 ---
-title: Очистить
-second_title: Справочник API Aspose.Slides для .NET
+title: Clear
+second_title: Aspose.Sildes для .NET API Справочник
 description: Удаляет все элементы управления из коллекции.
 type: docs
 weight: 30
 url: /ru/aspose.slides/icontrolcollection/clear/
 ---
 
-## Метод IControlCollection.Clear
+## IControlCollection.Clear метод
 
 Удаляет все элементы управления из коллекции.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/icontrolcollection/clear/
 public void Clear()
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IControlCollection](../../icontrolcollection)
 * пространство имен [Aspose.Slides](../../icontrolcollection)

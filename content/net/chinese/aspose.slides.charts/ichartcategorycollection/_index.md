@@ -19,22 +19,22 @@ public interface IChartCategoryCollection : IGenericCollection<IChartCategory>
 
 | 名称 | 描述 |
 | --- | --- |
-| [GroupingLevelCount](../../aspose.slides.charts/ichartcategorycollection/groupinglevelcount) { get; } | 返回使用的类别分组级别的数量。对于多级类别，数量大于一。只读 Int32。 |
+| [GroupingLevelCount](../../aspose.slides.charts/ichartcategorycollection/groupinglevelcount) { get; } | 返回使用的类别分组层级的数量。对于多层级类别来说，数量大于一。只读 Int32。 |
 | [Item](../../aspose.slides.charts/ichartcategorycollection/item) { get; } | 获取指定索引处的元素。 |
-| [UseCells](../../aspose.slides.charts/ichartcategorycollection/usecells) { get; set; } | 如果为真，则使用工作表存储类别（此情况下支持多级类别）。如果为假，则不使用工作表存储值（此情况下不支持多级类别）。读/写布尔值。 |
+| [UseCells](../../aspose.slides.charts/ichartcategorycollection/usecells) { get; set; } | 如果为真，则使用工作表存储类别（这种情况支持多层级类别）。如果为假，则不使用工作表存储值（这种情况不支持多层级类别）。可读写布尔值。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add)(IChartDataCell) | 如果类别存在于集合中，则返回它。否则从 [`IChartDataCell`](../ichartdatacell) 创建新的图表类别并将其添加到集合中。 |
+| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add)(IChartDataCell) | 如果类别已存在于集合中，则返回该类别。否则，从 [`IChartDataCell`](../ichartdatacell) 创建新图表类别并将其添加到集合中。 |
 | [Add](../../aspose.slides.charts/ichartcategorycollection/add#add_1)(object) | 从值创建新的 [`IChartCategory`](../ichartcategory) 并将其添加到集合中。 |
-| [Clear](../../aspose.slides.charts/ichartcategorycollection/clear)() | 从集合中删除所有元素。 |
-| [IndexOf](../../aspose.slides.charts/ichartcategorycollection/indexof)(IChartCategory) | 搜索指定的 [`IChartCategory`](../ichartcategory) 并返回在整个集合中第一次出现的零基索引。 |
+| [Clear](../../aspose.slides.charts/ichartcategorycollection/clear)() | 从集合中移除所有元素。 |
+| [IndexOf](../../aspose.slides.charts/ichartcategorycollection/indexof)(IChartCategory) | 搜索指定的 [`IChartCategory`](../ichartcategory)，并返回在整个集合中首次出现的零基索引 |
 | [Remove](../../aspose.slides.charts/ichartcategorycollection/remove)(IChartCategory) | 移除指定的值。 |
 | [RemoveAt](../../aspose.slides.charts/ichartcategorycollection/removeat)(int) | 移除给定索引处的元素。 |
 
-### 另请参见
+### 参见
 
 * 接口 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 接口 [IChartCategory](../ichartcategory)

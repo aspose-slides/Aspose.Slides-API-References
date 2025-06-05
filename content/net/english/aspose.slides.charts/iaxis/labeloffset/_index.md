@@ -6,6 +6,7 @@ type: docs
 weight: 320
 url: /aspose.slides.charts/iaxis/labeloffset/
 ---
+
 ## IAxis.LabelOffset property
 
 Specifies the distance of labels from the axis. Applied to category or date axis. Value must be between 0% and 1000%. Read/write UInt16.

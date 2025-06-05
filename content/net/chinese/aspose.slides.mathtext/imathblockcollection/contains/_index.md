@@ -1,6 +1,6 @@
 ---
-title: 包含
-second_title: Aspose.Slides for .NET API 参考
+title: Contains
+second_title: Aspose.Sildes for .NET API Reference
 description: 确定集合是否包含特定值。
 type: docs
 weight: 60
@@ -17,11 +17,11 @@ public bool Contains(IMathBlock item)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| item | IMathBlock | 要在集合中定位的对象。 |
+| item | IMathBlock | 要在集合中查找的对象。 |
 
 ### 返回值
 
-如果在集合中找到 *item*，则为 true；否则为 false。
+如果在集合中找到了 *item*，则返回 true；否则返回 false。
 
 ### 示例
 
@@ -35,7 +35,7 @@ blockCollection.Add(block);
 bool contains = blockCollection.Contains(block);
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IMathBlock](../../imathblock)
 * 接口 [IMathBlockCollection](../../imathblockcollection)

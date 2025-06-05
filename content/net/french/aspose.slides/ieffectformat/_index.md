@@ -1,7 +1,7 @@
 ---
 title: IEffectFormat
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente les propriétés d'effet de la forme.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Représente les propriétés d'effet d'une forme.
 type: docs
 weight: 5540
 url: /fr/aspose.slides/ieffectformat/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ieffectformat/
 
 ## Interface IEffectFormat
 
-Représente les propriétés d'effet de la forme.
+Représente les propriétés d'effet d'une forme.
 
 ```csharp
 public interface IEffectFormat : IEffectParamSource
@@ -24,7 +24,7 @@ public interface IEffectFormat : IEffectParamSource
 | [FillOverlayEffect](../../aspose.slides/ieffectformat/filloverlayeffect) { get; set; } | Effet de superposition de remplissage. Lecture/écriture [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
 | [GlowEffect](../../aspose.slides/ieffectformat/gloweffect) { get; set; } | Effet de lueur. Lecture/écriture [`IGlow`](../../aspose.slides.effects/iglow). |
 | [InnerShadowEffect](../../aspose.slides/ieffectformat/innershadoweffect) { get; set; } | Ombre intérieure. Lecture/écriture [`IInnerShadow`](../../aspose.slides.effects/iinnershadow). |
-| [IsNoEffects](../../aspose.slides/ieffectformat/isnoeffects) { get; } | Renvoie vrai si tous les effets sont désactivés (tel qu'il a été créé, objet EffectFormat par défaut). Lecture seule Boolean. |
+| [IsNoEffects](../../aspose.slides/ieffectformat/isnoeffects) { get; } | Renvoie vrai si tous les effets sont désactivés (tel qu'il a été créé, objet EffectFormat par défaut). Booléen en lecture seule. |
 | [OuterShadowEffect](../../aspose.slides/ieffectformat/outershadoweffect) { get; set; } | Ombre extérieure. Lecture/écriture [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
 | [PresetShadowEffect](../../aspose.slides/ieffectformat/presetshadoweffect) { get; set; } | Ombre prédéfinie. Lecture/écriture [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
 | [ReflectionEffect](../../aspose.slides/ieffectformat/reflectioneffect) { get; set; } | Réflexion. Lecture/écriture [`IReflection`](../../aspose.slides.effects/ireflection). |

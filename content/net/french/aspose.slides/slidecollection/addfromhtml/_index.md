@@ -1,13 +1,13 @@
 ---
 title: AddFromHtml
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Crée des diapositives à partir de texte HTML et les ajoute à la fin de la collection.
 type: docs
 weight: 70
 url: /fr/aspose.slides/slidecollection/addfromhtml/
 ---
 
-## AddFromHtml(string, IExternalResourceResolver, string) {#addfromhtml_5}
+## AddFromHtml(string, IExternalResourceResolver, string) {#addfromhtml_5}
 
 Crée des diapositives à partir de texte HTML et les ajoute à la fin de la collection.
 
@@ -17,15 +17,15 @@ public ISlide[] AddFromHtml(string htmlText, IExternalResourceResolver resolver,
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| htmlText | String | HTML à ajouter. |
+| htmlText | String | Html à ajouter. |
 | resolver | IExternalResourceResolver | Un objet de rappel utilisé pour récupérer des objets externes. Si ce paramètre est nul, tous les objets externes seront ignorés. |
 | uri | String | Un URI du HTML spécifié. Utilisé pour résoudre les liens relatifs. |
 
-### Valeur de Retour
+### Valeur de retour
 
 Diapositives ajoutées.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ISlide](../../islide)
 * interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
@@ -45,13 +45,13 @@ public ISlide[] AddFromHtml(string htmlText)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| htmlText | String | HTML à ajouter. |
+| htmlText | String | Html à ajouter. |
 
-### Valeur de Retour
+### Valeur de retour
 
-Diapositives ajoutées.
+Diapositives ajoutées
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ISlide](../../islide)
 * class [SlideCollection](../../slidecollection)
@@ -60,7 +60,7 @@ Diapositives ajoutées.
 
 ---
 
-## AddFromHtml(TextReader, IExternalResourceResolver, string) {#addfromhtml_3}
+## AddFromHtml(TextReader, IExternalResourceResolver, string) {#addfromhtml_3}
 
 Crée des diapositives à partir de texte HTML et les ajoute à la fin de la collection.
 
@@ -74,11 +74,11 @@ public ISlide[] AddFromHtml(TextReader htmlReader, IExternalResourceResolver res
 | resolver | IExternalResourceResolver | Un objet de rappel utilisé pour récupérer des objets externes. Si ce paramètre est nul, tous les objets externes seront ignorés. |
 | uri | String | Un URI du HTML spécifié. Utilisé pour résoudre les liens relatifs. |
 
-### Valeur de Retour
+### Valeur de retour
 
 Diapositives ajoutées.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ISlide](../../islide)
 * interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
@@ -100,11 +100,11 @@ public ISlide[] AddFromHtml(TextReader htmlReader)
 | --- | --- | --- |
 | htmlReader | TextReader | Objet TextReader qui sera utilisé comme source d'un fichier HTML. |
 
-### Valeur de Retour
+### Valeur de retour
 
-Diapositives ajoutées.
+Diapositives ajoutées
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ISlide](../../islide)
 * class [SlideCollection](../../slidecollection)
@@ -113,7 +113,7 @@ Diapositives ajoutées.
 
 ---
 
-## AddFromHtml(Stream, IExternalResourceResolver, string) {#addfromhtml_1}
+## AddFromHtml(Stream, IExternalResourceResolver, string) {#addfromhtml_1}
 
 Crée des diapositives à partir de texte HTML et les ajoute à la fin de la collection.
 
@@ -127,11 +127,11 @@ public ISlide[] AddFromHtml(Stream htmlStream, IExternalResourceResolver resolve
 | resolver | IExternalResourceResolver | Un objet de rappel utilisé pour récupérer des objets externes. Si ce paramètre est nul, tous les objets externes seront ignorés. |
 | uri | String | Un URI du HTML spécifié. Utilisé pour résoudre les liens relatifs. |
 
-### Valeur de Retour
+### Valeur de retour
 
 Diapositives ajoutées.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ISlide](../../islide)
 * interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
@@ -153,9 +153,9 @@ public ISlide[] AddFromHtml(Stream htmlStream)
 | --- | --- | --- |
 | htmlStream | Stream | Un objet Stream qui sera utilisé comme source d'un fichier HTML. |
 
-### Valeur de Retour
+### Valeur de retour
 
-Diapositives ajoutées.
+Diapositives ajoutées
 
 ### Exemples
 
@@ -166,15 +166,15 @@ using (var presentation = new Presentation())
 {
     using (var htmlStream = File.OpenRead("page.html"))
     {
-		// Appeler la méthode AddFromHtml et passer le fichier HTML.
+        // Appeler la méthode AddFromHtml et passer le fichier HTML.
         presentation.Slides.AddFromHtml(htmlStream);
     }
-	// Utiliser la méthode Save pour enregistrer le fichier en tant que document PowerPoint.
+    // Utiliser la méthode Save pour enregistrer le fichier en tant que document PowerPoint.
     presentation.Save("MyPresentation.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ISlide](../../islide)
 * class [SlideCollection](../../slidecollection)

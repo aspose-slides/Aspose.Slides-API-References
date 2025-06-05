@@ -15,7 +15,7 @@ Représente les unités majeures pour l'axe des dates ou des valeurs. Lecture/é
 public double MajorUnit { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IAxis](../../iaxis)
 * namespace [Aspose.Slides.Charts](../../iaxis)

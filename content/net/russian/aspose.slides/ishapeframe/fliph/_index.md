@@ -1,15 +1,15 @@
 ---
 title: FlipH
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Определяет, перевёрнут ли фрейм по горизонтали. Только для чтения NullableBoolaspose.slides/nullablebool.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Определяет, перевернут ли кадр по горизонтали. Только для чтения NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 30
 url: /ru/aspose.slides/ishapeframe/fliph/
 ---
 
-## Свойство IShapeFrame.FlipH
+## IShapeFrame.FlipH свойство
 
-Определяет, перевёрнут ли фрейм по горизонтали. Только для чтения [`NullableBool`](../../nullablebool).
+Определяет, перевернут ли кадр по горизонтали. Только для чтения [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool FlipH { get; }

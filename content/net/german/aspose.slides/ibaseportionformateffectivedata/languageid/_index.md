@@ -1,7 +1,7 @@
 ---
 title: LanguageId
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Id einer Sprache zurück. Schreibgeschützter String.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt die ID einer Sprache zurück. Schreibgeschützter String.
 type: docs
 weight: 160
 url: /de/aspose.slides/ibaseportionformateffectivedata/languageid/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ibaseportionformateffectivedata/languageid/
 
 ## IBasePortionFormatEffectiveData.LanguageId-Eigenschaft
 
-Gibt die Id einer Sprache zurück. Schreibgeschützter String.
+Gibt die ID einer Sprache zurück. Schreibgeschützter String.
 
 ```csharp
 public string LanguageId { get; }

@@ -17,9 +17,9 @@ public ITableFormat TableFormat { get; }
 
 ### Véase también
 
-* interfaz [ITableFormat](../../itableformat)
-* clase [Table](../../table)
-* espacio de nombres [Aspose.Slides](../../table)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [ITableFormat](../../itableformat)
+* clase [Table](../../table)
+* espacio de nombres [Aspose.Slides](../../table)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

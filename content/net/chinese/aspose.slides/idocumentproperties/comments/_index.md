@@ -1,7 +1,7 @@
 ---
-title: 评论
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置演示文稿的评论。可读/可写字符串。
+title: Comments
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置演示文稿的注释。可读/写字符串。
 type: docs
 weight: 50
 url: /zh/aspose.slides/idocumentproperties/comments/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/idocumentproperties/comments/
 
 ## IDocumentProperties.Comments 属性
 
-返回或设置演示文稿的评论。可读/可写字符串。
+返回或设置演示文稿的注释。可读/写字符串。
 
 ```csharp
 public string Comments { get; set; }

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/slide/notesslidemanager/
 ---
+
 ## Slide.NotesSlideManager property
 
 Allow to access notes slide, add and remove it. Read-only [`INotesSlideManager`](../../inotesslidemanager).

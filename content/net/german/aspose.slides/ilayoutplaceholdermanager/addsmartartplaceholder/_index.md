@@ -24,7 +24,7 @@ public IAutoShape AddSmartArtPlaceholder(float x, float y, float width, float he
 
 ### Rückgabewert
 
-Erstellt [`IAutoShape`](../../iautoshape) mit einem SmartArt-Platzhalter.
+Erstellt ein [`IAutoShape`](../../iautoshape) mit einem SmartArt-Platzhalter.
 
 ### Beispiele
 

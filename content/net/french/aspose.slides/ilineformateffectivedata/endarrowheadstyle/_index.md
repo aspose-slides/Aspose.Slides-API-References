@@ -1,15 +1,15 @@
 ---
 title: EndArrowheadStyle
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie le style de tête de flèche à l'extrémité d'une ligne. Lecture seule LineArrowheadStyleaspose.slides/linearrowheadstyle.
+second_title: Aspose.Slides pour la référence API .NET
+description: Renvoie le style de flèche à l'extrémité d'une ligne. En lecture seule LineArrowheadStyleaspose.slides/linearrowheadstyle.
 type: docs
 weight: 100
 url: /fr/aspose.slides/ilineformateffectivedata/endarrowheadstyle/
 ---
 
-## Propriété ILineFormatEffectiveData.EndArrowheadStyle
+## ILineFormatEffectiveData.EndArrowheadStyle propriété
 
-Renvoie le style de tête de flèche à l'extrémité d'une ligne. Lecture seule [`LineArrowheadStyle`](../../linearrowheadstyle).
+Renvoie le style de flèche à l'extrémité d'une ligne. En lecture seule [`LineArrowheadStyle`](../../linearrowheadstyle).
 
 ```csharp
 public LineArrowheadStyle EndArrowheadStyle { get; }

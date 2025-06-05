@@ -1,7 +1,7 @@
 ---
-title: 获取图像
-second_title: Aspose.Slides for .NET API 参考
-description: 返回形状缩略图。默认情况下使用 ShapeThumbnailBounds.Shape 形状缩略图边界类型。
+title: GetImage
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回形状缩略图。默认使用ShapeThumbnailBounds.Shape形状缩略图边界类型。
 type: docs
 weight: 320
 url: /zh/aspose.slides/ishape/getimage/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ishape/getimage/
 
 ## GetImage() {#getimage}
 
-返回形状缩略图。默认情况下使用 ShapeThumbnailBounds.Shape 形状缩略图边界类型。
+返回形状缩略图。默认使用ShapeThumbnailBounds.Shape形状缩略图边界类型。
 
 ```csharp
 public IImage GetImage()
@@ -19,7 +19,7 @@ public IImage GetImage()
 
 形状缩略图。
 
-### 另见
+### 参见
 
 * 接口 [IImage](../../iimage)
 * 接口 [IShape](../../ishape)
@@ -39,14 +39,14 @@ public IImage GetImage(ShapeThumbnailBounds bounds, float scaleX, float scaleY)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | bounds | ShapeThumbnailBounds | 形状缩略图边界类型。 |
-| scaleX | Single | X 轴缩放 |
-| scaleY | Single | Y 轴缩放 |
+| scaleX | Single | X 缩放 |
+| scaleY | Single | Y 缩放 |
 
 ### 返回值
 
-形状缩略图，或者在使用 ShapeThumbnailBounds.Appearance 且形状没有可见元素时返回 null。
+形状缩略图，或者当使用ShapeThumbnailBounds.Appearance并且形状没有可见元素时返回null。
 
-### 另见
+### 参见
 
 * 接口 [IImage](../../iimage)
 * 枚举 [ShapeThumbnailBounds](../../shapethumbnailbounds)

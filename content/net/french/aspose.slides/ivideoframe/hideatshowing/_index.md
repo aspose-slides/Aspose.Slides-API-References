@@ -1,6 +1,6 @@
 ---
 title: HideAtShowing
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Détermine si un VideoFrame est caché. Booléen en lecture/écriture.
 type: docs
 weight: 50
@@ -15,7 +15,7 @@ Détermine si un VideoFrame est caché. Booléen en lecture/écriture.
 public bool HideAtShowing { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IVideoFrame](../../ivideoframe)
 * namespace [Aspose.Slides](../../ivideoframe)

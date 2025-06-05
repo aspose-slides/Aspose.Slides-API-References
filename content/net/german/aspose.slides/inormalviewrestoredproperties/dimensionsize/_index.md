@@ -1,7 +1,7 @@
 ---
 title: DimensionSize
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Größe der Folienregion an Breite, wenn ein Kind von RestoredTop, Höhe, wenn ein Kind von RestoredLeft. Schreib-/Lesebereich Single. Wirft eine Ausnahme, wenn der Wert kleiner als 0 oder größer als 100 ist.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Größe der Folienregion an Breite bei einem Kind von RestoredTop, Höhe bei einem Kind von RestoredLeft. Lese-/Schreibzugriff auf Single. Wirft eine Ausnahme, wenn der Wert kleiner als 0 oder größer als 100 ist.
 type: docs
 weight: 20
 url: /de/aspose.slides/inormalviewrestoredproperties/dimensionsize/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/inormalviewrestoredproperties/dimensionsize/
 
 ## INormalViewRestoredProperties.DimensionSize-Eigenschaft
 
-Gibt die Größe der Folienregion an (Breite, wenn ein Kind von RestoredTop, Höhe, wenn ein Kind von RestoredLeft). Schreib-/Lesebereich Single. Wirft eine Ausnahme, wenn der Wert kleiner als 0 oder größer als 100 ist.
+Gibt die Größe der Folienregion an (Breite bei einem Kind von RestoredTop, Höhe bei einem Kind von RestoredLeft). Lese-/Schreibzugriff auf Single. Wirft eine Ausnahme, wenn der Wert kleiner als 0 oder größer als 100 ist.
 
 ```csharp
 public float DimensionSize { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [INormalViewRestoredProperties](../../inormalviewrestoredproperties)
 * Namespace [Aspose.Slides](../../inormalviewrestoredproperties)

@@ -1,5 +1,5 @@
 ---
-title: Élément
+title: Item
 second_title: Référence API Aspose.Slides pour .NET
 description: Obtient l'élément à l'index spécifié. Lecture seule ICommentaspose.slides/icomment.
 type: docs
@@ -7,7 +7,7 @@ weight: 10
 url: /fr/aspose.slides/icommentcollection/item/
 ---
 
-## Indice ICommentCollection
+## Indexeur ICommentCollection
 
 Obtient l'élément à l'index spécifié. Lecture seule [`IComment`](../../icomment).
 

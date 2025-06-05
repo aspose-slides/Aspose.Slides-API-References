@@ -1,21 +1,21 @@
 ---
-title: Добавить
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Добавляет новую трендовую линию в конец коллекции и возвращает ее.
+title: Add
+second_title: Aspose.Sildes для .NET API Справочник
+description: Добавляет новую линию тренда в конец коллекции и возвращает ее.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/trendlinecollection/add/
 ---
 
-## Метод TrendlineCollection.Add
+## TrendlineCollection.Add метод
 
-Добавляет новую трендовую линию в конец коллекции и возвращает ее.
+Добавляет новую линию тренда в конец коллекции и возвращает ее.
 
 ```csharp
 public ITrendline Add(TrendlineType trendlineType)
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [ITrendline](../../itrendline)
 * перечисление [TrendlineType](../../trendlinetype)

@@ -1,5 +1,5 @@
 ---
-title: Carácter
+title: Char
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve o establece el carácter de viñeta de un párrafo sin herencia. Lectura/escritura Char.
 type: docs
@@ -15,10 +15,10 @@ Devuelve o establece el carácter de viñeta de un párrafo sin herencia. Lectur
 public char Char { get; set; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [IBulletFormat](../../ibulletformat)
-* espacio de nombres [Aspose.Slides](../../ibulletformat)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IBulletFormat](../../ibulletformat)
+* espacio de nombres [Aspose.Slides](../../ibulletformat)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

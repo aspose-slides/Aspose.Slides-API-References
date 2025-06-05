@@ -19,7 +19,7 @@ public interface IEmbeddedEotFontsHtmlController : IHtmlFormattingController
 
 | Nom | Description |
 | --- | --- |
-| [AsIHtmlFormattingController](../../aspose.slides.export/iembeddedeotfontshtmlcontroller/asihtmlformattingcontroller) { get; } | Renvoie l'interface IHtmlFormattingController. |
+| [AsIHtmlFormattingController](../../aspose.slides.export/iembeddedeotfontshtmlcontroller/asihtmlformattingcontroller) { get; } | Retourne l'interface IHtmlFormattingController. |
 
 ### Voir aussi
 

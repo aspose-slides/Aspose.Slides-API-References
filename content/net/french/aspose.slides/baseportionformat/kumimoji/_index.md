@@ -1,7 +1,7 @@
 ---
 title: Kumimoji
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si les nombres doivent ignorer la mise en page verticale spécifique aux langues orientales. Aucune héritage appliqué. Lecture/écriture NullableBoolaspose.slides/nullablebool.
+second_title: Référence API Aspose.Slides pour .NET
+description: Détermine si les chiffres doivent ignorer la mise en page verticale spécifique aux langues orientales. Pas d'héritage appliqué. Lecture/écriture NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 150
 url: /fr/aspose.slides/baseportionformat/kumimoji/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/baseportionformat/kumimoji/
 
 ## Propriété BasePortionFormat.Kumimoji
 
-Détermine si les nombres doivent ignorer la mise en page verticale spécifique aux langues orientales. Aucune héritage appliqué. Lecture/écriture [`NullableBool`](../../nullablebool).
+Détermine si les chiffres doivent ignorer la mise en page verticale spécifique aux langues orientales. Pas d'héritage appliqué. Lecture/écriture [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool Kumimoji { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [NullableBool](../../nullablebool)
 * class [BasePortionFormat](../../baseportionformat)

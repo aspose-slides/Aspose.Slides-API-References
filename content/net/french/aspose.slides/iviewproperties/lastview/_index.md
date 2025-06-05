@@ -1,7 +1,7 @@
 ---
 title: LastView
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie le mode d'affichage qui a été utilisé lorsque le document de présentation a été enregistré pour la dernière fois. Lecture/écriture ViewTypeaspose.slides/viewtype.
+description: Spécifie le mode de vue qui a été utilisé lorsque le document de présentation a été enregistré pour la dernière fois. Lecture/écriture ViewTypeaspose.slides/viewtype.
 type: docs
 weight: 20
 url: /fr/aspose.slides/iviewproperties/lastview/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/iviewproperties/lastview/
 
 ## Propriété IViewProperties.LastView
 
-Spécifie le mode d'affichage qui a été utilisé lorsque le document de présentation a été enregistré pour la dernière fois. Lecture/écriture [`ViewType`](../../viewtype).
+Spécifie le mode de vue qui a été utilisé lorsque le document de présentation a été enregistré pour la dernière fois. Lecture/écriture [`ViewType`](../../viewtype).
 
 ```csharp
 public ViewType LastView { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [ViewType](../../viewtype)
 * interface [IViewProperties](../../iviewproperties)

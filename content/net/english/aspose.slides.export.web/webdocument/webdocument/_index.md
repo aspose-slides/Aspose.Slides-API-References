@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export.web/webdocument/webdocument/
 ---
+
 ## WebDocument constructor
 
 [`WebDocument`](../../webdocument) constructor.

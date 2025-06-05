@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ishape/alternativetexttitle/
 ---
+
 ## IShape.AlternativeTextTitle property
 
 Returns or sets the title of alternative text associated with a shape. Read/write String.

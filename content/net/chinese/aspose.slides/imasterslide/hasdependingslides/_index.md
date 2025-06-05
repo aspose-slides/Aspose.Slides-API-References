@@ -1,7 +1,7 @@
 ---
 title: HasDependingSlides
-second_title: Aspose.Sildes for .NET API 参考
-description: 如果至少存在一个依赖于此母版幻灯片的幻灯片，则返回 true。只读布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 如果存在至少一张依赖于此母版幻灯片的幻灯片，则返回 true。只读布尔值。
 type: docs
 weight: 40
 url: /zh/aspose.slides/imasterslide/hasdependingslides/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/imasterslide/hasdependingslides/
 
 ## IMasterSlide.HasDependingSlides 属性
 
-如果至少存在一个依赖于此母版幻灯片的幻灯片，则返回 true。只读布尔值。
+如果存在至少一张依赖于此母版幻灯片的幻灯片，则返回 true。只读布尔值。
 
 ```csharp
 public bool HasDependingSlides { get; }

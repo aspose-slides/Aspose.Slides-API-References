@@ -1,6 +1,6 @@
 ---
 title: IMathArrayFactory
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Permet de créer un tableau mathématique
 type: docs
 weight: 7860

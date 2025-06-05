@@ -1,7 +1,7 @@
 ---
-title: Füllformat
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Füllformat einer Linie zurück. Nur lesbarer ILineFillFormatEffectiveDataaspose.slides/ilinefillformateffectivedata.
+title: FillFormat
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt das Füllformat einer Linie zurück. Nur-Lese ILineFillFormatEffectiveDataaspose.slides/ilinefillformateffectivedata.
 type: docs
 weight: 120
 url: /de/aspose.slides/ilineformateffectivedata/fillformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ilineformateffectivedata/fillformat/
 
 ## ILineFormatEffectiveData.FillFormat-Eigenschaft
 
-Gibt das Füllformat einer Linie zurück. Nur lesbar [`ILineFillFormatEffectiveData`](../../ilinefillformateffectivedata).
+Gibt das Füllformat einer Linie zurück. Nur-Lese [`ILineFillFormatEffectiveData`](../../ilinefillformateffectivedata).
 
 ```csharp
 public ILineFillFormatEffectiveData FillFormat { get; }

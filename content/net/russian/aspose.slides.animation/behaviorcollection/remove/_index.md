@@ -1,13 +1,13 @@
 ---
-title: Удалить
-second_title: Справочник по API Aspose.Slides для .NET
+title: Remove
+second_title: Aspose.Slides для .NET API Справочник
 description: Удаляет указанное поведение из коллекции.
 type: docs
 weight: 110
 url: /ru/aspose.slides.animation/behaviorcollection/remove/
 ---
 
-## Метод BehaviorCollection.Remove
+## BehaviorCollection.Remove метод
 
 Удаляет указанное поведение из коллекции.
 

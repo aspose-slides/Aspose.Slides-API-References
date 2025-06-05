@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/idocumentproperties/company/
 ---
+
 ## IDocumentProperties.Company property
 
 Returns or sets the company property. Read/write String.

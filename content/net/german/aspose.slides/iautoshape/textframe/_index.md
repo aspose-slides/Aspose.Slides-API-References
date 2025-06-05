@@ -1,15 +1,15 @@
 ---
 title: TextFrame
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das TextFrame-Objekt für die AutoShape zurück. Nur-Lese ITextFrameaspose.slides/itextframe.
+description: Gibt das TextFrame-Objekt für die AutoShape zurück. Nur-Lesezugriff auf ITextFrameaspose.slides/itextframe.
 type: docs
 weight: 50
 url: /de/aspose.slides/iautoshape/textframe/
 ---
 
-## IAutoShape.TextFrame Eigenschaft
+## IAutoShape.TextFrame-Eigenschaft
 
-Gibt das TextFrame-Objekt für die AutoShape zurück. Nur-Lese [`ITextFrame`](../../itextframe).
+Gibt das TextFrame-Objekt für die AutoShape zurück. Nur-Lesezugriff auf [`ITextFrame`](../../itextframe).
 
 ```csharp
 public ITextFrame TextFrame { get; }

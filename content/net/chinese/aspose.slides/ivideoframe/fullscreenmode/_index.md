@@ -1,6 +1,6 @@
 ---
-title: 全屏模式
-second_title: Aspose.Slides for .NET API 参考
+title: FullScreenMode
+second_title: Aspose.Sildes for .NET API Reference
 description: 确定视频是否以全屏模式显示。可读/可写布尔值。
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ivideoframe/fullscreenmode/
 public bool FullScreenMode { get; set; }
 ```
 
-### 另请参见
+### 相关链接
 
 * 接口 [IVideoFrame](../../ivideoframe)
 * 命名空间 [Aspose.Slides](../../ivideoframe)

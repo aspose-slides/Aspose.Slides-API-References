@@ -1,27 +1,27 @@
 ---
 title: GetEffective
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Получает эффективные данные форматирования заливки с примененным наследованием.
+second_title: Aspose.Sildes для .NET API Reference
+description: Получает данные об эффективном заполнении формата с применением наследования.
 type: docs
 weight: 70
 url: /ru/aspose.slides/fillformat/geteffective/
 ---
 
-## Метод FillFormat.GetEffective
+## FillFormat.GetEffective метод
 
-Получает эффективные данные форматирования заливки с примененным наследованием.
+Получает данные об эффективном заполнении формата с применением наследования.
 
 ```csharp
 public IFillFormatEffectiveData GetEffective()
 ```
 
-### Значение Возврата
+### Возвращаемое значение
 
 [`IFillFormatEffectiveData`](../../ifillformateffectivedata).
 
 ### Примеры
 
-Этот пример демонстрирует получение эффективных свойств формата заливки фигуры.
+Этот пример демонстрирует получение свойств эффективного формата заполнения фигуры.
 
 ```csharp
 [C#]
@@ -33,7 +33,7 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 	switch (effectiveFillFormat.FillType)
 	{
 		case FillType.Solid:
-			Console.WriteLine("Цвет заливки: " + effectiveFillFormat.SolidFillColor);
+			Console.WriteLine("Цвет заполнения: " + effectiveFillFormat.SolidFillColor);
 			break;
 		case FillType.Pattern:
 			Console.WriteLine("Стиль узора: " + effectiveFillFormat.PatternFormat.PatternStyle);
@@ -42,17 +42,17 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 			break;
 		case FillType.Gradient:
 			Console.WriteLine("Направление градиента: " + effectiveFillFormat.GradientFormat.GradientDirection);
-			Console.WriteLine("Количество остановок градиента: " + effectiveFillFormat.GradientFormat.GradientStops.Count);
+			Console.WriteLine("Количество градиентных остановок: " + effectiveFillFormat.GradientFormat.GradientStops.Count);
 			break;
 		case FillType.Picture:
-			Console.WriteLine("Ширина изображения: " + effectiveFillFormat.PictureFillFormat.Picture.Image.Width);
-			Console.WriteLine("Высота изображения: " + effectiveFillFormat.PictureFillFormat.Picture.Image.Height);
+			Console.WriteLine("Ширина картинки: " + effectiveFillFormat.PictureFillFormat.Picture.Image.Width);
+			Console.WriteLine("Высота картинки: " + effectiveFillFormat.PictureFillFormat.Picture.Image.Height);
 			break;
 	}
 }
 ```
 
-### См. Также
+### Смотрите также
 
 * интерфейс [IFillFormatEffectiveData](../../ifillformateffectivedata)
 * класс [FillFormat](../../fillformat)

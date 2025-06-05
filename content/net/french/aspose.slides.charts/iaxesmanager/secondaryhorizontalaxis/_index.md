@@ -1,13 +1,13 @@
 ---
-title: AxeHorizontalSecondaire
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: SecondaryHorizontalAxis
+second_title: Aspose.Slides pour la référence API .NET
 description: Obtient l'axe horizontal secondaire des graphiques. Lecture seule IAxisaspose.slides.charts/iaxis.
 type: docs
 weight: 20
 url: /fr/aspose.slides.charts/iaxesmanager/secondaryhorizontalaxis/
 ---
 
-## Propriété IAxesManager.SecondaryHorizontalAxis
+## IAxesManager.SecondaryHorizontalAxis propriété
 
 Obtient l'axe horizontal secondaire du graphique. Lecture seule [`IAxis`](../../iaxis).
 
@@ -15,7 +15,7 @@ Obtient l'axe horizontal secondaire du graphique. Lecture seule [`IAxis`](../../
 public IAxis SecondaryHorizontalAxis { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IAxis](../../iaxis)
 * interface [IAxesManager](../../iaxesmanager)

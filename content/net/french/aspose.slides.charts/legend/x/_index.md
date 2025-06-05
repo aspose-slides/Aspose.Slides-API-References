@@ -1,7 +1,7 @@
 ---
 title: X
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne ou définit la coordonnée x d'une légende en tant que fraction de la largeur du graphique. Lecture/écriture Simple.
+description: Renvoie ou définit la coordonnée x d'une légende en tant que fraction de la largeur du graphique. Lecture/écriture Single.
 type: docs
 weight: 110
 url: /fr/aspose.slides.charts/legend/x/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/legend/x/
 
 ## Propriété Legend.X
 
-Retourne ou définit la coordonnée x d'une légende en tant que fraction de la largeur du graphique. Lecture/écriture Simple.
+Renvoie ou définit la coordonnée x d'une légende en tant que fraction de la largeur du graphique. Lecture/écriture Single.
 
 ```csharp
 public float X { get; set; }

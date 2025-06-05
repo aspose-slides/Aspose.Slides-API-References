@@ -1,13 +1,13 @@
 ---
 title: AsIGraphicalObject
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie l'interface IGraphicalObject.
 type: docs
 weight: 10
 url: /fr/aspose.slides/isummaryzoomframe/asigraphicalobject/
 ---
 
-## Propriété ISummaryZoomFrame.AsIGraphicalObject
+## ISummaryZoomFrame.AsIGraphicalObject propriété
 
 Renvoie l'interface IGraphicalObject.
 
@@ -19,7 +19,7 @@ public IGraphicalObject AsIGraphicalObject { get; }
 
 Pour la compatibilité COM.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IGraphicalObject](../../igraphicalobject)
 * interface [ISummaryZoomFrame](../../isummaryzoomframe)

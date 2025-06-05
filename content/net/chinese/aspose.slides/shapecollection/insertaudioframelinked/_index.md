@@ -1,7 +1,7 @@
 ---
 title: InsertAudioFrameLinked
 second_title: Aspose.Sildes for .NET API Reference
-description: 创建一个新的音频帧并链接音频文件，并将其插入到指定索引的集合中。
+description: 创建一个新的音频框并连接音频文件，并将其插入到指定索引的集合中。
 type: docs
 weight: 290
 url: /zh/aspose.slides/shapecollection/insertaudioframelinked/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/shapecollection/insertaudioframelinked/
 
 ## ShapeCollection.InsertAudioFrameLinked 方法
 
-创建一个新的音频帧并链接音频文件，并将其插入到指定索引的集合中。
+创建一个新的音频框并连接音频文件，并将其插入到指定索引的集合中。
 
 ```csharp
 public IAudioFrame InsertAudioFrameLinked(int index, float x, float y, float width, float height, 
@@ -18,18 +18,18 @@ public IAudioFrame InsertAudioFrameLinked(int index, float x, float y, float wid
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 应该插入音频帧的零基索引。 |
-| x | Single | 新音频帧的 X 坐标。 |
-| y | Single | 新音频帧的 Y 坐标。 |
-| width | Single | 新音频帧的宽度。 |
-| height | Single | 新音频帧的高度。 |
+| index | Int32 | 音频框应该插入的零基索引。 |
+| x | Single | 新音频框的 X 坐标。 |
+| y | Single | 新音频框的 Y 坐标。 |
+| width | Single | 新音频框的宽度。 |
+| height | Single | 新音频框的高度。 |
 | fname | String | 音频文件名。 |
 
 ### 返回值
 
 创建的 AudioFrame 对象。
 
-### 另见
+### 参见
 
 * 接口 [IAudioFrame](../../iaudioframe)
 * 类 [ShapeCollection](../../shapecollection)

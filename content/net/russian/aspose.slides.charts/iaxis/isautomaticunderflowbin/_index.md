@@ -1,7 +1,7 @@
 ---
 title: IsAutomaticUnderflowBin
-second_title: Справка по API Aspose.Slides для .NET
-description: Указывает значение автоматического подбора диапазона. Если false, используйте свойство UnderflowBin.
+second_title: Aspose.Sildes для .NET API Справка
+description: Указывает значение автоматического подбора ячеек. Если значение false, используйте свойство UnderflowBin.
 type: docs
 weight: 250
 url: /ru/aspose.slides.charts/iaxis/isautomaticunderflowbin/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.charts/iaxis/isautomaticunderflowbin/
 
 ## IAxis.IsAutomaticUnderflowBin свойство
 
-Указывает значение автоматического подбора диапазона. Если false: используйте свойство UnderflowBin.
+Указывает значение автоматического подбора ячеек. Если значение false: используйте свойство UnderflowBin.
 
 ```csharp
 public bool IsAutomaticUnderflowBin { get; set; }
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [IAxis](../../iaxis)
 * пространство имен [Aspose.Slides.Charts](../../iaxis)

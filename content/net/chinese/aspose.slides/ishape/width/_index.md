@@ -1,7 +1,7 @@
 ---
-title: 宽度
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置形状的宽度。可读写单精度浮点数。
+title: Width
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置形状的宽度。读/写单精度浮点数。
 type: docs
 weight: 260
 url: /zh/aspose.slides/ishape/width/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ishape/width/
 
 ## IShape.Width 属性
 
-返回或设置形状的宽度。可读写单精度浮点数。
+返回或设置形状的宽度。读/写单精度浮点数。
 
 ```csharp
 public float Width { get; set; }
@@ -19,7 +19,7 @@ public float Width { get; set; }
 
 返回的值始终是定义的（不是 float.NaN）。赋值必须是定义的（不是 float.NaN）。您可以为 RawFrame 实例属性设置未定义的值。
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IShape](../../ishape)
 * 命名空间 [Aspose.Slides](../../ishape)

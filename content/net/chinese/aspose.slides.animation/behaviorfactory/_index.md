@@ -1,13 +1,13 @@
 ---
 title: BehaviorFactory
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Slides for .NET API Reference
 description: 允许创建动画效果
 type: docs
 weight: 100
 url: /zh/aspose.slides.animation/behaviorfactory/
 ---
 
-## BehaviorFactory 类
+## BehaviorFactory class
 
 允许创建动画效果
 
@@ -27,7 +27,7 @@ public class BehaviorFactory : IBehaviorFactory
 | --- | --- |
 | [CreateColorEffect](../../aspose.slides.animation/behaviorfactory/createcoloreffect)() | 创建颜色效果。 |
 | [CreateCommandEffect](../../aspose.slides.animation/behaviorfactory/createcommandeffect)() | 创建命令效果。 |
-| [CreateFilterEffect](../../aspose.slides.animation/behaviorfactory/createfiltereffect)() | 创建滤镜效果。 |
+| [CreateFilterEffect](../../aspose.slides.animation/behaviorfactory/createfiltereffect)() | 创建过滤器效果。 |
 | [CreateMotionEffect](../../aspose.slides.animation/behaviorfactory/createmotioneffect)() | 创建运动效果。 |
 | [CreatePropertyEffect](../../aspose.slides.animation/behaviorfactory/createpropertyeffect)() | 创建属性效果。 |
 | [CreateRotationEffect](../../aspose.slides.animation/behaviorfactory/createrotationeffect)() | 创建旋转效果。 |
@@ -36,7 +36,7 @@ public class BehaviorFactory : IBehaviorFactory
 
 ### 备注
 
-用于 COM 兼容性。
+为了与 COM 兼容。
 
 ### 另见
 

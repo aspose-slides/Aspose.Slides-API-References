@@ -1,13 +1,13 @@
 ---
-title: Basis
-second_title: Aspose.Slides für .NET API-Referenz
+title: Base
+second_title: Aspose.Slides für .NET API Referenz
 description: Basisargument
 type: docs
 weight: 20
 url: /de/aspose.slides.mathtext/mathnaryoperator/base/
 ---
 
-## MathNaryOperator.Base Eigenschaft
+## MathNaryOperator.Base-Eigenschaft
 
 Basisargument
 

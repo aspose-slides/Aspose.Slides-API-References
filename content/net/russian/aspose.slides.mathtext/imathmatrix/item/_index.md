@@ -1,6 +1,6 @@
 ---
-title: Элемент
-second_title: Справка по API Aspose.Slides для .NET
+title: Item
+second_title: Aspose.Sildes для .NET API Справочник
 description: Элементы матрицы
 type: docs
 weight: 70
@@ -17,8 +17,8 @@ public IMathElement this[int row, int column] { get; set; }
 
 | Параметр | Описание |
 | --- | --- |
-| row | Индекс строки (начиная с нуля), чтобы получить элемент |
-| column | Индекс столбца (начиная с нуля), чтобы получить элемент |
+| row | Индекс строки, начинающийся с нуля, для получения элемента |
+| column | Индекс столбца, начинающийся с нуля, для получения элемента |
 
 ### Примеры
 

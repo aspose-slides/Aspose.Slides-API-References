@@ -1,7 +1,7 @@
 ---
-title: 方向
-second_title: Aspose.Slides for .NET API 参考
-description: 反射的方向。读/写单一值。
+title: Direction
+second_title: Aspose.Sildes for .NET API Reference
+description: 反射的方向。可读/写单精度浮点数。
 type: docs
 weight: 40
 url: /zh/aspose.slides.effects/ireflection/direction/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.effects/ireflection/direction/
 
 ## IReflection.Direction 属性
 
-反射的方向。读/写单一值。
+反射的方向。可读/写单精度浮点数。
 
 ```csharp
 public float Direction { get; set; }
 ```
 
-### 另请参阅
+### 参考
 
 * 接口 [IReflection](../../ireflection)
 * 命名空间 [Aspose.Slides.Effects](../../ireflection)

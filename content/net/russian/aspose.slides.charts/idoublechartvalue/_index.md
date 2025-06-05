@@ -1,7 +1,7 @@
 ---
 title: IDoubleChartValue
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Представляет двойное значение, которое может быть сохранено в документе pptx презентации двумя способами 1 в ячейке/ячейках рабочей книги, связанных с графиком; 2 в виде литерального значения.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет двойное значение, которое может быть сохранено в документе презентации pptx двумя способами 1 в ячейке/ячейках рабочей книги, относящейся к диаграмме; 2 в качестве буквального значения.
 type: docs
 weight: 1990
 url: /ru/aspose.slides.charts/idoublechartvalue/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/idoublechartvalue/
 
 ## Интерфейс IDoubleChartValue
 
-Представляет двойное значение, которое может быть сохранено в документе pptx презентации двумя способами: 1) в ячейке/ячейках рабочей книги, связанных с графиком; 2) в виде литерального значения.
+Представляет двойное значение, которое может быть сохранено в документе презентации pptx двумя способами: 1) в ячейке/ячейках рабочей книги, относящейся к диаграмме; 2) в качестве буквального значения.
 
 ```csharp
 public interface IDoubleChartValue : ISingleCellChartValue
@@ -20,7 +20,7 @@ public interface IDoubleChartValue : ISingleCellChartValue
 | Имя | Описание |
 | --- | --- |
 | [AsISingleCellChartValue](../../aspose.slides.charts/idoublechartvalue/asisinglecellchartvalue) { get; } | Позволяет получить базовый интерфейс ISingleCellChartValue. Только для чтения [`ISingleCellChartValue`](../isinglecellchartvalue). |
-| [AsLiteralDouble](../../aspose.slides.charts/idoublechartvalue/asliteraldouble) { get; set; } | Возвращает или задает литеральное двойное значение, если DataSourceType = Charts.DataSourceType.DoubleLiterals. Чтение/запись Double. |
+| [AsLiteralDouble](../../aspose.slides.charts/idoublechartvalue/asliteraldouble) { get; set; } | Возвращает или устанавливает буквальное значение типа double, если DataSourceType = Charts.DataSourceType.DoubleLiterals. Чтение/запись Double. |
 
 ## Методы
 
@@ -28,7 +28,7 @@ public interface IDoubleChartValue : ISingleCellChartValue
 | --- | --- |
 | [ToDouble](../../aspose.slides.charts/idoublechartvalue/todouble)() | Преобразует в double. |
 
-### См. также
+### Также см.
 
 * интерфейс [ISingleCellChartValue](../isinglecellchartvalue)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)

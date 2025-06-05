@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/datalabelcollection/countofvisibledatalabels/
 ---
+
 ## DataLabelCollection.CountOfVisibleDataLabels property
 
 Gets the number of visible data labels in the collection. Read-only Int32.

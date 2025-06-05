@@ -1,6 +1,6 @@
 ---
 title: HasLegend
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de la API Aspose.Slides para .NET
 description: Determina si un gráfico tiene una leyenda. Booleano de lectura/escritura.
 type: docs
 weight: 110
@@ -19,6 +19,6 @@ public bool HasLegend { get; set; }
 
 * clase [Chart](../../chart)
 * espacio de nombres [Aspose.Slides.Charts](../../chart)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

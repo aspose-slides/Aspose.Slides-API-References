@@ -1,6 +1,6 @@
 ---
-title: Предел
-second_title: Справочник по API Aspose.Sildes для .NET
+title: Limit
+second_title: Aspose.Sildes для .NET API Reference
 description: Аргумент предела
 type: docs
 weight: 30

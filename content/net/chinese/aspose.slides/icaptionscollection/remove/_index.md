@@ -1,15 +1,15 @@
 ---
-title: 移除
-second_title: Aspose.Slides for .NET API 参考
-description: 从集合中移除指定的闭 caption。
+title: Remove
+second_title: Aspose.Sildes for .NET API Reference
+description: 从集合中移除指定的闭合字幕。
 type: docs
 weight: 50
 url: /zh/aspose.slides/icaptionscollection/remove/
 ---
 
-## ICaptionsCollection.Remove 方法
+## ICaptionsCollection.Remove method
 
-从集合中移除指定的闭 caption。
+从集合中移除指定的闭合字幕。
 
 ```csharp
 public void Remove(ICaptions captions)
@@ -17,9 +17,9 @@ public void Remove(ICaptions captions)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| captions | ICaptions | 要移除的闭 caption。 |
+| captions | ICaptions | 要移除的闭合字幕。 |
 
-### 参见
+### 另见
 
 * 接口 [ICaptions](../../icaptions)
 * 接口 [ICaptionsCollection](../../icaptionscollection)

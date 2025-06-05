@@ -3,9 +3,10 @@ title: ClearBuiltInProperties
 second_title: Aspose.Sildes for .NET API Reference
 description: Clears and sets default values for all builtIn properties.
 type: docs
-weight: 260
+weight: 370
 url: /aspose.slides/documentproperties/clearbuiltinproperties/
 ---
+
 ## DocumentProperties.ClearBuiltInProperties method
 
 Clears and sets default values for all builtIn properties.

@@ -1,13 +1,13 @@
 ---
 title: GetEnumerator
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve un enumerador que itera a través de la colección.
 type: docs
 weight: 60
 url: /es/aspose.slides.smartart/smartartshapecollection/getenumerator/
 ---
 
-## Método SmartArtShapeCollection.GetEnumerator
+## SmartArtShapeCollection.GetEnumerator método
 
 Devuelve un enumerador que itera a través de la colección.
 
@@ -15,15 +15,15 @@ Devuelve un enumerador que itera a través de la colección.
 public IEnumerator<ISmartArtShape> GetEnumerator()
 ```
 
-### Valor de retorno
+### Valor de Retorno
 
-Un IEnumerator que se puede utilizar para iterar a través de la colección.
+Un IEnumerator que se puede usar para iterar a través de la colección.
 
 ### Véase también
 
-* interfaz [ISmartArtShape](../../ismartartshape)
-* clase [SmartArtShapeCollection](../../smartartshapecollection)
-* espacio de nombres [Aspose.Slides.SmartArt](../../smartartshapecollection)
-* ensamblado [Aspose.Slides](../../../)
+* interface [ISmartArtShape](../../ismartartshape)
+* class [SmartArtShapeCollection](../../smartartshapecollection)
+* namespace [Aspose.Slides.SmartArt](../../smartartshapecollection)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

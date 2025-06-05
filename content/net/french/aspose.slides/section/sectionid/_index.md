@@ -1,6 +1,6 @@
 ---
 title: SectionId
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Identifiant de section.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ Identifiant de section.
 public Guid SectionId { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [Section](../../section)
 * espace de noms [Aspose.Slides](../../section)

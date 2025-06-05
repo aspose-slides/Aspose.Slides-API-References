@@ -1,7 +1,7 @@
 ---
 title: MarginTop
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置 TextFrame 的顶部边距。可读写的 Double。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置TextFrame的顶部边距。可读/可写的双精度浮点数。
 type: docs
 weight: 140
 url: /zh/aspose.slides/icell/margintop/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/icell/margintop/
 
 ## ICell.MarginTop 属性
 
-返回或设置 TextFrame 的顶部边距。可读写的 Double。
+返回或设置TextFrame的顶部边距。可读/可写的双精度浮点数。
 
 ```csharp
 public double MarginTop { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [ICell](../../icell)
 * 命名空间 [Aspose.Slides](../../icell)

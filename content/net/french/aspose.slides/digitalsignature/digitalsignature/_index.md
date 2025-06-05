@@ -1,6 +1,6 @@
 ---
 title: DigitalSignature
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Crée un nouvel objet DigitalSignature avec le certificat spécifié.
 type: docs
 weight: 10
@@ -37,7 +37,7 @@ public DigitalSignature(string filePath, string password)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| filePath | String | Chemin vers le fichier contenant le certificat. |
+| filePath | String | Chemin vers le fichier avec le certificat. |
 | password | String | Mot de passe requis pour accéder au certificat. |
 
 ### Voir aussi

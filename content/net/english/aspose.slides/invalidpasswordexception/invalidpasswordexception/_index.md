@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/invalidpasswordexception/invalidpasswordexception/
 ---
+
 ## InvalidPasswordException() {#constructor}
 
 Default constructor.

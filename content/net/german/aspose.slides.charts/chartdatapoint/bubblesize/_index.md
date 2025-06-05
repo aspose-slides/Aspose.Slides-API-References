@@ -1,7 +1,7 @@
 ---
 title: BubbleSize
-second_title: Aspose.Slides für .NET API-Referenz
-description: BubbleSize. Nur-Lesen IDoubleChartValueaspose.slides/idoublechartvalue.
+second_title: Aspose.Slides for .NET API Referenz
+description: BubbleSize. Nur-Lese IDoubleChartValueaspose.slides/idoublechartvalue.
 type: docs
 weight: 50
 url: /de/aspose.slides.charts/chartdatapoint/bubblesize/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartdatapoint/bubblesize/
 
 ## ChartDataPoint.BubbleSize-Eigenschaft
 
-BubbleSize. Nur-Lesen [`IDoubleChartValue`](../../idoublechartvalue).
+BubbleSize. Nur-Lese [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue BubbleSize { get; }

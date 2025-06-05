@@ -1,13 +1,13 @@
 ---
-title: Sauver
-second_title: Référence API Aspose.Slides pour .NET
+title: Save
+second_title: Aspose.Sildes pour .NET Référence API
 description: Enregistre l'image dans un fichier.
 type: docs
 weight: 40
 url: /fr/aspose.slides/iimage/save/
 ---
 
-## Sauver(string) {#save_2}
+## Save(string) {#save_2}
 
 Enregistre l'image dans un fichier.
 
@@ -19,7 +19,7 @@ public void Save(string filename)
 | --- | --- | --- |
 | filename | String | Le chemin vers le fichier où l'image sera enregistrée. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IImage](../../iimage)
 * namespace [Aspose.Slides](../../iimage)
@@ -27,7 +27,7 @@ public void Save(string filename)
 
 ---
 
-## Sauver(string, ImageFormat) {#save_3}
+## Save(string, ImageFormat) {#save_3}
 
 Enregistre l'image dans un fichier dans le format spécifié.
 
@@ -40,7 +40,7 @@ public void Save(string filename, ImageFormat format)
 | filename | String | Le chemin vers le fichier où l'image sera enregistrée. |
 | format | ImageFormat | Le format de l'image. |
 
-### Voir aussi
+### Voir Aussi
 
 * enum [ImageFormat](../../imageformat)
 * interface [IImage](../../iimage)
@@ -49,7 +49,7 @@ public void Save(string filename, ImageFormat format)
 
 ---
 
-## Sauver(Stream, ImageFormat) {#save}
+## Save(Stream, ImageFormat) {#save}
 
 Enregistre l'image dans un flux dans le format spécifié.
 
@@ -62,7 +62,7 @@ public void Save(Stream stream, ImageFormat format)
 | stream | Stream | Le flux où l'image sera enregistrée. |
 | format | ImageFormat | Le format de l'image. |
 
-### Voir aussi
+### Voir Aussi
 
 * enum [ImageFormat](../../imageformat)
 * interface [IImage](../../iimage)
@@ -71,7 +71,7 @@ public void Save(Stream stream, ImageFormat format)
 
 ---
 
-## Sauver(string, ImageFormat, int) {#save_4}
+## Save(string, ImageFormat, int) {#save_4}
 
 Enregistre l'image dans un fichier dans le format et la qualité spécifiés.
 
@@ -83,9 +83,9 @@ public void Save(string filename, ImageFormat format, int quality)
 | --- | --- | --- |
 | filename | String | Le chemin vers le fichier où l'image sera enregistrée. |
 | format | ImageFormat | Le format de l'image. |
-| quality | Int32 | La qualité de l'image enregistrée (0 à 100). Ce paramètre n'affecte que l'enregistrement en Jpeg; pour tous les autres formats, il est ignoré. |
+| quality | Int32 | La qualité de l'image enregistrée (0 à 100). Ce paramètre n'affecte que l'enregistrement en Jpeg ; pour tous les autres formats, il est ignoré. |
 
-### Voir aussi
+### Voir Aussi
 
 * enum [ImageFormat](../../imageformat)
 * interface [IImage](../../iimage)
@@ -94,7 +94,7 @@ public void Save(string filename, ImageFormat format, int quality)
 
 ---
 
-## Sauver(Stream, ImageFormat, int) {#save_1}
+## Save(Stream, ImageFormat, int) {#save_1}
 
 Enregistre l'image dans un flux dans le format et la qualité spécifiés.
 
@@ -106,9 +106,9 @@ public void Save(Stream stream, ImageFormat format, int quality)
 | --- | --- | --- |
 | stream | Stream | Le flux où l'image sera enregistrée. |
 | format | ImageFormat | Le format de l'image. |
-| quality | Int32 | La qualité de l'image enregistrée (0 à 100). Ce paramètre n'affecte que l'enregistrement en Jpeg; pour tous les autres formats, il est ignoré. |
+| quality | Int32 | La qualité de l'image enregistrée (0 à 100). Ce paramètre n'affecte que l'enregistrement en Jpeg ; pour tous les autres formats, il est ignoré. |
 
-### Voir aussi
+### Voir Aussi
 
 * enum [ImageFormat](../../imageformat)
 * interface [IImage](../../iimage)

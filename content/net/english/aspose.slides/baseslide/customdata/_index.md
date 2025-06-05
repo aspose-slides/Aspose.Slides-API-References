@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/baseslide/customdata/
 ---
+
 ## BaseSlide.CustomData property
 
 Returns the slide's custom data. Read-only [`ICustomData`](../../icustomdata).

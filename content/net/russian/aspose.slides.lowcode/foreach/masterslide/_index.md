@@ -1,6 +1,6 @@
 ---
 title: MasterSlide
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для справки по .NET API
 description: Итерация каждого MasterSlideaspose.slides.lowcode/foreach/masterslide в Presentationaspose.slides/presentation.
 type: docs
 weight: 20
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 } 
 ```
 
-### Дополнительно
+### См. Также
 
 * класс [Presentation](../../../aspose.slides/presentation)
 * делегат [ForEachMasterSlideCallback](../../foreach.foreachmasterslidecallback)

@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForWaterfallSeries
 second_title: Aspose.Slides for .NET API Reference
-description: 创建新的数据点并将其添加到集合的末尾。适用于图表类型为瀑布型的系列。
+description: 创建新的数据点并将其添加到集合的末尾。适用于图表类型为瀑布的系列。
 type: docs
 weight: 230
 url: /zh/aspose.slides.charts/ichartdatapointcollection/adddatapointforwaterfallseries/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ichartdatapointcollection/adddatapointforwaterfall
 
 ## IChartDataPointCollection.AddDataPointForWaterfallSeries 方法
 
-创建新的数据点并将其添加到集合的末尾。适用于图表类型为瀑布型的系列。
+创建新的数据点并将其添加到集合的末尾。适用于图表类型为瀑布的系列。
 
 ```csharp
 public IChartDataPoint AddDataPointForWaterfallSeries(IChartDataCell value)

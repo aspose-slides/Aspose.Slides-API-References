@@ -1,7 +1,7 @@
 ---
 title: IRevealTransition
-second_title: Aspose.Sildes for .NET API Reference
-description: 揭示幻灯片转换效果。
+second_title: Aspose.Slides for .NET API Reference
+description: 揭示幻灯片过渡效果。
 type: docs
 weight: 9850
 url: /zh/aspose.slides.slideshow/irevealtransition/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.slideshow/irevealtransition/
 
 ## IRevealTransition 接口
 
-揭示幻灯片转换效果。
+揭示幻灯片过渡效果。
 
 ```csharp
 public interface IRevealTransition : ITransitionValueBase
@@ -20,8 +20,8 @@ public interface IRevealTransition : ITransitionValueBase
 | 名称 | 描述 |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/irevealtransition/asitransitionvaluebase) { get; } | 允许获取基础 ITransitionValueBase 接口。只读 [`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [Direction](../../aspose.slides.slideshow/irevealtransition/direction) { get; set; } | 转换的方向。读/写 [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype)。 |
-| [ThroughBlack](../../aspose.slides.slideshow/irevealtransition/throughblack) { get; set; } | 指定转换是否通过黑色渐变。读/写布尔值。 |
+| [Direction](../../aspose.slides.slideshow/irevealtransition/direction) { get; set; } | 过渡的方向。读/写 [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype)。 |
+| [ThroughBlack](../../aspose.slides.slideshow/irevealtransition/throughblack) { get; set; } | 指定过渡是否通过黑色渐变。读/写布尔值。 |
 
 ### 另请参阅
 

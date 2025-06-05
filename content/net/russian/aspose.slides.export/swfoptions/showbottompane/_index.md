@@ -1,15 +1,15 @@
 ---
 title: ShowBottomPane
-second_title: Aspose.Slides для .NET API Reference
-description: Показать/скрыть нижнюю панель. Может быть переопределено в flashvars. По умолчанию истинно.
+second_title: Aspose.Slides для .NET API Справочник
+description: Показать/скрыть нижнюю панель. Може быть переопределен в flashvars. Значение по умолчанию - true.
 type: docs
 weight: 70
 url: /ru/aspose.slides.export/swfoptions/showbottompane/
 ---
 
-## Свойство SwfOptions.ShowBottomPane
+## SwfOptions.ShowBottomPane свойство
 
-Показать/скрыть нижнюю панель. Может быть переопределено в flashvars. По умолчанию истинно.
+Показать/скрыть нижнюю панель. Може быть переопределен в flashvars. Значение по умолчанию - true.
 
 ```csharp
 public bool ShowBottomPane { get; set; }

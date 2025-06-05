@@ -1,7 +1,7 @@
 ---
-title: Zeitachse
+title: Timeline
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt ein Animations-Zeitachsenobjekt zurück. Nur zum Lesen IAnimationTimeLineaspose.slides/ianimationtimeline.
+description: Gibt das Animationszeitleistenobjekt zurück. Nur-Lese IAnimationTimeLineaspose.slides/ianimationtimeline.
 type: docs
 weight: 110
 url: /de/aspose.slides/baseslide/timeline/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/baseslide/timeline/
 
 ## BaseSlide.Timeline-Eigenschaft
 
-Gibt ein Animations-Zeitachsenobjekt zurück. Nur zum Lesen [`IAnimationTimeLine`](../../ianimationtimeline).
+Gibt das Animationszeitleistenobjekt zurück. Nur-Lese [`IAnimationTimeLine`](../../ianimationtimeline).
 
 ```csharp
 public IAnimationTimeLine Timeline { get; }

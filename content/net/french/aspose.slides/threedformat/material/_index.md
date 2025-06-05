@@ -1,7 +1,7 @@
 ---
-title: Matériel
+title: Material
 second_title: Référence API Aspose.Slides pour .NET
-description: Retourne ou définit le type d'un matériau. Lecture/écriture MaterialPresetType aspose.slides/materialpresettype.
+description: Renvoie ou définit le type d'un matériau. Lecture/écriture MaterialPresetTypeaspose.slides/materialpresettype.
 type: docs
 weight: 100
 url: /fr/aspose.slides/threedformat/material/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/threedformat/material/
 
 ## Propriété ThreeDFormat.Material
 
-Retourne ou définit le type d'un matériau. Lecture/écriture [`MaterialPresetType`](../../materialpresettype).
+Renvoie ou définit le type d'un matériau. Lecture/écriture [`MaterialPresetType`](../../materialpresettype).
 
 ```csharp
 public MaterialPresetType Material { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [MaterialPresetType](../../materialpresettype)
 * class [ThreeDFormat](../../threedformat)

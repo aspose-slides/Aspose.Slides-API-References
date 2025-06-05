@@ -1,24 +1,24 @@
 ---
-title: Contar
+title: Count
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Obtiene el número de elementos realmente contenidos en la colección. Solo lectura Int32.
+description: Obtiene el número de elementos que realmente contiene la colección. Solo lectura Int32.
 type: docs
 weight: 30
 url: /es/aspose.slides/iparagraphcollection/count/
 ---
 
-## Propiedad IParagraphCollection.Count
+## IParagraphCollection.Count property
 
-Obtiene el número de elementos realmente contenidos en la colección. Solo lectura Int32.
+Obtiene el número de elementos que realmente contiene la colección. Solo lectura Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IParagraphCollection](../../iparagraphcollection)
 * espacio de nombres [Aspose.Slides](../../iparagraphcollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

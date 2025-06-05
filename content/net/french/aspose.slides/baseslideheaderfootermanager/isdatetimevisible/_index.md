@@ -1,7 +1,7 @@
 ---
 title: IsDateTimeVisible
-second_title: Référence API Aspose.Slides pour .NET
-description: Obtient une valeur indiquant qu'un espace réservé de date-heure est présent. ReadBoolean.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Indique si un espace réservé de date-heure est présent. ReadBoolean.
 type: docs
 weight: 10
 url: /fr/aspose.slides/baseslideheaderfootermanager/isdatetimevisible/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/baseslideheaderfootermanager/isdatetimevisible/
 
 ## Propriété BaseSlideHeaderFooterManager.IsDateTimeVisible
 
-Obtient une valeur indiquant qu'un espace réservé de date-heure est présent. ReadBoolean.
+Indique si un espace réservé de date-heure est présent. ReadBoolean.
 
 ```csharp
 public bool IsDateTimeVisible { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [BaseSlideHeaderFooterManager](../../baseslideheaderfootermanager)
 * espace de noms [Aspose.Slides](../../baseslideheaderfootermanager)

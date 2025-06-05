@@ -1,7 +1,7 @@
 ---
 title: IFieldType
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt einen Typ von Feld dar. Dieser Wert bestimmt, welcher Text dem Feldanteil zugewiesen wird, wenn es aktualisiert wird.
+description: Stellt einen Typ von Feld dar. Dieser Wert bestimmt, welcher Text dem Feldteil zugewiesen wird, wenn er aktualisiert wird.
 type: docs
 weight: 5580
 url: /de/aspose.slides/ifieldtype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ifieldtype/
 
 ## IFieldType-Schnittstelle
 
-Stellt einen Typ von Feld dar. Dieser Wert bestimmt, welcher Text dem Feldanteil zugewiesen wird, wenn es aktualisiert wird.
+Stellt einen Typ von Feld dar. Dieser Wert bestimmt, welcher Text dem Feldteil zugewiesen wird, wenn er aktualisiert wird.
 
 ```csharp
 public interface IFieldType

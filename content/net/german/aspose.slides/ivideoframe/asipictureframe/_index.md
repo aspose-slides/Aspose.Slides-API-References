@@ -1,7 +1,7 @@
 ---
 title: AsIPictureFrame
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf die grundlegende IPictureFrame-Schnittstelle. Schreibgeschützte IPictureFrameaspose.slides/ipictureframe.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ermöglicht den Zugriff auf die Basis-Schnittstelle IPictureFrame. Nur-lesbare IPictureFrame aspose.slides/ipictureframe.
 type: docs
 weight: 10
 url: /de/aspose.slides/ivideoframe/asipictureframe/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ivideoframe/asipictureframe/
 
 ## IVideoFrame.AsIPictureFrame-Eigenschaft
 
-Ermöglicht den Zugriff auf die grundlegende IPictureFrame-Schnittstelle. Schreibgeschützte [`IPictureFrame`](../../ipictureframe).
+Ermöglicht den Zugriff auf die Basis-Schnittstelle IPictureFrame. Nur-lesbar [`IPictureFrame`](../../ipictureframe).
 
 ```csharp
 public IPictureFrame AsIPictureFrame { get; }

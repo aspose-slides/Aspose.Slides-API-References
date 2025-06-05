@@ -1,21 +1,21 @@
 ---
 title: ActualX
 second_title: Aspose.Slides для .NET API Справочник
-description: Указывает фактическое значение x в левом положении элемента диаграммы относительно верхнего левого угла диаграммы. Вызовите метод IChart.ValidateChartLayout перед тем, как получить фактические значения. Читайте Single.
+description: Указывает актуальное значение x, расположение слева от элемента диаграммы относительно верхнего левого угла диаграммы. Вызовите метод IChart.ValidateChartLayout перед тем, как получить актуальные значения. Прочитайте Single.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/chartdatapoint/actualx/
 ---
 
-## Свойство ChartDataPoint.ActualX
+## ChartDataPoint.ActualX свойство
 
-Указывает фактическое значение x (левое) элемента диаграммы относительно верхнего левого угла диаграммы. Вызовите метод IChart.ValidateChartLayout() перед тем, как получить фактические значения. Читайте Single.
+Указывает актуальное значение x (слева) элемента диаграммы относительно верхнего левого угла диаграммы. Вызовите метод IChart.ValidateChartLayout() перед тем, как получить актуальные значения. Прочитайте Single.
 
 ```csharp
 public float ActualX { get; }
 ```
 
-### См. также
+### Смотрите Также
 
 * класс [ChartDataPoint](../../chartdatapoint)
 * пространство имен [Aspose.Slides.Charts](../../chartdatapoint)

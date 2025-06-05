@@ -1,7 +1,7 @@
 ---
 title: EncryptionPassword
-second_title: Aspose.Slides für .NET API Referenz
-description: Erhält das Passwort, das für die Präsentationsverschlüsselung verwendet wird. Nur-lesender String.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ruft das Passwort ab, das für die Präsentationsverschlüsselung verwendet wird. Nur lesbarer String.
 type: docs
 weight: 20
 url: /de/aspose.slides/protectionmanager/encryptionpassword/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/protectionmanager/encryptionpassword/
 
 ## ProtectionManager.EncryptionPassword-Eigenschaft
 
-Erhält das Passwort, das für die Präsentationsverschlüsselung verwendet wird. Nur-lesender String.
+Ruft das Passwort ab, das für die Präsentationsverschlüsselung verwendet wird. Nur lesbarer String.
 
 ```csharp
 public string EncryptionPassword { get; }

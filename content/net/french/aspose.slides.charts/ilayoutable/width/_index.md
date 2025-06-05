@@ -1,15 +1,15 @@
 ---
-title: Largeur
+title: Width
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie la largeur de l'élément de graphique en tant que fraction de la largeur du graphique. Lecture/écriture Single.
+description: Spécifie la largeur de l'élément graphique en tant que fraction de la largeur du graphique. Lecture/écriture Single.
 type: docs
 weight: 50
 url: /fr/aspose.slides.charts/ilayoutable/width/
 ---
 
-## Propriété ILayoutable.Width
+## ILayoutable.Width property
 
-Spécifie la largeur de l'élément de graphique en tant que fraction de la largeur du graphique. Lecture/écriture Single.
+Spécifie la largeur de l'élément graphique en tant que fraction de la largeur du graphique. Lecture/écriture Single.
 
 ```csharp
 public float Width { get; set; }

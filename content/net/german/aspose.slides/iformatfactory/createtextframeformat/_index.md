@@ -1,15 +1,15 @@
 ---
 title: CreateTextFrameFormat
-second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt ein neues ITextFrameFormataspose.slides/itextframeformat.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Erstellt neues ITextFrameFormataspose.slides/itextframeformat.
 type: docs
 weight: 30
 url: /de/aspose.slides/iformatfactory/createtextframeformat/
 ---
 
-## IFormatFactory.CreateTextFrameFormat Methode
+## IFormatFactory.CreateTextFrameFormat-Methode
 
-Erstellt ein neues [`ITextFrameFormat`](../../itextframeformat).
+Erstellt neues [`ITextFrameFormat`](../../itextframeformat).
 
 ```csharp
 public ITextFrameFormat CreateTextFrameFormat()
@@ -17,7 +17,7 @@ public ITextFrameFormat CreateTextFrameFormat()
 
 ### Rückgabewert
 
-Neues Textrahmenformat.
+Neues Textfeldformat.
 
 ### Siehe auch
 

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.mathtext/mathradical/hidedegree/
 ---
+
 ## MathRadical.HideDegree property
 
 Hide degree When is true, the degree is not shown, as in √𝑥

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.vba/vbareferencefactory/instance/
 ---
+
 ## VbaReferenceFactory.Instance property
 
 VBA project references factory static instance. Read-only [`VbaReferenceFactory`](../../vbareferencefactory).

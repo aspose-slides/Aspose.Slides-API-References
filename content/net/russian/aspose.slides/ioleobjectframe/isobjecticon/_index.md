@@ -1,21 +1,21 @@
 ---
 title: IsObjectIcon
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, виден ли объект как иконка. Читаемый/записываемый логический тип.
+second_title: Aspose.Slides для .NET API Справочник
+description: Определяет, виден ли объект как иконка. Читаемое/записываемое логическое значение.
 type: docs
 weight: 50
 url: /ru/aspose.slides/ioleobjectframe/isobjecticon/
 ---
 
-## Свойство IOleObjectFrame.IsObjectIcon
+## IOleObjectFrame.IsObjectIcon свойство
 
-Определяет, виден ли объект как иконка. Читаемый/записываемый логический тип.
+Определяет, виден ли объект как иконка. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool IsObjectIcon { get; set; }
 ```
 
-### Также смотри
+### Смотрите также
 
 * интерфейс [IOleObjectFrame](../../ioleobjectframe)
 * пространство имен [Aspose.Slides](../../ioleobjectframe)

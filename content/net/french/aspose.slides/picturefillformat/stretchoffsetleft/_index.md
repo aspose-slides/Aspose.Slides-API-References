@@ -1,7 +1,7 @@
 ---
 title: StretchOffsetLeft
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit le bord gauche du rectangle de remplissage qui est défini par un décalage en pourcentage à partir du bord gauche de la boîte englobante de la forme. Un pourcentage positif spécifie un enfoncement tandis qu'un pourcentage négatif spécifie un débordement. Lecture/écriture Single.
+description: Renvoie ou définit le bord gauche du rectangle de remplissage qui est défini par un décalage en pourcentage par rapport au bord gauche de la boîte englobante de la forme. Un pourcentage positif spécifie un retrait tandis qu'un pourcentage négatif spécifie un débordement. Lecture/écriture Single.
 type: docs
 weight: 90
 url: /fr/aspose.slides/picturefillformat/stretchoffsetleft/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/picturefillformat/stretchoffsetleft/
 
 ## Propriété PictureFillFormat.StretchOffsetLeft
 
-Renvoie ou définit le bord gauche du rectangle de remplissage qui est défini par un décalage en pourcentage à partir du bord gauche de la boîte englobante de la forme. Un pourcentage positif spécifie un enfoncement, tandis qu'un pourcentage négatif spécifie un débordement. Lecture/écriture Single.
+Renvoie ou définit le bord gauche du rectangle de remplissage qui est défini par un décalage en pourcentage par rapport au bord gauche de la boîte englobante de la forme. Un pourcentage positif spécifie un retrait, tandis qu'un pourcentage négatif spécifie un débordement. Lecture/écriture Single.
 
 ```csharp
 public float StretchOffsetLeft { get; set; }

@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/iaxis/minorunitscale/
 public TimeUnitType MinorUnitScale { get; set; }
 ```
 
-### 另见
+### 参见
 
 * 枚举 [TimeUnitType](../../timeunittype)
 * 接口 [IAxis](../../iaxis)

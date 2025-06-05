@@ -1,7 +1,7 @@
 ---
 title: Is3DChart
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne vrai si chartType est l'un des types de graphiques 3D.
+description: Retourne true si chartType est l'un des types de graphiques 3D.
 type: docs
 weight: 30
 url: /fr/aspose.slides.charts/charttypecharacterizer/is3dchart/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/charttypecharacterizer/is3dchart/
 
 ## Méthode ChartTypeCharacterizer.Is3DChart
 
-Retourne vrai si *chartType* est l'un des types de graphiques 3D.
+Retourne true si *chartType* est l'un des types de graphiques 3D.
 
 ```csharp
 public static bool Is3DChart(ChartType chartType)
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

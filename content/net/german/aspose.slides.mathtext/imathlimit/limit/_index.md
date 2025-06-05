@@ -1,7 +1,7 @@
 ---
-title: Grenzwert
-second_title: Aspose.Slides für .NET API-Referenz
-description: Grenzwert-Argument
+title: Limit
+second_title: Aspose.Slides für .NET API Referenz
+description: Limit-Argument
 type: docs
 weight: 30
 url: /de/aspose.slides.mathtext/imathlimit/limit/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathlimit/limit/
 
 ## IMathLimit.Limit-Eigenschaft
 
-Grenzwert-Argument
+Limit-Argument
 
 ```csharp
 public IMathElement Limit { get; }

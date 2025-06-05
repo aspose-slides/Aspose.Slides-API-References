@@ -1,6 +1,6 @@
 ---
-title: 名称
-second_title: Aspose.Slides for .NET API 参考
+title: Name
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回字体方案名称。可读/写字符串。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.theme/fontscheme/name/
 public string Name { get; set; }
 ```
 
-### 另请参见
+### 参见
 
 * class [FontScheme](../../fontscheme)
 * namespace [Aspose.Slides.Theme](../../fontscheme)

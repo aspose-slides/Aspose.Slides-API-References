@@ -1,5 +1,5 @@
 ---
-title: Formato
+title: Format
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa el formato de la línea de tendencia. Lectura/escritura IFormataspose.slides.charts/iformat.
 type: docs
@@ -15,7 +15,7 @@ Representa el formato de la línea de tendencia. Lectura/escritura [`IFormat`](.
 public IFormat Format { get; set; }
 ```
 
-### Ver También
+### Ver también
 
 * interfaz [IFormat](../../iformat)
 * clase [Trendline](../../trendline)

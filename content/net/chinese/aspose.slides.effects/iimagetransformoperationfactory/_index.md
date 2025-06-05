@@ -1,6 +1,6 @@
 ---
 title: IImageTransformOperationFactory
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 允许创建图像效果实例
 type: docs
 weight: 3290
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/iimagetransformoperationfactory/
 
 ## IImageTransformOperationFactory 接口
 
-允许创建图像效果实例
+允许创建图像效果的实例
 
 ```csharp
 public interface IImageTransformOperationFactory
@@ -20,11 +20,11 @@ public interface IImageTransformOperationFactory
 | 名称 | 描述 |
 | --- | --- |
 | [CreateAlphaBiLevel](../../aspose.slides.effects/iimagetransformoperationfactory/createalphabilevel)(float) | 创建 Alpha BiLevel 效果。 |
-| [CreateAlphaFloor](../../aspose.slides.effects/iimagetransformoperationfactory/createalphafloor)() | 创建 Alpha floor 效果。 |
-| [CreateAlphaInverse](../../aspose.slides.effects/iimagetransformoperationfactory/createalphainverse)() | 创建 Alpha inverse 效果。 |
-| [CreateAlphaModulate](../../aspose.slides.effects/iimagetransformoperationfactory/createalphamodulate)() | 创建 Alpha modulate 效果。 |
-| [CreateAlphaModulateFixed](../../aspose.slides.effects/iimagetransformoperationfactory/createalphamodulatefixed)(float) | 创建 Alpha modulate fixed 效果。 |
-| [CreateAlphaReplace](../../aspose.slides.effects/iimagetransformoperationfactory/createalphareplace)(float) | 创建 Alpha replace 效果。 |
+| [CreateAlphaFloor](../../aspose.slides.effects/iimagetransformoperationfactory/createalphafloor)() | 创建 Alpha 地板效果。 |
+| [CreateAlphaInverse](../../aspose.slides.effects/iimagetransformoperationfactory/createalphainverse)() | 创建 Alpha 反转效果。 |
+| [CreateAlphaModulate](../../aspose.slides.effects/iimagetransformoperationfactory/createalphamodulate)() | 创建 Alpha 调制效果。 |
+| [CreateAlphaModulateFixed](../../aspose.slides.effects/iimagetransformoperationfactory/createalphamodulatefixed)(float) | 创建 Alpha 固定调制效果。 |
+| [CreateAlphaReplace](../../aspose.slides.effects/iimagetransformoperationfactory/createalphareplace)(float) | 创建 Alpha 替换效果。 |
 | [CreateAlphCeiling](../../aspose.slides.effects/iimagetransformoperationfactory/createalphceiling)() | 创建 Alpha Ceiling 效果。 |
 | [CreateBiLevel](../../aspose.slides.effects/iimagetransformoperationfactory/createbilevel)(float) | 创建 BiLevel 效果。 |
 | [CreateBlur](../../aspose.slides.effects/iimagetransformoperationfactory/createblur)(double, bool) | 创建模糊效果。 |
@@ -41,7 +41,7 @@ public interface IImageTransformOperationFactory
 
 用于 COM 接口。
 
-### 参见
+### 另见
 
 * 命名空间 [Aspose.Slides.Effects](../../aspose.slides.effects)
 * 程序集 [Aspose.Slides](../../)

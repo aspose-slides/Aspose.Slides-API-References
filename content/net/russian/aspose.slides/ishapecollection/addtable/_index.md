@@ -1,13 +1,13 @@
 ---
 title: AddTable
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Создает новую таблицу и добавляет ее в конец коллекции.
 type: docs
 weight: 170
 url: /ru/aspose.slides/ishapecollection/addtable/
 ---
 
-## Метод IShapeCollection.AddTable
+## IShapeCollection.AddTable метод
 
 Создает новую таблицу и добавляет ее в конец коллекции.
 
@@ -17,16 +17,16 @@ public ITable AddTable(float x, float y, double[] columnWidths, double[] rowHeig
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X-координата для левой стороны рамки фигуры. |
-| y | Single | Y-координата для верхней стороны рамки фигуры. |
-| columnWidths | Double[] | Массив типа double, представляющий ширины столбцов в таблице. |
-| rowHeights | Double[] | Массив типа double, представляющий высоты строк в таблице. |
+| x | Single | Координата X для левой стороны рамки фигуры. |
+| y | Single | Координата Y для верхней стороны рамки фигуры. |
+| columnWidths | Double[] | Массив чисел с плавающей точкой, представляющий ширины колонок в таблице. |
+| rowHeights | Double[] | Массив чисел с плавающей точкой, представляющий высоты строк в таблице. |
 
 ### Возвращаемое значение
 
 Созданный объект таблицы.
 
-### См. также
+### Также смотрите
 
 * интерфейс [ITable](../../itable)
 * интерфейс [IShapeCollection](../../ishapecollection)

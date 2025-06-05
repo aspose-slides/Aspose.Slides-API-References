@@ -1,7 +1,7 @@
 ---
 title: CopyTo
 second_title: Aspose.Slides for .NET API 参考
-description: 将集合中的所有元素复制到指定数组中。
+description: 将集合中的所有元素复制到指定的数组中。
 type: docs
 weight: 70
 url: /zh/aspose.slides/fontfallbackrulescollection/copyto/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/fontfallbackrulescollection/copyto/
 
 ## FontFallBackRulesCollection.CopyTo 方法
 
-将集合中的所有元素复制到指定数组中。
+将集合中的所有元素复制到指定的数组中。
 
 ```csharp
 public void CopyTo(Array array, int index)

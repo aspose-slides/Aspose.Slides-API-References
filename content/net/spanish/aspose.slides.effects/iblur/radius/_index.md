@@ -1,6 +1,6 @@
 ---
-title: Radio
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Radius
+second_title: Referencia de la API Aspose.Slides para .NET
 description: Devuelve o establece el radio de desenfoque. Lectura/escritura Double.
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ Devuelve o establece el radio de desenfoque. Lectura/escritura Double.
 public double Radius { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [IBlur](../../iblur)
 * espacio de nombres [Aspose.Slides.Effects](../../iblur)

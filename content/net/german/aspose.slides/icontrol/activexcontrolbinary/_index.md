@@ -1,7 +1,7 @@
 ---
 title: ActiveXControlBinary
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Persistenz eines ActiveX-Steuerelements an, wenn die Methode zur Persistenz entweder PersistStream, PersistStreamInit oder PersistStorage ist.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Persistenz eines ActiveX-Steuerelements an, wenn die verwendete Methode zur Persistierung entweder PersistStream, PersistStreamInit oder PersistStorage ist.
 type: docs
 weight: 10
 url: /de/aspose.slides/icontrol/activexcontrolbinary/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/icontrol/activexcontrolbinary/
 
 ## IControl.ActiveXControlBinary-Eigenschaft
 
-Gibt die Persistenz eines ActiveX-Steuerelements an, wenn die Methode zur Persistenz entweder PersistStream, PersistStreamInit oder PersistStorage ist.
+Gibt die Persistenz eines ActiveX-Steuerelements an, wenn die verwendete Methode zur Persistierung entweder PersistStream, PersistStreamInit oder PersistStorage ist.
 
 ```csharp
 public byte[] ActiveXControlBinary { get; }

@@ -1,13 +1,13 @@
 ---
 title: BeginArrowheadLength
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Reference
 description: Renvoie ou définit la longueur de la flèche au début d'une ligne. Lecture/écriture LineArrowheadLengthaspose.slides/linearrowheadlength.
 type: docs
 weight: 20
 url: /fr/aspose.slides/lineformat/beginarrowheadlength/
 ---
 
-## Propriété LineFormat.BeginArrowheadLength
+## LineFormat.BeginArrowheadLength propriété
 
 Renvoie ou définit la longueur de la flèche au début d'une ligne. Lecture/écriture [`LineArrowheadLength`](../../linearrowheadlength).
 

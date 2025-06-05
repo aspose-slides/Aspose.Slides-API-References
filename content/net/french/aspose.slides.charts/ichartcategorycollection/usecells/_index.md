@@ -1,15 +1,15 @@
 ---
 title: UseCells
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Si vrai, alors la feuille de calcul est utilisée pour stocker des catégories, ce cas prend en charge des catégories à plusieurs niveaux. Si faux, alors la feuille de calcul n'est PAS utilisée pour stocker des valeurs et ce cas ne prend pas en charge des catégories à plusieurs niveaux. Lecture/écriture Booléen.
+second_title: Référence API Aspose.Slides pour .NET
+description: Si vrai, alors la feuille de calcul est utilisée pour stocker des catégories, ce cas prend en charge des catégories multi-niveaux. Si faux, alors la feuille de calcul n'est PAS utilisée pour stocker des valeurs et ce cas ne prend pas en charge des catégories multi-niveaux. Lecture/écriture Booléen.
 type: docs
 weight: 30
 url: /fr/aspose.slides.charts/ichartcategorycollection/usecells/
 ---
 
-## Propriété IChartCategoryCollection.UseCells
+## IChartCategoryCollection.UseCells propriété
 
-Si vrai, alors la feuille de calcul est utilisée pour stocker des catégories (ce cas prend en charge des catégories à plusieurs niveaux). Si faux, alors la feuille de calcul n'est PAS utilisée pour stocker des valeurs (et ce cas ne prend pas en charge des catégories à plusieurs niveaux). Lecture/écriture Booléen.
+Si vrai, alors la feuille de calcul est utilisée pour stocker des catégories (ce cas prend en charge des catégories multi-niveaux). Si faux, alors la feuille de calcul n'est PAS utilisée pour stocker des valeurs (et ce cas ne prend pas en charge des catégories multi-niveaux). Lecture/écriture Booléen.
 
 ```csharp
 public bool UseCells { get; set; }

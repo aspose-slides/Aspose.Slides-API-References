@@ -7,7 +7,7 @@ weight: 20
 url: /es/aspose.slides/ilinefillformat/filltype/
 ---
 
-## Propiedad ILineFillFormat.FillType
+## ILineFillFormat.FillType property
 
 Devuelve o establece el tipo de relleno. Lectura/escritura [`FillType`](../../filltype).
 
@@ -15,7 +15,7 @@ Devuelve o establece el tipo de relleno. Lectura/escritura [`FillType`](../../fi
 public FillType FillType { get; set; }
 ```
 
-### Vea También
+### Ver también
 
 * enum [FillType](../../filltype)
 * interface [ILineFillFormat](../../ilinefillformat)

@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/ipresentation/defaulttextstyle/
 ---
+
 ## IPresentation.DefaultTextStyle property
 
 Returns default text style for shapes. Read-only [`ITextStyle`](../../itextstyle).

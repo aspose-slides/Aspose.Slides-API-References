@@ -1,25 +1,25 @@
 ---
 title: BubbleSizeScale
-second_title: Aspose.Slides for .NET API 参考
-description: 指定气泡图的缩放因子，可以在默认大小的 0 到 300 百分比之间。这个属性不仅属于该系列，还属于父系列组的所有系列 - 这是相应组属性的投影。因此，该属性是只读的。使用 ParentSeriesGroup 属性访问父系列组。使用 ParentSeriesGroup.BubbleSizeScale 读/写属性更改值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定气泡图的缩放因子，可以在默认大小的0到300百分比之间。这个属性不仅适用于这个系列，还适用于父系列组的所有系列 - 这是相应组属性的投影。因此该属性是只读的。使用 ParentSeriesGroup 属性访问父系列组。使用 ParentSeriesGroup.BubbleSizeScale 可读/可写属性更改值。
 type: docs
 weight: 30
 url: /zh/aspose.slides.charts/chartseries/bubblesizescale/
 ---
 
-## ChartSeries.BubbleSizeScale 属性
+## ChartSeries.BubbleSizeScale property
 
-指定气泡图的缩放因子（可以在默认大小的 0 到 300 百分比之间）。这个属性不仅属于该系列，还属于父系列组的所有系列 - 这是相应组属性的投影。因此，该属性是只读的。使用 ParentSeriesGroup 属性访问父系列组。使用 ParentSeriesGroup.BubbleSizeScale 读/写属性更改值。
+指定气泡图的缩放因子（可以在默认大小的0到300百分比之间）。这个属性不仅适用于这个系列，还适用于父系列组的所有系列 - 这是相应组属性的投影。因此该属性是只读的。使用 ParentSeriesGroup 属性访问父系列组。使用 ParentSeriesGroup.BubbleSizeScale 可读/可写属性更改值。
 
 ```csharp
 public int BubbleSizeScale { get; }
 ```
 
-### 备注
+### Remarks
 
 这是属性 ParentSeriesGroup.BubbleSizeScale 的投影。
 
-### 另见
+### See Also
 
 * class [ChartSeries](../../chartseries)
 * namespace [Aspose.Slides.Charts](../../chartseries)

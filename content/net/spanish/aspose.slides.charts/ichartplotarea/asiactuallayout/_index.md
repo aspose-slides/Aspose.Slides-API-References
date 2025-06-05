@@ -1,6 +1,6 @@
 ---
 title: AsIActualLayout
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API Aspose.Slides para .NET
 description: Devuelve la interfaz IActualLayout.
 type: docs
 weight: 10
@@ -21,9 +21,9 @@ Para compatibilidad con COM.
 
 ### Ver También
 
-* interfaz [IActualLayout](../../iactuallayout)
-* interfaz [IChartPlotArea](../../ichartplotarea)
-* espacio de nombres [Aspose.Slides.Charts](../../ichartplotarea)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IActualLayout](../../iactuallayout)
+* interfaz [IChartPlotArea](../../ichartplotarea)
+* espacio de nombres [Aspose.Slides.Charts](../../ichartplotarea)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -6,6 +6,7 @@ type: docs
 weight: 350
 url: /aspose.slides.animation/behaviorproperty/fillmethod/
 ---
+
 ## BehaviorProperty.FillMethod property
 
 Represents 'fill.method' property

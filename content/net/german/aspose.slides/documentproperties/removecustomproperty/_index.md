@@ -1,7 +1,7 @@
 ---
 title: RemoveCustomProperty
 second_title: Aspose.Slides für .NET API-Referenz
-description: Entfernen Sie eine benutzerdefinierte Eigenschaft, die mit einem bestimmten Namen verknüpft ist.
+description: Entfernen Sie eine benutzerdefinierte Eigenschaft, die mit einem angegebenen Namen verknüpft ist.
 type: docs
 weight: 440
 url: /de/aspose.slides/documentproperties/removecustomproperty/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/documentproperties/removecustomproperty/
 
 ## DocumentProperties.RemoveCustomProperty-Methode
 
-Entfernen Sie eine benutzerdefinierte Eigenschaft, die mit einem bestimmten Namen verknüpft ist.
+Entfernen Sie eine benutzerdefinierte Eigenschaft, die mit einem angegebenen Namen verknüpft ist.
 
 ```csharp
 public bool RemoveCustomProperty(string name)
@@ -21,9 +21,9 @@ public bool RemoveCustomProperty(string name)
 
 ### Rückgabewert
 
-Gibt true zurück, wenn eine Eigenschaft entfernt wurde, andernfalls false.
+Gibt true zurück, wenn eine Eigenschaft entfernt wurde, ansonsten false.
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [DocumentProperties](../../documentproperties)
 * Namespace [Aspose.Slides](../../documentproperties)

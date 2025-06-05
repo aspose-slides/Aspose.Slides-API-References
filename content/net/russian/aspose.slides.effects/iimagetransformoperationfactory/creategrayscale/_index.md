@@ -1,6 +1,6 @@
 ---
 title: CreateGrayScale
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Создает эффект серой шкалы.
 type: docs
 weight: 140

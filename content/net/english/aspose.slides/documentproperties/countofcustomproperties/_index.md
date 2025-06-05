@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/documentproperties/countofcustomproperties/
 ---
+
 ## DocumentProperties.CountOfCustomProperties property
 
 Returns the number of custom properties actually contained in a collection. Read-only Int32.

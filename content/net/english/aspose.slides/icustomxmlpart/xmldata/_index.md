@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/icustomxmlpart/xmldata/
 ---
+
 ## ICustomXmlPart.XmlData property
 
 Returns or sets xml data. Read/write Byte[]. value is `null`.value is empty or xml-data is invalid.

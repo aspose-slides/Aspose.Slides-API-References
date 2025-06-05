@@ -1,7 +1,7 @@
 ---
 title: ShowHiddenSlides
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt an, ob das generierte Dokument versteckte Folien enthalten soll oder nicht. Standard ist false.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt an, ob das generierte Dokument verborgene Folien enthalten soll oder nicht. Standard ist false.
 type: docs
 weight: 80
 url: /de/aspose.slides.export/htmloptions/showhiddenslides/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/htmloptions/showhiddenslides/
 
 ## HtmlOptions.ShowHiddenSlides-Eigenschaft
 
-Gibt an, ob das generierte Dokument versteckte Folien enthalten soll oder nicht. Standard ist `false`.
+Gibt an, ob das generierte Dokument verborgene Folien enthalten soll oder nicht. Standard ist `false`.
 
 ```csharp
 public bool ShowHiddenSlides { get; set; }

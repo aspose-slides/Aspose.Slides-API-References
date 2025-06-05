@@ -1,13 +1,13 @@
 ---
 title: AsIEffectEffectiveData
-second_title: Aspose.Slides para .NET API Referencia
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Permite obtener la interfaz base IEffectEffectiveData. Solo lectura IEffectEffectiveDataaspose.slides.effects/ieffecteffectivedata.
 type: docs
 weight: 10
 url: /es/aspose.slides.effects/ipresetshadoweffectivedata/asieffecteffectivedata/
 ---
 
-## Propiedad IPresetShadowEffectiveData.AsIEffectEffectiveData
+## IPresetShadowEffectiveData.AsIEffectEffectiveData propiedad
 
 Permite obtener la interfaz base IEffectEffectiveData. Solo lectura [`IEffectEffectiveData`](../../ieffecteffectivedata).
 
@@ -15,11 +15,11 @@ Permite obtener la interfaz base IEffectEffectiveData. Solo lectura [`IEffectEff
 public IEffectEffectiveData AsIEffectEffectiveData { get; }
 ```
 
-### Vea También
+### Véase también
 
 * interfaz [IEffectEffectiveData](../../ieffecteffectivedata)
 * interfaz [IPresetShadowEffectiveData](../../ipresetshadoweffectivedata)
 * espacio de nombres [Aspose.Slides.Effects](../../ipresetshadoweffectivedata)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

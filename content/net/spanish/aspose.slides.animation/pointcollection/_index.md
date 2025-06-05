@@ -19,7 +19,7 @@ public class PointCollection : IPointCollection
 
 | Nombre | Descripción |
 | --- | --- |
-| [PointCollection](pointcollection)() | El constructor por defecto. |
+| [PointCollection](pointcollection)() | El constructor predeterminado. |
 
 ## Propiedades
 
@@ -34,7 +34,7 @@ public class PointCollection : IPointCollection
 | --- | --- |
 | [GetEnumerator](../../aspose.slides.animation/pointcollection/getenumerator)() | Devuelve un enumerador que itera a través de la colección. |
 
-### Véase también
+### Véase También
 
 * interfaz [IPointCollection](../ipointcollection)
 * espacio de nombres [Aspose.Slides.Animation](../../aspose.slides.animation)

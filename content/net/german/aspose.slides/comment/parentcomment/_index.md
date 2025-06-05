@@ -1,7 +1,7 @@
 ---
 title: ParentComment
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft den übergeordneten Kommentar ab oder legt ihn fest. Lese-/Schreibzugriff ICommentaspose.slides/icomment.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ruft das übergeordnete Kommentar ab oder legt es fest. Lese-/Schreibzugriff auf ICommentaspose.slides/icomment.
 type: docs
 weight: 30
 url: /de/aspose.slides/comment/parentcomment/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/comment/parentcomment/
 
 ## Comment.ParentComment-Eigenschaft
 
-Ruht den übergeordneten Kommentar ab oder legt ihn fest. Lese-/Schreibzugriff [`IComment`](../../icomment).
+Ruft das übergeordnete Kommentar ab oder legt es fest. Lese-/Schreibzugriff auf [`IComment`](../../icomment).
 
 ```csharp
 public IComment ParentComment { get; set; }
@@ -19,9 +19,9 @@ public IComment ParentComment { get; set; }
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Wird ausgelöst, wenn das Festlegen des Werts zu einer zirkulären Referenz führt |
+| [PptxEditException](../../pptxeditexception) | Wird ausgelöst, wenn das Setzen des Wertes zu einer zirkulären Referenz führt |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IComment](../../icomment)
 * Klasse [Comment](../../comment)

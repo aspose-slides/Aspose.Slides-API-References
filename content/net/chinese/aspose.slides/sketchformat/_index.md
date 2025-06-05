@@ -1,7 +1,7 @@
 ---
 title: SketchFormat
-second_title: Aspose.Sildes for .NET API Reference
-description: 表示线条素描格式的属性。
+second_title: Aspose.Slides for .NET API Reference
+description: 表示线条草图格式的属性。
 type: docs
 weight: 9640
 url: /zh/aspose.slides/sketchformat/
@@ -9,27 +9,27 @@ url: /zh/aspose.slides/sketchformat/
 
 ## SketchFormat class
 
-表示线条素描格式的属性。
+表示线条草图格式的属性。
 
 ```csharp
 public sealed class SketchFormat : PVIObject, ISketchFormat
 ```
 
-## 属性
+## Properties
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本的 IPresentationComponent 接口。只读 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [SketchType](../../aspose.slides/sketchformat/sketchtype) { get; set; } | 返回或设置素描类型。读写 [`LineSketchType`](../linesketchtype)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基础的 IPresentationComponent 接口。只读 [`IPresentationComponent`](../ipresentationcomponent)。 |
+| [SketchType](../../aspose.slides/sketchformat/sketchtype) { get; set; } | 返回或设置草图类型。可读写 [`LineSketchType`](../linesketchtype)。 |
 
-## 方法
+## Methods
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 与指定对象进行比较。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 返回哈希代码。 |
 
-### 另见
+### See Also
 
 * class [PVIObject](../pviobject)
 * interface [ISketchFormat](../isketchformat)

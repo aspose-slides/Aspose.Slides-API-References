@@ -1,15 +1,15 @@
 ---
 title: MarginBottom
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den unteren Rand in einem TextFrame zurück oder setzt ihn. Lese-/Schreibzugriff Double.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt den unteren Rand in einem TextFrame zurück oder setzt ihn. Lese-/schreibbarer Double.
 type: docs
 weight: 110
 url: /de/aspose.slides/icell/marginbottom/
 ---
 
-## ICell.MarginBottom Eigenschaft
+## ICell.MarginBottom-Eigenschaft
 
-Gibt den unteren Rand in einem TextFrame zurück oder setzt ihn. Lese-/Schreibzugriff Double.
+Gibt den unteren Rand in einem TextFrame zurück oder setzt ihn. Lese-/schreibbarer Double.
 
 ```csharp
 public double MarginBottom { get; set; }
@@ -17,7 +17,7 @@ public double MarginBottom { get; set; }
 
 ### Siehe auch
 
-* Interface [ICell](../../icell)
+* Schnittstelle [ICell](../../icell)
 * Namespace [Aspose.Slides](../../icell)
 * Assembly [Aspose.Slides](../../../)
 

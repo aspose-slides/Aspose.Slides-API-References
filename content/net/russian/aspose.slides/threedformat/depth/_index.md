@@ -1,21 +1,21 @@
 ---
-title: Глубина
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает глубину 3D-формы. Читаемая и записываемая Double.
+title: Depth
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или задает глубину 3D-формы. Доступ для чтения/записи Double.
 type: docs
 weight: 60
 url: /ru/aspose.slides/threedformat/depth/
 ---
 
-## Свойство ThreeDFormat.Depth
+## ThreeDFormat.Depth свойство
 
-Возвращает или задает глубину 3D-формы. Читаемая и записываемая Double.
+Возвращает или задает глубину 3D-формы. Доступ для чтения/записи Double.
 
 ```csharp
 public double Depth { get; set; }
 ```
 
-### См. также
+### Смотрите Также
 
 * класс [ThreeDFormat](../../threedformat)
 * пространство имен [Aspose.Slides](../../threedformat)

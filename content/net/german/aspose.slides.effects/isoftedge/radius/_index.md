@@ -1,7 +1,7 @@
 ---
 title: Radius
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Radius der Unschärfe an, die auf die Kanten angewendet werden soll. Lese-/Schreibzugriff Double.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den Radius der Unschärfe an, der auf die Kanten angewendet werden soll. Lese-/Schreibbare Double.
 type: docs
 weight: 30
 url: /de/aspose.slides.effects/isoftedge/radius/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/isoftedge/radius/
 
 ## ISoftEdge.Radius-Eigenschaft
 
-Gibt den Radius der Unschärfe an, die auf die Kanten angewendet werden soll. Lese-/Schreibzugriff Double.
+Gibt den Radius der Unschärfe an, der auf die Kanten angewendet werden soll. Lese-/Schreibbare Double.
 
 ```csharp
 public double Radius { get; set; }

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/chartseriesgroup/chart/
 ---
+
 ## ChartSeriesGroup.Chart property
 
 Returns the parent chart. Read-only [`IChart`](../../ichart).

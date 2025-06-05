@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/ifontfallbackrule/addfallbackfonts/
 ---
+
 ## AddFallBackFonts(string) {#addfallbackfonts}
 
 Adds a new font(s) to the list of FallBack fonts.

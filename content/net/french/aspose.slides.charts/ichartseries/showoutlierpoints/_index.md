@@ -1,21 +1,21 @@
 ---
 title: ShowOutlierPoints
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Représente les points aberrants. Vrai si les points aberrants sont affichés sur le graphique BoxAndWhisker. S'applique uniquement aux graphiques BoxAndWhisker. Lecture/écriture de type Booléen.
+second_title: Aspose.Slides pour .NET Référence API
+description: Représente les points aberrants. Vrai si les points aberrants sont affichés sur le graphique BoxAndWhisker. Ne s'applique qu'aux graphiques BoxAndWhisker. Booléen en lecture/écriture.
 type: docs
 weight: 410
 url: /fr/aspose.slides.charts/ichartseries/showoutlierpoints/
 ---
 
-## Propriété IChartSeries.ShowOutlierPoints
+## IChartSeries.ShowOutlierPoints propriété
 
-Représente les points aberrants. Vrai si les points aberrants sont affichés sur le graphique BoxAndWhisker. S'applique uniquement aux graphiques BoxAndWhisker. Lecture/écriture de type Booléen.
+Représente les points aberrants. Vrai si les points aberrants sont affichés sur le graphique BoxAndWhisker. Ne s'applique qu'aux graphiques BoxAndWhisker. Booléen en lecture/écriture.
 
 ```csharp
 public bool ShowOutlierPoints { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IChartSeries](../../ichartseries)
 * namespace [Aspose.Slides.Charts](../../ichartseries)

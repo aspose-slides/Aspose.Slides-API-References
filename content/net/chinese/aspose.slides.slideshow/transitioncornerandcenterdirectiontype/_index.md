@@ -1,6 +1,6 @@
 ---
 title: TransitionCornerAndCenterDirectionType
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 指定一个限制在角落和中心的方向。
 type: docs
 weight: 10030
@@ -25,7 +25,7 @@ public enum TransitionCornerAndCenterDirectionType
 | RightUp | `3` |  |
 | Center | `4` |  |
 
-### 另见
+### 参见
 
 * 命名空间 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * 程序集 [Aspose.Slides](../../)

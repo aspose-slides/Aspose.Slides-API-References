@@ -1,13 +1,13 @@
 ---
 title: WriteByte
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Escribe un byte en la posición actual del flujo y avanza la posición dentro del flujo en un byte.
 type: docs
 weight: 150
 url: /es/aspose.slides/streamwrapper/writebyte/
 ---
 
-## Método StreamWrapper.WriteByte
+## StreamWrapper.WriteByte método
 
 Escribe un byte en la posición actual del flujo y avanza la posición dentro del flujo en un byte.
 
@@ -21,8 +21,8 @@ public void WriteByte(byte value)
 
 ### Ver También
 
-* clase [StreamWrapper](../../streamwrapper)
-* espacio de nombres [Aspose.Slides](../../streamwrapper)
-* ensamblado [Aspose.Slides](../../../)
+* class [StreamWrapper](../../streamwrapper)
+* namespace [Aspose.Slides](../../streamwrapper)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

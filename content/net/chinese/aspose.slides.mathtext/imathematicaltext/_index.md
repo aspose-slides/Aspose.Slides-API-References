@@ -1,6 +1,6 @@
 ---
 title: IMathematicalText
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 数学文本
 type: docs
 weight: 8250
@@ -19,8 +19,8 @@ public interface IMathematicalText : IMathElement
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathematicaltext/asimathelement) { get; } | 允许获取基础 IMathElement 接口 [`IMathElement`](../imathelement) |
-| [Format](../../aspose.slides.mathtext/imathematicaltext/format) { get; } | 文本格式属性 |
+| [AsIMathElement](../../aspose.slides.mathtext/imathematicaltext/asimathelement) { get; } | 允许获取基接口 IMathElement [`IMathElement`](../imathelement) |
+| [Format](../../aspose.slides.mathtext/imathematicaltext/format) { get; } | 文本格式化属性 |
 | [Value](../../aspose.slides.mathtext/imathematicaltext/value) { get; set; } | 文本值 |
 
 ### 示例
@@ -32,7 +32,7 @@ public interface IMathematicalText : IMathElement
 IMathematicalText mathText = new MathematicalText("x+y");
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IMathElement](../imathelement)
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

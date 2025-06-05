@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ieffectformat/disableblureffect/
 public void DisableBlurEffect()
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IEffectFormat](../../ieffectformat)
 * пространство имен [Aspose.Slides](../../ieffectformat)

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/alphainverse/geteffective/
 ---
+
 ## AlphaInverse.GetEffective method
 
 Gets effective Alpha Inverse effect data with the inheritance applied.

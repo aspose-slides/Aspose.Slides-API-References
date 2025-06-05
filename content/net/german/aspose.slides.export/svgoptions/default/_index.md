@@ -1,7 +1,7 @@
 ---
-title: Standard
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt Standardeinstellungen zurück. Nur lesbare SVGOptionsaspose.slides.export/svgoptions.
+title: Default
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Standardwerte zurück. Nur lesen SVGOptionsaspose.slides.export/svgoptions.
 type: docs
 weight: 20
 url: /de/aspose.slides.export/svgoptions/default/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/svgoptions/default/
 
 ## SVGOptions.Default-Eigenschaft
 
-Gibt Standardeinstellungen zurück. Nur lesbar [`SVGOptions`](../../svgoptions).
+Gibt die Standardwerte zurück. Nur lesen [`SVGOptions`](../../svgoptions).
 
 ```csharp
 public static SVGOptions Default { get; }

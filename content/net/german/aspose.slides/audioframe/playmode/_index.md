@@ -1,7 +1,7 @@
 ---
-title: Wiedergabemodus
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Audio-Wiedergabemodus zurück oder setzt ihn. Lese-/schreibbarer AudioPlayModePresetaspose.slides/audioplaymodepreset.
+title: PlayMode
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt den Audio-Wiedergabemodus zurück oder legt ihn fest. Lese-/schreibbarer AudioPlayModePresetaspose.slides/audioplaymodepreset.
 type: docs
 weight: 130
 url: /de/aspose.slides/audioframe/playmode/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/audioframe/playmode/
 
 ## AudioFrame.PlayMode-Eigenschaft
 
-Gibt den Audio-Wiedergabemodus zurück oder setzt ihn. Lese-/schreibbar [`AudioPlayModePreset`](../../audioplaymodepreset).
+Gibt den Audio-Wiedergabemodus zurück oder legt ihn fest. Lese-/schreibbarer [`AudioPlayModePreset`](../../audioplaymodepreset).
 
 ```csharp
 public AudioPlayModePreset PlayMode { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [AudioPlayModePreset](../../audioplaymodepreset)
 * class [AudioFrame](../../audioframe)

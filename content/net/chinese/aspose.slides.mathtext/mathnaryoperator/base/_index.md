@@ -1,7 +1,7 @@
 ---
-title: 基础
-second_title: Aspose.Slides for .NET API 参考
-description: 基础参数
+title: Base
+second_title: Aspose.Sildes for .NET API Reference
+description: Base argument
 type: docs
 weight: 20
 url: /zh/aspose.slides.mathtext/mathnaryoperator/base/
@@ -17,7 +17,7 @@ public IMathElement Base { get; }
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]

@@ -1,7 +1,7 @@
 ---
 title: SlideSizeScaleType
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt den Skalierungstyp des Inhalts der Folie dar.
+description: Stellt den Skalierungstyp von Folieninhalten dar.
 type: docs
 weight: 10200
 url: /de/aspose.slides/slidesizescaletype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/slidesizescaletype/
 
 ## SlideSizeScaleType Aufzählung
 
-Stellt den Skalierungstyp des Inhalts der Folie dar.
+Stellt den Skalierungstyp von Folieninhalten dar.
 
 ```csharp
 public enum SlideSizeScaleType
@@ -17,11 +17,11 @@ public enum SlideSizeScaleType
 
 ### Werte
 
-| Name         | Wert | Beschreibung                      |
-|--------------|------|-----------------------------------|
-| DoNotScale   | `0`  | Nicht skalieren.                  |
-| EnsureFit    | `1`  | Skalieren, um Anpassung zu gewährleisten. |
-| Maximize     | `2`  | Größe des Inhalts maximieren.     |
+| Name | Wert | Beschreibung |
+| --- | --- | --- |
+| DoNotScale | `0` | Nicht skalieren. |
+| EnsureFit | `1` | Skalieren, um passende Inhalte sicherzustellen. |
+| Maximize | `2` | Größe des Inhalts maximieren. |
 
 ### Siehe auch
 

@@ -1,7 +1,7 @@
 ---
 title: HideSuperscript
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Masquer le script supérieur
+description: Masquer le texte en exposant
 type: docs
 weight: 30
 url: /fr/aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript/
 
 ## Propriété IMathNaryOperatorProperties.HideSuperscript
 
-Masquer le script supérieur
+Masquer le texte en exposant
 
 ```csharp
 public bool HideSuperscript { get; set; }

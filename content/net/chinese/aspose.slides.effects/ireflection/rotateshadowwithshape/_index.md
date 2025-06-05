@@ -1,7 +1,7 @@
 ---
 title: RotateShadowWithShape
-second_title: Aspose.Sildes for .NET API 参考
-description: 指定是否在形状旋转时，反射也随之旋转。可读写布尔值。
+second_title: Aspose.Slides for .NET API Reference
+description: 指定当形状被旋转时，反射是否应与形状一起旋转。可读/可写布尔值。
 type: docs
 weight: 100
 url: /zh/aspose.slides.effects/ireflection/rotateshadowwithshape/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.effects/ireflection/rotateshadowwithshape/
 
 ## IReflection.RotateShadowWithShape 属性
 
-指定是否在形状旋转时，反射也随之旋转。可读写布尔值。
+指定当形状被旋转时，反射是否应与形状一起旋转。可读/可写布尔值。
 
 ```csharp
 public bool RotateShadowWithShape { get; set; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IReflection](../../ireflection)
 * 命名空间 [Aspose.Slides.Effects](../../ireflection)

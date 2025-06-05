@@ -1,24 +1,24 @@
 ---
-title: Comentarios
-second_title: Referencia de API de Aspose.Slides para .NET
-description: El propósito de la firma. Cadena de lectura/escritura.
+title: Comments
+second_title: Aspose.Sildes para .NET Referencia de API
+description: El propósito de la firma. Lectura/escritura String.
 type: docs
 weight: 20
 url: /es/aspose.slides/idigitalsignature/comments/
 ---
 
-## Propiedad IDigitalSignature.Comments
+## IDigitalSignature.Comments propiedad
 
-El propósito de la firma. Cadena de lectura/escritura.
+El propósito de la firma. Lectura/escritura String.
 
 ```csharp
 public string Comments { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IDigitalSignature](../../idigitalsignature)
 * espacio de nombres [Aspose.Slides](../../idigitalsignature)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

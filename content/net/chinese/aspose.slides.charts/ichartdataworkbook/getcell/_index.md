@@ -1,6 +1,6 @@
 ---
-title: 获取单元格
-second_title: Aspose.Slides for .NET API 参考
+title: GetCell
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取可以用于图表系列或类别的单元格
 type: docs
 weight: 40
@@ -25,7 +25,7 @@ public IChartDataCell GetCell(string worksheetName, int row, int column)
 
 单元格对象
 
-### 参见
+### 另见
 
 * 接口 [IChartDataCell](../../ichartdatacell)
 * 接口 [IChartDataWorkbook](../../ichartdataworkbook)
@@ -52,7 +52,7 @@ public IChartDataCell GetCell(int worksheetIndex, int row, int column)
 
 单元格对象
 
-### 参见
+### 另见
 
 * 接口 [IChartDataCell](../../ichartdatacell)
 * 接口 [IChartDataWorkbook](../../ichartdataworkbook)
@@ -78,7 +78,7 @@ public IChartDataCell GetCell(int worksheetIndex, string cellName)
 
 单元格对象
 
-### 参见
+### 另见
 
 * 接口 [IChartDataCell](../../ichartdatacell)
 * 接口 [IChartDataWorkbook](../../ichartdataworkbook)
@@ -105,7 +105,7 @@ public IChartDataCell GetCell(int worksheetIndex, string cellName, object value)
 
 单元格对象
 
-### 参见
+### 另见
 
 * 接口 [IChartDataCell](../../ichartdatacell)
 * 接口 [IChartDataWorkbook](../../ichartdataworkbook)
@@ -133,7 +133,7 @@ public IChartDataCell GetCell(int worksheetIndex, int row, int column, object va
 
 单元格对象
 
-### 参见
+### 另见
 
 * 接口 [IChartDataCell](../../ichartdatacell)
 * 接口 [IChartDataWorkbook](../../ichartdataworkbook)

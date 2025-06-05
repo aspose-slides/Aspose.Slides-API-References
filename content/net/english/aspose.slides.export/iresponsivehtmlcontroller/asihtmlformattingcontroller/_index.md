@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export/iresponsivehtmlcontroller/asihtmlformattingcontroller/
 ---
+
 ## IResponsiveHtmlController.AsIHtmlFormattingController property
 
 Returns IHtmlFormattingController interface.

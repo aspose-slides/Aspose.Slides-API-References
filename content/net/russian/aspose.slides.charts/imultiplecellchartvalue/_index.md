@@ -1,7 +1,7 @@
 ---
 title: IMultipleCellChartValue
 second_title: Aspose.Slides для .NET API Справочник
-description: Представляет коллекцию ячеек графика.
+description: О代表ет коллекцию ячеек графика.
 type: docs
 weight: 2090
 url: /ru/aspose.slides.charts/imultiplecellchartvalue/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/imultiplecellchartvalue/
 
 ## Интерфейс IMultipleCellChartValue
 
-Представляет коллекцию ячеек графика.
+Представляет собой коллекцию ячеек графика.
 
 ```csharp
 public interface IMultipleCellChartValue : IBaseChartValue
@@ -22,7 +22,7 @@ public interface IMultipleCellChartValue : IBaseChartValue
 | [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | Возвращает или задает коллекцию ячеек графика. Чтение/запись [`IChartCellCollection`](../ichartcellcollection). |
 | [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | Позволяет получить базовый интерфейс IBaseChartValue. Только для чтения [`IBaseChartValue`](../ibasechartvalue). |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IBaseChartValue](../ibasechartvalue)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)

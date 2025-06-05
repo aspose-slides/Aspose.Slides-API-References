@@ -1,7 +1,7 @@
 ---
 title: PdfCompliance
 second_title: Aspose.Sildes for .NET API Reference
-description: 定义 PDF 标准合规级别的常量。
+description: 定义PDF标准兼容级别的常量。
 type: docs
 weight: 4130
 url: /zh/aspose.slides.export/pdfcompliance/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/pdfcompliance/
 
 ## PdfCompliance 枚举
 
-定义 PDF 标准合规级别的常量。
+定义PDF标准兼容级别的常量。
 
 ```csharp
 public enum PdfCompliance
@@ -19,19 +19,19 @@ public enum PdfCompliance
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Pdf15 | `0` | 输出文件将符合 PDF 1.5 标准。 |
-| Pdf16 | `1` | 输出文件将符合 PDF 1.6 标准。 |
-| Pdf17 | `2` | 输出文件将符合 PDF 1.7 标准。 |
-| PdfA1b | `3` | 输出文件将符合 PDF/A-1b 标准。 |
-| PdfA1a | `4` | 输出文件将符合 PDF/A-1a 标准。 |
-| PdfA2b | `5` | 输出文件将符合 PDF/A-2b 标准。 |
-| PdfA2a | `6` | 输出文件将符合 PDF/A-2a 标准。 |
-| PdfA3b | `7` | 输出文件将符合 PDF/A-3b 标准。 |
-| PdfA3a | `8` | 输出文件将符合 PDF/A-3a 标准。 |
-| PdfUa | `9` | 输出文件将符合 PDF/UA 标准。 |
-| PdfA2u | `10` | 输出文件将符合 PDF/A-2u 标准。 |
+| Pdf15 | `0` | 输出文件将符合PDF 1.5标准。 |
+| Pdf16 | `1` | 输出文件将符合PDF 1.6标准。 |
+| Pdf17 | `2` | 输出文件将符合PDF 1.7标准。 |
+| PdfA1b | `3` | 输出文件将符合PDF/A-1b标准。 |
+| PdfA1a | `4` | 输出文件将符合PDF/A-1a标准。 |
+| PdfA2b | `5` | 输出文件将符合PDF/A-2b标准。 |
+| PdfA2a | `6` | 输出文件将符合PDF/A-2a标准。 |
+| PdfA3b | `7` | 输出文件将符合PDF/A-3b标准。 |
+| PdfA3a | `8` | 输出文件将符合PDF/A-3a标准。 |
+| PdfUa | `9` | 输出文件将符合PDF/UA标准。 |
+| PdfA2u | `10` | 输出文件将符合PDF/A-2u标准。 |
 
-### 另见
+### 参见
 
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)
 * 程序集 [Aspose.Slides](../../)

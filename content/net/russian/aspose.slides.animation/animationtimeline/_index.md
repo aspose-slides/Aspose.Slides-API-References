@@ -1,6 +1,6 @@
 ---
 title: AnimationTimeLine
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Представляет временную шкалу анимации.
 type: docs
 weight: 50
@@ -19,11 +19,11 @@ public class AnimationTimeLine : DomObject<BaseSlide>, IAnimationTimeLine
 
 | Имя | Описание |
 | --- | --- |
-| [InteractiveSequences](../../aspose.slides.animation/animationtimeline/interactivesequences) { get; } | Возвращает коллекцию интерактивных последовательностей. Эти последовательности могут содержать только эффекты по "щелчку на фигуру" с указанной целевой фигурой. Только для чтения [`ISequenceCollection`](../isequencecollection). |
+| [InteractiveSequences](../../aspose.slides.animation/animationtimeline/interactivesequences) { get; } | Возвращает коллекцию интерактивных последовательностей. Эти последовательности могут содержать только эффекты по "нажатию на фигуру" с указанной целевой фигурой. Только для чтения [`ISequenceCollection`](../isequencecollection). |
 | [MainSequence](../../aspose.slides.animation/animationtimeline/mainsequence) { get; } | Возвращает основную последовательность, которая может содержать только коллекцию основных эффектов. Только для чтения [`ISequence`](../isequence). |
 | [TextAnimationCollection](../../aspose.slides.animation/animationtimeline/textanimationcollection) { get; } | Возвращает коллекцию текстовых анимаций. Только для чтения [`ITextAnimationCollection`](../itextanimationcollection). |
 
-### См. также
+### Смотрите также
 
 * класс [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * класс [BaseSlide](../../aspose.slides/baseslide)

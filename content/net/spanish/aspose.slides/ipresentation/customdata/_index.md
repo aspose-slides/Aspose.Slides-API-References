@@ -15,11 +15,11 @@ Devuelve los datos personalizados de la presentación. Solo lectura [`ICustomDat
 public ICustomData CustomData { get; }
 ```
 
-### Vea También
+### Ver También
 
 * interfaz [ICustomData](../../icustomdata)
 * interfaz [IPresentation](../../ipresentation)
 * espacio de nombres [Aspose.Slides](../../ipresentation)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

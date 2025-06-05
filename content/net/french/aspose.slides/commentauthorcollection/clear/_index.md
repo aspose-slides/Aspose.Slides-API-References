@@ -1,13 +1,13 @@
 ---
-title: Effacer
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Clear
+second_title: Aspose.Sildes pour .NET API Reference
 description: Supprime tous les auteurs d'une collection.
 type: docs
 weight: 60
 url: /fr/aspose.slides/commentauthorcollection/clear/
 ---
 
-## Méthode CommentAuthorCollection.Clear
+## CommentAuthorCollection.Clear method
 
 Supprime tous les auteurs d'une collection.
 
@@ -17,7 +17,7 @@ public void Clear()
 
 ### Voir aussi
 
-* classe [CommentAuthorCollection](../../commentauthorcollection)
+* class [CommentAuthorCollection](../../commentauthorcollection)
 * namespace [Aspose.Slides](../../commentauthorcollection)
 * assembly [Aspose.Slides](../../../)
 

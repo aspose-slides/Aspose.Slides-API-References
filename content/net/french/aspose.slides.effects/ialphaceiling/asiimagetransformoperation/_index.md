@@ -1,7 +1,7 @@
 ---
 title: AsIImageTransformOperation
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Permet d'obtenir l'interface de base IImageTransformOperationEx. Lecture seule IImageTransformOperationaspose.slides.effects/iimagetransformoperation.
+second_title: Aspose.Slides pour .NET Référence API
+description: Permet d'obtenir l'interface de base IImageTransformOperationEx. IImageTransformOperation en lecture seule aspose.slides.effects/iimagetransformoperation.
 type: docs
 weight: 20
 url: /fr/aspose.slides.effects/ialphaceiling/asiimagetransformoperation/

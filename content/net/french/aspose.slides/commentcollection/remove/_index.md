@@ -1,13 +1,13 @@
 ---
-title: Supprimer
-second_title: Référence API Aspose.Slides pour .NET
+title: Remove
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Supprime la première occurrence du commentaire spécifié dans une collection.
 type: docs
 weight: 130
 url: /fr/aspose.slides/commentcollection/remove/
 ---
 
-## Méthode CommentCollection.Remove
+## CommentCollection.Remove méthode
 
 Supprime la première occurrence du commentaire spécifié dans une collection.
 
@@ -26,7 +26,7 @@ public void Remove(IComment comment)
 | ArgumentNullException | Si comment est `null` |
 | [PptxEditException](../../pptxeditexception) | Lancé si le commentaire est déjà supprimé. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IComment](../../icomment)
 * class [CommentCollection](../../commentcollection)

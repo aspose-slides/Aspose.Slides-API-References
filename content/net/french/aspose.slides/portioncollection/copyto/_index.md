@@ -1,7 +1,7 @@
 ---
 title: CopyTo
-second_title: Référence API Aspose.Slides pour .NET
-description: Copie les éléments de l'ICollection dans un tableau en commençant à un index de tableau particulier.
+second_title: Aspose.Sildes pour la référence de l'API .NET
+description: Copie les éléments de l'ICollection dans un tableau en commençant à un index particulier du tableau.
 type: docs
 weight: 70
 url: /fr/aspose.slides/portioncollection/copyto/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/portioncollection/copyto/
 
 ## Méthode PortionCollection.CopyTo
 
-Copie les éléments de l'ICollection dans un tableau, en commençant à un index de tableau particulier.
+Copie les éléments de l'ICollection dans un tableau, en commençant à un index particulier du tableau.
 
 ```csharp
 public void CopyTo(IPortion[] array, int arrayIndex)
@@ -17,16 +17,16 @@ public void CopyTo(IPortion[] array, int arrayIndex)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| array | IPortion[] | Le tableau unidimensionnel qui est la destination des éléments copiés depuis l'ICollection. Le tableau doit avoir un index basé sur zéro. |
+| array | IPortion[] | Le tableau unidimensionnel qui est la destination des éléments copiés de l'ICollection. Le tableau doit avoir un index basé sur zéro. |
 | arrayIndex | Int32 | L'index basé sur zéro dans *array* à partir duquel la copie commence. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | *array* est null. |
+| ArgumentNullException | *array* est nul. |
 | ArgumentOutOfRangeException | *arrayIndex* est inférieur à 0. |
-| ArgumentException | Le nombre d'éléments dans l'ICollection source est supérieur à l'espace disponible de *arrayIndex* jusqu'à la fin du *array* de destination. |
+| ArgumentException | Le nombre d'éléments dans l'ICollection source est supérieur à l'espace disponible de *arrayIndex* à la fin du *array* de destination. |
 
 ### Voir aussi
 

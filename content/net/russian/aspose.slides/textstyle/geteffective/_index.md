@@ -1,15 +1,15 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides для .NET API Reference
-description: Получает данные форматирования эффективного текстового стиля с применением наследования.
+second_title: Aspose.Slides для .NET API Справочник
+description: Получает данные о форматировании эффективного стиля текста с примененным наследованием.
 type: docs
 weight: 20
 url: /ru/aspose.slides/textstyle/geteffective/
 ---
 
-## Метод TextStyle.GetEffective
+## TextStyle.GetEffective метод
 
-Получает данные форматирования эффективного текстового стиля с применением наследования.
+Получает данные о форматировании эффективного стиля текста с примененным наследованием.
 
 ```csharp
 public ITextStyleEffectiveData GetEffective()
@@ -21,7 +21,7 @@ public ITextStyleEffectiveData GetEffective()
 
 ### Примеры
 
-В этом примере показано, как получить некоторые свойства эффективного текстового стиля.
+Этот пример демонстрирует получение некоторых свойств эффективного стиля текста.
 
 ```csharp
 [C#]
@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 }
 ```
 
-### См. также
+### Смотрите Также
 
 * интерфейс [ITextStyleEffectiveData](../../itextstyleeffectivedata)
 * класс [TextStyle](../../textstyle)

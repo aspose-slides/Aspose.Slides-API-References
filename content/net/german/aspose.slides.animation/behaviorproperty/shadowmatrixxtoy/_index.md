@@ -1,7 +1,7 @@
 ---
 title: ShadowMatrixXtoY
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt die Eigenschaft shadow.matrix.xtoy dar
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt die Eigenschaft 'shadow.matrix.xtoy' dar
 type: docs
 weight: 650
 url: /de/aspose.slides.animation/behaviorproperty/shadowmatrixxtoy/

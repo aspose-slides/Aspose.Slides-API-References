@@ -1,7 +1,7 @@
 ---
 title: NormalViewProperties
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt die Eigenschaften der normalen Ansicht dar. Die normale Ansicht besteht aus drei Inhaltsbereichen der Folie selbst, einem seitlichen Inhaltsbereich und einem unteren Inhaltsbereich. Nur lesbar INormalViewPropertiesaspose.slides/inormalviewproperties.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Repräsentiert die Eigenschaften der Normalansicht. Die Normalansicht besteht aus drei Inhaltsbereichen der Folie selbst, einem Seiteninhaltsbereich und einem unteren Inhaltsbereich. Nur Lesezugriff auf INormalViewProperties.
 type: docs
 weight: 30
 url: /de/aspose.slides/viewproperties/normalviewproperties/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/viewproperties/normalviewproperties/
 
 ## ViewProperties.NormalViewProperties-Eigenschaft
 
-Stellt die Eigenschaften der normalen Ansicht dar. Die normale Ansicht besteht aus drei Inhaltsbereichen: der Folie selbst, einem seitlichen Inhaltsbereich und einem unteren Inhaltsbereich. Nur lesbar [`INormalViewProperties`](../../inormalviewproperties).
+Repräsentiert die Eigenschaften der Normalansicht. Die Normalansicht besteht aus drei Inhaltsbereichen: der Folie selbst, einem Seiteninhaltsbereich und einem unteren Inhaltsbereich. Nur Lesezugriff auf [`INormalViewProperties`](../../inormalviewproperties).
 
 ```csharp
 public INormalViewProperties NormalViewProperties { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [INormalViewProperties](../../inormalviewproperties)
 * Klasse [ViewProperties](../../viewproperties)

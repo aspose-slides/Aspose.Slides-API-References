@@ -1,7 +1,7 @@
 ---
 title: ImageTransform
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Sammlung von Bildtransformations-Effekten zurück. Nur lesbar IImageTransformOperationCollectionaspose.slides/../aspose.slides.effects/iimagetransformoperationcollection.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Sammlung von Bildtransformationseffekten zurück. Schreibgeschützte IImageTransformOperationCollectionaspose.slides.effects/iimagetransformoperationcollection.
 type: docs
 weight: 30
 url: /de/aspose.slides/picture/imagetransform/
@@ -9,15 +9,15 @@ url: /de/aspose.slides/picture/imagetransform/
 
 ## Picture.ImageTransform-Eigenschaft
 
-Gibt die Sammlung von Bildtransformations-Effekten zurück. Nur lesbar [`IImageTransformOperationCollection`](../../../aspose.slides.effects/iimagetransformoperationcollection).
+Gibt die Sammlung von Bildtransformationseffekten zurück. Schreibgeschützte [`IImageTransformOperationCollection`](../../../aspose.slides.effects/iimagetransformoperationcollection).
 
 ```csharp
 public IImageTransformOperationCollection ImageTransform { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
-* Interface [IImageTransformOperationCollection](../../../aspose.slides.effects/iimagetransformoperationcollection)
+* Schnittstelle [IImageTransformOperationCollection](../../../aspose.slides.effects/iimagetransformoperationcollection)
 * Klasse [Picture](../../picture)
 * Namespace [Aspose.Slides](../../picture)
 * Assembly [Aspose.Slides](../../../)

@@ -1,7 +1,7 @@
 ---
-title: 上限
-second_title: Aspose.Slides for .NET API 参考
-description: 指定上限或下限
+title: UpperLimit
+second_title: Aspose.Sildes for .NET API 参考
+description: 指定上下限
 type: docs
 weight: 40
 url: /zh/aspose.slides.mathtext/imathlimit/upperlimit/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathlimit/upperlimit/
 
 ## IMathLimit.UpperLimit 属性
 
-指定上限或下限
+指定上下限
 
 ```csharp
 public bool UpperLimit { get; set; }
@@ -17,7 +17,7 @@ public bool UpperLimit { get; set; }
 
 ### 示例
 
-例子：
+示例:
 
 ```csharp
 [C#]
@@ -25,7 +25,7 @@ IMathLimit limitElement = new MathLimit(new MathematicalText("lim"), new Mathema
 limitElement.UpperLimit = false;
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IMathLimit](../../imathlimit)
 * 命名空间 [Aspose.Slides.MathText](../../imathlimit)

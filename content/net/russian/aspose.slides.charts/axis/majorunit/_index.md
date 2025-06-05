@@ -1,21 +1,21 @@
 ---
 title: MajorUnit
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Представляет основные единицы для оси даты или значения. Читаемое/записываемое значение Double.
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет основные единицы для оси даты или значения. Читаемое/записываемое Double.
 type: docs
 weight: 360
 url: /ru/aspose.slides.charts/axis/majorunit/
 ---
 
-## Свойство Axis.MajorUnit
+## Axis.MajorUnit свойство
 
-Представляет основные единицы для оси даты или значения. Читаемое/записываемое значение Double.
+Представляет основные единицы для оси даты или значения. Читаемое/записываемое Double.
 
 ```csharp
 public double MajorUnit { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * класс [Axis](../../axis)
 * пространство имен [Aspose.Slides.Charts](../../axis)

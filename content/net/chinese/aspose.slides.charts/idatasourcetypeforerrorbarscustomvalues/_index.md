@@ -1,15 +1,15 @@
 ---
 title: IDataSourceTypeForErrorBarsCustomValues
-second_title: Aspose.Slides for .NET API Reference
-description: 指定ChartDataPoint.ErrorBarsCustomValues属性列表中的值类型
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定 ChartDataPoint.ErrorBarsCustomValues 属性列表中的值类型
 type: docs
 weight: 1970
 url: /zh/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/
 ---
 
-## IDataSourceTypeForErrorBarsCustomValues接口
+## IDataSourceTypeForErrorBarsCustomValues 接口
 
-指定ChartDataPoint.ErrorBarsCustomValues属性列表中的值类型
+指定 ChartDataPoint.ErrorBarsCustomValues 属性列表中的值类型
 
 ```csharp
 public interface IDataSourceTypeForErrorBarsCustomValues
@@ -19,12 +19,12 @@ public interface IDataSourceTypeForErrorBarsCustomValues
 
 | 名称 | 描述 |
 | --- | --- |
-| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | 指定AsCell或AsLiteralString或AsLiteralDouble属性在数据点XMinus属性对象中是否有效，用于误差棒自定义值。换句话说，它指定ChartDataPoint.ErrorBarsCustomValues.XMinus.Data属性的值类型。读/写 [`DataSourceType`](../datasourcetype)。 |
-| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | 指定AsCell或AsLiteralString或AsLiteralDouble属性在数据点XPlus属性对象中是否有效，用于误差棒自定义值。换句话说，它指定ChartDataPoint.ErrorBarsCustomValues.XPlus.Data属性的值类型。读/写 [`DataSourceType`](../datasourcetype)。 |
-| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | 指定AsCell或AsLiteralString或AsLiteralDouble属性在数据点YMinus属性对象中是否有效，用于误差棒自定义值。换句话说，它指定ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data属性的值类型。读/写 [`DataSourceType`](../datasourcetype)。 |
-| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | 指定AsCell或AsLiteralString或AsLiteralDouble属性在数据点YPlus属性对象中是否有效，用于误差棒自定义值。换句话说，它指定ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data属性的值类型。读/写 [`DataSourceType`](../datasourcetype)。 |
+| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | 指定在数据点 XMinus 属性对象中，AsCell、AsLiteralString 或 AsLiteralDouble 属性是否有效，用于误差条自定义值。换句话说，它指定了 ChartDataPoint.ErrorBarsCustomValues.XMinus.Data 属性的值类型。可读写 [`DataSourceType`](../datasourcetype)。 |
+| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | 指定在数据点 XPlus 属性对象中，AsCell、AsLiteralString 或 AsLiteralDouble 属性是否有效，用于误差条自定义值。换句话说，它指定了 ChartDataPoint.ErrorBarsCustomValues.XPlus.Data 属性的值类型。可读写 [`DataSourceType`](../datasourcetype)。 |
+| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | 指定在数据点 YMinus 属性对象中，AsCell、AsLiteralString 或 AsLiteralDouble 属性是否有效，用于误差条自定义值。换句话说，它指定了 ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data 属性的值类型。可读写 [`DataSourceType`](../datasourcetype)。 |
+| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | 指定在数据点 YPlus 属性对象中，AsCell、AsLiteralString 或 AsLiteralDouble 属性是否有效，用于误差条自定义值。换句话说，它指定了 ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data 属性的值类型。可读写 [`DataSourceType`](../datasourcetype)。 |
 
-### 相关链接
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程序集 [Aspose.Slides](../../)

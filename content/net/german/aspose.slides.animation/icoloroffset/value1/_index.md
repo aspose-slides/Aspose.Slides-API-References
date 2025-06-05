@@ -1,7 +1,7 @@
 ---
-title: Wert1
+title: Value1
 second_title: Aspose.Slides für .NET API-Referenz
-description: Definiert den zweiten Wert des Offsets. Lese-/Schreibzugriff auf Single.
+description: Definiert den zweiten Wert des Versatzes. Lesen/Schreiben Single.
 type: docs
 weight: 20
 url: /de/aspose.slides.animation/icoloroffset/value1/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/icoloroffset/value1/
 
 ## IColorOffset.Value1-Eigenschaft
 
-Definiert den zweiten Wert des Offsets. Lese-/Schreibzugriff auf Single.
+Definiert den zweiten Wert des Versatzes. Lesen/Schreiben Single.
 
 ```csharp
 public float Value1 { get; set; }

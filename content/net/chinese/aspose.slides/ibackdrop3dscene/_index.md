@@ -1,7 +1,7 @@
 ---
 title: IBackdrop3DScene
-second_title: Aspose.Sildes for .NET API 参考
-description: 定义一个平面，在该平面上应用诸如辉光和阴影等效果，与所应用的形状相关。
+second_title: Aspose.Sildes for .NET API Reference
+description: 定义一个平面，在该平面中，效果如光晕和阴影相对于它们所应用的形状进行应用。
 type: docs
 weight: 5060
 url: /zh/aspose.slides/ibackdrop3dscene/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ibackdrop3dscene/
 
 ## IBackdrop3DScene 接口
 
-定义一个平面，在该平面上应用诸如辉光和阴影等效果，与所应用的形状相关。
+定义一个平面，在该平面中，效果如光晕和阴影相对于它们所应用的形状进行应用。
 
 ```csharp
 public interface IBackdrop3DScene
@@ -19,9 +19,9 @@ public interface IBackdrop3DScene
 
 | 名称 | 描述 |
 | --- | --- |
-| [AnchorPoint](../../aspose.slides/ibackdrop3dscene/anchorpoint) { get; set; } | 返回或设置3D空间中的一个点。这个点是锚定背景平面的空间点。3D点由3个浮点值的数组表示，定义X、Y和Z坐标。读写 Single[]. |
-| [NormalVector](../../aspose.slides/ibackdrop3dscene/normalvector) { get; set; } | 返回或设置一个法向量。更精确地说，这个属性定义了一个与背景平面面相垂的向量。向量由3个浮点值的数组表示，定义X、Y和Z坐标。读写 Single[]. |
-| [UpVector](../../aspose.slides/ibackdrop3dscene/upvector) { get; set; } | 返回或设置一个表示“上”的向量。更精确地说，这个属性定义了一个与背景平面面相关的“上”的向量。向量由3个浮点值的数组表示，定义X、Y和Z坐标。读写 Single[]. |
+| [AnchorPoint](../../aspose.slides/ibackdrop3dscene/anchorpoint) { get; set; } | 返回或设置三维空间中的一个点。该点是锚定背景平面的空间点。三维点由一个包含3个浮动值的数组表示，这些浮动值定义了X、Y和Z坐标。可读写 Single[]. |
+| [NormalVector](../../aspose.slides/ibackdrop3dscene/normalvector) { get; set; } | 返回或设置一个法向量。更确切地说，该属性定义一个法向于背景平面面的向量。向量由一个包含3个浮动值的数组表示，这些浮动值定义了X、Y和Z坐标。可读写 Single[]. |
+| [UpVector](../../aspose.slides/ibackdrop3dscene/upvector) { get; set; } | 返回或设置一个表示向上的向量。更确切地说，该属性定义一个表示向上方向的向量，相对于背景平面面的方向。向量由一个包含3个浮动值的数组表示，这些浮动值定义了X、Y和Z坐标。可读写 Single[]. |
 
 ### 另请参阅
 

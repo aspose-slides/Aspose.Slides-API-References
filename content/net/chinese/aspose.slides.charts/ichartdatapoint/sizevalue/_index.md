@@ -1,7 +1,7 @@
 ---
 title: SizeValue
-second_title: Aspose.Sildes for .NET API Reference
-description: 返回图表数据点的大小值。用于树图和太阳图。只读 IDoubleChartValueaspose.slides.charts/idoublechartvalue。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回图表数据点的大小值。用于树图和旭日图。只读 IDoubleChartValue aspose.slides.charts/idoublechartvalue。
 type: docs
 weight: 150
 url: /zh/aspose.slides.charts/ichartdatapoint/sizevalue/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ichartdatapoint/sizevalue/
 
 ## IChartDataPoint.SizeValue 属性
 
-返回图表数据点的大小值。用于树图和太阳图。只读 [`IDoubleChartValue`](../../idoublechartvalue)。
+返回图表数据点的大小值。用于树图和旭日图。只读 [`IDoubleChartValue`](../../idoublechartvalue)。
 
 ```csharp
 public IDoubleChartValue SizeValue { get; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IDoubleChartValue](../../idoublechartvalue)
 * 接口 [IChartDataPoint](../../ichartdatapoint)

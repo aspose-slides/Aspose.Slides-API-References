@@ -1,6 +1,6 @@
 ---
 title: AddImage
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Agregar una imagen a una presentación.
 type: docs
 weight: 20
@@ -9,7 +9,7 @@ url: /es/aspose.slides/iimagecollection/addimage/
 
 ## AddImage(IImage) {#addimage}
 
-Agregar una imagen a una presentación.
+Agrega una imagen a una presentación.
 
 ```csharp
 public IPPImage AddImage(IImage image)
@@ -25,9 +25,9 @@ Imagen agregada.
 
 ### Notas
 
-Este método convierte archivos metafiles WMF/EMF en imágenes raster PNG antes de insertarlas en una presentación.
+Este método convierte archivos metafile WMF/EMF a imagen PNG raster antes de insertarlos en una presentación.
 
-### Véase También
+### Ver También
 
 * interface [IPPImage](../../ippimage)
 * interface [IImage](../../iimage)
@@ -53,7 +53,7 @@ public IPPImage AddImage(MemoryStream stream)
 
 Imagen agregada.
 
-### Véase También
+### Ver También
 
 * interface [IPPImage](../../ippimage)
 * interface [IImageCollection](../../iimagecollection)
@@ -64,7 +64,7 @@ Imagen agregada.
 
 ## AddImage(Stream) {#addimage_6}
 
-Agregar una imagen a una presentación desde un flujo.
+Agrega una imagen a una presentación desde un flujo.
 
 ```csharp
 public IPPImage AddImage(Stream stream)
@@ -80,9 +80,9 @@ Imagen agregada.
 
 ### Notas
 
-Este método puede agregar archivos metafiles WMF/EMF a una presentación sin convertirlos en imágenes raster PNG.
+Este método puede agregar archivos metafile WMF/EMF a una presentación sin convertirlos a imagen PNG raster.
 
-### Véase También
+### Ver También
 
 * interface [IPPImage](../../ippimage)
 * interface [IImageCollection](../../iimagecollection)
@@ -106,9 +106,9 @@ public IPPImage AddImage(Stream stream, LoadingStreamBehavior loadingStreamBehav
 
 ### Valor de Retorno
 
-Imagen agregada [`IPPImage`](../../ippimage).
+Imagen [`IPPImage`](../../ippimage) agregada.
 
-### Véase También
+### Ver También
 
 * interface [IPPImage](../../ippimage)
 * enum [LoadingStreamBehavior](../../loadingstreambehavior)
@@ -120,7 +120,7 @@ Imagen agregada [`IPPImage`](../../ippimage).
 
 ## AddImage(byte[]) {#addimage_3}
 
-Agrega una imagen a una presentación desde un búfer especificado.
+Agrega una imagen a una presentación desde el búfer especificado.
 
 ```csharp
 public IPPImage AddImage(byte[] buffer)
@@ -134,7 +134,7 @@ public IPPImage AddImage(byte[] buffer)
 
 Imagen agregada.
 
-### Véase También
+### Ver También
 
 * interface [IPPImage](../../ippimage)
 * interface [IImageCollection](../../iimagecollection)
@@ -159,7 +159,7 @@ public IPPImage AddImage(IPPImage imageSource)
 
 Imagen agregada.
 
-### Véase También
+### Ver También
 
 * interface [IPPImage](../../ippimage)
 * interface [IImageCollection](../../iimagecollection)
@@ -170,7 +170,7 @@ Imagen agregada.
 
 ## AddImage(ISvgImage) {#addimage_2}
 
-Agregar una imagen a una presentación desde un objeto SVG.
+Agrega una imagen a una presentación desde un objeto SVG.
 
 ```csharp
 public IPPImage AddImage(ISvgImage svgImage)
@@ -188,9 +188,9 @@ Imagen agregada.
 
 | excepción | condición |
 | --- | --- |
-| ArgumentNullException | Se lanza cuando el parámetro svgImage es nulo. |
+| ArgumentNullException | Lanzado cuando el parámetro svgImage es nulo. |
 
-### Véase También
+### Ver También
 
 * interface [IPPImage](../../ippimage)
 * interface [ISvgImage](../../isvgimage)

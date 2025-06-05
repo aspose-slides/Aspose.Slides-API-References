@@ -1,7 +1,7 @@
 ---
 title: CopyTo
 second_title: Aspose.Sildes for .NET API Reference
-description: 将集合中的所有元素复制到指定的数组中。
+description: 将集合中的所有元素复制到指定数组中。
 type: docs
 weight: 60
 url: /zh/aspose.slides.effects/imagetransformocollectioneffectivedata/copyto/

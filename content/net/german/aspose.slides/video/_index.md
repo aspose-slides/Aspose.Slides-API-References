@@ -1,7 +1,7 @@
 ---
 title: Video
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt ein in eine Präsentation eingebettetes Bild dar.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt ein Bild dar, das in eine Präsentation eingebettet ist.
 type: docs
 weight: 11390
 url: /de/aspose.slides/video/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/video/
 
 ## Video-Klasse
 
-Stellt ein in eine Präsentation eingebettetes Bild dar.
+Stellt ein Bild dar, das in eine Präsentation eingebettet ist.
 
 ```csharp
 public class Video : IVideo
@@ -19,8 +19,8 @@ public class Video : IVideo
 
 | Name | Beschreibung |
 | --- | --- |
-| [BinaryData](../../aspose.slides/video/binarydata) { get; } | Gibt eine Kopie der Audiodaten zurück. Bei einer großen Menge an Daten sollte die Verwendung der Methode [`GetStream`](./getstream) in Betracht gezogen werden, um das unnötige Laden der Videodaten in den Speicher oder sogar eine OutOfMemoryException zu verhindern. Nur-Lesen Byte[]. |
-| [ContentType](../../aspose.slides/video/contenttype) { get; } | Gibt einen MIME-Typ eines Videos zurück, der in [`BinaryData`](./binarydata) kodiert ist. Nur-Lesen String. |
+| [BinaryData](../../aspose.slides/video/binarydata) { get; } | Gibt eine Kopie der Audiodaten zurück. Bei großen Datenmengen ziehen Sie in Betracht, die Methode [`GetStream`](./getstream) zu verwenden, um unnötiges Laden der Videodaten in den Speicher oder sogar OutOfMemoryException zu verhindern. Nur lesbarer Byte[]. |
+| [ContentType](../../aspose.slides/video/contenttype) { get; } | Gibt einen MIME-Typ eines Videos zurück, das in [`BinaryData`](./binarydata) kodiert ist. Nur lesbarer String. |
 
 ## Methoden
 
@@ -28,7 +28,7 @@ public class Video : IVideo
 | --- | --- |
 | [GetStream](../../aspose.slides/video/getstream)() | Gibt einen Stream zum Lesen zurück. Verwenden Sie 'using' oder schließen Sie den Stream nach der Verwendung. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IVideo](../ivideo)
 * Namespace [Aspose.Slides](../../aspose.slides)

@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/shapeframe/x/
 ---
+
 ## ShapeFrame.X property
 
 Returns the X coordinate of the upper-left corner of a frame. Read-only Single.

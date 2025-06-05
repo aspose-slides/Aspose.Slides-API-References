@@ -1,7 +1,7 @@
 ---
 title: HyperlinkMouseOver
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den für Mouseover definierten Hyperlink zurück oder setzt ihn. Lese-/Schreibzugriff auf IHyperlinkaspose.slides/ihyperlink.
+description: Gibt den für den Mouseover definierten Hyperlink zurück oder setzt ihn. Lese-/Schreibzugriff auf IHyperlinkaspose.slides/ihyperlink.
 type: docs
 weight: 50
 url: /de/aspose.slides/portionformat/hyperlinkmouseover/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/portionformat/hyperlinkmouseover/
 
 ## PortionFormat.HyperlinkMouseOver-Eigenschaft
 
-Gibt den für Mouseover definierten Hyperlink zurück oder setzt ihn. Lese-/Schreibzugriff auf [`IHyperlink`](../../ihyperlink).
+Gibt den für den Mouseover definierten Hyperlink zurück oder setzt ihn. Lese-/Schreibzugriff auf [`IHyperlink`](../../ihyperlink).
 
 ```csharp
 public IHyperlink HyperlinkMouseOver { get; set; }

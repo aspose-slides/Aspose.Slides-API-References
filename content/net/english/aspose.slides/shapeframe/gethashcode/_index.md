@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides/shapeframe/gethashcode/
 ---
+
 ## ShapeFrame.GetHashCode method
 
 Returns a hash code for this object.

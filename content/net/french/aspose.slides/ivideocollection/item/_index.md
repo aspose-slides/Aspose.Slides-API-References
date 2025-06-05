@@ -1,15 +1,15 @@
 ---
-title: Éléments
-second_title: Référence API Aspose.Slides pour .NET
-description: Obtient l'élément à l'index spécifié. En lecture seule IVideoaspose.slides/ivideo.
+title: Item
+second_title: Aspose.Slides pour .NET Référence API
+description: Obtient l'élément à l'index spécifié. Lecture seule IVideoaspose.slides/ivideo.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ivideocollection/item/
 ---
 
-## Indexeur IVideoCollection
+## IVideoCollection indexeur
 
-Obtient l'élément à l'index spécifié. En lecture seule [`IVideo`](../../ivideo).
+Obtient l'élément à l'index spécifié. Lecture seule [`IVideo`](../../ivideo).
 
 ```csharp
 public IVideo this[int index] { get; }

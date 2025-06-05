@@ -1,7 +1,7 @@
 ---
 title: IPieSplitCustomPointCollection
-second_title: Справочник API Aspose.Slides для .NET
-description: Представляет собой коллекцию точек, которые должны быть нарисованы на втором круге или столбце в диаграмме "круг в круге" или "столбец в круге" с произвольным разделением.
+second_title: Aspose.Slides для .NET API Reference
+description: Представляет собой коллекцию точек, которые будут отображаться во втором пироге или столбце на графике "столбец из пирогов" или "пирог из пирогов" с пользовательским разделением.
 type: docs
 weight: 2110
 url: /ru/aspose.slides.charts/ipiesplitcustompointcollection/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/ipiesplitcustompointcollection/
 
 ## Интерфейс IPieSplitCustomPointCollection
 
-Представляет собой коллекцию точек, которые должны быть нарисованы на втором круге или столбце в диаграмме "круг в круге" или "столбец в круге" с произвольным разделением.
+Представляет собой коллекцию точек, которые будут отображаться во втором пироге или столбце на графике "столбец из пирогов" или "пирог из пирогов" с пользовательским разделением.
 
 ```csharp
 public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
@@ -17,14 +17,14 @@ public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.charts/ipiesplitcustompointcollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. |
-| [Item](../../aspose.slides.charts/ipiesplitcustompointcollection/item) { get; } | Возвращает точку данных диаграммы по индексу. |
+| [Item](../../aspose.slides.charts/ipiesplitcustompointcollection/item) { get; } | Возвращает точку данных графика по индексу. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | Добавляет точку данных по ее индексу в коллекции точек родительской серии. |
 | [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | Удаляет элемент из коллекции по его индексу в коллекции точек родительской серии. |

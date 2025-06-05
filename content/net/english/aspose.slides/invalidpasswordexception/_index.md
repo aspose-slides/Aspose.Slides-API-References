@@ -3,9 +3,10 @@ title: InvalidPasswordException
 second_title: Aspose.Sildes for .NET API Reference
 description: Exception which thrown when presentation file format is unsupported.
 type: docs
-weight: 7060
+weight: 7380
 url: /aspose.slides/invalidpasswordexception/
 ---
+
 ## InvalidPasswordException class
 
 Exception which thrown when presentation file format is unsupported.

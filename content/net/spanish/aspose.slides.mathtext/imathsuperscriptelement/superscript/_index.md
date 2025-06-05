@@ -1,15 +1,15 @@
 ---
-title: Superíndice
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Superíndice
+title: Superscript
+second_title: Aspose.Slides para .NET API Reference
+description: Superscript
 type: docs
 weight: 30
 url: /es/aspose.slides.mathtext/imathsuperscriptelement/superscript/
 ---
 
-## Propiedad IMathSuperscriptElement.Superscript
+## IMathSuperscriptElement.Superscript property
 
-Superíndice
+Superscript
 
 ```csharp
 public IMathElement Superscript { get; }

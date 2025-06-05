@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/geometryshape/setgeometrypath/
 ---
+
 ## GeometryShape.SetGeometryPath method
 
 Updates shape geometry from [`IGeometryPath`](../../igeometrypath) object. Coordinates must be relative to the left top corner of the shape. Changes the type of the shape ([`ShapeType`](../shapetype)) to Custom.

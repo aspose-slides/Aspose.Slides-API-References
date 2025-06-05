@@ -1,6 +1,6 @@
 ---
 title: DrawSlidesFrame
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API d'Aspose.Slides pour .NET
 description: Vrai pour dessiner un cadre noir autour de chaque diapositive. Lecture/écriture Booléen.
 type: docs
 weight: 70
@@ -17,9 +17,9 @@ public bool DrawSlidesFrame { get; set; }
 
 ### Remarques
 
-La valeur par défaut est **false**.
+Par défaut, c'est **faux**.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IPdfOptions](../../ipdfoptions)
 * namespace [Aspose.Slides.Export](../../ipdfoptions)

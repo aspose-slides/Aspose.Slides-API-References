@@ -1,15 +1,15 @@
 ---
-title: Wert
+title: Value
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft den Wert ab oder legt ihn fest, der mit den Werttypen Fest, Prozentsatz und Standardabweichung verwendet wird, um die Länge der Fehlerbalken zu bestimmen. Lese-/Schreibzugriff auf Single.
+description: Ruft den Wert ab oder legt ihn fest, der zusammen mit den Werttypen Fixed Percentage und StandardDeviation verwendet wird, um die Länge der Fehlermargen zu bestimmen. Schreib-/Lesezugriff auf Single.
 type: docs
 weight: 60
 url: /de/aspose.slides.charts/ierrorbarsformat/value/
 ---
 
-## IErrorBarsFormat.Value-Eigenschaft
+## IErrorBarsFormat.Value property
 
-Ruft den Wert ab oder legt ihn fest, der mit den Werttypen Fest, Prozentsatz und Standardabweichung verwendet wird, um die Länge der Fehlerbalken zu bestimmen. Lese-/Schreibzugriff auf Single.
+Ruht den Wert ab oder legt ihn fest, der zusammen mit den Werttypen Fixed, Percentage und StandardDeviation verwendet wird, um die Länge der Fehlermargen zu bestimmen. Schreib-/Lesezugriff auf Single.
 
 ```csharp
 public float Value { get; set; }

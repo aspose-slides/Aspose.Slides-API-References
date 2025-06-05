@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/imoderncomment/textselectionstart/
 ---
+
 ## IModernComment.TextSelectionStart property
 
 Returns or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write Int32.

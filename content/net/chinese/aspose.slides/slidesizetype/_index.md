@@ -1,7 +1,7 @@
 ---
 title: SlideSizeType
-second_title: Aspose.Slides for .NET API 参考
-description: 表示幻灯片尺寸预设。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示幻灯片大小预设。
 type: docs
 weight: 10210
 url: /zh/aspose.slides/slidesizetype/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/slidesizetype/
 
 ## SlideSizeType 枚举
 
-表示幻灯片尺寸预设。
+表示幻灯片大小预设。
 
 ```csharp
 public enum SlideSizeType
@@ -23,10 +23,10 @@ public enum SlideSizeType
 | LetterPaper | `1` | 信纸 |
 | A4Paper | `2` | A4 |
 | Slide35mm | `3` | 幻灯片 35mm |
-| Overhead | `4` | 透明投影 |
+| Overhead | `4` | 幕布 |
 | Banner | `5` | 横幅 |
-| Custom | `6` | 自定义尺寸 |
-| Ledger | `7` | 财务报表 |
+| Custom | `6` | 自定义大小 |
+| Ledger | `7` | 簿 |
 | A3Paper | `8` | A3 |
 | B4IsoPaper | `9` | B4 ISO |
 | B5IsoPaper | `10` | B5 ISO |
@@ -37,7 +37,7 @@ public enum SlideSizeType
 | OnScreen16x10 | `15` | 屏幕 16x10 |
 | Widescreen | `16` | 宽屏 |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

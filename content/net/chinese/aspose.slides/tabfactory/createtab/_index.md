@@ -1,13 +1,13 @@
 ---
 title: CreateTab
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建一个新的 ITab 实例。
 type: docs
 weight: 20
 url: /zh/aspose.slides/tabfactory/createtab/
 ---
 
-## TabFactory.CreateTab 方法
+## TabFactory.CreateTab method
 
 创建一个新的 ITab 实例。
 
@@ -17,14 +17,14 @@ public ITab CreateTab(double position, TabAlignment align)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| position | Double | 制表符位置。 |
+| position | Double | 标签位置。 |
 | align | TabAlignment | 对齐方式。 |
 
 ### 返回值
 
-创建的制表符。
+创建的标签。
 
-### 参见
+### 另请参阅
 
 * 接口 [ITab](../../itab)
 * 枚举 [TabAlignment](../../tabalignment)

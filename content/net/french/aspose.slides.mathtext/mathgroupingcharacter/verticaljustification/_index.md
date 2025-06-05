@@ -1,15 +1,15 @@
 ---
 title: VerticalJustification
-second_title: Référence API Aspose.Slides pour .NET
-description: Justification verticale du caractère de groupe. Spécifie l'alignement de l'objet par rapport à la ligne de base. Par exemple, lorsque le caractère de groupe est au-dessus de l'objet, VerticalJustification de Top signifie que le haut de l'objet tombe sur la ligne de base ; lorsque VerticalJustification est défini sur Bottom, le bas de l'objet est sur la ligne de base. Par défaut  Bottom pour Position=Top, et Top pour Position=Bottom.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Justification verticale du caractère de groupe. Spécifie l'alignement de l'objet par rapport à la ligne de base. Par exemple, lorsque le caractère de groupe est au-dessus de l'objet, VerticalJustification de Haut signifie que le haut de l'objet tombe sur la ligne de base ; lorsque VerticalJustification est défini sur Bas, le bas de l'objet est sur la ligne de base. Par défaut  Bas pour Position=Haut, et Haut pour Position=Bas
 type: docs
 weight: 50
 url: /fr/aspose.slides.mathtext/mathgroupingcharacter/verticaljustification/
 ---
 
-## Propriété MathGroupingCharacter.VerticalJustification
+## MathGroupingCharacter.VerticalJustification property
 
-Justification verticale du caractère de groupe. Spécifie l'alignement de l'objet par rapport à la ligne de base. Par exemple, lorsque le caractère de groupe est au-dessus de l'objet, VerticalJustification de Top signifie que le haut de l'objet tombe sur la ligne de base ; lorsque VerticalJustification est défini sur Bottom, le bas de l'objet est sur la ligne de base. Par défaut : Bottom pour Position=Top, et Top pour Position=Bottom.
+Justification verticale du caractère de groupe. Spécifie l'alignement de l'objet par rapport à la ligne de base. Par exemple, lorsque le caractère de groupe est au-dessus de l'objet, VerticalJustification de Haut signifie que le haut de l'objet tombe sur la ligne de base ; lorsque VerticalJustification est défini sur Bas, le bas de l'objet est sur la ligne de base. Par défaut : Bas pour Position=Haut, et Haut pour Position=Bas
 
 ```csharp
 public MathTopBotPositions VerticalJustification { get; set; }
@@ -25,7 +25,7 @@ MathGroupingCharacter groupingCharacter = new MathGroupingCharacter(new Mathemat
 groupingCharacter.VerticalJustification = MathTopBotPositions.Top;
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [MathTopBotPositions](../../mathtopbotpositions)
 * class [MathGroupingCharacter](../../mathgroupingcharacter)

@@ -1,21 +1,21 @@
 ---
-title: À
-second_title: Référence API Aspose.Slides pour .NET
-description: Décrit la valeur finale de l'animation. Lecture/écriture Single.
+title: To
+second_title: Aspose.Sildes pour .NET API Référence
+description: Décrit la valeur finale pour l'animation. Lecture/écriture Simple.
 type: docs
 weight: 40
 url: /fr/aspose.slides.animation/irotationeffect/to/
 ---
 
-## Propriété IRotationEffect.To
+## IRotationEffect.To propriété
 
-Décrit la valeur finale de l'animation. Lecture/écriture Single.
+Décrit la valeur finale pour l'animation. Lecture/écriture Simple.
 
 ```csharp
 public float To { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IRotationEffect](../../irotationeffect)
 * namespace [Aspose.Slides.Animation](../../irotationeffect)

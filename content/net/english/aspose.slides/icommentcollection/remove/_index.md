@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/icommentcollection/remove/
 ---
+
 ## ICommentCollection.Remove method
 
 Removes the first occurrence of the specified comment in a collection.

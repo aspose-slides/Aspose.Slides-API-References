@@ -1,6 +1,6 @@
 ---
 title: IsSynchronized
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie une valeur indiquant si l'accès à la collection est synchronisé et sécurisé pour les threads. Booléen en lecture seule.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ Renvoie une valeur indiquant si l'accès à la collection est synchronisé (séc
 public bool IsSynchronized { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [RowCollection](../../rowcollection)
 * espace de noms [Aspose.Slides](../../rowcollection)

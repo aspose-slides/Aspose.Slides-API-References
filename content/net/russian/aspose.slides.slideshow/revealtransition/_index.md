@@ -1,15 +1,15 @@
 ---
 title: RevealTransition
 second_title: Aspose.Sildes для .NET API Справочник
-description: Эффект перехода слайда Reveal.
+description: Эффект перехода слайдов Reveal.
 type: docs
 weight: 9970
 url: /ru/aspose.slides.slideshow/revealtransition/
 ---
 
-## Класс RevealTransition
+## RevealTransition класс
 
-Эффект перехода слайда Reveal.
+Эффект перехода слайдов Reveal.
 
 ```csharp
 public class RevealTransition : TransitionValueBase, IRevealTransition
@@ -17,17 +17,17 @@ public class RevealTransition : TransitionValueBase, IRevealTransition
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/revealtransition/direction) { get; set; } | Направление перехода. Чтение/запись [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
-| [ThroughBlack](../../aspose.slides.slideshow/revealtransition/throughblack) { get; set; } | Указывает, заходит ли переход через черный. Чтение/запись Boolean. |
+| [ThroughBlack](../../aspose.slides.slideshow/revealtransition/throughblack) { get; set; } | Указывает, исчезает ли переход через черный цвет. Чтение/запись Boolean. |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит в качестве хэш-функции для данного типа, подходит для использования в хэш-алгоритмах и структурах данных, таких как хэш-таблица. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Выполняет функцию хэширования для определенного типа, подходящую для использования в хэш-алгоритмах и структурах данных, таких как хэш-таблица. |
 
 ### См. также
 

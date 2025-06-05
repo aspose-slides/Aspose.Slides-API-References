@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
-second_title: Aspose.Sildes for .NET API 参考
-description: 移除集合中指定索引处的项目。
+second_title: Aspose.Sildes for .NET API Reference
+description: 删除集合中指定索引处的项。
 type: docs
 weight: 100
 url: /zh/aspose.slides.mathtext/imathblockcollection/removeat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathblockcollection/removeat/
 
 ## IMathBlockCollection.RemoveAt 方法
 
-移除集合中指定索引处的项目。
+删除集合中指定索引处的项。
 
 ```csharp
 public void RemoveAt(int index)
@@ -17,11 +17,11 @@ public void RemoveAt(int index)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 要移除的项目的零基索引。 |
+| index | Int32 | 要删除的项的零基索引。 |
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -31,7 +31,7 @@ blockCollection.Add(block);
 blockCollection.RemoveAt(0);
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IMathBlockCollection](../../imathblockcollection)
 * 命名空间 [Aspose.Slides.MathText](../../imathblockcollection)

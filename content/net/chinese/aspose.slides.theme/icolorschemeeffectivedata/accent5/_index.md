@@ -15,7 +15,7 @@ url: /zh/aspose.slides.theme/icolorschemeeffectivedata/accent5/
 public Color Accent5 { get; }
 ```
 
-### 参见
+### 见也
 
 * 接口 [IColorSchemeEffectiveData](../../icolorschemeeffectivedata)
 * 命名空间 [Aspose.Slides.Theme](../../icolorschemeeffectivedata)

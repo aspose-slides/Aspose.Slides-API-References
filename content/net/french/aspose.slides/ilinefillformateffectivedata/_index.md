@@ -1,7 +1,7 @@
 ---
 title: ILineFillFormatEffectiveData
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Objet immuable contenant les propriétés de remplissage de ligne effectives.
+second_title: Aspose.Sildes pour .NET API Reference
+description: Objet immuable qui contient des propriétés de remplissage de ligne effectives.
 type: docs
 weight: 6100
 url: /fr/aspose.slides/ilinefillformateffectivedata/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ilinefillformateffectivedata/
 
 ## Interface ILineFillFormatEffectiveData
 
-Objet immuable contenant les propriétés de remplissage de ligne effectives.
+Objet immuable qui contient des propriétés de remplissage de ligne effectives.
 
 ```csharp
 public interface ILineFillFormatEffectiveData : IFillParamSource
@@ -19,16 +19,16 @@ public interface ILineFillFormatEffectiveData : IFillParamSource
 
 | Nom | Description |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ilinefillformateffectivedata/asifillparamsource) { get; } | Renvoie l'interface IFillParamSource. Lecture seule [`IFillParamSource`](../ifillparamsource). |
-| [FillType](../../aspose.slides/ilinefillformateffectivedata/filltype) { get; } | Renvoie le type de remplissage. Lecture seule [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | Renvoie le format de remplissage dégradé. Lecture seule [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
-| [PatternFormat](../../aspose.slides/ilinefillformateffectivedata/patternformat) { get; } | Renvoie le format de remplissage en motif. Lecture seule [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
-| [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | Détermine si le remplissage doit être tourné avec une forme. Boolean en lecture seule. |
-| [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | Renvoie la couleur d'un remplissage solide. Couleur en lecture seule. |
+| [AsIFillParamSource](../../aspose.slides/ilinefillformateffectivedata/asifillparamsource) { get; } | Retourne l'interface IFillParamSource. Lecture seule [`IFillParamSource`](../ifillparamsource). |
+| [FillType](../../aspose.slides/ilinefillformateffectivedata/filltype) { get; } | Retourne le type de remplissage. Lecture seule [`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | Retourne le format de remplissage dégradé. Lecture seule [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
+| [PatternFormat](../../aspose.slides/ilinefillformateffectivedata/patternformat) { get; } | Retourne le format de remplissage par motifs. Lecture seule [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
+| [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | Détermine si le remplissage doit être tourné avec une forme. Booléen en lecture seule. |
+| [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | Retourne la couleur d'un remplissage solide. Couleur en lecture seule. |
 
 ### Remarques
 
-Cette interface est utilisée comme partie de [`ILineFormatEffectiveData`](../ilineformateffectivedata).
+Cette interface est utilisée dans le cadre de [`ILineFormatEffectiveData`](../ilineformateffectivedata).
 
 ### Voir Aussi
 

@@ -1,23 +1,23 @@
 ---
-title: Diseño
+title: Layout
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Obtiene el diseño de las Secciones de Zoom Resumen en el marco. El valor predeterminado es GridLayout.
+description: Obtiene el diseño de las secciones de resumen de Zoom en el marco. El valor predeterminado es GridLayout.
 type: docs
 weight: 20
 url: /es/aspose.slides/isummaryzoomframe/layout/
 ---
 
-## Propiedad ISummaryZoomFrame.Layout
+## ISummaryZoomFrame.Layout property
 
-Obtiene el diseño de las Secciones de Zoom Resumen en el marco. El valor predeterminado es GridLayout.
+Obtiene el diseño de las secciones de Resumen Zoom en el marco. El valor predeterminado es GridLayout.
 
 ```csharp
 public ZoomLayout Layout { get; }
 ```
 
-### Ejemplos
+### Examples
 
-El ejemplo demuestra cómo obtener el elemento de la Sección de Zoom Resumen por índice:
+El ejemplo demuestra cómo obtener el elemento de sección de Resumen Zoom por índice:
 
 ```csharp
 [C#]
@@ -28,7 +28,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Véase También
+### See Also
 
 * enum [ZoomLayout](../../zoomlayout)
 * interface [ISummaryZoomFrame](../../isummaryzoomframe)

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.slideshow/glittertransition/pattern/
 ---
+
 ## GlitterTransition.Pattern property
 
 Specifies the shape of the visuals used during the transition. Read/write [`TransitionPattern`](../../transitionpattern).

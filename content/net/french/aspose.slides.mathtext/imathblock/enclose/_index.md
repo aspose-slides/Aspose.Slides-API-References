@@ -1,7 +1,7 @@
 ---
-title: Enclore
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Enclore les éléments enfants de ce bloc dans des caractères spécifiés tels que des parenthèses ou d'autres comme encadrement et les délimiter avec un caractère de séparateur.
+title: Enclose
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Enclot les éléments enfants de ce bloc dans des caractères spécifiés tels que des parenthèses ou un autre comme encadrement et délimite avec un caractère séparateur
 type: docs
 weight: 40
 url: /fr/aspose.slides.mathtext/imathblock/enclose/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/imathblock/enclose/
 
 ## IMathBlock.Enclose méthode
 
-Enclore les éléments enfants de ce bloc dans des caractères spécifiés tels que des parenthèses ou d'autres comme encadrement et les délimiter avec un caractère de séparateur.
+Enclot les éléments enfants de ce bloc dans des caractères spécifiés tels que des parenthèses ou un autre comme encadrement et délimite avec un caractère séparateur
 
 ```csharp
 public IMathDelimiter Enclose(char beginningCharacter, char endingCharacter, 
@@ -18,17 +18,17 @@ public IMathDelimiter Enclose(char beginningCharacter, char endingCharacter,
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| beginningCharacter | Char | Caractère d'ouverture (généralement la parenthèse gauche) |
-| endingCharacter | Char | Caractère de fermeture (généralement la parenthèse droite) |
-| separatorCharacter | Char | Caractère de séparateur |
+| beginningCharacter | Char | Caractère de début (généralement crochet gauche) |
+| endingCharacter | Char | Caractère de fin (généralement crochet droit) |
+| separatorCharacter | Char | Caractère séparateur |
 
-### Valeur de retour
+### Valeur de Retour
 
-L'élément mathématique de type [`IMathDelimiter`](../../imathdelimiter) qui inclut les caractères spécifiés comme encadrement et délimiteur.
+L'élément mathématique de type [`IMathDelimiter`](../../imathdelimiter) qui inclut les caractères spécifiés comme encadrement et délimiteur
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -36,7 +36,7 @@ IMathBlock mathBlock = new MathematicalText("x").Join("y");
 IMathDelimiter delimiterElement = mathBlock.Enclose('{', '}', '%');
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathDelimiter](../../imathdelimiter)
 * interface [IMathBlock](../../imathblock)

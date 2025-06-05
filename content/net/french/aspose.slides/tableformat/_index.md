@@ -1,7 +1,7 @@
 ---
 title: TableFormat
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente le format d'un tableau.
+description: Représente le format d'une table.
 type: docs
 weight: 10560
 url: /fr/aspose.slides/tableformat/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/tableformat/
 
 ## Classe TableFormat
 
-Représente le format d'un tableau.
+Représente le format d'une table.
 
 ```csharp
 public sealed class TableFormat : DomObject<Table>, ITableFormat
@@ -19,14 +19,14 @@ public sealed class TableFormat : DomObject<Table>, ITableFormat
 
 | Nom | Description |
 | --- | --- |
-| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | Renvoie un objet de propriétés de remplissage de tableau. Lecture seule [`IFillFormat`](../ifillformat). |
+| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | Retourne un objet de propriétés de remplissage de table. Lecture seule [`IFillFormat`](../ifillformat). |
 | [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | Obtient ou définit la transparence de la couleur de remplissage. Lecture/écriture Single. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [GetEffective](../../aspose.slides/tableformat/geteffective)() | Obtient les propriétés de formatage de tableau effectives avec héritage et styles de tableau appliqués. |
+| [GetEffective](../../aspose.slides/tableformat/geteffective)() | Obtient les propriétés de formatage de table effectives avec héritage et styles de table appliqués. |
 
 ### Voir aussi
 

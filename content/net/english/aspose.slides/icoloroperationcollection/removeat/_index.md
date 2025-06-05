@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/icoloroperationcollection/removeat/
 ---
+
 ## IColorOperationCollection.RemoveAt method
 
 Removes the color operation from a collection.

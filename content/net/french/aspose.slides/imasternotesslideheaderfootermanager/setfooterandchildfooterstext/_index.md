@@ -1,7 +1,7 @@
 ---
 title: SetFooterAndChildFootersText
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Définit le texte de l'espace réservé du pied de page de la diapositive de notes maître et de tous les espaces réservés de pied de page enfants. Les espaces réservés enfants signifient que les espaces réservés sont contenus dans les diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maître.
+second_title: Aspose.Slides pour .NET API Référence
+description: Définit le texte pour le zone de pied de page des notes maîtres et toutes les zones de pied de page enfants. Les zones de pied de page enfants signifient que les zones de texte sont contenues dans les diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maîtres.
 type: docs
 weight: 40
 url: /fr/aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfoo
 
 ## IMasterNotesSlideHeaderFooterManager.SetFooterAndChildFootersText méthode
 
-Définit le texte de l'espace réservé du pied de page de la diapositive de notes maître et de tous les espaces réservés de pied de page enfants. Les espaces réservés enfants signifient que les espaces réservés sont contenus dans les diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maître.
+Définit le texte pour la zone de pied de page de la diapositive de notes maîtres et toutes les zones de pied de page enfants. Les zones de pied de page enfants signifient que les zones de texte sont contenues dans les diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maîtres.
 
 ```csharp
 public void SetFooterAndChildFootersText(string text)

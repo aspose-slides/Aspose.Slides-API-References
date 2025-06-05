@@ -7,7 +7,7 @@ weight: 30
 url: /fr/aspose.slides/baseslideheaderfootermanager/isslidenumbervisible/
 ---
 
-## Propriété BaseSlideHeaderFooterManager.IsSlideNumberVisible
+## BaseSlideHeaderFooterManager.IsSlideNumberVisible propriété
 
 Obtient une valeur indiquant qu'un espace réservé pour le numéro de page est présent. ReadBoolean.
 

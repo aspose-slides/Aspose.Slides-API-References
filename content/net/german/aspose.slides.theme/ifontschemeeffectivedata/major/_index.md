@@ -1,7 +1,7 @@
 ---
 title: Major
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Schriftartenkollektion für einen "Überschrift"-Teil der Folie zurück. Nur-Lese IFontsEffectiveDataaspose.slides/ifontseffectivedata.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Schriftartenkollektion für einen "Überschrift"-Teil der Folie zurück. Nur-Lese IFontsEffectiveDataaspose.slides/../aspose.slides/ifontseffectivedata.
 type: docs
 weight: 10
 url: /de/aspose.slides.theme/ifontschemeeffectivedata/major/
@@ -15,7 +15,7 @@ Gibt die Schriftartenkollektion für einen "Überschrift"-Teil der Folie zurück
 public IFontsEffectiveData Major { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IFontsEffectiveData](../../../aspose.slides/ifontseffectivedata)
 * Schnittstelle [IFontSchemeEffectiveData](../../ifontschemeeffectivedata)

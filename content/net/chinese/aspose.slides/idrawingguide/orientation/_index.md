@@ -1,6 +1,6 @@
 ---
-title: 方向
-second_title: Aspose.Slides for .NET API 参考
+title: Orientation
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回或设置绘图指南的方向。可读/写 Orientationaspose.slides/orientation。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/idrawingguide/orientation/
 public Orientation Orientation { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 枚举 [Orientation](../../orientation)
 * 接口 [IDrawingGuide](../../idrawingguide)

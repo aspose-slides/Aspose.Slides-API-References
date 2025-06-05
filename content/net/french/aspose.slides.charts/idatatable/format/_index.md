@@ -1,7 +1,7 @@
 ---
 title: Format
-second_title: Référence API Aspose.Sildes pour .NET
-description: Renvoie les styles de remplissage et d'effet de ligne d'un objet. En lecture seule IFormataspose.slides.charts/iformat.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Renvoie les styles de contour, de remplissage et d'effet d'un objet. Lecture seule IFormataspose.slides.charts/iformat.
 type: docs
 weight: 20
 url: /fr/aspose.slides.charts/idatatable/format/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/idatatable/format/
 
 ## Propriété IDataTable.Format
 
-Renvoie les styles de ligne, de remplissage et d'effet d'un objet. En lecture seule [`IFormat`](../../iformat).
+Renvoie les styles de contour, de remplissage et d'effet d'un objet. Lecture seule [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; }

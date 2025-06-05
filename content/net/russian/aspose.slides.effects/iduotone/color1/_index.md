@@ -7,7 +7,7 @@ weight: 30
 url: /ru/aspose.slides.effects/iduotone/color1/
 ---
 
-## Свойство IDuotone.Color1
+## IDuotone.Color1 свойство
 
 Возвращает целевой цветовой формат для темных пикселей. Только для чтения [`IColorFormat`](../../../aspose.slides/icolorformat).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.effects/iduotone/color1/
 public IColorFormat Color1 { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IColorFormat](../../../aspose.slides/icolorformat)
 * интерфейс [IDuotone](../../iduotone)

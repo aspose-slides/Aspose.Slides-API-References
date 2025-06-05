@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/itrendline/trendlinename/
 
 ## ITrendline.TrendlineName-Eigenschaft
 
-Ruht den Namen der Trendlinie ab oder legt ihn fest. Lese-/Schreibzeichenfolge.
+Ruft den Namen der Trendlinie ab oder legt ihn fest. Lese-/Schreibzeichenfolge.
 
 ```csharp
 public string TrendlineName { get; set; }

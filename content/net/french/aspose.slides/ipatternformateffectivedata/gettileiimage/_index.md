@@ -1,15 +1,15 @@
 ---
 title: GetTileIImage
-second_title: Référence API Aspose.Slides pour .NET
-description: Crée une image de tuiles pour le remplissage de motif avec des couleurs spécifiées.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Crée une image de tuile pour le remplissage par motif avec des couleurs spécifiées.
 type: docs
 weight: 40
 url: /fr/aspose.slides/ipatternformateffectivedata/gettileiimage/
 ---
 
-## Méthode IPatternFormatEffectiveData.GetTileIImage
+## IPatternFormatEffectiveData.GetTileIImage méthode
 
-Crée une image de tuiles pour le remplissage de motif avec des couleurs spécifiées.
+Crée une image de tuile pour le remplissage par motif avec des couleurs spécifiées.
 
 ```csharp
 public IImage GetTileIImage(Color background, Color foreground)

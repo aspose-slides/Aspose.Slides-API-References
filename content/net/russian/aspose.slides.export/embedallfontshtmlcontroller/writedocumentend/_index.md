@@ -1,15 +1,15 @@
 ---
 title: WriteDocumentEnd
-second_title: Aspose.Slides для .NET Справочник по API
-description: Вызывается для записи нижнего колонтитула html-документа. Вызывается один раз на каждую конверсию презентации.
+second_title: Aspose.Sildes для .NET API Reference
+description: Вызывается для записи подвала html-документа. Вызывается один раз для каждой конверсии презентации.
 type: docs
 weight: 30
 url: /ru/aspose.slides.export/embedallfontshtmlcontroller/writedocumentend/
 ---
 
-## Метод EmbedAllFontsHtmlController.WriteDocumentEnd
+## EmbedAllFontsHtmlController.WriteDocumentEnd метод
 
-Вызывается для записи нижнего колонтитула html-документа. Вызывается один раз на каждую конверсию презентации.
+Вызывается для записи подвала html-документа. Вызывается один раз для каждой конверсии презентации.
 
 ```csharp
 public virtual void WriteDocumentEnd(IHtmlGenerator generator, IPresentation presentation)
@@ -20,7 +20,7 @@ public virtual void WriteDocumentEnd(IHtmlGenerator generator, IPresentation pre
 | generator | IHtmlGenerator | Объект вывода. |
 | presentation | IPresentation | Презентация, которая в данный момент отображается. |
 
-### Также смотри
+### Также см.
 
 * интерфейс [IHtmlGenerator](../../ihtmlgenerator)
 * интерфейс [IPresentation](../../../aspose.slides/ipresentation)

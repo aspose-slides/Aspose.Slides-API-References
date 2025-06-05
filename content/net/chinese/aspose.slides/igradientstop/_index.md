@@ -1,6 +1,6 @@
 ---
 title: IGradientStop
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示渐变格式。
 type: docs
 weight: 5820
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/igradientstop/
 
 ## IGradientStop 接口
 
-表示一个渐变格式。
+表示渐变格式。
 
 ```csharp
 public interface IGradientStop
@@ -20,9 +20,9 @@ public interface IGradientStop
 | 名称 | 描述 |
 | --- | --- |
 | [Color](../../aspose.slides/igradientstop/color) { get; } | 返回渐变停止的颜色。只读 [`IColorFormat`](../icolorformat)。 |
-| [Position](../../aspose.slides/igradientstop/position) { get; set; } | 返回或设置渐变停止的位置 (0..1)。可读写单一数值。 |
+| [Position](../../aspose.slides/igradientstop/position) { get; set; } | 返回或设置渐变停止的位置 (0..1)。可读写 Single。 |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

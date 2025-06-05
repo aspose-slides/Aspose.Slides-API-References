@@ -1,7 +1,7 @@
 ---
 title: Modules
-second_title: Référence API Aspose.Slides pour .NET
-description: Retourne la liste de tous les modules contenus dans le projet VBA. Lecture seule IVbaModuleCollectionaspose.slides.vba/ivbamodulecollection.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Renvoie la liste de tous les modules contenus dans le projet VBA. Collection IVbaModuleCollection en lecture seule aspose.slides.vba/ivbamodulecollection.
 type: docs
 weight: 20
 url: /fr/aspose.slides.vba/ivbaproject/modules/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.vba/ivbaproject/modules/
 
 ## Propriété IVbaProject.Modules
 
-Retourne la liste de tous les modules contenus dans le projet VBA. Lecture seule [`IVbaModuleCollection`](../../ivbamodulecollection).
+Renvoie la liste de tous les modules contenus dans le projet VBA. Collection [`IVbaModuleCollection`](../../ivbamodulecollection) en lecture seule.
 
 ```csharp
 public IVbaModuleCollection Modules { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IVbaModuleCollection](../../ivbamodulecollection)
 * interface [IVbaProject](../../ivbaproject)

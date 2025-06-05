@@ -3,9 +3,10 @@ title: Password
 second_title: Aspose.Sildes for .NET API Reference
 description: Setting user password to protect the PDF document. Read/write String.
 type: docs
-weight: 130
+weight: 140
 url: /aspose.slides.export/pdfoptions/password/
 ---
+
 ## PdfOptions.Password property
 
 Setting user password to protect the PDF document. Read/write String.

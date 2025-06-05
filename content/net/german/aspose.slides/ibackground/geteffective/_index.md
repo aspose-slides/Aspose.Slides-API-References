@@ -19,7 +19,7 @@ public IBackgroundEffectiveData GetEffective()
 
 Ein [`IBackgroundEffectiveData`](../../ibackgroundeffectivedata).
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IBackgroundEffectiveData](../../ibackgroundeffectivedata)
 * Schnittstelle [IBackground](../../ibackground)

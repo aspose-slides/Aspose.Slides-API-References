@@ -1,13 +1,13 @@
 ---
 title: DefaultDelay
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Obtiene o establece el tiempo de retraso predeterminado en ms. Este valor se utilizará si AdvanceAfterTimeaspose.slides/islideshowtransition/advanceaftertime no está establecido. El valor predeterminado es 1000.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Obtiene o establece el tiempo de retraso predeterminado en ms. Este valor se utilizará si AdvanceAfterTime no está establecido. El valor predeterminado es 1000.
 type: docs
 weight: 20
 url: /es/aspose.slides.export/gifoptions/defaultdelay/
 ---
 
-## Propiedad GifOptions.DefaultDelay
+## GifOptions.DefaultDelay propiedad
 
 Obtiene o establece el tiempo de retraso predeterminado [ms]. Este valor se utilizará si [`AdvanceAfterTime`](../../../aspose.slides/islideshowtransition/advanceaftertime) no está establecido. El valor predeterminado es 1000.
 

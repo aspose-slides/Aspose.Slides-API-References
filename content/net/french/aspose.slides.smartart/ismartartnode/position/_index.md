@@ -1,7 +1,7 @@
 ---
 title: Position
 second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit la position à base zéro du nœud parmi les nœuds frères. Lecture/écriture Int32.
+description: Renvoie ou définit la position basée sur zéro du nœud parmi les nœuds frères. Lecture/écriture Int32.
 type: docs
 weight: 70
 url: /fr/aspose.slides.smartart/ismartartnode/position/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.smartart/ismartartnode/position/
 
 ## Propriété ISmartArtNode.Position
 
-Renvoie ou définit la position à base zéro du nœud parmi les nœuds frères. Lecture/écriture Int32.
+Renvoie ou définit la position basée sur zéro du nœud parmi les nœuds frères. Lecture/écriture Int32.
 
 ```csharp
 public int Position { get; set; }
@@ -19,7 +19,7 @@ public int Position { get; set; }
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | La valeur est inférieure à 0. -ou- la valeur est égale ou supérieure à la quantité de frères. |
+| ArgumentOutOfRangeException | La valeur est inférieure à 0. -ou- la valeur est égale ou supérieure au nombre de frères. |
 
 ### Voir aussi
 

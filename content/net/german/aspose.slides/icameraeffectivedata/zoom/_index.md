@@ -1,7 +1,7 @@
 ---
 title: Zoom
 second_title: Aspose.Slides für .NET API Referenz
-description: Kamera-Zoom positiver Wert in Prozent. Nur lesend Single.
+description: Kamerazoom positiver Wert in Prozent. Nur-Lese Single.
 type: docs
 weight: 30
 url: /de/aspose.slides/icameraeffectivedata/zoom/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/icameraeffectivedata/zoom/
 
 ## ICameraEffectiveData.Zoom-Eigenschaft
 
-Kamera-Zoom (positiver Wert in Prozent). Nur lesend Single.
+Kamerazoom (positiver Wert in Prozent). Nur-Lese Single.
 
 ```csharp
 public float Zoom { get; }

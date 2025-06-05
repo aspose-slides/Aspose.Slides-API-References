@@ -20,5 +20,3 @@ public float AngleValue { get; set; }
 * clase [AdjustValue](../../adjustvalue)
 * espacio de nombres [Aspose.Slides](../../adjustvalue)
 * ensamblado [Aspose.Slides](../../../)
-
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

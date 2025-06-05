@@ -1,7 +1,7 @@
 ---
-title: Diagrammtitel
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt einen Diagrammtitel zurück oder legt ihn fest. Nur-Lese IChartTitleaspose.slides/icharttitle.
+title: ChartTitle
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt einen Diagrammtitel zurück oder legt ihn fest. Schreibgeschützt IChartTitleaspose.slides.charts/icharttitle.
 type: docs
 weight: 70
 url: /de/aspose.slides.charts/chart/charttitle/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chart/charttitle/
 
 ## Chart.ChartTitle-Eigenschaft
 
-Gibt einen Diagrammtitel zurück oder legt ihn fest. Nur-Lese [`IChartTitle`](../../icharttitle).
+Gibt einen Diagrammtitel zurück oder legt ihn fest. Schreibgeschützt [`IChartTitle`](../../icharttitle).
 
 ```csharp
 public IChartTitle ChartTitle { get; }

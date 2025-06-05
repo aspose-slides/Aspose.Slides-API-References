@@ -1,7 +1,7 @@
 ---
 title: SetAllFootersText
-second_title: Aspose.Slides для .NET API Справочник
-description: Устанавливает текст во все заполнители нижних колонтитулов, включая мастер-слайды, слайды макетов и слайды.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Устанавливает текст для всех заполнителей нижнего колонтитула, включая макеты слайдов и слайды.
 type: docs
 weight: 40
 url: /ru/aspose.slides/ipresentationheaderfootermanager/setallfooterstext/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ipresentationheaderfootermanager/setallfooterstext/
 
 ## IPresentationHeaderFooterManager.SetAllFootersText метод
 
-Устанавливает текст во все заполнители нижних колонтитулов, включая мастер-слайды, слайды макетов и слайды.
+Устанавливает текст для всех заполнителей нижнего колонтитула, включая главные слайды, макеты слайдов и слайды.
 
 ```csharp
 public void SetAllFootersText(string text)
@@ -19,7 +19,7 @@ public void SetAllFootersText(string text)
 | --- | --- | --- |
 | text | String | Текст для установки. |
 
-### Смотрите Также
+### См. также
 
 * интерфейс [IPresentationHeaderFooterManager](../../ipresentationheaderfootermanager)
 * пространство имен [Aspose.Slides](../../ipresentationheaderfootermanager)

@@ -1,7 +1,7 @@
 ---
-title: Hinzufügen
-second_title: Aspose.Slides für .NET API-Referenz
-description: Fügt der Präsentation eine neue Layout-Folie hinzu.
+title: Add
+second_title: Aspose.Sildes for .NET API Reference
+description: Fügt eine neue Layoutfolie zur Präsentation hinzu.
 type: docs
 weight: 10
 url: /de/aspose.slides/globallayoutslidecollection/add/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/globallayoutslidecollection/add/
 
 ## GlobalLayoutSlideCollection.Add-Methode
 
-Fügt der Präsentation eine neue Layout-Folie hinzu.
+Fügt eine neue Layoutfolie zur Präsentation hinzu.
 
 ```csharp
 public ILayoutSlide Add(IMasterSlide master, SlideLayoutType layoutType, string layoutName)
@@ -17,9 +17,9 @@ public ILayoutSlide Add(IMasterSlide master, SlideLayoutType layoutType, string 
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| master | IMasterSlide | Master-Folie für ein neues Layout. |
-| layoutType | SlideLayoutType | Layout-Typ für ein neues Layout. Unterstützte Layout-Typen: Title, TitleOnly, Blank, TitleAndObject, VerticalText, VerticalTitleAndText, TwoObjects, SectionHeader, TwoTextAndTwoObjects, TitleObjectAndCaption, PictureAndCaption, Custom. Andere Layout-Typen werden momentan nicht unterstützt: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
-| layoutName | String | Name für ein neues Layout. Wenn der übergebene Name bereits in Benutzung ist, wird eine ArgumentException ausgelöst. Wenn der Parameter null übergeben wird, wird der Name automatisch in Bezug auf den übergebenen Layout-Typ generiert (zum Beispiel "Titel-Folie" oder "1_Titel-Folie", "2_..", usw.). |
+| master | IMasterSlide | Masterfolie für ein neues Layout. |
+| layoutType | SlideLayoutType | Layouttyp für ein neues Layout. Unterstützte Layouttypen: Title, TitleOnly, Blank, TitleAndObject, VerticalText, VerticalTitleAndText, TwoObjects, SectionHeader, TwoTextAndTwoObjects, TitleObjectAndCaption, PictureAndCaption, Custom. Andere Layouttypen werden derzeit nicht unterstützt: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
+| layoutName | String | Name für ein neues Layout. Wenn der übergebene Name bereits verwendet wird, wird eine ArgumentException ausgelöst. Wenn ein null-Parameter übergeben wird, wird der Name automatisch in Bezug auf den übergebenen Layouttyp generiert (zum Beispiel "Title Slide" oder "1_Title Slide", "2_..", usw.). |
 
 ### Rückgabewert
 
@@ -29,20 +29,20 @@ Hinzugefügte Folie.
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| NotImplementedException | Wird ausgelöst, wenn ein nicht unterstützter Wert für den Parameter *layoutType* übergeben wird. Layout-Typen, die momentan nicht unterstützt werden: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
+| NotImplementedException | Wird ausgelöst, wenn ein nicht unterstützter Wert des Parameters *layoutType* übergeben wird. Nicht unterstützte Layouttypen sind derzeit: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
 | ArgumentNullException | Wird ausgelöst, wenn *master* null ist. |
 | ArgumentException | Wird ausgelöst, wenn *master* zu einer anderen Präsentation gehört. |
 | ArgumentException | Wird ausgelöst, wenn der Wert des Layoutnamens *layoutName* bereits in der Sammlung der Layouts von *master* verwendet wird. |
 
-### Anmerkungen
+### Hinweise
 
-1) Das hinzugefügte Layout für den Wert SlideLayoutType.Custom von *layoutType* enthält keine Platzhalter und keine Formen. 2) Das Pendant zu dieser Methode ist die Methode [`Add`](../../imasterlayoutslidecollection/add), die über die [`LayoutSlides`](../../imasterslide/layoutslides) -Eigenschaft aufgerufen wird.
+1) Das hinzugefügte Layout für den Wert SlideLayoutType.Custom von *layoutType* enthält keine Platzhalter und keine Formen. 2) Das Äquivalent dieser Methode ist die Methode [`Add`](../../imasterlayoutslidecollection/add), die über die Eigenschaft [`LayoutSlides`](../../imasterslide/layoutslides) aufgerufen wird.
 
 ### Siehe auch
 
 * Schnittstelle [ILayoutSlide](../../ilayoutslide)
 * Schnittstelle [IMasterSlide](../../imasterslide)
-* Aufzählung [SlideLayoutType](../../slidelayouttype)
+* enum [SlideLayoutType](../../slidelayouttype)
 * Klasse [GlobalLayoutSlideCollection](../../globallayoutslidecollection)
 * Namensraum [Aspose.Slides](../../globallayoutslidecollection)
 * Assembly [Aspose.Slides](../../../)

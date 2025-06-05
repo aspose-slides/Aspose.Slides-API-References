@@ -1,15 +1,15 @@
 ---
-title: PositionVerrouillée
-second_title: Référence API Aspose.Slides pour .NET
-description: Détermine si le déplacement de cette forme est interdit. Booléen en lecture/écriture.
+title: PositionLocked
+second_title: Aspose.Sildes pour .NET Référence API
+description: Détermine si le mouvement de cette forme est interdit. Valeur booléenne en lecture/écriture.
 type: docs
 weight: 70
 url: /fr/aspose.slides/pictureframelock/positionlocked/
 ---
 
-## Propriété PictureFrameLock.PositionLocked
+## PictureFrameLock.PositionLocked propriété
 
-Détermine si le déplacement de cette forme est interdit. Booléen en lecture/écriture.
+Détermine si le mouvement de cette forme est interdit. Valeur booléenne en lecture/écriture.
 
 ```csharp
 public bool PositionLocked { get; set; }

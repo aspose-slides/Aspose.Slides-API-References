@@ -1,6 +1,6 @@
 ---
 title: IsUnderflowBin
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Especifica si se aplica el contenedor de subdesbordamiento. Utilice IsAutomaticUnderflowBin y UnderflowBin para ajustar el valor del contenedor de subdesbordamiento.
 type: docs
 weight: 300
@@ -19,6 +19,6 @@ public bool IsUnderflowBin { get; set; }
 
 * clase [Axis](../../axis)
 * espacio de nombres [Aspose.Slides.Charts](../../axis)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

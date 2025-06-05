@@ -1,6 +1,6 @@
 ---
 title: WYSIWYG
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает настройки для наиболее точной генерации SVG файлов. Только для чтения SVGOptionsaspose.slides.export/svgoptions.
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export/svgoptions/wysiwyg/
 public static SVGOptions WYSIWYG { get; }
 ```
 
-### Также смотри
+### См. Также
 
 * класс [SVGOptions](../../svgoptions)
 * пространство имен [Aspose.Slides.Export](../../svgoptions)

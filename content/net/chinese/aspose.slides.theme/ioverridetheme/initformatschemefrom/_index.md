@@ -1,7 +1,7 @@
 ---
 title: InitFormatSchemeFrom
-second_title: Aspose.Slides for .NET API 参考
-description: 用新对象初始化格式方案以覆盖继承主题的格式方案。
+second_title: Aspose.Sildes for .NET API Reference
+description: 用新对象初始化格式方案以重写继承主题的格式方案。
 type: docs
 weight: 110
 url: /zh/aspose.slides.theme/ioverridetheme/initformatschemefrom/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.theme/ioverridetheme/initformatschemefrom/
 
 ## IOverrideTheme.InitFormatSchemeFrom 方法
 
-用新对象初始化格式方案以覆盖继承主题的格式方案。
+用新对象初始化格式方案以重写继承主题的格式方案。
 
 ```csharp
 public void InitFormatSchemeFrom(IFormatScheme formatScheme)
@@ -23,10 +23,10 @@ public void InitFormatSchemeFrom(IFormatScheme formatScheme)
 
 | 异常 | 条件 |
 | --- | --- |
-| InvalidOperationException | 如果格式方案已初始化（非 null）则抛出。 |
-| ArgumentNullException | 如果 formatScheme 参数为 null 则抛出。 |
+| InvalidOperationException | 如果格式方案已经初始化（不为 null），则抛出。 |
+| ArgumentNullException | 如果 formatScheme 参数为 null，则抛出。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IFormatScheme](../../iformatscheme)
 * 接口 [IOverrideTheme](../../ioverridetheme)

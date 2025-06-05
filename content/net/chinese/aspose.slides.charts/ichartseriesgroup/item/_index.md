@@ -1,5 +1,5 @@
 ---
-title: 项
+title: Item
 second_title: Aspose.Slides for .NET API 参考
 description: 获取指定索引处的元素。
 type: docs
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/ichartseriesgroup/item/
 public IChartSeries this[int index] { get; }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [IChartSeries](../../ichartseries)
 * 接口 [IChartSeriesGroup](../../ichartseriesgroup)

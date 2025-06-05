@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ibaseportionformateffectivedata/alternativelanguageid/
 ---
+
 ## IBasePortionFormatEffectiveData.AlternativeLanguageId property
 
 Returns the Id of an alternative language. Read-only String.

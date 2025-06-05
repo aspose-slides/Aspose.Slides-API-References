@@ -1,6 +1,6 @@
 ---
 title: AllCustomXmlParts
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Devuelve todas las partes de datos personalizadas en la presentación. Solo lectura ICustomXmlPartaspose.slides/icustomxmlpart.
 type: docs
 weight: 20
@@ -17,13 +17,13 @@ public ICustomXmlPart[] AllCustomXmlParts { get; }
 
 ### Ejemplos
 
-Los siguientes ejemplos muestran cómo limpiar todas las partes de xml personalizadas de una presentación de PowerPoint.
+Los siguientes ejemplos muestran cómo limpiar todas las partes de XML personalizadas de una presentación de PowerPoint.
 
 ```csharp
 [C#]
 using (Presentation pres = new Presentation("PresentationWithCustomXml.pptx"))
 {
-	// Iterar sobre todas las partes de XML personalizadas
+	// Iterar todas las partes XML personalizadas
     foreach (ICustomXmlPart item in pres.AllCustomXmlParts)
     {
         item.Remove();
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation("PresentationWithCustomXml.pptx"))
 }
 ```
 
-### Ver También
+### Véase También
 
 * interfaz [ICustomXmlPart](../../icustomxmlpart)
 * clase [Presentation](../../presentation)

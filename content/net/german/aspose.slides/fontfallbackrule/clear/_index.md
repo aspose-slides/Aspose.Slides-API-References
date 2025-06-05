@@ -1,13 +1,13 @@
 ---
-title: Löschen
-second_title: Aspose.Slides für .NET API Referenz
+title: Clear
+second_title: Aspose.Sildes für .NET API Referenz
 description: Entfernt alle Schriftarten aus der Liste.
 type: docs
 weight: 70
 url: /de/aspose.slides/fontfallbackrule/clear/
 ---
 
-## FontFallBackRule.Clear-Methode
+## FontFallBackRule.Clear Methode
 
 Entfernt alle Schriftarten aus der Liste.
 

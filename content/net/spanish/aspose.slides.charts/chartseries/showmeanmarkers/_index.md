@@ -1,24 +1,24 @@
 ---
 title: ShowMeanMarkers
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Representa marcadores de media. Verdadero si los marcadores de media se muestran en el gráfico de Caja y Bigotes. Aplica solo a gráficos de Caja y Bigotes. Lectura/escritura Booleano.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Representa los marcadores de media. Verdadero si se muestran los marcadores de media en el gráfico BoxAndWhisker. Se aplica solo a gráficos BoxAndWhisker. Booleano de lectura/escritura.
 type: docs
 weight: 400
 url: /es/aspose.slides.charts/chartseries/showmeanmarkers/
 ---
 
-## Propiedad ChartSeries.ShowMeanMarkers
+## ChartSeries.ShowMeanMarkers property
 
-Representa marcadores de media. Verdadero si los marcadores de media se muestran en el gráfico de Caja y Bigotes. Aplica solo a gráficos de Caja y Bigotes. Lectura/escritura Booleano.
+Representa los marcadores de media. Verdadero si se muestran los marcadores de media en el gráfico BoxAndWhisker. Se aplica solo a gráficos BoxAndWhisker. Booleano de lectura/escritura.
 
 ```csharp
 public bool ShowMeanMarkers { get; set; }
 ```
 
-### Vea También
+### Ver También
 
-* clase [ChartSeries](../../chartseries)
-* espacio de nombres [Aspose.Slides.Charts](../../chartseries)
-* ensamblado [Aspose.Slides](../../../)
+* class [ChartSeries](../../chartseries)
+* namespace [Aspose.Slides.Charts](../../chartseries)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

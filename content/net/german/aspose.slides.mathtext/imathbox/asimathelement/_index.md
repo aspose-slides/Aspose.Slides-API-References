@@ -7,7 +7,7 @@ weight: 20
 url: /de/aspose.slides.mathtext/imathbox/asimathelement/
 ---
 
-## IMathBox.AsIMathElement-Eigenschaft
+## IMathBox.AsIMathElement Eigenschaft
 
 Ermöglicht den Zugriff auf die Basis-IMathElement-Schnittstelle [`IMathElement`](../../imathelement)
 

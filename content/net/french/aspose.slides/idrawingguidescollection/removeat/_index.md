@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Supprime le guide de dessin à l'index spécifié.
 type: docs
 weight: 50
 url: /fr/aspose.slides/idrawingguidescollection/removeat/
 ---
 
-## Méthode IDrawingGuidesCollection.RemoveAt
+## IDrawingGuidesCollection.RemoveAt méthode
 
 Supprime le guide de dessin à l'index spécifié.
 

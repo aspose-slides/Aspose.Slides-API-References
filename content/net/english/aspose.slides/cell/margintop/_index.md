@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides/cell/margintop/
 ---
+
 ## Cell.MarginTop property
 
 Returns or sets the top margin in a TextFrame. Read/write Double.

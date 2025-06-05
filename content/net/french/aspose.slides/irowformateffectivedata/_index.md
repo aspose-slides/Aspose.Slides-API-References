@@ -1,7 +1,7 @@
 ---
 title: IRowFormatEffectiveData
-second_title: Référence API Aspose.Slides pour .NET
-description: Objet immuable qui contient les propriétés de formatage de ligne de table effectives.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Objet immuable qui contient des propriétés de mise en forme de ligne de tableau effectives.
 type: docs
 weight: 6680
 url: /fr/aspose.slides/irowformateffectivedata/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/irowformateffectivedata/
 
 ## Interface IRowFormatEffectiveData
 
-Objet immuable qui contient les propriétés de formatage de ligne de table effectives.
+Objet immuable qui contient des propriétés de mise en forme de ligne de tableau effectives.
 
 ```csharp
 public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -23,7 +23,7 @@ public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
 
 ### Remarques
 
-Cette interface est utilisée avec l'interface [`IRowFormat`](../irowformat) pour retourner les valeurs de formatage effectives avec héritage et styles de table appliqués.
+Cette interface est utilisée avec l'interface [`IRowFormat`](../irowformat) pour retourner des valeurs de mise en forme effectives avec héritage et styles de tableau appliqués.
 
 ### Voir aussi
 

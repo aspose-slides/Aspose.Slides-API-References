@@ -1,21 +1,21 @@
 ---
 title: FontBold
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob die Schriftart fett ist. Keine Vererbung angewendet. Lese-/Schreibzugriff NullableBoolaspose.slides/nullablebool.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt, ob die Schriftart fett ist. Keine Vererbung angewendet. Lese-/Schreibbarer NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 70
 url: /de/aspose.slides/baseportionformat/fontbold/
 ---
 
-## BasePortionFormat.FontBold-Eigenschaft
+## BasePortionFormat.FontBold Eigenschaft
 
-Bestimmt, ob die Schriftart fett ist. Keine Vererbung angewendet. Lese-/Schreibzugriff [`NullableBool`](../../nullablebool).
+Bestimmt, ob die Schriftart fett ist. Keine Vererbung angewendet. Lese-/Schreibbarer [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool FontBold { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [NullableBool](../../nullablebool)
 * class [BasePortionFormat](../../baseportionformat)

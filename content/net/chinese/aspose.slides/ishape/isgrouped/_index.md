@@ -1,7 +1,7 @@
 ---
 title: IsGrouped
-second_title: Aspose.Slides for .NET API 参考
-description: 确定形状是否为组合形状。只读布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定形状是否被分组。只读布尔值。
 type: docs
 weight: 140
 url: /zh/aspose.slides/ishape/isgrouped/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ishape/isgrouped/
 
 ## IShape.IsGrouped 属性
 
-确定形状是否为组合形状。只读布尔值。
+确定形状是否被分组。只读布尔值。
 
 ```csharp
 public bool IsGrouped { get; }
@@ -17,9 +17,9 @@ public bool IsGrouped { get; }
 
 ### 备注
 
-属性 [`ParentGroup`](../parentgroup) 如果形状是组合形状，则返回父 GroupShape 对象。
+属性 [`ParentGroup`](../parentgroup) 如果形状被分组，将返回父 GroupShape 对象。
 
-### 另请参阅
+### 参见
 
 * 接口 [IShape](../../ishape)
 * 命名空间 [Aspose.Slides](../../ishape)

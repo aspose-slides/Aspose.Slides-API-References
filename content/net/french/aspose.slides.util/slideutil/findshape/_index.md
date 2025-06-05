@@ -1,6 +1,6 @@
 ---
 title: FindShape
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Trouver une forme par texte alternatif dans une présentation PPTX.
 type: docs
 weight: 30
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.util/slideutil/findshape/
 
 ## FindShape(IPresentation, string) {#findshape_1}
 
-Trouvez une forme par texte alternatif dans une présentation PPTX.
+Trouver une forme par texte alternatif dans une présentation PPTX.
 
 ```csharp
 public static IShape FindShape(IPresentation pres, string altText)
@@ -36,7 +36,7 @@ Forme ou null.
 
 ## FindShape(IBaseSlide, string) {#findshape}
 
-Trouvez une forme par texte alternatif sur une diapositive dans une présentation PPTX.
+Trouver une forme par texte alternatif sur une diapositive dans une présentation PPTX.
 
 ```csharp
 public static IShape FindShape(IBaseSlide slide, string altText)

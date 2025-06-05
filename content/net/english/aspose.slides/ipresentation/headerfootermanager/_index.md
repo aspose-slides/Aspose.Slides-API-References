@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides/ipresentation/headerfootermanager/
 ---
+
 ## IPresentation.HeaderFooterManager property
 
 Returns HeaderFooter manager of the presentation. Read-only [`IPresentationHeaderFooterManager`](../../ipresentationheaderfootermanager).

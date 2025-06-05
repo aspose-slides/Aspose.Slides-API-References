@@ -1,6 +1,6 @@
 ---
-title: 幻灯片图像大小
-second_title: Aspose.Slides for .NET API 参考
+title: SlideImageSize
+second_title: Aspose.Slides for .NET API Reference
 description: 返回幻灯片图像大小。只读 SizeF。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.export/ihtmlgenerator/slideimagesize/
 public SizeF SlideImageSize { get; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IHtmlGenerator](../../ihtmlgenerator)
 * 命名空间 [Aspose.Slides.Export](../../ihtmlgenerator)

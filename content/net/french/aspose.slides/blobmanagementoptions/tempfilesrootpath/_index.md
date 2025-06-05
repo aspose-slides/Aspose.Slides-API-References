@@ -1,21 +1,21 @@
 ---
 title: TempFilesRootPath
-second_title: Référence API Aspose.Slides pour .NET
-description: Le chemin racine où les fichiers temporaires seront créés. Le répertoire temporaire système sera utilisé par défaut. Le processus d'hébergement doit avoir les autorisations pour créer des fichiers et des dossiers là-bas.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Le chemin racine où les fichiers temporaires seront créés. Le répertoire temporaire système sera utilisé par défaut. Le processus d'hébergement doit avoir les autorisations nécessaires pour créer des fichiers et des dossiers à cet emplacement.
 type: docs
 weight: 50
 url: /fr/aspose.slides/blobmanagementoptions/tempfilesrootpath/
 ---
 
-## Propriété BlobManagementOptions.TempFilesRootPath
+## BlobManagementOptions.TempFilesRootPath propriété
 
-Le chemin racine où les fichiers temporaires seront créés. Le répertoire temporaire système sera utilisé par défaut. Le processus d'hébergement doit avoir les autorisations pour créer des fichiers et des dossiers là-bas.
+Le chemin racine où les fichiers temporaires seront créés. Le répertoire temporaire système sera utilisé par défaut. Le processus d'hébergement doit avoir les autorisations nécessaires pour créer des fichiers et des dossiers à cet emplacement.
 
 ```csharp
 public string TempFilesRootPath { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [BlobManagementOptions](../../blobmanagementoptions)
 * espace de noms [Aspose.Slides](../../blobmanagementoptions)

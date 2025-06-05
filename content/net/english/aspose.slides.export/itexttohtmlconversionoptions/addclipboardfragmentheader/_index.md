@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export/itexttohtmlconversionoptions/addclipboardfragmentheader/
 ---
+
 ## ITextToHtmlConversionOptions.AddClipboardFragmentHeader property
 
 Returns or sets value, indicating if Clipboard headers should be added. Read/write Boolean.

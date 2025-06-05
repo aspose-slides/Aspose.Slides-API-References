@@ -1,7 +1,7 @@
 ---
 title: SetFooterAndChildFootersVisibility
 second_title: Aspose.Slides für .NET API Referenz
-description: Ändert die Sichtbarkeit des Fußzeilenplatzhalters der Masterfolie und aller Kind-Fußzeilenplatzhalter. Kindplatzhalter sind Platzhalter, die auf abhängigen Notizenfolien enthalten sind. Abhängige Notizenfolien verwenden und hängen von der Master-Notizenfolie ab.
+description: Ändert die Sichtbarkeit des Fußzeilenplatzhalters der Master-Folie und aller Platzhalter für die Fußzeilen der Kindfolien. Kindplatzhalter bedeuten, dass Platzhalter auf abhängigen Notizenfolien enthalten sind. Abhängige Notizenfolien verwenden und hängen von der Master-Notizenfolie ab.
 type: docs
 weight: 40
 url: /de/aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfootersvisibility/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfoot
 
 ## MasterNotesSlideHeaderFooterManager.SetFooterAndChildFootersVisibility-Methode
 
-Ändert die Sichtbarkeit des Fußzeilenplatzhalters der Masterfolie und aller Kind-Fußzeilenplatzhalter. Kindplatzhalter sind Platzhalter, die auf abhängigen Notizenfolien enthalten sind. Abhängige Notizenfolien verwenden und hängen von der Master-Notizenfolie ab.
+Ändert die Sichtbarkeit des Fußzeilenplatzhalters der Master-Folie und aller Platzhalter für die Fußzeilen der Kindfolien. Kindplatzhalter bedeuten, dass Platzhalter auf abhängigen Notizenfolien enthalten sind. Abhängige Notizenfolien verwenden und hängen von der Master-Notizenfolie ab.
 
 ```csharp
 public void SetFooterAndChildFootersVisibility(bool isVisible)
@@ -17,7 +17,7 @@ public void SetFooterAndChildFootersVisibility(bool isVisible)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| isVisible | Boolean | true - macht Fußzeilenplatzhalter sichtbar, andernfalls - blendet sie aus. |
+| isVisible | Boolean | true - macht einen Fußzeilenplatzhalter sichtbar, andernfalls - versteckt sie. |
 
 ### Siehe auch
 

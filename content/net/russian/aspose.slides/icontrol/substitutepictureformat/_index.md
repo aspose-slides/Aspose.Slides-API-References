@@ -1,15 +1,15 @@
 ---
 title: SubstitutePictureFormat
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает объект свойств заполнения изображения ControlEx. Только для чтения IPictureFillFormataspose.slides/ipicturefillformat.
+second_title: Aspose.Slides для .NET API Reference
+description: Возвращает объект свойств заливки изображения ControlEx. Только для чтения IPictureFillFormataspose.slides/ipicturefillformat.
 type: docs
 weight: 80
 url: /ru/aspose.slides/icontrol/substitutepictureformat/
 ---
 
-## Свойство IControl.SubstitutePictureFormat
+## IControl.SubstitutePictureFormat свойство
 
-Возвращает объект свойств заполнения изображения ControlEx. Только для чтения [`IPictureFillFormat`](../../ipicturefillformat).
+Возвращает объект свойств заливки изображения ControlEx. Только для чтения [`IPictureFillFormat`](../../ipicturefillformat).
 
 ```csharp
 public IPictureFillFormat SubstitutePictureFormat { get; }

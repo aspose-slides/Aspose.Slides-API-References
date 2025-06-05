@@ -1,6 +1,6 @@
 ---
 title: TextFrame
-second_title: Aspose.Slides para .NET Referencia de API
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece el texto del nodo. Solo lectura ITextFrameaspose.slides/itextframe.
 type: docs
 weight: 90

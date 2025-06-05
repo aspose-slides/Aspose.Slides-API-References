@@ -1,7 +1,7 @@
 ---
 title: HasBorderVertical
-second_title: Aspose.Slides für .NET API-Referenz
-description: Wahr, wenn die Datentabelle des Diagramms vertikale Zellengrenzen hat. Lese-/schreibbare Boolean.
+second_title: Aspose.Slides für .NET API-Dokumentation
+description: Wahr, wenn die Datentabelle des Diagramms vertikale Zellengrenzen hat. Lese-/Schreibbarer Boolean.
 type: docs
 weight: 50
 url: /de/aspose.slides.charts/datatable/hasbordervertical/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/datatable/hasbordervertical/
 
 ## DataTable.HasBorderVertical-Eigenschaft
 
-Wahr, wenn die Datentabelle des Diagramms vertikale Zellengrenzen hat. Lese-/schreibbare Boolean.
+Wahr, wenn die Datentabelle des Diagramms vertikale Zellengrenzen hat. Lese-/Schreibbarer Boolean.
 
 ```csharp
 public bool HasBorderVertical { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [DataTable](../../datatable)
 * Namespace [Aspose.Slides.Charts](../../datatable)

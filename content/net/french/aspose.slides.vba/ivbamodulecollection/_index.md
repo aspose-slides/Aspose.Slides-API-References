@@ -1,6 +1,6 @@
 ---
 title: IVbaModuleCollection
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente une collection de modules d'un projet VBA.
 type: docs
 weight: 11230
@@ -28,7 +28,7 @@ public interface IVbaModuleCollection : IGenericCollection<IVbaModule>
 | [AddEmptyModule](../../aspose.slides.vba/ivbamodulecollection/addemptymodule)(string) | Ajoute un nouveau module vide au projet VBA. |
 | [Remove](../../aspose.slides.vba/ivbamodulecollection/remove)(IVbaModule) | Supprime la première occurrence d'un objet spécifique de la collection. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * interface [IVbaModule](../ivbamodule)

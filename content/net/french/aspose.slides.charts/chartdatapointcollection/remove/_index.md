@@ -1,13 +1,13 @@
 ---
-title: Supprimer
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Remove
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Supprime la valeur spécifiée.
 type: docs
 weight: 310
 url: /fr/aspose.slides.charts/chartdatapointcollection/remove/
 ---
 
-## Méthode ChartDataPointCollection.Remove
+## ChartDataPointCollection.Remove method
 
 Supprime la valeur spécifiée.
 

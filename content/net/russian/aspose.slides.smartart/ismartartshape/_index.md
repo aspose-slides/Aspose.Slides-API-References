@@ -1,6 +1,6 @@
 ---
 title: ISmartArtShape
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет фигуру внутри диаграммы SmartArt
 type: docs
 weight: 10260

@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides/ibaseslide/joinportionswithsameformatting/
 ---
+
 ## IBaseSlide.JoinPortionsWithSameFormatting method
 
 Joins runs with same formatting in all paragraphs in all acceptable shapes.

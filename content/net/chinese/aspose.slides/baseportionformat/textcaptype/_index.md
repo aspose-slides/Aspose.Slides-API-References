@@ -1,7 +1,7 @@
 ---
 title: TextCapType
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置文本大写类型。未应用继承。可读/可写 TextCapTypeaspose.slides/textcaptype。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置文本首字母大写的类型。不应用继承。可读/可写 TextCapTypeaspose.slides/textcaptype。
 type: docs
 weight: 240
 url: /zh/aspose.slides/baseportionformat/textcaptype/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/baseportionformat/textcaptype/
 
 ## BasePortionFormat.TextCapType 属性
 
-返回或设置文本大写类型。未应用继承。可读/可写 [`TextCapType`](../../textcaptype)。
+返回或设置文本首字母大写的类型。不应用继承。可读/可写 [`TextCapType`](../../textcaptype)。
 
 ```csharp
 public TextCapType TextCapType { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * enum [TextCapType](../../textcaptype)
 * class [BasePortionFormat](../../baseportionformat)

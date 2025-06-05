@@ -1,7 +1,7 @@
 ---
 title: Zoom
-second_title: Références de l'API Aspose.Slides pour .NET
-description: Zoom de la caméra valeur positive en pourcentage. Lecture seule Single.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Valeur positive de zoom de la caméra en pourcentage. Lecture seule Single.
 type: docs
 weight: 30
 url: /fr/aspose.slides/icameraeffectivedata/zoom/

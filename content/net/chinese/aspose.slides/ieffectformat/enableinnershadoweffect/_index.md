@@ -1,6 +1,6 @@
 ---
-title: 启用内阴影效果
-second_title: Aspose.Slides for .NET API 参考
+title: EnableInnerShadowEffect
+second_title: Aspose.Slides for .NET API Reference
 description: 启用内阴影效果。
 type: docs
 weight: 210
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ieffectformat/enableinnershadoweffect/
 public void EnableInnerShadowEffect()
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IEffectFormat](../../ieffectformat)
 * 命名空间 [Aspose.Slides](../../ieffectformat)

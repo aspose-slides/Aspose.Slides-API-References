@@ -1,6 +1,6 @@
 ---
 title: X
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve o establece la coordenada x de la esquina superior izquierda de la forma. Lectura/escritura Single.
 type: docs
 weight: 300

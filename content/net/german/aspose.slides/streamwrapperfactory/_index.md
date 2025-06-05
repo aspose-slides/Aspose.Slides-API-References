@@ -1,15 +1,15 @@
 ---
 title: StreamWrapperFactory
 second_title: Aspose.Slides für .NET API-Referenz
-description: Fabrik von StreamWrappers. Für COM-Schnittstelle.
+description: Fabrik für StreamWrappers. Für COM-Schnittstelle.
 type: docs
 weight: 10450
 url: /de/aspose.slides/streamwrapperfactory/
 ---
 
-## StreamWrapperFactory-Klasse
+## StreamWrapperFactory class
 
-Fabrik von StreamWrappers. Für COM-Schnittstelle.
+Fabrik für StreamWrappers. Für COM-Schnittstelle.
 
 ```csharp
 public class StreamWrapperFactory : IStreamWrapperFactory
@@ -19,7 +19,7 @@ public class StreamWrapperFactory : IStreamWrapperFactory
 
 | Name | Beschreibung |
 | --- | --- |
-| [StreamWrapperFactory](streamwrapperfactory)() | Der Standardkonstruktor. |
+| [StreamWrapperFactory](streamwrapperfactory)() | Der Standard-Konstruktor. |
 
 ## Methoden
 
@@ -30,7 +30,7 @@ public class StreamWrapperFactory : IStreamWrapperFactory
 | [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Erstellt einen MemoryStream-Wrapper. |
 | [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Erstellt einen MemoryStream-Wrapper basierend auf dem angegebenen Byte-Array. |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IStreamWrapperFactory](../istreamwrapperfactory)
 * Namespace [Aspose.Slides](../../aspose.slides)

@@ -1,6 +1,6 @@
 ---
 title: IsHidden
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Bestimmt, ob die Zelle verborgen ist. Nur-lesbares Boolean.
 type: docs
 weight: 50

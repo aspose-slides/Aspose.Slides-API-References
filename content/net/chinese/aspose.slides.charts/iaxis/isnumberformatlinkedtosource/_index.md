@@ -1,6 +1,6 @@
 ---
 title: IsNumberFormatLinkedToSource
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 指示格式是否链接到源数据。可读/写布尔值。
 type: docs
 weight: 270
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/iaxis/isnumberformatlinkedtosource/
 public bool IsNumberFormatLinkedToSource { get; set; }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [IAxis](../../iaxis)
 * 命名空间 [Aspose.Slides.Charts](../../iaxis)

@@ -1,6 +1,6 @@
 ---
-title: 计数
-second_title: Aspose.Slides for .NET API 参考
+title: Count
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取集合中所有数据标签的数量。只读 Int32。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/idatalabelcollection/count/
 public int Count { get; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IDataLabelCollection](../../idatalabelcollection)
 * 命名空间 [Aspose.Slides.Charts](../../idatalabelcollection)

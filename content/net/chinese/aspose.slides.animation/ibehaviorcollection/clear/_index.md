@@ -1,6 +1,6 @@
 ---
-title: 清除
-second_title: Aspose.Slides for .NET API 参考
+title: Clear
+second_title: Aspose.Sildes for .NET API Reference
 description: 从集合中移除所有行为。
 type: docs
 weight: 50
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/ibehaviorcollection/clear/
 public void Clear()
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IBehaviorCollection](../../ibehaviorcollection)
 * 命名空间 [Aspose.Slides.Animation](../../ibehaviorcollection)

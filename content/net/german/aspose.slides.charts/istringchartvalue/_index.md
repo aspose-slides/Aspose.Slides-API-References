@@ -1,7 +1,7 @@
 ---
 title: IStringChartValue
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt einen String-Wert dar, der in einem pptx-Präsentationsdokument auf zwei Arten gespeichert werden kann 1 in Zelle/Zellen des Arbeitsbuchs, die mit dem Diagramm verbunden sind; 2 als literaler Wert.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt einen Zeichenfolgenwert dar, der auf zwei Arten in einem pptx-Präsentationsdokument gespeichert werden kann 1 in Zelle/n des Arbeitsblatts, die mit dem Diagramm verbunden sind; 2 als Literalwert.
 type: docs
 weight: 2140
 url: /de/aspose.slides.charts/istringchartvalue/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/istringchartvalue/
 
 ## IStringChartValue-Schnittstelle
 
-Stellt einen String-Wert dar, der in einem pptx-Präsentationsdokument auf zwei Arten gespeichert werden kann: 1) in Zelle/Zellen des Arbeitsbuchs, die mit dem Diagramm verbunden sind; 2) als literaler Wert.
+Stellt einen Zeichenfolgenwert dar, der auf zwei Arten in einem pptx-Präsentationsdokument gespeichert werden kann: 1) in Zelle/n des Arbeitsblatts, die mit dem Diagramm verbunden sind; 2) als Literalwert.
 
 ```csharp
 public interface IStringChartValue : IMultipleCellChartValue
@@ -19,18 +19,18 @@ public interface IStringChartValue : IMultipleCellChartValue
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | Ermöglicht den Zugriff auf die Basis-IMultipleCellChartValue-Schnittstelle. Nur lese [`IMultipleCellChartValue`](../imultiplecellchartvalue). |
-| [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | Gibt den literalen String zurück oder setzt ihn, wenn die DataSourceType-Eigenschaft DataSourceType.StringLiterals ist. Lese-/Schreib-Zeichenfolge. |
+| [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | Ermöglicht den Zugriff auf die Basis-Schnittstelle IMultipleCellChartValue. Nur-Lese [`IMultipleCellChartValue`](../imultiplecellchartvalue). |
+| [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | Gibt die Literalzeichenfolge zurück oder legt sie fest, wenn die Eigenschaft DataSourceType DataSourceType.StringLiterals ist. Lese-/Schreibzeichenfolge. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | Wenn die DataSourceType-Eigenschaft DataSourceType.Worksheet ist, gibt diese Methode die Adresse der Zellen im Arbeitsbuch zurück, die die String-Daten darstellen. Andernfalls wird ein leerer String zurückgegeben. |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | Wenn die Eigenschaft DataSourceType DataSourceType.Worksheet ist, gibt diese Methode die Adresse der Zellen im Arbeitsblatt zurück, die die Zeichendaten darstellen. Andernfalls wird eine leere Zeichenfolge zurückgegeben. |
 | [SetFromOneCell](../../aspose.slides.charts/istringchartvalue/setfromonecell)(IChartDataCell) | Setzt den Wert aus der angegebenen Zelle. |
-| [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | Gibt die String-Darstellung zurück. |
+| [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | Gibt die Zeichenfolgenrepräsentation zurück. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMultipleCellChartValue](../imultiplecellchartvalue)
 * Namespace [Aspose.Slides.Charts](../../aspose.slides.charts)

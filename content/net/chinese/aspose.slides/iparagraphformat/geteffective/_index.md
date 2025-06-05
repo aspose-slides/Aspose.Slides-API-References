@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides for .NET API Reference
-description: 获取有效的段落格式数据，应用了继承。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取应用了继承的有效段落格式数据。
 type: docs
 weight: 180
 url: /zh/aspose.slides/iparagraphformat/geteffective/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iparagraphformat/geteffective/
 
 ## IParagraphFormat.GetEffective 方法
 
-获取有效的段落格式数据，应用了继承。
+获取应用了继承的有效段落格式数据。
 
 ```csharp
 public IParagraphFormatEffectiveData GetEffective()
@@ -19,7 +19,7 @@ public IParagraphFormatEffectiveData GetEffective()
 
 一个 [`IParagraphFormatEffectiveData`](../../iparagraphformateffectivedata)。
 
-### 另请参见
+### 参见
 
 * 接口 [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
 * 接口 [IParagraphFormat](../../iparagraphformat)

@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.theme/icolorscheme/hyperlink/
 ---
+
 ## IColorScheme.Hyperlink property
 
 Color for the hyperlinks. Read-only [`IColorFormat`](../../../aspose.slides/icolorformat).

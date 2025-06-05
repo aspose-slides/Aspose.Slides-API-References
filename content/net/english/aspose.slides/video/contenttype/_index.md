@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/video/contenttype/
 ---
+
 ## Video.ContentType property
 
 Returns a MIME type of an video, encoded in [`BinaryData`](../binarydata). Read-only String.

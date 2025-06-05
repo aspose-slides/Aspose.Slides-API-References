@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.vba/ivbareferencecollection/item/
 ---
+
 ## IVbaReferenceCollection indexer
 
 Gets the element at the specified index.

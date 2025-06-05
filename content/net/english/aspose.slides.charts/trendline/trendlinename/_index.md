@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides.charts/trendline/trendlinename/
 ---
+
 ## Trendline.TrendlineName property
 
 Gets or sets name of the trendline. Read/write String.

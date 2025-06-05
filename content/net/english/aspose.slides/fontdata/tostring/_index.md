@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/fontdata/tostring/
 ---
+
 ## FontData.ToString method
 
 Returns string representation.

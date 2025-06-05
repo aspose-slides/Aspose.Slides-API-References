@@ -1,7 +1,7 @@
 ---
-title: 删除图片裁剪区域
-second_title: Aspose.Slides for .NET API 参考
-description: 一个布尔标志，指示裁剪的部分是否作为文档的一部分保留。如果为 true，裁剪的部分将被移除；如果为 false，它们将被序列化到文档中，这可能导致文件变大
+title: DeletePicturesCroppedAreas
+second_title: Aspose.Sildes for .NET API Reference
+description: 一个布尔标志指示裁剪的部分是否保留作为文档的一部分。如果为真，则裁剪的部分将被删除；如果为假，则它们将在文档中被序列化（这可能导致文件变大）
 type: docs
 weight: 50
 url: /zh/aspose.slides.export/svgoptions/deletepicturescroppedareas/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.export/svgoptions/deletepicturescroppedareas/
 
 ## SVGOptions.DeletePicturesCroppedAreas 属性
 
-一个布尔标志，指示裁剪的部分是否作为文档的一部分保留。如果为 true，裁剪的部分将被移除；如果为 false，它们将被序列化到文档中（这可能导致文件变大）
+一个布尔标志指示裁剪的部分是否保留作为文档的一部分。如果为真，则裁剪的部分将被删除；如果为假，则它们将在文档中被序列化（这可能导致文件变大）
 
 ```csharp
 public bool DeletePicturesCroppedAreas { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [SVGOptions](../../svgoptions)
 * namespace [Aspose.Slides.Export](../../svgoptions)

@@ -1,7 +1,7 @@
 ---
 title: ProofDisabled
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Determina si el texto no debería ser corregido. No se aplica herencia. Lectura/escritura NullableBoolaspose.slides/nullablebool.
+description: Determina si el texto no debe ser revisado. No se aplica herencia. Lectura/escritura NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 200
 url: /es/aspose.slides/ibaseportionformat/proofdisabled/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/ibaseportionformat/proofdisabled/
 
 ## Propiedad IBasePortionFormat.ProofDisabled
 
-Determina si el texto no debería ser corregido. No se aplica herencia. Lectura/escritura [`NullableBool`](../../nullablebool).
+Determina si el texto no debe ser revisado. No se aplica herencia. Lectura/escritura [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool ProofDisabled { get; set; }

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.mathtext/imathmatrix/columncount/
 ---
+
 ## IMathMatrix.ColumnCount property
 
 Number of columns in the matrix

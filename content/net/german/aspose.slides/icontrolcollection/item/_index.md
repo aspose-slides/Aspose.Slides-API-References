@@ -1,7 +1,7 @@
 ---
-title: Element
+title: Item
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt eine Steuerelement an der angegebenen Position zurück.
+description: Gibt eine Steuerung an der angegebenen Position zurück.
 type: docs
 weight: 10
 url: /de/aspose.slides/icontrolcollection/item/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/icontrolcollection/item/
 
 ## IControlCollection-Indexer
 
-Gibt ein Steuerelement an der angegebenen Position zurück.
+Gibt eine Steuerung an der angegebenen Position zurück.
 
 ```csharp
 public IControl this[int index] { get; }
@@ -17,7 +17,7 @@ public IControl this[int index] { get; }
 
 | Parameter | Beschreibung |
 | --- | --- |
-| index | Index eines Steuerelements. |
+| index | Index einer Steuerung. |
 
 ### Siehe auch
 

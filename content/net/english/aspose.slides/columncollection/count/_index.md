@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/columncollection/count/
 ---
+
 ## ColumnCollection.Count property
 
 Returns the number of columns in a collection. Read-only Int32.

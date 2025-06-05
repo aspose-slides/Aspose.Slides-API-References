@@ -1,6 +1,6 @@
 ---
 title: AsISectionZoomFrame
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回 ISectionZoomFrame 接口。
 type: docs
 weight: 10
@@ -15,11 +15,11 @@ url: /zh/aspose.slides/isummaryzoomsection/asisectionzoomframe/
 public ISectionZoomFrame AsISectionZoomFrame { get; }
 ```
 
-### 备注
+### 注释
 
 为了与 COM 兼容。
 
-### 另请参见
+### 参见
 
 * 接口 [ISectionZoomFrame](../../isectionzoomframe)
 * 接口 [ISummaryZoomSection](../../isummaryzoomsection)

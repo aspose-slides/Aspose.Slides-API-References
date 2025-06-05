@@ -1,7 +1,7 @@
 ---
 title: CaptionId
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den global eindeutigen Bezeichner GUID der Untertitel zurück. Nur-Lesen Guid.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die global eindeutige Kennung GUID der Untertitel zurück. Nur lesbare Guid.
 type: docs
 weight: 20
 url: /de/aspose.slides/icaptions/captionid/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/icaptions/captionid/
 
 ## ICaptions.CaptionId-Eigenschaft
 
-Gibt den global eindeutigen Bezeichner (GUID) der Untertitel zurück. Nur-Lesen Guid.
+Gibt die global eindeutige Kennung (GUID) der Untertitel zurück. Nur lesbare Guid.
 
 ```csharp
 public Guid CaptionId { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ICaptions](../../icaptions)
 * Namensraum [Aspose.Slides](../../icaptions)

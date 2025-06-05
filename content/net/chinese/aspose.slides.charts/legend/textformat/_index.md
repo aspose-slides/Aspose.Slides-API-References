@@ -1,7 +1,7 @@
 ---
-title: 文本格式
-second_title: Aspose.Slides for .NET API 参考
-description: 文本格式。只读 IChartTextFormataspose.slides/icharttextformat。
+title: TextFormat
+second_title: Aspose.Slides for .NET API Reference
+description: 文本格式。只读 IChartTextFormat aspose.slides.charts/icharttextformat。
 type: docs
 weight: 90
 url: /zh/aspose.slides.charts/legend/textformat/

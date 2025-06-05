@@ -1,15 +1,15 @@
 ---
 title: GetObjectStoringLocation
-second_title: Référence API Aspose.Slides pour .NET
-description: Détermine où l'objet doit être stocké. Cette méthode est appelée une fois pour chaque identifiant d'objet. Il n'est pas garanti qu'il n'y aura pas deux objets avec la même sémantique de données, semanticName et contentType mais avec des identifiants différents.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Détermine où l'objet doit être stocké. Cette méthode est appelée une fois pour chaque identifiant d'objet. Il n'est pas garanti qu'il n'y ait pas deux objets ayant les mêmes données, semanticName et contentType mais avec des identifiants différents.
 type: docs
 weight: 10
 url: /fr/aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation/
 ---
 
-## Méthode ILinkEmbedController.GetObjectStoringLocation
+## ILinkEmbedController.GetObjectStoringLocation méthode
 
-Détermine où l'objet doit être stocké. Cette méthode est appelée une fois pour chaque identifiant d'objet. Il n'est pas garanti qu'il n'y aura pas deux objets avec la même sémantique de données, semanticName et contentType mais avec des identifiants différents.
+Détermine où l'objet doit être stocké. Cette méthode est appelée une fois pour chaque identifiant d'objet. Il n'est pas garanti qu'il n'y ait pas deux objets ayant les mêmes données, semanticName et contentType mais avec des identifiants différents.
 
 ```csharp
 public LinkEmbedDecision GetObjectStoringLocation(int id, byte[] entityData, string semanticName, 
@@ -18,11 +18,11 @@ public LinkEmbedDecision GetObjectStoringLocation(int id, byte[] entityData, str
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| id | Int32 | Identifiant de l'objet. Cet identifiant est unique à l'opération. |
-| entityData | Byte[] | Données binaires de l'objet. Ce paramètre peut être null si les données binaires de l'objet n'ont pas encore été générées. |
-| semanticName | String | Un court texte décrivant la signification de l'objet. Le contrôleur peut l'utiliser comme partie du nom externe de l'objet, mais il appartient au répartiteur de s'assurer que les noms seront uniques et contiendront uniquement des caractères autorisés. |
+| id | Int32 | Identifiant de l'objet. Cet identifiant est unique pour l'ensemble de l'opération. |
+| entityData | Byte[] | Données binaires de l'objet. Ce paramètre peut être null, si les données binaires de l'objet n'ont pas encore été générées. |
+| semanticName | String | Un court texte décrivant la signification de l'objet. Le contrôleur peut l'utiliser comme partie du nom de l'objet externe, mais il appartient au répartiteur de s'assurer que les noms seront uniques et contiendront uniquement des caractères autorisés. |
 | contentType | String | Type MIME de l'objet. |
-| recomendedExtension | String | Extension de nom de fichier recommandée pour ce type MIME. |
+| recomendedExtension | String | Extension de nom de fichier, recommandée pour ce type MIME. |
 
 ### Valeur de retour
 

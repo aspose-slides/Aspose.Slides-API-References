@@ -1,7 +1,7 @@
 ---
 title: CrossAt
-second_title: Aspose.Slides for .NET API 参考
-description: 表示垂直轴在坐标轴上交叉的点。可读/写 Single。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示垂直轴与该轴交叉的点。可读/写 Single。
 type: docs
 weight: 130
 url: /zh/aspose.slides.charts/axis/crossat/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/axis/crossat/
 
 ## Axis.CrossAt 属性
 
-表示垂直轴在坐标轴上交叉的点。可读/写 Single。
+表示垂直轴与该轴交叉的点。可读/写 Single。
 
 ```csharp
 public float CrossAt { get; set; }
 ```
 
-### 参见
+### 另请参阅
 
 * class [Axis](../../axis)
 * namespace [Aspose.Slides.Charts](../../axis)

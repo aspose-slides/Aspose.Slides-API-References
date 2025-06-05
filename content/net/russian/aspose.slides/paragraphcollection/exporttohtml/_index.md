@@ -1,13 +1,13 @@
 ---
 title: ExportToHtml
-second_title: Aspose.Sildes для .NET Справочник по API
+second_title: Aspose.Sildes для справки по .NET API
 description: Преобразует указанные абзацы в HTML и возвращает его в виде объекта String.
 type: docs
 weight: 90
 url: /ru/aspose.slides/paragraphcollection/exporttohtml/
 ---
 
-## Метод ParagraphCollection.ExportToHtml
+## ParagraphCollection.ExportToHtml метод
 
 Преобразует указанные абзацы в HTML и возвращает его в виде объекта String.
 

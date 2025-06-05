@@ -1,13 +1,13 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Slides для .NET Справочник по API
+second_title: Aspose.Sildes для .NET API Reference
 description: Возвращает перечислитель, который перебирает коллекцию.
 type: docs
 weight: 90
 url: /ru/aspose.slides.charts/datalabelcollection/getenumerator/
 ---
 
-## Метод DataLabelCollection.GetEnumerator
+## DataLabelCollection.GetEnumerator метод
 
 Возвращает перечислитель, который перебирает коллекцию.
 

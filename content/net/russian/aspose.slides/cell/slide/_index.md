@@ -1,13 +1,13 @@
 ---
-title: Слайд
-second_title: Справочник по API Aspose.Slides для .NET
+title: Slide
+second_title: Aspose.Slides для .NET API Reference
 description: Возвращает родительский слайд ячейки. Только для чтения IBaseSlideaspose.slides/ibaseslide.
 type: docs
 weight: 190
 url: /ru/aspose.slides/cell/slide/
 ---
 
-## Свойство Cell.Slide
+## Cell.Slide свойство
 
 Возвращает родительский слайд ячейки. Только для чтения [`IBaseSlide`](../../ibaseslide).
 

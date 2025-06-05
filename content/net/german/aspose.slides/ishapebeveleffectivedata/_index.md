@@ -1,15 +1,15 @@
 ---
 title: IShapeBevelEffectiveData
 second_title: Aspose.Slides für .NET API Referenz
-description: Unveränderliches Objekt, das die effektiven Relief-Eigenschaften von Formflächen enthält.
+description: Unveränderliches Objekt, das die effektiven Eigenschaften der Gesichtserleichterung von Formen enthält.
 type: docs
 weight: 6750
 url: /de/aspose.slides/ishapebeveleffectivedata/
 ---
 
-## IShapeBevelEffectiveData Schnittstelle
+## IShapeBevelEffectiveData-Schnittstelle
 
-Unveränderliches Objekt, das die effektiven Relief-Eigenschaften der Form enthält.
+Unveränderliches Objekt, das die effektiven Eigenschaften der Gesichtserleichterung von Formen enthält.
 
 ```csharp
 public interface IShapeBevelEffectiveData
@@ -23,7 +23,7 @@ public interface IShapeBevelEffectiveData
 | [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | Fasenhöhe. Nur lesbar Double. |
 | [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | Fasenbreite. Nur lesbar Double. |
 
-### Bemerkungen
+### Hinweise
 
 Diese Schnittstelle wird als Teil von [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata) verwendet.
 

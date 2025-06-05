@@ -3,9 +3,10 @@ title: SharedDoc
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines whether the presentation is shared between multiple people. Read/write Boolean.
 type: docs
-weight: 210
+weight: 290
 url: /aspose.slides/idocumentproperties/shareddoc/
 ---
+
 ## IDocumentProperties.SharedDoc property
 
 Determines whether the presentation is shared between multiple people. Read/write Boolean.

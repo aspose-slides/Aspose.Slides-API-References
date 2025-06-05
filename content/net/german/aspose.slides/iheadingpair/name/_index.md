@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Gruppennamen der Dokumententeile zurück. Nur lesender String.
+description: Gibt den Gruppennamen der Dokumententeile zurück. Nur lesbarer String.
 type: docs
 weight: 20
 url: /de/aspose.slides/iheadingpair/name/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iheadingpair/name/
 
 ## IHeadingPair.Name-Eigenschaft
 
-Gibt den Gruppennamen der Dokumententeile zurück. Nur lesender String.
+Gibt den Gruppennamen der Dokumententeile zurück. Nur lesbarer String.
 
 ```csharp
 public string Name { get; }

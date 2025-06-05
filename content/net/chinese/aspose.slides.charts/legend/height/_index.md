@@ -1,21 +1,21 @@
 ---
-title: 高度
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回或设置图例的高度，作为图表高度的一个比例。可读写 Single。
+title: Height
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置图例的高度，作为图表高度的一个比例。可读写Single。
 type: docs
 weight: 50
 url: /zh/aspose.slides.charts/legend/height/
 ---
 
-## Legend.Height 属性
+## Legend.Height property
 
-返回或设置图例的高度，作为图表高度的一个比例。可读写 Single。
+返回或设置图例的高度，作为图表高度的一个比例。可读写Single。
 
 ```csharp
 public float Height { get; set; }
 ```
 
-### 参见
+### 另请参见
 
 * class [Legend](../../legend)
 * namespace [Aspose.Slides.Charts](../../legend)

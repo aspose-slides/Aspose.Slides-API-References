@@ -1,7 +1,7 @@
 ---
-title: Bild
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Bild zurück, das als Aufzählungszeichen in einem Absatz ohne Vererbung verwendet wird. Schreibgeschütztes ISlidesPicture aspose.slides/islidespicture.
+title: Picture
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt das Bild zurück, das als Aufzählungszeichen in einem Absatz ohne Vererbung verwendet wird. Nur lesbares ISlidesPictureaspose.slides/islidespicture.
 type: docs
 weight: 90
 url: /de/aspose.slides/bulletformat/picture/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/bulletformat/picture/
 
 ## BulletFormat.Picture-Eigenschaft
 
-Gibt das Bild zurück, das als Aufzählungszeichen in einem Absatz ohne Vererbung verwendet wird. Schreibgeschütztes [`ISlidesPicture`](../../islidespicture).
+Gibt das Bild zurück, das als Aufzählungszeichen in einem Absatz ohne Vererbung verwendet wird. Nur lesbar [`ISlidesPicture`](../../islidespicture).
 
 ```csharp
 public ISlidesPicture Picture { get; }

@@ -1,14 +1,15 @@
 ---
 title: AnchoringType
 second_title: Aspose.Sildes for .NET API Reference
-description: Returns or sets vertical anchor text in a TextFrameEx. Read/write TextAnchorTypeaspose.slides/textanchortype.
+description: Returns or sets vertical anchor text in a TextFrame. Read/write TextAnchorTypeaspose.slides/textanchortype.
 type: docs
 weight: 20
 url: /aspose.slides/textframeformat/anchoringtype/
 ---
+
 ## TextFrameFormat.AnchoringType property
 
-Returns or sets vertical anchor text in a TextFrameEx. Read/write [`TextAnchorType`](../../textanchortype).
+Returns or sets vertical anchor text in a TextFrame. Read/write [`TextAnchorType`](../../textanchortype).
 
 ```csharp
 public TextAnchorType AnchoringType { get; set; }

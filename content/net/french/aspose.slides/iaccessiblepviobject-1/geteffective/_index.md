@@ -1,6 +1,6 @@
 ---
 title: GetEffective
-second_title: Aspose.Sildes pour .NET Référence API
+second_title: Aspose.Sildes pour .NET API Référence
 description: Obtient des données effectives avec l'héritage appliqué.
 type: docs
 weight: 10
@@ -15,11 +15,11 @@ Obtient des données effectives avec l'héritage appliqué.
 public T GetEffective()
 ```
 
-### Valeur de Retour
+### Valeur de retour
 
 Un objet de données effectives.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IAccessiblePVIObject&lt;T&gt;](../../iaccessiblepviobject-1)
 * namespace [Aspose.Slides](../../iaccessiblepviobject-1)

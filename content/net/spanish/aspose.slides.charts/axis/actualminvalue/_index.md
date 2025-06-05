@@ -1,7 +1,7 @@
 ---
 title: ActualMinValue
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Especifica el valor mínimo real en el eje. Llama al método IChart.ValidateChartLayout previamente para obtener el valor real.
+second_title: Aspose.Slides para .NET API Reference
+description: Especifica el valor mínimo actual en el eje. Llama al método IChart.ValidateChartLayout previamente para obtener el valor actual.
 type: docs
 weight: 60
 url: /es/aspose.slides.charts/axis/actualminvalue/
@@ -9,16 +9,16 @@ url: /es/aspose.slides.charts/axis/actualminvalue/
 
 ## Propiedad Axis.ActualMinValue
 
-Especifica el valor mínimo real en el eje. Llama al método IChart.ValidateChartLayout() previamente para obtener el valor real.
+Especifica el valor mínimo actual en el eje. Llama al método IChart.ValidateChartLayout() previamente para obtener el valor actual.
 
 ```csharp
 public double ActualMinValue { get; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [Axis](../../axis)
 * espacio de nombres [Aspose.Slides.Charts](../../axis)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

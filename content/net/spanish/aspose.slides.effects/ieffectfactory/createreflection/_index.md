@@ -1,7 +1,7 @@
 ---
-title: CrearReflejo
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Crea un efecto de Reflejo.
+title: CreateReflection
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Crea un efecto de Reflexión.
 type: docs
 weight: 60
 url: /es/aspose.slides.effects/ieffectfactory/createreflection/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.effects/ieffectfactory/createreflection/
 
 ## Método IEffectFactory.CreateReflection
 
-Crea un efecto de Reflejo.
+Crea un efecto de Reflexión.
 
 ```csharp
 public IReflection CreateReflection()
@@ -17,7 +17,7 @@ public IReflection CreateReflection()
 
 ### Valor de Retorno
 
-Efecto de Reflejo.
+Efecto de Reflexión.
 
 ### Véase También
 

@@ -1,5 +1,5 @@
 ---
-title: Количество
+title: Count
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает количество операций в коллекции. Только для чтения Int32.
 type: docs
@@ -7,7 +7,7 @@ weight: 10
 url: /ru/aspose.slides/coloroperationcollection/count/
 ---
 
-## Свойство ColorOperationCollection.Count
+## ColorOperationCollection.Count свойство
 
 Возвращает количество операций в коллекции. Только для чтения Int32.
 

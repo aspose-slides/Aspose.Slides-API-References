@@ -1,13 +1,13 @@
 ---
-title: Effacer
-second_title: Référence API Aspose.Slides pour .NET
+title: Clear
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Supprime tous les éléments de la collection.
 type: docs
 weight: 30
 url: /fr/aspose.slides/itabcollection/clear/
 ---
 
-## Méthode ITabCollection.Clear
+## ITabCollection.Clear méthode
 
 Supprime tous les éléments de la collection.
 
@@ -15,7 +15,7 @@ Supprime tous les éléments de la collection.
 public void Clear()
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ITabCollection](../../itabcollection)
 * namespace [Aspose.Slides](../../itabcollection)

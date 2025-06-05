@@ -1,15 +1,15 @@
 ---
 title: InitColorSchemeFrom
-second_title: Aspose.Slides für .NET API Referenz
-description: Init ColorScheme mit neuem Objekt zum Überschreiben des ColorScheme von InheritedTheme.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Init ColorScheme mit neuem Objekt zur Überschreibung des ColorScheme des InheritedTheme.
 type: docs
 weight: 50
 url: /de/aspose.slides.theme/ioverridetheme/initcolorschemefrom/
 ---
 
-## IOverrideTheme.InitColorSchemeFrom Methode
+## IOverrideTheme.InitColorSchemeFrom-Methode
 
-Init ColorScheme mit neuem Objekt zum Überschreiben des ColorScheme von InheritedTheme.
+Init ColorScheme mit neuem Objekt zur Überschreibung des ColorScheme des InheritedTheme.
 
 ```csharp
 public void InitColorSchemeFrom(IColorScheme colorScheme)
@@ -17,16 +17,16 @@ public void InitColorSchemeFrom(IColorScheme colorScheme)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| colorScheme | IColorScheme | Daten, von denen initialisiert werden soll. |
+| colorScheme | IColorScheme | Daten zur Initialisierung. |
 
 ### Ausnahmen
 
 | Ausnahme | Bedingung |
 | --- | --- |
 | InvalidOperationException | Wird ausgelöst, wenn das ColorScheme bereits initialisiert ist (nicht null). |
-| ArgumentNullException | Wird ausgelöst, wenn der colorScheme-Parameter null ist. |
+| ArgumentNullException | Wird ausgelöst, wenn der Parameter colorScheme null ist. |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IColorScheme](../../icolorscheme)
 * Schnittstelle [IOverrideTheme](../../ioverridetheme)

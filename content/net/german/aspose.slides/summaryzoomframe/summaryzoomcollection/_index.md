@@ -1,6 +1,6 @@
 ---
-title: ZusammenfassungZoomSammlung
-second_title: Aspose.Slides für .NET API Referenz
+title: SummaryZoomCollection
+second_title: Aspose.Slides für .NET API-Referenz
 description: Erhält ISummaryZoomSectionCollectionaspose.slides/isummaryzoomsectioncollection für das Summary Zoom Frame-Objekt.
 type: docs
 weight: 20
@@ -17,7 +17,7 @@ public ISummaryZoomSectionCollection SummaryZoomCollection { get; }
 
 ### Beispiele
 
-Das Beispiel zeigt, wie man das Summary Zoom Section-Element nach Index erhält:
+Das Beispiel demonstriert das Abrufen des Summary Zoom Section-Elements nach Index:
 
 ```csharp
 [C#]

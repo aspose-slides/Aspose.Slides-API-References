@@ -1,15 +1,15 @@
 ---
-title: TitreTexteAlternatif
+title: AlternativeTextTitle
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit le titre du texte alternatif associé à une forme. Chaîne lisible/écrite.
+description: Renvoie ou définit le titre du texte alternatif associé à une forme. Chaîne en lecture/écriture.
 type: docs
 weight: 20
 url: /fr/aspose.slides/shape/alternativetexttitle/
 ---
 
-## Propriété Shape.AlternativeTextTitle
+## Shape.AlternativeTextTitle property
 
-Renvoie ou définit le titre du texte alternatif associé à une forme. Chaîne lisible/écrite.
+Renvoie ou définit le titre du texte alternatif associé à une forme. Chaîne en lecture/écriture.
 
 ```csharp
 public string AlternativeTextTitle { get; set; }

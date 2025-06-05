@@ -1,13 +1,13 @@
 ---
-title: NomDeLObjet
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: ObjectName
+second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie ou définit le nom d'un objet. Chaîne en lecture/écriture.
 type: docs
 weight: 100
 url: /fr/aspose.slides/oleobjectframe/objectname/
 ---
 
-## Propriété OleObjectFrame.ObjectName
+## OleObjectFrame.ObjectName propriété
 
 Renvoie ou définit le nom d'un objet. Chaîne en lecture/écriture.
 
@@ -15,7 +15,7 @@ Renvoie ou définit le nom d'un objet. Chaîne en lecture/écriture.
 public string ObjectName { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [OleObjectFrame](../../oleobjectframe)
 * espace de noms [Aspose.Slides](../../oleobjectframe)

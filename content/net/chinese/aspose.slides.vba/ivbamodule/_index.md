@@ -1,7 +1,7 @@
 ---
 title: IVbaModule
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示包含在VBA项目中的模块。
+description: 代表包含在VBA项目中的模块。
 type: docs
 weight: 11220
 url: /zh/aspose.slides.vba/ivbamodule/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.vba/ivbamodule/
 
 ## IVbaModule 接口
 
-表示包含在VBA项目中的模块。
+代表包含在VBA项目中的模块。
 
 ```csharp
 public interface IVbaModule
@@ -22,7 +22,7 @@ public interface IVbaModule
 | [Name](../../aspose.slides.vba/ivbamodule/name) { get; } | 模块的名称。只读字符串。 |
 | [SourceCode](../../aspose.slides.vba/ivbamodule/sourcecode) { get; set; } | 模块的源代码。读写字符串。 |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides.Vba](../../aspose.slides.vba)
 * 程序集 [Aspose.Slides](../../)

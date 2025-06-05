@@ -1,15 +1,15 @@
 ---
 title: MathSpacingRules
-second_title: Aspose.Slides für .NET API-Referenz
-description: Arten von Abstand horizontale Abstände zwischen Spalten einer Matrix
+second_title: Aspose.Slides für .NET API Referenz
+description: Arten von Abständen horizontalen Abständen zwischen den Spalten einer Matrix
 type: docs
 weight: 8720
 url: /de/aspose.slides.mathtext/mathspacingrules/
 ---
 
-## MathSpacingRules Aufzählung
+## MathSpacingRules Enumeration
 
-Arten von Abstand (horizontaler Abstand) zwischen Spalten einer Matrix
+Arten von Abständen (horizontalen Abständen) zwischen den Spalten einer Matrix
 
 ```csharp
 public enum MathSpacingRules
@@ -20,10 +20,10 @@ public enum MathSpacingRules
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | SingleSpacingGap | `0` | Einfach (1 em für Spalten oder 1 Zeile für Reihen) |
-| OneAndHalfSpacingGap | `1` | Eineinhalb (1,5 ems für Spalten oder 1,5 Zeilen für Reihen) |
+| OneAndHalfSpacingGap | `1` | Eineinhalb (1.5 ems für Spalten oder 1.5 Zeilen für Reihen) |
 | DoubleSpacingGap | `2` | Doppelt (2 ems für Spalten oder 2 Zeilen für Reihen) |
-| Exactly | `3` | Genauer Wert Für Spalten, basierend auf dem Wert von ColumnGap, gemessen in Twips Für Reihen, basierend auf dem Wert von RowGap, gemessen in Twips |
-| Multiple | `4` | Mehrfach Für Spalten, basierend auf dem Wert von ColumnGap, gemessen in 0,5 em Inkrementen Für Reihen, basierend auf dem Wert von RowGap, gemessen in Zeilen |
+| Exactly | `3` | Exakter Wert Für Spalten, verlassen Sie sich auf den Wert von ColumnGap, gemessen in Twips Für Reihen, verlassen Sie sich auf den Wert von RowGap, gemessen in Twips |
+| Multiple | `4` | Vielfaches Für Spalten, verlassen Sie sich auf den Wert von ColumnGap, gemessen in 0.5 em Inkrementen Für Reihen, verlassen Sie sich auf den Wert von RowGap, gemessen in Zeilen |
 
 ### Siehe auch
 

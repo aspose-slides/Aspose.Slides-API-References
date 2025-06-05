@@ -3,9 +3,10 @@ title: VideoCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of Video objects.
 type: docs
-weight: 11060
+weight: 11400
 url: /aspose.slides/videocollection/
 ---
+
 ## VideoCollection class
 
 Represents a collection of Video objects.
@@ -29,8 +30,7 @@ public class VideoCollection : DomObject<Presentation>, IVideoCollection
 | --- | --- |
 | [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_1)(byte[]) | Creates and adds a video to a presentation from byte array. |
 | [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo)(IVideo) | Adds a copy of an video file from an another presentation. |
-| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_2)(Stream) | Creates and adds a video to a presentation from stream. |
-| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_3)(Stream, LoadingStreamBehavior) | Creates and adds a video to a presentation from stream. |
+| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | Creates and adds a video to a presentation from stream. |
 | [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | Copies videos to specified array starting from specified index. |
 | [GetEnumerator](../../aspose.slides/videocollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
 

@@ -1,6 +1,6 @@
 ---
 title: CreateBiLevel
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para referencia de API .NET
 description: Crea el efecto BiLevel.
 type: docs
 weight: 90
@@ -19,11 +19,11 @@ public IBiLevel CreateBiLevel(float threshold)
 | --- | --- | --- |
 | threshold | Single | Umbral. |
 
-### Valor de Retorno
+### Valor de retorno
 
 Efecto BiLevel.
 
-### Véase También
+### Véase también
 
 * interfaz [IBiLevel](../../ibilevel)
 * clase [ImageTransformOperationFactory](../../imagetransformoperationfactory)

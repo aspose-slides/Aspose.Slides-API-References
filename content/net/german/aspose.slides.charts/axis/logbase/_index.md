@@ -1,7 +1,7 @@
 ---
 title: LogBase
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt die logarithmische Basis dar. Der Standardwert ist 10. Lese-/Schreib-Doppel.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt die logarithmische Basis dar. Standardwert ist 10. Lese-/schreibbarer Double.
 type: docs
 weight: 330
 url: /de/aspose.slides.charts/axis/logbase/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/axis/logbase/
 
 ## Axis.LogBase-Eigenschaft
 
-Stellt die logarithmische Basis dar. Der Standardwert ist 10. Lese-/Schreib-Doppel.
+Stellt die logarithmische Basis dar. Standardwert ist 10. Lese-/schreibbarer Double.
 
 ```csharp
 public double LogBase { get; set; }

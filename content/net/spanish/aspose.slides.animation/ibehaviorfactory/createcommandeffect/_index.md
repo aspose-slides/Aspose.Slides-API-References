@@ -15,15 +15,15 @@ Crea un efecto de comando.
 public ICommandEffect CreateCommandEffect()
 ```
 
-### Valor de Retorno
+### Valor de retorno
 
 Efecto de comando.
 
-### Véase También
+### Véase también
 
-* interfaz [ICommandEffect](../../icommandeffect)
-* interfaz [IBehaviorFactory](../../ibehaviorfactory)
-* espacio de nombres [Aspose.Slides.Animation](../../ibehaviorfactory)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [ICommandEffect](../../icommandeffect)
+* interfaz [IBehaviorFactory](../../ibehaviorfactory)
+* espacio de nombres [Aspose.Slides.Animation](../../ibehaviorfactory)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,6 +1,6 @@
 ---
-title: 添加节点
-second_title: Aspose.Slides for .NET API 参考
+title: AddNode
+second_title: Aspose.Slides for .NET API Reference
 description: 添加新的智能艺术节点或子节点。
 type: docs
 weight: 50
@@ -17,9 +17,9 @@ public ISmartArtNode AddNode()
 
 ### 返回值
 
-已添加的节点
+添加的节点
 
-### 参见
+### 另见
 
 * 接口 [ISmartArtNode](../../ismartartnode)
 * 类 [SmartArtNodeCollection](../../smartartnodecollection)

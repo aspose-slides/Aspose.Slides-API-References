@@ -1,7 +1,7 @@
 ---
 title: IAdjustValueCollection
-second_title: Aspose.Sildes для .NET API Reference
-description: Представляет коллекцию корректировок формы.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет коллекцию корректировок фигур.
 type: docs
 weight: 4990
 url: /ru/aspose.slides/iadjustvaluecollection/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/iadjustvaluecollection/
 
 ## Интерфейс IAdjustValueCollection
 
-Представляет коллекцию корректировок формы.
+Представляет коллекцию корректировок фигуры.
 
 ```csharp
 public interface IAdjustValueCollection : ICollection
@@ -17,7 +17,7 @@ public interface IAdjustValueCollection : ICollection
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | Позволяет получить базовый интерфейс ICollection. Только для чтения ICollection. |
 | [AsIEnumerable](../../aspose.slides/iadjustvaluecollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтения IEnumerable. |

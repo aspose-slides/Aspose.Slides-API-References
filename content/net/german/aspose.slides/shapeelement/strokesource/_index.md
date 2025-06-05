@@ -1,7 +1,7 @@
 ---
 title: StrokeSource
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt Informationen darüber zurück, wie man ein Element konturiert. Nur lesbarer ShapeElementStrokeSource aspose.slides/shapeelementstrokesource.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt Informationen darüber zurück, wie ein Element gestrichen wird. Nur-Lese ShapeElementStrokeSourceaspose.slides/shapeelementstrokesource.
 type: docs
 weight: 30
 url: /de/aspose.slides/shapeelement/strokesource/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/shapeelement/strokesource/
 
 ## ShapeElement.StrokeSource-Eigenschaft
 
-Gibt Informationen darüber zurück, wie man ein Element konturiert. Nur lesbar [`ShapeElementStrokeSource`](../../shapeelementstrokesource).
+Gibt Informationen darüber zurück, wie ein Element gestrichen wird. Nur-Lese [`ShapeElementStrokeSource`](../../shapeelementstrokesource).
 
 ```csharp
 public ShapeElementStrokeSource StrokeSource { get; }

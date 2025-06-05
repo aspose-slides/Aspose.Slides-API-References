@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/adjustvaluecollection/count/
 ---
+
 ## AdjustValueCollection.Count property
 
 Return a number of adjustments. Read-only Int32.

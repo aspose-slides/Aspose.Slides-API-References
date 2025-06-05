@@ -1,15 +1,15 @@
 ---
-title: УдалитьЗащитуЗаписи
-second_title: Справка по API Aspose.Slides для .NET
-description: Удаляет защиту записи для этой презентации.
+title: RemoveWriteProtection
+second_title: Aspose.Sildes для .NET API Справочник
+description: Удаляет защиту от записи для данной презентации.
 type: docs
 weight: 100
 url: /ru/aspose.slides/iprotectionmanager/removewriteprotection/
 ---
 
-## Метод IProtectionManager.RemoveWriteProtection
+## IProtectionManager.RemoveWriteProtection метод
 
-Удаляет защиту записи для этой презентации.
+Удаляет защиту от записи для данной презентации.
 
 ```csharp
 public void RemoveWriteProtection()

@@ -1,7 +1,7 @@
 ---
 title: GetCustomPropertyValue
-second_title: Справочник API Aspose.Slides для .NET
-description: Получает заданное булево значение из пользовательских свойств.
+second_title: Aspose.Slides для .NET API Reference
+description: Получает именованное логическое значение из пользовательских свойств.
 type: docs
 weight: 400
 url: /ru/aspose.slides/idocumentproperties/getcustompropertyvalue/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/idocumentproperties/getcustompropertyvalue/
 
 ## GetCustomPropertyValue(string, out bool) {#getcustompropertyvalue}
 
-Получает заданное булево значение из пользовательских свойств.
+Получает именованное логическое значение из пользовательских свойств.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out bool value)
@@ -20,7 +20,7 @@ public void GetCustomPropertyValue(string name, out bool value)
 | name | String | Имя пользовательского свойства для получения |
 | value | Boolean& | Значение пользовательского свойства |
 
-### См. Также
+### См. также
 
 * интерфейс [IDocumentProperties](../../idocumentproperties)
 * пространство имен [Aspose.Slides](../../idocumentproperties)
@@ -30,7 +30,7 @@ public void GetCustomPropertyValue(string name, out bool value)
 
 ## GetCustomPropertyValue(string, out int) {#getcustompropertyvalue_2}
 
-Получает заданное целое значение из пользовательских свойств.
+Получает именованное целочисленное значение из пользовательских свойств.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out int value)
@@ -41,7 +41,7 @@ public void GetCustomPropertyValue(string name, out int value)
 | name | String | Имя пользовательского свойства для получения |
 | value | Int32& | Значение пользовательского свойства |
 
-### См. Также
+### См. также
 
 * интерфейс [IDocumentProperties](../../idocumentproperties)
 * пространство имен [Aspose.Slides](../../idocumentproperties)
@@ -51,7 +51,7 @@ public void GetCustomPropertyValue(string name, out int value)
 
 ## GetCustomPropertyValue(string, out DateTime) {#getcustompropertyvalue_4}
 
-Получает заданное значение DateTime из пользовательских свойств.
+Получает именованное значение DateTime из пользовательских свойств.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out DateTime value)
@@ -62,7 +62,7 @@ public void GetCustomPropertyValue(string name, out DateTime value)
 | name | String | Имя пользовательского свойства для получения |
 | value | DateTime& | Значение пользовательского свойства |
 
-### См. Также
+### См. также
 
 * интерфейс [IDocumentProperties](../../idocumentproperties)
 * пространство имен [Aspose.Slides](../../idocumentproperties)
@@ -72,7 +72,7 @@ public void GetCustomPropertyValue(string name, out DateTime value)
 
 ## GetCustomPropertyValue(string, out string) {#getcustompropertyvalue_5}
 
-Получает заданное строковое значение из пользовательских свойств.
+Получает именованное строковое значение из пользовательских свойств.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out string value)
@@ -83,7 +83,7 @@ public void GetCustomPropertyValue(string name, out string value)
 | name | String | Имя пользовательского свойства для получения |
 | value | String& | Значение пользовательского свойства |
 
-### См. Также
+### См. также
 
 * интерфейс [IDocumentProperties](../../idocumentproperties)
 * пространство имен [Aspose.Slides](../../idocumentproperties)
@@ -93,7 +93,7 @@ public void GetCustomPropertyValue(string name, out string value)
 
 ## GetCustomPropertyValue(string, out float) {#getcustompropertyvalue_3}
 
-Получает заданное значение float из пользовательских свойств.
+Получает именованное значение с плавающей точкой из пользовательских свойств.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out float value)
@@ -104,7 +104,7 @@ public void GetCustomPropertyValue(string name, out float value)
 | name | String | Имя пользовательского свойства для получения |
 | value | Single& | Значение пользовательского свойства |
 
-### См. Также
+### См. также
 
 * интерфейс [IDocumentProperties](../../idocumentproperties)
 * пространство имен [Aspose.Slides](../../idocumentproperties)
@@ -114,7 +114,7 @@ public void GetCustomPropertyValue(string name, out float value)
 
 ## GetCustomPropertyValue(string, out double) {#getcustompropertyvalue_1}
 
-Получает заданное значение double из пользовательских свойств.
+Получает именованное значение с двойной точностью из пользовательских свойств.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out double value)
@@ -125,7 +125,7 @@ public void GetCustomPropertyValue(string name, out double value)
 | name | String | Имя пользовательского свойства для получения. |
 | value | Double& | Значение пользовательского свойства |
 
-### См. Также
+### См. также
 
 * интерфейс [IDocumentProperties](../../idocumentproperties)
 * пространство имен [Aspose.Slides](../../idocumentproperties)

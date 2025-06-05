@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.theme/iformatscheme/linestyles/
 ---
+
 ## IFormatScheme.LineStyles property
 
 Returns a collection of theme defined line styles. Read-only [`ILineFormatCollection`](../../ilineformatcollection).

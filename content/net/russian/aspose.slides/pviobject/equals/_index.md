@@ -1,13 +1,13 @@
 ---
-title: Равно
-second_title: Справочник по API Aspose.Sildes для .NET
+title: Equals
+second_title: Aspose.Sildes для .NET API Справка
 description: Сравнивает с указанным объектом.
 type: docs
 weight: 20
 url: /ru/aspose.slides/pviobject/equals/
 ---
 
-## Метод PVIObject.Equals
+## PVIObject.Equals метод
 
 Сравнивает с указанным объектом.
 

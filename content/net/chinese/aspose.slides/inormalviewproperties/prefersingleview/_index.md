@@ -1,7 +1,7 @@
 ---
 title: PreferSingleView
-second_title: Aspose.Sildes for .NET API 参考
-description: 指定用户是否更喜欢查看全窗口单一内容区域而不是标准的三个内容区域的正常视图。如果启用，应用程序可能会选择在整个窗口中显示其中一个内容区域。可读/可写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定用户是否更喜欢在整个窗口中查看单一内容区域，而不是标准的具有三个内容区域的正常视图。如果启用，应用程序可以选择在整个窗口中显示其中一个内容区域。可读/可写布尔值。
 type: docs
 weight: 20
 url: /zh/aspose.slides/inormalviewproperties/prefersingleview/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/inormalviewproperties/prefersingleview/
 
 ## INormalViewProperties.PreferSingleView 属性
 
-指定用户是否更喜欢查看全窗口单一内容区域而不是标准的三个内容区域的正常视图。如果启用，应用程序可能会选择在整个窗口中显示其中一个内容区域。可读/可写布尔值。
+指定用户是否更喜欢在整个窗口中查看单一内容区域，而不是标准的具有三个内容区域的正常视图。如果启用，应用程序可以选择在整个窗口中显示其中一个内容区域。可读/可写布尔值。
 
 ```csharp
 public bool PreferSingleView { get; set; }
 ```
 
-### 参见
+### 另见
 
 * 接口 [INormalViewProperties](../../inormalviewproperties)
 * 命名空间 [Aspose.Slides](../../inormalviewproperties)

@@ -1,7 +1,7 @@
 ---
-title: Rechts
+title: Right
 second_title: Aspose.Slides für .NET API-Referenz
-description: Rechts. Nur lesbarer Single.
+description: Rechts. Schreibgeschützter Einzelwert.
 type: docs
 weight: 80
 url: /de/aspose.slides.charts/legend/right/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/legend/right/
 
 ## Legend.Right-Eigenschaft
 
-Rechts. Nur lesbarer Single.
+Rechts. Schreibgeschützter Einzelwert.
 
 ```csharp
 public float Right { get; }

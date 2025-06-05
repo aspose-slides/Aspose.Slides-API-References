@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/loadoptions/defaultregularfont/
 ---
+
 ## LoadOptions.DefaultRegularFont property
 
 Returns or sets Regular font used in case source font is not found. Read/write String.

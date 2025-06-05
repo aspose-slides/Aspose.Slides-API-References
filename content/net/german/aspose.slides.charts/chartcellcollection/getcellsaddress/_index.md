@@ -1,15 +1,15 @@
 ---
 title: GetCellsAddress
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Adresse der Gruppe von Zellen in der Arbeitsmappe zurück.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt die Adresse der Menge von Zellen in der Arbeitsmappe zurück.
 type: docs
 weight: 40
 url: /de/aspose.slides.charts/chartcellcollection/getcellsaddress/
 ---
 
-## ChartCellCollection.GetCellsAddress Methode
+## ChartCellCollection.GetCellsAddress-Methode
 
-Gibt die Adresse der Gruppe von Zellen in der Arbeitsmappe zurück.
+Gibt die Adresse der Menge von Zellen in der Arbeitsmappe zurück.
 
 ```csharp
 public string GetCellsAddress()

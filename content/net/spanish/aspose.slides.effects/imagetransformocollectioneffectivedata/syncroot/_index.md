@@ -1,6 +1,6 @@
 ---
 title: SyncRoot
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve una raíz de sincronización. Objeto de solo lectura.
 type: docs
 weight: 50
@@ -15,10 +15,10 @@ Devuelve una raíz de sincronización. Objeto de solo lectura.
 public object SyncRoot { get; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [ImageTransformOCollectionEffectiveData](../../imagetransformocollectioneffectivedata)
 * espacio de nombres [Aspose.Slides.Effects](../../imagetransformocollectioneffectivedata)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

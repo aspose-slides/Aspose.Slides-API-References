@@ -1,25 +1,25 @@
 ---
 title: AsISaveOptions
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das ISaveOptions-Interface zurück. Nur lesbares ISaveOptionsaspose.slides.export/isaveoptions.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt das ISaveOptions-Interface zurück. Schreibgeschütztes ISaveOptionsaspose.slides.export/isaveoptions.
 type: docs
 weight: 10
 url: /de/aspose.slides.export/ipptoptions/asisaveoptions/
 ---
 
-## IPptOptions.AsISaveOptions Eigenschaft
+## IPptOptions.AsISaveOptions-Eigenschaft
 
-Gibt das ISaveOptions-Interface zurück. Nur lesbares [`ISaveOptions`](../../isaveoptions).
+Gibt das ISaveOptions-Interface zurück. Schreibgeschütztes [`ISaveOptions`](../../isaveoptions).
 
 ```csharp
 public ISaveOptions AsISaveOptions { get; }
 ```
 
-### Bemerkungen
+### Anmerkungen
 
-Für COM-Kompatibilität.
+Für die COM-Kompatibilität.
 
-### Siehe Auch
+### Siehe auch
 
 * Interface [ISaveOptions](../../isaveoptions)
 * Interface [IPptOptions](../../ipptoptions)

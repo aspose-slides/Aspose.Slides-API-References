@@ -1,6 +1,6 @@
 ---
 title: DigitalSignatureCollection
-second_title: Aspose.Sildes pour .NET Référence de l'API
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente une collection de signatures numériques attachées à un document.
 type: docs
 weight: 2690
@@ -20,7 +20,7 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 | Nom | Description |
 | --- | --- |
 | [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | Retourne le nombre d'éléments dans la collection. Lecture seule Int32. |
-| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | Retourne une valeur indiquant si l'accès à la collection est synchronisé (sûr pour les threads). Lecture seule Boolean. |
+| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | Retourne une valeur indiquant si l'accès à la collection est synchronisé (sécurisé pour les threads). Lecture seule Boolean. |
 | [Item](../../aspose.slides/digitalsignaturecollection/item) { get; } | Retourne la signature par index. |
 | [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | Retourne une racine de synchronisation. Lecture seule Object. |
 

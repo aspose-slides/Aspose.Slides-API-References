@@ -1,15 +1,15 @@
 ---
 title: RefreshThumbnail
-second_title: Aspose.Slides pour .NET Référence de l'API
-description: Spécifie si la miniature de la présentation sera actualisée. Booléen en lecture/écriture. La valeur par défaut est true.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Spécifie si la miniature de la présentation sera rafraîchie. Boolean en lecture/écriture. La valeur par défaut est true.
 type: docs
 weight: 30
 url: /fr/aspose.slides.export/ipptxoptions/refreshthumbnail/
 ---
 
-## Propriété IPptxOptions.RefreshThumbnail
+## IPptxOptions.RefreshThumbnail propriété
 
-Spécifie si la miniature de la présentation sera actualisée. Booléen en lecture/écriture. La valeur par défaut est **true**.
+Spécifie si la miniature de la présentation sera rafraîchie. Boolean en lecture/écriture. La valeur par défaut est **true**.
 
 ```csharp
 public bool RefreshThumbnail { get; set; }
@@ -19,7 +19,7 @@ public bool RefreshThumbnail { get; set; }
 
 Lorsque la valeur de l'option est **true**, la nouvelle miniature sera générée.
 
-Lorsque la valeur de l'option est **false**, la miniature actuelle sera sauvegardée telle quelle.
+Lorsque la valeur de l'option est **false**, la miniature actuelle sera enregistrée telle quelle.
 
 ### Exemples
 

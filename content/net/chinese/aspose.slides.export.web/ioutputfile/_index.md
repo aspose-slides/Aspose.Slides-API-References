@@ -1,6 +1,6 @@
 ---
 title: IOutputFile
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示输出文件。
 type: docs
 weight: 4410
@@ -19,9 +19,9 @@ public interface IOutputFile
 
 | 名称 | 描述 |
 | --- | --- |
-| [Write](../../aspose.slides.export.web/ioutputfile/write)(Stream) | 将文件内容写入流。 |
+| [Write](../../aspose.slides.export.web/ioutputfile/write)(Stream) | 将文件内容写入流中。 |
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * 程序集 [Aspose.Slides](../../)

@@ -1,13 +1,13 @@
 ---
 title: AsILayoutable
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Позволяет получить базовый интерфейс ILayoutable. Только для чтения ILayoutableaspose.slides.charts/ilayoutable.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/icharttitle/asilayoutable/
 ---
 
-## Свойство IChartTitle.AsILayoutable
+## IChartTitle.AsILayoutable свойство
 
 Позволяет получить базовый интерфейс ILayoutable. Только для чтения [`ILayoutable`](../../ilayoutable).
 

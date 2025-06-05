@@ -1,13 +1,13 @@
 ---
 title: CompressionType
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt den Kompressionstyp an. Lese-/Schreibzugriff auf TiffCompressionTypesaspose.slides.export/tiffcompressiontypes.
 type: docs
 weight: 30
 url: /de/aspose.slides.export/tiffoptions/compressiontype/
 ---
 
-## TiffOptions.CompressionType Eigenschaft
+## TiffOptions.CompressionType-Eigenschaft
 
 Gibt den Kompressionstyp an. Lese-/Schreibzugriff auf [`TiffCompressionTypes`](../../tiffcompressiontypes).
 

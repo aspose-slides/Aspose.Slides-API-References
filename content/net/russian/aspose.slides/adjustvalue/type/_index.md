@@ -1,13 +1,13 @@
 ---
-title: Тип
-second_title: Справочная информация по API Aspose.Slides для .NET
+title: Type
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает тип настройки формы. Только для чтения ShapeAdjustmentTypeaspose.slides/shapeadjustmenttype.
 type: docs
 weight: 40
 url: /ru/aspose.slides/adjustvalue/type/
 ---
 
-## Свойство AdjustValue.Type
+## AdjustValue.Type свойство
 
 Возвращает тип настройки формы. Только для чтения [`ShapeAdjustmentType`](../../shapeadjustmenttype).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/adjustvalue/type/
 public ShapeAdjustmentType Type { get; }
 ```
 
-### См. также
+### Смотрите Также
 
 * enum [ShapeAdjustmentType](../../shapeadjustmenttype)
 * class [AdjustValue](../../adjustvalue)

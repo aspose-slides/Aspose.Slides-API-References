@@ -1,7 +1,7 @@
 ---
-title: Taille
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit la taille en points. L'attribution de toute valeur réinitialisera la propriété Type../type à Custom et définira Orientation../orientation. Lecture/écriture de SizeF.
+title: Size
+second_title: Aspose.Sildes pour .NET Référence API
+description: Retourne ou définit la taille en points. L'attribution de toute valeur réinitialisera la propriété Type../type à Custom et définira Orientation../orientation. Lecture/écriture SizeF.
 type: docs
 weight: 20
 url: /fr/aspose.slides/islidesize/size/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/islidesize/size/
 
 ## Propriété ISlideSize.Size
 
-Renvoie ou définit la taille en points. L'attribution de toute valeur réinitialisera la propriété [`Type`](../type) à Custom et définira [`Orientation`](../orientation). Lecture/écriture de SizeF.
+Retourne ou définit la taille en points. L'attribution de toute valeur réinitialisera la propriété [`Type`](../type) à Custom et définira [`Orientation`](../orientation). Lecture/écriture SizeF.
 
 ```csharp
 public SizeF Size { get; }

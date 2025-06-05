@@ -1,6 +1,6 @@
 ---
-title: Название
-second_title: Справочник по API Aspose.Slides для .NET
+title: Name
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает имя группы частей документа. Только для чтения строка.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/headingpair/name/
 public string Name { get; }
 ```
 
-### Смотрите также
+### См. Также
 
 * класс [HeadingPair](../../headingpair)
 * пространство имен [Aspose.Slides](../../headingpair)

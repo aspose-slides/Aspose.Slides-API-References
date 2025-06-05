@@ -1,6 +1,6 @@
 ---
 title: TickLabelRotationAngle
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Representa el ángulo de rotación de las etiquetas de marcas. Lectura/escritura Single.
 type: docs
 weight: 520

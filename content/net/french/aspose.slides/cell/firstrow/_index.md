@@ -1,6 +1,6 @@
 ---
-title: PremièreLigne
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: FirstRow
+second_title: Référence API Aspose.Slides pour .NET
 description: Obtient la première ligne de la cellule. Lecture seule IRowaspose.slides/irow.
 type: docs
 weight: 60

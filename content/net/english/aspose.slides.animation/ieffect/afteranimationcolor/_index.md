@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.animation/ieffect/afteranimationcolor/
 ---
+
 ## IEffect.AfterAnimationColor property
 
 Defined an after animation color for effect. Read/write [`IColorFormat`](../../../aspose.slides/icolorformat).

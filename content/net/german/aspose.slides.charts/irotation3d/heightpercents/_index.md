@@ -1,7 +1,7 @@
 ---
 title: HeightPercents
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Höhe eines 3-D-Diagramms als Prozentsatz der Diagrammbreite zwischen 5 und 500 Prozent an. Lese-/Schreibzugriff UInt16.
+description: Gibt die Höhe eines 3-D-Diagramms als Prozentsatz der Diagrammweite zwischen 5 und 500 Prozent an. Lese-/Schreibzugriff auf UInt16.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/irotation3d/heightpercents/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/irotation3d/heightpercents/
 
 ## IRotation3D.HeightPercents-Eigenschaft
 
-Gibt die Höhe eines 3-D-Diagramms als Prozentsatz der Diagrammbreite (zwischen 5 und 500 Prozent) an. Lese-/Schreibzugriff UInt16.
+Gibt die Höhe eines 3-D-Diagramms als Prozentsatz der Diagrammweite (zwischen 5 und 500 Prozent) an. Lese-/Schreibzugriff auf UInt16.
 
 ```csharp
 public ushort HeightPercents { get; set; }

@@ -1,7 +1,7 @@
 ---
-title: RechtsNachLinks
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob die Rechts-nach-Links-Schreibung in einem Absatz verwendet wird. Keine Vererbung angewendet. Lese-/Schreibbarer NullableBoolaspose.slides/nullablebool.
+title: RightToLeft
+second_title: Aspose.Sildes für .NET API Referenz
+description: Bestimmt, ob die Schreibrichtung von rechts nach links in einem Absatz verwendet wird. Keine Vererbung angewendet. Lese-/schreibbar NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 110
 url: /de/aspose.slides/paragraphformat/righttoleft/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/paragraphformat/righttoleft/
 
 ## ParagraphFormat.RightToLeft-Eigenschaft
 
-Bestimmt, ob die Rechts-nach-Links-Schreibung in einem Absatz verwendet wird. Keine Vererbung angewendet. Lese-/Schreibbar [`NullableBool`](../../nullablebool).
+Bestimmt, ob die Schreibrichtung von rechts nach links in einem Absatz verwendet wird. Keine Vererbung angewendet. Lese-/schreibbar [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool RightToLeft { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: InsertModernComment
-second_title: Aspose.Sildes für .NET API Referenz
-description: Fügen Sie einen neuen modernen Kommentar an der angegebenen Stelle zu einer Sammlung hinzu.
+second_title: Aspose.Slides für .NET API Referenz
+description: Fügen Sie einen neuen modernen Kommentar zu einer Sammlung an der angegebenen Stelle hinzu.
 type: docs
 weight: 120
 url: /de/aspose.slides/commentcollection/insertmoderncomment/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/commentcollection/insertmoderncomment/
 
 ## CommentCollection.InsertModernComment Methode
 
-Fügen Sie einen neuen modernen Kommentar an der angegebenen Stelle in einer Sammlung hinzu.
+Fügen Sie einen neuen modernen Kommentar zu einer Sammlung an der angegebenen Stelle hinzu.
 
 ```csharp
 public IModernComment InsertModernComment(int index, string text, ISlide slide, IShape shape, 
@@ -21,9 +21,9 @@ public IModernComment InsertModernComment(int index, string text, ISlide slide, 
 | index | Int32 | Index des Elements in einer Sammlung, an dem der moderne Kommentar eingefügt werden soll. |
 | text | String | Klartext eines neuen modernen Kommentars. |
 | slide | ISlide | Folie in einer Präsentation, wo ein neuer moderner Kommentar hinzugefügt werden soll. |
-| shape | IShape | Form auf einer Folie, der ein neuer moderner Kommentar zugeordnet ist. |
+| shape | IShape | Form auf einer Folie, mit der ein neuer moderner Kommentar verknüpft ist. |
 | position | PointF | Position auf einer Folie, wo ein neuer moderner Kommentar hinzugefügt werden soll. |
-| creationTime | DateTime | Zeit der Erstellung eines modernen Kommentars. |
+| creationTime | DateTime | Zeitpunkt der Erstellung eines modernen Kommentars. |
 
 ### Rückgabewert
 

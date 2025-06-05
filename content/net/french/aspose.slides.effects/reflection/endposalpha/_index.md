@@ -1,7 +1,7 @@
 ---
 title: EndPosAlpha
-second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie la position finale le long de la rampe de dégradé alpha de la valeur alpha finale en pourcentages. Lecture/écriture Single.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Spécifie la position finale le long de la rampe de dégradé alpha des valeurs alpha finales pourcentages. Interne/externe Single.
 type: docs
 weight: 40
 url: /fr/aspose.slides.effects/reflection/endposalpha/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/reflection/endposalpha/
 
 ## Propriété Reflection.EndPosAlpha
 
-Spécifie la position finale (le long de la rampe de dégradé alpha) de la valeur alpha finale (en pourcentages). Lecture/écriture Single.
+Spécifie la position finale (le long de la rampe de dégradé alpha) de la valeur alpha finale (pourcentages). Interne/externe Single.
 
 ```csharp
 public float EndPosAlpha { get; set; }

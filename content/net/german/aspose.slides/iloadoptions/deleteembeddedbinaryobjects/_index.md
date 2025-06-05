@@ -1,7 +1,7 @@
 ---
 title: DeleteEmbeddedBinaryObjects
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob Aspose.Slides beim Laden der Präsentation alle eingebetteten Binärobjekte löschen wird.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt, ob Aspose.Slides alle eingebetteten Binärobjekte beim Laden der Präsentation löschen wird.
 type: docs
 weight: 60
 url: /de/aspose.slides/iloadoptions/deleteembeddedbinaryobjects/
@@ -9,23 +9,23 @@ url: /de/aspose.slides/iloadoptions/deleteembeddedbinaryobjects/
 
 ## ILoadOptions.DeleteEmbeddedBinaryObjects-Eigenschaft
 
-Bestimmt, ob Aspose.Slides beim Laden der Präsentation alle eingebetteten Binärobjekte löschen wird.
+Bestimmt, ob Aspose.Slides alle eingebetteten Binärobjekte beim Laden der Präsentation löschen wird.
 
-Die Arten der eingebetteten Binärobjekte:
+Die Typen der eingebetteten Binärobjekte:
 
 * VBA-Projekt [`VbaProject`](../../ipresentation/vbaproject)
-* OLE-Objekt eingebettete Daten [`EmbeddedFileData`](../../ioleembeddeddatainfo/embeddedfiledata)
-* ActiveX-Steuerelement Binärdaten [`ActiveXControlBinary`](../../icontrol/activexcontrolbinary)
+* OLE Objekt eingebettete Daten [`EmbeddedFileData`](../../ioleembeddeddatainfo/embeddedfiledata)
+* ActiveX-Steuerelement binäre Daten [`ActiveXControlBinary`](../../icontrol/activexcontrolbinary)
 
-Lese-/schreibbare Boolesche Variable.
+Lese-/Schreibboolean.
 
 ```csharp
 public bool DeleteEmbeddedBinaryObjects { get; set; }
 ```
 
-### Hinweise
+### Bemerkungen
 
-Standard ist **false**.
+Der Standardwert ist **false**.
 
 ### Beispiele
 
@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation("pres.ppt", loadOptions))
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ILoadOptions](../../iloadoptions)
 * Namespace [Aspose.Slides](../../iloadoptions)

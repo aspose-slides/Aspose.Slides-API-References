@@ -1,21 +1,21 @@
 ---
-title: УголОбзора
-second_title: Справка по API Aspose.Slides для .NET
-description: Угол обзора камеры 0-180 градусов. Чтение/запись Single.
+title: FieldOfViewAngle
+second_title: Aspose.Slides для .NET API Reference
+description: Угол обзора камеры FOV 0-180 градусов. Чтение/запись Single.
 type: docs
 weight: 20
 url: /ru/aspose.slides/camera/fieldofviewangle/
 ---
 
-## Свойство Camera.FieldOfViewAngle
+## Camera.FieldOfViewAngle свойство
 
-Угол обзора камеры (0-180 градусов, поле обзора). Чтение/запись Single.
+Угол обзора камеры FOV (0-180 градусов, поле зрения). Чтение/запись Single.
 
 ```csharp
 public float FieldOfViewAngle { get; set; }
 ```
 
-### См. Также
+### См. также
 
 * класс [Camera](../../camera)
 * пространство имен [Aspose.Slides](../../camera)

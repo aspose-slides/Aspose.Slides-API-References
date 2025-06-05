@@ -1,13 +1,13 @@
 ---
-title: 输入
-second_title: Aspose.Slides for .NET API 参考
+title: Input
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示输入元素模板的集合。
 type: docs
 weight: 4440
 url: /zh/aspose.slides.export.web/input/
 ---
 
-## Input 类
+## Input class
 
 表示输入元素（模板）的集合。
 

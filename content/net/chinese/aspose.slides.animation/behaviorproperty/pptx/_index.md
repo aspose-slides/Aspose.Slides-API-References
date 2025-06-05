@@ -1,7 +1,7 @@
 ---
 title: PptX
-second_title: Aspose.Sildes for .NET API 参考
-description: 代表 ppt_x 属性
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示 ppt_x 属性
 type: docs
 weight: 550
 url: /zh/aspose.slides.animation/behaviorproperty/pptx/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/behaviorproperty/pptx/
 
 ## BehaviorProperty.PptX 属性
 
-代表 'ppt_x' 属性
+表示 'ppt_x' 属性
 
 ```csharp
 public static BehaviorProperty PptX { get; }

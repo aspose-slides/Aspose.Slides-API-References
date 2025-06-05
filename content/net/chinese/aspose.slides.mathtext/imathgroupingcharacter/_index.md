@@ -1,7 +1,7 @@
 ---
 title: IMathGroupingCharacter
 second_title: Aspose.Sildes for .NET API Reference
-description: 指定一个在表达式上方或下方的分组符号，通常用于突出元素之间的关系
+description: 指定一个表达式上方或下方的分组符号，通常用于突出显示元素之间的关系
 type: docs
 weight: 8040
 url: /zh/aspose.slides.mathtext/imathgroupingcharacter/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathgroupingcharacter/
 
 ## IMathGroupingCharacter 接口
 
-指定一个在表达式上方或下方的分组符号，通常用于突出元素之间的关系
+指定一个表达式上方或下方的分组符号，通常用于突出显示元素之间的关系
 
 ```csharp
 public interface IMathGroupingCharacter : IMathElement
@@ -19,22 +19,22 @@ public interface IMathGroupingCharacter : IMathElement
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathgroupingcharacter/asimathelement) { get; } | 允许获取基础 IMathElement 接口 [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathgroupingcharacter/asimathelement) { get; } | 允许获取基本 IMathElement 接口 [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathgroupingcharacter/base) { get; } | 基本参数 |
 | [Character](../../aspose.slides.mathtext/imathgroupingcharacter/character) { get; set; } | 分组字符 默认值: U+23DF (底部花括号) |
-| [Position](../../aspose.slides.mathtext/imathgroupingcharacter/position) { get; set; } | 分组字符的位置。 默认值: 底部 |
-| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | 分组字符的垂直对齐。 指定对象相对于基线的对齐方式。例如，当分组字符在对象上方时，VerticalJustification 为 Top 表示对象的顶部位于基线；当 VerticalJustification 设置为 Bottom 时，对象的底部位于基线 默认值: Position=Top 时为 Bottom，Position=Bottom 时为 Top |
+| [Position](../../aspose.slides.mathtext/imathgroupingcharacter/position) { get; set; } | 分组字符的位置。默认: 底部 |
+| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | 分组字符的垂直对齐方式。指定对象相对于基线的对齐方式。例如，当分组字符位于对象上方时，VerticalJustification 设置为 Top 表示对象的顶部落在基线上；当 VerticalJustification 设置为 Bottom 时，表示对象的底部位于基线上 默认: 对于 Position=Top，Bottom；对于 Position=Bottom，Top |
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
 IMathGroupingCharacter groupingElement = new MathematicalText("x;y;z").Group();
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IMathElement](../imathelement)
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

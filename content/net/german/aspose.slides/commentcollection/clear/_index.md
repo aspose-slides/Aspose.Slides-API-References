@@ -1,13 +1,13 @@
 ---
-title: Löschen
-second_title: Aspose.Slides für .NET API-Referenz
+title: Clear
+second_title: Aspose.Slides für .NET API Referenz
 description: Entfernt alle Kommentare aus einer Sammlung.
 type: docs
 weight: 70
 url: /de/aspose.slides/commentcollection/clear/
 ---
 
-## CommentCollection.Clear-Methode
+## CommentCollection.Clear Methode
 
 Entfernt alle Kommentare aus einer Sammlung.
 
@@ -15,7 +15,7 @@ Entfernt alle Kommentare aus einer Sammlung.
 public void Clear()
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [CommentCollection](../../commentcollection)
 * Namespace [Aspose.Slides](../../commentcollection)

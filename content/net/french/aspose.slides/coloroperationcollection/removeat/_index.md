@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Aspose.Slides pour .NET Référence de l'API
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Supprime l'opération de couleur d'une collection.
 type: docs
 weight: 120
 url: /fr/aspose.slides/coloroperationcollection/removeat/
 ---
 
-## Méthode ColorOperationCollection.RemoveAt
+## ColorOperationCollection.RemoveAt méthode
 
 Supprime l'opération de couleur d'une collection.
 

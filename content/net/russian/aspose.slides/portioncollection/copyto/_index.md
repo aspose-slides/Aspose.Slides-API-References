@@ -1,6 +1,6 @@
 ---
 title: CopyTo
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для справки по .NET API
 description: Копирует элементы ICollection в массив, начиная с определенного индекса массива.
 type: docs
 weight: 70
@@ -17,8 +17,8 @@ public void CopyTo(IPortion[] array, int arrayIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| array | IPortion[] | Одномерный массив, который является местом назначения для элементов, скопированных из ICollection. Массив должен иметь нулевую индексацию. |
-| arrayIndex | Int32 | Индекс в *array*, с которого начинается копирование. |
+| array | IPortion[] | Одномерный массив, который является местом назначения для элементов, скопированных из ICollection. Массив должен иметь индексацию с нуля. |
+| arrayIndex | Int32 | Индекс в *array* с нуля, с которого начинается копирование. |
 
 ### Исключения
 
@@ -28,7 +28,7 @@ public void CopyTo(IPortion[] array, int arrayIndex)
 | ArgumentOutOfRangeException | *arrayIndex* меньше 0. |
 | ArgumentException | Количество элементов в исходном ICollection больше доступного пространства от *arrayIndex* до конца целевого *array*. |
 
-### См. также
+### См. Также
 
 * интерфейс [IPortion](../../iportion)
 * класс [PortionCollection](../../portioncollection)

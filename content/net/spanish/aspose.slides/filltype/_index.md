@@ -22,12 +22,12 @@ public enum FillType : sbyte
 | NotDefined | `-1` | El tipo de relleno no está definido. |
 | NoFill | `0` | No se aplica relleno. |
 | Solid | `1` | Relleno con un color sólido. |
-| Gradient | `2` | El relleno es un degradado. |
-| Pattern | `3` | Se utiliza un patrón repetido para llenar el objeto. |
-| Picture | `4` | Se utiliza una sola imagen para llenar el objeto. |
+| Gradient | `2` | El relleno es degradado. |
+| Pattern | `3` | Se utiliza un patrón repetido para rellenar el objeto. |
+| Picture | `4` | Se utiliza una sola imagen para rellenar el objeto. |
 | Group | `5` | El objeto visual hereda las propiedades de relleno del grupo. |
 
-### Véase también
+### Véase También
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

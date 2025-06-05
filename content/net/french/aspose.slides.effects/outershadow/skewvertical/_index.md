@@ -1,15 +1,15 @@
 ---
 title: SkewVertical
-second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie l'angle de torsion vertical en degrés. Lecture/écriture Double.
+second_title: Aspose.Slides pour .NET API Référence
+description: Spécifie l'angle de skew vertical en degrés. Lecture/écriture Double.
 type: docs
 weight: 100
 url: /fr/aspose.slides.effects/outershadow/skewvertical/
 ---
 
-## Propriété OuterShadow.SkewVertical
+## OuterShadow.SkewVertical propriété
 
-Spécifie l'angle de torsion vertical (en degrés). Lecture/écriture Double.
+Spécifie l'angle de skew vertical (en degrés). Lecture/écriture Double.
 
 ```csharp
 public double SkewVertical { get; set; }

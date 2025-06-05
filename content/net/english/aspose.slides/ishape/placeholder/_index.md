@@ -3,9 +3,10 @@ title: Placeholder
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns the placeholder for a shape. Read-only IPlaceholderaspose.slides/iplaceholder.
 type: docs
-weight: 190
+weight: 200
 url: /aspose.slides/ishape/placeholder/
 ---
+
 ## IShape.Placeholder property
 
 Returns the placeholder for a shape. Read-only [`IPlaceholder`](../../iplaceholder).

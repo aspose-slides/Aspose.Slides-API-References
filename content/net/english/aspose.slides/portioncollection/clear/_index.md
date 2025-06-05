@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/portioncollection/clear/
 ---
+
 ## PortionCollection.Clear method
 
 Removes all elements from the collection.

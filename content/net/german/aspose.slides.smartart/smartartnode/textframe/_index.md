@@ -1,7 +1,7 @@
 ---
 title: TextFrame
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Textrahmen des Knotens zurück. Nur-Lese ITextFrame aspose.slides/itextframe.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den Textrahmen des Knotens zurück. Nur-lesend ITextFrameaspose.slides/itextframe.
 type: docs
 weight: 90
 url: /de/aspose.slides.smartart/smartartnode/textframe/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.smartart/smartartnode/textframe/
 
 ## SmartArtNode.TextFrame-Eigenschaft
 
-Gibt den Textrahmen des Knotens zurück. Nur-Lese [`ITextFrame`](../../../aspose.slides/itextframe).
+Gibt den Textrahmen des Knotens zurück. Nur-lesend [`ITextFrame`](../../../aspose.slides/itextframe).
 
 ```csharp
 public ITextFrame TextFrame { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ITextFrame](../../../aspose.slides/itextframe)
 * Klasse [SmartArtNode](../../smartartnode)

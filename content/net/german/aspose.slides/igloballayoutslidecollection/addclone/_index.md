@@ -1,7 +1,7 @@
 ---
 title: AddClone
 second_title: Aspose.Slides für .NET API Referenz
-description: Fügt eine Kopie eines angegebenen Layout-Slides zur Präsentation hinzu.
+description: Fügt eine Kopie einer bestimmten Layoutfolie zur Präsentation hinzu.
 type: docs
 weight: 30
 url: /de/aspose.slides/igloballayoutslidecollection/addclone/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/igloballayoutslidecollection/addclone/
 
 ## AddClone(ILayoutSlide) {#addclone}
 
-Fügt eine Kopie eines angegebenen Layout-Slides zur Präsentation hinzu.
+Fügt eine Kopie einer bestimmten Layoutfolie zur Präsentation hinzu.
 
 ```csharp
 public ILayoutSlide AddClone(ILayoutSlide sourceLayout)
@@ -17,15 +17,15 @@ public ILayoutSlide AddClone(ILayoutSlide sourceLayout)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| sourceLayout | ILayoutSlide | Zu klonender Slide. |
+| sourceLayout | ILayoutSlide | Folie zum Klonen. |
 
 ### Rückgabewert
 
-Hinzugefügter Slide.
+Hinzufügte Folie.
 
 ### Anmerkungen
 
-Beim Klonen eines Layouts zwischen verschiedenen Präsentationen kann auch das Master des Layouts geklont werden, um die Quellformatierung beizubehalten. Ein internes Register wird verwendet, um automatisch geklonte Master zu verfolgen und die Erstellung mehrerer Klone derselben Master-Slide zu verhindern. Das manuelle Klonen von Master-Slides wird weder verhindert noch registriert.
+Beim Klonen eines Layouts zwischen verschiedenen Präsentationen kann das Master-Layout ebenfalls geklont werden, um das Quellformat beizubehalten. Das interne Register wird verwendet, um automatisch geklonte Masterfolien zu verfolgen und die Erstellung mehrerer Klone derselben Masterfolie zu verhindern. Das manuelle Klonen von Masterfolien wird weder verhindert noch registriert.
 
 ### Siehe Auch
 
@@ -38,7 +38,7 @@ Beim Klonen eines Layouts zwischen verschiedenen Präsentationen kann auch das M
 
 ## AddClone(ILayoutSlide, IMasterSlide) {#addclone_1}
 
-Fügt eine Kopie eines angegebenen Layout-Slides zur Präsentation hinzu.
+Fügt eine Kopie einer bestimmten Layoutfolie zur Präsentation hinzu.
 
 ```csharp
 public ILayoutSlide AddClone(ILayoutSlide sourceLayout, IMasterSlide destMaster)
@@ -46,16 +46,16 @@ public ILayoutSlide AddClone(ILayoutSlide sourceLayout, IMasterSlide destMaster)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| sourceLayout | ILayoutSlide | Zu klonender Slide. |
-| destMaster | IMasterSlide | Master-Slide für ein neues Layout. |
+| sourceLayout | ILayoutSlide | Folie zum Klonen. |
+| destMaster | IMasterSlide | Masterfolie für ein neues Layout. |
 
 ### Rückgabewert
 
-Hinzugefügter Slide.
+Hinzufügte Folie.
 
 ### Anmerkungen
 
-Das neue Layout wird mit dem definierten Master in der Zielpräsentation verknüpft. Dies ist also analog zu Kopieren/Einfügen mit der Option "Ziel-Design verwenden" in PowerPoint.
+Das neue Layout wird mit dem definierten Master in der Zielpräsentation verknüpft. Dies ist also analog zu Kopieren/Einfügen mit der Option "Zielthema verwenden" in PowerPoint.
 
 ### Siehe Auch
 

@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/igradientformateffectivedata/lineargradientscaled/
 ---
+
 ## IGradientFormatEffectiveData.LinearGradientScaled property
 
 Determines whether a gradient is scaled. Read-only Boolean.

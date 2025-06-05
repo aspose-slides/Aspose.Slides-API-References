@@ -1,15 +1,15 @@
 ---
 title: ParentShape
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает родительскую фигуру или null, если родительский объект не реализует интерфейс IShape только для чтения IShapeaspose.slides/ishape.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает родительскую фигуру или null, если родительский объект не реализует интерфейс IShape Только для чтения IShapeaspose.slides/ishape.
 type: docs
 weight: 50
 url: /ru/aspose.slides/itextframe/parentshape/
 ---
 
-## Свойство ITextFrame.ParentShape
+## ITextFrame.ParentShape свойство
 
-Возвращает родительскую фигуру или null, если родительский объект не реализует интерфейс IShape только для чтения [`IShape`](../../ishape).
+Возвращает родительскую фигуру или null, если родительский объект не реализует интерфейс IShape Только для чтения [`IShape`](../../ishape).
 
 ```csharp
 public IShape ParentShape { get; }
@@ -17,7 +17,7 @@ public IShape ParentShape { get; }
 
 ### Примеры
 
-Следующий пример кода показывает
+Следующий пример кода демонстрирует
 
 ```csharp
 [C#]
@@ -30,7 +30,7 @@ using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 }
 ```
 
-### Смотрите также
+### Смотрите Также
 
 * интерфейс [IShape](../../ishape)
 * интерфейс [ITextFrame](../../itextframe)

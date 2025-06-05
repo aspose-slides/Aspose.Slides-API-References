@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/igradientstopeffectivedata/position/
 ---
+
 ## IGradientStopEffectiveData.Position property
 
 Returns the position (0..1) of a gradient stop. Read-only Single.

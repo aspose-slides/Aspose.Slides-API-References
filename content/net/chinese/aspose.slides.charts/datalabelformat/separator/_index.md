@@ -1,7 +1,7 @@
 ---
-title: 分隔符
-second_title: Aspose.Slides for .NET API 参考
-description: 设置或返回一个表示图表上数据标签使用的分隔符的 Variant。可读写字符串。
+title: Separator
+second_title: Aspose.Sildes for .NET API Reference
+description: 设置或返回一个表示图表数据标签使用的分隔符的变体。可读写字符串。
 type: docs
 weight: 60
 url: /zh/aspose.slides.charts/datalabelformat/separator/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/datalabelformat/separator/
 
 ## DataLabelFormat.Separator 属性
 
-设置或返回一个表示图表上数据标签使用的分隔符的 Variant。可读写字符串。
+设置或返回一个表示图表数据标签使用的分隔符的变体。可读写字符串。
 
 ```csharp
 public string Separator { get; set; }
@@ -17,9 +17,9 @@ public string Separator { get; set; }
 
 ### 备注
 
-如果这个 DataLabelFormat 对象的父级是一个 DataLabelCollection 数据标签集合，则此属性获取或设置 DataLabelCollection 集合中新数据标签的 Separator 属性的默认值。设置此属性的值还会将此值设置为 DataLabelCollection 集合中所有数据标签的 Separator 属性（即 “DataLabels.DefaultDataLabelFormat.Separator = val;” 导致所有 DataLabels[i].Separator 等于 val）。
+如果此 DataLabelFormat 对象的父级是 DataLabelCollection 数据标签集合，则该属性获取或设置 DataLabelCollection 集合中新数据标签的 Separator 属性的默认值。设置该属性的值也将该值设置为 DataLabelCollection 集合中所有数据标签的 Separator 属性（即“DataLabels.DefaultDataLabelFormat.Separator = val;”使所有 DataLabels[i].Separator 等于 val）。
 
-### 另请参见
+### 另请参阅
 
 * class [DataLabelFormat](../../datalabelformat)
 * namespace [Aspose.Slides.Charts](../../datalabelformat)

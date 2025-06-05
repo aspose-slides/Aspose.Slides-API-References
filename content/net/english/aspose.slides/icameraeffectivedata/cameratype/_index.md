@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/icameraeffectivedata/cameratype/
 ---
+
 ## ICameraEffectiveData.CameraType property
 
 Camera type. Read-only [`CameraPresetType`](../../camerapresettype).

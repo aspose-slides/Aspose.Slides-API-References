@@ -1,7 +1,7 @@
 ---
 title: IColorReplaceEffectiveData
-second_title: Aspose.Slides для .NET API Reference
-description: Неизменяемый объект, представляющий эффект замены цвета. Все цвета эффекта заменяются на фиксированный цвет. Альфа-значения не затрагиваются.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Непримеряемый объект, который представляет эффект замены цвета. Все цвета эффекта заменяются на фиксированный цвет. Значения альфа не затрагиваются.
 type: docs
 weight: 3130
 url: /ru/aspose.slides.effects/icolorreplaceeffectivedata/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/icolorreplaceeffectivedata/
 
 ## Интерфейс IColorReplaceEffectiveData
 
-Неизменяемый объект, представляющий эффект замены цвета. Все цвета эффекта заменяются на фиксированный цвет. Альфа-значения не затрагиваются.
+Непримеряемый объект, который представляет эффект замены цвета. Все цвета эффекта заменяются на фиксированный цвет. Значения альфа не затрагиваются.
 
 ```csharp
 public interface IColorReplaceEffectiveData : IEffectEffectiveData
@@ -22,7 +22,7 @@ public interface IColorReplaceEffectiveData : IEffectEffectiveData
 | [AsIEffectEffectiveData](../../aspose.slides.effects/icolorreplaceeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Color](../../aspose.slides.effects/icolorreplaceeffectivedata/color) { get; } | Возвращает цветовой формат, который заменит цвет каждого пикселя. Только для чтения Color. |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IEffectEffectiveData](../ieffecteffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)

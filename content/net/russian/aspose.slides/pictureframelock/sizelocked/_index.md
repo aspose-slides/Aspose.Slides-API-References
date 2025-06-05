@@ -1,13 +1,13 @@
 ---
 title: SizeLocked
-second_title: Ссылка на API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Определяет, запрещено ли изменение размера этой формы. Читаемое/записываемое логическое значение.
 type: docs
 weight: 110
 url: /ru/aspose.slides/pictureframelock/sizelocked/
 ---
 
-## Свойство PictureFrameLock.SizeLocked
+## PictureFrameLock.SizeLocked свойство
 
 Определяет, запрещено ли изменение размера этой формы. Читаемое/записываемое логическое значение.
 

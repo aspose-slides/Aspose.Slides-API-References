@@ -1,13 +1,13 @@
 ---
-title: Secciones
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve una lista de todas las secciones de diapositivas que están definidas en la presentación. Solo lectura ISectionCollection aspose.slides/isectioncollection.
+title: Sections
+second_title: Aspose.Sildes para .NET Referencia de la API
+description: Devuelve una lista de todas las secciones de diapositivas que están definidas en la presentación. Solo lectura ISectionCollectionaspose.slides/isectioncollection.
 type: docs
 weight: 230
 url: /es/aspose.slides/ipresentation/sections/
 ---
 
-## Propiedad IPresentation.Sections
+## IPresentation.Sections property
 
 Devuelve una lista de todas las secciones de diapositivas que están definidas en la presentación. Solo lectura [`ISectionCollection`](../../isectioncollection).
 
@@ -20,6 +20,6 @@ public ISectionCollection Sections { get; }
 * interfaz [ISectionCollection](../../isectioncollection)
 * interfaz [IPresentation](../../ipresentation)
 * espacio de nombres [Aspose.Slides](../../ipresentation)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

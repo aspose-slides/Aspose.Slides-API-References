@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export/responsivehtmlcontroller/responsivehtmlcontroller/
 ---
+
 ## ResponsiveHtmlController() {#constructor}
 
 Creates new instance

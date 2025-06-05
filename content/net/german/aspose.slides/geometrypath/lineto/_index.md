@@ -1,7 +1,7 @@
 ---
 title: LineTo
-second_title: Aspose.Slides für .NET API Referenz
-description: Fügt eine Linie ans Ende des Pfades hinzu
+second_title: Aspose.Slides für .NET API-Referenz
+description: Fügt eine Linie am Ende des Pfades hinzu
 type: docs
 weight: 80
 url: /de/aspose.slides/geometrypath/lineto/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/geometrypath/lineto/
 
 ## LineTo(PointF) {#lineto_2}
 
-Fügt eine Linie ans Ende des Pfades hinzu
+Fügt eine Linie am Ende des Pfades hinzu
 
 ```csharp
 public void LineTo(PointF point)
@@ -29,7 +29,7 @@ public void LineTo(PointF point)
 
 ## LineTo(float, float) {#lineto}
 
-Fügt eine Linie ans Ende des Pfades hinzu
+Fügt eine Linie am Ende des Pfades hinzu
 
 ```csharp
 public void LineTo(float x, float y)
@@ -50,7 +50,7 @@ public void LineTo(float x, float y)
 
 ## LineTo(PointF, uint) {#lineto_3}
 
-Fügt eine Linie an der angegebenen Stelle des Pfades hinzu
+Fügt eine Linie an einer bestimmten Stelle des Pfades hinzu
 
 ```csharp
 public void LineTo(PointF point, uint index)
@@ -77,7 +77,7 @@ public void LineTo(PointF point, uint index)
 
 ## LineTo(float, float, uint) {#lineto_1}
 
-Fügt eine Linie an der angegebenen Stelle des Pfades hinzu
+Fügt eine Linie an einer bestimmten Stelle des Pfades hinzu
 
 ```csharp
 public void LineTo(float x, float y, uint index)

@@ -1,15 +1,15 @@
 ---
 title: RemoveAt
-second_title: Aspose.Slides für .NET API-Referenz
-description: Entfernt ein Element am angegebenen Index der Sammlung.
+second_title: Aspose.Slides für .NET API Referenz
+description: Entfernt ein Element an dem angegebenen Index der Sammlung.
 type: docs
 weight: 110
 url: /de/aspose.slides.mathtext/mathparagraph/removeat/
 ---
 
-## MathParagraph.RemoveAt-Methode
+## MathParagraph.RemoveAt Methode
 
-Entfernt ein Element am angegebenen Index der Sammlung.
+Entfernt ein Element an dem angegebenen Index der Sammlung.
 
 ```csharp
 public void RemoveAt(int index)

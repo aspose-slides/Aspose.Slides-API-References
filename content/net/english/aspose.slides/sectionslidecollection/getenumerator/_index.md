@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/sectionslidecollection/getenumerator/
 ---
+
 ## SectionSlideCollection.GetEnumerator method
 
 Returns an enumerator that iterates through the collection.

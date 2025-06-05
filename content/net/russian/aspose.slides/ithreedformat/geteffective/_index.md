@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides для .NET API Справочник
-description: Получает эффективные данные 3-D формата с примененным наследованием.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает эффективные данные 3-D форматирования с применением наследования.
 type: docs
 weight: 120
 url: /ru/aspose.slides/ithreedformat/geteffective/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ithreedformat/geteffective/
 
 ## IThreeDFormat.GetEffective метод
 
-Получает эффективные данные 3-D формата с примененным наследованием.
+Получает эффективные данные 3-D форматирования с применением наследования.
 
 ```csharp
 public IThreeDFormatEffectiveData GetEffective()
@@ -19,7 +19,7 @@ public IThreeDFormatEffectiveData GetEffective()
 
 [`IThreeDFormatEffectiveData`](../../ithreedformateffectivedata).
 
-### Смотрите также
+### См. Также
 
 * интерфейс [IThreeDFormatEffectiveData](../../ithreedformateffectivedata)
 * интерфейс [IThreeDFormat](../../ithreedformat)

@@ -1,15 +1,15 @@
 ---
 title: SchemeColor
-second_title: Ссылка на API Aspose.Sildes для .NET
-description: Возвращает или задает цвет, определяемый цветовой схемой. Чтение/запись SchemeColoraspose.slides/schemecolor.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или задает цвет, идентифицированный цветовой схемой. Чтение/запись SchemeColoraspose.slides/schemecolor.
 type: docs
 weight: 140
 url: /ru/aspose.slides/colorformat/schemecolor/
 ---
 
-## Свойство ColorFormat.SchemeColor
+## ColorFormat.SchemeColor свойство
 
-Возвращает или задает цвет, определяемый цветовой схемой. Чтение/запись [`SchemeColor`](../../schemecolor).
+Возвращает или задает цвет, идентифицированный цветовой схемой. Чтение/запись [`SchemeColor`](../../schemecolor).
 
 ```csharp
 public SchemeColor SchemeColor { get; set; }

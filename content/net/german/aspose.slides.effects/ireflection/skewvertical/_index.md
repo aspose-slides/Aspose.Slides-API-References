@@ -1,21 +1,21 @@
 ---
 title: SkewVertical
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den vertikalen Schrägungswinkel an. Lese-/Schreibzugriff Double.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den vertikalen Schrägungswinkel an. Lese-/schreibbarer Double.
 type: docs
 weight: 140
 url: /de/aspose.slides.effects/ireflection/skewvertical/
 ---
 
-## IReflection.SkewVertical Eigenschaft
+## IReflection.SkewVertical-Eigenschaft
 
-Gibt den vertikalen Schrägungswinkel an. Lese-/Schreibzugriff Double.
+Gibt den vertikalen Schrägungswinkel an. Lese-/schreibbarer Double.
 
 ```csharp
 public double SkewVertical { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IReflection](../../ireflection)
 * Namespace [Aspose.Slides.Effects](../../ireflection)

@@ -25,7 +25,7 @@ Diapositive ajoutée.
 
 ### Remarques
 
-1) La nouvelle mise en page sera liée à la diapositive maître parente pour cette collection de diapositives de mise en page. C'est donc l'analogue de copier/coller avec l'option "Utiliser le thème de destination" dans PowerPoint. 2) L'analogue de cette méthode est la méthode [`AddClone`](../../igloballayoutslidecollection/addclone) accessible avec la propriété [`LayoutSlides`](../../ipresentation/layoutslides).
+1) La nouvelle mise en page sera liée à la diapositive maître parent pour cette collection de diapositives de mise en page. Donc, c'est l'analogue de copier/coller avec l'option "Utiliser le thème de destination" dans PowerPoint. 2) L'analogue de cette méthode est la méthode [`AddClone`](../../igloballayoutslidecollection/addclone) accessible via la propriété [`LayoutSlides`](../../ipresentation/layoutslides).
 
 ### Voir aussi
 

@@ -1,6 +1,6 @@
 ---
 title: AddAudioFrameCD
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence de l'API .NET
 description: Ajoute un AudioFrame avec CD à la fin de la collection.
 type: docs
 weight: 30

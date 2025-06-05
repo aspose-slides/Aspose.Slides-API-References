@@ -15,7 +15,7 @@ Devuelve el objeto ColumnFormat que contiene propiedades de formato para esta co
 public IColumnFormat ColumnFormat { get; }
 ```
 
-### Véase También
+### Véase también
 
 * interfaz [IColumnFormat](../../icolumnformat)
 * interfaz [IColumn](../../icolumn)

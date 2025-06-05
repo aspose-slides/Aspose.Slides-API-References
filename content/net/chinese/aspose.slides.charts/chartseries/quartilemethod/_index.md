@@ -1,6 +1,6 @@
 ---
-title: 四分位数方法
-second_title: Aspose.Sildes for .NET API 参考
+title: QuartileMethod
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示四分位数方法。仅适用于箱线图。
 type: docs
 weight: 340
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/chartseries/quartilemethod/
 public QuartileMethodType QuartileMethod { get; set; }
 ```
 
-### 参见
+### 另见
 
 * enum [QuartileMethodType](../../quartilemethodtype)
 * class [ChartSeries](../../chartseries)

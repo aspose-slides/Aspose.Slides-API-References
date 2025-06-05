@@ -1,7 +1,7 @@
 ---
 title: HasSeriesLines
-second_title: Aspose.Slides für .NET API-Referenz
-description: Wahr, wenn das Diagramm Serienlinien hat. Angewendet auf gestapelte Balken- und OfPie-Diagramme. Lese-/schreibbarer Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Wahr, wenn das Diagramm Serienlinien hat. Gilt für gestapelte Balken- und OfPie-Diagramme. Lese-/Schreib-Boolean.
 type: docs
 weight: 80
 url: /de/aspose.slides.charts/ichartseriesgroup/hasserieslines/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartseriesgroup/hasserieslines/
 
 ## IChartSeriesGroup.HasSeriesLines-Eigenschaft
 
-Wahr, wenn das Diagramm Serienlinien hat. Angewendet auf gestapelte Balken- und OfPie-Diagramme. Lese-/schreibbarer Boolean.
+Wahr, wenn das Diagramm Serienlinien hat. Gilt für gestapelte Balken- und OfPie-Diagramme. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool HasSeriesLines { get; set; }

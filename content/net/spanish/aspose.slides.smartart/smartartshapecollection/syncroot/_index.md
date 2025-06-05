@@ -15,7 +15,7 @@ Devuelve una raíz de sincronización. Objeto de solo lectura.
 public object SyncRoot { get; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [SmartArtShapeCollection](../../smartartshapecollection)
 * espacio de nombres [Aspose.Slides.SmartArt](../../smartartshapecollection)

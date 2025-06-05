@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/fontsubstrulecollection/getenumerator/
 ---
+
 ## FontSubstRuleCollection.GetEnumerator method
 
 Returns an enumerator that iterates through the collection.

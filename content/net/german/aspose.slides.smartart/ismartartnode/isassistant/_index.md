@@ -1,7 +1,7 @@
 ---
 title: IsAssistant
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Knoten als Assistenten zurück oder setzt ihn. Lese-/Schreib-Boolean.
+second_title: Aspose.Slides für .NET API Reference
+description: Gibt den Knoten als Assistenten zurück oder setzt ihn. Lese-/schreibbares Boolean.
 type: docs
 weight: 30
 url: /de/aspose.slides.smartart/ismartartnode/isassistant/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.smartart/ismartartnode/isassistant/
 
 ## ISmartArtNode.IsAssistant-Eigenschaft
 
-Gibt den Knoten als Assistenten zurück oder setzt ihn. Lese-/Schreib-Boolean.
+Gibt den Knoten als Assistenten zurück oder setzt ihn. Lese-/schreibbares Boolean.
 
 ```csharp
 public bool IsAssistant { get; set; }

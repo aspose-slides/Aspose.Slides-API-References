@@ -7,7 +7,7 @@ weight: 380
 url: /fr/aspose.slides/idocumentproperties/containscustomproperty/
 ---
 
-## Méthode IDocumentProperties.ContainsCustomProperty
+## IDocumentProperties.ContainsCustomProperty méthode
 
 Vérifiez la présence d'une propriété personnalisée avec un nom spécifié.
 

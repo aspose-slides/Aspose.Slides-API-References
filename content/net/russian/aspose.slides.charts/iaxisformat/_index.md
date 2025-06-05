@@ -1,7 +1,7 @@
 ---
 title: IAxisFormat
-second_title: Aspose.Sildes для .NET API Reference
-description: Представляет свойства форматирования диаграммы.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет свойства формата графика.
 type: docs
 weight: 1640
 url: /ru/aspose.slides.charts/iaxisformat/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/iaxisformat/
 
 ## Интерфейс IAxisFormat
 
-Представляет свойства форматирования диаграммы.
+Представляет свойства формата графика.
 
 ```csharp
 public interface IAxisFormat
@@ -23,7 +23,7 @@ public interface IAxisFormat
 | [Fill](../../aspose.slides.charts/iaxisformat/fill) { get; } | Возвращает свойства стиля заливки оси. Только для чтения [`IFillFormat`](../../aspose.slides/ifillformat). |
 | [Line](../../aspose.slides.charts/iaxisformat/line) { get; } | Возвращает свойства стиля линии оси. Только для чтения [`ILineFormat`](../../aspose.slides/ilineformat). |
 
-### См. Также
+### См. также
 
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)

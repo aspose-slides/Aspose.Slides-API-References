@@ -1,7 +1,7 @@
 ---
 title: RepeatCount
-second_title: Référence API Aspose.Slides pour .NET
-description: Décrit le nombre de fois que l'effet doit se répéter. Lecture/écriture Simple.
+second_title: Aspose.Slides pour .NET Référence API
+description: Décrit le nombre de fois que l'effet doit se répéter. Lecture/écriture Single.
 type: docs
 weight: 50
 url: /fr/aspose.slides.animation/itiming/repeatcount/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/itiming/repeatcount/
 
 ## Propriété ITiming.RepeatCount
 
-Décrit le nombre de fois que l'effet doit se répéter. Lecture/écriture Simple.
+Décrit le nombre de fois que l'effet doit se répéter. Lecture/écriture Single.
 
 ```csharp
 public float RepeatCount { get; set; }

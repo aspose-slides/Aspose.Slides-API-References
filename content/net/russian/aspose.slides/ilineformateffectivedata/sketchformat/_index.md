@@ -1,7 +1,7 @@
 ---
 title: SketchFormat
-second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает формата эскиза линии. Только для чтения ISketchFormatEffectiveDataaspose.slides/isketchformateffectivedata.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает формат эскиза линии. Данные ISketchFormatEffectiveDataaspose.slides/isketchformateffectivedata только для чтения.
 type: docs
 weight: 150
 url: /ru/aspose.slides/ilineformateffectivedata/sketchformat/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/ilineformateffectivedata/sketchformat/
 
 ## ILineFormatEffectiveData.SketchFormat свойство
 
-Возвращает формат эскиза линии. Только для чтения [`ISketchFormatEffectiveData`](../../isketchformateffectivedata).
+Возвращает формат эскиза линии. Данные только для чтения [`ISketchFormatEffectiveData`](../../isketchformateffectivedata).
 
 ```csharp
 public ISketchFormatEffectiveData SketchFormat { get; }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [ISketchFormatEffectiveData](../../isketchformateffectivedata)
 * интерфейс [ILineFormatEffectiveData](../../ilineformateffectivedata)

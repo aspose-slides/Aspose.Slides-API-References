@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/slideshowsettings/showanimation/
 ---
+
 ## SlideShowSettings.ShowAnimation property
 
 Show Animation in Slide Show

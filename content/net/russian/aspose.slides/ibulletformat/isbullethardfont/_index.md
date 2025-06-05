@@ -1,15 +1,15 @@
 ---
 title: IsBulletHardFont
 second_title: Aspose.Slides для .NET API Справочник
-description: Определяет, имеет ли маркер собственный шрифт или наследует его от первой части в абзаце. NullableBool.True, если маркер имеет собственный шрифт, и NullableBool.False, если маркер наследует шрифт от первой части в абзаце. Доступ на чтение/запись NullableBoolaspose.slides/nullablebool.
+description: Определяет, есть ли у маркера собственный шрифт или он унаследован от первой части в абзаце. NullableBool.True, если у маркера есть собственный шрифт, и NullableBool.False, если маркер унаследовал шрифт от первой части в абзаце. Чтение/запись NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 60
 url: /ru/aspose.slides/ibulletformat/isbullethardfont/
 ---
 
-## Свойство IBulletFormat.IsBulletHardFont
+## IBulletFormat.IsBulletHardFont свойство
 
-Определяет, имеет ли маркер собственный шрифт или наследует его от первой части в абзаце. **NullableBool.True**, если маркер имеет собственный шрифт, и **NullableBool.False**, если маркер наследует шрифт от первой части в абзаце. Доступ на чтение/запись [`NullableBool`](../../nullablebool).
+Определяет, есть ли у маркера собственный шрифт или он унаследован от первой части в абзаце. **NullableBool.True**, если у маркера есть собственный шрифт, и **NullableBool.False**, если маркер унаследовал шрифт от первой части в абзаце. Чтение/запись [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool IsBulletHardFont { get; set; }

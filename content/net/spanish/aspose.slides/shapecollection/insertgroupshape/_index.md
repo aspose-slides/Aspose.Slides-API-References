@@ -1,15 +1,15 @@
 ---
 title: InsertGroupShape
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Crea un nuevo GroupShape e insertalo en la colección en el índice especificado. El tamaño y la posición del marco del GroupShape se ajustarán al contenido cuando se agregue una nueva forma al GroupShape.
+second_title: Aspose.Slides para .NET API Reference
+description: Crea un nuevo GroupShape y lo inserta en la colección en el índice especificado. El tamaño y la posición del marco del GroupShape se ajustarán al contenido cuando se agregue una nueva forma al GroupShape.
 type: docs
 weight: 340
 url: /es/aspose.slides/shapecollection/insertgroupshape/
 ---
 
-## Método ShapeCollection.InsertGroupShape
+## ShapeCollection.InsertGroupShape método
 
-Crea un nuevo GroupShape e insertalo en la colección en el índice especificado. El tamaño y la posición del marco del GroupShape se ajustarán al contenido cuando se agregue una nueva forma al GroupShape.
+Crea un nuevo GroupShape y lo inserta en la colección en el índice especificado. El tamaño y la posición del marco del GroupShape se ajustarán al contenido cuando se agregue una nueva forma al GroupShape.
 
 ```csharp
 public IGroupShape InsertGroupShape(int index)
@@ -19,15 +19,15 @@ public IGroupShape InsertGroupShape(int index)
 | --- | --- | --- |
 | index | Int32 | El índice basado en cero en el que se debe insertar el valor. |
 
-### Valor de Retorno
+### Valor de retorno
 
 Objeto GroupShape creado.
 
-### Véase También
+### Véase también
 
 * interfaz [IGroupShape](../../igroupshape)
 * clase [ShapeCollection](../../shapecollection)
 * espacio de nombres [Aspose.Slides](../../shapecollection)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export/ixpsoptions/asisaveoptions/
 ---
+
 ## IXpsOptions.AsISaveOptions property
 
 Returns ISaveOptions interface. Read-only [`ISaveOptions`](../../isaveoptions).

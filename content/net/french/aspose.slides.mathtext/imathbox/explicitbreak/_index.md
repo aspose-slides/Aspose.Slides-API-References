@@ -1,15 +1,15 @@
 ---
 title: ExplicitBreak
-second_title: Référence de l'API Aspose.Slidеs pour .NET
-description: Le saut explicite spécifie s'il y a un saut de ligne au début de l'objet Box, de sorte que la ligne s'enroule au début de l'objet box. Spécifie le numéro de l'opérateur sur la ligne précédente de texte mathématique qui sera utilisé comme point d'alignement pour la ligne actuelle de texte mathématique. Valeurs possibles  1..255 Par défaut  0 pas de saut explicite
+second_title: Aspose.Sildes pour la référence API .NET
+description: La coupure explicite spécifie s'il y a une rupture de ligne au début de l'objet Box, de sorte que la ligne s'enroule au début de l'objet box. Spécifie le numéro de l'opérateur sur la ligne précédente du texte mathématique qui sera utilisé comme point d'alignement pour la ligne actuelle de texte mathématique, valeurs possibles  1..255 Par défaut  0 pas de coupure explicite
 type: docs
 weight: 50
 url: /fr/aspose.slides.mathtext/imathbox/explicitbreak/
 ---
 
-## Propriété IMathBox.ExplicitBreak
+## IMathBox.ExplicitBreak propriété
 
-Le saut explicite spécifie s'il y a un saut de ligne au début de l'objet Box, de sorte que la ligne s'enroule au début de l'objet box. Spécifie le numéro de l'opérateur sur la ligne précédente de texte mathématique qui sera utilisé comme point d'alignement pour la ligne actuelle de texte mathématique. Valeurs possibles : 1..255 Par défaut : 0 (pas de saut explicite)
+La coupure explicite spécifie s'il y a une rupture de ligne au début de l'objet Box, de sorte que la ligne s'enroule au début de l'objet box. Spécifie le numéro de l'opérateur sur la ligne précédente du texte mathématique qui sera utilisé comme point d'alignement pour la ligne actuelle de texte mathématique, valeurs possibles : 1..255 Par défaut : 0 (pas de coupure explicite)
 
 ```csharp
 public byte ExplicitBreak { get; set; }
@@ -17,7 +17,7 @@ public byte ExplicitBreak { get; set; }
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

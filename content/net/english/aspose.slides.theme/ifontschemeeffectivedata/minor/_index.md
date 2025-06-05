@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.theme/ifontschemeeffectivedata/minor/
 ---
+
 ## IFontSchemeEffectiveData.Minor property
 
 Returns the fonts collection for a "body" part of the slide. Read-only [`IFontsEffectiveData`](../../../aspose.slides/ifontseffectivedata).

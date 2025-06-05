@@ -1,7 +1,7 @@
 ---
-title: ModeNoirBlanc
+title: BlackWhiteMode
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: La propriété spécifie comment une forme sera rendue en mode d'affichage noir et blanc.. Lecture/écriture BlackWhiteModeaspose.slides/blackwhitemode.
+description: La propriété spécifie comment une forme s'affichera en mode d'affichage noir et blanc.. Lecture/écriture BlackWhiteModeaspose.slides/blackwhitemode.
 type: docs
 weight: 50
 url: /fr/aspose.slides/ishape/blackwhitemode/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ishape/blackwhitemode/
 
 ## Propriété IShape.BlackWhiteMode
 
-La propriété spécifie comment une forme sera rendue en mode d'affichage noir et blanc.. Lecture/écriture [`BlackWhiteMode`](../../blackwhitemode).
+La propriété spécifie comment une forme s'affichera en mode d'affichage noir et blanc.. Lecture/écriture [`BlackWhiteMode`](../../blackwhitemode).
 
 ```csharp
 public BlackWhiteMode BlackWhiteMode { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [BlackWhiteMode](../../blackwhitemode)
 * interface [IShape](../../ishape)

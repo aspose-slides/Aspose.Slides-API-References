@@ -1,7 +1,7 @@
 ---
 title: ToArray
 second_title: Aspose.Sildes for .NET API Reference
-description: 创建并返回一个包含该规则所有回退字体的数组。
+description: 创建并返回一个包含此规则所有后备字体的数组。
 type: docs
 weight: 110
 url: /zh/aspose.slides/fontfallbackrule/toarray/
@@ -9,28 +9,28 @@ url: /zh/aspose.slides/fontfallbackrule/toarray/
 
 ## ToArray() {#toarray}
 
-创建并返回一个包含该规则所有回退字体的数组。
+创建并返回一个包含此规则所有后备字体的数组。
 
 ```csharp
 public string[] ToArray()
 ```
 
-### 返回值
+### Return Value
 
 字符串数组
 
-### 示例
+### Examples
 
 ```csharp
 [C#]
 // 创建一个包含字体列表的规则。
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma, Times New Roman");
 
-// 将所有字体名称作为数组获取。
+// 获取所有字体名称作为数组。
 string[] fontNames = newRule.ToArray();
 ```
 
-### 另见
+### See Also
 
 * class [FontFallBackRule](../../fontfallbackrule)
 * namespace [Aspose.Slides](../../fontfallbackrule)
@@ -40,33 +40,33 @@ string[] fontNames = newRule.ToArray();
 
 ## ToArray(int, int) {#toarray_1}
 
-创建并返回一个包含指定范围内回退字体的数组。
+创建并返回一个包含指定范围内所有后备字体的数组。
 
 ```csharp
 public string[] ToArray(int startIndex, int count)
 ```
 
-| 参数 | 类型 | 描述 |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | startIndex | Int32 | 要添加的第一个字体的索引。 |
 | count | Int32 | 要添加的字体数量。 |
 
-### 返回值
+### Return Value
 
 字符串数组
 
-### 示例
+### Examples
 
 ```csharp
 [C#]
 // 创建一个包含字体列表的规则。
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma, Times New Roman");
 
-// 将最后两个字体名称作为数组获取。
+// 获取最后两个字体名称作为数组。
 string[] fontNames = newRule.ToArray(2,2);
 ```
 
-### 另见
+### See Also
 
 * class [FontFallBackRule](../../fontfallbackrule)
 * namespace [Aspose.Slides](../../fontfallbackrule)

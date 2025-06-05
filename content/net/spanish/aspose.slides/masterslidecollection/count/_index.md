@@ -1,7 +1,7 @@
 ---
-title: Contar
+title: Count
 second_title: Referencia de la API de Aspose.Slides para .NET
-description: Obtiene el número de elementos que realmente contiene la colección. Solo lectura Int32.
+description: Obtiene el número de elementos contenidos en la colección. Solo lectura Int32.
 type: docs
 weight: 10
 url: /es/aspose.slides/masterslidecollection/count/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/masterslidecollection/count/
 
 ## Propiedad MasterSlideCollection.Count
 
-Obtiene el número de elementos que realmente contiene la colección. Solo lectura Int32.
+Obtiene el número de elementos contenidos en la colección. Solo lectura Int32.
 
 ```csharp
 public int Count { get; }
@@ -17,8 +17,8 @@ public int Count { get; }
 
 ### Ver También
 
-* class [MasterSlideCollection](../../masterslidecollection)
-* namespace [Aspose.Slides](../../masterslidecollection)
-* assembly [Aspose.Slides](../../../)
+* clase [MasterSlideCollection](../../masterslidecollection)
+* espacio de nombres [Aspose.Slides](../../masterslidecollection)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

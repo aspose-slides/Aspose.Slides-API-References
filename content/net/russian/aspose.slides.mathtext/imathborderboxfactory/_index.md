@@ -1,7 +1,7 @@
 ---
 title: IMathBorderBoxFactory
-second_title: Aspose.Slides для .NET API Справочник
-description: Позволяет создать математический контейнер с границами
+second_title: Aspose.Sildes для .NET API Справочник
+description: Позволяет создавать математическую границу
 type: docs
 weight: 7930
 url: /ru/aspose.slides.mathtext/imathborderboxfactory/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/imathborderboxfactory/
 
 ## Интерфейс IMathBorderBoxFactory
 
-Позволяет создать математический контейнер с границами
+Позволяет создавать математическую границу
 
 ```csharp
 public interface IMathBorderBoxFactory
@@ -17,17 +17,17 @@ public interface IMathBorderBoxFactory
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Создать математический контейнер с границами, применяя к элементу |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Создать математический контейнер с границами, применяя к элементу |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Создает математическую границу, применяя к элементу |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Создает математическую границу, применяя к элементу |
 
 ### Примечания
 
 Для совместимости с COM
 
-### Также см.
- 
+### См. Также
+
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)
 

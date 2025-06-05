@@ -1,15 +1,15 @@
 ---
 title: CellInvalidFormulaException
-second_title: Aspose.Sildes for .NET API 参考
-description: 当计算的公式不正确或无法解析时抛出的异常。
+second_title: Aspose.Sildes for .NET API Reference
+description: 当计算公式不正确或未被解析时抛出的异常。
 type: docs
 weight: 10400
 url: /zh/aspose.slides.spreadsheet/cellinvalidformulaexception/
 ---
 
-## CellInvalidFormulaException 类
+## CellInvalidFormulaException class
 
-当计算的公式不正确或无法解析时抛出的异常。
+当计算公式不正确或未被解析时抛出的异常。
 
 ```csharp
 public class CellInvalidFormulaException : PptxEditException
@@ -19,10 +19,10 @@ public class CellInvalidFormulaException : PptxEditException
 
 | 名称 | 描述 |
 | --- | --- |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor)() | 初始化 [`CellInvalidFormulaException`](../cellinvalidformulaexception) 类的新实例。 |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | 用指定的错误消息初始化 [`CellInvalidFormulaException`](../cellinvalidformulaexception) 类的新实例。 |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | 用指定的错误消息和导致此异常的内部异常的引用初始化 [`CellInvalidFormulaException`](../cellinvalidformulaexception) 类的新实例。 |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | 用指定的错误消息和包含无效公式的单元格引用初始化 [`CellInvalidFormulaException`](../cellinvalidformulaexception) 类的新实例。 |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor)() | 初始化[`CellInvalidFormulaException`](../cellinvalidformulaexception) 类的新实例。 |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | 用指定的错误消息初始化[`CellInvalidFormulaException`](../cellinvalidformulaexception) 类的新实例。 |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | 用指定的错误消息和内层异常的引用（导致此异常的原因）初始化[`CellInvalidFormulaException`](../cellinvalidformulaexception) 类的新实例。 |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | 用指定的错误消息和包含无效公式的单元格引用初始化[`CellInvalidFormulaException`](../cellinvalidformulaexception) 类的新实例。 |
 
 ## 属性
 
@@ -30,7 +30,7 @@ public class CellInvalidFormulaException : PptxEditException
 | --- | --- |
 | [Reference](../../aspose.slides.spreadsheet/cellinvalidformulaexception/reference) { get; } | 获取包含无效公式的单元格引用。 |
 
-### 另请参阅
+### 另见
 
 * 类 [PptxEditException](../../aspose.slides/pptxeditexception)
 * 命名空间 [Aspose.Slides.Spreadsheet](../../aspose.slides.spreadsheet)

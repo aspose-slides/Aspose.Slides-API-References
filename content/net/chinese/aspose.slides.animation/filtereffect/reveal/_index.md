@@ -1,7 +1,7 @@
 ---
-title: 显示
+title: Reveal
 second_title: Aspose.Slides for .NET API 参考
-description: 表示具有必须揭示（进/出）行为的效果。可以读写 FilterEffectRevealTypeaspose.slides/filtereffectrevealtype。
+description: 表示该效果的行为必须暴露（进/出）可读/可写 FilterEffectRevealTypeaspose.slides/filtereffectrevealtype。
 type: docs
 weight: 20
 url: /zh/aspose.slides.animation/filtereffect/reveal/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/filtereffect/reveal/
 
 ## FilterEffect.Reveal 属性
 
-表示具有必须揭示（进/出）行为的效果。可以读写 [`FilterEffectRevealType`](../../filtereffectrevealtype)。
+表示该效果的行为必须暴露（进/出）可读/可写 [`FilterEffectRevealType`](../../filtereffectrevealtype)。
 
 ```csharp
 public FilterEffectRevealType Reveal { get; set; }

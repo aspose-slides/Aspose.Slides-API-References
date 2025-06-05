@@ -1,6 +1,6 @@
 ---
 title: Status
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt den Status des Kommentars zurück oder setzt ihn. Lese-/Schreibzugriff auf ModernCommentStatusaspose.slides/moderncommentstatus.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ Gibt den Status des Kommentars zurück oder setzt ihn. Lese-/Schreibzugriff auf 
 public ModernCommentStatus Status { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [ModernCommentStatus](../../moderncommentstatus)
 * interface [IModernComment](../../imoderncomment)

@@ -1,15 +1,15 @@
 ---
 title: DataSourceTypeForYPlusValues
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt an, ob die Eigenschaft AsCell, AsLiteralString oder AsLiteralDouble im YPlus-Eigenschaftsobjekt der Datenpunkte für benutzerdefinierte Werte der Fehlerbalken gültig ist. Mit anderen Worten, sie gibt den Typ des Wertes der Eigenschaft ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data an. Lese-/Schreibeigenschaft DataSourceTypeaspose.slides/datasourcetype.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt an, ob die Eigenschaft AsCell, AsLiteralString oder AsLiteralDouble in den Datenpunkten des YPlus-Eigenschaftsobjekts für benutzerdefinierte Fehlerbalkenwerte aktuell ist. Mit anderen Worten, es gibt den Werttyp der Eigenschaft ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data an. Lesen/Schreiben DataSourceTypeaspose.slides/datasourcetype.
 type: docs
 weight: 50
 url: /de/aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues/
 ---
 
-## DataSourceTypeForErrorBarsCustomValues.DataSourceTypeForYPlusValues-Eigenschaft
+## DataSourceTypeForErrorBarsCustomValues.DataSourceTypeForYPlusValues Eigenschaft
 
-Gibt an, ob die Eigenschaft AsCell, AsLiteralString oder AsLiteralDouble im YPlus-Eigenschaftsobjekt der Datenpunkte für benutzerdefinierte Werte der Fehlerbalken gültig ist. Mit anderen Worten, sie gibt den Typ des Wertes der Eigenschaft ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data an. Lese-/Schreibeigenschaft [`DataSourceType`](../../datasourcetype).
+Gibt an, ob die Eigenschaft AsCell, AsLiteralString oder AsLiteralDouble in den Datenpunkten des YPlus-Eigenschaftsobjekts für benutzerdefinierte Fehlerbalkenwerte aktuell ist. Mit anderen Worten, es gibt den Werttyp der Eigenschaft ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data an. Lesen/Schreiben [`DataSourceType`](../../datasourcetype).
 
 ```csharp
 public DataSourceType DataSourceTypeForYPlusValues { get; set; }

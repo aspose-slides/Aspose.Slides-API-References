@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.animation/imotioneffect/rotationcenter/
 ---
+
 ## IMotionEffect.RotationCenter property
 
 Describes the center of the rotation used to rotate a motion path by X angle. Read/write PointF.

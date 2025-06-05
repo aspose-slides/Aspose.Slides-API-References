@@ -1,15 +1,15 @@
 ---
 title: DataSourceTypeForXPlusValues
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie si la propriété AsCell ou AsLiteralString ou AsLiteralDouble est actuelle dans l'objet de propriété XPlus des points de données pour les valeurs personnalisées des barres d'erreur. En d'autres termes, elle spécifie le type de valeur de la propriété ChartDataPoint.ErrorBarsCustomValues.XPlus.Data. Lecture/écriture DataSourceTypeaspose.slides.charts/datasourcetype.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Spécifie si la propriété AsCell ou AsLiteralString ou AsLiteralDouble est pertinente dans l'objet propriété XPlus des points de données pour les valeurs personnalisées des barres d'erreur. En d'autres termes, cela spécifie le type de valeur de la propriété ChartDataPoint.ErrorBarsCustomValues.XPlus.Data. Lecture/écriture DataSourceTypeaspose.slides/datasourcetype.
 type: docs
 weight: 30
 url: /fr/aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues/
 ---
 
-## DataSourceTypeForErrorBarsCustomValues.DataSourceTypeForXPlusValues property
+## DataSourceTypeForErrorBarsCustomValues.DataSourceTypeForXPlusValues propriété
 
-Spécifie si la propriété AsCell ou AsLiteralString ou AsLiteralDouble est actuelle dans l'objet de propriété XPlus des points de données pour les valeurs personnalisées des barres d'erreur. En d'autres termes, elle spécifie le type de valeur de la propriété ChartDataPoint.ErrorBarsCustomValues.XPlus.Data. Lecture/écriture [`DataSourceType`](../../datasourcetype).
+Spécifie si la propriété AsCell ou AsLiteralString ou AsLiteralDouble est pertinente dans l'objet propriété XPlus des points de données pour les valeurs personnalisées des barres d'erreur. En d'autres termes, cela spécifie le type de valeur de la propriété ChartDataPoint.ErrorBarsCustomValues.XPlus.Data. Lecture/écriture [`DataSourceType`](../../datasourcetype).
 
 ```csharp
 public DataSourceType DataSourceTypeForXPlusValues { get; set; }

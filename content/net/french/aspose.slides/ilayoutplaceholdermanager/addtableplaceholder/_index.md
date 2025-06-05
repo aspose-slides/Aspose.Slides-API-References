@@ -1,15 +1,15 @@
 ---
 title: AddTablePlaceholder
-second_title: Référence API Aspose.Slides pour .NET
-description: Ajoute une nouvelle forme de placeholder au diaporama de mise en page pour contenir un tableau.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Ajoute une nouvelle forme de remplacement à la diapositive de mise en page pour contenir un tableau.
 type: docs
 weight: 70
 url: /fr/aspose.slides/ilayoutplaceholdermanager/addtableplaceholder/
 ---
 
-## Méthode ILayoutPlaceholderManager.AddTablePlaceholder
+## ILayoutPlaceholderManager.AddTablePlaceholder méthode
 
-Ajoute une nouvelle forme de placeholder au diaporama de mise en page pour contenir un tableau.
+Ajoute une nouvelle forme de remplacement à la diapositive de mise en page pour contenir un tableau.
 
 ```csharp
 public IAutoShape AddTablePlaceholder(float x, float y, float width, float height)
@@ -17,18 +17,18 @@ public IAutoShape AddTablePlaceholder(float x, float y, float width, float heigh
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| x | Single | La coordonnée X de la nouvelle forme de placeholder. |
-| y | Single | La coordonnée Y de la nouvelle forme de placeholder. |
-| width | Single | La largeur de la nouvelle forme de placeholder. |
-| height | Single | La hauteur de la nouvelle forme de placeholder. |
+| x | Single | La coordonnée X de la nouvelle forme de remplacement. |
+| y | Single | La coordonnée Y de la nouvelle forme de remplacement. |
+| width | Single | La largeur de la nouvelle forme de remplacement. |
+| height | Single | La hauteur de la nouvelle forme de remplacement. |
 
 ### Valeur de retour
 
-Créé [`IAutoShape`](../../iautoshape) avec un placeholder de Table.
+Créé [`IAutoShape`](../../iautoshape) avec un remplacement de tableau.
 
 ### Exemples
 
-L'exemple suivant montre comment ajouter la forme de placeholder de Table au diaporama de mise en page.
+L'exemple suivant montre comment ajouter la forme de remplacement de tableau à la diapositive de mise en page.
 
 ```csharp
 [C#]

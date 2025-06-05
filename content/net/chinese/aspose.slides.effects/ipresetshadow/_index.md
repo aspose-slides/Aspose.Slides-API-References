@@ -1,6 +1,6 @@
 ---
 title: IPresetShadow
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Slildes for .NET API Reference
 description: 表示预设阴影效果。
 type: docs
 weight: 3360
@@ -20,8 +20,8 @@ public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | 允许获取基本的 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | 允许获取基本的 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | 允许获取基础 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | 允许获取基础 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
 | [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | 阴影的方向。读/写 Single。 |
 | [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | 阴影的距离。读/写 Double。 |
 | [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | 预设。读/写 [`PresetShadowType`](../../aspose.slides/presetshadowtype)。 |

@@ -1,6 +1,6 @@
 ---
 title: IHtmlGenerator
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: Html 生成器。
 type: docs
 weight: 3790
@@ -19,28 +19,28 @@ public interface IHtmlGenerator
 
 | 名称 | 描述 |
 | --- | --- |
-| [NextSlideIndex](../../aspose.slides.export/ihtmlgenerator/nextslideindex) { get; } | 返回将渲染的幻灯片索引，该幻灯片将在当前幻灯片之后渲染，如果当前正在渲染最后一张幻灯片，则返回 -1。只读 Int32。 |
-| [PreviousSlideIndex](../../aspose.slides.export/ihtmlgenerator/previousslideindex) { get; } | 返回之前渲染的幻灯片索引，如果正在渲染第一张幻灯片，则返回 -1。只读 Int32。 |
+| [NextSlideIndex](../../aspose.slides.export/ihtmlgenerator/nextslideindex) { get; } | 返回将在当前幻灯片之后呈现的幻灯片的索引，或如果当前正在呈现最后一张幻灯片则返回 -1。只读 Int32。 |
+| [PreviousSlideIndex](../../aspose.slides.export/ihtmlgenerator/previousslideindex) { get; } | 返回上一个已呈现幻灯片的索引，如果正在呈现第一张幻灯片则返回 -1。只读 Int32。 |
 | [SlideImageSize](../../aspose.slides.export/ihtmlgenerator/slideimagesize) { get; } | 返回幻灯片图像大小。只读 SizeF。 |
 | [SlideImageSizeUnit](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunit) { get; } | 返回指定幻灯片图像大小的单位。只读 [`SvgCoordinateUnit`](../svgcoordinateunit)。 |
 | [SlideImageSizeUnitCode](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode) { get; } | 返回指定幻灯片图像大小的单位的 css 代码。只读 String。 |
-| [SlideIndex](../../aspose.slides.export/ihtmlgenerator/slideindex) { get; } | 返回当前正在渲染的幻灯片索引。只读 Int32。 |
+| [SlideIndex](../../aspose.slides.export/ihtmlgenerator/slideindex) { get; } | 返回当前正在呈现的幻灯片的索引。只读 Int32。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue)(char[]) | 引用属性值并将其添加到html文件中。 |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_2)(string) | 引用属性值并将其添加到html文件中。 |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | 引用属性值并将其添加到html文件中。 |
-| [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml)(char[]) | 添加格式化的HTML文本。 |
-| [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_2)(string) | 添加格式化的HTML文本。 |
-| [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_1)(char[], int, int) | 添加格式化的HTML文本。 |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | 将纯文本添加到html文件中，用html实体替换特殊字符。换行符和空格未被替换。 |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | 将纯文本添加到html文件中，用html实体替换特殊字符。换行符和空格未被替换。 |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | 将纯文本添加到html文件中，用html实体替换特殊字符。换行符和空格未被替换。 |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue)(char[]) | 引号属性值并将其添加到 html 文件中。 |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_2)(string) | 引号属性值并将其添加到 html 文件中。 |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | 引号属性值并将其添加到 html 文件中。 |
+| [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml)(char[]) | 添加格式化的 HTML 文本。 |
+| [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_2)(string) | 添加格式化的 HTML 文本。 |
+| [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_1)(char[], int, int) | 添加格式化的 HTML 文本。 |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | 向 html 文件添加纯文本，用 html 实体替换特殊字符。换行和空格不被替换。 |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | 向 html 文件添加纯文本，用 html 实体替换特殊字符。换行和空格不被替换。 |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | 向 html 文件添加纯文本，用 html 实体替换特殊字符。换行和空格不被替换。 |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)
 * 程序集 [Aspose.Slides](../../)

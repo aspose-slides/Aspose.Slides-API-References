@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.charts/chartdata/externalworkbookpath/
 ---
+
 ## ChartData.ExternalWorkbookPath property
 
 Represents data source of the chart

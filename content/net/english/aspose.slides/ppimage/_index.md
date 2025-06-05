@@ -3,9 +3,10 @@ title: PPImage
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an image in a presentation.
 type: docs
-weight: 8650
+weight: 8980
 url: /aspose.slides/ppimage/
 ---
+
 ## PPImage class
 
 Represents an image in a presentation.
@@ -21,8 +22,8 @@ public class PPImage : IDisposable, IPPImage
 | [BinaryData](../../aspose.slides/ppimage/binarydata) { get; } | Returns the copy of an image's data. Read-only Byte[]. |
 | [ContentType](../../aspose.slides/ppimage/contenttype) { get; } | Returns a MIME type of an image, encoded in [`BinaryData`](./binarydata). Read-only String. |
 | [Height](../../aspose.slides/ppimage/height) { get; } | Returns a height of an image. Read-only Int32. |
+| [Image](../../aspose.slides/ppimage/image) { get; } | Returns the copy of an image. Read-only [`IImage`](../iimage). |
 | [SvgImage](../../aspose.slides/ppimage/svgimage) { get; set; } | Returns or sets ISvgImage object [`ISvgImage`](../isvgimage) |
-| [SystemImage](../../aspose.slides/ppimage/systemimage) { get; } | Returns the copy of an image. Read-only Image. |
 | [Width](../../aspose.slides/ppimage/width) { get; } | Returns a width of an image. Read-only Int32. |
 | [X](../../aspose.slides/ppimage/x) { get; } | Returns a X-offset of an image. Read-only Int32. |
 | [Y](../../aspose.slides/ppimage/y) { get; } | Returns a Y-offset of an image. Read-only Int32. |
@@ -33,9 +34,9 @@ public class PPImage : IDisposable, IPPImage
 | --- | --- |
 | [Dispose](../../aspose.slides/ppimage/dispose)() | Disposes object. |
 | override [GetHashCode](../../aspose.slides/ppimage/gethashcode)() | Returns the hash code of an image. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_1)(byte[]) | Replaces image data. The new image's data.When newImageData parameter is null. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_2)(Image) | Replaces image data. Attention: when Image is metafile - it will be rasterized due to restrictions of GDI+. Use ReplaceImage(byte[]) instead The new image.When newImage parameter is null. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IPPImage) | Replaces image data. The new IPPImage.When newImage parameter is null. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_2)(byte[]) | Replaces image data. The new image's data.When newImageData parameter is null. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IImage) | Replaces image data. Attention: when Image is metafile - it will be rasterized. Use ReplaceImage(byte[]) instead The new image.When newImage parameter is null. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_1)(IPPImage) | Replaces image data. The new IPPImage.When newImage parameter is null. |
 
 ### See Also
 

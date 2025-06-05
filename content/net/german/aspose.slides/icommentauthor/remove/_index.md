@@ -1,5 +1,5 @@
 ---
-title: Entfernen
+title: Remove
 second_title: Aspose.Slides für .NET API Referenz
 description: Entfernt den Autor aus der übergeordneten Sammlung.
 type: docs
@@ -21,7 +21,7 @@ public void Remove()
 | --- | --- |
 | [PptxEditException](../../pptxeditexception) | Wird ausgelöst, wenn der Autor bereits entfernt wurde. |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ICommentAuthor](../../icommentauthor)
 * Namespace [Aspose.Slides](../../icommentauthor)

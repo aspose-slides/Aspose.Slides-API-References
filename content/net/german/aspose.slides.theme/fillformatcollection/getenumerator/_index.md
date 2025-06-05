@@ -1,13 +1,13 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt einen Enumerator zurück, der durch die Sammlung iteriert.
 type: docs
 weight: 60
 url: /de/aspose.slides.theme/fillformatcollection/getenumerator/
 ---
 
-## FillFormatCollection.GetEnumerator-Methode
+## FillFormatCollection.GetEnumerator Methode
 
 Gibt einen Enumerator zurück, der durch die Sammlung iteriert.
 
@@ -19,7 +19,7 @@ public IEnumerator<IFillFormat> GetEnumerator()
 
 Ein IEnumerator, der verwendet werden kann, um durch die Sammlung zu iterieren.
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IFillFormat](../../../aspose.slides/ifillformat)
 * Klasse [FillFormatCollection](../../fillformatcollection)

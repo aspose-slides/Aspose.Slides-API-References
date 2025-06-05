@@ -1,7 +1,7 @@
 ---
 title: CreateImageWrapper
 second_title: Aspose.Sildes for .NET API Reference
-description: 从指定的现有图像初始化 ImageWrapper 类的新实例。
+description: 从指定的现有图像初始化一个新的ImageWrapper类实例。
 type: docs
 weight: 10
 url: /zh/aspose.slides/iimagewrapperfactory/createimagewrapper/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iimagewrapperfactory/createimagewrapper/
 
 ## CreateImageWrapper(IImage) {#createimagewrapper}
 
-从指定的现有图像初始化 ImageWrapper 类的新实例。
+从指定的现有图像初始化一个新的ImageWrapper类实例。
 
 ```csharp
 public IImageWrapper CreateImageWrapper(IImage image)
@@ -17,13 +17,13 @@ public IImageWrapper CreateImageWrapper(IImage image)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| image | IImage | 现有图像 |
+| image | IImage | 现有的图像 |
 
 ### 返回值
 
-[`IImageWrapper`](../../iimagewrapper)的新实例
+一个新的 [`IImageWrapper`](../../iimagewrapper) 实例。
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IImageWrapper](../../iimagewrapper)
 * 接口 [IImage](../../iimage)
@@ -35,7 +35,7 @@ public IImageWrapper CreateImageWrapper(IImage image)
 
 ## CreateImageWrapper(Stream) {#createimagewrapper_2}
 
-从指定的数据流初始化 ImageWrapper 类的新实例。
+从指定的数据流初始化一个新的ImageWrapper类实例。
 
 ```csharp
 public IImageWrapper CreateImageWrapper(Stream stream)
@@ -47,9 +47,9 @@ public IImageWrapper CreateImageWrapper(Stream stream)
 
 ### 返回值
 
-[`IImageWrapper`](../../iimagewrapper)的新实例
+一个新的 [`IImageWrapper`](../../iimagewrapper) 实例。
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IImageWrapper](../../iimagewrapper)
 * 接口 [IImageWrapperFactory](../../iimagewrapperfactory)
@@ -60,7 +60,7 @@ public IImageWrapper CreateImageWrapper(Stream stream)
 
 ## CreateImageWrapper(string) {#createimagewrapper_3}
 
-从指定的文件初始化 ImageWrapper 类的新实例。
+从指定的文件初始化一个新的ImageWrapper类实例。
 
 ```csharp
 public IImageWrapper CreateImageWrapper(string fileName)
@@ -72,9 +72,9 @@ public IImageWrapper CreateImageWrapper(string fileName)
 
 ### 返回值
 
-[`IImageWrapper`](../../iimagewrapper)的新实例
+一个新的 [`IImageWrapper`](../../iimagewrapper) 实例。
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IImageWrapper](../../iimagewrapper)
 * 接口 [IImageWrapperFactory](../../iimagewrapperfactory)

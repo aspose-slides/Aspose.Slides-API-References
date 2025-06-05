@@ -1,6 +1,6 @@
 ---
 title: Position
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Aspose.Slides pour .NET API Reference
 description: Renvoie ou définit la position 0..1 d'un arrêt de gradient. Lecture/écriture Simple.
 type: docs
 weight: 20

@@ -7,7 +7,7 @@ weight: 10340
 url: /ru/aspose.slides.smartart/smartartquickstyletype/
 ---
 
-## перечисление SmartArtQuickStyleType
+## Перечисление SmartArtQuickStyleType
 
 Представляет схему стиля диаграммы SmartArt.
 
@@ -17,7 +17,7 @@ public enum SmartArtQuickStyleType
 
 ### Значения
 
-| Название | Значение | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | SimpleFill | `0` | SimpleFill |
 | WhiteOutline | `1` | WhiteOutline |
@@ -34,7 +34,7 @@ public enum SmartArtQuickStyleType
 | SunsetScene | `12` | SunsetScene |
 | BirdsEyeScene | `13` | BirdsEyeScene |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides.SmartArt](../../aspose.slides.smartart)
 * сборка [Aspose.Slides](../../)

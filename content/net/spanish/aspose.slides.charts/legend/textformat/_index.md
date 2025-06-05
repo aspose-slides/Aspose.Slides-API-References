@@ -15,11 +15,11 @@ Formato de texto. Solo lectura [`IChartTextFormat`](../../icharttextformat).
 public IChartTextFormat TextFormat { get; }
 ```
 
-### Ver También
+### Véase también
 
-* interfaz [IChartTextFormat](../../icharttextformat)
-* clase [Legend](../../legend)
-* espacio de nombres [Aspose.Slides.Charts](../../legend)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IChartTextFormat](../../icharttextformat)
+* clase [Legend](../../legend)
+* espacio de nombres [Aspose.Slides.Charts](../../legend)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: ViewType
-second_title: Référence API Aspose.Slides pour .NET
-description: Types de vue de présentation
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Types de vues de présentation
 type: docs
 weight: 11440
 url: /fr/aspose.slides/viewtype/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/viewtype/
 
 ## Énumération ViewType
 
-Types de vue de présentation
+Types de vues de présentation
 
 ```csharp
 public enum ViewType
@@ -20,13 +20,13 @@ public enum ViewType
 | Nom | Valeur | Description |
 | --- | --- | --- |
 | NotDefined | `0` | La valeur n'est pas définie |
-| SlideView | `1` | Vue normale des diapositives |
-| SlideMasterView | `2` | Vue du maître de diapositives |
-| NotesView | `3` | Vue des notes |
-| HandoutView | `4` | Vue des supports |
-| NotesMasterView | `5` | Vue du maître des notes |
-| OutlineView | `6` | Vue en mode plan |
-| SlideSorterView | `7` | Vue du tri des diapositives |
+| SlideView | `1` | Vue de diapositive normale |
+| SlideMasterView | `2` | Vue de maître de diapositive |
+| NotesView | `3` | Vue de notes |
+| HandoutView | `4` | Vue de documents distribués |
+| NotesMasterView | `5` | Vue de maître de notes |
+| OutlineView | `6` | Vue en plan |
+| SlideSorterView | `7` | Vue de tri de diapositives |
 | SlideThumbnailView | `8` | Vue miniature des diapositives |
 
 ### Voir aussi

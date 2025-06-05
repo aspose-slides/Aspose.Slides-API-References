@@ -1,13 +1,13 @@
 ---
-title: Supprimer
+title: Remove
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Supprime la première occurrence d'un objet spécifique de la collection/&gt;.
+description: Supprime la première occurrence d'un objet spécifique de la collection/gt.
 type: docs
 weight: 90
 url: /fr/aspose.slides.mathtext/imathblockcollection/remove/
 ---
 
-## Méthode IMathBlockCollection.Remove
+## IMathBlockCollection.Remove méthode
 
 Supprime la première occurrence d'un objet spécifique de la collection/&gt;.
 
@@ -21,11 +21,11 @@ public bool Remove(IMathBlock item)
 
 ### Valeur de Retour
 
-true si *item* a été supprimé avec succès de la collection ; sinon, false. Cette méthode retourne également false si *item* n'est pas trouvé dans la collection originale/&gt;.
+true si *item* a été supprimé avec succès de la collection ; sinon, false. Cette méthode renvoie également false si *item* n'est pas trouvé dans la collection originale/&gt;.
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

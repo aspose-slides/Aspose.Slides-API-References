@@ -3,9 +3,10 @@ title: ChartCategory
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents chart categories.
 type: docs
-weight: 1160
+weight: 1190
 url: /aspose.slides.charts/chartcategory/
 ---
+
 ## ChartCategory class
 
 Represents chart categories.

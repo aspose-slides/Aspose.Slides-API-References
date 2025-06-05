@@ -1,14 +1,15 @@
 ---
 title: TextFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: Returns or sets text of the node. Read-only ITextFrameaspose.slides/itextframe.
+description: Returns text frame of the node. Read-only ITextFrameaspose.slides/itextframe.
 type: docs
 weight: 90
 url: /aspose.slides.smartart/smartartnode/textframe/
 ---
+
 ## SmartArtNode.TextFrame property
 
-Returns or sets text of the node. Read-only [`ITextFrame`](../../../aspose.slides/itextframe).
+Returns text frame of the node. Read-only [`ITextFrame`](../../../aspose.slides/itextframe).
 
 ```csharp
 public ITextFrame TextFrame { get; }

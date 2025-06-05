@@ -7,7 +7,7 @@ weight: 150
 url: /de/aspose.slides.mathtext/mathmatrix/getcolumnalignment/
 ---
 
-## MathMatrix.GetColumnAlignment-Methode
+## MathMatrix.GetColumnAlignment Methode
 
 Holen Sie sich die horizontale Ausrichtung der angegebenen Spalte
 
@@ -15,9 +15,9 @@ Holen Sie sich die horizontale Ausrichtung der angegebenen Spalte
 public MathHorizontalAlignment GetColumnAlignment(int columnIndex)
 ```
 
-| Parameter     | Typ     | Beschreibung                       |
-|---------------|---------|-----------------------------------|
-| columnIndex   | Int32   | Nullbasierter Spaltenindex        |
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| columnIndex | Int32 | Nullbasierter Spaltenindex |
 
 ### Rückgabewert
 

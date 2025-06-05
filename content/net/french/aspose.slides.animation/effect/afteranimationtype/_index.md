@@ -1,7 +1,7 @@
 ---
 title: AfterAnimationType
 second_title: Référence API Aspose.Slides pour .NET
-description: Définit un type d'animation après l'effet. Lecture/écriture AfterAnimationTypeaspose.slides.animation/effect/afteranimationtype.
+description: Définit un type d'animation après pour l'effet. Lecture/écriture AfterAnimationTypeaspose.slides.animation/effect/afteranimationtype.
 type: docs
 weight: 20
 url: /fr/aspose.slides.animation/effect/afteranimationtype/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/effect/afteranimationtype/
 
 ## Propriété Effect.AfterAnimationType
 
-Définit un type d'animation après l'effet. Lecture/écriture `AfterAnimationType`.
+Définit un type d'animation après pour l'effet. Lecture/écriture `AfterAnimationType`.
 
 ```csharp
 public AfterAnimationType AfterAnimationType { get; set; }
@@ -29,7 +29,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [AfterAnimationType](../../afteranimationtype)
 * class [Effect](../../effect)

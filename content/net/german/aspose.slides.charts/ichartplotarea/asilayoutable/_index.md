@@ -1,21 +1,21 @@
 ---
 title: AsILayoutable
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf das Basis-ILayoutable-Interface. Nur-Lese ILayoutableaspose.slides.charts/ilayoutable.
+description: Ermöglicht den Zugriff auf die basale ILayoutable-Schnittstelle. Nur-lesbar ILayoutableaspose.slides.charts/ilayoutable.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/ichartplotarea/asilayoutable/
 ---
 
-## IChartPlotArea.AsILayoutable-Eigenschaft
+## IChartPlotArea.AsILayoutable Eigenschaft
 
-Ermöglicht den Zugriff auf das Basis-ILayoutable-Interface. Nur-Lese [`ILayoutable`](../../ilayoutable).
+Ermöglicht den Zugriff auf die basale ILayoutable-Schnittstelle. Nur-lesbar [`ILayoutable`](../../ilayoutable).
 
 ```csharp
 public ILayoutable AsILayoutable { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ILayoutable](../../ilayoutable)
 * Schnittstelle [IChartPlotArea](../../ichartplotarea)

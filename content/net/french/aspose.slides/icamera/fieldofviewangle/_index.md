@@ -1,7 +1,7 @@
 ---
-title: AngleDeChampDeVue
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Champ de vision de la caméra FOV 0-180 degrés Lecture/écriture Single.
+title: FieldOfViewAngle
+second_title: Aspose.Sildes pour .NET API Référence
+description: Champ de vision de la caméra FOV 0-180 degrés Lecture/écriture Unique.
 type: docs
 weight: 20
 url: /fr/aspose.slides/icamera/fieldofviewangle/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/icamera/fieldofviewangle/
 
 ## Propriété ICamera.FieldOfViewAngle
 
-Champ de vision de la caméra FOV (0-180 degrés, champ de vision) Lecture/écriture Single.
+Champ de vision de la caméra FOV (0-180 degrés, champ de vision) Lecture/écriture Unique.
 
 ```csharp
 public float FieldOfViewAngle { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ICamera](../../icamera)
 * namespace [Aspose.Slides](../../icamera)

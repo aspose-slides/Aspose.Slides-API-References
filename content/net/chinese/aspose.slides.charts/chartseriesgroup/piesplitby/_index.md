@@ -1,7 +1,7 @@
 ---
 title: PieSplitBy
-second_title: Aspose.Slides for .NET API Reference
-description: 指定如何确定在饼图-饼图或条形图-饼图图表中哪些数据点位于第二个饼图或条形图。读/写 PieSplitTypeaspose.slides.charts/piesplittype。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定如何确定在饼图或条形图中第二个饼图或条形图的数据点。读/写 PieSplitTypeaspose.slides/piesplittype。
 type: docs
 weight: 130
 url: /zh/aspose.slides.charts/chartseriesgroup/piesplitby/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/chartseriesgroup/piesplitby/
 
 ## ChartSeriesGroup.PieSplitBy 属性
 
-指定如何确定在饼图-饼图或条形图-饼图图表中哪些数据点位于第二个饼图或条形图。读/写 [`PieSplitType`](../../piesplittype)。
+指定如何确定在饼图或条形图中第二个饼图或条形图的数据点。读/写 [`PieSplitType`](../../piesplittype)。
 
 ```csharp
 public PieSplitType PieSplitBy { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * enum [PieSplitType](../../piesplittype)
 * class [ChartSeriesGroup](../../chartseriesgroup)

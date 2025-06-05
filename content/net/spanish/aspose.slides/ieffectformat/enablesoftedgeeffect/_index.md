@@ -7,7 +7,7 @@ weight: 250
 url: /es/aspose.slides/ieffectformat/enablesoftedgeeffect/
 ---
 
-## Método IEffectFormat.EnableSoftEdgeEffect
+## IEffectFormat.EnableSoftEdgeEffect method
 
 Habilita el efecto de borde suave.
 
@@ -15,7 +15,7 @@ Habilita el efecto de borde suave.
 public void EnableSoftEdgeEffect()
 ```
 
-### Véase también
+### Vea También
 
 * interfaz [IEffectFormat](../../ieffectformat)
 * espacio de nombres [Aspose.Slides](../../ieffectformat)

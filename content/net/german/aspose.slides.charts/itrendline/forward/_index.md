@@ -1,15 +1,15 @@
 ---
-title: Vorwärts
+title: Forward
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Anzahl der Kategorien oder Einheiten auf einem Streudiagramm an, die die Trendlinie nach den Daten für die Serie, die trendiert wird, verlängert. Bei Streudiagrammen und nicht Streudiagrammen sollte der Wert eine beliebige nicht-negative Zahl sein. Lese-/Schreibzugriff Double.
+description: Gibt die Anzahl der Kategorien oder Einheiten in einem Streudiagramm an, die die Trendlinie nach den Daten für die Serie, die trendy ist, verlängert. In Streudiagrammen und nicht-Streudiagrammen sollte der Wert ein beliebiger nicht-negativer Wert sein. Lese-/Schreib-Duble.
 type: docs
 weight: 60
 url: /de/aspose.slides.charts/itrendline/forward/
 ---
 
-## ITrendline.Forward-Eigenschaft
+## ITrendline.Forward Eigenschaft
 
-Gibt die Anzahl der Kategorien (oder Einheiten auf einem Streudiagramm) an, die die Trendlinie nach den Daten für die Serie, die trendiert wird, verlängert. Bei Streudiagrammen und nicht Streudiagrammen sollte der Wert eine beliebige nicht-negative Zahl sein. Lese-/Schreibzugriff Double.
+Gibt die Anzahl der Kategorien (oder Einheiten in einem Streudiagramm) an, die die Trendlinie nach den Daten für die Serie, die trendy ist, verlängert. In Streudiagrammen und nicht-Streudiagrammen sollte der Wert ein beliebiger nicht-negativer Wert sein. Lese-/Schreib-Duble.
 
 ```csharp
 public double Forward { get; set; }

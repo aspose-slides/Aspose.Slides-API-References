@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/icomment/createdtime/
 ---
+
 ## IComment.CreatedTime property
 
 Returns or sets the time of a comment creation. Setting this property to MinValue means no comment time is set. Read/write DateTime.

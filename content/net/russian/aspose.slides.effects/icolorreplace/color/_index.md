@@ -1,13 +1,13 @@
 ---
-title: Цвет
-second_title: Справочник API Aspose.Slides для .NET
+title: Color
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает цветовой формат, который заменит цвет каждого пикселя. Только для чтения IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 30
 url: /ru/aspose.slides.effects/icolorreplace/color/
 ---
 
-## Свойство IColorReplace.Color
+## IColorReplace.Color свойство
 
 Возвращает цветовой формат, который заменит цвет каждого пикселя. Только для чтения [`IColorFormat`](../../../aspose.slides/icolorformat).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.effects/icolorreplace/color/
 public IColorFormat Color { get; }
 ```
 
-### Также смотри
+### См. также
 
 * интерфейс [IColorFormat](../../../aspose.slides/icolorformat)
 * интерфейс [IColorReplace](../../icolorreplace)

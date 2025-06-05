@@ -3,9 +3,10 @@ title: TextCapType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the type of text capitalisation.
 type: docs
-weight: 10280
+weight: 10620
 url: /aspose.slides/textcaptype/
 ---
+
 ## TextCapType enumeration
 
 Represents the type of text capitalisation.

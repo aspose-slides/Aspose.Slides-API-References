@@ -1,7 +1,7 @@
 ---
 title: SetHeaderAndChildHeadersVisibility
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ändert die Sichtbarkeit des Platzhalters für den Kopfbereich der Master-Notizfolie und aller Platzhalter für die Kopfbereiche der untergeordneten Folien. Untergeordnete Platzhalter sind Platzhalter, die auf abhängigen Notizfolien enthalten sind. Abhängige Notizfolien verwenden und hängen von der Master-Notizfolie ab.
+description: Ändert die Sichtbarkeit des Header-Platzhalters der Master-Notizenfolie und aller untergeordneten Header-Platzhalter. Untergeordnete Platzhalter bedeuten, dass Platzhalter in abhängigen Notizenfolien enthalten sind. Abhängige Notizenfolien nutzen und hängen von der Master-Notizenfolie ab.
 type: docs
 weight: 60
 url: /de/aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheadersvisibility/
@@ -9,15 +9,15 @@ url: /de/aspose.slides/masternotesslideheaderfootermanager/setheaderandchildhead
 
 ## MasterNotesSlideHeaderFooterManager.SetHeaderAndChildHeadersVisibility-Methode
 
-Ändert die Sichtbarkeit des Platzhalters für den Kopfbereich der Master-Notizfolie und aller Platzhalter für die Kopfbereiche der untergeordneten Folien. Untergeordnete Platzhalter sind Platzhalter, die auf abhängigen Notizfolien enthalten sind. Abhängige Notizfolien verwenden und hängen von der Master-Notizfolie ab.
+Ändert die Sichtbarkeit des Header-Platzhalters der Master-Notizenfolie und aller untergeordneten Header-Platzhalter. Untergeordnete Platzhalter bedeuten, dass Platzhalter in abhängigen Notizenfolien enthalten sind. Abhängige Notizenfolien nutzen und hängen von der Master-Notizenfolie ab.
 
 ```csharp
 public void SetHeaderAndChildHeadersVisibility(bool isVisible)
 ```
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| isVisible | Boolean | true - macht einen Platzhalter für den Kopfbereich sichtbar, andernfalls - blendet ihn aus. |
+| Parameter  | Typ      | Beschreibung                                                                    |
+|------------|----------|--------------------------------------------------------------------------------|
+| isVisible  | Boolean  | true - macht einen Header-Platzhalter sichtbar, andernfalls - blendet sie aus. |
 
 ### Siehe auch
 

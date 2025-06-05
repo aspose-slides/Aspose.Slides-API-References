@@ -17,8 +17,8 @@ public void CopyTo(Array array, int index)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| array | Array | Array objetivo. |
-| index | Int32 | Índice inicial en el array objetivo. |
+| array | Array | Array de destino. |
+| index | Int32 | Índice inicial en el array de destino. |
 
 ### Ver También
 

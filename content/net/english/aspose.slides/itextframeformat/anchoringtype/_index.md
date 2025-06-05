@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/itextframeformat/anchoringtype/
 ---
+
 ## ITextFrameFormat.AnchoringType property
 
 Returns or sets vertical anchor text in a TextFrame. Read/write [`TextAnchorType`](../../textanchortype).

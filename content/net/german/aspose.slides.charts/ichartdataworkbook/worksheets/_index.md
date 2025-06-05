@@ -1,7 +1,7 @@
 ---
-title: Arbeitsblätter
-second_title: Aspose.Sildes für .NET API Referenz
-description: Ruft eine Sammlung von Arbeitsblättern ab.
+title: Worksheets
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Erhält eine Sammlung von Arbeitsblättern.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/ichartdataworkbook/worksheets/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartdataworkbook/worksheets/
 
 ## IChartDataWorkbook.Worksheets-Eigenschaft
 
-Ruft eine Sammlung von Arbeitsblättern ab.
+Erhält eine Sammlung von Arbeitsblättern.
 
 ```csharp
 public IChartDataWorksheetCollection Worksheets { get; }

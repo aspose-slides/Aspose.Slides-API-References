@@ -1,7 +1,7 @@
 ---
 title: CreateMemoryStreamWrapper
 second_title: Aspose.Sildes для .NET API Reference
-description: Создает обертку для MemoryStream.
+description: Создает обертку MemoryStream.
 type: docs
 weight: 30
 url: /ru/aspose.slides/streamwrapperfactory/creatememorystreamwrapper/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/streamwrapperfactory/creatememorystreamwrapper/
 
 ## CreateMemoryStreamWrapper() {#creatememorystreamwrapper}
 
-Создает обертку для MemoryStream.
+Создает обертку MemoryStream.
 
 ```csharp
 public IStreamWrapper CreateMemoryStreamWrapper()
 ```
 
-### Смотрите также
+### См. Также
 
 * интерфейс [IStreamWrapper](../../istreamwrapper)
 * класс [StreamWrapperFactory](../../streamwrapperfactory)
@@ -26,13 +26,13 @@ public IStreamWrapper CreateMemoryStreamWrapper()
 
 ## CreateMemoryStreamWrapper(byte[]) {#creatememorystreamwrapper_1}
 
-Создает обертку для MemoryStream на основе указанного массива байтов.
+Создает обертку MemoryStream на основе заданного массива байтов.
 
 ```csharp
 public IStreamWrapper CreateMemoryStreamWrapper(byte[] buffer)
 ```
 
-### Смотрите также
+### См. Также
 
 * интерфейс [IStreamWrapper](../../istreamwrapper)
 * класс [StreamWrapperFactory](../../streamwrapperfactory)

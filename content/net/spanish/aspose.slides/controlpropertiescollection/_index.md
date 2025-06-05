@@ -1,6 +1,6 @@
 ---
 title: ControlPropertiesCollection
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Una colección de propiedades AcitveX.
 type: docs
 weight: 2620
@@ -19,8 +19,8 @@ public class ControlPropertiesCollection : IControlPropertiesCollection
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.slides/controlpropertiescollection/count) { get; } | Devuelve el número de propiedades en la colección. Solo lectura Int32. |
-| [Item](../../aspose.slides/controlpropertiescollection/item) { get; set; } | Devuelve o establece una propiedad. |
+| [Count](../../aspose.slides/controlpropertiescollection/count) { get; } | Devuelve un número de propiedades en la colección. Solo lectura Int32. |
+| [Item](../../aspose.slides/controlpropertiescollection/item) { get; set; } | Devuelve o establece la propiedad. |
 | [NamesOfProperties](../../aspose.slides/controlpropertiescollection/namesofproperties) { get; } | Devuelve la colección de nombres de propiedades. Solo lectura ICollection. |
 
 ## Métodos
@@ -32,7 +32,7 @@ public class ControlPropertiesCollection : IControlPropertiesCollection
 | [GetEnumerator](../../aspose.slides/controlpropertiescollection/getenumerator)() | Devuelve un enumerador que itera a través de la colección. |
 | [Remove](../../aspose.slides/controlpropertiescollection/remove)(string) | Elimina una propiedad con el nombre especificado. |
 
-### Véase también
+### Vea También
 
 * interfaz [IControlPropertiesCollection](../icontrolpropertiescollection)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)

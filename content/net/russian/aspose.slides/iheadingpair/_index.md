@@ -1,7 +1,7 @@
 ---
 title: IHeadingPair
-second_title: Aspose.Sildes для .NET Справочник по API
-description: Представляет свойство "Пара заголовков" документа. Указывает имя группы частей документа и количество частей в группе.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет свойство "Пара заголовков" документа. Оно указывает имя группы частей документа и количество частей в группе.
 type: docs
 weight: 5900
 url: /ru/aspose.slides/iheadingpair/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/iheadingpair/
 
 ## Интерфейс IHeadingPair
 
-Представляет свойство "Пара заголовков" документа. Указывает имя группы частей документа и количество частей в группе.
+Представляет свойство 'Пара заголовков' документа. Оно указывает имя группы частей документа и количество частей в группе.
 
 ```csharp
 public interface IHeadingPair
@@ -17,12 +17,12 @@ public interface IHeadingPair
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [Count](../../aspose.slides/iheadingpair/count) { get; } | Возвращает количество частей в группе. Только для чтения Int32. |
 | [Name](../../aspose.slides/iheadingpair/name) { get; } | Возвращает имя группы частей документа. Только для чтения String. |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

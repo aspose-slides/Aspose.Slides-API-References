@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.theme/colorscheme/light1/
 ---
+
 ## ColorScheme.Light1 property
 
 First light color in the scheme. Read-only [`IColorFormat`](../../../aspose.slides/icolorformat).

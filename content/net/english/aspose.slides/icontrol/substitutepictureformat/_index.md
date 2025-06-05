@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/icontrol/substitutepictureformat/
 ---
+
 ## IControl.SubstitutePictureFormat property
 
 Returns ControlEx image fill properties object. Read-only [`IPictureFillFormat`](../../ipicturefillformat).

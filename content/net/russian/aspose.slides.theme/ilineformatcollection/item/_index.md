@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Получает элемент по указанному индексу. Только для чтения ILineFormataspose.slides/ilineformat.
 type: docs
@@ -7,7 +7,7 @@ weight: 10
 url: /ru/aspose.slides.theme/ilineformatcollection/item/
 ---
 
-## Индексатор ILineFormatCollection
+## ILineFormatCollection индекатор
 
 Получает элемент по указанному индексу. Только для чтения [`ILineFormat`](../../../aspose.slides/ilineformat).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.theme/ilineformatcollection/item/
 public ILineFormat this[int index] { get; }
 ```
 
-### Также смотри
+### Смотрите также
 
 * интерфейс [ILineFormat](../../../aspose.slides/ilineformat)
 * интерфейс [ILineFormatCollection](../../ilineformatcollection)

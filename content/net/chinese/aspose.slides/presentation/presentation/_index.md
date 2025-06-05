@@ -1,7 +1,7 @@
 ---
-title: 演示文稿
-second_title: Aspose.Slides for .NET API 参考
-description: 此构造函数从头开始创建新的演示文稿。创建的演示文稿包含一张空白幻灯片。
+title: Presentation
+second_title: Aspose.Sildes for .NET API Reference
+description: 此构造函数从头创建新的演示文稿。创建的演示文稿包含一张空白幻灯片。
 type: docs
 weight: 10
 url: /zh/aspose.slides/presentation/presentation/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/presentation/presentation/
 
 ## Presentation() {#constructor}
 
-此构造函数从头开始创建新的演示文稿。创建的演示文稿包含一张空白幻灯片。
+此构造函数从头创建新的演示文稿。创建的演示文稿包含一张空白幻灯片。
 
 ```csharp
 public Presentation()
 ```
 
-### 另请参见
+### See Also
 
 * class [Presentation](../../presentation)
 * namespace [Aspose.Slides](../../presentation)
@@ -25,7 +25,7 @@ public Presentation()
 
 ## Presentation(LoadOptions) {#constructor_1}
 
-此构造函数从头开始创建新的演示文稿。创建的演示文稿包含一张空白幻灯片。
+此构造函数从头创建新的演示文稿。创建的演示文稿包含一张空白幻灯片。
 
 ```csharp
 public Presentation(LoadOptions loadOptions)
@@ -33,9 +33,9 @@ public Presentation(LoadOptions loadOptions)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| loadOptions | LoadOptions | 额外的加载选项。 |
+| loadOptions | LoadOptions | 附加加载选项。 |
 
-### 另请参见
+### See Also
 
 * class [LoadOptions](../../loadoptions)
 * class [Presentation](../../presentation)
@@ -72,7 +72,7 @@ Dim pres As Presentation = New Presentation(fis)
 fis.Close()
 ```
 
-### 另请参见
+### See Also
 
 * class [Presentation](../../presentation)
 * namespace [Aspose.Slides](../../presentation)
@@ -91,9 +91,9 @@ public Presentation(Stream stream, LoadOptions loadOptions)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 输入流。 |
-| loadOptions | LoadOptions | 额外的加载选项。 |
+| loadOptions | LoadOptions | 附加加载选项。 |
 
-### 另请参见
+### See Also
 
 * class [LoadOptions](../../loadoptions)
 * class [Presentation](../../presentation)
@@ -118,7 +118,7 @@ public Presentation(string file)
 
 | 异常 | 条件 |
 | --- | --- |
-| ArgumentException | 当输入文件长度为零时抛出 |
+| ArgumentException | 当输入文件的长度为零时抛出 |
 
 ### 示例
 
@@ -132,7 +132,7 @@ Presentation pres = new Presentation("demo.pptx");
 Dim pres As Presentation = New Presentation("demo.pptx")
 ```
 
-### 另请参见
+### See Also
 
 * class [Presentation](../../presentation)
 * namespace [Aspose.Slides](../../presentation)
@@ -151,15 +151,15 @@ public Presentation(string file, LoadOptions loadOptions)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | file | String | 输入文件。 |
-| loadOptions | LoadOptions | 额外的加载选项。 |
+| loadOptions | LoadOptions | 附加加载选项。 |
 
 ### 异常
 
 | 异常 | 条件 |
 | --- | --- |
-| ArgumentException | 当输入文件长度为零时抛出 |
+| ArgumentException | 当输入文件的长度为零时抛出 |
 
-### 另请参见
+### See Also
 
 * class [LoadOptions](../../loadoptions)
 * class [Presentation](../../presentation)

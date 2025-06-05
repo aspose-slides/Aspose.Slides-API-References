@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.smartart/ismartartnode/ishidden/
 ---
+
 ## ISmartArtNode.IsHidden property
 
 Returns true if this node is a hidden node in the data model. Read-only Boolean.

@@ -1,21 +1,21 @@
 ---
 title: EncodingName
-second_title: Référence de l'API Aspose.Slidess pour .NET
-description: Renvoie ou définit le nom d'encodage HTML. Cette valeur sera enregistrée dans le fichier HTML généré, mais c'est à l'appelant de s'assurer que le fichier sera enregistré dans cet encodage. Lecture/écriture String.
+second_title: Aspose.Slidese pour .NET API Référence
+description: Retourne ou définit le nom de l'encodage html. Cette valeur sera enregistrée dans le fichier HTML généré, mais il appartient à l'appelant de s'assurer que le fichier sera enregistré dans cet encodage. Lecture/écriture String.
 type: docs
 weight: 20
 url: /fr/aspose.slides.export/itexttohtmlconversionoptions/encodingname/
 ---
 
-## Propriété ITextToHtmlConversionOptions.EncodingName
+## ITextToHtmlConversionOptions.EncodingName propriété
 
-Renvoie ou définit le nom d'encodage HTML. Cette valeur sera enregistrée dans le fichier HTML généré, mais c'est à l'appelant de s'assurer que le fichier sera enregistré dans cet encodage. Lecture/écriture String.
+Retourne ou définit le nom de l'encodage html. Cette valeur sera enregistrée dans le fichier HTML généré, mais il appartient à l'appelant de s'assurer que le fichier sera enregistré dans cet encodage. Lecture/écriture String.
 
 ```csharp
 public string EncodingName { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ITextToHtmlConversionOptions](../../itexttohtmlconversionoptions)
 * namespace [Aspose.Slides.Export](../../itexttohtmlconversionoptions)

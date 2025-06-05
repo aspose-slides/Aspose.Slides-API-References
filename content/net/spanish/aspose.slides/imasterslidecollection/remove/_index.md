@@ -1,13 +1,13 @@
 ---
-title: Eliminar
-second_title: Referencia de API de Aspose.Slide para .NET
+title: Remove
+second_title: Aspose.Slides para .NET Referencia de API
 description: Elimina la primera ocurrencia de un objeto específico de la colección.
 type: docs
 weight: 40
 url: /es/aspose.slides/imasterslidecollection/remove/
 ---
 
-## Método IMasterSlideCollection.Remove
+## IMasterSlideCollection.Remove método
 
 Elimina la primera ocurrencia de un objeto específico de la colección.
 
@@ -21,9 +21,9 @@ public void Remove(IMasterSlide value)
 
 ### Ver También
 
-* interfaz [IMasterSlide](../../imasterslide)
-* interfaz [IMasterSlideCollection](../../imasterslidecollection)
-* espacio de nombres [Aspose.Slides](../../imasterslidecollection)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IMasterSlide](../../imasterslide)
+* interfaz [IMasterSlideCollection](../../imasterslidecollection)
+* espacio de nombres [Aspose.Slides](../../imasterslidecollection)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

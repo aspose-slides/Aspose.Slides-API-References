@@ -1,13 +1,13 @@
 ---
 title: Format
-second_title: Aspose.Slides pour .NET API Référence
+second_title: Aspose.Slides pour la référence API .NET
 description: Représente les propriétés de formatage. Lecture/écriture IFormataspose.slides.charts/iformat.
 type: docs
 weight: 70
 url: /fr/aspose.slides.charts/ichartdatapoint/format/
 ---
 
-## Propriété IChartDataPoint.Format
+## IChartDataPoint.Format property
 
 Représente les propriétés de formatage. Lecture/écriture [`IFormat`](../../iformat).
 
@@ -15,7 +15,7 @@ Représente les propriétés de formatage. Lecture/écriture [`IFormat`](../../i
 public IFormat Format { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IFormat](../../iformat)
 * interface [IChartDataPoint](../../ichartdatapoint)

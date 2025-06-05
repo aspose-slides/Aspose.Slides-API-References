@@ -1,31 +1,31 @@
 ---
 title: IMathRightSubSuperscriptElement
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Especifica el objeto Sub-Superscript que consta de una base y un subíndice y superíndice colocados a la derecha de la base.
+second_title: Aspose.Sildes para .NET API Reference
+description: Especifica el objeto Sub-Superscript que consiste en una base y un subíndice y un superíndice colocados a la derecha de la base.
 type: docs
 weight: 8190
 url: /es/aspose.slides.mathtext/imathrightsubsuperscriptelement/
 ---
 
-## Interfaz IMathRightSubSuperscriptElement
+## IMathRightSubSuperscriptElement interface
 
-Especifica el objeto Sub-Superscript, que consta de una base y un subíndice y superíndice colocados a la derecha de la base.
+Especifica el objeto Sub-Superscript, que consiste en una base y un subíndice y un superíndice colocados a la derecha de la base.
 
 ```csharp
 public interface IMathRightSubSuperscriptElement : IMathElement
 ```
 
-## Propiedades
+## Properties
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
-| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Especifica la alineación del subíndice/superíndice. Cuando es verdadero, el subíndice y el superíndice están alineados horizontalmente entre sí. Cuando es falso, se ajustan a la forma de la base. El valor predeterminado es falso. |
+| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Especifica la alineación del subíndice/superíndice. Cuando es verdadero, el subíndice y el superíndice están alineados horizontalmente entre sí. Cuando es falso, están ajustados a la forma de la base. El valor predeterminado es falso. |
 | [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | Permite obtener la interfaz base IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | Argumento base |
-| [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | Argumento de subíndice |
-| [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | Argumento de superíndice |
+| [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | Argumento subíndice |
+| [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | Argumento superíndice |
 
-### Ejemplos
+### Examples
 
 Ejemplo:
 
@@ -34,9 +34,9 @@ Ejemplo:
 IMathRightSubSuperscriptElement subsuperscript = new MathematicalText("N").SetSubSuperscriptOnTheRight("i", "j");
 ```
 
-### Véase también
+### See Also
 
-* interfaz [IMathElement](../imathelement)
+* interface [IMathElement](../imathelement)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * assembly [Aspose.Slides](../../)
 

@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/iportioncollection/contains/
 ---
+
 ## IPortionCollection.Contains method
 
 Determines whether the ICollection contains a specific value.

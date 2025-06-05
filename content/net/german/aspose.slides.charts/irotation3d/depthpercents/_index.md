@@ -1,7 +1,7 @@
 ---
 title: DepthPercents
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Tiefe eines 3D-Diagramms als Prozentsatz einer Diagrammbreite zwischen 20 und 2000 Prozent zurück oder setzt sie. Lesen/Schreiben UInt16.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt die Tiefe eines 3D-Diagramms als Prozentsatz der Diagrammbreite zwischen 20 und 2000 Prozent zurück oder setzt sie. Lese-/Schreibzugriff auf UInt16.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/irotation3d/depthpercents/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/irotation3d/depthpercents/
 
 ## IRotation3D.DepthPercents-Eigenschaft
 
-Gibt die Tiefe eines 3D-Diagramms als Prozentsatz einer Diagrammbreite (zwischen 20 und 2000 Prozent) zurück oder setzt sie. Lesen/Schreiben UInt16.
+Gibt die Tiefe eines 3D-Diagramms als Prozentsatz der Diagrammbreite (zwischen 20 und 2000 Prozent) zurück oder setzt sie. Lese-/Schreibzugriff auf UInt16.
 
 ```csharp
 public ushort DepthPercents { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IRotation3D](../../irotation3d)
 * Namespace [Aspose.Slides.Charts](../../irotation3d)

@@ -1,7 +1,7 @@
 ---
-title: 清除自定义属性
-second_title: Aspose.Slides for .NET API 参考
-description: 移除所有自定义属性。
+title: ClearCustomProperties
+second_title: Aspose.Sildes for .NET API Reference
+description: 删除所有自定义属性。
 type: docs
 weight: 370
 url: /zh/aspose.slides/idocumentproperties/clearcustomproperties/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/idocumentproperties/clearcustomproperties/
 
 ## IDocumentProperties.ClearCustomProperties 方法
 
-移除所有自定义属性。
+删除所有自定义属性。
 
 ```csharp
 public void ClearCustomProperties()
 ```
 
-### 参见
+### 另见
 
 * 接口 [IDocumentProperties](../../idocumentproperties)
 * 命名空间 [Aspose.Slides](../../idocumentproperties)

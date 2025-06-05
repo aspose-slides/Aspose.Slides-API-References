@@ -1,6 +1,6 @@
 ---
 title: HighlightText
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Met en surbrillance toutes les occurrences du texte d'exemple avec la couleur spécifiée.
 type: docs
 weight: 330
@@ -18,7 +18,7 @@ public void HighlightText(string text, Color highlightColor)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | text | String | Le texte à mettre en surbrillance. |
-| highlightColor | Color | La couleur pour mettre en surbrillance le texte. |
+| highlightColor | Color | La couleur à utiliser pour mettre en surbrillance le texte. |
 
 ### Exemples
 
@@ -28,13 +28,13 @@ L'exemple de code suivant montre comment mettre en surbrillance du texte dans un
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// mise en surbrillance de toutes les occurrences séparées de 'the'
+	// mettant en surbrillance toutes les occurrences séparées de 'the'
 	presentation.HighlightText("the", Color.Violet);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IPresentation](../../ipresentation)
 * namespace [Aspose.Slides](../../ipresentation)
@@ -54,9 +54,9 @@ public void HighlightText(string text, Color highlightColor, ITextSearchOptions 
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | text | String | Le texte à mettre en surbrillance. |
-| highlightColor | Color | La couleur pour mettre en surbrillance le texte. |
+| highlightColor | Color | La couleur à utiliser pour mettre en surbrillance le texte. |
 | options | ITextSearchOptions | Options de recherche de texte [`ITextSearchOptions`](../../itextsearchoptions). |
-| callback | IFindResultCallback | L'objet de rappel pour recevoir les résultats de la recherche [`IFindResultCallback`](../../ifindresultcallback). |
+| callback | IFindResultCallback | L'objet de rappel pour recevoir les résultats de recherche [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Exemples
 
@@ -66,13 +66,13 @@ L'exemple de code suivant montre comment mettre en surbrillance du texte dans un
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// mise en surbrillance de toutes les occurrences séparées de 'the'
+	// mettant en surbrillance toutes les occurrences séparées de 'the'
 	presentation.HighlightText("the", Color.Violet, new TextSearchOptions() {WholeWordsOnly = true}, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ITextSearchOptions](../../itextsearchoptions)
 * interface [IFindResultCallback](../../ifindresultcallback)

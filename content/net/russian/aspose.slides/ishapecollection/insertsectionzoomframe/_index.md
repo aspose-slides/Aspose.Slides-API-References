@@ -1,13 +1,13 @@
 ---
-title: ВставитьSectionZoomFrame
-second_title: Aspose.Slides для .NET API Справочник
+title: InsertSectionZoomFrame
+second_title: Aspose.Sildes для .NET API Справка
 description: Создает новый объект Section Zoom и вставляет его в коллекцию по указанному индексу.
 type: docs
 weight: 320
 url: /ru/aspose.slides/ishapecollection/insertsectionzoomframe/
 ---
 
-## ВставитьSectionZoomFrame(int, float, float, float, float, ISection) {#insertsectionzoomframe}
+## InsertSectionZoomFrame(int, float, float, float, float, ISection) {#insertsectionzoomframe}
 
 Создает новый объект Section Zoom и вставляет его в коллекцию по указанному индексу.
 
@@ -18,12 +18,12 @@ public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, flo
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс с нуля, по которому должен быть вставлен фрейм Section Zoom. |
-| x | Single | Координата X нового фрейма Section Zoom. |
-| y | Single | Координата Y нового фрейма Section Zoom. |
-| width | Single | Ширина нового фрейма Section Zoom. |
-| height | Single | Высота нового фрейма Section Zoom. |
-| section | ISection | Объект слайда, к которому ссылается фрейм Section Zoom [`ISection`](../../isection). |
+| index | Int32 | Индекс с нуля, в который должен быть вставлен кадр Section Zoom. |
+| x | Single | X координата нового кадра Section Zoom. |
+| y | Single | Y координата нового кадра Section Zoom. |
+| width | Single | Ширина нового кадра Section Zoom. |
+| height | Single | Высота нового кадра Section Zoom. |
+| section | ISection | Объект слайда, на который ссылается кадр Section Zoom [`ISection`](../../isection). |
 
 ### Возвращаемое значение
 
@@ -37,7 +37,7 @@ public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, flo
 
 ### Примеры
 
-Этот пример демонстрирует создание и вставку объекта Section Zoom по указанному индексу в коллекции (предположим, что в презентации "Presentation.pptx" есть как минимум два раздела):
+Этот пример демонстрирует создание и вставку объекта Section Zoom по указанному индексу в коллекции (предполагается, что в презентации "Presentation.pptx" есть как минимум два раздела):
 
 ```csharp
 [C#]
@@ -47,7 +47,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### См. Также
+### Смотрите Также
 
 * интерфейс [ISectionZoomFrame](../../isectionzoomframe)
 * интерфейс [ISection](../../isection)
@@ -57,7 +57,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 
 ---
 
-## ВставитьSectionZoomFrame(int, float, float, float, float, ISection, IPPImage) {#insertsectionzoomframe_1}
+## InsertSectionZoomFrame(int, float, float, float, float, ISection, IPPImage) {#insertsectionzoomframe_1}
 
 Создает новый объект Section Zoom и вставляет его в коллекцию по указанному индексу.
 
@@ -68,13 +68,13 @@ public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, flo
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс с нуля, по которому должен быть вставлен фрейм Section Zoom. |
-| x | Single | Координата X нового фрейма Section Zoom. |
-| y | Single | Координата Y нового фрейма Section Zoom. |
-| width | Single | Ширина нового фрейма Section Zoom. |
-| height | Single | Высота нового фрейма Section Zoom. |
-| section | ISection | Объект слайда, к которому ссылается фрейм Section Zoom [`ISection`](../../isection). |
-| image | IPPImage | Изображение для ссылочного слайда [`IPPImage`](../../ippimage) |
+| index | Int32 | Индекс с нуля, в который должен быть вставлен кадр Section Zoom. |
+| x | Single | X координата нового кадра Section Zoom. |
+| y | Single | Y координата нового кадра Section Zoom. |
+| width | Single | Ширина нового кадра Section Zoom. |
+| height | Single | Высота нового кадра Section Zoom. |
+| section | ISection | Объект слайда, на который ссылается кадр Section Zoom [`ISection`](../../isection). |
+| image | IPPImage | Изображение для указанного слайда [`IPPImage`](../../ippimage) |
 
 ### Возвращаемое значение
 
@@ -88,7 +88,7 @@ public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, flo
 
 ### Примеры
 
-Этот пример демонстрирует создание и вставку объекта Section Zoom по указанному индексу в коллекции (предположим, что в презентации "Presentation.pptx" есть как минимум два раздела):
+Этот пример демонстрирует создание и вставку объекта Section Zoom по указанному индексу в коллекции (предполагается, что в презентации "Presentation.pptx" есть как минимум два раздела):
 
 ```csharp
 [C#]
@@ -99,7 +99,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### См. Также
+### Смотрите Также
 
 * интерфейс [ISectionZoomFrame](../../isectionzoomframe)
 * интерфейс [ISection](../../isection)

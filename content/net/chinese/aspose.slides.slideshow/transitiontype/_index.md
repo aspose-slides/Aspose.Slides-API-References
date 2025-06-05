@@ -1,6 +1,6 @@
 ---
-title: 转场类型
-second_title: Aspose.Slides for .NET API 参考
+title: TransitionType
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示幻灯片放映过渡类型。
 type: docs
 weight: 10140
@@ -35,12 +35,12 @@ public enum TransitionType
 | Push | `13` |  |
 | Random | `14` |  |
 | RandomBar | `15` |  |
-| Split | `16` | 相当于 PowerPoint 2010 中的过渡 Wipe。 |
+| Split | `16` | 等同于 PowerPoint 2010 中的过渡 Wipe。 |
 | Strips | `17` |  |
 | Wedge | `18` | 与 PowerPoint 2010 中的过渡时钟（选项为 Wedge）相关。 |
 | Wheel | `19` | 与 PowerPoint 2010 中的过渡时钟（选项为 Clockwise）相关。 |
 | Wipe | `20` |  |
-| Zoom | `21` | 与 PowerPoint 2010 中的过渡形状（选项为 In/Out）相关。另见与 PowerPoint 2010 中的过渡放大相关的 Warp。 |
+| Zoom | `21` | 与 PowerPoint 2010 中的过渡形状（选项为 In/Out）相关。另请参阅与 PowerPoint 2010 中的过渡 Zoom 相关的 Warp。 |
 | Vortex | `22` | 在 PowerPoint 2010 中可用。 |
 | Switch | `23` | 在 PowerPoint 2010 中可用。 |
 | Flip | `24` | 在 PowerPoint 2010 中可用。 |
@@ -57,7 +57,7 @@ public enum TransitionType
 | Conveyor | `35` | 在 PowerPoint 2010 中可用。 |
 | Pan | `36` | 在 PowerPoint 2010 中可用。 |
 | Glitter | `37` | 在 PowerPoint 2010 中可用。 |
-| Warp | `38` | 与 PowerPoint 2010 中的过渡放大相关。在 PowerPoint 2010 中可用。 |
+| Warp | `38` | 与 PowerPoint 2010 中的过渡 Zoom 相关。在 PowerPoint 2010 中可用。 |
 | Flythrough | `39` | 在 PowerPoint 2010 中可用。 |
 | Flash | `40` | 在 PowerPoint 2010 中可用。 |
 | Shred | `41` | 在 PowerPoint 2010 中可用。 |
@@ -75,7 +75,7 @@ public enum TransitionType
 | PageCurlSingle | `53` | 在 PowerPoint 2013 中可用。 |
 | Airplane | `54` | 在 PowerPoint 2013 中可用。 |
 | Origami | `55` | 在 PowerPoint 2013 中可用。 |
-| Morph | `56` | 与 PowerPoint 2019 中的过渡形状 Morph（选项为 Type）相关。 |
+| Morph | `56` | 与 PowerPoint 2019 中的过渡 Morph（选项为 Type）相关。 |
 
 ### 另请参阅
 

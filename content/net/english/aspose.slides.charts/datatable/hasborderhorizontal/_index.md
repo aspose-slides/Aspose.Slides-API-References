@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/datatable/hasborderhorizontal/
 ---
+
 ## DataTable.HasBorderHorizontal property
 
 True if the chart data table has horizontal cell borders. Read/write Boolean.

@@ -1,15 +1,15 @@
 ---
 title: RemoveAt
 second_title: Aspose.Slides für .NET API-Referenz
-description: Entfernt den Zeichenführungsleitfaden am angegebenen Index.
+description: Entfernt den Zeichenleitfaden am angegebenen Index.
 type: docs
 weight: 70
 url: /de/aspose.slides/drawingguidescollection/removeat/
 ---
 
-## DrawingGuidesCollection.RemoveAt-Methode
+## DrawingGuidesCollection.RemoveAt Methode
 
-Entfernt den Zeichenführungsleitfaden am angegebenen Index.
+Entfernt den Zeichenleitfaden am angegebenen Index.
 
 ```csharp
 public void RemoveAt(int index)
@@ -17,7 +17,7 @@ public void RemoveAt(int index)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Index des Zeichenführungsleitfadens, der gelöscht werden soll. |
+| index | Int32 | Index des Zeichenleitfadens, der gelöscht werden soll. |
 
 ### Siehe Auch
 

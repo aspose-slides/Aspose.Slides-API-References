@@ -1,6 +1,6 @@
 ---
 title: ILegend
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Représente les propriétés de la légende des graphiques.
 type: docs
 weight: 2050
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ilegend/
 
 ## Interface ILegend
 
-Représente les propriétés de la légende du graphique.
+Représente les propriétés de la légende d'un graphique.
 
 ```csharp
 public interface ILegend : IFormattedTextContainer, ILayoutable
@@ -19,14 +19,14 @@ public interface ILegend : IFormattedTextContainer, ILayoutable
 
 | Nom | Description |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Permet d'obtenir l'interface de base IFormattedTextContainer. Lecture seule [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Permet d'obtenir l'interface de base ILayoutable. Lecture seule [`ILayoutable`](../ilayoutable). |
-| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Obtient les entrées de la légende. Lecture seule [`ILegendEntryCollection`](../ilegendentrycollection). |
-| [Format](../../aspose.slides.charts/ilegend/format) { get; } | Renvoie le format d'une légende. Lecture seule [`IFormat`](../iformat). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Permet d'obtenir l'interface de base IFormattedTextContainer. En lecture seule [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Permet d'obtenir l'interface de base ILayoutable. En lecture seule [`ILayoutable`](../ilayoutable). |
+| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Obtient les entrées de la légende. En lecture seule [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Format](../../aspose.slides.charts/ilegend/format) { get; } | Retourne le format d'une légende. En lecture seule [`IFormat`](../iformat). |
 | [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Détermine si d'autres éléments du graphique peuvent chevaucher la légende. Booléen en lecture/écriture. |
-| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Spécifie la position de la légende sur un graphique. Les valeurs non-NaN des propriétés X, Y, Width, Heigt prennent le pas sur cet effet. Lecture/écriture [`LegendPositionType`](../legendpositiontype). |
+| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Spécifie la position de la légende sur un graphique. Les valeurs Non-NaN des propriétés X, Y, Width, Height remplacent l'effet de cette propriété. En lecture/écriture [`LegendPositionType`](../legendpositiontype). |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IFormattedTextContainer](../iformattedtextcontainer)
 * interface [ILayoutable](../ilayoutable)

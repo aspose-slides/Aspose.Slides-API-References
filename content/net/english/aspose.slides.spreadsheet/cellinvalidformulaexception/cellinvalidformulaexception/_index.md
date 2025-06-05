@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.spreadsheet/cellinvalidformulaexception/cellinvalidformulaexception/
 ---
+
 ## CellInvalidFormulaException() {#constructor}
 
 Initializes a new instance of the [`CellInvalidFormulaException`](../../cellinvalidformulaexception) class.

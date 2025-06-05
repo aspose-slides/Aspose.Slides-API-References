@@ -7,7 +7,7 @@ weight: 20
 url: /es/aspose.slides.charts/ichartplotarea/asilayoutable/
 ---
 
-## Propiedad IChartPlotArea.AsILayoutable
+## IChartPlotArea.AsILayoutable property
 
 Permite obtener la interfaz base ILayoutable. Solo lectura [`ILayoutable`](../../ilayoutable).
 
@@ -15,7 +15,7 @@ Permite obtener la interfaz base ILayoutable. Solo lectura [`ILayoutable`](../..
 public ILayoutable AsILayoutable { get; }
 ```
 
-### Vea También
+### Ver También
 
 * interfaz [ILayoutable](../../ilayoutable)
 * interfaz [IChartPlotArea](../../ichartplotarea)

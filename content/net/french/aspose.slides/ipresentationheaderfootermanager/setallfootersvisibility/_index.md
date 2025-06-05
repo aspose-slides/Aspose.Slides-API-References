@@ -1,7 +1,7 @@
 ---
 title: SetAllFootersVisibility
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Modifie la visibilité de tous les espaces réservés pour les pieds de page, y compris les diapositives maître, les diapositives de mise en page et les diapositives.
+description: Change la visibilité de tous les espaces réservés de pied de page, y compris les diapositives de maître, les diapositives de mise en page et les diapositives.
 type: docs
 weight: 50
 url: /fr/aspose.slides/ipresentationheaderfootermanager/setallfootersvisibility/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ipresentationheaderfootermanager/setallfootersvisibility/
 
 ## Méthode IPresentationHeaderFooterManager.SetAllFootersVisibility
 
-Modifie la visibilité de tous les espaces réservés pour les pieds de page, y compris les diapositives maître, les diapositives de mise en page et les diapositives.
+Change la visibilité de tous les espaces réservés de pied de page, y compris les diapositives de maître, les diapositives de mise en page et les diapositives.
 
 ```csharp
 public void SetAllFootersVisibility(bool isVisible)
@@ -17,9 +17,9 @@ public void SetAllFootersVisibility(bool isVisible)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| isVisible | Boolean | true - rend les espaces réservés pour les pieds de page visibles, sinon - les cache. |
+| isVisible | Boolean | true - rend les espaces réservés de pied de page visibles, sinon - les cache. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IPresentationHeaderFooterManager](../../ipresentationheaderfootermanager)
 * namespace [Aspose.Slides](../../ipresentationheaderfootermanager)

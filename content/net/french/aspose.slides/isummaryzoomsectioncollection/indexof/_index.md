@@ -1,13 +1,13 @@
 ---
 title: IndexOf
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Renvoie un index de l'objet SummaryZoomSection spécifié.
 type: docs
 weight: 50
 url: /fr/aspose.slides/isummaryzoomsectioncollection/indexof/
 ---
 
-## Méthode ISummaryZoomSectionCollection.IndexOf
+## ISummaryZoomSectionCollection.IndexOf méthode
 
 Renvoie un index de l'objet SummaryZoomSection spécifié.
 
@@ -21,11 +21,11 @@ public int IndexOf(ISummaryZoomSection summaryZoomSection)
 
 ### Valeur de retour
 
-Index d'un objet SummaryZoomSection ou -1 si l'objet SummaryZoomSection ne fait pas partie de cette collection.
+Index d'un objet SummaryZoomSection ou -1 si l'objet SummaryZoomSection ne provient pas de cette collection.
 
 ### Exemples
 
-L'exemple démontre comment obtenir un élément de Section de Zoom Résumé par index :
+L'exemple démontre comment obtenir l'élément Summary Zoom Section par index:
 
 ```csharp
 [C#]

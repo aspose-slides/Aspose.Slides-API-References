@@ -1,7 +1,7 @@
 ---
-title: Punkte
+title: Points
 second_title: Aspose.Slides für .NET API Referenz
-description: Holt Punkte für die IInkLine PointF Nur-Lese.
+description: Erhält Punkte für die IInkLine PointF schreibgeschützt.
 type: docs
 weight: 20
 url: /de/aspose.slides.ink/iinktrace/points/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.ink/iinktrace/points/
 
 ## IInkTrace.Points-Eigenschaft
 
-Holt Punkte für die IInkLine PointF Nur-Lese.
+Erhält Punkte für die IInkLine PointF schreibgeschützt.
 
 ```csharp
 public PointF[] Points { get; }
@@ -29,7 +29,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IInkTrace](../../iinktrace)
 * Namespace [Aspose.Slides.Ink](../../iinktrace)

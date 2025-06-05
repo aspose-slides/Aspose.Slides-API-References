@@ -7,7 +7,7 @@ weight: 30
 url: /de/aspose.slides/ifonts/latinfont/
 ---
 
-## IFonts.LatinFont-Eigenschaft
+## IFonts.LatinFont Eigenschaft
 
 Gibt die lateinische Schriftart zurück oder legt sie fest. Lese-/Schreibzugriff auf [`IFontData`](../../ifontdata).
 

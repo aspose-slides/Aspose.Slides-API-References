@@ -1,6 +1,6 @@
 ---
 title: WriteByte
-second_title: Aspose.Sildes pour .NET Référence API
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Écrit un octet à la position actuelle dans le flux et avance la position dans le flux d'un octet.
 type: docs
 weight: 150

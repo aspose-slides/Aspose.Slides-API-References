@@ -1,24 +1,24 @@
 ---
-title: Nombre
+title: Name
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve el nombre del grupo de las partes del documento. Cadena de solo lectura.
+description: Devuelve el nombre del grupo de partes del documento. Solo lectura String.
 type: docs
 weight: 20
 url: /es/aspose.slides/iheadingpair/name/
 ---
 
-## Propiedad IHeadingPair.Name
+## IHeadingPair.Name property
 
-Devuelve el nombre del grupo de las partes del documento. Cadena de solo lectura.
+Devuelve el nombre del grupo de partes del documento. Solo lectura String.
 
 ```csharp
 public string Name { get; }
 ```
 
-### Vea También
+### Ver También
 
-* interface [IHeadingPair](../../iheadingpair)
-* namespace [Aspose.Slides](../../iheadingpair)
-* assembly [Aspose.Slides](../../../)
+* interfaz [IHeadingPair](../../iheadingpair)
+* espacio de nombres [Aspose.Slides](../../iheadingpair)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

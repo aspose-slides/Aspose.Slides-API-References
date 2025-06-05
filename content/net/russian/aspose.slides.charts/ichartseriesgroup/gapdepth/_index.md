@@ -1,7 +1,7 @@
 ---
 title: GapDepth
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает или задает расстояние в процентах от ширины маркера между рядами данных в 3D-графике. Чтение/запись UInt16.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или устанавливает расстояние в процентах от ширины маркера между сериями данных в 3D графике. Чтение/запись UInt16.
 type: docs
 weight: 60
 url: /ru/aspose.slides.charts/ichartseriesgroup/gapdepth/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/ichartseriesgroup/gapdepth/
 
 ## IChartSeriesGroup.GapDepth свойство
 
-Возвращает или задает расстояние, в процентах от ширины маркера, между рядами данных в 3D-графике. Чтение/запись UInt16.
+Возвращает или устанавливает расстояние, в процентах от ширины маркера, между сериями данных в 3D графике. Чтение/запись UInt16.
 
 ```csharp
 public ushort GapDepth { get; set; }

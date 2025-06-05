@@ -1,15 +1,15 @@
 ---
 title: GetEffective
-second_title: Aspose.Sildes pour .NET Référence API
-description: Obtient les propriétés de formatage de cellule de tableau effectives avec héritage et styles de tableau appliqués.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Obtient les propriétés de formatage des cellules de tableau effectives avec héritage et styles de tableau appliqués.
 type: docs
 weight: 90
 url: /fr/aspose.slides/icellformat/geteffective/
 ---
 
-## Méthode ICellFormat.GetEffective
+## ICellFormat.GetEffective méthode
 
-Obtient les propriétés de formatage de cellule de tableau effectives avec héritage et styles de tableau appliqués.
+Obtient les propriétés de formatage des cellules de tableau effectives avec héritage et styles de tableau appliqués.
 
 ```csharp
 public ICellFormatEffectiveData GetEffective()
@@ -19,7 +19,7 @@ public ICellFormatEffectiveData GetEffective()
 
 Un [`ICellFormatEffectiveData`](../../icellformateffectivedata).
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ICellFormatEffectiveData](../../icellformateffectivedata)
 * interface [ICellFormat](../../icellformat)

@@ -1,7 +1,7 @@
 ---
 title: IFormatSchemeEffectiveData
 second_title: Référence API Aspose.Slides pour .NET
-description: Objet immuable contenant les propriétés du schéma de format effectif.
+description: Objet immuable qui contient des propriétés de schéma de format effectif.
 type: docs
 weight: 10970
 url: /fr/aspose.slides.theme/iformatschemeeffectivedata/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.theme/iformatschemeeffectivedata/
 
 ## Interface IFormatSchemeEffectiveData
 
-Objet immuable contenant les propriétés du schéma de format effectif.
+Objet immuable qui contient des propriétés de schéma de format effectif.
 
 ```csharp
 public interface IFormatSchemeEffectiveData
@@ -28,7 +28,7 @@ public interface IFormatSchemeEffectiveData
 
 Cette interface est utilisée dans le cadre de [`IThemeEffectiveData`](../ithemeeffectivedata).
 
-### Voir aussi
+### Voir Aussi
 
 * espace de noms [Aspose.Slides.Theme](../../aspose.slides.theme)
 * assembly [Aspose.Slides](../../)

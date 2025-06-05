@@ -1,13 +1,13 @@
 ---
-title: Элемент
-second_title: Справочник по API Aspose.Slides для .NET
+title: Item
+second_title: Aspose.Sildes для .NET API Reference
 description: Возвращает точку по указанному индексу.
 type: docs
 weight: 30
 url: /ru/aspose.slides.animation/ipointcollection/item/
 ---
 
-## Индексатор IPointCollection
+## IPointCollection индексатор
 
 Возвращает точку по указанному индексу.
 

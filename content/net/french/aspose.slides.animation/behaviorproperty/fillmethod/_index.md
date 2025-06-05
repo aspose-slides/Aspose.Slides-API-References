@@ -1,6 +1,6 @@
 ---
 title: FillMethod
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Représente la propriété fill.method
 type: docs
 weight: 350

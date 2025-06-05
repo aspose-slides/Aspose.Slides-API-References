@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Aspose.Sildes для .NET Справочник по API
+second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет ячейку из коллекции по индексу.
 type: docs
 weight: 70
 url: /ru/aspose.slides.charts/ichartcellcollection/removeat/
 ---
 
-## Метод IChartCellCollection.RemoveAt
+## IChartCellCollection.RemoveAt метод
 
 Удаляет ячейку из коллекции по индексу.
 
@@ -19,7 +19,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Индекс ячейки для удаления. |
 
-### Также посмотрите
+### См. также
 
 * интерфейс [IChartCellCollection](../../ichartcellcollection)
 * пространство имен [Aspose.Slides.Charts](../../ichartcellcollection)

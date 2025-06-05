@@ -1,6 +1,6 @@
 ---
 title: GifOptions
-second_title: Aspose.Sildes для .NET Справочник по API
+second_title: Aspose.Sildes для .NET API Справочник
 description: Инициализирует новый экземпляр класса GifOptions.
 type: docs
 weight: 10

@@ -1,15 +1,15 @@
 ---
 title: SetDateTimeText
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Définit le texte du symbole de date et heure de la diapositive.
+second_title: Aspose.Slides pour .NET API Reference
+description: Définit le texte du champ de date-heure de la diapositive.
 type: docs
 weight: 40
 url: /fr/aspose.slides/baseslideheaderfootermanager/setdatetimetext/
 ---
 
-## Méthode BaseSlideHeaderFooterManager.SetDateTimeText
+## BaseSlideHeaderFooterManager.SetDateTimeText méthode
 
-Définit le texte du symbole de date et heure de la diapositive.
+Définit le texte du champ de date-heure de la diapositive.
 
 ```csharp
 public void SetDateTimeText(string text)
@@ -19,7 +19,7 @@ public void SetDateTimeText(string text)
 | --- | --- | --- |
 | text | String | Texte à définir. |
 
-### Voir aussi
+### Voir Aussi
 
 * classe [BaseSlideHeaderFooterManager](../../baseslideheaderfootermanager)
 * espace de noms [Aspose.Slides](../../baseslideheaderfootermanager)

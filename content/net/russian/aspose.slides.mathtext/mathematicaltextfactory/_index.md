@@ -1,6 +1,6 @@
 ---
 title: MathematicalTextFactory
-second_title: Ссылка на API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Позволяет создавать элемент MathematicalText
 type: docs
 weight: 8800

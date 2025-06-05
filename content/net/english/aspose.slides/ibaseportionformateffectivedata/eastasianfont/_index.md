@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ibaseportionformateffectivedata/eastasianfont/
 ---
+
 ## IBasePortionFormatEffectiveData.EastAsianFont property
 
 Returns the East Asian font info. Read-only [`IFontData`](../../ifontdata).

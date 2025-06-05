@@ -1,7 +1,7 @@
 ---
 title: RepeatUntilEndSlide
-second_title: Aspose.Slides für .NET API-Referenz
-description: Dieses Attribut gibt an, ob der Effekt bis zum Ende der Folie wiederholt wird. Lese-/Schreibbare Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Dieses Attribut gibt an, ob der Effekt bis zum Ende der Folie wiederholt wird. Lese-/Schreibbares Boolean.
 type: docs
 weight: 70
 url: /de/aspose.slides.animation/itiming/repeatuntilendslide/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/itiming/repeatuntilendslide/
 
 ## ITiming.RepeatUntilEndSlide-Eigenschaft
 
-Dieses Attribut gibt an, ob der Effekt bis zum Ende der Folie wiederholt wird. Lese-/Schreibbare Boolean.
+Dieses Attribut gibt an, ob der Effekt bis zum Ende der Folie wiederholt wird. Lese-/Schreibbares Boolean.
 
 ```csharp
 public bool RepeatUntilEndSlide { get; set; }
@@ -21,13 +21,13 @@ public bool RepeatUntilEndSlide { get; set; }
 [C#]
 using (Presentation presentation = new Presentation("demo.pptx"))
 {
-    // Holen Sie sich die Effekte-Sequenz für die erste Folie
+    // Erhalten Sie die Effekte-Sequenz für die erste Folie
     ISequence effectsSequence = presentation.Slides[0].Timeline.MainSequence;
 
-    // Holen Sie sich den ersten Effekt der Hauptsequenz.
+    // Erhalten Sie den ersten Effekt der Hauptsequenz.
     IEffect effect = effectsSequence[0];
 
-    // Ändern Sie die Timing/Wiederholung des Effekts auf "Bis Ende der Folie"
+    // Ändern Sie die Effektzeit/Répétition auf "Bis zum Ende der Folie"
     effect.Timing.RepeatUntilEndSlide = true;
 }
 ```

@@ -1,13 +1,13 @@
 ---
 title: DisableFillOverlayEffect
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Desactiva el efecto de superposición de relleno.
 type: docs
 weight: 110
 url: /es/aspose.slides/effectformat/disablefilloverlayeffect/
 ---
 
-## Método EffectFormat.DisableFillOverlayEffect
+## EffectFormat.DisableFillOverlayEffect method
 
 Desactiva el efecto de superposición de relleno.
 
@@ -15,10 +15,10 @@ Desactiva el efecto de superposición de relleno.
 public void DisableFillOverlayEffect()
 ```
 
-### Véase también
+### Ver También
 
-* clase [EffectFormat](../../effectformat)
-* espacio de nombres [Aspose.Slides](../../effectformat)
-* ensamblaje [Aspose.Slides](../../../)
+* class [EffectFormat](../../effectformat)
+* namespace [Aspose.Slides](../../effectformat)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

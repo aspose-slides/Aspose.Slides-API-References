@@ -1,7 +1,7 @@
 ---
 title: AsIMasterThemeable
 second_title: Aspose.Sildes for .NET API Reference
-description: 返回 IMasterThemeable 接口。只读 IMasterThemeable aspose.slides.theme/imasterthemeable。
+description: 返回 IMasterThemeable 接口。只读 IMasterThemeableaspose.slides.theme/imasterthemeable。
 type: docs
 weight: 20
 url: /zh/aspose.slides/imasterslide/asimasterthemeable/
@@ -17,9 +17,9 @@ public IMasterThemeable AsIMasterThemeable { get; }
 
 ### 备注
 
-为了兼容 COM。
+用于 COM 兼容性。
 
-### 另见
+### 参见
 
 * 接口 [IMasterThemeable](../../../aspose.slides.theme/imasterthemeable)
 * 接口 [IMasterSlide](../../imasterslide)

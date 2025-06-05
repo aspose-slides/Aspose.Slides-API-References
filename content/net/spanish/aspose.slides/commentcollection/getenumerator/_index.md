@@ -1,13 +1,13 @@
 ---
 title: GetEnumerator
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Devuelve un enumerador que itera a través de la colección.
 type: docs
 weight: 100
 url: /es/aspose.slides/commentcollection/getenumerator/
 ---
 
-## Método CommentCollection.GetEnumerator
+## CommentCollection.GetEnumerator método
 
 Devuelve un enumerador que itera a través de la colección.
 
@@ -15,11 +15,11 @@ Devuelve un enumerador que itera a través de la colección.
 public IEnumerator<IComment> GetEnumerator()
 ```
 
-### Valor de Retorno
+### Valor de retorno
 
-Un IEnumerator que se puede utilizar para iterar a través de la colección.
+Un IEnumerator que se puede usar para iterar a través de la colección.
 
-### Véase También
+### Ver también
 
 * interfaz [IComment](../../icomment)
 * clase [CommentCollection](../../commentcollection)

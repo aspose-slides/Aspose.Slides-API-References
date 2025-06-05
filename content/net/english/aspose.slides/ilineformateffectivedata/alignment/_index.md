@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ilineformateffectivedata/alignment/
 ---
+
 ## ILineFormatEffectiveData.Alignment property
 
 Returns the line alignment. Read-only [`LineAlignment`](../../linealignment).

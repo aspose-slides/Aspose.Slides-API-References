@@ -1,6 +1,6 @@
 ---
 title: AsIEnumerable
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回 IEnumerable 接口。只读 IEnumerable。
 type: docs
 weight: 10
@@ -17,9 +17,9 @@ public IEnumerable AsIEnumerable { get; }
 
 ### 备注
 
-用于 COM 兼容性。
+为了兼容 COM。
 
-### 另见
+### 另请参阅
 
 * 接口 [IMathElementCollection](../../imathelementcollection)
 * 命名空间 [Aspose.Slides.MathText](../../imathelementcollection)

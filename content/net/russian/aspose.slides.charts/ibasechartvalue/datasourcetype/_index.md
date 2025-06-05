@@ -1,7 +1,7 @@
 ---
 title: DataSourceType
-second_title: Aspose.Slides для .NET API Справочник
-description: Указывает, является ли свойство AsCell или AsLiteralString или AsLiteralDouble актуальным. Другими словами, это определяет тип значения свойства Data. Это свойство только для чтения. Для изменения значения этого свойства вы можете использовать одно из свойств ChartDataPointCollection.DataSourceTypeFor&lt;...&gt;. Чтение/запись DataSourceType.
+second_title: Aspose.Sildes для .NET API Reference
+description: Указывает, является ли свойство AsCell, AsLiteralString или AsLiteralDouble действительным. Другими словами, оно указывает тип значения свойства Data. Это свойство только для чтения. Для изменения значения этого свойства вы можете использовать одно из свойств ChartDataPointCollection.DataSourceTypeFor&lt;...&gt;. Чтение/запись DataSourceType.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/ibasechartvalue/datasourcetype/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.charts/ibasechartvalue/datasourcetype/
 
 ## IBaseChartValue.DataSourceType свойство
 
-Указывает, является ли свойство AsCell или AsLiteralString или AsLiteralDouble актуальным. Другими словами, это определяет тип значения свойства Data. Это свойство только для чтения. Для изменения значения этого свойства вы можете использовать одно из свойств ChartDataPointCollection.DataSourceTypeFor&lt;...&gt;. Чтение/запись `DataSourceType`.
+Указывает, является ли свойство AsCell, AsLiteralString или AsLiteralDouble действительным. Другими словами, оно указывает тип значения свойства Data. Это свойство только для чтения. Для изменения значения этого свойства вы можете использовать одно из свойств ChartDataPointCollection.DataSourceTypeFor&lt;...&gt;. Чтение/запись `DataSourceType`.
 
 ```csharp
 public DataSourceType DataSourceType { get; set; }
 ```
 
-### Смотрите также
+### См. Также
 
 * enum [DataSourceType](../../datasourcetype)
 * interface [IBaseChartValue](../../ibasechartvalue)

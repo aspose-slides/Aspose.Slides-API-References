@@ -1,6 +1,6 @@
 ---
-title: 字符
-second_title: Aspose.Slides for .NET API 参考
+title: Character
+second_title: Aspose.Sildes for .NET API Reference
 description: 分组字符 默认值 U23DF 底部花括号
 type: docs
 weight: 30
@@ -25,7 +25,7 @@ MathGroupingCharacter groupingCharacter = new MathGroupingCharacter(new Mathemat
 groupingCharacter.Character = '\u23DD'; // 底部括号
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IMathGroupingCharacter](../../imathgroupingcharacter)
 * 命名空间 [Aspose.Slides.MathText](../../imathgroupingcharacter)

@@ -1,6 +1,6 @@
 ---
 title: Y
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回框架左上角的 Y 坐标。只读 Single。
 type: docs
 weight: 110
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/shapeframe/y/
 public float Y { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [ShapeFrame](../../shapeframe)
 * namespace [Aspose.Slides](../../shapeframe)

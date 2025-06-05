@@ -1,6 +1,6 @@
 ---
 title: RowCount
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Número de filas en la matriz
 type: docs
 weight: 90
@@ -25,7 +25,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 int rowCount = matrix.RowCount;
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [IMathMatrix](../../imathmatrix)
 * espacio de nombres [Aspose.Slides.MathText](../../imathmatrix)

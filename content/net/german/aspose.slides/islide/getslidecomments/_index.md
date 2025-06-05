@@ -1,13 +1,13 @@
 ---
 title: GetSlideComments
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt alle Folienkommentare zurück, die von einem bestimmten Autor hinzugefügt wurden.
 type: docs
 weight: 90
 url: /de/aspose.slides/islide/getslidecomments/
 ---
 
-## ISlide.GetSlideComments-Methode
+## ISlide.GetSlideComments Methode
 
 Gibt alle Folienkommentare zurück, die von einem bestimmten Autor hinzugefügt wurden.
 
@@ -17,7 +17,7 @@ public IComment[] GetSlideComments(ICommentAuthor author)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| author | ICommentAuthor | Autor der zu findenden Kommentare oder null, um alle Kommentare zurückzugeben. |
+| author | ICommentAuthor | Autor der Kommentare, die gefunden werden sollen, oder null, um alle Kommentare zurückzugeben. |
 
 ### Rückgabewert
 

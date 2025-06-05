@@ -1,13 +1,13 @@
 ---
 title: PathCommand
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Тип пути сегмента
 type: docs
 weight: 10
 url: /ru/aspose.slides/ipathsegment/pathcommand/
 ---
 
-## Свойство IPathSegment.PathCommand
+## IPathSegment.PathCommand свойство
 
 Тип пути сегмента
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ipathsegment/pathcommand/
 public PathCommandType PathCommand { get; }
 ```
 
-### См. Также
+### Смотрите также
 
 * enum [PathCommandType](../../pathcommandtype)
 * interface [IPathSegment](../../ipathsegment)

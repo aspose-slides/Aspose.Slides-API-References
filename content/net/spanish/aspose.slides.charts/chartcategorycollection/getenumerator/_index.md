@@ -15,15 +15,15 @@ Devuelve un enumerador que itera a través de la colección.
 public IEnumerator<IChartCategory> GetEnumerator()
 ```
 
-### Valor de retorno
+### Valor de Retorno
 
 Un IEnumerator que se puede usar para iterar a través de la colección.
 
-### Vea también
+### Véase También
 
 * interfaz [IChartCategory](../../ichartcategory)
 * clase [ChartCategoryCollection](../../chartcategorycollection)
 * espacio de nombres [Aspose.Slides.Charts](../../chartcategorycollection)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

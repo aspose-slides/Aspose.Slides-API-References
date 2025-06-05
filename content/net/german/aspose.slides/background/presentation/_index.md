@@ -1,7 +1,7 @@
 ---
-title: Präsentation
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die übergeordnete Präsentation einer Folie zurück. Nur lesbares IPresentationaspose.slides/ipresentation.
+title: Presentation
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die übergeordnete Präsentation einer Folie zurück. Nur-Lese IPresentation aspose.slides/ipresentation.
 type: docs
 weight: 30
 url: /de/aspose.slides/background/presentation/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/background/presentation/
 
 ## Background.Presentation-Eigenschaft
 
-Gibt die übergeordnete Präsentation einer Folie zurück. Nur lesbares [`IPresentation`](../../ipresentation).
+Gibt die übergeordnete Präsentation einer Folie zurück. Nur-Lese [`IPresentation`](../../ipresentation).
 
 ```csharp
 public IPresentation Presentation { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IPresentation](../../ipresentation)
 * Klasse [Background](../../background)

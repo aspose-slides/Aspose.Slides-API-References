@@ -1,7 +1,7 @@
 ---
 title: HasSeriesLines
-second_title: Aspose.Sildes for .NET API 参考
-description: 如果图表具有系列线则为 true。适用于堆叠条形图和饼图。可读/可写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 如果图表有系列线，则为真。适用于堆叠柱形图和饼图。可读/可写布尔值。
 type: docs
 weight: 80
 url: /zh/aspose.slides.charts/ichartseriesgroup/hasserieslines/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ichartseriesgroup/hasserieslines/
 
 ## IChartSeriesGroup.HasSeriesLines 属性
 
-如果图表具有系列线则为 true。适用于堆叠条形图和饼图。可读/可写布尔值。
+如果图表有系列线，则为真。适用于堆叠柱形图和饼图。可读/可写布尔值。
 
 ```csharp
 public bool HasSeriesLines { get; set; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IChartSeriesGroup](../../ichartseriesgroup)
 * 命名空间 [Aspose.Slides.Charts](../../ichartseriesgroup)

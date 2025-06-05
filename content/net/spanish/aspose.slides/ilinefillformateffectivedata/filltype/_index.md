@@ -15,11 +15,11 @@ Devuelve el tipo de relleno. Solo lectura [`FillType`](../../filltype).
 public FillType FillType { get; }
 ```
 
-### Véase también
+### Véase También
 
 * enum [FillType](../../filltype)
-* interfaz [ILineFillFormatEffectiveData](../../ilinefillformateffectivedata)
-* espacio de nombres [Aspose.Slides](../../ilinefillformateffectivedata)
-* ensamblado [Aspose.Slides](../../../)
+* interface [ILineFillFormatEffectiveData](../../ilinefillformateffectivedata)
+* namespace [Aspose.Slides](../../ilinefillformateffectivedata)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

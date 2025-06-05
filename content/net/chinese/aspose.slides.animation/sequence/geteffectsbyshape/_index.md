@@ -1,7 +1,7 @@
 ---
 title: GetEffectsByShape
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回指定形状的特效数组。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回指定形状的效果数组。
 type: docs
 weight: 80
 url: /zh/aspose.slides.animation/sequence/geteffectsbyshape/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.animation/sequence/geteffectsbyshape/
 
 ## Sequence.GetEffectsByShape 方法
 
-返回指定形状的特效数组。
+返回指定形状的效果数组。
 
 ```csharp
 public IEffect[] GetEffectsByShape(IShape shape)
 ```
 
-### 另请参阅
+### 查看也
 
 * 接口 [IEffect](../../ieffect)
 * 接口 [IShape](../../../aspose.slides/ishape)

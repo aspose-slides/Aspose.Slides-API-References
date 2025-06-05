@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/ifiltereffect/asibehavior/
 public IBehavior AsIBehavior { get; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IBehavior](../../ibehavior)
 * 接口 [IFilterEffect](../../ifiltereffect)

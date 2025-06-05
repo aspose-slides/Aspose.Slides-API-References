@@ -1,6 +1,6 @@
 ---
 title: FirstRow
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Получает первую строку ячейки. Только для чтения IRowaspose.slides/irow.
 type: docs
 weight: 60
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/cell/firstrow/
 public IRow FirstRow { get; }
 ```
 
-### Также смотри
+### См. также
 
 * интерфейс [IRow](../../irow)
 * класс [Cell](../../cell)

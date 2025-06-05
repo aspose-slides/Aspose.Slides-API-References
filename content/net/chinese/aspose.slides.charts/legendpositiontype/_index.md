@@ -7,7 +7,7 @@ weight: 2240
 url: /zh/aspose.slides.charts/legendpositiontype/
 ---
 
-## LegendPositionType枚举
+## LegendPositionType 枚举
 
 确定图表上图例的位置。
 
@@ -25,7 +25,7 @@ public enum LegendPositionType
 | Top | `3` | 指定图例应绘制在图表的顶部。 |
 | TopRight | `4` | 指定图例应绘制在图表的右上角。 |
 
-### 另见
+### 参见
 
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程序集 [Aspose.Slides](../../)

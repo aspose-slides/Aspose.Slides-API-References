@@ -1,7 +1,7 @@
 ---
 title: AnimateShapes
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Animationsoption für Shapes zurück oder legt sie fest. Lese-/Schreib-Boolean.
+description: Gibt die Animationsoption für Formen zurück oder legt diese fest. Lese-/Schreibzugriff auf Boolesche Werte.
 type: docs
 weight: 20
 url: /de/aspose.slides.export.web/webdocumentoptions/animateshapes/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export.web/webdocumentoptions/animateshapes/
 
 ## WebDocumentOptions.AnimateShapes-Eigenschaft
 
-Gibt die Animationsoption für Shapes zurück oder legt sie fest. Lese-/Schreib-Boolean.
+Gibt die Animationsoption für Formen zurück oder legt diese fest. Lese-/Schreibzugriff auf Boolesche Werte.
 
 ```csharp
 public bool AnimateShapes { get; set; }

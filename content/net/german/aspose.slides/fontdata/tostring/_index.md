@@ -1,7 +1,7 @@
 ---
 title: ToString
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die string Darstellung zurück.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Zeichenfolgenrepräsentation zurück.
 type: docs
 weight: 60
 url: /de/aspose.slides/fontdata/tostring/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/fontdata/tostring/
 
 ## FontData.ToString Methode
 
-Gibt die string Darstellung zurück.
+Gibt die Zeichenfolgenrepräsentation zurück.
 
 ```csharp
 public override string ToString()
@@ -17,7 +17,7 @@ public override string ToString()
 
 ### Rückgabewert
 
-String-Darstellung.
+Zeichenfolgenrepräsentation.
 
 ### Siehe auch
 

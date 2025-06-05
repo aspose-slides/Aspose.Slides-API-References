@@ -1,6 +1,6 @@
 ---
 title: LineColor
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Возвращает цвет контура формы. Только для чтения IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 70
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/shapestyle/linecolor/
 public IColorFormat LineColor { get; }
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [IColorFormat](../../icolorformat)
 * класс [ShapeStyle](../../shapestyle)

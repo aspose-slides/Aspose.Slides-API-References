@@ -1,21 +1,21 @@
 ---
-title: CompresiónDeImágenes
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Representa el nivel de compresión de imágenes
+title: PicturesCompression
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Representa el nivel de compresión de las imágenes
 type: docs
 weight: 140
 url: /es/aspose.slides.export/svgoptions/picturescompression/
 ---
 
-## Propiedad SVGOptions.PicturesCompression
+## SVGOptions.PicturesCompression propiedad
 
-Representa el nivel de compresión de imágenes
+Representa el nivel de compresión de las imágenes
 
 ```csharp
 public PicturesCompression PicturesCompression { get; set; }
 ```
 
-### Véase También
+### Ver También
 
 * enum [PicturesCompression](../../picturescompression)
 * class [SVGOptions](../../svgoptions)

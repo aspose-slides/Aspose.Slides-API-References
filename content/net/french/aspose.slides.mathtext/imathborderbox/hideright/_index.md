@@ -1,15 +1,15 @@
 ---
 title: HideRight
-second_title: Référence API Aspose.Slides pour .NET
-description: Hide Right Edge par défaut est faux - spécifie l'état caché ou affiché du bord droit de la boîte de bordure.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: La bordure droite cachée par défaut, c'est faux - spécifie l'état caché ou visible de la bordure droite de la boîte de bordure.
 type: docs
 weight: 50
 url: /fr/aspose.slides.mathtext/imathborderbox/hideright/
 ---
 
-## Propriété IMathBorderBox.HideRight
+## IMathBorderBox.HideRight propriété
 
-Hide Right Edge (par défaut est faux) - spécifie l'état caché ou affiché du bord droit de la boîte de bordure.
+La bordure droite cachée (par défaut, c'est faux) - spécifie l'état caché ou visible de la bordure droite de la boîte de bordure.
 
 ```csharp
 public bool HideRight { get; set; }

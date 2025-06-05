@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/ioleobjectframe/linkfilename/
 ---
+
 ## IOleObjectFrame.LinkFileName property
 
 Returns the full path to a linked file. Short file name will be used. Read-only String.

@@ -1,13 +1,13 @@
 ---
-title: Удалить
-second_title: Справочник по API Aspose.Slides для .NET
+title: Remove
+second_title: Aspose.Sildes для .NET API Справочник
 description: Удаляет элемент ActiveX из коллекции.
 type: docs
 weight: 40
 url: /ru/aspose.slides/icontrolcollection/remove/
 ---
 
-## Метод IControlCollection.Remove
+## IControlCollection.Remove метод
 
 Удаляет элемент ActiveX из коллекции.
 
@@ -19,7 +19,7 @@ public void Remove(IControl item)
 | --- | --- | --- |
 | item | IControl | Элемент управления для удаления. |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IControl](../../icontrol)
 * интерфейс [IControlCollection](../../icontrolcollection)

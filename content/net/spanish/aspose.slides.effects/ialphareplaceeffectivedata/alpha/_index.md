@@ -1,13 +1,13 @@
 ---
-title: Alfa
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Alpha
+second_title: Referencia API de Aspose.Slides para .NET
 description: Devuelve un nuevo valor alfa en el intervalo 0..1 Solo lectura Single.
 type: docs
 weight: 10
 url: /es/aspose.slides.effects/ialphareplaceeffectivedata/alpha/
 ---
 
-## Propiedad IAlphaReplaceEffectiveData.Alpha
+## IAlphaReplaceEffectiveData.Alpha propiedad
 
 Devuelve un nuevo valor alfa en el intervalo [0..1] Solo lectura Single.
 
@@ -15,10 +15,10 @@ Devuelve un nuevo valor alfa en el intervalo [0..1] Solo lectura Single.
 public float Alpha { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IAlphaReplaceEffectiveData](../../ialphareplaceeffectivedata)
 * espacio de nombres [Aspose.Slides.Effects](../../ialphareplaceeffectivedata)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

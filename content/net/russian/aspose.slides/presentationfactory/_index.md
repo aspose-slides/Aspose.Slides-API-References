@@ -1,7 +1,7 @@
 ---
 title: PresentationFactory
-second_title: Aspose.Slides для .NET API Reference
-description: Позволяет создавать презентацию через COM интерфейс
+second_title: Aspose.Slides для .NET API Справочник
+description: Позволяет создавать презентации через COM интерфейс
 type: docs
 weight: 9330
 url: /ru/aspose.slides/presentationfactory/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/presentationfactory/
 
 ## Класс PresentationFactory
 
-Позволяет создавать презентацию через COM интерфейс
+Позволяет создавать презентации через COM интерфейс
 
 ```csharp
 public class PresentationFactory : IPresentationFactory
@@ -35,9 +35,9 @@ public class PresentationFactory : IPresentationFactory
 | [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Создает новую презентацию с дополнительными параметрами загрузки |
 | [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Создает новый объект PresentationInfo из потока и связывает с ним презентацию. Получает информацию о презентации в указанном потоке. |
 | [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Создает новый объект PresentationInfo из файла и связывает с ним презентацию. |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Извлекает сырой текст со слайдов |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Извлекает сырой текст со слайдов |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Извлекает сырой текст со слайдов |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Извлекает сырой текст из слайдов |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Извлекает сырой текст из слайдов |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Извлекает сырой текст из слайдов |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation)(byte[]) | Читает существующую презентацию из массива |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | Читает существующую презентацию из потока |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | Читает существующую презентацию из файла |
@@ -77,7 +77,7 @@ Console.WriteLine(props.Title);
 [C#]
 IPresentationInfo info = PresentationFactory.Instance.GetPresentationInfo("pres.pptx");
 IDocumentProperties props = info.ReadDocumentProperties();
-props.Title = "My title";
+props.Title = "Мой заголовок";
 info.UpdateDocumentProperties(props);
 ```
 

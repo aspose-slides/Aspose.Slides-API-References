@@ -23,8 +23,8 @@ public interface IChartDataCell
 | [Column](../../aspose.slides.charts/ichartdatacell/column) { get; } | Renvoie l'index de la colonne de la feuille de calcul dans laquelle se trouve la cellule. Lecture seule Int32. |
 | [CustomNumberFormat](../../aspose.slides.charts/ichartdatacell/customnumberformat) { get; set; } | Obtient ou définit le format d'affichage personnalisé des nombres et des dates. Si la valeur est vide, la valeur PresetNumberFormat sera utilisée. Lecture/écriture String. |
 | [Formula](../../aspose.slides.charts/ichartdatacell/formula) { get; set; } | Obtient ou définit la formule au format A1. |
-| [IsHidden](../../aspose.slides.charts/ichartdatacell/ishidden) { get; } | Détermine si la cellule est masquée. Lecture seule Boolean. |
-| [PresetNumberFormat](../../aspose.slides.charts/ichartdatacell/presetnumberformat) { get; set; } | Obtient ou définit le format d'affichage intégré des nombres et des dates. Le numéro prédéfini doit être dans [0..22] ou [37..49]. Lecture/écriture Byte. |
+| [IsHidden](../../aspose.slides.charts/ichartdatacell/ishidden) { get; } | Détermine si la cellule est cachée. Lecture seule Boolean. |
+| [PresetNumberFormat](../../aspose.slides.charts/ichartdatacell/presetnumberformat) { get; set; } | Obtient ou définit le format d'affichage intégré des nombres et des dates. Le nombre prédéfini doit être dans [0..22] ou [37..49]. Lecture/écriture Byte. |
 | [R1C1Formula](../../aspose.slides.charts/ichartdatacell/r1c1formula) { get; set; } | Obtient ou définit la formule au format R1C1. |
 | [Row](../../aspose.slides.charts/ichartdatacell/row) { get; } | Renvoie l'index de la ligne de la feuille de calcul dans laquelle se trouve la cellule. Lecture seule Int32. |
 | [Value](../../aspose.slides.charts/ichartdatacell/value) { get; set; } | Obtient ou définit la valeur d'une cellule. Lecture/écriture Object. |

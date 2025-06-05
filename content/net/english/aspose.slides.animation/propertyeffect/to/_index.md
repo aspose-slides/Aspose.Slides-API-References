@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.animation/propertyeffect/to/
 ---
+
 ## PropertyEffect.To property
 
 Specifies the ending value for the animation. Read/write String.

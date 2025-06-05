@@ -1,7 +1,7 @@
 ---
 title: GetCellsAddress
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Adresse des Zellbereichs in der Arbeitsmappe zurück.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Adresse der Zellenmenge im Arbeitsbuch zurück.
 type: docs
 weight: 50
 url: /de/aspose.slides.charts/ichartcellcollection/getcellsaddress/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartcellcollection/getcellsaddress/
 
 ## IChartCellCollection.GetCellsAddress-Methode
 
-Gibt die Adresse des Zellbereichs in der Arbeitsmappe zurück.
+Gibt die Adresse der Zellenmenge im Arbeitsbuch zurück.
 
 ```csharp
 public string GetCellsAddress()
@@ -17,7 +17,7 @@ public string GetCellsAddress()
 
 ### Rückgabewert
 
-Adresse des Zellbereichs in der Arbeitsmappe String
+Adresse der Zellenmenge im Arbeitsbuch String
 
 ### Siehe auch
 

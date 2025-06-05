@@ -1,6 +1,6 @@
 ---
 title: FirstRowIndex
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回单元格覆盖的第一行的索引。只读 Int32。
 type: docs
 weight: 80
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/icell/firstrowindex/
 public int FirstRowIndex { get; }
 ```
 
-### 参见
+### 另见
 
 * 接口 [ICell](../../icell)
 * 命名空间 [Aspose.Slides](../../icell)

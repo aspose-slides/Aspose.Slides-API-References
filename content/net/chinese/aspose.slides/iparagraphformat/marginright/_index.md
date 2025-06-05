@@ -1,7 +1,7 @@
 ---
-title: 右边距
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回或设置段落中的右边距，不继承。可读/可写 单精度浮点数。
+title: MarginRight
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置没有继承的段落的右边距。可读写单精度浮点数。
 type: docs
 weight: 120
 url: /zh/aspose.slides/iparagraphformat/marginright/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/iparagraphformat/marginright/
 
 ## IParagraphFormat.MarginRight 属性
 
-返回或设置段落中的右边距，不继承。可读/可写 单精度浮点数。
+返回或设置没有继承的段落的右边距。可读写单精度浮点数。
 
 ```csharp
 public float MarginRight { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IParagraphFormat](../../iparagraphformat)
 * 命名空间 [Aspose.Slides](../../iparagraphformat)

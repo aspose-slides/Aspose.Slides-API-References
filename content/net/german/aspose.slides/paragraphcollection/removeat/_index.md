@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Entfernt das Element am angegebenen Index der Sammlung.
 type: docs
 weight: 140
 url: /de/aspose.slides/paragraphcollection/removeat/
 ---
 
-## ParagraphCollection.RemoveAt Methode
+## ParagraphCollection.RemoveAt-Methode
 
 Entfernt das Element am angegebenen Index der Sammlung.
 
@@ -15,11 +15,11 @@ Entfernt das Element am angegebenen Index der Sammlung.
 public void RemoveAt(int index)
 ```
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| index | Int32 | Der nullbasierte Index des zu entfernenden Elements. |
+| Parameter | Typ   | Beschreibung                               |
+|-----------|-------|------------------------------------------|
+| index     | Int32 | Der nullbasierte Index des zu entfernenden Elements. |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [ParagraphCollection](../../paragraphcollection)
 * Namespace [Aspose.Slides](../../paragraphcollection)

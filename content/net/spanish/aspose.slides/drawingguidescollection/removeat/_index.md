@@ -1,6 +1,6 @@
 ---
 title: RemoveAt
-second_title: Referencia API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Elimina la guía de dibujo en el índice especificado.
 type: docs
 weight: 70
@@ -19,10 +19,10 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Índice de la guía de dibujo que debe ser eliminada. |
 
-### Ver También
+### Véase también
 
-* class [DrawingGuidesCollection](../../drawingguidescollection)
-* namespace [Aspose.Slides](../../drawingguidescollection)
-* assembly [Aspose.Slides](../../../)
+* clase [DrawingGuidesCollection](../../drawingguidescollection)
+* espacio de nombres [Aspose.Slides](../../drawingguidescollection)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

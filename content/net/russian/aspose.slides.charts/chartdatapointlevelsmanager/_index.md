@@ -1,13 +1,13 @@
 ---
 title: ChartDataPointLevelsManager
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Slides для .NET API Справочник
 description: Контейнер уровней точек данных. Применяется для серий Treeamp и Sunburst. Индексация уровней точек данных начинается с нуля.
 type: docs
 weight: 1280
 url: /ru/aspose.slides.charts/chartdatapointlevelsmanager/
 ---
 
-## Класс ChartDataPointLevelsManager
+## ChartDataPointLevelsManager класс
 
 Контейнер уровней точек данных. Применяется для серий Treeamp и Sunburst. Индексация уровней точек данных начинается с нуля.
 
@@ -20,7 +20,7 @@ public class ChartDataPointLevelsManager : DomObject<ChartDataPoint>, IChartData
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.slides.charts/chartdatapointlevelsmanager/count) { get; } | Возвращает количество уровней точек данных. |
-| [Item](../../aspose.slides.charts/chartdatapointlevelsmanager/item) { get; } | Возвращает объект IChartDataPointLevel для заданного уровня. |
+| [Item](../../aspose.slides.charts/chartdatapointlevelsmanager/item) { get; } | Возвращает объект IChartDataPointLevel для определенного уровня. |
 
 ### См. также
 

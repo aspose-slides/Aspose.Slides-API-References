@@ -1,7 +1,7 @@
 ---
 title: SetHeaderAndChildHeadersVisibility
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ändert die Sichtbarkeit des Platzhalters für die Kopfzeile der Master-Notizenfolie und aller untergeordneten Platzhalter für die Kopfzeile. Untergeordnete Platzhalter sind Platzhalter, die auf abhängigen Notizenfolien enthalten sind. Abhängige Notizenfolien verwenden und sind auf die Master-Notizenfolie angewiesen.
+description: Ändert die Sichtbarkeit des Platzhalters für die Kopfzeile der Master-Notizenfolie und aller untergeordneten Kopfzeilenplatzhalter. Untergeordnete Platzhalter sind Platzhalter, die auf abhängigen Notizenfolien enthalten sind. Abhängige Notizenfolien verwenden und hängen von der Master-Notizenfolie ab.
 type: docs
 weight: 70
 url: /de/aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildhea
 
 ## IMasterNotesSlideHeaderFooterManager.SetHeaderAndChildHeadersVisibility-Methode
 
-Ändert die Sichtbarkeit des Platzhalters für die Kopfzeile der Master-Notizenfolie und aller untergeordneten Platzhalter für die Kopfzeile. Untergeordnete Platzhalter sind Platzhalter, die auf abhängigen Notizenfolien enthalten sind. Abhängige Notizenfolien verwenden und sind auf die Master-Notizenfolie angewiesen.
+Ändert die Sichtbarkeit des Platzhalters für die Kopfzeile der Master-Notizenfolie und aller untergeordneten Kopfzeilenplatzhalter. Untergeordnete Platzhalter sind Platzhalter, die auf abhängigen Notizenfolien enthalten sind. Abhängige Notizenfolien verwenden und hängen von der Master-Notizenfolie ab.
 
 ```csharp
 public void SetHeaderAndChildHeadersVisibility(bool isVisible)
@@ -17,7 +17,7 @@ public void SetHeaderAndChildHeadersVisibility(bool isVisible)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| isVisible | Boolean | true - macht einen Platzhalter für die Kopfzeile sichtbar, andernfalls - versteckt sie. |
+| isVisible | Boolean | true - macht die Platzhalter der Kopfzeile sichtbar, andernfalls - versteckt sie. |
 
 ### Siehe auch
 

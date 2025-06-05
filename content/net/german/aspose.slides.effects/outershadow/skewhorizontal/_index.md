@@ -1,7 +1,7 @@
 ---
 title: SkewHorizontal
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den horizontalen Schrägungswinkel in Grad an. Lese-/Schreibbare Double.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt den horizontalen Schrägwinkel in Grad an. Lese-/Schreib Double.
 type: docs
 weight: 90
 url: /de/aspose.slides.effects/outershadow/skewhorizontal/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.effects/outershadow/skewhorizontal/
 
 ## OuterShadow.SkewHorizontal-Eigenschaft
 
-Gibt den horizontalen Schrägungswinkel (in Grad) an. Lese-/Schreibbare Double.
+Gibt den horizontalen Schrägwinkel (in Grad) an. Lese-/Schreib Double.
 
 ```csharp
 public double SkewHorizontal { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [OuterShadow](../../outershadow)
 * Namespace [Aspose.Slides.Effects](../../outershadow)

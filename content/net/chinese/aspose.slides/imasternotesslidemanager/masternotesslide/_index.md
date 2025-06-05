@@ -1,7 +1,7 @@
 ---
 title: MasterNotesSlide
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回此演示文稿的所有备注幻灯片的母版（如果存在），否则返回 null。只读 IMasterNotesSlideaspose.slides/imasternotesslide。
+second_title: Aspose.Sildes for .NET API Reference
+description: 如果有的话，返回此演示文稿所有备注幻灯片的母版，否则返回 null。只读 IMasterNotesSlideaspose.slides/imasternotesslide。
 type: docs
 weight: 10
 url: /zh/aspose.slides/imasternotesslidemanager/masternotesslide/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/imasternotesslidemanager/masternotesslide/
 
 ## IMasterNotesSlideManager.MasterNotesSlide 属性
 
-返回此演示文稿的所有备注幻灯片的母版（如果存在），否则返回 null。只读 [`IMasterNotesSlide`](../../imasternotesslide)。
+如果有的话，返回此演示文稿所有备注幻灯片的母版，否则返回 null。只读 [`IMasterNotesSlide`](../../imasternotesslide)。
 
 ```csharp
 public IMasterNotesSlide MasterNotesSlide { get; }
 ```
 
-### 另请参见
+### 另外请参见
 
 * 接口 [IMasterNotesSlide](../../imasternotesslide)
 * 接口 [IMasterNotesSlideManager](../../imasternotesslidemanager)

@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.animation/behaviorcollection/remove/
 ---
+
 ## BehaviorCollection.Remove method
 
 Removes specified behavior from a collection.

@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.animation/textanimationcollection/getenumerator/
 ---
+
 ## TextAnimationCollection.GetEnumerator method
 
 Returns an enumerator that iterates through the collection.

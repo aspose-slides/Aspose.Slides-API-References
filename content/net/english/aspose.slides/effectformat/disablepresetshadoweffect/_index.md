@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides/effectformat/disablepresetshadoweffect/
 ---
+
 ## EffectFormat.DisablePresetShadowEffect method
 
 Disables preset shadow effect.

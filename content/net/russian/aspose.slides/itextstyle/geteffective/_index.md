@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Aspose.Slides для .NET API Справочник
-description: Получает данные о форматировании текста с применением наследования.
+description: Получает данные форматирования стиля текста с применением наследования.
 type: docs
 weight: 20
 url: /ru/aspose.slides/itextstyle/geteffective/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/itextstyle/geteffective/
 
 ## ITextStyle.GetEffective метод
 
-Получает данные о форматировании текста с применением наследования.
+Получает данные форматирования стиля текста с применением наследования.
 
 ```csharp
 public ITextStyleEffectiveData GetEffective()

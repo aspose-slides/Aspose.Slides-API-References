@@ -1,21 +1,21 @@
 ---
-title: Dirección
+title: Direction
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Dirección de la transición. Lectura/escritura TransitionSideDirectionTypeaspose.slides.slideshow/transitionsidedirectiontype.
+description: Dirección de transición. Lectura/escritura TransitionSideDirectionTypeaspose.slides.slideshow/transitionsidedirectiontype.
 type: docs
 weight: 20
 url: /es/aspose.slides.slideshow/isidedirectiontransition/direction/
 ---
 
-## Propiedad ISideDirectionTransition.Direction
+## ISideDirectionTransition.Direction property
 
-Dirección de la transición. Lectura/escritura [`TransitionSideDirectionType`](../../transitionsidedirectiontype).
+Dirección de transición. Lectura/escritura [`TransitionSideDirectionType`](../../transitionsidedirectiontype).
 
 ```csharp
 public TransitionSideDirectionType Direction { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * enum [TransitionSideDirectionType](../../transitionsidedirectiontype)
 * interface [ISideDirectionTransition](../../isidedirectiontransition)

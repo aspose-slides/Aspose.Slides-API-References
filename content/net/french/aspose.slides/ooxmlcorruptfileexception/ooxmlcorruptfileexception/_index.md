@@ -1,6 +1,6 @@
 ---
 title: OOXMLCorruptFileException
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Constructeur par défaut.
 type: docs
 weight: 10
@@ -17,7 +17,7 @@ public OOXMLCorruptFileException()
 
 ### Voir aussi
 
-* classe [OOXMLCorruptFileException](../../ooxmlcorruptfileexception)
+* class [OOXMLCorruptFileException](../../ooxmlcorruptfileexception)
 * namespace [Aspose.Slides](../../ooxmlcorruptfileexception)
 * assembly [Aspose.Slides](../../../)
 
@@ -37,7 +37,7 @@ public OOXMLCorruptFileException(string message)
 
 ### Voir aussi
 
-* classe [OOXMLCorruptFileException](../../ooxmlcorruptfileexception)
+* class [OOXMLCorruptFileException](../../ooxmlcorruptfileexception)
 * namespace [Aspose.Slides](../../ooxmlcorruptfileexception)
 * assembly [Aspose.Slides](../../../)
 
@@ -45,7 +45,7 @@ public OOXMLCorruptFileException(string message)
 
 ## OOXMLCorruptFileException(string, Exception) {#constructor_2}
 
-Constructeur pour une exception contenant un message et une exception imbriquée.
+Constructeur pour une exception contenant un message et une exception intégrée.
 
 ```csharp
 public OOXMLCorruptFileException(string message, Exception exception)
@@ -54,11 +54,11 @@ public OOXMLCorruptFileException(string message, Exception exception)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | message | String | message |
-| exception | Exception | exception d'origine |
+| exception | Exception | exception originale |
 
 ### Voir aussi
 
-* classe [OOXMLCorruptFileException](../../ooxmlcorruptfileexception)
+* class [OOXMLCorruptFileException](../../ooxmlcorruptfileexception)
 * namespace [Aspose.Slides](../../ooxmlcorruptfileexception)
 * assembly [Aspose.Slides](../../../)
 

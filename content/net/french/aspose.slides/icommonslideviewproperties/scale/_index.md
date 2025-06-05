@@ -1,7 +1,7 @@
 ---
-title: Échelle
+title: Scale
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie le rapport d'échelle de la vue en pourcentages. Lecture/écriture Int32.
+description: Spécifie le rapport de mise à l'échelle de la vue en pourcentages. Lecture/écriture Int32.
 type: docs
 weight: 20
 url: /fr/aspose.slides/icommonslideviewproperties/scale/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/icommonslideviewproperties/scale/
 
 ## Propriété ICommonSlideViewProperties.Scale
 
-Spécifie le rapport d'échelle de la vue en pourcentages. Lecture/écriture Int32.
+Spécifie le rapport de mise à l'échelle de la vue en pourcentages. Lecture/écriture Int32.
 
 ```csharp
 public int Scale { get; set; }
@@ -19,9 +19,9 @@ public int Scale { get; set; }
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | Lève une exception lorsque la valeur est inférieure à zéro. |
+| ArgumentOutOfRangeException | Lance une exception lorsque la valeur est inférieure à zéro. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ICommonSlideViewProperties](../../icommonslideviewproperties)
 * namespace [Aspose.Slides](../../icommonslideviewproperties)

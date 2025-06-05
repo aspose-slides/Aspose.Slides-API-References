@@ -15,7 +15,7 @@ url: /zh/aspose.slides/igraphicalobjectlock/selectlocked/
 public bool SelectLocked { get; set; }
 ```
 
-### 见也
+### 另见
 
 * 接口 [IGraphicalObjectLock](../../igraphicalobjectlock)
 * 命名空间 [Aspose.Slides](../../igraphicalobjectlock)

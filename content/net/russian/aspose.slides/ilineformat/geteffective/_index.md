@@ -1,25 +1,25 @@
 ---
 title: GetEffective
-second_title: Aspose.Sildes для .NET API Справочник
-description: Получает данные о форматировании линии с примененным наследованием.
+second_title: Aspose.Sildes для .NET API Reference
+description: Получает данные об эффективном форматировании линии с применением наследования.
 type: docs
 weight: 200
 url: /ru/aspose.slides/ilineformat/geteffective/
 ---
 
-## Метод ILineFormat.GetEffective
+## ILineFormat.GetEffective метод
 
-Получает данные о форматировании линии с примененным наследованием.
+Получает данные об эффективном форматировании линии с применением наследования.
 
 ```csharp
 public ILineFormatEffectiveData GetEffective()
 ```
 
-### Возвращаемое Значение
+### Возвращаемое значение
 
 [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
 
-### См. Также
+### Также смотрите
 
 * интерфейс [ILineFormatEffectiveData](../../ilineformateffectivedata)
 * интерфейс [ILineFormat](../../ilineformat)

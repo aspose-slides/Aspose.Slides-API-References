@@ -1,7 +1,7 @@
 ---
 title: ArrowheadsLocked
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob das Ändern von Pfeilspitzen verboten ist. Lese-/Schreib-Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt, ob das Ändern der Pfeilspitzen verboten ist. Lese-/Schreib-Boolean.
 type: docs
 weight: 20
 url: /de/aspose.slides/autoshapelock/arrowheadslocked/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/autoshapelock/arrowheadslocked/
 
 ## AutoShapeLock.ArrowheadsLocked-Eigenschaft
 
-Bestimmt, ob das Ändern von Pfeilspitzen verboten ist. Lese-/Schreib-Boolean.
+Bestimmt, ob das Ändern der Pfeilspitzen verboten ist. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool ArrowheadsLocked { get; set; }

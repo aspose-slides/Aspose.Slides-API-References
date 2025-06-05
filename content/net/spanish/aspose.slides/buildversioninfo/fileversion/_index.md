@@ -1,13 +1,13 @@
 ---
 title: FileVersion
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Versión del archivo de ensamblado.
 type: docs
 weight: 20
 url: /es/aspose.slides/buildversioninfo/fileversion/
 ---
 
-## Campo BuildVersionInfo.FileVersion
+## BuildVersionInfo.FileVersion campo
 
 Versión del archivo de ensamblado.
 
@@ -15,7 +15,7 @@ Versión del archivo de ensamblado.
 public const string FileVersion;
 ```
 
-### Véase también
+### Ver También
 
 * clase [BuildVersionInfo](../../buildversioninfo)
 * espacio de nombres [Aspose.Slides](../../buildversioninfo)

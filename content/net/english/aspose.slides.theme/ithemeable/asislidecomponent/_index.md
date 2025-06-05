@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.theme/ithemeable/asislidecomponent/
 ---
+
 ## IThemeable.AsISlideComponent property
 
 Returns ISlideComponent interface. Read-only [`ISlideComponent`](../../../aspose.slides/islidecomponent).

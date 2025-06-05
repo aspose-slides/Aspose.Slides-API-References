@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.animation/isequence/triggershape/
 ---
+
 ## ISequence.TriggerShape property
 
 Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write [`IShape`](../../../aspose.slides/ishape).

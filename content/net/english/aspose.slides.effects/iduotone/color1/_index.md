@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.effects/iduotone/color1/
 ---
+
 ## IDuotone.Color1 property
 
 Returns target color format for dark pixels. Read-only [`IColorFormat`](../../../aspose.slides/icolorformat).

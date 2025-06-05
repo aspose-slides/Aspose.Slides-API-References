@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/shapebevel/equals/
 ---
+
 ## ShapeBevel.Equals method
 
 ```csharp

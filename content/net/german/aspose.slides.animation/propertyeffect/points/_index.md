@@ -1,7 +1,7 @@
 ---  
-title: Punkte  
+title: Points
 second_title: Aspose.Slides für .NET API-Referenz  
-description: Gibt die Punkte der Animation an. Lese-/Schreibzugriff auf IPointCollectionaspose.slides.animation/ipointcollection.
+description: Gibt die Punkte der Animation an. Lese-/schreibbarer IPointCollectionaspose.slides.animation/ipointcollection.
 type: docs  
 weight: 50  
 url: /de/aspose.slides.animation/propertyeffect/points/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/propertyeffect/points/
 
 ## PropertyEffect.Points-Eigenschaft  
 
-Gibt die Punkte der Animation an. Lese-/Schreibzugriff auf [`IPointCollection`](../../ipointcollection).  
+Gibt die Punkte der Animation an. Lese-/schreibbar [`IPointCollection`](../../ipointcollection).  
 
 ```csharp  
 public IPointCollection Points { get; set; }  

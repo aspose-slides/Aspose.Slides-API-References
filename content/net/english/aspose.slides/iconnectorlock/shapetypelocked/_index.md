@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/iconnectorlock/shapetypelocked/
 ---
+
 ## IConnectorLock.ShapeTypeLocked property
 
 Determines whether a changing of a shape type is forbidden. Read/write Boolean.

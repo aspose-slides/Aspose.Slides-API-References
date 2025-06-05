@@ -1,5 +1,5 @@
 ---
-title: AlturaReal
+title: ActualHeight
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Especifica la altura real del elemento del gráfico. Llame al método IChart.ValidateChartLayout antes de obtener los valores reales. Leer Single.
 type: docs
@@ -17,8 +17,8 @@ public float ActualHeight { get; }
 
 ### Ver También
 
-* clase [ChartPlotArea](../../chartplotarea)
-* espacio de nombres [Aspose.Slides.Charts](../../chartplotarea)
-* ensamblaje [Aspose.Slides](../../../)
+* class [ChartPlotArea](../../chartplotarea)
+* namespace [Aspose.Slides.Charts](../../chartplotarea)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

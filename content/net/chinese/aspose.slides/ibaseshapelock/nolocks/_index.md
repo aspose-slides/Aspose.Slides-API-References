@@ -1,7 +1,7 @@
 ---
 title: NoLocks
-second_title: Aspose.Sildes for .NET API 参考
-description: 如果所有锁标志均已禁用，则返回 true。只读布尔值。
+second_title: Aspose.Slides for .NET API Reference
+description: 如果所有锁标志都被禁用则返回 true。只读布尔值。
 type: docs
 weight: 10
 url: /zh/aspose.slides/ibaseshapelock/nolocks/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ibaseshapelock/nolocks/
 
 ## IBaseShapeLock.NoLocks 属性
 
-如果所有锁标志均已禁用，则返回 true。只读布尔值。
+如果所有锁标志都被禁用则返回 true。只读布尔值。
 
 ```csharp
 public bool NoLocks { get; }
 ```
 
-### 参见
+### 另见
 
 * 接口 [IBaseShapeLock](../../ibaseshapelock)
 * 命名空间 [Aspose.Slides](../../ibaseshapelock)

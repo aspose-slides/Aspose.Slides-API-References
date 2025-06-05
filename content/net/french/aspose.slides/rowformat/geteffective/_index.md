@@ -1,27 +1,27 @@
 ---
 title: GetEffective
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient les propriétés de formatage de ligne de tableau effectives avec héritage et styles de tableau appliqués.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Obtient les propriétés de formatage des lignes de tableau effectives avec héritage et styles de tableau appliqués.
 type: docs
 weight: 10
 url: /fr/aspose.slides/rowformat/geteffective/
 ---
 
-## Méthode RowFormat.GetEffective
+## RowFormat.GetEffective method
 
-Obtient les propriétés de formatage de ligne de tableau effectives avec héritage et styles de tableau appliqués.
+Obtient les propriétés de formatage des lignes de tableau effectives avec héritage et styles de tableau appliqués.
 
 ```csharp
 public IRowFormatEffectiveData GetEffective()
 ```
 
-### Valeur de retour
+### Return Value
 
 Un [`IRowFormatEffectiveData`](../../irowformateffectivedata).
 
-### Exemples
+### Examples
 
-Cet exemple démontre comment obtenir le format de remplissage effectif pour différentes parties de la logique de tableau. Veuillez noter que le formatage des cellules a toujours une priorité plus élevée que le formatage des lignes, le formatage des lignes est supérieur à celui des colonnes, et le formatage des colonnes est supérieur à celui de l'ensemble du tableau. Ainsi, les propriétés de CellFormatEffectiveData sont toujours utilisées pour dessiner le tableau. Le code suivant est juste un exemple de l'API.
+Cet exemple démontre comment obtenir le format de remplissage effectif pour différentes parties logiques du tableau. Veuillez noter que le formatage des cellules a toujours une priorité plus élevée que le formatage des lignes, le formatage des lignes est supérieur à celui des colonnes, et le formatage des colonnes est supérieur à celui de l'ensemble du tableau. Ainsi, finalement, les propriétés de CellFormatEffectiveData sont toujours utilisées pour dessiner le tableau. Le code suivant n'est qu'un exemple d'API.
 
 ```csharp
 [C#]
@@ -32,11 +32,11 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
     IFillFormatEffectiveData rowFillFormatEffective = tbl.Rows[0].RowFormat.GetEffective().FillFormat;
     IFillFormatEffectiveData columnFillFormatEffective = tbl.Columns[0].ColumnFormat.GetEffective().FillFormat;
     IFillFormatEffectiveData cellFillFormatEffective = tbl[0, 0].CellFormat.GetEffective().FillFormat;
-    /* Sortie et comparaison */
+    /* Output and comparison */
 }
 ```
 
-### Voir aussi
+### See Also
 
 * interface [IRowFormatEffectiveData](../../irowformateffectivedata)
 * class [RowFormat](../../rowformat)

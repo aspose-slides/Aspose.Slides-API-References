@@ -1,21 +1,21 @@
 ---
 title: MultimediaClips
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Определяет общее количество звуковых или видеофрагментов, присутствующих в документе. Только для чтения Int32.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Указывает общее количество звуковых или видеоклипов, присутствующих в документе. Только для чтения Int32.
 type: docs
 weight: 220
 url: /ru/aspose.slides/idocumentproperties/multimediaclips/
 ---
 
-## Свойство IDocumentProperties.MultimediaClips
+## IDocumentProperties.MultimediaClips свойство
 
-Определяет общее количество звуковых или видеофрагментов, присутствующих в документе. Только для чтения Int32.
+Указывает общее количество звуковых или видеоклипов, присутствующих в документе. Только для чтения Int32.
 
 ```csharp
 public int MultimediaClips { get; }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IDocumentProperties](../../idocumentproperties)
 * пространство имен [Aspose.Slides](../../idocumentproperties)

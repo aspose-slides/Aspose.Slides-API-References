@@ -1,15 +1,15 @@
 ---
 title: EndShapeConnectedTo
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit la forme à laquelle attacher l'extrémité du connecteur. En lecture/écriture IShapeaspose.slides/ishape.
+second_title: Aspose.Sildes pour la référence de l'API .NET
+description: Renvoie ou définit la forme à laquelle attacher l'extrémité du connecteur. Lecture/écriture IShapeaspose.slides/ishape.
 type: docs
 weight: 30
 url: /fr/aspose.slides/iconnector/endshapeconnectedto/
 ---
 
-## Propriété IConnector.EndShapeConnectedTo
+## IConnector.EndShapeConnectedTo propriété
 
-Renvoie ou définit la forme à laquelle attacher l'extrémité du connecteur. En lecture/écriture [`IShape`](../../ishape).
+Renvoie ou définit la forme à laquelle attacher l'extrémité du connecteur. Lecture/écriture [`IShape`](../../ishape).
 
 ```csharp
 public IShape EndShapeConnectedTo { get; set; }
@@ -19,7 +19,7 @@ public IShape EndShapeConnectedTo { get; set; }
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Levée lorsque la forme connectée n'a aucun site de connexion (IShape.ConnectionSiteCount égal à zéro) |
+| ArgumentException | Lancée lorsque la forme connectée n'a pas de sites de connexion (IShape.ConnectionSiteCount égal à zéro) |
 
 ### Voir aussi
 

@@ -1,7 +1,7 @@
 ---
 title: AsIImageTransformOperation
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das IImageTransformOperation-Interface zurück. Nur lesbares IImageTransformOperation aspose.slides.effects/iimagetransformoperation.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt das IImageTransformOperation-Interface zurück. Nur-lesbares IImageTransformOperationaspose.slides.effects/iimagetransformoperation.
 type: docs
 weight: 20
 url: /de/aspose.slides.effects/igrayscale/asiimagetransformoperation/
@@ -9,17 +9,17 @@ url: /de/aspose.slides.effects/igrayscale/asiimagetransformoperation/
 
 ## IGrayScale.AsIImageTransformOperation-Eigenschaft
 
-Gibt das IImageTransformOperation-Interface zurück. Nur lesbares [`IImageTransformOperation`](../../iimagetransformoperation).
+Gibt das IImageTransformOperation-Interface zurück. Nur-lesbares [`IImageTransformOperation`](../../iimagetransformoperation).
 
 ```csharp
 public IImageTransformOperation AsIImageTransformOperation { get; }
 ```
 
-### Hinweise
+### Anmerkungen
 
-Für die COM-Kompatibilität.
+Für COM-Kompatibilität.
 
-### Siehe Auch
+### Siehe auch
 
 * Interface [IImageTransformOperation](../../iimagetransformoperation)
 * Interface [IGrayScale](../../igrayscale)

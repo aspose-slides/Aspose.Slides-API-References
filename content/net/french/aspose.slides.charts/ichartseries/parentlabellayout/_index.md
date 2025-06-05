@@ -1,7 +1,7 @@
 ---
 title: ParentLabelLayout
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente la disposition des étiquettes de catégorie parent. S'applique uniquement aux graphiques Treemap.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Représente la disposition des étiquettes de catégorie parente. S'applique uniquement aux graphiques Treemap.
 type: docs
 weight: 280
 url: /fr/aspose.slides.charts/ichartseries/parentlabellayout/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/ichartseries/parentlabellayout/
 
 ## Propriété IChartSeries.ParentLabelLayout
 
-Représente la disposition des étiquettes de catégorie parent. S'applique uniquement aux graphiques Treemap.
+Représente la disposition des étiquettes de catégorie parente. S'applique uniquement aux graphiques Treemap.
 
 ```csharp
 public ParentLabelLayoutType ParentLabelLayout { get; set; }
 ```
 
-### Voir aussi
+### Voir Également
 
 * enum [ParentLabelLayoutType](../../parentlabellayouttype)
 * interface [IChartSeries](../../ichartseries)

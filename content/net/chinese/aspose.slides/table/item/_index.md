@@ -1,6 +1,6 @@
 ---
-title: 项
-second_title: Aspose.Slides for .NET API 参考
+title: Item
+second_title: Aspose.Slides for .NET API Reference
 description: 返回指定列和行索引的单元格。只读 Cellaspose.slides/cell。
 type: docs
 weight: 60
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/table/item/
 public ICell this[int columnIndex, int rowIndex] { get; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [ICell](../../icell)
 * 类 [Table](../../table)

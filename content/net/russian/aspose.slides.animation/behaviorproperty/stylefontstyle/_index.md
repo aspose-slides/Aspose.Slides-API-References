@@ -1,13 +1,13 @@
 ---
 title: StyleFontStyle
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет свойство style.fontStyle
 type: docs
 weight: 1080
 url: /ru/aspose.slides.animation/behaviorproperty/stylefontstyle/
 ---
 
-## Свойство BehaviorProperty.StyleFontStyle
+## BehaviorProperty.StyleFontStyle свойство
 
 Представляет свойство 'style.fontStyle'
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/behaviorproperty/stylefontstyle/
 public static BehaviorProperty StyleFontStyle { get; }
 ```
 
-### Также смотри
+### См. также
 
 * класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)

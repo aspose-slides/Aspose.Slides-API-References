@@ -1,7 +1,7 @@
 ---
 title: LinkPathRelative
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den relativen Pfad zu einer verlinkten Datei zurück, wenn vorhanden, andernfalls wird eine leere Zeichenfolge zurückgegeben. Nur-Lese-Zeichenfolge.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den relativen Pfad zu einer verlinkten Datei zurück, wenn vorhanden, andernfalls einen leeren String. Schreibgeschützter String.
 type: docs
 weight: 90
 url: /de/aspose.slides/oleobjectframe/linkpathrelative/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/oleobjectframe/linkpathrelative/
 
 ## OleObjectFrame.LinkPathRelative-Eigenschaft
 
-Gibt den relativen Pfad zu einer verlinkten Datei zurück, wenn vorhanden, andernfalls wird eine leere Zeichenfolge zurückgegeben. Nur-Lese-Zeichenfolge.
+Gibt den relativen Pfad zu einer verlinkten Datei zurück, wenn vorhanden, andernfalls einen leeren String. Schreibgeschützter String.
 
 ```csharp
 public string LinkPathRelative { get; }

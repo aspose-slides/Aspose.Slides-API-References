@@ -1,7 +1,7 @@
 ---
-title: 聚合类型
-second_title: Aspose.Slides for .NET API 参考
-description: 表示类别轴的聚合类型（分箱）。应用于类别。仅与直方图或直方图帕累托系列协作使用。
+title: AggregationType
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示类别轴的聚合类型（分箱）。适用于类别。仅与直方图或直方图帕累托系列一起使用。
 type: docs
 weight: 70
 url: /zh/aspose.slides.charts/axis/aggregationtype/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/axis/aggregationtype/
 
 ## Axis.AggregationType 属性
 
-表示类别轴的聚合类型（分箱）。应用于类别。仅与直方图或直方图帕累托系列协作使用。
+表示类别轴的聚合类型（分箱）。适用于类别。仅与直方图或直方图帕累托系列一起使用。
 
 ```csharp
 public AxisAggregationType AggregationType { get; set; }
 ```
 
-### 另见
+### 参见
 
 * enum [AxisAggregationType](../../axisaggregationtype)
 * class [Axis](../../axis)

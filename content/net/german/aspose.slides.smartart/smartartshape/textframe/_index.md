@@ -1,7 +1,7 @@
 ---
 title: TextFrame
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Text der SmartArt-Form zurück. Schreibgeschütztes ITextFrameaspose.slides/itextframe.
+description: Gibt den Text der SmartArt-Form zurück. Nur-Lese ITextFrameaspose.slides/../aspose.slides/itextframe.
 type: docs
 weight: 20
 url: /de/aspose.slides.smartart/smartartshape/textframe/
@@ -9,15 +9,15 @@ url: /de/aspose.slides.smartart/smartartshape/textframe/
 
 ## SmartArtShape.TextFrame-Eigenschaft
 
-Gibt den Text der SmartArt-Form zurück. Schreibgeschütztes [`ITextFrame`](../../../aspose.slides/itextframe).
+Gibt den Text der SmartArt-Form zurück. Nur-Lese [`ITextFrame`](../../../aspose.slides/itextframe).
 
 ```csharp
 public ITextFrame TextFrame { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
-* Interface [ITextFrame](../../../aspose.slides/itextframe)
+* Schnittstelle [ITextFrame](../../../aspose.slides/itextframe)
 * Klasse [SmartArtShape](../../smartartshape)
 * Namespace [Aspose.Slides.SmartArt](../../smartartshape)
 * Assembly [Aspose.Slides](../../../)

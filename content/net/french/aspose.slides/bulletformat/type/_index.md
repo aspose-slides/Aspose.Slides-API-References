@@ -1,6 +1,6 @@
 ---
 title: Type
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Retourne ou définit le type de puce d'un paragraphe sans héritage. Lecture/écriture BulletTypeaspose.slides/bullettype.
 type: docs
 weight: 100
@@ -15,7 +15,7 @@ Retourne ou définit le type de puce d'un paragraphe sans héritage. Lecture/éc
 public BulletType Type { get; set; }
 ```
 
-### Voir également
+### Voir Aussi
 
 * enum [BulletType](../../bullettype)
 * class [BulletFormat](../../bulletformat)

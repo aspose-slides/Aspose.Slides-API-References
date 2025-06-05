@@ -3,9 +3,10 @@ title: EmbeddedVideo
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets embedded video object. Read/write IVideoaspose.slides/ivideo.
 type: docs
-weight: 20
+weight: 30
 url: /aspose.slides/ivideoframe/embeddedvideo/
 ---
+
 ## IVideoFrame.EmbeddedVideo property
 
 Returns or sets embedded video object. Read/write [`IVideo`](../../ivideo).

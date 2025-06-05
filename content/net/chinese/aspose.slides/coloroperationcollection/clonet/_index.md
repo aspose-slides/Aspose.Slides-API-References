@@ -19,7 +19,7 @@ public IColorOperationCollection CloneT()
 
 克隆
 
-### 参见
+### 另请参见
 
 * 接口 [IColorOperationCollection](../../icoloroperationcollection)
 * 类 [ColorOperationCollection](../../coloroperationcollection)

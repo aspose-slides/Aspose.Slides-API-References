@@ -1,6 +1,6 @@
 ---
 title: AddAudio
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Добавляет копию аудиофайла из другой презентации.
 type: docs
 weight: 20
@@ -42,7 +42,7 @@ public IAudio AddAudio(Stream stream, LoadingStreamBehavior loadingStreamBehavio
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток, из которого добавляется аудио. |
+| stream | Stream | Поток, из которого будет добавлено аудио. |
 | loadingStreamBehavior | LoadingStreamBehavior | Поведение, которое будет применено к потоку. |
 
 ### Возвращаемое значение

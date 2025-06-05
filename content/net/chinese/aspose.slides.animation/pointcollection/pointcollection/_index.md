@@ -1,13 +1,13 @@
 ---
-title: 点集合
-second_title: Aspose.Slides for .NET API 参考
+title: PointCollection
+second_title: Aspose.Sildes for .NET API Reference
 description: 默认构造函数。
 type: docs
 weight: 10
 url: /zh/aspose.slides.animation/pointcollection/pointcollection/
 ---
 
-## 点集合构造函数
+## PointCollection 构造函数
 
 默认构造函数。
 
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/pointcollection/pointcollection/
 public PointCollection()
 ```
 
-### 另请参阅
+### 另见
 
 * class [PointCollection](../../pointcollection)
 * namespace [Aspose.Slides.Animation](../../pointcollection)

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/portionformat/portionformat/
 ---
+
 ## PortionFormat constructor
 
 Initializes a new instance of [`PortionFormat`](../../portionformat) class.

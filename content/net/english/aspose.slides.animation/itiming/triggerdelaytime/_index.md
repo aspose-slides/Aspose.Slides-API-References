@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.animation/itiming/triggerdelaytime/
 ---
+
 ## ITiming.TriggerDelayTime property
 
 Describes delay time after trigger. Read/write Single.

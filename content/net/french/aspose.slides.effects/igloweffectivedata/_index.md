@@ -1,15 +1,15 @@
 ---
 title: IGlowEffectiveData
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Objet immuable qui représente un effet de Glow dans lequel un contour flou de couleur est ajouté à l'extérieur des bords de l'objet.
+second_title: Aspose.Sldes pour .NET API Référence
+description: Objet immuable qui représente un effet de lueur dans lequel un contour flou de couleur est ajouté à l'extérieur des bords de l'objet.
 type: docs
 weight: 3210
 url: /fr/aspose.slides.effects/igloweffectivedata/
 ---
 
-## Interface IGlowEffectiveData
+## IGlowEffectiveData interface
 
-Objet immuable qui représente un effet de Glow, dans lequel un contour flou de couleur est ajouté à l'extérieur des bords de l'objet.
+Objet immuable qui représente un effet de lueur, dans lequel un contour flou de couleur est ajouté à l'extérieur des bords de l'objet.
 
 ```csharp
 public interface IGlowEffectiveData : IEffectEffectiveData
@@ -19,9 +19,9 @@ public interface IGlowEffectiveData : IEffectEffectiveData
 
 | Nom | Description |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/igloweffectivedata/asieffecteffectivedata) { get; } | Permet d'obtenir l'interface de base IEffectEffectiveData. Lecture seule [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Color](../../aspose.slides.effects/igloweffectivedata/color) { get; } | Couleur. Lecture seule Color. |
-| [Radius](../../aspose.slides.effects/igloweffectivedata/radius) { get; } | Rayon. Lecture seule Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/igloweffectivedata/asieffecteffectivedata) { get; } | Permet d'obtenir l'interface de base IEffectEffectiveData. En lecture seule [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Color](../../aspose.slides.effects/igloweffectivedata/color) { get; } | Couleur. Couleur en lecture seule. |
+| [Radius](../../aspose.slides.effects/igloweffectivedata/radius) { get; } | Rayon. Double en lecture seule. |
 
 ### Voir aussi
 

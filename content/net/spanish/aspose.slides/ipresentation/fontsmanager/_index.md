@@ -1,7 +1,7 @@
 ---
 title: FontsManager
-second_title: Aspose.Slides para referencia de API .NET
-description: Devuelve el administrador de fuentes. Solo lectura IFontsManager aspose.slides/ifontsmanager.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve el administrador de fuentes. Solo lectura IFontsManageraspose.slides/ifontsmanager.
 type: docs
 weight: 120
 url: /es/aspose.slides/ipresentation/fontsmanager/
@@ -15,11 +15,11 @@ Devuelve el administrador de fuentes. Solo lectura [`IFontsManager`](../../ifont
 public IFontsManager FontsManager { get; }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [IFontsManager](../../ifontsmanager)
 * interfaz [IPresentation](../../ipresentation)
 * espacio de nombres [Aspose.Slides](../../ipresentation)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

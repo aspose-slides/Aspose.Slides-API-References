@@ -1,7 +1,7 @@
 ---
-title: 次要水平轴
-second_title: Aspose.Slides for .NET API 参考
-description: 获取图表的次要水平轴。只读 IAxisaspose.slides.charts/iaxis.
+title: SecondaryHorizontalAxis
+second_title: Aspose.Slides for .NET API Reference
+description: 获取图表的次要水平轴。只读 IAxisaspose.slides.charts/iaxis。
 type: docs
 weight: 20
 url: /zh/aspose.slides.charts/iaxesmanager/secondaryhorizontalaxis/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/iaxesmanager/secondaryhorizontalaxis/
 public IAxis SecondaryHorizontalAxis { get; }
 ```
 
-### 参见
+### 另外参见
 
 * 接口 [IAxis](../../iaxis)
 * 接口 [IAxesManager](../../iaxesmanager)

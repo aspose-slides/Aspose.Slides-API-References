@@ -1,41 +1,41 @@
----
+---  
 title: IPictureFillFormatEffectiveData
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Objeto inmutable que contiene las propiedades del relleno de imagen.
-type: docs
-weight: 6460
+second_title: Referencia de la API de Aspose.Slides para .NET  
+description: Objeto inmutable que contiene las propiedades de relleno de imagen.
+type: docs  
+weight: 6460  
 url: /es/aspose.slides/ipicturefillformateffectivedata/
----
-
-## Interfaz IPictureFillFormatEffectiveData
-
-Objeto inmutable que contiene las propiedades del relleno de imagen.
-
-```csharp
-public interface IPictureFillFormatEffectiveData : IFillParamSource
-```
-
-## Propiedades
-
-| Nombre | Descripción |
-| --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ipicturefillformateffectivedata/asifillparamsource) { get; } | Permite obtener la interfaz base IFillParamSource. Solo lectura [`IFillParamSource`](../ifillparamsource). |
-| [CropBottom](../../aspose.slides/ipicturefillformateffectivedata/cropbottom) { get; } | Devuelve el número de porcentajes de la altura real de la imagen que se recortan en la parte inferior de la imagen. Solo lectura Single. |
-| [CropLeft](../../aspose.slides/ipicturefillformateffectivedata/cropleft) { get; } | Devuelve el número de porcentajes del ancho real de la imagen que se recortan en el lado izquierdo de la imagen. Solo lectura Single. |
-| [CropRight](../../aspose.slides/ipicturefillformateffectivedata/cropright) { get; } | Devuelve el número de porcentajes del ancho real de la imagen que se recortan en el lado derecho de la imagen. Solo lectura Single. |
-| [CropTop](../../aspose.slides/ipicturefillformateffectivedata/croptop) { get; } | Devuelve el número de porcentajes de la altura real de la imagen que se recortan en la parte superior de la imagen. Solo lectura Single. |
-| [Dpi](../../aspose.slides/ipicturefillformateffectivedata/dpi) { get; } | Devuelve el dpi que se utiliza para rellenar una imagen. Solo lectura Int32. |
-| [Picture](../../aspose.slides/ipicturefillformateffectivedata/picture) { get; } | Devuelve la imagen. Solo lectura [`IPictureEffectiveData`](../ipictureeffectivedata). |
-| [PictureFillMode](../../aspose.slides/ipicturefillformateffectivedata/picturefillmode) { get; } | Devuelve el modo de relleno de imagen. Solo lectura [`PictureFillMode`](../picturefillmode). |
-
-### Observaciones
-
-Esta interfaz se utiliza como parte de [`IFillFormatEffectiveData`](../ifillformateffectivedata).
-
-### Véase también
-
-* interfaz [IFillParamSource](../ifillparamsource)
-* espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblaje [Aspose.Slides](../../)
-
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+---  
+  
+## Interfaz IPictureFillFormatEffectiveData  
+  
+Objeto inmutable que contiene las propiedades de relleno de imagen.  
+  
+```csharp  
+public interface IPictureFillFormatEffectiveData : IFillParamSource  
+```  
+  
+## Propiedades  
+  
+| Nombre | Descripción |  
+| --- | --- |  
+| [AsIFillParamSource](../../aspose.slides/ipicturefillformateffectivedata/asifillparamsource) { get; } | Permite obtener la interfaz base IFillParamSource. Solo lectura [`IFillParamSource`](../ifillparamsource). |  
+| [CropBottom](../../aspose.slides/ipicturefillformateffectivedata/cropbottom) { get; } | Devuelve el número de porcentajes de la altura real de la imagen que se recortan de la parte inferior de la imagen. Solo lectura Single. |  
+| [CropLeft](../../aspose.slides/ipicturefillformateffectivedata/cropleft) { get; } | Devuelve el número de porcentajes del ancho real de la imagen que se recortan de la izquierda de la imagen. Solo lectura Single. |  
+| [CropRight](../../aspose.slides/ipicturefillformateffectivedata/cropright) { get; } | Devuelve el número de porcentajes del ancho real de la imagen que se recortan de la derecha de la imagen. Solo lectura Single. |  
+| [CropTop](../../aspose.slides/ipicturefillformateffectivedata/croptop) { get; } | Devuelve el número de porcentajes de la altura real de la imagen que se recortan de la parte superior de la imagen. Solo lectura Single. |  
+| [Dpi](../../aspose.slides/ipicturefillformateffectivedata/dpi) { get; } | Devuelve el dpi que se utiliza para rellenar una imagen. Solo lectura Int32. |  
+| [Picture](../../aspose.slides/ipicturefillformateffectivedata/picture) { get; } | Devuelve la imagen. Solo lectura [`IPictureEffectiveData`](../ipictureeffectivedata). |  
+| [PictureFillMode](../../aspose.slides/ipicturefillformateffectivedata/picturefillmode) { get; } | Devuelve el modo de relleno de imagen. Solo lectura [`PictureFillMode`](../picturefillmode). |  
+  
+### Observaciones  
+  
+Esta interfaz se utiliza como parte de [`IFillFormatEffectiveData`](../ifillformateffectivedata).  
+  
+### Véase También  
+  
+* interfaz [IFillParamSource](../ifillparamsource)  
+* espacio de nombres [Aspose.Slides](../../aspose.slides)  
+* ensamblado [Aspose.Slides](../../)  
+  
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->  

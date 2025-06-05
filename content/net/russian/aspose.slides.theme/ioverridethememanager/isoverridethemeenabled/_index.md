@@ -1,6 +1,6 @@
 ---
 title: IsOverrideThemeEnabled
-second_title: Aspose.Sildes для справки по API .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Определяет, переопределяет ли OverrideTheme унаследованную эффективную тему или нет. Чтобы включить OverrideTheme для переопределения, используйте методы OverrideTheme.Init. Чтобы отключить OverrideTheme от переопределения, используйте метод OverrideTheme.Clear. Только для чтения Boolean.
 type: docs
 weight: 20

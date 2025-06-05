@@ -1,7 +1,7 @@
 ---
 title: AddNodeByPosition
 second_title: Aspose.Slides für .NET API-Referenz
-description: Fügen Sie einen neuen Knoten an der ausgewählten Position der Knotensammlung hinzu
+description: Fügen Sie einen neuen Knoten an der ausgewählten Position der Knotenliste hinzu
 type: docs
 weight: 60
 url: /de/aspose.slides.smartart/smartartnodecollection/addnodebyposition/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.smartart/smartartnodecollection/addnodebyposition/
 
 ## SmartArtNodeCollection.AddNodeByPosition-Methode
 
-Fügen Sie einen neuen Knoten an der ausgewählten Position der Knotensammlung hinzu
+Fügen Sie einen neuen Knoten an der ausgewählten Position der Knotenliste hinzu
 
 ```csharp
 public ISmartArtNode AddNodeByPosition(int position)
@@ -17,7 +17,7 @@ public ISmartArtNode AddNodeByPosition(int position)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| position | Int32 | Null-basierte Knotenposition |
+| position | Int32 | Nullbasierte Knotenposition |
 
 ### Rückgabewert
 

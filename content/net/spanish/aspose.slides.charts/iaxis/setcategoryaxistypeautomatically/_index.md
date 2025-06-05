@@ -1,6 +1,6 @@
 ---
-title: EstablecerTipoDeEjeDeCategoríaAutomáticamente
-second_title: Referencia de API de Aspose.Slides para .NET
+title: SetCategoryAxisTypeAutomatically
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Establece la propiedad IAxis.CategoryAxisType con un valor que se determina automáticamente en función de los datos del eje.
 type: docs
 weight: 560
@@ -15,10 +15,10 @@ Establece la propiedad IAxis.CategoryAxisType con un valor que se determina auto
 public void SetCategoryAxisTypeAutomatically()
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [IAxis](../../iaxis)
 * espacio de nombres [Aspose.Slides.Charts](../../iaxis)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/mathfraction/mathfraction/
 ---
+
 ## MathFraction(IMathElement, IMathElement, MathFractionTypes) {#constructor_1}
 
 Initializes MathFraction with the specified numerator, denominator and type

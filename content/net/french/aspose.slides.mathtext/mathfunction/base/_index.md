@@ -1,7 +1,7 @@
 ---
 title: Base
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Argument de fonction
+second_title: Aspose.Sildes pour .NET Référence API
+description: Argument de Fonction
 type: docs
 weight: 20
 url: /fr/aspose.slides.mathtext/mathfunction/base/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/mathfunction/base/
 
 ## Propriété MathFunction.Base
 
-Argument de fonction
+Argument de Fonction
 
 ```csharp
 public IMathElement Base { get; }

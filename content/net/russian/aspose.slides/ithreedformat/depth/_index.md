@@ -1,6 +1,6 @@
 ---
-title: Глубина
-second_title: Справочник по API Aspose.Sildes для .NET
+title: Depth
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает или устанавливает глубину 3D-формы. Чтение/запись Double.
 type: docs
 weight: 70

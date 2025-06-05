@@ -1,7 +1,7 @@
 ---
-title: FormatoDeTexto
+title: TextFormat
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa el formato de texto. Solo lectura IChartTextFormataspose.slides.charts/icharttextformat.
+description: Representa el formato del texto. Solo lectura IChartTextFormataspose.slides.charts/icharttextformat.
 type: docs
 weight: 500
 url: /es/aspose.slides.charts/axis/textformat/
@@ -9,17 +9,17 @@ url: /es/aspose.slides.charts/axis/textformat/
 
 ## Propiedad Axis.TextFormat
 
-Representa el formato de texto. Solo lectura [`IChartTextFormat`](../../icharttextformat).
+Representa el formato del texto. Solo lectura [`IChartTextFormat`](../../icharttextformat).
 
 ```csharp
 public IChartTextFormat TextFormat { get; }
 ```
 
-### Consulta También
+### Vea También
 
-* interfaz [IChartTextFormat](../../icharttextformat)
-* clase [Axis](../../axis)
-* espacio de nombres [Aspose.Slides.Charts](../../axis)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IChartTextFormat](../../icharttextformat)
+* class [Axis](../../axis)
+* namespace [Aspose.Slides.Charts](../../axis)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

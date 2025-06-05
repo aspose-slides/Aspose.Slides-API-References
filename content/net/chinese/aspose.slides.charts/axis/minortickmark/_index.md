@@ -1,7 +1,7 @@
 ---
 title: MinorTickMark
-second_title: Aspose.Slides for .NET API 参考
-description: 表示指定坐标轴的小刻度标记的类型。可读写 TickMarkTypeaspose.slides/tickmarktype。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示指定轴的次刻度类型。读/写 TickMarkTypeaspose.slides.charts/tickmarktype。
 type: docs
 weight: 400
 url: /zh/aspose.slides.charts/axis/minortickmark/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/axis/minortickmark/
 
 ## Axis.MinorTickMark 属性
 
-表示指定坐标轴的小刻度标记的类型。可读写 [`TickMarkType`](../../tickmarktype)。
+表示指定轴的次刻度类型。读/写 [`TickMarkType`](../../tickmarktype)。
 
 ```csharp
 public TickMarkType MinorTickMark { get; set; }
 ```
 
-### 另见
+### 参见
 
 * 枚举 [TickMarkType](../../tickmarktype)
 * 类 [Axis](../../axis)

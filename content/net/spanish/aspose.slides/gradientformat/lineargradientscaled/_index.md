@@ -1,7 +1,7 @@
 ---
 title: LinearGradientScaled
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Determina si un gradiente está escalado. Lectura/escritura NullableBoolaspose.slides/nullablebool.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Determina si un degradado está escalado. Lectura/escritura NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 50
 url: /es/aspose.slides/gradientformat/lineargradientscaled/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/gradientformat/lineargradientscaled/
 
 ## Propiedad GradientFormat.LinearGradientScaled
 
-Determina si un gradiente está escalado. Lectura/escritura [`NullableBool`](../../nullablebool).
+Determina si un degradado está escalado. Lectura/escritura [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool LinearGradientScaled { get; set; }

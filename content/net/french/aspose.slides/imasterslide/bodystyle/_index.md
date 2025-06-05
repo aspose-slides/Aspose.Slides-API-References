@@ -1,13 +1,13 @@
 ---
 title: BodyStyle
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie le style d'un texte de corps. Lecture seule ITextStyleaspose.slides/itextstyle.
 type: docs
 weight: 30
 url: /fr/aspose.slides/imasterslide/bodystyle/
 ---
 
-## Propriété IMasterSlide.BodyStyle
+## IMasterSlide.BodyStyle property
 
 Renvoie le style d'un texte de corps. Lecture seule [`ITextStyle`](../../itextstyle).
 

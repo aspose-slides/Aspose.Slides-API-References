@@ -1,7 +1,7 @@
 ---
-title: DerechoAHaciaIzquierda
-second_title: Aspose.Slides para .NET Referencia de API
-description: Determina si la tabla tiene un orden de lectura de derecha a izquierda. Booleano de lectura y escritura.
+title: RightToLeft
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Determina si la tabla tiene un orden de lectura de derecha a izquierda. Booleano de lectura-escritura.
 type: docs
 weight: 100
 url: /es/aspose.slides/itable/righttoleft/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/itable/righttoleft/
 
 ## Propiedad ITable.RightToLeft
 
-Determina si la tabla tiene un orden de lectura de derecha a izquierda. Booleano de lectura y escritura.
+Determina si la tabla tiene un orden de lectura de derecha a izquierda. Booleano de lectura-escritura.
 
 ```csharp
 public bool RightToLeft { get; set; }

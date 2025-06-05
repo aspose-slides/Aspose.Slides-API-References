@@ -1,6 +1,6 @@
 ---
 title: FilterEffectType
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示滤镜效果类型。
 type: docs
 weight: 320

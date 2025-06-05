@@ -1,7 +1,7 @@
 ---
 title: IColorFormat
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示演示文稿中使用的颜色。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示在演示文稿中使用的颜色。
 type: docs
 weight: 5290
 url: /zh/aspose.slides/icolorformat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/icolorformat/
 
 ## IColorFormat 接口
 
-表示演示文稿中使用的颜色。
+表示在演示文稿中使用的颜色。
 
 ```csharp
 public interface IColorFormat : IFillParamSource
@@ -20,28 +20,28 @@ public interface IColorFormat : IFillParamSource
 | 名称 | 描述 |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/icolorformat/asifillparamsource) { get; } | 返回 IFillParamSource 接口。只读 [`IFillParamSource`](../ifillparamsource)。 |
-| [B](../../aspose.slides/icolorformat/b) { get; set; } | 返回或设置颜色的蓝色成分。所有颜色转换均被忽略。可读/可写 Byte。 |
-| [Color](../../aspose.slides/icolorformat/color) { get; set; } | 返回应用所有颜色转换后的结果颜色。设置 RGB 颜色并清除所有颜色转换。可读/可写 Color。 |
-| [ColorTransform](../../aspose.slides/icolorformat/colortransform) { get; } | 返回应用于颜色的颜色转换集合。只读 [`IColorOperationCollection`](../icoloroperationcollection)。 |
-| [ColorType](../../aspose.slides/icolorformat/colortype) { get; set; } | 返回或设置颜色定义方法。可读/可写 [`ColorType`](../colortype)。 |
-| [FloatB](../../aspose.slides/icolorformat/floatb) { get; set; } | 返回或设置颜色的蓝色成分。所有颜色转换均被忽略。可读/可写 Single。 |
-| [FloatG](../../aspose.slides/icolorformat/floatg) { get; set; } | 返回或设置颜色的绿色成分。所有颜色转换均被忽略。可读/可写 Single。 |
-| [FloatR](../../aspose.slides/icolorformat/floatr) { get; set; } | 返回或设置颜色的红色成分。所有颜色转换均被忽略。可读/可写 Single。 |
-| [G](../../aspose.slides/icolorformat/g) { get; set; } | 返回或设置颜色的绿色成分。所有颜色转换均被忽略。可读/可写 Byte。 |
-| [Hue](../../aspose.slides/icolorformat/hue) { get; set; } | 返回或设置颜色在 HSL 表示中的色调成分。所有颜色转换均被忽略。可读/可写 Single。 |
-| [Luminance](../../aspose.slides/icolorformat/luminance) { get; set; } | 返回或设置颜色在 HSL 表示中的亮度成分。所有颜色转换均被忽略。可读/可写 Single。 |
-| [PresetColor](../../aspose.slides/icolorformat/presetcolor) { get; set; } | 返回或设置颜色预设。可读/可写 [`PresetColor`](../presetcolor)。 |
-| [R](../../aspose.slides/icolorformat/r) { get; set; } | 返回或设置颜色的红色成分。所有颜色转换均被忽略。可读/可写 Byte。 |
-| [Saturation](../../aspose.slides/icolorformat/saturation) { get; set; } | 返回或设置颜色在 HSL 表示中的饱和度成分。所有颜色转换均被忽略。可读/可写 Single。 |
-| [SchemeColor](../../aspose.slides/icolorformat/schemecolor) { get; set; } | 返回或设置通过颜色方案识别的颜色。可读/可写 [`SchemeColor`](../schemecolor)。 |
-| [SystemColor](../../aspose.slides/icolorformat/systemcolor) { get; set; } | 返回或设置通过系统颜色表识别的颜色。可读/可写 [`SystemColor`](../systemcolor)。 |
+| [B](../../aspose.slides/icolorformat/b) { get; set; } | 返回或设置颜色的蓝色分量。所有颜色变换被忽略。读写 Byte。 |
+| [Color](../../aspose.slides/icolorformat/color) { get; set; } | 返回应用所有颜色变换后的结果颜色。设置 RGB 颜色并清除所有颜色变换。读写 Color。 |
+| [ColorTransform](../../aspose.slides/icolorformat/colortransform) { get; } | 返回应用于颜色的颜色变换集合。只读 [`IColorOperationCollection`](../icoloroperationcollection)。 |
+| [ColorType](../../aspose.slides/icolorformat/colortype) { get; set; } | 返回或设置颜色定义方法。读写 [`ColorType`](../colortype)。 |
+| [FloatB](../../aspose.slides/icolorformat/floatb) { get; set; } | 返回或设置颜色的蓝色分量。所有颜色变换被忽略。读写 Single。 |
+| [FloatG](../../aspose.slides/icolorformat/floatg) { get; set; } | 返回或设置颜色的绿色分量。所有颜色变换被忽略。读写 Single。 |
+| [FloatR](../../aspose.slides/icolorformat/floatr) { get; set; } | 返回或设置颜色的红色分量。所有颜色变换被忽略。读写 Single。 |
+| [G](../../aspose.slides/icolorformat/g) { get; set; } | 返回或设置颜色的绿色分量。所有颜色变换被忽略。读写 Byte。 |
+| [Hue](../../aspose.slides/icolorformat/hue) { get; set; } | 返回或设置颜色在 HSL 表示中的色调分量。所有颜色变换被忽略。读写 Single。 |
+| [Luminance](../../aspose.slides/icolorformat/luminance) { get; set; } | 返回或设置颜色在 HSL 表示中的亮度分量。所有颜色变换被忽略。读写 Single。 |
+| [PresetColor](../../aspose.slides/icolorformat/presetcolor) { get; set; } | 返回或设置颜色预设。读写 [`PresetColor`](../presetcolor)。 |
+| [R](../../aspose.slides/icolorformat/r) { get; set; } | 返回或设置颜色的红色分量。所有颜色变换被忽略。读写 Byte。 |
+| [Saturation](../../aspose.slides/icolorformat/saturation) { get; set; } | 返回或设置颜色在 HSL 表示中的饱和度分量。所有颜色变换被忽略。读写 Single。 |
+| [SchemeColor](../../aspose.slides/icolorformat/schemecolor) { get; set; } | 返回或设置由颜色方案标识的颜色。读写 [`SchemeColor`](../schemecolor)。 |
+| [SystemColor](../../aspose.slides/icolorformat/systemcolor) { get; set; } | 返回或设置由系统颜色表标识的颜色。读写 [`SystemColor`](../systemcolor)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [CopyFrom](../../aspose.slides/icolorformat/copyfrom)(IColorFormat) | 从“color”复制颜色格式。 |
-| [ToString](../../aspose.slides/icolorformat/tostring)(ColorStringFormat) | 返回表示当前颜色格式的字符串。 |
+| [CopyFrom](../../aspose.slides/icolorformat/copyfrom)(IColorFormat) | 从 "color" 复制颜色格式。 |
+| [ToString](../../aspose.slides/icolorformat/tostring)(ColorStringFormat) | 返回一个表示当前颜色格式的字符串。 |
 
 ### 另请参阅
 

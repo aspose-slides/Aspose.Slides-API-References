@@ -1,6 +1,6 @@
 ---
 title: ContourColor
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia API de Aspose.Slides para .NET
 description: Devuelve o establece el color de un contorno. Solo lectura IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 40

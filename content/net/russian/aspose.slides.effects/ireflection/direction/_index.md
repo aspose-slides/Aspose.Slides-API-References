@@ -1,13 +1,13 @@
 ---
-title: Направление
-second_title: Справочник по API Aspose.Slides для .NET
+title: Direction
+second_title: Aspose.Slides для .NET API Справочник
 description: Направление отражения. Чтение/запись Single.
 type: docs
 weight: 40
 url: /ru/aspose.slides.effects/ireflection/direction/
 ---
 
-## Свойство IReflection.Direction
+## IReflection.Direction свойство
 
 Направление отражения. Чтение/запись Single.
 

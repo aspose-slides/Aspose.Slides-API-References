@@ -1,7 +1,7 @@
 ---
-title: Bild
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt die Bildeigenschaft dar
+title: Image
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt die Bild-Eigenschaft dar
 type: docs
 weight: 410
 url: /de/aspose.slides.animation/behaviorproperty/image/

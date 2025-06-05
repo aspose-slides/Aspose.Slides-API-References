@@ -1,15 +1,15 @@
 ---
-title: InsérerAudioFrameEmbarqué
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Insérer un AudioFrame avec un fichier audio embarqué. Le son du fichier audio embarqué ne peut être qu'un WAV. Il ajoute un nouvel audio dans la liste Presentation.Audios.
+title: InsertAudioFrameEmbedded
+second_title: Aspose.Slides pour .NET Référence API
+description: Insérer un AudioFrame avec un fichier audio intégré. Le son du fichier audio intégré peut être que du WAV. Il ajoute un nouvel audio à la liste Presentation.Audios.
 type: docs
 weight: 230
 url: /fr/aspose.slides/ishapecollection/insertaudioframeembedded/
 ---
 
-## InsérerAudioFrameEmbarqué(int, float, float, float, float, Stream) {#insertaudioframeembedded_1}
+## InsertAudioFrameEmbedded(int, float, float, float, float, Stream) {#insertaudioframeembedded_1}
 
-Insérer un AudioFrame avec un fichier audio embarqué. Le son du fichier audio embarqué ne peut être qu'un WAV. Il ajoute un nouvel audio dans la liste Presentation.Audios.
+Insérer un AudioFrame avec un fichier audio intégré. Le son du fichier audio intégré peut être que du WAV. Il ajoute un nouvel audio à la liste Presentation.Audios.
 
 ```csharp
 public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float width, float height, 
@@ -18,18 +18,18 @@ public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float w
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | L'index basé sur zéro au niveau duquel la valeur doit être insérée. |
+| index | Int32 | L'index basé sur zéro auquel la valeur doit être insérée. |
 | x | Single | Coordonnée X d'un nouveau cadre audio. |
 | y | Single | Coordonnée Y d'un nouveau cadre audio. |
 | width | Single | Largeur d'un nouveau cadre audio. |
 | height | Single | Hauteur d'un nouveau cadre audio. |
 | audio_stream | Stream | Flux audio. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Objet AudioFrame créé.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IAudioFrame](../../iaudioframe)
 * interface [IShapeCollection](../../ishapecollection)
@@ -38,9 +38,9 @@ Objet AudioFrame créé.
 
 ---
 
-## InsérerAudioFrameEmbarqué(int, float, float, float, float, IAudio) {#insertaudioframeembedded}
+## InsertAudioFrameEmbedded(int, float, float, float, float, IAudio) {#insertaudioframeembedded}
 
-Insérer un AudioFrame avec un fichier audio embarqué. Il utilise le fichier audio de la liste Presentation.Audios.
+Insérer un AudioFrame avec un fichier audio intégré. Il utilise le fichier audio de la liste Presentation.Audios.
 
 ```csharp
 public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float width, float height, 
@@ -49,18 +49,18 @@ public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float w
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | L'index basé sur zéro au niveau duquel la valeur doit être insérée. |
+| index | Int32 | L'index basé sur zéro auquel la valeur doit être insérée. |
 | x | Single | Coordonnée X d'un nouveau cadre audio. |
 | y | Single | Coordonnée Y d'un nouveau cadre audio. |
 | width | Single | Largeur d'un nouveau cadre audio. |
 | height | Single | Hauteur d'un nouveau cadre audio. |
 | audio | IAudio | Audio de la liste Presentation.Audios. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Objet AudioFrame créé.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IAudioFrame](../../iaudioframe)
 * interface [IAudio](../../iaudio)

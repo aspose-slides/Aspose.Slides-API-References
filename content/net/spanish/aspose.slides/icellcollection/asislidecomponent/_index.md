@@ -1,21 +1,21 @@
 ---
 title: AsISlideComponent
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Permite obtener la interfaz base ISlideComponent. Solo lectura ISlideComponent aspose.slides/islidecomponent.
+description: Permite obtener la interfaz base ISlideComponent. ISlideComponent de solo lectura aspose.slides/islidecomponent.
 type: docs
 weight: 10
 url: /es/aspose.slides/icellcollection/asislidecomponent/
 ---
 
-## Propiedad ICellCollection.AsISlideComponent
+## ICellCollection.AsISlideComponent propiedad
 
-Permite obtener la interfaz base ISlideComponent. Solo lectura [`ISlideComponent`](../../islidecomponent).
+Permite obtener la interfaz base ISlideComponent. ISlideComponent de solo lectura [`ISlideComponent`](../../islidecomponent).
 
 ```csharp
 public ISlideComponent AsISlideComponent { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [ISlideComponent](../../islidecomponent)
 * interfaz [ICellCollection](../../icellcollection)

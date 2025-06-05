@@ -1,7 +1,7 @@
 ---
 title: ReadWorkbookStream
-second_title: Aspose.Slides für .NET API-Referenz
-description: Schreibt die intern enthaltene Excel-Arbeitsmappe in einen Speicherstrom.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Schreibt das intern enthaltene Excel-Arbeitsbuch in einen Speicherstream.
 type: docs
 weight: 100
 url: /de/aspose.slides.charts/chartdata/readworkbookstream/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartdata/readworkbookstream/
 
 ## ChartData.ReadWorkbookStream-Methode
 
-Schreibt die intern enthaltene Excel-Arbeitsmappe in einen Speicherstrom.
+Schreibt das intern enthaltene Excel-Arbeitsbuch in einen Speicherstream.
 
 ```csharp
 public MemoryStream ReadWorkbookStream()
@@ -17,7 +17,7 @@ public MemoryStream ReadWorkbookStream()
 
 ### Rückgabewert
 
-Gibt eine Instanz von `MemoryStream` zurück, die eine Kopie der intern enthaltenen Excel-Arbeitsmappe enthält.
+Gibt eine Instanz von `MemoryStream` zurück, die eine Kopie des intern enthaltenen Excel-Arbeitsbuchs enthält.
 
 ### Siehe auch
 

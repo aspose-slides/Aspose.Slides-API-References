@@ -1,21 +1,21 @@
 ---
 title: VerticalBanding
-second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob die geraden Spalten mit einer anderen Formatierung gezeichnet werden müssen. Lese-/Schreib-Boolean.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Bestimmt, ob die geraden Spalten mit einer anderen Formatierung dargestellt werden sollen. Lese-/Schreib-Boolean.
 type: docs
 weight: 130
 url: /de/aspose.slides/table/verticalbanding/
 ---
 
-## Table.VerticalBanding-Eigenschaft
+## Table.VerticalBanding Eigenschaft
 
-Bestimmt, ob die geraden Spalten mit einer anderen Formatierung gezeichnet werden müssen. Lese-/Schreib-Boolean.
+Bestimmt, ob die geraden Spalten mit einer anderen Formatierung dargestellt werden sollen. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool VerticalBanding { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [Table](../../table)
 * Namespace [Aspose.Slides](../../table)

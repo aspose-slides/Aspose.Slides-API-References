@@ -1,7 +1,7 @@
 ---
-title: MathematischerText
-second_title: Aspose.Slides für .NET API-Referenz
-description: Standardkonstruktor erstellt String.Empty-Wert
+title: MathematicalText
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Standardkonstruktor erstellt String.Empty Wert
 type: docs
 weight: 10
 url: /de/aspose.slides.mathtext/mathematicaltext/mathematicaltext/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/mathematicaltext/mathematicaltext/
 
 ## MathematicalText() {#constructor}
 
-Standardkonstruktor (erstellt einen Wert von String.Empty)
+Standardkonstruktor (erstellt String.Empty Wert)
 
 ```csharp
 public MathematicalText()
@@ -24,7 +24,7 @@ Beispiel:
 MathematicalText mathText = new MathematicalText();
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [MathematicalText](../../mathematicaltext)
 * Namespace [Aspose.Slides.MathText](../../mathematicaltext)
@@ -53,7 +53,7 @@ Beispiel:
 MathematicalText mathText = new MathematicalText('$');
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [MathematicalText](../../mathematicaltext)
 * Namespace [Aspose.Slides.MathText](../../mathematicaltext)
@@ -82,7 +82,7 @@ Beispiel:
 MathematicalText mathText = new MathematicalText("x+y");
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [MathematicalText](../../mathematicaltext)
 * Namespace [Aspose.Slides.MathText](../../mathematicaltext)
@@ -92,7 +92,7 @@ MathematicalText mathText = new MathematicalText("x+y");
 
 ## MathematicalText(string, IPortionFormat) {#constructor_3}
 
-Erstellt MathematicalText aus Text und Format-Einstellungen
+Erstellt MathematicalText aus Text und Formatierungsoptionen
 
 ```csharp
 public MathematicalText(string mathText, IPortionFormat portionFormat)
@@ -101,7 +101,7 @@ public MathematicalText(string mathText, IPortionFormat portionFormat)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | mathText | String | Textwert |
-| portionFormat | IPortionFormat | Texteinstellungen |
+| portionFormat | IPortionFormat | Textformatierungsoptionen |
 
 ### Beispiele
 
@@ -113,9 +113,9 @@ IPortionFormat format = new PortionFormat() { FontHeight = 12 };
 MathematicalText mathText = new MathematicalText("x+y", format);
 ```
 
-### Siehe Auch
+### Siehe auch
 
-* Interface [IPortionFormat](../../../aspose.slides/iportionformat)
+* Schnittstelle [IPortionFormat](../../../aspose.slides/iportionformat)
 * Klasse [MathematicalText](../../mathematicaltext)
 * Namespace [Aspose.Slides.MathText](../../mathematicaltext)
 * Assembly [Aspose.Slides](../../../)

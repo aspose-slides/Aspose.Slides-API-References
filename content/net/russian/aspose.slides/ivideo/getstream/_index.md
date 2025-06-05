@@ -1,13 +1,13 @@
 ---
 title: GetStream
-second_title: Aspose.Sildes для .NET Справочник по API
-description: Возвращает поток Stream для чтения. Используйте using или закройте поток после использования.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает поток Stream для чтения. Используйте 'using' или закройте поток после использования.
 type: docs
 weight: 30
 url: /ru/aspose.slides/ivideo/getstream/
 ---
 
-## Метод IVideo.GetStream
+## IVideo.GetStream метод
 
 Возвращает поток Stream для чтения. Используйте 'using' или закройте поток после использования.
 

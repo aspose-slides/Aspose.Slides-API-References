@@ -1,7 +1,7 @@
 ---
 title: IsHardUnderlineFill
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob der Unterstreichungsstil eigene FillFormat-Eigenschaften hat oder sie von den FillFormat-Eigenschaften des Texts erbt. Lese-/Schreibbare NullableBoolaspose.slides/nullablebool.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt, ob der Unterstreichungsstil eigene FillFormat-Eigenschaften hat oder diese von den FillFormat-Eigenschaften des Textes erbt. Lese-/schreibbare NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 120
 url: /de/aspose.slides/baseportionformat/ishardunderlinefill/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/baseportionformat/ishardunderlinefill/
 
 ## BasePortionFormat.IsHardUnderlineFill-Eigenschaft
 
-Bestimmt, ob der Unterstreichungsstil eigene FillFormat-Eigenschaften hat oder sie von den FillFormat-Eigenschaften des Texts erbt. Lese-/Schreibbar [`NullableBool`](../../nullablebool).
+Bestimmt, ob der Unterstreichungsstil eigene FillFormat-Eigenschaften hat oder diese von den FillFormat-Eigenschaften des Textes erbt. Lese-/schreibbar [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool IsHardUnderlineFill { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [NullableBool](../../nullablebool)
 * class [BasePortionFormat](../../baseportionformat)

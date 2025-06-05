@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/ishapeframe/y/
 ---
+
 ## IShapeFrame.Y property
 
 Returns the Y coordinate of the upper-left corner of a frame. Read-only Single.

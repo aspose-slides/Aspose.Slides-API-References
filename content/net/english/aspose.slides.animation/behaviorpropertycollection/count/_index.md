@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.animation/behaviorpropertycollection/count/
 ---
+
 ## BehaviorPropertyCollection.Count property
 
 Returns the number of properties stored in the collection. Read-only Int32.

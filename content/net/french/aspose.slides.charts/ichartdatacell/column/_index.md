@@ -1,7 +1,7 @@
 ---
-title: Colonne
+title: Column
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie l'index de la colonne de la feuille de calcul dans laquelle se trouve la cellule. Lecture seule Int32.
+description: Retourne l'index de la colonne de la feuille de calcul dans laquelle se trouve la cellule. En lecture seule Int32.
 type: docs
 weight: 20
 url: /fr/aspose.slides.charts/ichartdatacell/column/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ichartdatacell/column/
 
 ## Propriété IChartDataCell.Column
 
-Renvoie l'index de la colonne de la feuille de calcul dans laquelle se trouve la cellule. Lecture seule Int32.
+Retourne l'index de la colonne de la feuille de calcul dans laquelle se trouve la cellule. En lecture seule Int32.
 
 ```csharp
 public int Column { get; }

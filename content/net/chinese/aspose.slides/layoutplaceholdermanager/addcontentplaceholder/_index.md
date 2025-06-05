@@ -1,7 +1,7 @@
 ---
 title: AddContentPlaceholder
 second_title: Aspose.Sildes for .NET API Reference
-description: 向布局幻灯片添加新的占位符形状，以容纳内容，如图片、表格、媒体或文本。
+description: 向布局幻灯片添加一个新的占位符形状，以容纳内容，如图片、表格、媒体或文本。
 type: docs
 weight: 20
 url: /zh/aspose.slides/layoutplaceholdermanager/addcontentplaceholder/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/layoutplaceholdermanager/addcontentplaceholder/
 
 ## LayoutPlaceholderManager.AddContentPlaceholder 方法
 
-向布局幻灯片添加新的占位符形状，以容纳内容，如图片、表格、媒体或文本。
+向布局幻灯片添加一个新的占位符形状，以容纳内容，如图片、表格、媒体或文本。
 
 ```csharp
 public IAutoShape AddContentPlaceholder(float x, float y, float width, float height)
@@ -24,11 +24,11 @@ public IAutoShape AddContentPlaceholder(float x, float y, float width, float hei
 
 ### 返回值
 
-返回带有内容占位符的 [`IAutoShape`](../../iautoshape)。
+创建的 [`IAutoShape`](../../iautoshape) 具有内容占位符。
 
 ### 示例
 
-以下示例演示如何将内容占位符形状添加到布局幻灯片中。
+以下示例演示如何将内容占位符形状添加到布局幻灯片。
 
 ```csharp
 [C#]
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IAutoShape](../../iautoshape)
 * 类 [LayoutPlaceholderManager](../../layoutplaceholdermanager)

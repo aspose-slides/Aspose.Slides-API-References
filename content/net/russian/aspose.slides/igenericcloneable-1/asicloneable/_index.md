@@ -1,6 +1,6 @@
 ---
 title: AsICloneable
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Slides для .NET API Reference
 description: Возвращает интерфейс ICloneable.
 type: docs
 weight: 10
@@ -19,7 +19,7 @@ public ICloneable AsICloneable { get; }
 
 Для совместимости с COM.
 
-### См. также
+### Смотрите также
 
 * интерфейс [IGenericCloneable&lt;T&gt;](../../igenericcloneable-1)
 * пространство имен [Aspose.Slides](../../igenericcloneable-1)

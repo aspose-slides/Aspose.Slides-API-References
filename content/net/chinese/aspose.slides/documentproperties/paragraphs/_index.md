@@ -1,13 +1,13 @@
 ---
-title: 段落
-second_title: Aspose.Slides for .NET API 参考
+title: Paragraphs
+second_title: Aspose.Sildes for .NET API Reference
 description: 如果适用，返回文档中找到的段落总数。只读 Int32。
 type: docs
 weight: 260
 url: /zh/aspose.slides/documentproperties/paragraphs/
 ---
 
-## DocumentProperties.Paragraphs 属性
+## DocumentProperties.Paragraphs property
 
 如果适用，返回文档中找到的段落总数。只读 Int32。
 
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/documentproperties/paragraphs/
 public int Paragraphs { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)

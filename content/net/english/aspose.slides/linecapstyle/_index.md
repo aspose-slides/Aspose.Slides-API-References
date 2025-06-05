@@ -3,9 +3,10 @@ title: LineCapStyle
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the line cap style.
 type: docs
-weight: 7190
+weight: 7520
 url: /aspose.slides/linecapstyle/
 ---
+
 ## LineCapStyle enumeration
 
 Represents the line cap style.

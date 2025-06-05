@@ -1,6 +1,6 @@
 ---
 title: SetSuperscript
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes справочник по API для .NET
 description: Создает верхний индекс
 type: docs
 weight: 160
@@ -19,7 +19,7 @@ public IMathSuperscriptElement SetSuperscript(IMathElement superscript)
 | --- | --- | --- |
 | superscript | IMathElement | Верхний индекс (верхний индекс справа) |
 
-### Возвращаемое значение
+### Возврат Значения
 
 Новый математический элемент типа [`IMathSuperscriptElement`](../../imathsuperscriptelement)
 
@@ -56,7 +56,7 @@ public IMathSuperscriptElement SetSuperscript(string superscript)
 | --- | --- | --- |
 | superscript | String | Верхний индекс (верхний индекс справа) |
 
-### Возвращаемое значение
+### Возврат Значения
 
 Новый математический элемент типа [`IMathSuperscriptElement`](../../imathsuperscriptelement)
 

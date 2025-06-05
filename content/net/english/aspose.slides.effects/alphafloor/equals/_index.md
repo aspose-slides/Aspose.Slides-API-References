@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.effects/alphafloor/equals/
 ---
+
 ## AlphaFloor.Equals method
 
 Determines whether the specified [`AlphaFloor`](../../alphafloor) is equal to the current [`AlphaFloor`](../../alphafloor).

@@ -1,15 +1,15 @@
 ---
 title: BrowsedAtKiosk
-second_title: Aspose.Slides für .NET API-Referenz
-description: Initialisiert eine neue Instanz der Klasse BrowsedAtKiosk.
+second_title: Aspose.Slides für .NET API Referenz
+description: Initialisiert eine neue Instanz der BrowsedAtKiosk-Klasse.
 type: docs
 weight: 10
 url: /de/aspose.slides/browsedatkiosk/browsedatkiosk/
 ---
 
-## Konstruktor von BrowsedAtKiosk
+## BrowsedAtKiosk-Konstruktor
 
-Initialisiert eine neue Instanz der Klasse BrowsedAtKiosk.
+Initialisiert eine neue Instanz der BrowsedAtKiosk-Klasse.
 
 ```csharp
 public BrowsedAtKiosk()
@@ -26,7 +26,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [BrowsedAtKiosk](../../browsedatkiosk)
 * Namespace [Aspose.Slides](../../browsedatkiosk)

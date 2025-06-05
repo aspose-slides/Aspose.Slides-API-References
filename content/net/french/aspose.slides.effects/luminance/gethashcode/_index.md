@@ -1,13 +1,13 @@
 ---
 title: GetHashCode
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Sert de fonction de hachage pour un type particulier.
 type: docs
 weight: 30
 url: /fr/aspose.slides.effects/luminance/gethashcode/
 ---
 
-## Méthode Luminance.GetHashCode
+## Luminance.GetHashCode méthode
 
 Sert de fonction de hachage pour un type particulier.
 

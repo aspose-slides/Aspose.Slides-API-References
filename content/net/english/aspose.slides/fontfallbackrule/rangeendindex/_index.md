@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/fontfallbackrule/rangeendindex/
 ---
+
 ## FontFallBackRule.RangeEndIndex property
 
 Get last index of continuous unicode range.

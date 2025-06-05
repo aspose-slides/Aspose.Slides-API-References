@@ -1,6 +1,6 @@
 ---
 title: SlidesLayoutOptions
-second_title: Aspose.Slides para referencia de API .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Obtiene o establece el modo en el que se colocan las diapositivas en la página al exportar una presentación ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
 type: docs
 weight: 40
@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Ver También
+### Véase También
 
 * interface [ISlidesLayoutOptions](../../islideslayoutoptions)
 * class [RenderingOptions](../../renderingoptions)

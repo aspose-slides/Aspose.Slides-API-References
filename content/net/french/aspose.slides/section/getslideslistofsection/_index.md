@@ -1,7 +1,7 @@
 ---
 title: GetSlidesListOfSection
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie la liste des diapositives dans la section.
+description: Retourne la liste des diapositives dans la section.
 type: docs
 weight: 40
 url: /fr/aspose.slides/section/getslideslistofsection/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/section/getslideslistofsection/
 
 ## Section.GetSlidesListOfSection méthode
 
-Renvoie la liste des diapositives dans la section.
+Retourne la liste des diapositives dans la section.
 
 ```csharp
 public ISectionSlideCollection GetSlidesListOfSection()
 ```
 
-### Valeur de retour
+### Valeur de Retour
 
 Liste des diapositives.
 

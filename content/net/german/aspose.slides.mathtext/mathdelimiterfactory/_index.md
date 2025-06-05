@@ -1,7 +1,7 @@
 ---
 title: MathDelimiterFactory
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht die Erstellung eines mathematischen Trennzeichens
+description: Ermöglicht das Erstellen eines mathematischen Trennzeichens
 type: docs
 weight: 8400
 url: /de/aspose.slides.mathtext/mathdelimiterfactory/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/mathdelimiterfactory/
 
 ## MathDelimiterFactory-Klasse
 
-Ermöglicht die Erstellung eines mathematischen Trennzeichens
+Ermöglicht das Erstellen eines mathematischen Trennzeichens
 
 ```csharp
 public class MathDelimiterFactory : IMathDelimiterFactory
@@ -28,13 +28,13 @@ public class MathDelimiterFactory : IMathDelimiterFactory
 | [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | Erstellen Sie ein mathematisches Trennzeichen, indem Sie es auf das Element anwenden |
 | [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | Erstellen Sie ein mathematisches Trennzeichen, indem Sie es auf das Element anwenden |
 
-### Anmerkungen
+### Bemerkungen
 
 Für COM-Kompatibilität
 
 ### Siehe Auch
 
-* Schnittstelle [IMathDelimiterFactory](../imathdelimiterfactory)
+* Interface [IMathDelimiterFactory](../imathdelimiterfactory)
 * Namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * Assembly [Aspose.Slides](../../)
 

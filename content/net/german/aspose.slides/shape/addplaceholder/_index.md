@@ -7,7 +7,7 @@ weight: 330
 url: /de/aspose.slides/shape/addplaceholder/
 ---
 
-## Shape.AddPlaceholder-Methode
+## Shape.AddPlaceholder Methode
 
 Fügt einen neuen Platzhalter hinzu, wenn keiner vorhanden ist, und setzt die Platzhalter-Eigenschaften auf einen bestimmten Wert.
 
@@ -17,7 +17,7 @@ public IPlaceholder AddPlaceholder(IPlaceholder placeholderToCopyFrom)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| placeholderToCopyFrom | IPlaceholder | Platzhalter, von dem Inhalte kopiert werden sollen. |
+| placeholderToCopyFrom | IPlaceholder | Platzhalter, von dem der Inhalt kopiert werden soll. |
 
 ### Rückgabewert
 

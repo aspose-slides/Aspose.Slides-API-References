@@ -1,13 +1,13 @@
 ---
-title: Базовый
-second_title: Справочник по API Aspose.Slides для .NET
+title: Base
+second_title: Ссылка на API Aspose.Sildes для .NET
 description: Базовый аргумент
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/basescript/base/
 ---
 
-## Свойство BaseScript.Base
+## BaseScript.Base свойство
 
 Базовый аргумент
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.mathtext/basescript/base/
 public IMathElement Base { get; }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IMathElement](../../imathelement)
 * класс [BaseScript](../../basescript)

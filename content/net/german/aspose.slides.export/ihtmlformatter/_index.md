@@ -15,7 +15,7 @@ Stellt eine HTML-Dateivorlage dar.
 public interface IHtmlFormatter
 ```
 
-### Siehe auch
+### Weitere Informationen
 
 * Namespace [Aspose.Slides.Export](../../aspose.slides.export)
 * Assembly [Aspose.Slides](../../)

@@ -1,7 +1,7 @@
 ---
-title: Typ
+title: Type
 second_title: Aspose.Slides für .NET API-Referenz
-description: Definiert den Typ des Kommandoeffekts. Lese-/Schreibzugriff auf CommandEffectTypeaspose.slides.animation/commandeffecttype.
+description: Definiert den Befehlseffekt typ des Verhaltens. Lesen/Schreiben CommandEffectTypeaspose.slides.animation/commandeffecttype.
 type: docs
 weight: 40
 url: /de/aspose.slides.animation/commandeffect/type/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/commandeffect/type/
 
 ## CommandEffect.Type-Eigenschaft
 
-Definiert den Typ des Kommandoeffekts. Lese-/Schreibzugriff auf [`CommandEffectType`](../../commandeffecttype).
+Definiert den Befehlseffekt typ des Verhaltens. Lesen/Schreiben [`CommandEffectType`](../../commandeffecttype).
 
 ```csharp
 public CommandEffectType Type { get; set; }

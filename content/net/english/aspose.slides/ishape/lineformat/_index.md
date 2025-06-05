@@ -3,9 +3,10 @@ title: LineFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns the LineFormat object that contains line formatting properties for a shape. Read-only ILineFormataspose.slides/ilineformat.
 type: docs
-weight: 150
+weight: 160
 url: /aspose.slides/ishape/lineformat/
 ---
+
 ## IShape.LineFormat property
 
 Returns the LineFormat object that contains line formatting properties for a shape. Read-only [`ILineFormat`](../../ilineformat).

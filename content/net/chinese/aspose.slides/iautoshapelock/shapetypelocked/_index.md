@@ -1,6 +1,6 @@
 ---
 title: ShapeTypeLocked
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 确定形状类型的更改是否被禁止。可读写布尔值。
 type: docs
 weight: 100
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/iautoshapelock/shapetypelocked/
 public bool ShapeTypeLocked { get; set; }
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [IAutoShapeLock](../../iautoshapelock)
 * 命名空间 [Aspose.Slides](../../iautoshapelock)

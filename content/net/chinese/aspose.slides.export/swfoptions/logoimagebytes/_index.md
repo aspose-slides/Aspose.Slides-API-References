@@ -1,7 +1,7 @@
 ---
 title: LogoImageBytes
-second_title: Aspose.Sildes for .NET API 参考
-description: 图像将在查看器的右上角显示为logo。图像应该是32x64像素的PNG图像，否则logo可能会显示不正常。
+second_title: Aspose.Slides for .NET API Reference
+description: 将显示在查看器右上角的 logo 的图像。图像应为 32x64 像素的 PNG 图像，否则 logo 可能会显示不正确。
 type: docs
 weight: 50
 url: /zh/aspose.slides.export/swfoptions/logoimagebytes/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.export/swfoptions/logoimagebytes/
 
 ## SwfOptions.LogoImageBytes 属性
 
-图像将在查看器的右上角显示为logo。图像应该是32x64像素的PNG图像，否则logo可能会显示不正常。
+将显示在查看器右上角的 logo 的图像。图像应为 32x64 像素的 PNG 图像，否则 logo 可能会显示不正确。
 
 ```csharp
 public byte[] LogoImageBytes { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * class [SwfOptions](../../swfoptions)
 * namespace [Aspose.Slides.Export](../../swfoptions)

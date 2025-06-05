@@ -1,6 +1,6 @@
 ---
 title: EnableContextMenu
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Kontextmenü aktivieren/deaktivieren. Standard ist true.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ Kontextmenü aktivieren/deaktivieren. Standard ist true.
 public bool EnableContextMenu { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [SwfOptions](../../swfoptions)
 * Namespace [Aspose.Slides.Export](../../swfoptions)

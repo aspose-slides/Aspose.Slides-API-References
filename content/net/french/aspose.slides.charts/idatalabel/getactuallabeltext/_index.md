@@ -1,7 +1,7 @@
 ---
 title: GetActualLabelText
-second_title: Référence API Aspose.Sildes pour .NET
-description: Renvoie le texte d'étiquette réel basé sur les paramètres de DataLabelFormat ou la valeur de TextFrameForOverriding.Text.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Renvoie le texte d'étiquette actuel basé sur les paramètres de DataLabelFormat ou la valeur de TextFrameForOverriding.Text.
 type: docs
 weight: 70
 url: /fr/aspose.slides.charts/idatalabel/getactuallabeltext/
@@ -9,15 +9,15 @@ url: /fr/aspose.slides.charts/idatalabel/getactuallabeltext/
 
 ## Méthode IDataLabel.GetActualLabelText
 
-Renvoie le texte d'étiquette réel basé sur les paramètres de DataLabelFormat ou la valeur de TextFrameForOverriding.Text.
+Renvoie le texte d'étiquette actuel basé sur les paramètres de DataLabelFormat ou la valeur de TextFrameForOverriding.Text.
 
 ```csharp
 public string GetActualLabelText()
 ```
 
-### Valeur de Retour
+### Valeur de retour
 
-Texte d'étiquette réel String
+Texte d'étiquette actuel en String
 
 ### Voir Aussi
 

@@ -1,7 +1,7 @@
 ---
 title: InsertAutoShape
-second_title: Aspose.Slides для .NET API Справочник
-description: Создает новую автофигуру, настраивает ее по умолчанию и вставляет в коллекцию по заданному индексу. Обратите внимание, что тип фигуры будет определяться параметром shapeType.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Создает новый AutoShape, настраивает его по умолчанию и вставляет в коллекцию по указанному индексу. Обратите внимание, что тип фигуры будет определяться параметром shapeType.
 type: docs
 weight: 300
 url: /ru/aspose.slides/shapecollection/insertautoshape/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/shapecollection/insertautoshape/
 
 ## InsertAutoShape(int, ShapeType, float, float, float, float) {#insertautoshape}
 
-Создает новую автофигуру, настраивает ее по умолчанию и вставляет в коллекцию по заданному индексу. Примечание: тип фигуры будет определяться параметром shapeType.
+Создает новый AutoShape, настраивает его по умолчанию и вставляет в коллекцию по указанному индексу. Обратите внимание: тип фигуры будет определяться параметром shapeType.
 
 ```csharp
 public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float y, float width, 
@@ -18,7 +18,7 @@ public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс, начиная с нуля, в который должно быть вставлено значение. |
+| index | Int32 | Индекс, начиная с нуля, по которому должно быть вставлено значение. |
 | shapeType | ShapeType | [`ShapeType`](../../shapetype) фигуры. |
 | x | Single | Координата X для левой стороны рамки фигуры. |
 | y | Single | Координата Y для верхней стороны рамки фигуры. |
@@ -32,7 +32,7 @@ public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float
 ### См. также
 
 * интерфейс [IAutoShape](../../iautoshape)
-* перечисление [ShapeType](../../shapetype)
+* enum [ShapeType](../../shapetype)
 * класс [ShapeCollection](../../shapecollection)
 * пространство имен [Aspose.Slides](../../shapecollection)
 * сборка [Aspose.Slides](../../../)
@@ -41,7 +41,7 @@ public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float
 
 ## InsertAutoShape(int, ShapeType, float, float, float, float, bool) {#insertautoshape_1}
 
-Создает новую автофигуру и вставляет в коллекцию по заданному индексу. Примечание: тип фигуры будет определяться параметром shapeType.
+Создает новый AutoShape и вставляет его в коллекцию по указанному индексу. Обратите внимание: тип фигуры будет определяться параметром shapeType.
 
 ```csharp
 public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float y, float width, 
@@ -50,13 +50,13 @@ public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс, начиная с нуля, в который должно быть вставлено значение. |
+| index | Int32 | Индекс, начиная с нуля, по которому должно быть вставлено значение. |
 | shapeType | ShapeType | [`ShapeType`](../../shapetype) фигуры. |
 | x | Single | Координата X для левой стороны рамки фигуры. |
 | y | Single | Координата Y для верхней стороны рамки фигуры. |
 | width | Single | Ширина рамки фигуры. |
 | height | Single | Высота рамки фигуры. |
-| createFromTemplate | Boolean | Если true, то новая фигура будет настроена по умолчанию. Будут присвоены непустое имя, простой стиль, текст по центру новой фигуры. Если false, то все значения свойств новой фигуры будут иметь значения по умолчанию. |
+| createFromTemplate | Boolean | Если true, новый элемент будет настроен по умолчанию. Будет назначено непустое имя, простой стиль, текст по центру новому элементу. Если false, все значения свойств нового элемента будут иметь значения по умолчанию. |
 
 ### Возвращаемое значение
 
@@ -65,7 +65,7 @@ public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float
 ### См. также
 
 * интерфейс [IAutoShape](../../iautoshape)
-* перечисление [ShapeType](../../shapetype)
+* enum [ShapeType](../../shapetype)
 * класс [ShapeCollection](../../shapecollection)
 * пространство имен [Aspose.Slides](../../shapecollection)
 * сборка [Aspose.Slides](../../../)

@@ -1,6 +1,6 @@
 ---
 title: AddVideoFrame
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Ajoute un nouveau cadre vidéo à la fin d'une collection.
 type: docs
 weight: 210

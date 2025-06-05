@@ -1,13 +1,13 @@
 ---
 title: ActiveXControlBinary
-second_title: Aspose.Slides pour la référence API .NET
+second_title: Aspose.Slides pour .NET API Reference
 description: Spécifie la persistance d'un contrôle ActiveX lorsque la méthode utilisée pour la persistance est soit PersistStream, PersistStreamInit ou PersistStorage.
 type: docs
 weight: 10
 url: /fr/aspose.slides/icontrol/activexcontrolbinary/
 ---
 
-## Propriété IControl.ActiveXControlBinary
+## IControl.ActiveXControlBinary propriété
 
 Spécifie la persistance d'un contrôle ActiveX lorsque la méthode utilisée pour la persistance est soit PersistStream, PersistStreamInit ou PersistStorage.
 

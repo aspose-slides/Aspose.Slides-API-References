@@ -1,6 +1,6 @@
 ---
 title: FillStyles
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API справочник
 description: Возвращает коллекцию стилей заполнения, определенных темой. Только для чтения IFillFormatCollectionaspose.slides.theme/ifillformatcollection.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.theme/formatscheme/fillstyles/
 public IFillFormatCollection FillStyles { get; }
 ```
 
-### Смотрите Также
+### См. Также
 
 * интерфейс [IFillFormatCollection](../../ifillformatcollection)
 * класс [FormatScheme](../../formatscheme)

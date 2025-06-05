@@ -1,6 +1,6 @@
 ---
 title: StrokeImageSizeY
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Représente la propriété stroke.imagesize.y
 type: docs
 weight: 960
@@ -15,7 +15,7 @@ Représente la propriété 'stroke.imagesize.y'
 public static BehaviorProperty StrokeImageSizeY { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [BehaviorProperty](../../behaviorproperty)
 * namespace [Aspose.Slides.Animation](../../behaviorproperty)

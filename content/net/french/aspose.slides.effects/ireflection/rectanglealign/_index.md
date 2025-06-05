@@ -1,7 +1,7 @@
 ---
 title: RectangleAlign
-second_title: Référence API Aspose.Slidess pour .NET
-description: Alignement de rectangle. Lire/écrire RectangleAlignmentaspose.slides/rectanglealignment.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Alignement des rectangles. Lire/écrire RectangleAlignmentaspose.slides/rectanglealignment.
 type: docs
 weight: 90
 url: /fr/aspose.slides.effects/ireflection/rectanglealign/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/ireflection/rectanglealign/
 
 ## Propriété IReflection.RectangleAlign
 
-Alignement de rectangle. Lire/écrire [`RectangleAlignment`](../../../aspose.slides/rectanglealignment).
+Alignement des rectangles. Lire/écrire [`RectangleAlignment`](../../../aspose.slides/rectanglealignment).
 
 ```csharp
 public RectangleAlignment RectangleAlign { get; set; }

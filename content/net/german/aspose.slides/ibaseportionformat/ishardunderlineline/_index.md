@@ -1,7 +1,7 @@
 ---
 title: IsHardUnderlineLine
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob der Unterstreichungsstil eigene LineFormat-Eigenschaften hat oder diese von den LineFormat-Eigenschaften des Textes erbt. Lese-/Schreibzugriff NullableBoolaspose.slides/nullablebool.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt, ob der Unterstreichungsstil eigene LineFormat-Eigenschaften hat oder sie von den LineFormat-Eigenschaften des Textes erbt. Lese-/Schreibbare NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 130
 url: /de/aspose.slides/ibaseportionformat/ishardunderlineline/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ibaseportionformat/ishardunderlineline/
 
 ## IBasePortionFormat.IsHardUnderlineLine-Eigenschaft
 
-Bestimmt, ob der Unterstreichungsstil eigene LineFormat-Eigenschaften hat oder diese von den LineFormat-Eigenschaften des Textes erbt. Lese-/Schreibzugriff [`NullableBool`](../../nullablebool).
+Bestimmt, ob der Unterstreichungsstil eigene LineFormat-Eigenschaften hat oder sie von den LineFormat-Eigenschaften des Textes erbt. Lese-/Schreibbar [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool IsHardUnderlineLine { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [NullableBool](../../nullablebool)
 * interface [IBasePortionFormat](../../ibaseportionformat)

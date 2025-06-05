@@ -1,7 +1,7 @@
 ---
 title: TileAlignment
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt an oder setzt, wie die Textur innerhalb der Form ausgerichtet ist. Diese Einstellung steuert den Startpunkt des Texturmusters und wie es sich über die Form wiederholt. Lese-/Schreibrecht RectangleAlignmentaspose.slides/rectanglealignment.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt an oder legt fest, wie die Textur innerhalb der Form ausgerichtet ist. Diese Einstellung steuert den Ausgangspunkt des Texturmusters und wie es sich über die Form wiederholt. Lesen/Schreiben RectangleAlignmentaspose.slides/rectanglealignment.
 type: docs
 weight: 120
 url: /de/aspose.slides/picturefillformat/tilealignment/
@@ -9,15 +9,15 @@ url: /de/aspose.slides/picturefillformat/tilealignment/
 
 ## PictureFillFormat.TileAlignment-Eigenschaft
 
-Gibt an oder setzt, wie die Textur innerhalb der Form ausgerichtet ist. Diese Einstellung steuert den Startpunkt des Texturmusters und wie es sich über die Form wiederholt. Lese-/Schreibrecht [`RectangleAlignment`](../../rectanglealignment).
+Gibt an oder legt fest, wie die Textur innerhalb der Form ausgerichtet ist. Diese Einstellung steuert den Ausgangspunkt des Texturmusters und wie es sich über die Form wiederholt. Lesen/Schreiben [`RectangleAlignment`](../../rectanglealignment).
 
 ```csharp
 public RectangleAlignment TileAlignment { get; set; }
 ```
 
-### Bemerkungen
+### Anmerkungen
 
-Der Standardwert ist TopLeft.
+Standardmäßig ist es TopLeft.
 
 ### Beispiele
 
@@ -27,18 +27,18 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 {
     ISlide slide = presentation.Slides[0];
 
-    // Ruft das Bildfüllformat der Form ab
+    // Holt das Bildfüllformat der Form
     IPictureFillFormat pictureFillFormat = slide.Shapes[0].FillFormat.PictureFillFormat;
 
     // Setzt den Bildfüllmodus auf Tile
     pictureFillFormat.PictureFillMode = PictureFillMode.Tile;
 
-    // Setzt die Ausrichtung für das Kacheln auf die rechte untere Ecke
+    // Legt die Ausrichtung für das Kacheln auf rechts unten fest
     pictureFillFormat.TileAlignment = RectangleAlignment.BottomRight;
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [RectangleAlignment](../../rectanglealignment)
 * class [PictureFillFormat](../../picturefillformat)

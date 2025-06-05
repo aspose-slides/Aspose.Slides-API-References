@@ -1,5 +1,5 @@
 ---
-title: Iguales
+title: Equals
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si el AlphaModulateFixedaspose.slides.effects/alphamodulatefixed especificado es igual al AlphaModulateFixedaspose.slides.effects/alphamodulatefixed actual.
 type: docs
@@ -17,13 +17,13 @@ public override bool Equals(object obj)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| obj | Object | El [`AlphaModulateFixed`](../../alphamodulatefixed) para comparar. |
+| obj | Object | El [`AlphaModulateFixed`](../../alphamodulatefixed) a comparar. |
 
 ### Valor de Retorno
 
 true si los objetos son iguales; de lo contrario, false.
 
-### Ver También
+### Véase También
 
 * clase [AlphaModulateFixed](../../alphamodulatefixed)
 * espacio de nombres [Aspose.Slides.Effects](../../alphamodulatefixed)

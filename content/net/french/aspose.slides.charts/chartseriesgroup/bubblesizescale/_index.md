@@ -1,15 +1,15 @@
 ---
 title: BubbleSizeScale
-second_title: Référence de l'API Aspose.Slidess pour .NET
-description: Spécifie le facteur d'échelle pour le graphique à bulles, pouvant être compris entre 0 et 300 pourcents de la taille par défaut. Lecture/écriture Int32.
+second_title: Aspose.Slides pour .NET Référence API
+description: Spécifie le facteur d'échelle pour le graphique à bulles qui peut être entre 0 et 300 pourcents de la taille par défaut. Lecture/écriture Int32.
 type: docs
 weight: 20
 url: /fr/aspose.slides.charts/chartseriesgroup/bubblesizescale/
 ---
 
-## Propriété ChartSeriesGroup.BubbleSizeScale
+## ChartSeriesGroup.BubbleSizeScale propriété
 
-Spécifie le facteur d'échelle pour le graphique à bulles (peut être compris entre 0 et 300 pourcents de la taille par défaut). Lecture/écriture Int32.
+Spécifie le facteur d'échelle pour le graphique à bulles (peut être entre 0 et 300 pourcents de la taille par défaut). Lecture/écriture Int32.
 
 ```csharp
 public int BubbleSizeScale { get; set; }

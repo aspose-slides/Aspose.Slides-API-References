@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ibulletformat/char/
 ---
+
 ## IBulletFormat.Char property
 
 Returns or sets the bullet char of a paragraph with no inheritance. Read/write Char.

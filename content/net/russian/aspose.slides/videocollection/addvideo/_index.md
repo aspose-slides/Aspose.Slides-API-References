@@ -1,6 +1,6 @@
 ---
 title: AddVideo
-second_title: Aspose.Sildes для справки по API .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Добавляет копию видеофайла из другой презентации.
 type: docs
 weight: 50
@@ -19,11 +19,11 @@ public IVideo AddVideo(IVideo video)
 | --- | --- | --- |
 | video | IVideo | Исходное видео. |
 
-### Возвращаемое значение
+### Значение возврата
 
 Добавленное видео.
 
-### См. Также
+### Смотрите также
 
 * интерфейс [IVideo](../../ivideo)
 * класс [VideoCollection](../../videocollection)
@@ -43,13 +43,13 @@ public IVideo AddVideo(Stream stream, LoadingStreamBehavior loadingStreamBehavio
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Поток, из которого добавляется видеофайл. |
-| loadingStreamBehavior | LoadingStreamBehavior | Поведение, которое будет применено к потоку. |
+| loadingStreamBehavior | LoadingStreamBehavior | Поведение, которое будет применяться к потоку. |
 
-### Возвращаемое значение
+### Значение возврата
 
-Добавленное [`IVideo`](../../ivideo).
+Добавлено [`IVideo`](../../ivideo).
 
-### См. Также
+### Смотрите также
 
 * интерфейс [IVideo](../../ivideo)
 * перечисление [LoadingStreamBehavior](../../loadingstreambehavior)
@@ -71,11 +71,11 @@ public IVideo AddVideo(byte[] videoData)
 | --- | --- | --- |
 | videoData | Byte[] | Байты видео. |
 
-### Возвращаемое значение
+### Значение возврата
 
 Добавленное видео.
 
-### См. Также
+### Смотрите также
 
 * интерфейс [IVideo](../../ivideo)
 * класс [VideoCollection](../../videocollection)

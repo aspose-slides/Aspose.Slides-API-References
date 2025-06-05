@@ -1,6 +1,6 @@
 ---
-title: PositionVerrouillée
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: PositionLocked
+second_title: Référence API Aspose.Slides pour .NET
 description: Détermine si le déplacement de cette forme est interdit. Booléen en lecture/écriture.
 type: docs
 weight: 40
@@ -21,4 +21,4 @@ public bool PositionLocked { get; set; }
 * espace de noms [Aspose.Slides](../../graphicalobjectlock)
 * assembly [Aspose.Slides](../../../)
 
-<!-- NE MODIFIEZ PAS : généré par xmldocmd pour Aspose.Slides.dll -->
+<!-- NE PAS MODIFIER : généré par xmldocmd pour Aspose.Slides.dll -->

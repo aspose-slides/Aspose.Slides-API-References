@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.mathtext/imathblockcollection/count/
 ---
+
 ## IMathBlockCollection.Count property
 
 Gets the number of elements actually contained in the collection. Read-only Int32.

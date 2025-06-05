@@ -3,9 +3,10 @@ title: IPatternFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a pattern to fill a shape.
 type: docs
-weight: 6190
+weight: 6420
 url: /aspose.slides/ipatternformat/
 ---
+
 ## IPatternFormat interface
 
 Represents a pattern to fill a shape.
@@ -26,8 +27,8 @@ public interface IPatternFormat
 
 | Name | Description |
 | --- | --- |
-| [GetTileImage](../../aspose.slides/ipatternformat/gettileimage#gettileimage)(Color) | Creates a tile image for the pattern fill. |
-| [GetTileImage](../../aspose.slides/ipatternformat/gettileimage#gettileimage_1)(Color, Color) | Creates a tile image for the pattern fill with a specified colors. |
+| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile)(Color) | Creates a tile image for the pattern fill. |
+| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile_1)(Color, Color) | Creates a tile image for the pattern fill with a specified colors. |
 
 ### See Also
 

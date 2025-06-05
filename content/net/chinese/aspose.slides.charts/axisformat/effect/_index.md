@@ -1,7 +1,7 @@
 ---
-title: 效果
-second_title: Aspose.Slides for .NET API 参考
-description: 返回用于轴的效果。只读 IEffectFormat aspose.slides/ieffectformat。
+title: Effect
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回用于轴的效果。只读 IEffectFormataspose.slides/ieffectformat。
 type: docs
 weight: 10
 url: /zh/aspose.slides.charts/axisformat/effect/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/axisformat/effect/
 public IEffectFormat Effect { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IEffectFormat](../../../aspose.slides/ieffectformat)
 * 类 [AxisFormat](../../axisformat)

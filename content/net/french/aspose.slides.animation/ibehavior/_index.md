@@ -1,7 +1,7 @@
 ---
 title: IBehavior
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente le comportement de classe de base d'effet.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Représente le comportement de la classe de base de l'effet.
 type: docs
 weight: 330
 url: /fr/aspose.slides.animation/ibehavior/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/ibehavior/
 
 ## Interface IBehavior
 
-Représente le comportement de classe de base d'effet.
+Représente le comportement de la classe de base de l'effet.
 
 ```csharp
 public interface IBehavior
@@ -21,10 +21,10 @@ public interface IBehavior
 | --- | --- |
 | [Accumulate](../../aspose.slides.animation/ibehavior/accumulate) { get; set; } | Représente si les comportements d'animation sont accumulés. Lecture/écriture [`NullableBool`](../../aspose.slides/nullablebool). |
 | [Additive](../../aspose.slides.animation/ibehavior/additive) { get; set; } | Représente si le comportement d'animation actuel est combiné avec d'autres animations en cours. Lecture/écriture [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [Properties](../../aspose.slides.animation/ibehavior/properties) { get; } | Représente les propriétés de comportement. Lecture seule [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/ibehavior/timing) { get; set; } | Représente les propriétés de timing pour le comportement d'effet. Lecture/écriture [`ITiming`](../itiming). |
+| [Properties](../../aspose.slides.animation/ibehavior/properties) { get; } | Représente les propriétés du comportement. Lecture seule [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/ibehavior/timing) { get; set; } | Représente les propriétés de synchronisation pour le comportement de l'effet. Lecture/écriture [`ITiming`](../itiming). |
 
-### Voir aussi
+### Voir Aussi
 
 * espace de noms [Aspose.Slides.Animation](../../aspose.slides.animation)
 * assembly [Aspose.Slides](../../)

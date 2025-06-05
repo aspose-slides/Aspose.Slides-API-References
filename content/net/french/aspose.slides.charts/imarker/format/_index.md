@@ -1,7 +1,7 @@
 ---
 title: Format
-second_title: Référence API Aspose.Slidess pour .NET
-description: Obtient le remplissage du marqueur. Lecture seule IFormataspose.slides.charts/iformat.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Obtient le remplissage du marqueur. En lecture seule IFormataspose.slides.charts/iformat.
 type: docs
 weight: 10
 url: /fr/aspose.slides.charts/imarker/format/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/imarker/format/
 
 ## Propriété IMarker.Format
 
-Obtient le remplissage du marqueur. Lecture seule [`IFormat`](../../iformat).
+Obtient le remplissage du marqueur. En lecture seule [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; }

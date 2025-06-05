@@ -1,6 +1,6 @@
 ---
 title: SvgImage
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Erstellt ein neues SvgImage-Objekt.
 type: docs
 weight: 10
@@ -78,7 +78,7 @@ public SvgImage(byte[] data, IExternalResourceResolver externalResResolver, stri
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | data | Byte[] | Svg-Daten. |
-| externalResResolver | IExternalResourceResolver | Ein Callback-Objekt, das verwendet wird, um externe Objekte abzurufen. Wenn dieser Parameter null ist, werden alle externen Objekte ignoriert. |
+| externalResResolver | IExternalResourceResolver | Ein Rückruffobjekt, das verwendet wird, um externe Objekte abzurufen. Wenn dieser Parameter null ist, werden alle externen Objekte ignoriert. |
 | baseUri | String | Basis-URI des angegebenen Svg. Wird verwendet, um relative Links aufzulösen. |
 
 ### Siehe auch
@@ -101,7 +101,7 @@ public SvgImage(string svgContent, IExternalResourceResolver externalResResolver
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | svgContent | String | Svg-Inhalt. |
-| externalResResolver | IExternalResourceResolver | Ein Callback-Objekt, das verwendet wird, um externe Objekte abzurufen. Wenn dieser Parameter null ist, werden alle externen Objekte ignoriert. |
+| externalResResolver | IExternalResourceResolver | Ein Rückruffobjekt, das verwendet wird, um externe Objekte abzurufen. Wenn dieser Parameter null ist, werden alle externen Objekte ignoriert. |
 | baseUri | String | Basis-URI des angegebenen Svg. Wird verwendet, um relative Links aufzulösen. |
 
 ### Siehe auch
@@ -124,7 +124,7 @@ public SvgImage(Stream stream, IExternalResourceResolver externalResResolver, st
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | stream | Stream | Svg-Stream. |
-| externalResResolver | IExternalResourceResolver | Ein Callback-Objekt, das verwendet wird, um externe Objekte abzurufen. Wenn dieser Parameter null ist, werden alle externen Objekte ignoriert. |
+| externalResResolver | IExternalResourceResolver | Ein Rückruffobjekt, das verwendet wird, um externe Objekte abzurufen. Wenn dieser Parameter null ist, werden alle externen Objekte ignoriert. |
 | baseUri | String | Basis-URI des angegebenen Svg. Wird verwendet, um relative Links aufzulösen. |
 
 ### Siehe auch

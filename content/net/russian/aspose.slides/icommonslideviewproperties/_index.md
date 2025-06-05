@@ -1,7 +1,7 @@
 ---
 title: ICommonSlideViewProperties
-second_title: Aspose.Slides для .NET API Reference
-description: Представляет общие свойства представления слайдов.
+second_title: Aspose.Sildes для .NET API Ссылка
+description: Представляет общие свойства просмотра слайдов.
 type: docs
 weight: 5400
 url: /ru/aspose.slides/icommonslideviewproperties/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/icommonslideviewproperties/
 
 ## Интерфейс ICommonSlideViewProperties
 
-Представляет общие свойства представления слайдов.
+Представляет общие свойства просмотра слайдов.
 
 ```csharp
 public interface ICommonSlideViewProperties
@@ -17,11 +17,11 @@ public interface ICommonSlideViewProperties
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | Возвращает коллекцию направляющих рисования. Только для чтения [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | Указывает коэффициент масштабирования представления в процентах. Чтение/запись Int32. |
-| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | Указывает, что содержимое представления должно автоматически масштабироваться, чтобы наилучшим образом вписываться в текущий размер окна. Чтение/запись Boolean. |
+| [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | Возвращает коллекцию руководств по рисованию. Только для чтения [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | Устанавливает коэффициент масштабирования просмотра в процентах. Чтение/запись Int32. |
+| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | Указывает, что содержимое просмотра должно автоматически масштабироваться, чтобы наилучшим образом соответствовать текущему размеру окна. Чтение/запись Boolean. |
 
 ### См. также
 

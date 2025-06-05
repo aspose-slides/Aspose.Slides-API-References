@@ -7,7 +7,7 @@ weight: 350
 url: /fr/aspose.slides/ipresentation/replaceregex/
 ---
 
-## Méthode IPresentation.ReplaceRegex
+## IPresentation.ReplaceRegex méthode
 
 Remplace toutes les correspondances de l'expression régulière par la chaîne spécifiée.
 
@@ -23,7 +23,7 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 
 ### Exemples
 
-L'exemple de code suivant montre comment remplacer du texte en utilisant une expression régulière par la chaîne spécifiée.
+L'exemple de code suivant montre comment remplacer du texte en utilisant une expression régulière avec la chaîne spécifiée.
 
 ```csharp
 [C#]

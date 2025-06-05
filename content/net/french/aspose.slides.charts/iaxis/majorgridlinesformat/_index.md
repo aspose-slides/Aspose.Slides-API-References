@@ -1,6 +1,6 @@
 ---
 title: MajorGridLinesFormat
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Aspose.Slides pour .NET API Référence
 description: Représente le format des lignes de grille majeures sur un axe de graphique. Lecture seule IChartLinesFormataspose.slides.charts/ichartlinesformat.
 type: docs
 weight: 340

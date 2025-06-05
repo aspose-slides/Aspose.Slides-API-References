@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient les propriétés de formatage des cellules de tableau effectives avec héritage et styles de tableau appliqués.
+second_title: Aspose.Slides pour .NET Référence API
+description: Obtient les propriétés de formatage de cellule de tableau effectif avec héritage et styles de tableau appliqués.
 type: docs
 weight: 90
 url: /fr/aspose.slides/cellformat/geteffective/
@@ -9,19 +9,19 @@ url: /fr/aspose.slides/cellformat/geteffective/
 
 ## CellFormat.GetEffective méthode
 
-Obtient les propriétés de formatage des cellules de tableau effectives avec héritage et styles de tableau appliqués.
+Obtient les propriétés de formatage de cellule de tableau effectif avec héritage et styles de tableau appliqués.
 
 ```csharp
 public ICellFormatEffectiveData GetEffective()
 ```
 
-### Valeur de Retour
+### Valeur de retour
 
 Un [`ICellFormatEffectiveData`](../../icellformateffectivedata).
 
 ### Exemples
 
-Cet exemple démontre comment obtenir le format de remplissage effectif pour différentes parties logiques d'un tableau. Veuillez noter que le formatage des cellules a toujours une priorité plus élevée que le formatage des lignes, le formatage des lignes - plus élevé que le formatage des colonnes, le formatage des colonnes - plus élevé que l'ensemble du tableau. Ainsi, les propriétés de CellFormatEffectiveData sont toujours utilisées pour dessiner le tableau. Le code suivant est juste un exemple de l'API.
+Cet exemple montre comment obtenir le format de remplissage effectif pour différentes parties logiques du tableau. Veuillez noter que le formatage des cellules a toujours une priorité plus élevée que le formatage des lignes, le formatage des lignes - plus élevé que celui des colonnes, et le formatage des colonnes - plus élevé que celui du tableau entier. Ainsi, finalement, les propriétés de CellFormatEffectiveData sont toujours utilisées pour dessiner le tableau. Le code suivant est juste un exemple d'API.
 
 ```csharp
 [C#]
@@ -36,7 +36,7 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ICellFormatEffectiveData](../../icellformateffectivedata)
 * class [CellFormat](../../cellformat)

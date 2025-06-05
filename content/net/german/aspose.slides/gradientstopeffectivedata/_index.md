@@ -26,10 +26,10 @@ public class GradientStopEffectiveData : IGradientStopEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | Bestimmt, ob das angegebene [`GradientStopEffectiveData`](../gradientstopeffectivedata) dem aktuellen [`GradientStopEffectiveData`](../gradientstopeffectivedata) entspricht. |
+| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | Bestimmt, ob das angegebene [`GradientStopEffectiveData`](../gradientstopeffectivedata) gleich dem aktuellen [`GradientStopEffectiveData`](../gradientstopeffectivedata) ist. |
 | override [GetHashCode](../../aspose.slides/gradientstopeffectivedata/gethashcode)() |  |
 
-### Siehe Auch
+### Siehe auch
 
 * interface [IGradientStopEffectiveData](../igradientstopeffectivedata)
 * namespace [Aspose.Slides](../../aspose.slides)

@@ -1,6 +1,6 @@
 ---
 title: Audio
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Représente un fichier audio intégré.
 type: docs
 weight: 770
@@ -19,8 +19,8 @@ public class Audio : DomObject<AudioCollection>, IAudio
 
 | Nom | Description |
 | --- | --- |
-| [BinaryData](../../aspose.slides/audio/binarydata) { get; } | Renvoie la copie des données d'un audio. En cas de grande quantité de données, envisagez d'utiliser la méthode [`GetStream`](./getstream) pour éviter de charger inutilement les données audio en mémoire ou même de rencontrer une OutOfMemoryException. Tableaux de bytes en lecture seule. |
-| [ContentType](../../aspose.slides/audio/contenttype) { get; set; } | Renvoie un type MIME d'un audio, encodé dans [`BinaryData`](./binarydata). Chaîne en lecture seule. |
+| [BinaryData](../../aspose.slides/audio/binarydata) { get; } | Renvoie la copie des données d'un audio. En cas de grande quantité de données, envisagez d'utiliser la méthode [`GetStream`](./getstream) pour éviter de charger inutilement les données audio en mémoire ou même de provoquer une OutOfMemoryException. Lecture seule Byte[]. |
+| [ContentType](../../aspose.slides/audio/contenttype) { get; set; } | Renvoie un type MIME d'un audio, codé dans [`BinaryData`](./binarydata). Lecture seule String. |
 
 ## Méthodes
 

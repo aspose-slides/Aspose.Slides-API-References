@@ -1,6 +1,6 @@
 ---
 title: CreateAlphaBiLevel
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Создает эффект Alpha BiLevel.
 type: docs
 weight: 10
@@ -19,11 +19,11 @@ public IAlphaBiLevel CreateAlphaBiLevel(float threshold)
 | --- | --- | --- |
 | threshold | Single | Порог. |
 
-### Значение Возврата
+### Возвращаемое значение
 
 Эффект Alpha BiLevel.
 
-### Смотрите Также
+### См. Также
 
 * интерфейс [IAlphaBiLevel](../../ialphabilevel)
 * интерфейс [IImageTransformOperationFactory](../../iimagetransformoperationfactory)

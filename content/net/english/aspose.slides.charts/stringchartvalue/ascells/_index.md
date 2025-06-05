@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/stringchartvalue/ascells/
 ---
+
 ## StringChartValue.AsCells property
 
 Null value assigning is not allowed. Returning value always is not null. Read/write [`IChartCellCollection`](../../ichartcellcollection).

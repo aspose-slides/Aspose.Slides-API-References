@@ -1,6 +1,6 @@
 ---
 title: OffsetX
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Возвращает расстояние от левой стороны таблицы до левой стороны ячейки. Только для чтения Double.
 type: docs
 weight: 150
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/cell/offsetx/
 public double OffsetX { get; }
 ```
 
-### Смотрите также
+### Также см.
 
 * класс [Cell](../../cell)
 * пространство имен [Aspose.Slides](../../cell)

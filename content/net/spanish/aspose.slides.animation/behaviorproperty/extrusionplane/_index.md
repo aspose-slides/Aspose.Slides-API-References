@@ -1,6 +1,6 @@
 ---
 title: ExtrusionPlane
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Representa la propiedad extrusion.plane
 type: docs
 weight: 120
@@ -15,10 +15,10 @@ Representa la propiedad 'extrusion.plane'
 public static BehaviorProperty ExtrusionPlane { get; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

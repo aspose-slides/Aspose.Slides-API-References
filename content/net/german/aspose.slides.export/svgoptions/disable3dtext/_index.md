@@ -1,21 +1,21 @@
 ---
 title: Disable3DText
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob der 3D-Text in SVG deaktiviert ist. Lese-/Schreib-Boolean.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Bestimmt, ob der 3D-Text in SVG deaktiviert ist. Lese-/Schreib-Boolescher Wert.
 type: docs
 weight: 60
 url: /de/aspose.slides.export/svgoptions/disable3dtext/
 ---
 
-## SVGOptions.Disable3DText Eigenschaft
+## SVGOptions.Disable3DText-Eigenschaft
 
-Bestimmt, ob der 3D-Text in SVG deaktiviert ist. Lese-/Schreib-Boolean.
+Bestimmt, ob der 3D-Text in SVG deaktiviert ist. Lese-/Schreib-Boolescher Wert.
 
 ```csharp
 public bool Disable3DText { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [SVGOptions](../../svgoptions)
 * Namespace [Aspose.Slides.Export](../../svgoptions)

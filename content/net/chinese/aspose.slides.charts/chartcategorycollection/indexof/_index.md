@@ -1,7 +1,7 @@
 ---
 title: IndexOf
-second_title: Aspose.Sildes for .NET API 参考
-description: 搜索指定的 ChartCategoryaspose.slides.charts/chartcategory，并返回整个集合中第一次出现的零基索引。
+second_title: Aspose.Sildes for .NET API Reference
+description: 搜索指定的 ChartCategoryaspose.slides.charts/chartcategory，并返回在整个集合中首次出现的零基索引。
 type: docs
 weight: 110
 url: /zh/aspose.slides.charts/chartcategorycollection/indexof/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/chartcategorycollection/indexof/
 
 ## ChartCategoryCollection.IndexOf 方法
 
-搜索指定的 [`ChartCategory`](../../chartcategory)，并返回整个集合中第一次出现的零基索引。
+搜索指定的 [`ChartCategory`](../../chartcategory)，并返回在整个集合中首次出现的零基索引。
 
 ```csharp
 public int IndexOf(IChartCategory value)
@@ -21,9 +21,9 @@ public int IndexOf(IChartCategory value)
 
 ### 返回值
 
-如果找到，返回值在整个 CollectionBase 中第一次出现的零基索引；如果未找到，返回 -1。
+如果找到，则返回值在整个 CollectionBase 中首次出现的零基索引；否则，返回 -1。
 
-### 另见
+### 另请参见
 
 * 接口 [IChartCategory](../../ichartcategory)
 * 类 [ChartCategoryCollection](../../chartcategorycollection)

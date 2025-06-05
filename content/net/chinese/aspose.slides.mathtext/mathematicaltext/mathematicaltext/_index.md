@@ -1,6 +1,6 @@
 ---
-title: 数学文本
-second_title: Aspose.Slides for .NET API 参考
+title: MathematicalText
+second_title: Aspose.Sildes for .NET API Reference
 description: 默认构造函数创建 String.Empty 值
 type: docs
 weight: 10
@@ -24,7 +24,7 @@ public MathematicalText()
 MathematicalText mathText = new MathematicalText();
 ```
 
-### 另请参见
+### 另请参阅
 
 * 类 [MathematicalText](../../mathematicaltext)
 * 命名空间 [Aspose.Slides.MathText](../../mathematicaltext)
@@ -42,7 +42,7 @@ public MathematicalText(char mathSymbol)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| mathSymbol | Char | 单一符号 |
+| mathSymbol | Char | 单个符号 |
 
 ### 示例
 
@@ -53,7 +53,7 @@ public MathematicalText(char mathSymbol)
 MathematicalText mathText = new MathematicalText('$');
 ```
 
-### 另请参见
+### 另请参阅
 
 * 类 [MathematicalText](../../mathematicaltext)
 * 命名空间 [Aspose.Slides.MathText](../../mathematicaltext)
@@ -82,7 +82,7 @@ public MathematicalText(string mathText)
 MathematicalText mathText = new MathematicalText("x+y");
 ```
 
-### 另请参见
+### 另请参阅
 
 * 类 [MathematicalText](../../mathematicaltext)
 * 命名空间 [Aspose.Slides.MathText](../../mathematicaltext)
@@ -113,7 +113,7 @@ IPortionFormat format = new PortionFormat() { FontHeight = 12 };
 MathematicalText mathText = new MathematicalText("x+y", format);
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IPortionFormat](../../../aspose.slides/iportionformat)
 * 类 [MathematicalText](../../mathematicaltext)

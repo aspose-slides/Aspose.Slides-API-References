@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides/ieffectformat/disablegloweffect/
 ---
+
 ## IEffectFormat.DisableGlowEffect method
 
 Disable glow effect.

@@ -1,5 +1,5 @@
 ---
-title: Contiene
+title: Contains
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si la colección contiene un valor específico.
 type: docs
@@ -7,7 +7,7 @@ weight: 60
 url: /es/aspose.slides.mathtext/imathblockcollection/contains/
 ---
 
-## Método IMathBlockCollection.Contains
+## IMathBlockCollection.Contains método
 
 Determina si la colección contiene un valor específico.
 
@@ -19,7 +19,7 @@ public bool Contains(IMathBlock item)
 | --- | --- | --- |
 | item | IMathBlock | El objeto a localizar en la colección. |
 
-### Valor de Retorno
+### Valor de retorno
 
 true si *item* se encuentra en la colección; de lo contrario, false.
 
@@ -35,11 +35,11 @@ blockCollection.Add(block);
 bool contains = blockCollection.Contains(block);
 ```
 
-### Véase También
+### Véase también
 
-* interface [IMathBlock](../../imathblock)
-* interface [IMathBlockCollection](../../imathblockcollection)
-* namespace [Aspose.Slides.MathText](../../imathblockcollection)
-* assembly [Aspose.Slides](../../../)
+* interfaz [IMathBlock](../../imathblock)
+* interfaz [IMathBlockCollection](../../imathblockcollection)
+* espacio de nombres [Aspose.Slides.MathText](../../imathblockcollection)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

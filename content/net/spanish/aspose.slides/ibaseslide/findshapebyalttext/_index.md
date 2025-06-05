@@ -1,33 +1,33 @@
----
+---  
 title: FindShapeByAltText
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API  
 description: Encuentra la primera ocurrencia de una forma con el texto alternativo especificado.
-type: docs
-weight: 130
+type: docs  
+weight: 130  
 url: /es/aspose.slides/ibaseslide/findshapebyalttext/
----
+---  
 
-## Método IBaseSlide.FindShapeByAltText
+## IBaseSlide.FindShapeByAltText método  
 
-Encuentra la primera ocurrencia de una forma con el texto alternativo especificado.
+Encuentra la primera ocurrencia de una forma con el texto alternativo especificado.  
 
-```csharp
-public IShape FindShapeByAltText(string altText)
-```
+```csharp  
+public IShape FindShapeByAltText(string altText)  
+```  
 
-| Parámetro | Tipo | Descripción |
-| --- | --- | --- |
-| altText | String | Texto alternativo. |
+| Parámetro | Tipo | Descripción |  
+| --- | --- | --- |  
+| altText | String | Texto alternativo. |  
 
-### Valor de Retorno
+### Valor de retorno  
 
-Objeto ShapeEx o null.
+Objeto ShapeEx o nulo.  
 
-### Véase También
+### Véase también  
 
-* interface [IShape](../../ishape)
-* interface [IBaseSlide](../../ibaseslide)
-* namespace [Aspose.Slides](../../ibaseslide)
-* assembly [Aspose.Slides](../../../)
+* interfaz [IShape](../../ishape)  
+* interfaz [IBaseSlide](../../ibaseslide)  
+* espacio de nombres [Aspose.Slides](../../ibaseslide)  
+* ensamblado [Aspose.Slides](../../../)  
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  

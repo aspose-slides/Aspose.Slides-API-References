@@ -1,7 +1,7 @@
 ---
-title: Richtung
+title: Direction
 second_title: Aspose.Slides für .NET API-Referenz
-description: Richtung des Schattens. Lesen/Schreiben Einzelwert.
+description: Richtung des Schattens. Lese-/Schreibbare Single.
 type: docs
 weight: 30
 url: /de/aspose.slides.effects/ipresetshadow/direction/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.effects/ipresetshadow/direction/
 
 ## IPresetShadow.Direction-Eigenschaft
 
-Richtung des Schattens. Lesen/Schreiben Einzelwert.
+Richtung des Schattens. Lese-/Schreibbare Single.
 
 ```csharp
 public float Direction { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IPresetShadow](../../ipresetshadow)
 * Namespace [Aspose.Slides.Effects](../../ipresetshadow)

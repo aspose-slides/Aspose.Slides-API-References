@@ -1,13 +1,13 @@
 ---
 title: StyleTextEffectEmboss
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет свойство style.textEffectEmboss
 type: docs
 weight: 1150
 url: /ru/aspose.slides.animation/behaviorproperty/styletexteffectemboss/
 ---
 
-## Свойство BehaviorProperty.StyleTextEffectEmboss
+## BehaviorProperty.StyleTextEffectEmboss свойство
 
 Представляет свойство 'style.textEffectEmboss'
 

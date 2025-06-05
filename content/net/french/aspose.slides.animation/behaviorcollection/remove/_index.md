@@ -1,15 +1,15 @@
 ---
-title: Supprimer
+title: Remove
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Supprime un comportement spécifié d'une collection.
+description: Supprime le comportement spécifié d'une collection.
 type: docs
 weight: 110
 url: /fr/aspose.slides.animation/behaviorcollection/remove/
 ---
 
-## Méthode BehaviorCollection.Remove
+## BehaviorCollection.Remove method
 
-Supprime un comportement spécifié d'une collection.
+Supprime le comportement spécifié d'une collection.
 
 ```csharp
 public bool Remove(IBehavior item)

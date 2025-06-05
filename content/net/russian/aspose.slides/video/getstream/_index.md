@@ -1,6 +1,6 @@
 ---
 title: GetStream
-second_title: Aspose.Slides для .NET Справочник по API
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает поток Stream для чтения. Используйте 'using' или закройте поток после использования.
 type: docs
 weight: 30
@@ -19,7 +19,7 @@ public Stream GetStream()
 
 Поток для чтения.
 
-### См. также
+### Смотрите также
 
 * класс [Video](../../video)
 * пространство имен [Aspose.Slides](../../video)

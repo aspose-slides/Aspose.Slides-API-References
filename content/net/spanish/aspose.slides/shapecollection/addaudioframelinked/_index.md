@@ -1,13 +1,13 @@
 ---
 title: AddAudioFrameLinked
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Agrega un nuevo marco de audio con un archivo de audio vinculado al final de una colección.
 type: docs
 weight: 80
 url: /es/aspose.slides/shapecollection/addaudioframelinked/
 ---
 
-## Método ShapeCollection.AddAudioFrameLinked
+## ShapeCollection.AddAudioFrameLinked method
 
 Agrega un nuevo marco de audio con un archivo de audio vinculado al final de una colección.
 

@@ -1,21 +1,21 @@
 ---
 title: PlotOnSecondAxis
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示此系列是否绘制在第二个值轴上。可读/可写布尔值。
+description: 指示该系列是否在第二个值轴上绘制。可读/可写布尔值。
 type: docs
 weight: 330
 url: /zh/aspose.slides.charts/ichartseries/plotonsecondaxis/
 ---
 
-## IChartSeries.PlotOnSecondAxis属性
+## IChartSeries.PlotOnSecondAxis 属性
 
-表示此系列是否绘制在第二个值轴上。可读/可写布尔值。
+指示该系列是否在第二个值轴上绘制。可读/可写布尔值。
 
 ```csharp
 public bool PlotOnSecondAxis { get; set; }
 ```
 
-### 相关信息
+### 另请参阅
 
 * 接口 [IChartSeries](../../ichartseries)
 * 命名空间 [Aspose.Slides.Charts](../../ichartseries)

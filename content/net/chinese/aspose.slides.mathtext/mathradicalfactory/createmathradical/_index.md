@@ -1,7 +1,7 @@
 ---
 title: CreateMathRadical
-second_title: Aspose.Sildes for .NET API 参考
-description: 创建数学根式
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建数学根号
 type: docs
 weight: 20
 url: /zh/aspose.slides.mathtext/mathradicalfactory/createmathradical/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathradicalfactory/createmathradical/
 
 ## MathRadicalFactory.CreateMathRadical 方法
 
-创建数学根式
+创建数学根号
 
 ```csharp
 public IMathRadical CreateMathRadical(IMathElement baseArgument, IMathElement degreeArgument)
@@ -17,14 +17,14 @@ public IMathRadical CreateMathRadical(IMathElement baseArgument, IMathElement de
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| baseArgument | IMathElement | 用于求根的基准参数 |
-| degreeArgument | IMathElement | 指数值 |
+| baseArgument | IMathElement | 应用根号的基本参数 |
+| degreeArgument | IMathElement | 阶数值 |
 
 ### 返回值
 
-新的根式元素
+新的根号元素
 
-### 另见
+### 另请参阅
 
 * 接口 [IMathRadical](../../imathradical)
 * 接口 [IMathElement](../../imathelement)

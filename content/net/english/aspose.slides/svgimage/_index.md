@@ -3,9 +3,10 @@ title: SvgImage
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an SVG image.
 type: docs
-weight: 10150
+weight: 10490
 url: /aspose.slides/svgimage/
 ---
+
 ## SvgImage class
 
 Represents an SVG image.
@@ -33,6 +34,12 @@ public class SvgImage : ISvgImage
 | [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Return callback interface used to resolve external resources during Svg documents import. Read-only [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
 | [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | Returns SVG content. Read-only String. |
 | [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | Returns SVG data. Read-only Byte[]. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [WriteAsEmf](../../aspose.slides/svgimage/writeasemf)(Stream) | Saves the SVG image as an EMF file. |
 
 ### See Also
 

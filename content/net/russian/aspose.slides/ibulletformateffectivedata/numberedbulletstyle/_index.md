@@ -1,6 +1,6 @@
 ---
 title: NumberedBulletStyle
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для справочной информации API .NET
 description: Возвращает стиль нумерованного маркера. Только для чтения NumberedBulletStyleaspose.slides/numberedbulletstyle.
 type: docs
 weight: 90

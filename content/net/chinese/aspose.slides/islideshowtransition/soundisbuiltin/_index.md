@@ -1,7 +1,7 @@
 ---
 title: SoundIsBuiltIn
 second_title: Aspose.Sildes for .NET API Reference
-description: 指定此声音是否为内置声音。如果将此属性设置为 true，则生成的应用程序会被提醒检查在其内置声音列表中为此声音指定的名称属性，然后可以根据需要显示自定义名称或 UI。可读写布尔值。
+description: 指定该声音是否为内置声音。如果将此属性设置为 true，则生成应用程序会被通知检查其内置声音列表中为该声音指定的名称属性，并根据需要显示自定义名称或用户界面。可读写布尔值。
 type: docs
 weight: 50
 url: /zh/aspose.slides/islideshowtransition/soundisbuiltin/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/islideshowtransition/soundisbuiltin/
 
 ## ISlideShowTransition.SoundIsBuiltIn 属性
 
-指定此声音是否为内置声音。如果将此属性设置为 true，则生成的应用程序会被提醒检查在其内置声音列表中为此声音指定的名称属性，然后可以根据需要显示自定义名称或 UI。可读写布尔值。
+指定该声音是否为内置声音。如果将此属性设置为 true，则生成应用程序会被通知检查其内置声音列表中为该声音指定的名称属性，并根据需要显示自定义名称或用户界面。可读写布尔值。
 
 ```csharp
 public bool SoundIsBuiltIn { get; set; }
 ```
 
-### 另请参见
+### 相关内容
 
 * 接口 [ISlideShowTransition](../../islideshowtransition)
 * 命名空间 [Aspose.Slides](../../islideshowtransition)

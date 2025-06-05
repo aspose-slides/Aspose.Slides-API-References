@@ -1,6 +1,6 @@
 ---
-title: 移除
-second_title: Aspose.Slides for .NET API 参考
+title: Remove
+second_title: Aspose.Sildes for .NET API Reference
 description: 移除指定的值。
 type: docs
 weight: 50
@@ -19,7 +19,7 @@ public void Remove(ITrendline value)
 | --- | --- | --- |
 | value | ITrendline | 要移除的趋势线 [`ITrendline`](../../itrendline) |
 
-### 参见
+### 相关链接
 
 * 接口 [ITrendline](../../itrendline)
 * 接口 [ITrendlineCollection](../../itrendlinecollection)

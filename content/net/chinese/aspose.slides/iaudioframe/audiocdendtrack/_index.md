@@ -1,7 +1,7 @@
 ---
 title: AudioCdEndTrack
-second_title: Aspose.Slides for .NET API Reference
-description: 返回或设置最后一个曲目的索引 可读写 Int32。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置最后一个曲目的索引 可读/可写 Int32。
 type: docs
 weight: 20
 url: /zh/aspose.slides/iaudioframe/audiocdendtrack/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/iaudioframe/audiocdendtrack/
 
 ## IAudioFrame.AudioCdEndTrack 属性
 
-返回或设置最后一个曲目的索引 可读写 Int32。
+返回或设置最后一个曲目的索引 可读/可写 Int32。
 
 ```csharp
 public int AudioCdEndTrack { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IAudioFrame](../../iaudioframe)
 * 命名空间 [Aspose.Slides](../../iaudioframe)

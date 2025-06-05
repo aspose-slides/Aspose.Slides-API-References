@@ -1,7 +1,7 @@
 ---
 title: MetafileRasterizationDpi
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回或设置 metafile 光栅化的最低分辨率限制。可读/可写 Int32。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置元文件光栅化的最低分辨率限制。可读/写 Int32。
 type: docs
 weight: 130
 url: /zh/aspose.slides.export/svgoptions/metafilerasterizationdpi/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/svgoptions/metafilerasterizationdpi/
 
 ## SVGOptions.MetafileRasterizationDpi 属性
 
-返回或设置 metafile 光栅化的最低分辨率限制。可读/可写 Int32。
+返回或设置元文件光栅化的最低分辨率限制。可读/写 Int32。
 
 ```csharp
 public int MetafileRasterizationDpi { get; set; }

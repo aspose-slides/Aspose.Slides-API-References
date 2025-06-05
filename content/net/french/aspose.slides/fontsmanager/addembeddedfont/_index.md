@@ -1,7 +1,7 @@
 ---
 title: AddEmbeddedFont
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Ajoute la police intégrée Gardez à l'esprit que la plupart des polices sont protégées par des droits d'auteur. Localisez d'abord la licence d'une police et vérifiez qu'elle peut être transférée librement sur une autre machine. Une ArgumentException peut être déclenchée si les données de la police sont nulles ou si cette police est déjà intégrée.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Ajoute la police intégrée. Gardez à l'esprit lorsque vous copiez des polices que la plupart des polices sont protégées par des droits d'auteur. Localisez d'abord la licence d'une police à l'avance et vérifiez qu'elle peut être transférée librement sur une autre machine. Une ArgumentException peut être levée si les données de la police sont nulles ou si cette police est déjà intégrée.
 type: docs
 weight: 30
 url: /fr/aspose.slides/fontsmanager/addembeddedfont/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/fontsmanager/addembeddedfont/
 
 ## AddEmbeddedFont(IFontData, EmbedFontCharacters) {#addembeddedfont}
 
-Ajoute la police intégrée Gardez à l'esprit que la plupart des polices sont protégées par des droits d'auteur. Localisez d'abord la licence d'une police et vérifiez qu'elle peut être transférée librement sur une autre machine. Une ArgumentException peut être déclenchée si les données de la police sont nulles ou si cette police est déjà intégrée.
+Ajoute la police intégrée. Gardez à l'esprit lorsque vous copiez des polices que la plupart des polices sont protégées par des droits d'auteur. Localisez d'abord la licence d'une police à l'avance et vérifiez qu'elle peut être transférée librement sur une autre machine. Une ArgumentException peut être levée si les données de la police sont nulles ou si cette police est déjà intégrée.
 
 ```csharp
 public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRule)
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IFontData](../../ifontdata)
 * enum [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters)
@@ -27,13 +27,13 @@ public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRul
 
 ## AddEmbeddedFont(byte[], EmbedFontCharacters) {#addembeddedfont_1}
 
-Ajoute la police intégrée Gardez à l'esprit que la plupart des polices sont protégées par des droits d'auteur. Localisez d'abord la licence d'une police et vérifiez qu'elle peut être transférée librement sur une autre machine. Une ArgumentException peut être déclenchée si les données de la police sont nulles ou si cette police est déjà intégrée.
+Ajoute la police intégrée. Gardez à l'esprit lorsque vous copiez des polices que la plupart des polices sont protégées par des droits d'auteur. Localisez d'abord la licence d'une police à l'avance et vérifiez qu'elle peut être transférée librement sur une autre machine. Une ArgumentException peut être levée si les données de la police sont nulles ou si cette police est déjà intégrée.
 
 ```csharp
 public void AddEmbeddedFont(byte[] fontData, EmbedFontCharacters embedFontRule)
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters)
 * class [FontsManager](../../fontsmanager)

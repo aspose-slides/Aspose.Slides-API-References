@@ -1,15 +1,15 @@
 ---
 title: PieSplitPosition
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Especifica un valor que se utilizará para determinar qué puntos de datos están en el segundo gráfico circular o barra en un gráfico de pie-of-pie o bar-of-pie. Se utiliza junto con la propiedad PieSplitBy. Lectura/escritura Double.
+description: Especifica un valor que se utilizará para determinar qué puntos de datos están en el segundo gráfico circular o barra en un gráfico circular de pie o barra de pie. Se utiliza junto con la propiedad PieSplitBy. Lectura/escritura Doble.
 type: docs
 weight: 150
 url: /es/aspose.slides.charts/ichartseriesgroup/piesplitposition/
 ---
 
-## Propiedad IChartSeriesGroup.PieSplitPosition
+## IChartSeriesGroup.PieSplitPosition property
 
-Especifica un valor que se utilizará para determinar qué puntos de datos están en el segundo gráfico circular o barra en un gráfico de pie-of-pie o bar-of-pie. Se utiliza junto con la propiedad PieSplitBy. Lectura/escritura Double.
+Especifica un valor que se utilizará para determinar qué puntos de datos están en el segundo gráfico circular o barra en un gráfico circular de pie o barra de pie. Se utiliza junto con la propiedad PieSplitBy. Lectura/escritura Doble.
 
 ```csharp
 public double PieSplitPosition { get; set; }

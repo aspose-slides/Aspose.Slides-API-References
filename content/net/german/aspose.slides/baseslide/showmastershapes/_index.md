@@ -1,7 +1,7 @@
 ---
 title: ShowMasterShapes
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt an, ob Formen auf der Masterfolie auf Folien angezeigt werden sollen oder nicht. Für die Masterfolie selbst gibt diese Eigenschaft immer false zurück. Lese-/Schreib-Boolean.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt an, ob Formen auf der Masterfolie auf Folien angezeigt werden sollen oder nicht. Für die Masterfolie selbst gibt diese Eigenschaft immer false zurück. Lese-/Schreib-Boolescher Wert.
 type: docs
 weight: 80
 url: /de/aspose.slides/baseslide/showmastershapes/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/baseslide/showmastershapes/
 
 ## BaseSlide.ShowMasterShapes-Eigenschaft
 
-Gibt an, ob Formen auf der Masterfolie auf Folien angezeigt werden sollen oder nicht. Für die Masterfolie selbst gibt diese Eigenschaft immer `false` zurück. Lese-/Schreib-Boolean.
+Gibt an, ob Formen auf der Masterfolie auf Folien angezeigt werden sollen oder nicht. Für die Masterfolie selbst gibt diese Eigenschaft immer `false` zurück. Lese-/Schreib-Boolescher Wert.
 
 ```csharp
 public abstract bool ShowMasterShapes { get; set; }

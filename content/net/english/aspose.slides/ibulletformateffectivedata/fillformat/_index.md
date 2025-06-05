@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ibulletformateffectivedata/fillformat/
 ---
+
 ## IBulletFormatEffectiveData.FillFormat property
 
 Returns the bullet fill format of a paragraph. Read-only [`IFillFormatEffectiveData`](../../ifillformateffectivedata).

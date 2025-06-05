@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.animation/motioncmdpath/commandtype/
 ---
+
 ## MotionCmdPath.CommandType property
 
 Specifies command type. Read/write [`MotionCommandPathType`](../../motioncommandpathtype).

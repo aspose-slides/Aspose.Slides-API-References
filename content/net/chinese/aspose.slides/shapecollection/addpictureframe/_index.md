@@ -1,7 +1,7 @@
 ---
-title: 添加图片框
-second_title: Aspose.Slides for .NET API 参考
-description: 创建一个新的图片框并将其添加到集合的末尾。
+title: AddPictureFrame
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建一个新的 PictureFrame 并将其添加到集合的末尾。
 type: docs
 weight: 160
 url: /zh/aspose.slides/shapecollection/addpictureframe/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/shapecollection/addpictureframe/
 
 ## ShapeCollection.AddPictureFrame 方法
 
-创建一个新的图片框并将其添加到集合的末尾。
+创建一个新的 PictureFrame 并将其添加到集合的末尾。
 
 ```csharp
 public IPictureFrame AddPictureFrame(ShapeType shapeType, float x, float y, float width, 
@@ -18,18 +18,18 @@ public IPictureFrame AddPictureFrame(ShapeType shapeType, float x, float y, floa
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| shapeType | ShapeType | 包含在集合中 [`ShapeType`](../../shapetype) 的形状，除了各种线条: |
+| shapeType | ShapeType | 集合中包含的形状 [`ShapeType`](../../shapetype)，除了所有种类的线： |
 | x | Single | 形状框左侧的 X 坐标。 |
 | y | Single | 形状框顶部的 Y 坐标。 |
 | width | Single | 形状框的宽度。 |
 | height | Single | 形状框的高度。 |
-| image | IPPImage | 图片框的图像。 |
+| image | IPPImage | PictureFrame 的图像。 |
 
 ### 返回值
 
 创建的 PictureFrame 对象。
 
-### 参见
+### 另请参见
 
 * 接口 [IPictureFrame](../../ipictureframe)
 * 枚举 [ShapeType](../../shapetype)

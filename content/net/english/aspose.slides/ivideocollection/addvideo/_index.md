@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ivideocollection/addvideo/
 ---
+
 ## AddVideo(IVideo) {#addvideo}
 
 Adds a copy of an video file from an another presentation.
@@ -31,7 +32,7 @@ Added video.
 
 ---
 
-## AddVideo(Stream, LoadingStreamBehavior) {#addvideo_3}
+## AddVideo(Stream, LoadingStreamBehavior) {#addvideo_2}
 
 Creates and adds a video to a presentation from stream.
 

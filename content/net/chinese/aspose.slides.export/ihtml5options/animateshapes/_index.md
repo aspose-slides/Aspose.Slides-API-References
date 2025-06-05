@@ -1,7 +1,7 @@
 ---
 title: AnimateShapes
 second_title: Aspose.Sildes for .NET API Reference
-description: 返回或设置形状动画选项。可读/可写布尔值。
+description: 返回或设置形状动画选项。可读/写布尔值。
 type: docs
 weight: 10
 url: /zh/aspose.slides.export/ihtml5options/animateshapes/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/ihtml5options/animateshapes/
 
 ## IHtml5Options.AnimateShapes 属性
 
-返回或设置形状动画选项。可读/可写布尔值。
+返回或设置形状动画选项。可读/写布尔值。
 
 ```csharp
 public bool AnimateShapes { get; set; }

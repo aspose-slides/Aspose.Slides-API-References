@@ -1,7 +1,7 @@
 ---
 title: RepeatCount
 second_title: Aspose.Slides для .NET API Справочник
-description: Описывает количество раз, которое эффект должен повторяться. Чтение/запись Single.
+description: Описывает количество раз, которое эффект должен повториться. Чтение/запись Single.
 type: docs
 weight: 50
 url: /ru/aspose.slides.animation/timing/repeatcount/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.animation/timing/repeatcount/
 
 ## Свойство Timing.RepeatCount
 
-Описывает количество раз, которое эффект должен повторяться. Чтение/запись Single.
+Описывает количество раз, которое эффект должен повториться. Чтение/запись Single.
 
 ```csharp
 public float RepeatCount { get; set; }

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.export/ihtmlformattingcontroller/writeshapeend/
 ---
+
 ## IHtmlFormattingController.WriteShapeEnd method
 
 Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous.

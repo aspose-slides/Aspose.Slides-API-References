@@ -1,7 +1,7 @@
 ---
 title: ShapeType
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den AutoShape-Typ für ein PictureFrame zurück oder setzt ihn. Es sind alle Elemente der Menge ShapeTypeaspose.slides/shapetype erlaubt, mit Ausnahme aller Arten von Linien.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt den AutoShape-Typ für ein PictureFrame zurück oder setzt ihn. Es sind alle Elemente der Menge ShapeTypeaspose.slides/shapetype zulässig, mit Ausnahme aller Arten von Linien.
 type: docs
 weight: 70
 url: /de/aspose.slides/pictureframe/shapetype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/pictureframe/shapetype/
 
 ## PictureFrame.ShapeType-Eigenschaft
 
-Gibt den AutoShape-Typ für ein PictureFrame zurück oder setzt ihn. Es sind alle Elemente der Menge [`ShapeType`](../../shapetype) erlaubt, mit Ausnahme aller Arten von Linien:
+Gibt den AutoShape-Typ für ein PictureFrame zurück oder setzt ihn. Es sind alle Elemente der Menge [`ShapeType`](../../shapetype) zulässig, mit Ausnahme aller Arten von Linien:
 
 ShapeType.Line,
 
@@ -31,13 +31,13 @@ ShapeType.CurvedConnector4,
 
 ShapeType.CurvedConnector5.
 
-Lese-/Schreibezugriff auf [`ShapeType`](../../shapetype).
+Lese-/Schreibzugriff auf [`ShapeType`](../../shapetype).
 
 ```csharp
 public override ShapeType ShapeType { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [ShapeType](../../shapetype)
 * class [PictureFrame](../../pictureframe)

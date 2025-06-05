@@ -1,6 +1,6 @@
 ---
 title: R1C1Formula
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取或设置 R1C1 风格的公式。
 type: docs
 weight: 70

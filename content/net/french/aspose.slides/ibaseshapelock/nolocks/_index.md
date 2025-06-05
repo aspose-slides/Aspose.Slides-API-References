@@ -1,7 +1,7 @@
 ---
 title: NoLocks
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne vrai si tous les indicateurs de verrouillage sont désactivés. Booléen en lecture seule.
+description: Retourne true si tous les indicateurs de verrouillage sont désactivés. Booléen en lecture seule.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ibaseshapelock/nolocks/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ibaseshapelock/nolocks/
 
 ## Propriété IBaseShapeLock.NoLocks
 
-Retourne vrai si tous les indicateurs de verrouillage sont désactivés. Booléen en lecture seule.
+Retourne true si tous les indicateurs de verrouillage sont désactivés. Booléen en lecture seule.
 
 ```csharp
 public bool NoLocks { get; }

@@ -1,7 +1,7 @@
 ---
 title: SetRotation
-second_title: Aspose.Slides for .NET API Reference
-description: 旋转的定义是通过使用纬度坐标、经度坐标和围绕轴的革命来实现的，纬度和经度坐标。如果任何坐标值为 float.NaN，则所有旋转都是未定义的。
+second_title: Aspose.Sildes for .NET API Reference
+description: 旋转是通过纬度坐标、经度坐标和围绕轴的旋转定义的，轴作为纬度和经度坐标。如果任何坐标值为float.NaN，则所有旋转都是未定义的。
 type: docs
 weight: 40
 url: /zh/aspose.slides/lightrig/setrotation/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/lightrig/setrotation/
 
 ## LightRig.SetRotation 方法
 
-旋转的定义是通过使用纬度坐标、经度坐标和围绕轴的革命来实现的，纬度和经度坐标。如果任何坐标值为 float.NaN，则所有旋转都是未定义的。
+旋转是通过使用纬度坐标、经度坐标和围绕轴的旋转来定义的，轴作为纬度和经度坐标。如果任何坐标值为float.NaN，则所有旋转都是未定义的。
 
 ```csharp
 public void SetRotation(float latitude, float longitude, float revolution)
 ```
 
-### 另请参阅
+### 另见
 
 * class [LightRig](../../lightrig)
 * namespace [Aspose.Slides](../../lightrig)

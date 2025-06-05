@@ -1,13 +1,13 @@
 ---
 title: Is2DChart
-second_title: Справка по API Aspose.Sildes для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает true, если chartType является одним из типов 2D графиков.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/charttypecharacterizer/is2dchart/
 ---
 
-## Метод ChartTypeCharacterizer.Is2DChart
+## ChartTypeCharacterizer.Is2DChart метод
 
 Возвращает true, если *chartType* является одним из типов 2D графиков.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/charttypecharacterizer/is2dchart/
 public static bool Is2DChart(ChartType chartType)
 ```
 
-### Также смотри
+### Смотрите Также
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

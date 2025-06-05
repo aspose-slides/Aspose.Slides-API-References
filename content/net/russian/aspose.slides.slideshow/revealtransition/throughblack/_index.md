@@ -1,21 +1,21 @@
 ---
-title: ЧерезЧерный
-second_title: Ссылка на API Aspose.Sildes для .NET
-description: Указывает, затухает ли переход в черный цвет. Читаемое/записываемое логическое значение.
+title: ThroughBlack
+second_title: Aspose.Slides для .NET API Справочник
+description: Указывает, затухает ли переход в черный цвет. Читаемое и записываемое логическое значение.
 type: docs
 weight: 20
 url: /ru/aspose.slides.slideshow/revealtransition/throughblack/
 ---
 
-## Свойство RevealTransition.ThroughBlack
+## RevealTransition.ThroughBlack свойство
 
-Указывает, затухает ли переход в черный цвет. Читаемое/записываемое логическое значение.
+Указывает, затухает ли переход в черный цвет. Читаемое и записываемое логическое значение.
 
 ```csharp
 public bool ThroughBlack { get; set; }
 ```
 
-### Также см. 
+### См. также
 
 * класс [RevealTransition](../../revealtransition)
 * пространство имен [Aspose.Slides.SlideShow](../../revealtransition)

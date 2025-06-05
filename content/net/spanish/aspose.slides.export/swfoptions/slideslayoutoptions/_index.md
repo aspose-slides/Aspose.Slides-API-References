@@ -1,7 +1,7 @@
 ---
 title: SlidesLayoutOptions
-second_title: Aspose.Slides para referencia de API .NET
-description: Obtiene o establece el modo en que las diapositivas se colocan en la página al exportar una presentación ISlidesLayoutOptionsaspose.slides/islideslayoutoptions. Esta propiedad no admite la asignación de objetos del tipo HandoutLayoutingOptionsaspose.slides/handoutlayoutingoptions
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Obtiene o establece el modo en el que se colocan las diapositivas en la página al exportar una presentación ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions. Esta propiedad no admite la asignación de objetos del tipo HandoutLayoutingOptionsaspose.slides.export/handoutlayoutingoptions
 type: docs
 weight: 150
 url: /es/aspose.slides.export/swfoptions/slideslayoutoptions/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.export/swfoptions/slideslayoutoptions/
 
 ## Propiedad SwfOptions.SlidesLayoutOptions
 
-Obtiene o establece el modo en que las diapositivas se colocan en la página al exportar una presentación [`ISlidesLayoutOptions`](../../islideslayoutoptions). Esta propiedad no admite la asignación de objetos del tipo [`HandoutLayoutingOptions`](../../handoutlayoutingoptions)
+Obtiene o establece el modo en el que se colocan las diapositivas en la página al exportar una presentación [`ISlidesLayoutOptions`](../../islideslayoutoptions). Esta propiedad no admite la asignación de objetos del tipo [`HandoutLayoutingOptions`](../../handoutlayoutingoptions)
 
 ```csharp
 public ISlidesLayoutOptions SlidesLayoutOptions { get; set; }
@@ -35,11 +35,11 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Véase También
+### Véase también
 
 * interfaz [ISlidesLayoutOptions](../../islideslayoutoptions)
 * clase [SwfOptions](../../swfoptions)
-* espacio de nombres [Aspose.Slides.Export](../../swfoptions)
-* ensamblado [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Export](../../swfoptions)
+* assembly [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->

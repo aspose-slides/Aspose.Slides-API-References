@@ -1,15 +1,15 @@
 ---
 title: GetFrame
-second_title: Référence API Aspose.Slides pour .NET
-description: Obtenez le cadre actuel de PresentationPlayeraspose.slides.export/presentationplayer.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Obtenez le frame actuel de PresentationPlayeraspose.slides.export/presentationplayer.
 type: docs
 weight: 20
 url: /fr/aspose.slides.export/frametickeventargs/getframe/
 ---
 
-## Méthode FrameTickEventArgs.GetFrame
+## FrameTickEventArgs.GetFrame méthode
 
-Obtenez le cadre actuel de [`PresentationPlayer`](../../presentationplayer).
+Obtenez le frame actuel de [`PresentationPlayer`](../../presentationplayer).
 
 ```csharp
 public IImage GetFrame()
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 ### Voir aussi
 
 * interface [IImage](../../../aspose.slides/iimage)
-* class [FrameTickEventArgs](../../frametickeventargs)
+* classe [FrameTickEventArgs](../../frametickeventargs)
 * namespace [Aspose.Slides.Export](../../frametickeventargs)
 * assembly [Aspose.Slides](../../../)
 

@@ -1,6 +1,6 @@
 ---
-title: Формат
-second_title: Справочник по API Aspose.Slides для .NET
+title: Format
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет свойства форматирования. Чтение/запись IFormataspose.slides.charts/iformat.
 type: docs
 weight: 70
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/ichartdatapoint/format/
 public IFormat Format { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IFormat](../../iformat)
 * интерфейс [IChartDataPoint](../../ichartdatapoint)

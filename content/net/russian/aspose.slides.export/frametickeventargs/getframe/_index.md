@@ -1,15 +1,15 @@
 ---
 title: GetFrame
-second_title: Справочная информация по API Aspose.Sildes для .NET
-description: Получите текущий кадр PresentationPlayer aspose.slides.export/presentationplayer.
+second_title: Aspose.Sildes для .NET API Reference
+description: Получить текущий кадр PresentationPlayeraspose.slides/presentationplayer.
 type: docs
 weight: 20
 url: /ru/aspose.slides.export/frametickeventargs/getframe/
 ---
 
-## Метод FrameTickEventArgs.GetFrame
+## FrameTickEventArgs.GetFrame метод
 
-Получите текущий [`PresentationPlayer`](../../presentationplayer) кадр.
+Получить текущий кадр [`PresentationPlayer`](../../presentationplayer).
 
 ```csharp
 public IImage GetFrame()

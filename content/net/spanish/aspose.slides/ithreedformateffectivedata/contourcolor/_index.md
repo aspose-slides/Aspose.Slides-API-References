@@ -1,13 +1,13 @@
 ---
 title: ContourColor
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de la API
 description: Devuelve el color de un contorno. Solo lectura Color.
 type: docs
 weight: 50
 url: /es/aspose.slides/ithreedformateffectivedata/contourcolor/
 ---
 
-## Propiedad IThreeDFormatEffectiveData.ContourColor
+## IThreeDFormatEffectiveData.ContourColor property
 
 Devuelve el color de un contorno. Solo lectura Color.
 
@@ -15,10 +15,10 @@ Devuelve el color de un contorno. Solo lectura Color.
 public Color ContourColor { get; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [IThreeDFormatEffectiveData](../../ithreedformateffectivedata)
-* espacio de nombres [Aspose.Slides](../../ithreedformateffectivedata)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IThreeDFormatEffectiveData](../../ithreedformateffectivedata)
+* namespace [Aspose.Slides](../../ithreedformateffectivedata)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

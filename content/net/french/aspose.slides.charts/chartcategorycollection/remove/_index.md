@@ -1,13 +1,13 @@
 ---
-title: Supprimer
-second_title: Référence API Aspose.Slides pour .NET
+title: Remove
+second_title: Aspose.Sildes pour .NET API Référence
 description: Supprime la valeur spécifiée.
 type: docs
 weight: 120
 url: /fr/aspose.slides.charts/chartcategorycollection/remove/
 ---
 
-## Méthode ChartCategoryCollection.Remove
+## ChartCategoryCollection.Remove méthode
 
 Supprime la valeur spécifiée.
 
@@ -23,9 +23,9 @@ public void Remove(IChartCategory value)
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Le paramètre value n'a pas été trouvé dans la collection. |
+| ArgumentException | Le paramètre de valeur n'a pas été trouvé dans la collection. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IChartCategory](../../ichartcategory)
 * class [ChartCategoryCollection](../../chartcategorycollection)

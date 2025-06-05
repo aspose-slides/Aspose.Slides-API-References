@@ -1,7 +1,7 @@
 ---
 title: DrawSlidesFrame
-second_title: Aspose.Slides для .NET API Reference
-description: Истина, чтобы нарисовать черную рамку вокруг каждого слайда. Чтение/запись логического значения.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Истина, чтобы нарисовать черную рамку вокруг каждого слайда. Чтение/запись булево.
 type: docs
 weight: 70
 url: /ru/aspose.slides.export/pdfoptions/drawslidesframe/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export/pdfoptions/drawslidesframe/
 
 ## PdfOptions.DrawSlidesFrame свойство
 
-Истина, чтобы нарисовать черную рамку вокруг каждого слайда. Чтение/запись логического значения.
+Истина, чтобы нарисовать черную рамку вокруг каждого слайда. Чтение/запись булево.
 
 ```csharp
 public bool DrawSlidesFrame { get; set; }
@@ -17,9 +17,9 @@ public bool DrawSlidesFrame { get; set; }
 
 ### Замечания
 
-По умолчанию **ложь**.
+По умолчанию **false**.
 
-### Также смотрите
+### Также смотри
 
 * класс [PdfOptions](../../pdfoptions)
 * пространство имен [Aspose.Slides.Export](../../pdfoptions)

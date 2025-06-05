@@ -1,7 +1,7 @@
 ---
-title: 方向
-second_title: Aspose.Slides for .NET API 参考
-description: 转换的方向。读/写 Orientationaspose.slides/../aspose.slides/orientation。
+title: Direction
+second_title: Aspose.Sildes for .NET API Reference
+description: 过渡方向。可读/写 Orientationaspose.slides/orientation。
 type: docs
 weight: 10
 url: /zh/aspose.slides.slideshow/orientationtransition/direction/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.slideshow/orientationtransition/direction/
 
 ## OrientationTransition.Direction 属性
 
-转换的方向。读/写 [`Orientation`](../../../aspose.slides/orientation)。
+过渡方向。可读/写 [`Orientation`](../../../aspose.slides/orientation)。
 
 ```csharp
 public Orientation Direction { get; set; }

@@ -7,7 +7,7 @@ weight: 60
 url: /fr/aspose.slides.theme/icolorscheme/accent6/
 ---
 
-## Propriété IColorScheme.Accent6
+## IColorScheme.Accent6 property
 
 Sixième couleur d'accent dans le schéma. Lecture seule [`IColorFormat`](../../../aspose.slides/icolorformat).
 

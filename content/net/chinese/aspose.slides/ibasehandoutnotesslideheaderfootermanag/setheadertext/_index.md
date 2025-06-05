@@ -1,7 +1,7 @@
 ---
 title: SetHeaderText
 second_title: Aspose.Sildes for .NET API Reference
-description: 设置幻灯片页眉占位符的文本。
+description: 设置幻灯片标题占位符的文本。
 type: docs
 weight: 30
 url: /zh/aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext/
 
 ## IBaseHandoutNotesSlideHeaderFooterManag.SetHeaderText 方法
 
-设置幻灯片页眉占位符的文本。
+设置幻灯片标题占位符的文本。
 
 ```csharp
 public void SetHeaderText(string text)
@@ -19,7 +19,7 @@ public void SetHeaderText(string text)
 | --- | --- | --- |
 | text | String | 要设置的文本。 |
 
-### 参见
+### 另见
 
 * 接口 [IBaseHandoutNotesSlideHeaderFooterManag](../../ibasehandoutnotesslideheaderfootermanag)
 * 命名空间 [Aspose.Slides](../../ibasehandoutnotesslideheaderfootermanag)

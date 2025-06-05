@@ -1,7 +1,7 @@
 ---
-title: 插入连接器
-second_title: Aspose.Sildes for .NET API 参考
-description: 创建一个新的连接器，从默认模板调整并将其插入到指定索引的集合中。
+title: InsertConnector
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建一个新的连接器，根据默认模板调整，并将其插入到指定索引的集合中。
 type: docs
 weight: 330
 url: /zh/aspose.slides/shapecollection/insertconnector/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/shapecollection/insertconnector/
 
 ## InsertConnector(int, ShapeType, float, float, float, float) {#insertconnector}
 
-创建一个新的连接器，从默认模板调整并将其插入到指定索引的集合中。
+创建一个新的连接器，根据默认模板调整，并将其插入到指定索引的集合中。
 
 ```csharp
 public IConnector InsertConnector(int index, ShapeType shapeType, float x, float y, float width, 
@@ -18,18 +18,18 @@ public IConnector InsertConnector(int index, ShapeType shapeType, float x, float
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 插入值的零基索引。 |
-| shapeType | ShapeType | 形状的 [`ShapeType`](../../shapetype)。 |
-| x | Single | 形状框架左侧的X坐标。 |
-| y | Single | 形状框架顶部的Y坐标。 |
-| width | Single | 形状框架的宽度。 |
-| height | Single | 形状框架的高度。 |
+| index | Int32 | 要插入值的零基础索引。 |
+| shapeType | ShapeType | 一个 [`ShapeType`](../../shapetype) 的形状。 |
+| x | Single | 形状框左侧的 X 坐标。 |
+| y | Single | 形状框顶部的 Y 坐标。 |
+| width | Single | 形状框的宽度。 |
+| height | Single | 形状框的高度。 |
 
 ### 返回值
 
 创建的连接器对象。
 
-### 参见
+### 另请参阅
 
 * 接口 [IConnector](../../iconnector)
 * 枚举 [ShapeType](../../shapetype)
@@ -50,19 +50,19 @@ public IConnector InsertConnector(int index, ShapeType shapeType, float x, float
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 插入值的零基索引。 |
-| shapeType | ShapeType | 形状的 [`ShapeType`](../../shapetype)。 |
-| x | Single | 形状框架左侧的X坐标。 |
-| y | Single | 形状框架顶部的Y坐标。 |
-| width | Single | 形状框架的宽度。 |
-| height | Single | 形状框架的高度。 |
-| createFromTemplate | Boolean | 如果为真，则新形状将从默认模板调整。新形状将赋予非空名称、简单样式和居中文本。如果为假，则新形状的所有属性值将具有默认值。 |
+| index | Int32 | 要插入值的零基础索引。 |
+| shapeType | ShapeType | 一个 [`ShapeType`](../../shapetype) 的形状。 |
+| x | Single | 形状框左侧的 X 坐标。 |
+| y | Single | 形状框顶部的 Y 坐标。 |
+| width | Single | 形状框的宽度。 |
+| height | Single | 形状框的高度。 |
+| createFromTemplate | Boolean | 如果为 true，则新形状将从默认模板调整。新的形状将赋予非空名称、简单样式和居中文本。如果为 false，则新形状的所有属性值将具有默认值。 |
 
 ### 返回值
 
 创建的连接器对象。
 
-### 参见
+### 另请参阅
 
 * 接口 [IConnector](../../iconnector)
 * 枚举 [ShapeType](../../shapetype)

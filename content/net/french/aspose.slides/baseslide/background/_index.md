@@ -1,7 +1,7 @@
 ---
-title: Contexte
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie l'arrière-plan des diapositives. Lecture seule IBackgroundaspose.slides/ibackground.
+title: Background
+second_title: Aspose.Sildes pour .NET API Référence
+description: Renvoie l'arrière-plan des diapositives. En lecture seule IBackgroundaspose.slides/ibackground.
 type: docs
 weight: 10
 url: /fr/aspose.slides/baseslide/background/
@@ -9,16 +9,16 @@ url: /fr/aspose.slides/baseslide/background/
 
 ## Propriété BaseSlide.Background
 
-Renvoie l'arrière-plan de la diapositive. Lecture seule [`IBackground`](../../ibackground).
+Renvoie l'arrière-plan de la diapositive. En lecture seule [`IBackground`](../../ibackground).
 
 ```csharp
 public IBackground Background { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IBackground](../../ibackground)
-* classe [BaseSlide](../../baseslide)
+* class [BaseSlide](../../baseslide)
 * namespace [Aspose.Slides](../../baseslide)
 * assembly [Aspose.Slides](../../../)
 

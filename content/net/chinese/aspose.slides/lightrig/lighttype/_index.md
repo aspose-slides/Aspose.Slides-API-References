@@ -1,7 +1,7 @@
 ---
 title: LightType
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示可以应用于形状的预设光源。光源装置表示一组以特定方式相对于 3D 场景定向的灯光。读/写 LightRigPresetTypeaspose.slides/lightrigpresettype。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示可以应用于形状的预设灯光。灯光设备表示相对于3D场景以特定方式定向的一组灯光。可读/写 LightRigPresetTypeaspose.slides/lightrigpresettype.
 type: docs
 weight: 20
 url: /zh/aspose.slides/lightrig/lighttype/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/lightrig/lighttype/
 
 ## LightRig.LightType 属性
 
-表示可以应用于形状的预设光源。光源装置表示一组以特定方式相对于 3D 场景定向的灯光。读/写 [`LightRigPresetType`](../../lightrigpresettype)。
+表示可以应用于形状的预设灯光。灯光设备表示相对于3D场景以特定方式定向的一组灯光。可读/写 [`LightRigPresetType`](../../lightrigpresettype)。
 
 ```csharp
 public LightRigPresetType LightType { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * enum [LightRigPresetType](../../lightrigpresettype)
 * class [LightRig](../../lightrig)

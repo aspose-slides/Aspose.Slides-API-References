@@ -1,7 +1,7 @@
 ---
 title: WriteShapeEnd
 second_title: Aspose.Slides für .NET API Referenz
-description: Wird vor dem Rendern von Formen aufgerufen. Wird einmal für jede Form aufgerufen. Wenn diese Funktion etwas an den Generator schreibt, wird die aktuelle Generierung des Folienbildes abgeschlossen, das hinzugefügte HTML-Fragmente eingefügt und ein neues Bild oben auf das vorherige gestartet.
+description: Wird vor dem Rendern von Formen aufgerufen. Wird einmal für jede Form aufgerufen. Wenn diese Funktion etwas an den Generator schreibt, wird die aktuelle Bildgenerierung der Folie beendet, der hinzugefügte HTML-Fragment wird eingefügt und das neue Bild wird oben auf dem vorherigen gestartet.
 type: docs
 weight: 60
 url: /de/aspose.slides.export/embedallfontshtmlcontroller/writeshapeend/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/embedallfontshtmlcontroller/writeshapeend/
 
 ## EmbedAllFontsHtmlController.WriteShapeEnd Methode
 
-Wird vor dem Rendern der Form aufgerufen. Wird einmal für jede Form aufgerufen. Wenn diese Funktion etwas an den Generator schreibt, wird die aktuelle Generierung des Folienbildes abgeschlossen, das hinzugefügte HTML-Fragmente eingefügt und ein neues Bild oben auf das vorherige gestartet.
+Wird vor dem Rendern der Form aufgerufen. Wird einmal für jede Form aufgerufen. Wenn diese Funktion etwas an den Generator schreibt, wird die aktuelle Bildgenerierung der Folie beendet, der hinzugefügte HTML-Fragment wird eingefügt und das neue Bild wird oben auf dem vorherigen gestartet.
 
 ```csharp
 public virtual void WriteShapeEnd(IHtmlGenerator generator, IShape shape)
@@ -17,10 +17,10 @@ public virtual void WriteShapeEnd(IHtmlGenerator generator, IShape shape)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| generator | IHtmlGenerator | Ausgabesystem. |
-| shape | IShape | Die zuletzt gerenderte Form. |
+| generator | IHtmlGenerator | Ausgabobjekt. |
+| shape | IShape | Form, die zuletzt gerendert wird. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IHtmlGenerator](../../ihtmlgenerator)
 * Schnittstelle [IShape](../../../aspose.slides/ishape)

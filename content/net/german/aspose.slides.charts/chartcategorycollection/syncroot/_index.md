@@ -1,6 +1,6 @@
 ---
 title: SyncRoot
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt ein Objekt zurück, das verwendet werden kann, um den Zugriff auf die Sammlung zu synchronisieren. Nur-Lese-Objekt.
 type: docs
 weight: 50

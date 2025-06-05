@@ -1,13 +1,13 @@
 ---
-title: RadioDeDesenfoque
-second_title: Referencia de API de Aspose.Slides para .NET
+title: BlurRadius
+second_title: Aspose.Slides para .NET API Reference
 description: Radio de desenfoque. Solo lectura Double.
 type: docs
 weight: 20
 url: /es/aspose.slides.effects/ireflectioneffectivedata/blurradius/
 ---
 
-## Propiedad IReflectionEffectiveData.BlurRadius
+## IReflectionEffectiveData.BlurRadius property
 
 Radio de desenfoque. Solo lectura Double.
 
@@ -17,8 +17,8 @@ public double BlurRadius { get; }
 
 ### Ver También
 
-* interface [IReflectionEffectiveData](../../ireflectioneffectivedata)
-* namespace [Aspose.Slides.Effects](../../ireflectioneffectivedata)
-* assembly [Aspose.Slides](../../../)
+* interfaz [IReflectionEffectiveData](../../ireflectioneffectivedata)
+* espacio de nombres [Aspose.Slides.Effects](../../ireflectioneffectivedata)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

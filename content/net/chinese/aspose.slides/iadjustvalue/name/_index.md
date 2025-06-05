@@ -1,6 +1,6 @@
 ---
-title: 名称
-second_title: Aspose.Slides for .NET API 参考
+title: Name
+second_title: Aspose.Slides for .NET API Reference
 description: 返回此调整值的名称。只读字符串。
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/iadjustvalue/name/
 public string Name { get; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IAdjustValue](../../iadjustvalue)
 * 命名空间 [Aspose.Slides](../../iadjustvalue)

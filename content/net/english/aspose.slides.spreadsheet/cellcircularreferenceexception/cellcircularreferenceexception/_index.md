@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.spreadsheet/cellcircularreferenceexception/cellcircularreferenceexception/
 ---
+
 ## CellCircularReferenceException() {#constructor}
 
 Initializes a new instance of the [`CellCircularReferenceException`](../../cellcircularreferenceexception) class.

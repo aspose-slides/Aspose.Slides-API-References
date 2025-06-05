@@ -1,7 +1,7 @@
 ---
 title: PortionFormat
-second_title: Aspose.Slides for .NET API Reference
-description: 返回部分格式。只读 IChartPortionFormat aspose.slides.charts/ichartportionformat。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回部分格式。读取-仅 IChartPortionFormataspose.slides/ichartportionformat。
 type: docs
 weight: 20
 url: /zh/aspose.slides.charts/icharttextformat/portionformat/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/icharttextformat/portionformat/
 
 ## IChartTextFormat.PortionFormat 属性
 
-返回部分格式。只读 [`IChartPortionFormat`](../../ichartportionformat)。
+返回部分格式。读取-仅 [`IChartPortionFormat`](../../ichartportionformat)。
 
 ```csharp
 public IChartPortionFormat PortionFormat { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IChartPortionFormat](../../ichartportionformat)
 * 接口 [IChartTextFormat](../../icharttextformat)

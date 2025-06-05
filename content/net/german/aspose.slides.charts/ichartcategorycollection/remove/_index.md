@@ -1,13 +1,13 @@
 ---
-title: Entfernen
-second_title: Aspose.Sildes für .NET API-Referenz
+title: Remove
+second_title: Aspose.Slides für .NET API Referenz
 description: Entfernt den angegebenen Wert.
 type: docs
 weight: 70
 url: /de/aspose.slides.charts/ichartcategorycollection/remove/
 ---
 
-## IChartCategoryCollection.Remove-Methode
+## IChartCategoryCollection.Remove Methode
 
 Entfernt den angegebenen Wert.
 

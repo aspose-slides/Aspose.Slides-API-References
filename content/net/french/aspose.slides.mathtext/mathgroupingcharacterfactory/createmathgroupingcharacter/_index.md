@@ -1,6 +1,6 @@
 ---
 title: CreateMathGroupingCharacter
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Crée un caractère de regroupement mathématique
 type: docs
 weight: 20
@@ -18,7 +18,7 @@ public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element, 
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| element | IMathElement | élément mathématique auquel appliquer le caractère de regroupement |
+| element | IMathElement | élément mathématique pour appliquer le caractère de regroupement |
 | character | Char | caractère de regroupement |
 | position | MathTopBotPositions | position du caractère de regroupement |
 | verticalJustification | MathTopBotPositions | justification verticale |
@@ -48,7 +48,7 @@ public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| element | IMathElement | élément mathématique auquel appliquer le caractère de regroupement |
+| element | IMathElement | élément mathématique pour appliquer le caractère de regroupement |
 
 ### Valeur de retour
 

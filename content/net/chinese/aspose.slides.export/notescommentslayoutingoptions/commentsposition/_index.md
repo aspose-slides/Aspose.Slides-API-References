@@ -15,11 +15,11 @@ url: /zh/aspose.slides.export/notescommentslayoutingoptions/commentsposition/
 public CommentsPositions CommentsPosition { get; set; }
 ```
 
-### 备注
+### 注释
 
 默认值为 **CommentsPositions.None**。
 
-### 另请参见
+### 另见
 
 * enum [CommentsPositions](../../commentspositions)
 * class [NotesCommentsLayoutingOptions](../../notescommentslayoutingoptions)

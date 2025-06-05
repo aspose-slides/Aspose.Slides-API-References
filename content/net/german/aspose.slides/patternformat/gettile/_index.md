@@ -1,15 +1,15 @@
 ---
 title: GetTile
-second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt ein Fliesenbild für die Musterfüllung mit angegebenen Farben.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Erstellt ein Kachelbild für die Musterfüllung mit angegebenen Farben.
 type: docs
 weight: 40
 url: /de/aspose.slides/patternformat/gettile/
 ---
 
-## GetTile(Color, Color) {#gettile_1}
+## GetTile(Color, Color) {#gettile_1}
 
-Erstellt ein Fliesenbild für die Musterfüllung mit angegebenen Farben.
+Erstellt ein Kachelbild für die Musterfüllung mit angegebenen Farben.
 
 ```csharp
 public IImage GetTile(Color background, Color foreground)
@@ -22,7 +22,7 @@ public IImage GetTile(Color background, Color foreground)
 
 ### Rückgabewert
 
-Fliese [`IImage`](../../iimage).
+Kachel [`IImage`](../../iimage).
 
 ### Siehe auch
 
@@ -35,7 +35,7 @@ Fliese [`IImage`](../../iimage).
 
 ## GetTile(Color) {#gettile}
 
-Erstellt ein Fliesenbild für die Musterfüllung.
+Erstellt ein Kachelbild für die Musterfüllung.
 
 ```csharp
 public IImage GetTile(Color styleColor)
@@ -47,7 +47,7 @@ public IImage GetTile(Color styleColor)
 
 ### Rückgabewert
 
-Fliese [`IImage`](../../iimage).
+Kachel [`IImage`](../../iimage).
 
 ### Siehe auch
 

@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Entfernt die Signatur am angegebenen Index.
 type: docs
 weight: 40
 url: /de/aspose.slides/idigitalsignaturecollection/removeat/
 ---
 
-## IDigitalSignatureCollection.RemoveAt-Methode
+## IDigitalSignatureCollection.RemoveAt Methode
 
 Entfernt die Signatur am angegebenen Index.
 
@@ -17,9 +17,9 @@ public void RemoveAt(int index)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Index der Signatur, die gelöscht werden soll. |
+| index | Int32 | Index der zu löschenden Signatur. |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IDigitalSignatureCollection](../../idigitalsignaturecollection)
 * Namespace [Aspose.Slides](../../idigitalsignaturecollection)

@@ -1,6 +1,6 @@
 ---
-title: N-aire
-second_title: Aspose.Slides pour .NET Référence de l'API
+title: Nary
+second_title: Aspose.Sildes pour la référence API .NET
 description: Crée un opérateur N-aire
 type: docs
 weight: 100

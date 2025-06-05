@@ -1,7 +1,7 @@
 ---
 title: UnderlineFillFormat
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve las propiedades FillFormat de la línea subrayada. Solo lectura IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
+description: Devuelve las propiedades de FillFormat de la línea de subrayado. Solo lectura IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
 type: docs
 weight: 260
 url: /es/aspose.slides/ibaseportionformateffectivedata/underlinefillformat/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/ibaseportionformateffectivedata/underlinefillformat/
 
 ## Propiedad IBasePortionFormatEffectiveData.UnderlineFillFormat
 
-Devuelve las propiedades FillFormat de la línea subrayada. Solo lectura [`IFillFormatEffectiveData`](../../ifillformateffectivedata).
+Devuelve las propiedades de FillFormat de la línea de subrayado. Solo lectura [`IFillFormatEffectiveData`](../../ifillformateffectivedata).
 
 ```csharp
 public IFillFormatEffectiveData UnderlineFillFormat { get; }
@@ -20,6 +20,6 @@ public IFillFormatEffectiveData UnderlineFillFormat { get; }
 * interfaz [IFillFormatEffectiveData](../../ifillformateffectivedata)
 * interfaz [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
 * espacio de nombres [Aspose.Slides](../../ibaseportionformateffectivedata)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

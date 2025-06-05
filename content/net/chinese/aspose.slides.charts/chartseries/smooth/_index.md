@@ -1,21 +1,21 @@
 ---
-title: 平滑
-second_title: Aspose.Slides for .NET API 参考
-description: 代表曲线平滑。如果线图或散点图启用了曲线平滑，则为 True。仅适用于通过线连接的线图和散点图。可读写布尔值。
+title: Smooth
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示曲线平滑。如果线图或散点图的曲线平滑已开启，则为True。仅适用于通过线连接的线图和散点图。可读/写布尔值。
 type: docs
 weight: 420
 url: /zh/aspose.slides.charts/chartseries/smooth/
 ---
 
-## ChartSeries.Smooth 属性
+## ChartSeries.Smooth property
 
-代表曲线平滑。如果线图或散点图启用了曲线平滑，则为 True。仅适用于通过线连接的线图和散点图。可读写布尔值。
+表示曲线平滑。如果线图或散点图的曲线平滑已开启，则为True。仅适用于通过线连接的线图和散点图。可读/写布尔值。
 
 ```csharp
 public bool Smooth { get; set; }
 ```
 
-### 另请参阅
+### See Also
 
 * class [ChartSeries](../../chartseries)
 * namespace [Aspose.Slides.Charts](../../chartseries)

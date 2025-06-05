@@ -1,7 +1,7 @@
 ---
 title: AsLiteralString
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置值为字面字符串。可读写字符串。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置值为字面字符串。可读/写字符串。
 type: docs
 weight: 20
 url: /zh/aspose.slides.charts/stringchartvalue/asliteralstring/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/stringchartvalue/asliteralstring/
 
 ## StringChartValue.AsLiteralString 属性
 
-返回或设置值为字面字符串。可读写字符串。
+返回或设置值为字面字符串。可读/写字符串。
 
 ```csharp
 public string AsLiteralString { get; set; }

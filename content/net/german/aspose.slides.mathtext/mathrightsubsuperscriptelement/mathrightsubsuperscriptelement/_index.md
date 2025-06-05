@@ -1,13 +1,13 @@
 ---
 title: MathRightSubSuperscriptElement
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Initialisiert eine neue Instanz der MathRightSubSuperscriptElement-Klasse.
 type: docs
 weight: 10
 url: /de/aspose.slides.mathtext/mathrightsubsuperscriptelement/mathrightsubsuperscriptelement/
 ---
 
-## Konstruktor von MathRightSubSuperscriptElement
+## MathRightSubSuperscriptElement-Konstruktor
 
 Initialisiert eine neue Instanz der MathRightSubSuperscriptElement-Klasse.
 
@@ -18,7 +18,7 @@ public MathRightSubSuperscriptElement(IMathElement baseArg, IMathElement subScri
 
 ### Siehe auch
 
-* Schnittstelle [IMathElement](../../imathelement)
+* Interface [IMathElement](../../imathelement)
 * Klasse [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement)
 * Namespace [Aspose.Slides.MathText](../../mathrightsubsuperscriptelement)
 * Assembly [Aspose.Slides](../../../)

@@ -1,21 +1,21 @@
 ---
-title: 文本框
-second_title: Aspose.Slides for .NET API 参考
-description: 返回 AutoShape 的 TextFrame 对象。只读 ITextFrame aspose.slides/itextframe。
+title: TextFrame
+second_title: Aspose.Sildes for .NET API参考
+description: 返回AutoShape的TextFrame对象。只读ITextFrameaspose.slides/itextframe。
 type: docs
 weight: 40
 url: /zh/aspose.slides/autoshape/textframe/
 ---
 
-## AutoShape.TextFrame 属性
+## AutoShape.TextFrame属性
 
-返回 AutoShape 的 TextFrame 对象。只读 [`ITextFrame`](../../itextframe)。
+返回AutoShape的TextFrame对象。只读 [`ITextFrame`](../../itextframe)。
 
 ```csharp
 public ITextFrame TextFrame { get; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [ITextFrame](../../itextframe)
 * 类 [AutoShape](../../autoshape)

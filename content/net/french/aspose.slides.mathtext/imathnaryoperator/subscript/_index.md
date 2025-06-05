@@ -1,7 +1,7 @@
 ---
-title: indice
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie un argument d'indice qui, par exemple dans le cas d'une intégrale, définit la limite inférieure
+title: Subscript
+second_title: Aspose.Sildes pour la référence de l'API .NET
+description: Spécifie un argument de sous-indice qui, par exemple dans le cas d'un intégral, fixe la limite inférieure
 type: docs
 weight: 40
 url: /fr/aspose.slides.mathtext/imathnaryoperator/subscript/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/imathnaryoperator/subscript/
 
 ## Propriété IMathNaryOperator.Subscript
 
-Spécifie un argument d'indice qui, par exemple, dans le cas d'une intégrale, définit la limite inférieure
+Spécifie un argument de sous-indice qui, par exemple, dans le cas d'un intégral, fixe la limite inférieure
 
 ```csharp
 public IMathElement Subscript { get; }

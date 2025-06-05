@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.export/ipdfoptions/bestimagescompressionratio/
 ---
+
 ## IPdfOptions.BestImagesCompressionRatio property
 
 Indicates if the most effective compression (instead of the default one) for each image must be selected automatically. If set to Boolean.true, for every image in presentation the most appropriate compression algorithm will be chosen, what will lead to the smaller size of the resulting PDF document. Best image compression ratio selection is computationally expensive and takes an additional amount of RAM, and this option is Boolean.false by default.

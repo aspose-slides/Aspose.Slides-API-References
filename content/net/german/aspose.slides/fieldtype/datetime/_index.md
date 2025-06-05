@@ -1,7 +1,7 @@
 ---
-title: DatumUhrzeit
-second_title: Aspose.Slides für .NET API-Referenz
-description: Aktuelles Datum und Uhrzeit im Standard-Datumsformat für die Rendering-Anwendung. Schreibgeschützter FieldTypeaspose.slides/fieldtype.
+title: DateTime
+second_title: Aspose.Slides für .NET API Referenz
+description: Aktuelles Datum und aktuelle Uhrzeit im Standard-Datum-Uhrzeit-Format für die Rendering-Anwendung. Schreibgeschützter FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 20
 url: /de/aspose.slides/fieldtype/datetime/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/fieldtype/datetime/
 
 ## FieldType.DateTime-Eigenschaft
 
-Aktuelles Datum und Uhrzeit im Standard-Datumsformat für die Rendering-Anwendung. Schreibgeschützter [`FieldType`](../../fieldtype).
+Aktuelles Datum und aktuelle Uhrzeit im Standard-Datum-Uhrzeit-Format für die Rendering-Anwendung. Schreibgeschützter [`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType DateTime { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [FieldType](../../fieldtype)
 * Namespace [Aspose.Slides](../../fieldtype)

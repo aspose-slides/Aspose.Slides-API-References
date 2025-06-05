@@ -1,7 +1,7 @@
 ---
-title: 填充
-second_title: Aspose.Slides for .NET API 参考
-description: 返回轴的填充样式属性。仅用于读取 IFillFormataspose.slides/../aspose.slides/ifillformat。
+title: Fill
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回一个轴的填充样式属性。是只读的IFillFormataspose.slides/../aspose.slides/ifillformat。
 type: docs
 weight: 20
 url: /zh/aspose.slides.charts/iaxisformat/fill/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/iaxisformat/fill/
 
 ## IAxisFormat.Fill 属性
 
-返回轴的填充样式属性。仅用于读取 [`IFillFormat`](../../../aspose.slides/ifillformat)。
+返回一个轴的填充样式属性。是只读的 [`IFillFormat`](../../../aspose.slides/ifillformat)。
 
 ```csharp
 public IFillFormat Fill { get; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IFillFormat](../../../aspose.slides/ifillformat)
 * 接口 [IAxisFormat](../../iaxisformat)

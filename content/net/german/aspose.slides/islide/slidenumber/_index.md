@@ -1,7 +1,7 @@
 ---
 title: SlideNumber
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt eine Nummer der Folie zurück. Der Index der Folie in der Sammlung Slidesaspose.slides/ipresentation/slides entspricht immer SlideNumber - 1. Lese-/Schreibzugriff auf Int32.
+description: Gibt eine Nummer der Folie zurück. Der Index der Folie in der Slidesaspose.slides/ipresentation/slides Sammlung ist immer gleich SlideNumber - 1. Lese-/Schreibzugriff auf Int32.
 type: docs
 weight: 70
 url: /de/aspose.slides/islide/slidenumber/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/islide/slidenumber/
 
 ## ISlide.SlideNumber-Eigenschaft
 
-Gibt eine Nummer der Folie zurück. Der Index der Folie in der Sammlung [`Slides`](../../ipresentation/slides) entspricht immer SlideNumber - 1. Lese-/Schreibzugriff auf Int32.
+Gibt eine Nummer der Folie zurück. Der Index der Folie in der [`Slides`](../../ipresentation/slides) Sammlung ist immer gleich SlideNumber - 1. Lese-/Schreibzugriff auf Int32.
 
 ```csharp
 public int SlideNumber { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: MaxValue
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt den maximalen Wert auf der Wertachse dar. Lese-/Schreibbarer Double.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt den maximalen Wert auf der Werteachse dar. Lese-/Schreibzugriff Double.
 type: docs
 weight: 380
 url: /de/aspose.slides.charts/axis/maxvalue/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/axis/maxvalue/
 
 ## Axis.MaxValue-Eigenschaft
 
-Stellt den maximalen Wert auf der Wertachse dar. Lese-/Schreibbarer Double.
+Stellt den maximalen Wert auf der Werteachse dar. Lese-/Schreibzugriff Double.
 
 ```csharp
 public double MaxValue { get; set; }

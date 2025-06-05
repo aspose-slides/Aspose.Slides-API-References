@@ -1,15 +1,15 @@
 ---
 title: DeleteGroupingItem
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Eliminar elemento de agrupación para el nivel definido.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Eliminar elemento de agrupamiento para nivel definido.
 type: docs
 weight: 20
 url: /es/aspose.slides.charts/ichartcategorylevelsmanager/deletegroupingitem/
 ---
 
-## Método IChartCategoryLevelsManager.DeleteGroupingItem
+## IChartCategoryLevelsManager.DeleteGroupingItem método
 
-Eliminar elemento de agrupación para el nivel definido.
+Eliminar elemento de agrupamiento para nivel definido.
 
 ```csharp
 public void DeleteGroupingItem(int level)
@@ -19,7 +19,7 @@ public void DeleteGroupingItem(int level)
 | --- | --- | --- |
 | level | Int32 | Nivel de categoría Int32 |
 
-### Ver también
+### Ver También
 
 * interfaz [IChartCategoryLevelsManager](../../ichartcategorylevelsmanager)
 * espacio de nombres [Aspose.Slides.Charts](../../ichartcategorylevelsmanager)

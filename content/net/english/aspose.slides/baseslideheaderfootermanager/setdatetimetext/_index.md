@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/baseslideheaderfootermanager/setdatetimetext/
 ---
+
 ## BaseSlideHeaderFooterManager.SetDateTimeText method
 
 Sets text to slide date-time placeholder.

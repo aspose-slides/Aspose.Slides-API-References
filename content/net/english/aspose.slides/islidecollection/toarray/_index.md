@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides/islidecollection/toarray/
 ---
+
 ## ToArray() {#toarray}
 
 Creates and returns an array with all slides in it.

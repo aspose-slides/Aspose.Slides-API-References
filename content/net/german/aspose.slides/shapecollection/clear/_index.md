@@ -1,6 +1,6 @@
 ---
-title: Löschen
-second_title: Aspose.Slides für .NET API-Referenz
+title: Clear
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Entfernt alle Formen aus der Sammlung.
 type: docs
 weight: 230

@@ -1,13 +1,13 @@
 ---
-title: Contient
-second_title: Référence de l'API Aspose.Sildes pour .NET
+title: Contains
+second_title: Aspose.Sildes pour .NET Référence API
 description: Détermine si l'ICollection contient une valeur spécifique.
 type: docs
 weight: 60
 url: /fr/aspose.slides.animation/behaviorpropertycollection/contains/
 ---
 
-## Contient(IBehaviorProperty) {#contains}
+## Contains(IBehaviorProperty) {#contains}
 
 Détermine si l'ICollection contient une valeur spécifique.
 
@@ -19,20 +19,20 @@ public bool Contains(IBehaviorProperty item)
 | --- | --- | --- |
 | item | IBehaviorProperty | La propriété à localiser dans l'ICollection. |
 
-### Valeur de retour
+### Valeur de Retour
 
 true si *item* est trouvé dans l'ICollection ; sinon, false.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IBehaviorProperty](../../ibehaviorproperty)
-* classe [BehaviorPropertyCollection](../../behaviorpropertycollection)
+* class [BehaviorPropertyCollection](../../behaviorpropertycollection)
 * namespace [Aspose.Slides.Animation](../../behaviorpropertycollection)
 * assembly [Aspose.Slides](../../../)
 
 ---
 
-## Contient(string) {#contains_1}
+## Contains(string) {#contains_1}
 
 Détermine si l'ICollection contient une valeur spécifique.
 
@@ -44,13 +44,13 @@ public bool Contains(string propertyValue)
 | --- | --- | --- |
 | propertyValue | String | Valeur de la propriété à localiser dans l'ICollection. |
 
-### Valeur de retour
+### Valeur de Retour
 
 true si *propertyValue* est trouvé dans l'ICollection ; sinon, false.
 
-### Voir aussi
+### Voir Aussi
 
-* classe [BehaviorPropertyCollection](../../behaviorpropertycollection)
+* class [BehaviorPropertyCollection](../../behaviorpropertycollection)
 * namespace [Aspose.Slides.Animation](../../behaviorpropertycollection)
 * assembly [Aspose.Slides](../../../)
 

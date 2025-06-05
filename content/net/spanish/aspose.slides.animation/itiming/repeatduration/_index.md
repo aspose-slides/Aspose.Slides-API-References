@@ -7,7 +7,7 @@ weight: 60
 url: /es/aspose.slides.animation/itiming/repeatduration/
 ---
 
-## Propiedad ITiming.RepeatDuration
+## ITiming.RepeatDuration property
 
 Describe el número de veces que el efecto debe repetirse. Lectura/escritura Single.
 
@@ -17,8 +17,8 @@ public float RepeatDuration { get; set; }
 
 ### Véase también
 
-* interfaz [ITiming](../../itiming)
-* espacio de nombres [Aspose.Slides.Animation](../../itiming)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [ITiming](../../itiming)
+* namespace [Aspose.Slides.Animation](../../itiming)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

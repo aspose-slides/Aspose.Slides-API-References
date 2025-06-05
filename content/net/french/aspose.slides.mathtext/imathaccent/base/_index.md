@@ -1,6 +1,6 @@
 ---
 title: Base
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: L'argument auquel l'accent a été appliqué
 type: docs
 weight: 20

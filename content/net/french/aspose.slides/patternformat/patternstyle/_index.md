@@ -7,7 +7,7 @@ weight: 30
 url: /fr/aspose.slides/patternformat/patternstyle/
 ---
 
-## Propriété PatternFormat.PatternStyle
+## PatternFormat.PatternStyle propriété
 
 Renvoie ou définit le style de motif. Lecture/écriture [`PatternStyle`](../../patternstyle).
 
@@ -15,7 +15,7 @@ Renvoie ou définit le style de motif. Lecture/écriture [`PatternStyle`](../../
 public PatternStyle PatternStyle { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [PatternStyle](../../patternstyle)
 * class [PatternFormat](../../patternformat)

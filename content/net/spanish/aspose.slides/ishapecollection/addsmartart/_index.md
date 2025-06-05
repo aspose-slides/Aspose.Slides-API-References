@@ -1,15 +1,15 @@
 ---
 title: AddSmartArt
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Agregar diagrama de SmartArt.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Agregar diagrama SmartArt.
 type: docs
 weight: 150
 url: /es/aspose.slides/ishapecollection/addsmartart/
 ---
 
-## Método IShapeCollection.AddSmartArt
+## IShapeCollection.AddSmartArt method
 
-Agregar diagrama de SmartArt.
+Agregar diagrama SmartArt.
 
 ```csharp
 public ISmartArt AddSmartArt(float x, float y, float width, float height, 
@@ -22,11 +22,11 @@ public ISmartArt AddSmartArt(float x, float y, float width, float height,
 | y | Single | La coordenada Y para el lado izquierdo del marco del diagrama. |
 | width | Single | El ancho del marco del diagrama. |
 | height | Single | La altura del marco del diagrama. |
-| layoutType | SmartArtLayoutType | El tipo de diagrama de SmartArt |
+| layoutType | SmartArtLayoutType | El tipo de diagrama SmartArt |
 
-### Valor de Retorno
+### Valor de retorno
 
-Crear diagrama de SmartArt
+Crear diagrama SmartArt
 
 ### Ejemplos
 
@@ -46,7 +46,7 @@ Private slide As Slide = pres.Slides(0)
 Private smart As SmartArt = slide.Shapes.AddSmartArt(0, 0, 400, 400, SmartArtLayoutType.BasicBlockList)
 ```
 
-### Véase También
+### Ver También
 
 * interface [ISmartArt](../../../aspose.slides.smartart/ismartart)
 * enum [SmartArtLayoutType](../../../aspose.slides.smartart/smartartlayouttype)

@@ -1,7 +1,7 @@
 ---
-title: 项
-second_title: Aspose.Slides for .NET API 参考
-description: 根据索引返回一个 IChartDataCell 单元格。
+title: Item
+second_title: Aspose.Sildes for .NET API Reference
+description: 通过索引返回一个 IChartDataCell。
 type: docs
 weight: 30
 url: /zh/aspose.slides.charts/ichartcellcollection/item/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ichartcellcollection/item/
 
 ## IChartCellCollection 索引器
 
-根据索引返回一个单元格 (IChartDataCell)。
+通过索引返回一个单元格（IChartDataCell）。
 
 ```csharp
 public IChartDataCell this[int index] { get; }
@@ -21,9 +21,9 @@ public IChartDataCell this[int index] { get; }
 
 ### 返回值
 
-包含数据的单元格。
+带有数据的单元格。
 
-### 另见
+### 另请参见
 
 * 接口 [IChartDataCell](../../ichartdatacell)
 * 接口 [IChartCellCollection](../../ichartcellcollection)

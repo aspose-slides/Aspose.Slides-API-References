@@ -1,25 +1,25 @@
 ---
-title: Сбор
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет собой группу методов, предназначенных для сбора объектных моделей разных типов из Presentation../aspose.slides/presentation.
+title: Collect
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет собой группу методов, предназначенных для сбора объектов модели разных типов из Presentation../aspose.slides/presentation.
 type: docs
 weight: 7620
 url: /ru/aspose.slides.lowcode/collect/
 ---
 
-## Класс Collect
+## Collect class
 
-Представляет собой группу методов, предназначенных для сбора объектных моделей разных типов из [`Presentation`](../../aspose.slides/presentation).
+Представляет собой группу методов, предназначенных для сбора объектов модели разных типов из [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public static class Collect
 ```
 
-## Методы
+## Methods
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| static [Shapes](../../aspose.slides.lowcode/collect/shapes)(Presentation) | Собирает все экземпляры [`Shape`](../../aspose.slides/shape) в [`Presentation`](../../aspose.slides/presentation). |
+| static [Shapes](../../aspose.slides.lowcode/collect/shapes)(Presentation) | Сбор всех экземпляров [`Shape`](../../aspose.slides/shape) в [`Presentation`](../../aspose.slides/presentation). |
 
 ### Примеры
 
@@ -28,12 +28,12 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     foreach (Shape shape in Collect.Shapes(pres))
     {
-        // ... изменить форматирование фигуры или другие свойства
+        // ... изменить форматирование формы или другие свойства
     }
 }    
 ```
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
 * сборка [Aspose.Slides](../../)

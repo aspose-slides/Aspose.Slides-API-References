@@ -26,7 +26,7 @@ public static void ToPdf(string presPath, string outPath)
 Convert.ToPdf("pres.pptx", "pres.pdf");
 ```
 
-### 参见
+### 另请参阅
 
 * class [Convert](../../convert)
 * namespace [Aspose.Slides.LowCode](../../convert)
@@ -54,7 +54,7 @@ public static void ToPdf(string presPath, string outPath, IPdfOptions options)
 Convert.ToPdf("pres.pptx", "pres.pdf", new PdfOptions{ Compliance = PdfCompliance.PdfUa });
 ```
 
-### 参见
+### 另请参阅
 
 * interface [IPdfOptions](../../../aspose.slides.export/ipdfoptions)
 * class [Convert](../../convert)
@@ -85,7 +85,7 @@ using (Presentation pres = new Presentation("input.pptx"))
 } 
 ```
 
-### 参见
+### 另请参阅
 
 * class [Presentation](../../../aspose.slides/presentation)
 * class [Convert](../../convert)
@@ -117,7 +117,7 @@ using (Presentation pres = new Presentation("input.pptx"))
 } 
 ```
 
-### 参见
+### 另请参阅
 
 * class [Presentation](../../../aspose.slides/presentation)
 * interface [IPdfOptions](../../../aspose.slides.export/ipdfoptions)

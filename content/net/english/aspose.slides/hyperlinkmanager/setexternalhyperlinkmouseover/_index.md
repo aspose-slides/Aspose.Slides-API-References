@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/hyperlinkmanager/setexternalhyperlinkmouseover/
 ---
+
 ## HyperlinkManager.SetExternalHyperlinkMouseOver method
 
 Sets external hyperlink mouse over.

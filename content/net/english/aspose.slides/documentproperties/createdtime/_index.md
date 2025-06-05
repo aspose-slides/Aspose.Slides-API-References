@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/documentproperties/createdtime/
 ---
+
 ## DocumentProperties.CreatedTime property
 
 Returns the date a presentation was created. Values are in UTC. Read/write DateTime.

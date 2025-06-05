@@ -1,7 +1,7 @@
 ---
-title: Accélérer
-second_title: Référence API Aspose.Slides pour .NET
-description: Décrit le pourcentage de l'effet de comportement d'accélération de durée. Lecture/écriture Single.
+title: Accelerate
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Décrit le pourcentage de l'effet du comportement d'accélération de durée. Lecture/écriture Single.
 type: docs
 weight: 10
 url: /fr/aspose.slides.animation/timing/accelerate/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/timing/accelerate/
 
 ## Propriété Timing.Accelerate
 
-Décrit le pourcentage de l'effet de comportement d'accélération de durée. Lecture/écriture Single.
+Décrit le pourcentage de l'effet du comportement d'accélération de durée. Lecture/écriture Single.
 
 ```csharp
 public float Accelerate { get; set; }

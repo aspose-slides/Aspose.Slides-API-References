@@ -1,7 +1,7 @@
 ---
-title: Ítem
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve un nodo por índice
+title: Item
+second_title: Aspose.Slides para .NET Referencia de API
+description: Devuelve el nodo por índice
 type: docs
 weight: 30
 url: /es/aspose.slides.smartart/smartartnodecollection/item/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.smartart/smartartnodecollection/item/
 
 ## Índice de SmartArtNodeCollection
 
-Devuelve un nodo por índice
+Devuelve el nodo por índice
 
 ```csharp
 public ISmartArtNode this[int index] { get; }
@@ -19,15 +19,15 @@ public ISmartArtNode this[int index] { get; }
 | --- | --- |
 | index | El índice basado en cero del elemento |
 
-### Valor de retorno
+### Valor de Retorno
 
 El nodo SmartArt
 
-### Véase también
+### Véase También
 
 * interfaz [ISmartArtNode](../../ismartartnode)
 * clase [SmartArtNodeCollection](../../smartartnodecollection)
 * espacio de nombres [Aspose.Slides.SmartArt](../../smartartnodecollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

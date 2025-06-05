@@ -1,7 +1,7 @@
 ---
 title: AsIDisposable
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf die Basis-IDisposable-Schnittstelle. Nur-lesbares IDisposable.
+description: Ermöglicht den Zugriff auf die grundlegende IDisposable-Schnittstelle. Schreibgeschützte IDisposable.
 type: docs
 weight: 10
 url: /de/aspose.slides/streamwrapper/asidisposable/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/streamwrapper/asidisposable/
 
 ## StreamWrapper.AsIDisposable-Eigenschaft
 
-Ermöglicht den Zugriff auf die Basis-IDisposable-Schnittstelle. Nur-lesbares IDisposable.
+Ermöglicht den Zugriff auf die grundlegende IDisposable-Schnittstelle. Schreibgeschützte IDisposable.
 
 ```csharp
 public IDisposable AsIDisposable { get; }

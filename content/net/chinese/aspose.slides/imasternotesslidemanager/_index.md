@@ -1,7 +1,7 @@
 ---
 title: IMasterNotesSlideManager
 second_title: Aspose.Sildes for .NET API Reference
-description: 主笔记幻灯片管理器。
+description: 主备注幻灯片管理器。
 type: docs
 weight: 6210
 url: /zh/aspose.slides/imasternotesslidemanager/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/imasternotesslidemanager/
 
 ## IMasterNotesSlideManager 接口
 
-主笔记幻灯片管理器。
+主备注幻灯片管理器。
 
 ```csharp
 public interface IMasterNotesSlideManager
@@ -19,14 +19,14 @@ public interface IMasterNotesSlideManager
 
 | 名称 | 描述 |
 | --- | --- |
-| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | 如果该演示文稿有一个，返回该演示文稿的所有笔记幻灯片的主幻灯片，否则返回 null。只读 [`IMasterNotesSlide`](../imasternotesslide)。 |
+| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | 如果此演示文稿有主备注幻灯片，则返回该主备注幻灯片，否则返回 null。只读 [`IMasterNotesSlide`](../imasternotesslide)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [RemoveMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/removemasternotesslide)() | 移除主笔记幻灯片。 |
-| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | 为相关的笔记幻灯片设置默认主笔记幻灯片。 |
+| [RemoveMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/removemasternotesslide)() | 移除主备注幻灯片。 |
+| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | 为相关备注幻灯片设置默认主备注幻灯片。 |
 
 ### 另请参见
 

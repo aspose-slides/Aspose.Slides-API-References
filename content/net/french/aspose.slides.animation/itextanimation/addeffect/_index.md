@@ -1,15 +1,15 @@
 ---
 title: AddEffect
-second_title: Référence API Aspose.Slides pour .NET
-description: Ajouter un nouvel effet à la fin de la séquence actuelle à la fin des animations de texte de groupe. Valide uniquement si le nombre de paragraphes de texte est égal ou supérieur au nombre d'effets de ce groupe.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Ajoutez un nouvel effet à la fin de la séquence actuelle à la fin des animations de texte de groupe. Seulement valide si le nombre de paragraphes de texte est égal ou supérieur au nombre d'effets de ce groupe
 type: docs
 weight: 30
 url: /fr/aspose.slides.animation/itextanimation/addeffect/
 ---
 
-## Méthode ITextAnimation.AddEffect
+## ITextAnimation.AddEffect méthode
 
-Ajouter un nouvel effet à la fin de la séquence actuelle à la fin des animations de texte de groupe. Valide uniquement si le nombre de paragraphes de texte est égal ou supérieur au nombre d'effets de ce groupe !
+Ajoutez un nouvel effet à la fin de la séquence actuelle à la fin des animations de texte de groupe. Seulement valide si le nombre de paragraphes de texte est égal ou supérieur au nombre d'effets de ce groupe!
 
 ```csharp
 public IEffect AddEffect(EffectType effectType, EffectSubtype subtype, 
@@ -20,7 +20,7 @@ public IEffect AddEffect(EffectType effectType, EffectSubtype subtype,
 | --- | --- | --- |
 | effectType | EffectType | Type d'un effet d'animation [`EffectType`](../../effecttype) |
 | subtype | EffectSubtype | Sous-types d'effet d'animation [`EffectSubtype`](../../effectsubtype) |
-| triggerType | EffectTriggerType | Type de déclencheur d'effet [`EffectTriggerType`](../../effecttriggertype) |
+| triggerType | EffectTriggerType | Type de déclencheur de l'effet [`EffectTriggerType`](../../effecttriggertype) |
 
 ### Valeur de retour
 

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.slideshow/isplittransition/direction/
 ---
+
 ## ISplitTransition.Direction property
 
 Direction of transition split. Read/write [`TransitionInOutDirectionType`](../../transitioninoutdirectiontype).

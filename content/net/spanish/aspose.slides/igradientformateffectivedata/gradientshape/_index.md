@@ -1,13 +1,13 @@
 ---
 title: GradientShape
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve la forma de un degradado. Solo lectura GradientShapeaspose.slides/gradientshape.
+second_title: Aspose.Slides para referencia de API .NET
+description: Devuelve la forma de un degradado. Solo lectura GradientShape aspose.slides/gradientshape.
 type: docs
 weight: 30
 url: /es/aspose.slides/igradientformateffectivedata/gradientshape/
 ---
 
-## Propiedad IGradientFormatEffectiveData.GradientShape
+## IGradientFormatEffectiveData.GradientShape propiedad
 
 Devuelve la forma de un degradado. Solo lectura [`GradientShape`](../../gradientshape).
 
@@ -15,7 +15,7 @@ Devuelve la forma de un degradado. Solo lectura [`GradientShape`](../../gradient
 public GradientShape GradientShape { get; }
 ```
 
-### Ver También
+### Véase también
 
 * enum [GradientShape](../../gradientshape)
 * interface [IGradientFormatEffectiveData](../../igradientformateffectivedata)

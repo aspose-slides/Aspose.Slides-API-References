@@ -1,21 +1,21 @@
 ---
 title: IsSynchronized
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным и безопасным для потоков. Только для чтения Boolean.
+second_title: Aspose.Sildes для .NET API Справка
+description: Возвращает значение, указывающее, является ли доступ к коллекции потокобезопасным. Только для чтения Boolean.
 type: docs
 weight: 20
 url: /ru/aspose.slides.vba/vbamodulecollection/issynchronized/
 ---
 
-## Свойство VbaModuleCollection.IsSynchronized
+## VbaModuleCollection.IsSynchronized свойство
 
-Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (безопасным для потоков). Только для чтения Boolean.
+Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только для чтения Boolean.
 
 ```csharp
 public bool IsSynchronized { get; }
 ```
 
-### Также см.  
+### См. Также
 
 * класс [VbaModuleCollection](../../vbamodulecollection)
 * пространство имен [Aspose.Slides.Vba](../../vbamodulecollection)

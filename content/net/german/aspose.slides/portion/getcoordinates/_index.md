@@ -1,7 +1,7 @@
 ---
 title: GetCoordinates
 second_title: Aspose.Slides für .NET API-Referenz
-description: Erhalten Sie die Koordinaten des Anfangs der Portion. Die X-Koordinate des Punktes repräsentiert den Beginn der Portion vom ersten Zeichen an einschließlich des linken Randabstands. Die Y-Koordinate umfasst den oberen Randabstand.
+description: Erhalten Sie die Koordinaten des Beginns der Portion. Die X-Koordinate des Punktes repräsentiert den Beginn der Portion vom ersten Zeichen, einschließlich der linken Seitenbegrenzung. Die Y-Koordinate umfasst die obere Seitenbegrenzung.
 type: docs
 weight: 60
 url: /de/aspose.slides/portion/getcoordinates/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/portion/getcoordinates/
 
 ## Portion.GetCoordinates-Methode
 
-Erhalten Sie die Koordinaten des Anfangs der Portion. Die X-Koordinate des Punktes repräsentiert den Beginn der Portion vom ersten Zeichen an einschließlich des linken Randabstands. Die Y-Koordinate umfasst den oberen Randabstand.
+Erhalten Sie die Koordinaten des Beginns der Portion. Die X-Koordinate des Punktes repräsentiert den Beginn der Portion vom ersten Zeichen, einschließlich der linken Seitenbegrenzung. Die Y-Koordinate umfasst die obere Seitenbegrenzung.
 
 ```csharp
 public PointF GetCoordinates()

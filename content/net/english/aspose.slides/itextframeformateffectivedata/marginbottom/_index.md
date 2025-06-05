@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/itextframeformateffectivedata/marginbottom/
 ---
+
 ## ITextFrameFormatEffectiveData.MarginBottom property
 
 Returns the bottom margin (points) in a TextFrame. Read-only Double.

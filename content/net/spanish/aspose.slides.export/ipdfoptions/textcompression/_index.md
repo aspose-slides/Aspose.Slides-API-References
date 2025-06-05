@@ -1,5 +1,5 @@
 ---
-title: CompresiónDeTexto
+title: TextCompression
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Especifica el tipo de compresión que se utilizará para todo el contenido textual en el documento. Leer/escribir PdfTextCompressionaspose.slides.export/pdftextcompression.
 type: docs
@@ -15,11 +15,11 @@ Especifica el tipo de compresión que se utilizará para todo el contenido textu
 public PdfTextCompression TextCompression { get; set; }
 ```
 
-### Comentarios
+### Observaciones
 
 El valor predeterminado es Flate.
 
-### Véase También
+### Ver También
 
 * enum [PdfTextCompression](../../pdftextcompression)
 * interface [IPdfOptions](../../ipdfoptions)

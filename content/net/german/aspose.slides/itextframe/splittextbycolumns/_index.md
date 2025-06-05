@@ -1,15 +1,15 @@
 ---
 title: SplitTextByColumns
-second_title: Aspose.Slides für .NET API-Referenz
-description: Teilt den Textinhalt des ITextFrameaspose.slides/itextframe in ein Array von Zeichenfolgen, wobei jedes Element einer separaten Textspalte innerhalb des Rahmens entspricht.
+second_title: Aspose.Slides für .NET API Referenz
+description: Teilt den Textinhalt des ITextFrameaspose.slides/itextframe in ein Array von Zeichenfolgen auf, wobei jedes Element einer separaten Textspalte innerhalb des Rahmens entspricht.
 type: docs
 weight: 130
 url: /de/aspose.slides/itextframe/splittextbycolumns/
 ---
 
-## ITextFrame.SplitTextByColumns-Methode
+## ITextFrame.SplitTextByColumns Methode
 
-Teilt den Textinhalt des [`ITextFrame`](../../itextframe) in ein Array von Zeichenfolgen, wobei jedes Element einer separaten Textspalte innerhalb des Rahmens entspricht.
+Teilt den Textinhalt des [`ITextFrame`](../../itextframe) in ein Array von Zeichenfolgen auf, wobei jedes Element einer separaten Textspalte innerhalb des Rahmens entspricht.
 
 ```csharp
 public string[] SplitTextByColumns()
@@ -19,9 +19,9 @@ public string[] SplitTextByColumns()
 
 Ein Array von Zeichenfolgen, wobei jede Zeichenfolge den Textinhalt einer bestimmten Spalte im [`ITextFrame`](../../itextframe) darstellt.
 
-### Bemerkungen
+### Anmerkungen
 
-Wenn der Textrahmen keine mehreren Spalten enthält, hat das zurückgegebene Array ein einzelnes Element, das den vollständigen Text enthält. Leere Spalten werden im Array als leere Zeichenfolgen dargestellt.
+Wenn der Textrahmen keine mehrere Spalten enthält, hat das zurückgegebene Array ein einziges Element, das den vollständigen Text enthält. Leere Spalten werden im Array als leere Zeichenfolgen dargestellt.
 
 ### Beispiele
 
@@ -34,13 +34,13 @@ using (Presentation pres = new Presentation("example.pptx"))
     ITextFrame textFrame = pres.Slides[0].Shapes[0] as ITextFrame;
     // Teilen Sie den Inhalt des Textrahmens in Spalten auf
     string[] columnsText = textFrame.SplitTextByColumns();
-    // Drucken Sie den Text jeder Spalte in die Konsole
+    // Geben Sie den Text jeder Spalte in der Konsole aus
     foreach (string column in columnsText)
         Console.WriteLine(column);
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ITextFrame](../../itextframe)
 * Namespace [Aspose.Slides](../../itextframe)

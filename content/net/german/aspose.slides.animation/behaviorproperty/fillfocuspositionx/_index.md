@@ -15,7 +15,7 @@ Stellt die Eigenschaft 'fill.focusposition.x' dar
 public static BehaviorProperty FillFocusPositionX { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [BehaviorProperty](../../behaviorproperty)
 * Namespace [Aspose.Slides.Animation](../../behaviorproperty)

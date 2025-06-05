@@ -3,9 +3,10 @@ title: DpiY
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the vertical resolution in dots per inch. Read/write UInt32.
 type: docs
-weight: 40
+weight: 50
 url: /aspose.slides.export/tiffoptions/dpiy/
 ---
+
 ## TiffOptions.DpiY property
 
 Specifies the vertical resolution in dots per inch. Read/write UInt32.

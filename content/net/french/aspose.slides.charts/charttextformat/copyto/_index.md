@@ -1,13 +1,13 @@
 ---
 title: CopyTo
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Copie le format de texte dans le cadre de texte spécifié.
 type: docs
 weight: 50
 url: /fr/aspose.slides.charts/charttextformat/copyto/
 ---
 
-## Méthode ChartTextFormat.CopyTo
+## ChartTextFormat.CopyTo méthode
 
 Copie le format de texte dans le cadre de texte spécifié.
 
@@ -15,11 +15,11 @@ Copie le format de texte dans le cadre de texte spécifié.
 public void CopyTo(ITextFrame destTextFrame)
 ```
 
-| Paramètre       | Type       | Description                                        |
-| -------------- | ---------- | -------------------------------------------------- |
-| destTextFrame  | ITextFrame | Cadre de texte dans lequel copier le format de texte. |
+| Paramètre | Type | Description |
+| --- | --- | --- |
+| destTextFrame | ITextFrame | Cadre de texte dans lequel copier le format de texte. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ITextFrame](../../../aspose.slides/itextframe)
 * class [ChartTextFormat](../../charttextformat)

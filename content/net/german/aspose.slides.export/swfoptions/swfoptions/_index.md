@@ -1,6 +1,6 @@
 ---
 title: SwfOptions
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Standardkonstruktor.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Standardkonstruktor.
 public SwfOptions()
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [SwfOptions](../../swfoptions)
 * Namespace [Aspose.Slides.Export](../../swfoptions)

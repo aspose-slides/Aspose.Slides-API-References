@@ -1,7 +1,7 @@
 ---
 title: OffsetX
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Entfernung von der linken Seite einer Tabelle zur linken Seite einer Zelle zurück. Nur-Lese Double.
+description: Gibt den Abstand von der linken Seite einer Tabelle zur linken Seite einer Zelle zurück. Nur lesbarer Double.
 type: docs
 weight: 150
 url: /de/aspose.slides/cell/offsetx/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/cell/offsetx/
 
 ## Cell.OffsetX-Eigenschaft
 
-Gibt die Entfernung von der linken Seite einer Tabelle zur linken Seite einer Zelle zurück. Nur-Lese Double.
+Gibt den Abstand von der linken Seite einer Tabelle zur linken Seite einer Zelle zurück. Nur lesbarer Double.
 
 ```csharp
 public double OffsetX { get; }

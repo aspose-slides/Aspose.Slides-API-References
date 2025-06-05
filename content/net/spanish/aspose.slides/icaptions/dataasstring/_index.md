@@ -1,24 +1,24 @@
 ---
 title: DataAsString
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve los datos de subtítulos cerrados como una cadena codificada en UTF-8. Solo de lectura String.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Devuelve los datos de los subtítulos cerrados como una cadena codificada en UTF-8 Solo lectura String.
 type: docs
 weight: 30
 url: /es/aspose.slides/icaptions/dataasstring/
 ---
 
-## Propiedad ICaptions.DataAsString
+## ICaptions.DataAsString propiedad
 
-Devuelve los datos de subtítulos cerrados como una cadena codificada en UTF-8. Solo de lectura String.
+Devuelve los datos de los subtítulos cerrados como una cadena codificada en UTF-8 Solo lectura String.
 
 ```csharp
 public string DataAsString { get; }
 ```
 
-### Ver También
+### Véase también
 
-* interfaz [ICaptions](../../icaptions)
-* espacio de nombres [Aspose.Slides](../../icaptions)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [ICaptions](../../icaptions)
+* espacio de nombres [Aspose.Slides](../../icaptions)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

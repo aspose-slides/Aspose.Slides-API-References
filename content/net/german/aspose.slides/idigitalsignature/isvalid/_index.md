@@ -1,7 +1,7 @@
 ---
 title: IsValid
-second_title: Aspose.Slides für .NET API-Referenz
-description: Wenn diese digitale Signatur gültig ist und das Dokument nicht manipuliert wurde, ist dieser Wert wahr. Schreibgeschützter Boolean.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Wenn diese digitale Signatur gültig ist und das Dokument nicht manipuliert wurde, wird dieser Wert true sein. Nur-Lese-Boolescher Wert.
 type: docs
 weight: 30
 url: /de/aspose.slides/idigitalsignature/isvalid/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/idigitalsignature/isvalid/
 
 ## IDigitalSignature.IsValid-Eigenschaft
 
-Wenn diese digitale Signatur gültig ist und das Dokument nicht manipuliert wurde, ist dieser Wert wahr. Schreibgeschützter Boolean.
+Wenn diese digitale Signatur gültig ist und das Dokument nicht manipuliert wurde, wird dieser Wert true sein. Nur-Lese-Boolescher Wert.
 
 ```csharp
 public bool IsValid { get; }
@@ -26,7 +26,7 @@ using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IDigitalSignature](../../idigitalsignature)
 * Namespace [Aspose.Slides](../../idigitalsignature)

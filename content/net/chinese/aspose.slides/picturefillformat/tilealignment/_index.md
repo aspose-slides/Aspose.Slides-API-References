@@ -1,7 +1,7 @@
 ---
 title: TileAlignment
-second_title: Aspose.Slides for .NET API Reference
-description: 返回或设置纹理在形状内的对齐方式。此设置控制纹理图案的起始点以及它如何在形状中重复。可读写 RectangleAlignmentaspose.slides/rectanglealignment。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置纹理在形状内的对齐方式。此设置控制纹理模式的起始点以及它在形状中的重复方式。读/写 RectangleAlignmentaspose.slides/rectanglealignment。
 type: docs
 weight: 120
 url: /zh/aspose.slides/picturefillformat/tilealignment/
@@ -9,15 +9,15 @@ url: /zh/aspose.slides/picturefillformat/tilealignment/
 
 ## PictureFillFormat.TileAlignment 属性
 
-返回或设置纹理在形状内的对齐方式。此设置控制纹理图案的起始点以及它如何在形状中重复。可读写 [`RectangleAlignment`](../../rectanglealignment)。
+返回或设置纹理在形状内的对齐方式。此设置控制纹理模式的起始点以及它在形状中的重复方式。读/写 [`RectangleAlignment`](../../rectanglealignment)。
 
 ```csharp
 public RectangleAlignment TileAlignment { get; set; }
 ```
 
-### 注释
+### 备注
 
-默认值为左上角。
+默认值为 TopLeft。
 
 ### 示例
 
@@ -30,7 +30,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
     // 获取形状的图片填充格式
     IPictureFillFormat pictureFillFormat = slide.Shapes[0].FillFormat.PictureFillFormat;
 
-    // 将图片填充模式设置为平铺
+    // 将图片填充模式设置为 Tile
     pictureFillFormat.PictureFillMode = PictureFillMode.Tile;
 
     // 将平铺的对齐方式设置为右下角
@@ -38,7 +38,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 }
 ```
 
-### 另请参阅
+### 参见
 
 * enum [RectangleAlignment](../../rectanglealignment)
 * class [PictureFillFormat](../../picturefillformat)

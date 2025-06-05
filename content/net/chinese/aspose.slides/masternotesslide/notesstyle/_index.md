@@ -1,7 +1,7 @@
 ---
 title: NotesStyle
-second_title: Aspose.Slides for .NET API Reference
-description: 返回笔记文本的样式。只读 ITextStyle aspose.slides/itextstyle。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回笔记文本的样式。只读 ITextStyleaspose.slides/itextstyle。
 type: docs
 weight: 20
 url: /zh/aspose.slides/masternotesslide/notesstyle/

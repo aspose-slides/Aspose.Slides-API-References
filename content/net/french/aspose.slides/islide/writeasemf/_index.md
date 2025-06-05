@@ -1,15 +1,15 @@
 ---
 title: WriteAsEmf
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Enregistre le contenu de la diapositive en tant que fichier EMF.
+description: Enregistre le contenu de la diapositive sous forme de fichier EMF.
 type: docs
 weight: 120
 url: /fr/aspose.slides/islide/writeasemf/
 ---
 
-## Méthode ISlide.WriteAsEmf
+## ISlide.WriteAsEmf méthode
 
-Enregistre le contenu de la diapositive en tant que fichier EMF.
+Enregistre le contenu de la diapositive sous forme de fichier EMF.
 
 ```csharp
 public void WriteAsEmf(Stream stream)

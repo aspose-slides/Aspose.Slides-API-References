@@ -1,7 +1,7 @@
 ---
 title: LineFillFormat
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente les propriétés de remplissage des lignes.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Représente les propriétés pour le remplissage des lignes.
 type: docs
 weight: 7540
 url: /fr/aspose.slides/linefillformat/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/linefillformat/
 
 ## Classe LineFillFormat
 
-Représente les propriétés de remplissage des lignes.
+Représente les propriétés pour le remplissage des lignes.
 
 ```csharp
 public sealed class LineFillFormat : PVIObject, ILineFillFormat
@@ -19,19 +19,19 @@ public sealed class LineFillFormat : PVIObject, ILineFillFormat
 
 | Nom | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface IPresentationComponent de base. Lecture seule [`IPresentationComponent`](../ipresentationcomponent). |
-| [FillType](../../aspose.slides/linefillformat/filltype) { get; set; } | Retourne ou définit le type de remplissage. Lecture/écriture [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | Retourne le format de remplissage dégradé. Lecture seule [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | Retourne le format de remplissage par motif. Lecture seule [`IPatternFormat`](../ipatternformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface de base IPresentationComponent. Lecture seule [`IPresentationComponent`](../ipresentationcomponent). |
+| [FillType](../../aspose.slides/linefillformat/filltype) { get; set; } | Renvoie ou définit le type de remplissage. Lecture/écriture [`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | Renvoie le format de remplissage en dégradé. Lecture seule [`IGradientFormat`](../igradientformat). |
+| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | Renvoie le format de remplissage par motif. Lecture seule [`IPatternFormat`](../ipatternformat). |
 | [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | Détermine si le remplissage doit être tourné avec une forme. Lecture/écriture [`NullableBool`](../nullablebool). |
-| [SolidFillColor](../../aspose.slides/linefillformat/solidfillcolor) { get; } | Retourne la couleur d'un remplissage solide. Lecture seule [`IColorFormat`](../icolorformat). |
+| [SolidFillColor](../../aspose.slides/linefillformat/solidfillcolor) { get; } | Renvoie la couleur d'un remplissage uni. Lecture seule [`IColorFormat`](../icolorformat). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compare avec l'objet spécifié. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Retourne le code de hachage. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Renvoie le code de hachage. |
 
 ### Voir aussi
 

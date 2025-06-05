@@ -1,15 +1,15 @@
 ---
 title: HideBottom
 second_title: Aspose.Slides für .NET API-Referenz
-description: Hide Bottom Edge ist standardmäßig false - gibt den verborgenen oder sichtbaren Zustand der unteren Kante des Randkastens an.
+description: Hide Bottom Edge standardmäßig ist falsch - gibt den verborgen oder sichtbar Zustand der unteren Kante des Rahmenkästchens an.
 type: docs
 weight: 30
 url: /de/aspose.slides.mathtext/mathborderbox/hidebottom/
 ---
 
-## MathBorderBox.HideBottom Eigenschaft
+## MathBorderBox.HideBottom-Eigenschaft
 
-Hide Bottom Edge (standardmäßig false) - gibt den verborgenen oder sichtbaren Zustand der unteren Kante des Randkastens an.
+Hide Bottom Edge (standardmäßig ist falsch) - gibt den verborgen oder sichtbar Zustand der unteren Kante des Rahmenkästchens an.
 
 ```csharp
 public bool HideBottom { get; set; }
@@ -25,7 +25,7 @@ MathBorderBox borderBox = new MathBorderBox(new MathematicalText("x"));
 borderBox.HideBottom = true;
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [MathBorderBox](../../mathborderbox)
 * Namespace [Aspose.Slides.MathText](../../mathborderbox)

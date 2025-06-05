@@ -1,13 +1,13 @@
 ---
 title: ArrowheadsLocked
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Détermine si le changement de pointes de flèche est interdit. Boolean en lecture/écriture.
 type: docs
 weight: 20
 url: /fr/aspose.slides/iconnectorlock/arrowheadslocked/
 ---
 
-## IConnectorLock.ArrowheadsLocked propriété
+## Propriété IConnectorLock.ArrowheadsLocked
 
 Détermine si le changement de pointes de flèche est interdit. Boolean en lecture/écriture.
 

@@ -1,7 +1,7 @@
 ---
 title: DrawSlidesFrame
-second_title: Aspose.Slid es for .NET API 参考
-description: 设置为真则在每个幻灯片周围绘制黑色边框。可读/可写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 为每个幻灯片绘制黑色边框的布尔值，默认为真。可读/写的布尔值。
 type: docs
 weight: 20
 url: /zh/aspose.slides.export/ixpsoptions/drawslidesframe/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/ixpsoptions/drawslidesframe/
 
 ## IXpsOptions.DrawSlidesFrame 属性
 
-设置为真则在每个幻灯片周围绘制黑色边框。可读/可写布尔值。
+为每个幻灯片绘制黑色边框的布尔值，默认为真。可读/写的布尔值。
 
 ```csharp
 public bool DrawSlidesFrame { get; set; }
@@ -17,9 +17,9 @@ public bool DrawSlidesFrame { get; set; }
 
 ### 备注
 
-默认值为 **false**。
+默认值是 **false**。
 
-### 参见
+### 另见
 
 * 接口 [IXpsOptions](../../ixpsoptions)
 * 命名空间 [Aspose.Slides.Export](../../ixpsoptions)

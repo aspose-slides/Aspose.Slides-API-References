@@ -1,5 +1,5 @@
 ---
-title: Argumente
+title: Arguments
 second_title: Aspose.Slides für .NET API Referenz
 description: Eins oder mehrere mathematische Elemente, die durch Trennzeichen getrennt sind
 type: docs
@@ -7,7 +7,7 @@ weight: 10
 url: /de/aspose.slides.mathtext/imathdelimiter/arguments/
 ---
 
-## IMathDelimiter.Arguments-Eigenschaft
+## IMathDelimiter.Arguments Eigenschaft
 
 Eins oder mehrere mathematische Elemente, die durch Trennzeichen getrennt sind
 
@@ -25,7 +25,7 @@ IMathDelimiter delimiter = new MathematicalText("x").Join("y").Enclose();
 IMathElementCollection arguments = delimiter.Arguments;
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IMathElementCollection](../../imathelementcollection)
 * Schnittstelle [IMathDelimiter](../../imathdelimiter)

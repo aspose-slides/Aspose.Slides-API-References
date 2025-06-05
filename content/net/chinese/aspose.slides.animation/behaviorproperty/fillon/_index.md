@@ -1,7 +1,7 @@
 ---
-title: 填充开关
-second_title: Aspose.Slides for .NET API参考
-description: 表示填充开关属性
+title: FillOn
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示 fill.on 属性
 type: docs
 weight: 360
 url: /zh/aspose.slides.animation/behaviorproperty/fillon/

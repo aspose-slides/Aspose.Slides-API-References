@@ -1,6 +1,6 @@
 ---
 title: EndShow
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve un hipervínculo que finaliza la presentación. Solo lectura Hyperlinkaspose.slides/hyperlink.
 type: docs
 weight: 20
@@ -15,10 +15,10 @@ Devuelve un hipervínculo que finaliza la presentación. Solo lectura [`Hyperlin
 public static Hyperlink EndShow { get; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [Hyperlink](../../hyperlink)
 * espacio de nombres [Aspose.Slides](../../hyperlink)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

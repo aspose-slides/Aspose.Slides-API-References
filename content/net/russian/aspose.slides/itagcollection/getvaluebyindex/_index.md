@@ -1,6 +1,6 @@
 ---
 title: GetValueByIndex
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает значение тега по указанному индексу.
 type: docs
 weight: 70
@@ -23,7 +23,7 @@ public string GetValueByIndex(int index)
 
 Значение тега.
 
-### См. также
+### См. Также
 
 * интерфейс [ITagCollection](../../itagcollection)
 * пространство имен [Aspose.Slides](../../itagcollection)

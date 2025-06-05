@@ -1,7 +1,7 @@
 ---
 title: IsMeteredLicensed
 second_title: Aspose.Sildes для .NET API Справочник
-description: Проверка, лицензирован ли метрованный
+description: Проверьте, лицензирована ли метрованная версия
 type: docs
 weight: 50
 url: /ru/aspose.slides/metered/ismeteredlicensed/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/metered/ismeteredlicensed/
 
 ## Metered.IsMeteredLicensed метод
 
-Проверка, лицензирован ли метрованный
+Проверьте, лицензирована ли метрованная версия
 
 ```csharp
 public static bool IsMeteredLicensed()
@@ -19,7 +19,7 @@ public static bool IsMeteredLicensed()
 
 Истина или ложь
 
-### См. также
+### Также смотри
 
 * класс [Metered](../../metered)
 * пространство имен [Aspose.Slides](../../metered)

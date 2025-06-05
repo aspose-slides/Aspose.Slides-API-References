@@ -1,7 +1,7 @@
 ---
-title: 查看属性
-second_title: Aspose.Slides for .NET API 参考
-description: 获取演示文稿广泛的视图属性。只读 IViewProperties aspose.slides/iviewproperties。
+title: ViewProperties
+second_title: Aspose.Slides for .NET API Reference
+description: 获取演示文稿的广泛视图属性。只读 IViewProperties aspose.slides/iviewproperties。
 type: docs
 weight: 290
 url: /zh/aspose.slides/ipresentation/viewproperties/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ipresentation/viewproperties/
 
 ## IPresentation.ViewProperties 属性
 
-获取演示文稿广泛的视图属性。只读 [`IViewProperties`](../../iviewproperties)。
+获取演示文稿的广泛视图属性。只读 [`IViewProperties`](../../iviewproperties)。
 
 ```csharp
 public IViewProperties ViewProperties { get; }

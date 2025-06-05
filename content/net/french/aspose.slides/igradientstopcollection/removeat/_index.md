@@ -1,15 +1,15 @@
 ---
 title: RemoveAt
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Supprime un arrêt de dégradé à l'index spécifié.
+second_title: Référence API Aspose.Slides pour .NET
+description: Supprime un point de dégradé à l'index spécifié.
 type: docs
 weight: 50
 url: /fr/aspose.slides/igradientstopcollection/removeat/
 ---
 
-## Méthode IGradientStopCollection.RemoveAt
+## IGradientStopCollection.RemoveAt méthode
 
-Supprime un arrêt de dégradé à l'index spécifié.
+Supprime un point de dégradé à l'index spécifié.
 
 ```csharp
 public void RemoveAt(int index)
@@ -17,9 +17,9 @@ public void RemoveAt(int index)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | Index d'un arrêt de dégradé qui doit être supprimé. |
+| index | Int32 | Index d'un point de dégradé qui doit être supprimé. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IGradientStopCollection](../../igradientstopcollection)
 * namespace [Aspose.Slides](../../igradientstopcollection)

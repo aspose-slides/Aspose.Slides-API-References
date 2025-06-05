@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/mathsuperscriptelementfactory/mathsuperscriptelementfactory/
 ---
+
 ## MathSuperscriptElementFactory constructor
 
 The default constructor.

@@ -1,6 +1,6 @@
 ---
 title: AddHSLEffect
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Fügt den neuen Farbton/Sättigung/Helligkeitseffekt am Ende einer Sammlung hinzu.
 type: docs
 weight: 190
@@ -15,15 +15,15 @@ Fügt den neuen Farbton/Sättigung/Helligkeitseffekt am Ende einer Sammlung hinz
 public IHSL AddHSLEffect(float hue, float saturation, float luminance)
 ```
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| hue | Single | Die Anzahl der Grad, um die der Farbton angepasst wird. |
-| saturation | Single | Der Prozentsatz, um den die Sättigung angepasst wird. |
-| luminance | Single | Der Prozentsatz, um den die Helligkeit angepasst wird. |
+| Parameter  | Typ    | Beschreibung                                                  |
+|------------|--------|-------------------------------------------------------------|
+| hue        | Single | Die Anzahl der Grad, um die der Farbton angepasst wird.     |
+| saturation | Single | Der Prozentsatz, um den die Sättigung angepasst wird.      |
+| luminance  | Single | Der Prozentsatz, um den die Helligkeit angepasst wird.      |
 
 ### Rückgabewert
 
-Index des neuen Bildeffekts in einer Sammlung.
+Index des neuen Grafikeffekts in einer Sammlung.
 
 ### Siehe auch
 

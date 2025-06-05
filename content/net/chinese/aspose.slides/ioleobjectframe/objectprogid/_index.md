@@ -1,6 +1,6 @@
 ---
 title: ObjectProgId
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回对象的 ProgID。只读字符串。
 type: docs
 weight: 110

@@ -1,15 +1,15 @@
 ---
 title: HideLeft
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Hide Left Edge el valor por defecto es falso - especifica el estado oculto o mostrado del borde izquierdo del cuadro de borde.
+second_title: Aspose.Slides para .NET Referencia de API
+description: La propiedad Hide Left Edge el valor predeterminado es falso especifica el estado oculto o mostrado del borde izquierdo del cuadro de borde.
 type: docs
 weight: 40
 url: /es/aspose.slides.mathtext/imathborderbox/hideleft/
 ---
 
-## Propiedad IMathBorderBox.HideLeft
+## IMathBorderBox.HideLeft propiedad
 
-Hide Left Edge (el valor por defecto es falso) - especifica el estado oculto o mostrado del borde izquierdo del cuadro de borde.
+La propiedad Hide Left Edge (el valor predeterminado es falso) especifica el estado oculto o mostrado del borde izquierdo del cuadro de borde.
 
 ```csharp
 public bool HideLeft { get; set; }

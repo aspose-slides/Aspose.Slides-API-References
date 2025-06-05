@@ -1,21 +1,21 @@
 ---
-title: Очистить
-second_title: Справочник по API Aspose.Slides для .NET
+title: Clear
+second_title: Справка по API Aspose.Slides для .NET
 description: Удаляет все закрытые подписи из коллекции.
 type: docs
 weight: 40
 url: /ru/aspose.slides/icaptionscollection/clear/
 ---
 
-## Метод ICaptionsCollection.Clear
+## ICaptionsCollection.Clear метод
 
-Удаляет все закрытые подписи из коллекции.
+Убирает все закрытые подписи из коллекции.
 
 ```csharp
 public void Clear()
 ```
 
-### Также смотрите
+### См. также
 
 * интерфейс [ICaptionsCollection](../../icaptionscollection)
 * пространство имен [Aspose.Slides](../../icaptionscollection)

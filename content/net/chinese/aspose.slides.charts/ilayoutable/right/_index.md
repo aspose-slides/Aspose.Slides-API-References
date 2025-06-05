@@ -1,7 +1,7 @@
 ---
-title: 右
-second_title: Aspose.Sildes for .NET API 参考
-description: 获取图表元素的右边距，作为图表宽度的一个分数。只读单精度浮点数。
+title: Right
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取图表元素的右侧作为图表宽度的一个分数。只读单精度浮点数。
 type: docs
 weight: 40
 url: /zh/aspose.slides.charts/ilayoutable/right/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ilayoutable/right/
 
 ## ILayoutable.Right 属性
 
-获取图表元素的右边距，作为图表宽度的一个分数。只读单精度浮点数。
+获取图表元素的右侧作为图表宽度的一个分数。只读单精度浮点数。
 
 ```csharp
 public float Right { get; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [ILayoutable](../../ilayoutable)
 * 命名空间 [Aspose.Slides.Charts](../../ilayoutable)

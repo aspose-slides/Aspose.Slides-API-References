@@ -1,7 +1,7 @@
 ---
-title: 垂直条纹
-second_title: Aspose.Slides for .NET API 参考
-description: 确定偶数列是否需要使用不同的格式绘制。可读/可写布尔值。
+title: VerticalBanding
+second_title: Aspose.Sildes for .NET API 参考
+description: 确定偶数列是否需要以不同格式绘制。可读写布尔值。
 type: docs
 weight: 130
 url: /zh/aspose.slides/table/verticalbanding/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/table/verticalbanding/
 
 ## Table.VerticalBanding 属性
 
-确定偶数列是否需要使用不同的格式绘制。可读/可写布尔值。
+确定偶数列是否需要以不同格式绘制。可读写布尔值。
 
 ```csharp
 public bool VerticalBanding { get; set; }
 ```
 
-### 参见
+### 另请参阅
 
 * class [Table](../../table)
 * namespace [Aspose.Slides](../../table)

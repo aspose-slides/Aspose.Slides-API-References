@@ -1,7 +1,7 @@
 ---
 title: AutoByExtension
-second_title: Справочная информация по API Aspose.Slides для .NET
-description: Конвертирует Presentationaspose.slides/../aspose.slides/presentation с использованием переданного расширения выходного пути для определения требуемого формата экспорта.
+second_title: Aspose.Sildes для .NET API Reference
+description: Преобразует Presentationaspose.slides/../aspose.slides/presentation с использованием переданного расширения выходного пути для определения необходимого формата экспорта.
 type: docs
 weight: 10
 url: /ru/aspose.slides.lowcode/convert/autobyextension/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.lowcode/convert/autobyextension/
 
 ## Метод Convert.AutoByExtension
 
-Конвертирует [`Presentation`](../../../aspose.slides/presentation) с использованием переданного расширения выходного пути для определения требуемого формата экспорта.
+Преобразует [`Presentation`](../../../aspose.slides/presentation) с использованием переданного расширения выходного пути для определения необходимого формата экспорта.
 
 ```csharp
 public static void AutoByExtension(string presPath, string outPath)
@@ -17,7 +17,7 @@ public static void AutoByExtension(string presPath, string outPath)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| presPath | String | Путь к исходной презентации |
+| presPath | String | Путь к входной презентации |
 | outPath | String | Выходной путь |
 
 ### Исключения
@@ -32,7 +32,7 @@ public static void AutoByExtension(string presPath, string outPath)
 Aspose.Slides.LowCode.Convert.AutoByExtension("pres.pptx", "pres.pdf");
 ```
 
-### См. Также
+### См. также
 
 * класс [Convert](../../convert)
 * пространство имен [Aspose.Slides.LowCode](../../convert)

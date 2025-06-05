@@ -1,15 +1,15 @@
 ---
 title: CreateMathBox
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Créer une boîte mathématique en l'appliquant à l'élément
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Créez une zone mathématique en l'appliquant à l'élément
 type: docs
 weight: 10
 url: /fr/aspose.slides.mathtext/imathboxfactory/createmathbox/
 ---
 
-## Méthode IMathBoxFactory.CreateMathBox
+## IMathBoxFactory.CreateMathBox méthode
 
-Créer une boîte mathématique en l'appliquant à l'élément
+Créez une zone mathématique en l'appliquant à l'élément
 
 ```csharp
 public IMathBox CreateMathBox(IMathElement element)
@@ -17,13 +17,13 @@ public IMathBox CreateMathBox(IMathElement element)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| element | IMathElement | élément mathématique auquel appliquer la boîte |
+| element | IMathElement | élément mathématique auquel appliquer la zone |
 
-### Valeur de Retour
+### Valeur de retour
 
-nouvel élément de boîte
+nouvel élément de zone
 
-### Voir Également
+### Voir aussi
 
 * interface [IMathBox](../../imathbox)
 * interface [IMathElement](../../imathelement)

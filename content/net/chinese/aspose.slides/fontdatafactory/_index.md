@@ -7,7 +7,7 @@ weight: 4640
 url: /zh/aspose.slides/fontdatafactory/
 ---
 
-## FontDataFactory 类
+## FontDataFactory class
 
 FontData 工厂
 
@@ -27,7 +27,7 @@ public class FontDataFactory : IFontDataFactory
 | --- | --- |
 | [CreateFontData](../../aspose.slides/fontdatafactory/createfontdata)(string) | 使用指定的字体名称创建 FontData。 |
 
-### 另请参阅
+### 另见
 
 * 接口 [IFontDataFactory](../ifontdatafactory)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

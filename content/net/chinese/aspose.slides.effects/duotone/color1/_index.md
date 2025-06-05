@@ -1,6 +1,6 @@
 ---
 title: Color1
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回暗像素的目标颜色格式。只读 IColorFormataspose.slides/icolorformat。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.effects/duotone/color1/
 public IColorFormat Color1 { get; }
 ```
 
-### 参见
+### 另见
 
 * 接口 [IColorFormat](../../../aspose.slides/icolorformat)
 * 类 [Duotone](../../duotone)

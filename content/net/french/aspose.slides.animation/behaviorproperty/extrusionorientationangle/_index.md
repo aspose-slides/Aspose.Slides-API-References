@@ -1,6 +1,6 @@
 ---
 title: ExtrusionOrientationAngle
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Représente la propriété extrusion.orientationangle
 type: docs
 weight: 80

@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/istreamwrapper/read/
 ---
+
 ## IStreamWrapper.Read method
 
 Reads a sequence of bytes from the current stream and advances the position within the stream by the number of bytes read.

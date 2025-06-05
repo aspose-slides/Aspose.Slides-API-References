@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation/
 ---
+
 ## IAlphaModulateFixed.AsIImageTransformOperation property
 
 Allows to get base IImageTransformOperation interface. Read-only [`IImageTransformOperation`](../../iimagetransformoperation).

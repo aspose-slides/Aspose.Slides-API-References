@@ -1,28 +1,28 @@
----
+---  
 title: GetStream
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve un Stream para lectura. Utilice using o cierre el stream después de usarlo.
-type: docs
-weight: 30
+second_title: Referencia de API de Aspose.Slides para .NET  
+description: Devuelve un Stream para lectura. Utilice 'using' o cierre el Stream después de usarlo.
+type: docs  
+weight: 30  
 url: /es/aspose.slides/audio/getstream/
----
+---  
 
-## Método Audio.GetStream
+## Método Audio.GetStream  
 
-Devuelve un Stream para lectura. Utilice 'using' o cierre el stream después de usarlo.
+Devuelve un Stream para lectura. Utilice 'using' o cierre el Stream después de usarlo.  
 
-```csharp
-public Stream GetStream()
-```
+```csharp  
+public Stream GetStream()  
+```  
 
-### Valor de Retorno
+### Valor de retorno  
 
-Stream para lectura.
+Stream para lectura.  
 
-### Véase También
+### Ver también  
 
-* clase [Audio](../../audio)
-* espacio de nombres [Aspose.Slides](../../audio)
-* ensamblado [Aspose.Slides](../../../)
+* class [Audio](../../audio)  
+* namespace [Aspose.Slides](../../audio)  
+* assembly [Aspose.Slides](../../../)  
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  

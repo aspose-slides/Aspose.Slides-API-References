@@ -1,7 +1,7 @@
 ---
 title: DisableGradientSplit
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Désactive la séparation des dégradés FromCornerX et FromCenter. Boolean en lecture/écriture.
+description: Désactive le fractionnement des dégradés FromCornerX et FromCenter. Lecture/écriture Booléen.
 type: docs
 weight: 50
 url: /fr/aspose.slides.export/isvgoptions/disablegradientsplit/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/isvgoptions/disablegradientsplit/
 
 ## Propriété ISVGOptions.DisableGradientSplit
 
-Désactive la séparation des dégradés FromCornerX et FromCenter. Boolean en lecture/écriture.
+Désactive le fractionnement des dégradés FromCornerX et FromCenter. Lecture/écriture Booléen.
 
 ```csharp
 public bool DisableGradientSplit { get; set; }

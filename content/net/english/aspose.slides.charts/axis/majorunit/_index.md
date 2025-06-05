@@ -6,6 +6,7 @@ type: docs
 weight: 360
 url: /aspose.slides.charts/axis/majorunit/
 ---
+
 ## Axis.MajorUnit property
 
 Represents the major units for the date or value axis. Read/write Double.

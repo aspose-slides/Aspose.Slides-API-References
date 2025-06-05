@@ -3,9 +3,10 @@ title: IMathParagraph
 second_title: Aspose.Sildes for .NET API Reference
 description: Mathematical paragraph that is a container for mathematical blocks IMathBlock
 type: docs
-weight: 7810
+weight: 8140
 url: /aspose.slides.mathtext/imathparagraph/
 ---
+
 ## IMathParagraph interface
 
 Mathematical paragraph that is a container for mathematical blocks (IMathBlock)
@@ -25,6 +26,7 @@ public interface IMathParagraph : IMathBlockCollection
 
 | Name | Description |
 | --- | --- |
+| [ToLatex](../../aspose.slides.mathtext/imathparagraph/tolatex)() | Gets mathematical equation in LaTeX format |
 | [WriteAsMathMl](../../aspose.slides.mathtext/imathparagraph/writeasmathml)(Stream) | Saves content of this [`IMathParagraph`](../imathparagraph) as MathML |
 
 ### Examples

@@ -1,7 +1,7 @@
 ---
 title: HorizontalBarState
 second_title: Aspose.Sildes for .NET API Reference
-description: 指定水平分隔条应显示的状态。水平分隔条将幻灯片与幻灯片下方的内容区域分开。
+description: 指定横向分隔条应显示的状态。横向分隔条将幻灯片与幻灯片下方的内容区域分开。
 type: docs
 weight: 10
 url: /zh/aspose.slides/inormalviewproperties/horizontalbarstate/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/inormalviewproperties/horizontalbarstate/
 
 ## INormalViewProperties.HorizontalBarState 属性
 
-指定水平分隔条应显示的状态。水平分隔条将幻灯片与幻灯片下方的内容区域分开。
+指定横向分隔条应显示的状态。横向分隔条将幻灯片与幻灯片下方的内容区域分开。
 
 ```csharp
 public SplitterBarStateType HorizontalBarState { get; set; }

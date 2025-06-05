@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/istreamwrapperfactory/creatememorystreamwrapper/
 ---
+
 ## CreateMemoryStreamWrapper() {#creatememorystreamwrapper}
 
 Creates MemoryStream wrapper.

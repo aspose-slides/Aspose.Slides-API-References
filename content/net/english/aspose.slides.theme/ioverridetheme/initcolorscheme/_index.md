@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.theme/ioverridetheme/initcolorscheme/
 ---
+
 ## IOverrideTheme.InitColorScheme method
 
 Init ColorScheme with new object for overriding ColorScheme of InheritedTheme.

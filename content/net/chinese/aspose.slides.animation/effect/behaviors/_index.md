@@ -1,6 +1,6 @@
 ---
-title: 行为
-second_title: Aspose.Slides for .NET API 参考
+title: Behaviors
+second_title: Aspose.Slides for .NET API Reference
 description: 返回效果的行为集合。读/写 IBehaviorCollectionaspose.slides/ibehaviorcollection。
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/effect/behaviors/
 public IBehaviorCollection Behaviors { get; set; }
 ```
 
-### 参见
+### 另见
 
 * 接口 [IBehaviorCollection](../../ibehaviorcollection)
 * 类 [Effect](../../effect)

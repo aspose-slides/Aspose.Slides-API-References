@@ -1,6 +1,6 @@
 ---
 title: GradientStop
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для справочника API .NET
 description: Представляет формат градиента.
 type: docs
 weight: 4820
@@ -20,17 +20,17 @@ public sealed class GradientStop : PVIObject, IGradientStop
 | Имя | Описание |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../ipresentationcomponent). |
-| [Color](../../aspose.slides/gradientstop/color) { get; } | Возвращает цвет градиентной остановки. Только для чтения [`IColorFormat`](../icolorformat). |
-| [Position](../../aspose.slides/gradientstop/position) { get; set; } | Возвращает или задает позицию (0..1) градиентной остановки. Чтение/запись Single. |
+| [Color](../../aspose.slides/gradientstop/color) { get; } | Возвращает цвет остановки градиента. Только для чтения [`IColorFormat`](../icolorformat). |
+| [Position](../../aspose.slides/gradientstop/position) { get; set; } | Возвращает или задает позицию (0..1) остановки градиента. Чтение/запись Single. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с указанным объектом. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с заданным объектом. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хэш-код. |
 
-### Смотрите Также
+### См. также
 
 * класс [PVIObject](../pviobject)
 * интерфейс [IGradientStop](../igradientstop)

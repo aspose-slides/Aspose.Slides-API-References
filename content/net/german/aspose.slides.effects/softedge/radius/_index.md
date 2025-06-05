@@ -1,7 +1,7 @@
 ---
 title: Radius
 second_title: Aspose.Slides für .NET API-Referenz
-description: Legt den Radius der Unschärfe fest, der auf die Kanten angewendet werden soll. Lese-/Schreib-Doppelt.
+description: Gibt den Weichzeichnungsradius an, der auf die Ränder angewendet werden soll. Lese-/schreibbare Double.
 type: docs
 weight: 10
 url: /de/aspose.slides.effects/softedge/radius/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.effects/softedge/radius/
 
 ## SoftEdge.Radius-Eigenschaft
 
-Legt den Radius der Unschärfe fest, der auf die Kanten angewendet werden soll. Lese-/Schreib-Doppelt.
+Gibt den Weichzeichnungsradius an, der auf die Ränder angewendet werden soll. Lese-/schreibbare Double.
 
 ```csharp
 public double Radius { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [SoftEdge](../../softedge)
 * Namespace [Aspose.Slides.Effects](../../softedge)

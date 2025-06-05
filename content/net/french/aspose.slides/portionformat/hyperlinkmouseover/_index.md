@@ -1,21 +1,21 @@
 ---
 title: HyperlinkMouseOver
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit l'hyperlien défini pour le survol de la souris. Lecture/écriture IHyperlinkaspose.slides/ihyperlink.
+second_title: Aspose.Slides pour .NET API Référence
+description: Renvoie ou définit l'hyperlien défini pour le passage de la souris. Lecture/écriture IHyperlinkaspose.slides/ihyperlink.
 type: docs
 weight: 50
 url: /fr/aspose.slides/portionformat/hyperlinkmouseover/
 ---
 
-## Propriété PortionFormat.HyperlinkMouseOver
+## PortionFormat.HyperlinkMouseOver propriété
 
-Renvoie ou définit l'hyperlien défini pour le survol de la souris. Lecture/écriture [`IHyperlink`](../../ihyperlink).
+Renvoie ou définit l'hyperlien défini pour le passage de la souris. Lecture/écriture [`IHyperlink`](../../ihyperlink).
 
 ```csharp
 public IHyperlink HyperlinkMouseOver { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IHyperlink](../../ihyperlink)
 * classe [PortionFormat](../../portionformat)

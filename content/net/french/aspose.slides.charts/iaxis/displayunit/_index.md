@@ -15,7 +15,7 @@ Spécifie la valeur d'échelle des unités d'affichage pour l'axe des valeurs. L
 public DisplayUnitType DisplayUnit { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [DisplayUnitType](../../displayunittype)
 * interface [IAxis](../../iaxis)

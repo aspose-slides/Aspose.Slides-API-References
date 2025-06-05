@@ -1,7 +1,7 @@
 ---
 title: WriteAsSvg
-second_title: Aspose.Sildes для .NET API Reference
-description: Сохраняет содержимое слайда как файл SVG.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Сохраняет содержимое слайда в виде файла SVG.
 type: docs
 weight: 140
 url: /ru/aspose.slides/slide/writeassvg/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/slide/writeassvg/
 
 ## WriteAsSvg(Stream) {#writeassvg}
 
- Saves the slide content as an SVG file.
+Сохраняет содержимое слайда в виде файла SVG.
 
 ```csharp
 public void WriteAsSvg(Stream stream)
@@ -21,7 +21,7 @@ public void WriteAsSvg(Stream stream)
 
 ### Примеры
 
-Следующий пример кода демонстрирует, как конвертировать первый слайд из презентации PowerPoint в файл SVG.
+Следующий пример кода демонстрирует, как преобразовать первый слайд из презентации PowerPoint в файл SVG.
 
 ```csharp
 [C#]
@@ -29,7 +29,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     using (Stream fileStream = System.IO.File.Create("slide_1.svg"))
     {
-        // Сохраняет первый слайд как файл SVG
+        // Сохраняет первый слайд в виде файла SVG
         pres.Slides[0].WriteAsSvg(fileStream);
     }
 }
@@ -45,7 +45,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## WriteAsSvg(Stream, ISVGOptions) {#writeassvg_1}
 
-Сохраняет содержимое слайда как файл SVG.
+Сохраняет содержимое слайда в виде файла SVG.
 
 ```csharp
 public void WriteAsSvg(Stream stream, ISVGOptions svgOptions)
@@ -54,11 +54,11 @@ public void WriteAsSvg(Stream stream, ISVGOptions svgOptions)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Целевой поток |
-| svgOptions | ISVGOptions | Параметры генерации SVG |
+| svgOptions | ISVGOptions | Опции генерации SVG |
 
 ### Примеры
 
-Следующий пример кода демонстрирует, как конвертировать первый слайд из презентации PowerPoint в файл SVG с параметрами.
+Следующий пример кода демонстрирует, как преобразовать первый слайд из презентации PowerPoint в файл SVG с опциями.
 
 ```csharp
 [C#]
@@ -67,7 +67,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
     using (Stream fileStream = System.IO.File.Create("slide_1.svg"))
     {
         var options = new SVGOptions() { VectorizeText = true };
-        // Сохраняет первый слайд как файл SVG
+        // Сохраняет первый слайд в виде файла SVG
         pres.Slides[0].WriteAsSvg(fileStream, options);
     }
 }

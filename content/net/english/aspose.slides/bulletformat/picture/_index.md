@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/bulletformat/picture/
 ---
+
 ## BulletFormat.Picture property
 
 Returns the picture used as a bullet in a paragraph with no inheritance. Read-only [`ISlidesPicture`](../../islidespicture).

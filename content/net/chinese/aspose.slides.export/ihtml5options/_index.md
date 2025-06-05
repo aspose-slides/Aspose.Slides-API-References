@@ -1,6 +1,6 @@
 ---
 title: IHtml5Options
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示 HTML5 导出选项。
 type: docs
 weight: 3760
@@ -19,17 +19,17 @@ public interface IHtml5Options : ISaveOptions
 
 | 名称 | 描述 |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | 返回或设置形状动画选项。可读/写布尔值。 |
-| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | 返回或设置过渡动画选项。可读/写布尔值。 |
-| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | 返回 ISaveOptions 接口。只读 [`ISaveOptions`](../isaveoptions)。 |
-| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | 获取或设置一个值，指示文本是否在不使用连字的情况下呈现。当设置为 `true` 时，呈现输出中将禁用连字。默认情况下，此属性设置为 `false`。 |
-| [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | 返回或设置图像嵌入选项。可读/写布尔值。 |
-| [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | 确定外部资源应存储的位置。可读/写字符串。 |
-| [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | 获取或设置在导出演示文稿时幻灯片在页面上放置的模式 [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
+| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | 获取或设置形状动画选项。读写布尔值。 |
+| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | 获取或设置过渡动画选项。读写布尔值。 |
+| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | 获取 ISaveOptions 接口。只读 [`ISaveOptions`](../isaveoptions)。 |
+| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | 获取或设置一个值，指示文本是否在不使用连字的情况下呈现。当设置为 `true` 时，渲染输出中将禁用连字。默认情况下，属性设置为 `false`。 |
+| [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | 获取或设置图像嵌入选项。读写布尔值。 |
+| [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | 确定外部资源应存储的位置。读写字符串。 |
+| [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | 获取或设置导出演示文稿时幻灯片在页面上的布局模式 [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [ISaveOptions](../isaveoptions)
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)

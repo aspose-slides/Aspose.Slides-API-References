@@ -7,7 +7,7 @@ weight: 8160
 url: /de/aspose.slides.mathtext/imathportion/
 ---
 
-## IMathPortion Schnittstelle
+## IMathPortion-Schnittstelle
 
 Stellt einen Abschnitt mit mathematischem Kontext dar.
 
@@ -36,7 +36,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * Assembly [Aspose.Slides](../../)

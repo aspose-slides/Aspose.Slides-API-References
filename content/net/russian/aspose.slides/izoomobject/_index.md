@@ -1,7 +1,7 @@
 ---
 title: IZoomObject
-second_title: Aspose.Sildes для .NET Справочник по API
-description: Представляет объект зума на слайде.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет объект увеличения на слайде.
 type: docs
 weight: 7190
 url: /ru/aspose.slides/izoomobject/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/izoomobject/
 
 ## Интерфейс IZoomObject
 
-Представляет объект зума на слайде.
+Представляет объект увеличения на слайде.
 
 ```csharp
 public interface IZoomObject : IGraphicalObject
@@ -20,13 +20,13 @@ public interface IZoomObject : IGraphicalObject
 | Имя | Описание |
 | --- | --- |
 | [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | Позволяет получить базовый интерфейс IGraphicalObject. Только для чтения [`IGraphicalObject`](../igraphicalobject). |
-| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | Получает или задает тип изображения объекта зума. Чтение/запись [`ZoomImageType`](../zoomimagetype). Значение по умолчанию: Preview |
-| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | Получает или задает поведение навигации в слайд-шоу. Чтение/запись Boolean. Значение по умолчанию: false |
-| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | Получает или задает значение, указывающее, будет ли зум использовать фон слайдов назначения. Чтение/запись Boolean. Значение по умолчанию: true |
-| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | Получает или задает продолжительность перехода между зумом и слайдом. Чтение/запись Single. Значение по умолчанию: 1.0f |
-| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | Получает или задает изображение для объекта зума. Чтение/запись [`IPPImage`](../ippimage). |
+| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | Получает или устанавливает тип изображения объекта увеличения. Чтение/Запись [`ZoomImageType`](../zoomimagetype). Значение по умолчанию: Preview |
+| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | Получает или устанавливает поведение навигации в слайд-шоу. Чтение/Запись Boolean. Значение по умолчанию: false |
+| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | Получает или устанавливает значение, которое указывает, будет ли Увеличение использовать фон целевого слайда. Чтение/Запись Boolean. Значение по умолчанию: true |
+| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | Получает или устанавливает продолжительность перехода между Увеличением и слайдом. Чтение/Запись Single. Значение по умолчанию: 1.0f |
+| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | Получает или устанавливает изображение для объекта увеличения. Чтение/Запись [`IPPImage`](../ippimage). |
 
-### Смотрите Также
+### Смотрите также
 
 * интерфейс [IGraphicalObject](../igraphicalobject)
 * пространство имен [Aspose.Slides](../../aspose.slides)

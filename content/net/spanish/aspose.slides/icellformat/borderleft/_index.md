@@ -15,11 +15,11 @@ Devuelve un objeto de propiedades de línea de borde izquierdo. Solo lectura [`I
 public ILineFormat BorderLeft { get; }
 ```
 
-### Véase también
+### Ver también
 
-* interfaz [ILineFormat](../../ilineformat)
-* interfaz [ICellFormat](../../icellformat)
-* espacio de nombres [Aspose.Slides](../../icellformat)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [ILineFormat](../../ilineformat)
+* interfaz [ICellFormat](../../icellformat)
+* espacio de nombres [Aspose.Slides](../../icellformat)
+* asamblea [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

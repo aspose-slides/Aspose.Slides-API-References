@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.smartart/smartartnodecollection/syncroot/
 ---
+
 ## SmartArtNodeCollection.SyncRoot property
 
 Returns a synchronization root. Read-only Object.

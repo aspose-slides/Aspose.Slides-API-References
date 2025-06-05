@@ -1,13 +1,13 @@
 ---
 title: InterpretMaskOpAsOpacity
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Utilise l'opération ROP ou l'opacité pour le rendu du pinceau.
 type: docs
 weight: 20
 url: /fr/aspose.slides.export/iinkoptions/interpretmaskopasopacity/
 ---
 
-## Propriété IInkOptions.InterpretMaskOpAsOpacity
+## IInkOptions.InterpretMaskOpAsOpacity propriété
 
 Utilise l'opération ROP ou l'opacité pour le rendu du pinceau.
 
@@ -21,7 +21,7 @@ La valeur par défaut est vraie.
 
 ### Exemples
 
-L'exemple suivant démontre comment définir l'utilisation de ROP pour l'exportation des éléments d'encre :
+L'exemple suivant démontre comment utiliser ROP pour exporter des éléments Ink:
 
 ```csharp
 [C#]

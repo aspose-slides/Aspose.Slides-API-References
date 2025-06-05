@@ -1,7 +1,7 @@
 ---
 title: CellFormat
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Retourne l'objet CellFormat qui contient les propriétés de formatage pour cette cellule. Lecture seule ICellFormataspose.slides/icellformat.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie l'objet CellFormat qui contient des propriétés de formatage pour cette cellule. Lecture seule ICellFormat aspose.slides/icellformat.
 type: docs
 weight: 30
 url: /fr/aspose.slides/icell/cellformat/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/icell/cellformat/
 
 ## Propriété ICell.CellFormat
 
-Retourne l'objet CellFormat qui contient les propriétés de formatage pour cette cellule. Lecture seule [`ICellFormat`](../../icellformat).
+Renvoie l'objet CellFormat qui contient des propriétés de formatage pour cette cellule. Lecture seule [`ICellFormat`](../../icellformat).
 
 ```csharp
 public ICellFormat CellFormat { get; }

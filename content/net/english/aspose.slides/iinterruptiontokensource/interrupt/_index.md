@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/iinterruptiontokensource/interrupt/
 ---
+
 ## IInterruptionTokenSource.Interrupt method
 
 Intialize request for interruption.

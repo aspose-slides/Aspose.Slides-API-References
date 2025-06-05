@@ -1,30 +1,30 @@
 ---
-title: 获取图块
-second_title: Aspose.Slides for .NET API 参考
-description: 为指定颜色的图案填充创建图块图像。
+title: GetTile
+second_title: Aspose.Sildes for .NET API Reference
+description: 使用指定颜色创建图案填充的图块图像。
 type: docs
 weight: 40
 url: /zh/aspose.slides/ipatternformat/gettile/
 ---
 
-## GetTile(Color, Color) {#gettile_1}
+## GetTile(Color, Color) {#gettile_1}
 
-为指定颜色的图案填充创建图块图像。
+使用指定颜色创建图案填充的图块图像。
 
 ```csharp
 public IImage GetTile(Color background, Color foreground)
 ```
 
-| 参数       | 类型   | 描述                          |
-| -------- | ---- | --------------------------- |
-| background | Color | 图案的背景颜色。                  |
-| foreground | Color | 图案的前景颜色。                  |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| background | Color | 图案的背景颜色。 |
+| foreground | Color | 图案的前景颜色。 |
 
 ### 返回值
 
 图块位图。
 
-### 另请参阅
+### 参见
 
 * 接口 [IImage](../../iimage)
 * 接口 [IPatternFormat](../../ipatternformat)
@@ -35,21 +35,21 @@ public IImage GetTile(Color background, Color foreground)
 
 ## GetTile(Color) {#gettile}
 
-为图案填充创建图块图像。
+创建图案填充的图块图像。
 
 ```csharp
 public IImage GetTile(Color styleColor)
 ```
 
-| 参数       | 类型   | 描述                                                 |
-| -------- | ---- | -------------------------------------------------- |
-| styleColor | Color | ShapeEx 的 StyleEx 对象中定义的默认颜色。填充颜色可以依赖于此。 |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| styleColor | Color | 在 ShapeEx 的 StyleEx 对象中定义的默认颜色。填充的颜色可能依赖于此。 |
 
 ### 返回值
 
 图块位图。
 
-### 另请参阅
+### 参见
 
 * 接口 [IImage](../../iimage)
 * 接口 [IPatternFormat](../../ipatternformat)

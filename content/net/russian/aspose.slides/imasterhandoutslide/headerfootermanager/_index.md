@@ -1,15 +1,15 @@
 ---
 title: HeaderFooterManager
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает менеджер HeaderFooter главного слайда раздаточного материала. Только для чтения IMasterHandoutSlideHeaderFooterManageraspose.slides/imasterhandoutslideheaderfootermanager.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает менеджер HeaderFooter для основного слайда раздатки. Только для чтения IMasterHandoutSlideHeaderFooterManageraspose.slides/imasterhandoutslideheaderfootermanager.
 type: docs
 weight: 30
 url: /ru/aspose.slides/imasterhandoutslide/headerfootermanager/
 ---
 
-## Свойство IMasterHandoutSlide.HeaderFooterManager
+## IMasterHandoutSlide.HeaderFooterManager свойство
 
-Возвращает менеджер HeaderFooter главного слайда раздаточного материала. Только для чтения [`IMasterHandoutSlideHeaderFooterManager`](../../imasterhandoutslideheaderfootermanager).
+Возвращает менеджер HeaderFooter для основного слайда раздатки. Только для чтения [`IMasterHandoutSlideHeaderFooterManager`](../../imasterhandoutslideheaderfootermanager).
 
 ```csharp
 public IMasterHandoutSlideHeaderFooterManager HeaderFooterManager { get; }

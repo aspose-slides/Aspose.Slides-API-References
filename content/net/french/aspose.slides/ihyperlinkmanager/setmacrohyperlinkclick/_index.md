@@ -1,7 +1,7 @@
 ---
 title: SetMacroHyperlinkClick
-second_title: Référence API Aspose.Slides pour .NET
-description: Définir un lien hypertexte Macro sur un clic.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Définir un lien hypertexte macro sur un clic.
 type: docs
 weight: 70
 url: /fr/aspose.slides/ihyperlinkmanager/setmacrohyperlinkclick/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ihyperlinkmanager/setmacrohyperlinkclick/
 
 ## Méthode IHyperlinkManager.SetMacroHyperlinkClick
 
-Définir un lien hypertexte Macro sur un clic.
+Définir un lien hypertexte macro sur un clic.
 
 ```csharp
 public IHyperlink SetMacroHyperlinkClick(string macroName)

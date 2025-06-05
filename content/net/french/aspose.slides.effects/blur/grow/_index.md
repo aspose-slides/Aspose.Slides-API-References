@@ -1,15 +1,15 @@
 ---
-title: Grandir
-second_title: Référence API Aspose.Slides pour .NET
-description: Détermine si les limites de l'objet doivent être agrandies à la suite du flou. True indique que les limites sont agrandies tandis que false indique qu'elles ne le sont pas. Booléen en lecture/écriture.
+title: Grow
+second_title: Aspose.Sildes pour .NET API Reference
+description: Détermine si les limites de l'objet doivent être étendues en raison du flou. True indique que les limites sont étendues tandis que false indique qu'elles ne le sont pas. Boolean en lecture/écriture.
 type: docs
 weight: 10
 url: /fr/aspose.slides.effects/blur/grow/
 ---
 
-## Propriété Blur.Grow
+## Blur.Grow property
 
-Détermine si les limites de l'objet doivent être agrandies à la suite du flou. True indique que les limites sont agrandies tandis que false indique qu'elles ne le sont pas. Booléen en lecture/écriture.
+Détermine si les limites de l'objet doivent être étendues en raison du flou. True indique que les limites sont étendues tandis que false indique qu'elles ne le sont pas. Boolean en lecture/écriture.
 
 ```csharp
 public bool Grow { get; set; }

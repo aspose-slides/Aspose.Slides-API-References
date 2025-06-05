@@ -1,6 +1,6 @@
 ---
 title: FirstSlide
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para referencia de API de .NET
 description: Devuelve un hipervínculo a la primera diapositiva de la presentación. Solo lectura Hyperlinkaspose.slides/hyperlink.
 type: docs
 weight: 30
@@ -15,10 +15,10 @@ Devuelve un hipervínculo a la primera diapositiva de la presentación. Solo lec
 public static Hyperlink FirstSlide { get; }
 ```
 
-### Ver también
+### Véase También
 
-* clase [Hyperlink](../../hyperlink)
-* espacio de nombres [Aspose.Slides](../../hyperlink)
-* ensamblaje [Aspose.Slides](../../../)
+* class [Hyperlink](../../hyperlink)
+* namespace [Aspose.Slides](../../hyperlink)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

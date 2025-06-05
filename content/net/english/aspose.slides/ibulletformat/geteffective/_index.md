@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides/ibulletformat/geteffective/
 ---
+
 ## IBulletFormat.GetEffective method
 
 Gets effective bullet formatting data with the inheritance applied.

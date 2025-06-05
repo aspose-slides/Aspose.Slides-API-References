@@ -1,15 +1,15 @@
 ---
 title: IsSeriesUsesYValueCoordinate
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt zurück, ob der angegebene Serientyp Y-Wert-Koordinaten verwendet.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt zurück, ob der angegebene Seriéntyp Y-Wertkoordinaten verwendet.
 type: docs
 weight: 210
 url: /de/aspose.slides.charts/charttypecharacterizer/isseriesusesyvaluecoordinate/
 ---
 
-## ChartTypeCharacterizer.IsSeriesUsesYValueCoordinate-Methode
+## ChartTypeCharacterizer.IsSeriesUsesYValueCoordinate Methode
 
-Gibt zurück, ob der angegebene Serientyp Y-Wert-Koordinaten verwendet.
+Gibt zurück, ob der angegebene Seriéntyp Y-Wertkoordinaten verwendet.
 
 ```csharp
 public static bool IsSeriesUsesYValueCoordinate(ChartType seriesType)
@@ -23,7 +23,7 @@ public static bool IsSeriesUsesYValueCoordinate(ChartType seriesType)
 
 Wahr, wenn verwendet, andernfalls falsch.
 
-### Siehe auch
+### Siehe Auch
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

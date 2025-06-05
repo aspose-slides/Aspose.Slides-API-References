@@ -1,7 +1,7 @@
 ---
 title: EffectFormat
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает свойства текста EffectFormat. Только для чтения IEffectFormatEffectiveDataaspose.slides/ieffectformateffectivedata.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает свойства текстового EffectFormat. Только для чтения IEffectFormatEffectiveDataaspose.slides/ieffectformateffectivedata.
 type: docs
 weight: 40
 url: /ru/aspose.slides/ibaseportionformateffectivedata/effectformat/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/ibaseportionformateffectivedata/effectformat/
 
 ## IBasePortionFormatEffectiveData.EffectFormat свойство
 
-Возвращает свойства текста EffectFormat. Только для чтения [`IEffectFormatEffectiveData`](../../ieffectformateffectivedata).
+Возвращает свойства текстового EffectFormat. Только для чтения [`IEffectFormatEffectiveData`](../../ieffectformateffectivedata).
 
 ```csharp
 public IEffectFormatEffectiveData EffectFormat { get; }
 ```
 
-### См. Также
+### Дополнительно
 
 * интерфейс [IEffectFormatEffectiveData](../../ieffectformateffectivedata)
 * интерфейс [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)

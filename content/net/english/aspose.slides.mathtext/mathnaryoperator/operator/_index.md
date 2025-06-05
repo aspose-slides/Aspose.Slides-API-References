@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.mathtext/mathnaryoperator/operator/
 ---
+
 ## MathNaryOperator.Operator property
 
 Nary Operator Character For example: '∑', '∫'

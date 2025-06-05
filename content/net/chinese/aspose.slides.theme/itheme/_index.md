@@ -1,6 +1,6 @@
 ---
 title: ITheme
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示一个主题。
 type: docs
 weight: 11060
@@ -28,9 +28,9 @@ public interface ITheme : IPresentationComponent
 
 | 名称 | 描述 |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/itheme/geteffective)() | 获取应用了继承的有效主题数据。 |
+| [GetEffective](../../aspose.slides.theme/itheme/geteffective)() | 获取应用继承的有效主题数据。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IPresentationComponent](../../aspose.slides/ipresentationcomponent)
 * 命名空间 [Aspose.Slides.Theme](../../aspose.slides.theme)

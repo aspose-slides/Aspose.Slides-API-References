@@ -23,22 +23,22 @@ public ISlide AddClone(ISlide sourceSlide)
 
 Neue Folie.
 
-### Bemerkungen
+### Anmerkungen
 
-Beim Klonen einer Folie zwischen verschiedenen Präsentationen kann auch die Masterfolie geklont werden. Ein internes Register wird verwendet, um automatisch geklonte Masterfolien zu verfolgen, um die Erstellung mehrerer Klone derselben Masterfolie zu verhindern. Das manuelle Klonen von Masterfolien wird weder verhindert noch registriert. Wenn Sie mehr Kontrolle über den Klonprozess benötigen, verwenden Sie [`AddClone`](../addclone) oder [`AddClone`](../addclone) zum Klonen von Folien, [`AddClone`](../../igloballayoutslidecollection/addclone) oder [`AddClone`](../../igloballayoutslidecollection/addclone) zum Klonen von Layouts und [`AddClone`](../../imasterslidecollection/addclone) zum Klonen von Masterfolien.
+Beim Klonen einer Folie zwischen verschiedenen Präsentationen kann auch das Master der Folie geklont werden. Ein internes Register wird verwendet, um automatisch geklonte Master nachzuverfolgen, um die Erstellung mehrerer Klone der gleichen Masterfolie zu verhindern. Manuelles Klonen von Masterfolien wird weder verhindert noch registriert. Wenn Sie mehr Kontrolle über den Klonungsprozess benötigen, verwenden Sie [`AddClone`](../addclone) oder [`AddClone`](../addclone) zum Klonen von Folien, [`AddClone`](../../igloballayoutslidecollection/addclone) oder [`AddClone`](../../igloballayoutslidecollection/addclone) zum Klonen von Layouts und [`AddClone`](../../imasterslidecollection/addclone) zum Klonen von Masterfolien.
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ISlide](../../islide)
 * Schnittstelle [ISlideCollection](../../islidecollection)
-* Namensraum [Aspose.Slides](../../islidecollection)
+* Namespace [Aspose.Slides](../../islidecollection)
 * Assembly [Aspose.Slides](../../../)
 
 ---
 
 ## AddClone(ISlide, ISection) {#addclone_3}
 
-Fügt eine Kopie einer angegebenen Folie am Ende der angegebenen Sektion hinzu.
+Fügt eine Kopie einer angegebenen Folie am Ende des angegebenen Abschnitts hinzu.
 
 ```csharp
 public ISlide AddClone(ISlide sourceSlide, ISection section)
@@ -47,7 +47,7 @@ public ISlide AddClone(ISlide sourceSlide, ISection section)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | sourceSlide | ISlide | Folie zum Klonen. |
-| section | ISection | Sektion für eine neue Folie. |
+| section | ISection | Abschnitt für eine neue Folie. |
 
 ### Rückgabewert
 
@@ -67,21 +67,21 @@ Neue Folie.
 using (IPresentation presentation = new Presentation())
 {
     presentation.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 50, 300, 100);
-    presentation.Sections.AddSection("Abschnitt 1", presentation.Slides[0]);
+    presentation.Sections.AddSection("Section 1", presentation.Slides[0]);
     
-    ISection section2 = presentation.Sections.AppendEmptySection("Abschnitt 2");
+    ISection section2 = presentation.Sections.AppendEmptySection("Section 2");
     presentation.Slides.AddClone(presentation.Slides[0], section2);
     
     // Jetzt enthält der zweite Abschnitt eine Kopie der ersten Folie.
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ISlide](../../islide)
 * Schnittstelle [ISection](../../isection)
 * Schnittstelle [ISlideCollection](../../islidecollection)
-* Namensraum [Aspose.Slides](../../islidecollection)
+* Namespace [Aspose.Slides](../../islidecollection)
 * Assembly [Aspose.Slides](../../../)
 
 ---
@@ -103,19 +103,19 @@ public ISlide AddClone(ISlide sourceSlide, ILayoutSlide destLayout)
 
 Neue Folie.
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ISlide](../../islide)
 * Schnittstelle [ILayoutSlide](../../ilayoutslide)
 * Schnittstelle [ISlideCollection](../../islidecollection)
-* Namensraum [Aspose.Slides](../../islidecollection)
+* Namespace [Aspose.Slides](../../islidecollection)
 * Assembly [Aspose.Slides](../../../)
 
 ---
 
 ## AddClone(ISlide, IMasterSlide, bool) {#addclone_2}
 
-Fügt eine Kopie einer angegebenen Quellfolie am Ende der Sammlung hinzu. Das geeignete Layout wird automatisch aus der angegebenen Masterfolie ausgewählt (das geeignete Layout ist das Layout mit dem gleichen Typ oder Namen wie das Layout der Quellfolie). Wenn es kein geeignetes Layout gibt, wird das Layout der Quellfolie geklont (wenn allowCloneMissingLayout true ist) oder eine PptxEditException wird ausgelöst (wenn allowCloneMissingLayout false ist).
+Fügt eine Kopie einer angegebenen Quellfolie am Ende der Sammlung hinzu. Das geeignete Layout wird automatisch aus dem angegebenen Master ausgewählt (das geeignete Layout ist das Layout mit dem gleichen Typ oder Namen wie das Layout der Quellfolie). Wenn es kein geeignetes Layout gibt, wird das Layout der Quellfolie geklont (wenn allowCloneMissingLayout true ist) oder eine PptxEditException wird ausgelöst (wenn allowCloneMissingLayout false ist).
 
 ```csharp
 public ISlide AddClone(ISlide sourceSlide, IMasterSlide destMaster, bool allowCloneMissingLayout)
@@ -125,7 +125,7 @@ public ISlide AddClone(ISlide sourceSlide, IMasterSlide destMaster, bool allowCl
 | --- | --- | --- |
 | sourceSlide | ISlide | Folie zum Klonen. |
 | destMaster | IMasterSlide | Masterfolie für eine neue Folie. |
-| allowCloneMissingLayout | Boolean | Wenn es kein geeignetes Layout in der angegebenen Masterfolie gibt, wird das Layout der Quellfolie geklont (wenn allowCloneMissingLayout true ist) oder eine PptxEditException wird ausgelöst (wenn allowCloneMissingLayout false ist). |
+| allowCloneMissingLayout | Boolean | Wenn es kein geeignetes Layout im angegebenen Master gibt, wird das Layout der Quellfolie geklont (wenn allowCloneMissingLayout true ist) oder eine PptxEditException wird ausgelöst (wenn allowCloneMissingLayout false ist). |
 
 ### Rückgabewert
 
@@ -135,14 +135,14 @@ Neue Folie.
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Wird ausgelöst, wenn es kein geeignetes Layout in der angegebenen Masterfolie gibt und allowCloneMissingLayout false ist. |
+| [PptxEditException](../../pptxeditexception) | Wird ausgelöst, wenn es im angegebenen Master kein geeignetes Layout gibt und allowCloneMissingLayout false ist. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ISlide](../../islide)
 * Schnittstelle [IMasterSlide](../../imasterslide)
 * Schnittstelle [ISlideCollection](../../islidecollection)
-* Namensraum [Aspose.Slides](../../islidecollection)
+* Namespace [Aspose.Slides](../../islidecollection)
 * Assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

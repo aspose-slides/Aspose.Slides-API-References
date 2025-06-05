@@ -1,6 +1,6 @@
 ---
 title: FadeDirection
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Especifica la dirección para desplazar la reflexión. ángulo. Lectura/escritura Simple.
 type: docs
 weight: 80
@@ -19,6 +19,6 @@ public float FadeDirection { get; set; }
 
 * interfaz [IReflection](../../ireflection)
 * espacio de nombres [Aspose.Slides.Effects](../../ireflection)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

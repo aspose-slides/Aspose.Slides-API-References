@@ -1,15 +1,15 @@
 ---
 title: HasUpDownBars
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Determina si el gráfico tiene barras de subida/bajada. Booleano de lectura/escritura.
+second_title: Referencia de la API Aspose.Slides para .NET
+description: Determina si el gráfico tiene barras de subidas/bajadas. Booleano de lectura/escritura.
 type: docs
 weight: 30
 url: /es/aspose.slides.charts/iupdownbarsmanager/hasupdownbars/
 ---
 
-## Propiedad IUpDownBarsManager.HasUpDownBars
+## IUpDownBarsManager.HasUpDownBars propiedad
 
-Determina si el gráfico tiene barras de subida/bajada. Booleano de lectura/escritura.
+Determina si el gráfico tiene barras de subidas/bajadas. Booleano de lectura/escritura.
 
 ```csharp
 public bool HasUpDownBars { get; set; }
@@ -19,6 +19,6 @@ public bool HasUpDownBars { get; set; }
 
 * interfaz [IUpDownBarsManager](../../iupdownbarsmanager)
 * espacio de nombres [Aspose.Slides.Charts](../../iupdownbarsmanager)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

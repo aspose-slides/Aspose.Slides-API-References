@@ -1,7 +1,7 @@
 ---
 title: X
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die x-Koordinate eines Titels als Bruchteil der Breite des Diagramms zurück oder legt sie fest. Lese- und Schreibzugriff auf Single.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die x-Koordinate eines Titels als Bruchteil der Breite des Diagramms zurück oder setzt diese. Lese-/Schreibzugriff auf Single.
 type: docs
 weight: 100
 url: /de/aspose.slides.charts/charttitle/x/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/charttitle/x/
 
 ## ChartTitle.X-Eigenschaft
 
-Gibt die x-Koordinate eines Titels als Bruchteil der Breite des Diagramms zurück oder legt sie fest. Lese- und Schreibzugriff auf Single.
+Gibt die x-Koordinate eines Titels als Bruchteil der Breite des Diagramms zurück oder setzt diese. Lese-/Schreibzugriff auf Single.
 
 ```csharp
 public float X { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [ChartTitle](../../charttitle)
 * Namespace [Aspose.Slides.Charts](../../charttitle)

@@ -1,15 +1,15 @@
 ---
 title: FirstSliceAngle
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie l'angle de la première tranche de graphique en secteur ou en doughnut en degrés, dans le sens des aiguilles d'une montre à partir de 0 jusqu'à 360 degrés. C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est la projection de la propriété de groupe appropriée. Et donc, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété en lecture/écriture ParentSeriesGroup.FirstSliceAngle pour modifier la valeur. UInt16 en lecture seule.
+second_title: Aspose.Slides pour .NET Référence API
+description: Spécifie l'angle du premier segment de graphique en secteurs ou en beignets en degrés dans le sens des aiguilles d'une montre à partir de 0 jusqu'à 360 degrés. C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est la projection de la propriété appropriée du groupe. Par conséquent, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété ParentSeriesGroup.FirstSliceAngle en lecture/écriture pour changer la valeur. UInt16 en lecture seule.
 type: docs
 weight: 100
 url: /fr/aspose.slides.charts/ichartseries/firstsliceangle/
 ---
 
-## Propriété IChartSeries.FirstSliceAngle
+## IChartSeries.FirstSliceAngle property
 
-Spécifie l'angle de la première tranche de graphique en secteur ou en doughnut, en degrés (dans le sens des aiguilles d'une montre à partir du haut, de 0 à 360 degrés). C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est la projection de la propriété de groupe appropriée. Et donc, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété en lecture/écriture ParentSeriesGroup.FirstSliceAngle pour modifier la valeur. UInt16 en lecture seule.
+Spécifie l'angle du premier segment de graphique en secteurs ou en beignets, en degrés (dans le sens des aiguilles d'une montre à partir du haut, de 0 à 360 degrés). C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est la projection de la propriété appropriée du groupe. Par conséquent, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété ParentSeriesGroup.FirstSliceAngle en lecture/écriture pour changer la valeur. UInt16 en lecture seule.
 
 ```csharp
 public ushort FirstSliceAngle { get; }
@@ -19,7 +19,7 @@ public ushort FirstSliceAngle { get; }
 
 C'est la projection de la propriété ParentSeriesGroup.FirstSliceAngle.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IChartSeries](../../ichartseries)
 * namespace [Aspose.Slides.Charts](../../ichartseries)

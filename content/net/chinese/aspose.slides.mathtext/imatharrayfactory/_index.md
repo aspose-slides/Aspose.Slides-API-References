@@ -1,6 +1,6 @@
 ---
 title: IMathArrayFactory
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 允许创建数学数组
 type: docs
 weight: 7860
@@ -19,14 +19,14 @@ public interface IMathArrayFactory
 
 | 名称 | 描述 |
 | --- | --- |
-| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray)(IMathElement) | 创建一个数学数组，并将指定元素放置其中 |
-| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | 创建一个数学数组，并将指定的元素放置其中 |
+| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray)(IMathElement) | 创建一个数学数组并将指定元素放入其中 |
+| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | 创建一个数学数组并将指定元素放入其中 |
 
 ### 备注
 
-用于 COM 兼容性
+为了与 COM 兼容
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 程序集 [Aspose.Slides](../../)

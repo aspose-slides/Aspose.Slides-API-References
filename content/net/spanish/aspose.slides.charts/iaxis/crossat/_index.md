@@ -1,24 +1,24 @@
----
+---  
 title: CrossAt
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET  
 description: Representa el punto en el eje donde el eje perpendicular lo cruza. Lectura/escritura Simple.
-type: docs
-weight: 130
+type: docs  
+weight: 130  
 url: /es/aspose.slides.charts/iaxis/crossat/
----
+---  
 
-## Propiedad IAxis.CrossAt
+## IAxis.CrossAt property  
 
-Representa el punto en el eje donde el eje perpendicular lo cruza. Lectura/escritura Simple.
+Representa el punto en el eje donde el eje perpendicular lo cruza. Lectura/escritura Simple.  
 
-```csharp
-public float CrossAt { get; set; }
-```
+```csharp  
+public float CrossAt { get; set; }  
+```  
 
-### Ver También
+### Ver También  
 
-* interfaz [IAxis](../../iaxis)
-* espacio de nombres [Aspose.Slides.Charts](../../iaxis)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IAxis](../../iaxis)  
+* espacio de nombres [Aspose.Slides.Charts](../../iaxis)  
+* ensamblado [Aspose.Slides](../../../)  
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  

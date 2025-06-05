@@ -1,7 +1,7 @@
 ---
 title: ShowOutlierPoints
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt Ausreißpunkte dar. Wahr, wenn Ausreißpunkte im BoxAndWhisker-Diagramm angezeigt werden. Gilt nur für BoxAndWhisker-Diagramme. Lese-/Schreib-Boolescher Wert.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt Ausreißerpunkte dar. Wahr, wenn Ausreißerpunkte im BoxAndWhisker-Diagramm angezeigt werden. Gilt nur für BoxAndWhisker-Diagramme. Lese-/schreibbare Boolesche Variable.
 type: docs
 weight: 410
 url: /de/aspose.slides.charts/ichartseries/showoutlierpoints/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartseries/showoutlierpoints/
 
 ## IChartSeries.ShowOutlierPoints-Eigenschaft
 
-Stellt Ausreißpunkte dar. Wahr, wenn Ausreißpunkte im BoxAndWhisker-Diagramm angezeigt werden. Gilt nur für BoxAndWhisker-Diagramme. Lese-/Schreib-Boolescher Wert.
+Stellt Ausreißerpunkte dar. Wahr, wenn Ausreißerpunkte im BoxAndWhisker-Diagramm angezeigt werden. Gilt nur für BoxAndWhisker-Diagramme. Lese-/schreibbare Boolesche Variable.
 
 ```csharp
 public bool ShowOutlierPoints { get; set; }

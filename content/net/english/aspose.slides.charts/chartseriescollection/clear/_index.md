@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.charts/chartseriescollection/clear/
 ---
+
 ## ChartSeriesCollection.Clear method
 
 Removes all controls from the collection.

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.export/pdfoptions/applyimagetransparent/
 ---
+
 ## PdfOptions.ApplyImageTransparent property
 
 Applies the specified transparent color to an image if `true`.

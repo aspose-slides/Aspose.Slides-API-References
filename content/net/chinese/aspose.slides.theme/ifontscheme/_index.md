@@ -1,6 +1,6 @@
 ---
 title: IFontScheme
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 存储主题定义的字体。
 type: docs
 weight: 10940
@@ -23,7 +23,7 @@ public interface IFontScheme
 | [Minor](../../aspose.slides.theme/ifontscheme/minor) { get; } | 返回幻灯片“正文”部分的字体集合。只读 [`IFonts`](../../aspose.slides/ifonts)。 |
 | [Name](../../aspose.slides.theme/ifontscheme/name) { get; set; } | 返回字体方案名称。可读写字符串。 |
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.Theme](../../aspose.slides.theme)
 * 程序集 [Aspose.Slides](../../)

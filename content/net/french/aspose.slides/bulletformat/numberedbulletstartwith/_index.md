@@ -1,6 +1,6 @@
 ---
 title: NumberedBulletStartWith
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Renvoie ou définit le premier numéro utilisé pour un groupe de puces numérotées sans héritage. Lecture/écriture Int16.
 type: docs
 weight: 70

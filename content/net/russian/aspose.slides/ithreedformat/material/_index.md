@@ -1,15 +1,15 @@
 ---
-title: Материал
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает тип материала. Чтение/запись MaterialPresetTypeaspose.slides/materialpresettype.
+title: Material
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или задает тип материала. Чтение/запись MaterialPresetTypeaspose.slides/materialpresettype.
 type: docs
 weight: 110
 url: /ru/aspose.slides/ithreedformat/material/
 ---
 
-## Свойство IThreeDFormat.Material
+## IThreeDFormat.Material свойство
 
-Возвращает или устанавливает тип материала. Чтение/запись [`MaterialPresetType`](../../materialpresettype).
+Возвращает или задает тип материала. Чтение/запись [`MaterialPresetType`](../../materialpresettype).
 
 ```csharp
 public MaterialPresetType Material { get; set; }

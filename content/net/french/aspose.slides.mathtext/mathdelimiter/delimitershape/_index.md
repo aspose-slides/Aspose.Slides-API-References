@@ -1,15 +1,15 @@
 ---
 title: DelimiterShape
 second_title: Aspose.Slides pour .NET Référence API
-description: Spécifie la forme des délimiteurs dans l'objet délimiteur. Lorsqu'il s'agit de MathDelimiterShape.Centered, les délimiteurs sont centrés autour de l'axe mathématique du texte mathématique et peuvent encore être adaptés à toute la hauteur de leur contenu. Lorsqu'il s'agit de MathDelimiterShape.Match, leur hauteur et leur forme sont modifiées pour correspondre exactement à leur contenu.
+description: Spécifie la forme des délimiteurs dans l'objet délimiteur. Lorsque c'est MathDelimiterShape.Centered, les délimiteurs sont centrés autour de l'axe mathématique du texte mathématique et peuvent encore être ajustés pour correspondre à la hauteur totale de leur contenu. Lorsque c'est MathDelimiterShape.Match, leur hauteur et leur forme sont modifiées pour correspondre exactement à leur contenu.
 type: docs
 weight: 40
 url: /fr/aspose.slides.mathtext/mathdelimiter/delimitershape/
 ---
 
-## Propriété MathDelimiter.DelimiterShape
+## MathDelimiter.DelimiterShape propriété
 
-Spécifie la forme des délimiteurs dans l'objet délimiteur. Lorsqu'il s'agit de MathDelimiterShape.Centered, les délimiteurs sont centrés autour de l'axe mathématique du texte mathématique et peuvent encore être adaptés à toute la hauteur de leur contenu. Lorsqu'il s'agit de MathDelimiterShape.Match, leur hauteur et leur forme sont modifiées pour correspondre exactement à leur contenu.
+Spécifie la forme des délimiteurs dans l'objet délimiteur. Lorsque c'est MathDelimiterShape.Centered, les délimiteurs sont centrés autour de l'axe mathématique du texte mathématique et peuvent encore être ajustés pour correspondre à la hauteur totale de leur contenu. Lorsque c'est MathDelimiterShape.Match, leur hauteur et leur forme sont modifiées pour correspondre exactement à leur contenu.
 
 ```csharp
 public MathDelimiterShape DelimiterShape { get; set; }
@@ -25,7 +25,7 @@ IMathDelimiter delimiter = new MathematicalText("x").Divide("y").Enclose();
 delimiter.DelimiterShape = MathDelimiterShape.Match;
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [MathDelimiterShape](../../mathdelimitershape)
 * class [MathDelimiter](../../mathdelimiter)

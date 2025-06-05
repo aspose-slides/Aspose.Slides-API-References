@@ -1,6 +1,6 @@
 ---
 title: TextSearchOptions
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt Optionen dar, die verwendet werden können, um nach Text in einer Präsentationsfolie oder TextFrame zu suchen.
 type: docs
 weight: 10660
@@ -19,18 +19,18 @@ public class TextSearchOptions : ITextSearchOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [TextSearchOptions](textsearchoptions)() | Erstellt neue Standardoptionen für die Textsuche. |
+| [TextSearchOptions](textsearchoptions)() | Erstellt neue Standard-Textsuchoptionen. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/textsearchoptions/casesensitive) { get; set; } | Setzen Sie true, um die Groß- und Kleinschreibung bei der Suche zu berücksichtigen, false - andernfalls. Lese-/Schreib-Boolean. |
-| [WholeWordsOnly](../../aspose.slides/textsearchoptions/wholewordsonly) { get; set; } | Setzen Sie true, um nur ganze Wörter zu suchen, false - andernfalls. Lese-/Schreib-Boolean. |
+| [CaseSensitive](../../aspose.slides/textsearchoptions/casesensitive) { get; set; } | Setzen Sie true, um die Groß-/Kleinschreibung bei der Suche zu beachten, false - andernfalls. Lese-/Schreib-Boolean. |
+| [WholeWordsOnly](../../aspose.slides/textsearchoptions/wholewordsonly) { get; set; } | Setzen Sie true, um nur ganze Wörter zu verwenden, false - andernfalls. Lese-/Schreib-Boolean. |
 
-### Siehe Auch
+### Siehe auch
 
-* Interface [ITextSearchOptions](../itextsearchoptions)
+* Schnittstelle [ITextSearchOptions](../itextsearchoptions)
 * Namespace [Aspose.Slides](../../aspose.slides)
 * Assembly [Aspose.Slides](../../)
 

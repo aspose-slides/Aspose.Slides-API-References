@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.charts/iaxesmanager/seriesaxis/
 ---
+
 ## IAxesManager.SeriesAxis property
 
 Gets the chart's series axis. Read-only [`IAxis`](../../iaxis).

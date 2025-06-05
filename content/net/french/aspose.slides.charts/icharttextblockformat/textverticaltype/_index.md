@@ -1,15 +1,15 @@
 ---
 title: TextVerticalType
-second_title: Référence API Aspose.Slides pour .NET
-description: Détermine l'orientation du texte. La valeur résultante de la rotation visuelle du texte résumée à partir de cette propriété et de l'angle personnalisé dans la propriété RotationAngle. Lecture/écriture TextVerticalType aspose.slides/textverticaltype.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Détermine l'orientation du texte. La valeur résultante de la rotation visuelle du texte est résumée à partir de cette propriété et d'un angle personnalisé dans la propriété RotationAngle. Lecture/écriture TextVerticalTypeaspose.slides/../aspose.slides/textverticaltype.
 type: docs
 weight: 90
 url: /fr/aspose.slides.charts/icharttextblockformat/textverticaltype/
 ---
 
-## IChartTextBlockFormat.TextVerticalType propriété
+## IChartTextBlockFormat.TextVerticalType property
 
-Détermine l'orientation du texte. La valeur résultante de la rotation visuelle du texte résumée à partir de cette propriété et de l'angle personnalisé dans la propriété RotationAngle. Lecture/écriture [`TextVerticalType`](../../../aspose.slides/textverticaltype).
+Détermine l'orientation du texte. La valeur résultante de la rotation visuelle du texte est résumée à partir de cette propriété et d'un angle personnalisé dans la propriété RotationAngle. Lecture/écriture [`TextVerticalType`](../../../aspose.slides/textverticaltype).
 
 ```csharp
 public TextVerticalType TextVerticalType { get; set; }

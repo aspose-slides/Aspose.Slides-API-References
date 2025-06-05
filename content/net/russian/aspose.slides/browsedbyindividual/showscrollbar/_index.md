@@ -1,6 +1,6 @@
 ---
 title: ShowScrollbar
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Slides для .NET API Reference
 description: Показать полосу прокрутки в окне
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/browsedbyindividual/showscrollbar/
 public bool ShowScrollbar { get; set; }
 ```
 
-### Смотрите Также
+### См. также
 
 * класс [BrowsedByIndividual](../../browsedbyindividual)
 * пространство имен [Aspose.Slides](../../browsedbyindividual)

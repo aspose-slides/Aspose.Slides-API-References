@@ -1,6 +1,6 @@
 ---
 title: AsLiteralString
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de la API
 description: Devuelve o establece el valor como una cadena literal. Lectura/escritura String.
 type: docs
 weight: 30
@@ -19,6 +19,6 @@ public string AsLiteralString { get; set; }
 
 * clase [StringOrDoubleChartValue](../../stringordoublechartvalue)
 * espacio de nombres [Aspose.Slides.Charts](../../stringordoublechartvalue)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

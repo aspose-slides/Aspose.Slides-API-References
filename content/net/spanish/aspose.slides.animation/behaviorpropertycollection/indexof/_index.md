@@ -1,7 +1,7 @@
 ---
 title: IndexOf
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Determina el índice de un ítem específico en el IList.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Determina el índice de un elemento específico en la IList.
 type: docs
 weight: 90
 url: /es/aspose.slides.animation/behaviorpropertycollection/indexof/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.animation/behaviorpropertycollection/indexof/
 
 ## IndexOf(IBehaviorProperty) {#indexof}
 
-Determina el índice de un ítem específico en el IList.
+Determina el índice de un elemento específico en la IList.
 
 ```csharp
 public int IndexOf(IBehaviorProperty item)
@@ -17,7 +17,7 @@ public int IndexOf(IBehaviorProperty item)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| item | IBehaviorProperty | El objeto a localizar en el IList. |
+| item | IBehaviorProperty | El objeto a localizar en la IList. |
 
 ### Valor de Retorno
 
@@ -34,7 +34,7 @@ El índice de *item* si se encuentra en la lista; de lo contrario, -1.
 
 ## IndexOf(string) {#indexof_1}
 
-Determina el índice de un ítem específico por el valor de la propiedad en el IList.
+Determina el índice de un elemento específico por valor de propiedad en la IList.
 
 ```csharp
 public int IndexOf(string propertyValue)
@@ -46,7 +46,7 @@ public int IndexOf(string propertyValue)
 
 ### Valor de Retorno
 
-El índice de la propiedad con el valor especificado.
+El índice de la propiedad con el valor especificado
 
 ### Véase También
 

@@ -15,7 +15,7 @@ Renvoie une racine de synchronisation. Objet en lecture seule.
 public object SyncRoot { get; }
 ```
 
-### Voir également
+### Voir Aussi
 
 * classe [GradientStopCollectionEffectiveData](../../gradientstopcollectioneffectivedata)
 * espace de noms [Aspose.Slides](../../gradientstopcollectioneffectivedata)

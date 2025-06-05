@@ -1,6 +1,6 @@
 ---
 title: CreateMathAccent
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Erstellt einen mathematischen Akzent, der auf ein bestimmtes mathematisches Element mit dem Standardwert des Akzentzeichens angewendet wird
 type: docs
 weight: 20
@@ -17,7 +17,7 @@ public IMathAccent CreateMathAccent(IMathElement element)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| element | IMathElement | Mathematisches Element, auf das der Akzent angewendet werden soll |
+| element | IMathElement | mathematisches Element, auf das der Akzent angewendet wird |
 
 ### Rückgabewert
 
@@ -43,7 +43,7 @@ public IMathAccent CreateMathAccent(IMathElement element, char accentCharacter)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| element | IMathElement | Mathematisches Element, auf das der Akzent angewendet werden soll |
+| element | IMathElement | mathematisches Element, auf das der Akzent angewendet wird |
 | accentCharacter | Char | Akzentzeichen |
 
 ### Rückgabewert

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/coloroperation/parameter/
 ---
+
 ## ColorOperation.Parameter property
 
 Returns a parameter of an operation. Read-only Single.

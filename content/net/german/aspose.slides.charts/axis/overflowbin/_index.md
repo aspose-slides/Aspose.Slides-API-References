@@ -1,7 +1,7 @@
 ---
 title: OverflowBin
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den benutzerdefinierten Wert des Überlaufbehälters an. Wird angewendet, wenn die IsAutomaticOverflowBin-Eigenschaft auf false gesetzt ist und die IsOverflowBin-Eigenschaft true ist.
+description: Gibt einen benutzerdefinierten Wert für den Überlaufbehälter an. Anwendbar, wenn die Eigenschaft IsAutomaticOverflowBin auf false gesetzt ist und die Eigenschaft IsOverflowBin true ist.
 type: docs
 weight: 460
 url: /de/aspose.slides.charts/axis/overflowbin/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/axis/overflowbin/
 
 ## Axis.OverflowBin-Eigenschaft
 
-Gibt den benutzerdefinierten Wert des Überlaufbehälters an. Wird angewendet, wenn die IsAutomaticOverflowBin-Eigenschaft auf false gesetzt ist und die IsOverflowBin-Eigenschaft true ist.
+Gibt einen benutzerdefinierten Wert für den Überlaufbehälter an. Anwendbar, wenn die Eigenschaft IsAutomaticOverflowBin auf false gesetzt ist und die Eigenschaft IsOverflowBin true ist.
 
 ```csharp
 public double OverflowBin { get; set; }
@@ -21,4 +21,4 @@ public double OverflowBin { get; set; }
 * Namespace [Aspose.Slides.Charts](../../axis)
 * Assembly [Aspose.Slides](../../../)
 
-<!-- DO NOT EDIT: erzeugt von xmldocmd für Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generiert von xmldocmd für Aspose.Slides.dll -->

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.theme/imasterthememanager/isoverridethemeenabled/
 ---
+
 ## IMasterThemeManager.IsOverrideThemeEnabled property
 
 Determines whether OverrideTheme overrides inherited effective theme (Presentation.MasterTheme) or not. Read/write Boolean.

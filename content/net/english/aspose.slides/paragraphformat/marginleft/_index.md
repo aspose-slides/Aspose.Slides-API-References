@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/paragraphformat/marginleft/
 ---
+
 ## ParagraphFormat.MarginLeft property
 
 Returns or sets the left margin in a paragraph with no inheritance. Read/write Single.

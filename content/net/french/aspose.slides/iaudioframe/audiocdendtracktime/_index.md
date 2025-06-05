@@ -7,7 +7,7 @@ weight: 30
 url: /fr/aspose.slides/iaudioframe/audiocdendtracktime/
 ---
 
-## Propriété IAudioFrame.AudioCdEndTrackTime
+## IAudioFrame.AudioCdEndTrackTime propriété
 
 Renvoie ou définit un temps de dernière piste. Lecture/écriture Int32.
 

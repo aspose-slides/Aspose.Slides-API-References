@@ -1,5 +1,5 @@
 ---
-title: Élément
+title: Item
 second_title: Référence API Aspose.Slides pour .NET
 description: Obtient l'élément à l'index spécifié. Lecture seule IMathBlockaspose.slides.mathtext/imathblock.
 type: docs
@@ -7,7 +7,7 @@ weight: 30
 url: /fr/aspose.slides.mathtext/imathblockcollection/item/
 ---
 
-## Indiceur IMathBlockCollection
+## Indice IMathBlockCollection
 
 Obtient l'élément à l'index spécifié. Lecture seule [`IMathBlock`](../../imathblock).
 
@@ -19,13 +19,13 @@ public IMathBlock this[int index] { get; set; }
 | --- | --- |
 | index | L'index basé sur zéro de l'élément à obtenir |
 
-### Valeur de retour
+### Valeur de Retour
 
 Le bloc d'un texte mathématique.
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

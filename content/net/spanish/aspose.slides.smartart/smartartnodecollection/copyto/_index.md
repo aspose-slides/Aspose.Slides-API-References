@@ -1,15 +1,15 @@
 ---
 title: CopyTo
-second_title: Aspose.Slides para .NET Referencia de API
-description: Copia todos los elementos de la colección al arreglo especificado.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Copia todos los elementos de la colección al array especificado.
 type: docs
 weight: 70
 url: /es/aspose.slides.smartart/smartartnodecollection/copyto/
 ---
 
-## Método SmartArtNodeCollection.CopyTo
+## SmartArtNodeCollection.CopyTo método
 
-Copia todos los elementos de la colección al arreglo especificado.
+Copia todos los elementos de la colección al array especificado.
 
 ```csharp
 public void CopyTo(Array array, int index)
@@ -22,8 +22,8 @@ public void CopyTo(Array array, int index)
 
 ### Ver También
 
-* clase [SmartArtNodeCollection](../../smartartnodecollection)
-* espacio de nombres [Aspose.Slides.SmartArt](../../smartartnodecollection)
-* ensamblaje [Aspose.Slides](../../../)
+* class [SmartArtNodeCollection](../../smartartnodecollection)
+* namespace [Aspose.Slides.SmartArt](../../smartartnodecollection)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: DataSourceTypeForYPlusValues
-second_title: Aspose.Sildes pour .NET API Reference
-description: Spécifie si la propriété AsCell, AsLiteralString ou AsLiteralDouble est actualisée dans l'objet de propriété YPlus des points de données pour les valeurs personnalisées des barres d'erreur. En d'autres termes, cela spécifie le type de valeur de la propriété ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. Lecture/écriture DataSourceTypeaspose.slides.charts/datasourcetype.
+second_title: Aspose.Sildes pour référence API .NET
+description: Spécifie si la propriété AsCell, AsLiteralString ou AsLiteralDouble est actuelle dans l'objet de propriété YPlus des points de données pour les valeurs personnalisées des barres d'erreur. Autrement dit, cela spécifie le type de valeur de la propriété ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. Lecture/écriture DataSourceTypeaspose.slides/datasourcetype.
 type: docs
 weight: 40
 url: /fr/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasource
 
 ## IDataSourceTypeForErrorBarsCustomValues.DataSourceTypeForYPlusValues property
 
-Spécifie si la propriété AsCell, AsLiteralString ou AsLiteralDouble est actualisée dans l'objet de propriété YPlus des points de données pour les valeurs personnalisées des barres d'erreur. En d'autres termes, cela spécifie le type de valeur de la propriété ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. Lecture/écriture [`DataSourceType`](../../datasourcetype).
+Spécifie si la propriété AsCell, AsLiteralString ou AsLiteralDouble est actuelle dans l'objet de propriété YPlus des points de données pour les valeurs personnalisées des barres d'erreur. Autrement dit, cela spécifie le type de valeur de la propriété ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. Lecture/écriture [`DataSourceType`](../../datasourcetype).
 
 ```csharp
 public DataSourceType DataSourceTypeForYPlusValues { get; set; }

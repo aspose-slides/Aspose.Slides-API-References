@@ -1,15 +1,15 @@
 ---
-title: 插入缩放框
-second_title: Aspose.Slides for .NET API 参考
-description: 创建一个新的缩放对象并将其插入到指定索引的集合中。
+title: InsertZoomFrame
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建一个新的 Zoom 对象并将其插入到指定索引的集合中。
 type: docs
 weight: 360
 url: /zh/aspose.slides/ishapecollection/insertzoomframe/
 ---
 
-## InsertZoomFrame(int, float, float, float, float, ISlide) {#insertzoomframe}
+## InsertZoomFrame(int, float, float, float, float, ISlide) {#insertzoomframe}
 
-创建一个新的缩放对象并将其插入到指定索引的集合中。
+创建一个新的 Zoom 对象并将其插入到指定索引的集合中。
 
 ```csharp
 public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, float height, 
@@ -18,26 +18,26 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 需要插入缩放框的零基索引。 |
-| x | Single | 新缩放框的 X 坐标。 |
-| y | Single | 新缩放框的 Y 坐标。 |
-| width | Single | 新缩放框的宽度。 |
-| height | Single | 新缩放框的高度。 |
-| slide | ISlide | 被缩放框引用的幻灯片对象 [`ISlide`](../../islide)。 |
+| index | Int32 | Zoom 框应插入的零基索引。 |
+| x | Single | 新 Zoom 框的 X 坐标。 |
+| y | Single | 新 Zoom 框的 Y 坐标。 |
+| width | Single | 新 Zoom 框的宽度。 |
+| height | Single | 新 Zoom 框的高度。 |
+| slide | ISlide | 被 Zoom 框引用的幻灯片对象 [`ISlide`](../../islide)。 |
 
 ### 返回值
 
-创建的缩放对象 [`IZoomFrame`](../../izoomframe)。
+创建的 Zoom 对象 [`IZoomFrame`](../../izoomframe)。
 
 ### 异常
 
 | 异常 | 条件 |
 | --- | --- |
-| ArgumentException | 引用的幻灯片不属于当前的演示文稿。 |
+| ArgumentException | 引用的幻灯片不属于当前演示文稿。 |
 
 ### 示例
 
-此示例演示在集合的指定索引处创建和插入缩放对象（假设“Presentation.pptx”演示文稿中至少有两张幻灯片）：
+此示例演示了在集合的指定索引处创建并插入一个 Zoom 对象（假设 "Presentation.pptx" 演示文稿中至少有两张幻灯片）：
 
 ```csharp
 [C#]
@@ -47,7 +47,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IZoomFrame](../../izoomframe)
 * 接口 [ISlide](../../islide)
@@ -57,9 +57,9 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 
 ---
 
-## InsertZoomFrame(int, float, float, float, float, ISlide, IPPImage) {#insertzoomframe_1}
+## InsertZoomFrame(int, float, float, float, float, ISlide, IPPImage) {#insertzoomframe_1}
 
-创建一个新的缩放对象并将其插入到指定索引的集合中。
+创建一个新的 Zoom 对象并将其插入到指定索引的集合中。
 
 ```csharp
 public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, float height, 
@@ -68,27 +68,27 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 需要插入缩放框的零基索引。 |
-| x | Single | 新缩放框的 X 坐标。 |
-| y | Single | 新缩放框的 Y 坐标。 |
-| width | Single | 新缩放框的宽度。 |
-| height | Single | 新缩放框的高度。 |
-| slide | ISlide | 被缩放框引用的幻灯片对象 [`ISlide`](../../islide)。 |
-| image | IPPImage |  referencia 被引用幻灯片的图像 [`IPPImage`](../../ippimage) |
+| index | Int32 | Zoom 框应插入的零基索引。 |
+| x | Single | 新 Zoom 框的 X 坐标。 |
+| y | Single | 新 Zoom 框的 Y 坐标。 |
+| width | Single | 新 Zoom 框的宽度。 |
+| height | Single | 新 Zoom 框的高度。 |
+| slide | ISlide | 被 Zoom 框引用的幻灯片对象 [`ISlide`](../../islide)。 |
+| image | IPPImage | 引用的幻灯片的图像 [`IPPImage`](../../ippimage)。 |
 
 ### 返回值
 
-创建的缩放对象 [`IZoomFrame`](../../izoomframe)。
+创建的 Zoom 对象 [`IZoomFrame`](../../izoomframe)。
 
 ### 异常
 
 | 异常 | 条件 |
 | --- | --- |
-| ArgumentException | 引用的幻灯片不属于当前的演示文稿。 |
+| ArgumentException | 引用的幻灯片不属于当前演示文稿。 |
 
 ### 示例
 
-此示例演示在集合的指定索引处创建和插入缩放对象（假设“Presentation.pptx”演示文稿中至少有两张幻灯片）：
+此示例演示了在集合的指定索引处创建并插入一个 Zoom 对象（假设 "Presentation.pptx" 演示文稿中至少有两张幻灯片）：
 
 ```csharp
 [C#]
@@ -99,7 +99,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IZoomFrame](../../izoomframe)
 * 接口 [ISlide](../../islide)

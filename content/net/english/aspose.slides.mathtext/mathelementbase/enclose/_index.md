@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.mathtext/mathelementbase/enclose/
 ---
+
 ## Enclose(char, char) {#enclose_1}
 
 Encloses a math element in specified characters such as parenthesis or another characters as framing

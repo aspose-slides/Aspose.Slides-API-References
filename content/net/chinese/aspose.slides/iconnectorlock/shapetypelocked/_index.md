@@ -1,6 +1,6 @@
 ---
 title: ShapeTypeLocked
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 确定形状类型的更改是否被禁止。读/写布尔值。
 type: docs
 weight: 100
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/iconnectorlock/shapetypelocked/
 public bool ShapeTypeLocked { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IConnectorLock](../../iconnectorlock)
 * 命名空间 [Aspose.Slides](../../iconnectorlock)

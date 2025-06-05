@@ -15,7 +15,7 @@ El constructor predeterminado.
 public VideoPlayerHtmlControllerFactory()
 ```
 
-### Ver También
+### Vea También
 
 * class [VideoPlayerHtmlControllerFactory](../../videoplayerhtmlcontrollerfactory)
 * namespace [Aspose.Slides.Export](../../videoplayerhtmlcontrollerfactory)

@@ -1,7 +1,7 @@
 ---
-title: Fin
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Fin
+title: End
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: End
 type: docs
 weight: 20
 url: /es/aspose.slides/slidesrange/end/
@@ -9,16 +9,16 @@ url: /es/aspose.slides/slidesrange/end/
 
 ## Propiedad SlidesRange.End
 
-Fin
+End
 
 ```csharp
 public uint End { get; set; }
 ```
 
-### Vea También
+### Ver también
 
 * clase [SlidesRange](../../slidesrange)
 * espacio de nombres [Aspose.Slides](../../slidesrange)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

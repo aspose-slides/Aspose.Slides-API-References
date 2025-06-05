@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ishapebeveleffectivedata/height/
 ---
+
 ## IShapeBevelEffectiveData.Height property
 
 Bevel height. Read-only Double.

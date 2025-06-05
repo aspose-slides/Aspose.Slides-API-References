@@ -1,15 +1,15 @@
 ---
-title: Bild
+title: Image
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das eingebettete Bild zurück. Schreibgeschützte IPPImageaspose.slides/ippimage.
+description: Gibt das eingebettete Bild zurück. Nur-Lese-IPPImageaspose.slides/ippimage.
 type: docs
 weight: 10
 url: /de/aspose.slides/ipictureeffectivedata/image/
 ---
 
-## IPictureEffectiveData.Image Eigenschaft
+## IPictureEffectiveData.Image-Eigenschaft
 
-Gibt das eingebettete Bild zurück. Schreibgeschützte [`IPPImage`](../../ippimage).
+Gibt das eingebettete Bild zurück. Nur-Lese-[`IPPImage`](../../ippimage).
 
 ```csharp
 public IPPImage Image { get; }

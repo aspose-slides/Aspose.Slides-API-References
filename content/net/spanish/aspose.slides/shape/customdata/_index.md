@@ -15,7 +15,7 @@ Devuelve los datos personalizados de la forma. Solo lectura [`ICustomData`](../.
 public ICustomData CustomData { get; }
 ```
 
-### Vea También
+### Véase también
 
 * interfaz [ICustomData](../../icustomdata)
 * clase [Shape](../../shape)

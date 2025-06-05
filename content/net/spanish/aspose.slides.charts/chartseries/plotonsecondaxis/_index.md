@@ -15,10 +15,10 @@ Indica si esta serie se traza en el eje secundario. Booleano de lectura/escritur
 public bool PlotOnSecondAxis { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [ChartSeries](../../chartseries)
 * espacio de nombres [Aspose.Slides.Charts](../../chartseries)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

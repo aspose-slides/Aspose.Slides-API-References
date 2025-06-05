@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells/
 ---
+
 ## ChartCellCollection.GetConcatenatedValuesFromCells method
 
 Concatenation string from all cells string values.

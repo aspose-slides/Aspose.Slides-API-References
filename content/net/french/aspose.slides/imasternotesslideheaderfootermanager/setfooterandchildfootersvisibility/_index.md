@@ -1,7 +1,7 @@
 ---
 title: SetFooterAndChildFootersVisibility
-second_title: Référence API Aspose.Slides pour .NET
-description: Modifie la visibilité de l'espace réservé pour le pied de page de la diapositive de notes maître et de tous les espaces réservés pour les pieds de page enfants. Les espaces réservés enfants signifient que les espaces réservés se trouvent sur les diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maître.
+second_title: Aspose.Slides pour .NET Référence API
+description: Modifie la visibilité du modèle de pied de page de la diapositive de notes maîtres et de tous les pieds de page enfants. Les espaces réservés enfants signifient que les espaces réservés sont contenus sur les diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent des diapositives de notes maîtres.
 type: docs
 weight: 50
 url: /fr/aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfoo
 
 ## IMasterNotesSlideHeaderFooterManager.SetFooterAndChildFootersVisibility méthode
 
-Modifie la visibilité de l'espace réservé pour le pied de page de la diapositive de notes maître et de tous les espaces réservés pour les pieds de page enfants. Les espaces réservés enfants signifient que les espaces réservés se trouvent sur les diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maître.
+Modifie la visibilité du modèle de pied de page de la diapositive de notes maîtres et de tous les pieds de page enfants. Les espaces réservés enfants signifient que les espaces réservés sont contenus sur les diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maîtres.
 
 ```csharp
 public void SetFooterAndChildFootersVisibility(bool isVisible)
@@ -17,7 +17,7 @@ public void SetFooterAndChildFootersVisibility(bool isVisible)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| isVisible | Boolean | true - rend visibles les espaces réservés pour le pied de page, sinon - les cache. |
+| isVisible | Boolean | true - rend les espaces réservés de pied de page visibles, sinon - les cache. |
 
 ### Voir aussi
 

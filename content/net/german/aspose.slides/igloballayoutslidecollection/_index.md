@@ -1,15 +1,15 @@
 ---
 title: IGlobalLayoutSlideCollection
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt eine Sammlung aller Layout-Folien in der Präsentation dar. Erweiterung der ILayoutSlideCollection-Schnittstelle mit Methoden zum Hinzufügen/Klonen von Layout-Folien im Kontext der Vereinigung der einzelnen Sammlungen von Master-Layout-Folien.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt eine Sammlung aller Layout-Folien in der Präsentation dar. Erweitert die ILayoutSlideCollection-Schnittstelle mit Methoden zum Hinzufügen/Klonen von Layout-Folien im Kontext der Vereinigung der einzelnen Sammlungen von Master-Layout-Folien.
 type: docs
 weight: 5790
 url: /de/aspose.slides/igloballayoutslidecollection/
 ---
 
-## IGlobalLayoutSlideCollection-Schnittstelle
+## IGlobalLayoutSlideCollection Schnittstelle
 
-Stellt eine Sammlung aller Layout-Folien in der Präsentation dar. Erweiterung der ILayoutSlideCollection-Schnittstelle mit Methoden zum Hinzufügen/Klonen von Layout-Folien im Kontext der Vereinigung der einzelnen Sammlungen von Master-Layout-Folien.
+Stellt eine Sammlung aller Layout-Folien in der Präsentation dar. Erweitert die ILayoutSlideCollection-Schnittstelle mit Methoden zum Hinzufügen/Klonen von Layout-Folien im Kontext der Vereinigung der einzelnen Sammlungen von Master-Layout-Folien.
 
 ```csharp
 public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection
@@ -19,7 +19,7 @@ public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsILayoutSlideCollection](../../aspose.slides/igloballayoutslidecollection/asilayoutslidecollection) { get; } | Gibt die ILayoutSlideCollection-Schnittstelle zurück. Nur lesbar [`ILayoutSlideCollection`](../ilayoutslidecollection). |
+| [AsILayoutSlideCollection](../../aspose.slides/igloballayoutslidecollection/asilayoutslidecollection) { get; } | Gibt die ILayoutSlideCollection-Schnittstelle zurück. Nur lesend [`ILayoutSlideCollection`](../ilayoutslidecollection). |
 
 ## Methoden
 
@@ -29,7 +29,7 @@ public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection
 | [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone)(ILayoutSlide) | Fügt der Präsentation eine Kopie einer angegebenen Layout-Folie hinzu. |
 | [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | Fügt der Präsentation eine Kopie einer angegebenen Layout-Folie hinzu. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ILayoutSlideCollection](../ilayoutslidecollection)
 * Namespace [Aspose.Slides](../../aspose.slides)

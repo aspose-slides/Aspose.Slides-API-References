@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Slides for .NET API Reference
-description: 返回一个枚举器，该枚举器用于迭代集合。
+description: 返回一个枚举器，用于遍历集合。
 type: docs
 weight: 50
 url: /zh/aspose.slides/captionscollection/getenumerator/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/captionscollection/getenumerator/
 
 ## CaptionsCollection.GetEnumerator 方法
 
-返回一个枚举器，该枚举器用于迭代集合。
+返回一个枚举器，用于遍历集合。
 
 ```csharp
 public IEnumerator<ICaptions> GetEnumerator()
@@ -17,9 +17,9 @@ public IEnumerator<ICaptions> GetEnumerator()
 
 ### 返回值
 
-一个 IEnumerator，可用于迭代集合。
+一个可以用于遍历集合的 IEnumerator。
 
-### 参见
+### 另请参阅
 
 * 接口 [ICaptions](../../icaptions)
 * 类 [CaptionsCollection](../../captionscollection)

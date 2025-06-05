@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Slides pour la référence API .NET
-description: Renvoie un énumérateur qui parcourt la collection.
+second_title: Aspose.Sildes pour la référence de l'API .NET
+description: Renvoie un énumérateur qui itère à travers la collection.
 type: docs
 weight: 60
 url: /fr/aspose.slides/drawingguidescollection/getenumerator/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/drawingguidescollection/getenumerator/
 
 ## Méthode DrawingGuidesCollection.GetEnumerator
 
-Renvoie un énumérateur qui parcourt la collection.
+Renvoie un énumérateur qui itère à travers la collection.
 
 ```csharp
 public IEnumerator<IDrawingGuide> GetEnumerator()
@@ -17,7 +17,7 @@ public IEnumerator<IDrawingGuide> GetEnumerator()
 
 ### Valeur de retour
 
-Un IEnumerator qui peut être utilisé pour parcourir la collection.
+Un IEnumerator qui peut être utilisé pour itérer à travers la collection.
 
 ### Voir aussi
 

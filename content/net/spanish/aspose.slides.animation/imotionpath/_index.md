@@ -1,7 +1,7 @@
 ---
 title: IMotionPath
-second_title: Aspose.Slides para .NET Referencia de API
-description: Representa la ruta de movimiento.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Representa una ruta de movimiento.
 type: docs
 weight: 450
 url: /es/aspose.slides.animation/imotionpath/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.animation/imotionpath/
 
 ## Interfaz IMotionPath
 
-Representa la ruta de movimiento.
+Representa una ruta de movimiento.
 
 ```csharp
 public interface IMotionPath : IEnumerable<IMotionCmdPath>
@@ -27,16 +27,16 @@ public interface IMotionPath : IEnumerable<IMotionCmdPath>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.slides.animation/imotionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Añadir nuevo comando a la ruta |
+| [Add](../../aspose.slides.animation/imotionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Añade un nuevo comando a la ruta. |
 | [Clear](../../aspose.slides.animation/imotionpath/clear)() | Elimina todos los comandos de la colección. |
-| [Insert](../../aspose.slides.animation/imotionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Insertar nuevo comando a la ruta |
-| [Remove](../../aspose.slides.animation/imotionpath/remove)(IMotionCmdPath) | Elimina los comandos especificados de la colección. |
+| [Insert](../../aspose.slides.animation/imotionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Inserta un nuevo comando en la ruta. |
+| [Remove](../../aspose.slides.animation/imotionpath/remove)(IMotionCmdPath) | Elimina el comando especificado de la colección. |
 | [RemoveAt](../../aspose.slides.animation/imotionpath/removeat)(int) | Elimina un comando en el índice especificado. |
 
-### Vea También
+### Véase También
 
 * interfaz [IMotionCmdPath](../imotioncmdpath)
 * espacio de nombres [Aspose.Slides.Animation](../../aspose.slides.animation)
-* ensamblaje [Aspose.Slides](../../)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

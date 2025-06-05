@@ -1,5 +1,5 @@
 ---
-title: Folien
+title: Slides
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt eine Liste aller Folien zurück, die in der Präsentation definiert sind. Nur-lesbare ISlideCollectionaspose.slides/islidecollection.
 type: docs
@@ -7,7 +7,7 @@ weight: 230
 url: /de/aspose.slides/presentation/slides/
 ---
 
-## Presentation.Slides-Eigenschaft
+## Presentation.Slides Eigenschaft
 
 Gibt eine Liste aller Folien zurück, die in der Präsentation definiert sind. Nur-lesbare [`ISlideCollection`](../../islidecollection).
 
@@ -17,11 +17,11 @@ public ISlideCollection Slides { get; }
 
 ### Beispiele
 
-Das folgende Beispiel zeigt, wie man die Hintergrundfarbe von Folien in einer PowerPoint-Präsentation gesetzt.
+Das folgende Beispiel zeigt, wie man die Hintergrundfarbe der Folien einer PowerPoint-Präsentation festlegt.
 
 ```csharp
 [C#]
-// Instanziiere die Presentation-Klasse, die die Präsentationsdatei darstellt
+// Instanziiere die Präsentationsklasse, die die Präsentationsdatei repräsentiert
 using (Presentation pres = new Presentation())
 {
     // Setze die Hintergrundfarbe der ersten ISlide auf Blau
@@ -32,11 +32,11 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-Das folgende Beispiel zeigt, wie man das Hintergrundbild von Folien in einer PowerPoint-Präsentation gesetzt.
+Das folgende Beispiel zeigt, wie man das Hintergrundbild der Folien einer PowerPoint-Präsentation festlegt.
 
 ```csharp
 [C#]
-// Instanziiere die Presentation-Klasse, die die Präsentationsdatei darstellt
+// Instanziiere die Präsentationsklasse, die die Präsentationsdatei repräsentiert
 using (Presentation pres = new Presentation("SetImageAsBackground.pptx"))
 {
     // Setze den Hintergrund mit einem Bild
@@ -45,7 +45,7 @@ using (Presentation pres = new Presentation("SetImageAsBackground.pptx"))
     pres.Slides[0].Background.FillFormat.PictureFillFormat.PictureFillMode = PictureFillMode.Stretch;
     // Setze das Bild
     System.Drawing.Image img = (System.Drawing.Image)new Bitmap(dataDir + "Tulips.jpg");
-    // Füge das Bild zur Bildersammlung der Präsentation hinzu
+    // Füge das Bild der Bildersammlung der Präsentation hinzu
     IPPImage imgx = pres.Images.AddImage(img);
     pres.Slides[0].Background.FillFormat.PictureFillFormat.Picture.Image = imgx;
     // Schreibe die Präsentation auf die Festplatte
@@ -53,40 +53,40 @@ using (Presentation pres = new Presentation("SetImageAsBackground.pptx"))
 }
 ```
 
-Das folgende Beispiel zeigt, wie man Folienübergänge in der Präsentation hinzufügt.
+Das folgende Beispiel zeigt, wie man einen Folienübergang für die Präsentation hinzufügt.
 
 ```csharp
 [C#]
-// Instanziiere die Presentation-Klasse, um die Quelldatei der Präsentation zu laden
+// Instanziiere die Präsentationsklasse, um die Quellpräsentationsdatei zu laden
 using (Presentation presentation = new Presentation("AccessSlides.pptx"))
 {
-    // Wende den Übergangstyp Kreis auf Folie 1 an
+    // Wende einen Übergang vom Typ Kreis auf Folie 1 an
     presentation.Slides[0].SlideShowTransition.Type = TransitionType.Circle;
-    // Wende den Übergangstyp Kombi auf Folie 2 an
+    // Wende einen Übergang vom Typ Kombi auf Folie 2 an
     presentation.Slides[1].SlideShowTransition.Type = TransitionType.Comb;
     // Schreibe die Präsentation auf die Festplatte
     presentation.Save("SampleTransition_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-Das folgende Beispiel zeigt, wie man erweiterte Folienübergänge hinzufügt.
+Das folgende Beispiel zeigt, wie man einen erweiterten Folienübergang hinzufügt.
 
 ```csharp
 [C#]
-// Instanziiere die Presentation-Klasse, die eine Präsentationsdatei darstellt
+// Instanziere die Präsentationsklasse, die eine Präsentationsdatei repräsentiert
 using (Presentation pres = new Presentation("BetterSlideTransitions.pptx"))
 {
-    // Wende den Übergangstyp Kreis auf Folie 1 an
+    // Wende einen Übergang vom Typ Kreis auf Folie 1 an
     pres.Slides[0].SlideShowTransition.Type = TransitionType.Circle;
     // Setze die Übergangszeit auf 3 Sekunden
     pres.Slides[0].SlideShowTransition.AdvanceOnClick = true;
     pres.Slides[0].SlideShowTransition.AdvanceAfterTime = 3000;
-    // Wende den Übergangstyp Kombi auf Folie 2 an
+    // Wende einen Übergang vom Typ Kombi auf Folie 2 an
     pres.Slides[1].SlideShowTransition.Type = TransitionType.Comb;
     // Setze die Übergangszeit auf 5 Sekunden
     pres.Slides[1].SlideShowTransition.AdvanceOnClick = true;
     pres.Slides[1].SlideShowTransition.AdvanceAfterTime = 5000;
-    // Wende den Übergangstyp Zoom auf Folie 3 an
+    // Wende einen Übergang vom Typ Zoom auf Folie 3 an
     pres.Slides[2].SlideShowTransition.Type = TransitionType.Zoom;
     // Setze die Übergangszeit auf 7 Sekunden
     pres.Slides[2].SlideShowTransition.AdvanceOnClick = true;
@@ -98,9 +98,9 @@ using (Presentation pres = new Presentation("BetterSlideTransitions.pptx"))
 
 ### Siehe Auch
 
-* interface [ISlideCollection](../../islidecollection)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* Schnittstelle [ISlideCollection](../../islidecollection)
+* Klasse [Presentation](../../presentation)
+* Namespace [Aspose.Slides](../../presentation)
+* Assembly [Aspose.Slides](../../../)
 
-<!-- DO NOT EDIT: generiert von xmldocmd für Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

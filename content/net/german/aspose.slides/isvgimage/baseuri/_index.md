@@ -1,6 +1,6 @@
 ---
 title: BaseUri
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Gibt die Basis-URI des angegebenen SVG zurück. Wird verwendet, um relative Links aufzulösen. Schreibgeschützter String.
 type: docs
 weight: 10

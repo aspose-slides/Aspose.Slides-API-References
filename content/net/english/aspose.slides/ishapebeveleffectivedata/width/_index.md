@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ishapebeveleffectivedata/width/
 ---
+
 ## IShapeBevelEffectiveData.Width property
 
 Bevel width. Read-only Double.

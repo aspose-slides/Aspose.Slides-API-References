@@ -1,7 +1,7 @@
 ---
 title: IHSLEffectiveData
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет эффект Оттенка/Насыщенности/Яркости. Оттенок, насыщенность и яркость могут быть отрегулированы относительно их текущего значения.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет эффект Цветовой тон/Насыщенность/Яркость. Цветовой тон, насыщенность и яркость могут быть изменены относительно их текущего значения.
 type: docs
 weight: 3250
 url: /ru/aspose.slides.effects/ihsleffectivedata/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/ihsleffectivedata/
 
 ## Интерфейс IHSLEffectiveData
 
-Представляет эффект Оттенка/Насыщенности/Яркости. Оттенок, насыщенность и яркость могут быть отрегулированы относительно их текущего значения.
+Представляет эффект Цветовой тон/Насыщенность/Яркость. Цветовой тон, насыщенность и яркость могут быть изменены относительно их текущего значения.
 
 ```csharp
 public interface IHSLEffectiveData : IEffectEffectiveData
@@ -20,11 +20,11 @@ public interface IHSLEffectiveData : IEffectEffectiveData
 | Имя | Описание |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | Возвращает процент оттенка. Только для чтения Single. |
+| [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | Возвращает процент цветового тона. Только для чтения Single. |
 | [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | Возвращает процент яркости. Только для чтения Single. |
 | [Saturation](../../aspose.slides.effects/ihsleffectivedata/saturation) { get; } | Возвращает процент насыщенности. Только для чтения Single. |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IEffectEffectiveData](../ieffecteffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)

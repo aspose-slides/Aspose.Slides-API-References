@@ -1,15 +1,15 @@
 ---
 title: ColumnGap
-second_title: Référence API Aspose.Slides pour .NET
-description: La valeur de l'espacement horizontal entre les colonnes d'une matrice. Si le ColumnGapRule est défini sur 3 Exactement, l'unité est interprétée comme des twips 1/20 d'un point. Si le ColumnGapRule est défini sur 4 Multiple, l'unité est interprétée comme le nombre d'incréments de 0,5 em. Dans d'autres cas, elle est ignorée. Par défaut  0
+second_title: Aspose.Slides pour .NET Référence API
+description: La valeur de l'espacement horizontal entre les colonnes d'une matrice. Si le ColumnGapRule est défini sur 3 Exactement, l'unité est interprétée comme des twips 1/20ème de point. Si le ColumnGapRule est défini sur 4 Multiple, l'unité est interprétée comme le nombre d'incréments de 0,5 em. Dans d'autres cas, ignoré. Par défaut  0
 type: docs
 weight: 40
 url: /fr/aspose.slides.mathtext/imathmatrix/columngap/
 ---
 
-## Propriété IMathMatrix.ColumnGap
+## IMathMatrix.ColumnGap propriété
 
-La valeur de l'espacement horizontal entre les colonnes d'une matrice ; Si le ColumnGapRule est défini sur 3 ("Exactement"), l'unité est interprétée comme des twips (1/20 d'un point). Si le ColumnGapRule est défini sur 4 ("Multiple"), l'unité est interprétée comme le nombre d'incréments de 0,5 em. Dans d'autres cas, elle est ignorée. Par défaut : 0
+La valeur de l'espacement horizontal entre les colonnes d'une matrice ; Si le ColumnGapRule est défini sur 3 ("Exactement"), l'unité est interprétée comme des twips (1/20ème de point). Si le ColumnGapRule est défini sur 4 ("Multiple"), l'unité est interprétée comme le nombre d'incréments de 0,5 em. Dans d'autres cas, ignoré. Par défaut : 0
 
 ```csharp
 public uint ColumnGap { get; set; }
@@ -17,7 +17,7 @@ public uint ColumnGap { get; set; }
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]
@@ -26,7 +26,7 @@ matrix.ColumnGapRule = MathSpacingRules.Exactly;
 matrix.ColumnGap = 20;
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathMatrix](../../imathmatrix)
 * namespace [Aspose.Slides.MathText](../../imathmatrix)

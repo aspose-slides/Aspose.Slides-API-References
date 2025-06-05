@@ -1,23 +1,23 @@
 ---
 title: GetEffective
 second_title: Référence API Aspose.Slides pour .NET
-description: Obtient les données d'effet de remplacement Alpha effectives avec l'héritage appliqué.
+description: Obtient les données effectives de l'effet Alpha Replace avec l'héritage appliqué.
 type: docs
 weight: 20
 url: /fr/aspose.slides.effects/alphareplace/geteffective/
 ---
 
-## Méthode AlphaReplace.GetEffective
+## AlphaReplace.GetEffective méthode
 
-Obtient les données d'effet de remplacement Alpha effectives avec l'héritage appliqué.
+Obtient les données effectives de l'effet Alpha Replace avec l'héritage appliqué.
 
 ```csharp
 public IAlphaReplaceEffectiveData GetEffective()
 ```
 
-### Valeur de Retour
+### Valeur de retour
 
-Un [`IAlphaReplaceEffectiveData`](../../ialphareplaceeffectivedata).
+Une [`IAlphaReplaceEffectiveData`](../../ialphareplaceeffectivedata).
 
 ### Voir aussi
 

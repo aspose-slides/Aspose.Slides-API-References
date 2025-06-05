@@ -3,9 +3,10 @@ title: ICellFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents format of a table cell.
 type: docs
-weight: 5100
+weight: 5270
 url: /aspose.slides/icellformat/
 ---
+
 ## ICellFormat interface
 
 Represents format of a table cell.
@@ -25,6 +26,7 @@ public interface ICellFormat
 | [BorderRight](../../aspose.slides/icellformat/borderright) { get; } | Returns a right border line properties object. Read-only [`ILineFormat`](../ilineformat). |
 | [BorderTop](../../aspose.slides/icellformat/bordertop) { get; } | Returns a top border line properties object. Read-only [`ILineFormat`](../ilineformat). |
 | [FillFormat](../../aspose.slides/icellformat/fillformat) { get; } | Returns a cell fill properties object. Read-only [`IFillFormat`](../ifillformat). |
+| [Transparency](../../aspose.slides/icellformat/transparency) { get; set; } | Gets or sets the transparency of the fill color. Read/write Single. |
 
 ## Methods
 

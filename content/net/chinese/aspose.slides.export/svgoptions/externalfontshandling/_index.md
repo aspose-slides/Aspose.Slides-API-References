@@ -1,7 +1,7 @@
 ---
-title: 外部字体处理
-second_title: Aspose.Slides for .NET API 参考
-description: 确定处理外部加载字体的方式。读/写 SvgExternalFontsHandlingaspose.slides/svgexternalfontshandling。
+title: ExternalFontsHandling
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定处理外部加载字体的方式。读/写 SvgExternalFontsHandlingaspose.slides/svgexternalfontshandling.
 type: docs
 weight: 100
 url: /zh/aspose.slides.export/svgoptions/externalfontshandling/

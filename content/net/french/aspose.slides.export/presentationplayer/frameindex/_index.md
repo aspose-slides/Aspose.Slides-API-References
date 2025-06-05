@@ -1,7 +1,7 @@
 ---
 title: FrameIndex
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Obtient l'index du cadre.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Obtient l'index de la frame.
 type: docs
 weight: 20
 url: /fr/aspose.slides.export/presentationplayer/frameindex/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/presentationplayer/frameindex/
 
 ## Propriété PresentationPlayer.FrameIndex
 
-Obtient l'index du cadre.
+Obtient l'index de la frame.
 
 ```csharp
 public int FrameIndex { get; }
@@ -34,7 +34,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [PresentationPlayer](../../presentationplayer)
 * espace de noms [Aspose.Slides.Export](../../presentationplayer)

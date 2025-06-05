@@ -1,6 +1,6 @@
 ---
 title: RemoveAt
-second_title: Aspose.Sildes для .NET API справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Удаляет команду по указанному индексу.
 type: docs
 weight: 80
@@ -19,7 +19,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Индекс для удаления команды Int32 |
 
-### См. также
+### Также смотри
 
 * интерфейс [IMotionPath](../../imotionpath)
 * пространство имен [Aspose.Slides.Animation](../../imotionpath)

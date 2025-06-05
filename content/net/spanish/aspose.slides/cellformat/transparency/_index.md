@@ -1,5 +1,5 @@
 ---
-title: Transparencia
+title: Transparency
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene o establece la transparencia del color de relleno. Lectura/escritura Single.
 type: docs
@@ -15,7 +15,7 @@ Obtiene o establece la transparencia del color de relleno. Lectura/escritura Sin
 public float Transparency { get; set; }
 ```
 
-### Véase También
+### Ver También
 
 * clase [CellFormat](../../cellformat)
 * espacio de nombres [Aspose.Slides](../../cellformat)

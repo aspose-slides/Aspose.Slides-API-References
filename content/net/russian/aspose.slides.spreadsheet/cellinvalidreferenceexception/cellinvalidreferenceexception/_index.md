@@ -1,7 +1,7 @@
 ---
 title: CellInvalidReferenceException
 second_title: Aspose.Slides для .NET API Справочник
-description: Инициализирует новый экземпляр класса CellInvalidReferenceException aspose.slides.spreadsheet/cellinvalidreferenceexception.
+description: Инициализирует новый экземпляр класса CellInvalidReferenceExceptionaspose.slides.spreadsheet/cellinvalidreferenceexception.
 type: docs
 weight: 10
 url: /ru/aspose.slides.spreadsheet/cellinvalidreferenceexception/cellinvalidreferenceexception/
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.spreadsheet/cellinvalidreferenceexception/cellinvalidrefe
 public CellInvalidReferenceException()
 ```
 
-### См. также
+### См. Также
 
 * класс [CellInvalidReferenceException](../../cellinvalidreferenceexception)
 * пространство имен [Aspose.Slides.Spreadsheet](../../cellinvalidreferenceexception)
@@ -35,7 +35,7 @@ public CellInvalidReferenceException(string message)
 | --- | --- | --- |
 | message | String | Строка, описывающая ошибку. |
 
-### См. также
+### См. Также
 
 * класс [CellInvalidReferenceException](../../cellinvalidreferenceexception)
 * пространство имен [Aspose.Slides.Spreadsheet](../../cellinvalidreferenceexception)
@@ -45,7 +45,7 @@ public CellInvalidReferenceException(string message)
 
 ## CellInvalidReferenceException(string, Exception) {#constructor_2}
 
-Инициализирует новый экземпляр класса [`CellInvalidReferenceException`](../../cellinvalidreferenceexception) с указанным сообщением об ошибке и ссылкой на внутреннее исключение, являющееся причиной этого исключения.
+Инициализирует новый экземпляр класса [`CellInvalidReferenceException`](../../cellinvalidreferenceexception) с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения.
 
 ```csharp
 public CellInvalidReferenceException(string message, Exception innerException)
@@ -56,7 +56,7 @@ public CellInvalidReferenceException(string message, Exception innerException)
 | message | String | Строка, описывающая ошибку. |
 | innerException | Exception | Исключение, являющееся причиной текущего исключения. |
 
-### См. также
+### См. Также
 
 * класс [CellInvalidReferenceException](../../cellinvalidreferenceexception)
 * пространство имен [Aspose.Slides.Spreadsheet](../../cellinvalidreferenceexception)
@@ -66,7 +66,7 @@ public CellInvalidReferenceException(string message, Exception innerException)
 
 ## CellInvalidReferenceException(string, string) {#constructor_3}
 
-Инициализирует новый экземпляр класса [`CellCircularReferenceException`](../../cellcircularreferenceexception) с указанным сообщением об ошибке и недопустимой ссылкой на ячейку.
+Инициализирует новый экземпляр класса [`CellCircularReferenceException`](../../cellcircularreferenceexception) с указанным сообщением об ошибке и недействительной ссылкой на ячейку.
 
 ```csharp
 public CellInvalidReferenceException(string message, string reference)
@@ -75,9 +75,9 @@ public CellInvalidReferenceException(string message, string reference)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Строка, описывающая ошибку. |
-| reference | String | Недопустимая ссылка на ячейку. |
+| reference | String | Недействительная ссылка на ячейку. |
 
-### См. также
+### См. Также
 
 * класс [CellInvalidReferenceException](../../cellinvalidreferenceexception)
 * пространство имен [Aspose.Slides.Spreadsheet](../../cellinvalidreferenceexception)

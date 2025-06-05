@@ -1,13 +1,13 @@
 ---
 title: MathRightSubSuperscriptElementFactory
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Slildes für .NET API Referenz
 description: Der Standardkonstruktor.
 type: docs
 weight: 10
 url: /de/aspose.slides.mathtext/mathrightsubsuperscriptelementfactory/mathrightsubsuperscriptelementfactory/
 ---
 
-## MathRightSubSuperscriptElementFactory Konstruktor
+## MathRightSubSuperscriptElementFactory-Konstruktor
 
 Der Standardkonstruktor.
 
@@ -15,7 +15,7 @@ Der Standardkonstruktor.
 public MathRightSubSuperscriptElementFactory()
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [MathRightSubSuperscriptElementFactory](../../mathrightsubsuperscriptelementfactory)
 * Namespace [Aspose.Slides.MathText](../../mathrightsubsuperscriptelementfactory)

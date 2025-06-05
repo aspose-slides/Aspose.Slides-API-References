@@ -1,13 +1,13 @@
 ---
 title: FormatText
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Cette fonction est appelée avant le rendu de la portion de texte en SVG pour permettre à l'utilisateur de contrôler le SVG résultant.
 type: docs
 weight: 20
 url: /fr/aspose.slides.export/isvgshapeandtextformattingcontroller/formattext/
 ---
 
-## Méthode ISvgShapeAndTextFormattingController.FormatText
+## ISvgShapeAndTextFormattingController.FormatText méthode
 
 Cette fonction est appelée avant le rendu de la portion de texte en SVG pour permettre à l'utilisateur de contrôler le SVG résultant.
 
@@ -21,7 +21,7 @@ public void FormatText(ISvgTSpan svgTSpan, IPortion portion, ITextFrame textFram
 | portion | IPortion | Portion source. |
 | textFrame | ITextFrame | Cadre de texte de la portion source. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ISvgTSpan](../../isvgtspan)
 * interface [IPortion](../../../aspose.slides/iportion)

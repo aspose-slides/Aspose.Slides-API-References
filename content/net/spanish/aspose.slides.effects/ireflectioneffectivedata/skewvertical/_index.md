@@ -1,13 +1,13 @@
 ---
 title: SkewVertical
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de la API
 description: Especifica el ángulo de sesgo vertical. Solo lectura Double.
 type: docs
 weight: 130
 url: /es/aspose.slides.effects/ireflectioneffectivedata/skewvertical/
 ---
 
-## Propiedad IReflectionEffectiveData.SkewVertical
+## IReflectionEffectiveData.SkewVertical propiedad
 
 Especifica el ángulo de sesgo vertical. Solo lectura Double.
 
@@ -15,7 +15,7 @@ Especifica el ángulo de sesgo vertical. Solo lectura Double.
 public double SkewVertical { get; }
 ```
 
-### Vea también
+### Ver También
 
 * interfaz [IReflectionEffectiveData](../../ireflectioneffectivedata)
 * espacio de nombres [Aspose.Slides.Effects](../../ireflectioneffectivedata)

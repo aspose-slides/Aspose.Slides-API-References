@@ -1,6 +1,6 @@
 ---
 title: IPPImage
-second_title: Aspose.Slides для .NET API Справка
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет изображение в презентации.
 type: docs
 weight: 6350
@@ -20,13 +20,13 @@ public interface IPPImage
 | Имя | Описание |
 | --- | --- |
 | [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | Возвращает копию данных изображения. Только для чтения Byte[]. |
-| [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | Возвращает MIME тип изображения, закодированный в [`BinaryData`](./binarydata). Только для чтения String. |
+| [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | Возвращает MIME-тип изображения, закодированного в [`BinaryData`](./binarydata). Только для чтения String. |
 | [Height](../../aspose.slides/ippimage/height) { get; } | Возвращает высоту изображения. Только для чтения Int32. |
 | [Image](../../aspose.slides/ippimage/image) { get; } | Возвращает копию изображения. Только для чтения [`Image`](./image). |
 | [SvgImage](../../aspose.slides/ippimage/svgimage) { get; set; } | Возвращает или задает объект ISvgImage [`ISvgImage`](../isvgimage) |
 | [Width](../../aspose.slides/ippimage/width) { get; } | Возвращает ширину изображения. Только для чтения Int32. |
-| [X](../../aspose.slides/ippimage/x) { get; } | Возвращает смещение X изображения. Только для чтения Int32. |
-| [Y](../../aspose.slides/ippimage/y) { get; } | Возвращает смещение Y изображения. Только для чтения Int32. |
+| [X](../../aspose.slides/ippimage/x) { get; } | Возвращает смещение по оси X изображения. Только для чтения Int32. |
+| [Y](../../aspose.slides/ippimage/y) { get; } | Возвращает смещение по оси Y изображения. Только для чтения Int32. |
 
 ## Методы
 

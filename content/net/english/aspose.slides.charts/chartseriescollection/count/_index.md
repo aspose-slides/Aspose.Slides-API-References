@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/chartseriescollection/count/
 ---
+
 ## ChartSeriesCollection.Count property
 
 Returns a number of objects in the collection. Read-only Int32.

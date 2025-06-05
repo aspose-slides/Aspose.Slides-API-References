@@ -1,15 +1,15 @@
 ---
 title: CreateBlur
-second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt einen Weichzeichner-Effekt.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Erstellt einen Unschärfeeffekt.
 type: docs
 weight: 100
 url: /de/aspose.slides.effects/imagetransformoperationfactory/createblur/
 ---
 
-## ImageTransformOperationFactory.CreateBlur Methode
+## ImageTransformOperationFactory.CreateBlur-Methode
 
-Erstellt einen Weichzeichner-Effekt.
+Erstellt einen Unschärfeeffekt.
 
 ```csharp
 public IBlur CreateBlur(double radius, bool grow)
@@ -18,11 +18,11 @@ public IBlur CreateBlur(double radius, bool grow)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | radius | Double | Radius. |
-| grow | Boolean | Wachsen. |
+| grow | Boolean | Vergrößern. |
 
 ### Rückgabewert
 
-Weichzeichner-Effekt.
+Unschärfeeffekt.
 
 ### Siehe auch
 

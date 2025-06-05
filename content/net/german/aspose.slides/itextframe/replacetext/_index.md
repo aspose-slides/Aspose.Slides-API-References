@@ -1,6 +1,6 @@
 ---
 title: ReplaceText
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Ersetzt alle Vorkommen des angegebenen Textes durch einen anderen angegebenen Text.
 type: docs
 weight: 120
@@ -21,7 +21,7 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 | oldText | String | Der zu ersetzende String. |
 | newText | String | Der String, um alle Vorkommen von oldText zu ersetzen. |
 | options | ITextSearchOptions | Textsuchoptionen [`ITextSearchOptions`](../../itextsearchoptions). |
-| callback | IFindResultCallback | Das Callback-Objekt zum Empfangen von Suchergebnissen [`IFindResultCallback`](../../ifindresultcallback). |
+| callback | IFindResultCallback | Das Callback-Objekt für den Empfang von Suchergebnissen [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Beispiele
 
@@ -31,7 +31,7 @@ Der folgende Beispielcode zeigt, wie man einen angegebenen String durch einen an
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// Ersetze alle separaten Vorkommen von 'the' durch '***'
+	// Ersetzt alle separaten Vorkommen von 'the' durch '***'
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.ReplaceText("the", "***", new TextSearchOptions()
 	{ WholeWordsOnly = true }, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);

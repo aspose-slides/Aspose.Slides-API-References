@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/blobmanagementoptions/blobmanagementoptions/
 ---
+
 ## BlobManagementOptions constructor
 
 Creates new default blob management options.

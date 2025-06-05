@@ -1,15 +1,15 @@
 ---
 title: RowSpan
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie le nombre de lignes qu'une cellule fusionnée couvre. Cela est utilisé en combinaison avec l'attribut vMerge sur d'autres cellules afin de spécifier la cellule de début d'une fusion horizontale. En lecture seule Int32.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie le nombre de lignes qu'une cellule fusionnée englobe. Cela est utilisé en combinaison avec l'attribut vMerge sur d'autres cellules afin de spécifier la cellule de début d'une fusion horizontale. En lecture seule Int32.
 type: docs
 weight: 180
 url: /fr/aspose.slides/cell/rowspan/
 ---
 
-## Propriété Cell.RowSpan
+## Cell.RowSpan property
 
-Renvoie le nombre de lignes qu'une cellule fusionnée couvre. Cela est utilisé en combinaison avec l'attribut vMerge sur d'autres cellules afin de spécifier la cellule de début d'une fusion horizontale. En lecture seule Int32.
+Renvoie le nombre de lignes qu'une cellule fusionnée englobe. Cela est utilisé en combinaison avec l'attribut vMerge sur d'autres cellules afin de spécifier la cellule de début d'une fusion horizontale. En lecture seule Int32.
 
 ```csharp
 public int RowSpan { get; }
@@ -17,7 +17,7 @@ public int RowSpan { get; }
 
 ### Voir aussi
 
-* class [Cell](../../cell)
+* classe [Cell](../../cell)
 * namespace [Aspose.Slides](../../cell)
 * assembly [Aspose.Slides](../../../)
 

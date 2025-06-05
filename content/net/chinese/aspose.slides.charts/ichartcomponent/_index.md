@@ -22,7 +22,7 @@ public interface IChartComponent : ISlideComponent
 | [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | 允许获取基础的 ISlideComponent 接口。只读 [`ISlideComponent`](../../aspose.slides/islidecomponent)。 |
 | [Chart](../../aspose.slides.charts/ichartcomponent/chart) { get; } | 返回图表。只读 [`IChart`](../ichart)。 |
 
-### 另见
+### 另请参见
 
 * 接口 [ISlideComponent](../../aspose.slides/islidecomponent)
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)

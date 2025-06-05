@@ -1,7 +1,7 @@
 ---
 title: HasUpDownBars
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si un graphique de type ligne ou boursier possède des barres de hausse/baisse. C'est une propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est une projection de la propriété du groupe approprié. Ainsi, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété ParentSeriesGroup.UpDownBars.HasUpDownBars en lecture/écriture pour modifier la valeur. Utilisez la propriété ParentSeriesGroup.UpDownBars pour formater les barres de hausse/baisse. Booléen en lecture seule.
+second_title: Aspose.Slides pour .NET API Reference
+description: Détermine si le graphique de type Line ou Stock a des barres montantes / descendantes. Il s'agit de la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est une projection de la propriété de groupe appropriée. Ainsi, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété en lecture/écriture ParentSeriesGroup.UpDownBars.HasUpDownBars pour modifier la valeur. Utilisez la propriété ParentSeriesGroup.UpDownBars pour formater les barres montantes / descendantes. Booléen en lecture seule.
 type: docs
 weight: 150
 url: /fr/aspose.slides.charts/ichartseries/hasupdownbars/
@@ -9,17 +9,17 @@ url: /fr/aspose.slides.charts/ichartseries/hasupdownbars/
 
 ## IChartSeries.HasUpDownBars property
 
-Détermine si un graphique de type ligne ou boursier possède des barres de hausse/baisse. C'est une propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est une projection de la propriété du groupe approprié. Ainsi, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété ParentSeriesGroup.UpDownBars.HasUpDownBars en lecture/écriture pour modifier la valeur. Utilisez la propriété ParentSeriesGroup.UpDownBars pour formater les barres de hausse/baisse. Booléen en lecture seule.
+Détermine si le graphique de type Line ou Stock a des barres montantes / descendantes. Il s'agit de la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est une projection de la propriété de groupe appropriée. Ainsi, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété en lecture/écriture ParentSeriesGroup.UpDownBars.HasUpDownBars pour modifier la valeur. Utilisez la propriété ParentSeriesGroup.UpDownBars pour formater les barres montantes / descendantes. Booléen en lecture seule.
 
 ```csharp
 public bool HasUpDownBars { get; }
 ```
 
-### Remarques
+### Remarks
 
 C'est la projection de la propriété ParentSeriesGroup.UpDownBars.HasUpDownBars.
 
-### Voir aussi
+### See Also
 
 * interface [IChartSeries](../../ichartseries)
 * namespace [Aspose.Slides.Charts](../../ichartseries)

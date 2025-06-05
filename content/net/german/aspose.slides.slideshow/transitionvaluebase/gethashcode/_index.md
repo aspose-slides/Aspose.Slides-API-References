@@ -1,15 +1,15 @@
 ---
 title: GetHashCode
-second_title: Aspose.Slides für .NET API-Referenz
-description: Dient als Hash-Funktion für einen bestimmten Typ, der für die Verwendung in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle geeignet ist.
+second_title: Aspose.Slides für .NET API Referenz
+description: Dient als Hashfunktion für einen bestimmten Typ, der für die Verwendung in Hash-Algorithmen und Datenstrukturen wie einer Hash-Tabelle geeignet ist.
 type: docs
 weight: 20
 url: /de/aspose.slides.slideshow/transitionvaluebase/gethashcode/
 ---
 
-## TransitionValueBase.GetHashCode-Methode
+## TransitionValueBase.GetHashCode Methode
 
-Dient als Hash-Funktion für einen bestimmten Typ, der für die Verwendung in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle geeignet ist.
+Dient als Hashfunktion für einen bestimmten Typ, der für die Verwendung in Hash-Algorithmen und Datenstrukturen wie einer Hash-Tabelle geeignet ist.
 
 ```csharp
 public override int GetHashCode()
@@ -19,9 +19,9 @@ public override int GetHashCode()
 
 23454
 
-### Anmerkungen
+### Bemerkungen
 
-Wurde überschrieben, um den Compiler zufrieden zu stellen. Gibt immer konstanten Wert zurück, da das Objekt veränderlich ist.
+Überschrieben, um den Compiler zufrieden zu stellen. Gibt immer konstanten Wert zurück, da das Objekt veränderlich ist.
 
 ### Siehe auch
 

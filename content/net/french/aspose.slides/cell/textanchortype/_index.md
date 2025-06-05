@@ -1,7 +1,7 @@
 ---
 title: TextAnchorType
-second_title: Aspose.Slides pour .NET API Référence
-description: Renvoie ou définit le type d'ancre de texte. Lecteur/écrivain TextAnchorTypeaspose.slides/textanchortype.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie ou définit le type d'ancrage du texte. Lecture/écriture TextAnchorTypeaspose.slides/textanchortype.
 type: docs
 weight: 210
 url: /fr/aspose.slides/cell/textanchortype/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/cell/textanchortype/
 
 ## Propriété Cell.TextAnchorType
 
-Renvoie ou définit le type d'ancre de texte. Lecteur/écrivain [`TextAnchorType`](../../textanchortype).
+Renvoie ou définit le type d'ancrage du texte. Lecture/écriture [`TextAnchorType`](../../textanchortype).
 
 ```csharp
 public TextAnchorType TextAnchorType { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [TextAnchorType](../../textanchortype)
 * class [Cell](../../cell)

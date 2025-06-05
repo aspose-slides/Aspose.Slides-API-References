@@ -1,7 +1,7 @@
 ---
-title: Element
+title: Item
 second_title: Aspose.Slides für .NET API Referenz
-description: Holt das Element an dem angegebenen Index.
+description: Erhält das Element am angegebenen Index.
 type: docs
 weight: 40
 url: /de/aspose.slides.charts/chartcategorycollection/item/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartcategorycollection/item/
 
 ## ChartCategoryCollection-Indexer
 
-Holt das Element an dem angegebenen Index.
+Erhält das Element am angegebenen Index.
 
 ```csharp
 public IChartCategory this[int index] { get; }
@@ -17,7 +17,7 @@ public IChartCategory this[int index] { get; }
 
 ### Rückgabewert
 
-Das Element an dem angegebenen Index.
+Das Element am angegebenen Index.
 
 ### Ausnahmen
 
@@ -25,7 +25,7 @@ Das Element an dem angegebenen Index.
 | --- | --- |
 | ArgumentOutOfRangeException | *index* ist kein gültiger Index in der IList. |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IChartCategory](../../ichartcategory)
 * Klasse [ChartCategoryCollection](../../chartcategorycollection)

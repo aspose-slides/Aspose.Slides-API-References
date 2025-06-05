@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/icontrolcollection/remove/
 ---
+
 ## IControlCollection.Remove method
 
 Removes an ActiveX control from the collection.

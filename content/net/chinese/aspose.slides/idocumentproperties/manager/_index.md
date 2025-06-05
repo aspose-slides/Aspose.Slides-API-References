@@ -1,7 +1,7 @@
 ---
-title: 经理
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置经理属性。可读/写字符串。
+title: Manager
+second_title: Aspose.Slides for .NET API Reference
+description: 返回或设置管理者属性。可读写字符串。
 type: docs
 weight: 210
 url: /zh/aspose.slides/idocumentproperties/manager/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/idocumentproperties/manager/
 
 ## IDocumentProperties.Manager 属性
 
-返回或设置经理属性。可读/写字符串。
+返回或设置管理者属性。可读写字符串。
 
 ```csharp
 public string Manager { get; set; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IDocumentProperties](../../idocumentproperties)
 * 命名空间 [Aspose.Slides](../../idocumentproperties)

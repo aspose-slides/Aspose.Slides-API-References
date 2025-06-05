@@ -1,13 +1,13 @@
 ---
-title: 清除
-second_title: Aspose.Slides for .NET API 参考
+title: Clear
+second_title: Aspose.Sildes for .NET API Reference
 description: 从集合中移除所有标签。
 type: docs
 weight: 60
 url: /zh/aspose.slides/tagcollection/clear/
 ---
 
-## TagCollection.Clear 方法
+## TagCollection.Clear method
 
 从集合中移除所有标签。
 
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/tagcollection/clear/
 public void Clear()
 ```
 
-### 另请参阅
+### See Also
 
 * class [TagCollection](../../tagcollection)
 * namespace [Aspose.Slides](../../tagcollection)

@@ -3,9 +3,10 @@ title: GeometryPath
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents geometry path of GeometryShape
 type: docs
-weight: 4630
+weight: 4760
 url: /aspose.slides/geometrypath/
 ---
+
 ## GeometryPath class
 
 Represents geometry path of GeometryShape

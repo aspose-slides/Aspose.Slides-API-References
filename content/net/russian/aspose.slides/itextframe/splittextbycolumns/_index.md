@@ -1,15 +1,15 @@
 ---
 title: SplitTextByColumns
-second_title: Справочник по API Aspose.Slides для .NET
-description: Разбивает текстовое содержимое ITextFrameaspose.slides/itextframe на массив строк, где каждый элемент соответствует отдельному текстовому столбцу внутри фрейма.
+second_title: Aspose.Slides для .NET API Справочник
+description: Разделяет текстовое содержимое ITextFrameaspose.slides/itextframe на массив строк, где каждый элемент соответствует отдельной текстовой колонке внутри рамки.
 type: docs
 weight: 130
 url: /ru/aspose.slides/itextframe/splittextbycolumns/
 ---
 
-## Метод ITextFrame.SplitTextByColumns
+## ITextFrame.SplitTextByColumns метод
 
-Разбивает текстовое содержимое [`ITextFrame`](../../itextframe) на массив строк, где каждый элемент соответствует отдельному текстовому столбцу внутри фрейма.
+Разделяет текстовое содержимое [`ITextFrame`](../../itextframe) на массив строк, где каждый элемент соответствует отдельной текстовой колонке внутри рамки.
 
 ```csharp
 public string[] SplitTextByColumns()
@@ -17,11 +17,11 @@ public string[] SplitTextByColumns()
 
 ### Возвращаемое значение
 
-Массив строк, где каждая строка представляет текстовое содержимое конкретного столбца в [`ITextFrame`](../../itextframe).
+Массив строк, где каждая строка представляет текстовое содержимое конкретной колонки в [`ITextFrame`](../../itextframe).
 
 ### Примечания
 
-Если текстовый фрейм не содержит нескольких столбцов, возвращаемый массив будет иметь единственный элемент, содержащий полный текст. Пустые столбцы будут представлены как пустые строки в массиве.
+Если текстовая рамка не содержит несколько колонок, возвращаемый массив будет иметь единственный элемент, содержащий полный текст. Пустые колонки будут представлены в массиве как пустые строки.
 
 ### Примеры
 
@@ -30,17 +30,17 @@ public string[] SplitTextByColumns()
 ```csharp
 using (Presentation pres = new Presentation("example.pptx"))
 {
-    // Получить первую фигуру на слайде и привести её к ITextFrame
+    // Получить первую фигуру на слайде и привести ее к ITextFrame
     ITextFrame textFrame = pres.Slides[0].Shapes[0] as ITextFrame;
-    // Разбить содержимое текстового фрейма на столбцы
+    // Разделить содержание текстовой рамки на колонки
     string[] columnsText = textFrame.SplitTextByColumns();
-    // Вывести текст каждого столбца в консоль
+    // Вывести текст каждой колонки в консоль
     foreach (string column in columnsText)
         Console.WriteLine(column);
 }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [ITextFrame](../../itextframe)
 * пространство имен [Aspose.Slides](../../itextframe)

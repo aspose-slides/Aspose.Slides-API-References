@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/idatalabel/asiactuallayout/
 ---
+
 ## IDataLabel.AsIActualLayout property
 
 Returns IActualLayout interface.

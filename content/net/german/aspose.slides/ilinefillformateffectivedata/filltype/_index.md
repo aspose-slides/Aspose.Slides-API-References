@@ -1,15 +1,15 @@
 ---
-title: Fülltyp
+title: FillType
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Fülltyp zurück. Nur-Lese-Fülltypaspose.slides/filltype.
+description: Gibt den Fülltyp zurück. Nur lesbarer FillTypeaspose.slides/filltype.
 type: docs
 weight: 20
 url: /de/aspose.slides/ilinefillformateffectivedata/filltype/
 ---
 
-## ILineFillFormatEffectiveData.FillType-Eigenschaft
+## ILineFillFormatEffectiveData.FillType Eigenschaft
 
-Gibt den Fülltyp zurück. Nur-Lese- [`FillType`](../../filltype).
+Gibt den Fülltyp zurück. Nur lesbar [`FillType`](../../filltype).
 
 ```csharp
 public FillType FillType { get; }

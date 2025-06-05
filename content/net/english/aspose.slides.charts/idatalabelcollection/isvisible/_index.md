@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.charts/idatalabelcollection/isvisible/
 ---
+
 ## IDataLabelCollection.IsVisible property
 
 False means that data label is not visible by default (and so all Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false). Read-only Boolean.

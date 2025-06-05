@@ -1,7 +1,7 @@
 ---
 title: TileOffsetY
-second_title: Aspose.Slides for .NET API Reference
-description: 返回或设置纹理相对于形状原点的垂直偏移量（单位：点）。正值将纹理向下移动，而负值将其向上移动。可读/写的单精度浮点数。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置纹理相对于形状原点的垂直偏移量（单位：点）。正值向下移动纹理，而负值向上移动。可读写单精度浮点数。
 type: docs
 weight: 150
 url: /zh/aspose.slides/picturefillformat/tileoffsety/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/picturefillformat/tileoffsety/
 
 ## PictureFillFormat.TileOffsetY 属性
 
-返回或设置纹理相对于形状原点的垂直偏移量（单位：点）。正值将纹理向下移动，而负值将其向上移动。可读/写的单精度浮点数。
+返回或设置纹理相对于形状原点的垂直偏移量（单位：点）。正值向下移动纹理，而负值向上移动。可读写单精度浮点数。
 
 ```csharp
 public float TileOffsetY { get; set; }
@@ -29,7 +29,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
     // 设置图片填充模式为平铺
     pictureFillFormat.PictureFillMode = PictureFillMode.Tile;
 
-    // 将纹理的垂直偏移量设置为 -50 点
+    // 将纹理的垂直偏移量设置为-50点
     pictureFillFormat.TileOffsetY = -50;
 }
 ```

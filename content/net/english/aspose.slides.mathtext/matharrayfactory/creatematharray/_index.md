@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.mathtext/matharrayfactory/creatematharray/
 ---
+
 ## CreateMathArray(IMathElement) {#creatematharray}
 
 Creates a math array and places the specified element in it

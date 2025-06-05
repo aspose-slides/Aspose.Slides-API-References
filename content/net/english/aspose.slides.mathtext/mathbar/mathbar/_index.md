@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/mathbar/mathbar/
 ---
+
 ## MathBar(IMathElement) {#constructor}
 
 Initializes MathBar with overbar (Top position)

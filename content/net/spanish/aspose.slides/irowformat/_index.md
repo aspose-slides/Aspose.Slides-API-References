@@ -1,6 +1,6 @@
 ---
 title: IRowFormat
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de la API Aspose.Slides para .NET
 description: Representa el formato de una fila de tabla.
 type: docs
 weight: 6670
@@ -19,7 +19,7 @@ public interface IRowFormat
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetEffective](../../aspose.slides/irowformat/geteffective)() | Obtiene las propiedades de formato de fila de tabla efectivas con herencia y estilos de tabla aplicados. |
+| [GetEffective](../../aspose.slides/irowformat/geteffective)() | Obtiene las propiedades de formato efectivo de la fila de la tabla con la herencia y los estilos de tabla aplicados. |
 
 ### Ver También
 

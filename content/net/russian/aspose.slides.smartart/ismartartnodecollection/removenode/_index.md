@@ -1,6 +1,6 @@
 ---
-title: УдалитьУзел
-second_title: Aspose.Sildes для .NET API Справочник
+title: RemoveNode
+second_title: Aspose.Sildes для .NET API Справка
 description: Удалить узел или подузел по индексу.
 type: docs
 weight: 40
@@ -17,13 +17,13 @@ public void RemoveNode(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс узла, начиная с нуля |
+| index | Int32 | Индекс узла с нулевой индексацией |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | индекс меньше 0. -или- индекс равен или больше количества родственных узлов. |
+| ArgumentOutOfRangeException | индекс меньше 0. -или- индекс равен или больше количества братьев. |
 
 ### См. также
 

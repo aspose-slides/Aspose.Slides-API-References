@@ -1,15 +1,15 @@
 ---
 title: AddTable
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Crée une nouvelle Table et l'ajoute à la fin de la collection.
+second_title: Aspose.Slides pour .NET API Référence
+description: Crée un nouveau tableau et l'ajoute à la fin de la collection.
 type: docs
 weight: 200
 url: /fr/aspose.slides/shapecollection/addtable/
 ---
 
-## Méthode ShapeCollection.AddTable
+## ShapeCollection.AddTable méthode
 
-Crée une nouvelle Table et l'ajoute à la fin de la collection.
+Crée un nouveau tableau et l'ajoute à la fin de la collection.
 
 ```csharp
 public ITable AddTable(float x, float y, double[] columnWidths, double[] rowHeights)
@@ -19,8 +19,8 @@ public ITable AddTable(float x, float y, double[] columnWidths, double[] rowHeig
 | --- | --- | --- |
 | x | Single | La coordonnée X pour le côté gauche du cadre de la forme. |
 | y | Single | La coordonnée Y pour le côté supérieur du cadre de la forme. |
-| columnWidths | Double[] | Tableau de doubles qui représente les largeurs des colonnes dans la table. |
-| rowHeights | Double[] | Tableau de doubles qui représente les hauteurs des lignes dans la table. |
+| columnWidths | Double[] | Tableau de doubles représentant les largeurs des colonnes dans le tableau. |
+| rowHeights | Double[] | Tableau de doubles représentant les hauteurs des lignes dans le tableau. |
 
 ### Valeur de retour
 
@@ -28,7 +28,7 @@ Objet Table créé.
 
 ### Exemples
 
-Les exemples suivants montrent comment ajouter une table dans une présentation PowerPoint.
+Les exemples suivants montrent comment ajouter un tableau dans une présentation PowerPoint.
 
 ```csharp
 [C#]
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation()){
 	// Définir les colonnes avec les largeurs et les lignes avec les hauteurs
 	double[] dblCols = { 50, 50, 50 };
 	double[] dblRows = { 50, 30, 30, 30, 30 };
-	// Ajouter une forme de table à la diapositive
+	// Ajouter une forme de tableau à la diapositive
 	ITable tbl = sld.Shapes.AddTable(100, 50, dblCols, dblRows);
 	// Définir le format de bordure pour chaque cellule
 	for (int row = 0; row < tbl.Rows.Count; row++)
@@ -64,7 +64,7 @@ using (Presentation pres = new Presentation()){
 	tbl.MergeCells(tbl.Rows[0][0], tbl.Rows[1][1], false);
 	// Ajouter du texte à la cellule fusionnée
 	tbl.Rows[0][0].TextFrame.Text = "Cellules Fusionnées";
-	// Sauvegarder le PPTX sur le disque
+	// Enregistrer le PPTX sur le disque
 	pres.Save("table.pptx", SaveFormat.Pptx);
 }
 ```
@@ -72,7 +72,7 @@ using (Presentation pres = new Presentation()){
 ### Voir aussi
 
 * interface [ITable](../../itable)
-* classe [ShapeCollection](../../shapecollection)
+* class [ShapeCollection](../../shapecollection)
 * namespace [Aspose.Slides](../../shapecollection)
 * assembly [Aspose.Slides](../../../)
 

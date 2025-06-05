@@ -1,6 +1,6 @@
 ---
-title: 幻灯片放映设置
-second_title: Aspose.Slides for .NET API 参考
+title: SlideShowSettings
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回演示文稿的幻灯片放映设置。
 type: docs
 weight: 240
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/presentation/slideshowsettings/
 public SlideShowSettings SlideShowSettings { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * class [SlideShowSettings](../../slideshowsettings)
 * class [Presentation](../../presentation)

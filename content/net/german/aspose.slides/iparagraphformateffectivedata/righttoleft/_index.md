@@ -1,7 +1,7 @@
 ---
-title: RechtsNachLinks
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob das Schreiben von Rechts nach Links in einem Absatz verwendet wird. Schreibgeschütztes Boolean.
+title: RightToLeft
+second_title: Aspose.Sildes für .NET API Referenz
+description: Bestimmt, ob die Schreibrichtung von Rechts nach Links in einem Absatz verwendet wird. Nur lesbarer Boolean.
 type: docs
 weight: 130
 url: /de/aspose.slides/iparagraphformateffectivedata/righttoleft/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/iparagraphformateffectivedata/righttoleft/
 
 ## IParagraphFormatEffectiveData.RightToLeft-Eigenschaft
 
-Bestimmt, ob das Schreiben von Rechts nach Links in einem Absatz verwendet wird. Schreibgeschütztes Boolean.
+Bestimmt, ob die Schreibrichtung von Rechts nach Links in einem Absatz verwendet wird. Nur lesbarer Boolean.
 
 ```csharp
 public bool RightToLeft { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
 * Namespace [Aspose.Slides](../../iparagraphformateffectivedata)

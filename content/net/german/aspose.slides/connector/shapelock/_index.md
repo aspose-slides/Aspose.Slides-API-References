@@ -1,7 +1,7 @@
 ---
 title: ShapeLock
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Sperren von Formen zurück. Nur-lesender IConnectorLockaspose.slides/iconnectorlock.
+description: Gibt die Sperren von Formen zurück. Nur-Lese IConnectorLockaspose.slides/iconnectorlock.
 type: docs
 weight: 40
 url: /de/aspose.slides/connector/shapelock/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/connector/shapelock/
 
 ## Connector.ShapeLock-Eigenschaft
 
-Gibt die Sperren der Form zurück. Nur-lesender [`IConnectorLock`](../../iconnectorlock).
+Gibt die Sperren der Form zurück. Nur-Lese [`IConnectorLock`](../../iconnectorlock).
 
 ```csharp
 public IConnectorLock ShapeLock { get; }

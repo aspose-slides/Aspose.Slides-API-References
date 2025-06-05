@@ -1,6 +1,6 @@
 ---
 title: IsAutomaticUnderflowBin
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 指定自动下溢箱值。如果为 false，则使用 UnderflowBin 属性。
 type: docs
 weight: 250
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/axis/isautomaticunderflowbin/
 public bool IsAutomaticUnderflowBin { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [Axis](../../axis)
 * namespace [Aspose.Slides.Charts](../../axis)

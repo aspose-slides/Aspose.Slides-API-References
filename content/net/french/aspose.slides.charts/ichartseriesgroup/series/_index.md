@@ -1,6 +1,6 @@
 ---
-title: Séries
-second_title: Référence API Aspose.Slides pour .NET
+title: Series
+second_title: Aspose.Slides pour .NET API Référence
 description: Renvoie une collection en lecture seule de séries de graphiques. Collection en lecture seule IChartSeriesReadonlyCollection aspose.slides.charts/ichartseriesreadonlycollection.
 type: docs
 weight: 180

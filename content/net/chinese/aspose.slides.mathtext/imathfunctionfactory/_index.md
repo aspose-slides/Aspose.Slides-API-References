@@ -1,6 +1,6 @@
 ---
 title: IMathFunctionFactory
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 允许创建数学函数
 type: docs
 weight: 8030
@@ -24,9 +24,9 @@ public interface IMathFunctionFactory
 
 ### 备注
 
-为了与 COM 兼容
+用于 COM 兼容性
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 程序集 [Aspose.Slides](../../)

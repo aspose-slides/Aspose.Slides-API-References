@@ -3,9 +3,10 @@ title: EmbedImages
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets images embedding option. Read/write Boolean.
 type: docs
-weight: 40
+weight: 50
 url: /aspose.slides.export/ihtml5options/embedimages/
 ---
+
 ## IHtml5Options.EmbedImages property
 
 Returns or sets images embedding option. Read/write Boolean.

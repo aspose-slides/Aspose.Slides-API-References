@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/imarker/format/
 ---
+
 ## IMarker.Format property
 
 Gets the marker fill. Read-only [`IFormat`](../../iformat).

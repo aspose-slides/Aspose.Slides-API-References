@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.smartart/smartartshape/textframe/
 ---
+
 ## SmartArtShape.TextFrame property
 
 Returns text of the SmartArt shape. Read-only [`ITextFrame`](../../../aspose.slides/itextframe).

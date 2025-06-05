@@ -1,15 +1,15 @@
 ---
 title: VbaModuleCollection
-second_title: Aspose.Sildes for .NET API Reference
-description: 表示VBA项目模块的集合。
+second_title: Aspose.Slides for .NET API Reference
+description: 表示一个VBA项目模块的集合。
 type: docs
 weight: 11330
 url: /zh/aspose.slides.vba/vbamodulecollection/
 ---
 
-## VbaModuleCollection 类
+## VbaModuleCollection class
 
-表示VBA项目模块的集合。
+表示一个VBA项目模块的集合。
 
 ```csharp
 public sealed class VbaModuleCollection : IVbaModuleCollection
@@ -20,7 +20,7 @@ public sealed class VbaModuleCollection : IVbaModuleCollection
 | 名称 | 描述 |
 | --- | --- |
 | [Count](../../aspose.slides.vba/vbamodulecollection/count) { get; } | 获取集合中实际包含的元素数量。只读 Int32。 |
-| [IsSynchronized](../../aspose.slides.vba/vbamodulecollection/issynchronized) { get; } | 返回一个值，指示访问集合的操作是否是同步的（线程安全）。只读 Boolean。 |
+| [IsSynchronized](../../aspose.slides.vba/vbamodulecollection/issynchronized) { get; } | 返回一个值，指示访问集合是否已同步（线程安全）。只读 Boolean。 |
 | [Item](../../aspose.slides.vba/vbamodulecollection/item) { get; } | 获取指定索引处的元素。 |
 | [SyncRoot](../../aspose.slides.vba/vbamodulecollection/syncroot) { get; } | 返回一个同步根。只读 Object。 |
 
@@ -29,8 +29,8 @@ public sealed class VbaModuleCollection : IVbaModuleCollection
 | 名称 | 描述 |
 | --- | --- |
 | [AddEmptyModule](../../aspose.slides.vba/vbamodulecollection/addemptymodule)(string) | 向VBA项目添加一个新的空模块。 |
-| [CopyTo](../../aspose.slides.vba/vbamodulecollection/copyto)(Array, int) | 将集合中的所有元素复制到指定数组。 |
-| [GetEnumerator](../../aspose.slides.vba/vbamodulecollection/getenumerator)() | 返回一个枚举器，用于迭代集合。 |
+| [CopyTo](../../aspose.slides.vba/vbamodulecollection/copyto)(Array, int) | 将集合中的所有元素复制到指定的数组。 |
+| [GetEnumerator](../../aspose.slides.vba/vbamodulecollection/getenumerator)() | 返回一个枚举器，遍历集合。 |
 | [Remove](../../aspose.slides.vba/vbamodulecollection/remove)(IVbaModule) | 从集合中移除特定对象的第一次出现。 |
 
 ### 另请参阅

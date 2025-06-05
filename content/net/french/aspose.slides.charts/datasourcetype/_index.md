@@ -1,7 +1,7 @@
 ---
 title: DataSourceType
-second_title: Aspose.Slides pour la référence API .NET
-description: Types de sources de données.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Types de source de données.
 type: docs
 weight: 1500
 url: /fr/aspose.slides.charts/datasourcetype/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/datasourcetype/
 
 ## Énumération DataSourceType
 
-Types de sources de données.
+Types de source de données.
 
 ```csharp
 public enum DataSourceType
@@ -19,11 +19,11 @@ public enum DataSourceType
 
 | Nom | Valeur | Description |
 | --- | --- | --- |
-| Worksheet | `0` | Utilise des objets CellXls pour stocker XValue, YValue, Value ou BubbleSize d'un point de données dans une feuille de calcul. |
-| StringLiterals | `1` | Utilise une variable de chaîne d'accès rapide pour stocker XValue, YValue, Value ou BubbleSize d'un point de données. La feuille de calcul n'est PAS utilisée pour stocker des valeurs. |
-| DoubleLiterals | `2` | Utilise une variable double d'accès rapide pour stocker XValue, YValue, Value ou BubbleSize d'un point de données. La feuille de calcul n'est PAS utilisée pour stocker des valeurs. |
+| Worksheet | `0` | Utiliser les objets CellXls pour stocker XValue, YValue, Value ou BubbleSize d'un point de données dans la feuille de calcul. |
+| StringLiterals | `1` | Utiliser une variable de chaîne à accès rapide pour stocker XValue, YValue, Value ou BubbleSize d'un point de données. La feuille de calcul N'EST PAS utilisée pour stocker des valeurs. |
+| DoubleLiterals | `2` | Utiliser une variable double à accès rapide pour stocker XValue, YValue, Value ou BubbleSize d'un point de données. La feuille de calcul N'EST PAS utilisée pour stocker des valeurs. |
 
-### Voir Aussi
+### Voir aussi
 
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

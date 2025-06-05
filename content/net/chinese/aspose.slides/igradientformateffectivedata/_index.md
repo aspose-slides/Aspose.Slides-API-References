@@ -19,12 +19,12 @@ public interface IGradientFormatEffectiveData : IFillParamSource
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/igradientformateffectivedata/asifillparamsource) { get; } | 允许获取基础的 IFillParamSource 接口。只读 [`IFillParamSource`](../ifillparamsource)。 |
+| [AsIFillParamSource](../../aspose.slides/igradientformateffectivedata/asifillparamsource) { get; } | 允许获取基本的 IFillParamSource 接口。只读 [`IFillParamSource`](../ifillparamsource)。 |
 | [GradientDirection](../../aspose.slides/igradientformateffectivedata/gradientdirection) { get; } | 返回渐变的样式。只读 [`GradientDirection`](../gradientdirection)。 |
 | [GradientShape](../../aspose.slides/igradientformateffectivedata/gradientshape) { get; } | 返回渐变的形状。只读 [`GradientShape`](../gradientshape)。 |
 | [GradientStops](../../aspose.slides/igradientformateffectivedata/gradientstops) { get; } | 返回渐变停止的集合。只读 [`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata)。 |
-| [LinearGradientAngle](../../aspose.slides/igradientformateffectivedata/lineargradientangle) { get; } | 返回渐变的角度。只读单精度浮点数。 |
-| [LinearGradientScaled](../../aspose.slides/igradientformateffectivedata/lineargradientscaled) { get; } | 确定渐变是否被缩放。只读布尔值。 |
+| [LinearGradientAngle](../../aspose.slides/igradientformateffectivedata/lineargradientangle) { get; } | 返回渐变的角度。只读 Single。 |
+| [LinearGradientScaled](../../aspose.slides/igradientformateffectivedata/lineargradientscaled) { get; } | 确定渐变是否被缩放。只读 Boolean。 |
 | [TileFlip](../../aspose.slides/igradientformateffectivedata/tileflip) { get; } | 返回渐变的翻转模式。只读 [`TileFlip`](../tileflip)。 |
 
 ### 备注

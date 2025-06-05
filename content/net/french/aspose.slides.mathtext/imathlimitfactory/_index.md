@@ -19,7 +19,7 @@ public interface IMathLimitFactory
 
 | Nom | Description |
 | --- | --- |
-| [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit)(IMathElement, IMathElement) | Crée IMathLimit avec la limite en bas |
+| [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit)(IMathElement, IMathElement) | Crée IMathLimit avec une limite en bas |
 | [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit_1)(IMathElement, IMathElement, bool) | Crée IMathLimit |
 
 ### Remarques

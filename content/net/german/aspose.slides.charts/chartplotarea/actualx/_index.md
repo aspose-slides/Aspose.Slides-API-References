@@ -1,7 +1,7 @@
 ---
 title: ActualX
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die tatsächliche x-Position links des Diagrammelements relativ zur oberen linken Ecke des Diagramms an. Rufen Sie die Methode IChart.ValidateChartLayout auf, um tatsächliche Werte zu erhalten. Lesen Sie Einzelne.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt die tatsächliche x-Position links des Diagrammelements relativ zur linken oberen Ecke des Diagramms an. Rufen Sie die Methode IChart.ValidateChartLayout auf, um die tatsächlichen Werte zu erhalten. Lesen Sie Einzelwert.
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/chartplotarea/actualx/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/chartplotarea/actualx/
 
 ## ChartPlotArea.ActualX-Eigenschaft
 
-Gibt die tatsächliche x-Position (links) des Diagrammelements relativ zur oberen linken Ecke des Diagramms an. Rufen Sie die Methode IChart.ValidateChartLayout() auf, um tatsächliche Werte zu erhalten. Lesen Sie Einzelne.
+Gibt die tatsächliche x-Position (links) des Diagrammelements relativ zur linken oberen Ecke des Diagramms an. Rufen Sie die Methode IChart.ValidateChartLayout() auf, um die tatsächlichen Werte zu erhalten. Lesen Sie Einzelwert.
 
 ```csharp
 public float ActualX { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [ChartPlotArea](../../chartplotarea)
 * Namespace [Aspose.Slides.Charts](../../chartplotarea)

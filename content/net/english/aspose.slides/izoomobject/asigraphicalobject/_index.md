@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/izoomobject/asigraphicalobject/
 ---
+
 ## IZoomObject.AsIGraphicalObject property
 
 Allows to get base IGraphicalObject interface. Read-only [`IGraphicalObject`](../../igraphicalobject).

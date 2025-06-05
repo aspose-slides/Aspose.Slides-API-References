@@ -1,13 +1,13 @@
 ---
-title: Notas
-second_title: Referencia de la API de Aspose.Slides para .NET
+title: Notes
+second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve el número de diapositivas en una presentación que contiene notas. Solo lectura Int32.
 type: docs
 weight: 250
 url: /es/aspose.slides/documentproperties/notes/
 ---
 
-## Propiedad DocumentProperties.Notes
+## DocumentProperties.Notes property
 
 Devuelve el número de diapositivas en una presentación que contiene notas. Solo lectura Int32.
 
@@ -17,8 +17,8 @@ public int Notes { get; }
 
 ### Ver También
 
-* clase [DocumentProperties](../../documentproperties)
-* espacio de nombres [Aspose.Slides](../../documentproperties)
-* ensamblaje [Aspose.Slides](../../../)
+* class [DocumentProperties](../../documentproperties)
+* namespace [Aspose.Slides](../../documentproperties)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

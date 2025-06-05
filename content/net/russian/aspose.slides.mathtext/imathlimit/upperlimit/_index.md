@@ -1,6 +1,6 @@
 ---
 title: UpperLimit
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Указывает верхний или нижний предел
 type: docs
 weight: 40
@@ -25,7 +25,7 @@ IMathLimit limitElement = new MathLimit(new MathematicalText("lim"), new Mathema
 limitElement.UpperLimit = false;
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IMathLimit](../../imathlimit)
 * пространство имен [Aspose.Slides.MathText](../../imathlimit)

@@ -1,13 +1,13 @@
 ---
 title: GetHashCode
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Devuelve el código hash para este objeto.
 type: docs
 weight: 100
 url: /es/aspose.slides/tabcollection/gethashcode/
 ---
 
-## Método TabCollection.GetHashCode
+## TabCollection.GetHashCode método
 
 Devuelve el código hash para este objeto.
 
@@ -15,10 +15,10 @@ Devuelve el código hash para este objeto.
 public override int GetHashCode()
 ```
 
-### Vea También
+### Ver También
 
 * clase [TabCollection](../../tabcollection)
 * espacio de nombres [Aspose.Slides](../../tabcollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/propertyeffect/propertyeffect/
 public PropertyEffect()
 ```
 
-### Смотрите также
+### Также смотри
 
 * класс [PropertyEffect](../../propertyeffect)
 * пространство имен [Aspose.Slides.Animation](../../propertyeffect)

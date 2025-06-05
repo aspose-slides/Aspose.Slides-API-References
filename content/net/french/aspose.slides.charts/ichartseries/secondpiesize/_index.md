@@ -1,7 +1,7 @@
 ---
 title: SecondPieSize
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie la taille du deuxième secteur ou barre d'un graphique en secteur à secteurs ou d'un graphique en barres à secteurs en pourcentage de la taille du premier secteur, qui peut être compris entre 5 et 200 pourcents. C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - il s'agit de la projection de la propriété appropriée du groupe. Ainsi, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété ParentSeriesGroup.SecondPieSize en lecture/écriture pour changer la valeur. En lecture seule UInt16.
+description: Spécifie la taille du deuxième camembert ou barre d'un graphique camembert ou d'un graphique barre de camembert en pourcentage de la taille du premier camembert peut être entre 5 et 200 pourcents. Il s'agit d'une propriété non seulement de cette série, mais de toutes les séries du groupe de séries parent - c'est une projection de la propriété appropriée du groupe. Ainsi, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété en lecture/écriture ParentSeriesGroup.SecondPieSize pour changer la valeur. Lecture seule UInt16.
 type: docs
 weight: 360
 url: /fr/aspose.slides.charts/ichartseries/secondpiesize/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ichartseries/secondpiesize/
 
 ## Propriété IChartSeries.SecondPieSize
 
-Spécifie la taille du deuxième secteur ou barre d'un graphique en secteur à secteurs ou d'un graphique en barres à secteurs, en pourcentage de la taille du premier secteur (peut être entre 5 et 200 pourcents). C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - il s'agit de la projection de la propriété appropriée du groupe. Ainsi, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété ParentSeriesGroup.SecondPieSize en lecture/écriture pour changer la valeur. En lecture seule UInt16.
+Spécifie la taille du deuxième camembert ou barre d'un graphique camembert ou d'un graphique barre de camembert, en pourcentage de la taille du premier camembert (peut être entre 5 et 200 pourcents). Il s'agit d'une propriété non seulement de cette série, mais de toutes les séries du groupe de séries parent - c'est une projection de la propriété appropriée du groupe. Ainsi, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété en lecture/écriture ParentSeriesGroup.SecondPieSize pour changer la valeur. Lecture seule UInt16.
 
 ```csharp
 public ushort SecondPieSize { get; }
@@ -17,7 +17,7 @@ public ushort SecondPieSize { get; }
 
 ### Remarques
 
-C'est la projection de la propriété ParentSeriesGroup.SecondPieSize.
+Ceci est la projection de la propriété ParentSeriesGroup.SecondPieSize.
 
 ### Voir aussi
 

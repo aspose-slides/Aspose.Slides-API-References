@@ -1,6 +1,6 @@
 ---
 title: GradientStop
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Représente un format de dégradé.
 type: docs
 weight: 4820
@@ -19,8 +19,8 @@ public sealed class GradientStop : PVIObject, IGradientStop
 
 | Nom | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface de base IPresentationComponent. En lecture seule [`IPresentationComponent`](../ipresentationcomponent). |
-| [Color](../../aspose.slides/gradientstop/color) { get; } | Renvoie la couleur d'un arrêt de dégradé. En lecture seule [`IColorFormat`](../icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface de base IPresentationComponent. Lecture seule [`IPresentationComponent`](../ipresentationcomponent). |
+| [Color](../../aspose.slides/gradientstop/color) { get; } | Renvoie la couleur d'un arrêt de dégradé. Lecture seule [`IColorFormat`](../icolorformat). |
 | [Position](../../aspose.slides/gradientstop/position) { get; set; } | Renvoie ou définit la position (0..1) d'un arrêt de dégradé. Lecture/écriture Single. |
 
 ## Méthodes

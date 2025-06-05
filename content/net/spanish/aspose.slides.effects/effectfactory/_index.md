@@ -32,8 +32,8 @@ public class EffectFactory : IEffectFactory
 | Nombre | Descripción |
 | --- | --- |
 | [CreateGlow](../../aspose.slides.effects/effectfactory/createglow)() | Crea el efecto Glow. |
-| [CreateInnerShadow](../../aspose.slides.effects/effectfactory/createinnershadow)() | Crea el efecto de sombra interior. |
-| [CreateOuterShadow](../../aspose.slides.effects/effectfactory/createoutershadow)() | Crea el efecto de sombra exterior. |
+| [CreateInnerShadow](../../aspose.slides.effects/effectfactory/createinnershadow)() | Crea el efecto de sombra interna. |
+| [CreateOuterShadow](../../aspose.slides.effects/effectfactory/createoutershadow)() | Crea el efecto de sombra externa. |
 | [CreatePresetShadow](../../aspose.slides.effects/effectfactory/createpresetshadow)() | Crea el efecto de sombra preestablecida. |
 | [CreateReflection](../../aspose.slides.effects/effectfactory/createreflection)() | Crea el efecto de reflexión. |
 | [CreateSoftEdge](../../aspose.slides.effects/effectfactory/createsoftedge)() | Crea el efecto de borde suave. |
@@ -42,10 +42,10 @@ public class EffectFactory : IEffectFactory
 
 Para compatibilidad con COM.
 
-### Ver También
+### Véase también
 
 * interfaz [IEffectFactory](../ieffectfactory)
 * espacio de nombres [Aspose.Slides.Effects](../../aspose.slides.effects)
-* ensamblaje [Aspose.Slides](../../)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

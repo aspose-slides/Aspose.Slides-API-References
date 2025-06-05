@@ -1,7 +1,7 @@
 ---
-title: Typ
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt den Typ des Filtereffekts dar. Lese-/Schreibzugriff auf FilterEffectTypeaspose.slides.animation/filtereffecttype.
+title: Type
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt den Typ des Filtereffekts dar. Lese-/Schreibe FilterEffectType aspose.slides.animation/filtereffecttype.
 type: docs
 weight: 40
 url: /de/aspose.slides.animation/filtereffect/type/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.animation/filtereffect/type/
 
 ## FilterEffect.Type-Eigenschaft
 
-Stellt den Typ des Filtereffekts dar. Lese-/Schreibzugriff auf [`FilterEffectType`](../../filtereffecttype).
+Stellt den Typ des Filtereffekts dar. Lese-/Schreibe [`FilterEffectType`](../../filtereffecttype).
 
 ```csharp
 public FilterEffectType Type { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [FilterEffectType](../../filtereffecttype)
 * class [FilterEffect](../../filtereffect)

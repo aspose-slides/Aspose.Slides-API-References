@@ -1,6 +1,6 @@
 ---
 title: Direction
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Direction de la transition. Lecture/écriture Orientationaspose.slides/orientation.
 type: docs
 weight: 20

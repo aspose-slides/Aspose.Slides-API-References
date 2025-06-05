@@ -1,7 +1,7 @@
 ---
-title: 黑白模式
-second_title: Aspose.Slides for .NET API 参考
-description: 确定彩色形状应如何转换为黑白。
+title: BlackWhiteMode
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定彩色形状如何转换为黑白。
 type: docs
 weight: 940
 url: /zh/aspose.slides/blackwhitemode/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/blackwhitemode/
 
 ## BlackWhiteMode 枚举
 
-确定彩色形状应如何转换为黑白。
+确定彩色形状如何转换为黑白。
 
 ```csharp
 public enum BlackWhiteMode : sbyte
@@ -20,19 +20,19 @@ public enum BlackWhiteMode : sbyte
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
 | NotDefined | `-1` | 属性未设置 |
-| Color | `0` | 对象以正常颜色渲染 |
-| Automatic | `1` | 对象以自动颜色渲染 |
-| Gray | `2` | 对象以灰色渲染 |
-| LightGray | `3` | 对象以浅灰色渲染 |
-| InverseGray | `4` | 对象以反转灰色渲染 |
-| GrayWhite | `5` | 对象以灰色和白色渲染 |
-| BlackGray | `6` | 对象以黑色和灰色渲染 |
-| BlackWhite | `7` | 对象以黑色和白色渲染 |
-| Black | `8` | 对象仅以黑色渲染 |
-| White | `9` | 对象以白色渲染 |
-| Hidden | `10` | 对象未渲染 |
+| Color | `0` | 对象以正常颜色呈现 |
+| Automatic | `1` | 对象以自动颜色呈现 |
+| Gray | `2` | 对象以灰色呈现 |
+| LightGray | `3` | 对象以浅灰色呈现 |
+| InverseGray | `4` | 对象以反色灰色呈现 |
+| GrayWhite | `5` | 对象以灰色和白色呈现 |
+| BlackGray | `6` | 对象以黑色和灰色呈现 |
+| BlackWhite | `7` | 对象以黑色和白色呈现 |
+| Black | `8` | 对象仅以黑色呈现 |
+| White | `9` | 对象以白色呈现 |
+| Hidden | `10` | 对象未呈现 |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

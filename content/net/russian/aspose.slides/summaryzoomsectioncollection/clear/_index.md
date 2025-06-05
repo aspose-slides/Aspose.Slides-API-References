@@ -1,6 +1,6 @@
 ---
-title: Очистить
-second_title: Справочник по API Aspose.Sildes для .NET
+title: Clear
+second_title: Aspose.Sildes для .NET Справочник API
 description: Удаляет все объекты SummaryZoomSection из коллекции.
 type: docs
 weight: 60

@@ -1,7 +1,7 @@
 ---
-title: Linie
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Linienstileigenschaften eines Diagramms zurück. Nur lesbar ILineFormataspose.slides/ilineformat.
+title: Line
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Linienstileigenschaften eines Diagramms zurück. Nur-Lese ILineFormataspose.slides/../aspose.slides/ilineformat.
 type: docs
 weight: 40
 url: /de/aspose.slides.charts/iformat/line/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/iformat/line/
 
 ## IFormat.Line-Eigenschaft
 
-Gibt die Linienstileigenschaften eines Diagramms zurück. Nur lesbar [`ILineFormat`](../../../aspose.slides/ilineformat).
+Gibt die Linienstileigenschaften eines Diagramms zurück. Nur-Lese [`ILineFormat`](../../../aspose.slides/ilineformat).
 
 ```csharp
 public ILineFormat Line { get; }

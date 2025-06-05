@@ -1,13 +1,13 @@
 ---
 title: SyncRoot
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Возвращает корень синхронизации. Объект только для чтения.
 type: docs
 weight: 50
 url: /ru/aspose.slides/shapecollection/syncroot/
 ---
 
-## Свойство ShapeCollection.SyncRoot
+## ShapeCollection.SyncRoot свойство
 
 Возвращает корень синхронизации. Объект только для чтения.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/shapecollection/syncroot/
 public object SyncRoot { get; }
 ```
 
-### См. Также
+### См. также
 
 * класс [ShapeCollection](../../shapecollection)
 * пространство имен [Aspose.Slides](../../shapecollection)

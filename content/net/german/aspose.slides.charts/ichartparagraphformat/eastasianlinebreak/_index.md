@@ -1,6 +1,6 @@
 ---
 title: EastAsianLineBreak
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Bestimmt, ob der ostasiatische Zeilenumbruch in einem Absatz verwendet wird. Lese-/Schreibzugriff auf NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 30

@@ -20,7 +20,7 @@ public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffect
 | Nombre | Descripción |
 | --- | --- |
 | [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | Devuelve el número de paradas de gradiente en una colección. Solo lectura Int32. |
-| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (seguro para hilos). Solo lectura Boolean. |
+| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (a prueba de hilos). Solo lectura Boolean. |
 | [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | Devuelve la parada de gradiente por índice. |
 | [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | Devuelve una raíz de sincronización. Solo lectura Object. |
 
@@ -28,10 +28,10 @@ public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffect
 
 | Nombre | Descripción |
 | --- | --- |
-| [CopyTo](../../aspose.slides/gradientstopcollectioneffectivedata/copyto)(Array, int) | Copia todos los elementos de la colección al array especificado. |
+| [CopyTo](../../aspose.slides/gradientstopcollectioneffectivedata/copyto)(Array, int) | Copia todos los elementos de la colección al arreglo especificado. |
 | [GetEnumerator](../../aspose.slides/gradientstopcollectioneffectivedata/getenumerator)() | Devuelve un enumerador que itera a través de la colección. |
 
-### Véase también
+### Véase También
 
 * interfaz [IGradientStopCollectionEffectiveData](../igradientstopcollectioneffectivedata)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)

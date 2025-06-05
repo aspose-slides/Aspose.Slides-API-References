@@ -7,7 +7,7 @@ weight: 10700
 url: /de/aspose.slides/textunderlinetype/
 ---
 
-## TextUnderlineType-Enumeration
+## TextUnderlineType Enumeration
 
 Stellt den Typ der Textunterstreichung dar.
 

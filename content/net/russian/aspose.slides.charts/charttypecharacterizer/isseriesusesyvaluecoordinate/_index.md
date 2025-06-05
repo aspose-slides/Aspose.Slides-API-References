@@ -1,7 +1,7 @@
 ---
 title: IsSeriesUsesYValueCoordinate
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает, использует ли указанный тип серии значения координат Y.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает, использует ли указанный тип серии координаты значений Y.
 type: docs
 weight: 210
 url: /ru/aspose.slides.charts/charttypecharacterizer/isseriesusesyvaluecoordinate/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/charttypecharacterizer/isseriesusesyvaluecoordinat
 
 ## ChartTypeCharacterizer.IsSeriesUsesYValueCoordinate метод
 
-Возвращает, использует ли указанный тип серии значения координат Y.
+Возвращает, использует ли указанный тип серии координаты значений Y.
 
 ```csharp
 public static bool IsSeriesUsesYValueCoordinate(ChartType seriesType)
@@ -21,7 +21,7 @@ public static bool IsSeriesUsesYValueCoordinate(ChartType seriesType)
 
 ### Возвращаемое значение
 
-True, если используется, иначе false.
+True, если используется, в противном случае false.
 
 ### См. также
 

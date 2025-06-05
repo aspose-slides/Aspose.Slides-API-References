@@ -1,15 +1,15 @@
 ---
 title: SvgImage
-second_title: Aspose.Slides for .NET API 参考
-description: 表示一个SVG图像。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示SVG图像。
 type: docs
 weight: 10490
 url: /zh/aspose.slides/svgimage/
 ---
 
-## SvgImage 类
+## SvgImage class
 
-表示一个SVG图像。
+表示SVG图像。
 
 ```csharp
 public class SvgImage : ISvgImage
@@ -30,8 +30,8 @@ public class SvgImage : ISvgImage
 
 | 名称 | 描述 |
 | --- | --- |
-| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | 返回指定Svg的基本URI。用于解析相对链接。只读字符串。 |
-| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | 返回用于在导入Svg文档时解析外部资源的回调接口。只读 [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver)。 |
+| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | 返回指定Svg的基础URI。用于解析相对链接。只读字符串。 |
+| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | 返回回调接口，用于在导入Svg文档时解析外部资源。只读[`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver)。 |
 | [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | 返回SVG内容。只读字符串。 |
 | [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | 返回SVG数据。只读字节数组。 |
 
@@ -41,7 +41,7 @@ public class SvgImage : ISvgImage
 | --- | --- |
 | [WriteAsEmf](../../aspose.slides/svgimage/writeasemf)(Stream) | 将SVG图像保存为EMF文件。 |
 
-### 参见
+### 另见
 
 * 接口 [ISvgImage](../isvgimage)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

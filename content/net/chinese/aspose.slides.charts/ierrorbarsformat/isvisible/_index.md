@@ -1,7 +1,7 @@
 ---
 title: IsVisible
-second_title: Aspose.Sildes for .NET API 参考
-description: 获取或设置误差线的可见性。可读/写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取或设置错误条的可见性。可读/可写布尔值。
 type: docs
 weight: 40
 url: /zh/aspose.slides.charts/ierrorbarsformat/isvisible/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ierrorbarsformat/isvisible/
 
 ## IErrorBarsFormat.IsVisible 属性
 
-获取或设置误差线的可见性。可读/写布尔值。
+获取或设置错误条的可见性。可读/可写布尔值。
 
 ```csharp
 public bool IsVisible { get; set; }

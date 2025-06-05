@@ -1,5 +1,5 @@
 ---
-title: Imagen
+title: Picture
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve la imagen. Solo lectura IPictureEffectiveDataaspose.slides/ipictureeffectivedata.
 type: docs
@@ -20,6 +20,6 @@ public IPictureEffectiveData Picture { get; }
 * interfaz [IPictureEffectiveData](../../ipictureeffectivedata)
 * interfaz [IPictureFillFormatEffectiveData](../../ipicturefillformateffectivedata)
 * espacio de nombres [Aspose.Slides](../../ipicturefillformateffectivedata)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

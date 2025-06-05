@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.animation/ipointcollection/item/
 ---
+
 ## IPointCollection indexer
 
 Returns a point at the specified index.

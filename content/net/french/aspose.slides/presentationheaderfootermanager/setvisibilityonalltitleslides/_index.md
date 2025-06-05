@@ -1,7 +1,7 @@
 ---
 title: SetVisibilityOnAllTitleSlides
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Change la visibilité des espaces réservés de date-heure et de numéro de page dans le pied de page pour toutes les diapositives de titre et pour la première diapositive de mise en page. Les diapositives de titre sont des diapositives basées sur la première diapositive de mise en page, quel que soit le type de cette première mise en page.
+description: Modifie la visibilité des espaces réservés pour la date-heure et le numéro de page dans le pied de page pour toutes les diapositives de titre et pour la première diapositive de mise en page. Les diapositives de titre sont basées sur la première diapositive de mise en page, quel que soit le type de cette première mise en page.
 type: docs
 weight: 80
 url: /fr/aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/presentationheaderfootermanager/setvisibilityonalltitlesl
 
 ## PresentationHeaderFooterManager.SetVisibilityOnAllTitleSlides méthode
 
-Change la visibilité des espaces réservés de pied de page, date-heure et numéro de page pour toutes les diapositives de titre et pour la première diapositive de mise en page. Les diapositives de titre – diapositives basées sur la première diapositive de mise en page (indépendamment du type de cette première mise en page).
+Modifie la visibilité des espaces réservés du pied de page, de la date-heure et du numéro de page pour toutes les diapositives de titre et pour la première diapositive de mise en page. Les diapositives de titre – diapositives basées sur la première diapositive de mise en page (quel que soit le type de cette première mise en page).
 
 ```csharp
 public void SetVisibilityOnAllTitleSlides(bool isVisible)
@@ -17,9 +17,9 @@ public void SetVisibilityOnAllTitleSlides(bool isVisible)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| isVisible | Boolean | true - rend un espace réservé visible, sinon - les cache. |
+| isVisible | Boolean | true - rend les espaces réservés visibles, sinon - les cache. |
 
-### Voir aussi
+### Voir Aussi
 
 * classe [PresentationHeaderFooterManager](../../presentationheaderfootermanager)
 * espace de noms [Aspose.Slides](../../presentationheaderfootermanager)

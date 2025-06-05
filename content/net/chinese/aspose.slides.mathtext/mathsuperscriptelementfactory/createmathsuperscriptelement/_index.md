@@ -1,6 +1,6 @@
 ---
-title: 创建 MathSuperscriptElement
-second_title: Aspose.Slides for .NET API 参考
+title: CreateMathSuperscriptElement
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建 IMathSuperscriptElement
 type: docs
 weight: 20
@@ -18,14 +18,14 @@ public IMathSuperscriptElement CreateMathSuperscriptElement(IMathElement baseArg
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| baseArg | IMathElement | 应用上标的基参数 |
-| superScript | IMathElement | 右上角指数 |
+| baseArg | IMathElement | 应用上标的基础参数 |
+| superScript | IMathElement | 右上索引 |
 
 ### 返回值
 
 new IMathSuperscriptElement
 
-### 参见
+### 另见
 
 * 接口 [IMathSuperscriptElement](../../imathsuperscriptelement)
 * 接口 [IMathElement](../../imathelement)

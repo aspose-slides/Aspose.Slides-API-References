@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/summaryzoomsectioncollection/copyto/
 ---
+
 ## SummaryZoomSectionCollection.CopyTo method
 
 Copies the entire collection to the specified array.

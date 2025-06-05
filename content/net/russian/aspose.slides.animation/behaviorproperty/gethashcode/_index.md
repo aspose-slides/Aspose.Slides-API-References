@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
-second_title: Справочник по API Aspose.Slides для .NET
-description: Вычисляет и возвращает хеш-код на основе свойства Valueaspose.slides.animation/behaviorproperty/value
+second_title: Aspose.Sildes для .NET API Справочник
+description: Вычисляет и возвращает хэш-код на основе свойства Valueaspose.slides.animation/behaviorproperty/value
 type: docs
 weight: 1260
 url: /ru/aspose.slides.animation/behaviorproperty/gethashcode/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.animation/behaviorproperty/gethashcode/
 
 ## Метод BehaviorProperty.GetHashCode
 
-Вычисляет и возвращает хеш-код на основе свойства [`Value`](../value)
+Вычисляет и возвращает хэш-код на основе свойства [`Value`](../value)
 
 ```csharp
 public override int GetHashCode()
@@ -17,7 +17,7 @@ public override int GetHashCode()
 
 ### Возвращаемое значение
 
-Возвращает хеш-код для этого объекта
+Возвращает хэш-код для этого объекта
 
 ### См. также
 

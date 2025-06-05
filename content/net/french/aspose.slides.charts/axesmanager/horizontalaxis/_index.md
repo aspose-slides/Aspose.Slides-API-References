@@ -15,7 +15,7 @@ Obtient l'axe horizontal du graphique. Lecture seule [`IAxis`](../../iaxis).
 public IAxis HorizontalAxis { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IAxis](../../iaxis)
 * class [AxesManager](../../axesmanager)

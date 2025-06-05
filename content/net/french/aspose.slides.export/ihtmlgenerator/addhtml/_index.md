@@ -1,7 +1,7 @@
 ---
 title: AddHtml
-second_title: Référence API Aspose.Slides pour .NET
-description: Ajoute un texte HTML formaté.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Ajoute du texte HTML formaté.
 type: docs
 weight: 80
 url: /fr/aspose.slides.export/ihtmlgenerator/addhtml/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/ihtmlgenerator/addhtml/
 
 ## AddHtml(string) {#addhtml_2}
 
-Ajoute un texte HTML formaté.
+Ajoute du texte HTML formaté.
 
 ```csharp
 public void AddHtml(string html)
@@ -29,7 +29,7 @@ public void AddHtml(string html)
 
 ## AddHtml(char[]) {#addhtml}
 
-Ajoute un texte HTML formaté.
+Ajoute du texte HTML formaté.
 
 ```csharp
 public void AddHtml(char[] html)
@@ -49,7 +49,7 @@ public void AddHtml(char[] html)
 
 ## AddHtml(char[], int, int) {#addhtml_1}
 
-Ajoute un texte HTML formaté.
+Ajoute du texte HTML formaté.
 
 ```csharp
 public void AddHtml(char[] html, int startIndex, int length)

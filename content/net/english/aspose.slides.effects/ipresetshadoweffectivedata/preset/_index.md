@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.effects/ipresetshadoweffectivedata/preset/
 ---
+
 ## IPresetShadowEffectiveData.Preset property
 
 Preset. Read-only [`PresetShadowType`](../../../aspose.slides/presetshadowtype).

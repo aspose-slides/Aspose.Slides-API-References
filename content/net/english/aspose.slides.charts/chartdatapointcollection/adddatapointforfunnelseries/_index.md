@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides.charts/chartdatapointcollection/adddatapointforfunnelseries/
 ---
+
 ## ChartDataPointCollection.AddDataPointForFunnelSeries method
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Funnel.

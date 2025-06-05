@@ -1,6 +1,6 @@
 ---
 title: WriteAsSvg
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Referencia de la API Aspose.Slides para .NET
 description: Guarda el contenido de la diapositiva como un archivo SVG.
 type: docs
 weight: 140
@@ -21,7 +21,7 @@ public void WriteAsSvg(Stream stream)
 
 ### Ejemplos
 
-El siguiente ejemplo de código demuestra cómo convertir la primera diapositiva de una presentación de PowerPoint en un archivo SVG.
+El siguiente ejemplo de código muestra cómo convertir la primera diapositiva de una presentación de PowerPoint en un archivo SVG.
 
 ```csharp
 [C#]
@@ -54,11 +54,11 @@ public void WriteAsSvg(Stream stream, ISVGOptions svgOptions)
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | stream | Stream | Flujo de destino |
-| svgOptions | ISVGOptions | Opciones de generación de SVG |
+| svgOptions | ISVGOptions | Opciones de generación SVG |
 
 ### Ejemplos
 
-El siguiente ejemplo de código demuestra cómo convertir la primera diapositiva de una presentación de PowerPoint en un archivo SVG con opciones.
+El siguiente ejemplo de código muestra cómo convertir la primera diapositiva de una presentación de PowerPoint en un archivo SVG con opciones.
 
 ```csharp
 [C#]

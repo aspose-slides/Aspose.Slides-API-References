@@ -1,7 +1,7 @@
 ---
 title: ChartDataTable
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回图表的数据表。只读 IDataTable aspose.slides.charts/idatatable。
+second_title: Aspose.Slides for .NET API 参考
+description: 返回图表的数据表。只读 IDataTableaspose.slides.charts/idatatable。
 type: docs
 weight: 70
 url: /zh/aspose.slides.charts/ichart/chartdatatable/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/ichart/chartdatatable/
 public IDataTable ChartDataTable { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IDataTable](../../idatatable)
 * 接口 [IChart](../../ichart)

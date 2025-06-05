@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection/
 ---
+
 ## ISummaryZoomSectionCollection.AddSummaryZoomSection method
 
 Creates new Summary Zoom Section object and add it to the collection

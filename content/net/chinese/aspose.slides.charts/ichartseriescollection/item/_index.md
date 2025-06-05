@@ -1,6 +1,6 @@
 ---
-title: 项目
-second_title: Aspose.Slides for .NET API 参考
+title: Item
+second_title: Aspose.Slides for .NET API Reference
 description: 获取指定索引处的元素。
 type: docs
 weight: 10
@@ -21,9 +21,9 @@ public IChartSeries this[int index] { get; }
 
 ### 异常
 
-| 异常 | 条件 |
-| --- | --- |
-| ArgumentOutOfRangeException | *index* 不是 IList 中的有效索引。 |
+| 异常                       | 条件                                  |
+|--------------------------|-------------------------------------|
+| ArgumentOutOfRangeException | *index* 不是 IList 中有效的索引。  |
 
 ### 另见
 

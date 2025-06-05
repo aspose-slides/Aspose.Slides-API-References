@@ -1,15 +1,15 @@
 ---
 title: IsBulletHardFont
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Determina si el viñeta tiene su propia fuente o la hereda de la primera porción en el párrafo. Devuelve true si la viñeta tiene su propia fuente y true si la viñeta hereda la fuente de la primera porción en el párrafo. Solo lectura Boolean.
+second_title: Referencia de la API de Aspose.Sildes para .NET
+description: Determina si el viñeta tiene su propia fuente o la hereda de la primera porción en el párrafo. Devuelve true si la viñeta tiene su propia fuente y true si la viñeta hereda la fuente de la primera porción en el párrafo. Booleano de solo lectura.
 type: docs
 weight: 70
 url: /es/aspose.slides/ibulletformateffectivedata/isbullethardfont/
 ---
 
-## Propiedad IBulletFormatEffectiveData.IsBulletHardFont
+## IBulletFormatEffectiveData.IsBulletHardFont property
 
-Determina si la viñeta tiene su propia fuente o la hereda de la primera porción en el párrafo. Devuelve **true** si la viñeta tiene su propia fuente y **true** si la viñeta hereda la fuente de la primera porción en el párrafo. Solo lectura Boolean.
+Determina si el viñeta tiene su propia fuente o la hereda de la primera porción en el párrafo. Devuelve **true** si la viñeta tiene su propia fuente y **true** si la viñeta hereda la fuente de la primera porción en el párrafo. Booleano de solo lectura.
 
 ```csharp
 public bool IsBulletHardFont { get; }
@@ -17,8 +17,8 @@ public bool IsBulletHardFont { get; }
 
 ### Véase también
 
-* interfaz [IBulletFormatEffectiveData](../../ibulletformateffectivedata)
-* espacio de nombres [Aspose.Slides](../../ibulletformateffectivedata)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IBulletFormatEffectiveData](../../ibulletformateffectivedata)
+* namespace [Aspose.Slides](../../ibulletformateffectivedata)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

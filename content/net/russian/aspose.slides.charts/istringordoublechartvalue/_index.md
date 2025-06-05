@@ -1,7 +1,7 @@
 ---
 title: IStringOrDoubleChartValue
-second_title: Aspose.Slides для .NET API Референс
-description: Представляет строковое или двойное значение, которое может быть сохранено в документе pptx в двух формах 1 в ячейке/ячейках рабочей книги, связанных с графиком; 2 как литерал.
+second_title: Aspose.Sildes для справки по API .NET
+description: Представляет строковое или дробное значение, которое может быть сохранено в документе презентации pptx двумя способами 1 в ячейке/ячейках рабочей книги, связанных с диаграммой; 2 как буквальное значение.
 type: docs
 weight: 2150
 url: /ru/aspose.slides.charts/istringordoublechartvalue/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/istringordoublechartvalue/
 
 ## Интерфейс IStringOrDoubleChartValue
 
-Представляет строковое или двойное значение, которое может быть сохранено в документе pptx в двух формах: 1) в ячейке/ячейках рабочей книги, связанных с графиком; 2) как литерал.
+Представляет строковое или дробное значение, которое может быть сохранено в документе презентации pptx двумя способами: 1) в ячейке/ячейках рабочей книги, связанных с диаграммой; 2) как буквальное значение.
 
 ```csharp
 public interface IStringOrDoubleChartValue : ISingleCellChartValue
@@ -17,17 +17,17 @@ public interface IStringOrDoubleChartValue : ISingleCellChartValue
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | Позволяет получить базовый интерфейс ISingleCellChartValue. Только для чтения [`ISingleCellChartValue`](../isinglecellchartvalue). |
-| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | Возвращает или устанавливает литерал двойного значения, если свойство DataSourceType имеет значение DataSourceType.DoubleLiterals. Чтение/запись Double. |
-| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | Возвращает или устанавливает литерал строкового значения, если свойство DataSourceType имеет значение DataSourceType.StringLiterals. Чтение/запись String. |
+| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | Возвращает или задает буквальное дробное значение, если свойство DataSourceType имеет значение DataSourceType.DoubleLiterals. Чтение/запись Double. |
+| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | Возвращает или задает буквальную строку, если свойство DataSourceType имеет значение DataSourceType.StringLiterals. Чтение/запись String. |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [ToDouble](../../aspose.slides.charts/istringordoublechartvalue/todouble)() | Преобразует значение в двойное. |
+| [ToDouble](../../aspose.slides.charts/istringordoublechartvalue/todouble)() | Преобразует значение в дробное. |
 
 ### См. также
 

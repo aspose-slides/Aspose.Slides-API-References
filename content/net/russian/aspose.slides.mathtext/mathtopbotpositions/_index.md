@@ -1,13 +1,13 @@
 ---
 title: MathTopBotPositions
-second_title: Справочник по ASP.NET API Aspose.Sildes
+second_title: Справочник по API Aspose.Slides для .NET
 description: Перечисление верхних/нижних позиций
 type: docs
 weight: 8770
 url: /ru/aspose.slides.mathtext/mathtopbotpositions/
 ---
 
-## Перечисление MathTopBotPositions
+## MathTopBotPositions enumeration
 
 Перечисление верхних/нижних позиций
 
@@ -17,13 +17,13 @@ public enum MathTopBotPositions
 
 ### Значения
 
-| Название | Значение | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | NotDefined | `0` | Не определено |
-| Top | `1` | Вверх |
-| Bottom | `2` | Вниз |
+| Top | `1` | Верхний |
+| Bottom | `2` | Нижний |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)

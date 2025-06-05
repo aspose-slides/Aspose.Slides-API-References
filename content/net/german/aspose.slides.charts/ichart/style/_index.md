@@ -1,7 +1,7 @@
 ---
-title: Stil
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Diagrammstil zurück oder legt ihn fest. Lese-/Schreibzugriff auf StyleTypeaspose.slides.charts/styletype.
+title: Style
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Diagrammstil zurück oder legt ihn fest. Schreib-/Lesezugriff auf StyleTypeaspose.slides.charts/styletype.
 type: docs
 weight: 210
 url: /de/aspose.slides.charts/ichart/style/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/ichart/style/
 
 ## IChart.Style-Eigenschaft
 
-Gibt den Diagrammstil zurück oder legt ihn fest. Lese-/Schreibzugriff auf [`StyleType`](../../styletype).
+Gibt den Diagrammstil zurück oder legt ihn fest. Schreib-/Lesezugriff auf [`StyleType`](../../styletype).
 
 ```csharp
 public StyleType Style { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [StyleType](../../styletype)
 * interface [IChart](../../ichart)

@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/itextframeformateffectivedata/textstyle/
 ---
+
 ## ITextFrameFormatEffectiveData.TextStyle property
 
 Returns effective text's style. Read-only [`ITextStyleEffectiveData`](../../itextstyleeffectivedata).

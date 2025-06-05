@@ -1,15 +1,15 @@
 ---
 title: Value2
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Définit la troisième valeur du décalage. Lecture/écriture de type Single.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Définit la troisième valeur du décalage. Lire/écrire Single.
 type: docs
 weight: 30
 url: /fr/aspose.slides.animation/icoloroffset/value2/
 ---
 
-## Propriété IColorOffset.Value2
+## IColorOffset.Value2 property
 
-Définit la troisième valeur du décalage. Lecture/écriture de type Single.
+Définit la troisième valeur du décalage. Lire/écrire Single.
 
 ```csharp
 public float Value2 { get; set; }

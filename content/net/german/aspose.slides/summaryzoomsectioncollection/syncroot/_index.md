@@ -1,7 +1,7 @@
 ---
 title: SyncRoot
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen Synchronisationswurzel zurück. Read-Only Objekt.
+description: Gibt eine Synchronisierungswurzel zurück. Nur-Lese-Objekt.
 type: docs
 weight: 40
 url: /de/aspose.slides/summaryzoomsectioncollection/syncroot/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/summaryzoomsectioncollection/syncroot/
 
 ## SummaryZoomSectionCollection.SyncRoot-Eigenschaft
 
-Gibt einen Synchronisationswurzel zurück. Read-Only Objekt.
+Gibt eine Synchronisierungswurzel zurück. Nur-Lese-Objekt.
 
 ```csharp
 public object SyncRoot { get; }

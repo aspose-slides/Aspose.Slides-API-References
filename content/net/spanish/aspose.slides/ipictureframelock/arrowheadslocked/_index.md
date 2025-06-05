@@ -1,15 +1,15 @@
 ---
 title: ArrowheadsLocked
-second_title: Aspose.Slides para .NET Referencia de API
-description: Determina si cambiar las cabezas de flecha está prohibido. Booleano de lectura/escritura.
+second_title: Aspose.Slides para referencia de API .NET
+description: Determina si se prohíbe cambiar las cabezas de flecha. Booleano de lectura/escritura.
 type: docs
 weight: 20
 url: /es/aspose.slides/ipictureframelock/arrowheadslocked/
 ---
 
-## Propiedad IPictureFrameLock.ArrowheadsLocked
+## IPictureFrameLock.ArrowheadsLocked property
 
-Determina si cambiar las cabezas de flecha está prohibido. Booleano de lectura/escritura.
+Determina si se prohíbe cambiar las cabezas de flecha. Booleano de lectura/escritura.
 
 ```csharp
 public bool ArrowheadsLocked { get; set; }
@@ -17,8 +17,8 @@ public bool ArrowheadsLocked { get; set; }
 
 ### Ver También
 
-* interfaz [IPictureFrameLock](../../ipictureframelock)
-* espacio de nombres [Aspose.Slides](../../ipictureframelock)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IPictureFrameLock](../../ipictureframelock)
+* espacio de nombres [Aspose.Slides](../../ipictureframelock)
+* ensamblaje [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->

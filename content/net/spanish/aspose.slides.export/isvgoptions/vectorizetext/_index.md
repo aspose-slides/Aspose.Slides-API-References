@@ -1,6 +1,6 @@
 ---
 title: VectorizeText
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Determina si el texto en una diapositiva se guardará como gráficos. Booleano de lectura/escritura.
 type: docs
 weight: 150
@@ -15,10 +15,10 @@ Determina si el texto en una diapositiva se guardará como gráficos. Booleano d
 public bool VectorizeText { get; set; }
 ```
 
-### Ver También
+### Véase También
 
 * interfaz [ISVGOptions](../../isvgoptions)
 * espacio de nombres [Aspose.Slides.Export](../../isvgoptions)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

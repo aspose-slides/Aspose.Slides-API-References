@@ -1,6 +1,6 @@
 ---
-title: Высота
-second_title: Справочник API Aspose.Slides для .NET
+title: Height
+second_title: Aspose.Sildes для .NET API Reference
 description: Возвращает высоту ячейки. Только для чтения Double.
 type: docs
 weight: 90
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/icell/height/
 public double Height { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [ICell](../../icell)
 * пространство имен [Aspose.Slides](../../icell)

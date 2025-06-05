@@ -3,9 +3,10 @@ title: DisplayUnitType
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines multiplicity of the displayed data.
 type: docs
-weight: 1510
+weight: 1540
 url: /aspose.slides.charts/displayunittype/
 ---
+
 ## DisplayUnitType enumeration
 
 Determines multiplicity of the displayed data.

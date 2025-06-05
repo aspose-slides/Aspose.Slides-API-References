@@ -1,21 +1,21 @@
 ---
 title: InvertIfNegative
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает, что столбчатая, колонная или пузырьковая серия должна инвертировать свои цвета, если значение отрицательное. Читаемое/записываемое логическое значение.
+second_title: Aspose.Slides для .NET API Справка
+description: Указывает, что серия столбцов, баров или пузырьков инвертирует свои цвета, если значение отрицательное. Чтение/запись Логическое.
 type: docs
 weight: 170
 url: /ru/aspose.slides.charts/chartseries/invertifnegative/
 ---
 
-## Свойство ChartSeries.InvertIfNegative
+## ChartSeries.InvertIfNegative свойство
 
-Указывает, что столбчатая, колонная или пузырьковая серия должна инвертировать свои цвета, если значение отрицательное. Читаемое/записываемое логическое значение.
+Указывает, что серия столбцов, баров или пузырьков инвертирует свои цвета, если значение отрицательное. Чтение/запись Логическое.
 
 ```csharp
 public bool InvertIfNegative { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [ChartSeries](../../chartseries)
 * пространство имен [Aspose.Slides.Charts](../../chartseries)

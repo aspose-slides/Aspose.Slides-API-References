@@ -1,7 +1,7 @@
 ---
 title: SlideNumberFormat
-second_title: Aspose.Slide für .NET API Referenz
-description: Erhält oder setzt den Formatstring, der für die Foliennummernüberschriften im Markdown-Ausgabeformat verwendet wird. Das Format muss den Platzhalter 0 enthalten, der während des Exports durch den Folienindex ersetzt wird. Beispiel Folie 0 erzeugt Folie 1, Folie 2 usw.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ruft den oder setzt den Format-String, der für die Foliennummernüberschriften in der Markdown-Ausgabe verwendet wird. Das Format muss den Platzhalter 0 enthalten, der während des Exports durch den Folienindex ersetzt wird. Beispiel Folie 0 erzeugt Folie 1, Folie 2 usw.
 type: docs
 weight: 120
 url: /de/aspose.slides.export/markdownsaveoptions/slidenumberformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/markdownsaveoptions/slidenumberformat/
 
 ## MarkdownSaveOptions.SlideNumberFormat-Eigenschaft
 
-Erhält oder setzt den Formatstring, der für die Foliennummernüberschriften im Markdown-Ausgabeformat verwendet wird. Das Format muss den "{0}"-Platzhalter enthalten, der während des Exports durch den Folienindex ersetzt wird. Beispiel: "# Folie {0}" wird "# Folie 1", "# Folie 2" usw. erzeugen.
+Ruft den oder setzt den Format-String, der für die Foliennummernüberschriften in der Markdown-Ausgabe verwendet wird. Das Format muss den "{0}" Platzhalter enthalten, der während des Exports durch den Folienindex ersetzt wird. Beispiel: "# Folie {0}" erzeugt "# Folie 1", "# Folie 2" usw.
 
 ```csharp
 public string SlideNumberFormat { get; set; }
@@ -19,8 +19,8 @@ public string SlideNumberFormat { get; set; }
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentNullException | Wird ausgelöst, wenn der bereitgestellte Wert null oder leer ist. |
-| ArgumentException | Wird ausgelöst, wenn der Formatstring den "{0}"-Platzhalter nicht enthält. |
+| ArgumentNullException | Wird ausgelöst, wenn der angegebene Wert null oder leer ist. |
+| ArgumentException | Wird ausgelöst, wenn der Format-String den "{0}" Platzhalter nicht enthält. |
 
 ### Siehe auch
 

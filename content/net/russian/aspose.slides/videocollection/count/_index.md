@@ -1,13 +1,13 @@
 ---
-title: Количество
-second_title: Справочная информация по API Aspose.Slides для .NET
+title: Count
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает количество видеофайлов в коллекции. Только для чтения Int32.
 type: docs
 weight: 10
 url: /ru/aspose.slides/videocollection/count/
 ---
 
-## Свойство VideoCollection.Count
+## VideoCollection.Count свойство
 
 Возвращает количество видеофайлов в коллекции. Только для чтения Int32.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/videocollection/count/
 public int Count { get; }
 ```
 
-### См. Также
+### Смотрите также
 
 * класс [VideoCollection](../../videocollection)
 * пространство имен [Aspose.Slides](../../videocollection)

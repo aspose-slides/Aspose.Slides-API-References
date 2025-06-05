@@ -1,5 +1,5 @@
 ---
-title: Datos
+title: Data
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece el objeto Data. Objeto de lectura/escritura.
 type: docs
@@ -15,7 +15,7 @@ Devuelve o establece el objeto Data. Objeto de lectura/escritura.
 public override object Data { get; set; }
 ```
 
-### Véase también
+### Ver también
 
 * clase [StringOrDoubleChartValue](../../stringordoublechartvalue)
 * espacio de nombres [Aspose.Slides.Charts](../../stringordoublechartvalue)

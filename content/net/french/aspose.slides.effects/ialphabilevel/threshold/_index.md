@@ -1,7 +1,7 @@
 ---
-title: Seuil
-second_title: Référence de l'API Aspose.Slide pour .NET
-description: Renvoie le seuil de l'effet. Lecture/écriture Single.
+title: Threshold
+second_title: Aspose.Sldes pour .NET API Reference
+description: Renvoie le seuil d'effet. Lecture/écriture Simple.
 type: docs
 weight: 30
 url: /fr/aspose.slides.effects/ialphabilevel/threshold/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.effects/ialphabilevel/threshold/
 
 ## Propriété IAlphaBiLevel.Threshold
 
-Renvoie le seuil de l'effet. Lecture/écriture Single.
+Renvoie le seuil d'effet. Lecture/écriture Simple.
 
 ```csharp
 public float Threshold { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IAlphaBiLevel](../../ialphabilevel)
 * namespace [Aspose.Slides.Effects](../../ialphabilevel)

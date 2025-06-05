@@ -1,7 +1,7 @@
 ---
 title: AsIBulkTextFormattable
-second_title: Aspose.Slides for .NET API Reference
-description: 允许获取基础 IBulkTextFormattable 接口。只读 IBulkTextFormattableaspose.slides/ibulktextformattable。
+second_title: Aspose.Sildes for .NET API Reference
+description: 允许获取基本的 IBulkTextFormattable 接口。读操作的 IBulkTextFormattable aspose.slides/ibulktextformattable。
 type: docs
 weight: 10
 url: /zh/aspose.slides/irow/asibulktextformattable/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/irow/asibulktextformattable/
 
 ## IRow.AsIBulkTextFormattable 属性
 
-允许获取基础 IBulkTextFormattable 接口。只读 [`IBulkTextFormattable`](../../ibulktextformattable)。
+允许获取基本的 IBulkTextFormattable 接口。读操作的 [`IBulkTextFormattable`](../../ibulktextformattable)。
 
 ```csharp
 public IBulkTextFormattable AsIBulkTextFormattable { get; }
 ```
 
-### 相关内容
+### 另请参阅
 
 * 接口 [IBulkTextFormattable](../../ibulktextformattable)
 * 接口 [IRow](../../irow)

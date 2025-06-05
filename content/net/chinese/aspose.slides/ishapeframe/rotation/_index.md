@@ -1,7 +1,7 @@
 ---
-title: 旋转
-second_title: Aspose.Slides for .NET API 参考
-description: 返回框架围绕 z 轴旋转的度数。正值表示顺时针旋转，负值表示逆时针旋转。只读 Single。
+title: Rotation
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回一个框架围绕 z 轴旋转的度数。正值表示顺时针旋转，负值表示逆时针旋转。只读单精度浮点数。
 type: docs
 weight: 70
 url: /zh/aspose.slides/ishapeframe/rotation/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ishapeframe/rotation/
 
 ## IShapeFrame.Rotation 属性
 
-返回框架围绕 z 轴旋转的度数。正值表示顺时针旋转；负值表示逆时针旋转。只读 Single。
+返回一个框架围绕 z 轴旋转的度数。正值表示顺时针旋转；负值表示逆时针旋转。只读单精度浮点数。
 
 ```csharp
 public float Rotation { get; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IShapeFrame](../../ishapeframe)
 * 命名空间 [Aspose.Slides](../../ishapeframe)

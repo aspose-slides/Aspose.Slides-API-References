@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.animation/animationtimeline/textanimationcollection/
 ---
+
 ## AnimationTimeLine.TextAnimationCollection property
 
 Returns collection of text animations. Read-only [`ITextAnimationCollection`](../../itextanimationcollection).

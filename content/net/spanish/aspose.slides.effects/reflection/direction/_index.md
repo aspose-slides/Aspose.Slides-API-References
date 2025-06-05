@@ -1,7 +1,7 @@
 ---
-title: Dirección
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Dirección de la reflexión. Lectura/escritura Simple.
+title: Direction
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Dirección de la reflexión. Lectura/escritura Single.
 type: docs
 weight: 20
 url: /es/aspose.slides.effects/reflection/direction/
@@ -9,16 +9,16 @@ url: /es/aspose.slides.effects/reflection/direction/
 
 ## Propiedad Reflection.Direction
 
-Dirección de la reflexión. Lectura/escritura Simple.
+Dirección de la reflexión. Lectura/escritura Single.
 
 ```csharp
 public float Direction { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [Reflection](../../reflection)
 * espacio de nombres [Aspose.Slides.Effects](../../reflection)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

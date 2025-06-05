@@ -1,7 +1,7 @@
 ---
 title: KeepTextFlat
-second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht das Beibehalten des Textes in flacher Form, auch wenn ein 3-D-Drehungseffekt angewendet wurde. Lese-/Schreibbare Boolesche Variable.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt an, ob der Text flach gehalten werden soll, auch wenn ein 3-D-Rotationseffekt angewendet wurde. Schreib-/Lese-Boolean.
 type: docs
 weight: 70
 url: /de/aspose.slides/textframeformat/keeptextflat/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/textframeformat/keeptextflat/
 
 ## TextFrameFormat.KeepTextFlat-Eigenschaft
 
-Ermöglicht das Beibehalten des Textes in flacher Form, auch wenn ein 3-D-Drehungseffekt angewendet wurde. Lese-/Schreibbare Boolesche Variable.
+Gibt an, ob der Text flach gehalten werden soll, auch wenn ein 3-D-Rotationseffekt angewendet wurde. Schreib-/Lese-Boolean.
 
 ```csharp
 public bool KeepTextFlat { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [TextFrameFormat](../../textframeformat)
 * Namespace [Aspose.Slides](../../textframeformat)

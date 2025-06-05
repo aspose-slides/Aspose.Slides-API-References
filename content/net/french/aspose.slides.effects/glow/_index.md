@@ -1,7 +1,7 @@
 ---
-title: Éclat
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente un effet d'Éclat dans lequel un contour flou coloré est ajouté à l'extérieur des bords de l'objet.
+title: Glow
+second_title: Aspose.Slides pour .NET Référence API
+description: Représente un effet de Glow dans lequel un contour flou coloré est ajouté à l'extérieur des bords de l'objet.
 type: docs
 weight: 2890
 url: /fr/aspose.slides.effects/glow/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/glow/
 
 ## Classe Glow
 
-Représente un effet d'Éclat, dans lequel un contour flou coloré est ajouté à l'extérieur des bords de l'objet.
+Représente un effet de Glow, dans lequel un contour flou coloré est ajouté à l'extérieur des bords de l'objet.
 
 ```csharp
 public sealed class Glow : IGlow
@@ -27,10 +27,10 @@ public sealed class Glow : IGlow
 | Nom | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/glow/equals)(object) | Détermine si le [`Glow`](../glow) spécifié est égal au [`Glow`](../glow) actuel. |
-| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | Obtient les données effectives de l'effet d'Éclat avec l'héritage appliqué. |
+| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | Obtient les données de l'effet de Glow effectif avec l'héritage appliqué. |
 | override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | Sert de fonction de hachage pour un type particulier. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IGlow](../iglow)
 * namespace [Aspose.Slides.Effects](../../aspose.slides.effects)

@@ -1,7 +1,7 @@
 ---
 title: SpaceWithin
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Menge an Raum zwischen Basislinien in einem Absatz zurück oder setzt sie. Ein positiver Wert bedeutet Prozentsatz, negativ - Größe in Punkten. Keine Vererbung angewendet. Lesen/Schreiben Einzel.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt die Menge an Platz zwischen Grundlinien in einem Absatz zurück oder legt sie fest. Positiver Wert bedeutet Prozentsatz, negativer - Größe in Punkten. Keine Vererbung angewendet. Lese-/Schreibzugriff auf Single.
 type: docs
 weight: 140
 url: /de/aspose.slides/paragraphformat/spacewithin/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/paragraphformat/spacewithin/
 
 ## ParagraphFormat.SpaceWithin-Eigenschaft
 
-Gibt die Menge an Raum zwischen Basislinien in einem Absatz zurück oder setzt sie. Ein positiver Wert bedeutet Prozentsatz, negativ - Größe in Punkten. Keine Vererbung angewendet. Lesen/Schreiben Einzel.
+Gibt die Menge an Platz zwischen Grundlinien in einem Absatz zurück oder legt sie fest. Positiver Wert bedeutet Prozentsatz, negativer - Größe in Punkten. Keine Vererbung angewendet. Lese-/Schreibzugriff auf Single.
 
 ```csharp
 public float SpaceWithin { get; set; }

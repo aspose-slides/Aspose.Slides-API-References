@@ -1,7 +1,7 @@
 ---
 title: AddTextFrame
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Ajoute un nouveau TextFrame à une forme. Si la forme a déjà un TextFrame, il change simplement son texte.
+second_title: Aspose.Slides pour .NET API Référence
+description: Ajoute un nouveau TextFrame à une forme. Si la forme a déjà un TextFrame, alors simplement change son texte.
 type: docs
 weight: 70
 url: /fr/aspose.slides/iautoshape/addtextframe/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/iautoshape/addtextframe/
 
 ## IAutoShape.AddTextFrame méthode
 
-Ajoute un nouveau TextFrame à une forme. Si la forme a déjà un TextFrame, il change simplement son texte.
+Ajoute un nouveau TextFrame à une forme. Si la forme a déjà un TextFrame, alors simplement change son texte.
 
 ```csharp
 public ITextFrame AddTextFrame(string text)
@@ -21,7 +21,7 @@ public ITextFrame AddTextFrame(string text)
 
 ### Valeur de retour
 
-Nouveau [`ITextFrame`](../../itextframe) objet.
+Nouvel [`ITextFrame`](../../itextframe) objet.
 
 ### Voir aussi
 

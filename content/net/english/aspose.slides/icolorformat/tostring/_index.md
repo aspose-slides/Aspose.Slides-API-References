@@ -6,6 +6,7 @@ type: docs
 weight: 180
 url: /aspose.slides/icolorformat/tostring/
 ---
+
 ## IColorFormat.ToString method
 
 Returns a String that represents the current color format.

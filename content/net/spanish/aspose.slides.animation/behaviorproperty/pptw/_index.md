@@ -1,6 +1,6 @@
 ---
 title: PptW
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Referencia API de Aspose.Slides para .NET
 description: Representa la propiedad ppt_w
 type: docs
 weight: 540
@@ -15,10 +15,10 @@ Representa la propiedad 'ppt_w'
 public static BehaviorProperty PptW { get; }
 ```
 
-### Ver también
+### Ver También
 
-* clase [BehaviorProperty](../../behaviorproperty)
-* espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)
-* ensamblado [Aspose.Slides](../../../)
+* clase [BehaviorProperty](../../behaviorproperty)
+* espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -3,9 +3,10 @@ title: IThreeDFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents 3-D properties.
 type: docs
-weight: 6880
+weight: 7110
 url: /aspose.slides/ithreedformat/
 ---
+
 ## IThreeDFormat interface
 
 Represents 3-D properties.

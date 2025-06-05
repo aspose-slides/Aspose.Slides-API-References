@@ -1,7 +1,7 @@
 ---
 title: CreateVideoPlayerHtmlController
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erstellen Sie einen HTML-Controller für den Video-Player.
+second_title: Aspose.Slides für .NET API Referenz
+description: Erstellen Sie einen Video-Player HTML-Controller.
 type: docs
 weight: 10
 url: /de/aspose.slides.export/ivideoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/ivideoplayerhtmlcontrollerfactory/createvideoplaye
 
 ## IVideoPlayerHtmlControllerFactory.CreateVideoPlayerHtmlController-Methode
 
-Erstellen Sie einen HTML-Controller für den Video-Player.
+Erstellen Sie einen Video-Player HTML-Controller.
 
 ```csharp
 public IVideoPlayerHtmlController CreateVideoPlayerHtmlController(string path, string fileName, 
@@ -24,7 +24,7 @@ public IVideoPlayerHtmlController CreateVideoPlayerHtmlController(string path, s
 
 ### Rückgabewert
 
-HTML-Controller für den Video-Player [`IVideoPlayerHtmlController`](../../ivideoplayerhtmlcontroller)
+Video-Player HTML-Controller [`IVideoPlayerHtmlController`](../../ivideoplayerhtmlcontroller)
 
 ### Siehe auch
 

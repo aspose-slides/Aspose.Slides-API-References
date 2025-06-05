@@ -1,15 +1,15 @@
 ---
-title: Презентация
-second_title: Справочник API Aspose.Slides для .NET
-description: Возвращает родительскую презентацию для CellCollection. Только для чтения IPresentationaspose.slides/ipresentation.
+title: Presentation
+second_title: Справка по API Aspose.Sildes для .NET
+description: Возвращает родительскую презентацию коллекции ячеек. Только для чтения IPresentationaspose.slides/ipresentation.
 type: docs
 weight: 40
 url: /ru/aspose.slides/cellcollection/presentation/
 ---
 
-## Свойство CellCollection.Presentation
+## CellCollection.Presentation свойство
 
-Возвращает родительскую презентацию для CellCollection. Только для чтения [`IPresentation`](../../ipresentation).
+Возвращает родительскую презентацию коллекции ячеек. Только для чтения [`IPresentation`](../../ipresentation).
 
 ```csharp
 public IPresentation Presentation { get; }

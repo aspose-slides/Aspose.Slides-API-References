@@ -1,15 +1,15 @@
 ---
 title: ShowLeftPane
 second_title: Aspose.Sildes для .NET API Справочник
-description: Показать/скрыть левую панель. Может быть переопределено в flashvars. По умолчанию - истина.
+description: Показать/скрыть левую панель. Может быть переопределено в flashvars. По умолчанию true.
 type: docs
 weight: 100
 url: /ru/aspose.slides.export/iswfoptions/showleftpane/
 ---
 
-## Свойство ISwfOptions.ShowLeftPane
+## ISwfOptions.ShowLeftPane свойство
 
-Показать/скрыть левую панель. Может быть переопределено в flashvars. По умолчанию - истина.
+Показать/скрыть левую панель. Может быть переопределено в flashvars. По умолчанию true.
 
 ```csharp
 public bool ShowLeftPane { get; set; }

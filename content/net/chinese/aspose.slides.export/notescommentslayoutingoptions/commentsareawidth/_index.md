@@ -1,25 +1,25 @@
 ---
 title: CommentsAreaWidth
-second_title: Aspose.Slides for .NET API Reference
-description: 获取或设置评论输出区域的宽度（以像素为单位），仅在评论显示在右侧时适用。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取或设置以像素为单位的备注输出区域的宽度，仅在备注显示在右侧时适用。
 type: docs
 weight: 30
 url: /zh/aspose.slides.export/notescommentslayoutingoptions/commentsareawidth/
 ---
 
-## NotesCommentsLayoutingOptions.CommentsAreaWidth 属性
+## NotesCommentsLayoutingOptions.CommentsAreaWidth property
 
-获取或设置评论输出区域的宽度（以像素为单位）（仅在评论显示在右侧时适用）。
+获取或设置以像素为单位的备注输出区域的宽度（仅在备注显示在右侧时适用）。
 
 ```csharp
 public int CommentsAreaWidth { get; set; }
 ```
 
-### 备注
+### Remarks
 
-最小值和默认值为 **150**。
+最小和默认值为 **150**。
 
-### 另请参见
+### See Also
 
 * class [NotesCommentsLayoutingOptions](../../notescommentslayoutingoptions)
 * namespace [Aspose.Slides.Export](../../notescommentslayoutingoptions)

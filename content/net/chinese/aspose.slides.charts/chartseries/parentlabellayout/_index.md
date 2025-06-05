@@ -1,7 +1,7 @@
 ---
 title: ParentLabelLayout
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示父类别标签的布局，仅适用于树状图。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示父类别标签的布局。仅适用于树图图表。
 type: docs
 weight: 280
 url: /zh/aspose.slides.charts/chartseries/parentlabellayout/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/chartseries/parentlabellayout/
 
 ## ChartSeries.ParentLabelLayout 属性
 
-表示父类别标签的布局，仅适用于树状图。
+表示父类别标签的布局。仅适用于树图图表。
 
 ```csharp
 public ParentLabelLayoutType ParentLabelLayout { get; set; }
 ```
 
-### 另见
+### 参见也
 
 * enum [ParentLabelLayoutType](../../parentlabellayouttype)
 * class [ChartSeries](../../chartseries)

@@ -1,7 +1,7 @@
 ---
 title: Char
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Aufzählungszeichen eines Absatzes ohne Vererbung zurück oder setzt es. Lese-/Schreibcharakter.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt das Aufzählungszeichen eines Absatzes ohne Vererbung zurück oder setzt es. Lese-/Schreibbares Char.
 type: docs
 weight: 10
 url: /de/aspose.slides/ibulletformat/char/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ibulletformat/char/
 
 ## IBulletFormat.Char-Eigenschaft
 
-Gibt das Aufzählungszeichen eines Absatzes ohne Vererbung zurück oder setzt es. Lese-/Schreibcharakter.
+Gibt das Aufzählungszeichen eines Absatzes ohne Vererbung zurück oder setzt es. Lese-/Schreibbares Char.
 
 ```csharp
 public char Char { get; set; }

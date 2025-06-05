@@ -1,7 +1,7 @@
 ---
 title: LightRig
-second_title: Aspose.Slides for .NET API Reference
-description: 返回光的类型。只读 ILightRigEffectiveDataaspose.slides/ilightrigeffectivedata。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回光源的类型。仅可读 ILightRigEffectiveDataaspose.slides/ilightrigeffectivedata。
 type: docs
 weight: 100
 url: /zh/aspose.slides/ithreedformateffectivedata/lightrig/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ithreedformateffectivedata/lightrig/
 
 ## IThreeDFormatEffectiveData.LightRig 属性
 
-返回光的类型。只读 [`ILightRigEffectiveData`](../../ilightrigeffectivedata)。
+返回光源的类型。仅可读 [`ILightRigEffectiveData`](../../ilightrigeffectivedata)。
 
 ```csharp
 public ILightRigEffectiveData LightRig { get; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [ILightRigEffectiveData](../../ilightrigeffectivedata)
 * 接口 [IThreeDFormatEffectiveData](../../ithreedformateffectivedata)

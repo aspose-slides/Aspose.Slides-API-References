@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides/ipresentation/hyperlinkqueries/
 ---
+
 ## IPresentation.HyperlinkQueries property
 
 Provides easy access to all hyperlinks contained in all presentation slides (not in master, layout, notes slides). Read-only [`IHyperlinkQueries`](../../ihyperlinkqueries).

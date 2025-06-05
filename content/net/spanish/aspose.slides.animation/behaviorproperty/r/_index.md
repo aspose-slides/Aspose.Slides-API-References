@@ -1,7 +1,7 @@
 ---
 title: R
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa la propiedad r
+second_title: Referencia de la API de Aspose.Sildes para .NET
+description: Representa la propiedad 'r'
 type: docs
 weight: 570
 url: /es/aspose.slides.animation/behaviorproperty/r/
@@ -15,7 +15,7 @@ Representa la propiedad 'r'
 public static BehaviorProperty R { get; }
 ```
 
-### Véase También
+### Ver También
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)

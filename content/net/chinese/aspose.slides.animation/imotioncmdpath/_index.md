@@ -1,7 +1,7 @@
 ---
 title: IMotionCmdPath
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示路径中的一个命令。
+description: 表示路径的一个命令。
 type: docs
 weight: 430
 url: /zh/aspose.slides.animation/imotioncmdpath/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/imotioncmdpath/
 
 ## IMotionCmdPath 接口
 
-表示路径中的一个命令。
+表示路径的一个命令。
 
 ```csharp
 public interface IMotionCmdPath
@@ -19,12 +19,12 @@ public interface IMotionCmdPath
 
 | 名称 | 描述 |
 | --- | --- |
-| [CommandType](../../aspose.slides.animation/imotioncmdpath/commandtype) { get; set; } | 指定命令类型。读/写 [`MotionCommandPathType`](../motioncommandpathtype)。 |
-| [IsRelative](../../aspose.slides.animation/imotioncmdpath/isrelative) { get; set; } | 确定命令坐标是否相对。读/写布尔值。 |
-| [Points](../../aspose.slides.animation/imotioncmdpath/points) { get; set; } | 指定命令的点。读/写 PointF[]。 |
-| [PointsType](../../aspose.slides.animation/imotioncmdpath/pointstype) { get; set; } | 指定命令点的类型。读/写 [`MotionPathPointsType`](../motionpathpointstype)。 |
+| [CommandType](../../aspose.slides.animation/imotioncmdpath/commandtype) { get; set; } | 指定命令类型。可读/写 [`MotionCommandPathType`](../motioncommandpathtype)。 |
+| [IsRelative](../../aspose.slides.animation/imotioncmdpath/isrelative) { get; set; } | 确定命令坐标是否相对。可读/写 Boolean。 |
+| [Points](../../aspose.slides.animation/imotioncmdpath/points) { get; set; } | 指定命令的点。可读/写 PointF[]。 |
+| [PointsType](../../aspose.slides.animation/imotioncmdpath/pointstype) { get; set; } | 指定命令点的类型。可读/写 [`MotionPathPointsType`](../motionpathpointstype)。 |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 程序集 [Aspose.Slides](../../)

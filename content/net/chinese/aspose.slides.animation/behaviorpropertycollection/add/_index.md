@@ -1,6 +1,6 @@
 ---
-title: 添加
-second_title: Aspose.Slides for .NET API 参考
+title: Add
+second_title: Aspose.Sildes for .NET API Reference
 description: 向集合中添加一个新属性。
 type: docs
 weight: 40
@@ -19,7 +19,7 @@ public void Add(IBehaviorProperty item)
 | --- | --- | --- |
 | item | IBehaviorProperty | 要添加的属性。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IBehaviorProperty](../../ibehaviorproperty)
 * 类 [BehaviorPropertyCollection](../../behaviorpropertycollection)
@@ -38,9 +38,9 @@ public void Add(string propertyValue)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| propertyValue | String | 要添加的属性的值。 |
+| propertyValue | String | 要添加的属性值。 |
 
-### 另请参见
+### 另见
 
 * 类 [BehaviorPropertyCollection](../../behaviorpropertycollection)
 * 命名空间 [Aspose.Slides.Animation](../../behaviorpropertycollection)

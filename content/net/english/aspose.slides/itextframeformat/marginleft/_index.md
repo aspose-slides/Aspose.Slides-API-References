@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/itextframeformat/marginleft/
 ---
+
 ## ITextFrameFormat.MarginLeft property
 
 Returns or sets the left margin (points) in a TextFrame. Read/write Double.

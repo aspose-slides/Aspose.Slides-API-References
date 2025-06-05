@@ -3,9 +3,10 @@ title: ChartSeries
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a chart series.
 type: docs
-weight: 1330
+weight: 1360
 url: /aspose.slides.charts/chartseries/
 ---
+
 ## ChartSeries class
 
 Represents a chart series.
@@ -44,7 +45,7 @@ public class ChartSeries : IChartSeries
 | [NumberFormatOfXValues](../../aspose.slides.charts/chartseries/numberformatofxvalues) { get; set; } | NumberFormatOfXValues. Read/write String. |
 | [NumberFormatOfYValues](../../aspose.slides.charts/chartseries/numberformatofyvalues) { get; set; } | NumberFormatOfYValues. Read/write String. |
 | [Order](../../aspose.slides.charts/chartseries/order) { get; set; } | Returns the order of a series. Read/write Int32. |
-| [Overlap](../../aspose.slides.charts/chartseries/overlap) { get; } | Specifies how much bars and columns shall overlap on 2-D charts (from -100 to 100). This is the property not only of this series but of all series of parent series group - this is projection of appropriate group property. And so this property is read-only. Use ParentSeriesGroup property for access to parent series group. Use ParentSeriesGroup.Overlap read/write property for change value. Read-only SByte. |
+| [Overlap](../../aspose.slides.charts/chartseries/overlap) { get; } | Specifies how much bars and columns overlap on 2-D charts, as a percentage (from -100% to 100%). This is the property not only of this series but of all series of parent series group. It is a projection of the appropriate property in the parent series group, and so this property is read-only. To change the value, use the !:ParentSeriesGroup.Overlap read/write property. Read-only SByte. |
 | [ParentLabelLayout](../../aspose.slides.charts/chartseries/parentlabellayout) { get; set; } | Represents layout of parent category labels. Applies only to Treemap charts. |
 | [ParentSeriesGroup](../../aspose.slides.charts/chartseries/parentseriesgroup) { get; } | ParentSeriesGroup. Read-only [`IChartSeriesGroup`](../ichartseriesgroup). |
 | [PieSplitBy](../../aspose.slides.charts/chartseries/piesplitby) { get; } | Specifies how to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. This is the property not only of this series but of all series of parent series group - this is projection of appropriate group property. And so this property is read-only. Use ParentSeriesGroup property for access to parent series group. Use ParentSeriesGroup.PieSplitBy read/write property for change value. Read-only [`PieSplitType`](../piesplittype). |

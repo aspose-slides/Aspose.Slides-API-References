@@ -7,7 +7,7 @@ weight: 50
 url: /fr/aspose.slides.animation/iscaleeffect/zoomcontent/
 ---
 
-## Propriété IScaleEffect.ZoomContent
+## IScaleEffect.ZoomContent property
 
 Détermine si un contenu doit être zoomé. Lecture/écriture [`NullableBool`](../../../aspose.slides/nullablebool).
 

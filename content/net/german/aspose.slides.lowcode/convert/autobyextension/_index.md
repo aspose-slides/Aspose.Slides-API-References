@@ -1,7 +1,7 @@
 ---
 title: AutoByExtension
-second_title: Aspose.Slides für .NET API Referenz
-description: Konvertiert Presentationaspose.slides/../aspose.slides/presentation unter Verwendung der übergebenen Dateiendung des Ausgabepfades, um das erforderliche Exportformat zu bestimmen.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Konvertiert Presentationaspose.slides/../aspose.slides/presentation unter Verwendung der übergebenen Ausgabe-Pfad-Erweiterung, um das erforderliche Exportformat zu bestimmen.
 type: docs
 weight: 10
 url: /de/aspose.slides.lowcode/convert/autobyextension/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.lowcode/convert/autobyextension/
 
 ## Convert.AutoByExtension-Methode
 
-Konvertiert [`Presentation`](../../../aspose.slides/presentation) unter Verwendung der übergebenen Dateiendung des Ausgabepfades, um das erforderliche Exportformat zu bestimmen.
+Konvertiert [`Presentation`](../../../aspose.slides/presentation) unter Verwendung der übergebenen Ausgabe-Pfad-Erweiterung, um das erforderliche Exportformat zu bestimmen.
 
 ```csharp
 public static void AutoByExtension(string presPath, string outPath)
@@ -17,8 +17,8 @@ public static void AutoByExtension(string presPath, string outPath)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| presPath | String | Pfad der Eingabpräsentation |
-| outPath | String | Ausgabepfad |
+| presPath | String | Pfad der Eingabepräsentation |
+| outPath | String | Ausgabe-Pfad |
 
 ### Ausnahmen
 

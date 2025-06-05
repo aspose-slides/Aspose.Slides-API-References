@@ -1,6 +1,6 @@
 ---
 title: RotationEffect
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Représente le comportement de rotation de l'effet.
 type: docs
 weight: 690
@@ -25,15 +25,15 @@ public class RotationEffect : Behavior, IRotationEffect
 
 | Nom | Description |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Représente si les comportements d'animation sont cumulés. Lecture/écriture [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Représente si les comportements d'animation sont accumulés. Lecture/écriture [`NullableBool`](../../aspose.slides/nullablebool). |
 | [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Représente si le comportement d'animation actuel est combiné avec d'autres animations en cours. Lecture/écriture [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [By](../../aspose.slides.animation/rotationeffect/by) { get; set; } | Décrit la valeur de décalage relative pour l'animation. Lecture/écriture Single. |
+| [By](../../aspose.slides.animation/rotationeffect/by) { get; set; } | Décrit la valeur d'offset relative pour l'animation. Lecture/écriture Single. |
 | [From](../../aspose.slides.animation/rotationeffect/from) { get; set; } | Décrit la valeur de départ pour l'animation. Lecture/écriture Single. |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Représente les propriétés du comportement. Lecture seule [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Représente les propriétés de timing pour le comportement de l'effet. Lecture/écriture [`ITiming`](../itiming). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Représente les propriétés de chronométrage pour le comportement de l'effet. Lecture/écriture [`ITiming`](../itiming). |
 | [To](../../aspose.slides.animation/rotationeffect/to) { get; set; } | Décrit la valeur de fin pour l'animation. Lecture/écriture Single. |
 
-### Voir Aussi
+### Voir aussi
 
 * classe [Behavior](../behavior)
 * interface [IRotationEffect](../irotationeffect)

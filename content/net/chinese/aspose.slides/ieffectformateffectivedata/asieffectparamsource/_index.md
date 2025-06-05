@@ -1,7 +1,7 @@
 ---
 title: AsIEffectParamSource
-second_title: Aspose.Sildes for .NET API 参考
-description: 允许获取基础 IEffectParamSource 接口。只读 IEffectParamSourceaspose.slides/ieffectparamsource。
+second_title: Aspose.Slid es for .NET API 参考
+description: 允许获取基础 IEffectParamSource 接口。 只读 IEffectParamSource aspose.slides/ieffectparamsource。
 type: docs
 weight: 10
 url: /zh/aspose.slides/ieffectformateffectivedata/asieffectparamsource/

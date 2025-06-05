@@ -1,13 +1,13 @@
 ---
-title: Продолжительность
-second_title: Справочная информация по API Aspose.Slides для .NET
+title: Duration
+second_title: Aspose.Slides для .NET Справочник API
 description: Получить продолжительность анимации в мс
 type: docs
 weight: 10
 url: /ru/aspose.slides.export/ipresentationanimationplayer/duration/
 ---
 
-## Свойство IPresentationAnimationPlayer.Duration
+## IPresentationAnimationPlayer.Duration свойство
 
 Получить продолжительность анимации [мс]
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export/ipresentationanimationplayer/duration/
 public double Duration { get; }
 ```
 
-### Также см.
+### См. также
 
 * интерфейс [IPresentationAnimationPlayer](../../ipresentationanimationplayer)
 * пространство имен [Aspose.Slides.Export](../../ipresentationanimationplayer)

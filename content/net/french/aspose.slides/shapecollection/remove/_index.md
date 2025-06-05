@@ -1,5 +1,5 @@
 ---
-title: Supprimer
+title: Remove
 second_title: Référence API Aspose.Slides pour .NET
 description: Supprime la première occurrence d'une forme spécifique de la collection.
 type: docs
@@ -7,7 +7,7 @@ weight: 420
 url: /fr/aspose.slides/shapecollection/remove/
 ---
 
-## Méthode ShapeCollection.Remove
+## ShapeCollection.Remove méthode
 
 Supprime la première occurrence d'une forme spécifique de la collection.
 

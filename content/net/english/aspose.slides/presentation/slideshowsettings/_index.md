@@ -6,6 +6,7 @@ type: docs
 weight: 240
 url: /aspose.slides/presentation/slideshowsettings/
 ---
+
 ## Presentation.SlideShowSettings property
 
 Returns the slide show settings for the presentation.

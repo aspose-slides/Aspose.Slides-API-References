@@ -1,7 +1,7 @@
 ---
-title: Größe
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft die Pinselgröße für eine Linie in Punkten ab oder legt sie fest.
+title: Size
+second_title: Aspose.Sildes für .NET API Referenz
+description: Erhält oder setzt die Pinselgröße für eine Linie in Punkten.
 type: docs
 weight: 20
 url: /de/aspose.slides.ink/inkbrush/size/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.ink/inkbrush/size/
 
 ## InkBrush.Size-Eigenschaft
 
-Ruht die Pinselgröße für eine Linie in Punkten ab oder legt sie fest.
+Erhält oder setzt die Pinselgröße für eine Linie in Punkten.
 
 ```csharp
 public SizeF Size { get; set; }
@@ -31,7 +31,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [InkBrush](../../inkbrush)
 * Namespace [Aspose.Slides.Ink](../../inkbrush)

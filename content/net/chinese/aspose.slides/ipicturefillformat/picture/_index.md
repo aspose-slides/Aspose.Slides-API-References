@@ -1,6 +1,6 @@
 ---
-title: 图片
-second_title: Aspose.Sildes for .NET API 参考
+title: Picture
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回图片。只读 ISlidesPictureaspose.slides/islidespicture。
 type: docs
 weight: 70
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ipicturefillformat/picture/
 public ISlidesPicture Picture { get; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [ISlidesPicture](../../islidespicture)
 * 接口 [IPictureFillFormat](../../ipicturefillformat)

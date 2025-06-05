@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.export/presentationanimationsgenerator/dispose/
 ---
+
 ## PresentationAnimationsGenerator.Dispose method
 
 Disposes the instance of the [`PresentationAnimationsGenerator`](../../presentationanimationsgenerator).

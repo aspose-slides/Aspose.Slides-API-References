@@ -1,6 +1,6 @@
 ---
-title: 获取摘要缩放部分
-second_title: Aspose.Slides for .NET API 参考
+title: GetSummarySection
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回给定部分的摘要缩放部分元素。
 type: docs
 weight: 90
@@ -21,11 +21,11 @@ public ISummaryZoomSection GetSummarySection(ISection section)
 
 ### 返回值
 
-[`ISummaryZoomSection`](../../isummaryzoomsection) 或者如果集合中没有该部分的元素则返回 null。
+[`ISummaryZoomSection`](../../isummaryzoomsection) 或者如果集合不包含该部分的元素则返回 null。
 
 ### 示例
 
-该示例演示了如何通过索引获取摘要缩放部分元素：
+该示例演示如何通过索引获取摘要缩放部分元素：
 
 ```csharp
 [C#]
@@ -37,7 +37,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [ISummaryZoomSection](../../isummaryzoomsection)
 * 接口 [ISection](../../isection)

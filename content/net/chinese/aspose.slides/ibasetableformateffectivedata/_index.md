@@ -19,15 +19,15 @@ public interface IBaseTableFormatEffectiveData
 
 | 名称 | 描述 |
 | --- | --- |
-| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | 返回底部边框线格式的有效值。只读 [`ILineFormatEffectiveData`](../ilineformateffectivedata)。 |
-| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | 返回下对角线格式的有效值。只读 [`ILineFormatEffectiveData`](../ilineformateffectivedata)。 |
-| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | 返回上对角线格式的有效值。只读 [`ILineFormatEffectiveData`](../ilineformateffectivedata)。 |
-| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | 返回左侧边框线格式的有效值。只读 [`ILineFormatEffectiveData`](../ilineformateffectivedata)。 |
-| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | 返回右侧边框线格式的有效值。只读 [`ILineFormatEffectiveData`](../ilineformateffectivedata)。 |
-| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | 返回顶部边框线格式的有效值。只读 [`ILineFormatEffectiveData`](../ilineformateffectivedata)。 |
-| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | 返回填充格式的有效值。只读 [`IFillFormatEffectiveData`](../ifillformateffectivedata)。 |
+| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | 返回底边框线格式有效值。只读 [`ILineFormatEffectiveData`](../ilineformateffectivedata)。 |
+| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | 返回下对角线格式有效值。只读 [`ILineFormatEffectiveData`](../ilineformateffectivedata)。 |
+| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | 返回上对角线格式有效值。只读 [`ILineFormatEffectiveData`](../ilineformateffectivedata)。 |
+| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | 返回左边框线格式有效值。只读 [`ILineFormatEffectiveData`](../ilineformateffectivedata)。 |
+| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | 返回右边框线格式有效值。只读 [`ILineFormatEffectiveData`](../ilineformateffectivedata)。 |
+| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | 返回顶部边框线格式有效值。只读 [`ILineFormatEffectiveData`](../ilineformateffectivedata)。 |
+| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | 返回填充格式有效值。只读 [`IFillFormatEffectiveData`](../ifillformateffectivedata)。 |
 
-### 另见
+### 参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

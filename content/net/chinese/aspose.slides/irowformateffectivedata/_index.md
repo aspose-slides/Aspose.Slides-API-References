@@ -1,6 +1,6 @@
 ---
 title: IRowFormatEffectiveData
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 不可变对象，包含有效的表格行格式属性。
 type: docs
 weight: 6680
@@ -19,13 +19,13 @@ public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | 允许获取基接口 IBaseTableFormatEffectiveData。只读 [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata)。 |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | 允许获取基础 IBaseTableFormatEffectiveData 接口。只读 [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata)。 |
 
 ### 备注
 
-此接口与 [`IRowFormat`](../irowformat) 接口一起使用，以返回应用了继承和表格样式的有效格式值。
+此接口与 [`IRowFormat`](../irowformat) 接口一起使用，以返回应用继承和表格样式的有效格式值。
 
-### 另见
+### 另请参阅
 
 * 接口 [IBaseTableFormatEffectiveData](../ibasetableformateffectivedata)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

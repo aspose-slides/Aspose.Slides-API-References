@@ -1,13 +1,13 @@
 ---
 title: G
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die grüne Komponente einer Farbe zurück oder setzt sie. Alle Farbtransformationen werden ignoriert.
 type: docs
 weight: 80
 url: /de/aspose.slides/colorformat/g/
 ---
 
-## ColorFormat.G-Eigenschaft
+## ColorFormat.G Eigenschaft
 
 Gibt die grüne Komponente einer Farbe zurück oder setzt sie. Alle Farbtransformationen werden ignoriert.
 
@@ -15,7 +15,7 @@ Gibt die grüne Komponente einer Farbe zurück oder setzt sie. Alle Farbtransfor
 public byte G { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [ColorFormat](../../colorformat)
 * Namespace [Aspose.Slides](../../colorformat)

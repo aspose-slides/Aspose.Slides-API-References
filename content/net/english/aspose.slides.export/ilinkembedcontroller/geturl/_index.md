@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.export/ilinkembedcontroller/geturl/
 ---
+
 ## ILinkEmbedController.GetUrl method
 
 Returns an URL to an external object. This method always called if [`GetObjectStoringLocation`](../getobjectstoringlocation) returned Link and may be called if [`GetObjectStoringLocation`](../getobjectstoringlocation) returned Embed but embedding is impossible. Can be called multiple time for same object id.

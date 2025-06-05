@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.effects/effectfactory/effectfactory/
 ---
+
 ## EffectFactory constructor
 
 The default constructor.

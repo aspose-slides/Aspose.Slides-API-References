@@ -1,6 +1,6 @@
 ---
 title: Clone
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence de l'API .NET
 description: Crée une copie d'une collection ColorOperationCollection.
 type: docs
 weight: 70
@@ -15,7 +15,7 @@ Crée une copie d'une collection ColorOperationCollection.
 public object Clone()
 ```
 
-### Valeur de Retour
+### Valeur de retour
 
 Nouvelle collection [`ColorOperationCollection`](../../coloroperationcollection).
 

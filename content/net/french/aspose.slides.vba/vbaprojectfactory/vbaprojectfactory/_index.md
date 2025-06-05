@@ -1,6 +1,6 @@
 ---
 title: VbaProjectFactory
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Reference
 description: Le constructeur par défaut.
 type: docs
 weight: 10

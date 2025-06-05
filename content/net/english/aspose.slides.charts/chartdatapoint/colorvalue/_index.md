@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.charts/chartdatapoint/colorvalue/
 ---
+
 ## ChartDataPoint.ColorValue property
 
 Returns the color value of chart data point. Used with Map charts. Read-only [`IDoubleChartValue`](../../idoublechartvalue).

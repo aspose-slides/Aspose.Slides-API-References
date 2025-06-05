@@ -7,7 +7,7 @@ weight: 60
 url: /es/aspose.slides.export/iswfoptions/logolink/
 ---
 
-## Propiedad ISwfOptions.LogoLink
+## ISwfOptions.LogoLink property
 
 Obtiene o establece la dirección completa del hipervínculo para un logo. Tiene efecto solo si se especifica un [`LogoImageBytes`](../logoimagebytes).
 
@@ -15,10 +15,10 @@ Obtiene o establece la dirección completa del hipervínculo para un logo. Tiene
 public string LogoLink { get; set; }
 ```
 
-### Ver También
+### Ver también
 
 * interfaz [ISwfOptions](../../iswfoptions)
 * espacio de nombres [Aspose.Slides.Export](../../iswfoptions)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

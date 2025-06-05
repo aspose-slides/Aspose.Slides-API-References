@@ -1,21 +1,21 @@
 ---
 title: SelectLocked
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, запрещено ли выделение этой фигуры. Булево значение с возможностью чтения/записи.
+description: Определяет, запрещено ли выбирать эту форму. Доступно для записи/чтения Булевое значение.
 type: docs
 weight: 80
 url: /ru/aspose.slides/autoshapelock/selectlocked/
 ---
 
-## Свойство AutoShapeLock.SelectLocked
+## AutoShapeLock.SelectLocked property
 
-Определяет, запрещено ли выделение этой фигуры. Булево значение с возможностью чтения/записи.
+Определяет, запрещено ли выбирать эту форму. Доступно для записи/чтения Булевое значение.
 
 ```csharp
 public bool SelectLocked { get; set; }
 ```
 
-### Также смотри
+### См. также
 
 * класс [AutoShapeLock](../../autoshapelock)
 * пространство имен [Aspose.Slides](../../autoshapelock)

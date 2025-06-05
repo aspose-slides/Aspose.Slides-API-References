@@ -6,6 +6,7 @@ type: docs
 weight: 180
 url: /aspose.slides.charts/chartdatapointcollection/adddatapointformapseries/
 ---
+
 ## ChartDataPointCollection.AddDataPointForMapSeries method
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Map.

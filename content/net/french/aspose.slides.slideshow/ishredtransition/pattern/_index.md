@@ -1,13 +1,13 @@
 ---
-title: Motif
-second_title: Référence API Aspose.Slides pour .NET
+title: Pattern
+second_title: Aspose.Sildes pour .NET API Reference
 description: Spécifie la forme des visuels utilisés pendant la transition. Lecture/écriture TransitionShredPatternaspose.slides.slideshow/transitionshredpattern.
 type: docs
 weight: 30
 url: /fr/aspose.slides.slideshow/ishredtransition/pattern/
 ---
 
-## Propriété IShredTransition.Pattern
+## IShredTransition.Pattern property
 
 Spécifie la forme des visuels utilisés pendant la transition. Lecture/écriture [`TransitionShredPattern`](../../transitionshredpattern).
 

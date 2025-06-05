@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/ishapestyle/linecolor/
 ---
+
 ## IShapeStyle.LineColor property
 
 Returns a shape's outline color. Read-only [`IColorFormat`](../../icolorformat).

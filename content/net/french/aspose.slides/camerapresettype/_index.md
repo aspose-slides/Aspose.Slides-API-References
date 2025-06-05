@@ -1,7 +1,7 @@
 ---
 title: CameraPresetType
-second_title: Aspose.Slides pour .NET Référence de l'API
-description: Constantes qui définissent le type de préréglage de la caméra.
+second_title: Référence API Aspose.Slides pour .NET
+description: Constantes définissant le type de préréglage de la caméra.
 type: docs
 weight: 1020
 url: /fr/aspose.slides/camerapresettype/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/camerapresettype/
 
 ## Énumération CameraPresetType
 
-Constantes qui définissent le type de préréglage de la caméra.
+Constantes définissant le type de préréglage de la caméra.
 
 ```csharp
 public enum CameraPresetType

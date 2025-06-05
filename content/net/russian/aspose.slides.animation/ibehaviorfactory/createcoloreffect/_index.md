@@ -1,6 +1,6 @@
 ---
 title: CreateColorEffect
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Создает цветовой эффект.
 type: docs
 weight: 10
@@ -19,7 +19,7 @@ public IColorEffect CreateColorEffect()
 
 Цветовой эффект.
 
-### Также см. 
+### См. также
 
 * интерфейс [IColorEffect](../../icoloreffect)
 * интерфейс [IBehaviorFactory](../../ibehaviorfactory)

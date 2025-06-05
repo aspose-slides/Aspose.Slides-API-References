@@ -1,15 +1,15 @@
 ---
-titre: DrawSlidesFrame
-deuxième_titre: Référence API Aspose.Slides pour .NET
-description: Vrai pour dessiner un cadre noir autour de chaque diapositive. Lecture/écriture Boolean.
+title: DrawSlidesFrame
+second_title: Aspose.Slides pour .NET API Reference
+description: True pour dessiner un cadre noir autour de chaque diapositive. Lecture/écriture Booléen.
 type: docs
-poids: 20
+weight: 20
 url: /fr/aspose.slides.export/ixpsoptions/drawslidesframe/
 ---
 
-## Propriété IXpsOptions.DrawSlidesFrame
+## IXpsOptions.DrawSlidesFrame propriété
 
-Vrai pour dessiner un cadre noir autour de chaque diapositive. Lecture/écriture Boolean.
+True pour dessiner un cadre noir autour de chaque diapositive. Lecture/écriture Booléen.
 
 ```csharp
 public bool DrawSlidesFrame { get; set; }
@@ -17,7 +17,7 @@ public bool DrawSlidesFrame { get; set; }
 
 ### Remarques
 
-Par défaut, c'est **faux**.
+La valeur par défaut est **false**.
 
 ### Voir aussi
 

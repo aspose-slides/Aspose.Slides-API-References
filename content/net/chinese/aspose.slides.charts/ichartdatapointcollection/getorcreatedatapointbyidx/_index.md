@@ -1,15 +1,15 @@
 ---
 title: GetOrCreateDataPointByIdx
 second_title: Aspose.Sildes for .NET API Reference
-description: 如果集合中已经包含索引为 index 的数据点，则返回该数据点。如果集合中不包含索引为 indexN 的数据点且该集合中的数据点数量小于或等于 N，则添加缺失的数据点并返回最后一个具有请求索引的数据点。例如，集合索引为 0 1 2，请求索引为 5。然后方法添加缺失的数据点 0 1 2 3 4 5，并返回索引为 5 的数据点。
+description: 如果集合中已经包含索引为 index 的数据点，则返回该数据点。如果集合中不包含索引为 indexN 的数据点，并且该集合中的数据点数量小于或等于 N，则添加缺失的数据点并返回具有所请求索引的最后一个数据点。例如，集合索引为 0 1 2，而请求的索引为 5。那么该方法添加缺失的数据点 0 1 2 3 4 5，并返回索引为 5 的数据点。
 type: docs
 weight: 250
 url: /zh/aspose.slides.charts/ichartdatapointcollection/getorcreatedatapointbyidx/
 ---
 
-## IChartDataPointCollection.GetOrCreateDataPointByIdx 方法
+## IChartDataPointCollection.GetOrCreateDataPointByIdx method
 
-如果集合中已经包含索引为 *index* 的数据点，则返回该数据点。如果集合中不包含索引为 *index*==N（当该集合中的数据点数量小于或等于 N）时，则添加缺失的数据点并返回最后一个（具有请求索引的数据点）。例如，集合索引为 {0, 1, 2}，请求索引为 5。然后方法添加缺失的数据点：{0, 1, 2, 3, 4, 5}，并返回索引为 5 的数据点。
+如果集合中已经包含索引为 *index* 的数据点，则返回该数据点。如果集合中不包含索引为 *index*==N 的数据点（当该集合中的数据点数量小于或等于 N 时），则添加缺失的数据点并返回最后一个（具有所请求索引的数据点）。例如，集合索引为 {0, 1, 2}，而请求的索引为 5。那么该方法添加缺失的数据点：{0, 1, 2, 3, 4, 5}。并返回索引为 5 的数据点。
 
 ```csharp
 public IChartDataPoint GetOrCreateDataPointByIdx(uint index)
@@ -23,7 +23,7 @@ public IChartDataPoint GetOrCreateDataPointByIdx(uint index)
 
 返回具有请求索引的数据点。
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IChartDataPoint](../../ichartdatapoint)
 * 接口 [IChartDataPointCollection](../../ichartdatapointcollection)

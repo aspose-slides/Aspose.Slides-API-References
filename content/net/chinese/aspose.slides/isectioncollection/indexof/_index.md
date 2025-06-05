@@ -1,6 +1,6 @@
 ---
 title: IndexOf
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回集合中指定节的索引。
 type: docs
 weight: 60
@@ -21,7 +21,7 @@ public int IndexOf(ISection section)
 
 ### 返回值
 
-节的索引，如果该节不在此集合中则返回 -1。
+节的索引，如果该节不在此集合中，则返回 -1。
 
 ### 另见
 

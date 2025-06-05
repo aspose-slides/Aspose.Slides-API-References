@@ -1,6 +1,6 @@
 ---
-title: Подчеркивание
-second_title: Справочник по API Aspose.Slides для .NET
+title: Underbar
+second_title: Aspose.Sildes для .NET Справочник по API
 description: Устанавливает линию внизу этого элемента
 type: docs
 weight: 210

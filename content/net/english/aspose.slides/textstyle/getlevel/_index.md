@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/textstyle/getlevel/
 ---
+
 ## TextStyle.GetLevel method
 
 If level of style exist returns it, otherwise returns null.

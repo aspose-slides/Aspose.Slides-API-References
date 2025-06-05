@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.smartart/ismartart/nodes/
 ---
+
 ## ISmartArt.Nodes property
 
 Returns collections of root nodes in SmartArt object. Read-only [`ISmartArtNodeCollection`](../../ismartartnodecollection).

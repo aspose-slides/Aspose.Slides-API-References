@@ -1,7 +1,7 @@
 ---
 title: SlideImageFormat
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Optionen für das Bildformat der Folie zurück oder setzt sie. Lese-/Schreibzugriff auf ISlideImageFormataspose.slides.export/islideimageformat.
+description: Gibt die Optionen für das Bildformat der Folie zurück oder setzt sie. Lese-/schreibbarer ISlideImageFormataspose.slides.export/islideimageformat.
 type: docs
 weight: 90
 url: /de/aspose.slides.export/htmloptions/slideimageformat/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.export/htmloptions/slideimageformat/
 
 ## HtmlOptions.SlideImageFormat-Eigenschaft
 
-Gibt die Optionen für das Bildformat der Folie zurück oder setzt sie. Lese-/Schreibzugriff auf [`ISlideImageFormat`](../../islideimageformat).
+Gibt die Optionen für das Bildformat der Folie zurück oder setzt sie. Lese-/schreibbar [`ISlideImageFormat`](../../islideimageformat).
 
 ```csharp
 public ISlideImageFormat SlideImageFormat { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ISlideImageFormat](../../islideimageformat)
 * Klasse [HtmlOptions](../../htmloptions)

@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.theme/icolorschemeeffectivedata/item/
 ---
+
 ## IColorSchemeEffectiveData indexer
 
 Gets the element at the specified index. Read-only Color.

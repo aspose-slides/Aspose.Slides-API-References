@@ -1,6 +1,6 @@
 ---
 title: ILayoutSlideCollection
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Representa una clase base para la colección de diapositivas de diseño.
 type: docs
 weight: 6030
@@ -27,9 +27,9 @@ public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>
 | --- | --- |
 | [GetByType](../../aspose.slides/ilayoutslidecollection/getbytype)(SlideLayoutType) | Devuelve la primera diapositiva de diseño del tipo especificado. |
 | [Remove](../../aspose.slides/ilayoutslidecollection/remove)(ILayoutSlide) | Elimina una diapositiva de diseño de la colección. |
-| [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | Elimina las diapositivas de diseño no utilizadas (diapositivas de diseño cuya HasDependingSlides es falso). |
+| [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | Elimina diapositivas de diseño no utilizadas (diapositivas de diseño cuya propiedad HasDependingSlides es falsa). |
 
-### Vea También
+### Ver También
 
 * interfaz [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * interfaz [ILayoutSlide](../ilayoutslide)

@@ -1,6 +1,6 @@
 ---
-title: 创建滤镜效果
-second_title: Aspose.Slides for .NET API 参考
+title: CreateFilterEffect
+second_title: Aspose.Slides for .NET API Reference
 description: 创建滤镜效果。
 type: docs
 weight: 40
@@ -19,7 +19,7 @@ public IFilterEffect CreateFilterEffect()
 
 滤镜效果。
 
-### 另请参阅
+### 另见
 
 * 接口 [IFilterEffect](../../ifiltereffect)
 * 类 [BehaviorFactory](../../behaviorfactory)

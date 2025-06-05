@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.export/embedallfontshtmlcontroller/writeshapeend/
 ---
+
 ## EmbedAllFontsHtmlController.WriteShapeEnd method
 
 Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous.

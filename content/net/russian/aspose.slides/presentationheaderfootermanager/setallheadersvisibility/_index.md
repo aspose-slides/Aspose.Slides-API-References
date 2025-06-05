@@ -1,7 +1,7 @@
 ---
 title: SetAllHeadersVisibility
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Изменяет видимость всех заполнителей заголовков, включая мастер заметок, слайды заметок и мастер раздаточных материалов.
+second_title: Справка по API Aspose.Slides для .NET
+description: Изменяет видимость всех заполнителей заголовков, включая главные заметки, слайды заметок и главные раздаточные материалы.
 type: docs
 weight: 60
 url: /ru/aspose.slides/presentationheaderfootermanager/setallheadersvisibility/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/presentationheaderfootermanager/setallheadersvisibility/
 
 ## PresentationHeaderFooterManager.SetAllHeadersVisibility метод
 
-Изменяет видимость всех заполнителей заголовков, включая мастер заметок, слайды заметок и мастер раздаточных материалов.
+Изменяет видимость всех заполнителей заголовков, включая главные заметки, слайды заметок и главные раздаточные материалы.
 
 ```csharp
 public void SetAllHeadersVisibility(bool isVisible)
@@ -19,7 +19,7 @@ public void SetAllHeadersVisibility(bool isVisible)
 | --- | --- | --- |
 | isVisible | Boolean | true - делает заполнители заголовков видимыми, в противном случае - скрывает их. |
 
-### См. также
+### См. Также
 
 * класс [PresentationHeaderFooterManager](../../presentationheaderfootermanager)
 * пространство имен [Aspose.Slides](../../presentationheaderfootermanager)

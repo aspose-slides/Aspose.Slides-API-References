@@ -1,7 +1,7 @@
 ---
 title: AsIMathElement
-second_title: Référence API Aspose.Slides pour .NET
-description: Permet d'obtenir l'interface IMathElement de base IMathElementaspose.slides.mathtext/imathelement
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Permet d'obtenir l'interface de base IMathElement IMathElementaspose.slides.mathtext/imathelement
 type: docs
 weight: 20
 url: /fr/aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement/
 
 ## Propriété IMathRightSubSuperscriptElement.AsIMathElement
 
-Permet d'obtenir l'interface IMathElement de base [`IMathElement`](../../imathelement)
+Permet d'obtenir l'interface de base IMathElement [`IMathElement`](../../imathelement)
 
 ```csharp
 public IMathElement AsIMathElement { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathElement](../../imathelement)
 * interface [IMathRightSubSuperscriptElement](../../imathrightsubsuperscriptelement)

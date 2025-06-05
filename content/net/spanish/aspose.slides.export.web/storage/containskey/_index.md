@@ -1,6 +1,6 @@
 ---
 title: ContainsKey
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Determina si el almacenamiento contiene un elemento con la clave especificada.
 type: docs
 weight: 20
@@ -19,14 +19,14 @@ public bool ContainsKey(string key)
 | --- | --- | --- |
 | key | String | Clave del valor. |
 
-### Valor de Retorno
+### Valor de retorno
 
 Verdadero si el almacenamiento contiene un elemento con la clave especificada, falso en caso contrario.
 
-### Véase También
+### Véase también
 
 * clase [Storage](../../storage)
-* namespace [Aspose.Slides.Export.Web](../../storage)
+* espacio de nombres [Aspose.Slides.Export.Web](../../storage)
 * ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

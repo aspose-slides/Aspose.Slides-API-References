@@ -3,9 +3,10 @@ title: ShowComments
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies whether the generated document should show comments or not. Default is false.
 type: docs
-weight: 70
+weight: 90
 url: /aspose.slides.export/markdownsaveoptions/showcomments/
 ---
+
 ## MarkdownSaveOptions.ShowComments property
 
 Specifies whether the generated document should show comments or not. Default is `false`.

@@ -7,7 +7,7 @@ weight: 20
 url: /fr/aspose.slides.mathtext/imathnaryoperator/asimathnaryoperatorproperties/
 ---
 
-## Propriété IMathNaryOperator.AsIMathNaryOperatorProperties
+## IMathNaryOperator.AsIMathNaryOperatorProperties propriété
 
 Permet d'obtenir l'interface de base IMathNaryOperatorProperties [`IMathNaryOperatorProperties`](../../imathnaryoperatorproperties)
 
@@ -15,7 +15,7 @@ Permet d'obtenir l'interface de base IMathNaryOperatorProperties [`IMathNaryOper
 public IMathNaryOperatorProperties AsIMathNaryOperatorProperties { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathNaryOperatorProperties](../../imathnaryoperatorproperties)
 * interface [IMathNaryOperator](../../imathnaryoperator)

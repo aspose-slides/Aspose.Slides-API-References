@@ -1,15 +1,15 @@
 ---
-title: Горизонтальная Зебра
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, должны ли четные строки отображаться с другим форматированием. Чтение/запись логическое значение.
+title: HorizontalBanding
+second_title: Aspose.Slides для .NET API Справочник
+description: Определяет, следует ли рисовать четные строки с другим форматированием. Свойство типа Boolean с доступом для чтения и записи.
 type: docs
 weight: 60
 url: /ru/aspose.slides/itable/horizontalbanding/
 ---
 
-## Свойство ITable.HorizontalBanding
+## ITable.HorizontalBanding свойство
 
-Определяет, должны ли четные строки отображаться с другим форматированием. Чтение/запись логическое значение.
+Определяет, следует ли рисовать четные строки с другим форматированием. Свойство типа Boolean с доступом для чтения и записи.
 
 ```csharp
 public bool HorizontalBanding { get; set; }

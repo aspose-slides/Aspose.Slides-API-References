@@ -1,7 +1,7 @@
 ---
 title: TextFrameFormat
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Formatierungsobjekt für dieses TextFrame-Objekt zurück. Nur-Lese ITextFrameFormataspose.slides/itextframeformat.
+description: Gibt das Formatierungsobjekt für dieses TextFrame-Objekt zurück. Nur-lesend ITextFrameFormataspose.slides/itextframeformat.
 type: docs
 weight: 70
 url: /de/aspose.slides/itextframe/textframeformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/itextframe/textframeformat/
 
 ## ITextFrame.TextFrameFormat-Eigenschaft
 
-Gibt das Formatierungsobjekt für dieses TextFrame-Objekt zurück. Nur-Lese [`ITextFrameFormat`](../../itextframeformat).
+Gibt das Formatierungsobjekt für dieses TextFrame-Objekt zurück. Nur-lesend [`ITextFrameFormat`](../../itextframeformat).
 
 ```csharp
 public ITextFrameFormat TextFrameFormat { get; }

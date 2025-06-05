@@ -1,7 +1,7 @@
 ---
-title: 显示顶部面板
-second_title: Aspose.Slides for .NET API 参考
-description: 显示/隐藏整个顶部面板。可以在 flashvars 中被重写。默认值为 true。
+title: ShowTopPane
+second_title: Aspose.Sildes for .NET API Reference
+description: 显示/隐藏整个顶部面板。可以在 flashvars 中覆盖。默认值为 true。
 type: docs
 weight: 140
 url: /zh/aspose.slides.export/iswfoptions/showtoppane/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.export/iswfoptions/showtoppane/
 
 ## ISwfOptions.ShowTopPane 属性
 
-显示/隐藏整个顶部面板。可以在 flashvars 中被重写。默认值为 true。
+显示/隐藏整个顶部面板。可以在 flashvars 中覆盖。默认值为 true。
 
 ```csharp
 public bool ShowTopPane { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [ISwfOptions](../../iswfoptions)
 * 命名空间 [Aspose.Slides.Export](../../iswfoptions)

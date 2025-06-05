@@ -1,21 +1,21 @@
 ---
-title: К
+title: To
 second_title: Справочник по API Aspose.Slides для .NET
-description: Описывает конечное значение для анимации. Чтение/запись Float.
+description: Описывает конечное значение для анимации. Чтение/запись Single.
 type: docs
 weight: 40
 url: /ru/aspose.slides.animation/rotationeffect/to/
 ---
 
-## Свойство RotationEffect.To
+## RotationEffect.To свойство
 
-Описывает конечное значение для анимации. Чтение/запись Float.
+Описывает конечное значение для анимации. Чтение/запись Single.
 
 ```csharp
 public float To { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [RotationEffect](../../rotationeffect)
 * пространство имен [Aspose.Slides.Animation](../../rotationeffect)

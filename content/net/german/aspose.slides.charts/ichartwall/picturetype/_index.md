@@ -1,7 +1,7 @@
 ---
 title: PictureType
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Bildtyp zurück oder legt ihn fest. Lese-/Schreibzugriff auf PictureTypeaspose.slides.charts/ichartwall/picturetype.
+description: Gibt den Bildtyp zurück oder setzt ihn. Lese-/Schreibzugriff auf PictureTypeaspose.slides.charts/ichartwall/picturetype.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/ichartwall/picturetype/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/ichartwall/picturetype/
 
 ## IChartWall.PictureType-Eigenschaft
 
-Gibt den Bildtyp zurück oder legt ihn fest. Lese-/Schreibzugriff auf `PictureType`.
+Gibt den Bildtyp zurück oder setzt ihn. Lese-/Schreibzugriff auf `PictureType`.
 
 ```csharp
 public PictureType PictureType { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [PictureType](../../picturetype)
 * interface [IChartWall](../../ichartwall)

@@ -1,6 +1,6 @@
 ---
 title: FillType
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Gibt den Typ der Füllung zurück oder setzt ihn. Lese-/Schreibzugriff auf FillTypeaspose.slides/filltype.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Gibt den Typ der Füllung zurück oder setzt ihn. Lese-/Schreibzugriff auf [`Fil
 public FillType FillType { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [FillType](../../filltype)
 * class [FillFormat](../../fillformat)

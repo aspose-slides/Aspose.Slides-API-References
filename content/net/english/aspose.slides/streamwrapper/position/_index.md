@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/streamwrapper/position/
 ---
+
 ## StreamWrapper.Position property
 
 Gets or sets the position within the current stream. Read-only Int64.

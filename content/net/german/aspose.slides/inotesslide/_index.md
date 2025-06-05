@@ -1,7 +1,7 @@
 ---
 title: INotesSlide
 second_title: Aspose.Slides für .NET API Referenz
-description: Stellt eine Notizenfolie in einer Präsentation dar.
+description: Stellt eine Notizfolie in einer Präsentation dar.
 type: docs
 weight: 6300
 url: /de/aspose.slides/inotesslide/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/inotesslide/
 
 ## INotesSlide-Schnittstelle
 
-Stellt eine Notizenfolie in einer Präsentation dar.
+Stellt eine Notizfolie in einer Präsentation dar.
 
 ```csharp
 public interface INotesSlide : IBaseSlide, IOverrideThemeable
@@ -19,13 +19,13 @@ public interface INotesSlide : IBaseSlide, IOverrideThemeable
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | Ermöglicht den Zugriff auf die Basis-IBaseSlide-Schnittstelle. Nur lesbar [`IBaseSlide`](../ibaseslide). |
-| [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | Gibt die IOverrideThemeable-Schnittstelle zurück. Nur lesbar [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | Gibt den HeaderFooter-Manager der Notizenfolie zurück. Nur lesbar [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
-| [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | Gibt ein TextFrame mit dem Text der Notizen zurück, falls vorhanden. Nur lesbar [`ITextFrame`](../itextframe). |
-| [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | Gibt ein ParentSlide zurück. Nur lesbar [`ISlide`](../islide). |
+| [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | Ermöglicht das Abrufen der Basis-IBaseSlide-Schnittstelle. Nur lesend [`IBaseSlide`](../ibaseslide). |
+| [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | Gibt die IOverrideThemeable-Schnittstelle zurück. Nur lesend [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | Gibt den HeaderFooter-Manager der Notizfolie zurück. Nur lesend [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
+| [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | Gibt ein TextFrame mit dem Text der Notizen zurück, falls vorhanden. Nur lesend [`ITextFrame`](../itextframe). |
+| [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | Gibt eine ParentSlide zurück. Nur lesend [`ISlide`](../islide). |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IBaseSlide](../ibaseslide)
 * Schnittstelle [IOverrideThemeable](../../aspose.slides.theme/ioverridethemeable)

@@ -1,13 +1,13 @@
 ---
 title: Format
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt das Format der Fehlerbalken dar. Lese-/Schreibzugriff auf IFormataspose.slides.charts/iformat.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/ierrorbarsformat/format/
 ---
 
-## IErrorBarsFormat.Format Eigenschaft
+## IErrorBarsFormat.Format-Eigenschaft
 
 Stellt das Format der Fehlerbalken dar. Lese-/Schreibzugriff auf [`IFormat`](../../iformat).
 
@@ -15,7 +15,7 @@ Stellt das Format der Fehlerbalken dar. Lese-/Schreibzugriff auf [`IFormat`](../
 public IFormat Format { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IFormat](../../iformat)
 * Schnittstelle [IErrorBarsFormat](../../ierrorbarsformat)

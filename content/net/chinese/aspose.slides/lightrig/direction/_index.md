@@ -1,6 +1,6 @@
 ---
-title: 方向
-second_title: Aspose.Slides for .NET API 参考
+title: Direction
+second_title: Aspose.Slides for .NET API Reference
 description: 光线方向。读/写 LightingDirectionaspose.slides/lightingdirection。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/lightrig/direction/
 public LightingDirection Direction { get; set; }
 ```
 
-### 另见
+### 参见
 
 * 枚举 [LightingDirection](../../lightingdirection)
 * 类 [LightRig](../../lightrig)

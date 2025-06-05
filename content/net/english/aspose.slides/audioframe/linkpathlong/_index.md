@@ -3,9 +3,10 @@ title: LinkPathLong
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets the name of an audio file which is linked to an AudioFrame. Read/write String.
 type: docs
-weight: 80
+weight: 100
 url: /aspose.slides/audioframe/linkpathlong/
 ---
+
 ## AudioFrame.LinkPathLong property
 
 Returns or sets the name of an audio file which is linked to an AudioFrame. Read/write String.

@@ -1,6 +1,6 @@
 ---
 title: InsertSectionZoomFrame
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Slides for .NET API 参考
 description: 创建一个新的节缩放对象并将其插入到指定索引的集合中。
 type: docs
 weight: 320
@@ -18,26 +18,26 @@ public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, flo
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 应插入节缩放框的零基索引。 |
-| x | Single | 新节缩放框的 X 坐标单精度浮点数。 |
-| y | Single | 新节缩放框的 Y 坐标单精度浮点数。 |
-| width | Single | 新节缩放框的宽度单精度浮点数。 |
-| height | Single | 新节缩放框的高度单精度浮点数。 |
-| section | ISection | 节缩放框引用的幻灯片对象 [`ISection`](../../isection)。 |
+| index | Int32 | 应插入节缩放框架的零基索引. |
+| x | Single | 新节缩放框架的 X 坐标. |
+| y | Single | 新节缩放框架的 Y 坐标. |
+| width | Single | 新节缩放框架的宽度. |
+| height | Single | 新节缩放框架的高度. |
+| section | ISection | 节缩放框架引用的幻灯片对象 [`ISection`](../../isection). |
 
 ### 返回值
 
-创建的节缩放对象 [`ISectionZoomFrame`](../../isectionzoomframe)。
+创建的节缩放对象 [`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### 异常
 
 | 异常 | 条件 |
 | --- | --- |
-| ArgumentException | 引用的节不属于当前演示文稿或不包含任何幻灯片。 |
+| ArgumentException | 引用的节不属于当前演示文稿或不包含任何幻灯片. |
 
 ### 示例
 
-此示例演示了在集合的指定索引处创建和插入节缩放对象（假设“Presentation.pptx”演示文稿中至少有两个节）：
+本示例演示了在集合的指定索引处创建并插入节缩放对象（假设在“Presentation.pptx”演示文稿中至少有两个节）：
 
 ```csharp
 [C#]
@@ -68,27 +68,27 @@ public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, flo
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 应插入节缩放框的零基索引。 |
-| x | Single | 新节缩放框的 X 坐标单精度浮点数。 |
-| y | Single | 新节缩放框的 Y 坐标单精度浮点数。 |
-| width | Single | 新节缩放框的宽度单精度浮点数。 |
-| height | Single | 新节缩放框的高度单精度浮点数。 |
-| section | ISection | 节缩放框引用的幻灯片对象 [`ISection`](../../isection)。 |
-| image | IPPImage | 所引用幻灯片的图像 [`IPPImage`](../../ippimage) |
+| index | Int32 | 应插入节缩放框架的零基索引. |
+| x | Single | 新节缩放框架的 X 坐标. |
+| y | Single | 新节缩放框架的 Y 坐标. |
+| width | Single | 新节缩放框架的宽度. |
+| height | Single | 新节缩放框架的高度. |
+| section | ISection | 节缩放框架引用的幻灯片对象 [`ISection`](../../isection). |
+| image | IPPImage | 引用幻灯片的图像 [`IPPImage`](../../ippimage) |
 
 ### 返回值
 
-创建的节缩放对象 [`ISectionZoomFrame`](../../isectionzoomframe)。
+创建的节缩放对象 [`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### 异常
 
 | 异常 | 条件 |
 | --- | --- |
-| ArgumentException | 引用的节不属于当前演示文稿或不包含任何幻灯片。 |
+| ArgumentException | 引用的节不属于当前演示文稿或不包含任何幻灯片. |
 
 ### 示例
 
-此示例演示了在集合的指定索引处创建和插入节缩放对象（假设“Presentation.pptx”演示文稿中至少有两个节）：
+本示例演示了在集合的指定索引处创建并插入节缩放对象（假设在“Presentation.pptx”演示文稿中至少有两个节）：
 
 ```csharp
 [C#]

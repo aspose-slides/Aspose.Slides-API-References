@@ -1,7 +1,7 @@
 ---
-title: Количество
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает количество элементов в коллекции только для чтения Int32.
+title: Count
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает количество элементов в коллекции, только для чтения Int32.
 type: docs
 weight: 10
 url: /ru/aspose.slides.animation/sequencecollection/count/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.animation/sequencecollection/count/
 
 ## Свойство SequenceCollection.Count
 
-Возвращает количество элементов в коллекции только для чтения Int32.
+Возвращает количество элементов в коллекции, только для чтения Int32.
 
 ```csharp
 public int Count { get; }

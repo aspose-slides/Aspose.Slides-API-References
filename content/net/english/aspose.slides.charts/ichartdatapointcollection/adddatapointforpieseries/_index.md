@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides.charts/ichartdatapointcollection/adddatapointforpieseries/
 ---
+
 ## AddDataPointForPieSeries(IChartDataCell) {#adddatapointforpieseries}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Pie subtypes (see also ChartTypeCharacterizer.IsChartTypePie(ChartType) method).

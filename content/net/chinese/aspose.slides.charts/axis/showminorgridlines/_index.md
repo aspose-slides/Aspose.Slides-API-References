@@ -1,7 +1,7 @@
 ---
-title: 显示次网格线
-second_title: Aspose.Slides for .NET API 参考
-description: 要隐藏次网格线，请将 MinorGridLinesFormat.Line.FillFormat.FillType 设置为 FillType.NoFill。只读布尔值。
+title: ShowMinorGridLines
+second_title: Aspose.Sildes for .NET API Reference
+description: 要隐藏次要网格线，请将 MinorGridLinesFormat.Line.FillFormat.FillType 设置为 FillType.NoFill。只读布尔值。
 type: docs
 weight: 490
 url: /zh/aspose.slides.charts/axis/showminorgridlines/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/axis/showminorgridlines/
 
 ## Axis.ShowMinorGridLines 属性
 
-要隐藏次网格线，请将 MinorGridLinesFormat.Line.FillFormat.FillType 设置为 FillType.NoFill。只读布尔值。
+要隐藏次要网格线，请将 MinorGridLinesFormat.Line.FillFormat.FillType 设置为 FillType.NoFill。只读布尔值。
 
 ```csharp
 public bool ShowMinorGridLines { get; }
 ```
 
-### 另请参见
+### 另见
 
 * class [Axis](../../axis)
 * namespace [Aspose.Slides.Charts](../../axis)

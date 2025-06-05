@@ -1,7 +1,7 @@
 ---
-title: Schattenfarbe
+title: ShadowColor
 second_title: Aspose.Slides für .NET API Referenz
-description: Farbe des Schattens. Nur lesbarer IColorFormataspose.slides/../aspose.slides/icolorformat.
+description: Farbe des Schattens. Nur-lesend IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 40
 url: /de/aspose.slides.effects/presetshadow/shadowcolor/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/presetshadow/shadowcolor/
 
 ## PresetShadow.ShadowColor-Eigenschaft
 
-Farbe des Schattens. Nur lesbar [`IColorFormat`](../../../aspose.slides/icolorformat).
+Farbe des Schattens. Nur-lesend [`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat ShadowColor { get; }

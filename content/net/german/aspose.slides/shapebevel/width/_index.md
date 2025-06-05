@@ -1,15 +1,15 @@
 ---
-title: Breite
+title: Width
 second_title: Aspose.Slides für .NET API Referenz
-description: Fasebreite. Lese-/Schreib-Doppel.
+description: Fasenbreite. Lese-/Schreib-Doppel.
 type: docs
 weight: 40
 url: /de/aspose.slides/shapebevel/width/
 ---
 
-## ShapeBevel.Width Eigenschaft
+## ShapeBevel.Width-Eigenschaft
 
-Fasebreite. Lese-/Schreib-Doppel.
+Fasenbreite. Lese-/Schreib-Doppel.
 
 ```csharp
 public double Width { get; set; }

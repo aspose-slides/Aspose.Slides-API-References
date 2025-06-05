@@ -6,6 +6,7 @@ type: docs
 weight: 410
 url: /aspose.slides.animation/behaviorproperty/image/
 ---
+
 ## BehaviorProperty.Image property
 
 Represents 'image' property

@@ -1,6 +1,6 @@
 ---
-title: 位置
-second_title: Aspose.Slides for .NET API 参考
+title: Position
+second_title: Aspose.Sildes for .NET API Reference
 description: 分组字符的位置。默认：底部
 type: docs
 weight: 40
@@ -25,7 +25,7 @@ MathGroupingCharacter groupingCharacter = new MathGroupingCharacter(new Mathemat
 groupingCharacter.Position = MathTopBotPositions.Top;
 ```
 
-### 另请参阅
+### 参见
 
 * enum [MathTopBotPositions](../../mathtopbotpositions)
 * interface [IMathGroupingCharacter](../../imathgroupingcharacter)

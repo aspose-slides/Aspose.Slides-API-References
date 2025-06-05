@@ -1,6 +1,6 @@
 ---
 title: DomObjectTParent
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 基础 DOM 对象
 type: docs
 weight: 2710
@@ -19,7 +19,7 @@ public abstract class DomObject<TParent>
 | --- | --- |
 | TParent | 父 DOM 对象的类型 |
 
-### 参见
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

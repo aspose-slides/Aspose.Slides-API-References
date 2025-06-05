@@ -1,7 +1,7 @@
 ---
-title: Element
+title: Item
 second_title: Aspose.Slides für .NET API-Referenz
-description: Erhält das Element am angegebenen Index. Nur-Lese-Farbe.
+description: Ruft das Element am angegebenen Index ab. Nur-lesendes Color.
 type: docs
 weight: 110
 url: /de/aspose.slides.theme/icolorschemeeffectivedata/item/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/icolorschemeeffectivedata/item/
 
 ## IColorSchemeEffectiveData-Indexer
 
-Erhält das Element am angegebenen Index. Nur-Lese-Farbe.
+Ruft das Element am angegebenen Index ab. Nur-lesendes Color.
 
 ```csharp
 public Color this[ColorSchemeIndex index] { get; }

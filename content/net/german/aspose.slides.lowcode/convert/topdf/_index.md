@@ -1,6 +1,6 @@
 ---
 title: ToPdf
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Konvertiert Presentationaspose.slides/presentation in PDF.
 type: docs
 weight: 20
@@ -17,7 +17,7 @@ public static void ToPdf(string presPath, string outPath)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| presPath | String | Pfad der Eingabpräsentation |
+| presPath | String | Pfad der Eingabepräsentation |
 | outPath | String | Ausgabepfad |
 
 ### Beispiele
@@ -44,9 +44,9 @@ public static void ToPdf(string presPath, string outPath, IPdfOptions options)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| presPath | String | Pfad der Eingabpräsentation |
+| presPath | String | Pfad der Eingabepräsentation |
 | outPath | String | Ausgabepfad |
-| options | IPdfOptions | PDF-Ausgabeoptionen |
+| options | IPdfOptions | Optionen für die Ausgabepdf |
 
 ### Beispiele
 
@@ -73,7 +73,7 @@ public static void ToPdf(Presentation pres, string outPath)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| pres | Presentation | Eingabpräsentation |
+| pres | Presentation | Eingabepräsentation |
 | outPath | String | Ausgabepfad |
 
 ### Beispiele
@@ -104,9 +104,9 @@ public static void ToPdf(Presentation pres, string outPath, IPdfOptions options)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| pres | Presentation | Eingabpräsentation |
+| pres | Presentation | Eingabepräsentation |
 | outPath | String | Ausgabepfad |
-| options | IPdfOptions | PDF-Ausgabeoptionen |
+| options | IPdfOptions | Optionen für die Ausgabepdf |
 
 ### Beispiele
 

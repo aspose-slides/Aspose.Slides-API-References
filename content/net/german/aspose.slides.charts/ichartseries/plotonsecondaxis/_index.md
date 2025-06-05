@@ -1,7 +1,7 @@
 ---
 title: PlotOnSecondAxis
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt an, ob diese Serie auf der zweiten Werteachse dargestellt wird. Lese-/schreibbarer Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt an, ob diese Serie auf der zweiten Wertachse dargestellt wird. Lese-/schreibbare Boolean.
 type: docs
 weight: 330
 url: /de/aspose.slides.charts/ichartseries/plotonsecondaxis/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/ichartseries/plotonsecondaxis/
 
 ## IChartSeries.PlotOnSecondAxis-Eigenschaft
 
-Gibt an, ob diese Serie auf der zweiten Werteachse dargestellt wird. Lese-/schreibbarer Boolean.
+Gibt an, ob diese Serie auf der zweiten Wertachse dargestellt wird. Lese-/schreibbare Boolean.
 
 ```csharp
 public bool PlotOnSecondAxis { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IChartSeries](../../ichartseries)
 * Namespace [Aspose.Slides.Charts](../../ichartseries)

@@ -1,7 +1,7 @@
 ---
 title: IsReadOnly
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt einen Wert zurück, der angibt, ob die ICollection schreibgeschützt ist. Schreibgeschützter Boolescher Wert.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt einen Wert zurück, der angibt, ob die ICollection schreibgeschützt ist. Schreibgeschützter Boolean.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/piesplitcustompointcollection/isreadonly/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/piesplitcustompointcollection/isreadonly/
 
 ## PieSplitCustomPointCollection.IsReadOnly-Eigenschaft
 
-Gibt einen Wert zurück, der angibt, ob die ICollection schreibgeschützt ist. Schreibgeschützter Boolescher Wert.
+Gibt einen Wert zurück, der angibt, ob die ICollection schreibgeschützt ist. Schreibgeschützter Boolean.
 
 ```csharp
 public bool IsReadOnly { get; }

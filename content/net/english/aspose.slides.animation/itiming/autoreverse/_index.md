@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.animation/itiming/autoreverse/
 ---
+
 ## ITiming.AutoReverse property
 
 Describes whether to automatically play the animation in reverse after playing it in the forward direction. Read/write Boolean.

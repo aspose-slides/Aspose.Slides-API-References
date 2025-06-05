@@ -1,15 +1,15 @@
 ---
 title: DeletePictureCroppedAreas
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Удалить обрезанные области заливки изображения.
 type: docs
 weight: 190
 url: /ru/aspose.slides/picturefillformat/deletepicturecroppedareas/
 ---
 
-## Метод PictureFillFormat.DeletePictureCroppedAreas
+## PictureFillFormat.DeletePictureCroppedAreas метод
 
-Удалить обрезанные области заливного изображения.
+Удалить обрезанные области заливки изображения.
 
 ```csharp
 public IPPImage DeletePictureCroppedAreas()
@@ -19,9 +19,9 @@ public IPPImage DeletePictureCroppedAreas()
 
 Обрезанное изображение или оригинальное изображение, если обрезка не требуется.
 
-### Примечания
+### Заметки
 
-Этот метод преобразует метафайлы WMF/EMF в растровое изображение PNG во время обрезки.
+Этот метод преобразует метафайлы WMF/EMF в растровое PNG изображение во время обрезки.
 
 ### Примеры
 
@@ -39,7 +39,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 }
 ```
 
-### См. Также
+### Смотрите также
 
 * интерфейс [IPPImage](../../ippimage)
 * класс [PictureFillFormat](../../picturefillformat)

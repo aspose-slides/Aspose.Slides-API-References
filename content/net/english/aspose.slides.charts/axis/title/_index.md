@@ -6,6 +6,7 @@ type: docs
 weight: 550
 url: /aspose.slides.charts/axis/title/
 ---
+
 ## Axis.Title property
 
 Gets the axis' title. Read-only [`IChartTitle`](../../icharttitle).

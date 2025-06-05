@@ -1,5 +1,5 @@
 ---
-title: Champ
+title: Field
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente un champ.
 type: docs
@@ -19,7 +19,7 @@ public sealed class Field : DomObject<Portion>, IField
 
 | Nom | Description |
 | --- | --- |
-| [Type](../../aspose.slides/field/type) { get; set; } | Retourne ou définit le type du champ. Lecture/écriture [`IFieldType`](../ifieldtype). |
+| [Type](../../aspose.slides/field/type) { get; set; } | Renvoie ou définit le type du champ. Lecture/écriture [`IFieldType`](../ifieldtype). |
 
 ### Voir aussi
 

@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/icolorformat/floatr/
 ---
+
 ## IColorFormat.FloatR property
 
 Returns or sets the red component of a color. All color transformations are ignored. Read/write Single.

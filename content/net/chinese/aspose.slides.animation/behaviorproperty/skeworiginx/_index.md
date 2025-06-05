@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/behaviorproperty/skeworiginx/
 public static BehaviorProperty SkewOriginX { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 类 [BehaviorProperty](../../behaviorproperty)
 * 命名空间 [Aspose.Slides.Animation](../../behaviorproperty)

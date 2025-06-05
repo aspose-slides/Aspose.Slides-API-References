@@ -1,7 +1,7 @@
 ---
 title: ChartDataWorksheet
-second_title: Aspose.Sildes for .NET API 参考
-description: 获取工作表。只读 IChartDataWorksheet aspose.slides.charts/ichartdataworksheet。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取工作表。只读 IChartDataWorksheetaspose.slides.charts/ichartdataworksheet。
 type: docs
 weight: 10
 url: /zh/aspose.slides.charts/ichartdatacell/chartdataworksheet/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/ichartdatacell/chartdataworksheet/
 public IChartDataWorksheet ChartDataWorksheet { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IChartDataWorksheet](../../ichartdataworksheet)
 * 接口 [IChartDataCell](../../ichartdatacell)

@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides/tagcollection/getvaluebyindex/
 ---
+
 ## TagCollection.GetValueByIndex method
 
 Returns value of a tag at the specified index.

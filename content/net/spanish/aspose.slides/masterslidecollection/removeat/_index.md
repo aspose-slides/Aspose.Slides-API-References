@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Elimina el elemento en el índice especificado de la colección.
 type: docs
 weight: 100
 url: /es/aspose.slides/masterslidecollection/removeat/
 ---
 
-## Método MasterSlideCollection.RemoveAt
+## MasterSlideCollection.RemoveAt método
 
 Elimina el elemento en el índice especificado de la colección.
 
@@ -23,16 +23,16 @@ public void RemoveAt(int index)
 
 | excepción | condición |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Se lanza si el maestro a eliminar se utiliza en la presentación (su propiedad HasDependingSlides es verdadera). |
+| [PptxEditException](../../pptxeditexception) | Se lanza si la master a eliminar está utilizada en la presentación (su propiedad HasDependingSlides es verdadera). |
 
-### Observaciones
+### Comentarios
 
-Para evitar que se lance la PptxEditException, verifica la propiedad HasDependingSlides del maestro primero.
+Para evitar que se lance la PptxEditException, verifica la propiedad HasDependingSlides de la master antes.
 
-### Véase también
+### Véase También
 
 * clase [MasterSlideCollection](../../masterslidecollection)
 * espacio de nombres [Aspose.Slides](../../masterslidecollection)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

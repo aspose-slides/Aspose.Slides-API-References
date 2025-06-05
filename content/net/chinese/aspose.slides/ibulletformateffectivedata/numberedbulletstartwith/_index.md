@@ -1,6 +1,6 @@
 ---
 title: NumberedBulletStartWith
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 返回用于编号项目符号组的第一个数字。只读 Int16。
 type: docs
 weight: 80
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ibulletformateffectivedata/numberedbulletstartwith/
 public short NumberedBulletStartWith { get; }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [IBulletFormatEffectiveData](../../ibulletformateffectivedata)
 * 命名空间 [Aspose.Slides](../../ibulletformateffectivedata)

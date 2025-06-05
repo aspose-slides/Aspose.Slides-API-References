@@ -1,7 +1,7 @@
 ---
 title: IRowFormat
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示表格行的格式。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示表行的格式。
 type: docs
 weight: 6670
 url: /zh/aspose.slides/irowformat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/irowformat/
 
 ## IRowFormat 接口
 
-表示表格行的格式。
+表示表行的格式。
 
 ```csharp
 public interface IRowFormat
@@ -19,9 +19,9 @@ public interface IRowFormat
 
 | 名称 | 描述 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/irowformat/geteffective)() | 获取有效的表格行格式属性，应用了继承和表格样式。 |
+| [GetEffective](../../aspose.slides/irowformat/geteffective)() | 获取应用了继承和表样式的有效表行格式属性。 |
 
-### 参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

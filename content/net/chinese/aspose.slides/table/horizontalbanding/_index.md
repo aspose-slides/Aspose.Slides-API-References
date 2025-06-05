@@ -1,7 +1,7 @@
 ---
-title: 水平带状
-second_title: Aspose.Slides for .NET API 参考
-description: 确定是否偶数行必须使用不同的格式进行绘制。可读写布尔值。
+title: HorizontalBanding
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定偶数行是否需要以不同的格式绘制。可读写布尔值。
 type: docs
 weight: 50
 url: /zh/aspose.slides/table/horizontalbanding/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/table/horizontalbanding/
 
 ## Table.HorizontalBanding 属性
 
-确定是否偶数行必须使用不同的格式进行绘制。可读写布尔值。
+确定偶数行是否需要以不同的格式绘制。可读写布尔值。
 
 ```csharp
 public bool HorizontalBanding { get; set; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * class [Table](../../table)
 * namespace [Aspose.Slides](../../table)

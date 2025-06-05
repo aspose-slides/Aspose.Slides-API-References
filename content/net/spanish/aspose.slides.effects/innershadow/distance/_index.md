@@ -1,5 +1,5 @@
 ---
-title: Distancia
+title: Distance
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Distancia de la sombra. Lectura/escritura Doble.
 type: docs
@@ -15,7 +15,7 @@ Distancia de la sombra. Lectura/escritura Doble.
 public double Distance { get; set; }
 ```
 
-### Ver también
+### Ver También
 
 * clase [InnerShadow](../../innershadow)
 * espacio de nombres [Aspose.Slides.Effects](../../innershadow)

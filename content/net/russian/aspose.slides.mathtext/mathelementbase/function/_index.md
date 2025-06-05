@@ -1,6 +1,6 @@
 ---
-title: Функция
-second_title: Ссылка на API Aspose.Slides для .NET
+title: Function
+second_title: Aspose.Sildes для .NET API Справочник
 description: Принимает функцию аргумента, используя этот экземпляр в качестве имени функции
 type: docs
 weight: 50
@@ -19,7 +19,7 @@ public IMathFunction Function(IMathElement functionArgument)
 | --- | --- | --- |
 | functionArgument | IMathElement | Аргумент функции |
 
-### Возвращаемое значение
+### Возвращаемое Значение
 
 Новый математический элемент типа [`IMathFunction`](../../imathfunction)
 
@@ -34,7 +34,7 @@ IMathElement functionArg = new MathematicalText("x");
 IMathFunction func = functionName.Function(functionArg);
 ```
 
-### Смотрите также
+### Смотрите Также
 
 * интерфейс [IMathFunction](../../imathfunction)
 * интерфейс [IMathElement](../../imathelement)
@@ -56,7 +56,7 @@ public IMathFunction Function(string functionArgument)
 | --- | --- | --- |
 | functionArgument | String | Аргумент функции |
 
-### Возвращаемое значение
+### Возвращаемое Значение
 
 Новый математический элемент типа [`IMathFunction`](../../imathfunction)
 
@@ -70,7 +70,7 @@ IMathElement functionName = new MathematicalText("sin");
 IMathFunction func = functionName.Function("x");
 ```
 
-### Смотрите также
+### Смотрите Также
 
 * интерфейс [IMathFunction](../../imathfunction)
 * класс [MathElementBase](../../mathelementbase)

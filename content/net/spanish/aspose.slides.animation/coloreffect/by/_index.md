@@ -1,6 +1,6 @@
 ---
-title: Por
-second_title: Referencia de la API de Aspose.Slides para .NET
+title: By
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Describe el valor de desplazamiento relativo para la animación de color. Lectura/escritura IColorOffsetaspose.slides.animation/icoloroffset.
 type: docs
 weight: 20

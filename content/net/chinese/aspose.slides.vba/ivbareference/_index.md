@@ -1,7 +1,7 @@
 ---
 title: IVbaReference
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示 VBA 项目引用的名称。
+description: 表示VBA项目引用的名称。
 type: docs
 weight: 11260
 url: /zh/aspose.slides.vba/ivbareference/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.vba/ivbareference/
 
 ## IVbaReference 接口
 
-表示 VBA 项目引用的名称。
+表示VBA项目引用的名称。
 
 ```csharp
 public interface IVbaReference
@@ -19,9 +19,9 @@ public interface IVbaReference
 
 | 名称 | 描述 |
 | --- | --- |
-| [Name](../../aspose.slides.vba/ivbareference/name) { get; set; } | 表示 VBA 项目引用的名称。可读可写字符串。 |
+| [Name](../../aspose.slides.vba/ivbareference/name) { get; set; } | 表示VBA项目引用的名称。 可读/写字符串。 |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides.Vba](../../aspose.slides.vba)
 * 程序集 [Aspose.Slides](../../)

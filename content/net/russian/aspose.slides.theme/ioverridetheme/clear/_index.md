@@ -1,15 +1,15 @@
 ---
-title: Очистить
-second_title: Справка по API Aspose.Slides для .NET
-description: Установите ColorScheme, FontScheme, FormatScheme в null, чтобы отключить любое переопределение с помощью этого объекта темы.
+title: Clear
+second_title: Aspose.Sildes для .NET API Справочник
+description: Установите ColorScheme, FontScheme, FormatScheme в null, чтобы отключить любые переопределения с этим объектом темы.
 type: docs
 weight: 30
 url: /ru/aspose.slides.theme/ioverridetheme/clear/
 ---
 
-## Метод IOverrideTheme.Clear
+## IOverrideTheme.Clear метод
 
-Установите ColorScheme, FontScheme, FormatScheme в null, чтобы отключить любое переопределение с помощью этого объекта темы.
+Установите ColorScheme, FontScheme, FormatScheme в null, чтобы отключить любые переопределения с этим объектом темы.
 
 ```csharp
 public void Clear()

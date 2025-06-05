@@ -1,13 +1,13 @@
 ---
-title: Слайды
-second_title: Справка по API Aspose.Slides для .NET
+title: Slides
+second_title: Aspose.Slides для .NET Справочник по API
 description: Диапазон слайдов
 type: docs
 weight: 60
 url: /ru/aspose.slides/slideshowsettings/slides/
 ---
 
-## Свойство SlideShowSettings.Slides
+## SlideShowSettings.Slides свойство
 
 Диапазон слайдов
 
@@ -25,7 +25,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Смотрите также
+### Также см.
 
 * класс [SlidesRange](../../slidesrange)
 * класс [SlideShowSettings](../../slideshowsettings)

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.mathtext/mathmatrixfactory/createmathmatrix/
 ---
+
 ## MathMatrixFactory.CreateMathMatrix method
 
 Creates a math matrix

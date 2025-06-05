@@ -1,6 +1,6 @@
 ---
 title: Color2
-second_title: Aspose.Slides для .NET API Ссылка
+second_title: Aspose.Slides для справочника API .NET
 description: Возвращает целевой цветовой формат для светлых пикселей. Только для чтения Color.
 type: docs
 weight: 30

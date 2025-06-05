@@ -20,13 +20,13 @@ public interface IGroupShapeLock : IBaseShapeLock
 | 名称 | 描述 |
 | --- | --- |
 | [AsIBaseShapeLock](../../aspose.slides/igroupshapelock/asibaseshapelock) { get; } | 允许获取基础 IBaseShapeLock 接口。只读 [`IBaseShapeLock`](../ibaseshapelock)。 |
-| [AspectRatioLocked](../../aspose.slides/igroupshapelock/aspectratiolocked) { get; set; } | 确定形状在调整大小时是否保持长宽比。读/写布尔值。 |
-| [GroupingLocked](../../aspose.slides/igroupshapelock/groupinglocked) { get; set; } | 确定是否禁止将此形状添加到组中。读/写布尔值。 |
-| [PositionLocked](../../aspose.slides/igroupshapelock/positionlocked) { get; set; } | 确定是否禁止移动此形状。读/写布尔值。 |
-| [RotationLocked](../../aspose.slides/igroupshapelock/rotationlocked) { get; set; } | 确定是否禁止更改此形状的旋转角度。读/写布尔值。 |
-| [SelectLocked](../../aspose.slides/igroupshapelock/selectlocked) { get; set; } | 确定是否禁止选择此形状。读/写布尔值。 |
-| [SizeLocked](../../aspose.slides/igroupshapelock/sizelocked) { get; set; } | 确定是否禁止调整此形状的大小。读/写布尔值。 |
-| [UngroupingLocked](../../aspose.slides/igroupshapelock/ungroupinglocked) { get; set; } | 确定是否禁止拆分此组形状。读/写布尔值。 |
+| [AspectRatioLocked](../../aspose.slides/igroupshapelock/aspectratiolocked) { get; set; } | 确定形状在调整大小时是否必须保持纵横比。可读写布尔值。 |
+| [GroupingLocked](../../aspose.slides/igroupshapelock/groupinglocked) { get; set; } | 确定将此形状添加到组中是否被禁止。可读写布尔值。 |
+| [PositionLocked](../../aspose.slides/igroupshapelock/positionlocked) { get; set; } | 确定移动此形状是否被禁止。可读写布尔值。 |
+| [RotationLocked](../../aspose.slides/igroupshapelock/rotationlocked) { get; set; } | 确定改变此形状的旋转角度是否被禁止。可读写布尔值。 |
+| [SelectLocked](../../aspose.slides/igroupshapelock/selectlocked) { get; set; } | 确定选择此形状是否被禁止。可读写布尔值。 |
+| [SizeLocked](../../aspose.slides/igroupshapelock/sizelocked) { get; set; } | 确定调整此形状大小是否被禁止。可读写布尔值。 |
+| [UngroupingLocked](../../aspose.slides/igroupshapelock/ungroupinglocked) { get; set; } | 确定拆分此 groupShape 是否被禁止。可读写布尔值。 |
 
 ### 另见
 

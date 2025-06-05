@@ -1,7 +1,7 @@
 ---
 title: IMathSuperscriptElement
-second_title: Aspose.Slides for .NET API Reference
-description: 指定一个上标对象，它由一个基底和一个缩小尺寸的上标组成，放置在基底的上方和右侧
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定由基数和一个缩小尺寸的上标组成的上标对象，放置在基数的上方和右侧
 type: docs
 weight: 8230
 url: /zh/aspose.slides.mathtext/imathsuperscriptelement/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathsuperscriptelement/
 
 ## IMathSuperscriptElement 接口
 
-指定上标对象，它由一个基底和一个缩小尺寸的上标组成，放置在基底的上方和右侧
+指定上标对象，由基数和一个缩小尺寸的上标组成，放置在基数的上方和右侧
 
 ```csharp
 public interface IMathSuperscriptElement : IMathElement
@@ -19,20 +19,20 @@ public interface IMathSuperscriptElement : IMathElement
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathsuperscriptelement/asimathelement) { get; } | 允许获取基底 IMathElement 接口 [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathsuperscriptelement/base) { get; } | 基底参数 |
+| [AsIMathElement](../../aspose.slides.mathtext/imathsuperscriptelement/asimathelement) { get; } | 允许获取基数 IMathElement 接口 [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathsuperscriptelement/base) { get; } | 基数参数 |
 | [Superscript](../../aspose.slides.mathtext/imathsuperscriptelement/superscript) { get; } | 上标 |
 
-### 示例
+### 例子
 
-示例：
+示例:
 
 ```csharp
 [C#]
 IMathSuperscriptElement superscriptElement = new MathematicalText("N").SetSuperscript("i");
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IMathElement](../imathelement)
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

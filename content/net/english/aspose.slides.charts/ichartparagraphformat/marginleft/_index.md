@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.charts/ichartparagraphformat/marginleft/
 ---
+
 ## IChartParagraphFormat.MarginLeft property
 
 Returns or sets the left margin in a paragraph. Read/write Single.

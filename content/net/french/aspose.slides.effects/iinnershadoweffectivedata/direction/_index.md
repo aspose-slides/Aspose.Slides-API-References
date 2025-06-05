@@ -1,15 +1,15 @@
 ---
 title: Direction
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Direction de l'ombre. Lecture seule Single.
+description: Direction de l'ombre. En lecture seule Simple.
 type: docs
 weight: 30
 url: /fr/aspose.slides.effects/iinnershadoweffectivedata/direction/
 ---
 
-## Propriété IInnerShadowEffectiveData.Direction
+## IInnerShadowEffectiveData.Direction propriété
 
-Direction de l'ombre. Lecture seule Single.
+Direction de l'ombre. En lecture seule Simple.
 
 ```csharp
 public float Direction { get; }

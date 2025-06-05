@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/iparagraphcollection/addfromhtml/
 ---
+
 ## AddFromHtml(string) {#addfromhtml}
 
 Adds text from specified html string to the collection.

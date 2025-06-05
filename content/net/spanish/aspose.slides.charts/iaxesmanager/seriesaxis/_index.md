@@ -15,7 +15,7 @@ Obtiene el eje de series del gráfico. Solo lectura [`IAxis`](../../iaxis).
 public IAxis SeriesAxis { get; }
 ```
 
-### Vea También
+### Véase también
 
 * interfaz [IAxis](../../iaxis)
 * interfaz [IAxesManager](../../iaxesmanager)

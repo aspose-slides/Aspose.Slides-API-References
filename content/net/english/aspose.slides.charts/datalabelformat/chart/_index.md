@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/datalabelformat/chart/
 ---
+
 ## DataLabelFormat.Chart property
 
 Returns the chart. Read-only [`IChart`](../../ichart).

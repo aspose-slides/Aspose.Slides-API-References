@@ -1,7 +1,7 @@
 ---
 title: IsVisible
 second_title: Aspose.Slides for .NET API Reference
-description: 表示轴是否可见。可读/可写布尔值。
+description: 表示该轴是否可见。可读/写布尔值。
 type: docs
 weight: 310
 url: /zh/aspose.slides.charts/axis/isvisible/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/axis/isvisible/
 
 ## Axis.IsVisible 属性
 
-表示轴是否可见。可读/可写布尔值。
+表示该轴是否可见。可读/写布尔值。
 
 ```csharp
 public bool IsVisible { get; set; }

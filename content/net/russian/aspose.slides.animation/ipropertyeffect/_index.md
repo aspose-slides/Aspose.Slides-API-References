@@ -1,6 +1,6 @@
 ---
 title: IPropertyEffect
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет поведение эффектов свойств.
 type: docs
 weight: 480
@@ -17,17 +17,17 @@ public interface IPropertyEffect : IBehavior
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [AsIBehavior](../../aspose.slides.animation/ipropertyeffect/asibehavior) { get; } | Позволяет получить базовый интерфейс IBehavior. Только для чтения [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/ipropertyeffect/by) { get; set; } | Указывает относительное смещение для анимации относительно её положения до начала анимации. Чтение/запись String. |
+| [By](../../aspose.slides.animation/ipropertyeffect/by) { get; set; } | Указывает значение относительного смещения для анимации относительно её положения перед началом анимации. Чтение/запись String. |
 | [CalcMode](../../aspose.slides.animation/ipropertyeffect/calcmode) { get; set; } | Указывает режим интерполяции для анимации. Чтение/запись [`PropertyCalcModeType`](../propertycalcmodetype). |
 | [From](../../aspose.slides.animation/ipropertyeffect/from) { get; set; } | Указывает начальное значение анимации. Чтение/запись String. |
 | [Points](../../aspose.slides.animation/ipropertyeffect/points) { get; set; } | Указывает точки анимации. Чтение/запись [`IPointCollection`](../ipointcollection). |
 | [To](../../aspose.slides.animation/ipropertyeffect/to) { get; set; } | Указывает конечное значение для анимации. Чтение/запись String. |
 | [ValueType](../../aspose.slides.animation/ipropertyeffect/valuetype) { get; set; } | Указывает тип значения свойства. Чтение/запись [`PropertyValueType`](../propertyvaluetype). |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IBehavior](../ibehavior)
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)

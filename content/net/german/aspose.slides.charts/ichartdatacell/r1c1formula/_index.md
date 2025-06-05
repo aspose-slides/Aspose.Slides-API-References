@@ -1,6 +1,6 @@
 ---
 title: R1C1Formula
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Ruft die Formel im R1C1-Stil ab oder legt sie fest.
 type: docs
 weight: 70
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartdatacell/r1c1formula/
 
 ## IChartDataCell.R1C1Formula-Eigenschaft
 
-Ruft die Formel im R1C1-Stil ab oder legt sie fest.
+Ruht die Formel im R1C1-Stil ab oder legt sie fest.
 
 ```csharp
 public string R1C1Formula { get; set; }
@@ -23,7 +23,7 @@ IChartDataCell cell = workbook.GetCell(0, "C2");
 cell.R1C1Formula = "MAX(R2C6:R5C8) / 3";
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IChartDataCell](../../ichartdatacell)
 * Namespace [Aspose.Slides.Charts](../../ichartdatacell)

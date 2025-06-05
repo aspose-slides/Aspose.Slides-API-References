@@ -1,6 +1,6 @@
 ---
 title: PresentationFactory
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Ermöglicht die Erstellung von Präsentationen über die COM-Schnittstelle
 type: docs
 weight: 9330
@@ -25,7 +25,7 @@ public class PresentationFactory : IPresentationFactory
 
 | Name | Beschreibung |
 | --- | --- |
-| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | Statische Instanz der Präsentationsfabrik. Nur schreibgeschützt [`PresentationFactory`](../presentationfactory). |
+| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | Statische Instanz der Präsentationsfabrik. Schreibgeschützt [`PresentationFactory`](../presentationfactory). |
 
 ## Methoden
 
@@ -35,9 +35,9 @@ public class PresentationFactory : IPresentationFactory
 | [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Erstellt eine neue Präsentation mit zusätzlichen Ladeoptionen |
 | [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Erstellt ein neues PresentationInfo-Objekt aus einem Stream und bindet die Präsentation daran. Ruft Informationen über die Präsentation im angegebenen Stream ab. |
 | [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Erstellt ein neues PresentationInfo-Objekt aus einer Datei und bindet die Präsentation daran. |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Ruft den Rohtext von den Folien ab |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Ruft den Rohtext von den Folien ab |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Ruft den Rohtext von den Folien ab |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Ruft den unverarbeiteten Text von den Folien ab |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Ruft den unverarbeiteten Text von den Folien ab |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Ruft den unverarbeiteten Text von den Folien ab |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation)(byte[]) | Liest eine vorhandene Präsentation aus einem Array |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | Liest eine vorhandene Präsentation aus einem Stream |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | Liest eine vorhandene Präsentation aus einer Datei |
@@ -47,7 +47,7 @@ public class PresentationFactory : IPresentationFactory
 
 ### Beispiele
 
-Das folgende Beispiel zeigt, wie man das Format einer Präsentation überprüft.
+Das folgende Beispiel zeigt, wie man ein Präsentationsformat überprüft.
 
 ```csharp
 [C#]
@@ -59,7 +59,7 @@ IPresentationInfo info3 = PresentationFactory.Instance.GetPresentationInfo("pres
 Console.WriteLine(info3.LoadFormat); // ODP
 ```
 
-Das folgende Beispiel zeigt, wie man die Eigenschaften einer Präsentation abruft.
+Das folgende Beispiel zeigt, wie man die Eigenschaften einer Präsentation erhält.
 
 ```csharp
 [C#]
@@ -81,7 +81,7 @@ props.Title = "Mein Titel";
 info.UpdateDocumentProperties(props);
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * interface [IPresentationFactory](../ipresentationfactory)
 * namespace [Aspose.Slides](../../aspose.slides)

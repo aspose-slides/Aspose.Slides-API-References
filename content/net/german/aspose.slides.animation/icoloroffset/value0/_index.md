@@ -7,7 +7,7 @@ weight: 10
 url: /de/aspose.slides.animation/icoloroffset/value0/
 ---
 
-## IColorOffset.Value0-Eigenschaft
+## IColorOffset.Value0 Eigenschaft
 
 Definiert den ersten Wert des Offsets. Lesen/Schreiben Einzelwert.
 

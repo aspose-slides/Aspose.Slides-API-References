@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/paragraphfactory/paragraphfactory/
 ---
+
 ## ParagraphFactory constructor
 
 The default constructor.

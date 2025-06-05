@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/isummaryzoomsection/description/
 ---
+
 ## ISummaryZoomSection.Description property
 
 Returns the text description of the Summary Zoom Section object.

@@ -1,7 +1,7 @@
 ---
 title: MajorGridLinesFormat
-second_title: Aspose.Slides for .NET API 参考
-description: 表示图表轴上的主要网格线格式。只读 IChartLinesFormataspose.slides.charts/ichartlinesformat。
+second_title: Aspose.Slidest for .NET API Reference
+description: 表示图表轴上的主要网格线格式。为只读 IChartLinesFormataspose.slides/ichartlinesformat。
 type: docs
 weight: 340
 url: /zh/aspose.slides.charts/iaxis/majorgridlinesformat/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/iaxis/majorgridlinesformat/
 public IChartLinesFormat MajorGridLinesFormat { get; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IChartLinesFormat](../../ichartlinesformat)
 * 接口 [IAxis](../../iaxis)

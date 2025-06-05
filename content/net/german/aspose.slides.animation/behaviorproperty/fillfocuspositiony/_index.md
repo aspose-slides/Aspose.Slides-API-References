@@ -1,21 +1,21 @@
 ---
 title: FillFocusPositionY
 second_title: Aspose.Slides für .NET API Referenz
-description: Stellt die fill.focusposition.y Eigenschaft dar
+description: Stellt die Eigenschaft fill.focusposition.y dar
 type: docs
 weight: 320
 url: /de/aspose.slides.animation/behaviorproperty/fillfocuspositiony/
 ---
 
-## BehaviorProperty.FillFocusPositionY Eigenschaft
+## BehaviorProperty.FillFocusPositionY-Eigenschaft
 
-Stellt die 'fill.focusposition.y' Eigenschaft dar
+Stellt die Eigenschaft 'fill.focusposition.y' dar
 
 ```csharp
 public static BehaviorProperty FillFocusPositionY { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [BehaviorProperty](../../behaviorproperty)
 * Namespace [Aspose.Slides.Animation](../../behaviorproperty)

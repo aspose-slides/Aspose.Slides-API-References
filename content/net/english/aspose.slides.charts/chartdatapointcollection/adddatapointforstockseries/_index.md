@@ -6,6 +6,7 @@ type: docs
 weight: 220
 url: /aspose.slides.charts/chartdatapointcollection/adddatapointforstockseries/
 ---
+
 ## AddDataPointForStockSeries(IChartDataCell) {#adddatapointforstockseries}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Stock subtypes (see also [`IsChartTypeStock`](../../charttypecharacterizer/ischarttypestock) method).

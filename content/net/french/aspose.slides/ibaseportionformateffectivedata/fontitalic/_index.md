@@ -7,7 +7,7 @@ weight: 90
 url: /fr/aspose.slides/ibaseportionformateffectivedata/fontitalic/
 ---
 
-## Propriété IBasePortionFormatEffectiveData.FontItalic
+## IBasePortionFormatEffectiveData.FontItalic property
 
 Détermine si la police est en italique. Boolean en lecture seule.
 

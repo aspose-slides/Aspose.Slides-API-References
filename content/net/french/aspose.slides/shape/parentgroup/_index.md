@@ -1,7 +1,7 @@
 ---
 title: ParentGroup
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie l'objet GroupShape parent si la forme est groupée. Sinon, renvoie null. IGroupShape en lecture seule aspose.slides/igroupshape.
+second_title: Aspose.Slides pour .NET Référence API
+description: Renvoie l'objet GroupShape parent si la forme est groupée. Sinon, retourne null. Lecture seule IGroupShape aspose.slides/igroupshape.
 type: docs
 weight: 200
 url: /fr/aspose.slides/shape/parentgroup/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/shape/parentgroup/
 
 ## Propriété Shape.ParentGroup
 
-Renvoie l'objet GroupShape parent si la forme est groupée. Sinon, renvoie null. [`IGroupShape`](../../igroupshape) en lecture seule.
+Renvoie l'objet GroupShape parent si la forme est groupée. Sinon, retourne null. Lecture seule [`IGroupShape`](../../igroupshape).
 
 ```csharp
 public IGroupShape ParentGroup { get; }

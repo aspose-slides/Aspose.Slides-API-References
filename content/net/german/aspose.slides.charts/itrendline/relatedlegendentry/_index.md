@@ -1,15 +1,15 @@
 ---
 title: RelatedLegendEntry
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt den Legendeneintrag dar, der mit dieser Trendlinie verbunden ist. Nur lesbarer ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt den Legendeneintrag dar, der mit dieser Trendlinie verbunden ist. Nur-Lese ILegendEntryPropertiesaspose.slides/ilegendentryproperties.
 type: docs
 weight: 100
 url: /de/aspose.slides.charts/itrendline/relatedlegendentry/
 ---
 
-## ITrendline.RelatedLegendEntry Eigenschaft
+## ITrendline.RelatedLegendEntry-Eigenschaft
 
-Stellt den Legendeneintrag dar, der mit dieser Trendlinie verbunden ist. Nur lesbar [`ILegendEntryProperties`](../../ilegendentryproperties).
+Stellt den Legendeneintrag dar, der mit dieser Trendlinie verbunden ist. Nur-Lese [`ILegendEntryProperties`](../../ilegendentryproperties).
 
 ```csharp
 public ILegendEntryProperties RelatedLegendEntry { get; }

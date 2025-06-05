@@ -1,7 +1,7 @@
 ---
-title: 设置列的对齐方式
-second_title: Aspose.Slides for .NET API 参考
-description: 设置指定列的水平对齐方式
+title: SetColumnsAlignment
+second_title: Aspose.Sildes for .NET API Reference
+description: 设置指定列的水平对齐
 type: docs
 weight: 210
 url: /zh/aspose.slides.mathtext/mathmatrix/setcolumnsalignment/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathmatrix/setcolumnsalignment/
 
 ## MathMatrix.SetColumnsAlignment 方法
 
-设置指定列的水平对齐方式
+设置指定列的水平对齐
 
 ```csharp
 public void SetColumnsAlignment(int columnIndex, uint columnsCount, MathHorizontalAlignment val)

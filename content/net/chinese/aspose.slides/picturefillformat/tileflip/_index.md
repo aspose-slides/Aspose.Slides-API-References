@@ -1,7 +1,7 @@
 ---
 title: TileFlip
 second_title: Aspose.Sildes for .NET API Reference
-description: 在其水平、垂直或两个轴上翻转纹理图块。读/写 TileFlipaspose.slides/tileflip。
+description: 翻转纹理瓷砖的水平、垂直或两个轴。读/写 TileFlipaspose.slides/tileflip。
 type: docs
 weight: 130
 url: /zh/aspose.slides/picturefillformat/tileflip/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/picturefillformat/tileflip/
 
 ## PictureFillFormat.TileFlip 属性
 
-在其水平、垂直或两个轴上翻转纹理图块。读/写 [`TileFlip`](../../tileflip)。
+翻转纹理瓷砖的水平、垂直或两个轴。读/写 [`TileFlip`](../../tileflip)。
 
 ```csharp
 public TileFlip TileFlip { get; set; }
@@ -30,15 +30,15 @@ using (Presentation presentation = new Presentation("demo.pptx"))
     // 获取形状的图片填充格式
     IPictureFillFormat pictureFillFormat = slide.Shapes[0].FillFormat.PictureFillFormat;
 
-    // 将图片填充模式设置为 Tile
+    // 将图片填充模式设置为瓷砖
     pictureFillFormat.PictureFillMode = PictureFillMode.Tile;
 
-    // 在其垂直轴上翻转纹理图块。
+    // 沿其垂直轴翻转纹理瓷砖。
     pictureFillFormat.TileFlip = TileFlip.FlipY;
 }
 ```
 
-### 另请参阅
+### 参见
 
 * enum [TileFlip](../../tileflip)
 * class [PictureFillFormat](../../picturefillformat)

@@ -1,13 +1,13 @@
 ---
-title: Element
-second_title: Aspose.Slides für .NET API-Referenz
+title: Item
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt das IChartDataCell-Objekt für das definierte Level zurück.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/ichartcategorylevelsmanager/item/
 ---
 
-## IChartCategoryLevelsManager-Indexer
+## IChartCategoryLevelsManager Indexer
 
 Gibt das IChartDataCell-Objekt für das definierte Level zurück.
 

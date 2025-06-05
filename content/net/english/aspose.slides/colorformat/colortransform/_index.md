@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/colorformat/colortransform/
 ---
+
 ## ColorFormat.ColorTransform property
 
 Returns the collection of color transformations applied to a color. Read-only [`IColorOperationCollection`](../../icoloroperationcollection).

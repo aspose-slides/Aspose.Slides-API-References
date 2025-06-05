@@ -1,7 +1,7 @@
 ---
-title: Persistenz
+title: Persistence
 second_title: Aspose.Slides für .NET API Referenz
-description: Ruft die Methode ab, die verwendet wird, um Eigenschaften des ActiveX-Steuerelements zu speichern. Nur lesender PersistenceTypeaspose.slides/persistencetype.
+description: Holt die verwendete Methode zum Speichern von Eigenschaften des ActiveX-Steuerelements. Nur lesen PersistenceTypeaspose.slides/persistencetype.
 type: docs
 weight: 50
 url: /de/aspose.slides/control/persistence/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/control/persistence/
 
 ## Control.Persistence-Eigenschaft
 
-Ruht die Methode ab, die verwendet wird, um Eigenschaften des ActiveX-Steuerelements zu speichern. Nur lesend [`PersistenceType`](../../persistencetype).
+Holt die verwendete Methode zum Speichern von Eigenschaften des ActiveX-Steuerelements. Nur lesen [`PersistenceType`](../../persistencetype).
 
 ```csharp
 public PersistenceType Persistence { get; }
@@ -17,7 +17,7 @@ public PersistenceType Persistence { get; }
 
 ### Beispiele
 
-Im nächsten Beispiel wird die Verwendung der Persistence-Eigenschaft gezeigt, um zu überprüfen, ob die Eigenschaften des ActiveX-Objekts als XML-basierte ActiveX-Eigenschaften geändert werden können:
+Das nächste Beispiel zeigt die Verwendung der Persistence-Eigenschaft, um zu überprüfen, ob die Eigenschaften des ActiveX-Objekts als XML-basierte ActiveX-Eigenschaften geändert werden können:
 
 ```csharp
 [C#]
@@ -27,11 +27,11 @@ if (control.Persistence == PersistenceType.PersistPropertyBag)
 }
 else
 {
-    YourMethodHere(control.ActiveXControlBinary); //Verwenden Sie Ihre eigene Methode zur Verwaltung von ActiveX-Eigenschaften, die in der Binärdatei gespeichert sind
+    YourMethodHere(control.ActiveXControlBinary); //Verwenden Sie Ihre eigene Methode zum Verwalten von ActiveX-Eigenschaften, die in seiner Binärdatei gespeichert sind
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [PersistenceType](../../persistencetype)
 * class [Control](../../control)

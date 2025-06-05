@@ -1,13 +1,13 @@
 ---
 title: ValueType
-second_title: Справочник API Aspose.Slides для .NET
-description: Указывает тип значения свойства. Читаемое/записываемое свойство PropertyValueTypeaspose.slides.animation/propertyvaluetype.
+second_title: Aspose.Slides для .NET API Справочник
+description: Указывает тип значения свойства. Читаемое/записываемое PropertyValueType aspose.slides.animation/propertyvaluetype.
 type: docs
 weight: 70
 url: /ru/aspose.slides.animation/propertyeffect/valuetype/
 ---
 
-## Свойство PropertyEffect.ValueType
+## PropertyEffect.ValueType свойство
 
 Указывает тип значения свойства. Читаемое/записываемое [`PropertyValueType`](../../propertyvaluetype).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/propertyeffect/valuetype/
 public PropertyValueType ValueType { get; set; }
 ```
 
-### Смотрите также
+### См. Также
 
 * enum [PropertyValueType](../../propertyvaluetype)
 * class [PropertyEffect](../../propertyeffect)

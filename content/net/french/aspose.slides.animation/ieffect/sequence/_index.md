@@ -1,7 +1,7 @@
 ---
-title: Séquence
+title: Sequence
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne une séquence pour un effet. Lecture seule ISequenceaspose.slides.animation/isequence.
+description: Renvoie une séquence pour un effet. Lecture seule ISequenceaspose.slides.animation/isequence.
 type: docs
 weight: 70
 url: /fr/aspose.slides.animation/ieffect/sequence/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.animation/ieffect/sequence/
 
 ## Propriété IEffect.Sequence
 
-Retourne une séquence pour un effet. Lecture seule [`ISequence`](../../isequence).
+Renvoie une séquence pour un effet. Lecture seule [`ISequence`](../../isequence).
 
 ```csharp
 public ISequence Sequence { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ISequence](../../isequence)
 * interface [IEffect](../../ieffect)

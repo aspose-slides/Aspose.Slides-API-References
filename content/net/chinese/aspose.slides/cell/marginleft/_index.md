@@ -1,7 +1,7 @@
 ---
 title: MarginLeft
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置 TextFrame 中的左边距。可读写 Double。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置 TextFrame 的左边距。可读可写 Double。
 type: docs
 weight: 110
 url: /zh/aspose.slides/cell/marginleft/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/cell/marginleft/
 
 ## Cell.MarginLeft 属性
 
-返回或设置 TextFrame 中的左边距。可读写 Double。
+返回或设置 TextFrame 的左边距。可读可写 Double。
 
 ```csharp
 public double MarginLeft { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * class [Cell](../../cell)
 * namespace [Aspose.Slides](../../cell)

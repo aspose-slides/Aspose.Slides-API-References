@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.slideshow/shredtransition/pattern/
 ---
+
 ## ShredTransition.Pattern property
 
 Specifies the shape of the visuals used during the transition. Read/write [`TransitionShredPattern`](../../transitionshredpattern).

@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.effects/imagetransformoperationcollection/addalphainverseeffect/
 ---
+
 ## ImageTransformOperationCollection.AddAlphaInverseEffect method
 
 Adds the new Alpha Inverse effect to the end of a collection.

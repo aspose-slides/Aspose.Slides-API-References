@@ -1,6 +1,6 @@
 ---
 title: RemoveAt
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Удаляет поведение из коллекции по указанному индексу.
 type: docs
 weight: 120

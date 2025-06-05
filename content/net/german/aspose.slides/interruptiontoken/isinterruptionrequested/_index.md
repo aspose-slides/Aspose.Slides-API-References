@@ -15,7 +15,7 @@ Gibt Boolean.true zurück, wenn eine Unterbrechung angefordert wurde.
 public bool IsInterruptionRequested { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [InterruptionToken](../../interruptiontoken)
 * Namespace [Aspose.Slides](../../interruptiontoken)

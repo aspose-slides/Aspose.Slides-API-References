@@ -1,7 +1,7 @@
 ---
 title: AsIThemeable
-second_title: Aspose.Slides для .NET Справочник по API
-description: Возвращает интерфейс IThemeable. Только для чтения IThemeableaspose.slides.theme/ithemeable.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает интерфейс IThemeable. Только для чтения IThemeable aspose.slides.theme/ithemeable.
 type: docs
 weight: 10
 url: /ru/aspose.slides.theme/imasterthemeable/asithemeable/
@@ -19,7 +19,7 @@ public IThemeable AsIThemeable { get; }
 
 Для совместимости с COM.
 
-### См. Также
+### См. также
 
 * интерфейс [IThemeable](../../ithemeable)
 * интерфейс [IMasterThemeable](../../imasterthemeable)

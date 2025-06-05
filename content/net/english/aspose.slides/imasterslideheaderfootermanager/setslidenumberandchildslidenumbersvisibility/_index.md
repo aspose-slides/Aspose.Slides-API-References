@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility/
 ---
+
 ## IMasterSlideHeaderFooterManager.SetSlideNumberAndChildSlideNumbersVisibility method
 
 Changes master slide page number placeholder and all child page number placeholders visibility. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide.

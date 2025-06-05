@@ -1,6 +1,6 @@
 ---
-title: Titel
-second_title: Aspose.Slides für .NET API-Referenz
+title: Title
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt den Texttitel des Summary Zoom Section-Objekts zurück.
 type: docs
 weight: 30
@@ -24,13 +24,13 @@ Beispiel:
 using (Presentation pres = new Presentation("pres.pptx"))
 {
     ISummaryZoomSection zoomSection = zoomFrame.SummaryZoomCollection[1];
-    zoomSection.Title = "Titel";
+    zoomSection.Title = "Title";
 }
 ```
 
 ### Siehe Auch
 
-* Interface [ISummaryZoomSection](../../isummaryzoomsection)
+* Schnittstelle [ISummaryZoomSection](../../isummaryzoomsection)
 * Namespace [Aspose.Slides](../../isummaryzoomsection)
 * Assembly [Aspose.Slides](../../../)
 

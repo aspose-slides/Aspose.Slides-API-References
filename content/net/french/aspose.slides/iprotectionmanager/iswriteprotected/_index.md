@@ -1,6 +1,6 @@
 ---
 title: IsWriteProtected
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Obtient une valeur indiquant si cette présentation est protégée en écriture. Booléen en lecture seule.
 type: docs
 weight: 50

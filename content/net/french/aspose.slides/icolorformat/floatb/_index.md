@@ -1,6 +1,6 @@
 ---
 title: FloatB
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie ou définit le composant bleu d'une couleur. Toutes les transformations de couleur sont ignorées. Lecture/écriture Single.
 type: docs
 weight: 60

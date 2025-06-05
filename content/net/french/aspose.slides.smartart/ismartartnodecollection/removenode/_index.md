@@ -1,6 +1,6 @@
 ---
 title: RemoveNode
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence de l'API .NET
 description: Supprimer un nœud ou un sous-nœud par index.
 type: docs
 weight: 40
@@ -17,7 +17,7 @@ public void RemoveNode(int index)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | Index de nœud basé sur zéro |
+| index | Int32 | Index basé sur zéro du nœud |
 
 ### Exceptions
 

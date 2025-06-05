@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides/streamwrapper/seek/
 ---
+
 ## StreamWrapper.Seek method
 
 Sets the position within the current stream

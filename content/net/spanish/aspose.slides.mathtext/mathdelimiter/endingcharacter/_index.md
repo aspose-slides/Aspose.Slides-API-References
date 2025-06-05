@@ -1,7 +1,7 @@
 ---
 title: EndingCharacter
 second_title: Referencia de API de Aspose.Slides para .NET
-description: El carácter delimitador de cierre especifica el carácter de delimitador de cierre. Los delimitadores matemáticos son caracteres de cierre como paréntesis, corchetes y llaves. El valor por defecto.
+description: El carácter delimitador de cierre especifica el carácter delimitador de cierre o final. Los delimitadores matemáticos son caracteres de cierre como paréntesis, corchetes y llaves. El valor predeterminado.
 type: docs
 weight: 50
 url: /es/aspose.slides.mathtext/mathdelimiter/endingcharacter/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.mathtext/mathdelimiter/endingcharacter/
 
 ## Propiedad MathDelimiter.EndingCharacter
 
-El carácter delimitador de cierre especifica el carácter de delimitador de cierre. Los delimitadores matemáticos son caracteres de cierre como paréntesis, corchetes y llaves. El valor por defecto: ')'.
+El carácter delimitador de cierre especifica el carácter delimitador de cierre o final. Los delimitadores matemáticos son caracteres de cierre como paréntesis, corchetes y llaves. El valor predeterminado: ')'.
 
 ```csharp
 public char EndingCharacter { get; set; }
@@ -29,6 +29,6 @@ delimiter.EndingCharacter = ']';
 
 * clase [MathDelimiter](../../mathdelimiter)
 * espacio de nombres [Aspose.Slides.MathText](../../mathdelimiter)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

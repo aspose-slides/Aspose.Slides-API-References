@@ -1,21 +1,21 @@
 ---
 title: HasLegend
-second_title: Aspose.Slides for .NET API 参考
-description: 确定图表是否具有图例。可读/可写布尔值。
+second_title: Aspose.Slides for .NET API Reference
+description: 确定图表是否具有图例。可读/写布尔值。
 type: docs
 weight: 120
 url: /zh/aspose.slides.charts/ichart/haslegend/
 ---
 
-## IChart.HasLegend 属性
+## IChart.HasLegend属性
 
-确定图表是否具有图例。可读/可写布尔值。
+确定图表是否具有图例。可读/写布尔值。
 
 ```csharp
 public bool HasLegend { get; set; }
 ```
 
-### 参见
+### 另请参见
 
 * 接口 [IChart](../../ichart)
 * 命名空间 [Aspose.Slides.Charts](../../ichart)

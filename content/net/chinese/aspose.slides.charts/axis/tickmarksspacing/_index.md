@@ -1,7 +1,7 @@
 ---
-title: 刻度间隔
-second_title: Aspose.Slides for .NET API 参考
-description: 指定在绘制下一个刻度之前要跳过多少个刻度。应用于类别或系列轴。可读可写 UInt16。
+title: TickMarksSpacing
+second_title: Aspose.Slides for .NET API Reference
+description: 指定在绘制下一个刻度标记之前应跳过多少个刻度标记。适用于类别轴或系列轴。读/写 UInt16。
 type: docs
 weight: 540
 url: /zh/aspose.slides.charts/axis/tickmarksspacing/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/axis/tickmarksspacing/
 
 ## Axis.TickMarksSpacing 属性
 
-指定在绘制下一个刻度之前要跳过多少个刻度。应用于类别或系列轴。可读可写 UInt16。
+指定在绘制下一个刻度标记之前应跳过多少个刻度标记。适用于类别轴或系列轴。读/写 UInt16。
 
 ```csharp
 public uint TickMarksSpacing { get; set; }

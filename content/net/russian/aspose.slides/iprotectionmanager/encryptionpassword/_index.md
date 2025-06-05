@@ -1,15 +1,15 @@
 ---
 title: EncryptionPassword
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает пароль шифрования. Строка только для чтения.
+second_title: Aspose.Slides для .NET API Reference
+description: Возвращает пароль шифрования. Доступ в режиме только для чтения String.
 type: docs
 weight: 20
 url: /ru/aspose.slides/iprotectionmanager/encryptionpassword/
 ---
 
-## Свойство IProtectionManager.EncryptionPassword
+## IProtectionManager.EncryptionPassword свойство
 
-Возвращает пароль шифрования. Строка только для чтения.
+Возвращает пароль шифрования. Доступ в режиме только для чтения String.
 
 ```csharp
 public string EncryptionPassword { get; }

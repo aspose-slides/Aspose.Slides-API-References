@@ -1,5 +1,5 @@
 ---
-title: Altura
+title: Height
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve la altura de una fila. Solo lectura Double.
 type: docs
@@ -15,10 +15,10 @@ Devuelve la altura de una fila. Solo lectura Double.
 public double Height { get; }
 ```
 
-### Véase También
+### Ver También
 
-* clase [Row](../../row)
-* espacio de nombres [Aspose.Slides](../../row)
-* ensamblaje [Aspose.Slides](../../../)
+* class [Row](../../row)
+* namespace [Aspose.Slides](../../row)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

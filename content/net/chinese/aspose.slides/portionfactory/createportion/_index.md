@@ -19,7 +19,7 @@ public IPortion CreatePortion()
 
 部分。
 
-### 参见
+### 另见
 
 * 接口 [IPortion](../../iportion)
 * 类 [PortionFactory](../../portionfactory)
@@ -30,7 +30,7 @@ public IPortion CreatePortion()
 
 ## CreatePortion(string) {#createportion_2}
 
-从指定字符串创建一个文本部分。
+从指定字符串创建文本部分。
 
 ```csharp
 public IPortion CreatePortion(string str)
@@ -44,7 +44,7 @@ public IPortion CreatePortion(string str)
 
 部分。
 
-### 参见
+### 另见
 
 * 接口 [IPortion](../../iportion)
 * 类 [PortionFactory](../../portionfactory)
@@ -55,7 +55,7 @@ public IPortion CreatePortion(string str)
 
 ## CreatePortion(IPortion) {#createportion_1}
 
-使用指定部分数据创建一个部分。
+使用指定的部分数据创建一个部分。
 
 ```csharp
 public IPortion CreatePortion(IPortion portion)
@@ -69,7 +69,7 @@ public IPortion CreatePortion(IPortion portion)
 
 部分。
 
-### 参见
+### 另见
 
 * 接口 [IPortion](../../iportion)
 * 类 [PortionFactory](../../portionfactory)

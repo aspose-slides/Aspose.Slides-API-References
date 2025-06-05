@@ -1,6 +1,6 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取应用继承和表格样式的有效表格单元格格式属性。
 type: docs
 weight: 90
@@ -21,7 +21,7 @@ public ICellFormatEffectiveData GetEffective()
 
 ### 示例
 
-此示例演示了获取不同表格逻辑部分的有效填充格式。请注意，单元格格式始终比行格式具有更高的优先级，行格式高于列格式，列格式高于整个表格。因此，最终 CellFormatEffectiveData 属性始终用于绘制表格。以下代码仅为 API 的示例。
+此示例演示如何获取不同表格逻辑部分的有效填充格式。请注意，单元格格式始终优先于行格式，行格式优先于列格式，列格式优先于整个表格。因此，CellFormatEffectiveData 属性最终始终用于绘制表格。以下代码只是 API 的一个示例。
 
 ```csharp
 [C#]
@@ -36,7 +36,7 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [ICellFormatEffectiveData](../../icellformateffectivedata)
 * 类 [CellFormat](../../cellformat)

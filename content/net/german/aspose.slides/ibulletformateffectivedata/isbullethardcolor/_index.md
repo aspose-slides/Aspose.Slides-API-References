@@ -1,15 +1,15 @@
 ---
 title: IsBulletHardColor
 second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob das Bullet eine eigene Farbe hat oder die Farbe von der ersten Portion im Absatz übernimmt. Gibt **true** zurück, wenn das Bullet eine eigene Farbe hat, und **false**, wenn das Bullet die Farbe von der ersten Portion im Absatz übernimmt. Nur lesezugängliches Boolesch.
+description: Bestimmt, ob die Aufzählung ein eigenes Farbe hat oder sie von dem ersten Abschnitt im Absatz erbt. Gibt **true** zurück, wenn die Aufzählung ein eigenes Farbe hat, und **false**, wenn die Aufzählung die Farbe vom ersten Abschnitt im Absatz erbt. Nur-lesbarer Boolean.
 type: docs
 weight: 60
 url: /de/aspose.slides/ibulletformateffectivedata/isbullethardcolor/
 ---
 
-## IBulletFormatEffectiveData.IsBulletHardColor Eigenschaft
+## IBulletFormatEffectiveData.IsBulletHardColor property
 
-Bestimmt, ob das Bullet eine eigene Farbe hat oder die Farbe von der ersten Portion im Absatz übernimmt. Gibt **true** zurück, wenn das Bullet eine eigene Farbe hat, und **false**, wenn das Bullet die Farbe von der ersten Portion im Absatz übernimmt. Nur lesezugängliches Boolesch.
+Bestimmt, ob die Aufzählung ein eigenes Farbe hat oder sie von dem ersten Abschnitt im Absatz erbt. Gibt **true** zurück, wenn die Aufzählung ein eigenes Farbe hat, und **false**, wenn die Aufzählung die Farbe vom ersten Abschnitt im Absatz erbt. Nur-lesbarer Boolean.
 
 ```csharp
 public bool IsBulletHardColor { get; }
@@ -17,7 +17,7 @@ public bool IsBulletHardColor { get; }
 
 ### Siehe auch
 
-* Schnittstelle [IBulletFormatEffectiveData](../../ibulletformateffectivedata)
+* Interface [IBulletFormatEffectiveData](../../ibulletformateffectivedata)
 * Namespace [Aspose.Slides](../../ibulletformateffectivedata)
 * Assembly [Aspose.Slides](../../../)
 

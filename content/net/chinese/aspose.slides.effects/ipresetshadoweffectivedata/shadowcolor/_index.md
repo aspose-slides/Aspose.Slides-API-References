@@ -1,6 +1,6 @@
 ---
-title: 阴影颜色
-second_title: Aspose.Slides for .NET API 参考
+title: ShadowColor
+second_title: Aspose.Sildes for .NET API 参考
 description: 阴影的颜色。只读颜色。
 type: docs
 weight: 50
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.effects/ipresetshadoweffectivedata/shadowcolor/
 public Color ShadowColor { get; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IPresetShadowEffectiveData](../../ipresetshadoweffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../ipresetshadoweffectivedata)

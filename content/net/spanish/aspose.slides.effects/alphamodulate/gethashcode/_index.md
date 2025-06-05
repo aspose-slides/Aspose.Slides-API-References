@@ -1,6 +1,6 @@
 ---
 title: GetHashCode
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Sirve como una función hash para un tipo particular.
 type: docs
 weight: 30
@@ -15,14 +15,14 @@ Sirve como una función hash para un tipo particular.
 public override int GetHashCode()
 ```
 
-### Valor de retorno
+### Valor de Retorno
 
 Un código hash para el objeto actual.
 
-### También see
+### Ver También
 
-* clase [AlphaModulate](../../alphamodulate)
-* espacio de nombres [Aspose.Slides.Effects](../../alphamodulate)
-* ensamblaje [Aspose.Slides](../../../)
+* clase [AlphaModulate](../../alphamodulate)
+* espacio de nombres [Aspose.Slides.Effects](../../alphamodulate)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

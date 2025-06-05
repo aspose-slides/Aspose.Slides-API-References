@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export/presentationanimationsgenerator/presentationanimationsgenerator/
 ---
+
 ## PresentationAnimationsGenerator(Presentation) {#constructor}
 
 Creates a new instance of the [`PresentationAnimationsGenerator`](../../presentationanimationsgenerator).

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.theme/lineformatcollection/item/
 ---
+
 ## LineFormatCollection indexer
 
 Gets the element at the specified index. Read-only [`ILineFormat`](../../../aspose.slides/ilineformat).

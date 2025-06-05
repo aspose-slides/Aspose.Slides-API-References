@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
-second_title: Aspose.Slides for .NET API Reference
-description: 移除指定索引处的元素
+second_title: Aspose.Sildes for .NET API Reference
+description: 删除指定索引处的元素
 type: docs
 weight: 70
 url: /zh/aspose.slides.charts/ichartseriescollection/removeat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ichartseriescollection/removeat/
 
 ## IChartSeriesCollection.RemoveAt 方法
 
-移除指定索引处的元素
+删除指定索引处的元素
 
 ```csharp
 public void RemoveAt(int index)

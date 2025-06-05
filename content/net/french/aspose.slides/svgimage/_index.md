@@ -1,6 +1,6 @@
 ---
 title: SvgImage
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Représente une image SVG.
 type: docs
 weight: 10490
@@ -30,16 +30,16 @@ public class SvgImage : ISvgImage
 
 | Nom | Description |
 | --- | --- |
-| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | Retourne l'URI de base du Svg spécifié. Utilisé pour résoudre les liens relatifs. Chaîne en lecture seule. |
-| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Retourne l'interface de rappel utilisée pour résoudre les ressources externes lors de l'importation de documents Svg. [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver) en lecture seule. |
-| [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | Retourne le contenu SVG. Chaîne en lecture seule. |
-| [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | Retourne les données SVG. Byte[] en lecture seule. |
+| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | Renvoie l'URI de base du SVG spécifié. Utilisé pour résoudre les liens relatifs. Chaîne en lecture seule. |
+| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Renvoie l'interface de rappel utilisée pour résoudre les ressources externes lors de l'importation de documents SVG. [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver) en lecture seule. |
+| [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | Renvoie le contenu SVG. Chaîne en lecture seule. |
+| [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | Renvoie les données SVG. Byte[]. en lecture seule. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [WriteAsEmf](../../aspose.slides/svgimage/writeasemf)(Stream) | Sauvegarde l'image SVG en tant que fichier EMF. |
+| [WriteAsEmf](../../aspose.slides/svgimage/writeasemf)(Stream) | Enregistre l'image SVG en tant que fichier EMF. |
 
 ### Voir aussi
 

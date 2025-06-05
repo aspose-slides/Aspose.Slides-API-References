@@ -1,7 +1,7 @@
 ---
-title: 缩进
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置段落的首行缩进/悬挂缩进，不进行继承。悬挂缩进可以用负值定义。可读/写单精度浮点数。
+title: Indent
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置段落的首行缩进/悬挂缩进，不继承。悬挂缩进可以用负值定义。可读/可写的单精度浮点数。
 type: docs
 weight: 90
 url: /zh/aspose.slides/iparagraphformat/indent/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iparagraphformat/indent/
 
 ## IParagraphFormat.Indent 属性
 
-返回或设置段落的首行缩进/悬挂缩进，不进行继承。悬挂缩进可以用负值定义。可读/写单精度浮点数。
+返回或设置段落的首行缩进/悬挂缩进，不继承。悬挂缩进可以用负值定义。可读/可写的单精度浮点数。
 
 ```csharp
 public float Indent { get; set; }

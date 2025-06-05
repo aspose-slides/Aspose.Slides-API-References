@@ -1,15 +1,15 @@
 ---
 title: StrikethroughTopLeftToBottomRight
-second_title: Referencia de API de Aspose.Slides para .NET
-description: El tachado de arriba a la izquierda a abajo a la derecha es falso por defecto. Especifica el estado oculto o visible de una línea diagonal tachada desde la esquina superior izquierda hasta la esquina inferior derecha del cuadro de borde.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Strikethrough de arriba a la izquierda a abajo a la derecha, el valor predeterminado es falso. Especifica el estado oculto o mostrado de una línea diagonal tachada desde la esquina superior izquierda hasta la esquina inferior derecha del cuadro de borde.
 type: docs
 weight: 90
 url: /es/aspose.slides.mathtext/mathborderbox/strikethroughtoplefttobottomright/
 ---
 
-## Propiedad MathBorderBox.StrikethroughTopLeftToBottomRight
+## MathBorderBox.StrikethroughTopLeftToBottomRight propiedad
 
-El tachado de arriba a la izquierda a abajo a la derecha (por defecto es falso). Especifica el estado oculto o visible de una línea diagonal tachada desde la esquina superior izquierda hasta la esquina inferior derecha del cuadro de borde.
+Strikethrough de arriba a la izquierda a abajo a la derecha (el valor predeterminado es falso). Especifica el estado oculto o mostrado de una línea diagonal tachada desde la esquina superior izquierda hasta la esquina inferior derecha del cuadro de borde.
 
 ```csharp
 public bool StrikethroughTopLeftToBottomRight { get; set; }
@@ -25,10 +25,10 @@ MathBorderBox borderBox = new MathBorderBox(new MathematicalText("x"));
 borderBox.StrikethroughTopLeftToBottomRight = true;
 ```
 
-### Véase también
+### Véase También
 
-* clase [MathBorderBox](../../mathborderbox)
-* espacio de nombres [Aspose.Slides.MathText](../../mathborderbox)
-* ensamblado [Aspose.Slides](../../../)
+* class [MathBorderBox](../../mathborderbox)
+* namespace [Aspose.Slides.MathText](../../mathborderbox)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

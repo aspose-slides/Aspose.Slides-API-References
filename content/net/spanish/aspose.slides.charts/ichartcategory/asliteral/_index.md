@@ -1,7 +1,7 @@
 ---
 title: AsLiteral
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve o establece AsLiteral si UseCell es falso. Lectura/escritura Object.
+second_title: Referencia API de Aspose.Slides para .NET
+description: Devuelve o establece AsLiteral si UseCell es falso. Leer/escribir Objeto.
 type: docs
 weight: 20
 url: /es/aspose.slides.charts/ichartcategory/asliteral/
@@ -9,16 +9,16 @@ url: /es/aspose.slides.charts/ichartcategory/asliteral/
 
 ## Propiedad IChartCategory.AsLiteral
 
-Devuelve o establece AsLiteral si UseCell es falso. Lectura/escritura Object.
+Devuelve o establece AsLiteral si UseCell es falso. Leer/escribir Objeto.
 
 ```csharp
 public object AsLiteral { get; set; }
 ```
 
-### Vea también
+### Ver También
 
 * interfaz [IChartCategory](../../ichartcategory)
 * espacio de nombres [Aspose.Slides.Charts](../../ichartcategory)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

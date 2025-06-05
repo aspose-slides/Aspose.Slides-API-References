@@ -1,7 +1,7 @@
 ---
-title: 倒带
-second_title: Aspose.Sildes for .NET API 参考
-description: 此属性指定效果完成播放后是否将倒带。可读写布尔值。
+title: Rewind
+second_title: Aspose.Sildes for .NET API Reference
+description: 此属性指示效果在播放完成后是否会倒带。可读/写布尔值。
 type: docs
 weight: 100
 url: /zh/aspose.slides.animation/itiming/rewind/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/itiming/rewind/
 
 ## ITiming.Rewind 属性
 
-此属性指定效果完成播放后是否将倒带。可读写布尔值。
+此属性指示效果在播放完成后是否会倒带。可读/写布尔值。
 
 ```csharp
 public bool Rewind { get; set; }
@@ -20,18 +20,18 @@ public bool Rewind { get; set; }
 ```csharp
 using (Presentation presentation = new Presentation("demo.pptx"))
 {
-    // 获取第一个幻灯片的效果序列
+    // 获取第一张幻灯片的效果序列
     ISequence effectsSequence = presentation.Slides[0].Timeline.MainSequence;
 
     // 获取主序列的第一个效果。
     IEffect effect = effectsSequence[0];
 
-    // 打开效果 Timing/Rewind。
+    // 开启效果 Timing/Rewind。
     effect.Timing.Rewind = true;
 }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [ITiming](../../itiming)
 * 命名空间 [Aspose.Slides.Animation](../../itiming)

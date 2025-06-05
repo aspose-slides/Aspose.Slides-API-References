@@ -1,13 +1,13 @@
 ---
-title: Элемент
-second_title: Справка по API Aspose.Sildes для .NET
+title: Item
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает команду по указанному индексу.
 type: docs
 weight: 30
 url: /ru/aspose.slides.animation/imotionpath/item/
 ---
 
-## Индексатор IMotionPath
+## IMotionPath индексатор
 
 Возвращает команду по указанному индексу.
 
@@ -19,11 +19,11 @@ public IMotionCmdPath this[int index] { get; }
 | --- | --- |
 | index |  |
 
-### Возвращаемое Значение
+### Возвращаемое значение
 
 Команда по указанному индексу [`IMotionCmdPath`](../../imotioncmdpath)
 
-### См. Также
+### См. также
 
 * интерфейс [IMotionCmdPath](../../imotioncmdpath)
 * интерфейс [IMotionPath](../../imotionpath)

@@ -1,7 +1,7 @@
 ---
 title: TextAutofitType
-second_title: Aspose.Slides для справки по API .NET
-description: Представляет режим автоматической подгонки текста.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет режим автоподгонки текста.
 type: docs
 weight: 10610
 url: /ru/aspose.slides/textautofittype/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/textautofittype/
 
 ## Перечисление TextAutofitType
 
-Представляет режим автоматической подгонки текста.
+Представляет режим автоподгонки текста.
 
 ```csharp
 public enum TextAutofitType : sbyte
@@ -20,13 +20,13 @@ public enum TextAutofitType : sbyte
 | Имя | Значение | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` | Не определено. |
-| None | `0` | Без автоматической подгонки. |
-| Normal | `1` | Обычная автоматическая подгонка. Размер шрифта и межстрочное расстояние будут уменьшены, чтобы соответствовать форме. |
-| Shape | `2` | Автоматическая подгонка по форме. Размер формы изменится, чтобы соответствовать тексту. |
+| None | `0` | Без автоподгонки. |
+| Normal | `1` | Обычная автоподгонка. Размер шрифта и межстрочное расстояние будут уменьшены для соответствия форме. |
+| Shape | `2` | Автоподгонка формы. Размер формы будет изменен для соответствия тексту. |
 
-### Также см.
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 
-<!-- DO NOT EDIT: created by xmldocmd for Aspose.Slides.dll -->
+<!-- DO NOT EDIT: сгенерировано xmldocmd для Aspose.Slides.dll -->

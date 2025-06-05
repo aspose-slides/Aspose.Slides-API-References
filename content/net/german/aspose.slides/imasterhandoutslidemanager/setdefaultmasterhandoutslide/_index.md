@@ -1,15 +1,15 @@
 ---
 title: SetDefaultMasterHandoutSlide
-second_title: Aspose.Slides für .NET API-Referenz
-description: Setzt die Standard-Master-Handout-Folie auf die zugehörige Handout-Folie.
+second_title: Aspose.Slides für .NET API Referenz
+description: Setzt die Standard-Master-Handoutsfolie auf die zugehörige Handoutsfolie.
 type: docs
 weight: 30
 url: /de/aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide/
 ---
 
-## IMasterHandoutSlideManager.SetDefaultMasterHandoutSlide-Methode
+## IMasterHandoutSlideManager.SetDefaultMasterHandoutSlide Methode
 
-Setzt die Standard-Master-Handout-Folie auf die zugehörige Handout-Folie.
+Setzt die Standard-Master-Handoutsfolie auf die zugehörige Handoutsfolie.
 
 ```csharp
 public IMasterHandoutSlide SetDefaultMasterHandoutSlide()
@@ -17,9 +17,9 @@ public IMasterHandoutSlide SetDefaultMasterHandoutSlide()
 
 ### Rückgabewert
 
-Master-Handout-Folie [`IMasterHandoutSlide`](../../imasterhandoutslide)
+Master-Handoutsfolie [`IMasterHandoutSlide`](../../imasterhandoutslide)
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMasterHandoutSlide](../../imasterhandoutslide)
 * Schnittstelle [IMasterHandoutSlideManager](../../imasterhandoutslidemanager)

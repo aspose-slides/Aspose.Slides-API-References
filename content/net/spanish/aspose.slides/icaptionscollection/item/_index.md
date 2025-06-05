@@ -1,7 +1,7 @@
 ---
-title: Ítem
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Devuelve los subtítulos cerrados en el índice especificado. Solo lectura ICaptionsaspose.slides/icaptions.
+title: Item
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve los subtítulos en el índice especificado. Solo lectura ICaptionsaspose.slides/icaptions.
 type: docs
 weight: 20
 url: /es/aspose.slides/icaptionscollection/item/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/icaptionscollection/item/
 
 ## Indexador ICaptionsCollection
 
-Devuelve los subtítulos cerrados en el índice especificado. Solo lectura [`ICaptions`](../../icaptions).
+Devuelve los subtítulos en el índice especificado. Solo lectura [`ICaptions`](../../icaptions).
 
 ```csharp
 public ICaptions this[int index] { get; }

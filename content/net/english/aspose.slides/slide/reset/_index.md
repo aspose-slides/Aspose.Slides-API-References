@@ -3,9 +3,10 @@ title: Reset
 second_title: Aspose.Sildes for .NET API Reference
 description: Resets position size and formatting of every shape that has a prototype on LayoutSlide.
 type: docs
-weight: 130
+weight: 120
 url: /aspose.slides/slide/reset/
 ---
+
 ## Slide.Reset method
 
 Resets position, size and formatting of every shape that has a prototype on LayoutSlide.

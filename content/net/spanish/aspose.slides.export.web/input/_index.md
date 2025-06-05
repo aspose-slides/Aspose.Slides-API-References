@@ -1,6 +1,6 @@
 ---
-title: Entrada
-second_title: Referencia de la API de Aspose.Slides para .NET
+title: Input
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa una colección de plantillas de elementos de entrada.
 type: docs
 weight: 4440
@@ -21,7 +21,7 @@ public sealed class Input
 | --- | --- |
 | [AddTemplate&lt;TContextObject&gt;](../../aspose.slides.export.web/input/addtemplate)(string, string) |  |
 
-### Ver También
+### Vea También
 
 * namespace [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * assembly [Aspose.Slides](../../)

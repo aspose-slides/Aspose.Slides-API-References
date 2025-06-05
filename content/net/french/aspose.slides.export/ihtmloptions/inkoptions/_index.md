@@ -1,7 +1,7 @@
 ---
 title: InkOptions
 second_title: Référence API Aspose.Slides pour .NET
-description: Fournit des options qui contrôlent l'apparence des objets Ink dans le document exporté. Lecture seule IInkOptionsaspose.slides.export/iinkoptions
+description: Fournit des options qui contrôlent l'apparence des objets Ink dans le document exporté. Propriété en lecture seule IInkOptionsaspose.slides.export/iinkoptions
 type: docs
 weight: 50
 url: /fr/aspose.slides.export/ihtmloptions/inkoptions/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.export/ihtmloptions/inkoptions/
 
 ## Propriété IHtmlOptions.InkOptions
 
-Fournit des options qui contrôlent l'apparence des objets Ink dans le document exporté. Lecture seule [`IInkOptions`](../../iinkoptions)
+Fournit des options qui contrôlent l'apparence des objets Ink dans le document exporté. Propriété en lecture seule [`IInkOptions`](../../iinkoptions)
 
 ```csharp
 public IInkOptions InkOptions { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IInkOptions](../../iinkoptions)
 * interface [IHtmlOptions](../../ihtmloptions)

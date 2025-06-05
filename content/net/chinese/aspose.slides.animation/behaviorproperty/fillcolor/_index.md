@@ -1,6 +1,6 @@
 ---
-title: 填充颜色
-second_title: Aspose.Slides for .NET API 参考
+title: FillColor
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示填充颜色属性
 type: docs
 weight: 280
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/behaviorproperty/fillcolor/
 public static BehaviorProperty FillColor { get; }
 ```
 
-### 另见
+### 另请参见
 
 * 类 [BehaviorProperty](../../behaviorproperty)
 * 命名空间 [Aspose.Slides.Animation](../../behaviorproperty)

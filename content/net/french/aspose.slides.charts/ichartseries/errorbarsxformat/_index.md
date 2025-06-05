@@ -1,15 +1,15 @@
 ---
 title: ErrorBarsXFormat
 second_title: Référence API Aspose.Slides pour .NET
-description: Représente les ErrorBars des séries avec direction X. Les ErrorBars avec direction X sont disponibles pour les séries de type zone, barre, nuage de points et bulle. Pour tout autre type de graphique, cette propriété retourne null, y compris pour les graphiques 3D. En cas de valeurs personnalisées, utilisez la collection DataPoints pour spécifier la valeur avec la propriété ErrorBarsCustomValuesaspose.slides/ichartdatapoint/errorbarscustomvalues. Lecture seule IErrorBarsFormataspose.slides/ierrorbarsformat.
+description: Représente les ErrorBars des séries avec direction X. Les ErrorBars avec direction X sont disponibles pour les séries de type area, bar, scatter et bubble. Pour tout autre type de graphique, cette propriété retourne null, y compris les graphiques 3D. En cas de valeurs personnalisées, utilisez la collection DataPoints pour spécifier la valeur avec la propriété ErrorBarsCustomValuesaspose.slides.charts/ichartdatapoint/errorbarscustomvalues. Lecture seule IErrorBarsFormataspose.slides.charts/ierrorbarsformat.
 type: docs
 weight: 70
 url: /fr/aspose.slides.charts/ichartseries/errorbarsxformat/
 ---
 
-## Propriété IChartSeries.ErrorBarsXFormat
+## IChartSeries.ErrorBarsXFormat propriété
 
-Représente les ErrorBars des séries avec direction X. Les ErrorBars avec direction X sont disponibles pour les séries de type zone, barre, nuage de points et bulle. Pour tout autre type de graphique, cette propriété retourne null (y compris pour les graphiques 3D). En cas de valeurs personnalisées, utilisez la collection DataPoints pour spécifier la valeur (avec la propriété [`ErrorBarsCustomValues`](../../ichartdatapoint/errorbarscustomvalues)). Lecture seule [`IErrorBarsFormat`](../../ierrorbarsformat).
+Représente les ErrorBars des séries avec direction X. Les ErrorBars avec direction X sont disponibles pour les séries de type area, bar, scatter et bubble. Pour tout autre type de graphique, cette propriété retourne null (y compris les graphiques 3D). En cas de valeurs personnalisées, utilisez la collection DataPoints pour spécifier la valeur (avec la propriété [`ErrorBarsCustomValues`](../../ichartdatapoint/errorbarscustomvalues)). Lecture seule [`IErrorBarsFormat`](../../ierrorbarsformat).
 
 ```csharp
 public IErrorBarsFormat ErrorBarsXFormat { get; }

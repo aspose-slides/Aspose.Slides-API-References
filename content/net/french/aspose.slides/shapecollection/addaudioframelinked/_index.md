@@ -1,13 +1,13 @@
 ---
 title: AddAudioFrameLinked
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Ajoute un nouveau cadre audio avec un fichier audio lié à la fin d'une collection.
 type: docs
 weight: 80
 url: /fr/aspose.slides/shapecollection/addaudioframelinked/
 ---
 
-## Méthode ShapeCollection.AddAudioFrameLinked
+## ShapeCollection.AddAudioFrameLinked méthode
 
 Ajoute un nouveau cadre audio avec un fichier audio lié à la fin d'une collection.
 
@@ -17,11 +17,11 @@ public IAudioFrame AddAudioFrameLinked(float x, float y, float width, float heig
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| x | Simple | Coordonnée X d'un nouveau cadre audio. |
-| y | Simple | Coordonnée Y d'un nouveau cadre audio. |
-| width | Simple | Largeur d'un nouveau cadre audio. |
-| height | Simple | Hauteur d'un nouveau cadre audio. |
-| fname | Chaîne | Nom du fichier audio. |
+| x | Single | Coordonnée X d'un nouveau cadre audio. |
+| y | Single | Coordonnée Y d'un nouveau cadre audio. |
+| width | Single | Largeur d'un nouveau cadre audio. |
+| height | Single | Hauteur d'un nouveau cadre audio. |
+| fname | String | Nom du fichier audio. |
 
 ### Valeur de retour
 

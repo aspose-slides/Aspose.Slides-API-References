@@ -1,21 +1,21 @@
 ---
-title: AjusterLesPoignéesVerrouillées
+title: AdjustHandlesLocked
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si le changement des valeurs d'ajustement est interdit. Booléen en lecture/écriture.
+description: Détermine si un changement des valeurs d'ajustement est interdit. Lecture/écriture Boolean.
 type: docs
 weight: 10
 url: /fr/aspose.slides/iconnectorlock/adjusthandleslocked/
 ---
 
-## Propriété IConnectorLock.AdjustHandlesLocked
+## IConnectorLock.AdjustHandlesLocked property
 
-Détermine si le changement des valeurs d'ajustement est interdit. Booléen en lecture/écriture.
+Détermine si un changement des valeurs d'ajustement est interdit. Lecture/écriture Boolean.
 
 ```csharp
 public bool AdjustHandlesLocked { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IConnectorLock](../../iconnectorlock)
 * namespace [Aspose.Slides](../../iconnectorlock)

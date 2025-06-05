@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.animation/itiming/decelerate/
 ---
+
 ## ITiming.Decelerate property
 
 Describes the percentage of duration decelerate behavior effect. Read/write Single.

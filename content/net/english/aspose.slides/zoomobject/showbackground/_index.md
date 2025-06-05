@@ -3,9 +3,10 @@ title: ShowBackground
 second_title: Aspose.Sildes for .NET API Reference
 description: Gets or sets value that specifies whether the Zoom will use the background of the destination slide. Read/write Boolean. Default value true
 type: docs
-weight: 40
+weight: 30
 url: /aspose.slides/zoomobject/showbackground/
 ---
+
 ## ZoomObject.ShowBackground property
 
 Gets or sets value that specifies whether the Zoom will use the background of the destination slide. Read/write Boolean. Default value: true

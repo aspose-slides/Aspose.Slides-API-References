@@ -1,15 +1,15 @@
 ---
 title: IAccessiblePVIObjectT
 second_title: Aspose.Slides для .NET API Справочник
-description: Представляет тип, который может вернуть соответствующие эффективные данные с применением наследования.
+description: Представляет тип, который может возвращать соответствующие эффективные данные с примененным наследованием.
 type: docs
 weight: 4970
 url: /ru/aspose.slides/iaccessiblepviobject-1/
 ---
 
-## Интерфейс IAccessiblePVIObject&lt;T&gt;
+## IAccessiblePVIObject&lt;T&gt; интерфейс
 
-Представляет тип, который может вернуть соответствующие эффективные данные с применением наследования.
+Представляет тип, который может возвращать соответствующие эффективные данные с примененным наследованием.
 
 ```csharp
 public interface IAccessiblePVIObject<T>
@@ -24,9 +24,9 @@ public interface IAccessiblePVIObject<T>
 
 | Название | Описание |
 | --- | --- |
-| [GetEffective](../../aspose.slides/iaccessiblepviobject`1/geteffective)() | Получает эффективные данные с применением наследования. |
+| [GetEffective](../../aspose.slides/iaccessiblepviobject`1/geteffective)() | Получает эффективные данные с примененным наследованием. |
 
-### См. Такжe
+### Дополнительно
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

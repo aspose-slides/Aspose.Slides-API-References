@@ -1,6 +1,6 @@
 ---
-title: ОтключитьПредустановленныйЭффектТени
-second_title: Справочник по API Aspose.Slides для .NET
+title: DisablePresetShadowEffect
+second_title: Aspose.Slides для .NET API Справочник
 description: Отключает предустановленный эффект тени.
 type: docs
 weight: 160
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ieffectformat/disablepresetshadoweffect/
 public void DisablePresetShadowEffect()
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [IEffectFormat](../../ieffectformat)
 * пространство имен [Aspose.Slides](../../ieffectformat)

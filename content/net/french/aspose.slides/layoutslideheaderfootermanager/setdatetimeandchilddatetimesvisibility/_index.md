@@ -1,7 +1,7 @@
 ---
 title: SetDateTimeAndChildDateTimesVisibility
-second_title: Référence API Aspose.Slides pour .NET
-description: Change la visibilité du contour de la date-heure de la diapositive de mise en page et de tous les contours de date-heure enfants. Les contours enfants désignent les contours contenus dans des diapositives dépendantes. Les diapositives dépendantes utilisent et dépendent de la diapositive de mise en page.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Change la visibilité du champ date-heure de la diapositive de mise en page et de tous les champs date-heure enfants. Les champs enfants signifient que les champs sont contenus sur des diapositives dépendantes. Les diapositives dépendantes utilisent et dépendent de la diapositive de mise en page.
 type: docs
 weight: 20
 url: /fr/aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetim
 
 ## LayoutSlideHeaderFooterManager.SetDateTimeAndChildDateTimesVisibility méthode
 
-Change la visibilité du contour de la date-heure de la diapositive de mise en page et de tous les contours de date-heure enfants. Les contours enfants désignent les contours contenus dans des diapositives dépendantes. Les diapositives dépendantes utilisent et dépendent de la diapositive de mise en page.
+Change la visibilité du champ date-heure de la diapositive de mise en page et de tous les champs date-heure enfants. Les champs enfants signifient que les champs sont contenus sur des diapositives dépendantes. Les diapositives dépendantes utilisent et dépendent de la diapositive de mise en page.
 
 ```csharp
 public void SetDateTimeAndChildDateTimesVisibility(bool isVisible)
@@ -17,9 +17,9 @@ public void SetDateTimeAndChildDateTimesVisibility(bool isVisible)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| isVisible | Boolean | true - rend un contour de date-heure visible, sinon - les cache. |
+| isVisible | Boolean | true - rend les champs date-heure visibles, sinon - les cache. |
 
-### Voir Également
+### Voir aussi
 
 * classe [LayoutSlideHeaderFooterManager](../../layoutslideheaderfootermanager)
 * espace de noms [Aspose.Slides](../../layoutslideheaderfootermanager)

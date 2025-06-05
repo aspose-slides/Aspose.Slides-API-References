@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides/paragraphformat/geteffective/
 ---
+
 ## ParagraphFormat.GetEffective method
 
 Gets effective paragraph formatting data with the inheritance applied.

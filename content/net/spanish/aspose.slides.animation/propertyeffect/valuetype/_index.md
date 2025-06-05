@@ -1,6 +1,6 @@
 ---
 title: ValueType
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Especifica el tipo de un valor de propiedad. Propiedad de lectura/escritura PropertyValueTypeaspose.slides.animation/propertyvaluetype.
 type: docs
 weight: 70
@@ -15,7 +15,7 @@ Especifica el tipo de un valor de propiedad. Propiedad de lectura/escritura [`Pr
 public PropertyValueType ValueType { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * enum [PropertyValueType](../../propertyvaluetype)
 * class [PropertyEffect](../../propertyeffect)

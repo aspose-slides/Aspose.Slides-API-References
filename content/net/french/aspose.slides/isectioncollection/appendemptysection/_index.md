@@ -1,13 +1,13 @@
 ---
 title: AppendEmptySection
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Ajouter une section vide à la fin de la collection.
 type: docs
 weight: 40
 url: /fr/aspose.slides/isectioncollection/appendemptysection/
 ---
 
-## Méthode ISectionCollection.AppendEmptySection
+## ISectionCollection.AppendEmptySection méthode
 
 Ajouter une section vide à la fin de la collection.
 
@@ -19,11 +19,11 @@ public ISection AppendEmptySection(string name)
 | --- | --- | --- |
 | name | String | Nom de la section |
 
-### Valeur de retour 
+### Valeur de Retour
 
 Section ajoutée.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ISection](../../isection)
 * interface [ISectionCollection](../../isectioncollection)

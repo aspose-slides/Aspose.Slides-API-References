@@ -35,7 +35,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 }
 ```
 
-### Véase también
+### Véase También
 
 * clase [Effect](../../effect)
 * espacio de nombres [Aspose.Slides.Animation](../../effect)

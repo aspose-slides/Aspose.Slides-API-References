@@ -1,6 +1,6 @@
 ---
 title: PortionFactory
-second_title: Aspose.Sildes for .NET API参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 允许创建测试部分
 type: docs
 weight: 9210
@@ -26,12 +26,12 @@ public class PortionFactory : IPortionFactory
 | 名称 | 描述 |
 | --- | --- |
 | [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion)() | 创建一个空文本部分。 |
-| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_1)(IPortion) | 使用指定的部分数据创建一个部分。 |
-| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_2)(string) | 从指定字符串创建一个文本部分。 |
+| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_1)(IPortion) | 使用指定部分数据创建一个部分。 |
+| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_2)(string) | 从指定字符串创建文本部分。 |
 
 ### 备注
 
-为了与 COM 兼容
+为 COM 兼容性
 
 ### 另请参阅
 

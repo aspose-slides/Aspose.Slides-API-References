@@ -7,7 +7,7 @@ weight: 20
 url: /ru/aspose.slides.charts/ichartdataworkbook/calculateformulas/
 ---
 
-## Метод IChartDataWorkbook.CalculateFormulas
+## IChartDataWorkbook.CalculateFormulas метод
 
 Вычисляет все формулы в рабочей книге и обновляет соответствующие значения ячеек.
 
@@ -24,7 +24,7 @@ public void CalculateFormulas()
 
 ### Примеры
 
-Пример показывает, как назначить формулу ячейке и вычислить значение. Значение ячейки "B4" устанавливается равным 5.
+Пример показывает, как назначить формулу ячейке и вычислить значение. Значение ячейки "B4" устанавливается в 5.
 
 ```csharp
 [C#]
@@ -40,7 +40,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IChartDataWorkbook](../../ichartdataworkbook)
 * пространство имен [Aspose.Slides.Charts](../../ichartdataworkbook)

@@ -1,5 +1,5 @@
 ---
-title: Élément
+title: Item
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie la signature par index.
 type: docs
@@ -7,7 +7,7 @@ weight: 30
 url: /fr/aspose.slides/digitalsignaturecollection/item/
 ---
 
-## Indice de DigitalSignatureCollection
+## Indexeur DigitalSignatureCollection
 
 Renvoie la signature par index.
 

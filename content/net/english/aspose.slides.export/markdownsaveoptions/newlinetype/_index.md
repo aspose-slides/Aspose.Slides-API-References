@@ -3,12 +3,13 @@ title: NewLineType
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies whether the generated document should have new lines rMacintosh of nUnix or rnWindows. Default is Unix.
 type: docs
-weight: 60
+weight: 70
 url: /aspose.slides.export/markdownsaveoptions/newlinetype/
 ---
+
 ## MarkdownSaveOptions.NewLineType property
 
-Specifies whether the generated document should have new lines \r(Macintosh) of \n(Unix) or \r\n(Windows). Default is `Unix`.
+Specifies whether the generated document should have new lines \\r(Macintosh) of \\n(Unix) or \\r\\n(Windows). Default is `Unix`.
 
 ```csharp
 public NewLineType NewLineType { get; set; }

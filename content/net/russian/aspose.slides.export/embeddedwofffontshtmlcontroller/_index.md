@@ -1,7 +1,7 @@
 ---
 title: EmbeddedWoffFontsHtmlController
-second_title: Aspose.Slides для .NET API Справочник
-description: Класс контроллера форматирования для использования при встраивании шрифтов в формате WOFF
+second_title: Aspose.Sildes для .NET API Справочник
+description: Контроллер формата для использования при встраивании шрифтов в формате WOFF
 type: docs
 weight: 3620
 url: /ru/aspose.slides.export/embeddedwofffontshtmlcontroller/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export/embeddedwofffontshtmlcontroller/
 
 ## Класс EmbeddedWoffFontsHtmlController
 
-Класс контроллера форматирования для использования при встраивании шрифтов в формате WOFF
+Контроллер формата для использования при встраивании шрифтов в формате WOFF
 
 ```csharp
 public class EmbeddedWoffFontsHtmlController : IEmbeddedWoffFontsHtmlController
@@ -17,12 +17,12 @@ public class EmbeddedWoffFontsHtmlController : IEmbeddedWoffFontsHtmlController
 
 ## Конструкторы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller#constructor)() | Создает новый экземпляр. |
 | [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller#constructor_1)(IHtmlFormattingController) | Создает новый экземпляр. |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IEmbeddedWoffFontsHtmlController](../iembeddedwofffontshtmlcontroller)
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)

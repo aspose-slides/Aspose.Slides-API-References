@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/tab/compareto/
 ---
+
 ## Tab.CompareTo method
 
 Compares the current instance with another object of the same type.

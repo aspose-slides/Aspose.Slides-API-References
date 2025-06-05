@@ -1,15 +1,15 @@
 ---
-title: Enclure
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Enclut un élément mathématique dans des caractères spécifiés tels que des parenthèses ou d'autres caractères comme encadrement
+title: Enclose
+second_title: Aspose.Sildes pour .NET Référence API
+description: Enclot un élément mathématique dans des caractères spécifiés tels que des parenthèses ou d'autres caractères comme encadrement
 type: docs
 weight: 90
 url: /fr/aspose.slides.mathtext/mathdelimiter/enclose/
 ---
 
-## Méthode MathDelimiter.Enclose
+## MathDelimiter.Enclose méthode
 
-Enclut un élément mathématique dans des caractères spécifiés tels que des parenthèses ou d'autres caractères comme encadrement
+Enclot un élément mathématique dans des caractères spécifiés tels que des parenthèses ou d'autres caractères comme encadrement
 
 ```csharp
 public override IMathDelimiter Enclose(char beginningCharacter, char endingCharacter)
@@ -17,16 +17,16 @@ public override IMathDelimiter Enclose(char beginningCharacter, char endingChara
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| beginningCharacter | Char | Caractère de début (généralement parenthèse gauche) |
-| endingCharacter | Char | Caractère de fin (généralement parenthèse droite) |
+| beginningCharacter | Char | Caractère de début (généralement crochets gauche) |
+| endingCharacter | Char | Caractère de fin (généralement crochets droit) |
 
 ### Valeur de retour
 
-Si *beginningCharacter* et *endingCharacter* sont null, les propriétés correspondantes sont assignées uniquement des valeurs et aucun nouvel objet n'est créé (renvoie cette instance). Sinon, renvoie un nouvel élément mathématique de type Delimiter qui inclut les caractères spécifiés comme encadrement et cette instance de [`MathDelimiter`](../../mathdelimiter) encadrée à l'intérieur.
+Si *beginningCharacter* et *endingCharacter* sont null, les propriétés correspondantes se voient attribuer des valeurs uniquement et aucun nouvel objet n'est créé (retourne cette instance). Sinon, retourne un nouvel élément mathématique de type Delimiter qui inclut les caractères spécifiés comme encadrement et cette instance de [`MathDelimiter`](../../mathdelimiter) encadrée à l'intérieur.
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

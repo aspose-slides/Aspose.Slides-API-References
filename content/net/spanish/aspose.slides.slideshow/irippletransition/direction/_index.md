@@ -1,5 +1,5 @@
 ---
-title: Dirección
+title: Direction
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Dirección de la transición. Lectura/escritura TransitionCornerAndCenterDirectionTypeaspose.slides.slideshow/transitioncornerandcenterdirectiontype.
 type: docs
@@ -15,7 +15,7 @@ Dirección de la transición. Lectura/escritura [`TransitionCornerAndCenterDirec
 public TransitionCornerAndCenterDirectionType Direction { get; set; }
 ```
 
-### Véase También
+### Ver También
 
 * enum [TransitionCornerAndCenterDirectionType](../../transitioncornerandcenterdirectiontype)
 * interface [IRippleTransition](../../irippletransition)

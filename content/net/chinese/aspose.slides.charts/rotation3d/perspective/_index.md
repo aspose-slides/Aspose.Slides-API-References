@@ -1,7 +1,7 @@
 ---
-title: 透视
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置 3D 图表的透视值（视野角度），范围在 0 到 240 之间。如果 RightAngleAxes 属性值为 true，则被忽略。可读/可写 Byte。
+title: Perspective
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置3D图表的透视值（视场角），范围为0到240。如果RightAngleAxes属性值为true，则被忽略。可读/可写字节。
 type: docs
 weight: 30
 url: /zh/aspose.slides.charts/rotation3d/perspective/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/rotation3d/perspective/
 
 ## Rotation3D.Perspective 属性
 
-返回或设置 3D 图表的透视值（视野角度）（介于 0 和 240 之间）。如果 RightAngleAxes 属性值为 true，则被忽略。可读/可写 Byte。
+返回或设置3D图表的透视值（视场角），范围为0到240。如果RightAngleAxes属性值为true，则被忽略。可读/可写字节。
 
 ```csharp
 public byte Perspective { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * class [Rotation3D](../../rotation3d)
 * namespace [Aspose.Slides.Charts](../../rotation3d)

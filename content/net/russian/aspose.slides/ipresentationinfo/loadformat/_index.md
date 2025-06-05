@@ -1,21 +1,21 @@
 ---
 title: LoadFormat
-second_title: Aspose.Slides для .NET API Reference
-description: Получает формат связанной презентации. Свойство LoadFormat доступно только для чтения.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает формат связанной презентации. Только для чтения LoadFormataspose.slides/loadformat.
 type: docs
 weight: 40
 url: /ru/aspose.slides/ipresentationinfo/loadformat/
 ---
 
-## Свойство IPresentationInfo.LoadFormat
+## IPresentationInfo.LoadFormat свойство
 
-Получает формат связанной презентации. Свойство [`LoadFormat`](../../loadformat) доступно только для чтения.
+Получает формат связанной презентации. Только для чтения [`LoadFormat`](../../loadformat).
 
 ```csharp
 public LoadFormat LoadFormat { get; }
 ```
 
-### См. также
+### Также смотрите
 
 * enum [LoadFormat](../../loadformat)
 * interface [IPresentationInfo](../../ipresentationinfo)

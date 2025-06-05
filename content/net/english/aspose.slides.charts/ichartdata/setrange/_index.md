@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.charts/ichartdata/setrange/
 ---
+
 ## IChartData.SetRange method
 
 Set chart data range. Series and categories will be updated based on new data range. If amount of series in data range greater than count of series in the chart data then additional series with the same type as a last series in the current collection will be added to the end of the collection.

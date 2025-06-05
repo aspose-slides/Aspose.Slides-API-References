@@ -17,9 +17,9 @@ public IEnumerable AsIEnumerable { get; }
 
 ### 备注
 
-用于 COM 兼容性。
+为了兼容 COM。
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IAdjustValueCollection](../../iadjustvaluecollection)
 * 命名空间 [Aspose.Slides](../../iadjustvaluecollection)

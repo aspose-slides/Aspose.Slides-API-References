@@ -1,6 +1,6 @@
 ---
 title: IInkTrace
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Représente une ligne manuscrite dans un objet Ink.
 type: docs
 weight: 7310

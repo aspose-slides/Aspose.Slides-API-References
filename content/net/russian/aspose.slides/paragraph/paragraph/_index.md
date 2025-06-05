@@ -1,7 +1,7 @@
 ---
-title: Параграф
-second_title: Справочник API Aspose.Slides для .NET
-description: Инициализирует новый экземпляр класса Paragraph с параметрами по умолчанию.
+title: Paragraph
+second_title: Aspose.Sildes для .NET API Reference
+description: Инициализирует новый экземпляр класса Paragraph с умолчательными свойствами.
 type: docs
 weight: 10
 url: /ru/aspose.slides/paragraph/paragraph/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/paragraph/paragraph/
 
 ## Paragraph() {#constructor}
 
-Инициализирует новый экземпляр класса Paragraph с параметрами по умолчанию.
+Инициализирует новый экземпляр класса Paragraph с умолчательными свойствами.
 
 ```csharp
 public Paragraph()
 ```
 
-### См. также
+### См. Также
 
 * класс [Paragraph](../../paragraph)
 * пространство имен [Aspose.Slides](../../paragraph)
@@ -31,7 +31,7 @@ public Paragraph()
 public Paragraph(Paragraph para)
 ```
 
-### См. также
+### См. Также
 
 * класс [Paragraph](../../paragraph)
 * пространство имен [Aspose.Slides](../../paragraph)

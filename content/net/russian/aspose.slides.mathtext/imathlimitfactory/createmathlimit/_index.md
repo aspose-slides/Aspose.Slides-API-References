@@ -1,13 +1,13 @@
 ---
 title: CreateMathLimit
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Создает IMathLimit
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/imathlimitfactory/createmathlimit/
 ---
 
-## CreateMathLimit(IMathElement, IMathElement, bool) {#createmathlimit_1}
+## CreateMathLimit(IMathElement, IMathElement, bool) {#createmathlimit_1}
 
 Создает IMathLimit
 
@@ -17,15 +17,15 @@ public IMathLimit CreateMathLimit(IMathElement baseArg, IMathElement limit, bool
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| baseArg | IMathElement | Базовый аргумент для применения ограничения |
-| limit | IMathElement | Элемент ограничения |
-| upperLimit | Boolean | Устанавливает размещение ограничения сверху |
+| baseArg | IMathElement | Основной аргумент для применения предела |
+| limit | IMathElement | Элемент предела |
+| upperLimit | Boolean | Устанавливает размещение предела сверху |
 
-### Возвращаемое значение
+### Возврат Значения
 
-новое математическое ограничение
+новый математический предел
 
-### См. также
+### См. Также
 
 * интерфейс [IMathLimit](../../imathlimit)
 * интерфейс [IMathElement](../../imathelement)
@@ -35,9 +35,9 @@ public IMathLimit CreateMathLimit(IMathElement baseArg, IMathElement limit, bool
 
 ---
 
-## CreateMathLimit(IMathElement, IMathElement) {#createmathlimit}
+## CreateMathLimit(IMathElement, IMathElement) {#createmathlimit}
 
-Создает IMathLimit с ограничением снизу
+Создает IMathLimit с пределом снизу
 
 ```csharp
 public IMathLimit CreateMathLimit(IMathElement baseArg, IMathElement limit)
@@ -45,14 +45,14 @@ public IMathLimit CreateMathLimit(IMathElement baseArg, IMathElement limit)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| baseArg | IMathElement | Базовый аргумент для применения ограничения |
-| limit | IMathElement | Элемент ограничения |
+| baseArg | IMathElement | Основной аргумент для применения предела |
+| limit | IMathElement | Элемент предела |
 
-### Возвращаемое значение
+### Возврат Значения
 
-новое математическое ограничение
+новый математический предел
 
-### См. также
+### См. Также
 
 * интерфейс [IMathLimit](../../imathlimit)
 * интерфейс [IMathElement](../../imathelement)

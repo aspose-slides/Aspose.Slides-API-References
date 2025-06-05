@@ -32,7 +32,7 @@ collection.Insert(0, new MathRadical(new MathematicalText("x"), new Mathematical
 collection.RemoveAt(2);
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMathElementCollection](../../imathelementcollection)
 * Namespace [Aspose.Slides.MathText](../../imathelementcollection)

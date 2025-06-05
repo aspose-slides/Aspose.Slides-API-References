@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.vba/ivbareferenceoletypelib/asivbareference/
 ---
+
 ## IVbaReferenceOleTypeLib.AsIVbaReference property
 
 Returns IVbaReference interface. Read-only [`IVbaReference`](../../ivbareference).

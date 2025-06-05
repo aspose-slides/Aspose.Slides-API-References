@@ -1,6 +1,6 @@
 ---
 title: ITextFrame
-second_title: Aspose.Sildes для справки по API .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет TextFrame.
 type: docs
 weight: 7050
@@ -20,11 +20,11 @@ public interface ITextFrame : ISlideComponent
 | Имя | Описание |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | Позволяет получить базовый интерфейс ISlideComponent. Только для чтения [`ISlideComponent`](../islidecomponent). |
-| [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | Предоставляет простой доступ к содержащимся гиперссылкам. Только для чтения [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [Paragraphs](../../aspose.slides/itextframe/paragraphs) { get; } | Возвращает список всех абзацев в фрейме. Только для чтения [`IParagraphCollection`](../iparagraphcollection). |
+| [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | Предоставляет легкий доступ к содержащимся гиперссылкам. Только для чтения [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [Paragraphs](../../aspose.slides/itextframe/paragraphs) { get; } | Возвращает список всех абзацев в кадре. Только для чтения [`IParagraphCollection`](../iparagraphcollection). |
 | [ParentCell](../../aspose.slides/itextframe/parentcell) { get; } | Возвращает родительскую ячейку или null, если родительский объект не реализует интерфейс ICell. Только для чтения [`ICell`](../icell). |
-| [ParentShape](../../aspose.slides/itextframe/parentshape) { get; } | Возвращает родительскую фигуру или null, если родительский объект не реализует интерфейс IShape. Только для чтения [`IShape`](../ishape). |
-| [Text](../../aspose.slides/itextframe/text) { get; set; } | Получает или устанавливает обычный текст для TextFrame. Чтение/запись String. |
+| [ParentShape](../../aspose.slides/itextframe/parentshape) { get; } | Возвращает родительскую форму или null, если родительский объект не реализует интерфейс IShape. Только для чтения [`IShape`](../ishape). |
+| [Text](../../aspose.slides/itextframe/text) { get; set; } | Получает или задает обычный текст для TextFrame. Чтение/запись String. |
 | [TextFrameFormat](../../aspose.slides/itextframe/textframeformat) { get; } | Возвращает объект форматирования для этого объекта TextFrame. Только для чтения [`ITextFrameFormat`](../itextframeformat). |
 
 ## Методы
@@ -35,9 +35,9 @@ public interface ITextFrame : ISlideComponent
 | [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | Подсвечивает все совпадения образца текста указанным цветом. |
 | [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | Подсвечивает все совпадения образца текста указанным цветом. |
 | [JoinPortionsWithSameFormatting](../../aspose.slides/itextframe/joinportionswithsameformatting)() | Объединяет фрагменты с одинаковым форматированием во всех абзацах. |
-| [ReplaceRegex](../../aspose.slides/itextframe/replaceregex)(Regex, string, IFindResultCallback) | Заменяет все совпадения регулярного выражения на указанную строку. |
-| [ReplaceText](../../aspose.slides/itextframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Заменяет все вхождения указанного текста на другой указанный текст. |
-| [SplitTextByColumns](../../aspose.slides/itextframe/splittextbycolumns)() | Разделяет текстовое содержимое [`ITextFrame`](../itextframe) на массив строк, где каждый элемент соответствует отдельной текстовой колонке внутри фрейма. |
+| [ReplaceRegex](../../aspose.slides/itextframe/replaceregex)(Regex, string, IFindResultCallback) | Заменяет все совпадения регулярного выражения указанной строкой. |
+| [ReplaceText](../../aspose.slides/itextframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Заменяет все вхождения указанного текста другим указанным текстом. |
+| [SplitTextByColumns](../../aspose.slides/itextframe/splittextbycolumns)() | Делит текстовое содержимое [`ITextFrame`](../itextframe) на массив строк, где каждый элемент соответствует отдельному текстовому столбцу внутри кадра. |
 
 ### См. также
 

@@ -1,13 +1,13 @@
 ---
 title: MathPortion
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Initialisiert eine neue Instanz der MathPortion-Klasse.
 type: docs
 weight: 10
 url: /de/aspose.slides.mathtext/mathportion/mathportion/
 ---
 
-## MathPortion Konstruktor
+## MathPortion-Konstruktor
 
 Initialisiert eine neue Instanz der MathPortion-Klasse.
 

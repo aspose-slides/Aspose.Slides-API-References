@@ -3,9 +3,10 @@ title: IPieSplitCustomPointCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of points that shall be drawn in the second pie or bar on a bar-of-pie or pie-of-pie chart with a custom split.
 type: docs
-weight: 2080
+weight: 2110
 url: /aspose.slides.charts/ipiesplitcustompointcollection/
 ---
+
 ## IPieSplitCustomPointCollection interface
 
 Represents a collection of points that shall be drawn in the second pie or bar on a bar-of-pie or pie-of-pie chart with a custom split.

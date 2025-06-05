@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/luminance/geteffective/
 ---
+
 ## Luminance.GetEffective method
 
 Gets effective Luminance effect data with the inheritance applied.

@@ -3,9 +3,10 @@ title: TextStyle
 second_title: Aspose.Sildes for .NET API Reference
 description: This class contains the text style formatting properties.
 type: docs
-weight: 10350
+weight: 10690
 url: /aspose.slides/textstyle/
 ---
+
 ## TextStyle class
 
 This class contains the text style formatting properties.

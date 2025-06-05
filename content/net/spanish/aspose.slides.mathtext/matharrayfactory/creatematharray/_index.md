@@ -1,6 +1,6 @@
 ---
 title: CreateMathArray
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para referencia de API de .NET
 description: Crea un arreglo matemático y coloca el elemento especificado en él
 type: docs
 weight: 20
@@ -19,11 +19,11 @@ public IMathArray CreateMathArray(IMathElement element)
 | --- | --- | --- |
 | element | IMathElement | elemento matemático para colocar en el arreglo |
 
-### Valor de retorno
+### Valor de Retorno
 
 nuevo arreglo matemático
 
-### Vea también
+### Véase También
 
 * interface [IMathArray](../../imatharray)
 * interface [IMathElement](../../imathelement)
@@ -35,7 +35,7 @@ nuevo arreglo matemático
 
 ## CreateMathArray(IMathElementCollection) {#creatematharray_1}
 
-Crea un arreglo matemático y coloca los elementos especificados en él
+Crea un arreglo matemático y coloca elementos especificados en él
 
 ```csharp
 public IMathArray CreateMathArray(IMathElementCollection elements)
@@ -45,11 +45,11 @@ public IMathArray CreateMathArray(IMathElementCollection elements)
 | --- | --- | --- |
 | elements | IMathElementCollection | elementos matemáticos para colocar en el arreglo |
 
-### Valor de retorno
+### Valor de Retorno
 
 nuevo arreglo matemático
 
-### Vea también
+### Véase También
 
 * interface [IMathArray](../../imatharray)
 * interface [IMathElementCollection](../../imathelementcollection)

@@ -1,6 +1,6 @@
 ---
 title: ToColor
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Slides для .NET API Reference
 description: Цвет, который будет заменен. Только для чтения Цвет.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.effects/icolorchangeeffectivedata/tocolor/
 public Color ToColor { get; }
 ```
 
-### Также смотри
+### См. также
 
 * интерфейс [IColorChangeEffectiveData](../../icolorchangeeffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../icolorchangeeffectivedata)

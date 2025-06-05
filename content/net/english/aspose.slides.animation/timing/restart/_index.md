@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.animation/timing/restart/
 ---
+
 ## Timing.Restart property
 
 Specifies if a effect is to restart after complete. Read/write [`EffectRestartType`](../../effectrestarttype).

@@ -1,21 +1,21 @@
 ---
 title: SchemeColor
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die durch ein Farbschema identifizierte Farbe zurück oder setzt sie. Lesen/Schreiben von SchemeColoraspose.slides/schemecolor.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Farbe zurück oder setzt sie, die durch ein Farbschema identifiziert wird. Lese-/Schreibzugriff auf SchemeColoraspose.slides/schemecolor.
 type: docs
 weight: 140
 url: /de/aspose.slides/colorformat/schemecolor/
 ---
 
-## ColorFormat.SchemeColor-Eigenschaft
+## ColorFormat.SchemeColor Eigenschaft
 
-Gibt die durch ein Farbschema identifizierte Farbe zurück oder setzt sie. Lesen/ Schreiben von [`SchemeColor`](../../schemecolor).
+Gibt die Farbe zurück oder setzt sie, die durch ein Farbschema identifiziert wird. Lese-/Schreibzugriff auf [`SchemeColor`](../../schemecolor).
 
 ```csharp
 public SchemeColor SchemeColor { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [SchemeColor](../../schemecolor)
 * class [ColorFormat](../../colorformat)

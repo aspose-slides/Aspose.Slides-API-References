@@ -1,29 +1,29 @@
----  
-title: ControlType  
-second_title: Referencia de API de Aspose.Slides para .NET  
+---
+title: ControlType
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Define un tipo de control que debe ser incrustado por AddControl./icontrolcollection/addcontrol.
-type: docs  
-weight: 2630  
+type: docs
+weight: 2630
 url: /es/aspose.slides/controltype/
----  
+---
 
-## Enumeración ControlType  
+## Enumeración ControlType
 
-Define un tipo de control que debe ser incrustado por [`AddControl`](../icontrolcollection/addcontrol).  
+Define un tipo de control que debe ser incrustado por [`AddControl`](../icontrolcollection/addcontrol).
 
-```csharp  
-public enum ControlType  
-```  
+```csharp
+public enum ControlType
+```
 
-### Valores  
+### Valores
 
-| Nombre | Valor | Descripción |  
-| --- | --- | --- |  
-| WindowsMediaPlayer | `0` | Control de Windows Media Player. |  
+| Nombre | Valor | Descripción |
+| --- | --- | --- |
+| WindowsMediaPlayer | `0` | Control de Windows Media Player. |
 
-### Ver también  
+### Véase también
 
-* namespace [Aspose.Slides](../../aspose.slides)  
-* assembly [Aspose.Slides](../../)  
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
-<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->  
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

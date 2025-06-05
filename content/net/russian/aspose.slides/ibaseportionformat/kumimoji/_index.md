@@ -1,15 +1,15 @@
 ---
-title: Кумимо́жи
-second_title: Справочник API Aspose.Slides для .NET
-description: Определяет, следует ли игнорировать текстовую компоновку вертикального текста, специфичную для восточных языков. Наследование не применяется. Чтение/запись NullableBoolaspose.slides/nullablebool.
+title: Kumimoji
+second_title: Aspose.Sildes для .NET Справочник по API
+description: Определяет, следует ли игнорировать числа текстовую компоновку вертикального текста для восточных языков. Наследование не применяется. Чтение/запись NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 150
 url: /ru/aspose.slides/ibaseportionformat/kumimoji/
 ---
 
-## Свойство IBasePortionFormat.Kumimoji
+## IBasePortionFormat.Kumimoji свойство
 
-Определяет, следует ли игнорировать текстовую компоновку вертикального текста, специфичную для восточных языков. Наследование не применяется. Чтение/запись [`NullableBool`](../../nullablebool).
+Определяет, следует ли игнорировать числа текстовую компоновку вертикального текста для восточных языков. Наследование не применяется. Чтение/запись [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool Kumimoji { get; set; }

@@ -1,24 +1,24 @@
 ---
-title: Radio
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Especifica el radio de desenfoque que se aplicará a los bordes. Lectura/escritura Double.
+title: Radius
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Especifica el radio de desenfoque a aplicar a los bordes. Lectura/escritura Double.
 type: docs
 weight: 10
 url: /es/aspose.slides.effects/softedge/radius/
 ---
 
-## Propiedad SoftEdge.Radius
+## SoftEdge.Radius property
 
-Especifica el radio de desenfoque que se aplicará a los bordes. Lectura/escritura Double.
+Especifica el radio de desenfoque a aplicar a los bordes. Lectura/escritura Double.
 
 ```csharp
 public double Radius { get; set; }
 ```
 
-### Ver También
+### Ver también
 
-* clase [SoftEdge](../../softedge)
-* espacio de nombres [Aspose.Slides.Effects](../../softedge)
-* ensamblaje [Aspose.Slides](../../../)
+* class [SoftEdge](../../softedge)
+* namespace [Aspose.Slides.Effects](../../softedge)
+* assembly [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->

@@ -6,6 +6,7 @@ type: docs
 weight: 370
 url: /aspose.slides.animation/behaviorproperty/fillopacity/
 ---
+
 ## BehaviorProperty.FillOpacity property
 
 Represents 'fill.opacity' property

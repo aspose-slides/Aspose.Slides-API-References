@@ -1,7 +1,7 @@
 ---
 title: IAlphaFloorEffectiveData
-second_title: Aspose.Slides для .NET API Справочник
-description: Неизменяемый объект, представляющий эффект Alpha Floor. Значения альфа-прозрачности менее 100 изменяются на ноль. Иными словами, все, что частично прозрачно, становится полностью прозрачным.
+second_title: Aspose.Slides для .NET API Reference
+description: Непривязанный объект, который представляет эффект Alpha Floor. Значения альфа-прозрачности меньше 100 изменяются на ноль. Другими словами, все, что частично прозрачно, становится полностью прозрачным.
 type: docs
 weight: 2970
 url: /ru/aspose.slides.effects/ialphaflooreffectivedata/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/ialphaflooreffectivedata/
 
 ## Интерфейс IAlphaFloorEffectiveData
 
-Неизменяемый объект, представляющий эффект Alpha Floor. Альфа (прозрачность) значений менее 100% изменяется на ноль. Иными словами, все, что частично прозрачно, становится полностью прозрачным.
+Непривязанный объект, который представляет эффект Alpha Floor. Значения альфа-прозрачности (прозрачности) меньше 100% изменяются на ноль. Другими словами, все, что частично прозрачно, становится полностью прозрачным.
 
 ```csharp
 public interface IAlphaFloorEffectiveData : IEffectEffectiveData
@@ -21,7 +21,7 @@ public interface IAlphaFloorEffectiveData : IEffectEffectiveData
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaflooreffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IEffectEffectiveData](../ieffecteffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)

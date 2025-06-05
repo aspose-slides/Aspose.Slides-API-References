@@ -1,6 +1,6 @@
 ---
-title: Präsentation
-second_title: Aspose.Slides für .NET API-Referenz
+title: Presentation
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt das IPresentation-Interface zurück. Nur-Lese IPresentationaspose.slides/ipresentation.
 type: docs
 weight: 60
@@ -15,7 +15,7 @@ Gibt das IPresentation-Interface zurück. Nur-Lese [`IPresentation`](../../ipres
 public IPresentation Presentation { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Interface [IPresentation](../../ipresentation)
 * Klasse [BaseSlide](../../baseslide)

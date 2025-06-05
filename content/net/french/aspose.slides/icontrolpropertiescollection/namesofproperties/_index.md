@@ -1,13 +1,13 @@
 ---
-title: NomsDesPropriétés
-second_title: Référence API Aspose.Slides pour .NET
+title: NamesOfProperties
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie un certain nombre de propriétés dans la collection. ICollection en lecture seule.
 type: docs
 weight: 40
 url: /fr/aspose.slides/icontrolpropertiescollection/namesofproperties/
 ---
 
-## Propriété IControlPropertiesCollection.NamesOfProperties
+## IControlPropertiesCollection.NamesOfProperties propriété
 
 Renvoie un certain nombre de propriétés dans la collection. ICollection en lecture seule.
 
@@ -15,7 +15,7 @@ Renvoie un certain nombre de propriétés dans la collection. ICollection en lec
 public ICollection NamesOfProperties { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IControlPropertiesCollection](../../icontrolpropertiescollection)
 * namespace [Aspose.Slides](../../icontrolpropertiescollection)

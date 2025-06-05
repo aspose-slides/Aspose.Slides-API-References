@@ -6,6 +6,7 @@ type: docs
 weight: 220
 url: /aspose.slides/baseportionformat/strikethroughtype/
 ---
+
 ## BasePortionFormat.StrikethroughType property
 
 Returns or sets the strikethrough type of a text. No inheritance applied. Read/write [`TextStrikethroughType`](../../textstrikethroughtype).

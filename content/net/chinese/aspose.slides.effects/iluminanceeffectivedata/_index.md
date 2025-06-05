@@ -1,7 +1,7 @@
 ---
 title: ILuminanceEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
-description: 代表亮度效果。亮度线性地将所有颜色向白色或黑色靠近。对比度将所有颜色缩放，使其更接近或更远离。
+description: 表示亮度效果。亮度线性地将所有颜色向白色或黑色靠拢。对比度使所有颜色更接近或更远离。
 type: docs
 weight: 3330
 url: /zh/aspose.slides.effects/iluminanceeffectivedata/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/iluminanceeffectivedata/
 
 ## ILuminanceEffectiveData 接口
 
-代表亮度效果。亮度线性地将所有颜色向白色或黑色靠近。对比度将所有颜色缩放，使其更接近或更远离。
+表示亮度效果。亮度线性地将所有颜色向白色或黑色靠拢。对比度使所有颜色更接近或更远离。
 
 ```csharp
 public interface ILuminanceEffectiveData : IEffectEffectiveData
@@ -19,7 +19,7 @@ public interface ILuminanceEffectiveData : IEffectEffectiveData
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | 允许获取基础 IEffectEffectiveData 接口。只读 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | 允许获取基本的 IEffectEffectiveData 接口。只读 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
 | [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | 亮度。只读单精度浮点数。 |
 | [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | 对比度。只读单精度浮点数。 |
 

@@ -1,6 +1,6 @@
 ---
 title: GetLinesCount
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для справки по API .NET
 description: Получить количество строк в абзаце.
 type: docs
 weight: 60
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/iparagraph/getlinescount/
 public int GetLinesCount()
 ```
 
-### Значение возвращаемое
+### Возвращаемое значение
 
 Количество строк в абзаце
 

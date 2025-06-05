@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.smartart/ismartartnodecollection/item/
 ---
+
 ## ISmartArtNodeCollection indexer
 
 Returns node by index. Read-only [`ISmartArtNode`](../../ismartartnode)

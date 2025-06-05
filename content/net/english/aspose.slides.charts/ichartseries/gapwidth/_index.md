@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides.charts/ichartseries/gapwidth/
 ---
+
 ## IChartSeries.GapWidth property
 
 Specifies the space between bar or column clusters, as a percentage of the bar or column width. This is the property not only of this series but of all series of parent series group - this is projection of appropriate group property. And so this property is read-only. Use ParentSeriesGroup property for access to parent series group. Use ParentSeriesGroup.GapWidth read/write property for change value. Read-only Int32.

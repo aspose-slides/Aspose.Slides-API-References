@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/documentproperties/category/
 ---
+
 ## DocumentProperties.Category property
 
 Returns or sets the category of a presentation. Read/write String.

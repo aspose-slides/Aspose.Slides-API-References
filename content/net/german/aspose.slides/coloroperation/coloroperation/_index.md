@@ -1,7 +1,7 @@
 ---
 title: ColorOperation
 second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt eine neue Farbtransformationsoperation.
+description: Erstellt eine neue Farbtransformation.
 type: docs
 weight: 10
 url: /de/aspose.slides/coloroperation/coloroperation/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/coloroperation/coloroperation/
 
 ## ColorOperation(ColorTransformOperation) {#constructor}
 
-Erstellt eine neue Farbtransformationsoperation.
+Erstellt eine neue Farbtransformation.
 
 ```csharp
 public ColorOperation(ColorTransformOperation op)
@@ -17,9 +17,9 @@ public ColorOperation(ColorTransformOperation op)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| op | ColorTransformOperation | Operationstyp. |
+| op | ColorTransformOperation | Art der Operation. |
 
-### Siehe auch
+### Siehe Auch
 
 * enum [ColorTransformOperation](../../colortransformoperation)
 * class [ColorOperation](../../coloroperation)
@@ -30,7 +30,7 @@ public ColorOperation(ColorTransformOperation op)
 
 ## ColorOperation(ColorTransformOperation, float) {#constructor_1}
 
-Erstellt eine neue Farbtransformationsoperation.
+Erstellt eine neue Farbtransformation.
 
 ```csharp
 public ColorOperation(ColorTransformOperation op, float parameter)
@@ -38,10 +38,10 @@ public ColorOperation(ColorTransformOperation op, float parameter)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| op | ColorTransformOperation | Operationstyp. |
-| parameter | Single | Operationsparameter. |
+| op | ColorTransformOperation | Art der Operation. |
+| parameter | Single | Parameter der Operation. |
 
-### Siehe auch
+### Siehe Auch
 
 * enum [ColorTransformOperation](../../colortransformoperation)
 * class [ColorOperation](../../coloroperation)

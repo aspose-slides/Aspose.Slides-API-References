@@ -1,6 +1,6 @@
 ---
 title: AddFromPdf
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes for .NET API Reference
 description: Crea diapositivas a partir del documento PDF y las agrega al final de la colección.
 type: docs
 weight: 80
@@ -36,7 +36,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Véase También
+### Ver También
 
 * interface [ISlide](../../islide)
 * class [SlideCollection](../../slidecollection)
@@ -70,12 +70,12 @@ Ejemplo:
 [C#]
 using (Presentation pres = new Presentation())
 {
-    pres.Slides.AddFromPdf("document.pdf", new PdfImportOptions { DetectTables = true });
+    pres.Slides.AddFromPdf("document.pdf, new PdfImportOptions { DetectTables = true });
     pres.Save("fromPdfDocument.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Véase También
+### Ver También
 
 * interface [ISlide](../../islide)
 * class [PdfImportOptions](../../../aspose.slides.import/pdfimportoptions)
@@ -95,7 +95,7 @@ public ISlide[] AddFromPdf(Stream pdfStream)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| pdfStream | Stream | Un flujo que se utilizará como fuente del documento PDF |
+| pdfStream | Stream | Un stream que se utilizará como fuente del documento PDF |
 
 ### Valor de Retorno
 
@@ -118,7 +118,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Véase También
+### Ver También
 
 * interface [ISlide](../../islide)
 * class [SlideCollection](../../slidecollection)
@@ -137,7 +137,7 @@ public ISlide[] AddFromPdf(Stream pdfStream, PdfImportOptions pdfImportOptions)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| pdfStream | Stream | Un flujo que se utilizará como fuente del documento PDF |
+| pdfStream | Stream | Un stream que se utilizará como fuente del documento PDF |
 | pdfImportOptions | PdfImportOptions | Opciones para la importación de PDF |
 
 ### Valor de Retorno
@@ -161,7 +161,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Véase También
+### Ver También
 
 * interface [ISlide](../../islide)
 * class [PdfImportOptions](../../../aspose.slides.import/pdfimportoptions)

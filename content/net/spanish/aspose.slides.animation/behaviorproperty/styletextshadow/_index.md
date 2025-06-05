@@ -1,13 +1,13 @@
 ---
 title: StyleTextShadow
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Representa la propiedad style.textShadow
 type: docs
 weight: 1170
 url: /es/aspose.slides.animation/behaviorproperty/styletextshadow/
 ---
 
-## Propiedad BehaviorProperty.StyleTextShadow
+## BehaviorProperty.StyleTextShadow propiedad
 
 Representa la propiedad 'style.textShadow'
 
@@ -15,10 +15,10 @@ Representa la propiedad 'style.textShadow'
 public static BehaviorProperty StyleTextShadow { get; }
 ```
 
-### Ver También
+### Ver también
 
-* class [BehaviorProperty](../../behaviorproperty)
-* namespace [Aspose.Slides.Animation](../../behaviorproperty)
-* assembly [Aspose.Slides](../../../)
+* clase [BehaviorProperty](../../behaviorproperty)
+* espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

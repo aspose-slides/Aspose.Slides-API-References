@@ -1,21 +1,21 @@
 ---
-title: Masquer
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit le drapeau de masquage de l'entrée de légende. Lecture/écriture Booléen.
+title: Hide
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie ou définit le drapeau de masquage de l'entrée de légende. Booléen lisible/écrivable.
 type: docs
 weight: 20
 url: /fr/aspose.slides.charts/ilegendentryproperties/hide/
 ---
 
-## Propriété ILegendEntryProperties.Hide
+## ILegendEntryProperties.Hide property
 
-Renvoie ou définit le drapeau de masquage de l'entrée de légende. Lecture/écriture Booléen.
+Renvoie ou définit le drapeau de masquage de l'entrée de légende. Booléen lisible/écrivable.
 
 ```csharp
 public bool Hide { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ILegendEntryProperties](../../ilegendentryproperties)
 * namespace [Aspose.Slides.Charts](../../ilegendentryproperties)

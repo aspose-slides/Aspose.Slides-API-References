@@ -1,7 +1,7 @@
 ---
-title: 字体
-second_title: Aspose.Slides for .NET API参考
-description: 返回或设置一个没有继承的段落的项目符号字体。可读/可写 IFontData。
+title: Font
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置一个段落的项目符号字体，无继承。可读写 IFontDataaspose.slides/ifontdata。
 type: docs
 weight: 30
 url: /zh/aspose.slides/bulletformat/font/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/bulletformat/font/
 
 ## BulletFormat.Font 属性
 
-返回或设置一个没有继承的段落的项目符号字体。可读/可写 [`IFontData`](../../ifontdata)。
+返回或设置一个段落的项目符号字体，无继承。可读写 [`IFontData`](../../ifontdata)。
 
 ```csharp
 public IFontData Font { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IFontData](../../ifontdata)
 * 类 [BulletFormat](../../bulletformat)

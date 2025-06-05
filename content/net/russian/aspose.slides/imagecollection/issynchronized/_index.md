@@ -1,7 +1,7 @@
 ---
 title: IsSynchronized
-second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает значение, указывающее, безопасен ли доступ к коллекции для потоков. Только для чтения Boolean.
+second_title: Aspose.Slides для .NET API Справка
+description: Возвращает значение, указывающее, синхронизирован ли доступ к коллекции потоко-безопасный. Только для чтения булево.
 type: docs
 weight: 20
 url: /ru/aspose.slides/imagecollection/issynchronized/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/imagecollection/issynchronized/
 
 ## ImageCollection.IsSynchronized свойство
 
-Возвращает значение, указывающее, безопасен ли доступ к коллекции (потокобезопасный). Только для чтения Boolean.
+Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потоко-безопасный). Только для чтения булево.
 
 ```csharp
 public bool IsSynchronized { get; }

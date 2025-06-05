@@ -1,15 +1,15 @@
 ---
 title: SetFooterAndChildFootersText
 second_title: Référence API Aspose.Slides pour .NET
-description: Définit le texte du placeholder de pied de page de la diapositive maître et de tous les placeholders de pied de page enfant. Les placeholders enfants signifient que les placeholders sont contenus sur des diapositives et des mises en page dépendantes. Les diapositives et les mises en page dépendantes utilisent et dépendent de la diapositive maître.
+description: Définit le texte pour le champ de pied de page de la diapositive maître et tous les champs de pied de page enfants. Les champs enfants signifient que les champs sont contenus dans des diapositives de mise en page dépendantes et des diapositives dépendantes. Les diapositives de mise en page dépendantes et les diapositives utilisent et dépendent de la diapositive maître.
 type: docs
 weight: 30
 url: /fr/aspose.slides/masterslideheaderfootermanager/setfooterandchildfooterstext/
 ---
 
-## Méthode MasterSlideHeaderFooterManager.SetFooterAndChildFootersText
+## MasterSlideHeaderFooterManager.SetFooterAndChildFootersText method
 
-Définit le texte du placeholder de pied de page de la diapositive maître et de tous les placeholders de pied de page enfant. Les placeholders enfants signifient que les placeholders sont contenus sur des diapositives et des mises en page dépendantes. Les diapositives et les mises en page dépendantes utilisent et dépendent de la diapositive maître.
+Définit le texte pour le champ de pied de page de la diapositive maître et tous les champs de pied de page enfants. Les champs enfants signifient que les champs sont contenus dans des diapositives de mise en page dépendantes et des diapositives dépendantes. Les diapositives de mise en page dépendantes et les diapositives utilisent et dépendent de la diapositive maître.
 
 ```csharp
 public void SetFooterAndChildFootersText(string text)

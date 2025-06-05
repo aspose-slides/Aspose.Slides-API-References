@@ -6,17 +6,18 @@ type: docs
 weight: 20
 url: /aspose.slides/iimagecollection/addimage/
 ---
-## AddImage(Image) {#addimage_3}
+
+## AddImage(IImage) {#addimage}
 
 Add an image to a presentation.
 
 ```csharp
-public IPPImage AddImage(Image image)
+public IPPImage AddImage(IImage image)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| image | Image | Image to add. |
+| image | IImage | Image to add. |
 
 ### Return Value
 
@@ -29,13 +30,14 @@ This method converts WMF/EMF metafiles to raster PNG image before inserting to a
 ### See Also
 
 * interface [IPPImage](../../ippimage)
+* interface [IImage](../../iimage)
 * interface [IImageCollection](../../iimagecollection)
 * namespace [Aspose.Slides](../../iimagecollection)
 * assembly [Aspose.Slides](../../../)
 
 ---
 
-## AddImage(MemoryStream) {#addimage_4}
+## AddImage(MemoryStream) {#addimage_5}
 
 Adds image from a memory stream.
 
@@ -60,7 +62,7 @@ Added image.
 
 ---
 
-## AddImage(Stream) {#addimage_5}
+## AddImage(Stream) {#addimage_6}
 
 Add an image to a presentation from stream.
 
@@ -89,7 +91,7 @@ This method can add WMF/EMF metafiles to a presentation without converting them 
 
 ---
 
-## AddImage(Stream, LoadingStreamBehavior) {#addimage_6}
+## AddImage(Stream, LoadingStreamBehavior) {#addimage_7}
 
 Creates and adds an image to a presentation from stream.
 
@@ -116,7 +118,7 @@ Added [`IPPImage`](../../ippimage).
 
 ---
 
-## AddImage(byte[]) {#addimage_2}
+## AddImage(byte[]) {#addimage_3}
 
 Adds an image to a presentation from specified buffer.
 
@@ -141,7 +143,7 @@ Added image.
 
 ---
 
-## AddImage(IPPImage) {#addimage}
+## AddImage(IPPImage) {#addimage_1}
 
 Adds a copy of an image from an another presentation.
 
@@ -166,7 +168,7 @@ Added image.
 
 ---
 
-## AddImage(ISvgImage) {#addimage_1}
+## AddImage(ISvgImage) {#addimage_2}
 
 Add an image to a presentation from SVG object.
 

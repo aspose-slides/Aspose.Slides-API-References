@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/streamwrapper/close/
 ---
+
 ## StreamWrapper.Close method
 
 Closes the current stream and releases any resources.

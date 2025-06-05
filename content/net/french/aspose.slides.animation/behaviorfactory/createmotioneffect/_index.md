@@ -1,13 +1,13 @@
 ---
 title: CreateMotionEffect
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Crée un effet de mouvement.
 type: docs
 weight: 50
 url: /fr/aspose.slides.animation/behaviorfactory/createmotioneffect/
 ---
 
-## Méthode BehaviorFactory.CreateMotionEffect
+## BehaviorFactory.CreateMotionEffect méthode
 
 Crée un effet de mouvement.
 

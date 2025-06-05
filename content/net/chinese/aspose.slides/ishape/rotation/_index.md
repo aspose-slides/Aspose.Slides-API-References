@@ -1,6 +1,6 @@
 ---
-title: 旋转
-second_title: Aspose.Slides for .NET API 参考
+title: Rotation
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回或设置指定形状围绕 z 轴旋转的度数。正值表示顺时针旋转，负值表示逆时针旋转。可读/可写 Single。
 type: docs
 weight: 220
@@ -17,9 +17,9 @@ public float Rotation { get; set; }
 
 ### 备注
 
-返回的值始终是确定的（不是 float.NaN）。赋值必须是确定的（不是 float.NaN）。您可以为 RawFrame 实例属性设置未定义值。
+返回的值始终是定义的（不是 float.NaN）。赋值必须是定义的（不是 float.NaN）。您可以为 RawFrame 实例属性设置未定义的值。
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IShape](../../ishape)
 * 命名空间 [Aspose.Slides](../../ishape)

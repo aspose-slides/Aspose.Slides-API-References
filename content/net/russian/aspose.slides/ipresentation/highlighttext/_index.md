@@ -1,15 +1,15 @@
 ---
 title: HighlightText
-second_title: Aspose.Sildes для .NET API Reference
-description: Подсвечивает все вхождения образца текста указанным цветом.
+second_title: Aspose.Sildes for .NET API Reference
+description: Подсвечивает все совпадения образца текста указанным цветом.
 type: docs
 weight: 330
 url: /ru/aspose.slides/ipresentation/highlighttext/
 ---
 
-## HighlightText(string, Color) {#highlighttext}
+## HighlightText(string, Color) {#highlighttext}
 
-Подсвечивает все вхождения образца текста указанным цветом.
+Подсвечивает все совпадения образца текста указанным цветом.
 
 ```csharp
 public void HighlightText(string text, Color highlightColor)
@@ -17,8 +17,8 @@ public void HighlightText(string text, Color highlightColor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| text | String | Текст для подсветки. |
-| highlightColor | Color | Цвет для подсветки текста. |
+| text | String | Текст, который нужно подсветить. |
+| highlightColor | Color | Цвет, которым будет подсвечен текст. |
 
 ### Примеры
 
@@ -28,7 +28,7 @@ public void HighlightText(string text, Color highlightColor)
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// подсвечиваем все отдельные вхождения 'the'
+	// подсвечивание всех отдельных вхождений 'the'
 	presentation.HighlightText("the", Color.Violet);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 }
@@ -42,9 +42,9 @@ using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 
 ---
 
-## HighlightText(string, Color, ITextSearchOptions, IFindResultCallback) {#highlighttext_1}
+## HighlightText(string, Color, ITextSearchOptions, IFindResultCallback) {#highlighttext_1}
 
-Подсвечивает все вхождения образца текста указанным цветом.
+Подсвечивает все совпадения образца текста указанным цветом.
 
 ```csharp
 public void HighlightText(string text, Color highlightColor, ITextSearchOptions options, 
@@ -53,9 +53,9 @@ public void HighlightText(string text, Color highlightColor, ITextSearchOptions 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| text | String | Текст для подсветки. |
-| highlightColor | Color | Цвет для подсветки текста. |
-| options | ITextSearchOptions | Опции поиска текста [`ITextSearchOptions`](../../itextsearchoptions). |
+| text | String | Текст, который нужно подсветить. |
+| highlightColor | Color | Цвет, которым будет подсвечен текст. |
+| options | ITextSearchOptions | Параметры поиска текста [`ITextSearchOptions`](../../itextsearchoptions). |
 | callback | IFindResultCallback | Объект обратного вызова для получения результатов поиска [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Примеры
@@ -66,7 +66,7 @@ public void HighlightText(string text, Color highlightColor, ITextSearchOptions 
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// подсвечиваем все отдельные вхождения 'the'
+	// подсвечивание всех отдельных вхождений 'the'
 	presentation.HighlightText("the", Color.Violet, new TextSearchOptions() {WholeWordsOnly = true}, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 }

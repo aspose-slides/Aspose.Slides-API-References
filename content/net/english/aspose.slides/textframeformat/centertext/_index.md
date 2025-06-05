@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/textframeformat/centertext/
 ---
+
 ## TextFrameFormat.CenterText property
 
 If NullableBool.True then text should be centered in box horizontally. Read/write [`NullableBool`](../../nullablebool).

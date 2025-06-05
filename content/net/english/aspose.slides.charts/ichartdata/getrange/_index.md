@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.charts/ichartdata/getrange/
 ---
+
 ## IChartData.GetRange method
 
 Gets chart data range.

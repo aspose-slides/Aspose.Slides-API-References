@@ -1,15 +1,15 @@
 ---
 title: GetObjectStoringLocation
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, где следует хранить объект. Этот метод вызывается один раз для каждого идентификатора объекта. Не гарантируется, что не будет двух объектов с одинаковыми данными, semanticName и contentType, но с разными идентификаторами.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Определяет, где должен храниться объект. Этот метод вызывается один раз для каждого идентификатора объекта. Не гарантируется, что не будет двух объектов с одинаковыми данными, semanticName и contentType, но с разными идентификаторами.
 type: docs
 weight: 10
 url: /ru/aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation/
 ---
 
-## ILinkEmbedController.GetObjectStoringLocation method
+## ILinkEmbedController.GetObjectStoringLocation метод
 
-Определяет, где следует хранить объект. Этот метод вызывается один раз для каждого идентификатора объекта. Не гарантируется, что не будет двух объектов с одинаковыми данными, semanticName и contentType, но с разными идентификаторами.
+Определяет, где должен храниться объект. Этот метод вызывается один раз для каждого идентификатора объекта. Не гарантируется, что не будет двух объектов с одинаковыми данными, semanticName и contentType, но с разными идентификаторами.
 
 ```csharp
 public LinkEmbedDecision GetObjectStoringLocation(int id, byte[] entityData, string semanticName, 
@@ -20,15 +20,15 @@ public LinkEmbedDecision GetObjectStoringLocation(int id, byte[] entityData, str
 | --- | --- | --- |
 | id | Int32 | Идентификатор объекта. Этот идентификатор уникален для всей операции. |
 | entityData | Byte[] | Двоичные данные объекта. Этот параметр может быть равен null, если двоичные данные объекта еще не сгенерированы. |
-| semanticName | String | Некоторый короткий текст, описывающий смысл объекта. Контроллер может использовать это как часть внешнего имени объекта, но задача диспетчера обеспечить уникальность имен и содержать только допустимые символы. |
+| semanticName | String | Некоторый короткий текст, описывающий значение объекта. Контроллер может использовать это как часть имени внешнего объекта, но это зависит от диспетчера, чтобы обеспечить уникальность имен и использование только допустимых символов. |
 | contentType | String | MIME-тип объекта. |
-| recomendedExtension | String | Рекомендуемое расширение имени файла для этого MIME-типa. |
+| recomendedExtension | String | Рекомендуемое расширение имени файла для этого MIME-типа. |
 
 ### Возвращаемое значение
 
 Решение
 
-### См. также
+### См. Также
 
 * enum [LinkEmbedDecision](../../linkembeddecision)
 * interface [ILinkEmbedController](../../ilinkembedcontroller)

@@ -3,9 +3,10 @@ title: UseFrameSize
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines whether the text frame will be included in a rendering area or not. Read/write Boolean. Default value is false.
 type: docs
-weight: 120
+weight: 140
 url: /aspose.slides.export/isvgoptions/useframesize/
 ---
+
 ## ISVGOptions.UseFrameSize property
 
 Determines whether the text frame will be included in a rendering area or not. Read/write Boolean. Default value is false.

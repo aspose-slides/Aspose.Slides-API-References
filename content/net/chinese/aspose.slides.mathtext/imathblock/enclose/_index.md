@@ -1,7 +1,7 @@
 ---
-title: 包围
-second_title: Aspose.Slides for .NET API 参考
-description: 将此块的子元素用指定字符（如括号或其他）包围，并用分隔字符进行分割
+title: Enclose
+second_title: Aspose.Sildes for .NET API Reference
+description: 使用指定的字符（例如括号或其他）将此块的子元素括起来，并用分隔符字符进行分隔
 type: docs
 weight: 40
 url: /zh/aspose.slides.mathtext/imathblock/enclose/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathblock/enclose/
 
 ## IMathBlock.Enclose 方法
 
-将此块的子元素用指定字符（如括号或其他）包围，并用分隔字符进行分割
+使用指定的字符（例如括号或其他）将此块的子元素括起来，并用分隔符字符进行分隔
 
 ```csharp
 public IMathDelimiter Enclose(char beginningCharacter, char endingCharacter, 
@@ -18,17 +18,17 @@ public IMathDelimiter Enclose(char beginningCharacter, char endingCharacter,
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| beginningCharacter | Char | 开始字符（通常是左括号） |
-| endingCharacter | Char | 结束字符（通常是右括号） |
-| separatorCharacter | Char | 分隔字符 |
+| beginningCharacter | Char | 开始字符（通常为左括号） |
+| endingCharacter | Char | 结束字符（通常为右括号） |
+| separatorCharacter | Char | 分隔符字符 |
 
 ### 返回值
 
-类型为 [`IMathDelimiter`](../../imathdelimiter) 的数学元素，其中包含指定的字符作为框架和分隔符
+返回类型为 [`IMathDelimiter`](../../imathdelimiter) 的数学元素，它包括指定字符作为框架和分隔符
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]

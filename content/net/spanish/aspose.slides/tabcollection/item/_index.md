@@ -1,6 +1,6 @@
 ---
-title: Elemento
-second_title: Referencia de la API de Aspose.Slides para .NET
+title: Item
+second_title: Aspose.Slides para .NET API Reference
 description: Obtiene el elemento en el índice especificado. Solo lectura Tabaspose.slides/tab.
 type: docs
 weight: 30
@@ -15,11 +15,11 @@ Obtiene el elemento en el índice especificado. Solo lectura [`Tab`](../../tab).
 public ITab this[int index] { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [ITab](../../itab)
 * clase [TabCollection](../../tabcollection)
 * espacio de nombres [Aspose.Slides](../../tabcollection)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

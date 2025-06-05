@@ -1,6 +1,6 @@
 ---
-title: 音频播放模式预设
-second_title: Aspose.Sildes for .NET API 参考
+title: AudioPlayModePreset
+second_title: Aspose.Slidess for .NET API Reference
 description: 定义声音播放方式的常量。
 type: docs
 weight: 800
@@ -22,10 +22,10 @@ public enum AudioPlayModePreset
 | Mixed | `-1` |  |
 | Auto | `0` | 自动播放。 |
 | OnClick | `1` | 仅在点击图标时播放。 |
-| AllSlides | `2` | 在所有幻灯片上播放。请改用 [`PlayAcrossSlides`](../iaudioframe/playacrossslides) 属性。此元素自 PowerPoint 2013 起过时。 |
+| AllSlides | `2` | 在所有幻灯片上播放。请改用 [`PlayAcrossSlides`](../iaudioframe/playacrossslides) 属性。该元素自 PowerPoint 2013 起已过时。 |
 | InClickSequence | `3` | 在点击时自动播放。 |
 
-### 另请参阅
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

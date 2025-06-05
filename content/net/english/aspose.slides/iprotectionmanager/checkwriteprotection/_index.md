@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/iprotectionmanager/checkwriteprotection/
 ---
+
 ## IProtectionManager.CheckWriteProtection method
 
 Determines whether a presentation is a password protected to modify.

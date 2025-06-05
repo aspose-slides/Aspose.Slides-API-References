@@ -1,15 +1,15 @@
 ---
 title: RotationAngle
-second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie la rotation personnalisée appliquée au texte dans la zone de délimitation. Si elle n'est pas spécifiée, la rotation de la forme accompagnante est utilisée. Si elle est spécifiée, elle est appliquée indépendamment de la forme. C'est-à-dire que la forme peut avoir une rotation appliquée en plus du texte lui-même ayant une rotation appliquée. La valeur résultante de la rotation visuelle du texte est résumée à partir de cette propriété et du type vertical prédéfini dans la propriété TextVerticalType. Lecture/écriture Single.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Spécifie la rotation personnalisée qui est appliquée au texte dans la zone délimitante. Si elle n'est pas spécifiée, la rotation de la forme accompagnante est utilisée. Si elle est spécifiée, alors cela est appliqué indépendamment de la forme. C'est-à-dire que la forme peut avoir une rotation appliquée en plus du texte lui-même ayant une rotation appliquée. La valeur résultante de la rotation visuelle du texte est résumée à partir de cette propriété et du type vertical prédéfini dans la propriété TextVerticalType. Lecture/écriture Simple.
 type: docs
 weight: 110
 url: /fr/aspose.slides/itextframeformat/rotationangle/
 ---
 
-## Propriété ITextFrameFormat.RotationAngle
+## ITextFrameFormat.RotationAngle property
 
-Spécifie la rotation personnalisée appliquée au texte dans la zone de délimitation. Si elle n'est pas spécifiée, la rotation de la forme accompagnante est utilisée. Si elle est spécifiée, elle est appliquée indépendamment de la forme. C'est-à-dire que la forme peut avoir une rotation appliquée en plus du texte lui-même ayant une rotation appliquée. La valeur résultante de la rotation visuelle du texte est résumée à partir de cette propriété et du type vertical prédéfini dans la propriété TextVerticalType. Lecture/écriture Single.
+Spécifie la rotation personnalisée qui est appliquée au texte dans la zone délimitante. Si elle n'est pas spécifiée, la rotation de la forme accompagnante est utilisée. Si elle est spécifiée, alors cela est appliqué indépendamment de la forme. C'est-à-dire que la forme peut avoir une rotation appliquée en plus du texte lui-même ayant une rotation appliquée. La valeur résultante de la rotation visuelle du texte est résumée à partir de cette propriété et du type vertical prédéfini dans la propriété TextVerticalType. Lecture/écriture Simple.
 
 ```csharp
 public float RotationAngle { get; set; }
@@ -17,7 +17,7 @@ public float RotationAngle { get; set; }
 
 ### Exemples
 
-Considérons le cas où une forme a une rotation de 90 degrés dans le sens des aiguilles d'une montre qui lui est appliquée. En plus de cela, le corps du texte lui-même a une rotation de -90 degrés dans le sens inverse des aiguilles d'une montre qui lui est appliquée. Alors, la forme résultante semblerait être rotée, mais le texte à l'intérieur semblerait comme s'il n'avait pas été du tout roté.
+Considérez le cas où une forme a une rotation de 90 degrés dans le sens des aiguilles d'une montre appliquée à elle. En plus de cela, le corps du texte lui-même a une rotation de -90 degrés dans le sens inverse des aiguilles d'une montre appliquée à lui. Alors la forme résultante semblerait être tournée, mais le texte à l'intérieur semblerait comme s'il n'avait pas du tout été tourné.
 
 ### Voir aussi
 

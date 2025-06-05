@@ -1,7 +1,7 @@
 ---
-title: Löschen
-second_title: Aspose.Slides für .NET API Referenz
-description: Entfernt alle Verhalten aus einer Sammlung.
+title: Clear
+second_title: Aspose.Slides für .NET API-Referenz
+description: Entfernt alle Verhaltensweisen aus einer Sammlung.
 type: docs
 weight: 50
 url: /de/aspose.slides.animation/behaviorcollection/clear/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/behaviorcollection/clear/
 
 ## BehaviorCollection.Clear-Methode
 
-Entfernt alle Verhalten aus einer Sammlung.
+Entfernt alle Verhaltensweisen aus einer Sammlung.
 
 ```csharp
 public void Clear()

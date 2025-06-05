@@ -3,9 +3,10 @@ title: IBasePortionFormatEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Base interface for immutable objects which contain effective text portion formatting properties.
 type: docs
-weight: 4970
+weight: 5120
 url: /aspose.slides/ibaseportionformateffectivedata/
 ---
+
 ## IBasePortionFormatEffectiveData interface
 
 Base interface for immutable objects which contain effective text portion formatting properties.

@@ -1,6 +1,6 @@
 ---
 title: AddZoomFrame
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Ajoute un nouvel objet Zoom à la fin d'une collection.
 type: docs
 weight: 190
@@ -31,11 +31,11 @@ Objet Zoom créé [`IZoomFrame`](../../izoomframe).
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | La diapositive référencée n'appartient pas à la présentation actuelle. |
+| ArgumentException | La diapositive référencée n’appartient pas à la présentation actuelle. |
 
 ### Exemples
 
-Cet exemple démontre comment ajouter un objet Zoom à la fin d'une collection (supposons qu'il y a au moins deux diapositives dans la présentation "Presentation.pptx"):
+Cet exemple montre comment ajouter un objet Zoom à la fin d'une collection (supposons qu'il y ait au moins deux diapositives dans la présentation "Presentation.pptx"):
 
 ```csharp
 [C#]
@@ -81,11 +81,11 @@ Objet Zoom créé [`IZoomFrame`](../../izoomframe).
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | La diapositive référencée n'appartient pas à la présentation actuelle. |
+| ArgumentException | La diapositive référencée n’appartient pas à la présentation actuelle. |
 
 ### Exemples
 
-Cet exemple démontre comment ajouter un objet Zoom à la fin d'une collection (supposons qu'il y a au moins deux diapositives dans la présentation "Presentation.pptx"):
+Cet exemple montre comment ajouter un objet Zoom à la fin d'une collection (supposons qu'il y ait au moins deux diapositives dans la présentation "Presentation.pptx"):
 
 ```csharp
 [C#]

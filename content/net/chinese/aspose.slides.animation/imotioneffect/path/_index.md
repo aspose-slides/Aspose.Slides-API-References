@@ -1,7 +1,7 @@
 ---
-title: 路径
-second_title: Aspose.Slides for .NET API 参考
-description: 指定动画运动的路径原语，后跟坐标。可读/可写 IMotionPathaspose.slides/imotionpath。
+title: Path
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定动画运动的路径原语，并跟随坐标。可读写 IMotionPathaspose.slides/imotionpath。
 type: docs
 weight: 60
 url: /zh/aspose.slides.animation/imotioneffect/path/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.animation/imotioneffect/path/
 
 ## IMotionEffect.Path 属性
 
-指定动画运动的路径原语，后跟坐标。可读/可写 [`IMotionPath`](../../imotionpath)。
+指定动画运动的路径原语，并跟随坐标。可读写 [`IMotionPath`](../../imotionpath)。
 
 ```csharp
 public IMotionPath Path { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IMotionPath](../../imotionpath)
 * 接口 [IMotionEffect](../../imotioneffect)

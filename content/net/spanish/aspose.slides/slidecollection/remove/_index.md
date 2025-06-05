@@ -1,6 +1,6 @@
 ---
-title: Eliminar
-second_title: Referencia de la API de Aspose.Slides para .NET
+title: Remove
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Elimina la primera ocurrencia de un objeto específico de la colección.
 type: docs
 weight: 150
@@ -17,9 +17,9 @@ public void Remove(ISlide value)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| value | ISlide | La diapositiva que se eliminará de la colección. |
+| value | ISlide | La diapositiva que se va a eliminar de la colección. |
 
-### Ver También
+### Véase también
 
 * interfaz [ISlide](../../islide)
 * clase [SlideCollection](../../slidecollection)

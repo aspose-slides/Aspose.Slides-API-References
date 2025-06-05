@@ -3,9 +3,10 @@ title: ICellFormatEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which contains effective table cell formatting properties.
 type: docs
-weight: 5110
+weight: 5280
 url: /aspose.slides/icellformateffectivedata/
 ---
+
 ## ICellFormatEffectiveData interface
 
 Immutable object which contains effective table cell formatting properties.
@@ -19,6 +20,7 @@ public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
 | Name | Description |
 | --- | --- |
 | [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | Allows to get base IBaseTableFormatEffectiveData interface. Read-only [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | Gets the transparency of the fill color. Read Single. |
 
 ### Remarks
 

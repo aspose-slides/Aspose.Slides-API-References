@@ -6,6 +6,7 @@ type: docs
 weight: 500
 url: /aspose.slides.animation/behaviorproperty/imagedatagrayscale/
 ---
+
 ## BehaviorProperty.ImageDataGrayscale property
 
 Represents 'imageData.grayscale' property

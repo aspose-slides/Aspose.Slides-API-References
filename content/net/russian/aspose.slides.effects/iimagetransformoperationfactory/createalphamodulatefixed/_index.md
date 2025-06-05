@@ -1,7 +1,7 @@
 ---
 title: CreateAlphaModulateFixed
-second_title: Aspose.Sildes для .NET API Справочник
-description: Создает эффект фиксации alpha модификации.
+second_title: Aspose.Sildes для .NET API Reference
+description: Создает эффект фиксированной альфа-модуляции.
 type: docs
 weight: 50
 url: /ru/aspose.slides.effects/iimagetransformoperationfactory/createalphamodulatefixed/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/iimagetransformoperationfactory/createalphamodula
 
 ## IImageTransformOperationFactory.CreateAlphaModulateFixed метод
 
-Создает эффект фиксации alpha модификации.
+Создает эффект фиксированной альфа-модуляции.
 
 ```csharp
 public IAlphaModulateFixed CreateAlphaModulateFixed(float amount)
@@ -21,9 +21,9 @@ public IAlphaModulateFixed CreateAlphaModulateFixed(float amount)
 
 ### Возвращаемое значение
 
-Эффект фиксации alpha модификации.
+Эффект фиксированной альфа-модуляции.
 
-### См. Также
+### См. также
 
 * интерфейс [IAlphaModulateFixed](../../ialphamodulatefixed)
 * интерфейс [IImageTransformOperationFactory](../../iimagetransformoperationfactory)

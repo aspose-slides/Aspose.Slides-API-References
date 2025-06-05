@@ -1,6 +1,6 @@
 ---
-title: Fórmula
-second_title: Referencia de la API de Aspose.Slides para .NET
+title: Formula
+second_title: Aspose.Slides para .NET API Referencia
 description: Obtiene o establece la fórmula en el estilo A1.
 type: docs
 weight: 40
@@ -27,6 +27,6 @@ cell.Formula = "1 + SUM(F2:H5)";
 
 * clase [ChartDataCell](../../chartdatacell)
 * espacio de nombres [Aspose.Slides.Charts](../../chartdatacell)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,13 +1,13 @@
 ---
 title: GetChildren
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Получить дочерние элементы
 type: docs
 weight: 100
 url: /ru/aspose.slides.mathtext/mathdelimiter/getchildren/
 ---
 
-## Метод MathDelimiter.GetChildren
+## MathDelimiter.GetChildren метод
 
 Получить дочерние элементы
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.mathtext/mathdelimiter/getchildren/
 public IMathElement[] GetChildren()
 ```
 
-### Также смотрите
+### См. Также
 
 * интерфейс [IMathElement](../../imathelement)
 * класс [MathDelimiter](../../mathdelimiter)

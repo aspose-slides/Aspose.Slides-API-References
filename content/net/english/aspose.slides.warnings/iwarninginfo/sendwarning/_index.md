@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.warnings/iwarninginfo/sendwarning/
 ---
+
 ## IWarningInfo.SendWarning method
 
 If receiver is not null ends warning to a specified receiver and throws the AbortRequestedException if receiver decided to abort a operation.

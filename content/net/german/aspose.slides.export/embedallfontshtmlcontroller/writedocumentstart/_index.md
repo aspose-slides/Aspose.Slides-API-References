@@ -1,15 +1,15 @@
 ---
 title: WriteDocumentStart
 second_title: Aspose.Slides für .NET API Referenz
-description: Wird aufgerufen, um den HTML-Dokumentenkopf zu schreiben. Wird einmal pro Präsentationskonvertierung aufgerufen.
+description: Wird aufgerufen, um den HTML-Dokumentenheader zu schreiben. Wird einmal pro Präsentationskonvertierung aufgerufen.
 type: docs
 weight: 40
 url: /de/aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart/
 ---
 
-## EmbedAllFontsHtmlController.WriteDocumentStart Methode
+## EmbedAllFontsHtmlController.WriteDocumentStart-Methode
 
-Wird aufgerufen, um den HTML-Dokumentenkopf zu schreiben. Wird einmal pro Präsentationskonvertierung aufgerufen.
+Wird aufgerufen, um den HTML-Dokumentenheader zu schreiben. Wird einmal pro Präsentationskonvertierung aufgerufen.
 
 ```csharp
 public virtual void WriteDocumentStart(IHtmlGenerator generator, IPresentation presentation)
@@ -17,10 +17,10 @@ public virtual void WriteDocumentStart(IHtmlGenerator generator, IPresentation p
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| generator | IHtmlGenerator | Ausgabobjekt. |
+| generator | IHtmlGenerator | Ausgabeartefakt. |
 | presentation | IPresentation | Präsentation, die derzeit gerendert wird. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IHtmlGenerator](../../ihtmlgenerator)
 * Schnittstelle [IPresentation](../../../aspose.slides/ipresentation)

@@ -1,7 +1,7 @@
 ---
-title: Titre
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie le titre textuel de l'objet Section de Zoom Résumé.
+title: Title
+second_title: Référence API Aspose.Sildes pour .NET
+description: Renvoie le titre texte de l'objet Section de Zoom Résumé.
 type: docs
 weight: 20
 url: /fr/aspose.slides/summaryzoomsection/title/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/summaryzoomsection/title/
 
 ## Propriété SummaryZoomSection.Title
 
-Renvoie le titre textuel de l'objet Section de Zoom Résumé.
+Renvoie le titre texte de l'objet Section de Zoom Résumé.
 
 ```csharp
 public string Title { get; set; }
@@ -24,7 +24,7 @@ Exemple:
 using (Presentation pres = new Presentation("pres.pptx"))
 {
     ISummaryZoomSection zoomSection = zoomFrame.SummaryZoomCollection[1];
-    zoomSection.Title = "Titre";
+    zoomSection.Title = "Title";
 }
 ```
 

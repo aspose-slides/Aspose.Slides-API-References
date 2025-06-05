@@ -1,5 +1,5 @@
 ---
-title: Veröffentlichungsdatum
+title: ReleaseDate
 second_title: Aspose.Slides für .NET API-Referenz
 description: Veröffentlichungsdatum der Assembly.
 type: docs
@@ -15,7 +15,7 @@ Veröffentlichungsdatum der Assembly.
 public static readonly DateTime ReleaseDate;
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [BuildVersionInfo](../../buildversioninfo)
 * Namespace [Aspose.Slides](../../buildversioninfo)

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.slideshow/revealtransition/throughblack/
 ---
+
 ## RevealTransition.ThroughBlack property
 
 Specifies whether the transition fades through black. Read/write Boolean.

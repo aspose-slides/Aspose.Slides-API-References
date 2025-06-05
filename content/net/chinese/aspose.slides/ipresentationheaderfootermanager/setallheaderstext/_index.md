@@ -1,7 +1,7 @@
 ---
 title: SetAllHeadersText
-second_title: Aspose.Sildes for .NET API 参考
-description: 设置所有页眉占位符的文本，包括备注母版、备注幻灯片和讲义母版。
+second_title: Aspose.Sildes for .NET API Reference
+description: 将文本设置为所有标题占位符，包括备注母版、备注幻灯片和讲义母版。
 type: docs
 weight: 60
 url: /zh/aspose.slides/ipresentationheaderfootermanager/setallheaderstext/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ipresentationheaderfootermanager/setallheaderstext/
 
 ## IPresentationHeaderFooterManager.SetAllHeadersText 方法
 
-设置所有页眉占位符的文本，包括备注母版、备注幻灯片和讲义母版。
+将文本设置为所有标题占位符，包括备注母版、备注幻灯片和讲义母版。
 
 ```csharp
 public void SetAllHeadersText(string text)
@@ -19,7 +19,7 @@ public void SetAllHeadersText(string text)
 | --- | --- | --- |
 | text | String | 要设置的文本。 |
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IPresentationHeaderFooterManager](../../ipresentationheaderfootermanager)
 * 命名空间 [Aspose.Slides](../../ipresentationheaderfootermanager)

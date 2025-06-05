@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/ibulletformateffectivedata/type/
 ---
+
 ## IBulletFormatEffectiveData.Type property
 
 Returns the bullet type of a paragraph. Read-only [`BulletType`](../../bullettype).

@@ -1,7 +1,7 @@
 ---
 title: VbaProject
-second_title: Aspose.Sildes for .NET API 参考
-description: 获取或设置包含演示文稿宏的VBA项目。读取/写入 IVbaProjectaspose.slides/../aspose.slides.vba/ivbaproject。
+second_title: Aspose.Slides for .NET API Reference
+description: 获取或设置包含演示宏的VBA项目。可读/写 IVbaProjectaspose.slides/../aspose.slides.vba/ivbaproject.
 type: docs
 weight: 270
 url: /zh/aspose.slides/presentation/vbaproject/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/presentation/vbaproject/
 
 ## Presentation.VbaProject 属性
 
-获取或设置包含演示文稿宏的VBA项目。读取/写入 [`IVbaProject`](../../../aspose.slides.vba/ivbaproject)。
+获取或设置包含演示宏的VBA项目。可读/写 [`IVbaProject`](../../../aspose.slides.vba/ivbaproject)。
 
 ```csharp
 public IVbaProject VbaProject { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IVbaProject](../../../aspose.slides.vba/ivbaproject)
 * 类 [Presentation](../../presentation)

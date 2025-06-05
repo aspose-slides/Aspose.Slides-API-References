@@ -1,13 +1,13 @@
 ---
 title: ChartDataSourceType
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示图表的数据源类型
 type: docs
 weight: 1290
 url: /zh/aspose.slides.charts/chartdatasourcetype/
 ---
 
-## ChartDataSourceType 枚举
+## ChartDataSourceType枚举
 
 表示图表的数据源类型
 
@@ -22,7 +22,7 @@ public enum ChartDataSourceType
 | InternalWorkbook | `0` | 内部数据源。 |
 | ExternalWorkbook | `1` | 外部数据源。 |
 
-### 另请参见
+### 参见
 
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程序集 [Aspose.Slides](../../)

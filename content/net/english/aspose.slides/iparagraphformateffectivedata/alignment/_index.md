@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/iparagraphformateffectivedata/alignment/
 ---
+
 ## IParagraphFormatEffectiveData.Alignment property
 
 Returns the text alignment in a paragraph. Read-only [`TextAlignment`](../../textalignment).

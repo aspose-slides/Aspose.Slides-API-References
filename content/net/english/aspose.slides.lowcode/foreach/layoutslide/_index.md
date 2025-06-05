@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.lowcode/foreach/layoutslide/
 ---
+
 ## ForEach.LayoutSlide method
 
 Iterate each `LayoutSlide` in the [`Presentation`](../../../aspose.slides/presentation).

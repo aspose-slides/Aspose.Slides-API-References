@@ -1,25 +1,25 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Slides для .NET Справочник по API
-description: Возвращает перечислитель, который итерируется по коллекции.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает перечислитель, который проходит по коллекции.
 type: docs
 weight: 70
 url: /ru/aspose.slides/columncollection/getenumerator/
 ---
 
-## Метод ColumnCollection.GetEnumerator
+## ColumnCollection.GetEnumerator метод
 
-Возвращает enumerator, который итерируется по коллекции.
+Возвращает перечислитель, который проходит по коллекции.
 
 ```csharp
 public IEnumerator<IColumn> GetEnumerator()
 ```
 
-### Значение возврата
+### Возвращаемое значение
 
-IEnumerator, который может быть использован для итерации по коллекции.
+A IEnumerator, который можно использовать для итерации по коллекции.
 
-### Смотрите также
+### См. Также
 
 * интерфейс [IColumn](../../icolumn)
 * класс [ColumnCollection](../../columncollection)

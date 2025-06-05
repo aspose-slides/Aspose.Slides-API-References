@@ -1,5 +1,5 @@
 ---
-title: Anzahl
+title: Count
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Anzahl der Elemente in der Sammlung zurück. Schreibgeschützter Int32.
 type: docs
@@ -15,7 +15,7 @@ Gibt die Anzahl der Elemente in der Sammlung zurück. Schreibgeschützter Int32.
 public int Count { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [DrawingGuidesCollection](../../drawingguidescollection)
 * Namespace [Aspose.Slides](../../drawingguidescollection)

@@ -1,6 +1,6 @@
 ---
 title: AsITheme
-second_title: Aspose.Slides для справочника API .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Позволяет получить базовый интерфейс ITheme. Только для чтения IThemeaspose.slides.theme/itheme.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.theme/imastertheme/asitheme/
 public ITheme AsITheme { get; }
 ```
 
-### См. Также
+### Смотрите также
 
 * интерфейс [ITheme](../../itheme)
 * интерфейс [IMasterTheme](../../imastertheme)

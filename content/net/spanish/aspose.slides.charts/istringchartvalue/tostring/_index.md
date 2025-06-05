@@ -1,28 +1,28 @@
 ---
 title: ToString
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve la representación en cadena.
+description: Devuelve la representación de cadena.
 type: docs
 weight: 50
 url: /es/aspose.slides.charts/istringchartvalue/tostring/
 ---
 
-## Método IStringChartValue.ToString
+## IStringChartValue.ToString método
 
-Devuelve la representación en cadena.
+Devuelve la representación de cadena.
 
 ```csharp
 public string ToString()
 ```
 
-### Valor de retorno
+### Valor de Retorno
 
-Representación en cadena de un valor String
+Representación de cadena de un valor String
 
-### Véase también
+### Véase También
 
-* interfaz [IStringChartValue](../../istringchartvalue)
-* espacio de nombres [Aspose.Slides.Charts](../../istringchartvalue)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IStringChartValue](../../istringchartvalue)
+* espacio de nombres [Aspose.Slides.Charts](../../istringchartvalue)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
-title: 行间距规则
-second_title: Aspose.Slides for .NET API 参考
-description: 数组元素之间的垂直间距类型 默认：SingleLineGap
+title: RowSpacingRule
+second_title: Aspose.Sildes for .NET API Reference
+description: 数组元素之间的垂直间距类型 默认值：SingleLineGap
 type: docs
 weight: 70
 url: /zh/aspose.slides.mathtext/matharray/rowspacingrule/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/matharray/rowspacingrule/
 
 ## MathArray.RowSpacingRule 属性
 
-数组元素之间的垂直间距类型 默认：SingleLineGap
+数组元素之间的垂直间距类型 默认值：SingleLineGap
 
 ```csharp
 public MathRowSpacingRule RowSpacingRule { get; set; }
@@ -25,7 +25,7 @@ IMathArray mathArray = new MathArray(new MathematicalText("item1"));
 mathArray.RowSpacingRule = MathRowSpacingRule.OneAndAHalfLineGap;
 ```
 
-### 另请参见
+### 另请参阅
 
 * enum [MathRowSpacingRule](../../mathrowspacingrule)
 * class [MathArray](../../matharray)

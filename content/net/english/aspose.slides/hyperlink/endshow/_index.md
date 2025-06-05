@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/hyperlink/endshow/
 ---
+
 ## Hyperlink.EndShow property
 
 Returns a hyperlink which ends the show. Read-only [`Hyperlink`](../../hyperlink).

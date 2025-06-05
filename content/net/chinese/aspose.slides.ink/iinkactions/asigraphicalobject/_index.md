@@ -1,7 +1,7 @@
 ---
 title: AsIGraphicalObject
 second_title: Aspose.Sildes for .NET API Reference
-description: 允许获取基础 IGraphicalObject 接口。 只读 IGraphicalObject aspose.slides/igraphicalobject。
+description: 允许获取基础 IGraphicalObject 接口。只读 IGraphicalObject aspose.slides/igraphicalobject。
 type: docs
 weight: 10
 url: /zh/aspose.slides.ink/iinkactions/asigraphicalobject/

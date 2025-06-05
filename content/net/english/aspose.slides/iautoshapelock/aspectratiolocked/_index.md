@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/iautoshapelock/aspectratiolocked/
 ---
+
 ## IAutoShapeLock.AspectRatioLocked property
 
 Determines whether a shape have to preserve aspect ratio on resizing. Read-write Boolean.

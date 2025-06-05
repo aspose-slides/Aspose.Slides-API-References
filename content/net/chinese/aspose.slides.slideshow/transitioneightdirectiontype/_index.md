@@ -1,7 +1,7 @@
 ---
 title: TransitionEightDirectionType
-second_title: Aspose.Slides for .NET API 参考
-description: 表示八个方向的转换类型。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示八个方向的过渡类型。
 type: docs
 weight: 10050
 url: /zh/aspose.slides.slideshow/transitioneightdirectiontype/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.slideshow/transitioneightdirectiontype/
 
 ## TransitionEightDirectionType 枚举
 
-表示八个方向的转换类型。
+表示八个方向的过渡类型。
 
 ```csharp
 public enum TransitionEightDirectionType
@@ -28,7 +28,7 @@ public enum TransitionEightDirectionType
 | Down | `6` |  |
 | Right | `7` |  |
 
-### 另请参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * 程序集 [Aspose.Slides](../../)

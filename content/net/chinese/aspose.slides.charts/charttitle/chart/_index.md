@@ -1,6 +1,6 @@
 ---
-title: 图表
-second_title: Aspose.Slides for .NET API 参考
+title: Chart
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回父图表。只读 IChartaspose.slides.charts/ichart。
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/charttitle/chart/
 public IChart Chart { get; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IChart](../../ichart)
 * 类 [ChartTitle](../../charttitle)

@@ -1,7 +1,7 @@
 ---
-title: Serien
+title: Series
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt eine Sammlung von Serien zurück. Schreibgeschützte IChartSeriesReadonlyCollection aspose.slides.charts/ichartseriesreadonlycollection.
+description: Gibt eine Sammlung von Serien zurück. Nur-Lese IChartSeriesReadonlyCollectionaspose.slides/ichartseriesreadonlycollection.
 type: docs
 weight: 180
 url: /de/aspose.slides.charts/chartseriesgroup/series/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartseriesgroup/series/
 
 ## ChartSeriesGroup.Series-Eigenschaft
 
-Gibt eine Sammlung von Serien zurück. Schreibgeschützte [`IChartSeriesReadonlyCollection`](../../ichartseriesreadonlycollection).
+Gibt eine Sammlung von Serien zurück. Nur-Lese [`IChartSeriesReadonlyCollection`](../../ichartseriesreadonlycollection).
 
 ```csharp
 public IChartSeriesReadonlyCollection Series { get; }

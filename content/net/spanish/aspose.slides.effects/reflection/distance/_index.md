@@ -1,6 +1,6 @@
 ---
-title: Distancia
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Distance
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Distancia de reflexión. Leer/escribir Doble.
 type: docs
 weight: 30
@@ -15,10 +15,10 @@ Distancia de reflexión. Leer/escribir Doble.
 public double Distance { get; set; }
 ```
 
-### Véase también
+### Véase También
 
-* clase [Reflection](../../reflection)
-* espacio de nombres [Aspose.Slides.Effects](../../reflection)
-* ensamblado [Aspose.Slides](../../../)
+* class [Reflection](../../reflection)
+* namespace [Aspose.Slides.Effects](../../reflection)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

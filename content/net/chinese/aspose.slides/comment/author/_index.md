@@ -1,6 +1,6 @@
 ---
-title: 作者
-second_title: Aspose.Slides for .NET API 参考
+title: Author
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回评论的作者。只读 ICommentAuthoraspose.slides/icommentauthor。
 type: docs
 weight: 10

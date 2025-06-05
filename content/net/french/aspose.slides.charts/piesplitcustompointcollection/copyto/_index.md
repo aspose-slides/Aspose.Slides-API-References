@@ -1,6 +1,6 @@
 ---
 title: CopyTo
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Copie les éléments de l'ICollection dans un tableau en commençant à un index de tableau particulier.
 type: docs
 weight: 90
@@ -24,9 +24,9 @@ public void CopyTo(IChartDataPoint[] array, int arrayIndex)
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | *array* est nul. |
+| ArgumentNullException | *array* est null. |
 | ArgumentOutOfRangeException | *arrayIndex* est inférieur à 0. |
-| ArgumentException | Le nombre d'éléments dans l'ICollection source est supérieur à l'espace disponible de *arrayIndex* à la fin du *array* de destination. |
+| ArgumentException | Le nombre d'éléments dans l'ICollection source est supérieur à l'espace disponible de *arrayIndex* à la fin du *array* destination. |
 
 ### Voir aussi
 

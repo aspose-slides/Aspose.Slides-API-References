@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/ichartseriesgroup/bubblesizescale/
 ---
+
 ## IChartSeriesGroup.BubbleSizeScale property
 
 Specifies the scale factor for the bubble chart (can be between 0 and 300 percents of the default size). Read/write Int32.

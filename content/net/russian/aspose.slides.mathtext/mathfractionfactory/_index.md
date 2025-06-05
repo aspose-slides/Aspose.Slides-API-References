@@ -1,6 +1,6 @@
 ---
 title: MathFractionFactory
-second_title: Aspose.Slides для .NET - Справочник по API
+second_title: Aspose.Sildes для .NET API Справочник
 description: Позволяет создавать математическую дробь
 type: docs
 weight: 8440
@@ -32,7 +32,7 @@ public class MathFractionFactory : IMathFractionFactory
 
 Для совместимости с COM
 
-### Смотрите также
+### См. также
 
 * интерфейс [IMathFractionFactory](../imathfractionfactory)
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)

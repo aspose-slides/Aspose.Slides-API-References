@@ -1,7 +1,7 @@
 ---
 title: WriteDocumentEnd
-second_title: Aspose.Sildes for .NET API 参考
-description: 被调用以写入 html 文档的页脚。每次演示文稿转换时调用一次。
+second_title: Aspose.Sildes for .NET API Reference
+description: 被调用以写入html文档的页脚。每次演示转换时调用一次。
 type: docs
 weight: 10
 url: /zh/aspose.slides.export/ihtmlformattingcontroller/writedocumentend/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/ihtmlformattingcontroller/writedocumentend/
 
 ## IHtmlFormattingController.WriteDocumentEnd 方法
 
-被调用以写入 html 文档的页脚。每次演示文稿转换时调用一次。
+被调用以写入html文档的页脚。每次演示转换时调用一次。
 
 ```csharp
 public void WriteDocumentEnd(IHtmlGenerator generator, IPresentation presentation)
@@ -20,7 +20,7 @@ public void WriteDocumentEnd(IHtmlGenerator generator, IPresentation presentatio
 | generator | IHtmlGenerator | 输出对象。 |
 | presentation | IPresentation | 当前正在渲染的演示文稿。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IHtmlGenerator](../../ihtmlgenerator)
 * 接口 [IPresentation](../../../aspose.slides/ipresentation)

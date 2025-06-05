@@ -1,6 +1,6 @@
 ---
 title: DateTime7
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Текущая дата и время в седьмом предопределенном формате Mon-YY для английского. Поле только для чтения FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 130

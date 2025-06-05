@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/iblur/asiimagetransformoperation/
 ---
+
 ## IBlur.AsIImageTransformOperation property
 
 Allows to get base IImageTransformOperation interface. Read-only [`IImageTransformOperation`](../../iimagetransformoperation).

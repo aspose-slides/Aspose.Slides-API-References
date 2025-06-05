@@ -6,6 +6,7 @@ type: docs
 weight: 310
 url: /aspose.slides.charts/iaxis/isvisible/
 ---
+
 ## IAxis.IsVisible property
 
 Represents if the axis is visible. Read/write Boolean.

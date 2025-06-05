@@ -1,13 +1,13 @@
 ---
-title: 图像转换操作工厂
-second_title: Aspose.Slides for .NET API 参考
+title: ImageTransformOperationFactory
+second_title: Aspose.Sildes for .NET API Reference
 description: 默认构造函数。
 type: docs
 weight: 10
 url: /zh/aspose.slides.effects/imagetransformoperationfactory/imagetransformoperationfactory/
 ---
 
-## 图像转换操作工厂构造函数
+## ImageTransformOperationFactory 构造函数
 
 默认构造函数。
 
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.effects/imagetransformoperationfactory/imagetransformoper
 public ImageTransformOperationFactory()
 ```
 
-### 另请参阅
+### 参见
 
 * class [ImageTransformOperationFactory](../../imagetransformoperationfactory)
 * namespace [Aspose.Slides.Effects](../../imagetransformoperationfactory)

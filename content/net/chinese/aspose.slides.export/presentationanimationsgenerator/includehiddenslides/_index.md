@@ -1,7 +1,7 @@
 ---
 title: IncludeHiddenSlides
-second_title: Aspose.Slides for .NET API Reference
-description: 获取或设置是否应包含隐藏幻灯片。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取或设置是否应该包括隐藏幻灯片。
 type: docs
 weight: 40
 url: /zh/aspose.slides.export/presentationanimationsgenerator/includehiddenslides/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/presentationanimationsgenerator/includehiddenslide
 
 ## PresentationAnimationsGenerator.IncludeHiddenSlides 属性
 
-获取或设置是否应包含隐藏幻灯片。
+获取或设置是否应该包括隐藏幻灯片。
 
 ```csharp
 public bool IncludeHiddenSlides { get; set; }
@@ -30,7 +30,7 @@ using (Presentation presentation = new Presentation("animated.pptx"))
 }
 ```
 
-### 另请参见
+### 另请参阅
 
 * class [PresentationAnimationsGenerator](../../presentationanimationsgenerator)
 * namespace [Aspose.Slides.Export](../../presentationanimationsgenerator)

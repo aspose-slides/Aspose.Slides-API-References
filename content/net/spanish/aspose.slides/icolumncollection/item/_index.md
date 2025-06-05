@@ -1,25 +1,25 @@
----
-title: Elemento
-second_title: Referencia de API de Aspose.Slides para .NET
+---  
+title: Item
+second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve la columna en el índice especificado. Solo lectura IColumnaspose.slides/icolumn.
-type: docs
-weight: 10
+type: docs  
+weight: 10  
 url: /es/aspose.slides/icolumncollection/item/
----
+---  
 
-## Índice de IColumnCollection
+## IColumnCollection indexer  
 
-Devuelve la columna en el índice especificado. Solo lectura [`IColumn`](../../icolumn).
+Devuelve la columna en el índice especificado. Solo lectura [`IColumn`](../../icolumn).  
 
-```csharp
-public IColumn this[int index] { get; }
-```
+```csharp  
+public IColumn this[int index] { get; }  
+```  
 
-### Ver También
+### Ver También  
 
-* interfaz [IColumn](../../icolumn)
-* interfaz [IColumnCollection](../../icolumncollection)
-* espacio de nombres [Aspose.Slides](../../icolumncollection)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IColumn](../../icolumn)  
+* interfaz [IColumnCollection](../../icolumncollection)  
+* espacio de nombres [Aspose.Slides](../../icolumncollection)  
+* ensamblado [Aspose.Slides](../../../)  
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  

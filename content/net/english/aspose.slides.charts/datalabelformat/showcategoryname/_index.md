@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.charts/datalabelformat/showcategoryname/
 ---
+
 ## DataLabelFormat.ShowCategoryName property
 
 Represents a specified chart's data label category name display behavior. True to display the category name for the data labels on a chart. False to hide. Read/write Boolean.

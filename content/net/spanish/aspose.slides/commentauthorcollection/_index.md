@@ -1,13 +1,13 @@
 ---
-title: ColecciónDeAutoresDeComentarios
-second_title: Referencia de la API de Aspose.Slides para .NET
+title: CommentAuthorCollection
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa una colección de autores de comentarios.
 type: docs
 weight: 2550
 url: /es/aspose.slides/commentauthorcollection/
 ---
 
-## Clase ColecciónDeAutoresDeComentarios
+## ComentarioClaseAutorColección
 
 Representa una colección de autores de comentarios.
 
@@ -19,8 +19,8 @@ public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentA
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.slides/commentauthorcollection/count) { get; } | Obtiene el número de elementos que se encuentran realmente en la colección. Solo lectura Int32. |
-| [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (seguro para hilos). Solo lectura Boolean. |
+| [Count](../../aspose.slides/commentauthorcollection/count) { get; } | Obtiene el número de elementos que realmente contiene la colección. Solo lectura Int32. |
+| [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (seguro para múltiples hilos). Solo lectura Boolean. |
 | [Item](../../aspose.slides/commentauthorcollection/item) { get; } | Obtiene el elemento en el índice especificado. Solo lectura [`ICommentAuthor`](../icommentauthor). |
 | [SyncRoot](../../aspose.slides/commentauthorcollection/syncroot) { get; } | Devuelve una raíz de sincronización. Solo lectura Object. |
 
@@ -38,12 +38,12 @@ public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentA
 | [RemoveAt](../../aspose.slides/commentauthorcollection/removeat)(int) | Elimina el autor en el índice especificado de la colección. |
 | [ToArray](../../aspose.slides/commentauthorcollection/toarray)() | Crea y devuelve un array con todos los autores. |
 
-### Véase También
+### Véase también
 
 * clase [DomObject&lt;TParent&gt;](../domobject-1)
 * clase [Presentation](../presentation)
 * interfaz [ICommentAuthorCollection](../icommentauthorcollection)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblaje [Aspose.Slides](../../)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

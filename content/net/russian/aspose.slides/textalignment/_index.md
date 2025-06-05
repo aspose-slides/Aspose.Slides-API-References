@@ -1,13 +1,13 @@
 ---
-title: ВыравниваниеТекста
-second_title: Справочник по API Aspose.Slides для .NET
+title: TextAlignment
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет различные стили выравнивания текста.
 type: docs
 weight: 10590
 url: /ru/aspose.slides/textalignment/
 ---
 
-## Перечисление ВыравниваниеТекста
+## Перечисление TextAlignment
 
 Представляет различные стили выравнивания текста.
 
@@ -24,10 +24,10 @@ public enum TextAlignment
 | Center | `1` | Центрированное выравнивание. |
 | Right | `2` | Правое выравнивание. |
 | Justify | `3` | Выравнивание по ширине. |
-| JustifyLow | `4` | Низкое выравнивание кәшиды. |
+| JustifyLow | `4` | Низкое выравнивание по ширине с кишидой. |
 | Distributed | `5` | Распределенное выравнивание. |
 
-### См. Также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

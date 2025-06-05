@@ -1,7 +1,7 @@
 ---
 title: AsIOverrideThemeable
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das IOverrideThemeable-Interface zurück. Nur-lesbares IOverrideThemeableaspose.slides.theme/ioverridethemeable.
+description: Gibt das IOverrideThemeable-Interface zurück. Nur lesbares IOverrideThemeableaspose.slides.theme/ioverridethemeable.
 type: docs
 weight: 20
 url: /de/aspose.slides/inotesslide/asioverridethemeable/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/inotesslide/asioverridethemeable/
 
 ## INotesSlide.AsIOverrideThemeable-Eigenschaft
 
-Gibt das IOverrideThemeable-Interface zurück. Nur-lesbar [`IOverrideThemeable`](../../../aspose.slides.theme/ioverridethemeable).
+Gibt das IOverrideThemeable-Interface zurück. Nur lesbares [`IOverrideThemeable`](../../../aspose.slides.theme/ioverridethemeable).
 
 ```csharp
 public IOverrideThemeable AsIOverrideThemeable { get; }
@@ -17,7 +17,7 @@ public IOverrideThemeable AsIOverrideThemeable { get; }
 
 ### Bemerkungen
 
-Für COM-Kompatibilität.
+Für die COM-Kompatibilität.
 
 ### Siehe auch
 

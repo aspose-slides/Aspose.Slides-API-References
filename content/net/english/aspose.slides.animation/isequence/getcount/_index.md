@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.animation/isequence/getcount/
 ---
+
 ## ISequence.GetCount method
 
 Returns count of effects for the specified shape.

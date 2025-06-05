@@ -1,7 +1,7 @@
 ---
 title: ShowHiddenSlides
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie si le document généré doit inclure des diapositives cachées ou non. La valeur par défaut est faux.
+description: Spécifie si le document généré doit inclure des diapositives cachées ou non. La valeur par défaut est false.
 type: docs
 weight: 90
 url: /fr/aspose.slides.export/iswfoptions/showhiddenslides/

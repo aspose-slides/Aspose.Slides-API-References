@@ -1,6 +1,6 @@
 ---
 title: IMathGroupingCharacterFactory
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 允许创建数学分组字符
 type: docs
 weight: 8050
@@ -24,9 +24,9 @@ public interface IMathGroupingCharacterFactory
 
 ### 备注
 
-为了与 COM 兼容
+用于 COM 兼容性
 
-### 另见
+### 参见
 
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 程序集 [Aspose.Slides](../../)

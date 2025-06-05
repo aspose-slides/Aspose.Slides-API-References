@@ -1,6 +1,6 @@
 ---
-title: Effacer
-second_title: Référence API Aspose.Slides pour .NET
+title: Clear
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Effacer toutes les valeurs des cellules sur la feuille
 type: docs
 weight: 30
@@ -19,7 +19,7 @@ public void Clear(int sheetIndex)
 | --- | --- | --- |
 | sheetIndex | Int32 | Index de la feuille |
 
-### Voir aussi
+### Voir Aussi
 
 * classe [ChartDataWorkbook](../../chartdataworkbook)
 * espace de noms [Aspose.Slides.Charts](../../chartdataworkbook)

@@ -1,13 +1,13 @@
 ---
 title: RotateWithShape
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Определяет, следует ли вращать заливку вместе с формой. Только для чтения логическое значение.
 type: docs
 weight: 60
 url: /ru/aspose.slides/ifillformateffectivedata/rotatewithshape/
 ---
 
-## Свойство IFillFormatEffectiveData.RotateWithShape
+## IFillFormatEffectiveData.RotateWithShape property
 
 Определяет, следует ли вращать заливку вместе с формой. Только для чтения логическое значение.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ifillformateffectivedata/rotatewithshape/
 public bool RotateWithShape { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IFillFormatEffectiveData](../../ifillformateffectivedata)
 * пространство имен [Aspose.Slides](../../ifillformateffectivedata)

@@ -1,15 +1,15 @@
 ---
 title: GetEffective
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Obtient les données de formatage de bulletins effectifs avec l'héritage appliqué.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Obtient les données de formatage de puces effectives avec l'héritage appliqué.
 type: docs
 weight: 120
 url: /fr/aspose.slides/bulletformat/geteffective/
 ---
 
-## Méthode BulletFormat.GetEffective
+## BulletFormat.GetEffective méthode
 
-Obtient les données de formatage de bulletins effectifs avec l'héritage appliqué.
+Obtient les données de formatage de puces effectives avec l'héritage appliqué.
 
 ```csharp
 public IBulletFormatEffectiveData GetEffective()
@@ -21,7 +21,7 @@ Un [`IBulletFormatEffectiveData`](../../ibulletformateffectivedata).
 
 ### Exemples
 
-Cet exemple montre comment obtenir certaines propriétés effectives de format de bulletin.
+Cet exemple illustre comment obtenir certaines propriétés de format de puce effectives.
 
 ```csharp
 [C#]
@@ -30,7 +30,7 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 	IAutoShape shape = pres.Slides[0].Shapes[0] as IAutoShape;
 	IBulletFormatEffectiveData effectiveBulletFormat = shape.TextFrame.Paragraphs[0].ParagraphFormat.Bullet.GetEffective();
 
-	Console.WriteLine("Type de bullet : " + effectiveBulletFormat.Type);
+	Console.WriteLine("Type de puce : " + effectiveBulletFormat.Type);
 	if (effectiveBulletFormat.Type == BulletType.Numbered)
 	{
 	    Console.WriteLine("Style numéroté : " + effectiveBulletFormat.NumberedBulletStyle);

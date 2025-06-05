@@ -15,11 +15,11 @@ url: /ru/aspose.slides/iportioncollection/asienumerable/
 public IEnumerable AsIEnumerable { get; }
 ```
 
-### Примечания
+### Заметки
 
 Для совместимости с COM.
 
-### См. также
+### Смотрите также
 
 * интерфейс [IPortionCollection](../../iportioncollection)
 * пространство имен [Aspose.Slides](../../iportioncollection)

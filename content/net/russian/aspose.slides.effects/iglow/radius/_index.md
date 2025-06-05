@@ -1,21 +1,21 @@
 ---
-title: Радиус
-second_title: Справочник по API Aspose.Slides для .NET
-description: Радиус. Чтение/запись Double.
+title: Radius
+second_title: Aspose.Sildes для .NET API Справочник
+description: Radius. Чтение/запись Double.
 type: docs
 weight: 40
 url: /ru/aspose.slides.effects/iglow/radius/
 ---
 
-## Свойство IGlow.Radius
+## IGlow.Radius свойство
 
-Радиус. Чтение/запись Double.
+Radius. Чтение/запись Double.
 
 ```csharp
 public double Radius { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IGlow](../../iglow)
 * пространство имен [Aspose.Slides.Effects](../../iglow)

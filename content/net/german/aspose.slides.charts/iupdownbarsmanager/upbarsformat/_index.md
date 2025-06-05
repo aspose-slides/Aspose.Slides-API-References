@@ -1,7 +1,7 @@
 ---
 title: UpBarsFormat
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Format der Aufwärtsbalken zurück. Schreibgeschütztes IFormataspose.slides.charts/iformat.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt das Format der Aufwärtsbalken zurück. Nur lesend IFormataspose.slides.charts/iformat.
 type: docs
 weight: 40
 url: /de/aspose.slides.charts/iupdownbarsmanager/upbarsformat/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/iupdownbarsmanager/upbarsformat/
 
 ## IUpDownBarsManager.UpBarsFormat-Eigenschaft
 
-Gibt das Format der Aufwärtsbalken zurück. Schreibgeschützt [`IFormat`](../../iformat).
+Gibt das Format der Aufwärtsbalken zurück. Nur lesend [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat UpBarsFormat { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IFormat](../../iformat)
 * Schnittstelle [IUpDownBarsManager](../../iupdownbarsmanager)

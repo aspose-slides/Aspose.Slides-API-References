@@ -1,13 +1,13 @@
 ---
-title: Hinzufügen
-second_title: Aspose.Sildes für .NET API-Referenz
+title: Add
+second_title: Aspose.Slides für .NET API Referenz
 description: Fügt einen Datenpunkt anhand seines Index in der Sammlung der Punkte der übergeordneten Serie hinzu.
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/ipiesplitcustompointcollection/add/
 ---
 
-## IPieSplitCustomPointCollection.Add-Methode
+## IPieSplitCustomPointCollection.Add Methode
 
 Fügt einen Datenpunkt anhand seines Index in der Sammlung der Punkte der übergeordneten Serie hinzu.
 

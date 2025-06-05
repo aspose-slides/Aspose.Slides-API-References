@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/ifilloverlay/asiimagetransformoperation/
 ---
+
 ## IFillOverlay.AsIImageTransformOperation property
 
 Allows to get base IImageTransformOperation interface. Read-only [`IImageTransformOperation`](../../iimagetransformoperation).

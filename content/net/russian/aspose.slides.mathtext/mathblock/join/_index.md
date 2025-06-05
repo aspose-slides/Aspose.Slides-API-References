@@ -1,15 +1,15 @@
 ---
-title: Присоединить
-second_title: Справочник по API Aspose.Slides для .NET
-description: Присоединяет математический элемент к этому математическому блоку
+title: Join
+second_title: Aspose.Sildes для .NET API Справочник
+description: Объединяет математический элемент с этим математическим блоком
 type: docs
 weight: 140
 url: /ru/aspose.slides.mathtext/mathblock/join/
 ---
 
-## Присоединить(IMathElement) {#join}
+## Join(IMathElement) {#join}
 
-Присоединяет математический элемент к этому математическому блоку
+Объединяет математический элемент с этим математическим блоком
 
 ```csharp
 public override IMathBlock Join(IMathElement mathElement)
@@ -17,7 +17,7 @@ public override IMathBlock Join(IMathElement mathElement)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mathElement | IMathElement | Элемент, который нужно присоединить |
+| mathElement | IMathElement | Элемент, который нужно объединить |
 
 ### Возвращаемое значение
 
@@ -44,9 +44,9 @@ IMathBlock block = element1.Join(element2);
 
 ---
 
-## Присоединить(string) {#join_1}
+## Join(string) {#join_1}
 
-Присоединяет математический текст к этому математическому блоку
+Объединяет математический текст с этим математическим блоком
 
 ```csharp
 public override IMathBlock Join(string mathText)
@@ -54,7 +54,7 @@ public override IMathBlock Join(string mathText)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mathText | String | Математический текст, который нужно присоединить |
+| mathText | String | Математический текст, который нужно объединить |
 
 ### Возвращаемое значение
 

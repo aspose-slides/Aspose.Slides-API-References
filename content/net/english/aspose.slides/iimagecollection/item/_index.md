@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/iimagecollection/item/
 ---
+
 ## IImageCollection indexer
 
 Returns image by its index.

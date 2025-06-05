@@ -17,8 +17,8 @@ public bool ShowScrollbar { get; set; }
 
 ### Ver También
 
-* clase [BrowsedByIndividual](../../browsedbyindividual)
-* espacio de nombres [Aspose.Slides](../../browsedbyindividual)
-* ensamblado [Aspose.Slides](../../../)
+* clase [BrowsedByIndividual](../../browsedbyindividual)
+* espacio de nombres [Aspose.Slides](../../browsedbyindividual)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: AsIAccessiblePVIObject
-second_title: Справочник API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Доступ только для чтения IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/ireflection/asiaccessiblepviobject/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.effects/ireflection/asiaccessiblepviobject/
 
 ## IReflection.AsIAccessiblePVIObject свойство
 
-Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
+Позволяет получить базовый интерфейс IAccessiblePVIObject. Доступ только для чтения [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
 
 ```csharp
 public IAccessiblePVIObject<IReflectionEffectiveData> AsIAccessiblePVIObject { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
 * интерфейс [IReflectionEffectiveData](../../ireflectioneffectivedata)

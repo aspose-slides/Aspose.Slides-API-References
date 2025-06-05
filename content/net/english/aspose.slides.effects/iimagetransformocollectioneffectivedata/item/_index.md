@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.effects/iimagetransformocollectioneffectivedata/item/
 ---
+
 ## IImageTransformOCollectionEffectiveData indexer
 
 Returns element by index.

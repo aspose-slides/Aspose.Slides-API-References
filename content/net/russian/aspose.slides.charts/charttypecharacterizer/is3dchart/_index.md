@@ -1,6 +1,6 @@
 ---
 title: Is3DChart
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает true, если chartType является одним из типов 3D графиков.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/charttypecharacterizer/is3dchart/
 public static bool Is3DChart(ChartType chartType)
 ```
 
-### См. также
+### Также смотри
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

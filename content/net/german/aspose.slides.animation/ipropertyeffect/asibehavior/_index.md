@@ -1,7 +1,7 @@
 ---
 title: AsIBehavior
-second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht den Zugriff auf die Basis-IBehavior-Schnittstelle. Nur-Lese IBehavior aspose.slides.animation/ibehavior.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ermöglicht den Zugriff auf die Basis-IBehavior-Schnittstelle. Schreibgeschützte IBehavioraspose.slides.animation/ibehavior.
 type: docs
 weight: 10
 url: /de/aspose.slides.animation/ipropertyeffect/asibehavior/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.animation/ipropertyeffect/asibehavior/
 
 ## IPropertyEffect.AsIBehavior-Eigenschaft
 
-Ermöglicht den Zugriff auf die Basis-IBehavior-Schnittstelle. Nur-Lese [`IBehavior`](../../ibehavior).
+Ermöglicht den Zugriff auf die Basis-IBehavior-Schnittstelle. Schreibgeschützte [`IBehavior`](../../ibehavior).
 
 ```csharp
 public IBehavior AsIBehavior { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IBehavior](../../ibehavior)
 * Schnittstelle [IPropertyEffect](../../ipropertyeffect)

@@ -1,13 +1,13 @@
 ---
 title: AsCell
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NETAPI Справочник
 description: Возвращает или задает ячейку данных диаграммы. Чтение/запись IChartDataCellaspose.slides.charts/ichartdatacell.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/isinglecellchartvalue/ascell/
 ---
 
-## Свойство ISingleCellChartValue.AsCell
+## ISingleCellChartValue.AsCell свойство
 
 Возвращает или задает ячейку данных диаграммы. Чтение/запись [`IChartDataCell`](../../ichartdatacell).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/isinglecellchartvalue/ascell/
 public IChartDataCell AsCell { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IChartDataCell](../../ichartdatacell)
 * интерфейс [ISingleCellChartValue](../../isinglecellchartvalue)

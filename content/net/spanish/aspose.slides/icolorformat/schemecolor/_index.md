@@ -1,6 +1,6 @@
 ---
 title: SchemeColor
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece el color identificado por un esquema de color. Lectura/escritura SchemeColoraspose.slides/schemecolor.
 type: docs
 weight: 150

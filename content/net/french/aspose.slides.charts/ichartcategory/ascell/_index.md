@@ -1,7 +1,7 @@
 ---
 title: AsCell
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne ou définit l'objet IChartDataCell. Si la catégorie est multi-niveaux, alors l'objet IChartDataCell est utilisé pour le niveau "0". Lecture/écriture de l'IChartDataCell aspose.slides.charts/ichartdatacell.
+second_title: Aspose.Slides pour .NET Référence API
+description: Renvoie ou définit l'objet IChartDataCell. Si la catégorie est mult-niveaux, l'objet IChartDataCell utilisé pour le niveau "0". Lecture/écriture IChartDataCellaspose.slides.charts/ichartdatacell.
 type: docs
 weight: 10
 url: /fr/aspose.slides.charts/ichartcategory/ascell/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/ichartcategory/ascell/
 
 ## Propriété IChartCategory.AsCell
 
-Retourne ou définit l'objet IChartDataCell. Si la catégorie est multi-niveaux, alors l'objet IChartDataCell est utilisé pour le niveau "0". Lecture/écriture [`IChartDataCell`](../../ichartdatacell).
+Renvoie ou définit l'objet IChartDataCell. Si la catégorie est multi-niveaux, l'objet IChartDataCell utilisé pour le niveau "0". Lecture/écriture [`IChartDataCell`](../../ichartdatacell).
 
 ```csharp
 public IChartDataCell AsCell { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IChartDataCell](../../ichartdatacell)
 * interface [IChartCategory](../../ichartcategory)

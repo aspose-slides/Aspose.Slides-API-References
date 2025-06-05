@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides/ioleobjectframe/updateautomatic/
 ---
+
 ## IOleObjectFrame.UpdateAutomatic property
 
 Determines if the linked embedded object is automatically updated when the presentation is opened or printed. Read/write Boolean.

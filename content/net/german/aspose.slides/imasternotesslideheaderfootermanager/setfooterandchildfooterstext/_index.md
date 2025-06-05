@@ -1,7 +1,7 @@
 ---
 title: SetFooterAndChildFootersText
-second_title: Aspose.Slides für .NET API-Referenz
-description: Setzt den Text für den Platzhalter der Fußzeile der Master-Notizenfolie und alle Platzhalter der Kindfußzeilen. Kindplatzhalter bedeuten, dass Platzhalter auf abhängigen Notizenfolien enthalten sind. Abhängige Notizenfolien verwenden und hängen von der Master-Notizenfolie ab.
+second_title: Aspose.Slides für .NET API Referenz
+description: Setzt den Text für das Fußzeilen-Placeholder der Master-Notizfolie und alle untergeordneten Fußzeilen-Placeholders. Untergeordnete Placeholders sind Platzhalter, die auf abhängigen Notizfolien enthalten sind. Abhängige Notizfolien verwenden und sind von der Master-Notizfolie abhängig.
 type: docs
 weight: 40
 url: /de/aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfoo
 
 ## IMasterNotesSlideHeaderFooterManager.SetFooterAndChildFootersText Methode
 
-Setzt den Text für den Platzhalter der Fußzeile der Master-Notizenfolie und alle Platzhalter der Kindfußzeilen. Kindplatzhalter bedeuten, dass Platzhalter auf abhängigen Notizenfolien enthalten sind. Abhängige Notizenfolien verwenden und hängen von der Master-Notizenfolie ab.
+Setzt den Text für das Fußzeilen-Placeholder der Master-Notizfolie und alle untergeordneten Fußzeilen-Placeholders. Untergeordnete Placeholders sind Platzhalter, die auf abhängigen Notizfolien enthalten sind. Abhängige Notizfolien verwenden und sind von der Master-Notizfolie abhängig.
 
 ```csharp
 public void SetFooterAndChildFootersText(string text)
@@ -17,7 +17,7 @@ public void SetFooterAndChildFootersText(string text)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| text | String | Text, der gesetzt werden soll. |
+| text | String | Zu setzender Text. |
 
 ### Siehe auch
 

@@ -19,8 +19,8 @@ public interface ISmartArtShape : IGeometryShape
 
 | Nom | Description |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides.smartart/ismartartshape/asigeometryshape) { get; } | Permet d'obtenir l'interface de base IGeometryShape. En lecture seule [`IGeometryShape`](../../aspose.slides/igeometryshape). |
-| [TextFrame](../../aspose.slides.smartart/ismartartshape/textframe) { get; } | Renvoie le texte de la forme SmartArt. En lecture seule [`ITextFrame`](../../aspose.slides/itextframe). |
+| [AsIGeometryShape](../../aspose.slides.smartart/ismartartshape/asigeometryshape) { get; } | Permet d'obtenir l'interface de base IGeometryShape. Lecture seule [`IGeometryShape`](../../aspose.slides/igeometryshape). |
+| [TextFrame](../../aspose.slides.smartart/ismartartshape/textframe) { get; } | Renvoie le texte de la forme SmartArt. Lecture seule [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ### Voir aussi
 

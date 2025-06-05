@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForPieSeries
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour des séries dont le chartType est l'un des sous-types de Pie, voir aussi la méthode IsChartTypePieaspose.slides.charts/charttypecharacterizer/ischarttypepie.
+description: Crée un nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types de Pie, voir aussi la méthode IsChartTypePieaspose.slides.charts/charttypecharacterizer/ischarttypepie.
 type: docs
 weight: 190
 url: /fr/aspose.slides.charts/chartdatapointcollection/adddatapointforpieseries/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/chartdatapointcollection/adddatapointforpieseries/
 
 ## AddDataPointForPieSeries(IChartDataCell) {#adddatapointforpieseries}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour des séries dont le chartType est l'un des sous-types de Pie (voir aussi la méthode [`IsChartTypePie`](../../charttypecharacterizer/ischarttypepie)).
+Crée un nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types de Pie (voir aussi la méthode [`IsChartTypePie`](../../charttypecharacterizer/ischarttypepie)).
 
 ```csharp
 public IChartDataPoint AddDataPointForPieSeries(IChartDataCell value)
@@ -35,7 +35,7 @@ Nouveau point de données.
 
 ## AddDataPointForPieSeries(double) {#adddatapointforpieseries_1}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour des séries dont le chartType est l'un des sous-types de Pie (voir aussi la méthode [`IsChartTypePie`](../../charttypecharacterizer/ischarttypepie)).
+Crée un nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types de Pie (voir aussi la méthode [`IsChartTypePie`](../../charttypecharacterizer/ischarttypepie)).
 
 ```csharp
 public IChartDataPoint AddDataPointForPieSeries(double value)

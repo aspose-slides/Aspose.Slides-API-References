@@ -1,13 +1,13 @@
 ---
-title: 索引
-second_title: Aspose.Slides for .NET API 参考
+title: Index
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取或设置占位符的索引。只读 UInt32。
 type: docs
 weight: 10
 url: /zh/aspose.slides/placeholder/index/
 ---
 
-## Placeholder.Index 属性
+## Placeholder.Index property
 
 获取或设置占位符的索引。只读 UInt32。
 
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/placeholder/index/
 public uint Index { get; }
 ```
 
-### 另见
+### See Also
 
 * class [Placeholder](../../placeholder)
 * namespace [Aspose.Slides](../../placeholder)

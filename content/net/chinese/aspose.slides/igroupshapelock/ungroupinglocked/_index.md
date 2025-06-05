@@ -1,7 +1,7 @@
 ---
 title: UngroupingLocked
-second_title: Aspose.Slides for .NET API 参考
-description: 确定是否禁止拆分此组形状。可读/可写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定是否禁止拆分此组形状。可读/写布尔值。
 type: docs
 weight: 80
 url: /zh/aspose.slides/igroupshapelock/ungroupinglocked/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/igroupshapelock/ungroupinglocked/
 
 ## IGroupShapeLock.UngroupingLocked 属性
 
-确定是否禁止拆分此组形状。可读/可写布尔值。
+确定是否禁止拆分此组形状。可读/写布尔值。
 
 ```csharp
 public bool UngroupingLocked { get; set; }

@@ -1,6 +1,6 @@
 ---
-title: 获取自定义属性名称
-second_title: Aspose.Slides for .NET API 参考
+title: GetCustomPropertyName
+second_title: Aspose.Slides for .NET API Reference
 description: 返回指定索引处的自定义属性名称。
 type: docs
 weight: 390
@@ -27,9 +27,9 @@ public string GetCustomPropertyName(int index)
 
 | 异常 | 条件 |
 | --- | --- |
-| ArgumentOutOfRangeException | 索引小于零。索引等于或大于计数。 |
+| ArgumentOutOfRangeException | 索引小于零。索引等于或大于 Count。 |
 
-### 参见
+### 另见
 
 * 接口 [IDocumentProperties](../../idocumentproperties)
 * 命名空间 [Aspose.Slides](../../idocumentproperties)

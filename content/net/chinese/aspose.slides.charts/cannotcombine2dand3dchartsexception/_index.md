@@ -1,7 +1,7 @@
 ---
 title: CannotCombine2DAnd3DChartsException
-second_title: Aspose.Sildes for .NET API 参考
-description: 当尝试将 2D 和 3D 图表类型组合时引发的异常。
+second_title: Aspose.Sildes for .NET API Reference
+description: 尝试组合2D和3D图表类型时引发的异常。
 type: docs
 weight: 1160
 url: /zh/aspose.slides.charts/cannotcombine2dand3dchartsexception/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/cannotcombine2dand3dchartsexception/
 
 ## CannotCombine2DAnd3DChartsException 类
 
-当尝试将 2D 和 3D 图表类型组合时引发的异常。
+尝试组合2D和3D图表类型时引发的异常。
 
 ```csharp
 public class CannotCombine2DAnd3DChartsException : InvalidOperationException
@@ -20,10 +20,10 @@ public class CannotCombine2DAnd3DChartsException : InvalidOperationException
 | 名称 | 描述 |
 | --- | --- |
 | [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor)() | 默认构造函数。 |
-| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_1)(string) | 允许向此异常添加消息的构造函数。 |
+| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_1)(string) | 构造函数，允许向此异常添加消息。 |
 | [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_2)(string, Exception) | 包含消息和嵌入异常的构造函数。 |
 
-### 参见
+### 另见
 
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程序集 [Aspose.Slides](../../)

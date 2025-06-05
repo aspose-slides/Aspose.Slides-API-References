@@ -1,15 +1,15 @@
 ---
 title: CreateMathBox
-second_title: Aspose.Slides para referencia de API de .NET
-description: Crear una caja matemática aplicando al elemento
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Cree un cuadro matemático aplicando al elemento
 type: docs
 weight: 10
 url: /es/aspose.slides.mathtext/imathboxfactory/createmathbox/
 ---
 
-## IMathBoxFactory.CreateMathBox método
+## IMathBoxFactory.CreateMathBox method
 
-Crear una caja matemática aplicando al elemento
+Cree un cuadro matemático aplicando al elemento
 
 ```csharp
 public IMathBox CreateMathBox(IMathElement element)
@@ -17,11 +17,11 @@ public IMathBox CreateMathBox(IMathElement element)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| element | IMathElement | elemento matemático para aplicar la caja |
+| element | IMathElement | elemento matemático al que aplicar el cuadro |
 
 ### Valor de Retorno
 
-nuevo elemento de caja
+nuevo elemento de cuadro
 
 ### Véase También
 

@@ -1,7 +1,7 @@
 ---
 title: HighlightColor
-second_title: Aspose.Slides para .NET Referencia de API
-description: Devuelve el color utilizado para resaltar un texto. No se aplica herencia. Solo lectura IColorFormataspose.slides/icolorformat.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve el color utilizado para resaltar un texto. Sin herencia aplicada. Solo lectura IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 110
 url: /es/aspose.slides/baseportionformat/highlightcolor/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/baseportionformat/highlightcolor/
 
 ## Propiedad BasePortionFormat.HighlightColor
 
-Devuelve el color utilizado para resaltar un texto. No se aplica herencia. Solo lectura [`IColorFormat`](../../icolorformat).
+Devuelve el color utilizado para resaltar un texto. Sin herencia aplicada. Solo lectura [`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat HighlightColor { get; }
@@ -20,6 +20,6 @@ public IColorFormat HighlightColor { get; }
 * interfaz [IColorFormat](../../icolorformat)
 * clase [BasePortionFormat](../../baseportionformat)
 * espacio de nombres [Aspose.Slides](../../baseportionformat)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

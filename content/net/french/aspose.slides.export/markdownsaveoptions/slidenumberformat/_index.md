@@ -1,7 +1,7 @@
 ---
 title: SlideNumberFormat
-second_title: Référence API Aspose.Slides pour .NET
-description: Obtient ou définit la chaîne de format utilisée pour les en-têtes de numéro de diapositive dans la sortie Markdown. Le format doit inclure le placeholder 0 qui sera remplacé par l'index de la diapositive lors de l'exportation. Exemple  Diapo 0 produira Diapo 1, Diapo 2, etc.
+second_title: Aspose.Sildes for .NET API Reference
+description: Obtient ou définit la chaîne de format utilisée pour les en-têtes de numéro de diapositive dans la sortie Markdown. Le format doit inclure le placeholder 0 qui sera remplacé par l'index de la diapositive lors de l'exportation. Exemple  Diapositive 0 produira Diapositive 1, Diapositive 2, etc.
 type: docs
 weight: 120
 url: /fr/aspose.slides.export/markdownsaveoptions/slidenumberformat/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/markdownsaveoptions/slidenumberformat/
 
 ## Propriété MarkdownSaveOptions.SlideNumberFormat
 
-Obtient ou définit la chaîne de format utilisée pour les en-têtes de numéro de diapositive dans la sortie Markdown. Le format doit inclure le placeholder "{0}", qui sera remplacé par l'index de la diapositive lors de l'exportation. Exemple : "# Slide {0}" produira "# Slide 1", "# Slide 2", etc.
+Obtient ou définit la chaîne de format utilisée pour les en-têtes de numéro de diapositive dans la sortie Markdown. Le format doit inclure le placeholder "{0}", qui sera remplacé par l'index de la diapositive lors de l'exportation. Exemple : "# Diapositive {0}" produira "# Diapositive 1", "# Diapositive 2", etc.
 
 ```csharp
 public string SlideNumberFormat { get; set; }

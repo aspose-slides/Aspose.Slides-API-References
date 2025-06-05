@@ -1,7 +1,7 @@
 ---
 title: AsIThreeDParamSource
-second_title: Aspose.Sildes for .NET API Reference
-description: 允许获取基本的 IThreeDParamSource 接口。只读 IThreeDParamSource aspose.slides/ithreedparamsource。
+second_title: Aspose.Slides for .NET API Reference
+description: 允许获取基础 IThreeDParamSource 接口。只读 IThreeDParamSource aspose.slides/ithreedparamsource。
 type: docs
 weight: 10
 url: /zh/aspose.slides/ithreedformateffectivedata/asithreedparamsource/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ithreedformateffectivedata/asithreedparamsource/
 
 ## IThreeDFormatEffectiveData.AsIThreeDParamSource 属性
 
-允许获取基本的 IThreeDParamSource 接口。只读 [`IThreeDParamSource`](../../ithreedparamsource)。
+允许获取基础 IThreeDParamSource 接口。只读 [`IThreeDParamSource`](../../ithreedparamsource)。
 
 ```csharp
 public IThreeDParamSource AsIThreeDParamSource { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IThreeDParamSource](../../ithreedparamsource)
 * 接口 [IThreeDFormatEffectiveData](../../ithreedformateffectivedata)

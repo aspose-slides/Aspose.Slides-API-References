@@ -1,6 +1,6 @@
 ---
 title: IBackgroundEffectiveData
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Reference
 description: Unveränderliches Objekt, das effektive Hintergrundeigenschaften enthält.
 type: docs
 weight: 5080

@@ -1,7 +1,7 @@
 ---
 title: Dpi
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die DPI zurück oder legt sie fest, die zum Ausfüllen eines Bildes verwendet wird. Lese-/Schreibzugriff auf Int32.
+description: Gibt die dpi zurück oder legt sie fest, die zum Füllen eines Bildes verwendet wird. Lese-/Schreibzugriff Int32.
 type: docs
 weight: 60
 url: /de/aspose.slides/ipicturefillformat/dpi/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ipicturefillformat/dpi/
 
 ## IPictureFillFormat.Dpi-Eigenschaft
 
-Gibt die DPI zurück oder legt sie fest, die zum Ausfüllen eines Bildes verwendet wird. Lese-/Schreibzugriff auf Int32.
+Gibt die dpi zurück oder legt sie fest, die zum Füllen eines Bildes verwendet wird. Lese-/Schreibzugriff Int32.
 
 ```csharp
 public int Dpi { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IPictureFillFormat](../../ipicturefillformat)
 * Namespace [Aspose.Slides](../../ipicturefillformat)

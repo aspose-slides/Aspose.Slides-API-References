@@ -1,21 +1,21 @@
 ---
-title: Радиус размытия
-second_title: Справка по API Aspose.Slides для .NET
-description: Радиус размытия. Свойство только для чтения Double.
+title: BlurRadius
+second_title: Aspose.Sildes для .NET API Справочник
+description: Радиус размытия. Только для чтения Double.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/ireflectioneffectivedata/blurradius/
 ---
 
-## Свойство IReflectionEffectiveData.BlurRadius
+## IReflectionEffectiveData.BlurRadius свойство
 
-Радиус размытия. Свойство только для чтения Double.
+Радиус размытия. Только для чтения Double.
 
 ```csharp
 public double BlurRadius { get; }
 ```
 
-### Также см.
+### См. также
 
 * интерфейс [IReflectionEffectiveData](../../ireflectioneffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../ireflectioneffectivedata)

@@ -1,7 +1,7 @@
 ---
 title: ShowComments
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt an, ob die Kommentare zur Folie angezeigt werden sollen. Lese-/Schreibbarer NullableBoolaspose.slides/nullablebool.
+description: Gibt an, ob die Kommentaren zur Folie angezeigt werden sollen. Lese-/Schreibbare NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 50
 url: /de/aspose.slides/iviewproperties/showcomments/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iviewproperties/showcomments/
 
 ## IViewProperties.ShowComments-Eigenschaft
 
-Gibt an, ob die Kommentare zur Folie angezeigt werden sollen. Lese-/Schreibbarer [`NullableBool`](../../nullablebool).
+Gibt an, ob die Kommentaren zur Folie angezeigt werden sollen. Lese-/schreibbar [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool ShowComments { get; set; }

@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Elimina un control ActiveX almacenado en la posición especificada de la colección.
 type: docs
 weight: 50
 url: /es/aspose.slides/icontrolcollection/removeat/
 ---
 
-## Método IControlCollection.RemoveAt
+## IControlCollection.RemoveAt method
 
 Elimina un control ActiveX almacenado en la posición especificada de la colección.
 
@@ -19,10 +19,10 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Índice de un control a eliminar. |
 
-### Véase también
+### Ver También
 
-* interfaz [IControlCollection](../../icontrolcollection)
-* espacio de nombres [Aspose.Slides](../../icontrolcollection)
-* ensamblaje [Aspose.Slides](../../../)
+* interface [IControlCollection](../../icontrolcollection)
+* namespace [Aspose.Slides](../../icontrolcollection)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

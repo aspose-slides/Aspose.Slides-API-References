@@ -1,7 +1,7 @@
 ---
 title: ArrowheadsLocked
-second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob sich die Pfeilspitzen ändern lassen. Lese-/Schreib-Boolean.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Bestimmt, ob sich die Pfeilspitzen ändern dürfen. Lese-/Schreibbare Boolesche Eigenschaft.
 type: docs
 weight: 20
 url: /de/aspose.slides/iconnectorlock/arrowheadslocked/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iconnectorlock/arrowheadslocked/
 
 ## IConnectorLock.ArrowheadsLocked-Eigenschaft
 
-Bestimmt, ob sich die Pfeilspitzen ändern lassen. Lese-/Schreib-Boolean.
+Bestimmt, ob sich die Pfeilspitzen ändern dürfen. Lese-/Schreibbare Boolesche Eigenschaft.
 
 ```csharp
 public bool ArrowheadsLocked { get; set; }

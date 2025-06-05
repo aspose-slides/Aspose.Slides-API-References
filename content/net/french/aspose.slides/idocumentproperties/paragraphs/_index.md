@@ -1,13 +1,13 @@
 ---
-title: Paragraphes
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Paragraphs
+second_title: Référence API Aspose.Slides pour .NET
 description: Spécifie le nombre total de paragraphes trouvés dans un document, le cas échéant. En lecture seule Int32.
 type: docs
 weight: 250
 url: /fr/aspose.slides/idocumentproperties/paragraphs/
 ---
 
-## Propriété IDocumentProperties.Paragraphs
+## IDocumentProperties.Paragraphs property
 
 Spécifie le nombre total de paragraphes trouvés dans un document, le cas échéant. En lecture seule Int32.
 

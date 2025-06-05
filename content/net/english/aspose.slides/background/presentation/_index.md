@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/background/presentation/
 ---
+
 ## Background.Presentation property
 
 Returns the parent presentation of a slide. Read-only [`IPresentation`](../../ipresentation).

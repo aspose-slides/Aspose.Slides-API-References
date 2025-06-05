@@ -1,7 +1,7 @@
 ---
 title: TargetSlide
-second_title: Aspose.Slides für .NET API Referenz
-description: Ruft das Folienobjekt ab oder legt es fest, auf das das Slide Zoom-Objekt verweist. Lesen/Schreiben ISlideaspose.slides/islide.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Ruft das Folienobjekt ab oder legt es fest, auf das das Slide Zoom-Objekt verweist. Lese-/Schreibgeschütz ISlideaspose.slides/islide.
 type: docs
 weight: 20
 url: /de/aspose.slides/izoomframe/targetslide/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/izoomframe/targetslide/
 
 ## IZoomFrame.TargetSlide-Eigenschaft
 
-Ruft das Folienobjekt ab oder legt es fest, auf das das Slide Zoom-Objekt verweist. Lesen/Schreiben [`ISlide`](../../islide).
+Ruft das Folienobjekt ab oder legt es fest, auf das das Slide Zoom-Objekt verweist. Lese-/Schreibgeschützt [`ISlide`](../../islide).
 
 ```csharp
 public ISlide TargetSlide { get; set; }
@@ -17,7 +17,7 @@ public ISlide TargetSlide { get; set; }
 
 ### Beispiele
 
-Das nächste Beispiel zeigt, wie das Ziel-Folie geändert und ein neues Bild für das Slide Zoom-Objekt erstellt wird:
+Das nächste Beispiel zeigt, wie man die Ziel-Folie ändert und ein neues Bild für das Slide Zoom-Objekt erstellt:
 
 ```csharp
 [C#]
@@ -25,7 +25,7 @@ IZoomFrame zoomFrame = pres.Slides[0].Shapes.AddZoomFrame(150, 20, 50, 50, pres.
 zoomFrame.TargetSlide = pres.Slides[2];
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ISlide](../../islide)
 * Schnittstelle [IZoomFrame](../../izoomframe)

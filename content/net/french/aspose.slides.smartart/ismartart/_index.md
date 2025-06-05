@@ -1,6 +1,6 @@
 ---
 title: ISmartArt
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Représente un diagramme SmartArt.
 type: docs
 weight: 10230
@@ -19,13 +19,13 @@ public interface ISmartArt : IGraphicalObject
 
 | Nom | Description |
 | --- | --- |
-| [AllNodes](../../aspose.slides.smartart/ismartart/allnodes) { get; } | Renvoie des collections de tous les nœuds dans l'objet SmartArt. En lecture seule [`ISmartArtNodeCollection`](../ismartartnodecollection). |
-| [AsIGraphicalObject](../../aspose.slides.smartart/ismartart/asigraphicalobject) { get; } | Permet d'obtenir l'interface de base IGraphicalObject. En lecture seule [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
-| [ColorStyle](../../aspose.slides.smartart/ismartart/colorstyle) { get; set; } | Renvoie ou définit le style de couleur de l'objet SmartArt. En lecture/écriture [`SmartArtColorType`](../smartartcolortype). |
-| [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | Renvoie ou définit l'état du diagramme SmartArt en ce qui concerne (de gauche à droite) LTR ou (de droite à gauche) RTL, si le diagramme prend en charge l'inversion. En lecture/écriture Boolean. |
-| [Layout](../../aspose.slides.smartart/ismartart/layout) { get; set; } | Renvoie ou définit la mise en page de l'objet SmartArt. En lecture/écriture [`SmartArtLayoutType`](../smartartlayouttype). |
-| [Nodes](../../aspose.slides.smartart/ismartart/nodes) { get; } | Renvoie des collections de nœuds racines dans l'objet SmartArt. En lecture seule [`ISmartArtNodeCollection`](../ismartartnodecollection). |
-| [QuickStyle](../../aspose.slides.smartart/ismartart/quickstyle) { get; set; } | Renvoie ou définit le style rapide de l'objet SmartArt. En lecture/écriture [`SmartArtQuickStyleType`](../smartartquickstyletype). |
+| [AllNodes](../../aspose.slides.smartart/ismartart/allnodes) { get; } | Renvoie les collections de tous les nœuds dans l'objet SmartArt. Lecture seule [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [AsIGraphicalObject](../../aspose.slides.smartart/ismartart/asigraphicalobject) { get; } | Permet d'obtenir l'interface de base IGraphicalObject. Lecture seule [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [ColorStyle](../../aspose.slides.smartart/ismartart/colorstyle) { get; set; } | Renvoie ou définit le style de couleur de l'objet SmartArt. Lecture/écriture [`SmartArtColorType`](../smartartcolortype). |
+| [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | Renvoie ou définit l'état du diagramme SmartArt par rapport à (de gauche à droite) LTR ou (de droite à gauche) RTL, si le diagramme prend en charge l'inversion. Lecture/écriture Booléen. |
+| [Layout](../../aspose.slides.smartart/ismartart/layout) { get; set; } | Renvoie ou définit la mise en page de l'objet SmartArt. Lecture/écriture [`SmartArtLayoutType`](../smartartlayouttype). |
+| [Nodes](../../aspose.slides.smartart/ismartart/nodes) { get; } | Renvoie les collections de nœuds racines dans l'objet SmartArt. Lecture seule [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [QuickStyle](../../aspose.slides.smartart/ismartart/quickstyle) { get; set; } | Renvoie ou définit le style rapide de l'objet SmartArt. Lecture/écriture [`SmartArtQuickStyleType`](../smartartquickstyletype). |
 
 ### Voir aussi
 

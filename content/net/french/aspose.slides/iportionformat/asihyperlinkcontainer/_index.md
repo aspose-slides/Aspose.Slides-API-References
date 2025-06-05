@@ -1,21 +1,21 @@
 ---
 title: AsIHyperlinkContainer
-second_title: Référence API Aspose.Slides pour .NET
-description: Permet d'obtenir l'interface de base IHyperlinkContainer. Lecture seule IHyperlinkContaineraspose.slides/ihyperlinkcontainer.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Permet d'obtenir l'interface de base IHyperlinkContainer. Interface IHyperlinkContainer en lecture seule aspose.slides/ihyperlinkcontainer.
 type: docs
 weight: 20
 url: /fr/aspose.slides/iportionformat/asihyperlinkcontainer/
 ---
 
-## Propriété IPortionFormat.AsIHyperlinkContainer
+## IPortionFormat.AsIHyperlinkContainer propriété
 
-Permet d'obtenir l'interface de base IHyperlinkContainer. Lecture seule [`IHyperlinkContainer`](../../ihyperlinkcontainer).
+Permet d'obtenir l'interface de base IHyperlinkContainer. Interface en lecture seule [`IHyperlinkContainer`](../../ihyperlinkcontainer).
 
 ```csharp
 public IHyperlinkContainer AsIHyperlinkContainer { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IHyperlinkContainer](../../ihyperlinkcontainer)
 * interface [IPortionFormat](../../iportionformat)

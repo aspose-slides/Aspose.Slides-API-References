@@ -1,15 +1,15 @@
 ---
-title: ЦифроваяПодпись
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новый объект ЦифроваяПодпись с указанным сертификатом.
+title: DigitalSignature
+second_title: Aspose.Sildes для .NET API Справочник
+description: Создает новый объект DigitalSignature с указанным сертификатом.
 type: docs
 weight: 10
 url: /ru/aspose.slides/digitalsignature/digitalsignature/
 ---
 
-## ЦифроваяПодпись(X509Certificate2) {#constructor}
+## DigitalSignature(X509Certificate2) {#constructor}
 
-Создает новый объект ЦифроваяПодпись с указанным сертификатом.
+Создает новый объект DigitalSignature с указанным сертификатом.
 
 ```csharp
 public DigitalSignature(X509Certificate2 certificate)
@@ -19,7 +19,7 @@ public DigitalSignature(X509Certificate2 certificate)
 | --- | --- | --- |
 | certificate | X509Certificate2 | Сертификат, который будет использоваться для подписания презентации. |
 
-### См. также
+### См. Также
 
 * класс [DigitalSignature](../../digitalsignature)
 * пространство имен [Aspose.Slides](../../digitalsignature)
@@ -27,9 +27,9 @@ public DigitalSignature(X509Certificate2 certificate)
 
 ---
 
-## ЦифроваяПодпись(string, string) {#constructor_1}
+## DigitalSignature(string, string) {#constructor_1}
 
-Создает новый объект ЦифроваяПодпись с указанным путем к файлу сертификата и паролем.
+Создает новый объект DigitalSignature с указанным путем к файлу сертификата и паролем.
 
 ```csharp
 public DigitalSignature(string filePath, string password)
@@ -40,7 +40,7 @@ public DigitalSignature(string filePath, string password)
 | filePath | String | Путь к файлу с сертификатом. |
 | password | String | Пароль, необходимый для доступа к сертификату. |
 
-### См. также
+### См. Также
 
 * класс [DigitalSignature](../../digitalsignature)
 * пространство имен [Aspose.Slides](../../digitalsignature)

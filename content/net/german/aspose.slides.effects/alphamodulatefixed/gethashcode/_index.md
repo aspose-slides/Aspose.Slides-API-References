@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
-second_title: Aspose.Slides für .NET API Referenz
-description: Dient als Hash-Funktion für einen bestimmten Typ.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Dient als Hashfunktion für einen bestimmten Typ.
 type: docs
 weight: 40
 url: /de/aspose.slides.effects/alphamodulatefixed/gethashcode/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/alphamodulatefixed/gethashcode/
 
 ## AlphaModulateFixed.GetHashCode-Methode
 
-Dient als Hash-Funktion für einen bestimmten Typ.
+Dient als Hashfunktion für einen bestimmten Typ.
 
 ```csharp
 public override int GetHashCode()

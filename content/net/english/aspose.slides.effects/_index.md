@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.effects/
 ---
+
 Contains classes for work with various effects in Microsoft PowerPoint presentations.
 
 ## Classes

@@ -1,15 +1,15 @@
 ---
 title: CreateAlphaReplace
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Crée un effet de remplacement alpha.
+second_title: Aspose.Slides pour .NET API Reference
+description: Crée un effet de remplacement Alpha.
 type: docs
 weight: 60
 url: /fr/aspose.slides.effects/iimagetransformoperationfactory/createalphareplace/
 ---
 
-## Méthode IImageTransformOperationFactory.CreateAlphaReplace
+## IImageTransformOperationFactory.CreateAlphaReplace méthode
 
-Crée un effet de remplacement alpha.
+Crée un effet de remplacement Alpha.
 
 ```csharp
 public IAlphaReplace CreateAlphaReplace(float alpha)
@@ -21,9 +21,9 @@ public IAlphaReplace CreateAlphaReplace(float alpha)
 
 ### Valeur de retour
 
-Effet de remplacement alpha.
+Effet de remplacement Alpha.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IAlphaReplace](../../ialphareplace)
 * interface [IImageTransformOperationFactory](../../iimagetransformoperationfactory)

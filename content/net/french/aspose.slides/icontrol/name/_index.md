@@ -1,6 +1,6 @@
 ---
-title: Nom
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Name
+second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie le nom de ce contrôle. Chaîne en lecture/écriture.
 type: docs
 weight: 50

@@ -1,7 +1,7 @@
 ---
 title: IEffectFormat
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет свойства эффектов формы.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет свойства эффекта формы.
 type: docs
 weight: 5540
 url: /ru/aspose.slides/ieffectformat/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ieffectformat/
 
 ## Интерфейс IEffectFormat
 
-Представляет свойства эффектов формы.
+Представляет свойства эффекта формы.
 
 ```csharp
 public interface IEffectFormat : IEffectParamSource
@@ -24,9 +24,9 @@ public interface IEffectFormat : IEffectParamSource
 | [FillOverlayEffect](../../aspose.slides/ieffectformat/filloverlayeffect) { get; set; } | Эффект наложения заливки. Чтение/запись [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
 | [GlowEffect](../../aspose.slides/ieffectformat/gloweffect) { get; set; } | Эффект свечения. Чтение/запись [`IGlow`](../../aspose.slides.effects/iglow). |
 | [InnerShadowEffect](../../aspose.slides/ieffectformat/innershadoweffect) { get; set; } | Внутренняя тень. Чтение/запись [`IInnerShadow`](../../aspose.slides.effects/iinnershadow). |
-| [IsNoEffects](../../aspose.slides/ieffectformat/isnoeffects) { get; } | Возвращает true, если все эффекты отключены (как только создан, объект EffectFormat по умолчанию). Только для чтения Boolean. |
+| [IsNoEffects](../../aspose.slides/ieffectformat/isnoeffects) { get; } | Возвращает true, если все эффекты отключены (как только создан объект EffectFormat по умолчанию). Чтение только логическое значение. |
 | [OuterShadowEffect](../../aspose.slides/ieffectformat/outershadoweffect) { get; set; } | Внешняя тень. Чтение/запись [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
-| [PresetShadowEffect](../../aspose.slides/ieffectformat/presetshadoweffect) { get; set; } | Предустановленная тень. Чтение/запись [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
+| [PresetShadowEffect](../../aspose.slides/ieffectformat/presetshadoweffect) { get; set; } | Заданная тень. Чтение/запись [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
 | [ReflectionEffect](../../aspose.slides/ieffectformat/reflectioneffect) { get; set; } | Отражение. Чтение/запись [`IReflection`](../../aspose.slides.effects/ireflection). |
 | [SoftEdgeEffect](../../aspose.slides/ieffectformat/softedgeeffect) { get; set; } | Мягкий край. Чтение/запись [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
 
@@ -39,17 +39,17 @@ public interface IEffectFormat : IEffectParamSource
 | [DisableGlowEffect](../../aspose.slides/ieffectformat/disablegloweffect)() | Отключает эффект свечения. |
 | [DisableInnerShadowEffect](../../aspose.slides/ieffectformat/disableinnershadoweffect)() | Отключает эффект внутренней тени. |
 | [DisableOuterShadowEffect](../../aspose.slides/ieffectformat/disableoutershadoweffect)() | Отключает эффект внешней тени. |
-| [DisablePresetShadowEffect](../../aspose.slides/ieffectformat/disablepresetshadoweffect)() | Отключает эффект предустановленной тени. |
+| [DisablePresetShadowEffect](../../aspose.slides/ieffectformat/disablepresetshadoweffect)() | Отключает эффект заданной тени. |
 | [DisableReflectionEffect](../../aspose.slides/ieffectformat/disablereflectioneffect)() | Отключает эффект отражения. |
 | [DisableSoftEdgeEffect](../../aspose.slides/ieffectformat/disablesoftedgeeffect)() | Отключает эффект мягкого края. |
 | [EnableFillOverlayEffect](../../aspose.slides/ieffectformat/enablefilloverlayeffect)() | Включает эффект наложения заливки. |
 | [EnableGlowEffect](../../aspose.slides/ieffectformat/enablegloweffect)() | Включает эффект свечения. |
 | [EnableInnerShadowEffect](../../aspose.slides/ieffectformat/enableinnershadoweffect)() | Включает эффект внутренней тени. |
 | [EnableOuterShadowEffect](../../aspose.slides/ieffectformat/enableoutershadoweffect)() | Включает эффект внешней тени. |
-| [EnablePresetShadowEffect](../../aspose.slides/ieffectformat/enablepresetshadoweffect)() | Включает эффект предустановленной тени. |
+| [EnablePresetShadowEffect](../../aspose.slides/ieffectformat/enablepresetshadoweffect)() | Включает эффект заданной тени. |
 | [EnableReflectionEffect](../../aspose.slides/ieffectformat/enablereflectioneffect)() | Включает эффект отражения. |
 | [EnableSoftEdgeEffect](../../aspose.slides/ieffectformat/enablesoftedgeeffect)() | Включает эффект мягкого края. |
-| [GetEffective](../../aspose.slides/ieffectformat/geteffective)() | Получает эффективные данные форматирования эффектов с применением наследования. |
+| [GetEffective](../../aspose.slides/ieffectformat/geteffective)() | Получает данные эффективного форматирования эффекта с применением наследования. |
 | [SetBlurEffect](../../aspose.slides/ieffectformat/setblureffect)(double, bool) | Устанавливает эффект размытия. |
 
 ### Смотрите также
@@ -58,4 +58,4 @@ public interface IEffectFormat : IEffectParamSource
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 
-<!-- DO NOT EDIT: сгенерировано xmldocmd для Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

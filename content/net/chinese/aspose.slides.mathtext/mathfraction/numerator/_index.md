@@ -1,7 +1,7 @@
 ---
-title: 分子
-second_title: Aspose.Slides for .NET API 参考
-description: 分子
+title: Numerator
+second_title: Aspose.Sildes for .NET API Reference
+description: Numerator
 type: docs
 weight: 40
 url: /zh/aspose.slides.mathtext/mathfraction/numerator/
@@ -25,7 +25,7 @@ IMathFraction mathFraction = new MathematicalText("x").Divide("y");
 IMathElement numerator = mathFraction.Numerator;
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IMathElement](../../imathelement)
 * 类 [MathFraction](../../mathfraction)

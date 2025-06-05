@@ -1,7 +1,7 @@
 ---
 title: ConvertToSmartArt
-second_title: Aspose.Slides für .NET API-Referenz
-description: Konvertiert ein legacy-Diagramm in ein bearbeitbares SmartArt-Objekt. Das erstellte SmartArt-Objekt wird an der gleichen Position zur übergeordneten Gruppengeometrie hinzugefügt.
+second_title: Aspose.Slides für .NET API Referenz
+description: Konvertiert klassisches Diagramm in ein bearbeitbares SmartArt-Objekt. Das erstellte SmartArt-Objekt wird an der gleichen Position zur übergeordneten Gruppengeometrie hinzugefügt.
 type: docs
 weight: 30
 url: /de/aspose.slides/legacydiagram/converttosmartart/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/legacydiagram/converttosmartart/
 
 ## LegacyDiagram.ConvertToSmartArt-Methode
 
-Konvertiert ein legacy-Diagramm in ein bearbeitbares SmartArt-Objekt. Das erstellte SmartArt-Objekt wird an der gleichen Position zur übergeordneten Gruppengeometrie hinzugefügt.
+Konvertiert klassisches Diagramm in ein bearbeitbares SmartArt-Objekt. Das erstellte SmartArt-Objekt wird an der gleichen Position zur übergeordneten Gruppengeometrie hinzugefügt.
 
 ```csharp
 public ISmartArt ConvertToSmartArt()

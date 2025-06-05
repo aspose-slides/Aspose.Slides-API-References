@@ -1,36 +1,36 @@
----
+---  
 title: CreateMathSuperscriptElement
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Reference  
 description: Crea IMathSuperscriptElement
-type: docs
-weight: 20
+type: docs  
+weight: 20  
 url: /es/aspose.slides.mathtext/mathsuperscriptelementfactory/createmathsuperscriptelement/
----
+---  
 
-## MathSuperscriptElementFactory.CreateMathSuperscriptElement método
+## MathSuperscriptElementFactory.CreateMathSuperscriptElement method  
 
-Crea IMathSuperscriptElement
+Crea IMathSuperscriptElement  
 
-```csharp
-public IMathSuperscriptElement CreateMathSuperscriptElement(IMathElement baseArg, 
-    IMathElement superScript)
-```
+```csharp  
+public IMathSuperscriptElement CreateMathSuperscriptElement(IMathElement baseArg,  
+    IMathElement superScript)  
+```  
 
-| Parámetro | Tipo | Descripción |
-| --- | --- | --- |
-| baseArg | IMathElement | Argumento base para aplicar el superíndice |
-| superScript | IMathElement | Índice en la parte superior derecha |
+| Parámetro | Tipo | Descripción |  
+| --- | --- | --- |  
+| baseArg | IMathElement | Argumento base para aplicar superíndice |  
+| superScript | IMathElement | índice superior derecho |  
 
-### Valor de Retorno
+### Valor de retorno  
 
-nuevo IMathSuperscriptElement
+nuevo IMathSuperscriptElement  
 
-### Véase También
+### Véase también  
 
-* interfaz [IMathSuperscriptElement](../../imathsuperscriptelement)
-* interfaz [IMathElement](../../imathelement)
-* clase [MathSuperscriptElementFactory](../../mathsuperscriptelementfactory)
-* espacio de nombres [Aspose.Slides.MathText](../../mathsuperscriptelementfactory)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IMathSuperscriptElement](../../imathsuperscriptelement)  
+* interfaz [IMathElement](../../imathelement)  
+* clase [MathSuperscriptElementFactory](../../mathsuperscriptelementfactory)  
+* espacio de nombres [Aspose.Slides.MathText](../../mathsuperscriptelementfactory)  
+* ensamblado [Aspose.Slides](../../../)  
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  

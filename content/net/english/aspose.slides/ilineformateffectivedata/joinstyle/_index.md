@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides/ilineformateffectivedata/joinstyle/
 ---
+
 ## ILineFormatEffectiveData.JoinStyle property
 
 Returns the lines join style. Read-only [`LineJoinStyle`](../../linejoinstyle).

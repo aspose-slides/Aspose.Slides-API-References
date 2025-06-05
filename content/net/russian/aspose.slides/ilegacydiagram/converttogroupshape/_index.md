@@ -1,7 +1,7 @@
 ---
 title: ConvertToGroupShape
-second_title: Aspose.Slides для .NET API Список
-description: Преобразует устаревший диграм в редактируемую группу формы. Созданный объект GroupShape добавляется в родительскую группу формы в том же положении.
+second_title: Aspose.Slides для .NET API Reference
+description: Преобразует устаревший диаграмму в редактируемую группу. Созданный объект GroupShape добавляется в родительскую группу на том же месте.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ilegacydiagram/converttogroupshape/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ilegacydiagram/converttogroupshape/
 
 ## ILegacyDiagram.ConvertToGroupShape метод
 
-Преобразует устаревший диграм в редактируемую группу формы. Созданный объект GroupShape добавляется в родительскую группу формы в том же положении.
+Преобразует устаревший диаграмму в редактируемую группу. Созданный объект GroupShape добавляется в родительскую группу на том же месте.
 
 ```csharp
 public IGroupShape ConvertToGroupShape()

@@ -1,7 +1,7 @@
 ---
-title: 项
-second_title: Aspose.Slides for .NET API 参考
-description: 返回指定位置的控件。
+title: Item
+second_title: Aspose.Slides for .NET API Reference
+description: 返回指定位置的控制项。
 type: docs
 weight: 30
 url: /zh/aspose.slides/controlcollection/item/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/controlcollection/item/
 
 ## ControlCollection 索引器
 
-返回指定位置的控件。
+返回指定位置的控制项。
 
 ```csharp
 public IControl this[int index] { get; }
@@ -17,7 +17,7 @@ public IControl this[int index] { get; }
 
 | 参数 | 描述 |
 | --- | --- |
-| index | 控件的索引。 |
+| index | 控制项的索引。 |
 
 ### 参见
 

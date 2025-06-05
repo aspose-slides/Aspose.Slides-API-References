@@ -1,15 +1,15 @@
 ---
 title: FlyThroughTransition
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Эффект перехода с пролетающим слайдом.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Эффект перехода с пролётом.
 type: docs
 weight: 9730
 url: /ru/aspose.slides.slideshow/flythroughtransition/
 ---
 
-## Класс FlyThroughTransition
+## FlyThroughTransition класс
 
-Эффект перехода с пролетающим слайдом.
+Эффект перехода с пролётом.
 
 ```csharp
 public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
@@ -26,8 +26,8 @@ public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит в качестве хеш-функции для конкретного типа, подходящей для использования в хеширующих алгоритмах и структурах данных, таких как хеш-таблица. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли две экземпляра TransitionValueBase. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Используется в качестве хеш-функции для конкретного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хеш-таблица. |
 
 ### См. также
 

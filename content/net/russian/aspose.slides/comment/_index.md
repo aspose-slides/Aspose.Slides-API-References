@@ -1,13 +1,13 @@
 ---
-title: Комментарий
-second_title: Справка по API Aspose.Sildes для .NET
+title: Comment
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет комментарий на слайде.
 type: docs
 weight: 2530
 url: /ru/aspose.slides/comment/
 ---
 
-## Класс Comment
+## Comment class
 
 Представляет комментарий на слайде.
 
@@ -15,26 +15,26 @@ url: /ru/aspose.slides/comment/
 public class Comment : IComment
 ```
 
-## Свойства
+## Properties
 
-| Название | Описание |
+| Name | Description |
 | --- | --- |
 | [Author](../../aspose.slides/comment/author) { get; } | Возвращает автора комментария. Только для чтения [`ICommentAuthor`](../icommentauthor). |
 | [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Возвращает или задает время создания комментария. Установка этого свойства в MinValue означает, что время комментария не установлено. Чтение/запись DateTime. |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Получает или устанавливает родительский комментарий. Чтение/запись [`IComment`](../icomment). |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Получает или задает родительский комментарий. Чтение/запись [`IComment`](../icomment). |
 | [Position](../../aspose.slides/comment/position) { get; set; } | Возвращает или задает позицию комментария на слайде. Чтение/запись PointF. |
-| [Slide](../../aspose.slides/comment/slide) { get; } | Возвращает или устанавливает родительский слайд комментария. Только для чтения [`ISlide`](../islide). |
-| [Text](../../aspose.slides/comment/text) { get; set; } | Возвращает или задает простой текст комментария на слайде. Чтение/запись String. |
+| [Slide](../../aspose.slides/comment/slide) { get; } | Возвращает или задает родительский слайд комментария. Только для чтения [`ISlide`](../islide). |
+| [Text](../../aspose.slides/comment/text) { get; set; } | Возвращает или задает текст комментария на слайде. Чтение/запись String. |
 
-## Методы
+## Methods
 
-| Название | Описание |
+| Name | Description |
 | --- | --- |
 | [Remove](../../aspose.slides/comment/remove)() | Удаляет комментарий и все его ответы из родительской коллекции. |
 
-### Примеры
+### Examples
 
-Этот пример показывает, как добавить комментарий к слайду в презентации PowerPoint.
+Этот пример показывает, как добавить комментарий на слайд в презентации PowerPoint.
 
 ```csharp
 [C#]
@@ -49,11 +49,11 @@ using (Presentation presentation = new Presentation())
     PointF point = new PointF();
     point.X = 0.2f;
     point.Y = 0.2f;
-    // Добавляет комментарий слайда для автора на слайде 1
+    // Добавляет комментарий к слайду для автора на слайде 1
     author.Comments.AddComment("Hello Jawad, this is slide comment", presentation.Slides[0], point, DateTime.Now);
-    // Добавляет комментарий слайда для автора на слайде 2
+    // Добавляет комментарий к слайду для автора на слайде 2
     author.Comments.AddComment("Hello Jawad, this is second slide comment", presentation.Slides[1], point, DateTime.Now);
-    // Сохраняет файл презентации PowerPoint
+	// Сохраняет файл PowerPoint Presentation
     presentation.Save("Comments_out.pptx", SaveFormat.Pptx);
 }
 ```
@@ -65,15 +65,15 @@ using (Presentation presentation = new Presentation())
 // Создает экземпляр класса Presentation
 using (Presentation presentation = new Presentation("Comments1.pptx"))
 {
-    // Перебирает CommentAuthors
+	// Перебирает CommentAuthors
     foreach (var commentAuthor in presentation.CommentAuthors)
     {
         var author = (CommentAuthor) commentAuthor;
-        // Перебирает Comments
+		// Перебирает Comments
         foreach (var comment1 in author.Comments)
         {
             var comment = (Comment) comment1;
-            Console.WriteLine("ISlide :" + comment.Slide.SlideNumber + " имеет комментарий: " + comment.Text + " с Автором: " + comment.Author.Name + " опубликовано в: " + comment.CreatedTime + "\n");
+            Console.WriteLine("ISlide :" + comment.Slide.SlideNumber + " has comment: " + comment.Text + " with Author: " + comment.Author.Name + " posted on time :" + comment.CreatedTime + "\n");
         }
     }
 }
@@ -93,7 +93,7 @@ using (Presentation pres = new Presentation())
     ICommentAuthor author2 = pres.CommentAuthors.AddAuthor("Autror_2", "B.B.");
     IComment reply1 = author2.Comments.AddComment("reply 1 for comment 1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     reply1.ParentComment = comment1;
-    // Добавляет другой ответ на comment1
+    // Добавляет еще один ответ на comment1
     IComment reply2 = author2.Comments.AddComment("reply 2 for comment 1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     reply2.ParentComment = comment1;
     // Добавляет ответ на существующий ответ
@@ -124,10 +124,10 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Также посмотрите
+### See Also
 
-* интерфейс [IComment](../icomment)
-* пространство имен [Aspose.Slides](../../aspose.slides)
-* сборка [Aspose.Slides](../../)
+* interface [IComment](../icomment)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

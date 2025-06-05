@@ -1,27 +1,27 @@
 ---
 title: GetEffective
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Получает данные об эффективном форматировании маркеров с применением наследования.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает данные эффективного форматирования маркеров с применением наследования.
 type: docs
 weight: 120
 url: /ru/aspose.slides/bulletformat/geteffective/
 ---
 
-## Метод BulletFormat.GetEffective
+## BulletFormat.GetEffective метод
 
-Получает данные об эффективном форматировании маркеров с применением наследования.
+Получает данные эффективного форматирования маркеров с применением наследования.
 
 ```csharp
 public IBulletFormatEffectiveData GetEffective()
 ```
 
-### Возвращаемое значение
+### Значение Возврата
 
 [`IBulletFormatEffectiveData`](../../ibulletformateffectivedata).
 
 ### Примеры
 
-Этот пример демонстрирует получение некоторых свойств эффективного форматирования маркеров.
+Этот пример демонстрирует получение некоторых свойств эффективного формата маркеров.
 
 ```csharp
 [C#]
@@ -33,13 +33,13 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 	Console.WriteLine("Тип маркера: " + effectiveBulletFormat.Type);
 	if (effectiveBulletFormat.Type == BulletType.Numbered)
 	{
-	    Console.WriteLine("Номерованная стилистика: " + effectiveBulletFormat.NumberedBulletStyle);
+	    Console.WriteLine("Нумерованный стиль: " + effectiveBulletFormat.NumberedBulletStyle);
 	    Console.WriteLine("Начальный номер: " + effectiveBulletFormat.NumberedBulletStartWith);
 	}
 }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IBulletFormatEffectiveData](../../ibulletformateffectivedata)
 * класс [BulletFormat](../../bulletformat)

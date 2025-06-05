@@ -1,7 +1,7 @@
 ---
 title: SetAllSlideNumbersVisibility
-second_title: Aspose.Slides for .NET API Reference
-description: 更改所有页面编号占位符的可见性，包括主幻灯片、布局幻灯片、幻灯片、笔记主、笔记幻灯片和讲义主。
+second_title: Aspose.Sildes for .NET API Reference
+description: 改变所有页码占位符的可见性，包括母版幻灯片、布局幻灯片、幻灯片、备注母版、备注幻灯片和讲义母版。
 type: docs
 weight: 70
 url: /zh/aspose.slides/presentationheaderfootermanager/setallslidenumbersvisibility/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/presentationheaderfootermanager/setallslidenumbersvisibil
 
 ## PresentationHeaderFooterManager.SetAllSlideNumbersVisibility 方法
 
-更改所有页面编号占位符的可见性，包括主幻灯片、布局幻灯片、幻灯片、笔记主、笔记幻灯片和讲义主。
+改变所有页码占位符的可见性，包括母版幻灯片、布局幻灯片、幻灯片、备注母版、备注幻灯片和讲义母版。
 
 ```csharp
 public void SetAllSlideNumbersVisibility(bool isVisible)
@@ -17,9 +17,9 @@ public void SetAllSlideNumbersVisibility(bool isVisible)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| isVisible | Boolean | true - 使页面编号占位符可见，否则 - 隐藏它们。 |
+| isVisible | Boolean | true - 使页码占位符可见，否则 - 隐藏它们。 |
 
-### 另见
+### 另请参阅
 
 * class [PresentationHeaderFooterManager](../../presentationheaderfootermanager)
 * namespace [Aspose.Slides](../../presentationheaderfootermanager)

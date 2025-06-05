@@ -1,15 +1,15 @@
 ---
-title: Mayor
+title: Major
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve la colección de fuentes para una parte de "encabezado" de la diapositiva. Solo lectura IFontsEffectiveDataaspose.slides/ifontseffectivedata.
+description: Devuelve la colección de fuentes para una parte "encabezado" de la diapositiva. Solo lectura IFontsEffectiveData aspose.slides/ifontseffectivedata.
 type: docs
 weight: 10
 url: /es/aspose.slides.theme/ifontschemeeffectivedata/major/
 ---
 
-## Propiedad IFontSchemeEffectiveData.Major
+## IFontSchemeEffectiveData.Major property
 
-Devuelve la colección de fuentes para una parte de "encabezado" de la diapositiva. Solo lectura [`IFontsEffectiveData`](../../../aspose.slides/ifontseffectivedata).
+Devuelve la colección de fuentes para una parte "encabezado" de la diapositiva. Solo lectura [`IFontsEffectiveData`](../../../aspose.slides/ifontseffectivedata).
 
 ```csharp
 public IFontsEffectiveData Major { get; }

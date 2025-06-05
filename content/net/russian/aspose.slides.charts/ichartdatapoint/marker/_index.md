@@ -1,7 +1,7 @@
 ---
-title: Маркер
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает маркер данных. Только для чтения IMarkeraspose.slides.charts/imarker.
+title: Marker
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Указывает на маркер данных. Только для чтения IMarkeraspose.slides.charts/imarker.
 type: docs
 weight: 120
 url: /ru/aspose.slides.charts/ichartdatapoint/marker/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/ichartdatapoint/marker/
 
 ## Свойство IChartDataPoint.Marker
 
-Указывает маркер данных. Только для чтения [`IMarker`](../../imarker).
+Указывает на маркер данных. Только для чтения [`IMarker`](../../imarker).
 
 ```csharp
 public IMarker Marker { get; }

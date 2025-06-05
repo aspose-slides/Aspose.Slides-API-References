@@ -1,7 +1,7 @@
 ---
-title: Initialen
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Initialen des Autors zurück oder legt sie fest. Lese-/Schreib-String.
+title: Initials
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Initialen des Autors zurück oder setzt sie. Lese-/Schreib-Zeichenfolge.
 type: docs
 weight: 20
 url: /de/aspose.slides/commentauthor/initials/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/commentauthor/initials/
 
 ## CommentAuthor.Initials-Eigenschaft
 
-Gibt die Initialen des Autors zurück oder legt sie fest. Lese-/Schreib-String.
+Gibt die Initialen des Autors zurück oder setzt sie. Lese-/Schreib-Zeichenfolge.
 
 ```csharp
 public string Initials { get; set; }

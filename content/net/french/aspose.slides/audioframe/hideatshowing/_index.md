@@ -1,7 +1,7 @@
 ---
 title: HideAtShowing
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si un AudioFrame est masqué. Booléen en lecture/écriture.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Détermine si un AudioFrame est caché. Booléen en lecture/écriture.
 type: docs
 weight: 90
 url: /fr/aspose.slides/audioframe/hideatshowing/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/audioframe/hideatshowing/
 
 ## Propriété AudioFrame.HideAtShowing
 
-Détermine si un AudioFrame est masqué. Booléen en lecture/écriture.
+Détermine si un AudioFrame est caché. Booléen en lecture/écriture.
 
 ```csharp
 public bool HideAtShowing { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [AudioFrame](../../audioframe)
 * espace de noms [Aspose.Slides](../../audioframe)

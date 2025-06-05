@@ -1,7 +1,7 @@
 ---
 title: SetUpperLimit
 second_title: Aspose.Sildes for .NET API Reference
-description: 取上限
+description: 接受上限
 type: docs
 weight: 170
 url: /zh/aspose.slides.mathtext/mathelementbase/setupperlimit/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathelementbase/setupperlimit/
 
 ## SetUpperLimit(IMathElement) {#setupperlimit}
 
-取上限
+接受上限
 
 ```csharp
 public IMathLimit SetUpperLimit(IMathElement limit)
@@ -17,11 +17,11 @@ public IMathLimit SetUpperLimit(IMathElement limit)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| limit | IMathElement | 上限 |
+| limit | IMathElement | limit |
 
 ### 返回值
 
-[`IMathLimit`](../../imathlimit) 的新实例
+类型为 [`IMathLimit`](../../imathlimit) 的新实例
 
 ### 示例
 
@@ -34,7 +34,7 @@ IMathElement limitValue = new MathematicalText("y−>1");
 var limitElement = baseElement.SetUpperLimit(limitValue);
 ```
 
-### 参见
+### 另见
 
 * 接口 [IMathLimit](../../imathlimit)
 * 接口 [IMathElement](../../imathelement)
@@ -46,7 +46,7 @@ var limitElement = baseElement.SetUpperLimit(limitValue);
 
 ## SetUpperLimit(string) {#setupperlimit_1}
 
-取上限
+接受上限
 
 ```csharp
 public IMathLimit SetUpperLimit(string limit)
@@ -54,11 +54,11 @@ public IMathLimit SetUpperLimit(string limit)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| limit | String | 上限 |
+| limit | String | limit |
 
 ### 返回值
 
-[`IMathLimit`](../../imathlimit) 的新实例
+类型为 [`IMathLimit`](../../imathlimit) 的新实例
 
 ### 示例
 
@@ -70,7 +70,7 @@ IMathElement baseElement = new MathematicalText("y");
 var limitElement = baseElement.SetUpperLimit("y−>1");
 ```
 
-### 参见
+### 另见
 
 * 接口 [IMathLimit](../../imathlimit)
 * 类 [MathElementBase](../../mathelementbase)

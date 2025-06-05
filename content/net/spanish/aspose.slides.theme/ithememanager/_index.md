@@ -1,7 +1,7 @@
 ---
 title: IThemeManager
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa las propiedades de tema.
+description: Representa propiedades del tema.
 type: docs
 weight: 11080
 url: /es/aspose.slides.theme/ithememanager/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.theme/ithememanager/
 
 ## Interfaz IThemeManager
 
-Representa las propiedades de tema.
+Representa propiedades del tema.
 
 ```csharp
 public interface IThemeManager
@@ -19,12 +19,12 @@ public interface IThemeManager
 
 | Nombre | Descripción |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/ithememanager/applycolorscheme)(IExtraColorScheme) | Aplica un esquema de color adicional a una diapositiva. |
+| [ApplyColorScheme](../../aspose.slides.theme/ithememanager/applycolorscheme)(IExtraColorScheme) | Aplica un esquema de colores extra a una diapositiva. |
 | [CreateThemeEffective](../../aspose.slides.theme/ithememanager/createthemeeffective)() | Devuelve el objeto de tema. |
 
-### Vea También
+### Ver También
 
 * espacio de nombres [Aspose.Slides.Theme](../../aspose.slides.theme)
-* ensamblado [Aspose.Slides](../../)
+* ensamblaje [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

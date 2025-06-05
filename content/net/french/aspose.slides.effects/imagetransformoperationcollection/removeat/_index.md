@@ -7,7 +7,7 @@ weight: 270
 url: /fr/aspose.slides.effects/imagetransformoperationcollection/removeat/
 ---
 
-## Méthode ImageTransformOperationCollection.RemoveAt
+## ImageTransformOperationCollection.RemoveAt méthode
 
 Supprime un effet d'image d'une collection à l'index spécifié.
 
@@ -19,7 +19,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Index d'un effet d'image qui doit être supprimé. |
 
-### Voir aussi
+### Voir Aussi
 
 * classe [ImageTransformOperationCollection](../../imagetransformoperationcollection)
 * espace de noms [Aspose.Slides.Effects](../../imagetransformoperationcollection)

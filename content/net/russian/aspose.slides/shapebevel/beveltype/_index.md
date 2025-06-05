@@ -1,21 +1,21 @@
 ---
 title: BevelType
 second_title: Aspose.Slides для .NET API Справочник
-description: Тип фаски. Чтение/запись BevelPresetTypeaspose.slides/bevelpresettype.
+description: Тип среза. Чтение/запись BevelPresetTypeaspose.slides/bevelpresettype.
 type: docs
 weight: 20
 url: /ru/aspose.slides/shapebevel/beveltype/
 ---
 
-## ShapeBevel.BevelType свойство
+## Свойство ShapeBevel.BevelType
 
-Тип фаски. Чтение/запись [`BevelPresetType`](../../bevelpresettype).
+Тип среза. Чтение/запись [`BevelPresetType`](../../bevelpresettype).
 
 ```csharp
 public BevelPresetType BevelType { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [BevelPresetType](../../bevelpresettype)
 * class [ShapeBevel](../../shapebevel)

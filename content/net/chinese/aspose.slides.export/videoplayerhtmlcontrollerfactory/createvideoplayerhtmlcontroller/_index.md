@@ -1,6 +1,6 @@
 ---
 title: CreateVideoPlayerHtmlController
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建新的 VideoPlayerHtmlController。
 type: docs
 weight: 20
@@ -22,7 +22,7 @@ public IVideoPlayerHtmlController CreateVideoPlayerHtmlController(string path, s
 | fileName | String | 文件名。 |
 | baseUri | String | 基础 URI。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IVideoPlayerHtmlController](../../ivideoplayerhtmlcontroller)
 * 类 [VideoPlayerHtmlControllerFactory](../../videoplayerhtmlcontrollerfactory)

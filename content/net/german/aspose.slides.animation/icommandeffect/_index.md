@@ -1,7 +1,7 @@
 ---
 title: ICommandEffect
-second_title: Aspose.Slides für .NET API-Referenz
-description: Repräsentiert einen Befehlseffekt für ein Animationsverhalten.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt einen Befehlseffekt für ein Animationsverhalten dar.
 type: docs
 weight: 400
 url: /de/aspose.slides.animation/icommandeffect/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/icommandeffect/
 
 ## ICommandEffect-Schnittstelle
 
-Repräsentiert einen Befehlseffekt für ein Animationsverhalten.
+Stellt einen Befehlseffekt für ein Animationsverhalten dar.
 
 ```csharp
 public interface ICommandEffect : IBehavior
@@ -19,12 +19,12 @@ public interface ICommandEffect : IBehavior
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/icommandeffect/asibehavior) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IBehavior. Nur lesbar [`IBehavior`](../ibehavior). |
-| [CommandString](../../aspose.slides.animation/icommandeffect/commandstring) { get; set; } | Definiert den Befehlsstring. Lese-/Schreibzugriff String. |
-| [ShapeTarget](../../aspose.slides.animation/icommandeffect/shapetarget) { get; set; } | Definiert das Zielshape des Befehlseffekts. Lese-/Schreibzugriff [`IShape`](../../aspose.slides/ishape). |
-| [Type](../../aspose.slides.animation/icommandeffect/type) { get; set; } | Definiert den Typ des Befehlseffekts im Verhalten. Lese-/Schreibzugriff [`CommandEffectType`](../commandeffecttype). |
+| [AsIBehavior](../../aspose.slides.animation/icommandeffect/asibehavior) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IBehavior. Nur-lesbar [`IBehavior`](../ibehavior). |
+| [CommandString](../../aspose.slides.animation/icommandeffect/commandstring) { get; set; } | Definiert den Befehlstring. Lese-/Schreib-String. |
+| [ShapeTarget](../../aspose.slides.animation/icommandeffect/shapetarget) { get; set; } | Definiert das Formziel des Befehlseffekts. Lese-/Schreib- [`IShape`](../../aspose.slides/ishape). |
+| [Type](../../aspose.slides.animation/icommandeffect/type) { get; set; } | Definiert den Typ des Befehlseffekts des Verhaltens. Lese-/Schreib- [`CommandEffectType`](../commandeffecttype). |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IBehavior](../ibehavior)
 * Namespace [Aspose.Slides.Animation](../../aspose.slides.animation)

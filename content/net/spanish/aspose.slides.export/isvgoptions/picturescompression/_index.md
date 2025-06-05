@@ -1,7 +1,7 @@
 ---
 title: PicturesCompression
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa el nivel de compresión de imágenes Leer/escribir PicturesCompressionaspose.slides.export/isvgoptions/picturescompression.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Representa el nivel de compresión de imágenes Lectura/escritura PicturesCompressionaspose.slides.export/isvgoptions/picturescompression.
 type: docs
 weight: 110
 url: /es/aspose.slides.export/isvgoptions/picturescompression/
@@ -9,13 +9,13 @@ url: /es/aspose.slides.export/isvgoptions/picturescompression/
 
 ## Propiedad ISVGOptions.PicturesCompression
 
-Representa el nivel de compresión de imágenes Leer/escribir `PicturesCompression`.
+Representa el nivel de compresión de imágenes Lectura/escritura `PicturesCompression`.
 
 ```csharp
 public PicturesCompression PicturesCompression { get; set; }
 ```
 
-### Ver También
+### Ve también
 
 * enum [PicturesCompression](../../picturescompression)
 * interface [ISVGOptions](../../isvgoptions)

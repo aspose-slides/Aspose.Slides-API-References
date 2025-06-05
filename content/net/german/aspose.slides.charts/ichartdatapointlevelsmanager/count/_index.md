@@ -1,7 +1,7 @@
 ---
-title: Anzahl
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Anzahl der Datenpunktlevel zurück.
+title: Count
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Anzahl der Datenpunkt-Ebenen zurück.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/ichartdatapointlevelsmanager/count/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/ichartdatapointlevelsmanager/count/
 
 ## IChartDataPointLevelsManager.Count-Eigenschaft
 
-Gibt die Anzahl der Datenpunktlevel zurück.
+Gibt die Anzahl der Datenpunkt-Ebenen zurück.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IChartDataPointLevelsManager](../../ichartdatapointlevelsmanager)
 * Namespace [Aspose.Slides.Charts](../../ichartdatapointlevelsmanager)

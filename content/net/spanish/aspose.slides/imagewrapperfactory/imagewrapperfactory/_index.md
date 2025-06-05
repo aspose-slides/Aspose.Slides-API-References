@@ -1,7 +1,7 @@
 ---
 title: ImageWrapperFactory
-second_title: Aspose.Slidess para .NET API Reference
-description: El constructor por defecto.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: El constructor predeterminado.
 type: docs
 weight: 10
 url: /es/aspose.slides/imagewrapperfactory/imagewrapperfactory/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/imagewrapperfactory/imagewrapperfactory/
 
 ## Constructor de ImageWrapperFactory
 
-El constructor por defecto.
+El constructor predeterminado.
 
 ```csharp
 public ImageWrapperFactory()
 ```
 
-### Véase también
+### Ver También
 
 * class [ImageWrapperFactory](../../imagewrapperfactory)
 * namespace [Aspose.Slides](../../imagewrapperfactory)

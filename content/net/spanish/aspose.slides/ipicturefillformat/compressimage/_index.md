@@ -1,7 +1,7 @@
 ---
 title: CompressImage
-second_title: Referencia de la API Aspose.Sildes para .NET
-description: Comprime la imagen reduciendo su tamaño en función del tamaño de la forma y la resolución especificada. Opcionalmente, también elimina áreas recortadas.
+second_title: Aspose.Sildes for .NET API Reference
+description: Comprime la imagen reduciendo su tamaño en función del tamaño de la forma y la resolución especificada. Opcionalmente, también elimina las áreas recortadas.
 type: docs
 weight: 190
 url: /es/aspose.slides/ipicturefillformat/compressimage/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/ipicturefillformat/compressimage/
 
 ## CompressImage(bool, PicturesCompression) {#compressimage}
 
-Comprime la imagen reduciendo su tamaño en función del tamaño de la forma y la resolución especificada. Opcionalmente, también elimina áreas recortadas.
+Comprime la imagen reduciendo su tamaño en función del tamaño de la forma y la resolución especificada. Opcionalmente, también elimina las áreas recortadas.
 
 ```csharp
 public bool CompressImage(bool deleteCroppedAreasOfImage, PicturesCompression resolution)
@@ -17,12 +17,12 @@ public bool CompressImage(bool deleteCroppedAreasOfImage, PicturesCompression re
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| deleteCroppedAreasOfImage | Booleano | Si es verdadero, el método eliminará las áreas recortadas de la imagen, reduciendo potencialmente su tamaño. |
-| resolution | PicturesCompression | La resolución objetivo para la compresión, especificada como un valor de la enumeración [`PicturesCompression`](../../../aspose.slides.export/picturescompression). |
+| deleteCroppedAreasOfImage | Boolean | Si es verdadero, el método eliminará las áreas recortadas de la imagen, lo que puede reducir aún más su tamaño. |
+| resolution | PicturesCompression | La resolución objetivo para la compresión, especificada como un valor del enum [`PicturesCompression`](../../../aspose.slides.export/picturescompression). |
 
 ### Valor de Retorno
 
-Un Booleano que indica si la imagen se comprimió con éxito. Retorna `true` si la imagen fue redimensionada o recortada, de lo contrario `false`.
+Un Booleano que indica si la imagen se comprimió con éxito. Devuelve `true` si la imagen fue redimensionada o recortada, de lo contrario `false`.
 
 ### Excepciones
 
@@ -30,7 +30,7 @@ Un Booleano que indica si la imagen se comprimió con éxito. Retorna `true` si 
 | --- | --- |
 | ArgumentException | Se lanza cuando la resolución no es un valor válido. |
 
-### Observaciones
+### Notas
 
 Este método cambia el tamaño y la resolución de la imagen de manera similar a la función "Formato de Imagen -&gt; Comprimir Imágenes" de PowerPoint.
 
@@ -43,7 +43,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 {
     ISlide slide = presentation.Slides[0];
     IPictureFrame picFrame = slide.Shapes[0] as IPictureFrame;
-    // Comprimir la imagen con una resolución objetivo de 150 DPI (resolución web) y eliminar áreas recortadas
+    // Comprimir la imagen con una resolución objetivo de 150 DPI (Resolución web) y eliminar áreas recortadas
     bool result = picFrame.PictureFormat.CompressImage(true, PicturesCompression.Dpi150);
 }
 ```
@@ -51,15 +51,15 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 ### Ver También
 
 * enum [PicturesCompression](../../../aspose.slides.export/picturescompression)
-* interfaz [IPictureFillFormat](../../ipicturefillformat)
-* espacio de nombres [Aspose.Slides](../../ipicturefillformat)
-* ensamblaje [Aspose.Slides](../../../)
+* interface [IPictureFillFormat](../../ipicturefillformat)
+* namespace [Aspose.Slides](../../ipicturefillformat)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## CompressImage(bool, float) {#compressimage_1}
 
-Comprime la imagen reduciendo su tamaño en función del tamaño de la forma y la resolución especificada. Opcionalmente, también elimina áreas recortadas.
+Comprime la imagen reduciendo su tamaño en función del tamaño de la forma y la resolución especificada. Opcionalmente, también elimina las áreas recortadas.
 
 ```csharp
 public bool CompressImage(bool deleteCroppedAreasOfImage, float resolution)
@@ -67,12 +67,12 @@ public bool CompressImage(bool deleteCroppedAreasOfImage, float resolution)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| deleteCroppedAreasOfImage | Booleano | Si es verdadero, el método eliminará las áreas recortadas de la imagen, reduciendo potencialmente su tamaño. |
-| resolution | Flotante | La resolución objetivo en DPI. Este valor debe ser positivo y define cómo se redimensionará la imagen. |
+| deleteCroppedAreasOfImage | Boolean | Si es verdadero, el método eliminará las áreas recortadas de la imagen, lo que puede reducir aún más su tamaño. |
+| resolution | Single | La resolución objetivo en DPI. Este valor debe ser positivo y define cómo se redimensionará la imagen. |
 
 ### Valor de Retorno
 
-Un Booleano que indica si la imagen se comprimió con éxito. Retorna `true` si la imagen fue redimensionada o recortada, de lo contrario `false`.
+Un Booleano que indica si la imagen se comprimió con éxito. Devuelve `true` si la imagen fue redimensionada o recortada, de lo contrario `false`.
 
 ### Excepciones
 
@@ -80,7 +80,7 @@ Un Booleano que indica si la imagen se comprimió con éxito. Retorna `true` si 
 | --- | --- |
 | ArgumentException | Se lanza cuando la resolución no es un valor positivo. |
 
-### Observaciones
+### Notas
 
 Este método cambia el tamaño y la resolución de la imagen de manera similar a la función "Formato de Imagen -&gt; Comprimir Imágenes" de PowerPoint.
 
@@ -97,15 +97,15 @@ using (Presentation presentation = new Presentation("demo.pptx"))
     // Obtiene el PictureFrame
     IPictureFrame picFrame = slide.Shapes[0] as IPictureFrame;
 
-    // Comprimir la imagen con una resolución objetivo de 150 DPI (resolución web) y eliminar áreas recortadas
+    // Comprimir la imagen con una resolución objetivo de 150 DPI (Resolución web) y eliminar áreas recortadas
     bool result=picFrame.PictureFormat.CompressImage(true, 150f); // Resolución web
 }
 ```
 
 ### Ver También
 
-* interfaz [IPictureFillFormat](../../ipicturefillformat)
-* espacio de nombres [Aspose.Slides](../../ipicturefillformat)
-* ensamblaje [Aspose.Slides](../../../)
+* interface [IPictureFillFormat](../../ipicturefillformat)
+* namespace [Aspose.Slides](../../ipicturefillformat)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

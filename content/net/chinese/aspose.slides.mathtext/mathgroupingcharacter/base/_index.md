@@ -1,7 +1,7 @@
 ---
-title: 基础
-second_title: Aspose.Slides for .NET API 参考
-description: 基础参数
+title: Base
+second_title: Aspose.Sildes for .NET API Reference
+description: 基本参数
 type: docs
 weight: 20
 url: /zh/aspose.slides.mathtext/mathgroupingcharacter/base/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathgroupingcharacter/base/
 
 ## MathGroupingCharacter.Base 属性
 
-基础参数
+基本参数
 
 ```csharp
 public IMathElement Base { get; }
@@ -17,7 +17,7 @@ public IMathElement Base { get; }
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]

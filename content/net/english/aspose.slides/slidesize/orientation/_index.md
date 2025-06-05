@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/slidesize/orientation/
 ---
+
 ## SlideSize.Orientation property
 
 Returns or sets the slide orientation. Changing this value will swap slide's dimensions. Read/write [`SlideOrientation`](../../slideorientation).

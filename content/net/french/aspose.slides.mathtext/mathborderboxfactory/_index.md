@@ -1,6 +1,6 @@
 ---
 title: MathBorderBoxFactory
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Permet de créer une boîte de bordure mathématique
 type: docs
 weight: 8360
@@ -32,7 +32,7 @@ public class MathBorderBoxFactory : IMathBorderBoxFactory
 
 Pour la compatibilité COM
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathBorderBoxFactory](../imathborderboxfactory)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

@@ -1,7 +1,7 @@
 ---
 title: AsIImageTransformOperation
-second_title: Aspose.Sildes for .NET API 参考
-description: 允许获取基础 IImageTransformOperation 接口。只读 IImageTransformOperationaspose.slides.effects/iimagetransformoperation。
+second_title: Aspose.Sildes for .NET API Reference
+description: 允许获取基本的 IImageTransformOperation 接口。只读 IImageTransformOperationaspose.slides.effects/iimagetransformoperation。
 type: docs
 weight: 20
 url: /zh/aspose.slides.effects/iblur/asiimagetransformoperation/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/iblur/asiimagetransformoperation/
 
 ## IBlur.AsIImageTransformOperation 属性
 
-允许获取基础 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../../iimagetransformoperation)。
+允许获取基本的 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../../iimagetransformoperation)。
 
 ```csharp
 public IImageTransformOperation AsIImageTransformOperation { get; }

@@ -1,6 +1,6 @@
 ---
 title: GetHashCode
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Slides para referencia de API .NET
 description: Devuelve un código hash para este objeto.
 type: docs
 weight: 150
@@ -15,10 +15,10 @@ Devuelve un código hash para este objeto.
 public override int GetHashCode()
 ```
 
-### Véase también
+### Ver También
 
-* clase [ShapeFrame](../../shapeframe)
-* espacio de nombres [Aspose.Slides](../../shapeframe)
-* ensamblado [Aspose.Slides](../../../)
+* class [ShapeFrame](../../shapeframe)
+* namespace [Aspose.Slides](../../shapeframe)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

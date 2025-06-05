@@ -1,7 +1,7 @@
 ---
 title: JoinStyle
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置线段的连接样式。可读/可写 LineJoinStyleaspose.slides/linejoinstyle。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置线条的连接样式。可读写 LineJoinStyleaspose.slides/linejoinstyle。
 type: docs
 weight: 130
 url: /zh/aspose.slides/lineformat/joinstyle/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/lineformat/joinstyle/
 
 ## LineFormat.JoinStyle 属性
 
-返回或设置线段的连接样式。可读/可写 [`LineJoinStyle`](../../linejoinstyle)。
+返回或设置线条的连接样式。可读写 [`LineJoinStyle`](../../linejoinstyle)。
 
 ```csharp
 public LineJoinStyle JoinStyle { get; set; }

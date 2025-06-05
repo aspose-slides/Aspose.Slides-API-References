@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides für .NET API Referenz
-description: Ruft die effektiven Blur-Effektdaten mit der angewendeten Vererbung ab.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ruft effektive Blur-Effektdaten mit der angewandten Vererbung ab.
 type: docs
 weight: 40
 url: /de/aspose.slides.effects/blur/geteffective/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/blur/geteffective/
 
 ## Blur.GetEffective-Methode
 
-Ruft die effektiven Blur-Effektdaten mit der angewendeten Vererbung ab.
+Ruft effektive Blur-Effektdaten mit der angewandten Vererbung ab.
 
 ```csharp
 public IBlurEffectiveData GetEffective()
@@ -19,7 +19,7 @@ public IBlurEffectiveData GetEffective()
 
 Ein [`IBlurEffectiveData`](../../iblureffectivedata).
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IBlurEffectiveData](../../iblureffectivedata)
 * Klasse [Blur](../../blur)

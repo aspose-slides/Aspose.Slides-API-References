@@ -1,15 +1,15 @@
 ---
 title: ChartTitle
 second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет свойства заголовка графика.
+description: Представляет свойства заголовка диаграммы.
 type: docs
 weight: 1410
 url: /ru/aspose.slides.charts/charttitle/
 ---
 
-## Класс ChartTitle
+## ChartTitle class
 
-Представляет свойства заголовка графика.
+Представляет свойства заголовка диаграммы.
 
 ```csharp
 public class ChartTitle : IChartTitle
@@ -19,17 +19,17 @@ public class ChartTitle : IChartTitle
 
 | Название | Описание |
 | --- | --- |
-| [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | Нижняя часть. Только для чтения Single. |
-| [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | Возвращает родительский график. Только для чтения [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/charttitle/format) { get; } | Возвращает стили заливки, линий, эффектов заголовка. Только для чтения [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | Возвращает или задает высоту заголовка как долю высоты графика. Чтение/запись Single. |
-| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | Определяет, разрешено ли другим элементам графика перекрывать заголовок. Чтение/запись Boolean. |
-| [Right](../../aspose.slides.charts/charttitle/right) { get; } | Правая сторона. Только для чтения Single. |
+| [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | Нижняя граница. Только для чтения Single. |
+| [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | Возвращает родительскую диаграмму. Только для чтения [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/charttitle/format) { get; } | Возвращает заливку, линию, стили эффектов заголовка. Только для чтения [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | Возвращает или устанавливает высоту заголовка как долю от высоты диаграммы. Чтение/запись Single. |
+| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | Определяет, разрешено ли другим элементам диаграммы перекрывать заголовок. Чтение/запись Boolean. |
+| [Right](../../aspose.slides.charts/charttitle/right) { get; } | Правое значение. Только для чтения Single. |
 | [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | Возвращает формат текста. Только для чтения [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | Может содержать текст с богатым форматированием. Если это свойство не равно null, то значение этого форматированного текста переопределяет автоматически сгенерированный текст. Автоматически сгенерированный текст является неявным свойством метки данных, метки отображаемого единицы значения оси, заголовка оси, заголовка графика, метки линии тренда. Автоматически сгенерированный текст форматируется с помощью свойства IFormattedTextContainer.TextFormat. Только для чтения [`ITextFrame`](../../aspose.slides/itextframe). |
-| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | Возвращает или задает ширину заголовка как долю ширины графика. Чтение/запись Single. |
-| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | Возвращает или задает координату x заголовка как долю ширины графика. Чтение/запись Single. |
-| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | Возвращает или задает координату y заголовка как долю высоты графика. Чтение/запись Single. |
+| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | Может содержать текст с расширенным форматированием. Если это свойство не равно null, то это значение отформатированного текста заменяет автоматически сгенерированный текст. Автоматически сгенерированный текст является неявным свойством метки данных, метки единицы отображения оси значения, заголовка оси, заголовка диаграммы, метки трендовой линии. Автоматически сгенерированный текст форматируется с помощью свойства IFormattedTextContainer.TextFormat. Только для чтения [`ITextFrame`](../../aspose.slides/itextframe). |
+| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | Возвращает или устанавливает ширину заголовка как долю от ширины диаграммы. Чтение/запись Single. |
+| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | Возвращает или устанавливает координату x заголовка как долю от ширины диаграммы. Чтение/запись Single. |
+| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | Возвращает или устанавливает координату y заголовка как долю от высоты диаграммы. Чтение/запись Single. |
 
 ## Методы
 
@@ -37,7 +37,7 @@ public class ChartTitle : IChartTitle
 | --- | --- |
 | [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | Инициализирует TextFrameForOverriding с текстом в параметре "text". Если TextFrameForOverriding уже инициализирован, просто изменяет его текст. |
 
-### См. Также
+### См. также
 
 * интерфейс [IChartTitle](../icharttitle)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)

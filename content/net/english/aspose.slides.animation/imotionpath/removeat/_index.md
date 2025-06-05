@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.animation/imotionpath/removeat/
 ---
+
 ## IMotionPath.RemoveAt method
 
 Removes a command at the specified index.

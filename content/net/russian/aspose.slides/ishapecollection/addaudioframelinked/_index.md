@@ -1,7 +1,7 @@
 ---
 title: AddAudioFrameLinked
-second_title: Aspose.Slides для .NET API Справочник
-description: Добавляет новый аудиофрей с привязанным аудиофайлом в конец коллекции.
+second_title: Aspose.Sildes для .NET API Reference
+description: Добавляет новый аудиофрейм с подключенным аудиофайлом в конец коллекции.
 type: docs
 weight: 50
 url: /ru/aspose.slides/ishapecollection/addaudioframelinked/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ishapecollection/addaudioframelinked/
 
 ## IShapeCollection.AddAudioFrameLinked метод
 
-Добавляет новый аудиофрей с привязанным аудиофайлом в конец коллекции.
+Добавляет новый аудиофрейм с подключенным аудиофайлом в конец коллекции.
 
 ```csharp
 public IAudioFrame AddAudioFrameLinked(float x, float y, float width, float height, string fname)
@@ -17,8 +17,8 @@ public IAudioFrame AddAudioFrameLinked(float x, float y, float width, float heig
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X координата нового аудиофрейма. |
-| y | Single | Y координата нового аудиофрейма. |
+| x | Single | X-координата нового аудиофрейма. |
+| y | Single | Y-координата нового аудиофрейма. |
 | width | Single | Ширина нового аудиофрейма. |
 | height | Single | Высота нового аудиофрейма. |
 | fname | String | Имя аудиофайла. |

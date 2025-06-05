@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/audiocollection/getenumerator/
 ---
+
 ## AudioCollection.GetEnumerator method
 
 Returns an enumerator that iterates through the collection.

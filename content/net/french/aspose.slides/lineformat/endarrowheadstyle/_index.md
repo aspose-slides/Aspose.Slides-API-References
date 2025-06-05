@@ -1,7 +1,7 @@
 ---
 title: EndArrowheadStyle
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit le style de la flèche à la fin d'une ligne. Lecture/écriture LineArrowheadStyleaspose.slides/linearrowheadstyle.
+second_title: Aspose.Slides pour l'API .NET Référence
+description: Renvoie ou définit le style de la pointe de flèche à la fin d'une ligne. Lecture/écriture LineArrowheadStyleaspose.slides/linearrowheadstyle.
 type: docs
 weight: 90
 url: /fr/aspose.slides/lineformat/endarrowheadstyle/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/lineformat/endarrowheadstyle/
 
 ## Propriété LineFormat.EndArrowheadStyle
 
-Renvoie ou définit le style de la flèche à la fin d'une ligne. Lecture/écriture [`LineArrowheadStyle`](../../linearrowheadstyle).
+Renvoie ou définit le style de la pointe de flèche à la fin d'une ligne. Lecture/écriture [`LineArrowheadStyle`](../../linearrowheadstyle).
 
 ```csharp
 public LineArrowheadStyle EndArrowheadStyle { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForPieSeries
-second_title: Aspose.Slides для .NET API Справочник
-description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых chartType является одним из подтипов Pie, см. также метод IsChartTypePie aspose.slides.charts/charttypecharacterizer/ischarttypepie.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых chartType является одним из подтипов Пирога, см. также метод IsChartTypePie aspose.slides.charts/charttypecharacterizer/ischarttypepie.
 type: docs
 weight: 190
 url: /ru/aspose.slides.charts/chartdatapointcollection/adddatapointforpieseries/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/chartdatapointcollection/adddatapointforpieseries/
 
 ## AddDataPointForPieSeries(IChartDataCell) {#adddatapointforpieseries}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых chartType является одним из подтипов Pie (см. также метод [`IsChartTypePie`](../../charttypecharacterizer/ischarttypepie)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых chartType является одним из подтипов Пирога (см. также метод [`IsChartTypePie`](../../charttypecharacterizer/ischarttypepie)).
 
 ```csharp
 public IChartDataPoint AddDataPointForPieSeries(IChartDataCell value)
@@ -35,7 +35,7 @@ public IChartDataPoint AddDataPointForPieSeries(IChartDataCell value)
 
 ## AddDataPointForPieSeries(double) {#adddatapointforpieseries_1}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых chartType является одним из подтипов Pie (см. также метод [`IsChartTypePie`](../../charttypecharacterizer/ischarttypepie)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых chartType является одним из подтипов Пирога (см. также метод [`IsChartTypePie`](../../charttypecharacterizer/ischarttypepie)).
 
 ```csharp
 public IChartDataPoint AddDataPointForPieSeries(double value)

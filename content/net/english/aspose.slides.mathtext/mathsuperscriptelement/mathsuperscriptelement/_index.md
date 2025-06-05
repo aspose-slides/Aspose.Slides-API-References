@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/mathsuperscriptelement/mathsuperscriptelement/
 ---
+
 ## MathSuperscriptElement constructor
 
 Initializes a new instance of the MathSuperscriptElement class.

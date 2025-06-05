@@ -1,7 +1,7 @@
 ---
 title: PreferredCulture
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft Informationen zur bevorzugten Kultur ab oder legt diese fest, um einige Funktionen zu berechnen, die für Sprachen gedacht sind, die den Double-Byte-Zeichensatz DBCS verwenden.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Ruft die bevorzugten kulturellen Informationen ab oder setzt sie für die Berechnung einiger Funktionen, die für die Verwendung mit Sprachen gedacht sind, die den zweibyteigen Zeichensatz DBCS verwenden.
 type: docs
 weight: 10
 url: /de/aspose.slides/ispreadsheetoptions/preferredculture/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ispreadsheetoptions/preferredculture/
 
 ## ISpreadsheetOptions.PreferredCulture-Eigenschaft
 
-Ruft Informationen zur bevorzugten Kultur ab oder legt diese fest, um einige Funktionen zu berechnen, die für Sprachen gedacht sind, die den Double-Byte-Zeichensatz (DBCS) verwenden.
+Ruht die bevorzugten kulturellen Informationen ab oder setzt sie für die Berechnung einiger Funktionen, die für die Verwendung mit Sprachen gedacht sind, die den doppelte-byte Zeichensatz (DBCS) verwenden.
 
 ```csharp
 public CultureInfo PreferredCulture { get; set; }

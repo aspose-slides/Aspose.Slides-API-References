@@ -6,6 +6,7 @@ type: docs
 weight: 450
 url: /aspose.slides/shapecollection/toarray/
 ---
+
 ## ToArray() {#toarray}
 
 Creates and returns an array with all shapse in it.

@@ -1,7 +1,7 @@
 ---
 title: ContainsCustomProperty
 second_title: Aspose.Slides für .NET API Referenz
-description: Überprüfen Sie das Vorhandensein einer benutzerdefinierten Eigenschaft mit einem angegebenen Namen.
+description: Überprüfen Sie das Vorhandensein einer benutzerdefinierten Eigenschaft mit einem bestimmten Namen.
 type: docs
 weight: 380
 url: /de/aspose.slides/idocumentproperties/containscustomproperty/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/idocumentproperties/containscustomproperty/
 
 ## IDocumentProperties.ContainsCustomProperty-Methode
 
-Überprüfen Sie das Vorhandensein einer benutzerdefinierten Eigenschaft mit einem angegebenen Namen.
+Überprüfen Sie das Vorhandensein einer benutzerdefinierten Eigenschaft mit einem bestimmten Namen.
 
 ```csharp
 public bool ContainsCustomProperty(string name)
@@ -21,7 +21,7 @@ public bool ContainsCustomProperty(string name)
 
 ### Rückgabewert
 
-Gibt true zurück, wenn die Eigenschaft existiert, andernfalls false.
+Gibt true zurück, wenn die Eigenschaft vorhanden ist, andernfalls false.
 
 ### Siehe auch
 

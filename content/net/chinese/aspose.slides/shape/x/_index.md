@@ -1,6 +1,6 @@
 ---
 title: X
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回或设置形状左上角的 x 坐标。可读写单精度浮点数。
 type: docs
 weight: 300
@@ -17,9 +17,9 @@ public float X { get; set; }
 
 ### 备注
 
-返回的值总是被定义（不为 float.NaN）。赋值必须是定义的（不为 float.NaN）。您可以为 RawFrame 实例属性设置未定义的值。
+返回的值始终是定义的（不是 float.NaN）。赋值必须是定义的（不是 float.NaN）。您可以为 RawFrame 实例属性设置未定义的值。
 
-### 另请参阅
+### 参见
 
 * class [Shape](../../shape)
 * namespace [Aspose.Slides](../../shape)

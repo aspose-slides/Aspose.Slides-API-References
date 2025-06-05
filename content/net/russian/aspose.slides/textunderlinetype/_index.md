@@ -1,13 +1,13 @@
 ---
 title: TextUnderlineType
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет тип подчеркивания текста.
 type: docs
 weight: 10700
 url: /ru/aspose.slides/textunderlinetype/
 ---
 
-## Перечисление TextUnderlineType
+## TextUnderlineType перечисление
 
 Представляет тип подчеркивания текста.
 
@@ -17,7 +17,7 @@ public enum TextUnderlineType : sbyte
 
 ### Значения
 
-| Название | Значение | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | None | `0` |  |

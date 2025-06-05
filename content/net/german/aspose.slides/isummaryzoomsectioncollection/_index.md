@@ -19,19 +19,19 @@ public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoom
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.slides/isummaryzoomsectioncollection/item) { get; } | Ruft das Element am angegebenen Index ab. Nur lesbar [`ISummaryZoomSection`](../isummaryzoomsection). |
+| [Item](../../aspose.slides/isummaryzoomsectioncollection/item) { get; } | Gibt das Element am angegebenen Index zurück. Nur lesbar [`ISummaryZoomSection`](../isummaryzoomsection). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Erstellt ein neues Summary Zoom Section-Objekt und fügt es zur Sammlung hinzu |
+| [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Erstellt ein neues Summary Zoom Section-Objekt und fügt es der Sammlung hinzu. |
 | [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | Entfernt alle SummaryZoomSection-Objekte aus der Sammlung. |
 | [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | Gibt das Summary Zoom Section-Element für den angegebenen Abschnitt zurück. |
 | [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Gibt einen Index des angegebenen SummaryZoomSection-Objekts zurück. |
 | [RemoveSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Entfernt das Summary Zoom Section-Objekt aus der Sammlung. |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * Schnittstelle [ISummaryZoomSection](../isummaryzoomsection)

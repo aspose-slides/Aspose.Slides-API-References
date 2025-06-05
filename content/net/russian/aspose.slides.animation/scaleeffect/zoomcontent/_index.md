@@ -1,7 +1,7 @@
 ---
 title: ZoomContent
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, должно ли содержимое быть увеличено. Читаемое/записываемое NullableBoolaspose.slides/nullablebool.
+description: Определяет, должен ли контент быть увеличен. Чтение/запись NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 50
 url: /ru/aspose.slides.animation/scaleeffect/zoomcontent/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.animation/scaleeffect/zoomcontent/
 
 ## ScaleEffect.ZoomContent свойство
 
-Определяет, должно ли содержимое быть увеличено. Читаемое/записываемое [`NullableBool`](../../../aspose.slides/nullablebool).
+Определяет, должен ли контент быть увеличен. Чтение/запись [`NullableBool`](../../../aspose.slides/nullablebool).
 
 ```csharp
 public NullableBool ZoomContent { get; set; }

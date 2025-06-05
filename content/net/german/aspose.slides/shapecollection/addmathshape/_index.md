@@ -1,15 +1,15 @@
 ---
 title: AddMathShape
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erstellt eine neue Autoshape, die von der Standardvorlage für mathematische Inhalte angepasst wurde, und fügt sie am Ende der Sammlung hinzu.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Erstellt eine neue Autoshape, die aus der Standardvorlage für mathematische Inhalte angepasst ist, und fügt sie am Ende der Sammlung hinzu.
 type: docs
 weight: 140
 url: /de/aspose.slides/shapecollection/addmathshape/
 ---
 
-## ShapeCollection.AddMathShape-Methode
+## ShapeCollection.AddMathShape Methode
 
-Erstellt eine neue Autoshape, die von der Standardvorlage für mathematische Inhalte angepasst wurde, und fügt sie am Ende der Sammlung hinzu.
+Erstellt eine neue Autoshape, die aus der Standardvorlage für mathematische Inhalte angepasst ist, und fügt sie am Ende der Sammlung hinzu.
 
 ```csharp
 public IAutoShape AddMathShape(float x, float y, float width, float height)
@@ -17,10 +17,10 @@ public IAutoShape AddMathShape(float x, float y, float width, float height)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| x | Einzelner Wert | Die X-Koordinate für die linke Seite des Rahmens der Form. |
-| y | Einzelner Wert | Die Y-Koordinate für die obere Seite des Rahmens der Form. |
-| width | Einzelner Wert | Die Breite des Rahmens der Form. |
-| height | Einzelner Wert | Die Höhe des Rahmens der Form. |
+| x | Einzel | Die X-Koordinate für die linke Seite des Rahmens der Form. |
+| y | Einzel | Die Y-Koordinate für die obere Seite des Rahmens der Form. |
+| width | Einzel | Die Breite des Rahmens der Form. |
+| height | Einzel | Die Höhe des Rahmens der Form. |
 
 ### Rückgabewert
 
@@ -49,7 +49,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * interface [IAutoShape](../../iautoshape)
 * class [ShapeCollection](../../shapecollection)

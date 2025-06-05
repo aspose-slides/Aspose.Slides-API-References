@@ -1,7 +1,7 @@
 ---
-title: TitelDerTeile
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Titel jedes Dokumentteils an. Diese Teile sind keine Dokumentteile, sondern konzeptionelle Darstellungen von Dokumentabschnitten. Nur-lesbare Zeichenfolge.
+title: TitlesOfParts
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den Titel jedes Dokumententeils an. Diese Teile sind keine Dokumententeile, sondern konzeptionelle Darstellungen von Dokumentabschnitten. Nur-Lese-Zeichenfolge.
 type: docs
 weight: 330
 url: /de/aspose.slides/idocumentproperties/titlesofparts/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/idocumentproperties/titlesofparts/
 
 ## IDocumentProperties.TitlesOfParts-Eigenschaft
 
-Gibt den Titel jedes Dokumentteils an. Diese Teile sind keine Dokumentteile, sondern konzeptionelle Darstellungen von Dokumentabschnitten. Nur-lesbare string[].
+Gibt den Titel jedes Dokumententeils an. Diese Teile sind keine Dokumententeile, sondern konzeptionelle Darstellungen von Dokumentabschnitten. Nur-Lese-Zeichenfolge[].
 
 ```csharp
 public string[] TitlesOfParts { get; }

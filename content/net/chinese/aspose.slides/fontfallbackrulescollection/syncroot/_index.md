@@ -1,6 +1,6 @@
 ---
-title: 同步根
-second_title: Aspose.Sildes for .NET API 参考
+title: SyncRoot
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回一个同步根。只读对象。
 type: docs
 weight: 50
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/fontfallbackrulescollection/syncroot/
 public object SyncRoot { get; }
 ```
 
-### 参考链接
+### 另请参阅
 
 * class [FontFallBackRulesCollection](../../fontfallbackrulescollection)
 * namespace [Aspose.Slides](../../fontfallbackrulescollection)

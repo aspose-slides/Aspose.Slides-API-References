@@ -1,7 +1,7 @@
 ---
-title: 基础
-second_title: Aspose.Slides for .NET API 参考
-description: 基础参数
+title: Base
+second_title: Aspose.Sildes for .NET API Reference
+description: Base argument
 type: docs
 weight: 20
 url: /zh/aspose.slides.mathtext/mathlimit/base/
@@ -17,7 +17,7 @@ public IMathElement Base { get; }
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -25,7 +25,7 @@ MathLimit limitElement = new MathLimit(new MathematicalText("lim"), new Mathemat
 IMathElement baseArg = limitElement.Base;
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IMathElement](../../imathelement)
 * 类 [MathLimit](../../mathlimit)

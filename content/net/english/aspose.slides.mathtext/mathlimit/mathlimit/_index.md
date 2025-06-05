@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/mathlimit/mathlimit/
 ---
+
 ## MathLimit(IMathElement, IMathElement, bool) {#constructor_1}
 
 Initializes a new instance of the MathLimit class.

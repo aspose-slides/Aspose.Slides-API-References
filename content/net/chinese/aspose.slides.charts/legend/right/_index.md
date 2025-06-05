@@ -1,7 +1,7 @@
 ---
-title: 右
-second_title: Aspose.Sildes for .NET API 参考
-description: 右。只读单精度浮点数。
+title: Right
+second_title: Aspose.Sildes for .NET API Reference
+description: Right. 只读单精度浮点数。
 type: docs
 weight: 80
 url: /zh/aspose.slides.charts/legend/right/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/legend/right/
 
 ## Legend.Right 属性
 
-右。只读单精度浮点数。
+Right. 只读单精度浮点数。
 
 ```csharp
 public float Right { get; }
 ```
 
-### 参见
+### 另请参见
 
 * class [Legend](../../legend)
 * namespace [Aspose.Slides.Charts](../../legend)

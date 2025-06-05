@@ -1,7 +1,7 @@
 ---
 title: OrganizationChartLayoutType
 second_title: Aspose.Slides für .NET API Referenz
-description: Stellt den Formatierungstyp der untergeordneten Knoten in einem Organigramm dar
+description: Stellt den Formatierungstyp der Kindknoten in einem Organigramm dar
 type: docs
 weight: 10280
 url: /de/aspose.slides.smartart/organizationchartlayouttype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.smartart/organizationchartlayouttype/
 
 ## OrganizationChartLayoutType Enumeration
 
-Stellt den Formatierungstyp der untergeordneten Knoten in einem Organigramm dar
+Stellt den Formatierungstyp der Kindknoten in einem Organigramm dar
 
 ```csharp
 public enum OrganizationChartLayoutType
@@ -20,12 +20,12 @@ public enum OrganizationChartLayoutType
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | Initial | `0` | Initialer Layouttyp |
-| Standard | `1` | Platziert untergeordnete Knoten horizontal unter dem übergeordneten Knoten. |
-| BothHanging | `2` | Platziert untergeordnete Knoten vertikal unter dem übergeordneten Knoten auf beiden Seiten, links und rechts. |
-| LeftHanging | `3` | Platziert untergeordnete Knoten vertikal unter dem übergeordneten Knoten auf der linken Seite. |
-| RightHanging | `4` | Platziert untergeordnete Knoten vertikal unter dem übergeordneten Knoten auf der rechten Seite. |
+| Standard | `1` | Platziert Kindknoten horizontal unterhalb des Elternknotens. |
+| BothHanging | `2` | Platziert Kindknoten vertikal unterhalb des Elternknotens sowohl auf der linken als auch auf der rechten Seite. |
+| LeftHanging | `3` | Platziert Kindknoten vertikal unterhalb des Elternknotens auf der linken Seite. |
+| RightHanging | `4` | Platziert Kindknoten vertikal unterhalb des Elternknotens auf der rechten Seite. |
 
-### Siehe auch
+### Siehe Auch
 
 * namespace [Aspose.Slides.SmartArt](../../aspose.slides.smartart)
 * assembly [Aspose.Slides](../../)

@@ -1,5 +1,5 @@
 ---
-title: Sortie
+title: Output
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente une collection d'éléments de sortie pour IWebDocument.
 type: docs

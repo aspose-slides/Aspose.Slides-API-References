@@ -1,6 +1,6 @@
 ---
-title: 放置
-second_title: Aspose.Slides for .NET API 参考
+title: Put
+second_title: Aspose.Slides for .NET API Reference
 description: type docs
 weight: 40
 url: /zh/aspose.slides.export.web/storage/put/
@@ -12,7 +12,7 @@ url: /zh/aspose.slides.export.web/storage/put/
 public void Put<TValue>(string key, TValue value)
 ```
 
-### 另请参阅
+### 另见
 
 * 类 [Storage](../../storage)
 * 命名空间 [Aspose.Slides.Export.Web](../../storage)

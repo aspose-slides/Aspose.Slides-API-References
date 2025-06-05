@@ -1,6 +1,6 @@
 ---
-title: 隐藏下标
-second_title: Aspose.Sildes for .NET API 参考
+title: HideSubscript
+second_title: Aspose.Sildes for .NET API Reference
 description: 隐藏下标
 type: docs
 weight: 40
@@ -17,7 +17,7 @@ public bool HideSubscript { get; set; }
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -25,7 +25,7 @@ IMathNaryOperator naryOperator = new MathematicalText("x").Nary(MathNaryOperator
 naryOperator.HideSubscript = true;
 ```
 
-### 另见
+### 参见
 
 * class [MathNaryOperator](../../mathnaryoperator)
 * namespace [Aspose.Slides.MathText](../../mathnaryoperator)

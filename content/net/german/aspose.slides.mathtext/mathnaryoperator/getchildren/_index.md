@@ -1,15 +1,15 @@
 ---
 title: GetChildren
-second_title: Aspose.Slides für .NET API Referenz
-description: Kinder Elemente abrufen
+second_title: Aspose.Sildes für .NET API Referenz
+description: Kinder-Elemente abrufen
 type: docs
 weight: 100
 url: /de/aspose.slides.mathtext/mathnaryoperator/getchildren/
 ---
 
-## MathNaryOperator.GetChildren-Methode
+## MathNaryOperator.GetChildren Methode
 
-Kinder Elemente abrufen
+Kinder-Elemente abrufen
 
 ```csharp
 public IMathElement[] GetChildren()
@@ -17,7 +17,7 @@ public IMathElement[] GetChildren()
 
 ### Siehe auch
 
-* Schnittstelle [IMathElement](../../imathelement)
+* Interface [IMathElement](../../imathelement)
 * Klasse [MathNaryOperator](../../mathnaryoperator)
 * Namespace [Aspose.Slides.MathText](../../mathnaryoperator)
 * Assembly [Aspose.Slides](../../../)

@@ -1,15 +1,15 @@
 ---
 title: OutputSaver
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve o establece el guardador de salida. Leer/escribir IOutputSaveraspose.slides.export.web/ioutputsaver.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Devuelve o establece el guardador de salida. Lectura/escritura IOutputSaveraspose.slides.export.web/ioutputsaver.
 type: docs
 weight: 50
 url: /es/aspose.slides.export.web/webdocumentoptions/outputsaver/
 ---
 
-## Propiedad WebDocumentOptions.OutputSaver
+## WebDocumentOptions.OutputSaver propiedad
 
-Devuelve o establece el guardador de salida. Leer/escribir [`IOutputSaver`](../../ioutputsaver).
+Devuelve o establece el guardador de salida. Lectura/escritura [`IOutputSaver`](../../ioutputsaver).
 
 ```csharp
 public IOutputSaver OutputSaver { get; set; }
@@ -20,6 +20,6 @@ public IOutputSaver OutputSaver { get; set; }
 * interfaz [IOutputSaver](../../ioutputsaver)
 * clase [WebDocumentOptions](../../webdocumentoptions)
 * espacio de nombres [Aspose.Slides.Export.Web](../../webdocumentoptions)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

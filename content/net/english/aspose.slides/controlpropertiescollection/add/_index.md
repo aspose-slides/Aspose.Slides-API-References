@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/controlpropertiescollection/add/
 ---
+
 ## ControlPropertiesCollection.Add method
 
 Adds a property to the collection.

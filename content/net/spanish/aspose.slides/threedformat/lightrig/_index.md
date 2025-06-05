@@ -1,6 +1,6 @@
 ---
 title: LightRig
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve o establece el tipo de una luz. Solo lectura ILightRig aspose.slides/ilightrig.
 type: docs
 weight: 90
@@ -15,7 +15,7 @@ Devuelve o establece el tipo de una luz. Solo lectura [`ILightRig`](../../ilight
 public ILightRig LightRig { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [ILightRig](../../ilightrig)
 * clase [ThreeDFormat](../../threedformat)

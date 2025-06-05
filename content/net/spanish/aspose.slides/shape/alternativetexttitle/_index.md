@@ -1,5 +1,5 @@
 ---
-title: TítuloTextoAlternativo
+title: AlternativeTextTitle
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece el título del texto alternativo asociado con una forma. Lectura/escritura String.
 type: docs
@@ -15,10 +15,10 @@ Devuelve o establece el título del texto alternativo asociado con una forma. Le
 public string AlternativeTextTitle { get; set; }
 ```
 
-### Véase también
+### Ver También
 
-* class [Shape](../../shape)
-* namespace [Aspose.Slides](../../shape)
-* assembly [Aspose.Slides](../../../)
+* clase [Shape](../../shape)
+* espacio de nombres [Aspose.Slides](../../shape)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

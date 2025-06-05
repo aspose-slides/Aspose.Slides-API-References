@@ -1,7 +1,7 @@
 ---
 title: UseCell
-second_title: Aspose.Slides for .NET API 参考
-description: 如果为 true，则 AsCell 属性有效。换句话说，工作表用于存储类别，这种情况下支持多层次类别。如果为 false，则 AsLiteral 属性有效。换句话说，工作表不用于存储类别，这种情况下不支持多层次类别。只读布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 如果为真，则 AsCell 属性有效。换句话说，工作表用于存储类别，这种情况下支持多级类别。如果为假，则 AsLiteral 属性有效。换句话说，工作表不用于存储类别，这种情况下不支持多级类别。只读布尔值。
 type: docs
 weight: 40
 url: /zh/aspose.slides.charts/ichartcategory/usecell/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ichartcategory/usecell/
 
 ## IChartCategory.UseCell 属性
 
-如果为 true，则 AsCell 属性有效。换句话说，工作表用于存储类别（这种情况下支持多层次类别）。如果为 false，则 AsLiteral 属性有效。换句话说，工作表不用于存储类别（这种情况下不支持多层次类别）。只读布尔值。
+如果为真，则 AsCell 属性有效。换句话说，工作表用于存储类别（这种情况下支持多级类别）。如果为假，则 AsLiteral 属性有效。换句话说，工作表不用于存储类别（这种情况下不支持多级类别）。只读布尔值。
 
 ```csharp
 public bool UseCell { get; }

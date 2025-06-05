@@ -1,6 +1,6 @@
 ---
-title: 线性渐变角度
-second_title: Aspose.Slides for .NET API 参考
+title: LinearGradientAngle
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回或设置渐变的角度。可读/可写的单精度浮点数。
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/gradientformat/lineargradientangle/
 public float LinearGradientAngle { get; set; }
 ```
 
-### 另请参阅
+### 参见
 
 * class [GradientFormat](../../gradientformat)
 * namespace [Aspose.Slides](../../gradientformat)

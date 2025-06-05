@@ -1,13 +1,13 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Slides для .NET Справочник по API
+second_title: Aspose.Slides для .NET API Reference
 description: Возвращает перечислитель, который перебирает коллекцию.
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/trendlinecollection/getenumerator/
 ---
 
-## Метод TrendlineCollection.GetEnumerator
+## TrendlineCollection.GetEnumerator метод
 
 Возвращает перечислитель, который перебирает коллекцию.
 
@@ -17,9 +17,9 @@ public IEnumerator<ITrendline> GetEnumerator()
 
 ### Возвращаемое значение
 
-IEnumerator, который можно использовать для перебора коллекции.
+A IEnumerator, который может быть использован для перебора коллекции.
 
-### Смотрите также
+### См. также
 
 * интерфейс [ITrendline](../../itrendline)
 * класс [TrendlineCollection](../../trendlinecollection)

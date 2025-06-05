@@ -1,7 +1,7 @@
 ---
 title: CreatePptxOptions
 second_title: Aspose.Slides für .NET API-Referenz
-description: Erstellt PPTX-Speichermöglichkeiten.
+description: Erstellt PPTX-Speicheroptionen.
 type: docs
 weight: 10
 url: /de/aspose.slides.export/isaveoptionsfactory/createpptxoptions/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/isaveoptionsfactory/createpptxoptions/
 
 ## ISaveOptionsFactory.CreatePptxOptions-Methode
 
-Erstellt PPTX-Speichermöglichkeiten.
+Erstellt PPTX-Speicheroptionen.
 
 ```csharp
 public IPptxOptions CreatePptxOptions()
@@ -17,7 +17,7 @@ public IPptxOptions CreatePptxOptions()
 
 ### Rückgabewert
 
-Speichermöglichkeiten.
+Speicheroptionen.
 
 ### Siehe auch
 

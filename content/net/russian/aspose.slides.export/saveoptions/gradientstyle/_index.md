@@ -1,21 +1,21 @@
 ---
 title: GradientStyle
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает или задает визуальный стиль градиента. Чтение/запись GradientStyle aspose.slides/gradientstyle.
+second_title: Aspose.Sildes для .NET Справочник API
+description: Возвращает или устанавливает визуальный стиль градиента. Доступ для чтения/записи GradientStyleaspose.slides/gradientstyle.
 type: docs
 weight: 20
 url: /ru/aspose.slides.export/saveoptions/gradientstyle/
 ---
 
-## Свойство SaveOptions.GradientStyle
+## SaveOptions.GradientStyle свойство
 
-Возвращает или задает визуальный стиль градиента. Чтение/запись [`GradientStyle`](../../../aspose.slides/gradientstyle).
+Возвращает или устанавливает визуальный стиль градиента. Доступ для чтения/записи [`GradientStyle`](../../../aspose.slides/gradientstyle).
 
 ```csharp
 public GradientStyle GradientStyle { get; set; }
 ```
 
-### Также смотри
+### См. также
 
 * enum [GradientStyle](../../../aspose.slides/gradientstyle)
 * class [SaveOptions](../../saveoptions)

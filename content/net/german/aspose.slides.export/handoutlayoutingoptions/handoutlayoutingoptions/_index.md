@@ -1,13 +1,13 @@
 ---
 title: HandoutLayoutingOptions
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Initialisiert die Standardwerte.
 type: docs
 weight: 10
 url: /de/aspose.slides.export/handoutlayoutingoptions/handoutlayoutingoptions/
 ---
 
-## HandoutLayoutingOptions-Konstruktor
+## HandoutLayoutingOptions Konstruktor
 
 Initialisiert die Standardwerte.
 

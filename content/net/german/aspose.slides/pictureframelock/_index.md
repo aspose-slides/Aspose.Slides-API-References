@@ -1,13 +1,13 @@
 ---
 title: PictureFrameLock
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Bestimmt, welche Operationen im übergeordneten PictureFrame deaktiviert sind.
 type: docs
 weight: 9150
 url: /de/aspose.slides/pictureframelock/
 ---
 
-## PictureFrameLock-Klasse
+## PictureFrameLock Klasse
 
 Bestimmt, welche Operationen im übergeordneten PictureFrame deaktiviert sind.
 
@@ -20,16 +20,16 @@ public class PictureFrameLock : BaseShapeLock, IPictureFrameLock
 | Name | Beschreibung |
 | --- | --- |
 | [AdjustHandlesLocked](../../aspose.slides/pictureframelock/adjusthandleslocked) { get; set; } | Bestimmt, ob das Ändern von Anpassungswerten verboten ist. Lese-/Schreib-Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/pictureframelock/arrowheadslocked) { get; set; } | Bestimmt, ob das Ändern von Pfeilspitzen verboten ist. Lese-/Schreib-Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/pictureframelock/arrowheadslocked) { get; set; } | Bestimmt, ob das Ändern der Pfeilspitzen verboten ist. Lese-/Schreib-Boolean. |
 | [AspectRatioLocked](../../aspose.slides/pictureframelock/aspectratiolocked) { get; set; } | Bestimmt, ob eine Form das Seitenverhältnis beim Ändern der Größe beibehalten muss. Lese-/Schreib-Boolean. |
 | [CropLocked](../../aspose.slides/pictureframelock/croplocked) { get; set; } | Bestimmt, ob das Zuschneiden eines Bildes verboten ist. Lese-/Schreib-Boolean. |
-| [EditPointsLocked](../../aspose.slides/pictureframelock/editpointslocked) { get; set; } | Bestimmt, ob eine direkte Änderung des Kontours dieser Form verboten ist. Lese-/Schreib-Boolean. |
+| [EditPointsLocked](../../aspose.slides/pictureframelock/editpointslocked) { get; set; } | Bestimmt, ob eine direkte Änderung des Umrisses dieser Form verboten ist. Lese-/Schreib-Boolean. |
 | [GroupingLocked](../../aspose.slides/pictureframelock/groupinglocked) { get; set; } | Bestimmt, ob das Hinzufügen dieser Form zu einer Gruppe verboten ist. Lese-/Schreib-Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Gibt true zurück, wenn alle Sperr-Flags deaktiviert sind. Nur Lese-Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Gibt true zurück, wenn alle Sperrflaggen deaktiviert sind. Nur Lese-Boolean. |
 | [PositionLocked](../../aspose.slides/pictureframelock/positionlocked) { get; set; } | Bestimmt, ob das Bewegen dieser Form verboten ist. Lese-/Schreib-Boolean. |
 | [RotationLocked](../../aspose.slides/pictureframelock/rotationlocked) { get; set; } | Bestimmt, ob das Ändern des Rotationswinkels dieser Form verboten ist. Lese-/Schreib-Boolean. |
 | [SelectLocked](../../aspose.slides/pictureframelock/selectlocked) { get; set; } | Bestimmt, ob das Auswählen dieser Form verboten ist. Lese-/Schreib-Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/pictureframelock/shapetypelocked) { get; set; } | Bestimmt, ob das Ändern des Formtyps verboten ist. Lese-/Schreib-Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/pictureframelock/shapetypelocked) { get; set; } | Bestimmt, ob das Ändern eines Formtyps verboten ist. Lese-/Schreib-Boolean. |
 | [SizeLocked](../../aspose.slides/pictureframelock/sizelocked) { get; set; } | Bestimmt, ob das Ändern der Größe dieser Form verboten ist. Lese-/Schreib-Boolean. |
 
 ### Siehe auch

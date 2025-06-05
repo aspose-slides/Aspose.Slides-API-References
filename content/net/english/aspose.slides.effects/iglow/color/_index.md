@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.effects/iglow/color/
 ---
+
 ## IGlow.Color property
 
 Color format. Read-only [`IColorFormat`](../../../aspose.slides/icolorformat).

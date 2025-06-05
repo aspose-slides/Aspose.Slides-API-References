@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides.charts/ichartdata/switchrowcolumn/
 ---
+
 ## IChartData.SwitchRowColumn method
 
 Swap the data over the axis. Data being charted on the X axis will move to the Y axis and vice versa.

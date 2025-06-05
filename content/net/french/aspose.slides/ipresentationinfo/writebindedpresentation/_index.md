@@ -1,7 +1,7 @@
 ---
 title: WriteBindedPresentation
-second_title: Aspose.Slides pour .NET Référence API
-description: Écrit une présentation liée dans un flux.
+second_title: Aspose.Slides pour .NET API Reference
+description: Écrit la présentation liée dans le flux.
 type: docs
 weight: 90
 url: /fr/aspose.slides/ipresentationinfo/writebindedpresentation/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ipresentationinfo/writebindedpresentation/
 
 ## WriteBindedPresentation(Stream) {#writebindedpresentation}
 
-Écrit une présentation liée dans un flux.
+Écrit la présentation liée dans le flux.
 
 ```csharp
 public void WriteBindedPresentation(Stream stream)
@@ -17,7 +17,7 @@ public void WriteBindedPresentation(Stream stream)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Le flux doit être accessible et inscriptible. |
+| stream | Stream | Le flux doit être accessible en défilement et écrivable. |
 
 ### Voir aussi
 
@@ -29,7 +29,7 @@ public void WriteBindedPresentation(Stream stream)
 
 ## WriteBindedPresentation(string) {#writebindedpresentation_1}
 
-Écrit une présentation liée dans un fichier.
+Écrit la présentation liée dans le fichier.
 
 ```csharp
 public void WriteBindedPresentation(string file)

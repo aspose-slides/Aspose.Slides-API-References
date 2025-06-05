@@ -1,6 +1,6 @@
 ---
-title: 项
-second_title: Aspose.Slides for .NET API 参考
+title: Item
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取指定索引处的规则。只读 IFontFallBackRuleaspose.slides/ifontfallbackrule。
 type: docs
 weight: 10
@@ -21,10 +21,10 @@ public IFontFallBackRule this[int index] { get; }
 [C#]
 using (Presentation pres = new Presentation ())
 {
-    // 从 FontsManager 获取空的或预初始化的规则集合
+    // 从 FontsManager 获取空或预初始化的规则集合
     IFontFallBackRulesCollection rulesList = pres.FontsManager.FontFallBackRulesCollection;
 
-    // 向集合中添加多个规则
+    // 向集合中添加几个规则
     rulesList.Add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
     rulesList.Add(new FontFallBackRule(0x3040, 0x309F, "MS Mincho"));
 
@@ -33,7 +33,7 @@ using (Presentation pres = new Presentation ())
 }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IFontFallBackRule](../../ifontfallbackrule)
 * 接口 [IFontFallBackRulesCollection](../../ifontfallbackrulescollection)

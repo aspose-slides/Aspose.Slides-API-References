@@ -1,7 +1,7 @@
 ---
 title: ShowComments
-second_title: Aspose.Sildes para .NET API Reference
-description: Especifica si se deben mostrar los comentarios de la diapositiva. Lectura/escritura NullableBoolaspose.slides/nullablebool.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Especifica si los comentarios de la diapositiva deben mostrarse. Lectura/escritura NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 50
 url: /es/aspose.slides/iviewproperties/showcomments/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/iviewproperties/showcomments/
 
 ## Propiedad IViewProperties.ShowComments
 
-Especifica si se deben mostrar los comentarios de la diapositiva. Lectura/escritura [`NullableBool`](../../nullablebool).
+Especifica si los comentarios de la diapositiva deben mostrarse. Lectura/escritura [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool ShowComments { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * enum [NullableBool](../../nullablebool)
 * interface [IViewProperties](../../iviewproperties)

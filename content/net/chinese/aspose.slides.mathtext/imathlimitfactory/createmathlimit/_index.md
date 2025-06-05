@@ -19,7 +19,7 @@ public IMathLimit CreateMathLimit(IMathElement baseArg, IMathElement limit, bool
 | --- | --- | --- |
 | baseArg | IMathElement | 应用限制的基本参数 |
 | limit | IMathElement | 限制元素 |
-| upperLimit | Boolean | 设置限制的位置在上方 |
+| upperLimit | Boolean | 设置限制放置在顶部 |
 
 ### 返回值
 
@@ -37,7 +37,7 @@ public IMathLimit CreateMathLimit(IMathElement baseArg, IMathElement limit, bool
 
 ## CreateMathLimit(IMathElement, IMathElement) {#createmathlimit}
 
-创建底部有限制的 IMathLimit
+创建带有底部限制的 IMathLimit
 
 ```csharp
 public IMathLimit CreateMathLimit(IMathElement baseArg, IMathElement limit)

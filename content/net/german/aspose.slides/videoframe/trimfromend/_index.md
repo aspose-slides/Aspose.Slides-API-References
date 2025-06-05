@@ -1,7 +1,7 @@
 ---
 title: TrimFromEnd
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ende abschneiden ms
+second_title: Aspose.Slides für .NET API Referenz
+description: Trim Ende ms
 type: docs
 weight: 90
 url: /de/aspose.slides/videoframe/trimfromend/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/videoframe/trimfromend/
 
 ## VideoFrame.TrimFromEnd-Eigenschaft
 
-Ende abschneiden [ms]
+Trim Ende [ms]
 
 ```csharp
 public float TrimFromEnd { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [VideoFrame](../../videoframe)
 * Namespace [Aspose.Slides](../../videoframe)

@@ -1,15 +1,15 @@
 ---
 title: ApplyDefaultParagraphIndentsShifts
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Définit des décalages par défaut non nuls pour l'indentation et la marge gauche des paragraphes lorsqu'une numérotation est activée, comme le fait PowerPoint lorsqu'on active les puces/numéros de paragraphes. Si les puces sont désactivées, il suffit de réinitialiser l'indentation et la marge gauche du paragraphe, comme le fait PowerPoint lorsqu'on désactive les puces/numéros de paragraphes. Les décalages d'indentation sont appliqués en fonction du contexte des puces actuel - IBulletFormat.Type, .NumberedBulletStyle et FontHeight de la première portion. Des décalages d'indentation non nuls sont appliqués à l'indentation effective et à la marge gauche du paragraphe actuel, ce qui fait que les valeurs résultantes sont des valeurs locales.
+description: Définit des décalages non nuls par défaut pour l'indentation et le MarginLeft des paragraphes effectifs lorsque les puces sont activées, comme le fait PowerPoint si les puces/numérotation de paragraphes sont activées. Si les puces sont désactivées, il suffit de réinitialiser l'indentation et le MarginLeft du paragraphe, comme le fait PowerPoint si les puces/numérotation de paragraphes sont désactivées. Les décalages d'indentation sont appliqués par rapport au contexte de puce actuel - IBulletFormat.Type, .NumberedBulletStyle et FontHeight de la première portion. Des décalages d'indentation non nuls sont appliqués à l'indentation et au MarginLeft effectifs du paragraphe actuel, rendant les valeurs de résultat des valeurs locales.
 type: docs
 weight: 110
 url: /fr/aspose.slides/bulletformat/applydefaultparagraphindentsshifts/
 ---
 
-## BulletFormat.ApplyDefaultParagraphIndentsShifts méthode
+## BulletFormat.ApplyDefaultParagraphIndentsShifts method
 
-Définit des décalages par défaut non nuls pour l'indentation effective du paragraphe et la marge gauche lorsqu'une numérotation est activée (comme le fait PowerPoint lorsqu'on active les puces/numéros de paragraphes). Si les puces sont désactivées, il suffit de réinitialiser l'indentation et la marge gauche du paragraphe (comme le fait PowerPoint lorsqu'on désactive les puces/numéros de paragraphes). Les décalages d'indentation sont appliqués en fonction du contexte actuel des puces - IBulletFormat.Type, .NumberedBulletStyle et FontHeight de la première portion. Des décalages d'indentation non nuls sont appliqués à l'indentation effective et à la marge gauche du paragraphe actuel (ce qui fait que les valeurs résultantes sont des valeurs locales).
+Définit des décalages non nuls par défaut pour l'indentation et le MarginLeft des paragraphes effectifs lorsque les puces sont activées (comme le fait PowerPoint si les puces/numérotation de paragraphes sont activées). Si les puces sont désactivées, il suffit de réinitialiser l'indentation et le MarginLeft du paragraphe (comme le fait PowerPoint si les puces/numérotation de paragraphes sont désactivées). Les décalages d'indentation sont appliqués par rapport au contexte de puce actuel - IBulletFormat.Type, .NumberedBulletStyle et FontHeight de la première portion. Des décalages d'indentation non nuls sont appliqués à l'indentation et au MarginLeft effectifs du paragraphe actuel (rendant les valeurs de résultat des valeurs locales).
 
 ```csharp
 public void ApplyDefaultParagraphIndentsShifts()
@@ -19,7 +19,7 @@ public void ApplyDefaultParagraphIndentsShifts()
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | L'appel de cette méthode est sans effet et entraîne une InvalidOperationException dans les cas suivants : si l'objet parent formaté n'est pas un paragraphe (par exemple, l'appel de ITextStyle.DefaultParagraphFormat.Bullet.ApplyDefaultParagraphIndentsShifts() déclenchera une exception) ; ou si le paragraphe n'a pas été ajouté à une collection ITextFrame.Paragraphs (ajoutez-le d'abord) ; |
+| InvalidOperationException | L'appel à cette méthode n'a pas d'importance et lève InvalidOperationException dans les cas suivants : si l'objet formatté parent n'est pas un paragraphe (par exemple, appeler ITextStyle.DefaultParagraphFormat.Bullet.ApplyDefaultParagraphIndentsShifts() lèvera une exception) ; ou si le paragraphe n'a pas été ajouté à une collection ITextFrame.Paragraphs (ajoutez-le d'abord) ; |
 
 ### Voir aussi
 

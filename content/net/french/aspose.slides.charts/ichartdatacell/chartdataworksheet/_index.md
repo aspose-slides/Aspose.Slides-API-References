@@ -1,13 +1,13 @@
 ---
 title: ChartDataWorksheet
-second_title: Référence API Aspose.Slides pour .NET
-description: Obtient la feuille de calcul. Lecture seule IChartDataWorksheet aspose.slides.charts/ichartdataworksheet.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Obtient la feuille de calcul. Lecture seule IChartDataWorksheetaspose.slides.charts/ichartdataworksheet.
 type: docs
 weight: 10
 url: /fr/aspose.slides.charts/ichartdatacell/chartdataworksheet/
 ---
 
-## Propriété IChartDataCell.ChartDataWorksheet
+## IChartDataCell.ChartDataWorksheet property
 
 Obtient la feuille de calcul. Lecture seule [`IChartDataWorksheet`](../../ichartdataworksheet).
 
@@ -15,7 +15,7 @@ Obtient la feuille de calcul. Lecture seule [`IChartDataWorksheet`](../../ichart
 public IChartDataWorksheet ChartDataWorksheet { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IChartDataWorksheet](../../ichartdataworksheet)
 * interface [IChartDataCell](../../ichartdatacell)

@@ -1,7 +1,7 @@
 ---
-title: 计数
-second_title: Aspose.Slides for .NET API 参考
-description: 获取图例条目数量。只读 Int32。
+title: Count
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取图例条目的数量。只读 Int32。
 type: docs
 weight: 10
 url: /zh/aspose.slides.charts/legendentrycollection/count/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/legendentrycollection/count/
 
 ## LegendEntryCollection.Count 属性
 
-获取图例条目数量。只读 Int32。
+获取图例条目的数量。只读 Int32。
 
 ```csharp
 public int Count { get; }

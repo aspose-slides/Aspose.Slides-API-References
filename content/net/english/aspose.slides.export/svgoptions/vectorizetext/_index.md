@@ -3,9 +3,10 @@ title: VectorizeText
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines whether the text on a slide will be saved as graphics. Read/write Boolean.
 type: docs
-weight: 160
+weight: 180
 url: /aspose.slides.export/svgoptions/vectorizetext/
 ---
+
 ## SVGOptions.VectorizeText property
 
 Determines whether the text on a slide will be saved as graphics. Read/write Boolean.

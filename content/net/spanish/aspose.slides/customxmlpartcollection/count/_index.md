@@ -1,6 +1,6 @@
 ---
-title: Contar
-second_title: Referencia de la API de Aspose.Slides para .NET
+title: Count
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el conteo de partes xml personalizadas en la colección. Solo lectura Int32.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Devuelve el conteo de partes xml personalizadas en la colección. Solo lectura I
 public int Count { get; }
 ```
 
-### Ver También
+### Vea También
 
 * clase [CustomXmlPartCollection](../../customxmlpartcollection)
 * espacio de nombres [Aspose.Slides](../../customxmlpartcollection)

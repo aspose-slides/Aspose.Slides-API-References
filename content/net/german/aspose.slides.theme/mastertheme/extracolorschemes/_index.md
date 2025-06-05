@@ -1,7 +1,7 @@
 ---
-title: ExtraFarbSchemas
+title: ExtraColorSchemes
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Sammlung zusätzlicher Farbschemas zurück. Diese Schemata beeinträchtigen nicht das Aussehen der Präsentation, sie können als Hauptfarbschema für eine Folie ausgewählt werden. Nur lesbar IExtraColorSchemeCollectionaspose.slides.theme/iextracolorschemecollection.
+description: Gibt die Sammlung zusätzlicher Farbpaletten zurück. Diese Paletten beeinflussen nicht das Aussehen der Präsentation, sie können als Hauptfarbpalette für eine Folie ausgewählt werden. Nur-Lese IExtraColorSchemeCollectionaspose.slides/iextracolorschemecollection.
 type: docs
 weight: 20
 url: /de/aspose.slides.theme/mastertheme/extracolorschemes/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.theme/mastertheme/extracolorschemes/
 
 ## MasterTheme.ExtraColorSchemes-Eigenschaft
 
-Gibt die Sammlung zusätzlicher Farbschemas zurück. Diese Schemata beeinträchtigen nicht das Aussehen der Präsentation, sie können als Hauptfarbschema für eine Folie ausgewählt werden. Nur lesbar [`IExtraColorSchemeCollection`](../../iextracolorschemecollection).
+Gibt die Sammlung zusätzlicher Farbpaletten zurück. Diese Paletten beeinflussen nicht das Aussehen der Präsentation, sie können als Hauptfarbpalette für eine Folie ausgewählt werden. Nur-Lese [`IExtraColorSchemeCollection`](../../iextracolorschemecollection).
 
 ```csharp
 public IExtraColorSchemeCollection ExtraColorSchemes { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IExtraColorSchemeCollection](../../iextracolorschemecollection)
 * Klasse [MasterTheme](../../mastertheme)

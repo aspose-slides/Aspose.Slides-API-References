@@ -1,6 +1,6 @@
 ---
-title: 删除列
-second_title: Aspose.Slides for .NET API 参考
+title: DeleteColumn
+second_title: Aspose.Sildes for .NET API Reference
 description: 删除指定的列
 type: docs
 weight: 120
@@ -21,7 +21,7 @@ public void DeleteColumn(int columnIndex)
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -29,7 +29,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.DeleteColumn(0);
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IMathMatrix](../../imathmatrix)
 * 命名空间 [Aspose.Slides.MathText](../../imathmatrix)

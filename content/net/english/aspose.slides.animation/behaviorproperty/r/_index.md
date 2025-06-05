@@ -6,6 +6,7 @@ type: docs
 weight: 570
 url: /aspose.slides.animation/behaviorproperty/r/
 ---
+
 ## BehaviorProperty.R property
 
 Represents 'r' property

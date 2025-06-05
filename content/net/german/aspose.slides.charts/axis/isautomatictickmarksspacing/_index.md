@@ -1,7 +1,7 @@
 ---
 title: IsAutomaticTickMarksSpacing
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Wert für den automatischen Abstand der Tick-Marken an. Wenn false, verwenden Sie die Eigenschaft TickMarksSpacing. Lese-/Schreibbare Boolesche Eigenschaft.
+description: Gibt den Wert des automatischen Abstands der Tick-Marken an. Wenn false, verwenden Sie die Eigenschaft TickMarksSpacing. Lese-/Schreib-Boolean.
 type: docs
 weight: 240
 url: /de/aspose.slides.charts/axis/isautomatictickmarksspacing/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/axis/isautomatictickmarksspacing/
 
 ## Axis.IsAutomaticTickMarksSpacing-Eigenschaft
 
-Gibt den Wert für den automatischen Abstand der Tick-Marken an. Wenn false: verwenden Sie die Eigenschaft TickMarksSpacing. Lese-/Schreibbare Boolesche Eigenschaft.
+Gibt den Wert des automatischen Abstands der Tick-Marken an. Wenn false: verwenden Sie die Eigenschaft TickMarksSpacing. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool IsAutomaticTickMarksSpacing { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [Axis](../../axis)
 * Namespace [Aspose.Slides.Charts](../../axis)

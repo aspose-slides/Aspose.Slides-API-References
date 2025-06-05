@@ -1,7 +1,7 @@
 ---
 title: AdvanceAfter
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Этот атрибут указывает, будет ли слайд-шоу переходить к следующему слайду через определенное время. Читаемый/записываемый логический тип.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Этот атрибут указывает, будет ли слайд-шоу переходить на следующий слайд через определенное время. Читаемый/записываемый логический тип.
 type: docs
 weight: 10
 url: /ru/aspose.slides.slideshow/slideshowtransition/advanceafter/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.slideshow/slideshowtransition/advanceafter/
 
 ## SlideShowTransition.AdvanceAfter свойство
 
-Этот атрибут указывает, будет ли слайд-шоу переходить к следующему слайду через определенное время. Читаемый/записываемый логический тип.
+Этот атрибут указывает, будет ли слайд-шоу переходить на следующий слайд через определенное время. Читаемый/записываемый логический тип.
 
 ```csharp
 public bool AdvanceAfter { get; set; }
@@ -21,13 +21,13 @@ public bool AdvanceAfter { get; set; }
 [C#]
 using (Presentation pres = new Presentation("demo.pptx"))
 {
-    // Получить первый переход слайда
+    // Получить переход для первого слайда
     ISlideShowTransition slideTransition = pres.Slides[0].SlideShowTransition;
     
-    // Проверить, установлен ли флаг Advance Slide After
+    // Проверить, установлен ли флаг 'Переход на следующий слайд после'
     if (slideTransition.AdvanceAfter)
     {
-        // Получить значение времени Advance Slide After
+        // Получить значение времени перехода на следующий слайд
         uint advanceAfterTime = slideTransition.AdvanceAfterTime;
     }
 }

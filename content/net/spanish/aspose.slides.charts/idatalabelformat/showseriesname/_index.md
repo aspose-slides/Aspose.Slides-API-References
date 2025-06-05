@@ -1,7 +1,7 @@
 ---
 title: ShowSeriesName
 second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve o establece un Booleano para indicar el comportamiento de visualización del nombre de la serie para las etiquetas de datos en un gráfico. Verdadero para mostrar el nombre de la serie. Falso para ocultar. Booleano de lectura/escritura.
+description: Devuelve o establece un valor Booleano para indicar el comportamiento de visualización del nombre de la serie para las etiquetas de datos en un gráfico. Verdadero para mostrar el nombre de la serie. Falso para ocultar. Booleano de lectura/escritura.
 type: docs
 weight: 140
 url: /es/aspose.slides.charts/idatalabelformat/showseriesname/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.charts/idatalabelformat/showseriesname/
 
 ## Propiedad IDataLabelFormat.ShowSeriesName
 
-Devuelve o establece un Booleano para indicar el comportamiento de visualización del nombre de la serie para las etiquetas de datos en un gráfico. Verdadero para mostrar el nombre de la serie. Falso para ocultar. Booleano de lectura/escritura.
+Devuelve o establece un valor Booleano para indicar el comportamiento de visualización del nombre de la serie para las etiquetas de datos en un gráfico. Verdadero para mostrar el nombre de la serie. Falso para ocultar. Booleano de lectura/escritura.
 
 ```csharp
 public bool ShowSeriesName { get; set; }
@@ -23,6 +23,6 @@ Si el padre de este objeto DataLabelFormat es una colección DataLabelCollection
 
 * interfaz [IDataLabelFormat](../../idatalabelformat)
 * espacio de nombres [Aspose.Slides.Charts](../../idatalabelformat)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
-<!-- NO EDITE: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

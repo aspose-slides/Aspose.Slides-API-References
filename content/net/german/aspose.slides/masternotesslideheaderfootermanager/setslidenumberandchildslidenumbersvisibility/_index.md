@@ -1,15 +1,15 @@
 ---
 title: SetSlideNumberAndChildSlideNumbersVisibility
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ändert die Sichtbarkeit des Platzhalters für die Seitenzahl der Masterfolie und aller Platzhalter für Seitenzahlen der untergeordneten Folien. Untergeordnete Platzhalter sind Platzhalter, die in abhängigen Notizenfolien enthalten sind. Abhängige Notizenfolien verwenden und hängen von der Master-Notizenfolie ab.
+description: Ändert die Sichtbarkeit des Platzhalters für die Foliennummer auf der Masterfolie sowie aller Platzhalter für Foliennummern der untergeordneten Folien. Untergeordnete Platzhalter bedeuten, dass die Platzhalter auf den abhängigen Notizenfolien enthalten sind. Abhängige Notizenfolien nutzen und hängen von der Master-Notizenfolie ab.
 type: docs
 weight: 70
 url: /de/aspose.slides/masternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility/
 ---
 
-## MasterNotesSlideHeaderFooterManager.SetSlideNumberAndChildSlideNumbersVisibility-Methode
+## MasterNotesSlideHeaderFooterManager.SetSlideNumberAndChildSlideNumbersVisibility Methode
 
-Ändert die Sichtbarkeit des Platzhalters für die Seitenzahl der Masterfolie und aller Platzhalter für Seitenzahlen der untergeordneten Folien. Untergeordnete Platzhalter sind Platzhalter, die in abhängigen Notizenfolien enthalten sind. Abhängige Notizenfolien verwenden und hängen von der Master-Notizenfolie ab.
+Ändert die Sichtbarkeit des Platzhalters für die Foliennummer auf der Masterfolie sowie aller Platzhalter für Foliennummern der untergeordneten Folien. Untergeordnete Platzhalter bedeuten, dass die Platzhalter auf den abhängigen Notizenfolien enthalten sind. Abhängige Notizenfolien nutzen und hängen von der Master-Notizenfolie ab.
 
 ```csharp
 public void SetSlideNumberAndChildSlideNumbersVisibility(bool isVisible)
@@ -17,7 +17,7 @@ public void SetSlideNumberAndChildSlideNumbersVisibility(bool isVisible)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| isVisible | Boolean | true - macht einen Platzhalter für die Seitenzahl sichtbar, andernfalls - versteckt ihn. |
+| isVisible | Boolean | true - macht die Platzhalter für die Foliennummer sichtbar, andernfalls - versteckt sie. |
 
 ### Siehe auch
 

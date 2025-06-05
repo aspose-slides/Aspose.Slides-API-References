@@ -1,13 +1,13 @@
 ---
 title: GetLinesCount
-second_title: Aspose.Sildes pour la référence API .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Obtenir le nombre de lignes dans un paragraphe.
 type: docs
 weight: 60
 url: /fr/aspose.slides/iparagraph/getlinescount/
 ---
 
-## Méthode IParagraph.GetLinesCount
+## IParagraph.GetLinesCount méthode
 
 Obtenir le nombre de lignes dans un paragraphe.
 
@@ -21,7 +21,7 @@ Nombre de lignes dans un paragraphe
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -31,7 +31,7 @@ using (Presentation pres = new Presentation())
     IAutoShape ashp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 150, 75, 150, 50);
     IParagraph para = ashp.TextFrame.Paragraphs[0];
     IPortion portion = para.Portions[0];
-    portion.Text = "Exemple d'Aspose Paragraph GetLinesCount()";
+    portion.Text = "Exemple GetLinesCount() de paragraphe Aspose";
     Console.WriteLine("Nombre de lignes = {0}", para.GetLinesCount());
 }
 ```

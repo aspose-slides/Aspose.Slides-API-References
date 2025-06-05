@@ -1,7 +1,7 @@
 ---
 title: Effect3D
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das 3D-Format eines Diagramms zurück. Nur lesend IThreeDFormataspose.slides/ithreedformat.
+description: Gibt das 3D-Format eines Diagramms zurück. Nur lesbar IThreeDFormataspose.slides/ithreedformat.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/iformat/effect3d/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/iformat/effect3d/
 
 ## IFormat.Effect3D-Eigenschaft
 
-Gibt das 3D-Format eines Diagramms zurück. Nur lesend [`IThreeDFormat`](../../../aspose.slides/ithreedformat).
+Gibt das 3D-Format eines Diagramms zurück. Nur lesbar [`IThreeDFormat`](../../../aspose.slides/ithreedformat).
 
 ```csharp
 public IThreeDFormat Effect3D { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IThreeDFormat](../../../aspose.slides/ithreedformat)
 * Schnittstelle [IFormat](../../iformat)

@@ -1,13 +1,13 @@
 ---
 title: CopyTo
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Copie tous les éléments de la collection dans le tableau spécifié.
 type: docs
 weight: 50
 url: /fr/aspose.slides/layoutslidecollection/copyto/
 ---
 
-## Méthode LayoutSlideCollection.CopyTo
+## LayoutSlideCollection.CopyTo méthode
 
 Copie tous les éléments de la collection dans le tableau spécifié.
 

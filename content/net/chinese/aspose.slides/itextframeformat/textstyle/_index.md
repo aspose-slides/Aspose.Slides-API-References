@@ -1,7 +1,7 @@
 ---
-title: 文本样式
-second_title: Aspose.Slides for .NET API 参考
-description: 返回文本的样式。只读 ITextStyle aspose.slides/itextstyle。
+title: TextStyle
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回文本样式。ITextStyle的只读属性aspose.slides/itextstyle。
 type: docs
 weight: 120
 url: /zh/aspose.slides/itextframeformat/textstyle/

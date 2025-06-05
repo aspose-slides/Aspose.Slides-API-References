@@ -15,7 +15,7 @@ Stellt eine Implementierung des IOutputSaver-Interfaces dar.
 public IXamlOutputSaver OutputSaver { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * interface [IXamlOutputSaver](../../ixamloutputsaver)
 * class [XamlOptions](../../xamloptions)

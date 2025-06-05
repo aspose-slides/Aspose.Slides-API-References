@@ -17,13 +17,13 @@ public WebDocument(WebDocumentOptions options)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| options | WebDocumentOptions | Für das Dokument festgelegte Optionen. |
+| options | WebDocumentOptions | Optionen, die für das Dokument festgelegt sind. |
 
 ### Rückgabewert
 
 Eine neue Instanz von [`WebDocument`](../../webdocument).
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [WebDocumentOptions](../../webdocumentoptions)
 * Klasse [WebDocument](../../webdocument)

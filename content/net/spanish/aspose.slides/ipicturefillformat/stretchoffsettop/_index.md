@@ -1,21 +1,21 @@
 ---
 title: StretchOffsetTop
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Devuelve o establece el borde superior del rectángulo de relleno que se define por un desplazamiento porcentual desde el borde superior del cuadro delimitador de la forma. Un porcentaje positivo especifica un interior, mientras que un porcentaje negativo especifica un exterior. Lectura/escritura Single.
+second_title: Aspose.Sildes para .NET API Reference
+description: Devuelve o establece el borde superior del rectángulo de relleno que se define mediante un desplazamiento porcentual desde el borde superior del marco delimitador de la forma. Un porcentaje positivo especifica un inset, mientras que un porcentaje negativo especifica un outset. Lectura/escritura Single.
 type: docs
 weight: 120
 url: /es/aspose.slides/ipicturefillformat/stretchoffsettop/
 ---
 
-## Propiedad IPictureFillFormat.StretchOffsetTop
+## IPictureFillFormat.StretchOffsetTop propiedad
 
-Devuelve o establece el borde superior del rectángulo de relleno que se define por un desplazamiento porcentual desde el borde superior del cuadro delimitador de la forma. Un porcentaje positivo especifica un interior, mientras que un porcentaje negativo especifica un exterior. Lectura/escritura Single.
+Devuelve o establece el borde superior del rectángulo de relleno que se define mediante un desplazamiento porcentual desde el borde superior del marco delimitador de la forma. Un porcentaje positivo especifica un inset, mientras que un porcentaje negativo especifica un outset. Lectura/escritura Single.
 
 ```csharp
 public float StretchOffsetTop { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IPictureFillFormat](../../ipicturefillformat)
 * espacio de nombres [Aspose.Slides](../../ipicturefillformat)

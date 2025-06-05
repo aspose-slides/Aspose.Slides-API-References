@@ -1,7 +1,7 @@
 ---
 title: ImageTransparentColor
 second_title: Référence API Aspose.Slides pour .NET
-description: Obtient ou définit la couleur transparente de l'image.
+description: Obtient ou définit la couleur de transparence de l'image.
 type: docs
 weight: 100
 url: /fr/aspose.slides.export/pdfoptions/imagetransparentcolor/
@@ -9,17 +9,17 @@ url: /fr/aspose.slides.export/pdfoptions/imagetransparentcolor/
 
 ## PdfOptions.ImageTransparentColor propriété
 
-Obtient ou définit la couleur transparente de l'image.
+Obtient ou définit la couleur de transparence de l'image.
 
 ```csharp
 public Color ImageTransparentColor { get; set; }
 ```
 
-### Valeur de la Propriété
+### Valeur de la propriété
 
-La couleur de l'image transparente.
+La couleur de transparence de l'image.
 
-### Voir Aussi
+### Voir aussi
 
 * classe [PdfOptions](../../pdfoptions)
 * espace de noms [Aspose.Slides.Export](../../pdfoptions)

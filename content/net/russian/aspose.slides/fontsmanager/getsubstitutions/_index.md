@@ -1,6 +1,6 @@
 ---
 title: GetSubstitutions
-second_title: Aspose.Sildes для .NET API Справка
+second_title: Aspose.Sildes для .NET Справочник по API
 description: Получает информацию о шрифтах, которые будут заменены при рендеринге презентаций.
 type: docs
 weight: 80

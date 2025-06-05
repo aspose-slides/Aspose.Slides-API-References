@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/commentcollection/insertcomment/
 ---
+
 ## CommentCollection.InsertComment method
 
 Insert new comment to a collection at the specified index.

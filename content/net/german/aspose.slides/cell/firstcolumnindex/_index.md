@@ -1,7 +1,7 @@
 ---
 title: FirstColumnIndex
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Index der ersten Spalte zurück, die von der Zelle abgedeckt wird. Nur-Lese Int32.
+description: Gibt den Index der ersten Spalte zurück, die von der Zelle abgedeckt wird. Nur lesbarer Int32.
 type: docs
 weight: 50
 url: /de/aspose.slides/cell/firstcolumnindex/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/cell/firstcolumnindex/
 
 ## Cell.FirstColumnIndex-Eigenschaft
 
-Gibt den Index der ersten Spalte zurück, die von der Zelle abgedeckt wird. Nur-Lese Int32.
+Gibt den Index der ersten Spalte zurück, die von der Zelle abgedeckt wird. Nur lesbarer Int32.
 
 ```csharp
 public int FirstColumnIndex { get; }

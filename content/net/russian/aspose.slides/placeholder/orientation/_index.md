@@ -1,6 +1,6 @@
 ---
-title: Ориентация
-second_title: Справочник по API Aspose.Slides для .NET
+title: Orientation
+second_title: Aspose.Slides для .NET API Reference
 description: Получает или устанавливает ориентацию заполнителя. Только для чтения Orientationaspose.slides/orientation.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/placeholder/orientation/
 public Orientation Orientation { get; }
 ```
 
-### Также смотри
+### См. также
 
 * enum [Orientation](../../orientation)
 * class [Placeholder](../../placeholder)

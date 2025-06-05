@@ -19,7 +19,7 @@ public ITextFrame AddTextFrameForOverriding(string text)
 | --- | --- | --- |
 | text | String | Текст для нового TextFrameForOverriding. |
 
-### Смотрите Также
+### См. также
 
 * интерфейс [ITextFrame](../../../aspose.slides/itextframe)
 * класс [ChartTitle](../../charttitle)

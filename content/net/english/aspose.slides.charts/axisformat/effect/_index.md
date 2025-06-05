@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/axisformat/effect/
 ---
+
 ## AxisFormat.Effect property
 
 Returns effects used for an axis. Read-only [`IEffectFormat`](../../../aspose.slides/ieffectformat).

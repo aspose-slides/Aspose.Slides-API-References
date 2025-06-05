@@ -1,7 +1,7 @@
 ---
 title: CheckWriteProtection
-second_title: Aspose.Slides für .NET API-Referenz
-description: Überprüft, ob ein Passwort zum Ändern für eine schreibgeschützte Präsentation korrekt ist.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Überprüft, ob ein Passwort zur Modifizierung für eine schreibgeschützte Präsentation korrekt ist.
 type: docs
 weight: 60
 url: /de/aspose.slides/ipresentationinfo/checkwriteprotection/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ipresentationinfo/checkwriteprotection/
 
 ## IPresentationInfo.CheckWriteProtection-Methode
 
-Überprüft, ob ein Passwort zum Ändern für eine schreibgeschützte Präsentation korrekt ist.
+Überprüft, ob ein Passwort zur Modifizierung für eine schreibgeschützte Präsentation korrekt ist.
 
 ```csharp
 public bool CheckWriteProtection(string password)
@@ -17,7 +17,7 @@ public bool CheckWriteProtection(string password)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| password | String | Das zu überprüfende Passwort. |
+| password | String | Das Passwort, das überprüft werden soll. |
 
 ### Rückgabewert
 
@@ -29,7 +29,7 @@ Wahr, wenn die Präsentation schreibgeschützt ist und das Passwort korrekt ist.
 | --- | --- |
 | InvalidOperationException |  |
 
-### Bemerkungen
+### Anmerkungen
 
 1. Sie sollten die [`IsWriteProtected`](../iswriteprotected) Eigenschaft überprüfen, bevor Sie diese Methode aufrufen. 2. Wenn das Passwort null oder leer ist, gibt diese Methode false zurück.
 
@@ -44,7 +44,7 @@ if (info.IsWriteProtected == NullableBool.True)
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IPresentationInfo](../../ipresentationinfo)
 * Namespace [Aspose.Slides](../../ipresentationinfo)

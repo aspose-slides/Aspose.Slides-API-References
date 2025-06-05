@@ -1,6 +1,6 @@
 ---
 title: IEffect
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Représente un effet d'animation.
 type: docs
 weight: 410
@@ -19,15 +19,15 @@ public interface IEffect
 
 | Nom | Description |
 | --- | --- |
-| [AfterAnimationColor](../../aspose.slides.animation/ieffect/afteranimationcolor) { get; set; } | Définit une couleur après animation pour l'effet. Lecture/écriture [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [AfterAnimationType](../../aspose.slides.animation/ieffect/afteranimationtype) { get; set; } | Définit un type après animation pour l'effet. Lecture/écriture [`AfterAnimationType`](./afteranimationtype). |
-| [AnimateTextType](../../aspose.slides.animation/ieffect/animatetexttype) { get; set; } | Définit un type d'animation de texte pour l'effet. Le texte de la forme peut être animé par lettre, par mot ou tout à la fois. Lecture/écriture [`AnimateTextType`](./animatetexttype). |
+| [AfterAnimationColor](../../aspose.slides.animation/ieffect/afteranimationcolor) { get; set; } | Définit une couleur après l'animation pour l'effet. Lecture/écriture [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AfterAnimationType](../../aspose.slides.animation/ieffect/afteranimationtype) { get; set; } | Définit un type après l'animation pour l'effet. Lecture/écriture [`AfterAnimationType`](./afteranimationtype). |
+| [AnimateTextType](../../aspose.slides.animation/ieffect/animatetexttype) { get; set; } | Définit un type de texte animé pour l'effet. Le texte de la forme peut être animé par lettre, par mot ou tout à la fois. Lecture/écriture [`AnimateTextType`](./animatetexttype). |
 | [Behaviors](../../aspose.slides.animation/ieffect/behaviors) { get; set; } | Renvoie une collection de comportements pour l'effet. Lecture/écriture [`IBehaviorCollection`](../ibehaviorcollection). |
 | [DelayBetweenTextParts](../../aspose.slides.animation/ieffect/delaybetweentextparts) { get; set; } | Définit un délai entre les parties de texte animées (mots ou lettres). Une valeur positive spécifie le pourcentage de la durée de l'effet. Une valeur négative spécifie le délai en secondes. Lecture/écriture Single. |
 | [PresetClassType](../../aspose.slides.animation/ieffect/presetclasstype) { get; set; } | Définit la classe de l'effet. Lecture/écriture [`EffectPresetClassType`](../effectpresetclasstype). |
 | [Sequence](../../aspose.slides.animation/ieffect/sequence) { get; } | Renvoie une séquence pour un effet. Lecture seule [`ISequence`](../isequence). |
 | [Sound](../../aspose.slides.animation/ieffect/sound) { get; set; } | Définit un son intégré pour l'effet. Lecture/écriture [`IAudio`](../../aspose.slides/iaudio). |
-| [StopPreviousSound](../../aspose.slides.animation/ieffect/stopprevioussound) { get; set; } | Cet attribut spécifie si l'effet d'animation arrête le son précédent. Lecture/écriture Boolean. |
+| [StopPreviousSound](../../aspose.slides.animation/ieffect/stopprevioussound) { get; set; } | Cet attribut spécifie si l'effet d'animation stoppe le son précédent. Lecture/écriture Boolean. |
 | [Subtype](../../aspose.slides.animation/ieffect/subtype) { get; set; } | Définit le sous-type de l'effet. Lecture/écriture [`EffectSubtype`](../effectsubtype). |
 | [TargetShape](../../aspose.slides.animation/ieffect/targetshape) { get; } | Renvoie la forme cible pour l'effet. Lecture seule [`IShape`](../../aspose.slides/ishape). |
 | [TextAnimation](../../aspose.slides.animation/ieffect/textanimation) { get; } | Renvoie l'animation de texte. Lecture seule [`ITextAnimation`](../itextanimation). |

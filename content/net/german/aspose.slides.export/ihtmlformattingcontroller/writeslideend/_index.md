@@ -1,13 +1,13 @@
 ---
 title: WriteSlideEnd
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Wird aufgerufen, um den HTML-Fußbereich der Folie zu schreiben. Wird einmal für jede Folie aufgerufen.
 type: docs
 weight: 50
 url: /de/aspose.slides.export/ihtmlformattingcontroller/writeslideend/
 ---
 
-## IHtmlFormattingController.WriteSlideEnd Methode
+## IHtmlFormattingController.WriteSlideEnd-Methode
 
 Wird aufgerufen, um den HTML-Fußbereich der Folie zu schreiben. Wird einmal für jede Folie aufgerufen.
 
@@ -17,8 +17,8 @@ public void WriteSlideEnd(IHtmlGenerator generator, ISlide slide)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| generator | IHtmlGenerator | Ausgabobjekt. |
-| slide | ISlide | Die aktuell gerenderte Folie. |
+| generator | IHtmlGenerator | Ausgabeobjekt. |
+| slide | ISlide | Die Folie, die aktuell gerendert wird. |
 
 ### Siehe auch
 

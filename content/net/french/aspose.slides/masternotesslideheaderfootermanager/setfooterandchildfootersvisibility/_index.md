@@ -1,7 +1,7 @@
 ---
 title: SetFooterAndChildFootersVisibility
-second_title: Aspose.Slides pour .NET Référence API
-description: Change la visibilité de l'espace réservé au pied de page de la diapositive maître et de tous les espaces réservés au pied de page enfants. Les espaces réservés enfants signifient que les espaces réservés sont contenus dans les diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive maîtresse des notes.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Change la visibilité du modèle de pied de page de la diapositive maître et de tous les modèles de pied de page enfants. Les modèles enfants désignent les modèles contenus dans les diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maître.
 type: docs
 weight: 40
 url: /fr/aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfootersvisibility/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfoot
 
 ## MasterNotesSlideHeaderFooterManager.SetFooterAndChildFootersVisibility méthode
 
-Change la visibilité de l'espace réservé au pied de page de la diapositive maître et de tous les espaces réservés au pied de page enfants. Les espaces réservés enfants signifient que les espaces réservés sont contenus dans les diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive maîtresse des notes.
+Change la visibilité du modèle de pied de page de la diapositive maître et de tous les modèles de pied de page enfants. Les modèles enfants désignent les modèles contenus dans les diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maître.
 
 ```csharp
 public void SetFooterAndChildFootersVisibility(bool isVisible)
@@ -17,9 +17,9 @@ public void SetFooterAndChildFootersVisibility(bool isVisible)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| isVisible | Boolean | true - rend un espace réservé de pied de page visible, sinon - les cache. |
+| isVisible | Boolean | true - rend les modèles de pied de page visibles, sinon - les cache. |
 
-### Voir Aussi
+### Voir aussi
 
 * classe [MasterNotesSlideHeaderFooterManager](../../masternotesslideheaderfootermanager)
 * espace de noms [Aspose.Slides](../../masternotesslideheaderfootermanager)

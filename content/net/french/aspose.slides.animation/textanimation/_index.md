@@ -1,38 +1,38 @@
 ---
-title: AnimationDeTexte
+title: TextAnimation
 second_title: Référence API Aspose.Slides pour .NET
-description: Représente l'animation de texte.
+description: Représenter l'animation de texte.
 type: docs
 weight: 740
 url: /fr/aspose.slides.animation/textanimation/
 ---
 
-## Classe AnimationDeTexte
+## Classe TextAnimation
 
-Représente l'animation de texte.
+Représenter l'animation de texte.
 
 ```csharp
-public class AnimationDeTexte : ITextAnimation
+public class TextAnimation : ITextAnimation
 ```
 
 ## Constructeurs
 
 | Nom | Description |
 | --- | --- |
-| [AnimationDeTexte](animationdetexte)() | Le constructeur par défaut. |
+| [TextAnimation](textanimation)() | Le constructeur par défaut. |
 
 ## Propriétés
 
 | Nom | Description |
 | --- | --- |
-| [TypeDeConstruction](../../aspose.slides.animation/animationdetexte/typedebuild) { get; set; } | Liste des types de construction (par ex. Paragraphe 1,2,3, Tout à la fois) de l'animation de texte. Lecture/écriture [`TypeDeConstruction`](../typedebuild). |
-| [EffetAnimerFormeArrièrePlan](../../aspose.slides.animation/animationdetexte/effetanimerformearriereplan) { get; set; } | Effet de forme liée avec groupe ou non (null). Lecture/écriture [`IEffect`](../ieffect). |
+| [BuildType](../../aspose.slides.animation/textanimation/buildtype) { get; set; } | Liste des types de construction (par exemple, Paragraphe 1,2,3, Tous en même temps) de l'animation de texte. Lecture/écriture [`BuildType`](../buildtype). |
+| [EffectAnimateBackgroundShape](../../aspose.slides.animation/textanimation/effectanimatebackgroundshape) { get; set; } | Effet de forme lié avec groupe ou non (null). Lecture/écriture [`IEffect`](../ieffect). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [AjouterEffet](../../aspose.slides.animation/animationdetexte/ajoutereffet)(TypeEffet, SousTypeEffet, TypeDéclencheurEffet) | Ajoute un nouvel effet à la fin de la séquence actuelle à la fin des animations de texte du groupe. Valide seulement si le nombre de paragraphes de texte est égal ou supérieur au nombre d'effets de ce groupe ! |
+| [AddEffect](../../aspose.slides.animation/textanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | Ajouter un nouvel effet à la fin de la séquence actuelle à la fin des animations de texte de groupe. Seulement valable si le nombre de paragraphes de texte est égal ou supérieur au nombre d'effets de ce groupe! |
 
 ### Voir aussi
 

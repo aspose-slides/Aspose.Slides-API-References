@@ -1,13 +1,13 @@
 ---
-title: AjouterVidéo
-second_title: Référence API Aspose.Slides pour .NET
+title: AddVideo
+second_title: Aspose.Sildes pour la référence de l'API .NET
 description: Ajoute une copie d'un fichier vidéo d'une autre présentation.
 type: docs
 weight: 50
 url: /fr/aspose.slides/videocollection/addvideo/
 ---
 
-## AjouterVidéo(IVideo) {#addvideo}
+## AddVideo(IVideo) {#addvideo}
 
 Ajoute une copie d'un fichier vidéo d'une autre présentation.
 
@@ -19,11 +19,11 @@ public IVideo AddVideo(IVideo video)
 | --- | --- | --- |
 | video | IVideo | Vidéo source. |
 
-### Valeur de Retour
+### Valeur de retour
 
 Vidéo ajoutée.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IVideo](../../ivideo)
 * class [VideoCollection](../../videocollection)
@@ -32,7 +32,7 @@ Vidéo ajoutée.
 
 ---
 
-## AjouterVidéo(Stream, LoadingStreamBehavior) {#addvideo_2}
+## AddVideo(Stream, LoadingStreamBehavior) {#addvideo_2}
 
 Crée et ajoute une vidéo à une présentation à partir d'un flux.
 
@@ -45,11 +45,11 @@ public IVideo AddVideo(Stream stream, LoadingStreamBehavior loadingStreamBehavio
 | stream | Stream | Flux à partir duquel ajouter le fichier vidéo. |
 | loadingStreamBehavior | LoadingStreamBehavior | Le comportement qui sera appliqué au flux. |
 
-### Valeur de Retour
+### Valeur de retour
 
 Vidéo ajoutée [`IVideo`](../../ivideo).
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IVideo](../../ivideo)
 * enum [LoadingStreamBehavior](../../loadingstreambehavior)
@@ -59,7 +59,7 @@ Vidéo ajoutée [`IVideo`](../../ivideo).
 
 ---
 
-## AjouterVidéo(byte[]) {#addvideo_1}
+## AddVideo(byte[]) {#addvideo_1}
 
 Crée et ajoute une vidéo à une présentation à partir d'un tableau d'octets.
 
@@ -71,11 +71,11 @@ public IVideo AddVideo(byte[] videoData)
 | --- | --- | --- |
 | videoData | Byte[] | Octets vidéo. |
 
-### Valeur de Retour
+### Valeur de retour
 
 Vidéo ajoutée.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IVideo](../../ivideo)
 * class [VideoCollection](../../videocollection)

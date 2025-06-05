@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.animation/itiming/repeatduration/
 ---
+
 ## ITiming.RepeatDuration property
 
 Describes the number of times the effect should repeat. Read/write Single.

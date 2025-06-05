@@ -1,7 +1,7 @@
 ---
 title: AsICellCollection
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf die Basisschnittstelle ICellCollection. Nur lesende ICellCollection aspose.slides/icellcollection.
+description: Ermöglicht den Zugriff auf die Basis-ICollection-Schnittstelle. Nur-lesende ICellCollection aspose.slides/icellcollection.
 type: docs
 weight: 20
 url: /de/aspose.slides/icolumn/asicellcollection/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/icolumn/asicellcollection/
 
 ## IColumn.AsICellCollection-Eigenschaft
 
-Ermöglicht den Zugriff auf die Basisschnittstelle ICellCollection. Nur lesende [`ICellCollection`](../../icellcollection).
+Ermöglicht den Zugriff auf die Basis-ICollection-Schnittstelle. Nur-lesend [`ICellCollection`](../../icellcollection).
 
 ```csharp
 public ICellCollection AsICellCollection { get; }

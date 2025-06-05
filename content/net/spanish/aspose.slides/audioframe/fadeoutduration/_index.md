@@ -1,13 +1,13 @@
 ---
 title: FadeOutDuration
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Especifica la duración en milisegundos para el desvanecimiento final del medio. Lectura/escritura Single.
 type: docs
 weight: 80
 url: /es/aspose.slides/audioframe/fadeoutduration/
 ---
 
-## Propiedad AudioFrame.FadeOutDuration
+## AudioFrame.FadeOutDuration propiedad
 
 Especifica la duración en milisegundos para el desvanecimiento final del medio. Lectura/escritura Single.
 
@@ -26,7 +26,7 @@ using (Presentation pres = new Presentation())
     IAudio audio = pres.Audios.AddAudio(File.ReadAllBytes("sampleaudio.mp3"));
     IAudioFrame audioFrame = pres.Slides[0].Shapes.AddAudioFrameEmbedded(50, 50, 100, 100, audio);
 
-    // Establecer la duración del desvanecimiento final en 500ms
+    // Establecer la duración del desvanecimiento final en 500 ms
     audioFrame.FadeOutDuration = 500f;
 
     pres.Save("AudioFrameFade_out.pptx", SaveFormat.Pptx);

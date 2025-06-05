@@ -1,13 +1,13 @@
 ---
 title: GetHashCode
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slildes para .NET Referencia de API
 description: Sirve como una función hash para un tipo particular adecuado para su uso en algoritmos de hash y estructuras de datos como una tabla hash.
 type: docs
 weight: 130
 url: /es/aspose.slides.slideshow/slideshowtransition/gethashcode/
 ---
 
-## Método SlideShowTransition.GetHashCode
+## SlideShowTransition.GetHashCode método
 
 Sirve como una función hash para un tipo particular, adecuado para su uso en algoritmos de hash y estructuras de datos como una tabla hash.
 
@@ -15,15 +15,15 @@ Sirve como una función hash para un tipo particular, adecuado para su uso en al
 public override int GetHashCode()
 ```
 
-### Valor de Retorno
+### Valor de retorno
 
 23454
 
-### Observaciones
+### Comentarios
 
-Sobrepasado para satisfacer al compilador. Siempre devuelve un constante porque el objeto es mutable.
+Sobreescrito para complacer al compilador. Siempre devuelve constante porque el objeto es mutable.
 
-### Véase También
+### Véase también
 
 * clase [SlideShowTransition](../../slideshowtransition)
 * espacio de nombres [Aspose.Slides.SlideShow](../../slideshowtransition)

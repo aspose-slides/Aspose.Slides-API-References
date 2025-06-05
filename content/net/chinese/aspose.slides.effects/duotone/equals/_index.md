@@ -1,7 +1,7 @@
 ---
-title: 相等
-second_title: Aspose.Slides for .NET API 参考
-description: 确定指定的 Duotoneaspose.slides.effects/duotone 是否等于当前 Duotoneaspose.slides.effects/duotone。
+title: Equals
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定指定的 Duotoneaspose.slides.effects/duotone 是否等于当前的 Duotoneaspose.slides.effects/duotone。
 type: docs
 weight: 30
 url: /zh/aspose.slides.effects/duotone/equals/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/duotone/equals/
 
 ## Duotone.Equals 方法
 
-确定指定的 [`Duotone`](../../duotone) 是否等于当前 [`Duotone`](../../duotone)。
+确定指定的 [`Duotone`](../../duotone) 是否等于当前的 [`Duotone`](../../duotone)。
 
 ```csharp
 public override bool Equals(object obj)
@@ -23,7 +23,7 @@ public override bool Equals(object obj)
 
 如果对象相等则为 true；否则为 false。
 
-### 另见
+### 另请参阅
 
 * 类 [Duotone](../../duotone)
 * 命名空间 [Aspose.Slides.Effects](../../duotone)

@@ -1,15 +1,15 @@
 ---
-title: Строка
+title: Row
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает индекс строки рабочей таблицы, в которой находится ячейка. Только для чтения Int32.
+description: Возвращает индекс строки рабочего листа, в которой находится ячейка. Только для чтения Int32.
 type: docs
 weight: 80
 url: /ru/aspose.slides.charts/ichartdatacell/row/
 ---
 
-## Свойство IChartDataCell.Row
+## IChartDataCell.Row свойство
 
-Возвращает индекс строки рабочей таблицы, в которой находится ячейка. Только для чтения Int32.
+Возвращает индекс строки рабочего листа, в которой находится ячейка. Только для чтения Int32.
 
 ```csharp
 public int Row { get; }

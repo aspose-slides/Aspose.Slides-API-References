@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.animation/ipropertyeffect/asibehavior/
 ---
+
 ## IPropertyEffect.AsIBehavior property
 
 Allows to get base IBehavior interface. Read-only [`IBehavior`](../../ibehavior).

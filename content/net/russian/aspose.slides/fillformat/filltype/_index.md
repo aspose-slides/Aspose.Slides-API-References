@@ -1,21 +1,21 @@
 ---
 title: FillType
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает или устанавливает тип заполнения. Чтение/запись FillTypeaspose.slides/filltype.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Возвращает или устанавливает тип заливки. Чтение/запись FillTypeaspose.slides/filltype.
 type: docs
 weight: 10
 url: /ru/aspose.slides/fillformat/filltype/
 ---
 
-## Свойство FillFormat.FillType
+## FillFormat.FillType свойство
 
-Возвращает или устанавливает тип заполнения. Чтение/запись [`FillType`](../../filltype).
+Возвращает или устанавливает тип заливки. Чтение/запись [`FillType`](../../filltype).
 
 ```csharp
 public FillType FillType { get; set; }
 ```
 
-### Также смотри
+### См. Также
 
 * enum [FillType](../../filltype)
 * class [FillFormat](../../fillformat)

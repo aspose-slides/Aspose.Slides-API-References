@@ -1,13 +1,13 @@
 ---
-title: Effacer
-second_title: Référence API Aspose.Slides pour .NET
+title: Clear
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Supprime toutes les opérations de couleur.
 type: docs
 weight: 30
 url: /fr/aspose.slides/icoloroperationcollection/clear/
 ---
 
-## Méthode IColorOperationCollection.Clear
+## IColorOperationCollection.Clear method
 
 Supprime toutes les opérations de couleur.
 

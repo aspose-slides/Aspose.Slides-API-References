@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/igeometrypath/pathdata/
 ---
+
 ## IGeometryPath.PathData property
 
 Returns geometry path of GeometryShape as an array of path segments.

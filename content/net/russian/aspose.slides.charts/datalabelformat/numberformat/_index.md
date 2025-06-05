@@ -1,6 +1,6 @@
 ---
 title: NumberFormat
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет строку формата для объекта DataLabels. Читаемая/записываемая строка.
 type: docs
 weight: 40
@@ -15,9 +15,9 @@ url: /ru/aspose.slides.charts/datalabelformat/numberformat/
 public string NumberFormat { get; set; }
 ```
 
-### Замечания
+### Примечания
 
-Если родителем этого объекта DataLabelFormat является коллекция DataLabelCollection меток данных, то это свойство получает или устанавливает значение по умолчанию для свойства NumberFormat для новых меток данных в коллекции DataLabelCollection. Когда это свойство устанавливается со значением, это значение также устанавливается для свойства NumberFormat для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.NumberFormat = val;" приводит к тому, что все DataLabels[i].NumberFormat равны val).
+Если родителем этого объекта DataLabelFormat является коллекция DataLabelCollection меток данных, то это свойство получает или устанавливает значение по умолчанию для свойства NumberFormat для новых меток данных в коллекции DataLabelCollection. Когда это свойство устанавливается с определенным значением, это значение также устанавливается для свойства NumberFormat для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.NumberFormat = val;" приводит к тому, что все DataLabels[i].NumberFormat равно val).
 
 ### Примеры
 

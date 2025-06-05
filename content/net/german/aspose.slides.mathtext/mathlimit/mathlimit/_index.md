@@ -1,13 +1,13 @@
 ---
 title: MathLimit
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Initialisiert eine neue Instanz der MathLimit-Klasse.
 type: docs
 weight: 10
 url: /de/aspose.slides.mathtext/mathlimit/mathlimit/
 ---
 
-## MathLimit(IMathElement, IMathElement, bool) {#constructor_1}
+## MathLimit(IMathElement, IMathElement, bool) {#constructor_1}
 
 Initialisiert eine neue Instanz der MathLimit-Klasse.
 
@@ -24,7 +24,7 @@ Beispiel:
 MathLimit limitElement = new MathLimit(new MathematicalText("lim"), new MathematicalText("𝑛→∞"), false);
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IMathElement](../../imathelement)
 * Klasse [MathLimit](../../mathlimit)
@@ -33,9 +33,9 @@ MathLimit limitElement = new MathLimit(new MathematicalText("lim"), new Mathemat
 
 ---
 
-## MathLimit(IMathElement, IMathElement) {#constructor}
+## MathLimit(IMathElement, IMathElement) {#constructor}
 
-Initialisiert eine neue Instanz der MathLimit-Klasse mit unterem Limit
+Initialisiert eine neue Instanz der MathLimit-Klasse mit einer unteren Grenze
 
 ```csharp
 public MathLimit(IMathElement baseArg, IMathElement limit)
@@ -50,7 +50,7 @@ Beispiel:
 MathLimit limitElement = new MathLimit(new MathematicalText("lim"), new MathematicalText("𝑛→∞"));
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IMathElement](../../imathelement)
 * Klasse [MathLimit](../../mathlimit)

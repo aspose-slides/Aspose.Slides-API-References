@@ -1,15 +1,15 @@
 ---
-title: LongitudDeSeleccionDeTexto
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve o establece la longitud de la selección de texto en el marco de texto si el comentario está asociado con AutoShape. Lectura/escritura Int32.
+title: TextSelectionLength
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve o establece la longitud de selección de texto en el marco de texto si el comentario está asociado con AutoShape. Lectura/escritura Int32.
 type: docs
 weight: 40
 url: /es/aspose.slides/imoderncomment/textselectionlength/
 ---
 
-## Propiedad IModernComment.TextSelectionLength
+## IModernComment.TextSelectionLength property
 
-Devuelve o establece la longitud de la selección de texto en el marco de texto si el comentario está asociado con AutoShape. Lectura/escritura Int32.
+Devuelve o establece la longitud de selección de texto en el marco de texto si el comentario está asociado con AutoShape. Lectura/escritura Int32.
 
 ```csharp
 public int TextSelectionLength { get; set; }

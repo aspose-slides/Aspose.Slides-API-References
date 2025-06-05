@@ -1,7 +1,7 @@
 ---
 title: ITagCollection
-second_title: Aspose.Slides pour référence API .NET
-description: Représente la collection de balises, paires de chaînes définies par l'utilisateur
+second_title: Aspose.Slides pour .NET API Reference
+description: Représente la collection de balises paires de chaînes définies par l'utilisateur
 type: docs
 weight: 7040
 url: /fr/aspose.slides/itagcollection/
@@ -19,7 +19,7 @@ public interface ITagCollection : IGenericCollection<KeyValuePair<string, string
 
 | Nom | Description |
 | --- | --- |
-| [Item](../../aspose.slides/itagcollection/item) { get; set; } | Retourne ou définit une paire clé-valeur d'une balise. |
+| [Item](../../aspose.slides/itagcollection/item) { get; set; } | Renvoie ou définit une paire clé et valeur d'une balise. |
 
 ## Méthodes
 
@@ -28,14 +28,14 @@ public interface ITagCollection : IGenericCollection<KeyValuePair<string, string
 | [Add](../../aspose.slides/itagcollection/add)(string, string) | Ajoute une nouvelle balise à la collection. |
 | [Clear](../../aspose.slides/itagcollection/clear)() | Supprime toutes les balises de la collection. |
 | [Contains](../../aspose.slides/itagcollection/contains)(string) | Détermine si la collection contient un nom spécifique. |
-| [GetNameByIndex](../../aspose.slides/itagcollection/getnamebyindex)(int) | Retourne la clé d'une balise à l'index spécifié. |
-| [GetNamesOfTags](../../aspose.slides/itagcollection/getnamesoftags)() | Retourne les noms des balises. |
-| [GetValueByIndex](../../aspose.slides/itagcollection/getvaluebyindex)(int) | Retourne la valeur d'une balise à l'index spécifié. |
-| [IndexOfName](../../aspose.slides/itagcollection/indexofname)(string) | Retourne l'index basé sur zéro de la clé spécifiée dans la collection. |
-| [Remove](../../aspose.slides/itagcollection/remove)(string) | Supprime la balise avec un nom spécifié de la collection. |
+| [GetNameByIndex](../../aspose.slides/itagcollection/getnamebyindex)(int) | Renvoie la clé d'une balise à l'index spécifié. |
+| [GetNamesOfTags](../../aspose.slides/itagcollection/getnamesoftags)() | Renvoie les noms des balises. |
+| [GetValueByIndex](../../aspose.slides/itagcollection/getvaluebyindex)(int) | Renvoie la valeur d'une balise à l'index spécifié. |
+| [IndexOfName](../../aspose.slides/itagcollection/indexofname)(string) | Renvoie l'index basé sur zéro de la clé spécifiée dans la collection. |
+| [Remove](../../aspose.slides/itagcollection/remove)(string) | Supprime la balise avec le nom spécifié de la collection. |
 | [RemoveAt](../../aspose.slides/itagcollection/removeat)(int) | Supprime la balise à l'index spécifié. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * namespace [Aspose.Slides](../../aspose.slides)

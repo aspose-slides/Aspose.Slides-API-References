@@ -1,21 +1,21 @@
 ---
-title: Elemento
-second_title: Referencia de la API Aspose.Sildes para .NET
-description: Devuelve el punto de parada de gradiente por índice.
+title: Item
+second_title: Referencia de la API de Aspose.Sildes para .NET
+description: Devuelve la parada de degradado por índice.
 type: docs
 weight: 30
 url: /es/aspose.slides/gradientstopcollectioneffectivedata/item/
 ---
 
-## Indexador GradientStopCollectionEffectiveData
+## Índice de GradientStopCollectionEffectiveData
 
-Devuelve el punto de parada de gradiente por índice.
+Devuelve la parada de degradado por índice.
 
 ```csharp
 public IGradientStopEffectiveData this[int index] { get; }
 ```
 
-### Véase También
+### Véase también
 
 * interface [IGradientStopEffectiveData](../../igradientstopeffectivedata)
 * class [GradientStopCollectionEffectiveData](../../gradientstopcollectioneffectivedata)

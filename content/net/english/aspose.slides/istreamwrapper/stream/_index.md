@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/istreamwrapper/stream/
 ---
+
 ## IStreamWrapper.Stream property
 
 Gets a stream. Read-only Stream.

@@ -1,6 +1,6 @@
 ---
 title: ICellCollection
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет собой коллекцию ячеек.
 type: docs
 weight: 5260
@@ -22,7 +22,7 @@ public interface ICellCollection : IGenericCollection<ICell>, ISlideComponent
 | [AsISlideComponent](../../aspose.slides/icellcollection/asislidecomponent) { get; } | Позволяет получить базовый интерфейс ISlideComponent. Только для чтения [`ISlideComponent`](../islidecomponent). |
 | [Item](../../aspose.slides/icellcollection/item) { get; } | Возвращает ячейку по её позиции. Только для чтения [`ICell`](../icell). |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * интерфейс [ICell](../icell)

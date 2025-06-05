@@ -1,13 +1,13 @@
 ---
-title: Выравнивание
-second_title: Справка по API Aspose.Sildes для .NET
-description: Возвращает или устанавливает выравнивание текста в абзаце без наследования. Чтение/запись TextAlignmentaspose.slides/textalignment.
+title: Alignment
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает или устанавливает выравнивание текста в абзаце без наследования. Чтение/запись TextAlignment aspose.slides/textalignment.
 type: docs
 weight: 10
 url: /ru/aspose.slides/iparagraphformat/alignment/
 ---
 
-## Свойство IParagraphFormat.Alignment
+## IParagraphFormat.Alignment свойство
 
 Возвращает или устанавливает выравнивание текста в абзаце без наследования. Чтение/запись [`TextAlignment`](../../textalignment).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/iparagraphformat/alignment/
 public TextAlignment Alignment { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * enum [TextAlignment](../../textalignment)
 * interface [IParagraphFormat](../../iparagraphformat)

@@ -1,13 +1,13 @@
 ---
-title: Количество
-second_title: Справочник по API Aspose.Slides для .NET
+title: Count
+second_title: Aspose.Sildes для .NET API Справочник
 description: Получает количество всех меток данных в коллекции. Только для чтения Int32.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/idatalabelcollection/count/
 ---
 
-## Свойство IDataLabelCollection.Count
+## IDataLabelCollection.Count свойство
 
 Получает количество всех меток данных в коллекции. Только для чтения Int32.
 

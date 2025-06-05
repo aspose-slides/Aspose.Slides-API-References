@@ -1,6 +1,6 @@
 ---
-title: 图像
-second_title: Aspose.Slides for .NET API 参考
+title: Image
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示图像属性
 type: docs
 weight: 410
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/behaviorproperty/image/
 
 ## BehaviorProperty.Image 属性
 
-代表“图像”属性
+表示'image'属性
 
 ```csharp
 public static BehaviorProperty Image { get; }

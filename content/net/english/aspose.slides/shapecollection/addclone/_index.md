@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/shapecollection/addclone/
 ---
+
 ## AddClone(IShape, float, float, float, float) {#addclone_2}
 
 Adds a copy of a specified shape to the end of the collection.

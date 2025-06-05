@@ -1,5 +1,5 @@
 ---
-title: Ancho
+title: Width
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece el ancho de una columna. Lectura/escritura Doble.
 type: docs
@@ -15,7 +15,7 @@ Devuelve o establece el ancho de una columna. Lectura/escritura Doble.
 public double Width { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [Column](../../column)
 * espacio de nombres [Aspose.Slides](../../column)

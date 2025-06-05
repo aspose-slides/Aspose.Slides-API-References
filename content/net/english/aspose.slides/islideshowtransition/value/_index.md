@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/islideshowtransition/value/
 ---
+
 ## ISlideShowTransition.Value property
 
 Slide show transition value. Read-only [`ITransitionValueBase`](../../../aspose.slides.slideshow/itransitionvaluebase).

@@ -1,6 +1,6 @@
 ---
 title: AddVideo
-second_title: Aspose.Slides pour la référence API .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Ajoute une copie d'un fichier vidéo d'une autre présentation.
 type: docs
 weight: 20

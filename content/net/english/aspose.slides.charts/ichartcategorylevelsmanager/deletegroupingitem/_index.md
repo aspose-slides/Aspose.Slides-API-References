@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/ichartcategorylevelsmanager/deletegroupingitem/
 ---
+
 ## IChartCategoryLevelsManager.DeleteGroupingItem method
 
 Delete grouping item for defined level.

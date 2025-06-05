@@ -19,7 +19,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | 要移除的元素的零基索引。 |
 
-### 另见
+### 参见
 
 * 接口 [ITabCollection](../../itabcollection)
 * 命名空间 [Aspose.Slides](../../itabcollection)

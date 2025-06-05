@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/ishape/blackwhitemode/
 ---
+
 ## IShape.BlackWhiteMode property
 
 Property specifies how a shape will render in black-and-white display mode.. Read/write [`BlackWhiteMode`](../../blackwhitemode).

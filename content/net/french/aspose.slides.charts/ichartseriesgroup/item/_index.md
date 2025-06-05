@@ -1,13 +1,13 @@
 ---
-title: Élément
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Item
+second_title: Aspose.Slides pour .NET Référence API
 description: Obtient l'élément à l'index spécifié.
 type: docs
 weight: 110
 url: /fr/aspose.slides.charts/ichartseriesgroup/item/
 ---
 
-## Indexeur IChartSeriesGroup
+## IChartSeriesGroup indexer
 
 Obtient l'élément à l'index spécifié.
 
@@ -15,7 +15,7 @@ Obtient l'élément à l'index spécifié.
 public IChartSeries this[int index] { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IChartSeries](../../ichartseries)
 * interface [IChartSeriesGroup](../../ichartseriesgroup)

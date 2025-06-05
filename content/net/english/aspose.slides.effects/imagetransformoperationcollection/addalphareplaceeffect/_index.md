@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.effects/imagetransformoperationcollection/addalphareplaceeffect/
 ---
+
 ## ImageTransformOperationCollection.AddAlphaReplaceEffect method
 
 Adds the new Alpha Replace effect to the end of a collection.

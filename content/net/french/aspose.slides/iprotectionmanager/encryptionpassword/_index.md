@@ -1,7 +1,7 @@
 ---
 title: EncryptionPassword
 second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie le mot de passe de chiffrement. Chaîne en lecture seule.
+description: Renvoie le mot de passe de cryptage. Chaîne en lecture seule.
 type: docs
 weight: 20
 url: /fr/aspose.slides/iprotectionmanager/encryptionpassword/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/iprotectionmanager/encryptionpassword/
 
 ## Propriété IProtectionManager.EncryptionPassword
 
-Renvoie le mot de passe de chiffrement. Chaîne en lecture seule.
+Renvoie le mot de passe de cryptage. Chaîne en lecture seule.
 
 ```csharp
 public string EncryptionPassword { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IProtectionManager](../../iprotectionmanager)
 * namespace [Aspose.Slides](../../iprotectionmanager)

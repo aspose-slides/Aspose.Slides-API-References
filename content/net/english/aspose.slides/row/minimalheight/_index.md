@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/row/minimalheight/
 ---
+
 ## Row.MinimalHeight property
 
 Returns or sets the minimal possible height of a row. Read/write Double.

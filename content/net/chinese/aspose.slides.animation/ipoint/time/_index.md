@@ -1,15 +1,15 @@
 ---
-title: 时间
-second_title: Aspose.Slides for .NET API 参考
-description: 表示时间值。可读/写单精度浮点数。
+title: Time
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示时间值。可读写 Single。
 type: docs
 weight: 20
 url: /zh/aspose.slides.animation/ipoint/time/
 ---
 
-## IPoint.Time 属性
+## IPoint.Time property
 
-表示时间值。可读/写单精度浮点数。
+表示时间值。可读写 Single。
 
 ```csharp
 public float Time { get; set; }

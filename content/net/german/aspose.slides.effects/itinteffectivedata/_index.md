@@ -1,15 +1,15 @@
 ---
 title: ITintEffectiveData
-second_title: Aspose.Slides für .NET API Referenz
-description: Unveränderliches Objekt, das einen Tint-Effekt darstellt. Verschiebt die Farbwerte des Effekts in Richtung/weg von dem Farbton um den angegebenen Betrag.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Unveränderliches Objekt, das einen Tinteneffekt darstellt. Verschiebt die Farbwerte des Effekts in Richtung/Ferne von Farbton um den angegebenen Betrag.
 type: docs
 weight: 3430
 url: /de/aspose.slides.effects/itinteffectivedata/
 ---
 
-## ITintEffectiveData Schnittstelle
+## ITintEffectiveData-Schnittstelle
 
-Unveränderliches Objekt, das einen Tint-Effekt darstellt. Verschiebt die Farbwerte des Effekts in Richtung/weg von dem Farbton um den angegebenen Betrag.
+Unveränderliches Objekt, das einen Tinteneffekt darstellt. Verschiebt die Farbwerte des Effekts in Richtung/Ferne von Farbton um den angegebenen Betrag.
 
 ```csharp
 public interface ITintEffectiveData : IEffectEffectiveData
@@ -23,7 +23,7 @@ public interface ITintEffectiveData : IEffectEffectiveData
 | [AsIEffectEffectiveData](../../aspose.slides.effects/itinteffectivedata/asieffecteffectivedata) { get; } | Ermöglicht den Zugriff auf die Basis-Schnittstelle IEffectEffectiveData. Nur lesbar [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Hue](../../aspose.slides.effects/itinteffectivedata/hue) { get; } | Gibt den Farbton zurück. Nur lesbar Single. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IEffectEffectiveData](../ieffecteffectivedata)
 * Namespace [Aspose.Slides.Effects](../../aspose.slides.effects)

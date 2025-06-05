@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/itextframeformateffectivedata/columncount/
 ---
+
 ## ITextFrameFormatEffectiveData.ColumnCount property
 
 Specifies the number of columns of text in the bounding rectangle. Read-only Int32.

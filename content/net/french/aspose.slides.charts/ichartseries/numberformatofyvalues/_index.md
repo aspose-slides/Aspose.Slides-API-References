@@ -1,7 +1,7 @@
 ---
 title: NumberFormatOfYValues
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit le format des nombres pour les valeurs y de la série. Lecture/écriture de type String.
+description: Renvoie ou définit le format numérique pour les valeurs y de la série. Chaîne en lecture/écriture.
 type: docs
 weight: 250
 url: /fr/aspose.slides.charts/ichartseries/numberformatofyvalues/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ichartseries/numberformatofyvalues/
 
 ## Propriété IChartSeries.NumberFormatOfYValues
 
-Renvoie ou définit le format des nombres pour les valeurs y de la série. Lecture/écriture de type String.
+Renvoie ou définit le format numérique pour les valeurs y de la série. Chaîne en lecture/écriture.
 
 ```csharp
 public string NumberFormatOfYValues { get; set; }

@@ -1,6 +1,6 @@
 ---
 title: ExtrusionColorMode
-second_title: Aspose.Slides para .NET Referencia de API
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Representa la propiedad extrusion.colormode
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ Representa la propiedad 'extrusion.colormode'
 public static BehaviorProperty ExtrusionColorMode { get; }
 ```
 
-### Ver También
+### Véase También
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)

@@ -6,6 +6,7 @@ type: docs
 weight: 400
 url: /aspose.slides.charts/iaxis/minortickmark/
 ---
+
 ## IAxis.MinorTickMark property
 
 Represents the type of minor tick mark for the specified axis. Read/write [`TickMarkType`](../../tickmarktype).

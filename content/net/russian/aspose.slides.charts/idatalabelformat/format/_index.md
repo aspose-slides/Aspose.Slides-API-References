@@ -1,5 +1,5 @@
 ---
-title: Формат
+title: Format
 second_title: Aspose.Slides для .NET API Справочник
 description: Представляет формат метки данных. Только для чтения IFormataspose.slides.charts/iformat.
 type: docs
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/idatalabelformat/format/
 public IFormat Format { get; }
 ```
 
-### Замечания
+### Примечания
 
 Если родительским объектом этого DataLabelFormat является коллекция DataLabelCollection меток данных, то это свойство представляет собой формат по умолчанию для новых меток данных в коллекции DataLabelCollection.
 

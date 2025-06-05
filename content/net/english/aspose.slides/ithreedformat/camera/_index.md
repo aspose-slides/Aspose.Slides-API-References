@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/ithreedformat/camera/
 ---
+
 ## IThreeDFormat.Camera property
 
 Returns or sets the settings of a camera. Read-only [`ICamera`](../../icamera).

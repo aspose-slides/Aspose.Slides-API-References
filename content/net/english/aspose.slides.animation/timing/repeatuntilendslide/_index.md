@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.animation/timing/repeatuntilendslide/
 ---
+
 ## Timing.RepeatUntilEndSlide property
 
 This attribute specifies if the effect will repeat until the end of the slide. Read/write Boolean.

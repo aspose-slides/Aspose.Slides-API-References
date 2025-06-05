@@ -1,7 +1,7 @@
 ---
 title: ContentType
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit le type de contenu d'une présentation. Chaîne en lecture/écriture.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Renvoie ou définit le type de contenu d'une présentation. Lecture/écriture String.
 type: docs
 weight: 80
 url: /fr/aspose.slides/idocumentproperties/contenttype/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/idocumentproperties/contenttype/
 
 ## Propriété IDocumentProperties.ContentType
 
-Renvoie ou définit le type de contenu d'une présentation. Chaîne en lecture/écriture.
+Renvoie ou définit le type de contenu d'une présentation. Lecture/écriture String.
 
 ```csharp
 public string ContentType { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IDocumentProperties](../../idocumentproperties)
 * namespace [Aspose.Slides](../../idocumentproperties)

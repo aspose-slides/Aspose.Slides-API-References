@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/icameraeffectivedata/fieldofviewangle/
 ---
+
 ## ICameraEffectiveData.FieldOfViewAngle property
 
 Camera FOV (0-180 deg, field of View). Read-only Single.

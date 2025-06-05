@@ -1,6 +1,6 @@
 ---
-title: Cantidad
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Amount
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Devuelve una cantidad de efecto en porcentajes. Lectura/escritura Single.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Devuelve una cantidad de efecto en porcentajes. Lectura/escritura Single.
 public float Amount { get; set; }
 ```
 
-### Véase También
+### Véase también
 
 * clase [AlphaModulateFixed](../../alphamodulatefixed)
 * espacio de nombres [Aspose.Slides.Effects](../../alphamodulatefixed)

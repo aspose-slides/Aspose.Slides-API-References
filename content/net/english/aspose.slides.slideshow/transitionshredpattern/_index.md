@@ -3,9 +3,10 @@ title: TransitionShredPattern
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies a geometric shape that tiles together to fill a larger area.
 type: docs
-weight: 9760
+weight: 10100
 url: /aspose.slides.slideshow/transitionshredpattern/
 ---
+
 ## TransitionShredPattern enumeration
 
 Specifies a geometric shape that tiles together to fill a larger area.

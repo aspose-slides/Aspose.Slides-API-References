@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/coloroperationcollection/clonet/
 ---
+
 ## ColorOperationCollection.CloneT method
 
 Clones current object

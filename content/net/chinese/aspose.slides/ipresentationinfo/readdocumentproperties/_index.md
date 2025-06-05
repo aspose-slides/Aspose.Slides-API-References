@@ -1,6 +1,6 @@
 ---
-title: 读取文档属性
-second_title: Aspose.Slides for .NET API 参考
+title: ReadDocumentProperties
+second_title: Aspose.Slides for .NET API Reference
 description: 获取绑定演示文稿的文档属性。
 type: docs
 weight: 70
@@ -19,7 +19,7 @@ public IDocumentProperties ReadDocumentProperties()
 
 文档属性 [`IDocumentProperties`](../../idocumentproperties)
 
-### 另见
+### 另请参见
 
 * 接口 [IDocumentProperties](../../idocumentproperties)
 * 接口 [IPresentationInfo](../../ipresentationinfo)

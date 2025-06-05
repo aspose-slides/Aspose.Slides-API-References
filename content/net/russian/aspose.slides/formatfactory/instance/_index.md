@@ -1,13 +1,13 @@
 ---
-title: Экземпляр
-second_title: Справочник по API Aspose.Slides для .NET
-description: Статический экземпляр фабрики форматов. Фабрика форматов только для чтения aspose.slides/formatfactory.
+title: Instance
+second_title: Справочник API Aspose.Slides для .NET
+description: Статический экземпляр фабрики форматов. Только для чтения FormatFactoryaspose.slides/formatfactory.
 type: docs
 weight: 20
 url: /ru/aspose.slides/formatfactory/instance/
 ---
 
-## Свойство FormatFactory.Instance
+## FormatFactory.Instance property
 
 Статический экземпляр фабрики форматов. Только для чтения [`FormatFactory`](../../formatfactory).
 

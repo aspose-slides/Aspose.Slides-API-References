@@ -1,7 +1,7 @@
 ---
 title: Direction
 second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie dans quelle direction faire tourner la teinte autour du cercle chromatique. Lecture/écriture ColorDirectionaspose.slides.animation/colordirection.
+description: Spécifie dans quelle direction faire tourner la teinte autour de la roue des couleurs. Lecture/écriture ColorDirectionaspose.slides.animation/colordirection.
 type: docs
 weight: 40
 url: /fr/aspose.slides.animation/coloreffect/direction/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/coloreffect/direction/
 
 ## Propriété ColorEffect.Direction
 
-Spécifie dans quelle direction faire tourner la teinte autour du cercle chromatique. Lecture/écriture [`ColorDirection`](../../colordirection).
+Spécifie dans quelle direction faire tourner la teinte autour de la roue des couleurs. Lecture/écriture [`ColorDirection`](../../colordirection).
 
 ```csharp
 public ColorDirection Direction { get; set; }

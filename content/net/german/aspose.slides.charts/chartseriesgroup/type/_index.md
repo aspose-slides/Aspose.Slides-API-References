@@ -1,15 +1,15 @@
 ---
-title: Typ
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen Typ dieser Seriengruppe zurück. Schreibgeschütztes CombinableSeriesTypesGroupaspose.slides.charts/combinableseriestypesgroup.
+title: Type
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt einen Typ dieser Seriengruppe zurück. Nur-lesbarer CombinableSeriesTypesGroupaspose.slides/combinableseriestypesgroup.
 type: docs
 weight: 190
 url: /de/aspose.slides.charts/chartseriesgroup/type/
 ---
 
-## ChartSeriesGroup.Type-Eigenschaft
+## ChartSeriesGroup.Type Eigenschaft
 
-Gibt einen Typ dieser Seriengruppe zurück. Schreibgeschützt [`CombinableSeriesTypesGroup`](../../combinableseriestypesgroup).
+Gibt einen Typ dieser Seriengruppe zurück. Nur-lesbar [`CombinableSeriesTypesGroup`](../../combinableseriestypesgroup).
 
 ```csharp
 public CombinableSeriesTypesGroup Type { get; }

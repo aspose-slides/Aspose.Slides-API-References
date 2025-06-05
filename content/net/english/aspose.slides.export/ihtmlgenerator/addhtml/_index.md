@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.export/ihtmlgenerator/addhtml/
 ---
+
 ## AddHtml(string) {#addhtml_2}
 
 Adds formatted HTML text.

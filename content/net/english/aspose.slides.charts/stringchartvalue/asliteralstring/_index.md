@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/stringchartvalue/asliteralstring/
 ---
+
 ## StringChartValue.AsLiteralString property
 
 Returns or sets value as literal string. Read/write String.

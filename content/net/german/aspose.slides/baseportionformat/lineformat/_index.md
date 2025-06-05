@@ -1,7 +1,7 @@
 ---
 title: LineFormat
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die LineFormat-Eigenschaften für die Textumrissdarstellung zurück. Keine Vererbung angewendet. Nur-lesbar ILineFormataspose.slides/ilineformat.
+description: Gibt die LineFormat-Eigenschaften für die Textgliederung zurück. Keine Vererbung angewendet. Nur-Lese ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 180
 url: /de/aspose.slides/baseportionformat/lineformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/baseportionformat/lineformat/
 
 ## BasePortionFormat.LineFormat-Eigenschaft
 
-Gibt die LineFormat-Eigenschaften für die Textumrissdarstellung zurück. Keine Vererbung angewendet. Nur-lesbar [`ILineFormat`](../../ilineformat).
+Gibt die LineFormat-Eigenschaften für die Textgliederung zurück. Keine Vererbung angewendet. Nur-Lese [`ILineFormat`](../../ilineformat).
 
 ```csharp
 public ILineFormat LineFormat { get; }

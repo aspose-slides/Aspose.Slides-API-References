@@ -1,6 +1,6 @@
 ---
 title: SectionSlideCollection
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt eine Sammlung von Folien im Abschnitt dar.
 type: docs
 weight: 9500
@@ -19,10 +19,10 @@ public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCo
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente zurück. Nur lesbar Int32. |
-| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (thread-sicher). Nur lesbar Boolean. |
-| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | Gibt das Element am angegebenen Index zurück. Nur lesbar [`ISlide`](../islide). |
-| [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | Gibt eine Synchronisierungswurzel zurück. Nur lesbar Object. |
+| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente zurück. Nur lesbares Int32. |
+| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (thread-sicher). Nur lesbares Boolean. |
+| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | Gibt das Element am angegebenen Index zurück. Nur lesbares [`ISlide`](../islide). |
+| [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | Gibt eine Synchronisierungswurzel zurück. Nur lesbares Object. |
 
 ## Methoden
 
@@ -31,7 +31,7 @@ public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCo
 | [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | Kopiert die gesamte Sammlung in das angegebene Array. |
 | [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | Gibt einen Enumerator zurück, der durch die Sammlung iteriert. |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [DomObject&lt;TParent&gt;](../domobject-1)
 * Klasse [Section](../section)

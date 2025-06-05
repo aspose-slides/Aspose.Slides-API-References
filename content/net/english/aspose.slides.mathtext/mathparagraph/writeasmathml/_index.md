@@ -3,9 +3,10 @@ title: WriteAsMathMl
 second_title: Aspose.Sildes for .NET API Reference
 description: Saves content of this MathParagraphaspose.slides.mathtext/mathparagraph as MathML
 type: docs
-weight: 120
+weight: 130
 url: /aspose.slides.mathtext/mathparagraph/writeasmathml/
 ---
+
 ## MathParagraph.WriteAsMathMl method
 
 Saves content of this [`MathParagraph`](../../mathparagraph) as MathML

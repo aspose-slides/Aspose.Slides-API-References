@@ -1,7 +1,7 @@
 ---
 title: RootDirectoryClsid
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示存储在根目录条目中的对象类 GUID CLSID。可用于文档应用程序的 COM 激活。默认值为 64818D11-4F9B-11CF-86EA-00AA00B929E8，对应于 Microsoft Powerpoint.Slide.8。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示存储在根目录项中的对象类 GUID CLSID。可用于文档应用程序的 COM 激活。默认值为 64818D11-4F9B-11CF-86EA-00AA00B929E8，对应于 Microsoft Powerpoint.Slide.8。
 type: docs
 weight: 20
 url: /zh/aspose.slides.export/pptoptions/rootdirectoryclsid/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/pptoptions/rootdirectoryclsid/
 
 ## PptOptions.RootDirectoryClsid 属性
 
-表示存储在根目录条目中的对象类 GUID (CLSID)。可用于文档应用程序的 COM 激活。默认值为 '64818D11-4F9B-11CF-86EA-00AA00B929E8'，对应于 'Microsoft Powerpoint.Slide.8'。
+表示存储在根目录项中的对象类 GUID (CLSID)。可用于文档应用程序的 COM 激活。默认值为 '64818D11-4F9B-11CF-86EA-00AA00B929E8'，对应于 'Microsoft Powerpoint.Slide.8'。
 
 ```csharp
 public Guid RootDirectoryClsid { get; set; }
@@ -30,7 +30,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 另请参阅
+### 另见
 
 * class [PptOptions](../../pptoptions)
 * namespace [Aspose.Slides.Export](../../pptoptions)

@@ -1,7 +1,7 @@
 ---
 title: PieSplitPosition
-second_title: Aspose.Sildes for .NET API 参考
-description: 指定一个值，用于确定在饼图或条形图中第二个饼或条上哪些数据点。与 PieSplitBy 属性一起使用。可读写 Double。
+second_title: Aspose.Silides for .NET API Reference
+description: 指定一个值，用于确定哪几个数据点位于饼图或条形图中的第二个饼图或条形上。与 PieSplitBy 属性一起使用。可读可写的 Double 类型。
 type: docs
 weight: 150
 url: /zh/aspose.slides.charts/ichartseriesgroup/piesplitposition/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ichartseriesgroup/piesplitposition/
 
 ## IChartSeriesGroup.PieSplitPosition 属性
 
-指定一个值，用于确定在饼图或条形图中第二个饼或条上哪些数据点。与 PieSplitBy 属性一起使用。可读写 Double。
+指定一个值，用于确定哪几个数据点位于饼图或条形图中的第二个饼图或条形上。与 PieSplitBy 属性一起使用。可读可写的 Double 类型。
 
 ```csharp
 public double PieSplitPosition { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IChartSeriesGroup](../../ichartseriesgroup)
 * 命名空间 [Aspose.Slides.Charts](../../ichartseriesgroup)

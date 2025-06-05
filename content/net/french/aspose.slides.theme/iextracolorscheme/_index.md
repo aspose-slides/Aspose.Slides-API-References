@@ -1,7 +1,7 @@
 ---
 title: IExtraColorScheme
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente un schéma de couleur supplémentaire qui peut être assigné à une diapositive.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Représente un schéma de couleurs supplémentaire qui peut être attribué à une diapositive.
 type: docs
 weight: 10900
 url: /fr/aspose.slides.theme/iextracolorscheme/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.theme/iextracolorscheme/
 
 ## Interface IExtraColorScheme
 
-Représente un schéma de couleur supplémentaire qui peut être assigné à une diapositive.
+Représente un schéma de couleurs supplémentaire qui peut être attribué à une diapositive.
 
 ```csharp
 public interface IExtraColorScheme
@@ -19,10 +19,10 @@ public interface IExtraColorScheme
 
 | Nom | Description |
 | --- | --- |
-| [ColorScheme](../../aspose.slides.theme/iextracolorscheme/colorscheme) { get; } | Renvoie un schéma de couleur. Lecture seule [`IColorScheme`](../icolorscheme). |
-| [Name](../../aspose.slides.theme/iextracolorscheme/name) { get; } | Renvoie le nom de ce schéma. Chaîne en lecture seule. |
+| [ColorScheme](../../aspose.slides.theme/iextracolorscheme/colorscheme) { get; } | Retourne un schéma de couleurs. Lecture seule [`IColorScheme`](../icolorscheme). |
+| [Name](../../aspose.slides.theme/iextracolorscheme/name) { get; } | Retourne le nom de ce schéma. Chaîne en lecture seule. |
 
-### Voir Aussi
+### Voir aussi
 
 * espace de noms [Aspose.Slides.Theme](../../aspose.slides.theme)
 * assembly [Aspose.Slides](../../)

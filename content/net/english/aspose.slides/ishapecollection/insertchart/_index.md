@@ -6,6 +6,7 @@ type: docs
 weight: 260
 url: /aspose.slides/ishapecollection/insertchart/
 ---
+
 ## InsertChart(ChartType, float, float, float, float, int) {#insertchart}
 
 Creates a new Chart, initialize it with sample series data and settings and inserts it to the specified position in the collection.

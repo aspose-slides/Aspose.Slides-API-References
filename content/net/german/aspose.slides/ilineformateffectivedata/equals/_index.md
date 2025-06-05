@@ -1,15 +1,15 @@
 ---
 title: Equals
 second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob die beiden ILineFormatEffectiveData-Instanzen gleich sind.
+description: Bestimmt, ob die beiden ILineFormatEffectiveData Instanzen gleich sind.
 type: docs
 weight: 180
 url: /de/aspose.slides/ilineformateffectivedata/equals/
 ---
 
-## ILineFormatEffectiveData.Equals-Methode
+## ILineFormatEffectiveData.Equals Methode
 
-Bestimmt, ob die beiden ILineFormatEffectiveData-Instanzen gleich sind.
+Bestimmt, ob die beiden ILineFormatEffectiveData Instanzen gleich sind.
 
 ```csharp
 public bool Equals(ILineFormatEffectiveData lf)
@@ -17,13 +17,13 @@ public bool Equals(ILineFormatEffectiveData lf)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| lf | ILineFormatEffectiveData | Das ILineFormatEffectiveData, das mit dem aktuellen ILineFormatEffectiveData verglichen werden soll. |
+| lf | ILineFormatEffectiveData | Das ILineFormatEffectiveData, mit dem die aktuelle ILineFormatEffectiveData verglichen werden soll. |
 
 ### Rückgabewert
 
-**true**, wenn das angegebene ILineFormatEffectiveData gleich dem aktuellen ILineFormatEffectiveData ist; andernfalls **false**.
+**true**, wenn das angegebene ILineFormatEffectiveData gleich der aktuellen ILineFormatEffectiveData ist; andernfalls **false**.
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ILineFormatEffectiveData](../../ilineformateffectivedata)
 * Namespace [Aspose.Slides](../../ilineformateffectivedata)

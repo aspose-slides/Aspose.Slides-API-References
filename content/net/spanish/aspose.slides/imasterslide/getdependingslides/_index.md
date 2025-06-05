@@ -1,6 +1,6 @@
 ---
 title: GetDependingSlides
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve un array con todas las diapositivas que dependen de esta diapositiva maestra.
 type: docs
 weight: 110
@@ -15,11 +15,11 @@ Devuelve un array con todas las diapositivas que dependen de esta diapositiva ma
 public ISlide[] GetDependingSlides()
 ```
 
-### Valor de Retorno
+### Valor de retorno
 
 Array de [`ISlide`](../../islide), que dependen de esta diapositiva maestra
 
-### Véase También
+### Véase también
 
 * interfaz [ISlide](../../islide)
 * interfaz [IMasterSlide](../../imasterslide)

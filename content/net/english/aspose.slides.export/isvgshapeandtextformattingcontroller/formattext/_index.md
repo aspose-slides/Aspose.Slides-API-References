@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.export/isvgshapeandtextformattingcontroller/formattext/
 ---
+
 ## ISvgShapeAndTextFormattingController.FormatText method
 
 This function is called before rendering of text portion to SVG to allow user to control resulting SVG.

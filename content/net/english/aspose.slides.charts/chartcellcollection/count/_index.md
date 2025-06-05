@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/chartcellcollection/count/
 ---
+
 ## ChartCellCollection.Count property
 
 Gets the count of cells in collection. Read-only Int32.

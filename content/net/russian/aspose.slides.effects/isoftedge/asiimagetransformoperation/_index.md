@@ -1,13 +1,13 @@
 ---
 title: AsIImageTransformOperation
-second_title: Справка по API Aspose.Sildes для .NET
-description: Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения IImageTransformOperationaspose.slides.effects/iimagetransformoperation.
+second_title: Aspose.Slides для .NET API Reference
+description: Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения IImageTransformOperation aspose.slides.effects/iimagetransformoperation.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/isoftedge/asiimagetransformoperation/
 ---
 
-## Свойство ISoftEdge.AsIImageTransformOperation
+## ISoftEdge.AsIImageTransformOperation свойство
 
 Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../../iimagetransformoperation).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.effects/isoftedge/asiimagetransformoperation/
 public IImageTransformOperation AsIImageTransformOperation { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IImageTransformOperation](../../iimagetransformoperation)
 * интерфейс [ISoftEdge](../../isoftedge)

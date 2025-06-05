@@ -3,9 +3,10 @@ title: ParentGroup
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns parent GroupShape object if shape is grouped. Otherwise returns null. Read-only IGroupShapeaspose.slides/igroupshape.
 type: docs
-weight: 180
+weight: 190
 url: /aspose.slides/ishape/parentgroup/
 ---
+
 ## IShape.ParentGroup property
 
 Returns parent GroupShape object if shape is grouped. Otherwise returns null. Read-only [`IGroupShape`](../../igroupshape).

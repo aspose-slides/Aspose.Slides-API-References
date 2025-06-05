@@ -1,6 +1,6 @@
 ---
 title: EffectFormat
-second_title: Aspose.Slides para .NET Referencia de la API
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve un formato de efecto. Solo lectura IEffectFormatEffectiveDataaspose.slides/ieffectformateffectivedata.
 type: docs
 weight: 10
@@ -15,11 +15,11 @@ Devuelve un formato de efecto. Solo lectura [`IEffectFormatEffectiveData`](../..
 public IEffectFormatEffectiveData EffectFormat { get; }
 ```
 
-### Ver También
+### Véase también
 
-* interfaz [IEffectFormatEffectiveData](../../../aspose.slides/ieffectformateffectivedata)
-* interfaz [IEffectStyleEffectiveData](../../ieffectstyleeffectivedata)
-* espacio de nombres [Aspose.Slides.Theme](../../ieffectstyleeffectivedata)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IEffectFormatEffectiveData](../../../aspose.slides/ieffectformateffectivedata)
+* interfaz [IEffectStyleEffectiveData](../../ieffectstyleeffectivedata)
+* espacio de nombres [Aspose.Slides.Theme](../../ieffectstyleeffectivedata)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

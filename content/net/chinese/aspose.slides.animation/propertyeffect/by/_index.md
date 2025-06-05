@@ -1,7 +1,7 @@
 ---
 title: By
-second_title: Aspose.Sildes for .NET API 参考
-description: 指定动画相对于动画开始前位置的相对偏移值。可读写字符串。
+second_title: Aspose.Slides for .NET API 参考
+description: 指定动画相对于动画开始之前位置的相对偏移值。可读/写字符串。
 type: docs
 weight: 20
 url: /zh/aspose.slides.animation/propertyeffect/by/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.animation/propertyeffect/by/
 
 ## PropertyEffect.By 属性
 
-指定动画相对于动画开始前位置的相对偏移值。可读写字符串。
+指定动画相对于动画开始之前位置的相对偏移值。可读/写字符串。
 
 ```csharp
 public string By { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [PropertyEffect](../../propertyeffect)
 * namespace [Aspose.Slides.Animation](../../propertyeffect)

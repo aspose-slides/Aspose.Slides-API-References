@@ -1,7 +1,7 @@
 ---
-title: 分母
-second_title: Aspose.Slides for .NET API 参考
-description: 分母
+title: Denominator
+second_title: Aspose.Sildes for .NET API Reference
+description: Denominator
 type: docs
 weight: 20
 url: /zh/aspose.slides.mathtext/imathfraction/denominator/
@@ -25,7 +25,7 @@ IMathFraction mathFraction = new MathematicalText("x").Divide("y");
 IMathElement denominator = mathFraction.Denominator;
 ```
 
-### 另见
+### 参见
 
 * 接口 [IMathElement](../../imathelement)
 * 接口 [IMathFraction](../../imathfraction)

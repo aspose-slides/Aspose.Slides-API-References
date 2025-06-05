@@ -1,13 +1,13 @@
 ---
 title: InsertClone
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Erstellt eine Kopie der angegebenen Vorlagen-Spalte und fügt sie an der angegebenen Position in einer Tabelle ein.
 type: docs
 weight: 30
 url: /de/aspose.slides/icolumncollection/insertclone/
 ---
 
-## IColumnCollection.InsertClone-Methode
+## IColumnCollection.InsertClone Methode
 
 Erstellt eine Kopie der angegebenen Vorlagen-Spalte und fügt sie an der angegebenen Position in einer Tabelle ein.
 
@@ -17,15 +17,15 @@ public IColumn[] InsertClone(int index, IColumn templ, bool withAttachedColumns)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Index einer neuen Spalte. |
+| index | Int32 | Index der neuen Spalte. |
 | templ | IColumn | Spalte, die als Vorlage verwendet wird. |
-| withAttachedColumns | Boolean | Wahr, um auch alle Spalten zu kopieren, die an die Vorlage-Spalte angehängt sind. |
+| withAttachedColumns | Boolean | Wahr, um auch alle an die Vorlagen-Spalte angehängten Spalten zu kopieren. |
 
 ### Rückgabewert
 
 Eingefügte Spalten.
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IColumn](../../icolumn)
 * Schnittstelle [IColumnCollection](../../icolumncollection)

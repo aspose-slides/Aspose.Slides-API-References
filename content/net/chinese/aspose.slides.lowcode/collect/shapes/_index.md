@@ -1,7 +1,7 @@
 ---
-title: 形状
-second_title: Aspose.Sildes for .NET API 参考
-description: 收集所有在Presentation中实例的Shapeaspose.slides/shape。
+title: Shapes
+second_title: Aspose.Sildes for .NET API Reference
+description: 收集演示文稿中所有的 Shape 实例 aspose.slides/shape。
 type: docs
 weight: 10
 url: /zh/aspose.slides.lowcode/collect/shapes/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.lowcode/collect/shapes/
 
 ## Collect.Shapes 方法
 
-收集在 [`Presentation`](../../../aspose.slides/presentation) 中的所有实例 [`Shape`](../../../aspose.slides/shape)。
+收集 [`Presentation`](../../../aspose.slides/presentation) 中所有的 [`Shape`](../../../aspose.slides/shape) 实例。
 
 ```csharp
 public static IEnumerable<Shape> Shapes(Presentation pres)
@@ -21,7 +21,7 @@ public static IEnumerable<Shape> Shapes(Presentation pres)
 
 ### 返回值
 
-包含在演示文稿中的所有形状的集合
+演示文稿中包含的所有形状的集合
 
 ### 示例
 

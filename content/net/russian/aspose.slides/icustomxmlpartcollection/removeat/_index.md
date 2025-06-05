@@ -1,7 +1,7 @@
 ---
-title: Удалить по индексу
-second_title: Справочник по API Aspose.Slides для .NET
-description: Удаляет пользовательскую xml-часть по указанному индексу.
+title: RemoveAt
+second_title: Aspose.Sildes для .NET API Справочник
+description: Удаляет пользовательскую xml-часть по заданному индексу.
 type: docs
 weight: 50
 url: /ru/aspose.slides/icustomxmlpartcollection/removeat/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/icustomxmlpartcollection/removeat/
 
 ## ICustomXmlPartCollection.RemoveAt метод
 
-Удаляет пользовательскую xml-часть по указанному индексу.
+Удаляет пользовательскую xml-часть по заданному индексу.
 
 ```csharp
 public void RemoveAt(int index)
@@ -23,7 +23,7 @@ public void RemoveAt(int index)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | index меньше 0.-или-index равен или больше Count |
+| ArgumentOutOfRangeException | индекс меньше 0.-или-индекс равен или больше Count |
 
 ### См. также
 

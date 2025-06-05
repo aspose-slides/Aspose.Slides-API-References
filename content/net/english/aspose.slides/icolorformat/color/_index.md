@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/icolorformat/color/
 ---
+
 ## IColorFormat.Color property
 
 Returns resulting color (with all color transformations applied). Sets RGB colors and clears all color transformations. Read/write Color.

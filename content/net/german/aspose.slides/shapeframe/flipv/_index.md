@@ -1,7 +1,7 @@
 ---
 title: FlipV
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob ein Frame vertikal gespiegelt ist. Schreibgeschütztes NullableBoolaspose.slides/nullablebool.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt, ob ein Frame vertikal gedreht ist. Schreibgeschützte NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 50
 url: /de/aspose.slides/shapeframe/flipv/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/shapeframe/flipv/
 
 ## ShapeFrame.FlipV-Eigenschaft
 
-Bestimmt, ob ein Frame vertikal gespiegelt ist. Schreibgeschützt [`NullableBool`](../../nullablebool).
+Bestimmt, ob ein Frame vertikal gedreht ist. Schreibgeschützte [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool FlipV { get; }

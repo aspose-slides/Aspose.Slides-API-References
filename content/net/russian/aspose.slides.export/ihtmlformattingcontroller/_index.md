@@ -1,7 +1,7 @@
 ---
 title: IHtmlFormattingController
-second_title: Aspose.Sildes для .NET API Reference
-description: Управляет генерацией html-файла.
+second_title: Aspose.Slides для .NET API Справочник
+description: Контролирует генерацию html файла.
 type: docs
 weight: 3780
 url: /ru/aspose.slides.export/ihtmlformattingcontroller/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export/ihtmlformattingcontroller/
 
 ## Интерфейс IHtmlFormattingController
 
-Управляет генерацией html-файла.
+Контролирует генерацию html файла.
 
 ```csharp
 public interface IHtmlFormattingController
@@ -17,14 +17,14 @@ public interface IHtmlFormattingController
 
 ## Методы
 
-| Название | Описание |
+| Name | Description |
 | --- | --- |
-| [WriteDocumentEnd](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Вызывается для записи нижнего колонтитула html-документа. Вызывается один раз за конвертацию презентации. |
-| [WriteDocumentStart](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Вызывается для записи верхнего колонтитула html-документа. Вызывается один раз за конвертацию презентации. |
-| [WriteShapeEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeshapeend)(IHtmlGenerator, IShape) | Вызывается перед рендерингом фигуры. Вызывается один раз для каждой фигуры. Если эта функция что-то записывает в генератор, генерация текущего изображения слайда будет завершена, добавленный html-фрагмент будет вставлен, и новое изображение начнется поверх предыдущего. |
-| [WriteShapeStart](../../aspose.slides.export/ihtmlformattingcontroller/writeshapestart)(IHtmlGenerator, IShape) | Вызывается перед рендерингом фигуры. Вызывается один раз для каждой фигуры. Если эта функция что-то записывает в генератор, генерация текущего изображения слайда будет завершена, добавленный html-фрагмент будет вставлен, и новое изображение начнется поверх предыдущего. |
-| [WriteSlideEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeslideend)(IHtmlGenerator, ISlide) | Вызывается для записи нижнего колонтитула html-слайда. Вызывается один раз для каждого слайда. |
-| [WriteSlideStart](../../aspose.slides.export/ihtmlformattingcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Вызывается для записи верхнего колонтитула html-слайда. Вызывается один раз для каждого слайда. |
+| [WriteDocumentEnd](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Вызывается для записи нижнего колонтитула html документа. Вызывается один раз при конверсии презентации. |
+| [WriteDocumentStart](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Вызывается для записи верхнего колонтитула html документа. Вызывается один раз при конверсии презентации. |
+| [WriteShapeEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeshapeend)(IHtmlGenerator, IShape) | Вызывается перед рендерингом фигуры. Вызывается один раз для каждой фигуры. Если эта функция что-либо записывает в генератор, генерация изображения текущего слайда будет завершена, добавленный html фрагмент вставлен, и новое изображение начнется поверх предыдущего. |
+| [WriteShapeStart](../../aspose.slides.export/ihtmlformattingcontroller/writeshapestart)(IHtmlGenerator, IShape) | Вызывается перед рендерингом фигуры. Вызывается один раз для каждой фигуры. Если эта функция что-либо записывает в генератор, генерация изображения текущего слайда будет завершена, добавленный html фрагмент вставлен, и новое изображение начнется поверх предыдущего. |
+| [WriteSlideEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeslideend)(IHtmlGenerator, ISlide) | Вызывается для записи нижнего колонтитула html слайда. Вызывается один раз для каждого слайда. |
+| [WriteSlideStart](../../aspose.slides.export/ihtmlformattingcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Вызывается для записи верхнего колонтитула html слайда. Вызывается один раз для каждого слайда. |
 
 ### См. также
 

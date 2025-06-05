@@ -1,7 +1,7 @@
 ---
 title: SymbolFont
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt die Informationen zur symbolischen Schriftart zurück oder setzt sie. Null bedeutet, dass die Schriftart undefiniert ist und von der Mastervorlage geerbt werden sollte. Lese-/Schreibzugriff auf IFontDataaspose.slides/ifontdata.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die symbolische Schriftartinformationen zurück oder setzt sie. Null bedeutet, dass die Schriftart undefiniert ist und vom Master geerbt werden sollte. Lese-/Schreibzugriff auf IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 230
 url: /de/aspose.slides/baseportionformat/symbolfont/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/baseportionformat/symbolfont/
 
 ## BasePortionFormat.SymbolFont-Eigenschaft
 
-Gibt die Informationen zur symbolischen Schriftart zurück oder setzt sie. Null bedeutet, dass die Schriftart undefiniert ist und von der Mastervorlage geerbt werden sollte. Lese-/Schreibzugriff auf [`IFontData`](../../ifontdata).
+Gibt die symbolische Schriftartinformationen zurück oder setzt sie. Null bedeutet, dass die Schriftart undefiniert ist und vom Master geerbt werden sollte. Lese-/Schreibzugriff auf [`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData SymbolFont { get; set; }

@@ -1,21 +1,21 @@
 ---
 title: BeginArrowheadLength
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve o establece la longitud de la punta de flecha al principio de una línea. Lectura/escritura LineArrowheadLengthaspose.slides/linearrowheadlength.
+second_title: Aspose.Slides para .NET API Reference
+description: Devuelve o establece la longitud de la punta de la flecha al comienzo de una línea. Leer/escribir LineArrowheadLengthaspose.slides/linearrowheadlength.
 type: docs
 weight: 20
 url: /es/aspose.slides/lineformat/beginarrowheadlength/
 ---
 
-## Propiedad LineFormat.BeginArrowheadLength
+## LineFormat.BeginArrowheadLength propiedad
 
-Devuelve o establece la longitud de la punta de flecha al principio de una línea. Lectura/escritura [`LineArrowheadLength`](../../linearrowheadlength).
+Devuelve o establece la longitud de la punta de la flecha al comienzo de una línea. Leer/escribir [`LineArrowheadLength`](../../linearrowheadlength).
 
 ```csharp
 public LineArrowheadLength BeginArrowheadLength { get; set; }
 ```
 
-### Véase También
+### Ver También
 
 * enum [LineArrowheadLength](../../linearrowheadlength)
 * class [LineFormat](../../lineformat)

@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.theme/overridetheme/clear/
 ---
+
 ## OverrideTheme.Clear method
 
 Set ColorScheme, FontScheme, FormatScheme to null to disable any overriding with this theme object.

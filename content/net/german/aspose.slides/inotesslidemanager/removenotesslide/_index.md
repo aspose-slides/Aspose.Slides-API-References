@@ -1,21 +1,21 @@
 ---
 title: RemoveNotesSlide
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Entfernt die Notizfolie der aktuellen Folie.
 type: docs
 weight: 30
 url: /de/aspose.slides/inotesslidemanager/removenotesslide/
 ---
 
-## INotesSlideManager.RemoveNotesSlide Methode
+## INotesSlideManager.RemoveNotesSlide-Methode
 
-Entfernt die Notizfolie der aktuellen Folie.
+Enfernt die Notizfolie der aktuellen Folie.
 
 ```csharp
 public void RemoveNotesSlide()
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [INotesSlideManager](../../inotesslidemanager)
 * Namespace [Aspose.Slides](../../inotesslidemanager)

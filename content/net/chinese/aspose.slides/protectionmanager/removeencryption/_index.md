@@ -1,6 +1,6 @@
 ---
-title: 移除加密
-second_title: Aspose.Sildes for .NET API 参考
+title: RemoveEncryption
+second_title: Aspose.Sildes for .NET API Reference
 description: 移除加密。
 type: docs
 weight: 90
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/protectionmanager/removeencryption/
 public void RemoveEncryption()
 ```
 
-### 另请参见
+### 参见
 
 * 类 [ProtectionManager](../../protectionmanager)
 * 命名空间 [Aspose.Slides](../../protectionmanager)

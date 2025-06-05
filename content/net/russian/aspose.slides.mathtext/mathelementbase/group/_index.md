@@ -1,7 +1,7 @@
 ---
-title: Группа
-second_title: Справочник по API Aspose.Slides для .NET
-description: Помещает этот элемент в группу, используя нижнюю фигурную скобку
+title: Group
+second_title: Aspose.Sildes для .NET API Reference
+description: Размещает этот элемент в группе, используя нижнюю фигурную скобку
 type: docs
 weight: 60
 url: /ru/aspose.slides.mathtext/mathelementbase/group/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/mathelementbase/group/
 
 ## Group() {#group}
 
-Помещает этот элемент в группу, используя нижнюю фигурную скобку
+Размещает этот элемент в группе, используя нижнюю фигурную скобку
 
 ```csharp
 public IMathGroupingCharacter Group()
@@ -39,7 +39,7 @@ IMathGroupingCharacter groupingElement = new MathematicalText("x;y;z").Group();
 
 ## Group(char, MathTopBotPositions, MathTopBotPositions) {#group_1}
 
-Помещает этот элемент в группу, используя знак группировки, такой как нижняя фигурная скобка или другой
+Размещает этот элемент в группе, используя группирующий символ, такой как нижняя фигурная скобка или другой
 
 ```csharp
 public IMathGroupingCharacter Group(char character, MathTopBotPositions position, 
@@ -48,9 +48,9 @@ public IMathGroupingCharacter Group(char character, MathTopBotPositions position
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| character | Char | Знак группировки, такой как НИЖНЯЯ ФИГУРНАЯ СКОБКА (U+23DF) или любой другой |
-| position | MathTopBotPositions | Положение знака группировки |
-| verticalJustification | MathTopBotPositions | Вертикальное выравнивание знака группы. Указывает на выравнивание объекта относительно базовой линии. Например, когда знак группы располагается над объектом, VerticalJustification со значением Top означает, что верхняя часть объекта падает на базовую линию; когда VerticalJustification установлено в Bottom, нижняя часть объекта находится на базовой линии |
+| character | Char | Группирующий символ, такой как НИЖНЯЯ ФИГУРНАЯ СКОВКА (U+23DF) или любой другой |
+| position | MathTopBotPositions | Позиция группирующего символа |
+| verticalJustification | MathTopBotPositions | Вертикальное выравнивание символа группы. Указывает на выравнивание объекта относительно базовой линии. Например, когда группирующий символ находится выше объекта, VerticalJustification для Top указывает, что верхняя часть объекта находится на базовой линии; когда VerticalJustification установлено на Bottom, нижняя часть объекта находится на базовой линии |
 
 ### Возвращаемое значение
 

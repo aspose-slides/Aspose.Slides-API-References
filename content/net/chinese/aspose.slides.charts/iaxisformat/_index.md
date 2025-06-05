@@ -1,6 +1,6 @@
 ---
 title: IAxisFormat
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示图表格式属性。
 type: docs
 weight: 1640

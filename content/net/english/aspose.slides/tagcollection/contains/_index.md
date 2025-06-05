@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/tagcollection/contains/
 ---
+
 ## TagCollection.Contains method
 
 Determines whether the collection contains a specific name.

@@ -1,6 +1,6 @@
 ---
-title: 名称
-second_title: Aspose.Slides for .NET API 参考
+title: Name
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回或设置作者的名称。可读写字符串。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/commentauthor/name/
 public string Name { get; set; }
 ```
 
-### 另请参阅
+### 参见
 
 * class [CommentAuthor](../../commentauthor)
 * namespace [Aspose.Slides](../../commentauthor)

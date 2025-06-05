@@ -1,6 +1,6 @@
 ---
 title: InsertColumnBefore
-second_title: Справочная информация по Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Вставить новый столбец перед указанным. Изначально все элементы в новом столбце равны null.
 type: docs
 weight: 160
@@ -29,8 +29,8 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.InsertColumnBefore(0);
 ```
 
-### См. также
-
+### Также см.
+ 
 * интерфейс [IMathMatrix](../../imathmatrix)
 * пространство имен [Aspose.Slides.MathText](../../imathmatrix)
 * сборка [Aspose.Slides](../../../)

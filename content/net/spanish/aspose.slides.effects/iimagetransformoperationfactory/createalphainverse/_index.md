@@ -1,15 +1,15 @@
 ---
 title: CreateAlphaInverse
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Crea el efecto de Alpha inverso.
+description: Crea el efecto Alpha inverso.
 type: docs
 weight: 30
 url: /es/aspose.slides.effects/iimagetransformoperationfactory/createalphainverse/
 ---
 
-## Método IImageTransformOperationFactory.CreateAlphaInverse
+## IImageTransformOperationFactory.CreateAlphaInverse método
 
-Crea el efecto de Alpha inverso.
+Crea el efecto Alpha inverso.
 
 ```csharp
 public IAlphaInverse CreateAlphaInverse()
@@ -17,7 +17,7 @@ public IAlphaInverse CreateAlphaInverse()
 
 ### Valor de retorno
 
-Efecto de Alpha inverso.
+Efecto Alpha inverso.
 
 ### Véase también
 

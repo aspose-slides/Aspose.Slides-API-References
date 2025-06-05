@@ -6,6 +6,7 @@ type: docs
 weight: 230
 url: /aspose.slides.charts/chartseries/numberformatofvalues/
 ---
+
 ## ChartSeries.NumberFormatOfValues property
 
 NumberFormatOfValues. Read/write String.

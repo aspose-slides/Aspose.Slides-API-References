@@ -1,7 +1,7 @@
 ---
 title: IPortionFormatEffectiveData
 second_title: Référence API Aspose.Slides pour .NET
-description: Objet immuable qui contient des propriétés de formatage de portion de texte effectif.
+description: Objet immutable contenant des propriétés de formatage de portion de texte effectif.
 type: docs
 weight: 6540
 url: /fr/aspose.slides/iportionformateffectivedata/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/iportionformateffectivedata/
 
 ## Interface IPortionFormatEffectiveData
 
-Objet immuable qui contient des propriétés de formatage de portion de texte effectif.
+Objet immutable contenant des propriétés de formatage de portion de texte effectif.
 
 ```csharp
 public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
@@ -20,9 +20,9 @@ public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
 | Nom | Description |
 | --- | --- |
 | [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | Renvoie l'interface IBasePortionFormatEffectiveData. |
-| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Renvoie l'identifiant de signet. Chaîne en lecture seule. |
-| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Renvoie le lien hypertexte défini pour le clic de la souris. [`IHyperlink`](../ihyperlink) en lecture seule. |
-| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Renvoie le lien hypertexte défini pour le survol de la souris. [`IHyperlink`](../ihyperlink) en lecture seule. |
+| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Renvoie l'identifiant du signet. Chaîne en lecture seule. |
+| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Renvoie l'hyperlien définit pour le clic de souris. [`IHyperlink`](../ihyperlink) en lecture seule. |
+| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Renvoie l'hyperlien définit pour le survol de la souris. [`IHyperlink`](../ihyperlink) en lecture seule. |
 
 ### Remarques
 

@@ -1,6 +1,6 @@
 ---
 title: RemoveAt
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 删除指定索引处的绘图指南。
 type: docs
 weight: 50
@@ -19,7 +19,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | 应该被删除的绘图指南的索引。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IDrawingGuidesCollection](../../idrawingguidescollection)
 * 命名空间 [Aspose.Slides](../../idrawingguidescollection)

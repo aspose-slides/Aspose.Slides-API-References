@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/iprotectionmanager/removewriteprotection/
 ---
+
 ## IProtectionManager.RemoveWriteProtection method
 
 Removes write protection for this presentation.

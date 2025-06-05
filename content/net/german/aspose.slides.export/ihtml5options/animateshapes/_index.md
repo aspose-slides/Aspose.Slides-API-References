@@ -1,6 +1,6 @@
 ---
 title: AnimateShapes
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Gibt die Animationsoption für Formen zurück oder setzt sie. Lese-/Schreib-Boolean.
 type: docs
 weight: 10

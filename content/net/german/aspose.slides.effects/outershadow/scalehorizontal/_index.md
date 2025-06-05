@@ -1,15 +1,15 @@
 ---
 title: ScaleHorizontal
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den horizontalen Skalierungsfaktor an, negative Skalierung verursacht einen Umkehrung. Lese-/Schreib Double.
+description: Gibt den horizontalen Skalierungsfaktor an, negative Skalierungen verursachen eine Umkehrung. Lese-/Schreib-Double.
 type: docs
 weight: 60
 url: /de/aspose.slides.effects/outershadow/scalehorizontal/
 ---
 
-## OuterShadow.ScaleHorizontal Eigenschaft
+## OuterShadow.ScaleHorizontal-Eigenschaft
 
-Gibt den horizontalen Skalierungsfaktor an, negative Skalierung verursacht eine Umkehrung. Lese-/Schreib Double.
+Gibt den horizontalen Skalierungsfaktor an, negative Skalierungen verursachen eine Umkehrung. Lese-/Schreib-Double.
 
 ```csharp
 public double ScaleHorizontal { get; set; }

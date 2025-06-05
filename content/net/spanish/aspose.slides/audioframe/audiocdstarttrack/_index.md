@@ -1,13 +1,13 @@
 ---
 title: AudioCdStartTrack
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve o establece un índice de pista de inicio. Lectura/escritura Int32.
 type: docs
 weight: 30
 url: /es/aspose.slides/audioframe/audiocdstarttrack/
 ---
 
-## Propiedad AudioFrame.AudioCdStartTrack
+## AudioFrame.AudioCdStartTrack property
 
 Devuelve o establece un índice de pista de inicio. Lectura/escritura Int32.
 
@@ -15,10 +15,10 @@ Devuelve o establece un índice de pista de inicio. Lectura/escritura Int32.
 public int AudioCdStartTrack { get; set; }
 ```
 
-### Véase también
+### Ver También
 
-* clase [AudioFrame](../../audioframe)
-* espacio de nombres [Aspose.Slides](../../audioframe)
-* ensamblaje [Aspose.Slides](../../../)
+* class [AudioFrame](../../audioframe)
+* namespace [Aspose.Slides](../../audioframe)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

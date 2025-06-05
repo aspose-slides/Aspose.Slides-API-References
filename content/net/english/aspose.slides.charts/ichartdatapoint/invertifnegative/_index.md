@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.charts/ichartdatapoint/invertifnegative/
 ---
+
 ## IChartDataPoint.InvertIfNegative property
 
 Specifies the data point shall invert its colors if the value is negative. Read/write Boolean.

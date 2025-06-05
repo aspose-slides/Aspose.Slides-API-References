@@ -1,7 +1,7 @@
 ---
 title: AddContentPlaceholder
-second_title: Aspose.Sildes для .NET API Справочник
-description: Добавляет новую форму-заполнителя на слайд макета для удержания контента, такого как изображение, таблица, медиа или текст.
+second_title: Aspose.Sildes для справки по API .NET
+description: Добавляет новую пустую фигуру в макет слайда для удержания содержимого, такого как изображение, таблица, медиа или текст.
 type: docs
 weight: 20
 url: /ru/aspose.slides/layoutplaceholdermanager/addcontentplaceholder/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/layoutplaceholdermanager/addcontentplaceholder/
 
 ## LayoutPlaceholderManager.AddContentPlaceholder метод
 
-Добавляет новую форму-заполнителя на слайд макета для удержания контента, такого как изображение, таблица, медиа или текст.
+Добавляет новую пустую фигуру в макет слайда для удержания содержимого, такого как изображение, таблица, медиа или текст.
 
 ```csharp
 public IAutoShape AddContentPlaceholder(float x, float y, float width, float height)
@@ -17,18 +17,18 @@ public IAutoShape AddContentPlaceholder(float x, float y, float width, float hei
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X-координата новой формы-заполнителя. |
-| y | Single | Y-координата новой формы-заполнителя. |
-| width | Single | Ширина новой формы-заполнителя. |
-| height | Single | Высота новой формы-заполнителя. |
+| x | Single | Координата X новой пустой фигуры. |
+| y | Single | Координата Y новой пустой фигуры. |
+| width | Single | Ширина новой пустой фигуры. |
+| height | Single | Высота новой пустой фигуры. |
 
-### Возвращаемое значение
+### Значение Возврата
 
-Созданный [`IAutoShape`](../../iautoshape) с заполнителем контента.
+Созданный [`IAutoShape`](../../iautoshape) с заполнителем содержимого.
 
 ### Примеры
 
-Следующий пример показывает, как добавить форму-заполнителя контента на слайд макета.
+Следующий пример показывает, как добавить фигуру-заполнитель содержимого в макет слайда.
 
 ```csharp
 [C#]
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IAutoShape](../../iautoshape)
 * класс [LayoutPlaceholderManager](../../layoutplaceholdermanager)

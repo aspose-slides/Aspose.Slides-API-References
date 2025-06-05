@@ -1,6 +1,6 @@
 ---
 title: MasterText
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Le texte sur les formes des pages maîtresses pour cette diapositive
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ Le texte sur les formes de la page maître pour cette diapositive
 public string MasterText { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ISlideText](../../islidetext)
 * namespace [Aspose.Slides](../../islidetext)

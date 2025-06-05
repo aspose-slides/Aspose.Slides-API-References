@@ -1,6 +1,6 @@
 ---
 title: ReflectionEffect
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Réflexion. Lecture/écriture IReflectionaspose.slides.effects/ireflection.
 type: docs
 weight: 80

@@ -1,28 +1,28 @@
----
+---  
 title: RemoveAt
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para referencia de API de .NET  
 description: Elimina la secuencia en el índice especificado.
-type: docs
-weight: 70
+type: docs  
+weight: 70  
 url: /es/aspose.slides.animation/isequencecollection/removeat/
----
+---  
 
-## Método ISequenceCollection.RemoveAt
+## ISequenceCollection.RemoveAt método  
 
-Elimina la secuencia en el índice especificado.
+Elimina la secuencia en el índice especificado.  
 
-```csharp
-public void RemoveAt(int index)
-```
+```csharp  
+public void RemoveAt(int index)  
+```  
 
-| Parámetro | Tipo | Descripción |
-| --- | --- | --- |
-| index | Int32 | Índice del elemento en la colección Int32 |
+| Parámetro | Tipo   | Descripción                                      |  
+|-----------|--------|--------------------------------------------------|  
+| index     | Int32  | Índice del elemento en la colección Int32        |  
 
-### Véase También
+### Véase también  
 
-* interfaz [ISequenceCollection](../../isequencecollection)
-* espacio de nombres [Aspose.Slides.Animation](../../isequencecollection)
-* ensamblado [Aspose.Slides](../../../)
+* interface [ISequenceCollection](../../isequencecollection)  
+* namespace [Aspose.Slides.Animation](../../isequencecollection)  
+* assembly [Aspose.Slides](../../../)  
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

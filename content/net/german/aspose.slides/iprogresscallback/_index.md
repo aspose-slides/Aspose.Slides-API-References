@@ -1,6 +1,6 @@
 ---
 title: IProgressCallback
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt ein Callback-Objekt zum Speichern von Fortschrittsaktualisierungen in Prozent dar.
 type: docs
 weight: 6610

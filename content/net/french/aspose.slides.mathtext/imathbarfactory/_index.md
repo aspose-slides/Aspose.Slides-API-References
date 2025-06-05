@@ -1,6 +1,6 @@
 ---
 title: IMathBarFactory
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Permet de créer une barre mathématique
 type: docs
 weight: 7880
@@ -19,8 +19,8 @@ public interface IMathBarFactory
 
 | Nom | Description |
 | --- | --- |
-| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar)(IMathElement) | Crée une barre mathématique en appliquant à l'élément |
-| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | Crée une barre mathématique en appliquant à l'élément |
+| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar)(IMathElement) | Crée une barre mathématique en l'appliquant à l'élément |
+| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | Crée une barre mathématique en l'appliquant à l'élément |
 
 ### Remarques
 

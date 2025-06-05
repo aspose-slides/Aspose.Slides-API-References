@@ -1,7 +1,7 @@
 ---
 title: IShapeFrame
-second_title: Aspose.Slides for .NET API 参考
-description: 表示形状框架属性。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示形状框架的属性。
 type: docs
 weight: 6780
 url: /zh/aspose.slides/ishapeframe/
@@ -25,12 +25,12 @@ public interface IShapeFrame : IGenericCloneable<IShapeFrame>
 | [FlipV](../../aspose.slides/ishapeframe/flipv) { get; } | 确定框架是否垂直翻转。只读 [`NullableBool`](../nullablebool)。 |
 | [Height](../../aspose.slides/ishapeframe/height) { get; } | 返回框架的高度。只读 Single。 |
 | [Rectangle](../../aspose.slides/ishapeframe/rectangle) { get; } | 返回框架的坐标。只读 RectangleF。 |
-| [Rotation](../../aspose.slides/ishapeframe/rotation) { get; } | 返回框架围绕 z 轴旋转的角度。正值表示顺时针旋转；负值表示逆时针旋转。只读 Single。 |
+| [Rotation](../../aspose.slides/ishapeframe/rotation) { get; } | 返回框架围绕 z 轴旋转的度数。正值表示顺时针旋转；负值表示逆时针旋转。只读 Single。 |
 | [Width](../../aspose.slides/ishapeframe/width) { get; } | 返回框架的宽度。只读 Single。 |
 | [X](../../aspose.slides/ishapeframe/x) { get; } | 返回框架左上角的 X 坐标。只读 Single。 |
 | [Y](../../aspose.slides/ishapeframe/y) { get; } | 返回框架左上角的 Y 坐标。只读 Single。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IGenericCloneable&lt;T&gt;](../igenericcloneable-1)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

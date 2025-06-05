@@ -1,15 +1,15 @@
 ---
-title: Аргументы
-second_title: Справочник по API Aspose.Slides для .NET
-description: Один или несколько математических элементов, разделенных символами-разделителями
+title: Arguments
+second_title: Aspose.Sildes для .NET API Reference
+description: Один или несколько математических элементов, разделенных разделителями
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/imathdelimiter/arguments/
 ---
 
-## Свойство IMathDelimiter.Arguments
+## IMathDelimiter.Arguments свойство
 
-Один или несколько математических элементов, разделенных символами-разделителями
+Один или несколько математических элементов, разделенных разделителями
 
 ```csharp
 public IMathElementCollection Arguments { get; }

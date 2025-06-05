@@ -1,13 +1,13 @@
 ---
 title: NoLocks
-second_title: Ссылка по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Возвращает true, если все флаги блокировки отключены. Только для чтения Boolean.
 type: docs
 weight: 10
 url: /ru/aspose.slides/baseshapelock/nolocks/
 ---
 
-## Свойство BaseShapeLock.NoLocks
+## BaseShapeLock.NoLocks свойство
 
 Возвращает true, если все флаги блокировки отключены. Только для чтения Boolean.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/baseshapelock/nolocks/
 public bool NoLocks { get; }
 ```
 
-### Смотрите также
+### См. Также
 
 * класс [BaseShapeLock](../../baseshapelock)
 * пространство имен [Aspose.Slides](../../baseshapelock)

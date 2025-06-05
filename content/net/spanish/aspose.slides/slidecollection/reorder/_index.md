@@ -1,13 +1,13 @@
 ---
-title: Reordenar
-second_title: Referencia de la API de Aspose.Slides para .NET
+title: Reorder
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Mueve la diapositiva de la colección a la posición especificada.
 type: docs
 weight: 170
 url: /es/aspose.slides/slidecollection/reorder/
 ---
 
-## Reordenar(int, ISlide) {#reorder}
+## Reorder(int, ISlide) {#reorder}
 
 Mueve la diapositiva de la colección a la posición especificada.
 
@@ -15,12 +15,12 @@ Mueve la diapositiva de la colección a la posición especificada.
 public void Reorder(int index, ISlide slide)
 ```
 
-| Parámetro | Tipo    | Descripción            |
-|-----------|---------|------------------------|
-| index     | Int32   | Índice objetivo.       |
-| slide     | ISlide  | Diapositiva a mover.   |
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| index | Int32 | Índice objetivo. |
+| slide | ISlide | Diapositiva a mover. |
 
-### Ver También
+### Véase También
 
 * interfaz [ISlide](../../islide)
 * clase [SlideCollection](../../slidecollection)
@@ -29,20 +29,20 @@ public void Reorder(int index, ISlide slide)
 
 ---
 
-## Reordenar(int, params ISlide[]) {#reorder_1}
+## Reorder(int, params ISlide[]) {#reorder_1}
 
-Mueve diapositivas de la colección a la posición especificada. Las diapositivas se colocarán a partir del índice en el orden en que aparecen en la lista.
+Mueve las diapositivas de la colección a la posición especificada. Las diapositivas se colocarán comenzando desde el índice en el orden en que aparecen en la lista.
 
 ```csharp
 public void Reorder(int index, params ISlide[] slides)
 ```
 
-| Parámetro | Tipo      | Descripción            |
-|-----------|-----------|------------------------|
-| index     | Int32     | Índice objetivo.       |
-| slides    | ISlide[]  | Diapositivas a mover.  |
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| index | Int32 | Índice objetivo. |
+| slides | ISlide[] | Diapositivas a mover. |
 
-### Ver También
+### Véase También
 
 * interfaz [ISlide](../../islide)
 * clase [SlideCollection](../../slidecollection)

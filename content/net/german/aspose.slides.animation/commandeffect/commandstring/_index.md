@@ -1,7 +1,7 @@
 ---
 title: CommandString
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Definiert den Befehlsstring. Lese-/Schreib-String.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Definiert den Befehlsstring. Lese-/Schreibzeichenfolge.
 type: docs
 weight: 20
 url: /de/aspose.slides.animation/commandeffect/commandstring/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/commandeffect/commandstring/
 
 ## CommandEffect.CommandString-Eigenschaft
 
-Definiert den Befehlsstring. Lese-/Schreib-String.
+Definiert den Befehlsstring. Lese-/Schreibzeichenfolge.
 
 ```csharp
 public string CommandString { get; set; }

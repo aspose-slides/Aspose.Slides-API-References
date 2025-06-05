@@ -1,21 +1,21 @@
 ---
-title: À
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie l'emplacement cible pour un effet de mouvement d'animation en pourcentages. Lecture/écriture PointF.
+title: To
+second_title: Aspose.Sildes pour .NET API Reference
+description: Spécifie l'emplacement cible pour un effet de mouvement d'animation en pourcentages. Lecteur/écrivain PointF.
 type: docs
 weight: 90
 url: /fr/aspose.slides.animation/motioneffect/to/
 ---
 
-## Propriété MotionEffect.To
+## MotionEffect.To property
 
-Spécifie l'emplacement cible pour un effet de mouvement d'animation (en pourcentages). Lecture/écriture PointF.
+Spécifie l'emplacement cible pour un effet de mouvement d'animation (en pourcentages). Lecteur/écrivain PointF.
 
 ```csharp
 public PointF To { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [MotionEffect](../../motioneffect)
 * espace de noms [Aspose.Slides.Animation](../../motioneffect)

@@ -1,7 +1,7 @@
 ---
 title: DocumentLevelFontSources
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt Quellen für externe Schriftarten an, die von der Präsentation verwendet werden sollen. Diese Schriftarten stehen der Präsentation während ihrer gesamten Lebensdauer zur Verfügung und werden nicht mit anderen Präsentationen geteilt.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt Quellen für externe Schriftarten an, die von der Präsentation verwendet werden sollen. Diese Schriftarten sind während der gesamten Lebensdauer der Präsentation verfügbar und werden nicht mit anderen Präsentationen geteilt.
 type: docs
 weight: 70
 url: /de/aspose.slides/iloadoptions/documentlevelfontsources/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iloadoptions/documentlevelfontsources/
 
 ## ILoadOptions.DocumentLevelFontSources-Eigenschaft
 
-Gibt Quellen für externe Schriftarten an, die von der Präsentation verwendet werden sollen. Diese Schriftarten stehen der Präsentation während ihrer gesamten Lebensdauer zur Verfügung und werden nicht mit anderen Präsentationen geteilt.
+Gibt Quellen für externe Schriftarten an, die von der Präsentation verwendet werden sollen. Diese Schriftarten sind während der gesamten Lebensdauer der Präsentation verfügbar und werden nicht mit anderen Präsentationen geteilt.
 
 ```csharp
 public IFontSources DocumentLevelFontSources { get; set; }

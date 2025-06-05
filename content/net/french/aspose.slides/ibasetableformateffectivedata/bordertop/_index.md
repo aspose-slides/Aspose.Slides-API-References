@@ -1,7 +1,7 @@
 ---
-title: BordSupérieur
-second_title: Référence de l'API Aspose.Slide pour .NET
-description: Renvoie la valeur effective du format de ligne de bord supérieur. Lecture seule ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
+title: BorderTop
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Renvoie la valeur effective du format de ligne de bordure supérieure. Lecture seule ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs
 weight: 60
 url: /fr/aspose.slides/ibasetableformateffectivedata/bordertop/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ibasetableformateffectivedata/bordertop/
 
 ## Propriété IBaseTableFormatEffectiveData.BorderTop
 
-Renvoie la valeur effective du format de ligne de bord supérieur. Lecture seule [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
+Renvoie la valeur effective du format de ligne de bordure supérieure. Lecture seule [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
 
 ```csharp
 public ILineFormatEffectiveData BorderTop { get; }

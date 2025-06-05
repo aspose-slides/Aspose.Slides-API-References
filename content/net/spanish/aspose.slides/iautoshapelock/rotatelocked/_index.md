@@ -1,24 +1,24 @@
 ---
 title: RotateLocked
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Determina si se prohíbe un ángulo de rotación cambiante de esta forma. Booleano de lectura y escritura.
+second_title: Aspose.Slides para .NET API Reference
+description: Determina si un cambio en el ángulo de rotación de esta forma está prohibido. Booleano de lectura y escritura.
 type: docs
 weight: 80
 url: /es/aspose.slides/iautoshapelock/rotatelocked/
 ---
 
-## Propiedad IAutoShapeLock.RotateLocked
+## IAutoShapeLock.RotateLocked propiedad
 
-Determina si se prohíbe un ángulo de rotación cambiante de esta forma. Booleano de lectura y escritura.
+Determina si un cambio en el ángulo de rotación de esta forma está prohibido. Booleano de lectura y escritura.
 
 ```csharp
 public bool RotateLocked { get; set; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [IAutoShapeLock](../../iautoshapelock)
-* espacio de nombres [Aspose.Slides](../../iautoshapelock)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IAutoShapeLock](../../iautoshapelock)
+* espacio de nombres [Aspose.Slides](../../iautoshapelock)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

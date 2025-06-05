@@ -1,6 +1,6 @@
 ---
 title: InitFontSchemeFromInherited
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Инициализировать FontScheme с новым объектом для переопределения FontScheme InheritedTheme. И инициализировать данные этого нового объекта данными FontScheme InheritedTheme.
 type: docs
 weight: 90
@@ -17,11 +17,11 @@ public void InitFontSchemeFromInherited()
 
 ### Исключения
 
-| исключение | условие |
+| exception | condition |
 | --- | --- |
-| InvalidOperationException | Выбрасывается, если FontScheme уже инициализирован (не null). |
+| InvalidOperationException | Выбрасывается, если FontScheme уже инициализирован (не равен null). |
 
-### См. Также
+### См. также
 
 * интерфейс [IOverrideTheme](../../ioverridetheme)
 * пространство имен [Aspose.Slides.Theme](../../ioverridetheme)

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/chartdata/categories/
 ---
+
 ## ChartData.Categories property
 
 Gets the primary categories (or both primary and secondary categories if [`UseSecondaryCategories`](../usesecondarycategories) property is false). Read-only [`IChartCategoryCollection`](../../ichartcategorycollection).

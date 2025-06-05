@@ -1,13 +1,13 @@
 ---
 title: FollowedHyperlink
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Цвет для посещенных гиперссылок. Только для чтения IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 100
 url: /ru/aspose.slides.theme/icolorscheme/followedhyperlink/
 ---
 
-## Свойство IColorScheme.FollowedHyperlink
+## IColorScheme.FollowedHyperlink свойство
 
 Цвет для посещенных гиперссылок. Только для чтения [`IColorFormat`](../../../aspose.slides/icolorformat).
 

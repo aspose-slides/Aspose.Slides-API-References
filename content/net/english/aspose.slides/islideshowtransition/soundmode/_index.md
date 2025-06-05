@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/islideshowtransition/soundmode/
 ---
+
 ## ISlideShowTransition.SoundMode property
 
 Set or returns sound mode for slide transition. Read-write [`TransitionSoundMode`](../../../aspose.slides.slideshow/transitionsoundmode).

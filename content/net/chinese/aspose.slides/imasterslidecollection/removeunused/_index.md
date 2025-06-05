@@ -1,6 +1,6 @@
 ---
 title: RemoveUnused
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 移除未使用的母版幻灯片。
 type: docs
 weight: 60
@@ -17,9 +17,9 @@ public void RemoveUnused(bool ignorePreserveField)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| ignorePreserveField | Boolean | 确定此方法是否应移除未使用的母版，即使其 [`Preserve`](../../imasterslide/preserve) 属性设置为 true。 |
+| ignorePreserveField | Boolean | 确定此方法是否应该移除未使用的母版，即使其 [`Preserve`](../../imasterslide/preserve) 属性设置为 true。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IMasterSlideCollection](../../imasterslidecollection)
 * 命名空间 [Aspose.Slides](../../imasterslidecollection)

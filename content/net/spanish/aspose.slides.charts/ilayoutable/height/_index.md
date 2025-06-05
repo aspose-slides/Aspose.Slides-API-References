@@ -1,13 +1,13 @@
 ---
-title: Altura
-second_title: Aspose.Slides para .NET API Reference
+title: Height
+second_title: Aspose.Sildes para .NET API Referencia
 description: Especifica la altura del elemento del gráfico como una fracción de la altura del gráfico. Lectura/escritura Single.
 type: docs
 weight: 30
 url: /es/aspose.slides.charts/ilayoutable/height/
 ---
 
-## Propiedad ILayoutable.Height
+## ILayoutable.Height propiedad
 
 Especifica la altura del elemento del gráfico como una fracción de la altura del gráfico. Lectura/escritura Single.
 
@@ -15,10 +15,10 @@ Especifica la altura del elemento del gráfico como una fracción de la altura d
 public float Height { get; set; }
 ```
 
-### Ver También
+### Véase también
 
-* interface [ILayoutable](../../ilayoutable)
-* namespace [Aspose.Slides.Charts](../../ilayoutable)
-* assembly [Aspose.Slides](../../../)
+* interfaz [ILayoutable](../../ilayoutable)
+* espacio de nombres [Aspose.Slides.Charts](../../ilayoutable)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

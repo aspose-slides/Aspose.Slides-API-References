@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/iparagraphcollection/clear/
 ---
+
 ## IParagraphCollection.Clear method
 
 Removes all elements from the collection.

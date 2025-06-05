@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/itrendlinecollection/count/
 ---
+
 ## ITrendlineCollection.Count property
 
 Gets the number of elements actually contained in the collection. Read-only Int32.

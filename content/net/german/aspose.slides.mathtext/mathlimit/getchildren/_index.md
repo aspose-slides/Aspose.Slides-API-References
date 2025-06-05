@@ -1,7 +1,7 @@
 ---
 title: GetChildren
-second_title: Aspose.Slides für .NET API-Referenz
-description: Kinder-Elemente abrufen
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Kinder-Elemente erhalten
 type: docs
 weight: 50
 url: /de/aspose.slides.mathtext/mathlimit/getchildren/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/mathlimit/getchildren/
 
 ## MathLimit.GetChildren-Methode
 
-Kinder-Elemente abrufen
+Kinder-Elemente erhalten
 
 ```csharp
 public IMathElement[] GetChildren()

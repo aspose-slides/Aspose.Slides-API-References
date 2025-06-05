@@ -1,13 +1,13 @@
 ---
 title: GetHashCode
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Dient als Hash-Funktion für einen bestimmten Typ.
 type: docs
 weight: 30
 url: /de/aspose.slides.effects/alphareplace/gethashcode/
 ---
 
-## AlphaReplace.GetHashCode Methode
+## AlphaReplace.GetHashCode-Methode
 
 Dient als Hash-Funktion für einen bestimmten Typ.
 
@@ -19,7 +19,7 @@ public override int GetHashCode()
 
 Ein Hash-Code für das aktuelle Objekt.
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [AlphaReplace](../../alphareplace)
 * Namespace [Aspose.Slides.Effects](../../alphareplace)

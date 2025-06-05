@@ -1,6 +1,6 @@
 ---
 title: CreateThemeEffective
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回此图表的有效主题。
 type: docs
 weight: 250
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/chart/createthemeeffective/
 public IThemeEffectiveData CreateThemeEffective()
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IThemeEffectiveData](../../../aspose.slides.theme/ithemeeffectivedata)
 * 类 [Chart](../../chart)

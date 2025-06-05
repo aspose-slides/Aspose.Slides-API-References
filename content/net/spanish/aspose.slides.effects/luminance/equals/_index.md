@@ -1,7 +1,7 @@
 ---
-title: Igual
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Determina si la Luminanciaespecificada aspose.slides.effects/luminance es igual a la Luminanciaactual aspose.slides.effects/luminance.
+title: Equals
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Determina si la Luminancia especificada aspose.slides.effects/luminance es igual a la Luminancia actual aspose.slides.effects/luminance.
 type: docs
 weight: 10
 url: /es/aspose.slides.effects/luminance/equals/
@@ -19,11 +19,11 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | La [`Luminance`](../../luminance) a comparar. |
 
-### Valor de retorno
+### Valor de Retorno
 
 true si los objetos son iguales; de lo contrario, false.
 
-### Véase también
+### Ver También
 
 * clase [Luminance](../../luminance)
 * espacio de nombres [Aspose.Slides.Effects](../../luminance)

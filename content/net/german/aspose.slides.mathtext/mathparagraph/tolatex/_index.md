@@ -1,7 +1,7 @@
 ---
 title: ToLatex
 second_title: Aspose.Sildes für .NET API Referenz
-description: Gibt mathematische Gleichungen im LaTeX-Format zurück
+description: Gibt mathematische Gleichung im LaTeX-Format zurück
 type: docs
 weight: 120
 url: /de/aspose.slides.mathtext/mathparagraph/tolatex/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/mathparagraph/tolatex/
 
 ## MathParagraph.ToLatex-Methode
 
-Gibt mathematische Gleichungen im LaTeX-Format zurück
+Gibt mathematische Gleichung im LaTeX-Format zurück
 
 ```csharp
 public string ToLatex()
@@ -27,7 +27,7 @@ mathParagraph.Add(new MathematicalText("a").Join("+").Join(new MathematicalText(
 string mathLatex = mathParagraph.ToLatex();
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [MathParagraph](../../mathparagraph)
 * Namespace [Aspose.Slides.MathText](../../mathparagraph)

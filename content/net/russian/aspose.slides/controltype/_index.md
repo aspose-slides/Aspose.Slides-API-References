@@ -1,7 +1,7 @@
 ---
 title: ControlType
-second_title: Aspose.Slides для .NET API Reference
-description: Определяет тип управления, который должен быть встроен с помощью AddControl./icontrolcollection/addcontrol.
+second_title: Aspose.Slides для .NET API Справочник
+description: Определяет тип управления, который должен быть встроен с помощью AddControl../icontrolcollection/addcontrol.
 type: docs
 weight: 2630
 url: /ru/aspose.slides/controltype/
@@ -19,7 +19,7 @@ public enum ControlType
 
 | Имя | Значение | Описание |
 | --- | --- | --- |
-| WindowsMediaPlayer | `0` | Элемент управления Windows Media Player. |
+| WindowsMediaPlayer | `0` | Управление Windows Media Player. |
 
 ### См. также
 

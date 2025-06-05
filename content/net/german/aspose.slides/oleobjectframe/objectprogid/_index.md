@@ -1,7 +1,7 @@
 ---
 title: ObjectProgId
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die ProgID eines Objekts zurück. Schreibgeschützter String.
+description: Gibt die ProgID eines Objekts zurück. Nur lesender String.
 type: docs
 weight: 110
 url: /de/aspose.slides/oleobjectframe/objectprogid/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/oleobjectframe/objectprogid/
 
 ## OleObjectFrame.ObjectProgId-Eigenschaft
 
-Gibt die ProgID eines Objekts zurück. Schreibgeschützter String.
+Gibt die ProgID eines Objekts zurück. Nur lesender String.
 
 ```csharp
 public string ObjectProgId { get; set; }

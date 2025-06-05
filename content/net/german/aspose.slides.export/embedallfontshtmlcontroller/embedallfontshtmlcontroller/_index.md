@@ -1,6 +1,6 @@
 ---
 title: EmbedAllFontsHtmlController
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Erstellt eine neue Instanz
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Erstellt eine neue Instanz
 public EmbedAllFontsHtmlController()
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [EmbedAllFontsHtmlController](../../embedallfontshtmlcontroller)
 * Namespace [Aspose.Slides.Export](../../embedallfontshtmlcontroller)
@@ -31,11 +31,11 @@ Erstellt eine neue Instanz
 public EmbedAllFontsHtmlController(string[] fontNameExcludeList)
 ```
 
-| Parameter               | Typ        | Beschreibung                               |
-| ----------------------- | ---------- | ----------------------------------------- |
-| fontNameExcludeList     | String[]    | Schriften, die vom Einbetten ausgeschlossen werden sollen |
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| fontNameExcludeList | String[] | Schriftarten, die vom Einbetten ausgeschlossen werden sollen |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [EmbedAllFontsHtmlController](../../embedallfontshtmlcontroller)
 * Namespace [Aspose.Slides.Export](../../embedallfontshtmlcontroller)

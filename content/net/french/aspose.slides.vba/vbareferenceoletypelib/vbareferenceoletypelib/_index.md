@@ -1,6 +1,6 @@
 ---
 title: VbaReferenceOleTypeLib
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Ce constructeur crée une nouvelle référence de bibliothèque de types OLE Automation.
 type: docs
 weight: 10

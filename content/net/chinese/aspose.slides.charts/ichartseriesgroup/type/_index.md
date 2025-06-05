@@ -1,6 +1,6 @@
 ---
-title: 类型
-second_title: Aspose.Slides for .NET API 参考
+title: Type
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回此系列组的类型。只读 CombinableSeriesTypesGroupaspose.slides.charts/combinableseriestypesgroup。
 type: docs
 weight: 190
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/ichartseriesgroup/type/
 public CombinableSeriesTypesGroup Type { get; }
 ```
 
-### 另请参见
+### 另见
 
 * enum [CombinableSeriesTypesGroup](../../combinableseriestypesgroup)
 * interface [IChartSeriesGroup](../../ichartseriesgroup)

@@ -1,13 +1,13 @@
 ---
 title: op_Equality
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 检查两个 FieldType 对象是否相等。
 type: docs
 weight: 220
 url: /zh/aspose.slides/fieldtype/op_equality/
 ---
 
-## FieldType 等于运算符
+## FieldType 相等运算符
 
 检查两个 FieldType 对象是否相等。
 
@@ -17,14 +17,14 @@ public static bool operator ==(FieldType a, FieldType b)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | FieldType | 第一个要比较的 FieldType。 |
-| b | FieldType | 第二个要比较的 FieldType。 |
+| a | FieldType | 要比较的第一个 FieldType。 |
+| b | FieldType | 要比较的第二个 FieldType。 |
 
 ### 返回值
 
-如果 FieldType 对象相等，则返回 true。
+如果 FieldType 对象相等，则为 True。
 
-### 另请参见
+### 另见
 
 * class [FieldType](../../fieldtype)
 * namespace [Aspose.Slides](../../fieldtype)

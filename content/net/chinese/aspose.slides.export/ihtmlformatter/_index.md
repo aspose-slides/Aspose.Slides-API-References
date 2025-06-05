@@ -1,7 +1,7 @@
 ---
 title: IHtmlFormatter
-second_title: Aspose.Slides for .NET API 参考
-description: 代表 HTML 文件模板。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示 HTML 文件模板。
 type: docs
 weight: 3770
 url: /zh/aspose.slides.export/ihtmlformatter/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.export/ihtmlformatter/
 
 ## IHtmlFormatter 接口
 
-代表 HTML 文件模板。
+表示 HTML 文件模板。
 
 ```csharp
 public interface IHtmlFormatter
 ```
 
-### 参考
+### 另见
 
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)
 * 程序集 [Aspose.Slides](../../)

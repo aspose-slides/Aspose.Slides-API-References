@@ -1,21 +1,21 @@
 ---
 title: SecondPieSize
-second_title: Référence API Aspose.Sildes pour .NET
-description: Spécifie la taille du deuxième diagramme circulaire ou barre d'un diagramme en pie-of-pie ou d'un diagramme en barre-of-pie en pourcentage de la taille du premier diagramme circulaire peut être entre 5 et 200 pourcents. Lecture/écriture UInt16.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Spécifie la taille du deuxième graphique ou barre d'un graphique "pie-of-pie" ou d'un graphique "bar-of-pie" en pourcentage de la taille du premier graphique peut être entre 5 et 200 pourcents. Lecture/écriture UInt16.
 type: docs
 weight: 170
 url: /fr/aspose.slides.charts/ichartseriesgroup/secondpiesize/
 ---
 
-## Propriété IChartSeriesGroup.SecondPieSize
+## IChartSeriesGroup.SecondPieSize property
 
-Spécifie la taille du deuxième diagramme circulaire ou barre d'un diagramme en pie-of-pie ou d'un diagramme en barre-of-pie, en pourcentage de la taille du premier diagramme circulaire (peut être entre 5 et 200 pourcents). Lecture/écriture UInt16.
+Spécifie la taille du deuxième graphique ou barre d'un graphique "pie-of-pie" ou d'un graphique "bar-of-pie", en pourcentage de la taille du premier graphique (peut être entre 5 et 200 pourcents). Lecture/écriture UInt16.
 
 ```csharp
 public ushort SecondPieSize { get; set; }
 ```
 
-### Voir aussi
+### See Also
 
 * interface [IChartSeriesGroup](../../ichartseriesgroup)
 * namespace [Aspose.Slides.Charts](../../ichartseriesgroup)

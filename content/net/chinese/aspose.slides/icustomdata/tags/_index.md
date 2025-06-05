@@ -1,7 +1,7 @@
 ---
-title: 标签
-second_title: Aspose.Slides for .NET API 参考
-description: 返回客户数据标签集合。只读 ITagCollectionaspose.slides/itagcollection。
+title: Tags
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回客户数据标签集合。只读的 ITagCollection aspose.slides/itagcollection。
 type: docs
 weight: 20
 url: /zh/aspose.slides/icustomdata/tags/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/icustomdata/tags/
 public ITagCollection Tags { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [ITagCollection](../../itagcollection)
 * 接口 [ICustomData](../../icustomdata)

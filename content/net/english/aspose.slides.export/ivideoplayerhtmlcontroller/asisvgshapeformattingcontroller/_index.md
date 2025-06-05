@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller/
 ---
+
 ## IVideoPlayerHtmlController.AsISvgShapeFormattingController property
 
 Allows to get base ISvgShapeFormattingController interface. Read-only [`ISvgShapeFormattingController`](../../isvgshapeformattingcontroller).

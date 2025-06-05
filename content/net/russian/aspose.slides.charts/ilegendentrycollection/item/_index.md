@@ -1,21 +1,21 @@
 ---
-title: Элемент
-second_title: Aspose.Slides для .NET API Справка
-description: Получает свойства элемента легенды, соответствующего Chart.ChartData.Series0.DataPointsindex в случае типов графиков из этого списка ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; или соответствующего Chart.ChartData.Seriesindex для других типов графиков.
+title: Item
+second_title: Aspose.Sildes для .NET API Reference
+description: Получает свойства элемента легенды, соответствующего Chart.ChartData.Series0.DataPointsindex в случае типа графика из этого списка ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie или соответствующего Chart.ChartData.Seriesindex для других типов графиков.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/ilegendentrycollection/item/
 ---
 
-## Индексатор ILegendEntryCollection
+## ILegendEntryCollection индексатор
 
-Получает свойства элемента легенды, соответствующего Chart.ChartData.Series[0].DataPoints[index] в случае типов графиков из этого списка: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; или соответствующего Chart.ChartData.Series[index] для других типов графиков.
+Получает свойства элемента легенды, соответствующего Chart.ChartData.Series[0].DataPoints[index] в случае типа графика из этого списка: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; или соответствующего Chart.ChartData.Series[index] для других типов графиков.
 
 ```csharp
 public ILegendEntryProperties this[int index] { get; }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [ILegendEntryProperties](../../ilegendentryproperties)
 * интерфейс [ILegendEntryCollection](../../ilegendentrycollection)

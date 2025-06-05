@@ -1,6 +1,6 @@
 ---
 title: HighlightClick
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sldes für .NET API Referenz
 description: Bestimmt, ob der Hyperlink beim Klicken hervorgehoben werden soll. Lese-/Schreib-Boolean.
 type: docs
 weight: 140

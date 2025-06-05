@@ -3,9 +3,10 @@ title: IEffectStyle
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an effect style.
 type: docs
-weight: 10520
+weight: 10860
 url: /aspose.slides.theme/ieffectstyle/
 ---
+
 ## IEffectStyle interface
 
 Represents an effect style.

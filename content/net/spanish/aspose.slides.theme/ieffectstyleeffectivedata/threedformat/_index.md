@@ -1,7 +1,7 @@
 ---
 title: ThreeDFormat
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve un formato 3D. Solo lectura IThreeDFormatEffectiveDataaspose.slides/ithreedformateffectivedata.
+description: Devuelve un formato 3d. Solo lectura IThreeDFormatEffectiveDataaspose.slides/ithreedformateffectivedata.
 type: docs
 weight: 20
 url: /es/aspose.slides.theme/ieffectstyleeffectivedata/threedformat/
@@ -9,13 +9,13 @@ url: /es/aspose.slides.theme/ieffectstyleeffectivedata/threedformat/
 
 ## Propiedad IEffectStyleEffectiveData.ThreeDFormat
 
-Devuelve un formato 3D. Solo lectura [`IThreeDFormatEffectiveData`](../../../aspose.slides/ithreedformateffectivedata).
+Devuelve un formato 3d. Solo lectura [`IThreeDFormatEffectiveData`](../../../aspose.slides/ithreedformateffectivedata).
 
 ```csharp
 public IThreeDFormatEffectiveData ThreeDFormat { get; }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [IThreeDFormatEffectiveData](../../../aspose.slides/ithreedformateffectivedata)
 * interfaz [IEffectStyleEffectiveData](../../ieffectstyleeffectivedata)

@@ -1,7 +1,7 @@
 ---
 title: ImagePixelFormat
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie le format de pixel des images générées.
+second_title: Aspose.Sildes pour .NET API Reference
+description: Spécifie le format pixel pour les images générées.
 type: docs
 weight: 4040
 url: /fr/aspose.slides.export/imagepixelformat/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/imagepixelformat/
 
 ## Énumération ImagePixelFormat
 
-Spécifie le format de pixel des images générées.
+Spécifie le format pixel pour les images générées.
 
 ```csharp
 public enum ImagePixelFormat
@@ -25,7 +25,7 @@ public enum ImagePixelFormat
 | Format24bppRgb | `24` | 24 bits par pixel, RGB. |
 | Format32bppArgb | `32` | 32 bits par pixel, ARGB. |
 
-### Voir Aussi
+### Voir aussi
 
 * namespace [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)

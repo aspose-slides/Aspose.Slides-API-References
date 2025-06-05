@@ -1,6 +1,6 @@
 ---
-title: Reiniciar
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Reset
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Restablece el tamaño de posición y formato de cada forma que tiene un prototipo en LayoutSlide.
 type: docs
 weight: 120
@@ -15,10 +15,10 @@ Restablece la posición, el tamaño y el formato de cada forma que tiene un prot
 public void Reset()
 ```
 
-### Ver También
+### Vea También
 
 * clase [Slide](../../slide)
-* namespace [Aspose.Slides](../../slide)
-* assembly [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides](../../slide)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

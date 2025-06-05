@@ -1,7 +1,7 @@
 ---
 title: SetDateTimeAndChildDateTimesVisibility
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ändert die Sichtbarkeit des Platzhalters für Datum und Uhrzeit auf dem Layout-Slide sowie aller untergeordneten Platzhalter für Datum und Uhrzeit. Untergeordnete Platzhalter beziehen sich auf Platzhalter, die auf abhängigen Slides enthalten sind. Abhängige Slides verwenden und hängen vom Layout-Slide ab.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ändert die Sichtbarkeit des Datums-/Uhrzeit-Platzhalters der Layoutfolie und aller untergeordneten Datums-/Uhrzeit-Platzhalter. Untergeordnete Platzhalter sind Platzhalter, die auf abhängigen Folien enthalten sind. Abhängige Folien verwenden und hängen von der Layoutfolie ab.
 type: docs
 weight: 20
 url: /de/aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetim
 
 ## LayoutSlideHeaderFooterManager.SetDateTimeAndChildDateTimesVisibility-Methode
 
-Ändert die Sichtbarkeit des Platzhalters für Datum und Uhrzeit auf dem Layout-Slide sowie aller untergeordneten Platzhalter für Datum und Uhrzeit. Untergeordnete Platzhalter beziehen sich auf Platzhalter, die auf abhängigen Slides enthalten sind. Abhängige Slides verwenden und hängen vom Layout-Slide ab.
+Ändert die Sichtbarkeit des Datums-/Uhrzeit-Platzhalters der Layoutfolie und aller untergeordneten Datums-/Uhrzeit-Platzhalter. Untergeordnete Platzhalter sind Platzhalter, die auf abhängigen Folien enthalten sind. Abhängige Folien verwenden und hängen von der Layoutfolie ab.
 
 ```csharp
 public void SetDateTimeAndChildDateTimesVisibility(bool isVisible)
@@ -17,7 +17,7 @@ public void SetDateTimeAndChildDateTimesVisibility(bool isVisible)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| isVisible | Boolean | true - macht einen Platzhalter für Datum und Uhrzeit sichtbar, andernfalls - versteckt sie. |
+| isVisible | Boolean | true - macht einen Datums-/Uhrzeit-Platzhalter sichtbar, andernfalls - verbirgt ihn. |
 
 ### Siehe auch
 

@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForBarSeries
-second_title: Aspose.Slides для .NET API Справочник
-description: Создает новую точку данных и добавляет её в конец коллекции. Применимо для серий, у которых тип диаграммы является одним из подтипов столбчатой или аэрограммы, см. также методы ChartTypeCharacterizer.IsChartTypeColumn и ChartTypeCharacterizer.IsChartTypeBar.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип графика которых является одним из подтипов Column или Bar, см. также метод ChartTypeCharacterizer.IsChartTypeColumnChartType и ChartTypeCharacterizer.IsChartTypeBarChartType.
 type: docs
 weight: 80
 url: /ru/aspose.slides.charts/ichartdatapointcollection/adddatapointforbarseries/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/ichartdatapointcollection/adddatapointforbarseries
 
 ## AddDataPointForBarSeries(IChartDataCell) {#adddatapointforbarseries}
 
-Создает новую точку данных и добавляет её в конец коллекции. Применимо для серий, у которых тип диаграммы является одним из подтипов столбчатой или аэрограммы (см. также методы ChartTypeCharacterizer.IsChartTypeColumn(ChartType) и ChartTypeCharacterizer.IsChartTypeBar(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип графика которых является одним из подтипов Column или Bar (см. также метод ChartTypeCharacterizer.IsChartTypeColumn(ChartType) и ChartTypeCharacterizer.IsChartTypeBar(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForBarSeries(IChartDataCell value)
@@ -19,11 +19,11 @@ public IChartDataPoint AddDataPointForBarSeries(IChartDataCell value)
 | --- | --- | --- |
 | value | IChartDataCell | Значение точки данных |
 
-### Значение возврата
+### Возвращаемое значение
 
 Новая точка данных.
 
-### См. также
+### См. Также
 
 * интерфейс [IChartDataPoint](../../ichartdatapoint)
 * интерфейс [IChartDataCell](../../ichartdatacell)
@@ -35,7 +35,7 @@ public IChartDataPoint AddDataPointForBarSeries(IChartDataCell value)
 
 ## AddDataPointForBarSeries(double) {#adddatapointforbarseries_1}
 
-Создает новую точку данных и добавляет её в конец коллекции. Применимо для серий, у которых тип диаграммы является одним из подтипов столбчатой или аэрограммы (см. также методы ChartTypeCharacterizer.IsChartTypeColumn(ChartType) и ChartTypeCharacterizer.IsChartTypeBar(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип графика которых является одним из подтипов Column или Bar (см. также метод ChartTypeCharacterizer.IsChartTypeColumn(ChartType) и ChartTypeCharacterizer.IsChartTypeBar(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForBarSeries(double value)
@@ -45,11 +45,11 @@ public IChartDataPoint AddDataPointForBarSeries(double value)
 | --- | --- | --- |
 | value | Double | Значение точки данных |
 
-### Значение возврата
+### Возвращаемое значение
 
 Новая точка данных.
 
-### См. также
+### См. Также
 
 * интерфейс [IChartDataPoint](../../ichartdatapoint)
 * интерфейс [IChartDataPointCollection](../../ichartdatapointcollection)

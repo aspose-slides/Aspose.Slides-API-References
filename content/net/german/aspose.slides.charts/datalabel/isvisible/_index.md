@@ -1,7 +1,7 @@
 ---
 title: IsVisible
 second_title: Aspose.Slides für .NET API Referenz
-description: False bedeutet, dass das Datenlabel nicht sichtbar ist und somit alle Show-Flags ShowValue, ... false sind. Nur-Lese-Boolescher Wert.
+description: False bedeutet, dass das Datenlabel nicht sichtbar ist und somit alle Show-Flags ShowValue, ... false sind. Schreibgeschützter Boolean.
 type: docs
 weight: 100
 url: /de/aspose.slides.charts/datalabel/isvisible/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/datalabel/isvisible/
 
 ## DataLabel.IsVisible-Eigenschaft
 
-False bedeutet, dass das Datenlabel nicht sichtbar ist (und somit alle Show*-Flags (ShowValue, ...) false sind). Nur-Lese-Boolescher Wert.
+False bedeutet, dass das Datenlabel nicht sichtbar ist (und somit alle Show*-Flags (ShowValue, ...) false sind). Schreibgeschützter Boolean.
 
 ```csharp
 public bool IsVisible { get; }
@@ -17,7 +17,7 @@ public bool IsVisible { get; }
 
 ### Anmerkungen
 
-Wenn das Datenlabel sichtbar ist, können Sie es mit der Hide()-Methode ausblenden. Wenn das Datenlabel jedoch nicht sichtbar ist (IsVisible ist false), können Sie das Datenlabel sichtbar machen, indem Sie die Show*-Flags (ShowValue, ...) auf den Wert true setzen.
+Wenn das Datenlabel sichtbar ist, können Sie es mit der Methode Hide() ausblenden. Wenn das Datenlabel jedoch nicht sichtbar ist (IsVisible ist false), können Sie es sichtbar machen, indem Sie die Show*-Flags (ShowValue, ...) auf true setzen.
 
 ### Siehe Auch
 

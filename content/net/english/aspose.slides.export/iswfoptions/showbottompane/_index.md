@@ -3,9 +3,10 @@ title: ShowBottomPane
 second_title: Aspose.Sildes for .NET API Reference
 description: Show/hide bottom pane. Can be overridden in flashvars. Default is true.
 type: docs
-weight: 80
+weight: 70
 url: /aspose.slides.export/iswfoptions/showbottompane/
 ---
+
 ## ISwfOptions.ShowBottomPane property
 
 Show/hide bottom pane. Can be overridden in flashvars. Default is true.

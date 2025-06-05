@@ -1,7 +1,7 @@
 ---
-title: 主序列
-second_title: Aspose.Slides for .NET API 参考
-description: 返回可能仅包含主效果集合的主序列。只读 ISequence aspose.slides.animation/isequence。
+title: MainSequence
+second_title: Aspose.Slides for .NET API Reference
+description: 返回主序列，该序列可能仅包含主效果集合。只读 ISequence aspose.slides.animation/isequence。
 type: docs
 weight: 20
 url: /zh/aspose.slides.animation/animationtimeline/mainsequence/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/animationtimeline/mainsequence/
 
 ## AnimationTimeLine.MainSequence 属性
 
-返回可能仅包含主效果集合的主序列。只读 [`ISequence`](../../isequence)。
+返回主序列，该序列可能仅包含主效果集合。只读 [`ISequence`](../../isequence)。
 
 ```csharp
 public ISequence MainSequence { get; }

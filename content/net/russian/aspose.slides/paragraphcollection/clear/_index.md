@@ -1,13 +1,13 @@
 ---
-title: Очистить
-second_title: Aspose.Sildes для .NET API Reference
+title: Clear
+second_title: Aspose.Sildes для .NET API Справочник
 description: Удаляет все элементы из коллекции.
 type: docs
 weight: 60
 url: /ru/aspose.slides/paragraphcollection/clear/
 ---
 
-## Метод ParagraphCollection.Clear
+## ParagraphCollection.Clear метод
 
 Удаляет все элементы из коллекции.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/paragraphcollection/clear/
 public void Clear()
 ```
 
-### См. также
+### Смотрите также
 
 * класс [ParagraphCollection](../../paragraphcollection)
 * пространство имен [Aspose.Slides](../../paragraphcollection)

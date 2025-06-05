@@ -1,6 +1,6 @@
 ---
 title: BookmarkId
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie l'identifiant du signet. Chaîne en lecture seule.
 type: docs
 weight: 20

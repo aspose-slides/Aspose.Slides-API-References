@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.export/ihtmloptions/deletepicturescroppedareas/
 ---
+
 ## IHtmlOptions.DeletePicturesCroppedAreas property
 
 A boolean flag indicates if the cropped parts remain as part of the document. If true the cropped parts will removed, if false they will be serialized in the document (which can possible lead to a larger file) Read/write Boolean.

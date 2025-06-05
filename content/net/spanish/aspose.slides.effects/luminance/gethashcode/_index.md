@@ -1,13 +1,13 @@
 ---
 title: GetHashCode
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Sirve como una función hash para un tipo particular.
 type: docs
 weight: 30
 url: /es/aspose.slides.effects/luminance/gethashcode/
 ---
 
-## Método Luminance.GetHashCode
+## Luminance.GetHashCode método
 
 Sirve como una función hash para un tipo particular.
 
@@ -15,11 +15,11 @@ Sirve como una función hash para un tipo particular.
 public override int GetHashCode()
 ```
 
-### Valor de Retorno
+### Valor de retorno
 
 Un código hash para el objeto actual.
 
-### Véase También
+### Véase también
 
 * clase [Luminance](../../luminance)
 * espacio de nombres [Aspose.Slides.Effects](../../luminance)

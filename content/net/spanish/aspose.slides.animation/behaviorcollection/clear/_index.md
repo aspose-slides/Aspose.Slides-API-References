@@ -1,5 +1,5 @@
 ---
-title: Limpiar
+title: Clear
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Elimina todos los comportamientos de una colección.
 type: docs
@@ -15,7 +15,7 @@ Elimina todos los comportamientos de una colección.
 public void Clear()
 ```
 
-### También Visto
+### Véase también
 
 * clase [BehaviorCollection](../../behaviorcollection)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorcollection)

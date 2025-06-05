@@ -1,13 +1,13 @@
 ---
-title: Яркость
-second_title: Справочник API Aspose.Slides для .NET
+title: Luminance
+second_title: Справочная информация по API Aspose.Sildes для .NET
 description: Возвращает или устанавливает компонент яркости цвета в представлении HSL. Все преобразования цвета игнорируются. Чтение/запись Single.
 type: docs
 weight: 100
 url: /ru/aspose.slides/colorformat/luminance/
 ---
 
-## Свойство ColorFormat.Luminance
+## ColorFormat.Luminance свойство
 
 Возвращает или устанавливает компонент яркости цвета в представлении HSL. Все преобразования цвета игнорируются. Чтение/запись Single.
 

@@ -1,15 +1,15 @@
 ---
-title: Richtung
+title: Direction
 second_title: Aspose.Slides für .NET API-Referenz
-description: Richtung der Übergänge. Lese-/Schreibzugriff auf TransitionCornerDirectionTypeaspose.slides.slideshow/transitioncornerdirectiontype.
+description: Richtung der Übergänge. Lese-/schreibbar TransitionCornerDirectionTypeaspose.slides.slideshow/transitioncornerdirectiontype.
 type: docs
 weight: 20
 url: /de/aspose.slides.slideshow/icornerdirectiontransition/direction/
 ---
 
-## ICornerDirectionTransition.Direction Eigenschaft
+## ICornerDirectionTransition.Direction-Eigenschaft
 
-Richtung des Übergangs. Lese-/Schreibzugriff auf [`TransitionCornerDirectionType`](../../transitioncornerdirectiontype).
+Richtung der Übergänge. Lese-/schreibbar [`TransitionCornerDirectionType`](../../transitioncornerdirectiontype).
 
 ```csharp
 public TransitionCornerDirectionType Direction { get; set; }

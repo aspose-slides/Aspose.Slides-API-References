@@ -1,7 +1,7 @@
 ---
 title: AlphaModulateFixed
 second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет эффект Alpha Modulate Fixed. Значения альфа-прозрачности эффекта умножаются на фиксированный процент.
+description: Представляет эффект Alpha Modulate Fixed. Значения альфа непрозрачности эффекта умножаются на фиксированный процент.
 type: docs
 weight: 2800
 url: /ru/aspose.slides.effects/alphamodulatefixed/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/alphamodulatefixed/
 
 ## Класс AlphaModulateFixed
 
-Представляет эффект Alpha Modulate Fixed. Значения альфа (прозрачности) эффекта умножаются на фиксированный процент.
+Представляет эффект Alpha Modulate Fixed. Значения альфа (непрозрачности) эффекта умножаются на фиксированный процент.
 
 ```csharp
 public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulateFixed
@@ -17,20 +17,20 @@ public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulate
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [Amount](../../aspose.slides.effects/alphamodulatefixed/amount) { get; set; } | Возвращает величину эффекта в процентах. Чтение/запись Single. |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphamodulatefixed/equals)(object) | Определяет, равен ли указанный [`AlphaModulateFixed`](../alphamodulatefixed) текущему [`AlphaModulateFixed`](../alphamodulatefixed). |
-| [GetEffective](../../aspose.slides.effects/alphamodulatefixed/geteffective)() | Получает данные об эффективном эффекте Alpha Modulate Fixed с применением наследования. |
-| override [GetHashCode](../../aspose.slides.effects/alphamodulatefixed/gethashcode)() | Служит хэш-функцией для конкретного типа. |
+| [GetEffective](../../aspose.slides.effects/alphamodulatefixed/geteffective)() | Получает эффективные данные эффекта Alpha Modulate Fixed с применением наследования. |
+| override [GetHashCode](../../aspose.slides.effects/alphamodulatefixed/gethashcode)() | Служит хеш-функцией для данного типа. |
 
-### См. Также
+### Смотрите также
 
 * класс [ImageTransformOperation](../imagetransformoperation)
 * интерфейс [IAlphaModulateFixed](../ialphamodulatefixed)

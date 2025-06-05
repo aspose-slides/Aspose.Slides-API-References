@@ -1,6 +1,6 @@
 ---
 title: MathNaryOperatorFactory
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: El constructor predeterminado.
 type: docs
 weight: 10
@@ -15,10 +15,10 @@ El constructor predeterminado.
 public MathNaryOperatorFactory()
 ```
 
-### Ver También
+### Véase también
 
-* class [MathNaryOperatorFactory](../../mathnaryoperatorfactory)
-* namespace [Aspose.Slides.MathText](../../mathnaryoperatorfactory)
-* assembly [Aspose.Slides](../../../)
+* clase [MathNaryOperatorFactory](../../mathnaryoperatorfactory)
+* espacio de nombres [Aspose.Slides.MathText](../../mathnaryoperatorfactory)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,15 +1,15 @@
 ---
 title: ShowLeftPane
-second_title: Aspose.Slides für .NET API Referenz
-description: Zeigt/blendet das linke Fenster ein. Kann in flashvars überschrieben werden. Standard ist true.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Zeigt/blendet das linke Paneel ein. Kann in flashvars überschrieben werden. Standard ist true.
 type: docs
 weight: 100
 url: /de/aspose.slides.export/iswfoptions/showleftpane/
 ---
 
-## ISwfOptions.ShowLeftPane Eigenschaft
+## ISwfOptions.ShowLeftPane-Eigenschaft
 
-Zeigt/blendet das linke Fenster ein. Kann in flashvars überschrieben werden. Standard ist true.
+Zeigt/blendet das linke Paneel ein. Kann in flashvars überschrieben werden. Standard ist true.
 
 ```csharp
 public bool ShowLeftPane { get; set; }

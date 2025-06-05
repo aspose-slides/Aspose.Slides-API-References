@@ -1,7 +1,7 @@
 ---
 title: PictureFillFormat
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает формат заполнения рисунка. Только для чтения IPictureFillFormatEffectiveDataaspose.slides/ipicturefillformateffectivedata.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает формат заливки рисунка. Только для чтения IPictureFillFormatEffectiveDataaspose.slides/ipicturefillformateffectivedata.
 type: docs
 weight: 50
 url: /ru/aspose.slides/ifillformateffectivedata/picturefillformat/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/ifillformateffectivedata/picturefillformat/
 
 ## IFillFormatEffectiveData.PictureFillFormat свойство
 
-Возвращает формат заполнения рисунка. Только для чтения [`IPictureFillFormatEffectiveData`](../../ipicturefillformateffectivedata).
+Возвращает формат заливки рисунка. Только для чтения [`IPictureFillFormatEffectiveData`](../../ipicturefillformateffectivedata).
 
 ```csharp
 public IPictureFillFormatEffectiveData PictureFillFormat { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IPictureFillFormatEffectiveData](../../ipicturefillformateffectivedata)
 * интерфейс [IFillFormatEffectiveData](../../ifillformateffectivedata)

@@ -1,7 +1,7 @@
 ---
-title: Compter
+title: Count
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne le nombre de points dans la collection. En lecture seule Int32.
+description: Renvoie le nombre de points dans la collection. En lecture seule Int32.
 type: docs
 weight: 20
 url: /fr/aspose.slides.animation/pointcollection/count/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/pointcollection/count/
 
 ## Propriété PointCollection.Count
 
-Retourne le nombre de points dans la collection. En lecture seule Int32.
+Renvoie le nombre de points dans la collection. En lecture seule Int32.
 
 ```csharp
 public int Count { get; }

@@ -1,13 +1,13 @@
 ---
-title: Равно
-second_title: Справочник по API Aspose.Slides для .NET
+title: Equals
+second_title: Aspose.Sildes для .NET API Справка
 description: Определяет, равны ли два экземпляра FontData.
 type: docs
 weight: 30
 url: /ru/aspose.slides/fontdata/equals/
 ---
 
-## Метод FontData.Equals
+## FontData.Equals метод
 
 Определяет, равны ли два экземпляра FontData.
 
@@ -17,7 +17,7 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | FontData для сравнения с текущим FontData. |
+| obj | Object | FontData, который нужно сравнить с текущим FontData. |
 
 ### Возвращаемое значение
 

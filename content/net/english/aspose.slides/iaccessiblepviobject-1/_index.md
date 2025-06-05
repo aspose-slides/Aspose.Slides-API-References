@@ -3,9 +3,10 @@ title: IAccessiblePVIObjectT
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a type that can return corresponding effective data with the inheritance applied.
 type: docs
-weight: 4820
+weight: 4970
 url: /aspose.slides/iaccessiblepviobject-1/
 ---
+
 ## IAccessiblePVIObject&lt;T&gt; interface
 
 Represents a type that can return corresponding effective data with the inheritance applied.

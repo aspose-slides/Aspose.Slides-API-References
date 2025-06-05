@@ -1,7 +1,7 @@
 ---
 title: StyleTextDecorationLineThrough
 second_title: Aspose.Slides für .NET API Referenz
-description: Representiert die Eigenschaft 'style.textDecorationLineThrough'
+description: Stellt die Eigenschaft style.textDecorationLineThrough dar
 type: docs
 weight: 1130
 url: /de/aspose.slides.animation/behaviorproperty/styletextdecorationlinethrough/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/behaviorproperty/styletextdecorationlinethrough
 
 ## BehaviorProperty.StyleTextDecorationLineThrough-Eigenschaft
 
-Repräsentiert die 'style.textDecorationLineThrough'-Eigenschaft
+Stellt die 'style.textDecorationLineThrough'-Eigenschaft dar
 
 ```csharp
 public static BehaviorProperty StyleTextDecorationLineThrough { get; }

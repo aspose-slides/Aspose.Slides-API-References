@@ -1,15 +1,15 @@
 ---
 title: HighlightRegex
-second_title: Aspose.Slides для .NET API Reference
-description: Подсвечивает все совпадения регулярного выражения заданным цветом.
+second_title: Aspose.Sildes для справки по API .NET
+description: Выделяет все совпадения регулярного выражения заданным цветом.
 type: docs
 weight: 330
 url: /ru/aspose.slides/presentation/highlightregex/
 ---
 
-## Метод Presentation.HighlightRegex
+## Presentation.HighlightRegex метод
 
-Подсвечивает все совпадения регулярного выражения заданным цветом.
+Выделяет все совпадения регулярного выражения заданным цветом.
 
 ```csharp
 public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallback callback)
@@ -17,20 +17,20 @@ public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallbac
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| regex | Regex | Регулярное выражение Regex для получения строк для подсветки. |
-| highlightColor | Color | Цвет, которым будет подсвечен текст. |
+| regex | Regex | Регулярное выражение Regex для получения строк для выделения. |
+| highlightColor | Color | Цвет для выделения текста. |
 | callback | IFindResultCallback | Объект обратного вызова для получения результатов поиска [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Примеры
 
-Следующий образец кода показывает, как подсветить текст в презентации PowerPoint с помощью регулярного выражения.
+Следующий пример кода показывает, как выделить текст в презентации PowerPoint, используя регулярное выражение.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// подсвечивание всех слов, содержащих 10 или более символов
+	// выделение всех слов длиной 10 символов или более
 	presentation.HighlightRegex(regex, Color.Blue, null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }

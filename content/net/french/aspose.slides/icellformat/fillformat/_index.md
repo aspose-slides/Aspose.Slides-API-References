@@ -1,7 +1,7 @@
 ---
-title: RemplissageFormat
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne un objet de propriétés de remplissage de cellule. En lecture seule IFillFormataspose.slides/ifillformat.
+title: FillFormat
+second_title: Aspose.Slides pour .NET API Référence
+description: Renvoie un objet de propriétés de remplissage de cellule. Lecture seule IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 70
 url: /fr/aspose.slides/icellformat/fillformat/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/icellformat/fillformat/
 
 ## Propriété ICellFormat.FillFormat
 
-Retourne un objet de propriétés de remplissage de cellule. En lecture seule [`IFillFormat`](../../ifillformat).
+Renvoie un objet de propriétés de remplissage de cellule. Lecture seule [`IFillFormat`](../../ifillformat).
 
 ```csharp
 public IFillFormat FillFormat { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IFillFormat](../../ifillformat)
 * interface [ICellFormat](../../icellformat)

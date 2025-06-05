@@ -19,7 +19,7 @@ public IShapeElement[] CreateShapeElements()
 
 [`ShapeElement`](../../shapeelement) 的数组
 
-### 另见
+### 另请参阅
 
 * 接口 [IShapeElement](../../ishapeelement)
 * 类 [GeometryShape](../../geometryshape)

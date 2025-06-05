@@ -1,6 +1,6 @@
 ---
 title: GetAutomaticDataPointColor
-second_title: Aspose.Slid.es for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 基于系列索引、数据点索引、ParentSeriesGroup.IsColorVaried 属性和图表样式返回数据点的自动颜色。如果 FillType 等于 NotDefined，则默认使用此颜色。
 type: docs
 weight: 220

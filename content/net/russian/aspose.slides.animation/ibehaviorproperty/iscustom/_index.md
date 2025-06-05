@@ -1,6 +1,6 @@
 ---
 title: IsCustom
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Показывает, принадлежит ли это свойство к списку предопределенных свойств в спецификации https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/ibehaviorproperty/iscustom/
 public bool IsCustom { get; }
 ```
 
-### Смотрите Также
+### См. также
 
 * интерфейс [IBehaviorProperty](../../ibehaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../ibehaviorproperty)

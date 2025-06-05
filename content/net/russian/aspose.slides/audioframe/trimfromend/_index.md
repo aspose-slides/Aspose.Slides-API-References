@@ -1,7 +1,7 @@
 ---
 title: TrimFromEnd
-second_title: Aspose.Sildes для .NET API Справочник
-description: Указывает продолжительность времени, которая должна быть удалена из конца медиа во время воспроизведения в миллисекундах. Чтение/запись Single.
+second_title: Aspose.Sildes для справки по API .NET
+description: Указывает продолжительность времени, которое должно быть удалено с конца медиафайла во время воспроизведения в миллисекундах. Чтение/запись Single.
 type: docs
 weight: 150
 url: /ru/aspose.slides/audioframe/trimfromend/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/audioframe/trimfromend/
 
 ## AudioFrame.TrimFromEnd свойство
 
-Указывает продолжительность времени, которая должна быть удалена из конца медиа во время воспроизведения, в миллисекундах. Чтение/запись Single.
+Указывает продолжительность времени, которое должно быть удалено с конца медиафайла во время воспроизведения, в миллисекундах. Чтение/запись Single.
 
 ```csharp
 public float TrimFromEnd { get; set; }
@@ -26,12 +26,12 @@ using (Presentation pres = new Presentation())
     IAudio audio = pres.Audios.AddAudio(File.ReadAllBytes("sampleaudio.mp3"));
     IAudioFrame audioFrame = pres.Slides[0].Shapes.AddAudioFrameEmbedded(50, 50, 100, 100, audio);
 
-    // Установите время обрезки концов 2 секунды
+    // Установить время обрезки в 2 секунды
     audioFrame.TrimFromEnd = 2000f;
 }
 ```
 
-### См. также
+### Смотрите Также
 
 * класс [AudioFrame](../../audioframe)
 * пространство имен [Aspose.Slides](../../audioframe)

@@ -1,6 +1,6 @@
 ---
 title: FilterEffectSubtype
-second_title: Aspose.Sildes pour .NET Référence API
+second_title: Aspose.Sildes pour .NET API Référence
 description: Représente les sous-types d'effets de filtre.
 type: docs
 weight: 310
@@ -19,32 +19,32 @@ public enum FilterEffectSubtype
 
 | Nom | Valeur | Description |
 | --- | --- | --- |
-| None | `0` |  |
-| Across | `1` |  |
-| Down | `2` |  |
-| DownLeft | `3` |  |
-| DownRight | `4` |  |
-| FromBottom | `5` |  |
-| FromLeft | `6` |  |
-| FromRight | `7` |  |
-| FromTop | `8` |  |
+| Aucun | `0` |  |
+| À travers | `1` |  |
+| Bas | `2` |  |
+| BasGauche | `3` |  |
+| BasDroit | `4` |  |
+| ParLeBas | `5` |  |
+| ParLaGauche | `6` |  |
+| ParLaDroite | `7` |  |
+| ParLeHaut | `8` |  |
 | Horizontal | `9` |  |
-| In | `10` |  |
-| InHorizontal | `11` |  |
-| InVertical | `12` |  |
-| Left | `13` |  |
-| Out | `14` |  |
-| OutHorizontal | `15` |  |
-| OutVertical | `16` |  |
-| Right | `17` |  |
-| Spokes1 | `18` |  |
-| Spokes2 | `19` |  |
-| Spokes3 | `20` |  |
-| Spokes4 | `21` |  |
-| Spokes8 | `22` |  |
-| Up | `23` |  |
-| UpLeft | `24` |  |
-| UpRight | `25` |  |
+| Dans | `10` |  |
+| DansHorizontal | `11` |  |
+| DansVertical | `12` |  |
+| Gauche | `13` |  |
+| Dehors | `14` |  |
+| DehorsHorizontal | `15` |  |
+| DehorsVertical | `16` |  |
+| Droit | `17` |  |
+| Rayons1 | `18` |  |
+| Rayons2 | `19` |  |
+| Rayons3 | `20` |  |
+| Rayons4 | `21` |  |
+| Rayons8 | `22` |  |
+| Haut | `23` |  |
+| HautGauche | `24` |  |
+| HautDroit | `25` |  |
 | Vertical | `26` |  |
 
 ### Voir aussi

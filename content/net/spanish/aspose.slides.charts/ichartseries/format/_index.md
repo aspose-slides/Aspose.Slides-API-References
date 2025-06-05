@@ -1,5 +1,5 @@
 ---
-title: Formato
+title: Format
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el formato de una serie. Solo lectura IFormataspose.slides.charts/iformat.
 type: docs
@@ -20,6 +20,6 @@ public IFormat Format { get; }
 * interfaz [IFormat](../../iformat)
 * interfaz [IChartSeries](../../ichartseries)
 * espacio de nombres [Aspose.Slides.Charts](../../ichartseries)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

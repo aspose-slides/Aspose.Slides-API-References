@@ -1,6 +1,6 @@
 ---
 title: CopyTo
-second_title: Aspose.Sildes для справки по API .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Копирует все элементы из коллекции в указанный массив.
 type: docs
 weight: 80
@@ -20,7 +20,7 @@ public void CopyTo(Array array, int index)
 | array | Array | Массив для заполнения. |
 | index | Int32 | Начальная позиция в целевом массиве. |
 
-### См. также
+### Также см. 
 
 * класс [TagCollection](../../tagcollection)
 * пространство имен [Aspose.Slides](../../tagcollection)

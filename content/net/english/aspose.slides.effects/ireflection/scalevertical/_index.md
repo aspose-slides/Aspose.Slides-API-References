@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.effects/ireflection/scalevertical/
 ---
+
 ## IReflection.ScaleVertical property
 
 Specifies the vertical scaling factor, negative scaling causes a flip. (percents) Read/write Double.

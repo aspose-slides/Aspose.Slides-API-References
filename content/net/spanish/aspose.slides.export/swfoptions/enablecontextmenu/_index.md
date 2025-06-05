@@ -1,13 +1,13 @@
 ---
 title: EnableContextMenu
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Habilitar/deshabilitar el menú contextual. El valor predeterminado es verdadero.
 type: docs
 weight: 30
 url: /es/aspose.slides.export/swfoptions/enablecontextmenu/
 ---
 
-## Propiedad SwfOptions.EnableContextMenu
+## SwfOptions.EnableContextMenu propiedad
 
 Habilitar/deshabilitar el menú contextual. El valor predeterminado es verdadero.
 
@@ -15,10 +15,10 @@ Habilitar/deshabilitar el menú contextual. El valor predeterminado es verdadero
 public bool EnableContextMenu { get; set; }
 ```
 
-### Véase también
+### Ver También
 
-* clase [SwfOptions](../../swfoptions)
-* espacio de nombres [Aspose.Slides.Export](../../swfoptions)
-* ensamblaje [Aspose.Slides](../../../)
+* class [SwfOptions](../../swfoptions)
+* namespace [Aspose.Slides.Export](../../swfoptions)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

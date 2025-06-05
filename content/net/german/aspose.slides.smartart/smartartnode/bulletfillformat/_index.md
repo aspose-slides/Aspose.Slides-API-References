@@ -1,7 +1,7 @@
 ---
 title: BulletFillFormat
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das FillFormat-Objekt zurück, das die Eigenschaften für die Füllformatierung eines Knotenpunkts enthält. Hinweis Kann für bestimmte Typen von SmartArt-Layouts, die keine Aufzählungszeichen für Knoten bereitstellen, null zurückgeben. Nur-Lese IFillFormataspose.slides/../aspose.slides/ifillformat.
+description: Gibt das FillFormat-Objekt zurück, das die Füllformatierungs-Eigenschaften für eine Knotenmarkierung enthält. Hinweis kann für bestimmte Arten von SmartArt-Layouts null zurückgeben, die keine Markierungen für Knoten bereitstellen. Schreibgeschütztes IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 10
 url: /de/aspose.slides.smartart/smartartnode/bulletfillformat/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.smartart/smartartnode/bulletfillformat/
 
 ## SmartArtNode.BulletFillFormat-Eigenschaft
 
-Gibt das FillFormat-Objekt zurück, das die Eigenschaften für die Füllformatierung eines Knotenpunkts enthält. Hinweis: Kann für bestimmte Typen von SmartArt-Layouts, die keine Aufzählungszeichen für Knoten bereitstellen, null zurückgeben. Nur-Lese [`IFillFormat`](../../../aspose.slides/ifillformat).
+Gibt das FillFormat-Objekt zurück, das die Füllformatierungs-Eigenschaften für eine Knotenmarkierung enthält. Hinweis: kann für bestimmte Arten von SmartArt-Layouts null zurückgeben, die keine Markierungen für Knoten bereitstellen. Schreibgeschützt [`IFillFormat`](../../../aspose.slides/ifillformat).
 
 ```csharp
 public IFillFormat BulletFillFormat { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IFillFormat](../../../aspose.slides/ifillformat)
 * Klasse [SmartArtNode](../../smartartnode)

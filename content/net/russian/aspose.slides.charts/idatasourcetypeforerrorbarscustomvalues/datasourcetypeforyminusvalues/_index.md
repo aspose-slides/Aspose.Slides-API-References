@@ -1,7 +1,7 @@
 ---
 title: DataSourceTypeForYMinusValues
-second_title: Aspose.Slides для .NET API Reference
-description: Указывает, является ли свойство AsCell, AsLiteralString или AsLiteralDouble актуальным в объекте свойства YMinus точки данных для пользовательских значений столбцов ошибок. Другими словами, это указывает тип значения свойства ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Чтение/запись DataSourceType.
+second_title: Aspose.Sildes для .NET API Reference
+description: Указывает, является ли свойство AsCell, AsLiteralString или AsLiteralDouble действительным в объекте свойства YMinus точек данных для пользовательских значений ошибок. Другими словами, оно определяет тип значения свойства ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Чтение/ запись DataSourceTypeaspose.slides/datasourcetype.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasource
 
 ## IDataSourceTypeForErrorBarsCustomValues.DataSourceTypeForYMinusValues property
 
-Указывает, является ли свойство AsCell, AsLiteralString или AsLiteralDouble актуальным в объекте свойства YMinus точки данных для пользовательских значений столбцов ошибок. Другими словами, это указывает тип значения свойства ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Чтение/запись [`DataSourceType`](../../datasourcetype).
+Указывает, является ли свойство AsCell, AsLiteralString или AsLiteralDouble действительным в объекте свойства YMinus точек данных для пользовательских значений ошибок. Другими словами, оно определяет тип значения свойства ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Чтение/ запись [`DataSourceType`](../../datasourcetype).
 
 ```csharp
 public DataSourceType DataSourceTypeForYMinusValues { get; set; }
 ```
 
-### См. также
+### См. Также
 
 * enum [DataSourceType](../../datasourcetype)
 * interface [IDataSourceTypeForErrorBarsCustomValues](../../idatasourcetypeforerrorbarscustomvalues)

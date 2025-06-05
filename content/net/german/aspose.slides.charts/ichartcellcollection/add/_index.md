@@ -1,5 +1,5 @@
 ---
-title: Hinzufügen
+title: Add
 second_title: Aspose.Slides für .NET API Referenz
 description: Neue Zelle zur Sammlung hinzufügen.
 type: docs
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartcellcollection/add/
 
 ## Add(IChartDataCell) {#add}
 
-Neue Zelle zur Sammlung hinzufügen.
+Fügen Sie eine neue Zelle zur Sammlung hinzu.
 
 ```csharp
 public void Add(IChartDataCell chartDataCell)
@@ -17,7 +17,7 @@ public void Add(IChartDataCell chartDataCell)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| chartDataCell | IChartDataCell | Neue Zelle, die hinzugefügt werden soll. |
+| chartDataCell | IChartDataCell | Neue Zelle zum Hinzufügen. |
 
 ### Siehe auch
 
@@ -30,7 +30,7 @@ public void Add(IChartDataCell chartDataCell)
 
 ## Add(object) {#add_1}
 
-Erstellt [`IChartDataCell`](../../ichartdatacell) aus dem angegebenen Wert und fügt ihn zur Sammlung hinzu.
+Erstellt [`IChartDataCell`](../../ichartdatacell) aus dem angegebenen Wert und fügt ihn der Sammlung hinzu.
 
 ```csharp
 public void Add(object value)
@@ -48,7 +48,7 @@ public void Add(object value)
 
 ### Bemerkungen
 
-Diese Methode fügt ein Arbeitsblatt mit dem Namen AUTO_DATA hinzu und fügt dort alle Werte hinzu. Wenn Sie [`IChartDataWorkbook`](../../ichartdataworkbook) verwenden, um Zellwerte hinzuzufügen oder zu bearbeiten, stellen Sie sicher, dass Sie dieses Arbeitsblatt nicht verwenden. Die maximale Anzahl von Werten, die mit dieser Methode hinzugefügt werden können, darf 16711680 nicht überschreiten.
+Diese Methode fügt das Arbeitsblatt mit dem Namen AUTO_DATA hinzu und fügt dort alle Werte hinzu. Wenn Sie [`IChartDataWorkbook`](../../ichartdataworkbook) verwenden, um Zellwerte hinzuzufügen oder zu bearbeiten, stellen Sie sicher, dass Sie dieses Arbeitsblatt nicht verwenden. Die maximale Anzahl von Werten, die mit dieser Methode hinzugefügt werden können, darf 16711680 nicht überschreiten.
 
 ### Siehe auch
 

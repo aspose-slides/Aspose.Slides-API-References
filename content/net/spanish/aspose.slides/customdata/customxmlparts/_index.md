@@ -15,7 +15,7 @@ Devuelve la colección de partes xml personalizadas. Solo lectura [`ICustomXmlPa
 public ICustomXmlPartCollection CustomXmlParts { get; }
 ```
 
-### Véase también
+### Véase También
 
 * interfaz [ICustomXmlPartCollection](../../icustomxmlpartcollection)
 * clase [CustomData](../../customdata)

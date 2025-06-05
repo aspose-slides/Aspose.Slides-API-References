@@ -1,7 +1,7 @@
 ---
 title: HideDegree
-second_title: Aspose.Slides para .NET Referencia API
-description: Ocultar grado Cuando es verdadero, el grado no se muestra como en
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Ocultar el grado Cuando es verdadero, el grado no se muestra como en
 type: docs
 weight: 40
 url: /es/aspose.slides.mathtext/mathradical/hidedegree/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.mathtext/mathradical/hidedegree/
 
 ## Propiedad MathRadical.HideDegree
 
-Ocultar grado Cuando es verdadero, el grado no se muestra, como en √𝑥
+Ocultar el grado Cuando es verdadero, el grado no se muestra, como en √𝑥
 
 ```csharp
 public bool HideDegree { get; set; }
@@ -25,7 +25,7 @@ MathRadical radical = new MathRadical(new MathematicalText("x"), new Mathematica
 radical.HideDegree = true;
 ```
 
-### Ver También
+### Vea también
 
 * clase [MathRadical](../../mathradical)
 * espacio de nombres [Aspose.Slides.MathText](../../mathradical)

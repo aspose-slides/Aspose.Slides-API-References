@@ -15,12 +15,12 @@ Permite obtener la interfaz base IAccessiblePVIObject. Solo lectura [`IAccessibl
 public IAccessiblePVIObject<IGlowEffectiveData> AsIAccessiblePVIObject { get; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
-* interfaz [IGlowEffectiveData](../../igloweffectivedata)
-* interfaz [IGlow](../../iglow)
-* espacio de nombres [Aspose.Slides.Effects](../../iglow)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
+* interfaz [IGlowEffectiveData](../../igloweffectivedata)
+* interfaz [IGlow](../../iglow)
+* namespace [Aspose.Slides.Effects](../../iglow)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

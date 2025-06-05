@@ -1,7 +1,7 @@
 ---
 title: Value0
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Définit la première valeur de décalage. Lecture/écriture Simple.
+second_title: Référence API Aspose.Slides pour .NET
+description: Définit la première valeur de décalage. Lecture/écriture Single.
 type: docs
 weight: 20
 url: /fr/aspose.slides.animation/coloroffset/value0/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.animation/coloroffset/value0/
 
 ## Propriété ColorOffset.Value0
 
-Définit la première valeur de décalage. Lecture/écriture Simple.
+Définit la première valeur de décalage. Lecture/écriture Single.
 
 ```csharp
 public float Value0 { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [ColorOffset](../../coloroffset)
 * espace de noms [Aspose.Slides.Animation](../../coloroffset)

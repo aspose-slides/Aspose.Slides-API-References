@@ -1,7 +1,7 @@
 ---
 title: SetUpperLimit
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Prend une limite supérieure
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Prend la limite supérieure
 type: docs
 weight: 180
 url: /fr/aspose.slides.mathtext/imathelement/setupperlimit/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/imathelement/setupperlimit/
 
 ## SetUpperLimit(IMathElement) {#setupperlimit}
 
-Prend une limite supérieure
+Prend la limite supérieure
 
 ```csharp
 public IMathLimit SetUpperLimit(IMathElement limit)
@@ -19,13 +19,13 @@ public IMathLimit SetUpperLimit(IMathElement limit)
 | --- | --- | --- |
 | limit | IMathElement | limite |
 
-### Valeur de retour
+### Valeur de Retour
 
 Nouvelle instance de type [`IMathLimit`](../../imathlimit)
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -34,7 +34,7 @@ IMathElement limitValue = new MathematicalText("y−>1");
 var limitElement = baseElement.SetUpperLimit(limitValue);
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathLimit](../../imathlimit)
 * interface [IMathElement](../../imathelement)
@@ -45,7 +45,7 @@ var limitElement = baseElement.SetUpperLimit(limitValue);
 
 ## SetUpperLimit(string) {#setupperlimit_1}
 
-Prend une limite supérieure
+Prend la limite supérieure
 
 ```csharp
 public IMathLimit SetUpperLimit(string limit)
@@ -55,13 +55,13 @@ public IMathLimit SetUpperLimit(string limit)
 | --- | --- | --- |
 | limit | String | limite |
 
-### Valeur de retour
+### Valeur de Retour
 
 Nouvelle instance de type [`IMathLimit`](../../imathlimit)
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -69,7 +69,7 @@ IMathElement baseElement = new MathematicalText("y");
 var limitElement = baseElement.SetUpperLimit("y−>1");
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathLimit](../../imathlimit)
 * interface [IMathElement](../../imathelement)

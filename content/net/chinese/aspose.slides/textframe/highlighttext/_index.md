@@ -1,13 +1,13 @@
 ---
 title: HighlightText
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 使用指定的颜色高亮显示所有匹配的示例文本。
 type: docs
 weight: 100
 url: /zh/aspose.slides/textframe/highlighttext/
 ---
 
-## HighlightText(string, Color) {#highlighttext}
+## HighlightText(string, Color) {#highlighttext}
 
 使用指定的颜色高亮显示所有匹配的示例文本。
 
@@ -28,7 +28,7 @@ public void HighlightText(string text, Color highlightColor)
 
 ---
 
-## HighlightText(string, Color, ITextSearchOptions, IFindResultCallback) {#highlighttext_2}
+## HighlightText(string, Color, ITextSearchOptions, IFindResultCallback) {#highlighttext_2}
 
 使用指定的颜色高亮显示所有匹配的示例文本。
 
@@ -54,7 +54,7 @@ using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	// 高亮显示所有单词 'important'
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("important", Color.LightBlue);
-	// 高亮显示所有独立的 'the' 出现
+	// 高亮显示所有单独的 'the' 出现
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("the", Color.Violet, new TextSearchOptions()
 	{ WholeWordsOnly = true }, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);

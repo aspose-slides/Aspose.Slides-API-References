@@ -1,7 +1,7 @@
 ---
 title: BevelType
-second_title: Aspose.Slides für .NET API-Referenz
-description: Fasenart. Nur-liest BevelPresetTypeaspose.slides/bevelpresettype.
+second_title: Aspose.Slides für .NET API Referenz
+description: Fasenart. Nur lesbarer BevelPresetTypeaspose.slides/bevelpresettype.
 type: docs
 weight: 10
 url: /de/aspose.slides/ishapebeveleffectivedata/beveltype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ishapebeveleffectivedata/beveltype/
 
 ## IShapeBevelEffectiveData.BevelType-Eigenschaft
 
-Fasenart. Nur-liest [`BevelPresetType`](../../bevelpresettype).
+Fasenart. Nur lesbar [`BevelPresetType`](../../bevelpresettype).
 
 ```csharp
 public BevelPresetType BevelType { get; }

@@ -1,7 +1,7 @@
 ---
-title: 直角轴
-second_title: Aspose.Slides for .NET API 参考
-description: 确定图表坐标轴是否是直角，而不是以透视方式绘制。换句话说，它确定图表坐标轴的角度是否独立于图表的旋转或高度。可读/可写布尔值。
+title: RightAngleAxes
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定图表坐标轴是否为直角，而不是绘制为透视图。换句话说，它确定图表坐标轴的角度是否独立于图表的旋转或高度。可读写布尔值。
 type: docs
 weight: 40
 url: /zh/aspose.slides.charts/irotation3d/rightangleaxes/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/irotation3d/rightangleaxes/
 
 ## IRotation3D.RightAngleAxes 属性
 
-确定图表坐标轴是否是直角，而不是以透视方式绘制。换句话说，它确定图表坐标轴的角度是否独立于图表的旋转或高度。可读/可写布尔值。
+确定图表坐标轴是否为直角，而不是绘制为透视图。换句话说，它确定图表坐标轴的角度是否独立于图表的旋转或高度。可读写布尔值。
 
 ```csharp
 public bool RightAngleAxes { get; set; }

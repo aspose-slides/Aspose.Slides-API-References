@@ -1,7 +1,7 @@
 ---
 title: IWheelTransition
 second_title: Aspose.Slides für .NET API-Referenz
-description: Radüberblendeffekt.
+description: Radübergangseffekt.
 type: docs
 weight: 9910
 url: /de/aspose.slides.slideshow/iwheeltransition/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.slideshow/iwheeltransition/
 
 ## IWheelTransition-Schnittstelle
 
-Radüberblendeffekt.
+Radübergangseffekt.
 
 ```csharp
 public interface IWheelTransition : ITransitionValueBase
@@ -20,7 +20,7 @@ public interface IWheelTransition : ITransitionValueBase
 | Name | Beschreibung |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/iwheeltransition/asitransitionvaluebase) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle ITransitionValueBase. Nur lesbar [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Spokes](../../aspose.slides.slideshow/iwheeltransition/spokes) { get; set; } | Anzahl der Speichen der Radüberblendung. Lese-/Schreibzugriff auf UInt32. |
+| [Spokes](../../aspose.slides.slideshow/iwheeltransition/spokes) { get; set; } | Anzahl der Speichen des Radübergangs. Lese-/Schreibzugriff UInt32. |
 
 ### Siehe auch
 

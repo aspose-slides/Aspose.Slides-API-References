@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ibaseslideheaderfootermanager/isfootervisible/
 ---
+
 ## IBaseSlideHeaderFooterManager.IsFooterVisible property
 
 Gets value indicating that a footer placeholder is present. Read Boolean.

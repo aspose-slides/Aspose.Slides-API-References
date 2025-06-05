@@ -1,7 +1,7 @@
 ---
-title: 风格
-second_title: Aspose.Slides for .NET API 参考
-description: 指定用于转换演示文稿的markdown规范。默认值为多重markdown。
+title: Flavor
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定用于转换演示文稿的markdown规范。默认值为Multi-markdown。
 type: docs
 weight: 40
 url: /zh/aspose.slides.export/markdownsaveoptions/flavor/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.export/markdownsaveoptions/flavor/
 public Flavor Flavor { get; set; }
 ```
 
-### 参见
+### 另见
 
 * enum [Flavor](../../flavor)
 * class [MarkdownSaveOptions](../../markdownsaveoptions)

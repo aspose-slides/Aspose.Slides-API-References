@@ -1,15 +1,15 @@
 ---
 title: GetBasePlaceholder
-second_title: Aspose.Slides pour .NET Référence API
-description: Retourne une forme de remplacement de base à partir de la disposition et/ou de la diapositive maître dont la forme actuelle est héritée. Un null est retourné si la forme actuelle n'est pas héritée.
+second_title: Aspose.Sildes pour .NET API Reference
+description: Renvoie une forme de remplacement de base à partir de la disposition et/ou de la diapositive maître dont la forme actuelle hérite. Un null est renvoyé si la forme actuelle n'est pas héritée.
 type: docs
 weight: 340
 url: /fr/aspose.slides/shape/getbaseplaceholder/
 ---
 
-## Méthode Shape.GetBasePlaceholder
+## Shape.GetBasePlaceholder méthode
 
-Retourne une forme de remplacement de base (forme provenant de la disposition et/ou de la diapositive maître dont la forme actuelle est hérité). Un null est retourné si la forme actuelle n'est pas héritée.
+Renvoie une forme de remplacement de base (forme de la disposition et/ou diapositive maître dont la forme actuelle hérite). Un null est renvoyé si la forme actuelle n'est pas héritée.
 
 ```csharp
 public IShape GetBasePlaceholder()
@@ -34,7 +34,7 @@ using (Presentation pres = new Presentation("sample.pptx"))
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IShape](../../ishape)
 * classe [Shape](../../shape)

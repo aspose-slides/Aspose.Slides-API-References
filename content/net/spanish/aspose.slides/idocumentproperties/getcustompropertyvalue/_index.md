@@ -1,6 +1,6 @@
 ---
 title: GetCustomPropertyValue
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Obtiene un valor booleano nombrado de las propiedades personalizadas.
 type: docs
 weight: 400

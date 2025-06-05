@@ -1,15 +1,15 @@
 ---
 title: ToMathArray
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt ein vertikales Array bereit
+second_title: Aspose.Sildes for .NET API Reference
+description: Stellt ein vertikal Array bereit
 type: docs
 weight: 210
 url: /de/aspose.slides.mathtext/imathelement/tomatharray/
 ---
 
-## IMathElement.ToMathArray-Methode
+## IMathElement.ToMathArray Methode
 
-Stellt ein vertikales Array bereit
+Stellt ein vertikal Array bereit
 
 ```csharp
 public IMathArray ToMathArray()
@@ -28,7 +28,7 @@ Beispiel:
 IMathArray array = new MathematicalText("x1").Join("x2").Join("x3").ToMathArray();
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMathArray](../../imatharray)
 * Schnittstelle [IMathElement](../../imathelement)

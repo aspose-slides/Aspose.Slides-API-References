@@ -1,7 +1,7 @@
 ---
 title: IsUnderflowBin
-second_title: Aspose.Slides for .NET API 参考
-description: 指定是否应用下溢箱。使用 IsAutomaticUnderflowBin 和 UnderflowBin 来调整下溢箱值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定是否应用下溢桶。使用 IsAutomaticUnderflowBin 和 UnderflowBin 来调整下溢桶的值。
 type: docs
 weight: 300
 url: /zh/aspose.slides.charts/iaxis/isunderflowbin/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/iaxis/isunderflowbin/
 
 ## IAxis.IsUnderflowBin 属性
 
-指定是否应用下溢箱。使用 IsAutomaticUnderflowBin 和 UnderflowBin 来调整下溢箱值。
+指定是否应用下溢桶。使用 IsAutomaticUnderflowBin 和 UnderflowBin 来调整下溢桶的值。
 
 ```csharp
 public bool IsUnderflowBin { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IAxis](../../iaxis)
 * 命名空间 [Aspose.Slides.Charts](../../iaxis)

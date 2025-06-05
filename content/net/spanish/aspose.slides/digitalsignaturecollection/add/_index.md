@@ -1,13 +1,13 @@
 ---
-title: Agregar
-second_title: Referencia de la API Aspose.Slides para .NET
+title: Add
+second_title: Aspose.Sildes for .NET API Reference
 description: Agrega la firma al final de la colección.
 type: docs
 weight: 50
 url: /es/aspose.slides/digitalsignaturecollection/add/
 ---
 
-## Método DigitalSignatureCollection.Add
+## DigitalSignatureCollection.Add method
 
 Agrega la firma al final de la colección.
 
@@ -26,13 +26,13 @@ public void Add(IDigitalSignature signature)
 using (Presentation pres = new Presentation())
 {
     DigitalSignature signature = new DigitalSignature("testsignature1.pfx", @"testpass1");
-    signature.Comments = "Prueba de firma digital Aspose.Slides.";
+    signature.Comments = "Prueba de firma digital de Aspose.Slides.";
     pres.DigitalSignatures.Add(signature);
     pres.Save("SomePresentationSigned.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Véase también
+### Ver También
 
 * interface [IDigitalSignature](../../idigitalsignature)
 * class [DigitalSignatureCollection](../../digitalsignaturecollection)

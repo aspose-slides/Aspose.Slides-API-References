@@ -1,6 +1,6 @@
 ---
-title: 嵌入图像
-second_title: Aspose.Slides for .NET API 参考
+title: EmbedImages
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回或设置图像嵌入选项。可读/可写布尔值。
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.export.web/webdocumentoptions/embedimages/
 public bool EmbedImages { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * class [WebDocumentOptions](../../webdocumentoptions)
 * namespace [Aspose.Slides.Export.Web](../../webdocumentoptions)

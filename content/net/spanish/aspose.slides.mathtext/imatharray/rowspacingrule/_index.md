@@ -1,15 +1,15 @@
 ---
-title: ReglaDeEspaciadoDeFilas
-second_title: Referencia de API de Aspose.Slides para .NET
-description: El tipo de espaciado vertical entre los elementos de la matriz
+title: RowSpacingRule
+second_title: Aspose.Slides para .NET Referencia de API
+description: El tipo de espaciado vertical entre elementos de la matriz
 type: docs
 weight: 70
 url: /es/aspose.slides.mathtext/imatharray/rowspacingrule/
 ---
 
-## Propiedad IMathArray.RowSpacingRule
+## IMathArray.RowSpacingRule propiedad
 
-El tipo de espaciado vertical entre los elementos de la matriz
+El tipo de espaciado vertical entre elementos de la matriz
 
 ```csharp
 public MathRowSpacingRule RowSpacingRule { get; set; }

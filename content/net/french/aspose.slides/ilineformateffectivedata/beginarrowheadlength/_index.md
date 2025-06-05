@@ -1,21 +1,21 @@
 ---
 title: BeginArrowheadLength
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie la longueur de la tête de flèche au début d'une ligne. En lecture seule LineArrowheadLengthaspose.slides/linearrowheadlength.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie la longueur de la tête de flèche au début d'une ligne. Propriété en lecture seule LineArrowheadLengthaspose.slides/linearrowheadlength.
 type: docs
 weight: 30
 url: /fr/aspose.slides/ilineformateffectivedata/beginarrowheadlength/
 ---
 
-## Propriété ILineFormatEffectiveData.BeginArrowheadLength
+## ILineFormatEffectiveData.BeginArrowheadLength property
 
-Renvoie la longueur de la tête de flèche au début d'une ligne. En lecture seule [`LineArrowheadLength`](../../linearrowheadlength).
+Renvoie la longueur de la tête de flèche au début d'une ligne. Propriété en lecture seule [`LineArrowheadLength`](../../linearrowheadlength).
 
 ```csharp
 public LineArrowheadLength BeginArrowheadLength { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [LineArrowheadLength](../../linearrowheadlength)
 * interface [ILineFormatEffectiveData](../../ilineformateffectivedata)

@@ -15,7 +15,7 @@ Stellt die Eigenschaft 'extrusion.orientation.y' dar
 public static BehaviorProperty ExtrusionOrientationY { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [BehaviorProperty](../../behaviorproperty)
 * Namespace [Aspose.Slides.Animation](../../behaviorproperty)

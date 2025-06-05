@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides.mathtext/imathmatrix/deleterow/
 ---
+
 ## IMathMatrix.DeleteRow method
 
 Deletes the specified row

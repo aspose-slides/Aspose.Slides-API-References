@@ -1,13 +1,13 @@
 ---
-title: ВстраиваемыеИзображения
-second_title: Справка по API Aspose.Slides для .NET
+title: EmbedImages
+second_title: Aspose.Sildes для справки по API .NET
 description: Возвращает или устанавливает параметр встраивания изображений. Чтение/запись Boolean.
 type: docs
 weight: 40
 url: /ru/aspose.slides.export.web/webdocumentoptions/embedimages/
 ---
 
-## Свойство WebDocumentOptions.EmbedImages
+## WebDocumentOptions.EmbedImages свойство
 
 Возвращает или устанавливает параметр встраивания изображений. Чтение/запись Boolean.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export.web/webdocumentoptions/embedimages/
 public bool EmbedImages { get; set; }
 ```
 
-### Смотрите Также
+### См. также
 
 * класс [WebDocumentOptions](../../webdocumentoptions)
 * пространство имен [Aspose.Slides.Export.Web](../../webdocumentoptions)

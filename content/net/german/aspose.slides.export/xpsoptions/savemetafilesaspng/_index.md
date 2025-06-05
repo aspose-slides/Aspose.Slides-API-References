@@ -1,7 +1,7 @@
 ---
 title: SaveMetafilesAsPng
-second_title: Aspose.Slides für .NET API-Referenz
-description: True, um alle in einer Präsentation verwendeten Metadateien in PNG-Bilder zu konvertieren. Lese-/schreibbare Boolean.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Wahr, um alle in einer Präsentation verwendeten Metadateien in PNG-Bilder zu konvertieren. Lese-/Schreib-Boolean.
 type: docs
 weight: 30
 url: /de/aspose.slides.export/xpsoptions/savemetafilesaspng/
@@ -9,15 +9,15 @@ url: /de/aspose.slides.export/xpsoptions/savemetafilesaspng/
 
 ## XpsOptions.SaveMetafilesAsPng-Eigenschaft
 
-True, um alle in einer Präsentation verwendeten Metadateien in PNG-Bilder zu konvertieren. Lese-/schreibbare Boolean.
+Wahr, um alle in einer Präsentation verwendeten Metadateien in PNG-Bilder zu konvertieren. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool SaveMetafilesAsPng { get; set; }
 ```
 
-### Bemerkungen
+### Hinweise
 
-Standard ist **true**.
+Standard ist **wahr**.
 
 ### Siehe auch
 

@@ -1,7 +1,7 @@
 ---
-title: 超链接点击
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置为鼠标点击定义的超链接。可读/可写 IHyperlinkaspose.slides/ihyperlink。
+title: HyperlinkClick
+second_title: Aspose.Slides for .NET API Reference
+description: 返回或设置为鼠标点击定义的超链接。可读/写 IHyperlinkaspose.slides/ihyperlink。
 type: docs
 weight: 30
 url: /zh/aspose.slides/portionformat/hyperlinkclick/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/portionformat/hyperlinkclick/
 
 ## PortionFormat.HyperlinkClick 属性
 
-返回或设置为鼠标点击定义的超链接。可读/可写 [`IHyperlink`](../../ihyperlink)。
+返回或设置为鼠标点击定义的超链接。可读/写 [`IHyperlink`](../../ihyperlink)。
 
 ```csharp
 public IHyperlink HyperlinkClick { get; set; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IHyperlink](../../ihyperlink)
 * 类 [PortionFormat](../../portionformat)

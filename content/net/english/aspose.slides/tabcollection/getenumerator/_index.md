@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/tabcollection/getenumerator/
 ---
+
 ## TabCollection.GetEnumerator method
 
 Returns an enumerator that iterates through the collection.

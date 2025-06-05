@@ -1,6 +1,6 @@
 ---
-title: 材料预设类型
-second_title: Aspose.Sildes for .NET API 参考
+title: MaterialPresetType
+second_title: Aspose.Sildes for .NET API Reference
 description: 定义形状材料的常量。
 type: docs
 weight: 7810
@@ -36,7 +36,7 @@ public enum MaterialPresetType
 | TranslucentPowder | `13` |  |
 | WarmMatte | `14` |  |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

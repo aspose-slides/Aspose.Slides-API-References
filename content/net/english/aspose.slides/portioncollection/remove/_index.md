@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/portioncollection/remove/
 ---
+
 ## PortionCollection.Remove method
 
 Removes the first occurrence of a specific object from the ICollection.

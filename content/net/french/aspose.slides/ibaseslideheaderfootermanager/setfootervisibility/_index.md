@@ -1,15 +1,15 @@
 ---
 title: SetFooterVisibility
-second_title: Aspose.Slides pour .NET Référence API
-description: Change la visibilité de l'espace réservé du pied de page de la diapositive.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Change la visibilité de l'espace réservé du pied de diapositive.
 type: docs
 weight: 80
 url: /fr/aspose.slides/ibaseslideheaderfootermanager/setfootervisibility/
 ---
 
-## La méthode IBaseSlideHeaderFooterManager.SetFooterVisibility
+## Méthode IBaseSlideHeaderFooterManager.SetFooterVisibility
 
-Change la visibilité de l'espace réservé du pied de page de la diapositive.
+Change la visibilité de l'espace réservé du pied de diapositive.
 
 ```csharp
 public void SetFooterVisibility(bool isVisible)
@@ -17,7 +17,7 @@ public void SetFooterVisibility(bool isVisible)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| isVisible | Boolean | true - rend l'espace réservé du pied de page visible, sinon - le cache. |
+| isVisible | Boolean | true - rend un espace réservé de pied visible, sinon - le cache. |
 
 ### Voir aussi
 

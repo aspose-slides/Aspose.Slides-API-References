@@ -1,6 +1,6 @@
 ---
 title: MotionOriginType
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Spécifie ce à quoi l'origine du chemin de mouvement est relative. Comme la disposition de la diapositive ou le parent.
 type: docs
 weight: 600

@@ -1,15 +1,15 @@
 ---
 title: BrowsedByIndividual
-second_title: Aspose.Slides für .NET API Referenz
-description: Durch individuelles Fenster durchsucht
+second_title: Aspose.Sildes für .NET API Referenz
+description: Individuelles Fenster angezeigt
 type: docs
 weight: 970
 url: /de/aspose.slides/browsedbyindividual/
 ---
 
-## BrowsedByIndividual Klasse
+## BrowsedByIndividual-Klasse
 
-Durch individuelles Fenster durchsucht
+Individuell angezeigt (Fenster)
 
 ```csharp
 public class BrowsedByIndividual : SlideShowType
@@ -25,7 +25,7 @@ public class BrowsedByIndividual : SlideShowType
 
 | Name | Beschreibung |
 | --- | --- |
-| [ShowScrollbar](../../aspose.slides/browsedbyindividual/showscrollbar) { get; set; } | Zeigt die Scrollleiste im Fenster an |
+| [ShowScrollbar](../../aspose.slides/browsedbyindividual/showscrollbar) { get; set; } | Zeigt die Bildlaufleiste im Fenster an |
 
 ### Beispiele
 
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [SlideShowType](../slideshowtype)
 * Namespace [Aspose.Slides](../../aspose.slides)

@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides/ilineformat/miterlimit/
 ---
+
 ## ILineFormat.MiterLimit property
 
 Returns or sets the miter limit of a line. Read/write Single.

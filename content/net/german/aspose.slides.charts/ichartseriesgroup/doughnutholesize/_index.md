@@ -1,7 +1,7 @@
 ---
 title: DoughnutHoleSize
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Größe des Lochs in einem Ringdiagramm an, das zwischen 10 und 90 Prozent der Größe des Plotbereichs liegen kann. Lese-/Schreib-Byte.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt die Größe des Lochs in einem Ringdiagramm an, die zwischen 10 und 90 Prozent der Größe des Diagrammbereichs liegen kann. Lesen/Schreiben Byte.
 type: docs
 weight: 40
 url: /de/aspose.slides.charts/ichartseriesgroup/doughnutholesize/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartseriesgroup/doughnutholesize/
 
 ## IChartSeriesGroup.DoughnutHoleSize-Eigenschaft
 
-Gibt die Größe des Lochs in einem Ringdiagramm an (kann zwischen 10 und 90 Prozent der Größe des Plotbereichs liegen). Lese-/Schreib-Byte.
+Gibt die Größe des Lochs in einem Ringdiagramm an (kann zwischen 10 und 90 Prozent der Größe des Diagrammbereichs liegen). Lesen/Schreiben Byte.
 
 ```csharp
 public byte DoughnutHoleSize { get; set; }

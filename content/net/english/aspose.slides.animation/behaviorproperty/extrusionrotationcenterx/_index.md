@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides.animation/behaviorproperty/extrusionrotationcenterx/
 ---
+
 ## BehaviorProperty.ExtrusionRotationCenterX property
 
 Represents 'extrusion.rotationcenter.x' property

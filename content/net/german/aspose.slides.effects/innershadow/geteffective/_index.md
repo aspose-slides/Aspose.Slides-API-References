@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Aspose.Slides für .NET API Referenz
-description: Ruft die effektiven Inner Shadow-Effektdaten mit den angewendeten Vererbungen ab.
+description: Ruft effektive Daten des Inner Shadow-Effekts mit angewandter Vererbung ab.
 type: docs
 weight: 60
 url: /de/aspose.slides.effects/innershadow/geteffective/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/innershadow/geteffective/
 
 ## InnerShadow.GetEffective-Methode
 
-Ruft die effektiven Inner Shadow-Effektdaten mit den angewendeten Vererbungen ab.
+Ruft effektive Daten des Inner Shadow-Effekts mit angewandter Vererbung ab.
 
 ```csharp
 public IInnerShadowEffectiveData GetEffective()
@@ -21,7 +21,7 @@ Ein [`IInnerShadowEffectiveData`](../../iinnershadoweffectivedata).
 
 ### Siehe auch
 
-* Schnittstelle [IInnerShadowEffectiveData](../../iinnershadoweffectivedata)
+* Interface [IInnerShadowEffectiveData](../../iinnershadoweffectivedata)
 * Klasse [InnerShadow](../../innershadow)
 * Namespace [Aspose.Slides.Effects](../../innershadow)
 * Assembly [Aspose.Slides](../../../)

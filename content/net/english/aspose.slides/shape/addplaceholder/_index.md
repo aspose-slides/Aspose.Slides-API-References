@@ -3,9 +3,10 @@ title: AddPlaceholder
 second_title: Aspose.Sildes for .NET API Reference
 description: Adds a new placeholder if there is no and sets placeholder properties to a specified one.
 type: docs
-weight: 320
+weight: 330
 url: /aspose.slides/shape/addplaceholder/
 ---
+
 ## Shape.AddPlaceholder method
 
 Adds a new placeholder if there is no and sets placeholder properties to a specified one.

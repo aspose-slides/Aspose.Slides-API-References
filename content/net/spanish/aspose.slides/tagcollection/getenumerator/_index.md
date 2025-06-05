@@ -1,6 +1,6 @@
 ---
 title: GetEnumerator
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve un enumerador que itera a través de la colección.
 type: docs
 weight: 90
@@ -15,14 +15,14 @@ Devuelve un enumerador que itera a través de la colección.
 public IEnumerator<KeyValuePair<string, string>> GetEnumerator()
 ```
 
-### Valor de Retorno
+### Valor de retorno
 
-Un IEnumerator que se puede usar para iterar a través de la colección.
+Un IEnumerator que se puede utilizar para iterar a través de la colección.
 
-### Véase También
+### Véase también
 
 * clase [TagCollection](../../tagcollection)
 * espacio de nombres [Aspose.Slides](../../tagcollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

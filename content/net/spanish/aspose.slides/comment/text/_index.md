@@ -1,7 +1,7 @@
 ---
-title: Texto
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve o establece el texto en bruto de un comentario de diapositiva. Lectura/escritura String.
+title: Text
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve o establece el texto sin formato de un comentario de diapositiva. Lectura/escritura String.
 type: docs
 weight: 60
 url: /es/aspose.slides/comment/text/
@@ -9,16 +9,16 @@ url: /es/aspose.slides/comment/text/
 
 ## Propiedad Comment.Text
 
-Devuelve o establece el texto en bruto de un comentario de diapositiva. Lectura/escritura String.
+Devuelve o establece el texto sin formato de un comentario de diapositiva. Lectura/escritura String.
 
 ```csharp
 public string Text { get; set; }
 ```
 
-### Véase también
+### Ver También
 
-* clase [Comment](../../comment)
-* espacio de nombres [Aspose.Slides](../../comment)
-* ensamblado [Aspose.Slides](../../../)
+* class [Comment](../../comment)
+* namespace [Aspose.Slides](../../comment)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

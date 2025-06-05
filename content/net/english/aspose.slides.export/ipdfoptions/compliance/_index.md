@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.export/ipdfoptions/compliance/
 ---
+
 ## IPdfOptions.Compliance property
 
 Desired conformance level for generated PDF document. Read/write [`PdfCompliance`](../../pdfcompliance).

@@ -1,7 +1,7 @@
 ---
-title: 名称
-second_title: Aspose.Slides for .NET API 参考
-description: 返回字体方案名称。可读写字符串。
+title: Name
+second_title: Aspose.Slides for .NET API Reference
+description: 返回字体方案名称。可读/写字符串。
 type: docs
 weight: 30
 url: /zh/aspose.slides.theme/ifontscheme/name/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.theme/ifontscheme/name/
 
 ## IFontScheme.Name 属性
 
-返回字体方案名称。可读写字符串。
+返回字体方案名称。可读/写字符串。
 
 ```csharp
 public string Name { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IFontScheme](../../ifontscheme)
 * 命名空间 [Aspose.Slides.Theme](../../ifontscheme)

@@ -1,7 +1,7 @@
 ---
 title: SvgResponsiveLayout
-second_title: Aspose.Slides für .NET API-Referenz
-description: Wahr, um Breite- und Höheattribute vom SVG-Container auszuschließen - das macht das Layout responsiv. Falsch - andernfalls. Lese-/Schreib-Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Wahr, um Breiten- und Höhenattribute aus dem SVG-Container auszuschließen - das macht das Layout responsiv. Falsch - andernfalls. Lesen/Schreiben Boolean.
 type: docs
 weight: 110
 url: /de/aspose.slides.export/ihtmloptions/svgresponsivelayout/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/ihtmloptions/svgresponsivelayout/
 
 ## IHtmlOptions.SvgResponsiveLayout-Eigenschaft
 
-Wahr, um Breite- und Höheattribute vom SVG-Container auszuschließen - das macht das Layout responsiv. Falsch - andernfalls. Lese-/Schreib-Boolean.
+Wahr, um Breiten- und Höhenattribute aus dem SVG-Container auszuschließen - das macht das Layout responsiv. Falsch - andernfalls. Lesen/Schreiben Boolean.
 
 ```csharp
 public bool SvgResponsiveLayout { get; set; }

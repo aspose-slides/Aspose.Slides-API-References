@@ -1,7 +1,7 @@
 ---
 title: GroupingLevels
-second_title: Référence API Aspose.Slides pour .NET
-description: Conteneur géré des valeurs des niveaux de regroupement de catégorie de graphique. Les catégories multi-niveaux contiennent plus d'un niveau de regroupement. L'indexation des niveaux de regroupement commence à zéro. Lecture seule IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Conteneur géré des valeurs des niveaux de regroupement des catégories de graphique. Une catégorie multi-niveaux contient plus d'un niveau de regroupement. L'indexation des niveaux de regroupement est basée sur zéro. Lecture seule IChartCategoryLevelsManageraspose.slides/ichartcategorylevelsmanager.
 type: docs
 weight: 30
 url: /fr/aspose.slides.charts/ichartcategory/groupinglevels/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/ichartcategory/groupinglevels/
 
 ## Propriété IChartCategory.GroupingLevels
 
-Conteneur géré des valeurs des niveaux de regroupement de catégorie de graphique. Les catégories multi-niveaux contiennent plus d'un niveau de regroupement. L'indexation des niveaux de regroupement commence à zéro. Lecture seule [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
+Conteneur géré des valeurs des niveaux de regroupement des catégories de graphique. Une catégorie multi-niveaux contient plus d'un niveau de regroupement. L'indexation des niveaux de regroupement est basée sur zéro. Lecture seule [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
 
 ```csharp
 public IChartCategoryLevelsManager GroupingLevels { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IChartCategoryLevelsManager](../../ichartcategorylevelsmanager)
 * interface [IChartCategory](../../ichartcategory)

@@ -1,13 +1,13 @@
 ---
 title: GetHashCode
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Slides para referencia de API .NET
 description: Devuelve el código hash.
 type: docs
 weight: 30
 url: /es/aspose.slides/pviobject/gethashcode/
 ---
 
-## Método PVIObject.GetHashCode
+## PVIObject.GetHashCode método
 
 Devuelve el código hash.
 
@@ -15,11 +15,11 @@ Devuelve el código hash.
 public override int GetHashCode()
 ```
 
-### Valor de Retorno
+### Valor de retorno
 
 Código hash.
 
-### Véase También
+### Véase también
 
 * clase [PVIObject](../../pviobject)
 * espacio de nombres [Aspose.Slides](../../pviobject)

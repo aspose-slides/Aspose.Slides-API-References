@@ -1,6 +1,6 @@
 ---
 title: AspectRatioLocked
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Determina si la forma debe mantener la relación de aspecto al redimensionar. Booleano de lectura/escritura.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Determina si la forma debe mantener la relación de aspecto al redimensionar. Bo
 public bool AspectRatioLocked { get; set; }
 ```
 
-### Véase También
+### Ver También
 
 * clase [GraphicalObjectLock](../../graphicalobjectlock)
 * espacio de nombres [Aspose.Slides](../../graphicalobjectlock)

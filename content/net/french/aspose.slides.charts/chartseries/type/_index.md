@@ -1,6 +1,6 @@
 ---
 title: Type
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Retourne un type de cette série. Lecture/écriture ChartTypeaspose.slides.charts/charttype.
 type: docs
 weight: 440
@@ -15,7 +15,7 @@ Retourne un type de cette série. Lecture/écriture [`ChartType`](../../charttyp
 public ChartType Type { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [ChartType](../../charttype)
 * class [ChartSeries](../../chartseries)

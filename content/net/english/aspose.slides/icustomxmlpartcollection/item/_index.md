@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/icustomxmlpartcollection/item/
 ---
+
 ## ICustomXmlPartCollection indexer
 
 Returns the element at the specified index.

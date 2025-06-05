@@ -1,21 +1,21 @@
 ---
 title: AddClipboardFragmentHeader
-second_title: Aspose.Slides for .NET API Reference
-description: 返回或设置值，指示是否应添加剪贴板头。可读/可写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置一个值，指示是否应该添加剪贴板头。可读/可写布尔值。
 type: docs
 weight: 10
 url: /zh/aspose.slides.export/itexttohtmlconversionoptions/addclipboardfragmentheader/
 ---
 
-## ITextToHtmlConversionOptions.AddClipboardFragmentHeader 属性
+## ITextToHtmlConversionOptions.AddClipboardFragmentHeader属性
 
-返回或设置值，指示是否应添加剪贴板头。可读/可写布尔值。
+返回或设置一个值，指示是否应该添加剪贴板头。可读/可写布尔值。
 
 ```csharp
 public bool AddClipboardFragmentHeader { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [ITextToHtmlConversionOptions](../../itexttohtmlconversionoptions)
 * 命名空间 [Aspose.Slides.Export](../../itexttohtmlconversionoptions)

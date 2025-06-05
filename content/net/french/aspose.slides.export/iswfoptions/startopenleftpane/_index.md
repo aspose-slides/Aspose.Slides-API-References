@@ -1,7 +1,7 @@
 ---
 title: StartOpenLeftPane
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Commencer avec le panneau gauche ouvert. Peut être remplacé dans les flashvars. Par défaut, c'est faux.
+description: Commencez avec le panneau de gauche ouvert. Peut être remplacé dans les flashvars. La valeur par défaut est false.
 type: docs
 weight: 160
 url: /fr/aspose.slides.export/iswfoptions/startopenleftpane/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/iswfoptions/startopenleftpane/
 
 ## Propriété ISwfOptions.StartOpenLeftPane
 
-Commencer avec le panneau gauche ouvert. Peut être remplacé dans les flashvars. Par défaut, c'est faux.
+Commencez avec le panneau de gauche ouvert. Peut être remplacé dans les flashvars. La valeur par défaut est false.
 
 ```csharp
 public bool StartOpenLeftPane { get; set; }

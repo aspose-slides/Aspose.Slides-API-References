@@ -1,15 +1,15 @@
 ---
 title: SoundLoop
-second_title: Aspose.Slides для .NET API Справочник
-description: Этот атрибут указывает, будет ли звук зацикливаться до следующего события звука в слайд-шоу. Читаемое/записываемое логическое значение.
+second_title: Aspose.Sildes для справки по API .NET
+description: Этот атрибут указывает, будет ли звук зациклен до следующего события звука в слайдшоу. Читаемый/записываемый логический.
 type: docs
 weight: 60
 url: /ru/aspose.slides.slideshow/slideshowtransition/soundloop/
 ---
 
-## Свойство SlideShowTransition.SoundLoop
+## SlideShowTransition.SoundLoop свойство
 
-Этот атрибут указывает, будет ли звук зацикливаться до следующего события звука в слайд-шоу. Читаемое/записываемое логическое значение.
+Этот атрибут указывает, будет ли звук зациклен до следующего события звука в слайдшоу. Читаемый/записываемый логический.
 
 ```csharp
 public bool SoundLoop { get; set; }

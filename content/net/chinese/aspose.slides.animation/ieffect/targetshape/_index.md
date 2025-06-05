@@ -1,6 +1,6 @@
 ---
-title: 目标形状
-second_title: Aspose.Slides for .NET API 参考
+title: TargetShape
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回效果的目标形状。只读 IShapeaspose.slides/ishape。
 type: docs
 weight: 110
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/ieffect/targetshape/
 public IShape TargetShape { get; }
 ```
 
-### 另见
+### 相关内容
 
 * 接口 [IShape](../../../aspose.slides/ishape)
 * 接口 [IEffect](../../ieffect)

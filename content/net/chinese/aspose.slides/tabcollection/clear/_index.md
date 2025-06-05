@@ -1,7 +1,7 @@
 ---
-title: 清除
-second_title: Aspose.Slides for .NET API参考
-description: 从集合中移除所有元素。
+title: Clear
+second_title: Aspose.Sildes for .NET API Reference
+description: 移除集合中的所有元素。
 type: docs
 weight: 60
 url: /zh/aspose.slides/tabcollection/clear/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/tabcollection/clear/
 
 ## TabCollection.Clear 方法
 
-从集合中移除所有元素。
+移除集合中的所有元素。
 
 ```csharp
 public void Clear()
 ```
 
-### 另请参阅
+### 另见
 
 * 类 [TabCollection](../../tabcollection)
 * 命名空间 [Aspose.Slides](../../tabcollection)

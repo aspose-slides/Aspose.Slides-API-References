@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides/ishapecollection/addsummaryzoomframe/
 ---
+
 ## IShapeCollection.AddSummaryZoomFrame method
 
 Adds a new Summary Zoom object to the end of a collection.

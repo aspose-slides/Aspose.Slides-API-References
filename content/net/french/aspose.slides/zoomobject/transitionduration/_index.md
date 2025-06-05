@@ -1,15 +1,15 @@
 ---
 title: TransitionDuration
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient ou définit la durée de la transition entre Zoom et diapositive. Lecture/écriture Simple. Valeur par défaut 1.0f
+description: Obtient ou définit la durée de la transition entre Zoom et diapositive. Lecture/écriture Single. Valeur par défaut 1.0f
 type: docs
 weight: 40
 url: /fr/aspose.slides/zoomobject/transitionduration/
 ---
 
-## Propriété ZoomObject.TransitionDuration
+## ZoomObject.TransitionDuration propriété
 
-Obtient ou définit la durée de la transition entre Zoom et diapositive. Lecture/écriture Simple. Valeur par défaut : 1.0f
+Obtient ou définit la durée de la transition entre Zoom et diapositive. Lecture/écriture Single. Valeur par défaut : 1.0f
 
 ```csharp
 public float TransitionDuration { get; set; }
@@ -17,7 +17,7 @@ public float TransitionDuration { get; set; }
 
 ### Remarques
 
-Si non spécifié (TransitionDur = 0), il utilisera la transition de la diapositive de destination et les chronomètres associés à cette transition.
+Si non spécifié (TransitionDur = 0), il utilisera la transition de la diapositive de destination et les timings associés à cette transition.
 
 ### Exemples
 

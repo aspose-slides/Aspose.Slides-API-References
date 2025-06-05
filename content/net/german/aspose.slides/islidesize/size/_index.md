@@ -1,21 +1,21 @@
 ---
-title: Größe
+title: Size
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Größe in Punkten zurück oder setzt sie. Das Zuweisen eines Wertes setzt die Type../type Eigenschaft auf Custom zurück und setzt die Orientation../orientation. Lese-/Schreibzugriff auf SizeF.
+description: Gibt die Größe in Punkten zurück oder setzt sie. Das Zuweisen eines Wertes setzt die Eigenschaft Type../type auf Custom und setzt Orientation../orientation. Lese-/schreibbare SizeF.
 type: docs
 weight: 20
 url: /de/aspose.slides/islidesize/size/
 ---
 
-## ISlideSize.Size Eigenschaft
+## ISlideSize.Size-Eigenschaft
 
-Gibt die Größe in Punkten zurück oder setzt sie. Das Zuweisen eines Wertes setzt die [`Type`](../type) Eigenschaft auf Custom zurück und setzt die [`Orientation`](../orientation). Lese-/Schreibzugriff auf SizeF.
+Gibt die Größe in Punkten zurück oder setzt sie. Das Zuweisen eines Wertes setzt die Eigenschaft [`Type`](../type) auf Custom und setzt [`Orientation`](../orientation). Lese-/schreibbare SizeF.
 
 ```csharp
 public SizeF Size { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ISlideSize](../../islidesize)
 * Namespace [Aspose.Slides](../../islidesize)

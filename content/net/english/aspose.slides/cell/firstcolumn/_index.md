@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/cell/firstcolumn/
 ---
+
 ## Cell.FirstColumn property
 
 Gets first column of cell. Read-only [`IColumn`](../../icolumn).

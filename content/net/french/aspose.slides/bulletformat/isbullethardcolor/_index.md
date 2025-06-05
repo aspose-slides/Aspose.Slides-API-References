@@ -1,21 +1,21 @@
 ---
 title: IsBulletHardColor
-second_title: Aspose.Slides pour .NET Référence API
-description: Détermine si la puce a sa propre couleur ou l'hérite de la première portion dans le paragraphe. NullableBool.True si la puce a sa propre couleur et NullableBool.False si la puce hérite de la couleur de la première portion dans le paragraphe. Lecture/écriture NullableBoolaspose.slides/nullablebool.
+second_title: Référence API Aspose.Slides pour .NET
+description: Détermine si le point a sa propre couleur ou s'il l'hérite de la première portion du paragraphe. NullableBool.True si le point a sa propre couleur et NullableBool.False si le point hérite de la couleur de la première portion du paragraphe. Lecture/écriture NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 50
 url: /fr/aspose.slides/bulletformat/isbullethardcolor/
 ---
 
-## Propriété BulletFormat.IsBulletHardColor
+## BulletFormat.IsBulletHardColor propriété
 
-Détermine si la puce a sa propre couleur ou l'hérite de la première portion dans le paragraphe. **NullableBool.True** si la puce a sa propre couleur et **NullableBool.False** si la puce hérite de la couleur de la première portion dans le paragraphe. Lecture/écriture [`NullableBool`](../../nullablebool).
+Détermine si le point a sa propre couleur ou s'il l'hérite de la première portion du paragraphe. **NullableBool.True** si le point a sa propre couleur et **NullableBool.False** si le point hérite de la couleur de la première portion du paragraphe. Lecture/écriture [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool IsBulletHardColor { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [NullableBool](../../nullablebool)
 * class [BulletFormat](../../bulletformat)

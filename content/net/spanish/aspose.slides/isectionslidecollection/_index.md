@@ -21,7 +21,7 @@ public interface ISectionSlideCollection : IGenericCollection<ISlide>
 | --- | --- |
 | [Item](../../aspose.slides/isectionslidecollection/item) { get; } | Obtiene el elemento en el índice especificado. Solo lectura [`ISlide`](../islide). |
 
-### Vea También
+### Ver también
 
 * interfaz [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * interfaz [ISlide](../islide)

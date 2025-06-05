@@ -1,15 +1,15 @@
 ---
 title: HyperlinkClick
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den für den Mausklick definierten Hyperlink zurück oder setzt ihn. Lese-/Schreibzugriff auf IHyperlinkaspose.slides/ihyperlink.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt den für den Mausklick definierten Hyperlink zurück oder setzt ihn. Lese-/Schreibzugriff IHyperlinkaspose.slides/ihyperlink.
 type: docs
 weight: 30
 url: /de/aspose.slides/portionformat/hyperlinkclick/
 ---
 
-## PortionFormat.HyperlinkClick Eigenschaft
+## PortionFormat.HyperlinkClick-Eigenschaft
 
-Gibt den für den Mausklick definierten Hyperlink zurück oder setzt ihn. Lese-/Schreibzugriff auf [`IHyperlink`](../../ihyperlink).
+Gibt den für den Mausklick definierten Hyperlink zurück oder setzt ihn. Lese-/Schreibzugriff [`IHyperlink`](../../ihyperlink).
 
 ```csharp
 public IHyperlink HyperlinkClick { get; set; }

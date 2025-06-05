@@ -1,6 +1,6 @@
 ---
 title: Point
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Représente un point d'animation.
 type: docs
 weight: 640
@@ -26,11 +26,11 @@ public class Point : IPoint
 
 | Nom | Description |
 | --- | --- |
-| [Formula](../../aspose.slides.animation/point/formula) { get; set; } | Les formules dans les attributs de valeurs, de départ, d'arrivée et de par peuvent être constituées des éléments suivants : Opérateurs arithmétiques standard : ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Constantes : ‘pi’ ‘e’ Opérateurs conditionnels : ‘abs’, ‘min’, ‘max’, ‘?’ (si) Opérateurs de comparaison : '==', '&gt;=', '', '!=', '!' Opérateurs trigonométriques : ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Logarithme naturel ‘ln()’ Références de propriétés (propriétés prises en charge par l'hôte) par exemple : "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Chaine en lecture/écriture. |
-| [Time](../../aspose.slides.animation/point/time) { get; set; } | Représente la valeur temporelle. Single en lecture/écriture. |
-| [Value](../../aspose.slides.animation/point/value) { get; set; } | Représente la valeur du point. Seulement : bool, ColorFormat, float, int, string. Objet en lecture/écriture. |
+| [Formula](../../aspose.slides.animation/point/formula) { get; set; } | Les formules dans les valeurs, à partir des attributs, vers, par peuvent être constituées des éléments suivants : Opérateurs arithmétiques standard : ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Constantes : ‘pi’ ‘e’ Opérateurs conditionnels : ‘abs’, ‘min’, ‘max’, ‘?’ (si) Opérateurs de comparaison : '==', '&gt;=', '', '!=', '!' Opérateurs trigonométriques : ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ logarithme naturel ‘ln()’ Références aux propriétés (propriétés supportées par l'hôte) par exemple : "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Chaîne en lecture/écriture. |
+| [Time](../../aspose.slides.animation/point/time) { get; set; } | Représente la valeur temps. Lecture/écriture Simple. |
+| [Value](../../aspose.slides.animation/point/value) { get; set; } | Représente la valeur du point. Seulement : bool, ColorFormat, float, int, string. Lecture/écriture Objet. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IPoint](../ipoint)
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)

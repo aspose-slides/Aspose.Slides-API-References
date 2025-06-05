@@ -1,13 +1,13 @@
 ---
-title: Подтип
-second_title: Справочник по API Aspose.Slides для .NET
+title: Subtype
+second_title: Aspose.Slides для .NET API Reference
 description: Представляет подтип эффекта фильтра. Чтение/запись FilterEffectSubtypeaspose.slides.animation/filtereffectsubtype.
 type: docs
 weight: 30
 url: /ru/aspose.slides.animation/ifiltereffect/subtype/
 ---
 
-## Свойство IFilterEffect.Subtype
+## IFilterEffect.Subtype свойство
 
 Представляет подтип эффекта фильтра. Чтение/запись [`FilterEffectSubtype`](../../filtereffectsubtype).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/ifiltereffect/subtype/
 public FilterEffectSubtype Subtype { get; set; }
 ```
 
-### См. Также
+### Смотрите также
 
 * enum [FilterEffectSubtype](../../filtereffectsubtype)
 * interface [IFilterEffect](../../ifiltereffect)

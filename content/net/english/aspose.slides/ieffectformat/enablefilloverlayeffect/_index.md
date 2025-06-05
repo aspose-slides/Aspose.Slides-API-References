@@ -6,6 +6,7 @@ type: docs
 weight: 190
 url: /aspose.slides/ieffectformat/enablefilloverlayeffect/
 ---
+
 ## IEffectFormat.EnableFillOverlayEffect method
 
 Enables fill overlay effect.

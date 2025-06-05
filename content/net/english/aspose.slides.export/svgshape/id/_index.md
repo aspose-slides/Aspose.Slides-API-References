@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export/svgshape/id/
 ---
+
 ## SvgShape.Id property
 
 Gets shape id

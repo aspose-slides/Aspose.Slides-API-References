@@ -1,6 +1,6 @@
 ---
-title: 填充模式
-second_title: Aspose.Slides for .NET API 参考
+title: FillMode
+second_title: Aspose.Sildes for .NET API Reference
 description: 设置填充模式
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/igeometrypath/fillmode/
 public PathFillModeType FillMode { get; set; }
 ```
 
-### 参见
+### 另请参阅
 
 * enum [PathFillModeType](../../pathfillmodetype)
 * interface [IGeometryPath](../../igeometrypath)

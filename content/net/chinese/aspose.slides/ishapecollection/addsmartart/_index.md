@@ -1,6 +1,6 @@
 ---
 title: AddSmartArt
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 添加 SmartArt 图表。
 type: docs
 weight: 150
@@ -46,7 +46,7 @@ Private slide As Slide = pres.Slides(0)
 Private smart As SmartArt = slide.Shapes.AddSmartArt(0, 0, 400, 400, SmartArtLayoutType.BasicBlockList)
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [ISmartArt](../../../aspose.slides.smartart/ismartart)
 * 枚举 [SmartArtLayoutType](../../../aspose.slides.smartart/smartartlayouttype)

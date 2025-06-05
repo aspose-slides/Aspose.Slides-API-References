@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/comment/parentcomment/
 ---
+
 ## Comment.ParentComment property
 
 Gets or sets parent comment. Read/write [`IComment`](../../icomment).

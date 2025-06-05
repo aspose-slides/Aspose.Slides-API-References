@@ -1,7 +1,7 @@
 ---
 title: IBackdrop3DScene
-second_title: Référence API Aspose.Slides pour .NET
-description: Définit un plan auquel des effets tels que l'éclat et l'ombre sont appliqués par rapport à la forme à laquelle ils sont appliqués.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Définit un plan dans lequel des effets tels que le halo et l'ombre sont appliqués par rapport à la forme à laquelle ils sont appliqués.
 type: docs
 weight: 5060
 url: /fr/aspose.slides/ibackdrop3dscene/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ibackdrop3dscene/
 
 ## Interface IBackdrop3DScene
 
-Définit un plan auquel des effets, tels que l'éclat et l'ombre, sont appliqués par rapport à la forme à laquelle ils sont appliqués.
+ Définit un plan dans lequel des effets, tels que le halo et l'ombre, sont appliqués par rapport à la forme à laquelle ils sont appliqués.
 
 ```csharp
 public interface IBackdrop3DScene
@@ -23,7 +23,7 @@ public interface IBackdrop3DScene
 | [NormalVector](../../aspose.slides/ibackdrop3dscene/normalvector) { get; set; } | Renvoie ou définit un vecteur normal. Pour être plus précis, cet attribut définit un vecteur normal à la face du plan de fond. Vecteur représenté par un tableau de 3 valeurs flottantes qui définissent les coordonnées X, Y et Z. Lecture/écriture Single[]. |
 | [UpVector](../../aspose.slides/ibackdrop3dscene/upvector) { get; set; } | Renvoie ou définit un vecteur représentant le haut. Pour être plus précis, cet attribut définit un vecteur représentant le haut par rapport à la face du plan de fond. Vecteur représenté par un tableau de 3 valeurs flottantes qui définissent les coordonnées X, Y et Z. Lecture/écriture Single[]. |
 
-### Voir aussi
+### Voir Aussi
 
 * espace de noms [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

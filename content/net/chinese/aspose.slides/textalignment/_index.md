@@ -1,6 +1,6 @@
 ---
-title: 文本对齐
-second_title: Aspose.Slides for .NET API 参考
+title: TextAlignment
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示不同的文本对齐样式。
 type: docs
 weight: 10590
@@ -24,10 +24,10 @@ public enum TextAlignment
 | Center | `1` | 居中对齐。 |
 | Right | `2` | 右对齐。 |
 | Justify | `3` | 两端对齐。 |
-| JustifyLow | `4` | Kashida 低端对齐。 |
+| JustifyLow | `4` | Kashida 低对齐。 |
 | Distributed | `5` | 分散对齐。 |
 
-### 另见
+### 参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

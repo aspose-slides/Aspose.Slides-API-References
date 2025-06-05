@@ -1,7 +1,7 @@
 ---
 title: AudioCdEndTrackTime
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает время последней дорожки. Чтение/запись Int32.
+second_title: Aspose.Slides для .NET API Reference
+description: Возвращает или устанавливает время последнего трека. Чтение/запись Int32.
 type: docs
 weight: 20
 url: /ru/aspose.slides/audioframe/audiocdendtracktime/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/audioframe/audiocdendtracktime/
 
 ## AudioFrame.AudioCdEndTrackTime свойство
 
-Возвращает или задает время последней дорожки. Чтение/запись Int32.
+Возвращает или устанавливает время последнего трека. Чтение/запись Int32.
 
 ```csharp
 public int AudioCdEndTrackTime { get; set; }

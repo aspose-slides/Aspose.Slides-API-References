@@ -1,7 +1,7 @@
 ---
 title: EndArrowheadStyle
-second_title: Aspose.Slides for .NET API 参考
-description: 返回一条线末端的箭头样式。只读 LineArrowheadStyleaspose.slides/linearrowheadstyle。
+second_title: Aspose.Slildes for .NET API Reference
+description: 返回一条线条末尾的箭头样式。只读 LineArrowheadStyleaspose.slides/linearrowheadstyle。
 type: docs
 weight: 100
 url: /zh/aspose.slides/ilineformateffectivedata/endarrowheadstyle/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ilineformateffectivedata/endarrowheadstyle/
 
 ## ILineFormatEffectiveData.EndArrowheadStyle 属性
 
-返回一条线末端的箭头样式。只读 [`LineArrowheadStyle`](../../linearrowheadstyle)。
+返回一条线条末尾的箭头样式。只读 [`LineArrowheadStyle`](../../linearrowheadstyle)。
 
 ```csharp
 public LineArrowheadStyle EndArrowheadStyle { get; }

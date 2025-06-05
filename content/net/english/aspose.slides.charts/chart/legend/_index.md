@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides.charts/chart/legend/
 ---
+
 ## Chart.Legend property
 
 Returns or sets a legend for a chart. Read-only [`ILegend`](../../ilegend).

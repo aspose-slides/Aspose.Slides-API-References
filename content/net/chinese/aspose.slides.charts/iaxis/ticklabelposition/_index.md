@@ -1,7 +1,7 @@
 ---
 title: TickLabelPosition
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示指定轴上刻度标记标签的位置。可读写 TickLabelPositionTypeaspose.slides.charts/ticklabelpositiontype。
+description: 表示指定轴上刻度标记标签的位置。读/写 TickLabelPositionTypeaspose.slides.charts/ticklabelpositiontype。
 type: docs
 weight: 500
 url: /zh/aspose.slides.charts/iaxis/ticklabelposition/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/iaxis/ticklabelposition/
 
 ## IAxis.TickLabelPosition 属性
 
-表示指定轴上刻度标记标签的位置。可读写 [`TickLabelPositionType`](../../ticklabelpositiontype)。
+表示指定轴上刻度标记标签的位置。读/写 [`TickLabelPositionType`](../../ticklabelpositiontype)。
 
 ```csharp
 public TickLabelPositionType TickLabelPosition { get; set; }

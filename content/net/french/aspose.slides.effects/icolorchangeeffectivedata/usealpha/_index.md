@@ -1,7 +1,7 @@
 ---
 title: UseAlpha
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie une valeur booléenne qui détermine si le composant alpha doit être utilisé. Boolean en lecture seule.
+description: Renvoie une valeur booléenne qui détermine si le composant alpha doit être utilisé. Valeur booléenne en lecture seule.
 type: docs
 weight: 40
 url: /fr/aspose.slides.effects/icolorchangeeffectivedata/usealpha/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/icolorchangeeffectivedata/usealpha/
 
 ## Propriété IColorChangeEffectiveData.UseAlpha
 
-Renvoie une valeur booléenne qui détermine si le composant alpha doit être utilisé. Boolean en lecture seule.
+Renvoie une valeur booléenne qui détermine si le composant alpha doit être utilisé. Valeur booléenne en lecture seule.
 
 ```csharp
 public bool UseAlpha { get; }

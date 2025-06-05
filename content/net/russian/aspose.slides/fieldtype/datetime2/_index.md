@@ -1,7 +1,7 @@
 ---
 title: DateTime2
-second_title: Aspose.Slides для .NET API Справочник
-description: Текущая дата и время во втором предопределенном формате День Месяц DD ГГГГ для английского. Только для чтения FieldTypeaspose.slides/fieldtype.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Текущая дата и время во втором предопределенном формате День Месяц ДД ГГГГ для английского. Только для чтения FieldType aspose.slides/fieldtype.
 type: docs
 weight: 80
 url: /ru/aspose.slides/fieldtype/datetime2/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/fieldtype/datetime2/
 
 ## Свойство FieldType.DateTime2
 
-Текущая дата и время во втором предопределенном формате (День, Месяц DD, ГГГГ для английского). Только для чтения [`FieldType`](../../fieldtype).
+Текущая дата и время во втором предопределенном формате (День, Месяц ДД, ГГГГ для английского). Только для чтения [`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType DateTime2 { get; }
 ```
 
-### См. Также
+### Смотрите также
 
 * класс [FieldType](../../fieldtype)
 * пространство имен [Aspose.Slides](../../fieldtype)

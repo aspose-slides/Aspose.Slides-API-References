@@ -1,15 +1,15 @@
 ---
-title: Обрамление
-second_title: Справочник по API Aspose.Slides для .NET
-description: Оборачивает математический элемент в заданные символы, такие как скобки или другие символы для обрамления
+title: Enclose
+second_title: Aspose.Sildes for .NET API Reference
+description: Обрамляет математический элемент в указанные символы, такие как скобки или другие символы в качестве обрамления
 type: docs
 weight: 90
 url: /ru/aspose.slides.mathtext/mathdelimiter/enclose/
 ---
 
-## MathDelimiter.Enclose метод
+## MathDelimiter.Enclose method
 
-Оборачивает математический элемент в заданные символы, такие как скобки или другие символы для обрамления
+Обрамляет математический элемент в указанные символы, такие как скобки или другие символы в качестве обрамления
 
 ```csharp
 public override IMathDelimiter Enclose(char beginningCharacter, char endingCharacter)
@@ -22,7 +22,7 @@ public override IMathDelimiter Enclose(char beginningCharacter, char endingChara
 
 ### Возвращаемое значение
 
-Если *beginningCharacter* и *endingCharacter* равны null, соответствующим свойствам присваиваются значения только, и новый объект не создается (возвращается этот экземпляр). В противном случае возвращается новый математический элемент типа Delimiter, который включает указанные символы для обрамления и этот экземпляр [`MathDelimiter`](../../mathdelimiter), обрамленный внутри.
+Если *beginningCharacter* и *endingCharacter* равны null, соответствующим свойствам присваиваются значения только и новый объект не создается (возвращает этот экземпляр). В противном случае возвращает новый математический элемент типа Delimiter, который включает указанные символы в качестве обрамления и этот экземпляр [`MathDelimiter`](../../mathdelimiter) обрамленный внутри.
 
 ### Примеры
 

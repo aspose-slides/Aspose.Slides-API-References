@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ibaseportionformateffectivedata/complexscriptfont/
 ---
+
 ## IBasePortionFormatEffectiveData.ComplexScriptFont property
 
 Returns the complex script font info. Read-only [`IFontData`](../../ifontdata).

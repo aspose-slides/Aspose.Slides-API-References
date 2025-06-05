@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/datalabel/actualwidth/
 ---
+
 ## DataLabel.ActualWidth property
 
 Specifies actual width of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read Single.

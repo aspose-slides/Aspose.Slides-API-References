@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/duotone/color2/
 ---
+
 ## Duotone.Color2 property
 
 Returns target color format for light pixels. Read-only [`IColorFormat`](../../../aspose.slides/icolorformat).

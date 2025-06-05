@@ -6,6 +6,7 @@ type: docs
 weight: 520
 url: /aspose.slides.animation/behaviorproperty/ppth/
 ---
+
 ## BehaviorProperty.PptH property
 
 Represents 'ppt_h' property

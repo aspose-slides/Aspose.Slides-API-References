@@ -1,15 +1,15 @@
 ---
-title: Звук
+title: Sound
 second_title: Aspose.Sildes для .NET API Справочник
-description: Определяет встроенный звук для эффекта. Чтение/запись IAudioaspose.slides/iaudio.
+description: Определенный встроенный звук для эффекта. Чтение/запись IAudioaspose.slides/iaudio.
 type: docs
 weight: 80
 url: /ru/aspose.slides.animation/effect/sound/
 ---
 
-## Свойство Effect.Sound
+## Effect.Sound свойство
 
-Определяет встроенный звук для эффекта. Чтение/запись [`IAudio`](../../../aspose.slides/iaudio).
+Определенный встроенный звук для эффекта. Чтение/запись [`IAudio`](../../../aspose.slides/iaudio).
 
 ```csharp
 public IAudio Sound { get; set; }

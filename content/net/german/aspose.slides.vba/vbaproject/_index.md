@@ -1,15 +1,15 @@
 ---
 title: VbaProject
-second_title: Aspose.Slides für .NET API Referenz
-description: Repräsentiert ein VBA-Projekt mit Präsentationsmakros.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt das VBA-Projekt mit Präsentationsmakros dar.
 type: docs
 weight: 11340
 url: /de/aspose.slides.vba/vbaproject/
 ---
 
-## VbaProject-Klasse
+## VbaProject class
 
-Repräsentiert ein VBA-Projekt mit Präsentationsmakros.
+Stellt das VBA-Projekt mit Präsentationsmakros dar.
 
 ```csharp
 public sealed class VbaProject : IVbaProject
@@ -20,13 +20,13 @@ public sealed class VbaProject : IVbaProject
 | Name | Beschreibung |
 | --- | --- |
 | [VbaProject](vbaproject#constructor)() | Dieser Konstruktor erstellt ein neues VBA-Projekt von Grund auf. Das Projekt wird im 1252 Windows Latin 1 (ANSI) Codepage erstellt. |
-| [VbaProject](vbaproject#constructor_1)(byte[]) | Dieser Konstruktor lädt ein VBA-Projekt aus der binären Darstellung des OLE-Containers. |
+| [VbaProject](vbaproject#constructor_1)(byte[]) | Dieser Konstruktor lädt das VBA-Projekt aus der binären Darstellung des OLE-Containers. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [IsPasswordProtected](../../aspose.slides.vba/vbaproject/ispasswordprotected) { get; } | Gibt an, ob das VBAProject durch ein Passwort geschützt ist, um die Projekteigenschaften anzuzeigen. Schreibgeschütztes Boolean. |
+| [IsPasswordProtected](../../aspose.slides.vba/vbaproject/ispasswordprotected) { get; } | Gibt an, ob das VBAProject durch ein Passwort geschützt ist, um die Projekteigenschaften anzuzeigen. Schreibgeschützter Boolean. |
 | [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | Gibt die Liste aller Module zurück, die im VBA-Projekt enthalten sind. Schreibgeschütztes [`IVbaModuleCollection`](../ivbamodulecollection). |
 | [Name](../../aspose.slides.vba/vbaproject/name) { get; } | Gibt den Namen des VBA-Projekts zurück. Schreibgeschützter String. |
 | [References](../../aspose.slides.vba/vbaproject/references) { get; } | Gibt die Liste aller Referenzen zurück, die im VBA-Projekt enthalten sind. Schreibgeschütztes [`IVbaReferenceCollection`](../ivbareferencecollection). |

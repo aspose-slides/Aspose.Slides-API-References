@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides.charts/ichartdata/writeworkbookstream/
 ---
+
 ## IChartData.WriteWorkbookStream method
 
 Initializes the internally contained Excel workbook with user-specified value.

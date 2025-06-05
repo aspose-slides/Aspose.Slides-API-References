@@ -1,13 +1,13 @@
 ---
 title: InsertAudioFrameCD
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la documentation .NET
 description: Insérer un AudioFrame avec CD.
 type: docs
 weight: 220
 url: /fr/aspose.slides/ishapecollection/insertaudioframecd/
 ---
 
-## Méthode IShapeCollection.InsertAudioFrameCD
+## IShapeCollection.InsertAudioFrameCD méthode
 
 Insérer un AudioFrame avec CD.
 
@@ -17,7 +17,7 @@ public IAudioFrame InsertAudioFrameCD(int index, float x, float y, float width, 
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | L'index basé sur zéro à laquelle le cadre vidéo doit être inséré. |
+| index | Int32 | L'index basé sur zéro auquel le cadre vidéo doit être inséré. |
 | x | Single | Coordonnée X d'un nouveau cadre audio. |
 | y | Single | Coordonnée Y d'un nouveau cadre audio. |
 | width | Single | Largeur d'un nouveau cadre audio. |

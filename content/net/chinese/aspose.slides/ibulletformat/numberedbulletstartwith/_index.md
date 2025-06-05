@@ -1,21 +1,21 @@
 ---
 title: NumberedBulletStartWith
-second_title: Aspose.Slides for .NET API Reference
-description: 返回或设置用于无继承的编号项目组的第一个数字。可读写 Int16。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置用于没有继承的编号项目符号组的第一个数字。可读/可写 Int16。
 type: docs
 weight: 70
 url: /zh/aspose.slides/ibulletformat/numberedbulletstartwith/
 ---
 
-## IBulletFormat.NumberedBulletStartWith 属性
+## IBulletFormat.NumberedBulletStartWith property
 
-返回或设置用于无继承的编号项目组的第一个数字。可读写 Int16。
-
+返回或设置用于没有继承的编号项目符号组的第一个数字。可读/可写 Int16。
+ 
 ```csharp
 public short NumberedBulletStartWith { get; set; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IBulletFormat](../../ibulletformat)
 * 命名空间 [Aspose.Slides](../../ibulletformat)

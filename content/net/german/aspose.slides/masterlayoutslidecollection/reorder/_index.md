@@ -1,7 +1,7 @@
 ---
-title: Neu Anordnen
+title: Reorder
 second_title: Aspose.Slides für .NET API-Referenz
-description: Verschiebt Layoutfolie aus der Sammlung an die angegebene Position.
+description: Verschiebt das Layout-Slide aus der Sammlung an die angegebene Position.
 type: docs
 weight: 60
 url: /de/aspose.slides/masterlayoutslidecollection/reorder/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/masterlayoutslidecollection/reorder/
 
 ## MasterLayoutSlideCollection.Reorder-Methode
 
-Verschiebt Layoutfolie aus der Sammlung an die angegebene Position.
+Verschiebt das Layout-Slide aus der Sammlung an die angegebene Position.
 
 ```csharp
 public void Reorder(int index, ILayoutSlide layoutSlide)
@@ -18,9 +18,9 @@ public void Reorder(int index, ILayoutSlide layoutSlide)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | index | Int32 | Zielindex. |
-| layoutSlide | ILayoutSlide | Folie, die verschoben werden soll. |
+| layoutSlide | ILayoutSlide | Zu verschiebende Folie. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ILayoutSlide](../../ilayoutslide)
 * Klasse [MasterLayoutSlideCollection](../../masterlayoutslidecollection)

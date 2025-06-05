@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ifontsources/memoryfonts/
 ---
+
 ## IFontSources.MemoryFonts property
 
 A collection of fonts represented as byte arrays.

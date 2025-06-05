@@ -1,7 +1,7 @@
 ---
-title: 分隔符形状
-second_title: Aspose.Slides for .NET API 参考
-description: 指定分隔符对象中分隔符的形状。当使用 MathDelimiterShape.Centered 时，分隔符围绕数学文本的数学轴居中，并且仍然可以使其适合内容的整个高度。当使用 MathDelimiterShape.Match 时，其高度和形状被更改为精确匹配其内容。
+title: DelimiterShape
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定分隔符对象中分隔符的形状。当是 MathDelimiterShape.Centered 时，分隔符围绕数学文本的数学轴居中，并且仍然可以完全适应其内容的高度。当是 MathDelimiterShape.Match 时，它们的高度和形状会被修改以完全匹配其内容。
 type: docs
 weight: 40
 url: /zh/aspose.slides.mathtext/imathdelimiter/delimitershape/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathdelimiter/delimitershape/
 
 ## IMathDelimiter.DelimiterShape 属性
 
-指定分隔符对象中分隔符的形状。当使用 MathDelimiterShape.Centered 时，分隔符围绕数学文本的数学轴居中，并且仍然可以使其适合内容的整个高度。当使用 MathDelimiterShape.Match 时，其高度和形状被更改为精确匹配其内容。
+指定分隔符对象中分隔符的形状。当是 MathDelimiterShape.Centered 时，分隔符围绕数学文本的数学轴居中，并且仍然可以完全适应其内容的高度。当是 MathDelimiterShape.Match 时，它们的高度和形状会被修改以完全匹配其内容。
 
 ```csharp
 public MathDelimiterShape DelimiterShape { get; set; }

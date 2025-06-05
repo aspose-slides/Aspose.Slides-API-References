@@ -3,9 +3,10 @@ title: SmartArtNode
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents node of a SmartArt object
 type: docs
-weight: 9980
+weight: 10320
 url: /aspose.slides.smartart/smartartnode/
 ---
+
 ## SmartArtNode class
 
 Represents node of a SmartArt object
@@ -26,7 +27,7 @@ public sealed class SmartArtNode : ISmartArtNode
 | [OrganizationChartLayout](../../aspose.slides.smartart/smartartnode/organizationchartlayout) { get; set; } | Returns or sets organization chart layout type associated with current node. Read/write [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
 | [Position](../../aspose.slides.smartart/smartartnode/position) { get; set; } | Returns or sets zero-based position of node among sibling nodes. Read/write Int32. |
 | [Shapes](../../aspose.slides.smartart/smartartnode/shapes) { get; } | Returns collections of all shapes associated with the node. Read-only [`ISmartArtShapeCollection`](../ismartartshapecollection). |
-| [TextFrame](../../aspose.slides.smartart/smartartnode/textframe) { get; } | Returns or sets text of the node. Read-only [`ITextFrame`](../../aspose.slides/itextframe). |
+| [TextFrame](../../aspose.slides.smartart/smartartnode/textframe) { get; } | Returns text frame of the node. Read-only [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## Methods
 

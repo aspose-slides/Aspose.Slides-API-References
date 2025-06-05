@@ -1,7 +1,7 @@
 ---
 title: TrendlineName
-second_title: Справка по API Aspose.Slides для .NET
-description: Получает или задает имя трендовой линии. Читаемая/записываемая строка.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает или задает имя линии тренда. Читаемый/записываемый String.
 type: docs
 weight: 110
 url: /ru/aspose.slides.charts/itrendline/trendlinename/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.charts/itrendline/trendlinename/
 
 ## Свойство ITrendline.TrendlineName
 
-Получает или задает имя трендовой линии. Читаемая/записываемая строка.
+Получает или задает имя линии тренда. Читаемый/записываемый String.
 
 ```csharp
 public string TrendlineName { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [ITrendline](../../itrendline)
 * пространство имен [Aspose.Slides.Charts](../../itrendline)

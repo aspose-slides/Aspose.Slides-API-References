@@ -1,15 +1,15 @@
 ---
 title: FirstSliceAngle
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает угол первого сегмента пирога или пончика в градусах по часовой стрелке от 0 до 360 градусов. Чтение/запись UInt16.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает или задает угол первого сегмента пирогового или кольцевого графика в градусах по часовой стрелке от 0 до 360 градусов. Чтение/запись UInt16.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/chartseriesgroup/firstsliceangle/
 ---
 
-## Свойство ChartSeriesGroup.FirstSliceAngle
+## ChartSeriesGroup.FirstSliceAngle свойство
 
-Получает или задает угол первого сегмента пирога или пончика в градусах (по часовой стрелке от верхней точки, от 0 до 360 градусов). Чтение/запись UInt16.
+Получает или задает угол первого сегмента пирогового или кольцевого графика, в градусах (по часовой стрелке от верха, от 0 до 360 градусов). Чтение/запись UInt16.
 
 ```csharp
 public ushort FirstSliceAngle { get; set; }

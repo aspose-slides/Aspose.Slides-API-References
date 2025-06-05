@@ -1,7 +1,7 @@
 ---
 title: ISequenceCollection
-second_title: Aspose.Sildes for .NET API Reference
-description: 表示互动序列的集合。
+second_title: Aspose.Sldes for .NET API Reference
+description: 表示交互序列的集合。
 type: docs
 weight: 520
 url: /zh/aspose.slides.animation/isequencecollection/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/isequencecollection/
 
 ## ISequenceCollection 接口
 
-表示互动序列的集合。
+表示交互序列的集合。
 
 ```csharp
 public interface ISequenceCollection : IEnumerable<ISequence>
@@ -20,19 +20,19 @@ public interface ISequenceCollection : IEnumerable<ISequence>
 | 名称 | 描述 |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.animation/isequencecollection/asienumerable) { get; } | 返回 IEnumerable 接口。只读 IEnumerable。 |
-| [Count](../../aspose.slides.animation/isequencecollection/count) { get; } | 返回集合中的元素数量。只读 Int32。 |
+| [Count](../../aspose.slides.animation/isequencecollection/count) { get; } | 返回集合中元素的数量。只读 Int32。 |
 | [Item](../../aspose.slides.animation/isequencecollection/item) { get; } | 返回指定索引处的序列。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides.animation/isequencecollection/add)(IShape) | 添加新的互动序列。 |
+| [Add](../../aspose.slides.animation/isequencecollection/add)(IShape) | 添加新的交互序列。 |
 | [Clear](../../aspose.slides.animation/isequencecollection/clear)() | 从集合中移除所有序列。 |
 | [Remove](../../aspose.slides.animation/isequencecollection/remove)(ISequence) | 从集合中移除指定的序列。 |
 | [RemoveAt](../../aspose.slides.animation/isequencecollection/removeat)(int) | 移除指定索引处的序列。 |
 
-### 另请参阅
+### 另请参见
 
 * 接口 [ISequence](../isequence)
 * 命名空间 [Aspose.Slides.Animation](../../aspose.slides.animation)

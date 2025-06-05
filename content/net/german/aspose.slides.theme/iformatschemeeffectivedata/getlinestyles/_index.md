@@ -17,13 +17,13 @@ public ILineFormatCollectionEffectiveData GetLineStyles(Color styleColor)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| styleColor | Color | Farbe |
+| styleColor | Color | Farbfarbe |
 
 ### Rückgabewert
 
-Sammlung von effektiven Linienformaten [`ILineFormatCollectionEffectiveData`](../../ilineformatcollectioneffectivedata)
+Sammlung effektiver Linienformate [`ILineFormatCollectionEffectiveData`](../../ilineformatcollectioneffectivedata)
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ILineFormatCollectionEffectiveData](../../ilineformatcollectioneffectivedata)
 * Schnittstelle [IFormatSchemeEffectiveData](../../iformatschemeeffectivedata)

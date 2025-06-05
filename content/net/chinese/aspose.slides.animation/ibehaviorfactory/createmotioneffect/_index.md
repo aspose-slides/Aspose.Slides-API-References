@@ -1,6 +1,6 @@
 ---
 title: CreateMotionEffect
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建运动效果。
 type: docs
 weight: 40
@@ -19,7 +19,7 @@ public IMotionEffect CreateMotionEffect()
 
 运动效果。
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IMotionEffect](../../imotioneffect)
 * 接口 [IBehaviorFactory](../../ibehaviorfactory)

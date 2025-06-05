@@ -1,21 +1,21 @@
 ---
-title: НаправлениеЗатухания
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Указывает направление смещения отражения. угол. Читаемый/записываемый тип Single.
+title: FadeDirection
+second_title: Справочная информация по API Aspose.Sildes для .NET
+description: Задает направление для смещения отражения. угол. Читаемое/записываемое значение Single.
 type: docs
 weight: 80
 url: /ru/aspose.slides.effects/ireflection/fadedirection/
 ---
 
-## Свойство IReflection.FadeDirection
+## IReflection.FadeDirection свойство
 
-Указывает направление смещения отражения. (угол). Читаемый/записываемый тип Single.
+Задает направление для смещения отражения. (угол). Читаемое/записываемое значение Single.
 
 ```csharp
 public float FadeDirection { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IReflection](../../ireflection)
 * пространство имен [Aspose.Slides.Effects](../../ireflection)

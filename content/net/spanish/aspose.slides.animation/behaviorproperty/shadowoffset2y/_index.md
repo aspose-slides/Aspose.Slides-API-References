@@ -1,6 +1,6 @@
 ---
 title: ShadowOffset2Y
-second_title: Referencia API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Representa la propiedad shadow.offset2.y
 type: docs
 weight: 690
@@ -19,6 +19,6 @@ public static BehaviorProperty ShadowOffset2Y { get; }
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
-<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

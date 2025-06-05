@@ -1,6 +1,6 @@
 ---
 title: ReplaceFont
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Slides для .NET API Reference
 description: Заменить шрифт в презентации
 type: docs
 weight: 100
@@ -18,7 +18,7 @@ public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceFont | IFontData | Исходный шрифт |
-| destFont | IFontData | Шрифт назначения |
+| destFont | IFontData | Целевой шрифт |
 
 ### См. также
 
@@ -39,7 +39,7 @@ public void ReplaceFont(IFontSubstRule substRule)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| substRule | IFontSubstRule | Информация о замене шрифтов |
+| substRule | IFontSubstRule | Информация о замене шрифта |
 
 ### См. также
 
@@ -60,7 +60,7 @@ public void ReplaceFont(IFontSubstRuleCollection substRules)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| substRules | IFontSubstRuleCollection | Коллекция информации о замене шрифтов |
+| substRules | IFontSubstRuleCollection | Коллекция информации о замене шрифта |
 
 ### См. также
 

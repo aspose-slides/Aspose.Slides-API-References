@@ -1,7 +1,7 @@
 ---
 title: AsIBehavior
-second_title: Aspose.Slides for .NET API Reference
-description: 允许获取基本 IBehavior 接口。只读 IBehavior aspose.slides.animation/ibehavior。
+second_title: Aspose.Sildes for .NET API 参考
+description: 允许获取基础 IBehavior 接口。只读 IBehavioraspose.slides.animation/ibehavior。
 type: docs
 weight: 20
 url: /zh/aspose.slides.animation/imotioneffect/asibehavior/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/imotioneffect/asibehavior/
 
 ## IMotionEffect.AsIBehavior 属性
 
-允许获取基本 IBehavior 接口。只读 [`IBehavior`](../../ibehavior)。
+允许获取基础 IBehavior 接口。只读 [`IBehavior`](../../ibehavior)。
 
 ```csharp
 public IBehavior AsIBehavior { get; }

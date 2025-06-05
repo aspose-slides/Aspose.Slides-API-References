@@ -1,21 +1,21 @@
 ---
 title: HasLegend
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, имеет ли график легенду. Доступно для чтения/записи Boolean.
+second_title: Aspose.Slides для .NET API Справочник
+description: Определяет, имеет ли график легенду. Читаемое/записываемое логическое значение.
 type: docs
 weight: 110
 url: /ru/aspose.slides.charts/chart/haslegend/
 ---
 
-## Свойство Chart.HasLegend
+## Chart.HasLegend свойство
 
-Определяет, имеет ли график легенду. Доступно для чтения/записи Boolean.
+Определяет, имеет ли график легенду. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool HasLegend { get; set; }
 ```
 
-### Также см.
+### Также посмотрите
 
 * класс [Chart](../../chart)
 * пространство имен [Aspose.Slides.Charts](../../chart)

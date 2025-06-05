@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides.charts/ichart/hasroundedcorners/
 ---
+
 ## IChart.HasRoundedCorners property
 
 Specifies the chart area shall have rounded corners. Read/write Boolean.

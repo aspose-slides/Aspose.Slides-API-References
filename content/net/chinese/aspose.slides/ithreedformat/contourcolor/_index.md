@@ -1,7 +1,7 @@
 ---
-title: 等高线颜色
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置等高线的颜色。只读 IColorFormataspose.slides/icolorformat。
+title: ContourColor
+second_title: Aspose.Slides for .NET API Reference
+description: 返回或设置轮廓的颜色。只读 IColorFormataspose.slides/icolorformat。
 type: docs
 weight: 50
 url: /zh/aspose.slides/ithreedformat/contourcolor/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ithreedformat/contourcolor/
 
 ## IThreeDFormat.ContourColor 属性
 
-返回或设置等高线的颜色。只读 [`IColorFormat`](../../icolorformat)。
+返回或设置轮廓的颜色。只读 [`IColorFormat`](../../icolorformat)。
 
 ```csharp
 public IColorFormat ContourColor { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IColorFormat](../../icolorformat)
 * 接口 [IThreeDFormat](../../ithreedformat)

@@ -1,6 +1,6 @@
 ---
 title: MotionCmdPath
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Repräsentiert einen Befehl eines Pfades.
 type: docs
 weight: 570
@@ -22,7 +22,7 @@ public class MotionCmdPath : IMotionCmdPath
 | [CommandType](../../aspose.slides.animation/motioncmdpath/commandtype) { get; set; } | Gibt den Befehlstyp an. Lese-/Schreibzugriff [`MotionCommandPathType`](../motioncommandpathtype). |
 | [IsRelative](../../aspose.slides.animation/motioncmdpath/isrelative) { get; set; } | Bestimmt, ob die Befehlskoordinaten relativ sind oder nicht. Lese-/Schreibzugriff Boolean. |
 | [Points](../../aspose.slides.animation/motioncmdpath/points) { get; set; } | Gibt die Punkte des Befehls an. Lese-/Schreibzugriff PointF[]. |
-| [PointsType](../../aspose.slides.animation/motioncmdpath/pointstype) { get; set; } | Gibt den Typ der Befehls-Punkte an. Lese-/Schreibzugriff [`MotionPathPointsType`](../motionpathpointstype). |
+| [PointsType](../../aspose.slides.animation/motioncmdpath/pointstype) { get; set; } | Gibt den Typ der Befehls-Points an. Lese-/Schreibzugriff [`MotionPathPointsType`](../motionpathpointstype). |
 
 ### Siehe Auch
 

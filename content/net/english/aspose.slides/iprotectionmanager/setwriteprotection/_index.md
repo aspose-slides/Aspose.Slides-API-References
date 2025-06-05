@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/iprotectionmanager/setwriteprotection/
 ---
+
 ## IProtectionManager.SetWriteProtection method
 
 Set write protection for this presentation with specified password.

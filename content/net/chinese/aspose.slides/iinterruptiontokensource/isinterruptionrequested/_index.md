@@ -15,7 +15,7 @@ url: /zh/aspose.slides/iinterruptiontokensource/isinterruptionrequested/
 public bool IsInterruptionRequested { get; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IInterruptionTokenSource](../../iinterruptiontokensource)
 * 命名空间 [Aspose.Slides](../../iinterruptiontokensource)

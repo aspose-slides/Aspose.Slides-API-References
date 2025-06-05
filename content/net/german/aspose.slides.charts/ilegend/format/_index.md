@@ -1,7 +1,7 @@
 ---
 title: Format
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Format einer Legende zurück. Nur-Lese IFormataspose.slides.charts/iformat.
+description: Gibt das Format einer Legende zurück. Nur lesbar IFormataspose.slides.charts/iformat.
 type: docs
 weight: 40
 url: /de/aspose.slides.charts/ilegend/format/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ilegend/format/
 
 ## ILegend.Format-Eigenschaft
 
-Gibt das Format einer Legende zurück. Nur-Lese [`IFormat`](../../iformat).
+Gibt das Format einer Legende zurück. Nur lesbar [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; }

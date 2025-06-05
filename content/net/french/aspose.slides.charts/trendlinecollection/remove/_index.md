@@ -1,6 +1,6 @@
 ---
-title: Supprimer
-second_title: Référence API Aspose.Slides pour .NET
+title: Remove
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Supprime la valeur spécifiée.
 type: docs
 weight: 50

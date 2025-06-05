@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/behaviorproperty/pptw/
 public static BehaviorProperty PptW { get; }
 ```
 
-### 参见
+### 另请参阅
 
 * 类 [BehaviorProperty](../../behaviorproperty)
 * 命名空间 [Aspose.Slides.Animation](../../behaviorproperty)

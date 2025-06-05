@@ -1,6 +1,6 @@
 ---
 title: MasterNotesSlideManager
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回备注母版管理器。只读 IMasterNotesSlideManageraspose.slides/imasternotesslidemanager。
 type: docs
 weight: 170

@@ -1,7 +1,7 @@
 ---
-title: 悬挂标点
-second_title: Aspose.Slides for .NET API 参考
-description: 决定段落中是否使用悬挂标点。只读布尔值。
+title: HangingPunctuation
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定段落中是否使用悬挂标点符号。只读布尔值。
 type: docs
 weight: 80
 url: /zh/aspose.slides/iparagraphformateffectivedata/hangingpunctuation/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iparagraphformateffectivedata/hangingpunctuation/
 
 ## IParagraphFormatEffectiveData.HangingPunctuation 属性
 
-决定段落中是否使用悬挂标点。只读布尔值。
+确定段落中是否使用悬挂标点符号。只读布尔值。
 
 ```csharp
 public bool HangingPunctuation { get; }

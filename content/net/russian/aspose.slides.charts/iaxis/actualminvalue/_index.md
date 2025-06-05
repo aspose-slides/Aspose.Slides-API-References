@@ -1,15 +1,15 @@
 ---
 title: ActualMinValue
 second_title: Справочник по API Aspose.Sildes для .NET
-description: Указывает фактическое минимальное значение на оси. Вызовите метод IChart.ValidateChartLayout ранее, чтобы получить фактическое значение.
+description: Указывает фактическое минимальное значение на оси. Сначала вызовите метод IChart.ValidateChartLayout, чтобы получить фактическое значение.
 type: docs
 weight: 60
 url: /ru/aspose.slides.charts/iaxis/actualminvalue/
 ---
 
-## Свойство IAxis.ActualMinValue
+## IAxis.ActualMinValue свойство
 
-Указывает фактическое минимальное значение на оси. Вызовите метод IChart.ValidateChartLayout() ранее, чтобы получить фактическое значение.
+Указывает фактическое минимальное значение на оси. Сначала вызовите метод IChart.ValidateChartLayout(), чтобы получить фактическое значение.
 
 ```csharp
 public double ActualMinValue { get; }

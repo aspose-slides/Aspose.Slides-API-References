@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/fontsloader/getfontfolders/
 ---
+
 ## FontsLoader.GetFontFolders method
 
 Gets font folders. Returns folders that have been added with LoadExternalFonts method as well as system font folders

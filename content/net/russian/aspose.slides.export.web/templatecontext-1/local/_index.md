@@ -1,13 +1,13 @@
 ---
-title: Локальный
-second_title: Справочник по API Aspose.Sildes для .NET
+title: Local
+second_title: Справка по API Aspose.Sildes для .NET
 description: Возвращает локальное хранилище текущего контекста шаблона. Только для чтения Storageaspose.slides.export.web/storage.
 type: docs
 weight: 20
 url: /ru/aspose.slides.export.web/templatecontext-1/local/
 ---
 
-## Свойство TemplateContext&lt;TObject&gt;.Local
+## TemplateContext&lt;TObject&gt;.Local свойство
 
 Возвращает локальное хранилище текущего контекста шаблона. Только для чтения [`Storage`](../../storage).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export.web/templatecontext-1/local/
 public Storage Local { get; }
 ```
 
-### См. также
+### См. Также
 
 * класс [Storage](../../storage)
 * класс [TemplateContext&lt;TObject&gt;](../../templatecontext-1)

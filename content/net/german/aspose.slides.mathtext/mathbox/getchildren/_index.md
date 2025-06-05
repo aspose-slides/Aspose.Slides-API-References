@@ -1,21 +1,21 @@
 ---
 title: GetChildren
-second_title: Aspose.Slides für .NET API-Referenz
-description: Holen Sie sich Kinderelemente
+second_title: Aspose.Slides für .NET API Referenz
+description: Kinder Elemente abrufen
 type: docs
 weight: 80
 url: /de/aspose.slides.mathtext/mathbox/getchildren/
 ---
 
-## MathBox.GetChildren-Methode
+## MathBox.GetChildren Methode
 
-Holen Sie sich Kinderelemente
+Kinder Elemente abrufen
 
 ```csharp
 public IMathElement[] GetChildren()
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IMathElement](../../imathelement)
 * Klasse [MathBox](../../mathbox)

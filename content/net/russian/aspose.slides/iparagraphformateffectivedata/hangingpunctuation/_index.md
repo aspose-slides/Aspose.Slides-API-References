@@ -1,7 +1,7 @@
 ---
 title: HangingPunctuation
-second_title: Aspose.Sildes для .NET API Справочник
-description: Определяет, используется ли висячая пунктуация в параграфе. Свойство только для чтения типа Boolean.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет, используется ли висячая пунктуация в абзаце. Только для чтения Boolean.
 type: docs
 weight: 80
 url: /ru/aspose.slides/iparagraphformateffectivedata/hangingpunctuation/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/iparagraphformateffectivedata/hangingpunctuation/
 
 ## IParagraphFormatEffectiveData.HangingPunctuation свойство
 
-Определяет, используется ли висячая пунктуация в параграфе. Свойство только для чтения типа Boolean.
+Определяет, используется ли висячая пунктуация в абзаце. Только для чтения Boolean.
 
 ```csharp
 public bool HangingPunctuation { get; }

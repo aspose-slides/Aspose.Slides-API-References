@@ -19,8 +19,8 @@ public interface IMultipleCellChartValue : IBaseChartValue
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | Gibt die Sammlung von Diagrammzellen zurück oder legt sie fest. Lese-/Schreibzugriff [`IChartCellCollection`](../ichartcellcollection). |
-| [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IBaseChartValue. Nur Lesezugriff [`IBaseChartValue`](../ibasechartvalue). |
+| [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | Gibt die Sammlung von Diagrammzellen zurück oder setzt sie. Lese-/Schreibzugriff [`IChartCellCollection`](../ichartcellcollection). |
+| [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | Ermöglicht den Zugriff auf die Basis-IBaseChartValue-Schnittstelle. Nur-Lesezugriff [`IBaseChartValue`](../ibasechartvalue). |
 
 ### Siehe auch
 

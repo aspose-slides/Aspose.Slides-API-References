@@ -3,9 +3,10 @@ title: JoinPortionsWithSameFormatting
 second_title: Aspose.Sildes for .NET API Reference
 description: Joins runs with same formatting in all paragraphs.
 type: docs
-weight: 90
+weight: 110
 url: /aspose.slides/textframe/joinportionswithsameformatting/
 ---
+
 ## TextFrame.JoinPortionsWithSameFormatting method
 
 Joins runs with same formatting in all paragraphs.

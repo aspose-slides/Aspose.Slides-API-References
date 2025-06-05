@@ -1,7 +1,7 @@
 ---
 title: AsIVbaReference
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das IVbaReference-Interface zurück. Nur-Lesen IVbaReferenceaspose.slides.vba/ivbareference.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt das IVbaReference-Interface zurück. Nur-Lese IVbaReferenceaspose.slides.vba/ivbareference.
 type: docs
 weight: 10
 url: /de/aspose.slides.vba/ivbareferenceoletwiddledtypelib/asivbareference/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.vba/ivbareferenceoletwiddledtypelib/asivbareference/
 
 ## IVbaReferenceOleTwiddledTypeLib.AsIVbaReference-Eigenschaft
 
-Gibt das IVbaReference-Interface zurück. Nur-Lesen [`IVbaReference`](../../ivbareference).
+Gibt das IVbaReference-Interface zurück. Nur-Lese [`IVbaReference`](../../ivbareference).
 
 ```csharp
 public IVbaReference AsIVbaReference { get; }
@@ -17,7 +17,7 @@ public IVbaReference AsIVbaReference { get; }
 
 ### Anmerkungen
 
-Für COM-Kompatibilität.
+Für die COM-Kompatibilität.
 
 ### Siehe auch
 

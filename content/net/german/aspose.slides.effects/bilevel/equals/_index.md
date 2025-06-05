@@ -1,15 +1,15 @@
 ---
 title: Equals
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob das angegebene BiLevelaspose.slides.effects/bilevel gleich dem aktuellen BiLevelaspose.slides.effects/bilevel ist.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Bestimmt, ob das angegebene BiLevelaspose.slides.effects/bilevel dem aktuellen BiLevelaspose.slides.effects/bilevel gleich ist.
 type: docs
 weight: 10
 url: /de/aspose.slides.effects/bilevel/equals/
 ---
 
-## BiLevel.Equals-Methode
+## BiLevel.Equals Methode
 
-Bestimmt, ob das angegebene [`BiLevel`](../../bilevel) gleich dem aktuellen [`BiLevel`](../../bilevel) ist.
+Bestimmt, ob das angegebene [`BiLevel`](../../bilevel) dem aktuellen [`BiLevel`](../../bilevel) gleich ist.
 
 ```csharp
 public override bool Equals(object obj)
@@ -17,7 +17,7 @@ public override bool Equals(object obj)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| obj | Object | Das zu vergleichende [`BiLevel`](../../bilevel). |
+| obj | Object | Das [`BiLevel`](../../bilevel), das verglichen werden soll. |
 
 ### Rückgabewert
 

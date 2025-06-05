@@ -1,15 +1,15 @@
 ---
 title: GetByType
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die erste Layoutfolie des angegebenen Typs zurück. Ein Typ der Layoutfolie, die gesucht werden soll. LayoutSlide mit dem angegebenen Typ oder null, wenn keine Layouts gefunden wurden.
+description: Gibt die erste Layoutfolie des angegebenen Typs zurück. Ein Typ von Layoutfolie, der gefunden werden soll. LayoutSlide mit dem angegebenen Typ oder null, wenn keine Layouts gefunden wurden.
 type: docs
 weight: 60
 url: /de/aspose.slides/layoutslidecollection/getbytype/
 ---
 
-## LayoutSlideCollection.GetByType-Methode
+## LayoutSlideCollection.GetByType Methode
 
-Gibt die erste Layoutfolie des angegebenen Typs zurück. Ein Typ der Layoutfolie, die gesucht werden soll. [`LayoutSlide`](../../layoutslide) mit dem angegebenen Typ oder null, wenn keine Layouts gefunden wurden.
+Gibt die erste Layoutfolie des angegebenen Typs zurück. Ein Typ von Layoutfolie, der gefunden werden soll. [`LayoutSlide`](../../layoutslide) mit dem angegebenen Typ oder null, wenn keine Layouts gefunden wurden.
 
 ```csharp
 public ILayoutSlide GetByType(SlideLayoutType type)
@@ -17,8 +17,8 @@ public ILayoutSlide GetByType(SlideLayoutType type)
 
 ### Siehe auch
 
-* Schnittstelle [ILayoutSlide](../../ilayoutslide)
-* enum [SlideLayoutType](../../slidelayouttype)
+* Interface [ILayoutSlide](../../ilayoutslide)
+* Enum [SlideLayoutType](../../slidelayouttype)
 * Klasse [LayoutSlideCollection](../../layoutslidecollection)
 * Namespace [Aspose.Slides](../../layoutslidecollection)
 * Assembly [Aspose.Slides](../../../)

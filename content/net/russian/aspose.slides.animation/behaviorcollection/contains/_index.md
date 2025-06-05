@@ -1,7 +1,7 @@
 ---
-title: Содержит
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, содержит ли ICollection указанное значение.
+title: Contains
+second_title: Aspose.Sildes для .NET API Справочник
+description: Определяет, содержит ли ICollection определенное значение.
 type: docs
 weight: 60
 url: /ru/aspose.slides.animation/behaviorcollection/contains/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.animation/behaviorcollection/contains/
 
 ## Метод BehaviorCollection.Contains
 
-Определяет, содержит ли ICollection указанное значение.
+Определяет, содержит ли ICollection определенное значение.
 
 ```csharp
 public bool Contains(IBehavior item)
@@ -17,13 +17,13 @@ public bool Contains(IBehavior item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | IBehavior | Объект, который необходимо найти в ICollection. |
+| item | IBehavior | Объект, который нужно найти в ICollection. |
 
-### Возвращаемое значение
+### Возврат Значения
 
-true, если *item* найден в ICollection; в противном случае false.
+true, если *item* найден в ICollection; в противном случае, false.
 
-### См. также
+### См. Также
 
 * интерфейс [IBehavior](../../ibehavior)
 * класс [BehaviorCollection](../../behaviorcollection)

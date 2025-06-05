@@ -1,7 +1,7 @@
 ---
 title: AsIGraphicalObject
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf die Basis-IgraphicalObject-Schnittstelle. Schreibgeschütztes IGraphicalObjectaspose.slides/igraphicalobject.
+second_title: Aspose.Slides für .NET API Reference
+description: Ermöglicht den Zugriff auf die Basisschnittstelle IGraphicalObject. Schreibgeschütztes IGraphicalObject aspose.slides/igraphicalobject.
 type: docs
 weight: 10
 url: /de/aspose.slides.ink/iinkactions/asigraphicalobject/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.ink/iinkactions/asigraphicalobject/
 
 ## IInkActions.AsIGraphicalObject-Eigenschaft
 
-Ermöglicht den Zugriff auf die Basis-IgraphicalObject-Schnittstelle. Schreibgeschütztes [`IGraphicalObject`](../../../aspose.slides/igraphicalobject).
+Ermöglicht den Zugriff auf die Basisschnittstelle IGraphicalObject. Schreibgeschützt [`IGraphicalObject`](../../../aspose.slides/igraphicalobject).
 
 ```csharp
 public IGraphicalObject AsIGraphicalObject { get; }

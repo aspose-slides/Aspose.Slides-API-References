@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.charts/icharttextblockformat/textverticaltype/
 ---
+
 ## IChartTextBlockFormat.TextVerticalType property
 
 Determines text orientation. The resulted value of visual text rotation summarized from this property and custom angle in property RotationAngle. Read/write [`TextVerticalType`](../../../aspose.slides/textverticaltype).

@@ -1,21 +1,21 @@
 ---
 title: ParentLabelLayout
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет макет меток родительских категорий. Применяется только к диаграммам с деревовидной структурой.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет расположение меток родительской категории. Применяется только к диаграммам Treemap.
 type: docs
 weight: 280
 url: /ru/aspose.slides.charts/ichartseries/parentlabellayout/
 ---
 
-## Свойство IChartSeries.ParentLabelLayout
+## IChartSeries.ParentLabelLayout свойство
 
-Представляет макет меток родительских категорий. Применяется только к диаграммам с деревовидной структурой.
+Представляет расположение меток родительской категории. Применяется только к диаграммам Treemap.
 
 ```csharp
 public ParentLabelLayoutType ParentLabelLayout { get; set; }
 ```
 
-### Также см.
+### См. Также
 
 * enum [ParentLabelLayoutType](../../parentlabellayouttype)
 * interface [IChartSeries](../../ichartseries)

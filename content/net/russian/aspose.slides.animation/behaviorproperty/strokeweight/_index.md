@@ -1,6 +1,6 @@
 ---
 title: StrokeWeight
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет свойство stroke.weight
 type: docs
 weight: 1040
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/behaviorproperty/strokeweight/
 public static BehaviorProperty StrokeWeight { get; }
 ```
 
-### См. также
+### Также смотри
 
 * класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)

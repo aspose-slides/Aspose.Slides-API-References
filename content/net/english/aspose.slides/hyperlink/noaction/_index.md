@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/hyperlink/noaction/
 ---
+
 ## Hyperlink.NoAction property
 
 Returns a special "do nothing" hyperlink. Read-only [`Hyperlink`](../../hyperlink).

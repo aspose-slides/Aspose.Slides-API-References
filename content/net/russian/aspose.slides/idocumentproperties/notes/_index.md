@@ -1,21 +1,21 @@
 ---
-title: Заметки
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Указывает количество слайдов в презентации, содержащих заметки. Только для чтения Int32.
+title: Notes
+second_title: Aspose.Slides для .NET API Справочник
+description: Указывает количество слайдов в презентации с заметками. Только для чтения Int32.
 type: docs
 weight: 240
 url: /ru/aspose.slides/idocumentproperties/notes/
 ---
 
-## Свойство IDocumentProperties.Notes
+## IDocumentProperties.Notes свойство
 
-Указывает количество слайдов в презентации, содержащих заметки. Только для чтения Int32.
+Указывает количество слайдов в презентации с заметками. Только для чтения Int32.
 
 ```csharp
 public int Notes { get; }
 ```
 
-### Смотрите также
+### Также посмотрите
 
 * интерфейс [IDocumentProperties](../../idocumentproperties)
 * пространство имен [Aspose.Slides](../../idocumentproperties)

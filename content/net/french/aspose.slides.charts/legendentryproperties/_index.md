@@ -1,6 +1,6 @@
 ---
 title: LegendEntryProperties
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Représente les propriétés de légende d'un graphique.
 type: docs
 weight: 2230
@@ -19,9 +19,9 @@ public class LegendEntryProperties : ILegendEntryProperties
 
 | Nom | Description |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/legendentryproperties/chart) { get; } | Renvoie le graphique parent. Lecture seule [`IChart`](../ichart). |
-| [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | Détermine si l'entrée de la légende est masquée. Lecture/écriture Booléen. |
-| [TextFormat](../../aspose.slides.charts/legendentryproperties/textformat) { get; } | Renvoie le format de texte. Lecture seule [`IChartTextFormat`](../icharttextformat). |
+| [Chart](../../aspose.slides.charts/legendentryproperties/chart) { get; } | Renvoie le graphique parent. En lecture seule [`IChart`](../ichart). |
+| [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | Détermine si l'entrée de légende est masquée. Booléen en lecture/écriture. |
+| [TextFormat](../../aspose.slides.charts/legendentryproperties/textformat) { get; } | Renvoie le format de texte. En lecture seule [`IChartTextFormat`](../icharttextformat). |
 
 ### Voir aussi
 

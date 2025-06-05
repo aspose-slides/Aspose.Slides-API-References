@@ -1,13 +1,13 @@
 ---
 title: InsertAudioFrameLinked
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Crea un nuevo marco de audio con un archivo de audio vinculado e inserta en una colección en el índice especificado.
 type: docs
 weight: 290
 url: /es/aspose.slides/shapecollection/insertaudioframelinked/
 ---
 
-## Método ShapeCollection.InsertAudioFrameLinked
+## ShapeCollection.InsertAudioFrameLinked método
 
 Crea un nuevo marco de audio con un archivo de audio vinculado e inserta en una colección en el índice especificado.
 
@@ -29,11 +29,11 @@ public IAudioFrame InsertAudioFrameLinked(int index, float x, float y, float wid
 
 Objeto AudioFrame creado.
 
-### Ver también
+### Véase también
 
-* interface [IAudioFrame](../../iaudioframe)
-* class [ShapeCollection](../../shapecollection)
-* namespace [Aspose.Slides](../../shapecollection)
-* assembly [Aspose.Slides](../../../)
+* interfaz [IAudioFrame](../../iaudioframe)
+* clase [ShapeCollection](../../shapecollection)
+* espacio de nombres [Aspose.Slides](../../shapecollection)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

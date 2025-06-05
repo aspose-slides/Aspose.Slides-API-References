@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides.charts/chartseriesgroup/piesplitby/
 ---
+
 ## ChartSeriesGroup.PieSplitBy property
 
 Specifies how to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. Read/write [`PieSplitType`](../../piesplittype).

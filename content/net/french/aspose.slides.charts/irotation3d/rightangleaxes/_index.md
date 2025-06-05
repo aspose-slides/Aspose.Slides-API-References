@@ -1,15 +1,15 @@
 ---
-title: AxesÀDroitAngle
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si les axes du graphique sont à angles droits plutôt que dessinés en perspective. En d'autres termes, cela détermine si les angles des axes du graphique sont indépendants de la rotation ou de l'élévation du graphique. Lecture/écriture booléen.
+title: RightAngleAxes
+second_title: Aspose.Slides pour .NET Référence API
+description: Détermine si les axes du graphique sont à angles droits plutôt que dessinés en perspective. En d'autres termes, cela détermine si les angles des axes du graphique sont indépendants de la rotation ou de l'élévation du graphique. Booléen en lecture/écriture.
 type: docs
 weight: 40
 url: /fr/aspose.slides.charts/irotation3d/rightangleaxes/
 ---
 
-## Propriété IRotation3D.RightAngleAxes
+## IRotation3D.RightAngleAxes propriété
 
-Détermine si les axes du graphique sont à angles droits, plutôt que dessinés en perspective. En d'autres termes, cela détermine si les angles des axes du graphique sont indépendants de la rotation ou de l'élévation du graphique. Lecture/écriture booléen.
+Détermine si les axes du graphique sont à angles droits, plutôt que dessinés en perspective. En d'autres termes, cela détermine si les angles des axes du graphique sont indépendants de la rotation ou de l'élévation du graphique. Booléen en lecture/écriture.
 
 ```csharp
 public bool RightAngleAxes { get; set; }

@@ -1,15 +1,15 @@
 ---
-title: DossiersDePolices
+title: FontFolders
 second_title: Référence API Aspose.Slides pour .NET
-description: Dossiers contenant des fichiers de police. Tous les fichiers de police situés dans ces dossiers sont inclus dans la collection. Dossiers qui sont recherchés de manière récursive.
+description: Dossiers contenant des fichiers de polices. Tous les fichiers de polices situés dans ces dossiers sont inclus dans la collection. Dossiers qui sont recherchés de manière récursive.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ifontsources/fontfolders/
 ---
 
-## Propriété IFontSources.FontFolders
+## IFontSources.FontFolders property
 
-Dossiers contenant des fichiers de police. Tous les fichiers de police situés dans ces dossiers sont inclus dans la collection. Dossiers qui sont recherchés de manière récursive.
+Dossiers contenant des fichiers de polices. Tous les fichiers de polices situés dans ces dossiers sont inclus dans la collection. Dossiers qui sont recherchés de manière récursive.
 
 ```csharp
 public string[] FontFolders { get; set; }

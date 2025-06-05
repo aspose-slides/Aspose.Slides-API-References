@@ -1,15 +1,15 @@
 ---
 title: InsertConnector
 second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt einen neuen Connector, passt ihn von der Standardvorlage an und fügt ihn an der angegebenen Stelle in die Sammlung ein.
+description: Erstellt einen neuen Connector, passt ihn aus der Standardvorlage an und fügt ihn an der angegebenen Stelle in die Sammlung ein.
 type: docs
 weight: 280
 url: /de/aspose.slides/ishapecollection/insertconnector/
 ---
 
-## InsertConnector(int, ShapeType, float, float, float, float) {#insertconnector}
+## InsertConnector(int, ShapeType, float, float, float, float) {#insertconnector}
 
-Erschafft einen neuen Connector, passt ihn von der Standardvorlage an und fügt ihn an der angegebenen Stelle in die Sammlung ein.
+Erstellt einen neuen Connector, passt ihn aus der Standardvorlage an und fügt ihn an der angegebenen Stelle in die Sammlung ein.
 
 ```csharp
 public IConnector InsertConnector(int index, ShapeType shapeType, float x, float y, float width, 
@@ -20,10 +20,10 @@ public IConnector InsertConnector(int index, ShapeType shapeType, float x, float
 | --- | --- | --- |
 | index | Int32 | Der nullbasierte Index, an dem der Wert eingefügt werden soll. |
 | shapeType | ShapeType | Ein [`ShapeType`](../../shapetype) der Form. |
-| x | Single | Die X-Koordinate für die linke Seite des Formrahmens. |
-| y | Single | Die Y-Koordinate für die obere Seite des Formrahmens. |
-| width | Single | Die Breite des Formrahmens. |
-| height | Single | Die Höhe des Formrahmens. |
+| x | Single | Die X-Koordinate für die linke Seite des Rahmens der Form. |
+| y | Single | Die Y-Koordinate für die obere Seite des Rahmens der Form. |
+| width | Single | Die Breite des Rahmens der Form. |
+| height | Single | Die Höhe des Rahmens der Form. |
 
 ### Rückgabewert
 
@@ -32,16 +32,16 @@ Erstelltes Connector-Objekt.
 ### Siehe auch
 
 * Schnittstelle [IConnector](../../iconnector)
-* Aufzählung [ShapeType](../../shapetype)
+* Enum [ShapeType](../../shapetype)
 * Schnittstelle [IShapeCollection](../../ishapecollection)
 * Namespace [Aspose.Slides](../../ishapecollection)
 * Assembly [Aspose.Slides](../../../)
 
 ---
 
-## InsertConnector(int, ShapeType, float, float, float, float, bool) {#insertconnector_1}
+## InsertConnector(int, ShapeType, float, float, float, float, bool) {#insertconnector_1}
 
-Erschafft einen neuen Connector und fügt ihn an der angegebenen Stelle in die Sammlung ein.
+Erstellt einen neuen Connector und fügt ihn an der angegebenen Stelle in die Sammlung ein.
 
 ```csharp
 public IConnector InsertConnector(int index, ShapeType shapeType, float x, float y, float width, 
@@ -52,11 +52,11 @@ public IConnector InsertConnector(int index, ShapeType shapeType, float x, float
 | --- | --- | --- |
 | index | Int32 | Der nullbasierte Index, an dem der Wert eingefügt werden soll. |
 | shapeType | ShapeType | Ein [`ShapeType`](../../shapetype) der Form. |
-| x | Single | Die X-Koordinate für die linke Seite des Formrahmens. |
-| y | Single | Die Y-Koordinate für die obere Seite des Formrahmens. |
-| width | Single | Die Breite des Formrahmens. |
-| height | Single | Die Höhe des Formrahmens. |
-| createFromTemplate | Boolean | Wenn wahr, wird die neue Form von der Standardvorlage angepasst. Es werden ein nicht leerer Name, ein einfacher Stil und zentrierter Text der neuen Form zugewiesen. Wenn falsch, haben alle Werte der Eigenschaften der neuen Form die Standardwerte. |
+| x | Single | Die X-Koordinate für die linke Seite des Rahmens der Form. |
+| y | Single | Die Y-Koordinate für die obere Seite des Rahmens der Form. |
+| width | Single | Die Breite des Rahmens der Form. |
+| height | Single | Die Höhe des Rahmens der Form. |
+| createFromTemplate | Boolean | Wenn true, wird die neue Form aus der Standardvorlage angepasst. Ein nicht leerer Name, einfacher Stil, zentrierter Text wird der neuen Form zugewiesen. Wenn false, haben alle Werte der Eigenschaften der neuen Form Standardwerte. |
 
 ### Rückgabewert
 
@@ -65,7 +65,7 @@ Erstelltes Connector-Objekt.
 ### Siehe auch
 
 * Schnittstelle [IConnector](../../iconnector)
-* Aufzählung [ShapeType](../../shapetype)
+* Enum [ShapeType](../../shapetype)
 * Schnittstelle [IShapeCollection](../../ishapecollection)
 * Namespace [Aspose.Slides](../../ishapecollection)
 * Assembly [Aspose.Slides](../../../)

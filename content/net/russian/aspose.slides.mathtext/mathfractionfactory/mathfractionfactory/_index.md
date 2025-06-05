@@ -1,6 +1,6 @@
 ---
 title: MathFractionFactory
-second_title: Ссылка на API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.mathtext/mathfractionfactory/mathfractionfactory/
 public MathFractionFactory()
 ```
 
-### См. также
+### Смотрите Также
 
 * класс [MathFractionFactory](../../mathfractionfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathfractionfactory)

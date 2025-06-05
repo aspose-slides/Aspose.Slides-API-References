@@ -7,7 +7,7 @@ weight: 270
 url: /fr/aspose.slides/ieffectformat/setblureffect/
 ---
 
-## Méthode IEffectFormat.SetBlurEffect
+## IEffectFormat.SetBlurEffect méthode
 
 Définit l'effet de flou.
 
@@ -18,7 +18,7 @@ public void SetBlurEffect(double radius, bool grow)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | radius | Double | Rayon. |
-| grow | Boolean | Croître. |
+| grow | Boolean | Agrandir. |
 
 ### Voir aussi
 

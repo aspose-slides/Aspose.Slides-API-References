@@ -1,7 +1,7 @@
 ---
 title: DrawSlidesFrame
-second_title: Aspose.Slides for .NET API 参考
-description: 为每张幻灯片绘制黑框。可读/可写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 为每个幻灯片周围绘制黑色边框。如果为真，则绘制。可读/可写布尔值。
 type: docs
 weight: 70
 url: /zh/aspose.slides.export/ipdfoptions/drawslidesframe/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/ipdfoptions/drawslidesframe/
 
 ## IPdfOptions.DrawSlidesFrame 属性
 
-为每张幻灯片绘制黑框。可读/可写布尔值。
+为真则在每个幻灯片周围绘制黑色边框。可读/可写布尔值。
 
 ```csharp
 public bool DrawSlidesFrame { get; set; }
@@ -17,9 +17,9 @@ public bool DrawSlidesFrame { get; set; }
 
 ### 备注
 
-默认值是 **false**。
+默认值为 **false**。
 
-### 参见
+### 另请参见
 
 * 接口 [IPdfOptions](../../ipdfoptions)
 * 命名空间 [Aspose.Slides.Export](../../ipdfoptions)

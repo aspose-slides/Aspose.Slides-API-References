@@ -1,6 +1,6 @@
 ---
-title: Caméra
-second_title: Référence API Aspose.Slides pour .NET
+title: Camera
+second_title: Aspose.Sildes pour .NET Référence API
 description: Renvoie ou définit les paramètres d'une caméra. Lecture seule ICameraaspose.slides/icamera.
 type: docs
 weight: 40

@@ -1,7 +1,7 @@
 ---
-title: 绘图指南
-second_title: Aspose.Slides for .NET API 参考
-description: 返回绘图指南的集合。只读 IDrawingGuidesCollection aspose.slides/idrawingguidescollection
+title: DrawingGuides
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回绘图指引的集合。只读 IDrawingGuidesCollectionaspose.slides/idrawingguidescollection
 type: docs
 weight: 10
 url: /zh/aspose.slides/icommonslideviewproperties/drawingguides/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/icommonslideviewproperties/drawingguides/
 
 ## ICommonSlideViewProperties.DrawingGuides 属性
 
-返回绘图指南的集合。只读 [`IDrawingGuidesCollection`](../../idrawingguidescollection)
+返回绘图指引的集合。只读 [`IDrawingGuidesCollection`](../../idrawingguidescollection)
 
 ```csharp
 public IDrawingGuidesCollection DrawingGuides { get; }
@@ -17,7 +17,7 @@ public IDrawingGuidesCollection DrawingGuides { get; }
 
 ### 示例
 
-以下示例代码演示如何在 PowerPoint 演示文稿中添加新的绘图指南。
+以下示例代码展示了如何在 PowerPoint 演示文稿中添加新的绘图指引。
 
 ```csharp
 [C#]
@@ -26,16 +26,16 @@ using (Presentation pres = new Presentation())
     var slideSize = pres.SlideSize.Size;
     
     IDrawingGuidesCollection guides = pres.ViewProperties.SlideViewProperties.DrawingGuides;
-    // 在幻灯片中心右侧添加新的垂直绘图指南
+    // 将新的垂直绘图指引添加到幻灯片中心的右侧
     guides.Add(Orientation.Vertical, slideSize.Width / 2 + 12.5f);
-    // 在幻灯片中心下方添加新的水平绘图指南
+    // 将新的水平绘图指引添加到幻灯片中心的下方
     guides.Add(Orientation.Horizontal, slideSize.Height / 2 + 12.5f);
     
     pres.Save("DrawingGuides_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [IDrawingGuidesCollection](../../idrawingguidescollection)
 * 接口 [ICommonSlideViewProperties](../../icommonslideviewproperties)

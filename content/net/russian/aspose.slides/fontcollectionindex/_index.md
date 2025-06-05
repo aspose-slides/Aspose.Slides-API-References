@@ -1,6 +1,6 @@
 ---
 title: FontCollectionIndex
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет индекс шрифтов в коллекции.
 type: docs
 weight: 4620
@@ -17,7 +17,7 @@ public enum FontCollectionIndex : byte
 
 ### Значения
 
-| Имя | Значение | Описание |
+| Название | Значение | Описание |
 | --- | --- | --- |
 | None | `0` |  |
 | Minor | `1` |  |

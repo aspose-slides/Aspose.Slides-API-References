@@ -1,13 +1,13 @@
 ---
 title: GetChildren
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Obtener elementos hijos
 type: docs
 weight: 50
 url: /es/aspose.slides.mathtext/mathradical/getchildren/
 ---
 
-## Método MathRadical.GetChildren
+## MathRadical.GetChildren método
 
 Obtener elementos hijos
 
@@ -15,7 +15,7 @@ Obtener elementos hijos
 public IMathElement[] GetChildren()
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IMathElement](../../imathelement)
 * clase [MathRadical](../../mathradical)

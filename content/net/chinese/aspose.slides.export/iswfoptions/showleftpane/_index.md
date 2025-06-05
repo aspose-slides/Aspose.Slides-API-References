@@ -1,7 +1,7 @@
 ---
 title: ShowLeftPane
-second_title: Aspose.Sildes for .NET API Reference
-description: 显示/隐藏左侧面板。可以在flashvars中被重写。默认值为true。
+second_title: Aspose.Slides for .NET API Reference
+description: 显示/隐藏左侧面板。可以在 flashvars 中覆盖。默认值为 true。
 type: docs
 weight: 100
 url: /zh/aspose.slides.export/iswfoptions/showleftpane/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.export/iswfoptions/showleftpane/
 
 ## ISwfOptions.ShowLeftPane 属性
 
-显示/隐藏左侧面板。可以在flashvars中被重写。默认值为true。
+显示/隐藏左侧面板。可以在 flashvars 中覆盖。默认值为 true。
 
 ```csharp
 public bool ShowLeftPane { get; set; }
 ```
 
-### 参见
+### 另见
 
 * 接口 [ISwfOptions](../../iswfoptions)
 * 命名空间 [Aspose.Slides.Export](../../iswfoptions)

@@ -1,5 +1,5 @@
 ---
-title: Gráfico
+title: Chart
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el gráfico padre. Solo lectura IChartaspose.slides.charts/ichart.
 type: docs
@@ -15,7 +15,7 @@ Devuelve el gráfico padre. Solo lectura [`IChart`](../../ichart).
 public IChart Chart { get; }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [IChart](../../ichart)
 * clase [Trendline](../../trendline)

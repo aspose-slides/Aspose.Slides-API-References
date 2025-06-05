@@ -1,7 +1,7 @@
 ---
-title: АльтернативныйТекстЗаголовок
-second_title: Aspose.Sildes для .NET Справочник по API
-description: Возвращает или устанавливает заголовок альтернативного текста, связанного с фигурой. Чтение/запись Строка.
+title: AlternativeTextTitle
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или устанавливает заголовок альтернативного текста, связанного с фигурой. Читаемая/записываемая строка.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ishape/alternativetexttitle/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/ishape/alternativetexttitle/
 
 ## IShape.AlternativeTextTitle свойство
 
-Возвращает или устанавливает заголовок альтернативного текста, связанного с фигурой. Чтение/запись Строка.
+Возвращает или устанавливает заголовок альтернативного текста, связанного с фигурой. Читаемая/записываемая строка.
 
 ```csharp
 public string AlternativeTextTitle { get; set; }
 ```
 
-### Также см. 
+### См. также
 
 * интерфейс [IShape](../../ishape)
 * пространство имен [Aspose.Slides](../../ishape)

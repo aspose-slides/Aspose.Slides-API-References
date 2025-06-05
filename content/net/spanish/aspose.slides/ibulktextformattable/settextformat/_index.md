@@ -1,7 +1,7 @@
 ---
 title: SetTextFormat
-second_title: Aspose.Slides para .NET Referencia de API
-description: Establece propiedades de formato de porciones definidas a todas las porciones de los elementos.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Establece propiedades de formato de porción definidas a todas las porciones de los elementos.
 type: docs
 weight: 10
 url: /es/aspose.slides/ibulktextformattable/settextformat/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/ibulktextformattable/settextformat/
 
 ## SetTextFormat(IPortionFormat) {#settextformat_1}
 
-Establece propiedades de formato de porciones definidas a todas las porciones del elemento.
+Establece propiedades de formato de porción definidas a todas las porciones del elemento.
 
 ```csharp
 public void SetTextFormat(IPortionFormat source)
@@ -17,9 +17,9 @@ public void SetTextFormat(IPortionFormat source)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| source | IPortionFormat | Objeto IPortionFormat con las propiedades necesarias establecidas. |
+| source | IPortionFormat | Objeto IPortionFormat con las propiedades necesarias configuradas. |
 
-### Véase También
+### Ver También
 
 * interface [IPortionFormat](../../iportionformat)
 * interface [IBulkTextFormattable](../../ibulktextformattable)
@@ -38,9 +38,9 @@ public void SetTextFormat(IParagraphFormat source)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| source | IParagraphFormat | Objeto IParagraphFormat con las propiedades necesarias establecidas. |
+| source | IParagraphFormat | Objeto IParagraphFormat con las propiedades necesarias configuradas. |
 
-### Véase También
+### Ver También
 
 * interface [IParagraphFormat](../../iparagraphformat)
 * interface [IBulkTextFormattable](../../ibulktextformattable)
@@ -59,9 +59,9 @@ public void SetTextFormat(ITextFrameFormat source)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| source | ITextFrameFormat | Objeto ITextFrameFormat con las propiedades necesarias establecidas. |
+| source | ITextFrameFormat | Objeto ITextFrameFormat con las propiedades necesarias configuradas. |
 
-### Véase También
+### Ver También
 
 * interface [ITextFrameFormat](../../itextframeformat)
 * interface [IBulkTextFormattable](../../ibulktextformattable)

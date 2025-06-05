@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/ichartseries/bar3dshape/
 ---
+
 ## IChartSeries.Bar3DShape property
 
 Specifies the shape of a series of a 3-D bar chart. Changing of value of this property can cause to automatically changing Type of series. Read/write [`ChartShapeType`](../../chartshapetype).

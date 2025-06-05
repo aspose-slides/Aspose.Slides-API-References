@@ -1,6 +1,6 @@
 ---
 title: TextFrame
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve el texto de la forma SmartArt. Solo lectura ITextFrameaspose.slides/itextframe.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ Devuelve el texto de la forma SmartArt. Solo lectura [`ITextFrame`](../../../asp
 public ITextFrame TextFrame { get; }
 ```
 
-### Vea También
+### Ver También
 
 * interfaz [ITextFrame](../../../aspose.slides/itextframe)
 * clase [SmartArtShape](../../smartartshape)

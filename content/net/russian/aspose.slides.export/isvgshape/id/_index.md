@@ -1,15 +1,15 @@
 ---
 title: Id
-second_title: Справочник API Aspose.Slides для .NET
-description: Устанавливает или получает id для формы
+second_title: Aspose.Slides для .NET API Справочник
+description: Устанавливает или получает id для фигуры
 type: docs
 weight: 10
 url: /ru/aspose.slides.export/isvgshape/id/
 ---
 
-## Свойство ISvgShape.Id
+## ISvgShape.Id свойство
 
-Устанавливает или получает id для формы
+Устанавливает или получает id для фигуры
 
 ```csharp
 public string Id { get; set; }

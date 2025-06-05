@@ -19,14 +19,14 @@ public interface IWarningInfo
 
 | 名称 | 描述 |
 | --- | --- |
-| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | 返回此警告的人类可读描述。只读字符串。 |
-| [WarningType](../../aspose.slides.warnings/iwarninginfo/warningtype) { get; } | 返回警告的类型。只读 [`WarningType`](./warningtype)。 |
+| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | 返回此警告的可读描述。唯读字符串。 |
+| [WarningType](../../aspose.slides.warnings/iwarninginfo/warningtype) { get; } | 返回一个警告的类型。唯读 [`WarningType`](./warningtype)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [SendWarning](../../aspose.slides.warnings/iwarninginfo/sendwarning)(IWarningCallback) | 如果接收者不为 null，则将警告发送给指定的接收者，并在接收者决定中止操作时抛出 AbortRequestedException。 |
+| [SendWarning](../../aspose.slides.warnings/iwarninginfo/sendwarning)(IWarningCallback) | 如果接收器不为 null，则向指定接收器发送警告，并在接收器决定中止操作时抛出 AbortRequestedException。 |
 
 ### 另请参阅
 

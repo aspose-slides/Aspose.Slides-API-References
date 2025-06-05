@@ -1,7 +1,7 @@
 ---
 title: SplitByRowSpan
-second_title: Aspose.Sildes for .NET API 参考
-description: 通过行的索引将单元格分割为两个单元格。
+second_title: Aspose.Sildes for .NET API Reference
+description: 按行索引将单元格拆分为两个单元格。
 type: docs
 weight: 260
 url: /zh/aspose.slides/icell/splitbyrowspan/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/icell/splitbyrowspan/
 
 ## ICell.SplitByRowSpan 方法
 
-通过行的索引将单元格分割为两个单元格。
+按行索引将单元格拆分为两个单元格。
 
 ```csharp
 public void SplitByRowSpan(int index)
@@ -17,7 +17,7 @@ public void SplitByRowSpan(int index)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 行的索引。 |
+| index | Int32 | 行索引。 |
 
 ### 另请参见
 

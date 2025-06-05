@@ -1,7 +1,7 @@
 ---
 title: DisableFontLigatures
 second_title: Aspose.Sildes for .NET API Reference
-description: 获取或设置一个值，指示文本是否在不使用连字的情况下呈现。当设置为 true 时，渲染输出中将禁用连字。默认情况下，此属性设置为 false。
+description: 获取或设置一个值，该值指示文本是否在不使用连字的情况下渲染。当设置为 true 时，渲染输出中的连字将被禁用。默认情况下，此属性设置为 false。
 type: docs
 weight: 70
 url: /zh/aspose.slides.export/svgoptions/disablefontligatures/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/svgoptions/disablefontligatures/
 
 ## SVGOptions.DisableFontLigatures 属性
 
-获取或设置一个值，指示文本是否在不使用连字的情况下呈现。当设置为 `true` 时，渲染输出中将禁用连字。默认情况下，此属性设置为 `false`。
+获取或设置一个值，该值指示文本是否在不使用连字的情况下渲染。当设置为 `true` 时，渲染输出中的连字将被禁用。默认情况下，此属性设置为 `false`。
 
 ```csharp
 public bool DisableFontLigatures { get; set; }
@@ -35,7 +35,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 另见
+### 参见
 
 * class [SVGOptions](../../svgoptions)
 * namespace [Aspose.Slides.Export](../../svgoptions)

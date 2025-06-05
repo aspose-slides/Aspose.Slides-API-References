@@ -1,15 +1,15 @@
 ---
 title: AxisAggregationType
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示分类坐标轴的聚合类型。仅用于直方图或直方图帕累托系列。
+description: 表示类别轴的聚合类型。仅用于直方图或直方图帕累托系列。
 type: docs
 weight: 1110
 url: /zh/aspose.slides.charts/axisaggregationtype/
 ---
 
-## AxisAggregationType枚举
+## AxisAggregationType 枚举
 
-表示分类坐标轴的聚合类型。仅用于直方图或直方图帕累托系列。
+表示类别轴的聚合类型。仅用于直方图或直方图帕累托系列。
 
 ```csharp
 public enum AxisAggregationType
@@ -21,10 +21,10 @@ public enum AxisAggregationType
 | --- | --- | --- |
 | ByCategory | `0` | 按类别聚合 |
 | Automatic | `1` | 自动聚合类别。 |
-| ByBinWidth | `2` | 按箱宽聚合类别。属性IAxis.BinWidth必须被设置。 |
-| ByNumberOfBins | `3` | 按箱数聚合类别。属性IAxis.NumberOfBins必须被设置。 |
+| ByBinWidth | `2` | 按箱宽度聚合类别。属性 IAxis.BinWidth 必须设置。 |
+| ByNumberOfBins | `3` | 按箱的数量聚合类别。属性 IAxis.NumberOfBins 必须设置。 |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程序集 [Aspose.Slides](../../)

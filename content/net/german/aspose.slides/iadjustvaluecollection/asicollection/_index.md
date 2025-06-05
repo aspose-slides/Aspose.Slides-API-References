@@ -1,7 +1,7 @@
 ---
 title: AsICollection
-second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht den Zugriff auf die Grund-ICollection-Schnittstelle. Schreibgeschützte ICollection.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ermöglicht den Zugriff auf die Basis ICollection-Schnittstelle. Nur-Lese ICollection.
 type: docs
 weight: 10
 url: /de/aspose.slides/iadjustvaluecollection/asicollection/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iadjustvaluecollection/asicollection/
 
 ## IAdjustValueCollection.AsICollection-Eigenschaft
 
-Ermöglicht den Zugriff auf die Grund-ICollection-Schnittstelle. Schreibgeschützte ICollection.
+Ermöglicht den Zugriff auf die Basis ICollection-Schnittstelle. Nur-Lese ICollection.
 
 ```csharp
 public ICollection AsICollection { get; }

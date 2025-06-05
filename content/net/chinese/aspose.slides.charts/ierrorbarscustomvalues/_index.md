@@ -1,15 +1,15 @@
 ---
 title: IErrorBarsCustomValues
-second_title: Aspose.Slidese for .NET API参考
-description: 指定误差条值，仅在误差条值类型为自定义时使用。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定误差条值。仅在误差条值类型为自定义时使用。
 type: docs
 weight: 2000
 url: /zh/aspose.slides.charts/ierrorbarscustomvalues/
 ---
 
-## IErrorBarsCustomValues接口
+## IErrorBarsCustomValues 接口
 
-指定误差条值，仅在误差条值类型为自定义时使用。
+指定误差条值。仅在误差条值类型为自定义时使用。
 
 ```csharp
 public interface IErrorBarsCustomValues
@@ -19,10 +19,10 @@ public interface IErrorBarsCustomValues
 
 | 名称 | 描述 |
 | --- | --- |
-| [XMinus](../../aspose.slides.charts/ierrorbarscustomvalues/xminus) { get; } | 指定负方向的误差条值。仅在误差条值类型为自定义且允许ErrorBarsXFormat时可用。在其他情况下，此属性返回null。只读 [`IDoubleChartValue`](../idoublechartvalue)。 |
-| [XPlus](../../aspose.slides.charts/ierrorbarscustomvalues/xplus) { get; } | 指定正方向的误差条值。仅在误差条值类型为自定义且允许ErrorBarsXFormat时可用。在其他情况下，此属性返回null。只读 [`IDoubleChartValue`](../idoublechartvalue)。 |
-| [YMinus](../../aspose.slides.charts/ierrorbarscustomvalues/yminus) { get; } | 指定负方向的误差条值。仅在误差条值类型为自定义且允许ErrorBarsYFormat时可用。在其他情况下，此属性返回null。只读 [`IDoubleChartValue`](../idoublechartvalue)。 |
-| [YPlus](../../aspose.slides.charts/ierrorbarscustomvalues/yplus) { get; } | 指定正方向的误差条值。仅在误差条值类型为自定义且允许ErrorBarsYFormat时可用。在其他情况下，此属性返回null。只读 [`IDoubleChartValue`](../idoublechartvalue)。 |
+| [XMinus](../../aspose.slides.charts/ierrorbarscustomvalues/xminus) { get; } | 指定负方向的误差条值。如果误差条值类型为自定义且允许 ErrorBarsXFormat，则可用。在其他任何情况下，此属性返回 null。只读 [`IDoubleChartValue`](../idoublechartvalue)。 |
+| [XPlus](../../aspose.slides.charts/ierrorbarscustomvalues/xplus) { get; } | 指定正方向的误差条值。如果误差条值类型为自定义且允许 ErrorBarsXFormat，则可用。在其他任何情况下，此属性返回 null。只读 [`IDoubleChartValue`](../idoublechartvalue)。 |
+| [YMinus](../../aspose.slides.charts/ierrorbarscustomvalues/yminus) { get; } | 指定负方向的误差条值。如果误差条值类型为自定义且允许 ErrorBarsYFormat，则可用。在其他任何情况下，此属性返回 null。只读 [`IDoubleChartValue`](../idoublechartvalue)。 |
+| [YPlus](../../aspose.slides.charts/ierrorbarscustomvalues/yplus) { get; } | 指定正方向的误差条值。如果误差条值类型为自定义且允许 ErrorBarsYFormat，则可用。在其他任何情况下，此属性返回 null。只读 [`IDoubleChartValue`](../idoublechartvalue)。 |
 
 ### 另请参阅
 

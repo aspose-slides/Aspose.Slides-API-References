@@ -1,6 +1,6 @@
 ---
-title: Хранение
-second_title: Справка по API Aspose.Slides для .NET
+title: Storage
+second_title: Aspose.Sildes для .NET API Reference
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export.web/storage/storage/
 public Storage()
 ```
 
-### См. также
+### См. Также
 
 * класс [Storage](../../storage)
 * пространство имен [Aspose.Slides.Export.Web](../../storage)

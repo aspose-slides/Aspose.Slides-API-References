@@ -7,7 +7,7 @@ weight: 10
 url: /de/aspose.slides.charts/iformattedtextcontainer/asichartcomponent/
 ---
 
-## IFormattedTextContainer.AsIChartComponent-Eigenschaft
+## IFormattedTextContainer.AsIChartComponent Eigenschaft
 
 Gibt das IChartComponent-Interface zurück. Nur-Lese [`IChartComponent`](../../ichartcomponent).
 
@@ -17,7 +17,7 @@ public IChartComponent AsIChartComponent { get; }
 
 ### Anmerkungen
 
-Für die COM-Kompatibilität.
+Für COM-Kompatibilität.
 
 ### Siehe auch
 

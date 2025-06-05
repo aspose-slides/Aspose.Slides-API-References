@@ -1,6 +1,6 @@
 ---
 title: Orientation
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Obtient ou définit l'orientation d'un espace réservé. Lecture seule Orientationaspose.slides/orientation.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ Obtient ou définit l'orientation d'un espace réservé. Lecture seule [`Orienta
 public Orientation Orientation { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [Orientation](../../orientation)
 * class [Placeholder](../../placeholder)

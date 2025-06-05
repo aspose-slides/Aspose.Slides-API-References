@@ -1,7 +1,7 @@
 ---
 title: SyncRoot
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt eine Synchronisierungswurzel zurück. Nur Leseobjekt.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt eine Synchronisationswurzel zurück. Schreibgeschütztes Objekt.
 type: docs
 weight: 40
 url: /de/aspose.slides.smartart/smartartnodecollection/syncroot/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.smartart/smartartnodecollection/syncroot/
 
 ## SmartArtNodeCollection.SyncRoot-Eigenschaft
 
-Gibt eine Synchronisierungswurzel zurück. Nur Leseobjekt.
+Gibt eine Synchronisationswurzel zurück. Schreibgeschütztes Objekt.
 
 ```csharp
 public object SyncRoot { get; }
 ```
 
-### Auch zu sehen
+### Siehe auch
 
 * Klasse [SmartArtNodeCollection](../../smartartnodecollection)
 * Namespace [Aspose.Slides.SmartArt](../../smartartnodecollection)

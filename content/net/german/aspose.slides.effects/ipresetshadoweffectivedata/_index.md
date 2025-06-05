@@ -1,15 +1,15 @@
 ---
 title: IPresetShadowEffectiveData
-second_title: Aspose.Slides für .NET API Referenz
-description: Unveränderliches Objekt, das einen vordefinierten Schattierungseffekt darstellt.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Unveränderliches Objekt, das einen Preset-Schatteneffekt darstellt.
 type: docs
 weight: 3370
 url: /de/aspose.slides.effects/ipresetshadoweffectivedata/
 ---
 
-## IPresetShadowEffectiveData Schnittstelle
+## IPresetShadowEffectiveData-Schnittstelle
 
-Unveränderliches Objekt, das einen vordefinierten Schattierungseffekt darstellt.
+Unveränderliches Objekt, das einen Preset-Schatteneffekt darstellt.
 
 ```csharp
 public interface IPresetShadowEffectiveData : IEffectEffectiveData
@@ -19,13 +19,13 @@ public interface IPresetShadowEffectiveData : IEffectEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ipresetshadoweffectivedata/asieffecteffectivedata) { get; } | Ermöglicht den Zugriff auf die basale IEffectEffectiveData Schnittstelle. Nur-lesbar [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Direction](../../aspose.slides.effects/ipresetshadoweffectivedata/direction) { get; } | Richtung des Schattens. Nur-lesbar Single. |
-| [Distance](../../aspose.slides.effects/ipresetshadoweffectivedata/distance) { get; } | Entfernung des Schattens. Nur-lesbar Double. |
-| [Preset](../../aspose.slides.effects/ipresetshadoweffectivedata/preset) { get; } | Voreinstellung. Nur-lesbar [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
-| [ShadowColor](../../aspose.slides.effects/ipresetshadoweffectivedata/shadowcolor) { get; } | Farbe des Schattens. Nur-lesbar Color. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ipresetshadoweffectivedata/asieffecteffectivedata) { get; } | Ermöglicht den Zugriff auf die basale IEffectEffectiveData-Schnittstelle. Schreibgeschützt [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Direction](../../aspose.slides.effects/ipresetshadoweffectivedata/direction) { get; } | Richtung des Schattens. Schreibgeschützte Single. |
+| [Distance](../../aspose.slides.effects/ipresetshadoweffectivedata/distance) { get; } | Distanz des Schattens. Schreibgeschützte Double. |
+| [Preset](../../aspose.slides.effects/ipresetshadoweffectivedata/preset) { get; } | Preset. Schreibgeschützt [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [ShadowColor](../../aspose.slides.effects/ipresetshadoweffectivedata/shadowcolor) { get; } | Farbe des Schattens. Schreibgeschützt Color. |
 
-### Siehe auch
+### siehe auch
 
 * Schnittstelle [IEffectEffectiveData](../ieffecteffectivedata)
 * Namespace [Aspose.Slides.Effects](../../aspose.slides.effects)

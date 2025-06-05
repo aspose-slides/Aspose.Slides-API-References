@@ -1,6 +1,6 @@
 ---
 title: CreateThemeEffective
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для справочной информации по API .NET
 description: Возвращает объект темы.
 type: docs
 weight: 40

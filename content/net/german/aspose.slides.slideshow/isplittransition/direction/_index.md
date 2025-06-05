@@ -1,15 +1,15 @@
 ---
-title: Richtung
-second_title: Aspose.Slides für .NET API Referenz
-description: Richtung des Übergangssplits. Lese-/Schreibeigenschaft TransitionInOutDirectionTypeaspose.slides.slideshow/transitioninoutdirectiontype.
+title: Direction
+second_title: Aspose.Sildes für .NET API Referenz
+description: Richtung der Übergangsaufteilung. Lesen/ Schreiben TransitionInOutDirectionTypeaspose.slides/transitioninoutdirectiontype.
 type: docs
 weight: 20
 url: /de/aspose.slides.slideshow/isplittransition/direction/
 ---
 
-## ISplitTransition.Direction-Eigenschaft
+## ISplitTransition.Direction Eigenschaft
 
-Richtung des Übergangssplits. Lese-/Schreibeigenschaft [`TransitionInOutDirectionType`](../../transitioninoutdirectiontype).
+Richtung der Übergangsaufteilung. Lesen/ Schreiben [`TransitionInOutDirectionType`](../../transitioninoutdirectiontype).
 
 ```csharp
 public TransitionInOutDirectionType Direction { get; set; }

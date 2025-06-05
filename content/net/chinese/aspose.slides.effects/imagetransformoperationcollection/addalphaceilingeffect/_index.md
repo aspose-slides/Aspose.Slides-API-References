@@ -1,6 +1,6 @@
 ---
 title: AddAlphaCeilingEffect
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 将新的 Alpha Ceiling 效果添加到集合的末尾。
 type: docs
 weight: 60
@@ -19,7 +19,7 @@ public IAlphaCeiling AddAlphaCeilingEffect()
 
 集合中新图像效果的索引。
 
-### 参见
+### 相关内容
 
 * 接口 [IAlphaCeiling](../../ialphaceiling)
 * 类 [ImageTransformOperationCollection](../../imagetransformoperationcollection)

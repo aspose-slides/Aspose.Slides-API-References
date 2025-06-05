@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides/itextframeformat/textstyle/
 ---
+
 ## ITextFrameFormat.TextStyle property
 
 Returns text's style. Read-only [`ITextStyle`](../../itextstyle).

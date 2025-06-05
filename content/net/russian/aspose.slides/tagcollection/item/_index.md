@@ -1,7 +1,7 @@
 ---
-title: Элемент
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает или устанавливает пару ключ и значение тега.
+title: Item
+second_title: Ссылка на API Aspose.Slides для .NET
+description: Возвращает или устанавливает пару ключа и значения тега.
 type: docs
 weight: 30
 url: /ru/aspose.slides/tagcollection/item/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/tagcollection/item/
 
 ## Индексатор TagCollection
 
-Возвращает или устанавливает пару ключ и значение тега.
+Возвращает или устанавливает пару ключа и значения тега.
 
 ```csharp
 public string this[string name] { get; set; }
@@ -23,7 +23,7 @@ public string this[string name] { get; set; }
 
 Значение тега.
 
-### См. также
+### Также смотри
 
 * класс [TagCollection](../../tagcollection)
 * пространство имен [Aspose.Slides](../../tagcollection)

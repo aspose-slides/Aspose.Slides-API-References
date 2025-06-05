@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.effects/imagetransformoperationcollection/addalphaflooreffect/
 ---
+
 ## ImageTransformOperationCollection.AddAlphaFloorEffect method
 
 Adds the new Alpha Floor effect to the end of a collection.

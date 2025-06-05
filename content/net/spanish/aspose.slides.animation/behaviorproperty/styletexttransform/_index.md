@@ -1,6 +1,6 @@
 ---
 title: StyleTextTransform
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa la propiedad style.textTransform
 type: docs
 weight: 1180
@@ -15,7 +15,7 @@ Representa la propiedad 'style.textTransform'
 public static BehaviorProperty StyleTextTransform { get; }
 ```
 
-### Consulta También
+### Ver También
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)

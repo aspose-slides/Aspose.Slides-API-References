@@ -1,7 +1,7 @@
 ---
 title: CaptionsCollection
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt eine Sammlung der geschlossenen Untertitel dar.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt eine Sammlung der Untertitel dar.
 type: docs
 weight: 1040
 url: /de/aspose.slides/captionscollection/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/captionscollection/
 
 ## CaptionsCollection-Klasse
 
-Stellt eine Sammlung der geschlossenen Untertitel dar.
+Stellt eine Sammlung der Untertitel dar.
 
 ```csharp
 public sealed class CaptionsCollection : ICaptionsCollection
@@ -20,18 +20,18 @@ public sealed class CaptionsCollection : ICaptionsCollection
 | Name | Beschreibung |
 | --- | --- |
 | [Count](../../aspose.slides/captionscollection/count) { get; } | Gibt die Anzahl der Elemente in der Sammlung zurück. Nur lesbar Int32. |
-| [Item](../../aspose.slides/captionscollection/item) { get; } | Gibt die geschlossenen Untertitel am angegebenen Index zurück. Nur lesbar [`ICaptions`](../icaptions). |
+| [Item](../../aspose.slides/captionscollection/item) { get; } | Gibt die Untertitel am angegebenen Index zurück. Nur lesbar [`ICaptions`](../icaptions). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.slides/captionscollection/add#add)(string, Stream) | Fügt WebVTT-geschlossene Untertitel am Ende der Sammlung aus einem Stream hinzu. |
-| [Add](../../aspose.slides/captionscollection/add#add_1)(string, string) | Fügt WebVTT-geschlossene Untertitel am Ende der Sammlung hinzu. |
-| [Clear](../../aspose.slides/captionscollection/clear)() | Entfernt alle geschlossenen Untertitel aus der Sammlung. |
+| [Add](../../aspose.slides/captionscollection/add#add)(string, Stream) | Fügt WebVTT-Untertitel am Ende der Sammlung aus einem Stream hinzu. |
+| [Add](../../aspose.slides/captionscollection/add#add_1)(string, string) | Fügt WebVTT-Untertitel am Ende der Sammlung hinzu. |
+| [Clear](../../aspose.slides/captionscollection/clear)() | Entfernt alle Untertitel aus der Sammlung. |
 | [GetEnumerator](../../aspose.slides/captionscollection/getenumerator)() | Gibt einen Enumerator zurück, der durch die Sammlung iteriert. |
-| [Remove](../../aspose.slides/captionscollection/remove)(ICaptions) | Entfernt die angegebenen geschlossenen Untertitel aus der Sammlung. |
-| [RemoveAt](../../aspose.slides/captionscollection/removeat)(int) | Entfernt die geschlossenen Untertitel am angegebenen Index. |
+| [Remove](../../aspose.slides/captionscollection/remove)(ICaptions) | Entfernt die angegebenen Untertitel aus der Sammlung. |
+| [RemoveAt](../../aspose.slides/captionscollection/removeat)(int) | Entfernt die Untertitel am angegebenen Index. |
 
 ### Siehe auch
 

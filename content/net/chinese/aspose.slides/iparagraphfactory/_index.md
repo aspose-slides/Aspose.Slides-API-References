@@ -1,13 +1,13 @@
 ---
 title: IParagraphFactory
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 允许创建段落
 type: docs
 weight: 6380
 url: /zh/aspose.slides/iparagraphfactory/
 ---
 
-## IParagraphFactory 接口
+## IParagraphFactory interface
 
 允许创建段落
 
@@ -24,7 +24,7 @@ public interface IParagraphFactory
 
 ### 备注
 
-为了与 COM 兼容。
+为了与COM兼容。
 
 ### 另见
 

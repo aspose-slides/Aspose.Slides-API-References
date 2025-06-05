@@ -1,21 +1,21 @@
 ---
 title: CreateThemeEffective
 second_title: Aspose.Sildes for .NET API Reference
-description: 返回此幻灯片的有效主题。
+description: 返回该幻灯片的有效主题。
 type: docs
 weight: 120
 url: /zh/aspose.slides/baseslide/createthemeeffective/
 ---
 
-## BaseSlide.CreateThemeEffective 方法
+## BaseSlide.CreateThemeEffective method
 
-返回此幻灯片的有效主题。
+返回该幻灯片的有效主题。
 
 ```csharp
 public IThemeEffectiveData CreateThemeEffective()
 ```
 
-### 另见
+### 参见
 
 * 接口 [IThemeEffectiveData](../../../aspose.slides.theme/ithemeeffectivedata)
 * 类 [BaseSlide](../../baseslide)

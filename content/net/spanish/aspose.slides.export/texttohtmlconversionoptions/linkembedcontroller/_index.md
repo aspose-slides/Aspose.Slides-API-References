@@ -1,7 +1,7 @@
 ---
 title: LinkEmbedController
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve o establece un objeto de callback que controla cómo se almacenará el objeto externo. Lectura/escritura ILinkEmbedControlleraspose.slides.export/ilinkembedcontroller.
+description: Devuelve o establece un objeto de devolución de llamada que controla cómo se almacenará el objeto externo. Leer/escribir ILinkEmbedControlleraspose.slides.export/ilinkembedcontroller.
 type: docs
 weight: 40
 url: /es/aspose.slides.export/texttohtmlconversionoptions/linkembedcontroller/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.export/texttohtmlconversionoptions/linkembedcontroller/
 
 ## Propiedad TextToHtmlConversionOptions.LinkEmbedController
 
-Devuelve o establece un objeto de callback que controla cómo se almacenará el objeto externo. Lectura/escritura [`ILinkEmbedController`](../../ilinkembedcontroller).
+Devuelve o establece un objeto de devolución de llamada que controla cómo se almacenará el objeto externo. Leer/escribir [`ILinkEmbedController`](../../ilinkembedcontroller).
 
 ```csharp
 public ILinkEmbedController LinkEmbedController { get; set; }

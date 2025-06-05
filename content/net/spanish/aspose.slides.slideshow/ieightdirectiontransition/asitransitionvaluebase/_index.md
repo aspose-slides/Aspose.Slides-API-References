@@ -1,13 +1,13 @@
 ---
 title: AsITransitionValueBase
-second_title: Referencia API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Permite obtener la interfaz base ITransitionValueBase. ITransitionValueBase de solo lectura aspose.slides.slideshow/itransitionvaluebase.
 type: docs
 weight: 10
 url: /es/aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase/
 ---
 
-## IEightDirectionTransition.AsITransitionValueBase propiedad
+## IEightDirectionTransition.AsITransitionValueBase property
 
 Permite obtener la interfaz base ITransitionValueBase. [`ITransitionValueBase`](../../itransitionvaluebase) de solo lectura.
 
@@ -19,7 +19,7 @@ public ITransitionValueBase AsITransitionValueBase { get; }
 
 * interfaz [ITransitionValueBase](../../itransitionvaluebase)
 * interfaz [IEightDirectionTransition](../../ieightdirectiontransition)
-* espacio de nombres [Aspose.Slides.SlideShow](../../ieightdirectiontransition)
-* ensamblado [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.SlideShow](../../ieightdirectiontransition)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

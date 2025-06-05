@@ -1,7 +1,7 @@
 ---
 title: AddEmbeddedFont
-second_title: Aspose.Sildes для .NET API Reference
-description: Добавляет встроенный шрифт. Имейте в виду, что большинство шрифтов защищены авторским правом. Сначала найдите лицензию на шрифт заранее и убедитесь, что его можно свободно переносить на другой компьютер. Исключение ArgumentException может быть выброшено, если данные шрифта равны null или этот шрифт уже встроен.
+second_title: Aspose.Slides для справки по API .NET
+description: Добавляет встраиваемый шрифт. Имейте в виду, что при копировании любых шрифтов большинство из них защищены авторским правом. Сначала найдите лицензию шрифта и убедитесь, что его можно свободно переносить на другое устройство. Исключение ArgumentException может быть выброшено, если данные шрифта равны null или этот шрифт уже встроен
 type: docs
 weight: 30
 url: /ru/aspose.slides/ifontsmanager/addembeddedfont/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ifontsmanager/addembeddedfont/
 
 ## AddEmbeddedFont(IFontData, EmbedFontCharacters) {#addembeddedfont}
 
-Добавляет встроенный шрифт. Имейте в виду, что большинство шрифтов защищены авторским правом. Сначала найдите лицензию на шрифт заранее и убедитесь, что его можно свободно переносить на другой компьютер. Исключение ArgumentException может быть выброшено, если данные шрифта равны null или этот шрифт уже встроен.
+Добавляет встраиваемый шрифт. Имейте в виду, что при копировании любых шрифтов большинство из них защищены авторским правом. Сначала найдите лицензию шрифта и убедитесь, что его можно свободно переносить на другое устройство. Исключение ArgumentException может быть выброшено, если данные шрифта равны null или этот шрифт уже встроен
 
 ```csharp
 public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRule)
@@ -18,9 +18,9 @@ public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRul
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fontData | IFontData | Объект данных шрифта [`IFontData`](../../ifontdata) |
-| embedFontRule | EmbedFontCharacters | Правило встраивания шрифта [`EmbedFontCharacters`](../../../aspose.slides.export/embedfontcharacters) |
+| embedFontRule | EmbedFontCharacters | Правило встроенного шрифта [`EmbedFontCharacters`](../../../aspose.slides.export/embedfontcharacters) |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IFontData](../../ifontdata)
 * перечисление [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters)
@@ -32,7 +32,7 @@ public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRul
 
 ## AddEmbeddedFont(byte[], EmbedFontCharacters) {#addembeddedfont_1}
 
-Добавляет встроенный шрифт. Имейте в виду, что большинство шрифтов защищены авторским правом. Сначала найдите лицензию на шрифт заранее и убедитесь, что его можно свободно переносить на другой компьютер. Исключение ArgumentException может быть выброшено, если данные шрифта равны null или этот шрифт уже встроен.
+Добавляет встраиваемый шрифт. Имейте в виду, что при добавлении любых шрифтов большинство из них защищены авторским правом. Сначала найдите лицензию шрифта и убедитесь, что его можно свободно переносить на другое устройство. Исключение ArgumentException может быть выброшено, если данные шрифта равны null или этот шрифт уже встроен
 
 ```csharp
 public void AddEmbeddedFont(byte[] fontData, EmbedFontCharacters embedFontRule)
@@ -41,9 +41,9 @@ public void AddEmbeddedFont(byte[] fontData, EmbedFontCharacters embedFontRule)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fontData | Byte[] | Данные шрифта Byte[] |
-| embedFontRule | EmbedFontCharacters | Правило встраивания шрифта [`EmbedFontCharacters`](../../../aspose.slides.export/embedfontcharacters) |
+| embedFontRule | EmbedFontCharacters | Правило встроенного шрифта [`EmbedFontCharacters`](../../../aspose.slides.export/embedfontcharacters) |
 
-### Смотрите также
+### См. также
 
 * перечисление [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters)
 * интерфейс [IFontsManager](../../ifontsmanager)

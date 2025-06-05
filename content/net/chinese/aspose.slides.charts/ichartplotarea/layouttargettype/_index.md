@@ -1,7 +1,7 @@
 ---
 title: LayoutTargetType
-second_title: Aspose.Sildes for .NET API Reference
-description: 如果手动定义了绘图区域的布局，则此属性指定是通过其内部（不包括坐标轴和坐标轴标签）还是外部（包括坐标轴和坐标轴标签）来布局绘图区域。读/写 LayoutTargetType。
+second_title: Aspose.Slides for .NET API Reference
+description: 如果图表区域的布局是手动定义的，此属性指定是按内部（不包括坐标轴和坐标轴标签）布局图表区域，还是按外部（包括坐标轴和坐标轴标签）布局。可读写 LayoutTargetType。
 type: docs
 weight: 40
 url: /zh/aspose.slides.charts/ichartplotarea/layouttargettype/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ichartplotarea/layouttargettype/
 
 ## IChartPlotArea.LayoutTargetType 属性
 
-如果手动定义了绘图区域的布局，则此属性指定是通过其内部（不包括坐标轴和坐标轴标签）还是外部（包括坐标轴和坐标轴标签）来布局绘图区域。读/写 `LayoutTargetType`。
+如果图表区域的布局是手动定义的，此属性指定是按内部（不包括坐标轴和坐标轴标签）布局图表区域，还是按外部（包括坐标轴和坐标轴标签）布局。可读写 `LayoutTargetType`。
 
 ```csharp
 public LayoutTargetType LayoutTargetType { get; set; }
@@ -19,7 +19,7 @@ public LayoutTargetType LayoutTargetType { get; set; }
 
 ```csharp
 using (Presentation presentation = new Presentation())
-
+    
     ISlide slide = presentation.Slides[0];
     IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 20, 100, 600, 400);
 
@@ -33,7 +33,7 @@ using (Presentation presentation = new Presentation())
 
 ```
 
-### 另见
+### 参见
 
 * enum [LayoutTargetType](../../layouttargettype)
 * interface [IChartPlotArea](../../ichartplotarea)

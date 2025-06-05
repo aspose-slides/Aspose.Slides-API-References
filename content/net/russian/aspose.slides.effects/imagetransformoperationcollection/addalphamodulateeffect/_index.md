@@ -1,6 +1,6 @@
 ---
 title: AddAlphaModulateEffect
-second_title: Aspose.Sildes для .NET API Справка
+second_title: Aspose.Sildes для .NET API Справочник
 description: Добавляет новый эффект Alpha Modulate в конец коллекции.
 type: docs
 weight: 90

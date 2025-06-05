@@ -1,7 +1,7 @@
 ---
 title: ColorOperation
-second_title: Aspose.Slides for .NET API 参考
-description: 创建新的颜色变换操作。
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建新的颜色转换操作。
 type: docs
 weight: 10
 url: /zh/aspose.slides/coloroperation/coloroperation/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/coloroperation/coloroperation/
 
 ## ColorOperation(ColorTransformOperation) {#constructor}
 
-创建新的颜色变换操作。
+创建新的颜色转换操作。
 
 ```csharp
 public ColorOperation(ColorTransformOperation op)
@@ -30,7 +30,7 @@ public ColorOperation(ColorTransformOperation op)
 
 ## ColorOperation(ColorTransformOperation, float) {#constructor_1}
 
-创建新的颜色变换操作。
+创建新的颜色转换操作。
 
 ```csharp
 public ColorOperation(ColorTransformOperation op, float parameter)

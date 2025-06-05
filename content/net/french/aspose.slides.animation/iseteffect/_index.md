@@ -1,7 +1,7 @@
 ---
 title: ISetEffect
 second_title: Référence API Aspose.Slides pour .NET
-description: Représente un effet de définition pour un comportement d'animation.
+description: Représente un effet de jeu pour un comportement d'animation.
 type: docs
 weight: 530
 url: /fr/aspose.slides.animation/iseteffect/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/iseteffect/
 
 ## Interface ISetEffect
 
-Représente un effet de définition pour un comportement d'animation.
+Représente un effet de jeu pour un comportement d'animation.
 
 ```csharp
 public interface ISetEffect : IBehavior
@@ -19,10 +19,10 @@ public interface ISetEffect : IBehavior
 
 | Nom | Description |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/iseteffect/asibehavior) { get; } | Permet d'obtenir l'interface de base IBehavior. En lecture seule [`IBehavior`](../ibehavior). |
-| [To](../../aspose.slides.animation/iseteffect/to) { get; set; } | Spécifie un certain attribut d'un effet après un effet d'animation. Représente une valeur point. Seulement : bool, ColorFormat, float, int, string. Objets en lecture/écriture. |
+| [AsIBehavior](../../aspose.slides.animation/iseteffect/asibehavior) { get; } | Permet d'obtenir l'interface de base IBehavior. Lecture seule [`IBehavior`](../ibehavior). |
+| [To](../../aspose.slides.animation/iseteffect/to) { get; set; } | Spécifie un certain attribut d'un effet après un effet d'animation. Représente une valeur ponctuelle. Seulement : bool, ColorFormat, float, int, string. Objet en lecture/écriture. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IBehavior](../ibehavior)
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)

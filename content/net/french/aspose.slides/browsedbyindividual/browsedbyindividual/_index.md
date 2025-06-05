@@ -1,6 +1,6 @@
 ---
 title: BrowsedByIndividual
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Initialise une nouvelle instance de la classe BrowsedByIndividual.
 type: docs
 weight: 10
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/browsedbyindividual/browsedbyindividual/
 
 ## Constructeur BrowsedByIndividual
 
-Initie une nouvelle instance de la classe BrowsedByIndividual.
+Initialise une nouvelle instance de la classe BrowsedByIndividual.
 
 ```csharp
 public BrowsedByIndividual()

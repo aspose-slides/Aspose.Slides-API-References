@@ -1,48 +1,48 @@
----
+---  
 title: IReflection
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET Справочник по API  
 description: Представляет эффект отражения.
-type: docs
-weight: 3380
+type: docs  
+weight: 3380  
 url: /ru/aspose.slides.effects/ireflection/
----
+---  
 
-## Интерфейс IReflection
+## Интерфейс IReflection  
 
-Представляет эффект отражения.
+Представляет эффект отражения.  
 
-```csharp
-public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>, 
-    IImageTransformOperation
-```
+```csharp  
+public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>,  
+    IImageTransformOperation  
+```  
 
-## Свойства
+## Свойства  
 
-| Название | Описание |
-| --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | Радиус размытия. Чтение/запись Double. |
-| [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | Направление отражения. Чтение/запись Single. |
-| [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | Расстояние до отражения. Чтение/запись Double. |
-| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | Указывает конечную позицию (вдоль градиентного перехода альфа) конечного значения альфа (в процентах). Чтение/запись Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | Конечная непрозрачность отражения. (в процентах). Чтение/запись Single. |
-| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | Указывает направление смещения отражения. (угол). Чтение/запись Single. |
-| [RectangleAlign](../../aspose.slides.effects/ireflection/rectanglealign) { get; set; } | Выравнивание прямоугольника. Чтение/запись [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | Указывает, следует ли отражению вращаться вместе с фигурой, если фигура поворачивается. Чтение/запись Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | Указывает горизонтальный коэффициент масштабирования, отрицательное масштабирование приводит к перевороту. (в процентах) Чтение/запись Double. |
-| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | Указывает вертикальный коэффициент масштабирования, отрицательное масштабирование приводит к перевороту. (в процентах) Чтение/запись Double. |
-| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | Указывает угол горизонтального сдвига. Чтение/запись Double. |
-| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | Указывает угол вертикального сдвига. Чтение/запись Double. |
-| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | Указывает начальную позицию (вдоль градиентного перехода альфа) начального значения альфа (в процентах). Чтение/запись Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | Начальная непрозрачность отражения. (в процентах). Чтение/запись Single. |
+| Имя | Описание |  
+| --- | --- |  
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |  
+| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../iimagetransformoperation). |  
+| [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | Радиус размытия. Чтение/запись Double. |  
+| [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | Направление отражения. Чтение/запись Single. |  
+| [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | Расстояние отражения. Чтение/запись Double. |  
+| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | Указывает конечную позицию (вдоль градиента альфа) конечного значения альфа (в процентах). Чтение/запись Single. |  
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | Конечная прозрачность отражения. (в процентах). Чтение/запись Single. |  
+| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | Указывает направление смещения отражения. (угол). Чтение/запись Single. |  
+| [RectangleAlign](../../aspose.slides.effects/ireflection/rectanglealign) { get; set; } | Выравнивание прямоугольника. Чтение/запись [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |  
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | Указывает, должно ли отражение вращаться вместе с формой, если форма вращается. Чтение/запись Boolean. |  
+| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | Указывает горизонтальный коэффициент масштабирования, отрицательное масштабирование приводит к перевороту. (в процентах) Чтение/запись Double. |  
+| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | Указывает вертикальный коэффициент масштабирования, отрицательное масштабирование приводит к перевороту. (в процентах) Чтение/запись Double. |  
+| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | Указывает угол горизонтального искажения. Чтение/запись Double. |  
+| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | Указывает угол вертикального искажения. Чтение/запись Double. |  
+| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | Указывает стартовую позицию (вдоль градиента альфа) стартового значения альфа (в процентах). Чтение/запись Single. |  
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | Начальная прозрачность отражения. (в процентах). Чтение/запись Single. |  
 
-### Смотрите также
+### Также посмотрите  
 
-* интерфейс [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
-* интерфейс [IReflectionEffectiveData](../ireflectioneffectivedata)
-* интерфейс [IImageTransformOperation](../iimagetransformoperation)
-* пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
-* сборка [Aspose.Slides](../../)
+* интерфейс [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)  
+* интерфейс [IReflectionEffectiveData](../ireflectioneffectivedata)  
+* интерфейс [IImageTransformOperation](../iimagetransformoperation)  
+* пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)  
+* сборка [Aspose.Slides](../../)  
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->  

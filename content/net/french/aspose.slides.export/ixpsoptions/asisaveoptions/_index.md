@@ -7,9 +7,9 @@ weight: 10
 url: /fr/aspose.slides.export/ixpsoptions/asisaveoptions/
 ---
 
-## Propriété IXpsOptions.AsISaveOptions
+## IXpsOptions.AsISaveOptions propriété
 
-Renvoie l'interface ISaveOptions. ISaveOptions en lecture seule [`ISaveOptions`](../../isaveoptions).
+Renvoie l'interface ISaveOptions. [`ISaveOptions`](../../isaveoptions) en lecture seule.
 
 ```csharp
 public ISaveOptions AsISaveOptions { get; }

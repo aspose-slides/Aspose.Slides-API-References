@@ -1,15 +1,15 @@
 ---  
-title: CenterText  
-second_title: Referencia de la API de Aspose.Slides para .NET  
-description: Si NullableBool.True entonces el texto debe estar centrado en la caja horizontalmente. Leer/escribir NullableBoolaspose.slides/nullablebool.
+title: CenterText
+second_title: Referencia de API de Aspose.Slides para .NET  
+description: Si NullableBool.True entonces el texto debe estar centrado en el cuadro horizontalmente. Lectura/escritura de NullableBoolaspose.slides/nullablebool.
 type: docs  
 weight: 30  
 url: /es/aspose.slides.charts/icharttextblockformat/centertext/
 ---  
 
-## Propiedad IChartTextBlockFormat.CenterText  
+## IChartTextBlockFormat.CenterText property  
 
-Si NullableBool.True entonces el texto debe estar centrado en la caja horizontalmente. Leer/escribir [`NullableBool`](../../../aspose.slides/nullablebool).  
+Si NullableBool.True entonces el texto debe estar centrado en el cuadro horizontalmente. Lectura/escritura de [`NullableBool`](../../../aspose.slides/nullablebool).  
 
 ```csharp  
 public NullableBool CenterText { get; set; }  

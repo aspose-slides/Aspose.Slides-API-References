@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Supprime le segment à l'index spécifié du chemin de géométrie.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Supprime le segment à l'index spécifié du chemin géométrique.
 type: docs
 weight: 110
 url: /fr/aspose.slides/geometrypath/removeat/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/geometrypath/removeat/
 
 ## Méthode GeometryPath.RemoveAt
 
-Supprime le segment à l'index spécifié du chemin de géométrie.
+Supprime le segment à l'index spécifié du chemin géométrique.
 
 ```csharp
 public void RemoveAt(int index)

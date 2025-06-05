@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/igradientformat/lineargradientscaled/
 ---
+
 ## IGradientFormat.LinearGradientScaled property
 
 Determines whether a gradient is scaled. Read/write [`NullableBool`](../../nullablebool).

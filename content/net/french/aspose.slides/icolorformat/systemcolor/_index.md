@@ -1,7 +1,7 @@
 ---
 title: SystemColor
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne ou définit la couleur identifiée par la table des couleurs système. Lecture/écriture SystemColoraspose.slides/systemcolor.
+description: Renvoie ou définit la couleur identifiée par la table des couleurs du système. Lecture/écriture SystemColoraspose.slides/systemcolor.
 type: docs
 weight: 160
 url: /fr/aspose.slides/icolorformat/systemcolor/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/icolorformat/systemcolor/
 
 ## Propriété IColorFormat.SystemColor
 
-Retourne ou définit la couleur identifiée par la table des couleurs système. Lecture/écriture [`SystemColor`](../../systemcolor).
+Renvoie ou définit la couleur identifiée par la table des couleurs du système. Lecture/écriture [`SystemColor`](../../systemcolor).
 
 ```csharp
 public SystemColor SystemColor { get; set; }

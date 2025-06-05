@@ -1,15 +1,15 @@
 ---
 title: TileFlip
 second_title: Aspose.Sildes for .NET API Reference
-description: 定义图块翻转模式。
+description: 定义瓷砖翻转模式。
 type: docs
 weight: 11190
 url: /zh/aspose.slides/tileflip/
 ---
 
-## TileFlip 列举
+## TileFlip 枚举
 
-定义图块翻转模式。
+定义瓷砖翻转模式。
 
 ```csharp
 public enum TileFlip

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/icolorformat/asifillparamsource/
 ---
+
 ## IColorFormat.AsIFillParamSource property
 
 Returns IFillParamSource interface. Read-only [`IFillParamSource`](../../ifillparamsource).

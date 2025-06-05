@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/cell/firstcolumnindex/
 ---
+
 ## Cell.FirstColumnIndex property
 
 Returns an index of first column, covered by the cell. Read-only Int32.

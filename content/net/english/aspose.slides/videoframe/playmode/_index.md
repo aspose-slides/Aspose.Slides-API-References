@@ -3,9 +3,10 @@ title: PlayMode
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets the video play mode. Read/write VideoPlayModePresetaspose.slides/videoplaymodepreset.
 type: docs
-weight: 60
+weight: 70
 url: /aspose.slides/videoframe/playmode/
 ---
+
 ## VideoFrame.PlayMode property
 
 Returns or sets the video play mode. Read/write [`VideoPlayModePreset`](../../videoplaymodepreset).

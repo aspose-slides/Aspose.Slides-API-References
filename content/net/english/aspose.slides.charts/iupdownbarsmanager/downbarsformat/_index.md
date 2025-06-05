@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/iupdownbarsmanager/downbarsformat/
 ---
+
 ## IUpDownBarsManager.DownBarsFormat property
 
 Returns format of the down bars. Read-only [`IFormat`](../../iformat).

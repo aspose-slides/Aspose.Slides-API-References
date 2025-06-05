@@ -1,7 +1,7 @@
 ---
 title: ActualMajorUnit
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie l'unité majeure réelle de l'axe. Appelez la méthode IChart.ValidateChartLayout au préalable pour obtenir la valeur réelle.
+second_title: Aspose.Slides pour la référence API .NET
+description: Spécifie l'unité majeure réelle de l'axe. Appelez la méthode IChart.ValidateChartLayout auparavant pour obtenir la valeur réelle.
 type: docs
 weight: 10
 url: /fr/aspose.slides.charts/iaxis/actualmajorunit/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/iaxis/actualmajorunit/
 
 ## Propriété IAxis.ActualMajorUnit
 
-Spécifie l'unité majeure réelle de l'axe. Appelez la méthode IChart.ValidateChartLayout() au préalable pour obtenir la valeur réelle.
+Spécifie l'unité majeure réelle de l'axe. Appelez la méthode IChart.ValidateChartLayout() auparavant pour obtenir la valeur réelle.
 
 ```csharp
 public double ActualMajorUnit { get; }
 ```
 
-### Voir aussi
+### Voir également
 
 * interface [IAxis](../../iaxis)
 * namespace [Aspose.Slides.Charts](../../iaxis)

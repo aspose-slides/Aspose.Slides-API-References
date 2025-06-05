@@ -1,7 +1,7 @@
 ---
 title: HyperlinkClick
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает гиперссылку, определенную для клика мышью. Чтение/запись IHyperlinkaspose.slides/ihyperlink.
+description: Возвращает или задает гиперссылку, определенную для щелчка мыши. Чтение/запись IHyperlinkaspose.slides/ihyperlink.
 type: docs
 weight: 30
 url: /ru/aspose.slides/portionformat/hyperlinkclick/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/portionformat/hyperlinkclick/
 
 ## Свойство PortionFormat.HyperlinkClick
 
-Возвращает или устанавливает гиперссылку, определенную для клика мышью. Чтение/запись [`IHyperlink`](../../ihyperlink).
+Возвращает или задает гиперссылку, определенную для щелчка мыши. Чтение/запись [`IHyperlink`](../../ihyperlink).
 
 ```csharp
 public IHyperlink HyperlinkClick { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IHyperlink](../../ihyperlink)
 * класс [PortionFormat](../../portionformat)

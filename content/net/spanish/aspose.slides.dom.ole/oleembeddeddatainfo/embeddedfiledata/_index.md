@@ -1,24 +1,24 @@
 ---
 title: EmbeddedFileData
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve los datos del archivo de un objeto OLE incrustado Solo lectura Byte.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve los datos del archivo de un objeto OLE embebido Solo lectura Byte.
 type: docs
 weight: 20
 url: /es/aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata/
 ---
 
-## Propiedad OleEmbeddedDataInfo.EmbeddedFileData
+## OleEmbeddedDataInfo.EmbeddedFileData property
 
-Devuelve los datos del archivo de un objeto OLE incrustado Solo lectura Byte[].
+Devuelve los datos del archivo de un objeto OLE embebido Solo lectura Byte[].
 
 ```csharp
 public byte[] EmbeddedFileData { get; }
 ```
 
-### Ver también
+### Ver También
 
-* clase [OleEmbeddedDataInfo](../../oleembeddeddatainfo)
-* espacio de nombres [Aspose.Slides.DOM.Ole](../../oleembeddeddatainfo)
-* ensamblado [Aspose.Slides](../../../)
+* class [OleEmbeddedDataInfo](../../oleembeddeddatainfo)
+* namespace [Aspose.Slides.DOM.Ole](../../oleembeddeddatainfo)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

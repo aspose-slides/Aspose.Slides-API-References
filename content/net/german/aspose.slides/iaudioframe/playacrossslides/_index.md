@@ -1,7 +1,7 @@
 ---
 title: PlayAcrossSlides
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob eine Audioübertragung über die Folien läuft. Lese-/Schreib-Booleans.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt, ob ein Audio über die Folien abgespielt wird. Lese-/Schreib-Boolean.
 type: docs
 weight: 120
 url: /de/aspose.slides/iaudioframe/playacrossslides/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iaudioframe/playacrossslides/
 
 ## IAudioFrame.PlayAcrossSlides-Eigenschaft
 
-Bestimmt, ob eine Audioübertragung über die Folien läuft. Lese-/Schreib-Booleans.
+Bestimmt, ob ein Audio über die Folien abgespielt wird. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool PlayAcrossSlides { get; set; }
@@ -26,7 +26,7 @@ using (Presentation pres = new Presentation())
     // Audio-Frame hinzufügen
     IAudioFrame audioFrame = slide.Shapes.AddAudioFrameLinked(50, 50, 100, 100, "sampleaudio.wav");
 
-    // Audio auf eine Wiedergabe über die Folien einstellen
+    // Audio so einstellen, dass es über die Folien abgespielt wird
     audioFrame.PlayAcrossSlides = true;
 
     // Audio so einstellen, dass es nach dem Abspielen automatisch zurückgespult wird
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation())
 
 ### Siehe auch
 
-* Interface [IAudioFrame](../../iaudioframe)
+* Schnittstelle [IAudioFrame](../../iaudioframe)
 * Namespace [Aspose.Slides](../../iaudioframe)
 * Assembly [Aspose.Slides](../../../)
 

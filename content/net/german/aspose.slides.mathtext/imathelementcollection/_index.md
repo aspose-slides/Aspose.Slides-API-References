@@ -20,8 +20,8 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 | Name | Beschreibung |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.mathtext/imathelementcollection/asienumerable) { get; } | Gibt die IEnumerable-Schnittstelle zurück. Nur lesbare IEnumerable. |
-| [Count](../../aspose.slides.mathtext/imathelementcollection/count) { get; } | Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente zurück. Nur lesbare Int32. |
-| [Item](../../aspose.slides.mathtext/imathelementcollection/item) { get; } | Gibt das Element am angegebenen Index zurück. Nur lesbar [`IMathElement`](../imathelement). |
+| [Count](../../aspose.slides.mathtext/imathelementcollection/count) { get; } | Erhält die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente. Nur lesbares Int32. |
+| [Item](../../aspose.slides.mathtext/imathelementcollection/item) { get; } | Erhält das Element am angegebenen Index. Nur lesbares [`IMathElement`](../imathelement). |
 
 ## Methoden
 
@@ -32,8 +32,8 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 | [Contains](../../aspose.slides.mathtext/imathelementcollection/contains)(IMathElement) | Bestimmt, ob die Sammlung einen bestimmten Wert enthält. |
 | [CopyTo](../../aspose.slides.mathtext/imathelementcollection/copyto)(IMathElement[], int) | Kopiert in das angegebene Array. |
 | [IndexOf](../../aspose.slides.mathtext/imathelementcollection/indexof)(IMathElement) | Bestimmt den Index eines bestimmten mathematischen Elements in der Sammlung. |
-| [Insert](../../aspose.slides.mathtext/imathelementcollection/insert)(int, IMathElement) | Fügt ein mathematisches Element an dem angegebenen Index in der Sammlung ein. |
-| [Remove](../../aspose.slides.mathtext/imathelementcollection/remove)(IMathElement) | Entfernt das erste Vorkommen eines bestimmten Objekts aus der Sammlung. |
+| [Insert](../../aspose.slides.mathtext/imathelementcollection/insert)(int, IMathElement) | Fügt ein mathematisches Element an der angegebenen Stelle in die Sammlung ein. |
+| [Remove](../../aspose.slides.mathtext/imathelementcollection/remove)(IMathElement) | Entfernt die erste Vorkommen eines bestimmten Objekts aus der Sammlung. |
 | [RemoveAt](../../aspose.slides.mathtext/imathelementcollection/removeat)(int) | Entfernt das Element am angegebenen Index der Sammlung. |
 
 ### Beispiele
@@ -45,7 +45,7 @@ Beispiel:
 IMathElementCollection collection = new MathBlock();
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMathElement](../imathelement)
 * Namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

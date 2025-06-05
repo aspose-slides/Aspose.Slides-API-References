@@ -1,13 +1,13 @@
 ---
-title: BordGauche
-second_title: Référence API Aspose.Slides pour .NET
+title: BorderLeft
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie un objet de propriétés de ligne de bordure gauche. Lecture seule ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 40
 url: /fr/aspose.slides/icellformat/borderleft/
 ---
 
-## Propriété ICellFormat.BorderLeft
+## ICellFormat.BorderLeft propriété
 
 Renvoie un objet de propriétés de ligne de bordure gauche. Lecture seule [`ILineFormat`](../../ilineformat).
 
@@ -15,7 +15,7 @@ Renvoie un objet de propriétés de ligne de bordure gauche. Lecture seule [`ILi
 public ILineFormat BorderLeft { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ILineFormat](../../ilineformat)
 * interface [ICellFormat](../../icellformat)

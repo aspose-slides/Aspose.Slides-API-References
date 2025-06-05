@@ -1,13 +1,13 @@
 ---
 title: AsIEnumerable
-second_title: Referencia API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Permite obtener la interfaz base IEnumerable
 type: docs
 weight: 10
 url: /es/aspose.slides.mathtext/imathblockcollection/asienumerable/
 ---
 
-## Propiedad IMathBlockCollection.AsIEnumerable
+## IMathBlockCollection.AsIEnumerable property
 
 Permite obtener la interfaz base IEnumerable
 
@@ -15,10 +15,10 @@ Permite obtener la interfaz base IEnumerable
 public IEnumerable AsIEnumerable { get; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [IMathBlockCollection](../../imathblockcollection)
-* espacio de nombres [Aspose.Slides.MathText](../../imathblockcollection)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IMathBlockCollection](../../imathblockcollection)
+* namespace [Aspose.Slides.MathText](../../imathblockcollection)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

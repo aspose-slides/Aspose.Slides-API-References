@@ -1,13 +1,13 @@
 ---
 title: Dispose
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Libera el objeto.
 type: docs
 weight: 90
 url: /es/aspose.slides/streamwrapper/dispose/
 ---
 
-## Método StreamWrapper.Dispose
+## StreamWrapper.Dispose método
 
 Libera el objeto.
 
@@ -15,7 +15,7 @@ Libera el objeto.
 public void Dispose()
 ```
 
-### Véase también
+### Ver También
 
 * clase [StreamWrapper](../../streamwrapper)
 * espacio de nombres [Aspose.Slides](../../streamwrapper)

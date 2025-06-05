@@ -1,21 +1,21 @@
 ---
-title: DéverrouillageDuGroupe
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si la séparation de cette forme de groupe est interdite. Booléen en lecture/écriture.
+title: UngroupingLocked
+second_title: Référence API Aspose.Slides pour .NET
+description: Détermine si la séparation de ce groupeshape est interdite. Booléen en lecture/écriture.
 type: docs
 weight: 80
 url: /fr/aspose.slides/igroupshapelock/ungroupinglocked/
 ---
 
-## Propriété IGroupShapeLock.UngroupingLocked
+## IGroupShapeLock.UngroupingLocked property
 
-Détermine si la séparation de cette forme de groupe est interdite. Booléen en lecture/écriture.
+Détermine si la séparation de ce groupeshape est interdite. Booléen en lecture/écriture.
 
 ```csharp
 public bool UngroupingLocked { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IGroupShapeLock](../../igroupshapelock)
 * namespace [Aspose.Slides](../../igroupshapelock)

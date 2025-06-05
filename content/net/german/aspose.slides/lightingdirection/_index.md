@@ -1,5 +1,5 @@
 ---
-title: Lichtrichtung
+title: LightingDirection
 second_title: Aspose.Slides für .NET API Referenz
 description: Konstanten, die Lichtrichtungen definieren.
 type: docs
@@ -7,7 +7,7 @@ weight: 7470
 url: /de/aspose.slides/lightingdirection/
 ---
 
-## Lichtrichtung Enumeration
+## LightingDirection-Enumeration
 
 Konstanten, die Lichtrichtungen definieren.
 
@@ -29,7 +29,7 @@ public enum LightingDirection
 | BottomLeft | `6` |  |
 | Left | `7` |  |
 
-### Siehe Auch
+### Siehe auch
 
 * Namespace [Aspose.Slides](../../aspose.slides)
 * Assembly [Aspose.Slides](../../)

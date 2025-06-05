@@ -1,13 +1,13 @@
 ---
 title: LightRig
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Devuelve el tipo de una luz. Solo lectura ILightRigEffectiveDataaspose.slides/ilightrigeffectivedata.
 type: docs
 weight: 100
 url: /es/aspose.slides/ithreedformateffectivedata/lightrig/
 ---
 
-## Propiedad IThreeDFormatEffectiveData.LightRig
+## IThreeDFormatEffectiveData.LightRig propiedad
 
 Devuelve el tipo de una luz. Solo lectura [`ILightRigEffectiveData`](../../ilightrigeffectivedata).
 
@@ -15,7 +15,7 @@ Devuelve el tipo de una luz. Solo lectura [`ILightRigEffectiveData`](../../iligh
 public ILightRigEffectiveData LightRig { get; }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [ILightRigEffectiveData](../../ilightrigeffectivedata)
 * interfaz [IThreeDFormatEffectiveData](../../ithreedformateffectivedata)

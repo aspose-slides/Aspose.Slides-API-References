@@ -1,13 +1,13 @@
 ---
-title: Равно
-second_title: Справочник по API Aspose.Slides для .NET
+title: Equals
+second_title: Aspose.Sildes для .NET API Справочник
 description: Определяет, равен ли указанный AlphaBiLevelaspose.slides.effects/alphabilevel текущему AlphaBiLevelaspose.slides.effects/alphabilevel.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/alphabilevel/equals/
 ---
 
-## Метод AlphaBiLevel.Equals
+## AlphaBiLevel.Equals метод
 
 Определяет, равен ли указанный [`AlphaBiLevel`](../../alphabilevel) текущему [`AlphaBiLevel`](../../alphabilevel).
 
@@ -17,13 +17,13 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`AlphaBiLevel`](../../alphabilevel) для сравнения. |
+| obj | Object | [`AlphaBiLevel`](../../alphabilevel), который нужно сравнить. |
 
-### Возвращаемое значение
+### Значение Возврата
 
 true, если объекты равны; в противном случае false.
 
-### Также см. 
+### См. также
 
 * класс [AlphaBiLevel](../../alphabilevel)
 * пространство имен [Aspose.Slides.Effects](../../alphabilevel)

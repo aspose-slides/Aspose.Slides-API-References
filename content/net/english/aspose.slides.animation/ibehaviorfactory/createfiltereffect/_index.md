@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.animation/ibehaviorfactory/createfiltereffect/
 ---
+
 ## IBehaviorFactory.CreateFilterEffect method
 
 Creates filter effect.

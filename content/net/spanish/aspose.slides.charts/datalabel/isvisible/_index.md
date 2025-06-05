@@ -1,7 +1,7 @@
 ---
 title: IsVisible
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Falso significa que la etiqueta de datos no es visible y, por lo tanto, todas las banderas Show ShowValue, ... son falsas. Solo lectura Booleano.
+description: Falso significa que la etiqueta de datos no es visible y por lo tanto todas las banderas Show-* ShowValue, ... son falsas. Solo lectura Booleano.
 type: docs
 weight: 100
 url: /es/aspose.slides.charts/datalabel/isvisible/
@@ -9,20 +9,20 @@ url: /es/aspose.slides.charts/datalabel/isvisible/
 
 ## Propiedad DataLabel.IsVisible
 
-Falso significa que la etiqueta de datos no es visible (y por lo tanto, todas las banderas Show*- (ShowValue, ...) son falsas). Solo lectura Booleano.
+Falso significa que la etiqueta de datos no es visible (y por lo tanto todas las banderas Show*- (ShowValue, ...) son falsas). Solo lectura Booleano.
 
 ```csharp
 public bool IsVisible { get; }
 ```
 
-### Comentarios
+### Observaciones
 
-Si la etiqueta de datos es visible, puedes ocultarla con el método Hide(). Pero si la etiqueta de datos no es visible (IsVisible es falso), puedes hacer que la etiqueta de datos sea visible configurando las banderas Show*- (ShowValue, ...) a estado verdadero.
+Si la etiqueta de datos es visible, puedes ocultarla con el método Hide(). Pero si la etiqueta de datos no es visible (IsVisible es falso), puedes hacer que la etiqueta de datos sea visible configurando las banderas Show*- (ShowValue, ...) en verdadero.
 
-### Véase también
+### Véase También
 
 * clase [DataLabel](../../datalabel)
-* espacio de nombres [Aspose.Slides.Charts](../../datalabel)
-* ensamblaje [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Charts](../../datalabel)
+* assembly [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->

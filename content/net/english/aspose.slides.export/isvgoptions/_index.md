@@ -3,9 +3,10 @@ title: ISVGOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an SVG options.
 type: docs
-weight: 3790
+weight: 3890
 url: /aspose.slides.export/isvgoptions/
 ---
+
 ## ISVGOptions interface
 
 Represents an SVG options.
@@ -21,9 +22,11 @@ public interface ISVGOptions : ISaveOptions
 | [AsISaveOptions](../../aspose.slides.export/isvgoptions/asisaveoptions) { get; } | Returns ISaveOptions interface. Read-only [`ISaveOptions`](../isaveoptions). |
 | [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | A boolean flag indicates if the cropped parts remain as part of the document. If true the cropped parts will removed, if false they will be serialized in the document (which can possible lead to a larger file) Read/write Boolean. |
 | [Disable3DText](../../aspose.slides.export/isvgoptions/disable3dtext) { get; set; } | Determines whether the 3D text is disabled in SVG. Read/write Boolean. |
+| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | Gets or sets a value indicating whether text is rendered without using ligatures. When set to `true`, ligatures will be disabled in the rendered output. By default, this property is set to `false`. |
 | [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | Disables splitting FromCornerX and FromCenter gradients. Read/write Boolean. |
 | [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | SVG 1.1 lacks ability to define insets for markers. Aspose.Slides SVG writing engine has workaround for that problem: it crops end of line with arrow, so, line doesn't overlap markers. This option switches off such behavior. Read/write Boolean. |
 | [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | Determines a way of handling externally loaded fonts. Read/write [`SvgExternalFontsHandling`](../svgexternalfontshandling). |
+| [InkOptions](../../aspose.slides.export/isvgoptions/inkoptions) { get; } | Provides options that control the look of Ink objects in exported document. Read-only [`IInkOptions`](../iinkoptions) |
 | [JpegQuality](../../aspose.slides.export/isvgoptions/jpegquality) { get; set; } | Determines JPEG encoding quality. Read/write Int32. |
 | [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | Returns or sets the lower resolution limit for metafile rasterization. Read/write Int32. |
 | [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | Represents the pictures compression level Read/write [`PicturesCompression`](./picturescompression). |

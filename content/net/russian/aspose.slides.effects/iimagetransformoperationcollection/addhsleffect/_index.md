@@ -1,6 +1,6 @@
 ---
 title: AddHSLEffect
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Reference
 description: Добавляет новый эффект Цветовой тон/Насыщенность/Яркость в конец коллекции.
 type: docs
 weight: 170
@@ -17,7 +17,7 @@ public IHSL AddHSLEffect(float hue, float saturation, float luminance)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| hue | Single | Количество градусов, на которое изменяется цветовой тон. |
+| hue | Single | Число градусов, на которое изменяется цветовой тон. |
 | saturation | Single | Процент, на который изменяется насыщенность. |
 | luminance | Single | Процент, на который изменяется яркость. |
 

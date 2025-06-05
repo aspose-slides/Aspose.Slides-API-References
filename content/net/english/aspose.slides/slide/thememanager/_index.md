@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/slide/thememanager/
 ---
+
 ## Slide.ThemeManager property
 
 Returns the overriding theme manager. Read-only [`IOverrideThemeManager`](../../../aspose.slides.theme/ioverridethememanager).

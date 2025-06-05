@@ -15,11 +15,11 @@ Devuelve un enumerador que itera a través de la colección.
 public IEnumerator<ITab> GetEnumerator()
 ```
 
-### Valor de retorno
+### Valor de Retorno
 
-Un IEnumerator que se puede utilizar para iterar a través de la colección.
+Un IEnumerator que se puede usar para iterar a través de la colección.
 
-### Véase también
+### Véase También
 
 * interfaz [ITab](../../itab)
 * clase [TabCollection](../../tabcollection)

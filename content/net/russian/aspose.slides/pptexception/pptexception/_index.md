@@ -45,7 +45,7 @@ public PptException(string message)
 
 ## PptException(string, Exception) {#constructor_2}
 
-Конструктор исключения, содержащего сообщение и встроенное исключение.
+Конструктор для исключения, содержащего сообщение и вложенное исключение.
 
 ```csharp
 public PptException(string message, Exception exception)
@@ -54,7 +54,7 @@ public PptException(string message, Exception exception)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | сообщение |
-| exception | Exception | исходное исключение |
+| exception | Exception | оригинальное исключение |
 
 ### См. Также
 

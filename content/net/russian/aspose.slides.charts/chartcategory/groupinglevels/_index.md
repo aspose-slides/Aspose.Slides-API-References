@@ -1,21 +1,21 @@
 ---
 title: GroupingLevels
-second_title: Aspose.Slides для .NET API Reference
-description: Управляемый контейнер значений уровней группировки категорий графиков. Многоуровневая категория содержит более одного уровня группировки. Индексация уровней группировки начинается с нуля. Только для чтения IChartCategoryLevelsManageraspose.slides/ichartcategorylevelsmanager.
+second_title: Aspose.Sildes для .NET API Reference
+description: Управляемый контейнер значений уровней группировки категорий диаграммы. Многоуровневая категория содержит более одного уровня группировки. Индексация уровней группировки начинается с нуля. Только для чтения IChartCategoryLevelsManageraspose.slides/ichartcategorylevelsmanager.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/chartcategory/groupinglevels/
 ---
 
-## Свойство ChartCategory.GroupingLevels
+## ChartCategory.GroupingLevels свойство
 
-Управляемый контейнер значений уровней группировки категорий графиков. Многоуровневая категория содержит более одного уровня группировки. Индексация уровней группировки начинается с нуля. Только для чтения [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
+Управляемый контейнер значений уровней группировки категорий диаграммы. Многоуровневая категория содержит более одного уровня группировки. Индексация уровней группировки начинается с нуля. Только для чтения [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
 
 ```csharp
 public IChartCategoryLevelsManager GroupingLevels { get; }
 ```
 
-### См. также
+### Смотрите Также
 
 * интерфейс [IChartCategoryLevelsManager](../../ichartcategorylevelsmanager)
 * класс [ChartCategory](../../chartcategory)

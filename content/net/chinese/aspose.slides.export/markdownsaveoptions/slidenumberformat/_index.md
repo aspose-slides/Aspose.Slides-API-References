@@ -1,7 +1,7 @@
 ---
 title: SlideNumberFormat
-second_title: Aspose.Sildes for .NET API 参考
-description: 获取或设置用于 Markdown 输出中的幻灯片编号标题的格式字符串。该格式必须包含 0 占位符，该占位符将在导出期间替换为幻灯片索引。例如，幻灯片 0 将生成幻灯片 1、幻灯片 2 等。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取或设置用于Markdown输出中幻灯片编号标题的格式字符串。格式必须包含占位符0，在导出期间将用幻灯片索引替换。示例：幻灯片0将生成幻灯片1、幻灯片2等。
 type: docs
 weight: 120
 url: /zh/aspose.slides.export/markdownsaveoptions/slidenumberformat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/markdownsaveoptions/slidenumberformat/
 
 ## MarkdownSaveOptions.SlideNumberFormat 属性
 
-获取或设置用于 Markdown 输出中的幻灯片编号标题的格式字符串。该格式必须包含 "{0}" 占位符，该占位符将在导出期间替换为幻灯片索引。例如："# Slide {0}" 将生成 "# Slide 1"、"# Slide 2" 等。
+获取或设置用于Markdown输出中幻灯片编号标题的格式字符串。格式必须包含"{0}"占位符，在导出期间将用幻灯片索引替换。示例：“# Slide {0}”将生成“# Slide 1”、“# Slide 2”等。
 
 ```csharp
 public string SlideNumberFormat { get; set; }
@@ -17,12 +17,12 @@ public string SlideNumberFormat { get; set; }
 
 ### 异常
 
-| 异常 | 条件 |
+| exception | condition |
 | --- | --- |
-| ArgumentNullException | 如果提供的值为 null 或空则抛出此异常。 |
-| ArgumentException | 如果格式字符串不包含 "{0}" 占位符则抛出此异常。 |
+| ArgumentNullException | 如果提供的值为null或空，则抛出。 |
+| ArgumentException | 如果格式字符串不包含"{0}"占位符，则抛出。 |
 
-### 另见
+### 另请参阅
 
 * class [MarkdownSaveOptions](../../markdownsaveoptions)
 * namespace [Aspose.Slides.Export](../../markdownsaveoptions)

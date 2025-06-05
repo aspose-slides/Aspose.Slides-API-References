@@ -1,7 +1,7 @@
 ---
 title: Position
-second_title: Aspose.Slides für .NET API Referenz
-description: Position der Linien des Balkens. Standard Oben
+second_title: Aspose.Sildes für .NET API Referenz
+description: Position der Balkenlinie. Standard Oben
 type: docs
 weight: 30
 url: /de/aspose.slides.mathtext/imathbar/position/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathbar/position/
 
 ## IMathBar.Position-Eigenschaft
 
-Position der Linien des Balkens. Standard: Oben
+Position der Balkenlinie. Standard: Oben
 
 ```csharp
 public MathTopBotPositions Position { get; set; }

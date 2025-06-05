@@ -1,15 +1,15 @@
 ---
 title: EndingCharacter
-second_title: Aspose.Slides für .NET API-Referenz
-description: Delimiter Ending Character gibt das End- oder schließende Trennzeichen an. Mathematische Trennzeichen sind umschließende Zeichen wie Klammern, eckige Klammern und geschweifte Klammern. Der Standardwert ist ''.
+second_title: Aspose.Slides für .NET API Referenz
+description: Delimiter Ending Character gibt das abschließende oder schließende Trennzeichen an. Mathematische Trennzeichen sind umschließende Zeichen wie Klammern, eckige Klammern und geschweifte Klammern. Der Standardwert ist ''.
 type: docs
 weight: 50
 url: /de/aspose.slides.mathtext/imathdelimiter/endingcharacter/
 ---
 
-## IMathDelimiter.EndingCharacter-Eigenschaft
+## IMathDelimiter.EndingCharacter Eigenschaft
 
-Delimiter Ending Character gibt das End- oder schließende Trennzeichen an. Mathematische Trennzeichen sind umschließende Zeichen wie Klammern, eckige Klammern und geschweifte Klammern. Der Standardwert: ')'.
+Delimiter Ending Character gibt das abschließende oder schließende Trennzeichen an. Mathematische Trennzeichen sind umschließende Zeichen wie Klammern, eckige Klammern und geschweifte Klammern. Der Standardwert ist: ')'.
 
 ```csharp
 public char EndingCharacter { get; set; }

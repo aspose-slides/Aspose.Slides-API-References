@@ -1,5 +1,5 @@
 ---
-title: Enthält
+title: Contains
 second_title: Aspose.Slides für .NET API Referenz
 description: Bestimmt, ob die Sammlung einen bestimmten Namen enthält.
 type: docs
@@ -17,13 +17,13 @@ public bool Contains(string name)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| name | String | Der Schlüssel, um ihn zu finden. |
+| name | String | Der Schlüssel zur Lokalisierung. |
 
 ### Rückgabewert
 
-True, wenn die Sammlung ein Tag mit dem angegebenen Schlüssel enthält; andernfalls false.
+True, wenn die Sammlung einen Tag mit dem angegebenen Schlüssel enthält; andernfalls false.
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [TagCollection](../../tagcollection)
 * Namespace [Aspose.Slides](../../tagcollection)

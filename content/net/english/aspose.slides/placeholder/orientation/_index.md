@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/placeholder/orientation/
 ---
+
 ## Placeholder.Orientation property
 
 Gets or sets the orientation of a placeholder. Read-only [`Orientation`](../../orientation).

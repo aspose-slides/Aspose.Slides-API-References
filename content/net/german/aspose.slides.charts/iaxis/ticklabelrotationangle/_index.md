@@ -1,7 +1,7 @@
 ---
 title: TickLabelRotationAngle
 second_title: Aspose.Slides für .NET API Referenz
-description: Stellt den Rotationswinkel der Tick-Labels dar. Lese-/Schreibe-Eigenschaft Single.
+description: Stellt den Rotationswinkel von Tick-Labels dar. Lese-/Schreibzugriff auf Single.
 type: docs
 weight: 510
 url: /de/aspose.slides.charts/iaxis/ticklabelrotationangle/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/iaxis/ticklabelrotationangle/
 
 ## IAxis.TickLabelRotationAngle-Eigenschaft
 
-Stellt den Rotationswinkel der Tick-Labels dar. Lese-/Schreibe-Eigenschaft Single.
+Stellt den Rotationswinkel von Tick-Labels dar. Lese-/Schreibzugriff auf Single.
 
 ```csharp
 public float TickLabelRotationAngle { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IAxis](../../iaxis)
 * Namespace [Aspose.Slides.Charts](../../iaxis)

@@ -1,111 +1,111 @@
----
+---  
 title: CompressImage
-second_title: Aspose.Sildes pour la référence API .NET
+second_title: Aspose.Sildes pour .NET Référence de l'API  
 description: Compresse l'image en réduisant sa taille en fonction de la taille de la forme et de la résolution spécifiée. En option, elle supprime également les zones recadrées.
-type: docs
-weight: 190
+type: docs  
+weight: 190  
 url: /fr/aspose.slides/ipicturefillformat/compressimage/
----
+---  
 
-## CompressImage(bool, PicturesCompression) {#compressimage}
+## CompressImage(bool, PicturesCompression) {#compressimage}  
 
-Compresse l'image en réduisant sa taille en fonction de la taille de la forme et de la résolution spécifiée. En option, elle supprime également les zones recadrées.
+Compresse l'image en réduisant sa taille en fonction de la taille de la forme et de la résolution spécifiée. En option, elle supprime également les zones recadrées.  
 
-```csharp
-public bool CompressImage(bool deleteCroppedAreasOfImage, PicturesCompression resolution)
-```
+```csharp  
+public bool CompressImage(bool deleteCroppedAreasOfImage, PicturesCompression resolution)  
+```  
 
-| Paramètre | Type | Description |
-| --- | --- | --- |
-| deleteCroppedAreasOfImage | Boolean | Si vrai, la méthode supprimera les zones recadrées de l'image, réduisant potentiellement encore sa taille. |
-| resolution | PicturesCompression | La résolution cible pour la compression, spécifiée comme une valeur de l'énumération [`PicturesCompression`](../../../aspose.slides.export/picturescompression). |
+| Paramètre | Type | Description |  
+| --- | --- | --- |  
+| deleteCroppedAreasOfImage | Boolean | Si vrai, la méthode supprimera les zones recadrées de l'image, réduisant ainsi potentiellement sa taille. |  
+| resolution | PicturesCompression | La résolution cible pour la compression, spécifiée comme une valeur de l'énumération [`PicturesCompression`](../../../aspose.slides.export/picturescompression). |  
 
-### Valeur de Retour
+### Valeur de Retour  
 
-Un Booléen indiquant si l'image a été compressée avec succès. Renvoie `true` si l'image a été redimensionnée ou recadrée, sinon `false`.
+Un booléen indiquant si l'image a été compressée avec succès. Renvoie `true` si l'image a été redimensionnée ou recadrée, sinon `false`.  
 
-### Exceptions
+### Exceptions  
 
-| exception | condition |
-| --- | --- |
-| ArgumentException | Lancé lorsque la résolution n'est pas une valeur valide. |
+| exception | condition |  
+| --- | --- |  
+| ArgumentException | Lancé lorsque la résolution n'est pas une valeur valide. |  
 
-### Remarques
+### Remarques  
 
-Cette méthode change la taille et la résolution de l'image, similaire à la fonctionnalité "Format d'image -&gt; Compresser les images" de PowerPoint.
+Cette méthode change la taille et la résolution de l'image de manière similaire à la fonctionnalité "Format d'image -> Compresser les images" de PowerPoint.  
 
-### Exemples
+### Exemples  
 
-L'exemple suivant montre comment utiliser la méthode `CompressImage` pour réduire la taille d'une image dans une présentation en définissant une résolution cible et en supprimant les zones recadrées :
+L'exemple suivant démontre comment utiliser la méthode `CompressImage` pour réduire la taille d'une image dans une présentation en définissant une résolution cible et en supprimant les zones recadrées :  
 
-```csharp
-using (Presentation presentation = new Presentation("demo.pptx"))
-{
-    ISlide slide = presentation.Slides[0];
-    IPictureFrame picFrame = slide.Shapes[0] as IPictureFrame;
-    // Compresse l'image avec une résolution cible de 150 DPI (résolution Web) et supprime les zones recadrées
-    bool result = picFrame.PictureFormat.CompressImage(true, PicturesCompression.Dpi150);
-}
-```
+```csharp  
+using (Presentation presentation = new Presentation("demo.pptx"))  
+{  
+    ISlide slide = presentation.Slides[0];  
+    IPictureFrame picFrame = slide.Shapes[0] as IPictureFrame;  
+    // Compresser l'image avec une résolution cible de 150 DPI (résolution Web) et supprimer les zones recadrées  
+    bool result = picFrame.PictureFormat.CompressImage(true, PicturesCompression.Dpi150);  
+}  
+```  
 
-### Voir Aussi
+### Voir Également  
 
-* enum [PicturesCompression](../../../aspose.slides.export/picturescompression)
-* interface [IPictureFillFormat](../../ipicturefillformat)
-* namespace [Aspose.Slides](../../ipicturefillformat)
-* assembly [Aspose.Slides](../../../)
+* enum [PicturesCompression](../../../aspose.slides.export/picturescompression)  
+* interface [IPictureFillFormat](../../ipicturefillformat)  
+* namespace [Aspose.Slides](../../ipicturefillformat)  
+* assembly [Aspose.Slides](../../../)  
 
----
+---  
 
-## CompressImage(bool, float) {#compressimage_1}
+## CompressImage(bool, float) {#compressimage_1}  
 
-Compresse l'image en réduisant sa taille en fonction de la taille de la forme et de la résolution spécifiée. En option, elle supprime également les zones recadrées.
+Compresse l'image en réduisant sa taille en fonction de la taille de la forme et de la résolution spécifiée. En option, elle supprime également les zones recadrées.  
 
-```csharp
-public bool CompressImage(bool deleteCroppedAreasOfImage, float resolution)
-```
+```csharp  
+public bool CompressImage(bool deleteCroppedAreasOfImage, float resolution)  
+```  
 
-| Paramètre | Type | Description |
-| --- | --- | --- |
-| deleteCroppedAreasOfImage | Boolean | Si vrai, la méthode supprimera les zones recadrées de l'image, réduisant potentiellement encore sa taille. |
-| resolution | Single | La résolution cible en DPI. Cette valeur doit être positive et définit comment l'image sera redimensionnée. |
+| Paramètre | Type | Description |  
+| --- | --- | --- |  
+| deleteCroppedAreasOfImage | Boolean | Si vrai, la méthode supprimera les zones recadrées de l'image, réduisant ainsi potentiellement sa taille. |  
+| resolution | Single | La résolution cible en DPI. Cette valeur doit être positive et définit comment l'image sera redimensionnée. |  
 
-### Valeur de Retour
+### Valeur de Retour  
 
-Un Booléen indiquant si l'image a été compressée avec succès. Renvoie `true` si l'image a été redimensionnée ou recadrée, sinon `false`.
+Un booléen indiquant si l'image a été compressée avec succès. Renvoie `true` si l'image a été redimensionnée ou recadrée, sinon `false`.  
 
-### Exceptions
+### Exceptions  
 
-| exception | condition |
-| --- | --- |
-| ArgumentException | Lancé lorsque la résolution n'est pas une valeur positive. |
+| exception | condition |  
+| --- | --- |  
+| ArgumentException | Lancé lorsque la résolution n'est pas une valeur positive. |  
 
-### Remarques
+### Remarques  
 
-Cette méthode change la taille et la résolution de l'image, similaire à la fonctionnalité "Format d'image -&gt; Compresser les images" de PowerPoint.
+Cette méthode change la taille et la résolution de l'image de manière similaire à la fonctionnalité "Format d'image -> Compresser les images" de PowerPoint.  
 
-### Exemples
+### Exemples  
 
-L'exemple suivant montre comment utiliser la méthode `CompressImage` pour réduire la taille d'une image dans une présentation en définissant une résolution cible et en supprimant les zones recadrées :
+L'exemple suivant démontre comment utiliser la méthode `CompressImage` pour réduire la taille d'une image dans une présentation en définissant une résolution cible et en supprimant les zones recadrées :  
 
-```csharp
-[C#]
-using (Presentation presentation = new Presentation("demo.pptx"))
-{
-    ISlide slide = presentation.Slides[0];
+```csharp  
+[C#]  
+using (Presentation presentation = new Presentation("demo.pptx"))  
+{  
+    ISlide slide = presentation.Slides[0];  
 
-    // Obtient le PictureFrame
-    IPictureFrame picFrame = slide.Shapes[0] as IPictureFrame;
+    // Obtient le PictureFrame  
+    IPictureFrame picFrame = slide.Shapes[0] as IPictureFrame;  
 
-    // Compresse l'image avec une résolution cible de 150 DPI (résolution Web) et supprime les zones recadrées
-    bool result=picFrame.PictureFormat.CompressImage(true, 150f); // Résolution Web
-}
-```
+    // Compresser l'image avec une résolution cible de 150 DPI (résolution Web) et supprimer les zones recadrées  
+    bool result=picFrame.PictureFormat.CompressImage(true, 150f); // Résolution Web  
+}  
+```  
 
-### Voir Aussi
+### Voir Également  
 
-* interface [IPictureFillFormat](../../ipicturefillformat)
-* namespace [Aspose.Slides](../../ipicturefillformat)
-* assembly [Aspose.Slides](../../../)
+* interface [IPictureFillFormat](../../ipicturefillformat)  
+* namespace [Aspose.Slides](../../ipicturefillformat)  
+* assembly [Aspose.Slides](../../../)  
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->  

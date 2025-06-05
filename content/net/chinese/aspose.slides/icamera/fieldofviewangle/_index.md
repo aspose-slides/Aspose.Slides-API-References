@@ -1,7 +1,7 @@
 ---
-title: 视场角
-second_title: Aspose.Slides for .NET API 参考
-description: 相机视场 0-180 度 视野 读/写 单精度浮点数。
+title: FieldOfViewAngle
+second_title: Aspose.Sildes for .NET API Reference
+description: 相机视场 0-180 度视野 可读写单精度浮点数。
 type: docs
 weight: 20
 url: /zh/aspose.slides/icamera/fieldofviewangle/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/icamera/fieldofviewangle/
 
 ## ICamera.FieldOfViewAngle 属性
 
-相机视场 (0-180 度，视野) 读/写 单精度浮点数。
+相机视场 (0-180 度，视野) 可读写单精度浮点数。
 
 ```csharp
 public float FieldOfViewAngle { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [ICamera](../../icamera)
 * 命名空间 [Aspose.Slides](../../icamera)

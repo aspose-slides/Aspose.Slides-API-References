@@ -1,6 +1,6 @@
 ---
-title: Elemento
-second_title: Referencia de la API de Aspose.Sildes para .NET
+title: Item
+second_title: Aspose.Slides para .NET Referencia de API
 description: Obtiene el elemento en el índice especificado. Solo lectura ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 30
@@ -22,4 +22,4 @@ public ILineFormat this[int index] { get; }
 * espacio de nombres [Aspose.Slides.Theme](../../lineformatcollection)
 * ensamblado [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->

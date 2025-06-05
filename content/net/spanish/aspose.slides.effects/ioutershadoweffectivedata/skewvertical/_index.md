@@ -1,13 +1,13 @@
 ---
 title: SkewVertical
-second_title: Referencia API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de la API
 description: Especifica el ángulo de sesgo vertical en grados. Solo lectura Double.
 type: docs
 weight: 110
 url: /es/aspose.slides.effects/ioutershadoweffectivedata/skewvertical/
 ---
 
-## Propiedad IOuterShadowEffectiveData.SkewVertical
+## IOuterShadowEffectiveData.SkewVertical propiedad
 
 Especifica el ángulo de sesgo vertical (en grados). Solo lectura Double.
 
@@ -15,10 +15,10 @@ Especifica el ángulo de sesgo vertical (en grados). Solo lectura Double.
 public double SkewVertical { get; }
 ```
 
-### Véase También
+### Ver También
 
-* interfaz [IOuterShadowEffectiveData](../../ioutershadoweffectivedata)
-* espacio de nombres [Aspose.Slides.Effects](../../ioutershadoweffectivedata)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IOuterShadowEffectiveData](../../ioutershadoweffectivedata)
+* espacio de nombres [Aspose.Slides.Effects](../../ioutershadoweffectivedata)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

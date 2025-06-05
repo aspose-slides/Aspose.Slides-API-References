@@ -1,13 +1,13 @@
 ---
 title: InsertColumnBefore
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Inserta una nueva columna antes de la especificada. Inicialmente, todos los elementos en la nueva columna son nulos.
 type: docs
 weight: 160
 url: /es/aspose.slides.mathtext/imathmatrix/insertcolumnbefore/
 ---
 
-## Método IMathMatrix.InsertColumnBefore
+## IMathMatrix.InsertColumnBefore method
 
 Inserta una nueva columna antes de la especificada. Inicialmente, todos los elementos en la nueva columna son nulos.
 
@@ -31,8 +31,8 @@ matrix.InsertColumnBefore(0);
 
 ### Véase También
 
-* interfaz [IMathMatrix](../../imathmatrix)
-* espacio de nombres [Aspose.Slides.MathText](../../imathmatrix)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IMathMatrix](../../imathmatrix)
+* espacio de nombres [Aspose.Slides.MathText](../../imathmatrix)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

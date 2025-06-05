@@ -1,15 +1,15 @@
 ---
 title: BorderLeft
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt ein Objekt mit Eigenschaften der linken Rahmenlinie zurück. Nur lesbar ILineFormataspose.slides/ilineformat.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt ein Eigenschaftenobjekt für die linke Randlinie zurück. Nur lesbar ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 40
 url: /de/aspose.slides/icellformat/borderleft/
 ---
 
-## ICellFormat.BorderLeft-Eigenschaft
+## ICellFormat.BorderLeft Eigenschaft
 
-Gibt ein Objekt mit Eigenschaften der linken Rahmenlinie zurück. Nur lesbar [`ILineFormat`](../../ilineformat).
+Gibt ein Eigenschaftenobjekt für die linke Randlinie zurück. Nur lesbar [`ILineFormat`](../../ilineformat).
 
 ```csharp
 public ILineFormat BorderLeft { get; }

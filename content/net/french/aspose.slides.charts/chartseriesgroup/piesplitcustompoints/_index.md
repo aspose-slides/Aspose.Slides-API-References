@@ -1,7 +1,7 @@
 ---
 title: PieSplitCustomPoints
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Les informations de séparation personnalisées pour un graphique de type pie-of-pie ou bar-of-pie avec une séparation personnalisée. Contient les points de données qui doivent être dessinés dans le deuxième pie ou bar dans un graphique de type pie-of-pie ou bar-of-pie. Read-only PieSplitCustomPointCollectionaspose.slides.charts/piesplitcustompointcollection.
+description: Les informations de séparation personnalisées pour un graphique de type pie-of-pie ou bar-of-pie avec une séparation personnalisée. Contient des points de données qui doivent être dessinés dans le deuxième secteur ou barre d'un graphique de type pie-of-pie ou bar-of-pie. Collection en lecture seule de PieSplitCustomPointCollectionaspose.slides/piesplitcustompointcollection.
 type: docs
 weight: 140
 url: /fr/aspose.slides.charts/chartseriesgroup/piesplitcustompoints/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/chartseriesgroup/piesplitcustompoints/
 
 ## Propriété ChartSeriesGroup.PieSplitCustomPoints
 
-Les informations de séparation personnalisées pour un graphique de type pie-of-pie ou bar-of-pie avec une séparation personnalisée. Contient les points de données qui doivent être dessinés dans le deuxième pie ou bar dans un graphique de type pie-of-pie ou bar-of-pie. Read-only [`PieSplitCustomPointCollection`](../../piesplitcustompointcollection).
+Les informations de séparation personnalisées pour un graphique de type pie-of-pie ou bar-of-pie avec une séparation personnalisée. Contient des points de données qui doivent être dessinés dans le deuxième secteur ou barre d'un graphique de type pie-of-pie ou bar-of-pie. Collection en lecture seule de [`PieSplitCustomPointCollection`](../../piesplitcustompointcollection).
 
 ```csharp
 public IPieSplitCustomPointCollection PieSplitCustomPoints { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IPieSplitCustomPointCollection](../../ipiesplitcustompointcollection)
 * class [ChartSeriesGroup](../../chartseriesgroup)

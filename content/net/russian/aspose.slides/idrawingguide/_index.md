@@ -1,7 +1,7 @@
 ---
 title: IDrawingGuide
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет настраиваемый направляющий элемент для рисования.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Представляет настраиваемый направляющий рисунок.
 type: docs
 weight: 5520
 url: /ru/aspose.slides/idrawingguide/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/idrawingguide/
 
 ## Интерфейс IDrawingGuide
 
-Представляет настраиваемый направляющий элемент для рисования.
+Представляет настраиваемый направляющий рисунок.
 
 ```csharp
 public interface IDrawingGuide
@@ -19,8 +19,8 @@ public interface IDrawingGuide
 
 | Имя | Описание |
 | --- | --- |
-| [Orientation](../../aspose.slides/idrawingguide/orientation) { get; set; } | Возвращает или задает ориентацию направляющего элемента для рисования. Чтение/запись [`Orientation`](../orientation). |
-| [Position](../../aspose.slides/idrawingguide/position) { get; set; } | Возвращает или задает позицию направляющего элемента для рисования в пунктах от верхнего левого угла слайда. Чтение/запись Single. |
+| [Orientation](../../aspose.slides/idrawingguide/orientation) { get; set; } | Возвращает или устанавливает ориентацию направляющей рисунка. Чтение/запись [`Orientation`](../orientation). |
+| [Position](../../aspose.slides/idrawingguide/position) { get; set; } | Возвращает или устанавливает позицию направляющей рисунка в пунктах от верхнего левого угла слайда. Чтение/запись Single. |
 
 ### См. также
 

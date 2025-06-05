@@ -1,6 +1,6 @@
 ---
-title: 大小
-second_title: Aspose.Slides for .NET API 参考
+title: Size
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回或设置以点为单位的大小。可读写 SizeF。
 type: docs
 weight: 10

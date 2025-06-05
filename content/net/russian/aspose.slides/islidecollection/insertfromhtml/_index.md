@@ -19,15 +19,15 @@ public ISlide[] InsertFromHtml(int index, string htmlText, IExternalResourceReso
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | index | Int32 | Позиция для вставки. |
-| htmlText | String | Html для добавления. |
-| resolver | IExternalResourceResolver | Объект обратного вызова, используемый для получения внешних объектов. Если этот параметр равен null, все внешние объекты будут проигнорированы. |
+| htmlText | String | HTML для добавления. |
+| resolver | IExternalResourceResolver | Объект обратного вызова, используемый для извлечения внешних объектов. Если этот параметр равен null, все внешние объекты будут проигнорированы. |
 | uri | String | URI указанного HTML. Используется для разрешения относительных ссылок. |
 
 ### Возвращаемое значение
 
 Добавленные слайды.
 
-### См. также
+### See Also
 
 * interface [ISlide](../../islide)
 * interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
@@ -48,13 +48,13 @@ public ISlide[] InsertFromHtml(int index, string htmlText)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | index | Int32 | Позиция для вставки. |
-| htmlText | String | Html для добавления. |
+| htmlText | String | HTML для добавления. |
 
 ### Возвращаемое значение
 
-Добавленные слайды
+Добавленные слайды.
 
-### См. также
+### See Also
 
 * interface [ISlide](../../islide)
 * interface [ISlideCollection](../../islidecollection)
@@ -76,14 +76,14 @@ public ISlide[] InsertFromHtml(int index, TextReader htmlReader,
 | --- | --- | --- |
 | index | Int32 | Позиция для вставки. |
 | htmlReader | TextReader | Объект TextReader, который будет использоваться в качестве источника HTML файла. |
-| resolver | IExternalResourceResolver | Объект обратного вызова, используемый для получения внешних объектов. Если этот параметр равен null, все внешние объекты будут проигнорированы. |
+| resolver | IExternalResourceResolver | Объект обратного вызова, используемый для извлечения внешних объектов. Если этот параметр равен null, все внешние объекты будут проигнорированы. |
 | uri | String | URI указанного HTML. Используется для разрешения относительных ссылок. |
 
 ### Возвращаемое значение
 
 Добавленные слайды.
 
-### См. также
+### See Also
 
 * interface [ISlide](../../islide)
 * interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
@@ -108,9 +108,9 @@ public ISlide[] InsertFromHtml(int index, TextReader htmlReader)
 
 ### Возвращаемое значение
 
-Добавленные слайды
+Добавленные слайды.
 
-### См. также
+### See Also
 
 * interface [ISlide](../../islide)
 * interface [ISlideCollection](../../islidecollection)
@@ -132,14 +132,14 @@ public ISlide[] InsertFromHtml(int index, Stream htmlStream, IExternalResourceRe
 | --- | --- | --- |
 | index | Int32 | Позиция для вставки. |
 | htmlStream | Stream | Объект Stream, который будет использоваться в качестве источника HTML файла. |
-| resolver | IExternalResourceResolver | Объект обратного вызова, используемый для получения внешних объектов. Если этот параметр равен null, все внешние объекты будут проигнорированы. |
+| resolver | IExternalResourceResolver | Объект обратного вызова, используемый для извлечения внешних объектов. Если этот параметр равен null, все внешние объекты будут проигнорированы. |
 | uri | String | URI указанного HTML. Используется для разрешения относительных ссылок. |
 
 ### Возвращаемое значение
 
 Добавленные слайды.
 
-### См. также
+### See Also
 
 * interface [ISlide](../../islide)
 * interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
@@ -164,9 +164,9 @@ public ISlide[] InsertFromHtml(int index, Stream htmlStream)
 
 ### Возвращаемое значение
 
-Добавленные слайды
+Добавленные слайды.
 
-### См. также
+### See Also
 
 * interface [ISlide](../../islide)
 * interface [ISlideCollection](../../islidecollection)
@@ -186,14 +186,14 @@ public ISlide[] InsertFromHtml(int index, string htmlText, bool useSlideWithInde
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | index | Int32 | Позиция для вставки. |
-| htmlText | String | Html для добавления. |
-| useSlideWithIndexAsStart | Boolean | Этот флаг определяет, как начинать вставку: с нового слайда или со слайда с указанным индексом. Если **true**, то вставка данных начнется с пустого места на слайде с указанным индексом. Если **false**, то данные будут добавлены в созданные слайды. |
+| htmlText | String | HTML для добавления. |
+| useSlideWithIndexAsStart | Boolean | Этот флаг определяет, как начать вставку: с нового слайда или со слайда с указанным индексом. Если **true**, то вставка данных начнется с пустого места на слайде с указанным индексом. Если **false**, то данные будут добавлены в созданные слайды. |
 
 ### Возвращаемое значение
 
-Добавленные слайды
+Добавленные слайды.
 
-### См. также
+### See Also
 
 * interface [ISlide](../../islide)
 * interface [ISlideCollection](../../islidecollection)
@@ -214,16 +214,16 @@ public ISlide[] InsertFromHtml(int index, string htmlText, IExternalResourceReso
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | index | Int32 | Позиция для вставки. |
-| htmlText | String | Html для добавления. |
-| resolver | IExternalResourceResolver | Объект обратного вызова, используемый для получения внешних объектов. Если этот параметр равен null, все внешние объекты будут проигнорированы. |
+| htmlText | String | HTML для добавления. |
+| resolver | IExternalResourceResolver | Объект обратного вызова, используемый для извлечения внешних объектов. Если этот параметр равен null, все внешние объекты будут проигнорированы. |
 | uri | String | URI указанного HTML. Используется для разрешения относительных ссылок. |
-| useSlideWithIndexAsStart | Boolean | Этот флаг определяет, как начинать вставку: с нового слайда или со слайда с указанным индексом. Если **true**, то вставка данных начнется с пустого места на слайде с указанным индексом. Если **false**, то данные будут добавлены в созданные слайды. |
+| useSlideWithIndexAsStart | Boolean | Этот флаг определяет, как начать вставку: с нового слайда или со слайда с указанным индексом. Если **true**, то вставка данных начнется с пустого места на слайде с указанным индексом. Если **false**, то данные будут добавлены в созданные слайды. |
 
 ### Возвращаемое значение
 
 Добавленные слайды.
 
-### См. также
+### See Also
 
 * interface [ISlide](../../islide)
 * interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
@@ -245,13 +245,13 @@ public ISlide[] InsertFromHtml(int index, Stream htmlStream, bool useSlideWithIn
 | --- | --- | --- |
 | index | Int32 | Позиция для вставки. |
 | htmlStream | Stream | Объект Stream, который будет использоваться в качестве источника HTML файла. |
-| useSlideWithIndexAsStart | Boolean | Этот флаг определяет, как начинать вставку: с нового слайда или со слайда с указанным индексом. Если **true**, то вставка данных начнется с пустого места на слайде с указанным индексом. Если **false**, то данные будут добавлены в созданные слайды. |
+| useSlideWithIndexAsStart | Boolean | Этот флаг определяет, как начать вставку: с нового слайда или со слайда с указанным индексом. Если **true**, то вставка данных начнется с пустого места на слайде с указанным индексом. Если **false**, то данные будут добавлены в созданные слайды. |
 
 ### Возвращаемое значение
 
-Добавленные слайды
+Добавленные слайды.
 
-### См. также
+### See Also
 
 * interface [ISlide](../../islide)
 * interface [ISlideCollection](../../islidecollection)
@@ -273,15 +273,15 @@ public ISlide[] InsertFromHtml(int index, Stream htmlStream, IExternalResourceRe
 | --- | --- | --- |
 | index | Int32 | Позиция для вставки. |
 | htmlStream | Stream | Объект Stream, который будет использоваться в качестве источника HTML файла. |
-| resolver | IExternalResourceResolver | Объект обратного вызова, используемый для получения внешних объектов. Если этот параметр равен null, все внешние объекты будут проигнорированы. |
+| resolver | IExternalResourceResolver | Объект обратного вызова, используемый для извлечения внешних объектов. Если этот параметр равен null, все внешние объекты будут проигнорированы. |
 | uri | String | URI указанного HTML. Используется для разрешения относительных ссылок. |
-| useSlideWithIndexAsStart | Boolean | Этот флаг определяет, как начинать вставку: с нового слайда или со слайда с указанным индексом. Если **true**, то вставка данных начнется с пустого места на слайде с указанным индексом. Если **false**, то данные будут добавлены в созданные слайды. |
+| useSlideWithIndexAsStart | Boolean | Этот флаг определяет, как начать вставку: с нового слайда или со слайда с указанным индексом. Если **true**, то вставка данных начнется с пустого места на слайде с указанным индексом. Если **false**, то данные будут добавлены в созданные слайды. |
 
 ### Возвращаемое значение
 
 Добавленные слайды.
 
-### См. также
+### See Also
 
 * interface [ISlide](../../islide)
 * interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)

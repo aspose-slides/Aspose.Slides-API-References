@@ -1,6 +1,6 @@
 ---
 title: GetColorScheme
-second_title: Aspose.Sildes для справки по API .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает цветовую схему.
 type: docs
 weight: 30
@@ -17,13 +17,13 @@ public IColorSchemeEffectiveData GetColorScheme(Color styleColor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| styleColor | Color | Цвет Цвета |
+| styleColor | Color | Цвет цвета |
 
 ### Возвращаемое значение
 
 Цветовая схема [`IColorSchemeEffectiveData`](../../icolorschemeeffectivedata)
 
-### См. также
+### Смотрите также
 
 * интерфейс [IColorSchemeEffectiveData](../../icolorschemeeffectivedata)
 * интерфейс [IThemeEffectiveData](../../ithemeeffectivedata)

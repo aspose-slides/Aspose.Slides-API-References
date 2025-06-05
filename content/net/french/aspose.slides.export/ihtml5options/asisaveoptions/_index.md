@@ -1,15 +1,15 @@
 ---
 title: AsISaveOptions
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie l'interface ISaveOptions. ISaveOptions en lecture seule aspose.slides.export/isaveoptions.
 type: docs
 weight: 30
 url: /fr/aspose.slides.export/ihtml5options/asisaveoptions/
 ---
 
-## Propriété IHtml5Options.AsISaveOptions
+## IHtml5Options.AsISaveOptions propriété
 
-Renvoie l'interface ISaveOptions. ISaveOptions en lecture seule [`ISaveOptions`](../../isaveoptions).
+Renvoie l'interface ISaveOptions. Lecture seule [`ISaveOptions`](../../isaveoptions).
 
 ```csharp
 public ISaveOptions AsISaveOptions { get; }

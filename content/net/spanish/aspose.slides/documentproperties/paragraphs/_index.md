@@ -1,7 +1,7 @@
 ---
-title: Párrafos
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve el número total de párrafos encontrados en un documento, si aplica. Solo lectura Int32.
+title: Paragraphs
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve el número total de párrafos encontrados en un documento, si corresponde. Solo lectura Int32.
 type: docs
 weight: 260
 url: /es/aspose.slides/documentproperties/paragraphs/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/documentproperties/paragraphs/
 
 ## DocumentProperties.Paragraphs property
 
-Devuelve el número total de párrafos encontrados en un documento, si aplica. Solo lectura Int32.
+Devuelve el número total de párrafos encontrados en un documento, si corresponde. Solo lectura Int32.
 
 ```csharp
 public int Paragraphs { get; }
 ```
 
-### Véase también
+### Ver También
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)

@@ -1,7 +1,7 @@
 ---
-title: 移除
-second_title: Aspose.Slides for .NET API 参考
-description: 移除指定的值。
+title: Remove
+second_title: Aspose.Sildes for .NET API Reference
+description: 删除指定的值。
 type: docs
 weight: 50
 url: /zh/aspose.slides.charts/trendlinecollection/remove/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/trendlinecollection/remove/
 
 ## TrendlineCollection.Remove 方法
 
-移除指定的值。
+删除指定的值。
 
 ```csharp
 public void Remove(ITrendline value)
 ```
 
-### 参见
+### 另见
 
 * 接口 [ITrendline](../../itrendline)
 * 类 [TrendlineCollection](../../trendlinecollection)

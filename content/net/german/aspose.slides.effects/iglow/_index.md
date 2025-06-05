@@ -19,12 +19,12 @@ public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransfo
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iglow/asiaccessiblepviobject) { get; } | Ermöglicht den Zugriff auf die Basis-Schnittstelle IAccessiblePVIObject. Nur-Lese [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iglow/asiimagetransformoperation) { get; } | Ermöglicht den Zugriff auf die Basis-Schnittstelle IImageTransformOperation. Nur-Lese [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iglow/asiaccessiblepviobject) { get; } | Ermöglicht den Zugriff auf die Basis-IAccessiblePVIObject-Schnittstelle. Nur-Lese [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iglow/asiimagetransformoperation) { get; } | Ermöglicht den Zugriff auf die Basis-IImageTransformOperation-Schnittstelle. Nur-Lese [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Color](../../aspose.slides.effects/iglow/color) { get; } | Farbformat. Nur-Lese [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Radius](../../aspose.slides.effects/iglow/radius) { get; set; } | Radius. Lese-/Schreibbarer Double. |
+| [Radius](../../aspose.slides.effects/iglow/radius) { get; set; } | Radius. Lese-/Schreibzugriff Double. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * Schnittstelle [IGlowEffectiveData](../igloweffectivedata)

@@ -1,6 +1,6 @@
 ---
 title: GetCellsAddress
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для справочника API .NET
 description: Возвращает адрес набора ячеек в рабочей книге.
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/chartcellcollection/getcellsaddress/
 public string GetCellsAddress()
 ```
 
-### Смотрите также
+### См. также
 
 * класс [ChartCellCollection](../../chartcellcollection)
 * пространство имен [Aspose.Slides.Charts](../../chartcellcollection)

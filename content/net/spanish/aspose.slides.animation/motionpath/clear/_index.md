@@ -1,5 +1,5 @@
 ---
-title: Limpiar
+title: Clear
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Elimina todos los comandos de la colección.
 type: docs
@@ -15,10 +15,10 @@ Elimina todos los comandos de la colección.
 public void Clear()
 ```
 
-### Ver también
+### Ver También
 
-* class [MotionPath](../../motionpath)
-* namespace [Aspose.Slides.Animation](../../motionpath)
-* assembly [Aspose.Slides](../../../)
+* clase [MotionPath](../../motionpath)
+* espacio de nombres [Aspose.Slides.Animation](../../motionpath)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: SetTextFormat
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Définit les propriétés de format de portion définies pour toutes les portions de cellules de table.
+second_title: Aspose.Sildes pour la référence de l'API .NET
+description: Définit les propriétés de format de portions définies pour toutes les portions des cellules de tableau.
 type: docs
 weight: 150
 url: /fr/aspose.slides/table/settextformat/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/table/settextformat/
 
 ## SetTextFormat(IPortionFormat) {#settextformat_1}
 
-Définit les propriétés de format de portion définies pour toutes les portions de cellules de table.
+Définit les propriétés de format de portions définies pour toutes les portions des cellules de tableau.
 
 ```csharp
 public void SetTextFormat(IPortionFormat source)
@@ -19,7 +19,7 @@ public void SetTextFormat(IPortionFormat source)
 | --- | --- | --- |
 | source | IPortionFormat | Objet IPortionFormat avec les propriétés nécessaires définies. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IPortionFormat](../../iportionformat)
 * class [Table](../../table)
@@ -30,7 +30,7 @@ public void SetTextFormat(IPortionFormat source)
 
 ## SetTextFormat(IParagraphFormat) {#settextformat}
 
-Définit les propriétés de format de paragraphe définies pour tous les paragraphes des cellules de table.
+Définit les propriétés de format de paragraphe définies pour tous les paragraphes des cellules de tableau.
 
 ```csharp
 public void SetTextFormat(IParagraphFormat source)
@@ -40,7 +40,7 @@ public void SetTextFormat(IParagraphFormat source)
 | --- | --- | --- |
 | source | IParagraphFormat | Objet IParagraphFormat avec les propriétés nécessaires définies. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IParagraphFormat](../../iparagraphformat)
 * class [Table](../../table)
@@ -51,7 +51,7 @@ public void SetTextFormat(IParagraphFormat source)
 
 ## SetTextFormat(ITextFrameFormat) {#settextformat_2}
 
-Définit les propriétés de format de cadre de texte définies pour tous les cadres de texte des cellules de table.
+Définit les propriétés de format de cadre de texte définies pour tous les cadres de texte des cellules de tableau.
 
 ```csharp
 public void SetTextFormat(ITextFrameFormat source)
@@ -61,7 +61,7 @@ public void SetTextFormat(ITextFrameFormat source)
 | --- | --- | --- |
 | source | ITextFrameFormat | Objet ITextFrameFormat avec les propriétés nécessaires définies. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ITextFrameFormat](../../itextframeformat)
 * class [Table](../../table)

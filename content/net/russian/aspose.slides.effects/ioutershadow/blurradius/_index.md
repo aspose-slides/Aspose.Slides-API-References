@@ -1,6 +1,6 @@
 ---
 title: BlurRadius
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Радиус размытия. Чтение/запись Double.
 type: docs
 weight: 30

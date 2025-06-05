@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export.xaml/ixamloutputsaver/save/
 ---
+
 ## IXamlOutputSaver.Save method
 
 Saves a bytes array to a destination location.

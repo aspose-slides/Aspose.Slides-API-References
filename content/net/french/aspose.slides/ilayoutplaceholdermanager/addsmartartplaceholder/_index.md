@@ -1,7 +1,7 @@
 ---
 title: AddSmartArtPlaceholder
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Ajoute une nouvelle forme de remplacement à la diapositive de mise en page pour contenir un diagramme SmartArt.
+second_title: Aspose.Slides pour la référence API .NET
+description: Ajoute une nouvelle forme de substitut à la diapositive de mise en page pour contenir un diagramme SmartArt.
 type: docs
 weight: 60
 url: /fr/aspose.slides/ilayoutplaceholdermanager/addsmartartplaceholder/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ilayoutplaceholdermanager/addsmartartplaceholder/
 
 ## ILayoutPlaceholderManager.AddSmartArtPlaceholder méthode
 
-Ajoute une nouvelle forme de remplacement à la diapositive de mise en page pour contenir un diagramme SmartArt.
+Ajoute une nouvelle forme de substitut à la diapositive de mise en page pour contenir un diagramme SmartArt.
 
 ```csharp
 public IAutoShape AddSmartArtPlaceholder(float x, float y, float width, float height)
@@ -17,18 +17,18 @@ public IAutoShape AddSmartArtPlaceholder(float x, float y, float width, float he
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| x | Single | La coordonnée X de la nouvelle forme de remplacement. |
-| y | Single | La coordonnée Y de la nouvelle forme de remplacement. |
-| width | Single | La largeur de la nouvelle forme de remplacement. |
-| height | Single | La hauteur de la nouvelle forme de remplacement. |
+| x | Single | La coordonnée X de la nouvelle forme de substitut. |
+| y | Single | La coordonnée Y de la nouvelle forme de substitut. |
+| width | Single | La largeur de la nouvelle forme de substitut. |
+| height | Single | La hauteur de la nouvelle forme de substitut. |
 
-### Valeur de Retour
+### Valeur de retour
 
-Créé [`IAutoShape`](../../iautoshape) avec un espace réservé SmartArt.
+Créé un [`IAutoShape`](../../iautoshape) avec un substitut SmartArt.
 
 ### Exemples
 
-L'exemple suivant montre comment ajouter la forme de remplacement SmartArt à la diapositive de mise en page.
+L'exemple suivant montre comment ajouter la forme de substitut SmartArt à la diapositive de mise en page.
 
 ```csharp
 [C#]

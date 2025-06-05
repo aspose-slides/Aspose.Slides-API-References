@@ -15,7 +15,7 @@ url: /zh/aspose.slides.effects/ialphamodulate/asiaccessiblepviobject/
 public IAccessiblePVIObject<IAlphaModulateEffectiveData> AsIAccessiblePVIObject { get; }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
 * 接口 [IAlphaModulateEffectiveData](../../ialphamodulateeffectivedata)

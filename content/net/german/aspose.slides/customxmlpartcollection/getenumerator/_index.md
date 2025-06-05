@@ -7,7 +7,7 @@ weight: 80
 url: /de/aspose.slides/customxmlpartcollection/getenumerator/
 ---
 
-## CustomXmlPartCollection.GetEnumerator-Methode
+## CustomXmlPartCollection.GetEnumerator Methode
 
 Gibt einen Enumerator zurück, der durch die Sammlung iteriert.
 

@@ -1,7 +1,7 @@
 ---
-title: AudioIntegrado
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve o establece un objeto de audio incrustado. Lectura/escritura IAudioaspose.slides/iaudio.
+title: EmbeddedAudio
+second_title: Aspose.Sildes para .NET Referencia de la API
+description: Devuelve o establece objeto de audio incrustado. Lectura/escritura IAudioaspose.slides/iaudio.
 type: docs
 weight: 70
 url: /es/aspose.slides/iaudioframe/embeddedaudio/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/iaudioframe/embeddedaudio/
 
 ## Propiedad IAudioFrame.EmbeddedAudio
 
-Devuelve o establece un objeto de audio incrustado. Lectura/escritura [`IAudio`](../../iaudio).
+Devuelve o establece objeto de audio incrustado. Lectura/escritura [`IAudio`](../../iaudio).
 
 ```csharp
 public IAudio EmbeddedAudio { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IAudio](../../iaudio)
 * interfaz [IAudioFrame](../../iaudioframe)

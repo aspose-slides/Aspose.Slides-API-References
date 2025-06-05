@@ -1,6 +1,6 @@
 ---
 title: MathParagraph
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Slides для .NET API Reference
 description: Инициализирует новый экземпляр класса MathParagraph.
 type: docs
 weight: 10

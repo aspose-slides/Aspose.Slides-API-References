@@ -1,6 +1,6 @@
 ---
-title: 布局类型
-second_title: Aspose.Slides for .NET API 参考
+title: LayoutType
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回此布局幻灯片的布局类型。只读 SlideLayoutTypeaspose.slides/slidelayouttype。
 type: docs
 weight: 30

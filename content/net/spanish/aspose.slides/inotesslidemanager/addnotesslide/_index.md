@@ -1,7 +1,7 @@
 ---
 title: AddNotesSlide
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve la diapositiva de notas para la diapositiva actual, creando una si no existe.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Devuelve la diapositiva de notas para la diapositiva actual creando una si no existe.
 type: docs
 weight: 20
 url: /es/aspose.slides/inotesslidemanager/addnotesslide/
@@ -24,6 +24,6 @@ public INotesSlide AddNotesSlide()
 * interfaz [INotesSlide](../../inotesslide)
 * interfaz [INotesSlideManager](../../inotesslidemanager)
 * espacio de nombres [Aspose.Slides](../../inotesslidemanager)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

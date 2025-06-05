@@ -1,5 +1,5 @@
 ---
-title: Supprimer
+title: Remove
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Supprime une propriété avec le nom spécifié.
 type: docs
@@ -7,7 +7,7 @@ weight: 70
 url: /fr/aspose.slides/icontrolpropertiescollection/remove/
 ---
 
-## Méthode IControlPropertiesCollection.Remove
+## IControlPropertiesCollection.Remove méthode
 
 Supprime une propriété avec le nom spécifié.
 
@@ -19,7 +19,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | Le nom de la propriété à supprimer. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IControlPropertiesCollection](../../icontrolpropertiescollection)
 * namespace [Aspose.Slides](../../icontrolpropertiescollection)

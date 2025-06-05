@@ -1,7 +1,7 @@
 ---
 title: TriggerShape
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置INTERACTIVE序列的形状目标。如果序列不是交互式的，则返回null。可读/可写 IShapeaspose.slides/../aspose.slides/ishape。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回或设置 INTERACTIVE 序列的形状目标。如果序列不是交互式，则返回 null。可读/写 IShapeaspose.slides/../aspose.slides/ishape。
 type: docs
 weight: 40
 url: /zh/aspose.slides.animation/isequence/triggershape/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.animation/isequence/triggershape/
 
 ## ISequence.TriggerShape 属性
 
-返回或设置INTERACTIVE序列的形状目标。如果序列不是交互式的，则返回null。可读/可写 [`IShape`](../../../aspose.slides/ishape)。
+返回或设置 INTERACTIVE 序列的形状目标。如果序列不是交互式，则返回 null。可读/写 [`IShape`](../../../aspose.slides/ishape)。
 
 ```csharp
 public IShape TriggerShape { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IShape](../../../aspose.slides/ishape)
 * 接口 [ISequence](../../isequence)

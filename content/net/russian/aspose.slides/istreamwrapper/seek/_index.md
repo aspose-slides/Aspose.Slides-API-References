@@ -1,6 +1,6 @@
 ---
 title: Seek
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Sildes для справки по API .NET
 description: Устанавливает позицию в текущем потоке
 type: docs
 weight: 120
@@ -18,7 +18,7 @@ public long Seek(long offset, SeekOrigin origin)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | offset | Int64 | Смещение в байтах относительно параметра origin Int64 |
-| origin | SeekOrigin | Значение типа SeekOrigin, указывающее точку отсчета, используемую для получения новой позиции |
+| origin | SeekOrigin | Значение типа SeekOrigin, указывающее на опорную точку, используемую для получения новой позиции |
 
 ### Возвращаемое значение
 

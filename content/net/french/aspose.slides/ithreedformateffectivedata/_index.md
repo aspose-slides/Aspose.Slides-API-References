@@ -1,7 +1,7 @@
 ---
 title: IThreeDFormatEffectiveData
-second_title: Aspose.Sildes pour la référence de l'API .NET
-description: Objet immuable qui représente les propriétés de formatage 3-D effectives.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Objet immuable qui représente les propriétés de formatage 3D effectives.
 type: docs
 weight: 7120
 url: /fr/aspose.slides/ithreedformateffectivedata/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ithreedformateffectivedata/
 
 ## Interface IThreeDFormatEffectiveData
 
-Objet immuable qui représente les propriétés de formatage 3-D effectives.
+Objet immuable qui représente les propriétés de formatage 3D effectives.
 
 ```csharp
 public interface IThreeDFormatEffectiveData : IThreeDParamSource
@@ -20,8 +20,8 @@ public interface IThreeDFormatEffectiveData : IThreeDParamSource
 | Nom | Description |
 | --- | --- |
 | [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | Permet d'obtenir l'interface de base IThreeDParamSource. Lecture seule [`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | Retourne le type d'un biseau 3D inférieur. Lecture seule [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
-| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | Retourne le type d'un biseau 3D supérieur. Lecture seule [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | Retourne le type d'un chanfrein 3D inférieur. Lecture seule [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | Retourne le type d'un chanfrein 3D supérieur. Lecture seule [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
 | [Camera](../../aspose.slides/ithreedformateffectivedata/camera) { get; } | Retourne les paramètres d'une caméra. Lecture seule [`ICameraEffectiveData`](../icameraeffectivedata). |
 | [ContourColor](../../aspose.slides/ithreedformateffectivedata/contourcolor) { get; } | Retourne la couleur d'un contour. Lecture seule Color. |
 | [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | Retourne la largeur d'un contour 3D. Lecture seule Double. |
@@ -35,7 +35,7 @@ public interface IThreeDFormatEffectiveData : IThreeDParamSource
 
 Cette interface est utilisée avec l'interface [`IThreeDFormat`](../ithreedformat) pour retourner des valeurs de formatage effectives avec héritage appliqué.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IThreeDParamSource](../ithreedparamsource)
 * namespace [Aspose.Slides](../../aspose.slides)

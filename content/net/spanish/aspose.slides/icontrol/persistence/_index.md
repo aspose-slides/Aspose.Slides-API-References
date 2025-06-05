@@ -1,6 +1,6 @@
 ---
-title: Persistencia
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Persistence
+second_title: Aspose.Slides para .NET Referencia de API
 description: Obtiene el método utilizado para almacenar las propiedades del control ActiveX. Solo lectura PersistenceTypeaspose.slides/persistencetype.
 type: docs
 weight: 60
@@ -15,7 +15,7 @@ Obtiene el método utilizado para almacenar las propiedades del control ActiveX.
 public PersistenceType Persistence { get; }
 ```
 
-### Véase también
+### Véase También
 
 * enum [PersistenceType](../../persistencetype)
 * interface [IControl](../../icontrol)

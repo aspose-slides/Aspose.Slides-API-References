@@ -1,7 +1,7 @@
 ---
 title: ShapeTypeLocked
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob eine Änderung des Formtyps verboten ist. Lese-/schreibbare Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt, ob eine Änderung des Formatyps verboten ist. Lese-/Schreib-Boolean.
 type: docs
 weight: 110
 url: /de/aspose.slides/ipictureframelock/shapetypelocked/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ipictureframelock/shapetypelocked/
 
 ## IPictureFrameLock.ShapeTypeLocked-Eigenschaft
 
-Bestimmt, ob eine Änderung des Formtyps verboten ist. Lese-/schreibbare Boolean.
+Bestimmt, ob eine Änderung des Formatyps verboten ist. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool ShapeTypeLocked { get; set; }

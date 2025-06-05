@@ -1,13 +1,13 @@
 ---
 title: AsIEffectEffectiveData
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Permet d'obtenir l'interface de base IEffectEffectiveData. IEffectEffectiveData en lecture seule aspose.slides.effects/ieffecteffectivedata.
+second_title: Aspose.Slides pour .NET Référence API
+description: Permet d'obtenir l'interface de base IEffectEffectiveData. Lecture seule IEffectEffectiveDataaspose.slides.effects/ieffecteffectivedata.
 type: docs
 weight: 10
 url: /fr/aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata/
 ---
 
-## Propriété IFillOverlayEffectiveData.AsIEffectEffectiveData
+## IFillOverlayEffectiveData.AsIEffectEffectiveData propriété
 
 Permet d'obtenir l'interface de base IEffectEffectiveData. Lecture seule [`IEffectEffectiveData`](../../ieffecteffectivedata).
 
@@ -15,7 +15,7 @@ Permet d'obtenir l'interface de base IEffectEffectiveData. Lecture seule [`IEffe
 public IEffectEffectiveData AsIEffectEffectiveData { get; }
 ```
 
-### À voir aussi
+### Voir Aussi
 
 * interface [IEffectEffectiveData](../../ieffecteffectivedata)
 * interface [IFillOverlayEffectiveData](../../ifilloverlayeffectivedata)

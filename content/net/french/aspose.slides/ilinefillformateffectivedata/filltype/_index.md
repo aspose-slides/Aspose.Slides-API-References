@@ -1,7 +1,7 @@
 ---
 title: FillType
-second_title: Référence API d'Aspose.Slides pour .NET
-description: Renvoie le type de remplissage. Read-only FillTypeaspose.slides/filltype.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie le type de remplissage. Propriété en lecture seule FillTypeaspose.slides/filltype.
 type: docs
 weight: 20
 url: /fr/aspose.slides/ilinefillformateffectivedata/filltype/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ilinefillformateffectivedata/filltype/
 
 ## Propriété ILineFillFormatEffectiveData.FillType
 
-Renvoie le type de remplissage. Read-only [`FillType`](../../filltype).
+Renvoie le type de remplissage. Propriété en lecture seule [`FillType`](../../filltype).
 
 ```csharp
 public FillType FillType { get; }

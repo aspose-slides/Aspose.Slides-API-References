@@ -1,7 +1,7 @@
 ---
 title: AsIAccessiblePVIObject
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erlaubt den Zugriff auf die grundlegende IAccessiblePVIObject-Schnittstelle. Nur-Lese IAccessiblePVIObjectaspose.slides/../aspose.slides/iaccessiblepviobject-1.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ermöglicht den Zugriff auf die Basis-IAccessiblePVIObject-Schnittstelle. Nur-lesbar IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
 type: docs
 weight: 10
 url: /de/aspose.slides.effects/ialphafloor/asiaccessiblepviobject/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/ialphafloor/asiaccessiblepviobject/
 
 ## IAlphaFloor.AsIAccessiblePVIObject-Eigenschaft
 
-Erlaubt den Zugriff auf die grundlegende IAccessiblePVIObject-Schnittstelle. Nur-Lese [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
+Ermöglicht den Zugriff auf die Basis-IAccessiblePVIObject-Schnittstelle. Nur-lesbar [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
 
 ```csharp
 public IAccessiblePVIObject<IAlphaFloorEffectiveData> AsIAccessiblePVIObject { get; }

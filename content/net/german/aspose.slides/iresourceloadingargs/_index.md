@@ -19,16 +19,16 @@ public interface IResourceLoadingArgs
 
 | Name | Beschreibung |
 | --- | --- |
-| [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | Ursprüngliche URI der Ressource, wie sie in der importierten Präsentation angegeben ist. |
-| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | URI der Ressource, die zum Herunterladen verwendet wird, wenn [`ResourceLoading`](../iresourceloadingcallback/resourceloading) Default zurückgibt. Ursprünglich ist sie auf die ursprüngliche URI der Ressource gesetzt, kann aber auf einen beliebigen Wert redefiniert werden. |
+| [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | Ursprüngliche URI der Ressource, wie in der importierten Präsentation angegeben. |
+| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | URI der Ressource, die zum Herunterladen verwendet wird, wenn [`ResourceLoading`](../iresourceloadingcallback/resourceloading) Default zurückgibt. Anfangs ist sie auf die ursprüngliche URI der Ressource gesetzt, kann aber auf jeden Wert neu definiert werden. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | Setzt die vom Benutzer bereitgestellten Daten der Ressource, die verwendet werden, wenn [`ResourceLoading`](../iresourceloadingcallback/resourceloading) UserProvided zurückgibt. |
+| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | Setzt die von dem Benutzer bereitgestellten Daten der Ressource, die verwendet werden, wenn [`ResourceLoading`](../iresourceloadingcallback/resourceloading) UserProvided zurückgibt. |
 
-### Siehe Auch
+### Siehe auch
 
 * Namespace [Aspose.Slides](../../aspose.slides)
 * Assembly [Aspose.Slides](../../)

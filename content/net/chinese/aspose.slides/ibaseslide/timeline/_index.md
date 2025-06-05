@@ -1,7 +1,7 @@
 ---
-title: 时间线
+title: Timeline
 second_title: Aspose.Slides for .NET API 参考
-description: 返回动画时间线对象。只读 IAnimationTimeLine。
+description: 返回动画时间线对象。只读 IAnimationTimeLine aspose.slides/ianimationtimeline。
 type: docs
 weight: 110
 url: /zh/aspose.slides/ibaseslide/timeline/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ibaseslide/timeline/
 public IAnimationTimeLine Timeline { get; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IAnimationTimeLine](../../ianimationtimeline)
 * 接口 [IBaseSlide](../../ibaseslide)

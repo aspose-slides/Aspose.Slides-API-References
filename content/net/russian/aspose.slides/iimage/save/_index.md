@@ -1,6 +1,6 @@
 ---
-title: Сохранить
-second_title: Справочник по API Aspose.Slides для .NET
+title: Save
+second_title: Aspose.Sildes для .NET API Reference
 description: Сохраняет изображение в файл.
 type: docs
 weight: 40
@@ -19,7 +19,7 @@ public void Save(string filename)
 | --- | --- | --- |
 | filename | String | Путь к файлу, в который будет сохранено изображение. |
 
-### Также см.
+### См. также
 
 * интерфейс [IImage](../../iimage)
 * пространство имен [Aspose.Slides](../../iimage)
@@ -40,7 +40,7 @@ public void Save(string filename, ImageFormat format)
 | filename | String | Путь к файлу, в который будет сохранено изображение. |
 | format | ImageFormat | Формат изображения. |
 
-### Также см.
+### См. также
 
 * перечисление [ImageFormat](../../imageformat)
 * интерфейс [IImage](../../iimage)
@@ -62,7 +62,7 @@ public void Save(Stream stream, ImageFormat format)
 | stream | Stream | Поток, в который будет сохранено изображение. |
 | format | ImageFormat | Формат изображения. |
 
-### Также см.
+### См. также
 
 * перечисление [ImageFormat](../../imageformat)
 * интерфейс [IImage](../../iimage)
@@ -83,9 +83,9 @@ public void Save(string filename, ImageFormat format, int quality)
 | --- | --- | --- |
 | filename | String | Путь к файлу, в который будет сохранено изображение. |
 | format | ImageFormat | Формат изображения. |
-| quality | Int32 | Качество сохраненного изображения (от 0 до 100). Этот параметр влияет только на сохранение в Jpeg; для всех других форматов он игнорируется. |
+| quality | Int32 | Качество сохраненного изображения (от 0 до 100). Этот параметр влияет только на сохранение в Jpeg; для всех остальных форматов он игнорируется. |
 
-### Также см.
+### См. также
 
 * перечисление [ImageFormat](../../imageformat)
 * интерфейс [IImage](../../iimage)
@@ -106,9 +106,9 @@ public void Save(Stream stream, ImageFormat format, int quality)
 | --- | --- | --- |
 | stream | Stream | Поток, в который будет сохранено изображение. |
 | format | ImageFormat | Формат изображения. |
-| quality | Int32 | Качество сохраненного изображения (от 0 до 100). Этот параметр влияет только на сохранение в Jpeg; для всех других форматов он игнорируется. |
+| quality | Int32 | Качество сохраненного изображения (от 0 до 100). Этот параметр влияет только на сохранение в Jpeg; для всех остальных форматов он игнорируется. |
 
-### Также см.
+### См. также
 
 * перечисление [ImageFormat](../../imageformat)
 * интерфейс [IImage](../../iimage)

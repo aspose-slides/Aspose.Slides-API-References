@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.export/presentationanimationsgenerator/run/
 ---
+
 ## Run(IEnumerable&lt;ISlide&gt;) {#run}
 
 Run the animation events generation for each slide.

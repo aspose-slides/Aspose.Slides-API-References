@@ -1,15 +1,15 @@
 ---
 title: GetHyperlinkMouseOvers
-second_title: Aspose.Slides для .NET API Справочник
-description: Получите все подобъекты IHyperlinkContainer, которые содержат ненулевой HyperlinkMouseOver. С данным объектом IHyperlinkContainer вы можете управлять его гиперссылками читать, обновлять или удалять. Смотрите интерфейс IHyperlinkContainer.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получите все подмножества IHyperlinkContainer, содержащие ненулевой HyperlinkMouseOver. С данным объектом IHyperlinkContainer вы можете управлять его гиперссылкой читать, обновлять или удалять. См. интерфейс IHyperlinkContainer.
 type: docs
 weight: 30
 url: /ru/aspose.slides/ihyperlinkqueries/gethyperlinkmouseovers/
 ---
 
-## Метод IHyperlinkQueries.GetHyperlinkMouseOvers
+## IHyperlinkQueries.GetHyperlinkMouseOvers метод
 
-Получите все подообъекты IHyperlinkContainer, которые содержат ненулевой HyperlinkMouseOver. С данным объектом IHyperlinkContainer вы можете управлять его гиперссылками (читать, обновлять или удалять). Смотрите интерфейс IHyperlinkContainer.
+Получите все подмножества IHyperlinkContainer, содержащие ненулевой HyperlinkMouseOver. С данным объектом IHyperlinkContainer вы можете управлять его гиперссылкой (читать, обновлять или удалять). См. интерфейс IHyperlinkContainer.
 
 ```csharp
 public IList<IHyperlinkContainer> GetHyperlinkMouseOvers()
@@ -17,9 +17,9 @@ public IList<IHyperlinkContainer> GetHyperlinkMouseOvers()
 
 ### Возвращаемое значение
 
-Все подообъекты IHyperlinkContainer, которые содержат ненулевой HyperlinkMouseOver
+Все подмножества IHyperlinkContainer, содержащие ненулевой HyperlinkMouseOver
 
-### Смотрите также
+### См. также
 
 * интерфейс [IHyperlinkContainer](../../ihyperlinkcontainer)
 * интерфейс [IHyperlinkQueries](../../ihyperlinkqueries)

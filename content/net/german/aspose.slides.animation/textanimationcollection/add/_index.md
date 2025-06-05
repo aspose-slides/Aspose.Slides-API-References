@@ -1,7 +1,7 @@
 ---
-title: Hinzufügen
+title: Add
 second_title: Aspose.Slides für .NET API-Referenz
-description: Fügt der Sammlung eine neue Texanimation hinzu.
+description: Fügt neue Textanimation zur Sammlung hinzu.
 type: docs
 weight: 60
 url: /de/aspose.slides.animation/textanimationcollection/add/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/textanimationcollection/add/
 
 ## TextAnimationCollection.Add-Methode
 
-Fügt der Sammlung eine neue Texanimation hinzu.
+Fügt neue Textanimation zur Sammlung hinzu.
 
 ```csharp
 public TextAnimation Add()

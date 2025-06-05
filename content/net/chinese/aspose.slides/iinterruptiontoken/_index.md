@@ -1,7 +1,7 @@
 ---
 title: IInterruptionToken
-second_title: Aspose.Sildes for .NET API 参考
-description: 该类表示用于信号长时间运行任务的令牌，以便检查是否请求了中断。
+second_title: Aspose.Sildes for .NET API Reference
+description: 该类表示用于信号长时间运行任务的令牌，指示是否请求了中断。
 type: docs
 weight: 5990
 url: /zh/aspose.slides/iinterruptiontoken/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iinterruptiontoken/
 
 ## IInterruptionToken 接口
 
-该类表示用于信号长时间运行任务的令牌，以便检查是否请求了中断。
+该类表示用于信号长时间运行任务的令牌，指示是否请求了中断。
 
 ```csharp
 public interface IInterruptionToken
@@ -25,9 +25,9 @@ public interface IInterruptionToken
 
 | 名称 | 描述 |
 | --- | --- |
-| [ThrowIfInterruptionRequested](../../aspose.slides/iinterruptiontoken/throwifinterruptionrequested)() | 如果请求了中断，则抛出 OperationCanceledException。当请求了中断时抛出。 |
+| [ThrowIfInterruptionRequested](../../aspose.slides/iinterruptiontoken/throwifinterruptionrequested)() | 如果请求了中断，则抛出 OperationCanceledException。当请求中断时抛出。 |
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

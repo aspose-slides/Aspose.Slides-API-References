@@ -1,15 +1,15 @@
 ---
 title: RasterizeUnsupportedFontStyles
-second_title: Aspose.Slides pour la référence API .NET
-description: Indique si le texte doit être rasterisé en tant que bitmap et enregistré au format PDF lorsque la police ne prend pas en charge le style gras. Cette approche peut améliorer la qualité du texte dans le PDF résultant pour certaines polices. Lecture/écriture booléenne.
+second_title: Aspose.Sildes pour .NET API Reference
+description: Indique si le texte doit être rasterisé en tant que bitmap et enregistré au format PDF lorsque la police ne prend pas en charge le style gras. Cette approche peut améliorer la qualité du texte dans le PDF résultant pour certaines polices. Propriétaire en lecture/écriture de type Booléen.
 type: docs
 weight: 150
 url: /fr/aspose.slides.export/ipdfoptions/rasterizeunsupportedfontstyles/
 ---
 
-## Propriété IPdfOptions.RasterizeUnsupportedFontStyles
+## IPdfOptions.RasterizeUnsupportedFontStyles propriété
 
-Indique si le texte doit être rasterisé en tant que bitmap et enregistré au format PDF lorsque la police ne prend pas en charge le style gras. Cette approche peut améliorer la qualité du texte dans le PDF résultant pour certaines polices. Lecture/écriture booléenne.
+Indique si le texte doit être rasterisé en tant que bitmap et enregistré au format PDF lorsque la police ne prend pas en charge le style gras. Cette approche peut améliorer la qualité du texte dans le PDF résultant pour certaines polices. Propriétaire en lecture/écriture de type Booléen.
 
 ```csharp
 public bool RasterizeUnsupportedFontStyles { get; set; }

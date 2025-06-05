@@ -1,6 +1,6 @@
 ---
 title: GetHashCode
-second_title: Aspose.Slides para .NET Referencia de API
+second_title: Aspose.Slides para referencia de API de .NET
 description: type docs
 weight: 40
 url: /es/aspose.slides/gradientstopeffectivedata/gethashcode/
@@ -12,7 +12,7 @@ url: /es/aspose.slides/gradientstopeffectivedata/gethashcode/
 public override int GetHashCode()
 ```
 
-### Vea También
+### Ver También
 
 * clase [GradientStopEffectiveData](../../gradientstopeffectivedata)
 * espacio de nombres [Aspose.Slides](../../gradientstopeffectivedata)

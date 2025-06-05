@@ -1,6 +1,6 @@
 ---
 title: BehaviorFactory
-second_title: Aspose.Slidess для .NET API Reference
+second_title: Aspose.Sildes для .NET API Reference
 description: Конструктор по умолчанию.
 type: docs
 weight: 10

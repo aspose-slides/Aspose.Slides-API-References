@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/groupshapelock/sizelocked/
 ---
+
 ## GroupShapeLock.SizeLocked property
 
 Determines whether resizing this shape is forbidden. Read/write Boolean.

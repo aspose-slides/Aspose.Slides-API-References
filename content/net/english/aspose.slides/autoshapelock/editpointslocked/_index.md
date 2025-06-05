@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/autoshapelock/editpointslocked/
 ---
+
 ## AutoShapeLock.EditPointsLocked property
 
 Determines whether a direct changing of contour of this shape is forbidden. Read/write Boolean.

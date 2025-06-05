@@ -1,5 +1,5 @@
 ---
-title: Superíndice
+title: Superscript
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Argumento de superíndice
 type: docs
@@ -7,7 +7,7 @@ weight: 40
 url: /es/aspose.slides.mathtext/mathrightsubsuperscriptelement/superscript/
 ---
 
-## MathRightSubSuperscriptElement.Superscript propiedad
+## MathRightSubSuperscriptElement.Superscript property
 
 Argumento de superíndice
 

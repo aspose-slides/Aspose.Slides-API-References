@@ -1,7 +1,7 @@
 ---
-title: Zähler
+title: Numerator
 second_title: Aspose.Slides für .NET API Referenz
-description: Zähler
+description: Numerator
 type: docs
 weight: 40
 url: /de/aspose.slides.mathtext/imathfraction/numerator/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathfraction/numerator/
 
 ## IMathFraction.Numerator-Eigenschaft
 
-Zähler
+Numerator
 
 ```csharp
 public IMathElement Numerator { get; }

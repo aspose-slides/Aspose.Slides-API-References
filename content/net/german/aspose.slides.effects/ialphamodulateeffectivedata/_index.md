@@ -1,7 +1,7 @@
 ---
 title: IAlphaModulateEffectiveData
-second_title: Aspose.Slides für .NET API-Referenz
-description: Unveränderliches Objekt, das einen Alpha-Modulationseffekt darstellt. Die Alpha-Opazitätswerte des Effekts werden mit einem festen Prozentsatz multipliziert. Der Effektcontainer gibt einen Effekt an, der Alpha-Werte zur Modulation enthält.
+second_title: Aspose.Slides für .NET API Referenz
+description: Unveränderliches Objekt, das einen Alpha Modulate-Effekt darstellt. Die Alpha-Opazitätswerte des Effekts werden mit einem festen Prozentsatz multipliziert. Der Effektcontainer gibt einen Effekt an, der Alpha-Werte zur Modulation enthält.
 type: docs
 weight: 3010
 url: /de/aspose.slides.effects/ialphamodulateeffectivedata/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/ialphamodulateeffectivedata/
 
 ## IAlphaModulateEffectiveData-Schnittstelle
 
-Unveränderliches Objekt, das einen Alpha-Modulationseffekt darstellt. Die Alpha- (Opazitäts-) Werte des Effekts werden mit einem festen Prozentsatz multipliziert. Der Effektcontainer gibt einen Effekt an, der Alpha-Werte zur Modulation enthält.
+Unveränderliches Objekt, das einen Alpha Modulate-Effekt darstellt. Die Alpha- (Opazitäts-) Werte des Effekts werden mit einem festen Prozentsatz multipliziert. Der Effektcontainer gibt einen Effekt an, der Alpha-Werte zur Modulation enthält.
 
 ```csharp
 public interface IAlphaModulateEffectiveData : IEffectEffectiveData
@@ -19,9 +19,9 @@ public interface IAlphaModulateEffectiveData : IEffectEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulateeffectivedata/asieffecteffectivedata) { get; } | Ermöglicht den Zugriff auf die Basis-IEffectEffectiveData-Schnittstelle. Nur-lesbar [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulateeffectivedata/asieffecteffectivedata) { get; } | Ermöglicht den Zugriff auf die Basis-Schnittstelle IEffectEffectiveData. Nur-Lese [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IEffectEffectiveData](../ieffecteffectivedata)
 * Namespace [Aspose.Slides.Effects](../../aspose.slides.effects)

@@ -1,6 +1,6 @@
 ---
-title: AxeVerticalSecondaire
-second_title: Référence API Aspose.Slides pour .NET
+title: SecondaryVerticalAxis
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient l'axe vertical secondaire des graphiques. Lecture seule IAxisaspose.slides.charts/iaxis.
 type: docs
 weight: 30

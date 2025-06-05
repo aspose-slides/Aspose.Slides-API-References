@@ -7,7 +7,7 @@ weight: 20
 url: /es/aspose.slides.export.web/webdocumentoptions/animateshapes/
 ---
 
-## WebDocumentOptions.AnimateShapes propiedad
+## Propiedad WebDocumentOptions.AnimateShapes
 
 Devuelve o establece la opción de animación de formas. Booleano de lectura/escritura.
 

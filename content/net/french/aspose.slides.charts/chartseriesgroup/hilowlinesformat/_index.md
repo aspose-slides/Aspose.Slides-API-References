@@ -1,13 +1,13 @@
 ---
 title: HiLowLinesFormat
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Spécifie le format HiLowLines. HiLowLines appliqué avec les types de graphiques HiLowClose, OpenHiLowClose, VolumeHiLowClose et VolumeOpenHiLowClose.
 type: docs
 weight: 90
 url: /fr/aspose.slides.charts/chartseriesgroup/hilowlinesformat/
 ---
 
-## Propriété ChartSeriesGroup.HiLowLinesFormat
+## ChartSeriesGroup.HiLowLinesFormat propriété
 
 Spécifie le format HiLowLines. HiLowLines appliqué avec HiLowClose, OpenHiLowClose, VolumeHiLowClose et VolumeOpenHiLowClose types de graphiques.
 

@@ -15,9 +15,9 @@ Obtient les propriétés de formatage de ligne de tableau effectives avec hérit
 public IRowFormatEffectiveData GetEffective()
 ```
 
-### Valeur de retour
+### Valeur de Retour
 
-Un [`IRowFormatEffectiveData`](../../irowformateffectivedata).
+Une [`IRowFormatEffectiveData`](../../irowformateffectivedata).
 
 ### Voir aussi
 

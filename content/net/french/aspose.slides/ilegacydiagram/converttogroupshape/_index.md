@@ -1,7 +1,7 @@
 ---
 title: ConvertToGroupShape
-second_title: Aspose.Slides pour .NET Référence API
-description: Convertit un digramme hérité en un groupe de formes éditable. L'objet GroupShape créé est ajouté à la forme de groupe parent à la même position.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Convertit le diagramme hérité en forme groupable modifiable. L'objet GroupShape créé est ajouté à la forme groupable parente à la même position.
 type: docs
 weight: 20
 url: /fr/aspose.slides/ilegacydiagram/converttogroupshape/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ilegacydiagram/converttogroupshape/
 
 ## ILegacyDiagram.ConvertToGroupShape méthode
 
-Convertit un digramme hérité en un groupe de formes éditable. L'objet GroupShape créé est ajouté à la forme de groupe parent à la même position.
+Convertit le diagramme hérité en forme groupable modifiable. L'objet GroupShape créé est ajouté à la forme groupable parente à la même position.
 
 ```csharp
 public IGroupShape ConvertToGroupShape()

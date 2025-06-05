@@ -1,5 +1,5 @@
 ---
-title: Duración
+title: Duration
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Describe la duración del efecto de animación. Lectura/escritura Single.
 type: docs
@@ -17,8 +17,8 @@ public float Duration { get; set; }
 
 ### Ver También
 
-* interfaz [ITiming](../../itiming)
-* espacio de nombres [Aspose.Slides.Animation](../../itiming)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [ITiming](../../itiming)
+* namespace [Aspose.Slides.Animation](../../itiming)
+* assembly [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO MODIFICAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/cellformat/borderright/
 ---
+
 ## CellFormat.BorderRight property
 
 Returns a right border line properties object. Read-only [`ILineFormat`](../../ilineformat).

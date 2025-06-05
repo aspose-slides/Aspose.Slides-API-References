@@ -1,6 +1,6 @@
 ---
 title: IsSeriesUsesXValueCoordinate
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Gibt zurück, ob der angegebene Serientyp X-Wertkoordinaten verwendet.
 type: docs
 weight: 200

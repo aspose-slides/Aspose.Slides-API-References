@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.charts/format/line/
 ---
+
 ## Format.Line property
 
 Returns line style properties of a chart. Read-only [`ILineFormat`](../../../aspose.slides/ilineformat).

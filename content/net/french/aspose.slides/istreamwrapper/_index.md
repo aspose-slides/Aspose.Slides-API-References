@@ -1,47 +1,47 @@
----
+---  
 title: IStreamWrapper
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Reference  
 description: Wrapper Aspose.IO.Stream pour l'interface COM.
-type: docs
-weight: 6910
+type: docs  
+weight: 6910  
 url: /fr/aspose.slides/istreamwrapper/
----
+---  
 
-## Interface IStreamWrapper
+## Interface IStreamWrapper  
 
-Wrapper Aspose.IO.Stream pour l'interface COM.
+Wrapper Aspose.IO.Stream pour l'interface COM.  
 
-```csharp
-public interface IStreamWrapper : IDisposable
-```
+```csharp  
+public interface IStreamWrapper : IDisposable  
+```  
 
-## Propriétés
+## Propriétés  
 
-| Nom | Description |
-| --- | --- |
-| [AsIDisposable](../../aspose.slides/istreamwrapper/asidisposable) { get; } | Permet d'obtenir l'interface de base IDisposable. En lecture seule IDisposable. |
-| [CanRead](../../aspose.slides/istreamwrapper/canread) { get; } | Obtient une valeur indiquant si le flux courant prend en charge la lecture. Booléen en lecture seule. |
-| [CanSeek](../../aspose.slides/istreamwrapper/canseek) { get; } | Obtient une valeur indiquant si le flux courant prend en charge la recherche. Booléen en lecture seule. |
-| [CanWrite](../../aspose.slides/istreamwrapper/canwrite) { get; } | Obtient une valeur indiquant si le flux courant prend en charge l'écriture. Booléen en lecture seule. |
-| [Length](../../aspose.slides/istreamwrapper/length) { get; } | Obtient la longueur en octets du flux. Int64 en lecture seule. |
-| [Position](../../aspose.slides/istreamwrapper/position) { get; } | Obtient la position dans le flux courant. Int64 en lecture seule. |
-| [Stream](../../aspose.slides/istreamwrapper/stream) { get; } | Obtient un flux. Flux en lecture seule. |
+| Nom | Description |  
+| --- | --- |  
+| [AsIDisposable](../../aspose.slides/istreamwrapper/asidisposable) { get; } | Permet d'obtenir l'interface IDisposable de base. Lecture seule IDisposable. |  
+| [CanRead](../../aspose.slides/istreamwrapper/canread) { get; } | Obtient une valeur indiquant si le flux actuel prend en charge la lecture. Boolean en lecture seule. |  
+| [CanSeek](../../aspose.slides/istreamwrapper/canseek) { get; } | Obtient une valeur indiquant si le flux actuel prend en charge la recherche. Boolean en lecture seule. |  
+| [CanWrite](../../aspose.slides/istreamwrapper/canwrite) { get; } | Obtient une valeur indiquant si le flux actuel prend en charge l'écriture. Boolean en lecture seule. |  
+| [Length](../../aspose.slides/istreamwrapper/length) { get; } | Obtient la longueur en octets du flux. Int64 en lecture seule. |  
+| [Position](../../aspose.slides/istreamwrapper/position) { get; } | Obtient la position dans le flux actuel. Int64 en lecture seule. |  
+| [Stream](../../aspose.slides/istreamwrapper/stream) { get; } | Obtient un flux. Stream en lecture seule. |  
 
-## Méthodes
+## Méthodes  
 
-| Nom | Description |
-| --- | --- |
-| [Close](../../aspose.slides/istreamwrapper/close)() | Ferme le flux courant et libère toutes les ressources. |
-| [Flush](../../aspose.slides/istreamwrapper/flush)() | Vide tous les tampons pour ce flux et amène toutes les données mises en mémoire tampon à être écrites sur le périphérique sous-jacent. |
-| [Read](../../aspose.slides/istreamwrapper/read)(byte[], int, int) | Lit une séquence d'octets depuis le flux courant et fait avancer la position dans le flux du nombre d'octets lus. |
-| [ReadByte](../../aspose.slides/istreamwrapper/readbyte)() | Lit un octet depuis le flux et fait avancer la position dans le flux d'un octet, ou retourne -1 si à la fin du flux. |
-| [Seek](../../aspose.slides/istreamwrapper/seek)(long, SeekOrigin) | Définit la position dans le flux courant |
-| [Write](../../aspose.slides/istreamwrapper/write)(byte[], int, int) | Écrit une séquence d'octets dans le flux courant et fait avancer la position actuelle dans ce flux du nombre d'octets écrits. |
-| [WriteByte](../../aspose.slides/istreamwrapper/writebyte)(byte) | Écrit un octet à la position actuelle dans le flux et fait avancer la position dans le flux d'un octet. |
+| Nom | Description |  
+| --- | --- |  
+| [Close](../../aspose.slides/istreamwrapper/close)() | Ferme le flux actuel et libère toutes les ressources. |  
+| [Flush](../../aspose.slides/istreamwrapper/flush)() | Efface tous les tampons pour ce flux et provoque l'écriture de toutes les données mises en mémoire tampon sur le périphérique sous-jacent. |  
+| [Read](../../aspose.slides/istreamwrapper/read)(byte[], int, int) | Lit une séquence d'octets depuis le flux actuel et fait avancer la position dans le flux du nombre d'octets lus. |  
+| [ReadByte](../../aspose.slides/istreamwrapper/readbyte)() | Lit un octet depuis le flux et fait avancer la position dans le flux d'un octet, ou renvoie -1 si à la fin du flux. |  
+| [Seek](../../aspose.slides/istreamwrapper/seek)(long, SeekOrigin) | Définit la position dans le flux actuel |  
+| [Write](../../aspose.slides/istreamwrapper/write)(byte[], int, int) | Écrit une séquence d'octets dans le flux actuel et fait avancer la position actuelle dans ce flux du nombre d'octets écrits. |  
+| [WriteByte](../../aspose.slides/istreamwrapper/writebyte)(byte) | Écrit un octet à la position actuelle dans le flux et fait avancer la position dans le flux d'un octet. |  
 
-### Voir aussi
+### Voir Aussi  
 
-* espace de noms [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* espace de noms [Aspose.Slides](../../aspose.slides)  
+* assembly [Aspose.Slides](../../)  
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

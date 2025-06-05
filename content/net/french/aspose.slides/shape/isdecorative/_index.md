@@ -1,7 +1,7 @@
 ---
 title: IsDecorative
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient ou définit l'option Marquer comme décoratif Reed/écrire Booléen.
+second_title: Aspose.Slides pour .NET API Reference
+description: Obtient ou définit l'option Marquer comme décoratif lecture/écriture Boolean.
 type: docs
 weight: 140
 url: /fr/aspose.slides/shape/isdecorative/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/shape/isdecorative/
 
 ## Propriété Shape.IsDecorative
 
-Obtient ou définit l'option 'Marquer comme décoratif' Reed/écrire Booléen.
+Obtient ou définit l'option 'Marquer comme décoratif' lecture/écriture Boolean.
 
 ```csharp
 public bool IsDecorative { get; set; }

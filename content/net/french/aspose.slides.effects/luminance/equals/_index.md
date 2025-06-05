@@ -1,7 +1,7 @@
 ---
-title: Égal
-second_title: Référence API Aspose.Slides pour .NET
-description: Détermine si la Luminanceaspose.slides.effects/spécifiée est égale à la Luminanceaspose.slides.effects/courante.
+title: Equals
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Détermine si la Luminanceaspose.slides.effects/luminance spécifiée est égale à la Luminanceaspose.slides.effects/luminance actuelle.
 type: docs
 weight: 10
 url: /fr/aspose.slides.effects/luminance/equals/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/luminance/equals/
 
 ## Méthode Luminance.Equals
 
-Détermine si la [`Luminance`](../../luminance) spécifiée est égale à la [`Luminance`](../../luminance) courante.
+Détermine si la [`Luminance`](../../luminance) spécifiée est égale à la [`Luminance`](../../luminance) actuelle.
 
 ```csharp
 public override bool Equals(object obj)

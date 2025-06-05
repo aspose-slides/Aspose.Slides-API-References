@@ -1,7 +1,7 @@
 ---
 title: ShowTopPane
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ganze obere Leiste ein-/ausblenden. Kann in flashvars überschrieben werden. Standard ist true.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Ganzes oberes Panel ein-/ausblenden. Kann in flashvars überschrieben werden. Standard ist true.
 type: docs
 weight: 140
 url: /de/aspose.slides.export/swfoptions/showtoppane/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/swfoptions/showtoppane/
 
 ## SwfOptions.ShowTopPane-Eigenschaft
 
-Ganze obere Leiste ein-/ausblenden. Kann in flashvars überschrieben werden. Standard ist true.
+Ganzes oberes Panel ein-/ausblenden. Kann in flashvars überschrieben werden. Standard ist true.
 
 ```csharp
 public bool ShowTopPane { get; set; }

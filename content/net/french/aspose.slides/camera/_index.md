@@ -1,7 +1,7 @@
 ---
-title: Caméra
-second_title: Référence de l'API Aspose.Slides for .NET
-description: Représente la Caméra.
+title: Camera
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Représente Camera.
 type: docs
 weight: 1010
 url: /fr/aspose.slides/camera/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/camera/
 
 ## Classe Camera
 
-Représente la Caméra.
+Représente Camera.
 
 ```csharp
 public sealed class Camera : PVIObject, ICamera
@@ -21,7 +21,7 @@ public sealed class Camera : PVIObject, ICamera
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface de base IPresentationComponent. Lecture seule [`IPresentationComponent`](../ipresentationcomponent). |
 | [CameraType](../../aspose.slides/camera/cameratype) { get; set; } | Type de caméra. Lecture/écriture [`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/camera/fieldofviewangle) { get; set; } | FOV de la caméra (0-180 deg, champ de vision). Lecture/écriture Single. |
+| [FieldOfViewAngle](../../aspose.slides/camera/fieldofviewangle) { get; set; } | FOV de la caméra (0-180 degrés, champ de vision). Lecture/écriture Single. |
 | [Zoom](../../aspose.slides/camera/zoom) { get; set; } | Zoom de la caméra (valeur positive en pourcentage). Lecture/écriture Single. |
 
 ## Méthodes
@@ -29,11 +29,11 @@ public sealed class Camera : PVIObject, ICamera
 | Nom | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compare avec l'objet spécifié. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Retourne le code de hachage. |
-| [GetRotation](../../aspose.slides/camera/getrotation)() | Une rotation est définie par l'utilisation d'une coordonnée de latitude, d'une coordonnée de longitude et d'une révolution autour de l'axe des coordonnées de latitude et de longitude. Premier élément dans le tableau de retour - latitude, second - longitude, troisième - révolution. Retourne null si aucune rotation définie. |
-| [SetRotation](../../aspose.slides/camera/setrotation)(float, float, float) | Une rotation est définie par l'utilisation d'une coordonnée de latitude, d'une coordonnée de longitude et d'une révolution autour de l'axe des coordonnées de latitude et de longitude. Si l'une des valeurs de coordonnées est float.NaN, toute rotation est indéfinie. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Renvoie le code de hachage. |
+| [GetRotation](../../aspose.slides/camera/getrotation)() | Une rotation est définie par l'utilisation d'une coordonnée de latitude, d'une coordonnée de longitude, et d'une révolution autour de l'axe selon les coordonnées de latitude et de longitude. Premier élément du tableau de retour - latitude, deuxième - longitude, troisième - révolution. Renvoie null si aucune rotation n'est définie. |
+| [SetRotation](../../aspose.slides/camera/setrotation)(float, float, float) | Une rotation est définie par l'utilisation d'une coordonnée de latitude, d'une coordonnée de longitude, et d'une révolution autour de l'axe selon les coordonnées de latitude et de longitude. Si l'une des valeurs de coordonnée est float.NaN, toute rotation est indéfinie. |
 
-### Voir aussi
+### Voir Aussi
 
 * classe [PVIObject](../pviobject)
 * interface [ICamera](../icamera)

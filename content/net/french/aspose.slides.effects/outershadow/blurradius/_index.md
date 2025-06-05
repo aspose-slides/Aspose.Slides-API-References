@@ -1,7 +1,7 @@
 ---
 title: BlurRadius
-second_title: Aspose.Sildes pour la référence API .NET
-description: Rayon de flou. Lisable/Écrivable Double.
+second_title: Aspose.Slides pour la référence API .NET
+description: Rayon de flou. Lecture/écriture Double.
 type: docs
 weight: 10
 url: /fr/aspose.slides.effects/outershadow/blurradius/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/outershadow/blurradius/
 
 ## Propriété OuterShadow.BlurRadius
 
-Rayon de flou. Lisable/Écrivable Double.
+Rayon de flou. Lecture/écriture Double.
 
 ```csharp
 public double BlurRadius { get; set; }

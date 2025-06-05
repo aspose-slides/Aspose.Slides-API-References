@@ -1,15 +1,15 @@
 ---
-title: Знаменатель
-second_title: Справочник API Aspose.Slides для .NET
-description: Знаменатель
+title: Denominator
+second_title: Aspose.Sildes для .NET API Справочник
+description: Denominator
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/imathfraction/denominator/
 ---
 
-## Свойство IMathFraction.Denominator
+## IMathFraction.Denominator свойство
 
-Знаменатель
+Denominator
 
 ```csharp
 public IMathElement Denominator { get; }

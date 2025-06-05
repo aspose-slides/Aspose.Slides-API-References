@@ -1,6 +1,6 @@
 ---
-title: 项
-second_title: Aspose.Slides for .NET API 参考
+title: Item
+second_title: Aspose.Sildes for .NET API Reference
 description: 矩阵的元素
 type: docs
 weight: 70
@@ -22,7 +22,7 @@ public IMathElement this[int row, int column] { get; set; }
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -30,7 +30,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix[0, 0] = new MathematicalText("item.1.1");
 ```
 
-### 另见
+### 参考
 
 * 接口 [IMathElement](../../imathelement)
 * 类 [MathMatrix](../../mathmatrix)

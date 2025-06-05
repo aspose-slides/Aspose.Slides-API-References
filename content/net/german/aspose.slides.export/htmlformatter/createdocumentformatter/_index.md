@@ -1,7 +1,7 @@
 ---
 title: CreateDocumentFormatter
 second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt und gibt einen HTML-Formatter für eine einfache Dokumentenansicht zurück, die aus aufeinanderfolgenden Folien besteht.
+description: Erstellt und gibt einen HTML-Formatter für eine einfache Dokumentansicht zurück, die aus Sequenzen von Folien besteht, die untereinander angeordnet sind.
 type: docs
 weight: 20
 url: /de/aspose.slides.export/htmlformatter/createdocumentformatter/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/htmlformatter/createdocumentformatter/
 
 ## HtmlFormatter.CreateDocumentFormatter Methode
 
-Erstellt und gibt einen HTML-Formatter für eine einfache Dokumentenansicht zurück, die aus aufeinanderfolgenden Folien besteht.
+Erstellt und gibt einen HTML-Formatter für eine einfache Dokumentansicht zurück, die aus Sequenzen von Folien besteht, die untereinander angeordnet sind.
 
 ```csharp
 public static HtmlFormatter CreateDocumentFormatter(string css, bool showSlideTitle)
@@ -17,10 +17,10 @@ public static HtmlFormatter CreateDocumentFormatter(string css, bool showSlideTi
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| css | String | Gibt das CSS für diese Datei an. |
-| showSlideTitle | Boolean | Fügen Sie den Folientitel hinzu, wenn er über dem Folienbild vorhanden ist. |
+| css | String | Gibt CSS für diese Datei an. |
+| showSlideTitle | Boolean | Fügt den Folientitel hinzu, wenn dieser über dem Folienbild steht. |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [HtmlFormatter](../../htmlformatter)
 * Namespace [Aspose.Slides.Export](../../htmlformatter)

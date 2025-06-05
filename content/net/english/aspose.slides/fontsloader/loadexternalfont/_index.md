@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/fontsloader/loadexternalfont/
 ---
+
 ## FontsLoader.LoadExternalFont method
 
 Adds font from the binary data

@@ -1,15 +1,15 @@
 ---
-title: ActiverMenuContextuel
-second_title: Référence API Aspose.Sildes pour .NET
-description: Activer/désactiver le menu contextuel. Par défaut, c'est vrai.
+title: EnableContextMenu
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Activer/désactiver le menu contextuel. La valeur par défaut est true.
 type: docs
 weight: 30
 url: /fr/aspose.slides.export/iswfoptions/enablecontextmenu/
 ---
 
-## Propriété ISwfOptions.EnableContextMenu
+## ISwfOptions.EnableContextMenu propriété
 
-Activer/désactiver le menu contextuel. Par défaut, c'est vrai.
+Activer/désactiver le menu contextuel. La valeur par défaut est true.
 
 ```csharp
 public bool EnableContextMenu { get; set; }

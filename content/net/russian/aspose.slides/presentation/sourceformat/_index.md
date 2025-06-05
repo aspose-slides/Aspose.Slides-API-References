@@ -1,13 +1,13 @@
 ---
 title: SourceFormat
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает информацию о том, из какого формата была загружена презентация. Свойство только для чтения SourceFormataspose.slides/sourceformat.
 type: docs
 weight: 260
 url: /ru/aspose.slides/presentation/sourceformat/
 ---
 
-## Свойство Presentation.SourceFormat
+## Presentation.SourceFormat свойство
 
 Возвращает информацию о том, из какого формата была загружена презентация. Свойство только для чтения [`SourceFormat`](../../sourceformat).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/presentation/sourceformat/
 public SourceFormat SourceFormat { get; }
 ```
 
-### Также смотри
+### См. также
 
 * enum [SourceFormat](../../sourceformat)
 * class [Presentation](../../presentation)

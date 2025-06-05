@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/islide/asibaseslide/
 ---
+
 ## ISlide.AsIBaseSlide property
 
 Allows to get base IBaseSlide interface. Read-only [`IBaseSlide`](../../ibaseslide).

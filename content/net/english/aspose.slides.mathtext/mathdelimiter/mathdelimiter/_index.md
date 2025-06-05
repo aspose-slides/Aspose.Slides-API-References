@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/mathdelimiter/mathdelimiter/
 ---
+
 ## MathDelimiter constructor
 
 Initializes MathDelimiter with the specified element as single base argument

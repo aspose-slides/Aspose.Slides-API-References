@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/slideshowsettings/slides/
 ---
+
 ## SlideShowSettings.Slides property
 
 Slides range

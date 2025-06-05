@@ -1,5 +1,5 @@
 ---
-title: Elemento
+title: Item
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve la diapositiva de diseño por índice. Solo lectura LayoutSlideaspose.slides/layoutslide.
 type: docs
@@ -15,11 +15,11 @@ Devuelve la diapositiva de diseño por índice. Solo lectura [`LayoutSlide`](../
 public ILayoutSlide this[int index] { get; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [ILayoutSlide](../../ilayoutslide)
-* clase [LayoutSlideCollection](../../layoutslidecollection)
-* espacio de nombres [Aspose.Slides](../../layoutslidecollection)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [ILayoutSlide](../../ilayoutslide)
+* clase [LayoutSlideCollection](../../layoutslidecollection)
+* espacio de nombres [Aspose.Slides](../../layoutslidecollection)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

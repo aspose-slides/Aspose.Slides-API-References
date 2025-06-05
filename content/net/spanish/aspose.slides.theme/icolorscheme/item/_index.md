@@ -1,5 +1,5 @@
 ---
-title: Elemento
+title: Item
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene el elemento en el índice especificado. Solo lectura IColorFormataspose.slides/icolorformat.
 type: docs
@@ -7,7 +7,7 @@ weight: 120
 url: /es/aspose.slides.theme/icolorscheme/item/
 ---
 
-## Indexador IColorScheme
+## IColorScheme indexer
 
 Obtiene el elemento en el índice especificado. Solo lectura [`IColorFormat`](../../../aspose.slides/icolorformat).
 

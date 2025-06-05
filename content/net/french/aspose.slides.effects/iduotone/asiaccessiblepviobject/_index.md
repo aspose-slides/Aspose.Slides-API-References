@@ -7,7 +7,7 @@ weight: 10
 url: /fr/aspose.slides.effects/iduotone/asiaccessiblepviobject/
 ---
 
-## Propriété IDuotone.AsIAccessiblePVIObject
+## IDuotone.AsIAccessiblePVIObject propriété
 
 Permet d'obtenir l'interface de base IAccessiblePVIObject. Lecture seule [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
 
@@ -15,7 +15,7 @@ Permet d'obtenir l'interface de base IAccessiblePVIObject. Lecture seule [`IAcce
 public IAccessiblePVIObject<IDuotoneEffectiveData> AsIAccessiblePVIObject { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
 * interface [IDuotoneEffectiveData](../../iduotoneeffectivedata)

@@ -1,5 +1,5 @@
 ---
-title: CollectionDeSéquences
+title: SequenceCollection
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente une collection de séquences interactives.
 type: docs
@@ -7,7 +7,7 @@ weight: 720
 url: /fr/aspose.slides.animation/sequencecollection/
 ---
 
-## Classe CollectionDeSéquences
+## Classe SequenceCollection
 
 Représente une collection de séquences interactives.
 
@@ -19,20 +19,20 @@ public class SequenceCollection : ISequenceCollection
 
 | Nom | Description |
 | --- | --- |
-| [Count](../../aspose.slides.animation/sequencecollection/count) { get; } | Renvoie le nombre d'éléments dans une collection Lecture seule Int32. |
-| [Item](../../aspose.slides.animation/sequencecollection/item) { get; } | Renvoie une séquence à l'index spécifié. |
+| [Count](../../aspose.slides.animation/sequencecollection/count) { get; } | Retourne le nombre d'éléments dans une collection. Lecture seule Int32. |
+| [Item](../../aspose.slides.animation/sequencecollection/item) { get; } | Retourne une séquence à l'index spécifié. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [Add](../../aspose.slides.animation/sequencecollection/add)(IShape) | Ajoute une nouvelle séquence interactive. Lecture/écriture [`Sequence`](../sequence). |
+| [Add](../../aspose.slides.animation/sequencecollection/add)(IShape) | Ajoute une nouvelle séquence interactive. Lire/écrire [`Sequence`](../sequence). |
 | [Clear](../../aspose.slides.animation/sequencecollection/clear)() | Supprime toutes les séquences d'une collection. |
-| [GetEnumerator](../../aspose.slides.animation/sequencecollection/getenumerator)() | Renvoie un énumérateur qui parcourt la collection. |
+| [GetEnumerator](../../aspose.slides.animation/sequencecollection/getenumerator)() | Retourne un énumérateur qui itère à travers la collection. |
 | [Remove](../../aspose.slides.animation/sequencecollection/remove)(ISequence) | Supprime la séquence spécifiée d'une collection. |
 | [RemoveAt](../../aspose.slides.animation/sequencecollection/removeat)(int) | Supprime la séquence à l'index spécifié. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ISequenceCollection](../isequencecollection)
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)

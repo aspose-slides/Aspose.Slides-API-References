@@ -1,5 +1,5 @@
 ---
-title: BloqueoConector
+title: ConnectorLock
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve los bloqueos de conectores. Solo lectura IConnectorLockaspose.slides/iconnectorlock.
 type: docs
@@ -15,11 +15,11 @@ Devuelve los bloqueos del conector. Solo lectura [`IConnectorLock`](../../iconne
 public IConnectorLock ConnectorLock { get; }
 ```
 
-### Véase también
+### Véase También
 
-* interfaz [IConnectorLock](../../iconnectorlock)
-* clase [Connector](../../connector)
-* espacio de nombres [Aspose.Slides](../../connector)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IConnectorLock](../../iconnectorlock)
+* clase [Connector](../../connector)
+* espacio de nombres [Aspose.Slides](../../connector)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

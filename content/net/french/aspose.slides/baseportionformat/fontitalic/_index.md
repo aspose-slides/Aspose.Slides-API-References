@@ -1,21 +1,21 @@
 ---
 title: FontItalic
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si la police est en italique. Pas d'héritage appliqué. Lire/écrire NullableBool aspose.slides/nullablebool.
+second_title: Référence API Aspose.Slides pour .NET
+description: Détermine si la police est en italique. Pas d'héritage appliqué. Lecture/écriture NullableBool aspose.slides/nullablebool.
 type: docs
 weight: 90
 url: /fr/aspose.slides/baseportionformat/fontitalic/
 ---
 
-## Propriété BasePortionFormat.FontItalic
+## BasePortionFormat.FontItalic property
 
-Détermine si la police est en italique. Pas d'héritage appliqué. Lire/écrire [`NullableBool`](../../nullablebool).
+Détermine si la police est en italique. Pas d'héritage appliqué. Lecture/écriture [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool FontItalic { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [NullableBool](../../nullablebool)
 * class [BasePortionFormat](../../baseportionformat)

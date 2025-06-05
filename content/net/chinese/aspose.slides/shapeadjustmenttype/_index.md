@@ -1,13 +1,13 @@
 ---
 title: ShapeAdjustmentType
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 指定不同类型的形状调整值。
 type: docs
 weight: 9530
 url: /zh/aspose.slides/shapeadjustmenttype/
 ---
 
-## ShapeAdjustmentType枚举
+## ShapeAdjustmentType 枚举
 
 指定不同类型的形状调整值。
 
@@ -20,35 +20,35 @@ public enum ShapeAdjustmentType
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
 | Custom | `0` | 自定义类型（未知调整） |
-| CornerSize | `1` | 控制角的大小。 |
+| CornerSize | `1` | 控制角落的大小。 |
 | LeftUpCorner | `2` | 控制左上角。 |
 | RightUpCorner | `3` | 控制右上角。 |
-| UpCorners | `4` | 控制上角。 |
-| DownCorners | `5` | 控制下角。 |
+| UpCorners | `4` | 控制上方的角落。 |
+| DownCorners | `5` | 控制下方的角落。 |
 | Thickness | `6` | 控制图形的厚度。 |
 | ArrowTailThickness | `7` | 控制箭头尾部的厚度。 |
-| ArrowheadLength | `8` | 控制箭头的长度。 |
-| ArrowheadWidth | `9` | 控制箭头的宽度。 |
+| ArrowheadLength | `8` | 控制箭头顶端的长度。 |
+| ArrowheadWidth | `9` | 控制箭头顶端的宽度。 |
 | Radius | `10` | 控制形状或其部分的半径大小。 |
-| Depth | `11` | 控制齿轮齿的深度或斜面效果。 |
-| ShapePartOffset | `12` | 控制图形一个部分相对于另一个部分的偏移量。 |
+| Depth | `11` | 控制齿轮齿的深度或斜角效果。 |
+| ShapePartOffset | `12` | 控制图形一部分相对于另一部分的偏移。 |
 | Angle | `13` | 控制图形或其部分的角度。 |
-| StartAngle | `14` | 饼形和弧形形状的起始角。 |
-| EndAngle | `15` | 饼形和弧形形状的结束角。 |
-| StartPointX | `16` | 控制标注起始点X位置。 |
-| StartPointY | `17` | 控制标注起始点Y位置。 |
+| StartAngle | `14` | 饼形和弧形的起始角度。 |
+| EndAngle | `15` | 饼形和弧形的结束角度。 |
+| StartPointX | `16` | 控制标注的起始点X位置。 |
+| StartPointY | `17` | 控制标注的起始点Y位置。 |
 | ConnectorPoint1X | `18` | 控制标注角度调整点的水平位置。 |
 | ConnectorPoint1Y | `19` | 控制标注角度调整点的垂直位置。 |
 | ConnectorPoint2X | `20` | 控制标注角度调整点的水平位置。 |
 | ConnectorPoint2Y | `21` | 控制标注角度调整点的垂直位置。 |
-| ConnectorBendPositionX | `22` | 控制连接器中弯曲的水平位置。 |
-| ConnectorBendPositionY | `23` | 控制连接器中弯曲的垂直位置。 |
+| ConnectorBendPositionX | `22` | 控制连接器弯曲处的水平位置。 |
+| ConnectorBendPositionY | `23` | 控制连接器弯曲处的垂直位置。 |
 | AttachY | `24` | 控制图形的垂直附着点。 |
 | AttachX | `25` | 控制图形的水平附着点。 |
 | CalloutHeight | `26` | 控制标注的垂直大小。 |
 | CalloutWidth | `27` | 控制标注的水平大小。 |
 | CalloutSize | `28` | 控制标注的大小。 |
-| Curvature | `29` | 弯曲、支架、弯曲箭头或形状的曲率。 |
+| Curvature | `29` | 弯曲、支撑、曲线箭头或形状的曲率。 |
 | HorizontalThickness | `30` | 控制角形状的水平厚度。 |
 | VerticalThickness | `31` | 控制角形状的垂直厚度。 |
 | VerticalSize | `32` | 控制形状的垂直大小。 |

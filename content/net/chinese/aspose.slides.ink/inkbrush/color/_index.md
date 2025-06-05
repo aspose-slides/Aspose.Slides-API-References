@@ -1,7 +1,7 @@
 ---
-title: 颜色
-second_title: Aspose.Sildes for .NET API 参考
-description: 获取或设置线条的画笔颜色。
+title: Color
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取或设置线条的画刷颜色。
 type: docs
 weight: 10
 url: /zh/aspose.slides.ink/inkbrush/color/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.ink/inkbrush/color/
 
 ## InkBrush.Color 属性
 
-获取或设置线条的画笔颜色。
+获取或设置线条的画刷颜色。
 
 ```csharp
 public Color Color { get; set; }

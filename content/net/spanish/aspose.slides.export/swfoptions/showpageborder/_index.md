@@ -7,7 +7,7 @@ weight: 110
 url: /es/aspose.slides.export/swfoptions/showpageborder/
 ---
 
-## Propiedad SwfOptions.ShowPageBorder
+## propiedad SwfOptions.ShowPageBorder
 
 Especifica si se debe mostrar el borde alrededor de las páginas. El valor predeterminado es verdadero.
 
@@ -15,10 +15,10 @@ Especifica si se debe mostrar el borde alrededor de las páginas. El valor prede
 public bool ShowPageBorder { get; set; }
 ```
 
-### Consulta También
+### Ver También
 
 * clase [SwfOptions](../../swfoptions)
 * espacio de nombres [Aspose.Slides.Export](../../swfoptions)
 * ensamblado [Aspose.Slides](../../../)
 
-<!-- NO EDITE: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

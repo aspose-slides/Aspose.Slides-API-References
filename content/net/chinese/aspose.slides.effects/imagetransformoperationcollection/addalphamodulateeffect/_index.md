@@ -1,6 +1,6 @@
 ---
 title: AddAlphaModulateEffect
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 将新的 Alpha Modulate 效果添加到集合的末尾。
 type: docs
 weight: 90
@@ -17,9 +17,9 @@ public IAlphaModulate AddAlphaModulateEffect()
 
 ### 返回值
 
-集合中新图像效果的索引。
+新图像效果在集合中的索引。
 
-### 参见
+### 另请参阅
 
 * 接口 [IAlphaModulate](../../ialphamodulate)
 * 类 [ImageTransformOperationCollection](../../imagetransformoperationcollection)

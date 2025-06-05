@@ -1,7 +1,7 @@
 ---
 title: IHyperlinkQueries
-second_title: Aspose.Sildes pour .NET Référence API
-description: Fournit un accès facile aux hyperliens contenus.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Fournir un accès facile aux hyperliens contenus.
 type: docs
 weight: 5940
 url: /fr/aspose.slides/ihyperlinkqueries/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ihyperlinkqueries/
 
 ## Interface IHyperlinkQueries
 
-Fournit un accès facile aux hyperliens contenus.
+Fournir un accès facile aux hyperliens contenus.
 
 ```csharp
 public interface IHyperlinkQueries
@@ -19,9 +19,9 @@ public interface IHyperlinkQueries
 
 | Nom | Description |
 | --- | --- |
-| [GetAnyHyperlinks](../../aspose.slides/ihyperlinkqueries/getanyhyperlinks)() | Obtient tous les sous-objets IHyperlinkContainer qui contiennent un HyperlinkMouseOver non nul. Avec l'objet IHyperlinkContainer donné, vous pouvez gérer son hyperlien (lire, mettre à jour ou supprimer). Voir l'interface IHyperlinkContainer. |
-| [GetHyperlinkClicks](../../aspose.slides/ihyperlinkqueries/gethyperlinkclicks)() | Obtient tous les sous-objets IHyperlinkContainer qui contiennent un HyperlinkClick non nul. Avec l'objet IHyperlinkContainer donné, vous pouvez gérer son hyperlien (lire, mettre à jour ou supprimer). Voir l'interface IHyperlinkContainer. |
-| [GetHyperlinkMouseOvers](../../aspose.slides/ihyperlinkqueries/gethyperlinkmouseovers)() | Obtient tous les sous-objets IHyperlinkContainer qui contiennent un HyperlinkMouseOver non nul. Avec l'objet IHyperlinkContainer donné, vous pouvez gérer son hyperlien (lire, mettre à jour ou supprimer). Voir l'interface IHyperlinkContainer. |
+| [GetAnyHyperlinks](../../aspose.slides/ihyperlinkqueries/getanyhyperlinks)() | Obtenez tous les sous-objets IHyperlinkContainer qui contiennent des HyperlinkMouseOver non nuls. Avec l'objet IHyperlinkContainer donné, vous pouvez gérer son hyperlien (lire, mettre à jour ou supprimer). Voir l'interface IHyperlinkContainer. |
+| [GetHyperlinkClicks](../../aspose.slides/ihyperlinkqueries/gethyperlinkclicks)() | Obtenez tous les sous-objets IHyperlinkContainer qui contiennent des HyperlinkClick non nuls. Avec l'objet IHyperlinkContainer donné, vous pouvez gérer son hyperlien (lire, mettre à jour ou supprimer). Voir l'interface IHyperlinkContainer. |
+| [GetHyperlinkMouseOvers](../../aspose.slides/ihyperlinkqueries/gethyperlinkmouseovers)() | Obtenez tous les sous-objets IHyperlinkContainer qui contiennent des HyperlinkMouseOver non nuls. Avec l'objet IHyperlinkContainer donné, vous pouvez gérer son hyperlien (lire, mettre à jour ou supprimer). Voir l'interface IHyperlinkContainer. |
 | [RemoveAllHyperlinks](../../aspose.slides/ihyperlinkqueries/removeallhyperlinks)() | Supprime tous les hyperliens HyperlinkClick et HyperlinkMouseOver contenus (dans tous les sous-objets IHyperlinkContainer). |
 
 ### Voir Aussi

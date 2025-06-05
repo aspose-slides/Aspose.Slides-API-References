@@ -1,21 +1,21 @@
 ---
 title: XmlData
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает xml-данные. Чтение/запись Byte. значение равно null. значение пустое или xml-данные недействительны.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или задает xml данные. Чтение/запись Byte. значение равно null. значение пустое или xml-данные недействительны.
 type: docs
 weight: 40
 url: /ru/aspose.slides/customxmlpart/xmldata/
 ---
 
-## Свойство CustomXmlPart.XmlData
+## CustomXmlPart.XmlData свойство
 
-Возвращает или задает xml-данные. Чтение/запись Byte[]. значение равно `null`. значение пустое или xml-данные недействительны.
+Возвращает или задает xml данные. Чтение/запись Byte[]. значение равно `null`. значение пустое или xml-данные недействительны.
 
 ```csharp
 public byte[] XmlData { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * класс [CustomXmlPart](../../customxmlpart)
 * пространство имен [Aspose.Slides](../../customxmlpart)

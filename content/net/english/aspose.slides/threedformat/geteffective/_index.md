@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/threedformat/geteffective/
 ---
+
 ## ThreeDFormat.GetEffective method
 
 Gets effective 3-D formatting data with the inheritance applied.

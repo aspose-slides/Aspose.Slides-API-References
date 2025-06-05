@@ -1,7 +1,7 @@
 ---
 title: AddHSLEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 将新的色调/饱和度/亮度效果添加到集合的末尾。
+description: 将新的色相/饱和度/亮度效果添加到集合的末尾。
 type: docs
 weight: 190
 url: /zh/aspose.slides.effects/imagetransformoperationcollection/addhsleffect/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/imagetransformoperationcollection/addhsleffect/
 
 ## ImageTransformOperationCollection.AddHSLEffect 方法
 
-将新的色调/饱和度/亮度效果添加到集合的末尾。
+将新的色相/饱和度/亮度效果添加到集合的末尾。
 
 ```csharp
 public IHSL AddHSLEffect(float hue, float saturation, float luminance)
@@ -17,13 +17,13 @@ public IHSL AddHSLEffect(float hue, float saturation, float luminance)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| hue | Single | 色调调整的度数。 |
-| saturation | Single | 饱和度调整的百分比。 |
-| luminance | Single | 亮度调整的百分比。 |
+| hue | Single | 调整色相的度数。 |
+| saturation | Single | 调整饱和度的百分比。 |
+| luminance | Single | 调整亮度的百分比。 |
 
 ### 返回值
 
-新图像效果在集合中的索引。
+集合中新图像效果的索引。
 
 ### 另请参阅
 

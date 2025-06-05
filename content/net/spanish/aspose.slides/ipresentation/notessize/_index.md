@@ -1,25 +1,25 @@
 ---
 title: NotesSize
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve el objeto de tamaño de la diapositiva de notas. Solo lectura INotesSize aspose.slides/inotessize.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Devuelve el objeto de tamaño de diapositiva de notas. Solo lectura INotesSizeaspose.slides/inotessize.
 type: docs
 weight: 210
 url: /es/aspose.slides/ipresentation/notessize/
 ---
 
-## Propiedad IPresentation.NotesSize
+## IPresentation.NotesSize propiedad
 
-Devuelve el objeto de tamaño de la diapositiva de notas. Solo lectura [`INotesSize`](../../inotessize).
+Devuelve el objeto de tamaño de diapositiva de notas. Solo lectura [`INotesSize`](../../inotessize).
 
 ```csharp
 public INotesSize NotesSize { get; }
 ```
 
-### Ver También
+### Véase También
 
 * interfaz [INotesSize](../../inotessize)
 * interfaz [IPresentation](../../ipresentation)
 * espacio de nombres [Aspose.Slides](../../ipresentation)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

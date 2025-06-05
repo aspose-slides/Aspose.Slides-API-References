@@ -1,15 +1,15 @@
 ---
 title: NormalViewRestoredProperties
 second_title: Aspose.Slides for .NET API Reference
-description: 指定在正常视图中，当区域的恢复大小是可变的（既不最小化也不最大化）时，恢复顶部的子项的宽度和恢复左侧的子项的高度的幻灯片区域的大小。
+description: 指定当正常视图的区域大小为可恢复大小（既不是最小化也不是最大化）时，slide区域的大小（当属于restoredTop的子项的宽度，以及当属于restoredLeft的子项的高度）。
 type: docs
 weight: 8850
 url: /zh/aspose.slides/normalviewrestoredproperties/
 ---
 
-## NormalViewRestoredProperties 类
+## NormalViewRestoredProperties class
 
-指定正常视图中幻灯片区域（恢复顶部的子项的宽度，恢复左侧的子项的高度）的大小，当区域的恢复大小是可变的（既不最小化也不最大化）。
+指定当正常视图的区域大小为可恢复大小（既不是最小化也不是最大化）时，slide区域的大小（当属于restoredTop的子项的宽度，以及当属于restoredLeft的子项的高度）。
 
 ```csharp
 public class NormalViewRestoredProperties : INormalViewRestoredProperties
@@ -19,10 +19,10 @@ public class NormalViewRestoredProperties : INormalViewRestoredProperties
 
 | 名称 | 描述 |
 | --- | --- |
-| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | 指定在调整包含视图的窗口大小时，侧内容区域的大小是否应补偿新大小。可读/可写布尔值。 |
-| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | 指定幻灯片区域的大小（恢复顶部的子项的宽度，恢复左侧的子项的高度）。可读/可写单精度浮点数。 |
+| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | 指定在调整窗口大小时，侧边内容区域的大小是否应补偿新大小。读/写布尔值。 |
+| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | 指定slide区域的大小（当属于RestoredTop的子项的宽度，以及当属于RestoredLeft的子项的高度）。读/写单精度浮点数。 |
 
-### 另见
+### 另请参见
 
 * 接口 [INormalViewRestoredProperties](../inormalviewrestoredproperties)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

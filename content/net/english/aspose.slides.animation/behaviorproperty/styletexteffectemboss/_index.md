@@ -6,6 +6,7 @@ type: docs
 weight: 1150
 url: /aspose.slides.animation/behaviorproperty/styletexteffectemboss/
 ---
+
 ## BehaviorProperty.StyleTextEffectEmboss property
 
 Represents 'style.textEffectEmboss' property

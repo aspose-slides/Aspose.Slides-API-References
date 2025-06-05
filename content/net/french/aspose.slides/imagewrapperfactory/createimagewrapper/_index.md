@@ -15,7 +15,7 @@ Initialise une nouvelle instance de la classe ImageWrapper à partir de l'image 
 public IImageWrapper CreateImageWrapper(IImage image)
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IImageWrapper](../../iimagewrapper)
 * interface [IImage](../../iimage)
@@ -33,7 +33,7 @@ Initialise une nouvelle instance de la classe BitmapWrapper à partir du flux de
 public IImageWrapper CreateImageWrapper(Stream stream)
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IImageWrapper](../../iimagewrapper)
 * class [ImageWrapperFactory](../../imagewrapperfactory)
@@ -50,7 +50,7 @@ Initialise une nouvelle instance de la classe BitmapWrapper à partir du fichier
 public IImageWrapper CreateImageWrapper(string fileName)
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IImageWrapper](../../iimagewrapper)
 * class [ImageWrapperFactory](../../imagewrapperfactory)

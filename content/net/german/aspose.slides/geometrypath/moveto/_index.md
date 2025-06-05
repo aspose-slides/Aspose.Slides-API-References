@@ -1,7 +1,7 @@
 ---
 title: MoveTo
-second_title: Aspose.Slides für .NET API-Referenz
-description: Setzt die Position des nächsten Punktes.
+second_title: Aspose.Slides für .NET API Referenz
+description: Legt die Position des nächsten Punkts fest.
 type: docs
 weight: 90
 url: /de/aspose.slides/geometrypath/moveto/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/geometrypath/moveto/
 
 ## MoveTo(PointF) {#moveto_1}
 
-Setzt die Position des nächsten Punktes.
+Legt die Position des nächsten Punkts fest.
 
 ```csharp
 public void MoveTo(PointF point)
@@ -17,9 +17,9 @@ public void MoveTo(PointF point)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| point | PointF | Position des Punktes |
+| point | PointF | Punktposition |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [GeometryPath](../../geometrypath)
 * Namespace [Aspose.Slides](../../geometrypath)
@@ -29,7 +29,7 @@ public void MoveTo(PointF point)
 
 ## MoveTo(float, float) {#moveto}
 
-Setzt die Position des nächsten Punktes.
+Legt die Position des nächsten Punkts fest.
 
 ```csharp
 public void MoveTo(float x, float y)
@@ -37,10 +37,10 @@ public void MoveTo(float x, float y)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| x | Single | X-Koordinate des Punktes |
-| y | Single | Y-Koordinate des Punktes |
+| x | Single | X-Koordinate des Punkts |
+| y | Single | Y-Koordinate des Punkts |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [GeometryPath](../../geometrypath)
 * Namespace [Aspose.Slides](../../geometrypath)

@@ -1,15 +1,15 @@
 ---
 title: UseFrameSize
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Determina si el marco de texto se incluirá en un área de representación o no. Booleano de lectura/escritura. El valor predeterminado es falso.
+second_title: Aspose.Slides para .NET Referencia de la API
+description: Determina si el marco de texto se incluirá en un área de renderizado o no. Booleano de lectura/escritura. El valor predeterminado es falso.
 type: docs
 weight: 140
 url: /es/aspose.slides.export/isvgoptions/useframesize/
 ---
 
-## Propiedad ISVGOptions.UseFrameSize
+## ISVGOptions.UseFrameSize property
 
-Determina si el marco de texto se incluirá en un área de representación o no. Booleano de lectura/escritura. El valor predeterminado es falso.
+Determina si el marco de texto se incluirá en un área de renderizado o no. Booleano de lectura/escritura. El valor predeterminado es falso.
 
 ```csharp
 public bool UseFrameSize { get; set; }
@@ -17,8 +17,8 @@ public bool UseFrameSize { get; set; }
 
 ### Ver También
 
-* interfaz [ISVGOptions](../../isvgoptions)
-* espacio de nombres [Aspose.Slides.Export](../../isvgoptions)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [ISVGOptions](../../isvgoptions)
+* espacio de nombres [Aspose.Slides.Export](../../isvgoptions)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

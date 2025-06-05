@@ -1,7 +1,7 @@
 ---
-title: УстановитьРазмер
-second_title: Справочник по API Aspose.Slides для .NET
-description: Устанавливает тип размера слайда и масштабирует содержимое с использованием типа масштаба. Присвоение любого значения, кроме Custom, изменит Size../size соответственно, но сохранит Orientation../orientation неизменным.
+title: SetSize
+second_title: Aspose.Sildes для .NET API Reference
+description: Устанавливает тип размера слайда и масштабирует содержимое с использованием типа масштаба. Присвоение любого значения, кроме Custom, изменит Sizeaspose.slides/slidesize/size соответствующим образом, но сохранит Orientationaspose.slides/slidesize/orientation нетронутым.
 type: docs
 weight: 40
 url: /ru/aspose.slides/slidesize/setsize/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/slidesize/setsize/
 
 ## SetSize(SlideSizeType, SlideSizeScaleType) {#setsize}
 
-Устанавливает тип размера слайда и масштабирует содержимое с использованием типа масштаба. Присвоение любого значения, кроме Custom, изменит [`Size`](../size) соответственно, но сохранит [`Orientation`](../orientation) неизменным.
+Устанавливает тип размера слайда и масштабирует содержимое с использованием типа масштаба. Присвоение любого значения, кроме Custom, изменит [`Size`](../size) соответствующим образом, но сохранит [`Orientation`](../orientation) нетронутым.
 
 ```csharp
 public void SetSize(SlideSizeType type, SlideSizeScaleType scaleType)

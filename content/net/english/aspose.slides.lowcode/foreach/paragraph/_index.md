@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.lowcode/foreach/paragraph/
 ---
+
 ## Paragraph(Presentation, ForEachParagraphCallback) {#paragraph_1}
 
 Iterate each `Paragraph` in the [`Presentation`](../../../aspose.slides/presentation). Shapes will be iterated in all type of slides - [`Slide`](../slide), [`MasterSlide`](../masterslide) and [`LayoutSlide`](../layoutslide)

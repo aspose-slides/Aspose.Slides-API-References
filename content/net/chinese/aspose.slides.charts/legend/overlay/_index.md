@@ -1,7 +1,7 @@
 ---
-title: 重叠
-second_title: Aspose.Slides for .NET API 参考
-description: 确定是否允许其他图表元素与图例重叠。可读写布尔值。
+title: Overlay
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定是否允许其他图表元素与图例重叠。可读/可写的布尔值。
 type: docs
 weight: 60
 url: /zh/aspose.slides.charts/legend/overlay/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/legend/overlay/
 
 ## Legend.Overlay 属性
 
-确定是否允许其他图表元素与图例重叠。可读写布尔值。
+确定是否允许其他图表元素与图例重叠。可读/可写的布尔值。
 
 ```csharp
 public bool Overlay { get; set; }
 ```
 
-### 参见
+### 参考
 
 * class [Legend](../../legend)
 * namespace [Aspose.Slides.Charts](../../legend)

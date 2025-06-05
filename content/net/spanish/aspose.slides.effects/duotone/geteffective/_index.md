@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Obtiene datos efectivos del efecto Duotone con la herencia aplicada.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Obtiene datos del efecto Duotone efectivo con la herencia aplicada.
 type: docs
 weight: 40
 url: /es/aspose.slides.effects/duotone/geteffective/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.effects/duotone/geteffective/
 
 ## Método Duotone.GetEffective
 
-Obtiene datos efectivos del efecto Duotone con la herencia aplicada.
+Obtiene datos del efecto Duotone efectivo con la herencia aplicada.
 
 ```csharp
 public IDuotoneEffectiveData GetEffective()

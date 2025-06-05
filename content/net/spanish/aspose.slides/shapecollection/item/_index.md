@@ -1,13 +1,13 @@
 ---
-title: Elemento
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Obtiene el elemento en el índice especificado. Solo lectura IShapeaspose.slides/ishape.
+title: Item
+second_title: Aspose.Slides para .NET API Reference
+description: Obtiene el elemento en el índice especificado. Solo lectura IShape aspose.slides/ishape.
 type: docs
 weight: 30
 url: /es/aspose.slides/shapecollection/item/
 ---
 
-## Índice de ShapeCollection
+## Indexador ShapeCollection
 
 Obtiene el elemento en el índice especificado. Solo lectura [`IShape`](../../ishape).
 
@@ -15,11 +15,11 @@ Obtiene el elemento en el índice especificado. Solo lectura [`IShape`](../../is
 public IShape this[int index] { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IShape](../../ishape)
 * clase [ShapeCollection](../../shapecollection)
 * espacio de nombres [Aspose.Slides](../../shapecollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
-<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

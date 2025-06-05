@@ -7,7 +7,7 @@ weight: 8570
 url: /fr/aspose.slides.mathtext/mathlimitfactory/
 ---
 
-## Classe MathLimitFactory
+## MathLimitFactory class
 
 Permet de créer IMathLimit
 
@@ -25,7 +25,7 @@ public class MathLimitFactory : IMathLimitFactory
 
 | Nom | Description |
 | --- | --- |
-| [CreateMathLimit](../../aspose.slides.mathtext/mathlimitfactory/createmathlimit#createmathlimit)(IMathElement, IMathElement) | Crée IMathLimit avec la limite en bas |
+| [CreateMathLimit](../../aspose.slides.mathtext/mathlimitfactory/createmathlimit#createmathlimit)(IMathElement, IMathElement) | Crée IMathLimit avec une limite en bas |
 | [CreateMathLimit](../../aspose.slides.mathtext/mathlimitfactory/createmathlimit#createmathlimit_1)(IMathElement, IMathElement, bool) | Crée IMathLimit |
 
 ### Remarques

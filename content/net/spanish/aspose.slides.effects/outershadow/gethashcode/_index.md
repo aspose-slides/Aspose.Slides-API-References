@@ -1,13 +1,13 @@
 ---
 title: GetHashCode
-second_title: Aspose.Slides para .NET Referencia de API
+second_title: Aspose.Slides para .NET API Reference
 description: Sirve como una función hash para un tipo particular.
 type: docs
 weight: 130
 url: /es/aspose.slides.effects/outershadow/gethashcode/
 ---
 
-## Método OuterShadow.GetHashCode
+## OuterShadow.GetHashCode método
 
 Sirve como una función hash para un tipo particular.
 
@@ -15,11 +15,11 @@ Sirve como una función hash para un tipo particular.
 public override int GetHashCode()
 ```
 
-### Valor de retorno
+### Valor de Retorno
 
 Un código hash para el objeto actual.
 
-### Véase también
+### Véase También
 
 * clase [OuterShadow](../../outershadow)
 * espacio de nombres [Aspose.Slides.Effects](../../outershadow)

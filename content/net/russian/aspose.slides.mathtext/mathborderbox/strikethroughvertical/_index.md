@@ -1,15 +1,15 @@
 ---
 title: StrikethroughVertical
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Строка с пересечением по вертикали по умолчанию равна false - указывает на скрытое или показанное состояние вертикальной линии с пересечением.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Strikethrough Vertical по умолчанию равно false - определяет скрытое или показанное состояние вертикальной линии с зачеркиванием.
 type: docs
 weight: 100
 url: /ru/aspose.slides.mathtext/mathborderbox/strikethroughvertical/
 ---
 
-## Свойство MathBorderBox.StrikethroughVertical
+## MathBorderBox.StrikethroughVertical свойство
 
-Строка с пересечением по вертикали (по умолчанию равна false) - указывает на скрытое или показанное состояние вертикальной линии с пересечением.
+Strikethrough Vertical (по умолчанию равно false) - определяет скрытое или показанное состояние вертикальной линии с зачеркиванием.
 
 ```csharp
 public bool StrikethroughVertical { get; set; }
@@ -25,7 +25,7 @@ MathBorderBox borderBox = new MathBorderBox(new MathematicalText("x"));
 borderBox.StrikethroughVertical = true;
 ```
 
-### См. также
+### Смотрите также
 
 * класс [MathBorderBox](../../mathborderbox)
 * пространство имен [Aspose.Slides.MathText](../../mathborderbox)

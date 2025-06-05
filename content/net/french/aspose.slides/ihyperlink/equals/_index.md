@@ -1,13 +1,13 @@
 ---
-title: Égal
-second_title: Référence API Aspose.Slides pour .NET
+title: Equals
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Détermine si les deux instances de Hyperlink sont égales.
 type: docs
 weight: 120
 url: /fr/aspose.slides/ihyperlink/equals/
 ---
 
-## Méthode IHyperlink.Equals
+## IHyperlink.Equals méthode
 
 Détermine si les deux instances de Hyperlink sont égales.
 

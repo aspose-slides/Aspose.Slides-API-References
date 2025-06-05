@@ -1,15 +1,15 @@
 ---
 title: CopyTo
-second_title: Aspose.Sildes para referencia de API de .NET
-description: Copia todos los elementos de la colección en el arreglo especificado.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Copia todos los elementos de la colección en el array especificado.
 type: docs
 weight: 70
 url: /es/aspose.slides.animation/textanimationcollection/copyto/
 ---
 
-## Método TextAnimationCollection.CopyTo
+## TextAnimationCollection.CopyTo método
 
-Copia todos los elementos de la colección en el arreglo especificado.
+Copia todos los elementos de la colección en el array especificado.
 
 ```csharp
 public void CopyTo(Array array, int index)
@@ -17,10 +17,10 @@ public void CopyTo(Array array, int index)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| array | Array | Arreglo a llenar. |
-| index | Int32 | Posición inicial en el arreglo objetivo. |
+| array | Array | Array a llenar. |
+| index | Int32 | Posición inicial en el array de destino. |
 
-### Vea También
+### Ver También
 
 * clase [TextAnimationCollection](../../textanimationcollection)
 * espacio de nombres [Aspose.Slides.Animation](../../textanimationcollection)

@@ -3,9 +3,10 @@ title: IHyperlink
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a hyperlink.
 type: docs
-weight: 5700
+weight: 5910
 url: /aspose.slides/ihyperlink/
 ---
+
 ## IHyperlink interface
 
 Represents a hyperlink.
@@ -21,6 +22,7 @@ public interface IHyperlink
 | [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | Returns type of HyperLinkEx's action. Read-only [`HyperlinkActionType`](../hyperlinkactiontype). |
 | [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | Represents the source of hyperlink color - either styles or portion format. Read/write [`HyperlinkColorSource`](../hyperlinkcolorsource). |
 | [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | Specifies the external URL If this property become not null then property TargetSlide become null. Read-only String. |
+| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | Represents a hyperlink that is set for this portion without regard to the actual content of the portion.  PowerPoint behaves specifically for links and their corresponding text in a portion. It allows to create text for the hyperlink in the form of a valid URL, different from the real address of the link. In this case, when you view the link in the edit window, it will be changed to match the text portion. This property represents the original value of the hyperlink. |
 | [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | Determines whether the hyperlink should be highlighted on click. Read/write Boolean. |
 | [History](../../aspose.slides/ihyperlink/history) { get; set; } | Determines whether the target of the parent hyperlink shall be added to a list of viewed hyperlinks when it is invoked. Read/write Boolean. |
 | [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | Represents the playing sound of the hyperlink. Read/write [`IAudio`](../iaudio). |

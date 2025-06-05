@@ -1,15 +1,15 @@
 ---
 title: LoadExternalFont
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Agrega una fuente a partir de datos binarios
+description: Agrega fuente desde los datos binarios
 type: docs
 weight: 30
 url: /es/aspose.slides/fontsloader/loadexternalfont/
 ---
 
-## Método FontsLoader.LoadExternalFont
+## FontsLoader.LoadExternalFont method
 
-Agrega una fuente a partir de datos binarios
+Agrega fuente desde los datos binarios
 
 ```csharp
 public static void LoadExternalFont(byte[] data)
@@ -19,10 +19,10 @@ public static void LoadExternalFont(byte[] data)
 | --- | --- | --- |
 | data | Byte[] | Datos de la fuente |
 
-### Véase también
+### Ver También
 
-* clase [FontsLoader](../../fontsloader)
-* espacio de nombres [Aspose.Slides](../../fontsloader)
-* ensamblado [Aspose.Slides](../../../)
+* class [FontsLoader](../../fontsloader)
+* namespace [Aspose.Slides](../../fontsloader)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

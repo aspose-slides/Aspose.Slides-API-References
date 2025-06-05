@@ -1,5 +1,5 @@
 ---
-title: Schleife
+title: Loop
 second_title: Aspose.Slides für .NET API-Referenz
 description: Schleifenpräsentation
 type: docs

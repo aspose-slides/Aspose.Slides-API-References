@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/iadjustvalue/name/
 ---
+
 ## IAdjustValue.Name property
 
 Returns a name of this adjustment value. Read-only String.

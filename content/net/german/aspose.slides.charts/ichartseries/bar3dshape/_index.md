@@ -1,7 +1,7 @@
 ---
 title: Bar3DShape
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Form einer Serie eines 3D-Balkendiagramms an. Eine Änderung des Wertes dieser Eigenschaft kann zu einer automatischen Änderung des Typs der Serie führen. Lese-/Schreibzugriff auf ChartShapeTypeaspose.slides/chartshapetype.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Form einer Serie eines 3D-Säulendiagramms an. Eine Änderung des Wertes dieses Attributs kann dazu führen, dass der Typ der Serie automatisch geändert wird. Lesen/Schreiben von ChartShapeTypeaspose.slides/chartshapetype.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/ichartseries/bar3dshape/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartseries/bar3dshape/
 
 ## IChartSeries.Bar3DShape-Eigenschaft
 
-Gibt die Form einer Serie eines 3D-Balkendiagramms an. Eine Änderung des Wertes dieser Eigenschaft kann zu einer automatischen Änderung des Typs der Serie führen. Lese-/Schreibzugriff auf [`ChartShapeType`](../../chartshapetype).
+Gibt die Form einer Serie eines 3D-Säulendiagramms an. Eine Änderung des Wertes dieses Attributs kann dazu führen, dass der Typ der Serie automatisch geändert wird. Lesen/Schreiben von [`ChartShapeType`](../../chartshapetype).
 
 ```csharp
 public ChartShapeType Bar3DShape { get; set; }

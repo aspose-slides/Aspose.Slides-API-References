@@ -1,15 +1,15 @@
 ---
 title: BinWidth
 second_title: Aspose.Sildes for .NET API Reference
-description: 当 AggregationType 属性值设置为 AxisAggregationType.ByBinWidth 时，指定箱宽。仅适用于类别轴。仅与 Histogram 或 HistogramPareto 系列一起使用。
+description: 当 AggregationType 属性值设置为 AxisAggregationType.ByBinWidth 时，指定箱宽。应用于类别轴。仅与 Histogram 或 HistogramPareto 系列一起使用。
 type: docs
 weight: 110
 url: /zh/aspose.slides.charts/iaxis/binwidth/
 ---
 
-## IAxis.BinWidth 属性
+## IAxis.BinWidth property
 
-当 AggregationType 属性值设置为 AxisAggregationType.ByBinWidth 时，指定箱宽。仅适用于类别轴。仅与 Histogram 或 HistogramPareto 系列一起使用。
+当 AggregationType 属性值设置为 AxisAggregationType.ByBinWidth 时，指定箱宽。应用于类别轴。仅与 Histogram 或 HistogramPareto 系列一起使用。
 
 ```csharp
 public double BinWidth { get; set; }

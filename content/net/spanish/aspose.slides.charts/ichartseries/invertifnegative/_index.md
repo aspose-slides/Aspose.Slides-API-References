@@ -1,6 +1,6 @@
 ---
-title: InvertirSiNegativo
-second_title: Referencia de API de Aspose.Slides para .NET
+title: InvertIfNegative
+second_title: Aspose.Sildes para .NET Referencia de la API
 description: Especifica que la serie de barras, columnas o burbujas invertirá sus colores si el valor es negativo. Booleano de lectura/escritura.
 type: docs
 weight: 170
@@ -19,6 +19,6 @@ public bool InvertIfNegative { get; set; }
 
 * interfaz [IChartSeries](../../ichartseries)
 * espacio de nombres [Aspose.Slides.Charts](../../ichartseries)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

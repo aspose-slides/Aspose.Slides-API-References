@@ -3,9 +3,10 @@ title: AudioFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an audio clip on a slide.
 type: docs
-weight: 780
+weight: 790
 url: /aspose.slides/audioframe/
 ---
+
 ## AudioFrame class
 
 Represents an audio clip on a slide.
@@ -31,6 +32,8 @@ public class AudioFrame : PictureFrame, IAudioFrame
 | virtual [EffectFormat](../../aspose.slides/shape/effectformat) { get; } | Returns the EffectFormat object which contains pixel effects applied to a shape. Note: can return null for certain types of shapes which don't have effect properties. Read-only [`IEffectFormat`](../ieffectformat). |
 | [Embedded](../../aspose.slides/audioframe/embedded) { get; } | Determines whether a sound is embedded to a presentation. Read-only Boolean. |
 | [EmbeddedAudio](../../aspose.slides/audioframe/embeddedaudio) { get; set; } | Returns or sets embedded audio object. Read/write [`IAudio`](../iaudio). |
+| [FadeInDuration](../../aspose.slides/audioframe/fadeinduration) { get; set; } | Specifies the time duration for the initial fade-in of the media in milliseconds. Read/write Single. |
+| [FadeOutDuration](../../aspose.slides/audioframe/fadeoutduration) { get; set; } | Specifies the time duration for the ending fade-out of the media in milliseconds. Read/write Single. |
 | virtual [FillFormat](../../aspose.slides/shape/fillformat) { get; } | Returns the FillFormat object that contains fill formatting properties for a shape. Note: can return null for certain types of shapes which don't have fill properties. Read-only [`IFillFormat`](../ifillformat). |
 | [Frame](../../aspose.slides/shape/frame) { get; set; } | Returns or sets the shape frame's properties. Read/write [`IShapeFrame`](../ishapeframe). |
 | [Height](../../aspose.slides/shape/height) { get; set; } | Returns or sets the height of the shape. Read/write Single. |
@@ -39,6 +42,8 @@ public class AudioFrame : PictureFrame, IAudioFrame
 | [HyperlinkClick](../../aspose.slides/shape/hyperlinkclick) { get; set; } | Returns or sets the hyperlink defined for mouse click. Read/write [`IHyperlink`](../ihyperlink). |
 | [HyperlinkManager](../../aspose.slides/shape/hyperlinkmanager) { get; } | Returns the hyperlink manager. Read-only [`IHyperlinkManager`](../ihyperlinkmanager). |
 | [HyperlinkMouseOver](../../aspose.slides/shape/hyperlinkmouseover) { get; set; } | Returns or sets the hyperlink defined for mouse over. Read/write [`IHyperlink`](../ihyperlink). |
+| [IsCameo](../../aspose.slides/pictureframe/iscameo) { get; } | Determines whether the PictureFrame is Cameo object or not. Read only Boolean. |
+| [IsDecorative](../../aspose.slides/shape/isdecorative) { get; set; } | Gets or sets 'Mark as decorative' option Reed/write Boolean. |
 | [IsGrouped](../../aspose.slides/shape/isgrouped) { get; } | Determines whether the shape is grouped. Read-only Boolean. |
 | [IsTextHolder](../../aspose.slides/shape/istextholder) { get; } | Determines whether the shape is TextHolder_PPT. Read-only Boolean. |
 | virtual [LineFormat](../../aspose.slides/shape/lineformat) { get; } | Returns the LineFormat object that contains line formatting properties for a shape. Note: can return null for certain types of shapes which don't have line properties. Read-only [`ILineFormat`](../ilineformat). |
@@ -63,8 +68,11 @@ public class AudioFrame : PictureFrame, IAudioFrame
 | override [ShapeType](../../aspose.slides/pictureframe/shapetype) { get; set; } | Returns or sets the AutoShape type for a PictureFrame. There are allowable all items of the set [`ShapeType`](../shapetype), except all sorts of lines: |
 | [Slide](../../aspose.slides/shape/slide) { get; } | Returns the parent slide of a shape. Read-only [`IBaseSlide`](../ibaseslide). |
 | virtual [ThreeDFormat](../../aspose.slides/shape/threedformat) { get; } | Returns the ThreeDFormat object that 3d effect properties for a shape. Note: can return null for certain types of shapes which don't have 3d properties. Read-only [`IThreeDFormat`](../ithreedformat). |
+| [TrimFromEnd](../../aspose.slides/audioframe/trimfromend) { get; set; } | Specifies the time duration to be removed from the end of the media during playback, in milliseconds. Read/write Single. |
+| [TrimFromStart](../../aspose.slides/audioframe/trimfromstart) { get; set; } | Specifies the time duration to be removed from the beginning of the media during playback, in milliseconds. Read/write Single. |
 | [UniqueId](../../aspose.slides/shape/uniqueid) { get; } | Gets unique shape identifier in presentation scope. Read-only UInt32. See also [`OfficeInteropShapeId`](../shape/officeinteropshapeid) for getting unique shape identifier in slide scope. |
 | [Volume](../../aspose.slides/audioframe/volume) { get; set; } | Returns or sets the audio volume. Read/write [`AudioVolumeMode`](../audiovolumemode). |
+| [VolumeValue](../../aspose.slides/audioframe/volumevalue) { get; set; } | Returns or sets the audio volume in percents. Read/write Single. |
 | [Width](../../aspose.slides/shape/width) { get; set; } | Returns or sets the width of the shape. Read/write Single. |
 | [X](../../aspose.slides/shape/x) { get; set; } | Returns or sets the x-coordinate of the upper-left corner of the shape. Read/write Single. |
 | [Y](../../aspose.slides/shape/y) { get; set; } | Returns or sets the y-coordinate of the upper-left corner of the shape. Read/write Single. |
@@ -78,8 +86,8 @@ public class AudioFrame : PictureFrame, IAudioFrame
 | [CreateShapeElements](../../aspose.slides/geometryshape/createshapeelements)() | Creates and returns array of shape's elements. |
 | [GetBasePlaceholder](../../aspose.slides/shape/getbaseplaceholder)() | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from). A null is returned if the current shape is not inherited. |
 | [GetGeometryPaths](../../aspose.slides/geometryshape/getgeometrypaths)() | Returns the copy of path of the geometry shape. Coordinates are relative to the left top corner of the shape. |
-| [GetThumbnail](../../aspose.slides/shape/getthumbnail)() | Returns shape thumbnail. ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
-| [GetThumbnail](../../aspose.slides/shape/getthumbnail)(ShapeThumbnailBounds, float, float) | Returns shape thumbnail. |
+| [GetImage](../../aspose.slides/shape/getimage)() | Returns shape thumbnail. ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
+| [GetImage](../../aspose.slides/shape/getimage)(ShapeThumbnailBounds, float, float) | Returns shape thumbnail. |
 | [RemovePlaceholder](../../aspose.slides/shape/removeplaceholder)() | Defines that this shape isn't a placeholder. |
 | [SetGeometryPath](../../aspose.slides/geometryshape/setgeometrypath)(IGeometryPath) | Updates shape geometry from [`IGeometryPath`](../igeometrypath) object. Coordinates must be relative to the left top corner of the shape. Changes the type of the shape ([`ShapeType`](../geometryshape/shapetype)) to Custom. |
 | [SetGeometryPaths](../../aspose.slides/geometryshape/setgeometrypaths)(IGeometryPath[]) | Updates shape geometry from array of [`IGeometryPath`](../igeometrypath). Coordinates must be relative to the left top corner of the shape. Changes the type of the shape ([`ShapeType`](../geometryshape/shapetype)) to Custom. |

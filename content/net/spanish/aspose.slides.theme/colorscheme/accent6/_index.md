@@ -15,11 +15,11 @@ Sexto color de acento en el esquema. Solo lectura [`IColorFormat`](../../../aspo
 public IColorFormat Accent6 { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IColorFormat](../../../aspose.slides/icolorformat)
 * clase [ColorScheme](../../colorscheme)
 * espacio de nombres [Aspose.Slides.Theme](../../colorscheme)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

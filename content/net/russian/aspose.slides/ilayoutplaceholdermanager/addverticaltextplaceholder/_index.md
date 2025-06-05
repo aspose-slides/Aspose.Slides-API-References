@@ -1,7 +1,7 @@
 ---
 title: AddVerticalTextPlaceholder
-second_title: Aspose.Slides для .NET API Справочник
-description: Добавляет новую форму заполнителя на слайд макета для размещения текстового содержимого в вертикальном направлении.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Добавляет новую фигуру-заполнитель на слайд макета для размещения текстового содержимого в вертикальном направлении.
 type: docs
 weight: 100
 url: /ru/aspose.slides/ilayoutplaceholdermanager/addverticaltextplaceholder/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ilayoutplaceholdermanager/addverticaltextplaceholder/
 
 ## ILayoutPlaceholderManager.AddVerticalTextPlaceholder метод
 
-Добавляет новую форму заполнителя на слайд макета для размещения текстового содержимого в вертикальном направлении.
+Добавляет новую фигуру-заполнитель на слайд макета для размещения текстового содержимого в вертикальном направлении.
 
 ```csharp
 public IAutoShape AddVerticalTextPlaceholder(float x, float y, float width, float height)
@@ -17,18 +17,18 @@ public IAutoShape AddVerticalTextPlaceholder(float x, float y, float width, floa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X координата новой формы заполнителя. |
-| y | Single | Y координата новой формы заполнителя. |
-| width | Single | Ширина новой формы заполнителя. |
-| height | Single | Высота новой формы заполнителя. |
+| x | Single | X-координата новой фигуры-заполнителя. |
+| y | Single | Y-координата новой фигуры-заполнителя. |
+| width | Single | Ширина новой фигуры-заполнителя. |
+| height | Single | Высота новой фигуры-заполнителя. |
 
 ### Возвращаемое значение
 
-Созданный [`IAutoShape`](../../iautoshape) с заполнителем текста (вертикальный).
+Созданный [`IAutoShape`](../../iautoshape) с текстовым (вертикальным) заполнителем.
 
 ### Примеры
 
-Следующий пример показывает, как добавить форму заполнителя текста (вертикальный) на слайд макета.
+Следующий пример показывает, как добавить фигуру-заполнитель Text (Vertical) на слайд макета.
 
 ```csharp
 [C#]
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### См. также
+### Также смотрите
 
 * интерфейс [IAutoShape](../../iautoshape)
 * интерфейс [ILayoutPlaceholderManager](../../ilayoutplaceholdermanager)

@@ -15,7 +15,7 @@ url: /zh/aspose.slides.theme/icolorschemeeffectivedata/followedhyperlink/
 public Color FollowedHyperlink { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IColorSchemeEffectiveData](../../icolorschemeeffectivedata)
 * 命名空间 [Aspose.Slides.Theme](../../icolorschemeeffectivedata)

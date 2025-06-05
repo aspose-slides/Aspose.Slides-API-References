@@ -1,6 +1,6 @@
 ---
-title: 克隆
-second_title: Aspose.Sildes for .NET API 参考
+title: Clone
+second_title: Aspose.Sildes for .NET API Reference
 description: 克隆当前对象
 type: docs
 weight: 390
@@ -19,7 +19,7 @@ public object Clone()
 
 克隆
 
-### 参见
+### 另请参见
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)

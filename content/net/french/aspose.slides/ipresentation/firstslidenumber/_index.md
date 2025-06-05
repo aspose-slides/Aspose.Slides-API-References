@@ -15,7 +15,7 @@ Représente le premier numéro de diapositive dans la présentation. Lecture/éc
 public int FirstSlideNumber { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IPresentation](../../ipresentation)
 * namespace [Aspose.Slides](../../ipresentation)

@@ -1,7 +1,7 @@
 ---
 title: ParentSlide
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve la diapositiva padre. Solo lectura ISlideaspose.slides/islide.
+second_title: Aspose.Sildes para .NET Referencia de la API
+description: Devuelve la diapositiva principal. Solo lectura ISlideaspose.slides/islide.
 type: docs
 weight: 30
 url: /es/aspose.slides/notesslide/parentslide/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/notesslide/parentslide/
 
 ## Propiedad NotesSlide.ParentSlide
 
-Devuelve la diapositiva padre. Solo lectura [`ISlide`](../../islide).
+Devuelve la diapositiva principal. Solo lectura [`ISlide`](../../islide).
 
 ```csharp
 public ISlide ParentSlide { get; }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [ISlide](../../islide)
 * clase [NotesSlide](../../notesslide)

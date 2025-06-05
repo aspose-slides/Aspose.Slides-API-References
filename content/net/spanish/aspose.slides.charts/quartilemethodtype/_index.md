@@ -1,13 +1,13 @@
 ---
 title: QuartileMethodType
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Devuelve el tipo de método de cuartil
 type: docs
 weight: 2310
 url: /es/aspose.slides.charts/quartilemethodtype/
 ---
 
-## Enumeración QuartileMethodType
+## Enumeração QuartileMethodType
 
 Devuelve el tipo de método de cuartil
 
@@ -19,10 +19,10 @@ public enum QuartileMethodType
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Exclusive | `0` | Representa el método de cuartil exclusivo. |
-| Inclusive | `1` | Representa el método de cuartil inclusivo. |
+| Exclusivo | `0` | Representa el método de cuartil exclusivo. |
+| Inclusivo | `1` | Representa el método de cuartil inclusivo. |
 
-### Véase también
+### Ver También
 
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

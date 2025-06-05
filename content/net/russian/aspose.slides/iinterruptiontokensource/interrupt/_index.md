@@ -1,6 +1,6 @@
 ---
-title: Прерывание
-second_title: Справочник API Aspose.Slides для .NET
+title: Interrupt
+second_title: Aspose.Sildes для .NET API Справочник
 description: Инициализация запроса на прерывание.
 type: docs
 weight: 30

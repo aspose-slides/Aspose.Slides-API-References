@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.charts/piesplitcustompointcollection/clear/
 ---
+
 ## PieSplitCustomPointCollection.Clear method
 
 Removes all items from the ICollection.

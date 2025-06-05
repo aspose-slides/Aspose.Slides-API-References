@@ -1,15 +1,15 @@
 ---
-title: Verhalten
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt das Verhalten der Basisklasse für Effekte dar.
+title: Behavior
+second_title: Aspose.Sildes für .NET API Referenz
+description: Repräsentiert das Verhalten der Basisklasse für Effekte.
 type: docs
 weight: 60
 url: /de/aspose.slides.animation/behavior/
 ---
 
-## Verhalten Klasse
+## Behavior-Klasse
 
-Stellt das Verhalten der Basisklasse für Effekte dar.
+Repräsentiert das Verhalten der Basisklasse für Effekte.
 
 ```csharp
 public abstract class Behavior : IBehavior
@@ -19,12 +19,12 @@ public abstract class Behavior : IBehavior
 
 | Name | Beschreibung |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Stellt dar, ob Animationsverhalten akkumuliert werden. Lese-/Schreibzugriff [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Stellt dar, ob das aktuelle Animationsverhalten mit anderen laufenden Animationen kombiniert wird. Lese-/Schreibzugriff [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Stellt die Eigenschaften des Verhaltens dar. Schreibgeschützt [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Stellt die Timing-Eigenschaften für das Effektverhalten dar. Lese-/Schreibzugriff [`ITiming`](../itiming). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Repräsentiert, ob Animationsverhalten akkumuliert werden. Lesen/Schreiben [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Repräsentiert, ob das aktuelle Animationsverhalten mit anderen aktiven Animationen kombiniert wird. Lesen/Schreiben [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Repräsentiert die Eigenschaften des Verhaltens. Nur Lesen [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Repräsentiert die zeitlichen Eigenschaften für das Effektverhalten. Lesen/Schreiben [`ITiming`](../itiming). |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IBehavior](../ibehavior)
 * Namespace [Aspose.Slides.Animation](../../aspose.slides.animation)

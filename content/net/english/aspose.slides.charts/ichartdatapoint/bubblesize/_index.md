@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/ichartdatapoint/bubblesize/
 ---
+
 ## IChartDataPoint.BubbleSize property
 
 Returns the bubble size of chart data point. Read-only [`IDoubleChartValue`](../../idoublechartvalue).

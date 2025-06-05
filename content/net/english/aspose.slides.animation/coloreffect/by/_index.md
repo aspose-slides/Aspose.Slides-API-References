@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.animation/coloreffect/by/
 ---
+
 ## ColorEffect.By property
 
 Describes the relative offset value for the color animation. Read/write [`IColorOffset`](../../icoloroffset).

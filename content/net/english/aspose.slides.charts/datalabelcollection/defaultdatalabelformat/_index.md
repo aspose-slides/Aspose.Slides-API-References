@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.charts/datalabelcollection/defaultdatalabelformat/
 ---
+
 ## DataLabelCollection.DefaultDataLabelFormat property
 
 Gets the default data label format. Read-only [`IDataLabelFormat`](../../idatalabelformat).

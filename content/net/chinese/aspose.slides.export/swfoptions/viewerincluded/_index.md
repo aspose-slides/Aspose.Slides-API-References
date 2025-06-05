@@ -1,7 +1,7 @@
 ---
 title: ViewerIncluded
-second_title: Aspose.Slides for .NET API 参考
-description: 指定生成的 SWF 文档是否应该包含集成的文档查看器。默认值为 true。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定生成的 SWF 文档是否应包含集成的文档查看器。默认是 true。
 type: docs
 weight: 170
 url: /zh/aspose.slides.export/swfoptions/viewerincluded/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.export/swfoptions/viewerincluded/
 
 ## SwfOptions.ViewerIncluded 属性
 
-指定生成的 SWF 文档是否应该包含集成的文档查看器。默认值为 `true`。
+指定生成的 SWF 文档是否应包含集成的文档查看器。默认是 `true`。
 
 ```csharp
 public bool ViewerIncluded { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [SwfOptions](../../swfoptions)
 * namespace [Aspose.Slides.Export](../../swfoptions)

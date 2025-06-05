@@ -7,7 +7,7 @@ weight: 20
 url: /fr/aspose.slides/browsedbyindividual/showscrollbar/
 ---
 
-## Propriété BrowsedByIndividual.ShowScrollbar
+## BrowsedByIndividual.ShowScrollbar propriété
 
 Afficher la barre de défilement dans la fenêtre
 
@@ -15,7 +15,7 @@ Afficher la barre de défilement dans la fenêtre
 public bool ShowScrollbar { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [BrowsedByIndividual](../../browsedbyindividual)
 * espace de noms [Aspose.Slides](../../browsedbyindividual)

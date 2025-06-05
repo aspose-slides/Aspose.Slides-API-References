@@ -1,6 +1,6 @@
 ---
 title: AsIBaseSlideHeaderFooterManager
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Devuelve la interfaz IBaseSlideHeaderFooterManager.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Devuelve la interfaz IBaseSlideHeaderFooterManager.
 public IBaseSlideHeaderFooterManager AsIBaseSlideHeaderFooterManager { get; }
 ```
 
-### Notas
+### Observaciones
 
 Para compatibilidad con COM.
 

@@ -1,25 +1,25 @@
 ---
 title: RasterizeUnsupportedFontStyles
-second_title: Aspose.Slides for .NET API 参考
-description: 当字体不支持粗体样式时，指示文本是否应被光栅化为位图并保存为PDF。对于某些字体，这种方法可以提高生成的PDF中文本的质量。可读/可写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指示当字体不支持粗体样式时，文本是否应作为位图进行栅格化并保存为PDF。此方法可以提高某些字体在结果PDF中的文本质量。可读/可写布尔值。
 type: docs
 weight: 150
 url: /zh/aspose.slides.export/pdfoptions/rasterizeunsupportedfontstyles/
 ---
 
-## PdfOptions.RasterizeUnsupportedFontStyles 属性
+## PdfOptions.RasterizeUnsupportedFontStyles property
 
-当字体不支持粗体样式时，指示文本是否应被光栅化为位图并保存为PDF。对于某些字体，这种方法可以提高生成的PDF中文本的质量。可读/可写布尔值。
+指示当字体不支持粗体样式时，文本是否应作为位图进行栅格化并保存为PDF。此方法可以提高某些字体在结果PDF中的文本质量。可读/可写布尔值。
 
 ```csharp
 public bool RasterizeUnsupportedFontStyles { get; set; }
 ```
 
-### 备注
+### Remarks
 
 默认值为 **false**。
 
-### 参见
+### See Also
 
 * class [PdfOptions](../../pdfoptions)
 * namespace [Aspose.Slides.Export](../../pdfoptions)

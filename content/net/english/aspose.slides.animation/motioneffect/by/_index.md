@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.animation/motioneffect/by/
 ---
+
 ## MotionEffect.By property
 
 Describes the relative offset value for the animation (in percents). Read/write PointF.

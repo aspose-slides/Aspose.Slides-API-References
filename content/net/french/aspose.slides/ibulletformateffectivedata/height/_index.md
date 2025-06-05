@@ -1,7 +1,7 @@
 ---
-title: Hauteur
+title: Height
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie la hauteur de puce d'un paragraphe. Lecture seule Single.
+description: Renvoie la hauteur de puce d'un paragraphe. Lecture seule Simple.
 type: docs
 weight: 50
 url: /fr/aspose.slides/ibulletformateffectivedata/height/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ibulletformateffectivedata/height/
 
 ## Propriété IBulletFormatEffectiveData.Height
 
-Renvoie la hauteur de puce d'un paragraphe. Lecture seule Single.
+Renvoie la hauteur de puce d'un paragraphe. Lecture seule Simple.
 
 ```csharp
 public float Height { get; }

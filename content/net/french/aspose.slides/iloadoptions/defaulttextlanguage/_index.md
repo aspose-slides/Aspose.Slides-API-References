@@ -1,7 +1,7 @@
 ---
 title: DefaultTextLanguage
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit la langue par défaut pour le texte de la présentation. Chaîne lisible/écrivable.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Renvoie ou définit la langue par défaut pour le texte de présentation. Chaîne en lecture/écriture.
 type: docs
 weight: 50
 url: /fr/aspose.slides/iloadoptions/defaulttextlanguage/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/iloadoptions/defaulttextlanguage/
 
 ## Propriété ILoadOptions.DefaultTextLanguage
 
-Renvoie ou définit la langue par défaut pour le texte de la présentation. Chaîne lisible/écrivable.
+Renvoie ou définit la langue par défaut pour le texte de présentation. Chaîne en lecture/écriture.
 
 ```csharp
 public string DefaultTextLanguage { get; set; }
@@ -25,10 +25,10 @@ Exemple :
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.DefaultTextLanguage = "en-US";
 using (Presentation pres = new Presentation(loadOptions))
-{
+ {
     // Ajouter une nouvelle forme rectangle avec du texte
     IAutoShape shp = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 50, 50, 150, 50);
-    shp.TextFrame.Text = "Nouveau Texte";
+    shp.TextFrame.Text = "Nouveau texte";
 
     // Vérifier la langue de la première portion
     Console.WriteLine(shp.TextFrame.Paragraphs[0].Portions[0].PortionFormat.LanguageId);

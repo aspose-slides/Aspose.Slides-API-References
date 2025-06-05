@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides.effects/reflection/geteffective/
 ---
+
 ## Reflection.GetEffective method
 
 Gets effective Reflection effect data with the inheritance applied.

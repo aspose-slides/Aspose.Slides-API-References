@@ -1,15 +1,15 @@
 ---
-title: 间距
-second_title: Aspose.Slides for .NET API 参考
-description: 返回字符间距增量。只读单精度浮点数。
+title: Spacing
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回字符间距增量。只读 Single。
 type: docs
 weight: 220
 url: /zh/aspose.slides/ibaseportionformateffectivedata/spacing/
 ---
 
-## IBasePortionFormatEffectiveData.Spacing属性
+## IBasePortionFormatEffectiveData.Spacing property
 
-返回字符间距增量。只读单精度浮点数。
+返回字符间距增量。只读 Single。
 
 ```csharp
 public float Spacing { get; }

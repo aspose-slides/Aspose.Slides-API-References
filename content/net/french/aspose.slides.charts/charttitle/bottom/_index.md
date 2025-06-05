@@ -1,15 +1,15 @@
 ---
-title: Bas
-second_title: Référence API Aspose.Sildes pour .NET
-description: Bas. Lecture seule Single.
+title: Bottom
+second_title: Aspose.Slidess pour .NET API Reference
+description: Bottom. Lecture seule Single.
 type: docs
 weight: 10
 url: /fr/aspose.slides.charts/charttitle/bottom/
 ---
 
-## Propriété ChartTitle.Bottom
+## ChartTitle.Bottom propriété
 
-Bas. Lecture seule Single.
+Bottom. Lecture seule Single.
 
 ```csharp
 public float Bottom { get; }

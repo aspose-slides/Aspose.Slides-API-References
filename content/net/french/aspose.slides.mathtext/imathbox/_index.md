@@ -1,7 +1,7 @@
 ---
 title: IMathBox
 second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie l'encapsulation logique d'un élément mathématique. Par exemple, un objet encapsulé peut servir d'émulateur d'opérateur avec ou sans point d'alignement, servir de point de rupture de ligne, ou être groupé de manière à ne pas permettre de ruptures de ligne à l'intérieur. Par exemple, l'opérateur "==" doit être encapsulé pour éviter les ruptures de ligne.
+description: Spécifie l'emballage logique des éléments mathématiques. Par exemple, un objet encapsulé peut servir d'émulateur d'opérateur avec ou sans un point d'alignement, servir de point de saut de ligne, ou être groupé de manière à ne pas permettre de saut de ligne à l'intérieur. Par exemple, l'opérateur "==" devrait être encapsulé pour éviter les sauts de ligne.
 type: docs
 weight: 7940
 url: /fr/aspose.slides.mathtext/imathbox/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/imathbox/
 
 ## Interface IMathBox
 
-Spécifie l'encapsulation logique (emballage) d'un élément mathématique. Par exemple, un objet encapsulé peut servir d'émulateur d'opérateur avec ou sans point d'alignement, servir de point de rupture de ligne, ou être groupé de manière à ne pas permettre de ruptures de ligne à l'intérieur. Par exemple, l'opérateur "==" doit être encapsulé pour éviter les ruptures de ligne.
+Spécifie l'emballage logique (packaging) des éléments mathématiques. Par exemple, un objet encapsulé peut servir d'émulateur d'opérateur avec ou sans un point d'alignement, servir de point de saut de ligne, ou être groupé de manière à ne pas permettre de sauts de ligne à l'intérieur. Par exemple, l'opérateur "==" devrait être encapsulé pour éviter les sauts de ligne.
 
 ```csharp
 public interface IMathBox : IMathElement
@@ -19,17 +19,17 @@ public interface IMathBox : IMathElement
 
 | Nom | Description |
 | --- | --- |
-| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | Quand vrai, cet émulateur d'opérateur sert de point d'alignement ; c'est-à-dire que les points d'alignement désignés dans d'autres équations peuvent être alignés avec lui. Par défaut : faux |
+| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | Lorsque vrai, cet émulateur d'opérateur sert de point d'alignement ; c'est-à-dire que les points d'alignement désignés dans d'autres équations peuvent être alignés avec lui. Par défaut : faux |
 | [AsIMathElement](../../aspose.slides.mathtext/imathbox/asimathelement) { get; } | Permet d'obtenir l'interface de base IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathbox/base) { get; } | Argument de base |
-| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | Différentiel. Quand vrai, la boîte agit comme un différentiel (par exemple, 𝑑𝑥 dans un intégrant), et reçoit l'espacement horizontal approprié pour le différentiel mathématique. Par défaut : faux |
-| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | La rupture explicite spécifie s'il y a une rupture de ligne au début de l'objet Box, de sorte que la ligne se replie au début de l'objet box. Spécifie le numéro de l'opérateur sur la ligne précédente de texte mathématique qui doit être utilisé comme point d'alignement pour la ligne actuelle de texte mathématique valeurs possibles : 1..255 Par défaut : 0 (pas de rupture explicite) |
-| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | Pas de rupture. Cette propriété spécifie la propriété "non cassable" sur l'objet box. Quand vrai, aucune rupture de ligne ne peut se produire à l'intérieur de la boîte. Cela peut être important pour les émulateurs d'opérateurs qui se composent de plus d'un opérateur binaire. Lorsque cet élément n'est pas spécifié, des ruptures peuvent se produire à l'intérieur de la boîte. Par défaut : vrai |
-| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | Émulateur d'Opérateur. Quand vrai, la boîte et son contenu se comportent comme un seul opérateur et héritent des propriétés d'un opérateur. Cela signifie, par exemple, que le caractère peut servir de point pour une rupture de ligne et peut être aligné avec d'autres opérateurs. Les émulateurs d'opérateurs sont souvent utilisés lorsque un ou plusieurs glyphes se combinent pour former un opérateur, tel que '=='. Valeur par défaut : faux |
+| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | Différentiel. Lorsque vrai, la boîte agit comme un différentiel (par exemple, 𝑑𝑥 dans un intégrande) et reçoit l'espacement horizontal approprié pour le différentiel mathématique. Par défaut : faux |
+| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | La rupture explicite spécifie s'il y a un saut de ligne au début de l'objet Box, de sorte que la ligne se plie au début de l'objet box. Spécifie le numéro de l'opérateur sur la ligne précédente de texte mathématique qui sera utilisé comme point d'alignement pour la ligne actuelle de texte mathématique, valeurs possibles : 1..255 Par défaut : 0 (pas de rupture explicite) |
+| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | Pas de rupture. Cette propriété spécifie la propriété "non cassable" sur l'objet box. Lorsque vrai, aucun saut de ligne ne peut se produire à l'intérieur de la boîte. Cela peut être important pour les émulateurs d'opérateurs qui consistent en plus d'un opérateur binaire. Lorsque cet élément n'est pas spécifié, des ruptures peuvent se produire à l'intérieur de la boîte. Par défaut : vrai |
+| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | Émulateur d'opérateur. Lorsque vrai, la boîte et son contenu se comportent comme un seul opérateur et héritent des propriétés d'un opérateur. Cela signifie, par exemple, que le caractère peut servir de point pour un saut de ligne et peut être aligné avec d'autres opérateurs. Les émulateurs d'opérateurs sont souvent utilisés lorsqu'un ou plusieurs glyphes se combinent pour former un opérateur, comme '=='. Valeur par défaut : faux |
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]

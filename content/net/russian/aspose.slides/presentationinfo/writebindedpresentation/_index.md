@@ -1,6 +1,6 @@
 ---
 title: WriteBindedPresentation
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Reference
 description: Записывает привязанную презентацию в поток.
 type: docs
 weight: 90
@@ -17,9 +17,9 @@ public void WriteBindedPresentation(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток должен быть поддерживающим перемещение и записываемым. |
+| stream | Stream | Поток должен поддерживать произвольный доступ и быть записываемым. |
 
-### См. также
+### Смотрите также
 
 * класс [PresentationInfo](../../presentationinfo)
 * пространство имен [Aspose.Slides](../../presentationinfo)
@@ -39,7 +39,7 @@ public void WriteBindedPresentation(string file)
 | --- | --- | --- |
 | file | String | Файл презентации. |
 
-### См. также
+### Смотрите также
 
 * класс [PresentationInfo](../../presentationinfo)
 * пространство имен [Aspose.Slides](../../presentationinfo)

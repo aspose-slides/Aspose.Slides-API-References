@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides für .NET API-Referenz
-description: Holt effektive 3-D-Formatdaten mit der angewandten Vererbung.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ruft effektive 3-D-Formatierungsdaten mit der angewendeten Vererbung ab.
 type: docs
 weight: 110
 url: /de/aspose.slides/threedformat/geteffective/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/threedformat/geteffective/
 
 ## ThreeDFormat.GetEffective Methode
 
-Holt effektive 3-D-Formatdaten mit der angewandten Vererbung.
+Ruft effektive 3-D-Formatierungsdaten mit der angewendeten Vererbung ab.
 
 ```csharp
 public IThreeDFormatEffectiveData GetEffective()
@@ -21,7 +21,7 @@ Ein [`IThreeDFormatEffectiveData`](../../ithreedformateffectivedata).
 
 ### Beispiele
 
-Dieses Beispiel zeigt, wie man effektive Eigenschaften für Kamera, Lichtanordnung und obere Fase einer Form erhält.
+Dieses Beispiel zeigt, wie man effektive Eigenschaften für Kamera, Lichtanordnung und die obere Fase einer Form abruft.
 
 ```csharp
 [C#]
@@ -34,11 +34,11 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
     Console.WriteLine("Sichtfeld: " + threeDEffectiveData.Camera.FieldOfViewAngle);
     Console.WriteLine("Zoom: " + threeDEffectiveData.Camera.Zoom);
 
-    Console.WriteLine("= Effektive Lichtanordnung Eigenschaften =");
+    Console.WriteLine("= Effektive Lichtanordnungseigenschaften =");
     Console.WriteLine("Typ: " + threeDEffectiveData.LightRig.LightType);
     Console.WriteLine("Richtung: " + threeDEffectiveData.LightRig.Direction);
 
-    Console.WriteLine("= Effektive Eigenschaften der oberen Fläche der Form =");
+    Console.WriteLine("= Effektive obere Fasenmerkmale der Form =");
     Console.WriteLine("Typ: " + threeDEffectiveData.BevelTop.BevelType);
     Console.WriteLine("Breite: " + threeDEffectiveData.BevelTop.Width);
     Console.WriteLine("Höhe: " + threeDEffectiveData.BevelTop.Height);

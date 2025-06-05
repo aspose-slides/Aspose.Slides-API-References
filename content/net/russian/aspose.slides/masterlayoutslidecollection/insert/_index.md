@@ -1,15 +1,15 @@
 ---
-title: Вставить
-second_title: Справочник по API Aspose.Slides для .NET
-description: Вставляет новый слайд макета в указанную позицию коллекции.
+title: Insert
+second_title: Aspose.Sildes для .NET API Reference
+description: Вставляет новый макет слайда в указанную позицию коллекции.
 type: docs
 weight: 30
 url: /ru/aspose.slides/masterlayoutslidecollection/insert/
 ---
 
-## Метод MasterLayoutSlideCollection.Insert
+## MasterLayoutSlideCollection.Insert метод
 
-Вставляет новый слайд макета в указанную позицию коллекции.
+Вставляет новый макет слайда в указанную позицию коллекции.
 
 ```csharp
 public ILayoutSlide Insert(int index, SlideLayoutType layoutType, string layoutName)
@@ -19,7 +19,7 @@ public ILayoutSlide Insert(int index, SlideLayoutType layoutType, string layoutN
 | --- | --- | --- |
 | index | Int32 | Индекс нового слайда. |
 | layoutType | SlideLayoutType | Тип макета для нового макета. Поддерживаемые типы макетов: Title, TitleOnly, Blank, TitleAndObject, VerticalText, VerticalTitleAndText, TwoObjects, SectionHeader, TwoTextAndTwoObjects, TitleObjectAndCaption, PictureAndCaption, Custom. Другие типы макетов в настоящее время не поддерживаются: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
-| layoutName | String | Имя нового макета. Если переданное имя уже используется, будет выброшено исключение ArgumentException. Если передан параметр null, то имя будет сгенерировано автоматически в зависимости от переданного типа макета (например, "Title Slide" или "1_Title Slide", "2_..", и т.д.). |
+| layoutName | String | Имя для нового макета. Если переданное имя уже используется, будет выброшено исключение ArgumentException. Если передан параметр null, то имя будет сгенерировано автоматически в зависимости от переданного типа макета (например, "Title Slide" или "1_Title Slide", "2_..", и т.д.). |
 
 ### Возвращаемое значение
 
@@ -29,12 +29,12 @@ public ILayoutSlide Insert(int index, SlideLayoutType layoutType, string layoutN
 
 | исключение | условие |
 | --- | --- |
-| NotImplementedException | Выбрасывается, если передано неподдерживаемое значение параметра *layoutType*. Неподдерживаемые типы макетов: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
+| NotImplementedException | Выбрасывается, если передано неподдерживаемое значение параметра *layoutType*. Типы макетов, которые в настоящее время не поддерживаются: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
 | ArgumentException | Выбрасывается, если значение имени макета *layoutName* уже используется в этой коллекции макетов. |
 
-### Примечания
+### Замечания
 
-Вставленный макет для значения SlideLayoutType.Custom типа *layoutType* не содержит ни заполнителей, ни фигур.
+Вставленный макет для значения SlideLayoutType.Custom параметра *layoutType* не содержит заполнителей и фигур.
 
 ### См. также
 

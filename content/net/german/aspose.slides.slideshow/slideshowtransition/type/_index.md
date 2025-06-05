@@ -1,7 +1,7 @@
 ---
-title: Typ
+title: Type
 second_title: Aspose.Slides für .NET API-Referenz
-description: Typ der Transition. Lesen/Schreiben von TransitionTypeaspose.slides.slideshow/transitiontype.
+description: Art der Transition. Lese-/schreibbare TransitionTypeaspose.slides.slideshow/transitiontype.
 type: docs
 weight: 100
 url: /de/aspose.slides.slideshow/slideshowtransition/type/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.slideshow/slideshowtransition/type/
 
 ## SlideShowTransition.Type-Eigenschaft
 
-Typ der Transition. Lesen/Schreiben von [`TransitionType`](../../transitiontype).
+Art der Transition. Lese-/schreibbar [`TransitionType`](../../transitiontype).
 
 ```csharp
 public TransitionType Type { get; set; }

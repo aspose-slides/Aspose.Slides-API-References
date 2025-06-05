@@ -6,6 +6,7 @@ type: docs
 weight: 170
 url: /aspose.slides.effects/imagetransformoperationcollection/addfilloverlayeffect/
 ---
+
 ## ImageTransformOperationCollection.AddFillOverlayEffect method
 
 Adds the new Fill Overlay effect to the end of a collection.

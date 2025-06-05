@@ -6,6 +6,7 @@ type: docs
 weight: 200
 url: /aspose.slides.effects/iimagetransformoperationcollection/removeat/
 ---
+
 ## IImageTransformOperationCollection.RemoveAt method
 
 Removes an image effect from a collection at the specified index.

@@ -1,6 +1,6 @@
 ---
 title: IRow
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API справочник
 description: Представляет строку в таблице.
 type: docs
 weight: 6650
@@ -22,10 +22,10 @@ public interface IRow : IBulkTextFormattable, ICellCollection
 | [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | Позволяет получить базовый интерфейс IBulkTextFormattable. Только для чтения [`IBulkTextFormattable`](../ibulktextformattable). |
 | [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | Позволяет получить базовый интерфейс ICellCollection. Только для чтения [`ICellCollection`](../icellcollection). |
 | [Height](../../aspose.slides/irow/height) { get; } | Возвращает высоту строки. Только для чтения Double. |
-| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | Возвращает или устанавливает минимально возможную высоту строки. Чтение/запись Double. |
+| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | Возвращает или устанавливает минимально возможную высоту строки. Читается/записывается Double. |
 | [RowFormat](../../aspose.slides/irow/rowformat) { get; } | Возвращает объект RowFormat, который содержит свойства форматирования для этой строки. Только для чтения [`IRowFormat`](../irowformat). |
 
-### См. Также
+### Смотрите также
 
 * интерфейс [IBulkTextFormattable](../ibulktextformattable)
 * интерфейс [ICellCollection](../icellcollection)

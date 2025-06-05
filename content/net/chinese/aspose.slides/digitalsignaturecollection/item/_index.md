@@ -1,5 +1,5 @@
 ---
-title: 项
+title: Item
 second_title: Aspose.Slides for .NET API 参考
 description: 根据索引返回签名。
 type: docs
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/digitalsignaturecollection/item/
 public IDigitalSignature this[int index] { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IDigitalSignature](../../idigitalsignature)
 * 类 [DigitalSignatureCollection](../../digitalsignaturecollection)

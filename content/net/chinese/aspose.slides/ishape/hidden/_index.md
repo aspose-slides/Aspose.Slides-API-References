@@ -1,7 +1,7 @@
 ---
-title: 隐藏
+title: Hidden
 second_title: Aspose.Slides for .NET API 参考
-description: 确定形状是否隐藏。可读写布尔值。
+description: 确定形状是否是隐藏的。可读写布尔值。
 type: docs
 weight: 120
 url: /zh/aspose.slides/ishape/hidden/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ishape/hidden/
 
 ## IShape.Hidden 属性
 
-确定形状是否隐藏。可读写布尔值。
+确定形状是否是隐藏的。可读写布尔值。
 
 ```csharp
 public bool Hidden { get; set; }
 ```
 
-### 另请参阅
+### 相关链接
 
 * 接口 [IShape](../../ishape)
 * 命名空间 [Aspose.Slides](../../ishape)

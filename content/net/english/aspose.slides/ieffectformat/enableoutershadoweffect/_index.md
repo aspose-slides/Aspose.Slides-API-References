@@ -6,6 +6,7 @@ type: docs
 weight: 220
 url: /aspose.slides/ieffectformat/enableoutershadoweffect/
 ---
+
 ## IEffectFormat.EnableOuterShadowEffect method
 
 Enables outer shadow effect.

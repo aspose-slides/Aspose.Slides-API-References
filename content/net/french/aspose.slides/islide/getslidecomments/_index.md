@@ -1,13 +1,13 @@
 ---
-title: ObtenirCommentairesDiapositive
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: GetSlideComments
+second_title: Aspose.Sildes pour la référence de l'API .NET
 description: Renvoie tous les commentaires de diapositive ajoutés par un auteur spécifique.
 type: docs
 weight: 90
 url: /fr/aspose.slides/islide/getslidecomments/
 ---
 
-## Méthode ISlide.GetSlideComments
+## ISlide.GetSlideComments méthode
 
 Renvoie tous les commentaires de diapositive ajoutés par un auteur spécifique.
 

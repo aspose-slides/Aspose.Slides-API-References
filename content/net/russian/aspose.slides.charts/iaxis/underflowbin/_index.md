@@ -1,21 +1,21 @@
 ---
 title: UnderflowBin
-second_title: Aspose.Sildes для .NET API Справочник
-description: Указывает на пользовательское значение бина переполнения. Применяется, когда свойство IsAutomaticUnderflowBin установлено в false, а свойство IsUnderflowBin равно true.
+second_title: Aspose.Sildes для .NET API Reference
+description: Указывает пользовательское значение подстановочного бина. Применяется, когда свойство IsAutomaticUnderflowBin установлено в false, а свойство IsUnderflowBin равно true.
 type: docs
 weight: 550
 url: /ru/aspose.slides.charts/iaxis/underflowbin/
 ---
 
-## Свойство IAxis.UnderflowBin
+## IAxis.UnderflowBin свойство
 
-Указывает на пользовательское значение бина переполнения. Применяется, когда свойство IsAutomaticUnderflowBin установлено в false, а свойство IsUnderflowBin равно true.
+Указывает пользовательское значение подстановочного бина. Применяется, когда свойство IsAutomaticUnderflowBin установлено в false, а свойство IsUnderflowBin равно true.
 
 ```csharp
 public double UnderflowBin { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IAxis](../../iaxis)
 * пространство имен [Aspose.Slides.Charts](../../iaxis)

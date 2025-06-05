@@ -1,13 +1,13 @@
 ---
-title: 文本动画
-second_title: Aspose.Slides for .NET API 参考
+title: TextAnimation
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示文本动画。
 type: docs
 weight: 740
 url: /zh/aspose.slides.animation/textanimation/
 ---
 
-## TextAnimation 类
+## TextAnimation class
 
 表示文本动画。
 
@@ -25,16 +25,16 @@ public class TextAnimation : ITextAnimation
 
 | 名称 | 描述 |
 | --- | --- |
-| [BuildType](../../aspose.slides.animation/textanimation/buildtype) { get; set; } | 文本动画的构建类型列表（例如：段落 1,2,3，全部同时）。可读写 [`BuildType`](../buildtype)。 |
-| [EffectAnimateBackgroundShape](../../aspose.slides.animation/textanimation/effectanimatebackgroundshape) { get; set; } | 关联形状效果（是否与组关联或为 null）。可读写 [`IEffect`](../ieffect)。 |
+| [BuildType](../../aspose.slides.animation/textanimation/buildtype) { get; set; } | 文本动画的构建类型列表（例如，第 1 段，第 2 段，第 3 段，全部同时）。读写 [`BuildType`](../buildtype)。 |
+| [EffectAnimateBackgroundShape](../../aspose.slides.animation/textanimation/effectanimatebackgroundshape) { get; set; } | 与组相关联的形状效果（或不相关联，null）。读写 [`IEffect`](../ieffect)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/textanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | 将新效果添加到当前序列的末尾，添加到组文本动画的末尾。仅在文本段落数量等于或大于此组的效果计数时有效！ |
+| [AddEffect](../../aspose.slides.animation/textanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | 将新效果添加到当前序列的末尾，或添加到组文本动画的末尾。仅在文本段落的数量大于或等于该组效果的数量时有效！ |
 
-### 另见
+### 另请参见
 
 * 接口 [ITextAnimation](../itextanimation)
 * 命名空间 [Aspose.Slides.Animation](../../aspose.slides.animation)

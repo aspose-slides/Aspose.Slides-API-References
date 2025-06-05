@@ -1,6 +1,6 @@
 ---
 title: CreateThemeEffective
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Slidеs for .NET API Reference
 description: 返回主题对象。
 type: docs
 weight: 40

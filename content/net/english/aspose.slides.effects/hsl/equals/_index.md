@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.effects/hsl/equals/
 ---
+
 ## HSL.Equals method
 
 Determines whether the specified [`HSL`](../../hsl) is equal to the current [`HSL`](../../hsl).

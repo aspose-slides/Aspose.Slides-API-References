@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Sirve como una función hash para un tipo particular adecuado para su uso en algoritmos de hashing y estructuras de datos como una tabla hash.
+second_title: Referencia de la API Aspose.Slides para .NET
+description: Sirve como una función hash para un tipo particular adecuado para su uso en algoritmos de hash y estructuras de datos como una tabla hash.
 type: docs
 weight: 220
 url: /es/aspose.slides/hyperlink/gethashcode/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/hyperlink/gethashcode/
 
 ## Método Hyperlink.GetHashCode
 
-Sirve como una función hash para un tipo particular, adecuado para su uso en algoritmos de hashing y estructuras de datos como una tabla hash.
+Sirve como una función hash para un tipo particular, adecuado para su uso en algoritmos de hash y estructuras de datos como una tabla hash.
 
 ```csharp
 public override int GetHashCode()
@@ -23,6 +23,6 @@ Código hash para una URL.
 
 * clase [Hyperlink](../../hyperlink)
 * espacio de nombres [Aspose.Slides](../../hyperlink)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

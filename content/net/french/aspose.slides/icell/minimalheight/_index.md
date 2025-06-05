@@ -1,15 +1,15 @@
 ---
 title: MinimalHeight
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie la hauteur minimale d'une cellule. Il s'agit d'une somme des hauteurs minimales de toutes les lignes couvertes par la cellule. En lecture seule Double.
+description: Renvoie la hauteur minimale d'une cellule. C'est une somme des hauteurs minimales de toutes les rangées couvertes par la cellule. Lecture seule Double.
 type: docs
 weight: 150
 url: /fr/aspose.slides/icell/minimalheight/
 ---
 
-## Propriété ICell.MinimalHeight
+## ICell.MinimalHeight propriété
 
-Renvoie la hauteur minimale d'une cellule. Il s'agit d'une somme des hauteurs minimales de toutes les lignes couvertes par la cellule. En lecture seule Double.
+Renvoie la hauteur minimale d'une cellule. C'est une somme des hauteurs minimales de toutes les rangées couvertes par la cellule. Lecture seule Double.
 
 ```csharp
 public double MinimalHeight { get; }

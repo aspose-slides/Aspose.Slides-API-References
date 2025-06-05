@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides.effects/imagetransformoperationfactory/createhsl/
 ---
+
 ## ImageTransformOperationFactory.CreateHSL method
 
 Creates Hue Saturation Luminance effect.

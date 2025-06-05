@@ -1,7 +1,7 @@
 ---
 title: AsIHyperlinkContainer
-second_title: Aspose.Slides for .NET API Reference
-description: 允许获取基本的 IHyperlinkContainer 接口。只读 IHyperlinkContainer aspose.slides/ihyperlinkcontainer。
+second_title: Aspose.Sildes for .NET API Reference
+description: 允许获取基础 IHyperlinkContainer 接口。只读 IHyperlinkContaineraspose.slides/ihyperlinkcontainer。
 type: docs
 weight: 20
 url: /zh/aspose.slides/iportionformat/asihyperlinkcontainer/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iportionformat/asihyperlinkcontainer/
 
 ## IPortionFormat.AsIHyperlinkContainer 属性
 
-允许获取基本的 IHyperlinkContainer 接口。只读 [`IHyperlinkContainer`](../../ihyperlinkcontainer)。
+允许获取基础 IHyperlinkContainer 接口。只读 [`IHyperlinkContainer`](../../ihyperlinkcontainer)。
 
 ```csharp
 public IHyperlinkContainer AsIHyperlinkContainer { get; }

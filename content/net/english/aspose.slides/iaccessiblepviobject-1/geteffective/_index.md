@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/iaccessiblepviobject-1/geteffective/
 ---
+
 ## IAccessiblePVIObject&lt;T&gt;.GetEffective method
 
 Gets effective data with the inheritance applied.

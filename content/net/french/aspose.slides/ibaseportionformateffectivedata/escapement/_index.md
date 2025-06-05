@@ -1,7 +1,7 @@
 ---
 title: Escapement
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie le texte en exposant ou en indice. Valeur de -100 indice à 100 exposant. En lecture seule Single.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie le texte en exposant ou en indice. Valeur de -100 en indice à 100 en exposant. Lecture seule Single.
 type: docs
 weight: 50
 url: /fr/aspose.slides/ibaseportionformateffectivedata/escapement/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ibaseportionformateffectivedata/escapement/
 
 ## Propriété IBasePortionFormatEffectiveData.Escapement
 
-Renvoie le texte en exposant ou en indice. Valeur de -100 % (indice) à 100 % (exposant). En lecture seule Single.
+Renvoie le texte en exposant ou en indice. Valeur de -100% (indice) à 100% (exposant). Lecture seule Single.
 
 ```csharp
 public float Escapement { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
 * namespace [Aspose.Slides](../../ibaseportionformateffectivedata)

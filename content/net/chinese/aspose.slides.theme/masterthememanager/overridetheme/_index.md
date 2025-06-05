@@ -1,7 +1,7 @@
 ---
-title: 覆盖主题
-second_title: Aspose.Slides for .NET API 参考
-description: 返回覆盖的主题对象。读/写 IMasterThemeaspose.slides.theme/imastertheme。
+title: OverrideTheme
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回覆盖主题对象。可读/写 IMasterThemeaspose.slides.theme/imastertheme。
 type: docs
 weight: 20
 url: /zh/aspose.slides.theme/masterthememanager/overridetheme/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.theme/masterthememanager/overridetheme/
 
 ## MasterThemeManager.OverrideTheme 属性
 
-返回覆盖的主题对象。读/写 [`IMasterTheme`](../../imastertheme)。
+返回覆盖主题对象。可读/写 [`IMasterTheme`](../../imastertheme)。
 
 ```csharp
 public IMasterTheme OverrideTheme { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IMasterTheme](../../imastertheme)
 * 类 [MasterThemeManager](../../masterthememanager)

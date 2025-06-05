@@ -15,10 +15,10 @@ Determina si seleccionar esta forma está prohibido. Booleano de lectura/escritu
 public bool SelectLocked { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [ConnectorLock](../../connectorlock)
 * espacio de nombres [Aspose.Slides](../../connectorlock)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

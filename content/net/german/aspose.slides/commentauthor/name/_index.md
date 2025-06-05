@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Namen des Autors zurück oder legt ihn fest. Lese-/Schreib-String.
+description: Gibt den Namen des Autors zurück oder setzt ihn. Lese-/Schreibzeichenfolge.
 type: docs
 weight: 30
 url: /de/aspose.slides/commentauthor/name/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/commentauthor/name/
 
 ## CommentAuthor.Name-Eigenschaft
 
-Gibt den Namen des Autors zurück oder legt ihn fest. Lese-/Schreib-String.
+Gibt den Namen des Autors zurück oder setzt ihn. Lese-/Schreibzeichenfolge.
 
 ```csharp
 public string Name { get; set; }

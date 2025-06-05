@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/axesmanager/verticalaxis/
 ---
+
 ## AxesManager.VerticalAxis property
 
 Gets the chart's vertical axis. Read-only [`IAxis`](../../iaxis).

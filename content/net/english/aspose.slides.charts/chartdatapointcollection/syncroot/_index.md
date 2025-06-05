@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.charts/chartdatapointcollection/syncroot/
 ---
+
 ## ChartDataPointCollection.SyncRoot property
 
 Returns a synchronization root. Read-only Object.

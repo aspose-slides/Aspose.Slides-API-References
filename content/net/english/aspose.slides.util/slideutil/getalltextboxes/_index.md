@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.util/slideutil/getalltextboxes/
 ---
+
 ## SlideUtil.GetAllTextBoxes method
 
 Returns all text frames on a slide in a PPTX presentation.

@@ -1,7 +1,7 @@
 ---
-title: Оттенок
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает или задает компонент оттенка цвета в представлении HSL. Все преобразования цвета игнорируются. Чтение/запись Single.
+title: Hue
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или устанавливает компонент оттенка цвета в представлении HSL. Все преобразования цвета игнорируются. Чтение/запись Single.
 type: docs
 weight: 100
 url: /ru/aspose.slides/icolorformat/hue/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/icolorformat/hue/
 
 ## IColorFormat.Hue свойство
 
-Возвращает или задает компонент оттенка цвета в представлении HSL. Все преобразования цвета игнорируются. Чтение/запись Single.
+Возвращает или устанавливает компонент оттенка цвета в представлении HSL. Все преобразования цвета игнорируются. Чтение/запись Single.
 
 ```csharp
 public float Hue { get; set; }
 ```
 
-### См. также
+### Также см.
 
 * интерфейс [IColorFormat](../../icolorformat)
 * пространство имен [Aspose.Slides](../../icolorformat)

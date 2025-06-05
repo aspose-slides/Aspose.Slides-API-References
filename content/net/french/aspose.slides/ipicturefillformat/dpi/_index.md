@@ -1,6 +1,6 @@
 ---
 title: Dpi
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit le dpi qui est utilisé pour remplir une image. Lecture/écriture Int32.
 type: docs
 weight: 60

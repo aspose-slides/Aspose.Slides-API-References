@@ -1,7 +1,7 @@
 ---
 title: Position
 second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie la position 0..1 d'un arrêt de dégradé. Lecture seule Unique.
+description: Renvoie la position 0..1 d'un point d'arrêt de dégradé. Lecture seule Single.
 type: docs
 weight: 20
 url: /fr/aspose.slides/igradientstopeffectivedata/position/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/igradientstopeffectivedata/position/
 
 ## Propriété IGradientStopEffectiveData.Position
 
-Renvoie la position (0..1) d'un arrêt de dégradé. Lecture seule Unique.
+Renvoie la position (0..1) d'un point d'arrêt de dégradé. Lecture seule Single.
 
 ```csharp
 public float Position { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IGradientStopEffectiveData](../../igradientstopeffectivedata)
 * namespace [Aspose.Slides](../../igradientstopeffectivedata)

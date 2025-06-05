@@ -1,5 +1,5 @@
 ---
-title: MarcoDeTexto
+title: TextFrame
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el marco de texto de una celda. Solo lectura ITextFrameaspose.slides/itextframe.
 type: docs
@@ -20,6 +20,6 @@ public ITextFrame TextFrame { get; }
 * interfaz [ITextFrame](../../itextframe)
 * interfaz [ICell](../../icell)
 * espacio de nombres [Aspose.Slides](../../icell)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.animation/imotionpath/insert/
 ---
+
 ## IMotionPath.Insert method
 
 Insert new command to path

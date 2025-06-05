@@ -1,7 +1,7 @@
 ---
-title: Lisse
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente l'adoucissement des courbes. Vrai si l'adoucissement des courbes est activé pour le graphique linéaire ou le graphique de dispersion. S'applique uniquement aux graphiques linéaires et de dispersion reliés par des lignes. Écriture/lecture Boolean.
+title: Smooth
+second_title: Aspose.Slides pour .NET Référence API
+description: Représente le lissage des courbes. Vrai si le lissage des courbes est activé pour le graphique en ligne ou le graphique de dispersion. S'applique uniquement aux graphiques en ligne et en dispersion connectés par des lignes. Lecture/écriture Booléen.
 type: docs
 weight: 420
 url: /fr/aspose.slides.charts/ichartseries/smooth/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/ichartseries/smooth/
 
 ## Propriété IChartSeries.Smooth
 
-Représente l'adoucissement des courbes. Vrai si l'adoucissement des courbes est activé pour le graphique linéaire ou le graphique de dispersion. S'applique uniquement aux graphiques linéaires et de dispersion reliés par des lignes. Écriture/lecture Boolean.
+Représente le lissage des courbes. Vrai si le lissage des courbes est activé pour le graphique en ligne ou le graphique de dispersion. S'applique uniquement aux graphiques en ligne et en dispersion connectés par des lignes. Lecture/écriture Booléen.
 
 ```csharp
 public bool Smooth { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IChartSeries](../../ichartseries)
 * namespace [Aspose.Slides.Charts](../../ichartseries)

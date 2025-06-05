@@ -1,5 +1,5 @@
 ---
-title: Separador
+title: Separator
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Establece o devuelve un Variant que representa el separador utilizado para las etiquetas de datos en un gráfico. Cadena de lectura/escritura.
 type: docs
@@ -15,11 +15,11 @@ Establece o devuelve un Variant que representa el separador utilizado para las e
 public string Separator { get; set; }
 ```
 
-### Notas
+### Observaciones
 
-Si el padre de este objeto DataLabelFormat es una colección DataLabelCollection de etiquetas de datos, entonces esta propiedad obtiene o establece el valor predeterminado de la propiedad Separator para las nuevas etiquetas de datos en la colección DataLabelCollection. Establecer esta propiedad con un valor también establece este valor en la propiedad Separator para todas las etiquetas de datos en la colección DataLabelCollection (es decir, "DataLabels.DefaultDataLabelFormat.Separator = val;" causa que todas las DataLabels[i].Separator sean igual a val).
+Si el padre de este objeto DataLabelFormat es una colección DataLabelCollection de etiquetas de datos, entonces esta propiedad obtiene o establece el valor predeterminado de la propiedad Separator para las nuevas etiquetas de datos en la colección DataLabelCollection. Establecer esta propiedad con un valor también establece este valor en la propiedad Separator para todas las etiquetas de datos en la colección DataLabelCollection (es decir, "DataLabels.DefaultDataLabelFormat.Separator = val;" causa que todas las DataLabels[i].Separator sean iguales a val).
 
-### Vea también
+### Véase también
 
 * clase [DataLabelFormat](../../datalabelformat)
 * espacio de nombres [Aspose.Slides.Charts](../../datalabelformat)

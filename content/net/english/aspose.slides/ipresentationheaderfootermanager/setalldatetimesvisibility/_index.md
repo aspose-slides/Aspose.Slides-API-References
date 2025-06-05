@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ipresentationheaderfootermanager/setalldatetimesvisibility/
 ---
+
 ## IPresentationHeaderFooterManager.SetAllDateTimesVisibility method
 
 Changes all date-time placeholders visibility, including master slides, layout slides and slides.

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/irow/asibulktextformattable/
 ---
+
 ## IRow.AsIBulkTextFormattable property
 
 Allows to get base IBulkTextFormattable interface. Read-only [`IBulkTextFormattable`](../../ibulktextformattable).

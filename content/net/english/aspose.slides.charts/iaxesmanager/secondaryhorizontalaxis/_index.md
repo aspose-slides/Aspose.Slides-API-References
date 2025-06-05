@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/iaxesmanager/secondaryhorizontalaxis/
 ---
+
 ## IAxesManager.SecondaryHorizontalAxis property
 
 Gets the chart's secondary horizontal axis. Read-only [`IAxis`](../../iaxis).

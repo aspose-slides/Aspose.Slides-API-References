@@ -7,7 +7,7 @@ weight: 10
 url: /es/aspose.slides.animation/coloreffect/coloreffect/
 ---
 
-## Constructor de ColorEffect
+## Constructor ColorEffect
 
 Crea una nueva instancia.
 

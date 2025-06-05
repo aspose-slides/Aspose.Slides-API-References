@@ -1,7 +1,7 @@
 ---
 title: X
-second_title: Aspose.Sildes for .NET API Reference
-description: 指定图表元素的 x 位置（左侧），作为图表宽度的一个分数。可读写单浮点数。
+second_title: Aspose.Slides for .NET API 参考
+description: 指定图表元素左侧的 x 位置，作为图表宽度的一个比例。可读/写单精度浮点数。
 type: docs
 weight: 60
 url: /zh/aspose.slides.charts/ilayoutable/x/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ilayoutable/x/
 
 ## ILayoutable.X 属性
 
-指定图表元素的 x 位置（左侧），作为图表宽度的一个分数。可读写单浮点数。
+指定图表元素的 x 位置（左侧），作为图表宽度的一个比例。可读/写单精度浮点数。
 
 ```csharp
 public float X { get; set; }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [ILayoutable](../../ilayoutable)
 * 命名空间 [Aspose.Slides.Charts](../../ilayoutable)

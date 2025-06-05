@@ -1,7 +1,7 @@
 ---
 title: SetFooterAndChildFootersVisibility
-second_title: Aspose.Slides für .NET API Referenz
-description: Ändert die Sichtbarkeit des Platzhalters für die Fußzeile der Master-Notizenfolie und aller untergeordneten Fußzeilenplatzhalter. Untergeordnete Platzhalter bedeuten Platzhalter, die sich auf abhängigen Notizenfolien befinden. Abhängige Notizenfolien verwenden und hängen von der Master-Notizenfolie ab.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ändert die Sichtbarkeit des Fußzeilenplatzhalters der Master-Notizenfolie und aller untergeordneten Fußzeilenplatzhalter. Untergeordnete Platzhalter bedeuten Platzhalter, die sich auf abhängigen Notizenfolien befinden. Abhängige Notizenfolien verwenden und hängen von der Master-Notizenfolie ab.
 type: docs
 weight: 50
 url: /de/aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfoo
 
 ## IMasterNotesSlideHeaderFooterManager.SetFooterAndChildFootersVisibility-Methode
 
-Ändert die Sichtbarkeit des Platzhalters für die Fußzeile der Master-Notizenfolie und aller untergeordneten Fußzeilenplatzhalter. Untergeordnete Platzhalter bedeuten Platzhalter, die sich auf abhängigen Notizenfolien befinden. Abhängige Notizenfolien verwenden und hängen von der Master-Notizenfolie ab.
+Ändert die Sichtbarkeit des Fußzeilenplatzhalters der Master-Notizenfolie und aller untergeordneten Fußzeilenplatzhalter. Untergeordnete Platzhalter bedeuten Platzhalter, die sich auf abhängigen Notizenfolien befinden. Abhängige Notizenfolien verwenden und hängen von der Master-Notizenfolie ab.
 
 ```csharp
 public void SetFooterAndChildFootersVisibility(bool isVisible)
@@ -17,9 +17,9 @@ public void SetFooterAndChildFootersVisibility(bool isVisible)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| isVisible | Boolean | true - macht einen Fußzeilenplatzhalter sichtbar, andernfalls - blendet ihn aus. |
+| isVisible | Boolean | true - macht einen Fußzeilenplatzhalter sichtbar, andernfalls - verbirgt ihn. |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IMasterNotesSlideHeaderFooterManager](../../imasternotesslideheaderfootermanager)
 * Namespace [Aspose.Slides](../../imasternotesslideheaderfootermanager)

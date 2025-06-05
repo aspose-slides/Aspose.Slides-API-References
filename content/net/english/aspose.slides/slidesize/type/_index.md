@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/slidesize/type/
 ---
+
 ## SlideSize.Type property
 
 Returns or sets the type of slide size. Assigning any value except Custom will change [`Size`](../size) accordingly, but will keep [`Orientation`](../orientation) intact. Read/write [`SlideSizeType`](../../slidesizetype).

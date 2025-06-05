@@ -7,7 +7,7 @@ weight: 40
 url: /ru/aspose.slides.theme/masterthememanager/createthemeeffective/
 ---
 
-## Метод MasterThemeManager.CreateThemeEffective
+## MasterThemeManager.CreateThemeEffective метод
 
 Возвращает объект темы.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.theme/masterthememanager/createthemeeffective/
 public IThemeEffectiveData CreateThemeEffective()
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IThemeEffectiveData](../../ithemeeffectivedata)
 * класс [MasterThemeManager](../../masterthememanager)

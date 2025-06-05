@@ -1,13 +1,13 @@
 ---
 title: ShowHiddenSlides
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Especifica si el documento generado debe incluir diapositivas ocultas o no. El valor predeterminado es falso.
 type: docs
 weight: 100
 url: /es/aspose.slides.export/markdownsaveoptions/showhiddenslides/
 ---
 
-## Propiedad MarkdownSaveOptions.ShowHiddenSlides
+## MarkdownSaveOptions.ShowHiddenSlides property
 
 Especifica si el documento generado debe incluir diapositivas ocultas o no. El valor predeterminado es `false`.
 
@@ -17,8 +17,8 @@ public bool ShowHiddenSlides { get; set; }
 
 ### Ver También
 
-* clase [MarkdownSaveOptions](../../markdownsaveoptions)
-* espacio de nombres [Aspose.Slides.Export](../../markdownsaveoptions)
-* ensamblaje [Aspose.Slides](../../../)
+* class [MarkdownSaveOptions](../../markdownsaveoptions)
+* namespace [Aspose.Slides.Export](../../markdownsaveoptions)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

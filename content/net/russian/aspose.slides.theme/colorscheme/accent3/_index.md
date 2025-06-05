@@ -7,7 +7,7 @@ weight: 30
 url: /ru/aspose.slides.theme/colorscheme/accent3/
 ---
 
-## Свойство ColorScheme.Accent3
+## ColorScheme.Accent3 property
 
 Третий акцентный цвет в схеме. Только для чтения [`IColorFormat`](../../../aspose.slides/icolorformat).
 

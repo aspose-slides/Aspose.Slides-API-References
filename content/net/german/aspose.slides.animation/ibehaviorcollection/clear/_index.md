@@ -1,5 +1,5 @@
 ---
-title: Leeren
+title: Clear
 second_title: Aspose.Slides für .NET API Referenz
 description: Entfernt alle Verhaltensweisen aus einer Sammlung.
 type: docs
@@ -7,7 +7,7 @@ weight: 50
 url: /de/aspose.slides.animation/ibehaviorcollection/clear/
 ---
 
-## IBehaviorCollection.Clear-Methode
+## IBehaviorCollection.Clear Methode
 
 Entfernt alle Verhaltensweisen aus einer Sammlung.
 

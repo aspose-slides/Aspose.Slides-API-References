@@ -30,7 +30,7 @@ using (Presentation presentation = new Presentation("animated.pptx"))
 }
 ```
 
-### 另请参见
+### 另请参阅
 
 * class [PresentationAnimationsGenerator](../../presentationanimationsgenerator)
 * namespace [Aspose.Slides.Export](../../presentationanimationsgenerator)

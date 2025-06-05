@@ -1,7 +1,7 @@
 ---
 title: RelativeScaleHeight
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Höhe im Verhältnis zur ursprünglichen Bildgröße des Bilderrahmens zurück oder setzt diese. Der Wert 1.0 entspricht 100. Lese-/Schreibzugriff auf Single.
+description: Gibt den Maßstab der Höhe relativ zur ursprünglichen Bildgröße des Bilderrahmens zurück oder setzt ihn. Wert 1.0 entspricht 100. Lese-/Schreibzugriff Single.
 type: docs
 weight: 40
 url: /de/aspose.slides/pictureframe/relativescaleheight/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/pictureframe/relativescaleheight/
 
 ## PictureFrame.RelativeScaleHeight-Eigenschaft
 
-Gibt die Höhe im Verhältnis zur ursprünglichen Bildgröße des Bilderrahmens zurück oder setzt diese. Der Wert 1.0 entspricht 100 %. Lese-/Schreibzugriff auf Single.
+Gibt den Maßstab der Höhe (relativ zur ursprünglichen Bildgröße) des Bilderrahmens zurück oder setzt ihn. Wert 1.0 entspricht 100%. Lese-/Schreibzugriff Single.
 
 ```csharp
 public float RelativeScaleHeight { get; set; }

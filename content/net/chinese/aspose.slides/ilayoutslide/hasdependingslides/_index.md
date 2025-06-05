@@ -1,7 +1,7 @@
 ---
 title: HasDependingSlides
 second_title: Aspose.Slides for .NET API Reference
-description: 如果存在至少一个依赖于此布局幻灯片的幻灯片，则返回 true。只读布尔值。
+description: 如果至少存在一张依赖于此布局幻灯片的幻灯片，则返回true。只读布尔值。
 type: docs
 weight: 30
 url: /zh/aspose.slides/ilayoutslide/hasdependingslides/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ilayoutslide/hasdependingslides/
 
 ## ILayoutSlide.HasDependingSlides 属性
 
-如果存在至少一个依赖于此布局幻灯片的幻灯片，则返回 true。只读布尔值。
+如果至少存在一张依赖于此布局幻灯片的幻灯片，则返回true。只读布尔值。
 
 ```csharp
 public bool HasDependingSlides { get; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [ILayoutSlide](../../ilayoutslide)
 * 命名空间 [Aspose.Slides](../../ilayoutslide)

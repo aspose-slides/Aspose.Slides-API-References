@@ -1,7 +1,7 @@
 ---
 title: TextFrameForOverriding
-second_title: Aspose.Sildes for .NET API 参考
-description: 可以包含丰富格式化的文本。如果此属性不为 null，则此格式化的文本值将覆盖自动生成的数据标签文本。自动生成的数据标签文本是指由 ShowSeriesName、ShowValue 等属性管理的文本，并使用 TextFormatManager.TextFormat 属性进行格式化。只读 ITextFrameaspose.slides/../aspose.slides/itextframe。
+second_title: Aspose.Sildes for .NET API Reference
+description: 可以包含富格式文本。如果该属性不为 null，则此格式化文本值将覆盖数据标签的自动生成文本。数据标签的自动生成文本是指由 ShowSeriesName、ShowValue 等属性管理并通过 TextFormatManager.TextFormat 属性格式化的文本。此属性为只读 ITextFrameaspose.slides/../aspose.slides/itextframe。
 type: docs
 weight: 130
 url: /zh/aspose.slides.charts/datalabel/textframeforoverriding/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/datalabel/textframeforoverriding/
 
 ## DataLabel.TextFrameForOverriding 属性
 
-可以包含丰富格式化的文本。如果此属性不为 null，则此格式化的文本值将覆盖自动生成的数据标签文本。自动生成的数据标签文本是指由 ShowSeriesName、ShowValue 等属性管理的文本，并使用 TextFormatManager.TextFormat 属性进行格式化。只读 [`ITextFrame`](../../../aspose.slides/itextframe)。
+可以包含富格式文本。如果该属性不为 null，则此格式化文本值将覆盖数据标签的自动生成文本。数据标签的自动生成文本是指由 ShowSeriesName、ShowValue 等属性管理并通过 TextFormatManager.TextFormat 属性格式化的文本。此属性为只读 [`ITextFrame`](../../../aspose.slides/itextframe)。
 
 ```csharp
 public ITextFrame TextFrameForOverriding { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [ITextFrame](../../../aspose.slides/itextframe)
 * 类 [DataLabel](../../datalabel)

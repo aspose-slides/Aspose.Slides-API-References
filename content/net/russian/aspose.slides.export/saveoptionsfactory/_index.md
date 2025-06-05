@@ -1,13 +1,13 @@
 ---
 title: SaveOptionsFactory
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Позволяет создавать экземпляры параметров сохранения
 type: docs
 weight: 4270
 url: /ru/aspose.slides.export/saveoptionsfactory/
 ---
 
-## Класс SaveOptionsFactory
+## SaveOptionsFactory class
 
 Позволяет создавать экземпляры параметров сохранения
 
@@ -15,19 +15,19 @@ url: /ru/aspose.slides.export/saveoptionsfactory/
 public class SaveOptionsFactory : ISaveOptionsFactory
 ```
 
-## Конструкторы
+## Конструкции
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [SaveOptionsFactory](saveoptionsfactory)() | Конструктор по умолчанию. |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [CreatePptxOptions](../../aspose.slides.export/saveoptionsfactory/createpptxoptions)() | Создает параметры сохранения PPTX. |
 
-### Замечания
+### Примечания
 
 Для совместимости с COM.
 

@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/ipicturefillformat/picturefillmode/
 ---
+
 ## IPictureFillFormat.PictureFillMode property
 
 Returns or sets the picture fill mode. Read/write [`PictureFillMode`](../../picturefillmode).

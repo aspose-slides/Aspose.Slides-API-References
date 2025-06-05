@@ -1,7 +1,7 @@
 ---
-title: Формат
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Представляет формат оси. Только для чтения IAxisFormataspose.slides.charts/iaxisformat.
+title: Format
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет формат оси. Доступ только для чтения IAxisFormataspose.slides.charts/iaxisformat.
 type: docs
 weight: 160
 url: /ru/aspose.slides.charts/axis/format/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.charts/axis/format/
 
 ## Свойство Axis.Format
 
-Представляет формат оси. Только для чтения [`IAxisFormat`](../../iaxisformat).
+Представляет формат оси. Доступ только для чтения [`IAxisFormat`](../../iaxisformat).
 
 ```csharp
 public IAxisFormat Format { get; }
 ```
 
-### Также см.
+### См. также
 
 * интерфейс [IAxisFormat](../../iaxisformat)
 * класс [Axis](../../axis)

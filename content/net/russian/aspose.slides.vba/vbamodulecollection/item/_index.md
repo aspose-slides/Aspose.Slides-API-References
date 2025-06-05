@@ -1,6 +1,6 @@
 ---
-title: Элемент
-second_title: Справка по API Aspose.Slides для .NET
+title: Item
+second_title: Aspose.Sldes для .NET API Справочник
 description: Получает элемент по указанному индексу.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.vba/vbamodulecollection/item/
 public IVbaModule this[int index] { get; }
 ```
 
-### См. также
+### Смотрите Также
 
 * интерфейс [IVbaModule](../../ivbamodule)
 * класс [VbaModuleCollection](../../vbamodulecollection)

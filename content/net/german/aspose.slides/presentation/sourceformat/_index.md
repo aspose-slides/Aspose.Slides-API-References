@@ -15,7 +15,7 @@ Gibt Informationen darüber zurück, aus welchem Format die Präsentation gelade
 public SourceFormat SourceFormat { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [SourceFormat](../../sourceformat)
 * class [Presentation](../../presentation)

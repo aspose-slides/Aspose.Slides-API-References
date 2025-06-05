@@ -1,24 +1,24 @@
----
+---  
 title: IsSynchronized
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve un valor que indica si el acceso a la colección es seguro para hilos. Solo lectura Boolean.
-type: docs
-weight: 20
+second_title: Referencia de API de Aspose.Slides para .NET  
+description: Devuelve un valor que indica si el acceso a la colección está sincronizado de manera segura para los hilos. Solo lectura Boolean.
+type: docs  
+weight: 20  
 url: /es/aspose.slides/commentcollection/issynchronized/
----
+---  
 
-## Propiedad CommentCollection.IsSynchronized
+## Propiedad CommentCollection.IsSynchronized  
 
-Devuelve un valor que indica si el acceso a la colección está sincronizado (seguro para hilos). Solo lectura Boolean.
+Devuelve un valor que indica si el acceso a la colección está sincronizado (seguro para hilos). Solo lectura Boolean.  
 
-```csharp
-public bool IsSynchronized { get; }
-```
+```csharp  
+public bool IsSynchronized { get; }  
+```  
 
-### Véase también
+### Véase también  
 
-* clase [CommentCollection](../../commentcollection)
-* espacio de nombres [Aspose.Slides](../../commentcollection)
-* ensamblado [Aspose.Slides](../../../)
+* clase [CommentCollection](../../commentcollection)  
+* espacio de nombres [Aspose.Slides](../../commentcollection)  
+* ensamblado [Aspose.Slides](../../../)  
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  

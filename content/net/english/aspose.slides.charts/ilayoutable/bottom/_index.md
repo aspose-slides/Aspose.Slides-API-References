@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/ilayoutable/bottom/
 ---
+
 ## ILayoutable.Bottom property
 
 Gets the top of the chart element as a fraction of the height of the chart. Read-only Single.

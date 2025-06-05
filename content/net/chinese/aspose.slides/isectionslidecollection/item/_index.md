@@ -1,6 +1,6 @@
 ---
-title: 项目
-second_title: Aspose.Slides for .NET API 参考
+title: Item
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取指定索引处的元素。只读 ISlideaspose.slides/islide。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/isectionslidecollection/item/
 public ISlide this[int index] { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [ISlide](../../islide)
 * 接口 [ISectionSlideCollection](../../isectionslidecollection)

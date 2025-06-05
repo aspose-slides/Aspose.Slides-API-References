@@ -1,13 +1,13 @@
 ---
 title: FrameIndex
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Получает индекс кадра.
 type: docs
 weight: 20
 url: /ru/aspose.slides.export/presentationplayer/frameindex/
 ---
 
-## Свойство PresentationPlayer.FrameIndex
+## PresentationPlayer.FrameIndex свойство
 
 Получает индекс кадра.
 
@@ -34,7 +34,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. Также
+### Также см.
 
 * класс [PresentationPlayer](../../presentationplayer)
 * пространство имен [Aspose.Slides.Export](../../presentationplayer)

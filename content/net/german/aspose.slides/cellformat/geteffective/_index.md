@@ -1,15 +1,15 @@
 ---
 title: GetEffective
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Ruft effektive Tabellenzellenformatierungs-Eigenschaften mit Vererbung und angewendeten Tabellenstilen ab.
+description: Ruft die effektiven Formatierungseigenschaften von Tabellenzellen mit angewendeter Vererbung und Tabellenstilen ab.
 type: docs
 weight: 90
 url: /de/aspose.slides/cellformat/geteffective/
 ---
 
-## CellFormat.GetEffective Methode
+## CellFormat.GetEffective-Methode
 
-Ruft effektive Tabellenzellenformatierungs-Eigenschaften mit Vererbung und angewendeten Tabellenstilen ab.
+Ruft die effektiven Formatierungseigenschaften von Tabellenzellen mit angewendeter Vererbung und Tabellenstilen ab.
 
 ```csharp
 public ICellFormatEffectiveData GetEffective()
@@ -21,7 +21,7 @@ Ein [`ICellFormatEffectiveData`](../../icellformateffectivedata).
 
 ### Beispiele
 
-Dieses Beispiel demonstriert das Abrufen des effektiven Füllformats für verschiedene Teile der Tabellenlogik. Bitte beachten Sie, dass die Zellformatierung stets höhere Priorität hat als die Zeilenformatierung, die Zeilen höher als die Spalten und die Spalten höher als die gesamte Tabelle. Schließlich werden also die Eigenschaften des CellFormatEffectiveData immer verwendet, um die Tabelle zu zeichnen. Der folgende Code ist nur ein Beispiel für die API.
+Dieses Beispiel zeigt, wie das effektive Füllformat für verschiedene Logikteile der Tabelle abgerufen wird. Bitte beachten Sie, dass die Zellformatierung immer eine höhere Priorität hat als die Zeilenformatierung, die Zeilenformatierung höher als die Spaltenformatierung, und die Spaltenformatierung höher als die gesamte Tabelle. Daher werden die Eigenschaften von CellFormatEffectiveData immer verwendet, um die Tabelle zu zeichnen. Der folgende Code ist nur ein Beispiel für die API.
 
 ```csharp
 [C#]

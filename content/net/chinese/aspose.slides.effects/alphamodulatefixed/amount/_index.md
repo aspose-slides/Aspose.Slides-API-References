@@ -1,7 +1,7 @@
 ---
-title: 数量
-second_title: Aspose.Sldes for .NET API 参考
-description: 返回以百分比表示的效果数量。可读写单精度浮点数。
+title: Amount
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回效果的百分比。可读/可写的单精度浮点数。
 type: docs
 weight: 10
 url: /zh/aspose.slides.effects/alphamodulatefixed/amount/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/alphamodulatefixed/amount/
 
 ## AlphaModulateFixed.Amount 属性
 
-返回以百分比表示的效果数量。可读写单精度浮点数。
+返回效果的百分比。可读/可写的单精度浮点数。
 
 ```csharp
 public float Amount { get; set; }

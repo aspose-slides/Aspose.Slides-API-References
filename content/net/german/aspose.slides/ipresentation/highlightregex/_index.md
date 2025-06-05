@@ -1,6 +1,6 @@
 ---
 title: HighlightRegex
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Hebt alle Übereinstimmungen des regulären Ausdrucks mit der angegebenen Farbe hervor.
 type: docs
 weight: 320
@@ -17,9 +17,9 @@ public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallbac
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| regex | Regex | Der reguläre Ausdruck Regex, um Zeichenfolgen zum Hervorheben zu erhalten. |
+| regex | Regex | Der reguläre Ausdruck Regex, um die zu hebenden Zeichenfolgen zu erhalten. |
 | highlightColor | Color | Die Farbe, um den Text hervorzuheben. |
-| callback | IFindResultCallback | Das Callback-Objekt zum Empfangen von Suchergebnissen [`IFindResultCallback`](../../ifindresultcallback). |
+| callback | IFindResultCallback | Das Callback-Objekt zum Empfangen der Suchergebnisse [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Beispiele
 
@@ -30,13 +30,13 @@ Das folgende Codebeispiel zeigt, wie man Text in einer PowerPoint-Präsentation 
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// Hervorheben aller Wörter mit 10 oder mehr Zeichen
+	// Hebt alle Wörter mit 10 oder mehr Zeichen hervor
 	presentation.HighlightRegex(regex, Color.Blue, null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IFindResultCallback](../../ifindresultcallback)
 * Schnittstelle [IPresentation](../../ipresentation)

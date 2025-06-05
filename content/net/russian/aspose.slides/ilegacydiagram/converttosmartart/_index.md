@@ -1,7 +1,7 @@
 ---
 title: ConvertToSmartArt
-second_title: Aspose.Sildes для .NET API Справочник
-description: Преобразует устаревший диаграмму в редактируемый объект SmartArt. Созданный объект SmartArt добавляется в родительскую группу формы на том же месте.
+second_title: Aspose.Sildes для .NET API Справка
+description: Конвертирует устаревший диаграмму в редактируемый объект SmartArt. Созданный объект SmartArt добавляется в родительскую группу фигур в том же положении.
 type: docs
 weight: 30
 url: /ru/aspose.slides/ilegacydiagram/converttosmartart/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/ilegacydiagram/converttosmartart/
 
 ## ILegacyDiagram.ConvertToSmartArt метод
 
-Преобразует устаревший диаграмму в редактируемый объект SmartArt. Созданный объект SmartArt добавляется в родительскую группу формы на том же месте.
+Конвертирует устаревший диаграмму в редактируемый объект SmartArt. Созданный объект SmartArt добавляется в родительскую группу фигур в том же положении.
 
 ```csharp
 public ISmartArt ConvertToSmartArt()
 ```
 
-### Возвращаемое значение
+### Возврат значения
 
 Созданный объект SmartArt.
 

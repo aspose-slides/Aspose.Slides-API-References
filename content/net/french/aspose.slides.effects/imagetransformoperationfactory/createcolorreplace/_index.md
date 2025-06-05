@@ -1,13 +1,13 @@
 ---
 title: CreateColorReplace
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slidess pour .NET API Référence
 description: Crée un effet de remplacement de couleur.
 type: docs
 weight: 120
 url: /fr/aspose.slides.effects/imagetransformoperationfactory/createcolorreplace/
 ---
 
-## Méthode ImageTransformOperationFactory.CreateColorReplace
+## ImageTransformOperationFactory.CreateColorReplace méthode
 
 Crée un effet de remplacement de couleur.
 
@@ -15,7 +15,7 @@ Crée un effet de remplacement de couleur.
 public IColorReplace CreateColorReplace()
 ```
 
-### Valeur de Retour
+### Valeur de retour
 
 Effet de remplacement de couleur.
 

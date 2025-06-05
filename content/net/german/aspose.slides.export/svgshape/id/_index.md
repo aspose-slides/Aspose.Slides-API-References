@@ -1,7 +1,7 @@
 ---
 title: Id
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erhält die Shape-ID
+second_title: Aspose.Slides für .NET API Referenz
+description: Ruft die Shape-ID ab
 type: docs
 weight: 10
 url: /de/aspose.slides.export/svgshape/id/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/svgshape/id/
 
 ## SvgShape.Id-Eigenschaft
 
-Erhält die Shape-ID
+Ruft die Shape-ID ab
 
 ```csharp
 public string Id { get; set; }

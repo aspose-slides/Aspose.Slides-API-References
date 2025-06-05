@@ -1,7 +1,7 @@
 ---
 title: IGradientStopEffectiveData
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: objet immutable qui représente un arrêt de dégradé.
+second_title: Aspose.Slides pour .NET API Référence
+description: objet immuable qui représente un arrêt de dégradé.
 type: docs
 weight: 5850
 url: /fr/aspose.slides/igradientstopeffectivedata/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/igradientstopeffectivedata/
 
 ## Interface IGradientStopEffectiveData
 
-objet immutable qui représente un arrêt de dégradé.
+objet immuable qui représente un arrêt de dégradé.
 
 ```csharp
 public interface IGradientStopEffectiveData

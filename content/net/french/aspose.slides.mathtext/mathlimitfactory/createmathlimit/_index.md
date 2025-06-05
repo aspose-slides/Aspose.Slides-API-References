@@ -1,13 +1,13 @@
 ---
 title: CreateMathLimit
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Crée IMathLimit
 type: docs
 weight: 20
 url: /fr/aspose.slides.mathtext/mathlimitfactory/createmathlimit/
 ---
 
-## CreateMathLimit(IMathElement, IMathElement, bool) {#createmathlimit_1}
+## CreateMathLimit(IMathElement, IMathElement, bool) {#createmathlimit_1}
 
 Crée IMathLimit
 
@@ -17,15 +17,15 @@ public IMathLimit CreateMathLimit(IMathElement baseArg, IMathElement limit, bool
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| baseArg | IMathElement | Argument de base pour appliquer la limite |
-| limit | IMathElement | Élément limite |
+| baseArg | IMathElement | Argument de base à appliquer à la limite |
+| limit | IMathElement | Éléments de limite |
 | upperLimit | Boolean | Définit le placement de la limite en haut |
 
-### Valeur de retour
+### Valeur de Retour
 
 nouvelle limite mathématique
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathLimit](../../imathlimit)
 * interface [IMathElement](../../imathelement)
@@ -35,9 +35,9 @@ nouvelle limite mathématique
 
 ---
 
-## CreateMathLimit(IMathElement, IMathElement) {#createmathlimit}
+## CreateMathLimit(IMathElement, IMathElement) {#createmathlimit}
 
-Crée IMathLimit avec la limite en bas
+Crée IMathLimit avec limite en bas
 
 ```csharp
 public IMathLimit CreateMathLimit(IMathElement baseArg, IMathElement limit)
@@ -45,14 +45,14 @@ public IMathLimit CreateMathLimit(IMathElement baseArg, IMathElement limit)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| baseArg | IMathElement | Argument de base pour appliquer la limite |
-| limit | IMathElement | Élément limite |
+| baseArg | IMathElement | Argument de base à appliquer à la limite |
+| limit | IMathElement | Éléments de limite |
 
-### Valeur de retour
+### Valeur de Retour
 
 nouvelle limite mathématique
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathLimit](../../imathlimit)
 * interface [IMathElement](../../imathelement)

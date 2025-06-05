@@ -1,7 +1,7 @@
 ---
 title: PresetShadowEffect
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Sombra predefinida. Leer/escribir IPresetShadowaspose.slides.effects/ipresetshadow.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Sombra preestablecida. Leer/escribir IPresetShadowaspose.slides.effects/ipresetshadow.
 type: docs
 weight: 70
 url: /es/aspose.slides/effectformat/presetshadoweffect/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/effectformat/presetshadoweffect/
 
 ## Propiedad EffectFormat.PresetShadowEffect
 
-Sombra predefinida. Leer/escribir [`IPresetShadow`](../../../aspose.slides.effects/ipresetshadow).
+Sombra preestablecida. Leer/escribir [`IPresetShadow`](../../../aspose.slides.effects/ipresetshadow).
 
 ```csharp
 public IPresetShadow PresetShadowEffect { get; set; }
 ```
 
-### Véase También
+### Véase también
 
 * interfaz [IPresetShadow](../../../aspose.slides.effects/ipresetshadow)
 * clase [EffectFormat](../../effectformat)

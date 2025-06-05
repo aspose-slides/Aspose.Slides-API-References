@@ -1,6 +1,6 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Возвращает перечислитель, который перебирает коллекцию.
 type: docs
 weight: 80
@@ -19,7 +19,7 @@ public IEnumerator<IFontSubstRule> GetEnumerator()
 
 IEnumerator, который можно использовать для перебора коллекции.
 
-### См. Также
+### См. также
 
 * интерфейс [IFontSubstRule](../../ifontsubstrule)
 * класс [FontSubstRuleCollection](../../fontsubstrulecollection)

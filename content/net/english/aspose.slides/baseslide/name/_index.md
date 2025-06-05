@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/baseslide/name/
 ---
+
 ## BaseSlide.Name property
 
 Returns or sets the name of a slide. Read/write String.

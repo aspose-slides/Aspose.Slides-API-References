@@ -1,7 +1,7 @@
 ---
-title: 渐变停止
-second_title: Aspose.Slides for .NET API 参考
-description: 返回渐变停止的集合。只读 IGradientStopCollectionaspose.slides/igradientstopcollection。
+title: GradientStops
+second_title: Aspose.Slides for .NET API Reference
+description: 返回渐变停止的集合。只读 IGradientStopCollection aspose.slides/igradientstopcollection。
 type: docs
 weight: 40
 url: /zh/aspose.slides/igradientformat/gradientstops/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/igradientformat/gradientstops/
 public IGradientStopCollection GradientStops { get; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IGradientStopCollection](../../igradientstopcollection)
 * 接口 [IGradientFormat](../../igradientformat)

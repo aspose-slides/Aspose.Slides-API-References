@@ -1,7 +1,7 @@
 ---
-title: Освобождение
-second_title: Справочная документация по Aspose.Slides для .NET
-description: Освобождает экземпляр PresentationPlayer aspose.slides.export/presentationplayer.
+title: Dispose
+second_title: Справочник по API Aspose.Slides для .NET
+description: Освобождает экземпляр PresentationPlayeraspose.slides.export/presentationplayer.
 type: docs
 weight: 40
 url: /ru/aspose.slides.export/presentationplayer/dispose/
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export/presentationplayer/dispose/
 public void Dispose()
 ```
 
-### Смотрите также
+### См. также
 
 * класс [PresentationPlayer](../../presentationplayer)
 * пространство имен [Aspose.Slides.Export](../../presentationplayer)

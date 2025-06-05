@@ -1,6 +1,6 @@
 ---
-title: Dirección
-second_title: Referencia de la API Aspose.Slides para .NET
+title: Direction
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Dirección de la transición. Lectura/escritura Orientationaspose.slides/orientation.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Dirección de la transición. Lectura/escritura [`Orientation`](../../../aspose.
 public Orientation Direction { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * enum [Orientation](../../../aspose.slides/orientation)
 * class [OrientationTransition](../../orientationtransition)

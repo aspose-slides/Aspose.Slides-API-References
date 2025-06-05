@@ -1,15 +1,15 @@
 ---
 title: ExportToHtml
-second_title: Aspose.Slides pour .NET API Référence
-description: Convertit les paragraphes spécifiés en HTML et le renvoie en tant qu'objet String.
+second_title: Aspose.Slides pour la référence API .NET
+description: Convertit les paragraphes spécifiés en HTML et le renvoie sous forme d'objet String.
 type: docs
 weight: 80
 url: /fr/aspose.slides/iparagraphcollection/exporttohtml/
 ---
 
-## Méthode IParagraphCollection.ExportToHtml
+## IParagraphCollection.ExportToHtml méthode
 
-Convertit les paragraphes spécifiés en HTML et le renvoie en tant qu'objet String.
+Convertit les paragraphes spécifiés en HTML et le renvoie sous forme d'objet String.
 
 ```csharp
 public string ExportToHtml(int firstParagraphIndex, int paragraphsCount, 
@@ -18,7 +18,7 @@ public string ExportToHtml(int firstParagraphIndex, int paragraphsCount,
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| firstParagraphIndex | Int32 | Index du premier paragraphe Int32 |
+| firstParagraphIndex | Int32 | Indice du premier paragraphe Int32 |
 | paragraphsCount | Int32 | Nombre de paragraphes Int32 |
 | options | ITextToHtmlConversionOptions | Options de conversion [`ITextToHtmlConversionOptions`](../../../aspose.slides.export/itexttohtmlconversionoptions) |
 

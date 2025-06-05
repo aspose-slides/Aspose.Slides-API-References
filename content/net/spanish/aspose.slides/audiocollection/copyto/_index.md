@@ -1,15 +1,15 @@
 ---
 title: CopyTo
-second_title: Aspose.Slides para .NET Referencia de API
-description: Copia audios a la matriz especificada comenzando desde el índice especificado.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Copia audios a la matriz especificada a partir del índice especificado.
 type: docs
 weight: 60
 url: /es/aspose.slides/audiocollection/copyto/
 ---
 
-## Método AudioCollection.CopyTo
+## AudioCollection.CopyTo método
 
-Copia audios a la matriz especificada comenzando desde el índice especificado.
+Copia audios a la matriz especificada a partir del índice especificado.
 
 ```csharp
 public void CopyTo(Array array, int index)
@@ -17,13 +17,13 @@ public void CopyTo(Array array, int index)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| array | Array | Array. |
+| array | Array | Matriz. |
 | index | Int32 | Índice. |
 
-### Ver También
+### Véase También
 
 * clase [AudioCollection](../../audiocollection)
 * espacio de nombres [Aspose.Slides](../../audiocollection)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

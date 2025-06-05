@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.effects/alphaceiling/equals/
 ---
+
 ## AlphaCeiling.Equals method
 
 Determines whether the specified [`AlphaCeiling`](../../alphaceiling) is equal to the current [`AlphaCeiling`](../../alphaceiling).

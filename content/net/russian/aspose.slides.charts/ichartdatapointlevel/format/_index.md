@@ -1,6 +1,6 @@
 ---
-title: Формат
-second_title: Справочник API Aspose.Slides для .NET
+title: Format
+second_title: Aspose.Slides для .NET Справочник по API
 description: Представляет свойства форматирования уровня точек данных. Чтение/запись IFormataspose.slides.charts/iformat.
 type: docs
 weight: 10

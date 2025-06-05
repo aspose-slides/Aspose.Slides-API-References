@@ -1,15 +1,15 @@
 ---
 title: AddAudioFrameLinked
 second_title: Aspose.Sildes for .NET API Reference
-description: 将带有链接音频文件的新音频框添加到集合的末尾。
+description: 将新音频框与链接的音频文件添加到集合的末尾。
 type: docs
 weight: 80
 url: /zh/aspose.slides/shapecollection/addaudioframelinked/
 ---
 
-## ShapeCollection.AddAudioFrameLinked 方法
+## ShapeCollection.AddAudioFrameLinked method
 
-将带有链接音频文件的新音频框添加到集合的末尾。
+将新音频框与链接的音频文件添加到集合的末尾。
 
 ```csharp
 public IAudioFrame AddAudioFrameLinked(float x, float y, float width, float height, string fname)
@@ -17,8 +17,8 @@ public IAudioFrame AddAudioFrameLinked(float x, float y, float width, float heig
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| x | Single | 新音频框的 X 坐标。 |
-| y | Single | 新音频框的 Y 坐标。 |
+| x | Single | 新音频框的X坐标。 |
+| y | Single | 新音频框的Y坐标。 |
 | width | Single | 新音频框的宽度。 |
 | height | Single | 新音频框的高度。 |
 | fname | String | 音频文件名。 |

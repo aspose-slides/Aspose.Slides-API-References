@@ -1,6 +1,6 @@
 ---
 title: IActualLayout
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Указывает фактическое положение элемента диаграммы.
 type: docs
 weight: 1610
@@ -19,12 +19,12 @@ public interface IActualLayout
 
 | Имя | Описание |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | Указывает фактическую высоту элемента диаграммы. Вызовите метод IChart.ValidateChartLayout() перед получением фактических значений. Читайте Single. |
-| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | Указывает фактическую ширину элемента диаграммы. Вызовите метод IChart.ValidateChartLayout() перед получением фактических значений. Читайте Single. |
-| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | Указывает фактическое положение по оси x (слева) элемента диаграммы относительно верхнего левого угла диаграммы. Вызовите метод IChart.ValidateChartLayout() перед получением фактических значений. Читайте Single. |
-| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | Указывает фактическое положение сверху элемента диаграммы относительно верхнего левого угла диаграммы. Вызовите метод IChart.ValidateChartLayout() перед получением фактических значений. Читайте Single. |
+| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | Указывает фактическую высоту элемента диаграммы. Вызовите метод IChart.ValidateChartLayout() перед тем, как получить фактические значения. Читайте тип Single. |
+| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | Указывает фактическую ширину элемента диаграммы. Вызовите метод IChart.ValidateChartLayout() перед тем, как получить фактические значения. Читайте тип Single. |
+| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | Указывает фактическое x положение (слева) элемента диаграммы относительно верхнего левого угла диаграммы. Вызовите метод IChart.ValidateChartLayout() перед тем, как получить фактические значения. Читайте тип Single. |
+| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | Указывает фактическую верхнюю границу элемента диаграммы относительно верхнего левого угла диаграммы. Вызовите метод IChart.ValidateChartLayout() перед тем, как получить фактические значения. Читайте тип Single. |
 
-### Также смотрите
+### См. также
 
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)

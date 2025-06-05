@@ -1,7 +1,7 @@
 ---
-title: 开始
-second_title: Aspose.Sildes for .NET API 参考
-description: 开始
+title: Start
+second_title: Aspose.Sildes for .NET API Reference
+description: Start
 type: docs
 weight: 30
 url: /zh/aspose.slides/slidesrange/start/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/slidesrange/start/
 public uint Start { get; set; }
 ```
 
-### 参见
+### 另请参阅
 
 * class [SlidesRange](../../slidesrange)
 * namespace [Aspose.Slides](../../slidesrange)

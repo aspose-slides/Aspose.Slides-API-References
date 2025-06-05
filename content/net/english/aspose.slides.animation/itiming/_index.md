@@ -3,9 +3,10 @@ title: ITiming
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents animation timing.
 type: docs
-weight: 550
+weight: 560
 url: /aspose.slides.animation/itiming/
 ---
+
 ## ITiming interface
 
 Represents animation timing.

@@ -1,7 +1,7 @@
 ---
-title: Стиль
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает стиль диаграммы. Чтение/запись StyleTypeaspose.slides.charts/styletype.
+title: Style
+second_title: Aspose.Slides для .NET API Справка
+description: Возвращает или задает стиль диаграммы. Чтение/запись StyleTypeaspose.slides.charts/styletype.
 type: docs
 weight: 200
 url: /ru/aspose.slides.charts/chart/style/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.charts/chart/style/
 
 ## Свойство Chart.Style
 
-Возвращает или устанавливает стиль диаграммы. Чтение/запись [`StyleType`](../../styletype).
+Возвращает или задает стиль диаграммы. Чтение/запись [`StyleType`](../../styletype).
 
 ```csharp
 public StyleType Style { get; set; }
 ```
 
-### См. также
+### Также смотри
 
 * enum [StyleType](../../styletype)
 * class [Chart](../../chart)

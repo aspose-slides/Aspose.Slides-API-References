@@ -1,7 +1,7 @@
 ---
 title: EncryptionPassword
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das Verschlüsselungspasswort zurück. Nur lesbare Zeichenfolge.
+description: Gibt das Verschlüsselungskennwort zurück. Schreibgeschützter String.
 type: docs
 weight: 20
 url: /de/aspose.slides/iprotectionmanager/encryptionpassword/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/iprotectionmanager/encryptionpassword/
 
 ## IProtectionManager.EncryptionPassword-Eigenschaft
 
-Gibt das Verschlüsselungspasswort zurück. Nur lesbare Zeichenfolge.
+Gibt das Verschlüsselungskennwort zurück. Schreibgeschützter String.
 
 ```csharp
 public string EncryptionPassword { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IProtectionManager](../../iprotectionmanager)
 * Namespace [Aspose.Slides](../../iprotectionmanager)

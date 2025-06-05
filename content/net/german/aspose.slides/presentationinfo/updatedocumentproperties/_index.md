@@ -1,13 +1,13 @@
 ---
 title: UpdateDocumentProperties
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Aktualisiert Eigenschaften der gebundenen Präsentation.
 type: docs
 weight: 80
 url: /de/aspose.slides/presentationinfo/updatedocumentproperties/
 ---
 
-## PresentationInfo.UpdateDocumentProperties-Methode
+## PresentationInfo.UpdateDocumentProperties Methode
 
 Aktualisiert Eigenschaften der gebundenen Präsentation.
 
@@ -17,7 +17,7 @@ public void UpdateDocumentProperties(IDocumentProperties documentProperties)
 
 ### Beispiele
 
-Dieses Beispiel zeigt, wie man die `UpdateDocumentProperties`-Methode aufruft, um die Dokumenteigenschaften zu aktualisieren, die durch den Aufruf der [`ReadDocumentProperties`](../readdocumentproperties)-Methode zurückgegeben werden.
+Dieses Beispiel zeigt, wie man die Methode `UpdateDocumentProperties` aufruft, um die Dokumenteigenschaften zu aktualisieren, die durch den Aufruf der Methode [`ReadDocumentProperties`](../readdocumentproperties) zurückgegeben werden.
 
 ```csharp
 IPresentationInfo info = PresentationFactory.Instance.GetPresentationInfo("pres.pptx");

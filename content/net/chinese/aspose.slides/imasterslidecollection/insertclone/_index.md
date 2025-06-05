@@ -1,7 +1,7 @@
 ---
-title: 插入克隆
-second_title: Aspose.Slides for .NET API 参考
-description: 将指定的母版幻灯片的副本插入到集合的指定位置。相关的布局幻灯片也将被复制。
+title: InsertClone
+second_title: Aspose.Sildes for .NET API Reference
+description: 将指定的母版幻灯片的副本插入到集合的指定位置。链接的布局幻灯片也将被复制。
 type: docs
 weight: 30
 url: /zh/aspose.slides/imasterslidecollection/insertclone/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/imasterslidecollection/insertclone/
 
 ## IMasterSlideCollection.InsertClone 方法
 
-将指定的母版幻灯片的副本插入到集合的指定位置。相关的布局幻灯片也将被复制。
+将指定的母版幻灯片的副本插入到集合的指定位置。链接的布局幻灯片也将被复制。
 
 ```csharp
 public IMasterSlide InsertClone(int index, IMasterSlide sourceMaster)
@@ -22,9 +22,9 @@ public IMasterSlide InsertClone(int index, IMasterSlide sourceMaster)
 
 ### 返回值
 
-已插入的母版幻灯片。
+插入的母版幻灯片。
 
-### 另请参阅
+### 参见
 
 * 接口 [IMasterSlide](../../imasterslide)
 * 接口 [IMasterSlideCollection](../../imasterslidecollection)

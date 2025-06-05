@@ -1,5 +1,5 @@
 ---
-title: Igual
+title: Equals
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si las dos instancias de SlideShowTransition son iguales. Booleano de lectura/escritura.
 type: docs
@@ -17,7 +17,7 @@ public override bool Equals(object obj)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| obj | Object | El SlideShowTransition a comparar con el SlideShowTransition actual. |
+| obj | Object | El SlideShowTransition con el que comparar el SlideShowTransition actual. |
 
 ### Valor de Retorno
 
@@ -26,7 +26,7 @@ public override bool Equals(object obj)
 ### Ver También
 
 * clase [SlideShowTransition](../../slideshowtransition)
-* espacio de nombres [Aspose.Slides.SlideShow](../../slideshowtransition)
-* ensamblado [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.SlideShow](../../slideshowtransition)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

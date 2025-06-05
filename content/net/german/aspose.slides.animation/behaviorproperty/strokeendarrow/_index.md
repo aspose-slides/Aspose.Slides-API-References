@@ -1,15 +1,15 @@
 ---
 title: StrokeEndArrow
 second_title: Aspose.Slides für .NET API Referenz
-description: Stellt die stroke.endArrow Eigenschaft dar
+description: Stellt die Eigenschaft stroke.endArrow dar
 type: docs
 weight: 910
 url: /de/aspose.slides.animation/behaviorproperty/strokeendarrow/
 ---
 
-## BehaviorProperty.StrokeEndArrow Eigenschaft
+## BehaviorProperty.StrokeEndArrow-Eigenschaft
 
-Stellt die 'stroke.endArrow' Eigenschaft dar
+Stellt die 'stroke.endArrow'-Eigenschaft dar
 
 ```csharp
 public static BehaviorProperty StrokeEndArrow { get; }

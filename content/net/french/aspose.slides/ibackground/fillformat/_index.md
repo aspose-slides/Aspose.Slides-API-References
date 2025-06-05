@@ -1,7 +1,7 @@
 ---
-title: RemplissageFormat
-second_title: Référence API Aspose.Slides pour .NET
-description: Retourne un RemplissageFormat pour le remplissage de BackgroundType.OwnBackground. Lecture seule IFillFormataspose.slides/ifillformat.
+title: FillFormat
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Renvoie un FillFormat pour le remplissage de BackgroundType.OwnBackground. Lecture seule IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 40
 url: /fr/aspose.slides/ibackground/fillformat/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ibackground/fillformat/
 
 ## Propriété IBackground.FillFormat
 
-Retourne un RemplissageFormat pour le remplissage de BackgroundType.OwnBackground. Lecture seule [`IFillFormat`](../../ifillformat).
+Renvoie un FillFormat pour le remplissage de BackgroundType.OwnBackground. Lecture seule [`IFillFormat`](../../ifillformat).
 
 ```csharp
 public IFillFormat FillFormat { get; }

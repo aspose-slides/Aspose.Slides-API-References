@@ -1,6 +1,6 @@
 ---
 title: FontFallBackRule
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Создает новый экземпляр.
 type: docs
 weight: 10
@@ -17,22 +17,22 @@ public FontFallBackRule(uint startIndex, uint endIndex, string fontNames)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startIndex | UInt32 | Начальный индекс диапазона unicode |
-| endIndex | UInt32 | Конечный индекс диапазона unicode |
+| startIndex | UInt32 | Начальный индекс диапазона юникода |
+| endIndex | UInt32 | Конечный индекс диапазона юникода |
 | fontNames | String | Имя шрифта или имена (разделенные запятой) для FallBack |
 
 ### Примеры
 
 ```csharp
 [C#]
-// Создание нового экземпляра FontFallBackRule с одним шрифтом.
+// Создать новый экземпляр FantFallBackRule с одним шрифтом.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho");
 
-// Создание нового экземпляра FontFallBackRule с несколькими шрифтами.
+// Создать новый экземпляр FantFallBackRule с несколькими шрифтами.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma");
 ```
 
-### См. также
+### Смотрите также
 
 * класс [FontFallBackRule](../../fontfallbackrule)
 * пространство имен [Aspose.Slides](../../fontfallbackrule)
@@ -50,22 +50,22 @@ public FontFallBackRule(uint startIndex, uint endIndex, string[] fontNames)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startIndex | UInt32 | Начальный индекс диапазона unicode |
-| endIndex | UInt32 | Конечный индекс диапазона unicode |
+| startIndex | UInt32 | Начальный индекс диапазона юникода |
+| endIndex | UInt32 | Конечный индекс диапазона юникода |
 | fontNames | String[] | Имя шрифта или имена (разделенные запятой) для FallBack |
 
 ### Примеры
 
 ```csharp
 [C#]
-// Создание нового экземпляра FontFallBackRule с двумя шрифтами
+// Создать новый экземпляр FantFallBackRule с двумя шрифтами
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, new string[] { "MS Mincho", "MS Gothic"});
 
-// Создание нового экземпляра FontFallBackRule с несколькими шрифтами.
+// Создать новый экземпляр FantFallBackRule с несколькими шрифтами.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, new string[] { "MS Gothic", "Tahoma, Times New Roman" });
 ```
 
-### См. также
+### Смотрите также
 
 * класс [FontFallBackRule](../../fontfallbackrule)
 * пространство имен [Aspose.Slides](../../fontfallbackrule)

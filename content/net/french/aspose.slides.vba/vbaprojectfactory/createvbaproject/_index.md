@@ -1,13 +1,13 @@
 ---
 title: CreateVbaProject
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Crée un nouveau projet VBA.
 type: docs
 weight: 30
 url: /fr/aspose.slides.vba/vbaprojectfactory/createvbaproject/
 ---
 
-## Méthode VbaProjectFactory.CreateVbaProject
+## VbaProjectFactory.CreateVbaProject méthode
 
 Crée un nouveau projet VBA.
 
@@ -15,7 +15,7 @@ Crée un nouveau projet VBA.
 public IVbaProject CreateVbaProject()
 ```
 
-### Valeur de Retour
+### Valeur de retour
 
 Nouveau projet VBA
 

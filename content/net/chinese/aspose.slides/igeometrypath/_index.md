@@ -1,6 +1,6 @@
 ---
 title: IGeometryPath
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示 GeometryShape 的几何路径
 type: docs
 weight: 5770
@@ -20,30 +20,30 @@ public interface IGeometryPath
 | 名称 | 描述 |
 | --- | --- |
 | [FillMode](../../aspose.slides/igeometrypath/fillmode) { get; set; } | 设置填充模式 |
-| [PathData](../../aspose.slides/igeometrypath/pathdata) { get; } | 返回 GeometryShape 的几何路径作为路径段数组。 |
+| [PathData](../../aspose.slides/igeometrypath/pathdata) { get; } | 返回 GeometryShape 的几何路径，作为路径段的数组。 |
 | [Stroke](../../aspose.slides/igeometrypath/stroke) { get; set; } | 设置描边外观 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [ArcTo](../../aspose.slides/igeometrypath/arcto)(float, float, float, float) | 将指定的弧追加到路径中。 |
+| [ArcTo](../../aspose.slides/igeometrypath/arcto)(float, float, float, float) | 将指定的弧追加到路径。 |
 | [CloseFigure](../../aspose.slides/igeometrypath/closefigure)() | 关闭此路径的当前图形 |
 | [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | 在路径末尾添加三次贝塞尔曲线 |
 | [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | 在路径的指定位置添加三次贝塞尔曲线 |
 | [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | 在路径末尾添加三次贝塞尔曲线 |
 | [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | 在路径的指定位置添加三次贝塞尔曲线 |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_2)(PointF) | 在路径末尾添加线段 |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto)(float, float) | 在路径末尾添加线段 |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_3)(PointF, uint) | 在路径的指定位置添加线段 |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_1)(float, float, uint) | 在路径的指定位置添加线段 |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_2)(PointF) | 在路径末尾添加直线 |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto)(float, float) | 在路径末尾添加直线 |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_3)(PointF, uint) | 在路径的指定位置添加直线 |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_1)(float, float, uint) | 在路径的指定位置添加直线 |
 | [MoveTo](../../aspose.slides/igeometrypath/moveto#moveto_1)(PointF) | 设置下一个点的位置。 |
 | [MoveTo](../../aspose.slides/igeometrypath/moveto#moveto)(float, float) | 设置下一个点的位置。 |
 | [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | 在路径末尾添加二次贝塞尔曲线 |
 | [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | 在路径的指定位置添加二次贝塞尔曲线 |
 | [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | 在路径末尾添加二次贝塞尔曲线 |
 | [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | 在路径的指定位置添加二次贝塞尔曲线 |
-| [RemoveAt](../../aspose.slides/igeometrypath/removeat)(int) | 移除几何路径中指定索引的段。 |
+| [RemoveAt](../../aspose.slides/igeometrypath/removeat)(int) | 移除几何路径指定索引处的段。 |
 
 ### 另请参见
 

@@ -1,6 +1,6 @@
 ---
 title: ExternalUrl
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die externe URL an. Schreibgeschützter String.
 type: docs
 weight: 120
@@ -15,7 +15,7 @@ Gibt die externe URL an. Schreibgeschützter String.
 public string ExternalUrl { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [Hyperlink](../../hyperlink)
 * Namespace [Aspose.Slides](../../hyperlink)

@@ -1,6 +1,6 @@
 ---
 title: MathFunctionFactory
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 默认构造函数。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.mathtext/mathfunctionfactory/mathfunctionfactory/
 public MathFunctionFactory()
 ```
 
-### 另见
+### 另请参阅
 
 * 类 [MathFunctionFactory](../../mathfunctionfactory)
 * 命名空间 [Aspose.Slides.MathText](../../mathfunctionfactory)

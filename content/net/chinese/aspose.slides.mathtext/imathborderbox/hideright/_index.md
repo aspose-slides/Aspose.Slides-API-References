@@ -1,7 +1,7 @@
 ---
-title: 隐藏右边缘
-second_title: Aspose.Slides for .NET API 参考
-description: 隐藏右边缘默认值为 false - 指定边框盒子右边缘的隐藏或显示状态。
+title: HideRight
+second_title: Aspose.Sildes for .NET API Reference
+description: Hide Right Edge 默认值为 false - 指定边框框右边缘的隐藏或显示状态。
 type: docs
 weight: 50
 url: /zh/aspose.slides.mathtext/imathborderbox/hideright/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathborderbox/hideright/
 
 ## IMathBorderBox.HideRight 属性
 
-隐藏右边缘（默认值为 false） - 指定边框盒子右边缘的隐藏或显示状态。
+Hide Right Edge（默认值为 false）- 指定边框框右边缘的隐藏或显示状态。
 
 ```csharp
 public bool HideRight { get; set; }
@@ -25,7 +25,7 @@ IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox();
 borderBox.HideRight = true;
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IMathBorderBox](../../imathborderbox)
 * 命名空间 [Aspose.Slides.MathText](../../imathborderbox)

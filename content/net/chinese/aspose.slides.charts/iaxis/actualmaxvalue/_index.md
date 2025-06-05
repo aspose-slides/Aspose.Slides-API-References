@@ -1,7 +1,7 @@
 ---
 title: ActualMaxValue
-second_title: Aspose.Sildes for .NET API Reference
-description: 指定坐标轴上的实际最大值。请先调用 IChart.ValidateChartLayout 方法以获取实际值。
+second_title: Aspose.Slides for .NET API Reference
+description: 指定轴上的实际最大值。在此之前调用方法 IChart.ValidateChartLayout 以获取实际值。
 type: docs
 weight: 30
 url: /zh/aspose.slides.charts/iaxis/actualmaxvalue/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/iaxis/actualmaxvalue/
 
 ## IAxis.ActualMaxValue 属性
 
-指定坐标轴上的实际最大值。请先调用 IChart.ValidateChartLayout() 方法以获取实际值。
+指定轴上的实际最大值。在此之前调用方法 IChart.ValidateChartLayout() 以获取实际值。
 
 ```csharp
 public double ActualMaxValue { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IAxis](../../iaxis)
 * 命名空间 [Aspose.Slides.Charts](../../iaxis)

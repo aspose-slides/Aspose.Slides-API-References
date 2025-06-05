@@ -1,7 +1,7 @@
 ---
 title: ReplaceRegex
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Remplace toutes les correspondances de l'expression régulière par la chaîne spécifiée.
+description: Remplace toutes les occurrences de l'expression régulière par la chaîne spécifiée.
 type: docs
 weight: 360
 url: /fr/aspose.slides/presentation/replaceregex/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/presentation/replaceregex/
 
 ## Méthode Presentation.ReplaceRegex
 
-Remplace toutes les correspondances de l'expression régulière par la chaîne spécifiée.
+Remplace toutes les occurrences de l'expression régulière par la chaîne spécifiée.
 
 ```csharp
 public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callback)
@@ -23,14 +23,14 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 
 ### Exemples
 
-Le code suivant montre comment remplacer du texte en utilisant une expression régulière avec la chaîne spécifiée.
+L'exemple de code suivant montre comment remplacer du texte en utilisant une expression régulière avec la chaîne spécifiée.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// Remplace tous les mots de 10 caractères ou plus par '***'
+	// Remplacer tous les mots de 10 caractères ou plus par '***'
 	presentation.ReplaceRegex(regex, "***", null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }

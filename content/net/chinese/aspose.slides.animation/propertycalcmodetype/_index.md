@@ -7,7 +7,7 @@ weight: 660
 url: /zh/aspose.slides.animation/propertycalcmodetype/
 ---
 
-## PropertyCalcModeType枚举
+## PropertyCalcModeType 枚举
 
 表示动画属性的计算模式。
 
@@ -24,7 +24,7 @@ public enum PropertyCalcModeType
 | Linear | `1` |  |
 | Formula | `2` |  |
 
-### 参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 程序集 [Aspose.Slides](../../)

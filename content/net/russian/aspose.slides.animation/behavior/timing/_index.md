@@ -1,7 +1,7 @@
 ---
-title: Тайминг
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Представляет свойства тайминга для поведения эффекта. Чтение/запись ITimingaspose.slides.animation/itiming.
+title: Timing
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет свойства времени для поведения эффекта. Чтение/запись ITimingaspose.slides.animation/itiming.
 type: docs
 weight: 40
 url: /ru/aspose.slides.animation/behavior/timing/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.animation/behavior/timing/
 
 ## Свойство Behavior.Timing
 
-Представляет свойства тайминга для поведения эффекта. Чтение/запись [`ITiming`](../../itiming).
+Представляет свойства времени для поведения эффекта. Чтение/запись [`ITiming`](../../itiming).
 
 ```csharp
 public ITiming Timing { get; set; }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [ITiming](../../itiming)
 * класс [Behavior](../../behavior)

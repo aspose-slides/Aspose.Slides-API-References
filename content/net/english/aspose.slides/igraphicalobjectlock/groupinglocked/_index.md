@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/igraphicalobjectlock/groupinglocked/
 ---
+
 ## IGraphicalObjectLock.GroupingLocked property
 
 Determines whether adding this shape to a group is forbidden. Read/write Boolean.

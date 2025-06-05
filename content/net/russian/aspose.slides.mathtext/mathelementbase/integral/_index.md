@@ -1,7 +1,7 @@
 ---
-title: Интеграл
-second_title: Справочник по API Aspose.Slides для .NET
-description: Выполняет интегрирование
+title: Integral
+second_title: Aspose.Sildes для .NET API Справочник
+description: Берет интеграл
 type: docs
 weight: 70
 url: /ru/aspose.slides.mathtext/mathelementbase/integral/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/mathelementbase/integral/
 
 ## Integral(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) {#integral_2}
 
-Выполняет интегрирование
+Берет интеграл
 
 ```csharp
 public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement lowerLimit, 
@@ -21,7 +21,7 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement l
 | integralType | MathIntegralTypes | Тип интеграла |
 | lowerLimit | IMathElement | Нижний предел интеграла |
 | upperLimit | IMathElement | Верхний предел интеграла |
-| limitLocations | MathLimitLocations | Местоположение пределов |
+| limitLocations | MathLimitLocations | Расположение пределов |
 
 ### Возвращаемое значение
 
@@ -39,7 +39,7 @@ IMathElement upperLimit = new MathematicalText("2");
 IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, lowerLimit, upperLimit, MathLimitLocations.UnderOver);
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IMathNaryOperator](../../imathnaryoperator)
 * перечисление [MathIntegralTypes](../../mathintegraltypes)
@@ -53,7 +53,7 @@ IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, lowe
 
 ## Integral(MathIntegralTypes, IMathElement, IMathElement) {#integral_1}
 
-Выполняет интегрирование
+Берет интеграл
 
 ```csharp
 public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement lowerLimit, 
@@ -82,7 +82,7 @@ IMathElement upperLimit = new MathematicalText("2");
 IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, lowerLimit, upperLimit, MathLimitLocations.UnderOver);
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IMathNaryOperator](../../imathnaryoperator)
 * перечисление [MathIntegralTypes](../../mathintegraltypes)
@@ -95,7 +95,7 @@ IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, lowe
 
 ## Integral(MathIntegralTypes) {#integral}
 
-Выполняет интегрирование без пределов
+Берет интеграл без пределов
 
 ```csharp
 public IMathNaryOperator Integral(MathIntegralTypes integralType)
@@ -119,7 +119,7 @@ IMathElement baseElement = new MathematicalText("𝑥");
 IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Contour);
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IMathNaryOperator](../../imathnaryoperator)
 * перечисление [MathIntegralTypes](../../mathintegraltypes)
@@ -131,7 +131,7 @@ IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Contour);
 
 ## Integral(MathIntegralTypes, string, string, MathLimitLocations) {#integral_4}
 
-Выполняет интегрирование
+Берет интеграл
 
 ```csharp
 public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLimit, 
@@ -143,7 +143,7 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLi
 | integralType | MathIntegralTypes | Тип интеграла |
 | lowerLimit | String | Нижний предел интеграла |
 | upperLimit | String | Верхний предел интеграла |
-| limitLocations | MathLimitLocations | Местоположение пределов |
+| limitLocations | MathLimitLocations | Расположение пределов |
 
 ### Возвращаемое значение
 
@@ -159,7 +159,7 @@ IMathElement baseElement = new MathematicalText("𝑥");
 IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, "1", "5", MathLimitLocations.UnderOver);
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IMathNaryOperator](../../imathnaryoperator)
 * перечисление [MathIntegralTypes](../../mathintegraltypes)
@@ -172,7 +172,7 @@ IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, "1",
 
 ## Integral(MathIntegralTypes, string, string) {#integral_3}
 
-Выполняет интегрирование
+Берет интеграл
 
 ```csharp
 public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLimit, 
@@ -199,7 +199,7 @@ IMathElement baseElement = new MathematicalText("𝑥");
 IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, "1", "5");
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IMathNaryOperator](../../imathnaryoperator)
 * перечисление [MathIntegralTypes](../../mathintegraltypes)

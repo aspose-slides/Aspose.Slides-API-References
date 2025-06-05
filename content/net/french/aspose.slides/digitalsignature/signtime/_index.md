@@ -1,6 +1,6 @@
 ---
 title: SignTime
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Le moment où le document a été signé. DateTime en lecture seule.
 type: docs
 weight: 50

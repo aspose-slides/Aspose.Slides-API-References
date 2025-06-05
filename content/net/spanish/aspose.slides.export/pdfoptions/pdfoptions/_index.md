@@ -1,7 +1,7 @@
 ---
 title: PdfOptions
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Constructor predeterminado.
+second_title: Referencia API de Aspose.Slides para .NET
+description: Constructor por defecto.
 type: docs
 weight: 10
 url: /es/aspose.slides.export/pdfoptions/pdfoptions/
@@ -9,16 +9,16 @@ url: /es/aspose.slides.export/pdfoptions/pdfoptions/
 
 ## Constructor de PdfOptions
 
-Constructor predeterminado.
+Constructor por defecto.
 
 ```csharp
 public PdfOptions()
 ```
 
-### Véase también
+### Ver También
 
-* clase [PdfOptions](../../pdfoptions)
-* espacio de nombres [Aspose.Slides.Export](../../pdfoptions)
-* ensamblado [Aspose.Slides](../../../)
+* class [PdfOptions](../../pdfoptions)
+* namespace [Aspose.Slides.Export](../../pdfoptions)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

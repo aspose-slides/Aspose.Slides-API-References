@@ -1,7 +1,7 @@
 ---
-title: Contar
+title: Count
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve un número de etiquetas en la colección. Solo lectura Int32.
+description: Devuelve el número de etiquetas en la colección. Solo lectura Int32.
 type: docs
 weight: 10
 url: /es/aspose.slides/tagcollection/count/

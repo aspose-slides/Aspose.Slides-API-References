@@ -1,7 +1,7 @@
 ---
 title: ISaveOptionsFactory
-second_title: Aspose.Sildes для .NET API Reference
-description: Позволяет создавать экземпляры опций сохранения
+second_title: Aspose.Sildes для .NET API Справочник
+description: Позволяет создавать экземпляры параметров сохранения
 type: docs
 weight: 3910
 url: /ru/aspose.slides.export/isaveoptionsfactory/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export/isaveoptionsfactory/
 
 ## Интерфейс ISaveOptionsFactory
 
-Позволяет создавать экземпляры опций сохранения
+Позволяет создавать экземпляры параметров сохранения
 
 ```csharp
 public interface ISaveOptionsFactory
@@ -17,11 +17,11 @@ public interface ISaveOptionsFactory
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [CreatePptxOptions](../../aspose.slides.export/isaveoptionsfactory/createpptxoptions)() | Создает опции сохранения PPTX. |
+| [CreatePptxOptions](../../aspose.slides.export/isaveoptionsfactory/createpptxoptions)() | Создает параметры сохранения PPTX. |
 
-### Примечания
+### Замечания
 
 Для совместимости с COM.
 

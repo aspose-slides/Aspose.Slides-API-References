@@ -1,13 +1,13 @@
 ---
 title: ExtrusionLockRotationCenter
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Reference
 description: Représente la propriété extrusion.lockrotationcenter
 type: docs
 weight: 60
 url: /fr/aspose.slides.animation/behaviorproperty/extrusionlockrotationcenter/
 ---
 
-## Propriété BehaviorProperty.ExtrusionLockRotationCenter
+## BehaviorProperty.ExtrusionLockRotationCenter property
 
 Représente la propriété 'extrusion.lockrotationcenter'
 
@@ -15,7 +15,7 @@ Représente la propriété 'extrusion.lockrotationcenter'
 public static BehaviorProperty ExtrusionLockRotationCenter { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [BehaviorProperty](../../behaviorproperty)
 * espace de noms [Aspose.Slides.Animation](../../behaviorproperty)

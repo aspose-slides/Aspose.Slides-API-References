@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/portionfactory/portionfactory/
 ---
+
 ## PortionFactory constructor
 
 The default constructor.

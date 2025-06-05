@@ -1,7 +1,7 @@
 ---
 title: FindByNameAndInitials
-second_title: Aspose.Slides für .NET API-Referenz
-description: Autor in einer Sammlung nach Name und Initialen finden.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Autor in einer Sammlung nach Name und Initialien finden.
 type: docs
 weight: 50
 url: /de/aspose.slides/icommentauthorcollection/findbynameandinitials/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/icommentauthorcollection/findbynameandinitials/
 
 ## ICommentAuthorCollection.FindByNameAndInitials-Methode
 
-Autor in einer Sammlung nach Name und Initialen finden.
+Autor in einer Sammlung nach Name und Initialien finden.
 
 ```csharp
 public ICommentAuthor[] FindByNameAndInitials(string name, string initials)
@@ -17,8 +17,8 @@ public ICommentAuthor[] FindByNameAndInitials(string name, string initials)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| name | String | Name eines Autors, der gefunden werden soll. |
-| initials | String | Initialen eines Autors, der gefunden werden soll. |
+| name | String | Name des zu findenden Autors. |
+| initials | String | Initialen des zu findenden Autors. |
 
 ### Rückgabewert
 

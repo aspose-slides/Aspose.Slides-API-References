@@ -1,7 +1,7 @@
 ---
 title: StartShapeConnectionSiteIndex
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Index des Verbindungspunkts für die Startform zurück oder setzt ihn. Schreib-/Lesezugriff auf UInt32.
+description: Gibt den Index des Verbindungspunkts für die Startform zurück oder setzt ihn. Lese-/Schreibzugriff auf UInt32.
 type: docs
 weight: 70
 url: /de/aspose.slides/connector/startshapeconnectionsiteindex/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/connector/startshapeconnectionsiteindex/
 
 ## Connector.StartShapeConnectionSiteIndex-Eigenschaft
 
-Gibt den Index des Verbindungspunkts für die Startform zurück oder setzt ihn. Schreib-/Lesezugriff auf UInt32.
+Gibt den Index des Verbindungspunkts für die Startform zurück oder setzt ihn. Lese-/Schreibzugriff auf UInt32.
 
 ```csharp
 public uint StartShapeConnectionSiteIndex { get; set; }
@@ -21,7 +21,7 @@ public uint StartShapeConnectionSiteIndex { get; set; }
 | --- | --- |
 | ArgumentException | Wird ausgelöst, wenn der Wert kleiner ist als StartShapeConnectedTo.ConnectionSiteCount |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [Connector](../../connector)
 * Namespace [Aspose.Slides](../../connector)

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.vba/ivbamodulecollection/addemptymodule/
 ---
+
 ## IVbaModuleCollection.AddEmptyModule method
 
 Adds a new empty module to the VBA Project.

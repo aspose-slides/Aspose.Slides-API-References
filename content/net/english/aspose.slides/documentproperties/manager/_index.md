@@ -3,9 +3,10 @@ title: Manager
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets the manager property. Read/write String.
 type: docs
-weight: 180
+weight: 220
 url: /aspose.slides/documentproperties/manager/
 ---
+
 ## DocumentProperties.Manager property
 
 Returns or sets the manager property. Read/write String.

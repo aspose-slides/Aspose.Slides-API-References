@@ -1,21 +1,21 @@
 ---
 title: AsLiteralString
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает литеральную строку, если свойство DataSourceType является DataSourceType.StringLiterals. Чтение/запись строки.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или задает литеральную строку, если свойство DataSourceType является DataSourceType.StringLiterals. Чтение/запись String.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/istringordoublechartvalue/asliteralstring/
 ---
 
-## Свойство IStringOrDoubleChartValue.AsLiteralString
+## IStringOrDoubleChartValue.AsLiteralString свойство
 
-Возвращает или устанавливает литеральную строку, если свойство DataSourceType является DataSourceType.StringLiterals. Чтение/запись строки.
+Возвращает или задает литеральную строку, если свойство DataSourceType является DataSourceType.StringLiterals. Чтение/запись String.
 
 ```csharp
 public string AsLiteralString { get; set; }
 ```
 
-### Кроме того
+### Также смотри
 
 * интерфейс [IStringOrDoubleChartValue](../../istringordoublechartvalue)
 * пространство имен [Aspose.Slides.Charts](../../istringordoublechartvalue)

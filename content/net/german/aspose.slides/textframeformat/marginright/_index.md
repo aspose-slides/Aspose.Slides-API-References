@@ -1,7 +1,7 @@
 ---
 title: MarginRight
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die rechten Randeinstellungen in einem TextFrame zurück oder setzt sie. Lese-/schreibbarer Double.
+description: Gibt die rechten Randpunkte in einem TextFrame zurück oder setzt diese. Lese-/Schreibzugriff Double.
 type: docs
 weight: 100
 url: /de/aspose.slides/textframeformat/marginright/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/textframeformat/marginright/
 
 ## TextFrameFormat.MarginRight-Eigenschaft
 
-Gibt den rechten Rand (in Punkten) in einem TextFrame zurück oder setzt ihn. Lese-/schreibbarer Double.
+Gibt den rechten Rand (Punkte) in einem TextFrame zurück oder setzt diesen. Lese-/Schreibzugriff Double.
 
 ```csharp
 public double MarginRight { get; set; }

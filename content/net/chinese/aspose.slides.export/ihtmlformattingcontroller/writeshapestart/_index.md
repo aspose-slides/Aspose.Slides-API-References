@@ -1,7 +1,7 @@
 ---
 title: WriteShapeStart
 second_title: Aspose.Sildes for .NET API Reference
-description: 在形状渲染之前调用。每个形状调用一次。如果此函数向生成器写入任何内容，则当前幻灯片图像生成将完成，添加的HTML片段将被插入，新的图像将开始在之前的图像上方。
+description: 在形状渲染之前调用。每个形状调用一次。如果此函数向生成器写入任何内容，则当前幻灯片图像生成将完成，添加的 HTML 片段将被插入，并且新图像将开始在之前的图像之上。
 type: docs
 weight: 40
 url: /zh/aspose.slides.export/ihtmlformattingcontroller/writeshapestart/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/ihtmlformattingcontroller/writeshapestart/
 
 ## IHtmlFormattingController.WriteShapeStart 方法
 
-在形状渲染之前调用。每个形状调用一次。如果此函数向生成器写入任何内容，则当前幻灯片图像生成将完成，添加的HTML片段将被插入，新的图像将开始在之前的图像上方。
+在形状渲染之前调用。每个形状调用一次。如果此函数向生成器写入任何内容，则当前幻灯片图像生成将完成，添加的 HTML 片段将被插入，并且新图像将开始在之前的图像之上。
 
 ```csharp
 public void WriteShapeStart(IHtmlGenerator generator, IShape shape)
@@ -18,7 +18,7 @@ public void WriteShapeStart(IHtmlGenerator generator, IShape shape)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | generator | IHtmlGenerator | 输出对象。 |
-| shape | IShape | 即将渲染的形状。 |
+| shape | IShape | 将要渲染的形状。 |
 
 ### 另请参阅
 

@@ -1,7 +1,7 @@
 ---
-title: Élément
+title: Item
 second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit l'opération à l'index spécifié. Lecture/écriture IColorOperationaspose.slides/icoloroperation.
+description: Retourne ou définit l'opération à l'index spécifié. Lecture/écriture IColorOperationaspose.slides/icoloroperation.
 type: docs
 weight: 10
 url: /fr/aspose.slides/icoloroperationcollection/item/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/icoloroperationcollection/item/
 
 ## Indexeur IColorOperationCollection
 
-Renvoie ou définit l'opération à l'index spécifié. Lecture/écriture [`IColorOperation`](../../icoloroperation).
+Retourne ou définit l'opération à l'index spécifié. Lecture/écriture [`IColorOperation`](../../icoloroperation).
 
 ```csharp
 public IColorOperation this[int index] { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IColorOperation](../../icoloroperation)
 * interface [IColorOperationCollection](../../icoloroperationcollection)

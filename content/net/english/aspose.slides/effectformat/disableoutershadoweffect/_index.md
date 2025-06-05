@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides/effectformat/disableoutershadoweffect/
 ---
+
 ## EffectFormat.DisableOuterShadowEffect method
 
 Disables outer shadow effect.

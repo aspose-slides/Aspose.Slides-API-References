@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/protectionmanager/isencrypted/
 ---
+
 ## ProtectionManager.IsEncrypted property
 
 Gets a value indicating whether this instance is encrypted. Read-only Boolean.

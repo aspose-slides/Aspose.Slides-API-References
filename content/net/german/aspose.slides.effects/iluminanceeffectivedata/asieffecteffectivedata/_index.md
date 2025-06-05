@@ -1,7 +1,7 @@
 ---
 title: AsIEffectEffectiveData
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf das Basis-IEffectEffectiveData-Interface. Nur-Lese-IEffectEffectiveDataaspose.slides.effects/ieffecteffectivedata.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ermöglicht den Zugriff auf die Basis-IEffectEffectiveData-Schnittstelle. Nur lesen IEffectEffectiveDataaspose.slides.effects/ieffecteffectivedata.
 type: docs
 weight: 10
 url: /de/aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata/
 
 ## ILuminanceEffectiveData.AsIEffectEffectiveData-Eigenschaft
 
-Ermöglicht den Zugriff auf das Basis-IEffectEffectiveData-Interface. Nur-Lese- [`IEffectEffectiveData`](../../ieffecteffectivedata).
+Ermöglicht den Zugriff auf die Basis-IEffectEffectiveData-Schnittstelle. Nur lesen [`IEffectEffectiveData`](../../ieffecteffectivedata).
 
 ```csharp
 public IEffectEffectiveData AsIEffectEffectiveData { get; }
@@ -17,8 +17,8 @@ public IEffectEffectiveData AsIEffectEffectiveData { get; }
 
 ### Siehe auch
 
-* Interface [IEffectEffectiveData](../../ieffecteffectivedata)
-* Interface [ILuminanceEffectiveData](../../iluminanceeffectivedata)
+* Schnittstelle [IEffectEffectiveData](../../ieffecteffectivedata)
+* Schnittstelle [ILuminanceEffectiveData](../../iluminanceeffectivedata)
 * Namespace [Aspose.Slides.Effects](../../iluminanceeffectivedata)
 * Assembly [Aspose.Slides](../../../)
 

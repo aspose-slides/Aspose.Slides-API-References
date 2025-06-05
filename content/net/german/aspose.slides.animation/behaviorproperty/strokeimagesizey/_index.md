@@ -1,7 +1,7 @@
 ---
 title: StrokeImageSizeY
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt die stroke.imagesize.y-Eigenschaft dar
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt die Eigenschaft 'stroke.imagesize.y' dar
 type: docs
 weight: 960
 url: /de/aspose.slides.animation/behaviorproperty/strokeimagesizey/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/behaviorproperty/strokeimagesizey/
 
 ## BehaviorProperty.StrokeImageSizeY-Eigenschaft
 
-Stellt die 'stroke.imagesize.y'-Eigenschaft dar
+Stellt die Eigenschaft 'stroke.imagesize.y' dar
 
 ```csharp
 public static BehaviorProperty StrokeImageSizeY { get; }

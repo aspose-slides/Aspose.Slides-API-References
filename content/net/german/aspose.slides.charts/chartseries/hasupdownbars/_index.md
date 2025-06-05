@@ -1,21 +1,21 @@
 ---
 title: HasUpDownBars
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob das Linien- oder Aktiendiagramm über Auf-/Ab-Balken verfügt. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist die Projektion der entsprechenden Gruppeneigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die Eigenschaft ParentSeriesGroup, um auf die übergeordnete Seriengruppe zuzugreifen. Verwenden Sie die Lese-/Schreib-Eigenschaft ParentSeriesGroup.UpDownBars.HasUpDownBars, um den Wert zu ändern. Verwenden Sie die Eigenschaft ParentSeriesGroup.UpDownBars, um Auf-/Ab-Balken zu formatieren. Schreibgeschützter Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt, ob das Linien- oder Aktien-Diagramm Auf- / Abwärtsbalken hat. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist die Projektion der entsprechenden Gruppeigenschaft. Daher ist diese Eigenschaft nur lesbar. Verwenden Sie die ParentSeriesGroup-Eigenschaft, um auf die übergeordnete Seriengruppe zuzugreifen. Verwenden Sie die schreibbare Eigenschaft ParentSeriesGroup.UpDownBars.HasUpDownBars, um den Wert zu ändern. Verwenden Sie die Property ParentSeriesGroup.UpDownBars, um Auf- / Abwärtsbalken zu formatieren. Nur lese Boolean.
 type: docs
 weight: 150
 url: /de/aspose.slides.charts/chartseries/hasupdownbars/
 ---
 
-## ChartSeries.HasUpDownBars-Eigenschaft
+## ChartSeries.HasUpDownBars Eigenschaft
 
-Bestimmt, ob das Linien- oder Aktiend Diagramm über Auf-/Ab-Balken verfügt. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist die Projektion der entsprechenden Gruppeneigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die Eigenschaft ParentSeriesGroup, um auf die übergeordnete Seriengruppe zuzugreifen. Verwenden Sie die Lese-/Schreib-Eigenschaft ParentSeriesGroup.UpDownBars.HasUpDownBars, um den Wert zu ändern. Verwenden Sie die Eigenschaft ParentSeriesGroup.UpDownBars, um Auf-/Ab-Balken zu formatieren. Schreibgeschützter Boolean.
+Bestimmt, ob das Linien- oder Aktien-Diagramm Auf- / Abwärtsbalken hat. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist die Projektion der entsprechenden Gruppeigenschaft. Daher ist diese Eigenschaft nur lesbar. Verwenden Sie die ParentSeriesGroup-Eigenschaft, um auf die übergeordnete Seriengruppe zuzugreifen. Verwenden Sie die schreibbare Eigenschaft ParentSeriesGroup.UpDownBars.HasUpDownBars, um den Wert zu ändern. Verwenden Sie die Property ParentSeriesGroup.UpDownBars, um Auf- / Abwärtsbalken zu formatieren. Nur lese Boolean.
 
 ```csharp
 public bool HasUpDownBars { get; }
 ```
 
-### Anmerkungen
+### Hinweise
 
 Dies ist die Projektion der Eigenschaft ParentSeriesGroup.UpDownBars.HasUpDownBars.
 

@@ -1,24 +1,24 @@
----
+---  
 title: BehaviorFactory
-second_title: Referencia de API de Aspose.Slides para .NET
-description: El constructor por defecto.
-type: docs
-weight: 10
+second_title: Aspose.Slides para .NET Referencia de API  
+description: El constructor predeterminado.
+type: docs  
+weight: 10  
 url: /es/aspose.slides.animation/behaviorfactory/behaviorfactory/
----
+---  
 
-## Constructor de BehaviorFactory
+## Constructor de BehaviorFactory  
 
-El constructor por defecto.
+El constructor predeterminado.  
 
-```csharp
-public BehaviorFactory()
-```
+```csharp  
+public BehaviorFactory()  
+```  
 
-### Véase también
+### Ver también  
 
-* clase [BehaviorFactory](../../behaviorfactory)
-* espacio de nombres [Aspose.Slides.Animation](../../behaviorfactory)
-* ensamblado [Aspose.Slides](../../../)
+* clase [BehaviorFactory](../../behaviorfactory)  
+* espacio de nombres [Aspose.Slides.Animation](../../behaviorfactory)  
+* ensamblado [Aspose.Slides](../../../)  
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  

@@ -1,7 +1,7 @@
 ---
 title: AsIBulkTextFormattable
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf die Basis-IBulkTextFormattable-Schnittstelle. Nur-Lese-IBulkTextFormattableaspose.slides/ibulktextformattable.
+description: Ermöglicht den Zugriff auf die Basis-IBulkTextFormattable-Schnittstelle. Nur-Lese-IBulkTextFormattable aspose.slides/ibulktextformattable.
 type: docs
 weight: 10
 url: /de/aspose.slides/itable/asibulktextformattable/
@@ -15,7 +15,7 @@ Ermöglicht den Zugriff auf die Basis-IBulkTextFormattable-Schnittstelle. Nur-Le
 public IBulkTextFormattable AsIBulkTextFormattable { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IBulkTextFormattable](../../ibulktextformattable)
 * Schnittstelle [ITable](../../itable)

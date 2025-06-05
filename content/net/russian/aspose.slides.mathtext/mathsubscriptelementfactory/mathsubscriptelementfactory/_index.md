@@ -1,6 +1,6 @@
 ---
 title: MathSubscriptElementFactory
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.mathtext/mathsubscriptelementfactory/mathsubscriptelement
 public MathSubscriptElementFactory()
 ```
 
-### Смотрите также
+### Также см.
 
 * класс [MathSubscriptElementFactory](../../mathsubscriptelementfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathsubscriptelementfactory)

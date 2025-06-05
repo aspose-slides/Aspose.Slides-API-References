@@ -1,13 +1,13 @@
 ---
 title: SlideShowSettings
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает настройки слайд-шоу для презентации.
 type: docs
 weight: 240
 url: /ru/aspose.slides/presentation/slideshowsettings/
 ---
 
-## Свойство Presentation.SlideShowSettings
+## Presentation.SlideShowSettings свойство
 
 Возвращает настройки слайд-шоу для презентации.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/presentation/slideshowsettings/
 public SlideShowSettings SlideShowSettings { get; }
 ```
 
-### См. Также
+### См. также
 
 * класс [SlideShowSettings](../../slideshowsettings)
 * класс [Presentation](../../presentation)

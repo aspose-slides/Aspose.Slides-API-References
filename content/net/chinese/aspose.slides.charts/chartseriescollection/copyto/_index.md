@@ -1,7 +1,7 @@
 ---
-title: 复制到
-second_title: Aspose.Slides for .NET API 参考
-description: 将整个集合复制到指定数组。
+title: CopyTo
+second_title: Aspose.Sildes for .NET API Reference
+description: 将整个集合复制到指定的数组中。
 type: docs
 weight: 70
 url: /zh/aspose.slides.charts/chartseriescollection/copyto/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/chartseriescollection/copyto/
 
 ## ChartSeriesCollection.CopyTo 方法
 
-将整个集合复制到指定数组。
+将整个集合复制到指定的数组中。
 
 ```csharp
 public void CopyTo(Array array, int index)
@@ -20,7 +20,7 @@ public void CopyTo(Array array, int index)
 | array | Array | 目标数组 |
 | index | Int32 | 目标数组中的索引。 |
 
-### 另见
+### 另请参见
 
 * class [ChartSeriesCollection](../../chartseriescollection)
 * namespace [Aspose.Slides.Charts](../../chartseriescollection)

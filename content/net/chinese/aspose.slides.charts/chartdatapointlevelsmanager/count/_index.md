@@ -1,21 +1,21 @@
 ---
-title: 计数
-second_title: Aspose.Slides for .NET API 参考
-description: 返回数据点级别的计数。
+title: Count
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回数据点级别数量。
 type: docs
 weight: 10
 url: /zh/aspose.slides.charts/chartdatapointlevelsmanager/count/
 ---
 
-## ChartDataPointLevelsManager.Count 属性
+## ChartDataPointLevelsManager.Count property
 
-返回数据点级别的计数。
+返回数据点级别数量。
 
 ```csharp
 public int Count { get; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * class [ChartDataPointLevelsManager](../../chartdatapointlevelsmanager)
 * namespace [Aspose.Slides.Charts](../../chartdatapointlevelsmanager)

@@ -1,6 +1,6 @@
 ---  
-title: 清除  
-second_title: Aspose.Slides for .NET API 参考  
+title: Clear
+second_title: Aspose.Sildes for .NET API Reference  
 description: 从集合中移除所有元素。
 type: docs  
 weight: 240  
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/ichartdatapointcollection/clear/
 public void Clear()  
 ```  
 
-### 另请参阅  
+### 另见  
 
 * 接口 [IChartDataPointCollection](../../ichartdatapointcollection)  
 * 命名空间 [Aspose.Slides.Charts](../../ichartdatapointcollection)  

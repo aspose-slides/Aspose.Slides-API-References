@@ -1,6 +1,6 @@
 ---
 title: CopyTo
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 复制到指定数组。
 type: docs
 weight: 70
@@ -34,7 +34,7 @@ IMathElement[] destinationArray = new IMathElement[collection.Count];
 collection.CopyTo(destinationArray, 0);
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IMathElement](../../imathelement)
 * 接口 [IMathElementCollection](../../imathelementcollection)

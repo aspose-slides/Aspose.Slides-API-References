@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/presentationfactory/presentationfactory/
 ---
+
 ## PresentationFactory constructor
 
 The default constructor.

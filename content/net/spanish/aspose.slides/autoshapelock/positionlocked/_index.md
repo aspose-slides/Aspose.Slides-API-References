@@ -1,7 +1,7 @@
 ---
 title: PositionLocked
-second_title: Referencia de API de Aspose.Slidess para .NET
-description: Determina si mover esta forma está prohibido. Booleano de lectura/escritura.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Determina si se prohíbe mover esta forma. Booleano de lectura/escritura.
 type: docs
 weight: 60
 url: /es/aspose.slides/autoshapelock/positionlocked/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/autoshapelock/positionlocked/
 
 ## Propiedad AutoShapeLock.PositionLocked
 
-Determina si mover esta forma está prohibido. Booleano de lectura/escritura.
+Determina si se prohíbe mover esta forma. Booleano de lectura/escritura.
 
 ```csharp
 public bool PositionLocked { get; set; }
 ```
 
-### Véase también
+### Ver también
 
 * clase [AutoShapeLock](../../autoshapelock)
 * espacio de nombres [Aspose.Slides](../../autoshapelock)

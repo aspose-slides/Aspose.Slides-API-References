@@ -3,9 +3,10 @@ title: IFillFormatCollectionEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object that represents a readonly collection of effective fill formats.
 type: docs
-weight: 10590
+weight: 10930
 url: /aspose.slides.theme/ifillformatcollectioneffectivedata/
 ---
+
 ## IFillFormatCollectionEffectiveData interface
 
 Immutable object that represents a readonly collection of effective fill formats.

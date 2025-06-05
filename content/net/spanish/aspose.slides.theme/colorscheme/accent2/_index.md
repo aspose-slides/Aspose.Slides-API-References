@@ -1,6 +1,6 @@
 ---
 title: Accent2
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API Aspose.Slides para .NET
 description: Segundo color de acento en el esquema. Solo lectura IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 20
@@ -15,11 +15,11 @@ Segundo color de acento en el esquema. Solo lectura [`IColorFormat`](../../../as
 public IColorFormat Accent2 { get; }
 ```
 
-### Véase También
+### Véase también
 
 * interfaz [IColorFormat](../../../aspose.slides/icolorformat)
 * clase [ColorScheme](../../colorscheme)
-* namespace [Aspose.Slides.Theme](../../colorscheme)
+* espacio de nombres [Aspose.Slides.Theme](../../colorscheme)
 * ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

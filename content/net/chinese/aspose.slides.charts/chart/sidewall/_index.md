@@ -1,7 +1,7 @@
 ---
 title: SideWall
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回一个对象，该对象允许更改3D图表的侧壁格式。为只读 IChartWallaspose.slides/ichartwall。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回一个对象，该对象允许更改 3D 图表侧墙的格式。只读 IChartWallaspose.slides.charts/ichartwall。
 type: docs
 weight: 190
 url: /zh/aspose.slides.charts/chart/sidewall/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/chart/sidewall/
 
 ## Chart.SideWall 属性
 
-返回一个对象，该对象允许更改3D图表的侧壁格式。为只读 [`IChartWall`](../../ichartwall)。
+返回一个对象，该对象允许更改 3D 图表侧墙的格式。只读 [`IChartWall`](../../ichartwall)。
 
 ```csharp
 public IChartWall SideWall { get; }

@@ -1,7 +1,7 @@
 ---
 title: AsISlideComponent
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回 ISlideComponent 接口。只读 ISlideComponentaspose.slides/islidecomponent。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回 ISlideComponent 接口。只读 ISlideComponent aspose.slides/islidecomponent。
 type: docs
 weight: 70
 url: /zh/aspose.slides.theme/icolorscheme/asislidecomponent/
@@ -17,9 +17,9 @@ public ISlideComponent AsISlideComponent { get; }
 
 ### 备注
 
-用于 COM 兼容性。
+为了兼容 COM。
 
-### 另请参阅
+### 另请参见
 
 * 接口 [ISlideComponent](../../../aspose.slides/islidecomponent)
 * 接口 [IColorScheme](../../icolorscheme)

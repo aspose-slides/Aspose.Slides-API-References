@@ -1,7 +1,7 @@
 ---
 title: DrawSlidesFrame
-second_title: Aspose.Slides für .NET API-Referenz
-description: Wahr, um einen schwarzen Rahmen um jede Folie zu zeichnen. Lese-/schreibbares Boolean.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Wahr, um einen schwarzen Rahmen um jede Folie zu zeichnen. Lese-/Schreib-Boolean.
 type: docs
 weight: 70
 url: /de/aspose.slides.export/pdfoptions/drawslidesframe/
@@ -9,15 +9,15 @@ url: /de/aspose.slides.export/pdfoptions/drawslidesframe/
 
 ## PdfOptions.DrawSlidesFrame-Eigenschaft
 
-Wahr, um einen schwarzen Rahmen um jede Folie zu zeichnen. Lese-/schreibbares Boolean.
+Wahr, um einen schwarzen Rahmen um jede Folie zu zeichnen. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool DrawSlidesFrame { get; set; }
 ```
 
-### Anmerkungen
+### Bemerkungen
 
-Standard ist **false**.
+Standardwert ist **false**.
 
 ### Siehe auch
 

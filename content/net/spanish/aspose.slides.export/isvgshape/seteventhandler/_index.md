@@ -1,15 +1,15 @@
 ---
 title: SetEventHandler
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Establece el controlador de eventos para la forma
+second_title: Aspose.Slides para .NET API Reference
+description: Establece el manejador de eventos para la forma
 type: docs
 weight: 20
 url: /es/aspose.slides.export/isvgshape/seteventhandler/
 ---
 
-## Método ISvgShape.SetEventHandler
+## ISvgShape.SetEventHandler método
 
-Establece el controlador de eventos para la forma
+Establece el manejador de eventos para la forma
 
 ```csharp
 public void SetEventHandler(SvgEvent eventType, string handler)
@@ -18,7 +18,7 @@ public void SetEventHandler(SvgEvent eventType, string handler)
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | eventType | SvgEvent | Tipo de evento. |
-| handler | String | Función de Javascript para manejar el evento. Un valor nulo elimina el controlador. |
+| handler | String | Función Javascript para manejar el evento. El valor nulo elimina el manejador. |
 
 ### Ver También
 

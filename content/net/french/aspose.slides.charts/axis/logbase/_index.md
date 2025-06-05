@@ -1,6 +1,6 @@
 ---
 title: LogBase
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence d'API .NET
 description: Représente la base logarithmique. La valeur par défaut est 10. Lecture/écriture Double.
 type: docs
 weight: 330
@@ -15,7 +15,7 @@ Représente la base logarithmique. La valeur par défaut est 10. Lecture/écritu
 public double LogBase { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [Axis](../../axis)
 * espace de noms [Aspose.Slides.Charts](../../axis)

@@ -1,7 +1,7 @@
 ---
-title: 添加
-second_title: Aspose.Slides for .NET API 参考
-description: 如果集合中存在类别，返回该类别。否则，从 IChartDataCell 创建新的图表类别并将其添加到集合中。
+title: Add
+second_title: Aspose.Sildes for .NET API 参考
+description: 如果类别在集合中存在，则返回它。否则，从 IChartDataCell 创建新图表类别并将其添加到集合中。
 type: docs
 weight: 70
 url: /zh/aspose.slides.charts/chartcategorycollection/add/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/chartcategorycollection/add/
 
 ## Add(IChartDataCell) {#add}
 
-如果集合中存在类别，返回该类别。否则，从 [`IChartDataCell`](../../ichartdatacell) 创建新的图表类别并将其添加到集合中。
+如果类别在集合中存在，则返回它。否则，从 [`IChartDataCell`](../../ichartdatacell) 创建新图表类别并将其添加到集合中。
 
 ```csharp
 public IChartCategory Add(IChartDataCell chartDataCell)
@@ -21,9 +21,9 @@ public IChartCategory Add(IChartDataCell chartDataCell)
 
 ### 返回值
 
-添加的或现有的类别。
+已添加或现有的类别。
 
-### 另请参见
+### 另见
 
 * 接口 [IChartCategory](../../ichartcategory)
 * 接口 [IChartDataCell](../../ichartdatacell)
@@ -53,13 +53,13 @@ public IChartCategory Add(object value)
 
 | 异常 | 条件 |
 | --- | --- |
-| InvalidOperationException | 如果超出限制 |
+| InvalidOperationException | 如果超过限制 |
 
 ### 备注
 
-此方法会添加名为 AUTO_DATA 的工作表并将所有值添加到其中。如果您使用 [`ChartDataWorkbook`](../../chartdataworkbook) 添加或编辑单元格值，请确保您不使用此工作表。通过此方法添加的最大值数量不得超过 16711680。
+此方法添加名称为 AUTO_DATA 的工作表并将所有值添加到其中。如果您使用 [`ChartDataWorkbook`](../../chartdataworkbook) 来添加或编辑单元格值，请确保您不使用此工作表。通过此方法添加的值的最大数量不得超过 16711680。
 
-### 另请参见
+### 另见
 
 * 接口 [IChartCategory](../../ichartcategory)
 * 类 [ChartCategoryCollection](../../chartcategorycollection)

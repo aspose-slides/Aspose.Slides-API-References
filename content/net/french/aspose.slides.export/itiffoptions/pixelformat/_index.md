@@ -1,6 +1,6 @@
 ---
 title: PixelFormat
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Spécifie le format de pixel pour les images générées. Lire/écrire ImagePixelFormataspose.slides.export/imagepixelformat.
 type: docs
 weight: 80

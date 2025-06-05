@@ -1,7 +1,7 @@
 ---
 title: SubstitutePictureTitle
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Titel für das OleObject-Symbol zurück oder setzt ihn. Schreib-/Lesezeichen.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Titel für das OleObject-Symbol zurück oder setzt ihn. Lese-/Schreib-String.
 type: docs
 weight: 130
 url: /de/aspose.slides/oleobjectframe/substitutepicturetitle/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/oleobjectframe/substitutepicturetitle/
 
 ## OleObjectFrame.SubstitutePictureTitle-Eigenschaft
 
-Gibt den Titel für das OleObject-Symbol zurück oder setzt ihn. Schreib-/Lesezeichen.
+Gibt den Titel für das OleObject-Symbol zurück oder setzt ihn. Lese-/Schreib-String.
 
 ```csharp
 public string SubstitutePictureTitle { get; set; }
@@ -17,7 +17,7 @@ public string SubstitutePictureTitle { get; set; }
 
 ### Bemerkungen
 
-Wenn IsObjectIcon == false ist, wird dieser Wert ignoriert. Der String kann entsprechend der Größe des Ole-Symbols gekürzt werden.
+Wenn IsObjectIcon == false ist, wird dieser Wert ignoriert. Der String kann je nach Größe des Ole-Symbols gekürzt werden.
 
 ### Siehe auch
 

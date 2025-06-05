@@ -1,7 +1,7 @@
 ---
 title: IsErrorBarsYAllowed
-second_title: Aspose.Slides for .NET API 参考
-description: 返回指定系列类型是否允许错误条 Y。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回指定系列类型是否允许误差条 Y。
 type: docs
 weight: 170
 url: /zh/aspose.slides.charts/charttypecharacterizer/iserrorbarsyallowed/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/charttypecharacterizer/iserrorbarsyallowed/
 
 ## ChartTypeCharacterizer.IsErrorBarsYAllowed 方法
 
-返回指定系列类型是否允许错误条 Y。
+返回指定系列类型是否允许误差条 Y。
 
 ```csharp
 public static bool IsErrorBarsYAllowed(ChartType seriesType)
@@ -21,9 +21,9 @@ public static bool IsErrorBarsYAllowed(ChartType seriesType)
 
 ### 返回值
 
-如果允许则返回 true，否则返回 false。
+如果允许则为真，否则为假。
 
-### 另请参阅
+### 另见
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

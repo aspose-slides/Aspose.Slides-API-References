@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.mathtext/imathradical/base/
 ---
+
 ## IMathRadical.Base property
 
 Base argument

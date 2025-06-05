@@ -1,15 +1,15 @@
 ---
 title: IsAutomaticMajorUnit
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt an, ob die Hauptsparte der Achse automatisch zugewiesen ist. Lese-/Schreib-Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt an, ob die Haupt Einheit der Achse automatisch zugewiesen ist. Lese-/Schreib-Boolean.
 type: docs
 weight: 180
 url: /de/aspose.slides.charts/axis/isautomaticmajorunit/
 ---
 
-## Axis.IsAutomaticMajorUnit Eigenschaft
+## Axis.IsAutomaticMajorUnit-Eigenschaft
 
-Gibt an, ob die Hauptsparte der Achse automatisch zugewiesen ist. Lese-/Schreib-Boolean.
+Gibt an, ob die Haupt Einheit der Achse automatisch zugewiesen ist. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool IsAutomaticMajorUnit { get; set; }

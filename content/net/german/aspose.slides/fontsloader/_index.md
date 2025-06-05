@@ -1,15 +1,15 @@
 ---
 title: FontsLoader
 second_title: Aspose.Slides für .NET API Referenz
-description: Klasse zum Laden benutzerdefinierter Schriftarten, die vom Benutzer definiert wurden. Sollte vor der Erstellung von Präsentationsobjekten verwendet werden.
+description: Klasse zum Laden von benutzerdefinierten Schriftarten, die vom Benutzer definiert wurden. Sollte verwendet werden, bevor Präsentationsobjekte erstellt werden.
 type: docs
 weight: 4730
 url: /de/aspose.slides/fontsloader/
 ---
 
-## FontsLoader-Klasse
+## FontsLoader Klasse
 
-Klasse zum Laden benutzerdefinierter Schriftarten, die vom Benutzer definiert wurden. Sollte vor der Erstellung von Präsentationsobjekten verwendet werden.
+Klasse zum Laden von benutzerdefinierten Schriftarten, die vom Benutzer definiert wurden. Sollte verwendet werden, bevor Präsentationsobjekte erstellt werden.
 
 ```csharp
 public sealed class FontsLoader : IFontsLoader
@@ -19,12 +19,12 @@ public sealed class FontsLoader : IFontsLoader
 
 | Name | Beschreibung |
 | --- | --- |
-| static [ClearCache](../../aspose.slides/fontsloader/clearcache)() | Gibt alle benutzerdefinierten Schriftarten frei, die vom Benutzer definiert wurden |
-| static [GetFontFolders](../../aspose.slides/fontsloader/getfontfolders)() | Holt Schriftartenordner. Gibt Ordner zurück, die mit der Methode LoadExternalFonts hinzugefügt wurden, sowie Systemschriftartenordner |
-| static [LoadExternalFont](../../aspose.slides/fontsloader/loadexternalfont)(byte[]) | Fügt Schriftart aus den Binärdaten hinzu |
-| static [LoadExternalFonts](../../aspose.slides/fontsloader/loadexternalfonts)(string[]) | Fügt zusätzliche Ordner hinzu, um Schriftarten zu suchen. |
+| static [ClearCache](../../aspose.slides/fontsloader/clearcache)() | Gibt alle vom Benutzer definierten benutzerdefinierten Schriftarten frei |
+| static [GetFontFolders](../../aspose.slides/fontsloader/getfontfolders)() | Gibt Schriftartenordner zurück. Gibt Ordner zurück, die mit der Methode LoadExternalFonts hinzugefügt wurden, sowie Systemschriftartenordner |
+| static [LoadExternalFont](../../aspose.slides/fontsloader/loadexternalfont)(byte[]) | Fügt Schriftart aus den binären Daten hinzu |
+| static [LoadExternalFonts](../../aspose.slides/fontsloader/loadexternalfonts)(string[]) | Fügt zusätzliche Ordner zum Suchen von Schriftarten hinzu. |
 
-### Siehe Auch
+### Siehe auch
 
 * interface [IFontsLoader](../ifontsloader)
 * namespace [Aspose.Slides](../../aspose.slides)

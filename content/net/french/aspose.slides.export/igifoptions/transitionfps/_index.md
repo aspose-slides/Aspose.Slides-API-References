@@ -1,7 +1,7 @@
 ---
 title: TransitionFps
-second_title: Référence API Aspose.Slides pour .NET
-description: Obtient ou définit les FPS de transition images/sec La valeur par défaut est 25.
+second_title: Aspose.Slides pour .NET Référence API
+description: Obtient ou définit les FPS de transition frames/sec La valeur par défaut est 25.
 type: docs
 weight: 50
 url: /fr/aspose.slides.export/igifoptions/transitionfps/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/igifoptions/transitionfps/
 
 ## Propriété IGifOptions.TransitionFps
 
-Obtient ou définit les FPS de transition [images/sec] La valeur par défaut est 25.
+Obtient ou définit les FPS de transition [frames/sec] La valeur par défaut est 25.
 
 ```csharp
 public int TransitionFps { get; set; }
@@ -25,7 +25,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IGifOptions](../../igifoptions)
 * namespace [Aspose.Slides.Export](../../igifoptions)

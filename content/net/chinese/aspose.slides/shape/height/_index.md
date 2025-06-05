@@ -1,7 +1,7 @@
 ---
-title: 高度
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置形状的高度。可读/可写的单精度浮点数。
+title: Height
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置形状的高度。可读/写单精度浮点数。
 type: docs
 weight: 90
 url: /zh/aspose.slides/shape/height/
@@ -9,17 +9,17 @@ url: /zh/aspose.slides/shape/height/
 
 ## Shape.Height 属性
 
-返回或设置形状的高度。可读/可写的单精度浮点数。
+返回或设置形状的高度。可读/写单精度浮点数。
 
 ```csharp
 public float Height { get; set; }
 ```
 
-### 注释
+### 备注
 
-返回的值始终是定义的（不是 float.NaN）。分配的值必须是定义的（不是 float.NaN）。您可以为 RawFrame 实例属性设置未定义的值。
+返回的值始终是定义的（不是 float.NaN）。赋值必须是定义的（不是 float.NaN）。您可以为 RawFrame 实例属性设置未定义的值。
 
-### 另请参阅
+### 另请参见
 
 * class [Shape](../../shape)
 * namespace [Aspose.Slides](../../shape)

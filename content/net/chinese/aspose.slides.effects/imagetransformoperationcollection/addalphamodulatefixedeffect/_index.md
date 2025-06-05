@@ -1,6 +1,6 @@
 ---
 title: AddAlphaModulateFixedEffect
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 将新的 Alpha Modulate Fixed 效果添加到集合的末尾。
 type: docs
 weight: 100
@@ -17,11 +17,11 @@ public IAlphaModulateFixed AddAlphaModulateFixedEffect(float amount)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| amount | Single | 用于缩放 alpha 的百分比值。 |
+| amount | Single | 要缩放 alpha 的百分比。 |
 
 ### 返回值
 
-新图像效果在集合中的索引。
+集合中新图像效果的索引。
 
 ### 另请参阅
 

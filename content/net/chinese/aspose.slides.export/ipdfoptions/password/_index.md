@@ -1,7 +1,7 @@
 ---
-title: 密码
-second_title: Aspose.Slides for .NET API 参考
-description: 设置用户密码以保护 PDF 文档。可读/写字符串。
+title: Password
+second_title: Aspose.Slides for .NET API Reference
+description: 设置用户密码以保护 PDF 文档。读/写字符串。
 type: docs
 weight: 140
 url: /zh/aspose.slides.export/ipdfoptions/password/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.export/ipdfoptions/password/
 
 ## IPdfOptions.Password 属性
 
-设置用户密码以保护 PDF 文档。可读/写字符串。
+设置用户密码以保护 PDF 文档。读/写字符串。
 
 ```csharp
 public string Password { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IPdfOptions](../../ipdfoptions)
 * 命名空间 [Aspose.Slides.Export](../../ipdfoptions)

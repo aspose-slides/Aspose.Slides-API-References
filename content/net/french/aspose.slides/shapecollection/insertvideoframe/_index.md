@@ -1,6 +1,6 @@
 ---
 title: InsertVideoFrame
-second_title: Référence API d'Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Crée un nouveau cadre vidéo et l'insère dans une collection à l'index spécifié.
 type: docs
 weight: 400
@@ -18,7 +18,7 @@ public IVideoFrame InsertVideoFrame(int index, float x, float y, float width, fl
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | L'index basé sur zéro à lequel le cadre vidéo doit être inséré. |
+| index | Int32 | L'index basé sur zéro auquel le cadre vidéo doit être inséré. |
 | x | Single | Coordonnée X d'un nouveau cadre vidéo. |
 | y | Single | Coordonnée Y d'un nouveau cadre vidéo. |
 | width | Single | Largeur d'un nouveau cadre vidéo. |

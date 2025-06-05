@@ -1,7 +1,7 @@
 ---
 title: RawFrame
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置原始形状框架属性。读/写 IShapeFrameaspose.slides/ishapeframe。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置原始形状框架属性。可读写 IShapeFrame。
 type: docs
 weight: 230
 url: /zh/aspose.slides/shape/rawframe/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/shape/rawframe/
 
 ## Shape.RawFrame 属性
 
-返回或设置原始形状框架的属性。读/写 [`IShapeFrame`](../../ishapeframe)。
+返回或设置原始形状框架的属性。可读写 [`IShapeFrame`](../../ishapeframe)。
 
 ```csharp
 public IShapeFrame RawFrame { get; set; }
@@ -17,27 +17,27 @@ public IShapeFrame RawFrame { get; set; }
 
 ### 示例
 
-代码尝试将未定义的框架分配给 IShape.Frame 在一般情况下是没有意义的（特别是在父 GroupShape 被多次嵌套到其他 GroupShape 中的情况下）。例如：
+尝试将未定义框架分配给 IShape.Frame 的代码在一般情况下是没有意义的（特别是在父 GroupShape 多层嵌套到其他 GroupShape 的情况下）。例如：
 
 ```csharp
 IShape shape = ...;
 shape.Frame = new ShapeFrame(float.NaN, float.NaN, float.NaN, float.NaN, NullableBool.NotDefined, NullableBool.NotDefined, float.NaN);
 ```
 
-或
+或者
 
 ```csharp
 slide.Shapes.AddAutoShape(ShapeType.RoundCornerRectangle, float.NaN, float.NaN, float.NaN, float.NaN);
 ```
 
-这样的代码可能会导致不明确的情况。因此，规定了对 IShape.Frame 使用未定义值的限制。x、y、宽度、高度、flipH、flipV 和 rotationAngle 的值必须是定义的（不能是 float.NaN 或 NullableBool.NotDefined）。上述示例代码现在会抛出 ArgumentException 异常。这适用于以下用例：
+这样的代码可能会导致不明确的情况。因此，对于 IShape.Frame 的未定义值使用添加了限制。x、y、width、height、flipH、flipV 和 rotationAngle 的值必须被定义（不能是 float.NaN 或 NullableBool.NotDefined）。上述示例代码现在会抛出 ArgumentException 异常。这适用于以下用例：
 
 ```csharp
 IShape shape = ...;
-shape.Frame = ...; // 不能是未定义的
+shape.Frame = ...; // 不能未定义
 
 IShapeCollection shapes = ...;
-// x, y, width, height 参数不能是 float.NaN:
+// x、y、width、height 参数不能是 float.NaN:
 {
     shapes.AddAudioFrameCD(...);
     shapes.AddAudioFrameEmbedded(...);
@@ -62,14 +62,14 @@ IShapeCollection shapes = ...;
 }
 ```
 
-但是 IShape.RawFrame 的框架属性可以未定义。当形状链接到占位符时，这是有意义的。然后未定义的形状框架值会从父占位符形状中覆盖。如果该形状没有父占位符形状，则该形状在基于其 IShape.RawFrame 评估有效框架时使用默认值。默认值为 0 和 NullableBool.False，适用于 x、y、宽度、高度、flipH、flipV 和 rotationAngle。例如：
+但 IShape.RawFrame 框架属性可以是未定义的。当形状链接到占位符时，这是有意义的。然后，未定义的形状框架值从父占位符形状继承。如果该形状没有父占位符形状，则该形状在评估其 IShape.RawFrame 时使用默认值。默认值为 x、y、width、height、flipH、flipV 和 rotationAngle 的值为 0 和 NullableBool.False。例如：
 
 ```csharp
 IShape shape = ...; // 形状链接到占位符
-shape.RawFrame = new ShapeFrame(float.NaN, float.NaN, 100, float.NaN, NullableBool.NotDefined, NullableBool.NotDefined, 0); // 现在形状从占位符继承 x、y、高度、flipH、flipV 的值，并覆盖 width=100 和 rotationAngle=0。
+shape.RawFrame = new ShapeFrame(float.NaN, float.NaN, 100, float.NaN, NullableBool.NotDefined, NullableBool.NotDefined, 0); // 现在形状从占位符继承 x、y、高度、flipH、flipV 值，并覆盖宽度=100 和 rotationAngle=0。
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IShapeFrame](../../ishapeframe)
 * 类 [Shape](../../shape)

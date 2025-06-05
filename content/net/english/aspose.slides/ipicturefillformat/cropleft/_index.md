@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ipicturefillformat/cropleft/
 ---
+
 ## IPictureFillFormat.CropLeft property
 
 Returns or sets the number of percents of real image width that are cropped off the left of the picture. Read/write Single.

@@ -1,7 +1,7 @@
 ---
-title: 项目
-second_title: Aspose.Slides for .NET API 参考
-description: 获取指定索引的元素。只读 IColorFormat aspose.slides/icolorformat。
+title: Item
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取指定索引处的元素。只读 IColorFormataspose.slides/icolorformat。
 type: docs
 weight: 120
 url: /zh/aspose.slides.theme/icolorscheme/item/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.theme/icolorscheme/item/
 
 ## IColorScheme 索引器
 
-获取指定索引的元素。只读 [`IColorFormat`](../../../aspose.slides/icolorformat)。
+获取指定索引处的元素。只读 [`IColorFormat`](../../../aspose.slides/icolorformat)。
 
 ```csharp
 public IColorFormat this[ColorSchemeIndex index] { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IColorFormat](../../../aspose.slides/icolorformat)
 * 枚举 [ColorSchemeIndex](../../../aspose.slides/colorschemeindex)

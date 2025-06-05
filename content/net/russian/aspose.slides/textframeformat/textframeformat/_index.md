@@ -15,7 +15,7 @@ url: /ru/aspose.slides/textframeformat/textframeformat/
 public TextFrameFormat()
 ```
 
-### См. Также
+### См. также
 
 * класс [TextFrameFormat](../../textframeformat)
 * пространство имен [Aspose.Slides](../../textframeformat)

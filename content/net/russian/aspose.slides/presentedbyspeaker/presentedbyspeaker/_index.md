@@ -1,6 +1,6 @@
 ---
 title: PresentedBySpeaker
-second_title: Aspose.Slides для .NET API Справка
+second_title: Aspose.Sildes для .NET API Справочник
 description: Инициализирует новый экземпляр класса PresentedBySpeaker.
 type: docs
 weight: 10
@@ -26,7 +26,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### См. Также
+### Смотрите также
 
 * класс [PresentedBySpeaker](../../presentedbyspeaker)
 * пространство имен [Aspose.Slides](../../presentedbyspeaker)

@@ -1,7 +1,7 @@
 ---
-title: Disponer
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Dispone la instancia del PresentationAnimationsGeneratoraspose.slides.export/presentationanimationsgenerator.
+title: Dispose
+second_title: Aspose.Slides para .NET Referencia de API
+description: Elimina la instancia de la clase PresentationAnimationsGeneratoraspose.slides.export/presentationanimationsgenerator.
 type: docs
 weight: 70
 url: /es/aspose.slides.export/presentationanimationsgenerator/dispose/
@@ -9,16 +9,16 @@ url: /es/aspose.slides.export/presentationanimationsgenerator/dispose/
 
 ## Método PresentationAnimationsGenerator.Dispose
 
-Dispone la instancia del [`PresentationAnimationsGenerator`](../../presentationanimationsgenerator).
+Elimina la instancia de la clase [`PresentationAnimationsGenerator`](../../presentationanimationsgenerator).
 
 ```csharp
 public void Dispose()
 ```
 
-### Ver También
+### Véase también
 
 * clase [PresentationAnimationsGenerator](../../presentationanimationsgenerator)
 * espacio de nombres [Aspose.Slides.Export](../../presentationanimationsgenerator)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

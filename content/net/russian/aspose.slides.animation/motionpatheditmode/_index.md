@@ -1,7 +1,7 @@
 ---
 title: MotionPathEditMode
-second_title: Aspose.Slides для .NET API Ссылка
-description: Указывает, как движется путь движения при перемещении целевой формы
+second_title: Aspose.Sildes для .NET API Справочник
+description: Определяет, как движется путь анимации, когда перемещается целевая фигура
 type: docs
 weight: 620
 url: /ru/aspose.slides.animation/motionpatheditmode/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.animation/motionpatheditmode/
 
 ## Перечисление MotionPathEditMode
 
-Указывает, как движется путь движения при перемещении целевой формы
+Определяет, как движется путь анимации, когда перемещается целевая фигура
 
 ```csharp
 public enum MotionPathEditMode
@@ -17,13 +17,13 @@ public enum MotionPathEditMode
 
 ### Значения
 
-| Имя | Значение | Описание |
+| Название | Значение | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Relative | `0` |  |
 | Fixed | `1` |  |
 
-### См. также
+### См. Также
 
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)

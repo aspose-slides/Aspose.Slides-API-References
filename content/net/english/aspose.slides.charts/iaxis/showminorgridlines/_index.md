@@ -6,6 +6,7 @@ type: docs
 weight: 490
 url: /aspose.slides.charts/iaxis/showminorgridlines/
 ---
+
 ## IAxis.ShowMinorGridLines property
 
 Represents if the minor gridlines showed. Read-only Boolean.

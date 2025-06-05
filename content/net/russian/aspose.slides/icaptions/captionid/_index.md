@@ -1,13 +1,13 @@
 ---
 title: CaptionId
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET Справочник по API
 description: Возвращает глобально уникальный идентификатор GUID закрытых субтитров. Только для чтения Guid.
 type: docs
 weight: 20
 url: /ru/aspose.slides/icaptions/captionid/
 ---
 
-## Свойство ICaptions.CaptionId
+## ICaptions.CaptionId свойство
 
 Возвращает глобально уникальный идентификатор (GUID) закрытых субтитров. Только для чтения Guid.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/icaptions/captionid/
 public Guid CaptionId { get; }
 ```
 
-### Также см. 
+### См. также
 
 * интерфейс [ICaptions](../../icaptions)
 * пространство имен [Aspose.Slides](../../icaptions)

@@ -1,7 +1,7 @@
 ---
 title: IFieldType
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente un type de champ. Cette valeur détermine quel texte sera défini pour la portion de champ lorsqu'elle sera mise à jour.
+description: Représente un type de champ. Cette valeur détermine quel texte sera défini pour la portion de champ lorsqu'il sera mis à jour.
 type: docs
 weight: 5580
 url: /fr/aspose.slides/ifieldtype/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ifieldtype/
 
 ## Interface IFieldType
 
-Représente un type de champ. Cette valeur détermine quel texte sera défini pour la portion de champ lorsqu'elle sera mise à jour.
+Représente un type de champ. Cette valeur détermine quel texte sera défini pour la portion de champ lorsqu'il sera mis à jour.
 
 ```csharp
 public interface IFieldType

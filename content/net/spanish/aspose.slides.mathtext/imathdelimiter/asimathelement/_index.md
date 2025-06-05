@@ -15,11 +15,11 @@ Permite obtener la interfaz base IMathElement [`IMathElement`](../../imathelemen
 public IMathElement AsIMathElement { get; }
 ```
 
-### Vea También
+### Vea también
 
 * interfaz [IMathElement](../../imathelement)
 * interfaz [IMathDelimiter](../../imathdelimiter)
 * espacio de nombres [Aspose.Slides.MathText](../../imathdelimiter)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

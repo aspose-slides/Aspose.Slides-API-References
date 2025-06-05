@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/imathdelimiter/arguments/
 ---
+
 ## IMathDelimiter.Arguments property
 
 One or more mathematical elements separated by delimiter characters

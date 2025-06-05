@@ -6,6 +6,7 @@ type: docs
 weight: 340
 url: /aspose.slides.charts/chartseries/quartilemethod/
 ---
+
 ## ChartSeries.QuartileMethod property
 
 Represents quartile method. Applies only to BoxAndWhisker charts.

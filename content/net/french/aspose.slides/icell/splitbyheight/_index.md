@@ -7,7 +7,7 @@ weight: 250
 url: /fr/aspose.slides/icell/splitbyheight/
 ---
 
-## Méthode ICell.SplitByHeight
+## ICell.SplitByHeight méthode
 
 Divise la cellule par hauteur.
 
@@ -17,7 +17,7 @@ public void SplitByHeight(double height)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| height | Double | Hauteur d'une rangée. |
+| height | Double | Hauteur d'une ligne. |
 
 ### Voir aussi
 

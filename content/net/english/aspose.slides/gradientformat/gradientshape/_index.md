@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/gradientformat/gradientshape/
 ---
+
 ## GradientFormat.GradientShape property
 
 Returns or sets the shape of a gradient. Read/write [`GradientShape`](../../gradientshape).

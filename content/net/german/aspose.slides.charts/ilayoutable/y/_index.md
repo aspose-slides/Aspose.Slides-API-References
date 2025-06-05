@@ -1,7 +1,7 @@
 ---
 title: Y
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die obere Grenze des Diagrammelements als Bruchteil der Höhe des Diagramms an. Lese-/Schreibzugriff auf Single.
+description: Gibt die obere Position des Diagrammelements als Bruchteil der Höhe des Diagramms an. Lese-/Schreibzugriff auf Single.
 type: docs
 weight: 70
 url: /de/aspose.slides.charts/ilayoutable/y/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/ilayoutable/y/
 
 ## ILayoutable.Y-Eigenschaft
 
-Gibt die obere Grenze des Diagrammelements als Bruchteil der Höhe des Diagramms an. Lese-/Schreibzugriff auf Single.
+Gibt die obere Position des Diagrammelements als Bruchteil der Höhe des Diagramms an. Lese-/Schreibzugriff auf Single.
 
 ```csharp
 public float Y { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ILayoutable](../../ilayoutable)
 * Namespace [Aspose.Slides.Charts](../../ilayoutable)

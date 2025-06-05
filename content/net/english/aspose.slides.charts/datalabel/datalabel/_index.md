@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/datalabel/datalabel/
 ---
+
 ## DataLabel constructor
 
 Creates a new instance of DataLabel class.

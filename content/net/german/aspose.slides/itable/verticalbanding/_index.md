@@ -1,7 +1,7 @@
 ---
 title: VerticalBanding
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob die geraden Spalten mit einer anderen Formatierung gezeichnet werden müssen. Lese-/Schreib-Booleans.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Bestimmt, ob die geraden Spalten mit einem anderen Formatierung gezeichnet werden sollen. Lese-/Schreib-Boolean.
 type: docs
 weight: 140
 url: /de/aspose.slides/itable/verticalbanding/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/itable/verticalbanding/
 
 ## ITable.VerticalBanding-Eigenschaft
 
-Bestimmt, ob die geraden Spalten mit einer anderen Formatierung gezeichnet werden müssen. Lese-/Schreib-Boolean.
+Bestimmt, ob die geraden Spalten mit einem anderen Formatierung gezeichnet werden sollen. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool VerticalBanding { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ITable](../../itable)
 * Namespace [Aspose.Slides](../../itable)

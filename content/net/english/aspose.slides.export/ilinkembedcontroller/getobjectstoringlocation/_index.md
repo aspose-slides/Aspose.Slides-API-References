@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation/
 ---
+
 ## ILinkEmbedController.GetObjectStoringLocation method
 
 Determines where object should be stored. This method is called once for each object id. It is not guaranteed that there won't be two objects with same data, semanticName and contentType but with different id.

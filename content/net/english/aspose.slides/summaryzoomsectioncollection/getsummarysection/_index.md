@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/summaryzoomsectioncollection/getsummarysection/
 ---
+
 ## SummaryZoomSectionCollection.GetSummarySection method
 
 Returns Summary Zoom Section element for the given section.

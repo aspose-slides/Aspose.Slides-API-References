@@ -1,6 +1,6 @@
 ---
-title: Токен
-second_title: Справочник по API Aspose.Slidеs для .NET
+title: Token
+second_title: Aspose.Sildes для справочника API .NET
 description: Возвращает новый токен, связанный с этим IInterruptionTokenSourceaspose.slides/iinterruptiontokensource.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/iinterruptiontokensource/token/
 public IInterruptionToken Token { get; }
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [IInterruptionToken](../../iinterruptiontoken)
 * интерфейс [IInterruptionTokenSource](../../iinterruptiontokensource)

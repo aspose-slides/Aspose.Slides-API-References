@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides/slidecollection/insertclone/
 ---
+
 ## InsertClone(int, ISlide) {#insertclone}
 
 Inserts a copy of a specified slide to specified position of the collection.

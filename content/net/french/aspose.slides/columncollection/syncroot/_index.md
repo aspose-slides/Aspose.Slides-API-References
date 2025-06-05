@@ -1,6 +1,6 @@
 ---
 title: SyncRoot
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Reference
 description: Renvoie une racine de synchronisation. Objet en lecture seule.
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ Renvoie une racine de synchronisation. Objet en lecture seule.
 public object SyncRoot { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [ColumnCollection](../../columncollection)
 * espace de noms [Aspose.Slides](../../columncollection)

@@ -1,15 +1,15 @@
 ---
 title: RotationCenter
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Décrit le centre de rotation utilisé pour faire pivoter un chemin de mouvement par un angle X. Propriété PointF en lecture/écriture.
+description: Décrit le centre de la rotation utilisé pour faire pivoter un chemin d'animation d'un angle X. Lecture/écriture PointF.
 type: docs
 weight: 80
 url: /fr/aspose.slides.animation/imotioneffect/rotationcenter/
 ---
 
-## Propriété IMotionEffect.RotationCenter
+## IMotionEffect.RotationCenter propriété
 
-Décrit le centre de rotation utilisé pour faire pivoter un chemin de mouvement par un angle X. Propriété PointF en lecture/écriture.
+Décrit le centre de la rotation utilisé pour faire pivoter un chemin d'animation d'un angle X. Lecture/écriture PointF.
 
 ```csharp
 public PointF RotationCenter { get; set; }

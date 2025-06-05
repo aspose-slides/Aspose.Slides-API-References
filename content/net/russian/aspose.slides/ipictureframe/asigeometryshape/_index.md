@@ -1,6 +1,6 @@
 ---
 title: AsIGeometryShape
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справка по API Aspose.Slides для .NET
 description: Позволяет получить базовый интерфейс IGeometryShape. Только для чтения IGeometryShapeaspose.slides/igeometryshape.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ipictureframe/asigeometryshape/
 public IGeometryShape AsIGeometryShape { get; }
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [IGeometryShape](../../igeometryshape)
 * интерфейс [IPictureFrame](../../ipictureframe)

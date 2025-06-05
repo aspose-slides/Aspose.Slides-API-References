@@ -7,7 +7,7 @@ weight: 30
 url: /es/aspose.slides/icommonslideviewproperties/variablescale/
 ---
 
-## Propiedad ICommonSlideViewProperties.VariableScale
+## ICommonSlideViewProperties.VariableScale property
 
 Especifica que el contenido de la vista debe escalarse automáticamente para ajustarse mejor al tamaño de la ventana actual. Booleano de lectura/escritura.
 

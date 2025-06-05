@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.charts/chartseriescollection/removeat/
 ---
+
 ## ChartSeriesCollection.RemoveAt method
 
 Removes an ActiveX control stored at specified position from the collection.

@@ -1,15 +1,15 @@
 ---
 title: TileOffsetX
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den horizontalen Offset der Textur vom Ursprung der Formen in Punkten zurück oder setzt ihn. Ein positiver Wert verschiebt die Textur nach rechts, während ein negativer Wert sie nach links verschiebt. Lesen/Schreiben Single.
+second_title: Aspose.Slides for .NET API Reference
+description: Gibt den horizontalen Versatz der Textur von der Ursprung der Form in Punkten zurück oder setzt ihn. Ein positiver Wert verschiebt die Textur nach rechts, während ein negativer Wert sie nach links verschiebt. Lesen/Schreiben Einzel.
 type: docs
 weight: 150
 url: /de/aspose.slides/ipicturefillformat/tileoffsetx/
 ---
 
-## IPictureFillFormat.TileOffsetX Eigenschaft
+## IPictureFillFormat.TileOffsetX-Eigenschaft
 
-Gibt den horizontalen Offset der Textur vom Ursprung der Form in Punkten zurück oder setzt ihn. Ein positiver Wert verschiebt die Textur nach rechts, während ein negativer Wert sie nach links verschiebt. Lesen/Schreiben Single.
+Gibt den horizontalen Versatz der Textur von der Ursprung der Form in Punkten zurück oder setzt ihn. Ein positiver Wert verschiebt die Textur nach rechts, während ein negativer Wert sie nach links verschiebt. Lesen/Schreiben Einzel.
 
 ```csharp
 public float TileOffsetX { get; set; }
@@ -23,18 +23,18 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 {
     ISlide slide = presentation.Slides[0];
 
-    // Ruft das Picture Fill Format der Form ab
+    // Ruft das Bildfüllformat der Form ab
     IPictureFillFormat pictureFillFormat = slide.Shapes[0].FillFormat.PictureFillFormat;
 
-    // Setzt den Modus des Picture Fill auf Tile
+    // Setzt den Bildfüllmodus auf Kachel
     pictureFillFormat.PictureFillMode = PictureFillMode.Tile;
 
-    // Setzt den horizontalen Offset der Textur auf 20 Punkte
+    // Setzt den horizontalen Versatz der Textur auf 20 Punkte
     pictureFillFormat.TileOffsetX = 20f;
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IPictureFillFormat](../../ipicturefillformat)
 * Namespace [Aspose.Slides](../../ipicturefillformat)

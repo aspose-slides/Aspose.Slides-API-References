@@ -15,13 +15,13 @@ Kopiert das Textformat aus dem angegebenen Textfeld.
 public void CopyFrom(ITextFrame sourceTextFrame)
 ```
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| sourceTextFrame | ITextFrame | Textfeld, aus dem das Textformat kopiert werden soll. |
+| Parameter           | Typ       | Beschreibung                           |
+| ------------------- | --------- | ------------------------------------- |
+| sourceTextFrame     | ITextFrame| Textfeld, aus dem das Textformat kopiert wird. |
 
 ### Siehe auch
 
-* Schnittstelle [ITextFrame](../../../aspose.slides/itextframe)
+* Interface [ITextFrame](../../../aspose.slides/itextframe)
 * Klasse [ChartTextFormat](../../charttextformat)
 * Namespace [Aspose.Slides.Charts](../../charttextformat)
 * Assembly [Aspose.Slides](../../../)

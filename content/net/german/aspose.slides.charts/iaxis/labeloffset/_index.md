@@ -1,7 +1,7 @@
 ---
 title: LabelOffset
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Entfernung der Labels von der Achse an. Anwendbar auf Kategorien- oder Datumsachsen. Der Wert muss zwischen 0 und 1000 liegen. Lesend/schreibend UInt16.
+description: Gibt die Entfernung der Beschriftungen von der Achse an. Anwendbar auf die Kategorien- oder Datumsachse. Der Wert muss zwischen 0 und 1000 liegen. Lese-/Schreibzugriff UInt16.
 type: docs
 weight: 320
 url: /de/aspose.slides.charts/iaxis/labeloffset/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/iaxis/labeloffset/
 
 ## IAxis.LabelOffset-Eigenschaft
 
-Gibt die Entfernung der Labels von der Achse an. Anwendbar auf Kategorien- oder Datumsachsen. Der Wert muss zwischen 0% und 1000% liegen. Lesend/schreibend UInt16.
+Gibt die Entfernung der Beschriftungen von der Achse an. Anwendbar auf die Kategorien- oder Datumsachse. Der Wert muss zwischen 0 % und 1000 % liegen. Lese-/Schreibzugriff UInt16.
 
 ```csharp
 public ushort LabelOffset { get; set; }

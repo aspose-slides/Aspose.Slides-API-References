@@ -1,15 +1,15 @@
 ---
-title: Élément
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie l'élément à l'index spécifié.
+title: Item
+second_title: Aspose.Slides pour la référence API .NET
+description: Retourne l'élément à l'index spécifié.
 type: docs
 weight: 30
 url: /fr/aspose.slides/customxmlpartcollection/item/
 ---
 
-## Indexeur CustomXmlPartCollection
+## CustomXmlPartCollection indexer
 
-Renvoie l'élément à l'index spécifié.
+Retourne l'élément à l'index spécifié.
 
 ```csharp
 public ICustomXmlPart this[int index] { get; }
@@ -17,9 +17,9 @@ public ICustomXmlPart this[int index] { get; }
 
 | Paramètre | Description |
 | --- | --- |
-| index | L'index de l'élément à obtenir, basé sur zéro. |
+| index | L'index basé sur zéro de l'élément à obtenir. |
 
-### Valeur de retour
+### Valeur de Retour
 
 L'élément à l'index spécifié.
 
@@ -27,9 +27,9 @@ L'élément à l'index spécifié.
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | index est inférieur à 0. - ou - index est égal ou supérieur à Count |
+| ArgumentOutOfRangeException | index est inférieur à 0.-ou-index est égal ou supérieur à Count |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ICustomXmlPart](../../icustomxmlpart)
 * class [CustomXmlPartCollection](../../customxmlpartcollection)

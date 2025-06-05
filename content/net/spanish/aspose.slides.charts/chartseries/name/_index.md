@@ -1,5 +1,5 @@
 ---
-title: Nombre
+title: Name
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el nombre de la serie. Solo lectura IStringChartValueaspose.slides.charts/istringchartvalue.
 type: docs
@@ -15,11 +15,11 @@ Devuelve el nombre de la serie. Solo lectura [`IStringChartValue`](../../istring
 public IStringChartValue Name { get; }
 ```
 
-### Véase también
+### Ver también
 
 * interfaz [IStringChartValue](../../istringchartvalue)
 * clase [ChartSeries](../../chartseries)
 * espacio de nombres [Aspose.Slides.Charts](../../chartseries)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

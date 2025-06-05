@@ -17,16 +17,16 @@ public void RemoveAt(int index)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 要移除的元素的零基础索引。 |
+| index | Int32 | 要移除的元素的零基索引。 |
 
 ### 异常
 
-| 异常 | 条件 |
+| exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | 索引小于 0 或索引等于或大于 Count |
-| [PptxEditException](../../pptxeditexception) | 如果作者已经被移除则抛出。 |
+| ArgumentOutOfRangeException | 索引小于0或索引等于或大于Count |
+| [PptxEditException](../../pptxeditexception) | 如果作者已被移除，则抛出。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [ICommentAuthorCollection](../../icommentauthorcollection)
 * 命名空间 [Aspose.Slides](../../icommentauthorcollection)

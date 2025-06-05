@@ -1,7 +1,7 @@
 ---
-title: SekundäreHorizontaleAchse
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft die sekundäre horizontale Achse des Diagramms ab. Nur-Lese-IAxisaspose.slides.charts/iaxis.
+title: SecondaryHorizontalAxis
+second_title: Aspose.Slides für .NET API Referenz
+description: Erhält die sekundäre horizontale Achse des Diagramms. Nur-Lesen IAxisaspose.slides.charts/iaxis.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/axesmanager/secondaryhorizontalaxis/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/axesmanager/secondaryhorizontalaxis/
 
 ## AxesManager.SecondaryHorizontalAxis-Eigenschaft
 
-Ruft die sekundäre horizontale Achse des Diagramms ab. Nur-Lese- [`IAxis`](../../iaxis).
+Erhält die sekundäre horizontale Achse des Diagramms. Nur-Lesen [`IAxis`](../../iaxis).
 
 ```csharp
 public IAxis SecondaryHorizontalAxis { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IAxis](../../iaxis)
 * Klasse [AxesManager](../../axesmanager)

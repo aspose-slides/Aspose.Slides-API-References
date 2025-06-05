@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/ipicturefillformateffectivedata/croptop/
 ---
+
 ## IPictureFillFormatEffectiveData.CropTop property
 
 Returns the number of percents of real image height that are cropped off the top of the picture. Read-only Single.

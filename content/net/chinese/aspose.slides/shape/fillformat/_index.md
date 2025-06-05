@@ -1,7 +1,7 @@
 ---
-title: 填充格式
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回包含形状填充格式属性的 FillFormat 对象。注意，对于某些没有填充属性的形状类型，可以返回 null。只读 IFillFormataspose.slides/ifillformat。
+title: FillFormat
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回包含形状填充格式属性的 FillFormat 对象。请注意，对于某些没有填充属性的形状类型，可以返回 null。只读 IFillFormat aspose.slides/ifillformat。
 type: docs
 weight: 70
 url: /zh/aspose.slides/shape/fillformat/
@@ -17,7 +17,7 @@ public virtual IFillFormat FillFormat { get; }
 
 ### 示例
 
-以下示例显示如何更改 PowerPoint 演示文稿主题的强调颜色。
+以下示例演示如何更改 PowerPoint 演示文稿主题的强调色。
 
 ```csharp
 [C#]
@@ -29,41 +29,41 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-以下示例演示如何从主主题颜色中获取调色板颜色，然后在形状中使用。
+以下示例演示如何从主主题颜色中获取调色板颜色，并在形状中使用。
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation())
 {
     ISlide slide = presentation.Slides[0];
-    // 强调 4
+    // 强调色 4
     IShape shape1 = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 10, 10, 50, 50);
     shape1.FillFormat.FillType = FillType.Solid;
     shape1.FillFormat.SolidFillColor.SchemeColor = SchemeColor.Accent4;
-    // 强调 4, 更亮 80%
+    // 强调色 4, 更亮 80%
     IShape shape2 = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 10, 70, 50, 50);
     shape2.FillFormat.FillType = FillType.Solid;
     shape2.FillFormat.SolidFillColor.SchemeColor = SchemeColor.Accent4;
     shape2.FillFormat.SolidFillColor.ColorTransform.Add(ColorTransformOperation.MultiplyLuminance, 0.2f);
     shape2.FillFormat.SolidFillColor.ColorTransform.Add(ColorTransformOperation.AddLuminance, 0.8f);
-    // 强调 4, 更亮 60%
+    // 强调色 4, 更亮 60%
     IShape shape3 = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 10, 130, 50, 50);
     shape3.FillFormat.FillType = FillType.Solid;
     shape3.FillFormat.SolidFillColor.SchemeColor = SchemeColor.Accent4;
     shape3.FillFormat.SolidFillColor.ColorTransform.Add(ColorTransformOperation.MultiplyLuminance, 0.4f);
     shape3.FillFormat.SolidFillColor.ColorTransform.Add(ColorTransformOperation.AddLuminance, 0.6f);
-    // 强调 4, 更亮 40%
+    // 强调色 4, 更亮 40%
     IShape shape4 = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 10, 190, 50, 50);
     shape4.FillFormat.FillType = FillType.Solid;
     shape4.FillFormat.SolidFillColor.SchemeColor = SchemeColor.Accent4;
     shape4.FillFormat.SolidFillColor.ColorTransform.Add(ColorTransformOperation.MultiplyLuminance, 0.6f);
     shape4.FillFormat.SolidFillColor.ColorTransform.Add(ColorTransformOperation.AddLuminance, 0.4f);
-    // 强调 4, 更暗 25%
+    // 强调色 4, 更暗 25%
     IShape shape5 = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 10, 250, 50, 50);
     shape5.FillFormat.FillType = FillType.Solid;
     shape5.FillFormat.SolidFillColor.SchemeColor = SchemeColor.Accent4;
     shape5.FillFormat.SolidFillColor.ColorTransform.Add(ColorTransformOperation.MultiplyLuminance, 0.75f);
-    // 强调 4, 更暗 50%
+    // 强调色 4, 更暗 50%
     IShape shape6 = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 10, 310, 50, 50);
     shape6.FillFormat.FillType = FillType.Solid;
     shape6.FillFormat.SolidFillColor.SchemeColor = SchemeColor.Accent4;
@@ -72,7 +72,7 @@ using (Presentation presentation = new Presentation())
 }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IFillFormat](../../ifillformat)
 * 类 [Shape](../../shape)

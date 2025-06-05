@@ -1,7 +1,7 @@
 ---
-title: 预设颜色
-second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置颜色预设。可读写 PresetColoraspose.slides/presetcolor。
+title: PresetColor
+second_title: Aspose.Slides for .NET API Reference
+description: 返回或设置颜色预设。可读/写 PresetColoraspose.slides/presetcolor。
 type: docs
 weight: 120
 url: /zh/aspose.slides/icolorformat/presetcolor/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/icolorformat/presetcolor/
 
 ## IColorFormat.PresetColor 属性
 
-获取或设置颜色预设。可读写 [`PresetColor`](../../presetcolor)。
+返回或设置颜色预设。可读/写 [`PresetColor`](../../presetcolor)。
 
 ```csharp
 public PresetColor PresetColor { get; set; }

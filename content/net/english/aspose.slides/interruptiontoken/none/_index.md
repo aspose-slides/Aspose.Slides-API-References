@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/interruptiontoken/none/
 ---
+
 ## InterruptionToken.None property
 
 Represents an empty interruption token. Long-running operations will never be interrupted via [`Interrupt`](../../interruptiontokensource/interrupt) when using this token.

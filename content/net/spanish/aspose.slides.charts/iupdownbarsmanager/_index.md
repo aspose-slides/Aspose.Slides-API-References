@@ -1,6 +1,6 @@
 ---
 title: IUpDownBarsManager
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API Aspose.Slides para .NET
 description: Proporciona acceso a las barras de subida/bajada de gráficos de líneas o de acciones.
 type: docs
 weight: 2180
@@ -26,7 +26,7 @@ public interface IUpDownBarsManager
 
 ### Véase También
 
-* espacio de nombres [Aspose.Slides.Charts](../../aspose.slides.charts)
-* ensamblado [Aspose.Slides](../../)
+* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
+* assembly [Aspose.Slides](../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITE: generado por xmldocmd para Aspose.Slides.dll -->

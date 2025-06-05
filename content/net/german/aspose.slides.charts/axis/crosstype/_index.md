@@ -1,7 +1,7 @@
 ---
 title: CrossType
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt den CrossType auf der angegebenen Achse dar, wo die andere Achse sich schneidet. Lese-/Schreibzugriff auf CrossesTypeaspose.slides.charts/crossestype.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt den CrossType auf der angegebenen Achse dar, wo die andere Achse sich kreuzt. Lese-/schreibbarer CrossesTypeaspose.slides.charts/crossestype.
 type: docs
 weight: 140
 url: /de/aspose.slides.charts/axis/crosstype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/axis/crosstype/
 
 ## Axis.CrossType-Eigenschaft
 
-Stellt den CrossType auf der angegebenen Achse dar, wo die andere Achse sich schneidet. Lese-/Schreibzugriff auf [`CrossesType`](../../crossestype).
+Stellt den CrossType auf der angegebenen Achse dar, wo die andere Achse sich kreuzt. Lese-/schreibbarer [`CrossesType`](../../crossestype).
 
 ```csharp
 public CrossesType CrossType { get; set; }

@@ -1,15 +1,15 @@
 ---
 title: ITextFrameFormatEffectiveData
-second_title: Aspose.Slides für .NET API Referenz
-description: Unveränderliches Objekt, das effektive Textrahmenformatierungsattribute enthält.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Unveränderliches Objekt, das effektive Eigenschaften der Textbereichsformatierung enthält.
 type: docs
 weight: 7070
 url: /de/aspose.slides/itextframeformateffectivedata/
 ---
 
-## ITextFrameFormatEffectiveData-Schnittstelle
+## ITextFrameFormatEffectiveData Schnittstelle
 
-Unveränderliches Objekt, das effektive Textrahmenformatierungsattribute enthält.
+Unveränderliches Objekt, das effektive Eigenschaften der Textbereichsformatierung enthält.
 
 ```csharp
 public interface ITextFrameFormatEffectiveData
@@ -21,20 +21,20 @@ public interface ITextFrameFormatEffectiveData
 | --- | --- |
 | [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | Gibt den vertikalen Ankertext in einem TextFrame zurück. Nur lesbar [`TextAnchorType`](../textanchortype). |
 | [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | Gibt den Text-Autofit-Modus zurück. Nur lesbar [`TextAutofitType`](../textautofittype). |
-| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | Gibt an, ob der Text horizontal im Feld zentriert werden soll. Nur lesbar Boolean. |
-| [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | Gibt die Anzahl der Textspalten im begrenzenden Rechteck an. Nur lesbar Int32. |
+| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | Gibt zurück, ob der Text horizontal im Feld zentriert sein sollte. Nur lesbar Boolean. |
+| [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | Gibt die Anzahl der Textspalten im Begrenzungsrechteck an. Nur lesbar Int32. |
 | [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | Gibt den Abstand zwischen den Textspalten im Textbereich (in Punkten) an. Nur lesbar Single. |
 | [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | Gibt den unteren Rand (Punkte) in einem TextFrame zurück. Nur lesbar Double. |
 | [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | Gibt den linken Rand (Punkte) in einem TextFrame zurück. Nur lesbar Double. |
 | [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | Gibt den rechten Rand (Punkte) in einem TextFrame zurück. Nur lesbar Double. |
 | [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | Gibt den oberen Rand (Punkte) in einem TextFrame zurück. Nur lesbar Double. |
 | [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | Gibt den effektiven Stil des Textes zurück. Nur lesbar [`ITextStyleEffectiveData`](../itextstyleeffectivedata). |
-| [TextVerticalType](../../aspose.slides/itextframeformateffectivedata/textverticaltype) { get; } | Gibt die Textausrichtung zurück. Nur lesbar [`TextVerticalType`](../textverticaltype). |
-| [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | Gibt an, ob der Text an den Rändern des TextFrames umbrochen wird. Nur lesbar Boolean. |
+| [TextVerticalType](../../aspose.slides/itextframeformateffectivedata/textverticaltype) { get; } | Gibt die Textorientierung zurück. Nur lesbar [`TextVerticalType`](../textverticaltype). |
+| [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | Gibt zurück, ob der Text an den Rändern des TextFrames umbrochen wird. Nur lesbar Boolean. |
 
 ### Anmerkungen
 
-Diese Schnittstelle wird zusammen mit der [`ITextFrameFormat`](../itextframeformat) Schnittstelle verwendet, um effektive Formatierungswerte mit angewandter Vererbung zurückzugeben.
+Diese Schnittstelle wird zusammen mit der [`ITextFrameFormat`](../itextframeformat) Schnittstelle verwendet, um effektive Formatierungswerte mit angewendeter Vererbung zurückzugeben.
 
 ### Siehe auch
 

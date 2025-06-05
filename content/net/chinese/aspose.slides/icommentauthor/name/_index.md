@@ -1,7 +1,7 @@
 ---
-title: 名称
-second_title: Aspose.Sildes for .NET API 参考
-description: 获取或设置作者的名称。可读/可写 字符串。
+title: Name
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置作者的名称。可读写的字符串。
 type: docs
 weight: 30
 url: /zh/aspose.slides/icommentauthor/name/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/icommentauthor/name/
 
 ## ICommentAuthor.Name 属性
 
-获取或设置作者的名称。可读/可写 字符串。
+返回或设置作者的名称。可读写的字符串。
 
 ```csharp
 public string Name { get; set; }

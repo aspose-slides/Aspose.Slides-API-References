@@ -1,6 +1,6 @@
 ---
 title: CreateMathMatrix
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Создает математическую матрицу
 type: docs
 weight: 20
@@ -20,7 +20,7 @@ public IMathMatrix CreateMathMatrix(int rowCount, int columnCount)
 | rowCount | Int32 | количество строк |
 | columnCount | Int32 | количество столбцов |
 
-### Возврат Значения
+### Возвращаемое значение
 
 новая математическая матрица
 

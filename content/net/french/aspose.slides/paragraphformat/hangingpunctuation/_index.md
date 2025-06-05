@@ -1,7 +1,7 @@
 ---
 title: HangingPunctuation
-second_title: Référence API Aspose.Slides pour .NET
-description: Détermine si la ponctuation suspendue est utilisée dans un paragraphe. Aucun héritage appliqué. Lecture/écriture NullableBoolaspose.slides/nullablebool.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Détermine si la ponctuation suspendue est utilisée dans un paragraphe. Pas d'héritage appliqué. Lecture/écriture NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 60
 url: /fr/aspose.slides/paragraphformat/hangingpunctuation/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/paragraphformat/hangingpunctuation/
 
 ## Propriété ParagraphFormat.HangingPunctuation
 
-Détermine si la ponctuation suspendue est utilisée dans un paragraphe. Aucun héritage appliqué. Lecture/écriture [`NullableBool`](../../nullablebool).
+Détermine si la ponctuation suspendue est utilisée dans un paragraphe. Pas d'héritage appliqué. Lecture/écriture [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool HangingPunctuation { get; set; }

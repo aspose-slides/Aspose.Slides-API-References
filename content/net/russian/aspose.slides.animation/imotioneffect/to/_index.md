@@ -1,15 +1,15 @@
 ---
-title: К
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает целевое местоположение для эффекта движения анимации в процентах. Чтение/запись PointF.
+title: To
+second_title: Aspose.Sildes для .NET API Справочник
+description: Указывает целевое местоположение для анимационного эффекта движения в процентах. Чтение/запись PointF.
 type: docs
 weight: 90
 url: /ru/aspose.slides.animation/imotioneffect/to/
 ---
 
-## Свойство IMotionEffect.To
+## IMotionEffect.To свойство
 
-Указывает целевое местоположение для эффекта движения анимации (в процентах). Чтение/запись PointF.
+Указывает целевое местоположение для анимационного эффекта движения (в процентах). Чтение/запись PointF.
 
 ```csharp
 public PointF To { get; set; }

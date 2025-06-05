@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/hyperlink/previousslide/
 ---
+
 ## Hyperlink.PreviousSlide property
 
 Returns a hyperlink to the previous slide. Read-only [`Hyperlink`](../../hyperlink).

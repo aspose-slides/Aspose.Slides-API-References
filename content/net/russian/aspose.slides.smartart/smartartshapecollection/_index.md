@@ -1,15 +1,15 @@
 ---
 title: SmartArtShapeCollection
 second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет собой коллекцию фигур SmartArt
+description: Представляет коллекцию фигур SmartArt
 type: docs
 weight: 10360
 url: /ru/aspose.slides.smartart/smartartshapecollection/
 ---
 
-## Класс SmartArtShapeCollection
+## SmartArtShapeCollection class
 
-Представляет собой коллекцию фигур SmartArt
+Представляет коллекцию фигур SmartArt
 
 ```csharp
 public class SmartArtShapeCollection : ISmartArtShapeCollection
@@ -20,7 +20,7 @@ public class SmartArtShapeCollection : ISmartArtShapeCollection
 | Название | Описание |
 | --- | --- |
 | [Count](../../aspose.slides.smartart/smartartshapecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
-| [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасный). Только для чтения Boolean. |
+| [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (безопасный для потоков). Только для чтения Boolean. |
 | [Item](../../aspose.slides.smartart/smartartshapecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`SmartArtShape`](../smartartshape).&gt;. |
 | [SyncRoot](../../aspose.slides.smartart/smartartshapecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
 
@@ -29,7 +29,7 @@ public class SmartArtShapeCollection : ISmartArtShapeCollection
 | Название | Описание |
 | --- | --- |
 | [CopyTo](../../aspose.slides.smartart/smartartshapecollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides.smartart/smartartshapecollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [GetEnumerator](../../aspose.slides.smartart/smartartshapecollection/getenumerator)() | Возвращает перечислитель, который выполняет перебор коллекции. |
 
 ### См. также
 

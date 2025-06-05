@@ -1,7 +1,7 @@
 ---
-title: Texte
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Le texte sur les formes des diapos
+title: Text
+second_title: Référence API Aspose.Slides pour .NET
+description: Le texte sur les formes des diapositives
 type: docs
 weight: 50
 url: /fr/aspose.slides/islidetext/text/

@@ -1,7 +1,7 @@
 ---
 title: ApplicationTemplate
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает или задает шаблон приложения. Читаемый/записываемый Строка.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или задает шаблон приложения. Читаемая/записываемая строка.
 type: docs
 weight: 10
 url: /ru/aspose.slides/idocumentproperties/applicationtemplate/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/idocumentproperties/applicationtemplate/
 
 ## Свойство IDocumentProperties.ApplicationTemplate
 
-Возвращает или задает шаблон приложения. Читаемый/записываемый Строка.
+Возвращает или задает шаблон приложения. Читаемая/записываемая строка.
 
 ```csharp
 public string ApplicationTemplate { get; set; }
 ```
 
-### Также смотрите
+### См. также
 
 * интерфейс [IDocumentProperties](../../idocumentproperties)
 * пространство имен [Aspose.Slides](../../idocumentproperties)

@@ -1,22 +1,22 @@
 ---
-title: Название
+title: Name
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает название темы. Читаемый/записываемый String.
+description: Возвращает имя темы. Чтение/запись Строка.
 type: docs
 weight: 50
 url: /ru/aspose.slides.theme/mastertheme/name/
 ---
 
-## Свойство MasterTheme.Name
+## MasterTheme.Name свойство
 
-Возвращает название темы. Читаемый/записываемый String.
+Возвращает имя темы. Чтение/запись Строка.
 
 ```csharp
 public string Name { get; set; }
 ```
 
-### Также см.
- 
+### См. также
+
 * класс [MasterTheme](../../mastertheme)
 * пространство имен [Aspose.Slides.Theme](../../mastertheme)
 * сборка [Aspose.Slides](../../../)

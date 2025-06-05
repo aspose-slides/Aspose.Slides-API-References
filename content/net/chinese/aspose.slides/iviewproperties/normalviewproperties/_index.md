@@ -1,7 +1,7 @@
 ---
 title: NormalViewProperties
-second_title: Aspose.Sildes for .NET API 参考
-description: 代表正常视图属性。正常视图由三个内容区域组成：幻灯片本身、一个侧面内容区域和一个底部内容区域。仅限读取 INormalViewPropertiesaspose.slides/inormalviewproperties。
+second_title: Aspose.Slides for .NET API Reference
+description: 表示普通视图属性。普通视图由三个内容区域组成：幻灯片本身、一个侧边内容区域和一个底部内容区域。只读 INormalViewPropertiesaspose.slides/inormalviewproperties。
 type: docs
 weight: 30
 url: /zh/aspose.slides/iviewproperties/normalviewproperties/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/iviewproperties/normalviewproperties/
 
 ## IViewProperties.NormalViewProperties 属性
 
-代表正常视图属性。正常视图由三个内容区域组成：幻灯片本身、一个侧面内容区域和一个底部内容区域。仅限读取 [`INormalViewProperties`](../../inormalviewproperties)。
+表示普通视图属性。普通视图由三个内容区域组成：幻灯片本身、一个侧边内容区域和一个底部内容区域。只读 [`INormalViewProperties`](../../inormalviewproperties)。
 
 ```csharp
 public INormalViewProperties NormalViewProperties { get; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [INormalViewProperties](../../inormalviewproperties)
 * 接口 [IViewProperties](../../iviewproperties)

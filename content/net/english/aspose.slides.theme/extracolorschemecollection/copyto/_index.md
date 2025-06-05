@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.theme/extracolorschemecollection/copyto/
 ---
+
 ## ExtraColorSchemeCollection.CopyTo method
 
 Copies all elements of the collection to the specified array.

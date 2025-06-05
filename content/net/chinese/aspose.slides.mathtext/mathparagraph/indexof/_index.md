@@ -1,7 +1,7 @@
 ---
 title: IndexOf
-second_title: Aspose.Sildes for .NET API 参考
-description: 确定特定 IMathBlock 在集合中的索引。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定集合中特定 IMathBlock 的索引。
 type: docs
 weight: 80
 url: /zh/aspose.slides.mathtext/mathparagraph/indexof/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathparagraph/indexof/
 
 ## MathParagraph.IndexOf 方法
 
-确定特定 IMathBlock 在集合中的索引。
+确定集合中特定 IMathBlock 的索引。
 
 ```csharp
 public int IndexOf(IMathBlock mathBlock)
@@ -21,7 +21,7 @@ public int IndexOf(IMathBlock mathBlock)
 
 ### 返回值
 
-如果在集合中找到 *mathBlock* 的索引；否则，返回 -1。
+如果在集合中找到 *mathBlock*，则返回其索引；否则，返回 -1。
 
 ### 示例
 
@@ -36,7 +36,7 @@ mathParagraph.Add(block);
 int index = mathParagraph.IndexOf(block);
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IMathBlock](../../imathblock)
 * 类 [MathParagraph](../../mathparagraph)

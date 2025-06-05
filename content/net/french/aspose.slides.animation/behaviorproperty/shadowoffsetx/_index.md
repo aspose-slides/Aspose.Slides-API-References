@@ -1,6 +1,6 @@
 ---
 title: ShadowOffsetX
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour la référence d'API .NET
 description: Représente la propriété shadow.offset.x
 type: docs
 weight: 700

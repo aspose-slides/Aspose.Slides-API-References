@@ -1,7 +1,7 @@
 ---
 title: TileFlip
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Flip-Modus für einen Gradient zurück oder legt diesen fest. Lese-/Schreibzugriff auf TileFlip aspose.slides/tileflip.
+second_title: Aspose.Slildes für .NET API Referenz
+description: Gibt den Flip-Modus für einen Verlauf zurück oder setzt ihn. Lese-/Schreibzugriff auf TileFlipaspose.slides/tileflip.
 type: docs
 weight: 60
 url: /de/aspose.slides/gradientformat/tileflip/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/gradientformat/tileflip/
 
 ## GradientFormat.TileFlip-Eigenschaft
 
-Gibt den Flip-Modus für einen Gradient zurück oder legt diesen fest. Lese-/Schreibzugriff auf [`TileFlip`](../../tileflip).
+Gibt den Flip-Modus für einen Verlauf zurück oder setzt ihn. Lese-/Schreibzugriff auf [`TileFlip`](../../tileflip).
 
 ```csharp
 public TileFlip TileFlip { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [TileFlip](../../tileflip)
 * class [GradientFormat](../../gradientformat)

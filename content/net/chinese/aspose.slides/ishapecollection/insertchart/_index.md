@@ -1,7 +1,7 @@
 ---
 title: InsertChart
-second_title: Aspose.Sildes for .NET API 参考
-description: 创建一个新的图表，用示例系列数据和设置初始化它，并将其插入到集合中的指定位置。
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建一个新图表，用示例系列数据和设置初始化，并将其插入到集合中指定的位置。
 type: docs
 weight: 260
 url: /zh/aspose.slides/ishapecollection/insertchart/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ishapecollection/insertchart/
 
 ## InsertChart(ChartType, float, float, float, float, int) {#insertchart}
 
-创建一个新的图表，用示例系列数据和设置初始化它，并将其插入到集合中的指定位置。
+创建一个新图表，用示例系列数据和设置初始化，并将其插入到集合中指定的位置。
 
 ```csharp
 public IChart InsertChart(ChartType type, float x, float y, float width, float height, int index)
@@ -18,8 +18,8 @@ public IChart InsertChart(ChartType type, float x, float y, float width, float h
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | type | ChartType | 图表类型。 |
-| x | Single | 新图表的 X 坐标。 |
-| y | Single | 新图表的 Y 坐标。 |
+| x | Single | 新图表的X坐标。 |
+| y | Single | 新图表的Y坐标。 |
 | width | Single | 图表的宽度。 |
 | height | Single | 图表的高度。 |
 | index | Int32 | 图表在集合中的位置。 |
@@ -28,7 +28,7 @@ public IChart InsertChart(ChartType type, float x, float y, float width, float h
 
 创建的图表。
 
-### 参见
+### 另请参见
 
 * 接口 [IChart](../../../aspose.slides.charts/ichart)
 * 枚举 [ChartType](../../../aspose.slides.charts/charttype)
@@ -40,7 +40,7 @@ public IChart InsertChart(ChartType type, float x, float y, float width, float h
 
 ## InsertChart(ChartType, float, float, float, float, int, bool) {#insertchart_1}
 
-创建一个新的图表，并将其插入到集合中的指定位置。
+创建一个新图表，并将其插入到集合中指定的位置。
 
 ```csharp
 public IChart InsertChart(ChartType type, float x, float y, float width, float height, int index, 
@@ -50,18 +50,18 @@ public IChart InsertChart(ChartType type, float x, float y, float width, float h
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | type | ChartType | 图表类型。 |
-| x | Single | 新图表的 X 坐标。 |
-| y | Single | 新图表的 Y 坐标。 |
+| x | Single | 新图表的X坐标。 |
+| y | Single | 新图表的Y坐标。 |
 | width | Single | 图表的宽度。 |
 | height | Single | 图表的高度。 |
 | index | Int32 | 图表在集合中的位置。 |
-| initWithSample | Boolean | 如果为 true，则新图表将使用示例系列数据和设置进行初始化。如果为 false，则新图表将没有系列和最低设置。在这种情况下，图表的创建将更快。 |
+| initWithSample | Boolean | 如果为true，则新图表将使用示例系列数据和设置初始化。如果为false，则新图表将没有系列和最少的设置。在这种情况下，图表创建将更快。 |
 
 ### 返回值
 
 创建的图表。
 
-### 参见
+### 另请参见
 
 * 接口 [IChart](../../../aspose.slides.charts/ichart)
 * 枚举 [ChartType](../../../aspose.slides.charts/charttype)

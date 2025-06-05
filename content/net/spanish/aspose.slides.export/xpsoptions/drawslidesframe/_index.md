@@ -1,7 +1,7 @@
 ---
 title: DrawSlidesFrame
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Verdadero para dibujar un marco negro alrededor de cada diapositiva. Leer/escribir Booleano.
+second_title: Referencia de la API de Aspose.Sildes para .NET
+description: Verdadero para dibujar un marco negro alrededor de cada diapositiva. Lectura/escritura Booleana.
 type: docs
 weight: 20
 url: /es/aspose.slides.export/xpsoptions/drawslidesframe/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.export/xpsoptions/drawslidesframe/
 
 ## Propiedad XpsOptions.DrawSlidesFrame
 
-Verdadero para dibujar un marco negro alrededor de cada diapositiva. Leer/escribir Booleano.
+Verdadero para dibujar un marco negro alrededor de cada diapositiva. Lectura/escritura Booleana.
 
 ```csharp
 public bool DrawSlidesFrame { get; set; }
@@ -23,6 +23,6 @@ El valor predeterminado es **falso**.
 
 * clase [XpsOptions](../../xpsoptions)
 * espacio de nombres [Aspose.Slides.Export](../../xpsoptions)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

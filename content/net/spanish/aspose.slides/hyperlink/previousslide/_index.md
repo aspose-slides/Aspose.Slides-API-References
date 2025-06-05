@@ -1,6 +1,6 @@
 ---
 title: PreviousSlide
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve un hipervínculo a la diapositiva anterior. Solo lectura Hyperlinkaspose.slides/hyperlink.
 type: docs
 weight: 90
@@ -15,7 +15,7 @@ Devuelve un hipervínculo a la diapositiva anterior. Solo lectura [`Hyperlink`](
 public static Hyperlink PreviousSlide { get; }
 ```
 
-### Véase También
+### Ver También
 
 * clase [Hyperlink](../../hyperlink)
 * espacio de nombres [Aspose.Slides](../../hyperlink)

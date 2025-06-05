@@ -1,13 +1,13 @@
 ---
 title: JoinPortionsWithSameFormatting
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Verbindet Absätze mit derselben Formatierung.
 type: docs
 weight: 80
 url: /de/aspose.slides/iparagraph/joinportionswithsameformatting/
 ---
 
-## IParagraph.JoinPortionsWithSameFormatting Methode
+## IParagraph.JoinPortionsWithSameFormatting-Methode
 
 Verbindet Absätze mit derselben Formatierung.
 
@@ -15,7 +15,7 @@ Verbindet Absätze mit derselben Formatierung.
 public void JoinPortionsWithSameFormatting()
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IParagraph](../../iparagraph)
 * Namespace [Aspose.Slides](../../iparagraph)

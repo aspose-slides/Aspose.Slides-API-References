@@ -1,7 +1,7 @@
 ---
-title: Folien
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Gesamtzahl der Folien in einem Präsentationsdokument an. Nur lesender Int32.
+title: Slides
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt die Gesamtanzahl der Folien in einem Präsentationsdokument an. Schreibgeschütztes Int32.
 type: docs
 weight: 300
 url: /de/aspose.slides/idocumentproperties/slides/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/idocumentproperties/slides/
 
 ## IDocumentProperties.Slides-Eigenschaft
 
-Gibt die Gesamtzahl der Folien in einem Präsentationsdokument an. Nur lesender Int32.
+Gibt die Gesamtanzahl der Folien in einem Präsentationsdokument an. Schreibgeschütztes Int32.
 
 ```csharp
 public int Slides { get; }

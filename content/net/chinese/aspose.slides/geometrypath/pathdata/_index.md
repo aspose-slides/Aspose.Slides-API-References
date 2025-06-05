@@ -1,7 +1,7 @@
 ---
 title: PathData
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回 GeometryShape 的几何路径，作为路径段的数组。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回几何形状的几何路径，作为路径段的数组。
 type: docs
 weight: 30
 url: /zh/aspose.slides/geometrypath/pathdata/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/geometrypath/pathdata/
 
 ## GeometryPath.PathData 属性
 
-返回 GeometryShape 的几何路径，作为路径段的数组。
+返回几何形状的几何路径，作为路径段的数组。
 
 ```csharp
 public IPathSegment[] PathData { get; }
 ```
 
-### 另见
+### 相关信息
 
 * 接口 [IPathSegment](../../ipathsegment)
 * 类 [GeometryPath](../../geometrypath)

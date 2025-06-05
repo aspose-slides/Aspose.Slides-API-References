@@ -1,7 +1,7 @@
 ---
 title: AddChart
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Crea un nuevo gráfico, lo inicializa con datos de serie de muestra y configuraciones y lo agrega al final de la colección.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Crea un nuevo gráfico, lo inicializa con datos de series de ejemplo y configuraciones y lo agrega al final de la colección.
 type: docs
 weight: 70
 url: /es/aspose.slides/ishapecollection/addchart/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/ishapecollection/addchart/
 
 ## AddChart(ChartType, float, float, float, float) {#addchart}
 
-Crea un nuevo gráfico, lo inicializa con datos de serie de muestra y configuraciones y lo agrega al final de la colección.
+Crea un nuevo gráfico, lo inicializa con datos de series de ejemplo y configuraciones y lo agrega al final de la colección.
 
 ```csharp
 public IChart AddChart(ChartType type, float x, float y, float width, float height)
@@ -53,7 +53,7 @@ public IChart AddChart(ChartType type, float x, float y, float width, float heig
 | y | Single | Coordenada Y de un nuevo gráfico. |
 | width | Single | Ancho del gráfico. |
 | height | Single | Altura del gráfico. |
-| initWithSample | Boolean | Si es verdadero, el nuevo gráfico se inicializará con datos de serie de muestra y configuraciones. Si es falso, el nuevo gráfico no tendrá series y configuraciones mínimas. En este caso, la creación del gráfico será más rápida. |
+| initWithSample | Boolean | Si es verdadero, el nuevo gráfico se inicializará con datos de series de ejemplo y configuraciones. Si es falso, el nuevo gráfico no tendrá series y tendrá configuraciones mínimas. En este caso, la creación del gráfico será más rápida. |
 
 ### Valor de Retorno
 

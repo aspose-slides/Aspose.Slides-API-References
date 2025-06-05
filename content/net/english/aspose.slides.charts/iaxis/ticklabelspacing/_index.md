@@ -6,6 +6,7 @@ type: docs
 weight: 520
 url: /aspose.slides.charts/iaxis/ticklabelspacing/
 ---
+
 ## IAxis.TickLabelSpacing property
 
 Specifies how many tick labels to skip between label that is drawn. Read/write UInt32.

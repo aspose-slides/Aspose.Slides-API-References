@@ -3,9 +3,10 @@ title: IDataLabelCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a series labels.
 type: docs
-weight: 1920
+weight: 1950
 url: /aspose.slides.charts/idatalabelcollection/
 ---
+
 ## IDataLabelCollection interface
 
 Represents a series labels.

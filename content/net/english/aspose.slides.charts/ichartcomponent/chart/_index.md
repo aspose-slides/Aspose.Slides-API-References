@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/ichartcomponent/chart/
 ---
+
 ## IChartComponent.Chart property
 
 Returns the chart. Read-only [`IChart`](../../ichart).

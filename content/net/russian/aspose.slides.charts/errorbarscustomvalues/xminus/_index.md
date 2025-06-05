@@ -1,22 +1,22 @@
 ---
 title: XMinus
 second_title: Aspose.Sildes для .NET API Справочник
-description: Указывает значение ошибки в негативном направлении. Доступно, если тип значения ошибок - Пользовательский, и ErrorBarsXFormat разрешен. В любом другом случае это свойство возвращает null. Только для чтения IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+description: Указывает значение резервной шкалы в отрицательном направлении. Доступно, если тип значения резервной шкалы - Пользовательский, и ErrorBarsXFormat разрешен. В любом другом случае это свойство возвращает null. Только для чтения IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/errorbarscustomvalues/xminus/
 ---
 
-## Свойство ErrorBarsCustomValues.XMinus
+## ErrorBarsCustomValues.XMinus свойство
 
-Указывает значение ошибки в негативном направлении. Доступно, если тип значения ошибок - Пользовательский, и ErrorBarsXFormat разрешен. В любом другом случае это свойство возвращает null. Только для чтения [`IDoubleChartValue`](../../idoublechartvalue).
+Указывает значение резервной шкалы в отрицательном направлении. Доступно, если тип значения резервной шкалы - Пользовательский, и ErrorBarsXFormat разрешен. В любом другом случае это свойство возвращает null. Только для чтения [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue XMinus { get; }
 ```
 
-### Также см.
- 
+### Смотрите Также
+
 * интерфейс [IDoubleChartValue](../../idoublechartvalue)
 * класс [ErrorBarsCustomValues](../../errorbarscustomvalues)
 * пространство имен [Aspose.Slides.Charts](../../errorbarscustomvalues)

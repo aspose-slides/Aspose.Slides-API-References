@@ -1,21 +1,21 @@
 ---
 title: Saturation
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit le composant de saturation d'une couleur en représentation HSL. Toutes les transformations de couleur sont ignorées. Lecture/écriture Single.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie ou définit le composant de saturation d'une couleur en représentation HSL. Toutes les transformations de couleur sont ignorées. Lire/écrire Single.
 type: docs
 weight: 140
 url: /fr/aspose.slides/icolorformat/saturation/
 ---
 
-## Propriété IColorFormat.Saturation
+## IColorFormat.Saturation property
 
-Renvoie ou définit le composant de saturation d'une couleur en représentation HSL. Toutes les transformations de couleur sont ignorées. Lecture/écriture Single.
+Renvoie ou définit le composant de saturation d'une couleur en représentation HSL. Toutes les transformations de couleur sont ignorées. Lire/écrire Single.
 
 ```csharp
 public float Saturation { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IColorFormat](../../icolorformat)
 * namespace [Aspose.Slides](../../icolorformat)

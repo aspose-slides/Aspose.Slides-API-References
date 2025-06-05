@@ -3,9 +3,10 @@ title: SaveMetafilesAsPng
 second_title: Aspose.Sildes for .NET API Reference
 description: True to convert all metafiles used in a presentation to the PNG images. Read/write Boolean.
 type: docs
-weight: 140
+weight: 160
 url: /aspose.slides.export/ipdfoptions/savemetafilesaspng/
 ---
+
 ## IPdfOptions.SaveMetafilesAsPng property
 
 True to convert all metafiles used in a presentation to the PNG images. Read/write Boolean.

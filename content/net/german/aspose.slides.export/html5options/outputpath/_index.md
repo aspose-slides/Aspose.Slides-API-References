@@ -31,7 +31,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [Html5Options](../../html5options)
 * Namespace [Aspose.Slides.Export](../../html5options)

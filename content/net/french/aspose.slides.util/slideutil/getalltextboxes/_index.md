@@ -1,6 +1,6 @@
 ---
 title: GetAllTextBoxes
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Reference
 description: Renvoie tous les cadres de texte sur une diapositive dans une présentation PPTX.
 type: docs
 weight: 40
@@ -17,7 +17,7 @@ public static ITextFrame[] GetAllTextBoxes(IBaseSlide slide)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| slide | IBaseSlide | Diapositive scannée. |
+| slide | IBaseSlide | Diapositive analysée. |
 
 ### Valeur de retour
 

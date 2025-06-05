@@ -1,15 +1,15 @@
 ---
 title: IFontSchemeEffectiveData
-second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект, содержащий свойства эффективной схемы шрифтов.
+second_title: Aspose.Slides для .NET API Справочник
+description: Невозможно изменяемый объект, который содержит свойства эффективной схемы шрифтов.
 type: docs
 weight: 10950
 url: /ru/aspose.slides.theme/ifontschemeeffectivedata/
 ---
 
-## Интерфейс IFontSchemeEffectiveData
+## IFontSchemeEffectiveData интерфейс
 
-Неизменяемый объект, содержащий свойства эффективной схемы шрифтов.
+Невозможно изменяемый объект, который содержит свойства эффективной схемы шрифтов.
 
 ```csharp
 public interface IFontSchemeEffectiveData
@@ -19,9 +19,9 @@ public interface IFontSchemeEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | Возвращает коллекцию шрифтов для части "заголовка" слайда. Только для чтения [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
-| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | Возвращает коллекцию шрифтов для части "основного текста" слайда. Только для чтения [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
-| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | Возвращает имя схемы шрифтов. Только для чтения Строка. |
+| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | Возвращает коллекцию шрифтов для части "заголовок" слайда. Только для чтения [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | Возвращает коллекцию шрифтов для части "текст" слайда. Только для чтения [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | Возвращает имя схемы шрифтов. Только для чтения String. |
 
 ### Примечания
 

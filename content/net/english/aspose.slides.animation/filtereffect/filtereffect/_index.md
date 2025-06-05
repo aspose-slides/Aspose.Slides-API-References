@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.animation/filtereffect/filtereffect/
 ---
+
 ## FilterEffect constructor
 
 Default constructor.

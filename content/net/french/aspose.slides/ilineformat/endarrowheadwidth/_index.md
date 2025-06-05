@@ -15,7 +15,7 @@ Retourne ou définit la largeur de la pointe de flèche à la fin d'une ligne. L
 public LineArrowheadWidth EndArrowheadWidth { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [LineArrowheadWidth](../../linearrowheadwidth)
 * interface [ILineFormat](../../ilineformat)

@@ -1,7 +1,7 @@
 ---
 title: CaptionId
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Renvoie l'identifiant unique global GUID des sous-titres. Lecture seule Guid.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie l'identifiant unique global GUID des sous-titres fermés. Lecture seule Guid.
 type: docs
 weight: 20
 url: /fr/aspose.slides/captions/captionid/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/captions/captionid/
 
 ## Propriété Captions.CaptionId
 
-Renvoie l'identifiant unique global (GUID) des sous-titres. Lecture seule Guid.
+Renvoie l'identifiant unique global (GUID) des sous-titres fermés. Lecture seule Guid.
 
 ```csharp
 public Guid CaptionId { get; }

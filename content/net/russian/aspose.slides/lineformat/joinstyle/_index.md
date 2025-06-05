@@ -1,6 +1,6 @@
 ---
 title: JoinStyle
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Возвращает или устанавливает стиль соединения линий. Чтение/запись LineJoinStyleaspose.slides/linejoinstyle.
 type: docs
 weight: 130

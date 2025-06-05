@@ -1,7 +1,7 @@
 ---
 title: AsILayoutable
-second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基础 ILayoutable 接口。只读 ILayoutable aspose.slides.charts/ilayoutable。
+second_title: Aspose.Sildes for .NET API Reference
+description: 允许获取基础 ILayoutable 接口。读操作的 ILayoutableaspose.slides.charts/ilayoutable。
 type: docs
 weight: 20
 url: /zh/aspose.slides.charts/ilegend/asilayoutable/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ilegend/asilayoutable/
 
 ## ILegend.AsILayoutable 属性
 
-允许获取基础 ILayoutable 接口。只读 [`ILayoutable`](../../ilayoutable)。
+允许获取基础 ILayoutable 接口。读操作的 [`ILayoutable`](../../ilayoutable)。
 
 ```csharp
 public ILayoutable AsILayoutable { get; }

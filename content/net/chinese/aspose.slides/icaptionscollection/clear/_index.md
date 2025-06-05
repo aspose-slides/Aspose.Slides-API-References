@@ -1,7 +1,7 @@
 ---
-title: 清除
-second_title: Aspose.Slides for .NET API 参考
-description: 从集合中移除所有闭合字幕。
+title: Clear
+second_title: Aspose.Sildes for .NET API Reference
+description: 从集合中删除所有闭合字幕。
 type: docs
 weight: 40
 url: /zh/aspose.slides/icaptionscollection/clear/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/icaptionscollection/clear/
 
 ## ICaptionsCollection.Clear 方法
 
-从集合中移除所有闭合字幕。
+从集合中删除所有闭合字幕。
 
 ```csharp
 public void Clear()

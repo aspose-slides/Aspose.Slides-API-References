@@ -1,133 +1,133 @@
----
-title: 评论
-second_title: Aspose.Slides for .NET API 参考
+---  
+title: Comment
+second_title: Aspose.Sildes for .NET API Reference  
 description: 表示幻灯片上的评论。
-type: docs
-weight: 2530
+type: docs  
+weight: 2530  
 url: /zh/aspose.slides/comment/
----
+---  
 
-## Comment 类
+## Comment class  
 
-表示幻灯片上的评论。
+表示幻灯片上的评论。  
 
-```csharp
-public class Comment : IComment
-```
+```csharp  
+public class Comment : IComment  
+```  
 
-## 属性
+## Properties  
 
-| 名称 | 描述 |
-| --- | --- |
-| [Author](../../aspose.slides/comment/author) { get; } | 返回评论的作者。只读 [`ICommentAuthor`](../icommentauthor)。 |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | 返回或设置评论创建的时间。将此属性设置为 MinValue 表示未设置评论时间。可读写 DateTime。 |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | 获取或设置父评论。可读写 [`IComment`](../icomment)。 |
-| [Position](../../aspose.slides/comment/position) { get; set; } | 返回或设置评论在幻灯片上的位置。可读写 PointF。 |
-| [Slide](../../aspose.slides/comment/slide) { get; } | 返回或设置评论的父幻灯片。只读 [`ISlide`](../islide)。 |
-| [Text](../../aspose.slides/comment/text) { get; set; } | 返回或设置幻灯片评论的纯文本。可读写 String。 |
+| Name | Description |  
+| --- | --- |  
+| [Author](../../aspose.slides/comment/author) { get; } | 返回评论的作者。只读 [`ICommentAuthor`](../icommentauthor)。 |  
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | 返回或设置评论创建的时间。将此属性设置为 MinValue 意味着未设置评论时间。可读写 DateTime。 |  
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | 获取或设置父评论。可读写 [`IComment`](../icomment)。 |  
+| [Position](../../aspose.slides/comment/position) { get; set; } | 返回或设置评论在幻灯片上的位置。可读写 PointF。 |  
+| [Slide](../../aspose.slides/comment/slide) { get; } | 返回或设置评论的父幻灯片。只读 [`ISlide`](../islide)。 |  
+| [Text](../../aspose.slides/comment/text) { get; set; } | 返回或设置幻灯片评论的纯文本。可读写 String。 |  
 
-## 方法
+## Methods  
 
-| 名称 | 描述 |
-| --- | --- |
-| [Remove](../../aspose.slides/comment/remove)() | 从父集合中删除评论及其所有回复。 |
+| Name | Description |  
+| --- | --- |  
+| [Remove](../../aspose.slides/comment/remove)() | 从父集合中删除评论及其所有回复。 |  
 
-### 示例
+### Examples  
 
-本示例向您展示如何在 PowerPoint 演示文稿中的幻灯片上添加评论。
+此示例向您展示如何在 PowerPoint 演示文稿中向幻灯片添加评论。  
 
-```csharp
-[C#]
-// 实例化 Presentation 类
-using (Presentation presentation = new Presentation())
-{
-    // 添加一个空幻灯片
-    presentation.Slides.AddEmptySlide(presentation.LayoutSlides[0]);
-    // 添加一个作者
-    ICommentAuthor author = presentation.CommentAuthors.AddAuthor("Jawad", "MF");
-    // 设置评论的位置
-    PointF point = new PointF();
-    point.X = 0.2f;
-    point.Y = 0.2f;
-    // 在幻灯片 1 上为作者添加幻灯片评论
-    author.Comments.AddComment("Hello Jawad, this is slide comment", presentation.Slides[0], point, DateTime.Now);
-    // 在幻灯片 2 上为作者添加幻灯片评论
-    author.Comments.AddComment("Hello Jawad, this is second slide comment", presentation.Slides[1], point, DateTime.Now);
-	// 保存 PowerPoint 演示文稿文件
-    presentation.Save("Comments_out.pptx", SaveFormat.Pptx);
-}
-```
+```csharp  
+[C#]  
+// 实例化 Presentation 类  
+using (Presentation presentation = new Presentation())  
+{  
+    // 添加一个空白幻灯片  
+    presentation.Slides.AddEmptySlide(presentation.LayoutSlides[0]);  
+    // 添加作者  
+    ICommentAuthor author = presentation.CommentAuthors.AddAuthor("Jawad", "MF");  
+    // 设置评论的位置  
+    PointF point = new PointF();  
+    point.X = 0.2f;  
+    point.Y = 0.2f;  
+    // 在幻灯片 1 上为作者添加幻灯片评论  
+    author.Comments.AddComment("Hello Jawad, this is slide comment", presentation.Slides[0], point, DateTime.Now);  
+    // 在幻灯片 2 上为作者添加幻灯片评论  
+    author.Comments.AddComment("Hello Jawad, this is second slide comment", presentation.Slides[1], point, DateTime.Now);  
+    // 保存 PowerPoint 演示文稿文件  
+    presentation.Save("Comments_out.pptx", SaveFormat.Pptx);  
+}  
+```  
 
-本示例向您展示如何访问 PowerPoint 演示文稿中幻灯片上的现有评论。
+此示例向您展示如何访问 PowerPoint 演示文稿中幻灯片的现有评论。  
 
-```csharp
-[C#]
-// 实例化 Presentation 类
-using (Presentation presentation = new Presentation("Comments1.pptx"))
-{
-	// 遍历 CommentAuthors
-    foreach (var commentAuthor in presentation.CommentAuthors)
-    {
-        var author = (CommentAuthor) commentAuthor;
-		// 遍历 Comments
-        foreach (var comment1 in author.Comments)
-        {
-            var comment = (Comment) comment1;
-            Console.WriteLine("ISlide :" + comment.Slide.SlideNumber + " has comment: " + comment.Text + " with Author: " + comment.Author.Name + " posted on time :" + comment.CreatedTime + "\n");
-        }
-    }
-}
-```
+```csharp  
+[C#]  
+// 实例化 Presentation 类  
+using (Presentation presentation = new Presentation("Comments1.pptx"))  
+{  
+    // 遍历 CommentAuthors  
+    foreach (var commentAuthor in presentation.CommentAuthors)  
+    {  
+        var author = (CommentAuthor) commentAuthor;  
+        // 遍历 Comments  
+        foreach (var comment1 in author.Comments)  
+        {  
+            var comment = (Comment) comment1;  
+            Console.WriteLine("ISlide :" + comment.Slide.SlideNumber + " has comment: " + comment.Text + " with Author: " + comment.Author.Name + " posted on time :" + comment.CreatedTime + "\n");  
+        }  
+    }  
+}  
+```  
 
-本示例向您展示如何添加评论并获取对其的回复。
+此示例向您展示如何添加评论并获取对它们的回复。  
 
-```csharp
-[C#]
-// 实例化 Presentation 类
-using (Presentation pres = new Presentation())
-{
-    // 添加评论
-    ICommentAuthor author1 = pres.CommentAuthors.AddAuthor("Author_1", "A.A.");
-    IComment comment1 = author1.Comments.AddComment("comment1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
-    // 向 comment1 添加回复
-    ICommentAuthor author2 = pres.CommentAuthors.AddAuthor("Autror_2", "B.B.");
-    IComment reply1 = author2.Comments.AddComment("reply 1 for comment 1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
-    reply1.ParentComment = comment1;
-    // 向 comment1 添加另一个回复
-    IComment reply2 = author2.Comments.AddComment("reply 2 for comment 1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
-    reply2.ParentComment = comment1;
-    // 向现有回复添加回复
-    IComment subReply = author1.Comments.AddComment("subreply 3 for reply 2", pres.Slides[0], new PointF(10, 10), DateTime.Now);
-    subReply.ParentComment = reply2;
-    IComment comment2 = author2.Comments.AddComment("comment 2", pres.Slides[0], new PointF(10, 10), DateTime.Now);
-    IComment comment3 = author2.Comments.AddComment("comment 3", pres.Slides[0], new PointF(10, 10), DateTime.Now);
-    IComment reply3 = author1.Comments.AddComment("reply 4 for comment 3", pres.Slides[0], new PointF(10, 10), DateTime.Now);
-    reply3.ParentComment = comment3;
-    // 在控制台显示评论层次结构
-    ISlide slide = pres.Slides[0];
-    var comments = slide.GetSlideComments(null);
-    for (int i = 0; i < comments.Length; i++)
-    {
-        IComment comment = comments[i];
-        while (comment.ParentComment != null)
-        {
-            Console.Write("\t");
-            comment = comment.ParentComment;
-        }
-        Console.Write("{0} : {1}", comments[i].Author.Name, comments[i].Text);
-        Console.WriteLine();
-    }
-    pres.Save("parent_comment.pptx",SaveFormat.Pptx);
-    // 删除 comment1 及其所有回复
-    comment1.Remove();
-    pres.Save("remove_comment.pptx", SaveFormat.Pptx);
-}
-```
+```csharp  
+[C#]  
+// 实例化 Presentation 类  
+using (Presentation pres = new Presentation())  
+{  
+    // 添加评论  
+    ICommentAuthor author1 = pres.CommentAuthors.AddAuthor("Author_1", "A.A.");  
+    IComment comment1 = author1.Comments.AddComment("comment1", pres.Slides[0], new PointF(10, 10), DateTime.Now);  
+    // 对 comment1 添加回复  
+    ICommentAuthor author2 = pres.CommentAuthors.AddAuthor("Autror_2", "B.B.");  
+    IComment reply1 = author2.Comments.AddComment("reply 1 for comment 1", pres.Slides[0], new PointF(10, 10), DateTime.Now);  
+    reply1.ParentComment = comment1;  
+    // 对 comment1 添加另一个回复  
+    IComment reply2 = author2.Comments.AddComment("reply 2 for comment 1", pres.Slides[0], new PointF(10, 10), DateTime.Now);  
+    reply2.ParentComment = comment1;  
+    // 对现有回复添加回复  
+    IComment subReply = author1.Comments.AddComment("subreply 3 for reply 2", pres.Slides[0], new PointF(10, 10), DateTime.Now);  
+    subReply.ParentComment = reply2;  
+    IComment comment2 = author2.Comments.AddComment("comment 2", pres.Slides[0], new PointF(10, 10), DateTime.Now);  
+    IComment comment3 = author2.Comments.AddComment("comment 3", pres.Slides[0], new PointF(10, 10), DateTime.Now);  
+    IComment reply3 = author1.Comments.AddComment("reply 4 for comment 3", pres.Slides[0], new PointF(10, 10), DateTime.Now);  
+    reply3.ParentComment = comment3;  
+    // 在控制台显示评论层次结构  
+    ISlide slide = pres.Slides[0];  
+    var comments = slide.GetSlideComments(null);  
+    for (int i = 0; i < comments.Length; i++)  
+    {  
+        IComment comment = comments[i];  
+        while (comment.ParentComment != null)  
+        {  
+            Console.Write("\t");  
+            comment = comment.ParentComment;  
+        }  
+        Console.Write("{0} : {1}", comments[i].Author.Name, comments[i].Text);  
+        Console.WriteLine();  
+    }  
+    pres.Save("parent_comment.pptx",SaveFormat.Pptx);  
+    // 删除 comment1 及其所有回复  
+    comment1.Remove();  
+    pres.Save("remove_comment.pptx", SaveFormat.Pptx);  
+}  
+```  
 
-### 另见
+### See Also  
 
-* 接口 [IComment](../icomment)
-* 命名空间 [Aspose.Slides](../../aspose.slides)
-* 程序集 [Aspose.Slides](../../)
+* interface [IComment](../icomment)  
+* namespace [Aspose.Slides](../../aspose.slides)  
+* assembly [Aspose.Slides](../../)  
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->  

@@ -1,6 +1,6 @@
 ---
-title: 线
-second_title: Aspose.Slides for .NET API 参考
+title: Line
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回轴的线条样式属性。只读 ILineFormataspose.slides/../aspose.slides/ilineformat。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/axisformat/line/
 public ILineFormat Line { get; }
 ```
 
-### 另请参见
+### 见也
 
 * 接口 [ILineFormat](../../../aspose.slides/ilineformat)
 * 类 [AxisFormat](../../axisformat)

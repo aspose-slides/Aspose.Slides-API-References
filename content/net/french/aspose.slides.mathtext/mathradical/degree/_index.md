@@ -1,13 +1,13 @@
 ---
-title: Degré
-second_title: Référence API Aspose.Slides pour .NET
+title: Degree
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Argument de degré
 type: docs
 weight: 30
 url: /fr/aspose.slides.mathtext/mathradical/degree/
 ---
 
-## Propriété MathRadical.Degree
+## MathRadical.Degree property
 
 Argument de degré
 
@@ -25,7 +25,7 @@ MathRadical radical = new MathRadical(new MathematicalText("x"), new Mathematica
 IMathElement degreeElem = radical.Degree;
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathElement](../../imathelement)
 * classe [MathRadical](../../mathradical)

@@ -1,21 +1,21 @@
 ---
 title: ColorStyle
-second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает или устанавливает цветовой стиль объекта SmartArt. Чтение/запись SmartArtColorTypeaspose.slides.smartart/smartartcolortype.
+second_title: Aspose.Slides для .NET API Reference
+description: Возвращает или задает цветовой стиль объекта SmartArt. Чтение/запись SmartArtColorTypeaspose.slides.smartart/smartartcolortype.
 type: docs
 weight: 30
 url: /ru/aspose.slides.smartart/ismartart/colorstyle/
 ---
 
-## Свойство ISmartArt.ColorStyle
+## ISmartArt.ColorStyle свойство
 
-Возвращает или устанавливает цветовой стиль объекта SmartArt. Чтение/запись [`SmartArtColorType`](../../smartartcolortype).
+Возвращает или задает цветовой стиль объекта SmartArt. Чтение/запись [`SmartArtColorType`](../../smartartcolortype).
 
 ```csharp
 public SmartArtColorType ColorStyle { get; set; }
 ```
 
-### Смотрите Также
+### Смотрите также
 
 * enum [SmartArtColorType](../../smartartcolortype)
 * interface [ISmartArt](../../ismartart)

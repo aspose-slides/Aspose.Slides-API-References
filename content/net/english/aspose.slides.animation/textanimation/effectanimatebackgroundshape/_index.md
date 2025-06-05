@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.animation/textanimation/effectanimatebackgroundshape/
 ---
+
 ## TextAnimation.EffectAnimateBackgroundShape property
 
 Linked shape effect with group or not (null). Read/write [`IEffect`](../../ieffect).

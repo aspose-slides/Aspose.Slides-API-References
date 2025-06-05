@@ -1,13 +1,13 @@
 ---
 title: PicturesCompression
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Представляет уровень сжатия изображений Чтение/запись PicturesCompressionaspose.slides.export/isvgoptions/picturescompression.
 type: docs
 weight: 110
 url: /ru/aspose.slides.export/isvgoptions/picturescompression/
 ---
 
-## Свойство ISVGOptions.PicturesCompression
+## ISVGOptions.PicturesCompression свойство
 
 Представляет уровень сжатия изображений Чтение/запись `PicturesCompression`.
 

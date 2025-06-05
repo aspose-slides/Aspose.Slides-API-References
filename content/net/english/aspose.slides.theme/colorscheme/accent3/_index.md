@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.theme/colorscheme/accent3/
 ---
+
 ## ColorScheme.Accent3 property
 
 Third accent color in the scheme. Read-only [`IColorFormat`](../../../aspose.slides/icolorformat).

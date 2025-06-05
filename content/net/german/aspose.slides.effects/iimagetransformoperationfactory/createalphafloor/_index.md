@@ -1,7 +1,7 @@
 ---
 title: CreateAlphaFloor
-second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt einen Alpha-Boden-Effekt.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Erstellt den Alpha-Floor-Effekt.
 type: docs
 weight: 20
 url: /de/aspose.slides.effects/iimagetransformoperationfactory/createalphafloor/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/iimagetransformoperationfactory/createalphafloor/
 
 ## IImageTransformOperationFactory.CreateAlphaFloor-Methode
 
-Erstellt einen Alpha-Boden-Effekt.
+Erstellt den Alpha-Floor-Effekt.
 
 ```csharp
 public IAlphaFloor CreateAlphaFloor()
@@ -17,7 +17,7 @@ public IAlphaFloor CreateAlphaFloor()
 
 ### Rückgabewert
 
-Alpha-Boden-Effekt.
+Alpha-Floor-Effekt.
 
 ### Siehe auch
 

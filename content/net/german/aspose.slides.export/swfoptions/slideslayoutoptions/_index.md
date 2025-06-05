@@ -1,15 +1,15 @@
 ---
 title: SlidesLayoutOptions
 second_title: Aspose.Slides für .NET API Referenz
-description: Ruft den Modus ab oder legt ihn fest, in dem Folien auf der Seite platziert werden, wenn eine Präsentation exportiert wird ISlidesLayoutOptionsaspose.slides/islideslayoutoptions. Diese Eigenschaft unterstützt nicht die Zuweisung von Objekten des Typs HandoutLayoutingOptionsaspose.slides/handoutlayoutingoptions.
+description: Ruft den Modus ab oder legt ihn fest, in dem Folien beim Exportieren einer Präsentation auf der Seite platziert werden ISlidesLayoutOptionsaspose.slides/islideslayoutoptions. Diese Eigenschaft unterstützt nicht das Zuweisen von Objekten des Typs HandoutLayoutingOptionsaspose.slides/handoutlayoutingoptions.
 type: docs
 weight: 150
 url: /de/aspose.slides.export/swfoptions/slideslayoutoptions/
 ---
 
-## SwfOptions.SlidesLayoutOptions-Eigenschaft
+## SwfOptions.SlidesLayoutOptions Eigenschaft
 
-Ruht den Modus ab oder legt ihn fest, in dem Folien auf der Seite platziert werden, wenn eine Präsentation exportiert wird [`ISlidesLayoutOptions`](../../islideslayoutoptions). Diese Eigenschaft unterstützt nicht die Zuweisung von Objekten des Typs [`HandoutLayoutingOptions`](../../handoutlayoutingoptions).
+Ruft den Modus ab oder legt ihn fest, in dem Folien beim Exportieren einer Präsentation auf der Seite platziert werden [`ISlidesLayoutOptions`](../../islideslayoutoptions). Diese Eigenschaft unterstützt nicht das Zuweisen von Objekten des Typs [`HandoutLayoutingOptions`](../../handoutlayoutingoptions).
 
 ```csharp
 public ISlidesLayoutOptions SlidesLayoutOptions { get; set; }

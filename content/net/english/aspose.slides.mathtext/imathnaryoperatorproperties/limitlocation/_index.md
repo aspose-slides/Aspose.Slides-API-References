@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation/
 ---
+
 ## IMathNaryOperatorProperties.LimitLocation property
 
 The location of limits (subscript and superscript)

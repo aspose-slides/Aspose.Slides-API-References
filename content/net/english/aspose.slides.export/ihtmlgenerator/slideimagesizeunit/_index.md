@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.export/ihtmlgenerator/slideimagesizeunit/
 ---
+
 ## IHtmlGenerator.SlideImageSizeUnit property
 
 Returns a unit in which slide image size is specified. Read-only [`SvgCoordinateUnit`](../../svgcoordinateunit).

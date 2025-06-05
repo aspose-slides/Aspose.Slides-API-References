@@ -1,7 +1,7 @@
 ---
 title: BeginArrowheadWidth
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Pfeilspitzenbreite zu Beginn einer Linie zurück oder legt sie fest. Lese-/Schreibzugriff auf LineArrowheadWidthaspose.slides/linearrowheadwidth.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Breite des Pfeilspitzen am Anfang einer Linie zurück oder legt sie fest. Lese-/Schreibzugriff auf LineArrowheadWidthaspose.slides/linearrowheadwidth.
 type: docs
 weight: 50
 url: /de/aspose.slides/ilineformat/beginarrowheadwidth/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ilineformat/beginarrowheadwidth/
 
 ## ILineFormat.BeginArrowheadWidth-Eigenschaft
 
-Gibt die Pfeilspitzenbreite zu Beginn einer Linie zurück oder legt sie fest. Lese-/Schreibzugriff auf [`LineArrowheadWidth`](../../linearrowheadwidth).
+Gibt die Breite der Pfeilspitze am Anfang einer Linie zurück oder legt sie fest. Lese-/Schreibzugriff auf [`LineArrowheadWidth`](../../linearrowheadwidth).
 
 ```csharp
 public LineArrowheadWidth BeginArrowheadWidth { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [LineArrowheadWidth](../../linearrowheadwidth)
 * interface [ILineFormat](../../ilineformat)

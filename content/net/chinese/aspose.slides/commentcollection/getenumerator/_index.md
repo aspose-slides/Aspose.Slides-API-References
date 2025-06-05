@@ -1,6 +1,6 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回一个迭代集合的枚举器。
 type: docs
 weight: 100
@@ -17,7 +17,7 @@ public IEnumerator<IComment> GetEnumerator()
 
 ### 返回值
 
-一个可以用于遍历集合的 IEnumerator。
+一个可以用于迭代集合的 IEnumerator。
 
 ### 另请参阅
 

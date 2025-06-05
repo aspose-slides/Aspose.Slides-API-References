@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ifontfallbackrule/count/
 ---
+
 ## IFontFallBackRule.Count property
 
 Gets the number of fonts actually defined for range.

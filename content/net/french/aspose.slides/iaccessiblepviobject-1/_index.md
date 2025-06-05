@@ -1,7 +1,7 @@
 ---
 title: IAccessiblePVIObjectT
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente un type qui peut retourner des données effectives correspondantes avec l'héritage appliqué.
+description: Représente un type qui peut renvoyer des données effectives correspondantes avec l'héritage appliqué.
 type: docs
 weight: 4970
 url: /fr/aspose.slides/iaccessiblepviobject-1/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/iaccessiblepviobject-1/
 
 ## Interface IAccessiblePVIObject&lt;T&gt;
 
-Représente un type qui peut retourner des données effectives correspondantes avec l'héritage appliqué.
+Représente un type qui peut renvoyer des données effectives correspondantes avec l'héritage appliqué.
 
 ```csharp
 public interface IAccessiblePVIObject<T>

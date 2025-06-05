@@ -1,7 +1,7 @@
 ---
-title: 格式
-second_title: Aspose.Slides for .NET API 参考
-description: 返回绘图区域的格式。只读 IFormat aspose.slides.charts/iformat。
+title: Format
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回绘图区域的格式。只读 IFormataspose.slides.charts/iformat。
 type: docs
 weight: 70
 url: /zh/aspose.slides.charts/chartplotarea/format/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/chartplotarea/format/
 public IFormat Format { get; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IFormat](../../iformat)
 * 类 [ChartPlotArea](../../chartplotarea)

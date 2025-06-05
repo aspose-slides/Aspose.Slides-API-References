@@ -7,7 +7,7 @@ weight: 70
 url: /ru/aspose.slides/summaryzoomsectioncollection/copyto/
 ---
 
-## Метод SummaryZoomSectionCollection.CopyTo
+## SummaryZoomSectionCollection.CopyTo метод
 
 Копирует всю коллекцию в указанный массив.
 
@@ -15,10 +15,10 @@ url: /ru/aspose.slides/summaryzoomsectioncollection/copyto/
 public void CopyTo(Array array, int index)
 ```
 
-| Параметр | Тип   | Описание                       |
-| -------- | ----- | ------------------------------ |
-| array    | Array | Целевой массив                |
-| index    | Int32 | Индекс в целевом массиве.     |
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| array | Array | Целевой массив |
+| index | Int32 | Индекс в целевом массиве. |
 
 ### См. также
 

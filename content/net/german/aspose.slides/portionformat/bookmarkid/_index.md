@@ -1,7 +1,7 @@
 ---
 title: BookmarkId
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Lesezeichen-ID zurück oder legt sie fest. Lese-/Schreib-String.
+description: Gibt die Lesezeichenkennung zurück oder setzt sie. Lese-/Schreibbare Zeichenfolge.
 type: docs
 weight: 20
 url: /de/aspose.slides/portionformat/bookmarkid/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/portionformat/bookmarkid/
 
 ## PortionFormat.BookmarkId-Eigenschaft
 
-Gibt die Lesezeichen-ID zurück oder legt sie fest. Lese-/Schreib-String.
+Gibt die Lesezeichenkennung zurück oder setzt sie. Lese-/Schreibbare Zeichenfolge.
 
 ```csharp
 public string BookmarkId { get; set; }

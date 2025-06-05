@@ -1,6 +1,6 @@
 ---
 title: Justification
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Justification de paragraphe Valeur par défaut  CenteredAsGroup
 type: docs
 weight: 20
@@ -17,7 +17,7 @@ public MathJustification Justification { get; set; }
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]

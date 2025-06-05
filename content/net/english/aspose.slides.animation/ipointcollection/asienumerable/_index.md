@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.animation/ipointcollection/asienumerable/
 ---
+
 ## IPointCollection.AsIEnumerable property
 
 Allows to get base IEnumerable interface. Read-only IEnumerable.

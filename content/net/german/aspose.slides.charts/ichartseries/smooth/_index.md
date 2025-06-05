@@ -1,7 +1,7 @@
 ---
-title: Glatt
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt die Kurvenverfeinerung dar. Wahr, wenn die Kurvenverfeinerung für das Liniendiagramm oder das Streudiagramm aktiviert ist. Gilt nur für Linien- und Streudiagramme, die durch Linien verbunden sind. Lese-/Schreib-Boolean.
+title: Smooth
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt die Kurvenglättung dar. Wahr, wenn die Kurvenglättung für das Liniendiagramm oder das Punktdiagramm aktiviert ist. Gilt nur für Linien- und Punktdiagramme, die durch Linien verbunden sind. Lese-/Schreib-Boolean.
 type: docs
 weight: 420
 url: /de/aspose.slides.charts/ichartseries/smooth/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/ichartseries/smooth/
 
 ## IChartSeries.Smooth-Eigenschaft
 
-Stellt die Kurvenverfeinerung dar. Wahr, wenn die Kurvenverfeinerung für das Liniendiagramm oder das Streudiagramm aktiviert ist. Gilt nur für Linien- und Streudiagramme, die durch Linien verbunden sind. Lese-/Schreib-Boolean.
+Stellt die Kurvenglättung dar. Wahr, wenn die Kurvenglättung für das Liniendiagramm oder das Punktdiagramm aktiviert ist. Gilt nur für Linien- und Punktdiagramme, die durch Linien verbunden sind. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool Smooth { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IChartSeries](../../ichartseries)
 * Namespace [Aspose.Slides.Charts](../../ichartseries)

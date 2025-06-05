@@ -1,7 +1,7 @@
 ---
 title: ReadWorkbookStream
-second_title: Aspose.Slides for .NET API 参考
-description: 将内部包含的 Excel 工作簿写入内存流。
+second_title: Aspose.Sildes for .NET API Reference
+description: 将内部包含的 Excel 工作簿写入内存流中。
 type: docs
 weight: 100
 url: /zh/aspose.slides.charts/ichartdata/readworkbookstream/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ichartdata/readworkbookstream/
 
 ## IChartData.ReadWorkbookStream 方法
 
-将内部包含的 Excel 工作簿写入内存流。
+将内部包含的 Excel 工作簿写入内存流中。
 
 ```csharp
 public MemoryStream ReadWorkbookStream()
@@ -17,7 +17,7 @@ public MemoryStream ReadWorkbookStream()
 
 ### 返回值
 
-返回一个包含内部包含的 Excel 工作簿副本的 `MemoryStream` 实例。
+返回一个 `MemoryStream` 的实例，包含内部包含的 Excel 工作簿的副本。
 
 ### 另见
 

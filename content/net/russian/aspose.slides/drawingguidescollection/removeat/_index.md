@@ -1,7 +1,7 @@
 ---
-title: УдалитьПоИндексу
-second_title: Aspose.Slides для .NET API Справочник
-description: Удаляет направляющую рисования по заданному индексу.
+title: RemoveAt
+second_title: Aspose.Sildes для справки по API .NET
+description: Удаляет направляющую рисования по указанному индексу.
 type: docs
 weight: 70
 url: /ru/aspose.slides/drawingguidescollection/removeat/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/drawingguidescollection/removeat/
 
 ## Метод DrawingGuidesCollection.RemoveAt
 
-Удаляет направляющую рисования по заданному индексу.
+Удаляет направляющую рисования по указанному индексу.
 
 ```csharp
 public void RemoveAt(int index)
@@ -17,9 +17,9 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс направляющей рисования, которая должна быть удалена. |
+| index | Int32 | Индекс направляющей рисования, которую следует удалить. |
 
-### См. также
+### См. Также
 
 * класс [DrawingGuidesCollection](../../drawingguidescollection)
 * пространство имен [Aspose.Slides](../../drawingguidescollection)

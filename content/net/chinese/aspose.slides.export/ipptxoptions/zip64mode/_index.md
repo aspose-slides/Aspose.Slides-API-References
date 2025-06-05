@@ -1,7 +1,7 @@
 ---
-title: Zip64模式
-second_title: Aspose.Slides for .NET API 参考
-description: 指定是否使用 ZIP64 格式用于演示文档。默认值为 IfNecessary
+title: Zip64Mode
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定是否为演示文稿使用ZIP64格式。默认值是IfNecessary
 type: docs
 weight: 40
 url: /zh/aspose.slides.export/ipptxoptions/zip64mode/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/ipptxoptions/zip64mode/
 
 ## IPptxOptions.Zip64Mode 属性
 
-指定是否使用 ZIP64 格式用于演示文档。默认值为 IfNecessary
+指定是否为演示文稿使用ZIP64格式。默认值是IfNecessary
 
 ```csharp
 public Zip64Mode Zip64Mode { get; set; }
@@ -17,7 +17,7 @@ public Zip64Mode Zip64Mode { get; set; }
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -30,7 +30,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### 另见
+### 另请参阅
 
 * enum [Zip64Mode](../../zip64mode)
 * interface [IPptxOptions](../../ipptxoptions)

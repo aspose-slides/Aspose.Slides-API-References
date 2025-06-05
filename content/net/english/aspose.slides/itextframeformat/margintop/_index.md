@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/itextframeformat/margintop/
 ---
+
 ## ITextFrameFormat.MarginTop property
 
 Returns or sets the top margin (points) in a TextFrame. Read/write Double.

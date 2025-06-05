@@ -1,13 +1,13 @@
 ---
 title: ClearCustomProperties
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Supprime toutes les propriétés personnalisées.
 type: docs
 weight: 380
 url: /fr/aspose.slides/documentproperties/clearcustomproperties/
 ---
 
-## Méthode DocumentProperties.ClearCustomProperties
+## DocumentProperties.ClearCustomProperties méthode
 
 Supprime toutes les propriétés personnalisées.
 

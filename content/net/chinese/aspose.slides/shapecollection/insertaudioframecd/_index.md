@@ -1,7 +1,7 @@
 ---
 title: InsertAudioFrameCD
 second_title: Aspose.Sildes for .NET API Reference
-description: 插入带有 CD 的音频框。
+description: 插入带有CD的音频框架。
 type: docs
 weight: 270
 url: /zh/aspose.slides/shapecollection/insertaudioframecd/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/shapecollection/insertaudioframecd/
 
 ## ShapeCollection.InsertAudioFrameCD 方法
 
-插入带有 CD 的音频框。
+插入带有CD的音频框架。
 
 ```csharp
 public IAudioFrame InsertAudioFrameCD(int index, float x, float y, float width, float height)
@@ -17,17 +17,17 @@ public IAudioFrame InsertAudioFrameCD(int index, float x, float y, float width, 
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 应插入视频框的零基索引。 |
-| x | Single | 新音频框的 X 坐标。 |
-| y | Single | 新音频框的 Y 坐标。 |
-| width | Single | 新音频框的宽度。 |
-| height | Single | 新音频框的高度。 |
+| index | Int32 | 插入音频框架的零基索引。 |
+| x | Single | 新音频框架的X坐标。 |
+| y | Single | 新音频框架的Y坐标。 |
+| width | Single | 新音频框架的宽度。 |
+| height | Single | 新音频框架的高度。 |
 
 ### 返回值
 
-创建的 AudioFrame 对象。
+创建的AudioFrame对象。
 
-### 另请参阅
+### 另见
 
 * 接口 [IAudioFrame](../../iaudioframe)
 * 类 [ShapeCollection](../../shapecollection)

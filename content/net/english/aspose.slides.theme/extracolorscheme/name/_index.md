@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.theme/extracolorscheme/name/
 ---
+
 ## ExtraColorScheme.Name property
 
 Returns a name of this scheme. Read-only String.

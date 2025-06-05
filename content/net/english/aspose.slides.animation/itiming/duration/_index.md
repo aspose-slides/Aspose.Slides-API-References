@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.animation/itiming/duration/
 ---
+
 ## ITiming.Duration property
 
 Describes the duration of animation effect. Read/write Single.

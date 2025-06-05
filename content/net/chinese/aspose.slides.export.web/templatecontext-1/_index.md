@@ -1,13 +1,13 @@
 ---
 title: TemplateContextTObject
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示模板引擎的模型对象接口。
 type: docs
 weight: 4480
 url: /zh/aspose.slides.export.web/templatecontext-1/
 ---
 
-## TemplateContext&lt;TObject&gt; 类
+## TemplateContext&lt;TObject&gt; class
 
 表示模板引擎的模型对象接口。
 
@@ -15,16 +15,16 @@ url: /zh/aspose.slides.export.web/templatecontext-1/
 public sealed class TemplateContext<TObject>
 ```
 
-## 属性
+## Properties
 
 | 名称 | 描述 |
 | --- | --- |
 | [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | 返回主文档的全局存储。只读 [`Storage`](../storage)。 |
-| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | 返回当前模板上下文的 локал 存储。只读 [`Storage`](../storage)。 |
+| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | 返回当前模板上下文的 локальный存储。只读 [`Storage`](../storage)。 |
 | [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | 返回模型对象。只读 !:TObject。 |
 | [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | 返回主文档的输出元素集合。只读 [`Output`](./output)。 |
 
-## 方法
+## Methods
 
 | 名称 | 描述 |
 | --- | --- |

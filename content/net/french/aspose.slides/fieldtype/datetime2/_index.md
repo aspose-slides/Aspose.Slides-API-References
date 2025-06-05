@@ -1,7 +1,7 @@
 ---
 title: DateTime2
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Date et heure actuelles dans un second format prédéfini Jour Mois JJ AAAA pour l'anglais. Champ de type lecture seule aspose.slides/fieldtype.
+description: Date et heure actuelles dans un deuxième format prédéfini Jour Mois DD AAAA pour l'anglais. Champ en lecture seule FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 80
 url: /fr/aspose.slides/fieldtype/datetime2/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/fieldtype/datetime2/
 
 ## Propriété FieldType.DateTime2
 
-Date et heure actuelles dans un second format prédéfini (Jour, Mois JJ, AAAA pour l'anglais). Champ de type lecture seule [`FieldType`](../../fieldtype).
+Date et heure actuelles dans un deuxième format prédéfini (Jour, Mois DD, AAAA pour l'anglais). Champ en lecture seule [`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType DateTime2 { get; }

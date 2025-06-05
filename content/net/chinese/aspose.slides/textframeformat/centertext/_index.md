@@ -1,7 +1,7 @@
 ---
 title: CenterText
-second_title: Aspose.Slides for .NET API 参考
-description: 如果 NullableBool.True，则文本应在框内水平居中。读/写 NullableBoolaspose.slides/nullablebool。
+second_title: Aspose.Sildes for .NET API Reference
+description: 如果 NullableBool.True，则文本应水平居中于框中。读/写 NullableBoolaspose.slides/nullablebool。
 type: docs
 weight: 40
 url: /zh/aspose.slides/textframeformat/centertext/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/textframeformat/centertext/
 
 ## TextFrameFormat.CenterText 属性
 
-如果 NullableBool.True，则文本应在框内水平居中。读/写 [`NullableBool`](../../nullablebool)。
+如果 NullableBool.True，则文本应水平居中于框中。读/写 [`NullableBool`](../../nullablebool)。
 
 ```csharp
 public NullableBool CenterText { get; set; }

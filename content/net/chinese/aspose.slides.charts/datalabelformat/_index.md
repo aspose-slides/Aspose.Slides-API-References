@@ -1,54 +1,54 @@
 ---
 title: DataLabelFormat
-second_title: Aspose.Slides for .NET API 参考
-description: 表示 DataLabel 的格式选项。
+second_title: Aspose.Slides for .NET API Reference
+description: 表示数据标签的格式选项。
 type: docs
 weight: 1490
 url: /zh/aspose.slides.charts/datalabelformat/
 ---
 
-## DataLabelFormat 类
+## DataLabelFormat class
 
-表示 DataLabel 的格式选项。
+表示数据标签的格式选项。
 
 ```csharp
 public sealed class DataLabelFormat : PVIObject, IDataLabelFormat
 ```
 
-## 属性
+## Properties
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本的 IPresentationComponent 接口。只读 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
 | [Chart](../../aspose.slides.charts/datalabelformat/chart) { get; } | 返回图表。只读 [`IChart`](../ichart)。 |
 | [Format](../../aspose.slides.charts/datalabelformat/format) { get; } | 表示数据标签的格式。只读 [`IFormat`](../iformat)。 |
-| [IsNumberFormatLinkedToSource](../../aspose.slides.charts/datalabelformat/isnumberformatlinkedtosource) { get; set; } | 读/写布尔值。 |
-| [NumberFormat](../../aspose.slides.charts/datalabelformat/numberformat) { get; set; } | 表示 DataLabels 对象的格式字符串。读/写字符串。 |
-| [Position](../../aspose.slides.charts/datalabelformat/position) { get; set; } | 表示数据标签的位置。读/写 [`LegendDataLabelPosition`](../legenddatalabelposition)。 |
-| [Separator](../../aspose.slides.charts/datalabelformat/separator) { get; set; } | 设置或返回一个变体，表示用于图表上数据标签的分隔符。读/写字符串。 |
-| [ShowBubbleSize](../../aspose.slides.charts/datalabelformat/showbubblesize) { get; set; } | 表示指定图表的数据标签气泡大小值的显示行为。为真则显示气泡大小值。为假则隐藏。读/写布尔值。 |
-| [ShowCategoryName](../../aspose.slides.charts/datalabelformat/showcategoryname) { get; set; } | 表示指定图表的数据标签类别名称的显示行为。为真则在图表上显示数据标签的类别名称。为假则隐藏。读/写布尔值。 |
-| [ShowLabelAsDataCallout](../../aspose.slides.charts/datalabelformat/showlabelasdatacallout) { get; set; } | 确定指定图表的数据标签是显示为数据呼叫还是数据标签。如果此 DataLabelFormat 对象的父级是数据标签的 DataLabelCollection 集合，则此属性用于获取或设置 DataLabelCollection 集合中新数据标签的 ShowLabelAsDataCallout 属性的默认值。设置此属性的值时，也会将该值设置为 DataLabelCollection 集合中所有数据标签的 ShowLabelAsDataCallout 属性（即 "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" 会导致所有 DataLabels[i].ShowLabelAsDataCallout 等于 val）。 |
-| [ShowLabelValueFromCell](../../aspose.slides.charts/datalabelformat/showlabelvaluefromcell) { get; set; } | 表示指定图表的数据标签单元格值的显示行为。为真则显示单元格值。为假则隐藏。读/写布尔值。 |
-| [ShowLeaderLines](../../aspose.slides.charts/datalabelformat/showleaderlines) { get; set; } | 表示指定图表的数据标签引导线的显示行为。为真则显示引导线。为假则隐藏。读/写布尔值。 |
-| [ShowLegendKey](../../aspose.slides.charts/datalabelformat/showlegendkey) { get; set; } | 表示指定图表的数据标签图例键的显示行为。如果数据标签图例键可见则为真。读/写布尔值。 |
-| [ShowPercentage](../../aspose.slides.charts/datalabelformat/showpercentage) { get; set; } | 表示指定图表的数据标签百分比值的显示行为。为真则显示百分比值。为假则隐藏。读/写布尔值。 |
-| [ShowSeriesName](../../aspose.slides.charts/datalabelformat/showseriesname) { get; set; } | 返回或设置一个布尔值，指示图表上数据标签的系列名称显示行为。为真则显示系列名称。为假则隐藏。读/写布尔值。 |
-| [ShowValue](../../aspose.slides.charts/datalabelformat/showvalue) { get; set; } | 表示指定图表的数据标签值显示行为。为真则显示值。为假则隐藏。读/写布尔值。 |
+| [IsNumberFormatLinkedToSource](../../aspose.slides.charts/datalabelformat/isnumberformatlinkedtosource) { get; set; } | 读写布尔值。 |
+| [NumberFormat](../../aspose.slides.charts/datalabelformat/numberformat) { get; set; } | 表示 DataLabels 对象的格式字符串。读写字符串。 |
+| [Position](../../aspose.slides.charts/datalabelformat/position) { get; set; } | 表示数据标签的位置。读写 [`LegendDataLabelPosition`](../legenddatalabelposition)。 |
+| [Separator](../../aspose.slides.charts/datalabelformat/separator) { get; set; } | 设置或返回表示图表上数据标签使用的分隔符的变体。读写字符串。 |
+| [ShowBubbleSize](../../aspose.slides.charts/datalabelformat/showbubblesize) { get; set; } | 表示指定图表的数据标签气泡大小值显示行为。True 显示气泡大小值。False 隐藏。读写布尔值。 |
+| [ShowCategoryName](../../aspose.slides.charts/datalabelformat/showcategoryname) { get; set; } | 表示指定图表的数据标签类别名称显示行为。True 显示图表上的数据标签类别名称。False 隐藏。读写布尔值。 |
+| [ShowLabelAsDataCallout](../../aspose.slides.charts/datalabelformat/showlabelasdatacallout) { get; set; } | 确定指定图表的数据标签将显示为数据标注还是数据标签。如果此 DataLabelFormat 对象的父级是数据标签集合，则此属性获取或设置数据标签集合中新数据标签的 ShowLabelAsDataCallout 属性的默认值。设置此属性的值也会将该值设置为数据标签集合中所有数据标签的 ShowLabelAsDataCallout 属性（即“DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;”将导致所有 DataLabels[i].ShowLabelAsDataCallout 等于 val）。 |
+| [ShowLabelValueFromCell](../../aspose.slides.charts/datalabelformat/showlabelvaluefromcell) { get; set; } | 表示指定图表的数据标签单元格值的显示行为。True 显示单元格值。False 隐藏。读写布尔值。 |
+| [ShowLeaderLines](../../aspose.slides.charts/datalabelformat/showleaderlines) { get; set; } | 表示指定图表的数据标签引导线的显示行为。True 显示引导线。False 隐藏。读写布尔值。 |
+| [ShowLegendKey](../../aspose.slides.charts/datalabelformat/showlegendkey) { get; set; } | 表示指定图表的数据标签图例键的显示行为。如果数据标签图例键可见，则为 True。读写布尔值。 |
+| [ShowPercentage](../../aspose.slides.charts/datalabelformat/showpercentage) { get; set; } | 表示指定图表的数据标签百分比值显示行为。True 显示百分比值。False 隐藏。读写布尔值。 |
+| [ShowSeriesName](../../aspose.slides.charts/datalabelformat/showseriesname) { get; set; } | 返回或设置布尔值以指示图表上数据标签的系列名称显示行为。True 显示系列名称。False 隐藏。读写布尔值。 |
+| [ShowValue](../../aspose.slides.charts/datalabelformat/showvalue) { get; set; } | 表示指定图表的数据标签百分比值显示行为。True 显示百分比值。False 隐藏。读写布尔值。 |
 | [TextFormat](../../aspose.slides.charts/datalabelformat/textformat) { get; } | 返回图表文本格式。只读 [`IChartTextFormat`](../icharttextformat)。 |
 
-## 方法
+## Methods
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 与指定对象进行比较。 |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 返回哈希码。 |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 返回哈希代码。 |
 
-### 另请参阅
+### See Also
 
-* 类 [PVIObject](../../aspose.slides/pviobject)
-* 接口 [IDataLabelFormat](../idatalabelformat)
-* 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
-* 程序集 [Aspose.Slides](../../)
+* class [PVIObject](../../aspose.slides/pviobject)
+* interface [IDataLabelFormat](../idatalabelformat)
+* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

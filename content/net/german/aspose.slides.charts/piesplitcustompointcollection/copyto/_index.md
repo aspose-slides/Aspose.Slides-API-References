@@ -1,15 +1,15 @@
 ---
 title: CopyTo
-second_title: Aspose.Slides für .NET API Referenz
-description: Kopiert die Elemente der ICollection in ein Array, beginnend an einem bestimmten Array-Index.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Kopiert die Elemente von ICollection in ein Array, beginnend bei einem bestimmten Array-Index.
 type: docs
 weight: 90
 url: /de/aspose.slides.charts/piesplitcustompointcollection/copyto/
 ---
 
-## PieSplitCustomPointCollection.CopyTo-Methode
+## PieSplitCustomPointCollection.CopyTo Methode
 
-Kopiert die Elemente der ICollection in ein Array, beginnend an einem bestimmten Array-Index.
+Kopiert die Elemente von ICollection in ein Array, beginnend bei einem bestimmten Array-Index.
 
 ```csharp
 public void CopyTo(IChartDataPoint[] array, int arrayIndex)
@@ -26,7 +26,7 @@ public void CopyTo(IChartDataPoint[] array, int arrayIndex)
 | --- | --- |
 | ArgumentNullException | *array* ist null. |
 | ArgumentOutOfRangeException | *arrayIndex* ist kleiner als 0. |
-| ArgumentException | Die Anzahl der Elemente in der Quell-ICollection ist größer als der verfügbare Platz von *arrayIndex* bis zum Ende des Ziel-*arrays*. |
+| ArgumentException | Die Anzahl der Elemente in der Quell-ICollection ist größer als der verfügbare Platz von *arrayIndex* bis zum Ende des Ziel-*array*. |
 
 ### Siehe Auch
 

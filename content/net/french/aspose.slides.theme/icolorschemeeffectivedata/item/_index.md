@@ -1,6 +1,6 @@
 ---
-title: Élement
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Item
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Obtient l'élément à l'index spécifié. Couleur en lecture seule.
 type: docs
 weight: 110

@@ -1,7 +1,7 @@
 ---
-title: Zeile
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Index der Zeile im Arbeitsblatt zurück, in der sich die Zelle befindet. Nur lesender Int32.
+title: Row
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Index der Zeile des Arbeitsblatts zurück, in der sich die Zelle befindet. Nur-lesbar Int32.
 type: docs
 weight: 80
 url: /de/aspose.slides.charts/chartdatacell/row/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/chartdatacell/row/
 
 ## ChartDataCell.Row-Eigenschaft
 
-Gibt den Index der Zeile im Arbeitsblatt zurück, in der sich die Zelle befindet. Nur lesender Int32.
+Gibt den Index der Zeile des Arbeitsblatts zurück, in der sich die Zelle befindet. Nur-lesbar Int32.
 
 ```csharp
 public int Row { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [ChartDataCell](../../chartdatacell)
 * Namespace [Aspose.Slides.Charts](../../chartdatacell)

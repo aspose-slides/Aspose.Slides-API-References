@@ -6,6 +6,7 @@ type: docs
 weight: 260
 url: /aspose.slides.charts/ichartseries/order/
 ---
+
 ## IChartSeries.Order property
 
 Returns the order of a series. Read/write Int32.

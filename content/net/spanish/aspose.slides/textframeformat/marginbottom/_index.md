@@ -1,13 +1,13 @@
 ---
 title: MarginBottom
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve o establece los puntos del margen inferior en un TextFrame. Lectura/escritura Double.
 type: docs
 weight: 80
 url: /es/aspose.slides/textframeformat/marginbottom/
 ---
 
-## Propiedad TextFrameFormat.MarginBottom
+## TextFrameFormat.MarginBottom property
 
 Devuelve o establece el margen inferior (puntos) en un TextFrame. Lectura/escritura Double.
 
@@ -17,8 +17,8 @@ public double MarginBottom { get; set; }
 
 ### Ver También
 
-* class [TextFrameFormat](../../textframeformat)
-* namespace [Aspose.Slides](../../textframeformat)
-* assembly [Aspose.Slides](../../../)
+* clase [TextFrameFormat](../../textframeformat)
+* espacio de nombres [Aspose.Slides](../../textframeformat)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

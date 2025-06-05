@@ -1,7 +1,7 @@
 ---
-title: Hyperlien
+title: Hyperlink
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Crée une instance d'un hyperlien.
+description: Crée une instance d'un lien hypertexte.
 type: docs
 weight: 10
 url: /fr/aspose.slides/hyperlink/hyperlink/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/hyperlink/hyperlink/
 
 ## Hyperlink(string) {#constructor_2}
 
-Crée une instance d'un hyperlien.
+Crée une instance d'un lien hypertexte.
 
 ```csharp
 public Hyperlink(string url)
@@ -17,9 +17,9 @@ public Hyperlink(string url)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| url | String | URL de l'hyperlien. |
+| url | String | URL du lien hypertexte. |
 
-### Voir aussi
+### Voir Aussi
 
 * class [Hyperlink](../../hyperlink)
 * namespace [Aspose.Slides](../../hyperlink)
@@ -29,7 +29,7 @@ public Hyperlink(string url)
 
 ## Hyperlink(ISlide) {#constructor_1}
 
-Crée une instance d'un hyperlien qui pointe vers une diapositive spécifique. Remarque : l'hyperlien créé doit être assigné à un objet de la même présentation, sinon le lien sera enregistré en tant que NoAction.
+Crée une instance d'un lien hypertexte qui pointe vers une diapositive spécifique. Remarque : le lien hypertexte créé doit être assigné à un objet de la même présentation, sinon le lien sera enregistré en tant que NoAction.
 
 ```csharp
 public Hyperlink(ISlide slide)
@@ -39,7 +39,7 @@ public Hyperlink(ISlide slide)
 | --- | --- | --- |
 | slide | ISlide | Diapositive cible. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ISlide](../../islide)
 * class [Hyperlink](../../hyperlink)
@@ -50,7 +50,7 @@ public Hyperlink(ISlide slide)
 
 ## Hyperlink(Hyperlink, string, string, bool, bool, bool) {#constructor}
 
-Crée une instance d'un hyperlien en utilisant un autre hyperlien comme source, en écrasant les propriétés secondaires.
+Crée une instance d'un lien hypertexte en utilisant un autre lien hypertexte comme source, en écrasant les propriétés secondaires.
 
 ```csharp
 public Hyperlink(Hyperlink source, string targetFrame, string tooltip, bool history, 
@@ -59,14 +59,14 @@ public Hyperlink(Hyperlink source, string targetFrame, string tooltip, bool hist
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| source | Hyperlink | Hyperlien source |
+| source | Hyperlink | Lien hypertexte source |
 | targetFrame | String | Cadre cible |
-| tooltip | String | Texte de l'infobulle |
+| tooltip | String | Texte de l'info-bulle |
 | history | Boolean |  |
 | stopSoundsOnClick | Boolean |  |
 | highlightClick | Boolean |  |
 
-### Voir aussi
+### Voir Aussi
 
 * class [Hyperlink](../../hyperlink)
 * namespace [Aspose.Slides](../../hyperlink)

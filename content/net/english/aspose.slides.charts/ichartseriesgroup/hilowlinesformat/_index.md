@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.charts/ichartseriesgroup/hilowlinesformat/
 ---
+
 ## IChartSeriesGroup.HiLowLinesFormat property
 
 Specifies HiLowLines format. HiLowLines applied with HiLowClose, OpenHiLowClose, VolumeHiLowClose and VolumeOpenHiLowClose chart types.

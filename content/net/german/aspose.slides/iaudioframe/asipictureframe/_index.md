@@ -1,7 +1,7 @@
 ---
 title: AsIPictureFrame
-second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht den Zugriff auf die Basis-IPictureFrame-Schnittstelle. Nur-lesbare IPictureFrame aspose.slides/ipictureframe.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ermöglicht den Zugriff auf die Basis-IPictureFrame-Schnittstelle. Nur lesbares IPictureFrame aspose.slides/ipictureframe.
 type: docs
 weight: 10
 url: /de/aspose.slides/iaudioframe/asipictureframe/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/iaudioframe/asipictureframe/
 
 ## IAudioFrame.AsIPictureFrame-Eigenschaft
 
-Ermöglicht den Zugriff auf die Basis-IPictureFrame-Schnittstelle. Nur-lesbare [`IPictureFrame`](../../ipictureframe).
+Ermöglicht den Zugriff auf die Basis-IPictureFrame-Schnittstelle. Nur lesbares [`IPictureFrame`](../../ipictureframe).
 
 ```csharp
 public IPictureFrame AsIPictureFrame { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IPictureFrame](../../ipictureframe)
 * Schnittstelle [IAudioFrame](../../iaudioframe)

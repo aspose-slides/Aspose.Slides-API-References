@@ -1,7 +1,7 @@
 ---
-title: Contient
+title: Contains
 second_title: Référence API Aspose.Slides pour .NET
-description: Détermine si la ICollection contient une valeur spécifique.
+description: Détermine si l'ICollection contient une valeur spécifique.
 type: docs
 weight: 230
 url: /fr/aspose.slides.effects/imagetransformoperationcollection/contains/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/imagetransformoperationcollection/contains/
 
 ## Méthode ImageTransformOperationCollection.Contains
 
-Détermine si la ICollection contient une valeur spécifique.
+Détermine si l'ICollection contient une valeur spécifique.
 
 ```csharp
 public bool Contains(IImageTransformOperation item)
@@ -17,11 +17,11 @@ public bool Contains(IImageTransformOperation item)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| item | IImageTransformOperation | L'objet à localiser dans la ICollection. |
+| item | IImageTransformOperation | L'objet à localiser dans l'ICollection. |
 
 ### Valeur de retour
 
-true si *item* est trouvé dans la ICollection ; sinon, false.
+true si *item* est trouvé dans l'ICollection ; sinon, false.
 
 ### Voir aussi
 

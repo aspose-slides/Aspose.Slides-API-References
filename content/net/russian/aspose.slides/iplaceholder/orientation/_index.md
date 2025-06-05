@@ -1,13 +1,13 @@
 ---
-title: Ориентация
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает ориентацию заполнителя. Только для чтения Orientationaspose.slides/orientation.
+title: Orientation
+second_title: Aspose.Sildes для справки по API .NET
+description: Получает ориентацию заполнитель. Только для чтения Orientationaspose.slides/orientation.
 type: docs
 weight: 20
 url: /ru/aspose.slides/iplaceholder/orientation/
 ---
 
-## Свойство IPlaceholder.Orientation
+## IPlaceholder.Orientation свойство
 
 Получает ориентацию заполнителя. Только для чтения [`Orientation`](../../orientation).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/iplaceholder/orientation/
 public Orientation Orientation { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * enum [Orientation](../../orientation)
 * interface [IPlaceholder](../../iplaceholder)

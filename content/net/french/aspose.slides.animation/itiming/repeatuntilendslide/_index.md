@@ -1,7 +1,7 @@
 ---
 title: RepeatUntilEndSlide
 second_title: Aspose.Sildes pour la référence API .NET
-description: Cet attribut spécifie si l'effet se répétera jusqu'à la fin de la diapositive. Booléen en lecture/écriture.
+description: Cet attribut spécifie si l'effet se répétera jusqu'à la fin de la diapositive. Boolean lisible/écrivable.
 type: docs
 weight: 70
 url: /fr/aspose.slides.animation/itiming/repeatuntilendslide/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/itiming/repeatuntilendslide/
 
 ## Propriété ITiming.RepeatUntilEndSlide
 
-Cet attribut spécifie si l'effet se répétera jusqu'à la fin de la diapositive. Booléen en lecture/écriture.
+Cet attribut spécifie si l'effet se répétera jusqu'à la fin de la diapositive. Boolean lisible/écrivable.
 
 ```csharp
 public bool RepeatUntilEndSlide { get; set; }
@@ -21,18 +21,18 @@ public bool RepeatUntilEndSlide { get; set; }
 [C#]
 using (Presentation presentation = new Presentation("demo.pptx"))
 {
-    // Obtenez la séquence des effets pour la première diapositive
+    // Obtenir la séquence d'effets pour la première diapositive
     ISequence effectsSequence = presentation.Slides[0].Timeline.MainSequence;
 
-    // Obtenez le premier effet de la séquence principale.
+    // Obtenir le premier effet de la séquence principale.
     IEffect effect = effectsSequence[0];
 
-    // Changez le timing de l'effet/Répétition en "Jusqu'à la fin de la diapositive"
+    // Changer le Timing de l'effet/Répéter en "Jusqu'à la fin de la diapositive"
     effect.Timing.RepeatUntilEndSlide = true;
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ITiming](../../itiming)
 * namespace [Aspose.Slides.Animation](../../itiming)

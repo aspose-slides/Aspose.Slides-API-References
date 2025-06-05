@@ -1,6 +1,6 @@
 ---
-title: 添加
-second_title: Aspose.Slides for .NET API 参考
+title: Add
+second_title: Aspose.Sildes for .NET API Reference
 description: 将数学元素添加到集合的末尾。
 type: docs
 weight: 50
@@ -30,7 +30,7 @@ mathBlock.Add(new MathematicalText("+"));
 mathBlock.Add(new MathRadical(new MathematicalText("x"), new MathematicalText("3")));
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IMathElement](../../imathelement)
 * 类 [MathBlock](../../mathblock)

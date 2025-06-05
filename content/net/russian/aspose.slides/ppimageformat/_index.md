@@ -1,7 +1,7 @@
 ---
 title: PPImageFormat
-second_title: Aspose.Slides для .NET API Справочник
-description: Форматы изображений. Этот перечисляемый тип является заменой класса System.Drawing.Imaging.ImageFormat. Он нужен для совместимости с COM.
+second_title: Aspose.Sildes для .NET API Reference
+description: Форматы изображений. Этот перечислимый тип является заменой класса System.Drawing.Imaging.ImageFormat. Он нужен для совместимости с COM.
 type: docs
 weight: 8990
 url: /ru/aspose.slides/ppimageformat/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ppimageformat/
 
 ## Перечисление PPImageFormat
 
-Форматы изображений. Этот перечисляемый тип является заменой класса `System.Drawing.Imaging.ImageFormat`. Он нужен для совместимости с COM.
+Форматы изображений. Этот перечислимый тип является заменой класса `System.Drawing.Imaging.ImageFormat`. Он нужен для совместимости с COM.
 
 ```csharp
 public enum PPImageFormat
@@ -17,20 +17,20 @@ public enum PPImageFormat
 
 ### Значения
 
-| Имя | Значение | Описание |
+| Название | Значение | Описание |
 | --- | --- | --- |
-| Bmp | `0` | Получает формат изображения bitmap (BMP). |
-| Emf | `1` | Получает формат изображения enhanced metafile (EMF). |
-| Exif | `2` | Получает формат Exchangeable Image File (Exif). |
-| Gif | `3` | Получает формат изображения Graphics Interchange Format (GIF). |
-| Icon | `4` | Получает формат изображения Windows иконки. |
-| Jpeg | `5` | Получает формат изображения Joint Photographic Experts Group (JPEG). |
-| MemoryBmp | `6` | Получает формат битовой карты в памяти. |
-| Png | `7` | Получает формат изображения W3C Portable Network Graphics (PNG). |
-| Tiff | `8` | Получает формат Tagged Image File Format (TIFF) изображения. |
-| Wmf | `9` | Получает формат изображения Windows metafile (WMF). |
+| Bmp | `0` | Получает формат изображения битмап (BMP). |
+| Emf | `1` | Получает формат расширенного метафайла (EMF). |
+| Exif | `2` | Получает формат совместимого файла изображений (Exif). |
+| Gif | `3` | Получает формат графического обмена (GIF). |
+| Icon | `4` | Получает формат изображения значка Windows. |
+| Jpeg | `5` | Получает формат Совместимой группы фотографов (JPEG). |
+| MemoryBmp | `6` | Получает формат битмапа в памяти. |
+| Png | `7` | Получает формат переносной графики W3C (PNG). |
+| Tiff | `8` | Получает формат помеченного файла изображения (TIFF). |
+| Wmf | `9` | Получает формат метафайла Windows (WMF). |
 
-### Смотрите также
+### См. Также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

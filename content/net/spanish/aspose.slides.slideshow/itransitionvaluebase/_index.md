@@ -15,9 +15,9 @@ Representa la clase base para efectos de transición de diapositivas.
 public interface ITransitionValueBase
 ```
 
-### Ver también
+### Véase también
 
-* espacio de nombres [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
-* ensamblado [Aspose.Slides](../../)
+* namespace [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
+* assembly [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

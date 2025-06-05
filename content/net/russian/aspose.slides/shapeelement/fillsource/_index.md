@@ -1,6 +1,6 @@
 ---
 title: FillSource
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для справки по API .NET
 description: Возвращает информацию о том, как заполнить элемент. Только для чтения ShapeElementFillSourceaspose.slides/shapeelementfillsource.
 type: docs
 weight: 10

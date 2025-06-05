@@ -1,7 +1,7 @@
 ---
 title: ParentSeries
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt die übergeordnete Diagrammreihe zurück. Nur-Lese IChartSeriesaspose.slides/ichartseries.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die übergeordnete Diagrammreihe zurück. Nur-Lese-IChartSeriesaspose.slides.charts/ichartseries.
 type: docs
 weight: 90
 url: /de/aspose.slides.charts/idatalabelcollection/parentseries/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/idatalabelcollection/parentseries/
 
 ## IDataLabelCollection.ParentSeries-Eigenschaft
 
-Gibt die übergeordnete Diagrammreihe zurück. Nur-Lese [`IChartSeries`](../../ichartseries).
+Gibt die übergeordnete Diagrammreihe zurück. Nur-Lese-[`IChartSeries`](../../ichartseries).
 
 ```csharp
 public IChartSeries ParentSeries { get; }

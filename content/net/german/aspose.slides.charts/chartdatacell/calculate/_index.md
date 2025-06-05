@@ -1,6 +1,6 @@
 ---
-title: Berechnen
-second_title: Aspose.Slides für .NET API-Referenz
+title: Calculate
+second_title: Aspose.Sildes für .NET API Referenz
 description: Wenn die Zelle eine Formel enthält, wird der Wert basierend auf dieser Formel aktualisiert.
 type: docs
 weight: 100
@@ -15,11 +15,11 @@ Wenn die Zelle eine Formel enthält, wird der Wert basierend auf dieser Formel a
 public void Calculate(bool updateValues)
 ```
 
-| Parameter     | Typ      | Beschreibung                                                                 |
-|---------------|----------|------------------------------------------------------------------------------|
-| updateValues  | Boolean  | Wenn false, wird keine tatsächliche Berechnung durchgeführt. Verwenden Sie true für mögliche Ausnahmeüberprüfungen. |
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| updateValues | Boolean | Wenn false, wird keine tatsächliche Berechnung durchgeführt. Verwenden Sie true für mögliche Ausnahmeüberprüfungen. |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [ChartDataCell](../../chartdatacell)
 * Namespace [Aspose.Slides.Charts](../../chartdatacell)

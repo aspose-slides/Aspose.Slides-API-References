@@ -1,7 +1,7 @@
 ---
-title: 自动设置分类轴类型
-second_title: Aspose.Sildes for .NET API 参考
-description: 根据轴数据自动确定值来设置IAxis.CategoryAxisType属性。
+title: SetCategoryAxisTypeAutomatically
+second_title: Aspose.Sildes for .NET API Reference
+description: 根据轴数据自动确定的值设置IAxis.CategoryAxisType属性。
 type: docs
 weight: 560
 url: /zh/aspose.slides.charts/iaxis/setcategoryaxistypeautomatically/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/iaxis/setcategoryaxistypeautomatically/
 
 ## IAxis.SetCategoryAxisTypeAutomatically 方法
 
-根据轴数据自动确定值来设置IAxis.CategoryAxisType属性。
+根据轴数据自动确定的值设置IAxis.CategoryAxisType属性。
 
 ```csharp
 public void SetCategoryAxisTypeAutomatically()
 ```
 
-### 另见
+### 参见
 
 * 接口 [IAxis](../../iaxis)
 * 命名空间 [Aspose.Slides.Charts](../../iaxis)

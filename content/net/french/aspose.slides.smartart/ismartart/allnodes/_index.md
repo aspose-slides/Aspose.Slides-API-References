@@ -7,15 +7,15 @@ weight: 10
 url: /fr/aspose.slides.smartart/ismartart/allnodes/
 ---
 
-## Propriété ISmartArt.AllNodes
+## ISmartArt.AllNodes propriété
 
-Renvoie des collections de tous les nœuds dans l'objet SmartArt. Lire seule [`ISmartArtNodeCollection`](../../ismartartnodecollection).
+Renvoie des collections de tous les nœuds dans l'objet SmartArt. [`ISmartArtNodeCollection`](../../ismartartnodecollection) en lecture seule.
 
 ```csharp
 public ISmartArtNodeCollection AllNodes { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ISmartArtNodeCollection](../../ismartartnodecollection)
 * interface [ISmartArt](../../ismartart)

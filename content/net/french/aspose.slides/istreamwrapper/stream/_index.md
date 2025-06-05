@@ -1,5 +1,5 @@
 ---
-title: Flux
+title: Stream
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient un flux. Flux en lecture seule.
 type: docs
@@ -15,10 +15,10 @@ Obtient un flux. Flux en lecture seule.
 public Stream Stream { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IStreamWrapper](../../istreamwrapper)
 * namespace [Aspose.Slides](../../istreamwrapper)
 * assembly [Aspose.Slides](../../../)
 
-<!-- NE PAS ÉDITEZ : généré par xmldocmd pour Aspose.Slides.dll -->
+<!-- NE PAS ÉDITER : généré par xmldocmd pour Aspose.Slides.dll -->

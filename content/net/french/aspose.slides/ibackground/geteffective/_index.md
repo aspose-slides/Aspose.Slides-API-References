@@ -1,13 +1,13 @@
 ---
 title: GetEffective
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Obtient les données d'arrière-plan effectives avec l'héritage appliqué.
 type: docs
 weight: 80
 url: /fr/aspose.slides/ibackground/geteffective/
 ---
 
-## Méthode IBackground.GetEffective
+## IBackground.GetEffective méthode
 
 Obtient les données d'arrière-plan effectives avec l'héritage appliqué.
 
@@ -15,11 +15,11 @@ Obtient les données d'arrière-plan effectives avec l'héritage appliqué.
 public IBackgroundEffectiveData GetEffective()
 ```
 
-### Valeur de retour
+### Valeur de Retour
 
 Un [`IBackgroundEffectiveData`](../../ibackgroundeffectivedata).
 
-### Voir aussi
+### Voir Également
 
 * interface [IBackgroundEffectiveData](../../ibackgroundeffectivedata)
 * interface [IBackground](../../ibackground)

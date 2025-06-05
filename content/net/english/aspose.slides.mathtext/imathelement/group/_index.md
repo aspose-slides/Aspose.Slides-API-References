@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.mathtext/imathelement/group/
 ---
+
 ## Group() {#group}
 
 Places this element in a group using a bottom curly bracket

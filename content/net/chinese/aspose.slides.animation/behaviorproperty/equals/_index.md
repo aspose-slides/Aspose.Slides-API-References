@@ -1,7 +1,7 @@
 ---
-title: 等于
-second_title: Aspose.Slides for .NET API 参考
-description: 检查此对象是否等于另一个。
+title: Equals
+second_title: Aspose.Sildes for .NET API Reference
+description: 检查此对象是否等于另一个对象。
 type: docs
 weight: 1250
 url: /zh/aspose.slides.animation/behaviorproperty/equals/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/behaviorproperty/equals/
 
 ## BehaviorProperty.Equals 方法
 
-检查此对象是否等于另一个。
+检查此对象是否等于另一个对象。
 
 ```csharp
 public override bool Equals(object obj)
@@ -21,7 +21,7 @@ public override bool Equals(object obj)
 
 ### 返回值
 
-如果对象相等，则为 true。
+如果对象相等，则为 True。
 
 ### 另见
 

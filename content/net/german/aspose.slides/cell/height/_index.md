@@ -1,5 +1,5 @@
 ---
-title: Höhe
+title: Height
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Höhe der Zelle zurück. Nur-Lese Double.
 type: docs
@@ -15,7 +15,7 @@ Gibt die Höhe der Zelle zurück. Nur-Lese Double.
 public double Height { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [Cell](../../cell)
 * Namespace [Aspose.Slides](../../cell)

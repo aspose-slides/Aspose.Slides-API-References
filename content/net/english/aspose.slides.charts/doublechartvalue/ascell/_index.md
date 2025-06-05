@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/doublechartvalue/ascell/
 ---
+
 ## DoubleChartValue.AsCell property
 
 Returns or sets chart data cell. Read/write [`IChartDataCell`](../../ichartdatacell).

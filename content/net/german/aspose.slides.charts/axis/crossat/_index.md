@@ -1,13 +1,13 @@
 ---
 title: CrossAt
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt den Punkt auf der Achse dar, an dem die senkrechte Achse sie schneidet. Lese-/Schreibzugriff auf Single.
 type: docs
 weight: 130
 url: /de/aspose.slides.charts/axis/crossat/
 ---
 
-## Axis.CrossAt Eigenschaft
+## Axis.CrossAt-Eigenschaft
 
 Stellt den Punkt auf der Achse dar, an dem die senkrechte Achse sie schneidet. Lese-/Schreibzugriff auf Single.
 
@@ -15,7 +15,7 @@ Stellt den Punkt auf der Achse dar, an dem die senkrechte Achse sie schneidet. L
 public float CrossAt { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [Axis](../../axis)
 * Namespace [Aspose.Slides.Charts](../../axis)

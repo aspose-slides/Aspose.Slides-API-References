@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/bulletformat/type/
 ---
+
 ## BulletFormat.Type property
 
 Returns or sets the bullet type of a paragraph with no inheritance. Read/write [`BulletType`](../../bullettype).

@@ -1,7 +1,7 @@
 ---
 title: SeriesAxis
-second_title: Referencia API de Aspose.Slides para .NET
-description: Obtiene el eje de series del gráfico. Solo lectura IAxisaspose.slides.charts/iaxis.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Obtiene el eje de series de los gráficos. Solo lectura IAxisaspose.slides.charts/iaxis.
 type: docs
 weight: 40
 url: /es/aspose.slides.charts/axesmanager/seriesaxis/
@@ -15,7 +15,7 @@ Obtiene el eje de series del gráfico. Solo lectura [`IAxis`](../../iaxis).
 public IAxis SeriesAxis { get; }
 ```
 
-### Vea también
+### Ver También
 
 * interfaz [IAxis](../../iaxis)
 * clase [AxesManager](../../axesmanager)

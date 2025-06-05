@@ -15,7 +15,7 @@ Permet d'obtenir l'interface de base ISingleCellChartValue. Lecture seule [`ISin
 public ISingleCellChartValue AsISingleCellChartValue { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ISingleCellChartValue](../../isinglecellchartvalue)
 * interface [IStringOrDoubleChartValue](../../istringordoublechartvalue)

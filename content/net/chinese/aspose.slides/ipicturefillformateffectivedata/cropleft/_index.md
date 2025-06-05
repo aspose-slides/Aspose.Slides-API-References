@@ -1,7 +1,7 @@
 ---
 title: CropLeft
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回从图片左侧裁剪掉的真实图像宽度的百分比。只读单精度浮点数。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回从图片左侧裁剪掉的实际图像宽度的百分比。只读单精度浮点数。
 type: docs
 weight: 30
 url: /zh/aspose.slides/ipicturefillformateffectivedata/cropleft/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ipicturefillformateffectivedata/cropleft/
 
 ## IPictureFillFormatEffectiveData.CropLeft 属性
 
-返回从图片左侧裁剪掉的真实图像宽度的百分比。只读单精度浮点数。
+返回从图片左侧裁剪掉的实际图像宽度的百分比。只读单精度浮点数。
 
 ```csharp
 public float CropLeft { get; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IPictureFillFormatEffectiveData](../../ipicturefillformateffectivedata)
 * 命名空间 [Aspose.Slides](../../ipicturefillformateffectivedata)

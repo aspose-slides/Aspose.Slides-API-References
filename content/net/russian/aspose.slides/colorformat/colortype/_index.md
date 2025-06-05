@@ -1,13 +1,13 @@
 ---
 title: ColorType
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает или устанавливает метод определения цвета. Чтение/запись ColorTypeaspose.slides/colortype.
 type: docs
 weight: 40
 url: /ru/aspose.slides/colorformat/colortype/
 ---
 
-## Свойство ColorFormat.ColorType
+## ColorFormat.ColorType свойство
 
 Возвращает или устанавливает метод определения цвета. Чтение/запись [`ColorType`](../../colortype).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/colorformat/colortype/
 public ColorType ColorType { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [ColorType](../../colortype)
 * class [ColorFormat](../../colorformat)

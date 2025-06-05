@@ -1,13 +1,13 @@
 ---
 title: GetHashCode
-second_title: Referencia de la API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Sirve como una función hash para un tipo particular.
 type: docs
 weight: 50
 url: /es/aspose.slides.effects/colorchange/gethashcode/
 ---
 
-## Método ColorChange.GetHashCode
+## ColorChange.GetHashCode método
 
 Sirve como una función hash para un tipo particular.
 
@@ -21,8 +21,8 @@ Un código hash para el objeto actual.
 
 ### Véase También
 
-* clase [ColorChange](../../colorchange)
-* espacio de nombres [Aspose.Slides.Effects](../../colorchange)
-* ensamblado [Aspose.Slides](../../../)
+* class [ColorChange](../../colorchange)
+* namespace [Aspose.Slides.Effects](../../colorchange)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

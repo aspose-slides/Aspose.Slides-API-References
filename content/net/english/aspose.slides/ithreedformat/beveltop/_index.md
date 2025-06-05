@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ithreedformat/beveltop/
 ---
+
 ## IThreeDFormat.BevelTop property
 
 Returns or sets the type of a top 3D bevel. Read-only [`IShapeBevel`](../../ishapebevel).

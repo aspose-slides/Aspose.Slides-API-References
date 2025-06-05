@@ -1,5 +1,5 @@
 ---
-title: Estado
+title: Status
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve o establece el estado del comentario. Lectura/escritura ModernCommentStatusaspose.slides/moderncommentstatus.
 type: docs
@@ -7,7 +7,7 @@ weight: 30
 url: /es/aspose.slides/imoderncomment/status/
 ---
 
-## Propiedad IModernComment.Status
+## IModernComment.Status property
 
 Devuelve o establece el estado del comentario. Lectura/escritura [`ModernCommentStatus`](../../moderncommentstatus).
 
@@ -15,7 +15,7 @@ Devuelve o establece el estado del comentario. Lectura/escritura [`ModernComment
 public ModernCommentStatus Status { get; set; }
 ```
 
-### Ver también
+### Ver También
 
 * enum [ModernCommentStatus](../../moderncommentstatus)
 * interface [IModernComment](../../imoderncomment)

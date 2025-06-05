@@ -3,9 +3,10 @@ title: DisplayBlanksAsType
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines how missing data will be displayed.
 type: docs
-weight: 1500
+weight: 1530
 url: /aspose.slides.charts/displayblanksastype/
 ---
+
 ## DisplayBlanksAsType enumeration
 
 Determines how missing data will be displayed.

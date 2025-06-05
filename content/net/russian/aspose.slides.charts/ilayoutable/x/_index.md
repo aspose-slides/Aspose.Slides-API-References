@@ -1,15 +1,15 @@
 ---
 title: X
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Указывает координату x слева элемента диаграммы как дробное значение ширины диаграммы. Чтение/запись Single.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Указывает x-координату слева элемента графика как долю от ширины графика. Чтение/запись Single.
 type: docs
 weight: 60
 url: /ru/aspose.slides.charts/ilayoutable/x/
 ---
 
-## Свойство ILayoutable.X
+## ILayoutable.X свойство
 
-Указывает координату x (слева) элемента диаграммы как дробное значение ширины диаграммы. Чтение/запись Single.
+Указывает x-координату (слева) элемента графика как долю от ширины графика. Чтение/запись Single.
 
 ```csharp
 public float X { get; set; }

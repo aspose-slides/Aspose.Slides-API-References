@@ -6,6 +6,7 @@ type: docs
 weight: 560
 url: /aspose.slides.charts/iaxis/setcategoryaxistypeautomatically/
 ---
+
 ## IAxis.SetCategoryAxisTypeAutomatically method
 
 Sets IAxis.CategoryAxisType property with a value that is automatically determined based on axis data.

@@ -1,6 +1,6 @@
 ---
 title: ExtrusionAutoRotationCenter
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Représente la propriété extrusion.autorotationcenter
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Représente la propriété 'extrusion.autorotationcenter'
 public static BehaviorProperty ExtrusionAutoRotationCenter { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [BehaviorProperty](../../behaviorproperty)
 * espace de noms [Aspose.Slides.Animation](../../behaviorproperty)

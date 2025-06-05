@@ -1,21 +1,21 @@
 ---
 title: ShapeLock
-second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает блокировки фигур. Только для чтения IAutoShapeLockaspose.slides/iautoshapelock.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает замки фигур. Только для чтения IAutoShapeLockaspose.slides/iautoshapelock.
 type: docs
 weight: 30
 url: /ru/aspose.slides/autoshape/shapelock/
 ---
 
-## Свойство AutoShape.ShapeLock
+## AutoShape.ShapeLock свойство
 
-Возвращает блокировки фигуры. Только для чтения [`IAutoShapeLock`](../../iautoshapelock).
+Возвращает замки фигуры. Только для чтения [`IAutoShapeLock`](../../iautoshapelock).
 
 ```csharp
 public IAutoShapeLock ShapeLock { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IAutoShapeLock](../../iautoshapelock)
 * класс [AutoShape](../../autoshape)

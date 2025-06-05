@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.effects/duotone/geteffective/
 ---
+
 ## Duotone.GetEffective method
 
 Gets effective Duotone effect data with the inheritance applied.

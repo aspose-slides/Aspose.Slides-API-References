@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ibaseslide/slideid/
 public uint SlideId { get; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IBaseSlide](../../ibaseslide)
 * 命名空间 [Aspose.Slides](../../ibaseslide)

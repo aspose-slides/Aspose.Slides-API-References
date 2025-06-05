@@ -1,6 +1,6 @@
 ---
-title: Entfernen
-second_title: Aspose.Slides für .NET API-Referenz
+title: Remove
+second_title: Aspose.Slides für .NET API Referenz
 description: Entfernt die angegebene Sequenz aus einer Sammlung.
 type: docs
 weight: 60

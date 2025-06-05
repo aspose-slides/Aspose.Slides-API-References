@@ -1,7 +1,7 @@
 ---
 title: AsISlideComponent
-second_title: Aspose.Slides for .NET API Reference
-description: 返回 ISlideComponent 接口。只读 ISlideComponentaspose.slides/islidecomponent。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回 ISlideComponent 接口。读取仅限于 ISlideComponentaspose.slides/islidecomponent。
 type: docs
 weight: 10
 url: /zh/aspose.slides.theme/ithemeable/asislidecomponent/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.theme/ithemeable/asislidecomponent/
 
 ## IThemeable.AsISlideComponent 属性
 
-返回 ISlideComponent 接口。只读 [`ISlideComponent`](../../../aspose.slides/islidecomponent)。
+返回 ISlideComponent 接口。读取仅限于 [`ISlideComponent`](../../../aspose.slides/islidecomponent)。
 
 ```csharp
 public ISlideComponent AsISlideComponent { get; }
@@ -17,9 +17,9 @@ public ISlideComponent AsISlideComponent { get; }
 
 ### 备注
 
-为了兼容 COM。
+用于 COM 兼容性。
 
-### 参见
+### 另请参阅
 
 * 接口 [ISlideComponent](../../../aspose.slides/islidecomponent)
 * 接口 [IThemeable](../../ithemeable)

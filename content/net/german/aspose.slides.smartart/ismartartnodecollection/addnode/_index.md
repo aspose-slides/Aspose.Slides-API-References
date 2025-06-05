@@ -1,13 +1,13 @@
 ---
 title: AddNode
-second_title: Aspose.Slides für .NET API Referenz
-description: Neuen Knoten oder Unterknoten hinzufügen.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Neuer Knoten oder Unterknoten hinzufügen.
 type: docs
 weight: 20
 url: /de/aspose.slides.smartart/ismartartnodecollection/addnode/
 ---
 
-## ISmartArtNodeCollection.AddNode Methode
+## ISmartArtNodeCollection.AddNode-Methode
 
 Neuen Knoten oder Unterknoten hinzufügen.
 

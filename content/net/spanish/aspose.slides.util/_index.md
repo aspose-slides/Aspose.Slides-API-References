@@ -1,6 +1,6 @@
 ---
 title: Aspose.Slides.Util
-second_title: Aspose.Slides para .NET Referencia de API
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Contiene clases utilitarias que ayudan a trabajar con presentaciones.
 type: docs
 weight: 170

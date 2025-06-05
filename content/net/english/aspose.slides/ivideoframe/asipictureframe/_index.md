@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ivideoframe/asipictureframe/
 ---
+
 ## IVideoFrame.AsIPictureFrame property
 
 Allows to get base IPictureFrame interface. Read-only [`IPictureFrame`](../../ipictureframe).

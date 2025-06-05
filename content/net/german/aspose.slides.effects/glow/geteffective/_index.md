@@ -1,15 +1,15 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft effektive Glow-Effektdaten mit angewendeter Vererbung ab.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Ruft die effektiven Glow-Effekt-Daten mit angewendeter Vererbung ab.
 type: docs
 weight: 40
 url: /de/aspose.slides.effects/glow/geteffective/
 ---
 
-## Glow.GetEffective Methode
+## Glow.GetEffective-Methode
 
-Ruft effektive Glow-Effektdaten mit angewendeter Vererbung ab.
+Ruft die effektiven Glow-Effekt-Daten mit angewendeter Vererbung ab.
 
 ```csharp
 public IGlowEffectiveData GetEffective()

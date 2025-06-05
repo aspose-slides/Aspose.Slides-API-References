@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ilightrig/direction/
 ---
+
 ## ILightRig.Direction property
 
 Light direction. Read/write [`LightingDirection`](../../lightingdirection).

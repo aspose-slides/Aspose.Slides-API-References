@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/paragraphcollection/indexof/
 ---
+
 ## ParagraphCollection.IndexOf method
 
 Determines the index of a specific item in the IList.

@@ -1,7 +1,7 @@
 ---
 title: MathBar
-second_title: Справочник по API Aspose.Slides для .NET
-description: Инициализирует MathBar с положением надстрочной линии
+second_title: Aspose.Sildes для .NET API Справочник
+description: Инициализирует MathBar с позицией над строкой верхняя позиция
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathbar/mathbar/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/mathbar/mathbar/
 
 ## MathBar(IMathElement) {#constructor}
 
-Инициализирует MathBar с надстрочной линией (положение сверху)
+Инициализирует MathBar с над строкой (верхняя позиция)
 
 ```csharp
 public MathBar(IMathElement element)
@@ -39,7 +39,7 @@ MathBar mathBar = new MathBar(new MathematicalText("x"));
 
 ## MathBar(IMathElement, MathTopBotPositions) {#constructor_1}
 
-Инициализирует MathBar с указанным положением
+Инициализирует MathBar с заданной позицией
 
 ```csharp
 public MathBar(IMathElement element, MathTopBotPositions position)
@@ -48,7 +48,7 @@ public MathBar(IMathElement element, MathTopBotPositions position)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | element | IMathElement | Базовый элемент, к которому применяется линия |
-| position | MathTopBotPositions | Положение линии барной строки. |
+| position | MathTopBotPositions | Позиция линии бар |
 
 ### Примеры
 

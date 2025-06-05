@@ -3,9 +3,10 @@ title: DataLabel
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a series labels.
 type: docs
-weight: 1440
+weight: 1470
 url: /aspose.slides.charts/datalabel/
 ---
+
 ## DataLabel class
 
 Represents a series labels.

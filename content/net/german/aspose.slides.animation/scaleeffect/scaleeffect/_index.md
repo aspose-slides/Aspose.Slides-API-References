@@ -1,13 +1,13 @@
 ---
 title: ScaleEffect
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Der Standardkonstruktor.
 type: docs
 weight: 10
 url: /de/aspose.slides.animation/scaleeffect/scaleeffect/
 ---
 
-## Konstruktor von ScaleEffect
+## Konstruktor ScaleEffect
 
 Der Standardkonstruktor.
 
@@ -15,7 +15,7 @@ Der Standardkonstruktor.
 public ScaleEffect()
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [ScaleEffect](../../scaleeffect)
 * Namespace [Aspose.Slides.Animation](../../scaleeffect)

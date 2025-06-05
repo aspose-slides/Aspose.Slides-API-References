@@ -1,7 +1,7 @@
 ---
 title: AsIThreeDParamSource
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Permite obtener la interfaz base IThreeDParamSource. IThreeDParamSource de solo lectura aspose.slides/ithreedparamsource.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Permite obtener la interfaz base IThreeDParamSource. Solo lectura IThreeDParamSourceaspose.slides/ithreedparamsource.
 type: docs
 weight: 10
 url: /es/aspose.slides/ithreedformat/asithreedparamsource/
@@ -9,17 +9,17 @@ url: /es/aspose.slides/ithreedformat/asithreedparamsource/
 
 ## Propiedad IThreeDFormat.AsIThreeDParamSource
 
-Permite obtener la interfaz base IThreeDParamSource. Solo de lectura [`IThreeDParamSource`](../../ithreedparamsource).
+Permite obtener la interfaz base IThreeDParamSource. Solo lectura [`IThreeDParamSource`](../../ithreedparamsource).
 
 ```csharp
 public IThreeDParamSource AsIThreeDParamSource { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IThreeDParamSource](../../ithreedparamsource)
 * interfaz [IThreeDFormat](../../ithreedformat)
-* espacio de nombres [Aspose.Slides](../../ithreedformat)
-* ensamblado [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../ithreedformat)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

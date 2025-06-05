@@ -1,6 +1,6 @@
 ---
-title: Colonne
-second_title: Référence API Aspose.Slides pour .NET
+title: Column
+second_title: Aspose.Sildes pour .NET Référence API
 description: Représente une colonne dans un tableau.
 type: docs
 weight: 2500
@@ -19,9 +19,9 @@ public sealed class Column : CellCollection, IColumn
 
 | Nom | Description |
 | --- | --- |
-| [ColumnFormat](../../aspose.slides/column/columnformat) { get; } | Renvoie l'objet ColumnFormat qui contient les propriétés de formatage pour cette colonne. Lecture seule [`IColumnFormat`](../icolumnformat). |
+| [ColumnFormat](../../aspose.slides/column/columnformat) { get; } | Renvoie l'objet ColumnFormat qui contient des propriétés de formatage pour cette colonne. Lecture seule [`IColumnFormat`](../icolumnformat). |
 | [Count](../../aspose.slides/cellcollection/count) { get; } | Renvoie le nombre de cellules dans une collection. Lecture seule Int32. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (fil-sécurisé). Lecture seule Boolean. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (sécurisé pour les threads). Lecture seule Boolean. |
 | [Item](../../aspose.slides/cellcollection/item) { get; } | Renvoie une cellule par sa position. Lecture seule [`Cell`](../cell). |
 | [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Renvoie la présentation parente d'une CellCollection. Lecture seule [`IPresentation`](../ipresentation). |
 | [Slide](../../aspose.slides/cellcollection/slide) { get; } | Renvoie la diapositive parente d'une CellCollection. Lecture seule [`IBaseSlide`](../ibaseslide). |
@@ -32,7 +32,7 @@ public sealed class Column : CellCollection, IColumn
 
 | Nom | Description |
 | --- | --- |
-| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Copie tous les éléments de la collection dans le tableau spécifié. |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Copie tous les éléments de la collection vers le tableau spécifié. |
 | [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Renvoie un énumérateur qui itère à travers la collection. |
 | [SetTextFormat](../../aspose.slides/column/settextformat#settextformat)(IParagraphFormat) | Définit les propriétés de format de paragraphe définies pour tous les paragraphes des cellules de colonne. |
 | [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_1)(IPortionFormat) | Définit les propriétés de format de portion définies pour toutes les portions des cellules de colonne. |

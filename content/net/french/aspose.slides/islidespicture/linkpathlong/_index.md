@@ -1,7 +1,7 @@
 ---
 title: LinkPathLong
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie l'URL des images liées. Lecture/écriture String.
+second_title: Référence API Aspose.Slides pour .NET
+description: Retourne l'URL des images liées dans les ensembles. Chaîne en lecture/écriture.
 type: docs
 weight: 40
 url: /fr/aspose.slides/islidespicture/linkpathlong/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/islidespicture/linkpathlong/
 
 ## Propriété ISlidesPicture.LinkPathLong
 
-Renvoie l'URL de l'image liée. Lecture/écriture String.
+Retourne l'URL de l'image liée dans les ensembles. Chaîne en lecture/écriture.
 
 ```csharp
 public string LinkPathLong { get; set; }

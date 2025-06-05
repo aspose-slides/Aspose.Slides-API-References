@@ -1,7 +1,7 @@
 ---
 title: TextFrame
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie le texte de la forme SmartArt. Lecture seule ITextFrame aspose.slides/itextframe.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie le texte de la forme SmartArt. Lecture seule ITextFrameaspose.slides/itextframe.
 type: docs
 weight: 20
 url: /fr/aspose.slides.smartart/ismartartshape/textframe/

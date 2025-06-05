@@ -1,7 +1,7 @@
 ---
 title: ArcTo
-second_title: Aspose.Sildes for .NET API 参考
-description: 将指定的弧添加到路径。
+second_title: Aspose.Sildes for .NET API Reference
+description: 将指定的弧添加到路径中。
 type: docs
 weight: 50
 url: /zh/aspose.slides/geometrypath/arcto/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/geometrypath/arcto/
 
 ## GeometryPath.ArcTo 方法
 
-将指定的弧添加到路径。
+将指定的弧添加到路径中。
 
 ```csharp
 public void ArcTo(float width, float heigth, float startAngle, float sweepAngle)
@@ -17,12 +17,12 @@ public void ArcTo(float width, float heigth, float startAngle, float sweepAngle)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| width | 单精度浮点数 | 矩形的宽度 |
-| heigth | 单精度浮点数 | 矩形的高度 |
-| startAngle | 单精度浮点数 | 起始角度。 |
-| sweepAngle | 单精度浮点数 | 扫描角度/ |
+| width | Single | 矩形的宽度 |
+| heigth | Single | 矩形的高度 |
+| startAngle | Single | 起始角度。 |
+| sweepAngle | Single | 扫描角度/ |
 
-### 另见
+### 参见
 
 * 类 [GeometryPath](../../geometrypath)
 * 命名空间 [Aspose.Slides](../../geometrypath)

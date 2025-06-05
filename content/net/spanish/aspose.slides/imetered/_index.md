@@ -21,7 +21,7 @@ public interface IMetered
 | --- | --- |
 | [SetMeteredKey](../../aspose.slides/imetered/setmeteredkey)(string, string) | Establece la clave pública y privada medida. |
 
-### Ver también
+### Véase también
 
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
 * ensamblado [Aspose.Slides](../../)

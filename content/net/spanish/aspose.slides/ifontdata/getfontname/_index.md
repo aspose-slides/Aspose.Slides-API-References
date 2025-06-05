@@ -1,15 +1,15 @@
 ---
 title: GetFontName
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve el nombre de la fuente reemplazando la referencia de tema con una fuente real utilizada.
+description: Devuelve el nombre de la fuente reemplazando la referencia del tema con una fuente real utilizada.
 type: docs
 weight: 20
 url: /es/aspose.slides/ifontdata/getfontname/
 ---
 
-## Método IFontData.GetFontName
+## IFontData.GetFontName method
 
-Devuelve el nombre de la fuente, reemplazando la referencia de tema con una fuente real utilizada.
+Devuelve el nombre de la fuente, reemplazando la referencia del tema con una fuente real utilizada.
 
 ```csharp
 public string GetFontName(IThemeEffectiveData theme)
@@ -23,11 +23,11 @@ public string GetFontName(IThemeEffectiveData theme)
 
 Nombre de la fuente.
 
-### Véase También
+### Ver También
 
-* interface [IThemeEffectiveData](../../../aspose.slides.theme/ithemeeffectivedata)
-* interface [IFontData](../../ifontdata)
-* namespace [Aspose.Slides](../../ifontdata)
-* assembly [Aspose.Slides](../../../)
+* interfaz [IThemeEffectiveData](../../../aspose.slides.theme/ithemeeffectivedata)
+* interfaz [IFontData](../../ifontdata)
+* espacio de nombres [Aspose.Slides](../../ifontdata)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

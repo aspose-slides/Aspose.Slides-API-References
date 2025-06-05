@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.theme/ioverridetheme/asitheme/
 ---
+
 ## IOverrideTheme.AsITheme property
 
 Allows to get base ITheme interface. Read-only [`ITheme`](../../itheme).

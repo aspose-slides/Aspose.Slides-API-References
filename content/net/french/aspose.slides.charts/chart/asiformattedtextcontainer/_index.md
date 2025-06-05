@@ -1,15 +1,15 @@
 ---
 title: AsIFormattedTextContainer
 second_title: Référence API Aspose.Slides pour .NET
-description: Permet d'obtenir l'interface de base IFormattedTextContainer. IFormattedTextContainer en lecture seule aspose.slides.charts/iformattedtextcontainer.
+description: Permet d'obtenir l'interface de base IFormattedTextContainer. Read-only IFormattedTextContaineraspose.slides.charts/iformattedtextcontainer.
 type: docs
 weight: 10
 url: /fr/aspose.slides.charts/chart/asiformattedtextcontainer/
 ---
 
-## Propriété Chart.AsIFormattedTextContainer
+## Chart.AsIFormattedTextContainer propriété
 
-Permet d'obtenir l'interface de base IFormattedTextContainer. IFormattedTextContainer en lecture seule [`IFormattedTextContainer`](../../iformattedtextcontainer).
+Permet d'obtenir l'interface de base IFormattedTextContainer. Read-only [`IFormattedTextContainer`](../../iformattedtextcontainer).
 
 ```csharp
 public IFormattedTextContainer AsIFormattedTextContainer { get; }

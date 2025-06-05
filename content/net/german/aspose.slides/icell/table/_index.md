@@ -1,5 +1,5 @@
 ---
-title: Tabelle
+title: Table
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt das übergeordnete Table-Objekt für eine Zelle zurück. Nur-Lese ITableaspose.slides/itable.
 type: docs
@@ -15,7 +15,7 @@ Gibt das übergeordnete Table-Objekt für eine Zelle zurück. Nur-Lese [`ITable`
 public ITable Table { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ITable](../../itable)
 * Schnittstelle [ICell](../../icell)

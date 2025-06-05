@@ -23,9 +23,9 @@ public enum ColorDirection
 | Clockwise | `0` |  |
 | CounterClockwise | `1` |  |
 
-### Ver También
+### Véase también
 
-* espacio de nombres [Aspose.Slides.Animation](../../aspose.slides.animation)
-* ensamblado [Aspose.Slides](../../)
+* namespace [Aspose.Slides.Animation](../../aspose.slides.animation)
+* assembly [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

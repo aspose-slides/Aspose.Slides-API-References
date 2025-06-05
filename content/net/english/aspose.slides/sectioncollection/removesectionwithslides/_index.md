@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides/sectioncollection/removesectionwithslides/
 ---
+
 ## SectionCollection.RemoveSectionWithSlides method
 
 Remove section and slides contained in the section.

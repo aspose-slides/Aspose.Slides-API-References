@@ -3,9 +3,10 @@ title: RevisionNumber
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets the presentation revision number. Read/write Int32.
 type: docs
-weight: 210
+weight: 280
 url: /aspose.slides/documentproperties/revisionnumber/
 ---
+
 ## DocumentProperties.RevisionNumber property
 
 Returns or sets the presentation revision number. Read/write Int32.

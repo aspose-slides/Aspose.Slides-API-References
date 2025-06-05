@@ -1,15 +1,15 @@
 ---
-title: Élévation à la puissance
-second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie un argument d'élévation à la puissance qui, par exemple dans le cas d'une intégrale, définit la limite supérieure
+title: Superscript
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Spécifie un argument de exposant qui, par exemple, dans le cas d'un intégral, définit la limite supérieure
 type: docs
 weight: 50
 url: /fr/aspose.slides.mathtext/imathnaryoperator/superscript/
 ---
 
-## Propriété IMathNaryOperator.Superscript
+## IMathNaryOperator.Superscript propriété
 
-Spécifie un argument d'élévation à la puissance qui, par exemple, dans le cas d'une intégrale, définit la limite supérieure
+Spécifie un argument de exposant qui, par exemple, dans le cas d'un intégral, définit la limite supérieure
 
 ```csharp
 public IMathElement Superscript { get; }
@@ -17,7 +17,7 @@ public IMathElement Superscript { get; }
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

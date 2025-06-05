@@ -1,7 +1,7 @@
 ---
-title: Untertitel
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt die WebVTT-Untertitel dar.
+title: Captions
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt die WebVTT Untertitel dar.
 type: docs
 weight: 1030
 url: /de/aspose.slides/captions/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/captions/
 
 ## Captions-Klasse
 
-Stellt die WebVTT-Untertitel dar.
+Stellt die WebVTT Untertitel dar.
 
 ```csharp
 public class Captions : ICaptions
@@ -19,10 +19,10 @@ public class Captions : ICaptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [BinaryData](../../aspose.slides/captions/binarydata) { get; } | Gibt die Binärdaten der Untertitel zurück. Schreibgeschütztes Byte[]. |
-| [CaptionId](../../aspose.slides/captions/captionid) { get; } | Gibt die global eindeutige Kennung (GUID) der Untertitel zurück. Schreibgeschütztes Guid. |
-| [DataAsString](../../aspose.slides/captions/dataasstring) { get; } | Gibt die Untertitel-Daten als UTF-8-kodierte Zeichenfolge zurück. Schreibgeschütztes String. |
-| [Label](../../aspose.slides/captions/label) { get; set; } | Gibt das Label der Untertitel zurück oder legt es fest. Lese-/Schreibzugriff String. |
+| [BinaryData](../../aspose.slides/captions/binarydata) { get; } | Gibt die binären Daten der Untertitel zurück. Nur-Lesen Byte[]. |
+| [CaptionId](../../aspose.slides/captions/captionid) { get; } | Gibt die global eindeutige Kennung (GUID) der Untertitel zurück. Nur-Lesen Guid. |
+| [DataAsString](../../aspose.slides/captions/dataasstring) { get; } | Gibt die Untertitel-Daten als UTF-8-kodierten String zurück. Nur-Lesen String. |
+| [Label](../../aspose.slides/captions/label) { get; set; } | Gibt das Label der Untertitel zurück oder setzt es. Lesen/Schreiben String. |
 
 ### Siehe Auch
 

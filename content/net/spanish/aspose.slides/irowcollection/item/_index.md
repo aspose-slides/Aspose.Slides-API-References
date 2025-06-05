@@ -1,13 +1,13 @@
 ---
-title: Elemento
-second_title: Referencia de la API de Aspose.Slides para .NET
+title: Item
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene el elemento en el índice especificado.
 type: docs
 weight: 10
 url: /es/aspose.slides/irowcollection/item/
 ---
 
-## Indexador IRowCollection
+## IRowCollection indexer
 
 Obtiene el elemento en el índice especificado.
 

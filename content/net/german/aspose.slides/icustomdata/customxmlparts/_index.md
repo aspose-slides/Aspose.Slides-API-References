@@ -1,7 +1,7 @@
 ---
 title: CustomXmlParts
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Sammlung benutzerdefinierter XML-Teile zurück. Nur-Lese ICustomXmlPartCollectionaspose.slides/icustomxmlpartcollection.
+description: Gibt die Sammlung benutzerdefinierter XML-Teile zurück. Nur-lesbare ICustomXmlPartCollectionaspose.slides/icustomxmlpartcollection.
 type: docs
 weight: 10
 url: /de/aspose.slides/icustomdata/customxmlparts/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/icustomdata/customxmlparts/
 
 ## ICustomData.CustomXmlParts-Eigenschaft
 
-Gibt die Sammlung benutzerdefinierter XML-Teile zurück. Nur-Lese [`ICustomXmlPartCollection`](../../icustomxmlpartcollection).
+Gibt die Sammlung benutzerdefinierter XML-Teile zurück. Nur-lesbar [`ICustomXmlPartCollection`](../../icustomxmlpartcollection).
 
 ```csharp
 public ICustomXmlPartCollection CustomXmlParts { get; }

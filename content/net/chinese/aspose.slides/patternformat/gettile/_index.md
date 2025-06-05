@@ -1,7 +1,7 @@
 ---
-title: 获取平铺图像
-second_title: Aspose.Slides for .NET API 参考
-description: 使用指定颜色为图案填充创建平铺图像。
+title: GetTile
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建一个具有指定颜色的图案填充的瓦片图像。
 type: docs
 weight: 40
 url: /zh/aspose.slides/patternformat/gettile/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/patternformat/gettile/
 
 ## GetTile(Color, Color) {#gettile_1}
 
-使用指定颜色为图案填充创建平铺图像。
+创建一个具有指定颜色的图案填充的瓦片图像。
 
 ```csharp
 public IImage GetTile(Color background, Color foreground)
@@ -22,9 +22,9 @@ public IImage GetTile(Color background, Color foreground)
 
 ### 返回值
 
-平铺 [`IImage`](../../iimage)。
+瓦片 [`IImage`](../../iimage)。
 
-### 相关内容
+### 另见
 
 * 接口 [IImage](../../iimage)
 * 类 [PatternFormat](../../patternformat)
@@ -35,7 +35,7 @@ public IImage GetTile(Color background, Color foreground)
 
 ## GetTile(Color) {#gettile}
 
-为图案填充创建平铺图像。
+创建一个图案填充的瓦片图像。
 
 ```csharp
 public IImage GetTile(Color styleColor)
@@ -47,9 +47,9 @@ public IImage GetTile(Color styleColor)
 
 ### 返回值
 
-平铺 [`IImage`](../../iimage)。
+瓦片 [`IImage`](../../iimage)。
 
-### 相关内容
+### 另见
 
 * 接口 [IImage](../../iimage)
 * 类 [PatternFormat](../../patternformat)

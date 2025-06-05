@@ -1,15 +1,15 @@
 ---
 title: SelectLocked
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, запрещено ли выделение этой формы. Свойство типа Boolean для чтения/записи.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Определяет, запрещено ли выделение этой фигуры. Читаемое/записываемое логическое значение.
 type: docs
 weight: 100
 url: /ru/aspose.slides/ipictureframelock/selectlocked/
 ---
 
-## Свойство IPictureFrameLock.SelectLocked
+## IPictureFrameLock.SelectLocked свойство
 
-Определяет, запрещено ли выделение этой формы. Свойство типа Boolean для чтения/записи.
+Определяет, запрещено ли выделение этой фигуры. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool SelectLocked { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: Color1
-second_title: Aspose.Slidеs for .NET API 参考
-description: 返回深色像素的目标颜色格式。只读 IColorFormataspose.slides/icolorformat。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回暗像素的目标颜色格式。只读 IColorFormat aspose.slides/icolorformat。
 type: docs
 weight: 30
 url: /zh/aspose.slides.effects/iduotone/color1/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.effects/iduotone/color1/
 
 ## IDuotone.Color1 属性
 
-返回深色像素的目标颜色格式。只读 [`IColorFormat`](../../../aspose.slides/icolorformat)。
+返回暗像素的目标颜色格式。只读 [`IColorFormat`](../../../aspose.slides/icolorformat)。
 
 ```csharp
 public IColorFormat Color1 { get; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IColorFormat](../../../aspose.slides/icolorformat)
 * 接口 [IDuotone](../../iduotone)

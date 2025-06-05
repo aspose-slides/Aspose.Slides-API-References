@@ -3,9 +3,10 @@ title: ViewProperties
 second_title: Aspose.Sildes for .NET API Reference
 description: Presentation wide view properties.
 type: docs
-weight: 11090
+weight: 11430
 url: /aspose.slides/viewproperties/
 ---
+
 ## ViewProperties class
 
 Presentation wide view properties.
@@ -18,6 +19,7 @@ public class ViewProperties : IViewProperties
 
 | Name | Description |
 | --- | --- |
+| [GridSpacing](../../aspose.slides/viewproperties/gridspacing) { get; set; } | Returns or sets the grid spacing that should be used for the grid underlying the presentation document, in points. Read/write Single. |
 | [LastView](../../aspose.slides/viewproperties/lastview) { get; set; } | Specifies the view mode that was used when the presentation document was last saved. Read/write [`ViewType`](../viewtype). |
 | [NormalViewProperties](../../aspose.slides/viewproperties/normalviewproperties) { get; } | Represents normal view properties. The normal view consists of three content regions: the slide itself, a side content region, and a bottom content region. Read-only [`INormalViewProperties`](../inormalviewproperties). |
 | [NotesViewProperties](../../aspose.slides/viewproperties/notesviewproperties) { get; } | Specifies common view properties associated with the notes view mode. Read-only [`ICommonSlideViewProperties`](../icommonslideviewproperties). |

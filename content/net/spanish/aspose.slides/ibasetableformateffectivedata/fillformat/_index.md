@@ -15,11 +15,11 @@ Devuelve el valor efectivo del formato de relleno. Solo lectura [`IFillFormatEff
 public IFillFormatEffectiveData FillFormat { get; }
 ```
 
-### Véase También
+### Vea También
 
 * interfaz [IFillFormatEffectiveData](../../ifillformateffectivedata)
 * interfaz [IBaseTableFormatEffectiveData](../../ibasetableformateffectivedata)
-* namespace [Aspose.Slides](../../ibasetableformateffectivedata)
-* ensamblaje [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides](../../ibasetableformateffectivedata)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
-title: Serien
-second_title: Aspose.Sildes für .NET API Referenz
-description: Ruft die Serien ab. Nur zur Lektüre IChartSeriesCollection aspose.slides.charts/ichartseriescollection.
+title: Series
+second_title: Aspose.Slides für .NET API Referenz
+description: Erhält die Serien. Schreibgeschütztes IChartSeriesCollectionaspose.slides.charts/ichartseriescollection.
 type: docs
 weight: 60
 url: /de/aspose.slides.charts/chartdata/series/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/chartdata/series/
 
 ## ChartData.Series-Eigenschaft
 
-Ruft die Serien ab. Nur zur Lektüre [`IChartSeriesCollection`](../../ichartseriescollection).
+Erhält die Serien. Schreibgeschütztes [`IChartSeriesCollection`](../../ichartseriescollection).
 
 ```csharp
 public IChartSeriesCollection Series { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IChartSeriesCollection](../../ichartseriescollection)
 * Klasse [ChartData](../../chartdata)

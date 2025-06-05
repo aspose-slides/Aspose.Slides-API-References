@@ -1,6 +1,6 @@
 ---
 title: AfterAnimationType
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Определяет тип анимации после эффекта. Чтение/запись AfterAnimationTypeaspose.slides.animation/effect/afteranimationtype.
 type: docs
 weight: 20
@@ -24,7 +24,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
     // Получить первый эффект первого слайда.
     IEffect firstSlideEffect = presentation.Slides[0].Timeline.MainSequence[0];
     
-    // Изменить эффект после анимации на "Скрыть при следующем щелчке мыши"
+    // Изменить анимацию после эффекта на "Скрыть при следующем щелчке мыши"
     firstSlideEffect.AfterAnimationType = AfterAnimationType.HideOnNextClick;
 }
 ```

@@ -1,7 +1,7 @@
 ---
 title: PortionFormat
-second_title: Aspose.Slides for .NET API Reference
-description: 初始化 PortionFormat 类的新实例。
+second_title: Aspose.Sildes for .NET API Reference
+description: 初始化一个新的 PortionFormataspose.slides/portionformat 类的实例。
 type: docs
 weight: 10
 url: /zh/aspose.slides/portionformat/portionformat/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/portionformat/portionformat/
 
 ## PortionFormat 构造函数
 
-初始化 `PortionFormat` 类的新实例。
+初始化一个新的 [`PortionFormat`](../../portionformat) 类的实例。
 
 ```csharp
 public PortionFormat()
 ```
 
-### 另见
+### 另请参见
 
 * 类 [PortionFormat](../../portionformat)
 * 命名空间 [Aspose.Slides](../../portionformat)

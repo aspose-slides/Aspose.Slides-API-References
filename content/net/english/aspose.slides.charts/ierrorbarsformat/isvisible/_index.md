@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.charts/ierrorbarsformat/isvisible/
 ---
+
 ## IErrorBarsFormat.IsVisible property
 
 Gets or sets Error Bars visibility. Read/write Boolean.

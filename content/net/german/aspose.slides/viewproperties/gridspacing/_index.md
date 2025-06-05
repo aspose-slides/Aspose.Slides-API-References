@@ -1,7 +1,7 @@
 ---
 title: GridSpacing
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Rasterabstand zurück oder legt ihn fest, der für das Raster zugrunde liegend des Präsentationsdokuments in Punkten verwendet werden soll. Lese-/Schreibzugriff auf Single.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Rasterabstand zurück oder setzt ihn, der für das Raster, das dem Präsentationsdokument zugrunde liegt, in Punkten verwendet werden soll. Lese-/Schreibzugriff Einzelwert.
 type: docs
 weight: 10
 url: /de/aspose.slides/viewproperties/gridspacing/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/viewproperties/gridspacing/
 
 ## ViewProperties.GridSpacing-Eigenschaft
 
-Gibt den Rasterabstand zurück oder legt ihn fest, der für das Raster zugrunde liegend des Präsentationsdokuments in Punkten verwendet werden soll. Lese-/Schreibzugriff auf Single.
+Gibt den Rasterabstand zurück oder setzt ihn, der für das Raster, das dem Präsentationsdokument zugrunde liegt, in Punkten verwendet werden soll. Lese-/Schreibzugriff Einzelwert.
 
 ```csharp
 public float GridSpacing { get; set; }
@@ -17,7 +17,7 @@ public float GridSpacing { get; set; }
 
 ### Bemerkungen
 
-Der Wert für den Rasterabstand muss eine positive Zahl sein. Der typische Wertebereich reicht von 1 mm (2,8349607 Punkte) bis 2 Zoll (144 Punkte).
+Der Wert des Rasterabstands muss eine positive Zahl sein. Der typische Wertebereich reicht von 1 mm (2.8349607 Punkte) bis 2 Zoll (144 Punkte).
 
 ### Beispiele
 
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [ViewProperties](../../viewproperties)
 * Namespace [Aspose.Slides](../../viewproperties)

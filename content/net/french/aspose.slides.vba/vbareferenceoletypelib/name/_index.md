@@ -1,6 +1,6 @@
 ---
-title: Nom
-second_title: Référence API Aspose.Slides pour .NET
+title: Name
+second_title: Aspose.Sildes pour .NET Référence API
 description: Représente le nom de la référence du projet VBA. Chaîne en lecture/écriture.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ Représente le nom de la référence du projet VBA. Chaîne en lecture/écriture
 public string Name { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [VbaReferenceOleTypeLib](../../vbareferenceoletypelib)
 * espace de noms [Aspose.Slides.Vba](../../vbareferenceoletypelib)

@@ -1,21 +1,21 @@
 ---
 title: GetCount
-second_title: Aspose.Slides для .NET Справочник по API
-description: Возвращает количество эффектов для указанной фигуры.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает количество эффектов для указанной формы.
 type: docs
 weight: 60
 url: /ru/aspose.slides.animation/sequence/getcount/
 ---
 
-## Метод Sequence.GetCount
+## Sequence.GetCount метод
 
-Возвращает количество эффектов для указанной фигуры.
+Возвращает количество эффектов для указанной формы.
 
 ```csharp
 public int GetCount(IShape shape)
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IShape](../../../aspose.slides/ishape)
 * класс [Sequence](../../sequence)

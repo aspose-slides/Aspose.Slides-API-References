@@ -1,7 +1,7 @@
 ---
 title: WholeWordsOnly
-second_title: Aspose.Slides für .NET API Referenz
-description: Setze true, um nur ganze Wörter zu finden, false - andernfalls. Lese-/Schreib-Boolean.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Setzen Sie true, um nur ganze Wörter zuzuordnen, false - andernfalls. Lese-/Schreib-Boolean.
 type: docs
 weight: 30
 url: /de/aspose.slides/textsearchoptions/wholewordsonly/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/textsearchoptions/wholewordsonly/
 
 ## TextSearchOptions.WholeWordsOnly-Eigenschaft
 
-Setze true, um nur ganze Wörter zu finden, false - andernfalls. Lese-/Schreib-Boolean.
+Setzen Sie true, um nur ganze Wörter zuzuordnen, false - andernfalls. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool WholeWordsOnly { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [TextSearchOptions](../../textsearchoptions)
 * Namespace [Aspose.Slides](../../textsearchoptions)

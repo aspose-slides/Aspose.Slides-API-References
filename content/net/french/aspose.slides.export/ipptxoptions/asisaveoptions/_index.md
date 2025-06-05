@@ -1,6 +1,6 @@
 ---
 title: AsISaveOptions
-second_title: Aspose.Slides pour .NET Référence de l'API
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Permet d'obtenir l'interface de base ISaveOptions. ISaveOptions en lecture seule aspose.slides.export/isaveoptions.
 type: docs
 weight: 10
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/ipptxoptions/asisaveoptions/
 
 ## Propriété IPptxOptions.AsISaveOptions
 
-Permet d'obtenir l'interface de base ISaveOptions. Lecture seule [`ISaveOptions`](../../isaveoptions).
+Permet d'obtenir l'interface de base ISaveOptions. ISaveOptions en lecture seule [`ISaveOptions`](../../isaveoptions).
 
 ```csharp
 public ISaveOptions AsISaveOptions { get; }

@@ -1,6 +1,6 @@
 ---
 title: IsReadOnly
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Возвращает false, потому что коллекция дочерних элементов может быть изменена.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.mathtext/mathblock/isreadonly/
 public bool IsReadOnly { get; }
 ```
 
-### См. Также
+### Смотрите также
 
 * класс [MathBlock](../../mathblock)
 * пространство имен [Aspose.Slides.MathText](../../mathblock)

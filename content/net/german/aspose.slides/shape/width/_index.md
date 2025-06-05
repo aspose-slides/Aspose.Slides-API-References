@@ -1,7 +1,7 @@
 ---
-title: Breite
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Breite der Form zurück oder legt sie fest. Lese-/Schreib-Paar Single.
+title: Width
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Breite der Form zurück oder legt sie fest. Schreib-/Lesezugriff auf Single.
 type: docs
 weight: 290
 url: /de/aspose.slides/shape/width/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/shape/width/
 
 ## Shape.Width-Eigenschaft
 
-Gibt die Breite der Form zurück oder legt sie fest. Lese-/Schreib-Paar Single.
+Gibt die Breite der Form zurück oder legt sie fest. Schreib-/Lesezugriff auf Single.
 
 ```csharp
 public float Width { get; set; }
@@ -17,7 +17,7 @@ public float Width { get; set; }
 
 ### Bemerkungen
 
-Der zurückgegebene Wert ist immer definiert (ist nicht float.NaN). Der zugewiesene Wert muss definiert sein (nicht float.NaN). Sie können undefinierte Werte für die Eigenschaften von RawFrame-Instanzen festlegen.
+Der zurückgegebene Wert ist immer definiert (ist nicht float.NaN). Der zugewiesene Wert muss definiert sein (nicht float.NaN). Sie können undefinierte Werte für die Eigenschaften der RawFrame-Instanz festlegen.
 
 ### Siehe auch
 

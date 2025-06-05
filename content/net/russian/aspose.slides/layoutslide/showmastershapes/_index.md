@@ -1,7 +1,7 @@
 ---
 title: ShowMasterShapes
-second_title: Справочник API Aspose.Slides для .NET
-description: Указывает, должны ли фигуры на основном слайде отображаться на слайдах или нет. Читаемый/г Writable Boolean.
+second_title: Aspose.Sildes для справки по API .NET
+description: Указывает, должны ли формы на главном слайде отображаться на слайдах или нет. Свойство для чтения/записи типа Boolean.
 type: docs
 weight: 60
 url: /ru/aspose.slides/layoutslide/showmastershapes/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/layoutslide/showmastershapes/
 
 ## LayoutSlide.ShowMasterShapes свойство
 
-Указывает, должны ли фигуры на основном слайде отображаться на слайдах или нет. Читаемый/г Writable Boolean.
+Указывает, должны ли формы на главном слайде отображаться на слайдах или нет. Свойство для чтения/записи типа Boolean.
 
 ```csharp
 public override bool ShowMasterShapes { get; set; }

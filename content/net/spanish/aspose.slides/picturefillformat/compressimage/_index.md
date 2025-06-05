@@ -1,15 +1,15 @@
 ---
-title: ComprimirImagen
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Comprime la imagen reduciendo su tamaño en función del tamaño de la forma y la resolución especificada. Opcionalmente, también elimina las áreas recortadas.
+title: CompressImage
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Comprime la imagen reduciendo su tamaño según el tamaño de la forma y la resolución especificada. Opcionalmente, también elimina las áreas recortadas.
 type: docs
 weight: 180
 url: /es/aspose.slides/picturefillformat/compressimage/
 ---
 
-## ComprimirImagen(bool, PicturesCompression) {#compressimage}
+## CompressImage(bool, PicturesCompression) {#compressimage}
 
-Comprime la imagen reduciendo su tamaño en función del tamaño de la forma y la resolución especificada. Opcionalmente, también elimina las áreas recortadas.
+Comprime la imagen reduciendo su tamaño según el tamaño de la forma y la resolución especificada. Opcionalmente, también elimina las áreas recortadas.
 
 ```csharp
 public bool CompressImage(bool deleteCroppedAreasOfImage, PicturesCompression resolution)
@@ -17,12 +17,12 @@ public bool CompressImage(bool deleteCroppedAreasOfImage, PicturesCompression re
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| deleteCroppedAreasOfImage | Boolean | Si es verdadero, el método eliminará las áreas recortadas de la imagen, lo que puede reducir aún más su tamaño. |
+| deleteCroppedAreasOfImage | Booleano | Si es verdadero, el método eliminará las áreas recortadas de la imagen, reduciendo potencialmente aún más su tamaño. |
 | resolution | PicturesCompression | La resolución objetivo para la compresión, especificada como un valor de la enumeración [`PicturesCompression`](../../../aspose.slides.export/picturescompression). |
 
-### Valor de Retorno
+### Valor de retorno
 
-Un Booleano que indica si la imagen se comprimió con éxito. Devuelve `true` si la imagen fue redimensionada o recortada, de lo contrario `false`.
+Un booleano que indica si la imagen fue comprimida con éxito. Devuelve `true` si la imagen fue redimensionada o recortada, de lo contrario, `false`.
 
 ### Excepciones
 
@@ -30,7 +30,7 @@ Un Booleano que indica si la imagen se comprimió con éxito. Devuelve `true` si
 | --- | --- |
 | ArgumentException | Se lanza cuando la resolución no es un valor válido. |
 
-### Comentarios
+### Observaciones
 
 Este método cambia el tamaño y la resolución de la imagen de manera similar a la función "Formato de imagen -> Comprimir imágenes" de PowerPoint.
 
@@ -48,7 +48,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 }
 ```
 
-### Véase También
+### Véase también
 
 * enum [PicturesCompression](../../../aspose.slides.export/picturescompression)
 * class [PictureFillFormat](../../picturefillformat)
@@ -57,9 +57,9 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 
 ---
 
-## ComprimirImagen(bool, float) {#compressimage_1}
+## CompressImage(bool, float) {#compressimage_1}
 
-Comprime la imagen reduciendo su tamaño en función del tamaño de la forma y la resolución especificada. Opcionalmente, también elimina las áreas recortadas.
+Comprime la imagen reduciendo su tamaño según el tamaño de la forma y la resolución especificada. Opcionalmente, también elimina las áreas recortadas.
 
 ```csharp
 public bool CompressImage(bool deleteCroppedAreasOfImage, float resolution)
@@ -67,12 +67,12 @@ public bool CompressImage(bool deleteCroppedAreasOfImage, float resolution)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| deleteCroppedAreasOfImage | Boolean | Si es verdadero, el método eliminará las áreas recortadas de la imagen, lo que puede reducir aún más su tamaño. |
-| resolution | Single | La resolución objetivo en DPI. Este valor debe ser positivo y define cómo se redimensionará la imagen. |
+| deleteCroppedAreasOfImage | Booleano | Si es verdadero, el método eliminará las áreas recortadas de la imagen, reduciendo potencialmente aún más su tamaño. |
+| resolution | Simple | La resolución objetivo en DPI. Este valor debe ser positivo y define cómo se redimensionará la imagen. |
 
-### Valor de Retorno
+### Valor de retorno
 
-Un Booleano que indica si la imagen se comprimió con éxito. Devuelve `true` si la imagen fue redimensionada o recortada, de lo contrario `false`.
+Un booleano que indica si la imagen fue comprimida con éxito. Devuelve `true` si la imagen fue redimensionada o recortada, de lo contrario, `false`.
 
 ### Excepciones
 
@@ -80,7 +80,7 @@ Un Booleano que indica si la imagen se comprimió con éxito. Devuelve `true` si
 | --- | --- |
 | ArgumentException | Se lanza cuando la resolución no es un valor positivo. |
 
-### Comentarios
+### Observaciones
 
 Este método cambia el tamaño y la resolución de la imagen de manera similar a la función "Formato de imagen -> Comprimir imágenes" de PowerPoint.
 
@@ -102,7 +102,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 }
 ```
 
-### Véase También
+### Véase también
 
 * class [PictureFillFormat](../../picturefillformat)
 * namespace [Aspose.Slides](../../picturefillformat)

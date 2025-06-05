@@ -1,6 +1,6 @@
 ---
 title: LineTo
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 在路径末尾添加线
 type: docs
 weight: 80
@@ -19,7 +19,7 @@ public void LineTo(PointF point)
 | --- | --- | --- |
 | point | PointF | 线的终点 |
 
-### 另见
+### 另请参见
 
 * class [GeometryPath](../../geometrypath)
 * namespace [Aspose.Slides](../../geometrypath)
@@ -40,7 +40,7 @@ public void LineTo(float x, float y)
 | x | Single | 线的终点的 X 坐标 |
 | y | Single | 线的终点的 Y 坐标 |
 
-### 另见
+### 另请参见
 
 * class [GeometryPath](../../geometrypath)
 * namespace [Aspose.Slides](../../geometrypath)
@@ -67,7 +67,7 @@ public void LineTo(PointF point, uint index)
 | --- | --- |
 | ArgumentOutOfRangeException | 段索引超出 PathData 范围 |
 
-### 另见
+### 另请参见
 
 * class [GeometryPath](../../geometrypath)
 * namespace [Aspose.Slides](../../geometrypath)
@@ -95,7 +95,7 @@ public void LineTo(float x, float y, uint index)
 | --- | --- |
 | ArgumentOutOfRangeException | 段索引超出 PathData 范围 |
 
-### 另见
+### 另请参见
 
 * class [GeometryPath](../../geometrypath)
 * namespace [Aspose.Slides](../../geometrypath)

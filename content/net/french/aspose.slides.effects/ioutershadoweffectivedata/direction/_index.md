@@ -7,7 +7,7 @@ weight: 30
 url: /fr/aspose.slides.effects/ioutershadoweffectivedata/direction/
 ---
 
-## Propriété IOuterShadowEffectiveData.Direction
+## IOuterShadowEffectiveData.Direction property
 
 Direction de l'ombre. Lecture seule Single.
 

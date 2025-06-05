@@ -7,7 +7,7 @@ weight: 70
 url: /de/aspose.slides/fontsubstrulecollection/copyto/
 ---
 
-## FontSubstRuleCollection.CopyTo-Methode
+## FontSubstRuleCollection.CopyTo Methode
 
 Kopiert alle Elemente aus der Sammlung in das angegebene Array.
 
@@ -20,7 +20,7 @@ public void CopyTo(Array array, int index)
 | array | Array | Ziel-Array. |
 | index | Int32 | Startindex im Ziel-Array. |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [FontSubstRuleCollection](../../fontsubstrulecollection)
 * Namespace [Aspose.Slides](../../fontsubstrulecollection)

@@ -19,7 +19,7 @@ public IMasterThemeable AsIMasterThemeable { get; }
 
 Para compatibilidad con COM.
 
-### Véase también
+### Véase También
 
 * interfaz [IMasterThemeable](../../../aspose.slides.theme/imasterthemeable)
 * interfaz [IMasterSlide](../../imasterslide)

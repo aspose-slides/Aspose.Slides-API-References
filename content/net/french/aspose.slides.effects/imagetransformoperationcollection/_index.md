@@ -1,13 +1,13 @@
 ---
 title: ImageTransformOperationCollection
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Aspose.Sildes pour .NET Référence API
 description: Représente une collection d'effets appliqués à une image.
 type: docs
 weight: 3460
 url: /fr/aspose.slides.effects/imagetransformoperationcollection/
 ---
 
-## Classe ImageTransformOperationCollection
+## ImageTransformOperationCollection class
 
 Représente une collection d'effets appliqués à une image.
 
@@ -38,19 +38,19 @@ public sealed class ImageTransformOperationCollection : PVIObject,
 | [AddAlphaModulateFixedEffect](../../aspose.slides.effects/imagetransformoperationcollection/addalphamodulatefixedeffect)(float) | Ajoute le nouvel effet Alpha Modulate Fixed à la fin d'une collection. |
 | [AddAlphaReplaceEffect](../../aspose.slides.effects/imagetransformoperationcollection/addalphareplaceeffect)(float) | Ajoute le nouvel effet Alpha Replace à la fin d'une collection. |
 | [AddBiLevelEffect](../../aspose.slides.effects/imagetransformoperationcollection/addbileveleffect)(float) | Ajoute le nouvel effet Bi-Level (noir/blanc) à la fin d'une collection. |
-| [AddBlurEffect](../../aspose.slides.effects/imagetransformoperationcollection/addblureffect)(double, bool) | Ajoute le nouvel effet de flou à la fin d'une collection. |
-| [AddColorChangeEffect](../../aspose.slides.effects/imagetransformoperationcollection/addcolorchangeeffect)() | Ajoute le nouvel effet de changement de couleur à la fin d'une collection. |
-| [AddColorReplaceEffect](../../aspose.slides.effects/imagetransformoperationcollection/addcolorreplaceeffect)() | Ajoute le nouvel effet de remplacement de couleur à la fin d'une collection. |
+| [AddBlurEffect](../../aspose.slides.effects/imagetransformoperationcollection/addblureffect)(double, bool) | Ajoute le nouvel effet Blur à la fin d'une collection. |
+| [AddColorChangeEffect](../../aspose.slides.effects/imagetransformoperationcollection/addcolorchangeeffect)() | Ajoute le nouvel effet Color Change à la fin d'une collection. |
+| [AddColorReplaceEffect](../../aspose.slides.effects/imagetransformoperationcollection/addcolorreplaceeffect)() | Ajoute le nouvel effet Color Replacement à la fin d'une collection. |
 | [AddDuotoneEffect](../../aspose.slides.effects/imagetransformoperationcollection/addduotoneeffect)() | Ajoute le nouvel effet Duotone à la fin d'une collection. |
-| [AddFillOverlayEffect](../../aspose.slides.effects/imagetransformoperationcollection/addfilloverlayeffect)() | Ajoute le nouvel effet de superposition de remplissage à la fin d'une collection. |
-| [AddGrayScaleEffect](../../aspose.slides.effects/imagetransformoperationcollection/addgrayscaleeffect)() | Ajoute le nouvel effet de niveaux de gris à la fin d'une collection. |
-| [AddHSLEffect](../../aspose.slides.effects/imagetransformoperationcollection/addhsleffect)(float, float, float) | Ajoute le nouvel effet Teinte/Saturation/Luminance à la fin d'une collection. |
-| [AddLuminanceEffect](../../aspose.slides.effects/imagetransformoperationcollection/addluminanceeffect)(float, float) | Ajoute le nouvel effet de luminance à la fin d'une collection. |
-| [AddTintEffect](../../aspose.slides.effects/imagetransformoperationcollection/addtinteffect)(float, float) | Ajoute le nouvel effet de teinte à la fin d'une collection. |
+| [AddFillOverlayEffect](../../aspose.slides.effects/imagetransformoperationcollection/addfilloverlayeffect)() | Ajoute le nouvel effet Fill Overlay à la fin d'une collection. |
+| [AddGrayScaleEffect](../../aspose.slides.effects/imagetransformoperationcollection/addgrayscaleeffect)() | Ajoute le nouvel effet Gray Scale à la fin d'une collection. |
+| [AddHSLEffect](../../aspose.slides.effects/imagetransformoperationcollection/addhsleffect)(float, float, float) | Ajoute le nouvel effet Hue/Saturation/Luminance à la fin d'une collection. |
+| [AddLuminanceEffect](../../aspose.slides.effects/imagetransformoperationcollection/addluminanceeffect)(float, float) | Ajoute le nouvel effet Luminance à la fin d'une collection. |
+| [AddTintEffect](../../aspose.slides.effects/imagetransformoperationcollection/addtinteffect)(float, float) | Ajoute le nouvel effet Tint à la fin d'une collection. |
 | [Clear](../../aspose.slides.effects/imagetransformoperationcollection/clear)() | Supprime tous les effets d'image d'une collection. |
 | [Contains](../../aspose.slides.effects/imagetransformoperationcollection/contains)(IImageTransformOperation) | Détermine si l'ICollection contient une valeur spécifique. |
-| [CopyTo](../../aspose.slides.effects/imagetransformoperationcollection/copyto)(IImageTransformOperation[], int) | Copie les éléments de l'ICollection dans un tableau, en commençant à un index spécifique du tableau. |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Compare avec un objet spécifié. |
+| [CopyTo](../../aspose.slides.effects/imagetransformoperationcollection/copyto)(IImageTransformOperation[], int) | Copie les éléments de l'ICollection dans un tableau, en commençant à un index de tableau particulier. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Compare avec l'objet spécifié. |
 | [GetEnumerator](../../aspose.slides.effects/imagetransformoperationcollection/getenumerator)() | Renvoie un énumérateur qui itère à travers la collection. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Renvoie le code de hachage. |
 | [Remove](../../aspose.slides.effects/imagetransformoperationcollection/remove)(IImageTransformOperation) | Supprime la première occurrence d'un objet spécifique de l'ICollection. |
@@ -58,9 +58,9 @@ public sealed class ImageTransformOperationCollection : PVIObject,
 
 ### Voir aussi
 
-* classe [PVIObject](../../aspose.slides/pviobject)
+* class [PVIObject](../../aspose.slides/pviobject)
 * interface [IImageTransformOperationCollection](../iimagetransformoperationcollection)
-* espace de noms [Aspose.Slides.Effects](../../aspose.slides.effects)
+* namespace [Aspose.Slides.Effects](../../aspose.slides.effects)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

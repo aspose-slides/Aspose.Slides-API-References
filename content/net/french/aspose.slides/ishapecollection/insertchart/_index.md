@@ -1,7 +1,7 @@
 ---
 title: InsertChart
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Crée un nouveau graphique, l'initialise avec des données de série d'exemple et des paramètres, et l'insère à la position spécifiée dans la collection.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Crée un nouveau graphique, l'initialise avec des données et des paramètres d'exemple, et l'insère à la position spécifiée dans la collection.
 type: docs
 weight: 260
 url: /fr/aspose.slides/ishapecollection/insertchart/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ishapecollection/insertchart/
 
 ## InsertChart(ChartType, float, float, float, float, int) {#insertchart}
 
-Crée un nouveau graphique, l'initialise avec des données de série d'exemple et des paramètres, et l'insère à la position spécifiée dans la collection.
+Crée un nouveau graphique, l'initialise avec des données et des paramètres d'exemple, et l'insère à la position spécifiée dans la collection.
 
 ```csharp
 public IChart InsertChart(ChartType type, float x, float y, float width, float height, int index)
@@ -24,11 +24,11 @@ public IChart InsertChart(ChartType type, float x, float y, float width, float h
 | height | Single | Hauteur du graphique. |
 | index | Int32 | Position du graphique dans la collection. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Graphique créé.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IChart](../../../aspose.slides.charts/ichart)
 * enum [ChartType](../../../aspose.slides.charts/charttype)
@@ -55,13 +55,13 @@ public IChart InsertChart(ChartType type, float x, float y, float width, float h
 | width | Single | Largeur du graphique. |
 | height | Single | Hauteur du graphique. |
 | index | Int32 | Position du graphique dans la collection. |
-| initWithSample | Boolean | Si vrai, le nouveau graphique sera initialisé avec des données de série d'exemple et des paramètres. Si faux, le nouveau graphique n'aura aucune série et des paramètres minimaux. Dans ce cas, la création du graphique sera plus rapide. |
+| initWithSample | Boolean | Si vrai, alors le nouveau graphique sera initialisé avec des données et des paramètres d'exemple. Si faux, alors le nouveau graphique n'aura pas de séries et des paramètres minimum. Dans ce cas, la création du graphique sera plus rapide. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Graphique créé.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IChart](../../../aspose.slides.charts/ichart)
 * enum [ChartType](../../../aspose.slides.charts/charttype)

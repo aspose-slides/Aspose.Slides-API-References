@@ -1,7 +1,7 @@
 ---
 title: ISlideHeaderFooterManager
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет менеджер, который хранит поведение элементов подвала слайда, временных меток и номеров страниц.
+description: Представляет менеджер, который управляет поведением заполнителей нижнего колонтитула с датой и временем, номера страницы.
 type: docs
 weight: 6850
 url: /ru/aspose.slides/islideheaderfootermanager/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/islideheaderfootermanager/
 
 ## Интерфейс ISlideHeaderFooterManager
 
-Представляет менеджер, который хранит поведение подвала слайда, временных меток и номеров страниц.
+Представляет менеджер, который управляет поведением нижнего колонтитула слайда, заполнителями даты и времени, номера страницы.
 
 ```csharp
 public interface ISlideHeaderFooterManager : IBaseSlideHeaderFooterManager

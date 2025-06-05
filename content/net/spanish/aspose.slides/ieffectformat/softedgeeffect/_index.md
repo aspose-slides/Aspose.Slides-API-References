@@ -1,7 +1,7 @@
 ---
 title: SoftEdgeEffect
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Borde suave. Leer/escribir ISoftEdgeaspose.slides.effects/isoftedge.
+second_title: Aspose.Slides para referencia de API de .NET
+description: Borde suave. Leer/escribir ISoftEdge aspose.slides.effects/isoftedge.
 type: docs
 weight: 100
 url: /es/aspose.slides/ieffectformat/softedgeeffect/
@@ -17,9 +17,9 @@ public ISoftEdge SoftEdgeEffect { get; set; }
 
 ### Véase también
 
-* interfaz [ISoftEdge](../../../aspose.slides.effects/isoftedge)
-* interfaz [IEffectFormat](../../ieffectformat)
-* espacio de nombres [Aspose.Slides](../../ieffectformat)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [ISoftEdge](../../../aspose.slides.effects/isoftedge)
+* interfaz [IEffectFormat](../../ieffectformat)
+* espacio de nombres [Aspose.Slides](../../ieffectformat)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

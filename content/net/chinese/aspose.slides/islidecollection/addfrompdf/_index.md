@@ -1,7 +1,7 @@
 ---
-title: 从PDF添加
-second_title: Aspose.Slides for .NET API 参考
-description: 从PDF文档创建幻灯片并将其添加到集合的末尾。
+title: AddFromPdf
+second_title: Aspose.Sildes for .NET API Reference
+description: 从 PDF 文档创建幻灯片并将其添加到集合的末尾。
 type: docs
 weight: 50
 url: /zh/aspose.slides/islidecollection/addfrompdf/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/islidecollection/addfrompdf/
 
 ## AddFromPdf(string) {#addfrompdf_2}
 
-从PDF文档创建幻灯片并将其添加到集合的末尾。
+从 PDF 文档创建幻灯片并将其添加到集合的末尾。
 
 ```csharp
 public ISlide[] AddFromPdf(string path)
@@ -17,15 +17,15 @@ public ISlide[] AddFromPdf(string path)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| path | String | PDF文档的路径 |
+| path | String | PDF 文档的路径 |
 
 ### 返回值
 
-添加的幻灯片
+已添加的幻灯片
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -36,7 +36,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 参见
+### 另见
 
 * 接口 [ISlide](../../islide)
 * 接口 [ISlideCollection](../../islidecollection)
@@ -47,7 +47,7 @@ using (Presentation pres = new Presentation())
 
 ## AddFromPdf(string, PdfImportOptions) {#addfrompdf_3}
 
-从PDF文档创建幻灯片并将其添加到集合的末尾，考虑PDF导入选项。
+从 PDF 文档创建幻灯片并将其添加到集合的末尾，考虑 PDF 导入选项。
 
 ```csharp
 public ISlide[] AddFromPdf(string path, PdfImportOptions pdfImportOptions)
@@ -55,16 +55,16 @@ public ISlide[] AddFromPdf(string path, PdfImportOptions pdfImportOptions)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| path | String | PDF文档的路径 |
-| pdfImportOptions | PdfImportOptions | PDF导入选项 |
+| path | String | PDF 文档的路径 |
+| pdfImportOptions | PdfImportOptions | PDF 导入选项 |
 
 ### 返回值
 
-添加的幻灯片
+已添加的幻灯片
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -75,7 +75,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 参见
+### 另见
 
 * 接口 [ISlide](../../islide)
 * 类 [PdfImportOptions](../../../aspose.slides.import/pdfimportoptions)
@@ -87,7 +87,7 @@ using (Presentation pres = new Presentation())
 
 ## AddFromPdf(Stream, PdfImportOptions) {#addfrompdf_1}
 
-从PDF文档创建幻灯片并将其添加到集合的末尾。
+从 PDF 文档创建幻灯片并将其添加到集合的末尾。
 
 ```csharp
 public ISlide[] AddFromPdf(Stream pdfStream, PdfImportOptions pdfImportOptions)
@@ -95,16 +95,16 @@ public ISlide[] AddFromPdf(Stream pdfStream, PdfImportOptions pdfImportOptions)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| pdfStream | Stream | 用作PDF文档源的流 |
-| pdfImportOptions | PdfImportOptions | PDF导入选项 |
+| pdfStream | Stream | 将用作 PDF 文档源的流 |
+| pdfImportOptions | PdfImportOptions | PDF 导入选项 |
 
 ### 返回值
 
-添加的幻灯片
+已添加的幻灯片
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -119,7 +119,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 参见
+### 另见
 
 * 接口 [ISlide](../../islide)
 * 类 [PdfImportOptions](../../../aspose.slides.import/pdfimportoptions)
@@ -131,7 +131,7 @@ using (Presentation pres = new Presentation())
 
 ## AddFromPdf(Stream) {#addfrompdf}
 
-从PDF文档创建幻灯片并将其添加到集合的末尾。
+从 PDF 文档创建幻灯片并将其添加到集合的末尾。
 
 ```csharp
 public ISlide[] AddFromPdf(Stream pdfStream)
@@ -139,15 +139,15 @@ public ISlide[] AddFromPdf(Stream pdfStream)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| pdfStream | Stream | 用作PDF文档源的流 |
+| pdfStream | Stream | 将用作 PDF 文档源的流 |
 
 ### 返回值
 
-添加的幻灯片
+已添加的幻灯片
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -162,7 +162,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 参见
+### 另见
 
 * 接口 [ISlide](../../islide)
 * 接口 [ISlideCollection](../../islidecollection)

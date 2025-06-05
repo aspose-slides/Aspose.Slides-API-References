@@ -1,13 +1,13 @@
 ---
-title: Ajouter
-second_title: Référence API Aspose.Slidess pour .NET
+title: Add
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Ajoute un onglet à la collection.
 type: docs
 weight: 50
 url: /fr/aspose.slides/tabcollection/add/
 ---
 
-## Ajouter(double, TabAlignment) {#add}
+## Add(double, TabAlignment) {#add}
 
 Ajoute un onglet à la collection.
 
@@ -29,7 +29,7 @@ Onglet ajouté.
 
 ---
 
-## Ajouter(ITab) {#add_1}
+## Add(ITab) {#add_1}
 
 Ajoute un onglet à la collection.
 
@@ -39,11 +39,11 @@ public int Add(ITab value)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| value | ITab | L'objet Tab à ajouter à la fin de la collection. |
+| value | ITab | L'objet onglet à ajouter à la fin de la collection. |
 
 ### Valeur de retour
 
-L'index auquel l'onglet a été ajouté.
+L'index à laquelle l'onglet a été ajouté.
 
 ### Voir aussi
 

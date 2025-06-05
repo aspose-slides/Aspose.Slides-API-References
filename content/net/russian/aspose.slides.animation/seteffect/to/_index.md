@@ -1,21 +1,21 @@
 ---
-title: К
-second_title: Ссылка по API Aspose.Slides для .NET
-description: Указывает определенный атрибут эффекта после анимационного эффекта. Представляет значение точки. Только bool, ColorFormat, float, int, string. Чтение/запись Object.
+title: To
+second_title: Aspose.Sildes для .NET API Справочник
+description: Указывает определенный атрибут эффекта после анимационного эффекта. Представляет собой точечное значение. Только bool, ColorFormat, float, int, string. Чтение/запись Object.
 type: docs
 weight: 20
 url: /ru/aspose.slides.animation/seteffect/to/
 ---
 
-## Свойство SetEffect.To
+## SetEffect.To свойство
 
-Указывает определенный атрибут эффекта после анимационного эффекта. Представляет значение точки. Только: bool, ColorFormat, float, int, string. Чтение/запись Object.
+Указывает определенный атрибут эффекта после анимационного эффекта. Представляет собой точечное значение. Только: bool, ColorFormat, float, int, string. Чтение/запись Object.
 
 ```csharp
 public object To { get; set; }
 ```
 
-### См. также
+### См. Также
 
 * класс [SetEffect](../../seteffect)
 * пространство имен [Aspose.Slides.Animation](../../seteffect)

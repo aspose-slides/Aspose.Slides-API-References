@@ -1,7 +1,7 @@
 ---
 title: AdjustHandlesLocked
-second_title: Aspose.Slides for .NET API 参考
-description: 确定是否禁止更改调整值。可读/写布尔值。
+second_title: Aspose.Slides for .NET API Reference
+description: 确定是否禁止更改调整值。可读写布尔值。
 type: docs
 weight: 10
 url: /zh/aspose.slides/ipictureframelock/adjusthandleslocked/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ipictureframelock/adjusthandleslocked/
 
 ## IPictureFrameLock.AdjustHandlesLocked 属性
 
-确定是否禁止更改调整值。可读/写布尔值。
+确定是否禁止更改调整值。可读写布尔值。
 
 ```csharp
 public bool AdjustHandlesLocked { get; set; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IPictureFrameLock](../../ipictureframelock)
 * 命名空间 [Aspose.Slides](../../ipictureframelock)

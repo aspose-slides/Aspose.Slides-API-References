@@ -1,7 +1,7 @@
 ---
 title: IMasterTheme
-second_title: Aspose.Slides для .NET Справочник API
-description: Представляет основную тему.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет мастер-тему.
 type: docs
 weight: 11000
 url: /ru/aspose.slides.theme/imastertheme/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.theme/imastertheme/
 
 ## Интерфейс IMasterTheme
 
-Представляет основную тему.
+Представляет мастер-тему.
 
 ```csharp
 public interface IMasterTheme : ITheme
@@ -17,13 +17,13 @@ public interface IMasterTheme : ITheme
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [AsITheme](../../aspose.slides.theme/imastertheme/asitheme) { get; } | Позволяет получить базовый интерфейс ITheme. Только для чтения [`ITheme`](../itheme). |
 | [ExtraColorSchemes](../../aspose.slides.theme/imastertheme/extracolorschemes) { get; } | Возвращает коллекцию дополнительных цветовых схем. Эти схемы не влияют на внешний вид презентации, их можно выбрать в качестве основной цветовой схемы для слайда. Только для чтения [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
-| [Name](../../aspose.slides.theme/imastertheme/name) { get; set; } | Возвращает имя темы. Читаемо/записываемо String. |
+| [Name](../../aspose.slides.theme/imastertheme/name) { get; set; } | Возвращает название темы. Читаемая/записываемая строка. |
 
-### См. также
+### Смотрите также
 
 * интерфейс [ITheme](../itheme)
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)

@@ -1,13 +1,13 @@
 ---
 title: PortionCollection
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示一个部分集合。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示一个部分的集合。
 type: docs
 weight: 9200
 url: /zh/aspose.slides/portioncollection/
 ---
 
-## PortionCollection 类
+## PortionCollection class
 
 表示一个部分的集合。
 
@@ -15,29 +15,29 @@ url: /zh/aspose.slides/portioncollection/
 public sealed class PortionCollection : DomObject<Paragraph>, IPortionCollection
 ```
 
-## 属性
+## Properties
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/portioncollection/count) { get; } | 获取集合中实际包含的元素数量。只读 Int32。 |
-| [IsReadOnly](../../aspose.slides/portioncollection/isreadonly) { get; } | 获取一个值，指示 ICollection 是否为只读。只读 Boolean。 |
+| [IsReadOnly](../../aspose.slides/portioncollection/isreadonly) { get; } | 获取一个值，该值指示 ICollection 是否为只读。只读 Boolean。 |
 | [Item](../../aspose.slides/portioncollection/item) { get; set; } | 获取指定索引处的元素。 |
 
-## 方法
+## Methods
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/portioncollection/add)(IPortion) | 将一个 Portion 添加到集合的末尾。 |
 | [Clear](../../aspose.slides/portioncollection/clear)() | 从集合中移除所有元素。 |
 | [Contains](../../aspose.slides/portioncollection/contains)(IPortion) | 确定 ICollection 是否包含特定值。 |
-| [CopyTo](../../aspose.slides/portioncollection/copyto)(IPortion[], int) | 从特定数组索引开始，将 ICollection 的元素复制到数组中。 |
-| [GetEnumerator](../../aspose.slides/portioncollection/getenumerator)() | 返回一个迭代集合的枚举器。 |
+| [CopyTo](../../aspose.slides/portioncollection/copyto)(IPortion[], int) | 将 ICollection 的元素复制到数组，从特定数组索引开始。 |
+| [GetEnumerator](../../aspose.slides/portioncollection/getenumerator)() | 返回一个枚举器，用于迭代集合。 |
 | [IndexOf](../../aspose.slides/portioncollection/indexof)(IPortion) | 确定 IList 中特定项的索引。 |
-| [Insert](../../aspose.slides/portioncollection/insert)(int, IPortion) | 在指定索引处将一个 Portion 插入集合。 |
+| [Insert](../../aspose.slides/portioncollection/insert)(int, IPortion) | 在指定索引处将一个 Portion 插入集合中。 |
 | [Remove](../../aspose.slides/portioncollection/remove)(IPortion) | 从 ICollection 中移除特定对象的第一次出现。 |
 | [RemoveAt](../../aspose.slides/portioncollection/removeat)(int) | 移除集合中指定索引处的元素。 |
 
-### 参见
+### See Also
 
 * class [DomObject&lt;TParent&gt;](../domobject-1)
 * class [Paragraph](../paragraph)

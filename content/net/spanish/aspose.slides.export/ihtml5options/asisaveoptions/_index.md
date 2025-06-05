@@ -1,29 +1,29 @@
 ---
 title: AsISaveOptions
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve la interfaz ISaveOptions. ISaveOptions de solo lectura aspose.slides.export/isaveoptions.
+second_title: Referencia de la API de Aspose.Sildes para .NET
+description: Devuelve la interfaz ISaveOptions. Solo lectura de ISaveOptionsaspose.slides.export/isaveoptions.
 type: docs
 weight: 30
 url: /es/aspose.slides.export/ihtml5options/asisaveoptions/
 ---
 
-## Propiedad IHtml5Options.AsISaveOptions
+## IHtml5Options.AsISaveOptions property
 
-Devuelve la interfaz ISaveOptions. Solo de lectura [`ISaveOptions`](../../isaveoptions).
+Devuelve la interfaz ISaveOptions. Solo lectura de [`ISaveOptions`](../../isaveoptions).
 
 ```csharp
 public ISaveOptions AsISaveOptions { get; }
 ```
 
-### Observaciones
+### Remarks
 
 Para compatibilidad con COM.
 
-### Véase también
+### See Also
 
-* interfaz [ISaveOptions](../../isaveoptions)
-* interfaz [IHtml5Options](../../ihtml5options)
-* espacio de nombres [Aspose.Slides.Export](../../ihtml5options)
-* ensamblado [Aspose.Slides](../../../)
+* interface [ISaveOptions](../../isaveoptions)
+* interface [IHtml5Options](../../ihtml5options)
+* namespace [Aspose.Slides.Export](../../ihtml5options)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.charts/chartcategorycollection/add/
 ---
+
 ## Add(IChartDataCell) {#add}
 
 If category exists in collection, return it. Else creates new chart category from [`IChartDataCell`](../../ichartdatacell) and adds it to the collection.

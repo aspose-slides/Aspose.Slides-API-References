@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/ibasechartvalue/data/
 ---
+
 ## IBaseChartValue.Data property
 
 Read/write Object.

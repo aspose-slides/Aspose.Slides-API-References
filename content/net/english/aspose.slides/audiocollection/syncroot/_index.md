@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/audiocollection/syncroot/
 ---
+
 ## AudioCollection.SyncRoot property
 
 Returns a synchronization root. Read-only Object.

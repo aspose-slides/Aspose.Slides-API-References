@@ -3,9 +3,10 @@ title: Keywords
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets the keywords of a presentation. Read/write String.
 type: docs
-weight: 140
+weight: 170
 url: /aspose.slides/documentproperties/keywords/
 ---
+
 ## DocumentProperties.Keywords property
 
 Returns or sets the keywords of a presentation. Read/write String.

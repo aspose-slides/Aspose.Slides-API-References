@@ -1,5 +1,5 @@
 ---
-title: Égal
+title: Equals
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Détermine si le GrayScaleaspose.slides.effects/grayscale spécifié est égal au GrayScaleaspose.slides.effects/grayscale actuel.
 type: docs
@@ -7,7 +7,7 @@ weight: 10
 url: /fr/aspose.slides.effects/grayscale/equals/
 ---
 
-## Méthode GrayScale.Equals
+## GrayScale.Equals méthode
 
 Détermine si le [`GrayScale`](../../grayscale) spécifié est égal au [`GrayScale`](../../grayscale) actuel.
 
@@ -23,7 +23,7 @@ public override bool Equals(object obj)
 
 true si les objets sont égaux ; sinon, false.
 
-### Voir Aussi
+### Voir aussi
 
 * classe [GrayScale](../../grayscale)
 * espace de noms [Aspose.Slides.Effects](../../grayscale)

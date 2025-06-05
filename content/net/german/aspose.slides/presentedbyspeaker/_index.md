@@ -1,15 +1,15 @@
 ---
 title: PresentedBySpeaker
-second_title: Aspose.Slides für .NET API-Referenz
-description: Präsentiert von einem Sprecher im Vollbildmodus
+second_title: Aspose.Slides für .NET API Referenz
+description: Von einem Sprecher präsentiert Vollbild
 type: docs
 weight: 9380
 url: /de/aspose.slides/presentedbyspeaker/
 ---
 
-## PresentedBySpeaker-Klasse
+## PresentedBySpeaker Klasse
 
-Präsentiert von einem Sprecher (Vollbild)
+Von einem Sprecher präsentiert (Vollbild)
 
 ```csharp
 public class PresentedBySpeaker : SlideShowType
@@ -19,7 +19,7 @@ public class PresentedBySpeaker : SlideShowType
 
 | Name | Beschreibung |
 | --- | --- |
-| [PresentedBySpeaker](presentedbyspeaker)() | Initialisiert eine neue Instanz der PresentedBySpeaker-Klasse. |
+| [PresentedBySpeaker](presentedbyspeaker)() | Initialisiert eine neue Instanz der Klasse PresentedBySpeaker. |
 
 ### Beispiele
 

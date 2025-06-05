@@ -1,7 +1,7 @@
 ---
-title: Высота
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает или устанавливает высоту заголовка как долю от высоты графика. Чтение/запись Single.
+title: Height
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает или устанавливает высоту заголовка как долю высоты диаграммы. Читаемое/записываемое значение Single.
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/charttitle/height/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/charttitle/height/
 
 ## Свойство ChartTitle.Height
 
-Возвращает или устанавливает высоту заголовка как долю от высоты графика. Чтение/запись Single.
+Возвращает или устанавливает высоту заголовка как долю высоты диаграммы. Читаемое/записываемое значение Single.
 
 ```csharp
 public float Height { get; set; }

@@ -1,7 +1,7 @@
 ---
-title: Speichern
-second_title: Aspose.Slides für .NET API-Referenz
-description: Speichert das Bild in der angegebenen Datei
+title: Save
+second_title: Aspose.Sildes für .NET API Referenz
+description: Speichert Bild in der angegebenen Datei
 type: docs
 weight: 40
 url: /de/aspose.slides/imagewrapper/save/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/imagewrapper/save/
 
 ## Save(string) {#save_1}
 
-Speichert das Bild in der angegebenen Datei
+Speichert Bild in der angegebenen Datei
 
 ```csharp
 public void Save(string fileName)

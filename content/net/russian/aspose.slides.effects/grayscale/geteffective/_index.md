@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Aspose.Sildes для .NET API Ссылка
-description: Получает данные эффективного эффекта градаций серого с применением наследования.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает данные эффекта серой шкалы с применением наследования.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/grayscale/geteffective/
@@ -9,17 +9,17 @@ url: /ru/aspose.slides.effects/grayscale/geteffective/
 
 ## GrayScale.GetEffective метод
 
-Получает данные эффективного эффекта градаций серого с применением наследования.
+Получает данные эффекта серой шкалы с применением наследования.
 
 ```csharp
 public IGrayScaleEffectiveData GetEffective()
 ```
 
-### Возвращаемое значение
+### Значение возврата
 
 [`IGrayScaleEffectiveData`](../../igrayscaleeffectivedata).
 
-### См. также
+### См. Также
 
 * интерфейс [IGrayScaleEffectiveData](../../igrayscaleeffectivedata)
 * класс [GrayScale](../../grayscale)

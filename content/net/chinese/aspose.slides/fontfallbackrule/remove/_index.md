@@ -1,7 +1,7 @@
 ---
-title: 移除
-second_title: Aspose.Sildes for .NET API 参考
-description: 从列表中移除特定 FallBack 字体的首次出现。
+title: Remove
+second_title: Aspose.Sildes for .NET API Reference
+description: 从列表中移除特定 FallBack 字体的第一次出现。
 type: docs
 weight: 90
 url: /zh/aspose.slides/fontfallbackrule/remove/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/fontfallbackrule/remove/
 
 ## FontFallBackRule.Remove 方法
 
-从列表中移除特定 FallBack 字体的首次出现。
+从列表中移除特定 FallBack 字体的第一次出现。
 
 ```csharp
 public void Remove(string fontName)
@@ -23,14 +23,14 @@ public void Remove(string fontName)
 
 ```csharp
 [C#]
-// 创建包含字体列表的规则。
+// 创建一个包含字体列表的规则。
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma, Times New Roman");
 
 // 从列表中移除 Tahoma。
 newRule.Remove ("Tahoma");
 ```
 
-### 另请参阅
+### 另见
 
 * class [FontFallBackRule](../../fontfallbackrule)
 * namespace [Aspose.Slides](../../fontfallbackrule)

@@ -1,7 +1,7 @@
 ---
-title: 应用程序模板
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置应用程序的模板。可读/写字符串。
+title: ApplicationTemplate
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置应用程序的模板。可读写字符串。
 type: docs
 weight: 20
 url: /zh/aspose.slides/documentproperties/applicationtemplate/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/documentproperties/applicationtemplate/
 
 ## DocumentProperties.ApplicationTemplate 属性
 
-返回或设置应用程序的模板。可读/写字符串。
+返回或设置应用程序的模板。可读写字符串。
 
 ```csharp
 public string ApplicationTemplate { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)

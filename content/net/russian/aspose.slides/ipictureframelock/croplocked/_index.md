@@ -1,15 +1,15 @@
 ---
 title: CropLocked
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, запрещено ли обрезка изображения. Читаемое/записываемое логическое значение.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Определяет, запрещено ли обрезание изображения. Читаемое/записываемое логическое значение.
 type: docs
 weight: 50
 url: /ru/aspose.slides/ipictureframelock/croplocked/
 ---
 
-## Свойство IPictureFrameLock.CropLocked
+## IPictureFrameLock.CropLocked свойство
 
-Определяет, запрещено ли обрезка изображения. Читаемое/записываемое логическое значение.
+Определяет, запрещено ли обрезание изображения. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool CropLocked { get; set; }

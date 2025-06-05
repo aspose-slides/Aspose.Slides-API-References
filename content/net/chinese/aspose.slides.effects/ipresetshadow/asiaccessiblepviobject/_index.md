@@ -1,7 +1,7 @@
 ---
 title: AsIAccessiblePVIObject
-second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基本的 IAccessiblePVIObject 接口。只读 IAccessiblePVIObject aspose.slides/iaccessiblepviobject-1。
+second_title: Aspose.Slides for .NET API Reference
+description: 允许获取基本的 IAccessiblePVIObject 接口。只读 IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1。
 type: docs
 weight: 10
 url: /zh/aspose.slides.effects/ipresetshadow/asiaccessiblepviobject/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.effects/ipresetshadow/asiaccessiblepviobject/
 public IAccessiblePVIObject<IPresetShadowEffectiveData> AsIAccessiblePVIObject { get; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
 * 接口 [IPresetShadowEffectiveData](../../ipresetshadoweffectivedata)

@@ -3,9 +3,10 @@ title: ISlideSize
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a size of slide.
 type: docs
-weight: 6640
+weight: 6870
 url: /aspose.slides/islidesize/
 ---
+
 ## ISlideSize interface
 
 Represents a size of slide.

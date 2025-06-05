@@ -1,7 +1,7 @@
 ---
 title: NoAction
-second_title: Aspose.Slides for .NET API Reference
-description: 返回一个特殊的“无操作”超链接。读取专用 Hyperlinkaspose.slides/hyperlink。
+second_title: Aspose.Slide for .NET API Reference
+description: 返回一个特殊的无操作超链接。只读 Hyperlinkaspose.slides/hyperlink。
 type: docs
 weight: 80
 url: /zh/aspose.slides/hyperlink/noaction/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/hyperlink/noaction/
 public static Hyperlink NoAction { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 类 [Hyperlink](../../hyperlink)
 * 命名空间 [Aspose.Slides](../../hyperlink)

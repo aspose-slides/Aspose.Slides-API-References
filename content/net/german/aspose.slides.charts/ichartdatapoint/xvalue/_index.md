@@ -1,7 +1,7 @@
 ---
 title: XValue
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den x-Wert eines Diagramm-Datenpunkts zurück. Nur Lesezugriff auf IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
+description: Gibt den x-Wert des Diagrammdatenpunkts zurück. Nur lesbar IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
 type: docs
 weight: 170
 url: /de/aspose.slides.charts/ichartdatapoint/xvalue/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartdatapoint/xvalue/
 
 ## IChartDataPoint.XValue-Eigenschaft
 
-Gibt den x-Wert eines Diagramm-Datenpunkts zurück. Nur Lesezugriff auf [`IStringOrDoubleChartValue`](../../istringordoublechartvalue).
+Gibt den x-Wert des Diagrammdatenpunkts zurück. Nur lesbar [`IStringOrDoubleChartValue`](../../istringordoublechartvalue).
 
 ```csharp
 public IStringOrDoubleChartValue XValue { get; }

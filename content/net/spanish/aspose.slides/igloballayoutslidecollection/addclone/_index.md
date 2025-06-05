@@ -21,13 +21,13 @@ public ILayoutSlide AddClone(ILayoutSlide sourceLayout)
 
 ### Valor de Retorno
 
-Diapositiva añadida.
+Diapositiva agregada.
 
 ### Observaciones
 
-Al clonar un diseño entre diferentes presentaciones, el maestro de diseño también puede ser clonado para mantener el formato de origen. Se utiliza un registro interno para rastrear los maestros clonados automáticamente y prevenir la creación de múltiples clones de la misma diapositiva maestra. La clonación manual de diapositivas maestras no será evitada ni registrada.
+Al clonar un diseño entre diferentes presentaciones, el máster de diseño también puede ser clonado para mantener el formato de origen. Se utiliza un registro interno para rastrear los másters clonados automáticamente y prevenir la creación de múltiples clones de la misma diapositiva máster. La clonación manual de diapositivas máster no será ni prevenido ni registrado.
 
-### Vea También
+### Véase También
 
 * interfaz [ILayoutSlide](../../ilayoutslide)
 * interfaz [IGlobalLayoutSlideCollection](../../igloballayoutslidecollection)
@@ -47,17 +47,17 @@ public ILayoutSlide AddClone(ILayoutSlide sourceLayout, IMasterSlide destMaster)
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | sourceLayout | ILayoutSlide | Diapositiva a clonar. |
-| destMaster | IMasterSlide | Diapositiva maestra para un nuevo diseño. |
+| destMaster | IMasterSlide | Diapositiva máster para un nuevo diseño. |
 
 ### Valor de Retorno
 
-Diapositiva añadida.
+Diapositiva agregada.
 
 ### Observaciones
 
-El nuevo diseño estará vinculado con el maestro definido en la presentación de destino. Así que esto es un análogo de copiar/pegar con la opción "Usar tema de destino" en PowerPoint.
+El nuevo diseño se vinculará con el máster definido en la presentación de destino. Así que esto es análogo a copiar/pegar con la opción "Usar tema de destino" en PowerPoint.
 
-### Vea También
+### Véase También
 
 * interfaz [ILayoutSlide](../../ilayoutslide)
 * interfaz [IMasterSlide](../../imasterslide)

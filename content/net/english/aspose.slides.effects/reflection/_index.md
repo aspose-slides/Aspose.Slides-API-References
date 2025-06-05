@@ -3,9 +3,10 @@ title: Reflection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a Reflection effect.
 type: docs
-weight: 3470
+weight: 3520
 url: /aspose.slides.effects/reflection/
 ---
+
 ## Reflection class
 
 Represents a Reflection effect.

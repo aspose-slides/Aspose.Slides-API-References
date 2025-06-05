@@ -1,7 +1,7 @@
 ---
-title: Spalten
+title: Columns
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Sammlung von Spalten zurück. Schreibgeschützte IColumnCollection aspose.slides/icolumncollection.
+description: Gibt die Sammlung von Spalten zurück. Nur-Lese IColumnCollectionaspose.slides/icolumncollection.
 type: docs
 weight: 10
 url: /de/aspose.slides/table/columns/
@@ -9,15 +9,15 @@ url: /de/aspose.slides/table/columns/
 
 ## Table.Columns-Eigenschaft
 
-Gibt die Sammlung von Spalten zurück. Schreibgeschützte [`IColumnCollection`](../../icolumncollection).
+Gibt die Sammlung von Spalten zurück. Nur-Lese [`IColumnCollection`](../../icolumncollection).
 
 ```csharp
 public IColumnCollection Columns { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
-* Interface [IColumnCollection](../../icolumncollection)
+* Schnittstelle [IColumnCollection](../../icolumncollection)
 * Klasse [Table](../../table)
 * Namespace [Aspose.Slides](../../table)
 * Assembly [Aspose.Slides](../../../)

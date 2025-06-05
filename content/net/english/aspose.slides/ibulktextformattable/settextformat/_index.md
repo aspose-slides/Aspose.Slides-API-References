@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ibulktextformattable/settextformat/
 ---
+
 ## SetTextFormat(IPortionFormat) {#settextformat_1}
 
 Sets defined portion format properties to all element's portions.

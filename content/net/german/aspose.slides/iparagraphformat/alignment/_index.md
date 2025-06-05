@@ -1,7 +1,7 @@
 ---
-title: Ausrichtung
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Textausrichtung in einem Absatz ohne Vererbung zurück oder setzt sie. Schreib-/Lesezugriff auf TextAlignmentaspose.slides/textalignment.
+title: Alignment
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Textausrichtung in einem Absatz ohne Vererbung zurück oder setzt sie. Lese-/Schreibzugriff auf TextAlignmentaspose.slides/textalignment.
 type: docs
 weight: 10
 url: /de/aspose.slides/iparagraphformat/alignment/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/iparagraphformat/alignment/
 
 ## IParagraphFormat.Alignment-Eigenschaft
 
-Gibt die Textausrichtung in einem Absatz ohne Vererbung zurück oder setzt sie. Schreib-/Lesezugriff auf [`TextAlignment`](../../textalignment).
+Gibt die Textausrichtung in einem Absatz ohne Vererbung zurück oder setzt sie. Lese-/Schreibzugriff auf [`TextAlignment`](../../textalignment).
 
 ```csharp
 public TextAlignment Alignment { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [TextAlignment](../../textalignment)
 * interface [IParagraphFormat](../../iparagraphformat)

@@ -3,9 +3,10 @@ title: TargetFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns the frame within the parent HTML frameset for the target of the parent hyperlink when one exists. Read/wite String.
 type: docs
-weight: 170
+weight: 180
 url: /aspose.slides/hyperlink/targetframe/
 ---
+
 ## Hyperlink.TargetFrame property
 
 Returns the frame within the parent HTML frameset for the target of the parent hyperlink when one exists. Read/wite String.

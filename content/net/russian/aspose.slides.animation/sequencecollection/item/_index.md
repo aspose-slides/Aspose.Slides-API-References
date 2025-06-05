@@ -1,7 +1,7 @@
 ---
-title: Элемент
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает последовательность по заданному индексу.
+title: Item
+second_title: Aspose.Slides для .NET API Reference
+description: Возвращает последовательность по указанному индексу.
 type: docs
 weight: 20
 url: /ru/aspose.slides.animation/sequencecollection/item/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.animation/sequencecollection/item/
 
 ## Индексатор SequenceCollection
 
-Возвращает последовательность по заданному индексу.
+Возвращает последовательность по указанному индексу.
 
 ```csharp
 public ISequence this[int index] { get; }

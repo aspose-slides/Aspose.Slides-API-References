@@ -1,6 +1,6 @@
 ---
 title: IInkOptions
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Предоставляет параметры, которые контролируют внешний вид объектов Ink в экспортированном документе.
 type: docs
 weight: 3810
@@ -20,9 +20,9 @@ public interface IInkOptions
 | Имя | Описание |
 | --- | --- |
 | [HideInk](../../aspose.slides.export/iinkoptions/hideink) { get; set; } | Показывает или скрывает элементы Ink в экспортированном документе. |
-| [InterpretMaskOpAsOpacity](../../aspose.slides.export/iinkoptions/interpretmaskopasopacity) { get; set; } | Использует операцию ROP или непрозрачность для отрисовки кисти. |
+| [InterpretMaskOpAsOpacity](../../aspose.slides.export/iinkoptions/interpretmaskopasopacity) { get; set; } | Использует операцию ROP или непрозрачность для рисования кисти. |
 
-### Также см. 
+### См. также
 
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)

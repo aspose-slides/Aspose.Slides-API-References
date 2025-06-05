@@ -1,13 +1,13 @@
 ---
 title: AsCell
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает или устанавливает объект IChartDataCell. Если категория многоуровневая, то используется объект IChartDataCell для уровня "0". Чтение/запись IChartDataCellaspose.slides.charts/ichartdatacell.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/chartcategory/ascell/
 ---
 
-## Свойство ChartCategory.AsCell
+## ChartCategory.AsCell свойство
 
 Возвращает или устанавливает объект IChartDataCell. Если категория многоуровневая, то используется объект IChartDataCell для уровня "0". Чтение/запись [`IChartDataCell`](../../ichartdatacell).
 

@@ -1,6 +1,6 @@
 ---
-title: Borrar
-second_title: Referencia de la API Aspose.Sildes para .NET
+title: Clear
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Elimina todos los elementos de la colección.
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ Elimina todos los elementos de la colección.
 public void Clear()
 ```
 
-### Véase también
+### Ver También
 
 * clase [DrawingGuidesCollection](../../drawingguidescollection)
 * espacio de nombres [Aspose.Slides](../../drawingguidescollection)

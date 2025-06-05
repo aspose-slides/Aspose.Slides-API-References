@@ -1,6 +1,6 @@
 ---
 title: IThemeManager
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет свойства темы.
 type: docs
 weight: 11080
@@ -22,7 +22,7 @@ public interface IThemeManager
 | [ApplyColorScheme](../../aspose.slides.theme/ithememanager/applycolorscheme)(IExtraColorScheme) | Применяет дополнительную цветовую схему к слайду. |
 | [CreateThemeEffective](../../aspose.slides.theme/ithememanager/createthemeeffective)() | Возвращает объект темы. |
 
-### См. также
+### См. Также
 
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)

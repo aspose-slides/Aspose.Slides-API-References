@@ -1,5 +1,5 @@
 ---
-title: Columna
+title: Column
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el índice de la columna de la hoja de cálculo en la que se encuentra la celda. Solo lectura Int32.
 type: docs
@@ -15,10 +15,10 @@ Devuelve el índice de la columna de la hoja de cálculo en la que se encuentra 
 public int Column { get; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [IChartDataCell](../../ichartdatacell)
-* espacio de nombres [Aspose.Slides.Charts](../../ichartdatacell)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IChartDataCell](../../ichartdatacell)
+* espacio de nombres [Aspose.Slides.Charts](../../ichartdatacell)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,15 +1,15 @@
 ---
 title: DefaultTabSize
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die standardmäßige Tabulatorgröße ohne Vererbung zurück oder legt sie fest. Lesen/Schreiben Single.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Standard-Tabulatorgröße ohne Vererbung zurück oder setzt sie. Lese-/Schreibzugriff Single.
 type: docs
 weight: 30
 url: /de/aspose.slides/paragraphformat/defaulttabsize/
 ---
 
-## ParagraphFormat.DefaultTabSize Eigenschaft
+## ParagraphFormat.DefaultTabSize-Eigenschaft
 
-Gibt die standardmäßige Tabulatorgröße ohne Vererbung zurück oder legt sie fest. Lesen/Schreiben Single.
+Gibt die Standard-Tabulatorgröße ohne Vererbung zurück oder setzt sie. Lese-/Schreibzugriff Single.
 
 ```csharp
 public float DefaultTabSize { get; set; }

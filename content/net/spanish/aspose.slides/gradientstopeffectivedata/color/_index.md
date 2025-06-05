@@ -1,7 +1,7 @@
 ---
 title: Color
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve el color de un punto de parada de gradiente. Solo lectura Color.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Devuelve el color de un punto de parada de degradado. Solo lectura Color.
 type: docs
 weight: 10
 url: /es/aspose.slides/gradientstopeffectivedata/color/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/gradientstopeffectivedata/color/
 
 ## Propiedad GradientStopEffectiveData.Color
 
-Devuelve el color de un punto de parada de gradiente. Solo lectura Color.
+Devuelve el color de un punto de parada de degradado. Solo lectura Color.
 
 ```csharp
 public Color Color { get; }

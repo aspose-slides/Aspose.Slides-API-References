@@ -1,7 +1,7 @@
 ---
-title: 移除
-second_title: Aspose.Slides for .NET API 参考
-description: 从集合中移除特定形状的第一次出现。
+title: Remove
+second_title: Aspose.Sildes for .NET API Reference
+description: 从集合中移除特定形状的首次出现。
 type: docs
 weight: 420
 url: /zh/aspose.slides/shapecollection/remove/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/shapecollection/remove/
 
 ## ShapeCollection.Remove 方法
 
-从集合中移除特定形状的第一次出现。
+从集合中移除特定形状的首次出现。
 
 ```csharp
 public void Remove(IShape shape)

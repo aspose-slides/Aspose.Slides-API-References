@@ -1,6 +1,6 @@
 ---
 title: ISvgImage
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente une image SVG.
 type: docs
 weight: 6960
@@ -19,10 +19,10 @@ public interface ISvgImage
 
 | Nom | Description |
 | --- | --- |
-| [BaseUri](../../aspose.slides/isvgimage/baseuri) { get; } | Renvoie l'URI de base du SVG spécifié. Utilisé pour résoudre des liens relatifs. Chaîne en lecture seule. |
+| [BaseUri](../../aspose.slides/isvgimage/baseuri) { get; } | Renvoie l'URI de base du SVG spécifié. Utilisé pour résoudre les liens relatifs. Chaîne en lecture seule. |
 | [ExternalResourceResolver](../../aspose.slides/isvgimage/externalresourceresolver) { get; } | Renvoie l'interface de rappel utilisée pour résoudre les ressources externes lors de l'importation de documents SVG. [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver) en lecture seule. |
 | [SvgContent](../../aspose.slides/isvgimage/svgcontent) { get; } | Renvoie le contenu SVG. Chaîne en lecture seule. |
-| [SvgData](../../aspose.slides/isvgimage/svgdata) { get; } | Renvoie les données SVG. Byte[] en lecture seule. |
+| [SvgData](../../aspose.slides/isvgimage/svgdata) { get; } | Renvoie les données SVG. Tableau de bytes en lecture seule. |
 
 ## Méthodes
 
@@ -30,7 +30,7 @@ public interface ISvgImage
 | --- | --- |
 | [WriteAsEmf](../../aspose.slides/isvgimage/writeasemf)(Stream) | Enregistre l'image SVG en tant que fichier EMF. |
 
-### Voir aussi
+### Voir Aussi
 
 * espace de noms [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

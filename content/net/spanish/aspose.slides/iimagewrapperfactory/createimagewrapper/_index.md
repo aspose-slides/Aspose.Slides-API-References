@@ -1,7 +1,7 @@
 ---
 title: CreateImageWrapper
-second_title: Aspose.Slides para .NET Referencia de API
-description: Inicializa una nueva instancia de la clase ImageWrapper desde la imagen existente especificada.
+second_title: Aspose.Sildes para .NET API Reference
+description: Inicializa una nueva instancia de la clase ImageWrapper a partir de la imagen existente especificada.
 type: docs
 weight: 10
 url: /es/aspose.slides/iimagewrapperfactory/createimagewrapper/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/iimagewrapperfactory/createimagewrapper/
 
 ## CreateImageWrapper(IImage) {#createimagewrapper}
 
-Inicializa una nueva instancia de la clase ImageWrapper desde la imagen existente especificada.
+Inicializa una nueva instancia de la clase ImageWrapper a partir de la imagen existente especificada.
 
 ```csharp
 public IImageWrapper CreateImageWrapper(IImage image)
@@ -35,7 +35,7 @@ Nueva instancia de un [`IImageWrapper`](../../iimagewrapper)
 
 ## CreateImageWrapper(Stream) {#createimagewrapper_2}
 
-Inicializa una nueva instancia de la clase ImageWrapper desde el flujo de datos especificado.
+Inicializa una nueva instancia de la clase ImageWrapper a partir del flujo de datos especificado.
 
 ```csharp
 public IImageWrapper CreateImageWrapper(Stream stream)
@@ -60,7 +60,7 @@ Nueva instancia de un [`IImageWrapper`](../../iimagewrapper)
 
 ## CreateImageWrapper(string) {#createimagewrapper_3}
 
-Inicializa una nueva instancia de la clase ImageWrapper desde el archivo especificado.
+Inicializa una nueva instancia de la clase ImageWrapper a partir del archivo especificado.
 
 ```csharp
 public IImageWrapper CreateImageWrapper(string fileName)

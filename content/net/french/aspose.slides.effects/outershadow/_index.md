@@ -1,15 +1,15 @@
 ---
-title: OmbreExtérieure
-second_title: Aspose.Slides pour .NET Référence de l'API
-description: Représente un effet d'Ombre Extérieure.
+title: OuterShadow
+second_title: Référence API Aspose.Slides pour .NET
+description: Représente un effet d'ombre externe.
 type: docs
 weight: 3500
 url: /fr/aspose.slides.effects/outershadow/
 ---
 
-## Classe OmbreExtérieure
+## Classe OuterShadow
 
-Représente un effet d'Ombre Extérieure.
+Représente un effet d'ombre externe.
 
 ```csharp
 public sealed class OuterShadow : IOuterShadow
@@ -22,10 +22,10 @@ public sealed class OuterShadow : IOuterShadow
 | [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | Rayon de flou. Lecture/écriture Double. |
 | [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | Direction de l'ombre. Lecture/écriture Single. |
 | [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Distance de l'ombre. Lecture/écriture Double. |
-| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | Alignement de rectangle. Lecture/écriture [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Spécifie si l'ombre doit tourner avec la forme si celle-ci est tournée. Lecture/écriture Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Spécifie le facteur de mise à l'échelle horizontal, la mise à l'échelle négative entraîne un retournement. Lecture/écriture Double. |
-| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Spécifie le facteur de mise à l'échelle vertical, la mise à l'échelle négative entraîne un retournement. Lecture/écriture Double. |
+| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | Alignement du rectangle. Lecture/écriture [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Indique si l'ombre doit tourner avec la forme si la forme est pivotée. Lecture/écriture Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Spécifie le facteur d'échelle horizontal, un échelonnement négatif provoque un retournement. Lecture/écriture Double. |
+| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Spécifie le facteur d'échelle vertical, un échelonnement négatif provoque un retournement. Lecture/écriture Double. |
 | [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | Couleur de l'ombre. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Spécifie l'angle de déformation horizontal (en degrés). Lecture/écriture Double. |
 | [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Spécifie l'angle de déformation vertical (en degrés). Lecture/écriture Double. |
@@ -34,8 +34,8 @@ public sealed class OuterShadow : IOuterShadow
 
 | Nom | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | Détermine si l'[`OuterShadow`](../outershadow) spécifié est égal à l'[`OuterShadow`](../outershadow) actuel. |
-| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | Obtient les données effectives de l'effet d'Ombre Extérieure avec l'héritage appliqué. |
+| override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | Détermine si le [`OuterShadow`](../outershadow) spécifié est égal au [`OuterShadow`](../outershadow) courant. |
+| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | Obtient les données effectives de l'effet d'ombre externe avec l'héritage appliqué. |
 | override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | Sert de fonction de hachage pour un type particulier. |
 
 ### Voir aussi

@@ -1,7 +1,7 @@
 ---
 title: ShowMinorGridLines
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет, показываются ли дополнительные сеточные линии. Только для чтения булевое значение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет, показываются ли тонкие сетки. Свойство только для чтения, тип Boolean.
 type: docs
 weight: 490
 url: /ru/aspose.slides.charts/iaxis/showminorgridlines/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.charts/iaxis/showminorgridlines/
 
 ## IAxis.ShowMinorGridLines свойство
 
-Представляет, показываются ли дополнительные сеточные линии. Только для чтения булевое значение.
+Представляет, показываются ли тонкие сетки. Свойство только для чтения, тип Boolean.
 
 ```csharp
 public bool ShowMinorGridLines { get; }
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [IAxis](../../iaxis)
 * пространство имен [Aspose.Slides.Charts](../../iaxis)

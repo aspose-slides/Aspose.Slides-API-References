@@ -1,7 +1,7 @@
 ---
 title: Symbol
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt den Markerstil in einem Liniendiagramm, Streudiagramm oder Radardiagramm dar. Lese-/SCHREIBEBAR MarkerStyleTypeaspose.slides.charts/markerstyletype.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt den Markerstil in einem Liniendiagramm, Streudiagramm oder Radardiagramm dar. Lese/ Schreibe MarkerStyleTypeaspose.slides.charts/markerstyletype.
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/imarker/symbol/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/imarker/symbol/
 
 ## IMarker.Symbol-Eigenschaft
 
-Stellt den Markerstil in einem Liniendiagramm, Streudiagramm oder Radardiagramm dar. Lese-/schreibbar [`MarkerStyleType`](../../markerstyletype).
+Stellt den Markerstil in einem Liniendiagramm, Streudiagramm oder Radardiagramm dar. Lese/Schreibe [`MarkerStyleType`](../../markerstyletype).
 
 ```csharp
 public MarkerStyleType Symbol { get; set; }

@@ -1,6 +1,6 @@
 ---
 title: IImageWrapperFactory
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Cette interface permet d'initialiser IBitmapWrapper.
 type: docs
 weight: 5980

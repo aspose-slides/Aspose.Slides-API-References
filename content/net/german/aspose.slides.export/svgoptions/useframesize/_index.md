@@ -1,7 +1,7 @@
 ---
 title: UseFrameSize
 second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob der Textrahmen in einem Rendering-Bereich enthalten ist oder nicht. Lese-/Schreib-Boolean. Standardwert ist false.
+description: Bestimmt, ob der Textrahmen in einem Rendering-Bereich enthalten ist oder nicht. Schreib-/Lesewert vom Typ Boolean. Standardwert ist false.
 type: docs
 weight: 170
 url: /de/aspose.slides.export/svgoptions/useframesize/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/svgoptions/useframesize/
 
 ## SVGOptions.UseFrameSize-Eigenschaft
 
-Bestimmt, ob der Textrahmen in einem Rendering-Bereich enthalten ist oder nicht. Lese-/Schreib-Boolean. Standardwert ist false.
+Bestimmt, ob der Textrahmen in einem Rendering-Bereich enthalten ist oder nicht. Schreib-/Lesewert vom Typ Boolean. Standardwert ist false.
 
 ```csharp
 public bool UseFrameSize { get; set; }

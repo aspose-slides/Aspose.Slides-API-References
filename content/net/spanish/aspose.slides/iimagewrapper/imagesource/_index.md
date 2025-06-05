@@ -1,7 +1,7 @@
 ---
 title: ImageSource
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Obtiene la imagen de solo lectura Image.
+description: Obtiene la imagen Read-only Image.
 type: docs
 weight: 20
 url: /es/aspose.slides/iimagewrapper/imagesource/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/iimagewrapper/imagesource/
 
 ## Propiedad IImageWrapper.ImageSource
 
-Obtiene la imagen de solo lectura Image.
+Obtiene la imagen Read-only Image.
 
 ```csharp
 public IImage ImageSource { get; }
 ```
 
-### Ver También
+### Véase También
 
 * interfaz [IImage](../../iimage)
 * interfaz [IImageWrapper](../../iimagewrapper)

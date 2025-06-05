@@ -1,7 +1,7 @@
 ---
-title: Rechts
-second_title: Aspose.Slides für .NET API Referenz
-description: Rechts. Schreibgeschützter Single.
+title: Right
+second_title: Aspose.Slides für .NET API-Referenz
+description: Right. Schreibgeschützter Single.
 type: docs
 weight: 110
 url: /de/aspose.slides.charts/chartplotarea/right/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/chartplotarea/right/
 
 ## ChartPlotArea.Right-Eigenschaft
 
-Rechts. Schreibgeschützter Single.
+Right. Schreibgeschützter Single.
 
 ```csharp
 public float Right { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [ChartPlotArea](../../chartplotarea)
 * Namespace [Aspose.Slides.Charts](../../chartplotarea)

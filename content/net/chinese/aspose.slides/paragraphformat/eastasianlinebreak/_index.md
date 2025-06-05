@@ -1,7 +1,7 @@
 ---
-title: 东亚行断
-second_title: Aspose.Slides for .NET API 参考
-description: 确定段落中是否使用东亚行断。没有继承应用。可读/可写 NullableBoolaspose.slides/nullablebool。
+title: EastAsianLineBreak
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定段落中是否使用东亚换行。没有应用继承。读/写 NullableBoolaspose.slides/nullablebool。
 type: docs
 weight: 40
 url: /zh/aspose.slides/paragraphformat/eastasianlinebreak/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/paragraphformat/eastasianlinebreak/
 
 ## ParagraphFormat.EastAsianLineBreak 属性
 
-确定段落中是否使用东亚行断。没有继承应用。可读/可写 [`NullableBool`](../../nullablebool)。
+确定段落中是否使用东亚换行。没有应用继承。读/写 [`NullableBool`](../../nullablebool)。
 
 ```csharp
 public NullableBool EastAsianLineBreak { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * 枚举 [NullableBool](../../nullablebool)
 * 类 [ParagraphFormat](../../paragraphformat)

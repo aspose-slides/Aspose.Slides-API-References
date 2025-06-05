@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export/isvgshapeandtextformattingcontroller/asisvgshapeformattingcontroller/
 ---
+
 ## ISvgShapeAndTextFormattingController.AsISvgShapeFormattingController property
 
 Returns ISvgShapeFormattingController interface.

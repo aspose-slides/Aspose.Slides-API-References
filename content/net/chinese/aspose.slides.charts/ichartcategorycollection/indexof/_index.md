@@ -1,7 +1,7 @@
 ---
 title: IndexOf
-second_title: Aspose.Slides for .NET API 参考
-description: 搜索指定的 IChartCategoryaspose.slides.charts/ichartcategory，并返回在整个集合中第一次出现的零-based 索引
+second_title: Aspose.Sildes for .NET API Reference
+description: 在整个集合中搜索指定的 IChartCategoryaspose.slides.charts/ichartcategory，并返回第一次出现的零基索引
 type: docs
 weight: 60
 url: /zh/aspose.slides.charts/ichartcategorycollection/indexof/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ichartcategorycollection/indexof/
 
 ## IChartCategoryCollection.IndexOf 方法
 
-搜索指定的 [`IChartCategory`](../../ichartcategory) 并返回在整个集合中第一次出现的零-based 索引
+搜索指定的 [`IChartCategory`](../../ichartcategory)，并返回在整个集合中第一次出现的零基索引
 
 ```csharp
 public int IndexOf(IChartCategory value)
@@ -21,7 +21,7 @@ public int IndexOf(IChartCategory value)
 
 ### 返回值
 
-如果找到，返回值在整个 CollectionBase 中第一次出现的零-based 索引；否则返回 -1。
+如果找到，返回值在整个 CollectionBase 中第一次出现的零基索引；否则，返回 -1。
 
 ### 另请参阅
 

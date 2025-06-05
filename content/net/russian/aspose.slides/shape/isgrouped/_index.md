@@ -1,7 +1,7 @@
 ---
 title: IsGrouped
-second_title: Aspose.Sildes для справочника API .NET
-description: Определяет, сгруппирована ли фигура. Только для чтения логическое значение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет, является ли фигура сгруппированной. Только для чтения Boolean.
 type: docs
 weight: 150
 url: /ru/aspose.slides/shape/isgrouped/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/shape/isgrouped/
 
 ## Свойство Shape.IsGrouped
 
-Определяет, сгруппирована ли фигура. Только для чтения логическое значение.
+Определяет, является ли фигура сгруппированной. Только для чтения Boolean.
 
 ```csharp
 public bool IsGrouped { get; }

@@ -1,13 +1,13 @@
 ---
 title: DataSourceType
-second_title: Referencia API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa la ruta del libro de trabajo externo si la fuente de datos externa es nula, de lo contrario
 type: docs
 weight: 30
 url: /es/aspose.slides.charts/chartdata/datasourcetype/
 ---
 
-## Propiedad ChartData.DataSourceType
+## ChartData.DataSourceType property
 
 Representa la ruta del libro de trabajo externo si la fuente de datos externa, nula de lo contrario
 
@@ -22,4 +22,4 @@ public ChartDataSourceType DataSourceType { get; }
 * namespace [Aspose.Slides.Charts](../../chartdata)
 * assembly [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->

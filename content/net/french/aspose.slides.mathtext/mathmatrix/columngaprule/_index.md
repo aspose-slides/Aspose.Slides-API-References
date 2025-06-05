@@ -1,15 +1,15 @@
 ---
 title: ColumnGapRule
-second_title: Référence API Aspose.Slides pour .NET
-description: Le type d'espacement horizontal entre les colonnes d'une matrice. Les unités d'espacement horizontal peuvent être des ems ou des points stockés en twips. Par défaut  SingleSpacingGap 0
+second_title: Aspose.Sildes pour .NET Référence API
+description: Le type d'espacement horizontal entre les colonnes d'une matrice Les unités d'espacement horizontal peuvent être des ems ou des points stockés en twips. Par défaut  SingleSpacingGap 0
 type: docs
 weight: 50
 url: /fr/aspose.slides.mathtext/mathmatrix/columngaprule/
 ---
 
-## Propriété MathMatrix.ColumnGapRule
+## MathMatrix.ColumnGapRule propriété
 
-Le type d'espacement horizontal entre les colonnes d'une matrice ; les unités d'espacement horizontal peuvent être des ems ou des points (stockés en twips). Par défaut : SingleSpacingGap (0)
+Le type d'espacement horizontal entre les colonnes d'une matrice ; Les unités d'espacement horizontal peuvent être des ems ou des points (stockés en twips). Par défaut : SingleSpacingGap (0)
 
 ```csharp
 public MathSpacingRules ColumnGapRule { get; set; }
@@ -25,7 +25,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.ColumnGapRule = MathSpacingRules.OneAndHalfSpacingGap;
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [MathSpacingRules](../../mathspacingrules)
 * class [MathMatrix](../../mathmatrix)

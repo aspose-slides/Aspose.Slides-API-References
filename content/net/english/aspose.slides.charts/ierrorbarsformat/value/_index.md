@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.charts/ierrorbarsformat/value/
 ---
+
 ## IErrorBarsFormat.Value property
 
 Gets or sets value which is used with Fixed, Percentage and StandardDeviation value types to determine the length of the error bars. Read/write Single.

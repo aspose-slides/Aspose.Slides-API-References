@@ -1,13 +1,13 @@
 ---
-title: ТипТриггера
-second_title: Справочник по API Aspose.Slides для .NET
+title: TriggerType
+second_title: Aspose.Slides для .NET API Справочник
 description: Описывает тип триггера. Чтение/запись EffectTriggerTypeaspose.slides.animation/effecttriggertype.
 type: docs
 weight: 130
 url: /ru/aspose.slides.animation/itiming/triggertype/
 ---
 
-## Свойство ITiming.TriggerType
+## ITiming.TriggerType свойство
 
 Описывает тип триггера. Чтение/запись [`EffectTriggerType`](../../effecttriggertype).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/itiming/triggertype/
 public EffectTriggerType TriggerType { get; set; }
 ```
 
-### См. также
+### Смотрите Также
 
 * enum [EffectTriggerType](../../effecttriggertype)
 * interface [ITiming](../../itiming)

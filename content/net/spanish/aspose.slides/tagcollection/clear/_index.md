@@ -1,6 +1,6 @@
 ---
-title: Limpiar
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Clear
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Elimina todas las etiquetas de la colección.
 type: docs
 weight: 60
@@ -19,6 +19,6 @@ public void Clear()
 
 * clase [TagCollection](../../tagcollection)
 * espacio de nombres [Aspose.Slides](../../tagcollection)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

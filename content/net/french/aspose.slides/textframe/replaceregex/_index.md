@@ -1,7 +1,7 @@
 ---
 title: ReplaceRegex
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Remplace toutes les correspondances de l'expression régulière par la chaîne spécifiée.
+second_title: Référence API Aspose.Slides pour .NET
+description: Remplace toutes les occurrences de l'expression régulière par la chaîne spécifiée.
 type: docs
 weight: 120
 url: /fr/aspose.slides/textframe/replaceregex/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/textframe/replaceregex/
 
 ## Méthode TextFrame.ReplaceRegex
 
-Remplace toutes les correspondances de l'expression régulière par la chaîne spécifiée.
+Remplace toutes les occurrences de l'expression régulière par la chaîne spécifiée.
 
 ```csharp
 public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callback)
@@ -23,7 +23,7 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 
 ### Exemples
 
-Le code d'exemple suivant montre comment remplacer du texte en utilisant une expression régulière avec une chaîne spécifiée.
+Le code d'exemple suivant montre comment remplacer du texte en utilisant une expression régulière avec la chaîne spécifiée.
 
 ```csharp
 [C#]

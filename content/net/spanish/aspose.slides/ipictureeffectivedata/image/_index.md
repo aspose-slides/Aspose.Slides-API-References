@@ -1,6 +1,6 @@
 ---
-title: Imagen
-second_title: Referencia de la API de Aspose.Slides para .NET
+title: Image
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve la imagen incrustada. Solo lectura IPPImageaspose.slides/ippimage.
 type: docs
 weight: 10
@@ -17,9 +17,9 @@ public IPPImage Image { get; }
 
 ### Ver También
 
-* interfaz [IPPImage](../../ippimage)
-* interfaz [IPictureEffectiveData](../../ipictureeffectivedata)
-* espacio de nombres [Aspose.Slides](../../ipictureeffectivedata)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IPPImage](../../ippimage)
+* interfaz [IPictureEffectiveData](../../ipictureeffectivedata)
+* espacio de nombres [Aspose.Slides](../../ipictureeffectivedata)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

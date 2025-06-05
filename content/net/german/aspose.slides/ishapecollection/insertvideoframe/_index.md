@@ -1,15 +1,15 @@
 ---
 title: InsertVideoFrame
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Erstellt einen neuen Video-Frame und fügt ihn an der angegebenen Stelle in eine Sammlung ein.
+second_title: Aspose.Slides für .NET API Referenz
+description: Erstellt einen neuen Video-Frame und fügt ihn an dem angegebenen Index einer Sammlung hinzu.
 type: docs
 weight: 350
 url: /de/aspose.slides/ishapecollection/insertvideoframe/
 ---
 
-## IShapeCollection.InsertVideoFrame-Methode
+## IShapeCollection.InsertVideoFrame Methode
 
-Erstellt einen neuen Video-Frame und fügt ihn an der angegebenen Stelle in eine Sammlung ein.
+Erstellt einen neuen Video-Frame und fügt ihn an dem angegebenen Index einer Sammlung hinzu.
 
 ```csharp
 public IVideoFrame InsertVideoFrame(int index, float x, float y, float width, float height, 

@@ -1,6 +1,6 @@
 ---
 title: IField
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示一个字段。
 type: docs
 weight: 5570
@@ -19,10 +19,10 @@ public interface IField : ISlideComponent
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/ifield/asislidecomponent) { get; } | 允许获取基础 ISlideComponent 接口。只读 [`ISlideComponent`](../islidecomponent)。 |
+| [AsISlideComponent](../../aspose.slides/ifield/asislidecomponent) { get; } | 允许获取基本的 ISlideComponent 接口。只读 [`ISlideComponent`](../islidecomponent)。 |
 | [Type](../../aspose.slides/ifield/type) { get; set; } | 返回或设置字段的类型。读写 [`IFieldType`](../ifieldtype)。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [ISlideComponent](../islidecomponent)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

@@ -1,7 +1,7 @@
 ---
-title: 拉丁字体
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置拉丁字体信息。空值表示字体未定义，应从母版继承。可读/可写 IFontDataaspose.slides/ifontdata。
+title: LatinFont
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置拉丁字体信息。空值表示字体未定义，应从母版中继承。可读/可写 IFontDataaspose.slides/ifontdata。
 type: docs
 weight: 170
 url: /zh/aspose.slides/baseportionformat/latinfont/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/baseportionformat/latinfont/
 
 ## BasePortionFormat.LatinFont 属性
 
-返回或设置拉丁字体信息。空值表示字体未定义，应从母版继承。可读/可写 [`IFontData`](../../ifontdata)。
+返回或设置拉丁字体信息。空值表示字体未定义，应从母版中继承。可读/可写 [`IFontData`](../../ifontdata)。
 
 ```csharp
 public IFontData LatinFont { get; set; }
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [IFontData](../../ifontdata)
 * 类 [BasePortionFormat](../../baseportionformat)

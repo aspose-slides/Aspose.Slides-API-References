@@ -1,15 +1,15 @@
 ---
 title: AxesCompositionNotCombinableException
-second_title: Aspose.Sildes для .NET API Справочник
-description: Исключение, которое выбрасывается, когда состав осей серии не совместим с настоящим составом осей на графике.
+second_title: Aspose.Sildes для .NET API Справка
+description: Исключение, которое выбрасывается, когда состав осей серии несовместим с текущим составом осей в диаграмме.
 type: docs
 weight: 1080
 url: /ru/aspose.slides.charts/axescompositionnotcombinableexception/
 ---
 
-## AxesCompositionNotCombinableException класс
+## AxesCompositionNotCombinableException class
 
-Исключение, которое выбрасывается, когда состав осей серии не совместим с настоящим составом осей на графике.
+Исключение, которое выбрасывается, когда состав осей серии несовместим с текущим составом осей в диаграмме.
 
 ```csharp
 public class AxesCompositionNotCombinableException : InvalidOperationException
@@ -20,10 +20,10 @@ public class AxesCompositionNotCombinableException : InvalidOperationException
 | Имя | Описание |
 | --- | --- |
 | [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor)() | Конструктор по умолчанию. |
-| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение к данному исключению. |
-| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_2)(string, Exception) | Конструктор для исключения, содержащего сообщение и вложенное исключение. |
+| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение к этому исключению. |
+| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_2)(string, Exception) | Конструктор для исключения, содержащего сообщение и встроенное исключение. |
 
-### См. также
+### Также см. 
 
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)

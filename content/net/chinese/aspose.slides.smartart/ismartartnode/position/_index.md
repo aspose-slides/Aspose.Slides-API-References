@@ -1,7 +1,7 @@
 ---
-title: 位置
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回或设置节点在同级节点中的零基位置。可读写 Int32。
+title: Position
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置节点在兄弟节点中的零基位置。可读/写 Int32。
 type: docs
 weight: 70
 url: /zh/aspose.slides.smartart/ismartartnode/position/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.smartart/ismartartnode/position/
 
 ## ISmartArtNode.Position 属性
 
-返回或设置节点在同级节点中的零基位置。可读写 Int32。
+返回或设置节点在兄弟节点中的零基位置。可读/写 Int32。
 
 ```csharp
 public int Position { get; set; }
@@ -17,11 +17,11 @@ public int Position { get; set; }
 
 ### 异常
 
-| exception | condition |
+| 异常 | 条件 |
 | --- | --- |
-| ArgumentOutOfRangeException | 值小于 0。 -或- 值等于或大于同级节点数量。 |
+| ArgumentOutOfRangeException | 值小于 0。 -或- 值等于或大于兄弟节点数量。 |
 
-### 另请参见
+### 另见
 
 * 接口 [ISmartArtNode](../../ismartartnode)
 * 命名空间 [Aspose.Slides.SmartArt](../../ismartartnode)

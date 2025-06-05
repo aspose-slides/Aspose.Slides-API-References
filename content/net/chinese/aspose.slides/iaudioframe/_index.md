@@ -1,48 +1,48 @@
 ---
 title: IAudioFrame
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示幻灯片上的音频片段。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示幻灯片上的音频剪辑。
 type: docs
 weight: 5030
 url: /zh/aspose.slides/iaudioframe/
 ---
 
-## IAudioFrame 接口
+## IAudioFrame interface
 
-表示幻灯片上的音频片段。
+表示幻灯片上的音频剪辑。
 
 ```csharp
 public interface IAudioFrame : IPictureFrame
 ```
 
-## 属性
+## Properties
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | 允许获取基础 IPictureFrame 接口。只读 [`IPictureFrame`](../ipictureframe)。 |
-| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | 返回或设置最后一个曲目的索引。读写 Int32。 |
-| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | 返回或设置最后一个曲目的时间。读写 Int32。 |
-| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | 返回或设置起始曲目的索引。读写 Int32。 |
-| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | 返回或设置起始曲目的时间。读写 Int32。 |
-| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | 确定声音是否嵌入到演示文稿中。只读 Boolean。 |
-| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | 返回或设置嵌入的音频对象。读写 [`IAudio`](../iaudio)。 |
-| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | 指定媒体初始淡入的时间（以毫秒为单位）。读写 Single。 |
-| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | 指定媒体结束淡出的时间（以毫秒为单位）。读写 Single。 |
-| [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | 确定 AudioFrame 是否隐藏。读写 Boolean。 |
-| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | 返回或设置链接到 AudioFrame 的音频文件名称。读写 String。 |
-| [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | 确定音频是否跨幻灯片播放。读写 Boolean。 |
-| [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | 确定音频是否循环播放。读写 Boolean。 |
-| [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | 返回或设置音频播放模式。读写 [`AudioPlayModePreset`](../audioplaymodepreset)。 |
-| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | 确定音频是否在播放后自动倒回开始。读写 Boolean。 |
-| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | 指定在播放期间从媒体末尾删除的时间（以毫秒为单位）。读写 Single。 |
-| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | 指定在播放期间从媒体开头删除的时间（以毫秒为单位）。读写 Single。 |
-| [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | 返回或设置音频音量。读写 [`AudioVolumeMode`](../audiovolumemode)。 |
-| [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | 返回或设置音频音量（以百分比表示）。读写 Single。 |
+| [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | 允许获取基础的 IPictureFrame 接口。只读 [`IPictureFrame`](../ipictureframe)。 |
+| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | 返回或设置最后一个轨道索引。可读写 Int32。 |
+| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | 返回或设置最后一个轨道时间。可读写 Int32。 |
+| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | 返回或设置起始轨道索引。可读写 Int32。 |
+| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | 返回或设置起始轨道时间。可读写 Int32。 |
+| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | 确定声音是否嵌入到演示文稿中。只读布尔值。 |
+| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | 返回或设置嵌入的音频对象。可读写 [`IAudio`](../iaudio)。 |
+| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | 指定媒体初始淡入的时间持续时间（以毫秒为单位）。可读写 Single。 |
+| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | 指定媒体结束淡出的时间持续时间（以毫秒为单位）。可读写 Single。 |
+| [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | 确定 AudioFrame 是否被隐藏。可读写布尔值。 |
+| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | 返回或设置与 AudioFrame 链接的音频文件的名称。可读写字符串。 |
+| [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | 确定音频是否在幻灯片之间播放。可读写布尔值。 |
+| [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | 确定音频是否循环播放。可读写布尔值。 |
+| [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | 返回或设置音频播放模式。可读写 [`AudioPlayModePreset`](../audioplaymodepreset)。 |
+| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | 确定音频在播放后是否自动回到开始位置。可读写布尔值。 |
+| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | 指定在播放过程中从媒体末尾删除的时间持续时间（以毫秒为单位）。可读写 Single。 |
+| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | 指定在播放过程中从媒体开头删除的时间持续时间（以毫秒为单位）。可读写 Single。 |
+| [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | 返回或设置音频音量。可读写 [`AudioVolumeMode`](../audiovolumemode)。 |
+| [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | 返回或设置音频音量的百分比。可读写 Single。 |
 
-### 另见
+### See Also
 
-* 接口 [IPictureFrame](../ipictureframe)
-* 命名空间 [Aspose.Slides](../../aspose.slides)
-* 程序集 [Aspose.Slides](../../)
+* interface [IPictureFrame](../ipictureframe)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

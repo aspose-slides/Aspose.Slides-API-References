@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/ibulletformateffectivedata/isbullethardfont/
 ---
+
 ## IBulletFormatEffectiveData.IsBulletHardFont property
 
 Determines whether the bullet has own font or inherits it from the first portion in the paragraph. Returns **true** if bullet has own font and **true** if bullet inherits font from the first portion in the paragraph. Read-only Boolean.

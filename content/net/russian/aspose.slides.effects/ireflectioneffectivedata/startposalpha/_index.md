@@ -1,15 +1,15 @@
 ---
 title: StartPosAlpha
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает начальную позицию вдоль градиентной ramp альфа для начального значения альфа в процентах. Только для чтения Single.
+second_title: Aspose.Sildes для .NET API Reference
+description: Указывает начальную позицию вдоль градиентного перехода альфа значений начального альфа процента. Только для чтения Single.
 type: docs
 weight: 140
 url: /ru/aspose.slides.effects/ireflectioneffectivedata/startposalpha/
 ---
 
-## Свойство IReflectionEffectiveData.StartPosAlpha
+## IReflectionEffectiveData.StartPosAlpha property
 
-Указывает начальную позицию (вдоль градиентной ramp альфа) начального значения альфа (в процентах). Только для чтения Single.
+Указывает начальную позицию (вдоль градиентного перехода альфа) начального значения альфа (процента). Только для чтения Single.
 
 ```csharp
 public float StartPosAlpha { get; }

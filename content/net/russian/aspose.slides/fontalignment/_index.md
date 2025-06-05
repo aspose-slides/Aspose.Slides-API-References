@@ -1,13 +1,13 @@
 ---
-title: ВыравниваниеШрифта
-second_title: Aspose.Slides для .NET API Reference
+title: FontAlignment
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет вертикальное выравнивание шрифта.
 type: docs
 weight: 4610
 url: /ru/aspose.slides/fontalignment/
 ---
 
-## Перечисление FontAlignment
+## Enum FontAlignment
 
 Представляет вертикальное выравнивание шрифта.
 
@@ -17,14 +17,14 @@ public enum FontAlignment
 
 ### Значения
 
-| Название | Значение | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
-| По умолчанию | `-1` |  |
-| Автоматически | `0` |  |
-| Вверху | `1` |  |
-| В центре | `2` |  |
-| Внизу | `3` |  |
-| По базовой линии | `4` |  |
+| Default | `-1` |  |
+| Automatic | `0` |  |
+| Top | `1` |  |
+| Center | `2` |  |
+| Bottom | `3` |  |
+| Baseline | `4` |  |
 
 ### См. также
 

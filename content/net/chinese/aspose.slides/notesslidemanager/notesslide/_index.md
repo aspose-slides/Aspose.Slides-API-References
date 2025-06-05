@@ -1,7 +1,7 @@
 ---
-title: 注释幻灯片
-second_title: Aspose.Slides for .NET API 参考
-description: 返回当前幻灯片的注释幻灯片。如果幻灯片没有注释幻灯片，则返回 null。为只读 INotesSlideaspose.slides/inotesslide。
+title: NotesSlide
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回当前幻灯片的备注幻灯片。如果幻灯片没有备注幻灯片，则返回 null。只读 INotesSlideaspose.slides/inotesslide。
 type: docs
 weight: 10
 url: /zh/aspose.slides/notesslidemanager/notesslide/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/notesslidemanager/notesslide/
 
 ## NotesSlideManager.NotesSlide 属性
 
-返回当前幻灯片的注释幻灯片。如果幻灯片没有注释幻灯片，则返回 null。为只读 [`INotesSlide`](../../inotesslide)。
+返回当前幻灯片的备注幻灯片。如果幻灯片没有备注幻灯片，则返回 null。只读 [`INotesSlide`](../../inotesslide)。
 
 ```csharp
 public INotesSlide NotesSlide { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [INotesSlide](../../inotesslide)
 * 类 [NotesSlideManager](../../notesslidemanager)

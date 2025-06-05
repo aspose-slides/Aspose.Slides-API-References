@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/sectioncollection/addsection/
 ---
+
 ## SectionCollection.AddSection method
 
 Add slides section started form specific slide.

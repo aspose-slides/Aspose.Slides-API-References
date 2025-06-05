@@ -1,7 +1,7 @@
 ---
 title: Text
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft den einfachen Text für ein TextFrame ab oder legt diesen fest. Lese-/Schreibzeichenfolge.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ruft den Klartext für ein TextFrame ab oder legt ihn fest. Lese-/Schreibstring.
 type: docs
 weight: 60
 url: /de/aspose.slides/itextframe/text/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/itextframe/text/
 
 ## ITextFrame.Text-Eigenschaft
 
-Ruft den einfachen Text für ein TextFrame ab oder legt diesen fest. Lese-/Schreibzeichenfolge.
+Ruft den Klartext für ein TextFrame ab oder legt ihn fest. Lese-/Schreibstring.
 
 ```csharp
 public string Text { get; set; }

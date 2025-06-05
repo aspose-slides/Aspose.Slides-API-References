@@ -1,7 +1,7 @@
 ---
 title: SetHeaderAndChildHeadersText
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Définit le texte du champ d'en-tête de la diapositive de notes maître et de tous les champs d'en-tête enfants. Les champs enfants signifient que les espaces réservés sont contenus sur des diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maître.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Définit le texte du champ d'en-tête de la diapositive des notes maîtresses et de tous les champs d'en-tête enfants. Les champs enfants signifient que les champs sont contenus dans les diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive des notes maîtresses.
 type: docs
 weight: 60
 url: /fr/aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildhea
 
 ## IMasterNotesSlideHeaderFooterManager.SetHeaderAndChildHeadersText méthode
 
-Définit le texte du champ d'en-tête de la diapositive de notes maître et de tous les champs d'en-tête enfants. Les champs enfants signifient que les espaces réservés sont contenus sur des diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maître.
+Définit le texte du champ d'en-tête de la diapositive des notes maîtresses et de tous les champs d'en-tête enfants. Les champs enfants signifient que les champs sont contenus dans les diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive des notes maîtresses.
 
 ```csharp
 public void SetHeaderAndChildHeadersText(string text)

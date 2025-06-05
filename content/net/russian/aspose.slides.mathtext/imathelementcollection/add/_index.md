@@ -1,13 +1,13 @@
 ---
-title: Добавить
-second_title: Справка по API Aspose.Slides для .NET
+title: Add
+second_title: Aspose.Sildes для .NET API Reference
 description: Добавляет математический элемент в конец коллекции.
 type: docs
 weight: 40
 url: /ru/aspose.slides.mathtext/imathelementcollection/add/
 ---
 
-## Метод IMathElementCollection.Add
+## IMathElementCollection.Add метод
 
 Добавляет математический элемент в конец коллекции.
 
@@ -30,7 +30,7 @@ collection.Add(new MathematicalText("+"));
 collection.Add(new MathRadical(new MathematicalText("x"), new MathematicalText("3")));
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IMathElement](../../imathelement)
 * интерфейс [IMathElementCollection](../../imathelementcollection)

@@ -6,6 +6,7 @@ type: docs
 weight: 190
 url: /aspose.slides.mathtext/mathmatrix/insertrowbefore/
 ---
+
 ## MathMatrix.InsertRowBefore method
 
 Insert a new row before the specified one Initially all elements in the new row are null.

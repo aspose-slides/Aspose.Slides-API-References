@@ -25,7 +25,7 @@ public interface IBackgroundEffectiveData : IFillParamSource
 
 ### 备注
 
-该接口与 [`IBackground`](../ibackground) 接口一起使用，以返回应用继承的有效格式值。
+此接口与 [`IBackground`](../ibackground) 接口一起使用，以返回应用继承的有效格式值。
 
 ### 另请参阅
 

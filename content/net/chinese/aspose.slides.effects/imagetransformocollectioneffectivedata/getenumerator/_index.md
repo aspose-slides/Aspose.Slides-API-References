@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回一个遍历集合的枚举器。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回一个迭代集合的枚举器。
 type: docs
 weight: 80
 url: /zh/aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/imagetransformocollectioneffectivedata/getenumera
 
 ## ImageTransformOCollectionEffectiveData.GetEnumerator 方法
 
-返回一个遍历集合的枚举器。
+返回一个迭代集合的枚举器。
 
 ```csharp
 public IEnumerator<IEffectEffectiveData> GetEnumerator()
@@ -17,9 +17,9 @@ public IEnumerator<IEffectEffectiveData> GetEnumerator()
 
 ### 返回值
 
-一个可以用于遍历集合的 IEnumerator。
+一个可以用于迭代集合的 IEnumerator。
 
-### 参见
+### 另见
 
 * 接口 [IEffectEffectiveData](../../ieffecteffectivedata)
 * 类 [ImageTransformOCollectionEffectiveData](../../imagetransformocollectioneffectivedata)

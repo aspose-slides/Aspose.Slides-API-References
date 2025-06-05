@@ -1,6 +1,6 @@
 ---
-title: Contar
-second_title: Referencia de la API de Aspose.Slides para .NET
+title: Count
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el número de celdas en una colección. Solo lectura Int32.
 type: docs
 weight: 10
@@ -19,6 +19,6 @@ public int Count { get; }
 
 * clase [CellCollection](../../cellcollection)
 * espacio de nombres [Aspose.Slides](../../cellcollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

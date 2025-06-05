@@ -20,10 +20,10 @@ public static class BuildVersionInfo
 | Name | Beschreibung |
 | --- | --- |
 | const [AssemblyVersion](../../aspose.slides/buildversioninfo/assemblyversion) | Version der Aspose.Slides-Assembly. |
-| const [FileVersion](../../aspose.slides/buildversioninfo/fileversion) | Version der Assembly-Datei. |
+| const [FileVersion](../../aspose.slides/buildversioninfo/fileversion) | Version der Assembliedatei. |
 | const [Product](../../aspose.slides/buildversioninfo/product) | Produktname von Aspose.Slides |
 | const [ProductMajor](../../aspose.slides/buildversioninfo/productmajor) | Hauptversionsnummer. |
-| const [ProductMinor](../../aspose.slides/buildversioninfo/productminor) | Nebenversionnummer. |
+| const [ProductMinor](../../aspose.slides/buildversioninfo/productminor) | Nebenvversionsnummer. |
 | static readonly [ReleaseDate](../../aspose.slides/buildversioninfo/releasedate) | Veröffentlichungsdatum der Assembly. |
 
 ### Siehe auch

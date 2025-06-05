@@ -1,7 +1,7 @@
 ---
-title: 嵌入全部字体
-second_title: Aspose.Slides for .NET API 参考
-description: 确定是否应嵌入字体的所有字符或仅使用子集。 可读/写布尔值。
+title: EmbedFullFonts
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定是否应嵌入字体的所有字符或仅使用的子集。可读写布尔值。
 type: docs
 weight: 80
 url: /zh/aspose.slides.export/ipdfoptions/embedfullfonts/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/ipdfoptions/embedfullfonts/
 
 ## IPdfOptions.EmbedFullFonts 属性
 
-确定是否应嵌入字体的所有字符或仅使用子集。 可读/写布尔值。
+确定是否应嵌入字体的所有字符或仅使用的子集。可读写布尔值。
 
 ```csharp
 public bool EmbedFullFonts { get; set; }
@@ -17,7 +17,7 @@ public bool EmbedFullFonts { get; set; }
 
 ### 备注
 
-默认值是 **false**。
+默认值为 **false**。
 
 ### 另请参见
 

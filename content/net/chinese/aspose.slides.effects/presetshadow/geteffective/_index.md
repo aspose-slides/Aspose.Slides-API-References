@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides for .NET API 参考
-description: 获取应用继承的有效预设阴影效果数据。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取应用了继承的有效预设阴影效果数据。
 type: docs
 weight: 60
 url: /zh/aspose.slides.effects/presetshadow/geteffective/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/presetshadow/geteffective/
 
 ## PresetShadow.GetEffective 方法
 
-获取应用继承的有效预设阴影效果数据。
+获取应用了继承的有效预设阴影效果数据。
 
 ```csharp
 public IPresetShadowEffectiveData GetEffective()
@@ -19,7 +19,7 @@ public IPresetShadowEffectiveData GetEffective()
 
 一个 [`IPresetShadowEffectiveData`](../../ipresetshadoweffectivedata)。
 
-### 另请参阅
+### 请参见
 
 * 接口 [IPresetShadowEffectiveData](../../ipresetshadoweffectivedata)
 * 类 [PresetShadow](../../presetshadow)

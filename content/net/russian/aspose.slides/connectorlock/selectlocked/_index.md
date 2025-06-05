@@ -1,21 +1,21 @@
 ---
 title: SelectLocked
-second_title: Aspose.Slides для .NET API Reference
-description: Определяет, запрещено ли выделять эту фигуру. Читаемое/записываемое значение Boolean.
+second_title: Aspose.Slides для .NET API Справочник
+description: Определяет, запрещено ли выбирать эту форму. Читаемое/записываемое логическое значение.
 type: docs
 weight: 80
 url: /ru/aspose.slides/connectorlock/selectlocked/
 ---
 
-## Свойство ConnectorLock.SelectLocked
+## ConnectorLock.SelectLocked свойство
 
-Определяет, запрещено ли выделять эту фигуру. Читаемое/записываемое значение Boolean.
+Определяет, запрещено ли выбирать эту форму. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool SelectLocked { get; set; }
 ```
 
-### Также смотрите
+### См. Также
 
 * класс [ConnectorLock](../../connectorlock)
 * пространство имен [Aspose.Slides](../../connectorlock)

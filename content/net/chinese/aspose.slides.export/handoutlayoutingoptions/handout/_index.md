@@ -1,7 +1,7 @@
 ---
-title: 手册
-second_title: Aspose.Slides for .NET API 参考
-description: 指定在页面上将放置多少张幻灯片以及顺序HandoutTypeaspose.slides/handouttype.
+title: Handout
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定将放置在页面上的幻灯片数量及其顺序 HandoutTypeaspose.slides/handouttype.
 type: docs
 weight: 20
 url: /zh/aspose.slides.export/handoutlayoutingoptions/handout/
@@ -9,15 +9,15 @@ url: /zh/aspose.slides.export/handoutlayoutingoptions/handout/
 
 ## HandoutLayoutingOptions.Handout 属性
 
-指定在页面上将放置多少张幻灯片以及顺序 [`HandoutType`](../../handouttype).
+指定将放置在页面上的幻灯片数量及其顺序 [`HandoutType`](../../handouttype).
 
 ```csharp
 public HandoutType Handout { get; set; }
 ```
 
-### 备注
+### 注释
 
-默认值是 **HandoutType.Handouts6Horizontal**.
+默认值为 **HandoutType.Handouts6Horizontal**.
 
 ### 示例
 
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 另请参见
+### 另请参阅
 
 * enum [HandoutType](../../handouttype)
 * class [HandoutLayoutingOptions](../../handoutlayoutingoptions)

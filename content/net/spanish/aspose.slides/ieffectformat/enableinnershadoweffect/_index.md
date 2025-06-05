@@ -7,7 +7,7 @@ weight: 210
 url: /es/aspose.slides/ieffectformat/enableinnershadoweffect/
 ---
 
-## Método IEffectFormat.EnableInnerShadowEffect
+## IEffectFormat.EnableInnerShadowEffect método
 
 Habilita el efecto de sombra interna.
 
@@ -15,10 +15,10 @@ Habilita el efecto de sombra interna.
 public void EnableInnerShadowEffect()
 ```
 
-### Vea También
+### Ver También
 
 * interfaz [IEffectFormat](../../ieffectformat)
 * espacio de nombres [Aspose.Slides](../../ieffectformat)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,6 +1,6 @@
 ---
 title: ResourceLoading
-second_title: Aspose.Sildes pour .NET API Référence
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Méthode de rappel qui régule le chargement des ressources externes.
 type: docs
 weight: 10
@@ -17,11 +17,11 @@ public ResourceLoadingAction ResourceLoading(IResourceLoadingArgs args)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| args | IResourceLoadingArgs | Les données de ressource à charger [`IResourceLoadingArgs`](../../iresourceloadingargs). |
+| args | IResourceLoadingArgs | Les données de la ressource en cours de chargement [`IResourceLoadingArgs`](../../iresourceloadingargs). |
 
-### Valeur de retour
+### Valeur de Retour
 
-La décision de chargement de la ressource [`ResourceLoadingAction`](../../resourceloadingaction).
+La décision de chargement des ressources [`ResourceLoadingAction`](../../resourceloadingaction).
 
 ### Voir aussi
 

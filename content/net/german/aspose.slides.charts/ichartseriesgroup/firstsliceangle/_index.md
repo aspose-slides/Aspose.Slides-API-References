@@ -1,7 +1,7 @@
 ---
 title: FirstSliceAngle
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft den Winkel der ersten Kreis- oder Donutchartscheibe in Grad im Uhrzeigersinn von oben zwischen 0 und 360 Grad ab oder setzt ihn. Lese-/Schreibzugriff UInt16.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ruft den Winkel der ersten Torte oder Donut-Diagrammscheibe in Grad im Uhrzeigersinn von oben von 0 bis 360 Grad ab oder setzt ihn. Lese-/Schreibzugriff UInt16.
 type: docs
 weight: 50
 url: /de/aspose.slides.charts/ichartseriesgroup/firstsliceangle/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/ichartseriesgroup/firstsliceangle/
 
 ## IChartSeriesGroup.FirstSliceAngle-Eigenschaft
 
-Ruht den Winkel der ersten Kreis- oder Donutchartscheibe in Grad (im Uhrzeigersinn von oben, zwischen 0 und 360 Grad) ab oder setzt ihn. Lese-/Schreibzugriff UInt16.
+Ruft den Winkel der ersten Torte oder Donut-Diagrammscheibe in Grad (im Uhrzeigersinn von oben, von 0 bis 360 Grad) ab oder setzt ihn. Lese-/Schreibzugriff UInt16.
 
 ```csharp
 public ushort FirstSliceAngle { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IChartSeriesGroup](../../ichartseriesgroup)
 * Namespace [Aspose.Slides.Charts](../../ichartseriesgroup)

@@ -20,6 +20,6 @@ public IRow FirstRow { get; }
 * interfaz [IRow](../../irow)
 * clase [Cell](../../cell)
 * espacio de nombres [Aspose.Slides](../../cell)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

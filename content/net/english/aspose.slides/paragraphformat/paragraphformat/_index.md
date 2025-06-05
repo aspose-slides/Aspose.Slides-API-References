@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/paragraphformat/paragraphformat/
 ---
+
 ## ParagraphFormat constructor
 
 Initializes a new instance of [`ParagraphFormat`](../../paragraphformat) class.

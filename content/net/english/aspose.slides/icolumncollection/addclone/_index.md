@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/icolumncollection/addclone/
 ---
+
 ## IColumnCollection.AddClone method
 
 Creates a copy of the specified template row and inserts it at the bottom of a table.

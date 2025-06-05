@@ -15,7 +15,7 @@ url: /zh/aspose.slides.mathtext/mathaccent/getchildren/
 public IMathElement[] GetChildren()
 ```
 
-### 参见
+### 相关链接
 
 * 接口 [IMathElement](../../imathelement)
 * 类 [MathAccent](../../mathaccent)

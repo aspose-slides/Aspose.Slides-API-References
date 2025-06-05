@@ -1,7 +1,7 @@
 ---
 title: LayoutTargetType
-second_title: Aspose.Sildes for .NET API Reference
-description: 如果绘图区域的布局是手动定义的，则该属性指定是按内部布局绘图区域（不包括轴和轴标签）还是按外部布局（包括轴和轴标签）。
+second_title: Aspose.Slides for .NET API Reference
+description: 如果图表区域的布局是手动定义的，此属性指定是否按其内部布局图表区域（不包括轴和轴标签）或外部布局（包括轴和轴标签）。
 type: docs
 weight: 2190
 url: /zh/aspose.slides.charts/layouttargettype/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/layouttargettype/
 
 ## LayoutTargetType 枚举
 
-如果绘图区域的布局是手动定义的，则该属性指定是按内部布局绘图区域（不包括轴和轴标签）还是按外部布局（包括轴和轴标签）。
+如果图表区域的布局是手动定义的，此属性指定是否按其内部布局图表区域（不包括轴和轴标签）或外部布局（包括轴和轴标签）。
 
 ```csharp
 public enum LayoutTargetType
@@ -19,10 +19,10 @@ public enum LayoutTargetType
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Inner | `0` | 指定绘图区域的大小应决定绘图区域的大小，不包括刻度线和轴标签。 |
-| Outer | `1` | 指定绘图区域的大小应决定绘图区域、刻度线和轴标签的大小。 |
+| Inner | `0` | 指定图表区域的大小应决定图表区域的大小，不包括刻度线和轴标签。 |
+| Outer | `1` | 指定图表区域的大小应决定图表区域的大小、刻度线和轴标签。 |
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程序集 [Aspose.Slides](../../)

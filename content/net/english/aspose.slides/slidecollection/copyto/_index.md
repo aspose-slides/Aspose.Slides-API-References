@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/slidecollection/copyto/
 ---
+
 ## SlideCollection.CopyTo method
 
 Copies all elements from the collection to the specified array.

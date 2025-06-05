@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart/
 ---
+
 ## EmbedAllFontsHtmlController.WriteDocumentStart method
 
 Called to write html document header. Called once per presentation conversion.

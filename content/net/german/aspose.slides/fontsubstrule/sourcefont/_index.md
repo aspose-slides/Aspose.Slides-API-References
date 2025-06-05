@@ -1,7 +1,7 @@
 ---
 title: SourceFont
-second_title: Aspose.Slides für .NET API-Referenz
-description: Zu ersetzende Schriftart. Nur-Lese IFontDataaspose.slides/ifontdata.
+second_title: Aspose.Slides für .NET API Referenz
+description: Schriftart zum Ersetzen. Nur-Lese IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 40
 url: /de/aspose.slides/fontsubstrule/sourcefont/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/fontsubstrule/sourcefont/
 
 ## FontSubstRule.SourceFont-Eigenschaft
 
-Zu ersetzende Schriftart. Nur-Lese [`IFontData`](../../ifontdata).
+Schriftart zum Ersetzen. Nur-Lese [`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData SourceFont { get; }

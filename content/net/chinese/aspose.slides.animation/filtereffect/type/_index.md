@@ -1,7 +1,7 @@
 ---
-title: 类型
-second_title: Aspose.Slides for .NET API 参考
-description: 表示滤镜效果的类型。读/写 FilterEffectTypeaspose.slides.animation/filtereffecttype。
+title: Type
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示滤镜效果的类型。可读写 FilterEffectTypeaspose.slides/filtereffecttype。
 type: docs
 weight: 40
 url: /zh/aspose.slides.animation/filtereffect/type/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.animation/filtereffect/type/
 
 ## FilterEffect.Type 属性
 
-表示滤镜效果的类型。读/写 [`FilterEffectType`](../../filtereffecttype)。
+表示滤镜效果的类型。可读写 [`FilterEffectType`](../../filtereffecttype)。
 
 ```csharp
 public FilterEffectType Type { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * enum [FilterEffectType](../../filtereffecttype)
 * class [FilterEffect](../../filtereffect)

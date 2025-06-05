@@ -1,13 +1,13 @@
 ---
-title: Ítem
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Item
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Elementos de la matriz
 type: docs
 weight: 70
 url: /es/aspose.slides.mathtext/imathmatrix/item/
 ---
 
-## Indexador IMathMatrix
+## IMathMatrix indexer
 
 Elementos de la matriz
 
@@ -17,8 +17,8 @@ public IMathElement this[int row, int column] { get; set; }
 
 | Parámetro | Descripción |
 | --- | --- |
-| row | El índice basado en cero de la fila para obtener el ítem |
-| column | El índice basado en cero de la columna para obtener el ítem |
+| row | El índice basado en cero de la fila para obtener el elemento |
+| column | El índice basado en cero de la columna para obtener el elemento |
 
 ### Ejemplos
 

@@ -1,21 +1,21 @@
 ---
 title: GetChildren
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtenir des éléments enfants
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Obtenir les éléments enfants
 type: docs
 weight: 60
 url: /fr/aspose.slides.mathtext/imathelement/getchildren/
 ---
 
-## Méthode IMathElement.GetChildren
+## IMathElement.GetChildren méthode
 
-Obtenir des éléments enfants
+Obtenir les éléments enfants
 
 ```csharp
 public IMathElement[] GetChildren()
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathElement](../../imathelement)
 * namespace [Aspose.Slides.MathText](../../imathelement)

@@ -1,6 +1,6 @@
 ---
 title: SlideSize
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie un objet de taille de diapositive. Lecture seule ISlideSizeaspose.slides/islidesize.
 type: docs
 weight: 250
@@ -15,7 +15,7 @@ Renvoie un objet de taille de diapositive. Lecture seule [`ISlideSize`](../../is
 public ISlideSize SlideSize { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ISlideSize](../../islidesize)
 * interface [IPresentation](../../ipresentation)

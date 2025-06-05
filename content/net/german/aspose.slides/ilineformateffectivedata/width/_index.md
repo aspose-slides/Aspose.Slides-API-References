@@ -1,7 +1,7 @@
 ---
-title: Breite
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Breite einer Linie zurück. Nur-Lese Double.
+title: Width
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt die Breite einer Linie zurück. Nur-lesbare Double.
 type: docs
 weight: 170
 url: /de/aspose.slides/ilineformateffectivedata/width/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ilineformateffectivedata/width/
 
 ## ILineFormatEffectiveData.Width-Eigenschaft
 
-Gibt die Breite einer Linie zurück. Nur-Lese Double.
+Gibt die Breite einer Linie zurück. Nur-lesbare Double.
 
 ```csharp
 public double Width { get; }

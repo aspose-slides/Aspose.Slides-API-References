@@ -1,7 +1,7 @@
 ---
 title: ReplaceRegex
-second_title: Aspose.Slides для .NET API Справочник
-description: Заменяет все совпадения регулярного выражения на указанную строку.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Заменяет все совпадения регулярного выражения на заданную строку.
 type: docs
 weight: 350
 url: /ru/aspose.slides/ipresentation/replaceregex/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ipresentation/replaceregex/
 
 ## IPresentation.ReplaceRegex метод
 
-Заменяет все совпадения регулярного выражения на указанную строку.
+Заменяет все совпадения регулярного выражения на заданную строку.
 
 ```csharp
 public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callback)
@@ -17,26 +17,26 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| regex | Regex | Регулярное выражение Regex для получения строк, которые необходимо заменить. |
-| newText | String | Строка для замены всех вхождений строк, которые необходимо заменить. |
+| regex | Regex | Регулярное выражение Regex для получения строк для замены. |
+| newText | String | Строка для замены всех вхождений строк, подлежащих замене. |
 | callback | IFindResultCallback | Объект обратного вызова для получения результатов поиска [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Примеры
 
-Следующий фрагмент кода показывает, как заменить текст с использованием регулярного выражения на указанную строку.
+Следующий фрагмент кода показывает, как заменить текст с использованием регулярного выражения на заданную строку.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// Заменить все слова с 10 или более символами на '***'
+	// Заменить все слова длиной 10 и более символов на '***'
 	presentation.ReplaceRegex(regex, "***", null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Смотрите также
+### См. Также
 
 * интерфейс [IFindResultCallback](../../ifindresultcallback)
 * интерфейс [IPresentation](../../ipresentation)

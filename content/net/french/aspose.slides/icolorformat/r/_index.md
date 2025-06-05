@@ -1,6 +1,6 @@
 ---
 title: R
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Renvoie ou définit le composant rouge d'une couleur. Toutes les transformations de couleur sont ignorées. Lecture/écriture Byte.
 type: docs
 weight: 130
@@ -18,7 +18,7 @@ public byte R { get; set; }
 ### Voir aussi
 
 * interface [IColorFormat](../../icolorformat)
-* namespace [Aspose.Slides](../../icolorformat)
+* espace de noms [Aspose.Slides](../../icolorformat)
 * assembly [Aspose.Slides](../../../)
 
 <!-- NE PAS MODIFIER : généré par xmldocmd pour Aspose.Slides.dll -->

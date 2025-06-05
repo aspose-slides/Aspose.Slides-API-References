@@ -1,6 +1,6 @@
 ---
-title: 返回操作
-second_title: Aspose.Slides for .NET API 参考
+title: ReturnAction
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示警告回调决策选项。
 type: docs
 weight: 11510
@@ -22,7 +22,7 @@ public enum ReturnAction
 | Continue | `0` | 操作应继续进行。 |
 | Abort | `1` | 操作应被中止。 |
 
-### 另见
+### 参见
 
 * 命名空间 [Aspose.Slides.Warnings](../../aspose.slides.warnings)
 * 程序集 [Aspose.Slides](../../)

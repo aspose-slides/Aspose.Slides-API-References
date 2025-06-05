@@ -1,15 +1,15 @@
 ---
 title: IsHidden
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve verdadero si este nodo es un nodo oculto en el modelo de datos. Solo lectura, Booleano.
+second_title: Aspose.Slides para .NET API Reference
+description: Devuelve verdadero si este nodo es un nodo oculto en el modelo de datos. Solo lectura Boolean.
 type: docs
 weight: 40
 url: /es/aspose.slides.smartart/smartartnode/ishidden/
 ---
 
-## Propiedad SmartArtNode.IsHidden
+## SmartArtNode.IsHidden propiedad
 
-Devuelve verdadero si este nodo es un nodo oculto en el modelo de datos. Solo lectura, Booleano.
+Devuelve verdadero si este nodo es un nodo oculto en el modelo de datos. Solo lectura Boolean.
 
 ```csharp
 public bool IsHidden { get; }
@@ -18,7 +18,7 @@ public bool IsHidden { get; }
 ### Ver También
 
 * clase [SmartArtNode](../../smartartnode)
-* namespace [Aspose.Slides.SmartArt](../../smartartnode)
-* ensamblado [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides.SmartArt](../../smartartnode)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

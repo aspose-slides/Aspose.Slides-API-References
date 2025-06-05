@@ -1,6 +1,6 @@
 ---
-title: 创建数学下标元素
-second_title: Aspose.Slides for .NET API 参考
+title: CreateMathSubscriptElement
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建 IMathSubscriptElement
 type: docs
 weight: 10
@@ -18,14 +18,14 @@ public IMathSubscriptElement CreateMathSubscriptElement(IMathElement baseArg,
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| baseArg | IMathElement | 应用下标的基参数 |
+| baseArg | IMathElement | 应用下标的基础参数 |
 | subScript | IMathElement | 右下索引 |
 
 ### 返回值
 
 新的 IMathSubscriptElement
 
-### 参见
+### 另请参见
 
 * 接口 [IMathSubscriptElement](../../imathsubscriptelement)
 * 接口 [IMathElement](../../imathelement)

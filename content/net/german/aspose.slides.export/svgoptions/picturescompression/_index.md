@@ -1,7 +1,7 @@
 ---
-title: Bilderkompression
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt das Kompressionslevel von Bildern dar
+title: PicturesCompression
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt das Kompressionsniveau der Bilder dar
 type: docs
 weight: 140
 url: /de/aspose.slides.export/svgoptions/picturescompression/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/svgoptions/picturescompression/
 
 ## SVGOptions.PicturesCompression-Eigenschaft
 
-Stellt das Kompressionslevel von Bildern dar
+Stellt das Kompressionsniveau der Bilder dar
 
 ```csharp
 public PicturesCompression PicturesCompression { get; set; }

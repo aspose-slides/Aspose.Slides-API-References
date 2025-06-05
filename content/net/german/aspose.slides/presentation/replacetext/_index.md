@@ -7,7 +7,7 @@ weight: 370
 url: /de/aspose.slides/presentation/replacetext/
 ---
 
-## Presentation.ReplaceText Methode
+## Presentation.ReplaceText-Methode
 
 Ersetzt alle Vorkommen des angegebenen Textes durch einen anderen angegebenen Text.
 
@@ -19,7 +19,7 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | oldText | String | Der zu ersetzende String. |
-| newText | String | Der String, um alle Vorkommen von oldText zu ersetzen. |
+| newText | String | Der String, der alle Vorkommen von oldText ersetzen soll. |
 | options | ITextSearchOptions | Textsuchoptionen [`ITextSearchOptions`](../../itextsearchoptions). |
 | callback | IFindResultCallback | Das Callback-Objekt zum Empfangen von Suchergebnissen [`IFindResultCallback`](../../ifindresultcallback). |
 
@@ -31,13 +31,13 @@ Der folgende Beispielcode zeigt, wie man einen angegebenen String durch einen an
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// Ersetze alle separaten 'the' Vorkommen durch '***'
+	// Ersetze alle einzelnen 'the'-Vorkommen durch '***'
 	presentation.ReplaceText("the", "***", new TextSearchOptions() {WholeWordsOnly = true}, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * interface [ITextSearchOptions](../../itextsearchoptions)
 * interface [IFindResultCallback](../../ifindresultcallback)

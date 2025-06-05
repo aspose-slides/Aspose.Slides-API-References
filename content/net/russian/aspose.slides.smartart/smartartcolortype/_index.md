@@ -1,7 +1,7 @@
 ---
 title: SmartArtColorType
-second_title: Aspose.Slides для .NET Справочник по API
-description: Представляет цветовую схемы диаграммы SmartArt.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет цветовую схему диаграммы SmartArt.
 type: docs
 weight: 10300
 url: /ru/aspose.slides.smartart/smartartcolortype/
@@ -58,7 +58,7 @@ public enum SmartArtColorType
 | GradientLoopAccent6 | `36` | GradientLoopAccent6 |
 | TransparentGradientRangeAccent6 | `37` | TransparentGradientRangeAccent6 |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides.SmartArt](../../aspose.slides.smartart)
 * сборка [Aspose.Slides](../../)

@@ -1,6 +1,6 @@
 ---
 title: OOXMLCorruptFileException
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 默认构造函数。
 type: docs
 weight: 10
@@ -31,8 +31,8 @@ public OOXMLCorruptFileException()
 public OOXMLCorruptFileException(string message)
 ```
 
-| 参数      | 类型        | 描述     |
-| ----------- | ----------- | -------- |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
 | message | String | 消息 |
 
 ### 另见
@@ -45,14 +45,14 @@ public OOXMLCorruptFileException(string message)
 
 ## OOXMLCorruptFileException(string, Exception) {#constructor_2}
 
-包含消息和嵌套异常的异常的构造函数。
+包含消息和嵌入异常的构造函数。
 
 ```csharp
 public OOXMLCorruptFileException(string message, Exception exception)
 ```
 
-| 参数      | 类型        | 描述          |
-| ----------- | ----------- | --------------- |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
 | message | String | 消息 |
 | exception | Exception | 原始异常 |
 

@@ -1,28 +1,28 @@
 ---
-title: Сохранить
-second_title: Справочник по API Aspose.Slides для .NET
-description: Сохраняет выходной файл по заданному пути.
+title: Save
+second_title: Aspose.Sildes для .NET API Справочник
+description: Сохраняет выходной файл в указанном пути.
 type: docs
 weight: 10
 url: /ru/aspose.slides.export.web/ioutputsaver/save/
 ---
 
-## Метод IOutputSaver.Save
+## IOutputSaver.Save метод
 
-Сохраняет выходной файл по заданному пути.
+Сохраняет выходной файл в указанном пути.
 
 ```csharp
 public void Save(string path, IOutputFile outputFile)
 ```
 
-| Параметр | Тип      | Описание                     |
-| ---      | ---      | ---                          |
-| path     | String   | Путь для сохранения файла.   |
-| outputFile | IOutputFile | Выходной файл.          |
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| path | String | Путь для сохранения файла. |
+| outputFile | IOutputFile | Выходной файл. |
 
 ### Примеры
 
-Пример сохранения в реализации FileStream:
+Пример реализации сохранения в FileStream:
 
 ```csharp
 [C#]
@@ -35,7 +35,7 @@ public void Save(string path, IOutputFile outputFile)
 }
 ```
 
-### См. также
+### Смотрите Также
 
 * интерфейс [IOutputFile](../../ioutputfile)
 * интерфейс [IOutputSaver](../../ioutputsaver)

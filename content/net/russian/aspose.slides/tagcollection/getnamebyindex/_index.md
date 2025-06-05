@@ -1,13 +1,13 @@
 ---
 title: GetNameByIndex
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает ключ тега по указанному индексу.
 type: docs
 weight: 100
 url: /ru/aspose.slides/tagcollection/getnamebyindex/
 ---
 
-## Метод TagCollection.GetNameByIndex
+## TagCollection.GetNameByIndex метод
 
 Возвращает ключ тега по указанному индексу.
 
@@ -17,7 +17,7 @@ public string GetNameByIndex(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс тега для возврата. |
+| index | Int32 | Индекс тега, который нужно вернуть. |
 
 ### Возвращаемое значение
 

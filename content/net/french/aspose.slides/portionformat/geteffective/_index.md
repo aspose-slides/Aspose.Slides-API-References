@@ -1,27 +1,27 @@
 ---
 title: GetEffective
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient des données de formatage de portion effectif avec l'héritage appliqué.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Obtient les données de formatage de portion effectif avec l'héritage appliqué.
 type: docs
 weight: 70
 url: /fr/aspose.slides/portionformat/geteffective/
 ---
 
-## Méthode PortionFormat.GetEffective
+## PortionFormat.GetEffective méthode
 
-Obtient des données de formatage de portion effectif avec l'héritage appliqué.
+Obtient les données de formatage de portion effectif avec l'héritage appliqué.
 
 ```csharp
 public IPortionFormatEffectiveData GetEffective()
 ```
 
-### Valeur de Retour
+### Valeur de retour
 
 Un [`IPortionFormatEffectiveData`](../../iportionformateffectivedata).
 
 ### Exemples
 
-Cet exemple montre comment obtenir certaines propriétés de format de portion effectif.
+Cet exemple démontre l'obtention de certaines propriétés de format de portion effectif.
 
 ```csharp
 [C#]
@@ -30,16 +30,16 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 	IAutoShape shape = pres.Slides[0].Shapes[0] as IAutoShape;
 	IPortionFormatEffectiveData effectivePortionFormat = shape.TextFrame.Paragraphs[0].Portions[0].PortionFormat.GetEffective();
 
-	Console.WriteLine("Police latine: " + effectivePortionFormat.LatinFont.FontName);
-	Console.WriteLine("Hauteur de police: " + effectivePortionFormat.FontHeight);
-	Console.WriteLine("Type de remplissage: " + effectivePortionFormat.FillFormat.FillType);
+	Console.WriteLine("Police latine : " + effectivePortionFormat.LatinFont.FontName);
+	Console.WriteLine("Hauteur de police : " + effectivePortionFormat.FontHeight);
+	Console.WriteLine("Type de remplissage : " + effectivePortionFormat.FillFormat.FillType);
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IPortionFormatEffectiveData](../../iportionformateffectivedata)
-* class [PortionFormat](../../portionformat)
+* classe [PortionFormat](../../portionformat)
 * namespace [Aspose.Slides](../../portionformat)
 * assembly [Aspose.Slides](../../../)
 

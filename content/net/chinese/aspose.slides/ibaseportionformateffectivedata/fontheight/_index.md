@@ -1,6 +1,6 @@
 ---
-title: 字体高度
-second_title: Aspose.Sildes for .NET API 参考
+title: FontHeight
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回部分的字体高度。只读 Single。
 type: docs
 weight: 80
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ibaseportionformateffectivedata/fontheight/
 public float FontHeight { get; }
 ```
 
-### 另请参见
+### 参考
 
 * 接口 [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
 * 命名空间 [Aspose.Slides](../../ibaseportionformateffectivedata)

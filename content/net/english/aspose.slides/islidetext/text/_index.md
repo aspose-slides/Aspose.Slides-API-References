@@ -3,9 +3,10 @@ title: Text
 second_title: Aspose.Sildes for .NET API Reference
 description: The text on the slides shapes
 type: docs
-weight: 40
+weight: 50
 url: /aspose.slides/islidetext/text/
 ---
+
 ## ISlideText.Text property
 
 The text on the slide's shapes

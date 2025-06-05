@@ -1,7 +1,7 @@
 ---
 title: DisableFontLigatures
-second_title: Aspose.Slides for .NET API Reference
-description: 获取或设置一个值，以指示文本是否在渲染时不使用连字。当设置为 true 时，连字将在渲染输出中禁用。默认情况下，此属性设置为 false。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取或设置一个值，指示文本是否不使用连字进行渲染。当设置为 true 时，渲染输出中将禁用连字。默认情况下，此属性设置为 false。
 type: docs
 weight: 30
 url: /zh/aspose.slides.export/htmloptions/disablefontligatures/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/htmloptions/disablefontligatures/
 
 ## HtmlOptions.DisableFontLigatures 属性
 
-获取或设置一个值，以指示文本是否在渲染时不使用连字。当设置为 `true` 时，连字将在渲染输出中禁用。默认情况下，此属性设置为 `false`。
+获取或设置一个值，指示文本是否不使用连字进行渲染。当设置为 `true` 时，渲染输出中将禁用连字。默认情况下，此属性设置为 `false`。
 
 ```csharp
 public bool DisableFontLigatures { get; set; }
@@ -17,7 +17,7 @@ public bool DisableFontLigatures { get; set; }
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -25,14 +25,14 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     HtmlOptions options = new HtmlOptions
     {
-        DisableFontLigatures = true // 禁用文本渲染中的连字
+        DisableFontLigatures = true // 在文本渲染中禁用连字
     };
     
     pres.Save(outputSlidePath, SaveFormat.Html, options);
 }
 ```
 
-### 另请参见
+### 另见
 
 * class [HtmlOptions](../../htmloptions)
 * namespace [Aspose.Slides.Export](../../htmloptions)

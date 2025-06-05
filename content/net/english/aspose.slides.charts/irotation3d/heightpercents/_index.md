@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/irotation3d/heightpercents/
 ---
+
 ## IRotation3D.HeightPercents property
 
 Specifies the height of a 3-D chart as a percentage of the chart width (between 5 and 500 percent). Read/write UInt16.

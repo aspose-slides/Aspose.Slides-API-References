@@ -1,7 +1,7 @@
 ---
 title: ColorSource
-second_title: Aspose.Slides pour .NET Référence API
-description: Représente la source de couleur d'hyperlien - soit des styles, soit un format de portion. Lecture/écriture HyperlinkColorSourceaspose.slides/hyperlinkcolorsource.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Représente la source de couleur du lien hypertexte - soit des styles, soit un format de portion. Lecture/écriture HyperlinkColorSourceaspose.slides/hyperlinkcolorsource.
 type: docs
 weight: 110
 url: /fr/aspose.slides/hyperlink/colorsource/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/hyperlink/colorsource/
 
 ## Propriété Hyperlink.ColorSource
 
-Représente la source de couleur d'hyperlien - soit des styles, soit un format de portion. Lecture/écriture [`HyperlinkColorSource`](../../hyperlinkcolorsource).
+Représente la source de couleur du lien hypertexte - soit des styles, soit un format de portion. Lecture/écriture [`HyperlinkColorSource`](../../hyperlinkcolorsource).
 
 ```csharp
 public HyperlinkColorSource ColorSource { get; set; }

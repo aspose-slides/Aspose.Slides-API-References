@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.export.web/templatecontext-1/object/
 ---
+
 ## TemplateContext&lt;TObject&gt;.Object property
 
 Returns the model object. Read-only !:TObject.

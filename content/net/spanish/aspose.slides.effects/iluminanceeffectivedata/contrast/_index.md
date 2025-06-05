@@ -1,21 +1,21 @@
 ---
-title: Contraste
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Contraste. Solo lectura de tipo Single.
+title: Contrast
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Contraste. Solo lectura Single.
 type: docs
 weight: 30
 url: /es/aspose.slides.effects/iluminanceeffectivedata/contrast/
 ---
 
-## Propiedad ILuminanceEffectiveData.Contrast
+## ILuminanceEffectiveData.Contrast property
 
-Contraste. Solo lectura de tipo Single.
+Contraste. Solo lectura Single.
 
 ```csharp
 public float Contrast { get; }
 ```
 
-### Vea También
+### Ver También
 
 * interfaz [ILuminanceEffectiveData](../../iluminanceeffectivedata)
 * espacio de nombres [Aspose.Slides.Effects](../../iluminanceeffectivedata)

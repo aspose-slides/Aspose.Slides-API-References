@@ -1,6 +1,6 @@
 ---
 title: HeadingPair
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente une propriété de paire de titres du document. Elle indique le nom du groupe des parties du document et le nombre de parties dans le groupe.
 type: docs
 weight: 4910

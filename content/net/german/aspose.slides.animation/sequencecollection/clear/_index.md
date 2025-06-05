@@ -1,6 +1,6 @@
 ---
-title: Löschen
-second_title: Aspose.Slides für .NET API-Referenz
+title: Clear
+second_title: Aspose.Sildes für .NET API Referenz
 description: Entfernt alle Sequenzen aus einer Sammlung.
 type: docs
 weight: 40

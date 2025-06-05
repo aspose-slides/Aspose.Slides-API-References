@@ -3,9 +3,10 @@ title: IFontSubstRuleCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents collection of fonts substitution.
 type: docs
-weight: 5490
+weight: 5690
 url: /aspose.slides/ifontsubstrulecollection/
 ---
+
 ## IFontSubstRuleCollection interface
 
 Represents collection of fonts substitution.

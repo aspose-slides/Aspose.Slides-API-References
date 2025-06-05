@@ -1,15 +1,15 @@
 ---
-title: 发光
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示一种发光效果，其中一个颜色模糊的轮廓添加到对象的边缘外部。
+title: Glow
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示一种辉光效果，在对象边缘外添加了模糊色彩的轮廓。
 type: docs
 weight: 2890
 url: /zh/aspose.slides.effects/glow/
 ---
 
-## Glow 类
+## Glow class
 
-表示一种发光效果，其中一个颜色模糊的轮廓添加到对象的边缘外部。
+表示一种辉光效果，在对象边缘外添加了模糊色彩的轮廓。
 
 ```csharp
 public sealed class Glow : IGlow
@@ -20,17 +20,17 @@ public sealed class Glow : IGlow
 | 名称 | 描述 |
 | --- | --- |
 | [Color](../../aspose.slides.effects/glow/color) { get; } | 颜色格式。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [Radius](../../aspose.slides.effects/glow/radius) { get; set; } | 半径。读/写的 Double。 |
+| [Radius](../../aspose.slides.effects/glow/radius) { get; set; } | 半径。可读写 Double。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/glow/equals)(object) | 确定指定的 [`Glow`](../glow) 是否等于当前的 [`Glow`](../glow)。 |
-| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | 获取应用继承的有效发光效果数据。 |
+| override [Equals](../../aspose.slides.effects/glow/equals)(object) | 确定指定的 [`Glow`](../glow) 是否等于当前 [`Glow`](../glow)。 |
+| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | 获取应用继承的有效辉光效果数据。 |
 | override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | 作为特定类型的哈希函数。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IGlow](../iglow)
 * 命名空间 [Aspose.Slides.Effects](../../aspose.slides.effects)

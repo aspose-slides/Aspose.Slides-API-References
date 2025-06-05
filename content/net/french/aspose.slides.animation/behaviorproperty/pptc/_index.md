@@ -1,6 +1,6 @@
 ---
 title: PptC
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente la propriété ppt_c
 type: docs
 weight: 510

@@ -1,7 +1,7 @@
 ---
 title: AxisBetweenCategories
 second_title: Aspose.Slides für .NET API-Referenz
-description: Repräsentiert, ob die Wertachse die Kategoriewachse zwischen den Kategorien schneidet. Diese Eigenschaft gilt nur für Kategoriewachsen und nicht für 3-D-Diagramme. Lese-/Schreib-Boolescher Wert.
+description: Stellt dar, ob die werteachse die kategorieachse zwischen den Kategorien schneidet. Diese Eigenschaft gilt nur für Kategorienachsen und nicht für 3-D-Diagramme. Lese-/Schreib-Boolean.
 type: docs
 weight: 90
 url: /de/aspose.slides.charts/iaxis/axisbetweencategories/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/iaxis/axisbetweencategories/
 
 ## IAxis.AxisBetweenCategories-Eigenschaft
 
-Repräsentiert, ob die Wertachse die Kategoriewachse zwischen den Kategorien schneidet. Diese Eigenschaft gilt nur für Kategoriewachsen und nicht für 3-D-Diagramme. Lese-/Schreib-Boolescher Wert.
+Stellt dar, ob die werteachse die kategorieachse zwischen den Kategorien schneidet. Diese Eigenschaft gilt nur für Kategorienachsen und nicht für 3-D-Diagramme. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool AxisBetweenCategories { get; set; }

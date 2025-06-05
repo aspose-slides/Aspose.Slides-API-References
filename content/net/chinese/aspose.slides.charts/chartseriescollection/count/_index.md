@@ -1,7 +1,7 @@
 ---
-title: 计数
-second_title: Aspose.Slides for .NET API 参考
-description: 返回集合中的对象数量。唯读 Int32。
+title: Count
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回集合中的对象数量。只读 Int32。
 type: docs
 weight: 10
 url: /zh/aspose.slides.charts/chartseriescollection/count/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/chartseriescollection/count/
 
 ## ChartSeriesCollection.Count 属性
 
-返回集合中的对象数量。唯读 Int32。
+返回集合中的对象数量。只读 Int32。
 
 ```csharp
 public int Count { get; }
 ```
 
-### 另见
+### 参见
 
 * 类 [ChartSeriesCollection](../../chartseriescollection)
 * 命名空间 [Aspose.Slides.Charts](../../chartseriescollection)

@@ -1,15 +1,15 @@
 ---
 title: CalcMode
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает режим интерполяции для анимации. Свойство с доступом на чтение/запись PropertyCalcModeTypeaspose.slides/propertycalcmodetype.
+second_title: Aspose.Slides для .NET API Справочник
+description: Указывает режим интерполяции для анимации Читаемое/Записываемое свойство PropertyCalcModeType aspose.slides.animation/propertycalcmodetype.
 type: docs
 weight: 30
 url: /ru/aspose.slides.animation/ipropertyeffect/calcmode/
 ---
 
-## Свойство IPropertyEffect.CalcMode
+## IPropertyEffect.CalcMode свойство
 
-Указывает режим интерполяции для анимации. Свойство с доступом на чтение/запись [`PropertyCalcModeType`](../../propertycalcmodetype).
+Указывает режим интерполяции для анимации Читаемое/Записываемое [`PropertyCalcModeType`](../../propertycalcmodetype).
 
 ```csharp
 public PropertyCalcModeType CalcMode { get; set; }

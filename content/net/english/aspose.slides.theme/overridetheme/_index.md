@@ -3,9 +3,10 @@ title: OverrideTheme
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a overriding theme.
 type: docs
-weight: 10810
+weight: 11150
 url: /aspose.slides.theme/overridetheme/
 ---
+
 ## OverrideTheme class
 
 Represents a overriding theme.

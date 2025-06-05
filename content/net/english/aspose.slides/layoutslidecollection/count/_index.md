@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/layoutslidecollection/count/
 ---
+
 ## LayoutSlideCollection.Count property
 
 Returns the number of layout slides in a collection. Read-only Int32.

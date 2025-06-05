@@ -1,6 +1,6 @@
 ---
 title: InsertOleObjectFrame
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Aspose.Sildes pour .NET Référence API
 description: Crée un nouvel objet OLE et l'insère dans une collection à l'index spécifié.
 type: docs
 weight: 300
@@ -18,14 +18,14 @@ public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float w
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | L'index basé sur zéro à laquelle l'objet OLE doit être inséré. |
+| index | Int32 | L'index basé sur zéro auquel l'objet OLE doit être inséré. |
 | x | Single | Coordonnée X d'un nouveau cadre OLE. |
 | y | Single | Coordonnée Y d'un nouveau cadre OLE. |
 | width | Single | Largeur d'un nouveau cadre OLE. |
 | height | Single | Hauteur d'un nouveau cadre OLE. |
 | dataInfo | IOleEmbeddedDataInfo | Informations sur les données intégrées [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |
 
-### Valeur de Retour
+### Valeur de retour
 
 Objet OLE créé.
 
@@ -50,7 +50,7 @@ public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float w
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | L'index basé sur zéro à laquelle l'objet OLE doit être inséré. |
+| index | Int32 | L'index basé sur zéro auquel l'objet OLE doit être inséré. |
 | x | Single | Coordonnée X d'un nouveau cadre OLE. |
 | y | Single | Coordonnée Y d'un nouveau cadre OLE. |
 | width | Single | Largeur d'un nouveau cadre OLE. |
@@ -58,7 +58,7 @@ public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float w
 | className | String | Nom d'une classe OLE. |
 | path | String | Chemin vers le fichier lié. |
 
-### Valeur de Retour
+### Valeur de retour
 
 Objet OLE créé.
 

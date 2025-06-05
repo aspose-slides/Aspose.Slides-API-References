@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/itextframeformateffectivedata/marginleft/
 ---
+
 ## ITextFrameFormatEffectiveData.MarginLeft property
 
 Returns the left margin (points) in a TextFrame. Read-only Double.

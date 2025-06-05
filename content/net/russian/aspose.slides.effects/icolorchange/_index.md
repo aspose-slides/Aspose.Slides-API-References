@@ -1,6 +1,6 @@
 ---
 title: IColorChange
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет эффект изменения цвета. Экземпляры FromColor заменяются экземплярами ToColor.
 type: docs
 weight: 3100
@@ -22,7 +22,7 @@ public interface IColorChange : IAccessiblePVIObject<IColorChangeEffectiveData>,
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorchange/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/icolorchange/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../iimagetransformoperation). |
-| [FromColor](../../aspose.slides.effects/icolorchange/fromcolor) { get; } | Цвет, который будет заменён. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [FromColor](../../aspose.slides.effects/icolorchange/fromcolor) { get; } | Цвет, который будет заменен. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [ToColor](../../aspose.slides.effects/icolorchange/tocolor) { get; } | Цвет, который заменит. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### См. также

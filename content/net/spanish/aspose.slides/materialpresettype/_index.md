@@ -1,6 +1,6 @@
 ---
 title: MaterialPresetType
-second_title: Aspose.Sildes para .NET Referencia de API
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Constantes que definen el material de la forma.
 type: docs
 weight: 7810
@@ -36,7 +36,7 @@ public enum MaterialPresetType
 | TranslucentPowder | `13` |  |
 | WarmMatte | `14` |  |
 
-### También Vea
+### Ver También
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

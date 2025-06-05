@@ -1,7 +1,7 @@
 ---
 title: TileScaleX
-second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает или устанавливает горизонтальный масштаб для текстурного заполнения в процентах. Чтение/запись Single.
+second_title: Aspose.Sildes для справки по API .NET
+description: Возвращает или устанавливает горизонтальный масштаб для заливки текстурой в процентах. Читаемое/записываемое значение типа Single.
 type: docs
 weight: 160
 url: /ru/aspose.slides/picturefillformat/tilescalex/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/picturefillformat/tilescalex/
 
 ## PictureFillFormat.TileScaleX свойство
 
-Возвращает или устанавливает горизонтальный масштаб для текстурного заполнения в процентах. Чтение/запись Single.
+Возвращает или устанавливает горизонтальный масштаб для заливки текстурой в процентах. Читаемое/записываемое значение типа Single.
 
 ```csharp
 public float TileScaleX { get; set; }
@@ -23,18 +23,18 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 {
     ISlide slide = presentation.Slides[0];
 
-    // Получает формат заполнения картинки формы
+    // Получает формат заливки изображения фигуры
     IPictureFillFormat pictureFillFormat = slide.Shapes[0].FillFormat.PictureFillFormat;
 
-    // Устанавливает режим заполнения картинки на Плитка
+    // Устанавливает режим заливки изображения на Плитка
     pictureFillFormat.PictureFillMode = PictureFillMode.Tile;
 
-    // Устанавливает горизонтальный масштаб текстуры на 120 процентов
+    // Устанавливает горизонтальный масштаб для текстуры на 120 процентов
     pictureFillFormat.TileScaleX = 120;
 }
 ```
 
-### Смотрите также
+### См. Также
 
 * класс [PictureFillFormat](../../picturefillformat)
 * пространство имен [Aspose.Slides](../../picturefillformat)

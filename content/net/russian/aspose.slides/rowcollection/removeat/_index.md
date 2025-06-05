@@ -1,6 +1,6 @@
 ---
 title: RemoveAt
-second_title: Aspose.Sildes для справочника API .NET
+second_title: Aspose.Sildes для справки по API .NET
 description: Удаляет строку по указанной позиции из таблицы.
 type: docs
 weight: 90
@@ -18,7 +18,7 @@ public void RemoveAt(int firstRowIndex, bool withAttachedRows)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | firstRowIndex | Int32 | Индекс строки для удаления. |
-| withAttachedRows | Boolean | True для удаления также всех прикрепленных строк. |
+| withAttachedRows | Boolean | True для удаления также всех связанных строк. |
 
 ### См. также
 

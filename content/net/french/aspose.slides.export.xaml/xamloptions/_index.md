@@ -1,7 +1,7 @@
 ---
 title: XamlOptions
-second_title: Référence API Aspose.Slides pour .NET
-description: Options qui contrôlent comment un document XAML est enregistré.
+second_title: Aspose.Slides pour la référence API .NET
+description: Options qui contrôlent la façon dont un document XAML est enregistré.
 type: docs
 weight: 4530
 url: /fr/aspose.slides.export.xaml/xamloptions/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export.xaml/xamloptions/
 
 ## Classe XamlOptions
 
-Options qui contrôlent comment un document XAML est enregistré.
+Options qui contrôlent la façon dont un document XAML est enregistré.
 
 ```csharp
 public class XamlOptions : SaveOptions, IXamlOptions
@@ -19,19 +19,19 @@ public class XamlOptions : SaveOptions, IXamlOptions
 
 | Nom | Description |
 | --- | --- |
-| [XamlOptions](xamloptions)() | Crée une instance de XamlOptions. |
+| [XamlOptions](xamloptions)() | Crée l'instance XamlOptions. |
 
 ## Propriétés
 
 | Nom | Description |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Retourne ou définit la police utilisée en cas de non-découverte de la police source. Lecture-écriture String. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Renvoie ou définit la police utilisée en cas de non-recherche de la police source. Chaîne en lecture-écriture. |
 | [ExportHiddenSlides](../../aspose.slides.export.xaml/xamloptions/exporthiddenslides) { get; set; } | Détermine si les diapositives cachées seront exportées. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Retourne ou définit le style visuel du dégradé. Lecture/écriture [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Renvoie ou définit le style visuel du dégradé. Lecture/écriture [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [OutputSaver](../../aspose.slides.export.xaml/xamloptions/outputsaver) { get; set; } | Représente une implémentation de l'interface IOutputSaver. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Représente un objet de rappel pour enregistrer les mises à jour de progrès en pourcentage. Voir [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Spécifie s'il faut ignorer les hyperliens avec des appels JavaScript lors de l'enregistrement de la présentation. Lecture/écriture Booléen. La valeur par défaut est **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Retourne ou définit un objet qui reçoit des avertissements et décide si le processus de chargement doit continuer ou être annulé. Lecture/écriture [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Représente un objet de rappel pour les mises à jour de progression en pourcentage. Voir [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Spécifie s'il faut ignorer les hyperliens avec des appels JavaScript lors de l'enregistrement de la présentation. Booléen en lecture/écriture. La valeur par défaut est **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Renvoie ou définit un objet qui reçoit des avertissements et décide si le processus de chargement doit se poursuivre ou être interrompu. Lecture/écriture [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Exemples
 
@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [SaveOptions](../../aspose.slides.export/saveoptions)
 * interface [IXamlOptions](../ixamloptions)

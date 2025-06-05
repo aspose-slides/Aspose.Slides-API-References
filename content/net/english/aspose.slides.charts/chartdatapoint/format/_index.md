@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.charts/chartdatapoint/format/
 ---
+
 ## ChartDataPoint.Format property
 
 Represents the formatting properties. Read/write [`IFormat`](../../iformat).

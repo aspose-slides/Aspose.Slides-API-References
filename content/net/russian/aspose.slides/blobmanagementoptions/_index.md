@@ -1,39 +1,39 @@
----
+---  
 title: BlobManagementOptions
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник  
 description: Представляет параметры, которые могут быть использованы для управления правилами обработки BLOB и другими настройками BLOB.
-type: docs
-weight: 950
+type: docs  
+weight: 950  
 url: /ru/aspose.slides/blobmanagementoptions/
----
+---  
 
-## Класс BlobManagementOptions
+## Класс BlobManagementOptions  
 
-Представляет параметры, которые могут быть использованы для управления правилами обработки BLOB и другими настройками BLOB.
+Представляет параметры, которые могут быть использованы для управления правилами обработки BLOB и другими настройками BLOB.  
 
-```csharp
-public class BlobManagementOptions : IBlobManagementOptions
-```
+```csharp  
+public class BlobManagementOptions : IBlobManagementOptions  
+```  
 
-## Конструкторы
+## Конструкторы  
 
-| Название | Описание |
-| --- | --- |
-| [BlobManagementOptions](blobmanagementoptions)() | Создает новые параметры управления BLOB по умолчанию. |
+| Имя | Описание |  
+| --- | --- |  
+| [BlobManagementOptions](blobmanagementoptions)() | Создаёт новые параметры управления BLOB по умолчанию. |  
 
-## Свойства
+## Свойства  
 
-| Название | Описание |
-| --- | --- |
-| [IsTemporaryFilesAllowed](../../aspose.slides/blobmanagementoptions/istemporaryfilesallowed) { get; set; } | Это свойство определяет, могут ли быть созданы временные файлы при работе с BLOB, что значительно сокращает потребление памяти, но требует разрешений на создание файлов. Все файлы будут удалены после завершения работы с презентацией. |
-| [MaxBlobsBytesInMemory](../../aspose.slides/blobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Определяет максимальное количество (в байтах), которое все BLOB в сумме могут занимать в памяти. Сначала все BLOB загружаются в память по умолчанию, и только когда достигается лимит, определенный этим свойством, могут быть задействованы другие механизмы (такие как временные файлы). С точки зрения производительности наиболее эффективный способ — хранение BLOB в памяти, но с другой стороны, это приводит к высокому потреблению памяти, что может быть нежелательным. С помощью этого свойства вы можете установить оптимальное поведение для вашей среды или других требований. Это свойство будет игнорироваться, если [`IsTemporaryFilesAllowed`](./istemporaryfilesallowed) установлено в false. Нет смысла ограничивать максимальное количество BLOB в памяти, потому что если [`IsTemporaryFilesAllowed`](./istemporaryfilesallowed) установлено в false, память — единственное место, где BLOB могут храниться. Значение по умолчанию составляет 629,145,600 байт (600Mb). |
-| [PresentationLockingBehavior](../../aspose.slides/blobmanagementoptions/presentationlockingbehavior) { get; set; } | Это свойство определяет, может ли экземпляр класса Presentation быть владельцем источника - файла или потока во время жизни экземпляра. Если экземпляр является владельцем, он блокирует источник. Это помогает улучшить потребление памяти и производительность при работе с BLOB, но источник (поток или файл) не может быть изменен в течение жизни экземпляра Presentation. |
-| [TempFilesRootPath](../../aspose.slides/blobmanagementoptions/tempfilesrootpath) { get; set; } | Корневой путь, где будут созданы временные файлы. По умолчанию будет использоваться временная директория системы. Процесс хостинга должен иметь разрешения на создание файлов и папок там. |
+| Имя | Описание |  
+| --- | --- |  
+| [IsTemporaryFilesAllowed](../../aspose.slides/blobmanagementoptions/istemporaryfilesallowed) { get; set; } | Это свойство определяет, могут ли быть созданы временные файлы при работе с BLOB, что значительно снижает потребление памяти, но требует разрешений на создание файлов. Все файлы будут удалены после завершения работы с презентацией. |  
+| [MaxBlobsBytesInMemory](../../aspose.slides/blobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Определяет максимальное количество (в байтах), которое все BLOB в общей сложности могут занять в памяти. Сначала все BLOB загружаются в память как поведение по умолчанию, и только когда оно достигает предела, определенного этим свойством, могут быть задействованы другие механизмы (такие как временные файлы). С точки зрения производительности, наиболее эффективный способ — хранить BLOB в памяти, но с другой стороны, это приводит к высокому потреблению памяти, что может быть нежелательным. Используя это свойство, вы можете установить оптимальное поведение для своей среды или других требований. Это свойство будет игнорироваться, если [`IsTemporaryFilesAllowed`](./istemporaryfilesallowed) установлено в false. Нет смысла ограничивать максимальные BLOB в памяти, потому что если [`IsTemporaryFilesAllowed`](./istemporaryfilesallowed) установлено в false, память является единственным местом, где BLOB могут храниться. Значение по умолчанию — 629,145,600 байт (600 Мб). |  
+| [PresentationLockingBehavior](../../aspose.slides/blobmanagementoptions/presentationlockingbehavior) { get; set; } | Это свойство определяет, может ли экземпляр класса Presentation быть владельцем источника - файла или потока на протяжении жизни экземпляра. Если экземпляр является владельцем, он блокирует источник. Это помогает улучшить потребление памяти и производительность при работе с BLOB, но источник (поток или файл) не может быть изменён на протяжении жизни экземпляра Presentation. |  
+| [TempFilesRootPath](../../aspose.slides/blobmanagementoptions/tempfilesrootpath) { get; set; } | Корневой путь, где будут созданы временные файлы. По умолчанию будет использоваться системный временный каталог. Процесс хостинга должен иметь разрешения на создание файлов и папок там. |  
 
-### См. также
+### Также посмотрите  
 
-* интерфейс [IBlobManagementOptions](../iblobmanagementoptions)
-* пространство имен [Aspose.Slides](../../aspose.slides)
-* сборка [Aspose.Slides](../../)
+* интерфейс [IBlobManagementOptions](../iblobmanagementoptions)  
+* пространство имен [Aspose.Slides](../../aspose.slides)  
+* сборка [Aspose.Slides](../../)  
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

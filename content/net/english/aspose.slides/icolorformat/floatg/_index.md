@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/icolorformat/floatg/
 ---
+
 ## IColorFormat.FloatG property
 
 Returns or sets the green component of a color. All color transformations are ignored. Read/write Single.

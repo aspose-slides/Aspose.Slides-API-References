@@ -7,7 +7,7 @@ weight: 20
 url: /es/aspose.slides.export.web/templatecontext-1/local/
 ---
 
-## Propiedad TemplateContext&lt;TObject&gt;.Local
+## TemplateContext&lt;TObject&gt;.Propiedad Local
 
 Devuelve el almacenamiento local del contexto de plantilla actual. Solo lectura [`Storage`](../../storage).
 
@@ -20,6 +20,6 @@ public Storage Local { get; }
 * clase [Storage](../../storage)
 * clase [TemplateContext&lt;TObject&gt;](../../templatecontext-1)
 * espacio de nombres [Aspose.Slides.Export.Web](../../templatecontext-1)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

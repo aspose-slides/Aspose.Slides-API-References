@@ -1,13 +1,13 @@
 ---
 title: StrokeDashStyle
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Représente la propriété stroke.dashstyle
 type: docs
 weight: 900
 url: /fr/aspose.slides.animation/behaviorproperty/strokedashstyle/
 ---
 
-## Propriété BehaviorProperty.StrokeDashStyle
+## BehaviorProperty.StrokeDashStyle propriété
 
 Représente la propriété 'stroke.dashstyle'
 

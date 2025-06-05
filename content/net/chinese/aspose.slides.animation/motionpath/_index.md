@@ -1,13 +1,13 @@
 ---
 title: MotionPath
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Slides for .NET API 参考
 description: 表示运动路径。
 type: docs
 weight: 610
 url: /zh/aspose.slides.animation/motionpath/
 ---
 
-## MotionPath类
+## MotionPath class
 
 表示运动路径。
 
@@ -34,12 +34,12 @@ public class MotionPath : IMotionPath
 | --- | --- |
 | [Add](../../aspose.slides.animation/motionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | 向路径添加新命令 |
 | [Clear](../../aspose.slides.animation/motionpath/clear)() | 从集合中移除所有命令。 |
-| [GetEnumerator](../../aspose.slides.animation/motionpath/getenumerator)() | 返回一个迭代器，用于遍历集合。 |
-| [Insert](../../aspose.slides.animation/motionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | 向路径插入新命令 |
-| [Remove](../../aspose.slides.animation/motionpath/remove)(IMotionCmdPath) | 从集合中移除指定命令。 |
+| [GetEnumerator](../../aspose.slides.animation/motionpath/getenumerator)() | 返回一个枚举器，用于遍历集合。 |
+| [Insert](../../aspose.slides.animation/motionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | 在路径中插入新命令 |
+| [Remove](../../aspose.slides.animation/motionpath/remove)(IMotionCmdPath) | 从集合中移除指定的命令。 |
 | [RemoveAt](../../aspose.slides.animation/motionpath/removeat)(int) | 移除指定索引处的命令。 |
 
-### 另见
+### 参见
 
 * 接口 [IMotionPath](../imotionpath)
 * 命名空间 [Aspose.Slides.Animation](../../aspose.slides.animation)

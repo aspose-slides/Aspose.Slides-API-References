@@ -1,21 +1,21 @@
 ---
 title: DisplayRSquaredValue
 second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie que la valeur R au carré de la ligne de tendance est affichée sur le graphique dans la même étiquette que l'équation. Lecture/écriture Boolean.
+description: Spécifie que la valeur R-carré de la ligne de tendance est affichée sur le graphique dans la même étiquette que l'équation. Booléen en lecture/écriture.
 type: docs
 weight: 40
 url: /fr/aspose.slides.charts/trendline/displayrsquaredvalue/
 ---
 
-## Propriété Trendline.DisplayRSquaredValue
+## Trendline.DisplayRSquaredValue propriété
 
-Spécifie que la valeur R au carré de la ligne de tendance est affichée sur le graphique (dans la même étiquette que l'équation). Lecture/écriture Boolean.
+Spécifie que la valeur R-carré de la ligne de tendance est affichée sur le graphique (dans la même étiquette que l'équation). Booléen en lecture/écriture.
 
 ```csharp
 public bool DisplayRSquaredValue { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [Trendline](../../trendline)
 * namespace [Aspose.Slides.Charts](../../trendline)

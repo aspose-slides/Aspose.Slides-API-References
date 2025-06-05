@@ -1,7 +1,7 @@
 ---
 title: MathBar
 second_title: Aspose.Slides für .NET API Referenz
-description: Initialisiert MathBar mit überstrichener Oberposition
+description: Initialisiert MathBar mit Overbar Obere Position
 type: docs
 weight: 10
 url: /de/aspose.slides.mathtext/mathbar/mathbar/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/mathbar/mathbar/
 
 ## MathBar(IMathElement) {#constructor}
 
-Initialisiert MathBar mit überstrichener (Oberposition)
+Initialisiert MathBar mit Overbar (obere Position)
 
 ```csharp
 public MathBar(IMathElement element)
@@ -39,7 +39,7 @@ MathBar mathBar = new MathBar(new MathematicalText("x"));
 
 ## MathBar(IMathElement, MathTopBotPositions) {#constructor_1}
 
-Initialisiert MathBar mit festgelegter Position
+Initialisiert MathBar mit spezifischer Position
 
 ```csharp
 public MathBar(IMathElement element, MathTopBotPositions position)
@@ -48,7 +48,7 @@ public MathBar(IMathElement element, MathTopBotPositions position)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | element | IMathElement | Das Basiselement, auf das die Bar angewendet wird |
-| position | MathTopBotPositions | Position der Barlinie. |
+| position | MathTopBotPositions | Position der Bar-Linie. |
 
 ### Beispiele
 

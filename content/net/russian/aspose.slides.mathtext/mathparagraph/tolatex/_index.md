@@ -1,6 +1,6 @@
 ---
 title: ToLatex
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Получает математическое уравнение в формате LaTeX
 type: docs
 weight: 120
@@ -27,7 +27,7 @@ mathParagraph.Add(new MathematicalText("a").Join("+").Join(new MathematicalText(
 string mathLatex = mathParagraph.ToLatex();
 ```
 
-### См. также
+### См. Также
 
 * класс [MathParagraph](../../mathparagraph)
 * пространство имен [Aspose.Slides.MathText](../../mathparagraph)

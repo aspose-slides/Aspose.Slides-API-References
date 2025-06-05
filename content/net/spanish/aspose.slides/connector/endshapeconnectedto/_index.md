@@ -1,7 +1,7 @@
 ---
 title: EndShapeConnectedTo
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve o establece la forma a la que se debe adjuntar el extremo del conector. Lectura/escritura IShape aspose.slides/ishape.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Devuelve o establece la forma a la que se debe adjuntar el extremo del conector. Lectura/escritura IShapeaspose.slides/ishape.
 type: docs
 weight: 20
 url: /es/aspose.slides/connector/endshapeconnectedto/
@@ -21,11 +21,11 @@ public IShape EndShapeConnectedTo { get; set; }
 | --- | --- |
 | ArgumentException | Se lanza cuando la forma conectada no tiene sitios de conexión (IShape.ConnectionSiteCount igual a cero) |
 
-### Vea También
+### Véase También
 
 * interfaz [IShape](../../ishape)
 * clase [Connector](../../connector)
 * espacio de nombres [Aspose.Slides](../../connector)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

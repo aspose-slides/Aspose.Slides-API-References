@@ -1,13 +1,13 @@
 ---
 title: IsPasswordProtected
-second_title: Aspose.Slides для .NET API Справка
+second_title: Справочник по API Aspose.Slides для .NET
 description: Получает значение, указывающее, защищена ли связанная презентация паролем для открытия.
 type: docs
 weight: 20
 url: /ru/aspose.slides/presentationinfo/ispasswordprotected/
 ---
 
-## Свойство PresentationInfo.IsPasswordProtected
+## PresentationInfo.IsPasswordProtected свойство
 
 Получает значение, указывающее, защищена ли связанная презентация паролем для открытия.
 
@@ -26,7 +26,7 @@ if (info.IsPasswordProtected)
 }
 ```
 
-### См. Также
+### Также смотри
 
 * класс [PresentationInfo](../../presentationinfo)
 * пространство имен [Aspose.Slides](../../presentationinfo)

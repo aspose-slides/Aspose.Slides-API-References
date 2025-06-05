@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/pptxunsupportedformatexception/pptxunsupportedformatexception/
 ---
+
 ## PptxUnsupportedFormatException() {#constructor}
 
 Default constructor.

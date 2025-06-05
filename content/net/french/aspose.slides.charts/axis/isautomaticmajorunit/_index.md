@@ -1,6 +1,6 @@
 ---
 title: IsAutomaticMajorUnit
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Indique si l'unité majeure de l'axe est attribuée automatiquement. Booléen en lecture/écriture.
 type: docs
 weight: 180
@@ -15,7 +15,7 @@ Indique si l'unité majeure de l'axe est attribuée automatiquement. Booléen en
 public bool IsAutomaticMajorUnit { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [Axis](../../axis)
 * espace de noms [Aspose.Slides.Charts](../../axis)

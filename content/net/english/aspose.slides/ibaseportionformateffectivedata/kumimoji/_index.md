@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides/ibaseportionformateffectivedata/kumimoji/
 ---
+
 ## IBasePortionFormatEffectiveData.Kumimoji property
 
 Determines whether the numbers should ignore text eastern language-specific vertical text layout. Read-only Boolean.

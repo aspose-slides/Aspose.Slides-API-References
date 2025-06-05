@@ -1,21 +1,21 @@
 ---
 title: HasEndCap
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie qu'un capuchon de fin n'est pas dessiné sur les barres d'erreur. Boolean en lecture/écriture.
+second_title: Référence API Aspose.Slides pour .NET
+description: Spécifie qu'un cap de fin n'est pas dessiné sur les barres d'erreur. Booléen en lecture/écriture.
 type: docs
 weight: 30
 url: /fr/aspose.slides.charts/ierrorbarsformat/hasendcap/
 ---
 
-## Propriété IErrorBarsFormat.HasEndCap
+## IErrorBarsFormat.HasEndCap propriété
 
-Spécifie qu'un capuchon de fin n'est pas dessiné sur les barres d'erreur. Boolean en lecture/écriture.
+Spécifie qu'un cap de fin n'est pas dessiné sur les barres d'erreur. Booléen en lecture/écriture.
 
 ```csharp
 public bool HasEndCap { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IErrorBarsFormat](../../ierrorbarsformat)
 * namespace [Aspose.Slides.Charts](../../ierrorbarsformat)

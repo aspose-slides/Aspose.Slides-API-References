@@ -1,7 +1,7 @@
 ---
-title: Contar
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve un número de imágenes en la colección. Solo lectura Int32.
+title: Count
+second_title: Aspose.Slides para .NET Referencia de API
+description: Devuelve el número de imágenes en la colección. Solo lectura Int32.
 type: docs
 weight: 10
 url: /es/aspose.slides/imagecollection/count/
@@ -9,16 +9,16 @@ url: /es/aspose.slides/imagecollection/count/
 
 ## Propiedad ImageCollection.Count
 
-Devuelve un número de imágenes en la colección. Solo lectura Int32.
+Devuelve el número de imágenes en la colección. Solo lectura Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Ver También
+### También Visto
 
 * clase [ImageCollection](../../imagecollection)
 * espacio de nombres [Aspose.Slides](../../imagecollection)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/itextframeformateffectivedata/centertext/
 ---
+
 ## ITextFrameFormatEffectiveData.CenterText property
 
 Returns if text should be centered in box horizontally. Read-only Boolean.

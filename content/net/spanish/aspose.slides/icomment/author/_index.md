@@ -1,7 +1,7 @@
 ---
-title: Autor
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve el autor de un comentario. Solo lectura ICommentAuthoraspose.slides/icommentauthor.
+title: Author
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve el autor de un comentario. Solo lectura ICommentAuthor aspose.slides/icommentauthor.
 type: docs
 weight: 10
 url: /es/aspose.slides/icomment/author/
@@ -15,7 +15,7 @@ Devuelve el autor de un comentario. Solo lectura [`ICommentAuthor`](../../icomme
 public ICommentAuthor Author { get; }
 ```
 
-### Ver También
+### Ver también
 
 * interfaz [ICommentAuthor](../../icommentauthor)
 * interfaz [IComment](../../icomment)

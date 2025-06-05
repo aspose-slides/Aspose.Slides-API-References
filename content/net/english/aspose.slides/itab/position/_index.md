@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/itab/position/
 ---
+
 ## ITab.Position property
 
 Returns or sets position of a tab. Assigning this property can change tab's index in collection and invalidate Enumerator. Read/write Double.

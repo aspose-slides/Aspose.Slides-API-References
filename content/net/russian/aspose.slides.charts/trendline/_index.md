@@ -1,7 +1,7 @@
 ---
-title: Трендовая линия
-second_title: Справочник по API Aspose.Slides для .NET
-description: Класс представляет трендовую линию серии графиков
+title: Trendline
+second_title: Aspose.Sildes для .NET Справочник API
+description: Класс представляет трендовую линию серии диаграмм
 type: docs
 weight: 2390
 url: /ru/aspose.slides.charts/trendline/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/trendline/
 
 ## Класс Trendline
 
-Класс представляет трендовую линию серии графиков
+Класс представляет трендовую линию серии диаграмм
 
 ```csharp
 public class Trendline : DomObject<TrendlineCollection>, ITrendline
@@ -19,18 +19,18 @@ public class Trendline : DomObject<TrendlineCollection>, ITrendline
 
 | Имя | Описание |
 | --- | --- |
-| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | Указывает количество категорий (или единиц на диаграмме рассеяния), на которое трендовая линия простирается перед данными для трендируемой серии. На диаграммах рассеяния и нерассеяния значение должно быть любым ненегативным значением. Чтение/запись Double. |
-| [Chart](../../aspose.slides.charts/trendline/chart) { get; } | Возвращает родительский график. Только для чтения [`IChart`](../ichart). |
-| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | Указывает, что уравнение для трендовой линии отображается на графике (в той же метке, что и значение R-квадрат). Чтение/запись Boolean. |
-| [DisplayRSquaredValue](../../aspose.slides.charts/trendline/displayrsquaredvalue) { get; set; } | Указывает, что значение R-квадрат для трендовой линии отображается на графике (в той же метке, что и уравнение). Чтение/запись Boolean. |
+| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | Указывает количество категорий (или единиц на рассеянной диаграмме), на которое трендовая линия простирается перед данными для тренируемой серии. Для рассеянных и нерассеянных диаграмм значение должно быть любым неотрицательным. Чтение/запись Double. |
+| [Chart](../../aspose.slides.charts/trendline/chart) { get; } | Возвращает родительскую диаграмму. Только для чтения [`IChart`](../ichart). |
+| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | Указывает, что уравнение для трендовой линии отображается на диаграмме (в той же метке, что и значение R-квадрат). Чтение/запись Boolean. |
+| [DisplayRSquaredValue](../../aspose.slides.charts/trendline/displayrsquaredvalue) { get; set; } | Указывает, что значение R-квадрат для трендовой линии отображается на диаграмме (в той же метке, что и уравнение). Чтение/запись Boolean. |
 | [Format](../../aspose.slides.charts/trendline/format) { get; set; } | Представляет формат трендовой линии. Чтение/запись [`IFormat`](../iformat). |
-| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | Указывает количество категорий (или единиц на диаграмме рассеяния), на которое трендовая линия простирается после данных для трендируемой серии. На диаграммах рассеяния и нерассеяния значение должно быть любым ненегативным значением. Чтение/запись Double. |
-| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | Указывает значение, при котором трендовая линия пересекает ось y. Это свойство поддерживается только тогда, когда тип трендовой линии является экспоненциальным, линейным или полиномом. Чтение/запись Double. |
-| [Order](../../aspose.slides.charts/trendline/order) { get; set; } | Указывает порядок полиномиальной трендовой линии. Оно игнорируется для других типов трендовых линий. Значение должно быть между 2 и 6. Чтение/запись Byte. |
-| [Period](../../aspose.slides.charts/trendline/period) { get; set; } | Указывает период трендовой линии для скользящего среднего. Оно игнорируется для других вариантов трендовых линий. Значение должно быть между 2 и 255. Чтение/запись Byte. |
+| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | Указывает количество категорий (или единиц на рассеянной диаграмме), на которое трендовая линия простирается после данных для тренируемой серии. Для рассеянных и нерассеянных диаграмм значение должно быть любым неотрицательным. Чтение/запись Double. |
+| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | Указывает значение, при котором трендовая линия пересекает ось y. Это свойство должно поддерживаться только тогда, когда тип трендовой линии является экспоненциальным, линейным или полиномом. Чтение/запись Double. |
+| [Order](../../aspose.slides.charts/trendline/order) { get; set; } | Указывает порядок полиномиальной трендовой линии. Игнорируется для других типов трендовых линий. Значение должно быть между 2 и 6. Чтение/запись Byte. |
+| [Period](../../aspose.slides.charts/trendline/period) { get; set; } | Указывает период трендовой линии для скользящей средней. Игнорируется для других вариантов трендовой линии. Значение должно быть между 2 и 255. Чтение/запись Byte. |
 | [RelatedLegendEntry](../../aspose.slides.charts/trendline/relatedlegendentry) { get; } | Представляет элемент легенды, связанный с этой трендовой линией. Только для чтения [`ILegendEntryProperties`](../ilegendentryproperties). |
-| [TextFormat](../../aspose.slides.charts/trendline/textformat) { get; } | Возвращает текстовый формат. Только для чтения [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/trendline/textframeforoverriding) { get; } | Может содержать текст с богатым форматированием. Если это свойство не равно null, то значение форматированного текста заменяет автоматически генерируемый текст метки данных. Автоматическигенерируемый текст метки данных - это текст, который управляется свойствами ShowSeriesName, ShowValue, ... и форматируется с помощью свойства TextFormatManager.TextFormat. Только для чтения [`ITextFrame`](../../aspose.slides/itextframe). |
+| [TextFormat](../../aspose.slides.charts/trendline/textformat) { get; } | Возвращает формат текста. Только для чтения [`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/trendline/textframeforoverriding) { get; } | Может содержать текст с богатым форматированием. Если это свойство не равно null, то это форматированное текстовое значение заменяет автоматически сгенерированный текст метки данных. Автоматически сгенерированный текст метки данных означает текст, который управляется свойствами ShowSeriesName, ShowValue и т.д. и форматируется с помощью свойства TextFormatManager.TextFormat. Только для чтения [`ITextFrame`](../../aspose.slides/itextframe). |
 | [TrendlineName](../../aspose.slides.charts/trendline/trendlinename) { get; set; } | Получает или задает имя трендовой линии. Чтение/запись String. |
 | [TrendlineType](../../aspose.slides.charts/trendline/trendlinetype) { get; set; } | Получает или задает тип трендовой линии. Чтение/запись [`TrendlineType`](../trendlinetype). |
 

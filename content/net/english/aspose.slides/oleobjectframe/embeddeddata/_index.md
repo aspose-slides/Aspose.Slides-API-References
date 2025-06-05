@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/oleobjectframe/embeddeddata/
 ---
+
 ## OleObjectFrame.EmbeddedData property
 
 Gets or sets information about OLE embedded data. Read/write [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo).

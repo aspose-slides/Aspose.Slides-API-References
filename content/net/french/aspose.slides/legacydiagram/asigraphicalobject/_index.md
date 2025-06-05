@@ -9,7 +9,7 @@ url: /fr/aspose.slides/legacydiagram/asigraphicalobject/
 
 ## Propriété LegacyDiagram.AsIGraphicalObject
 
-Permet d'obtenir l'interface de base IGraphicalObject. Lecture seule [`IGraphicalObject`](../../igraphicalobject).
+Permet d'obtenir l'interface de base IGraphicalObject. IGraphicalObject en lecture seule [`IGraphicalObject`](../../igraphicalobject).
 
 ```csharp
 public IGraphicalObject AsIGraphicalObject { get; }

@@ -1,7 +1,7 @@
 ---
-title: Элемент
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает слайд макета по индексу. Только для чтения LayoutSlideaspose.slides/layoutslide.
+title: Item
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает слайд макета по индексу. Только для чтения LayoutSlide aspose.slides/layoutslide.
 type: docs
 weight: 30
 url: /ru/aspose.slides/layoutslidecollection/item/

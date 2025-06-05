@@ -1,7 +1,7 @@
 ---
-title: Einschließen
-second_title: Aspose.Slides für .NET API Referenz
-description: Schließt ein mathematisches Element in Klammern ein
+title: Enclose
+second_title: Aspose.Sildes für .NET API Referenz
+description: Schließt ein Mathe-Element in Klammern ein
 type: docs
 weight: 40
 url: /de/aspose.slides.mathtext/imathelement/enclose/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathelement/enclose/
 
 ## Enclose() {#enclose}
 
-Schließt ein mathematisches Element in Klammern ein
+Schließt ein Mathe-Element in Klammern ein
 
 ```csharp
 public IMathDelimiter Enclose()
@@ -17,7 +17,7 @@ public IMathDelimiter Enclose()
 
 ### Rückgabewert
 
-Das mathematische Element vom Typ [`IMathDelimiter`](../../imathdelimiter), das die Klammern enthält
+Das Mathe-Element vom Typ [`IMathDelimiter`](../../imathdelimiter), das die Klammern enthält
 
 ### Beispiele
 
@@ -40,20 +40,20 @@ IMathDelimiter delimiter = element.Enclose();
 
 ## Enclose(char, char) {#enclose_1}
 
-Schließt dieses Element in den angegebenen Zeichen wie Klammern oder andere Zeichen als Rahmen ein
+Schließt dieses Element in angegebenen Zeichen wie Klammern oder andere Zeichen als Rahmen ein
 
 ```csharp
 public IMathDelimiter Enclose(char beginningCharacter, char endingCharacter)
 ```
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| beginningCharacter | Char | Anfangszeichen (gewöhnlich linke Klammer) |
-| endingCharacter | Char | Endzeichen (gewöhnlich rechte Klammer) |
+| Parameter           | Typ  | Beschreibung        |
+|---------------------|------|---------------------|
+| beginningCharacter   | Char | Anfangszeichen (normalerweise linke Klammer) |
+| endingCharacter      | Char | Endzeichen (normalerweise rechte Klammer) |
 
 ### Rückgabewert
 
-Das mathematische Element vom Typ [`IMathDelimiter`](../../imathdelimiter), das die angegebenen Zeichen als Rahmen enthält
+Das Mathe-Element vom Typ [`IMathDelimiter`](../../imathdelimiter), das die angegebenen Zeichen als Rahmen enthält
 
 ### Beispiele
 

@@ -1,7 +1,7 @@
 ---
 title: TextSelectionStart
 second_title: Aspose.Slides für .NET API Referenz
-description: Ruft die Startposition der Textauswahl im Textfeld ab oder legt sie fest, sofern der Kommentar mit AutoShape verknüpft ist. Lese-/schreibbare Int32.
+description: Gibt die Startposition der Textauswahl im Textfeld zurück oder legt sie fest, wenn der Kommentar mit dem AutoShape verbunden ist. Lese-/Schreibzugriff Int32.
 type: docs
 weight: 40
 url: /de/aspose.slides/moderncomment/textselectionstart/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/moderncomment/textselectionstart/
 
 ## ModernComment.TextSelectionStart-Eigenschaft
 
-Ruft die Startposition der Textauswahl im Textfeld ab oder legt sie fest, sofern der Kommentar mit AutoShape verknüpft ist. Lese-/schreibbare Int32.
+Gibt die Startposition der Textauswahl im Textfeld zurück oder legt sie fest, wenn der Kommentar mit dem AutoShape verbunden ist. Lese-/Schreibzugriff Int32.
 
 ```csharp
 public int TextSelectionStart { get; set; }

@@ -7,7 +7,7 @@ weight: 30
 url: /es/aspose.slides.export/ihtmlgenerator/slideimagesize/
 ---
 
-## Propiedad IHtmlGenerator.SlideImageSize
+## IHtmlGenerator.SlideImageSize property
 
 Devuelve el tamaño de la imagen de la diapositiva. Solo lectura SizeF.
 
@@ -17,8 +17,8 @@ public SizeF SlideImageSize { get; }
 
 ### Ver También
 
-* interfaz [IHtmlGenerator](../../ihtmlgenerator)
-* espacio de nombres [Aspose.Slides.Export](../../ihtmlgenerator)
-* ensamblaje [Aspose.Slides](../../../)
+* interface [IHtmlGenerator](../../ihtmlgenerator)
+* namespace [Aspose.Slides.Export](../../ihtmlgenerator)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

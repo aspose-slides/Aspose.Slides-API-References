@@ -1,7 +1,7 @@
 ---
 title: CopyTo
-second_title: Aspose.Sildes для .NET API ссылка
-description: Копирует аудио в указанный массив, начиная с указанного индекса.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Копирует аудиофайлы в указанный массив, начиная с указанного индекса.
 type: docs
 weight: 60
 url: /ru/aspose.slides/audiocollection/copyto/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/audiocollection/copyto/
 
 ## AudioCollection.CopyTo метод
 
-Копирует аудио в указанный массив, начиная с указанного индекса.
+Копирует аудиофайлы в указанный массив, начиная с указанного индекса.
 
 ```csharp
 public void CopyTo(Array array, int index)
@@ -20,7 +20,7 @@ public void CopyTo(Array array, int index)
 | array | Array | Массив. |
 | index | Int32 | Индекс. |
 
-### Также см.
+### См. также
 
 * класс [AudioCollection](../../audiocollection)
 * пространство имен [Aspose.Slides](../../audiocollection)

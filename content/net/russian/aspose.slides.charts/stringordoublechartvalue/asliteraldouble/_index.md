@@ -1,15 +1,15 @@
 ---
 title: AsLiteralDouble
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает или устанавливает значение как литеральное число с плавающей точкой. Чтение/запись Double.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или задает значение как литеральное число с плавающей запятой. Чтение/запись Double.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/stringordoublechartvalue/asliteraldouble/
 ---
 
-## Свойство StringOrDoubleChartValue.AsLiteralDouble
+## StringOrDoubleChartValue.AsLiteralDouble свойство
 
-Возвращает или устанавливает значение как литеральное число с плавающей точкой. Чтение/запись Double.
+Возвращает или задает значение как литеральное число с плавающей запятой. Чтение/запись Double.
 
 ```csharp
 public double AsLiteralDouble { get; set; }

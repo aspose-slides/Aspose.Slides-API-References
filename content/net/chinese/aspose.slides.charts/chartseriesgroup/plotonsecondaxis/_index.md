@@ -1,7 +1,7 @@
 ---
 title: PlotOnSecondAxis
-second_title: Aspose.Slides for .NET API Reference
-description: 指示此组的系列是否绘制在次要轴上。只读布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指示该组的系列是否绘制在次要轴上。只读布尔值。
 type: docs
 weight: 160
 url: /zh/aspose.slides.charts/chartseriesgroup/plotonsecondaxis/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/chartseriesgroup/plotonsecondaxis/
 
 ## ChartSeriesGroup.PlotOnSecondAxis 属性
 
-指示此组的系列是否绘制在次要轴上。只读布尔值。
+指示该组的系列是否绘制在次要轴上。只读布尔值。
 
 ```csharp
 public bool PlotOnSecondAxis { get; }
 ```
 
-### 参见
+### 另请参阅
 
 * class [ChartSeriesGroup](../../chartseriesgroup)
 * namespace [Aspose.Slides.Charts](../../chartseriesgroup)

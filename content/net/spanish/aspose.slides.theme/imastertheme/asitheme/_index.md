@@ -1,15 +1,15 @@
 ---
 title: AsITheme
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Permite obtener la interfaz base ITheme. ITheme solo lectura aspose.slides.theme/itheme.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Permite obtener la interfaz base ITheme. Solo lectura IThemeaspose.slides.theme/itheme.
 type: docs
 weight: 10
 url: /es/aspose.slides.theme/imastertheme/asitheme/
 ---
 
-## Propiedad IMasterTheme.AsITheme
+## IMasterTheme.AsITheme propiedad
 
-Permite obtener la interfaz base ITheme. ITheme solo lectura [`ITheme`](../../itheme).
+Permite obtener la interfaz base ITheme. Solo lectura [`ITheme`](../../itheme).
 
 ```csharp
 public ITheme AsITheme { get; }

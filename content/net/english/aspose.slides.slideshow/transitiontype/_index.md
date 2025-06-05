@@ -3,9 +3,10 @@ title: TransitionType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represent slide show transition type.
 type: docs
-weight: 9800
+weight: 10140
 url: /aspose.slides.slideshow/transitiontype/
 ---
+
 ## TransitionType enumeration
 
 Represent slide show transition type.

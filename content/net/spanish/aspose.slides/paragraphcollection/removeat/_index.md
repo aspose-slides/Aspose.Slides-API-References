@@ -1,6 +1,6 @@
 ---
 title: RemoveAt
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Elimina el elemento en el índice especificado de la colección.
 type: docs
 weight: 140
@@ -19,7 +19,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | El índice basado en cero del elemento a eliminar. |
 
-### Véase también
+### Ver También
 
 * clase [ParagraphCollection](../../paragraphcollection)
 * espacio de nombres [Aspose.Slides](../../paragraphcollection)

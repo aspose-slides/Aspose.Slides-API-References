@@ -1,6 +1,6 @@
 ---
-title: Acumular
-second_title: Referencia de la API Aspose.Slides para .NET
+title: Accumulate
+second_title: Aspose.Sildes para .NET API Reference
 description: Representa si los comportamientos de animación son acumulativos. Lectura/escritura NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Representa si los comportamientos de animación son acumulativos. Lectura/escrit
 public NullableBool Accumulate { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * enum [NullableBool](../../../aspose.slides/nullablebool)
 * interface [IBehavior](../../ibehavior)

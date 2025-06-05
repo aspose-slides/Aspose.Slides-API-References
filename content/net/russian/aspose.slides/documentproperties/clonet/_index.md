@@ -7,7 +7,7 @@ weight: 400
 url: /ru/aspose.slides/documentproperties/clonet/
 ---
 
-## Метод DocumentProperties.CloneT
+## DocumentProperties.CloneT метод
 
 Клонирует текущий объект
 

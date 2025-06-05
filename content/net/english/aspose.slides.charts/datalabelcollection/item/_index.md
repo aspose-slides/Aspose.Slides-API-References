@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.charts/datalabelcollection/item/
 ---
+
 ## DataLabelCollection indexer
 
 Gets the data label for the data point with the specified index.

@@ -1,7 +1,7 @@
 ---
-title: EspaceIntérieur
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit la quantité d'espace entre les lignes de base dans un paragraphe. Lecture/écriture Single.
+title: SpaceWithin
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie ou définit la quantité d'espace entre les lignes de base dans un paragraphe. Lecture/écriture Simple.
 type: docs
 weight: 130
 url: /fr/aspose.slides.charts/ichartparagraphformat/spacewithin/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ichartparagraphformat/spacewithin/
 
 ## Propriété IChartParagraphFormat.SpaceWithin
 
-Renvoie ou définit la quantité d'espace entre les lignes de base dans un paragraphe. Lecture/écriture Single.
+Renvoie ou définit la quantité d'espace entre les lignes de base dans un paragraphe. Lecture/écriture Simple.
 
 ```csharp
 public float SpaceWithin { get; set; }

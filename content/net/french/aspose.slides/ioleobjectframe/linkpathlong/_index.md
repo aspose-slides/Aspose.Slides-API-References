@@ -1,7 +1,7 @@
 ---
 title: LinkPathLong
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie le chemin complet vers un fichier lié. Un nom de fichier long sera utilisé. Chaîne lisible/écrivable.
+description: Retourne le chemin complet vers un fichier lié. Un long nom de fichier sera utilisé. Chaîne en lecture/écriture.
 type: docs
 weight: 80
 url: /fr/aspose.slides/ioleobjectframe/linkpathlong/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ioleobjectframe/linkpathlong/
 
 ## Propriété IOleObjectFrame.LinkPathLong
 
-Renvoie le chemin complet vers un fichier lié. Un nom de fichier long sera utilisé. Chaîne lisible/écrivable.
+Retourne le chemin complet vers un fichier lié. Un long nom de fichier sera utilisé. Chaîne en lecture/écriture.
 
 ```csharp
 public string LinkPathLong { get; set; }

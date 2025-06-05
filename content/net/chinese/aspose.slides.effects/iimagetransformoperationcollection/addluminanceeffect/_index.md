@@ -1,6 +1,6 @@
 ---
 title: AddLuminanceEffect
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 将新的亮度效果添加到集合的末尾。
 type: docs
 weight: 180
@@ -17,14 +17,14 @@ public ILuminance AddLuminanceEffect(float brightness, float contrast)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| brightness | Single | 改变亮度的百分比。 |
-| contrast | Single | 改变对比度的百分比。 |
+| brightness | Single | 更改亮度的百分比。 |
+| contrast | Single | 更改对比度的百分比。 |
 
 ### 返回值
 
 新图像效果在集合中的索引。
 
-### 另请参见
+### 另请参阅
 
 * 接口 [ILuminance](../../iluminance)
 * 接口 [IImageTransformOperationCollection](../../iimagetransformoperationcollection)

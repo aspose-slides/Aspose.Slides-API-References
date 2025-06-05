@@ -1,7 +1,7 @@
 ---
-title: 下标
-second_title: Aspose.Slides for .NET API 参考
-description: 下标
+title: Subscript
+second_title: Aspose.Sildes for .NET API Reference
+description: Subscript
 type: docs
 weight: 20
 url: /zh/aspose.slides.mathtext/mathsubscriptelement/subscript/

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/ipresentation/audios/
 ---
+
 ## IPresentation.Audios property
 
 Returns the collection of all embedded audio files in the presentation. Read-only [`IAudioCollection`](../../iaudiocollection).

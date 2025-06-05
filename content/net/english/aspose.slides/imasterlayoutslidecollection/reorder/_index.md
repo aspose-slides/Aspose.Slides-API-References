@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/imasterlayoutslidecollection/reorder/
 ---
+
 ## IMasterLayoutSlideCollection.Reorder method
 
 Moves layout slide from the collection to the specified position.

@@ -1,15 +1,15 @@
 ---
 title: AsIImageTransformOperation
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf das Basis-IImageTransformOperationEx-Interface. Nur-Lese-IImageTransformOperationaspose.slides.effects/iimagetransformoperation.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ermöglicht den Zugriff auf das Basisschnittstelle IImageTransformOperationEx. Nur lesezugängliches IImageTransformOperation aspose.slides.effects/iimagetransformoperation.
 type: docs
 weight: 20
 url: /de/aspose.slides.effects/ialphaceiling/asiimagetransformoperation/
 ---
 
-## IAlphaCeiling.AsIImageTransformOperation Eigenschaft
+## IAlphaCeiling.AsIImageTransformOperation-Eigenschaft
 
-Ermöglicht den Zugriff auf das Basis-IImageTransformOperationEx-Interface. Nur-Lese [`IImageTransformOperation`](../../iimagetransformoperation).
+Ermöglicht den Zugriff auf das Basisschnittstelle IImageTransformOperationEx. Nur lesezugängliches [`IImageTransformOperation`](../../iimagetransformoperation).
 
 ```csharp
 public IImageTransformOperation AsIImageTransformOperation { get; }
@@ -17,8 +17,8 @@ public IImageTransformOperation AsIImageTransformOperation { get; }
 
 ### Siehe auch
 
-* Interface [IImageTransformOperation](../../iimagetransformoperation)
-* Interface [IAlphaCeiling](../../ialphaceiling)
+* Schnittstelle [IImageTransformOperation](../../iimagetransformoperation)
+* Schnittstelle [IAlphaCeiling](../../ialphaceiling)
 * Namespace [Aspose.Slides.Effects](../../ialphaceiling)
 * Assembly [Aspose.Slides](../../../)
 

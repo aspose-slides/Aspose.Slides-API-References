@@ -1,15 +1,15 @@
 ---
-title: Высота
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает высоту легенды как долю от высоты диаграммы. Читаемый/записываемый тип Single.
+title: Height
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает или устанавливает высоту легенды как долю высоты диаграммы. Чтение/запись Single.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/legend/height/
 ---
 
-## Свойство Legend.Height
+## Legend.Height свойство
 
-Возвращает или задает высоту легенды как долю от высоты диаграммы. Читаемый/записываемый тип Single.
+Возвращает или устанавливает высоту легенды как долю высоты диаграммы. Чтение/запись Single.
 
 ```csharp
 public float Height { get; set; }

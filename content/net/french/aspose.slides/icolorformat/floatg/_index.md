@@ -1,6 +1,6 @@
 ---
 title: FloatG
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Reference
 description: Renvoie ou définit le composant vert d'une couleur. Toutes les transformations de couleur sont ignorées. Lecture/écriture Single.
 type: docs
 weight: 70

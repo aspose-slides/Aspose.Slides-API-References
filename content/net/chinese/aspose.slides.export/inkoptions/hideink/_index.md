@@ -1,7 +1,7 @@
 ---
-title: 隐藏墨水
-second_title: Aspose.Slides for .NET API 参考
-description: 显示或隐藏导出文档中的墨水元素。
+title: HideInk
+second_title: Aspose.Sildes for .NET API Reference
+description: 显示或隐藏导出文档中的Ink元素。
 type: docs
 weight: 10
 url: /zh/aspose.slides.export/inkoptions/hideink/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/inkoptions/hideink/
 
 ## InkOptions.HideInk 属性
 
-显示或隐藏导出文档中的墨水元素。
+显示或隐藏导出文档中的Ink元素。
 
 ```csharp
 public bool HideInk { get; set; }
@@ -17,11 +17,11 @@ public bool HideInk { get; set; }
 
 ### 备注
 
-默认值为 false。
+默认值为false。
 
 ### 示例
 
-下例演示如何在导出 PDF 文档中隐藏墨水元素：
+下一个示例演示如何在导出PDF文档中隐藏Ink元素：
 
 ```csharp
 [C#]

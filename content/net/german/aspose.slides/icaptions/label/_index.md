@@ -1,7 +1,7 @@
 ---
-title: Etikett
+title: Label
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Label der Untertitel zurück oder setzt es. Lese-/Schreib-String.
+description: Gibt die Beschriftung der Untertitel zurück oder legt sie fest. Lese-/Schreib-String.
 type: docs
 weight: 40
 url: /de/aspose.slides/icaptions/label/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/icaptions/label/
 
 ## ICaptions.Label-Eigenschaft
 
-Gibt das Label der Untertitel zurück oder setzt es. Lese-/Schreib-String.
+Gibt die Beschriftung der Untertitel zurück oder legt sie fest. Lese-/Schreib-String.
 
 ```csharp
 public string Label { get; set; }

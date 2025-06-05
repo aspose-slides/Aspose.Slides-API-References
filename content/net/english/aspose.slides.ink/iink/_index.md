@@ -3,9 +3,10 @@ title: IInk
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an ink object on a slide.
 type: docs
-weight: 7020
+weight: 7280
 url: /aspose.slides.ink/iink/
 ---
+
 ## IInk interface
 
 Represents an ink object on a slide.
@@ -19,6 +20,7 @@ public interface IInk : IGraphicalObject
 | Name | Description |
 | --- | --- |
 | [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | Allows to get base IGraphicalObject interface. Read-only [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [Traces](../../aspose.slides.ink/iink/traces) { get; } | Gets all traces containing in the IInk element [`IInkTrace`](../iinktrace). Read-only. |
 
 ### See Also
 

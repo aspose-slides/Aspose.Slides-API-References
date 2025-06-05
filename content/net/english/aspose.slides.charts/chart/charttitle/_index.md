@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.charts/chart/charttitle/
 ---
+
 ## Chart.ChartTitle property
 
 Returns or sets a chart title. Read-only [`IChartTitle`](../../icharttitle).

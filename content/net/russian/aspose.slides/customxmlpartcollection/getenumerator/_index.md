@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Sildes для API .NET
-description: Возвращает перечислитель, который проходит через коллекцию.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает enumerator, который перебирает коллекцию.
 type: docs
 weight: 80
 url: /ru/aspose.slides/customxmlpartcollection/getenumerator/
@@ -9,17 +9,17 @@ url: /ru/aspose.slides/customxmlpartcollection/getenumerator/
 
 ## Метод CustomXmlPartCollection.GetEnumerator
 
-Возвращает перечислитель, который проходит через коллекцию.
+Возвращает enumerator, который перебирает коллекцию.
 
 ```csharp
 public IEnumerator<ICustomXmlPart> GetEnumerator()
 ```
 
-### Возвращаемое значение
+### Значение Возврата
 
-IEnumerator, который можно использовать для перебора коллекции.
+IEnumerator, который может быть использован для перебора коллекции.
 
-### См. также
+### Также Смотрите
 
 * интерфейс [ICustomXmlPart](../../icustomxmlpart)
 * класс [CustomXmlPartCollection](../../customxmlpartcollection)

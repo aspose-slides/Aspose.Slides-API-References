@@ -1,6 +1,6 @@
 ---
 title: TextAnchorType
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt den Textanker-Typ zurück oder legt ihn fest. Lese-/Schreibzugriff auf TextAnchorTypeaspose.slides/textanchortype.
 type: docs
 weight: 200
@@ -15,7 +15,7 @@ Gibt den Textanker-Typ zurück oder legt ihn fest. Lese-/Schreibzugriff auf [`Te
 public TextAnchorType TextAnchorType { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [TextAnchorType](../../textanchortype)
 * interface [ICell](../../icell)

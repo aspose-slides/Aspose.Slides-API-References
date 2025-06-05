@@ -1,15 +1,15 @@
 ---
 title: IsMeteredLicensed
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Vérifiez si le service de mesure est licencié
+second_title: Aspose.Sildes pour .NET API Référence
+description: Vérifiez si le système de facturation à l'usage est sous licence
 type: docs
 weight: 50
 url: /fr/aspose.slides/metered/ismeteredlicensed/
 ---
 
-## Méthode Metered.IsMeteredLicensed
+## Metered.IsMeteredLicensed méthode
 
-Vérifiez si le service de mesure est licencié
+Vérifiez si le système de facturation à l'usage est sous licence
 
 ```csharp
 public static bool IsMeteredLicensed()

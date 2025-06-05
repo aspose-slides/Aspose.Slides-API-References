@@ -1,21 +1,21 @@
 ---
 title: TrendlineType
-second_title: Aspose.Slides für .NET API Referenz
-description: Ruft den Typ der Trendlinie ab oder legt ihn fest. Lesen/Schreiben von TrendlineTypeaspose.slides.charts/trendlinetype.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Erhält oder setzt den Typ der Trendlinie. Lese-/Schreibzugriff auf TrendlineTypeaspose.slides.charts/trendlinetype.
 type: docs
 weight: 140
 url: /de/aspose.slides.charts/trendline/trendlinetype/
 ---
 
-## Trendline.TrendlineType-Eigenschaft
+## Trendline.TrendlineType Eigenschaft
 
-Ruft den Typ der Trendlinie ab oder legt ihn fest. Lesen/Schreiben von [`TrendlineType`](../../trendlinetype).
+Erhält oder setzt den Typ der Trendlinie. Lese-/Schreibzugriff auf [`TrendlineType`](../../trendlinetype).
 
 ```csharp
 public TrendlineType TrendlineType { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [TrendlineType](../../trendlinetype)
 * class [Trendline](../../trendline)

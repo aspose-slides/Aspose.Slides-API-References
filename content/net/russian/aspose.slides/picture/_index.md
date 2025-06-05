@@ -1,7 +1,7 @@
 ---
-title: Картина
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Представляет картину в презентации.
+title: Picture
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет изображение в презентации.
 type: docs
 weight: 9110
 url: /ru/aspose.slides/picture/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/picture/
 
 ## Класс Picture
 
-Представляет картину в презентации.
+Представляет изображение в презентации.
 
 ```csharp
 public sealed class Picture : ISlidesPicture
@@ -17,21 +17,21 @@ public sealed class Picture : ISlidesPicture
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/picture/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../ipresentationcomponent). |
-| [Image](../../aspose.slides/picture/image) { get; set; } | Возвращает или задает встроенное изображение. Чтение/запись [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | Возвращает коллекцию эффектов преобразования изображения. Только для чтения [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
-| [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | Возвращает или задает URL связанного изображения. Чтение/запись строки. |
+| [Image](../../aspose.slides/picture/image) { get; set; } | Возвращает или устанавливает встроенное изображение. Чтение/запись [`IPPImage`](../ippimage). |
+| [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | Возвращает коллекцию эффектов преобразования изображений. Только для чтения [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
+| [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | Возвращает или устанавливает URL связанного изображения. Чтение/запись строка. |
 | [Presentation](../../aspose.slides/picture/presentation) { get; } | Возвращает презентацию. Только для чтения [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/picture/slide) { get; } | Возвращает родительский слайд картины. Только для чтения [`IBaseSlide`](../ibaseslide). |
+| [Slide](../../aspose.slides/picture/slide) { get; } | Возвращает родительский слайд изображения. Только для чтения [`IBaseSlide`](../ibaseslide). |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides/picture/equals)(object) | Сравнивает с указанным объектом. |
-| override [GetHashCode](../../aspose.slides/picture/gethashcode)() | Возвращает хеш. |
+| override [Equals](../../aspose.slides/picture/equals)(object) | Сравнивает с заданным объектом. |
+| override [GetHashCode](../../aspose.slides/picture/gethashcode)() | Возвращает хэш. |
 
 ### См. также
 

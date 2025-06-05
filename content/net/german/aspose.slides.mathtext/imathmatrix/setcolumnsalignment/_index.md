@@ -1,13 +1,13 @@
 ---
 title: SetColumnsAlignment
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Setzen Sie die horizontale Ausrichtung der angegebenen Spalten
 type: docs
 weight: 200
 url: /de/aspose.slides.mathtext/imathmatrix/setcolumnsalignment/
 ---
 
-## IMathMatrix.SetColumnsAlignment-Methode
+## IMathMatrix.SetColumnsAlignment Methode
 
 Setzen Sie die horizontale Ausrichtung der angegebenen Spalten
 
@@ -15,11 +15,11 @@ Setzen Sie die horizontale Ausrichtung der angegebenen Spalten
 public void SetColumnsAlignment(int columnIndex, uint columnsCount, MathHorizontalAlignment val)
 ```
 
-| Parameter     | Typ      | Beschreibung                                                           |
-|---------------|----------|-----------------------------------------------------------------------|
-| columnIndex   | Int32    | Nullbasierter Index der ersten Spalte, für die die Ausrichtung festgelegt werden soll |
-| columnsCount  | UInt32   | Die Anzahl der Spalten, für die die Ausrichtung festgelegt werden soll        |
-| val           | MathHorizontalAlignment | Neuer Wert der horizontalen Ausrichtung der angegebenen Spalte        |
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| columnIndex | Int32 | Nullbasierter Index der ersten Spalte, deren Ausrichtung festgelegt werden soll |
+| columnsCount | UInt32 | Die Anzahl der Spalten, für die die Ausrichtung angegeben werden soll |
+| val | MathHorizontalAlignment | Neuer Wert der horizontalen Ausrichtung der angegebenen Spalte |
 
 ### Beispiele
 
@@ -31,7 +31,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.SetColumnAlignment(0, 3, MathHorizontalAlignment.Left);
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [MathHorizontalAlignment](../../mathhorizontalalignment)
 * interface [IMathMatrix](../../imathmatrix)

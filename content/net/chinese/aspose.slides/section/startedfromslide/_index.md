@@ -15,7 +15,7 @@ url: /zh/aspose.slides/section/startedfromslide/
 public ISlide StartedFromSlide { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [ISlide](../../islide)
 * 类 [Section](../../section)

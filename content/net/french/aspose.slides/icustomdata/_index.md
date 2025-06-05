@@ -19,8 +19,8 @@ public interface ICustomData
 
 | Nom | Description |
 | --- | --- |
-| [CustomXmlParts](../../aspose.slides/icustomdata/customxmlparts) { get; } | Renvoie la collection des parties XML personnalisées. Lecture seule [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
-| [Tags](../../aspose.slides/icustomdata/tags) { get; } | Renvoie la collection des étiquettes de données personnalisées. Lecture seule [`ITagCollection`](../itagcollection). |
+| [CustomXmlParts](../../aspose.slides/icustomdata/customxmlparts) { get; } | Renvoie la collection de parties XML personnalisées. Lecture seule [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
+| [Tags](../../aspose.slides/icustomdata/tags) { get; } | Renvoie la collection de balises de données client. Lecture seule [`ITagCollection`](../itagcollection). |
 
 ### Voir Aussi
 

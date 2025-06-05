@@ -1,7 +1,7 @@
 ---
 title: HorizontalBarState
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Zustand an, in dem die horizontale Trennleiste angezeigt werden soll. Eine horizontale Trennleiste trennt die Folie vom Inhaltsbereich unterhalb der Folie.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den Zustand an, in dem die horizontale Trennleiste angezeigt werden soll. Eine horizontale Trennleiste trennt die Folie von dem Inhaltsbereich unter der Folie.
 type: docs
 weight: 10
 url: /de/aspose.slides/inormalviewproperties/horizontalbarstate/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/inormalviewproperties/horizontalbarstate/
 
 ## INormalViewProperties.HorizontalBarState-Eigenschaft
 
-Gibt den Zustand an, in dem die horizontale Trennleiste angezeigt werden soll. Eine horizontale Trennleiste trennt die Folie vom Inhaltsbereich unterhalb der Folie.
+Gibt den Zustand an, in dem die horizontale Trennleiste angezeigt werden soll. Eine horizontale Trennleiste trennt die Folie von dem Inhaltsbereich unter der Folie.
 
 ```csharp
 public SplitterBarStateType HorizontalBarState { get; set; }

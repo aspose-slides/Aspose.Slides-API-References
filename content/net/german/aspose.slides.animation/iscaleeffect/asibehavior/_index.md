@@ -1,7 +1,7 @@
 ---
 title: AsIBehavior
-second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht den Zugriff auf das Basis-IBehavior-Interface. Nur lesbares IBehavioraspose.slides.animation/ibehavior.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ermöglicht den Zugriff auf die Basisschnittstelle IBehavior. Nur-Lese IBehavioraspose.slides.animation/ibehavior.
 type: docs
 weight: 10
 url: /de/aspose.slides.animation/iscaleeffect/asibehavior/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/iscaleeffect/asibehavior/
 
 ## IScaleEffect.AsIBehavior-Eigenschaft
 
-Ermöglicht den Zugriff auf das Basis-IBehavior-Interface. Nur lesbares [`IBehavior`](../../ibehavior).
+Ermöglicht den Zugriff auf die Basisschnittstelle IBehavior. Nur-Lese [`IBehavior`](../../ibehavior).
 
 ```csharp
 public IBehavior AsIBehavior { get; }
@@ -17,8 +17,8 @@ public IBehavior AsIBehavior { get; }
 
 ### Siehe auch
 
-* Interface [IBehavior](../../ibehavior)
-* Interface [IScaleEffect](../../iscaleeffect)
+* Schnittstelle [IBehavior](../../ibehavior)
+* Schnittstelle [IScaleEffect](../../iscaleeffect)
 * Namespace [Aspose.Slides.Animation](../../iscaleeffect)
 * Assembly [Aspose.Slides](../../../)
 

@@ -1,15 +1,15 @@
 ---
 title: IsAutomaticUnderflowBin
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Especifica el valor del depósito de subdesbordamiento automático. Si es falso, usa la propiedad UnderflowBin.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Especifica el valor de la bandeja de subdesbordamiento automático. Si es falso, utiliza la propiedad UnderflowBin.
 type: docs
 weight: 250
 url: /es/aspose.slides.charts/iaxis/isautomaticunderflowbin/
 ---
 
-## Propiedad IAxis.IsAutomaticUnderflowBin
+## IAxis.IsAutomaticUnderflowBin property
 
-Especifica el valor del depósito de subdesbordamiento automático. Si es falso: usa la propiedad UnderflowBin.
+Especifica el valor de la bandeja de subdesbordamiento automático. Si es falso: utiliza la propiedad UnderflowBin.
 
 ```csharp
 public bool IsAutomaticUnderflowBin { get; set; }
@@ -19,6 +19,6 @@ public bool IsAutomaticUnderflowBin { get; set; }
 
 * interfaz [IAxis](../../iaxis)
 * espacio de nombres [Aspose.Slides.Charts](../../iaxis)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/controlcollection/item/
 ---
+
 ## ControlCollection indexer
 
 Returns a control at the specified position.

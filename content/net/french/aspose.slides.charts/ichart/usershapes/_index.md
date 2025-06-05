@@ -1,7 +1,7 @@
 ---
 title: UserShapes
-second_title: Références de l'API Aspose.Slides pour .NET
-description: Spécifiez les formes dessinées sur le graphique. Propriété en lecture seule IGroupShape aspose.slides/igroupshape.
+second_title: Référence API Aspose.Slides pour .NET
+description: Spécifiez les formes dessinées sur le graphique. Lecture seule IGroupShapeaspose.slides/igroupshape.
 type: docs
 weight: 230
 url: /fr/aspose.slides.charts/ichart/usershapes/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/ichart/usershapes/
 
 ## Propriété IChart.UserShapes
 
-Spécifiez les formes dessinées sur le graphique. Propriété en lecture seule [`IGroupShape`](../../../aspose.slides/igroupshape).
+Spécifiez les formes dessinées sur le graphique. Lecture seule [`IGroupShape`](../../../aspose.slides/igroupshape).
 
 ```csharp
 public IGroupShape UserShapes { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IGroupShape](../../../aspose.slides/igroupshape)
 * interface [IChart](../../ichart)

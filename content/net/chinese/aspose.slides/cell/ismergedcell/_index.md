@@ -1,7 +1,7 @@
 ---
 title: IsMergedCell
-second_title: Aspose.Sildes for .NET API 参考
-description: 如果单元格与任何调整的单元格合并，则返回 true，否则返回 false。只读布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 如果单元格与任何调整过的单元格合并，则返回true，否则返回false。只读布尔值。
 type: docs
 weight: 90
 url: /zh/aspose.slides/cell/ismergedcell/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/cell/ismergedcell/
 
 ## Cell.IsMergedCell 属性
 
-如果单元格与任何调整的单元格合并，则返回 true，否则返回 false。只读布尔值。
+如果单元格与任何调整过的单元格合并，则返回true，否则返回false。只读布尔值。
 
 ```csharp
 public bool IsMergedCell { get; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * class [Cell](../../cell)
 * namespace [Aspose.Slides](../../cell)

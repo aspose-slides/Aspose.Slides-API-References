@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/ibaseportionformateffectivedata/highlightcolor/
 ---
+
 ## IBasePortionFormatEffectiveData.HighlightColor property
 
 Returns the color used to highlight a text. Read-only Color.

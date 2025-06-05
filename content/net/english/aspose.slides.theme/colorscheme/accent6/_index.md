@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.theme/colorscheme/accent6/
 ---
+
 ## ColorScheme.Accent6 property
 
 Sixth accent color in the scheme. Read-only [`IColorFormat`](../../../aspose.slides/icolorformat).

@@ -1,7 +1,7 @@
 ---
 title: TextFrame
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie l'objet TextFrame pour l'AutoShape. Lecture seule ITextFrameaspose.slides/itextframe.
+second_title: Référence API Aspose.Slides pour .NET
+description: Retourne l'objet TextFrame pour l'AutoShape. Lecture seule ITextFrame aspose.slides/itextframe.
 type: docs
 weight: 50
 url: /fr/aspose.slides/iautoshape/textframe/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/iautoshape/textframe/
 
 ## Propriété IAutoShape.TextFrame
 
-Renvoie l'objet TextFrame pour l'AutoShape. Lecture seule [`ITextFrame`](../../itextframe).
+Retourne l'objet TextFrame pour l'AutoShape. Lecture seule [`ITextFrame`](../../itextframe).
 
 ```csharp
 public ITextFrame TextFrame { get; }

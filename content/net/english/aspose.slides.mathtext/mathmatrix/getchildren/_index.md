@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides.mathtext/mathmatrix/getchildren/
 ---
+
 ## MathMatrix.GetChildren method
 
 Get children elements

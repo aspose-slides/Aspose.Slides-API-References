@@ -1,7 +1,7 @@
 ---
 title: IsBulletHardFont
 second_title: Aspose.Slides для .NET API Справочник
-description: Определяет, имеет ли буллет собственный шрифт или наследует его от первой части параграфа. NullableBool.True, если у буллета есть собственный шрифт, и NullableBool.False, если буллет наследует шрифт от первой части параграфа. Чтение/запись NullableBoolaspose.slides/nullablebool.
+description: Определяет, имеет ли буллет собственный шрифт или наследует его от первой части в абзаце. NullableBool.True, если буллет имеет собственный шрифт, и NullableBool.False, если буллет наследует шрифт от первой части в абзаце. Чтение/запись NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 60
 url: /ru/aspose.slides/bulletformat/isbullethardfont/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/bulletformat/isbullethardfont/
 
 ## BulletFormat.IsBulletHardFont свойство
 
-Определяет, имеет ли буллет собственный шрифт или наследует его от первой части параграфа. **NullableBool.True**, если у буллета есть собственный шрифт, и **NullableBool.False**, если буллет наследует шрифт от первой части параграфа. Чтение/запись [`NullableBool`](../../nullablebool).
+Определяет, имеет ли буллет собственный шрифт или наследует его от первой части в абзаце. **NullableBool.True**, если буллет имеет собственный шрифт, и **NullableBool.False**, если буллет наследует шрифт от первой части в абзаце. Чтение/запись [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool IsBulletHardFont { get; set; }

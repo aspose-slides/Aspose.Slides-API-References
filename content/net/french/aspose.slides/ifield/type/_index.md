@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne ou définit le type de champ. Lecture/écriture IFieldTypeaspose.slides/ifieldtype.
+description: Renvoie ou définit le type de champ. Lecture/écriture IFieldTypeaspose.slides/ifieldtype.
 type: docs
 weight: 20
 url: /fr/aspose.slides/ifield/type/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ifield/type/
 
 ## Propriété IField.Type
 
-Retourne ou définit le type du champ. Lecture/écriture [`IFieldType`](../../ifieldtype).
+Renvoie ou définit le type de champ. Lecture/écriture [`IFieldType`](../../ifieldtype).
 
 ```csharp
 public IFieldType Type { get; set; }

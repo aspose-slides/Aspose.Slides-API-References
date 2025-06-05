@@ -1,7 +1,7 @@
 ---
-title: 对齐
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置段落中的文本对齐方式，不继承。可读/可写 TextAlignmentaspose.slides/textalignment。
+title: Alignment
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置段落中的文本对齐方式，不进行继承。可读写 TextAlignmentaspose.slides/textalignment。
 type: docs
 weight: 20
 url: /zh/aspose.slides/paragraphformat/alignment/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/paragraphformat/alignment/
 
 ## ParagraphFormat.Alignment 属性
 
-返回或设置段落中的文本对齐方式，不继承。可读/可写 [`TextAlignment`](../../textalignment)。
+返回或设置段落中的文本对齐方式，不进行继承。可读写 [`TextAlignment`](../../textalignment)。
 
 ```csharp
 public TextAlignment Alignment { get; set; }
@@ -21,7 +21,7 @@ public TextAlignment Alignment { get; set; }
 
 ```csharp
 [C#]
-// 实例化一个表示 PPTX 文件的 Presentation 对象
+// 实例化表示 PPTX 文件的 Presentation 对象
 using (Presentation pres = new Presentation("ParagraphsAlignment.pptx"))
 {
     // 访问第一张幻灯片
@@ -30,15 +30,15 @@ using (Presentation pres = new Presentation("ParagraphsAlignment.pptx"))
     ITextFrame tf1 = ((IAutoShape)slide.Shapes[0]).TextFrame;
     ITextFrame tf2 = ((IAutoShape)slide.Shapes[1]).TextFrame;
     // 更改两个占位符中的文本
-    tf1.Text = "由 Aspose 居中对齐";
-    tf2.Text = "由 Aspose 居中对齐";
+    tf1.Text = "Center Align by Aspose";
+    tf2.Text = "Center Align by Aspose";
     // 获取占位符中的第一个段落
     IParagraph para1 = tf1.Paragraphs[0];
     IParagraph para2 = tf2.Paragraphs[0];
     // 将文本段落对齐到中心
     para1.ParagraphFormat.Alignment = TextAlignment.Center;
     para2.ParagraphFormat.Alignment = TextAlignment.Center;
-    // 将演示文稿保存为 PPTX 文件
+    // 将演示文稿写入 PPTX 文件
     pres.Save("Centeralign_out.pptx", SaveFormat.Pptx);
 }
 ```

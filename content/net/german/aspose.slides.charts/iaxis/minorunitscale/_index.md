@@ -1,7 +1,7 @@
 ---
 title: MinorUnitScale
 second_title: Aspose.Slides für .NET API Referenz
-description: Stellt die Haupt-Einheitenskala für die Datumsachse dar. Lesen/Schreiben von TimeUnitTypeaspose.slides.charts/timeunittype.
+description: Stellt die Hauptgewichtseinheit für die Datumachse dar. Lese-/schreibbare TimeUnitTypeaspose.slides.charts/timeunittype.
 type: docs
 weight: 420
 url: /de/aspose.slides.charts/iaxis/minorunitscale/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/iaxis/minorunitscale/
 
 ## IAxis.MinorUnitScale-Eigenschaft
 
-Stellt die Haupt-Einheitenskala für die Datumsachse dar. Lesen/Schreiben von [`TimeUnitType`](../../timeunittype).
+Stellt die Hauptgewichtseinheit für die Datumachse dar. Lese-/schreibbare [`TimeUnitType`](../../timeunittype).
 
 ```csharp
 public TimeUnitType MinorUnitScale { get; set; }

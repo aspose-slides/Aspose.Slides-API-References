@@ -1,6 +1,6 @@
 ---
 title: ShapeAdjustmentType
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Especifica diferentes tipos de valores de ajuste de forma.
 type: docs
 weight: 9530
@@ -29,18 +29,18 @@ public enum ShapeAdjustmentType
 | ArrowTailThickness | `7` | Controla el grosor de la cola de la flecha. |
 | ArrowheadLength | `8` | Controla la longitud de la punta de la flecha. |
 | ArrowheadWidth | `9` | Controla el ancho de la punta de la flecha. |
-| Radius | `10` | Controla el tamaño del radio de la forma o de su parte. |
-| Depth | `11` | Controla la profundidad de los dientes del engranaje o el efecto de bisel. |
+| Radius | `10` | Controla el tamaño del radio de la forma o su parte. |
+| Depth | `11` | Controla la profundidad de los dientes de engranaje o el efecto de bisel. |
 | ShapePartOffset | `12` | Controla el desplazamiento de una parte de la figura en relación con otra. |
-| Angle | `13` | Controla el ángulo de la figura o de su parte. |
-| StartAngle | `14` | Ángulo inicial para formas de pastel y arco. |
+| Angle | `13` | Controla el ángulo de la figura o su parte. |
+| StartAngle | `14` | Ángulo de inicio para formas de pastel y arco. |
 | EndAngle | `15` | Ángulo final para formas de pastel y arco. |
 | StartPointX | `16` | Controla la posición X del punto de inicio de la llamada. |
 | StartPointY | `17` | Controla la posición Y del punto de inicio de la llamada. |
-| ConnectorPoint1X | `18` | Controla la posición horizontal del punto de ajuste de ángulo de la llamada. |
-| ConnectorPoint1Y | `19` | Controla la posición vertical del punto de ajuste de ángulo de la llamada. |
-| ConnectorPoint2X | `20` | Controla la posición horizontal del punto de ajuste de ángulo de la llamada. |
-| ConnectorPoint2Y | `21` | Controla la posición vertical del punto de ajuste de ángulo de la llamada. |
+| ConnectorPoint1X | `18` | Controla la posición horizontal del punto de ajuste del ángulo de la llamada. |
+| ConnectorPoint1Y | `19` | Controla la posición vertical del punto de ajuste del ángulo de la llamada. |
+| ConnectorPoint2X | `20` | Controla la posición horizontal del punto de ajuste del ángulo de la llamada. |
+| ConnectorPoint2Y | `21` | Controla la posición vertical del punto de ajuste del ángulo de la llamada. |
 | ConnectorBendPositionX | `22` | Controla la posición horizontal de la curva en el conector. |
 | ConnectorBendPositionY | `23` | Controla la posición vertical de la curva en el conector. |
 | AttachY | `24` | Controla el punto de sujeción vertical de la figura. |
@@ -48,9 +48,9 @@ public enum ShapeAdjustmentType
 | CalloutHeight | `26` | Controla el tamaño vertical de la llamada. |
 | CalloutWidth | `27` | Controla el tamaño horizontal de la llamada. |
 | CalloutSize | `28` | Controla el tamaño de la llamada. |
-| Curvature | `29` | Curvatura de una flecha doblada, soportes, curva o forma. |
-| HorizontalThickness | `30` | Controla el grosor horizontal de la forma de esquina. |
-| VerticalThickness | `31` | Controla el grosor vertical de la forma de esquina. |
+| Curvature | `29` | Curvatura de una flecha doblada, soporte, curvada o forma. |
+| HorizontalThickness | `30` | Controla el grosor horizontal de la forma esquina. |
+| VerticalThickness | `31` | Controla el grosor vertical de la forma esquina. |
 | VerticalSize | `32` | Controla el tamaño vertical de la forma. |
 | HorizontalSize | `33` | Controla el tamaño horizontal de la forma. |
 | Top | `34` | Controla el lado superior de una forma. |

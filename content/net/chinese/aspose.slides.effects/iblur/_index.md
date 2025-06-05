@@ -1,7 +1,7 @@
 ---
 title: IBlur
-second_title: Aspose.Slides for .NET API 参考
-description: 表示应用于整个形状的模糊效果，包括其填充。所有颜色通道（包括 alpha）都会受到影响。
+second_title: Aspose.Sildes for .NET API Reference
+description: 代表应用于整个形状的模糊效果，包括其填充。所有颜色通道，包括 alpha，都受到影响。
 type: docs
 weight: 3080
 url: /zh/aspose.slides.effects/iblur/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/iblur/
 
 ## IBlur 接口
 
-表示应用于整个形状的模糊效果，包括其填充。所有颜色通道，包括 alpha，都会受到影响。
+表示应用于整个形状的模糊效果，包括其填充。所有颜色通道，包括 alpha，均受到影响。
 
 ```csharp
 public interface IBlur : IAccessiblePVIObject<IBlurEffectiveData>, IImageTransformOperation
@@ -19,10 +19,10 @@ public interface IBlur : IAccessiblePVIObject<IBlurEffectiveData>, IImageTransfo
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iblur/asiaccessiblepviobject) { get; } | 允许获取基本的 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iblur/asiimagetransformoperation) { get; } | 允许获取基本的 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
-| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | 确定模糊后对象的边界是否应扩大。 true 表示边界扩大，而 false 表示不扩大。可读/可写布尔值。 |
-| [Radius](../../aspose.slides.effects/iblur/radius) { get; set; } | 返回或设置模糊半径。可读/可写双精度浮点数。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iblur/asiaccessiblepviobject) { get; } | 允许获取基本的 IAccessiblePVIObject 接口。仅限读取 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iblur/asiimagetransformoperation) { get; } | 允许获取基本的 IImageTransformOperation 接口。仅限读取 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | 确定对象的边界在模糊后是否应扩大。true 表示边界被扩大，而 false 表示不扩大。读写布尔值。 |
+| [Radius](../../aspose.slides.effects/iblur/radius) { get; set; } | 获取或设置模糊半径。读写双精度浮点数。 |
 
 ### 另见
 

@@ -1,6 +1,6 @@
 ---
 title: MarkdownExportType
-second_title: Aspose.Slides pour .NET API Référence
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Type de document de rendu.
 type: docs
 weight: 4070
@@ -44,7 +44,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * namespace [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)

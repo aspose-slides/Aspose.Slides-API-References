@@ -18,7 +18,7 @@ public IMathRightSubSuperscriptElement CreateMathRightSubSuperscriptElement(IMat
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| baseArg | IMathElement | Argument de base pour appliquer des index |
+| baseArg | IMathElement | Argument de base pour appliquer les index |
 | subScript | IMathElement | index inférieur droit |
 | superScript | IMathElement | index supérieur droit |
 

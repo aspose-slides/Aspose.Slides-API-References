@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Удаляет элемент по указанному индексу.
 type: docs
 weight: 320
 url: /ru/aspose.slides.charts/chartdatapointcollection/removeat/
 ---
 
-## Метод ChartDataPointCollection.RemoveAt
+## ChartDataPointCollection.RemoveAt метод
 
 Удаляет элемент по указанному индексу.
 

@@ -1,7 +1,7 @@
 ---
-title: Höhe
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Bullet-Höhe eines Absatzes zurück. Nur lesbar Single.
+title: Height
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Aufzählungszeichenhöhe eines Absatzes zurück. Schreibgeschützte Single.
 type: docs
 weight: 50
 url: /de/aspose.slides/ibulletformateffectivedata/height/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ibulletformateffectivedata/height/
 
 ## IBulletFormatEffectiveData.Height-Eigenschaft
 
-Gibt die Bullet-Höhe eines Absatzes zurück. Nur lesbar Single.
+Gibt die Aufzählungszeichenhöhe eines Absatzes zurück. Schreibgeschützte Single.
 
 ```csharp
 public float Height { get; }

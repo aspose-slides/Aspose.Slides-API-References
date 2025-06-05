@@ -1,6 +1,6 @@
 ---
 title: GetEffectsByParagraph
-second_title: Aspose.Slides для .NET Справочник по API
+second_title: Aspose.Sildes for .NET API Reference
 description: Возвращает массив эффектов для указанного абзаца.
 type: docs
 weight: 80
@@ -19,11 +19,11 @@ public IEffect[] GetEffectsByParagraph(IParagraph paragraph)
 | --- | --- | --- |
 | paragraph | IParagraph | Объект абзаца [`IParagraph`](../../../aspose.slides/iparagraph) |
 
-### Значение Возврата
+### Возвращаемое значение
 
 Массив эффектов [`IEffect`](../../ieffect)
 
-### См. Также
+### Смотрите также
 
 * интерфейс [IEffect](../../ieffect)
 * интерфейс [IParagraph](../../../aspose.slides/iparagraph)

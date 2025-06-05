@@ -1,7 +1,7 @@
 ---
 title: IndexOf
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Recherche le ChartCategoryaspose.slides.charts/chartcategory spécifié et renvoie l'index basé sur zéro de la première occurrence dans l'ensemble complet.
+second_title: Référence API Aspose.Slides pour .NET
+description: Recherche le ChartCategory spécifié aspose.slides.charts/chartcategory et retourne l'index zéro basé de la première occurrence dans l'ensemble de la Collection.
 type: docs
 weight: 110
 url: /fr/aspose.slides.charts/chartcategorycollection/indexof/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/chartcategorycollection/indexof/
 
 ## Méthode ChartCategoryCollection.IndexOf
 
-Recherche le [`ChartCategory`](../../chartcategory) spécifié et renvoie l'index basé sur zéro de la première occurrence dans l'ensemble complet.
+Recherche le [`ChartCategory`](../../chartcategory) spécifié et retourne l'index zéro basé de la première occurrence dans l'ensemble de la Collection.
 
 ```csharp
 public int IndexOf(IChartCategory value)
@@ -21,12 +21,12 @@ public int IndexOf(IChartCategory value)
 
 ### Valeur de retour
 
-L'index basé sur zéro de la première occurrence de la valeur dans l'ensemble complet, si trouvé ; sinon, -1.
+L'index zéro basé de la première occurrence de valeur dans l'ensemble de CollectionBase, si trouvé ; sinon, -1.
 
 ### Voir aussi
 
 * interface [IChartCategory](../../ichartcategory)
-* class [ChartCategoryCollection](../../chartcategorycollection)
+* classe [ChartCategoryCollection](../../chartcategorycollection)
 * namespace [Aspose.Slides.Charts](../../chartcategorycollection)
 * assembly [Aspose.Slides](../../../)
 

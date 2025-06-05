@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides/ilineformateffectivedata/sketchformat/
 ---
+
 ## ILineFormatEffectiveData.SketchFormat property
 
 Returns the sketch format of a line. Read-only [`ISketchFormatEffectiveData`](../../isketchformateffectivedata).

@@ -1,13 +1,13 @@
 ---
 title: AddAuthor
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Ajouter un nouvel auteur à la fin d'une collection.
 type: docs
 weight: 50
 url: /fr/aspose.slides/commentauthorcollection/addauthor/
 ---
 
-## Méthode CommentAuthorCollection.AddAuthor
+## CommentAuthorCollection.AddAuthor méthode
 
 Ajouter un nouvel auteur à la fin d'une collection.
 
@@ -22,15 +22,15 @@ public ICommentAuthor AddAuthor(string name, string initials)
 
 ### Valeur de retour
 
-Nouvel [`ICommentAuthor`](../../icommentauthor) objet.
+Nouvel objet [`ICommentAuthor`](../../icommentauthor).
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Lancé si un auteur avec le même nom et les mêmes initiales est déjà ajouté. |
+| [PptxEditException](../../pptxeditexception) | Levée si un auteur avec le même nom et les mêmes initiales a déjà été ajouté. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ICommentAuthor](../../icommentauthor)
 * class [CommentAuthorCollection](../../commentauthorcollection)

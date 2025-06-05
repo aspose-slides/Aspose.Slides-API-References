@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/idocumentproperties/author/
 ---
+
 ## IDocumentProperties.Author property
 
 Returns or sets the author of a presentation. Read/write String.

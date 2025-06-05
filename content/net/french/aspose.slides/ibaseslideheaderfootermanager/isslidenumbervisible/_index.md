@@ -1,21 +1,21 @@
 ---
 title: IsSlideNumberVisible
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient une valeur indiquant qu'un espace réservé pour le numéro de page est présent. ReadBoolean.
+description: Obtient la valeur indiquant qu'un espace réservé pour le numéro de page est présent. ReadBoolean.
 type: docs
 weight: 40
 url: /fr/aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible/
 ---
 
-## Propriété IBaseSlideHeaderFooterManager.IsSlideNumberVisible
+## IBaseSlideHeaderFooterManager.IsSlideNumberVisible property
 
-Obtient une valeur indiquant qu'un espace réservé pour le numéro de page est présent. ReadBoolean.
+Obtient la valeur indiquant qu'un espace réservé pour le numéro de page est présent. ReadBoolean.
 
 ```csharp
 public bool IsSlideNumberVisible { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IBaseSlideHeaderFooterManager](../../ibaseslideheaderfootermanager)
 * namespace [Aspose.Slides](../../ibaseslideheaderfootermanager)

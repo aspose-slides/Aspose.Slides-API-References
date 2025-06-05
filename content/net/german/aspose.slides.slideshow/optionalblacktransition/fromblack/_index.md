@@ -1,7 +1,7 @@
 ---
 title: FromBlack
 second_title: Aspose.Slides für .NET API Referenz
-description: Dieses Attribut gibt an, ob die Übergangsanimation von einem schwarzen Bildschirm startet und dann die neue Folie über Schwarz überblendet. Lese-/Schreibbare Boolean.
+description: Dieses Attribut gibt an, ob die Übergangsanimation von einem schwarzen Bildschirm beginnen und dann die neue Folie über schwarz überblenden wird. Lese-/Schreibbare Boolean.
 type: docs
 weight: 10
 url: /de/aspose.slides.slideshow/optionalblacktransition/fromblack/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.slideshow/optionalblacktransition/fromblack/
 
 ## OptionalBlackTransition.FromBlack-Eigenschaft
 
-Dieses Attribut gibt an, ob die Übergangsanimation von einem schwarzen Bildschirm startet (und dann die neue Folie über Schwarz überblendet). Lese-/Schreibbare Boolean.
+Dieses Attribut gibt an, ob die Übergangsanimation von einem schwarzen Bildschirm (und dann die neue Folie über schwarz) beginnen wird. Lese-/Schreibbare Boolean.
 
 ```csharp
 public bool FromBlack { get; set; }

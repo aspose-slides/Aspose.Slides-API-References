@@ -1,7 +1,7 @@
 ---
 title: DataSourceTypeForYMinusValues
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt an, ob die Eigenschaft AsCell, AsLiteralString oder AsLiteralDouble in den YMinus-Eigenschaftsobjekten der Datenpunkte für benutzerdefinierte Fehlerbalkenwerte aktuell ist. Mit anderen Worten, sie gibt den Typ des Wertes der Eigenschaft ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data an. Lese-/schreibbare DataSourceTypeaspose.slides.charts/datasourcetype.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt an, ob die Eigenschaften AsCell oder AsLiteralString oder AsLiteralDouble in den YMinus-Eigenschaften der Datenpunktobjekte für benutzerdefinierte Fehlerbalkenwerte aktuell sind. Mit anderen Worten, es gibt den Typ des Wertes der Eigenschaften ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data an. Lese-/Schreibzugriff auf DataSourceTypeaspose.slides/datasourcetype.
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasource
 
 ## IDataSourceTypeForErrorBarsCustomValues.DataSourceTypeForYMinusValues-Eigenschaft
 
-Gibt an, ob die Eigenschaft AsCell, AsLiteralString oder AsLiteralDouble in den YMinus-Eigenschaftsobjekten der Datenpunkte für benutzerdefinierte Fehlerbalkenwerte aktuell ist. Mit anderen Worten, sie gibt den Typ des Wertes der Eigenschaft ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data an. Lese-/schreibbare [`DataSourceType`](../../datasourcetype).
+Gibt an, ob die Eigenschaften AsCell oder AsLiteralString oder AsLiteralDouble in den YMinus-Eigenschaften der Datenpunktobjekte für benutzerdefinierte Fehlerbalkenwerte aktuell sind. Mit anderen Worten, es gibt den Typ des Wertes der Eigenschaften ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data an. Lese-/Schreibzugriff auf [`DataSourceType`](../../datasourcetype).
 
 ```csharp
 public DataSourceType DataSourceTypeForYMinusValues { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [DataSourceType](../../datasourcetype)
 * interface [IDataSourceTypeForErrorBarsCustomValues](../../idatasourcetypeforerrorbarscustomvalues)

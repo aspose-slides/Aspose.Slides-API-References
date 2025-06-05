@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/commentauthor/name/
 ---
+
 ## CommentAuthor.Name property
 
 Returns or sets the author's name. Read/write String.

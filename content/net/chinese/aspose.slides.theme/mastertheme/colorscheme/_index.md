@@ -1,7 +1,7 @@
 ---
-title: 颜色方案
-second_title: Aspose.Slides for .NET API 参考
-description: 返回颜色方案。只读 IColorScheme aspose.slides.theme/icolorscheme。
+title: ColorScheme
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回颜色方案。只读 IColorSchemeaspose.slides.theme/icolorscheme。
 type: docs
 weight: 10
 url: /zh/aspose.slides.theme/mastertheme/colorscheme/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.theme/mastertheme/colorscheme/
 public override IColorScheme ColorScheme { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IColorScheme](../../icolorscheme)
 * 类 [MasterTheme](../../mastertheme)

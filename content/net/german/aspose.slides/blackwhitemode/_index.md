@@ -7,9 +7,9 @@ weight: 940
 url: /de/aspose.slides/blackwhitemode/
 ---
 
-## BlackWhiteMode Enumeration
+## BlackWhiteMode Aufzählung
 
-Bestimmt, wie farbige Formen in Schwarz und Weiß umgewandelt werden sollen.
+Bestimmt, wie farbige Form in Schwarz und Weiß umgewandelt werden soll.
 
 ```csharp
 public enum BlackWhiteMode : sbyte
@@ -19,12 +19,12 @@ public enum BlackWhiteMode : sbyte
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| NotDefined | `-1` | Die Eigenschaft ist nicht festgelegt |
+| NotDefined | `-1` | Die Eigenschaft ist nicht gesetzt |
 | Color | `0` | Das Objekt wird mit normaler Farbgebung gerendert |
 | Automatic | `1` | Das Objekt wird mit automatischer Farbgebung gerendert |
 | Gray | `2` | Das Objekt wird mit grauer Farbgebung gerendert |
 | LightGray | `3` | Das Objekt wird mit hellgrauer Farbgebung gerendert |
-| InverseGray | `4` | Das Objekt wird mit umgekehrter grauer Farbgebung gerendert |
+| InverseGray | `4` | Das Objekt wird mit inverser grauer Farbgebung gerendert |
 | GrayWhite | `5` | Das Objekt wird mit grauer und weißer Farbgebung gerendert |
 | BlackGray | `6` | Das Objekt wird mit schwarzer und grauer Farbgebung gerendert |
 | BlackWhite | `7` | Das Objekt wird mit schwarzer und weißer Farbgebung gerendert |
@@ -32,7 +32,7 @@ public enum BlackWhiteMode : sbyte
 | White | `9` | Das Objekt wird mit weißer Farbgebung gerendert |
 | Hidden | `10` | Das Objekt wird nicht gerendert |
 
-### Siehe auch
+### Siehe Auch
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

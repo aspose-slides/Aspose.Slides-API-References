@@ -1,7 +1,7 @@
 ---
 title: AddNotesSlide
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает слайд заметок для текущего слайда, создавая его, если его нет.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает слайд заметок для текущего слайда, создавая его, если он отсутствует.
 type: docs
 weight: 20
 url: /ru/aspose.slides/notesslidemanager/addnotesslide/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/notesslidemanager/addnotesslide/
 
 ## NotesSlideManager.AddNotesSlide метод
 
-Возвращает слайд заметок для текущего слайда, создавая его, если его нет.
+Возвращает слайд заметок для текущего слайда, создавая его, если он отсутствует.
 
 ```csharp
 public INotesSlide AddNotesSlide()

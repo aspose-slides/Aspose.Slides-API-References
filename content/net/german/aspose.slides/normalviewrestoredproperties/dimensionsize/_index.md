@@ -1,7 +1,7 @@
 ---
 title: DimensionSize
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Größe der Folienregion an Breite bei Kind von RestoredTop, Höhe bei Kind von RestoredLeft. Lese-/Schreibzugriff auf Einzelwerte.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Größe der Folienregion an Breite, wenn ein Kind von RestoredTop, Höhe, wenn ein Kind von RestoredLeft. Lese-/Schreibzugriff auf Single.
 type: docs
 weight: 20
 url: /de/aspose.slides/normalviewrestoredproperties/dimensionsize/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/normalviewrestoredproperties/dimensionsize/
 
 ## NormalViewRestoredProperties.DimensionSize-Eigenschaft
 
-Gibt die Größe der Folienregion an (Breite bei Kind von RestoredTop, Höhe bei Kind von RestoredLeft). Lese-/Schreibzugriff auf Einzelwerte.
+Gibt die Größe der Folienregion an (Breite, wenn ein Kind von RestoredTop, Höhe, wenn ein Kind von RestoredLeft). Lese-/Schreibzugriff auf Single.
 
 ```csharp
 public float DimensionSize { get; set; }
@@ -21,7 +21,7 @@ public float DimensionSize { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Wird ausgelöst, wenn der Wert kleiner als 0 oder größer als 100 ist. |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [NormalViewRestoredProperties](../../normalviewrestoredproperties)
 * Namespace [Aspose.Slides](../../normalviewrestoredproperties)

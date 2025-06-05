@@ -1,6 +1,6 @@
 ---
-title: Изображения
-second_title: Справка по API Aspose.Slides для .NET
+title: Images
+second_title: Aspose.Slides для .NET API Справочник
 description: Методы для создания и работы с IImage./iimage.
 type: docs
 weight: 7240
@@ -17,10 +17,10 @@ public static class Images
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | static [FromFile](../../aspose.slides/images/fromfile#fromfile)(string) | Создать изображение из файла. |
-| static [FromFile](../../aspose.slides/images/fromfile#fromfile_1)(string, bool) | Создать изображение из файла. |
+| static [FromFile](../../aspose.slides/images/fromfile#fromfile_1)(string, bool) | Создать изображение из файла |
 | static [FromStream](../../aspose.slides/images/fromstream#fromstream)(Stream) | Создать изображение из потока. |
 | static [FromStream](../../aspose.slides/images/fromstream#fromstream_1)(Stream, bool) | Создать изображение из потока. |
 | static [FromStream](../../aspose.slides/images/fromstream#fromstream_2)(Stream, bool, bool) | Создать изображение из потока. |

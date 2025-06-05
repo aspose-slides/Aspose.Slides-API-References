@@ -1,24 +1,24 @@
----  
-title: StrokeOn  
-second_title: Referencia de API de Aspose.Slides para .NET  
+---
+title: StrokeOn
+second_title: Aspose.Slides para .NET API Referencia
 description: Representa la propiedad stroke.on
-type: docs  
-weight: 980  
+type: docs
+weight: 980
 url: /es/aspose.slides.animation/behaviorproperty/strokeon/
----  
+---
 
-## Propiedad BehaviorProperty.StrokeOn  
+## Propiedad BehaviorProperty.StrokeOn
 
-Representa la propiedad 'stroke.on'  
+Representa la propiedad 'stroke.on'
 
-```csharp  
-public static BehaviorProperty StrokeOn { get; }  
-```  
+```csharp
+public static BehaviorProperty StrokeOn { get; }
+```
 
-### Véase también  
+### Ver También
 
-* clase [BehaviorProperty](../../behaviorproperty)  
-* espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)  
-* ensamblaje [Aspose.Slides](../../../)  
+* clase [BehaviorProperty](../../behaviorproperty)
+* espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

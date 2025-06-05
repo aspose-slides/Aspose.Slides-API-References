@@ -1,6 +1,6 @@
 ---
 title: MinValue
-second_title: Aspose.Slides para .NET Referencia de API
+second_title: Referencia API de Aspose.Slides para .NET
 description: Representa el valor mínimo en el eje de valores. Lectura/escritura Double.
 type: docs
 weight: 430
@@ -15,10 +15,10 @@ Representa el valor mínimo en el eje de valores. Lectura/escritura Double.
 public double MinValue { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [Axis](../../axis)
-* namespace [Aspose.Slides.Charts](../../axis)
-* ensamblado [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides.Charts](../../axis)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

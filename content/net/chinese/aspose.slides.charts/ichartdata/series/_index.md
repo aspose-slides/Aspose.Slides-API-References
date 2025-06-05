@@ -1,6 +1,6 @@
 ---
-title: 系列
-second_title: Aspose.Slides for .NET API 参考
+title: Series
+second_title: Aspose.Slides for .NET API Reference
 description: 获取系列。只读 IChartSeriesCollectionaspose.slides.charts/ichartseriescollection。
 type: docs
 weight: 60
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/ichartdata/series/
 public IChartSeriesCollection Series { get; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IChartSeriesCollection](../../ichartseriescollection)
 * 接口 [IChartData](../../ichartdata)

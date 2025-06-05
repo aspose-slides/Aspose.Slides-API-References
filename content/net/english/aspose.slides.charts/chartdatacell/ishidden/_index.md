@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/chartdatacell/ishidden/
 ---
+
 ## ChartDataCell.IsHidden property
 
 Determines whether the cell is hidden. Read-only Boolean.

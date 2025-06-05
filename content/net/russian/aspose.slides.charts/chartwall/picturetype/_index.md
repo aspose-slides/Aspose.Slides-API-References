@@ -1,21 +1,21 @@
 ---
 title: PictureType
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает тип изображения. Чтение/запись PictureTypeaspose.slides.charts/picturetype.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или устанавливает тип изображения. Чтение/Запись PictureTypeaspose.slides.charts/picturetype.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/chartwall/picturetype/
 ---
 
-## Свойство ChartWall.PictureType
+## ChartWall.PictureType свойство
 
-Возвращает или устанавливает тип изображения. Чтение/запись [`PictureType`](../../picturetype).
+Возвращает или устанавливает тип изображения. Чтение/Запись [`PictureType`](../../picturetype).
 
 ```csharp
 public PictureType PictureType { get; set; }
 ```
 
-### Также см.  
+### См. также
 
 * enum [PictureType](../../picturetype)
 * class [ChartWall](../../chartwall)

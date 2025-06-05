@@ -1,7 +1,7 @@
 ---
 title: SoundLoop
 second_title: Aspose.Slides für .NET API-Referenz
-description: Dieses Attribut gibt an, ob der Sound bis zum nächsten Soundereignis in der Diashow wiederholt wird. Lese-/schreibbares Boolean.
+description: Dieses Attribut gibt an, ob der Sound in der Präsentation in einer Schleife abgespielt wird, bis das nächste Soundereignis eintritt. Lese-/Schreib-Boolean.
 type: docs
 weight: 60
 url: /de/aspose.slides.slideshow/slideshowtransition/soundloop/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.slideshow/slideshowtransition/soundloop/
 
 ## SlideShowTransition.SoundLoop-Eigenschaft
 
-Dieses Attribut gibt an, ob der Sound bis zum nächsten Soundereignis in der Diashow wiederholt wird. Lese-/schreibbares Boolean.
+Dieses Attribut gibt an, ob der Sound in der Präsentation in einer Schleife abgespielt wird, bis das nächste Soundereignis eintritt. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool SoundLoop { get; set; }

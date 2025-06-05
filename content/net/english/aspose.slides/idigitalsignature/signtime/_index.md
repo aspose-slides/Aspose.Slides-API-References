@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/idigitalsignature/signtime/
 ---
+
 ## IDigitalSignature.SignTime property
 
 The time when the document was signed. Read-only DateTime.

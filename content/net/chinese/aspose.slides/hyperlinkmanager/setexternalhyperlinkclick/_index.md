@@ -1,7 +1,7 @@
 ---
 title: SetExternalHyperlinkClick
-second_title: Aspose.Slides for .NET API 参考
-description: 点击时设置外部超链接。
+second_title: Aspose.Sildes for .NET API Reference
+description: 设置点击时的外部超链接。
 type: docs
 weight: 30
 url: /zh/aspose.slides/hyperlinkmanager/setexternalhyperlinkclick/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/hyperlinkmanager/setexternalhyperlinkclick/
 
 ## HyperlinkManager.SetExternalHyperlinkClick 方法
 
-点击时设置外部超链接。
+设置点击时的外部超链接。
 
 ```csharp
 public IHyperlink SetExternalHyperlinkClick(string url)
@@ -17,7 +17,7 @@ public IHyperlink SetExternalHyperlinkClick(string url)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| url | 字符串 | 超链接 URL。 |
+| url | String | 超链接 URL。 |
 
 ### 示例
 
@@ -27,18 +27,18 @@ public IHyperlink SetExternalHyperlinkClick(string url)
 [C#]
 // 实例化一个表示 PPTX 的 Presentation 类
 using(Presentation pptxPresentation = new Presentation()) {
-  // 获取演示文稿中的第一张幻灯片
+  // 获取展示文稿中的第一张幻灯片
   ISlide slide = pptxPresentation.Slides[0];
-  // 添加一个类型设置为矩形的 AutoShape 对象
+  // 添加一个类型设为矩形的 AutoShape 对象
   IShape pptxShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 150, 150, 150, 50);
   // 将形状转换为 AutoShape
   IAutoShape pptxAutoShape = (IAutoShape) pptxShape;
   // 访问与 AutoShape 关联的 ITextFrame 属性
   pptxAutoShape.AddTextFrame("");
   ITextFrame textFrame = pptxAutoShape.TextFrame;
-  // 向框中添加一些文本
+  // 向框架添加一些文本
   textFrame.Paragraphs[0].Portions[0].Text = "Aspose.Slides";
-  // 设置段落文本的超链接
+  // 设置部分文本的超链接
   IHyperlinkManager HypMan = textFrame.Paragraphs[0].Portions[0].PortionFormat.HyperlinkManager;
   HypMan.SetExternalHyperlinkClick("http://www.aspose.com");
   // 保存 PPTX 演示文稿
@@ -46,7 +46,7 @@ using(Presentation pptxPresentation = new Presentation()) {
 }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IHyperlink](../../ihyperlink)
 * 类 [HyperlinkManager](../../hyperlinkmanager)

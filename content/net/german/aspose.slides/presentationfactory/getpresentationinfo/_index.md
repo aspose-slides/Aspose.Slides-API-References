@@ -1,6 +1,6 @@
 ---
 title: GetPresentationInfo
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Erstellt ein neues PresentationInfo-Objekt aus einer Datei und bindet die Präsentation daran.
 type: docs
 weight: 40
@@ -21,9 +21,9 @@ public IPresentationInfo GetPresentationInfo(string file)
 
 ### Rückgabewert
 
-Präsentationsinfo, die mit der Präsentation verbunden ist.
+Präsentationsinfo, die an die Präsentation gebunden ist.
 
-### Siehe auch
+### Siehe Auch
 
 * interface [IPresentationInfo](../../ipresentationinfo)
 * class [PresentationFactory](../../presentationfactory)
@@ -46,9 +46,9 @@ public IPresentationInfo GetPresentationInfo(Stream stream)
 
 ### Rückgabewert
 
-Präsentationsinfo, die mit der Präsentation verbunden ist.
+Präsentationsinfo, die an die Präsentation gebunden ist.
 
-### Siehe auch
+### Siehe Auch
 
 * interface [IPresentationInfo](../../ipresentationinfo)
 * class [PresentationFactory](../../presentationfactory)

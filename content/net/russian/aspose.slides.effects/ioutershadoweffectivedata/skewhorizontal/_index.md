@@ -1,6 +1,6 @@
 ---
 title: SkewHorizontal
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Указывает угол горизонтального искажения в градусах. Только для чтения Double.
 type: docs
 weight: 100

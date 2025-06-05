@@ -7,7 +7,7 @@ weight: 120
 url: /ru/aspose.slides.charts/iaxis/categoryaxistype/
 ---
 
-## Свойство IAxis.CategoryAxisType
+## IAxis.CategoryAxisType свойство
 
 Указывает тип оси категорий. Чтение/запись `CategoryAxisType`.
 

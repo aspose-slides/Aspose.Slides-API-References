@@ -19,7 +19,7 @@ public ISoftEdge CreateSoftEdge()
 
 软边缘效果。
 
-### 另见
+### 参见
 
 * 接口 [ISoftEdge](../../isoftedge)
 * 类 [EffectFactory](../../effectfactory)

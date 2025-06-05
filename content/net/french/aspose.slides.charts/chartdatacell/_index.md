@@ -1,13 +1,13 @@
 ---
 title: ChartDataCell
-second_title: Aspose.Slides pour .NET API Reference
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente une cellule pour les données de graphique.
 type: docs
 weight: 1240
 url: /fr/aspose.slides.charts/chartdatacell/
 ---
 
-## Classe ChartDataCell
+## ChartDataCell class
 
 Représente une cellule pour les données de graphique.
 
@@ -15,27 +15,27 @@ Représente une cellule pour les données de graphique.
 public class ChartDataCell : IChartDataCell
 ```
 
-## Propriétés
+## Properties
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
-| [ChartDataWorksheet](../../aspose.slides.charts/chartdatacell/chartdataworksheet) { get; } | Obtient la feuille de calcul. En lecture seule [`IChartDataWorksheet`](../ichartdataworksheet). |
-| [Column](../../aspose.slides.charts/chartdatacell/column) { get; } | Retourne l'index de la colonne de la feuille de calcul dans laquelle la cellule est située. En lecture seule Int32. |
+| [ChartDataWorksheet](../../aspose.slides.charts/chartdatacell/chartdataworksheet) { get; } | Obtient la feuille de calcul. Lecture seule [`IChartDataWorksheet`](../ichartdataworksheet). |
+| [Column](../../aspose.slides.charts/chartdatacell/column) { get; } | Renvoie l'index de la colonne de la feuille de calcul dans laquelle se trouve la cellule. Lecture seule Int32. |
 | [CustomNumberFormat](../../aspose.slides.charts/chartdatacell/customnumberformat) { get; set; } | Obtient ou définit le format d'affichage personnalisé des nombres et des dates. Si la valeur est vide, la valeur PresetNumberFormat sera utilisée. Lecture/écriture String. |
 | [Formula](../../aspose.slides.charts/chartdatacell/formula) { get; set; } | Obtient ou définit la formule au format A1. |
-| [IsHidden](../../aspose.slides.charts/chartdatacell/ishidden) { get; } | Détermine si la cellule est masquée. En lecture seule Boolean. |
+| [IsHidden](../../aspose.slides.charts/chartdatacell/ishidden) { get; } | Détermine si la cellule est cachée. Lecture seule Boolean. |
 | [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | Obtient ou définit le format d'affichage intégré des nombres et des dates. Le nombre prédéfini doit être dans [0..22] ou [37..49]. Lecture/écriture Byte. |
 | [R1C1Formula](../../aspose.slides.charts/chartdatacell/r1c1formula) { get; set; } | Obtient ou définit la formule au format R1C1. |
-| [Row](../../aspose.slides.charts/chartdatacell/row) { get; } | Retourne l'index de la ligne de la feuille de calcul dans laquelle la cellule est située. En lecture seule Int32. |
+| [Row](../../aspose.slides.charts/chartdatacell/row) { get; } | Renvoie l'index de la ligne de la feuille de calcul dans laquelle se trouve la cellule. Lecture seule Int32. |
 | [Value](../../aspose.slides.charts/chartdatacell/value) { get; set; } | Obtient ou définit la valeur d'une cellule. Lecture/écriture Object. |
 
-## Méthodes
+## Methods
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [Calculate](../../aspose.slides.charts/chartdatacell/calculate)(bool) | Si la cellule contient une formule, la valeur sera mise à jour en fonction de cette formule. |
 
-### Voir aussi
+### See Also
 
 * interface [IChartDataCell](../ichartdatacell)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)

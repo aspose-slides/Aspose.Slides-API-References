@@ -3,9 +3,10 @@ title: Width
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets the width of the shape. Read/write Single.
 type: docs
-weight: 280
+weight: 290
 url: /aspose.slides/shape/width/
 ---
+
 ## Shape.Width property
 
 Returns or sets the width of the shape. Read/write Single.

@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/slidecollection/addfromhtml/
 ---
+
 ## AddFromHtml(string, IExternalResourceResolver, string) {#addfromhtml_5}
 
 Creates slides from HTML text and adds them to the end of the collection.

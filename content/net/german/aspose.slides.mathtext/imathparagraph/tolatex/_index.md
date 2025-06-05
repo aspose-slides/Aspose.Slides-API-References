@@ -1,13 +1,13 @@
 ---
 title: ToLatex
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Gibt mathematische Gleichung im LaTeX-Format zurück
 type: docs
 weight: 30
 url: /de/aspose.slides.mathtext/imathparagraph/tolatex/
 ---
 
-## IMathParagraph.ToLatex Methode
+## IMathParagraph.ToLatex-Methode
 
 Gibt mathematische Gleichung im LaTeX-Format zurück
 

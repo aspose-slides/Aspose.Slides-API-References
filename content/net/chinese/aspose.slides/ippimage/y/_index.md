@@ -1,7 +1,7 @@
 ---
 title: Y
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回图像的 Y 偏移量。仅可读 Int32。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回图像的Y偏移量。只读Int32。
 type: docs
 weight: 80
 url: /zh/aspose.slides/ippimage/y/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ippimage/y/
 
 ## IPPImage.Y 属性
 
-返回图像的 Y 偏移量。仅可读 Int32。
+返回图像的Y偏移量。只读Int32。
 
 ```csharp
 public int Y { get; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IPPImage](../../ippimage)
 * 命名空间 [Aspose.Slides](../../ippimage)

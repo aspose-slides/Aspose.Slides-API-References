@@ -1,7 +1,7 @@
 ---
 title: NumberFormatOfXValues
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: NumberFormatOfXValues. Lecture/écriture de String.
+description: NumberFormatOfXValues. Lecture/écriture de chaîne.
 type: docs
 weight: 240
 url: /fr/aspose.slides.charts/chartseries/numberformatofxvalues/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/chartseries/numberformatofxvalues/
 
 ## Propriété ChartSeries.NumberFormatOfXValues
 
-NumberFormatOfXValues. Lecture/écriture de String.
+NumberFormatOfXValues. Lecture/écriture de chaîne.
 
 ```csharp
 public string NumberFormatOfXValues { get; set; }

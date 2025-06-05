@@ -15,10 +15,10 @@ Devuelve el nombre del archivo del objeto OLE incrustado
 public string EmbeddedFileLabel { get; }
 ```
 
-### Vea También
+### Ver También
 
 * interfaz [IOleObjectFrame](../../ioleobjectframe)
 * espacio de nombres [Aspose.Slides](../../ioleobjectframe)
 * ensamblado [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generado por xmldocmd para Aspose.Slides.dll -->

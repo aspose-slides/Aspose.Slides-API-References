@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.animation/motionpath/add/
 ---
+
 ## MotionPath.Add method
 
 Add new command to path

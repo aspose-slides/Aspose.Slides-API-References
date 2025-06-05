@@ -1,7 +1,7 @@
 ---
 title: NotesSlide
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Notizenfolie für die aktuelle Folie zurück. Gibt null zurück, wenn die Folie keine Notizenfolie hat. Nur lesbare INotesSlideaspose.slides/inotesslide.
+description: Gibt die Notizfolie für die aktuelle Folie zurück. Gibt null zurück, wenn die Folie keine Notizfolie hat. Nur-Lese INotesSlideaspose.slides/inotesslide.
 type: docs
 weight: 10
 url: /de/aspose.slides/notesslidemanager/notesslide/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/notesslidemanager/notesslide/
 
 ## NotesSlideManager.NotesSlide-Eigenschaft
 
-Gibt die Notizenfolie für die aktuelle Folie zurück. Gibt null zurück, wenn die Folie keine Notizenfolie hat. Nur lesbare [`INotesSlide`](../../inotesslide).
+Gibt die Notizfolie für die aktuelle Folie zurück. Gibt null zurück, wenn die Folie keine Notizfolie hat. Nur-Lese [`INotesSlide`](../../inotesslide).
 
 ```csharp
 public INotesSlide NotesSlide { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [INotesSlide](../../inotesslide)
 * Klasse [NotesSlideManager](../../notesslidemanager)

@@ -1,7 +1,7 @@
 ---
 title: ShadowMatrixPerspectiveY
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt die Eigenschaft shadow.matrix.perspectiveY dar
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt die Eigenschaft 'shadow.matrix.perspectiveY' dar
 type: docs
 weight: 630
 url: /de/aspose.slides.animation/behaviorproperty/shadowmatrixperspectivey/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/behaviorproperty/shadowmatrixperspectivey/
 
 ## BehaviorProperty.ShadowMatrixPerspectiveY-Eigenschaft
 
-Stellt die Eigenschaft 'shadow.matrix.perspectiveY' dar
+Stellt die 'shadow.matrix.perspectiveY'-Eigenschaft dar
 
 ```csharp
 public static BehaviorProperty ShadowMatrixPerspectiveY { get; }

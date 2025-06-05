@@ -1,6 +1,6 @@
 ---
 title: AddSummaryZoomSection
-second_title: Aspose.Sildes for .NET API参考
+second_title: Aspose.Slides for .NET API Reference
 description: 创建新的摘要缩放部分对象并将其添加到集合中
 type: docs
 weight: 20
@@ -25,7 +25,7 @@ public ISummaryZoomSection AddSummaryZoomSection(ISection section)
 
 ### 备注
 
-如果该节的元素已在集合中存在，则返回现有元素。
+如果该节的元素已存在于集合中，则返回现有元素。
 
 ### 示例
 
@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [ISummaryZoomSection](../../isummaryzoomsection)
 * 接口 [ISection](../../isection)

@@ -1,13 +1,13 @@
 ---
 title: LayoutType
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie le type de mise en page de cette diapositive de mise en page. Lecture seule SlideLayoutTypeaspose.slides/slidelayouttype.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie le type de mise en page de cette diapositive de mise en page. Lecture seule SlideLayoutType aspose.slides/slidelayouttype.
 type: docs
 weight: 30
 url: /fr/aspose.slides/layoutslide/layouttype/
 ---
 
-## Propriété LayoutSlide.LayoutType
+## LayoutSlide.LayoutType propriété
 
 Renvoie le type de mise en page de cette diapositive de mise en page. Lecture seule [`SlideLayoutType`](../../slidelayouttype).
 
@@ -15,7 +15,7 @@ Renvoie le type de mise en page de cette diapositive de mise en page. Lecture se
 public SlideLayoutType LayoutType { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [SlideLayoutType](../../slidelayouttype)
 * class [LayoutSlide](../../layoutslide)

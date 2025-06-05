@@ -1,6 +1,6 @@
 ---
 title: SoftEdge
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence de l'API .NET
 description: Représente un effet de bord doux. Les bords de la forme sont flous tandis que le remplissage n'est pas affecté.
 type: docs
 weight: 3530
@@ -25,11 +25,11 @@ public sealed class SoftEdge : ISoftEdge
 
 | Nom | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/softedge/equals)(object) | Détermine si le [`SoftEdge`](../softedge) spécifié est égal au [`SoftEdge`](../softedge) actuel. |
-| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Obtient les données d'effet Soft Edge effectives avec l'héritage appliqué. |
+| override [Equals](../../aspose.slides.effects/softedge/equals)(object) | Détermine si le [`SoftEdge`](../softedge) spécifié est égal à l'[`SoftEdge`](../softedge) courant. |
+| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Obtient les données effectives de l'effet de bord doux avec l'héritage appliqué. |
 | override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | Sert de fonction de hachage pour un type particulier. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ISoftEdge](../isoftedge)
 * namespace [Aspose.Slides.Effects](../../aspose.slides.effects)

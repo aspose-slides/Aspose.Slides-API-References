@@ -1,7 +1,7 @@
 ---
 title: Dispose
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Dispose l'objet.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Libère l'objet.
 type: docs
 weight: 90
 url: /fr/aspose.slides/ppimage/dispose/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ppimage/dispose/
 
 ## Méthode PPImage.Dispose
 
-Dispose l'objet.
+Libère l'objet.
 
 ```csharp
 public void Dispose()
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [PPImage](../../ppimage)
 * espace de noms [Aspose.Slides](../../ppimage)

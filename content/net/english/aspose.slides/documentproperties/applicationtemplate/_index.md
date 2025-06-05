@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/documentproperties/applicationtemplate/
 ---
+
 ## DocumentProperties.ApplicationTemplate property
 
 Returns or sets the template of a application. Read/write String.

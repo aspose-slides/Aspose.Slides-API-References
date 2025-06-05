@@ -1,6 +1,6 @@
 ---
 title: InsertClone
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Aspose.Sildes pour référence API .NET
 description: Insère une copie d'une diapositive maître spécifiée à la position spécifiée de la collection. Les diapositives de mise en page liées seront également copiées.
 type: docs
 weight: 30

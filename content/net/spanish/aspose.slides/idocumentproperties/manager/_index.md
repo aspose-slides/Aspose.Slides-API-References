@@ -1,7 +1,7 @@
 ---
-title: Gerente
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve o establece la propiedad del gerente. Cadena de lectura/escritura.
+title: Manager
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve o establece la propiedad de gerente. Cadena de lectura/escritura.
 type: docs
 weight: 210
 url: /es/aspose.slides/idocumentproperties/manager/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/idocumentproperties/manager/
 
 ## Propiedad IDocumentProperties.Manager
 
-Devuelve o establece la propiedad del gerente. Cadena de lectura/escritura.
+Devuelve o establece la propiedad de gerente. Cadena de lectura/escritura.
 
 ```csharp
 public string Manager { get; set; }

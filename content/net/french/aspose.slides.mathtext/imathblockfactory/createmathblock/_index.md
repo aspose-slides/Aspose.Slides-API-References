@@ -1,6 +1,6 @@
 ---
 title: CreateMathBlock
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Créer un bloc mathématique
 type: docs
 weight: 10

@@ -1,15 +1,15 @@
 ---
 title: RewindAudio
-second_title: Aspose.Sildes für .NET API Referenz
-description: Bestimmt, ob Audio nach dem Abspielen automatisch zum Anfang zurückgespult wird. Lese-/Schreib-Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt, ob Audio nach dem Abspielen automatisch auf den Anfang zurückgespult wird. Lese-/Schreib-Boolean.
 type: docs
 weight: 140
 url: /de/aspose.slides/audioframe/rewindaudio/
 ---
 
-## AudioFrame.RewindAudio Eigenschaft
+## AudioFrame.RewindAudio-Eigenschaft
 
-Bestimmt, ob Audio nach dem Abspielen automatisch zum Anfang zurückgespult wird. Lese-/Schreib-Boolean.
+Bestimmt, ob Audio nach dem Abspielen automatisch auf den Anfang zurückgespult wird. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool RewindAudio { get; set; }
@@ -23,13 +23,13 @@ using (Presentation pres = new Presentation())
 {
     ISlide slide = pres.Slides[0];
 
-    // Audio Frame hinzufügen
+    // Audio-Frame hinzufügen
     IAudioFrame audioFrame = slide.Shapes.AddAudioFrameLinked(50, 50, 100, 100, "sampleaudio.wav");
 
     // Audio so einstellen, dass es über die Folien abgespielt wird
     audioFrame.PlayAcrossSlides = true;
 
-    // Audio so einstellen, dass es nach dem Abspielen automatisch zum Anfang zurückgespult wird
+    // Audio so einstellen, dass es nach dem Abspielen automatisch auf den Anfang zurückgespult wird
     audioFrame.RewindAudio = true;
 
     pres.Save("AudioFrame_out.pptx", SaveFormat.Pptx);

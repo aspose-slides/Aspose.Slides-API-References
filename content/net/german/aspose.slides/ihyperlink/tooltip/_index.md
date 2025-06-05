@@ -1,7 +1,7 @@
 ---
 title: Tooltip
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Zeichenfolge zurück, die in einer Benutzeroberfläche als mit dem übergeordneten Hyperlink verknüpft angezeigt werden kann. Lese-/Schreibzeichenfolge.
+description: Gibt den String zurück, der in einer Benutzeroberfläche als mit dem übergeordneten Hyperlink verbunden angezeigt werden kann. Lese-/Schreib-String.
 type: docs
 weight: 110
 url: /de/aspose.slides/ihyperlink/tooltip/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ihyperlink/tooltip/
 
 ## IHyperlink.Tooltip-Eigenschaft
 
-Gibt die Zeichenfolge zurück, die in einer Benutzeroberfläche als mit dem übergeordneten Hyperlink verknüpft angezeigt werden kann. Lese-/Schreibzeichenfolge.
+Gibt den String zurück, der in einer Benutzeroberfläche als mit dem übergeordneten Hyperlink verbunden angezeigt werden kann. Lese-/Schreib-String.
 
 ```csharp
 public string Tooltip { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IHyperlink](../../ihyperlink)
 * Namespace [Aspose.Slides](../../ihyperlink)

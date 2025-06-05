@@ -1,7 +1,7 @@
 ---
 title: IFillOverlayEffectiveData
 second_title: Справочник по API Aspose.Slides для .NET
-description: Неразрушимый объект, представляющий эффект наложения заливки. Наложение заливки может использоваться для указания дополнительной заливки для объекта и смешивания двух заливок.
+description: Неизменяемый объект, представляющий эффект наложения заливки. Наложение заливки может использоваться для указания дополнительной заливки для объекта и смешивания двух заливок вместе.
 type: docs
 weight: 3190
 url: /ru/aspose.slides.effects/ifilloverlayeffectivedata/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/ifilloverlayeffectivedata/
 
 ## Интерфейс IFillOverlayEffectiveData
 
-Неразрушимый объект, представляющий эффект наложения заливки. Наложение заливки может использоваться для указания дополнительной заливки для объекта и смешивания двух заливок.
+Неизменяемый объект, представляющий эффект наложения заливки. Наложение заливки может использоваться для указания дополнительной заливки для объекта и смешивания двух заливок вместе.
 
 ```csharp
 public interface IFillOverlayEffectiveData : IEffectEffectiveData
@@ -23,7 +23,7 @@ public interface IFillOverlayEffectiveData : IEffectEffectiveData
 | [Blend](../../aspose.slides.effects/ifilloverlayeffectivedata/blend) { get; } | FillBlendMode. Только для чтения [`FillBlendMode`](../../aspose.slides/fillblendmode). |
 | [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | Формат заливки. Только для чтения [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IEffectEffectiveData](../ieffecteffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)

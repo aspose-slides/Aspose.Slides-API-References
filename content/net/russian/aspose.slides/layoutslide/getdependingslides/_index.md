@@ -1,13 +1,13 @@
 ---
 title: GetDependingSlides
-second_title: Справочник по Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает массив со всеми слайдами, которые зависят от этого макета слайда.
 type: docs
 weight: 80
 url: /ru/aspose.slides/layoutslide/getdependingslides/
 ---
 
-## Метод LayoutSlide.GetDependingSlides
+## LayoutSlide.GetDependingSlides метод
 
 Возвращает массив со всеми слайдами, которые зависят от этого макета слайда.
 

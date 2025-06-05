@@ -19,22 +19,22 @@ public interface IChartParagraphFormat
 
 | 名称 | 描述 |
 | --- | --- |
-| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | 返回或设置段落中的文本对齐方式。可读/可写 [`TextAlignment`](../../aspose.slides/textalignment)。 |
-| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | 返回或设置默认制表符大小。可读/可写 Single。 |
-| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | 决定段落中是否使用东亚换行。可读/可写 [`NullableBool`](../../aspose.slides/nullablebool)。 |
-| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | 返回或设置段落中的字体对齐方式。可读/可写 [`FontAlignment`](../../aspose.slides/fontalignment)。 |
-| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | 决定段落中是否使用悬挂标点。可读/可写 [`NullableBool`](../../aspose.slides/nullablebool)。 |
-| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | 返回或设置段落的首行缩进/悬挂缩进。悬挂缩进可以用负值定义。可读/可写 Single。 |
-| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | 决定段落中是否使用拉丁文换行。可读/可写 [`NullableBool`](../../aspose.slides/nullablebool)。 |
-| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | 返回或设置段落的左边距。可读/可写 Single。 |
-| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | 返回或设置段落的右边距。可读/可写 Single。 |
-| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | 决定段落中是否使用从右到左的书写。可读/可写 [`NullableBool`](../../aspose.slides/nullablebool)。 |
-| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | 返回或设置段落最后一行后的空白量。可读/可写 Single。 |
-| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | 返回或设置段落第一行前的空白量。可读/可写 Single。 |
-| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | 返回或设置段落中基线之间的空白量。可读/可写 Single。 |
+| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | 返回或设置段落中的文本对齐方式。可读写 [`TextAlignment`](../../aspose.slides/textalignment)。 |
+| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | 返回或设置默认制表符大小。可读写 Single。 |
+| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | 确定段落中是否使用东亚换行符。可读写 [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | 返回或设置段落中的字体对齐方式。可读写 [`FontAlignment`](../../aspose.slides/fontalignment)。 |
+| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | 确定段落中是否使用悬挂标点符号。可读写 [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | 返回或设置段落的首行缩进/悬挂缩进。悬挂缩进可以定义为负值。可读写 Single。 |
+| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | 确定段落中是否使用拉丁换行符。可读写 [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | 返回或设置段落的左边距。可读写 Single。 |
+| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | 返回或设置段落的右边距。可读写 Single。 |
+| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | 确定段落中是否使用从右到左的书写方式。可读写 [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | 返回或设置段落最后一行之后的空间量。可读写 Single。 |
+| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | 返回或设置段落第一行之前的空间量。可读写 Single。 |
+| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | 返回或设置段落中基线之间的空间量。可读写 Single。 |
 | [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | 返回段落的制表符。只读 [`ITabCollection`](../../aspose.slides/itabcollection)。 |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程序集 [Aspose.Slides](../../)

@@ -1,7 +1,7 @@
 ---
-title: Anzahl
+title: Count
 second_title: Aspose.Slides für .NET API Referenz
-description: Erhält die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente. Nur-Lese Int32.
+description: Ruft die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente ab. Nur Lesezugriff Int32.
 type: docs
 weight: 10
 url: /de/aspose.slides/masterslidecollection/count/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/masterslidecollection/count/
 
 ## MasterSlideCollection.Count-Eigenschaft
 
-Erhält die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente. Nur-Lese Int32.
+Ruft die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente ab. Nur Lesezugriff Int32.
 
 ```csharp
 public int Count { get; }

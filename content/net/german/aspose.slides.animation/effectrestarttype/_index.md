@@ -1,15 +1,15 @@
 ---
 title: EffectRestartType
 second_title: Aspose.Slides für .NET API Referenz
-description: Repräsentiert Neustarttypen für Zeitmessung.
+description: Stellen Sie Neustarttypen für das Timing dar.
 type: docs
 weight: 250
 url: /de/aspose.slides.animation/effectrestarttype/
 ---
 
-## EffectRestartType Enumeration
+## EffectRestartType Aufzählung
 
-Repräsentiert Neustarttypen für Zeitmessung.
+Stellen Sie Neustarttypen für das Timing dar.
 
 ```csharp
 public enum EffectRestartType
@@ -24,7 +24,7 @@ public enum EffectRestartType
 | WhenNotActive | `1` |  |
 | Never | `2` |  |
 
-### Siehe auch
+### Siehe Auch
 
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)
 * assembly [Aspose.Slides](../../)

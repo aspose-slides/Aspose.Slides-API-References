@@ -1,6 +1,6 @@
 ---
 title: ObjectProgId
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Renvoie le ProgID d'un objet. Chaîne en lecture seule.
 type: docs
 weight: 110

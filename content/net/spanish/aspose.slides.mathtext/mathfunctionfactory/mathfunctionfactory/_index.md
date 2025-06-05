@@ -1,24 +1,24 @@
 ---
 title: MathFunctionFactory
 second_title: Referencia de API de Aspose.Slides para .NET
-description: El constructor predeterminado.
+description: El constructor por defecto.
 type: docs
 weight: 10
 url: /es/aspose.slides.mathtext/mathfunctionfactory/mathfunctionfactory/
 ---
 
-## Constructor de MathFunctionFactory
+## Constructor MathFunctionFactory
 
-El constructor predeterminado.
+El constructor por defecto.
 
 ```csharp
 public MathFunctionFactory()
 ```
 
-### Ver también
+### Ver También
 
 * clase [MathFunctionFactory](../../mathfunctionfactory)
 * espacio de nombres [Aspose.Slides.MathText](../../mathfunctionfactory)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,13 +1,13 @@
 ---
 title: ColorType
-second_title: Referencia de API Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slidess para .NET
 description: Devuelve o establece el método de definición de color. Lectura/escritura ColorTypeaspose.slides/colortype.
 type: docs
 weight: 40
 url: /es/aspose.slides/colorformat/colortype/
 ---
 
-## Propiedad ColorFormat.ColorType
+## ColorFormat.ColorType propiedad
 
 Devuelve o establece el método de definición de color. Lectura/escritura [`ColorType`](../../colortype).
 
@@ -23,4 +23,3 @@ public ColorType ColorType { get; set; }
 * assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
-

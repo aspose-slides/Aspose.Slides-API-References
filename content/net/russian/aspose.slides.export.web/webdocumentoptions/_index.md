@@ -1,13 +1,13 @@
 ---
 title: WebDocumentOptions
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет набор опций для сохранения WebDocument./webdocument.
 type: docs
 weight: 4500
 url: /ru/aspose.slides.export.web/webdocumentoptions/
 ---
 
-## Класс WebDocumentOptions
+## WebDocumentOptions класс
 
 Представляет набор опций для сохранения [`WebDocument`](../webdocument).
 
@@ -17,21 +17,21 @@ public class WebDocumentOptions
 
 ## Конструкторы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [WebDocumentOptions](webdocumentoptions)() | Конструктор по умолчанию. |
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [AnimateShapes](../../aspose.slides.export.web/webdocumentoptions/animateshapes) { get; set; } | Возвращает или задает опцию анимации фигур. Читаемое/записываемое логическое значение. |
 | [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | Возвращает или задает опцию анимации переходов. Читаемое/записываемое логическое значение. |
 | [EmbedImages](../../aspose.slides.export.web/webdocumentoptions/embedimages) { get; set; } | Возвращает или задает опцию встраивания изображений. Читаемое/записываемое логическое значение. |
-| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | Возвращает или задает сохранитель вывода. Читаемое/записываемое [`IOutputSaver`](../ioutputsaver). |
+| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | Возвращает или задает средство сохранения выходных данных. Читаемое/записываемое [`IOutputSaver`](../ioutputsaver). |
 | [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | Возвращает или задает движок шаблонов. Читаемое/записываемое [`ITemplateEngine`](../itemplateengine). |
 
-### Также посмотрите
+### См. Также
 
 * пространство имен [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * сборка [Aspose.Slides](../../)

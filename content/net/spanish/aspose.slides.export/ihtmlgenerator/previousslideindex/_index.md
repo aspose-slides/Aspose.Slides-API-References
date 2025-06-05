@@ -1,15 +1,15 @@
 ---
 title: PreviousSlideIndex
-second_title: Aspose.Slides para .NET Referencia de la API
-description: Devuelve el índice de la diapositiva renderizada previamente o -1 si la primera diapositiva está siendo renderizada. Solo lectura Int32.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve el índice de la diapositiva renderizada anteriormente o -1 si se está renderizando la primera diapositiva. Solo lectura Int32.
 type: docs
 weight: 20
 url: /es/aspose.slides.export/ihtmlgenerator/previousslideindex/
 ---
 
-## Propiedad IHtmlGenerator.PreviousSlideIndex
+## IHtmlGenerator.PreviousSlideIndex propiedad
 
-Devuelve el índice de la diapositiva renderizada previamente o -1 si la primera diapositiva está siendo renderizada. Solo lectura Int32.
+Devuelve el índice de la diapositiva renderizada anteriormente o -1 si se está renderizando la primera diapositiva. Solo lectura Int32.
 
 ```csharp
 public int PreviousSlideIndex { get; }
@@ -17,8 +17,8 @@ public int PreviousSlideIndex { get; }
 
 ### Ver También
 
-* interfaz [IHtmlGenerator](../../ihtmlgenerator)
-* espacio de nombres [Aspose.Slides.Export](../../ihtmlgenerator)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IHtmlGenerator](../../ihtmlgenerator)
+* espacio de nombres [Aspose.Slides.Export](../../ihtmlgenerator)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

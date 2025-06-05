@@ -1,6 +1,6 @@
 ---
 title: CreateMathematicalText
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建空的数学文本元素
 type: docs
 weight: 10
@@ -19,7 +19,7 @@ public IMathematicalText CreateMathematicalText()
 
 新的数学文本
 
-### 参见
+### 另见
 
 * 接口 [IMathematicalText](../../imathematicaltext)
 * 接口 [IMathematicalTextFactory](../../imathematicaltextfactory)
@@ -30,21 +30,21 @@ public IMathematicalText CreateMathematicalText()
 
 ## CreateMathematicalText(char) {#createmathematicaltext_1}
 
-使用指定值创建数学文本元素
+根据指定的值创建数学文本元素
 
 ```csharp
 public IMathematicalText CreateMathematicalText(char mathSymbol)
 ```
 
-| 参数       | 类型   | 描述                            |
-| ---------- | ------ | ------------------------------- |
-| mathSymbol | Char   | 用作文本值的单个符号         |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| mathSymbol | Char | 用作文本值的单个符号 |
 
 ### 返回值
 
 新的数学文本
 
-### 参见
+### 另见
 
 * 接口 [IMathematicalText](../../imathematicaltext)
 * 接口 [IMathematicalTextFactory](../../imathematicaltextfactory)
@@ -55,21 +55,21 @@ public IMathematicalText CreateMathematicalText(char mathSymbol)
 
 ## CreateMathematicalText(string) {#createmathematicaltext_2}
 
-使用指定值创建空的数学文本元素
+根据指定的值创建空的数学文本元素
 
 ```csharp
 public IMathematicalText CreateMathematicalText(string mathText)
 ```
 
-| 参数       | 类型     | 描述        |
-| ---------- | -------- | ----------- |
-| mathText   | String   | 文本值     |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| mathText | String | 文本值 |
 
 ### 返回值
 
 新的数学文本
 
-### 参见
+### 另见
 
 * 接口 [IMathematicalText](../../imathematicaltext)
 * 接口 [IMathematicalTextFactory](../../imathematicaltextfactory)
@@ -80,22 +80,22 @@ public IMathematicalText CreateMathematicalText(string mathText)
 
 ## CreateMathematicalText(string, IPortionFormat) {#createmathematicaltext_3}
 
-使用指定值和格式属性创建空的数学文本元素
+根据指定的值和格式属性创建空的数学文本元素
 
 ```csharp
 public IMathematicalText CreateMathematicalText(string mathText, IPortionFormat portionFormat)
 ```
 
-| 参数       | 类型             | 描述                   |
-| ---------- | ---------------- | ---------------------- |
-| mathText   | String           | 文本值                |
-| portionFormat | IPortionFormat | 文本格式设置          |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| mathText | String | 文本值 |
+| portionFormat | IPortionFormat | 文本格式设置 |
 
 ### 返回值
 
 新的数学文本
 
-### 参见
+### 另见
 
 * 接口 [IMathematicalText](../../imathematicaltext)
 * 接口 [IPortionFormat](../../../aspose.slides/iportionformat)

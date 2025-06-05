@@ -3,9 +3,10 @@ title: Rotation
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets the number of degrees the specified shape is rotated around the z-axis. A positive value indicates clockwise rotation a negative value indicates counterclockwise rotation. Read/write Single.
 type: docs
-weight: 230
+weight: 240
 url: /aspose.slides/shape/rotation/
 ---
+
 ## Shape.Rotation property
 
 Returns or sets the number of degrees the specified shape is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Read/write Single.

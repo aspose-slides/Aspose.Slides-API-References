@@ -1,15 +1,15 @@
 ---
 title: INotImplementedWarningInfo
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt eine Warnung über bekannt nicht implementierte Funktionen dar, die in naher Zukunft nicht implementiert werden.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt eine Warnung über bekannte nicht implementierte Funktionen dar, die in naher Zukunft nicht implementiert werden.
 type: docs
 weight: 11460
 url: /de/aspose.slides.warnings/inotimplementedwarninginfo/
 ---
 
-## INotImplementedWarningInfo Schnittstelle
+## INotImplementedWarningInfo-Schnittstelle
 
-Stellt eine Warnung über bekannt nicht implementierte Funktionen dar, die in naher Zukunft nicht implementiert werden.
+Stellt eine Warnung über bekannte nicht implementierte Funktionen dar, die in naher Zukunft nicht implementiert werden.
 
 ```csharp
 public interface INotImplementedWarningInfo : IWarningInfo
@@ -19,9 +19,9 @@ public interface INotImplementedWarningInfo : IWarningInfo
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/inotimplementedwarninginfo/asiwarninginfo) { get; } | Gibt die IWarningInfo-Schnittstelle zurück. Nur-lesend [`IWarningInfo`](../iwarninginfo). |
+| [AsIWarningInfo](../../aspose.slides.warnings/inotimplementedwarninginfo/asiwarninginfo) { get; } | Gibt die IWarningInfo-Schnittstelle zurück. Nur lesbar [`IWarningInfo`](../iwarninginfo). |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IWarningInfo](../iwarninginfo)
 * Namespace [Aspose.Slides.Warnings](../../aspose.slides.warnings)

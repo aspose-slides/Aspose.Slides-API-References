@@ -1,21 +1,21 @@
 ---
-title: Оси
-second_title: Справочник по API Aspose.Slides для .NET
-description: Предоставляет доступ к осям графика. Только для чтения IAxesManageraspose.slides.charts/iaxesmanager.
+title: Axes
+second_title: Aspose.Sildes для .NET API Reference
+description: Предоставляет доступ к осям графиков. Только для чтения IAxesManageraspose.slides.charts/iaxesmanager.
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/ichart/axes/
 ---
 
-## Свойство IChart.Axes
+## IChart.Axes свойство
 
-Предоставляет доступ к осям графика. Только для чтения [`IAxesManager`](../../iaxesmanager).
+Предоставляет доступ к осям графиков. Только для чтения [`IAxesManager`](../../iaxesmanager).
 
 ```csharp
 public IAxesManager Axes { get; }
 ```
 
-### Также смотри
+### Смотрите также
 
 * интерфейс [IAxesManager](../../iaxesmanager)
 * интерфейс [IChart](../../ichart)

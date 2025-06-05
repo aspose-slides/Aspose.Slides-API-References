@@ -1,15 +1,15 @@
 ---
 title: Nary
-second_title: Aspose.Sildes for .NET API 参考
-description: 创建一个 N-ary 运算符
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建一个 N 叉运算符
 type: docs
 weight: 90
 url: /zh/aspose.slides.mathtext/mathelementbase/nary/
 ---
 
-## Nary(MathNaryOperatorTypes, IMathElement, IMathElement) {#nary}
+## Nary(MathNaryOperatorTypes, IMathElement, IMathElement) {#nary}
 
-创建一个 N-ary 运算符
+创建一个 N 叉运算符
 
 ```csharp
 public IMathNaryOperator Nary(MathNaryOperatorTypes type, IMathElement lowerLimit, 
@@ -18,17 +18,17 @@ public IMathNaryOperator Nary(MathNaryOperatorTypes type, IMathElement lowerLimi
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| type | MathNaryOperatorTypes | N-ary 运算符类型 |
+| type | MathNaryOperatorTypes | N 叉运算符类型 |
 | lowerLimit | IMathElement | 下限 |
 | upperLimit | IMathElement | 上限 |
 
 ### 返回值
 
-类型为 [`IMathNaryOperator`](../../imathnaryoperator) 的新实例
+新实例类型为 [`IMathNaryOperator`](../../imathnaryoperator)
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -49,9 +49,9 @@ IMathNaryOperator naryOperator = baseElement.Nary(MathNaryOperatorTypes.Summatio
 
 ---
 
-## Nary(MathNaryOperatorTypes, string, string) {#nary_1}
+## Nary(MathNaryOperatorTypes, string, string) {#nary_1}
 
-创建一个 N-ary 运算符
+创建一个 N 叉运算符
 
 ```csharp
 public IMathNaryOperator Nary(MathNaryOperatorTypes type, string lowerLimit, string upperLimit)
@@ -59,17 +59,17 @@ public IMathNaryOperator Nary(MathNaryOperatorTypes type, string lowerLimit, str
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| type | MathNaryOperatorTypes | N-ary 运算符类型 |
+| type | MathNaryOperatorTypes | N 叉运算符类型 |
 | lowerLimit | String | 下限 |
 | upperLimit | String | 上限 |
 
 ### 返回值
 
-类型为 [`IMathNaryOperator`](../../imathnaryoperator) 的新实例
+新实例类型为 [`IMathNaryOperator`](../../imathnaryoperator)
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]

@@ -1,7 +1,7 @@
 ---
 title: GrowToMatchOperandHeight
-second_title: Aspose.Slides for .NET API Reference
-description: 指定了 BeginningCharacter、SeparatorCharacter、EndingCharacter 的生长方式。当设置为 true 时，定界符会垂直生长以匹配其操作数的高度。默认值为 true
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定 BeginningCharacter、SeparatorCharacter、EndingCharacter 的增长。当为 true 时，定界符会垂直增长以匹配其操作数高度。默认值为 true。
 type: docs
 weight: 60
 url: /zh/aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight/
 
 ## IMathDelimiter.GrowToMatchOperandHeight 属性
 
-指定了 BeginningCharacter、SeparatorCharacter、EndingCharacter 的生长方式。当设置为 true 时，定界符会垂直生长以匹配其操作数的高度。默认值为 true
+指定 BeginningCharacter、SeparatorCharacter、EndingCharacter 的增长。当为 true 时，定界符会垂直增长以匹配其操作数高度。默认值为 true。
 
 ```csharp
 public bool GrowToMatchOperandHeight { get; set; }
@@ -17,7 +17,7 @@ public bool GrowToMatchOperandHeight { get; set; }
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -25,7 +25,7 @@ IMathDelimiter delimiter = new MathematicalText("x").Divide("y").Enclose();
 delimiter.GrowToMatchOperandHeight = false;
 ```
 
-### 另见
+### 参见
 
 * 接口 [IMathDelimiter](../../imathdelimiter)
 * 命名空间 [Aspose.Slides.MathText](../../imathdelimiter)

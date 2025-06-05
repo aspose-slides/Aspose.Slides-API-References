@@ -17,7 +17,7 @@ public double ScaleVertical { get; set; }
 
 ### Siehe auch
 
-* Interface [IReflection](../../ireflection)
+* Schnittstelle [IReflection](../../ireflection)
 * Namespace [Aspose.Slides.Effects](../../ireflection)
 * Assembly [Aspose.Slides](../../../)
 

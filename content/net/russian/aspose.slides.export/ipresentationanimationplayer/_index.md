@@ -1,7 +1,7 @@
 ---
 title: IPresentationAnimationPlayer
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет проигрыватель анимации. Анимации, сгенерированные PresentationAnimationsGenerator../presentationanimationsgenerator через его событие NewAnimation../presentationanimationsgenerator/newanimation.
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет игрока анимации. Анимации, сгенерированные PresentationAnimationsGenerator../presentationanimationsgenerator с помощью его события NewAnimation../presentationanimationsgenerator/newanimation.
 type: docs
 weight: 3860
 url: /ru/aspose.slides.export/ipresentationanimationplayer/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export/ipresentationanimationplayer/
 
 ## Интерфейс IPresentationAnimationPlayer
 
-Представляет проигрыватель анимации. Анимации, сгенерированные [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) через его событие [`NewAnimation`](../presentationanimationsgenerator/newanimation).
+Представляет игрока анимации. Анимации, сгенерированные [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) с помощью его события [`NewAnimation`](../presentationanimationsgenerator/newanimation).
 
 ```csharp
 public interface IPresentationAnimationPlayer
@@ -19,14 +19,14 @@ public interface IPresentationAnimationPlayer
 
 | Имя | Описание |
 | --- | --- |
-| [Duration](../../aspose.slides.export/ipresentationanimationplayer/duration) { get; } | Получить длительность анимации [мс] |
+| [Duration](../../aspose.slides.export/ipresentationanimationplayer/duration) { get; } | Получить продолжительность анимации [мс] |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | Получить кадр для текущей позиции времени, ранее установленной с помощью метода [`SetTimePosition`](./settimeposition). |
-| [SetTimePosition](../../aspose.slides.export/ipresentationanimationplayer/settimeposition)(double) | Установить позицию времени анимации в пределах [`Duration`](./duration). |
+| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | Получить кадр для текущей временной позиции, ранее установленной с помощью метода [`SetTimePosition`](./settimeposition). |
+| [SetTimePosition](../../aspose.slides.export/ipresentationanimationplayer/settimeposition)(double) | Установить временную позицию анимации в пределах [`Duration`](./duration). |
 
 ### Примеры
 
@@ -38,7 +38,7 @@ using (Presentation presentation = new Presentation("animated.pptx"))
     {
         animationsGenerator.NewAnimation += animationPlayer =>
         {
-            Console.WriteLine($"Общая длительность анимации: {animationPlayer.Duration}");
+            Console.WriteLine($"Общая продолжительность анимации: {animationPlayer.Duration}");
             
             animationPlayer.SetTimePosition(0);
             animationPlayer.GetFrame().Save("firstFrame.png");

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/idigitalsignature/certificate/
 ---
+
 ## IDigitalSignature.Certificate property
 
 Certificate object that was used to sign the document. Read-only X509Certificate2.

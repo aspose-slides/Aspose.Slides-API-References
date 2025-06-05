@@ -1,15 +1,15 @@
 ---
 title: GetOrCreateDataPointByIdx
-second_title: Aspose.Slides für .NET API-Referenz
-description: Wenn die Sammlung bereits einen Datenpunkt mit dem Index *index* enthält, wird dieser Datenpunkt zurückgegeben. Wenn die Sammlung keinen Datenpunkt mit dem Index *index* == N enthält wenn die Anzahl der Datenpunkte in dieser Sammlung kleiner oder gleich N ist, werden fehlende Datenpunkte hinzugefügt und der letzte, der den angeforderten Index hat, wird zurückgegeben. Zum Beispiel sind die Indizes der Sammlung {0, 1, 2} und der angeforderte Index ist 5. Dann fügt die Methode fehlende Datenpunkte hinzu {0, 1, 2, 3, 4, 5}. Und gibt den Datenpunkt mit dem Index 5 zurück.
+second_title: Aspose.Slides für .NET API Referenz
+description: Wenn die Sammlung bereits einen Datenpunkt mit dem Index *index* enthält, wird dieser Datenpunkt zurückgegeben. Wenn die Sammlung keinen Datenpunkt mit dem Index *index*==N enthält wenn die Anzahl der Datenpunkte in dieser Sammlung kleiner oder gleich N ist, werden fehlende Datenpunkte hinzugefügt und der letzte zurückgegeben der den angeforderten Index hat. Zum Beispiel sind die Indizes der Sammlung {0, 1, 2}, und der angeforderte Index ist 5. Dann fügt die Methode fehlende Datenpunkte hinzu {0, 1, 2, 3, 4, 5}. Und gibt den Datenpunkt mit dem Index 5 zurück.
 type: docs
 weight: 250
 url: /de/aspose.slides.charts/ichartdatapointcollection/getorcreatedatapointbyidx/
 ---
 
-## IChartDataPointCollection.GetOrCreateDataPointByIdx-Methode
+## IChartDataPointCollection.GetOrCreateDataPointByIdx Methode
 
-Wenn die Sammlung bereits einen Datenpunkt mit dem Index *index* enthält, wird dieser Datenpunkt zurückgegeben. Wenn die Sammlung keinen Datenpunkt mit dem Index *index* == N enthält (wenn die Anzahl der Datenpunkte in dieser Sammlung kleiner oder gleich N ist), werden fehlende Datenpunkte hinzugefügt und der letzte (der den angeforderten Index hat) wird zurückgegeben. Zum Beispiel sind die Indizes der Sammlung {0, 1, 2}, und der angeforderte Index ist 5. Dann fügt die Methode fehlende Datenpunkte hinzu: {0, 1, 2, 3, 4, 5}. Und gibt den Datenpunkt mit dem Index 5 zurück.
+Wenn die Sammlung bereits einen Datenpunkt mit dem Index *index* enthält, wird dieser Datenpunkt zurückgegeben. Wenn die Sammlung keinen Datenpunkt mit dem Index *index*==N enthält (wenn die Anzahl der Datenpunkte in dieser Sammlung kleiner oder gleich N ist), werden fehlende Datenpunkte hinzugefügt und der letzte (der den angeforderten Index hat) zurückgegeben. Zum Beispiel sind die Indizes der Sammlung {0, 1, 2}, und der angeforderte Index ist 5. Dann fügt die Methode fehlende Datenpunkte hinzu: {0, 1, 2, 3, 4, 5}. Und gibt den Datenpunkt mit dem Index 5 zurück.
 
 ```csharp
 public IChartDataPoint GetOrCreateDataPointByIdx(uint index)

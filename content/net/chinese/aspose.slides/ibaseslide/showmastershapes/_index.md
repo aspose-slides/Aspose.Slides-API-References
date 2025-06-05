@@ -1,7 +1,7 @@
 ---
 title: ShowMasterShapes
 second_title: Aspose.Sildes for .NET API Reference
-description: 指定母版幻灯片上的形状是否应在幻灯片上显示。对于母版幻灯片本身，此属性始终返回 false。可读写布尔值。
+description: 指定母版幻灯片上的形状是否应该在幻灯片上显示。对于母版幻灯片本身，此属性始终返回 false。可读/可写布尔值。
 type: docs
 weight: 80
 url: /zh/aspose.slides/ibaseslide/showmastershapes/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ibaseslide/showmastershapes/
 
 ## IBaseSlide.ShowMasterShapes 属性
 
-指定母版幻灯片上的形状是否应在幻灯片上显示。对于母版幻灯片本身，此属性始终返回 `false`。可读写布尔值。
+指定母版幻灯片上的形状是否应该在幻灯片上显示。对于母版幻灯片本身，此属性始终返回 `false`。可读/可写布尔值。
 
 ```csharp
 public bool ShowMasterShapes { get; set; }
@@ -19,9 +19,9 @@ public bool ShowMasterShapes { get; set; }
 
 | exception | condition |
 | --- | --- |
-| NotSupportedException | 如果为母版幻灯片设置为 `true`，则抛出此异常。 |
+| NotSupportedException | 如果为母版幻灯片设置为 `true`，则抛出。 |
 
-### 另请参见
+### 参见
 
 * 接口 [IBaseSlide](../../ibaseslide)
 * 命名空间 [Aspose.Slides](../../ibaseslide)

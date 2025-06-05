@@ -1,6 +1,6 @@
 ---
 title: AnchoringType
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Gibt den vertikalen Ankertext in einem TextFrame zurück oder setzt ihn. Lese-/Schreibzugriff auf TextAnchorTypeaspose.slides/../aspose.slides/textanchortype.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Gibt den vertikalen Ankertext in einem TextFrame zurück oder setzt ihn. Lese-/S
 public TextAnchorType AnchoringType { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [TextAnchorType](../../../aspose.slides/textanchortype)
 * interface [IChartTextBlockFormat](../../icharttextblockformat)

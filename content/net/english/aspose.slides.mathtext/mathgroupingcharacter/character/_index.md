@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.mathtext/mathgroupingcharacter/character/
 ---
+
 ## MathGroupingCharacter.Character property
 
 Grouping Character Default value: U+23DF (BOTTOM CURLY BRACKET)

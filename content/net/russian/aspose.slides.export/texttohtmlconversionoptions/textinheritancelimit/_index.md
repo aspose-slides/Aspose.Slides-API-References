@@ -1,7 +1,7 @@
 ---
 title: TextInheritanceLimit
-second_title: Aspose.Sildes для .NET API Reference
-description: Возвращает или задает глубину наследования для свойств текста. Чтение/запись TextInheritanceLimitaspose.slides.export/textinheritancelimit.
+second_title: Aspose.Sildes для справки по .NET API
+description: Возвращает или задает глубину наследования для текстовых свойств. Чтение/запись TextInheritanceLimitaspose.slides.export/textinheritancelimit.
 type: docs
 weight: 50
 url: /ru/aspose.slides.export/texttohtmlconversionoptions/textinheritancelimit/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.export/texttohtmlconversionoptions/textinheritancelimit/
 
 ## TextToHtmlConversionOptions.TextInheritanceLimit свойство
 
-Возвращает или задает глубину наследования для свойств текста. Чтение/запись [`TextInheritanceLimit`](../../textinheritancelimit).
+Возвращает или задает глубину наследования для текстовых свойств. Чтение/запись [`TextInheritanceLimit`](../../textinheritancelimit).
 
 ```csharp
 public TextInheritanceLimit TextInheritanceLimit { get; set; }
 ```
 
-### См. также
+### Смотрите Также
 
 * enum [TextInheritanceLimit](../../textinheritancelimit)
 * class [TextToHtmlConversionOptions](../../texttohtmlconversionoptions)

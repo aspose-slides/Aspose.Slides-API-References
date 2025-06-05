@@ -1,5 +1,5 @@
 ---
-title: Nombre
+title: Name
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el nombre de un tema. Cadena de lectura/escritura.
 type: docs
@@ -15,7 +15,7 @@ Devuelve el nombre de un tema. Cadena de lectura/escritura.
 public string Name { get; set; }
 ```
 
-### Ver también
+### Véase también
 
 * interfaz [IMasterTheme](../../imastertheme)
 * espacio de nombres [Aspose.Slides.Theme](../../imastertheme)

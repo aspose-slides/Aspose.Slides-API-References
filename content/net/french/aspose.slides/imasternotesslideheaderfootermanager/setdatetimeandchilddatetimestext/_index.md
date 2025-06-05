@@ -1,7 +1,7 @@
 ---
 title: SetDateTimeAndChildDateTimesText
 second_title: Référence API Aspose.Slides pour .NET
-description: Définit le texte pour le champ de date-heure du slide maître de notes et tous les champs de date-heure enfants. Les champs enfants signifient que les champs sont contenus dans des slides de notes dépendants. Les slides de notes dépendants utilisent et dépendent du slide maître de notes.
+description: Définit le texte pour le champ de date-heure de la diapositive de notes maître et tous les champs de date-heure enfants. Les champs enfants signifient que les champs sont contenus dans des diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maître.
 type: docs
 weight: 20
 url: /fr/aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchildd
 
 ## IMasterNotesSlideHeaderFooterManager.SetDateTimeAndChildDateTimesText méthode
 
-Définit le texte pour le champ de date-heure du slide maître de notes et tous les champs de date-heure enfants. Les champs enfants signifient que les champs sont contenus dans des slides de notes dépendants. Les slides de notes dépendants utilisent et dépendent du slide maître de notes.
+Définit le texte pour le champ de date-heure de la diapositive de notes maître et tous les champs de date-heure enfants. Les champs enfants signifient que les champs sont contenus dans des diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maître.
 
 ```csharp
 public void SetDateTimeAndChildDateTimesText(string text)

@@ -1,7 +1,7 @@
 ---
 title: FromFile
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erstellen Sie ein Bild aus der Datei.
+second_title: Aspose.Slides für .NET API Referenz
+description: Erstellen Sie ein Bild aus der Datei .
 type: docs
 weight: 10
 url: /de/aspose.slides/images/fromfile/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/images/fromfile/
 
 ## FromFile(string) {#fromfile}
 
-Erstellen Sie ein Bild aus der Datei.
+Erstellen Sie ein Bild aus der Datei .
 
 ```csharp
 public static IImage FromFile(string filename)
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * interface [IImage](../../iimage)
 * class [Images](../../images)
@@ -32,7 +32,7 @@ Erstellen Sie ein Bild aus der Datei
 public static IImage FromFile(string filename, bool useEmbeddedColorManagement)
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * interface [IImage](../../iimage)
 * class [Images](../../images)

@@ -1,7 +1,7 @@
 ---
 title: IndexOf
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen Index der angegebenen Folie in der Sammlung zurück.
+description: Gibt den Index der angegebenen Folie in der Sammlung zurück.
 type: docs
 weight: 110
 url: /de/aspose.slides/slidecollection/indexof/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/slidecollection/indexof/
 
 ## SlideCollection.IndexOf-Methode
 
-Gibt einen Index der angegebenen Folie in der Sammlung zurück.
+Gibt den Index der angegebenen Folie in der Sammlung zurück.
 
 ```csharp
 public int IndexOf(ISlide slide)
@@ -17,13 +17,13 @@ public int IndexOf(ISlide slide)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| slide | ISlide | Zu findende Folie. |
+| slide | ISlide | Folie, die gefunden werden soll. |
 
 ### Rückgabewert
 
 Index einer Folie oder -1, wenn die Folie nicht aus dieser Sammlung stammt.
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ISlide](../../islide)
 * Klasse [SlideCollection](../../slidecollection)

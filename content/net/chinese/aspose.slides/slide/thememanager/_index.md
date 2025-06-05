@@ -1,7 +1,7 @@
 ---
-title: 主题管理器
-second_title: Aspose.Slides for .NET API 参考
-description: 返回覆盖的主题管理器。唯读 IOverrideThemeManager aspose.slides.theme/ioverridethememanager。
+title: ThemeManager
+second_title: Aspose.Slides for .NET API Reference
+description: 返回覆盖主题管理器。只读 IOverrideThemeManageraspose.slides.theme/ioverridethememanager。
 type: docs
 weight: 70
 url: /zh/aspose.slides/slide/thememanager/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/slide/thememanager/
 
 ## Slide.ThemeManager 属性
 
-返回覆盖的主题管理器。唯读 [`IOverrideThemeManager`](../../../aspose.slides.theme/ioverridethememanager)。
+返回覆盖主题管理器。只读 [`IOverrideThemeManager`](../../../aspose.slides.theme/ioverridethememanager)。
 
 ```csharp
 public IOverrideThemeManager ThemeManager { get; }
 ```
 
-### 参阅
+### 参见
 
 * 接口 [IOverrideThemeManager](../../../aspose.slides.theme/ioverridethememanager)
 * 类 [Slide](../../slide)

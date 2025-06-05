@@ -1,6 +1,6 @@
 ---
 title: TextCapType
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Возвращает тип капитализации текста. Только для чтения TextCapTypeaspose.slides/textcaptype.
 type: docs
 weight: 250
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ibaseportionformateffectivedata/textcaptype/
 public TextCapType TextCapType { get; }
 ```
 
-### Также см.
+### См. также
 
 * enum [TextCapType](../../textcaptype)
 * interface [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)

@@ -1,15 +1,15 @@
 ---
 title: GetImage
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie un objet image avec un redimensionnement personnalisé.
+description: Retourne un objet image avec un redimensionnement personnalisé.
 type: docs
 weight: 80
 url: /fr/aspose.slides/islide/getimage/
 ---
 
-## GetImage(float, float) {#getimage_5}
+## GetImage(float, float) {#getimage_5}
 
-Renvoie un objet image avec un redimensionnement personnalisé.
+Retourne un objet image avec un redimensionnement personnalisé.
 
 ```csharp
 public IImage GetImage(float scaleX, float scaleY)
@@ -17,8 +17,8 @@ public IImage GetImage(float scaleX, float scaleY)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| scaleX | Single | La valeur selon laquelle redimensionner cette miniature dans la direction de l'axe des x. |
-| scaleY | Single | La valeur selon laquelle redimensionner cette miniature dans la direction de l'axe des y. |
+| scaleX | Single | La valeur par laquelle redimensionner cette miniature dans la direction de l'axe x. |
+| scaleY | Single | La valeur par laquelle redimensionner cette miniature dans la direction de l'axe y. |
 
 ### Valeur de retour
 
@@ -35,7 +35,7 @@ Objet Bitmap d'image
 
 ## GetImage() {#getimage}
 
-Renvoie un objet d'image miniature (20% de la taille réelle).
+Retourne un objet image de miniature (20 % de la taille réelle).
 
 ```csharp
 public IImage GetImage()
@@ -56,7 +56,7 @@ Objet Bitmap d'image
 
 ## GetImage(Size) {#getimage_6}
 
-Renvoie un objet image avec une taille spécifiée.
+Retourne un objet image avec une taille spécifiée.
 
 ```csharp
 public IImage GetImage(Size imageSize)
@@ -81,7 +81,7 @@ Objet Bitmap.
 
 ## GetImage(ITiffOptions) {#getimage_4}
 
-Renvoie un objet bitmap tiff miniature avec les paramètres spécifiés.
+Retourne un objet bitmap tiff de miniature avec des paramètres spécifiés.
 
 ```csharp
 public IImage GetImage(ITiffOptions options)
@@ -89,7 +89,7 @@ public IImage GetImage(ITiffOptions options)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| options | ITiffOptions | Options TIFF. |
+| options | ITiffOptions | Options Tiff. |
 
 ### Valeur de retour
 
@@ -107,7 +107,7 @@ Objet image.
 
 ## GetImage(IRenderingOptions) {#getimage_1}
 
-Renvoie un objet Bitmap miniature.
+Retourne un objet Bitmap de miniature.
 
 ```csharp
 public IImage GetImage(IRenderingOptions options)
@@ -131,9 +131,9 @@ Objets Bitmap.
 
 ---
 
-## GetImage(IRenderingOptions, float, float) {#getimage_2}
+## GetImage(IRenderingOptions, float, float) {#getimage_2}
 
-Renvoie un objet Bitmap miniature avec un redimensionnement personnalisé.
+Retourne un objet Bitmap de miniature avec un redimensionnement personnalisé.
 
 ```csharp
 public IImage GetImage(IRenderingOptions options, float scaleX, float scaleY)
@@ -142,8 +142,8 @@ public IImage GetImage(IRenderingOptions options, float scaleX, float scaleY)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | options | IRenderingOptions | Options de rendu. |
-| scaleX | Single | La valeur selon laquelle redimensionner cette miniature dans la direction de l'axe des x. |
-| scaleY | Single | La valeur selon laquelle redimensionner cette miniature dans la direction de l'axe des y. |
+| scaleX | Single | La valeur par laquelle redimensionner cette miniature dans la direction de l'axe x. |
+| scaleY | Single | La valeur par laquelle redimensionner cette miniature dans la direction de l'axe y. |
 
 ### Valeur de retour
 
@@ -159,9 +159,9 @@ Objets Bitmap.
 
 ---
 
-## GetImage(IRenderingOptions, Size) {#getimage_3}
+## GetImage(IRenderingOptions, Size) {#getimage_3}
 
-Renvoie un objet Bitmap miniature avec une taille spécifiée.
+Retourne un objet Bitmap de miniature avec une taille spécifiée.
 
 ```csharp
 public IImage GetImage(IRenderingOptions options, Size imageSize)

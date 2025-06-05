@@ -1,7 +1,7 @@
 ---
-title: Helligkeit
+title: Luminance
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Helligkeitskomponente einer Farbe in HSL-Darstellung zurück oder setzt sie. Alle Farbtransformationen werden ignoriert. Lese-/schreibbarer Single.
+description: Gibt die Helligkeitskomponente einer Farbe in HSL-Darstellung zurück oder setzt sie. Alle Farbtransformationen werden ignoriert. Lese-/Schreibzugriff auf Single.
 type: docs
 weight: 110
 url: /de/aspose.slides/icolorformat/luminance/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/icolorformat/luminance/
 
 ## IColorFormat.Luminance-Eigenschaft
 
-Gibt die Helligkeitskomponente einer Farbe in HSL-Darstellung zurück oder setzt sie. Alle Farbtransformationen werden ignoriert. Lese-/schreibbarer Single.
+Gibt die Helligkeitskomponente einer Farbe in HSL-Darstellung zurück oder setzt sie. Alle Farbtransformationen werden ignoriert. Lese-/Schreibzugriff auf Single.
 
 ```csharp
 public float Luminance { get; set; }

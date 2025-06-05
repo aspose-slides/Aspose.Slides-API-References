@@ -1,6 +1,6 @@
 ---
-title: Клонировать
-second_title: Справка по API Aspose.Sildes для .NET
+title: Clone
+second_title: Aspose.Slides для .NET API Справочник
 description: Создает копию коллекции ColorOperationCollection.
 type: docs
 weight: 70
@@ -15,11 +15,11 @@ url: /ru/aspose.slides/coloroperationcollection/clone/
 public object Clone()
 ```
 
-### Возвращаемое значение
+### Значение Возврата
 
-Новая коллекция [`ColorOperationCollection`](../../coloroperationcollection).
+Новая [`ColorOperationCollection`](../../coloroperationcollection) коллекция.
 
-### Смотрите также
+### См. Также
 
 * класс [ColorOperationCollection](../../coloroperationcollection)
 * пространство имен [Aspose.Slides](../../coloroperationcollection)

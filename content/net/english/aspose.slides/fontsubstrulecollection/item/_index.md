@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/fontsubstrulecollection/item/
 ---
+
 ## FontSubstRuleCollection indexer
 
 Gets the element at the specified index.

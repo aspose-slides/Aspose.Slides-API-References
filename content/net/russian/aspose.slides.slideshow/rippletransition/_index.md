@@ -7,7 +7,7 @@ weight: 9980
 url: /ru/aspose.slides.slideshow/rippletransition/
 ---
 
-## Класс RippleTransition
+## RippleTransition класс
 
 Эффект перехода слайдов Ripple.
 
@@ -25,8 +25,8 @@ public class RippleTransition : TransitionValueBase, IRippleTransition
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хеш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хеш-таблица. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземплара TransitionValueBase. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хеш-функцией для конкретного типа, подходит для использования в хеш-алгоритмах и структурах данных, таких как хеш-таблица. |
 
 ### См. также
 

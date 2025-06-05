@@ -19,19 +19,19 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | Gibt die ICollection-Schnittstelle zurück. Nur-lesendes IEnumerable. |
-| [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | Gibt die Anzahl der Zellen in der Sammlung zurück. Nur-lesendes Int32. |
+| [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | Gibt die ICollection-Schnittstelle zurück. Nur lesefähige IEnumerable. |
+| [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | Erhält die Anzahl der Zellen in der Sammlung. Nur lesefähiges Int32. |
 | [Item](../../aspose.slides.charts/ichartcellcollection/item) { get; } | Gibt eine Zelle (IChartDataCell) nach Index zurück. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | Fügt der Sammlung eine neue Zelle hinzu. |
-| [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | Erstellt eine [`IChartDataCell`](../ichartdatacell) aus dem angegebenen Wert und fügt sie der Sammlung hinzu. |
-| [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | Gibt die Adresse der Gruppe von Zellen im Arbeitsbuch zurück. |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | Verkettungszeichenfolge aus allen Zellenzeichenfolgenwerten. |
-| [RemoveAt](../../aspose.slides.charts/ichartcellcollection/removeat)(int) | Entfernt eine Zelle von der Sammlung nach Index. |
+| [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | Füge eine neue Zelle zur Sammlung hinzu. |
+| [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | Erstellt [`IChartDataCell`](../ichartdatacell) aus dem angegebenen Wert und fügt es zur Sammlung hinzu. |
+| [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | Gibt die Adresse der Menge von Zellen im Arbeitsbuch zurück. |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | Verkettungszeichenfolge aus allen Zellzeichenfolgenwerten. |
+| [RemoveAt](../../aspose.slides.charts/ichartcellcollection/removeat)(int) | Entfernt eine Zelle aus der Sammlung nach Index. |
 
 ### Siehe auch
 

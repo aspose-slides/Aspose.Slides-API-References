@@ -15,7 +15,7 @@ url: /ru/aspose.slides.mathtext/mathdelimiterfactory/mathdelimiterfactory/
 public MathDelimiterFactory()
 ```
 
-### См. также
+### См. Также
 
 * класс [MathDelimiterFactory](../../mathdelimiterfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathdelimiterfactory)

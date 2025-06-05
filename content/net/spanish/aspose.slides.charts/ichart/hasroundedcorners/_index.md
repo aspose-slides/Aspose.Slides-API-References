@@ -1,13 +1,13 @@
 ---
 title: HasRoundedCorners
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de la API
 description: Especifica que el área del gráfico debe tener esquinas redondeadas. Booleano de lectura/escritura.
 type: docs
 weight: 130
 url: /es/aspose.slides.charts/ichart/hasroundedcorners/
 ---
 
-## Propiedad IChart.HasRoundedCorners
+## IChart.HasRoundedCorners propiedad
 
 Especifica que el área del gráfico debe tener esquinas redondeadas. Booleano de lectura/escritura.
 
@@ -15,7 +15,7 @@ Especifica que el área del gráfico debe tener esquinas redondeadas. Booleano d
 public bool HasRoundedCorners { get; set; }
 ```
 
-### Véase también
+### Véase También
 
 * interfaz [IChart](../../ichart)
 * espacio de nombres [Aspose.Slides.Charts](../../ichart)

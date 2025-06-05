@@ -1,7 +1,7 @@
 ---
 title: ExtrusionOn
-second_title: Aspose.Slides for .NET API 参考
-description: 表示 extrusion.on 属性
+second_title: Aspose.Sildes for .NET API Reference
+description: 代表 extrusion.on 属性
 type: docs
 weight: 70
 url: /zh/aspose.slides.animation/behaviorproperty/extrusionon/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.animation/behaviorproperty/extrusionon/
 
 ## BehaviorProperty.ExtrusionOn 属性
 
-表示 'extrusion.on' 属性
+代表 'extrusion.on' 属性
 
 ```csharp
 public static BehaviorProperty ExtrusionOn { get; }
 ```
 
-### 另请参见
+### 另见
 
 * class [BehaviorProperty](../../behaviorproperty)
 * namespace [Aspose.Slides.Animation](../../behaviorproperty)

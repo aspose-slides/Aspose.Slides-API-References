@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.effects/ialphabileveleffectivedata/asieffecteffectivedata/
 ---
+
 ## IAlphaBiLevelEffectiveData.AsIEffectEffectiveData property
 
 Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../../ieffecteffectivedata).

@@ -1,7 +1,7 @@
 ---
-title: Element
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die benutzerdefinierte Eigenschaft zurück oder setzt diese, die mit einem angegebenen Namen verbunden ist. Lese-/schreibbares Objekt.
+title: Item
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die benutzerdefinierte Eigenschaft zurück oder legt sie fest, die mit einem bestimmten Namen verbunden ist. Lese-/Schreibobjekt.
 type: docs
 weight: 150
 url: /de/aspose.slides/idocumentproperties/item/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/idocumentproperties/item/
 
 ## IDocumentProperties-Indexer
 
-Gibt die benutzerdefinierte Eigenschaft zurück oder setzt diese, die mit einem angegebenen Namen verbunden ist. Lese-/schreibbares Objekt.
+Gibt die benutzerdefinierte Eigenschaft zurück oder legt sie fest, die mit einem bestimmten Namen verbunden ist. Lese-/Schreibobjekt.
 
 ```csharp
 public object this[string name] { get; set; }

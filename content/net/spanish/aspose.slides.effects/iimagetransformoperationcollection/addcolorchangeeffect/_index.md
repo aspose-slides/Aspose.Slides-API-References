@@ -1,7 +1,7 @@
 ---
-title: AgregarEfectoCambioColor
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Agrega el nuevo efecto de Cambio de Color al final de una colección.
+title: AddColorChangeEffect
+second_title: Aspose.Sildes para la referencia de la API de .NET
+description: Agrega el nuevo efecto de cambio de color al final de una colección.
 type: docs
 weight: 120
 url: /es/aspose.slides.effects/iimagetransformoperationcollection/addcolorchangeeffect/
@@ -9,21 +9,21 @@ url: /es/aspose.slides.effects/iimagetransformoperationcollection/addcolorchange
 
 ## IImageTransformOperationCollection.AddColorChangeEffect método
 
-Agrega el nuevo efecto de Cambio de Color al final de una colección.
+Agrega el nuevo efecto de cambio de color al final de una colección.
 
 ```csharp
 public IColorChange AddColorChangeEffect()
 ```
 
-### Valor de Retorno
+### Valor de retorno
 
 Índice del nuevo efecto de imagen en una colección.
 
-### Ver También
+### Véase también
 
 * interfaz [IColorChange](../../icolorchange)
 * interfaz [IImageTransformOperationCollection](../../iimagetransformoperationcollection)
 * espacio de nombres [Aspose.Slides.Effects](../../iimagetransformoperationcollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

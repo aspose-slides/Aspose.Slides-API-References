@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/fillformat/patternformat/
 ---
+
 ## FillFormat.PatternFormat property
 
 Returns the pattern fill format. Read-only [`IPatternFormat`](../../ipatternformat).

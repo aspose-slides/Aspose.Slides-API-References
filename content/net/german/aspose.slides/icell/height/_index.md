@@ -1,7 +1,7 @@
 ---
-title: Höhe
+title: Height
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Höhe der Zelle zurück. Nur lesbarer Double.
+description: Gibt die Höhe der Zelle zurück. Nur lesbare Double.
 type: docs
 weight: 90
 url: /de/aspose.slides/icell/height/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/icell/height/
 
 ## ICell.Height-Eigenschaft
 
-Gibt die Höhe der Zelle zurück. Nur lesbarer Double.
+Gibt die Höhe der Zelle zurück. Nur lesbare Double.
 
 ```csharp
 public double Height { get; }

@@ -1,7 +1,7 @@
 ---
 title: ILineFormatCollectionEffectiveData
-second_title: Справочник по API Aspose.Slides для .NET
-description: Непередаваемый объект, который представляет собой только для чтения коллекцию эффективных форматов линий.
+second_title: Aspose.Sildes для .NET API Reference
+description: Неизменяемый объект, представляющий собой только для чтения коллекцию эффективных стилей линий.
 type: docs
 weight: 10990
 url: /ru/aspose.slides.theme/ilineformatcollectioneffectivedata/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.theme/ilineformatcollectioneffectivedata/
 
 ## Интерфейс ILineFormatCollectionEffectiveData
 
-Непередаваемый объект, который представляет собой только для чтения коллекцию эффективных форматов линий.
+Неизменяемый объект, представляющий собой только для чтения коллекцию эффективных стилей линий.
 
 ```csharp
 public interface ILineFormatCollectionEffectiveData : IGenericCollection<ILineFormatEffectiveData>
@@ -17,15 +17,15 @@ public interface ILineFormatCollectionEffectiveData : IGenericCollection<ILineFo
 
 ## Свойства
 
-| Название | Описание |
+| Name | Description |
 | --- | --- |
 | [Item](../../aspose.slides.theme/ilineformatcollectioneffectivedata/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`ILineFormatEffectiveData`](../../aspose.slides/ilineformateffectivedata). |
 
-### Примечания
+### Замечания
 
 Этот интерфейс используется как часть [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata).
 
-### См. также
+### См. Также
 
 * интерфейс [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * интерфейс [ILineFormatEffectiveData](../../aspose.slides/ilineformateffectivedata)

@@ -1,7 +1,7 @@
 ---
-title: Orientierung
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Ausrichtung des Zeichenführers zurück oder setzt diese. Lese-/Schreibzugriff auf Orientationaspose.slides/orientation.
+title: Orientation
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Ausrichtung des Zeichenleitfadens zurück oder setzt sie. Lesen/Schreiben Orientationaspose.slides/orientation.
 type: docs
 weight: 10
 url: /de/aspose.slides/drawingguide/orientation/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/drawingguide/orientation/
 
 ## DrawingGuide.Orientation-Eigenschaft
 
-Gibt die Ausrichtung des Zeichenführers zurück oder setzt diese. Lese-/Schreibzugriff auf [`Orientation`](../../orientation).
+Gibt die Ausrichtung des Zeichenleitfadens zurück oder setzt sie. Lesen/Schreiben [`Orientation`](../../orientation).
 
 ```csharp
 public Orientation Orientation { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [Orientation](../../orientation)
 * class [DrawingGuide](../../drawingguide)

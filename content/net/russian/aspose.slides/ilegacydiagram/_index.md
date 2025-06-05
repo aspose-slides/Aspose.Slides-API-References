@@ -25,10 +25,10 @@ public interface ILegacyDiagram : IGraphicalObject
 
 | Название | Описание |
 | --- | --- |
-| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | Преобразует устаревшую диаграмму в редактируемую группу объектов. Созданный объект GroupShape добавляется к родительской группе объектов в той же позиции. |
-| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | Преобразует устаревшую диаграмму в редактируемый объект SmartArt. Созданный объект SmartArt добавляется к родительской группе объектов в той же позиции. |
+| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | Преобразует устаревшую диаграмму в редактируемую группу объектов. Созданный объект GroupShape добавляется в родительскую группу объектов в том же положении. |
+| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | Преобразует устаревшую диаграмму в редактируемый объект SmartArt. Созданный объект SmartArt добавляется в родительскую группу объектов в том же положении. |
 
-### Смотрите Также
+### См. также
 
 * интерфейс [IGraphicalObject](../igraphicalobject)
 * пространство имен [Aspose.Slides](../../aspose.slides)

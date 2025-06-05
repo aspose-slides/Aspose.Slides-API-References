@@ -1,13 +1,13 @@
 ---
 title: TextAnimationCollection
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie une collection d'animations de texte. Lecture seule ITextAnimationCollection aspose.slides.animation/itextanimationcollection.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie une collection d'animations de texte. ITextAnimationCollection en lecture seule aspose.slides.animation/itextanimationcollection.
 type: docs
 weight: 30
 url: /fr/aspose.slides/ianimationtimeline/textanimationcollection/
 ---
 
-## Propriété IAnimationTimeLine.TextAnimationCollection
+## IAnimationTimeLine.TextAnimationCollection propriété
 
 Renvoie une collection d'animations de texte. Lecture seule [`ITextAnimationCollection`](../../../aspose.slides.animation/itextanimationcollection).
 
@@ -15,7 +15,7 @@ Renvoie une collection d'animations de texte. Lecture seule [`ITextAnimationColl
 public ITextAnimationCollection TextAnimationCollection { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ITextAnimationCollection](../../../aspose.slides.animation/itextanimationcollection)
 * interface [IAnimationTimeLine](../../ianimationtimeline)

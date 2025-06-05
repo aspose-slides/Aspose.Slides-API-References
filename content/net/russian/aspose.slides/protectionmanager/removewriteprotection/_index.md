@@ -1,6 +1,6 @@
 ---
-title: УдалитьЗащитуОтЗаписи
-second_title: Справочник API Aspose.Slides для .NET
+title: RemoveWriteProtection
+second_title: Aspose.Slides для .NET API Справочник
 description: Удаляет защиту от записи для этой презентации.
 type: docs
 weight: 100

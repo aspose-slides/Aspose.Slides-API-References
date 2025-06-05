@@ -1,13 +1,13 @@
 ---
-title: Effacer
-second_title: Référence API Aspose.Slide pour .NET
+title: Clear
+second_title: Aspose.Sildes pour la référence de l'API .NET
 description: Supprime tous les commentaires d'une collection.
 type: docs
 weight: 40
 url: /fr/aspose.slides/icommentcollection/clear/
 ---
 
-## Méthode ICommentCollection.Clear
+## ICommentCollection.Clear méthode
 
 Supprime tous les commentaires d'une collection.
 

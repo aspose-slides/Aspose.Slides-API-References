@@ -1,6 +1,6 @@
 ---
 title: ShadowOriginX
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa la propiedad shadow.origin.x
 type: docs
 weight: 740
@@ -15,10 +15,10 @@ Representa la propiedad 'shadow.origin.x'
 public static BehaviorProperty ShadowOriginX { get; }
 ```
 
-### Ver También
+### Vea También
 
-* clase [BehaviorProperty](../../behaviorproperty)
-* espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)
-* ensamblado [Aspose.Slides](../../../)
+* class [BehaviorProperty](../../behaviorproperty)
+* namespace [Aspose.Slides.Animation](../../behaviorproperty)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

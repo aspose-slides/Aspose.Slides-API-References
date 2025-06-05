@@ -1,21 +1,21 @@
 ---
 title: EffectFormat
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Eigenschaften des Text-EffectFormat zurück. Nur-lesbar IEffectFormatEffectiveDataaspose.slides/ieffectformateffectivedata.
+description: Gibt die Text-Effektformat-Eigenschaften zurück. Nur-Lese IEffectFormatEffectiveDataaspose.slides/ieffectformateffectivedata.
 type: docs
 weight: 40
 url: /de/aspose.slides/ibaseportionformateffectivedata/effectformat/
 ---
 
-## IBasePortionFormatEffectiveData.EffectFormat-Eigenschaft
+## IBasePortionFormatEffectiveData.EffectFormat Eigenschaft
 
-Gibt die Eigenschaften des Text-EffectFormat zurück. Nur-lesbar [`IEffectFormatEffectiveData`](../../ieffectformateffectivedata).
+Gibt die Text-Effektformat-Eigenschaften zurück. Nur-Lese [`IEffectFormatEffectiveData`](../../ieffectformateffectivedata).
 
 ```csharp
 public IEffectFormatEffectiveData EffectFormat { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IEffectFormatEffectiveData](../../ieffectformateffectivedata)
 * Schnittstelle [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)

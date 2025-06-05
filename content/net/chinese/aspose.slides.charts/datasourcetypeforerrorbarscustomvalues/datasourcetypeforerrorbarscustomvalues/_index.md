@@ -1,6 +1,6 @@
 ---
 title: DataSourceTypeForErrorBarsCustomValues
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 默认构造函数。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcet
 public DataSourceTypeForErrorBarsCustomValues()
 ```
 
-### 参见
+### 另见
 
 * class [DataSourceTypeForErrorBarsCustomValues](../../datasourcetypeforerrorbarscustomvalues)
 * namespace [Aspose.Slides.Charts](../../datasourcetypeforerrorbarscustomvalues)

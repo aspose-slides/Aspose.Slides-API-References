@@ -1,6 +1,6 @@
 ---
 title: ISlideText
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa el texto extraído de la diapositiva
 type: docs
 weight: 6880
@@ -25,7 +25,7 @@ public interface ISlideText
 | [NotesText](../../aspose.slides/islidetext/notestext) { get; } | El texto en las formas de la página de notas para esta diapositiva |
 | [Text](../../aspose.slides/islidetext/text) { get; } | El texto en las formas de la diapositiva |
 
-### Vea También
+### Véase también
 
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
 * ensamblado [Aspose.Slides](../../)

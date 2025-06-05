@@ -7,7 +7,7 @@ weight: 70
 url: /zh/aspose.slides/summaryzoomsectioncollection/copyto/
 ---
 
-## SummaryZoomSectionCollection.CopyTo 方法
+## SummaryZoomSectionCollection.CopyTo方法
 
 将整个集合复制到指定的数组中。
 
@@ -20,7 +20,7 @@ public void CopyTo(Array array, int index)
 | array | Array | 目标数组 |
 | index | Int32 | 目标数组中的索引。 |
 
-### 另请参阅
+### 参见
 
 * class [SummaryZoomSectionCollection](../../summaryzoomsectioncollection)
 * namespace [Aspose.Slides](../../summaryzoomsectioncollection)

@@ -3,9 +3,10 @@ title: References
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns the list of all references that are contained in the VBA project. Read-only IVbaReferenceCollectionaspose.slides.vba/ivbareferencecollection.
 type: docs
-weight: 30
+weight: 40
 url: /aspose.slides.vba/ivbaproject/references/
 ---
+
 ## IVbaProject.References property
 
 Returns the list of all references that are contained in the VBA project. Read-only [`IVbaReferenceCollection`](../../ivbareferencecollection).

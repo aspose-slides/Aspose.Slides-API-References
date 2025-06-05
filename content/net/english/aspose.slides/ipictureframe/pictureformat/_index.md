@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ipictureframe/pictureformat/
 ---
+
 ## IPictureFrame.PictureFormat property
 
 Returns the PictureFillFormat object for a picture frame. Read-only [`IPictureFillFormat`](../../ipicturefillformat).

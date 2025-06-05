@@ -1,6 +1,6 @@
 ---
 title: HasTitle
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 确定图表是否具有可见标题。可读/可写布尔值。
 type: docs
 weight: 140
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/ichart/hastitle/
 public bool HasTitle { get; set; }
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [IChart](../../ichart)
 * 命名空间 [Aspose.Slides.Charts](../../ichart)

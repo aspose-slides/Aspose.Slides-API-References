@@ -1,6 +1,6 @@
 ---
 title: MathBarFactory
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.mathtext/mathbarfactory/mathbarfactory/
 public MathBarFactory()
 ```
 
-### См. Также
+### См. также
 
 * класс [MathBarFactory](../../mathbarfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathbarfactory)

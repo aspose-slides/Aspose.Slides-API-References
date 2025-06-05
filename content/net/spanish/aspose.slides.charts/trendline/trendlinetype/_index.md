@@ -15,7 +15,7 @@ Obtiene o establece el tipo de línea de tendencia. Lectura/escritura [`Trendlin
 public TrendlineType TrendlineType { get; set; }
 ```
 
-### Véase También
+### Ver También
 
 * enum [TrendlineType](../../trendlinetype)
 * class [Trendline](../../trendline)

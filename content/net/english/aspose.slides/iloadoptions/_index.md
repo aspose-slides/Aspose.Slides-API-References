@@ -3,9 +3,10 @@ title: ILoadOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Allows to specify additional options such as format or default font when loading a presentation.
 type: docs
-weight: 5910
+weight: 6140
 url: /aspose.slides/iloadoptions/
 ---
+
 ## ILoadOptions interface
 
 Allows to specify additional options (such as format or default font) when loading a presentation.
@@ -23,6 +24,7 @@ public interface ILoadOptions
 | [DefaultRegularFont](../../aspose.slides/iloadoptions/defaultregularfont) { get; set; } | Returns or sets Regular font used in case source font is not found. Read-write String. |
 | [DefaultSymbolFont](../../aspose.slides/iloadoptions/defaultsymbolfont) { get; set; } | Returns or sets Symbol font used in case source font is not found. Read-write String. |
 | [DefaultTextLanguage](../../aspose.slides/iloadoptions/defaulttextlanguage) { get; set; } | Returns or sets the default language for presentation text. Read/write String. |
+| [DeleteEmbeddedBinaryObjects](../../aspose.slides/iloadoptions/deleteembeddedbinaryobjects) { get; set; } | Determines if Aspose.Slides will delete all embedded binary objects while presentation loading. |
 | [DocumentLevelFontSources](../../aspose.slides/iloadoptions/documentlevelfontsources) { get; set; } | Specifies sources for external fonts to be used by the presentation. These fonts are available to the presentation throughout its lifetime and are not shared with other presentations |
 | [InterruptionToken](../../aspose.slides/iloadoptions/interruptiontoken) { get; set; } | The token to monitor for interruption requests.  This token manages the whole [`IPresentation`](../ipresentation) instance lifetime. Any long-running operation, such as presentaion loading or saving, will be interrupted via calling of the [`Interrupt`](../iinterruptiontokensource/interrupt) method of the [`IInterruptionTokenSource`](../iinterruptiontokensource). |
 | [LoadFormat](../../aspose.slides/iloadoptions/loadformat) { get; set; } | Returns or sets format of a presentation to load. Read/write [`LoadFormat`](../loadformat). |

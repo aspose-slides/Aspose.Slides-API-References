@@ -6,6 +6,7 @@ type: docs
 weight: 230
 url: /aspose.slides/ibaseportionformat/symbolfont/
 ---
+
 ## IBasePortionFormat.SymbolFont property
 
 Returns or sets the symbolic font info. Null means font is undefined and should be inherited from the Master. Read/write [`IFontData`](../../ifontdata).

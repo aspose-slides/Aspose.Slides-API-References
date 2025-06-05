@@ -1,6 +1,6 @@
 ---
-title: ColorDeFondo
-second_title: Referencia de API de Aspose.Slides para .NET
+title: BackColor
+second_title: Aspose.Slides para .NET API Reference
 description: Devuelve el color del patrón de fondo. Solo lectura IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 10
@@ -15,11 +15,11 @@ Devuelve el color del patrón de fondo. Solo lectura [`IColorFormat`](../../icol
 public IColorFormat BackColor { get; }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [IColorFormat](../../icolorformat)
 * clase [PatternFormat](../../patternformat)
 * espacio de nombres [Aspose.Slides](../../patternformat)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

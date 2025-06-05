@@ -1,7 +1,7 @@
 ---
-title: Bas
-second_title: Référence API Aspose.Slides pour .NET
-description: Obtient le haut de l'élément de graphique en tant que fraction de la hauteur du graphique. En lecture seule Single.
+title: Bottom
+second_title: Aspose.Sildes pour la référence API .NET
+description: Obtient le haut de l'élément de graphique en tant que fraction de la hauteur du graphique. Lecture seule Single.
 type: docs
 weight: 20
 url: /fr/aspose.slides.charts/ilayoutable/bottom/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/ilayoutable/bottom/
 
 ## Propriété ILayoutable.Bottom
 
-Obtient le haut de l'élément de graphique en tant que fraction de la hauteur du graphique. En lecture seule Single.
+Obtient le haut de l'élément de graphique en tant que fraction de la hauteur du graphique. Lecture seule Single.
 
 ```csharp
 public float Bottom { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ILayoutable](../../ilayoutable)
 * namespace [Aspose.Slides.Charts](../../ilayoutable)

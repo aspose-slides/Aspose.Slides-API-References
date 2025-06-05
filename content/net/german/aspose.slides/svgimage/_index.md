@@ -7,7 +7,7 @@ weight: 10490
 url: /de/aspose.slides/svgimage/
 ---
 
-## SvgImage-Klasse
+## SvgImage Klasse
 
 Stellt ein SVG-Bild dar.
 
@@ -30,10 +30,10 @@ public class SvgImage : ISvgImage
 
 | Name | Beschreibung |
 | --- | --- |
-| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | Gibt die Basis-URI des angegebenen SVG zurück. Wird verwendet, um relative Links aufzulösen. Nur-Lese String. |
-| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Gibt das Rückruffschnittstelle zurück, die verwendet wird, um externe Ressourcen während des Imports von SVG-Dokumenten aufzulösen. Nur-Lese [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
-| [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | Gibt den SVG-Inhalt zurück. Nur-Lese String. |
-| [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | Gibt die SVG-Daten zurück. Nur-Lese Byte[]. |
+| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | Gibt die Basis-URI des angegebenen SVG zurück. Wird verwendet, um relative Links aufzulösen. Schreibgeschützter String. |
+| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Gibt die Rückruffschnittstelle zurück, die verwendet wird, um externe Ressourcen während des Imports von SVG-Dokumenten aufzulösen. Schreibgeschützter [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
+| [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | Gibt den SVG-Inhalt zurück. Schreibgeschützter String. |
+| [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | Gibt die SVG-Daten zurück. Schreibgeschütztes Byte[]. |
 
 ## Methoden
 
@@ -41,7 +41,7 @@ public class SvgImage : ISvgImage
 | --- | --- |
 | [WriteAsEmf](../../aspose.slides/svgimage/writeasemf)(Stream) | Speichert das SVG-Bild als EMF-Datei. |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ISvgImage](../isvgimage)
 * Namespace [Aspose.Slides](../../aspose.slides)

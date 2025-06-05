@@ -1,7 +1,7 @@
 ---
 title: HyperlinkBase
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die HyperlinkBase-Dokumenteigenschaft zurück oder legt sie fest. Lese-/schreibbarer String.
+description: Gibt die HyperlinkBase-Dokumenteigenschaft zurück oder legt sie fest. Lese-/Schreib-String.
 type: docs
 weight: 130
 url: /de/aspose.slides/idocumentproperties/hyperlinkbase/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/idocumentproperties/hyperlinkbase/
 
 ## IDocumentProperties.HyperlinkBase-Eigenschaft
 
-Gibt die HyperlinkBase-Dokumenteigenschaft zurück oder legt sie fest. Lese-/schreibbarer String.
+Gibt die HyperlinkBase-Dokumenteigenschaft zurück oder legt sie fest. Lese-/Schreib-String.
 
 ```csharp
 public string HyperlinkBase { get; set; }

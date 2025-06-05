@@ -1,7 +1,7 @@
 ---
-title: 相关图例条目
-second_title: Aspose.Slides for .NET API 参考
-description: 图表类型属于此列表的情况下对应图例条目的属性：ChartType.BarOfPie、ChartType.ExplodedPie、ChartType.ExplodedPie3D、ChartType.Pie、ChartType.Pie3D、ChartType.PieOfPie。只读 ILegendEntryProperties aspose.slides.charts/ilegendentryproperties。
+title: RelatedLegendEntry
+second_title: Aspose.Sildes for .NET API Reference
+description: 图例条目属性，适用于此列表中的图表类型 ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie。只读 ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties。
 type: docs
 weight: 130
 url: /zh/aspose.slides.charts/ichartdatapoint/relatedlegendentry/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ichartdatapoint/relatedlegendentry/
 
 ## IChartDataPoint.RelatedLegendEntry 属性
 
-图表类型属于此列表的情况下对应图例条目的属性：ChartType.BarOfPie、ChartType.ExplodedPie、ChartType.ExplodedPie3D、ChartType.Pie、ChartType.Pie3D、ChartType.PieOfPie。只读 [`ILegendEntryProperties`](../../ilegendentryproperties)。
+图表类型对应的图例条目属性，适用于此列表中的类型：ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie。只读 [`ILegendEntryProperties`](../../ilegendentryproperties)。
 
 ```csharp
 public ILegendEntryProperties RelatedLegendEntry { get; }
 ```
 
-### 另见
+### 相关链接
 
 * 接口 [ILegendEntryProperties](../../ilegendentryproperties)
 * 接口 [IChartDataPoint](../../ichartdatapoint)

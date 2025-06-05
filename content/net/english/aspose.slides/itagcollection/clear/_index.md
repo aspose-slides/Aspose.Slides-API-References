@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/itagcollection/clear/
 ---
+
 ## ITagCollection.Clear method
 
 Removes all tags from the collection.

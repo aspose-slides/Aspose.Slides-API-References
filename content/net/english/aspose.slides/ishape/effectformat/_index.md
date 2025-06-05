@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/ishape/effectformat/
 ---
+
 ## IShape.EffectFormat property
 
 Returns the EffectFormat object which contains pixel effects applied to a shape. Read-only [`IEffectFormat`](../../ieffectformat).

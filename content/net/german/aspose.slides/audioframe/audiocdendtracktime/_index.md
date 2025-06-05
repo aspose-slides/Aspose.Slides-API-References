@@ -1,7 +1,7 @@
 ---
 title: AudioCdEndTrackTime
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die letzte Track-Zeit zurück oder setzt sie. Lese-/Schreibzugriff Int32.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die letzte Trackzeit zurück oder setzt sie. Lese-/Schreibzugriff Int32.
 type: docs
 weight: 20
 url: /de/aspose.slides/audioframe/audiocdendtracktime/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/audioframe/audiocdendtracktime/
 
 ## AudioFrame.AudioCdEndTrackTime-Eigenschaft
 
-Gibt die letzte Track-Zeit zurück oder setzt sie. Lese-/Schreibzugriff Int32.
+Gibt die letzte Trackzeit zurück oder setzt sie. Lese-/Schreibzugriff Int32.
 
 ```csharp
 public int AudioCdEndTrackTime { get; set; }

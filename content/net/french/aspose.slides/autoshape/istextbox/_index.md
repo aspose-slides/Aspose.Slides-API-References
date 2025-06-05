@@ -1,6 +1,6 @@
 ---
 title: IsTextBox
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence API d'Aspose.Slides pour .NET
 description: Spécifie si la forme est une zone de texte.
 type: docs
 weight: 20
@@ -17,9 +17,9 @@ public bool IsTextBox { get; }
 
 ### Remarques
 
-Si la forme n'est pas spécifiée comme étant une zone de texte, cela ne signifie pas qu'elle ne peut pas avoir de texte qui lui est attaché. Une zone de texte est simplement une forme spécialisée avec des propriétés spécifiques.
+Le fait qu'une forme ne soit pas spécifiée comme une zone de texte ne signifie pas qu'elle ne peut pas avoir de texte qui lui soit attaché. Une zone de texte est simplement une forme spécialisée avec des propriétés spécifiques.
 
-### Voir aussi
+### Voir Aussi
 
 * classe [AutoShape](../../autoshape)
 * espace de noms [Aspose.Slides](../../autoshape)

@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.export/htmlgenerator/addtext/
 ---
+
 ## AddText(string) {#addtext_2}
 
 Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced.

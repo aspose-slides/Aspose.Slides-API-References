@@ -1,6 +1,6 @@
 ---
 title: CreateSoftEdge
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Slides для .NET API Справочник
 description: Создает эффект мягкого края.
 type: docs
 weight: 70
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.effects/ieffectfactory/createsoftedge/
 public ISoftEdge CreateSoftEdge()
 ```
 
-### Возврат значения
+### Возвращаемое значение
 
 Эффект мягкого края.
 

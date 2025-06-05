@@ -1,7 +1,7 @@
 ---
 title: NotesPosition
-second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置页面上备注的位置。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取或设置页面上笔记的位置。
 type: docs
 weight: 50
 url: /zh/aspose.slides.export/notescommentslayoutingoptions/notesposition/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/notescommentslayoutingoptions/notesposition/
 
 ## NotesCommentsLayoutingOptions.NotesPosition 属性
 
-获取或设置页面上备注的位置。
+获取或设置页面上笔记的位置。
 
 ```csharp
 public NotesPositions NotesPosition { get; set; }
@@ -19,7 +19,7 @@ public NotesPositions NotesPosition { get; set; }
 
 默认值为 **NotesPositions.None**。
 
-### 另见
+### 另请参阅
 
 * enum [NotesPositions](../../notespositions)
 * class [NotesCommentsLayoutingOptions](../../notescommentslayoutingoptions)

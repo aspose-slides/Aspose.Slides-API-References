@@ -1,7 +1,7 @@
 ---
 title: LanguageId
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit l'Id d'une langue de révision. Utilisé pour vérifier l'orthographe et la grammaire. Lecture/écriture String.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Retourne ou définit l'Id d'une langue de correction. Utilisé pour vérifier l'orthographe et la grammaire. Lecture/écriture String.
 type: docs
 weight: 160
 url: /fr/aspose.slides/ibaseportionformat/languageid/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ibaseportionformat/languageid/
 
 ## Propriété IBasePortionFormat.LanguageId
 
-Renvoie ou définit l'Id d'une langue de révision. Utilisé pour vérifier l'orthographe et la grammaire. Lecture/écriture String.
+Retourne ou définit l'Id d'une langue de correction. Utilisé pour vérifier l'orthographe et la grammaire. Lecture/écriture String.
 
 ```csharp
 public string LanguageId { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IBasePortionFormat](../../ibaseportionformat)
 * namespace [Aspose.Slides](../../ibaseportionformat)

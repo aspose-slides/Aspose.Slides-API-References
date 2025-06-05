@@ -1,21 +1,21 @@
 ---
 title: MasterHandoutSlide
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve un maestro para todas las diapositivas de notas de esta presentación si existe uno, de lo contrario devuelve null. Solo lectura IMasterHandoutSlideaspose.slides/imasterhandoutslide.
+second_title: Aspose.Slides para referencia de API de .NET
+description: Devuelve un maestro para todas las diapositivas de notas de esta presentación si hay uno, de lo contrario devuelve nulo. Solo lectura IMasterHandoutSlideaspose.slides/imasterhandoutslide.
 type: docs
 weight: 10
 url: /es/aspose.slides/imasterhandoutslidemanager/masterhandoutslide/
 ---
 
-## Propiedad IMasterHandoutSlideManager.MasterHandoutSlide
+## IMasterHandoutSlideManager.MasterHandoutSlide property
 
-Devuelve un maestro para todas las diapositivas de notas de esta presentación si existe uno, de lo contrario devuelve null. Solo lectura [`IMasterHandoutSlide`](../../imasterhandoutslide).
+Devuelve un maestro para todas las diapositivas de notas de esta presentación si hay uno, de lo contrario devuelve nulo. Solo lectura [`IMasterHandoutSlide`](../../imasterhandoutslide).
 
 ```csharp
 public IMasterHandoutSlide MasterHandoutSlide { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IMasterHandoutSlide](../../imasterhandoutslide)
 * interfaz [IMasterHandoutSlideManager](../../imasterhandoutslidemanager)

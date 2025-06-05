@@ -1,7 +1,7 @@
 ---
 title: EffectColor
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Effektfarbe einer Form zurück. Nur-Lesen IColorFormataspose.slides/icolorformat.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Effektfarbe einer Form zurück. Nur-Lese IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 10
 url: /de/aspose.slides/ishapestyle/effectcolor/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ishapestyle/effectcolor/
 
 ## IShapeStyle.EffectColor-Eigenschaft
 
-Gibt die Effektfarbe einer Form zurück. Nur-Lesen [`IColorFormat`](../../icolorformat).
+Gibt die Effektfarbe einer Form zurück. Nur-Lese [`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat EffectColor { get; }
@@ -17,8 +17,8 @@ public IColorFormat EffectColor { get; }
 
 ### Siehe auch
 
-* Schnittstelle [IColorFormat](../../icolorformat)
-* Schnittstelle [IShapeStyle](../../ishapestyle)
+* Interface [IColorFormat](../../icolorformat)
+* Interface [IShapeStyle](../../ishapestyle)
 * Namespace [Aspose.Slides](../../ishapestyle)
 * Assembly [Aspose.Slides](../../../)
 

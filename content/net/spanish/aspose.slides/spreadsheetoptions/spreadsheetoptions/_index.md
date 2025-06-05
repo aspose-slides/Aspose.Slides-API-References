@@ -18,7 +18,7 @@ public SpreadsheetOptions()
 ### Véase también
 
 * clase [SpreadsheetOptions](../../spreadsheetoptions)
-* namespace [Aspose.Slides](../../spreadsheetoptions)
+* espacio de nombres [Aspose.Slides](../../spreadsheetoptions)
 * ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

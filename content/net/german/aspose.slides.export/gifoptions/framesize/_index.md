@@ -1,7 +1,7 @@
 ---
 title: FrameSize
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft die Rahmengröße ab oder setzt sie.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Ruft die Rahmengröße ab oder legt sie fest.
 type: docs
 weight: 40
 url: /de/aspose.slides.export/gifoptions/framesize/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.export/gifoptions/framesize/
 
 ## GifOptions.FrameSize-Eigenschaft
 
-Ruft die Rahmengröße ab oder setzt sie.
+Ruft die Rahmengröße ab oder legt sie fest.
 
 ```csharp
 public Size FrameSize { get; set; }
 ```
 
-### Bemerkungen
+### Hinweise
 
 Wenn die Größe leer ist, wird der Wert von [`SlideSize`](../../../aspose.slides/ipresentation/slidesize) übernommen.
 

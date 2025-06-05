@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve el hashcode para este objeto.
+description: Devuelve el código hash para este objeto.
 type: docs
 weight: 210
 url: /es/aspose.slides/fieldtype/gethashcode/
@@ -9,17 +9,17 @@ url: /es/aspose.slides/fieldtype/gethashcode/
 
 ## Método FieldType.GetHashCode
 
-Devuelve el hashcode para este objeto.
+Devuelve el código hash para este objeto.
 
 ```csharp
 public override int GetHashCode()
 ```
 
-### Valor de retorno
+### Valor de Retorno
 
-Hashcode Int32.
+Código hash Int32.
 
-### Véase también
+### Véase También
 
 * clase [FieldType](../../fieldtype)
 * espacio de nombres [Aspose.Slides](../../fieldtype)

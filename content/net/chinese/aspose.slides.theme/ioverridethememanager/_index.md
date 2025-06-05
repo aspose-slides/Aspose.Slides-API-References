@@ -1,15 +1,15 @@
 ---
 title: IOverrideThemeManager
-second_title: Aspose.Slides for .NET API Reference
-description: 提供对不同类型的覆盖主题的访问。
+second_title: Aspose.Sildes for .NET API Reference
+description: 提供对不同类型的重写主题的访问。
 type: docs
 weight: 11040
 url: /zh/aspose.slides.theme/ioverridethememanager/
 ---
 
-## IOverrideThemeManager 接口
+## IOverrideThemeManager interface
 
-提供对不同类型的覆盖主题的访问。
+提供对不同类型的重写主题的访问。
 
 ```csharp
 public interface IOverrideThemeManager : IThemeManager
@@ -20,10 +20,10 @@ public interface IOverrideThemeManager : IThemeManager
 | 名称 | 描述 |
 | --- | --- |
 | [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | 允许获取基本的 IThemeManager 接口。只读 [`IThemeManager`](../ithememanager)。 |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | 确定是否覆盖主题覆盖了继承的有效主题。要启用覆盖主题以进行覆盖，请使用 OverrideTheme.Init*() 方法。要禁用覆盖主题的覆盖，请使用 OverrideTheme.Clear() 方法。只读布尔值。 |
-| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | 返回覆盖主题对象。读写 [`IOverrideTheme`](../ioverridetheme)。 |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | 确定 OverrideTheme 是否重写继承的有效主题。要启用 OverrideTheme 进行重写，请使用 OverrideTheme.Init*() 方法。要禁用 OverrideTheme 的重写，请使用 OverrideTheme.Clear() 方法。只读布尔值。 |
+| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | 返回重写的主题对象。可读写 [`IOverrideTheme`](../ioverridetheme)。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IThemeManager](../ithememanager)
 * 命名空间 [Aspose.Slides.Theme](../../aspose.slides.theme)

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.effects/itinteffectivedata/hue/
 ---
+
 ## ITintEffectiveData.Hue property
 
 Returns hue. Read-only Single.

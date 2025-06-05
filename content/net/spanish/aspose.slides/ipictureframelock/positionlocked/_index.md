@@ -15,10 +15,10 @@ Determina si se prohíbe mover esta forma. Booleano de lectura/escritura.
 public bool PositionLocked { get; set; }
 ```
 
-### Ver También
+### Ver también
 
-* interfaz [IPictureFrameLock](../../ipictureframelock)
-* espacio de nombres [Aspose.Slides](../../ipictureframelock)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IPictureFrameLock](../../ipictureframelock)
+* espacio de nombres [Aspose.Slides](../../ipictureframelock)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

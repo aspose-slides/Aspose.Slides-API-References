@@ -1,15 +1,15 @@
 ---
 title: GetEffective
-second_title: Aspose.Slid es für .NET API-Referenz
-description: Ruft die effektiven Daten zur Textrahmenformatierung mit der angewendeten Vererbung ab.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ruft die effektiven Formatierungsdaten des Textrahmens mit der angewendeten Vererbung ab.
 type: docs
 weight: 170
 url: /de/aspose.slides/itextframeformat/geteffective/
 ---
 
-## ITextFrameFormat.GetEffective-Methode
+## ITextFrameFormat.GetEffective Methode
 
-Ruft die effektiven Daten zur Textrahmenformatierung mit der angewendeten Vererbung ab.
+Ruft die effektiven Formatierungsdaten des Textrahmens mit der angewendeten Vererbung ab.
 
 ```csharp
 public ITextFrameFormatEffectiveData GetEffective()

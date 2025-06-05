@@ -3,9 +3,10 @@ title: NotesText
 second_title: Aspose.Sildes for .NET API Reference
 description: The text on the notes pages shapes for this slide
 type: docs
-weight: 30
+weight: 40
 url: /aspose.slides/islidetext/notestext/
 ---
+
 ## ISlideText.NotesText property
 
 The text on the notes page's shapes for this slide

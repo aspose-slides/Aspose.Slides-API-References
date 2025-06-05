@@ -1,7 +1,7 @@
 ---
 title: ISoftEdge
-second_title: Справка по API Aspose.Sildes для .NET
-description: Представляет эффект мягкой границы. Края формы размыты, в то время как заливка не затрагивается.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет эффект мягкого края. Края формы размыты, в то время как заливка не затрагивается.
 type: docs
 weight: 3400
 url: /ru/aspose.slides.effects/isoftedge/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/isoftedge/
 
 ## Интерфейс ISoftEdge
 
-Представляет эффект мягкой границы. Края формы размыты, в то время как заливка не затрагивается.
+Представляет эффект мягкого края. Края формы размыты, в то время как заливка не затрагивается.
 
 ```csharp
 public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImageTransformOperation
@@ -17,11 +17,11 @@ public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImag
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | Указывает радиус размытия, который следует применить к краям. Читаемое/записываемое значение Double. |
+| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | Определяет радиус размытия, который необходимо применить к краям. Чтение/запись Double. |
 
 ### См. также
 

@@ -1,7 +1,7 @@
 ---
-title: Voreinstellung
-second_title: Aspose.Slides für .NET API Referenz
-description: Voreinstellung. Nur-lesbare PresetShadowTypeaspose.slides/presetshadowtype.
+title: Preset
+second_title: Aspose.Slides für .NET API-Referenz
+description: Preset. Nur Lesezugriff auf PresetShadowTypeaspose.slides/presetshadowtype.
 type: docs
 weight: 40
 url: /de/aspose.slides.effects/ipresetshadoweffectivedata/preset/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.effects/ipresetshadoweffectivedata/preset/
 
 ## IPresetShadowEffectiveData.Preset-Eigenschaft
 
-Voreinstellung. Nur-lesbare [`PresetShadowType`](../../../aspose.slides/presetshadowtype).
+Preset. Nur Lesezugriff auf [`PresetShadowType`](../../../aspose.slides/presetshadowtype).
 
 ```csharp
 public PresetShadowType Preset { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [PresetShadowType](../../../aspose.slides/presetshadowtype)
 * interface [IPresetShadowEffectiveData](../../ipresetshadoweffectivedata)

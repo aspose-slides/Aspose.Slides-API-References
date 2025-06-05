@@ -1,13 +1,13 @@
 ---
-title: Удалить
-second_title: Справка по API Aspose.Slides для .NET
+title: Remove
+second_title: Aspose.Sildes для .NET API Справка
 description: Удаляет указанный эффект из коллекции.
 type: docs
 weight: 100
 url: /ru/aspose.slides.animation/sequence/remove/
 ---
 
-## Метод Sequence.Remove
+## Sequence.Remove метод
 
 Удаляет указанный эффект из коллекции.
 

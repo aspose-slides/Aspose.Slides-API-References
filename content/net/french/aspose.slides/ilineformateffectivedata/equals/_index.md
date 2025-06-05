@@ -1,15 +1,15 @@
 ---
-title: Égal
+title: Equals
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si les deux instances ILineFormatEffectiveData sont égales.
+description: Détermine si les deux instances de ILineFormatEffectiveData sont égales.
 type: docs
 weight: 180
 url: /fr/aspose.slides/ilineformateffectivedata/equals/
 ---
 
-## Méthode ILineFormatEffectiveData.Equals
+## ILineFormatEffectiveData.Equals méthode
 
-Détermine si les deux instances ILineFormatEffectiveData sont égales.
+Détermine si les deux instances de ILineFormatEffectiveData sont égales.
 
 ```csharp
 public bool Equals(ILineFormatEffectiveData lf)

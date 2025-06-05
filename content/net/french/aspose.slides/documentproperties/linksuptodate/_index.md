@@ -1,7 +1,7 @@
 ---
 title: LinksUpToDate
-second_title: Référence API Aspose.Slides pour .NET
-description: Indique si les hyperliens dans un document sont à jour. Réglez cet élément sur true pour indiquer que les hyperliens sont mis à jour. Réglez cet élément sur false pour indiquer que les hyperliens sont obsolètes. Booléen en lecture/écriture.
+second_title: Aspose.Sildes pour référence de l'API .NET
+description: Indique si les hyperliens dans un document sont à jour. Définissez cet élément sur **true** pour indiquer que les hyperliens sont mis à jour. Définissez cet élément sur **false** pour indiquer que les hyperliens sont obsolètes. Booléen en lecture/écriture.
 type: docs
 weight: 210
 url: /fr/aspose.slides/documentproperties/linksuptodate/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/documentproperties/linksuptodate/
 
 ## DocumentProperties.LinksUpToDate propriété
 
-Indique si les hyperliens dans un document sont à jour. Réglez cet élément sur **true** pour indiquer que les hyperliens sont mis à jour. Réglez cet élément sur **false** pour indiquer que les hyperliens sont obsolètes. Booléen en lecture/écriture.
+Indique si les hyperliens dans un document sont à jour. Définissez cet élément sur **true** pour indiquer que les hyperliens sont mis à jour. Définissez cet élément sur **false** pour indiquer que les hyperliens sont obsolètes. Booléen en lecture/écriture.
 
 ```csharp
 public bool LinksUpToDate { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [DocumentProperties](../../documentproperties)
 * espace de noms [Aspose.Slides](../../documentproperties)

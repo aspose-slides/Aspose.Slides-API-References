@@ -1,15 +1,15 @@
 ---
 title: PieSplitBy
-second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie comment déterminer quels points de données se trouvent dans le deuxième diagramme en secteurs ou en barres sur un diagramme en secteurs d'un secteur ou en barres d'un secteur. Il s'agit de la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - il s'agit de la projection de la propriété de groupe appropriée. Ainsi, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété ParentSeriesGroup.PieSplitBy en lecture/écriture pour modifier la valeur. En lecture seule PieSplitTypeaspose.slides/piesplittype.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Spécifie comment déterminer quels points de données se trouvent dans le deuxième graphique secteur ou barre d'un graphique secteur-de-secteur ou barre-de-secteur. C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est la projection de la propriété de groupe appropriée. Et donc, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété en lecture/écriture ParentSeriesGroup.PieSplitBy pour changer la valeur. En lecture seule PieSplitTypeaspose.slides/piesplittype.
 type: docs
 weight: 300
 url: /fr/aspose.slides.charts/ichartseries/piesplitby/
 ---
 
-## Propriété IChartSeries.PieSplitBy
+## IChartSeries.PieSplitBy property
 
-Spécifie comment déterminer quels points de données se trouvent dans le deuxième diagramme en secteurs ou en barres sur un diagramme en secteurs d'un secteur ou en barres d'un secteur. Il s'agit de la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - il s'agit de la projection de la propriété de groupe appropriée. Ainsi, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété ParentSeriesGroup.PieSplitBy en lecture/écriture pour modifier la valeur. En lecture seule [`PieSplitType`](../../piesplittype).
+Spécifie comment déterminer quels points de données se trouvent dans le deuxième graphique secteur ou barre d'un graphique secteur-de-secteur ou barre-de-secteur. C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est la projection de la propriété de groupe appropriée. Et donc, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété en lecture/écriture ParentSeriesGroup.PieSplitBy pour changer la valeur. En lecture seule [`PieSplitType`](../../piesplittype).
 
 ```csharp
 public PieSplitType PieSplitBy { get; }
@@ -17,9 +17,9 @@ public PieSplitType PieSplitBy { get; }
 
 ### Remarques
 
-1) Il s'agit de la projection de la propriété ParentSeriesGroup.PieSplitBy. 2) Si la valeur de la propriété est PieSplitType.Custom, vous pouvez définir des informations de séparation personnalisées avec la propriété ParentSeriesGroup.PieSplitCustomPoints.
+1) C'est la projection de la propriété ParentSeriesGroup.PieSplitBy. 2) Si la valeur de la propriété est PieSplitType.Custom, alors vous pouvez définir des informations de division personnalisées avec la propriété ParentSeriesGroup.PieSplitCustomPoints.
 
-### Voir Aussi
+### Voir aussi
 
 * enum [PieSplitType](../../piesplittype)
 * interface [IChartSeries](../../ichartseries)

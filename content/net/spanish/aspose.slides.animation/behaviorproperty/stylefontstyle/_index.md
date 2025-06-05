@@ -1,6 +1,6 @@
 ---
 title: StyleFontStyle
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Representa la propiedad style.fontStyle
 type: docs
 weight: 1080
@@ -15,7 +15,7 @@ Representa la propiedad 'style.fontStyle'
 public static BehaviorProperty StyleFontStyle { get; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)

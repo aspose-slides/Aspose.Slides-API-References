@@ -1,6 +1,6 @@
 ---
 title: CreateImageWrapper
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Reference
 description: Инициализирует новый экземпляр класса ImageWrapper из указанного существующего изображения.
 type: docs
 weight: 10

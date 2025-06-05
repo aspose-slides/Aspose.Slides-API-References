@@ -1,7 +1,7 @@
 ---
-title: Orientierung
-second_title: Aspose.Slides für .NET API Referenz
-description: Ruft die Ausrichtung eines Platzhalters ab oder setzt sie. Nur-Lese Orientationaspose.slides/orientation.
+title: Orientation
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ruft die Ausrichtung eines Platzhalters ab oder legt sie fest. Nur-Lese Ausrichtungaspose.slides/orientation.
 type: docs
 weight: 20
 url: /de/aspose.slides/placeholder/orientation/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/placeholder/orientation/
 
 ## Placeholder.Orientation-Eigenschaft
 
-Ruft die Ausrichtung eines Platzhalters ab oder setzt sie. Nur-Lese [`Orientation`](../../orientation).
+Ruht die Ausrichtung eines Platzhalters ab oder legt sie fest. Nur-Lese [`Orientation`](../../orientation).
 
 ```csharp
 public Orientation Orientation { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [Orientation](../../orientation)
 * class [Placeholder](../../placeholder)

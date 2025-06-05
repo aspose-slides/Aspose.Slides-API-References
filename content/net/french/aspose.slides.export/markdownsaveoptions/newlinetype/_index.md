@@ -1,21 +1,21 @@
 ---
 title: NewLineType
-second_title: Référence API Aspose.Sildes pour .NET
-description: Spécifie si le document généré doit avoir des nouvelles lignes \\rMacintosh, \\nUnix ou \\r\\nWindows. Par défaut, c'est Unix.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Spécifie si le document généré doit avoir des sauts de ligne \\rMacintosh, \\nUnix ou \\r\\nWindows. Par défaut, c'est Unix.
 type: docs
 weight: 70
 url: /fr/aspose.slides.export/markdownsaveoptions/newlinetype/
 ---
 
-## Propriété MarkdownSaveOptions.NewLineType
+## MarkdownSaveOptions.NewLineType propriété
 
-Spécifie si le document généré doit avoir des nouvelles lignes \\r(Macintosh), \\n(Unix) ou \\r\\n(Windows). Par défaut, c'est `Unix`.
+Spécifie si le document généré doit avoir des sauts de ligne \\r(Macintosh), \\n(Unix) ou \\r\\n(Windows). Par défaut, c'est `Unix`.
 
 ```csharp
 public NewLineType NewLineType { get; set; }
 ```
 
-### Voir aussi
+### Voir Également
 
 * enum [NewLineType](../../newlinetype)
 * class [MarkdownSaveOptions](../../markdownsaveoptions)

@@ -1,7 +1,7 @@
 ---
 title: WebDocument
 second_title: Aspose.Sildes для .NET API Справочник
-description: Конструктор WebDocumentaspose.slides.export.web/webdocument.
+description: WebDocument aspose.slides.export.web/webdocument конструктор.
 type: docs
 weight: 10
 url: /ru/aspose.slides.export.web/webdocument/webdocument/
@@ -17,13 +17,13 @@ public WebDocument(WebDocumentOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | WebDocumentOptions | Параметры, установленные для документа. |
+| options | WebDocumentOptions | Опции, установленные для документа. |
 
-### Возвращаемое значение
+### Значение Возврата
 
 Новый экземпляр [`WebDocument`](../../webdocument).
 
-### См. также
+### См. Также
 
 * класс [WebDocumentOptions](../../webdocumentoptions)
 * класс [WebDocument](../../webdocument)

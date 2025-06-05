@@ -1,6 +1,6 @@
 ---
 title: IColorEffect
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示动画行为的颜色效果。
 type: docs
 weight: 380
@@ -19,14 +19,14 @@ public interface IColorEffect : IBehavior
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/icoloreffect/asibehavior) { get; } | 允许获取基础 IBehavior 接口。只读 [`IBehavior`](../ibehavior)。 |
-| [By](../../aspose.slides.animation/icoloreffect/by) { get; set; } | 描述颜色动画的相对偏移值。读/写 [`IColorOffset`](../icoloroffset)。 |
-| [ColorSpace](../../aspose.slides.animation/icoloreffect/colorspace) { get; set; } | 表示行为的颜色空间。读/写 [`ColorSpace`](./colorspace)。 |
-| [Direction](../../aspose.slides.animation/icoloreffect/direction) { get; set; } | 指定循环颜色轮的色调方向。读/写 [`ColorDirection`](../colordirection)。 |
-| [From](../../aspose.slides.animation/icoloreffect/from) { get; set; } | 此值用于指定行为的起始颜色。读/写 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [To](../../aspose.slides.animation/icoloreffect/to) { get; set; } | 描述动画颜色变化的结果颜色。读/写 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [AsIBehavior](../../aspose.slides.animation/icoloreffect/asibehavior) { get; } | 允许获取基接口 IBehavior。只读 [`IBehavior`](../ibehavior)。 |
+| [By](../../aspose.slides.animation/icoloreffect/by) { get; set; } | 描述颜色动画的相对偏移值。读写 [`IColorOffset`](../icoloroffset)。 |
+| [ColorSpace](../../aspose.slides.animation/icoloreffect/colorspace) { get; set; } | 表示行为的颜色空间。读写 [`ColorSpace`](./colorspace)。 |
+| [Direction](../../aspose.slides.animation/icoloreffect/direction) { get; set; } | 指定循环色相的方向。读写 [`ColorDirection`](../colordirection)。 |
+| [From](../../aspose.slides.animation/icoloreffect/from) { get; set; } | 此值用于指定行为的起始颜色。读写 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [To](../../aspose.slides.animation/icoloreffect/to) { get; set; } | 描述动画颜色变化的结果颜色。读写 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IBehavior](../ibehavior)
 * 命名空间 [Aspose.Slides.Animation](../../aspose.slides.animation)

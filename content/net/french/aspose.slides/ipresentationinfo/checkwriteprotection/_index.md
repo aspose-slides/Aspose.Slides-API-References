@@ -1,6 +1,6 @@
 ---
-title: VérifierProtectionÉcriture
-second_title: Aspose.Slides pour .NET Référence API
+title: CheckWriteProtection
+second_title: Aspose.Sildes pour la référence API .NET
 description: Vérifie si un mot de passe de modification est correct pour une présentation protégée en écriture.
 type: docs
 weight: 60
@@ -19,9 +19,9 @@ public bool CheckWriteProtection(string password)
 | --- | --- | --- |
 | password | String | Le mot de passe à vérifier. |
 
-### Valeur de retour
+### Valeur de Retour
 
-Vrai si la présentation est protégée en écriture et si le mot de passe est correct. Faux sinon.
+Vrai si la présentation est protégée en écriture et que le mot de passe est correct. Faux sinon.
 
 ### Exceptions
 
@@ -31,7 +31,7 @@ Vrai si la présentation est protégée en écriture et si le mot de passe est c
 
 ### Remarques
 
-1. Vous devriez vérifier la propriété [`IsWriteProtected`](../iswriteprotected) avant d'appeler cette méthode. 2. Lorsque le mot de passe est null ou vide, cette méthode renvoie faux.
+1. Vous devez vérifier la propriété [`IsWriteProtected`](../iswriteprotected) avant d'appeler cette méthode. 2. Lorsque le mot de passe est nul ou vide, cette méthode retourne faux.
 
 ### Exemples
 
@@ -44,7 +44,7 @@ if (info.IsWriteProtected == NullableBool.True)
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IPresentationInfo](../../ipresentationinfo)
 * namespace [Aspose.Slides](../../ipresentationinfo)

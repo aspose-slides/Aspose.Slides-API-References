@@ -17,13 +17,13 @@ public int IndexOf(IBehavior item)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| item | IBehavior | Das Objekt, das in der IList gefunden werden soll. |
+| item | IBehavior | Das Objekt, das in der IList lokalisiert werden soll. |
 
 ### Rückgabewert
 
 Der Index von *item*, wenn es in der Liste gefunden wird; andernfalls -1.
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IBehavior](../../ibehavior)
 * Klasse [BehaviorCollection](../../behaviorcollection)

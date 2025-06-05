@@ -1,6 +1,6 @@
 ---
 title: HasBorderHorizontal
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 如果图表数据表具有水平单元格边框，则为真。可读写布尔值。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/datatable/hasborderhorizontal/
 public bool HasBorderHorizontal { get; set; }
 ```
 
-### 另请参见
+### 参见
 
 * class [DataTable](../../datatable)
 * namespace [Aspose.Slides.Charts](../../datatable)

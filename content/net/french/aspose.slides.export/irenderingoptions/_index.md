@@ -1,7 +1,7 @@
 ---
 title: IRenderingOptions
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Fournit des options qui contrôlent la manière dont une présentation/diapositive est rendue.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Fournit des options qui contrôlent comment une présentation/diapositive est rendue.
 type: docs
 weight: 3870
 url: /fr/aspose.slides.export/irenderingoptions/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/irenderingoptions/
 
 ## Interface IRenderingOptions
 
-Fournit des options qui contrôlent la manière dont une présentation/diapositive est rendue.
+Fournit des options qui contrôlent comment une présentation/diapositive est rendue.
 
 ```csharp
 public interface IRenderingOptions : ISaveOptions
@@ -19,9 +19,9 @@ public interface IRenderingOptions : ISaveOptions
 
 | Nom | Description |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | Retourne l'interface ISaveOptions. Lecture seule [`ISaveOptions`](../isaveoptions). |
-| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | Obtient ou définit une valeur indiquant si le texte est rendu sans utiliser de ligatures. Lorsqu'elle est définie sur `true`, les ligatures seront désactivées dans la sortie rendue. Par défaut, cette propriété est définie sur `false`. |
-| [InkOptions](../../aspose.slides.export/irenderingoptions/inkoptions) { get; } | Fournit des options qui contrôlent l'apparence des objets Ink dans le document exporté. Lecture seule [`IInkOptions`](../iinkoptions) |
+| [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | Renvoie l'interface ISaveOptions. En lecture seule [`ISaveOptions`](../isaveoptions). |
+| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | Obtient ou définit une valeur indiquant si le texte est rendu sans utiliser de ligatures. Lorsqu'il est défini sur `true`, les ligatures seront désactivées dans la sortie rendue. Par défaut, cette propriété est définie sur `false`. |
+| [InkOptions](../../aspose.slides.export/irenderingoptions/inkoptions) { get; } | Fournit des options qui contrôlent l'apparence des objets Ink dans le document exporté. En lecture seule [`IInkOptions`](../iinkoptions) |
 | [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | Obtient ou définit le mode dans lequel les diapositives sont placées sur la page lors de l'exportation d'une présentation [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Exemples
@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ISaveOptions](../isaveoptions)
 * namespace [Aspose.Slides.Export](../../aspose.slides.export)

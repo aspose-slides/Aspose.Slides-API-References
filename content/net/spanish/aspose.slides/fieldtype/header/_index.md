@@ -1,7 +1,7 @@
 ---
-title: Encabezado
+title: Header
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Encabezado de las diapositivas. Campo de solo lectura Typeaspose.slides/fieldtype.
+description: Encabezado de diapositivas. Campo de solo lectura FieldType aspose.slides/fieldtype.
 type: docs
 weight: 170
 url: /es/aspose.slides/fieldtype/header/
@@ -15,7 +15,7 @@ Encabezado de la diapositiva. Solo lectura [`FieldType`](../../fieldtype).
 public static FieldType Header { get; }
 ```
 
-### Ver También
+### Véase También
 
 * clase [FieldType](../../fieldtype)
 * espacio de nombres [Aspose.Slides](../../fieldtype)

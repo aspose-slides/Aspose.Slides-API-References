@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/chart/asithemeable/
 ---
+
 ## Chart.AsIThemeable property
 
 Allows to get base IThemeable interface. Read-only [`IThemeable`](../../../aspose.slides.theme/ithemeable).

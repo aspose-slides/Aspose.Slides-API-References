@@ -1,7 +1,7 @@
 ---
 title: HideAtShowing
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Определяет, скрыт ли VideoFrame. Читаемое/ Используемое логическое значение.
+second_title: Aspose.Sildes для справки по API .NET
+description: Определяет, скрыт ли VideoFrame. Читаемое/записываемое логическое значение.
 type: docs
 weight: 40
 url: /ru/aspose.slides/videoframe/hideatshowing/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/videoframe/hideatshowing/
 
 ## VideoFrame.HideAtShowing свойство
 
-Определяет, скрыт ли VideoFrame. Читаемое/ Используемое логическое значение.
+Определяет, скрыт ли VideoFrame. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool HideAtShowing { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [VideoFrame](../../videoframe)
 * пространство имен [Aspose.Slides](../../videoframe)

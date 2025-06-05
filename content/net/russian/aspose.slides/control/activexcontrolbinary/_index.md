@@ -1,15 +1,15 @@
 ---
 title: ActiveXControlBinary
-second_title: Aspose.Slides для .NET API Справочник
-description: Указывает на сохранение ActiveX управления, когда метод, используемый для сохранения, - это PersistStream, PersistStreamInit или PersistStorage.
+second_title: Aspose.Sildes для .NET API Reference
+description: Указывает на сохранение ActiveX-контроля, когда метод, используемый для сохранения, - это либо PersistStream, PersistStreamInit или PersistStorage.
 type: docs
 weight: 10
 url: /ru/aspose.slides/control/activexcontrolbinary/
 ---
 
-## Свойство Control.ActiveXControlBinary
+## Control.ActiveXControlBinary свойство
 
-Указывает на сохранение ActiveX управления, когда метод, используемый для сохранения, - это PersistStream, PersistStreamInit или PersistStorage.
+Указывает на сохранение ActiveX-контроля, когда метод, используемый для сохранения, - это либо PersistStream, PersistStreamInit или PersistStorage.
 
 ```csharp
 public byte[] ActiveXControlBinary { get; }

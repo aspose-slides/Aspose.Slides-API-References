@@ -1,6 +1,6 @@
 ---
 title: SetColumnAlignment
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Установите горизонтальное выравнивание указанного столбца
 type: docs
 weight: 200
@@ -17,7 +17,7 @@ public void SetColumnAlignment(int columnIndex, MathHorizontalAlignment val)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| columnIndex | Int32 | Индекс столбца с нулевым основанием |
+| columnIndex | Int32 | Индекс столбца, начинающийся с нуля |
 | val | MathHorizontalAlignment | Новое значение горизонтального выравнивания указанного столбца |
 
 ### Примеры

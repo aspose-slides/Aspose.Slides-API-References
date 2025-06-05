@@ -1,15 +1,15 @@
 ---
 title: SaveMetafilesAsPng
-second_title: Aspose.Slides für .NET API Referenz
-description: True, um alle in einer Präsentation verwendeten Metadateien in PNG-Bilder zu konvertieren. Lese-/Schreib-Boolean.
+second_title: Aspose.Sildes für .NET API Referenz
+description: True, um alle in einer Präsentation verwendeten Metadateien in PNG-Bilder umzuwandeln. Lese-/Schreibboolescher Wert.
 type: docs
 weight: 160
 url: /de/aspose.slides.export/pdfoptions/savemetafilesaspng/
 ---
 
-## PdfOptions.SaveMetafilesAsPng Eigenschaft
+## PdfOptions.SaveMetafilesAsPng-Eigenschaft
 
-True, um alle in einer Präsentation verwendeten Metadateien in PNG-Bilder zu konvertieren. Lese-/Schreib-Boolean.
+True, um alle in einer Präsentation verwendeten Metadateien in PNG-Bilder umzuwandeln. Lese-/Schreibboolescher Wert.
 
 ```csharp
 public bool SaveMetafilesAsPng { get; set; }
@@ -17,9 +17,9 @@ public bool SaveMetafilesAsPng { get; set; }
 
 ### Anmerkungen
 
-Standardwert ist **true**. PDF-Dokumente können Vektorgrafiken und Rasterbilder enthalten. Wenn SaveMetafilesAsPng auf true gesetzt ist, wird das Quell-Metafile-Bild in das PNG-Format konvertiert und als Rasterbild in die PDF-Datei gespeichert. Wenn SaveMetafilesAsPng auf false gesetzt ist, wird das Quell-Metafile in Vektorgrafiken für PDF konvertiert. Jeder Ansatz hat Vor- und Nachteile. Wenn beispielsweise das Metafile in PNG konvertiert wird, kann es beim Skalieren des resultierenden Dokuments zu einem gewissen Qualitätsverlust kommen. Wenn das Metafile in PDF-Vektorgrafiken konvertiert wird, können Leistungsprobleme in dem PDF-Anzeige-Tool auftreten.
+Standard ist **true**. Das Pdf-Dokument kann Vektorgrafiken und Rasterbilder enthalten. Wenn SaveMetafilesAsPng auf true gesetzt ist, wird das Quell-Metafile-Bild in das Png-Format umgewandelt und als Rasterbild in das Pdf gespeichert. Wenn SaveMetafilesAsPng auf false gesetzt ist, wird das Quell-Metafile in Vektorgrafiken für Pdf umgewandelt. Jedes Vorgehen hat Vor- und Nachteile. Zum Beispiel, wenn das Metafile in PNG umgewandelt wird, kann es beim Skalieren des resultierenden Dokuments zu einem Qualitätsverlust kommen. Wenn das Metafile in Vektorgrafiken für Pdf umgewandelt wird, können Leistungsprobleme im Pdf-Anzeigeprogramm auftreten.
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [PdfOptions](../../pdfoptions)
 * Namespace [Aspose.Slides.Export](../../pdfoptions)

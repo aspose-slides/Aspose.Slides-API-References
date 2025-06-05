@@ -1,6 +1,6 @@
 ---
 title: AsIOverrideThemeable
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回 IOverrideThemeable 接口。只读 IOverrideThemeable aspose.slides.theme/ioverridethemeable。
 type: docs
 weight: 20
@@ -17,9 +17,9 @@ public IOverrideThemeable AsIOverrideThemeable { get; }
 
 ### 备注
 
-为了兼容 COM。
+为了实现 COM 兼容性。
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IOverrideThemeable](../../../aspose.slides.theme/ioverridethemeable)
 * 接口 [ISlide](../../islide)

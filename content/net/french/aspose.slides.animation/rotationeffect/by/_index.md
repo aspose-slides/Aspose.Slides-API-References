@@ -1,7 +1,7 @@
 ---
-title: Par
+title: By
 second_title: Référence API Aspose.Slides pour .NET
-description: Décrit la valeur de décalage relative pour l'animation. Lecture/écriture Unique.
+description: Décrit la valeur de décalage relatif pour l'animation. Lecture/écriture Single.
 type: docs
 weight: 20
 url: /fr/aspose.slides.animation/rotationeffect/by/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.animation/rotationeffect/by/
 
 ## Propriété RotationEffect.By
 
-Décrit la valeur de décalage relative pour l'animation. Lecture/écriture Unique.
+Décrit la valeur de décalage relatif pour l'animation. Lecture/écriture Single.
 
 ```csharp
 public float By { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [RotationEffect](../../rotationeffect)
 * espace de noms [Aspose.Slides.Animation](../../rotationeffect)

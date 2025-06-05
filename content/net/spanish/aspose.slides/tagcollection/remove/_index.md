@@ -1,13 +1,13 @@
 ---
-title: Eliminar
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Remove
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Elimina la etiqueta con un nombre especificado de la colección.
 type: docs
 weight: 140
 url: /es/aspose.slides/tagcollection/remove/
 ---
 
-## Método TagCollection.Remove
+## TagCollection.Remove método
 
 Elimina la etiqueta con un nombre especificado de la colección.
 
@@ -21,8 +21,8 @@ public void Remove(string name)
 
 ### Ver También
 
-* clase [TagCollection](../../tagcollection)
-* espacio de nombres [Aspose.Slides](../../tagcollection)
-* ensamblado [Aspose.Slides](../../../)
+* class [TagCollection](../../tagcollection)
+* namespace [Aspose.Slides](../../tagcollection)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

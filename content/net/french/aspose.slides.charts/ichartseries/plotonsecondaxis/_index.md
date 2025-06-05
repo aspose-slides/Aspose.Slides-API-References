@@ -1,6 +1,6 @@
 ---
 title: PlotOnSecondAxis
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Indique si cette série est tracée sur le deuxième axe de valeur. Lecture/écriture Booléen.
 type: docs
 weight: 330

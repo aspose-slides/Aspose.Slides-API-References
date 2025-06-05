@@ -1,7 +1,7 @@
 ---
 title: TileScaleY
-second_title: Aspose.Slides for .NET API Reference
-description: 返回或设置纹理填充的垂直缩放比例（以百分比表示）。可读/写单精度浮点数。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置纹理填充的垂直缩放比例（以百分比表示）。可读写单精度浮点数。
 type: docs
 weight: 180
 url: /zh/aspose.slides/ipicturefillformat/tilescaley/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ipicturefillformat/tilescaley/
 
 ## IPictureFillFormat.TileScaleY 属性
 
-返回或设置纹理填充的垂直缩放比例（以百分比表示）。可读/写单精度浮点数。
+返回或设置纹理填充的垂直缩放比例（以百分比表示）。可读写单精度浮点数。
 
 ```csharp
 public float TileScaleY { get; set; }
@@ -26,10 +26,10 @@ using (Presentation presentation = new Presentation("demo.pptx"))
     // 获取形状的图片填充格式
     IPictureFillFormat pictureFillFormat = slide.Shapes[0].FillFormat.PictureFillFormat;
 
-    // 设置图片填充模式为 Tile
+    // 将图片填充模式设置为平铺
     pictureFillFormat.PictureFillMode = PictureFillMode.Tile;
 
-    // 将纹理的垂直缩放比例设置为 120%
+    // 将纹理的垂直缩放比例设置为120%
     pictureFillFormat.TileScaleY = 120;
 }
 ```

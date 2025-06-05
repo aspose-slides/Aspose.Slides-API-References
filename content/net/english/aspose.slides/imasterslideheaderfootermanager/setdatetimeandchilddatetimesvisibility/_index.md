@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility/
 ---
+
 ## IMasterSlideHeaderFooterManager.SetDateTimeAndChildDateTimesVisibility method
 
 Changes master slide date-time placeholder and all child date-time placeholders visibility. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide.

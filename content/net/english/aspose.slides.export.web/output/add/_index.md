@@ -6,7 +6,8 @@ type: docs
 weight: 10
 url: /aspose.slides.export.web/output/add/
 ---
-## Add&lt;TContextObject&gt;(string, string, TContextObject) {#add_5}
+
+## Add&lt;TContextObject&gt;(string, string, TContextObject) {#add_6}
 
 ```csharp
 public IOutputFile Add<TContextObject>(string path, string templateKey, 
@@ -22,7 +23,7 @@ public IOutputFile Add<TContextObject>(string path, string templateKey,
 
 ---
 
-## Add(string, IPPImage) {#add_1}
+## Add(string, IPPImage) {#add_2}
 
 Adds an output element for the image.
 
@@ -49,18 +50,18 @@ public IOutputFile Add(string path, IPPImage image)
 
 ---
 
-## Add(string, Image) {#add_3}
+## Add(string, IImage) {#add_1}
 
 Adds an output element for the image.
 
 ```csharp
-public IOutputFile Add(string path, Image image)
+public IOutputFile Add(string path, IImage image)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | String | Output path. |
-| image | Image | Image to output. |
+| image | IImage | Image to output. |
 
 ### Return Value
 
@@ -69,13 +70,14 @@ public IOutputFile Add(string path, Image image)
 ### See Also
 
 * interface [IOutputFile](../../ioutputfile)
+* interface [IImage](../../../aspose.slides/iimage)
 * class [Output](../../output)
 * namespace [Aspose.Slides.Export.Web](../../output)
 * assembly [Aspose.Slides](../../../)
 
 ---
 
-## Add(string, IVideo) {#add_2}
+## Add(string, IVideo) {#add_3}
 
 Adds an output element for the video.
 
@@ -130,7 +132,7 @@ public IOutputFile Add(string path, IFontData fontData, FontStyle fontStyle)
 
 ---
 
-## Add(string, string) {#add_4}
+## Add(string, string) {#add_5}
 
 Adds an output element for the text content.
 

@@ -1,6 +1,6 @@
 ---
 title: IAutoShape
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Representa un AutoShape.
 type: docs
 weight: 5040
@@ -24,7 +24,7 @@ public interface IAutoShape : IGeometryShape
 | [IsTextBox](../../aspose.slides/iautoshape/istextbox) { get; } | Especifica si la forma es un cuadro de texto. |
 | [ShapeLock](../../aspose.slides/iautoshape/shapelock) { get; } | Devuelve los bloqueos de la forma. Solo lectura [`IAutoShapeLock`](../iautoshapelock). |
 | [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | Devuelve el objeto TextFrame para el AutoShape. Solo lectura [`ITextFrame`](../itextframe). |
-| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Determina si este autoshape debe ser rellenado con el relleno de fondo de la diapositiva en lugar de lo especificado por el estilo o formato de relleno. Booleano de lectura/escritura. |
+| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Determina si este autoshape debe ser relleno con el relleno de fondo de la diapositiva en lugar del especificado por el estilo o formato de relleno. Lectura/escritura Booleano. |
 
 ## Métodos
 
@@ -32,10 +32,10 @@ public interface IAutoShape : IGeometryShape
 | --- | --- |
 | [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | Agrega un nuevo TextFrame a una forma. Si la forma ya tiene un TextFrame, simplemente cambia su texto. |
 
-### Véase también
+### Véase También
 
 * interfaz [IGeometryShape](../igeometryshape)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblado [Aspose.Slides](../../)
+* ensamblaje [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

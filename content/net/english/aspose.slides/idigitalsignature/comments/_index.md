@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/idigitalsignature/comments/
 ---
+
 ## IDigitalSignature.Comments property
 
 The purpose of signature. Read/write String.

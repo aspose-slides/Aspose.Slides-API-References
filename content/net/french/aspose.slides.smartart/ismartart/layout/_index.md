@@ -1,7 +1,7 @@
 ---
-title: Mise en page
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne ou définit la mise en page de l'objet SmartArt. Lecture/écriture de SmartArtLayoutTypeaspose.slides.smartart/smartartlayouttype.
+title: Layout
+second_title: Référence API Aspose.Slides pour .NET
+description: Retourne ou définit la mise en page de l'objet SmartArt. Lecture/écriture SmartArtLayoutTypeaspose.slides.smartart/smartartlayouttype.
 type: docs
 weight: 50
 url: /fr/aspose.slides.smartart/ismartart/layout/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.smartart/ismartart/layout/
 
 ## Propriété ISmartArt.Layout
 
-Retourne ou définit la mise en page de l'objet SmartArt. Lecture/écriture de [`SmartArtLayoutType`](../../smartartlayouttype).
+Retourne ou définit la mise en page de l'objet SmartArt. Lecture/écriture [`SmartArtLayoutType`](../../smartartlayouttype).
 
 ```csharp
 public SmartArtLayoutType Layout { get; set; }

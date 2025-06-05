@@ -1,21 +1,21 @@
 ---
-title: 状态
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置评论的状态。可读/可写 ModernCommentStatusaspose.slides/moderncommentstatus。
+title: Status
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置评论的状态。可读写 ModernCommentStatusaspose.slides/moderncommentstatus。
 type: docs
 weight: 30
 url: /zh/aspose.slides/imoderncomment/status/
 ---
 
-## IModernComment.Status 属性
+## IModernComment.Status属性
 
-返回或设置评论的状态。可读/可写 [`ModernCommentStatus`](../../moderncommentstatus)。
+返回或设置评论的状态。可读写 [`ModernCommentStatus`](../../moderncommentstatus)。
 
 ```csharp
 public ModernCommentStatus Status { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * 枚举 [ModernCommentStatus](../../moderncommentstatus)
 * 接口 [IModernComment](../../imoderncomment)

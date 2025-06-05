@@ -1,7 +1,7 @@
 ---
 title: AsIMathElement
-second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht den Zugriff auf die Basis-IMathElement-Schnittstelle IMathElementaspose.slides.mathtext/imathelement
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ermöglicht den Zugriff auf die Basisschnittstelle IMathElement IMathElementaspose.slides.mathtext/imathelement
 type: docs
 weight: 20
 url: /de/aspose.slides.mathtext/imatharray/asimathelement/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.mathtext/imatharray/asimathelement/
 
 ## IMathArray.AsIMathElement Eigenschaft
 
-Ermöglicht den Zugriff auf die Basis-IMathElement-Schnittstelle [`IMathElement`](../../imathelement)
+Ermöglicht den Zugriff auf die Basisschnittstelle IMathElement [`IMathElement`](../../imathelement)
 
 ```csharp
 public IMathElement AsIMathElement { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMathElement](../../imathelement)
 * Schnittstelle [IMathArray](../../imatharray)

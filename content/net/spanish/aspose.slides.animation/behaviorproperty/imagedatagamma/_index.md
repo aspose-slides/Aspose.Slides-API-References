@@ -1,6 +1,6 @@
 ---
 title: ImageDataGamma
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para la referencia de la API de .NET
 description: Representa la propiedad imageData.gamma
 type: docs
 weight: 490
@@ -15,10 +15,10 @@ Representa la propiedad 'imageData.gamma'
 public static BehaviorProperty ImageDataGamma { get; }
 ```
 
-### Ver También
+### Véase también
 
-* clase [BehaviorProperty](../../behaviorproperty)
-* espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)
-* ensamblado [Aspose.Slides](../../../)
+* class [BehaviorProperty](../../behaviorproperty)
+* namespace [Aspose.Slides.Animation](../../behaviorproperty)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

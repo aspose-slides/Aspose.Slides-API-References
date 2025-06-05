@@ -3,9 +3,10 @@ title: SvgEvent
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents options for SVG shape.
 type: docs
-weight: 4180
+weight: 4300
 url: /aspose.slides.export/svgevent/
 ---
+
 ## SvgEvent enumeration
 
 Represents options for SVG shape.

@@ -1,7 +1,7 @@
 ---
 title: LineCapStyle
-second_title: Справка по API Aspose.Slides для .NET
-description: Представляет стиль капли линии.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет стиль окончания линии.
 type: docs
 weight: 7520
 url: /ru/aspose.slides/linecapstyle/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/linecapstyle/
 
 ## Перечисление LineCapStyle
 
-Представляет стиль капли линии.
+Представляет стиль окончания линии.
 
 ```csharp
 public enum LineCapStyle : sbyte
@@ -17,7 +17,7 @@ public enum LineCapStyle : sbyte
 
 ### Значения
 
-| Имя | Значение | Описание |
+| Название | Значение | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Round | `0` |  |

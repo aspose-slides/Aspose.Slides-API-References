@@ -3,9 +3,10 @@ title: PptxEditException
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an exception thrown when edit presentation error is detected.
 type: docs
-weight: 8950
+weight: 9280
 url: /aspose.slides/pptxeditexception/
 ---
+
 ## PptxEditException class
 
 Represents an exception thrown when edit presentation error is detected.

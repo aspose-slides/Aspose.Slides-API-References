@@ -1,24 +1,24 @@
----
-title: Nombre
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve el nombre de la hoja de trabajo. Solo lectura String.
-type: docs
-weight: 20
+---  
+title: Name
+second_title: Referencia de API de Aspose.Slides para .NET  
+description: Devuelve el nombre de la hoja de trabajo. Solo lectura de tipo String.
+type: docs  
+weight: 20  
 url: /es/aspose.slides.charts/chartdataworksheet/name/
----
+---  
 
-## Propiedad ChartDataWorksheet.Name
+## ChartDataWorksheet.Name property  
 
-Devuelve el nombre de la hoja de trabajo. Solo lectura String.
+Devuelve el nombre de la hoja de trabajo. Solo lectura de tipo String.  
 
-```csharp
-public string Name { get; }
-```
+```csharp  
+public string Name { get; }  
+```  
 
-### Véase también
+### Ver También  
 
-* clase [ChartDataWorksheet](../../chartdataworksheet)
-* espacio de nombres [Aspose.Slides.Charts](../../chartdataworksheet)
-* ensamblado [Aspose.Slides](../../../)
+* class [ChartDataWorksheet](../../chartdataworksheet)  
+* namespace [Aspose.Slides.Charts](../../chartdataworksheet)  
+* assembly [Aspose.Slides](../../../)  
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  

@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.charts/datalabelcollection/indexof/
 ---
+
 ## DataLabelCollection.IndexOf method
 
 Returns an index of the specified DataLabel in the collection.

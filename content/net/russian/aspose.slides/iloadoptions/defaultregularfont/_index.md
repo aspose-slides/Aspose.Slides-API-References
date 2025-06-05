@@ -1,15 +1,15 @@
 ---
 title: DefaultRegularFont
-second_title: Справочная документация Aspose.Slides для .NET
-description: Возвращает или задает регулярный шрифт, используемый в случае, если исходный шрифт не найден. Свойство для чтения и записи строк.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или устанавливает шрифт Regular, используемый в случае, если исходный шрифт не найден. Читаемая и записываемая строка.
 type: docs
 weight: 30
 url: /ru/aspose.slides/iloadoptions/defaultregularfont/
 ---
 
-## Свойство ILoadOptions.DefaultRegularFont
+## ILoadOptions.DefaultRegularFont свойство
 
-Возвращает или задает регулярный шрифт, используемый в случае, если исходный шрифт не найден. Свойство для чтения и записи строк.
+Возвращает или устанавливает шрифт Regular, используемый в случае, если исходный шрифт не найден. Читаемая и записываемая строка.
 
 ```csharp
 public string DefaultRegularFont { get; set; }

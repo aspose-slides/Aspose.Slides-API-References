@@ -1,13 +1,13 @@
 ---
 title: IndexOfName
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Renvoie l'index basé sur zéro de la clé spécifiée dans la collection.
 type: docs
 weight: 80
 url: /fr/aspose.slides/itagcollection/indexofname/
 ---
 
-## Méthode ITagCollection.IndexOfName
+## ITagCollection.IndexOfName méthode
 
 Renvoie l'index basé sur zéro de la clé spécifiée dans la collection.
 

@@ -1,6 +1,6 @@
 ---
 title: ShadowOffsetX
-second_title: Aspose.Slides для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет свойство shadow.offset.x
 type: docs
 weight: 700

@@ -1,6 +1,6 @@
 ---
-title: 添加
-second_title: Aspose.Slides for .NET API 参考
+title: Add
+second_title: Aspose.Sildes for .NET API 参考
 description: 将 IMathBlock 添加到集合的末尾。
 type: docs
 weight: 40
@@ -17,7 +17,7 @@ public void Add(IMathBlock item)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| item | IMathBlock | 将添加到集合末尾的数学块 |
+| item | IMathBlock | 将被添加到集合末尾的数学块 |
 
 ### 示例
 
@@ -29,7 +29,7 @@ IMathBlockCollection blockCollection = new MathParagraph();
 blockCollection.Add(new MathBlock(new MathematicalText("x")));
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IMathBlock](../../imathblock)
 * 接口 [IMathBlockCollection](../../imathblockcollection)

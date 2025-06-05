@@ -1,15 +1,15 @@
 ---
-title: Élément
+title: Item
 second_title: Référence API Aspose.Slides pour .NET
-description: Obtient l'élément à l'index spécifié. Lecture seule IEffectStyleEffectiveDataaspose.slides.theme/ieffectstyleeffectivedata.
+description: Obtient l'élément à l'index spécifié. Données IEffectStyleEffectiveDataaspose.slides.theme en lecture seule.
 type: docs
 weight: 10
 url: /fr/aspose.slides.theme/ieffectstylecollectioneffectivedata/item/
 ---
 
-## Indexeur IEffectStyleCollectionEffectiveData
+## Indice IEffectStyleCollectionEffectiveData
 
-Obtient l'élément à l'index spécifié. Lecture seule [`IEffectStyleEffectiveData`](../../ieffectstyleeffectivedata).
+Obtient l'élément à l'index spécifié. En lecture seule [`IEffectStyleEffectiveData`](../../ieffectstyleeffectivedata).
 
 ```csharp
 public IEffectStyleEffectiveData this[int index] { get; }

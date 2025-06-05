@@ -1,6 +1,6 @@
 ---
-title: Tipo
-second_title: Referencia de la API Aspose.Slides para .NET
+title: Type
+second_title: Aspose.Slides para .NET Referencia de API
 description: Representa el tipo de efecto de filtro. Lectura/escritura FilterEffectTypeaspose.slides.animation/filtereffecttype.
 type: docs
 weight: 40

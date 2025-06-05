@@ -1,13 +1,13 @@
 ---
 title: CreateMathRightSubSuperscriptElement
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Создает IMathRightSubSuperscriptElementFactory
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/imathrightsubsuperscriptelementfactory/createmathrightsubsuperscriptelement/
 ---
 
-## Метод IMathRightSubSuperscriptElementFactory.CreateMathRightSubSuperscriptElement
+## IMathRightSubSuperscriptElementFactory.CreateMathRightSubSuperscriptElement метод
 
 Создает IMathRightSubSuperscriptElementFactory
 
@@ -26,7 +26,7 @@ public IMathRightSubSuperscriptElement CreateMathRightSubSuperscriptElement(IMat
 
 новый IMathLeftSubSuperscriptElement
 
-### См. также
+### См. Также
 
 * интерфейс [IMathRightSubSuperscriptElement](../../imathrightsubsuperscriptelement)
 * интерфейс [IMathElement](../../imathelement)

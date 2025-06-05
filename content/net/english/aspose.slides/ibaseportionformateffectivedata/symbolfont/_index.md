@@ -6,6 +6,7 @@ type: docs
 weight: 240
 url: /aspose.slides/ibaseportionformateffectivedata/symbolfont/
 ---
+
 ## IBasePortionFormatEffectiveData.SymbolFont property
 
 Returns the symbolic font info. Read-only [`IFontData`](../../ifontdata).

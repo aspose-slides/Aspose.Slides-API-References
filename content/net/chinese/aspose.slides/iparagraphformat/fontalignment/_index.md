@@ -1,7 +1,7 @@
 ---
-title: 字体对齐
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置没有继承的段落中的字体对齐。读/写 FontAlignmentaspose.slides/fontalignment。
+title: FontAlignment
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置段落中的字体对齐方式，而不进行继承。可读/可写 FontAlignmentaspose.slides/fontalignment。
 type: docs
 weight: 70
 url: /zh/aspose.slides/iparagraphformat/fontalignment/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/iparagraphformat/fontalignment/
 
 ## IParagraphFormat.FontAlignment 属性
 
-返回或设置没有继承的段落中的字体对齐。读/写 [`FontAlignment`](../../fontalignment)。
+返回或设置段落中的字体对齐方式，而不进行继承。可读/可写 [`FontAlignment`](../../fontalignment)。
 
 ```csharp
 public FontAlignment FontAlignment { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * enum [FontAlignment](../../fontalignment)
 * interface [IParagraphFormat](../../iparagraphformat)

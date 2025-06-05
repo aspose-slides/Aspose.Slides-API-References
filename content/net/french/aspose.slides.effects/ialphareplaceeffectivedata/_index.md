@@ -1,7 +1,7 @@
 ---
 title: IAlphaReplaceEffectiveData
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Objet immuable qui représente un effet de remplacement alpha. Les valeurs alpha opacité de l'effet sont remplacées par un alpha fixe.
+second_title: Référence API Aspose.Slides pour .NET
+description: Objet immutable qui représente un effet de remplacement alpha. Les valeurs d'opacité alpha de l'effet sont remplacées par un alpha fixe.
 type: docs
 weight: 3050
 url: /fr/aspose.slides.effects/ialphareplaceeffectivedata/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/ialphareplaceeffectivedata/
 
 ## Interface IAlphaReplaceEffectiveData
 
-Objet immuable qui représente un effet de remplacement alpha. Les valeurs alpha (opacité) de l'effet sont remplacées par un alpha fixe.
+Objet immutable qui représente un effet de remplacement alpha. Les valeurs d'opacité alpha de l'effet sont remplacées par un alpha fixe.
 
 ```csharp
 public interface IAlphaReplaceEffectiveData : IEffectEffectiveData
@@ -19,7 +19,7 @@ public interface IAlphaReplaceEffectiveData : IEffectEffectiveData
 
 | Nom | Description |
 | --- | --- |
-| [Alpha](../../aspose.slides.effects/ialphareplaceeffectivedata/alpha) { get; } | Renvoie la nouvelle valeur alpha dans l'intervalle [0..1] Lecture seule Single. |
+| [Alpha](../../aspose.slides.effects/ialphareplaceeffectivedata/alpha) { get; } | Retourne la nouvelle valeur alpha dans l'intervalle [0..1] Lecture seule Single. |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ialphareplaceeffectivedata/asieffecteffectivedata) { get; } | Permet d'obtenir l'interface de base IEffectEffectiveData. Lecture seule [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Voir aussi

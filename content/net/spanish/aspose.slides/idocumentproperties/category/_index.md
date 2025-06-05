@@ -1,7 +1,7 @@
 ---
-title: Categoría
-second_title: Aspose.Slides para .NET Referencia de API
-description: Devuelve o establece la categoría de una presentación. Cadena de lectura/escritura.
+title: Category
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve o establece la categoría de una presentación. String de lectura/escritura.
 type: docs
 weight: 40
 url: /es/aspose.slides/idocumentproperties/category/
@@ -9,16 +9,16 @@ url: /es/aspose.slides/idocumentproperties/category/
 
 ## Propiedad IDocumentProperties.Category
 
-Devuelve o establece la categoría de una presentación. Cadena de lectura/escritura.
+Devuelve o establece la categoría de una presentación. String de lectura/escritura.
 
 ```csharp
 public string Category { get; set; }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [IDocumentProperties](../../idocumentproperties)
 * espacio de nombres [Aspose.Slides](../../idocumentproperties)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

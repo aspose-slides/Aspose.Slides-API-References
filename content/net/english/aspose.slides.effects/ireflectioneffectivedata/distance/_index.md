@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.effects/ireflectioneffectivedata/distance/
 ---
+
 ## IReflectionEffectiveData.Distance property
 
 Distance of reflection. Read-only Double.

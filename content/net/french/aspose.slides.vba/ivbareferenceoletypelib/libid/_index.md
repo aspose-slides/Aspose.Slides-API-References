@@ -7,7 +7,7 @@ weight: 20
 url: /fr/aspose.slides.vba/ivbareferenceoletypelib/libid/
 ---
 
-## Propriété IVbaReferenceOleTypeLib.Libid
+## IVbaReferenceOleTypeLib.Libid propriété
 
 Représente l'identifiant d'une bibliothèque de types Automation. Chaîne en lecture/écriture.
 

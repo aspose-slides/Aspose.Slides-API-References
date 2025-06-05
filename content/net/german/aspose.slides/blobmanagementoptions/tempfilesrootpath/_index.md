@@ -1,7 +1,7 @@
 ---
 title: TempFilesRootPath
 second_title: Aspose.Slides für .NET API Referenz
-description: Der Stammverzeichnis, in dem temporäre Dateien erstellt werden. Das System-temp-Verzeichnis wird standardmäßig verwendet. Der Hosting-Prozess sollte die Berechtigungen haben, dort Dateien und Ordner zu erstellen.
+description: Der Stammordner, in dem temporäre Dateien erstellt werden. Das temporäre Systemverzeichnis wird standardmäßig verwendet. Der Hosting-Prozess sollte die Berechtigungen haben, dort Dateien und Ordner zu erstellen.
 type: docs
 weight: 50
 url: /de/aspose.slides/blobmanagementoptions/tempfilesrootpath/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/blobmanagementoptions/tempfilesrootpath/
 
 ## BlobManagementOptions.TempFilesRootPath-Eigenschaft
 
-Der Stammverzeichnis, in dem temporäre Dateien erstellt werden. Das System-temp-Verzeichnis wird standardmäßig verwendet. Der Hosting-Prozess sollte die Berechtigungen haben, dort Dateien und Ordner zu erstellen.
+Der Stammordner, in dem temporäre Dateien erstellt werden. Das temporäre Systemverzeichnis wird standardmäßig verwendet. Der Hosting-Prozess sollte die Berechtigungen haben, dort Dateien und Ordner zu erstellen.
 
 ```csharp
 public string TempFilesRootPath { get; set; }

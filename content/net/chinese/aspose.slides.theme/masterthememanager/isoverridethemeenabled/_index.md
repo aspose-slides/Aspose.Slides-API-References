@@ -1,7 +1,7 @@
 ---
 title: IsOverrideThemeEnabled
 second_title: Aspose.Sildes for .NET API Reference
-description: 确定 OverrideTheme 是否覆盖继承的有效主题 Presentation.MasterTheme。可读/可写布尔值。
+description: 确定 OverrideTheme 是否覆盖继承的有效主题 Presentation.MasterTheme。可读写布尔值。
 type: docs
 weight: 10
 url: /zh/aspose.slides.theme/masterthememanager/isoverridethemeenabled/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.theme/masterthememanager/isoverridethemeenabled/
 
 ## MasterThemeManager.IsOverrideThemeEnabled 属性
 
-确定 OverrideTheme 是否覆盖继承的有效主题 (Presentation.MasterTheme)。可读/可写布尔值。
+确定 OverrideTheme 是否覆盖继承的有效主题（Presentation.MasterTheme）。可读写布尔值。
 
 ```csharp
 public bool IsOverrideThemeEnabled { get; set; }
 ```
 
-### 参见
+### 另请参见
 
 * class [MasterThemeManager](../../masterthememanager)
 * namespace [Aspose.Slides.Theme](../../masterthememanager)

@@ -1,15 +1,15 @@
 ---
-title: Insérer
-second_title: Référence API Aspose.Slides pour .NET
-description: Insère un nouveau comportement dans une collection à l'index spécifié.
+title: Insert
+second_title: Aspose.Sildes pour .NET Référence API
+description: Insère un nouveau comportement à une collection à l'index spécifié.
 type: docs
 weight: 80
 url: /fr/aspose.slides.animation/ibehaviorcollection/insert/
 ---
 
-## Méthode IBehaviorCollection.Insert
+## IBehaviorCollection.Insert méthode
 
-Insère un nouveau comportement dans une collection à l'index spécifié.
+Insère un nouveau comportement à une collection à l'index spécifié.
 
 ```csharp
 public void Insert(int index, IBehavior item)
@@ -20,7 +20,7 @@ public void Insert(int index, IBehavior item)
 | index | Int32 | Index où le nouveau comportement doit être inséré. |
 | item | IBehavior | Comportement à insérer. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IBehavior](../../ibehavior)
 * interface [IBehaviorCollection](../../ibehaviorcollection)

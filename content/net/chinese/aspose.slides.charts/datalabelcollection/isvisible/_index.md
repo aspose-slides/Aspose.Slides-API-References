@@ -1,7 +1,7 @@
 ---
 title: IsVisible
-second_title: Aspose.Slides for .NET API Reference
-description: False意味着默认情况下数据标签不可见，因此DefaultDataLabelFormat属性的所有Show-*标志（ShowValue，...）都是false。只读布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: False 意味着数据标签默认不可见，因此 DefaultDataLabelFormat 属性的所有 Show-flags ShowValue ... 都为 false。只读布尔值。
 type: docs
 weight: 50
 url: /zh/aspose.slides.charts/datalabelcollection/isvisible/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/datalabelcollection/isvisible/
 
 ## DataLabelCollection.IsVisible 属性
 
-False意味着数据标签默认情况下不可见（因此DefaultDataLabelFormat属性的所有Show*-标志（ShowValue，...）都是false）。只读布尔值。
+False 意味着数据标签默认不可见（因此 DefaultDataLabelFormat 属性的所有 Show*-flags (ShowValue, ...) 都为 false）。只读布尔值。
 
 ```csharp
 public bool IsVisible { get; }
@@ -17,9 +17,9 @@ public bool IsVisible { get; }
 
 ### 备注
 
-如果数据标签默认情况下可见，您可以使用Hide()方法将其默认隐藏。但是，如果数据标签默认情况下不可见（IsVisible为false），您可以通过将DefaultDataLabelFormat属性的Show*-标志（ShowValue，...）设置为true来使数据标签“默认可见”。
+如果数据标签默认可见，您可以使用 Hide() 方法将其默认隐藏。但是，如果数据标签默认不可见（IsVisible 为 false），您可以通过将 DefaultDataLabelFormat 属性的 Show*-flags (ShowValue, ...) 设置为 true 状态，使数据标签“默认可见”。
 
-### 另请参阅
+### 参见
 
 * class [DataLabelCollection](../../datalabelcollection)
 * namespace [Aspose.Slides.Charts](../../datalabelcollection)

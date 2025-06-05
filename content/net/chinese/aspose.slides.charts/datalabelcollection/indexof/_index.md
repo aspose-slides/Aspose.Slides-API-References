@@ -1,6 +1,6 @@
 ---
-title: 索引
-second_title: Aspose.Slides for .NET API 参考
+title: IndexOf
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回集合中指定 DataLabel 的索引。
 type: docs
 weight: 110
@@ -21,9 +21,9 @@ public int IndexOf(IDataLabel value)
 
 ### 返回值
 
-DataLabel 的索引，如果该 DataLabel 不在此集合中，则返回 -1。
+DataLabel 的索引，如果 DataLabel 不在此集合中，则返回 -1。
 
-### 另请参阅
+### 另见
 
 * 接口 [IDataLabel](../../idatalabel)
 * 类 [DataLabelCollection](../../datalabelcollection)

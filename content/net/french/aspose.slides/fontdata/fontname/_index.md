@@ -1,15 +1,15 @@
 ---
 title: FontName
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie le nom de la police. Chaîne en lecture/écriture.
+description: Retourne le nom de la police. Chaîne en lecture/écriture.
 type: docs
 weight: 20
 url: /fr/aspose.slides/fontdata/fontname/
 ---
 
-## Propriété FontData.FontName
+## FontData.FontName propriété
 
-Renvoie le nom de la police. Chaîne en lecture/écriture.
+Retourne le nom de la police. Chaîne en lecture/écriture.
 
 ```csharp
 public string FontName { get; }

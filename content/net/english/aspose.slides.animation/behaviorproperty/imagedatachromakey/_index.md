@@ -6,6 +6,7 @@ type: docs
 weight: 430
 url: /aspose.slides.animation/behaviorproperty/imagedatachromakey/
 ---
+
 ## BehaviorProperty.ImageDataChromakey property
 
 Represents 'imageData.chromakey' property

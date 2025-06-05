@@ -1,6 +1,6 @@
 ---
 title: ActualY
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET Справочник по API
 description: Указывает фактическую верхнюю часть элемента диаграммы относительно верхнего левого угла диаграммы. Вызовите метод IChart.ValidateChartLayout перед получением фактических значений. Читайте Single.
 type: docs
 weight: 40

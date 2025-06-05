@@ -1,13 +1,13 @@
 ---
 title: CommentAuthor
-second_title: Référence API d'Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Représente un auteur de commentaires.
 type: docs
 weight: 2540
 url: /fr/aspose.slides/commentauthor/
 ---
 
-## Classe CommentAuthor
+## CommentAuthor class
 
 Représente un auteur de commentaires.
 
@@ -19,15 +19,15 @@ public sealed class CommentAuthor : ICommentAuthor
 
 | Nom | Description |
 | --- | --- |
-| [Comments](../../aspose.slides/commentauthor/comments) { get; } | Renvoie la collection de commentaires faits par cet auteur. Lecture seule [`ICommentCollection`](../icommentcollection). |
-| [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | Renvoie ou définit les initiales de l'auteur. Lecture/écriture String. |
-| [Name](../../aspose.slides/commentauthor/name) { get; set; } | Renvoie ou définit le nom de l'auteur. Lecture/écriture String. |
+| [Comments](../../aspose.slides/commentauthor/comments) { get; } | Retourne la collection de commentaires faits par cet auteur. En lecture seule [`ICommentCollection`](../icommentcollection). |
+| [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | Retourne ou définit les initiales de l'auteur. En lecture/écriture String. |
+| [Name](../../aspose.slides/commentauthor/name) { get; set; } | Retourne ou définit le nom de l'auteur. En lecture/écriture String. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [Remove](../../aspose.slides/commentauthor/remove)() | Supprime l'auteur de la collection parent. |
+| [Remove](../../aspose.slides/commentauthor/remove)() | Supprime l'auteur de la collection parente. |
 
 ### Voir aussi
 

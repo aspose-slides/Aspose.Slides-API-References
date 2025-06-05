@@ -1,25 +1,25 @@
 ---
 title: SvgImage
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает объект ISvgImage ISvgImageaspose.slides/isvgimage
+second_title: Aspose.Sildes для .NET справочник API
+description: Возвращает или устанавливает объект ISvgImage ISvgImageaspose.slides/isvgimage
 type: docs
 weight: 50
 url: /ru/aspose.slides/ppimage/svgimage/
 ---
 
-## Свойство PPImage.SvgImage
+## PPImage.SvgImage свойство
 
-Возвращает или задает объект ISvgImage [`ISvgImage`](../../isvgimage)
+Возвращает или устанавливает объект ISvgImage [`ISvgImage`](../../isvgimage)
 
 ```csharp
 public ISvgImage SvgImage { get; set; }
 ```
 
-### Заметки
+### Примечания
 
-Это значение указывает, что это изображение было создано из SVG.
+Это значение указывает на то, что это изображение было создано из SVG.
 
-### См. Также
+### См. также
 
 * интерфейс [ISvgImage](../../isvgimage)
 * класс [PPImage](../../ppimage)

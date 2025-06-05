@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ipresentationfactory/getpresentationtext/
 ---
+
 ## GetPresentationText(string, TextExtractionArrangingMode) {#getpresentationtext_2}
 
 Retrieves the raw text from the slides

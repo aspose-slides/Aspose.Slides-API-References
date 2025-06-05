@@ -1,13 +1,13 @@
 ---
 title: GetLinesCount
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Obtener el número de líneas en un párrafo.
 type: docs
 weight: 60
 url: /es/aspose.slides/iparagraph/getlinescount/
 ---
 
-## Método IParagraph.GetLinesCount
+## IParagraph.GetLinesCount método
 
 Obtener el número de líneas en un párrafo.
 
@@ -36,7 +36,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [IParagraph](../../iparagraph)
 * espacio de nombres [Aspose.Slides](../../iparagraph)

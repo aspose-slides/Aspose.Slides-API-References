@@ -1,13 +1,13 @@
 ---
 title: SetGeometryPath
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Actualiza la geometría de la forma a partir del objeto IGeometryPathaspose.slides/igeometrypath. Las coordenadas deben ser relativas a la esquina superior izquierda de la forma. Cambia el tipo de la forma ShapeTypeaspose.slides/geometryshape/shapetype a Personalizado.
 type: docs
 weight: 60
 url: /es/aspose.slides/geometryshape/setgeometrypath/
 ---
 
-## Método GeometryShape.SetGeometryPath
+## GeometryShape.SetGeometryPath método
 
 Actualiza la geometría de la forma a partir del objeto [`IGeometryPath`](../../igeometrypath). Las coordenadas deben ser relativas a la esquina superior izquierda de la forma. Cambia el tipo de la forma ([`ShapeType`](../shapetype)) a Personalizado.
 
@@ -58,9 +58,9 @@ using (Presentation pres = new Presentation())
 
 ### Ver También
 
-* interfaz [IGeometryPath](../../igeometrypath)
-* clase [GeometryShape](../../geometryshape)
-* espacio de nombres [Aspose.Slides](../../geometryshape)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IGeometryPath](../../igeometrypath)
+* clase [GeometryShape](../../geometryshape)
+* espacio de nombres [Aspose.Slides](../../geometryshape)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

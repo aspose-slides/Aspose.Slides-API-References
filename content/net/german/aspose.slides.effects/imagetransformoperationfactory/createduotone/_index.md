@@ -1,7 +1,7 @@
 ---
 title: CreateDuotone
-second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt den Duotone-Effekt.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Erstellt Duotone-Effekt.
 type: docs
 weight: 130
 url: /de/aspose.slides.effects/imagetransformoperationfactory/createduotone/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/imagetransformoperationfactory/createduotone/
 
 ## ImageTransformOperationFactory.CreateDuotone-Methode
 
-Erstellt den Duotone-Effekt.
+Erstellt Duotone-Effekt.
 
 ```csharp
 public IDuotone CreateDuotone()

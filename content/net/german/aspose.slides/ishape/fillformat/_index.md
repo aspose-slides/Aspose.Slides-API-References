@@ -1,7 +1,7 @@
 ---
 title: FillFormat
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das FillFormat-Objekt zurück, das die Füllformatierungs Eigenschaften für eine Form enthält. Schreibgeschützt IFillFormataspose.slides/ifillformat.
+description: Gibt das FillFormat-Objekt zurück, das die Füllformatierungs Eigenschaften für eine Form enthält. Nur Lesezugriff auf IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 90
 url: /de/aspose.slides/ishape/fillformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ishape/fillformat/
 
 ## IShape.FillFormat-Eigenschaft
 
-Gibt das FillFormat-Objekt zurück, das die Füllformatierungs Eigenschaften für eine Form enthält. Schreibgeschützt [`IFillFormat`](../../ifillformat).
+Gibt das FillFormat-Objekt zurück, das die Füllformatierungs Eigenschaften für eine Form enthält. Nur Lesezugriff auf [`IFillFormat`](../../ifillformat).
 
 ```csharp
 public IFillFormat FillFormat { get; }

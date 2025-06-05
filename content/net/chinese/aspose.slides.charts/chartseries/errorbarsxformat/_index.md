@@ -1,15 +1,15 @@
 ---
 title: ErrorBarsXFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 代表具有X方向的系列的误差条。 X方向的误差条适用于区域图、条形图、散点图和气泡图类型的系列。 对于任何其他类型的图表，此属性返回null（包括3D图表）。 如果有自定义值，请使用DataPoints集合来指定值（使用ErrorBarsCustomValuesaspose.slides/ichartdatapoint/errorbarscustomvalues属性）。 只读IErrorBarsFormataspose.slides/ierrorbarsformat。
+description: 表示具有 X 方向的系列的 ErrorBars。具有 X 方向的 ErrorBars 可用于区域、条形、散点和气泡类型的系列。对于任何其他类型的图表，此属性返回 null（包括 3D 图表）。对于自定义值，请使用 DataPoints 集合指定值（使用 ErrorBarsCustomValuesaspose.slides/ichartdatapoint/errorbarscustomvalues 属性）。仅读 IErrorBarsFormataspose.slides/ierrorbarsformat。
 type: docs
 weight: 70
 url: /zh/aspose.slides.charts/chartseries/errorbarsxformat/
 ---
 
-## ChartSeries.ErrorBarsXFormat属性
+## ChartSeries.ErrorBarsXFormat 属性
 
-代表具有X方向的系列的误差条。 X方向的误差条适用于区域、条形、散点和气泡图类型的系列。 对于任何其他类型的图表，此属性返回null（包括3D图表）。 如果有自定义值，请使用DataPoints集合来指定值（使用[`ErrorBarsCustomValues`](../../ichartdatapoint/errorbarscustomvalues)属性）。 只读[`IErrorBarsFormat`](../../ierrorbarsformat)。
+表示具有 X 方向的系列的 ErrorBars。具有 X 方向的 ErrorBars 可用于区域、条形、散点和气泡类型的系列。对于任何其他类型的图表，此属性返回 null（包括 3D 图表）。对于自定义值，请使用 DataPoints 集合指定值（使用 [`ErrorBarsCustomValues`](../../ichartdatapoint/errorbarscustomvalues) 属性）。仅读 [`IErrorBarsFormat`](../../ierrorbarsformat)。
 
 ```csharp
 public IErrorBarsFormat ErrorBarsXFormat { get; }

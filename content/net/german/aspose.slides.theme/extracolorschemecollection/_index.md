@@ -1,13 +1,13 @@
 ---
 title: ExtraColorSchemeCollection
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt eine Sammlung zusätzlicher Farbschemata dar.
 type: docs
 weight: 10800
 url: /de/aspose.slides.theme/extracolorschemecollection/
 ---
 
-## ExtraColorSchemeCollection Klasse
+## ExtraColorSchemeCollection-Klasse
 
 Stellt eine Sammlung zusätzlicher Farbschemata dar.
 
@@ -19,10 +19,10 @@ public class ExtraColorSchemeCollection : IExtraColorSchemeCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides.theme/extracolorschemecollection/count) { get; } | Gibt die Anzahl der Elemente in der Sammlung zurück. Nur-Lese Int32. |
-| [IsSynchronized](../../aspose.slides.theme/extracolorschemecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die ArrayList synchronisiert ist (thread-sicher). Nur-Lese Boolean. |
-| [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | Gibt ein Farbschema nach Index zurück. Nur-Lese [`ExtraColorScheme`](../extracolorscheme). |
-| [SyncRoot](../../aspose.slides.theme/extracolorschemecollection/syncroot) { get; } | Gibt ein Objekt zurück, das verwendet werden kann, um den Zugriff auf die Sammlung zu synchronisieren. Nur-Lese Objekt. |
+| [Count](../../aspose.slides.theme/extracolorschemecollection/count) { get; } | Gibt die Anzahl der Elemente in der Sammlung zurück. Nur-lesender Int32. |
+| [IsSynchronized](../../aspose.slides.theme/extracolorschemecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugang zur ArrayList synchronisiert (thread-sicher) ist. Nur-lesender Boolean. |
+| [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | Gibt ein Farbschema nach Index zurück. Nur-lesender [`ExtraColorScheme`](../extracolorscheme). |
+| [SyncRoot](../../aspose.slides.theme/extracolorschemecollection/syncroot) { get; } | Gibt ein Objekt zurück, das verwendet werden kann, um den Zugriff auf die Sammlung zu synchronisieren. Nur-lesendes Objekt. |
 
 ## Methoden
 

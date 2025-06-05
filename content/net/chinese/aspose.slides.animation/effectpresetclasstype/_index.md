@@ -1,13 +1,13 @@
 ---
 title: EffectPresetClassType
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示效果类别类型。
 type: docs
 weight: 240
 url: /zh/aspose.slides.animation/effectpresetclasstype/
 ---
 
-## EffectPresetClassType枚举
+## EffectPresetClassType 枚举
 
 表示效果类别类型。
 
@@ -22,11 +22,11 @@ public enum EffectPresetClassType
 | Entrance | `0` | 进入效果类别。 |
 | Exit | `1` | 退出效果类别。 |
 | Emphasis | `2` | 强调效果类别。 |
-| Path | `3` | 运动路径类别。 |
+| Path | `3` | 动作路径类别。 |
 | MediaCall | `4` | 媒体效果类别。 |
 | OLEActionVerbs | `5` | OLE 动作动词类别。 |
 
-### 另请参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 程序集 [Aspose.Slides](../../)

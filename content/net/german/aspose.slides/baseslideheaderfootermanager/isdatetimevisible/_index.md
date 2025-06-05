@@ -1,15 +1,15 @@
 ---
 title: IsDateTimeVisible
-second_title: Aspose.Slides für .NET API Referenz
-description: Erhält den Wert, der angibt, dass ein Platzhalter für Datum und Uhrzeit vorhanden ist. ReadBoolean.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den Wert zurück, der angibt, dass ein Datums-Uhrzeit-Platzhalter vorhanden ist. ReadBoolean.
 type: docs
 weight: 10
 url: /de/aspose.slides/baseslideheaderfootermanager/isdatetimevisible/
 ---
 
-## BaseSlideHeaderFooterManager.IsDateTimeVisible Eigenschaft
+## BaseSlideHeaderFooterManager.IsDateTimeVisible-Eigenschaft
 
-Erhält den Wert, der angibt, dass ein Platzhalter für Datum und Uhrzeit vorhanden ist. ReadBoolean.
+Gibt den Wert zurück, der angibt, dass ein Datums-Uhrzeit-Platzhalter vorhanden ist. ReadBoolean.
 
 ```csharp
 public bool IsDateTimeVisible { get; }

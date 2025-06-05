@@ -1,7 +1,7 @@
 ---
 title: Color1
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve el formato de color objetivo para píxeles oscuros. Solo lectura IColorFormataspose.slides/icolorformat.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve el formato de color objetivo para píxeles oscuros. Solo lectura IColorFormataspose.slides/../aspose.slides/icolorformat.
 type: docs
 weight: 10
 url: /es/aspose.slides.effects/duotone/color1/

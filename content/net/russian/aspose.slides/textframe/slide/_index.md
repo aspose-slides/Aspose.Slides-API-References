@@ -1,13 +1,13 @@
 ---
-title: Слайд
-second_title: Справочник по API Aspose.Slides для .NET
+title: Slide
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает родительский слайд для TextFrame. Только для чтения IBaseSlideaspose.slides/ibaseslide.
 type: docs
 weight: 60
 url: /ru/aspose.slides/textframe/slide/
 ---
 
-## Свойство TextFrame.Slide
+## TextFrame.Slide свойство
 
 Возвращает родительский слайд для TextFrame. Только для чтения [`IBaseSlide`](../../ibaseslide).
 

@@ -1,7 +1,7 @@
 ---
 title: EffectColor
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve el color de efecto de una forma. Solo lectura IColorFormat aspose.slides/icolorformat.
+second_title: Referencia de la API de Aspose.Sildes para .NET
+description: Devuelve el color de efecto de una forma. Solo lectura IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 10
 url: /es/aspose.slides/ishapestyle/effectcolor/
@@ -15,11 +15,11 @@ Devuelve el color de efecto de una forma. Solo lectura [`IColorFormat`](../../ic
 public IColorFormat EffectColor { get; }
 ```
 
-### Vea También
+### Ver También
 
-* interfaz [IColorFormat](../../icolorformat)
-* interfaz [IShapeStyle](../../ishapestyle)
-* espacio de nombres [Aspose.Slides](../../ishapestyle)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IColorFormat](../../icolorformat)
+* interfaz [IShapeStyle](../../ishapestyle)
+* espacio de nombres [Aspose.Slides](../../ishapestyle)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

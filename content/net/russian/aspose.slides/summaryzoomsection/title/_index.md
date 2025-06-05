@@ -1,15 +1,15 @@
 ---
-title: Заголовок
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Возвращает текстовый заголовок объекта раздела увеличенного резюме.
+title: Title
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает текстовое название объекта раздела сводного зума.
 type: docs
 weight: 20
 url: /ru/aspose.slides/summaryzoomsection/title/
 ---
 
-## Свойство SummaryZoomSection.Title
+## SummaryZoomSection.Title свойство
 
-Возвращает текстовый заголовок объекта раздела увеличенного резюме.
+Возвращает текстовое название объекта раздела сводного зума.
 
 ```csharp
 public string Title { get; set; }
@@ -28,7 +28,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Смотрите Также
+### См. также
 
 * класс [SummaryZoomSection](../../summaryzoomsection)
 * пространство имен [Aspose.Slides](../../summaryzoomsection)

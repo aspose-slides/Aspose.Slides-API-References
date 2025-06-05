@@ -1,5 +1,5 @@
 ---
-title: Präsentation
+title: Presentation
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Präsentation zurück. Nur-lesendes IPresentationaspose.slides/ipresentation.
 type: docs
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ipresentationcomponent/presentation/
 
 ## IPresentationComponent.Presentation-Eigenschaft
 
-Gibt die Präsentation zurück. Nur-lesend [`IPresentation`](../../ipresentation).
+Gibt die Präsentation zurück. Nur-lesendes [`IPresentation`](../../ipresentation).
 
 ```csharp
 public IPresentation Presentation { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IPresentation](../../ipresentation)
 * Schnittstelle [IPresentationComponent](../../ipresentationcomponent)

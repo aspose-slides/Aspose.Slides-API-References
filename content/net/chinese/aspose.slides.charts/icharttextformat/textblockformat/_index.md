@@ -1,7 +1,7 @@
 ---
-title: 文本块格式
-second_title: Aspose.Slides for .NET API 参考
-description: 返回图表文本元素的格式。只读 IChartTextBlockFormat aspose.slides.charts/icharttextblockformat。
+title: TextBlockFormat
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回图表文本元素的格式。唯读 IChartTextBlockFormataspose.slides.charts/icharttextblockformat。
 type: docs
 weight: 30
 url: /zh/aspose.slides.charts/icharttextformat/textblockformat/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/icharttextformat/textblockformat/
 
 ## IChartTextFormat.TextBlockFormat 属性
 
-返回图表文本元素的格式。只读 [`IChartTextBlockFormat`](../../icharttextblockformat)。
+返回图表文本元素的格式。唯读 [`IChartTextBlockFormat`](../../icharttextblockformat)。
 
 ```csharp
 public IChartTextBlockFormat TextBlockFormat { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IChartTextBlockFormat](../../icharttextblockformat)
 * 接口 [IChartTextFormat](../../icharttextformat)

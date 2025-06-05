@@ -1,7 +1,7 @@
 ---
-title: Aufzählungszeichen
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Aufzählungszeichenformat des Absatzes zurück. Nur-Lese IBulletFormataspose.slides/ibulletformat.
+title: Bullet
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt das Aufzählungsformat des Absatzes zurück. Nur lesbar IBulletFormataspose.slides/ibulletformat.
 type: docs
 weight: 20
 url: /de/aspose.slides/iparagraphformat/bullet/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/iparagraphformat/bullet/
 
 ## IParagraphFormat.Bullet-Eigenschaft
 
-Gibt das Aufzählungszeichenformat des Absatzes zurück. Nur-Lese [`IBulletFormat`](../../ibulletformat).
+Gibt das Aufzählungsformat des Absatzes zurück. Nur lesbar [`IBulletFormat`](../../ibulletformat).
 
 ```csharp
 public IBulletFormat Bullet { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IBulletFormat](../../ibulletformat)
 * Schnittstelle [IParagraphFormat](../../iparagraphformat)

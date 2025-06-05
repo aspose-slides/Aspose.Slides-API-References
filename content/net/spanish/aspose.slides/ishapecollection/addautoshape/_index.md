@@ -1,15 +1,15 @@
 ---
 title: AddAutoShape
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Crea una nueva AutoShape, la ajusta desde la plantilla predeterminada y la agrega al final de la colección.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Crea un nuevo AutoShape, lo ajusta a partir de la plantilla predeterminada y lo agrega al final de la colección.
 type: docs
 weight: 60
 url: /es/aspose.slides/ishapecollection/addautoshape/
 ---
 
-## AddAutoShape(ShapeType, float, float, float, float) {#addautoshape}
+## AddAutoShape(ShapeType, float, float, float, float) {#addautoshape}
 
-Crea una nueva AutoShape, la ajusta desde la plantilla predeterminada y la agrega al final de la colección.
+Crea un nuevo AutoShape, lo ajusta a partir de la plantilla predeterminada y lo agrega al final de la colección.
 
 ```csharp
 public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float width, float height)
@@ -18,8 +18,8 @@ public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float widt
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | shapeType | ShapeType | El [`ShapeType`](../../shapetype) de la forma. |
-| x | Single | La coordenada X para un lado izquierdo del marco de la forma. |
-| y | Single | La coordenada Y para un lado superior del marco de la forma. |
+| x | Single | La coordenada X para el lado izquierdo del marco de la forma. |
+| y | Single | La coordenada Y para el lado superior del marco de la forma. |
 | width | Single | El ancho del marco de la forma. |
 | height | Single | La altura del marco de la forma. |
 
@@ -37,9 +37,9 @@ Objeto AutoShape creado.
 
 ---
 
-## AddAutoShape(ShapeType, float, float, float, float, bool) {#addautoshape_1}
+## AddAutoShape(ShapeType, float, float, float, float, bool) {#addautoshape_1}
 
-Crea una nueva AutoShape y la agrega al final de la colección.
+Crea un nuevo AutoShape y lo agrega al final de la colección.
 
 ```csharp
 public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float width, float height, 
@@ -49,11 +49,11 @@ public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float widt
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | shapeType | ShapeType | El [`ShapeType`](../../shapetype) de la forma. |
-| x | Single | La coordenada X para un lado izquierdo del marco de la forma. |
-| y | Single | La coordenada Y para un lado superior del marco de la forma. |
+| x | Single | La coordenada X para el lado izquierdo del marco de la forma. |
+| y | Single | La coordenada Y para el lado superior del marco de la forma. |
 | width | Single | El ancho del marco de la forma. |
 | height | Single | La altura del marco de la forma. |
-| createFromTemplate | Boolean | Si es verdadero, entonces la nueva forma se ajustará desde la plantilla predeterminada. Un nombre no vacío, estilo simple, texto centrado se asignará a la nueva forma. Si es falso, entonces todos los valores de las propiedades de la nueva forma tendrán valores predeterminados. |
+| createFromTemplate | Boolean | Si es verdadero, la nueva forma se ajustará a partir de la plantilla predeterminada. Se asignará un nombre no vacío, un estilo simple y texto centrado a la nueva forma. Si es falso, todos los valores de las propiedades de la nueva forma tendrán valores predeterminados. |
 
 ### Valor de Retorno
 

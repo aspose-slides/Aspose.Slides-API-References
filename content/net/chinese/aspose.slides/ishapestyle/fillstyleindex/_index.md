@@ -1,7 +1,7 @@
 ---
-title: 填充样式索引
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置样式矩阵中形状的填充列索引。0表示无填充，正值表示主题填充样式的索引，负值表示主题背景样式的索引。可读/可写 Int16。
+title: FillStyleIndex
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置样式矩阵中形状填充列的索引。0表示无填充，正值表示主题填充样式的索引，负值表示主题背景样式的索引。可读/写 Int16。
 type: docs
 weight: 40
 url: /zh/aspose.slides/ishapestyle/fillstyleindex/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ishapestyle/fillstyleindex/
 
 ## IShapeStyle.FillStyleIndex 属性
 
-返回或设置样式矩阵中形状的填充列索引。0表示无填充，正值表示主题填充样式的索引，负值表示主题背景样式的索引。可读/可写 Int16。
+返回或设置形状在样式矩阵中的填充列索引。0表示无填充，正值表示主题填充样式的索引，负值表示主题背景样式的索引。可读/写 Int16。
 
 ```csharp
 public short FillStyleIndex { get; set; }
 ```
 
-### 另请参阅
+### 参考文献
 
 * 接口 [IShapeStyle](../../ishapestyle)
 * 命名空间 [Aspose.Slides](../../ishapestyle)

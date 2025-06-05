@@ -1,6 +1,6 @@
 ---
-title: 基础
-second_title: Aspose.Slides for .NET API 参考
+title: Base
+second_title: Aspose.Slides for .NET API Reference
 description: 基础参数
 type: docs
 weight: 30
@@ -25,7 +25,7 @@ IMathBox box = new MathematicalText("==").ToBox();
 IMathElement base = box.Base;
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IMathElement](../../imathelement)
 * 接口 [IMathBox](../../imathbox)

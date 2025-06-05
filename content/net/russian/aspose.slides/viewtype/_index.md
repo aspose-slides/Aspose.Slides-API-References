@@ -1,6 +1,6 @@
 ---
 title: ViewType
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildi для .NET API Reference
 description: Типы представления презентации
 type: docs
 weight: 11440
@@ -17,19 +17,19 @@ public enum ViewType
 
 ### Значения
 
-| Имя | Значение | Описание |
+| Название | Значение | Описание |
 | --- | --- | --- |
 | NotDefined | `0` | Значение не определено |
 | SlideView | `1` | Обычное представление слайдов |
-| SlideMasterView | `2` | Представление мастера слайдов |
+| SlideMasterView | `2` | Представление главного слайда |
 | NotesView | `3` | Представление заметок |
 | HandoutView | `4` | Представление раздаточного материала |
-| NotesMasterView | `5` | Представление мастера заметок |
-| OutlineView | `6` | Представление в виде плана |
-| SlideSorterView | `7` | Представление сортировщика слайдов |
+| NotesMasterView | `5` | Представление главного документа заметок |
+| OutlineView | `6` | Представление в виде конспекта |
+| SlideSorterView | `7` | Представление сортировки слайдов |
 | SlideThumbnailView | `8` | Представление миниатюр слайдов |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

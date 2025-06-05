@@ -1,21 +1,21 @@
 ---
-title: Espacement
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit l'incrément d'espacement entre les caractères. **float.NaN** signifie que la valeur est indéfinie et doit être héritée du Master. Lecture/écriture Unique.
+title: Spacing
+second_title: Aspose.Sildes pour .NET Référence API
+description: Renvoie ou définit l'incrément d'espacement entre les caractères. **float.NaN** signifie que la valeur est indéfinie et doit être héritée du Maître. Lecture/écriture Single.
 type: docs
 weight: 210
 url: /fr/aspose.slides/ibaseportionformat/spacing/
 ---
 
-## Propriété IBasePortionFormat.Spacing
+## IBasePortionFormat.Spacing propriété
 
-Renvoie ou définit l'incrément d'espacement entre les caractères. **float.NaN** signifie que la valeur est indéfinie et doit être héritée du Master. Lecture/écriture Unique.
+Renvoie ou définit l'incrément d'espacement entre les caractères. **float.NaN** signifie que la valeur est indéfinie et doit être héritée du Maître. Lecture/écriture Single.
 
 ```csharp
 public float Spacing { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IBasePortionFormat](../../ibaseportionformat)
 * namespace [Aspose.Slides](../../ibaseportionformat)

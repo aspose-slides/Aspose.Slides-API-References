@@ -1,5 +1,5 @@
 ---
-title: 样式字体大小
+title: StyleFontSize
 second_title: Aspose.Slides for .NET API 参考
 description: 表示 style.fontSize 属性
 type: docs
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/behaviorproperty/stylefontsize/
 public static BehaviorProperty StyleFontSize { get; }
 ```
 
-### 另见
+### 查看其他
 
 * 类 [BehaviorProperty](../../behaviorproperty)
 * 命名空间 [Aspose.Slides.Animation](../../behaviorproperty)

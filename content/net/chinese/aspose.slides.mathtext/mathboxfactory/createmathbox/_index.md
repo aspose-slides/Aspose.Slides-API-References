@@ -1,7 +1,7 @@
 ---
 title: CreateMathBox
 second_title: Aspose.Sildes for .NET API Reference
-description: 通过应用于元素创建数学框
+description: 通过对元素进行应用创建数学框
 type: docs
 weight: 20
 url: /zh/aspose.slides.mathtext/mathboxfactory/createmathbox/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathboxfactory/createmathbox/
 
 ## MathBoxFactory.CreateMathBox 方法
 
-通过应用于元素创建数学框
+通过对元素进行应用创建数学框
 
 ```csharp
 public IMathBox CreateMathBox(IMathElement element)
@@ -17,13 +17,13 @@ public IMathBox CreateMathBox(IMathElement element)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| element | IMathElement | 应用框的数学元素 |
+| element | IMathElement | 要应用框的数学元素 |
 
 ### 返回值
 
-新的框元素
+新框元素
 
-### 另见
+### 另请参阅
 
 * 接口 [IMathBox](../../imathbox)
 * 接口 [IMathElement](../../imathelement)

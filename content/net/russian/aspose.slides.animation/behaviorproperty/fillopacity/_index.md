@@ -1,13 +1,13 @@
 ---
-title: ЗаполнениеПрозрачность
-second_title: Справочник по API Aspose.Slides для .NET
+title: FillOpacity
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет свойство fill.opacity
 type: docs
 weight: 370
 url: /ru/aspose.slides.animation/behaviorproperty/fillopacity/
 ---
 
-## Свойство BehaviorProperty.FillOpacity
+## BehaviorProperty.FillOpacity свойство
 
 Представляет свойство 'fill.opacity'
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/behaviorproperty/fillopacity/
 public static BehaviorProperty FillOpacity { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)

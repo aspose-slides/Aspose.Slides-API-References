@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.export/htmlformatter/createdocumentformatter/
 ---
+
 ## HtmlFormatter.CreateDocumentFormatter method
 
 Creates and returns HTML formatter for a simple document view which consists of sequences of slides one below another.

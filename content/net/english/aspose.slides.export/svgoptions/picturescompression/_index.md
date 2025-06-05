@@ -3,9 +3,10 @@ title: PicturesCompression
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the pictures compression level
 type: docs
-weight: 120
+weight: 140
 url: /aspose.slides.export/svgoptions/picturescompression/
 ---
+
 ## SVGOptions.PicturesCompression property
 
 Represents the pictures compression level

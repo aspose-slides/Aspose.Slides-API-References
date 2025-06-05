@@ -1,6 +1,6 @@
 ---
 title: ISlideComponent
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет компонент слайда.
 type: docs
 weight: 6840
@@ -17,7 +17,7 @@ public interface ISlideComponent : IPresentationComponent
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/islidecomponent/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../ipresentationcomponent). |
 | [Slide](../../aspose.slides/islidecomponent/slide) { get; } | Возвращает базовый слайд. Только для чтения [`IBaseSlide`](../ibaseslide). |

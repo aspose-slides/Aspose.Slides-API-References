@@ -1,7 +1,7 @@
 ---
-title: Element
+title: Item
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft das Element am angegebenen Index ab. Nur-Lese ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
+description: Gibt das Element an dem angegebenen Index zurück. Nur-lesbar ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs
 weight: 10
 url: /de/aspose.slides.theme/ilineformatcollectioneffectivedata/item/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/ilineformatcollectioneffectivedata/item/
 
 ## ILineFormatCollectionEffectiveData-Indexer
 
-Ruft das Element am angegebenen Index ab. Nur-Lese [`ILineFormatEffectiveData`](../../../aspose.slides/ilineformateffectivedata).
+Gibt das Element an dem angegebenen Index zurück. Nur-lesbar [`ILineFormatEffectiveData`](../../../aspose.slides/ilineformateffectivedata).
 
 ```csharp
 public ILineFormatEffectiveData this[int index] { get; }

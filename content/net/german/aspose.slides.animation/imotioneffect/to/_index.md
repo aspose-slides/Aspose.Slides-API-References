@@ -1,7 +1,7 @@
 ---
-title: Zu
+title: To
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Zielort für einen Animationsbewegungseffekt in Prozent an. Lese-/Schreib-PunktF.
+description: Gibt den Zielort für einen Animationsbewegungseffekt in Prozent an. Lese-/Schreibzugriff PointF.
 type: docs
 weight: 90
 url: /de/aspose.slides.animation/imotioneffect/to/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/imotioneffect/to/
 
 ## IMotionEffect.To-Eigenschaft
 
-Gibt den Zielort für einen Animationsbewegungseffekt (in Prozent) an. Lese-/Schreib-PunktF.
+Gibt den Zielort für einen Animationsbewegungseffekt (in Prozent) an. Lese-/Schreibzugriff PointF.
 
 ```csharp
 public PointF To { get; set; }

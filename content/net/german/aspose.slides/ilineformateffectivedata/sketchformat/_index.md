@@ -1,6 +1,6 @@
 ---
 title: SketchFormat
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt das Skizzenformat einer Linie zurück. Nur lesbarer ISketchFormatEffectiveDataaspose.slides/isketchformateffectivedata.
 type: docs
 weight: 150
@@ -15,7 +15,7 @@ Gibt das Skizzenformat einer Linie zurück. Nur lesbar [`ISketchFormatEffectiveD
 public ISketchFormatEffectiveData SketchFormat { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ISketchFormatEffectiveData](../../isketchformateffectivedata)
 * Schnittstelle [ILineFormatEffectiveData](../../ilineformateffectivedata)

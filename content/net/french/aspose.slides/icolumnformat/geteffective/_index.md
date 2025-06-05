@@ -1,25 +1,25 @@
 ---
 title: GetEffective
-second_title: Aspose.Sildes pour la référence API .NET
-description: Obtient les propriétés de formatage des colonnes de tableau effectives avec héritage et styles de tableau appliqués.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Obtient les propriétés de formatage de colonne de table effectives avec héritage et styles de table appliqués.
 type: docs
 weight: 10
 url: /fr/aspose.slides/icolumnformat/geteffective/
 ---
 
-## Méthode IColumnFormat.GetEffective
+## IColumnFormat.GetEffective method
 
-Obtient les propriétés de formatage des colonnes de tableau effectives avec héritage et styles de tableau appliqués.
+Obtient les propriétés de formatage de colonne de table effectives avec héritage et styles de table appliqués.
 
 ```csharp
 public IColumnFormatEffectiveData GetEffective()
 ```
 
-### Valeur de Retour
+### Return Value
 
 Un [`IColumnFormatEffectiveData`](../../icolumnformateffectivedata).
 
-### Voir Aussi
+### See Also
 
 * interface [IColumnFormatEffectiveData](../../icolumnformateffectivedata)
 * interface [IColumnFormat](../../icolumnformat)

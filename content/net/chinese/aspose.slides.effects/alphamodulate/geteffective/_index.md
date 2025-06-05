@@ -1,6 +1,6 @@
 ---
 title: GetEffective
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取应用继承的有效 Alpha Modulate 效果数据。
 type: docs
 weight: 20

@@ -15,7 +15,7 @@ Standardkonstruktor
 public OdpReadException()
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [OdpReadException](../../odpreadexception)
 * Namespace [Aspose.Slides](../../odpreadexception)
@@ -35,7 +35,7 @@ public OdpReadException(string message)
 | --- | --- | --- |
 | message | String | Nachricht |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [OdpReadException](../../odpreadexception)
 * Namespace [Aspose.Slides](../../odpreadexception)
@@ -56,7 +56,7 @@ public OdpReadException(string message, Exception exception)
 | message | String | Nachricht |
 | exception | Exception | ursprüngliche Ausnahme |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [OdpReadException](../../odpreadexception)
 * Namespace [Aspose.Slides](../../odpreadexception)

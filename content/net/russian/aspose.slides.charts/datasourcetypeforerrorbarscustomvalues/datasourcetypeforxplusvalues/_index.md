@@ -1,15 +1,15 @@
 ---
 title: DataSourceTypeForXPlusValues
 second_title: Aspose.Slides для .NET API Справочник
-description: Указывает, является ли свойство AsCell или AsLiteralString или AsLiteralDouble актуальным в объекте свойства XPlus точек данных для пользовательских значений ошибок. Иными словами, оно указывает тип значения свойства ChartDataPoint.ErrorBarsCustomValues.XPlus.Data. Чтение/запись DataSourceTypeaspose.slides/datasourcetype.
+description: Указывает, является ли свойство AsCell или AsLiteralString или AsLiteralDouble актуальным в точках данных объекта свойства XPlus для настраиваемых значений ошибочных графиков. Иными словами, это указывает тип значения свойства ChartDataPoint.ErrorBarsCustomValues.XPlus.Data. Чтение/запись DataSourceTypeaspose.slides/datasourcetype.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues/
 ---
 
-## DataSourceTypeForErrorBarsCustomValues.DataSourceTypeForXPlusValues свойство
+## DataSourceTypeForErrorBarsCustomValues.DataSourceTypeForXPlusValues property
 
-Указывает, является ли свойство AsCell или AsLiteralString или AsLiteralDouble актуальным в объекте свойства XPlus точек данных для пользовательских значений ошибок. Иными словами, оно указывает тип значения свойства ChartDataPoint.ErrorBarsCustomValues.XPlus.Data. Чтение/запись [`DataSourceType`](../../datasourcetype).
+Указывает, является ли свойство AsCell или AsLiteralString или AsLiteralDouble актуальным в точках данных объекта свойства XPlus для настраиваемых значений ошибочных графиков. Иными словами, это указывает тип значения свойства ChartDataPoint.ErrorBarsCustomValues.XPlus.Data. Чтение/запись [`DataSourceType`](../../datasourcetype).
 
 ```csharp
 public DataSourceType DataSourceTypeForXPlusValues { get; set; }

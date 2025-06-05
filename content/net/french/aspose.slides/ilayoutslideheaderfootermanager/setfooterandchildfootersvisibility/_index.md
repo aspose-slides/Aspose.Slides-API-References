@@ -1,7 +1,7 @@
 ---
 title: SetFooterAndChildFootersVisibility
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Modifie la visibilité de l'espace réservé du pied de page de la diapositive de mise en page et de tous les espaces réservés des pieds de page enfants. Les espaces réservés enfants désignent les espaces réservés contenus dans les diapositives dépendantes. Les diapositives dépendantes utilisent et dépendent de la diapositive maître.
+second_title: Référence API Aspose.Slides pour .NET
+description: Modifie la visibilité de l' espace réservé du pied de page de la diapositive de mise en page et de tous les espaces réservés des pieds de page enfants. Les espaces réservés enfants signifient que les espaces réservés sont contenus dans des diapositives dépendantes. Les diapositives dépendantes utilisent et dépendent de la diapositive maître.
 type: docs
 weight: 50
 url: /fr/aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersv
 
 ## ILayoutSlideHeaderFooterManager.SetFooterAndChildFootersVisibility méthode
 
-Modifie la visibilité de l'espace réservé du pied de page de la diapositive de mise en page et de tous les espaces réservés des pieds de page enfants. Les espaces réservés enfants désignent les espaces réservés contenus dans les diapositives dépendantes. Les diapositives dépendantes utilisent et dépendent de la diapositive maître.
+Modifie la visibilité de l' espace réservé du pied de page de la diapositive de mise en page et de tous les espaces réservés des pieds de page enfants. Les espaces réservés enfants signifient que les espaces réservés sont contenus dans des diapositives dépendantes. Les diapositives dépendantes utilisent et dépendent de la diapositive maître.
 
 ```csharp
 public void SetFooterAndChildFootersVisibility(bool isVisible)

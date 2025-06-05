@@ -1,7 +1,7 @@
 ---
 title: GradientFormat
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente un format de dégradé.
+second_title: Aspose.Slides pour .NET API Référence
+description: Représenter un format de dégradé.
 type: docs
 weight: 4800
 url: /fr/aspose.slides/gradientformat/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/gradientformat/
 
 ## Classe GradientFormat
 
-Représente un format de dégradé.
+Représenter un format de dégradé.
 
 ```csharp
 public sealed class GradientFormat : PVIObject, IGradientFormat
@@ -20,12 +20,12 @@ public sealed class GradientFormat : PVIObject, IGradientFormat
 | Nom | Description |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface de base IPresentationComponent. Lecture seule [`IPresentationComponent`](../ipresentationcomponent). |
-| [GradientDirection](../../aspose.slides/gradientformat/gradientdirection) { get; set; } | Renvoyer ou définir le style d'un dégradé. Lecture/écriture [`GradientDirection`](../gradientdirection). |
-| [GradientShape](../../aspose.slides/gradientformat/gradientshape) { get; set; } | Renvoyer ou définir la forme d'un dégradé. Lecture/écriture [`GradientShape`](../gradientshape). |
+| [GradientDirection](../../aspose.slides/gradientformat/gradientdirection) { get; set; } | Renvoie ou définit le style d'un dégradé. Lecture/écriture [`GradientDirection`](../gradientdirection). |
+| [GradientShape](../../aspose.slides/gradientformat/gradientshape) { get; set; } | Renvoie ou définit la forme d'un dégradé. Lecture/écriture [`GradientShape`](../gradientshape). |
 | [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | Renvoie la collection des arrêts de dégradé. Lecture seule [`IGradientStopCollection`](../igradientstopcollection). |
-| [LinearGradientAngle](../../aspose.slides/gradientformat/lineargradientangle) { get; set; } | Renvoyer ou définir l'angle d'un dégradé. Lecture/écriture Simple. |
+| [LinearGradientAngle](../../aspose.slides/gradientformat/lineargradientangle) { get; set; } | Renvoie ou définit l'angle d'un dégradé. Lecture/écriture Single. |
 | [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | Détermine si un dégradé est mis à l'échelle. Lecture/écriture [`NullableBool`](../nullablebool). |
-| [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | Renvoyer ou définir le mode de retournement pour un dégradé. Lecture/écriture [`TileFlip`](../tileflip). |
+| [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | Renvoie ou définit le mode de retournement d'un dégradé. Lecture/écriture [`TileFlip`](../tileflip). |
 
 ## Méthodes
 

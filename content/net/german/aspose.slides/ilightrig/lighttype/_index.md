@@ -1,15 +1,15 @@
 ---
 title: LightType
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt einen vordefinierten Lichttyp dar, der auf eine Form angewendet werden kann. Das Lichtsetup repräsentiert eine Gruppe von Lichtern, die relativ zu einer 3D-Szene auf eine bestimmte Weise ausgerichtet sind. Lese-/Schreibzugriff auf LightRigPresetTypeaspose.slides/lightrigpresettype.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt ein vordefiniertes Licht-Setup dar, das auf eine Form angewendet werden kann. Das Licht-Setup repräsentiert eine Gruppe von Lichtern, die auf eine bestimmte Weise relativ zu einer 3D-Szene ausgerichtet sind. Lesen/Schreiben von LightRigPresetTypeaspose.slides/lightrigpresettype.
 type: docs
 weight: 20
 url: /de/aspose.slides/ilightrig/lighttype/
 ---
 
-## ILightRig.LightType Eigenschaft
+## ILightRig.LightType-Eigenschaft
 
-Stellt einen vordefinierten Lichttyp dar, der auf eine Form angewendet werden kann. Das Lichtsetup repräsentiert eine Gruppe von Lichtern, die relativ zu einer 3D-Szene auf eine bestimmte Weise ausgerichtet sind. Lese-/Schreibzugriff auf [`LightRigPresetType`](../../lightrigpresettype).
+Stellt ein vordefiniertes Licht-Setup dar, das auf eine Form angewendet werden kann. Das Licht-Setup repräsentiert eine Gruppe von Lichtern, die auf eine bestimmte Weise relativ zu einer 3D-Szene ausgerichtet sind. Lesen/Schreiben von [`LightRigPresetType`](../../lightrigpresettype).
 
 ```csharp
 public LightRigPresetType LightType { get; set; }

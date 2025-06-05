@@ -1,13 +1,13 @@
 ---
-title: Limpiar
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Clear
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Elimina todas las propiedades.
 type: docs
 weight: 50
 url: /es/aspose.slides/controlpropertiescollection/clear/
 ---
 
-## Método ControlPropertiesCollection.Clear
+## ControlPropertiesCollection.Clear método
 
 Elimina todas las propiedades.
 
@@ -19,6 +19,6 @@ public void Clear()
 
 * clase [ControlPropertiesCollection](../../controlpropertiescollection)
 * espacio de nombres [Aspose.Slides](../../controlpropertiescollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

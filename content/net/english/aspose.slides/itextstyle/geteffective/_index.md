@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/itextstyle/geteffective/
 ---
+
 ## ITextStyle.GetEffective method
 
 Gets effective text style formatting data with the inheritance applied.

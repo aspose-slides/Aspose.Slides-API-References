@@ -1,7 +1,7 @@
 ---
 title: FontSubstitutionInfo
-second_title: Aspose.Sildes для .NET API Reference
-description: Создает экземпляр класса FontSubstitutionInfo aspose.slides/fontsubstitutioninfo.
+second_title: Справка по API Aspose.Slides для .NET
+description: Создает экземпляр класса FontSubstitutionInfoaspose.slides/fontsubstitutioninfo.
 type: docs
 weight: 10
 url: /ru/aspose.slides/fontsubstitutioninfo/fontsubstitutioninfo/
@@ -17,10 +17,10 @@ public FontSubstitutionInfo(string originFontName, string substFontName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| originFontName | String | Имя исходного шрифта в презентации String |
-| substFontName | String | Имя заменяющего шрифта для оригинального шрифта String |
+| originFontName | String | Имя исходного шрифта в презентации |
+| substFontName | String | Имя заменяющего шрифта для оригинального шрифта |
 
-### Также смотри
+### См. также
 
 * класс [FontSubstitutionInfo](../../fontsubstitutioninfo)
 * пространство имен [Aspose.Slides](../../fontsubstitutioninfo)

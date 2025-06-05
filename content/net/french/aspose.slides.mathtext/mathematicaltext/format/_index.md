@@ -1,7 +1,7 @@
 ---
 title: Format
-second_title: Référence API Aspose.Slides pour .NET
-description: Propriétés de formatage du texte
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Propriétés de formatage de texte
 type: docs
 weight: 20
 url: /fr/aspose.slides.mathtext/mathematicaltext/format/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/mathematicaltext/format/
 
 ## Propriété MathematicalText.Format
 
-Propriétés de formatage du texte
+Propriétés de formatage de texte
 
 ```csharp
 public IPortionFormat Format { get; }

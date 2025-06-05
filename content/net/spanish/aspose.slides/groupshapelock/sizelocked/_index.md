@@ -1,24 +1,24 @@
----
+---  
 title: SizeLocked
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Determina si se prohíbe redimensionar esta forma. Booleano de lectura/escritura.
-type: docs
-weight: 60
+second_title: Aspose.Sildes para .NET Referencia de API  
+description: Determina si el cambio de tamaño de esta forma está prohibido. Booleano de lectura/escritura.
+type: docs  
+weight: 60  
 url: /es/aspose.slides/groupshapelock/sizelocked/
----
+---  
 
-## Propiedad GroupShapeLock.SizeLocked
+## Propiedad GroupShapeLock.SizeLocked  
 
-Determina si se prohíbe redimensionar esta forma. Booleano de lectura/escritura.
+Determina si el cambio de tamaño de esta forma está prohibido. Booleano de lectura/escritura.  
 
-```csharp
-public bool SizeLocked { get; set; }
-```
+```csharp  
+public bool SizeLocked { get; set; }  
+```  
 
-### Véase también
+### Véase También  
 
-* clase [GroupShapeLock](../../groupshapelock)
-* espacio de nombres [Aspose.Slides](../../groupshapelock)
-* ensamblado [Aspose.Slides](../../../)
+* clase [GroupShapeLock](../../groupshapelock)  
+* espacio de nombres [Aspose.Slides](../../groupshapelock)  
+* ensamblado [Aspose.Slides](../../../)  
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  

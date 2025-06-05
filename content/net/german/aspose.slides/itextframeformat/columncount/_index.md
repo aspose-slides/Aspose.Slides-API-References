@@ -1,7 +1,7 @@
 ---
 title: ColumnCount
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Anzahl der Spalten im Textbereich zurück oder legt sie fest. Dieser Wert muss eine positive Zahl sein. Andernfalls wird der Wert auf null gesetzt. Wert 0 bedeutet undefinierter Wert. Lese-/Schreibzugriff Int32.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Anzahl der Spalten im Textbereich zurück oder setzt diese. Dieser Wert muss eine positive Zahl sein. Andernfalls wird der Wert auf null gesetzt. Ein Wert von 0 bedeutet undefinierter Wert. Lese-/Schreibzugriff Int32.
 type: docs
 weight: 40
 url: /de/aspose.slides/itextframeformat/columncount/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/itextframeformat/columncount/
 
 ## ITextFrameFormat.ColumnCount-Eigenschaft
 
-Gibt die Anzahl der Spalten im Textbereich zurück oder legt sie fest. Dieser Wert muss eine positive Zahl sein. Andernfalls wird der Wert auf null gesetzt. Wert 0 bedeutet undefinierter Wert. Lese-/Schreibzugriff Int32.
+Gibt die Anzahl der Spalten im Textbereich zurück oder setzt diese. Dieser Wert muss eine positive Zahl sein. Andernfalls wird der Wert auf null gesetzt. Ein Wert von 0 bedeutet undefinierter Wert. Lese-/Schreibzugriff Int32.
 
 ```csharp
 public int ColumnCount { get; set; }

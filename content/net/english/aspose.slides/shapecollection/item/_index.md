@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/shapecollection/item/
 ---
+
 ## ShapeCollection indexer
 
 Gets the element at the specified index. Read-only [`IShape`](../../ishape).

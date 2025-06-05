@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/matharrayfactory/creatematharray/
 
 ## CreateMathArray(IMathElement) {#creatematharray}
 
-Создает математический массив и помещает в него указанный элемент
+Создает математический массив и помещает указанный элемент в него
 
 ```csharp
 public IMathArray CreateMathArray(IMathElement element)
@@ -17,13 +17,13 @@ public IMathArray CreateMathArray(IMathElement element)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | математический элемент для помещения в массив |
+| element | IMathElement | математический элемент для размещения в массиве |
 
 ### Возвращаемое значение
 
 новый математический массив
 
-### См. также
+### См. Также
 
 * интерфейс [IMathArray](../../imatharray)
 * интерфейс [IMathElement](../../imathelement)
@@ -35,7 +35,7 @@ public IMathArray CreateMathArray(IMathElement element)
 
 ## CreateMathArray(IMathElementCollection) {#creatematharray_1}
 
-Создает математический массив и помещает в него указанные элементы
+Создает математический массив и помещает указанные элементы в него
 
 ```csharp
 public IMathArray CreateMathArray(IMathElementCollection elements)
@@ -43,13 +43,13 @@ public IMathArray CreateMathArray(IMathElementCollection elements)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| elements | IMathElementCollection | математические элементы для помещения в массив |
+| elements | IMathElementCollection | математические элементы для размещения в массиве |
 
 ### Возвращаемое значение
 
 новый математический массив
 
-### См. также
+### См. Также
 
 * интерфейс [IMathArray](../../imatharray)
 * интерфейс [IMathElementCollection](../../imathelementcollection)

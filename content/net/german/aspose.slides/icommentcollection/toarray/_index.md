@@ -1,6 +1,6 @@
 ---
 title: ToArray
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Erstellt und gibt ein Array mit allen Kommentaren zurück.
 type: docs
 weight: 90
@@ -19,7 +19,7 @@ public IComment[] ToArray()
 
 Array von [`IComment`](../../icomment).
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IComment](../../icomment)
 * Schnittstelle [ICommentCollection](../../icommentcollection)
@@ -38,14 +38,14 @@ public IComment[] ToArray(int startIndex, int count)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| startIndex | Int32 | Ein Index des ersten zurückzugebenden Kommentars. |
-| count | Int32 | Die Anzahl der zurückzugebenden Kommentare. |
+| startIndex | Int32 | Ein Index des ersten Kommentars, der zurückgegeben werden soll. |
+| count | Int32 | Eine Anzahl von Kommentaren, die zurückgegeben werden sollen. |
 
 ### Rückgabewert
 
 Array von [`IComment`](../../icomment).
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IComment](../../icomment)
 * Schnittstelle [ICommentCollection](../../icommentcollection)

@@ -1,7 +1,7 @@
 ---
 title: AddTextFrameForOverriding
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Initialisieren Sie TextFrameForOverriding mit dem Text im Parameter "text". Wenn TextFrameForOverriding bereits initialisiert ist, ändert es einfach seinen Text.
+second_title: Aspose.Slides für .NET API Referenz
+description: Initialisieren Sie TextFrameForOverriding mit dem Text im Parameter "text". Wenn TextFrameForOverriding bereits initialisiert ist, ändern Sie einfach dessen Text.
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/ioverridabletext/addtextframeforoverriding/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ioverridabletext/addtextframeforoverriding/
 
 ## IOverridableText.AddTextFrameForOverriding-Methode
 
-Initialisieren Sie TextFrameForOverriding mit dem Text im Parameter "text". Wenn TextFrameForOverriding bereits initialisiert ist, ändert es einfach seinen Text.
+Initialisieren Sie TextFrameForOverriding mit dem Text im Parameter "text". Wenn TextFrameForOverriding bereits initialisiert ist, ändern Sie einfach dessen Text.
 
 ```csharp
 public ITextFrame AddTextFrameForOverriding(string text)
@@ -17,13 +17,13 @@ public ITextFrame AddTextFrameForOverriding(string text)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| text | String | Text für ein neues TextFrameForOverriding. |
+| text | String | Text für einen neuen TextFrameForOverriding. |
 
 ### Rückgabewert
 
 Textrahmen [`ITextFrame`](../../../aspose.slides/itextframe)
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ITextFrame](../../../aspose.slides/itextframe)
 * Schnittstelle [IOverridableText](../../ioverridabletext)

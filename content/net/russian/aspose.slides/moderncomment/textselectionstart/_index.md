@@ -15,7 +15,7 @@ url: /ru/aspose.slides/moderncomment/textselectionstart/
 public int TextSelectionStart { get; set; }
 ```
 
-### См. Также
+### См. также
 
 * класс [ModernComment](../../moderncomment)
 * пространство имен [Aspose.Slides](../../moderncomment)

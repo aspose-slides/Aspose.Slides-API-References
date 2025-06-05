@@ -1,7 +1,7 @@
 ---
-title: Hauteur
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Retourne ou définit la hauteur d'une légende comme une fraction de la hauteur du graphique. Lecture/écriture Simple.
+title: Height
+second_title: Référence API Aspose.Sildes pour .NET
+description: Renvoie ou définit la hauteur d'une légende en tant que fraction de la hauteur du graphique. Lecture/écriture Simple.
 type: docs
 weight: 50
 url: /fr/aspose.slides.charts/legend/height/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/legend/height/
 
 ## Propriété Legend.Height
 
-Retourne ou définit la hauteur d'une légende comme une fraction de la hauteur du graphique. Lecture/écriture Simple.
+Renvoie ou définit la hauteur d'une légende en tant que fraction de la hauteur du graphique. Lecture/écriture Simple.
 
 ```csharp
 public float Height { get; set; }

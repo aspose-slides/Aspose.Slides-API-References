@@ -1,15 +1,15 @@
 ---
 title: GrowToMatchOperandHeight
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie la croissance de BeginningCharacter, SeparatorCharacter, EndingCharacter. Lorsque vrai, les délimiteurs croissent verticalement pour correspondre à la hauteur de leur opérande. La valeur par défaut est vraie.
+second_title: Aspose.Sildes pour le .NET API Référence
+description: Spécifie la croissance de BeginningCharacter, SeparatorCharacter, EndingCharacter Lorsque vrai, les délimiteurs grandissent verticalement pour correspondre à la hauteur de son opérande. La valeur par défaut est vrai
 type: docs
 weight: 60
 url: /fr/aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight/
 ---
 
-## Propriété IMathDelimiter.GrowToMatchOperandHeight
+## IMathDelimiter.GrowToMatchOperandHeight propriété
 
-Spécifie la croissance de BeginningCharacter, SeparatorCharacter, EndingCharacter. Lorsque vrai, les délimiteurs croissent verticalement pour correspondre à la hauteur de leur opérande. La valeur par défaut est vraie.
+Spécifie la croissance de BeginningCharacter, SeparatorCharacter, EndingCharacter Lorsque vrai, les délimiteurs grandissent verticalement pour correspondre à la hauteur de son opérande. La valeur par défaut est vrai
 
 ```csharp
 public bool GrowToMatchOperandHeight { get; set; }
@@ -17,7 +17,7 @@ public bool GrowToMatchOperandHeight { get; set; }
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

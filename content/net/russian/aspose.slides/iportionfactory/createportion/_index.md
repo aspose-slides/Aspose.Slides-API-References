@@ -1,6 +1,6 @@
 ---
 title: CreatePortion
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справка по API Aspose.Slides для .NET
 description: Создает пустую текстовую порцию.
 type: docs
 weight: 10
@@ -55,7 +55,7 @@ public IPortion CreatePortion(string str)
 
 ## CreatePortion(IPortion) {#createportion_1}
 
-Создает порцию, используя данные указанной порции.
+Создает порцию с использованием данных указанной порции.
 
 ```csharp
 public IPortion CreatePortion(IPortion portion)

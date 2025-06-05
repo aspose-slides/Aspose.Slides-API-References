@@ -15,10 +15,10 @@ Representa la propiedad 'extrusion.viewpoint.y'
 public static BehaviorProperty ExtrusionViewPointY { get; }
 ```
 
-### Ver También
+### Ver también
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

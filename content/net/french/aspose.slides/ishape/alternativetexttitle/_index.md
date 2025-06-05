@@ -1,7 +1,7 @@
 ---
-title: TitreTexteAlternatif
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit le titre du texte alternatif associé à une forme. Chaîne lisible/écrivable.
+title: AlternativeTextTitle
+second_title: Aspose.Sildes pour la référence API .NET
+description: Renvoie ou définit le titre du texte alternatif associé à une forme. Chaîne en lecture/écriture.
 type: docs
 weight: 20
 url: /fr/aspose.slides/ishape/alternativetexttitle/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ishape/alternativetexttitle/
 
 ## Propriété IShape.AlternativeTextTitle
 
-Renvoie ou définit le titre du texte alternatif associé à une forme. Chaîne lisible/écrivable.
+Renvoie ou définit le titre du texte alternatif associé à une forme. Chaîne en lecture/écriture.
 
 ```csharp
 public string AlternativeTextTitle { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IShape](../../ishape)
 * namespace [Aspose.Slides](../../ishape)

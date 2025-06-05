@@ -1,7 +1,7 @@
 ---
 title: ILuminanceEffectiveData
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет эффект люминанса. Яркость линейно смещает все цвета ближе к белому или черному. Контраст масштабирует все цвета, чтобы они были либо ближе, либо дальше друг от друга.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет эффект яркости. Яркость линейно приближает все цвета к белому или черному. Контраст масштабирует все цвета так, чтобы они были либо ближе, либо дальше друг от друга.
 type: docs
 weight: 3330
 url: /ru/aspose.slides.effects/iluminanceeffectivedata/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/iluminanceeffectivedata/
 
 ## Интерфейс ILuminanceEffectiveData
 
-Представляет эффект люминанса. Яркость линейно смещает все цвета ближе к белому или черному. Контраст масштабирует все цвета, чтобы они были либо ближе, либо дальше друг от друга.
+Представляет эффект яркости. Яркость линейно приближает все цвета к белому или черному. Контраст масштабирует все цвета так, чтобы они были либо ближе, либо дальше друг от друга.
 
 ```csharp
 public interface ILuminanceEffectiveData : IEffectEffectiveData
@@ -17,11 +17,11 @@ public interface ILuminanceEffectiveData : IEffectEffectiveData
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | Яркость. Только для чтения Single. |
-| [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | Контраст. Только для чтения Single. |
+| [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | Яркость. Только для чтения. |
+| [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | Контраст. Только для чтения. |
 
 ### См. также
 

@@ -1,6 +1,6 @@
 ---
-title: Anzahl
-second_title: Aspose.Slides für .NET API-Referenz
+title: Count
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Regeln zurück. Nur-Lese Int32.
 type: docs
 weight: 20

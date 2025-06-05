@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.vba/vbamodulecollection/getenumerator/
 ---
+
 ## VbaModuleCollection.GetEnumerator method
 
 Returns an enumerator that iterates through the collection.

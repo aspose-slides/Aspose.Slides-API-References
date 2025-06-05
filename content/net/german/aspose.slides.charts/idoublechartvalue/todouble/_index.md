@@ -1,15 +1,15 @@
 ---
 title: ToDouble
 second_title: Aspose.Slides für .NET API-Referenz
-description: Konvertiert in double.
+description: Konvertiert zu double.
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/idoublechartvalue/todouble/
 ---
 
-## IDoubleChartValue.ToDouble-Methode
+## IDoubleChartValue.ToDouble Methode
 
-Konvertiert in double.
+Konvertiert zu double.
 
 ```csharp
 public double ToDouble()
@@ -17,7 +17,7 @@ public double ToDouble()
 
 ### Rückgabewert
 
-Doppeltwert.
+Double-Wert.
 
 ### Siehe auch
 

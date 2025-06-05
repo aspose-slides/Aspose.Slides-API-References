@@ -1,6 +1,6 @@
 ---
 title: IGeometryPath
-second_title: Aspose.Sildes для справки API .NET
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Представляет геометрический путь GeometryShape
 type: docs
 weight: 5770
@@ -27,27 +27,27 @@ public interface IGeometryPath
 
 | Имя | Описание |
 | --- | --- |
-| [ArcTo](../../aspose.slides/igeometrypath/arcto)(float, float, float, float) | Добавляет указанный дуговой сегмент к пути. |
+| [ArcTo](../../aspose.slides/igeometrypath/arcto)(float, float, float, float) | Добавляет указанный дугу к пути. |
 | [CloseFigure](../../aspose.slides/igeometrypath/closefigure)() | Закрывает текущую фигуру этого пути |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | Добавляет кубическую кривую Безье в конец пути |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | Добавляет кубическую кривую Безье в указанное место пути |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | Добавляет кубическую кривую Безье в конец пути |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | Добавляет кубическую кривую Безье в указанное место пути |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | Добавляет кубическую кривую Безье в конце пути |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | Добавляет кубическую кривую Безье в указанном месте пути |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | Добавляет кубическую кривую Безье в конце пути |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | Добавляет кубическую кривую Безье в указанном месте пути |
 | [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_2)(PointF) | Добавляет линию в конец пути |
 | [LineTo](../../aspose.slides/igeometrypath/lineto#lineto)(float, float) | Добавляет линию в конец пути |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_3)(PointF, uint) | Добавляет линию в указанное место пути |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_1)(float, float, uint) | Добавляет линию в указанное место пути |
-| [MoveTo](../../aspose.slides/igeometrypath/moveto#moveto_1)(PointF) | Устанавливает позицию следующей точки. |
-| [MoveTo](../../aspose.slides/igeometrypath/moveto#moveto)(float, float) | Устанавливает позицию следующей точки. |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | Добавляет квадратную кривую Безье в конец пути |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | Добавляет квадратную кривую Безье в указанное место пути |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | Добавляет квадратную кривую Безье в конец пути |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | Добавляет квадратную кривую Безье в указанное место пути |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_3)(PointF, uint) | Добавляет линию в указанном месте пути |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_1)(float, float, uint) | Добавляет линию в указанном месте пути |
+| [MoveTo](../../aspose.slides/igeometrypath/moveto#moveto_1)(PointF) | Устанавливает положение следующей точки. |
+| [MoveTo](../../aspose.slides/igeometrypath/moveto#moveto)(float, float) | Устанавливает положение следующей точки. |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | Добавляет квадратичную кривую Безье в конце пути |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | Добавляет квадратичную кривую Безье в указанном месте пути |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | Добавляет квадратичную кривую Безье в конце пути |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | Добавляет квадратичную кривую Безье в указанном месте пути |
 | [RemoveAt](../../aspose.slides/igeometrypath/removeat)(int) | Удаляет сегмент по указанному индексу геометрического пути. |
 
-### Смотрите Также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 
-<!-- DO NOT EDIT: сгенерировано командой xmldocmd для Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

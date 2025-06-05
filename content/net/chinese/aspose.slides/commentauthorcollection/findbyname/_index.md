@@ -1,7 +1,7 @@
 ---
 title: FindByName
-second_title: Aspose.Sildes for .NET API 参考
-description: 按名称在集合中查找作者。
+second_title: Aspose.Sildes for .NET API Reference
+description: 通过名称在集合中查找作者。
 type: docs
 weight: 80
 url: /zh/aspose.slides/commentauthorcollection/findbyname/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/commentauthorcollection/findbyname/
 
 ## CommentAuthorCollection.FindByName 方法
 
-按名称在集合中查找作者。
+通过名称在集合中查找作者。
 
 ```csharp
 public ICommentAuthor[] FindByName(string name)
@@ -17,13 +17,13 @@ public ICommentAuthor[] FindByName(string name)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 要查找的作者名称。 |
+| name | String | 要查找的作者的名称。 |
 
 ### 返回值
 
 作者或 null。
 
-### 另请参阅
+### 另见
 
 * 接口 [ICommentAuthor](../../icommentauthor)
 * 类 [CommentAuthorCollection](../../commentauthorcollection)

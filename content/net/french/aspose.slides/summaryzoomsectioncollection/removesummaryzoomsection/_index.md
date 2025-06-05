@@ -1,15 +1,15 @@
 ---
 title: RemoveSummaryZoomSection
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Supprimer l'objet Section de Zoom Résumé de la collection.
+description: Supprimer l'objet Summary Zoom Section de la collection.
 type: docs
 weight: 110
 url: /fr/aspose.slides/summaryzoomsectioncollection/removesummaryzoomsection/
 ---
 
-## Méthode SummaryZoomSectionCollection.RemoveSummaryZoomSection
+## SummaryZoomSectionCollection.RemoveSummaryZoomSection method
 
-Supprimer l'objet Section de Zoom Résumé de la collection.
+Supprimer l'objet Summary Zoom Section de la collection.
 
 ```csharp
 public void RemoveSummaryZoomSection(ISection section)
@@ -17,11 +17,11 @@ public void RemoveSummaryZoomSection(ISection section)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| section | ISection | Section pour laquelle l'élément de Section de Zoom Résumé doit être supprimé [`ISection`](../../isection). |
+| section | ISection | Section pour laquelle l'élément Summary Zoom Section doit être supprimé [`ISection`](../../isection). |
 
 ### Exemples
 
-L'exemple démontre comment obtenir l'élément de Section de Zoom Résumé par index :
+L'exemple démontre comment obtenir l'élément Summary Zoom Section par index:
 
 ```csharp
 [C#]

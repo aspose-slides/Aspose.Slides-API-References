@@ -1,7 +1,7 @@
 ---
 title: TextAnchorType
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回或设置文本锚点类型。可读/写 TextAnchorTypeaspose.slides/textanchortype。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置文本锚点类型。可读写 TextAnchorTypeaspose.slides/textanchortype。
 type: docs
 weight: 210
 url: /zh/aspose.slides/cell/textanchortype/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/cell/textanchortype/
 
 ## Cell.TextAnchorType 属性
 
-返回或设置文本锚点类型。可读/写 [`TextAnchorType`](../../textanchortype)。
+返回或设置文本锚点类型。可读写 [`TextAnchorType`](../../textanchortype)。
 
 ```csharp
 public TextAnchorType TextAnchorType { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * enum [TextAnchorType](../../textanchortype)
 * class [Cell](../../cell)

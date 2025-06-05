@@ -1,7 +1,7 @@
 ---
-title: Тип
-second_title: Справочник API Aspose.Slides для .NET
-description: Возвращает тип маркера параграфа. Только для чтения BulletType aspose.slides/bullettype.
+title: Type
+second_title: Aspose.Slides для .NET API Справка
+description: Возвращает тип маркера абзаца. Только для чтения BulletType aspose.slides/bullettype.
 type: docs
 weight: 100
 url: /ru/aspose.slides/ibulletformateffectivedata/type/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/ibulletformateffectivedata/type/
 
 ## Свойство IBulletFormatEffectiveData.Type
 
-Возвращает тип маркера параграфа. Только для чтения [`BulletType`](../../bullettype).
+Возвращает тип маркера абзаца. Только для чтения [`BulletType`](../../bullettype).
 
 ```csharp
 public BulletType Type { get; }
 ```
 
-### См. также
+### Также смотрите
 
 * enum [BulletType](../../bullettype)
 * interface [IBulletFormatEffectiveData](../../ibulletformateffectivedata)

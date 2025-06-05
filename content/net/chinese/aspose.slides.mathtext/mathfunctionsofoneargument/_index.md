@@ -1,7 +1,7 @@
 ---
 title: MathFunctionsOfOneArgument
 second_title: Aspose.Sildes for .NET API Reference
-description: 一元的常见数学函数
+description: 常见的一元数学函数
 type: docs
 weight: 8480
 url: /zh/aspose.slides.mathtext/mathfunctionsofoneargument/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathfunctionsofoneargument/
 
 ## MathFunctionsOfOneArgument 枚举
 
-一元的常见数学函数
+常见的一元数学函数
 
 ```csharp
 public enum MathFunctionsOfOneArgument
@@ -46,7 +46,7 @@ public enum MathFunctionsOfOneArgument
 | HyperbolicArcSec | `24` | 双曲反正割 |
 | HyperbolicArcCot | `25` | 双曲反余切 |
 
-### 参见
+### 另见
 
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 程序集 [Aspose.Slides](../../)

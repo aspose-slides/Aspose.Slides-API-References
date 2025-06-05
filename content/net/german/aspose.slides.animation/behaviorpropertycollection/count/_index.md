@@ -1,7 +1,7 @@
 ---
-title: Zählen
+title: Count
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Anzahl der in der Sammlung gespeicherten Eigenschaften zurück. Nur-Lesen Int32.
+description: Gibt die Anzahl der in der Sammlung gespeicherten Eigenschaften zurück. Nur-Lese Int32.
 type: docs
 weight: 10
 url: /de/aspose.slides.animation/behaviorpropertycollection/count/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.animation/behaviorpropertycollection/count/
 
 ## BehaviorPropertyCollection.Count-Eigenschaft
 
-Gibt die Anzahl der in der Sammlung gespeicherten Eigenschaften zurück. Nur-Lesen Int32.
+Gibt die Anzahl der in der Sammlung gespeicherten Eigenschaften zurück. Nur-Lese Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [BehaviorPropertyCollection](../../behaviorpropertycollection)
 * Namespace [Aspose.Slides.Animation](../../behaviorpropertycollection)

@@ -1,6 +1,6 @@
 ---
-title: ActiverEffetDeRéflexion
-second_title: Référence API Aspose.Slides pour .NET
+title: EnableReflectionEffect
+second_title: Aspose.Slides pour la référence API .NET
 description: Active l'effet de réflexion.
 type: docs
 weight: 240
@@ -15,10 +15,10 @@ Active l'effet de réflexion.
 public void EnableReflectionEffect()
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IEffectFormat](../../ieffectformat)
 * namespace [Aspose.Slides](../../ieffectformat)
 * assembly [Aspose.Slides](../../../)
 
-<!-- DO NOT EDIT: généré par xmldocmd pour Aspose.Slides.dll -->
+<!-- NE PAS MODIFIER : généré par xmldocmd pour Aspose.Slides.dll -->

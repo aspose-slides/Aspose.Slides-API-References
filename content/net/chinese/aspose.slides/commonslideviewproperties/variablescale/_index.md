@@ -1,21 +1,21 @@
 ---
-title: 变量缩放
-second_title: Aspose.Slides for .NET API 参考
-description: 指定视图内容应自动缩放以最佳适应当前窗口大小。可读/写的布尔值。
+title: VariableScale
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定视图内容应自动缩放以最佳适应当前窗口大小。可读/可写布尔值。
 type: docs
 weight: 30
 url: /zh/aspose.slides/commonslideviewproperties/variablescale/
 ---
 
-## CommonSlideViewProperties.VariableScale 属性
+## CommonSlideViewProperties.VariableScale property
 
-指定视图内容应自动缩放以最佳适应当前窗口大小。可读/写的布尔值。
+指定视图内容应自动缩放以最佳适应当前窗口大小。可读/可写布尔值。
 
 ```csharp
 public bool VariableScale { get; set; }
 ```
 
-### 另请参见
+### 参见
 
 * class [CommonSlideViewProperties](../../commonslideviewproperties)
 * namespace [Aspose.Slides](../../commonslideviewproperties)

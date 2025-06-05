@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.warnings/ipresentationsignedwarninginfo/asiwarninginfo/
 ---
+
 ## IPresentationSignedWarningInfo.AsIWarningInfo property
 
 Returns IWarningInfo interface. Read-only [`IWarningInfo`](../../iwarninginfo).

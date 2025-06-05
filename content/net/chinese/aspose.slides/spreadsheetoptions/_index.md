@@ -1,15 +1,15 @@
 ---
 title: SpreadsheetOptions
-second_title: Aspose.Sildes for .NET API Reference
-description: 表示可以用来指定额外电子表格行为的选项。
+second_title: Aspose.Slides for .NET API Reference
+description: 表示可用于指定额外电子表格行为的选项。
 type: docs
 weight: 10430
 url: /zh/aspose.slides/spreadsheetoptions/
 ---
 
-## SpreadsheetOptions 类
+## SpreadsheetOptions class
 
-表示可以用来指定额外电子表格行为的选项。
+表示可用于指定额外电子表格行为的选项。
 
 ```csharp
 public class SpreadsheetOptions : ISpreadsheetOptions
@@ -25,10 +25,10 @@ public class SpreadsheetOptions : ISpreadsheetOptions
 
 | 名称 | 描述 |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | 获取或设置用于计算某些功能的首选文化信息，这些功能旨在与使用双字节字符集（DBCS）的语言一起使用。 |
-| [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | 如果图表的数据源是一个外部工作簿而且不可用，则将从图表缓存中恢复。 |
+| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | 获取或设置用于计算某些旨在与使用双字节字符集（DBCS）的语言一起使用的函数的首选区域信息。 |
+| [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | 如果图表的数据源是外部工作簿且不可用，则将从图表缓存中恢复。 |
 
-### 另请参阅
+### 另请参见
 
 * 接口 [ISpreadsheetOptions](../ispreadsheetoptions)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

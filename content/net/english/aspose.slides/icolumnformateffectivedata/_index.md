@@ -3,9 +3,10 @@ title: IColumnFormatEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which contains effective table column formatting properties.
 type: docs
-weight: 5180
+weight: 5350
 url: /aspose.slides/icolumnformateffectivedata/
 ---
+
 ## IColumnFormatEffectiveData interface
 
 Immutable object which contains effective table column formatting properties.

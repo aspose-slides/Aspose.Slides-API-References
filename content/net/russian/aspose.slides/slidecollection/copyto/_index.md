@@ -1,13 +1,13 @@
 ---
 title: CopyTo
-second_title: Aspose.Sildes для .NET API Справка
+second_title: Aspose.Sildes для .NET API Справочник
 description: Копирует все элементы из коллекции в указанный массив.
 type: docs
 weight: 90
 url: /ru/aspose.slides/slidecollection/copyto/
 ---
 
-## Метод SlideCollection.CopyTo
+## SlideCollection.CopyTo метод
 
 Копирует все элементы из коллекции в указанный массив.
 

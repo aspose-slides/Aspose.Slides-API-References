@@ -7,7 +7,7 @@ weight: 120
 url: /de/aspose.slides.effects/iimagetransformoperationfactory/createduotone/
 ---
 
-## IImageTransformOperationFactory.CreateDuotone-Methode
+## IImageTransformOperationFactory.CreateDuotone Methode
 
 Erstellt Duotone-Effekt.
 

@@ -1,7 +1,7 @@
 ---
-title: 序列
-second_title: Aspose.Slides for .NET API 参考
-description: 返回一个效果的序列。只读 ISequence aspose.slides.animation/isequence。
+title: Sequence
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回一个效果的序列。只读 ISequenceaspose.slides.animation/isequence。
 type: docs
 weight: 70
 url: /zh/aspose.slides.animation/effect/sequence/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/effect/sequence/
 public ISequence Sequence { get; }
 ```
 
-### 参见
+### 另请参见
 
 * 接口 [ISequence](../../isequence)
 * 类 [Effect](../../effect)

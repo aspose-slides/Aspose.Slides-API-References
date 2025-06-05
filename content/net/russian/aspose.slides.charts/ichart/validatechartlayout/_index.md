@@ -1,21 +1,21 @@
 ---
 title: ValidateChartLayout
-second_title: Aspose.Slides для .NET API Справочник
-description: Вычисляет актуальные значения элементов графика. Актуальные значения включают позиции элементов, которые реализуют интерфейс IActualLayout IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight и актуальные значения осей IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale
+second_title: Aspose.Sildes для .NET API Справочник
+description: Вычисляет фактические значения элементов графика. Фактические значения включают положение элементов, которые реализуют интерфейс IActualLayout IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight и фактические значения осей IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale
 type: docs
 weight: 240
 url: /ru/aspose.slides.charts/ichart/validatechartlayout/
 ---
 
-## Метод IChart.ValidateChartLayout
+## IChart.ValidateChartLayout метод
 
-Вычисляет актуальные значения элементов графика. Актуальные значения включают позиции элементов, которые реализуют интерфейс IActualLayout (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight) и актуальные значения осей (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale)
+Вычисляет фактические значения элементов графика. Фактические значения включают положение элементов, которые реализуют интерфейс IActualLayout (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight) и фактические значения осей (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale)
 
 ```csharp
 public void ValidateChartLayout()
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IChart](../../ichart)
 * пространство имен [Aspose.Slides.Charts](../../ichart)

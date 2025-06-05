@@ -1,13 +1,13 @@
 ---
 title: AsCell
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit la cellule de données du graphique. Lecture/écriture IChartDataCellaspose.slides.charts/ichartdatacell.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie ou définit la cellule de données du graphique. Lecture/écriture IChartDataCell aspose.slides.charts/ichartdatacell.
 type: docs
 weight: 10
 url: /fr/aspose.slides.charts/isinglecellchartvalue/ascell/
 ---
 
-## Propriété ISingleCellChartValue.AsCell
+## ISingleCellChartValue.AsCell propriété
 
 Renvoie ou définit la cellule de données du graphique. Lecture/écriture [`IChartDataCell`](../../ichartdatacell).
 

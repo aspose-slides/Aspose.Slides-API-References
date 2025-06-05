@@ -1,7 +1,7 @@
 ---
 title: NotesSize
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Objekt für die Notizenfoliengröße zurück. Nur lesbarer INotesSizeaspose.slides/inotessize.
+description: Gibt das Objekt für die Größe der Notizenfolie zurück. Nur-lesend INotesSizeaspose.slides/inotessize.
 type: docs
 weight: 210
 url: /de/aspose.slides/ipresentation/notessize/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ipresentation/notessize/
 
 ## IPresentation.NotesSize-Eigenschaft
 
-Gibt das Objekt für die Notizenfoliengröße zurück. Nur lesbar [`INotesSize`](../../inotessize).
+Gibt das Objekt für die Größe der Notizenfolie zurück. Nur-lesend [`INotesSize`](../../inotessize).
 
 ```csharp
 public INotesSize NotesSize { get; }

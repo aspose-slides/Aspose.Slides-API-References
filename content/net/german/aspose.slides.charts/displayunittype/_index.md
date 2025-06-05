@@ -1,15 +1,15 @@
 ---
 title: DisplayUnitType
-second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt die Multiplikation der angezeigten Daten.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Bestimmt die Vielfachheit der angezeigten Daten.
 type: docs
 weight: 1540
 url: /de/aspose.slides.charts/displayunittype/
 ---
 
-## DisplayUnitType Aufzählung
+## DisplayUnitType-Aufzählung
 
-Bestimmt die Multiplikation der angezeigten Daten.
+Bestimmt die Vielfachheit der angezeigten Daten.
 
 ```csharp
 public enum DisplayUnitType
@@ -19,7 +19,7 @@ public enum DisplayUnitType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| None | `0` | Werte werden wie sie sind angezeigt. |
+| None | `0` | Werte werden unverändert angezeigt. |
 | Hundreds | `1` | Gibt an, dass die Werte im Diagramm durch 100 geteilt werden sollen. |
 | Thousands | `2` | Gibt an, dass die Werte im Diagramm durch 1.000 geteilt werden sollen. |
 | TenThousands | `3` | Gibt an, dass die Werte im Diagramm durch 10.000 geteilt werden sollen. |
@@ -31,7 +31,7 @@ public enum DisplayUnitType
 | Trillions | `9` | Gibt an, dass die Werte im Diagramm durch 1.000.000.000 geteilt werden sollen. |
 | CustomValue | `10` | Gibt an, dass die Werte im Diagramm durch einen benutzerdefinierten Wert geteilt werden sollen. |
 
-### Siehe Auch
+### Siehe auch
 
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

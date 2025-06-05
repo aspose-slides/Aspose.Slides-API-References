@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/moderncomment/textselectionlength/
 ---
+
 ## ModernComment.TextSelectionLength property
 
 Gets or sets text selection length in text frame if the comment associated with AutoShape. Read/write Int32.

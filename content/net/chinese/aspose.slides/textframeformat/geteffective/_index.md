@@ -1,6 +1,6 @@
 ---
 title: GetEffective
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取应用继承的有效文本框格式数据。
 type: docs
 weight: 170
@@ -21,7 +21,7 @@ public ITextFrameFormatEffectiveData GetEffective()
 
 ### 示例
 
-此示例演示了如何获取一些有效的文本框格式属性。
+此示例演示获取一些有效文本框格式属性。
 
 ```csharp
 [C#]
@@ -37,7 +37,7 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
     Console.WriteLine("   左: " + effectiveTextFrameFormat.MarginLeft);
     Console.WriteLine("   上: " + effectiveTextFrameFormat.MarginTop);
     Console.WriteLine("   右: " + effectiveTextFrameFormat.MarginRight);
-    Console.WriteLine("   底部: " + effectiveTextFrameFormat.MarginBottom);
+    Console.WriteLine("   下: " + effectiveTextFrameFormat.MarginBottom);
 }
 ```
 

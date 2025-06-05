@@ -1,6 +1,6 @@
 ---
 title: OdpException
-second_title: Aspose.Sildes для справки по API .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Конструктор по умолчанию
 type: docs
 weight: 10

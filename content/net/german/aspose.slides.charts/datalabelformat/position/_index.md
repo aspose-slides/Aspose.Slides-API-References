@@ -1,7 +1,7 @@
 ---
 title: Position
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt die Position des Datenetiketts dar. Lese-/schreibbare LegendDataLabelPositionaspose.slides.charts/legenddatalabelposition.
+description: Stellt die Position des Datenetiketts dar. Lese-/Schreibzugriff auf LegendDataLabelPositionaspose.slides.charts/legenddatalabelposition.
 type: docs
 weight: 50
 url: /de/aspose.slides.charts/datalabelformat/position/
@@ -9,15 +9,15 @@ url: /de/aspose.slides.charts/datalabelformat/position/
 
 ## DataLabelFormat.Position-Eigenschaft
 
-Stellt die Position des Datenetiketts dar. Lese-/schreibbar [`LegendDataLabelPosition`](../../legenddatalabelposition).
+Stellt die Position des Datenetiketts dar. Lese-/Schreibzugriff auf [`LegendDataLabelPosition`](../../legenddatalabelposition).
 
 ```csharp
 public LegendDataLabelPosition Position { get; set; }
 ```
 
-### Bemerkungen
+### Hinweise
 
-Wenn der übergeordnete DataLabelFormat-Objekt eine DataLabelCollection-Sammlung von Datenetiketten ist, dann erhält oder setzt diese Eigenschaft den Standardwert der Position-Eigenschaft für die neuen Datenetiketten in der DataLabelCollection-Sammlung. Dient zur Darstellung der Position für die DataLabel-Objekte. Das Setzen dieser Eigenschaft mit einem Wert setzt auch diesen Wert in der Position-Eigenschaft für alle Datenetiketten in der DataLabelCollection-Sammlung (d.h. "DataLabels.DefaultDataLabelFormat.Position = val;" führt dazu, dass alle DataLabels[i].Position gleich val ist).
+Wenn das übergeordnete Objekt dieses DataLabelFormat-Objekts eine DataLabelCollection-Sammlung von Datenetiketten ist, dann ruft diese Eigenschaft den Standardwert der Position-Eigenschaft für die neuen Datenetiketten in der DataLabelCollection-Sammlung ab oder setzt ihn. Stellt die Position für die DataLabel-Objekte dar. Das Setzen dieser Eigenschaft mit einem Wert setzt auch diesen Wert für die Position-Eigenschaft aller Datenetiketten in der DataLabelCollection-Sammlung (d.h. "DataLabels.DefaultDataLabelFormat.Position = val;" bewirkt, dass alle DataLabels[i].Position gleich val ist).
 
 ### Siehe auch
 

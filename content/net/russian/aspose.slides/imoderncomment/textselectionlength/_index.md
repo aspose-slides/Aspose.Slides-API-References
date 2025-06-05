@@ -1,21 +1,21 @@
 ---
 title: TextSelectionLength
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает длину выделенного текста в текстовом фрейме, если комментарий связан с AutoShape. Чтение/запись Int32.
+second_title: Справочник API Aspose.Slides для .NET
+description: Возвращает или устанавливает длину выделения текста в текстовом фрейме, если комментарий связан с AutoShape. Читаемое/записываемое Int32.
 type: docs
 weight: 40
 url: /ru/aspose.slides/imoderncomment/textselectionlength/
 ---
 
-## Свойство IModernComment.TextSelectionLength
+## IModernComment.TextSelectionLength property
 
-Возвращает или устанавливает длину выделенного текста в текстовом фрейме, если комментарий связан с AutoShape. Чтение/запись Int32.
+Возвращает или устанавливает длину выделения текста в текстовом фрейме, если комментарий связан с AutoShape. Читаемое/записываемое Int32.
 
 ```csharp
 public int TextSelectionLength { get; set; }
 ```
 
-### Смотрите также
+### См. Также
 
 * интерфейс [IModernComment](../../imoderncomment)
 * пространство имен [Aspose.Slides](../../imoderncomment)

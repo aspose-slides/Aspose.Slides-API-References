@@ -6,6 +6,7 @@ type: docs
 weight: 190
 url: /aspose.slides.charts/chartseries/labels/
 ---
+
 ## ChartSeries.Labels property
 
 Returns the Labels of a series. Read-only [`IDataLabelCollection`](../../idatalabelcollection).

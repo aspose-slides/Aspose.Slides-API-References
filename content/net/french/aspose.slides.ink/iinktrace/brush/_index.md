@@ -1,7 +1,7 @@
 ---
-title: Pinceau
-second_title: Référence API Aspose.Slides pour .NET
-description: Obtient le Pinceau pour le IInkLine IInkBrushaspose.slides.ink/iinkbrush Lecture seule.
+title: Brush
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Obtient Brush pour le IInkLine IInkBrushaspose.slides.ink/iinkbrush en lecture seule.
 type: docs
 weight: 10
 url: /fr/aspose.slides.ink/iinktrace/brush/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.ink/iinktrace/brush/
 
 ## Propriété IInkTrace.Brush
 
-Obtient le Pinceau pour le IInkLine [`IInkBrush`](../../iinkbrush) Lecture seule.
+Obtient Brush pour le IInkLine [`IInkBrush`](../../iinkbrush) en lecture seule.
 
 ```csharp
 public IInkBrush Brush { get; }
@@ -17,7 +17,7 @@ public IInkBrush Brush { get; }
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

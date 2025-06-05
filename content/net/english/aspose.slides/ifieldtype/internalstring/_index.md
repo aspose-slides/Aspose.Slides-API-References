@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ifieldtype/internalstring/
 ---
+
 ## IFieldType.InternalString property
 
 Returns the internal name of this FieldTypeEx object. Read/write String.

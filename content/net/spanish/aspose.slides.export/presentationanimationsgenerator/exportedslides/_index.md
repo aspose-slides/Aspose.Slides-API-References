@@ -1,7 +1,7 @@
 ---
 title: ExportedSlides
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Obtenga el número de diapositivas exportadas.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Obtenga el número de la cantidad de diapositivas exportadas.
 type: docs
 weight: 30
 url: /es/aspose.slides.export/presentationanimationsgenerator/exportedslides/
@@ -9,16 +9,16 @@ url: /es/aspose.slides.export/presentationanimationsgenerator/exportedslides/
 
 ## Propiedad PresentationAnimationsGenerator.ExportedSlides
 
-Obtenga el número de diapositivas exportadas.
+Obtenga el número de la cantidad de diapositivas exportadas.
 
 ```csharp
 public int ExportedSlides { get; }
 ```
 
-### Vea También
+### Ver También
 
 * clase [PresentationAnimationsGenerator](../../presentationanimationsgenerator)
-* espacio de nombres [Aspose.Slides.Export](../../presentationanimationsgenerator)
-* ensamblaje [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Export](../../presentationanimationsgenerator)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

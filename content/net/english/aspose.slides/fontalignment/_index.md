@@ -3,9 +3,10 @@ title: FontAlignment
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents vertical font alignment.
 type: docs
-weight: 4480
+weight: 4610
 url: /aspose.slides/fontalignment/
 ---
+
 ## FontAlignment enumeration
 
 Represents vertical font alignment.

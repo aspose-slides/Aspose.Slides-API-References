@@ -1,7 +1,7 @@
 ---
 title: ImageDataCropBottom
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt die Eigenschaft imageData.cropBottom dar
+description: Stellt die imageData.cropBottom-Eigenschaft dar
 type: docs
 weight: 440
 url: /de/aspose.slides.animation/behaviorproperty/imagedatacropbottom/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.animation/behaviorproperty/imagedatacropbottom/
 
 ## BehaviorProperty.ImageDataCropBottom-Eigenschaft
 
-Stellt die Eigenschaft 'imageData.cropBottom' dar
+Stellt die 'imageData.cropBottom'-Eigenschaft dar
 
 ```csharp
 public static BehaviorProperty ImageDataCropBottom { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [BehaviorProperty](../../behaviorproperty)
 * Namespace [Aspose.Slides.Animation](../../behaviorproperty)

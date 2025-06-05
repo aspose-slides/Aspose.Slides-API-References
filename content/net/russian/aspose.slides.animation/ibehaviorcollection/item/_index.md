@@ -1,13 +1,13 @@
 ---
-title: Элемент
-second_title: Справочник по API Aspose.Sildes для .NET
+title: Item
+second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает поведение по указанному индексу.
 type: docs
 weight: 30
 url: /ru/aspose.slides.animation/ibehaviorcollection/item/
 ---
 
-## Индексатор IBehaviorCollection
+## IBehaviorCollection индексатор
 
 Возвращает поведение по указанному индексу.
 

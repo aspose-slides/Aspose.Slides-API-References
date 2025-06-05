@@ -1,7 +1,7 @@
 ---
-title: Égal
+title: Equals
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si l'InnerShadow spécifié aspose.slides.effects/innershadow est égal à l'InnerShadow actuel aspose.slides.effects/innershadow.
+description: Détermine si le InnerShadowaspose.slides.effects/innershadow spécifié est égal au InnerShadowaspose.slides.effects/innershadow actuel.
 type: docs
 weight: 50
 url: /fr/aspose.slides.effects/innershadow/equals/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/innershadow/equals/
 
 ## Méthode InnerShadow.Equals
 
-Détermine si l'[`InnerShadow`](../../innershadow) spécifié est égal à l'[`InnerShadow`](../../innershadow) actuel.
+Détermine si le [`InnerShadow`](../../innershadow) spécifié est égal au [`InnerShadow`](../../innershadow) actuel.
 
 ```csharp
 public override bool Equals(object obj)
@@ -17,7 +17,7 @@ public override bool Equals(object obj)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| obj | Object | L'[`InnerShadow`](../../innershadow) à comparer. |
+| obj | Object | Le [`InnerShadow`](../../innershadow) à comparer. |
 
 ### Valeur de retour
 

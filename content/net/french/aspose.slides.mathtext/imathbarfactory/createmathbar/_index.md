@@ -1,6 +1,6 @@
 ---
 title: CreateMathBar
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Créez une barre mathématique en l'appliquant à l'élément
 type: docs
 weight: 10
@@ -17,13 +17,13 @@ public IMathBar CreateMathBar(IMathElement element)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| element | IMathElement | élément mathématique auquel appliquer la barre |
+| element | IMathElement | élément mathématique à appliquer la barre |
 
-### Valeur retournée
+### Valeur de Retour
 
 nouvel élément de barre mathématique
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathBar](../../imathbar)
 * interface [IMathElement](../../imathelement)
@@ -43,14 +43,14 @@ public IMathBar CreateMathBar(IMathElement element, MathTopBotPositions position
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| element | IMathElement | Élément mathématique auquel appliquer la barre |
+| element | IMathElement | élément mathématique à appliquer la barre |
 | position | MathTopBotPositions | Position de la barre |
 
-### Valeur retournée
+### Valeur de Retour
 
 nouvel élément de barre mathématique
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathBar](../../imathbar)
 * interface [IMathElement](../../imathelement)

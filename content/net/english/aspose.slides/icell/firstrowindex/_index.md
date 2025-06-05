@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/icell/firstrowindex/
 ---
+
 ## ICell.FirstRowIndex property
 
 Returns an index of first row, covered by the cell. Read-only Int32.

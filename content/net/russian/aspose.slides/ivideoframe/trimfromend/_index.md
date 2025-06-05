@@ -1,13 +1,13 @@
 ---
 title: TrimFromEnd
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET Справочник по API
 description: Обрезать конец мс
 type: docs
 weight: 100
 url: /ru/aspose.slides/ivideoframe/trimfromend/
 ---
 
-## Свойство IVideoFrame.TrimFromEnd
+## IVideoFrame.TrimFromEnd свойство
 
 Обрезать конец [мс]
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ivideoframe/trimfromend/
 public float TrimFromEnd { get; set; }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IVideoFrame](../../ivideoframe)
 * пространство имен [Aspose.Slides](../../ivideoframe)

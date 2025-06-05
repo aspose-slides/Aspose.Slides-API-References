@@ -1,7 +1,7 @@
 ---
 title: BlurRadius
 second_title: Aspose.Slides für .NET API Referenz
-description: Unschärferadius. Lese-/Schreib-Doppel.
+description: Weichzeichnungsradius. Lese-/Schreibwert Double.
 type: docs
 weight: 30
 url: /de/aspose.slides.effects/iinnershadow/blurradius/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.effects/iinnershadow/blurradius/
 
 ## IInnerShadow.BlurRadius-Eigenschaft
 
-Unschärferadius. Lese-/Schreib-Doppel.
+Weichzeichnungsradius. Lese-/Schreibwert Double.
 
 ```csharp
 public double BlurRadius { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IInnerShadow](../../iinnershadow)
 * Namespace [Aspose.Slides.Effects](../../iinnershadow)

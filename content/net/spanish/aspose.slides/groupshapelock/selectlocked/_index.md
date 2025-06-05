@@ -1,6 +1,6 @@
 ---
 title: SelectLocked
-second_title: Aspose.Slides para .NET Referencia de API
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si se prohíbe seleccionar esta forma. Booleano de lectura/escritura.
 type: docs
 weight: 50
@@ -15,10 +15,10 @@ Determina si se prohíbe seleccionar esta forma. Booleano de lectura/escritura.
 public bool SelectLocked { get; set; }
 ```
 
-### Ver También
+### Véase también
 
-* clase [GroupShapeLock](../../groupshapelock)
-* espacio de nombres [Aspose.Slides](../../groupshapelock)
-* ensamblado [Aspose.Slides](../../../)
+* clase [GroupShapeLock](../../groupshapelock)
+* espacio de nombres [Aspose.Slides](../../groupshapelock)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

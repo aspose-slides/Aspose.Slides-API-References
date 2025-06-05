@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Sildes for .NET API Reference
-description: 移除集合中指定索引的元素。
+description: 移除集合中指定索引处的元素。
 type: docs
 weight: 110
 url: /zh/aspose.slides.mathtext/imathelementcollection/removeat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathelementcollection/removeat/
 
 ## IMathElementCollection.RemoveAt 方法
 
-移除集合中指定索引的元素。
+移除集合中指定索引处的元素。
 
 ```csharp
 public void RemoveAt(int index)
@@ -21,7 +21,7 @@ public void RemoveAt(int index)
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -32,7 +32,7 @@ collection.Insert(0, new MathRadical(new MathematicalText("x"), new Mathematical
 collection.RemoveAt(2);
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IMathElementCollection](../../imathelementcollection)
 * 命名空间 [Aspose.Slides.MathText](../../imathelementcollection)

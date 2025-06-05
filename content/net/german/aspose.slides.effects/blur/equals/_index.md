@@ -17,7 +17,7 @@ public override bool Equals(object obj)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| obj | Object | Der [`Blur`](../../blur), mit dem verglichen werden soll. |
+| obj | Object | Der [`Blur`](../../blur), der verglichen werden soll. |
 
 ### Rückgabewert
 

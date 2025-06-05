@@ -7,7 +7,7 @@ weight: 380
 url: /fr/aspose.slides/shapecollection/insertsummaryzoomframe/
 ---
 
-## Méthode ShapeCollection.InsertSummaryZoomFrame
+## ShapeCollection.InsertSummaryZoomFrame méthode
 
 Crée un nouvel objet Summary Zoom et l'insère dans une collection à l'index spécifié.
 
@@ -36,11 +36,11 @@ Objet Summary Zoom créé [`ISummaryZoomFrame`](../../isummaryzoomframe).
 
 ### Remarques
 
-Cette méthode crée un nouveau Summary Zoom et place une collection d'objets à l'intérieur pour toutes les sections de cette présentation.
+Cette méthode crée un nouveau Summary Zoom et y met une collection d'objets pour toutes les sections de cette présentation.
 
 ### Exemples
 
-Cet exemple démontre la création et l'insertion d'un objet Summary Zoom à l'index spécifié d'une collection (supposons qu'il y ait au moins deux sections dans la présentation "Presentation.pptx"):
+Cet exemple illustre la création et l'insertion d'un objet Summary Zoom à l'index spécifié d'une collection (supposez qu'il y a au moins deux sections dans la présentation "Presentation.pptx"):
 
 ```csharp
 [C#]
@@ -50,7 +50,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ISummaryZoomFrame](../../isummaryzoomframe)
 * class [ShapeCollection](../../shapecollection)

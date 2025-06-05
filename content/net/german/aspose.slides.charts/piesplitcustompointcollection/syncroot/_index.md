@@ -15,7 +15,7 @@ Gibt eine Synchronisierungswurzel zurück. Nur-Lese-Objekt.
 public object SyncRoot { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [PieSplitCustomPointCollection](../../piesplitcustompointcollection)
 * Namespace [Aspose.Slides.Charts](../../piesplitcustompointcollection)

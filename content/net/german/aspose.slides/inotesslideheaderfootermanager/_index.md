@@ -1,7 +1,7 @@
 ---
 title: INotesSlideHeaderFooterManager
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt den Manager dar, der das Verhalten der Platzhalter für Notizenfolien, einschließlich des Kopfzeilenplatzhalters, hält.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Repräsentiert den Manager, der das Verhalten der Platzhalter für Notizenfolien einschließlich des Kopfzeilenplatzhalters hält.
 type: docs
 weight: 6310
 url: /de/aspose.slides/inotesslideheaderfootermanager/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/inotesslideheaderfootermanager/
 
 ## INotesSlideHeaderFooterManager-Schnittstelle
 
-Stellt den Manager dar, der das Verhalten der Platzhalter für Notizenfolien, einschließlich des Kopfzeilenplatzhalters, hält.
+Repräsentiert den Manager, der das Verhalten der Platzhalter für Notizenfolien einschließlich des Kopfzeilenplatzhalters hält.
 
 ```csharp
 public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -21,7 +21,7 @@ public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFo
 | --- | --- |
 | [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/inotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Gibt die IBaseHandoutNotesSlideHeaderFooterManag-Schnittstelle zurück. |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
 * Namespace [Aspose.Slides](../../aspose.slides)

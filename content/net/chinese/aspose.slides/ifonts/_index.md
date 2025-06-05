@@ -1,6 +1,6 @@
 ---
 title: IFonts
-second_title: Aspose.Slide for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示字体集合。
 type: docs
 weight: 5700
@@ -19,11 +19,11 @@ public interface IFonts
 
 | 名称 | 描述 |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/ifonts/complexscriptfont) { get; set; } | 返回或设置复杂脚本字体。可读写 [`IFontData`](../ifontdata)。 |
+| [ComplexScriptFont](../../aspose.slides/ifonts/complexscriptfont) { get; set; } | 返回或设置复合脚本字体。可读写 [`IFontData`](../ifontdata)。 |
 | [EastAsianFont](../../aspose.slides/ifonts/eastasianfont) { get; set; } | 返回或设置东亚字体。可读写 [`IFontData`](../ifontdata)。 |
 | [LatinFont](../../aspose.slides/ifonts/latinfont) { get; set; } | 返回或设置拉丁字体。可读写 [`IFontData`](../ifontdata)。 |
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

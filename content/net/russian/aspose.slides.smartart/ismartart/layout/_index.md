@@ -1,13 +1,13 @@
 ---
-title: Макет
-second_title: Справочник API Aspose.Slides для .NET
+title: Layout
+second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает или устанавливает макет объекта SmartArt. Чтение/запись SmartArtLayoutTypeaspose.slides.smartart/smartartlayouttype.
 type: docs
 weight: 50
 url: /ru/aspose.slides.smartart/ismartart/layout/
 ---
 
-## Свойство ISmartArt.Layout
+## ISmartArt.Layout property
 
 Возвращает или устанавливает макет объекта SmartArt. Чтение/запись [`SmartArtLayoutType`](../../smartartlayouttype).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.smartart/ismartart/layout/
 public SmartArtLayoutType Layout { get; set; }
 ```
 
-### См. также
+### See Also
 
 * enum [SmartArtLayoutType](../../smartartlayouttype)
 * interface [ISmartArt](../../ismartart)

@@ -1,7 +1,7 @@
 ---
 title: CropRight
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie le nombre de pourcents de la largeur réelle de l'image qui sont coupés à droite de l'image. Propriété de type Single en lecture seule.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie le nombre de pourcents de la largeur réelle de l'image qui sont rognés à droite de l'image. Lecture seule Single.
 type: docs
 weight: 40
 url: /fr/aspose.slides/ipicturefillformateffectivedata/cropright/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ipicturefillformateffectivedata/cropright/
 
 ## Propriété IPictureFillFormatEffectiveData.CropRight
 
-Renvoie le nombre de pourcents de la largeur réelle de l'image qui sont coupés à droite de l'image. Propriété de type Single en lecture seule.
+Renvoie le nombre de pourcents de la largeur réelle de l'image qui sont rognés à droite de l'image. Lecture seule Single.
 
 ```csharp
 public float CropRight { get; }

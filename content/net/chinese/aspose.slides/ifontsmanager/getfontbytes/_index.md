@@ -1,6 +1,6 @@
 ---
 title: GetFontBytes
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 检索表示指定字体样式和字体数据的字节数组。
 type: docs
 weight: 50
@@ -15,10 +15,10 @@ url: /zh/aspose.slides/ifontsmanager/getfontbytes/
 public byte[] GetFontBytes(IFontData fontData, FontStyle fontStyle)
 ```
 
-| 参数       | 类型       | 描述                                               |
-| ---------- | ---------- | -------------------------------------------------- |
-| fontData   | IFontData  | 包含关于字体信息的字体数据对象 [`IFontData`](../../ifontdata)。 |
-| fontStyle  | FontStyle  | 要检索数据的字体样式 FontStyle。                   |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| fontData | IFontData | 包含关于字体信息的字体数据对象 [`IFontData`](../../ifontdata)。 |
+| fontStyle | FontStyle | 要检索数据的字体样式 FontStyle。 |
 
 ### 返回值
 
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation ("Presentation.pptx"))
 }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IFontData](../../ifontdata)
 * 接口 [IFontsManager](../../ifontsmanager)

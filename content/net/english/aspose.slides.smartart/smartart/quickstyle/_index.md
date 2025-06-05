@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.smartart/smartart/quickstyle/
 ---
+
 ## SmartArt.QuickStyle property
 
 Returns or sets quick style of SmartArt object. Read/write [`SmartArtQuickStyleType`](../../smartartquickstyletype).

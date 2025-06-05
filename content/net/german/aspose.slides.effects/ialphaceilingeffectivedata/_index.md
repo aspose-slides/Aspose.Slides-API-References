@@ -1,15 +1,15 @@
 ---
 title: IAlphaCeilingEffectiveData
-second_title: Aspose.Slides für .NET API Referenz
-description: Unveränderliches Objekt, das einen Alpha Ceiling Effekt repräsentiert. Alpha-Opazitätswerte größer als Null werden auf 100 geändert. Mit anderen Worten, alles, was teilweise opak ist, wird vollständig opak.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Unveränderliches Objekt, das einen Alpha Ceiling-Effekt darstellt. Alpha-Transparenzwerte größer als null werden auf 100 geändert. Mit anderen Worten wird alles, was teilweise opak ist, vollständig opak.
 type: docs
 weight: 2950
 url: /de/aspose.slides.effects/ialphaceilingeffectivedata/
 ---
 
-## IAlphaCeilingEffectiveData-Interface
+## IAlphaCeilingEffectiveData-Schnittstelle
 
-Unveränderliches Objekt, das einen Alpha Ceiling Effekt repräsentiert. Alpha (Opazität) Werte größer als Null werden auf 100% geändert. Mit anderen Worten, alles, was teilweise opak ist, wird vollständig opak.
+Unveränderliches Objekt, das einen Alpha Ceiling-Effekt darstellt. Alpha- (Transparenz-)Werte größer als null werden auf 100 % geändert. Mit anderen Worten, alles, was teilweise opak ist, wird vollständig opak.
 
 ```csharp
 public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
@@ -19,11 +19,11 @@ public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | Ermöglicht den Zugriff auf das basale IEffectEffectiveData-Interface. Nur lesbar [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | Ermöglicht den Zugriff auf die Basis-IEffectEffectiveData-Schnittstelle. Nur lesbar [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Siehe auch
 
-* Interface [IEffectEffectiveData](../ieffecteffectivedata)
+* Schnittstelle [IEffectEffectiveData](../ieffecteffectivedata)
 * Namespace [Aspose.Slides.Effects](../../aspose.slides.effects)
 * Assembly [Aspose.Slides](../../)
 

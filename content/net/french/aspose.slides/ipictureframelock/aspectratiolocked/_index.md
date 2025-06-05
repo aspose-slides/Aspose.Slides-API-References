@@ -1,7 +1,7 @@
 ---
 title: AspectRatioLocked
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si une forme doit préserver le rapport d'aspect lors du redimensionnement. Booléen lecture/écriture.
+description: Détermine si une forme doit préserver le rapport d'aspect lors du redimensionnement. Booléen en lecture/écriture.
 type: docs
 weight: 40
 url: /fr/aspose.slides/ipictureframelock/aspectratiolocked/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ipictureframelock/aspectratiolocked/
 
 ## Propriété IPictureFrameLock.AspectRatioLocked
 
-Détermine si une forme doit préserver le rapport d'aspect lors du redimensionnement. Booléen lecture/écriture.
+Détermine si une forme doit préserver le rapport d'aspect lors du redimensionnement. Booléen en lecture/écriture.
 
 ```csharp
 public bool AspectRatioLocked { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IPictureFrameLock](../../ipictureframelock)
 * namespace [Aspose.Slides](../../ipictureframelock)

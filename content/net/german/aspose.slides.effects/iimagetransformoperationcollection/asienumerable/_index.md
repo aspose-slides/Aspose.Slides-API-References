@@ -1,21 +1,21 @@
 ---
 title: AsIEnumerable
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das IEnumerable-Interface zurück. Nur lesbares IEnumerable.
+description: Gibt das IEnumerable-Interface zurück. Nur-Lese IEnumerable.
 type: docs
 weight: 10
 url: /de/aspose.slides.effects/iimagetransformoperationcollection/asienumerable/
 ---
 
-## IImageTransformOperationCollection.AsIEnumerable Eigenschaft
+## IImageTransformOperationCollection.AsIEnumerable-Eigenschaft
 
-Gibt das IEnumerable-Interface zurück. Nur lesbares IEnumerable.
+Gibt das IEnumerable-Interface zurück. Nur-Lese IEnumerable.
 
 ```csharp
 public IEnumerable AsIEnumerable { get; }
 ```
 
-### Bemerkungen
+### Hinweise
 
 Für die COM-Kompatibilität.
 

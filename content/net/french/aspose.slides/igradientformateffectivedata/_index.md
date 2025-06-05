@@ -1,7 +1,7 @@
 ---
 title: IGradientFormatEffectiveData
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Objet immuable qui contient les propriétés de remplissage en dégradé effectives.
+second_title: Aspose.Slides pour .NET Référence API
+description: Objet immuable contenant les propriétés de remplissage de dégradé effectives.
 type: docs
 weight: 5810
 url: /fr/aspose.slides/igradientformateffectivedata/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/igradientformateffectivedata/
 
 ## Interface IGradientFormatEffectiveData
 
-Objet immuable qui contient les propriétés de remplissage en dégradé effectives.
+Objet immuable contenant les propriétés de remplissage de dégradé effectives.
 
 ```csharp
 public interface IGradientFormatEffectiveData : IFillParamSource
@@ -19,13 +19,13 @@ public interface IGradientFormatEffectiveData : IFillParamSource
 
 | Nom | Description |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/igradientformateffectivedata/asifillparamsource) { get; } | Permet d'obtenir l'interface de base IFillParamSource. En lecture seule [`IFillParamSource`](../ifillparamsource). |
-| [GradientDirection](../../aspose.slides/igradientformateffectivedata/gradientdirection) { get; } | Retourne le style d'un dégradé. En lecture seule [`GradientDirection`](../gradientdirection). |
-| [GradientShape](../../aspose.slides/igradientformateffectivedata/gradientshape) { get; } | Retourne la forme d'un dégradé. En lecture seule [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/igradientformateffectivedata/gradientstops) { get; } | Retourne la collection des arrêts de dégradé. En lecture seule [`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata). |
-| [LinearGradientAngle](../../aspose.slides/igradientformateffectivedata/lineargradientangle) { get; } | Retourne l'angle d'un dégradé. En lecture seule Single. |
-| [LinearGradientScaled](../../aspose.slides/igradientformateffectivedata/lineargradientscaled) { get; } | Détermine si un dégradé est mis à l'échelle. En lecture seule Boolean. |
-| [TileFlip](../../aspose.slides/igradientformateffectivedata/tileflip) { get; } | Retourne le mode de retournement pour un dégradé. En lecture seule [`TileFlip`](../tileflip). |
+| [AsIFillParamSource](../../aspose.slides/igradientformateffectivedata/asifillparamsource) { get; } | Permet d'obtenir l'interface de base IFillParamSource. Lecture seule [`IFillParamSource`](../ifillparamsource). |
+| [GradientDirection](../../aspose.slides/igradientformateffectivedata/gradientdirection) { get; } | Renvoie le style d'un dégradé. Lecture seule [`GradientDirection`](../gradientdirection). |
+| [GradientShape](../../aspose.slides/igradientformateffectivedata/gradientshape) { get; } | Renvoie la forme d'un dégradé. Lecture seule [`GradientShape`](../gradientshape). |
+| [GradientStops](../../aspose.slides/igradientformateffectivedata/gradientstops) { get; } | Renvoie la collection d'arrêts de dégradé. Lecture seule [`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata). |
+| [LinearGradientAngle](../../aspose.slides/igradientformateffectivedata/lineargradientangle) { get; } | Renvoie l'angle d'un dégradé. Lecture seule Single. |
+| [LinearGradientScaled](../../aspose.slides/igradientformateffectivedata/lineargradientscaled) { get; } | Détermine si un dégradé est mis à l'échelle. Lecture seule Boolean. |
+| [TileFlip](../../aspose.slides/igradientformateffectivedata/tileflip) { get; } | Renvoie le mode de retournement pour un dégradé. Lecture seule [`TileFlip`](../tileflip). |
 
 ### Remarques
 

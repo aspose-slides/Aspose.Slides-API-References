@@ -1,7 +1,7 @@
 ---
 title: HideAtShowing
-second_title: Aspose.Slides for .NET API参考
-description: 确定 VideoFrame 是否隐藏。可读/写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定 VideoFrame 是否被隐藏。可读写布尔值。
 type: docs
 weight: 50
 url: /zh/aspose.slides/ivideoframe/hideatshowing/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ivideoframe/hideatshowing/
 
 ## IVideoFrame.HideAtShowing 属性
 
-确定 VideoFrame 是否隐藏。可读/写布尔值。
+确定 VideoFrame 是否被隐藏。可读写布尔值。
 
 ```csharp
 public bool HideAtShowing { get; set; }

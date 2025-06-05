@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.theme/iformatschemeeffectivedata/getfillstyles/
 ---
+
 ## IFormatSchemeEffectiveData.GetFillStyles method
 
 Returns a collection of theme defined fill styles.

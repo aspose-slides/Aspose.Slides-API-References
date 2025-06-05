@@ -1,7 +1,7 @@
 ---
 title: SetDateTimeAndChildDateTimesText
-second_title: Aspose.Slides для .NET Справочник API
-description: Устанавливает текст для заполнителя даты и времени главного слайда и всех дочерних заполнителей даты и времени. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах макета и зависимых слайдах. Зависимые слайды макета и слайды используют и зависят от главного слайда.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Устанавливает текст для заполнителя даты и времени основной слайд и для всех дочерних заполнителей даты и времени. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах макета и зависимых слайдах. Зависимые слайды макетов и слайды используют и зависят от основного слайда.
 type: docs
 weight: 10
 url: /ru/aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimestext/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetim
 
 ## MasterSlideHeaderFooterManager.SetDateTimeAndChildDateTimesText метод
 
-Устанавливает текст для заполнителя даты и времени главного слайда и всех дочерних заполнителей даты и времени. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах макета и зависимых слайдах. Зависимые слайды макета и слайды используют и зависят от главного слайда.
+Устанавливает текст для заполнителя даты и времени основной слайды и для всех дочерних заполнителей даты и времени. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах макета и зависимых слайдах. Зависимые слайды макетов и слайды используют и зависят от основного слайда.
 
 ```csharp
 public void SetDateTimeAndChildDateTimesText(string text)
@@ -19,7 +19,7 @@ public void SetDateTimeAndChildDateTimesText(string text)
 | --- | --- | --- |
 | text | String | Текст для установки. |
 
-### См. Также
+### Смотрите также
 
 * класс [MasterSlideHeaderFooterManager](../../masterslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../masterslideheaderfootermanager)

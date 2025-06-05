@@ -1,21 +1,21 @@
 ---
-title: AgregarFuenteEmpotrada
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Agrega la fuente empotrada Tenga en cuenta al copiar cualquier fuente que la mayoría de las fuentes están protegidas por derechos de autor. Primero localice la licencia de una fuente de antemano y verifique que se puedan transferir libremente a otra máquina. Se puede lanzar una ArgumentException si los datos de la fuente son nulos o si esta fuente ya está empotrada
+title: AddEmbeddedFont
+second_title: Aspose.Sildes para .NET API Reference
+description: Agrega la fuente incrustada. Ten en cuenta al copiar cualquier fuente que la mayoría de las fuentes están protegidas por derechos de autor. Primero localiza la licencia de una fuente de antemano y verifica que se puedan transferir libremente a otra máquina. Se puede lanzar una ArgumentException si los datos de la fuente son nulos o si esta fuente ya está incrustada.
 type: docs
 weight: 30
 url: /es/aspose.slides/fontsmanager/addembeddedfont/
 ---
 
-## AgregarFuenteEmpotrada(IFontData, EmbedFontCharacters) {#addembeddedfont}
+## AddEmbeddedFont(IFontData, EmbedFontCharacters) {#addembeddedfont}
 
-Agrega la fuente empotrada Tenga en cuenta al copiar cualquier fuente que la mayoría de las fuentes están protegidas por derechos de autor. Primero localice la licencia de una fuente de antemano y verifique que se puedan transferir libremente a otra máquina. Se puede lanzar una ArgumentException si los datos de la fuente son nulos o si esta fuente ya está empotrada
+Agrega la fuente incrustada. Ten en cuenta al copiar cualquier fuente que la mayoría de las fuentes están protegidas por derechos de autor. Primero localiza la licencia de una fuente de antemano y verifica que se puedan transferir libremente a otra máquina. Se puede lanzar una ArgumentException si los datos de la fuente son nulos o si esta fuente ya está incrustada.
 
 ```csharp
 public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRule)
 ```
 
-### Ver También
+### See Also
 
 * interface [IFontData](../../ifontdata)
 * enum [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters)
@@ -25,15 +25,15 @@ public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRul
 
 ---
 
-## AgregarFuenteEmpotrada(byte[], EmbedFontCharacters) {#addembeddedfont_1}
+## AddEmbeddedFont(byte[], EmbedFontCharacters) {#addembeddedfont_1}
 
-Agrega la fuente empotrada Tenga en cuenta al copiar cualquier fuente que la mayoría de las fuentes están protegidas por derechos de autor. Primero localice la licencia de una fuente de antemano y verifique que se puedan transferir libremente a otra máquina. Se puede lanzar una ArgumentException si los datos de la fuente son nulos o si esta fuente ya está empotrada
+Agrega la fuente incrustada. Ten en cuenta al copiar cualquier fuente que la mayoría de las fuentes están protegidas por derechos de autor. Primero localiza la licencia de una fuente de antemano y verifica que se puedan transferir libremente a otra máquina. Se puede lanzar una ArgumentException si los datos de la fuente son nulos o si esta fuente ya está incrustada.
 
 ```csharp
 public void AddEmbeddedFont(byte[] fontData, EmbedFontCharacters embedFontRule)
 ```
 
-### Ver También
+### See Also
 
 * enum [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters)
 * class [FontsManager](../../fontsmanager)

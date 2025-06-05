@@ -3,9 +3,10 @@ title: Timing
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents animation timing.
 type: docs
-weight: 750
+weight: 760
 url: /aspose.slides.animation/timing/
 ---
+
 ## Timing class
 
 Represents animation timing.

@@ -1,6 +1,6 @@
 ---
-title: 获取背景填充样式
-second_title: Aspose.Slides for .NET API 参考
+title: GetBackgroundFillStyles
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回主题定义的背景填充样式集合。
 type: docs
 weight: 10
@@ -17,13 +17,13 @@ public IFillFormatCollectionEffectiveData GetBackgroundFillStyles(Color styleCol
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| styleColor | Color | 颜色对象 |
+| styleColor | Color | 颜色 |
 
 ### 返回值
 
-有效背景填充格式的集合 [`IFillFormatCollectionEffectiveData`](../../ifillformatcollectioneffectivedata)
+有效的背景填充格式集合 [`IFillFormatCollectionEffectiveData`](../../ifillformatcollectioneffectivedata)
 
-### 另见
+### 另请参阅
 
 * 接口 [IFillFormatCollectionEffectiveData](../../ifillformatcollectioneffectivedata)
 * 接口 [IFormatSchemeEffectiveData](../../iformatschemeeffectivedata)

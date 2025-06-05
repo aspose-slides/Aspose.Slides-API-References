@@ -19,7 +19,7 @@ public class WebDocumentOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [WebDocumentOptions](webdocumentoptions)() | El constructor por defecto. |
+| [WebDocumentOptions](webdocumentoptions)() | El constructor predeterminado. |
 
 ## Propiedades
 
@@ -28,8 +28,8 @@ public class WebDocumentOptions
 | [AnimateShapes](../../aspose.slides.export.web/webdocumentoptions/animateshapes) { get; set; } | Devuelve o establece la opción de animación de formas. Booleano de lectura/escritura. |
 | [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | Devuelve o establece la opción de animación de transiciones. Booleano de lectura/escritura. |
 | [EmbedImages](../../aspose.slides.export.web/webdocumentoptions/embedimages) { get; set; } | Devuelve o establece la opción de incrustación de imágenes. Booleano de lectura/escritura. |
-| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | Devuelve o establece el guardador de salida. Lectura/escritura [`IOutputSaver`](../ioutputsaver). |
-| [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | Devuelve o establece el motor de plantillas. Lectura/escritura [`ITemplateEngine`](../itemplateengine). |
+| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | Devuelve o establece el guardador de salida. Lectura/escritura de [`IOutputSaver`](../ioutputsaver). |
+| [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | Devuelve o establece el motor de plantillas. Lectura/escritura de [`ITemplateEngine`](../itemplateengine). |
 
 ### Ver También
 

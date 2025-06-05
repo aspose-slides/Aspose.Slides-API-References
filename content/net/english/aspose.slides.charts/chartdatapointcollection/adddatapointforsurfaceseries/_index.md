@@ -6,6 +6,7 @@ type: docs
 weight: 240
 url: /aspose.slides.charts/chartdatapointcollection/adddatapointforsurfaceseries/
 ---
+
 ## AddDataPointForSurfaceSeries(IChartDataCell) {#adddatapointforsurfaceseries}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Surface subtypes (see also [`IsChartTypeSurface`](../../charttypecharacterizer/ischarttypesurface) method).

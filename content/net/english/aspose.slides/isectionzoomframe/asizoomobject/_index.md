@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/isectionzoomframe/asizoomobject/
 ---
+
 ## ISectionZoomFrame.AsIZoomObject property
 
 Returns IZoomObject interface.

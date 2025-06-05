@@ -7,7 +7,7 @@ weight: 170
 url: /fr/aspose.slides/picturefillformat/tilescaley/
 ---
 
-## Propriété PictureFillFormat.TileScaleY
+## PictureFillFormat.TileScaleY propriété
 
 Renvoie ou définit l'échelle verticale pour le remplissage de texture en pourcentage. Lecture/écriture Single.
 
@@ -26,7 +26,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
     // Obtient le format de remplissage d'image de la forme
     IPictureFillFormat pictureFillFormat = slide.Shapes[0].FillFormat.PictureFillFormat;
 
-    // Définit le mode de remplissage d'image sur Tuille
+    // Définit le mode de remplissage d'image sur Tiling
     pictureFillFormat.PictureFillMode = PictureFillMode.Tile;
 
     // Définit l'échelle verticale pour la texture à 120 pourcents

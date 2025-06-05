@@ -1,15 +1,15 @@
 ---
-title: Schreiben
-second_title: Aspose.Slides für .NET API-Referenz
-description: Schreibt eine Bytefolge in den aktuellen Stream und verschiebt die aktuelle Position innerhalb dieses Streams um die Anzahl der geschriebenen Bytes.
+title: Write
+second_title: Aspose.Sildes für .NET API Referenz
+description: Schreibt eine Folge von Bytes in den aktuellen Stream und verschiebt die aktuelle Position innerhalb dieses Streams um die Anzahl der geschriebenen Bytes.
 type: docs
 weight: 130
 url: /de/aspose.slides/istreamwrapper/write/
 ---
 
-## IStreamWrapper.Write-Methode
+## IStreamWrapper.Write Methode
 
-Schreibt eine Bytefolge in den aktuellen Stream und verschiebt die aktuelle Position innerhalb dieses Streams um die Anzahl der geschriebenen Bytes.
+Schreibt eine Folge von Bytes in den aktuellen Stream und verschiebt die aktuelle Position innerhalb dieses Streams um die Anzahl der geschriebenen Bytes.
 
 ```csharp
 public void Write(byte[] buffer, int offset, int count)
@@ -18,12 +18,12 @@ public void Write(byte[] buffer, int offset, int count)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | buffer | Byte[] | Ein Array von Bytes Byte[] |
-| offset | Int32 | Der nullbasierte Byteoffset im Buffer, ab dem Bytes in den aktuellen Stream kopiert werden, Int32 |
-| count | Int32 | Die Anzahl der Bytes, die in den aktuellen Stream geschrieben werden sollen, Int32 |
+| offset | Int32 | Der nullbasierte Byte-Offset im Buffer, an dem begonnen wird, Bytes in den aktuellen Stream zu kopieren Int32 |
+| count | Int32 | Die Anzahl der Bytes, die in den aktuellen Stream geschrieben werden sollen Int32 |
 
-### Siehe auch
+### Siehe Auch
 
-* Schnittstelle [IStreamWrapper](../../istreamwrapper)
+* Interface [IStreamWrapper](../../istreamwrapper)
 * Namespace [Aspose.Slides](../../istreamwrapper)
 * Assembly [Aspose.Slides](../../../)
 

@@ -1,7 +1,7 @@
 ---
 title: MajorUnitScale
-second_title: Aspose.Slides for .NET API Reference
-description: 表示日期轴的主要单位刻度。读写 TimeUnitTypeaspose.slides/timeunittype。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示日期轴的主要单位刻度。可读/写 TimeUnitTypeaspose.slides.charts/timeunittype。
 type: docs
 weight: 370
 url: /zh/aspose.slides.charts/axis/majorunitscale/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/axis/majorunitscale/
 
 ## Axis.MajorUnitScale 属性
 
-表示日期轴的主要单位刻度。读写 [`TimeUnitType`](../../timeunittype)。
+表示日期轴的主要单位刻度。可读/写 [`TimeUnitType`](../../timeunittype)。
 
 ```csharp
 public TimeUnitType MajorUnitScale { get; set; }
 ```
 
-### 另见
+### 参见
 
 * 枚举 [TimeUnitType](../../timeunittype)
 * 类 [Axis](../../axis)

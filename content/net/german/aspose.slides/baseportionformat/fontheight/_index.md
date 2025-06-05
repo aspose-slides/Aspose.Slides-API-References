@@ -1,7 +1,7 @@
 ---
-title: SchriftHöhe
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Schriftgröße eines Portions zurück oder setzt sie. float.NaN bedeutet, dass die Höhe undefiniert ist und vom Master geerbt werden sollte. Lese-/Schreibzugriff Einzelwert.
+title: FontHeight
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Schriftgröße eines Abschnitts zurück oder legt sie fest. **float.NaN** bedeutet, dass die Größe undefiniert ist und vom Master geerbt werden sollte. Lese-/Schreibzugriff auf Single.
 type: docs
 weight: 80
 url: /de/aspose.slides/baseportionformat/fontheight/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/baseportionformat/fontheight/
 
 ## BasePortionFormat.FontHeight-Eigenschaft
 
-Gibt die Schriftgröße eines Portions zurück oder setzt sie. **float.NaN** bedeutet, dass die Höhe undefiniert ist und vom Master geerbt werden sollte. Lese-/Schreibzugriff Einzelwert.
+Gibt die Schriftgröße eines Abschnitts zurück oder legt sie fest. **float.NaN** bedeutet, dass die Größe undefiniert ist und vom Master geerbt werden sollte. Lese-/Schreibzugriff auf Single.
 
 ```csharp
 public float FontHeight { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [BasePortionFormat](../../baseportionformat)
 * Namespace [Aspose.Slides](../../baseportionformat)

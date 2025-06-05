@@ -1,7 +1,7 @@
 ---
-title: 添加评论
-second_title: Aspose.Slides for .NET API 参考
-description: 在集合末尾添加新评论。
+title: AddComment
+second_title: Aspose.Sildes for .NET API Reference
+description: 在集合的末尾添加新评论。
 type: docs
 weight: 50
 url: /zh/aspose.slides/commentcollection/addcomment/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/commentcollection/addcomment/
 
 ## CommentCollection.AddComment 方法
 
-在集合末尾添加新评论。
+在集合的末尾添加新评论。
 
 ```csharp
 public IComment AddComment(string text, ISlide slide, PointF position, DateTime creationTime)
@@ -26,7 +26,7 @@ public IComment AddComment(string text, ISlide slide, PointF position, DateTime 
 
 添加的评论。
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IComment](../../icomment)
 * 接口 [ISlide](../../islide)

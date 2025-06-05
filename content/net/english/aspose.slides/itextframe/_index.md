@@ -3,9 +3,10 @@ title: ITextFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a TextFrame.
 type: docs
-weight: 6820
+weight: 7050
 url: /aspose.slides/itextframe/
 ---
+
 ## ITextFrame interface
 
 Represents a TextFrame.
@@ -21,6 +22,8 @@ public interface ITextFrame : ISlideComponent
 | [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | Allows to get base ISlideComponent interface. Read-only [`ISlideComponent`](../islidecomponent). |
 | [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | Provides easy access to contained hyperlinks. Read-only [`IHyperlinkQueries`](../ihyperlinkqueries). |
 | [Paragraphs](../../aspose.slides/itextframe/paragraphs) { get; } | Returns the list of all paragraphs in a frame. Read-only [`IParagraphCollection`](../iparagraphcollection). |
+| [ParentCell](../../aspose.slides/itextframe/parentcell) { get; } | Returns the parent cell or null if the parent object does not implement the ICell interface. Read-only [`ICell`](../icell). |
+| [ParentShape](../../aspose.slides/itextframe/parentshape) { get; } | Returns the parent shape or null if the parent object does not implement the IShape interface Read-only [`IShape`](../ishape). |
 | [Text](../../aspose.slides/itextframe/text) { get; set; } | Gets or sets the plain text for a TextFrame. Read/write String. |
 | [TextFrameFormat](../../aspose.slides/itextframe/textframeformat) { get; } | Returns the formatting object for this TextFrame object. Read-only [`ITextFrameFormat`](../itextframeformat). |
 
@@ -28,10 +31,13 @@ public interface ITextFrame : ISlideComponent
 
 | Name | Description |
 | --- | --- |
-| [HighlightRegex](../../aspose.slides/itextframe/highlightregex)(string, Color, ITextHighlightingOptions) | Highlight all matches of regular expression in text frame text using specified color. |
-| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | Highlight all matches of sample in text frame text using specified color. |
-| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_1)(string, Color, ITextHighlightingOptions) | Highlight all matches of sample in text frame text using specified color. |
+| [HighlightRegex](../../aspose.slides/itextframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | Highlights all matches of the regular expression with the specified color. |
+| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | Highlights all matches of the sample text with the specified color. |
+| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | Highlights all matches of the sample text with the specified color. |
 | [JoinPortionsWithSameFormatting](../../aspose.slides/itextframe/joinportionswithsameformatting)() | Joins runs with same formatting in all paragraphs. |
+| [ReplaceRegex](../../aspose.slides/itextframe/replaceregex)(Regex, string, IFindResultCallback) | Replaces all matches of the regular expression with the specified string. |
+| [ReplaceText](../../aspose.slides/itextframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Replaces all occurrences of the specified text with another specified text. |
+| [SplitTextByColumns](../../aspose.slides/itextframe/splittextbycolumns)() | Splits the text content of the [`ITextFrame`](../itextframe) into an array of strings, where each element corresponds to a separate text column within the frame. |
 
 ### See Also
 

@@ -1,7 +1,7 @@
 ---
-title: Steuerung
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt eine ActiveX-Steuerung dar.
+title: Control
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt ein ActiveX-Steuerelement dar.
 type: docs
 weight: 2600
 url: /de/aspose.slides/control/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/control/
 
 ## Control-Klasse
 
-Stellt eine ActiveX-Steuerung dar.
+Stellt ein ActiveX-Steuerelement dar.
 
 ```csharp
 public class Control : DomObject<ControlCollection>, IControl
@@ -19,15 +19,15 @@ public class Control : DomObject<ControlCollection>, IControl
 
 | Name | Beschreibung |
 | --- | --- |
-| [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | Gibt die Persistenz einer ActiveX-Steuerung an, wenn die verwendete Methode entweder PersistStream, PersistStreamInit oder PersistStorage ist. |
-| [ClassId](../../aspose.slides/control/classid) { get; set; } | Gibt die Klassen-ID dieser Steuerung zurück. Nur-Lesen Guid. |
-| [Frame](../../aspose.slides/control/frame) { get; set; } | Gibt den Rahmen der Steuerung zurück oder setzt ihn. Lese-/Schreibzugriff [`IShapeFrame`](../ishapeframe). |
-| [Name](../../aspose.slides/control/name) { get; set; } | Gibt den Namen dieser Steuerung zurück oder setzt ihn. Lese-/Schreibzugriff String. |
-| [Persistence](../../aspose.slides/control/persistence) { get; } | Gibt die Methode zurück, die verwendet wird, um die Eigenschaften der ActiveX-Steuerung zu speichern. Nur-Lesen [`PersistenceType`](../persistencetype). |
-| [Properties](../../aspose.slides/control/properties) { get; } | Gibt eine Sammlung von ActiveX-Eigenschaften zurück. Hinweis: Aspose.Slides unterstützt nur XML-basierte ActiveX-Eigenschaften. Wenn Eigenschaften im Binärformat gespeichert sind, gibt diese Eigenschaft null zurück. Nur-Lesen [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
-| [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | Gibt das Objekt der Bildfüllungseigenschaften der Steuerung zurück. Nur-Lesen [`IPictureFillFormat`](../ipicturefillformat). |
+| [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | Gibt die Persistenz eines ActiveX-Steuerelements an, wenn die verwendete Methode zur Persistierung entweder PersistStream, PersistStreamInit oder PersistStorage ist. |
+| [ClassId](../../aspose.slides/control/classid) { get; set; } | Gibt die Klassen-ID dieses Steuerelements zurück. Nur lesender Guid. |
+| [Frame](../../aspose.slides/control/frame) { get; set; } | Gibt den Rahmen des Steuerelements zurück oder setzt ihn. Lesen/Schreiben [`IShapeFrame`](../ishapeframe). |
+| [Name](../../aspose.slides/control/name) { get; set; } | Gibt den Namen dieses Steuerelements zurück oder setzt ihn. Lesen/Schreiben String. |
+| [Persistence](../../aspose.slides/control/persistence) { get; } | Gibt die Methode zurück, die verwendet wird, um die Eigenschaften des ActiveX-Steuerelements zu speichern. Nur lesend [`PersistenceType`](../persistencetype). |
+| [Properties](../../aspose.slides/control/properties) { get; } | Gibt eine Sammlung von ActiveX-Eigenschaften zurück. Hinweis: Aspose.Slides unterstützt nur XML-basierte ActiveX-Eigenschaften. Wenn Eigenschaften im binären Format gespeichert sind, gibt diese Eigenschaft null zurück. Nur lesend [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
+| [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | Gibt ein Objekt mit den Füllungseigenschaften des Steuerelementbildes zurück. Nur lesend [`IPictureFillFormat`](../ipicturefillformat). |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [DomObject&lt;TParent&gt;](../domobject-1)
 * Klasse [ControlCollection](../controlcollection)

@@ -1,13 +1,13 @@
 ---
 title: IsHardUnderlineLine
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si le style de soulignement a ses propres propriétés LineFormat ou les hérite des propriétés LineFormat du texte. Lecture/écriture NullableBoolaspose.slides/nullablebool.
+description: Détermine si le style de soulignement a ses propres propriétés LineFormat ou les hérite des propriétés LineFormat du texte. Lecture/écriture NullableBool aspose.slides/nullablebool.
 type: docs
 weight: 130
 url: /fr/aspose.slides/ibaseportionformat/ishardunderlineline/
 ---
 
-## Propriété IBasePortionFormat.IsHardUnderlineLine
+## IBasePortionFormat.IsHardUnderlineLine propriété
 
 Détermine si le style de soulignement a ses propres propriétés LineFormat ou les hérite des propriétés LineFormat du texte. Lecture/écriture [`NullableBool`](../../nullablebool).
 
@@ -15,7 +15,7 @@ Détermine si le style de soulignement a ses propres propriétés LineFormat ou 
 public NullableBool IsHardUnderlineLine { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [NullableBool](../../nullablebool)
 * interface [IBasePortionFormat](../../ibaseportionformat)

@@ -1,6 +1,6 @@
 ---
 title: CopyFrom
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 从颜色复制颜色格式。
 type: docs
 weight: 170

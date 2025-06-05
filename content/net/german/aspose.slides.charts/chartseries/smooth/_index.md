@@ -1,7 +1,7 @@
 ---
-title: Glätten
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt die Kurvenverarbeitung dar. Wahr, wenn die Kurvenverarbeitung für das Liniendiagramm oder das Punktdiagramm aktiviert ist. Gilt nur für Linien- und Punktdiagramme, die durch Linien verbunden sind. Lese- und schreibbares Boolesches.
+title: Smooth
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt die Glättung von Kurven dar. Wahr, wenn die Glättung von Kurven für das Liniendiagramm oder Streudiagramm aktiviert ist. Gilt nur für Liniendiagramme und Streudiagramme, die durch Linien verbunden sind. Lese-/Schreib-Boolean.
 type: docs
 weight: 420
 url: /de/aspose.slides.charts/chartseries/smooth/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartseries/smooth/
 
 ## ChartSeries.Smooth-Eigenschaft
 
-Stellt die Kurvenverarbeitung dar. Wahr, wenn die Kurvenverarbeitung für das Liniendiagramm oder das Punktdiagramm aktiviert ist. Gilt nur für Linien- und Punktdiagramme, die durch Linien verbunden sind. Lese- und schreibbares Boolesches.
+Stellt die Glättung von Kurven dar. Wahr, wenn die Glättung von Kurven für das Liniendiagramm oder Streudiagramm aktiviert ist. Gilt nur für Liniendiagramme und Streudiagramme, die durch Linien verbunden sind. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool Smooth { get; set; }

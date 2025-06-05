@@ -1,7 +1,7 @@
 ---
-title: 项
-second_title: Aspose.Slides for .NET API 参考
-description: 通过索引返回渐变停止。
+title: Item
+second_title: Aspose.Sildes for .NET API Reference
+description: 根据索引返回渐变停止。
 type: docs
 weight: 10
 url: /zh/aspose.slides/igradientstopcollectioneffectivedata/item/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/igradientstopcollectioneffectivedata/item/
 
 ## IGradientStopCollectionEffectiveData 索引器
 
-通过索引返回渐变停止。
+根据索引返回渐变停止。
 
 ```csharp
 public IGradientStopEffectiveData this[int index] { get; }
 ```
 
-### 参见
+### 另见
 
 * 接口 [IGradientStopEffectiveData](../../igradientstopeffectivedata)
 * 接口 [IGradientStopCollectionEffectiveData](../../igradientstopcollectioneffectivedata)

@@ -1,7 +1,7 @@
 ---
-title: Взрыв
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает, на сколько следует сместить точку данных от центра пирога. Чтение/запись Int32.
+title: Explosion
+second_title: Aspose.Sildes для .NET API Справочник
+description: Указывает, на сколько данные точки должны быть смещены от центра пирога. Чтение/запись Int32.
 type: docs
 weight: 90
 url: /ru/aspose.slides.charts/chartdatapoint/explosion/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.charts/chartdatapoint/explosion/
 
 ## Свойство ChartDataPoint.Explosion
 
-Указывает, на сколько следует сместить точку данных от центра пирога. Чтение/запись Int32.
+Указывает, на сколько данные точки должны быть смещены от центра пирога. Чтение/запись Int32.
 
 ```csharp
 public int Explosion { get; set; }
 ```
 
-### Также см. 
+### Также смотрите
 
 * класс [ChartDataPoint](../../chartdatapoint)
 * пространство имен [Aspose.Slides.Charts](../../chartdatapoint)

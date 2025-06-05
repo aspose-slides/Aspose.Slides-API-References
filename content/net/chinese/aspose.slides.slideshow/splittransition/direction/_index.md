@@ -1,7 +1,7 @@
 ---
-title: 方向
-second_title: Aspose.Slides for .NET API 参考
-description: 转场拆分的方向。读/写 TransitionInOutDirectionTypeaspose.slides.slideshow/transitioninoutdirectiontype。
+title: Direction
+second_title: Aspose.Sildes for .NET API Reference
+description: 转换分割的方向。读/写 TransitionInOutDirectionTypeaspose.slides.slideshow/transitioninoutdirectiontype.
 type: docs
 weight: 10
 url: /zh/aspose.slides.slideshow/splittransition/direction/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.slideshow/splittransition/direction/
 
 ## SplitTransition.Direction 属性
 
-转场拆分的方向。读/写 [`TransitionInOutDirectionType`](../../transitioninoutdirectiontype)。
+转换分割的方向。读/写 [`TransitionInOutDirectionType`](../../transitioninoutdirectiontype)。
 
 ```csharp
 public TransitionInOutDirectionType Direction { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * enum [TransitionInOutDirectionType](../../transitioninoutdirectiontype)
 * class [SplitTransition](../../splittransition)

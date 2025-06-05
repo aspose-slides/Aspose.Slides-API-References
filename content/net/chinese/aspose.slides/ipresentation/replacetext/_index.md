@@ -1,7 +1,7 @@
 ---
-title: 替换文本
-second_title: Aspose.Slides for .NET API 参考
-description: 用另一个指定的文本替换所有出现的指定文本。
+title: ReplaceText
+second_title: Aspose.Sildes for .NET API Reference
+description: 替换所有指定文本的出现次数为另一个指定文本。
 type: docs
 weight: 360
 url: /zh/aspose.slides/ipresentation/replacetext/
@@ -9,35 +9,35 @@ url: /zh/aspose.slides/ipresentation/replacetext/
 
 ## IPresentation.ReplaceText 方法
 
-用另一个指定的文本替换所有出现的指定文本。
+替换所有指定文本的出现次数为另一个指定文本。
 
 ```csharp
 public void ReplaceText(string oldText, string newText, ITextSearchOptions options, 
     IFindResultCallback callback)
 ```
 
-| 参数 | 类型 | 描述 |
-| --- | --- | --- |
-| oldText | String | 要被替换的字符串。 |
-| newText | String | 替换所有出现的 oldText 的字符串。 |
-| options | ITextSearchOptions | 文本搜索选项 [`ITextSearchOptions`](../../itextsearchoptions)。 |
-| callback | IFindResultCallback | 接收搜索结果的回调对象 [`IFindResultCallback`](../../ifindresultcallback)。 |
+| 参数       | 类型                       | 描述                                   |
+|----------|--------------------------|--------------------------------------|
+| oldText  | String                   | 需要被替换的字符串。                      |
+| newText  | String                   | 用于替换所有 oldText 出现的字符串。   |
+| options   | ITextSearchOptions       | 文本搜索选项 [`ITextSearchOptions`](../../itextsearchoptions)。 |
+| callback  | IFindResultCallback      | 接收搜索结果的回调对象 [`IFindResultCallback`](../../ifindresultcallback)。 |
 
 ### 示例
 
-以下示例代码演示了如何用一个指定的字符串替换另一个指定的字符串。
+以下示例代码演示了如何用一个指定字符串替换另一个指定字符串。
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// 用 '***' 替换所有单独的 'the' 出现
-	presentation.ReplaceText("the", "***", new TextSearchOptions() {WholeWordsOnly = true}, null);
-	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
+    // 用 '***' 替换所有单独的 'the' 出现
+    presentation.ReplaceText("the", "***", new TextSearchOptions() {WholeWordsOnly = true}, null);
+    presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [ITextSearchOptions](../../itextsearchoptions)
 * 接口 [IFindResultCallback](../../ifindresultcallback)

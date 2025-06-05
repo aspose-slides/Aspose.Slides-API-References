@@ -1,7 +1,7 @@
 ---
 title: Text
 second_title: Aspose.Slides für .NET API Referenz
-description: Erhält oder setzt den Text für ein TextFrame. Lese-/Schreib-String.
+description: Erhält oder setzt den reinen Text für ein TextFrame. Lese-/Schreibzeichenfolge.
 type: docs
 weight: 70
 url: /de/aspose.slides/textframe/text/
@@ -9,17 +9,17 @@ url: /de/aspose.slides/textframe/text/
 
 ## TextFrame.Text-Eigenschaft
 
-Erhält oder setzt den Text für ein TextFrame. Lese-/Schreib-String.
+Erhält oder setzt den reinen Text für ein TextFrame. Lese-/Schreibzeichenfolge.
 
 ```csharp
 public string Text { get; set; }
 ```
 
-### Eigenschaftswert
+### Eigenschaftenwert
 
 Der Text.
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [TextFrame](../../textframe)
 * Namespace [Aspose.Slides](../../textframe)

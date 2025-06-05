@@ -1,15 +1,15 @@
 ---
 title: UseSecondaryCategories
-second_title: Référence API Aspose.Sildes pour .NET
-description: Si faux, la propriété SecondaryCategoriesaspose.slides.charts/chartdata/secondarycategories renvoie null et les données dans la propriété Categoriesaspose.slides.charts/chartdata/categories sont utilisées à la fois pour les séries principales et secondaires. Si vrai, les données dans la propriété SecondaryCategoriesaspose.slides.charts/chartdata/secondarycategories sont utilisées pour les séries secondaires et les données dans la propriété Categoriesaspose.slides.charts/chartdata/categories sont utilisées pour les séries principales. Lecture/écriture booléen.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Si faux, la propriété SecondaryCategoriesaspose.slides.charts/chartdata/secondarycategories renvoie null et les données dans la propriété Categoriesaspose.slides.charts/chartdata/categories sont utilisées à la fois pour les séries primaires et secondaires. Si vrai, alors les données dans la propriété SecondaryCategoriesaspose.slides.charts/chartdata/secondarycategories sont utilisées pour les séries secondaires et les données dans la propriété Categoriesaspose.slides.charts/chartdata/categories sont utilisées pour les séries primaires. Boolean en lecture/écriture.
 type: docs
 weight: 80
 url: /fr/aspose.slides.charts/chartdata/usesecondarycategories/
 ---
 
-## Propriété ChartData.UseSecondaryCategories
+## ChartData.UseSecondaryCategories property
 
-Si faux, la propriété [`SecondaryCategories`](../secondarycategories) renvoie null et les données dans la propriété [`Categories`](../categories) sont utilisées à la fois pour les séries principales et secondaires. Si vrai, les données dans la propriété [`SecondaryCategories`](../secondarycategories) sont utilisées pour les séries secondaires et les données dans la propriété [`Categories`](../categories) sont utilisées pour les séries principales. Lecture/écriture booléen.
+Si faux, la propriété [`SecondaryCategories`](../secondarycategories) renvoie null et les données dans la propriété [`Categories`](../categories) sont utilisées à la fois pour les séries primaires et secondaires. Si vrai, alors les données dans la propriété [`SecondaryCategories`](../secondarycategories) sont utilisées pour les séries secondaires et les données dans la propriété [`Categories`](../categories) sont utilisées pour les séries primaires. Boolean en lecture/écriture.
 
 ```csharp
 public bool UseSecondaryCategories { get; set; }
@@ -17,7 +17,7 @@ public bool UseSecondaryCategories { get; set; }
 
 ### Exemples
 
-Exemple. Quelles catégories sont liées aux séries - ChartData.Categories ou ChartData.SecondaryCategories?
+Exemple. Quelles catégories sont liées aux séries - ChartData.Categories ou ChartData.SecondaryCategories ?
 
 ```csharp
 if (series.PlotOnSecondAxis && series.Chart.ChartData.UseSecondaryCategories)

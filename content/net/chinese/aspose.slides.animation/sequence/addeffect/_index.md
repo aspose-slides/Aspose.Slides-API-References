@@ -1,7 +1,7 @@
 ---
-title: 添加效果
-second_title: Aspose.Slides for .NET API 参考
-description: 在序列末尾添加新效果。
+title: AddEffect
+second_title: Aspose.Sildes for .NET API 参考
+description: 将新效果添加到序列末尾。
 type: docs
 weight: 40
 url: /zh/aspose.slides.animation/sequence/addeffect/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/sequence/addeffect/
 
 ## AddEffect(IShape, EffectType, EffectSubtype, EffectTriggerType) {#addeffect_3}
 
-在序列末尾添加新效果。
+将新效果添加到序列末尾。
 
 ```csharp
 public IEffect AddEffect(IShape shape, EffectType effectType, EffectSubtype subtype, 
@@ -18,7 +18,7 @@ public IEffect AddEffect(IShape shape, EffectType effectType, EffectSubtype subt
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| shape | IShape | 要添加效果的形状对象 [`IShape`](../../../aspose.slides/ishape) |
+| shape | IShape | 用于添加效果的形状对象 [`IShape`](../../../aspose.slides/ishape) |
 | effectType | EffectType | 动画效果的类型 [`EffectType`](../../effecttype) |
 | subtype | EffectSubtype | 动画效果的子类型 [`EffectSubtype`](../../effectsubtype) |
 | triggerType | EffectTriggerType | 效果的触发类型 [`EffectTriggerType`](../../effecttriggertype) |
@@ -27,7 +27,7 @@ public IEffect AddEffect(IShape shape, EffectType effectType, EffectSubtype subt
 
 新的效果对象 [`IEffect`](../../ieffect)
 
-### 参见
+### 另请参见
 
 * 接口 [IEffect](../../ieffect)
 * 接口 [IShape](../../../aspose.slides/ishape)
@@ -42,7 +42,7 @@ public IEffect AddEffect(IShape shape, EffectType effectType, EffectSubtype subt
 
 ## AddEffect(IParagraph, EffectType, EffectSubtype, EffectTriggerType) {#addeffect_2}
 
-在序列末尾为段落添加新动画效果。
+为段落在序列末尾添加新的动画效果。
 
 ```csharp
 public IEffect AddEffect(IParagraph paragraph, EffectType effectType, EffectSubtype subtype, 
@@ -66,17 +66,17 @@ public IEffect AddEffect(IParagraph paragraph, EffectType effectType, EffectSubt
 [C#]
 using(Presentation presentation = new Presentation(path + "input.pptx"))
 {        
-   // 选择要添加效果的段落
+   // 选择段落以添加效果
    IAutoShape autoShape = (IAutoShape)presentation.Slides[0].Shapes[0];
    IParagraph paragraph = autoShape.TextFrame.Paragraphs[0];
 
-   // 向选择的段落添加飞入动画效果
+   // 向选定段落添加飞入动画效果
    IEffect effect = presentation.Slides[0].Timeline.MainSequence.AddEffect(
    paragraph, EffectType.Fly, EffectSubtype.Left, EffectTriggerType.OnClick);
 }
 ```
 
-### 参见
+### 另请参见
 
 * 接口 [IEffect](../../ieffect)
 * 接口 [IParagraph](../../../aspose.slides/iparagraph)
@@ -91,7 +91,7 @@ using(Presentation presentation = new Presentation(path + "input.pptx"))
 
 ## AddEffect(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) {#addeffect}
 
-为类别或系列添加新的图表动画效果到序列末尾。
+为类别或系列在序列末尾添加新的图表动画效果。
 
 ```csharp
 public IEffect AddEffect(IChart chart, EffectChartMajorGroupingType type, int index, 
@@ -111,7 +111,7 @@ public IEffect AddEffect(IChart chart, EffectChartMajorGroupingType type, int in
 
 新的效果对象 [`IEffect`](../../ieffect)
 
-### 参见
+### 另请参见
 
 * 接口 [IEffect](../../ieffect)
 * 接口 [IChart](../../../aspose.slides.charts/ichart)
@@ -127,7 +127,7 @@ public IEffect AddEffect(IChart chart, EffectChartMajorGroupingType type, int in
 
 ## AddEffect(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) {#addeffect_1}
 
-为类别或系列中的元素添加新的图表动画效果到序列末尾。
+为类别或系列中的元素在序列末尾添加新的图表动画效果。
 
 ```csharp
 public IEffect AddEffect(IChart chart, EffectChartMinorGroupingType type, int seriesIndex, 
@@ -149,7 +149,7 @@ public IEffect AddEffect(IChart chart, EffectChartMinorGroupingType type, int se
 
 新的效果对象 [`IEffect`](../../ieffect)
 
-### 参见
+### 另请参见
 
 * 接口 [IEffect](../../ieffect)
 * 接口 [IChart](../../../aspose.slides.charts/ichart)

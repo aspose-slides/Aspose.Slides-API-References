@@ -1,7 +1,7 @@
 ---
 title: GetRotation
-second_title: Aspose.Slides für .NET API-Referenz
-description: Eine Rotation wird durch die Verwendung einer Breitengradkoordinate, einer Längengradkoordinate und einer Drehung um die Achse, die den Breitengrad- und Längengradkoordinaten entsprechen, definiert. Erstes Element im Rückgabe-Array - Breitengrad, zweites - Längengrad, drittes - Drehung. Gibt null zurück, wenn keine Rotation definiert ist.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Eine Rotation wird durch die Verwendung einer Breitengradkoordinate, einer Längengradkoordinate und einer Drehung um die Achse definiert, die dem Breitengrad und der Längengradkoordinate entspricht. Erstes Element im Rückgabearray - Breitengrad, zweites - Längengrad, drittes - Drehung. Gibt null zurück, wenn keine Rotation definiert ist.
 type: docs
 weight: 40
 url: /de/aspose.slides/camera/getrotation/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/camera/getrotation/
 
 ## Camera.GetRotation-Methode
 
-Eine Rotation wird durch die Verwendung einer Breitengradkoordinate, einer Längengradkoordinate und einer Drehung um die Achse, die den Breitengrad- und Längengradkoordinaten entsprechen, definiert. Erstes Element im Rückgabe-Array - Breitengrad, zweites - Längengrad, drittes - Drehung. Gibt null zurück, wenn keine Rotation definiert ist.
+Eine Rotation wird durch die Verwendung einer Breitengradkoordinate, einer Längengradkoordinate und einer Drehung um die Achse definiert, die dem Breitengrad und der Längengradkoordinate entspricht. Erstes Element im Rückgabearray - Breitengrad, zweites - Längengrad, drittes - Drehung. Gibt null zurück, wenn keine Rotation definiert ist.
 
 ```csharp
 public float[] GetRotation()

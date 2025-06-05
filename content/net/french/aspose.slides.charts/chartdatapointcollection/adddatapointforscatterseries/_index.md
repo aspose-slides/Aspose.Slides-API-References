@@ -1,15 +1,15 @@
 ---
-title: AjouterPointDeDonnéesPourSériesDeDispersion
-second_title: Référence API Aspose.Slides pour .NET
-description: Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable aux séries dont le type de graphique est l'un des sous-types de dispersion, voir aussi la méthode IsChartTypeScatter aspose.slides.charts/charttypecharacterizer/ischarttypescatter.
+title: AddDataPointForScatterSeries
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont chartType est l'un des sous-types Scatter, voir aussi la méthode IsChartTypeScatter aspose.slides.charts/charttypecharacterizer/ischarttypescatter.
 type: docs
 weight: 210
 url: /fr/aspose.slides.charts/chartdatapointcollection/adddatapointforscatterseries/
 ---
 
-## AjouterPointDeDonnéesPourSériesDeDispersion(IChartDataCell, IChartDataCell) {#adddatapointforscatterseries}
+## AddDataPointForScatterSeries(IChartDataCell, IChartDataCell) {#adddatapointforscatterseries}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable aux séries dont le type de graphique est l'un des sous-types de dispersion (voir aussi [`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) méthode).
+Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont chartType est l'un des sous-types Scatter (voir aussi [`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) méthode).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, IChartDataCell yValue)
@@ -34,9 +34,9 @@ Nouveau point de données.
 
 ---
 
-## AjouterPointDeDonnéesPourSériesDeDispersion(double, IChartDataCell) {#adddatapointforscatterseries_2}
+## AddDataPointForScatterSeries(double, IChartDataCell) {#adddatapointforscatterseries_2}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable aux séries dont le type de graphique est l'un des sous-types de dispersion (voir aussi [`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) méthode).
+Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont chartType est l'un des sous-types Scatter (voir aussi [`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) méthode).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(double xValue, IChartDataCell yValue)
@@ -61,9 +61,9 @@ Nouveau point de données.
 
 ---
 
-## AjouterPointDeDonnéesPourSériesDeDispersion(string, IChartDataCell) {#adddatapointforscatterseries_4}
+## AddDataPointForScatterSeries(string, IChartDataCell) {#adddatapointforscatterseries_4}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable aux séries dont le type de graphique est l'un des sous-types de dispersion (voir aussi [`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) méthode).
+Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont chartType est l'un des sous-types Scatter (voir aussi [`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) méthode).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(string xValue, IChartDataCell yValue)
@@ -88,9 +88,9 @@ Nouveau point de données.
 
 ---
 
-## AjouterPointDeDonnéesPourSériesDeDispersion(IChartDataCell, double) {#adddatapointforscatterseries_1}
+## AddDataPointForScatterSeries(IChartDataCell, double) {#adddatapointforscatterseries_1}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable aux séries dont le type de graphique est l'un des sous-types de dispersion (voir aussi [`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) méthode).
+Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont chartType est l'un des sous-types Scatter (voir aussi [`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) méthode).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, double yValue)
@@ -115,9 +115,9 @@ Nouveau point de données.
 
 ---
 
-## AjouterPointDeDonnéesPourSériesDeDispersion(double, double) {#adddatapointforscatterseries_3}
+## AddDataPointForScatterSeries(double, double) {#adddatapointforscatterseries_3}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable aux séries dont le type de graphique est l'un des sous-types de dispersion (voir aussi [`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) méthode).
+Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont chartType est l'un des sous-types Scatter (voir aussi [`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) méthode).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(double xValue, double yValue)
@@ -141,9 +141,9 @@ Nouveau point de données.
 
 ---
 
-## AjouterPointDeDonnéesPourSériesDeDispersion(string, double) {#adddatapointforscatterseries_5}
+## AddDataPointForScatterSeries(string, double) {#adddatapointforscatterseries_5}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable aux séries dont le type de graphique est l'un des sous-types de dispersion (voir aussi [`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) méthode).
+Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont chartType est l'un des sous-types Scatter (voir aussi [`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) méthode).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(string xValue, double yValue)

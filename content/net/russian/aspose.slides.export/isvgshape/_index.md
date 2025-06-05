@@ -1,6 +1,6 @@
 ---
 title: ISvgShape
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет параметры для SVG фигуры.
 type: docs
 weight: 3940
@@ -17,17 +17,17 @@ public interface ISvgShape
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Id](../../aspose.slides.export/isvgshape/id) { get; set; } | Устанавливает или получает идентификатор фигуры |
+| [Id](../../aspose.slides.export/isvgshape/id) { get; set; } | Устанавливает или получает id для фигуры |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [SetEventHandler](../../aspose.slides.export/isvgshape/seteventhandler)(SvgEvent, string) | Устанавливает обработчик события для фигуры |
 
-### См. Также
+### См. также
 
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)

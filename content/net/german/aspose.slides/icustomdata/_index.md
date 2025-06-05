@@ -19,8 +19,8 @@ public interface ICustomData
 
 | Name | Beschreibung |
 | --- | --- |
-| [CustomXmlParts](../../aspose.slides/icustomdata/customxmlparts) { get; } | Gibt die Sammlung benutzerdefinierter XML-Teile zurück. Nur lesbar [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
-| [Tags](../../aspose.slides/icustomdata/tags) { get; } | Gibt die Sammlung benutzerdefinierter Daten-Tags zurück. Nur lesbar [`ITagCollection`](../itagcollection). |
+| [CustomXmlParts](../../aspose.slides/icustomdata/customxmlparts) { get; } | Gibt die Sammlung der benutzerdefinierten XML-Teile zurück. Nur lesbar [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
+| [Tags](../../aspose.slides/icustomdata/tags) { get; } | Gibt die Sammlung der Auszeichnungstags für Kunden zurück. Nur lesbar [`ITagCollection`](../itagcollection). |
 
 ### Siehe auch
 

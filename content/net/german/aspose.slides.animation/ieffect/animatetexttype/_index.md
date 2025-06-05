@@ -1,7 +1,7 @@
 ---
 title: AnimateTextType
-second_title: Aspose.Slides für .NET API-Referenz
-description: Definiert einen animierten Texttyp für den Effekt. Der Text der Form kann buchstabenweise, wortweise oder alles auf einmal animiert werden. Lese-/schreibe AnimateTextType aspose.slides.animation/ieffect/animatetexttype.
+second_title: Aspose.Slides für .NET API Referenz
+description: Definiert einen animierten Texttyp für Effekte. Der Formtext kann buchstabenweise, wortweise oder auf einmal animiert werden. Lesen/Schreiben von AnimateTextType aspose.slides.animation/ieffect/animatetexttype.
 type: docs
 weight: 30
 url: /de/aspose.slides.animation/ieffect/animatetexttype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/ieffect/animatetexttype/
 
 ## IEffect.AnimateTextType-Eigenschaft
 
-Definiert einen animierten Texttyp für den Effekt. Der Text der Form kann buchstabenweise, wortweise oder alles auf einmal animiert werden. Lese-/schreibe `AnimateTextType`.
+Definiert einen animierten Texttyp für Effekte. Der Formtext kann buchstabenweise, wortweise oder auf einmal animiert werden. Lesen/Schreiben von `AnimateTextType`.
 
 ```csharp
 public AnimateTextType AnimateTextType { get; set; }
@@ -21,10 +21,10 @@ public AnimateTextType AnimateTextType { get; set; }
 [C#]
 using (Presentation presentation = new Presentation("demo.pptx"))
 {
-    // Holt den ersten Effekt der ersten Folie.
+    // Holen Sie sich den ersten Effekt der ersten Folie.
     IEffect firstSlideEffect = presentation.Slides[0].Timeline.MainSequence[0];
     
-    // Ändert den Effekt Animate Texttyp auf "Nach Buchstaben"
+    // Ändern Sie den Effekt Animierte Textart in "Nach Buchstaben"
     firstSlideEffect.AnimateTextType = AnimateTextType.ByLetter;
 }
 ```

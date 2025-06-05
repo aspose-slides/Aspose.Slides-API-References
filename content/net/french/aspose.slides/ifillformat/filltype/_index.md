@@ -1,7 +1,7 @@
 ---
-title: TypeDeRemplissage
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit le type de remplissage. Lecture/écriture FillTypeaspose.slides/filltype.
+title: FillType
+second_title: Aspose.Slides pour .NET Référence API
+description: Récupère ou définit le type de remplissage. Lecture/écriture FillTypeaspose.slides/filltype.
 type: docs
 weight: 20
 url: /fr/aspose.slides/ifillformat/filltype/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ifillformat/filltype/
 
 ## Propriété IFillFormat.FillType
 
-Renvoie ou définit le type de remplissage. Lecture/écriture [`FillType`](../../filltype).
+Récupère ou définit le type de remplissage. Lecture/écriture [`FillType`](../../filltype).
 
 ```csharp
 public FillType FillType { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [FillType](../../filltype)
 * interface [IFillFormat](../../ifillformat)

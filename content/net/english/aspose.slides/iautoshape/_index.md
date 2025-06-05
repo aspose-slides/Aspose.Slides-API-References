@@ -3,9 +3,10 @@ title: IAutoShape
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an AutoShape.
 type: docs
-weight: 4890
+weight: 5040
 url: /aspose.slides/iautoshape/
 ---
+
 ## IAutoShape interface
 
 Represents an AutoShape.
@@ -22,14 +23,14 @@ public interface IAutoShape : IGeometryShape
 | [AutoShapeLock](../../aspose.slides/iautoshape/autoshapelock) { get; } | Returns AutoShape's locks. Read-only [`IAutoShapeLock`](../iautoshapelock). |
 | [IsTextBox](../../aspose.slides/iautoshape/istextbox) { get; } | Specifies if the shape is a text box. |
 | [ShapeLock](../../aspose.slides/iautoshape/shapelock) { get; } | Returns shape's locks. Read-only [`IAutoShapeLock`](../iautoshapelock). |
-| [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | Returns TextFrameEx object for the AutoShapeEx. Read-only [`ITextFrame`](../itextframe). |
+| [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | Returns TextFrame object for the AutoShape. Read-only [`ITextFrame`](../itextframe). |
 | [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Determines whether this autoshape should be filled with slide's background fill instead of specified by style or fill format. Read/write Boolean. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | Adds a new TextFrameEx to a shape. If shape already has TextFrameEx then simply changes its text. |
+| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | Adds a new TextFrame to a shape. If shape already has TextFrame then simply changes its text. |
 
 ### See Also
 

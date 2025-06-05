@@ -1,7 +1,7 @@
 ---
 title: ImageSource
-second_title: Aspose.Slides for .NET API 参考
-description: 获取图像 仅读图像。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取图像的只读图像。
 type: docs
 weight: 20
 url: /zh/aspose.slides/iimagewrapper/imagesource/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/iimagewrapper/imagesource/
 
 ## IImageWrapper.ImageSource 属性
 
-获取图像 仅读图像。
+获取图像的只读图像。
 
 ```csharp
 public IImage ImageSource { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IImage](../../iimage)
 * 接口 [IImageWrapper](../../iimagewrapper)

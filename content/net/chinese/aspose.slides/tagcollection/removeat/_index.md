@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
-second_title: Aspose.Slides for .NET API Reference
-description: 移除指定索引处的标签。
+second_title: Aspose.Sildes for .NET API Reference
+description: 删除指定索引处的标签。
 type: docs
 weight: 150
 url: /zh/aspose.slides/tagcollection/removeat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/tagcollection/removeat/
 
 ## TagCollection.RemoveAt 方法
 
-移除指定索引处的标签。
+删除指定索引处的标签。
 
 ```csharp
 public void RemoveAt(int index)
@@ -17,9 +17,9 @@ public void RemoveAt(int index)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 要移除的标签的零基础索引。 |
+| index | Int32 | 要删除的标签的零基索引。 |
 
-### 另请参见
+### 参见
 
 * 类 [TagCollection](../../tagcollection)
 * 命名空间 [Aspose.Slides](../../tagcollection)

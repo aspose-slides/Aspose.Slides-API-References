@@ -1,7 +1,7 @@
 ---
 title: FontFolders
-second_title: Aspose.Slides für .NET API Referenz
-description: Ordner, die Schriftartdateien enthalten. Alle Schriftartdateien in diesen Ordnern sind in der Sammlung enthalten. Ordner, die rekursiv durchsucht werden.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Ordner, die Schriftdateien enthalten. Alle Schriftdateien, die sich in diesen Ordnern befinden, sind in der Sammlung enthalten. Ordner, die rekursiv durchsucht werden.
 type: docs
 weight: 20
 url: /de/aspose.slides/fontsources/fontfolders/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/fontsources/fontfolders/
 
 ## FontSources.FontFolders-Eigenschaft
 
-Ordner, die Schriftartdateien enthalten. Alle Schriftartdateien in diesen Ordnern sind in der Sammlung enthalten. Ordner, die rekursiv durchsucht werden.
+Ordner, die Schriftdateien enthalten. Alle Schriftdateien, die sich in diesen Ordnern befinden, sind in der Sammlung enthalten. Ordner, die rekursiv durchsucht werden.
 
 ```csharp
 public string[] FontFolders { get; set; }

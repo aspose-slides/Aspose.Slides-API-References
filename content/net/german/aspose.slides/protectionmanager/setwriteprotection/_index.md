@@ -1,6 +1,6 @@
 ---
 title: SetWriteProtection
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Setzen Sie den Schreibschutz für diese Präsentation mit dem angegebenen Passwort.
 type: docs
 weight: 110
@@ -21,7 +21,7 @@ public void SetWriteProtection(string password)
 
 ### Beispiele
 
-Der folgende Beispielcode zeigt Ihnen, wie Sie einen Schreibschutz für eine Präsentation setzen können.
+Der folgende Beispielcode zeigt Ihnen, wie Sie einen Schreibschutz für eine Präsentation festlegen.
 
 ```csharp
 [C#]

@@ -1,15 +1,15 @@
 ---
 title: AddControl
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Создает и добавляет новый элемент управления в коллекцию.
+second_title: Aspose.Sildes для .NET API Reference
+description: Создает и добавляет новый контроль в коллекцию.
 type: docs
 weight: 20
 url: /ru/aspose.slides/icontrolcollection/addcontrol/
 ---
 
-## Метод IControlCollection.AddControl
+## IControlCollection.AddControl метод
 
-Создает и добавляет новый элемент управления в коллекцию.
+Создает и добавляет новый контроль в коллекцию.
 
 ```csharp
 public IControl AddControl(ControlType controlType, float x, float y, float width, float height)
@@ -17,7 +17,7 @@ public IControl AddControl(ControlType controlType, float x, float y, float widt
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| controlType | ControlType | Тип элемента управления для добавления. |
+| controlType | ControlType | Тип контроля для добавления. |
 | x | Single | Координата X для левой стороны рамки фигуры. |
 | y | Single | Координата Y для верхней стороны рамки фигуры. |
 | width | Single | Ширина рамки фигуры. |
@@ -25,9 +25,9 @@ public IControl AddControl(ControlType controlType, float x, float y, float widt
 
 ### Возвращаемое значение
 
-Созданный элемент управления [`IControl`](../../icontrol).
+Созданный контроль [`IControl`](../../icontrol).
 
-### См. также
+### См. Также
 
 * интерфейс [IControl](../../icontrol)
 * перечисление [ControlType](../../controltype)

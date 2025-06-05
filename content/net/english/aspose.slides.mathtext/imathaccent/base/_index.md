@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.mathtext/imathaccent/base/
 ---
+
 ## IMathAccent.Base property
 
 The argument to which the accent was applied

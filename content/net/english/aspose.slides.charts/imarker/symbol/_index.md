@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/imarker/symbol/
 ---
+
 ## IMarker.Symbol property
 
 Represents the marker style in a line chart, scatter chart, or radar chart. Read/write [`MarkerStyleType`](../../markerstyletype).

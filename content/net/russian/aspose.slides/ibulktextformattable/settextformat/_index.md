@@ -1,7 +1,7 @@
 ---
 title: SetTextFormat
-second_title: Справочник по API Aspose.Slides для .NET
-description: Устанавливает свойства форматирования выделенной части ко всем элементам частей.
+second_title: Aspose.Sildes для .NET API Reference
+description: Устанавливает определенные свойства формата порций ко всем элементам порций.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ibulktextformattable/settextformat/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ibulktextformattable/settextformat/
 
 ## SetTextFormat(IPortionFormat) {#settextformat_1}
 
-Устанавливает свойства форматирования выделенной части ко всем частям элемента.
+Устанавливает определенные свойства формата порций ко всем элементам.
 
 ```csharp
 public void SetTextFormat(IPortionFormat source)
@@ -19,7 +19,7 @@ public void SetTextFormat(IPortionFormat source)
 | --- | --- | --- |
 | source | IPortionFormat | Объект IPortionFormat с установленными необходимыми свойствами. |
 
-### См. также
+### См. Также
 
 * интерфейс [IPortionFormat](../../iportionformat)
 * интерфейс [IBulkTextFormattable](../../ibulktextformattable)
@@ -30,7 +30,7 @@ public void SetTextFormat(IPortionFormat source)
 
 ## SetTextFormat(IParagraphFormat) {#settextformat}
 
-Устанавливает свойства форматирования абзаца ко всем абзацам элемента.
+Устанавливает определенные свойства формата абзаца ко всем элементам абзацев.
 
 ```csharp
 public void SetTextFormat(IParagraphFormat source)
@@ -40,7 +40,7 @@ public void SetTextFormat(IParagraphFormat source)
 | --- | --- | --- |
 | source | IParagraphFormat | Объект IParagraphFormat с установленными необходимыми свойствами. |
 
-### См. также
+### См. Также
 
 * интерфейс [IParagraphFormat](../../iparagraphformat)
 * интерфейс [IBulkTextFormattable](../../ibulktextformattable)
@@ -51,7 +51,7 @@ public void SetTextFormat(IParagraphFormat source)
 
 ## SetTextFormat(ITextFrameFormat) {#settextformat_2}
 
-Устанавливает свойства форматирования текстового фрейма ко всем текстовым фреймам элемента.
+Устанавливает определенные свойства формата текстового фрейма ко всем элементам текстовых фреймов.
 
 ```csharp
 public void SetTextFormat(ITextFrameFormat source)
@@ -61,7 +61,7 @@ public void SetTextFormat(ITextFrameFormat source)
 | --- | --- | --- |
 | source | ITextFrameFormat | Объект ITextFrameFormat с установленными необходимыми свойствами. |
 
-### См. также
+### См. Также
 
 * интерфейс [ITextFrameFormat](../../itextframeformat)
 * интерфейс [IBulkTextFormattable](../../ibulktextformattable)

@@ -1,21 +1,21 @@
 ---
 title: EncryptDocumentProperties
 second_title: Aspose.Slides für .NET API Referenz
-description: Diese Eigenschaft macht Sinn, wenn die Präsentation durch ein Passwort geschützt ist. Wenn wahr, werden die Dokumenteigenschaften in der Präsentationsdatei verschlüsselt. Wenn falsch, sind die Dokumenteigenschaften öffentlich, während die Präsentation verschlüsselt ist. Schreib-/Lesewert Boolean.
+description: Diese Eigenschaft macht Sinn, wenn die Präsentation durch ein Passwort geschützt ist. Wenn wahr, wird die Dokumenteigenschaft in der Präsentationsdatei verschlüsselt. Wenn falsch, sind die Dokumenteigenschaften öffentlich, während die Präsentation verschlüsselt ist. Lese-/Schreib-Boolean.
 type: docs
 weight: 10
 url: /de/aspose.slides/protectionmanager/encryptdocumentproperties/
 ---
 
-## ProtectionManager.EncryptDocumentProperties-Eigenschaft
+## ProtectionManager.EncryptDocumentProperties Eigenschaft
 
-Diese Eigenschaft macht Sinn, wenn die Präsentation durch ein Passwort geschützt ist. Wenn wahr, werden die Dokumenteigenschaften in der Präsentationsdatei verschlüsselt. Wenn falsch, sind die Dokumenteigenschaften öffentlich, während die Präsentation verschlüsselt ist. Schreib-/Lesewert Boolean.
+Diese Eigenschaft macht Sinn, wenn die Präsentation durch ein Passwort geschützt ist. Wenn wahr, wird die Dokumenteigenschaft in der Präsentationsdatei verschlüsselt. Wenn falsch, sind die Dokumenteigenschaften öffentlich, während die Präsentation verschlüsselt ist. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool EncryptDocumentProperties { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [ProtectionManager](../../protectionmanager)
 * Namespace [Aspose.Slides](../../protectionmanager)

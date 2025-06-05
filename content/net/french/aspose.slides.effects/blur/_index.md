@@ -1,7 +1,7 @@
 ---
-title: Flou
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente un effet de flou appliqué à la forme entière, y compris son remplissage. Tous les canaux de couleur, y compris l'alpha, sont affectés.
+title: Blur
+second_title: Aspose.Sildes pour .NET Référence API
+description: Représente un effet de Flou qui est appliqué à l'ensemble de la forme, y compris son remplissage. Tous les canaux de couleur, y compris l'alpha, sont affectés.
 type: docs
 weight: 2830
 url: /fr/aspose.slides.effects/blur/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/blur/
 
 ## Classe Blur
 
-Représente un effet de flou appliqué à l'ensemble de la forme, y compris son remplissage. Tous les canaux de couleur, y compris l'alpha, sont affectés.
+Représente un effet de Flou qui est appliqué à l'ensemble de la forme, y compris son remplissage. Tous les canaux de couleur, y compris l'alpha, sont affectés.
 
 ```csharp
 public sealed class Blur : ImageTransformOperation, IBlur
@@ -19,19 +19,19 @@ public sealed class Blur : ImageTransformOperation, IBlur
 
 | Nom | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet de récupérer l'interface de base IPresentationComponent. Lecture seule [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | Détermine si les limites de l'objet doivent être étendues à la suite du flou. True indique que les limites sont étendues, tandis que false indique qu'elles ne le sont pas. Booléen en lecture/écriture. |
-| [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | Renvoie ou définit le rayon de flou. Double en lecture/écriture. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface de base IPresentationComponent. En lecture seule [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | Détermine si les limites de l'objet doivent être étendues à la suite du flou. True indique que les limites sont étendues tandis que false indique qu'elles ne le sont pas. Booléen en lecture/écriture. |
+| [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | Renvoie ou définit le rayon du flou. Double en lecture/écriture. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/blur/equals)(object) | Détermine si le [`Blur`](../blur) spécifié est égal au [`Blur`](../blur) actuel. |
-| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | Obtient les données effectives de l'effet de flou avec l'héritage appliqué. |
+| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | Obtient les données d'effet de Flou effectif avec l'héritage appliqué. |
 | override [GetHashCode](../../aspose.slides.effects/blur/gethashcode)() | Sert de fonction de hachage pour un type particulier. |
 
-### Voir Aussi
+### Voir aussi
 
 * classe [ImageTransformOperation](../imagetransformoperation)
 * interface [IBlur](../iblur)

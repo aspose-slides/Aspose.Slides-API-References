@@ -1,7 +1,7 @@
 ---
 title: FormatFactory
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht das Erstellen von Formaten über die COM-Schnittstelle.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ermöglicht die Erstellung von Formaten über die COM-Schnittstelle.
 type: docs
 weight: 4750
 url: /de/aspose.slides/formatfactory/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/formatfactory/
 
 ## FormatFactory-Klasse
 
-Ermöglicht das Erstellen von Formaten über die COM-Schnittstelle.
+Ermöglicht die Erstellung von Formaten über die COM-Schnittstelle.
 
 ```csharp
 public class FormatFactory : IFormatFactory
@@ -25,15 +25,15 @@ public class FormatFactory : IFormatFactory
 
 | Name | Beschreibung |
 | --- | --- |
-| static [Instance](../../aspose.slides/formatfactory/instance) { get; } | Statische Instanz der Formatfactory. Nur lesend [`FormatFactory`](../formatfactory). |
+| static [Instance](../../aspose.slides/formatfactory/instance) { get; } | Statische Instanz der Formatfabrik. Nur-lesend [`FormatFactory`](../formatfactory). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [CreateParagraphFormat](../../aspose.slides/formatfactory/createparagraphformat)() | Erstellt ein neues [`IParagraphFormat`](../iparagraphformat). |
-| [CreatePortionFormat](../../aspose.slides/formatfactory/createportionformat)() | Erstellt ein neues [`IPortionFormat`](../iportionformat). |
-| [CreateTextFrameFormat](../../aspose.slides/formatfactory/createtextframeformat)() | Erstellt ein neues [`ITextFrameFormat`](../itextframeformat). |
+| [CreateParagraphFormat](../../aspose.slides/formatfactory/createparagraphformat)() | Erstellt neues [`IParagraphFormat`](../iparagraphformat). |
+| [CreatePortionFormat](../../aspose.slides/formatfactory/createportionformat)() | Erstellt neues [`IPortionFormat`](../iportionformat). |
+| [CreateTextFrameFormat](../../aspose.slides/formatfactory/createtextframeformat)() | Erstellt neues [`ITextFrameFormat`](../itextframeformat). |
 
 ### Siehe auch
 

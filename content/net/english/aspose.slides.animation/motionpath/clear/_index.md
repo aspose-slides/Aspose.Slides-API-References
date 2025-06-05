@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.animation/motionpath/clear/
 ---
+
 ## MotionPath.Clear method
 
 Removes all commands from the collection.

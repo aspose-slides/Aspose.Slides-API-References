@@ -1,15 +1,15 @@
 ---
 title: RewindAudio
-second_title: Aspose.Slides for .NET API Reference
-description: 确定音频播放后是否自动回到开始位置。读/写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定音频播放后是否自动回到开始。可读写布尔值。
 type: docs
 weight: 140
 url: /zh/aspose.slides/audioframe/rewindaudio/
 ---
 
-## AudioFrame.RewindAudio 属性
+## AudioFrame.RewindAudio property
 
-确定音频播放后是否自动回到开始位置。读/写布尔值。
+确定音频播放后是否自动回到开始。可读写布尔值。
 
 ```csharp
 public bool RewindAudio { get; set; }
@@ -29,14 +29,14 @@ using (Presentation pres = new Presentation())
     // 设置音频在幻灯片之间播放
     audioFrame.PlayAcrossSlides = true;
 
-    // 设置音频在播放后自动回到开始位置
+    // 设置音频在播放后自动回到开始
     audioFrame.RewindAudio = true;
 
     pres.Save("AudioFrame_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### 另请参阅
+### 另见
 
 * class [AudioFrame](../../audioframe)
 * namespace [Aspose.Slides](../../audioframe)

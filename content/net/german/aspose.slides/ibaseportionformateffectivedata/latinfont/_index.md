@@ -1,7 +1,7 @@
 ---
 title: LatinFont
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Informationen zur lateinischen Schriftart zurück. Nur lesbarer IFontDataaspose.slides/ifontdata.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Informationen zur lateinischen Schriftart zurück. Nur-Lese IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 170
 url: /de/aspose.slides/ibaseportionformateffectivedata/latinfont/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ibaseportionformateffectivedata/latinfont/
 
 ## IBasePortionFormatEffectiveData.LatinFont-Eigenschaft
 
-Gibt die Informationen zur lateinischen Schriftart zurück. Nur lesbar [`IFontData`](../../ifontdata).
+Gibt die Informationen zur lateinischen Schriftart zurück. Nur-Lese [`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData LatinFont { get; }

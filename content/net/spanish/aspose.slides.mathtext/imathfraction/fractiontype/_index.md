@@ -1,6 +1,6 @@
 ---
 title: FractionType
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Tipo de fracción Predeterminado Barra
 type: docs
 weight: 30
@@ -25,7 +25,7 @@ IMathFraction mathFraction = new MathematicalText("x").Divide("y");
 mathFraction.FractionType = MathFractionTypes.Linear;
 ```
 
-### Véase también
+### Véase También
 
 * enum [MathFractionTypes](../../mathfractiontypes)
 * interface [IMathFraction](../../imathfraction)

@@ -1,7 +1,7 @@
 ---
-title: 音频
-second_title: Aspose.Slides for .NET API 参考
-description: 表示超链接的播放音频。可读/写 IAudioaspose.slides/iaudio。
+title: Sound
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示超链接的播放声音。可读/可写 IAudioaspose.slides/iaudio。
 type: docs
 weight: 70
 url: /zh/aspose.slides/ihyperlink/sound/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ihyperlink/sound/
 
 ## IHyperlink.Sound 属性
 
-表示超链接的播放音频。可读/写 [`IAudio`](../../iaudio)。
+表示超链接的播放声音。可读/可写 [`IAudio`](../../iaudio)。
 
 ```csharp
 public IAudio Sound { get; set; }
@@ -28,7 +28,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
        
     if (link.Sound != null)
     {
-        // 提取超链接音频为字节数组
+        // 提取超链接声音为字节数组
         byte[] audioData = link.Sound.BinaryData;
     }
 }

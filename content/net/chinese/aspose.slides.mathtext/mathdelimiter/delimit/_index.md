@@ -1,7 +1,7 @@
 ---
-title: 限制
-second_title: Aspose.Sildes for .NET API 参考
-description: 使用指定的分隔符字符来限制参数
+title: Delimit
+second_title: Aspose.Sildes for .NET API Reference
+description: 使用指定的分隔符字符分隔参数
 type: docs
 weight: 80
 url: /zh/aspose.slides.mathtext/mathdelimiter/delimit/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathdelimiter/delimit/
 
 ## MathDelimiter.Delimit 方法
 
-使用指定的分隔符字符来限制参数
+使用指定的分隔符字符分隔参数
 
 ```csharp
 public IMathDelimiter Delimit(char separatorCharacter)

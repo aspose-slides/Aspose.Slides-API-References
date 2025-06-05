@@ -1,7 +1,7 @@
 ---
 title: InterruptionToken
-second_title: Aspose.Sildes for .NET API 参考
-description: 用于监控中断请求的令牌。该令牌管理整个 IPresentationaspose.slides/ipresentation 实例的生命周期。任何长时间运行的操作，如加载或保存演示文稿，将通过调用 InterruptionTokenSourceaspose.slides/interruptiontokensource 的 Interruptaspose.slides/interruptiontokensource/interrupt 方法来中断。
+second_title: Aspose.Sildes for .NET API Reference
+description: 用于监控中断请求的令牌。该令牌管理整个 IPresentationaspose.slides/ipresentation 实例的生命周期。任何长时间运行的操作，例如加载或保存演示文稿，将通过调用 InterruptionTokenSourceaspose.slides/interruptiontokensource 的 Interruptaspose.slides/interruptiontokensource/interrupt 方法被中断。
 type: docs
 weight: 90
 url: /zh/aspose.slides/loadoptions/interruptiontoken/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/loadoptions/interruptiontoken/
 
 ## LoadOptions.InterruptionToken 属性
 
-用于监控中断请求的令牌。该令牌管理整个 [`IPresentation`](../../ipresentation) 实例的生命周期。任何长时间运行的操作，如加载或保存演示文稿，将通过调用 [`InterruptionTokenSource`](../../interruptiontokensource) 的 [`Interrupt`](../../interruptiontokensource/interrupt) 方法来中断。
+用于监控中断请求的令牌。该令牌管理整个 [`IPresentation`](../../ipresentation) 实例的生命周期。任何长时间运行的操作，例如加载或保存演示文稿，将通过调用 [`InterruptionTokenSource`](../../interruptiontokensource) 的 [`Interrupt`](../../interruptiontokensource/interrupt) 方法被中断。
 
 ```csharp
 public IInterruptionToken InterruptionToken { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IInterruptionToken](../../iinterruptiontoken)
 * 类 [LoadOptions](../../loadoptions)

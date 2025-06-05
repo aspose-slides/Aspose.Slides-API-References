@@ -1,13 +1,13 @@
 ---
-title: Supprimer
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Remove
+second_title: Référence API Aspose.Sildes pour .NET
 description: Supprime la séquence spécifiée d'une collection.
 type: docs
 weight: 60
 url: /fr/aspose.slides.animation/sequencecollection/remove/
 ---
 
-## Méthode SequenceCollection.Remove
+## SequenceCollection.Remove method
 
 Supprime la séquence spécifiée d'une collection.
 
@@ -19,7 +19,7 @@ public void Remove(ISequence item)
 | --- | --- | --- |
 | item | ISequence | Séquence à supprimer. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ISequence](../../isequence)
 * class [SequenceCollection](../../sequencecollection)

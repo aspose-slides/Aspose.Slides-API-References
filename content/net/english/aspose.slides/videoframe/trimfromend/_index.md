@@ -3,9 +3,10 @@ title: TrimFromEnd
 second_title: Aspose.Sildes for .NET API Reference
 description: Trim end ms
 type: docs
-weight: 80
+weight: 90
 url: /aspose.slides/videoframe/trimfromend/
 ---
+
 ## VideoFrame.TrimFromEnd property
 
 Trim end [ms]

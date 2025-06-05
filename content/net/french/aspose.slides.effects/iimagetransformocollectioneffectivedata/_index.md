@@ -1,15 +1,15 @@
 ---
 title: IImageTransformOCollectionEffectiveData
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Objet immuable qui représente une collection en lecture seule d'effets de transformation d'image effectifs.
+description: Objet immuable qui représente une collection en lecture seule d'effets de transformation d'image efficaces.
 type: docs
 weight: 3260
 url: /fr/aspose.slides.effects/iimagetransformocollectioneffectivedata/
 ---
 
-## Interface IImageTransformOCollectionEffectiveData
+## IImageTransformOCollectionEffectiveData interface
 
-Objet immuable qui représente une collection en lecture seule d'effets de transformation d'image effectifs.
+Objet immuable qui représente une collection en lecture seule d'effets de transformation d'image efficaces.
 
 ```csharp
 public interface IImageTransformOCollectionEffectiveData : IGenericCollection<IEffectEffectiveData>
@@ -19,13 +19,13 @@ public interface IImageTransformOCollectionEffectiveData : IGenericCollection<IE
 
 | Nom | Description |
 | --- | --- |
-| [Item](../../aspose.slides.effects/iimagetransformocollectioneffectivedata/item) { get; } | Retourne l'élément par index. |
+| [Item](../../aspose.slides.effects/iimagetransformocollectioneffectivedata/item) { get; } | Renvoie l'élément par index. |
 
 ### Remarques
 
-Le nom IImageTransformOperationCollectionEffectiveData a été tronqué en IImageTransformOCollectionEffectiveData en raison de la longueur des noms COM qui ne peut pas excéder 39.
+Le nom IImageTransformOperationCollectionEffectiveData a été tronqué en IImageTransformOCollectionEffectiveData en raison de la longueur des noms COM qui ne peut pas dépasser 39.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * interface [IEffectEffectiveData](../ieffecteffectivedata)

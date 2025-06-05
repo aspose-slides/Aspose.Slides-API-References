@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/ifillformateffectivedata/rotatewithshape/
 ---
+
 ## IFillFormatEffectiveData.RotateWithShape property
 
 Determines whether the fill should be rotated with shape. Read-only Boolean.

@@ -1,7 +1,7 @@
 ---
-title: 分组级别
-second_title: Aspose.Slides for .NET API 参考
-description: 图表类别分组级别值的托管容器。多级类别包含多个分组级别。分组级别的索引是基于零的。仅限读取 IChartCategoryLevelsManageraspose.slides/ichartcategorylevelsmanager。
+title: GroupingLevels
+second_title: Aspose.Sildes for .NET API Reference
+description: 图表类别分组级别值的托管容器。多级类别包含多个分组级别。分组级别的索引基于零。只读 IChartCategoryLevelsManageraspose.slides/ichartcategorylevelsmanager。
 type: docs
 weight: 30
 url: /zh/aspose.slides.charts/ichartcategory/groupinglevels/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ichartcategory/groupinglevels/
 
 ## IChartCategory.GroupingLevels 属性
 
-图表类别分组级别值的托管容器。多级类别包含多个分组级别。分组级别的索引是基于零的。仅限读取 [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager)。
+图表类别分组级别值的托管容器。多级类别包含多个分组级别。分组级别的索引基于零。只读 [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager)。
 
 ```csharp
 public IChartCategoryLevelsManager GroupingLevels { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IChartCategoryLevelsManager](../../ichartcategorylevelsmanager)
 * 接口 [IChartCategory](../../ichartcategory)

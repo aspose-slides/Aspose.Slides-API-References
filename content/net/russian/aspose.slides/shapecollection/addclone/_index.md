@@ -1,7 +1,7 @@
 ---
 title: AddClone
-second_title: Aspose.Sildes для .NET API Справочник
-description: Добавляет копию указанной фигуры в конец коллекции.
+second_title: Aspose.Sildes для .NET API Reference
+description: Добавляет копию указанной формы в конец коллекции.
 type: docs
 weight: 110
 url: /ru/aspose.slides/shapecollection/addclone/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/shapecollection/addclone/
 
 ## AddClone(IShape, float, float, float, float) {#addclone_2}
 
-Добавляет копию указанной фигуры в конец коллекции.
+Добавляет копию указанной формы в конец коллекции.
 
 ```csharp
 public IShape AddClone(IShape sourceShape, float x, float y, float width, float height)
@@ -17,17 +17,17 @@ public IShape AddClone(IShape sourceShape, float x, float y, float width, float 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sourceShape | IShape | Фигура для клонирования. |
-| x | Single | X-координата новой фигуры. |
-| y | Single | Y-координата новой фигуры. |
-| width | Single | Ширина новой фигуры. |
-| height | Single | Высота новой фигуры. |
+| sourceShape | IShape | Форма для клонирования. |
+| x | Single | Координата X новой формы. |
+| y | Single | Координата Y новой формы. |
+| width | Single | Ширина новой формы. |
+| height | Single | Высота новой формы. |
 
 ### Возвращаемое значение
 
-Новая фигура.
+Новая форма.
 
-### См. также
+### См. Также
 
 * интерфейс [IShape](../../ishape)
 * класс [ShapeCollection](../../shapecollection)
@@ -38,7 +38,7 @@ public IShape AddClone(IShape sourceShape, float x, float y, float width, float 
 
 ## AddClone(IShape, float, float) {#addclone_1}
 
-Добавляет копию указанной фигуры в конец коллекции. Ширина и высота новой фигуры равны ширине и высоте *sourceShape*.
+Добавляет копию указанной формы в конец коллекции. Ширина и высота новой формы равны ширине и высоте *sourceShape*.
 
 ```csharp
 public IShape AddClone(IShape sourceShape, float x, float y)
@@ -46,15 +46,15 @@ public IShape AddClone(IShape sourceShape, float x, float y)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sourceShape | IShape | Фигура для клонирования. |
-| x | Single | X-координата новой фигуры. |
-| y | Single | Y-координата новой фигуры. |
+| sourceShape | IShape | Форма для клонирования. |
+| x | Single | Координата X новой формы. |
+| y | Single | Координата Y новой формы. |
 
 ### Возвращаемое значение
 
-Новая фигура.
+Новая форма.
 
-### См. также
+### См. Также
 
 * интерфейс [IShape](../../ishape)
 * класс [ShapeCollection](../../shapecollection)
@@ -65,7 +65,7 @@ public IShape AddClone(IShape sourceShape, float x, float y)
 
 ## AddClone(IShape) {#addclone}
 
-Добавляет копию указанной фигуры в конец коллекции. X, Y, ширина и высота новой фигуры равны X, Y, ширине и высоте *sourceShape*.
+Добавляет копию указанной формы в конец коллекции. X, Y, ширина и высота новой формы равны X, Y, ширине и высоте *sourceShape*.
 
 ```csharp
 public IShape AddClone(IShape sourceShape)
@@ -73,13 +73,13 @@ public IShape AddClone(IShape sourceShape)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sourceShape | IShape | Фигура для клонирования. |
+| sourceShape | IShape | Форма для клонирования. |
 
 ### Возвращаемое значение
 
-Новая фигура.
+Новая форма.
 
-### См. также
+### См. Также
 
 * интерфейс [IShape](../../ishape)
 * класс [ShapeCollection](../../shapecollection)

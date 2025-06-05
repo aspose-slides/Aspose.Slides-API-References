@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/spreadsheetoptions/spreadsheetoptions/
 ---
+
 ## SpreadsheetOptions constructor
 
 Initializes a new instance of the [`SpreadsheetOptions`](../../spreadsheetoptions) class.

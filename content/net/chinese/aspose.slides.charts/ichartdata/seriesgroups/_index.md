@@ -1,7 +1,7 @@
 ---
-title: 系列组
-second_title: Aspose.Slides for .NET API 参考
-description: 获取系列的组。只读 IChartSeriesGroupCollection aspose.slides.charts/ichartseriesgroupcollection。
+title: SeriesGroups
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取系列组。只读 IChartSeriesGroupCollectionaspose.slides.charts/ichartseriesgroupcollection。
 type: docs
 weight: 70
 url: /zh/aspose.slides.charts/ichartdata/seriesgroups/
@@ -9,17 +9,17 @@ url: /zh/aspose.slides.charts/ichartdata/seriesgroups/
 
 ## IChartData.SeriesGroups 属性
 
-获取系列的组。只读 [`IChartSeriesGroupCollection`](../../ichartseriesgroupcollection)。
+获取系列组。只读 [`IChartSeriesGroupCollection`](../../ichartseriesgroupcollection)。
 
 ```csharp
 public IChartSeriesGroupCollection SeriesGroups { get; }
 ```
 
-### 注释
+### 说明
 
-1) 每个系列组包含具有可组合类型的系列。可组合系列类型的组由 CombinableSeriesTypesGroup 枚举定义和描述。每个系列组也包含在主轴或次轴上绘制的系列（在一个组中不能同时有这两种情况）。因此，系列分组的原则是按前面提到的类型组和主/次绘制类型进行分组。2) 系列组包含某些系列属性，这些属性对于组中的每个系列都是共同的（“系列组属性”）。`ChartSeriesGroup` 类中的“系列组属性”是可读/可写的。每个“系列组属性”在 `ChartSeries` 类中可以有只读投影。
+1) 每个系列组包含可以组合类型的系列。可组合系列类型的组定义并使用 CombinableSeriesTypesGroup 枚举描述。此外，每个系列组包含在主坐标轴或次坐标轴上绘制的系列（在一个组中不能同时存在这两种情况）。因此，系列分组的原则是根据上述提到的类型组和主/次绘图类型进行分组。 2) 系列组包含一些在组内每个系列中共有的系列属性（“系列组属性”）。ChartSeriesGroup 类中的“系列组属性”是可读/可写的。每个“系列组属性”在 ChartSeries 类中可以有一个只读投影。
 
-### 另请参阅
+### 另见
 
 * 接口 [IChartSeriesGroupCollection](../../ichartseriesgroupcollection)
 * 接口 [IChartData](../../ichartdata)

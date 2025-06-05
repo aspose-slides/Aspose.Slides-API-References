@@ -7,7 +7,7 @@ weight: 50
 url: /fr/aspose.slides/inotesslide/parentslide/
 ---
 
-## propriété INotesSlide.ParentSlide
+## Propriété INotesSlide.ParentSlide
 
 Renvoie un ParentSlide en lecture seule [`ISlide`](../../islide).
 
@@ -15,7 +15,7 @@ Renvoie un ParentSlide en lecture seule [`ISlide`](../../islide).
 public ISlide ParentSlide { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ISlide](../../islide)
 * interface [INotesSlide](../../inotesslide)

@@ -1,6 +1,6 @@
 ---
 title: RemoveHyperlinkClick
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Elimina el hipervínculo al hacer clic.
 type: docs
 weight: 10
@@ -15,10 +15,10 @@ Elimina el hipervínculo al hacer clic.
 public void RemoveHyperlinkClick()
 ```
 
-### Véase también
+### Ver también
 
-* interfaz [IHyperlinkManager](../../ihyperlinkmanager)
-* espacio de nombres [Aspose.Slides](../../ihyperlinkmanager)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IHyperlinkManager](../../ihyperlinkmanager)
+* espacio de nombres [Aspose.Slides](../../ihyperlinkmanager)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

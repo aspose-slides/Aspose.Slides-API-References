@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Sildes for .NET API Reference
-description: 返回一个枚举器，用于遍历集合。
+description: 返回一个枚举器，用于迭代集合。
 type: docs
 weight: 100
 url: /zh/aspose.slides/commentauthorcollection/getenumerator/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/commentauthorcollection/getenumerator/
 
 ## CommentAuthorCollection.GetEnumerator 方法
 
-返回一个枚举器，用于遍历集合。
+返回一个枚举器，用于迭代集合。
 
 ```csharp
 public IEnumerator<ICommentAuthor> GetEnumerator()
@@ -17,9 +17,9 @@ public IEnumerator<ICommentAuthor> GetEnumerator()
 
 ### 返回值
 
-一个可以用于遍历集合的 IEnumerator。
+一个可以用于迭代集合的 IEnumerator。
 
-### 另见
+### 另请参阅
 
 * 接口 [ICommentAuthor](../../icommentauthor)
 * 类 [CommentAuthorCollection](../../commentauthorcollection)

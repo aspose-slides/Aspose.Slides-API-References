@@ -1,7 +1,7 @@
 ---
 title: AddFromHtml
 second_title: Aspose.Sildes для .NET Справочник API
-description: Добавляет текст из указанной html-строки в коллекцию.
+description: Добавляет текст из указанной HTML-строки в коллекцию.
 type: docs
 weight: 50
 url: /ru/aspose.slides/paragraphcollection/addfromhtml/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/paragraphcollection/addfromhtml/
 
 ## AddFromHtml(string) {#addfromhtml}
 
-Добавляет текст из указанной html-строки в коллекцию.
+Добавляет текст из указанной HTML-строки в коллекцию.
 
 ```csharp
 public void AddFromHtml(string text)
@@ -29,7 +29,7 @@ public void AddFromHtml(string text)
 
 ## AddFromHtml(string, IExternalResourceResolver, string) {#addfromhtml_1}
 
-Добавляет текст из указанной html-строки в коллекцию.
+Добавляет текст из указанной HTML-строки в коллекцию.
 
 ```csharp
 public void AddFromHtml(string text, IExternalResourceResolver resolver, string uri)
@@ -38,12 +38,12 @@ public void AddFromHtml(string text, IExternalResourceResolver resolver, string 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | text | String | HTML текст. |
-| resolver | IExternalResourceResolver | Объект обратного вызова разрешателя, который разрешает URI и извлекает упомянутые объекты. |
+| resolver | IExternalResourceResolver | Объект обратного вызова рез Resolve, который разрешает URI и получает упомянутые объекты. |
 | uri | String | URI для добавления HTML документа. Используется для разрешения относительных ссылок. |
 
-### Примечания
+### Замечания
 
-Указание разрешателя может потенциально создать уязвимость. Используйте с осторожностью.
+Указание resolver может потенциально привести к уязвимости. Используйте с осторожностью.
 
 ### См. также
 

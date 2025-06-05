@@ -1,7 +1,7 @@
 ---
 title: IncludeHiddenSlides
-second_title: Aspose.Sildes для справочника API .NET
-description: Получить или установить, должны ли быть включены скрытые слайды.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает или задает, должны ли быть включены скрытые слайды.
 type: docs
 weight: 40
 url: /ru/aspose.slides.export/presentationanimationsgenerator/includehiddenslides/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export/presentationanimationsgenerator/includehiddenslide
 
 ## PresentationAnimationsGenerator.IncludeHiddenSlides свойство
 
-Получить или установить, должны ли быть включены скрытые слайды.
+Получает или задает, должны ли быть включены скрытые слайды.
 
 ```csharp
 public bool IncludeHiddenSlides { get; set; }
@@ -30,7 +30,7 @@ using (Presentation presentation = new Presentation("animated.pptx"))
 }
 ```
 
-### См. Также
+### См. также
 
 * класс [PresentationAnimationsGenerator](../../presentationanimationsgenerator)
 * пространство имен [Aspose.Slides.Export](../../presentationanimationsgenerator)

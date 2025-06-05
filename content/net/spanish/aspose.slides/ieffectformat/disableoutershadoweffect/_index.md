@@ -1,13 +1,13 @@
 ---
 title: DisableOuterShadowEffect
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Desactiva el efecto de sombra exterior.
 type: docs
 weight: 150
 url: /es/aspose.slides/ieffectformat/disableoutershadoweffect/
 ---
 
-## Método IEffectFormat.DisableOuterShadowEffect
+## IEffectFormat.DisableOuterShadowEffect método
 
 Desactiva el efecto de sombra exterior.
 
@@ -15,10 +15,10 @@ Desactiva el efecto de sombra exterior.
 public void DisableOuterShadowEffect()
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IEffectFormat](../../ieffectformat)
-* namespace [Aspose.Slides](../../ieffectformat)
+* espacio de nombres [Aspose.Slides](../../ieffectformat)
 * ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

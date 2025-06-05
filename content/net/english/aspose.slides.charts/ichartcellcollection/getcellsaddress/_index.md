@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/ichartcellcollection/getcellsaddress/
 ---
+
 ## IChartCellCollection.GetCellsAddress method
 
 Returns address of the set of cells in workbook.

@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Obtiene datos efectivos del efecto Fill Overlay con la herencia aplicada.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Obtiene los datos del efecto de superposición de relleno efectivo con la herencia aplicada.
 type: docs
 weight: 40
 url: /es/aspose.slides.effects/filloverlay/geteffective/
@@ -9,17 +9,17 @@ url: /es/aspose.slides.effects/filloverlay/geteffective/
 
 ## Método FillOverlay.GetEffective
 
-Obtiene datos efectivos del efecto Fill Overlay con la herencia aplicada.
+Obtiene los datos del efecto de superposición de relleno efectivo con la herencia aplicada.
 
 ```csharp
 public IFillOverlayEffectiveData GetEffective()
 ```
 
-### Valor de Retorno
+### Valor de retorno
 
 Un [`IFillOverlayEffectiveData`](../../ifilloverlayeffectivedata).
 
-### Véase También
+### Véase también
 
 * interfaz [IFillOverlayEffectiveData](../../ifilloverlayeffectivedata)
 * clase [FillOverlay](../../filloverlay)

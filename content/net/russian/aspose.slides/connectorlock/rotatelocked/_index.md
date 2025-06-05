@@ -1,7 +1,7 @@
 ---
 title: RotateLocked
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, запрещено ли изменение угла вращения этой формы. Читаемое/записываемое логическое значение.
+second_title: Aspose.Slides для .NET API Справочник
+description: Определяет, запрещен ли изменяющийся угол вращения этой формы. Читаемое/Записываемое логическое значение.
 type: docs
 weight: 70
 url: /ru/aspose.slides/connectorlock/rotatelocked/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/connectorlock/rotatelocked/
 
 ## ConnectorLock.RotateLocked свойство
 
-Определяет, запрещено ли изменение угла вращения этой формы. Читаемое/записываемое логическое значение.
+Определяет, запрещен ли изменяющийся угол вращения этой формы. Читаемое/Записываемое логическое значение.
 
 ```csharp
 public bool RotateLocked { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [ConnectorLock](../../connectorlock)
 * пространство имен [Aspose.Slides](../../connectorlock)

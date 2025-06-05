@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.animation/behaviorfactory/createscaleeffect/
 ---
+
 ## BehaviorFactory.CreateScaleEffect method
 
 Creates scale effect.

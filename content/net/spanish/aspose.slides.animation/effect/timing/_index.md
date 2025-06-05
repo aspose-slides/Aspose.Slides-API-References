@@ -1,25 +1,25 @@
----  
-title: Tiempo  
-second_title: Referencia de API de Aspose.Slides para .NET  
-description: Define el valor de tiempo para el efecto. Leer/escribir ITimingaspose.slides.animation/itiming.
-type: docs  
-weight: 130  
+---
+title: Timing
+second_title: Aspose.Slides para .NET Referencia de API
+description: Define el valor de tiempo para el efecto. Lectura/escritura ITimingaspose.slides.animation/itiming.
+type: docs
+weight: 130
 url: /es/aspose.slides.animation/effect/timing/
----  
+---
 
-## Propiedad Effect.Timing  
+## Propiedad Effect.Timing
 
-Define el valor de tiempo para el efecto. Leer/escribir [`ITiming`](../../itiming).  
+Define el valor de tiempo para el efecto. Lectura/escritura [`ITiming`](../../itiming).
 
-```csharp  
-public ITiming Timing { get; set; }  
-```  
+```csharp
+public ITiming Timing { get; set; }
+```
 
-### Ver También  
+### También Visto
 
-* interface [ITiming](../../itiming)  
-* class [Effect](../../effect)  
-* namespace [Aspose.Slides.Animation](../../effect)  
-* assembly [Aspose.Slides](../../../)  
+* interfaz [ITiming](../../itiming)
+* clase [Effect](../../effect)
+* espacio de nombres [Aspose.Slides.Animation](../../effect)
+* ensamblaje [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

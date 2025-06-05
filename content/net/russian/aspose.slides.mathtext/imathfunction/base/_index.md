@@ -1,13 +1,13 @@
 ---
-title: База
-second_title: Ссылка на API Aspose.Sildes для .NET
+title: Base
+second_title: Aspose.Slides для .NET API Reference
 description: Аргумент функции
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/imathfunction/base/
 ---
 
-## Свойство IMathFunction.Base
+## IMathFunction.Base свойство
 
 Аргумент функции
 

@@ -1,7 +1,7 @@
 ---
 title: LineFormat
 second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie les propriétés LineFormat pour le contour du texte. Aucune héritage appliqué. En lecture seule ILineFormataspose.slides/ilineformat.
+description: Renvoie les propriétés LineFormat pour le contour des textes. Pas d'héritage appliqué. Lecture seule ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 180
 url: /fr/aspose.slides/ibaseportionformat/lineformat/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ibaseportionformat/lineformat/
 
 ## Propriété IBasePortionFormat.LineFormat
 
-Renvoie les propriétés LineFormat pour le contour du texte. Aucune héritage appliqué. En lecture seule [`ILineFormat`](../../ilineformat).
+Renvoie les propriétés LineFormat pour le contour des textes. Pas d'héritage appliqué. Lecture seule [`ILineFormat`](../../ilineformat).
 
 ```csharp
 public ILineFormat LineFormat { get; }

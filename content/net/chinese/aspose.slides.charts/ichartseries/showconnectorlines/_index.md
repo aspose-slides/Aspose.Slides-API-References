@@ -1,6 +1,6 @@
 ---
 title: ShowConnectorLines
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示连接线。仅适用于瀑布图。
 type: docs
 weight: 370

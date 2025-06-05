@@ -1,5 +1,5 @@
 ---
-title: Altura
+title: Height
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece la altura de la forma. Lectura/escritura Single.
 type: docs
@@ -21,8 +21,8 @@ El valor devuelto siempre está definido (no es float.NaN). El valor asignado de
 
 ### Véase también
 
-* interfaz [IShape](../../ishape)
-* espacio de nombres [Aspose.Slides](../../ishape)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IShape](../../ishape)
+* espacio de nombres [Aspose.Slides](../../ishape)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: ColumnGapRule
-second_title: Aspose.Slides für .NET API-Referenz
-description: Die Art des horizontalen Abstands zwischen den Spalten einer Matrix. Horizontale Abstandseinheiten können Ems oder Punkte in Twips gespeichert sein. Standard SingleSpacingGap 0
+second_title: Aspose.Slides für .NET API Referenz
+description: Der Typ des horizontalen Abstands zwischen Spalten einer Matrix. Horizontale Abstands-Units können em oder Punkte gespeichert als twips sein. Standard SingleSpacingGap 0
 type: docs
 weight: 50
 url: /de/aspose.slides.mathtext/imathmatrix/columngaprule/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathmatrix/columngaprule/
 
 ## IMathMatrix.ColumnGapRule-Eigenschaft
 
-Die Art des horizontalen Abstands zwischen den Spalten einer Matrix; Horizontale Abstandseinheiten können Ems oder Punkte (in Twips gespeichert) sein. Standard: SingleSpacingGap (0)
+Der Typ des horizontalen Abstands zwischen Spalten einer Matrix; Horizontale Abstands-Units können em oder Punkte (gespeichert als twips) sein. Standard: SingleSpacingGap (0)
 
 ```csharp
 public MathSpacingRules ColumnGapRule { get; set; }
@@ -25,7 +25,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.ColumnGapRule = MathSpacingRules.OneAndHalfSpacingGap;
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [MathSpacingRules](../../mathspacingrules)
 * interface [IMathMatrix](../../imathmatrix)

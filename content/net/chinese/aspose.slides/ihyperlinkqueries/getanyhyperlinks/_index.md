@@ -1,6 +1,6 @@
 ---
 title: GetAnyHyperlinks
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 获取所有包含非空 HyperlinkMouseOver 的 IHyperlinkContainer 子对象。使用给定的 IHyperlinkContainer 对象，您可以管理其超链接（读取、更新或删除）。请参见 IHyperlinkContainer 接口。
 type: docs
 weight: 10
@@ -19,7 +19,7 @@ public IList<IHyperlinkContainer> GetAnyHyperlinks()
 
 所有包含非空 HyperlinkMouseOver 的 IHyperlinkContainer 子对象
 
-### 参见
+### 另请参见
 
 * 接口 [IHyperlinkContainer](../../ihyperlinkcontainer)
 * 接口 [IHyperlinkQueries](../../ihyperlinkqueries)

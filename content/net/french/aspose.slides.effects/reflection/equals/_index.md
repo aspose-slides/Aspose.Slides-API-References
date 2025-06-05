@@ -1,7 +1,7 @@
 ---
-title: Égal
+title: Equals
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si le Reflection spécifié aspose.slides.effects/reflection est égal au Reflection actuel aspose.slides.effects/reflection.
+description: Détermine si la réflexion spécifiée Reflectionaspose.slides/reflection est égale à la réflexion actuelle Reflectionaspose.slides/reflection.
 type: docs
 weight: 150
 url: /fr/aspose.slides.effects/reflection/equals/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/reflection/equals/
 
 ## Méthode Reflection.Equals
 
-Détermine si le [`Reflection`](../../reflection) spécifié est égal au [`Reflection`](../../reflection) actuel.
+Détermine si la réflexion spécifiée [`Reflection`](../../reflection) est égale à la réflexion actuelle [`Reflection`](../../reflection).
 
 ```csharp
 public override bool Equals(object obj)
@@ -17,7 +17,7 @@ public override bool Equals(object obj)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| obj | Object | Le [`Reflection`](../../reflection) à comparer. |
+| obj | Object | La [`Reflection`](../../reflection) à comparer. |
 
 ### Valeur de retour
 

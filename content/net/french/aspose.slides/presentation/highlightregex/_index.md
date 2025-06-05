@@ -1,13 +1,13 @@
 ---
 title: HighlightRegex
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Met en surbrillance toutes les correspondances de l'expression régulière avec la couleur spécifiée.
 type: docs
 weight: 330
 url: /fr/aspose.slides/presentation/highlightregex/
 ---
 
-## Méthode Presentation.HighlightRegex
+## Presentation.HighlightRegex method
 
 Met en surbrillance toutes les correspondances de l'expression régulière avec la couleur spécifiée.
 
@@ -17,7 +17,7 @@ public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallbac
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| regex | Regex | L'expression régulière Regex pour récupérer les chaînes à mettre en surbrillance. |
+| regex | Regex | L'expression régulière Regex pour obtenir les chaînes à mettre en surbrillance. |
 | highlightColor | Color | La couleur pour mettre en surbrillance le texte. |
 | callback | IFindResultCallback | L'objet de rappel pour recevoir les résultats de la recherche [`IFindResultCallback`](../../ifindresultcallback). |
 

@@ -1,15 +1,15 @@
 ---
 title: IChartCategoryLevelsManager
-second_title: Aspose.Slides für .NET API Referenz
-description: Verwalteter Container der Werte der Kategorienebenen des Diagramms.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Verwalteter Container der Werte der Diagrammkategorieebenen.
 type: docs
 weight: 1690
 url: /de/aspose.slides.charts/ichartcategorylevelsmanager/
 ---
 
-## IChartCategoryLevelsManager Schnittstelle
+## IChartCategoryLevelsManager-Schnittstelle
 
-Verwalteter Container der Werte der Kategorienebenen des Diagramms.
+Verwalteter Container der Werte der Diagrammkategorieebenen.
 
 ```csharp
 public interface IChartCategoryLevelsManager
@@ -19,14 +19,14 @@ public interface IChartCategoryLevelsManager
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartcategorylevelsmanager/item) { get; } | Gibt ein IChartDataCell Objekt für die definierte Ebene zurück. |
+| [Item](../../aspose.slides.charts/ichartcategorylevelsmanager/item) { get; } | Gibt ein IChartDataCell-Objekt für die definierte Ebene zurück. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [DeleteGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/deletegroupingitem)(int) | Löscht das Gruppierungselement für die definierte Ebene. |
-| [SetGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/setgroupingitem)(int, object) | Setzt das Gruppierungselement für die definierte Ebene. |
+| [DeleteGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/deletegroupingitem)(int) | Löscht das Gruppierungsobjekt für die definierte Ebene. |
+| [SetGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/setgroupingitem)(int, object) | Legt das Gruppierungsobjekt für die definierte Ebene fest. |
 
 ### Siehe auch
 

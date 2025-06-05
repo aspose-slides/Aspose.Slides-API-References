@@ -1,7 +1,7 @@
 ---
 title: MinorTickMark
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt den Typ der kleinen Tick-Marke für die angegebene Achse dar. Lese-/ Schreibzugriff auf TickMarkTypeaspose.slides.charts/tickmarktype.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt den Typ des kleinen Tick-Marks für die angegebene Achse dar. Lese-/schreibbarer TickMarkTypeaspose.slides.charts/tickmarktype.
 type: docs
 weight: 400
 url: /de/aspose.slides.charts/iaxis/minortickmark/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/iaxis/minortickmark/
 
 ## IAxis.MinorTickMark-Eigenschaft
 
-Stellt den Typ der kleinen Tick-Marke für die angegebene Achse dar. Lese-/ Schreibzugriff auf [`TickMarkType`](../../tickmarktype).
+Stellt den Typ des kleinen Tick-Marks für die angegebene Achse dar. Lese-/schreibbar [`TickMarkType`](../../tickmarktype).
 
 ```csharp
 public TickMarkType MinorTickMark { get; set; }

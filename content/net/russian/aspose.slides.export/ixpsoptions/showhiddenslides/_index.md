@@ -1,6 +1,6 @@
 ---
 title: ShowHiddenSlides
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET Справочник API
 description: Указывает, следует ли включать скрытые слайды в сгенерированный документ или нет. По умолчанию - false.
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export/ixpsoptions/showhiddenslides/
 public bool ShowHiddenSlides { get; set; }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IXpsOptions](../../ixpsoptions)
 * пространство имен [Aspose.Slides.Export](../../ixpsoptions)

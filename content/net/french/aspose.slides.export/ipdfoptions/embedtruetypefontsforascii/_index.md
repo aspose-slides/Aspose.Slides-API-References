@@ -1,15 +1,15 @@
 ---
 title: EmbedTrueTypeFontsForASCII
-second_title: Référence API Aspose.Slides pour .NET
-description: Vrai pour intégrer des polices TrueType pour les caractères ASCII 32-127. Les polices pour les codes de caractères supérieurs à 127 sont toujours intégrées. Lecture/écriture de type booléen.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Vrai pour intégrer des polices TrueType pour les caractères ASCII 32-127. Les polices pour les codes de caractères supérieurs à 127 sont toujours intégrées. Lecture/écriture Booléen.
 type: docs
 weight: 90
 url: /fr/aspose.slides.export/ipdfoptions/embedtruetypefontsforascii/
 ---
 
-## Propriété IPdfOptions.EmbedTrueTypeFontsForASCII
+## La propriété IPdfOptions.EmbedTrueTypeFontsForASCII
 
-Vrai pour intégrer des polices TrueType pour les caractères ASCII 32-127. Les polices pour les codes de caractères supérieurs à 127 sont toujours intégrées. Lecture/écriture de type booléen.
+Vrai pour intégrer des polices TrueType pour les caractères ASCII 32-127. Les polices pour les codes de caractères supérieurs à 127 sont toujours intégrées. Lecture/écriture Booléen.
 
 ```csharp
 public bool EmbedTrueTypeFontsForASCII { get; set; }
@@ -17,7 +17,7 @@ public bool EmbedTrueTypeFontsForASCII { get; set; }
 
 ### Remarques
 
-La valeur par défaut est **vrai**.
+La valeur par défaut est **vraie**.
 
 ### Voir aussi
 

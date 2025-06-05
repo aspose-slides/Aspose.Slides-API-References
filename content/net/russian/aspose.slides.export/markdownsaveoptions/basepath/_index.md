@@ -1,7 +1,7 @@
 ---
 title: BasePath
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает базовый путь, по которому документ с ресурсами будет сохранен. По умолчанию используется текущая директория приложения.
+second_title: Aspose.Sildes для .NET API Reference
+description: Указывает базовый путь, по которому будет сохранен документ с ресурсами. Значение по умолчанию - текущий каталог приложения.
 type: docs
 weight: 20
 url: /ru/aspose.slides.export/markdownsaveoptions/basepath/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.export/markdownsaveoptions/basepath/
 
 ## Свойство MarkdownSaveOptions.BasePath
 
-Указывает базовый путь, по которому документ с ресурсами будет сохранен. По умолчанию используется текущая директория приложения.
+Указывает базовый путь, по которому будет сохранен документ с ресурсами. Значение по умолчанию - текущий каталог приложения.
 
 ```csharp
 public string BasePath { get; set; }
 ```
 
-### Смотрите Также
+### См. также
 
 * класс [MarkdownSaveOptions](../../markdownsaveoptions)
 * пространство имен [Aspose.Slides.Export](../../markdownsaveoptions)

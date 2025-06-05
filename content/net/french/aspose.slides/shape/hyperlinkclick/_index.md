@@ -1,7 +1,7 @@
 ---
 title: HyperlinkClick
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit l'hyperlien défini pour le clic de souris. Lecture/écriture IHyperlinkaspose.slides/ihyperlink.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie ou définit l'hyperlien défini pour le clic de la souris. Lecture/écriture IHyperlinkaspose.slides/ihyperlink.
 type: docs
 weight: 110
 url: /fr/aspose.slides/shape/hyperlinkclick/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/shape/hyperlinkclick/
 
 ## Propriété Shape.HyperlinkClick
 
-Renvoie ou définit l'hyperlien défini pour le clic de souris. Lecture/écriture [`IHyperlink`](../../ihyperlink).
+Renvoie ou définit l'hyperlien défini pour le clic de la souris. Lecture/écriture [`IHyperlink`](../../ihyperlink).
 
 ```csharp
 public IHyperlink HyperlinkClick { get; set; }

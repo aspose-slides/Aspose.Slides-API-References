@@ -1,13 +1,13 @@
 ---
-title: 清除
-second_title: Aspose.Slides for .NET API 参考
+title: Clear
+second_title: Aspose.Sildes for .NET API Reference
 description: 从集合中移除所有形状。
 type: docs
 weight: 230
 url: /zh/aspose.slides/shapecollection/clear/
 ---
 
-## ShapeCollection.Clear 方法
+## ShapeCollection.Clear method
 
 从集合中移除所有形状。
 
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/shapecollection/clear/
 public void Clear()
 ```
 
-### 参见
+### 另请参见
 
 * class [ShapeCollection](../../shapecollection)
 * namespace [Aspose.Slides](../../shapecollection)

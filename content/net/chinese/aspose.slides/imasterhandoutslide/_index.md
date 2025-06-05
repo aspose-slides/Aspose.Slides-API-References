@@ -1,15 +1,15 @@
 ---
 title: IMasterHandoutSlide
-second_title: Aspose.Slides for .NET API Reference
-description: 表示用于讲义的母版幻灯片。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示手册的主幻灯片。
 type: docs
 weight: 6150
 url: /zh/aspose.slides/imasterhandoutslide/
 ---
 
-## IMasterHandoutSlide 接口
+## IMasterHandoutSlide interface
 
-表示用于讲义的母版幻灯片。
+表示手册的主幻灯片。
 
 ```csharp
 public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
@@ -21,9 +21,9 @@ public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
 | --- | --- |
 | [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | 允许获取基础 IBaseSlide 接口。只读 [`IBaseSlide`](../ibaseslide)。 |
 | [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | 返回 IMasterThemeable 接口。只读 [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable)。 |
-| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | 返回母版讲义幻灯片的 HeaderFooter 管理器。只读 [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager)。 |
+| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | 返回主手册幻灯片的 HeaderFooter 管理器。只读 [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager)。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IBaseSlide](../ibaseslide)
 * 接口 [IMasterThemeable](../../aspose.slides.theme/imasterthemeable)

@@ -1,7 +1,7 @@
 ---
 title: StretchOffsetBottom
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den unteren Rand des Füllrechtecks zurück oder legt ihn fest, der durch eine prozentuale Verschiebung vom unteren Rand des Begrenzungsrahmens der Form definiert ist. Ein positiver Prozentsatz gibt ein Innenmaß an, während ein negativer Prozentsatz ein Außemaß angibt. Lese-/Schreibzugriff auf Single.
+description: Gibt die untere Kante des Füllrechtecks zurück oder legt sie fest, die durch einen prozentualen Versatz von der unteren Kante des Begrenzungsrahmens der Form definiert ist. Ein positiver Prozentsatz gibt einen Innenabstand an, während ein negativer Prozentsatz einen Außenabstand angibt. Lese-/Schreibzugriff Single.
 type: docs
 weight: 80
 url: /de/aspose.slides/picturefillformat/stretchoffsetbottom/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/picturefillformat/stretchoffsetbottom/
 
 ## PictureFillFormat.StretchOffsetBottom-Eigenschaft
 
-Gibt den unteren Rand des Füllrechtecks zurück oder legt ihn fest, der durch eine prozentuale Verschiebung vom unteren Rand des Begrenzungsrahmens der Form definiert ist. Ein positiver Prozentsatz gibt ein Innenmaß an, während ein negativer Prozentsatz ein Außemaß angibt. Lese-/Schreibzugriff auf Single.
+Gibt die untere Kante des Füllrechtecks zurück oder legt sie fest, die durch einen prozentualen Versatz von der unteren Kante des Begrenzungsrahmens der Form definiert ist. Ein positiver Prozentsatz gibt einen Innenabstand an, während ein negativer Prozentsatz einen Außenabstand angibt. Lese-/Schreibzugriff Single.
 
 ```csharp
 public float StretchOffsetBottom { get; set; }

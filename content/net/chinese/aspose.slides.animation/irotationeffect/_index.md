@@ -1,6 +1,6 @@
 ---
 title: IRotationEffect
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示效果的旋转行为。
 type: docs
 weight: 490
@@ -20,11 +20,11 @@ public interface IRotationEffect : IBehavior
 | 名称 | 描述 |
 | --- | --- |
 | [AsIBehavior](../../aspose.slides.animation/irotationeffect/asibehavior) { get; } | 允许获取基础 IBehavior 接口。只读 [`IBehavior`](../ibehavior)。 |
-| [By](../../aspose.slides.animation/irotationeffect/by) { get; set; } | 描述动画的相对偏移值。读写 Single。 |
-| [From](../../aspose.slides.animation/irotationeffect/from) { get; set; } | 描述动画的起始值。读写 Single。 |
-| [To](../../aspose.slides.animation/irotationeffect/to) { get; set; } | 描述动画的结束值。读写 Single。 |
+| [By](../../aspose.slides.animation/irotationeffect/by) { get; set; } | 描述动画的相对偏移值。可读写 Single。 |
+| [From](../../aspose.slides.animation/irotationeffect/from) { get; set; } | 描述动画的起始值。可读写 Single。 |
+| [To](../../aspose.slides.animation/irotationeffect/to) { get; set; } | 描述动画的结束值。可读写 Single。 |
 
-### 另请参阅
+### 参见
 
 * 接口 [IBehavior](../ibehavior)
 * 命名空间 [Aspose.Slides.Animation](../../aspose.slides.animation)

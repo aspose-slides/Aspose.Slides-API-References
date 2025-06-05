@@ -1,7 +1,7 @@
 ---
 title: HeadingPairs
-second_title: Aspose.Slides for .NET API 参考
-description: 指示文档部分的分组及每组中的部分数量。只能读取的 IHeadingPair。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示文档部分的分组及每个组中的部分数量。为只读 IHeadingPair。
 type: docs
 weight: 110
 url: /zh/aspose.slides/idocumentproperties/headingpairs/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/idocumentproperties/headingpairs/
 
 ## IDocumentProperties.HeadingPairs 属性
 
-指示文档部分的分组及每组中的部分数量。只能读取的 IHeadingPair[]。
+表示文档部分的分组及每个组中的部分数量。为只读 IHeadingPair[]。
 
 ```csharp
 public IHeadingPair[] HeadingPairs { get; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IHeadingPair](../../iheadingpair)
 * 接口 [IDocumentProperties](../../idocumentproperties)

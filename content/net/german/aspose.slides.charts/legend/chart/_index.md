@@ -1,7 +1,7 @@
 ---
-title: Diagramm
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Diagramm zurück. Nur lesendes IChartaspose.slides.charts/ichart.
+title: Chart
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt das Diagramm zurück. Nur lesbar IChartaspose.slides.charts/ichart.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/legend/chart/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/legend/chart/
 
 ## Legend.Chart-Eigenschaft
 
-Gibt das Diagramm zurück. Nur lesend [`IChart`](../../ichart).
+Gibt das Diagramm zurück. Nur lesbar [`IChart`](../../ichart).
 
 ```csharp
 public IChart Chart { get; }

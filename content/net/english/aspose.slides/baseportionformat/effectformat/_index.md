@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/baseportionformat/effectformat/
 ---
+
 ## BasePortionFormat.EffectFormat property
 
 Returns the text EffectFormat properties. No inheritance applied. Read-only [`IEffectFormat`](../../ieffectformat).

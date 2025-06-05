@@ -1,15 +1,15 @@
 ---
 title: AsIComparable
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne l'interface IComparable. IComparable en lecture seule.
+description: Renvoie l'interface IComparable. IComparable en lecture seule.
 type: docs
 weight: 20
 url: /fr/aspose.slides/itabeffectivedata/asicomparable/
 ---
 
-## Propriété ITabEffectiveData.AsIComparable
+## ITabEffectiveData.AsIComparable propriété
 
-Retourne l'interface IComparable. IComparable en lecture seule.
+Renvoie l'interface IComparable. IComparable en lecture seule.
 
 ```csharp
 public IComparable AsIComparable { get; }

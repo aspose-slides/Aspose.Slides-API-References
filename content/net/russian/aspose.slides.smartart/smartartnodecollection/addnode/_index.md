@@ -1,25 +1,25 @@
 ---
 title: AddNode
-second_title: Aspose.Slides для .NET API Справочник
-description: Добавляет новый узел или подузел смарт-арта.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Добавить новый умный арт узел или подузел.
 type: docs
 weight: 50
 url: /ru/aspose.slides.smartart/smartartnodecollection/addnode/
 ---
 
-## Метод SmartArtNodeCollection.AddNode
+## SmartArtNodeCollection.AddNode метод
 
-Добавляет новый узел или подузел смарт-арта.
+Добавить новый умный арт узел или подузел.
 
 ```csharp
 public ISmartArtNode AddNode()
 ```
 
-### Значение, которое возвращает метод
+### Возвращаемое значение
 
 Добавленный узел
 
-### Также смотрите
+### См. Также
 
 * интерфейс [ISmartArtNode](../../ismartartnode)
 * класс [SmartArtNodeCollection](../../smartartnodecollection)

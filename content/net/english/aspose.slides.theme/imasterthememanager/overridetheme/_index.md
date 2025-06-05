@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.theme/imasterthememanager/overridetheme/
 ---
+
 ## IMasterThemeManager.OverrideTheme property
 
 Returns the overriding theme object. Read/write [`IMasterTheme`](../../imastertheme).

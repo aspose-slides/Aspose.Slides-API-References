@@ -1,13 +1,13 @@
 ---
-title: Удалить
-second_title: Справочник по API Aspose.Sildes для .NET
+title: Remove
+second_title: Aspose.Sildes для .NET API Reference
 description: Удаляет первое вхождение конкретного правила FallBack из коллекции.
 type: docs
 weight: 30
 url: /ru/aspose.slides/ifontfallbackrulescollection/remove/
 ---
 
-## Метод IFontFallBackRulesCollection.Remove
+## IFontFallBackRulesCollection.Remove метод
 
 Удаляет первое вхождение конкретного правила FallBack из коллекции.
 
@@ -17,7 +17,7 @@ public void Remove(IFontFallBackRule targetRule)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| targetRule | IFontFallBackRule | Правило, которое нужно удалить из коллекции. |
+| targetRule | IFontFallBackRule | Правило для удаления из коллекции. |
 
 ### Примеры
 
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation ())
 }
 ```
 
-### Смотрите также
+### Также см.
 
 * интерфейс [IFontFallBackRule](../../ifontfallbackrule)
 * интерфейс [IFontFallBackRulesCollection](../../ifontfallbackrulescollection)

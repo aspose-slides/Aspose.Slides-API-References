@@ -1,7 +1,7 @@
 ---
 title: SetAllDateTimesText
-second_title: Aspose.Slides for .NET API 参考
-description: 将文本设置到所有日期-时间占位符，包括母版幻灯片、布局幻灯片、幻灯片、注释母版、注释幻灯片和手册母版。
+second_title: Aspose.Slides for .NET API Reference
+description: 设置所有日期时间占位符的文本，包括母版幻灯片、布局幻灯片、幻灯片、注释母版、注释幻灯片和讲义母版。
 type: docs
 weight: 10
 url: /zh/aspose.slides/presentationheaderfootermanager/setalldatetimestext/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/presentationheaderfootermanager/setalldatetimestext/
 
 ## PresentationHeaderFooterManager.SetAllDateTimesText 方法
 
-将文本设置到所有日期-时间占位符，包括母版幻灯片、布局幻灯片、幻灯片、注释母版、注释幻灯片和手册母版。
+设置所有日期时间占位符的文本，包括母版幻灯片、布局幻灯片、幻灯片、注释母版、注释幻灯片和讲义母版。
 
 ```csharp
 public void SetAllDateTimesText(string text)

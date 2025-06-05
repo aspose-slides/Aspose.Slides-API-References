@@ -1,6 +1,6 @@
 ---
 title: AllNodes
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve colecciones de todos los nodos en el objeto SmartArt. Solo lectura ISmartArtNodeCollectionaspose.slides.smartart/ismartartnodecollection.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Devuelve colecciones de todos los nodos en el objeto SmartArt. Solo lectura [`IS
 public ISmartArtNodeCollection AllNodes { get; }
 ```
 
-### Véase también
+### Vea También
 
 * interfaz [ISmartArtNodeCollection](../../ismartartnodecollection)
 * clase [SmartArt](../../smartart)

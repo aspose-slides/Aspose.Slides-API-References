@@ -1,6 +1,6 @@
 ---
-title: 矩形对齐
-second_title: Aspose.Slides for .NET API 参考
+title: RectangleAlign
+second_title: Aspose.Sildes for .NET API Reference
 description: 矩形对齐。读/写 RectangleAlignmentaspose.slides/rectanglealignment。
 type: docs
 weight: 70
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.effects/reflection/rectanglealign/
 public RectangleAlignment RectangleAlign { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * enum [RectangleAlignment](../../../aspose.slides/rectanglealignment)
 * class [Reflection](../../reflection)

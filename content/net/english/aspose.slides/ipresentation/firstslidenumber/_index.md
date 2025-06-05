@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/ipresentation/firstslidenumber/
 ---
+
 ## IPresentation.FirstSlideNumber property
 
 Represents the first slide number in the presentation. Read/write Int32.

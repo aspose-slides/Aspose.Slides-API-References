@@ -1,13 +1,13 @@
 ---
-title: Ajouter
-second_title: Référence API Aspose.Slides pour .NET
+title: Add
+second_title: Aspose.Slides pour la référence de l'API .NET
 description: Ajoute la nouvelle référence à la collection de références
 type: docs
 weight: 20
 url: /fr/aspose.slides.vba/ivbareferencecollection/add/
 ---
 
-## Méthode IVbaReferenceCollection.Add
+## IVbaReferenceCollection.Add méthode
 
 Ajoute la nouvelle référence à la collection de références
 

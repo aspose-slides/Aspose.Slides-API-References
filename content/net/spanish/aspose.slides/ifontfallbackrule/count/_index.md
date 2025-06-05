@@ -1,13 +1,13 @@
 ---
-title: Contar
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Count
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Obtiene el número de fuentes realmente definidas para el rango.
 type: docs
 weight: 10
 url: /es/aspose.slides/ifontfallbackrule/count/
 ---
 
-## Propiedad IFontFallBackRule.Count
+## IFontFallBackRule.Count property
 
 Obtiene el número de fuentes realmente definidas para el rango.
 
@@ -15,10 +15,10 @@ Obtiene el número de fuentes realmente definidas para el rango.
 public int Count { get; }
 ```
 
-### Ver También
+### Ver también
 
-* interfaz [IFontFallBackRule](../../ifontfallbackrule)
-* espacio de nombres [Aspose.Slides](../../ifontfallbackrule)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IFontFallBackRule](../../ifontfallbackrule)
+* espacio de nombres [Aspose.Slides](../../ifontfallbackrule)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

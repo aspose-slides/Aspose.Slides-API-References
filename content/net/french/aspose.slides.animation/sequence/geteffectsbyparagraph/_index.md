@@ -1,13 +1,13 @@
 ---
 title: GetEffectsByParagraph
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie un tableau d'effets pour le paragraphe spécifié.
 type: docs
 weight: 70
 url: /fr/aspose.slides.animation/sequence/geteffectsbyparagraph/
 ---
 
-## Méthode Sequence.GetEffectsByParagraph
+## Methode Sequence.GetEffectsByParagraph
 
 Renvoie un tableau d'effets pour le paragraphe spécifié.
 

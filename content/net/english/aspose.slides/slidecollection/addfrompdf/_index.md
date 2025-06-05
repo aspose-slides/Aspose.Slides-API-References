@@ -6,7 +6,8 @@ type: docs
 weight: 80
 url: /aspose.slides/slidecollection/addfrompdf/
 ---
-## AddFromPdf(string) {#addfrompdf_1}
+
+## AddFromPdf(string) {#addfrompdf_2}
 
 Creates slides from the PDF document and adds them to the end of the collection.
 
@@ -38,6 +39,46 @@ using (Presentation pres = new Presentation())
 ### See Also
 
 * interface [ISlide](../../islide)
+* class [SlideCollection](../../slidecollection)
+* namespace [Aspose.Slides](../../slidecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## AddFromPdf(string, PdfImportOptions) {#addfrompdf_3}
+
+Creates slides from the PDF document and adds them to the end of the collection considering the pdf import options.
+
+```csharp
+public ISlide[] AddFromPdf(string path, PdfImportOptions pdfImportOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | String | A path to the PDF document |
+| pdfImportOptions | PdfImportOptions | Options for pdf import |
+
+### Return Value
+
+Added slides
+
+### Examples
+
+Example:
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation())
+{
+    pres.Slides.AddFromPdf("document.pdf, new PdfImportOptions { DetectTables = true });
+    pres.Save("fromPdfDocument.pptx", SaveFormat.Pptx);
+}
+```
+
+### See Also
+
+* interface [ISlide](../../islide)
+* class [PdfImportOptions](../../../aspose.slides.import/pdfimportoptions)
 * class [SlideCollection](../../slidecollection)
 * namespace [Aspose.Slides](../../slidecollection)
 * assembly [Aspose.Slides](../../../)
@@ -80,6 +121,50 @@ using (Presentation pres = new Presentation())
 ### See Also
 
 * interface [ISlide](../../islide)
+* class [SlideCollection](../../slidecollection)
+* namespace [Aspose.Slides](../../slidecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## AddFromPdf(Stream, PdfImportOptions) {#addfrompdf_1}
+
+Creates slides from the PDF document and adds them to the end of the collection.
+
+```csharp
+public ISlide[] AddFromPdf(Stream pdfStream, PdfImportOptions pdfImportOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pdfStream | Stream | A stream which will be used as a source of the PDF document |
+| pdfImportOptions | PdfImportOptions | Options for pdf import |
+
+### Return Value
+
+Added slides
+
+### Examples
+
+Example:
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation())
+{
+    using (Stream stream = new FileStream("document.pdf", FileMode.Open, FileAccess.Read, FileShare.Read))
+    {
+        pres.Slides.AddFromPdf(stream, new PdfImportOptions { DetectTables = true });
+    }
+    
+    pres.Save("fromPdfDocument.pptx", SaveFormat.Pptx);
+}
+```
+
+### See Also
+
+* interface [ISlide](../../islide)
+* class [PdfImportOptions](../../../aspose.slides.import/pdfimportoptions)
 * class [SlideCollection](../../slidecollection)
 * namespace [Aspose.Slides](../../slidecollection)
 * assembly [Aspose.Slides](../../../)

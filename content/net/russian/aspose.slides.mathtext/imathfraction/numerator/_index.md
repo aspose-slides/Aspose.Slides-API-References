@@ -1,13 +1,13 @@
 ---
-title: Числитель
-second_title: Справочник API Aspose.Slides для .NET
-description: Числитель
+title: Numerator
+second_title: Aspose.Slides для .NET API Справочник
+description: Numerator
 type: docs
 weight: 40
 url: /ru/aspose.slides.mathtext/imathfraction/numerator/
 ---
 
-## Свойство IMathFraction.Numerator
+## IMathFraction.Numerator свойство
 
 Числитель
 

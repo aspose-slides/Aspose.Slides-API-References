@@ -1,21 +1,21 @@
 ---
-title: 底部
-second_title: Aspose.Slides for .NET API 参考
-description: 底部。只读单精度浮点数。
+title: Bottom
+second_title: Aspose.Sildes for .NET API Reference
+description: Bottom. 只读单精度浮点数。
 type: docs
 weight: 60
 url: /zh/aspose.slides.charts/datalabel/bottom/
 ---
 
-## DataLabel.Bottom 属性
+## DataLabel.Bottom property
 
-底部。只读单精度浮点数。
+Bottom. 只读单精度浮点数。
 
 ```csharp
 public float Bottom { get; }
 ```
 
-### 参见
+### 另请参阅
 
 * class [DataLabel](../../datalabel)
 * namespace [Aspose.Slides.Charts](../../datalabel)

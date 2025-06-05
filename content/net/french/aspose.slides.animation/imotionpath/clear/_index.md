@@ -1,5 +1,5 @@
 ---
-title: Effacer
+title: Clear
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Supprime toutes les commandes de la collection.
 type: docs
@@ -7,7 +7,7 @@ weight: 50
 url: /fr/aspose.slides.animation/imotionpath/clear/
 ---
 
-## Méthode IMotionPath.Clear
+## IMotionPath.Clear méthode
 
 Supprime toutes les commandes de la collection.
 

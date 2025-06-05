@@ -1,7 +1,7 @@
 ---
 title: ChartDataWorksheet
 second_title: Aspose.Slides für .NET API Referenz
-description: Ruft das Arbeitsblatt ab. Nur lesen IChartDataWorksheet aspose.slides.charts/ichartdataworksheet.
+description: Ruft das Arbeitsblatt ab. Nur-Lese IChartDataWorksheetaspose.slides.charts/ichartdataworksheet.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/chartdatacell/chartdataworksheet/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartdatacell/chartdataworksheet/
 
 ## ChartDataCell.ChartDataWorksheet-Eigenschaft
 
-Ruft das Arbeitsblatt ab. Nur lesen [`IChartDataWorksheet`](../../ichartdataworksheet).
+Ruft das Arbeitsblatt ab. Nur-Lese [`IChartDataWorksheet`](../../ichartdataworksheet).
 
 ```csharp
 public IChartDataWorksheet ChartDataWorksheet { get; }

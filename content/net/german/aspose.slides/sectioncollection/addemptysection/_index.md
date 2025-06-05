@@ -1,7 +1,7 @@
 ---
 title: AddEmptySection
-second_title: Aspose.Slides für .NET API-Referenz
-description: Füge eine leere Sektion an der angegebenen Position der Sammlung hinzu.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Fügen Sie eine leere Sektion an der angegebenen Position der Sammlung hinzu.
 type: docs
 weight: 50
 url: /de/aspose.slides/sectioncollection/addemptysection/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/sectioncollection/addemptysection/
 
 ## SectionCollection.AddEmptySection Methode
 
-Füge eine leere Sektion an der angegebenen Position der Sammlung hinzu.
+Fügen Sie eine leere Sektion an der angegebenen Position der Sammlung hinzu.
 
 ```csharp
 public ISection AddEmptySection(string name, int index)

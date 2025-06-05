@@ -1,13 +1,13 @@
 ---
 title: FontSubstRule
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建新实例。
 type: docs
 weight: 10
 url: /zh/aspose.slides/fontsubstrule/fontsubstrule/
 ---
 
-## FontSubstRule(IFontData, IFontData) {#constructor}
+## FontSubstRule(IFontData, IFontData) {#constructor}
 
 创建新实例。
 
@@ -20,7 +20,7 @@ public FontSubstRule(IFontData sourceFont, IFontData destFont)
 | sourceFont | IFontData | 源字体。 |
 | destFont | IFontData | 目标字体。 |
 
-### 参见
+### 另请参阅
 
 * 接口 [IFontData](../../ifontdata)
 * 类 [FontSubstRule](../../fontsubstrule)
@@ -29,7 +29,7 @@ public FontSubstRule(IFontData sourceFont, IFontData destFont)
 
 ---
 
-## FontSubstRule(IFontData, IFontData, FontSubstCondition) {#constructor_1}
+## FontSubstRule(IFontData, IFontData, FontSubstCondition) {#constructor_1}
 
 创建新实例。
 
@@ -41,9 +41,9 @@ public FontSubstRule(IFontData sourceFont, IFontData destFont, FontSubstConditio
 | --- | --- | --- |
 | sourceFont | IFontData | 源字体。 |
 | destFont | IFontData | 目标字体。 |
-| fontSubstRule | FontSubstCondition | 字体替代规则。 |
+| fontSubstRule | FontSubstCondition | 字体替换规则。 |
 
-### 参见
+### 另请参阅
 
 * 接口 [IFontData](../../ifontdata)
 * 枚举 [FontSubstCondition](../../fontsubstcondition)

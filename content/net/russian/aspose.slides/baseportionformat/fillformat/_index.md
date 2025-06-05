@@ -1,13 +1,13 @@
 ---
 title: FillFormat
-second_title: Aspose.Slides для .NET API Reference
-description: Возвращает свойства текста FillFormat. Наследование не применяется. Только для чтения IFillFormataspose.slides/ifillformat.
+second_title: Справка по API Aspose.Slides для .NET
+description: Возвращает свойства текста FillFormat. Наследование не применяется. Только для чтения IFillFormat aspose.slides/ifillformat.
 type: docs
 weight: 60
 url: /ru/aspose.slides/baseportionformat/fillformat/
 ---
 
-## Свойство BasePortionFormat.FillFormat
+## BasePortionFormat.FillFormat свойство
 
 Возвращает свойства текста FillFormat. Наследование не применяется. Только для чтения [`IFillFormat`](../../ifillformat).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/baseportionformat/fillformat/
 public IFillFormat FillFormat { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IFillFormat](../../ifillformat)
 * класс [BasePortionFormat](../../baseportionformat)

@@ -1,7 +1,7 @@
 ---
 title: InsertAutoShape
-second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt ein neues AutoShape, passt es aus der Standardvorlage an und fügt es an dem angegebenen Index in die Sammlung ein. Beachten Sie, dass der Typ der Form durch den Parameter shapeType bestimmt wird.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Erstellt eine neue AutoShape, passt sie vom Standardtemplate an und fügt sie an der angegebenen Indexposition der Sammlung hinzu. Beachten Sie, dass der Typ der Form durch den Parameter shapeType bestimmt wird.
 type: docs
 weight: 250
 url: /de/aspose.slides/ishapecollection/insertautoshape/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ishapecollection/insertautoshape/
 
 ## InsertAutoShape(int, ShapeType, float, float, float, float) {#insertautoshape}
 
-Erschafft ein neues AutoShape, passt es aus der Standardvorlage an und fügt es an dem angegebenen Index in die Sammlung ein. Hinweis: Der Typ der Form wird durch den Parameter shapeType bestimmt.
+Erstellt eine neue AutoShape, passt sie vom Standardtemplate an und fügt sie an der angegebenen Indexposition der Sammlung hinzu. Hinweis: Der Typ der Form wird durch den Parameter shapeType bestimmt.
 
 ```csharp
 public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float y, float width, 
@@ -18,7 +18,7 @@ public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Der nullbasierte Index, an dem der Wert eingefügt werden soll. |
+| index | Int32 | Der null-basierte Index, an dem der Wert eingefügt werden soll. |
 | shapeType | ShapeType | Ein [`ShapeType`](../../shapetype) der Form. |
 | x | Single | Die X-Koordinate für die linke Seite des Rahmens der Form. |
 | y | Single | Die Y-Koordinate für die obere Seite des Rahmens der Form. |
@@ -41,7 +41,7 @@ Erstelltes AutoShape-Objekt.
 
 ## InsertAutoShape(int, ShapeType, float, float, float, float, bool) {#insertautoshape_1}
 
-Erschafft ein neues AutoShape und fügt es an dem angegebenen Index in die Sammlung ein. Hinweis: Der Typ der Form wird durch den Parameter shapeType bestimmt.
+Erstellt eine neue AutoShape und fügt sie an der angegebenen Indexposition der Sammlung hinzu. Hinweis: Der Typ der Form wird durch den Parameter shapeType bestimmt.
 
 ```csharp
 public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float y, float width, 
@@ -50,13 +50,13 @@ public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Der nullbasierte Index, an dem der Wert eingefügt werden soll. |
+| index | Int32 | Der null-basierte Index, an dem der Wert eingefügt werden soll. |
 | shapeType | ShapeType | Ein [`ShapeType`](../../shapetype) der Form. |
 | x | Single | Die X-Koordinate für die linke Seite des Rahmens der Form. |
 | y | Single | Die Y-Koordinate für die obere Seite des Rahmens der Form. |
 | width | Single | Die Breite des Rahmens der Form. |
 | height | Single | Die Höhe des Rahmens der Form. |
-| createFromTemplate | Boolean | Wenn true, wird die neue Form aus der Standardvorlage angepasst. Es wird ein nicht leerer Name, ein einfacher Stil und zentrierter Text der neuen Form zugewiesen. Wenn false, haben alle Werte der Eigenschaften der neuen Form Standardwerte. |
+| createFromTemplate | Boolean | Wenn wahr, wird die neue Form vom Standardtemplate angepasst. Ein nicht leerer Name, einfacher Stil, zentrierter Text wird der neuen Form zugewiesen. Wenn falsch, haben alle Werte der Eigenschaften der neuen Form Standardwerte. |
 
 ### Rückgabewert
 

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/documentproperties/appversion/
 ---
+
 ## DocumentProperties.AppVersion property
 
 Returns the app version. Read-only String.

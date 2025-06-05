@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/comment/text/
 ---
+
 ## Comment.Text property
 
 Returns or sets the plain text of a slide comment. Read/write String.

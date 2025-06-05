@@ -1,7 +1,7 @@
 ---
-title: Alignement
-second_title: Aspose.Slides pour .NET Référence API
-description: Renvoie l'alignement du texte dans un paragraphe. Lecture seule TextAlignmentaspose.slides/textalignment.
+title: Alignment
+second_title: Aspose.Slides pour la référence API .NET
+description: Renvoie l'alignement du texte dans un paragraphe. Lecture seule TextAlignment aspose.slides/textalignment.
 type: docs
 weight: 10
 url: /fr/aspose.slides/iparagraphformateffectivedata/alignment/

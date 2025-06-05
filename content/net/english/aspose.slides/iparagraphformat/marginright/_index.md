@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides/iparagraphformat/marginright/
 ---
+
 ## IParagraphFormat.MarginRight property
 
 Returns or sets the right margin in a paragraph with no inheritance. Read/write Single.

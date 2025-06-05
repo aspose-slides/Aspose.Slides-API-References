@@ -1,7 +1,7 @@
 ---
 title: ExtraColorScheme
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente un schéma de couleur supplémentaire qui peut être assigné à une diapositive.
+second_title: Aspose.Sildes pour la référence de l'API .NET
+description: Représente un schéma de couleurs supplémentaire qui peut être attribué à une diapositive.
 type: docs
 weight: 10790
 url: /fr/aspose.slides.theme/extracolorscheme/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.theme/extracolorscheme/
 
 ## Classe ExtraColorScheme
 
-Représente un schéma de couleur supplémentaire qui peut être assigné à une diapositive.
+Représente un schéma de couleurs supplémentaire qui peut être attribué à une diapositive.
 
 ```csharp
 public class ExtraColorScheme : IExtraColorScheme
@@ -19,7 +19,7 @@ public class ExtraColorScheme : IExtraColorScheme
 
 | Nom | Description |
 | --- | --- |
-| [ColorScheme](../../aspose.slides.theme/extracolorscheme/colorscheme) { get; } | Renvoie un schéma de couleur. En lecture seule [`IColorScheme`](../icolorscheme). |
+| [ColorScheme](../../aspose.slides.theme/extracolorscheme/colorscheme) { get; } | Renvoie un schéma de couleurs. Lecture seule [`IColorScheme`](../icolorscheme). |
 | [Name](../../aspose.slides.theme/extracolorscheme/name) { get; } | Renvoie le nom de ce schéma. Chaîne en lecture seule. |
 
 ### Voir aussi

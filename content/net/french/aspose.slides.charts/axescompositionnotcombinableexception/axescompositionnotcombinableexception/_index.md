@@ -1,6 +1,6 @@
 ---
 title: AxesCompositionNotCombinableException
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Constructeur par défaut.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Constructeur par défaut.
 public AxesCompositionNotCombinableException()
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [AxesCompositionNotCombinableException](../../axescompositionnotcombinableexception)
 * espace de noms [Aspose.Slides.Charts](../../axescompositionnotcombinableexception)
@@ -35,7 +35,7 @@ public AxesCompositionNotCombinableException(string message)
 | --- | --- | --- |
 | message | String | message |
 
-### Voir aussi
+### Voir Aussi
 
 * classe [AxesCompositionNotCombinableException](../../axescompositionnotcombinableexception)
 * espace de noms [Aspose.Slides.Charts](../../axescompositionnotcombinableexception)
@@ -45,7 +45,7 @@ public AxesCompositionNotCombinableException(string message)
 
 ## AxesCompositionNotCombinableException(string, Exception) {#constructor_2}
 
-Constructeur pour une exception contenant un message et une exception imbriquée.
+Constructeur pour une exception contenant un message et une exception intégrée.
 
 ```csharp
 public AxesCompositionNotCombinableException(string message, Exception exception)
@@ -54,9 +54,9 @@ public AxesCompositionNotCombinableException(string message, Exception exception
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | message | String | message |
-| exception | Exception | exception originale |
+| exception | Exception | exception d'origine |
 
-### Voir aussi
+### Voir Aussi
 
 * classe [AxesCompositionNotCombinableException](../../axescompositionnotcombinableexception)
 * espace de noms [Aspose.Slides.Charts](../../axescompositionnotcombinableexception)

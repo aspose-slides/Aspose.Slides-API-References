@@ -1,6 +1,6 @@
 ---
-title: 写入绑定演示文稿
-second_title: Aspose.Slides for .NET API 参考
+title: WriteBindedPresentation
+second_title: Aspose.Sildes for .NET API Reference
 description: 将绑定的演示文稿写入流。
 type: docs
 weight: 90
@@ -19,7 +19,7 @@ public void WriteBindedPresentation(Stream stream)
 | --- | --- | --- |
 | stream | Stream | 流必须是可查找和可写的。 |
 
-### 另见
+### 另请参见
 
 * class [PresentationInfo](../../presentationinfo)
 * namespace [Aspose.Slides](../../presentationinfo)
@@ -39,7 +39,7 @@ public void WriteBindedPresentation(string file)
 | --- | --- | --- |
 | file | String | 演示文稿文件。 |
 
-### 另见
+### 另请参见
 
 * class [PresentationInfo](../../presentationinfo)
 * namespace [Aspose.Slides](../../presentationinfo)

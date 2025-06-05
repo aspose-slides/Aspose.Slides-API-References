@@ -1,7 +1,7 @@
 ---
 title: ActiveXControlBinary
-second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie la persistance d'un contrôle ActiveX lorsque la méthode utilisée pour persister est soit PersistStream, soit PersistStreamInit, soit PersistStorage.
+second_title: Aspose.Slides pour la documentation API .NET
+description: Spécifie la persistance d'un contrôle ActiveX lorsque la méthode utilisée pour persister est soit PersistStream, PersistStreamInit ou PersistStorage.
 type: docs
 weight: 10
 url: /fr/aspose.slides/control/activexcontrolbinary/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/control/activexcontrolbinary/
 
 ## Propriété Control.ActiveXControlBinary
 
-Spécifie la persistance d'un contrôle ActiveX lorsque la méthode utilisée pour persister est soit PersistStream, soit PersistStreamInit, soit PersistStorage.
+Spécifie la persistance d'un contrôle ActiveX lorsque la méthode utilisée pour persister est soit PersistStream, PersistStreamInit ou PersistStorage.
 
 ```csharp
 public byte[] ActiveXControlBinary { get; }
@@ -17,7 +17,7 @@ public byte[] ActiveXControlBinary { get; }
 
 ### Exemples
 
-L'exemple suivant montre l'utilisation de la propriété ActiveXControlBinary pour changer les propriétés ActiveX :
+L'exemple suivant montre l'utilisation de la propriété ActiveXControlBinary pour changer les propriétés ActiveX:
 
 ```csharp
 [C#]

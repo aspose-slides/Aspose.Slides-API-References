@@ -1,7 +1,7 @@
 ---
-title: Iguales
-second_title: Referencia de la API de Aspose.Slidess para .NET
-description: Determina si el AlphaFlooraspose.slides.effects/alphafloor especificado es igual al AlphaFlooraspose.slides.effects/alphafloor actual.
+title: Equals
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Determina si el AlphaFloor especificado aspose.slides.effects/alphafloor es igual al AlphaFloor actual aspose.slides.effects/alphafloor.
 type: docs
 weight: 10
 url: /es/aspose.slides.effects/alphafloor/equals/
@@ -19,14 +19,14 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | El [`AlphaFloor`](../../alphafloor) a comparar. |
 
-### Valor de retorno
+### Valor de Retorno
 
 true si los objetos son iguales; de lo contrario, false.
 
-### Ver también
+### Véase También
 
-* clase [AlphaFloor](../../alphafloor)
-* espacio de nombres [Aspose.Slides.Effects](../../alphafloor)
-* ensamblado [Aspose.Slides](../../../)
+* clase [AlphaFloor](../../alphafloor)
+* espacio de nombres [Aspose.Slides.Effects](../../alphafloor)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

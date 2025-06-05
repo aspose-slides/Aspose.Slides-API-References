@@ -1,6 +1,6 @@
 ---
 title: DpiY
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Especifica la resolución vertical en puntos por pulgada. Lectura/escritura UInt32.
 type: docs
 weight: 50

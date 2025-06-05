@@ -1,7 +1,7 @@
 ---
-title: Geschwindigkeit
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Prozentsatz an, um den die Zeitbeschleunigung oder -verzögerung erfolgt. Lese-/Schreib-Single.
+title: Speed
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt den Prozentsatz an, um den die Zeit beschleunigt oder verlangsamt werden soll. Lesen/Schreiben Einzel.
 type: docs
 weight: 110
 url: /de/aspose.slides.animation/timing/speed/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/timing/speed/
 
 ## Timing.Speed-Eigenschaft
 
-Gibt den Prozentsatz an, um den die Zeitbeschleunigung (oder -verzögerung) erfolgt. Lese-/Schreib-Single.
+Gibt den Prozentsatz an, um den die Zeit beschleunigt (oder verlangsamt) werden soll. Lesen/Schreiben Einzel.
 
 ```csharp
 public float Speed { get; set; }

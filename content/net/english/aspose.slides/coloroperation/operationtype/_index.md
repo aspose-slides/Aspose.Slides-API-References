@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/coloroperation/operationtype/
 ---
+
 ## ColorOperation.OperationType property
 
 Returns or sets the type of an operation. Read-only [`ColorTransformOperation`](../../colortransformoperation).

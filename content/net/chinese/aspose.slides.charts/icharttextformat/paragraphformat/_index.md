@@ -1,6 +1,6 @@
 ---
-title: 段落格式
-second_title: Aspose.Slides for .NET API 参考
+title: ParagraphFormat
+second_title: Aspose.Slidес for .NET API Reference
 description: 返回段落格式。只读 IChartParagraphFormataspose.slides.charts/ichartparagraphformat。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/icharttextformat/paragraphformat/
 public IChartParagraphFormat ParagraphFormat { get; }
 ```
 
-### 参见
+### 另见
 
 * 接口 [IChartParagraphFormat](../../ichartparagraphformat)
 * 接口 [IChartTextFormat](../../icharttextformat)

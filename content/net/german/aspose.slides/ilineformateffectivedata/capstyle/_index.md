@@ -1,7 +1,7 @@
 ---
 title: CapStyle
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Linienkopf-Stil zurück. Nur lesbares LineCapStyleaspose.slides/linecapstyle.
+description: Gibt den Linienkopf-Stil zurück. Nur lesbare LineCapStyleaspose.slides/linecapstyle.
 type: docs
 weight: 60
 url: /de/aspose.slides/ilineformateffectivedata/capstyle/

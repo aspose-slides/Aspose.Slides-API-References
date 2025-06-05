@@ -1,7 +1,7 @@
 ---
 title: HSL
-second_title: Справка по API Aspose.Slides для .NET
-description: Представляет эффект «Оттенок/Насыщенность/Яркость». Оттенок, насыщенность и яркость могут быть настроены относительно их текущего значения.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет эффект оттенка/насыщенности/яркости. Оттенок, насыщенность и яркость могут быть отрегулированы относительно своего текущего значения.
 type: docs
 weight: 2910
 url: /ru/aspose.slides.effects/hsl/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/hsl/
 
 ## Класс HSL
 
-Представляет эффект «Оттенок/Насыщенность/Яркость». Оттенок, насыщенность и яркость могут быть настроены относительно их текущего значения.
+Представляет эффект оттенка/насыщенности/яркости. Оттенок, насыщенность и яркость могут быть отрегулированы относительно своего текущего значения.
 
 ```csharp
 public sealed class HSL : ImageTransformOperation, IHSL
@@ -17,17 +17,17 @@ public sealed class HSL : ImageTransformOperation, IHSL
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/hsl/equals)(object) | Определяет, равно ли указанное [`HSL`](../hsl) текущему [`HSL`](../hsl). |
-| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | Получает данные об эффективном эффекте «Оттенок/Насыщенность/Яркость» с применением наследования. |
-| override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | Служит хэш-функцией для конкретного типа. |
+| override [Equals](../../aspose.slides.effects/hsl/equals)(object) | Определяет, равен ли заданный [`HSL`](../hsl) текущему [`HSL`](../hsl). |
+| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | Получает данные эффективного эффекта оттенка/насыщенности/яркости с примененным наследованием. |
+| override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | Служит хеш-функцией для конкретного типа. |
 
 ### Смотрите также
 

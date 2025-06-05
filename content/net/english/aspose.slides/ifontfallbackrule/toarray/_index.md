@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/ifontfallbackrule/toarray/
 ---
+
 ## ToArray() {#toarray}
 
 Creates and returns an array with all FallBack fonts for this rule.

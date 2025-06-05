@@ -1,7 +1,7 @@
 ---
 title: FromColor
-second_title: Aspose.Slides für .NET API-Referenz
-description: Farbe, die ersetzt werden soll. Nur lesen IColorFormataspose.slides/icolorformat.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Farbe, die ersetzt werden soll. Nur lesbar IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 10
 url: /de/aspose.slides.effects/colorchange/fromcolor/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/colorchange/fromcolor/
 
 ## ColorChange.FromColor-Eigenschaft
 
-Farbe, die ersetzt werden soll. Nur lesen [`IColorFormat`](../../../aspose.slides/icolorformat).
+Farbe, die ersetzt werden soll. Nur lesbar [`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat FromColor { get; }

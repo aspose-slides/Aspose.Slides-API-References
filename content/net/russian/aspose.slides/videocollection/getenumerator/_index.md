@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает перечислитель, который проходит через коллекцию.
+description: Возвращает перечислитель, который перебирает коллекцию.
 type: docs
 weight: 70
 url: /ru/aspose.slides/videocollection/getenumerator/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/videocollection/getenumerator/
 
 ## VideoCollection.GetEnumerator метод
 
-Возвращает перечислитель, который проходит через коллекцию.
+Возвращает перечислитель, который перебирает коллекцию.
 
 ```csharp
 public IEnumerator<IVideo> GetEnumerator()
@@ -17,9 +17,9 @@ public IEnumerator<IVideo> GetEnumerator()
 
 ### Возвращаемое значение
 
-IEnumerator, который можно использовать для перебора коллекции.
+IEnumerator, который может быть использован для перебора коллекции.
 
-### Смотрите также
+### См. также
 
 * интерфейс [IVideo](../../ivideo)
 * класс [VideoCollection](../../videocollection)

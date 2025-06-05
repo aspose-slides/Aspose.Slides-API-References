@@ -1,6 +1,6 @@
 ---
 title: SetColumnsAlignment
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence d'API
 description: Définir l'alignement horizontal des colonnes spécifiées
 type: docs
 weight: 210
@@ -23,7 +23,7 @@ public void SetColumnsAlignment(int columnIndex, uint columnsCount, MathHorizont
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

@@ -1,7 +1,7 @@
 ---
 title: ITintEffectiveData
-second_title: Aspose.Sildes for .NET API 参考
-description: 不可变对象，表示一个色调效果。通过指定的量将效果颜色值向色相移动/远离。
+second_title: Aspose.Sildes for .NET API Reference
+description: 不可变对象，表示一个色调效果。根据指定的数量将效果颜色值向色相移动或远离。
 type: docs
 weight: 3430
 url: /zh/aspose.slides.effects/itinteffectivedata/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/itinteffectivedata/
 
 ## ITintEffectiveData 接口
 
-不可变对象，表示一个色调效果。通过指定的量将效果颜色值向色相移动/远离。
+不可变对象，表示一个色调效果。根据指定的数量将效果颜色值向色相移动或远离。
 
 ```csharp
 public interface ITintEffectiveData : IEffectEffectiveData
@@ -19,11 +19,11 @@ public interface ITintEffectiveData : IEffectEffectiveData
 
 | 名称 | 描述 |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/itinteffectivedata/amount) { get; } | 返回效果量。只读 Single。 |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/itinteffectivedata/asieffecteffectivedata) { get; } | 允许获取基础 IEffectEffectiveData 接口。只读 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
-| [Hue](../../aspose.slides.effects/itinteffectivedata/hue) { get; } | 返回色相。只读 Single。 |
+| [Amount](../../aspose.slides.effects/itinteffectivedata/amount) { get; } | 返回效果数量。只读单精度浮点数。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/itinteffectivedata/asieffecteffectivedata) { get; } | 允许获取基接口 IEffectEffectiveData。只读 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [Hue](../../aspose.slides.effects/itinteffectivedata/hue) { get; } | 返回色相。只读单精度浮点数。 |
 
-### 另见
+### 参见
 
 * 接口 [IEffectEffectiveData](../ieffecteffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../aspose.slides.effects)

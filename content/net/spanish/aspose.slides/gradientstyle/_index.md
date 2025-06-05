@@ -22,7 +22,7 @@ public enum GradientStyle
 | Default | `0` | El estilo de degradado predeterminado. |
 | PowerPointUI | `1` | El estilo de degradado tal como aparece en la interfaz de usuario de PowerPoint. |
 
-### Véase también
+### Ver También
 
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
 * ensamblado [Aspose.Slides](../../)

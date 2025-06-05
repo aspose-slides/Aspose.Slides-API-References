@@ -1,15 +1,15 @@
 ---
 title: BlurRadius
-second_title: Aspose.Slides für .NET API Referenz
-description: Unschärferadius. Lese-/Schreibbarer Double.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Unschärferadius. Lese-/Schreib-Doppel.
 type: docs
 weight: 30
 url: /de/aspose.slides.effects/ireflection/blurradius/
 ---
 
-## IReflection.BlurRadius Eigenschaft
+## IReflection.BlurRadius-Eigenschaft
 
-Unschärferadius. Lese-/Schreibbarer Double.
+Unschärferadius. Lese-/Schreib-Doppel.
 
 ```csharp
 public double BlurRadius { get; set; }

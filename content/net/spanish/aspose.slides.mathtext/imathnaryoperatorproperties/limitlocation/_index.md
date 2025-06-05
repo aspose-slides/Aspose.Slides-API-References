@@ -1,15 +1,15 @@
 ---
 title: LimitLocation
-second_title: Referencia de API de Aspose.Slides para .NET
-description: La ubicación de límites subíndice y superíndice
+second_title: Aspose.Slides para .NET Referencia de API
+description: La ubicación de los límites subíndice y superíndice
 type: docs
 weight: 40
 url: /es/aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation/
 ---
 
-## Propiedad IMathNaryOperatorProperties.LimitLocation
+## IMathNaryOperatorProperties.LimitLocation property
 
-La ubicación de límites (subíndice y superíndice)
+La ubicación de los límites (subíndice y superíndice)
 
 ```csharp
 public MathLimitLocations LimitLocation { get; set; }

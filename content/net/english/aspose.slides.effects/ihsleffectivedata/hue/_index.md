@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/ihsleffectivedata/hue/
 ---
+
 ## IHSLEffectiveData.Hue property
 
 Returns hue percentage. Read-only Single.

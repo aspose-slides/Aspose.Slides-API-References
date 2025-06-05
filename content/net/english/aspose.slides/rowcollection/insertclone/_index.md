@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/rowcollection/insertclone/
 ---
+
 ## RowCollection.InsertClone method
 
 Creates a copy of the specified template row and insert it at the specified position in a table.

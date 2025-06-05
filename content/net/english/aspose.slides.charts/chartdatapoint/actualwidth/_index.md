@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/chartdatapoint/actualwidth/
 ---
+
 ## ChartDataPoint.ActualWidth property
 
 Specifies actual width of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read Single.

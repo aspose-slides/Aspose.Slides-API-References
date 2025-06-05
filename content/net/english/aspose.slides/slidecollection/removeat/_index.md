@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides/slidecollection/removeat/
 ---
+
 ## SlideCollection.RemoveAt method
 
 Removes the element at the specified index of the collection.

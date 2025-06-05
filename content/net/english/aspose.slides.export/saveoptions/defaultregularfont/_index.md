@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export/saveoptions/defaultregularfont/
 ---
+
 ## SaveOptions.DefaultRegularFont property
 
 Returns or sets font used in case source font is not found. Read-write String.

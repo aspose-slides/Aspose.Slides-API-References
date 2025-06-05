@@ -1,21 +1,21 @@
 ---
 title: Rotation3D
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает 3D-вращение диаграммы. Только для чтения IRotation3D aspose.slides.charts/irotation3d.
+second_title: Aspose.Sildes for .NET API Reference
+description: Возвращает 3D вращение графика. Только для чтения IRotation3Daspose.slides.charts/irotation3d.
 type: docs
 weight: 170
 url: /ru/aspose.slides.charts/chart/rotation3d/
 ---
 
-## Свойство Chart.Rotation3D
+## Chart.Rotation3D свойство
 
-Возвращает 3D-вращение диаграммы. Только для чтения [`IRotation3D`](../../irotation3d).
+Возвращает 3D вращение графика. Только для чтения [`IRotation3D`](../../irotation3d).
 
 ```csharp
 public IRotation3D Rotation3D { get; }
 ```
 
-### См. также
+### Также смотрите
 
 * интерфейс [IRotation3D](../../irotation3d)
 * класс [Chart](../../chart)

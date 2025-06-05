@@ -1,23 +1,23 @@
 ---
 title: RelativeScaleHeight
-second_title: Aspose.Slides pour .NET Référence de l'API
-description: Renvoie ou définit l'échelle de hauteur par rapport à la taille d'image d'origine du cadre d'image. La valeur 1.0 correspond à 100. Lecture/écriture Simple.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Renvoie ou définit l'échelle de la hauteur par rapport à la taille d'image originale du cadre d'image. La valeur 1.0 correspond à 100. Lecture/écriture Simple.
 type: docs
 weight: 40
 url: /fr/aspose.slides/pictureframe/relativescaleheight/
 ---
 
-## Propriété PictureFrame.RelativeScaleHeight
+## PictureFrame.RelativeScaleHeight propriété
 
-Renvoie ou définit l'échelle de hauteur (par rapport à la taille d'image d'origine) du cadre d'image. La valeur 1.0 correspond à 100 %. Lecture/écriture Simple.
+Renvoie ou définit l'échelle de la hauteur (par rapport à la taille d'image originale) du cadre d'image. La valeur 1.0 correspond à 100 %. Lecture/écriture Simple.
 
 ```csharp
 public float RelativeScaleHeight { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
-* classe [PictureFrame](../../pictureframe)
+* class [PictureFrame](../../pictureframe)
 * namespace [Aspose.Slides](../../pictureframe)
 * assembly [Aspose.Slides](../../../)
 

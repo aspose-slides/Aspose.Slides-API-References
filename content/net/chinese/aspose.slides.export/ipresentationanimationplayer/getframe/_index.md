@@ -1,7 +1,7 @@
 ---
-title: 获取帧
-second_title: Aspose.Slides for .NET API 参考
-description: 获取使用 SetTimePosition../settimeposition 方法之前设置的当前时间位置的帧。
+title: GetFrame
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取当前时间位置的帧，此位置之前通过 SetTimePositionaspose.slides.export/ipresentationanimationplayer/settimeposition 方法设置。
 type: docs
 weight: 20
 url: /zh/aspose.slides.export/ipresentationanimationplayer/getframe/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/ipresentationanimationplayer/getframe/
 
 ## IPresentationAnimationPlayer.GetFrame 方法
 
-获取使用 [`SetTimePosition`](../settimeposition) 方法之前设置的当前时间位置的帧。
+获取通过 [`SetTimePosition`](../settimeposition) 方法之前设置的当前时间位置的帧。
 
 ```csharp
 public IImage GetFrame()

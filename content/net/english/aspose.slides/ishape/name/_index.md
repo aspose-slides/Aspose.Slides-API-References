@@ -3,9 +3,10 @@ title: Name
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets the name of a shape. Read/write String.
 type: docs
-weight: 160
+weight: 170
 url: /aspose.slides/ishape/name/
 ---
+
 ## IShape.Name property
 
 Returns or sets the name of a shape. Read/write String.

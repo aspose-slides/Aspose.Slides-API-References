@@ -1,5 +1,5 @@
 ---
-title: Verhaltensweisen
+title: Behaviors
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt eine Sammlung von Verhalten für den Effekt zurück. Lese-/Schreibzugriff auf IBehaviorCollectionaspose.slides.animation/ibehaviorcollection.
 type: docs
@@ -15,7 +15,7 @@ Gibt eine Sammlung von Verhalten für den Effekt zurück. Lese-/Schreibzugriff a
 public IBehaviorCollection Behaviors { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IBehaviorCollection](../../ibehaviorcollection)
 * Schnittstelle [IEffect](../../ieffect)

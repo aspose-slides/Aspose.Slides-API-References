@@ -1,13 +1,13 @@
 ---
 title: PptW
-second_title: Aspose.Slides для .NET API Reference
-description: Представляет свойство ppt_w
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет свойство 'ppt_w'
 type: docs
 weight: 540
 url: /ru/aspose.slides.animation/behaviorproperty/pptw/
 ---
 
-## Свойство BehaviorProperty.PptW
+## BehaviorProperty.PptW свойство
 
 Представляет свойство 'ppt_w'
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/behaviorproperty/pptw/
 public static BehaviorProperty PptW { get; }
 ```
 
-### См. также
+### Также смотри
 
 * класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)

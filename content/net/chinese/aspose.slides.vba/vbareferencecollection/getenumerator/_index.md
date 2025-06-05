@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Slides for .NET API 参考
-description: 返回一个用于迭代集合的枚举器。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回一个枚举器，遍历集合。
 type: docs
 weight: 70
 url: /zh/aspose.slides.vba/vbareferencecollection/getenumerator/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.vba/vbareferencecollection/getenumerator/
 
 ## VbaReferenceCollection.GetEnumerator 方法
 
-返回一个用于迭代集合的枚举器。
+返回一个枚举器，遍历集合。
 
 ```csharp
 public IEnumerator<IVbaReference> GetEnumerator()
@@ -17,9 +17,9 @@ public IEnumerator<IVbaReference> GetEnumerator()
 
 ### 返回值
 
-一个可以用于迭代集合的 IEnumerator。
+一个可以用于遍历集合的 IEnumerator。
 
-### 另见
+### 另请参见
 
 * 接口 [IVbaReference](../../ivbareference)
 * 类 [VbaReferenceCollection](../../vbareferencecollection)

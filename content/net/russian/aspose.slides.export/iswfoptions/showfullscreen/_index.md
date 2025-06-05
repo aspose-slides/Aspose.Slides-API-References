@@ -1,6 +1,6 @@
 ---
 title: ShowFullScreen
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Slides для .NET API Справочник
 description: Показать/скрыть кнопку полноэкранного режима. Может быть переопределено в flashvars. По умолчанию true.
 type: docs
 weight: 80
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export/iswfoptions/showfullscreen/
 public bool ShowFullScreen { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [ISwfOptions](../../iswfoptions)
 * пространство имен [Aspose.Slides.Export](../../iswfoptions)

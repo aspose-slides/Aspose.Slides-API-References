@@ -1,6 +1,6 @@
 ---
 title: CreateParagraph
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Aspose.Sildes pour .NET Référence API
 description: Crée un nouveau paragraphe vide.
 type: docs
 weight: 10
@@ -15,11 +15,11 @@ Crée un nouveau paragraphe vide.
 public IParagraph CreateParagraph()
 ```
 
-### Valeur de retour
+### Return Value
 
 Paragraphe.
 
-### Voir aussi
+### See Also
 
 * interface [IParagraph](../../iparagraph)
 * interface [IParagraphFactory](../../iparagraphfactory)
@@ -36,15 +36,15 @@ Crée un nouveau paragraphe avec les données du paragraphe spécifié.
 public IParagraph CreateParagraph(IParagraph paragraph)
 ```
 
-| Paramètre | Type | Description |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| paragraph | IParagraph | Un paragraphe à utiliser comme données. |
+| paragraph | IParagraph | Un paragraphe à utiliser pour les données. |
 
-### Valeur de retour
+### Return Value
 
 Paragraphe.
 
-### Voir aussi
+### See Also
 
 * interface [IParagraph](../../iparagraph)
 * interface [IParagraphFactory](../../iparagraphfactory)

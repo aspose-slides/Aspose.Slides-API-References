@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/irow/height/
 ---
+
 ## IRow.Height property
 
 Returns the height of a row. Read-only Double.

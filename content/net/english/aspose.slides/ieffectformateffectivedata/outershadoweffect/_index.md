@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/ieffectformateffectivedata/outershadoweffect/
 ---
+
 ## IEffectFormatEffectiveData.OuterShadowEffect property
 
 Outer shadow. Read-only [`IOuterShadowEffectiveData`](../../../aspose.slides.effects/ioutershadoweffectivedata).

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/ichartdata/chartdataworkbook/
 ---
+
 ## IChartData.ChartDataWorkbook property
 
 Gets the cells factory to create cells used for chart series or categories. Read-only [`IChartDataWorkbook`](../../ichartdataworkbook).

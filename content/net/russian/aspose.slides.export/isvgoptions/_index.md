@@ -1,7 +1,7 @@
 ---
 title: ISVGOptions
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет собой параметры SVG.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет параметры SVG.
 type: docs
 weight: 3890
 url: /ru/aspose.slides.export/isvgoptions/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export/isvgoptions/
 
 ## Интерфейс ISVGOptions
 
-Представляет собой параметры SVG.
+Представляет параметры SVG.
 
 ```csharp
 public interface ISVGOptions : ISaveOptions
@@ -20,20 +20,20 @@ public interface ISVGOptions : ISaveOptions
 | Имя | Описание |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/isvgoptions/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения [`ISaveOptions`](../isaveoptions). |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | Логический флаг, указывающий, останутся ли обрезанные части частью документа. Если true, обрезанные части будут удалены, если false, они будут сериализованы в документе (что может привести к увеличению размера файла). Чтение/запись Boolean. |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | Булев флаг, указывающий, остаются ли обрезанные части частью документа. Если true, обрезанные части будут удалены, если false, они будут сериализованы в документе (что может привести к увеличению размера файла) Чтение/запись Boolean. |
 | [Disable3DText](../../aspose.slides.export/isvgoptions/disable3dtext) { get; set; } | Определяет, отключен ли 3D текст в SVG. Чтение/запись Boolean. |
-| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | Получает или устанавливает значение, указывающее, будет ли текст отображаться без использования лигатур. При установке в `true` лигатуры будут отключены в рендерируемом выводе. По умолчанию это свойство установлено в `false`. |
-| [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | Отключает разделение градиентов FromCornerX и FromCenter. Чтение/запись Boolean. |
-| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | SVG 1.1 не имеет возможности определять отступы для маркеров. Система записи SVG Aspose.Slides имеет обход этого проблемы: она обрезает конец линии с стрелкой, так что линия не перекрывает маркеры. Эта опция отключает такое поведение. Чтение/запись Boolean. |
-| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | Определяет способ обработки внешне загруженных шрифтов. Чтение/запись [`SvgExternalFontsHandling`](../svgexternalfontshandling). |
-| [InkOptions](../../aspose.slides.export/isvgoptions/inkoptions) { get; } | Предоставляет параметры, которые управляют внешним видом объектов чернил в экспортированном документе. Только для чтения [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/isvgoptions/jpegquality) { get; set; } | Определяет качество JPEG-кодирования. Чтение/запись Int32. |
-| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | Возвращает или устанавливает нижний предел разрешения для растрации метафайлов. Чтение/запись Int32. |
-| [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | Представляет уровень сжатия изображений. Чтение/запись [`PicturesCompression`](./picturescompression). |
-| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | Возвращает и устанавливает интерфейс обратного вызова, который позволяет пользователю управлять преобразованием форм. Чтение/запись [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
-| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | Определяет, выполнять ли указанное вращение формы при рендеринге или нет. Чтение/запись Boolean. Значение по умолчанию — true. |
-| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | Определяет, будет ли текстовый фрейм включен в область рендеринга или нет. Чтение/запись Boolean. Значение по умолчанию — false. |
-| [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | Определяет, будет ли текст на слайде сохранен как графика. Чтение/запись Boolean. |
+| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | Получает или устанавливает значение, указывающее, рендерится ли текст без использования лигатур. При значении `true` лигатуры будут отключены в результирующем выводе. По умолчанию это свойство установлено в `false`. |
+| [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | Отключает разбиение градиентов FromCornerX и FromCenter. Чтение/запись Boolean. |
+| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | В SVG 1.1 отсутствует возможность определения отступов для маркеров. Инженерный движок записи SVG Aspose.Slides имеет решение для этой проблемы: он обрезает конец линии с стрелкой, поэтому линия не перекрывает маркеры. Эта опция отключает такое поведение. Чтение/запись Boolean. |
+| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | Определяет способ обработки внешне загружаемых шрифтов. Чтение/запись [`SvgExternalFontsHandling`](../svgexternalfontshandling). |
+| [InkOptions](../../aspose.slides.export/isvgoptions/inkoptions) { get; } | Предоставляет настройки, которые контролируют внешний вид объектов Ink в экспортированном документе. Только для чтения [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/isvgoptions/jpegquality) { get; set; } | Определяет качество кодирования JPEG. Чтение/запись Int32. |
+| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | Возвращает или устанавливает нижний предел разрешения для растрирования метафайла. Чтение/запись Int32. |
+| [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | Представляет уровень сжатия изображений Чтение/запись [`PicturesCompression`](./picturescompression). |
+| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | Возвращает и устанавливает интерфейс обратного вызова, который позволяет пользователю контролировать преобразование форм. Чтение/запись [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
+| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | Определяет, следует ли выполнять указанное вращение формы при рендеринге или нет. Чтение/запись Boolean. Значение по умолчанию - true. |
+| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | Определяет, будет ли текстовый фрейм включен в область рендеринга или нет. Чтение/запись Boolean. Значение по умолчанию - false. |
+| [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | Определяет, будет ли текст на слайде сохранен в виде графики. Чтение/запись Boolean. |
 
 ### Также смотрите
 

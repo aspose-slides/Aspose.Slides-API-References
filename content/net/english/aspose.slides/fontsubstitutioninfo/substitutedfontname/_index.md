@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/fontsubstitutioninfo/substitutedfontname/
 ---
+
 ## FontSubstitutionInfo.SubstitutedFontName property
 
 Indicates the replacement font name for the original font. Read-only String

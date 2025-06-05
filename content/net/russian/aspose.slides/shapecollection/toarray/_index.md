@@ -15,11 +15,11 @@ url: /ru/aspose.slides/shapecollection/toarray/
 public IShape[] ToArray()
 ```
 
-### Значение Возврата
+### Возвращаемое значение
 
-Массив [`Shape`](../../shape)
+Массив из [`Shape`](../../shape)
 
-### См. Также
+### См. также
 
 * интерфейс [IShape](../../ishape)
 * класс [ShapeCollection](../../shapecollection)
@@ -30,17 +30,17 @@ public IShape[] ToArray()
 
 ## ToArray(int, int) {#toarray_1}
 
-Создает и возвращает массив со всеми фигурами из указанного диапазона в нем. Индекс первой фигуры, которую нужно вернуть. Количество фигур для возврата.
+Создает и возвращает массив со всеми фигурами из указанного диапазона в нем. Индекс первой фигуры для возврата. Количество фигур для возврата.
 
 ```csharp
 public IShape[] ToArray(int startIndex, int count)
 ```
 
-### Значение Возврата
+### Возвращаемое значение
 
-Массив [`Shape`](../../shape)
+Массив из [`Shape`](../../shape)
 
-### См. Также
+### См. также
 
 * интерфейс [IShape](../../ishape)
 * класс [ShapeCollection](../../shapecollection)

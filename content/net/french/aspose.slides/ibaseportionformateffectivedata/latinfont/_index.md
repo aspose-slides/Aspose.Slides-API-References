@@ -1,21 +1,21 @@
 ---
 title: LatinFont
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie les informations sur la police latine. Lecture seule IFontDataaspose.slides/ifontdata.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Retourne les informations sur la police latine. Lecture seule IFontData aspose.slides/ifontdata.
 type: docs
 weight: 170
 url: /fr/aspose.slides/ibaseportionformateffectivedata/latinfont/
 ---
 
-## Propriété IBasePortionFormatEffectiveData.LatinFont
+## IBasePortionFormatEffectiveData.LatinFont propriété
 
-Renvoie les informations sur la police latine. Lecture seule [`IFontData`](../../ifontdata).
+Retourne les informations sur la police latine. Lecture seule [`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData LatinFont { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IFontData](../../ifontdata)
 * interface [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)

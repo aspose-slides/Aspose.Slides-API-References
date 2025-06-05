@@ -19,7 +19,7 @@ public double ToDouble()
 
 双精度浮点数值。
 
-### 另请参阅
+### 另见
 
 * 类 [StringOrDoubleChartValue](../../stringordoublechartvalue)
 * 命名空间 [Aspose.Slides.Charts](../../stringordoublechartvalue)

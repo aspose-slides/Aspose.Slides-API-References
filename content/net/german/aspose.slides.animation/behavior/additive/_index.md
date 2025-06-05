@@ -1,7 +1,7 @@
 ---
-title: Additiv
-second_title: Aspose.Slides für .NET API Referenz
-description: Repräsentiert, ob das aktuelle Animationsverhalten mit anderen laufenden Animationen kombiniert ist. Lese-/schreibbares BehaviorAdditiveTypeaspose.slides.animation/behavioradditivetype.
+title: Additive
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Repräsentiert, ob das aktuelle Animationsverhalten mit anderen laufenden Animationen kombiniert ist. Lese-/Schreibeigenschaft BehaviorAdditiveTypeaspose.slides.animation/behavioradditivetype.
 type: docs
 weight: 20
 url: /de/aspose.slides.animation/behavior/additive/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/behavior/additive/
 
 ## Behavior.Additive-Eigenschaft
 
-Repräsentiert, ob das aktuelle Animationsverhalten mit anderen laufenden Animationen kombiniert ist. Lese-/schreibbar [`BehaviorAdditiveType`](../../behavioradditivetype).
+Repräsentiert, ob das aktuelle Animationsverhalten mit anderen laufenden Animationen kombiniert ist. Lese-/Schreibeigenschaft [`BehaviorAdditiveType`](../../behavioradditivetype).
 
 ```csharp
 public BehaviorAdditiveType Additive { get; set; }

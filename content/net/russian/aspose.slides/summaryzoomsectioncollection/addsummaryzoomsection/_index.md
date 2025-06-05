@@ -1,15 +1,15 @@
 ---
 title: AddSummaryZoomSection
-second_title: Aspose.Slides для .NET Справочник по API
-description: Создает новый объект раздела автообзора и добавляет его в коллекцию
+second_title: Aspose.Sildes для .NET API Reference
+description: Создает новый объект Summary Zoom Section и добавляет его в коллекцию
 type: docs
 weight: 50
 url: /ru/aspose.slides/summaryzoomsectioncollection/addsummaryzoomsection/
 ---
 
-## Метод SummaryZoomSectionCollection.AddSummaryZoomSection
+## SummaryZoomSectionCollection.AddSummaryZoomSection метод
 
-Создает новый объект раздела автообзора и добавляет его в коллекцию
+Создает новый объект Summary Zoom Section и добавляет его в коллекцию
 
 ```csharp
 public ISummaryZoomSection AddSummaryZoomSection(ISection section)
@@ -17,25 +17,25 @@ public ISummaryZoomSection AddSummaryZoomSection(ISection section)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| section | ISection | Раздел для нового элемента автообзора [`ISection`](../../isection) |
+| section | ISection | Раздел для нового элемента Summary Zoom Section [`ISection`](../../isection) |
 
-### Возвращаемое значение
+### Значение возврата
 
 Добавленный элемент [`ISummaryZoomFrame`](../../isummaryzoomframe)
 
 ### Исключения
 
-| Исключение | Условие |
+| исключение | условие |
 | --- | --- |
 | ArgumentException | Указанный раздел не принадлежит текущей презентации или не содержит слайдов. |
 
-### Замечания
+### Примечания
 
 Если элемент для этого раздела уже существует в коллекции, возвращается существующий элемент.
 
 ### Примеры
 
-Пример демонстрирует получение элемента раздела автообзора по индексу:
+Пример демонстрирует получение элемента Summary Zoom Section по индексу:
 
 ```csharp
 [C#]

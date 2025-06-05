@@ -1,7 +1,7 @@
 ---
 title: ShapeUtil
 second_title: Aspose.Slides for .NET API 参考
-description: 提供帮助处理形状对象的方法。
+description: 提供处理形状对象的方法。
 type: docs
 weight: 11200
 url: /zh/aspose.slides.util/shapeutil/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.util/shapeutil/
 
 ## ShapeUtil 类
 
-提供帮助处理形状对象的方法。
+提供处理形状对象的方法。
 
 ```csharp
 public static class ShapeUtil

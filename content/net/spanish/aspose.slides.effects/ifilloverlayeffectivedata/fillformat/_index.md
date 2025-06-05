@@ -1,13 +1,13 @@
 ---
 title: FillFormat
-second_title: Aspose.Sildes para .NET Referencia de la API
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Formato de relleno. Solo lectura IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
 type: docs
 weight: 30
 url: /es/aspose.slides.effects/ifilloverlayeffectivedata/fillformat/
 ---
 
-## Propiedad IFillOverlayEffectiveData.FillFormat
+## IFillOverlayEffectiveData.FillFormat propiedad
 
 Formato de relleno. Solo lectura [`IFillFormatEffectiveData`](../../../aspose.slides/ifillformateffectivedata).
 

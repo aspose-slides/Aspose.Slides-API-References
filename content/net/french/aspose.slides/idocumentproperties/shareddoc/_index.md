@@ -1,7 +1,7 @@
 ---
 title: SharedDoc
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si la présentation est partagée entre plusieurs personnes. Propriété booléenne en lecture/écriture.
+second_title: Aspose.Slides pour la référence de l'API .NET
+description: Détermine si la présentation est partagée entre plusieurs personnes. Booléen en lecture/écriture.
 type: docs
 weight: 290
 url: /fr/aspose.slides/idocumentproperties/shareddoc/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/idocumentproperties/shareddoc/
 
 ## Propriété IDocumentProperties.SharedDoc
 
-Détermine si la présentation est partagée entre plusieurs personnes. Propriété booléenne en lecture/écriture.
+Détermine si la présentation est partagée entre plusieurs personnes. Booléen en lecture/écriture.
 
 ```csharp
 public bool SharedDoc { get; set; }

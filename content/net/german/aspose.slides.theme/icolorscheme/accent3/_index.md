@@ -1,7 +1,7 @@
 ---
 title: Accent3
 second_title: Aspose.Slides für .NET API-Referenz
-description: Dritte Akzentfarbe im Schema. Schreibgeschütztes IColorFormataspose.slides/icolorformat.
+description: Dritte Akzentfarbe im Schema. Nur lesbar IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 30
 url: /de/aspose.slides.theme/icolorscheme/accent3/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/icolorscheme/accent3/
 
 ## IColorScheme.Accent3-Eigenschaft
 
-Dritte Akzentfarbe im Schema. Schreibgeschützt [`IColorFormat`](../../../aspose.slides/icolorformat).
+Dritte Akzentfarbe im Schema. Nur lesbar [`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat Accent3 { get; }
@@ -17,8 +17,8 @@ public IColorFormat Accent3 { get; }
 
 ### Siehe auch
 
-* Interface [IColorFormat](../../../aspose.slides/icolorformat)
-* Interface [IColorScheme](../../icolorscheme)
+* Schnittstelle [IColorFormat](../../../aspose.slides/icolorformat)
+* Schnittstelle [IColorScheme](../../icolorscheme)
 * Namespace [Aspose.Slides.Theme](../../icolorscheme)
 * Assembly [Aspose.Slides](../../../)
 

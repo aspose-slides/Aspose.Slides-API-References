@@ -1,21 +1,21 @@
 ---
 title: InteractiveSequences
 second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает коллекцию интерактивных последовательностей. Эти последовательности могут содержать только эффекты при "щелчке на фигуре" с указанной целевой фигурой. Тольо для чтения ISequenceCollectionaspose.slides.animation/isequencecollection.
+description: Возвращает коллекцию интерактивных последовательностей. Эти последовательности могут содержать только эффекты по "щелчку на фигуре" с указанной целевой фигурой. Только для чтения ISequenceCollection aspose.slides.animation/isequencecollection.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ianimationtimeline/interactivesequences/
 ---
 
-## Свойство IAnimationTimeLine.InteractiveSequences
+## IAnimationTimeLine.InteractiveSequences свойство
 
-Возвращает коллекцию интерактивных последовательностей. Эти последовательности могут содержать только эффекты при "щелчке на фигуре" с указанной целевой фигурой. Тольо для чтения [`ISequenceCollection`](../../../aspose.slides.animation/isequencecollection).
+Возвращает коллекцию интерактивных последовательностей. Эти последовательности могут содержать только эффекты по "щелчку на фигуре" с указанной целевой фигурой. Только для чтения [`ISequenceCollection`](../../../aspose.slides.animation/isequencecollection).
 
 ```csharp
 public ISequenceCollection InteractiveSequences { get; }
 ```
 
-### См. также
+### Также см.
 
 * интерфейс [ISequenceCollection](../../../aspose.slides.animation/isequencecollection)
 * интерфейс [IAnimationTimeLine](../../ianimationtimeline)

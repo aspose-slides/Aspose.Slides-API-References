@@ -1,7 +1,7 @@
 ---
-title: Rahmen
+title: Frame
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Eigenschaften des Formenrahmens zurück oder setzt sie. Lese-/Schreibzugriff auf IShapeFrameaspose.slides/ishapeframe.
+description: Gibt die Eigenschaften des Formrahmens zurück oder setzt sie. Lese-/Schreibzugriff auf IShapeFrame aspose.slides/ishapeframe.
 type: docs
 weight: 100
 url: /de/aspose.slides/ishape/frame/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ishape/frame/
 
 ## IShape.Frame-Eigenschaft
 
-Gibt die Eigenschaften des Formenrahmens zurück oder setzt sie. Lese-/Schreibzugriff auf [`IShapeFrame`](../../ishapeframe).
+Gibt die Eigenschaften des Formrahmens zurück oder setzt sie. Lese-/Schreibzugriff auf [`IShapeFrame`](../../ishapeframe).
 
 ```csharp
 public IShapeFrame Frame { get; set; }
@@ -17,7 +17,7 @@ public IShapeFrame Frame { get; set; }
 
 ### Anmerkungen
 
-Der Wert jeder Eigenschaft der zurückgegebenen IShapeFrame-Instanz ist nicht undefiniert (ist nicht NaN oder NotDefined). Der Wert jeder Eigenschaft der zugewiesenen IShapeFrame-Instanz muss definiert sein (darf nicht NaN oder NotDefined sein). Sie können undefinierte Werte für die Eigenschaften der RawFrame-Instanz festlegen.
+Der Wert jeder Eigenschaft der zurückgegebenen IShapeFrame-Instanz ist nicht undefiniert (ist nicht NaN oder NotDefined). Der Wert jeder Eigenschaft der zugewiesenen IShapeFrame-Instanz darf nicht undefiniert sein (muss nicht NaN oder NotDefined sein). Sie können undefinierte Werte für die Eigenschaften der RawFrame-Instanz setzen.
 
 ### Siehe auch
 

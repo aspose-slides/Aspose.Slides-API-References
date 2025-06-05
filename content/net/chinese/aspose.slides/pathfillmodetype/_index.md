@@ -1,15 +1,15 @@
 ---
 title: PathFillModeType
 second_title: Aspose.Sildes for .NET API Reference
-description: 指定路径填充的方式
+description: 指定路径应如何填充
 type: docs
 weight: 9060
 url: /zh/aspose.slides/pathfillmodetype/
 ---
 
-## PathFillModeType枚举
+## PathFillModeType 枚举
 
-指定路径填充的方式
+指定路径应如何填充
 
 ```csharp
 public enum PathFillModeType : byte
@@ -19,14 +19,14 @@ public enum PathFillModeType : byte
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 无路径填充 这指定相应的路径不应有填充。 |
-| Normal | `1` | 正常路径填充 这指定相应的路径应应用正常阴影颜色进行填充。 |
-| Lighten | `2` | 轻微路径填充 这指定相应的路径应应用轻微阴影颜色进行填充。 |
-| LightenLess | `3` | 较轻路径填充 这指定相应的路径应应用略微更轻的阴影颜色进行填充。 |
-| Darken | `4` | 深色路径填充 这指定相应的路径应应用深色阴影颜色进行填充。 |
-| DarkenLess | `5` | 较深路径填充 这指定相应的路径应应用略微更深的阴影颜色进行填充。 |
+| None | `0` | 无路径填充 这指定了相应的路径不应有填充。 |
+| Normal | `1` | 正常路径填充 这指定了相应的路径应应用一个正常阴影的颜色作为填充。 |
+| Lighten | `2` | 轻填充路径 这指定了相应的路径应应用一个轻微阴影的颜色作为填充。 |
+| LightenLess | `3` | 轻填充路径较少 这指定了相应的路径应应用一个稍微更浅阴影的颜色作为填充。 |
+| Darken | `4` | 深填充路径 这指定了相应的路径应应用一个较深阴影的颜色作为填充。 |
+| DarkenLess | `5` | 深填充路径较少 这指定了相应的路径应应用一个稍微更深阴影的颜色作为填充。 |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

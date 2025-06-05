@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.animation/ipoint/value/
 ---
+
 ## IPoint.Value property
 
 Represents point value. Only: bool, ColorFormat, float, int, string. Read/write Object.

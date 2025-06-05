@@ -1,7 +1,7 @@
 ---
-title: Sauvegarder
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Sauvegarde les diapositives spécifiées d'une présentation dans un fichier avec le format spécifié en conservant le numéro de page.
+title: Save
+second_title: Aspose.Sildes pour .NET Référence API
+description: Enregistre les diapositives spécifiées d'une présentation dans un fichier avec le format spécifié tout en conservant le numéro de page.
 type: docs
 weight: 380
 url: /fr/aspose.slides/presentation/save/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/presentation/save/
 
 ## Save(string, int[], SaveFormat) {#save_7}
 
-Sauvegarde les diapositives spécifiées d'une présentation dans un fichier avec le format spécifié en conservant le numéro de page.
+Enregistre les diapositives spécifiées d'une présentation dans un fichier avec le format spécifié tout en conservant le numéro de page.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format)
@@ -18,14 +18,14 @@ public void Save(string fname, int[] slides, SaveFormat format)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | fname | String | Chemin vers le fichier créé. |
-| slides | Int32[] | Tableau avec les positions des diapositives, en commençant par 1. |
+| slides | Int32[] | Tableau avec les positions des diapositives, en commençant à 1. |
 | format | SaveFormat | Format des données exportées. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | Lorsque le paramètre stream ou slides est null. |
+| ArgumentNullException | Lorsque le paramètre stream ou slides est nul. |
 | ArgumentOutOfRangeException | Lorsque le paramètre slides contient des numéros de page incorrects. |
 | InvalidOperationException | Lorsque un SaveFormat non pris en charge est utilisé, par exemple PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
@@ -40,7 +40,7 @@ public void Save(string fname, int[] slides, SaveFormat format)
 
 ## Save(string, int[], SaveFormat, ISaveOptions) {#save_8}
 
-Sauvegarde les diapositives spécifiées d'une présentation dans un fichier avec le format spécifié en conservant le numéro de page.
+Enregistre les diapositives spécifiées d'une présentation dans un fichier avec le format spécifié tout en conservant le numéro de page.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions options)
@@ -49,7 +49,7 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | fname | String | Chemin vers le fichier créé. |
-| slides | Int32[] | Tableau avec les positions des diapositives, en commençant par 1. |
+| slides | Int32[] | Tableau avec les positions des diapositives, en commençant à 1. |
 | format | SaveFormat | Format des données exportées. |
 | options | ISaveOptions | Options de format supplémentaires. |
 
@@ -65,7 +65,7 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 
 ## Save(Stream, int[], SaveFormat) {#save_3}
 
-Sauvegarde les diapositives spécifiées d'une présentation dans un flux dans le format spécifié en conservant le numéro de page.
+Enregistre les diapositives spécifiées d'une présentation dans un flux au format spécifié tout en conservant le numéro de page.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format)
@@ -74,7 +74,7 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | stream | Stream | Flux de sortie. |
-| slides | Int32[] | Tableau avec les positions des diapositives, en commençant par 1. |
+| slides | Int32[] | Tableau avec les positions des diapositives, en commençant à 1. |
 | format | SaveFormat | Format des données exportées. |
 
 ### Voir Aussi
@@ -88,7 +88,7 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 
 ## Save(Stream, int[], SaveFormat, ISaveOptions) {#save_4}
 
-Sauvegarde les diapositives spécifiées d'une présentation dans un flux dans le format spécifié en conservant le numéro de page.
+Enregistre les diapositives spécifiées d'une présentation dans un flux au format spécifié tout en conservant le numéro de page.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions options)
@@ -97,7 +97,7 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | stream | Stream | Flux de sortie. |
-| slides | Int32[] | Tableau avec les positions des diapositives, en commençant par 1. |
+| slides | Int32[] | Tableau avec les positions des diapositives, en commençant à 1. |
 | format | SaveFormat | Format des données exportées. |
 | options | ISaveOptions | Options de format supplémentaires. |
 
@@ -105,7 +105,7 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | Lorsque le paramètre stream ou slides est null. |
+| ArgumentNullException | Lorsque le paramètre stream ou slides est nul. |
 | ArgumentOutOfRangeException | Lorsque le paramètre slides contient des numéros de page incorrects. |
 | InvalidOperationException | Lorsque un SaveFormat non pris en charge est utilisé, par exemple PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
@@ -168,7 +168,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## Save(string, SaveFormat) {#save_5}
 
-Sauvegarde toutes les diapositives d'une présentation dans un fichier avec le format spécifié.
+Enregistre toutes les diapositives d'une présentation dans un fichier avec le format spécifié.
 
 ```csharp
 public void Save(string fname, SaveFormat format)
@@ -190,7 +190,7 @@ public void Save(string fname, SaveFormat format)
 
 ## Save(Stream, SaveFormat) {#save_1}
 
-Sauvegarde toutes les diapositives d'une présentation dans un flux dans le format spécifié.
+Enregistre toutes les diapositives d'une présentation dans un flux au format spécifié.
 
 ```csharp
 public void Save(Stream stream, SaveFormat format)
@@ -228,7 +228,7 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 
 ## Save(Stream, SaveFormat, ISaveOptions) {#save_2}
 
-Sauvegarde toutes les diapositives d'une présentation dans un flux dans le format spécifié et avec des options supplémentaires.
+Enregistre toutes les diapositives d'une présentation dans un flux au format spécifié et avec des options supplémentaires.
 
 ```csharp
 public void Save(Stream stream, SaveFormat format, ISaveOptions options)
@@ -244,7 +244,7 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 | exception | condition |
 | --- | --- |
-| NotSupportedException | Si vous essayez de sauvegarder un fichier crypté dans un format non Office 2007-2010 |
+| NotSupportedException | Si vous essayez d'enregistrer un fichier crypté dans un format non Office 2007-2010 |
 
 ### Voir Aussi
 
@@ -258,7 +258,7 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 ## Save(IXamlOptions) {#save}
 
-Sauvegarde toutes les diapositives d'une présentation dans un ensemble de fichiers représentant du balisage XAML.
+Enregistre toutes les diapositives d'une présentation dans un ensemble de fichiers représentant le balisage XAML.
 
 ```csharp
 public void Save(IXamlOptions options)

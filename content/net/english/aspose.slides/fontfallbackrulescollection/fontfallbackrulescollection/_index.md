@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/fontfallbackrulescollection/fontfallbackrulescollection/
 ---
+
 ## FontFallBackRulesCollection constructor
 
 The default constructor.

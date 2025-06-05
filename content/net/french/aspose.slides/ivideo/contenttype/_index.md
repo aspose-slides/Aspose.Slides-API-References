@@ -1,6 +1,6 @@
 ---
 title: ContentType
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Reference
 description: Renvoie un type MIME d'une vidéo encodée en BinaryDataaspose.slides/ivideo/binarydata. Chaîne en lecture seule.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ Renvoie un type MIME d'une vidéo, encodée en [`BinaryData`](../binarydata). Ch
 public string ContentType { get; }
 ```
 
-### Voir également
+### Voir aussi
 
 * interface [IVideo](../../ivideo)
 * namespace [Aspose.Slides](../../ivideo)

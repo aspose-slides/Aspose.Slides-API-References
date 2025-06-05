@@ -1,13 +1,13 @@
 ---
 title: Position
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Position der Balkenlinie. Standard Oben
 type: docs
 weight: 30
 url: /de/aspose.slides.mathtext/mathbar/position/
 ---
 
-## MathBar.Position Eigenschaft
+## MathBar.Position-Eigenschaft
 
 Position der Balkenlinie. Standard: Oben
 

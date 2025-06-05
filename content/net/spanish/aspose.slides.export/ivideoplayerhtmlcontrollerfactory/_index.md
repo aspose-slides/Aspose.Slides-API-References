@@ -1,6 +1,6 @@
 ---
 title: IVideoPlayerHtmlControllerFactory
-second_title: Aspose.Slides para .NET Referencia de API
+second_title: Referencia API de Aspose.Slides para .NET
 description: Permite crear VideoPlayerHtmlController.
 type: docs
 weight: 4020
@@ -21,13 +21,13 @@ public interface IVideoPlayerHtmlControllerFactory
 | --- | --- |
 | [CreateVideoPlayerHtmlController](../../aspose.slides.export/ivideoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller)(string, string, string) | Crear controlador HTML de reproductor de video. |
 
-### Observaciones
+### Notas
 
 Para compatibilidad con COM.
 
 ### Véase También
 
 * espacio de nombres [Aspose.Slides.Export](../../aspose.slides.export)
-* ensamblaje [Aspose.Slides](../../)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,13 +1,13 @@
 ---
-title: 字体
-second_title: Aspose.Slides for .NET API 参考
+title: Fonts
+second_title: Aspose.Slides for .NET API Reference
 description: 字体集合。
 type: docs
 weight: 4720
 url: /zh/aspose.slides/fonts/
 ---
 
-## Fonts 类
+## Fonts class
 
 字体集合。
 
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/fonts/
 public class Fonts : IFonts
 ```
 
-## 属性
+## Properties
 
 | 名称 | 描述 |
 | --- | --- |
@@ -23,7 +23,7 @@ public class Fonts : IFonts
 | [EastAsianFont](../../aspose.slides/fonts/eastasianfont) { get; set; } | 返回或设置东亚字体。可读写 [`IFontData`](../ifontdata)。 |
 | [LatinFont](../../aspose.slides/fonts/latinfont) { get; set; } | 返回或设置拉丁字体。可读写 [`IFontData`](../ifontdata)。 |
 
-### 另请参阅
+### 另见
 
 * 接口 [IFonts](../ifonts)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

@@ -1,6 +1,6 @@
 ---
 title: PptX
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa la propiedad ppt_x
 type: docs
 weight: 550
@@ -15,7 +15,7 @@ Representa la propiedad 'ppt_x'
 public static BehaviorProperty PptX { get; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)

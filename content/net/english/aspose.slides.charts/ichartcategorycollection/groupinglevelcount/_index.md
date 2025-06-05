@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/ichartcategorycollection/groupinglevelcount/
 ---
+
 ## IChartCategoryCollection.GroupingLevelCount property
 
 Returns count of category grouping levels used. Is more then one for multilevel categories. Read-only Int32.

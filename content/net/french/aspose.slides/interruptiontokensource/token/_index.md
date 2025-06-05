@@ -1,7 +1,7 @@
 ---
-title: Jeton
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie un nouveau jeton lié à ce InterruptionTokenSourceaspose.slides/interruptiontokensource.
+title: Token
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie un nouveau jeton lié à cet InterruptionTokenSourceaspose.slides/interruptiontokensource.
 type: docs
 weight: 30
 url: /fr/aspose.slides/interruptiontokensource/token/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/interruptiontokensource/token/
 
 ## Propriété InterruptionTokenSource.Token
 
-Renvoie un nouveau jeton lié à ce [`InterruptionTokenSource`](../../interruptiontokensource).
+Renvoie un nouveau jeton lié à cet [`InterruptionTokenSource`](../../interruptiontokensource).
 
 ```csharp
 public IInterruptionToken Token { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IInterruptionToken](../../iinterruptiontoken)
 * class [InterruptionTokenSource](../../interruptiontokensource)

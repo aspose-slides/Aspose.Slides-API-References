@@ -3,9 +3,10 @@ title: EffectType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the type of an animation effect.
 type: docs
-weight: 270
+weight: 280
 url: /aspose.slides.animation/effecttype/
 ---
+
 ## EffectType enumeration
 
 Represents the type of an animation effect.
@@ -21,6 +22,7 @@ public enum EffectType
 | Appear | `0` | Appear effect. Class **Entrance** or **Exit**. |
 | CurveUpDown | `1` | CurveUpDown effect. Class **Entrance** or **Exit**. |
 | Ascend | `2` | Ascend effect. Class **Entrance** or **Exit**. |
+| FloatUp | `2` | Float effect with direction Up. This is the alias for Ascend type. Class **Entrance** or **Exit**. |
 | Blast | `3` | Blast effect. Class **Emphasis**. |
 | Blinds | `4` | Blinds effect. Class **Entrance** or **Exit**. |
 | Blink | `5` | Blink effect. Class **Emphasis**. |
@@ -53,6 +55,7 @@ public enum EffectType
 | Darken | `32` | Darken effect. Class **Emphasis**. |
 | Desaturate | `33` | Desaturate effect. Class **Emphasis**. |
 | Descend | `34` | Descend effect. Class **Entrance** or **Exit**. |
+| FloatDown | `34` | Float effect with direction Down. This is the alias for Descend type. Class **Entrance** or **Exit**. |
 | Diamond | `35` | Diamond effect. Class **Entrance** or **Exit**. |
 | Dissolve | `36` | Dissolve effect. Class **Entrance** or **Exit**. |
 | EaseInOut | `37` | Dissolve effect. Class **Entrance** or **Exit**. |

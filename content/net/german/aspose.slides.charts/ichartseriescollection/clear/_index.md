@@ -1,13 +1,13 @@
 ---
-title: Löschen
+title: Clear
 second_title: Aspose.Slides für .NET API Referenz
-description: Entfernt alle Elemente einschließlich des Diagrammstils aus der Sammlung.
+description: Entfernt alle Elemente, einschließlich des Diagrammstils, aus der Sammlung.
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/ichartseriescollection/clear/
 ---
 
-## IChartSeriesCollection.Clear-Methode
+## IChartSeriesCollection.Clear Methode
 
 Entfernt alle Elemente (einschließlich des Diagrammstils) aus der Sammlung.
 
@@ -15,7 +15,7 @@ Entfernt alle Elemente (einschließlich des Diagrammstils) aus der Sammlung.
 public void Clear()
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IChartSeriesCollection](../../ichartseriescollection)
 * Namespace [Aspose.Slides.Charts](../../ichartseriescollection)

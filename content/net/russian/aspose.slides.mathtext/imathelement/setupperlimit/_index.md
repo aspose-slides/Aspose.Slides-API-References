@@ -1,7 +1,7 @@
 ---
 title: SetUpperLimit
-second_title: Aspose.Sildes для .NET API Справочник
-description: Устанавливает верхний предел
+second_title: Aspose.Sildes для .NET API Reference
+description: Задает верхний предел
 type: docs
 weight: 180
 url: /ru/aspose.slides.mathtext/imathelement/setupperlimit/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/imathelement/setupperlimit/
 
 ## SetUpperLimit(IMathElement) {#setupperlimit}
 
-Устанавливает верхний предел
+Задает верхний предел
 
 ```csharp
 public IMathLimit SetUpperLimit(IMathElement limit)
@@ -45,7 +45,7 @@ var limitElement = baseElement.SetUpperLimit(limitValue);
 
 ## SetUpperLimit(string) {#setupperlimit_1}
 
-Устанавливает верхний предел
+Задает верхний предел
 
 ```csharp
 public IMathLimit SetUpperLimit(string limit)

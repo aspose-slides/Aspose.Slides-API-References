@@ -1,7 +1,7 @@
 ---
-title: ЧерноБелыйРежим
+title: BlackWhiteMode
 second_title: Справка по API Aspose.Slides для .NET
-description: Свойство определяет, как фигура будет отображаться в режиме черно-белого отображения. Чтение/запись BlackWhiteModeaspose.slides/blackwhitemode.
+description: Свойство определяет, как фигура будет отображаться в черно-белом режиме. Чтение/запись BlackWhiteModeaspose.slides/blackwhitemode.
 type: docs
 weight: 30
 url: /ru/aspose.slides/shape/blackwhitemode/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/shape/blackwhitemode/
 
 ## Свойство Shape.BlackWhiteMode
 
-Свойство определяет, как фигура будет отображаться в режиме черно-белого отображения. Чтение/запись [`BlackWhiteMode`](../../blackwhitemode).
+Свойство определяет, как фигура будет отображаться в черно-белом режиме. Чтение/запись [`BlackWhiteMode`](../../blackwhitemode).
 
 ```csharp
 public BlackWhiteMode BlackWhiteMode { get; set; }
 ```
 
-### Также смотри
+### См. Также
 
 * enum [BlackWhiteMode](../../blackwhitemode)
 * class [Shape](../../shape)

@@ -1,6 +1,6 @@
 ---
 title: JoinStyle
-second_title: Aspose.Sildes para .NET Referencia de API
+second_title: Referencia API de Aspose.Slides para .NET
 description: Devuelve o establece el estilo de unión de las líneas. Lectura/escritura LineJoinStyleaspose.slides/linejoinstyle.
 type: docs
 weight: 130
@@ -15,7 +15,7 @@ Devuelve o establece el estilo de unión de las líneas. Lectura/escritura [`Lin
 public LineJoinStyle JoinStyle { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * enum [LineJoinStyle](../../linejoinstyle)
 * class [LineFormat](../../lineformat)

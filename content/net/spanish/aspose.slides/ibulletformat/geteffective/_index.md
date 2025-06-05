@@ -1,13 +1,13 @@
 ---
 title: GetEffective
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Aspose.Sildes para referencia de API de .NET
 description: Obtiene datos de formato de viñetas efectivas con la herencia aplicada.
 type: docs
 weight: 120
 url: /es/aspose.slides/ibulletformat/geteffective/
 ---
 
-## Método IBulletFormat.GetEffective
+## IBulletFormat.GetEffective method
 
 Obtiene datos de formato de viñetas efectivas con la herencia aplicada.
 
@@ -15,13 +15,13 @@ Obtiene datos de formato de viñetas efectivas con la herencia aplicada.
 public IBulletFormatEffectiveData GetEffective()
 ```
 
-### Valor de Retorno
+### Return Value
 
 Un [`IBulletFormatEffectiveData`](../../ibulletformateffectivedata).
 
-### Ejemplos
+### Examples
 
-Este ejemplo demuestra cómo obtener algunas propiedades de formato de viñetas efectivas.
+Este ejemplo demuestra cómo obtener algunas propiedades efectivas del formato de viñetas.
 
 ```csharp
 [C#]
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 }
 ```
 
-### Ver También
+### See Also
 
 * interface [IBulletFormatEffectiveData](../../ibulletformateffectivedata)
 * interface [IBulletFormat](../../ibulletformat)

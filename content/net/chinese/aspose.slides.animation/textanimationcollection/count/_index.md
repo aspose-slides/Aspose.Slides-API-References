@@ -1,6 +1,6 @@
 ---
-title: 计数
-second_title: Aspose.Slides for .NET API 参考
+title: Count
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回集合中的元素数量。只读 Int32。
 type: docs
 weight: 20

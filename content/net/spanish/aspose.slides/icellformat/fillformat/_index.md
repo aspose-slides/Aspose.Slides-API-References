@@ -1,6 +1,6 @@
 ---
 title: FillFormat
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API Aspose.Slides para .NET
 description: Devuelve un objeto de propiedades de relleno de celda. Solo lectura IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 70
@@ -15,11 +15,11 @@ Devuelve un objeto de propiedades de relleno de celda. Solo lectura [`IFillForma
 public IFillFormat FillFormat { get; }
 ```
 
-### Véase También
+### Véase también
 
-* interfaz [IFillFormat](../../ifillformat)
-* interfaz [ICellFormat](../../icellformat)
-* espacio de nombres [Aspose.Slides](../../icellformat)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IFillFormat](../../ifillformat)
+* interfaz [ICellFormat](../../icellformat)
+* espacio de nombres [Aspose.Slides](../../icellformat)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

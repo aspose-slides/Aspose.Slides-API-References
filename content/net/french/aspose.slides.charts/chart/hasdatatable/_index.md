@@ -1,6 +1,6 @@
 ---
 title: HasDataTable
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Détermine si un graphique a une table de données. Booléen en lecture/écriture.
 type: docs
 weight: 100

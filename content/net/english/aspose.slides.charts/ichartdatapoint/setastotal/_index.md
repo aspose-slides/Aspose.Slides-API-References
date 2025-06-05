@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides.charts/ichartdatapoint/setastotal/
 ---
+
 ## IChartDataPoint.SetAsTotal property
 
 Sets data point as total. Applied for Waterfall series type only.

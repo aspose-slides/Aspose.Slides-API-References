@@ -1,6 +1,6 @@
 ---
 title: GetChildren
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取子元素
 type: docs
 weight: 80
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.mathtext/mathbox/getchildren/
 public IMathElement[] GetChildren()
 ```
 
-### 另见
+### 相关信息
 
 * 接口 [IMathElement](../../imathelement)
 * 类 [MathBox](../../mathbox)

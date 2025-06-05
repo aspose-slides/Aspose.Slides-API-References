@@ -1,7 +1,7 @@
 ---
-title: 从黑屏开始
-second_title: Aspose.Slides for .NET API 参考
-description: 此属性指定过渡是否将从黑屏开始，然后在黑色上过渡到新幻灯片。可读/写布尔值。
+title: FromBlack
+second_title: Aspose.Sildes for .NET API Reference
+description: 此属性指定过渡是否从黑屏开始，然后将新幻灯片通过黑色进行过渡。可读写布尔值。
 type: docs
 weight: 10
 url: /zh/aspose.slides.slideshow/optionalblacktransition/fromblack/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.slideshow/optionalblacktransition/fromblack/
 
 ## OptionalBlackTransition.FromBlack 属性
 
-此属性指定过渡是否将从黑屏开始（然后在黑色上过渡到新幻灯片）。可读/写布尔值。
+此属性指定过渡是否从黑屏开始（然后将新幻灯片通过黑色进行过渡）。可读写布尔值。
 
 ```csharp
 public bool FromBlack { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [OptionalBlackTransition](../../optionalblacktransition)
 * namespace [Aspose.Slides.SlideShow](../../optionalblacktransition)

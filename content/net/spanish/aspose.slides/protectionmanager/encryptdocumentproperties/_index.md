@@ -1,15 +1,15 @@
 ---
 title: EncryptDocumentProperties
-second_title: Referencia de la API Aspose.Sildes para .NET
-description: Esta propiedad tiene sentido si la presentación está protegida por contraseña. Si es verdadero, entonces las propiedades del documento se encriptan en el archivo de presentación. Si es falso, entonces las propiedades del documento son públicas mientras la presentación está encriptada. Booleano de lectura/escritura.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Esta propiedad tiene sentido si la presentación está protegida con contraseña. Si es verdadero, entonces las propiedades del documento están encriptadas en el archivo de presentación. Si es falso, entonces las propiedades del documento son públicas mientras que la presentación está encriptada. Booleano de lectura/escritura.
 type: docs
 weight: 10
 url: /es/aspose.slides/protectionmanager/encryptdocumentproperties/
 ---
 
-## Propiedad ProtectionManager.EncryptDocumentProperties
+## ProtecciónManager.EncryptDocumentProperties propiedad
 
-Esta propiedad tiene sentido si la presentación está protegida por contraseña. Si es verdadero, entonces las propiedades del documento se encriptan en el archivo de presentación. Si es falso, entonces las propiedades del documento son públicas mientras la presentación está encriptada. Booleano de lectura/escritura.
+Esta propiedad tiene sentido si la presentación está protegida con contraseña. Si es verdadero, entonces las propiedades del documento están encriptadas en el archivo de presentación. Si es falso, entonces las propiedades del documento son públicas mientras que la presentación está encriptada. Booleano de lectura/escritura.
 
 ```csharp
 public bool EncryptDocumentProperties { get; set; }
@@ -19,6 +19,6 @@ public bool EncryptDocumentProperties { get; set; }
 
 * clase [ProtectionManager](../../protectionmanager)
 * espacio de nombres [Aspose.Slides](../../protectionmanager)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

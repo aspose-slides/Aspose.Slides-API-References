@@ -3,9 +3,10 @@ title: ILineFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents format of a line.
 type: docs
-weight: 5880
+weight: 6110
 url: /aspose.slides/ilineformat/
 ---
+
 ## ILineFormat interface
 
 Represents format of a line.

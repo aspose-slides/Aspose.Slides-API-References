@@ -1,15 +1,15 @@
 ---
 title: NormalViewProperties
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente les propriétés de la vue normale. La vue normale se compose de trois régions de contenu  la diapositive elle-même, une région de contenu latérale et une région de contenu inférieure. Lecture seule INormalViewPropertiesaspose.slides/inormalviewproperties.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Représente les propriétés de la vue normale. La vue normale se compose de trois régions de contenu  la diapositive elle-même, une région de contenu latéral et une région de contenu inférieur. Lecture seule INormalViewPropertiesaspose.slides/inormalviewproperties.
 type: docs
 weight: 30
 url: /fr/aspose.slides/iviewproperties/normalviewproperties/
 ---
 
-## Propriété IViewProperties.NormalViewProperties
+## IViewProperties.NormalViewProperties propriété
 
-Représente les propriétés de la vue normale. La vue normale se compose de trois régions de contenu : la diapositive elle-même, une région de contenu latérale et une région de contenu inférieure. Lecture seule [`INormalViewProperties`](../../inormalviewproperties).
+Représente les propriétés de la vue normale. La vue normale se compose de trois régions de contenu : la diapositive elle-même, une région de contenu latéral et une région de contenu inférieur. Lecture seule [`INormalViewProperties`](../../inormalviewproperties).
 
 ```csharp
 public INormalViewProperties NormalViewProperties { get; }

@@ -1,13 +1,13 @@
 ---
 title: SyncRoot
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает корень синхронизации. Объект только для чтения.
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/chartdataworksheetcollection/syncroot/
 ---
 
-## Свойство ChartDataWorksheetCollection.SyncRoot
+## ChartDataWorksheetCollection.SyncRoot свойство
 
 Возвращает корень синхронизации. Объект только для чтения.
 

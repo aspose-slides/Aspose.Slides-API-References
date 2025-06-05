@@ -1,7 +1,7 @@
 ---
 title: CreateOuterShadow
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Crée un effet d'ombre extérieure.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Crée un effet d'ombre portée.
 type: docs
 weight: 40
 url: /fr/aspose.slides.effects/ieffectfactory/createoutershadow/
@@ -9,17 +9,17 @@ url: /fr/aspose.slides.effects/ieffectfactory/createoutershadow/
 
 ## IEffectFactory.CreateOuterShadow méthode
 
-Crée un effet d'ombre extérieure.
+Crée un effet d'ombre portée.
 
 ```csharp
 public IOuterShadow CreateOuterShadow()
 ```
 
-### Valeur de retour
+### Valeur de Retour
 
-Effet d'ombre extérieure.
+Effet d'ombre portée.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IOuterShadow](../../ioutershadow)
 * interface [IEffectFactory](../../ieffectfactory)

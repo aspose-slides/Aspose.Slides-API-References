@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
-second_title: Aspose.Slides for .NET API Reference
-description: 用于特定类型的哈希函数。
+second_title: Aspose.Sildes for .NET API Reference
+description: 作为特定类型的哈希函数。
 type: docs
 weight: 70
 url: /zh/aspose.slides.effects/innershadow/gethashcode/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/innershadow/gethashcode/
 
 ## InnerShadow.GetHashCode 方法
 
-用于特定类型的哈希函数。
+作为特定类型的哈希函数。
 
 ```csharp
 public override int GetHashCode()
@@ -17,9 +17,9 @@ public override int GetHashCode()
 
 ### 返回值
 
-当前对象的哈希代码。
+当前对象的哈希码。
 
-### 参见
+### 另见
 
 * class [InnerShadow](../../innershadow)
 * namespace [Aspose.Slides.Effects](../../innershadow)

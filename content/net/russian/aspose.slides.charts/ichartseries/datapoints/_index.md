@@ -1,13 +1,13 @@
 ---
 title: DataPoints
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для справочника API .NET
 description: Возвращает коллекцию точек данных этой серии. Только для чтения IChartDataPointCollectionaspose.slides.charts/ichartdatapointcollection.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/ichartseries/datapoints/
 ---
 
-## Свойство IChartSeries.DataPoints
+## IChartSeries.DataPoints свойство
 
 Возвращает коллекцию точек данных этой серии. Только для чтения [`IChartDataPointCollection`](../../ichartdatapointcollection).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/ichartseries/datapoints/
 public IChartDataPointCollection DataPoints { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IChartDataPointCollection](../../ichartdatapointcollection)
 * интерфейс [IChartSeries](../../ichartseries)

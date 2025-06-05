@@ -1,13 +1,13 @@
 ---
-title: ТипЗачеркивания
-second_title: Справочник API Aspose.Sildes для .NET
-description: Возвращает тип зачеркивания текста. Только для чтения TextStrikethroughTypeaspose.slides/textstrikethroughtype.
+title: StrikethroughType
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает тип зачеркивания текста. Только для чтения TextStrikethroughType aspose.slides/textstrikethroughtype.
 type: docs
 weight: 230
 url: /ru/aspose.slides/ibaseportionformateffectivedata/strikethroughtype/
 ---
 
-## Свойство IBasePortionFormatEffectiveData.StrikethroughType
+## IBasePortionFormatEffectiveData.StrikethroughType свойство
 
 Возвращает тип зачеркивания текста. Только для чтения [`TextStrikethroughType`](../../textstrikethroughtype).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ibaseportionformateffectivedata/strikethroughtype/
 public TextStrikethroughType StrikethroughType { get; }
 ```
 
-### См. также
+### См. Также
 
 * enum [TextStrikethroughType](../../textstrikethroughtype)
 * interface [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)

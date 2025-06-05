@@ -1,6 +1,6 @@
 ---
 title: PortionFormat
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Devuelve el formato de porción. Solo lectura IChartPortionFormataspose.slides.charts/ichartportionformat.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ Devuelve el formato de porción. Solo lectura [`IChartPortionFormat`](../../icha
 public IChartPortionFormat PortionFormat { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IChartPortionFormat](../../ichartportionformat)
 * interfaz [IChartTextFormat](../../icharttextformat)

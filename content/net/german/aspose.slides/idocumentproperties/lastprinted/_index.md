@@ -1,21 +1,21 @@
 ---
 title: LastPrinted
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Datum zurück, an dem eine Präsentation zuletzt gedruckt wurde. Lese-/Schreib-DataTime.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt das Datum zurück, an dem eine Präsentation zuletzt gedruckt wurde. Lese-/Schreibbare DateTime.
 type: docs
 weight: 170
 url: /de/aspose.slides/idocumentproperties/lastprinted/
 ---
 
-## IDocumentProperties.LastPrinted-Eigenschaft
+## IDocumentProperties.LastPrinted Eigenschaft
 
-Gibt das Datum zurück, an dem eine Präsentation zuletzt gedruckt wurde. Lese-/Schreib-DataTime.
+Gibt das Datum zurück, an dem eine Präsentation zuletzt gedruckt wurde. Lese-/Schreibbare DateTime.
 
 ```csharp
 public DateTime LastPrinted { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IDocumentProperties](../../idocumentproperties)
 * Namespace [Aspose.Slides](../../idocumentproperties)

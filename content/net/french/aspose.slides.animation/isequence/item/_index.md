@@ -1,13 +1,13 @@
 ---
-title: Éléments
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Item
+second_title: Aspose.Slides pour .NET API Reference
 description: Renvoie un effet à l'index spécifié.
 type: docs
 weight: 30
 url: /fr/aspose.slides.animation/isequence/item/
 ---
 
-## Indice ISequence
+## ISequence indexer
 
 Renvoie un effet à l'index spécifié.
 
@@ -19,7 +19,7 @@ public IEffect this[int index] { get; }
 | --- | --- |
 | index | Index |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IEffect](../../ieffect)
 * interface [ISequence](../../isequence)

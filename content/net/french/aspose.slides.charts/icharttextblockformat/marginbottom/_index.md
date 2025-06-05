@@ -1,15 +1,15 @@
 ---
 title: MarginBottom
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit les points du marges inférieure dans un TextFrame. Le changement de cette propriété peut avoir une certaine influence uniquement pour ces parties de graphique  DataLabel et DataLabelFormat support complet dans PowerPoint 2013 ; dans PowerPoint 2007, il n'y a aucun effet sur le rendu. Lecture/écriture Double.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Retourne ou définit les points de marge inférieure dans un TextFrame. Le changement de cette propriété peut avoir une certaine influence uniquement pour ces parties de graphique  DataLabel et DataLabelFormat soutien complet dans PowerPoint 2013 ; dans PowerPoint 2007, il n'y a aucun effet pour le rendu. Lecture/écriture Double.
 type: docs
 weight: 40
 url: /fr/aspose.slides.charts/icharttextblockformat/marginbottom/
 ---
 
-## Propriété IChartTextBlockFormat.MarginBottom
+## IChartTextBlockFormat.MarginBottom propriété
 
-Renvoie ou définit la marge inférieure (points) dans un TextFrame. Le changement de cette propriété peut avoir une certaine influence uniquement pour ces parties de graphique : DataLabel et DataLabelFormat (support complet dans PowerPoint 2013 ; dans PowerPoint 2007, il n'y a aucun effet sur le rendu). Lecture/écriture Double.
+Retourne ou définit la marge inférieure (points) dans un TextFrame. Le changement de cette propriété peut avoir une certaine influence uniquement pour ces parties de graphique : DataLabel et DataLabelFormat (soutien complet dans PowerPoint 2013 ; dans PowerPoint 2007, il n'y a aucun effet pour le rendu). Lecture/écriture Double.
 
 ```csharp
 public double MarginBottom { get; set; }

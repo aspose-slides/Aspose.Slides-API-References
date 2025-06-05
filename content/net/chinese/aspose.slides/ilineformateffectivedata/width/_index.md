@@ -1,7 +1,7 @@
 ---
-title: 宽度
-second_title: Aspose.Slides for .NET API 参考
-description: 返回线条的宽度。只读 Double。
+title: Width
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回线的宽度。只读双精度浮点数。
 type: docs
 weight: 170
 url: /zh/aspose.slides/ilineformateffectivedata/width/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ilineformateffectivedata/width/
 
 ## ILineFormatEffectiveData.Width 属性
 
-返回线条的宽度。只读 Double。
+返回线的宽度。只读双精度浮点数。
 
 ```csharp
 public double Width { get; }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [ILineFormatEffectiveData](../../ilineformateffectivedata)
 * 命名空间 [Aspose.Slides](../../ilineformateffectivedata)

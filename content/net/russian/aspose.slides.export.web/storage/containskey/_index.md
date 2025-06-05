@@ -1,13 +1,13 @@
 ---
 title: ContainsKey
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Определяет, содержит ли хранилище элемент с указанным ключом.
 type: docs
 weight: 20
 url: /ru/aspose.slides.export.web/storage/containskey/
 ---
 
-## Метод Storage.ContainsKey
+## Storage.ContainsKey метод
 
 Определяет, содержит ли хранилище элемент с указанным ключом.
 

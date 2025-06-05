@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.theme/iformatscheme/effectstyles/
 ---
+
 ## IFormatScheme.EffectStyles property
 
 Returns a collection of theme defined effect styles. Read-only [`IEffectStyleCollection`](../../ieffectstylecollection).

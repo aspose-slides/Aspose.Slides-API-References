@@ -7,7 +7,7 @@ weight: 40
 url: /ru/aspose.slides/summaryzoomsectioncollection/syncroot/
 ---
 
-## Свойство SummaryZoomSectionCollection.SyncRoot
+## SummaryZoomSectionCollection.SyncRoot свойство
 
 Возвращает корень синхронизации. Объект только для чтения.
 

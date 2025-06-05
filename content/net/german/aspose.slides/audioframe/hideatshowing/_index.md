@@ -1,7 +1,7 @@
 ---
 title: HideAtShowing
-second_title: Aspose.Sildes für .NET API Referenz
-description: Bestimmt, ob ein AudioFrame verborgen ist. Lese-/Schreib-Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt, ob ein AudioFrame verborgen ist. Lese-/Schreibbooleans.
 type: docs
 weight: 90
 url: /de/aspose.slides/audioframe/hideatshowing/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/audioframe/hideatshowing/
 
 ## AudioFrame.HideAtShowing-Eigenschaft
 
-Bestimmt, ob ein AudioFrame verborgen ist. Lese-/Schreib-Boolean.
+Bestimmt, ob ein AudioFrame verborgen ist. Lese-/Schreibbooleans.
 
 ```csharp
 public bool HideAtShowing { get; set; }

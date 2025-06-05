@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.export/gifoptions/exporthiddenslides/
 ---
+
 ## GifOptions.ExportHiddenSlides property
 
 Determines whether hidden slides will be exported. The default value is false.

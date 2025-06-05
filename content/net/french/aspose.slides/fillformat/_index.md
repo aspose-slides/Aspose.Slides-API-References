@@ -1,5 +1,5 @@
 ---
-title: RemplissageFormat
+title: FillFormat
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente des options de formatage de remplissage.
 type: docs
@@ -7,7 +7,7 @@ weight: 4590
 url: /fr/aspose.slides/fillformat/
 ---
 
-## Classe RemplissageFormat
+## Classe FillFormat
 
 Représente des options de formatage de remplissage.
 
@@ -21,9 +21,9 @@ public sealed class FillFormat : PVIObject, IFillFormat
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface de base IPresentationComponent. Lecture seule [`IPresentationComponent`](../ipresentationcomponent). |
 | [FillType](../../aspose.slides/fillformat/filltype) { get; set; } | Renvoie ou définit le type de remplissage. Lecture/écriture [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | Renvoie le format de remplissage dégradé. Lecture seule [`IGradientFormat`](../igradientformat). |
+| [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | Renvoie le format de remplissage en dégradé. Lecture seule [`IGradientFormat`](../igradientformat). |
 | [PatternFormat](../../aspose.slides/fillformat/patternformat) { get; } | Renvoie le format de remplissage par motif. Lecture seule [`IPatternFormat`](../ipatternformat). |
-| [PictureFillFormat](../../aspose.slides/fillformat/picturefillformat) { get; } | Renvoie le format de remplissage d'image. Lecture seule [`IPictureFillFormat`](../ipicturefillformat). |
+| [PictureFillFormat](../../aspose.slides/fillformat/picturefillformat) { get; } | Renvoie le format de remplissage par image. Lecture seule [`IPictureFillFormat`](../ipicturefillformat). |
 | [RotateWithShape](../../aspose.slides/fillformat/rotatewithshape) { get; set; } | Détermine si le remplissage doit être tourné avec la forme. Lecture/écriture [`NullableBool`](../nullablebool). |
 | [SolidFillColor](../../aspose.slides/fillformat/solidfillcolor) { get; } | Renvoie la couleur de remplissage. Lecture seule [`IColorFormat`](../icolorformat). |
 

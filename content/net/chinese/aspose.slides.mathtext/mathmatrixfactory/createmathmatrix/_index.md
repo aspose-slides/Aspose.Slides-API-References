@@ -1,6 +1,6 @@
 ---
 title: CreateMathMatrix
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建数学矩阵
 type: docs
 weight: 20

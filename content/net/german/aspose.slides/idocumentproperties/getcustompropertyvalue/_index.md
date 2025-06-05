@@ -1,7 +1,7 @@
 ---
 title: GetCustomPropertyValue
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen benannten booleschen Wert aus den benutzerdefinierten Eigenschaften zurück.
+second_title: Aspose.Slides für .NET API Referenz
+description: Erhält einen benannten booleschen Wert aus den benutzerdefinierten Eigenschaften.
 type: docs
 weight: 400
 url: /de/aspose.slides/idocumentproperties/getcustompropertyvalue/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/idocumentproperties/getcustompropertyvalue/
 
 ## GetCustomPropertyValue(string, out bool) {#getcustompropertyvalue}
 
-Gibt einen benannten booleschen Wert aus den benutzerdefinierten Eigenschaften zurück.
+Erhält einen benannten booleschen Wert aus den benutzerdefinierten Eigenschaften.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out bool value)
@@ -22,15 +22,15 @@ public void GetCustomPropertyValue(string name, out bool value)
 
 ### Siehe auch
 
-* Schnittstelle [IDocumentProperties](../../idocumentproperties)
-* Namespace [Aspose.Slides](../../idocumentproperties)
-* Assembly [Aspose.Slides](../../../)
+* interface [IDocumentProperties](../../idocumentproperties)
+* namespace [Aspose.Slides](../../idocumentproperties)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## GetCustomPropertyValue(string, out int) {#getcustompropertyvalue_2}
 
-Gibt einen benannten ganzzahligen Wert aus den benutzerdefinierten Eigenschaften zurück.
+Erhält einen benannten Ganzzahlwert aus den benutzerdefinierten Eigenschaften.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out int value)
@@ -43,15 +43,15 @@ public void GetCustomPropertyValue(string name, out int value)
 
 ### Siehe auch
 
-* Schnittstelle [IDocumentProperties](../../idocumentproperties)
-* Namespace [Aspose.Slides](../../idocumentproperties)
-* Assembly [Aspose.Slides](../../../)
+* interface [IDocumentProperties](../../idocumentproperties)
+* namespace [Aspose.Slides](../../idocumentproperties)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## GetCustomPropertyValue(string, out DateTime) {#getcustompropertyvalue_4}
 
-Gibt einen benannten DateTime-Wert aus den benutzerdefinierten Eigenschaften zurück.
+Erhält einen benannten DateTime-Wert aus den benutzerdefinierten Eigenschaften.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out DateTime value)
@@ -64,15 +64,15 @@ public void GetCustomPropertyValue(string name, out DateTime value)
 
 ### Siehe auch
 
-* Schnittstelle [IDocumentProperties](../../idocumentproperties)
-* Namespace [Aspose.Slides](../../idocumentproperties)
-* Assembly [Aspose.Slides](../../../)
+* interface [IDocumentProperties](../../idocumentproperties)
+* namespace [Aspose.Slides](../../idocumentproperties)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## GetCustomPropertyValue(string, out string) {#getcustompropertyvalue_5}
 
-Gibt einen benannten Zeichenfolgenwert aus den benutzerdefinierten Eigenschaften zurück.
+Erhält einen benannten Zeichenfolgenwert aus den benutzerdefinierten Eigenschaften.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out string value)
@@ -85,15 +85,15 @@ public void GetCustomPropertyValue(string name, out string value)
 
 ### Siehe auch
 
-* Schnittstelle [IDocumentProperties](../../idocumentproperties)
-* Namespace [Aspose.Slides](../../idocumentproperties)
-* Assembly [Aspose.Slides](../../../)
+* interface [IDocumentProperties](../../idocumentproperties)
+* namespace [Aspose.Slides](../../idocumentproperties)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## GetCustomPropertyValue(string, out float) {#getcustompropertyvalue_3}
 
-Gibt einen benannten Float-Wert aus den benutzerdefinierten Eigenschaften zurück.
+Erhält einen benannten float-Wert aus den benutzerdefinierten Eigenschaften.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out float value)
@@ -106,15 +106,15 @@ public void GetCustomPropertyValue(string name, out float value)
 
 ### Siehe auch
 
-* Schnittstelle [IDocumentProperties](../../idocumentproperties)
-* Namespace [Aspose.Slides](../../idocumentproperties)
-* Assembly [Aspose.Slides](../../../)
+* interface [IDocumentProperties](../../idocumentproperties)
+* namespace [Aspose.Slides](../../idocumentproperties)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## GetCustomPropertyValue(string, out double) {#getcustompropertyvalue_1}
 
-Gibt einen benannten Double-Wert aus den benutzerdefinierten Eigenschaften zurück.
+Erhält einen benannten double-Wert aus den benutzerdefinierten Eigenschaften.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out double value)
@@ -127,8 +127,8 @@ public void GetCustomPropertyValue(string name, out double value)
 
 ### Siehe auch
 
-* Schnittstelle [IDocumentProperties](../../idocumentproperties)
-* Namespace [Aspose.Slides](../../idocumentproperties)
-* Assembly [Aspose.Slides](../../../)
+* interface [IDocumentProperties](../../idocumentproperties)
+* namespace [Aspose.Slides](../../idocumentproperties)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

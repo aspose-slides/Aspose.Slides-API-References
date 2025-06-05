@@ -1,6 +1,6 @@
 ---
 title: PrintFrameSlide
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Spécifie s'il faut dessiner des cadres autour des diapositives affichées ou non.
 type: docs
 weight: 40
@@ -21,7 +21,7 @@ La valeur par défaut est **true**.
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

@@ -1,7 +1,7 @@
 ---
-title: Punkte
+title: Points
 second_title: Aspose.Slides für .NET API-Referenz
-description: Spezifiziert die Punkte des Befehls. Lese-/Schreibe PointF.
+description: Gibt Punkte des Befehls an. Lese-/Schreibzugriff auf PointF.
 type: docs
 weight: 30
 url: /de/aspose.slides.animation/motioncmdpath/points/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/motioncmdpath/points/
 
 ## MotionCmdPath.Points-Eigenschaft
 
-Spezifiziert die Punkte des Befehls. Lese-/Schreibe PointF[].
+Gibt Punkte des Befehls an. Lese-/Schreibzugriff auf PointF[].
 
 ```csharp
 public PointF[] Points { get; set; }

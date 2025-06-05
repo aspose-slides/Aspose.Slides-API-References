@@ -1,7 +1,7 @@
 ---
 title: SlideShowType
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft den Typ der Diashow ab oder legt ihn fest. Dargestellt durch die folgenden SlideShowType aspose.slides/slideshowsettings/slideshowtype Vorfahren BrowsedAtKiosk aspose.slides/browsedatkiosk, PresentedBySpeaker aspose.slides/presentedbyspeaker und BrowsedByIndividual aspose.slides/browsedbyindividual
+description: Ruft den Folienpräsentationstyp ab oder legt ihn fest. Dargestellt durch die folgenden SlideShowType Vorfahren BrowsedAtKioskaspose.slides/browsedatkiosk, PresentedBySpeakeraspose.slides/presentedbyspeaker und BrowsedByIndividualaspose.slides/browsedbyindividual
 type: docs
 weight: 70
 url: /de/aspose.slides/slideshowsettings/slideshowtype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/slideshowsettings/slideshowtype/
 
 ## SlideShowSettings.SlideShowType-Eigenschaft
 
-Ruft den Typ der Diashow ab oder legt ihn fest. Dargestellt durch die folgenden `SlideShowType` Vorfahren: [`BrowsedAtKiosk`](../../browsedatkiosk), [`PresentedBySpeaker`](../../presentedbyspeaker) und [`BrowsedByIndividual`](../../browsedbyindividual)
+Ru (!$)ft den Folienpräsentationstyp ab oder legt ihn fest. Dargestellt durch die folgenden `SlideShowType` Vorfahren: [`BrowsedAtKiosk`](../../browsedatkiosk), [`PresentedBySpeaker`](../../presentedbyspeaker) und [`BrowsedByIndividual`](../../browsedbyindividual)
 
 ```csharp
 public SlideShowType SlideShowType { get; set; }
@@ -21,13 +21,13 @@ public SlideShowType SlideShowType { get; set; }
 [C#]
 using (Presentation pres = new Presentation())
 {
-    // um den Typ "An einem Kiosk (Vollbild) angesehen" festzulegen
+    // um den Typ "Browsed at a kiosk (Vollbild)" festzulegen 
     pres.SlideShowSettings.SlideShowType = new BrowsedAtKiosk();
     
-    // um den Typ "Von einer Person (Fenster) angesehen" festzulegen
+    // um den Typ "Browsed by individual (Fenster)" festzulegen
     pres.SlideShowSettings.SlideShowType = new BrowsedByIndividual();
     
-    // um den Typ "Von einem Redner (Vollbild) präsentiert" festzulegen
+    // um den Typ "Presented by a speaker (Vollbild)" festzulegen
     pres.SlideShowSettings.SlideShowType = new PresentedBySpeaker();
 }
 ```

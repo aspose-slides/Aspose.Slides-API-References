@@ -1,15 +1,15 @@
 ---
 title: ResourceLoadingAction
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Modus des ladens von externen Ressourcen an.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Modus zum Laden externer Ressourcen an.
 type: docs
 weight: 9430
 url: /de/aspose.slides/resourceloadingaction/
 ---
 
-## ResourceLoadingAction Aufzählung
+## Enumeration ResourceLoadingAction
 
-Gibt den Modus des ladens von externen Ressourcen an.
+Gibt den Modus zum Laden externer Ressourcen an.
 
 ```csharp
 public enum ResourceLoadingAction
@@ -19,11 +19,11 @@ public enum ResourceLoadingAction
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Standard | `0` | Aspose.Slides wird externe Ressourcen wie gewohnt laden. |
-| Überspringen | `1` | Aspose.Slides wird das Laden externer Ressourcen überspringen. Nur der Link ohne Daten wird für ein Bild gespeichert. |
-| Benutzerbereitgestellt | `2` | Aspose.Slides verwendet das vom Benutzer in [`SetData`](../iresourceloadingargs/setdata) bereitgestellte Byte-Array als Bilddaten. |
+| Default | `0` | Aspose.Slides wird die externe Ressource wie gewohnt laden. |
+| Skip | `1` | Aspose.Slides wird das Laden der externen Ressource überspringen. Es wird nur der Link ohne Daten für ein Bild gespeichert. |
+| UserProvided | `2` | Aspose.Slides wird das vom Benutzer in [`SetData`](../iresourceloadingargs/setdata) bereitgestellte Byte-Array als Bilddaten verwenden. |
 
-### Siehe Auch
+### Siehe auch
 
 * Namespace [Aspose.Slides](../../aspose.slides)
 * Assembly [Aspose.Slides](../../)

@@ -1,7 +1,7 @@
 ---
 title: RowSpacingRule
-second_title: Справочник по API Aspose.Slides для .NET
-description: Тип вертикального расстояния между элементами массива
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Тип вертикального интервала между элементами массива
 type: docs
 weight: 70
 url: /ru/aspose.slides.mathtext/imatharray/rowspacingrule/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/imatharray/rowspacingrule/
 
 ## IMathArray.RowSpacingRule свойство
 
-Тип вертикального расстояния между элементами массива
+Тип вертикального интервала между элементами массива
 
 ```csharp
 public MathRowSpacingRule RowSpacingRule { get; set; }
@@ -25,7 +25,7 @@ IMathArray mathArray = new MathArray(new MathematicalText("item1"));
 mathArray.RowSpacingRule = MathRowSpacingRule.OneAndAHalfLineGap;
 ```
 
-### См. также
+### Также смотри
 
 * enum [MathRowSpacingRule](../../mathrowspacingrule)
 * interface [IMathArray](../../imatharray)

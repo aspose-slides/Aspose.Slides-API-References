@@ -1,6 +1,6 @@
 ---
 title: CompareTo
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Vergleicht die aktuelle Instanz mit einem anderen Objekt desselben Typs.
 type: docs
 weight: 40
@@ -17,13 +17,13 @@ public int CompareTo(object obj)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| obj | Objekt | Ein Objekt, das mit dieser Instanz verglichen werden soll. |
+| obj | Object | Ein Objekt, das mit dieser Instanz verglichen werden soll. |
 
 ### Rückgabewert
 
-Ein 32-Bit-Ganzzahl, die die relative Reihenfolge der Vergleichsobjekte angibt. Der Rückgabewert hat folgende Bedeutungen:  &lt; 0 - Diese Instanz ist kleiner als obj. = 0 - Diese Instanz ist gleich obj. &gt; 0 - Diese Instanz ist größer als obj.
+Ein 32-Bit-Ganzzahl, die die relative Reihenfolge der Vergleichswerte angibt. Der Rückgabewert hat folgende Bedeutungen:  &lt; 0 - Diese Instanz ist kleiner als obj. = 0 - Diese Instanz ist gleich obj. &gt; 0 - Diese Instanz ist größer als obj.
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [Tab](../../tab)
 * Namespace [Aspose.Slides](../../tab)

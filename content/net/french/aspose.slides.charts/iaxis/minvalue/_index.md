@@ -1,6 +1,6 @@
 ---
 title: MinValue
-second_title: Référence de l'API Aspose.Slide pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente la valeur minimale sur l'axe des valeurs. Lecture/écriture Double.
 type: docs
 weight: 430

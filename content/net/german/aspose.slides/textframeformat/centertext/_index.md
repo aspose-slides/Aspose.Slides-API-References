@@ -1,15 +1,15 @@
 ---
 title: CenterText
-second_title: Aspose.Slides für .NET API-Referenz
-description: Wenn NullableBool.True, dann sollte der Text horizontal im Bereich zentriert werden. Lesen/ Schreiben von NullableBool aspose.slides/nullablebool.
+second_title: Aspose.Slides für .NET API Referenz
+description: Wenn NullableBool.True, sollte der Text horizontal im Feld zentriert werden. Lese-/Schreibzugriff auf NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 40
 url: /de/aspose.slides/textframeformat/centertext/
 ---
 
-## TextFrameFormat.CenterText-Eigenschaft
+## TextFrameFormat.CenterText Eigenschaft
 
-Wenn NullableBool.True, dann sollte der Text horizontal im Bereich zentriert werden. Lesen/ Schreiben von [`NullableBool`](../../nullablebool).
+Wenn NullableBool.True, sollte der Text horizontal im Feld zentriert werden. Lese-/Schreibzugriff auf [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool CenterText { get; set; }

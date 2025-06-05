@@ -1,15 +1,15 @@
 ---
 title: AsIEnumerable
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie l'interface IEnumerable. IEnumerable en lecture seule.
+second_title: Aspose.Slides pour .NET API Reference
+description: Retourne l'interface IEnumerable. IEnumerable en lecture seule.
 type: docs
 weight: 10
 url: /fr/aspose.slides/iportioncollection/asienumerable/
 ---
 
-## Propriété IPortionCollection.AsIEnumerable
+## IPortionCollection.AsIEnumerable propriété
 
-Renvoie l'interface IEnumerable. IEnumerable en lecture seule.
+Retourne l'interface IEnumerable. IEnumerable en lecture seule.
 
 ```csharp
 public IEnumerable AsIEnumerable { get; }
@@ -17,9 +17,9 @@ public IEnumerable AsIEnumerable { get; }
 
 ### Remarques
 
-Pour la compatibilité COM.
+Pour la compatibilité avec COM.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IPortionCollection](../../iportioncollection)
 * namespace [Aspose.Slides](../../iportioncollection)

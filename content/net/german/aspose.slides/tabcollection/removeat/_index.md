@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Entfernt das Element am angegebenen Index der Sammlung.
 type: docs
 weight: 110
 url: /de/aspose.slides/tabcollection/removeat/
 ---
 
-## TabCollection.RemoveAt Methode
+## TabCollection.RemoveAt-Methode
 
 Entfernt das Element am angegebenen Index der Sammlung.
 

@@ -15,7 +15,7 @@ Devuelve el objeto ThreeDFormat que contiene propiedades de formato de línea pa
 public IThreeDFormat ThreeDFormat { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IThreeDFormat](../../ithreedformat)
 * interfaz [IShape](../../ishape)

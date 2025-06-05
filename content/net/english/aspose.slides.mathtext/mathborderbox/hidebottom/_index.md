@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.mathtext/mathborderbox/hidebottom/
 ---
+
 ## MathBorderBox.HideBottom property
 
 Hide Bottom Edge (default is false) - specifies the hidden or shown state of the bottom edge of border box.

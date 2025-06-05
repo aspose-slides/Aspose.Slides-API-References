@@ -1,15 +1,15 @@
 ---
-title: Image
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie l'image. Propriété ISlidesPicture en lecture seule aspose.slides/islidespicture.
+title: Picture
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Retourne l'image. Lecture seule ISlidesPictureaspose.slides/islidespicture.
 type: docs
 weight: 70
 url: /fr/aspose.slides/ipicturefillformat/picture/
 ---
 
-## Propriété IPictureFillFormat.Picture
+## IPictureFillFormat.Picture propriété
 
-Renvoie l'image. Propriété en lecture seule [`ISlidesPicture`](../../islidespicture).
+Retourne l'image. Lecture seule [`ISlidesPicture`](../../islidespicture).
 
 ```csharp
 public ISlidesPicture Picture { get; }

@@ -1,7 +1,7 @@
 ---
 title: AddFromHtml
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Crea diapositivas desde texto HTML y las añade al final de la colección.
+second_title: Aspose.Slides para .NET API Reference
+description: Crea diapositivas a partir de texto HTML y las agrega al final de la colección.
 type: docs
 weight: 70
 url: /es/aspose.slides/slidecollection/addfromhtml/
@@ -9,66 +9,66 @@ url: /es/aspose.slides/slidecollection/addfromhtml/
 
 ## AddFromHtml(string, IExternalResourceResolver, string) {#addfromhtml_5}
 
-Crea diapositivas desde texto HTML y las añade al final de la colección.
+Crea diapositivas a partir de texto HTML y las agrega al final de la colección.
 
 ```csharp
 public ISlide[] AddFromHtml(string htmlText, IExternalResourceResolver resolver, string uri)
 ```
 
-| Par&aacute;metro | Tipo | Descripci&oacute;n |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| htmlText | String | Html para agregar. |
+| htmlText | String | Html a agregar. |
 | resolver | IExternalResourceResolver | Un objeto de callback utilizado para obtener objetos externos. Si este parámetro es nulo, todos los objetos externos serán ignorados. |
 | uri | String | Un URI del HTML especificado. Se utiliza para resolver enlaces relativos. |
 
 ### Valor de Retorno
 
-Diapositivas añadidas.
+Diapositivas agregadas.
 
-### Véase También
+### Ver También
 
-* interfaz [ISlide](../../islide)
-* interfaz [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
-* clase [SlideCollection](../../slidecollection)
-* espacio de nombres [Aspose.Slides](../../slidecollection)
-* ensamblado [Aspose.Slides](../../../)
+* interface [ISlide](../../islide)
+* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* class [SlideCollection](../../slidecollection)
+* namespace [Aspose.Slides](../../slidecollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## AddFromHtml(string) {#addfromhtml_4}
 
-Crea diapositivas desde texto HTML y las añade al final de la colección.
+Crea diapositivas a partir de texto HTML y las agrega al final de la colección.
 
 ```csharp
 public ISlide[] AddFromHtml(string htmlText)
 ```
 
-| Par&aacute;metro | Tipo | Descripci&oacute;n |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| htmlText | String | Html para agregar. |
+| htmlText | String | Html a agregar. |
 
 ### Valor de Retorno
 
-Diapositivas añadidas.
+Diapositivas agregadas
 
-### Véase También
+### Ver También
 
-* interfaz [ISlide](../../islide)
-* clase [SlideCollection](../../slidecollection)
-* espacio de nombres [Aspose.Slides](../../slidecollection)
-* ensamblado [Aspose.Slides](../../../)
+* interface [ISlide](../../islide)
+* class [SlideCollection](../../slidecollection)
+* namespace [Aspose.Slides](../../slidecollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## AddFromHtml(TextReader, IExternalResourceResolver, string) {#addfromhtml_3}
 
-Crea diapositivas desde texto HTML y las añade al final de la colección.
+Crea diapositivas a partir de texto HTML y las agrega al final de la colección.
 
 ```csharp
 public ISlide[] AddFromHtml(TextReader htmlReader, IExternalResourceResolver resolver, string uri)
 ```
 
-| Par&aacute;metro | Tipo | Descripci&oacute;n |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | htmlReader | TextReader | Objeto TextReader que se utilizará como fuente de un archivo HTML. |
 | resolver | IExternalResourceResolver | Un objeto de callback utilizado para obtener objetos externos. Si este parámetro es nulo, todos los objetos externos serán ignorados. |
@@ -76,52 +76,52 @@ public ISlide[] AddFromHtml(TextReader htmlReader, IExternalResourceResolver res
 
 ### Valor de Retorno
 
-Diapositivas añadidas.
+Diapositivas agregadas.
 
-### Véase También
+### Ver También
 
-* interfaz [ISlide](../../islide)
-* interfaz [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
-* clase [SlideCollection](../../slidecollection)
-* espacio de nombres [Aspose.Slides](../../slidecollection)
-* ensamblado [Aspose.Slides](../../../)
+* interface [ISlide](../../islide)
+* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* class [SlideCollection](../../slidecollection)
+* namespace [Aspose.Slides](../../slidecollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## AddFromHtml(TextReader) {#addfromhtml_2}
 
-Crea diapositivas desde texto HTML y las añade al final de la colección.
+Crea diapositivas a partir de texto HTML y las agrega al final de la colección.
 
 ```csharp
 public ISlide[] AddFromHtml(TextReader htmlReader)
 ```
 
-| Par&aacute;metro | Tipo | Descripci&oacute;n |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | htmlReader | TextReader | Objeto TextReader que se utilizará como fuente de un archivo HTML. |
 
 ### Valor de Retorno
 
-Diapositivas añadidas.
+Diapositivas agregadas
 
-### Véase También
+### Ver También
 
-* interfaz [ISlide](../../islide)
-* clase [SlideCollection](../../slidecollection)
-* espacio de nombres [Aspose.Slides](../../slidecollection)
-* ensamblado [Aspose.Slides](../../../)
+* interface [ISlide](../../islide)
+* class [SlideCollection](../../slidecollection)
+* namespace [Aspose.Slides](../../slidecollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## AddFromHtml(Stream, IExternalResourceResolver, string) {#addfromhtml_1}
 
-Crea diapositivas desde texto HTML y las añade al final de la colección.
+Crea diapositivas a partir de texto HTML y las agrega al final de la colección.
 
 ```csharp
 public ISlide[] AddFromHtml(Stream htmlStream, IExternalResourceResolver resolver, string uri)
 ```
 
-| Par&aacute;metro | Tipo | Descripci&oacute;n |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | htmlStream | Stream | Un objeto Stream que se utilizará como fuente de un archivo HTML. |
 | resolver | IExternalResourceResolver | Un objeto de callback utilizado para obtener objetos externos. Si este parámetro es nulo, todos los objetos externos serán ignorados. |
@@ -129,33 +129,33 @@ public ISlide[] AddFromHtml(Stream htmlStream, IExternalResourceResolver resolve
 
 ### Valor de Retorno
 
-Diapositivas añadidas.
+Diapositivas agregadas.
 
-### Véase También
+### Ver También
 
-* interfaz [ISlide](../../islide)
-* interfaz [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
-* clase [SlideCollection](../../slidecollection)
-* espacio de nombres [Aspose.Slides](../../slidecollection)
-* ensamblado [Aspose.Slides](../../../)
+* interface [ISlide](../../islide)
+* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* class [SlideCollection](../../slidecollection)
+* namespace [Aspose.Slides](../../slidecollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## AddFromHtml(Stream) {#addfromhtml}
 
-Crea diapositivas desde texto HTML y las añade al final de la colección.
+Crea diapositivas a partir de texto HTML y las agrega al final de la colección.
 
 ```csharp
 public ISlide[] AddFromHtml(Stream htmlStream)
 ```
 
-| Par&aacute;metro | Tipo | Descripci&oacute;n |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | htmlStream | Stream | Un objeto Stream que se utilizará como fuente de un archivo HTML. |
 
 ### Valor de Retorno
 
-Diapositivas añadidas.
+Diapositivas agregadas
 
 ### Ejemplos
 
@@ -169,16 +169,16 @@ using (var presentation = new Presentation())
 		// Llamar al método AddFromHtml y pasar el archivo HTML.
         presentation.Slides.AddFromHtml(htmlStream);
     }
-	// Utilizar el método Save para guardar el archivo como un documento de PowerPoint.
+	// Usar el método Save para guardar el archivo como documento de PowerPoint.
     presentation.Save("MyPresentation.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Véase También
+### Ver También
 
-* interfaz [ISlide](../../islide)
-* clase [SlideCollection](../../slidecollection)
-* espacio de nombres [Aspose.Slides](../../slidecollection)
-* ensamblado [Aspose.Slides](../../../)
+* interface [ISlide](../../islide)
+* class [SlideCollection](../../slidecollection)
+* namespace [Aspose.Slides](../../slidecollection)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

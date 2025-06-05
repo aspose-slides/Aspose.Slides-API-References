@@ -1,13 +1,13 @@
 ---
 title: ActionType
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回超链接动作的类型。只读 HyperlinkActionTypeaspose.slides/hyperlinkactiontype。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回超链接动作的类型。只读的HyperlinkActionTypeaspose.slides/hyperlinkactiontype。
 type: docs
 weight: 100
 url: /zh/aspose.slides/hyperlink/actiontype/
 ---
 
-## Hyperlink.ActionType 属性
+## Hyperlink.ActionType属性
 
 返回超链接的动作类型。只读 [`HyperlinkActionType`](../../hyperlinkactiontype)。
 

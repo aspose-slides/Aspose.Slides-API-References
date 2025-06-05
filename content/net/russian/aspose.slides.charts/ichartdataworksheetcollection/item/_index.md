@@ -1,6 +1,6 @@
 ---
-title: Элемент
-second_title: Справочник по API Aspose.Slides для .NET
+title: Item
+second_title: Aspose.Slides для .NET API Reference
 description: Возвращает рабочий лист по индексу.
 type: docs
 weight: 10
@@ -19,7 +19,7 @@ public IChartDataWorksheet this[int index] { get; }
 | --- | --- |
 | index | Индекс рабочего листа в коллекции. |
 
-### Возврат Значения
+### Возвращаемое значение
 
 Экземпляр IChartDataWorksheet.
 

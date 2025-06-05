@@ -1,13 +1,13 @@
 ---
 title: BookmarkId
-second_title: Aspose.Slides для .NET - Справочник по API
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает идентификатор закладки. Только для чтения строка.
 type: docs
 weight: 20
 url: /ru/aspose.slides/iportionformateffectivedata/bookmarkid/
 ---
 
-## Свойство IPortionFormatEffectiveData.BookmarkId
+## IPortionFormatEffectiveData.BookmarkId свойство
 
 Возвращает идентификатор закладки. Только для чтения строка.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/iportionformateffectivedata/bookmarkid/
 public string BookmarkId { get; }
 ```
 
-### См. Также
+### Смотрите также
 
 * интерфейс [IPortionFormatEffectiveData](../../iportionformateffectivedata)
 * пространство имен [Aspose.Slides](../../iportionformateffectivedata)

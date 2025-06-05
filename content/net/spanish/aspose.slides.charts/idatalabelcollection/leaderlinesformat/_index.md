@@ -1,6 +1,6 @@
 ---
 title: LeaderLinesFormat
-second_title: Aspose.Slides para .NET API Referencia
+second_title: Aspose.Slides para .NET Referencia de API
 description: Representa el formato de líneas guías de etiquetas de datos. Solo lectura IChartLinesFormat aspose.slides.charts/ichartlinesformat.
 type: docs
 weight: 80
@@ -34,9 +34,9 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ### Ver También
 
-* interfaz [IChartLinesFormat](../../ichartlinesformat)
-* interfaz [IDataLabelCollection](../../idatalabelcollection)
-* espacio de nombres [Aspose.Slides.Charts](../../idatalabelcollection)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IChartLinesFormat](../../ichartlinesformat)
+* interfaz [IDataLabelCollection](../../idatalabelcollection)
+* espacio de nombres [Aspose.Slides.Charts](../../idatalabelcollection)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

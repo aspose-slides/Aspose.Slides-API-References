@@ -1,6 +1,6 @@
 ---
 title: DeletePictureCroppedAreas
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 删除填充图片的裁剪区域。
 type: docs
 weight: 200
@@ -17,11 +17,11 @@ public IPPImage DeletePictureCroppedAreas()
 
 ### 返回值
 
-裁剪后的图像，如果不需要裁剪，则返回原始图像。
+裁剪后的图像或原始图像（如果不需要裁剪）。
 
 ### 备注
 
-此方法在裁剪的同时将 WMF/EMF 元文件转换为栅格 PNG 图像。
+此方法在裁剪时将 WMF/EMF 元文件转换为光栅 PNG 图像。
 
 ### 示例
 
@@ -39,7 +39,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IPPImage](../../ippimage)
 * 接口 [IPictureFillFormat](../../ipicturefillformat)

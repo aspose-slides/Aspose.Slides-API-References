@@ -1,6 +1,6 @@
 ---
 title: Equals
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET Справочник по API
 description: Определяет, равны ли два экземпляра TransitionValueBase.
 type: docs
 weight: 10
@@ -17,9 +17,9 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | TransitionValueBase, который требуется сравнить с текущим TransitionValueBase. |
+| obj | Object | TransitionValueBase для сравнения с текущим TransitionValueBase. |
 
-### Возврат значения
+### Возвращаемое Значение
 
 **true**, если указанный TransitionValueBase равен текущему TransitionValueBase; в противном случае **false**.
 

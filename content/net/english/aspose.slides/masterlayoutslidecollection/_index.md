@@ -3,9 +3,10 @@ title: MasterLayoutSlideCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collections of all layout slides of defined master slide. Extends LayoutSlideCollection class with methods for adding/inserting/removing/cloning/reordering layout slides in context of the individual collections of masters layout slides.
 type: docs
-weight: 7420
+weight: 7750
 url: /aspose.slides/masterlayoutslidecollection/
 ---
+
 ## MasterLayoutSlideCollection class
 
 Represents a collections of all layout slides of defined master slide. Extends LayoutSlideCollection class with methods for adding/inserting/removing/cloning/reordering layout slides in context of the individual collections of master's layout slides.

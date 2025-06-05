@@ -7,7 +7,7 @@ weight: 20
 url: /de/aspose.slides.vba/ivbaprojectfactory/readvbaproject/
 ---
 
-## IVbaProjectFactory.ReadVbaProject-Methode
+## IVbaProjectFactory.ReadVbaProject Methode
 
 Liest das VBA-Projekt aus dem OLE-Container.
 

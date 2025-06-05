@@ -1,7 +1,7 @@
 ---
 title: ShowBubbleSize
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente un comportement d'affichage de la valeur de taille de bulle de l'étiquette de données d'un graphique spécifié. Vrai affiche la valeur de la taille de la bulle. Faux pour masquer. Booléen en lecture/écriture.
+second_title: Référence API Aspose.Slides pour .NET
+description: Représente un comportement d'affichage spécifié de la valeur de taille de bulle de l'étiquette de données d'un graphique. True affiche la valeur de taille de bulle. False pour cacher. Booléen en lecture/écriture.
 type: docs
 weight: 70
 url: /fr/aspose.slides.charts/datalabelformat/showbubblesize/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/datalabelformat/showbubblesize/
 
 ## Propriété DataLabelFormat.ShowBubbleSize
 
-Représente un comportement d'affichage de la valeur de taille de bulle de l'étiquette de données d'un graphique spécifié. Vrai affiche la valeur de la taille de la bulle. Faux pour masquer. Booléen en lecture/écriture.
+Représente un comportement d'affichage spécifié de la valeur de taille de bulle de l'étiquette de données d'un graphique. True affiche la valeur de taille de bulle. False pour cacher. Booléen en lecture/écriture.
 
 ```csharp
 public bool ShowBubbleSize { get; set; }
@@ -17,7 +17,7 @@ public bool ShowBubbleSize { get; set; }
 
 ### Remarques
 
-Si le parent de cet objet DataLabelFormat est une collection DataLabelCollection d'étiquettes de données, alors cette propriété obtient ou définit la valeur par défaut de la propriété ShowBubbleSize pour les nouvelles étiquettes de données dans la collection DataLabelCollection. Définir cette propriété avec une valeur définit également cette valeur pour la propriété ShowBubbleSize de toutes les étiquettes de données dans la collection DataLabelCollection (c'est-à-dire que "DataLabels.DefaultDataLabelFormat.ShowBubbleSize = val;" entraîne que tous les DataLabels[i].ShowBubbleSize soient égaux à val).
+Si le parent de cet objet DataLabelFormat est une collection DataLabelCollection d'étiquettes de données, alors cette propriété obtient ou définit la valeur par défaut de la propriété ShowBubbleSize pour les nouvelles étiquettes de données dans la collection DataLabelCollection. Définir cette propriété avec une valeur définit également cette valeur pour la propriété ShowBubbleSize pour toutes les étiquettes de données dans la collection DataLabelCollection (c'est-à-dire "DataLabels.DefaultDataLabelFormat.ShowBubbleSize = val;" entraîne que toutes les DataLabels[i].ShowBubbleSize soient égales à val).
 
 ### Voir aussi
 

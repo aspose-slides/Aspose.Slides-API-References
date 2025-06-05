@@ -1,13 +1,13 @@
 ---
 title: SaveExternal
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Enregistre un objet externe.
 type: docs
 weight: 30
 url: /fr/aspose.slides.export/ilinkembedcontroller/saveexternal/
 ---
 
-## Méthode ILinkEmbedController.SaveExternal
+## ILinkEmbedController.SaveExternal méthode
 
 Enregistre un objet externe.
 
@@ -17,10 +17,10 @@ public void SaveExternal(int id, byte[] entityData)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| id | Int32 | ID de l'objet. Cet ID est unique pour l'opération d'enregistrement. |
+| id | Int32 | Identifiant de l'objet. Cet identifiant est unique pour l'opération d'enregistrement. |
 | entityData | Byte[] | Données binaires de l'objet. Ce paramètre ne peut pas être nul. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ILinkEmbedController](../../ilinkembedcontroller)
 * namespace [Aspose.Slides.Export](../../ilinkembedcontroller)

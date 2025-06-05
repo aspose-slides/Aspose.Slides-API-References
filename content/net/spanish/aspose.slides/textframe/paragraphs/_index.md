@@ -1,7 +1,7 @@
 ---
-title: Párrafos
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve la lista de todos los párrafos en un marco. Solo lectura IParagraphCollection aspose.slides/iparagraphcollection.
+title: Paragraphs
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve la lista de todos los párrafos en un marco. Solo lectura IParagraphCollectionaspose.slides/iparagraphcollection.
 type: docs
 weight: 20
 url: /es/aspose.slides/textframe/paragraphs/
@@ -15,7 +15,7 @@ Devuelve la lista de todos los párrafos en un marco. Solo lectura [`IParagraphC
 public IParagraphCollection Paragraphs { get; }
 ```
 
-### También ver
+### Ver También
 
 * interfaz [IParagraphCollection](../../iparagraphcollection)
 * clase [TextFrame](../../textframe)

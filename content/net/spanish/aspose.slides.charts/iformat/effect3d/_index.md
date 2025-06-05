@@ -1,7 +1,7 @@
 ---
 title: Effect3D
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve el formato 3D de un gráfico. Solo lectura IThreeDFormataspose.slides/ithreedformat.
+description: Devuelve el formato 3D de un gráfico. Solo lectura IThreeDFormat aspose.slides/ithreedformat.
 type: docs
 weight: 20
 url: /es/aspose.slides.charts/iformat/effect3d/
@@ -15,7 +15,7 @@ Devuelve el formato 3D de un gráfico. Solo lectura [`IThreeDFormat`](../../../a
 public IThreeDFormat Effect3D { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IThreeDFormat](../../../aspose.slides/ithreedformat)
 * interfaz [IFormat](../../iformat)

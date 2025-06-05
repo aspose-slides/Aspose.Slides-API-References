@@ -1,21 +1,21 @@
 ---
 title: TileFlip
-second_title: Ссылка по API Aspose.Slides для .NET
-description: Возвращает или задает режим переворота для градиента. Чтение/запись TileFlipaspose.slides/tileflip.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Возвращает или устанавливает режим переворота для градиента. Чтение/запись TileFlipaspose.slides/tileflip.
 type: docs
 weight: 70
 url: /ru/aspose.slides/igradientformat/tileflip/
 ---
 
-## IGradientFormat.TileFlip свойство
+## Свойство IGradientFormat.TileFlip
 
-Возвращает или задает режим переворота для градиента. Чтение/запись [`TileFlip`](../../tileflip).
+Возвращает или устанавливает режим переворота для градиента. Чтение/запись [`TileFlip`](../../tileflip).
 
 ```csharp
 public TileFlip TileFlip { get; set; }
 ```
 
-### Также смотрите
+### См. Также
 
 * enum [TileFlip](../../tileflip)
 * interface [IGradientFormat](../../igradientformat)

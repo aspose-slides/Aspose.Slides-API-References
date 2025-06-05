@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/ibaseportionformateffectivedata/escapement/
 ---
+
 ## IBasePortionFormatEffectiveData.Escapement property
 
 Returns the superscript or subscript text. Value from -100% (subscript) to 100% (superscript). Read-only Single.

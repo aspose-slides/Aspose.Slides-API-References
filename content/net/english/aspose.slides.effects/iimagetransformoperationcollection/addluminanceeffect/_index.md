@@ -6,6 +6,7 @@ type: docs
 weight: 180
 url: /aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect/
 ---
+
 ## IImageTransformOperationCollection.AddLuminanceEffect method
 
 Adds the new Luminance effect to the end of a collection.

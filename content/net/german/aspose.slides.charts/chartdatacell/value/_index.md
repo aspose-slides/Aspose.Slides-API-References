@@ -1,7 +1,7 @@
 ---
-title: Wert
+title: Value
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft den Wert einer Zelle ab oder setzt ihn. Lese-/Schreibobjekt.
+description: Ruft den Wert einer Zelle ab oder legt ihn fest. Lese-/Schreibobjekt.
 type: docs
 weight: 90
 url: /de/aspose.slides.charts/chartdatacell/value/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartdatacell/value/
 
 ## ChartDataCell.Value-Eigenschaft
 
-Ruht den Wert einer Zelle ab oder setzt ihn. Lese-/Schreibobjekt.
+Ruht den Wert einer Zelle ab oder legt ihn fest. Lese-/Schreibobjekt.
 
 ```csharp
 public object Value { get; set; }

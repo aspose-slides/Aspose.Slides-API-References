@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/errorbarsformat/hasendcap/
 ---
+
 ## ErrorBarsFormat.HasEndCap property
 
 Specifies an end cap is not drawn on the error bars. Read/write Boolean.

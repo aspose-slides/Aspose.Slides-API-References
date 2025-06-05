@@ -1,15 +1,15 @@
 ---
-title: Compte
-second_title: Référence API Aspose.Slides pour .NET
-description: Obtient le nombre de polices réellement définies pour la plage.
+title: Count
+second_title: Aspose.Sildes pour .NET Référence API
+description: Obtient le nombre de polices effectivement définies pour la plage.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ifontfallbackrule/count/
 ---
 
-## Propriété IFontFallBackRule.Count
+## IFontFallBackRule.Count propriété
 
-Obtient le nombre de polices réellement définies pour la plage.
+Obtient le nombre de polices effectivement définies pour la plage.
 
 ```csharp
 public int Count { get; }

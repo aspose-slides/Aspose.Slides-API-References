@@ -1,7 +1,7 @@
 ---
 title: GetImage
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve la miniatura de la forma. El tipo de límites de miniaturas de forma ShapeThumbnailBounds.Shape se utiliza por defecto.
+description: Devuelve la miniatura de la forma. Se utiliza por defecto el tipo de límites de miniatura de forma ShapeThumbnailBounds.Shape.
 type: docs
 weight: 320
 url: /es/aspose.slides/ishape/getimage/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/ishape/getimage/
 
 ## GetImage() {#getimage}
 
-Devuelve la miniatura de la forma. El tipo de límites de miniaturas de forma ShapeThumbnailBounds.Shape se utiliza por defecto.
+Devuelve la miniatura de la forma. Se utiliza por defecto el tipo de límites de miniatura de forma ShapeThumbnailBounds.Shape.
 
 ```csharp
 public IImage GetImage()
@@ -44,7 +44,7 @@ public IImage GetImage(ShapeThumbnailBounds bounds, float scaleX, float scaleY)
 
 ### Valor de Retorno
 
-Miniatura de la forma o nulo en caso de que se utilice ShapeThumbnailBounds.Appearance y una forma no tenga elementos visibles.
+Miniatura de la forma o null en caso de que se utilice ShapeThumbnailBounds.Appearance y una forma no tenga elementos visibles.
 
 ### Véase También
 

@@ -1,7 +1,7 @@
 ---
-title: ЗаголовокДиаграммы
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает заголовок диаграммы. Только для чтения IChartTitle aspose.slides.charts/icharttitle.
+title: ChartTitle
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает или устанавливает заголовок диаграммы. Только для чтения IChartTitleaspose.slides.charts/icharttitle.
 type: docs
 weight: 70
 url: /ru/aspose.slides.charts/chart/charttitle/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.charts/chart/charttitle/
 
 ## Свойство Chart.ChartTitle
 
-Возвращает или задает заголовок диаграммы. Только для чтения [`IChartTitle`](../../icharttitle).
+Возвращает или устанавливает заголовок диаграммы. Только для чтения [`IChartTitle`](../../icharttitle).
 
 ```csharp
 public IChartTitle ChartTitle { get; }
 ```
 
-### Дополнительная Информация
+### См. также
 
 * интерфейс [IChartTitle](../../icharttitle)
 * класс [Chart](../../chart)

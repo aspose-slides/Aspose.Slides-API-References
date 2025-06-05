@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/ichartseriesgroupcollection/item/
 ---
+
 ## IChartSeriesGroupCollection indexer (1 of 2)
 
 Gets the series group by series.

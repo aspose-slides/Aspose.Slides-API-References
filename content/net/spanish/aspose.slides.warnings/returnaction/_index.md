@@ -1,7 +1,7 @@
 ---
 title: ReturnAction
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Representa las opciones de decisión del callback de advertencia.
+second_title: Aspose.Slides para .NET API Reference
+description: Representa opciones de decisión de llamada de advertencia.
 type: docs
 weight: 11510
 url: /es/aspose.slides.warnings/returnaction/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.warnings/returnaction/
 
 ## Enumeración ReturnAction
 
-Representa las opciones de decisión del callback de advertencia.
+Representa opciones de decisión de llamada de advertencia.
 
 ```csharp
 public enum ReturnAction
@@ -19,10 +19,10 @@ public enum ReturnAction
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Continuar | `0` | La operación debe continuar. |
-| Abortar | `1` | La operación debe ser abortada. |
+| Continue | `0` | La operación debe continuar. |
+| Abort | `1` | La operación debe abortarse. |
 
-### Ver también
+### Ver También
 
 * namespace [Aspose.Slides.Warnings](../../aspose.slides.warnings)
 * assembly [Aspose.Slides](../../)

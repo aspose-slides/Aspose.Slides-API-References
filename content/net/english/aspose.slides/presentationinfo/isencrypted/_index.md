@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/presentationinfo/isencrypted/
 ---
+
 ## PresentationInfo.IsEncrypted property
 
 Gets True if binded presentation is encrypted, otherwise False. Read-only Boolean.

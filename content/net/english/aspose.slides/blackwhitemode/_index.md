@@ -3,9 +3,10 @@ title: BlackWhiteMode
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines how colored shape should be transformed into black and white.
 type: docs
-weight: 930
+weight: 940
 url: /aspose.slides/blackwhitemode/
 ---
+
 ## BlackWhiteMode enumeration
 
 Determines how colored shape should be transformed into black and white.

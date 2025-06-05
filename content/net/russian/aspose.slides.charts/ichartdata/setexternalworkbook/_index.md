@@ -1,7 +1,7 @@
 ---
 title: SetExternalWorkbook
 second_title: Aspose.Sildes для .NET API Справочник
-description: Устанавливает внешний рабочий файл в качестве источника данных для диаграммы. Данные диаграммы будут обновлены из целевого рабочего файла.
+description: Устанавливает внешний рабочий лист в качестве источника данных для диаграммы. Данные диаграммы будут обновлены из целевого рабочего листа.
 type: docs
 weight: 110
 url: /ru/aspose.slides.charts/ichartdata/setexternalworkbook/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/ichartdata/setexternalworkbook/
 
 ## SetExternalWorkbook(string) {#setexternalworkbook}
 
-Устанавливает внешний рабочий файл в качестве источника данных для диаграммы. Данные диаграммы будут обновлены из целевого рабочего файла.
+Устанавливает внешний рабочий лист в качестве источника данных для диаграммы. Данные диаграммы будут обновлены из целевого рабочего листа.
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath)
@@ -17,13 +17,13 @@ public void SetExternalWorkbook(string workbookPath)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| workbookPath | String | Путь к целевому рабочему файлу |
+| workbookPath | String | Путь к целевому рабочему листу |
 
 ### Исключения
 
-| exception | condition |
+| исключение | условие |
 | --- | --- |
-| InvalidOperationException | Внешний рабочий файл недоступен или не может быть загружен. |
+| InvalidOperationException | Внешний рабочий лист недоступен или не может быть загружен. |
 
 ### Примеры
 
@@ -47,7 +47,7 @@ using (Presentation pres = new Presentation())
 
 ## SetExternalWorkbook(string, bool) {#setexternalworkbook_1}
 
-Устанавливает внешний рабочий файл в качестве источника данных для диаграммы.
+Устанавливает внешний рабочий лист в качестве источника данных для диаграммы.
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath, bool updateChartData)
@@ -55,14 +55,14 @@ public void SetExternalWorkbook(string workbookPath, bool updateChartData)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| workbookPath | String | Путь к целевому рабочему файлу |
-| updateChartData | Boolean | Если значение false, будет обновлен только путь к рабочему файлу. Данные диаграммы не будут загружены и обновлены из целевого рабочего файла. Может использоваться, когда целевой рабочий файл не существует или недоступен. Если значение true, данные диаграммы будут обновлены из целевого рабочего файла. |
+| workbookPath | String | Путь к целевому рабочему листу |
+| updateChartData | Boolean | Если значение равно false, будет обновлён только путь к рабочему листу. Данные диаграммы не будут загружены и обновлены из целевого рабочего листа. Может быть использовано, когда целевой рабочий лист не существует или недоступен. Если значение равно true, данные диаграммы будут обновлены из целевого рабочего листа. |
 
 ### Исключения
 
-| exception | condition |
+| исключение | условие |
 | --- | --- |
-| InvalidOperationException | Внешний рабочий файл недоступен или не может быть загружен. |
+| InvalidOperationException | Внешний рабочий лист недоступен или не может быть загружен. |
 
 ### Примеры
 

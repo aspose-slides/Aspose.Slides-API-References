@@ -1,7 +1,7 @@
 ---
 title: AsIDisposable
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve la interfaz IDisposable. IDisposable de solo lectura.
+description: Devuelve la interfaz IDisposable. Solo lectura de IDisposable.
 type: docs
 weight: 10
 url: /es/aspose.slides/iimagewrapper/asidisposable/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/iimagewrapper/asidisposable/
 
 ## Propiedad IImageWrapper.AsIDisposable
 
-Devuelve la interfaz IDisposable. IDisposable de solo lectura.
+Devuelve la interfaz IDisposable. Solo lectura de IDisposable.
 
 ```csharp
 public IDisposable AsIDisposable { get; }
@@ -19,10 +19,10 @@ public IDisposable AsIDisposable { get; }
 
 Para compatibilidad con COM.
 
-### Véase También
+### Ver También
 
-* interfaz [IImageWrapper](../../iimagewrapper)
-* namespace [Aspose.Slides](../../iimagewrapper)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IImageWrapper](../../iimagewrapper)
+* espacio de nombres [Aspose.Slides](../../iimagewrapper)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

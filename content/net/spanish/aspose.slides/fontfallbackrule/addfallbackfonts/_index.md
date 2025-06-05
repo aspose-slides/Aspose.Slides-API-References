@@ -1,6 +1,6 @@
 ---
 title: AddFallBackFonts
-second_title: Aspose.Sildes para referencia de API de .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Agrega una nueva fuente a la lista de fuentes de FallBack.
 type: docs
 weight: 60
@@ -28,13 +28,13 @@ IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho");
 
 //Agregar una segunda fuente a la regla 
 newRule.AddFallBackFonts("MS Gothic");
-//Agregar una tercera y cuarta fuente a la regla 
+//Agregar una tercera y cuarta fuentes a la regla 
 newRule.AddFallBackFonts("Tahoma, Times New Roman");
 ```
 
 ### Ver También
 
-* clase [FontFallBackRule](../../fontfallbackrule)
+* class [FontFallBackRule](../../fontfallbackrule)
 * namespace [Aspose.Slides](../../fontfallbackrule)
 * assembly [Aspose.Slides](../../../)
 
@@ -50,7 +50,7 @@ public void AddFallBackFonts(string[] fontNames)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| fontNames | String[] | Nombres de fuente o nombres (separados por comas) para FallBack |
+| fontNames | String[] | Nombre o nombres de la fuente (separados por comas) para FallBack |
 
 ### Ejemplos
 
@@ -65,7 +65,7 @@ newRule.AddFallBackFonts(new string [] {"MS Gothic","Tahoma, Times New Roman"});
 
 ### Ver También
 
-* clase [FontFallBackRule](../../fontfallbackrule)
+* class [FontFallBackRule](../../fontfallbackrule)
 * namespace [Aspose.Slides](../../fontfallbackrule)
 * assembly [Aspose.Slides](../../../)
 

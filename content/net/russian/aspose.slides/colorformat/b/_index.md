@@ -1,13 +1,13 @@
 ---
 title: B
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает или устанавливает синий компонент цвета. Все преобразования цвета игнорируются. Чтение/запись Byte.
 type: docs
 weight: 10
 url: /ru/aspose.slides/colorformat/b/
 ---
 
-## Свойство ColorFormat.B
+## ColorFormat.B свойство
 
 Возвращает или устанавливает синий компонент цвета. Все преобразования цвета игнорируются. Чтение/запись Byte.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/colorformat/b/
 public byte B { get; set; }
 ```
 
-### Смотрите также
+### Смотрите Также
 
 * класс [ColorFormat](../../colorformat)
 * пространство имен [Aspose.Slides](../../colorformat)

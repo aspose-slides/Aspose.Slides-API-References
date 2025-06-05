@@ -6,6 +6,7 @@ type: docs
 weight: 180
 url: /aspose.slides/ilineformat/width/
 ---
+
 ## ILineFormat.Width property
 
 Returns or sets the width of a line. Read/write Double.

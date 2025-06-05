@@ -1,7 +1,7 @@
 ---
 title: GetFontBytes
-second_title: Aspose.Slides для .NET API Справочник
-description: Извлекает массив байтов, представляющий данные шрифта для указанного стиля шрифта и данных шрифта.
+second_title: Aspose.Sildes for .NET API Reference
+description: Получает массив байтов, представляющий данные шрифта для заданного стиля шрифта и данных шрифта.
 type: docs
 weight: 50
 url: /ru/aspose.slides/ifontsmanager/getfontbytes/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ifontsmanager/getfontbytes/
 
 ## IFontsManager.GetFontBytes метод
 
-Извлекает массив байтов, представляющий данные шрифта для указанного стиля шрифта и данных шрифта.
+Получает массив байтов, представляющий данные шрифта для заданного стиля шрифта и данных шрифта.
 
 ```csharp
 public byte[] GetFontBytes(IFontData fontData, FontStyle fontStyle)
@@ -18,11 +18,11 @@ public byte[] GetFontBytes(IFontData fontData, FontStyle fontStyle)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fontData | IFontData | Объект данных шрифта, содержащий информацию о шрифте [`IFontData`](../../ifontdata). |
-| fontStyle | FontStyle | Стиль шрифта, для которого данные должны быть извлечены FontStyle. |
+| fontStyle | FontStyle | Стиль шрифта, для которого нужно получить данные FontStyle. |
 
 ### Возвращаемое значение
 
-Массив байтов, содержащий данные шрифта для указанного стиля шрифта. Если данные шрифта или стиль не найдены, возвращает null.
+Массив байтов, содержащий данные шрифта для заданного стиля шрифта. Если данные шрифта или стиль не найдены, возвращает null.
 
 ### Примеры
 
@@ -30,10 +30,10 @@ public byte[] GetFontBytes(IFontData fontData, FontStyle fontStyle)
 [C#]
 using (Presentation pres = new Presentation ("Presentation.pptx"))
 {
-    // Извлекаем все шрифты, используемые в презентации
+    // Получить все шрифты, используемые в презентации
     IFontData[] fonts = pres.FontsManager.GetFonts();
 
-    // Получаем массив байтов, представляющий обычный стиль первого шрифта в презентации
+    // Получить массив байтов, представляющий обычный стиль первого шрифта в презентации
     byte[] bytes = pres.FontsManager.GetFontBytes(fonts[0], FontStyle.Regular);
 }
 ```

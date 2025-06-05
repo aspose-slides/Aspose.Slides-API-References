@@ -1,5 +1,5 @@
 ---
-title: Elemento
+title: Item
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene el elemento en el índice especificado. Solo lectura Trendlineaspose.slides.charts/trendline.
 type: docs
@@ -7,7 +7,7 @@ weight: 20
 url: /es/aspose.slides.charts/trendlinecollection/item/
 ---
 
-## Índice de TrendlineCollection
+## Indexador de TrendlineCollection
 
 Obtiene el elemento en el índice especificado. Solo lectura [`Trendline`](../../trendline).
 
@@ -17,9 +17,9 @@ public ITrendline this[int index] { get; }
 
 ### Ver También
 
-* interface [ITrendline](../../itrendline)
-* class [TrendlineCollection](../../trendlinecollection)
-* namespace [Aspose.Slides.Charts](../../trendlinecollection)
-* assembly [Aspose.Slides](../../../)
+* interfaz [ITrendline](../../itrendline)
+* clase [TrendlineCollection](../../trendlinecollection)
+* espacio de nombres [Aspose.Slides.Charts](../../trendlinecollection)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

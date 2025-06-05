@@ -1,7 +1,7 @@
 ---
-title: Звук
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает встроенные аудиоданные. Чтение/запись IAudio aspose.slides/iaudio.
+title: Sound
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или устанавливает встроенные аудиоданные. Чтение/запись IAudioaspose.slides/iaudio.
 type: docs
 weight: 40
 url: /ru/aspose.slides.slideshow/slideshowtransition/sound/
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.slideshow/slideshowtransition/sound/
 public IAudio Sound { get; set; }
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [IAudio](../../../aspose.slides/iaudio)
 * класс [SlideShowTransition](../../slideshowtransition)

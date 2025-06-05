@@ -1,7 +1,7 @@
 ---
-title: Element
+title: Item
 second_title: Aspose.Slides für .NET API-Referenz
-description: Holt das Element am angegebenen Index. Nur-Lese ISummaryZoomSectionaspose.slides/isummaryzoomsection.
+description: Erhält das Element am angegebenen Index. Nur lesender ISummaryZoomSectionaspose.slides/isummaryzoomsection.
 type: docs
 weight: 10
 url: /de/aspose.slides/isummaryzoomsectioncollection/item/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/isummaryzoomsectioncollection/item/
 
 ## ISummaryZoomSectionCollection-Indexer
 
-Holt das Element am angegebenen Index. Nur-Lese [`ISummaryZoomSection`](../../isummaryzoomsection).
+Erhält das Element am angegebenen Index. Nur lesender [`ISummaryZoomSection`](../../isummaryzoomsection).
 
 ```csharp
 public ISummaryZoomSection this[int index] { get; }
@@ -17,7 +17,7 @@ public ISummaryZoomSection this[int index] { get; }
 
 ### Beispiele
 
-Das Beispiel zeigt, wie man ein Summary Zoom Section-Element nach Index erhält:
+Das Beispiel zeigt, wie man das Summary Zoom Section-Element nach Index erhält:
 
 ```csharp
 [C#]
@@ -31,8 +31,8 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ### Siehe auch
 
-* Schnittstelle [ISummaryZoomSection](../../isummaryzoomsection)
-* Schnittstelle [ISummaryZoomSectionCollection](../../isummaryzoomsectioncollection)
+* Interface [ISummaryZoomSection](../../isummaryzoomsection)
+* Interface [ISummaryZoomSectionCollection](../../isummaryzoomsectioncollection)
 * Namespace [Aspose.Slides](../../isummaryzoomsectioncollection)
 * Assembly [Aspose.Slides](../../../)
 

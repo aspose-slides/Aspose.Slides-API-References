@@ -1,7 +1,7 @@
 ---
-title: 形状
-second_title: Aspose.Slides for .NET API 参考
-description: 返回与评论关联的形状。只读 IShape aspose.slides/ishape。
+title: Shape
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回与评论相关联的形状。只读 IShape aspose.slides/ishape。
 type: docs
 weight: 20
 url: /zh/aspose.slides/imoderncomment/shape/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/imoderncomment/shape/
 
 ## IModernComment.Shape 属性
 
-返回与评论关联的形状。只读 [`IShape`](../../ishape)。
+返回与评论相关联的形状。只读 [`IShape`](../../ishape)。
 
 ```csharp
 public IShape Shape { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IShape](../../ishape)
 * 接口 [IModernComment](../../imoderncomment)

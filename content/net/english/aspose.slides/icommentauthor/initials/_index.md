@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/icommentauthor/initials/
 ---
+
 ## ICommentAuthor.Initials property
 
 Returns or sets the authors initials. Read/write String.

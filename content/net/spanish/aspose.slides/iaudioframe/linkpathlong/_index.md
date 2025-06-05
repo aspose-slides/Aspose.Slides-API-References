@@ -1,7 +1,7 @@
 ---
 title: LinkPathLong
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve o establece el nombre de un archivo de audio que está vinculado a un AudioFrame. Lectura/escritura String.
+second_title: Aspose.Sildes para referencia de API de .NET
+description: Devuelve o establece el nombre de un archivo de audio que está vinculado a un AudioFrame. Cadena de lectura/escritura.
 type: docs
 weight: 110
 url: /es/aspose.slides/iaudioframe/linkpathlong/
@@ -9,16 +9,16 @@ url: /es/aspose.slides/iaudioframe/linkpathlong/
 
 ## Propiedad IAudioFrame.LinkPathLong
 
-Devuelve o establece el nombre de un archivo de audio que está vinculado a un AudioFrame. Lectura/escritura String.
+Devuelve o establece el nombre de un archivo de audio que está vinculado a un AudioFrame. Cadena de lectura/escritura.
 
 ```csharp
 public string LinkPathLong { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IAudioFrame](../../iaudioframe)
 * espacio de nombres [Aspose.Slides](../../iaudioframe)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

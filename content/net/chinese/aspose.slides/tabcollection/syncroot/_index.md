@@ -1,6 +1,6 @@
 ---
-title: 同步根
-second_title: Aspose.Slides for .NET API 参考
+title: SyncRoot
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回一个同步根。只读对象。
 type: docs
 weight: 40

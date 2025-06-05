@@ -1,24 +1,24 @@
 ---
-title: Período
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Especifica el período de la línea de tendencia para una línea de tendencia de media móvil. Se ignora para otras variantes de línea de tendencia. El valor debe estar entre 2 y 255. Lectura/escritura Byte.
+title: Period
+second_title: Aspose.Slides para .NET Referencia de la API
+description: Especifica el período de la línea de tendencia para una línea de tendencia de media móvil. Se ignora para otras variantes de líneas de tendencia. El valor debe estar entre 2 y 255. Lectura/escritura Byte.
 type: docs
 weight: 90
 url: /es/aspose.slides.charts/itrendline/period/
 ---
 
-## Propiedad ITrendline.Period
+## ITrendline.Period property
 
-Especifica el período de la línea de tendencia para una línea de tendencia de media móvil. Se ignora para otras variantes de línea de tendencia. El valor debe estar entre 2 y 255. Lectura/escritura Byte.
+Especifica el período de la línea de tendencia para una línea de tendencia de media móvil. Se ignora para otras variantes de líneas de tendencia. El valor debe estar entre 2 y 255. Lectura/escritura Byte.
 
 ```csharp
 public byte Period { get; set; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [ITrendline](../../itrendline)
-* espacio de nombres [Aspose.Slides.Charts](../../itrendline)
-* ensamblado [Aspose.Slides](../../../)
+* interface [ITrendline](../../itrendline)
+* namespace [Aspose.Slides.Charts](../../itrendline)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

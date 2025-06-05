@@ -1,7 +1,7 @@
 ---
 title: FlipV
-second_title: Aspose.Slides for .NET API 参考
-description: 确定一个框架是否垂直翻转。只读 NullableBoolaspose.slides/nullablebool。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定一个框架是否垂直翻转。唯读 NullableBoolaspose.slides/nullablebool。
 type: docs
 weight: 40
 url: /zh/aspose.slides/ishapeframe/flipv/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ishapeframe/flipv/
 
 ## IShapeFrame.FlipV 属性
 
-确定一个框架是否垂直翻转。只读 [`NullableBool`](../../nullablebool)。
+确定一个框架是否垂直翻转。唯读 [`NullableBool`](../../nullablebool)。
 
 ```csharp
 public NullableBool FlipV { get; }

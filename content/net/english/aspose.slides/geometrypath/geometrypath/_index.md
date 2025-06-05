@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/geometrypath/geometrypath/
 ---
+
 ## GeometryPath constructor
 
 Creates instance of GeometryPath

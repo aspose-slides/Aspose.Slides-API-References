@@ -1,7 +1,7 @@
 ---
-title: Parámetro
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve un parámetro de una operación. Solo para lectura, Single.
+title: Parameter
+second_title: Aspose.Slides para .NET Referencia de API
+description: Devuelve un parámetro de una operación. Solo lectura Simple.
 type: docs
 weight: 20
 url: /es/aspose.slides/icoloroperation/parameter/
@@ -9,16 +9,16 @@ url: /es/aspose.slides/icoloroperation/parameter/
 
 ## Propiedad IColorOperation.Parameter
 
-Devuelve un parámetro de una operación. Solo para lectura, Single.
+Devuelve un parámetro de una operación. Solo lectura Simple.
 
 ```csharp
 public float Parameter { get; }
 ```
 
-### Véase también
+### Véase También
 
-* interfaz [IColorOperation](../../icoloroperation)
-* namespace [Aspose.Slides](../../icoloroperation)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IColorOperation](../../icoloroperation)
+* espacio de nombres [Aspose.Slides](../../icoloroperation)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

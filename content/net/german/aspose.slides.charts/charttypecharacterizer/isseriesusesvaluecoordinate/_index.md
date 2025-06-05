@@ -1,7 +1,7 @@
 ---
 title: IsSeriesUsesValueCoordinate
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt an, ob der angegebene Serientyp Wertkoordinaten verwendet.
+description: Gibt zurück, ob der angegebene Serientyp Wertkoordinaten verwendet.
 type: docs
 weight: 190
 url: /de/aspose.slides.charts/charttypecharacterizer/isseriesusesvaluecoordinate/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/charttypecharacterizer/isseriesusesvaluecoordinate
 
 ## ChartTypeCharacterizer.IsSeriesUsesValueCoordinate-Methode
 
-Gibt an, ob der angegebene Serientyp Wertkoordinaten verwendet.
+Gibt zurück, ob der angegebene Serientyp Wertkoordinaten verwendet.
 
 ```csharp
 public static bool IsSeriesUsesValueCoordinate(ChartType seriesType)

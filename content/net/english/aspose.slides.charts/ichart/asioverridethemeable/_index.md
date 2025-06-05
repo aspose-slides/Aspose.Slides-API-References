@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/ichart/asioverridethemeable/
 ---
+
 ## IChart.AsIOverrideThemeable property
 
 Returns IOverrideThemeable interface. Read-only [`IOverrideThemeable`](../../../aspose.slides.theme/ioverridethemeable).

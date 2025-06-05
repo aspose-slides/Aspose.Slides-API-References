@@ -7,7 +7,7 @@ weight: 100
 url: /de/aspose.slides/streamwrapper/flush/
 ---
 
-## StreamWrapper.Flush Methode
+## StreamWrapper.Flush-Methode
 
 Löscht alle Puffer für diesen Stream und sorgt dafür, dass alle gepufferten Daten an das zugrunde liegende Gerät geschrieben werden.
 

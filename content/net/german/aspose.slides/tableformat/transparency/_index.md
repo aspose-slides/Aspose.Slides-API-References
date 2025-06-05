@@ -1,7 +1,7 @@
 ---
-title: Transparenz
+title: Transparency
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft die Transparenz der Füllfarbe ab oder legt sie fest. Lese-/Schreibzugriff auf Single.
+description: Ruft die Transparenz der Füllfarbe ab oder legt sie fest. Lese-/Schreibzugriff Einzel.
 type: docs
 weight: 20
 url: /de/aspose.slides/tableformat/transparency/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/tableformat/transparency/
 
 ## TableFormat.Transparency-Eigenschaft
 
-Ruft die Transparenz der Füllfarbe ab oder legt sie fest. Lese-/Schreibzugriff auf Single.
+Ruft die Transparenz der Füllfarbe ab oder legt sie fest. Lese-/Schreibzugriff Einzel.
 
 ```csharp
 public float Transparency { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: HasUpDownBars
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, есть ли у графика бары восхождения/падения. Чтение/запись Boolean.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Определяет, имеет ли график бары вверх/вниз. Читаемое/записываемое логическое значение.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/iupdownbarsmanager/hasupdownbars/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.charts/iupdownbarsmanager/hasupdownbars/
 
 ## IUpDownBarsManager.HasUpDownBars свойство
 
-Определяет, есть ли у графика бары восхождения/падения. Чтение/запись Boolean.
+Определяет, имеет ли график бары вверх/вниз. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool HasUpDownBars { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IUpDownBarsManager](../../iupdownbarsmanager)
 * пространство имен [Aspose.Slides.Charts](../../iupdownbarsmanager)

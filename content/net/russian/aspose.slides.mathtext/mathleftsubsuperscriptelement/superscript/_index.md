@@ -1,7 +1,7 @@
 ---
-title: Надстрочный текст
-second_title: Справка по API Aspose.Slides для .NET
-description: Надстрочный текст
+title: Superscript
+second_title: Aspose.Sildes для .NET Справочник по API
+description: Superscript
 type: docs
 weight: 30
 url: /ru/aspose.slides.mathtext/mathleftsubsuperscriptelement/superscript/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/mathleftsubsuperscriptelement/superscript/
 
 ## MathLeftSubSuperscriptElement.Superscript свойство
 
-Надстрочный текст
+Superscript
 
 ```csharp
 public IMathElement Superscript { get; }
@@ -28,7 +28,7 @@ MathLeftSubSuperscriptElement leftSubSuperscript = new MathLeftSubSuperscriptEle
 IMathElement sup = leftSubSuperscript.Superscript;
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IMathElement](../../imathelement)
 * класс [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement)

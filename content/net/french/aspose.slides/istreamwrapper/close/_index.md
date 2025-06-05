@@ -1,7 +1,7 @@
 ---
-title: Fermer
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Ferme le flux actuel et libère toutes les ressources.
+title: Close
+second_title: Aspose.Sildes pour .NET Référence API
+description: Ferme le flux actuel et libère les ressources.
 type: docs
 weight: 80
 url: /fr/aspose.slides/istreamwrapper/close/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/istreamwrapper/close/
 
 ## Méthode IStreamWrapper.Close
 
-Ferme le flux actuel et libère toutes les ressources.
+Ferme le flux actuel et libère les ressources.
 
 ```csharp
 public void Close()

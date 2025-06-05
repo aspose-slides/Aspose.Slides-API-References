@@ -25,7 +25,7 @@ public enum TransitionCornerAndCenterDirectionType
 | RightUp | `3` |  |
 | Center | `4` |  |
 
-### Siehe Auch
+### Siehe auch
 
 * Namespace [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * Assembly [Aspose.Slides](../../)

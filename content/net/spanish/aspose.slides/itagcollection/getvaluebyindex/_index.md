@@ -1,5 +1,5 @@
 ---  
-title: GetValueByIndex  
+title: GetValueByIndex
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve el valor de una etiqueta en el índice especificado.
 type: docs  
@@ -7,7 +7,7 @@ weight: 70
 url: /es/aspose.slides/itagcollection/getvaluebyindex/
 ---  
 
-## Método ITagCollection.GetValueByIndex  
+## ITagCollection.GetValueByIndex method  
 
 Devuelve el valor de una etiqueta en el índice especificado.  
 
@@ -19,11 +19,11 @@ public string GetValueByIndex(int index)
 | --- | --- | --- |  
 | index | Int32 | Índice de la etiqueta a devolver. |  
 
-### Valor de Retorno  
+### Valor de retorno  
 
 Valor de una etiqueta.  
 
-### Véase También  
+### Véase también  
 
 * interfaz [ITagCollection](../../itagcollection)  
 * espacio de nombres [Aspose.Slides](../../itagcollection)  

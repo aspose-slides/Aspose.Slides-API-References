@@ -1,7 +1,7 @@
 ---
 title: BaseHandoutNotesSlideHeaderFooterManager
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente le gestionnaire qui contient le comportement des espaces réservés, y compris l'espace réservé pour l'en-tête pour tous les types de diapositives de remise et de notes.
+description: Représente le gestionnaire qui maintient le comportement des espaces réservés, y compris l'espace réservé pour l'en-tête pour tous les types de diapositives de distribution et de notes.
 type: docs
 weight: 870
 url: /fr/aspose.slides/basehandoutnotesslideheaderfootermanager/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/basehandoutnotesslideheaderfootermanager/
 
 ## Classe BaseHandoutNotesSlideHeaderFooterManager
 
-Représente le gestionnaire qui contient le comportement des espaces réservés, y compris l'espace réservé pour l'en-tête pour tous les types de diapositives de remise et de notes.
+Représente le gestionnaire qui maintient le comportement des espaces réservés, y compris l'espace réservé pour l'en-tête pour tous les types de diapositives de distribution et de notes.
 
 ```csharp
 public abstract class BaseHandoutNotesSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -29,13 +29,13 @@ public abstract class BaseHandoutNotesSlideHeaderFooterManager : BaseSlideHeader
 
 | Nom | Description |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Définit le texte de l'espace réservé pour la date et l'heure de la diapositive. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Modifie la visibilité de l'espace réservé pour la date et l'heure de la diapositive. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Définit le texte de l'espace réservé pour le pied de page de la diapositive. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Modifie la visibilité de l'espace réservé pour le pied de page de la diapositive. |
-| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Définit le texte de l'espace réservé pour l'en-tête de la diapositive. |
-| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Modifie la visibilité de l'espace réservé pour l'en-tête de la diapositive. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Modifie la visibilité de l'espace réservé pour le numéro de page de la diapositive. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Définit le texte pour l'espace réservé de date et heure de la diapositive. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Change la visibilité de l'espace réservé de date et heure de la diapositive. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Définit le texte pour l'espace réservé de pied de page de la diapositive. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Change la visibilité de l'espace réservé de pied de page de la diapositive. |
+| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Définit le texte pour l'espace réservé d'en-tête de la diapositive. |
+| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Change la visibilité de l'espace réservé d'en-tête de la diapositive. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Change la visibilité de l'espace réservé de numéro de page de la diapositive. |
 
 ### Voir aussi
 

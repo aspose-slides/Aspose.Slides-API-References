@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/slidesrange/start/
 ---
+
 ## SlidesRange.Start property
 
 Start

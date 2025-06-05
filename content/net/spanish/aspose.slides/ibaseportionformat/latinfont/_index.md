@@ -1,21 +1,21 @@
 ---
 title: LatinFont
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve o establece la información de la fuente latina. Nulo significa que la fuente no está definida y debe heredarse del Maestre. Lectura/escritura IFontDataaspose.slides/ifontdata.
+second_title: Referencia de la API Aspose.Slides para .NET
+description: Devuelve o establece la información de la fuente latina. Nulo significa que la fuente no está definida y debe heredarse del Maestro. Lectura/escritura IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 170
 url: /es/aspose.slides/ibaseportionformat/latinfont/
 ---
 
-## Propiedad IBasePortionFormat.LatinFont
+## IBasePortionFormat.LatinFont property
 
-Devuelve o establece la información de la fuente latina. Nulo significa que la fuente no está definida y debe heredarse del Maestre. Lectura/escritura [`IFontData`](../../ifontdata).
+Devuelve o establece la información de la fuente latina. Nulo significa que la fuente no está definida y debe heredarse del Maestro. Lectura/escritura [`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData LatinFont { get; set; }
 ```
 
-### Vea También
+### Ver También
 
 * interfaz [IFontData](../../ifontdata)
 * interfaz [IBasePortionFormat](../../ibaseportionformat)

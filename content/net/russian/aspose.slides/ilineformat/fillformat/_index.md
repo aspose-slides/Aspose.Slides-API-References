@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ilineformat/fillformat/
 public ILineFillFormat FillFormat { get; }
 ```
 
-### Дополнительно
+### См. также
 
 * интерфейс [ILineFillFormat](../../ilinefillformat)
 * интерфейс [ILineFormat](../../ilineformat)

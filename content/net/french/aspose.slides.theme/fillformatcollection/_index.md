@@ -1,6 +1,6 @@
 ---
 title: FillFormatCollection
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Représente la collection de styles de remplissage.
 type: docs
 weight: 10810
@@ -19,8 +19,8 @@ public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatC
 
 | Nom | Description |
 | --- | --- |
-| [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | Obtient le nombre d'éléments effectivement contenus dans la collection. Lecture seule Int32. |
-| [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (sécurisé pour les threads). Lecture seule Boolean. |
+| [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | Obtient le nombre d'éléments réellement contenus dans la collection. Lecture seule Int32. |
+| [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (sûr pour les threads). Lecture seule Boolean. |
 | [Item](../../aspose.slides.theme/fillformatcollection/item) { get; } | Obtient l'élément à l'index spécifié. Lecture seule [`IFillFormat`](../../aspose.slides/ifillformat). |
 | [SyncRoot](../../aspose.slides.theme/fillformatcollection/syncroot) { get; } | Renvoie une racine de synchronisation. Lecture seule Object. |
 

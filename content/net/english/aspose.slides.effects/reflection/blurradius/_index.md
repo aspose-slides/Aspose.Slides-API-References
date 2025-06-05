@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.effects/reflection/blurradius/
 ---
+
 ## Reflection.BlurRadius property
 
 Blur radius. Read/write Double.

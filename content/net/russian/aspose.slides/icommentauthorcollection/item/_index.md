@@ -1,7 +1,7 @@
 ---
-title: Элемент
-second_title: Справка по API Aspose.Slides для .NET
-description: Получает элемент по указанному индексу. Только для чтения ICommentAuthor aspose.slides/icommentauthor.
+title: Item
+second_title: Aspose.Sildes для справки по API .NET
+description: Получает элемент по указанному индексу. Только для чтения ICommentAuthoraspose.slides/icommentauthor.
 type: docs
 weight: 10
 url: /ru/aspose.slides/icommentauthorcollection/item/

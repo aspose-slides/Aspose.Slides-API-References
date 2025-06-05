@@ -1,5 +1,5 @@
 ---
-title: OptionsDeMiseEnPageDesCommentairesDeNotes
+title: NotesCommentsLayoutingOptions
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Constructeur par défaut.
 type: docs
@@ -7,7 +7,7 @@ weight: 10
 url: /fr/aspose.slides.export/notescommentslayoutingoptions/notescommentslayoutingoptions/
 ---
 
-## Constructeur d'OptionsDeMiseEnPageDesCommentairesDeNotes
+## Constructeur de NotesCommentsLayoutingOptions
 
 Constructeur par défaut.
 

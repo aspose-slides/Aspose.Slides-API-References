@@ -7,7 +7,7 @@ weight: 40
 url: /es/aspose.slides/itabcollection/removeat/
 ---
 
-## Método ITabCollection.RemoveAt
+## ITabCollection.RemoveAt método
 
 Elimina el elemento en el índice especificado de la colección.
 
@@ -19,10 +19,10 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | El índice basado en cero del elemento a eliminar. |
 
-### Véase también
+### Ver También
 
 * interfaz [ITabCollection](../../itabcollection)
 * espacio de nombres [Aspose.Slides](../../itabcollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

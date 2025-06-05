@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ppteditexception/ppteditexception/
 ---
+
 ## PptEditException() {#constructor}
 
 Default constructor.

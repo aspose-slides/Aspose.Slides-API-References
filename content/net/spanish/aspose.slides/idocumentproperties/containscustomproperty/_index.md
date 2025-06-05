@@ -1,15 +1,15 @@
 ---
 title: ContainsCustomProperty
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Verifica la presencia de una propiedad personalizada con un nombre específico.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Verifica la presencia de una propiedad personalizada con un nombre especificado.
 type: docs
 weight: 380
 url: /es/aspose.slides/idocumentproperties/containscustomproperty/
 ---
 
-## Método IDocumentProperties.ContainsCustomProperty
+## IDocumentProperties.ContainsCustomProperty método
 
-Verifica la presencia de una propiedad personalizada con un nombre específico.
+Verifica la presencia de una propiedad personalizada con un nombre especificado.
 
 ```csharp
 public bool ContainsCustomProperty(string name)
@@ -17,13 +17,13 @@ public bool ContainsCustomProperty(string name)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| name | String | Nombre de una propiedad personalizada a verificar. |
+| name | String | Nombre de una propiedad personalizada para verificar. |
 
-### Valor de Retorno
+### Valor de retorno
 
-Devuelve verdadero si la propiedad existe, falso de lo contrario.
+Devuelve true si la propiedad existe, false en caso contrario.
 
-### Véase También
+### Ver también
 
 * interfaz [IDocumentProperties](../../idocumentproperties)
 * espacio de nombres [Aspose.Slides](../../idocumentproperties)

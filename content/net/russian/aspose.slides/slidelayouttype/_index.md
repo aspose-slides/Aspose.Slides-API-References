@@ -1,6 +1,6 @@
 ---
 title: SlideLayoutType
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет тип макета слайда.
 type: docs
 weight: 9680
@@ -22,7 +22,7 @@ public enum SlideLayoutType : sbyte
 | Custom | `-1` | Пользовательский |
 | Title | `0` | Заголовок |
 | Text | `1` | Текст |
-| TwoColumnText | `2` | Два столбца текста |
+| TwoColumnText | `2` | Двухколонный текст |
 | Table | `3` | Таблица |
 | TextAndChart | `4` | Текст и диаграмма |
 | ChartAndText | `5` | Диаграмма и текст |
@@ -36,8 +36,8 @@ public enum SlideLayoutType : sbyte
 | ObjectAndText | `13` | Объект и текст |
 | Object | `14` | Объект |
 | TitleAndObject | `15` | Заголовок и объект |
-| TextAndMedia | `16` | Текст и мультимедиа |
-| MediaAndText | `17` | Мультимедиа и текст |
+| TextAndMedia | `16` | Текст и медиа |
+| MediaAndText | `17` | Медиа и текст |
 | ObjectOverText | `18` | Объект над текстом |
 | TextOverObject | `19` | Текст над объектом |
 | TextAndTwoObjects | `20` | Текст и два объекта |

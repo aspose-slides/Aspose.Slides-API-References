@@ -1,7 +1,7 @@
 ---
-title: 项
-second_title: Aspose.Slides for .NET API 参考
-description: 获取指定索引处的元素。只读 ILineFormat aspose.slides/ilineformat。
+title: Item
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取指定索引处的元素。只读 ILineFormataspose.slides/ilineformat。
 type: docs
 weight: 30
 url: /zh/aspose.slides.theme/lineformatcollection/item/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.theme/lineformatcollection/item/
 public ILineFormat this[int index] { get; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [ILineFormat](../../../aspose.slides/ilineformat)
 * 类 [LineFormatCollection](../../lineformatcollection)

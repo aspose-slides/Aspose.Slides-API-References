@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeRadar
-second_title: Aspose.Sildes for .NET API 参考
-description: 如果 chartType 是 Radar 子类型之一，则返回 true。子类型集合对应于 PowerPoint 中的适当集合（请参阅 PowerPoint 中的“更改图表类型”对话框）：FilledRadar、Radar、RadarWithMarkers。
+second_title: Aspose.Slides for .NET API Reference
+description: 如果 chartType 是雷达子类型之一，则返回 true。子类型集合对应于 PowerPoint 中的相应集合（请参见 PowerPoint 中的“更改图表类型”对话框）：FilledRadar、Radar、RadarWithMarkers。
 type: docs
 weight: 120
 url: /zh/aspose.slides.charts/charttypecharacterizer/ischarttyperadar/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/charttypecharacterizer/ischarttyperadar/
 
 ## ChartTypeCharacterizer.IsChartTypeRadar 方法
 
-如果 chartType 是 Radar 子类型之一，则返回 true。子类型集合对应于 PowerPoint 中的适当集合（请参阅“更改图表类型”对话框）：FilledRadar、Radar、RadarWithMarkers。
+如果 chartType 是雷达子类型之一，则返回 true。子类型集合对应于 PowerPoint 中的相应集合（请参见 PowerPoint 中的“更改图表类型”对话框）：FilledRadar、Radar、RadarWithMarkers。
 
 ```csharp
 public static bool IsChartTypeRadar(ChartType chartType)
 ```
 
-### 另见
+### 另请参阅
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

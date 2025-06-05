@@ -1,7 +1,7 @@
 ---
 title: UnderlineLineFormat
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie les propriétés LineFormat utilisées pour décrire la ligne de soulignement. Pas d'héritage appliqué. Lecture seule ILineFormat aspose.slides/ilineformat.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie les propriétés LineFormat utilisées pour définir la ligne de soulignement. Pas d'héritage appliqué. En lecture seule ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 260
 url: /fr/aspose.slides/ibaseportionformat/underlinelineformat/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ibaseportionformat/underlinelineformat/
 
 ## Propriété IBasePortionFormat.UnderlineLineFormat
 
-Renvoie les propriétés LineFormat utilisées pour décrire la ligne de soulignement. Pas d'héritage appliqué. Lecture seule [`ILineFormat`](../../ilineformat).
+Renvoie les propriétés LineFormat utilisées pour définir la ligne de soulignement. Pas d'héritage appliqué. En lecture seule [`ILineFormat`](../../ilineformat).
 
 ```csharp
 public ILineFormat UnderlineLineFormat { get; }

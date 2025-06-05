@@ -1,7 +1,7 @@
 ---
 title: CreateColorChange
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Crea el efecto de cambio de color.
+second_title: Aspose.Slides para .NET API Reference
+description: Crea un efecto de cambio de color.
 type: docs
 weight: 100
 url: /es/aspose.slides.effects/iimagetransformoperationfactory/createcolorchange/
@@ -9,21 +9,21 @@ url: /es/aspose.slides.effects/iimagetransformoperationfactory/createcolorchange
 
 ## IImageTransformOperationFactory.CreateColorChange método
 
-Crea el efecto de cambio de color.
+Crea un efecto de cambio de color.
 
 ```csharp
 public IColorChange CreateColorChange()
 ```
 
-### Valor de Retorno
+### Valor de retorno
 
 Efecto de cambio de color.
 
-### Véase También
+### Ver también
 
 * interfaz [IColorChange](../../icolorchange)
 * interfaz [IImageTransformOperationFactory](../../iimagetransformoperationfactory)
 * espacio de nombres [Aspose.Slides.Effects](../../iimagetransformoperationfactory)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

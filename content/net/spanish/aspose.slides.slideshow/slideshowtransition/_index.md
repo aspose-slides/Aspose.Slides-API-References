@@ -1,7 +1,7 @@
 ---
 title: SlideShowTransition
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa la transición de la presentación de diapositivas.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Representa la transición de diapositivas en la presentación.
 type: docs
 weight: 10010
 url: /es/aspose.slides.slideshow/slideshowtransition/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.slideshow/slideshowtransition/
 
 ## Clase SlideShowTransition
 
-Representa la transición de la presentación de diapositivas.
+Representa la transición de diapositivas en la presentación.
 
 ```csharp
 public class SlideShowTransition : DomObject<BaseSlide>, ISlideShowTransition
@@ -19,17 +19,17 @@ public class SlideShowTransition : DomObject<BaseSlide>, ISlideShowTransition
 
 | Nombre | Descripción |
 | --- | --- |
-| [AdvanceAfter](../../aspose.slides.slideshow/slideshowtransition/advanceafter) { get; set; } | Este atributo especifica si la presentación de diapositivas se moverá a la siguiente diapositiva después de un cierto tiempo. Booleano de lectura/escritura. |
-| [AdvanceAfterTime](../../aspose.slides.slideshow/slideshowtransition/advanceaftertime) { get; set; } | Especifica el tiempo, en milisegundos, después del cual debe comenzar la transición. Esta configuración puede usarse junto con el atributo advClick. Si este atributo no se especifica, se supone que no ocurrirá un avance automático. UInt32 de lectura/escritura. |
-| [AdvanceOnClick](../../aspose.slides.slideshow/slideshowtransition/advanceonclick) { get; set; } | Especifica si un clic del mouse avanzará la diapositiva o no. Si este atributo no se especifica, se supone un valor de verdadero. Booleano de lectura/escritura. |
+| [AdvanceAfter](../../aspose.slides.slideshow/slideshowtransition/advanceafter) { get; set; } | Este atributo especifica si la presentación avanzará a la siguiente diapositiva después de un cierto tiempo. Booleano de lectura/escritura. |
+| [AdvanceAfterTime](../../aspose.slides.slideshow/slideshowtransition/advanceaftertime) { get; set; } | Especifica el tiempo, en milisegundos, después del cual debe comenzar la transición. Esta configuración puede usarse junto con el atributo advClick. Si este atributo no se especifica, se asume que no habrá avance automático. UInt32 de lectura/escritura. |
+| [AdvanceOnClick](../../aspose.slides.slideshow/slideshowtransition/advanceonclick) { get; set; } | Especifica si un clic del mouse avanzará la diapositiva o no. Si este atributo no se especifica, se asume un valor de verdadero. Booleano de lectura/escritura. |
 | [Sound](../../aspose.slides.slideshow/slideshowtransition/sound) { get; set; } | Devuelve o establece los datos de audio incrustados. Lectura/escritura [`IAudio`](../../aspose.slides/iaudio). |
-| [SoundIsBuiltIn](../../aspose.slides.slideshow/slideshowtransition/soundisbuiltin) { get; set; } | Especifica si este sonido es o no un sonido incorporado. Si este atributo se establece en verdadero, la aplicación generadora será alertada para verificar el atributo de nombre especificado para este sonido en su lista de sonidos incorporados y puede entonces mostrar un nombre o UI personalizado según sea necesario. Booleano de lectura/escritura. |
-| [SoundLoop](../../aspose.slides.slideshow/slideshowtransition/soundloop) { get; set; } | Este atributo especifica si el sonido se repetirá hasta que ocurra el siguiente evento de sonido en la presentación de diapositivas. Booleano de lectura/escritura. |
-| [SoundMode](../../aspose.slides.slideshow/slideshowtransition/soundmode) { get; set; } | Establece o devuelve el modo de sonido para la transición de diapositivas. Lectura/escritura [`TransitionSoundMode`](../transitionsoundmode). |
-| [SoundName](../../aspose.slides.slideshow/slideshowtransition/soundname) { get; set; } | Especifica un nombre legible por humanos para el sonido de la transición. La propiedad [`Sound`](./sound) debe asignarse para obtener o establecer el nombre del sonido. String de lectura/escritura. |
-| [Speed](../../aspose.slides.slideshow/slideshowtransition/speed) { get; set; } | Especifica la velocidad de transición que debe usarse al pasar de la diapositiva actual a la siguiente. Lectura/escritura [`TransitionSpeed`](../transitionspeed). |
+| [SoundIsBuiltIn](../../aspose.slides.slideshow/slideshowtransition/soundisbuiltin) { get; set; } | Especifica si este sonido es un sonido integrado o no. Si este atributo se establece en verdadero, se alerta a la aplicación generadora para que verifique el atributo de nombre especificado para este sonido en su lista de sonidos integrados y luego puede presentar un nombre o interfaz personalizada según sea necesario. Booleano de lectura/escritura. |
+| [SoundLoop](../../aspose.slides.slideshow/slideshowtransition/soundloop) { get; set; } | Este atributo especifica si el sonido se repetirá hasta que ocurra el siguiente evento de sonido en la presentación. Booleano de lectura/escritura. |
+| [SoundMode](../../aspose.slides.slideshow/slideshowtransition/soundmode) { get; set; } | Establece o devuelve el modo de sonido para la transición de diapositiva. Lectura/escritura [`TransitionSoundMode`](../transitionsoundmode). |
+| [SoundName](../../aspose.slides.slideshow/slideshowtransition/soundname) { get; set; } | Especifica un nombre legible para humanos para el sonido de la transición. La propiedad [`Sound`](./sound) debe ser asignada para obtener o establecer el nombre del sonido. String de lectura/escritura. |
+| [Speed](../../aspose.slides.slideshow/slideshowtransition/speed) { get; set; } | Especifica la velocidad de transición que se utilizará al cambiar de la diapositiva actual a la siguiente. Lectura/escritura [`TransitionSpeed`](../transitionspeed). |
 | [Type](../../aspose.slides.slideshow/slideshowtransition/type) { get; set; } | Tipo de transición. Lectura/escritura [`TransitionType`](../transitiontype). |
-| [Value](../../aspose.slides.slideshow/slideshowtransition/value) { get; } | Valor de transición de presentación de diapositivas. Solo lectura [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Value](../../aspose.slides.slideshow/slideshowtransition/value) { get; } | Valor de la transición de la presentación. Solo lectura [`ITransitionValueBase`](../itransitionvaluebase). |
 
 ## Métodos
 
@@ -38,7 +38,7 @@ public class SlideShowTransition : DomObject<BaseSlide>, ISlideShowTransition
 | override [Equals](../../aspose.slides.slideshow/slideshowtransition/equals)(object) | Determina si las dos instancias de SlideShowTransition son iguales. Booleano de lectura/escritura. |
 | override [GetHashCode](../../aspose.slides.slideshow/slideshowtransition/gethashcode)() | Sirve como una función hash para un tipo particular, adecuada para su uso en algoritmos de hash y estructuras de datos como una tabla hash. |
 
-### Ver también
+### Véase también
 
 * clase [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * clase [BaseSlide](../../aspose.slides/baseslide)

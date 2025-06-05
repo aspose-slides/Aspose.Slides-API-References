@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.theme/fontscheme/major/
 ---
+
 ## FontScheme.Major property
 
 Returns the fonts collection for a "heading" part of the slide. Read-only [`IFonts`](../../../aspose.slides/ifonts).

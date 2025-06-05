@@ -6,6 +6,7 @@ type: docs
 weight: 190
 url: /aspose.slides.mathtext/imathelement/toborderbox/
 ---
+
 ## ToBorderBox() {#toborderbox}
 
 Places this element in a border-box

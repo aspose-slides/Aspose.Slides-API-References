@@ -9,13 +9,13 @@ url: /es/aspose.slides/autoshape/autoshapelock/
 
 ## Propiedad AutoShape.AutoShapeLock
 
-Devuelve los bloqueos del autoshape. Solo lectura [`IAutoShapeLock`](../../iautoshapelock).
+Devuelve los bloqueos de autoshape. Solo lectura [`IAutoShapeLock`](../../iautoshapelock).
 
 ```csharp
 public IAutoShapeLock AutoShapeLock { get; }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [IAutoShapeLock](../../iautoshapelock)
 * clase [AutoShape](../../autoshape)

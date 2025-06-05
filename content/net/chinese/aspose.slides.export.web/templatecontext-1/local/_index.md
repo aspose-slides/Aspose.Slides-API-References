@@ -1,7 +1,7 @@
 ---
-title: 本地
-second_title: Aspose.Slides for .NET API 参考
-description: 返回当前模板上下文的本地存储。只读Storageaspose.slides.export.web/storage。
+title: Local
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回当前模板上下文的本地存储。为只读 Storage aspose.slides.export.web/storage.
 type: docs
 weight: 20
 url: /zh/aspose.slides.export.web/templatecontext-1/local/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.export.web/templatecontext-1/local/
 
 ## TemplateContext&lt;TObject&gt;.Local 属性
 
-返回当前模板上下文的本地存储。只读 [`Storage`](../../storage)。
+返回当前模板上下文的本地存储。只读 [`Storage`](../../storage).
 
 ```csharp
 public Storage Local { get; }
 ```
 
-### 另请参见
+### 另见
 
 * class [Storage](../../storage)
 * class [TemplateContext&lt;TObject&gt;](../../templatecontext-1)

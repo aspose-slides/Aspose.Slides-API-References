@@ -1,6 +1,6 @@
 ---
 title: IMathParagraph
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Reference
 description: Paragraphe mathématique qui est un conteneur pour des blocs mathématiques IMathBlock
 type: docs
 weight: 8140
@@ -27,7 +27,7 @@ public interface IMathParagraph : IMathBlockCollection
 | Nom | Description |
 | --- | --- |
 | [ToLatex](../../aspose.slides.mathtext/imathparagraph/tolatex)() | Obtient l'équation mathématique au format LaTeX |
-| [WriteAsMathMl](../../aspose.slides.mathtext/imathparagraph/writeasmathml)(Stream) | Enregistre le contenu de ce [`IMathParagraph`](../imathparagraph) en tant que MathML |
+| [WriteAsMathMl](../../aspose.slides.mathtext/imathparagraph/writeasmathml)(Stream) | Enregistre le contenu de cet [`IMathParagraph`](../imathparagraph) en tant que MathML |
 
 ### Exemples
 
@@ -40,7 +40,7 @@ IMathParagraph mathParagraph = (shape.TextFrame.Paragraphs[0].Portions[0] as Mat
 mathParagraph.Justification = MathJustification.LeftJustified;
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathBlockCollection](../imathblockcollection)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

@@ -1,7 +1,7 @@
 ---
 title: IsSeriesUsesBubbleSizeCoordinate
-second_title: Aspose.Slides для .NET Справочник по API
-description: Возвращает, могут ли быть использованы координаты размера пузырька для указанного типа серии.
+second_title: Aspose.Sildes для .NET API Справка
+description: Возвращает, могут ли координаты размера пузырька использоваться для указанного типа серии.
 type: docs
 weight: 180
 url: /ru/aspose.slides.charts/charttypecharacterizer/isseriesusesbubblesizecoordinate/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/charttypecharacterizer/isseriesusesbubblesizecoord
 
 ## ChartTypeCharacterizer.IsSeriesUsesBubbleSizeCoordinate метод
 
-Возвращает, могут ли быть использованы координаты размера пузырька для указанного типа серии.
+Возвращает, могут ли координаты размера пузырька использоваться для указанного типа серии.
 
 ```csharp
 public static bool IsSeriesUsesBubbleSizeCoordinate(ChartType seriesType)
@@ -21,9 +21,9 @@ public static bool IsSeriesUsesBubbleSizeCoordinate(ChartType seriesType)
 
 ### Возвращаемое значение
 
-Истина, если может быть использован, иначе - ложь.
+True, если может быть использовано, иначе false.
 
-### Смотрите также
+### См. также
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

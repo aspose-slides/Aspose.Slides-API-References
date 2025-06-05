@@ -1,7 +1,7 @@
 ---
-title: RemplissageFormat
+title: FillFormat
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie l'objet RemplissageFormat qui contient les propriétés de formatage de remplissage pour une forme. Lecture seule IFillFormataspose.slides/ifillformat.
+description: Renvoie l'objet FillFormat qui contient des propriétés de formatage de remplissage pour une forme. Lecture seule IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 90
 url: /fr/aspose.slides/ishape/fillformat/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ishape/fillformat/
 
 ## Propriété IShape.FillFormat
 
-Renvoie l'objet FillFormat qui contient les propriétés de formatage de remplissage pour une forme. Lecture seule [`IFillFormat`](../../ifillformat).
+Renvoie l'objet FillFormat qui contient des propriétés de formatage de remplissage pour une forme. Lecture seule [`IFillFormat`](../../ifillformat).
 
 ```csharp
 public IFillFormat FillFormat { get; }

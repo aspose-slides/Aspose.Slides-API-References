@@ -1,7 +1,7 @@
 ---
 title: AlignShapes
-second_title: Aspose.Sildes для .NET API Справочник
-description: Изменяет расположение всех фигур на слайде. Выравнивает фигуры по краям или границам слайда или выравнивает их относительно друг друга.
+second_title: Aspose.Sildes для .NET Справочник по API
+description: Изменяет размещение всех фигур на слайде. Выравнивает фигуры по полям или к краю слайда или выравнивает их относительно друг друга.
 type: docs
 weight: 10
 url: /ru/aspose.slides.util/slideutil/alignshapes/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.util/slideutil/alignshapes/
 
 ## AlignShapes(ShapesAlignmentType, bool, IBaseSlide) {#alignshapes}
 
-Изменяет расположение всех фигур на слайде. Выравнивает фигуры по краям или границам слайда или выравнивает их относительно друг друга.
+Изменяет размещение всех фигур на слайде. Выравнивает фигуры по полям или к краю слайда или выравнивает их относительно друг друга.
 
 ```csharp
 public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
@@ -34,7 +34,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Смотрите Также
+### См. также
 
 * enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
 * interface [IBaseSlide](../../../aspose.slides/ibaseslide)
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## AlignShapes(ShapesAlignmentType, bool, IBaseSlide, int[]) {#alignshapes_1}
 
-Изменяет расположение выбранных фигур на слайде. Выравнивает фигуры по краям или границам слайда или выравнивает их относительно друг друга.
+Изменяет размещение выбранных фигур на слайде. Выравнивает фигуры по полям или к краю слайда или выравнивает их относительно друг друга.
 
 ```csharp
 public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
@@ -58,7 +58,7 @@ public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSl
 | alignmentType | ShapesAlignmentType | Определяет, какой тип выравнивания будет применен. |
 | alignToSlide | Boolean | Если true, фигуры будут выровнены относительно краев слайда. |
 | slide | IBaseSlide | Родительский слайд. |
-| shapeIndexes | Int32[] | Индексы фигур, которые нужно выровнять. |
+| shapeIndexes | Int32[] | Индексы фигур, которые будут выровнены. |
 
 ### Примеры
 
@@ -80,7 +80,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Смотрите Также
+### См. также
 
 * enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
 * interface [IBaseSlide](../../../aspose.slides/ibaseslide)
@@ -92,7 +92,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## AlignShapes(ShapesAlignmentType, bool, IGroupShape) {#alignshapes_2}
 
-Изменяет расположение всех фигур внутри группы. Выравнивает фигуры по краям или границам слайда или выравнивает их относительно друг друга.
+Изменяет размещение всех фигур внутри групповой фигуры. Выравнивает фигуры по полям или к краю слайда или выравнивает их относительно друг друга.
 
 ```csharp
 public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
@@ -103,7 +103,7 @@ public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSl
 | --- | --- | --- |
 | alignmentType | ShapesAlignmentType | Определяет, какой тип выравнивания будет применен. |
 | alignToSlide | Boolean | Если true, фигуры будут выровнены относительно краев слайда. |
-| groupShape | IGroupShape | Родительская группа фигур. |
+| groupShape | IGroupShape | Родительская групповая фигура. |
 
 ### Примеры
 
@@ -117,7 +117,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Смотрите Также
+### См. также
 
 * enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
 * interface [IGroupShape](../../../aspose.slides/igroupshape)
@@ -129,7 +129,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## AlignShapes(ShapesAlignmentType, bool, IGroupShape, int[]) {#alignshapes_3}
 
-Изменяет расположение выбранных фигур внутри группы. Выравнивает фигуры по краям или границам слайда или выравнивает их относительно друг друга.
+Изменяет размещение выбранных фигур внутри групповой фигуры. Выравнивает фигуры по полям или к краю слайда или выравнивает их относительно друг друга.
 
 ```csharp
 public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
@@ -140,8 +140,8 @@ public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSl
 | --- | --- | --- |
 | alignmentType | ShapesAlignmentType | Определяет, какой тип выравнивания будет применен. |
 | alignToSlide | Boolean | Если true, фигуры будут выровнены относительно краев слайда. |
-| groupShape | IGroupShape | Родительская группа фигур. |
-| shapeIndexes | Int32[] | Индексы фигур, которые нужно выровнять. |
+| groupShape | IGroupShape | Родительская групповая фигура. |
+| shapeIndexes | Int32[] | Индексы фигур, которые будут выровнены. |
 
 ### Примеры
 
@@ -155,7 +155,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Смотрите Также
+### См. также
 
 * enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
 * interface [IGroupShape](../../../aspose.slides/igroupshape)

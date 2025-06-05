@@ -1,13 +1,13 @@
 ---
-title: Mettre à jour les propriétés du document
-second_title: Référence API Aspose.Slides pour .NET
+title: UpdateDocumentProperties
+second_title: Aspose.Sildes pour .NET API Référence
 description: Met à jour les propriétés de la présentation liée.
 type: docs
 weight: 80
 url: /fr/aspose.slides/presentationinfo/updatedocumentproperties/
 ---
 
-## Méthode PresentationInfo.UpdateDocumentProperties
+## PresentationInfo.UpdateDocumentProperties méthode
 
 Met à jour les propriétés de la présentation liée.
 
@@ -17,12 +17,12 @@ public void UpdateDocumentProperties(IDocumentProperties documentProperties)
 
 ### Exemples
 
-Cet exemple montre comment appeler la méthode `UpdateDocumentProperties` pour mettre à jour les propriétés du document renvoyées par l'appel de la méthode [`ReadDocumentProperties`](../readdocumentproperties).
+Cet exemple montre comment appeler la méthode `UpdateDocumentProperties` pour mettre à jour les propriétés du document retournées par l'appel de la méthode [`ReadDocumentProperties`](../readdocumentproperties).
 
 ```csharp
 IPresentationInfo info = PresentationFactory.Instance.GetPresentationInfo("pres.pptx");
 IDocumentProperties props = info.ReadDocumentProperties();
-props.Subject = "Nouvelle sujet";
+props.Subject = "Nouveau sujet";
 props.LastSavedTime = DateTime.UtcNow;
 info.UpdateDocumentProperties(props);
 info.WriteBindedPresentation("new_pres.pptx");
@@ -31,7 +31,7 @@ info.WriteBindedPresentation("new_pres.pptx");
 ### Voir aussi
 
 * interface [IDocumentProperties](../../idocumentproperties)
-* class [PresentationInfo](../../presentationinfo)
+* classe [PresentationInfo](../../presentationinfo)
 * namespace [Aspose.Slides](../../presentationinfo)
 * assembly [Aspose.Slides](../../../)
 

@@ -1,7 +1,7 @@
 ---
 title: PieSplitCustomPoints
 second_title: Aspose.Slides für .NET API Referenz
-description: Die benutzerdefinierten Split-Informationen für ein Pie-of-Pie- oder Bar-of-Pie-Diagramm mit einem benutzerdefinierten Split. Enthält Datenpunkte, die im zweiten Pie oder Bar in einem Pie-of-Pie- oder Bar-of-Pie-Diagramm gezeichnet werden sollen. Nur lesbare IPieSplitCustomPointCollectionaspose.slides/ipiesplitcustompointcollection.
+description: Die benutzerdefinierten Aufteilungsinformationen für ein Kreisdiagramm oder ein Balkendiagramm mit einer benutzerdefinierten Aufteilung. Enthält Datenpunkte, die im zweiten Kreis oder Balken in einem Kreisdiagramm oder Balkendiagramm gezeichnet werden sollen. Nur-lesen IPieSplitCustomPointCollectionaspose.slides/ipiesplitcustompointcollection.
 type: docs
 weight: 140
 url: /de/aspose.slides.charts/ichartseriesgroup/piesplitcustompoints/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartseriesgroup/piesplitcustompoints/
 
 ## IChartSeriesGroup.PieSplitCustomPoints-Eigenschaft
 
-Die benutzerdefinierten Split-Informationen für ein Pie-of-Pie- oder Bar-of-Pie-Diagramm mit einem benutzerdefinierten Split. Enthält Datenpunkte, die im zweiten Pie oder Bar in einem Pie-of-Pie- oder Bar-of-Pie-Diagramm gezeichnet werden sollen. Nur lesbare [`IPieSplitCustomPointCollection`](../../ipiesplitcustompointcollection).
+Die benutzerdefinierten Aufteilungsinformationen für ein Kreisdiagramm oder ein Balkendiagramm mit einer benutzerdefinierten Aufteilung. Enthält Datenpunkte, die im zweiten Kreis oder Balken in einem Kreisdiagramm oder Balkendiagramm gezeichnet werden sollen. Nur-lesen [`IPieSplitCustomPointCollection`](../../ipiesplitcustompointcollection).
 
 ```csharp
 public IPieSplitCustomPointCollection PieSplitCustomPoints { get; }

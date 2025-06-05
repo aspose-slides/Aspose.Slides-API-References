@@ -1,7 +1,7 @@
 ---
-title: Höhe
+title: Height
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Höhe einer Zeile zurück. Nur-Lesen Double.
+description: Gibt die Höhe einer Zeile zurück. Schreibgeschützter Double.
 type: docs
 weight: 10
 url: /de/aspose.slides/row/height/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/row/height/
 
 ## Row.Height-Eigenschaft
 
-Gibt die Höhe einer Zeile zurück. Nur-Lesen Double.
+Gibt die Höhe einer Zeile zurück. Schreibgeschützter Double.
 
 ```csharp
 public double Height { get; }

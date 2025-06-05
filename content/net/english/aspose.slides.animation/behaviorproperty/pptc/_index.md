@@ -6,6 +6,7 @@ type: docs
 weight: 510
 url: /aspose.slides.animation/behaviorproperty/pptc/
 ---
+
 ## BehaviorProperty.PptC property
 
 Represents 'ppt_c' property

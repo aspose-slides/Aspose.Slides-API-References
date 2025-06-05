@@ -1,5 +1,5 @@
 ---
-title: EntfernenSchreibschutz
+title: RemoveWriteProtection
 second_title: Aspose.Slides für .NET API Referenz
 description: Entfernt den Schreibschutz für diese Präsentation.
 type: docs

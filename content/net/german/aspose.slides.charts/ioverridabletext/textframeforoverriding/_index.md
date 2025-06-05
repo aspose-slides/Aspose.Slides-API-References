@@ -1,7 +1,7 @@
 ---
 title: TextFrameForOverriding
 second_title: Aspose.Sildes für .NET API Referenz
-description: Kann einen reich formatierten Text enthalten. Wenn diese Eigenschaft nicht null ist, überschreibt dieser formatierte Textwert den automatisch generierten Text. Der automatisch generierte Text ist eine implizite Eigenschaft des Datenetiketts, des Anzeigeeinheitsetiketts der Werteachse, des Achsentitels, des Diagrammtitels und des Etiketts der Trendlinie. Der automatisch generierte Text wird mit der IFormattedTextContainer.TextFormat-Eigenschaft formatiert. Nur lesen ITextFrameaspose.slides/../aspose.slides/itextframe.
+description: Kann einen reichhaltig formatierten Text enthalten. Wenn diese Eigenschaft nicht null ist, überschreibt dieser formatierte Textwert den automatisch generierten Text. Automatisch generierter Text ist eine implizite Eigenschaft des Datenetiketts, des Anzeigeneinheitenetiketts der Wertachse, des Achsentitels, des Diagrammtitels und des Etiketts der Trendlinie. Automatisch generierter Text wird mit der IFormattedTextContainer.TextFormat-Eigenschaft formatiert. Nur-lesend ITextFrameaspose.slides/../aspose.slides/itextframe.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/ioverridabletext/textframeforoverriding/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ioverridabletext/textframeforoverriding/
 
 ## IOverridableText.TextFrameForOverriding-Eigenschaft
 
-Kann einen reich formatierten Text enthalten. Wenn diese Eigenschaft nicht null ist, überschreibt dieser formatierte Textwert den automatisch generierten Text. Der automatisch generierte Text ist eine implizite Eigenschaft des Datenetiketts, des Anzeigeeinheitsetiketts der Werteachse, des Achsentitels, des Diagrammtitels und des Etiketts der Trendlinie. Der automatisch generierte Text wird mit der IFormattedTextContainer.TextFormat-Eigenschaft formatiert. Nur lesen [`ITextFrame`](../../../aspose.slides/itextframe).
+Kann einen reichhaltig formatierten Text enthalten. Wenn diese Eigenschaft nicht null ist, überschreibt dieser formatierte Textwert den automatisch generierten Text. Automatisch generierter Text ist eine implizite Eigenschaft des Datenetiketts, des Anzeigeneinheitenetiketts der Wertachse, des Achsentitels, des Diagrammtitels und des Etiketts der Trendlinie. Automatisch generierter Text wird mit der IFormattedTextContainer.TextFormat-Eigenschaft formatiert. Nur-lesend [`ITextFrame`](../../../aspose.slides/itextframe).
 
 ```csharp
 public ITextFrame TextFrameForOverriding { get; }

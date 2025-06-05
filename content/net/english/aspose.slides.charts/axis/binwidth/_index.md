@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.charts/axis/binwidth/
 ---
+
 ## Axis.BinWidth property
 
 Specifies bin width when AggregationType property value setted to AxisAggregationType.ByBinWidth. Applied to category axes. Used with Histogram or HistogramPareto series only.

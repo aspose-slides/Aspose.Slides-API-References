@@ -1,6 +1,6 @@
 ---
 title: AsISvgShapeFormattingController
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Позволяет получить базовый интерфейс ISvgShapeFormattingController. Только для чтения ISvgShapeFormattingControlleraspose.slides.export/isvgshapeformattingcontroller.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingco
 public ISvgShapeFormattingController AsISvgShapeFormattingController { get; }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [ISvgShapeFormattingController](../../isvgshapeformattingcontroller)
 * интерфейс [IVideoPlayerHtmlController](../../ivideoplayerhtmlcontroller)

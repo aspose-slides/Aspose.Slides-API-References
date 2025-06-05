@@ -6,6 +6,7 @@ type: docs
 weight: 190
 url: /aspose.slides.charts/charttypecharacterizer/isseriesusesvaluecoordinate/
 ---
+
 ## ChartTypeCharacterizer.IsSeriesUsesValueCoordinate method
 
 Returns if specified series type uses value coordinates.

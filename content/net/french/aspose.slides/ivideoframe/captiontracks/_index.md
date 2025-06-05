@@ -1,7 +1,7 @@
 ---
 title: CaptionTracks
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie la collection de sous-titres du vidéo. Lecture seule ICaptionsCollectionaspose.slides/icaptionscollection.
+description: Renvoie la collection de sous-titres de la vidéo. Lecture seule ICaptionsCollectionaspose.slides/icaptionscollection.
 type: docs
 weight: 20
 url: /fr/aspose.slides/ivideoframe/captiontracks/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ivideoframe/captiontracks/
 
 ## Propriété IVideoFrame.CaptionTracks
 
-Renvoie la collection de sous-titres du vidéo. Lecture seule [`ICaptionsCollection`](../../icaptionscollection).
+Renvoie la collection de sous-titres de la vidéo. Lecture seule [`ICaptionsCollection`](../../icaptionscollection).
 
 ```csharp
 public ICaptionsCollection CaptionTracks { get; }
@@ -17,7 +17,7 @@ public ICaptionsCollection CaptionTracks { get; }
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -29,14 +29,14 @@ using (Presentation pres = new Presentation("video with captions.pptx"))
 
         foreach (var captionTrack in videoFrame.CaptionTracks)
         {
-            // Extrait les données binaires des sous-titres et les sauvegarde dans le fichier
+            // Extrait les données binaires des sous-titres et les enregistre dans le fichier
             System.IO.File.WriteAllBytes(captionTrack.CaptionId + ".vtt", captionTrack.BinaryData);
         }
     }
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ICaptionsCollection](../../icaptionscollection)
 * interface [IVideoFrame](../../ivideoframe)

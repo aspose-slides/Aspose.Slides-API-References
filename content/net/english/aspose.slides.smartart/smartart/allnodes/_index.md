@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.smartart/smartart/allnodes/
 ---
+
 ## SmartArt.AllNodes property
 
 Returns collections of all nodes in the SmartArt object. Read-only [`ISmartArtNodeCollection`](../../ismartartnodecollection).

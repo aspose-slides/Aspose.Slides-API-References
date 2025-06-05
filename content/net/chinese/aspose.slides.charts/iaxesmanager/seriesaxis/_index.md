@@ -1,7 +1,7 @@
 ---
 title: SeriesAxis
 second_title: Aspose.Sildes for .NET API Reference
-description: 获取图表系列轴。只读 IAxisaspose.slides.charts/iaxis。
+description: 获取图表的系列轴。 只读 IAxisaspose.slides.charts/iaxis。
 type: docs
 weight: 40
 url: /zh/aspose.slides.charts/iaxesmanager/seriesaxis/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/iaxesmanager/seriesaxis/
 public IAxis SeriesAxis { get; }
 ```
 
-### 参见
+### 另请参见
 
 * 接口 [IAxis](../../iaxis)
 * 接口 [IAxesManager](../../iaxesmanager)

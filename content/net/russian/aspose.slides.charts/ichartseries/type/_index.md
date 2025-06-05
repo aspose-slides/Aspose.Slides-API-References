@@ -1,13 +1,13 @@
 ---
-title: Тип
-second_title: Справочник по API Aspose.Sildes для .NET
+title: Type
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает тип этой серии. Чтение/запись ChartTypeaspose.slides.charts/charttype.
 type: docs
 weight: 440
 url: /ru/aspose.slides.charts/ichartseries/type/
 ---
 
-## Свойство IChartSeries.Type
+## IChartSeries.Type свойство
 
 Возвращает тип этой серии. Чтение/запись [`ChartType`](../../charttype).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/ichartseries/type/
 public ChartType Type { get; set; }
 ```
 
-### См. также
+### Смотрите Также
 
 * enum [ChartType](../../charttype)
 * interface [IChartSeries](../../ichartseries)

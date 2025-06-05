@@ -6,6 +6,7 @@ type: docs
 weight: 180
 url: /aspose.slides/shapecollection/addsmartart/
 ---
+
 ## ShapeCollection.AddSmartArt method
 
 Add SmartArt diagram.

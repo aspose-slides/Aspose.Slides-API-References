@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/picture/equals/
 ---
+
 ## Picture.Equals method
 
 Compares with specified object.

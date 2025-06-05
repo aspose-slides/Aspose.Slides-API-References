@@ -1,7 +1,7 @@
 ---
 title: CreateFilterEffect
-second_title: Aspose.Sildes for .NET API Reference
-description: 创建过滤器效果。
+second_title: Aspose.Slides for .NET API Reference
+description: 创建滤镜效果。
 type: docs
 weight: 30
 url: /zh/aspose.slides.animation/ibehaviorfactory/createfiltereffect/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/ibehaviorfactory/createfiltereffect/
 
 ## IBehaviorFactory.CreateFilterEffect 方法
 
-创建过滤器效果。
+创建滤镜效果。
 
 ```csharp
 public IFilterEffect CreateFilterEffect()
@@ -17,9 +17,9 @@ public IFilterEffect CreateFilterEffect()
 
 ### 返回值
 
-过滤器效果。
+滤镜效果。
 
-### 另请参阅
+### 另见
 
 * 接口 [IFilterEffect](../../ifiltereffect)
 * 接口 [IBehaviorFactory](../../ibehaviorfactory)

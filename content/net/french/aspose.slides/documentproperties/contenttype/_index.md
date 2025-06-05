@@ -1,15 +1,15 @@
 ---
 title: ContentType
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne ou définit le type de contenu d'une présentation. Lecture/écriture String.
+description: Renvoie ou définit le type de contenu d'une présentation. Chaîne en lecture/écriture.
 type: docs
 weight: 90
 url: /fr/aspose.slides/documentproperties/contenttype/
 ---
 
-## DocumentProperties.ContentType propriété
+## DocumentProperties.ContentType property
 
-Retourne ou définit le type de contenu d'une présentation. Lecture/écriture String.
+Renvoie ou définit le type de contenu d'une présentation. Chaîne en lecture/écriture.
 
 ```csharp
 public string ContentType { get; set; }

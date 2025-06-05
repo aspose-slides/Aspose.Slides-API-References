@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForRadarSeries
-second_title: Aspose.Sildes for .NET API 参考
-description: 创建新的数据点并将其添加到集合末尾。适用于图表类型为雷达子类型之一的系列，请参见 ChartTypeCharacterizer.IsChartTypeRadarChartType 方法。
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建新的数据点并将其添加到集合的末尾。适用于图表类型为雷达子类型之一的系列，另见 ChartTypeCharacterizer.IsChartTypeRadarChartType 方法。
 type: docs
 weight: 170
 url: /zh/aspose.slides.charts/ichartdatapointcollection/adddatapointforradarseries/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ichartdatapointcollection/adddatapointforradarseri
 
 ## AddDataPointForRadarSeries(IChartDataCell) {#adddatapointforradarseries}
 
-创建新的数据点并将其添加到集合末尾。适用于图表类型为雷达子类型之一的系列（请参见 ChartTypeCharacterizer.IsChartTypeRadar(ChartType) 方法）。
+创建新的数据点并将其添加到集合的末尾。适用于图表类型为雷达子类型之一的系列（另见 ChartTypeCharacterizer.IsChartTypeRadar(ChartType) 方法）。
 
 ```csharp
 public IChartDataPoint AddDataPointForRadarSeries(IChartDataCell value)
@@ -21,9 +21,9 @@ public IChartDataPoint AddDataPointForRadarSeries(IChartDataCell value)
 
 ### 返回值
 
-新数据点。
+新的数据点。
 
-### 另请参见
+### 另见
 
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataCell](../../ichartdatacell)
@@ -35,7 +35,7 @@ public IChartDataPoint AddDataPointForRadarSeries(IChartDataCell value)
 
 ## AddDataPointForRadarSeries(double) {#adddatapointforradarseries_1}
 
-创建新的数据点并将其添加到集合末尾。适用于图表类型为雷达子类型之一的系列（请参见 ChartTypeCharacterizer.IsChartTypeRadar(ChartType) 方法）。
+创建新的数据点并将其添加到集合的末尾。适用于图表类型为雷达子类型之一的系列（另见 ChartTypeCharacterizer.IsChartTypeRadar(ChartType) 方法）。
 
 ```csharp
 public IChartDataPoint AddDataPointForRadarSeries(double value)
@@ -47,9 +47,9 @@ public IChartDataPoint AddDataPointForRadarSeries(double value)
 
 ### 返回值
 
-新数据点。
+新的数据点。
 
-### 另请参见
+### 另见
 
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataPointCollection](../../ichartdatapointcollection)

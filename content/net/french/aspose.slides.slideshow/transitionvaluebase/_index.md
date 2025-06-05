@@ -20,7 +20,7 @@ public class TransitionValueBase : ITransitionValueBase
 | Nom | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Détermine si les deux instances de TransitionValueBase sont égales. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Sert de fonction de hachage pour un type particulier, approprié pour une utilisation dans des algorithmes de hachage et des structures de données comme une table de hachage. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Sert de fonction de hachage pour un type particulier, adapté à une utilisation dans des algorithmes de hachage et des structures de données comme une table de hachage. |
 
 ### Voir aussi
 

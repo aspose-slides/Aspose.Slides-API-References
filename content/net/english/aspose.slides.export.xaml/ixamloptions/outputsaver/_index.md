@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.export.xaml/ixamloptions/outputsaver/
 ---
+
 ## IXamlOptions.OutputSaver property
 
 Represents an implementation of IOutputSaver interface.

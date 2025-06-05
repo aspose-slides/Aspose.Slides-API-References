@@ -1,7 +1,7 @@
 ---
 title: ShapeType
-second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает или устанавливает тип AutoShape для PictureFrame. Все элементы набора ShapeTypeaspose.slides/shapetype, кроме всех видов линий, являются допустимыми
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает или задает тип AutoShape для PictureFrame. Допустимы все элементы набора ShapeTypeaspose.slides/shapetype, кроме всех видов линий.
 type: docs
 weight: 70
 url: /ru/aspose.slides/pictureframe/shapetype/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/pictureframe/shapetype/
 
 ## Свойство PictureFrame.ShapeType
 
-Возвращает или устанавливает тип AutoShape для PictureFrame. Все элементы набора [`ShapeType`](../../shapetype), кроме всех видов линий, являются допустимыми:
+Возвращает или задает тип AutoShape для PictureFrame. Допустимы все элементы набора [`ShapeType`](../../shapetype), кроме всех видов линий:
 
 ShapeType.Line,
 
@@ -37,7 +37,7 @@ ShapeType.CurvedConnector5.
 public override ShapeType ShapeType { get; set; }
 ```
 
-### Также см.
+### См. Также
 
 * enum [ShapeType](../../shapetype)
 * class [PictureFrame](../../pictureframe)

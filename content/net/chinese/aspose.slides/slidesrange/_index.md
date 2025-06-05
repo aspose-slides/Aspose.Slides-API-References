@@ -1,13 +1,13 @@
 ---
 title: SlidesRange
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 幻灯片范围
 type: docs
 weight: 10220
 url: /zh/aspose.slides/slidesrange/
 ---
 
-## SlidesRange 类
+## SlidesRange class
 
 幻灯片范围
 

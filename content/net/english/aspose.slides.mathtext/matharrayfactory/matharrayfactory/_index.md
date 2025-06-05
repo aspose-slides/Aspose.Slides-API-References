@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/matharrayfactory/matharrayfactory/
 ---
+
 ## MathArrayFactory constructor
 
 The default constructor.

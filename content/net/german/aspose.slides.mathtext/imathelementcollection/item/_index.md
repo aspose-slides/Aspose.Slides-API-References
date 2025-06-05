@@ -1,7 +1,7 @@
 ---
-title: Element
-second_title: Aspose.Slides für .NET API-Referenz
-description: Holt das Element am angegebenen Index. Schreibgeschütztes IMathElementaspose.slides.mathtext/imathelement.
+title: Item
+second_title: Aspose.Slides für .NET API Referenz
+description: Erhält das Element am angegebenen Index. Schreibgeschütztes IMathElementaspose.slides.mathtext/imathelement.
 type: docs
 weight: 30
 url: /de/aspose.slides.mathtext/imathelementcollection/item/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathelementcollection/item/
 
 ## IMathElementCollection-Indexer
 
-Holt das Element am angegebenen Index. Schreibgeschütztes [`IMathElement`](../../imathelement).
+Erhält das Element am angegebenen Index. Schreibgeschütztes [`IMathElement`](../../imathelement).
 
 ```csharp
 public IMathElement this[int index] { get; }
@@ -29,7 +29,7 @@ IMathElementCollection collection = new MathBlock(new MathematicalText("x"));
 IMathElement firstElem = collection[0];
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMathElement](../../imathelement)
 * Schnittstelle [IMathElementCollection](../../imathelementcollection)

@@ -1,7 +1,7 @@
 ---
 title: IShapeBevelEffectiveData
-second_title: Aspose.Slides for .NET API 参考
-description: 包含有效形状表面浮雕属性的不可变对象。
+second_title: Aspose.Sildes for .NET API Reference
+description: 不可变对象，包含有效形状的面浮雕属性。
 type: docs
 weight: 6750
 url: /zh/aspose.slides/ishapebeveleffectivedata/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ishapebeveleffectivedata/
 
 ## IShapeBevelEffectiveData 接口
 
-包含有效形状的表面浮雕属性的不可变对象。
+不可变对象，包含有效形状的面浮雕属性。
 
 ```csharp
 public interface IShapeBevelEffectiveData

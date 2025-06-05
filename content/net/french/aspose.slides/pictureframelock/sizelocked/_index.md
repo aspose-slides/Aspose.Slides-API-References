@@ -1,15 +1,15 @@
 ---
 title: SizeLocked
-second_title: Référence API Aspose.Sildes pour .NET
-description: Détermine si le redimensionnement de cette forme est interdit. Booléen en lecture/écriture.
+second_title: Aspose.Slides pour .NET API Reference
+description: Détermine si le redimensionnement de cette forme est interdit. Boolean en lecture/écriture.
 type: docs
 weight: 110
 url: /fr/aspose.slides/pictureframelock/sizelocked/
 ---
 
-## Propriété PictureFrameLock.SizeLocked
+## PictureFrameLock.SizeLocked propriété
 
-Détermine si le redimensionnement de cette forme est interdit. Booléen en lecture/écriture.
+Détermine si le redimensionnement de cette forme est interdit. Boolean en lecture/écriture.
 
 ```csharp
 public bool SizeLocked { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: MotionOriginType
 second_title: Aspose.Sildes for .NET API Reference
-description: 指定运动路径的起点相对于什么。比如幻灯片的布局或父项。
+description: 指定运动路径的起点相对于什么。比如幻灯片的布局或父级。
 type: docs
 weight: 600
 url: /zh/aspose.slides.animation/motionorigintype/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/motionorigintype/
 
 ## MotionOriginType枚举
 
-指定运动路径的起点相对于什么。比如幻灯片的布局或父项。
+指定运动路径的起点相对于什么。比如幻灯片的布局或父级。
 
 ```csharp
 public enum MotionOriginType
@@ -23,7 +23,7 @@ public enum MotionOriginType
 | Parent | `0` |  |
 | Layout | `1` |  |
 
-### 参见
+### 另请参见
 
 * 命名空间 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 程序集 [Aspose.Slides](../../)

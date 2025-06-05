@@ -1,7 +1,7 @@
 ---
 title: SetRotation
-second_title: Aspose.Slides для .NET API Reference
-description: Вращение определяется с помощью координаты широты, координаты долготы и революции вокруг оси, как координаты широты, так и долготы. Если любое из значений координат равно float.NaN, все вращение неопределено.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Поворот определяется с использованием широты, долготы и вращения вокруг оси, как широты, так и долготы. Если любое значение координаты равно float.NaN, все вращение не определено.
 type: docs
 weight: 50
 url: /ru/aspose.slides/icamera/setrotation/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/icamera/setrotation/
 
 ## ICamera.SetRotation метод
 
-Вращение определяется с помощью координаты широты, координаты долготы и революции вокруг оси, как координаты широты, так и долготы. Если любое из значений координат равно float.NaN, все вращение неопределено.
+Поворот определяется с использованием широты, долготы и вращения вокруг оси, как широты, так и долготы. Если любое значение координаты равно float.NaN, все вращение не определено.
 
 ```csharp
 public void SetRotation(float latitude, float longitude, float revolution)
@@ -19,9 +19,9 @@ public void SetRotation(float latitude, float longitude, float revolution)
 | --- | --- | --- |
 | latitude | Single | Значение широты Single |
 | longitude | Single | Значение долготы Single |
-| revolution | Single | Значение революции Single |
+| revolution | Single | Значение вращения Single |
 
-### Также см.
+### Смотрите также
 
 * интерфейс [ICamera](../../icamera)
 * пространство имен [Aspose.Slides](../../icamera)

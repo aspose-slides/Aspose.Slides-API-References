@@ -1,110 +1,110 @@
----
+---  
 title: AddAudio
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes for .NET API Reference  
 description: Agrega una copia de un archivo de audio de otra presentación.
-type: docs
-weight: 50
+type: docs  
+weight: 50  
 url: /es/aspose.slides/audiocollection/addaudio/
----
+---  
 
-## AddAudio(IAudio) {#addaudio}
+## AddAudio(IAudio) {#addaudio}  
 
-Agrega una copia de un archivo de audio de otra presentación.
+Agrega una copia de un archivo de audio de otra presentación.  
 
-```csharp
-public IAudio AddAudio(IAudio audio)
-```
+```csharp  
+public IAudio AddAudio(IAudio audio)  
+```  
 
-| Parámetro | Tipo | Descripción |
-| --- | --- | --- |
-| audio | IAudio | Audio de origen. |
+| Parameter | Type | Description |  
+| --- | --- | --- |  
+| audio | IAudio | Audio de origen. |  
 
-### Valor de retorno
+### Return Value  
 
-Audio agregado.
+Audio agregado.  
 
-### Véase también
+### See Also  
 
-* interfaz [IAudio](../../iaudio)
-* clase [AudioCollection](../../audiocollection)
-* espacio de nombres [Aspose.Slides](../../audiocollection)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IAudio](../../iaudio)  
+* class [AudioCollection](../../audiocollection)  
+* namespace [Aspose.Slides](../../audiocollection)  
+* assembly [Aspose.Slides](../../../)  
 
----
+---  
 
-## AddAudio(Stream) {#addaudio_2}
+## AddAudio(Stream) {#addaudio_2}  
 
-Crea y agrega un audio a una presentación desde un stream.
+Crea y agrega un audio a una presentación desde un stream.  
 
-```csharp
-public IAudio AddAudio(Stream stream)
-```
+```csharp  
+public IAudio AddAudio(Stream stream)  
+```  
 
-| Parámetro | Tipo | Descripción |
-| --- | --- | --- |
-| stream | Stream | Stream desde el cual agregar audio. |
+| Parameter | Type | Description |  
+| --- | --- | --- |  
+| stream | Stream | Stream desde el cual agregar audio. |  
 
-### Valor de retorno
+### Return Value  
 
-Audio agregado.
+Audio agregado.  
 
-### Véase también
+### See Also  
 
-* interfaz [IAudio](../../iaudio)
-* clase [AudioCollection](../../audiocollection)
-* espacio de nombres [Aspose.Slides](../../audiocollection)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IAudio](../../iaudio)  
+* class [AudioCollection](../../audiocollection)  
+* namespace [Aspose.Slides](../../audiocollection)  
+* assembly [Aspose.Slides](../../../)  
 
----
+---  
 
-## AddAudio(Stream, LoadingStreamBehavior) {#addaudio_3}
+## AddAudio(Stream, LoadingStreamBehavior) {#addaudio_3}  
 
-Crea y agrega un audio a una presentación desde un stream.
+Crea y agrega un audio a una presentación desde un stream.  
 
-```csharp
-public IAudio AddAudio(Stream stream, LoadingStreamBehavior loadingStreamBehavior)
-```
+```csharp  
+public IAudio AddAudio(Stream stream, LoadingStreamBehavior loadingStreamBehavior)  
+```  
 
-| Parámetro | Tipo | Descripción |
-| --- | --- | --- |
-| stream | Stream | Stream desde el cual agregar audio de video. |
-| loadingStreamBehavior | LoadingStreamBehavior | El comportamiento que se aplicará al stream. |
+| Parameter | Type | Description |  
+| --- | --- | --- |  
+| stream | Stream | Stream desde el cual agregar audio de video. |  
+| loadingStreamBehavior | LoadingStreamBehavior | El comportamiento que se aplicará al stream. |  
 
-### Valor de retorno
+### Return Value  
 
-Audio agregado.
+Audio agregado.  
 
-### Véase también
+### See Also  
 
-* interfaz [IAudio](../../iaudio)
-* enum [LoadingStreamBehavior](../../loadingstreambehavior)
-* clase [AudioCollection](../../audiocollection)
-* espacio de nombres [Aspose.Slides](../../audiocollection)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IAudio](../../iaudio)  
+* enum [LoadingStreamBehavior](../../loadingstreambehavior)  
+* class [AudioCollection](../../audiocollection)  
+* namespace [Aspose.Slides](../../audiocollection)  
+* assembly [Aspose.Slides](../../../)  
 
----
+---  
 
-## AddAudio(byte[]) {#addaudio_1}
+## AddAudio(byte[]) {#addaudio_1}  
 
-Crea y agrega un audio a una presentación desde un arreglo de bytes.
+Crea y agrega un audio a una presentación desde un array de bytes.  
 
-```csharp
-public IAudio AddAudio(byte[] audioData)
-```
+```csharp  
+public IAudio AddAudio(byte[] audioData)  
+```  
 
-| Parámetro | Tipo | Descripción |
-| --- | --- | --- |
-| audioData | Byte[] | Bytes de audio. |
+| Parameter | Type | Description |  
+| --- | --- | --- |  
+| audioData | Byte[] | Bytes de audio. |  
 
-### Valor de retorno
+### Return Value  
 
-Audio agregado.
+Audio agregado.  
 
-### Véase también
+### See Also  
 
-* interfaz [IAudio](../../iaudio)
-* clase [AudioCollection](../../audiocollection)
-* espacio de nombres [Aspose.Slides](../../audiocollection)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IAudio](../../iaudio)  
+* class [AudioCollection](../../audiocollection)  
+* namespace [Aspose.Slides](../../audiocollection)  
+* assembly [Aspose.Slides](../../../)  
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->  

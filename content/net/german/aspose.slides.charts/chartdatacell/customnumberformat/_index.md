@@ -1,7 +1,7 @@
 ---
 title: CustomNumberFormat
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Erhält oder setzt das benutzerdefinierte Displayformat von Zahlen und Daten. Wenn der Wert leer ist, wird der Wert von PresetNumberFormat verwendet. Lese-/Schreib-String.
+second_title: Aspose.Slides für .NET API Referenz
+description: Legt das benutzerdefinierte Anzeigeformat von Zahlen und Daten fest oder gibt es zurück. Wenn der Wert leer ist, wird der Wert von PresetNumberFormat verwendet. Lese-/Schreibzeichenfolge.
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/chartdatacell/customnumberformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartdatacell/customnumberformat/
 
 ## ChartDataCell.CustomNumberFormat-Eigenschaft
 
-Erhält oder setzt das benutzerdefinierte Displayformat von Zahlen und Daten. Wenn der Wert leer ist, wird der Wert von PresetNumberFormat verwendet. Lese-/Schreib-String.
+Legt das benutzerdefinierte Anzeigeformat von Zahlen und Daten fest oder gibt es zurück. Wenn der Wert leer ist, wird der Wert von PresetNumberFormat verwendet. Lese-/Schreibzeichenfolge.
 
 ```csharp
 public string CustomNumberFormat { get; set; }
@@ -19,9 +19,9 @@ public string CustomNumberFormat { get; set; }
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentNullException | Ausgelöst, wenn der Wert `null` ist. |
+| ArgumentNullException | Wird ausgelöst, wenn der Wert `null` ist. |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [ChartDataCell](../../chartdatacell)
 * Namespace [Aspose.Slides.Charts](../../chartdatacell)

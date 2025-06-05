@@ -1,7 +1,7 @@
 ---
 title: ChartDataWorksheet
 second_title: Aspose.Slides für .NET API-Referenz
-description: Repräsentiert das Arbeitsblatt, das mit IChartDataCell verbunden ist./ichartdatacell
+description: Stellt das Arbeitsblatt dar, das mit IChartDataCell verbunden ist./ichartdatacell
 type: docs
 weight: 1310
 url: /de/aspose.slides.charts/chartdataworksheet/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartdataworksheet/
 
 ## ChartDataWorksheet-Klasse
 
-Repräsentiert das Arbeitsblatt, das mit [`IChartDataCell`](../ichartdatacell) verbunden ist.
+Stellt das Arbeitsblatt dar, das mit [`IChartDataCell`](../ichartdatacell) verbunden ist.
 
 ```csharp
 public class ChartDataWorksheet : DomObject<ChartDataWorksheetCollection>, IChartDataWorksheet
@@ -19,10 +19,10 @@ public class ChartDataWorksheet : DomObject<ChartDataWorksheetCollection>, IChar
 
 | Name | Beschreibung |
 | --- | --- |
-| [Index](../../aspose.slides.charts/chartdataworksheet/index) { get; } | Gibt den Index des Arbeitsblatts zurück. Nur-Lese Int32. |
-| [Name](../../aspose.slides.charts/chartdataworksheet/name) { get; } | Gibt den Namen des Arbeitsblatts zurück. Nur-Lese String. |
+| [Index](../../aspose.slides.charts/chartdataworksheet/index) { get; } | Gibt den Index des Arbeitsblatts zurück. Nur lesbar Int32. |
+| [Name](../../aspose.slides.charts/chartdataworksheet/name) { get; } | Gibt den Namen des Arbeitsblatts zurück. Nur lesbar String. |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * Klasse [ChartDataWorksheetCollection](../chartdataworksheetcollection)

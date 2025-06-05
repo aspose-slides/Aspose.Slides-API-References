@@ -1,15 +1,15 @@
 ---
 title: InteractiveSequences
-second_title: Aspose.Slides pour la référence de l'API .NET
-description: Renvoie une collection de séquences interactives. Ces séquences peuvent contenir uniquement des effets de "clic sur la forme" avec une forme cible spécifiée. Lecture seule ISequenceCollectionaspose.slides/../aspose.slides.animation/isequencecollection.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie une collection de séquences interactives. Ces séquences peuvent ne contenir que des effets "au clic sur une forme" avec une forme cible spécifiée. ISequenceCollection en lecture seule aspose.slides.animation/isequencecollection.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ianimationtimeline/interactivesequences/
 ---
 
-## Propriété IAnimationTimeLine.InteractiveSequences
+## IAnimationTimeLine.InteractiveSequences property
 
-Renvoie une collection de séquences interactives. Ces séquences peuvent contenir uniquement des effets de "clic sur la forme" avec une forme cible spécifiée. Lecture seule [`ISequenceCollection`](../../../aspose.slides.animation/isequencecollection).
+Renvoie une collection de séquences interactives. Ces séquences peuvent ne contenir que des effets par "clic sur une forme" avec une forme cible spécifiée. [`ISequenceCollection`](../../../aspose.slides.animation/isequencecollection) en lecture seule.
 
 ```csharp
 public ISequenceCollection InteractiveSequences { get; }

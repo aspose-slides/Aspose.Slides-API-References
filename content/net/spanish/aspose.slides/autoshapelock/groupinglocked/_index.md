@@ -15,10 +15,10 @@ Determina si agregar esta forma a un grupo está prohibido. Booleano de lectura/
 public bool GroupingLocked { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [AutoShapeLock](../../autoshapelock)
 * espacio de nombres [Aspose.Slides](../../autoshapelock)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

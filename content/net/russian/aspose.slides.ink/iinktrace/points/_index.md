@@ -1,7 +1,7 @@
 ---
-title: Точки
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Получает точки для IInkLine PointF только для чтения.
+title: Points
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает точки для IInkLine PointF Только для чтения.
 type: docs
 weight: 20
 url: /ru/aspose.slides.ink/iinktrace/points/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.ink/iinktrace/points/
 
 ## Свойство IInkTrace.Points
 
-Получает точки для IInkLine PointF только для чтения.
+Получает точки для IInkLine PointF Только для чтения.
 
 ```csharp
 public PointF[] Points { get; }
@@ -29,7 +29,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Смотрите также
+### См. Также
 
 * интерфейс [IInkTrace](../../iinktrace)
 * пространство имен [Aspose.Slides.Ink](../../iinktrace)

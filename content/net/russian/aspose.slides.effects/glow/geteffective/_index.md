@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides для .NET API Справочник
-description: Получает данные эффекта Glow с примененным наследованием.
+second_title: Aspose.Sildes для .NET API Reference
+description: Получает данные об эффективном эффекте Glow с применением наследования.
 type: docs
 weight: 40
 url: /ru/aspose.slides.effects/glow/geteffective/
@@ -9,17 +9,17 @@ url: /ru/aspose.slides.effects/glow/geteffective/
 
 ## Метод Glow.GetEffective
 
-Получает данные эффекта Glow с примененным наследованием.
+Получает данные об эффективном эффекте Glow с применением наследования.
 
 ```csharp
 public IGlowEffectiveData GetEffective()
 ```
 
-### Возвращаемое значение
+### Значение Возврата
 
 [`IGlowEffectiveData`](../../igloweffectivedata).
 
-### См. также
+### См. Также
 
 * интерфейс [IGlowEffectiveData](../../igloweffectivedata)
 * класс [Glow](../../glow)

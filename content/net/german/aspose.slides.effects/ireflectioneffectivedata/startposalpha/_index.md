@@ -1,7 +1,7 @@
 ---
 title: StartPosAlpha
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Startposition entlang der Alpha-Gradientenrampe des Start-Alpha-Wertprozents an. Nur-lesbar Single.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Startposition entlang des Alpha-Gradientenrampen des anfänglichen Alpha-Werts Prozentsätze an. Nur lesbar Single.
 type: docs
 weight: 140
 url: /de/aspose.slides.effects/ireflectioneffectivedata/startposalpha/
@@ -9,15 +9,15 @@ url: /de/aspose.slides.effects/ireflectioneffectivedata/startposalpha/
 
 ## IReflectionEffectiveData.StartPosAlpha-Eigenschaft
 
-Gibt die Startposition (entlang der Alpha-Gradientenrampe) des Start-Alpha-Werts (Prozentsatz) an. Nur-lesbar Single.
+Gibt die Startposition (entlang der Alpha-Gradientenrampe) des Start-Alpha-Werts (Prozentsätze) an. Nur lesbar Single.
 
 ```csharp
 public float StartPosAlpha { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
-* Schnittstelle [IReflectionEffectiveData](../../ireflectioneffectivedata)
+* Interface [IReflectionEffectiveData](../../ireflectioneffectivedata)
 * Namespace [Aspose.Slides.Effects](../../ireflectioneffectivedata)
 * Assembly [Aspose.Slides](../../../)
 

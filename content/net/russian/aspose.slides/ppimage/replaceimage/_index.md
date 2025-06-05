@@ -1,7 +1,7 @@
 ---
 title: ReplaceImage
-second_title: Aspose.Sildes для .NET API Reference
-description: Заменяет данные изображения. Данные новых изображений. Когда параметр newImageData равен null.
+second_title: Aspose.Sildes для .NET Справочник API
+description: Заменяет данные изображения. Новые данные изображения. Когда параметр newImageData равен null.
 type: docs
 weight: 110
 url: /ru/aspose.slides/ppimage/replaceimage/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/ppimage/replaceimage/
 
 ## ReplaceImage(byte[]) {#replaceimage_2}
 
-Заменяет данные изображения. Данные нового изображения. Когда параметр newImageData равен null.
+Заменяет данные изображения. Новые данные изображения. Когда параметр newImageData равен null.
 
 ```csharp
 public void ReplaceImage(byte[] newImageData)
 ```
 
-### Смотрите также
+### См. Также
 
 * класс [PPImage](../../ppimage)
 * пространство имен [Aspose.Slides](../../ppimage)
@@ -25,13 +25,13 @@ public void ReplaceImage(byte[] newImageData)
 
 ## ReplaceImage(IImage) {#replaceimage}
 
-Заменяет данные изображения. Внимание: когда изображение является метафайлом - оно будет растеризовано. Используйте ReplaceImage(byte[]) вместо нового изображения. Когда параметр newImage равен null.
+Заменяет данные изображения. Внимание: когда Image - это метафайл, он будет растрирован. Используйте ReplaceImage(byte[]) вместо. Новое изображение. Когда параметр newImage равен null.
 
 ```csharp
 public void ReplaceImage(IImage newImage)
 ```
 
-### Смотрите также
+### См. Также
 
 * интерфейс [IImage](../../iimage)
 * класс [PPImage](../../ppimage)
@@ -48,7 +48,7 @@ public void ReplaceImage(IImage newImage)
 public void ReplaceImage(IPPImage newImage)
 ```
 
-### Смотрите также
+### См. Также
 
 * интерфейс [IPPImage](../../ippimage)
 * класс [PPImage](../../ppimage)

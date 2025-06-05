@@ -1,13 +1,13 @@
 ---
 title: TriggerShape
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает или устанавливает целевую форму для ИНТЕРАКТИВной последовательности. Если последовательность не интерактивна, то возвращает null. Чтение/запись IShapeaspose.slides/ishape.
 type: docs
 weight: 40
 url: /ru/aspose.slides.animation/isequence/triggershape/
 ---
 
-## Свойство ISequence.TriggerShape
+## ISequence.TriggerShape свойство
 
 Возвращает или устанавливает целевую форму для ИНТЕРАКТИВной последовательности. Если последовательность не интерактивна, то возвращает null. Чтение/запись [`IShape`](../../../aspose.slides/ishape).
 

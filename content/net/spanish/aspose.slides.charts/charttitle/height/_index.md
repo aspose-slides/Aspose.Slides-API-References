@@ -1,7 +1,7 @@
 ---
-title: Altura
+title: Height
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve o establece la altura de un título como una fracción de la altura del gráfico. Lectura/escritura Simple.
+description: Devuelve o establece la altura de un título como una fracción de la altura del gráfico. Lectura/escritura Single.
 type: docs
 weight: 40
 url: /es/aspose.slides.charts/charttitle/height/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.charts/charttitle/height/
 
 ## Propiedad ChartTitle.Height
 
-Devuelve o establece la altura de un título como una fracción de la altura del gráfico. Lectura/escritura Simple.
+Devuelve o establece la altura de un título como una fracción de la altura del gráfico. Lectura/escritura Single.
 
 ```csharp
 public float Height { get; set; }
@@ -19,6 +19,6 @@ public float Height { get; set; }
 
 * clase [ChartTitle](../../charttitle)
 * espacio de nombres [Aspose.Slides.Charts](../../charttitle)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

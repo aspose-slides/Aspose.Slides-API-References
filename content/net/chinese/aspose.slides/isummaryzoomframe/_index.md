@@ -21,9 +21,9 @@ public interface ISummaryZoomFrame : IGraphicalObject
 | --- | --- |
 | [AsIGraphicalObject](../../aspose.slides/isummaryzoomframe/asigraphicalobject) { get; } | 返回 IGraphicalObject 接口。 |
 | [Layout](../../aspose.slides/isummaryzoomframe/layout) { get; } | 获取框架中摘要缩放部分的布局。默认值为 GridLayout。 |
-| [SummaryZoomCollection](../../aspose.slides/isummaryzoomframe/summaryzoomcollection) { get; } | 获取 [`ISummaryZoomSectionCollection`](../isummaryzoomsectioncollection) 用于摘要缩放框架对象。 |
+| [SummaryZoomCollection](../../aspose.slides/isummaryzoomframe/summaryzoomcollection) { get; } | 获取用于摘要缩放框架对象的 [`ISummaryZoomSectionCollection`](../isummaryzoomsectioncollection)。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IGraphicalObject](../igraphicalobject)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

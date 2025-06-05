@@ -15,7 +15,7 @@ Renvoie le type de barré d'un texte. Lecture seule [`TextStrikethroughType`](..
 public TextStrikethroughType StrikethroughType { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [TextStrikethroughType](../../textstrikethroughtype)
 * interface [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)

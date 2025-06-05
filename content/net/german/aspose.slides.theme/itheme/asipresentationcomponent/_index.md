@@ -1,15 +1,15 @@
 ---
 title: AsIPresentationComponent
 second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht den Zugriff auf die grundlegende IPresentationComponent-Schnittstelle. Schreibgeschützte IPresentationComponent aspose.slides/ipresentationcomponent.
+description: Ermöglicht den Zugriff auf die Basis-IPresentationComponent-Schnittstelle. Nur lesbare IPresentationComponentaspose.slides/ipresentationcomponent.
 type: docs
 weight: 10
 url: /de/aspose.slides.theme/itheme/asipresentationcomponent/
 ---
 
-## ITheme.AsIPresentationComponent-Eigenschaft
+## ITheme.AsIPresentationComponent Eigenschaft
 
-Ermöglicht den Zugriff auf die grundlegende IPresentationComponent-Schnittstelle. Schreibgeschützte [`IPresentationComponent`](../../../aspose.slides/ipresentationcomponent).
+Ermöglicht den Zugriff auf die Basis-IPresentationComponent-Schnittstelle. Nur lesbare [`IPresentationComponent`](../../../aspose.slides/ipresentationcomponent).
 
 ```csharp
 public IPresentationComponent AsIPresentationComponent { get; }

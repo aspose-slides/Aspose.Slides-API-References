@@ -1,7 +1,7 @@
 ---
 title: CustomNumberFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 获取或设置数字和日期的自定义显示格式。如果值为空，将使用 PresetNumberFormat 值。可读写字符串。
+description: 获取或设置数字和日期的自定义显示格式。如果值为空，将使用 PresetNumberFormat 值。可读/写字符串。
 type: docs
 weight: 30
 url: /zh/aspose.slides.charts/ichartdatacell/customnumberformat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ichartdatacell/customnumberformat/
 
 ## IChartDataCell.CustomNumberFormat 属性
 
-获取或设置数字和日期的自定义显示格式。如果值为空，将使用 PresetNumberFormat 值。可读写字符串。
+获取或设置数字和日期的自定义显示格式。如果值为空，将使用 PresetNumberFormat 值。可读/写字符串。
 
 ```csharp
 public string CustomNumberFormat { get; set; }
@@ -17,11 +17,11 @@ public string CustomNumberFormat { get; set; }
 
 ### 异常
 
-| 异常 | 条件 |
+| exception | condition |
 | --- | --- |
-| ArgumentNullException | 如果值为 `null`，则抛出。 |
+| ArgumentNullException | 如果值为 `null`，则引发。 |
 
-### 参见
+### 另见
 
 * 接口 [IChartDataCell](../../ichartdatacell)
 * 命名空间 [Aspose.Slides.Charts](../../ichartdatacell)

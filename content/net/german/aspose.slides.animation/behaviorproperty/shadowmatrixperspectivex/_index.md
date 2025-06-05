@@ -1,7 +1,7 @@
 ---
 title: ShadowMatrixPerspectiveX
 second_title: Aspose.Slides für .NET API Referenz
-description: Stellt die Eigenschaft 'shadow.matrix.perspectiveX' dar
+description: Repräsentiert die 'shadow.matrix.perspectiveX' Eigenschaft
 type: docs
 weight: 620
 url: /de/aspose.slides.animation/behaviorproperty/shadowmatrixperspectivex/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/behaviorproperty/shadowmatrixperspectivex/
 
 ## BehaviorProperty.ShadowMatrixPerspectiveX Eigenschaft
 
-Stellt die Eigenschaft 'shadow.matrix.perspectiveX' dar
+Repräsentiert die 'shadow.matrix.perspectiveX' Eigenschaft
 
 ```csharp
 public static BehaviorProperty ShadowMatrixPerspectiveX { get; }

@@ -1,7 +1,7 @@
 ---
 title: ReturnToParent
-second_title: Aspose.Sildes для .NET API Справочник
-description: Получает или задает поведение навигации в слайд-шоу. Читаемое/записываемое логическое значение. Значение по умолчанию false
+second_title: Aspose.Sildes для справки по API .NET
+description: Получает или задает поведение навигации в слайд-шоу. Чтение/запись булевое. Значение по умолчанию false
 type: docs
 weight: 30
 url: /ru/aspose.slides/izoomobject/returntoparent/
@@ -9,15 +9,15 @@ url: /ru/aspose.slides/izoomobject/returntoparent/
 
 ## IZoomObject.ReturnToParent свойство
 
-Получает или задает поведение навигации в слайд-шоу. Читаемое/записываемое логическое значение. Значение по умолчанию: false
+Получает или задает поведение навигации в слайд-шоу. Чтение/запись булевое. Значение по умолчанию: false
 
 ```csharp
 public bool ReturnToParent { get; set; }
 ```
 
-### Замечания
+### Примечания
 
-Истинное значение свойства указывает на поведение навигации возврата к родительскому элементу в слайд-шоу.
+Истинное значение свойства указывает на поведение возврата к родительской навигации в слайд-шоу.
 
 ### Примеры
 
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IZoomObject](../../izoomobject)
 * пространство имен [Aspose.Slides](../../izoomobject)

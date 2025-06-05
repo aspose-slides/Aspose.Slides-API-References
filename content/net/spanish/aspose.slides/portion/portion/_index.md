@@ -1,6 +1,6 @@
 ---
-title: Porción
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Portion
+second_title: Aspose.Slides para .NET API Reference
 description: Inicializa una nueva instancia de la clase Portion.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Inicializa una nueva instancia de la clase Portion.
 public Portion()
 ```
 
-### Ver También
+### See Also
 
 * class [Portion](../../portion)
 * namespace [Aspose.Slides](../../portion)
@@ -31,7 +31,7 @@ Inicializa una nueva instancia de la clase Portion.
 public Portion(string str)
 ```
 
-### Ver También
+### See Also
 
 * class [Portion](../../portion)
 * namespace [Aspose.Slides](../../portion)
@@ -47,7 +47,7 @@ Inicializa una nueva instancia de la clase Portion.
 public Portion(Portion portion)
 ```
 
-### Ver También
+### See Also
 
 * class [Portion](../../portion)
 * namespace [Aspose.Slides](../../portion)

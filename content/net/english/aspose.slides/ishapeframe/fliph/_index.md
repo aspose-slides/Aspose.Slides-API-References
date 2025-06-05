@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ishapeframe/fliph/
 ---
+
 ## IShapeFrame.FlipH property
 
 Determines whether a frame is flipped horizontally. Read-only [`NullableBool`](../../nullablebool).

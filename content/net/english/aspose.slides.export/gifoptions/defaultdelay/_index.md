@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.export/gifoptions/defaultdelay/
 ---
+
 ## GifOptions.DefaultDelay property
 
 Gets or sets default delay time [ms]. This value will be used if [`AdvanceAfterTime`](../../../aspose.slides/islideshowtransition/advanceaftertime) is not set. The default value is 1000.

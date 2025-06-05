@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.charts/ichartdatapointcollection/adddatapointforareaseries/
 ---
+
 ## AddDataPointForAreaSeries(IChartDataCell) {#adddatapointforareaseries}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Area subtypes (see also ChartTypeCharacterizer.IsChartTypeArea(ChartType) method).

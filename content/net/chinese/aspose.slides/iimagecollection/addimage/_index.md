@@ -1,7 +1,7 @@
 ---
 title: AddImage
-second_title: Aspose.Sildes for .NET API 参考
-description: 向演示文稿添加图像。
+second_title: Aspose.Sildes for .NET API Reference
+description: 向演示文稿中添加图像。
 type: docs
 weight: 20
 url: /zh/aspose.slides/iimagecollection/addimage/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iimagecollection/addimage/
 
 ## AddImage(IImage) {#addimage}
 
-向演示文稿添加图像。
+向演示文稿中添加图像。
 
 ```csharp
 public IPPImage AddImage(IImage image)
@@ -25,7 +25,7 @@ public IPPImage AddImage(IImage image)
 
 ### 备注
 
-此方法将 WMF/EMF 元文件转换为光栅 PNG 图像，然后插入到演示文稿中。
+此方法在插入到演示文稿之前将 WMF/EMF 元文件转换为光栅 PNG 图像。
 
 ### 另请参见
 
@@ -39,7 +39,7 @@ public IPPImage AddImage(IImage image)
 
 ## AddImage(MemoryStream) {#addimage_5}
 
-从内存流添加图像。
+从内存流中添加图像。
 
 ```csharp
 public IPPImage AddImage(MemoryStream stream)
@@ -64,7 +64,7 @@ public IPPImage AddImage(MemoryStream stream)
 
 ## AddImage(Stream) {#addimage_6}
 
-从流向演示文稿添加图像。
+从流中向演示文稿添加图像。
 
 ```csharp
 public IPPImage AddImage(Stream stream)
@@ -72,7 +72,7 @@ public IPPImage AddImage(Stream stream)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 要添加图像的流。 |
+| stream | Stream | 用于添加图像的流。 |
 
 ### 返回值
 
@@ -80,7 +80,7 @@ public IPPImage AddImage(Stream stream)
 
 ### 备注
 
-此方法可以将 WMF/EMF 元文件添加到演示文稿，而无需将其转换为光栅 PNG 图像。
+此方法可以将 WMF/EMF 元文件添加到演示文稿中，而无需将其转换为光栅 PNG 图像。
 
 ### 另请参见
 
@@ -93,7 +93,7 @@ public IPPImage AddImage(Stream stream)
 
 ## AddImage(Stream, LoadingStreamBehavior) {#addimage_7}
 
-从流创建并添加图像到演示文稿。
+从流中创建并添加图像到演示文稿。
 
 ```csharp
 public IPPImage AddImage(Stream stream, LoadingStreamBehavior loadingStreamBehavior)
@@ -101,7 +101,7 @@ public IPPImage AddImage(Stream stream, LoadingStreamBehavior loadingStreamBehav
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 要添加图像文件的流。 |
+| stream | Stream | 用于添加图像文件的流。 |
 | loadingStreamBehavior | LoadingStreamBehavior | 将应用于流的行为。 |
 
 ### 返回值
@@ -120,7 +120,7 @@ public IPPImage AddImage(Stream stream, LoadingStreamBehavior loadingStreamBehav
 
 ## AddImage(byte[]) {#addimage_3}
 
-从指定缓冲区向演示文稿添加图像。
+从指定的缓冲区向演示文稿添加图像。
 
 ```csharp
 public IPPImage AddImage(byte[] buffer)
@@ -188,7 +188,7 @@ public IPPImage AddImage(ISvgImage svgImage)
 
 | 异常 | 条件 |
 | --- | --- |
-| ArgumentNullException | 当 svgImage 参数为 null 时引发。 |
+| ArgumentNullException | 当 svgImage 参数为空时抛出。 |
 
 ### 另请参见
 

@@ -1,7 +1,7 @@
 ---
 title: AsIEnumerable
-second_title: Aspose.Sildes for .NET API 参考
-description: 允许获取基本 IEnumerable 接口 IEnumerable
+second_title: Aspose.Sildes for .NET API Reference
+description: 允许获取基类型 IEnumerable 接口 IEnumerable
 type: docs
 weight: 10
 url: /zh/aspose.slides.mathtext/imathblockcollection/asienumerable/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.mathtext/imathblockcollection/asienumerable/
 
 ## IMathBlockCollection.AsIEnumerable 属性
 
-允许获取基本 IEnumerable 接口 IEnumerable
+允许获取基类型 IEnumerable 接口 IEnumerable
 
 ```csharp
 public IEnumerable AsIEnumerable { get; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IMathBlockCollection](../../imathblockcollection)
 * 命名空间 [Aspose.Slides.MathText](../../imathblockcollection)

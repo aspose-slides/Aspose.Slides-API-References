@@ -1,7 +1,7 @@
 ---
 title: BaseJustification
-second_title: Aspose.Slides for .NET API 参考
-description: 指定相对于周围文本的垂直对齐方式。可能的值有 top、bottom 和 center。默认值：Center
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定相对于周围文本的垂直对齐。可能的值为顶部、底部和居中。默认值：居中
 type: docs
 weight: 20
 url: /zh/aspose.slides.mathtext/mathmatrix/basejustification/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathmatrix/basejustification/
 
 ## MathMatrix.BaseJustification 属性
 
-指定相对于周围文本的垂直对齐方式。可能的值有 top、bottom 和 center。默认值：Center
+指定相对于周围文本的垂直对齐。可能的值为顶部、底部和居中。默认值：居中
 
 ```csharp
 public MathVerticalAlignment BaseJustification { get; set; }
@@ -17,7 +17,7 @@ public MathVerticalAlignment BaseJustification { get; set; }
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -25,7 +25,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.BaseJustification = MathVerticalAlignment.Center;
 ```
 
-### 参见
+### 另请参阅
 
 * enum [MathVerticalAlignment](../../mathverticalalignment)
 * class [MathMatrix](../../mathmatrix)

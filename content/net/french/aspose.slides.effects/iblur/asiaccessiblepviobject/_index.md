@@ -15,7 +15,7 @@ Permet d'obtenir l'interface de base IAccessiblePVIObject. Lecture seule [`IAcce
 public IAccessiblePVIObject<IBlurEffectiveData> AsIAccessiblePVIObject { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
 * interface [IBlurEffectiveData](../../iblureffectivedata)

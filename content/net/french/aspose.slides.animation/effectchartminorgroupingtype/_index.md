@@ -1,15 +1,15 @@
 ---
 title: EffectChartMinorGroupingType
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente le type d'un effet d'animation pour l'élément de graphique dans une série ou une catégorie.
+second_title: Référence API Aspose.Slides pour .NET
+description: Représente le type d'un effet d'animation pour les éléments de graphique dans une série ou une catégorie.
 type: docs
 weight: 220
 url: /fr/aspose.slides.animation/effectchartminorgroupingtype/
 ---
 
-## Enumération EffectChartMinorGroupingType
+## Énumération EffectChartMinorGroupingType
 
-Représente le type d'un effet d'animation pour l'élément du graphique dans une série ou une catégorie.
+Représente le type d'un effet d'animation pour un élément de graphique dans une série ou une catégorie.
 
 ```csharp
 public enum EffectChartMinorGroupingType

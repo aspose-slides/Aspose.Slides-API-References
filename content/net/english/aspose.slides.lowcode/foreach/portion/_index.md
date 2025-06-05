@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.lowcode/foreach/portion/
 ---
+
 ## Portion(Presentation, ForEachPortionCallback) {#portion_1}
 
 Iterate each `Portion` in the [`Presentation`](../../../aspose.slides/presentation). Portions will be iterated in all type of slides - [`Slide`](../slide), [`MasterSlide`](../masterslide) and [`LayoutSlide`](../layoutslide)

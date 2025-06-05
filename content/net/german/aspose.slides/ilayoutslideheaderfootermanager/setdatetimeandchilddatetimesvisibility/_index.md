@@ -1,7 +1,7 @@
 ---
 title: SetDateTimeAndChildDateTimesVisibility
 second_title: Aspose.Slides für .NET API Referenz
-description: Ändert die Sichtbarkeit des Platzhalters für Datum-Uhrzeit der Layoutfolie und aller untergeordneten Platzhalter für Datum-Uhrzeit. Untergeordnete Platzhalter sind Platzhalter, die auf abhängigen Folien enthalten sind. Abhängige Folien verwenden und hängen von der Layoutfolie ab.
+description: Ändert die Sichtbarkeit des Datums-/Uhrzeit-Platzhalters der Layout-Folie und aller untergeordneten Datums-/Uhrzeit-Platzhalter. Untergeordnete Platzhalter sind Platzhalter, die auf abhängigen Folien enthalten sind. Abhängige Folien nutzen und hängen von der Layout-Folie ab.
 type: docs
 weight: 30
 url: /de/aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddateti
 
 ## ILayoutSlideHeaderFooterManager.SetDateTimeAndChildDateTimesVisibility Methode
 
-Ändert die Sichtbarkeit des Platzhalters für Datum-Uhrzeit der Layoutfolie und aller untergeordneten Platzhalter für Datum-Uhrzeit. Untergeordnete Platzhalter sind Platzhalter, die auf abhängigen Folien enthalten sind. Abhängige Folien verwenden und hängen von der Layoutfolie ab.
+Ändert die Sichtbarkeit des Datums-/Uhrzeit-Platzhalters der Layout-Folie und aller untergeordneten Datums-/Uhrzeit-Platzhalter. Untergeordnete Platzhalter sind Platzhalter, die auf abhängigen Folien enthalten sind. Abhängige Folien nutzen und hängen von der Layout-Folie ab.
 
 ```csharp
 public void SetDateTimeAndChildDateTimesVisibility(bool isVisible)
@@ -17,9 +17,9 @@ public void SetDateTimeAndChildDateTimesVisibility(bool isVisible)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| isVisible | Boolean | true - macht einen Platzhalter für Datum-Uhrzeit sichtbar, andernfalls - verbirgt ihn. |
+| isVisible | Boolean | true - macht Datums-/Uhrzeit-Platzhalter sichtbar, andernfalls - versteckt sie. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ILayoutSlideHeaderFooterManager](../../ilayoutslideheaderfootermanager)
 * Namespace [Aspose.Slides](../../ilayoutslideheaderfootermanager)

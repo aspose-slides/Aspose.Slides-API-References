@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.animation/ipoint/time/
 ---
+
 ## IPoint.Time property
 
 Represents time value. Read/write Single.

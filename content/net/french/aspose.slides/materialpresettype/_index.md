@@ -1,7 +1,7 @@
 ---
 title: MaterialPresetType
-second_title: Aspose.Slides pour la référence de l'API .NET
-description: Constantes qui définissent le matériau des formes.
+second_title: Aspose.Slides pour la référence API .NET
+description: Constantes qui définissent le matériau de la forme.
 type: docs
 weight: 7810
 url: /fr/aspose.slides/materialpresettype/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/materialpresettype/
 
 ## Énumération MaterialPresetType
 
-Constantes qui définissent le matériau des formes.
+Constantes qui définissent le matériau de la forme.
 
 ```csharp
 public enum MaterialPresetType

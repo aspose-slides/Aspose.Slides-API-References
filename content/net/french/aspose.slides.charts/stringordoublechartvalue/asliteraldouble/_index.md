@@ -1,13 +1,13 @@
 ---
 title: AsLiteralDouble
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Renvoie ou définit la valeur en tant que double littéral. Lecture/écriture Double.
 type: docs
 weight: 20
 url: /fr/aspose.slides.charts/stringordoublechartvalue/asliteraldouble/
 ---
 
-## Propriété StringOrDoubleChartValue.AsLiteralDouble
+## StringOrDoubleChartValue.AsLiteralDouble propriété
 
 Renvoie ou définit la valeur en tant que double littéral. Lecture/écriture Double.
 

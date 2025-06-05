@@ -1,5 +1,5 @@
 ---
-title: Entfernen
+title: Remove
 second_title: Aspose.Slides für .NET API-Referenz
 description: Entfernt die erste Vorkommen eines bestimmten Objekts aus der Sammlung.
 type: docs
@@ -17,7 +17,7 @@ public void Remove(ISlide value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| value | ISlide | Die Folie, die aus der Sammlung entfernt werden soll. |
+| value | ISlide | Der Slide, der aus der Sammlung entfernt werden soll. |
 
 ### Siehe auch
 

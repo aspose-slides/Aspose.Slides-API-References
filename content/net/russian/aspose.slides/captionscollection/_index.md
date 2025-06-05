@@ -1,13 +1,13 @@
 ---
 title: CaptionsCollection
-second_title: Aspose.Sildes для справки по API .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет собой коллекцию закрытых субтитров.
 type: docs
 weight: 1040
 url: /ru/aspose.slides/captionscollection/
 ---
 
-## Класс CaptionsCollection
+## Class CaptionsCollection
 
 Представляет собой коллекцию закрытых субтитров.
 
@@ -17,23 +17,23 @@ public sealed class CaptionsCollection : ICaptionsCollection
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [Count](../../aspose.slides/captionscollection/count) { get; } | Возвращает количество элементов в коллекции. Только для чтения Int32. |
 | [Item](../../aspose.slides/captionscollection/item) { get; } | Возвращает закрытые субтитры по указанному индексу. Только для чтения [`ICaptions`](../icaptions). |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [Add](../../aspose.slides/captionscollection/add#add)(string, Stream) | Добавляет закрытые субтитры WebVTT в конец коллекции из потока. |
 | [Add](../../aspose.slides/captionscollection/add#add_1)(string, string) | Добавляет закрытые субтитры WebVTT в конец коллекции. |
 | [Clear](../../aspose.slides/captionscollection/clear)() | Удаляет все закрытые субтитры из коллекции. |
-| [GetEnumerator](../../aspose.slides/captionscollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [GetEnumerator](../../aspose.slides/captionscollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 | [Remove](../../aspose.slides/captionscollection/remove)(ICaptions) | Удаляет указанные закрытые субтитры из коллекции. |
 | [RemoveAt](../../aspose.slides/captionscollection/removeat)(int) | Удаляет закрытые субтитры по указанному индексу. |
 
-### См. также
+### Также смотрите
 
 * интерфейс [ICaptionsCollection](../icaptionscollection)
 * пространство имен [Aspose.Slides](../../aspose.slides)

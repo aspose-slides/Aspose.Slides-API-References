@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.export/ihtmlgenerator/slideimagesize/
 ---
+
 ## IHtmlGenerator.SlideImageSize property
 
 Returns slide image size. Read-only SizeF.

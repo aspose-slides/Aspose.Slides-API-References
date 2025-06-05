@@ -1,7 +1,7 @@
 ---
 title: EastAsianLineBreak
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Détermine si le saut de ligne est asiatique est utilisé dans un paragraphe. Pas d'héritage appliqué. Lecture/écriture NullableBoolaspose.slides/nullablebool.
+second_title: Référence API Aspose.Slides pour .NET
+description: Détermine si le saut de ligne est asiatique est utilisé dans un paragraphe. Aucune héritage appliqué. Lecture/écriture NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 40
 url: /fr/aspose.slides/paragraphformat/eastasianlinebreak/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/paragraphformat/eastasianlinebreak/
 
 ## Propriété ParagraphFormat.EastAsianLineBreak
 
-Détermine si le saut de ligne est asiatique est utilisé dans un paragraphe. Pas d'héritage appliqué. Lecture/écriture [`NullableBool`](../../nullablebool).
+Détermine si le saut de ligne est asiatique est utilisé dans un paragraphe. Aucune héritage appliqué. Lecture/écriture [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool EastAsianLineBreak { get; set; }

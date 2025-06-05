@@ -1,7 +1,7 @@
 ---
 title: AddClipboardFragmentHeader
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает или задает значение, указывающее, должны ли быть добавлены заголовки буфера обмена. Чтение/запись логическое значение.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или задает значение, указывающее, следует ли добавлять заголовки буфера обмена. Чтение/запись булево значение.
 type: docs
 weight: 20
 url: /ru/aspose.slides.export/texttohtmlconversionoptions/addclipboardfragmentheader/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.export/texttohtmlconversionoptions/addclipboardfragmenthe
 
 ## TextToHtmlConversionOptions.AddClipboardFragmentHeader свойство
 
-Возвращает или задает значение, указывающее, должны ли быть добавлены заголовки буфера обмена. Чтение/запись логическое значение.
+Возвращает или задает значение, указывающее, следует ли добавлять заголовки буфера обмена. Чтение/запись булево значение.
 
 ```csharp
 public bool AddClipboardFragmentHeader { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * класс [TextToHtmlConversionOptions](../../texttohtmlconversionoptions)
 * пространство имен [Aspose.Slides.Export](../../texttohtmlconversionoptions)

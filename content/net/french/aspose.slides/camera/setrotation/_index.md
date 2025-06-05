@@ -1,7 +1,7 @@
 ---
 title: SetRotation
-second_title: Référence API Aspose.Slides pour .NET
-description: Une rotation est définie par l'utilisation d'une coordonnée de latitude, d'une coordonnée de longitude et d'une révolution autour de l'axe correspondant aux coordonnées de latitude et de longitude. Si l'une des valeurs de coordonnées est float.NaN, toute rotation est indéfinie.
+second_title: Aspose.Slides pour la référence API .NET
+description: Une rotation est définie par l'utilisation d'une coordonnée de latitude, d'une coordonnée de longitude et d'une révolution autour de l'axe en tant que coordonnées de latitude et de longitude. Si l'une des valeurs de coordonnée est float.NaN, toute rotation est indéfinie.
 type: docs
 weight: 50
 url: /fr/aspose.slides/camera/setrotation/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/camera/setrotation/
 
 ## Méthode Camera.SetRotation
 
-Une rotation est définie par l'utilisation d'une coordonnée de latitude, d'une coordonnée de longitude et d'une révolution autour de l'axe correspondant aux coordonnées de latitude et de longitude. Si l'une des valeurs de coordonnées est float.NaN, toute rotation est indéfinie.
+Une rotation est définie par l'utilisation d'une coordonnée de latitude, d'une coordonnée de longitude et d'une révolution autour de l'axe en tant que coordonnées de latitude et de longitude. Si l'une des valeurs de coordonnée est float.NaN, toute rotation est indéfinie.
 
 ```csharp
 public void SetRotation(float latitude, float longitude, float revolution)

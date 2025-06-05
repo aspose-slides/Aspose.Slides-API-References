@@ -1,7 +1,7 @@
 ---
 title: SetSlideNumberAndChildSlideNumbersVisibility
 second_title: Aspose.Sildes для .NET API Справочник
-description: Изменяет видимость заполнителя номера страницы макета слайда и всех заполнителей номера страницы дочерних слайдов. Дочерние заполнители означают, что они содержатся на зависимых слайдах. Зависимые слайды используют и зависят от макета слайда.
+description: Изменяет видимость заполнителей номера страницы макета слайда и всех заполнителей номера страницы дочерних слайдов. Дочерние заполнители означают заполнители, содержащиеся на зависимых слайдах. Зависимые слайды используют и зависят от макета слайда.
 type: docs
 weight: 50
 url: /ru/aspose.slides/layoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/layoutslideheaderfootermanager/setslidenumberandchildslid
 
 ## LayoutSlideHeaderFooterManager.SetSlideNumberAndChildSlideNumbersVisibility метод
 
-Изменяет видимость заполнителя номера страницы макета слайда и всех заполнителей номеров страниц дочерних слайдов. Дочерние заполнители означают, что они содержатся на зависимых слайдах. Зависимые слайды используют и зависят от макета слайда.
+Изменяет видимость заполнителей номера страницы макета слайда и всех заполнителей номера страницы дочерних слайдов. Дочерние заполнители означают заполнители, содержащиеся на зависимых слайдах. Зависимые слайды используют и зависят от макета слайда.
 
 ```csharp
 public void SetSlideNumberAndChildSlideNumbersVisibility(bool isVisible)
@@ -19,7 +19,7 @@ public void SetSlideNumberAndChildSlideNumbersVisibility(bool isVisible)
 | --- | --- | --- |
 | isVisible | Boolean | true - делает заполнители номера страницы видимыми, в противном случае - скрывает их. |
 
-### См. также
+### Смотрите Также
 
 * класс [LayoutSlideHeaderFooterManager](../../layoutslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../layoutslideheaderfootermanager)

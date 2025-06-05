@@ -1,7 +1,7 @@
 ---
-title: 对齐点
-second_title: Aspose.Slides for .NET API 参考
-description: 当为真时，此操作符模拟器作为一个对齐点；即，其他方程中指定的对齐点可以与其对齐。默认值：假
+title: AlignmentPoint
+second_title: Aspose.Sildes for .NET API Reference
+description: 当为真时，此运算符仿真器作为一个对齐点；也就是说，其他方程中指定的对齐点可以与其对齐。 默认值：false
 type: docs
 weight: 20
 url: /zh/aspose.slides.mathtext/mathbox/alignmentpoint/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathbox/alignmentpoint/
 
 ## MathBox.AlignmentPoint 属性
 
-当为真时，此操作符模拟器作为一个对齐点；即，其他方程中指定的对齐点可以与其对齐。默认值：假
+当为真时，此运算符仿真器作为一个对齐点；也就是说，其他方程中指定的对齐点可以与其对齐。 默认值：false
 
 ```csharp
 public bool AlignmentPoint { get; set; }
@@ -25,7 +25,7 @@ IMathBox box = new MathematicalText("==").ToBox();
 box.AlignmentPoint = true;
 ```
 
-### 另请参见
+### 另见
 
 * class [MathBox](../../mathbox)
 * namespace [Aspose.Slides.MathText](../../mathbox)

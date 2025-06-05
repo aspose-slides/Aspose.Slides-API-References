@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/presentation/digitalsignatures/
 ---
+
 ## Presentation.DigitalSignatures property
 
 Returns the collection of signatures used to sign the presentation. Read-only [`IDigitalSignatureCollection`](../../idigitalsignaturecollection).

@@ -1,7 +1,7 @@
 ---
 title: ColumnSpacing
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit l'espace entre les colonnes de texte dans la zone de texte en points. Cela ne doit s'appliquer que lorsqu'il y a plus d'une colonne présente. Cette valeur doit être un nombre positif. Sinon, la valeur sera définie sur zéro. Lecture/écriture Double.
+second_title: Aspose.Slides pour la référence API .NET
+description: Retourne ou définit l'espace entre les colonnes de texte dans la zone de texte en points. Cela ne doit s'appliquer que lorsqu'il y a plus d'une colonne présente. Cette valeur doit être un nombre positif. Sinon, la valeur sera définie à zéro. Lecture/écriture Double.
 type: docs
 weight: 50
 url: /fr/aspose.slides/itextframeformat/columnspacing/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/itextframeformat/columnspacing/
 
 ## ITextFrameFormat.ColumnSpacing propriété
 
-Renvoie ou définit l'espace entre les colonnes de texte dans la zone de texte (en points). Cela ne doit s'appliquer que lorsqu'il y a plus d'une colonne présente. Cette valeur doit être un nombre positif. Sinon, la valeur sera définie sur zéro. Lecture/écriture Double.
+Retourne ou définit l'espace entre les colonnes de texte dans la zone de texte (en points). Cela ne doit s'appliquer que lorsqu'il y a plus d'une colonne presente. Cette valeur doit être un nombre positif. Sinon, la valeur sera définie à zéro. Lecture/écriture Double.
 
 ```csharp
 public double ColumnSpacing { get; set; }

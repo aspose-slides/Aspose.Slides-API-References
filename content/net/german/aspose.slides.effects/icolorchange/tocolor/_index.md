@@ -1,7 +1,7 @@
 ---
 title: ToColor
-second_title: Aspose.Slides für .NET API-Referenz
-description: Farbe, die ersetzt werden soll. Schreibgeschütztes IColorFormataspose.slides/icolorformat.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Farbe, die ersetzt wird. Nur lesbare IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 40
 url: /de/aspose.slides.effects/icolorchange/tocolor/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/icolorchange/tocolor/
 
 ## IColorChange.ToColor-Eigenschaft
 
-Farbe, die ersetzt werden soll. Schreibgeschütztes [`IColorFormat`](../../../aspose.slides/icolorformat).
+Farbe, die ersetzt wird. Nur lesbare [`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat ToColor { get; }

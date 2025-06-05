@@ -6,6 +6,7 @@ type: docs
 weight: 210
 url: /aspose.slides/ibaseportionformateffectivedata/smarttagclean/
 ---
+
 ## IBasePortionFormatEffectiveData.SmartTagClean property
 
 Determines whether the smart tag should be cleaned. Read-only Boolean.

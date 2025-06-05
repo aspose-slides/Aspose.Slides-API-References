@@ -1,15 +1,15 @@
 ---
 title: StyleSRotation
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt die Eigenschaft style.sRotation dar
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt die 'style.sRotation' Eigenschaft dar
 type: docs
 weight: 1120
 url: /de/aspose.slides.animation/behaviorproperty/stylesrotation/
 ---
 
-## BehaviorProperty.StyleSRotation-Eigenschaft
+## BehaviorProperty.StyleSRotation Eigenschaft
 
-Stellt die Eigenschaft 'style.sRotation' dar
+Stellt die 'style.sRotation' Eigenschaft dar
 
 ```csharp
 public static BehaviorProperty StyleSRotation { get; }

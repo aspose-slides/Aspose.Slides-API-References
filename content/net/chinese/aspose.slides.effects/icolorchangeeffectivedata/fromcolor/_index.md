@@ -1,6 +1,6 @@
 ---
 title: FromColor
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 将被替换的颜色。只读颜色。
 type: docs
 weight: 20

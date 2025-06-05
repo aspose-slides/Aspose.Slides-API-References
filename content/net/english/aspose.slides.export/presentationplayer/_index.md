@@ -3,9 +3,10 @@ title: PresentationPlayer
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the player of animations associated with the Presentation../aspose.slides/presentation.
 type: docs
-weight: 4080
+weight: 4200
 url: /aspose.slides.export/presentationplayer/
 ---
+
 ## PresentationPlayer class
 
 Represents the player of animations associated with the [`Presentation`](../../aspose.slides/presentation).

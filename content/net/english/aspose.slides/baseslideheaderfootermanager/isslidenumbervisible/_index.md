@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/baseslideheaderfootermanager/isslidenumbervisible/
 ---
+
 ## BaseSlideHeaderFooterManager.IsSlideNumberVisible property
 
 Gets value indicating that a page number placeholder is present. ReadBoolean.

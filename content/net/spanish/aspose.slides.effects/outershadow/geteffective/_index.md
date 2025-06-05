@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Obtiene los datos efectivos del efecto Sombra Exterior con la herencia aplicada.
+description: Obtiene los datos del efecto Sombra Exterior efectiva con la herencia aplicada.
 type: docs
 weight: 120
 url: /es/aspose.slides.effects/outershadow/geteffective/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.effects/outershadow/geteffective/
 
 ## Método OuterShadow.GetEffective
 
-Obtiene los datos efectivos del efecto Sombra Exterior con la herencia aplicada.
+Obtiene los datos del efecto Sombra Exterior efectiva con la herencia aplicada.
 
 ```csharp
 public IOuterShadowEffectiveData GetEffective()
@@ -19,7 +19,7 @@ public IOuterShadowEffectiveData GetEffective()
 
 Un [`IOuterShadowEffectiveData`](../../ioutershadoweffectivedata).
 
-### Ver También
+### Véase También
 
 * interfaz [IOuterShadowEffectiveData](../../ioutershadoweffectivedata)
 * clase [OuterShadow](../../outershadow)

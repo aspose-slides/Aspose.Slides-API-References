@@ -1,6 +1,6 @@
 ---
 title: ExtrusionOrientationAngle
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет свойство extrusion.orientationangle
 type: docs
 weight: 80
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/behaviorproperty/extrusionorientationangle/
 public static BehaviorProperty ExtrusionOrientationAngle { get; }
 ```
 
-### См. Также
+### См. также
 
 * класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)

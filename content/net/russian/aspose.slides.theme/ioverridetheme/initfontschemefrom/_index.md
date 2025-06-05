@@ -1,7 +1,7 @@
 ---
 title: InitFontSchemeFrom
-second_title: Aspose.Slides для .NET Справочник по API
-description: Инициализация FontScheme с новым объектом для переопределения FontScheme у InheritedTheme.
+second_title: Aspose.Slides для .NET API Справочник
+description: Инициализация FontScheme с новым объектом для переопределения FontScheme UнаследованнойТемы.
 type: docs
 weight: 80
 url: /ru/aspose.slides.theme/ioverridetheme/initfontschemefrom/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.theme/ioverridetheme/initfontschemefrom/
 
 ## IOverrideTheme.InitFontSchemeFrom метод
 
-Инициализация FontScheme с новым объектом для переопределения FontScheme у InheritedTheme.
+Инициализация FontScheme с новым объектом для переопределения FontScheme UнаследованнойТемы.
 
 ```csharp
 public void InitFontSchemeFrom(IFontScheme fontScheme)

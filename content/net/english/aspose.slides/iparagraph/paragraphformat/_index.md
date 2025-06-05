@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/iparagraph/paragraphformat/
 ---
+
 ## IParagraph.ParagraphFormat property
 
 Returns the formatting object for this paragraph. Read-only [`IParagraphFormat`](../../iparagraphformat).

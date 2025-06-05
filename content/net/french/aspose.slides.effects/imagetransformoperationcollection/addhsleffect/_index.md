@@ -1,13 +1,13 @@
 ---
 title: AddHSLEffect
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Ajoute le nouvel effet Teinte/Saturation/Luminance à la fin d'une collection.
 type: docs
 weight: 190
 url: /fr/aspose.slides.effects/imagetransformoperationcollection/addhsleffect/
 ---
 
-## Méthode ImageTransformOperationCollection.AddHSLEffect
+## ImageTransformOperationCollection.AddHSLEffect méthode
 
 Ajoute le nouvel effet Teinte/Saturation/Luminance à la fin d'une collection.
 

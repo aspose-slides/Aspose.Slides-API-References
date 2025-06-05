@@ -1,7 +1,7 @@
 ---
-title: 标题
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置演示文稿的标题。可读/可写 字符串。
+title: Title
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置演示文稿的标题。可读/写字符串。
 type: docs
 weight: 320
 url: /zh/aspose.slides/idocumentproperties/title/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/idocumentproperties/title/
 
 ## IDocumentProperties.Title 属性
 
-返回或设置演示文稿的标题。可读/可写 字符串。
+返回或设置演示文稿的标题。可读/写字符串。
 
 ```csharp
 public string Title { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IDocumentProperties](../../idocumentproperties)
 * 命名空间 [Aspose.Slides](../../idocumentproperties)

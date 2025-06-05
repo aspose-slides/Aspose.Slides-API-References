@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.animation/ibehaviorpropertycollection/insert/
 ---
+
 ## IBehaviorPropertyCollection.Insert method
 
 Inserts a new property (with the specified property value) to the collection at the specified index.

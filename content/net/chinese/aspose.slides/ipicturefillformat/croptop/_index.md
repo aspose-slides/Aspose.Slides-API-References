@@ -1,7 +1,7 @@
 ---
 title: CropTop
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回或设置裁剪掉图片顶部的真实图像高度的百分比。可读写 Single。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置从图片顶部裁剪掉的真实图像高度的百分比。可读/写的 Single。
 type: docs
 weight: 50
 url: /zh/aspose.slides/ipicturefillformat/croptop/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ipicturefillformat/croptop/
 
 ## IPictureFillFormat.CropTop 属性
 
-返回或设置裁剪掉图片顶部的真实图像高度的百分比。可读写 Single。
+返回或设置从图片顶部裁剪掉的真实图像高度的百分比。可读/写的 Single。
 
 ```csharp
 public float CropTop { get; set; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IPictureFillFormat](../../ipicturefillformat)
 * 命名空间 [Aspose.Slides](../../ipicturefillformat)

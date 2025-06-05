@@ -1,6 +1,6 @@
 ---
 title: ChartData
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 返回与图表关联的链接或嵌入数据的信息。只读 IChartData aspose.slides.charts/ichartdata。
 type: docs
 weight: 60
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/ichart/chartdata/
 public IChartData ChartData { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IChartData](../../ichartdata)
 * 接口 [IChart](../../ichart)

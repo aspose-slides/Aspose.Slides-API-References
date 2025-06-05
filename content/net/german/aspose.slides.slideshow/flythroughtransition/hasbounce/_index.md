@@ -1,7 +1,7 @@
 ---
 title: HasBounce
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt an, dass die Bewegung der Präsentationsfolien während der Transition einen Sprung umfasst. Lese-/Schreib-Boolescher Wert.
+description: Gibt an, dass die Bewegung der Präsentationsfolien während der Übergangsanimation einen Bounce enthält. Lese-/Schreib-Boolean.
 type: docs
 weight: 20
 url: /de/aspose.slides.slideshow/flythroughtransition/hasbounce/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.slideshow/flythroughtransition/hasbounce/
 
 ## FlyThroughTransition.HasBounce-Eigenschaft
 
-Gibt an, dass die Bewegung der Präsentationsfolien während der Transition einen Sprung umfasst. Lese-/Schreib-Boolescher Wert.
+Gibt an, dass die Bewegung der Präsentationsfolien während der Übergangsanimation einen Bounce enthält. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool HasBounce { get; set; }

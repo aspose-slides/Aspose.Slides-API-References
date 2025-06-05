@@ -1,13 +1,13 @@
 ---
-title: 占位符类型
-second_title: Aspose.Slides for .NET API 参考
+title: PlaceholderType
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示占位符的类型。
 type: docs
 weight: 9180
 url: /zh/aspose.slides/placeholdertype/
 ---
 
-## 占位符类型枚举
+## PlaceholderType枚举
 
 表示占位符的类型。
 
@@ -24,9 +24,9 @@ public enum PlaceholderType : sbyte
 | CenteredTitle | `2` | 居中标题。 |
 | Subtitle | `3` | 副标题。 |
 | DateAndTime | `4` | 日期和时间。 |
-| SlideNumber | `5` | 幻灯片号码。 |
+| SlideNumber | `5` | 幻灯片编号。 |
 | Footer | `6` | 页脚。 |
-| Header | `7` | 头部。 |
+| Header | `7` | 页眉。 |
 | Object | `8` | 对象。 |
 | Chart | `9` | 图表。 |
 | Table | `10` | 表格。 |
@@ -36,7 +36,7 @@ public enum PlaceholderType : sbyte
 | SlideImage | `14` | 幻灯片图像。 |
 | Picture | `15` | 图片。 |
 
-### 另请参阅
+### 参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

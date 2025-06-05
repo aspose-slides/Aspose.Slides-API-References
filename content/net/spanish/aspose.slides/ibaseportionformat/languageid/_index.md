@@ -1,6 +1,6 @@
 ---
 title: LanguageId
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Devuelve o establece el Id de un idioma de corrección. Utilizado para verificar la ortografía y la gramática. Lectura/escritura String.
 type: docs
 weight: 160
@@ -15,7 +15,7 @@ Devuelve o establece el Id de un idioma de corrección. Utilizado para verificar
 public string LanguageId { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IBasePortionFormat](../../ibaseportionformat)
 * espacio de nombres [Aspose.Slides](../../ibaseportionformat)

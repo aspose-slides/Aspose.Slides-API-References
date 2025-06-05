@@ -1,7 +1,7 @@
 ---
 title: HasLegend
-second_title: Aspose.Sildes for .NET API 参考
-description: 确定图表是否具有图例。可读写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定图表是否具有图例。可读/可写布尔值。
 type: docs
 weight: 110
 url: /zh/aspose.slides.charts/chart/haslegend/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/chart/haslegend/
 
 ## Chart.HasLegend 属性
 
-确定图表是否具有图例。可读写布尔值。
+确定图表是否具有图例。可读/可写布尔值。
 
 ```csharp
 public bool HasLegend { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * class [Chart](../../chart)
 * namespace [Aspose.Slides.Charts](../../chart)

@@ -1,15 +1,15 @@
 ---
-title: Сохранить
+title: Save
 second_title: Aspose.Slides для .NET API Справочник
-description: Сохраняет массив байтов в указанное место.
+description: Сохраняет массив байтов в указанное место назначения.
 type: docs
 weight: 10
 url: /ru/aspose.slides.export.xaml/ixamloutputsaver/save/
 ---
 
-## Метод IXamlOutputSaver.Save
+## IXamlOutputSaver.Save метод
 
-Сохраняет массив байтов в указанное место.
+Сохраняет массив байтов в указанное место назначения.
 
 ```csharp
 public void Save(string path, byte[] data)
@@ -18,9 +18,9 @@ public void Save(string path, byte[] data)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | path | String | Путь к месту назначения. |
-| data | Byte[] | Бинарные данные для сохранения в указанное место. |
+| data | Byte[] | Двоичные данные для сохранения в указанное место назначения. |
 
-### См. также
+### Смотрите Также
 
 * интерфейс [IXamlOutputSaver](../../ixamloutputsaver)
 * пространство имен [Aspose.Slides.Export.Xaml](../../ixamloutputsaver)

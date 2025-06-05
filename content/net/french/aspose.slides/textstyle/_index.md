@@ -1,7 +1,7 @@
 ---
 title: TextStyle
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Cette classe contient les propriétés de formatage du style de texte.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Cette classe contient les propriétés de formatage de style de texte.
 type: docs
 weight: 10690
 url: /fr/aspose.slides/textstyle/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/textstyle/
 
 ## Classe TextStyle
 
-Cette classe contient les propriétés de formatage du style de texte.
+Cette classe contient les propriétés de formatage de style de texte.
 
 ```csharp
 public sealed class TextStyle : PVIObject, ITextStyle
@@ -19,15 +19,15 @@ public sealed class TextStyle : PVIObject, ITextStyle
 
 | Nom | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface de base IPresentationComponent. En lecture seule [`IPresentationComponent`](../ipresentationcomponent). |
-| [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | Propriétés de paragraphe par défaut. En lecture seule [`IParagraphFormat`](../iparagraphformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface de base IPresentationComponent. Lecture seule [`IPresentationComponent`](../ipresentationcomponent). |
+| [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | Propriétés par défaut du paragraphe. Lecture seule [`IParagraphFormat`](../iparagraphformat). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compare avec l'objet spécifié. |
-| [GetEffective](../../aspose.slides/textstyle/geteffective)() | Obtient les données de formatage du style de texte effectif avec l'héritage appliqué. |
+| [GetEffective](../../aspose.slides/textstyle/geteffective)() | Obtient les données de formatage de style de texte effectif avec l'héritage appliqué. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Renvoie le code de hachage. |
 | [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | Si le niveau de style existe, le renvoie, sinon renvoie null. |
 

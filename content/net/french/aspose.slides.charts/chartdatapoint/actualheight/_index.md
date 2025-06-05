@@ -1,6 +1,6 @@
 ---
 title: ActualHeight
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Spécifie la hauteur réelle de l'élément de graphique. Appelez la méthode IChart.ValidateChartLayout avant d'obtenir les valeurs réelles. Lire Single.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Spécifie la hauteur réelle de l'élément de graphique. Appelez la méthode IC
 public float ActualHeight { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [ChartDataPoint](../../chartdatapoint)
 * espace de noms [Aspose.Slides.Charts](../../chartdatapoint)

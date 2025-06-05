@@ -1,7 +1,7 @@
 ---
 title: ISmartArtNodeCollection
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет коллекцию узлов SmartArt.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет собой коллекцию узлов SmartArt.
 type: docs
 weight: 10250
 url: /ru/aspose.slides.smartart/ismartartnodecollection/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.smartart/ismartartnodecollection/
 
 ## Интерфейс ISmartArtNodeCollection
 
-Представляет коллекцию узлов SmartArt.
+Представляет собой коллекцию узлов SmartArt.
 
 ```csharp
 public interface ISmartArtNodeCollection : IGenericCollection<ISmartArtNode>
@@ -17,20 +17,20 @@ public interface ISmartArtNodeCollection : IGenericCollection<ISmartArtNode>
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [Item](../../aspose.slides.smartart/ismartartnodecollection/item) { get; } | Возвращает узел по индексу. Только для чтения [`ISmartArtNode`](../ismartartnode) |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AddNode](../../aspose.slides.smartart/ismartartnodecollection/addnode)() | Добавить новый узел или подпункт. |
-| [AddNodeByPosition](../../aspose.slides.smartart/ismartartnodecollection/addnodebyposition)(int) | Добавить новый узел в выбранной позиции коллекции узлов. |
-| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode_1)(int) | Удалить узел или подпункт по индексу. |
-| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode)(ISmartArtNode) | Удалить узел или подпункт. |
+| [AddNode](../../aspose.slides.smartart/ismartartnodecollection/addnode)() | Добавляет новый узел или подузел. |
+| [AddNodeByPosition](../../aspose.slides.smartart/ismartartnodecollection/addnodebyposition)(int) | Добавляет новый узел в выбранной позиции коллекции узлов. |
+| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode_1)(int) | Удаляет узел или подузел по индексу. |
+| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode)(ISmartArtNode) | Удаляет узел или подузел. |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * интерфейс [ISmartArtNode](../ismartartnode)

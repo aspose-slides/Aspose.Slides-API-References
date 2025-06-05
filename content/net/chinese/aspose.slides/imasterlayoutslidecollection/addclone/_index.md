@@ -25,9 +25,9 @@ public ILayoutSlide AddClone(ILayoutSlide sourceLayout)
 
 ### 备注
 
-1) 新布局将与该布局幻灯片集合的父母母版幻灯片链接。因此，这是PowerPoint中“使用目标主题”选项的复制/粘贴的类似项。2) 此方法的类似项是通过[`LayoutSlides`](../../ipresentation/layoutslides)属性访问的[`AddClone`](../../igloballayoutslidecollection/addclone)方法。
+1) 新布局将与此布局幻灯片集合的父主幻灯片链接。因此，这是在 PowerPoint 中使用“使用目标主题”选项进行复制/粘贴的类似操作。2) 此方法的类似方法是通过 [`LayoutSlides`](../../ipresentation/layoutslides) 属性访问的方法 [`AddClone`](../../igloballayoutslidecollection/addclone)。
 
-### 另请参见
+### 另请参阅
 
 * 接口 [ILayoutSlide](../../ilayoutslide)
 * 接口 [IMasterLayoutSlideCollection](../../imasterlayoutslidecollection)

@@ -1,15 +1,15 @@
 ---
-title: CollectionDesRèglesDeRemplacementDePolice
+title: FontFallBackRulesCollection
 second_title: Référence API Aspose.Slides pour .NET
-description: Représente une collection d'utilisateurs de règles de remplacement de police pour gérer des collections de polices pour des substitutions appropriées par la fonctionnalité de remplacement Lecture/écriture IFontFallBackRulesCollectionaspose.slides/ifontfallbackrulescollection.
+description: Représente une collection de règles FontFallBack d'un utilisateur pour la gestion de collections de polices pour des substitutions appropriées par la fonctionnalité de repli Lire/écrire IFontFallBackRulesCollectionaspose.slides/ifontfallbackrulescollection.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ifontsmanager/fontfallbackrulescollection/
 ---
 
-## Propriété IFontsManager.FontFallBackRulesCollection
+## IFontsManager.FontFallBackRulesCollection property
 
-Représente une collection d'utilisateurs de règles de remplacement de police pour gérer des collections de polices pour des substitutions appropriées par la fonctionnalité de remplacement Lecture/écriture [`IFontFallBackRulesCollection`](../../ifontfallbackrulescollection).
+Représente une collection de règles FontFallBack d'un utilisateur pour la gestion de collections de polices pour des substitutions appropriées par la fonctionnalité de repli Lire/écrire [`IFontFallBackRulesCollection`](../../ifontfallbackrulescollection).
 
 ```csharp
 public IFontFallBackRulesCollection FontFallBackRulesCollection { get; set; }
@@ -21,7 +21,7 @@ public IFontFallBackRulesCollection FontFallBackRulesCollection { get; set; }
 [C#]
 using (Presentation pres = new Presentation ())
 {
-    // Récupération d'une collection de règles vide ou préinitialisée depuis FontsManager
+    // Obtention d'une collection de règles vide ou pré-initialisée depuis FontsManager
     IFontFallBackRulesCollection rulesList = pres.FontsManager.FontFallBackRulesCollection;
 
     // ajout de règles à la collection
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation ())
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IFontFallBackRulesCollection](../../ifontfallbackrulescollection)
 * interface [IFontsManager](../../ifontsmanager)

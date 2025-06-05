@@ -17,11 +17,11 @@ public interface IWarningCallback
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Warning](../../aspose.slides.warnings/iwarningcallback/warning)(IWarningInfo) | Метод обратного вызова, который получает предупреждение и решает, следует ли прерывать операцию. |
+| [Warning](../../aspose.slides.warnings/iwarningcallback/warning)(IWarningInfo) | Метод обратного вызова, который получает предупреждение и решает, следует ли прервать операцию. |
 
-### Также см.
+### Смотрите также
 
 * пространство имен [Aspose.Slides.Warnings](../../aspose.slides.warnings)
 * сборка [Aspose.Slides](../../)

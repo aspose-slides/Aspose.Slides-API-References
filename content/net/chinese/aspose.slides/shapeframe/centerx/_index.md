@@ -1,7 +1,7 @@
 ---
 title: CenterX
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回帧中心的 X 坐标。只读单值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回帧中心的X坐标。只读单精度浮点数。
 type: docs
 weight: 20
 url: /zh/aspose.slides/shapeframe/centerx/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/shapeframe/centerx/
 
 ## ShapeFrame.CenterX 属性
 
-返回帧中心的 X 坐标。只读单值。
+返回帧中心的X坐标。只读单精度浮点数。
 
 ```csharp
 public float CenterX { get; }

@@ -1,6 +1,6 @@
 ---
 title: ILayoutable
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes for .NET API Reference
 description: Especifica la posición exacta de un elemento de gráfico.
 type: docs
 weight: 2040
@@ -27,7 +27,7 @@ public interface ILayoutable : IChartComponent
 | [X](../../aspose.slides.charts/ilayoutable/x) { get; set; } | Especifica la ubicación x (izquierda) del elemento de gráfico como una fracción del ancho del gráfico. Lectura/escritura Single. |
 | [Y](../../aspose.slides.charts/ilayoutable/y) { get; set; } | Especifica la parte superior del elemento de gráfico como una fracción de la altura del gráfico. Lectura/escritura Single. |
 
-### Ver También
+### También Ver
 
 * interfaz [IChartComponent](../ichartcomponent)
 * espacio de nombres [Aspose.Slides.Charts](../../aspose.slides.charts)

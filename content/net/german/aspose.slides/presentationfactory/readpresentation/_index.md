@@ -1,6 +1,6 @@
 ---
 title: ReadPresentation
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Liest eine vorhandene Präsentation aus einem Array
 type: docs
 weight: 60
@@ -23,7 +23,7 @@ public IPresentation ReadPresentation(byte[] data)
 
 Gelesene Präsentation
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IPresentation](../../ipresentation)
 * Klasse [PresentationFactory](../../presentationfactory)
@@ -49,7 +49,7 @@ public IPresentation ReadPresentation(byte[] data, ILoadOptions options)
 
 Gelesene Präsentation
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IPresentation](../../ipresentation)
 * Schnittstelle [ILoadOptions](../../iloadoptions)
@@ -75,7 +75,7 @@ public IPresentation ReadPresentation(Stream stream)
 
 Gelesene Präsentation
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IPresentation](../../ipresentation)
 * Klasse [PresentationFactory](../../presentationfactory)
@@ -101,7 +101,7 @@ public IPresentation ReadPresentation(Stream stream, ILoadOptions options)
 
 Gelesene Präsentation
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IPresentation](../../ipresentation)
 * Schnittstelle [ILoadOptions](../../iloadoptions)
@@ -127,7 +127,7 @@ public IPresentation ReadPresentation(string file)
 
 Gelesene Präsentation
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IPresentation](../../ipresentation)
 * Klasse [PresentationFactory](../../presentationfactory)
@@ -153,7 +153,7 @@ public IPresentation ReadPresentation(string file, ILoadOptions options)
 
 Gelesene Präsentation
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IPresentation](../../ipresentation)
 * Schnittstelle [ILoadOptions](../../iloadoptions)

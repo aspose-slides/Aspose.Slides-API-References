@@ -1,6 +1,6 @@
 ---
-title: TamañoDelMarco
-second_title: Referencia de API de Aspose.Slides para .NET
+title: FrameSize
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Obtiene o establece el tamaño del marco.
 type: docs
 weight: 40
@@ -17,12 +17,12 @@ public Size FrameSize { get; set; }
 
 ### Observaciones
 
-Si el tamaño está vacío, entonces se tomará el valor de [`SlideSize`](../../../aspose.slides/ipresentation/slidesize)
+Si el tamaño está vacío, entonces el valor se tomará de [`SlideSize`](../../../aspose.slides/ipresentation/slidesize)
 
-### Ver También
+### Véase también
 
 * clase [GifOptions](../../gifoptions)
 * espacio de nombres [Aspose.Slides.Export](../../gifoptions)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

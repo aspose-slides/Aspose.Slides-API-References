@@ -1,7 +1,7 @@
 ---
-title: Certificat
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Objet Certificate qui a été utilisé pour signer le document. Lecture seule X509Certificate2.
+title: Certificate
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Objet Certificate qui a été utilisé pour signer le document. X509Certificate2 en lecture seule.
 type: docs
 weight: 20
 url: /fr/aspose.slides/digitalsignature/certificate/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/digitalsignature/certificate/
 
 ## Propriété DigitalSignature.Certificate
 
-Objet Certificate qui a été utilisé pour signer le document. Lecture seule X509Certificate2.
+Objet Certificate qui a été utilisé pour signer le document. X509Certificate2 en lecture seule.
 
 ```csharp
 public X509Certificate2 Certificate { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [DigitalSignature](../../digitalsignature)
 * espace de noms [Aspose.Slides](../../digitalsignature)

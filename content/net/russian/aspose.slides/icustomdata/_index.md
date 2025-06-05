@@ -1,6 +1,6 @@
 ---
 title: ICustomData
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Представляет контейнер для пользовательских данных.
 type: docs
 weight: 5460
@@ -17,9 +17,9 @@ public interface ICustomData
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [CustomXmlParts](../../aspose.slides/icustomdata/customxmlparts) { get; } | Возвращает коллекцию пользовательских xml-частей. Только для чтения [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
+| [CustomXmlParts](../../aspose.slides/icustomdata/customxmlparts) { get; } | Возвращает коллекцию пользовательских частей xml. Только для чтения [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
 | [Tags](../../aspose.slides/icustomdata/tags) { get; } | Возвращает коллекцию тегов пользовательских данных. Только для чтения [`ITagCollection`](../itagcollection). |
 
 ### См. также

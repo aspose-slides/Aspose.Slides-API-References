@@ -1,41 +1,41 @@
----  
-title: ITrendline  
-second_title: Aspose.Slides für .NET API-Referenz  
-description: Klasse repräsentiert die Trendlinie von Chartreihe
-type: docs  
-weight: 2160  
+---
+title: ITrendline
+second_title: Aspose.Slides für .NET API Referenz
+description: Klasse repräsentiert die Trendlinie von Diagrammserien
+type: docs
+weight: 2160
 url: /de/aspose.slides.charts/itrendline/
----  
+---
 
-## ITrendline-Interface  
+## ITrendline-Schnittstelle
 
-Klasse repräsentiert die Trendlinie von Chartreihe  
+Klasse repräsentiert die Trendlinie von Diagrammserien
 
-```csharp  
-public interface ITrendline : IOverridableText  
-```  
+```csharp
+public interface ITrendline : IOverridableText
+```
 
-## Eigenschaften  
+## Eigenschaften
 
-| Name | Beschreibung |  
-| --- | --- |  
-| [AsIOverridableText](../../aspose.slides.charts/itrendline/asioverridabletext) { get; } | Gibt das IOverridableText-Interface zurück. Nur-Lese [`IOverridableText`](../ioverridabletext). |  
-| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | Gibt die Anzahl der Kategorien (oder Einheiten auf einem Streudiagramm) an, die die Trendlinie vor den Daten für die Reihen, die getrendet werden, erstreckt. Bei Streudiagrammen und nicht-Streudiagrammen sollte der Wert ein beliebiger nichtnegativer Wert sein. Lese-/Schreibzugriff auf Double. |  
-| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | Gibt an, dass die Gleichung für die Trendlinie im Diagramm angezeigt wird (im gleichen Label wie der Rsquaredwert). Lese-/Schreibzugriff auf Boolean. |  
-| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | Gibt an, dass der R-Quadratwert der Trendlinie im Diagramm angezeigt wird (im gleichen Label wie die Gleichung). Lese-/Schreibzugriff auf Boolean. |  
-| [Format](../../aspose.slides.charts/itrendline/format) { get; set; } | Repräsentiert das Format der Trendlinie. Lese-/Schreibzugriff auf [`IFormat`](../iformat). |  
-| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | Gibt die Anzahl der Kategorien (oder Einheiten auf einem Streudiagramm) an, die die Trendlinie nach den Daten für die Reihen, die getrendet werden, erstreckt. Bei Streudiagrammen und nicht-Streudiagrammen sollte der Wert ein beliebiger nichtnegativer Wert sein. Lese-/Schreibzugriff auf Double. |  
-| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | Gibt den Wert an, an dem die Trendlinie die y-Achse kreuzen soll. Diese Eigenschaft wird nur unterstützt, wenn der Trendlinientyp exp, linear oder poly ist. Lese-/Schreibzugriff auf Double. |  
-| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | Gibt die Ordnung der polynomialen Trendlinie an. Sie wird für andere Trendlinientypen ignoriert. Wert muss zwischen 2 und 6 liegen. Lese-/Schreibzugriff auf Byte. |  
-| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | Gibt den Zeitraum der Trendlinie für eine gleitende Durchschnittstrendlinie an. Sie wird für andere Trendlinienvarianten ignoriert. Wert muss zwischen 2 und 255 liegen. Lese-/Schreibzugriff auf Byte. |  
-| [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | Repräsentiert den Legenden-Eintrag, der mit dieser Trendlinie verbunden ist. Nur-Lese [`ILegendEntryProperties`](../ilegendentryproperties). |  
-| [TrendlineName](../../aspose.slides.charts/itrendline/trendlinename) { get; set; } | Ruft den Namen der Trendlinie ab oder legt ihn fest. Lese-/Schreibzugriff auf String. |  
-| [TrendlineType](../../aspose.slides.charts/itrendline/trendlinetype) { get; set; } | Ruft den Typ der Trendlinie ab oder legt ihn fest. Lese-/Schreibzugriff auf [`TrendlineType`](./trendlinetype). |  
+| Name | Beschreibung |
+| --- | --- |
+| [AsIOverridableText](../../aspose.slides.charts/itrendline/asioverridabletext) { get; } | Gibt die IOverridableText-Schnittstelle zurück. Nur lesbar [`IOverridableText`](../ioverridabletext). |
+| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | Gibt die Anzahl der Kategorien (oder Einheiten in einem Streudiagramm) an, die die Trendlinie vor den Daten der zu trenden Serie erstreckt. Bei Streudiagrammen und anderen Diagrammen muss der Wert ein beliebiger nichtnegativer Wert sein. Lese-/ Schreibzugriff Double. |
+| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | Gibt an, dass die Gleichung für die Trendlinie im Diagramm angezeigt wird (im selben Label wie der Rsquaredwert). Lese-/ Schreibzugriff Boolean. |
+| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | Gibt an, dass der R-Quadrat-Wert der Trendlinie im Diagramm angezeigt wird (im selben Label wie die Gleichung). Lese-/ Schreibzugriff Boolean. |
+| [Format](../../aspose.slides.charts/itrendline/format) { get; set; } | Stellt das Format der Trendlinie dar. Lese-/ Schreibzugriff [`IFormat`](../iformat). |
+| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | Gibt die Anzahl der Kategorien (oder Einheiten in einem Streudiagramm) an, die die Trendlinie nach den Daten der zu trenden Serie erstreckt. Bei Streudiagrammen und anderen Diagrammen muss der Wert ein beliebiger nichtnegativer Wert sein. Lese-/ Schreibzugriff Double. |
+| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | Gibt den Wert an, an dem die Trendlinie die y-Achse schneiden soll. Diese Eigenschaft wird nur unterstützt, wenn der Trendlinientyp exp, linear oder poly ist. Lese-/ Schreibzugriff Double. |
+| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | Gibt die Ordnung der polynomialen Trendlinie an. Sie wird für andere Trendlinientypen ignoriert. Der Wert muss zwischen 2 und 6 liegen. Lese-/ Schreibzugriff Byte. |
+| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | Gibt den Zeitraum der Trendlinie für eine gleitende Durchschnittstrendlinie an. Sie wird für andere Varianten von Trendlinien ignoriert. Der Wert muss zwischen 2 und 255 liegen. Lese-/ Schreibzugriff Byte. |
+| [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | Stellt den Legenden-Eintrag dar, der mit dieser Trendlinie verknüpft ist. Nur lesbar [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [TrendlineName](../../aspose.slides.charts/itrendline/trendlinename) { get; set; } | Ruft den Namen der Trendlinie ab oder setzt ihn. Lese-/ Schreibzugriff String. |
+| [TrendlineType](../../aspose.slides.charts/itrendline/trendlinetype) { get; set; } | Ruft den Typ der Trendlinie ab oder setzt ihn. Lese-/ Schreibzugriff [`TrendlineType`](./trendlinetype). |
 
-### Siehe auch  
+### Siehe auch
 
-* Interface [IOverridableText](../ioverridabletext)  
-* Namespace [Aspose.Slides.Charts](../../aspose.slides.charts)  
-* Assembly [Aspose.Slides](../../)  
+* Schnittstelle [IOverridableText](../ioverridabletext)
+* Namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
+* Assembly [Aspose.Slides](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->  
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: OffsetX
-second_title: Aspose.Slides for .NET API Reference
-description: 返回表的左侧到单元格的左侧的距离。只读双精度浮点数。
+second_title: Aspose.Slides for .NET API 参考
+description: 返回表格左侧到单元格左侧的距离。只读 Double。
 type: docs
 weight: 160
 url: /zh/aspose.slides/icell/offsetx/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/icell/offsetx/
 
 ## ICell.OffsetX 属性
 
-返回表的左侧到单元格的左侧的距离。只读双精度浮点数。
+返回表格左侧到单元格左侧的距离。只读 Double。
 
 ```csharp
 public double OffsetX { get; }

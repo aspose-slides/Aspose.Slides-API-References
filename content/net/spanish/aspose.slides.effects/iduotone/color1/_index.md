@@ -15,7 +15,7 @@ Devuelve el formato de color objetivo para píxeles oscuros. Solo lectura [`ICol
 public IColorFormat Color1 { get; }
 ```
 
-### Véase También
+### Véase también
 
 * interfaz [IColorFormat](../../../aspose.slides/icolorformat)
 * interfaz [IDuotone](../../iduotone)

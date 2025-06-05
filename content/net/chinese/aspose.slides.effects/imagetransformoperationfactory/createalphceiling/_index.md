@@ -1,6 +1,6 @@
 ---
 title: CreateAlphCeiling
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建 Alpha Ceiling 效果。
 type: docs
 weight: 80

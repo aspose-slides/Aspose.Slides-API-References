@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Aspose.Sildes for .NET API Reference
-description: 获取应用继承的有效颜色变化效果数据。
+description: 获取应用了继承的有效颜色变化效果数据。
 type: docs
 weight: 40
 url: /zh/aspose.slides.effects/colorchange/geteffective/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/colorchange/geteffective/
 
 ## ColorChange.GetEffective 方法
 
-获取应用继承的有效颜色变化效果数据。
+获取应用了继承的有效颜色变化效果数据。
 
 ```csharp
 public IColorChangeEffectiveData GetEffective()
@@ -19,7 +19,7 @@ public IColorChangeEffectiveData GetEffective()
 
 一个 [`IColorChangeEffectiveData`](../../icolorchangeeffectivedata)。
 
-### 另见
+### 参见
 
 * 接口 [IColorChangeEffectiveData](../../icolorchangeeffectivedata)
 * 类 [ColorChange](../../colorchange)

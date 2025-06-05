@@ -1,13 +1,13 @@
 ---
-title: Eliminar
-second_title: Referencia de API de Aspose.Sildes para .NET
+title: Remove
+second_title: Aspose.Sildes for .NET API Reference
 description: Elimina la primera ocurrencia de un objeto específico de la colección.
 type: docs
 weight: 160
 url: /es/aspose.slides.mathtext/mathblock/remove/
 ---
 
-## Método MathBlock.Remove
+## MathBlock.Remove method
 
 Elimina la primera ocurrencia de un objeto específico de la colección.
 
@@ -21,7 +21,7 @@ public bool Remove(IMathElement item)
 
 ### Valor de Retorno
 
-true si *item* fue eliminado con éxito de la colección; de lo contrario, false. Este método también devuelve false si *item* no se encuentra en la colección original.
+true si *item* fue eliminado exitosamente de la colección; de lo contrario, false. Este método también devuelve false si *item* no se encuentra en la colección original.
 
 ### Ejemplos
 
@@ -36,7 +36,7 @@ mathBlock.Add(new MathRadical(new MathematicalText("x"), new MathematicalText("3
 mathBlock.Remove(plusElement);
 ```
 
-### Véase También
+### Ver También
 
 * interface [IMathElement](../../imathelement)
 * class [MathBlock](../../mathblock)

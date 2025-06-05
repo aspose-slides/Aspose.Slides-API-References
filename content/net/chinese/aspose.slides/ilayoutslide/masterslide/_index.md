@@ -1,7 +1,7 @@
 ---
-title: 主幻灯片
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置布局的主幻灯片。可读/可写 IMasterSlide aspose.slides/imasterslide。
+title: MasterSlide
+second_title: Aspose.Slides for .NET API Reference
+description: 返回或设置布局的母版幻灯片。可读写 IMasterSlideaspose.slides/imasterslide。
 type: docs
 weight: 60
 url: /zh/aspose.slides/ilayoutslide/masterslide/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ilayoutslide/masterslide/
 
 ## ILayoutSlide.MasterSlide 属性
 
-返回或设置布局的主幻灯片。可读/可写 [`IMasterSlide`](../../imasterslide)。
+返回或设置布局的母版幻灯片。可读写 [`IMasterSlide`](../../imasterslide)。
 
 ```csharp
 public IMasterSlide MasterSlide { get; set; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IMasterSlide](../../imasterslide)
 * 接口 [ILayoutSlide](../../ilayoutslide)

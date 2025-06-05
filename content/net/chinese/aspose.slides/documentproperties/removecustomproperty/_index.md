@@ -1,7 +1,7 @@
 ---
 title: RemoveCustomProperty
 second_title: Aspose.Sildes for .NET API Reference
-description: 移除与指定名称相关联的自定义属性。
+description: 删除与指定名称相关联的自定义属性。
 type: docs
 weight: 440
 url: /zh/aspose.slides/documentproperties/removecustomproperty/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/documentproperties/removecustomproperty/
 
 ## DocumentProperties.RemoveCustomProperty 方法
 
-移除与指定名称相关联的自定义属性。
+删除与指定名称相关联的自定义属性。
 
 ```csharp
 public bool RemoveCustomProperty(string name)
@@ -17,13 +17,13 @@ public bool RemoveCustomProperty(string name)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 要移除的自定义属性的名称。 |
+| name | String | 要删除的自定义属性名称。 |
 
 ### 返回值
 
-如果成功移除属性，则返回 true，其他情况返回 false。
+如果属性被删除则返回 true，否则返回 false。
 
-### 另见
+### 另请参阅
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)

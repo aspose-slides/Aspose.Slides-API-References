@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides.mathtext/imathmatrix/insertcolumnafter/
 ---
+
 ## IMathMatrix.InsertColumnAfter method
 
 Insert a new column after the specified one Initially all elements in the new column are null.

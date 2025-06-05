@@ -1,7 +1,7 @@
 ---
 title: DigitalSignatureCollection
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt eine Sammlung digitaler Signaturen dar, die an ein Dokument angehängt sind.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt eine Sammlung von digitalen Signaturen dar, die an ein Dokument angehängt sind.
 type: docs
 weight: 2690
 url: /de/aspose.slides/digitalsignaturecollection/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/digitalsignaturecollection/
 
 ## DigitalSignatureCollection-Klasse
 
-Stellt eine Sammlung digitaler Signaturen dar, die an ein Dokument angehängt sind.
+Stellt eine Sammlung von digitalen Signaturen dar, die an ein Dokument angehängt sind.
 
 ```csharp
 public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSignatureCollection
@@ -20,9 +20,9 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 | Name | Beschreibung |
 | --- | --- |
 | [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | Gibt die Anzahl der Elemente in der Sammlung zurück. Nur-Lese Int32. |
-| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (threadsicher). Nur-Lese Boolean. |
+| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (thread-sicher). Nur-Lese Boolean. |
 | [Item](../../aspose.slides/digitalsignaturecollection/item) { get; } | Gibt die Signatur nach Index zurück. |
-| [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | Gibt eine Synchronisationswurzel zurück. Nur-Lese Object. |
+| [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | Gibt eine Synchronisierungswurzel zurück. Nur-Lese Object. |
 
 ## Methoden
 
@@ -34,7 +34,7 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 | [GetEnumerator](../../aspose.slides/digitalsignaturecollection/getenumerator)() | Gibt einen Enumerator zurück, der durch die Sammlung iteriert. |
 | [RemoveAt](../../aspose.slides/digitalsignaturecollection/removeat)(int) | Entfernt die Signatur am angegebenen Index. |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [DomObject&lt;TParent&gt;](../domobject-1)
 * Klasse [Presentation](../presentation)

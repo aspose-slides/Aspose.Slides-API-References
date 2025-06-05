@@ -30,7 +30,7 @@ IMathElement sub = leftSubSuperscript.Subscript;
 
 ### Siehe auch
 
-* Schnittstelle [IMathElement](../../imathelement)
+* Interface [IMathElement](../../imathelement)
 * Klasse [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement)
 * Namespace [Aspose.Slides.MathText](../../mathleftsubsuperscriptelement)
 * Assembly [Aspose.Slides](../../../)

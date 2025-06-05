@@ -1,15 +1,15 @@
 ---
 title: AsIChartComponent
 second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht den Zugriff auf die Basis-IChartComponent-Schnittstelle. Nur-Lese IChartComponentaspose.slides.charts/ichartcomponent.
+description: Ermöglicht den Zugriff auf die Basis-IChartComponent-Schnittstelle. Nur Lesezugriff auf IChartComponent aspose.slides.charts/ichartcomponent.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/idatalabelcollection/asichartcomponent/
 ---
 
-## IDataLabelCollection.AsIChartComponent Eigenschaft
+## IDataLabelCollection.AsIChartComponent-Eigenschaft
 
-Ermöglicht den Zugriff auf die Basis-IChartComponent-Schnittstelle. Nur-Lese [`IChartComponent`](../../ichartcomponent).
+Ermöglicht den Zugriff auf die Basis-IChartComponent-Schnittstelle. Nur Lesezugriff auf [`IChartComponent`](../../ichartcomponent).
 
 ```csharp
 public IChartComponent AsIChartComponent { get; }

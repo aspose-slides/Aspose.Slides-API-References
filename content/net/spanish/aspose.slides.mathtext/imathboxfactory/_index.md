@@ -1,7 +1,7 @@
 ---
 title: IMathBoxFactory
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Permite crear un cuadro matemático
+description: Permite crear una caja matemática
 type: docs
 weight: 7950
 url: /es/aspose.slides.mathtext/imathboxfactory/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.mathtext/imathboxfactory/
 
 ## Interfaz IMathBoxFactory
 
-Permite crear un cuadro matemático
+Permite crear una caja matemática
 
 ```csharp
 public interface IMathBoxFactory
@@ -19,15 +19,15 @@ public interface IMathBoxFactory
 
 | Nombre | Descripción |
 | --- | --- |
-| [CreateMathBox](../../aspose.slides.mathtext/imathboxfactory/createmathbox)(IMathElement) | Crea un cuadro matemático aplicándolo al elemento |
+| [CreateMathBox](../../aspose.slides.mathtext/imathboxfactory/createmathbox)(IMathElement) | Crea una caja matemática aplicando al elemento |
 
 ### Observaciones
 
 Para compatibilidad con COM
 
-### Véase también
+### Ver También
 
-* espacio de nombres [Aspose.Slides.MathText](../../aspose.slides.mathtext)
-* ensamblaje [Aspose.Slides](../../)
+* namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)
+* assembly [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

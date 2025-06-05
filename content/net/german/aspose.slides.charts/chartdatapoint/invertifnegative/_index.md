@@ -1,6 +1,6 @@
 ---
 title: InvertIfNegative
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt an, dass der Datenpunkt seine Farben invertieren soll, wenn der Wert negativ ist. Lese-/Schreib-Boolean.
 type: docs
 weight: 120

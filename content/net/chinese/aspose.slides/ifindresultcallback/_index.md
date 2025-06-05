@@ -1,6 +1,6 @@
 ---
 title: IFindResultCallback
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 用于获取搜索文本结果的回调接口。
 type: docs
 weight: 5620
@@ -19,7 +19,7 @@ public interface IFindResultCallback
 
 | 名称 | 描述 |
 | --- | --- |
-| [FoundResult](../../aspose.slides/ifindresultcallback/foundresult)(ITextFrame, string, string, int) | 接收关于找到的文本数据的回调方法。 |
+| [FoundResult](../../aspose.slides/ifindresultcallback/foundresult)(ITextFrame, string, string, int) | 接收找到的文本数据的回调方法。 |
 
 ### 另见
 

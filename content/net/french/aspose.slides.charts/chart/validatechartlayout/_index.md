@@ -1,23 +1,23 @@
 ---
 title: ValidateChartLayout
-second_title: Référence API Aspose.Slides pour .NET
-description: Calcule les valeurs réelles des éléments du graphique. Les valeurs réelles comprennent la position des éléments qui implémentent l'interface IActualLayout IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight et les valeurs réelles des axes IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Calcule les valeurs réelles des éléments de graphique. Les valeurs réelles incluent la position des éléments qui implémentent l'interface IActualLayout IActualLayout.ActualX IActualLayout.ActualY IActualLayout.ActualWidth IActualLayout.ActualHeight et les valeurs réelles des axes IAxis.ActualMaxValue IAxis.ActualMinValue IAxis.ActualMajorUnit IAxis.ActualMinorUnit IAxis.ActualMajorUnitScale IAxis.ActualMinorUnitScale
 type: docs
 weight: 260
 url: /fr/aspose.slides.charts/chart/validatechartlayout/
 ---
 
-## Méthode Chart.ValidateChartLayout
+## Chart.ValidateChartLayout method
 
-Calcule les valeurs réelles des éléments du graphique. Les valeurs réelles comprennent la position des éléments qui implémentent l'interface IActualLayout (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight) et les valeurs réelles des axes (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale)
+Calcule les valeurs réelles des éléments de graphique. Les valeurs réelles incluent la position des éléments qui implémentent l'interface IActualLayout (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight) et les valeurs réelles des axes (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale)
 
 ```csharp
 public void ValidateChartLayout()
 ```
 
-### Voir aussi
+### Voir Aussi
 
-* classe [Chart](../../chart)
+* class [Chart](../../chart)
 * namespace [Aspose.Slides.Charts](../../chart)
 * assembly [Aspose.Slides](../../../)
 

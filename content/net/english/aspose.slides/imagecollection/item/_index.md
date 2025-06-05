@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/imagecollection/item/
 ---
+
 ## ImageCollection indexer
 
 Gets the element at the specified index. Read-only [`IPPImage`](../../ippimage).

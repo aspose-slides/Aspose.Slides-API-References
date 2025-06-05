@@ -1,6 +1,6 @@
 ---
 title: MathSuperscriptElement
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 初始化 MathSuperscriptElement 类的新实例。
 type: docs
 weight: 10
@@ -26,7 +26,7 @@ IMathElement superscript = new MathematicalText("i");
 MathSuperscriptElement superscriptElement = new MathSuperscriptElement(baseElement, superscript);
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IMathElement](../../imathelement)
 * 类 [MathSuperscriptElement](../../mathsuperscriptelement)

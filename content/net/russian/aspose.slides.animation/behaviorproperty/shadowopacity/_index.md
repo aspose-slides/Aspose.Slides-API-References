@@ -1,6 +1,6 @@
 ---
 title: ShadowOpacity
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет свойство shadow.opacity
 type: docs
 weight: 730
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/behaviorproperty/shadowopacity/
 public static BehaviorProperty ShadowOpacity { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)

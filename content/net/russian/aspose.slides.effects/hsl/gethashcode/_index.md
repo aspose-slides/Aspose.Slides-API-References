@@ -1,6 +1,6 @@
 ---
 title: GetHashCode
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для справочника API .NET
 description: Служит в качестве хеш-функции для определенного типа.
 type: docs
 weight: 30

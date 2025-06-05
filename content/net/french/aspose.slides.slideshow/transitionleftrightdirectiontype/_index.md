@@ -1,6 +1,6 @@
 ---
 title: TransitionLeftRightDirectionType
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Spécifie une direction limitée aux valeurs gauche et droite.
 type: docs
 weight: 10070
@@ -22,7 +22,7 @@ public enum TransitionLeftRightDirectionType
 | Gauche | `0` |  |
 | Droite | `1` |  |
 
-### Voir Aussi
+### Voir aussi
 
 * espace de noms [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * assembly [Aspose.Slides](../../)

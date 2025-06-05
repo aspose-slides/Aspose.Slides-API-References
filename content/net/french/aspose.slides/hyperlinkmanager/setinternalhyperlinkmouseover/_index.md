@@ -1,15 +1,15 @@
 ---
 title: SetInternalHyperlinkMouseOver
-second_title: Aspose.Slides pour .NET Référence API
-description: Définit le survol de la souris pour les hyperliens internes.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Définit le survol de la souris sur un hyperlien interne.
 type: docs
 weight: 60
 url: /fr/aspose.slides/hyperlinkmanager/setinternalhyperlinkmouseover/
 ---
 
-## Méthode HyperlinkManager.SetInternalHyperlinkMouseOver
+## HyperlinkManager.SetInternalHyperlinkMouseOver method
 
-Définit le survol de la souris pour les hyperliens internes.
+Définit le survol de la souris sur un hyperlien interne.
 
 ```csharp
 public IHyperlink SetInternalHyperlinkMouseOver(ISlide targetSlide)
@@ -19,11 +19,11 @@ public IHyperlink SetInternalHyperlinkMouseOver(ISlide targetSlide)
 | --- | --- | --- |
 | targetSlide | ISlide | Diapositive cible. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Hyperlien.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IHyperlink](../../ihyperlink)
 * interface [ISlide](../../islide)

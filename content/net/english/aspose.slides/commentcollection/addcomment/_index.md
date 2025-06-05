@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/commentcollection/addcomment/
 ---
+
 ## CommentCollection.AddComment method
 
 Add new comment at the end of a collection.

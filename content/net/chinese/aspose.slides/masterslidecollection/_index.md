@@ -1,15 +1,15 @@
 ---
 title: MasterSlideCollection
-second_title: Aspose.Slides for .NET API 参考
-description: 表示一个母版幻灯片集合。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示一个母版幻灯片的集合。
 type: docs
 weight: 7790
 url: /zh/aspose.slides/masterslidecollection/
 ---
 
-## MasterSlideCollection 类
+## MasterSlideCollection class
 
-表示一个母版幻灯片集合。
+表示一个母版幻灯片的集合。
 
 ```csharp
 public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlideCollection
@@ -20,23 +20,23 @@ public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlid
 | 名称 | 描述 |
 | --- | --- |
 | [Count](../../aspose.slides/masterslidecollection/count) { get; } | 获取集合中实际包含的元素数量。只读 Int32。 |
-| [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | 返回指示集合的访问是否被同步（线程安全）的值。只读 Boolean。 |
+| [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | 返回指示访问集合是否是同步的（线程安全）的值。只读 Boolean。 |
 | [Item](../../aspose.slides/masterslidecollection/item) { get; } | 获取指定索引处的元素。只读 [`MasterSlide`](../masterslide)。 |
-| [SyncRoot](../../aspose.slides/masterslidecollection/syncroot) { get; } | 返回同步根。只读 Object。 |
+| [SyncRoot](../../aspose.slides/masterslidecollection/syncroot) { get; } | 返回一个同步根。只读 Object。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | 将指定母版幻灯片的副本添加到集合的末尾。相关的布局幻灯片也将被复制。 |
+| [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | 将指定母版幻灯片的副本添加到集合的末尾。关联的布局幻灯片也会被复制。 |
 | [CopyTo](../../aspose.slides/masterslidecollection/copyto)(Array, int) | 将集合中的所有元素复制到指定数组中。 |
 | [GetEnumerator](../../aspose.slides/masterslidecollection/getenumerator)() | 返回一个枚举器，用于遍历集合。 |
-| [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | 将指定母版幻灯片的副本插入到集合的指定位置。相关的布局幻灯片也将被复制。 |
-| [Remove](../../aspose.slides/masterslidecollection/remove)(IMasterSlide) | 从集合中移除特定对象的第一次出现。 |
-| [RemoveAt](../../aspose.slides/masterslidecollection/removeat)(int) | 移除集合中指定索引处的元素。 |
-| [RemoveUnused](../../aspose.slides/masterslidecollection/removeunused)(bool) | 移除未使用的母版幻灯片。 |
+| [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | 将指定母版幻灯片的副本插入到集合的指定位置。关联的布局幻灯片也会被复制。 |
+| [Remove](../../aspose.slides/masterslidecollection/remove)(IMasterSlide) | 从集合中删除特定对象的第一个实例。 |
+| [RemoveAt](../../aspose.slides/masterslidecollection/removeat)(int) | 删除集合中指定索引处的元素。 |
+| [RemoveUnused](../../aspose.slides/masterslidecollection/removeunused)(bool) | 删除未使用的母版幻灯片。 |
 
-### 另见
+### 另请参见
 
 * class [DomObject&lt;TParent&gt;](../domobject-1)
 * class [Presentation](../presentation)

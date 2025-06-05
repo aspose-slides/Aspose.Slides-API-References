@@ -1,6 +1,6 @@
 ---
-title: Время
-second_title: Справочник по API Aspose.Slides для .NET
+title: Time
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет значение времени. Чтение/запись Single.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/point/time/
 public float Time { get; set; }
 ```
 
-### См. Также
+### См. также
 
 * класс [Point](../../point)
 * пространство имен [Aspose.Slides.Animation](../../point)

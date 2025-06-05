@@ -1,6 +1,6 @@
 ---
-title: 对象
-second_title: Aspose.Slides for .NET API 参考
+title: Object
+second_title: Aspose.Slides for .NET API Reference
 description: 返回模型对象。只读 TObject。
 type: docs
 weight: 30
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.export.web/templatecontext-1/object/
 
 ## TemplateContext&lt;TObject&gt;.Object 属性
 
-返回模型对象。只读 !:TObject.
+返回模型对象。只读 !:TObject。
 
 ```csharp
 public TObject Object { get; }
 ```
 
-### 另见
+### 另请参见
 
 * class [TemplateContext&lt;TObject&gt;](../../templatecontext-1)
 * namespace [Aspose.Slides.Export.Web](../../templatecontext-1)

@@ -1,7 +1,7 @@
 ---
-title: ModoBlancoNegro
-second_title: Referencia de la API Aspose.Slides para .NET
-description: La propiedad especifica cómo se representará una forma en el modo de visualización en blanco y negro.. Lectura/escritura BlackWhiteModeaspose.slides/blackwhitemode.
+title: BlackWhiteMode
+second_title: Aspose.Sildes para referencia de API .NET
+description: La propiedad especifica cómo se representará una forma en modo de visualización en blanco y negro. Lectura/escritura BlackWhiteModeaspose.slides/blackwhitemode.
 type: docs
 weight: 30
 url: /es/aspose.slides/shape/blackwhitemode/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/shape/blackwhitemode/
 
 ## Propiedad Shape.BlackWhiteMode
 
-La propiedad especifica cómo se representará una forma en el modo de visualización en blanco y negro.. Lectura/escritura [`BlackWhiteMode`](../../blackwhitemode).
+La propiedad especifica cómo se representará una forma en modo de visualización en blanco y negro. Lectura/escritura [`BlackWhiteMode`](../../blackwhitemode).
 
 ```csharp
 public BlackWhiteMode BlackWhiteMode { get; set; }
 ```
 
-### Véase También
+### Véase también
 
 * enum [BlackWhiteMode](../../blackwhitemode)
 * class [Shape](../../shape)

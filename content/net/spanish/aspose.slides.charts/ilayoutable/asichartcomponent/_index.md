@@ -1,7 +1,7 @@
 ---
 title: AsIChartComponent
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Permite obtener la interfaz base IChartComponent. IChartComponent de solo lectura aspose.slides.charts/ichartcomponent.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Permite obtener la interfaz base IChartComponent. IChartComponent solo lectura aspose.slides.charts/ichartcomponent.
 type: docs
 weight: 10
 url: /es/aspose.slides.charts/ilayoutable/asichartcomponent/
@@ -9,17 +9,17 @@ url: /es/aspose.slides.charts/ilayoutable/asichartcomponent/
 
 ## Propiedad ILayoutable.AsIChartComponent
 
-Permite obtener la interfaz base IChartComponent. IChartComponent de solo lectura [`IChartComponent`](../../ichartcomponent).
+Permite obtener la interfaz base IChartComponent. Solo lectura [`IChartComponent`](../../ichartcomponent).
 
 ```csharp
 public IChartComponent AsIChartComponent { get; }
 ```
 
-### Vea También
+### Ver también
 
 * interfaz [IChartComponent](../../ichartcomponent)
 * interfaz [ILayoutable](../../ilayoutable)
 * espacio de nombres [Aspose.Slides.Charts](../../ilayoutable)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

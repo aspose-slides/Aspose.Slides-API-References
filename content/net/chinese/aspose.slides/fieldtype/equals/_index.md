@@ -1,6 +1,6 @@
 ---
-title: 等于
-second_title: Aspose.Slides for .NET API 参考
+title: Equals
+second_title: Aspose.Sildes for .NET API Reference
 description: 检查此字段是否等于另一个字段。
 type: docs
 weight: 200
@@ -15,15 +15,15 @@ url: /zh/aspose.slides/fieldtype/equals/
 public override bool Equals(object obj)
 ```
 
-| 参数      | 类型       | 描述                |
-|-----------|------------|---------------------|
-| obj       | Object     | 要比较的字段。      |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| obj | Object | 要比较的字段。 |
 
 ### 返回值
 
-如果字段相等，则返回 true。
+如果字段相等，则返回真。
 
-### 参见
+### 另请参阅
 
 * class [FieldType](../../fieldtype)
 * namespace [Aspose.Slides](../../fieldtype)

@@ -1,7 +1,7 @@
 ---
 title: IMultipleCellChartValue
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示一组图表单元格。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示图表单元格的集合。
 type: docs
 weight: 2090
 url: /zh/aspose.slides.charts/imultiplecellchartvalue/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/imultiplecellchartvalue/
 
 ## IMultipleCellChartValue 接口
 
-表示一组图表单元格。
+表示图表单元格的集合。
 
 ```csharp
 public interface IMultipleCellChartValue : IBaseChartValue
@@ -19,10 +19,10 @@ public interface IMultipleCellChartValue : IBaseChartValue
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | 返回或设置图表单元格的集合。可读写 [`IChartCellCollection`](../ichartcellcollection)。 |
-| [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | 允许获取基本的 IBaseChartValue 接口。可读 [`IBaseChartValue`](../ibasechartvalue)。 |
+| [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | 返回或设置图表单元格的集合。 可读写 [`IChartCellCollection`](../ichartcellcollection)。 |
+| [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | 允许获取基本的 IBaseChartValue 接口。 只读 [`IBaseChartValue`](../ibasechartvalue)。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IBaseChartValue](../ibasechartvalue)
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)

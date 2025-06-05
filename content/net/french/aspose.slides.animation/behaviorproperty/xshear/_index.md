@@ -1,6 +1,6 @@
 ---
 title: XShear
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Représente la propriété xshear
 type: docs
 weight: 1200
@@ -15,7 +15,7 @@ Représente la propriété 'xshear'
 public static BehaviorProperty XShear { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [BehaviorProperty](../../behaviorproperty)
 * namespace [Aspose.Slides.Animation](../../behaviorproperty)

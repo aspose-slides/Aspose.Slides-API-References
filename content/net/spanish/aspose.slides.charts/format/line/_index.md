@@ -1,7 +1,7 @@
 ---
-title: Línea
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve las propiedades de estilo de línea de un gráfico. Solo lectura ILineFormataspose.slides/ilineformat.
+title: Line
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Devuelve las propiedades del estilo de línea de un gráfico. Solo lectura ILineFormataspose.slides/../aspose.slides/ilineformat.
 type: docs
 weight: 40
 url: /es/aspose.slides.charts/format/line/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.charts/format/line/
 
 ## Propiedad Format.Line
 
-Devuelve las propiedades de estilo de línea de un gráfico. Solo lectura [`ILineFormat`](../../../aspose.slides/ilineformat).
+Devuelve las propiedades del estilo de línea de un gráfico. Solo lectura [`ILineFormat`](../../../aspose.slides/ilineformat).
 
 ```csharp
 public ILineFormat Line { get; }
@@ -20,6 +20,6 @@ public ILineFormat Line { get; }
 * interfaz [ILineFormat](../../../aspose.slides/ilineformat)
 * clase [Format](../../format)
 * espacio de nombres [Aspose.Slides.Charts](../../format)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

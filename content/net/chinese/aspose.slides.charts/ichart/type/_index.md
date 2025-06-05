@@ -1,7 +1,7 @@
 ---
-title: 类型
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置图表类型。可读/可写 ChartType aspose.slides.charts/charttype。
+title: Type
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置图表类型。可读/写 ChartTypeaspose.slides.charts/charttype。
 type: docs
 weight: 220
 url: /zh/aspose.slides.charts/ichart/type/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ichart/type/
 
 ## IChart.Type 属性
 
-返回或设置图表类型。可读/可写 [`ChartType`](../../charttype)。
+返回或设置图表类型。可读/写 [`ChartType`](../../charttype)。
 
 ```csharp
 public ChartType Type { get; set; }
 ```
 
-### 另请参阅
+### 参见
 
 * 枚举 [ChartType](../../charttype)
 * 接口 [IChart](../../ichart)

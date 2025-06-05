@@ -1,7 +1,7 @@
 ---
-title: 幻灯片编号
-second_title: Aspose.Slides for .NET API 参考
-description: 当前幻灯片的编号。只读 FieldTypeaspose.slides/fieldtype。
+title: SlideNumber
+second_title: Aspose.Sildes for .NET API Reference
+description: 当前幻灯片编号。只读 FieldTypeaspose.slides/fieldtype。
 type: docs
 weight: 180
 url: /zh/aspose.slides/fieldtype/slidenumber/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/fieldtype/slidenumber/
 public static FieldType SlideNumber { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 类 [FieldType](../../fieldtype)
 * 命名空间 [Aspose.Slides](../../fieldtype)

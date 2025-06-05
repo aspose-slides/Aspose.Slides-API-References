@@ -1,13 +1,13 @@
 ---
 title: SmartArtNodeCollection
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет собой коллекцию узлов SmartArt.
 type: docs
 weight: 10330
 url: /ru/aspose.slides.smartart/smartartnodecollection/
 ---
 
-## Класс SmartArtNodeCollection
+## SmartArtNodeCollection class
 
 Представляет собой коллекцию узлов SmartArt.
 
@@ -19,8 +19,8 @@ public sealed class SmartArtNodeCollection : ISmartArtNodeCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.smartart/smartartnodecollection/count) { get; } | Возвращает количество узлов в коллекции. Только для чтения Int32. |
-| [IsSynchronized](../../aspose.slides.smartart/smartartnodecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (безопасен ли для потоков). Только для чтения Boolean. |
+| [Count](../../aspose.slides.smartart/smartartnodecollection/count) { get; } | Возвращает количество узлов в коллекции Только для чтения Int32. |
+| [IsSynchronized](../../aspose.slides.smartart/smartartnodecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (безопасно для потоков). Только для чтения Boolean. |
 | [Item](../../aspose.slides.smartart/smartartnodecollection/item) { get; } | Возвращает узел по индексу |
 | [SyncRoot](../../aspose.slides.smartart/smartartnodecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
 
@@ -28,14 +28,14 @@ public sealed class SmartArtNodeCollection : ISmartArtNodeCollection
 
 | Имя | Описание |
 | --- | --- |
-| [AddNode](../../aspose.slides.smartart/smartartnodecollection/addnode)() | Добавить новый узел SmartArt или подузел. |
+| [AddNode](../../aspose.slides.smartart/smartartnodecollection/addnode)() | Добавить новый узел смарт-арта или подузел. |
 | [AddNodeByPosition](../../aspose.slides.smartart/smartartnodecollection/addnodebyposition)(int) | Добавить новый узел в выбранной позиции коллекции узлов |
 | [CopyTo](../../aspose.slides.smartart/smartartnodecollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides.smartart/smartartnodecollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [GetEnumerator](../../aspose.slides.smartart/smartartnodecollection/getenumerator)() | ВозвращаетEnumerator, который проходит по коллекции. |
 | [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode_1)(int) | Удалить узел или подузел по индексу |
 | [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode)(ISmartArtNode) | Удалить узел или подузел |
 
-### См. Также
+### Также см. 
 
 * интерфейс [ISmartArtNodeCollection](../ismartartnodecollection)
 * пространство имен [Aspose.Slides.SmartArt](../../aspose.slides.smartart)

@@ -1,6 +1,6 @@
 ---
 title: ISlidesLayoutOptions
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Représente le mode de disposition de la présentation pour l'exportation.
 type: docs
 weight: 3930

@@ -1,6 +1,6 @@
 ---
-title: 移除
-second_title: Aspose.Slides for .NET API 参考
+title: Remove
+second_title: Aspose.Sildes for .NET API Reference
 description: 从集合中移除指定的行为。
 type: docs
 weight: 90
@@ -17,13 +17,13 @@ public bool Remove(IBehavior item)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| item | IBehavior | 需要移除的行为。 |
+| item | IBehavior | 要移除的行为。 |
 
 ### 返回值
 
-如果成功移除行为，则返回 true Boolean
+如果成功移除行为，则为 True。布尔值
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IBehavior](../../ibehavior)
 * 接口 [IBehaviorCollection](../../ibehaviorcollection)

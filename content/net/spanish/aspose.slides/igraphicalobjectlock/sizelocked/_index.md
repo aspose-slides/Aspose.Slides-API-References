@@ -1,21 +1,21 @@
 ---
 title: SizeLocked
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Determina si cambiar el tamaño de esta forma está prohibido. Booleano de lectura/escritura.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Determina si el cambio de tamaño de esta forma está prohibido. Booleano de lectura/escritura.
 type: docs
 weight: 70
 url: /es/aspose.slides/igraphicalobjectlock/sizelocked/
 ---
 
-## Propiedad IGraphicalObjectLock.SizeLocked
+## IGraphicalObjectLock.SizeLocked property
 
-Determina si cambiar el tamaño de esta forma está prohibido. Booleano de lectura/escritura.
+Determina si el cambio de tamaño de esta forma está prohibido. Booleano de lectura/escritura.
 
 ```csharp
 public bool SizeLocked { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IGraphicalObjectLock](../../igraphicalobjectlock)
 * espacio de nombres [Aspose.Slides](../../igraphicalobjectlock)

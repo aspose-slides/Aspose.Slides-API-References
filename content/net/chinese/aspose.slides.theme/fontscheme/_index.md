@@ -1,6 +1,6 @@
 ---
-title: 字体方案
-second_title: Aspose.Slides for .NET API 参考
+title: FontScheme
+second_title: Aspose.Slides for .NET API Reference
 description: 存储主题定义的字体。
 type: docs
 weight: 10820
@@ -20,8 +20,8 @@ public class FontScheme : IFontScheme
 | 名称 | 描述 |
 | --- | --- |
 | [Major](../../aspose.slides.theme/fontscheme/major) { get; } | 返回幻灯片“标题”部分的字体集合。只读 [`IFonts`](../../aspose.slides/ifonts)。 |
-| [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | 返回幻灯片“主体”部分的字体集合。只读 [`IFonts`](../../aspose.slides/ifonts)。 |
-| [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | 返回字体方案名称。读/写字符串。 |
+| [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | 返回幻灯片“正文”部分的字体集合。只读 [`IFonts`](../../aspose.slides/ifonts)。 |
+| [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | 返回字体方案名称。可读写字符串。 |
 
 ### 另见
 

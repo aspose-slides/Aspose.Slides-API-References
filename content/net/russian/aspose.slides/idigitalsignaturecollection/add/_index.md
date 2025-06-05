@@ -1,13 +1,13 @@
 ---
-title: Добавить
-second_title: Справочник по API Aspose.Slides для .NET
+title: Add
+second_title: Aspose.Slides справочник API для .NET
 description: Добавляет подпись в конец коллекции.
 type: docs
 weight: 20
 url: /ru/aspose.slides/idigitalsignaturecollection/add/
 ---
 
-## Метод IDigitalSignatureCollection.Add
+## IDigitalSignatureCollection.Add метод
 
 Добавляет подпись в конец коллекции.
 
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IDigitalSignature](../../idigitalsignature)
 * интерфейс [IDigitalSignatureCollection](../../idigitalsignaturecollection)

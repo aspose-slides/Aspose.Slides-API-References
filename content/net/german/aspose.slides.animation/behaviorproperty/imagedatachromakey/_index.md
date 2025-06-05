@@ -1,7 +1,7 @@
 ---
 title: ImageDataChromakey
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt die Eigenschaft imageData.chromakey dar
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt die ImageData.chromakey-Eigenschaft dar
 type: docs
 weight: 430
 url: /de/aspose.slides.animation/behaviorproperty/imagedatachromakey/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/behaviorproperty/imagedatachromakey/
 
 ## BehaviorProperty.ImageDataChromakey-Eigenschaft
 
-Stellt die 'imageData.chromakey' Eigenschaft dar
+Stellt die 'imageData.chromakey'-Eigenschaft dar
 
 ```csharp
 public static BehaviorProperty ImageDataChromakey { get; }

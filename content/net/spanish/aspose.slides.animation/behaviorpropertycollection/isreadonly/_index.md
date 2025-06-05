@@ -1,6 +1,6 @@
 ---
 title: IsReadOnly
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Obtiene un valor que indica si el ICollection es de solo lectura. Booleano de solo lectura.
 type: docs
 weight: 20
@@ -23,6 +23,6 @@ true si el ICollection es de solo lectura; de lo contrario, false.
 
 * clase [BehaviorPropertyCollection](../../behaviorpropertycollection)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorpropertycollection)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

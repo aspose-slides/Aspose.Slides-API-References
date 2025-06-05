@@ -1,7 +1,7 @@
 ---
 title: AsIShape
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf die grundlegende IShape-Schnittstelle. Nur lesbare IShapeaspose.slides/ishape.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ermöglicht den Zugriff auf die Basis IShape-Schnittstelle. Nur-Lese IShape aspose.slides/ishape.
 type: docs
 weight: 20
 url: /de/aspose.slides/igeometryshape/asishape/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/igeometryshape/asishape/
 
 ## IGeometryShape.AsIShape-Eigenschaft
 
-Ermöglicht den Zugriff auf die grundlegende IShape-Schnittstelle. Nur lesbare [`IShape`](../../ishape).
+Ermöglicht den Zugriff auf die Basis IShape-Schnittstelle. Nur-Lese [`IShape`](../../ishape).
 
 ```csharp
 public IShape AsIShape { get; }

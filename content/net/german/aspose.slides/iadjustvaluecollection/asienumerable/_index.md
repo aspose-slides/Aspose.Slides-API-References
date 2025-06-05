@@ -1,7 +1,7 @@
 ---
 title: AsIEnumerable
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die IEnumerable-Schnittstelle zurück. Nur-lesbare IEnumerable.
+description: Gibt die IEnumerable-Schnittstelle zurück. Schreibgeschützte IEnumerable.
 type: docs
 weight: 20
 url: /de/aspose.slides/iadjustvaluecollection/asienumerable/
@@ -9,15 +9,15 @@ url: /de/aspose.slides/iadjustvaluecollection/asienumerable/
 
 ## IAdjustValueCollection.AsIEnumerable-Eigenschaft
 
-Gibt die IEnumerable-Schnittstelle zurück. Nur-lesbare IEnumerable.
+Gibt die IEnumerable-Schnittstelle zurück. Schreibgeschützte IEnumerable.
 
 ```csharp
 public IEnumerable AsIEnumerable { get; }
 ```
 
-### Bemerkungen
+### Anmerkungen
 
-Für COM-Kompatibilität.
+Für die COM-Kompatibilität.
 
 ### Siehe auch
 

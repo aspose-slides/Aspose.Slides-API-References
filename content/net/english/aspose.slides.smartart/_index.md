@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides.smartart/
 ---
+
 Contains classes for work with SmartArt objects
 
 ## Classes

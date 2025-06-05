@@ -1,7 +1,7 @@
 ---
 title: SplitterBarStateType
-second_title: Aspose.Slides for .NET API Reference
-description: 指定分隔条应该显示的状态。分隔条在视图区域内分隔主区域和次区域。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定拆分条应该显示的状态。拆分条在查看区域内分隔主区域和次区域。
 type: docs
 weight: 10380
 url: /zh/aspose.slides/splitterbarstatetype/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/splitterbarstatetype/
 
 ## SplitterBarStateType 枚举
 
-指定分隔条应该显示的状态。分隔条在视图区域内分隔主区域和次区域。
+指定拆分条应该显示的状态。拆分条在查看区域内分隔主区域和次区域。
 
 ```csharp
 public enum SplitterBarStateType
@@ -19,11 +19,11 @@ public enum SplitterBarStateType
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Minimized | `0` | 主区域占用应用程序允许的视图区域最小量。 |
+| Minimized | `0` | 主区域占用应用程序允许的查看区域的最少量。 |
 | Restored | `1` | 主区域具有特定的中间大小。 |
-| Maximized | `2` | 主区域占用应用程序允许的视图区域最大量。 |
+| Maximized | `2` | 主区域占用应用程序允许的查看区域的最大量。 |
 
-### 参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

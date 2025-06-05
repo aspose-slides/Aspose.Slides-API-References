@@ -1,21 +1,21 @@
 ---
-title: Typ
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Diagrammtyp zurück oder legt ihn fest. Lese-/Schreibzugriff auf ChartTypeaspose.slides.charts/charttype.
+title: Type
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Diagrammtyp zurück oder setzt ihn. Lese-/Schreibzugriff auf ChartTypeaspose.slides.charts/charttype.
 type: docs
 weight: 230
 url: /de/aspose.slides.charts/chart/type/
 ---
 
-## Chart.Type-Eigenschaft
+## Chart.Type Eigenschaft
 
-Gibt den Diagrammtyp zurück oder legt ihn fest. Lese-/Schreibzugriff auf [`ChartType`](../../charttype).
+Gibt den Diagrammtyp zurück oder setzt ihn. Lese-/Schreibzugriff auf [`ChartType`](../../charttype).
 
 ```csharp
 public ChartType Type { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [ChartType](../../charttype)
 * class [Chart](../../chart)

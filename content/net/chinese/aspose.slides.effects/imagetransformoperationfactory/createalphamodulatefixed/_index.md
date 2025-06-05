@@ -1,6 +1,6 @@
 ---
 title: CreateAlphaModulateFixed
-second_title: Aspose.Slildes for .NET API Reference
+second_title: Aspose.Slides for .NET API 参考
 description: 创建 Alpha 调制固定效果。
 type: docs
 weight: 60

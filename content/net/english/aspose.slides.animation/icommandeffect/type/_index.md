@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.animation/icommandeffect/type/
 ---
+
 ## ICommandEffect.Type property
 
 Defines command effect type of behavior. Read/write [`CommandEffectType`](../../commandeffecttype).

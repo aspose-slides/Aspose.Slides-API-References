@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/cannotcombine2dand3dchartsexception/cannotcombine2dand3dchartsexception/
 ---
+
 ## CannotCombine2DAnd3DChartsException() {#constructor}
 
 Default constructor.

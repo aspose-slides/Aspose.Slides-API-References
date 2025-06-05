@@ -1,7 +1,7 @@
 ---
 title: ActualMinorUnitScale
-second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie l'échelle d'unité mineure réelle de l'axe. Appelez la méthode IChart.ValidateChartLayout auparavant pour obtenir la valeur réelle.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Spécifie l'échelle de l'unité mineure réelle de l'axe. Appelez la méthode IChart.ValidateChartLayout auparavant pour obtenir la valeur réelle.
 type: docs
 weight: 50
 url: /fr/aspose.slides.charts/iaxis/actualminorunitscale/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/iaxis/actualminorunitscale/
 
 ## Propriété IAxis.ActualMinorUnitScale
 
-Spécifie l'échelle d'unité mineure réelle de l'axe. Appelez la méthode IChart.ValidateChartLayout() auparavant pour obtenir la valeur réelle.
+Spécifie l'échelle de l'unité mineure réelle de l'axe. Appelez la méthode IChart.ValidateChartLayout() auparavant pour obtenir la valeur réelle.
 
 ```csharp
 public TimeUnitType ActualMinorUnitScale { get; }

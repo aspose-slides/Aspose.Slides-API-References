@@ -1,6 +1,6 @@
 ---
-title: 方向
-second_title: Aspose.Slides for .NET API 参考
+title: Direction
+second_title: Aspose.Sildes for .NET API Reference
 description: 光照方向。只读 LightingDirectionaspose.slides/lightingdirection。
 type: docs
 weight: 10

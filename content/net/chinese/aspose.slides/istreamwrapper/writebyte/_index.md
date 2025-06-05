@@ -1,7 +1,7 @@
 ---
 title: WriteByte
-second_title: Aspose.Slides for .NET API Reference
-description: 将一个字节写入流中的当前位置，并将流中的位置向前移动一个字节。
+second_title: Aspose.Sildes for .NET API Reference
+description: 将字节写入流的当前位置，并将流中的位置向前移动一个字节。
 type: docs
 weight: 140
 url: /zh/aspose.slides/istreamwrapper/writebyte/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/istreamwrapper/writebyte/
 
 ## IStreamWrapper.WriteByte 方法
 
-将一个字节写入流中的当前位置，并将流中的位置向前移动一个字节。
+将字节写入流的当前位置，并将流中的位置向前移动一个字节。
 
 ```csharp
 public void WriteByte(byte value)
@@ -17,9 +17,9 @@ public void WriteByte(byte value)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | Byte | 要写入的字节 |
+| value | Byte | 用于写入字节的字节 |
 
-### 参见
+### 另见
 
 * 接口 [IStreamWrapper](../../istreamwrapper)
 * 命名空间 [Aspose.Slides](../../istreamwrapper)

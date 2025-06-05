@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.warnings/iwarninginfo/warningtype/
 ---
+
 ## IWarningInfo.WarningType property
 
 Returns a type of warning. Read-only `WarningType`.

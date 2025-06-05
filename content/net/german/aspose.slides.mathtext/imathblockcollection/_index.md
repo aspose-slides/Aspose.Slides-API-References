@@ -19,9 +19,9 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.mathtext/imathblockcollection/asienumerable) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IEnumerable. |
-| [Count](../../aspose.slides.mathtext/imathblockcollection/count) { get; } | Ermittelt die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente. Schreibgeschützter Int32. |
-| [Item](../../aspose.slides.mathtext/imathblockcollection/item) { get; set; } | Gibt das Element am angegebenen Index zurück. Schreibgeschützt [`IMathBlock`](../imathblock). |
+| [AsIEnumerable](../../aspose.slides.mathtext/imathblockcollection/asienumerable) { get; } | Ermöglicht den Zugriff auf die Basis-IEnumerable-Schnittstelle IEnumerable |
+| [Count](../../aspose.slides.mathtext/imathblockcollection/count) { get; } | Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente zurück. Nur lesbar Int32. |
+| [Item](../../aspose.slides.mathtext/imathblockcollection/item) { get; set; } | Gibt das Element am angegebenen Index zurück. Nur lesbar [`IMathBlock`](../imathblock). |
 
 ## Methoden
 

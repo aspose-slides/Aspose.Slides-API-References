@@ -1,13 +1,13 @@
 ---
 title: AsIMasterThemeable
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie l'interface IMasterThemeable. Lecture seule IMasterThemeableaspose.slides.theme/imasterthemeable.
+second_title: Aspose.Slides pour .NET Référence d'API
+description: Renvoie l'interface IMasterThemeable. IMasterThemeable aspose.slides.theme/imasterthemeable en lecture seule.
 type: docs
 weight: 20
 url: /fr/aspose.slides/imasterhandoutslide/asimasterthemeable/
 ---
 
-## Propriété IMasterHandoutSlide.AsIMasterThemeable
+## IMasterHandoutSlide.AsIMasterThemeable propriété
 
 Renvoie l'interface IMasterThemeable. Lecture seule [`IMasterThemeable`](../../../aspose.slides.theme/imasterthemeable).
 

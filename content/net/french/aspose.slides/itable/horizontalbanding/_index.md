@@ -1,13 +1,13 @@
 ---
 title: HorizontalBanding
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Détermine si les lignes paires doivent être dessinées avec un formatage différent. Booléen en lecture/écriture.
 type: docs
 weight: 60
 url: /fr/aspose.slides/itable/horizontalbanding/
 ---
 
-## Propriété ITable.HorizontalBanding
+## ITable.HorizontalBanding property
 
 Détermine si les lignes paires doivent être dessinées avec un formatage différent. Booléen en lecture/écriture.
 

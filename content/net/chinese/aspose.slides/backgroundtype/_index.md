@@ -1,6 +1,6 @@
 ---
-title: 背景类型
-second_title: Aspose.Slides for .NET API 参考
+title: BackgroundType
+second_title: Aspose.Sildes for .NET API Reference
 description: 定义幻灯片背景填充源。
 type: docs
 weight: 860
@@ -23,7 +23,7 @@ public enum BackgroundType : sbyte
 | Themed | `0` |  |
 | OwnBackground | `1` |  |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

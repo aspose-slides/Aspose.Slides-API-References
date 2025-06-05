@@ -19,7 +19,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Index eines zu entfernenden Datenpunkts. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IChartDataPointCollection](../../ichartdatapointcollection)
 * Namespace [Aspose.Slides.Charts](../../ichartdatapointcollection)

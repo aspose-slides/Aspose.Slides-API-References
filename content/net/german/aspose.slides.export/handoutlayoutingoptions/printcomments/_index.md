@@ -1,6 +1,6 @@
 ---
 title: PrintComments
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt an, ob Kommentare auf Folien angezeigt werden sollen oder nicht
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ Gibt an, ob Kommentare auf Folien angezeigt werden sollen oder nicht
 public bool PrintComments { get; set; }
 ```
 
-### Anmerkungen
+### Bemerkungen
 
 Der Standardwert ist **false**.
 

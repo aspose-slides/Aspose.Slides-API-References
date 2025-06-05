@@ -1,21 +1,21 @@
 ---
 title: BuildType
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Liste des types de construction pour l'ex. Paragraphe 123 Tout en Une de l'animation de texte. Lire/écrire BuildTypeaspose.slides.animation/itextanimation/buildtype.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Liste des types de construction pour exp. Paragraphe 123 Tout à la fois de l'animation de texte. Lire/écrire BuildTypeaspose.slides.animation/itextanimation/buildtype.
 type: docs
 weight: 10
 url: /fr/aspose.slides.animation/itextanimation/buildtype/
 ---
 
-## Propriété ITextAnimation.BuildType
+## ITextAnimation.BuildType propriété
 
-Liste des types de construction (pour l'ex. Paragraphe 1, 2, 3, Tout en Une) de l'animation de texte. Lire/écrire `BuildType`.
+Liste des types de construction (pour exp. Paragraphe 1,2,3, Tout à la fois) de l'animation de texte. Lire/écrire `BuildType`.
 
 ```csharp
 public BuildType BuildType { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [BuildType](../../buildtype)
 * interface [ITextAnimation](../../itextanimation)

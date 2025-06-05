@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/mathgroupingcharacterfactory/mathgroupingcharacterfactory/
 ---
+
 ## MathGroupingCharacterFactory constructor
 
 The default constructor.

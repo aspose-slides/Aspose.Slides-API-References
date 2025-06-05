@@ -1,7 +1,7 @@
 ---
-title: Anzahl
+title: Count
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Anzahl der Verhaltensweisen in einer Sammlung zurück. Schreibgeschützter Int32.
+description: Gibt die Anzahl der Verhaltensweisen in einer Sammlung zurück. Schreibgeschütztes Int32.
 type: docs
 weight: 20
 url: /de/aspose.slides.animation/ibehaviorcollection/count/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/ibehaviorcollection/count/
 
 ## IBehaviorCollection.Count-Eigenschaft
 
-Gibt die Anzahl der Verhaltensweisen in einer Sammlung zurück. Schreibgeschützter Int32.
+Gibt die Anzahl der Verhaltensweisen in einer Sammlung zurück. Schreibgeschütztes Int32.
 
 ```csharp
 public int Count { get; }

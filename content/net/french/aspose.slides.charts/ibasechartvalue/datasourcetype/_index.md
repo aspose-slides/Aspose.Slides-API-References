@@ -1,15 +1,15 @@
 ---
 title: DataSourceType
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie si la propriété AsCell ou AsLiteralString ou AsLiteralDouble est actuelle. En d'autres termes, elle spécifie le type de valeur de la propriété Data. Cette propriété est en lecture seule. Pour changer la valeur de cette propriété, vous pouvez utiliser l'une des propriétés ChartDataPointCollection.DataSourceTypeFor&lt;...&gt;. Propriété en lecture/écriture DataSourceType.
+description: Spécifie si la propriété AsCell ou AsLiteralString ou AsLiteralDouble est actuelle. En d'autres termes, elle spécifie le type de valeur de la propriété Data. Cette propriété est en lecture seule. Pour changer la valeur de cette propriété, vous pouvez utiliser l'une des propriétés ChartDataPointCollection.DataSourceTypeFor&lt;...&gt;. Lecture/écriture DataSourceType.
 type: docs
 weight: 20
 url: /fr/aspose.slides.charts/ibasechartvalue/datasourcetype/
 ---
 
-## Propriété IBaseChartValue.DataSourceType
+## IBaseChartValue.DataSourceType property
 
-Spécifie si la propriété AsCell ou AsLiteralString ou AsLiteralDouble est actuelle. En d'autres termes, elle spécifie le type de valeur de la propriété Data. Cette propriété est en lecture seule. Pour changer la valeur de cette propriété, vous pouvez utiliser l'une des propriétés ChartDataPointCollection.DataSourceTypeFor&lt;...&gt;. Propriété en lecture/écriture `DataSourceType`.
+Spécifie si la propriété AsCell ou AsLiteralString ou AsLiteralDouble est actuelle. En d'autres termes, elle spécifie le type de valeur de la propriété Data. Cette propriété est en lecture seule. Pour changer la valeur de cette propriété, vous pouvez utiliser l'une des propriétés ChartDataPointCollection.DataSourceTypeFor&lt;...&gt;. Lecture/écriture `DataSourceType`.
 
 ```csharp
 public DataSourceType DataSourceType { get; set; }

@@ -1,13 +1,13 @@
 ---
 title: AsIEffectEffectiveData
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Permite obtener la interfaz base IEffectEffectiveData. Solo lectura IEffectEffectiveDataaspose.slides.effects/ieffecteffectivedata.
 type: docs
 weight: 10
 url: /es/aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata/
 ---
 
-## Propiedad ISoftEdgeEffectiveData.AsIEffectEffectiveData
+## ISoftEdgeEffectiveData.AsIEffectEffectiveData property
 
 Permite obtener la interfaz base IEffectEffectiveData. Solo lectura [`IEffectEffectiveData`](../../ieffecteffectivedata).
 

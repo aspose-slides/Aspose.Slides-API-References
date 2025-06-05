@@ -1,7 +1,7 @@
 ---
 title: IDigitalSignature
-second_title: Référence API Aspose.Slides pour .NET
-description: Signature numérique dans le fichier signé.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Signature numérique dans un fichier signé.
 type: docs
 weight: 5490
 url: /fr/aspose.slides/idigitalsignature/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/idigitalsignature/
 
 ## Interface IDigitalSignature
 
-Signature numérique dans le fichier signé.
+Signature numérique dans un fichier signé.
 
 ```csharp
 public interface IDigitalSignature
@@ -19,8 +19,8 @@ public interface IDigitalSignature
 
 | Nom | Description |
 | --- | --- |
-| [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | Objet certificat qui a été utilisé pour signer le document. Lecture seule X509Certificate2. |
-| [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | L'objectif de la signature. Lecture/écriture String. |
+| [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | Objet Certificate qui a été utilisé pour signer le document. Lecture seule X509Certificate2. |
+| [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | Le but de la signature. Lecture/écriture String. |
 | [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | Si cette signature numérique est valide et que le document n'a pas été altéré, cette valeur sera vraie. Lecture seule Boolean. |
 | [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | Le moment où le document a été signé. Lecture seule DateTime. |
 

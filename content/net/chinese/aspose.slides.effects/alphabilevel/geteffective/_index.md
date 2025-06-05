@@ -1,6 +1,6 @@
 ---
 title: GetEffective
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取应用继承的有效 Alpha Bi-Level 特效数据。
 type: docs
 weight: 30
@@ -19,7 +19,7 @@ public IAlphaBiLevelEffectiveData GetEffective()
 
 一个 [`IAlphaBiLevelEffectiveData`](../../ialphabileveleffectivedata)。
 
-### 另请参阅
+### 另见
 
 * 接口 [IAlphaBiLevelEffectiveData](../../ialphabileveleffectivedata)
 * 类 [AlphaBiLevel](../../alphabilevel)

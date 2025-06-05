@@ -7,7 +7,7 @@ weight: 60
 url: /de/aspose.slides.effects/iimagetransformoperationcollection/addalphainverseeffect/
 ---
 
-## IImageTransformOperationCollection.AddAlphaInverseEffect-Methode
+## IImageTransformOperationCollection.AddAlphaInverseEffect Methoden
 
 Fügt den neuen Alpha Inverse-Effekt am Ende einer Sammlung hinzu.
 
@@ -21,8 +21,8 @@ Index des neuen Bildeffekts in einer Sammlung.
 
 ### Siehe auch
 
-* Schnittstelle [IAlphaInverse](../../ialphainverse)
-* Schnittstelle [IImageTransformOperationCollection](../../iimagetransformoperationcollection)
+* Interface [IAlphaInverse](../../ialphainverse)
+* Interface [IImageTransformOperationCollection](../../iimagetransformoperationcollection)
 * Namespace [Aspose.Slides.Effects](../../iimagetransformoperationcollection)
 * Assembly [Aspose.Slides](../../../)
 

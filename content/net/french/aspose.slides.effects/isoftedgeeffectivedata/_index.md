@@ -1,7 +1,7 @@
 ---
 title: ISoftEdgeEffectiveData
-second_title: Référence API Aspose.Slides pour .NET
-description: Objet immuable représentant un effet de bord flou. Les bords de la forme sont flous tandis que le remplissage n'est pas affecté.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Objet immuable qui représente un effet de bord doux. Les bords de la forme sont flous tandis que le remplissage n'est pas affecté.
 type: docs
 weight: 3410
 url: /fr/aspose.slides.effects/isoftedgeeffectivedata/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/isoftedgeeffectivedata/
 
 ## Interface ISoftEdgeEffectiveData
 
-Objet immuable représentant un effet de bord flou. Les bords de la forme sont flous, tandis que le remplissage n'est pas affecté.
+Objet immuable qui représente un effet de bord doux. Les bords de la forme sont flous, tandis que le remplissage n'est pas affecté.
 
 ```csharp
 public interface ISoftEdgeEffectiveData : IEffectEffectiveData

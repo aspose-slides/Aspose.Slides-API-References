@@ -1,7 +1,7 @@
 ---
 title: CaptionTracks
-second_title: Aspose.Slides для справки по API .NET
-description: Возвращает коллекцию закрытых субтитров видео. Только для чтения ICaptionsCollectionaspose.slides/icaptionscollection.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает коллекцию скрытых субтитров видео. Только для чтения ICaptionsCollectionaspose.slides/icaptionscollection.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ivideoframe/captiontracks/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ivideoframe/captiontracks/
 
 ## Свойство IVideoFrame.CaptionTracks
 
-Возвращает коллекцию закрытых субтитров видео. Только для чтения [`ICaptionsCollection`](../../icaptionscollection).
+Возвращает коллекцию скрытых субтитров видео. Только для чтения [`ICaptionsCollection`](../../icaptionscollection).
 
 ```csharp
 public ICaptionsCollection CaptionTracks { get; }

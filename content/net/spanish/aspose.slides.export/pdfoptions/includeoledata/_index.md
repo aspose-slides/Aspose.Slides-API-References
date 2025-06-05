@@ -1,7 +1,7 @@
 ---
 title: IncludeOleData
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Verdadero para convertir todos los datos OLE de la presentación en archivos incrustados en el PDF resultante. Lectura/escritura Booleano.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Verdadero para convertir todos los datos OLE de la presentación en archivos incrustados en el PDF resultante. Booleano de lectura/escritura.
 type: docs
 weight: 110
 url: /es/aspose.slides.export/pdfoptions/includeoledata/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.export/pdfoptions/includeoledata/
 
 ## PdfOptions.IncludeOleData propiedad
 
-Verdadero para convertir todos los datos OLE de la presentación en archivos incrustados en el PDF resultante. Lectura/escritura Booleano.
+Verdadero para convertir todos los datos OLE de la presentación en archivos incrustados en el PDF resultante. Booleano de lectura/escritura.
 
 ```csharp
 public bool IncludeOleData { get; set; }
@@ -17,7 +17,7 @@ public bool IncludeOleData { get; set; }
 
 ### Observaciones
 
-El valor predeterminado es **false**.
+El valor predeterminado es **falso**.
 
 ### Ejemplos
 
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Véase también
+### Ver También
 
 * clase [PdfOptions](../../pdfoptions)
 * espacio de nombres [Aspose.Slides.Export](../../pdfoptions)

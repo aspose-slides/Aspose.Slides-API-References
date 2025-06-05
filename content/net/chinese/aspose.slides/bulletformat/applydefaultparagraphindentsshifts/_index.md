@@ -1,7 +1,7 @@
 ---
 title: ApplyDefaultParagraphIndentsShifts
 second_title: Aspose.Sildes for .NET API Reference
-description: 设置有效段落缩进和 MarginLeft 的默认非零偏移量，当启用项目符号时，如 PowerPoint 在启用段落项目符号/编号时所做的那样。如果已禁用项目符号，则仅重置段落缩进和 MarginLeft，如 PowerPoint 在禁用段落项目符号/编号时所做的那样。缩进偏移量是根据当前项目符号上下文应用的 - IBulletFormat.Type，.NumberedBulletStyle 和第一部分的 FontHeight。非零缩进偏移量应用于当前段落的有效缩进和 MarginLeft（使结果值为本地值）。
+description: 设置默认的非零偏移量，以便在启用项目符号时有效段落缩进和左边距，就像 PowerPoint 在启用段落项目符号/编号时所做的那样。如果禁用项目符号，则像 PowerPoint 在禁用段落项目符号/编号时所做的那样，仅重置段落缩进和左边距。缩进偏移量是根据当前项目符号上下文 - IBulletFormat.Type、.NumberedBulletStyle 和第一部分的 FontHeight 应用的。非零缩进偏移量应用于当前段落的有效缩进和左边距（使结果值成为局部值）。
 type: docs
 weight: 110
 url: /zh/aspose.slides/bulletformat/applydefaultparagraphindentsshifts/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/bulletformat/applydefaultparagraphindentsshifts/
 
 ## BulletFormat.ApplyDefaultParagraphIndentsShifts 方法
 
-设置有效段落缩进和 MarginLeft 的默认非零偏移量，当启用项目符号时（如 PowerPoint 在启用段落项目符号/编号时所做的那样）。如果已禁用项目符号，则仅重置段落缩进和 MarginLeft（如 PowerPoint 在禁用段落项目符号/编号时所做的那样）。缩进偏移量是根据当前项目符号上下文应用的 - IBulletFormat.Type，.NumberedBulletStyle 和第一部分的 FontHeight。非零缩进偏移量应用于当前段落的有效缩进和 MarginLeft（使结果值为本地值）。
+设置默认的非零偏移量，以便在启用项目符号时有效段落缩进和左边距（就像 PowerPoint 在启用段落项目符号/编号时所做的那样）。如果禁用项目符号，则像 PowerPoint 在禁用段落项目符号/编号时所做的那样，仅重置段落缩进和左边距。缩进偏移量是根据当前项目符号上下文 - IBulletFormat.Type、.NumberedBulletStyle 和第一部分的 FontHeight 应用的。非零缩进偏移量应用于当前段落的有效缩进和左边距（使结果值成为局部值）。
 
 ```csharp
 public void ApplyDefaultParagraphIndentsShifts()
@@ -19,9 +19,9 @@ public void ApplyDefaultParagraphIndentsShifts()
 
 | 异常 | 条件 |
 | --- | --- |
-| InvalidOperationException | 调用此方法在以下情况下无关紧要，并抛出 InvalidOperationException：如果父格式化对象不是段落（例如调用 ITextStyle.DefaultParagraphFormat.Bullet.ApplyDefaultParagraphIndentsShifts() 将抛出异常）；或者如果段落未添加到任何 ITextFrame.Paragraphs 集合中（请先添加它）； |
+| InvalidOperationException | 调用此方法没有意义，并在以下情况下抛出 InvalidOperationException: 如果父格式化对象不是段落（例如，调用 ITextStyle.DefaultParagraphFormat.Bullet.ApplyDefaultParagraphIndentsShifts() 会抛出异常）；或者如果段落没有添加到任何 ITextFrame.Paragraphs 集合中（请先添加它）； |
 
-### 另请参阅
+### 另见
 
 * class [BulletFormat](../../bulletformat)
 * namespace [Aspose.Slides](../../bulletformat)

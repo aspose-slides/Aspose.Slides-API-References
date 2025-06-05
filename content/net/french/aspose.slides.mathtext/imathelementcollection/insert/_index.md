@@ -1,13 +1,13 @@
 ---
-title: Insérer
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Insert
+second_title: Aspose.Sildes pour .NET API Reference
 description: Insère un élément mathématique dans la collection à l'index spécifié.
 type: docs
 weight: 90
 url: /fr/aspose.slides.mathtext/imathelementcollection/insert/
 ---
 
-## Méthode IMathElementCollection.Insert
+## IMathElementCollection.Insert méthode
 
 Insère un élément mathématique dans la collection à l'index spécifié.
 
@@ -17,12 +17,12 @@ public void Insert(int index, IMathElement item)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | L'index basé sur zéro dans lequel IMathElement doit être inséré. |
+| index | Int32 | L'index basé sur zéro auquel IMathElement doit être inséré. |
 | item | IMathElement | L'IMathElement à insérer. |
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

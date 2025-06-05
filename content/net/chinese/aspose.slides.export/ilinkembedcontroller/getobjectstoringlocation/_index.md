@@ -1,15 +1,15 @@
 ---
 title: GetObjectStoringLocation
-second_title: Aspose.Slides for .NET API 参考
-description: 确定对象应该存储的位置。此方法对于每个对象 ID 调用一次。无法保证不会有两个具有相同数据、semanticName 和 contentType 但具有不同 ID 的对象。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定对象应该存储在哪里。该方法在每个对象 ID 上调用一次。不能保证不会有两个具有相同数据的对象，semanticName 和 contentType 但具有不同的 ID。
 type: docs
 weight: 10
 url: /zh/aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation/
 ---
 
-## ILinkEmbedController.GetObjectStoringLocation 方法
+## ILinkEmbedController.GetObjectStoringLocation method
 
-确定对象应该存储的位置。此方法对于每个对象 ID 调用一次。无法保证不会有两个具有相同数据、semanticName 和 contentType 但具有不同 ID 的对象。
+确定对象应该存储在哪里。该方法在每个对象 ID 上调用一次。不能保证不会有两个具有相同数据的对象，semanticName 和 contentType 但具有不同的 ID。
 
 ```csharp
 public LinkEmbedDecision GetObjectStoringLocation(int id, byte[] entityData, string semanticName, 
@@ -18,9 +18,9 @@ public LinkEmbedDecision GetObjectStoringLocation(int id, byte[] entityData, str
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| id | Int32 | 对象 ID。此 ID 是保存操作全局唯一的。 |
+| id | Int32 | 对象 ID。该 ID 是保存操作范围内唯一的。 |
 | entityData | Byte[] | 对象的二进制数据。如果对象的二进制数据尚未生成，则此参数可以为 null。 |
-| semanticName | String | 描述对象含义的一些简短文本。控制器可以将其用作外部对象名称的一部分，但确保名称唯一并只包含允许字符的责任在于调度程序。 |
+| semanticName | String | 描述对象含义的简短文本。控制器可以将其作为外部对象名称的一部分，但确保名称唯一并仅包含允许字符的工作由调度程序负责。 |
 | contentType | String | 对象的 MIME 类型。 |
 | recomendedExtension | String | 针对此 MIME 类型推荐的文件名扩展名。 |
 
@@ -28,7 +28,7 @@ public LinkEmbedDecision GetObjectStoringLocation(int id, byte[] entityData, str
 
 决策
 
-### 参见
+### 另请参见
 
 * enum [LinkEmbedDecision](../../linkembeddecision)
 * interface [ILinkEmbedController](../../ilinkembedcontroller)

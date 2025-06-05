@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.effects/ireflectioneffectivedata/skewhorizontal/
 ---
+
 ## IReflectionEffectiveData.SkewHorizontal property
 
 Specifies the horizontal skew angle. Read-only Double.

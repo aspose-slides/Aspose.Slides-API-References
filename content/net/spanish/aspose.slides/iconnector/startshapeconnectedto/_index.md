@@ -1,15 +1,15 @@
 ---
 title: StartShapeConnectedTo
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Devuelve o establece la forma a la que se adjuntará el principio del conector. Lectura/escritura IShapeaspose.slides/ishape.
+second_title: Aspose.Slides para .NET API Reference
+description: Devuelve o establece la forma a la que se unirá el principio del conector. Lectura/escritura IShapeaspose.slides/ishape.
 type: docs
 weight: 60
 url: /es/aspose.slides/iconnector/startshapeconnectedto/
 ---
 
-## Propiedad IConnector.StartShapeConnectedTo
+## IConnector.StartShapeConnectedTo property
 
-Devuelve o establece la forma a la que se adjuntará el principio del conector. Lectura/escritura [`IShape`](../../ishape).
+Devuelve o establece la forma a la que se unirá el principio del conector. Lectura/escritura [`IShape`](../../ishape).
 
 ```csharp
 public IShape StartShapeConnectedTo { get; set; }
@@ -17,15 +17,15 @@ public IShape StartShapeConnectedTo { get; set; }
 
 ### Excepciones
 
-| excepción | condición |
+| exception | condition |
 | --- | --- |
-| ArgumentException | Lanzada cuando la forma conectada no tiene sitios de conexión (IShape.ConnectionSiteCount igual a cero) |
+| ArgumentException | Se lanza cuando la forma conectada no tiene sitios de conexión (IShape.ConnectionSiteCount es igual a cero) |
 
-### Vea También
+### Ver También
 
-* interfaz [IShape](../../ishape)
-* interfaz [IConnector](../../iconnector)
-* espacio de nombres [Aspose.Slides](../../iconnector)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IShape](../../ishape)
+* interface [IConnector](../../iconnector)
+* namespace [Aspose.Slides](../../iconnector)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

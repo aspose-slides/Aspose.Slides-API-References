@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ibulletformat/color/
 ---
+
 ## IBulletFormat.Color property
 
 Returns the color format of a bullet of a paragraph with no inheritance. Read-only [`IColorFormat`](../../icolorformat).

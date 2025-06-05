@@ -1,6 +1,6 @@
 ---
 title: RemovePlaceholder
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Definiert, dass diese Form kein Platzhalter ist.
 type: docs
 weight: 330
@@ -15,7 +15,7 @@ Definiert, dass diese Form kein Platzhalter ist.
 public void RemovePlaceholder()
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IShape](../../ishape)
 * Namespace [Aspose.Slides](../../ishape)

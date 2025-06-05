@@ -1,6 +1,6 @@
 ---
-title: 清除
-second_title: Aspose.Slides for .NET API 参考
+title: Clear
+second_title: Aspose.Sildes for .NET API Reference
 description: 移除所有颜色操作。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/icoloroperationcollection/clear/
 public void Clear()
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IColorOperationCollection](../../icoloroperationcollection)
 * 命名空间 [Aspose.Slides](../../icoloroperationcollection)

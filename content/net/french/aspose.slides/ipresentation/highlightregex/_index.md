@@ -1,7 +1,7 @@
 ---
 title: HighlightRegex
-second_title: Référence API Aspose.Slides pour .NET
-description: Met en évidence toutes les correspondances de l'expression régulière avec la couleur spécifiée.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Met en surbrillance toutes les correspondances de l'expression régulière avec la couleur spécifiée.
 type: docs
 weight: 320
 url: /fr/aspose.slides/ipresentation/highlightregex/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ipresentation/highlightregex/
 
 ## Méthode IPresentation.HighlightRegex
 
-Met en évidence toutes les correspondances de l'expression régulière avec la couleur spécifiée.
+Met en surbrillance toutes les correspondances de l'expression régulière avec la couleur spécifiée.
 
 ```csharp
 public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallback callback)
@@ -17,20 +17,20 @@ public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallbac
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| regex | Regex | L'expression régulière Regex pour obtenir les chaînes à mettre en évidence. |
-| highlightColor | Color | La couleur pour mettre en évidence le texte. |
-| callback | IFindResultCallback | L'objet de rappel pour recevoir les résultats de la recherche [`IFindResultCallback`](../../ifindresultcallback). |
+| regex | Regex | L'expression régulière Regex pour obtenir les chaînes à mettre en surbrillance. |
+| highlightColor | Color | La couleur pour mettre en surbrillance le texte. |
+| callback | IFindResultCallback | L'objet de rappel pour recevoir les résultats de recherche [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Exemples
 
-L'exemple de code suivant montre comment mettre en évidence du texte dans une présentation PowerPoint en utilisant une expression régulière.
+L'échantillon de code suivant montre comment mettre en surbrillance le texte dans une présentation PowerPoint en utilisant une expression régulière.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// mettant en évidence tous les mots de 10 caractères ou plus
+	// mettant en surbrillance tous les mots de 10 caractères ou plus
 	presentation.HighlightRegex(regex, Color.Blue, null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }

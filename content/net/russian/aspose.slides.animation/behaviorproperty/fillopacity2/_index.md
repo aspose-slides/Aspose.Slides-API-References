@@ -1,13 +1,13 @@
 ---
 title: FillOpacity2
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справка по API Aspose.Slides для .NET
 description: Представляет свойство fill.opacity2
 type: docs
 weight: 380
 url: /ru/aspose.slides.animation/behaviorproperty/fillopacity2/
 ---
 
-## Свойство BehaviorProperty.FillOpacity2
+## BehaviorProperty.FillOpacity2 свойство
 
 Представляет свойство 'fill.opacity2'
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/behaviorproperty/fillopacity2/
 public static BehaviorProperty FillOpacity2 { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)

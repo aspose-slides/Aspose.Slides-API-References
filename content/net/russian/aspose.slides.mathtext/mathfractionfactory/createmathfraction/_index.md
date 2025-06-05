@@ -1,13 +1,13 @@
 ---
 title: CreateMathFraction
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Создает математическую дробь
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/mathfractionfactory/createmathfraction/
 ---
 
-## CreateMathFraction(IMathElement, IMathElement, MathFractionTypes) {#createmathfraction_1}
+## CreateMathFraction(IMathElement, IMathElement, MathFractionTypes) {#createmathfraction_1}
 
 Создает математическую дробь
 
@@ -33,7 +33,7 @@ public IMathFraction CreateMathFraction(IMathElement numerator, IMathElement den
 
 ---
 
-## CreateMathFraction(IMathElement, IMathElement) {#createmathfraction}
+## CreateMathFraction(IMathElement, IMathElement) {#createmathfraction}
 
 Создает математическую дробь
 

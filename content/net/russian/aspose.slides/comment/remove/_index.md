@@ -1,6 +1,6 @@
 ---
-title: Удалить
-second_title: Справочник по API Aspose.Sildes для .NET
+title: Remove
+second_title: Aspose.Sildes для .NET API Справочник
 description: Удаляет комментарий и все его ответы из родительской коллекции.
 type: docs
 weight: 70
@@ -19,7 +19,7 @@ public void Remove()
 
 | исключение | условие |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Генерируется, если комментарий уже удален |
+| [PptxEditException](../../pptxeditexception) | Выбрасывается, если комментарий уже удален |
 
 ### См. также
 

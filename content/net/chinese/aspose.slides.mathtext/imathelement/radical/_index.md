@@ -1,7 +1,7 @@
 ---
-title: 幅度
-second_title: Aspose.Slides for .NET API 参考
-description: 指定从指定参数给定度数的数学根。
+title: Radical
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定来自指定参数的给定度的数学根。
 type: docs
 weight: 120
 url: /zh/aspose.slides.mathtext/imathelement/radical/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathelement/radical/
 
 ## Radical(IMathElement) {#radical}
 
-指定从指定参数给定度数的数学根。
+指定来自指定参数的给定度的数学根。
 
 ```csharp
 public IMathRadical Radical(IMathElement degree)
@@ -21,7 +21,7 @@ public IMathRadical Radical(IMathElement degree)
 
 ### 返回值
 
-新的 [`IMathRadical`](../../imathradical) 类型实例
+类型为 [`IMathRadical`](../../imathradical) 的新实例
 
 ### 示例
 
@@ -45,7 +45,7 @@ var radical = baseElement.Radical(degree);
 
 ## Radical(string) {#radical_1}
 
-指定从指定参数给定度数的数学根。
+指定来自指定参数的给定度的数学根。
 
 ```csharp
 public IMathRadical Radical(string degree)
@@ -57,7 +57,7 @@ public IMathRadical Radical(string degree)
 
 ### 返回值
 
-新的 [`IMathRadical`](../../imathradical) 类型实例
+类型为 [`IMathRadical`](../../imathradical) 的新实例
 
 ### 示例
 

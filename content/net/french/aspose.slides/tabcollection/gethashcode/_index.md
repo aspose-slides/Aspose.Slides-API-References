@@ -1,13 +1,13 @@
 ---
 title: GetHashCode
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie le code de hachage pour cet objet.
 type: docs
 weight: 100
 url: /fr/aspose.slides/tabcollection/gethashcode/
 ---
 
-## Méthode TabCollection.GetHashCode
+## TabCollection.GetHashCode méthode
 
 Renvoie le code de hachage pour cet objet.
 

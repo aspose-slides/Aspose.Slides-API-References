@@ -1,21 +1,21 @@
 ---
 title: FillOverlayEffect
-second_title: Справочник по API Aspose.Slides для .NET
-description: Эффект наложения заливки. Доступ только для чтения IFillOverlayEffectiveDataaspose.slides.effects/ifilloverlayeffectivedata.
+second_title: Ссылки на API Aspose.Slides для .NET
+description: Эффект наложения заливки. Данные IFillOverlayEffectiveDataaspose.slides.effects/ifilloverlayeffectivedata только для чтения.
 type: docs
 weight: 30
 url: /ru/aspose.slides/ieffectformateffectivedata/filloverlayeffect/
 ---
 
-## Свойство IEffectFormatEffectiveData.FillOverlayEffect
+## IEffectFormatEffectiveData.FillOverlayEffect свойство
 
-Эффект наложения заливки. Доступ только для чтения [`IFillOverlayEffectiveData`](../../../aspose.slides.effects/ifilloverlayeffectivedata).
+Эффект наложения заливки. Данные только для чтения [`IFillOverlayEffectiveData`](../../../aspose.slides.effects/ifilloverlayeffectivedata).
 
 ```csharp
 public IFillOverlayEffectiveData FillOverlayEffect { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IFillOverlayEffectiveData](../../../aspose.slides.effects/ifilloverlayeffectivedata)
 * интерфейс [IEffectFormatEffectiveData](../../ieffectformateffectivedata)

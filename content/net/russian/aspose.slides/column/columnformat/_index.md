@@ -1,7 +1,7 @@
 ---
 title: ColumnFormat
-second_title: Aspose.Slides для .NET API Справка
-description: Возвращает объект ColumnFormat, который содержит свойства форматирования для этого столбца. Только для чтения IColumnFormataspose.slides/icolumnformat.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает объект ColumnFormat, который содержит свойства форматирования для этого столбца. Только для чтения IColumnFormat aspose.slides/icolumnformat.
 type: docs
 weight: 10
 url: /ru/aspose.slides/column/columnformat/

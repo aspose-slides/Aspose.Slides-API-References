@@ -1,13 +1,13 @@
 ---
-title: ВысотаЭкструзии
-second_title: Справочник по API Aspose.Slides для .NET
+title: ExtrusionHeight
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает высоту эффекта экструзии. Только для чтения Double.
 type: docs
 weight: 90
 url: /ru/aspose.slides/ithreedformateffectivedata/extrusionheight/
 ---
 
-## Свойство IThreeDFormatEffectiveData.ExtrusionHeight
+## IThreeDFormatEffectiveData.ExtrusionHeight свойство
 
 Возвращает высоту эффекта экструзии. Только для чтения Double.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ithreedformateffectivedata/extrusionheight/
 public double ExtrusionHeight { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IThreeDFormatEffectiveData](../../ithreedformateffectivedata)
 * пространство имен [Aspose.Slides](../../ithreedformateffectivedata)

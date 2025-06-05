@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.mathtext/mathradical/degree/
 ---
+
 ## MathRadical.Degree property
 
 Degree argument

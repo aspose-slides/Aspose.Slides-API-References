@@ -1,7 +1,7 @@
 ---
 title: ITabCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示选项卡的集合。
+description: 代表一个标签集合。
 type: docs
 weight: 6980
 url: /zh/aspose.slides/itabcollection/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/itabcollection/
 
 ## ITabCollection 接口
 
-表示选项卡的集合。
+代表一个标签集合。
 
 ```csharp
 public interface ITabCollection : IGenericCollection<ITab>
@@ -19,14 +19,14 @@ public interface ITabCollection : IGenericCollection<ITab>
 
 | 名称 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides/itabcollection/item) { get; } | 获取指定索引处的元素。 为只读 [`ITab`](../itab)。 |
+| [Item](../../aspose.slides/itabcollection/item) { get; } | 获取指定索引处的元素。只读 [`ITab`](../itab)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides/itabcollection/add#add_1)(ITab) | 将选项卡添加到集合。 |
-| [Add](../../aspose.slides/itabcollection/add#add)(double, TabAlignment) | 将选项卡添加到集合。 |
+| [Add](../../aspose.slides/itabcollection/add#add_1)(ITab) | 向集合中添加一个标签。 |
+| [Add](../../aspose.slides/itabcollection/add#add)(double, TabAlignment) | 向集合中添加一个标签。 |
 | [Clear](../../aspose.slides/itabcollection/clear)() | 从集合中移除所有元素。 |
 | [RemoveAt](../../aspose.slides/itabcollection/removeat)(int) | 移除集合中指定索引处的元素。 |
 

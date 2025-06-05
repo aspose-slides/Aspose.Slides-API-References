@@ -1,7 +1,7 @@
 ---
 title: ToBinary
-second_title: Aspose.Slides for .NET API 参考
-description: 返回VBA项目的二进制表示，作为OLE容器
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回 VBA 项目的二进制表示形式，作为 OLE 容器
 type: docs
 weight: 60
 url: /zh/aspose.slides.vba/vbaproject/tobinary/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.vba/vbaproject/tobinary/
 
 ## VbaProject.ToBinary 方法
 
-返回VBA项目的二进制表示，作为OLE容器
+返回 VBA 项目的二进制表示形式，作为 OLE 容器
 
 ```csharp
 public byte[] ToBinary()
@@ -17,9 +17,9 @@ public byte[] ToBinary()
 
 ### 返回值
 
-VBA项目的二进制表示，作为OLE容器
+VBA 项目的二进制表示形式，作为 OLE 容器
 
-### 另见
+### 另请参阅
 
 * class [VbaProject](../../vbaproject)
 * namespace [Aspose.Slides.Vba](../../vbaproject)

@@ -1,7 +1,7 @@
 ---
 title: RowSpan
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Anzahl der Zeilen zurück, die eine zusammengeführte Zelle umfasst. Dies wird zusammen mit dem vMerge-Attribut auf anderen Zellen verwendet, um die Anfangszelle einer horizontalen Zusammenführung anzugeben. Nur lesbarer Int32.
+description: Gibt die Anzahl der Zeilen zurück, die eine zusammengeführte Zelle umfasst. Dies wird in Kombination mit dem vMerge-Attribut bei anderen Zellen verwendet, um die Anfangszelle einer horizontalen Zusammenführung anzugeben. Nur lesbarer Int32.
 type: docs
 weight: 180
 url: /de/aspose.slides/cell/rowspan/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/cell/rowspan/
 
 ## Cell.RowSpan-Eigenschaft
 
-Gibt die Anzahl der Zeilen zurück, die eine zusammengeführte Zelle umfasst. Dies wird zusammen mit dem vMerge-Attribut auf anderen Zellen verwendet, um die Anfangszelle einer horizontalen Zusammenführung anzugeben. Nur lesbarer Int32.
+Gibt die Anzahl der Zeilen zurück, die eine zusammengeführte Zelle umfasst. Dies wird in Kombination mit dem vMerge-Attribut bei anderen Zellen verwendet, um die Anfangszelle einer horizontalen Zusammenführung anzugeben. Nur lesbarer Int32.
 
 ```csharp
 public int RowSpan { get; }

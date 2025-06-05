@@ -1,13 +1,13 @@
 ---
 title: FontsManager
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Schriftartenmanager zurück. Nur-Lese IFontsManageraspose.slides/ifontsmanager.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Schriftartenmanager zurück. Nur-Lese IFontsManager aspose.slides/ifontsmanager.
 type: docs
 weight: 120
 url: /de/aspose.slides/ipresentation/fontsmanager/
 ---
 
-## IPresentation.FontsManager-Eigenschaft
+## IPresentation.FontsManager Eigenschaft
 
 Gibt den Schriftartenmanager zurück. Nur-Lese [`IFontsManager`](../../ifontsmanager).
 

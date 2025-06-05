@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForBoxAndWhiskerSeries
-second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt den neuen Datenpunkt und fügt ihn ans Ende der Sammlung hinzu. Anwendbar für Serien, deren Diagrammtyp BoxAndWhisker ist.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren Diagrammtyp BoxAndWhisker ist.
 type: docs
 weight: 120
 url: /de/aspose.slides.charts/chartdatapointcollection/adddatapointforboxandwhiskerseries/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartdatapointcollection/adddatapointforboxandwhis
 
 ## ChartDataPointCollection.AddDataPointForBoxAndWhiskerSeries-Methode
 
-Erstellt den neuen Datenpunkt und fügt ihn ans Ende der Sammlung hinzu. Anwendbar für Serien, deren Diagrammtyp BoxAndWhisker ist.
+Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren Diagrammtyp BoxAndWhisker ist.
 
 ```csharp
 public IChartDataPoint AddDataPointForBoxAndWhiskerSeries(IChartDataCell value)
@@ -17,7 +17,7 @@ public IChartDataPoint AddDataPointForBoxAndWhiskerSeries(IChartDataCell value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| value | IChartDataCell | Wert des Datenpunkts |
+| value | IChartDataCell | Datenpunktwert |
 
 ### Rückgabewert
 

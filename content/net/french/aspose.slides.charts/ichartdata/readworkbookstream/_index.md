@@ -1,13 +1,13 @@
 ---
 title: ReadWorkbookStream
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Écrit le classeur Excel contenu en interne dans un flux en mémoire.
 type: docs
 weight: 100
 url: /fr/aspose.slides.charts/ichartdata/readworkbookstream/
 ---
 
-## Méthode IChartData.ReadWorkbookStream
+## IChartData.ReadWorkbookStream méthode
 
 Écrit le classeur Excel contenu en interne dans un flux en mémoire.
 
@@ -17,7 +17,7 @@ public MemoryStream ReadWorkbookStream()
 
 ### Valeur de retour
 
-Renvoie une instance de `MemoryStream` contenant une copie du classeur Excel contenu en interne.
+Retourne une instance de `MemoryStream` contenant une copie du classeur Excel contenu en interne.
 
 ### Voir aussi
 

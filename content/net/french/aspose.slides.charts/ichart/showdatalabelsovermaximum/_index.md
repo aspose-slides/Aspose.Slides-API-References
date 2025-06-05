@@ -1,13 +1,13 @@
 ---
 title: ShowDataLabelsOverMaximum
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Reference
 description: Spécifie que les étiquettes de données au-dessus du maximum du graphique doivent être affichées. Booléen lecture/écriture.
 type: docs
 weight: 190
 url: /fr/aspose.slides.charts/ichart/showdatalabelsovermaximum/
 ---
 
-## Propriété IChart.ShowDataLabelsOverMaximum
+## IChart.ShowDataLabelsOverMaximum propriété
 
 Spécifie que les étiquettes de données au-dessus du maximum du graphique doivent être affichées. Booléen lecture/écriture.
 
@@ -15,7 +15,7 @@ Spécifie que les étiquettes de données au-dessus du maximum du graphique doiv
 public bool ShowDataLabelsOverMaximum { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IChart](../../ichart)
 * namespace [Aspose.Slides.Charts](../../ichart)

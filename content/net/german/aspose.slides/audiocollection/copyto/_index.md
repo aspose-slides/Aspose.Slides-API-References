@@ -1,7 +1,7 @@
 ---
 title: CopyTo
 second_title: Aspose.Slides für .NET API Referenz
-description: Kopiert Audios in das angegebene Array, beginnend ab dem angegebenen Index.
+description: Kopiert Audiodateien in das angegebene Array, beginnend mit dem angegebenen Index.
 type: docs
 weight: 60
 url: /de/aspose.slides/audiocollection/copyto/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/audiocollection/copyto/
 
 ## AudioCollection.CopyTo-Methode
 
-Kopiert Audios in das angegebene Array, beginnend ab dem angegebenen Index.
+Kopiert Audiodateien in das angegebene Array, beginnend mit dem angegebenen Index.
 
 ```csharp
 public void CopyTo(Array array, int index)
@@ -20,7 +20,7 @@ public void CopyTo(Array array, int index)
 | array | Array | Array. |
 | index | Int32 | Index. |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [AudioCollection](../../audiocollection)
 * Namespace [Aspose.Slides](../../audiocollection)

@@ -1,7 +1,7 @@
 ---
 title: AnchorCenter
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Determina si la caja de texto está centrada dentro de una celda. Booleano de lectura/escritura.
+description: Determina si el cuadro de texto está centrado dentro de una celda. Booleano de lectura/escritura.
 type: docs
 weight: 10
 url: /es/aspose.slides/cell/anchorcenter/
@@ -9,16 +9,16 @@ url: /es/aspose.slides/cell/anchorcenter/
 
 ## Propiedad Cell.AnchorCenter
 
-Determina si la caja de texto está centrada dentro de una celda. Booleano de lectura/escritura.
+Determina si el cuadro de texto está centrado dentro de una celda. Booleano de lectura/escritura.
 
 ```csharp
 public bool AnchorCenter { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [Cell](../../cell)
 * espacio de nombres [Aspose.Slides](../../cell)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

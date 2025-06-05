@@ -1,7 +1,7 @@
 ---
 title: Name
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Namen einer Folie zurück oder setzt ihn. Lese-/Schreib-String.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Namen einer Folie zurück oder setzt diesen. Lese-/Schreib-String.
 type: docs
 weight: 50
 url: /de/aspose.slides/baseslide/name/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/baseslide/name/
 
 ## BaseSlide.Name-Eigenschaft
 
-Gibt den Namen einer Folie zurück oder setzt ihn. Lese-/Schreib-String.
+Gibt den Namen einer Folie zurück oder setzt diesen. Lese-/Schreib-String.
 
 ```csharp
 public virtual string Name { get; set; }

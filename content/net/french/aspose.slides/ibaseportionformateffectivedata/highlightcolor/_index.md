@@ -1,7 +1,7 @@
 ---
 title: HighlightColor
-second_title: Référence API Aspose.Slides pour .NET
-description: Retourne la couleur utilisée pour mettre en évidence un texte. Couleur en lecture seule.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie la couleur utilisée pour mettre en surbrillance un texte. Couleur en lecture seule.
 type: docs
 weight: 110
 url: /fr/aspose.slides/ibaseportionformateffectivedata/highlightcolor/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ibaseportionformateffectivedata/highlightcolor/
 
 ## Propriété IBasePortionFormatEffectiveData.HighlightColor
 
-Retourne la couleur utilisée pour mettre en évidence un texte. Couleur en lecture seule.
+Renvoie la couleur utilisée pour mettre en surbrillance un texte. Couleur en lecture seule.
 
 ```csharp
 public Color HighlightColor { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
 * namespace [Aspose.Slides](../../ibaseportionformateffectivedata)

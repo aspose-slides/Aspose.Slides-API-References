@@ -1,7 +1,7 @@
 ---
 title: GetEntity
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Mapea una URI a un objeto que contiene el recurso real.
+description: Mapea un URI a un objeto que contiene el recurso real.
 type: docs
 weight: 20
 url: /es/aspose.slides.import/externalresourceresolver/getentity/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.import/externalresourceresolver/getentity/
 
 ## Método ExternalResourceResolver.GetEntity
 
-Mapea una URI a un objeto que contiene el recurso real.
+Mapea un URI a un objeto que contiene el recurso real.
 
 ```csharp
 public virtual Stream GetEntity(string absoluteUri)
@@ -17,13 +17,13 @@ public virtual Stream GetEntity(string absoluteUri)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| absoluteUri | String | URI absoluta al objeto. |
+| absoluteUri | String | URI absoluto del objeto. |
 
-### Valor de retorno
+### Valor de Retorno
 
-Un objeto Stream o null si el recurso no puede ser transmitido.
+Un objeto Stream o null si el recurso no se puede transmitir.
 
-### Véase también
+### Véase También
 
 * clase [ExternalResourceResolver](../../externalresourceresolver)
 * espacio de nombres [Aspose.Slides.Import](../../externalresourceresolver)

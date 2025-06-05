@@ -1,7 +1,7 @@
 ---
 title: BubbleSizeRepresentation
 second_title: Aspose.Sildes for .NET API Reference
-description: 指定气泡图中气泡大小值的表示方式。这不仅是此系列的属性，也是父系列组中所有系列的属性 - 这是相应组属性的投影。因此，此属性是只读的。使用 ParentSeriesGroup 属性访问父系列组。使用 ParentSeriesGroup.BubbleSizeRepresentation 读/写属性以更改值。
+description: 指定气泡图上气泡大小值的表示方式。这个属性不仅属于这个系列，还属于所有父系列组的系列——这是适当组属性的投影。因此，这个属性是只读的。使用 ParentSeriesGroup 属性访问父系列组。使用 ParentSeriesGroup.BubbleSizeRepresentation 读/写属性来更改值。
 type: docs
 weight: 30
 url: /zh/aspose.slides.charts/ichartseries/bubblesizerepresentation/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ichartseries/bubblesizerepresentation/
 
 ## IChartSeries.BubbleSizeRepresentation 属性
 
-指定气泡图中气泡大小值的表示方式。这不仅是此系列的属性，也是父系列组中所有系列的属性 - 这是相应组属性的投影。因此，此属性是只读的。使用 ParentSeriesGroup 属性访问父系列组。使用 ParentSeriesGroup.BubbleSizeRepresentation 读/写属性以更改值。
+指定气泡图上气泡大小值的表示方式。这个属性不仅属于这个系列，还属于所有父系列组的系列——这是适当组属性的投影。因此，这个属性是只读的。使用 ParentSeriesGroup 属性访问父系列组。使用 ParentSeriesGroup.BubbleSizeRepresentation 读/写属性来更改值。
 
 ```csharp
 public BubbleSizeRepresentationType BubbleSizeRepresentation { get; }
@@ -19,7 +19,7 @@ public BubbleSizeRepresentationType BubbleSizeRepresentation { get; }
 
 这是属性 ParentSeriesGroup.BubbleSizeRepresentation 的投影。
 
-### 参见
+### 另请参阅
 
 * enum [BubbleSizeRepresentationType](../../bubblesizerepresentationtype)
 * interface [IChartSeries](../../ichartseries)

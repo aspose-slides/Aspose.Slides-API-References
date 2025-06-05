@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.util/slideutil/findandreplacetext/
 ---
+
 ## SlideUtil.FindAndReplaceText method
 
 Finds and replaces text in presentation with given format

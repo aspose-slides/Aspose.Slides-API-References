@@ -1,13 +1,13 @@
 ---
 title: RemoveHyperlinkClick
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Supprime le lien hypertexte au clic.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ihyperlinkmanager/removehyperlinkclick/
 ---
 
-## Méthode IHyperlinkManager.RemoveHyperlinkClick
+## IHyperlinkManager.RemoveHyperlinkClick méthode
 
 Supprime le lien hypertexte au clic.
 

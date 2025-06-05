@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/mathportion/mathportion/
 ---
+
 ## MathPortion constructor
 
 Initializes a new instance of the MathPortion class.

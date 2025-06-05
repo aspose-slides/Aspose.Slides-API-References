@@ -1,7 +1,7 @@
 ---
-title: 旋转锁定
-second_title: Aspose.Sildes for .NET API 参考
-description: 确定是否禁止更改该形状的旋转角度。可读/可写布尔值。
+title: RotationLocked
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定是否禁止更改此形状的旋转角度。可读/可写布尔值。
 type: docs
 weight: 50
 url: /zh/aspose.slides/igroupshapelock/rotationlocked/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/igroupshapelock/rotationlocked/
 
 ## IGroupShapeLock.RotationLocked 属性
 
-确定是否禁止更改该形状的旋转角度。可读/可写布尔值。
+确定是否禁止更改此形状的旋转角度。可读/可写布尔值。
 
 ```csharp
 public bool RotationLocked { get; set; }

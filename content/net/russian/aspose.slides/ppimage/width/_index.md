@@ -1,13 +1,13 @@
 ---
-title: Ширина
-second_title: Справочная информация по API Aspose.Sildes для .NET
+title: Width
+second_title: Aspose.Slides для .NET API Reference
 description: Возвращает ширину изображения. Только для чтения Int32.
 type: docs
 weight: 60
 url: /ru/aspose.slides/ppimage/width/
 ---
 
-## Свойство PPImage.Width
+## PPImage.Width свойство
 
 Возвращает ширину изображения. Только для чтения Int32.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ppimage/width/
 public int Width { get; }
 ```
 
-### Также смотрите
+### См. Также
 
 * класс [PPImage](../../ppimage)
 * пространство имен [Aspose.Slides](../../ppimage)

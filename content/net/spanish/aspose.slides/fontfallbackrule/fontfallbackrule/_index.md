@@ -1,13 +1,13 @@
 ---
 title: FontFallBackRule
-second_title: Referencia de API Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Crea una nueva instancia.
 type: docs
 weight: 10
 url: /es/aspose.slides/fontfallbackrule/fontfallbackrule/
 ---
 
-## FontFallBackRule(uint, uint, string) {#constructor}
+## FontFallBackRule(uint, uint, string) {#constructor}
 
 Crea una nueva instancia.
 
@@ -15,20 +15,20 @@ Crea una nueva instancia.
 public FontFallBackRule(uint startIndex, uint endIndex, string fontNames)
 ```
 
-| Parámetro | Tipo    | Descripción                                         |
-|-----------|---------|-----------------------------------------------------|
-| startIndex| UInt32 | Índice inicial del rango unicode                    |
-| endIndex  | UInt32 | Índice final del rango unicode                      |
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| startIndex | UInt32 | Índice inicial del rango unicode |
+| endIndex | UInt32 | Índice final del rango unicode |
 | fontNames | String | Nombre o nombres de la fuente (separados por comas) para FallBack |
 
 ### Ejemplos
 
 ```csharp
 [C#]
-// Crear nueva instancia de FontFallBackRule con una fuente.
+// Crea una nueva instancia de FontFallBackRule con una fuente.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho");
 
-// Crear nueva instancia de FontFallBackRule con varias fuentes.
+// Crea una nueva instancia de FontFallBackRule con varias fuentes.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma");
 ```
 
@@ -40,7 +40,7 @@ IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS 
 
 ---
 
-## FontFallBackRule(uint, uint, string[]) {#constructor_1}
+## FontFallBackRule(uint, uint, string[]) {#constructor_1}
 
 Crea una nueva instancia.
 
@@ -48,20 +48,20 @@ Crea una nueva instancia.
 public FontFallBackRule(uint startIndex, uint endIndex, string[] fontNames)
 ```
 
-| Parámetro | Tipo     | Descripción                                         |
-|-----------|----------|-----------------------------------------------------|
-| startIndex| UInt32  | Índice inicial del rango unicode                    |
-| endIndex  | UInt32  | Índice final del rango unicode                      |
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| startIndex | UInt32 | Índice inicial del rango unicode |
+| endIndex | UInt32 | Índice final del rango unicode |
 | fontNames | String[] | Nombre o nombres de la fuente (separados por comas) para FallBack |
 
 ### Ejemplos
 
 ```csharp
 [C#]
-// Crear nueva instancia de FontFallBackRule con dos fuentes.
-IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, new string[] { "MS Mincho", "MS Gothic" });
+// Crea una nueva instancia de FontFallBackRule con dos fuentes
+IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, new string[] { "MS Mincho", "MS Gothic"});
 
-// Crear nueva instancia de FontFallBackRule con varias fuentes.
+// Crea una nueva instancia de FontFallBackRule con varias fuentes.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, new string[] { "MS Gothic", "Tahoma, Times New Roman" });
 ```
 

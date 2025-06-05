@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/ierrorbarscustomvalues/xplus/
 ---
+
 ## IErrorBarsCustomValues.XPlus property
 
 Specifies the error bar value in the positive direction. Avalible if error bars value type is Custom and ErrorBarsXFormat is allowed. In any other case this property returns null. Read-only [`IDoubleChartValue`](../../idoublechartvalue).

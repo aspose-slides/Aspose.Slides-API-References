@@ -1,7 +1,7 @@
 ---
 title: WrapText
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Indique si le texte est enroulé aux marges des TextFrames. Booléen en lecture seule.
+second_title: Aspose.Slides pour la référence de l'API .NET
+description: Renvoie si le texte est enveloppé aux marges de TextFrames. Booléen en lecture seule.
 type: docs
 weight: 120
 url: /fr/aspose.slides/itextframeformateffectivedata/wraptext/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/itextframeformateffectivedata/wraptext/
 
 ## Propriété ITextFrameFormatEffectiveData.WrapText
 
-Indique si le texte est enroulé aux marges du TextFrame. Booléen en lecture seule.
+Renvoie si le texte est enveloppé aux marges de TextFrame. Booléen en lecture seule.
 
 ```csharp
 public bool WrapText { get; }

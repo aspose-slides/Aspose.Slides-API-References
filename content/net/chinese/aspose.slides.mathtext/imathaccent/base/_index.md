@@ -1,6 +1,6 @@
 ---
-title: 基础
-second_title: Aspose.Slides for .NET API 参考
+title: Base
+second_title: Aspose.Sildes for .NET API Reference
 description: 应用重音的参数
 type: docs
 weight: 20

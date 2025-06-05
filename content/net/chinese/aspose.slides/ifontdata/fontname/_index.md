@@ -1,5 +1,5 @@
 ---
-title: 字体名称
+title: FontName
 second_title: Aspose.Slides for .NET API 参考
 description: 返回字体名称。只读字符串。
 type: docs
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ifontdata/fontname/
 public string FontName { get; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IFontData](../../ifontdata)
 * 命名空间 [Aspose.Slides](../../ifontdata)

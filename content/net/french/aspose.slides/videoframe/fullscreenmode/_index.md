@@ -1,7 +1,7 @@
 ---
 title: FullScreenMode
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si une vidéo est affichée en mode plein écran. Booléen lisible/écrivable.
+second_title: Référence API Aspose.Slides pour .NET
+description: Détermine si une vidéo est affichée en mode plein écran. Boolean en lecture/écriture.
 type: docs
 weight: 30
 url: /fr/aspose.slides/videoframe/fullscreenmode/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/videoframe/fullscreenmode/
 
 ## Propriété VideoFrame.FullScreenMode
 
-Détermine si une vidéo est affichée en mode plein écran. Booléen lisible/écrivable.
+Détermine si une vidéo est affichée en mode plein écran. Boolean en lecture/écriture.
 
 ```csharp
 public bool FullScreenMode { get; set; }

@@ -1,15 +1,15 @@
 ---
 title: ExternalUrlOriginal
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa un hipervínculo que se establece para esta parte sin tener en cuenta el contenido real de la parte. PowerPoint se comporta de manera específica para los enlaces y su texto correspondiente en una parte. Permite crear texto para el hipervínculo en forma de una URL válida diferentes de la dirección real del enlace. En este caso, cuando veas el enlace en la ventana de edición, se cambiará para coincidir con la parte del texto. Esta propiedad representa el valor original del hipervínculo.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Representa un hiperenlace que se establece para esta porción sin tener en cuenta el contenido real de la porción. PowerPoint se comporta de manera específica para los enlaces y su texto correspondiente en una porción. Permite crear texto para el hiperenlace en forma de una URL válida diferente de la dirección real del enlace. En este caso, cuando se visualiza el enlace en la ventana de edición, se cambiará para coincidir con la porción de texto. Esta propiedad representa el valor original del hiperenlace.
 type: docs
 weight: 40
 url: /es/aspose.slides/ihyperlink/externalurloriginal/
 ---
 
-## Propiedad IHyperlink.ExternalUrlOriginal
+## IHyperlink.ExternalUrlOriginal property
 
-Representa un hipervínculo que se establece para esta parte sin tener en cuenta el contenido real de la parte. PowerPoint se comporta de manera específica para los enlaces y su texto correspondiente en una parte. Permite crear texto para el hipervínculo en forma de una URL válida, diferentes de la dirección real del enlace. En este caso, cuando veas el enlace en la ventana de edición, se cambiará para coincidir con la parte del texto. Esta propiedad representa el valor original del hipervínculo.
+Representa un hiperenlace que se establece para esta porción sin tener en cuenta el contenido real de la porción. PowerPoint se comporta de manera específica para los enlaces y su texto correspondiente en una porción. Permite crear texto para el hiperenlace en forma de una URL válida, diferente de la dirección real del enlace. En este caso, cuando se visualiza el enlace en la ventana de edición, se cambiará para coincidir con la porción de texto. Esta propiedad representa el valor original del hiperenlace.
 
 ```csharp
 public string ExternalUrlOriginal { get; }

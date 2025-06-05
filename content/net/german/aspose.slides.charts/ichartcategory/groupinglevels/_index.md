@@ -1,7 +1,7 @@
 ---
 title: GroupingLevels
-second_title: Aspose.Slides für .NET API-Referenz
-description: Verwalteter Container der Werte der Gruppierungsstufen der Diagrammkategorie. Mehrstufige Kategorien enthalten mehr als eine Gruppierungsstufe. Die Indizierung der Gruppierungsstufen ist nullbasiert. Nur-lesbar IChartCategoryLevelsManageraspose.slides/ichartcategorylevelsmanager.
+second_title: Aspose.Slides für .NET API Referenz
+description: Verwalteter Container der Werte der Gruppierungsebenen der Diagrammkategorien. Mehrstufige Kategorien enthalten mehr als eine Gruppierungsebene. Die Indizes der Gruppierungsebenen sind nullbasiert. Nur-lesbarer IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/ichartcategory/groupinglevels/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/ichartcategory/groupinglevels/
 
 ## IChartCategory.GroupingLevels-Eigenschaft
 
-Verwalteter Container der Werte der Gruppierungsstufen der Diagrammkategorie. Mehrstufige Kategorien enthalten mehr als eine Gruppierungsstufe. Die Indizierung der Gruppierungsstufen ist nullbasiert. Nur-lesbar [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
+Verwalteter Container der Werte der Gruppierungsebenen der Diagrammkategorien. Mehrstufige Kategorien enthalten mehr als eine Gruppierungsebene. Die Indizes der Gruppierungsebenen sind nullbasiert. Nur-lesbarer [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
 
 ```csharp
 public IChartCategoryLevelsManager GroupingLevels { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IChartCategoryLevelsManager](../../ichartcategorylevelsmanager)
 * Schnittstelle [IChartCategory](../../ichartcategory)

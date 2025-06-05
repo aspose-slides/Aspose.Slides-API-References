@@ -1,6 +1,6 @@
 ---
 title: PlotOnSecondAxis
-second_title: Aspose.Slides pour la référence de l'API .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Indique si les séries de ce groupe sont tracées sur l'axe secondaire. Booléen en lecture seule.
 type: docs
 weight: 160

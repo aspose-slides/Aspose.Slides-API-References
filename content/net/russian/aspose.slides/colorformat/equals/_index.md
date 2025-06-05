@@ -1,15 +1,15 @@
 ---
-title: Равенство
-second_title: Справочник по API Aspose.Slides для .NET
-description: Проверяет равенство с указанным объектом.
+title: Equals
+second_title: Aspose.Sildes для .NET API Справочник
+description: Проверяет на равенство с указанным объектом.
 type: docs
 weight: 170
 url: /ru/aspose.slides/colorformat/equals/
 ---
 
-## Метод ColorFormat.Equals
+## ColorFormat.Equals метод
 
-Проверяет равенство с указанным объектом.
+Проверяет на равенство с указанным объектом.
 
 ```csharp
 public override bool Equals(object obj)

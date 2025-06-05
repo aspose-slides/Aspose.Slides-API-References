@@ -1,13 +1,13 @@
 ---
 title: BackWall
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve un objeto que permite cambiar el formato de la pared trasera de un gráfico 3D. Solo lectura IChartWallaspose.slides.charts/ichartwall.
 type: docs
 weight: 50
 url: /es/aspose.slides.charts/ichart/backwall/
 ---
 
-## Propiedad IChart.BackWall
+## IChart.BackWall propiedad
 
 Devuelve un objeto que permite cambiar el formato de la pared trasera de un gráfico 3D. Solo lectura [`IChartWall`](../../ichartwall).
 
@@ -15,7 +15,7 @@ Devuelve un objeto que permite cambiar el formato de la pared trasera de un grá
 public IChartWall BackWall { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IChartWall](../../ichartwall)
 * interfaz [IChart](../../ichart)

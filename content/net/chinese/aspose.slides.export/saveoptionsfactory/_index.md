@@ -1,13 +1,13 @@
 ---
 title: SaveOptionsFactory
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 允许创建保存选项实例
 type: docs
 weight: 4270
 url: /zh/aspose.slides.export/saveoptionsfactory/
 ---
 
-## SaveOptionsFactory 类
+## SaveOptionsFactory class
 
 允许创建保存选项实例
 
@@ -29,9 +29,9 @@ public class SaveOptionsFactory : ISaveOptionsFactory
 
 ### 备注
 
-为了兼容 COM。
+用于 COM 兼容性。
 
-### 另请参阅
+### 另见
 
 * 接口 [ISaveOptionsFactory](../isaveoptionsfactory)
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ihyperlinkcontainer/hyperlinkmanager/
 ---
+
 ## IHyperlinkContainer.HyperlinkManager property
 
 Hyperlinks manager Read-only [`IHyperlinkManager`](../../ihyperlinkmanager).

@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.mathtext/mathelementbase/join/
 ---
+
 ## Join(IMathElement) {#join}
 
 Joins a mathematical element and forms a mathematical block

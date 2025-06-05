@@ -1,7 +1,7 @@
 ---
-title: Element
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Layout-Slide nach Index zurück. Nur-Lese ILayoutSlide aspose.slides/ilayoutslide.
+title: Item
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den Layout-Slide nach Index zurück. Nur-Lese ILayoutSlideaspose.slides/ilayoutslide.
 type: docs
 weight: 10
 url: /de/aspose.slides/ilayoutslidecollection/item/
@@ -15,7 +15,7 @@ Gibt den Layout-Slide nach Index zurück. Nur-Lese [`ILayoutSlide`](../../ilayou
 public ILayoutSlide this[int index] { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ILayoutSlide](../../ilayoutslide)
 * Schnittstelle [ILayoutSlideCollection](../../ilayoutslidecollection)

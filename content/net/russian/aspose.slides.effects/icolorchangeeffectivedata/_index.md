@@ -1,7 +1,7 @@
 ---
 title: IColorChangeEffectiveData
-second_title: Aspose.Sildes для .NET API Reference
-description: Неизменяемый объект, представляющий эффект изменения цвета. Экземпляры FromColor заменяются экземплярами ToColor.
+second_title: Aspose.Silides для .NET API Reference
+description: Неизменяемый объект, который представляет эффект изменения цвета. Экземпляры FromColor заменяются экземплярами ToColor.
 type: docs
 weight: 3110
 url: /ru/aspose.slides.effects/icolorchangeeffectivedata/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/icolorchangeeffectivedata/
 
 ## Интерфейс IColorChangeEffectiveData
 
-Неизменяемый объект, представляющий эффект изменения цвета. Экземпляры FromColor заменяются экземплярами ToColor.
+Неизменяемый объект, который представляет эффект изменения цвета. Экземпляры FromColor заменяются экземплярами ToColor.
 
 ```csharp
 public interface IColorChangeEffectiveData : IEffectEffectiveData
@@ -17,14 +17,14 @@ public interface IColorChangeEffectiveData : IEffectEffectiveData
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [FromColor](../../aspose.slides.effects/icolorchangeeffectivedata/fromcolor) { get; } | Цвет, который будет заменен. Только для чтения Color. |
 | [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | Цвет, который будет заменять. Только для чтения Color. |
-| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | Возвращает булево значение, определяющее, должен ли использоваться компонент альфа. Только для чтения Boolean. |
+| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | Возвращает логическое значение, которое определяет, следует ли использовать альфа-компонент. Только для чтения Boolean. |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IEffectEffectiveData](../ieffecteffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)

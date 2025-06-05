@@ -1,7 +1,7 @@
 ---
-title: 嵌入文件标签
-second_title: Aspose.Slides for .NET API 参考
-description: 返回嵌入 OLE 对象的文件名
+title: EmbeddedFileLabel
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回嵌入的 OLE 对象的文件名
 type: docs
 weight: 30
 url: /zh/aspose.slides/oleobjectframe/embeddedfilelabel/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/oleobjectframe/embeddedfilelabel/
 
 ## OleObjectFrame.EmbeddedFileLabel 属性
 
-返回嵌入 OLE 对象的文件名
+返回嵌入的 OLE 对象的文件名
 
 ```csharp
 public string EmbeddedFileLabel { get; }
 ```
 
-### 另见
+### 参见
 
 * class [OleObjectFrame](../../oleobjectframe)
 * namespace [Aspose.Slides](../../oleobjectframe)

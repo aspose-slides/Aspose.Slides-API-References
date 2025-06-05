@@ -1,13 +1,13 @@
 ---
 title: AsIEnumerable
-second_title: Справка по API Aspose.Sildes для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Позволяет получить базовый интерфейс IEnumerable. Только для чтения IEnumerable.
 type: docs
 weight: 10
 url: /ru/aspose.slides.animation/isequence/asienumerable/
 ---
 
-## Свойство ISequence.AsIEnumerable
+## ISequence.AsIEnumerable свойство
 
 Позволяет получить базовый интерфейс IEnumerable. Только для чтения IEnumerable.
 

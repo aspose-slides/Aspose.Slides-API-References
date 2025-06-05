@@ -1,7 +1,7 @@
 ---
 title: Light1
-second_title: Aspose.Slides for .NET API 参考
-description: 方案中的第一个浅色。只读 IColorFormataspose.slides/../aspose.slides/icolorformat。
+second_title: Aspose.Sildes for .NET API Reference
+description: 方案中的第一个亮色。只读 IColorFormat aspose.slides/icolorformat。
 type: docs
 weight: 120
 url: /zh/aspose.slides.theme/colorscheme/light1/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.theme/colorscheme/light1/
 
 ## ColorScheme.Light1 属性
 
-方案中的第一个浅色。只读 [`IColorFormat`](../../../aspose.slides/icolorformat)。
+方案中的第一个亮色。只读 [`IColorFormat`](../../../aspose.slides/icolorformat)。
 
 ```csharp
 public IColorFormat Light1 { get; }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [IColorFormat](../../../aspose.slides/icolorformat)
 * 类 [ColorScheme](../../colorscheme)

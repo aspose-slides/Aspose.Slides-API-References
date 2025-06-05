@@ -1,15 +1,15 @@
 ---
-title: Schattenfarbe
-second_title: Aspose.Slides für .NET API-Referenz
-description: Farbe des Schattens. Nur-lesbare Farbe.
+title: ShadowColor
+second_title: Aspose.Sildes für .NET API Referenz
+description: Farbe des Schattens. Nur lesbare Farbe.
 type: docs
 weight: 50
 url: /de/aspose.slides.effects/ipresetshadoweffectivedata/shadowcolor/
 ---
 
-## IPresetShadowEffectiveData.ShadowColor Eigenschaft
+## IPresetShadowEffectiveData.ShadowColor-Eigenschaft
 
-Farbe des Schattens. Nur-lesbare Farbe.
+Farbe des Schattens. Nur lesbare Farbe.
 
 ```csharp
 public Color ShadowColor { get; }

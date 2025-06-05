@@ -1,6 +1,6 @@
 ---
 title: ITextAnimationCollection
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour référence API .NET
 description: Représente une collection d'animations de texte.
 type: docs
 weight: 550
@@ -19,9 +19,9 @@ public interface ITextAnimationCollection : IGenericCollection<ITextAnimation>
 
 | Nom | Description |
 | --- | --- |
-| [Item](../../aspose.slides.animation/itextanimationcollection/item) { get; } | Retourne l'élément par index. (2 indexeurs) |
+| [Item](../../aspose.slides.animation/itextanimationcollection/item) { get; } | Renvoie l'élément par index. (2 indexeurs) |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * interface [ITextAnimation](../itextanimation)

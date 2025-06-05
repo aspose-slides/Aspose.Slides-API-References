@@ -1,6 +1,6 @@
 ---
 title: CloneT
-second_title: Aspose.Slides para .NET Referencia de API
+second_title: Aspose.Slide para .NET Referencia de la API
 description: Clona el objeto actual
 type: docs
 weight: 400
@@ -15,15 +15,15 @@ Clona el objeto actual
 public IDocumentProperties CloneT()
 ```
 
-### Valor de retorno
+### Valor de Retorno
 
 Clon
 
-### Véase también
+### Véase También
 
-* interface [IDocumentProperties](../../idocumentproperties)
-* class [DocumentProperties](../../documentproperties)
-* namespace [Aspose.Slides](../../documentproperties)
-* assembly [Aspose.Slides](../../../)
+* interfaz [IDocumentProperties](../../idocumentproperties)
+* clase [DocumentProperties](../../documentproperties)
+* espacio de nombres [Aspose.Slides](../../documentproperties)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

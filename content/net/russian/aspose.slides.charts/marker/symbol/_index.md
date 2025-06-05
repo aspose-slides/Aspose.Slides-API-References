@@ -1,21 +1,21 @@
 ---
-title: Символ
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет стиль маркера в линейном графике, разбросе или радарном графике. Чтение/запись MarkerStyleTypeaspose.slides.charts/markerstyletype.
+title: Symbol
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет стиль маркера в линейном графике, графике рассеяния или радарном графике. Чтение/запись MarkerStyleTypeaspose.slides.charts/markerstyletype.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/marker/symbol/
 ---
 
-## Свойство Marker.Symbol
+## Marker.Symbol свойство
 
-Представляет стиль маркера в линейном графике, разбросе или радарном графике. Чтение/запись [`MarkerStyleType`](../../markerstyletype).
+Представляет стиль маркера в линейном графике, графике рассеяния или радарном графике. Чтение/запись [`MarkerStyleType`](../../markerstyletype).
 
 ```csharp
 public MarkerStyleType Symbol { get; set; }
 ```
 
-### См. также
+### См. Также
 
 * enum [MarkerStyleType](../../markerstyletype)
 * class [Marker](../../marker)

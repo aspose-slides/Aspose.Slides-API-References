@@ -1,7 +1,7 @@
 ---
 title: LinkPathLong
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает имя видеофайла, связанного с VideoFrame. Чтение/запись String.
+description: Возвращает или задает имя видеофайла, связанного с VideoFrame. Чтение/запись строка.
 type: docs
 weight: 50
 url: /ru/aspose.slides/videoframe/linkpathlong/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/videoframe/linkpathlong/
 
 ## VideoFrame.LinkPathLong свойство
 
-Возвращает или задает имя видеофайла, связанного с VideoFrame. Чтение/запись String.
+Возвращает или задает имя видеофайла, связанного с VideoFrame. Чтение/запись строка.
 
 ```csharp
 public string LinkPathLong { get; set; }

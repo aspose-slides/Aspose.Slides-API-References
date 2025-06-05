@@ -1,21 +1,21 @@
 ---
 title: Distance
-second_title: Référence API Aspose.Slides pour .NET
-description: Distance de l'ombre. Lecture seule Double.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Distance de l'ombre. Double en lecture seule.
 type: docs
 weight: 40
 url: /fr/aspose.slides.effects/ioutershadoweffectivedata/distance/
 ---
 
-## Propriété IOuterShadowEffectiveData.Distance
+## IOuterShadowEffectiveData.Distance property
 
-Distance de l'ombre. Lecture seule Double.
+Distance de l'ombre. Double en lecture seule.
 
 ```csharp
 public double Distance { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IOuterShadowEffectiveData](../../ioutershadoweffectivedata)
 * namespace [Aspose.Slides.Effects](../../ioutershadoweffectivedata)

@@ -1,6 +1,6 @@
 ---
-title: Richtung
-second_title: Aspose.Slides für .NET API-Referenz
+title: Direction
+second_title: Aspose.Slides für .NET API Referenz
 description: Richtung des Schattens. Lese-/Schreibzugriff auf Single.
 type: docs
 weight: 40

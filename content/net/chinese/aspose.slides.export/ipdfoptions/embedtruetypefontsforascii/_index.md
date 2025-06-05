@@ -1,7 +1,7 @@
 ---
-title: 嵌入ASCII字符的TrueType字体
-second_title: Aspose.Slides for .NET API 参考
-description: 为ASCII字符32-127嵌入TrueType字体。大于127的字符代码的字体始终被嵌入。读/写布尔值。
+title: EmbedTrueTypeFontsForASCII
+second_title: Aspose.Sildes for .NET API Reference
+description: 设置为 true 以嵌入 ASCII 字符 32-127 的 TrueType 字体。字符代码大于 127 的字体始终会被嵌入。可读/写布尔值。
 type: docs
 weight: 90
 url: /zh/aspose.slides.export/ipdfoptions/embedtruetypefontsforascii/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/ipdfoptions/embedtruetypefontsforascii/
 
 ## IPdfOptions.EmbedTrueTypeFontsForASCII 属性
 
-为ASCII字符32-127嵌入TrueType字体。大于127的字符代码的字体始终被嵌入。读/写布尔值。
+设置为 true 以嵌入 ASCII 字符 32-127 的 TrueType 字体。字符代码大于 127 的字体始终会被嵌入。可读/写布尔值。
 
 ```csharp
 public bool EmbedTrueTypeFontsForASCII { get; set; }

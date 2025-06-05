@@ -1,7 +1,7 @@
 ---
 title: RemoveMasterHandoutSlide
-second_title: Référence API Aspose.Slides pour .NET
-description: Supprime le diapositive maître des documents.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Supprime la diapositive de remise maîtresse.
 type: docs
 weight: 20
 url: /fr/aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide/
 
 ## IMasterHandoutSlideManager.RemoveMasterHandoutSlide méthode
 
-Supprime le diapositive maître des documents.
+Supprime la diapositive de remise maîtresse.
 
 ```csharp
 public void RemoveMasterHandoutSlide()

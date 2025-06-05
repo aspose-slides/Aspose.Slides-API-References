@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.export/htmlgenerator/slideindex/
 ---
+
 ## HtmlGenerator.SlideIndex property
 
 Returns index of currently rendering slide. Read-only Int32.

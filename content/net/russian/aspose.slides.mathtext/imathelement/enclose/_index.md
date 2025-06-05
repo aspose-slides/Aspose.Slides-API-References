@@ -1,6 +1,6 @@
 ---
-title: Обрамление
-second_title: Справочник по API Aspose.Slides для .NET
+title: Enclose
+second_title: Aspose.Sildes для .NET API Справочник
 description: Обрамляет математический элемент в скобки
 type: docs
 weight: 40
@@ -15,11 +15,11 @@ url: /ru/aspose.slides.mathtext/imathelement/enclose/
 public IMathDelimiter Enclose()
 ```
 
-### Возвращаемое значение
+### Return Value
 
 Математический элемент типа [`IMathDelimiter`](../../imathdelimiter), который включает скобки
 
-### Примеры
+### Examples
 
 Пример:
 
@@ -29,7 +29,7 @@ IMathElement element = new MathematicalText("x");
 IMathDelimiter delimiter = element.Enclose();
 ```
 
-### См. также
+### See Also
 
 * интерфейс [IMathDelimiter](../../imathdelimiter)
 * интерфейс [IMathElement](../../imathelement)
@@ -40,7 +40,7 @@ IMathDelimiter delimiter = element.Enclose();
 
 ## Enclose(char, char) {#enclose_1}
 
-Обрамляет этот элемент в заданные символы, такие как скобки или другие символы для обрамления
+Обрамляет этот элемент в указанные символы, такие как скобки или другие символы в качестве оформления
 
 ```csharp
 public IMathDelimiter Enclose(char beginningCharacter, char endingCharacter)
@@ -51,11 +51,11 @@ public IMathDelimiter Enclose(char beginningCharacter, char endingCharacter)
 | beginningCharacter | Char | Начальный символ (обычно левая скобка) |
 | endingCharacter | Char | Конечный символ (обычно правая скобка) |
 
-### Возвращаемое значение
+### Return Value
 
-Математический элемент типа [`IMathDelimiter`](../../imathdelimiter), который включает указанные символы для обрамления
+Математический элемент типа [`IMathDelimiter`](../../imathdelimiter), который включает указанные символы в качестве оформления
 
-### Примеры
+### Examples
 
 Пример:
 
@@ -65,7 +65,7 @@ IMathElement element = new MathematicalText("x");
 IMathDelimiter delimiter = element.Enclose('[', ']');
 ```
 
-### См. также
+### See Also
 
 * интерфейс [IMathDelimiter](../../imathdelimiter)
 * интерфейс [IMathElement](../../imathelement)

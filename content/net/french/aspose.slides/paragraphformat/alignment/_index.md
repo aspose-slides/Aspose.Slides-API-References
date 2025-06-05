@@ -1,7 +1,7 @@
 ---
-title: Alignement
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit l'alignement du texte dans un paragraphe sans héritage. Lecture/écriture TextAlignmentaspose.slides/textalignment.
+title: Alignment
+second_title: Aspose.Sildes pour .NET Référence API
+description: Retourne ou définit l'alignement du texte dans un paragraphe sans héritage. Lecture/écriture TextAlignmentaspose.slides/textalignment.
 type: docs
 weight: 20
 url: /fr/aspose.slides/paragraphformat/alignment/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/paragraphformat/alignment/
 
 ## Propriété ParagraphFormat.Alignment
 
-Renvoie ou définit l'alignement du texte dans un paragraphe sans héritage. Lecture/écriture [`TextAlignment`](../../textalignment).
+Retourne ou définit l'alignement du texte dans un paragraphe sans héritage. Lecture/écriture [`TextAlignment`](../../textalignment).
 
 ```csharp
 public TextAlignment Alignment { get; set; }
@@ -17,28 +17,28 @@ public TextAlignment Alignment { get; set; }
 
 ### Exemples
 
-Le code d'exemple suivant montre comment aligner les paragraphes de texte dans une présentation PowerPoint.
+Le code d'exemple suivant montre comment aligner des paragraphes de texte dans une présentation PowerPoint.
 
 ```csharp
 [C#]
-// Instancier un objet Présentation qui représente un fichier PPTX
+// Instancier un objet Presentation qui représente un fichier PPTX
 using (Presentation pres = new Presentation("ParagraphsAlignment.pptx"))
 {
     // Accéder à la première diapositive
     ISlide slide = pres.Slides[0];
-    // Accéder au premier et au deuxième espace réservé dans la diapositive et les convertir en AutoShape
+    // Accéder au premier et au deuxième espace réservé dans la diapositive et le typage en tant que AutoShape
     ITextFrame tf1 = ((IAutoShape)slide.Shapes[0]).TextFrame;
     ITextFrame tf2 = ((IAutoShape)slide.Shapes[1]).TextFrame;
     // Changer le texte dans les deux espaces réservés
-    tf1.Text = "Alignement au centre par Aspose";
-    tf2.Text = "Alignement au centre par Aspose";
+    tf1.Text = "Alignement centré par Aspose";
+    tf2.Text = "Alignement centré par Aspose";
     // Obtenir le premier paragraphe des espaces réservés
     IParagraph para1 = tf1.Paragraphs[0];
     IParagraph para2 = tf2.Paragraphs[0];
     // Aligner le paragraphe de texte au centre
     para1.ParagraphFormat.Alignment = TextAlignment.Center;
     para2.ParagraphFormat.Alignment = TextAlignment.Center;
-    // Enregistrer la présentation en tant que fichier PPTX
+    // Écrire la présentation en tant que fichier PPTX
     pres.Save("Centeralign_out.pptx", SaveFormat.Pptx);
 }
 ```

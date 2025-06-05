@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/commentcollection/findcommentbyidx/
 ---
+
 ## CommentCollection.FindCommentByIdx method
 
 Finds a comment in the collection by index.

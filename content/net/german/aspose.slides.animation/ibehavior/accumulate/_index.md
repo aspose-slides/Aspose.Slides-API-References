@@ -1,7 +1,7 @@
 ---
-title: Akkumulieren
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt dar, ob Animationsverhalten akkumuliert werden. Lese-/Schreibbarer NullableBoolaspose.slides/nullablebool.
+title: Accumulate
+second_title: Aspose.Slides für .NET API-Referenz
+description: Repräsentiert, ob Animationsverhalten akkumuliert werden. Lese-/Schreibbarer NullableBoolaspose.slides/../aspose.slides/nullablebool.
 type: docs
 weight: 10
 url: /de/aspose.slides.animation/ibehavior/accumulate/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.animation/ibehavior/accumulate/
 
 ## IBehavior.Accumulate-Eigenschaft
 
-Stellt dar, ob Animationsverhalten akkumuliert werden. Lese-/schreibbarer [`NullableBool`](../../../aspose.slides/nullablebool).
+Repräsentiert, ob Animationsverhalten akkumuliert werden. Lese-/Schreibbarer [`NullableBool`](../../../aspose.slides/nullablebool).
 
 ```csharp
 public NullableBool Accumulate { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [NullableBool](../../../aspose.slides/nullablebool)
 * interface [IBehavior](../../ibehavior)

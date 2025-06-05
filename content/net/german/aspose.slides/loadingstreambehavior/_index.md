@@ -1,15 +1,15 @@
 ---
 title: LoadingStreamBehavior
-second_title: Aspose.Slides für .NET API-Referenz
-description: Der an eine Methode übergebene Stream wird als Binary Large Object BLOB betrachtet siehe Beschreibung von IBlobManagementOptions../iblobmanagementoptions. Die Werte dieser Enumeration geben an, wie der Stream behandelt werden soll, wenn er an die Methode übergeben wird. Abhängig von den Anforderungen könnten verschiedene Entscheidungen getroffen werden, um das effizienteste Verhalten bereitzustellen.
+second_title: Aspose.Slides für .NET API Referenz
+description: Der an eine Methode übergebene Stream wird als ein Binary Large Object BLOB betrachtet siehe die Beschreibung von IBlobManagementOptions../iblobmanagementoptions. Die Werte dieser Enumeration geben an, wie der Stream behandelt werden soll, wenn er an die Methode übergeben wird. Je nach den Anforderungen können unterschiedliche Entscheidungen getroffen werden, um das effizienteste Verhalten bereitzustellen.
 type: docs
 weight: 7610
 url: /de/aspose.slides/loadingstreambehavior/
 ---
 
-## LoadingStreamBehavior-Enumeration
+## LoadingStreamBehavior Enumeration
 
-Der an eine Methode übergebene Stream wird als Binary Large Object (BLOB) (siehe [`IBlobManagementOptions`](../iblobmanagementoptions) Beschreibung) betrachtet. Die Werte dieser Enumeration geben an, wie der Stream behandelt werden soll, wenn er an die Methode übergeben wird. Abhängig von den Anforderungen könnten verschiedene Entscheidungen getroffen werden, um das effizienteste Verhalten bereitzustellen.
+Der an eine Methode übergebene Stream wird als ein Binary Large Object (BLOB) betrachtet (siehe die Beschreibung von [`IBlobManagementOptions`](../iblobmanagementoptions)). Die Werte dieser Enumeration geben an, wie der Stream behandelt werden soll, wenn er an die Methode übergeben wird. Je nach den Anforderungen können unterschiedliche Entscheidungen getroffen werden, um das effizienteste Verhalten bereitzustellen.
 
 ```csharp
 public enum LoadingStreamBehavior
@@ -19,8 +19,8 @@ public enum LoadingStreamBehavior
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| ReadStreamAndRelease | `0` | Der Stream wird bis zum Ende gelesen und anschließend freigegeben - d.h. es wird garantiert, dass dieser Stream in Zukunft nicht von der [`IPresentation`](../ipresentation) Instanz verwendet wird. Er kann vom Client-Code geschlossen oder auf andere Weise verwendet werden. |
-| KeepLocked | `1` | Der Stream wird innerhalb des [`IPresentation`](../ipresentation) Objekts gesperrt, d.h. das Eigentum des Streams wird übertragen. Das [`IPresentation`](../ipresentation) Objekt ist verantwortlich für die korrekte Freigabe des Streams, wenn dieses Objekt selbst freigegeben wird. Dieses Verhalten ist äußerst nützlich, wenn Sie eine große BLOB-Datei (zum Beispiel eine große Video- oder Audiodatei - siehe Beschreibung von [`IBlobManagementOptions`](../iblobmanagementoptions)) serialisieren müssen und verhindern möchten, dass diese Datei in den Arbeitsspeicher geladen wird oder andere Leistungsprobleme auftreten. Sie können einfach den FileStream für diese Datei öffnen und an eine Methode übergeben, wobei Sie den KeepLocked LoadingStreamBehavior wählen. |
+| ReadStreamAndRelease | `0` | Der Stream wird bis zum Ende gelesen und dann freigegeben - d.h. es wird garantiert, dass dieser Stream von der [`IPresentation`](../ipresentation) Instanz in Zukunft nicht mehr verwendet wird. Er kann durch den Client-Code geschlossen oder auf andere Weise verwendet werden. |
+| KeepLocked | `1` | Der Stream wird innerhalb des [`IPresentation`](../ipresentation) Objekts gesperrt, d.h. das Eigentum des Streams wird übertragen. Das [`IPresentation`](../ipresentation) Objekt ist verantwortlich dafür, den Stream ordnungsgemäß zu entsorgen, wenn dieses Objekt selbst entsorgt wird. Dieses Verhalten ist äußerst nützlich, wenn Sie eine große BLOB-Datei (z.B. ein großes Video oder Audio - siehe die Beschreibung von [`IBlobManagementOptions`](../iblobmanagementoptions)) serialisieren müssen und vermeiden möchten, dass diese Datei in den Arbeitsspeicher geladen wird oder andere Leistungsprobleme auftreten. Sie können einfach den FileStream für diese Datei öffnen und an eine Methode übergeben, wobei Sie das LoadingStreamBehavior KeepLocked wählen. |
 
 ### Siehe Auch
 

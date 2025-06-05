@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/ieffectformat/outershadoweffect/
 ---
+
 ## IEffectFormat.OuterShadowEffect property
 
 Outer shadow. Read/write [`IOuterShadow`](../../../aspose.slides.effects/ioutershadow).

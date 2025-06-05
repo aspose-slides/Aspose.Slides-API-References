@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.mathtext/mathborderbox/strikethroughhorizontal/
 ---
+
 ## MathBorderBox.StrikethroughHorizontal property
 
 Strikethrough Horizontal (default is false) - specifies the hidden or shown state of a strikethrough horizontal line.

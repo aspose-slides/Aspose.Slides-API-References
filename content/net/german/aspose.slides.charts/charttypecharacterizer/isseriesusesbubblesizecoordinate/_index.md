@@ -1,7 +1,7 @@
 ---
 title: IsSeriesUsesBubbleSizeCoordinate
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt zurück, ob Blasengrößenkoordinaten für den angegebenen Serientyp verwendet werden können.
+second_title: Aspose.Slides for .NET API Reference
+description: Gibt zurück, ob die Bubble-Größenkoordinaten für den angegebenen Serientyp verwendet werden können.
 type: docs
 weight: 180
 url: /de/aspose.slides.charts/charttypecharacterizer/isseriesusesbubblesizecoordinate/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/charttypecharacterizer/isseriesusesbubblesizecoord
 
 ## ChartTypeCharacterizer.IsSeriesUsesBubbleSizeCoordinate-Methode
 
-Gibt zurück, ob Blasengrößenkoordinaten für den angegebenen Serientyp verwendet werden können.
+Gibt zurück, ob die Bubble-Größenkoordinaten für den angegebenen Serientyp verwendet werden können.
 
 ```csharp
 public static bool IsSeriesUsesBubbleSizeCoordinate(ChartType seriesType)
@@ -21,7 +21,7 @@ public static bool IsSeriesUsesBubbleSizeCoordinate(ChartType seriesType)
 
 ### Rückgabewert
 
-True, wenn es verwendet werden kann, andernfalls false.
+Wahr, wenn es verwendet werden kann, andernfalls falsch.
 
 ### Siehe auch
 

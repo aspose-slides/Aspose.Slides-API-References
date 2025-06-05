@@ -1,7 +1,7 @@
 ---
 title: IsAutomaticOverflowBin
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den automatischen Überlaufbehälterwert an. Wenn false, verwenden Sie die OverflowBin-Eigenschaft.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt den Wert für den automatischen Überlaufbehälter an. Wenn falsch, verwenden Sie die OverflowBin-Eigenschaft.
 type: docs
 weight: 220
 url: /de/aspose.slides.charts/axis/isautomaticoverflowbin/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/axis/isautomaticoverflowbin/
 
 ## Axis.IsAutomaticOverflowBin-Eigenschaft
 
-Gibt den automatischen Überlaufbehälterwert an. Wenn false: verwenden Sie die OverflowBin-Eigenschaft.
+Gibt den Wert für den automatischen Überlaufbehälter an. Wenn falsch: verwenden Sie die OverflowBin-Eigenschaft.
 
 ```csharp
 public bool IsAutomaticOverflowBin { get; set; }

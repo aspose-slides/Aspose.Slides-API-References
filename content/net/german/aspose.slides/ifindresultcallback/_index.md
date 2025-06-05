@@ -1,7 +1,7 @@
 ---
 title: IFindResultCallback
 second_title: Aspose.Slides für .NET API-Referenz
-description: Callback-Schnittstelle zum Abrufen von Suchtext-Ergebnissen.
+description: Callback-Schnittstelle zur Abrufung von Suchtext Ergebnissen.
 type: docs
 weight: 5620
 url: /de/aspose.slides/ifindresultcallback/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ifindresultcallback/
 
 ## IFindResultCallback-Schnittstelle
 
-Callback-Schnittstelle zum Abrufen von Suchtext-Ergebnissen.
+Callback-Schnittstelle zur Abrufung von Suchtext Ergebnissen.
 
 ```csharp
 public interface IFindResultCallback
@@ -21,7 +21,7 @@ public interface IFindResultCallback
 | --- | --- |
 | [FoundResult](../../aspose.slides/ifindresultcallback/foundresult)(ITextFrame, string, string, int) | Callback-Methode, die Daten über den gefundenen Text empfängt. |
 
-### Siehe Auch
+### Siehe auch
 
 * Namespace [Aspose.Slides](../../aspose.slides)
 * Assembly [Aspose.Slides](../../)

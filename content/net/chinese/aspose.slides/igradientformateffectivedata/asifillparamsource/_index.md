@@ -1,7 +1,7 @@
 ---
 title: AsIFillParamSource
-second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基本的 IFillParamSource 接口。只读 IFillParamSourceaspose.slides/ifillparamsource。
+second_title: Aspose.Slides for .NET API Reference
+description: 允许获取基本的 IFillParamSource 接口。只读 IFillParamSource aspose.slides/ifillparamsource。
 type: docs
 weight: 10
 url: /zh/aspose.slides/igradientformateffectivedata/asifillparamsource/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/igradientformateffectivedata/asifillparamsource/
 public IFillParamSource AsIFillParamSource { get; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IFillParamSource](../../ifillparamsource)
 * 接口 [IGradientFormatEffectiveData](../../igradientformateffectivedata)

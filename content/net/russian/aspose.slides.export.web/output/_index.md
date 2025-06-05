@@ -1,7 +1,7 @@
 ---
-title: Вывод
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Представляет собой коллекцию выходных элементов для IWebDocument.
+title: Output
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет собой коллекцию элементов вывода для IWebDocument.
 type: docs
 weight: 4450
 url: /ru/aspose.slides.export.web/output/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export.web/output/
 
 ## Класс Output
 
-Представляет собой коллекцию выходных элементов для !:IWebDocument.
+Представляет собой коллекцию элементов вывода для !:IWebDocument.
 
 ```csharp
 public sealed class Output
@@ -17,16 +17,16 @@ public sealed class Output
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Add](../../aspose.slides.export.web/output/add#add_1)(string, IImage) | Добавляет выходной элемент для изображения. |
-| [Add](../../aspose.slides.export.web/output/add#add_2)(string, IPPImage) | Добавляет выходной элемент для изображения. |
-| [Add](../../aspose.slides.export.web/output/add#add_3)(string, IVideo) | Добавляет выходной элемент для видео. |
-| [Add](../../aspose.slides.export.web/output/add#add_5)(string, string) | Добавляет выходной элемент для текстового содержимого. |
-| [Add](../../aspose.slides.export.web/output/add#add)(string, IFontData, FontStyle) | Добавляет выходной элемент для шрифта. |
+| [Add](../../aspose.slides.export.web/output/add#add_1)(string, IImage) | Добавляет элемент вывода для изображения. |
+| [Add](../../aspose.slides.export.web/output/add#add_2)(string, IPPImage) | Добавляет элемент вывода для изображения. |
+| [Add](../../aspose.slides.export.web/output/add#add_3)(string, IVideo) | Добавляет элемент вывода для видео. |
+| [Add](../../aspose.slides.export.web/output/add#add_5)(string, string) | Добавляет элемент вывода для текстового контента. |
+| [Add](../../aspose.slides.export.web/output/add#add)(string, IFontData, FontStyle) | Добавляет элемент вывода для шрифта. |
 | [Add&lt;TContextObject&gt;](../../aspose.slides.export.web/output/add#add_6)(string, string, TContextObject) |  |
 | [BindResource](../../aspose.slides.export.web/output/bindresource)(IOutputFile, object) | Привязывает ресурс к выходному файлу. |
-| [GetResourcePath](../../aspose.slides.export.web/output/getresourcepath)(object) | Возвращает путь для данного ресурса. |
+| [GetResourcePath](../../aspose.slides.export.web/output/getresourcepath)(object) | Возвращает путь к данному ресурсу. |
 
 ### См. также
 

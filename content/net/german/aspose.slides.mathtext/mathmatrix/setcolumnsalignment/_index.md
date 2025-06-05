@@ -1,13 +1,13 @@
 ---
 title: SetColumnsAlignment
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Setzen Sie die horizontale Ausrichtung der angegebenen Spalten
 type: docs
 weight: 210
 url: /de/aspose.slides.mathtext/mathmatrix/setcolumnsalignment/
 ---
 
-## MathMatrix.SetColumnsAlignment-Methode
+## MathMatrix.SetColumnsAlignment Methode
 
 Setzen Sie die horizontale Ausrichtung der angegebenen Spalten
 
@@ -17,8 +17,8 @@ public void SetColumnsAlignment(int columnIndex, uint columnsCount, MathHorizont
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| columnIndex | Int32 | Nullbasierter Index der ersten Spalte, deren Ausrichtung gesetzt werden soll |
-| columnsCount | UInt32 | Die Anzahl der Spalten zur Festlegung der Ausrichtung |
+| columnIndex | Int32 | Nullbasierter Index der ersten Spalte, deren Ausrichtung festgelegt werden soll |
+| columnsCount | UInt32 | Die Anzahl der Spalten, um die Ausrichtung festzulegen |
 | val | MathHorizontalAlignment | Neuer Wert der horizontalen Ausrichtung der angegebenen Spalte |
 
 ### Beispiele

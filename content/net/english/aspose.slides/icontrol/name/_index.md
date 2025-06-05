@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/icontrol/name/
 ---
+
 ## IControl.Name property
 
 Returns the name of this control. Read/write String.

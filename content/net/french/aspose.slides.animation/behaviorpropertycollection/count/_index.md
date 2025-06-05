@@ -1,7 +1,7 @@
 ---
-title: Compter
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie le nombre de propriétés stockées dans la collection. Lecture seule Int32.
+title: Count
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Retourne le nombre de propriétés stockées dans la collection. Lecture seule Int32.
 type: docs
 weight: 10
 url: /fr/aspose.slides.animation/behaviorpropertycollection/count/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.animation/behaviorpropertycollection/count/
 
 ## Propriété BehaviorPropertyCollection.Count
 
-Renvoie le nombre de propriétés stockées dans la collection. Lecture seule Int32.
+Retourne le nombre de propriétés stockées dans la collection. Lecture seule Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [BehaviorPropertyCollection](../../behaviorpropertycollection)
 * espace de noms [Aspose.Slides.Animation](../../behaviorpropertycollection)

@@ -1,13 +1,13 @@
 ---
 title: IsReadOnly
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Gibt einen Wert zurück, der angibt, ob die ICollection schreibgeschützt ist. Schreibgeschützter Boolean.
 type: docs
 weight: 20
 url: /de/aspose.slides.effects/imagetransformoperationcollection/isreadonly/
 ---
 
-## ImageTransformOperationCollection.IsReadOnly-Eigenschaft
+## ImageTransformOperationCollection.IsReadOnly Eigenschaft
 
 Gibt einen Wert zurück, der angibt, ob die ICollection schreibgeschützt ist. Schreibgeschützter Boolean.
 

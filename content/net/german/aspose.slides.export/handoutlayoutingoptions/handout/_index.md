@@ -1,6 +1,6 @@
 ---
-title: Handzettel
-second_title: Aspose.Slides für .NET API Referenz
+title: Handout
+second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt an, wie viele Folien und in welcher Reihenfolge auf der Seite HandoutTypeaspose.slides/handouttype platziert werden.
 type: docs
 weight: 20

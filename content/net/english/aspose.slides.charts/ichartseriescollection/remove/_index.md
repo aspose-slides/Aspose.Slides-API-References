@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.charts/ichartseriescollection/remove/
 ---
+
 ## IChartSeriesCollection.Remove method
 
 Removes the specified value.

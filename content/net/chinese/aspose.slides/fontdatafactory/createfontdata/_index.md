@@ -1,7 +1,7 @@
 ---
 title: CreateFontData
 second_title: Aspose.Slides for .NET API Reference
-description: 创建具有指定字体名称的 FontData。
+description: 创建带有指定字体名称的 FontData。
 type: docs
 weight: 20
 url: /zh/aspose.slides/fontdatafactory/createfontdata/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/fontdatafactory/createfontdata/
 
 ## FontDataFactory.CreateFontData 方法
 
-创建具有指定字体名称的 FontData。
+创建带有指定字体名称的 FontData。
 
 ```csharp
 public IFontData CreateFontData(string fontName)

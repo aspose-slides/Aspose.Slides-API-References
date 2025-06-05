@@ -1,13 +1,13 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Aspose.Sildes pour .NET API Référence
 description: Obtient les données de formatage de puces effectives avec l'héritage appliqué.
 type: docs
 weight: 120
 url: /fr/aspose.slides/ibulletformat/geteffective/
 ---
 
-## Méthode IBulletFormat.GetEffective
+## IBulletFormat.GetEffective méthode
 
 Obtient les données de formatage de puces effectives avec l'héritage appliqué.
 
@@ -21,7 +21,7 @@ Un [`IBulletFormatEffectiveData`](../../ibulletformateffectivedata).
 
 ### Exemples
 
-Cet exemple démontre l'obtention de certaines propriétés de format de puce effective.
+Cet exemple montre comment obtenir certaines propriétés de format de puce effectives.
 
 ```csharp
 [C#]

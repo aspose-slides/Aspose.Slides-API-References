@@ -1,7 +1,7 @@
 ---
-title: Element
+title: Item
 second_title: Aspose.Slides für .NET API-Referenz
-description: Erhält das Element am angegebenen Index. Nur-Lesen ILineFormataspose.slides/ilineformat.
+description: Ruft das Element am angegebenen Index ab. Nur lesender ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 10
 url: /de/aspose.slides.theme/ilineformatcollection/item/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/ilineformatcollection/item/
 
 ## ILineFormatCollection-Indexer
 
-Erhält das Element am angegebenen Index. Nur-Lesen [`ILineFormat`](../../../aspose.slides/ilineformat).
+Ruft das Element am angegebenen Index ab. Nur lesend [`ILineFormat`](../../../aspose.slides/ilineformat).
 
 ```csharp
 public ILineFormat this[int index] { get; }

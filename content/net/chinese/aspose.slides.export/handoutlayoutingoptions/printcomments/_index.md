@@ -1,7 +1,7 @@
 ---
 title: PrintComments
-second_title: Aspose.Sildes for .NET API 参考
-description: 指定是否在幻灯片上显示评论
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定是否在幻灯片上显示注释
 type: docs
 weight: 30
 url: /zh/aspose.slides.export/handoutlayoutingoptions/printcomments/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/handoutlayoutingoptions/printcomments/
 
 ## HandoutLayoutingOptions.PrintComments 属性
 
-指定是否在幻灯片上显示评论
+指定是否在幻灯片上显示注释
 
 ```csharp
 public bool PrintComments { get; set; }
@@ -21,7 +21,7 @@ public bool PrintComments { get; set; }
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]

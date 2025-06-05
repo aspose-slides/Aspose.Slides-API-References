@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/icommentauthorcollection/removeat/
 ---
+
 ## ICommentAuthorCollection.RemoveAt method
 
 Removes the author at the specified index of the collection.

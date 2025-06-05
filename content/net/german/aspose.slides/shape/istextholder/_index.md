@@ -1,7 +1,7 @@
 ---
 title: IsTextHolder
 second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob die Form ein TextHolder_PPT ist. Nur lesbarer Boolean.
+description: Bestimmt, ob die Form ein TextHolder_PPT ist. Nur lesbarer Boolescher Wert.
 type: docs
 weight: 160
 url: /de/aspose.slides/shape/istextholder/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/shape/istextholder/
 
 ## Shape.IsTextHolder-Eigenschaft
 
-Bestimmt, ob die Form ein TextHolder_PPT ist. Nur lesbarer Boolean.
+Bestimmt, ob die Form ein TextHolder_PPT ist. Nur lesbarer Boolescher Wert.
 
 ```csharp
 public bool IsTextHolder { get; }

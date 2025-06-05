@@ -1,15 +1,15 @@
 ---
 title: CellInvalidReferenceException
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: L'exception qui est lancée lorsqu'une référence de cellule invalide est rencontrée.
+second_title: Aspose.Slides pour .NET API Référence
+description: L'exception qui est levée lorsqu'une référence de cellule invalide est rencontrée.
 type: docs
 weight: 10410
 url: /fr/aspose.slides.spreadsheet/cellinvalidreferenceexception/
 ---
 
-## Classe CellInvalidReferenceException
+## CellInvalidReferenceException class
 
-L'exception qui est lancée lorsqu'une référence de cellule invalide est rencontrée.
+L'exception qui est levée lorsqu'une référence de cellule invalide est rencontrée.
 
 ```csharp
 public class CellInvalidReferenceException : PptxEditException

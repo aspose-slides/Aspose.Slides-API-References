@@ -1,6 +1,6 @@
 ---
 title: AddAlphaInverseEffect
-second_title: Aspose.Sildes para .NET Referencia de API
+second_title: Aspose.Slides para .NET Referencia de API
 description: Agrega el nuevo efecto Alpha Inverse al final de una colección.
 type: docs
 weight: 60

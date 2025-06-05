@@ -1,7 +1,7 @@
 ---
 title: ShapeLock
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie les verrouillages de formes. IPictureFrameLockaspose.slides/ipictureframelock en lecture seule.
+description: Renvoie les verrouillages de formes. Lecture seule IPictureFrameLockaspose.slides/ipictureframelock.
 type: docs
 weight: 60
 url: /fr/aspose.slides/ipictureframe/shapelock/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ipictureframe/shapelock/
 
 ## Propriété IPictureFrame.ShapeLock
 
-Renvoie les verrouillages de la forme. [`IPictureFrameLock`](../../ipictureframelock) en lecture seule.
+Renvoie les verrouillages de la forme. Lecture seule [`IPictureFrameLock`](../../ipictureframelock).
 
 ```csharp
 public IPictureFrameLock ShapeLock { get; }

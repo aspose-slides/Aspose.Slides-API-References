@@ -1,15 +1,15 @@
 ---
 title: ExtrusionHeight
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Höhe eines Extrusionseffekts zurück oder setzt sie. Lese-/Schreibzugriff Double.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Höhe eines Extrusionseffekts zurück oder legt sie fest. Lese-/Schreib-Doppel.
 type: docs
 weight: 90
 url: /de/aspose.slides/ithreedformat/extrusionheight/
 ---
 
-## IThreeDFormat.ExtrusionHeight Eigenschaft
+## IThreeDFormat.ExtrusionHeight-Eigenschaft
 
-Gibt die Höhe eines Extrusionseffekts zurück oder setzt sie. Lese-/Schreibzugriff Double.
+Gibt die Höhe eines Extrusionseffekts zurück oder legt sie fest. Lese-/Schreib-Doppel.
 
 ```csharp
 public double ExtrusionHeight { get; set; }

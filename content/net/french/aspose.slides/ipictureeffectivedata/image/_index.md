@@ -1,6 +1,6 @@
 ---
 title: Image
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie l'image intégrée. Lecture seule IPPImageaspose.slides/ippimage.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Renvoie l'image intégrée. Lecture seule [`IPPImage`](../../ippimage).
 public IPPImage Image { get; }
 ```
 
-### Voir Également
+### Voir Aussi
 
 * interface [IPPImage](../../ippimage)
 * interface [IPictureEffectiveData](../../ipictureeffectivedata)

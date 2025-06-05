@@ -1,7 +1,7 @@
 ---
-title: Valeur1
+title: Value1
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Définit la deuxième valeur de décalage. Lecture/écriture Single.
+description: Définit la deuxième valeur de décalage. Lecture/écriture de type Single.
 type: docs
 weight: 30
 url: /fr/aspose.slides.animation/coloroffset/value1/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.animation/coloroffset/value1/
 
 ## Propriété ColorOffset.Value1
 
-Définit la deuxième valeur de décalage. Lecture/écriture Single.
+Définit la deuxième valeur de décalage. Lecture/écriture de type Single.
 
 ```csharp
 public float Value1 { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [ColorOffset](../../coloroffset)
 * espace de noms [Aspose.Slides.Animation](../../coloroffset)

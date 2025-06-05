@@ -1,6 +1,6 @@
 ---
 title: StrokeSource
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 返回有关如何描边元素的信息。只读 ShapeElementStrokeSourceaspose.slides/shapeelementstrokesource。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/shapeelement/strokesource/
 public ShapeElementStrokeSource StrokeSource { get; }
 ```
 
-### 参见
+### 另见
 
 * enum [ShapeElementStrokeSource](../../shapeelementstrokesource)
 * class [ShapeElement](../../shapeelement)

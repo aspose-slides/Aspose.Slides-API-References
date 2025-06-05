@@ -1,7 +1,7 @@
 ---
-title: 对齐
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置行对齐方式。可读/可写 LineAlignment aspose.slides/linealignment。
+title: Alignment
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置行对齐。读/写 LineAlignment aspose.slides/linealignment。
 type: docs
 weight: 10
 url: /zh/aspose.slides/lineformat/alignment/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/lineformat/alignment/
 
 ## LineFormat.Alignment 属性
 
-返回或设置行对齐方式。可读/可写 [`LineAlignment`](../../linealignment)。
+返回或设置行对齐。读/写 [`LineAlignment`](../../linealignment)。
 
 ```csharp
 public LineAlignment Alignment { get; set; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 枚举 [LineAlignment](../../linealignment)
 * 类 [LineFormat](../../lineformat)

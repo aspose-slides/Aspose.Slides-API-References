@@ -1,7 +1,7 @@
 ---
 title: HtmlFormatter
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt eine HTML-Dateivorlage dar.
+description: Stellt ein HTML-Dateivorlage dar.
 type: docs
 weight: 3700
 url: /de/aspose.slides.export/htmlformatter/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/htmlformatter/
 
 ## HtmlFormatter-Klasse
 
-Stellt eine HTML-Dateivorlage dar.
+Stellt ein HTML-Dateivorlage dar.
 
 ```csharp
 public sealed class HtmlFormatter : IHtmlFormatter
@@ -19,9 +19,9 @@ public sealed class HtmlFormatter : IHtmlFormatter
 
 | Name | Beschreibung |
 | --- | --- |
-| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | Erstellt und gibt einen HTML-Formatter für benutzerdefinierte, callback-gesteuerte HTML-Generierung zurück. |
-| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | Erstellt und gibt einen HTML-Formatter für eine einfache Dokumentansicht zurück, die aus aufeinanderfolgenden Folien besteht. |
-| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | Erstellt und gibt einen HTML-Formatter für eine einfache Diashow-HTML zurück, die Folien nacheinander anzeigt. |
+| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | Erstellt und gibt einen HTML-Formatter für eine benutzerdefinierte, callback-gesteuerte HTML-Generierung zurück. |
+| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | Erstellt und gibt einen HTML-Formatter für eine einfache Dokumentansicht zurück, die aus aufeinanderfolgende Folien besteht. |
+| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | Erstellt und gibt einen HTML-Formatter für eine einfache Diashow zurück, die Folien nacheinander anzeigt. |
 
 ### Siehe auch
 

@@ -1,13 +1,13 @@
 ---
-title: Eliminar
-second_title: Referencia de la API de Aspose.Slides para .NET
+title: Remove
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Elimina un diseño de la colección.
 type: docs
 weight: 30
 url: /es/aspose.slides/ilayoutslidecollection/remove/
 ---
 
-## Método ILayoutSlideCollection.Remove
+## ILayoutSlideCollection.Remove método
 
 Elimina un diseño de la colección.
 
@@ -17,17 +17,17 @@ public void Remove(ILayoutSlide value)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| value | ILayoutSlide | El diseño a eliminar de la colección. |
+| value | ILayoutSlide | El diseño que se va a eliminar de la colección. |
 
 ### Excepciones
 
 | excepción | condición |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Lanzada si el diseño se utiliza en la presentación (su propiedad HasDependingSlides es verdadera). |
+| [PptxEditException](../../pptxeditexception) | Lanzado si el diseño está utilizado en la presentación (su propiedad HasDependingSlides es verdadera). |
 
 ### Observaciones
 
-1) Para evitar lanzar la PptxEditException, verifica la propiedad HasDependingSlides del diseño antes. 2) También puedes usar el método [`Remove`](../../ilayoutslide/remove) para simplificar el código.
+1) Para evitar el lanzamiento de la PptxEditException, verifique la propiedad HasDependingSlides del diseño antes. 2) También puede utilizar el método [`Remove`](../../ilayoutslide/remove) para simplificar el código.
 
 ### Véase también
 

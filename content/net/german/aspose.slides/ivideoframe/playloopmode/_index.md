@@ -1,7 +1,7 @@
 ---
 title: PlayLoopMode
 second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob ein Video in einer Schleife wiedergegeben wird. Lese-/schreibbarer Boolean.
+description: Bestimmt, ob ein Video in einer Schleife wiederholt wird. Lese-/Schreib-Boolean.
 type: docs
 weight: 70
 url: /de/aspose.slides/ivideoframe/playloopmode/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ivideoframe/playloopmode/
 
 ## IVideoFrame.PlayLoopMode-Eigenschaft
 
-Bestimmt, ob ein Video in einer Schleife wiedergegeben wird. Lese-/schreibbarer Boolean.
+Bestimmt, ob ein Video in einer Schleife wiederholt wird. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool PlayLoopMode { get; set; }
@@ -17,7 +17,7 @@ public bool PlayLoopMode { get; set; }
 
 ### Siehe auch
 
-* Interface [IVideoFrame](../../ivideoframe)
+* Schnittstelle [IVideoFrame](../../ivideoframe)
 * Namespace [Aspose.Slides](../../ivideoframe)
 * Assembly [Aspose.Slides](../../../)
 

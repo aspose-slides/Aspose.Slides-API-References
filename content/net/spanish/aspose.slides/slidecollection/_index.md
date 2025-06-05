@@ -1,13 +1,13 @@
 ---
-title: ColecciónDeDiapositivas
-second_title: Referencia de API de Aspose.Slides para .NET
+title: SlideCollection
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una colección de diapositivas.
 type: docs
 weight: 9660
 url: /es/aspose.slides/slidecollection/
 ---
 
-## Clase ColecciónDeDiapositivas
+## Clase SlideCollection
 
 Representa una colección de diapositivas.
 
@@ -19,7 +19,7 @@ public sealed class SlideCollection : DomObject<Presentation>, ISlideCollection
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.slides/slidecollection/count) { get; } | Obtiene el número de elementos que realmente contiene la colección. Solo lectura Int32. |
+| [Count](../../aspose.slides/slidecollection/count) { get; } | Obtiene el número de elementos que realmente se encuentran en la colección. Solo lectura Int32. |
 | [IsSynchronized](../../aspose.slides/slidecollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (seguro para subprocesos). Solo lectura Boolean. |
 | [Item](../../aspose.slides/slidecollection/item) { get; } | Obtiene el elemento en el índice especificado. Solo lectura [`Slide`](../slide). |
 | [SyncRoot](../../aspose.slides/slidecollection/syncroot) { get; } | Devuelve una raíz de sincronización. Solo lectura Object. |
@@ -31,7 +31,7 @@ public sealed class SlideCollection : DomObject<Presentation>, ISlideCollection
 | [AddClone](../../aspose.slides/slidecollection/addclone#addclone)(ISlide) | Agrega una copia de una diapositiva especificada al final de la colección. |
 | [AddClone](../../aspose.slides/slidecollection/addclone#addclone_1)(ISlide, ILayoutSlide) | Agrega una copia de una diapositiva especificada al final de la colección. |
 | [AddClone](../../aspose.slides/slidecollection/addclone#addclone_3)(ISlide, ISection) | Agrega una copia de una diapositiva especificada al final de la sección especificada. |
-| [AddClone](../../aspose.slides/slidecollection/addclone#addclone_2)(ISlide, IMasterSlide, bool) | Agrega una copia de una diapositiva fuente especificada al final de la colección. Se seleccionará automáticamente un diseño apropiado del maestro especificado (el diseño apropiado es el diseño con el mismo Tipo o Nombre que el diseño de la diapositiva fuente). Si no hay un diseño apropiado, entonces se clonará el diseño de la diapositiva fuente (si allowCloneMissingLayout es verdadero) o se lanzará PptxEditException (si allowCloneMissingLayout es falso). |
+| [AddClone](../../aspose.slides/slidecollection/addclone#addclone_2)(ISlide, IMasterSlide, bool) | Agrega una copia de una diapositiva fuente especificada al final de la colección. Se seleccionará automáticamente el diseño apropiado del maestro especificado (el diseño apropiado es el diseño con el mismo Tipo o Nombre que el del diseño de la diapositiva fuente). Si no hay un diseño apropiado, el diseño de la diapositiva fuente se clonará (si allowCloneMissingLayout es verdadero) o se lanzará PptxEditException (si allowCloneMissingLayout es falso). |
 | [AddEmptySlide](../../aspose.slides/slidecollection/addemptyslide)(ILayoutSlide) | Agrega una nueva diapositiva vacía al final de la colección. |
 | [AddFromHtml](../../aspose.slides/slidecollection/addfromhtml#addfromhtml)(Stream) | Crea diapositivas a partir de texto HTML y las agrega al final de la colección. |
 | [AddFromHtml](../../aspose.slides/slidecollection/addfromhtml#addfromhtml_4)(string) | Crea diapositivas a partir de texto HTML y las agrega al final de la colección. |
@@ -48,18 +48,18 @@ public sealed class SlideCollection : DomObject<Presentation>, ISlideCollection
 | [IndexOf](../../aspose.slides/slidecollection/indexof)(ISlide) | Devuelve un índice de la diapositiva especificada en la colección. |
 | [InsertClone](../../aspose.slides/slidecollection/insertclone#insertclone)(int, ISlide) | Inserta una copia de una diapositiva especificada en la posición especificada de la colección. |
 | [InsertClone](../../aspose.slides/slidecollection/insertclone#insertclone_1)(int, ISlide, ILayoutSlide) | Inserta una copia de una diapositiva especificada en la posición especificada de la colección. |
-| [InsertClone](../../aspose.slides/slidecollection/insertclone#insertclone_2)(int, ISlide, IMasterSlide, bool) | Inserta una copia de una diapositiva fuente especificada en la posición especificada de la colección. Se seleccionará automáticamente un diseño apropiado del maestro especificado (el diseño apropiado es el diseño con el mismo Tipo o Nombre que el diseño de la diapositiva fuente). Si no hay un diseño apropiado, entonces se clonará el diseño de la diapositiva fuente (si allowCloneMissingLayout es verdadero) o se lanzará PptxEditException (si allowCloneMissingLayout es falso). |
+| [InsertClone](../../aspose.slides/slidecollection/insertclone#insertclone_2)(int, ISlide, IMasterSlide, bool) | Inserta una copia de una diapositiva fuente especificada en la posición especificada de la colección. Se seleccionará automáticamente el diseño apropiado del maestro especificado (el diseño apropiado es el diseño con el mismo Tipo o Nombre que el del diseño de la diapositiva fuente). Si no hay un diseño apropiado, el diseño de la diapositiva fuente se clonará (si allowCloneMissingLayout es verdadero) o se lanzará PptxEditException (si allowCloneMissingLayout es falso). |
 | [InsertEmptySlide](../../aspose.slides/slidecollection/insertemptyslide)(int, ILayoutSlide) | Inserta una copia de una diapositiva especificada en la posición especificada de la colección. |
-| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml)(int, Stream) | Crea diapositivas a partir de texto HTML y las inserta en la colección en la posición especificada. |
-| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_6)(int, string) | Crea diapositivas a partir de texto HTML y las inserta en la colección en la posición especificada. |
-| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_4)(int, TextReader) | Crea diapositivas a partir de texto HTML y las inserta en la colección en la posición especificada. |
-| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_3)(int, Stream, bool) | Crea diapositivas a partir de texto HTML y las inserta en la colección en la posición especificada. |
-| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_9)(int, string, bool) | Crea diapositivas a partir de texto HTML y las inserta en la colección en la posición especificada. |
-| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_1)(int, Stream, IExternalResourceResolver, string) | Crea diapositivas a partir de texto HTML y las inserta en la colección en la posición especificada. |
-| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_7)(int, string, IExternalResourceResolver, string) | Crea diapositivas a partir de texto HTML y las inserta en la colección en la posición especificada. |
-| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_5)(int, TextReader, IExternalResourceResolver, string) | Crea diapositivas a partir de texto HTML y las inserta en la colección en la posición especificada. |
-| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_2)(int, Stream, IExternalResourceResolver, string, bool) | Crea diapositivas a partir de texto HTML y las inserta en la colección en la posición especificada. |
-| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_8)(int, string, IExternalResourceResolver, string, bool) | Crea diapositivas a partir de texto HTML y las inserta en la colección en la posición especificada. |
+| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml)(int, Stream) | Crea diapositivas a partir de texto HTML e inserta en la colección en la posición especificada. |
+| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_6)(int, string) | Crea diapositivas a partir de texto HTML e inserta en la colección en la posición especificada. |
+| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_4)(int, TextReader) | Crea diapositivas a partir de texto HTML e inserta en la colección en la posición especificada. |
+| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_3)(int, Stream, bool) | Crea diapositivas a partir de texto HTML e inserta en la colección en la posición especificada. |
+| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_9)(int, string, bool) | Crea diapositivas a partir de texto HTML e inserta en la colección en la posición especificada. |
+| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_1)(int, Stream, IExternalResourceResolver, string) | Crea diapositivas a partir de texto HTML e inserta en la colección en la posición especificada. |
+| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_7)(int, string, IExternalResourceResolver, string) | Crea diapositivas a partir de texto HTML e inserta en la colección en la posición especificada. |
+| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_5)(int, TextReader, IExternalResourceResolver, string) | Crea diapositivas a partir de texto HTML e inserta en la colección en la posición especificada. |
+| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_2)(int, Stream, IExternalResourceResolver, string, bool) | Crea diapositivas a partir de texto HTML e inserta en la colección en la posición especificada. |
+| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_8)(int, string, IExternalResourceResolver, string, bool) | Crea diapositivas a partir de texto HTML e inserta en la colección en la posición especificada. |
 | [Remove](../../aspose.slides/slidecollection/remove)(ISlide) | Elimina la primera ocurrencia de un objeto específico de la colección. |
 | [RemoveAt](../../aspose.slides/slidecollection/removeat)(int) | Elimina el elemento en el índice especificado de la colección. |
 | [Reorder](../../aspose.slides/slidecollection/reorder#reorder)(int, ISlide) | Mueve la diapositiva de la colección a la posición especificada. |
@@ -69,10 +69,10 @@ public sealed class SlideCollection : DomObject<Presentation>, ISlideCollection
 
 ### Ver También
 
-* clase [DomObject&lt;TParent&gt;](../domobject-1)
-* clase [Presentation](../presentation)
-* interfaz [ISlideCollection](../islidecollection)
-* espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblado [Aspose.Slides](../../)
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [Presentation](../presentation)
+* interface [ISlideCollection](../islidecollection)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

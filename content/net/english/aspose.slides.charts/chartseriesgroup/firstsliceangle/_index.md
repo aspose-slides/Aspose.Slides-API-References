@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/chartseriesgroup/firstsliceangle/
 ---
+
 ## ChartSeriesGroup.FirstSliceAngle property
 
 Gets or sets the angle of the first pie or doughnut chart slice, in degrees (clockwise from up, from 0 to 360 degrees). Read/write UInt16.

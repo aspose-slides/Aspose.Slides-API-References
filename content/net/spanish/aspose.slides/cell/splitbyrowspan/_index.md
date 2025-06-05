@@ -1,6 +1,6 @@
 ---
 title: SplitByRowSpan
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para referencia de API de .NET
 description: Divide la celda en dos celdas por índice de fila.
 type: docs
 weight: 270
@@ -19,7 +19,7 @@ public void SplitByRowSpan(int index)
 | --- | --- | --- |
 | index | Int32 | Índice de fila. |
 
-### Ver También
+### Véase también
 
 * clase [Cell](../../cell)
 * espacio de nombres [Aspose.Slides](../../cell)

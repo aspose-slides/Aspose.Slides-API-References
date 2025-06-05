@@ -1,7 +1,7 @@
 ---
 title: TargetFrame
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie le cadre dans l'ensemble de cadres HTML parent pour la cible de l'hyperlien parent lorsqu'il en existe un. Chaîne en lecture/écriture.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Renvoie le cadre dans l'ensemble de cadres HTML parent pour la cible du lien hypertexte parent lorsqu'il en existe un. Lire/écrire String.
 type: docs
 weight: 90
 url: /fr/aspose.slides/ihyperlink/targetframe/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ihyperlink/targetframe/
 
 ## Propriété IHyperlink.TargetFrame
 
-Renvoie le cadre dans l'ensemble de cadres HTML parent pour la cible de l'hyperlien parent lorsqu'il en existe un. Chaîne en lecture/écriture.
+Renvoie le cadre dans l'ensemble de cadres HTML parent pour la cible du lien hypertexte parent lorsqu'il en existe un. Lire/écrire String.
 
 ```csharp
 public string TargetFrame { get; set; }

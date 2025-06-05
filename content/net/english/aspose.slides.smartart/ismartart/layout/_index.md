@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.smartart/ismartart/layout/
 ---
+
 ## ISmartArt.Layout property
 
 Return or set layout of the SmartArt object. Read/write [`SmartArtLayoutType`](../../smartartlayouttype).

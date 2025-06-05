@@ -1,15 +1,16 @@
+```
 ---
 title: AddDataPointForScatterSeries
-second_title: Aspose.Slides pour .NET Référence API
-description: Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types de Scatter voir aussi la méthode ChartTypeCharacterizer.IsChartTypeScatterChartType.
+second_title: Référence API Aspose.Slides pour .NET
+description: Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont chartType est l'un des sous-types de Scatter, voir aussi la méthode ChartTypeCharacterizer.IsChartTypeScatterChartType.
 type: docs
 weight: 180
 url: /fr/aspose.slides.charts/ichartdatapointcollection/adddatapointforscatterseries/
 ---
 
-## AddDataPointForScatterSeries(IChartDataCell, IChartDataCell) {#adddatapointforscatterseries}
+## AddDataPointForScatterSeries(IChartDataCell, IChartDataCell) {#adddatapointforscatterseries}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types de Scatter (voir aussi la méthode ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
+Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont chartType est l'un des sous-types de Scatter (voir aussi la méthode ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, IChartDataCell yValue)
@@ -34,9 +35,9 @@ Nouveau point de données.
 
 ---
 
-## AddDataPointForScatterSeries(double, IChartDataCell) {#adddatapointforscatterseries_2}
+## AddDataPointForScatterSeries(double, IChartDataCell) {#adddatapointforscatterseries_2}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types de Scatter (voir aussi la méthode ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
+Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont chartType est l'un des sous-types de Scatter (voir aussi la méthode ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(double xValue, IChartDataCell yValue)
@@ -61,9 +62,9 @@ Nouveau point de données.
 
 ---
 
-## AddDataPointForScatterSeries(string, IChartDataCell) {#adddatapointforscatterseries_4}
+## AddDataPointForScatterSeries(string, IChartDataCell) {#adddatapointforscatterseries_4}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types de Scatter (voir aussi la méthode ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
+Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont chartType est l'un des sous-types de Scatter (voir aussi la méthode ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(string xValue, IChartDataCell yValue)
@@ -88,9 +89,9 @@ Nouveau point de données.
 
 ---
 
-## AddDataPointForScatterSeries(IChartDataCell, double) {#adddatapointforscatterseries_1}
+## AddDataPointForScatterSeries(IChartDataCell, double) {#adddatapointforscatterseries_1}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types de Scatter (voir aussi la méthode ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
+Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont chartType est l'un des sous-types de Scatter (voir aussi la méthode ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, double yValue)
@@ -115,9 +116,9 @@ Nouveau point de données.
 
 ---
 
-## AddDataPointForScatterSeries(double, double) {#adddatapointforscatterseries_3}
+## AddDataPointForScatterSeries(double, double) {#adddatapointforscatterseries_3}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types de Scatter (voir aussi la méthode ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
+Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont chartType est l'un des sous-types de Scatter (voir aussi la méthode ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(double xValue, double yValue)
@@ -141,9 +142,9 @@ Nouveau point de données.
 
 ---
 
-## AddDataPointForScatterSeries(string, double) {#adddatapointforscatterseries_5}
+## AddDataPointForScatterSeries(string, double) {#adddatapointforscatterseries_5}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types de Scatter (voir aussi la méthode ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
+Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont chartType est l'un des sous-types de Scatter (voir aussi la méthode ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(string xValue, double yValue)
@@ -166,3 +167,4 @@ Nouveau point de données.
 * assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+```

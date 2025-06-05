@@ -1,21 +1,21 @@
 ---
 title: AdvanceOnClick
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie si un clic de souris fera avancer la diapositive ou non. Si cet attribut n'est pas spécifié, une valeur de true est supposée. Booléen en lecture-écriture.
+description: Spécifie si un clic de souris fera avancer la diapositive ou non. Si cet attribut n'est pas spécifié, alors une valeur de true est supposée. Booléen en lecture-écriture.
 type: docs
 weight: 30
 url: /fr/aspose.slides/islideshowtransition/advanceonclick/
 ---
 
-## Propriété ISlideShowTransition.AdvanceOnClick
+## ISlideShowTransition.AdvanceOnClick propriété
 
-Spécifie si un clic de souris fera avancer la diapositive ou non. Si cet attribut n'est pas spécifié, une valeur de true est supposée. Booléen en lecture-écriture.
+Spécifie si un clic de souris fera avancer la diapositive ou non. Si cet attribut n'est pas spécifié, alors une valeur de true est supposée. Booléen en lecture-écriture.
 
 ```csharp
 public bool AdvanceOnClick { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ISlideShowTransition](../../islideshowtransition)
 * namespace [Aspose.Slides](../../islideshowtransition)

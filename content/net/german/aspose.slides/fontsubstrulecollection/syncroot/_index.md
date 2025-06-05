@@ -1,15 +1,15 @@
 ---
 title: SyncRoot
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt einen Synchronisierungsstamm zurück. Nur Leseobjekt.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt eine Synchronisierungswurzel zurück. Nur-Lese-Objekt.
 type: docs
 weight: 50
 url: /de/aspose.slides/fontsubstrulecollection/syncroot/
 ---
 
-## FontSubstRuleCollection.SyncRoot Eigenschaft
+## FontSubstRuleCollection.SyncRoot-Eigenschaft
 
-Gibt einen Synchronisierungsstamm zurück. Nur Leseobjekt.
+Gibt eine Synchronisierungswurzel zurück. Nur-Lese-Objekt.
 
 ```csharp
 public object SyncRoot { get; }

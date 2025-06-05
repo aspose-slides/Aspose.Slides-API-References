@@ -19,7 +19,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | 要移除的标签的零基索引。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [ITagCollection](../../itagcollection)
 * 命名空间 [Aspose.Slides](../../itagcollection)

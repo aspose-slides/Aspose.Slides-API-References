@@ -1,6 +1,6 @@
 ---
-title: 下标
-second_title: Aspose.Slides for .NET API 参考
+title: Subscript
+second_title: Aspose.Sildes for .NET API Reference
 description: 下标
 type: docs
 weight: 20
@@ -28,7 +28,7 @@ MathLeftSubSuperscriptElement leftSubSuperscript = new MathLeftSubSuperscriptEle
 IMathElement sub = leftSubSuperscript.Subscript;
 ```
 
-### 相关链接
+### 另请参阅
 
 * 接口 [IMathElement](../../imathelement)
 * 类 [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement)

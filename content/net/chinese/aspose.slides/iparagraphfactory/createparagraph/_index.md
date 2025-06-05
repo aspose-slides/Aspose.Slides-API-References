@@ -1,6 +1,6 @@
 ---
-title: 创建段落
-second_title: Aspose.Slides for .NET API 参考
+title: CreateParagraph
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建一个新的空段落。
 type: docs
 weight: 10
@@ -19,7 +19,7 @@ public IParagraph CreateParagraph()
 
 段落。
 
-### 另请参见
+### 参见
 
 * 接口 [IParagraph](../../iparagraph)
 * 接口 [IParagraphFactory](../../iparagraphfactory)
@@ -44,7 +44,7 @@ public IParagraph CreateParagraph(IParagraph paragraph)
 
 段落。
 
-### 另请参见
+### 参见
 
 * 接口 [IParagraph](../../iparagraph)
 * 接口 [IParagraphFactory](../../iparagraphfactory)

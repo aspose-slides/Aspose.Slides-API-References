@@ -34,9 +34,9 @@ public interface IEffectFactory
 
 ### 备注
 
-用于与 COM 兼容。
+用于 COM 兼容性。
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides.Effects](../../aspose.slides.effects)
 * 程序集 [Aspose.Slides](../../)

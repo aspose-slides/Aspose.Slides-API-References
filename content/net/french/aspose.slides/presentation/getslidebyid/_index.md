@@ -1,7 +1,7 @@
 ---
 title: GetSlideById
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie un MasterSlide ou un LayoutSlide par Id.
+description: Renvoie un Slide MasterSlide ou LayoutSlide par Id.
 type: docs
 weight: 320
 url: /fr/aspose.slides/presentation/getslidebyid/

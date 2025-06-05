@@ -7,7 +7,7 @@ weight: 50
 url: /es/aspose.slides.effects/filloverlay/gethashcode/
 ---
 
-## Método FillOverlay.GetHashCode
+## FillOverlay.GetHashCode método
 
 Sirve como una función hash para un tipo particular.
 
@@ -15,7 +15,7 @@ Sirve como una función hash para un tipo particular.
 public override int GetHashCode()
 ```
 
-### Valor de Retorno
+### Valor de retorno
 
 Un código hash para el objeto actual.
 
@@ -23,6 +23,6 @@ Un código hash para el objeto actual.
 
 * clase [FillOverlay](../../filloverlay)
 * espacio de nombres [Aspose.Slides.Effects](../../filloverlay)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

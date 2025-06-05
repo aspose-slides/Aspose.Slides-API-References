@@ -1,6 +1,6 @@
 ---
 title: PlaceholderType
-second_title: Aspose.Sildes для .NET API Справка
+second_title: Aspose.Sildes для справки по API .NET
 description: Представляет тип заполнителя.
 type: docs
 weight: 9180
@@ -17,26 +17,26 @@ public enum PlaceholderType : sbyte
 
 ### Значения
 
-| Название | Значение | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | Title | `0` | Заголовок. |
-| Body | `1` | Тело. |
+| Body | `1` | Основной текст. |
 | CenteredTitle | `2` | Центрированный заголовок. |
 | Subtitle | `3` | Подзаголовок. |
 | DateAndTime | `4` | Дата и время. |
 | SlideNumber | `5` | Номер слайда. |
-| Footer | `6` | Колонтитул. |
-| Header | `7` | Заголовок. |
+| Footer | `6` | Нижний колонтитул. |
+| Header | `7` | Верхний колонтитул. |
 | Object | `8` | Объект. |
 | Chart | `9` | Диаграмма. |
 | Table | `10` | Таблица. |
-| ClipArt | `11` | Клиповое изображение. |
+| ClipArt | `11` | Клиповое искусство. |
 | Diagram | `12` | Диаграмма. |
 | Media | `13` | Медиа. |
 | SlideImage | `14` | Изображение слайда. |
 | Picture | `15` | Картинка. |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

@@ -1,7 +1,7 @@
 ---
-title: 加速
-second_title: Aspose.Slides for .NET API 参考
-description: 描述持续时间加速行为效果的百分比。可读/写单精度浮点数。
+title: Accelerate
+second_title: Aspose.Sildes for .NET API Reference
+description: 描述持续时间加速行为效果的百分比。可读/可写单精度浮点数。
 type: docs
 weight: 10
 url: /zh/aspose.slides.animation/itiming/accelerate/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.animation/itiming/accelerate/
 
 ## ITiming.Accelerate 属性
 
-描述持续时间加速行为效果的百分比。可读/写单精度浮点数。
+描述持续时间加速行为效果的百分比。可读/可写单精度浮点数。
 
 ```csharp
 public float Accelerate { get; set; }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [ITiming](../../itiming)
 * 命名空间 [Aspose.Slides.Animation](../../itiming)

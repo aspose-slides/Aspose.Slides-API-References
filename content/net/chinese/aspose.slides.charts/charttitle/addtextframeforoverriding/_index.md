@@ -1,7 +1,7 @@
 ---
 title: AddTextFrameForOverriding
-second_title: Aspose.Sildes for .NET API 参考
-description: 使用参数"text"中的文本初始化TextFrameForOverriding。如果TextFrameForOverriding已经初始化，则仅更改其文本。
+second_title: Aspose.Sildes for .NET API Reference
+description: 使用参数 "text" 中的文本初始化 TextFrameForOverriding。如果 TextFrameForOverriding 已经初始化，则简单地更改其文本。
 type: docs
 weight: 120
 url: /zh/aspose.slides.charts/charttitle/addtextframeforoverriding/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/charttitle/addtextframeforoverriding/
 
 ## ChartTitle.AddTextFrameForOverriding 方法
 
-使用参数"text"中的文本初始化TextFrameForOverriding。如果TextFrameForOverriding已经初始化，则仅更改其文本。
+使用参数 "text" 中的文本初始化 TextFrameForOverriding。如果 TextFrameForOverriding 已经初始化，则简单地更改其文本。
 
 ```csharp
 public ITextFrame AddTextFrameForOverriding(string text)
@@ -17,9 +17,9 @@ public ITextFrame AddTextFrameForOverriding(string text)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| text | String | 新的TextFrameForOverriding的文本。 |
+| text | String | 新的 TextFrameForOverriding 的文本。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [ITextFrame](../../../aspose.slides/itextframe)
 * 类 [ChartTitle](../../charttitle)

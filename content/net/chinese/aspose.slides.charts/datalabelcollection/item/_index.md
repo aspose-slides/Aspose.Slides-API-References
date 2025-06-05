@@ -1,7 +1,7 @@
 ---
-title: 项
-second_title: Aspose.Slides for .NET API 参考
-description: 获取指定索引的数据点的数据标签。
+title: Item
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取具有指定索引的数据点的数据标签。
 type: docs
 weight: 60
 url: /zh/aspose.slides.charts/datalabelcollection/item/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/datalabelcollection/item/
 
 ## DataLabelCollection 索引器
 
-获取指定索引的数据点的数据标签。
+获取具有指定索引的数据点的数据标签。
 
 ```csharp
 public IDataLabel this[int index] { get; }
@@ -17,9 +17,9 @@ public IDataLabel this[int index] { get; }
 
 ### 备注
 
-访问数据标签的另一种方式是： - SeriesEx.DataPoints[i].Label - 管理标签属性。
+访问数据标签的替代方法是： - SeriesEx.DataPoints[i].Label - 管理标签属性。
 
-### 参见
+### 另请参见
 
 * 接口 [IDataLabel](../../idatalabel)
 * 类 [DataLabelCollection](../../datalabelcollection)

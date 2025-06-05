@@ -7,7 +7,7 @@ weight: 40
 url: /ru/aspose.slides/commentcollection/syncroot/
 ---
 
-## Свойство CommentCollection.SyncRoot
+## CommentCollection.SyncRoot свойство
 
 Возвращает корень синхронизации. Объект только для чтения.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/commentcollection/syncroot/
 public object SyncRoot { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [CommentCollection](../../commentcollection)
 * пространство имен [Aspose.Slides](../../commentcollection)

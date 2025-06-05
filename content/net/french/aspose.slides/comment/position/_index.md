@@ -1,6 +1,6 @@
 ---
 title: Position
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit la position d'un commentaire sur une diapositive. Lecture/écriture PointF.
 type: docs
 weight: 40

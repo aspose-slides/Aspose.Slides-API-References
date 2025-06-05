@@ -1,13 +1,13 @@
 ---
 title: LoadExternalFont
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Добавляет шрифт из бинарных данных
 type: docs
 weight: 30
 url: /ru/aspose.slides/fontsloader/loadexternalfont/
 ---
 
-## Метод FontsLoader.LoadExternalFont
+## FontsLoader.LoadExternalFont метод
 
 Добавляет шрифт из бинарных данных
 
@@ -19,7 +19,7 @@ public static void LoadExternalFont(byte[] data)
 | --- | --- | --- |
 | data | Byte[] | Данные шрифта |
 
-### См. Также
+### См. также
 
 * класс [FontsLoader](../../fontsloader)
 * пространство имен [Aspose.Slides](../../fontsloader)

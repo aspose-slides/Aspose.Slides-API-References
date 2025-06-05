@@ -1,6 +1,6 @@
 ---
 title: PresentationPlayer.FrameTickHandler
-second_title: Aspose.Sildes для .NET API Справка
+second_title: Aspose.Sildes для .NET API Справочник
 description: type docs
 weight: 4210
 url: /ru/aspose.slides.export/presentationplayer.frametickhandler/
@@ -12,7 +12,7 @@ url: /ru/aspose.slides.export/presentationplayer.frametickhandler/
 public delegate void FrameTickHandler(PresentationPlayer sender, FrameTickEventArgs args);
 ```
 
-### См. также
+### См. Также
 
 * класс [FrameTickEventArgs](../frametickeventargs)
 * класс [PresentationPlayer](../presentationplayer)

@@ -3,9 +3,10 @@ title: ShowHiddenSlides
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies whether the generated document should include hidden slides or not. Default is false.
 type: docs
-weight: 80
+weight: 90
 url: /aspose.slides.export/itiffoptions/showhiddenslides/
 ---
+
 ## ITiffOptions.ShowHiddenSlides property
 
 Specifies whether the generated document should include hidden slides or not. Default is `false`.

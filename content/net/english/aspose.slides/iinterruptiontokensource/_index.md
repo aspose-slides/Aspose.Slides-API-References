@@ -3,9 +3,10 @@ title: IInterruptionTokenSource
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the source of IInterruptionToken./iinterruptiontoken.
 type: docs
-weight: 5780
+weight: 6000
 url: /aspose.slides/iinterruptiontokensource/
 ---
+
 ## IInterruptionTokenSource interface
 
 Represents the source of [`IInterruptionToken`](../iinterruptiontoken).

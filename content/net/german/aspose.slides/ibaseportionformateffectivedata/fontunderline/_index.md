@@ -1,7 +1,7 @@
 ---
 title: FontUnderline
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Typ der Textunterstreichung zurück. Nur lesbar TextUnderlineTypeaspose.slides/textunderlinetype.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt den Textunterstreichungstyp zurück. Schreibgeschützter TextUnderlineTypeaspose.slides/textunderlinetype.
 type: docs
 weight: 100
 url: /de/aspose.slides/ibaseportionformateffectivedata/fontunderline/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ibaseportionformateffectivedata/fontunderline/
 
 ## IBasePortionFormatEffectiveData.FontUnderline-Eigenschaft
 
-Gibt den Typ der Textunterstreichung zurück. Nur lesbar [`TextUnderlineType`](../../textunderlinetype).
+Gibt den Textunterstreichungstyp zurück. Schreibgeschützter [`TextUnderlineType`](../../textunderlinetype).
 
 ```csharp
 public TextUnderlineType FontUnderline { get; }

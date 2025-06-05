@@ -1,7 +1,7 @@
 ---
-title: Серия
-second_title: Справка по API Aspose.Sildes для .NET
-description: Возвращает коллекцию серий. Только для чтения IChartSeriesReadonlyCollection aspose.slides.charts/ichartseriesreadonlycollection.
+title: Series
+second_title: Aspose.Slides для .NET Справочник по API
+description: Возвращает коллекцию рядов. Только для чтения IChartSeriesReadonlyCollectionaspose.slides.charts/ichartseriesreadonlycollection.
 type: docs
 weight: 180
 url: /ru/aspose.slides.charts/chartseriesgroup/series/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/chartseriesgroup/series/
 
 ## Свойство ChartSeriesGroup.Series
 
-Возвращает коллекцию серий. Только для чтения [`IChartSeriesReadonlyCollection`](../../ichartseriesreadonlycollection).
+Возвращает коллекцию рядов. Только для чтения [`IChartSeriesReadonlyCollection`](../../ichartseriesreadonlycollection).
 
 ```csharp
 public IChartSeriesReadonlyCollection Series { get; }

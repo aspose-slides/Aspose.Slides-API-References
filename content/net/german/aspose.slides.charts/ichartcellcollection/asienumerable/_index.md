@@ -1,7 +1,7 @@
 ---
 title: AsIEnumerable
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die ICollection-Schnittstelle zurück. Nur-lesbares IEnumerable.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt das ICollection-Interface zurück. Nur-lesbares IEnumerable.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/ichartcellcollection/asienumerable/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartcellcollection/asienumerable/
 
 ## IChartCellCollection.AsIEnumerable-Eigenschaft
 
-Gibt die ICollection-Schnittstelle zurück. Nur-lesbares IEnumerable.
+Gibt das ICollection-Interface zurück. Nur-lesbares IEnumerable.
 
 ```csharp
 public IEnumerable AsIEnumerable { get; }
@@ -19,9 +19,9 @@ public IEnumerable AsIEnumerable { get; }
 
 Für COM-Kompatibilität.
 
-### Siehe Auch
+### Siehe auch
 
-* Schnittstelle [IChartCellCollection](../../ichartcellcollection)
+* Interface [IChartCellCollection](../../ichartcellcollection)
 * Namespace [Aspose.Slides.Charts](../../ichartcellcollection)
 * Assembly [Aspose.Slides](../../../)
 

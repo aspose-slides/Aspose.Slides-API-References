@@ -1,6 +1,6 @@
 ---
 title: AddSummaryZoomFrame
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Добавляет новый объект Summary Zoom в конец коллекции.
 type: docs
 weight: 190
@@ -17,10 +17,10 @@ public ISummaryZoomFrame AddSummaryZoomFrame(float x, float y, float width, floa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X-координата нового фрейма Section Zoom Single. |
-| y | Single | Y-координата нового фрейма Section Zoom Single. |
-| width | Single | Ширина нового фрейма Section Zoom Single. |
-| height | Single | Высота нового фрейма Section Zoom Single. |
+| x | Single | Координата X нового фрейма Section Zoom. |
+| y | Single | Координата Y нового фрейма Section Zoom. |
+| width | Single | Ширина нового фрейма Section Zoom. |
+| height | Single | Высота нового фрейма Section Zoom. |
 
 ### Возвращаемое значение
 
@@ -30,15 +30,15 @@ public ISummaryZoomFrame AddSummaryZoomFrame(float x, float y, float width, floa
 
 | исключение | условие |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | В презентации нет разделов, или целевой слайд не принадлежит ни одному разделу. |
+| [PptxEditException](../../pptxeditexception) | В презентации нет секций или целевой слайд не принадлежит ни одной секции. |
 
-### Замечания
+### Примечания
 
-Этот метод создает новый Summary Zoom и помещает в него коллекцию объектов для всех разделов в этой презентации.
+Этот метод создает новый Summary Zoom и помещает в него коллекцию объектов для всех секций в этой презентации.
 
 ### Примеры
 
-Этот пример демонстрирует добавление объекта Summary Zoom в конец коллекции (предполагается, что в презентации "Presentation.pptx" есть как минимум два раздела):
+Этот пример демонстрирует добавление объекта Summary Zoom в конец коллекции (предполагается, что в презентации "Presentation.pptx" есть как минимум две секции):
 
 ```csharp
 [C#]

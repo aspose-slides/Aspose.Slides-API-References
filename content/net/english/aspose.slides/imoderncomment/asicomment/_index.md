@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/imoderncomment/asicomment/
 ---
+
 ## IModernComment.AsIComment property
 
 Allows to get base IComment interface. Read-only [`IComment`](../../icomment).

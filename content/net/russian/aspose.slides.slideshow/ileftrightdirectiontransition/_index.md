@@ -1,7 +1,7 @@
 ---
 title: ILeftRightDirectionTransition
 second_title: Aspose.Sildes для .NET API Справочник
-description: Эффект перехода слайда слева направо.
+description: Эффект слайд-перехода слева направо.
 type: docs
 weight: 9810
 url: /ru/aspose.slides.slideshow/ileftrightdirectiontransition/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.slideshow/ileftrightdirectiontransition/
 
 ## Интерфейс ILeftRightDirectionTransition
 
-Эффект перехода слайда слева направо.
+Эффект слайд-перехода слева направо.
 
 ```csharp
 public interface ILeftRightDirectionTransition : ITransitionValueBase
@@ -22,7 +22,7 @@ public interface ILeftRightDirectionTransition : ITransitionValueBase
 | [AsITransitionValueBase](../../aspose.slides.slideshow/ileftrightdirectiontransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/ileftrightdirectiontransition/direction) { get; set; } | Направление перехода. Чтение/запись [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 
-### См. также
+### Также см.
 
 * интерфейс [ITransitionValueBase](../itransitionvaluebase)
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

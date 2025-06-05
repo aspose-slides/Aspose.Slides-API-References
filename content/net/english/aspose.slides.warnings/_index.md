@@ -6,6 +6,7 @@ type: docs
 weight: 190
 url: /aspose.slides.warnings/
 ---
+
 Contains classes that represents various kind of warnings
 
 ## Interfaces

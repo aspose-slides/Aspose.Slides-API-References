@@ -1,24 +1,24 @@
 ---
-title: Superposición
+title: Overlay
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Determina si se permitirá que otros elementos del gráfico se superpongan al título. Booleano de lectura/escritura.
+description: Determina si se permite que otros elementos del gráfico se superpongan al título. Booleano de lectura/escritura.
 type: docs
 weight: 40
 url: /es/aspose.slides.charts/icharttitle/overlay/
 ---
 
-## IChartTitle.Propiedad Overlay
+## Propiedad IChartTitle.Overlay
 
-Determina si se permitirá que otros elementos del gráfico se superpongan al título. Booleano de lectura/escritura.
+Determina si se permite que otros elementos del gráfico se superpongan al título. Booleano de lectura/escritura.
 
 ```csharp
 public bool Overlay { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IChartTitle](../../icharttitle)
 * espacio de nombres [Aspose.Slides.Charts](../../icharttitle)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

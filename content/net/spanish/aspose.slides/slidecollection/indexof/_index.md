@@ -7,7 +7,7 @@ weight: 110
 url: /es/aspose.slides/slidecollection/indexof/
 ---
 
-## Método SlideCollection.IndexOf
+## SlideCollection.IndexOf método
 
 Devuelve un índice de la diapositiva especificada en la colección.
 
@@ -19,11 +19,11 @@ public int IndexOf(ISlide slide)
 | --- | --- | --- |
 | slide | ISlide | Diapositiva a encontrar. |
 
-### Valor de retorno
+### Valor de Retorno
 
-Índice de una diapositiva o -1 si la diapositiva no pertenece a esta colección.
+Índice de una diapositiva o -1 si la diapositiva no está en esta colección.
 
-### Véase también
+### Vea También
 
 * interfaz [ISlide](../../islide)
 * clase [SlideCollection](../../slidecollection)

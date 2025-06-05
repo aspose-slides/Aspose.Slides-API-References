@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/ieffectfactory/createglow/
 ---
+
 ## IEffectFactory.CreateGlow method
 
 Creates Glow effect.

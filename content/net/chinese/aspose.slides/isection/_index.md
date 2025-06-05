@@ -1,7 +1,7 @@
 ---
 title: ISection
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示幻灯片的节。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示幻灯片的区段。
 type: docs
 weight: 6690
 url: /zh/aspose.slides/isection/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/isection/
 
 ## ISection 接口
 
-表示幻灯片的节。
+表示幻灯片的区段。
 
 ```csharp
 public interface ISection
@@ -19,17 +19,17 @@ public interface ISection
 
 | 名称 | 描述 |
 | --- | --- |
-| [Name](../../aspose.slides/isection/name) { get; set; } | 节的名称。 |
-| [SectionId](../../aspose.slides/isection/sectionid) { get; } | 节 Id。 |
-| [StartedFromSlide](../../aspose.slides/isection/startedfromslide) { get; } | 返回该节的第一张幻灯片。 |
+| [Name](../../aspose.slides/isection/name) { get; set; } | 区段的名称。 |
+| [SectionId](../../aspose.slides/isection/sectionid) { get; } | 区段 ID。 |
+| [StartedFromSlide](../../aspose.slides/isection/startedfromslide) { get; } | 返回该区段的第一张幻灯片。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [GetSlidesListOfSection](../../aspose.slides/isection/getslideslistofsection)() | 返回该节中的幻灯片列表。 |
+| [GetSlidesListOfSection](../../aspose.slides/isection/getslideslistofsection)() | 返回该区段中的幻灯片列表。 |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

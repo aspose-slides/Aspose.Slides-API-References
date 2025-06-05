@@ -1,7 +1,7 @@
 ---
 title: AsITransitionValueBase
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Permite obtener la interfaz base ITransitionValueBase. Solo lectura ITransitionValueBaseaspose.slides.slideshow/itransitionvaluebase.
+description: Permite obtener la interfaz base ITransitionValueBase. Solo lectura ITransitionValueBase aspose.slides.slideshow/itransitionvaluebase.
 type: docs
 weight: 10
 url: /es/aspose.slides.slideshow/ileftrightdirectiontransition/asitransitionvaluebase/
@@ -15,7 +15,7 @@ Permite obtener la interfaz base ITransitionValueBase. Solo lectura [`ITransitio
 public ITransitionValueBase AsITransitionValueBase { get; }
 ```
 
-### Ver También
+### Véase También
 
 * interfaz [ITransitionValueBase](../../itransitionvaluebase)
 * interfaz [ILeftRightDirectionTransition](../../ileftrightdirectiontransition)

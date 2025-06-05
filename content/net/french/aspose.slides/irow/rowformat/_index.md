@@ -1,7 +1,7 @@
 ---
 title: RowFormat
-second_title: Aspose.Slides pour .NET Référence API
-description: Retourne l'objet RowFormat qui contient les propriétés de formatage pour cette ligne. En lecture seule IRowFormataspose.slides/irowformat.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Renvoie l'objet RowFormat qui contient les propriétés de mise en forme pour cette ligne. Lecture seule IRowFormataspose.slides/irowformat.
 type: docs
 weight: 50
 url: /fr/aspose.slides/irow/rowformat/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/irow/rowformat/
 
 ## Propriété IRow.RowFormat
 
-Retourne l'objet RowFormat qui contient les propriétés de formatage pour cette ligne. En lecture seule [`IRowFormat`](../../irowformat).
+Renvoie l'objet RowFormat qui contient les propriétés de mise en forme pour cette ligne. Lecture seule [`IRowFormat`](../../irowformat).
 
 ```csharp
 public IRowFormat RowFormat { get; }

@@ -1,6 +1,6 @@
 ---
 title: ColorSpace
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API Aspose.Slides para .NET
 description: Representa el espacio de color del comportamiento. Leer/escribir ColorSpaceaspose.slides.animation/icoloreffect/colorspace.
 type: docs
 weight: 30
@@ -15,11 +15,11 @@ Representa el espacio de color del comportamiento. Leer/escribir `ColorSpace`.
 public ColorSpace ColorSpace { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * enum [ColorSpace](../../colorspace)
-* interface [IColorEffect](../../icoloreffect)
-* namespace [Aspose.Slides.Animation](../../icoloreffect)
-* assembly [Aspose.Slides](../../../)
+* interfaz [IColorEffect](../../icoloreffect)
+* espacio de nombres [Aspose.Slides.Animation](../../icoloreffect)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

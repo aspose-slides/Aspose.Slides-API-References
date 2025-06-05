@@ -1,7 +1,7 @@
 ---
 title: ShowBackground
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Obtiene o establece un valor que especifica si el Zoom utilizará el fondo de la diapositiva de destino. Booleano de lectura/escritura. Valor predeterminado true
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Obtiene o establece un valor que especifica si el Zoom utilizará el fondo de la diapositiva de destino. Valor Booleano de lectura/escritura. Valor predeterminado true
 type: docs
 weight: 40
 url: /es/aspose.slides/izoomobject/showbackground/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/izoomobject/showbackground/
 
 ## Propiedad IZoomObject.ShowBackground
 
-Obtiene o establece un valor que especifica si el Zoom utilizará el fondo de la diapositiva de destino. Booleano de lectura/escritura. Valor predeterminado: true
+Obtiene o establece un valor que especifica si el Zoom utilizará el fondo de la diapositiva de destino. Valor Booleano de lectura/escritura. Valor predeterminado: true
 
 ```csharp
 public bool ShowBackground { get; set; }

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/islidesize/size/
 ---
+
 ## ISlideSize.Size property
 
 Returns or sets the size in points. Assigning any value will reset [`Type`](../type) property to Custom and set [`Orientation`](../orientation). Read/write SizeF.

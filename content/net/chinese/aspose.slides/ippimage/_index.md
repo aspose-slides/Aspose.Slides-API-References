@@ -1,6 +1,6 @@
 ---
 title: IPPImage
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示演示文稿中的图像。
 type: docs
 weight: 6350
@@ -19,14 +19,14 @@ public interface IPPImage
 
 | 名称 | 描述 |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | 返回图像数据的副本。只读 Byte[]. |
-| [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | 返回图像的 MIME 类型，编码为 [`BinaryData`](./binarydata)。只读 String. |
-| [Height](../../aspose.slides/ippimage/height) { get; } | 返回图像的高度。只读 Int32. |
-| [Image](../../aspose.slides/ippimage/image) { get; } | 返回图像的副本。只读 [`Image`](./image). |
+| [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | 返回图像数据的副本。只读 Byte[]。 |
+| [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | 返回图像的 MIME 类型，编码在 [`BinaryData`](./binarydata) 中。只读 String。 |
+| [Height](../../aspose.slides/ippimage/height) { get; } | 返回图像的高度。只读 Int32。 |
+| [Image](../../aspose.slides/ippimage/image) { get; } | 返回图像的副本。只读 [`Image`](./image)。 |
 | [SvgImage](../../aspose.slides/ippimage/svgimage) { get; set; } | 返回或设置 ISvgImage 对象 [`ISvgImage`](../isvgimage) |
-| [Width](../../aspose.slides/ippimage/width) { get; } | 返回图像的宽度。只读 Int32. |
-| [X](../../aspose.slides/ippimage/x) { get; } | 返回图像的 X 偏移量。只读 Int32. |
-| [Y](../../aspose.slides/ippimage/y) { get; } | 返回图像的 Y 偏移量。只读 Int32. |
+| [Width](../../aspose.slides/ippimage/width) { get; } | 返回图像的宽度。只读 Int32。 |
+| [X](../../aspose.slides/ippimage/x) { get; } | 返回图像的 X 偏移量。只读 Int32。 |
+| [Y](../../aspose.slides/ippimage/y) { get; } | 返回图像的 Y 偏移量。只读 Int32。 |
 
 ## 方法
 
@@ -36,7 +36,7 @@ public interface IPPImage
 | [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage)(IImage) | 替换图像。 |
 | [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage_1)(IPPImage) | 替换图像。 |
 
-### 另请参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

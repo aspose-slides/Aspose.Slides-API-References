@@ -1,7 +1,7 @@
 ---
 title: OfficeInteropShapeId
-second_title: Référence API Aspose.Slides pour .NET
-description: Obtient l'identifiant unique de la forme dans le contexte de la diapositive. Lecture seule UInt32. Voir également UniqueIdaspose.slides/ishape/uniqueid pour obtenir l'identifiant unique de la forme dans le contexte de la présentation.
+second_title: Aspose.Sildes pour les références API .NET
+description: Obtient l'identifiant unique de forme dans le cadre de la diapositive. Lecture seule UInt32. Voir aussi UniqueIdaspose.slides/ishape/uniqueid pour obtenir l'identifiant unique de forme dans le cadre de la présentation.
 type: docs
 weight: 180
 url: /fr/aspose.slides/ishape/officeinteropshapeid/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ishape/officeinteropshapeid/
 
 ## Propriété IShape.OfficeInteropShapeId
 
-Obtient l'identifiant unique de la forme dans le contexte de la diapositive. Lecture seule UInt32. Voir également [`UniqueId`](../uniqueid) pour obtenir l'identifiant unique de la forme dans le contexte de la présentation.
+Obtient l'identifiant unique de forme dans le cadre de la diapositive. Lecture seule UInt32. Voir aussi [`UniqueId`](../uniqueid) pour obtenir l'identifiant unique de forme dans le cadre de la présentation.
 
 ```csharp
 public uint OfficeInteropShapeId { get; }

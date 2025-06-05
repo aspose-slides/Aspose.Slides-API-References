@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.mathtext/imathelement/enclose/
 ---
+
 ## Enclose() {#enclose}
 
 Encloses a math element in parenthesis

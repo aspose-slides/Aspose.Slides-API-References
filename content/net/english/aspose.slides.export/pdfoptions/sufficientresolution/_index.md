@@ -3,9 +3,10 @@ title: SufficientResolution
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets a value determining resolution of images inside PDF document.
 type: docs
-weight: 160
+weight: 190
 url: /aspose.slides.export/pdfoptions/sufficientresolution/
 ---
+
 ## PdfOptions.SufficientResolution property
 
 Returns or sets a value determining resolution of images inside PDF document.

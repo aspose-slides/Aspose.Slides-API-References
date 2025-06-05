@@ -7,7 +7,7 @@ weight: 380
 url: /de/aspose.slides/documentproperties/clearcustomproperties/
 ---
 
-## DocumentProperties.ClearCustomProperties-Methode
+## DocumentProperties.ClearCustomProperties Methode
 
 Entfernt alle benutzerdefinierten Eigenschaften.
 

@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Aspose.Sildes для .NET API Справка
-description: Получает эффективные данные об эффектах оттенка/насыщенности/яркости с примененным наследованием.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает данные эффективного эффекта Оттенок/Насыщенность/Яркость с применением наследования.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/hsl/geteffective/
@@ -9,17 +9,17 @@ url: /ru/aspose.slides.effects/hsl/geteffective/
 
 ## HSL.GetEffective метод
 
-Получает эффективные данные об эффектах оттенка/насыщенности/яркости с примененным наследованием.
+Получает данные эффективного эффекта Оттенок/Насыщенность/Яркость с применением наследования.
 
 ```csharp
 public IHSLEffectiveData GetEffective()
 ```
 
-### Возвращаемое значение
+### Значение Возврата
 
 [`IHSLEffectiveData`](../../ihsleffectivedata).
 
-### См. также
+### См. Также
 
 * интерфейс [IHSLEffectiveData](../../ihsleffectivedata)
 * класс [HSL](../../hsl)

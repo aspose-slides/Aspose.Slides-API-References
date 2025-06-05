@@ -1,13 +1,13 @@
 ---
 title: IndexOf
-second_title: Aspose.Slides для .NET Справочник по API
+second_title: Aspose.Sildes для .NET API Справочник
 description: Определяет индекс конкретного математического элемента в коллекции.
 type: docs
 weight: 120
 url: /ru/aspose.slides.mathtext/mathblock/indexof/
 ---
 
-## Метод MathBlock.IndexOf
+## MathBlock.IndexOf метод
 
 Определяет индекс конкретного математического элемента в коллекции.
 
@@ -17,11 +17,11 @@ public int IndexOf(IMathElement item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | IMathElement | Элемент, который необходимо найти в коллекции. |
+| item | IMathElement | Элемент, который нужно найти в коллекции. |
 
-### Значение, возвращаемое методом
+### Возвращаемое значение
 
-Индекс *item*, если он найден в коллекции; в противном случае -1.
+Индекс *item*, если он найден в коллекции; в противном случае, -1.
 
 ### Примеры
 

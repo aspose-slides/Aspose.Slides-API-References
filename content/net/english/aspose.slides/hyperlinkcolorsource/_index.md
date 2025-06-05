@@ -3,9 +3,10 @@ title: HyperlinkColorSource
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents source of hyperlink color.
 type: docs
-weight: 4790
+weight: 4940
 url: /aspose.slides/hyperlinkcolorsource/
 ---
+
 ## HyperlinkColorSource enumeration
 
 Represents source of hyperlink color.

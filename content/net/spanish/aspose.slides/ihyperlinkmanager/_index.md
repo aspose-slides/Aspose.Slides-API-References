@@ -1,7 +1,7 @@
 ---
 title: IHyperlinkManager
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Proporciona gestión de hipervínculos añadiendo y eliminando.
+second_title: Aspose.Slides para .NET Referencia API
+description: Proporcionar gestión de hipervínculos agregando y eliminando.
 type: docs
 weight: 5930
 url: /es/aspose.slides/ihyperlinkmanager/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/ihyperlinkmanager/
 
 ## Interfaz IHyperlinkManager
 
-Proporciona gestión de hipervínculos (añadir, eliminar).
+Proporcionar gestión de hipervínculos (agregando, eliminando).
 
 ```csharp
 public interface IHyperlinkManager
@@ -25,11 +25,11 @@ public interface IHyperlinkManager
 | [SetExternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkmouseover)(string) | Establece el hipervínculo externo al pasar el mouse. |
 | [SetInternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Establece el hipervínculo interno al hacer clic. |
 | [SetInternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | Establece el hipervínculo interno al pasar el mouse. |
-| [SetMacroHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setmacrohyperlinkclick)(string) | Establece el hipervínculo de macro al hacer clic. |
+| [SetMacroHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setmacrohyperlinkclick)(string) | Establece el hipervínculo de Macro al hacer clic. |
 
-### Consulta También
+### Ver También
 
-* espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblaje [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

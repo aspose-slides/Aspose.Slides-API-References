@@ -1,7 +1,7 @@
 ---
 title: ISoftEdge
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示软边缘效果。形状的边缘被模糊，而填充不会受到影响。
+description: 表示柔和边缘效果。形状的边缘模糊，而填充不受影响。
 type: docs
 weight: 3400
 url: /zh/aspose.slides.effects/isoftedge/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/isoftedge/
 
 ## ISoftEdge 接口
 
-表示软边缘效果。形状的边缘被模糊，而填充不会受到影响。
+表示柔和边缘效果。形状的边缘模糊，而填充不受影响。
 
 ```csharp
 public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImageTransformOperation

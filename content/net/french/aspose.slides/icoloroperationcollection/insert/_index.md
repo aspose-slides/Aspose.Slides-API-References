@@ -1,13 +1,13 @@
 ---
-title: Insérer
-second_title: Référence API Aspose.Slides pour .NET
+title: Insert
+second_title: Aspose.Sildes pour .NET API Reference
 description: Insère la nouvelle opération dans une collection.
 type: docs
 weight: 40
 url: /fr/aspose.slides/icoloroperationcollection/insert/
 ---
 
-## Insérer(int, ColorTransformOperation, float) {#insert_1}
+## Insert(int, ColorTransformOperation, float) {#insert_1}
 
 Insère la nouvelle opération dans une collection.
 
@@ -35,7 +35,7 @@ Opération insérée.
 
 ---
 
-## Insérer(int, ColorTransformOperation) {#insert}
+## Insert(int, ColorTransformOperation) {#insert}
 
 Insère la nouvelle opération dans une collection.
 

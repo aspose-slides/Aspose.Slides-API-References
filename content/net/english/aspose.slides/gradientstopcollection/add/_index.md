@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/gradientstopcollection/add/
 ---
+
 ## Add(float, Color) {#add_2}
 
 Creates the new gradient stop and adds it to the end of collection.

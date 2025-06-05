@@ -1,15 +1,15 @@
 ---
 title: SaveExternal
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Guarda un objeto externo.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Guarda objeto externo.
 type: docs
 weight: 30
 url: /es/aspose.slides.export/ilinkembedcontroller/saveexternal/
 ---
 
-## Método ILinkEmbedController.SaveExternal
+## ILinkEmbedController.SaveExternal método
 
-Guarda un objeto externo.
+Guarda objeto externo.
 
 ```csharp
 public void SaveExternal(int id, byte[] entityData)
@@ -17,13 +17,13 @@ public void SaveExternal(int id, byte[] entityData)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| id | Int32 | ID del objeto. Este ID es exclusivo para la operación de guardado. |
+| id | Int32 | ID del objeto. Este ID es único para la operación de guardado. |
 | entityData | Byte[] | Datos binarios del objeto. Este parámetro no puede ser nulo. |
 
 ### Ver También
 
 * interfaz [ILinkEmbedController](../../ilinkembedcontroller)
-* namespace [Aspose.Slides.Export](../../ilinkembedcontroller)
-* assembly [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides.Export](../../ilinkembedcontroller)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

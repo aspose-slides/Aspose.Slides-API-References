@@ -1,7 +1,7 @@
 ---
 title: PositionLocked
 second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob eine Bewegung dieser Form verboten ist. Lese- und Schreibbarer Boolean.
+description: Bestimmt, ob das Bewegen dieser Form verboten ist. Lese- und schreibbares Boolean.
 type: docs
 weight: 70
 url: /de/aspose.slides/iautoshapelock/positionlocked/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/iautoshapelock/positionlocked/
 
 ## IAutoShapeLock.PositionLocked-Eigenschaft
 
-Bestimmt, ob eine Bewegung dieser Form verboten ist. Lese- und Schreibbarer Boolean.
+Bestimmt, ob das Bewegen dieser Form verboten ist. Lese- und schreibbares Boolean.
 
 ```csharp
 public bool PositionLocked { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IAutoShapeLock](../../iautoshapelock)
 * Namespace [Aspose.Slides](../../iautoshapelock)

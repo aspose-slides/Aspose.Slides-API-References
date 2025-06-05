@@ -1,21 +1,21 @@
 ---
-title: Замедление
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Описывает процент длительности эффекта замедления поведения. Чтение/запись Single.
+title: Decelerate
+second_title: Aspose.Sildes для справки по API .NET
+description: Описывает процент эффекта замедления длительности поведения. Чтение/запись Single.
 type: docs
 weight: 30
 url: /ru/aspose.slides.animation/timing/decelerate/
 ---
 
-## Свойство Timing.Decelerate
+## Timing.Decelerate свойство
 
-Описывает процент длительности эффекта замедления поведения. Чтение/запись Single.
+Описывает процент эффекта замедления длительности поведения. Чтение/запись Single.
 
 ```csharp
 public float Decelerate { get; set; }
 ```
 
-### Также смотри
+### Также см.
 
 * класс [Timing](../../timing)
 * пространство имен [Aspose.Slides.Animation](../../timing)

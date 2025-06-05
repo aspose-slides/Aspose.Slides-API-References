@@ -1,15 +1,15 @@
 ---
 title: CopyTo
-second_title: Aspose.Slides для .NET API Справочник
-description: Копирует видео в заданный массив, начиная с указанного индекса.
+second_title: Aspose.Sildes для .NET API Ссылка
+description: Копирует видео в указанный массив, начиная с указанного индекса.
 type: docs
 weight: 60
 url: /ru/aspose.slides/videocollection/copyto/
 ---
 
-## Метод VideoCollection.CopyTo
+## VideoCollection.CopyTo метод
 
-Копирует видео в заданный массив, начиная с указанного индекса.
+Копирует видео в указанный массив, начиная с указанного индекса.
 
 ```csharp
 public void CopyTo(Array array, int index)
@@ -20,7 +20,7 @@ public void CopyTo(Array array, int index)
 | array | Array | Массив. |
 | index | Int32 | Индекс. |
 
-### См. также
+### См. Также
 
 * класс [VideoCollection](../../videocollection)
 * пространство имен [Aspose.Slides](../../videocollection)

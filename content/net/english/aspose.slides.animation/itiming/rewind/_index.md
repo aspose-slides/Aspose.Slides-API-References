@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.animation/itiming/rewind/
 ---
+
 ## ITiming.Rewind property
 
 This attribute specifies if the effect will rewind when done playing. Read/write Boolean.

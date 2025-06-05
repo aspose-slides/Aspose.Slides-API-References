@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/basechartvalue/data/
 ---
+
 ## BaseChartValue.Data property
 
 Data. Read/write Object.

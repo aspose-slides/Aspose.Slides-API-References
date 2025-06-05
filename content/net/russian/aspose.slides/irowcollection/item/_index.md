@@ -1,6 +1,6 @@
 ---
-title: Элемент
-second_title: Справка по API Aspose.Slides для .NET
+title: Item
+second_title: Aspose.Sildes для .NET API Справочник
 description: Получает элемент по указанному индексу.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/irowcollection/item/
 public IRow this[int index] { get; }
 ```
 
-### Смотрите также
+### См. Также
 
 * интерфейс [IRow](../../irow)
 * интерфейс [IRowCollection](../../irowcollection)

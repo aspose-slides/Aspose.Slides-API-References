@@ -1,7 +1,7 @@
 ---
 title: SvgTSpan
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa opciones para la porción de texto SVG tspan.
+description: Representa opciones para la porción de texto SVG "tspan".
 type: docs
 weight: 4330
 url: /es/aspose.slides.export/svgtspan/
@@ -25,6 +25,6 @@ public sealed class SvgTSpan : ISvgTSpan
 
 * interfaz [ISvgTSpan](../isvgtspan)
 * espacio de nombres [Aspose.Slides.Export](../../aspose.slides.export)
-* ensamblaje [Aspose.Slides](../../)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

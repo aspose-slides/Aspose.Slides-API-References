@@ -1,15 +1,15 @@
 ---
 title: ReplaceFontCondition
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Règle à appliquer pour la substitution. Read-only FontSubstConditionaspose.slides/fontsubstcondition.
+second_title: Aspose.Slides pour .NET Référence API
+description: Règle à appliquer pour la substitution. Lecture seule FontSubstConditionaspose.slides/fontsubstcondition.
 type: docs
 weight: 30
 url: /fr/aspose.slides/fontsubstrule/replacefontcondition/
 ---
 
-## Propriété FontSubstRule.ReplaceFontCondition
+## FontSubstRule.ReplaceFontCondition propriété
 
-Règle à appliquer pour la substitution. Read-only [`FontSubstCondition`](../../fontsubstcondition).
+Règle à appliquer pour la substitution. Lecture seule [`FontSubstCondition`](../../fontsubstcondition).
 
 ```csharp
 public FontSubstCondition ReplaceFontCondition { get; }

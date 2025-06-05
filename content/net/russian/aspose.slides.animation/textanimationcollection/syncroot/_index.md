@@ -1,13 +1,13 @@
 ---
 title: SyncRoot
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает корень синхронизации. Объект только для чтения.
 type: docs
 weight: 50
 url: /ru/aspose.slides.animation/textanimationcollection/syncroot/
 ---
 
-## Свойство TextAnimationCollection.SyncRoot
+## TextAnimationCollection.SyncRoot свойство
 
 Возвращает корень синхронизации. Объект только для чтения.
 

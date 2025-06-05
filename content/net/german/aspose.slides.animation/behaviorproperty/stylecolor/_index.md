@@ -1,13 +1,13 @@
 ---
 title: StyleColor
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Stellt die Eigenschaft style.color dar
 type: docs
 weight: 1050
 url: /de/aspose.slides.animation/behaviorproperty/stylecolor/
 ---
 
-## BehaviorProperty.StyleColor-Eigenschaft
+## BehaviorProperty.StyleColor Eigenschaft
 
 Stellt die Eigenschaft 'style.color' dar
 

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/chartdataworksheetcollection/count/
 ---
+
 ## ChartDataWorksheetCollection.Count property
 
 Returns the count. Read-only Int32.

@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/sectioncollection/indexof/
 ---
+
 ## SectionCollection.IndexOf method
 
 Returns an index of the specified section in the collection.

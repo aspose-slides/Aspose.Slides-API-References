@@ -1,7 +1,7 @@
 ---
-title: 透明度
-second_title: Aspose.Sildes for .NET API 参考
-description: 获取填充颜色的透明度。读取单一值。
+title: Transparency
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取填充颜色的透明度。读取单个值。
 type: docs
 weight: 20
 url: /zh/aspose.slides/icellformateffectivedata/transparency/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/icellformateffectivedata/transparency/
 
 ## ICellFormatEffectiveData.Transparency 属性
 
-获取填充颜色的透明度。读取单一值。
+获取填充颜色的透明度。读取单个值。
 
 ```csharp
 public float Transparency { get; }

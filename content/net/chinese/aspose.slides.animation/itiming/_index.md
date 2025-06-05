@@ -19,21 +19,21 @@ public interface ITiming
 
 | 名称 | 描述 |
 | --- | --- |
-| [Accelerate](../../aspose.slides.animation/itiming/accelerate) { get; set; } | 描述加速行为效果的持续时间百分比。可读/可写 Single。 |
-| [AutoReverse](../../aspose.slides.animation/itiming/autoreverse) { get; set; } | 描述是否在向前播放动画后自动反向播放动画。可读/可写 Boolean。 |
-| [Decelerate](../../aspose.slides.animation/itiming/decelerate) { get; set; } | 描述减速行为效果的持续时间百分比。可读/可写 Single。 |
+| [Accelerate](../../aspose.slides.animation/itiming/accelerate) { get; set; } | 描述持续时间加速行为效果的百分比。可读/可写 Single。 |
+| [AutoReverse](../../aspose.slides.animation/itiming/autoreverse) { get; set; } | 描述动画是否在正向播放后自动反向播放。可读/可写 Boolean。 |
+| [Decelerate](../../aspose.slides.animation/itiming/decelerate) { get; set; } | 描述持续时间减速行为效果的百分比。可读/可写 Single。 |
 | [Duration](../../aspose.slides.animation/itiming/duration) { get; set; } | 描述动画效果的持续时间。可读/可写 Single。 |
 | [RepeatCount](../../aspose.slides.animation/itiming/repeatcount) { get; set; } | 描述效果应重复的次数。可读/可写 Single。 |
-| [RepeatDuration](../../aspose.slides.animation/itiming/repeatduration) { get; set; } | 描述效果应重复的次数。可读/可写 Single。 |
-| [RepeatUntilEndSlide](../../aspose.slides.animation/itiming/repeatuntilendslide) { get; set; } | 此属性指定效果是否将在幻灯片结束时重复。可读/可写 Boolean。 |
-| [RepeatUntilNextClick](../../aspose.slides.animation/itiming/repeatuntilnextclick) { get; set; } | 此属性指定效果是否将在下一个点击之前重复。可读/可写 Boolean。 |
-| [Restart](../../aspose.slides.animation/itiming/restart) { get; set; } | 指定效果在完成后是否重新开始。可读/可写 [`EffectRestartType`](../effectrestarttype)。 |
-| [Rewind](../../aspose.slides.animation/itiming/rewind) { get; set; } | 此属性指定效果在播放完成后是否倒带。可读/可写 Boolean。 |
-| [Speed](../../aspose.slides.animation/itiming/speed) { get; set; } | 指定加速（或减速）时机的百分比。可读/可写 Single。 |
-| [TriggerDelayTime](../../aspose.slides.animation/itiming/triggerdelaytime) { get; set; } | 描述触发后延迟时间。可读/可写 Single。 |
+| [RepeatDuration](../../aspose.slides.animation/itiming/repeatduration) { get; set; } | 描述效果应重复的数量。可读/可写 Single。 |
+| [RepeatUntilEndSlide](../../aspose.slides.animation/itiming/repeatuntilendslide) { get; set; } | 此属性指定效果是否会重复直到幻灯片结束。可读/可写 Boolean。 |
+| [RepeatUntilNextClick](../../aspose.slides.animation/itiming/repeatuntilnextclick) { get; set; } | 此属性指定效果是否会重复直至下次点击。可读/可写 Boolean。 |
+| [Restart](../../aspose.slides.animation/itiming/restart) { get; set; } | 指定效果完成后是否重新开始。可读/可写 [`EffectRestartType`](../effectrestarttype)。 |
+| [Rewind](../../aspose.slides.animation/itiming/rewind) { get; set; } | 此属性指定效果播放完成后是否回放。可读/可写 Boolean。 |
+| [Speed](../../aspose.slides.animation/itiming/speed) { get; set; } | 指定加快（或减慢）时机的百分比。可读/可写 Single。 |
+| [TriggerDelayTime](../../aspose.slides.animation/itiming/triggerdelaytime) { get; set; } | 描述触发后的延迟时间。可读/可写 Single。 |
 | [TriggerType](../../aspose.slides.animation/itiming/triggertype) { get; set; } | 描述触发类型。可读/可写 [`EffectTriggerType`](../effecttriggertype)。 |
 
-### 参见
+### 另请参见
 
 * 命名空间 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 程序集 [Aspose.Slides](../../)

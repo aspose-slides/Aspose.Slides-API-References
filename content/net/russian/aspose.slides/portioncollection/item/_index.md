@@ -1,6 +1,6 @@
 ---
-title: Элемент
-second_title: Справка по API Aspose.Slides для .NET
+title: Item
+second_title: Aspose.Slides для .NET Справочник API
 description: Получает элемент по указанному индексу.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/portioncollection/item/
 public IPortion this[int index] { get; set; }
 ```
 
-### Смотрите также
+### Также смотри
 
 * интерфейс [IPortion](../../iportion)
 * класс [PortionCollection](../../portioncollection)

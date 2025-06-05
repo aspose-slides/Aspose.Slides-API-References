@@ -1,7 +1,7 @@
 ---
 title: ILayoutPlaceholderManager
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示允许您将占位符添加到布局幻灯片的管理器。
+description: 表示允许您向布局幻灯片添加占位符的管理器。
 type: docs
 weight: 6010
 url: /zh/aspose.slides/ilayoutplaceholdermanager/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ilayoutplaceholdermanager/
 
 ## ILayoutPlaceholderManager 接口
 
-表示允许您将占位符添加到布局幻灯片的管理器。
+表示允许您向布局幻灯片添加占位符的管理器。
 
 ```csharp
 public interface ILayoutPlaceholderManager
@@ -19,16 +19,16 @@ public interface ILayoutPlaceholderManager
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddChartPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | 添加一个新的占位符形状到布局幻灯片以容纳图表。 |
-| [AddContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | 添加一个新的占位符形状到布局幻灯片以容纳内容，如图片、表格、媒体或文本。 |
-| [AddMediaPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | 添加一个新的占位符形状到布局幻灯片以容纳媒体对象。 |
-| [AddOnlineImagePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | 添加一个新的占位符形状到布局幻灯片以容纳在线图像。 |
-| [AddPicturePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | 添加一个新的占位符形状到布局幻灯片以容纳图片。 |
-| [AddSmartArtPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | 添加一个新的占位符形状到布局幻灯片以容纳SmartArt图表。 |
-| [AddTablePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | 添加一个新的占位符形状到布局幻灯片以容纳表格。 |
-| [AddTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | 添加一个新的占位符形状到布局幻灯片以容纳文本内容。 |
-| [AddVerticalContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | 添加一个新的占位符形状到布局幻灯片以垂直方向容纳内容，如图片、表格、媒体或文本。 |
-| [AddVerticalTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | 添加一个新的占位符形状到布局幻灯片以垂直方向容纳文本内容。 |
+| [AddChartPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | 向布局幻灯片添加一个新的占位符形状以容纳图表。 |
+| [AddContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | 向布局幻灯片添加一个新的占位符形状以容纳内容，例如图片、表格、媒体或文本。 |
+| [AddMediaPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | 向布局幻灯片添加一个新的占位符形状以容纳媒体对象。 |
+| [AddOnlineImagePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | 向布局幻灯片添加一个新的占位符形状以容纳在线图片。 |
+| [AddPicturePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | 向布局幻灯片添加一个新的占位符形状以容纳图片。 |
+| [AddSmartArtPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | 向布局幻灯片添加一个新的占位符形状以容纳SmartArt图表。 |
+| [AddTablePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | 向布局幻灯片添加一个新的占位符形状以容纳表格。 |
+| [AddTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | 向布局幻灯片添加一个新的占位符形状以容纳文本内容。 |
+| [AddVerticalContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | 向布局幻灯片添加一个新的占位符形状以垂直方向容纳内容，例如图片、表格、媒体或文本。 |
+| [AddVerticalTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | 向布局幻灯片添加一个新的占位符形状以垂直方向容纳文本内容。 |
 
 ### 另见
 

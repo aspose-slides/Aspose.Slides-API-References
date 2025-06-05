@@ -3,9 +3,10 @@ title: Subject
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets the subject of a presentation. Read/write String.
 type: docs
-weight: 220
+weight: 310
 url: /aspose.slides/idocumentproperties/subject/
 ---
+
 ## IDocumentProperties.Subject property
 
 Returns or sets the subject of a presentation. Read/write String.

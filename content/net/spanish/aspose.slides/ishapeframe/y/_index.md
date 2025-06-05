@@ -15,7 +15,7 @@ Devuelve la coordenada Y de la esquina superior izquierda de un marco. Solo lect
 public float Y { get; }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [IShapeFrame](../../ishapeframe)
 * espacio de nombres [Aspose.Slides](../../ishapeframe)

@@ -3,9 +3,10 @@ title: Volume
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets the audio volume. Read/write AudioVolumeModeaspose.slides/audiovolumemode.
 type: docs
-weight: 130
+weight: 170
 url: /aspose.slides/audioframe/volume/
 ---
+
 ## AudioFrame.Volume property
 
 Returns or sets the audio volume. Read/write [`AudioVolumeMode`](../../audiovolumemode).

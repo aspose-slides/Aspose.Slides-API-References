@@ -1,7 +1,7 @@
 ---
 title: AnchoringType
-second_title: Aspose.Slides for .NET API Reference
-description: 返回或设置文本框中的垂直锚定文本。可读/写 TextAnchorTypeaspose.slides/textanchortype。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置 TextFrame 中的垂直锚文本。可读/可写 TextAnchorTypeaspose.slides/textanchortype。
 type: docs
 weight: 10
 url: /zh/aspose.slides/itextframeformat/anchoringtype/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/itextframeformat/anchoringtype/
 
 ## ITextFrameFormat.AnchoringType 属性
 
-返回或设置文本框中的垂直锚定文本。可读/写 [`TextAnchorType`](../../textanchortype)。
+返回或设置 TextFrame 中的垂直锚文本。可读/可写 [`TextAnchorType`](../../textanchortype)。
 
 ```csharp
 public TextAnchorType AnchoringType { get; set; }
 ```
 
-### 参见
+### 另见
 
 * 枚举 [TextAnchorType](../../textanchortype)
 * 接口 [ITextFrameFormat](../../itextframeformat)

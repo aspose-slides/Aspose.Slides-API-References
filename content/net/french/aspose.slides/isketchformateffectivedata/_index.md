@@ -1,7 +1,7 @@
 ---
 title: ISketchFormatEffectiveData
 second_title: Référence API Aspose.Slides pour .NET
-description: Objet immuable qui contient des propriétés de croquis de ligne effectives.
+description: Objet immuable qui contient les propriétés de croquis de ligne effectives.
 type: docs
 weight: 6810
 url: /fr/aspose.slides/isketchformateffectivedata/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/isketchformateffectivedata/
 
 ## Interface ISketchFormatEffectiveData
 
-Objet immuable qui contient des propriétés de croquis de ligne effectives.
+Objet immuable qui contient les propriétés de croquis de ligne effectives.
 
 ```csharp
 public interface ISketchFormatEffectiveData
@@ -19,13 +19,13 @@ public interface ISketchFormatEffectiveData
 
 | Nom | Description |
 | --- | --- |
-| [SketchType](../../aspose.slides/isketchformateffectivedata/sketchtype) { get; } | Renvoie le type de croquis. Lecture seule [`LineSketchType`](../linesketchtype). |
+| [SketchType](../../aspose.slides/isketchformateffectivedata/sketchtype) { get; } | Renvoie le type de croquis. En lecture seule [`LineSketchType`](../linesketchtype). |
 
 ### Remarques
 
 Cette interface est utilisée comme une partie de [`ILineFormatEffectiveData`](../ilineformateffectivedata).
 
-### Voir Aussi
+### Voir aussi
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

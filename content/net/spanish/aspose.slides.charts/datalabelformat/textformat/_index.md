@@ -1,6 +1,6 @@
 ---
 title: TextFormat
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el formato de texto del gráfico. Solo lectura IChartTextFormataspose.slides.charts/icharttextformat.
 type: docs
 weight: 160
@@ -15,11 +15,11 @@ Devuelve el formato de texto del gráfico. Solo lectura [`IChartTextFormat`](../
 public IChartTextFormat TextFormat { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IChartTextFormat](../../icharttextformat)
 * clase [DataLabelFormat](../../datalabelformat)
 * espacio de nombres [Aspose.Slides.Charts](../../datalabelformat)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

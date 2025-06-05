@@ -1,7 +1,7 @@
 ---
-title: Element
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt eine ImageTransformOperationaspose.slides.effects/imagetransformoperation aus der Sammlung anhand ihres Index zurück.
+title: Item
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt eine ImageTransformOperationaspose.slides.effects/imagetransformoperation aus der Sammlung nach ihrem Index zurück.
 type: docs
 weight: 30
 url: /de/aspose.slides.effects/imagetransformoperationcollection/item/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/imagetransformoperationcollection/item/
 
 ## ImageTransformOperationCollection-Indexer
 
-Gibt eine [`ImageTransformOperation`](../../imagetransformoperation) aus der Sammlung anhand ihres Index zurück.
+Gibt eine [`ImageTransformOperation`](../../imagetransformoperation) aus der Sammlung nach ihrem Index zurück.
 
 ```csharp
 public IImageTransformOperation this[int index] { get; }

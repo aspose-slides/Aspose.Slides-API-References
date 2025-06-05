@@ -1,7 +1,7 @@
 ---
 title: DoubleChartValue
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente une valeur double qui peut être stockée dans un document de présentation pptx de deux manières  1 dans la ou les cellules du classeur liées au graphique ; 2 en tant que valeur littérale.
+second_title: Référence API Aspose.Slides pour .NET
+description: Représente une valeur double qui peut être stockée dans un document de présentation pptx de deux manières  1 dans une ou plusieurs cellules de la feuille de calcul liée au graphique ; 2 comme valeur littérale.
 type: docs
 weight: 1550
 url: /fr/aspose.slides.charts/doublechartvalue/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/doublechartvalue/
 
 ## Classe DoubleChartValue
 
-Représente une valeur double qui peut être stockée dans un document de présentation pptx de deux manières : 1) dans la ou les cellules du classeur liées au graphique ; 2) en tant que valeur littérale.
+Représente une valeur double qui peut être stockée dans un document de présentation pptx de deux manières : 1) dans une ou plusieurs cellules de la feuille de calcul liée au graphique ; 2) comme valeur littérale.
 
 ```csharp
 public class DoubleChartValue : BaseChartValue, IDoubleChartValue
@@ -19,10 +19,10 @@ public class DoubleChartValue : BaseChartValue, IDoubleChartValue
 
 | Nom | Description |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/doublechartvalue/ascell) { get; set; } | Renvoie ou définit la cellule de données du graphique. Lecture/écriture [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteralDouble](../../aspose.slides.charts/doublechartvalue/asliteraldouble) { get; set; } | Renvoie ou définit la valeur comme double littéral. Lecture/écriture Double. |
-| override [Data](../../aspose.slides.charts/doublechartvalue/data) { get; set; } | Renvoie ou définit l'objet Data. Lecture/écriture Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Spécifie si la propriété AsCell, AsCells, AsLiteralString ou AsLiteralDouble est valide dans les descendants. En d'autres termes, cela spécifie le type de valeur de la propriété Data. Lecture/écriture [`DataSourceType`](../datasourcetype). |
+| [AsCell](../../aspose.slides.charts/doublechartvalue/ascell) { get; set; } | Retourne ou définit la cellule de données du graphique. Lecture/écriture [`IChartDataCell`](../ichartdatacell). |
+| [AsLiteralDouble](../../aspose.slides.charts/doublechartvalue/asliteraldouble) { get; set; } | Retourne ou définit la valeur comme double littéral. Lecture/écriture Double. |
+| override [Data](../../aspose.slides.charts/doublechartvalue/data) { get; set; } | Retourne ou définit l'objet Data. Lecture/écriture Object. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Spécifie si la propriété AsCell, AsCells, AsLiteralString ou AsLiteralDouble est réelle dans les descendants. En d'autres termes, cela spécifie le type de valeur de la propriété Data. Lecture/écriture [`DataSourceType`](../datasourcetype). |
 
 ## Méthodes
 

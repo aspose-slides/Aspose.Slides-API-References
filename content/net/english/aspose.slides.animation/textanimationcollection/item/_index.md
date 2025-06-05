@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.animation/textanimationcollection/item/
 ---
+
 ## TextAnimationCollection indexer (1 of 2)
 
 Returns element by index.

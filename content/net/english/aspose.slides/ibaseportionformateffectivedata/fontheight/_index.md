@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/ibaseportionformateffectivedata/fontheight/
 ---
+
 ## IBasePortionFormatEffectiveData.FontHeight property
 
 Returns the font height of a portion. Read-only Single.

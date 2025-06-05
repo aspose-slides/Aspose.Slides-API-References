@@ -1,7 +1,7 @@
 ---
 title: MajorUnit
-second_title: Aspose.Slides for .NET API Reference
-description: 表示日期或值轴的主要单位。可读写的 Double。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示日期或数值轴的主要单位。可读写的 Double。
 type: docs
 weight: 360
 url: /zh/aspose.slides.charts/axis/majorunit/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/axis/majorunit/
 
 ## Axis.MajorUnit 属性
 
-表示日期或值轴的主要单位。可读写的 Double。
+表示日期或数值轴的主要单位。可读写的 Double。
 
 ```csharp
 public double MajorUnit { get; set; }
 ```
 
-### 参见
+### 另见
 
 * class [Axis](../../axis)
 * namespace [Aspose.Slides.Charts](../../axis)

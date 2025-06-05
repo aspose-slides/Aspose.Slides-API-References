@@ -1,7 +1,7 @@
 ---
-title: Insérer
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Insère une nouvelle diapositive de mise en page à la position spécifiée de la collection.
+title: Insert
+second_title: Aspose.Slides pour .NET Référence API
+description: Insère un nouveau diapositive de mise en page à la position spécifiée de la collection.
 type: docs
 weight: 30
 url: /fr/aspose.slides/masterlayoutslidecollection/insert/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/masterlayoutslidecollection/insert/
 
 ## Méthode MasterLayoutSlideCollection.Insert
 
-Insère une nouvelle diapositive de mise en page à la position spécifiée de la collection.
+Insère un nouveau diapositive de mise en page à la position spécifiée de la collection.
 
 ```csharp
 public ILayoutSlide Insert(int index, SlideLayoutType layoutType, string layoutName)
@@ -18,8 +18,8 @@ public ILayoutSlide Insert(int index, SlideLayoutType layoutType, string layoutN
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | index | Int32 | Index de la nouvelle diapositive. |
-| layoutType | SlideLayoutType | Type de mise en page pour une nouvelle mise en page. Types de mise en page pris en charge : Titre, TitreUniquement, Vide, TitreEtObjet, TexteVertical, TitreEtTexteVertical, DeuxObjets, EnTêteDeSection, DeuxTextesEtDeuxObjets, TitreObjetEtLégende, ImageEtLégende, Personnalisé. D'autres types de mise en page ne sont pas pris en charge actuellement : Texte, TexteÀDeuxColonnes, Tableau, TexteEtGraphique, GraphiqueEtTexte, Diagramme, Graphique, TexteEtClipArt, ClipArtEtTexte, TexteEtObjet, ObjetEtTexte, Objet, TexteEtMédia, MédiaEtTexte, ObjetSurTexte, TexteSurObjet, TexteEtDeuxObjets, DeuxObjetsEtTexte, DeuxObjetsSurTexte, QuatreObjets, ClipArtEtTexteVertical, TitreVerticalEtTexteSurGraphique, ObjetEtDeuxObjets, DeuxObjetsEtObjet. |
-| layoutName | String | Nom pour une nouvelle mise en page. Si le nom passé est déjà utilisé, une ArgumentException sera levée. Si un paramètre nul est passé, alors un nom est généré automatiquement par rapport au type de mise en page passé (par exemple "Diapositive de Titre" ou "1_Diapositive de Titre", "2_..", etc.). |
+| layoutType | SlideLayoutType | Type de mise en page pour une nouvelle mise en page. Types de mise en page pris en charge : Titre, TitreUniquement, Vide, TitreEtObjet, TexteVertical, TitreEtTexteVertical, DeuxObjets, EnTêteDeSection, DeuxTextesEtDeuxObjets, ObjetTitreEtLégende, ImageEtLégende, Personnalisé. D'autres types de mise en page ne sont pas pris en charge actuellement : Texte, TexteEnDeuxColonnes, Tableau, TexteEtGraphique, GraphiqueEtTexte, Diagramme, Graphique, TexteEtClipArt, ClipArtEtTexte, TexteEtObjet, ObjetEtTexte, Objet, TexteEtMédia, MédiaEtTexte, ObjetSurTexte, TexteSurObjet, TexteEtDeuxObjets, DeuxObjetsEtTexte, DeuxObjetsSurTexte, QuatreObjets, ClipArtEtTexteVertical, TitreVerticalEtTexteSurGraphique, ObjetEtDeuxObjets, DeuxObjetsEtObjet. |
+| layoutName | String | Nom pour une nouvelle mise en page. Si le nom passé est déjà utilisé, une ArgumentException sera levée. Si un paramètre nul est passé, alors un nom est généré automatiquement en fonction du type de mise en page passé (par exemple "Titre diapositive" ou "1_Titre diapositive", "2_..", etc.). |
 
 ### Valeur de retour
 
@@ -29,14 +29,14 @@ Diapositive insérée.
 
 | exception | condition |
 | --- | --- |
-| NotImplementedException | Levée si une valeur non prise en charge du paramètre *layoutType* est passée. Types de mise en page qui ne sont pas pris en charge actuellement : Texte, TexteÀDeuxColonnes, Tableau, TexteEtGraphique, GraphiqueEtTexte, Diagramme, Graphique, TexteEtClipArt, ClipArtEtTexte, TexteEtObjet, ObjetEtTexte, Objet, TexteEtMédia, MédiaEtTexte, ObjetSurTexte, TexteSurObjet, TexteEtDeuxObjets, DeuxObjetsEtTexte, DeuxObjetsSurTexte, QuatreObjets, ClipArtEtTexteVertical, TitreVerticalEtTexteSurGraphique, ObjetEtDeuxObjets, DeuxObjetsEtObjet. |
+| NotImplementedException | Levée si une valeur non prise en charge du paramètre *layoutType* est passée. Types de mise en page qui ne sont pas pris en charge actuellement : Texte, TexteEnDeuxColonnes, Tableau, TexteEtGraphique, GraphiqueEtTexte, Diagramme, Graphique, TexteEtClipArt, ClipArtEtTexte, TexteEtObjet, ObjetEtTexte, Objet, TexteEtMédia, MédiaEtTexte, ObjetSurTexte, TexteSurObjet, TexteEtDeuxObjets, DeuxObjetsEtTexte, DeuxObjetsSurTexte, QuatreObjets, ClipArtEtTexteVertical, TitreVerticalEtTexteSurGraphique, ObjetEtDeuxObjets, DeuxObjetsEtObjet. |
 | ArgumentException | Levée si la valeur du nom de mise en page *layoutName* est déjà utilisée dans cette collection de mises en page. |
 
 ### Remarques
 
-La mise en page insérée pour la valeur SlideLayoutType.Custom de *layoutType* ne contient ni espaces réservés ni formes.
+La mise en page insérée pour la valeur SlideLayoutType.Custom du *layoutType* ne contient aucun espace réservé ni aucune forme.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ILayoutSlide](../../ilayoutslide)
 * enum [SlideLayoutType](../../slidelayouttype)

@@ -1,7 +1,7 @@
 ---
 title: PathFillModeType
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Art und Weise an, wie ein Pfad gefüllt werden soll
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt an, wie ein Pfad gefüllt werden soll
 type: docs
 weight: 9060
 url: /de/aspose.slides/pathfillmodetype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/pathfillmodetype/
 
 ## PathFillModeType Aufzählung
 
-Gibt die Art und Weise an, wie ein Pfad gefüllt werden soll
+Gibt an, wie ein Pfad gefüllt werden soll
 
 ```csharp
 public enum PathFillModeType : byte
@@ -20,13 +20,13 @@ public enum PathFillModeType : byte
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | None | `0` | Keine Pfadfüllung. Dies gibt an, dass der entsprechende Pfad keine Füllung haben sollte. |
-| Normal | `1` | Normale Pfadfüllung. Dies gibt an, dass der entsprechende Pfad eine normal schattierte Farbe auf seine Füllung angewendet bekommen sollte. |
-| Lighten | `2` | Aufhellende Pfadfüllung. Dies gibt an, dass der entsprechende Pfad eine leicht schattierte Farbe auf seine Füllung angewendet bekommen sollte. |
-| LightenLess | `3` | Weniger aufhellende Pfadfüllung. Dies gibt an, dass der entsprechende Pfad eine etwas hellere schattierte Farbe auf seine Füllung angewendet bekommen sollte. |
-| Darken | `4` | Abdunkelnde Pfadfüllung. Dies gibt an, dass der entsprechende Pfad eine dunkler schattierte Farbe auf seine Füllung angewendet bekommen sollte. |
-| DarkenLess | `5` | Weniger abdunkelnde Pfadfüllung. Dies gibt an, dass der entsprechende Pfad eine leicht dunkler schattierte Farbe auf seine Füllung angewendet bekommen sollte. |
+| Normal | `1` | Normale Pfadfüllung. Dies gibt an, dass der entsprechende Pfad eine normal schattierte Farbe auf seiner Füllung haben sollte. |
+| Lighten | `2` | Aufhellen der Pfadfüllung. Dies gibt an, dass der entsprechende Pfad eine leicht schattierte Farbe auf seiner Füllung haben sollte. |
+| LightenLess | `3` | Weniger Aufhellen der Pfadfüllung. Dies gibt an, dass der entsprechende Pfad eine etwas hellere schattierte Farbe auf seiner Füllung haben sollte. |
+| Darken | `4` | Abdunkeln der Pfadfüllung. Dies gibt an, dass der entsprechende Pfad eine dunkler schattierte Farbe auf seiner Füllung haben sollte. |
+| DarkenLess | `5` | Weniger Abdunkeln der Pfadfüllung. Dies gibt an, dass der entsprechende Pfad eine etwas dunkler schattierte Farbe auf seiner Füllung haben sollte. |
 
-### Siehe Auch
+### Siehe auch
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

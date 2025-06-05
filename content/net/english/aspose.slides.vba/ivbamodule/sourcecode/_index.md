@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.vba/ivbamodule/sourcecode/
 ---
+
 ## IVbaModule.SourceCode property
 
 Source code of the module. Read/write String.

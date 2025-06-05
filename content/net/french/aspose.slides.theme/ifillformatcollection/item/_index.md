@@ -1,5 +1,5 @@
 ---
-title: Élément
+title: Item
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient l'élément à l'index spécifié. Lecture seule IFillFormataspose.slides/ifillformat.
 type: docs
@@ -7,7 +7,7 @@ weight: 10
 url: /fr/aspose.slides.theme/ifillformatcollection/item/
 ---
 
-## Indexeur IFillFormatCollection
+## IFillFormatCollection indexer
 
 Obtient l'élément à l'index spécifié. Lecture seule [`IFillFormat`](../../../aspose.slides/ifillformat).
 

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/iformatfactory/createparagraphformat/
 ---
+
 ## IFormatFactory.CreateParagraphFormat method
 
 Creates new [`IParagraphFormat`](../../iparagraphformat).

@@ -1,7 +1,7 @@
 ---
 title: AudioCdStartTrackTime
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Startzeit der Spur zurück oder setzt sie. Lese-/Schreibzugriff Int32.
+description: Gibt eine Starttrackzeit zurück oder setzt sie. Lese-/Schreibzugriff Int32.
 type: docs
 weight: 40
 url: /de/aspose.slides/audioframe/audiocdstarttracktime/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/audioframe/audiocdstarttracktime/
 
 ## AudioFrame.AudioCdStartTrackTime-Eigenschaft
 
-Gibt die Startzeit der Spur zurück oder setzt sie. Lese-/Schreibzugriff Int32.
+Gibt eine Starttrackzeit zurück oder setzt sie. Lese-/Schreibzugriff Int32.
 
 ```csharp
 public int AudioCdStartTrackTime { get; set; }

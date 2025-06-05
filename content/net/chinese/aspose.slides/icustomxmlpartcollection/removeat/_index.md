@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
-second_title: Aspose.Sildes for .NET API Reference
-description: 在指定索引处删除自定义 XML 部件。
+second_title: Aspose.Slides for .NET API Reference
+description: 在指定的索引处删除自定义 xml 部件。
 type: docs
 weight: 50
 url: /zh/aspose.slides/icustomxmlpartcollection/removeat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/icustomxmlpartcollection/removeat/
 
 ## ICustomXmlPartCollection.RemoveAt 方法
 
-在指定索引处删除自定义 XML 部件。
+在指定的索引处删除自定义 xml 部件。
 
 ```csharp
 public void RemoveAt(int index)
@@ -21,9 +21,9 @@ public void RemoveAt(int index)
 
 ### 异常
 
-| 异常 | 条件 |
+| exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | index 小于 0.-或- index 等于或大于 Count |
+| ArgumentOutOfRangeException | index 小于 0.-或者-index 大于或等于 Count |
 
 ### 另见
 

@@ -1,6 +1,6 @@
 ---
 title: Radical
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Spécifie la racine mathématique du degré donné à partir de l'argument spécifié.
 type: docs
 weight: 120

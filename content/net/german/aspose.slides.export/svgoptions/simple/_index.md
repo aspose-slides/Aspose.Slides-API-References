@@ -1,7 +1,7 @@
 ---
-title: Einfach
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt Einstellungen für die einfachste und kleinste SVG-Dateigenerierung zurück. Nur-lesbare SVGOptionsaspose.slides.export/svgoptions.
+title: Simple
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt Einstellungen für die einfachste und kleinste SVG-Dateigenerierung zurück. Nur lesbare SVGOptionsaspose.slides.export/svgoptions.
 type: docs
 weight: 30
 url: /de/aspose.slides.export/svgoptions/simple/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/svgoptions/simple/
 
 ## SVGOptions.Simple-Eigenschaft
 
-Gibt Einstellungen für die einfachste und kleinste SVG-Dateigenerierung zurück. Nur-lesbare [`SVGOptions`](../../svgoptions).
+Gibt Einstellungen für die einfachste und kleinste SVG-Dateigenerierung zurück. Nur lesbare [`SVGOptions`](../../svgoptions).
 
 ```csharp
 public static SVGOptions Simple { get; }

@@ -1,7 +1,7 @@
 ---
-title: Schriftart
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Aufzählungszeichen-Schriftart eines Absatzes ohne Vererbung zurück oder setzt sie. Lese-/Schreibe IFontDataaspose.slides/ifontdata.
+title: Font
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Aufzählungszeichen-Schriftart eines Absatzes ohne Vererbung zurück oder setzt sie. Lese-/Schreibzugriff auf IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 30
 url: /de/aspose.slides/bulletformat/font/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/bulletformat/font/
 
 ## BulletFormat.Font-Eigenschaft
 
-Gibt die Aufzählungszeichen-Schriftart eines Absatzes ohne Vererbung zurück oder setzt sie. Lese-/Schreibe [`IFontData`](../../ifontdata).
+Gibt die Aufzählungszeichen-Schriftart eines Absatzes ohne Vererbung zurück oder setzt sie. Lese-/Schreibzugriff auf [`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData Font { get; set; }

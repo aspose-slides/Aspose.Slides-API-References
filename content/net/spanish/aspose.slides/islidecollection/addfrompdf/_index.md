@@ -1,6 +1,6 @@
 ---
 title: AddFromPdf
-second_title: Aspose.Slides para .NET Referencia de API
+second_title: Aspose.Sildes para .NET API Reference
 description: Crea diapositivas a partir del documento PDF y las agrega al final de la colección.
 type: docs
 weight: 50
@@ -47,7 +47,7 @@ using (Presentation pres = new Presentation())
 
 ## AddFromPdf(string, PdfImportOptions) {#addfrompdf_3}
 
-Crea diapositivas a partir del documento PDF y las agrega al final de la colección considerando las opciones de importación de pdf.
+Crea diapositivas a partir del documento PDF y las agrega al final de la colección considerando las opciones de importación de PDF.
 
 ```csharp
 public ISlide[] AddFromPdf(string path, PdfImportOptions pdfImportOptions)
@@ -56,7 +56,7 @@ public ISlide[] AddFromPdf(string path, PdfImportOptions pdfImportOptions)
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | path | String | Una ruta al documento PDF |
-| pdfImportOptions | PdfImportOptions | Opciones para la importación de pdf |
+| pdfImportOptions | PdfImportOptions | Opciones para la importación de PDF |
 
 ### Valor de Retorno
 
@@ -95,8 +95,8 @@ public ISlide[] AddFromPdf(Stream pdfStream, PdfImportOptions pdfImportOptions)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| pdfStream | Stream | Un flujo que se utilizará como fuente del documento PDF |
-| pdfImportOptions | PdfImportOptions | Opciones para la importación de pdf |
+| pdfStream | Stream | Un stream que se utilizará como fuente del documento PDF |
+| pdfImportOptions | PdfImportOptions | Opciones para la importación de PDF |
 
 ### Valor de Retorno
 
@@ -139,7 +139,7 @@ public ISlide[] AddFromPdf(Stream pdfStream)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| pdfStream | Stream | Un flujo que se utilizará como fuente del documento PDF |
+| pdfStream | Stream | Un stream que se utilizará como fuente del documento PDF |
 
 ### Valor de Retorno
 

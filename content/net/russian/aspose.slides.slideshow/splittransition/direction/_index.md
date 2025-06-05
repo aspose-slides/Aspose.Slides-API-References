@@ -1,13 +1,13 @@
 ---
-title: Направление
-second_title: Справочник по API Aspose.Slides для .NET
+title: Direction
+second_title: Aspose.Slides для .NET API Reference
 description: Направление разделения перехода. Чтение/запись TransitionInOutDirectionTypeaspose.slides.slideshow/transitioninoutdirectiontype.
 type: docs
 weight: 10
 url: /ru/aspose.slides.slideshow/splittransition/direction/
 ---
 
-## Свойство SplitTransition.Direction
+## SplitTransition.Direction свойство
 
 Направление разделения перехода. Чтение/запись [`TransitionInOutDirectionType`](../../transitioninoutdirectiontype).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.slideshow/splittransition/direction/
 public TransitionInOutDirectionType Direction { get; set; }
 ```
 
-### См. также
+### Дополнительно
 
 * enum [TransitionInOutDirectionType](../../transitioninoutdirectiontype)
 * class [SplitTransition](../../splittransition)

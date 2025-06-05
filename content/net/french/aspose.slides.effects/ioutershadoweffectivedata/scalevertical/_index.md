@@ -1,7 +1,7 @@
 ---
 title: ScaleVertical
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Spécifie le facteur de mise à l'échelle verticale, une mise à l'échelle négative provoque un retournement. En lecture seule Double.
+second_title: Référence API Aspose.Slides pour .NET
+description: Spécifie le facteur d'échelle vertical, une échelle négative provoque un retournement. Lecture seule Double.
 type: docs
 weight: 80
 url: /fr/aspose.slides.effects/ioutershadoweffectivedata/scalevertical/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/ioutershadoweffectivedata/scalevertical/
 
 ## Propriété IOuterShadowEffectiveData.ScaleVertical
 
-Spécifie le facteur de mise à l'échelle verticale, une mise à l'échelle négative provoque un retournement. En lecture seule Double.
+Spécifie le facteur d'échelle vertical, une échelle négative provoque un retournement. Lecture seule Double.
 
 ```csharp
 public double ScaleVertical { get; }

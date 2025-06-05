@@ -1,7 +1,7 @@
 ---
 title: ParagraphFormat
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das Formatierungsobjekt für diesen Absatz zurück. Schreibgeschützt IParagraphFormat aspose.slides/iparagraphformat.
+description: Gibt das Formatierungsobjekt für diesen Absatz zurück. Nur-Lese IParagraphFormataspose.slides/iparagraphformat.
 type: docs
 weight: 30
 url: /de/aspose.slides/iparagraph/paragraphformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iparagraph/paragraphformat/
 
 ## IParagraph.ParagraphFormat-Eigenschaft
 
-Gibt das Formatierungsobjekt für diesen Absatz zurück. Schreibgeschützt [`IParagraphFormat`](../../iparagraphformat).
+Gibt das Formatierungsobjekt für diesen Absatz zurück. Nur-Lese [`IParagraphFormat`](../../iparagraphformat).
 
 ```csharp
 public IParagraphFormat ParagraphFormat { get; }

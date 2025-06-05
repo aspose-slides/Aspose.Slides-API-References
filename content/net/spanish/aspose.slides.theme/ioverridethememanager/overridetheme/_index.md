@@ -1,13 +1,13 @@
 ---
 title: OverrideTheme
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el objeto de tema de anulación. Lectura/escritura IOverrideThemeaspose.slides.theme/ioverridetheme.
 type: docs
 weight: 30
 url: /es/aspose.slides.theme/ioverridethememanager/overridetheme/
 ---
 
-## Propiedad IOverrideThemeManager.OverrideTheme
+## IOverrideThemeManager.OverrideTheme property
 
 Devuelve el objeto de tema de anulación. Lectura/escritura [`IOverrideTheme`](../../ioverridetheme).
 
@@ -15,7 +15,7 @@ Devuelve el objeto de tema de anulación. Lectura/escritura [`IOverrideTheme`](.
 public IOverrideTheme OverrideTheme { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IOverrideTheme](../../ioverridetheme)
 * interfaz [IOverrideThemeManager](../../ioverridethememanager)

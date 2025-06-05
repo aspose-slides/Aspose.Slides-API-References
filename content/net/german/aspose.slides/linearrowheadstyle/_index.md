@@ -1,7 +1,7 @@
 ---
 title: LineArrowheadStyle
 second_title: Aspose.Slides für .NET API Referenz
-description: Stellt den Stil eines Pfeilkopfes dar.
+description: Stellt den Stil eines Pfeilspitzes dar.
 type: docs
 weight: 7500
 url: /de/aspose.slides/linearrowheadstyle/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/linearrowheadstyle/
 
 ## LineArrowheadStyle Aufzählung
 
-Stellt den Stil eines Pfeilkopfes dar.
+Stellt den Stil eines Pfeilspitzes dar.
 
 ```csharp
 public enum LineArrowheadStyle : sbyte
@@ -17,17 +17,17 @@ public enum LineArrowheadStyle : sbyte
 
 ### Werte
 
-| Name         | Wert | Beschreibung |
-|--------------|------|--------------|
-| NotDefined   | `-1` |              |
-| None         | `0`  |              |
-| Triangle     | `1`  |              |
-| Stealth      | `2`  |              |
-| Diamond      | `3`  |              |
-| Oval         | `4`  |              |
-| Open         | `5`  |              |
+| Name | Wert | Beschreibung |
+| --- | --- | --- |
+| NotDefined | `-1` |  |
+| None | `0` |  |
+| Triangle | `1` |  |
+| Stealth | `2` |  |
+| Diamond | `3` |  |
+| Oval | `4` |  |
+| Open | `5` |  |
 
-### Siehe auch
+### Siehe Auch
 
 * Namespace [Aspose.Slides](../../aspose.slides)
 * Assembly [Aspose.Slides](../../)

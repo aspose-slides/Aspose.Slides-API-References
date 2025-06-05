@@ -1,7 +1,7 @@
 ---
 title: Name
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Seriennamen zurück. Nur lesend IStringChartValueaspose.slides.charts/istringchartvalue.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den Seriennamen zurück. Nur-Lese IStringChartValueaspose.slides/istringchartvalue.
 type: docs
 weight: 210
 url: /de/aspose.slides.charts/chartseries/name/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/chartseries/name/
 
 ## ChartSeries.Name-Eigenschaft
 
-Gibt den Seriennamen zurück. Nur lesend [`IStringChartValue`](../../istringchartvalue).
+Gibt den Seriennamen zurück. Nur-Lese [`IStringChartValue`](../../istringchartvalue).
 
 ```csharp
 public IStringChartValue Name { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IStringChartValue](../../istringchartvalue)
 * Klasse [ChartSeries](../../chartseries)

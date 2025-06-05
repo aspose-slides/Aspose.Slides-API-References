@@ -1,6 +1,6 @@
 ---
 title: LatinFont
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Slides for .NET API Reference
 description: 返回拉丁字体信息。只读 IFontDataaspose.slides/ifontdata。
 type: docs
 weight: 170
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ibaseportionformateffectivedata/latinfont/
 public IFontData LatinFont { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IFontData](../../ifontdata)
 * 接口 [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)

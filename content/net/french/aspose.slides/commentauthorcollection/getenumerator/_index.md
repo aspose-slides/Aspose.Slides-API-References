@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne un énumérateur qui parcourt la collection.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie un énumérateur qui parcourt la collection.
 type: docs
 weight: 100
 url: /fr/aspose.slides/commentauthorcollection/getenumerator/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/commentauthorcollection/getenumerator/
 
 ## Méthode CommentAuthorCollection.GetEnumerator
 
-Retourne un énumérateur qui parcourt la collection.
+Renvoie un énumérateur qui parcourt la collection.
 
 ```csharp
 public IEnumerator<ICommentAuthor> GetEnumerator()
@@ -19,7 +19,7 @@ public IEnumerator<ICommentAuthor> GetEnumerator()
 
 Un IEnumerator qui peut être utilisé pour parcourir la collection.
 
-### Voir Aussi
+### Voir Également
 
 * interface [ICommentAuthor](../../icommentauthor)
 * classe [CommentAuthorCollection](../../commentauthorcollection)

@@ -1,7 +1,7 @@
 ---
 title: SlideViewProperties
 second_title: Aspose.Sildes for .NET API Reference
-description: 指定与幻灯片视图模式相关的常见视图属性。只读 ICommonSlideViewProperties aspose.slides/icommonslideviewproperties。
+description: 指定与幻灯片视图模式相关的常见视图属性。只读 ICommonSlideViewPropertiesaspose.slides/icommonslideviewproperties。
 type: docs
 weight: 60
 url: /zh/aspose.slides/iviewproperties/slideviewproperties/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/iviewproperties/slideviewproperties/
 public ICommonSlideViewProperties SlideViewProperties { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [ICommonSlideViewProperties](../../icommonslideviewproperties)
 * 接口 [IViewProperties](../../iviewproperties)

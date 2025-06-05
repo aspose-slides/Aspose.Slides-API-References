@@ -1,5 +1,5 @@
 ---
-title: Unterbrechung
+title: Interrupt
 second_title: Aspose.Slides für .NET API Referenz
 description: Anfrage zur Unterbrechung initialisieren.
 type: docs
@@ -15,7 +15,7 @@ Anfrage zur Unterbrechung initialisieren.
 public void Interrupt()
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IInterruptionTokenSource](../../iinterruptiontokensource)
 * Namespace [Aspose.Slides](../../iinterruptiontokensource)

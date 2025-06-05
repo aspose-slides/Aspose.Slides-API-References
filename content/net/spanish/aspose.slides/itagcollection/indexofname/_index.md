@@ -7,7 +7,7 @@ weight: 80
 url: /es/aspose.slides/itagcollection/indexofname/
 ---
 
-## Método ITagCollection.IndexOfName
+## ITagCollection.IndexOfName método
 
 Devuelve el índice basado en cero de la clave especificada en la colección.
 
@@ -21,7 +21,7 @@ public int IndexOfName(string name)
 
 ### Valor de Retorno
 
-El índice basado en cero de la clave, si la clave se encuentra en la colección; de lo contrario, -1.
+El índice basado en cero de la clave, si se encuentra la clave en la colección; de lo contrario, -1.
 
 ### Véase También
 

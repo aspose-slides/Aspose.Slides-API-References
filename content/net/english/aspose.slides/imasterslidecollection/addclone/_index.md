@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/imasterslidecollection/addclone/
 ---
+
 ## IMasterSlideCollection.AddClone method
 
 Adds a copy of a specified master slide to the end of the collection. Linked layout slides will be copied too.

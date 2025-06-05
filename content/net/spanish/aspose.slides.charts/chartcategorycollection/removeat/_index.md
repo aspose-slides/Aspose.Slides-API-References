@@ -1,6 +1,6 @@
 ---
 title: RemoveAt
-second_title: Aspose.Sildes para .NET Referencia de API
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Elimina el elemento en el índice dado.
 type: docs
 weight: 130
@@ -23,6 +23,6 @@ public void RemoveAt(int index)
 
 * clase [ChartCategoryCollection](../../chartcategorycollection)
 * espacio de nombres [Aspose.Slides.Charts](../../chartcategorycollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

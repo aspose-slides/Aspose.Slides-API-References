@@ -1,13 +1,13 @@
 ---
-title: ModeÉditionChemin
-second_title: Référence API Aspose.Slides pour .NET
+title: PathEditMode
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Spécifie comment le chemin de mouvement se déplace lorsque la forme est déplacée. Lecture/écriture MotionPathEditModeaspose.slides.animation/motionpatheditmode.
 type: docs
 weight: 70
 url: /fr/aspose.slides.animation/imotioneffect/patheditmode/
 ---
 
-## Propriété IMotionEffect.PathEditMode
+## IMotionEffect.PathEditMode propriété
 
 Spécifie comment le chemin de mouvement se déplace lorsque la forme est déplacée. Lecture/écriture [`MotionPathEditMode`](../../motionpatheditmode).
 

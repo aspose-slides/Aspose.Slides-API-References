@@ -1,6 +1,6 @@
 ---
 title: AudioVolumeMode
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Constantes qui définissent le volume audio.
 type: docs
 weight: 810
@@ -20,12 +20,12 @@ public enum AudioVolumeMode
 | Nom | Valeur | Description |
 | --- | --- | --- |
 | Mixed | `-1` |  |
-| Mute | `0` | Volume sonore zéro. |
-| Low | `1` | Faible volume sonore. |
+| Mute | `0` | Volume sonore nul. |
+| Low | `1` | Volume sonore faible. |
 | Medium | `2` | Volume sonore moyen. |
 | Loud | `3` | Volume sonore élevé. |
 
-### Voir Aussi
+### Voir aussi
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

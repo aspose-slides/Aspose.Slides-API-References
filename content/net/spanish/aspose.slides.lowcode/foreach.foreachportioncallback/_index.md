@@ -13,13 +13,13 @@ public delegate void ForEachPortionCallback(Portion portion, Paragraph para, Bas
     int index);
 ```
 
-### Vea También
+### Véase también
 
 * clase [Portion](../../aspose.slides/portion)
 * clase [Paragraph](../../aspose.slides/paragraph)
 * clase [BaseSlide](../../aspose.slides/baseslide)
 * clase [ForEach](../foreach)
 * espacio de nombres [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
-* ensamblado [Aspose.Slides](../../)
+* ensamblaje [Aspose.Slides](../../)
 
-<!-- NO EDITE: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -3,9 +3,10 @@ title: IBehaviorCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents collection of behavior effects.
 type: docs
-weight: 330
+weight: 340
 url: /aspose.slides.animation/ibehaviorcollection/
 ---
+
 ## IBehaviorCollection interface
 
 Represents collection of behavior effects.

@@ -1,7 +1,7 @@
 ---
 title: IVbaReferenceOleTwiddledTypeLib
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет модифицированную ссылку на библиотеку типов OLE Automation, в которой все элементы управления отмечены как расширяемые.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет измененную ссылку на библиотеку типов OLE Automation, в которой все элементы управления помечены как расширяемые.
 type: docs
 weight: 11290
 url: /ru/aspose.slides.vba/ivbareferenceoletwiddledtypelib/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.vba/ivbareferenceoletwiddledtypelib/
 
 ## Интерфейс IVbaReferenceOleTwiddledTypeLib
 
-Представляет модифицированную ссылку на библиотеку типов OLE Automation, в которой все элементы управления отмечены как расширяемые.
+Представляет измененную ссылку на библиотеку типов OLE Automation, в которой все элементы управления помечены как расширяемые.
 
 ```csharp
 public interface IVbaReferenceOleTwiddledTypeLib : IVbaReference
@@ -21,7 +21,7 @@ public interface IVbaReferenceOleTwiddledTypeLib : IVbaReference
 | --- | --- |
 | [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletwiddledtypelib/asivbareference) { get; } | Возвращает интерфейс IVbaReference. Только для чтения [`IVbaReference`](../ivbareference). |
 
-### См. также
+### См. Также
 
 * интерфейс [IVbaReference](../ivbareference)
 * пространство имен [Aspose.Slides.Vba](../../aspose.slides.vba)

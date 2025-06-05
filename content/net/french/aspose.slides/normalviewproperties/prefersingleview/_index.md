@@ -1,7 +1,7 @@
 ---
 title: PreferSingleView
-second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie si l'utilisateur préfère voir une région de contenu unique en plein écran par rapport à la vue normale standard avec trois régions de contenu. Si activé, l'application peut choisir d'afficher l'une des régions de contenu dans la fenêtre entière. Booléen en lecture/écriture.
+second_title: Aspose.Slides pour .NET Documentations de l'API
+description: Spécifie si l'utilisateur préfère voir une région de contenu unique en plein écran plutôt que la vue normale standard avec trois régions de contenu. Si activé, l'application peut choisir d'afficher l'une des régions de contenu dans toute la fenêtre. Propriété booléenne en lecture/écriture.
 type: docs
 weight: 20
 url: /fr/aspose.slides/normalviewproperties/prefersingleview/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/normalviewproperties/prefersingleview/
 
 ## NormalViewProperties.PreferSingleView propriété
 
-Spécifie si l'utilisateur préfère voir une région de contenu unique en plein écran par rapport à la vue normale standard avec trois régions de contenu. Si activé, l'application peut choisir d'afficher l'une des régions de contenu dans la fenêtre entière. Booléen en lecture/écriture.
+Spécifie si l'utilisateur préfère voir une région de contenu unique en plein écran plutôt que la vue normale standard avec trois régions de contenu. Si activé, l'application peut choisir d'afficher l'une des régions de contenu dans toute la fenêtre. Propriété booléenne en lecture/écriture.
 
 ```csharp
 public bool PreferSingleView { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [NormalViewProperties](../../normalviewproperties)
 * espace de noms [Aspose.Slides](../../normalviewproperties)

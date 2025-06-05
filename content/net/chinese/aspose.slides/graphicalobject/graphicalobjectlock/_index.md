@@ -1,7 +1,7 @@
 ---
-title: 图形对象锁
-second_title: Aspose.Slides for .NET API 参考
-description: 返回形状锁。只读 IGraphicalObjectLock aspose.slides/igraphicalobjectlock。
+title: GraphicalObjectLock
+second_title: Aspose.Slides for .NET API Reference
+description: 返回形状的锁定状态。只读 IGraphicalObjectLockaspose.slides/igraphicalobjectlock。
 type: docs
 weight: 10
 url: /zh/aspose.slides/graphicalobject/graphicalobjectlock/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/graphicalobject/graphicalobjectlock/
 
 ## GraphicalObject.GraphicalObjectLock 属性
 
-返回形状的锁。只读 [`IGraphicalObjectLock`](../../igraphicalobjectlock)。
+返回形状的锁定状态。只读 [`IGraphicalObjectLock`](../../igraphicalobjectlock)。
 
 ```csharp
 public IGraphicalObjectLock GraphicalObjectLock { get; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IGraphicalObjectLock](../../igraphicalobjectlock)
 * 类 [GraphicalObject](../../graphicalobject)

@@ -1,13 +1,13 @@
 ---
-title: Равно
-second_title: Справочник по API Aspose.Slides для .NET
+title: Equals
+second_title: Aspose.Sildes для .NET API Reference
 description: Определяет, равен ли указанный AlphaModulateaspose.slides.effects/alphamodulate текущему AlphaModulateaspose.slides.effects/alphamodulate.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/alphamodulate/equals/
 ---
 
-## Метод AlphaModulate.Equals
+## AlphaModulate.Equals метод
 
 Определяет, равен ли указанный [`AlphaModulate`](../../alphamodulate) текущему [`AlphaModulate`](../../alphamodulate).
 
@@ -17,13 +17,13 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`AlphaModulate`](../../alphamodulate) для сравнения. |
+| obj | Object | [`AlphaModulate`](../../alphamodulate), который следует сравнить. |
 
 ### Возвращаемое значение
 
-true, если объекты равны; в противном случае false.
+true, если объекты равны; в противном случае - false.
 
-### Также смотрите
+### См. также
 
 * класс [AlphaModulate](../../alphamodulate)
 * пространство имен [Aspose.Slides.Effects](../../alphamodulate)

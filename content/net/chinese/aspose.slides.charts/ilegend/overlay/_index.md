@@ -1,6 +1,6 @@
 ---
-title: 重叠
-second_title: Aspose.Sildes for .NET API 参考
+title: Overlay
+second_title: Aspose.Sildes for .NET API Reference
 description: 确定是否允许其他图表元素与图例重叠。可读/可写布尔值。
 type: docs
 weight: 50
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/ilegend/overlay/
 public bool Overlay { get; set; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [ILegend](../../ilegend)
 * 命名空间 [Aspose.Slides.Charts](../../ilegend)

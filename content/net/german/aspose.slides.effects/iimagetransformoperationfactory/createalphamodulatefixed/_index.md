@@ -1,7 +1,7 @@
 ---
 title: CreateAlphaModulateFixed
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erstellt einen Alpha-Modulations-Fixed-Effekt.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Erstellt den Effekt "Alpha modulate fixed".
 type: docs
 weight: 50
 url: /de/aspose.slides.effects/iimagetransformoperationfactory/createalphamodulatefixed/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/iimagetransformoperationfactory/createalphamodula
 
 ## IImageTransformOperationFactory.CreateAlphaModulateFixed-Methode
 
-Erstellt einen Alpha-Modulations-Fixed-Effekt.
+Erstellt den Effekt "Alpha modulate fixed".
 
 ```csharp
 public IAlphaModulateFixed CreateAlphaModulateFixed(float amount)
@@ -21,9 +21,9 @@ public IAlphaModulateFixed CreateAlphaModulateFixed(float amount)
 
 ### Rückgabewert
 
-Alpha-Modulations-Fixed-Effekt.
+Alpha modulate fixed Effekt.
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IAlphaModulateFixed](../../ialphamodulatefixed)
 * Schnittstelle [IImageTransformOperationFactory](../../iimagetransformoperationfactory)

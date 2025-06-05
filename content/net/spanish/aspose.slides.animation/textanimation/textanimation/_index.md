@@ -1,13 +1,13 @@
 ---
-title: AnimaciónDeTexto
-second_title: Referencia de API de Aspose.Slides para .NET
+title: TextAnimation
+second_title: Aspose.Sildes para .NET Referencia de API
 description: El constructor predeterminado.
 type: docs
 weight: 10
 url: /es/aspose.slides.animation/textanimation/textanimation/
 ---
 
-## Constructor de AnimaciónDeTexto
+## Constructor de TextAnimation
 
 El constructor predeterminado.
 
@@ -15,7 +15,7 @@ El constructor predeterminado.
 public TextAnimation()
 ```
 
-### Véase También
+### Véase también
 
 * class [TextAnimation](../../textanimation)
 * namespace [Aspose.Slides.Animation](../../textanimation)

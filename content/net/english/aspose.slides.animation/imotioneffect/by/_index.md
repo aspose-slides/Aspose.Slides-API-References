@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.animation/imotioneffect/by/
 ---
+
 ## IMotionEffect.By property
 
 Describes the relative offset value for the animation (in percents). Read/write PointF.

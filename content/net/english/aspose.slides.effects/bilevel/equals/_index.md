@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.effects/bilevel/equals/
 ---
+
 ## BiLevel.Equals method
 
 Determines whether the specified [`BiLevel`](../../bilevel) is equal to the current [`BiLevel`](../../bilevel).

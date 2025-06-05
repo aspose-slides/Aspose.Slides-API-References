@@ -1,15 +1,15 @@
 ---
 title: TimeUnitType
 second_title: Aspose.Slides für .NET API Referenz
-description: Stellt die Basiseinheit für die Kategoriewelle dar
+description: Stellt die Basiseinheit für die Kategorienachse dar
 type: docs
 weight: 2380
 url: /de/aspose.slides.charts/timeunittype/
 ---
 
-## TimeUnitType Aufzählung
+## Aufzählung TimeUnitType
 
-Stellt die Basiseinheit für die Kategoriewelle dar
+Stellt die Basiseinheit für die Kategorienachse dar
 
 ```csharp
 public enum TimeUnitType
@@ -17,14 +17,14 @@ public enum TimeUnitType
 
 ### Werte
 
-| Name  | Wert | Beschreibung |
-| ---   | ---   | ---          |
-| None  | `0`  | Werte werden wie sie sind angezeigt. |
-| Days  | `1`  | Gibt an, dass die Diagrammdaten in Tagen angezeigt werden sollen. |
-| Months| `2`  | Gibt an, dass die Diagrammdaten in Monaten angezeigt werden sollen. |
-| Years | `3`  | Gibt an, dass die Diagrammdaten in Jahren angezeigt werden sollen. |
+| Name | Wert | Beschreibung |
+| --- | --- | --- |
+| None | `0` | Werte werden unverändert angezeigt. |
+| Days | `1` | Gibt an, dass die Diagrammdaten in Tagen angezeigt werden sollen. |
+| Months | `2` | Gibt an, dass die Diagrammdaten in Monaten angezeigt werden sollen. |
+| Years | `3` | Gibt an, dass die Diagrammdaten in Jahren angezeigt werden sollen. |
 
-### Siehe Auch
+### Siehe auch
 
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

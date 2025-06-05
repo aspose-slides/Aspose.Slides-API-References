@@ -1,13 +1,13 @@
 ---
 title: CameraType
-second_title: Référence API Aspose.Slides pour .NET
-description: Type de caméra. Lecture seule CameraPresetType aspose.slides/camerapresettype.
+second_title: Aspose.Slides pour .NET Référence API
+description: Type de caméra. Lecture seule CameraPresetTypeaspose.slides/camerapresettype.
 type: docs
 weight: 10
 url: /fr/aspose.slides/icameraeffectivedata/cameratype/
 ---
 
-## Propriété ICameraEffectiveData.CameraType
+## ICameraEffectiveData.CameraType propriété
 
 Type de caméra. Lecture seule [`CameraPresetType`](../../camerapresettype).
 
@@ -15,7 +15,7 @@ Type de caméra. Lecture seule [`CameraPresetType`](../../camerapresettype).
 public CameraPresetType CameraType { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [CameraPresetType](../../camerapresettype)
 * interface [ICameraEffectiveData](../../icameraeffectivedata)

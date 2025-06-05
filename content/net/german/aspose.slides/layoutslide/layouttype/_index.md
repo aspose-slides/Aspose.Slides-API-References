@@ -1,7 +1,7 @@
 ---
 title: LayoutType
-second_title: Aspose.Sildes für .NET API Referenz
-description: Gibt den Layouttyp dieser Layoutfolie zurück. Nur lesbar SlideLayoutTypeaspose.slides/slidelayouttype.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den Layouttyp dieser Layoutfolie zurück. Nur-Lese SlideLayoutType aspose.slides/slidelayouttype.
 type: docs
 weight: 30
 url: /de/aspose.slides/layoutslide/layouttype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/layoutslide/layouttype/
 
 ## LayoutSlide.LayoutType-Eigenschaft
 
-Gibt den Layouttyp dieser Layoutfolie zurück. Nur lesbar [`SlideLayoutType`](../../slidelayouttype).
+Gibt den Layouttyp dieser Layoutfolie zurück. Nur-Lese [`SlideLayoutType`](../../slidelayouttype).
 
 ```csharp
 public SlideLayoutType LayoutType { get; }

@@ -1,7 +1,7 @@
 ---
 title: LightType
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt eine vordefinierte Lichtanordnung dar, die auf eine Form angewendet werden kann. Die Lichtanordnung stellt eine Gruppe von Lichtern dar, die auf eine bestimmte Weise relativ zu einer 3D-Szene ausgerichtet sind. Lese-/Schreibezugriff auf LightRigPresetTypeaspose.slides/lightrigpresettype.
+description: Repräsentiert einen voreingestellten Lichtpinsel, der auf eine Form angewendet werden kann. Der Lichtpinsel stellt eine Gruppe von Lichtern dar, die in einer bestimmten Weise in Bezug auf eine 3D-Szene ausgerichtet sind. Lese-/Schreibe LightRigPresetTypeaspose.slides/lightrigpresettype.
 type: docs
 weight: 20
 url: /de/aspose.slides/lightrig/lighttype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/lightrig/lighttype/
 
 ## LightRig.LightType-Eigenschaft
 
-Stellt eine vordefinierte Lichtanordnung dar, die auf eine Form angewendet werden kann. Die Lichtanordnung stellt eine Gruppe von Lichtern dar, die auf eine bestimmte Weise relativ zu einer 3D-Szene ausgerichtet sind. Lese-/Schreibezugriff auf [`LightRigPresetType`](../../lightrigpresettype).
+Repräsentiert einen voreingestellten Lichtpinsel, der auf eine Form angewendet werden kann. Der Lichtpinsel stellt eine Gruppe von Lichtern dar, die in einer bestimmten Weise in Bezug auf eine 3D-Szene ausgerichtet sind. Lese-/Schreibe [`LightRigPresetType`](../../lightrigpresettype).
 
 ```csharp
 public LightRigPresetType LightType { get; set; }

@@ -1,21 +1,21 @@
 ---
 title: QuartileMethod
-second_title: Aspose.Sildes для .NET API Reference
-description: Представляет метод квартиля. Применяется только к графикам BoxAndWhisker.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет метод квартилей. Применяется только к графикам BoxAndWhisker.
 type: docs
 weight: 340
 url: /ru/aspose.slides.charts/ichartseries/quartilemethod/
 ---
 
-## Свойство IChartSeries.QuartileMethod
+## IChartSeries.QuartileMethod свойство
 
-Представляет метод квартиля. Применяется только к графикам BoxAndWhisker.
+Представляет метод квартилей. Применяется только к графикам BoxAndWhisker.
 
 ```csharp
 public QuartileMethodType QuartileMethod { get; set; }
 ```
 
-### Смотрите также
+### См. Также
 
 * enum [QuartileMethodType](../../quartilemethodtype)
 * interface [IChartSeries](../../ichartseries)

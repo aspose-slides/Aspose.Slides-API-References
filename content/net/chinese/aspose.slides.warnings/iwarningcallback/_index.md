@@ -1,6 +1,6 @@
 ---
 title: IWarningCallback
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 接收警告的类的接口
 type: docs
 weight: 11490
@@ -21,7 +21,7 @@ public interface IWarningCallback
 | --- | --- |
 | [Warning](../../aspose.slides.warnings/iwarningcallback/warning)(IWarningInfo) | 接收警告并决定是否应中止操作的回调方法。 |
 
-### 另请参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.Warnings](../../aspose.slides.warnings)
 * 程序集 [Aspose.Slides](../../)

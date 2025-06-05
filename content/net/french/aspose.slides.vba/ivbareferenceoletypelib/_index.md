@@ -1,15 +1,15 @@
 ---
 title: IVbaReferenceOleTypeLib
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente une référence de type de bibliothèque OLE Automation.
+description: Représente la référence de la bibliothèque de types OLE Automation.
 type: docs
 weight: 11300
 url: /fr/aspose.slides.vba/ivbareferenceoletypelib/
 ---
 
-## Interface IVbaReferenceOleTypeLib
+## IVbaReferenceOleTypeLib interface
 
-Représente une référence de type de bibliothèque OLE Automation.
+Représente la référence de la bibliothèque de types OLE Automation.
 
 ```csharp
 public interface IVbaReferenceOleTypeLib : IVbaReference
@@ -19,10 +19,10 @@ public interface IVbaReferenceOleTypeLib : IVbaReference
 
 | Nom | Description |
 | --- | --- |
-| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletypelib/asivbareference) { get; } | Renvoie l'interface IVbaReference. En lecture seule [`IVbaReference`](../ivbareference). |
-| [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | Représente l'identifiant d'une bibliothèque de types Automation. Chaîne en lecture/écriture. |
+| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletypelib/asivbareference) { get; } | Renvoie l'interface IVbaReference. Lecture seule [`IVbaReference`](../ivbareference). |
+| [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | Représente l'identifiant d'une bibliothèque de types Automation. Lecture/écriture String. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IVbaReference](../ivbareference)
 * namespace [Aspose.Slides.Vba](../../aspose.slides.vba)

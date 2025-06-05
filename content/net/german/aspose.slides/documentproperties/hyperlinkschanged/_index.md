@@ -1,15 +1,15 @@
 ---
 title: HyperlinksChanged
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt an, dass ein oder mehrere Hyperlinks in diesem Teil ausschließlich in diesem Teil von einem Produzenten aktualisiert wurden. Der nächste Produzent, der dieses Dokument öffnet, aktualisiert die Hyperlink-Beziehungen mit den neuen Hyperlinks, die in diesem Teil angegeben sind. Lese-/Schreib-Boolean.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt an, dass ein oder mehrere Hyperlinks in diesem Teil ausschließlich in diesem Teil von einem Produzenten aktualisiert wurden. Der nächste Produzent, der dieses Dokument öffnet, soll die Hyperlink-Beziehungen mit den neuen Hyperlinks aktualisieren, die in diesem Teil angegeben sind. Lese-/schreibbarer Boolean.
 type: docs
 weight: 150
 url: /de/aspose.slides/documentproperties/hyperlinkschanged/
 ---
 
-## DocumentProperties.HyperlinksChanged Eigenschaft
+## DocumentProperties.HyperlinksChanged-Eigenschaft
 
-Gibt an, dass ein oder mehrere Hyperlinks in diesem Teil ausschließlich in diesem Teil von einem Produzenten aktualisiert wurden. Der nächste Produzent, der dieses Dokument öffnet, aktualisiert die Hyperlink-Beziehungen mit den neuen Hyperlinks, die in diesem Teil angegeben sind. Lese-/Schreib-Boolean.
+Gibt an, dass ein oder mehrere Hyperlinks in diesem Teil ausschließlich in diesem Teil von einem Produzenten aktualisiert wurden. Der nächste Produzent, der dieses Dokument öffnet, soll die Hyperlink-Beziehungen mit den neuen Hyperlinks aktualisieren, die in diesem Teil angegeben sind. Lese-/schreibbarer Boolean.
 
 ```csharp
 public bool HyperlinksChanged { get; set; }

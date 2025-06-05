@@ -7,7 +7,7 @@ weight: 110
 url: /ru/aspose.slides/sectioncollection/indexof/
 ---
 
-## Метод SectionCollection.IndexOf
+## SectionCollection.IndexOf метод
 
 Возвращает индекс указанного раздела в коллекции.
 

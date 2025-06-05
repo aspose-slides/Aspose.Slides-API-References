@@ -1,7 +1,7 @@
 ---
-title: Происхождение
+title: Origin
 second_title: Aspose.Sildes для .NET API Справочник
-description: Указывает, относительно чего является происхождение пути движения, например, расположения слайда или родителя. Чтение/запись MotionOriginTypeaspose.slides.animation/motionorigintype.
+description: Указывает, относительно чего является началом пути движения, например, макета слайда или родительского элемента. Читаемое/записываемое свойство MotionOriginTypeaspose.slides.animation/motionorigintype.
 type: docs
 weight: 50
 url: /ru/aspose.slides.animation/imotioneffect/origin/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.animation/imotioneffect/origin/
 
 ## IMotionEffect.Origin свойство
 
-Указывает, относительно чего является происхождение пути движения, например, расположение слайда или родителя. Чтение/запись [`MotionOriginType`](../../motionorigintype).
+Указывает, относительно чего является началом пути движения, например, макета слайда или родительского элемента. Читаемое/записываемое свойство [`MotionOriginType`](../../motionorigintype).
 
 ```csharp
 public MotionOriginType Origin { get; set; }
 ```
 
-### См. также
+### Также смотри
 
 * enum [MotionOriginType](../../motionorigintype)
 * interface [IMotionEffect](../../imotioneffect)

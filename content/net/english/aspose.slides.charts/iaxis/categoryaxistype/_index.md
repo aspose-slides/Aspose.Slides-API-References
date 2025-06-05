@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.charts/iaxis/categoryaxistype/
 ---
+
 ## IAxis.CategoryAxisType property
 
 Specifies the type of the category axis. Read/write `CategoryAxisType`.

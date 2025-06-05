@@ -1,7 +1,7 @@
 ---
 title: ActiveXControlBinary
-second_title: Aspose.Slides for .NET API Reference
-description: 指定 ActiveX 控件的持久性，方法为 PersistStream、PersistStreamInit 或 PersistStorage。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定当用于持久化的方法为 PersistStream、PersistStreamInit 或 PersistStorage 时 ActiveX 控件的持久性。
 type: docs
 weight: 10
 url: /zh/aspose.slides/control/activexcontrolbinary/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/control/activexcontrolbinary/
 
 ## Control.ActiveXControlBinary 属性
 
-指定 ActiveX 控件的持久性，方法为 PersistStream、PersistStreamInit 或 PersistStorage。
+指定当用于持久化的方法为 PersistStream、PersistStreamInit 或 PersistStorage 时 ActiveX 控件的持久性。
 
 ```csharp
 public byte[] ActiveXControlBinary { get; }
@@ -17,7 +17,7 @@ public byte[] ActiveXControlBinary { get; }
 
 ### 示例
 
-下一个示例展示了使用 ActiveXControlBinary 属性来更改 ActiveX 属性：
+下一个示例演示了使用 ActiveXControlBinary 属性来更改 ActiveX 属性：
 
 ```csharp
 [C#]
@@ -31,7 +31,7 @@ else
 }
 ```
 
-### 另见
+### 参见
 
 * class [Control](../../control)
 * namespace [Aspose.Slides](../../control)

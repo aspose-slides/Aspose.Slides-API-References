@@ -1,7 +1,7 @@
 ---
 title: Position
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit la position d'un onglet. Assigner cette propriété peut changer l'index de l'onglet dans la collection et invalider l'énumérateur. Lecture/écriture Double.
+description: Renvoie ou définit la position d'un onglet. Assigner cette propriété peut changer l'index de l'onglet dans la collection et invalider l'énumérateur. Écriture/lecture Double.
 type: docs
 weight: 30
 url: /fr/aspose.slides/itab/position/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/itab/position/
 
 ## Propriété ITab.Position
 
-Renvoie ou définit la position d'un onglet. Assigner cette propriété peut changer l'index de l'onglet dans la collection et invalider l'énumérateur. Lecture/écriture Double.
+Renvoie ou définit la position d'un onglet. Assigner cette propriété peut changer l'index de l'onglet dans la collection et invalider l'énumérateur. Écriture/lecture Double.
 
 ```csharp
 public double Position { get; set; }

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/charttitle/chart/
 ---
+
 ## ChartTitle.Chart property
 
 Returns the parent chart. Read-only [`IChart`](../../ichart).

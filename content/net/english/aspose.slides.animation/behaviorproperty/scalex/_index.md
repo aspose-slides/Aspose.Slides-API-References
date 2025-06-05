@@ -6,6 +6,7 @@ type: docs
 weight: 580
 url: /aspose.slides.animation/behaviorproperty/scalex/
 ---
+
 ## BehaviorProperty.ScaleX property
 
 Represents 'ScaleX' property

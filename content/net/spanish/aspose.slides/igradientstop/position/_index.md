@@ -1,21 +1,21 @@
 ---
-title: Posición
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve o establece la posición 0..1 de un punto de parada de gradiente. Lectura/escritura Single.
+title: Position
+second_title: Aspose.Slides para .NET API Reference
+description: Devuelve o establece la posición 0..1 de un punto de parada de gradiente. Lectura/escritura Simple.
 type: docs
 weight: 20
 url: /es/aspose.slides/igradientstop/position/
 ---
 
-## Propiedad IGradientStop.Position
+## IGradientStop.Position property
 
-Devuelve o establece la posición (0..1) de un punto de parada de gradiente. Lectura/escritura Single.
+Devuelve o establece la posición (0..1) de un punto de parada de gradiente. Lectura/escritura Simple.
 
 ```csharp
 public float Position { get; set; }
 ```
 
-### Vea También
+### See Also
 
 * interface [IGradientStop](../../igradientstop)
 * namespace [Aspose.Slides](../../igradientstop)

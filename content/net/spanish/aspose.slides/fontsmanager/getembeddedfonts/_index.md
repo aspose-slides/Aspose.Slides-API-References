@@ -1,7 +1,7 @@
 ---
 title: GetEmbeddedFonts
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve las fuentes incrustadas en la presentación
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Devuelve las fuentes embebidas en la presentación
 type: docs
 weight: 40
 url: /es/aspose.slides/fontsmanager/getembeddedfonts/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/fontsmanager/getembeddedfonts/
 
 ## FontsManager.GetEmbeddedFonts método
 
-Devuelve las fuentes incrustadas en la presentación
+Devuelve las fuentes embebidas en la presentación
 
 ```csharp
 public IFontData[] GetEmbeddedFonts()
 ```
 
-### Ver También
+### Ver también
 
 * interfaz [IFontData](../../ifontdata)
 * clase [FontsManager](../../fontsmanager)

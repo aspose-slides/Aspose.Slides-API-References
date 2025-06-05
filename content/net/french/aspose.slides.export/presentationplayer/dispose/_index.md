@@ -1,7 +1,7 @@
 ---
-title: Libérer
-second_title: Référence API Aspose.Slides pour .NET
-description: Libère l'instance de PresentationPlayeraspose.slides.export/presentationplayer.
+title: Dispose
+second_title: Référence API Aspose.Sildes pour .NET
+description: Libère l'instance de la PresentationPlayeraspose.slides.export/presentationplayer.
 type: docs
 weight: 40
 url: /fr/aspose.slides.export/presentationplayer/dispose/
@@ -15,7 +15,7 @@ Libère l'instance de la [`PresentationPlayer`](../../presentationplayer).
 public void Dispose()
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [PresentationPlayer](../../presentationplayer)
 * espace de noms [Aspose.Slides.Export](../../presentationplayer)

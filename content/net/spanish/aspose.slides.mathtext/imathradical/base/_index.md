@@ -1,6 +1,6 @@
 ---
 title: Base
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Argumento base
 type: docs
 weight: 20
@@ -25,11 +25,11 @@ IMathRadical radical = new MathematicalText("x").Radical("3"); // raíz cúbica
 IMathElement baseElem = radical.Base;
 ```
 
-### Ver También
+### Véase también
 
-* interfaz [IMathElement](../../imathelement)
-* interfaz [IMathRadical](../../imathradical)
-* espacio de nombres [Aspose.Slides.MathText](../../imathradical)
-* ensamblaje [Aspose.Slides](../../../)
+* interface [IMathElement](../../imathelement)
+* interface [IMathRadical](../../imathradical)
+* namespace [Aspose.Slides.MathText](../../imathradical)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

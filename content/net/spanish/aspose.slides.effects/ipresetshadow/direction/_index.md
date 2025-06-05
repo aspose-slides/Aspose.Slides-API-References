@@ -1,7 +1,7 @@
 ---
-title: Dirección
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Dirección de la sombra. Lectura/escritura Simple.
+title: Direction
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Dirección de la sombra. Lectura/escritura Single.
 type: docs
 weight: 30
 url: /es/aspose.slides.effects/ipresetshadow/direction/
@@ -9,16 +9,16 @@ url: /es/aspose.slides.effects/ipresetshadow/direction/
 
 ## Propiedad IPresetShadow.Direction
 
-Dirección de la sombra. Lectura/escritura Simple.
+Dirección de la sombra. Lectura/escritura Single.
 
 ```csharp
 public float Direction { get; set; }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [IPresetShadow](../../ipresetshadow)
 * espacio de nombres [Aspose.Slides.Effects](../../ipresetshadow)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

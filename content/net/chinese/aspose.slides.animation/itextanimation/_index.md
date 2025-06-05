@@ -19,16 +19,16 @@ public interface ITextAnimation
 
 | 名称 | 描述 |
 | --- | --- |
-| [BuildType](../../aspose.slides.animation/itextanimation/buildtype) { get; set; } | 文本动画的构建类型列表（例如：段落 1,2,3，全部同时）。读写 [`BuildType`](./buildtype)。 |
-| [EffectAnimateBackgroundShape](../../aspose.slides.animation/itextanimation/effectanimatebackgroundshape) { get; set; } | 是否与组链接的形状效果（null）。读写 [`IEffect`](../ieffect)。 |
+| [BuildType](../../aspose.slides.animation/itextanimation/buildtype) { get; set; } | 文本动画的构建类型列表（例如：段落1,2,3，全部同时）。可读/可写 [`BuildType`](./buildtype)。 |
+| [EffectAnimateBackgroundShape](../../aspose.slides.animation/itextanimation/effectanimatebackgroundshape) { get; set; } | 与组合形状效果相关联的形状效果，可能为空（null）。可读/可写 [`IEffect`](../ieffect)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/itextanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | 将新效果添加到当前序列的末尾，添加到组文本动画的末尾。仅在文本段落的数量等于或大于该组效果的数量时有效！ |
+| [AddEffect](../../aspose.slides.animation/itextanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | 将新效果添加到当前序列的末尾以结束组合文本动画。仅在文本段落的数量等于或大于该组效果的数量时有效！ |
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 程序集 [Aspose.Slides](../../)

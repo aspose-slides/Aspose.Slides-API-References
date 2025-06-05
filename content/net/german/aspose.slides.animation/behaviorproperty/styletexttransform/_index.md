@@ -7,7 +7,7 @@ weight: 1180
 url: /de/aspose.slides.animation/behaviorproperty/styletexttransform/
 ---
 
-## BehaviorProperty.StyleTextTransform Eigenschaft
+## BehaviorProperty.StyleTextTransform-Eigenschaft
 
 Stellt die Eigenschaft 'style.textTransform' dar
 
@@ -15,7 +15,7 @@ Stellt die Eigenschaft 'style.textTransform' dar
 public static BehaviorProperty StyleTextTransform { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [BehaviorProperty](../../behaviorproperty)
 * Namespace [Aspose.Slides.Animation](../../behaviorproperty)

@@ -1,7 +1,7 @@
 ---
 title: AssemblyVersion
-second_title: Aspose.Slides für .NET API-Referenz
-description: Version der Aspose.Slides-Assembly.
+second_title: Aspose.Slides für .NET API Referenz
+description: Version des Aspose.Slides Assemblies.
 type: docs
 weight: 10
 url: /de/aspose.slides/buildversioninfo/assemblyversion/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/buildversioninfo/assemblyversion/
 
 ## BuildVersionInfo.AssemblyVersion-Feld
 
-Version der Aspose.Slides-Assembly.
+Version des Aspose.Slides Assemblies.
 
 ```csharp
 public const string AssemblyVersion;

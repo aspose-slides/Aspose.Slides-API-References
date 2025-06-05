@@ -1,6 +1,6 @@
 ---
 title: HandoutType
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes for .NET API Reference
 description: Especifica cuántas diapositivas y en qué secuencia se colocarán en la página.
 type: docs
 weight: 3680
@@ -29,7 +29,7 @@ public enum HandoutType
 | Handouts9Horizontal | `7` | Nueve diapositivas por página en una secuencia horizontal. |
 | Handouts9Vertical | `8` | Nueve diapositivas por página en una secuencia vertical. |
 
-### Ve también
+### Ver También
 
 * namespace [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)

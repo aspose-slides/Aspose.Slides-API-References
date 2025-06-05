@@ -19,19 +19,19 @@ public interface IFillFormat : IFillParamSource
 
 | Nom | Description |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ifillformat/asifillparamsource) { get; } | Permet d'obtenir l'interface de base IFillParamSource. Lecture seule [`IFillParamSource`](../ifillparamsource). |
+| [AsIFillParamSource](../../aspose.slides/ifillformat/asifillparamsource) { get; } | Permet d'obtenir l'interface de base IFillParamSource. En lecture seule [`IFillParamSource`](../ifillparamsource). |
 | [FillType](../../aspose.slides/ifillformat/filltype) { get; set; } | Retourne ou définit le type de remplissage. Lecture/écriture [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ifillformat/gradientformat) { get; } | Retourne le format de remplissage en dégradé. Lecture seule [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/ifillformat/patternformat) { get; } | Retourne le format de remplissage de motif. Lecture seule [`IPatternFormat`](../ipatternformat). |
-| [PictureFillFormat](../../aspose.slides/ifillformat/picturefillformat) { get; } | Retourne le format de remplissage d'image. Lecture seule [`IPictureFillFormat`](../ipicturefillformat). |
+| [GradientFormat](../../aspose.slides/ifillformat/gradientformat) { get; } | Retourne le format de remplissage dégradé. En lecture seule [`IGradientFormat`](../igradientformat). |
+| [PatternFormat](../../aspose.slides/ifillformat/patternformat) { get; } | Retourne le format de remplissage par motif. En lecture seule [`IPatternFormat`](../ipatternformat). |
+| [PictureFillFormat](../../aspose.slides/ifillformat/picturefillformat) { get; } | Retourne le format de remplissage par image. En lecture seule [`IPictureFillFormat`](../ipicturefillformat). |
 | [RotateWithShape](../../aspose.slides/ifillformat/rotatewithshape) { get; set; } | Détermine si le remplissage doit être tourné avec la forme. Lecture/écriture [`NullableBool`](../nullablebool). |
-| [SolidFillColor](../../aspose.slides/ifillformat/solidfillcolor) { get; } | Retourne la couleur de remplissage. Lecture seule [`IColorFormat`](../icolorformat). |
+| [SolidFillColor](../../aspose.slides/ifillformat/solidfillcolor) { get; } | Retourne la couleur de remplissage. En lecture seule [`IColorFormat`](../icolorformat). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ifillformat/geteffective)() | Obtient les données de formatage de remplissage effectif avec l'héritage appliqué. |
+| [GetEffective](../../aspose.slides/ifillformat/geteffective)() | Obtient les données de formatage de remplissage effectives avec l'héritage appliqué. |
 
 ### Voir aussi
 

@@ -1,13 +1,13 @@
 ---
-title: Dirección
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Direction
+second_title: Aspose.Slides para la referencia de API de .NET
 description: Dirección de la transición. Leer/escribir TransitionCornerAndCenterDirectionTypeaspose.slides.slideshow/transitioncornerandcenterdirectiontype.
 type: docs
 weight: 10
 url: /es/aspose.slides.slideshow/rippletransition/direction/
 ---
 
-## Propiedad RippleTransition.Direction
+## RippleTransition.Direction property
 
 Dirección de la transición. Leer/escribir [`TransitionCornerAndCenterDirectionType`](../../transitioncornerandcenterdirectiontype).
 
@@ -15,7 +15,7 @@ Dirección de la transición. Leer/escribir [`TransitionCornerAndCenterDirection
 public TransitionCornerAndCenterDirectionType Direction { get; set; }
 ```
 
-### Véase También
+### Ver También
 
 * enum [TransitionCornerAndCenterDirectionType](../../transitioncornerandcenterdirectiontype)
 * class [RippleTransition](../../rippletransition)

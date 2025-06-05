@@ -17,8 +17,8 @@ public int ColSpan { get; }
 
 ### Ver También
 
-* class [Cell](../../cell)
-* namespace [Aspose.Slides](../../cell)
-* assembly [Aspose.Slides](../../../)
+* clase [Cell](../../cell)
+* espacio de nombres [Aspose.Slides](../../cell)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

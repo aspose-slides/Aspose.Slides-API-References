@@ -1,7 +1,7 @@
 ---
-title: Фигуры
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает фигуры слайда. Только для чтения IShapeCollection aspose.slides/ishapecollection.
+title: Shapes
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает фигуры слайда. Только для чтения IShapeCollectionaspose.slides/ishapecollection.
 type: docs
 weight: 70
 url: /ru/aspose.slides/baseslide/shapes/
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/baseslide/shapes/
 public IShapeCollection Shapes { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IShapeCollection](../../ishapecollection)
 * класс [BaseSlide](../../baseslide)

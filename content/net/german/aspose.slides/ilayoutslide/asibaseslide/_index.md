@@ -1,7 +1,7 @@
 ---
 title: AsIBaseSlide
 second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht den Zugriff auf die Basis-IBaseSlide-Schnittstelle. Nur lesbare IBaseSlide aspose.slides/ibaseslide.
+description: Ermöglicht den Zugriff auf die Basisschnittstelle IBaseSlide. Nur lesbare IBaseSlideaspose.slides/ibaseslide.
 type: docs
 weight: 10
 url: /de/aspose.slides/ilayoutslide/asibaseslide/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ilayoutslide/asibaseslide/
 
 ## ILayoutSlide.AsIBaseSlide Eigenschaft
 
-Ermöglicht den Zugriff auf die Basis-IBaseSlide-Schnittstelle. Nur lesbare [`IBaseSlide`](../../ibaseslide).
+Ermöglicht den Zugriff auf die Basisschnittstelle IBaseSlide. Nur lesbare [`IBaseSlide`](../../ibaseslide).
 
 ```csharp
 public IBaseSlide AsIBaseSlide { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IBaseSlide](../../ibaseslide)
 * Schnittstelle [ILayoutSlide](../../ilayoutslide)

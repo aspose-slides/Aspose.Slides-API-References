@@ -1,7 +1,7 @@
 ---
 title: IOverrideTheme
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt ein überragendes Thema dar.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt ein übergeordnetes Thema dar.
 type: docs
 weight: 11030
 url: /de/aspose.slides.theme/ioverridetheme/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/ioverridetheme/
 
 ## IOverrideTheme-Schnittstelle
 
-Stellt ein überragendes Thema dar.
+Stellt ein übergeordnetes Thema dar.
 
 ```csharp
 public interface IOverrideTheme : ITheme
@@ -19,23 +19,23 @@ public interface IOverrideTheme : ITheme
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | Ermöglicht den Zugriff auf die Basis-ITheme-Schnittstelle. Nur-Lese [`ITheme`](../itheme). |
-| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | Ein wahrer Wert bedeutet, dass ColorScheme, FontScheme, FormatScheme null ist und ein Überschreiben mit diesem Themenobjekt deaktiviert ist. Boolean nur-Lese. |
+| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle ITheme. Nur lesbar [`ITheme`](../itheme). |
+| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | Ein wahrer Wert bedeutet, dass ColorScheme, FontScheme, FormatScheme null ist und alle Überschreibungen mit diesem Themenobjekt deaktiviert sind. Boolean nur lesbar. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | Setzt ColorScheme, FontScheme, FormatScheme auf null, um ein Überschreiben mit diesem Themenobjekt zu deaktivieren. |
-| [InitColorScheme](../../aspose.slides.theme/ioverridetheme/initcolorscheme)() | Initialisiert ColorScheme mit einem neuen Objekt zum Überschreiben des ColorScheme des InheritedTheme. |
-| [InitColorSchemeFrom](../../aspose.slides.theme/ioverridetheme/initcolorschemefrom)(IColorScheme) | Initialisiert ColorScheme mit einem neuen Objekt zum Überschreiben des ColorScheme des InheritedTheme. |
-| [InitColorSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initcolorschemefrominherited)() | Initialisiert ColorScheme mit einem neuen Objekt zum Überschreiben des ColorScheme des InheritedTheme und initialisiert die Daten dieses neuen Objekts mit den Daten des ColorScheme des InheritedTheme. |
-| [InitFontScheme](../../aspose.slides.theme/ioverridetheme/initfontscheme)() | Initialisiert FontScheme mit einem neuen Objekt zum Überschreiben des FontScheme des InheritedTheme. |
-| [InitFontSchemeFrom](../../aspose.slides.theme/ioverridetheme/initfontschemefrom)(IFontScheme) | Initialisiert FontScheme mit einem neuen Objekt zum Überschreiben des FontScheme des InheritedTheme. |
-| [InitFontSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initfontschemefrominherited)() | Initialisiert FontScheme mit einem neuen Objekt zum Überschreiben des FontScheme des InheritedTheme und initialisiert die Daten dieses neuen Objekts mit den Daten des FontScheme des InheritedTheme. |
-| [InitFormatScheme](../../aspose.slides.theme/ioverridetheme/initformatscheme)() | Initialisiert FormatScheme mit einem neuen Objekt zum Überschreiben des FormatScheme des InheritedTheme. |
-| [InitFormatSchemeFrom](../../aspose.slides.theme/ioverridetheme/initformatschemefrom)(IFormatScheme) | Initialisiert FormatScheme mit einem neuen Objekt zum Überschreiben des FormatScheme des InheritedTheme. |
-| [InitFormatSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initformatschemefrominherited)() | Initialisiert FormatScheme mit einem neuen Objekt zum Überschreiben des FormatScheme des InheritedTheme und initialisiert die Daten dieses neuen Objekts mit den Daten des FormatScheme des InheritedTheme. |
+| [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | Setzt ColorScheme, FontScheme, FormatScheme auf null, um alle Überschreibungen mit diesem Themenobjekt zu deaktivieren. |
+| [InitColorScheme](../../aspose.slides.theme/ioverridetheme/initcolorscheme)() | Initialisiert ColorScheme mit einem neuen Objekt zur Überschreibung von ColorScheme des InheritedTheme. |
+| [InitColorSchemeFrom](../../aspose.slides.theme/ioverridetheme/initcolorschemefrom)(IColorScheme) | Initialisiert ColorScheme mit einem neuen Objekt zur Überschreibung von ColorScheme des InheritedTheme. |
+| [InitColorSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initcolorschemefrominherited)() | Initialisiert ColorScheme mit einem neuen Objekt zur Überschreibung von ColorScheme des InheritedTheme. Und initialisiert die Daten dieses neuen Objekts mit den Daten des ColorScheme des InheritedTheme. |
+| [InitFontScheme](../../aspose.slides.theme/ioverridetheme/initfontscheme)() | Initialisiert FontScheme mit einem neuen Objekt zur Überschreibung von FontScheme des InheritedTheme. |
+| [InitFontSchemeFrom](../../aspose.slides.theme/ioverridetheme/initfontschemefrom)(IFontScheme) | Initialisiert FontScheme mit einem neuen Objekt zur Überschreibung von FontScheme des InheritedTheme. |
+| [InitFontSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initfontschemefrominherited)() | Initialisiert FontScheme mit einem neuen Objekt zur Überschreibung von FontScheme des InheritedTheme. Und initialisiert die Daten dieses neuen Objekts mit den Daten des FontScheme des InheritedTheme. |
+| [InitFormatScheme](../../aspose.slides.theme/ioverridetheme/initformatscheme)() | Initialisiert FormatScheme mit einem neuen Objekt zur Überschreibung von FormatScheme des InheritedTheme. |
+| [InitFormatSchemeFrom](../../aspose.slides.theme/ioverridetheme/initformatschemefrom)(IFormatScheme) | Initialisiert FormatScheme mit einem neuen Objekt zur Überschreibung von FormatScheme des InheritedTheme. |
+| [InitFormatSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initformatschemefrominherited)() | Initialisiert FormatScheme mit einem neuen Objekt zur Überschreibung von FormatScheme des InheritedTheme. Und initialisiert die Daten dieses neuen Objekts mit den Daten des FormatScheme des InheritedTheme. |
 
 ### Siehe auch
 

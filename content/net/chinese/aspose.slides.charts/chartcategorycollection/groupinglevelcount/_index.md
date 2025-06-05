@@ -1,7 +1,7 @@
 ---
 title: GroupingLevelCount
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回使用的类别分组级别的数量。对多级类别而言，大于1。只读 Int32。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回使用的类别分组级别的计数。对于多级类别，计数大于1。只读 Int32。
 type: docs
 weight: 20
 url: /zh/aspose.slides.charts/chartcategorycollection/groupinglevelcount/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/chartcategorycollection/groupinglevelcount/
 
 ## ChartCategoryCollection.GroupingLevelCount 属性
 
-返回使用的类别分组级别的数量。对多级类别而言，大于1。只读 Int32。
+返回使用的类别分组级别的计数。对于多级类别，计数大于1。只读 Int32。
 
 ```csharp
 public int GroupingLevelCount { get; }

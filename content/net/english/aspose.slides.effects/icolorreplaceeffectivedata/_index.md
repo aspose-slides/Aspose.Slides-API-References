@@ -3,9 +3,10 @@ title: IColorReplaceEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which represents a Color Replacement effect. All effect colors are changed to a fixed color. Alpha values are unaffected.
 type: docs
-weight: 3080
+weight: 3130
 url: /aspose.slides.effects/icolorreplaceeffectivedata/
 ---
+
 ## IColorReplaceEffectiveData interface
 
 Immutable object which represents a Color Replacement effect. All effect colors are changed to a fixed color. Alpha values are unaffected.

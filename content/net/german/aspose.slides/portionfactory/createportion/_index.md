@@ -1,6 +1,6 @@
 ---
 title: CreatePortion
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Erstellt einen leeren Textabschnitt.
 type: docs
 weight: 20
@@ -38,7 +38,7 @@ public IPortion CreatePortion(string str)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| str | String | String. |
+| str | String | Zeichenfolge. |
 
 ### Rückgabewert
 

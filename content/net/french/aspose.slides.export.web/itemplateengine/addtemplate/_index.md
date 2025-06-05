@@ -1,13 +1,13 @@
 ---
 title: AddTemplate
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Aspose.Slidess pour .NET API Référence
 description: Ajoute le modèle à la collection de modèles.
 type: docs
 weight: 10
 url: /fr/aspose.slides.export.web/itemplateengine/addtemplate/
 ---
 
-## Méthode ITemplateEngine.AddTemplate
+## ITemplateEngine.AddTemplate méthode
 
 Ajoute le modèle à la collection de modèles.
 

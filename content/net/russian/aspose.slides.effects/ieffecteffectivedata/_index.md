@@ -1,6 +1,6 @@
 ---
 title: IEffectEffectiveData
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Ссылка
 description: Базовый класс для неизменяемых объектов, представляющих эффект.
 type: docs
 weight: 3160

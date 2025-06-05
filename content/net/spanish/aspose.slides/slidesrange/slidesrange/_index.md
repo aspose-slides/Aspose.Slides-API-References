@@ -1,15 +1,15 @@
 ---
 title: SlidesRange
 second_title: Referencia de API de Aspose.Slides para .NET
-description: El constructor por defecto.
+description: El constructor predeterminado.
 type: docs
 weight: 10
 url: /es/aspose.slides/slidesrange/slidesrange/
 ---
 
-## Constructor de SlidesRange
+## Constructor SlidesRange
 
-El constructor por defecto.
+El constructor predeterminado.
 
 ```csharp
 public SlidesRange()
@@ -19,6 +19,6 @@ public SlidesRange()
 
 * clase [SlidesRange](../../slidesrange)
 * espacio de nombres [Aspose.Slides](../../slidesrange)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: OverrideTheme
-second_title: Aspose.Sildes für .NET API Referenz
-description: Gibt das überschreibende Themaobjekt zurück. Lesen/Scheiben IOverrideThemeaspose.slides.theme/ioverridetheme.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt das übergeordnete Themenobjekt zurück. Lese-/Schreibzugriff auf IOverrideThemeaspose.slides.theme/ioverridetheme.
 type: docs
 weight: 30
 url: /de/aspose.slides.theme/ioverridethememanager/overridetheme/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.theme/ioverridethememanager/overridetheme/
 
 ## IOverrideThemeManager.OverrideTheme-Eigenschaft
 
-Gibt das überschreibende Themaobjekt zurück. Lesen/Scheiben [`IOverrideTheme`](../../ioverridetheme).
+Gibt das übergeordnete Themenobjekt zurück. Lese-/Schreibzugriff auf [`IOverrideTheme`](../../ioverridetheme).
 
 ```csharp
 public IOverrideTheme OverrideTheme { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IOverrideTheme](../../ioverridetheme)
 * Schnittstelle [IOverrideThemeManager](../../ioverridethememanager)

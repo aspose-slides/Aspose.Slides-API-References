@@ -1,6 +1,6 @@
 ---
 title: IMasterHandoutSlideManager
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 主讲义幻灯片管理器。
 type: docs
 weight: 6170
@@ -19,14 +19,14 @@ public interface IMasterHandoutSlideManager
 
 | 名称 | 描述 |
 | --- | --- |
-| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | 如果存在，则返回此演示文稿的所有注释幻灯片的母版，否则返回 null。 只读 [`IMasterHandoutSlide`](../imasterhandoutslide)。 |
+| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | 如果存在，则返回此演示文稿的所有注释幻灯片的母版，否则返回 null。只读 [`IMasterHandoutSlide`](../imasterhandoutslide)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
 | [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | 移除主讲义幻灯片。 |
-| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | 将默认主讲义幻灯片设置为相关讲义幻灯片。 |
+| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | 将默认主讲义幻灯片设置为相关的讲义幻灯片。 |
 
 ### 另请参阅
 

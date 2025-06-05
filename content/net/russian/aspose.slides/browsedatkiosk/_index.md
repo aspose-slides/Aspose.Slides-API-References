@@ -1,7 +1,7 @@
 ---
 title: BrowsedAtKiosk
-second_title: Aspose.Sildes для .NET API Справочник
-description: Просмотр в киоске на полном экране
+second_title: Aspose.Sildes для .NET API Справка
+description: Просмотр в киоске на весь экран
 type: docs
 weight: 960
 url: /ru/aspose.slides/browsedatkiosk/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/browsedatkiosk/
 
 ## Класс BrowsedAtKiosk
 
-Просмотр в киоске (на полном экране)
+Просмотр в киоске (на весь экран)
 
 ```csharp
 public class BrowsedAtKiosk : SlideShowType
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### См. также
+### См. Также
 
 * класс [SlideShowType](../slideshowtype)
 * пространство имен [Aspose.Slides](../../aspose.slides)

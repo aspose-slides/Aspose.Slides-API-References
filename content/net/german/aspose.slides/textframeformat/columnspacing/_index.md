@@ -1,7 +1,7 @@
 ---
 title: ColumnSpacing
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Abstand zwischen Textspalten im Textbereich in Punkten zurück oder setzt ihn. Dies sollte nur gelten, wenn mehr als 1 Spalte vorhanden ist. Dieser Wert muss eine positive Zahl sein. Andernfalls wird der Wert auf null gesetzt. Lese-/Schreibzugriff Double.
+description: Gibt den Abstand zwischen Textspalten im Textbereich in Punkten zurück oder setzt ihn. Dies sollte nur gelten, wenn mehr als 1 Spalte vorhanden ist. Dieser Wert muss eine positive Zahl sein. Andernfalls wird der Wert auf null gesetzt. Lese-/Schreib-Doppel.
 type: docs
 weight: 60
 url: /de/aspose.slides/textframeformat/columnspacing/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/textframeformat/columnspacing/
 
 ## TextFrameFormat.ColumnSpacing-Eigenschaft
 
-Gibt den Abstand zwischen Textspalten im Textbereich (in Punkten) zurück oder setzt ihn. Dies sollte nur gelten, wenn mehr als 1 Spalte vorhanden ist. Dieser Wert muss eine positive Zahl sein. Andernfalls wird der Wert auf null gesetzt. Lese-/Schreibzugriff Double.
+Gibt den Abstand zwischen Textspalten im Textbereich (in Punkten) zurück oder setzt ihn. Dies sollte nur gelten, wenn mehr als 1 Spalte vorhanden ist. Dieser Wert muss eine positive Zahl sein. Andernfalls wird der Wert auf null gesetzt. Lese-/Schreib-Doppel.
 
 ```csharp
 public double ColumnSpacing { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [TextFrameFormat](../../textframeformat)
 * Namespace [Aspose.Slides](../../textframeformat)

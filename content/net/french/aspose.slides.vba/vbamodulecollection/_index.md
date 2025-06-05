@@ -1,6 +1,6 @@
 ---
 title: VbaModuleCollection
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la documentation de l'API .NET
 description: Représente une collection de modules d'un projet VBA.
 type: docs
 weight: 11330
@@ -19,21 +19,21 @@ public sealed class VbaModuleCollection : IVbaModuleCollection
 
 | Nom | Description |
 | --- | --- |
-| [Count](../../aspose.slides.vba/vbamodulecollection/count) { get; } | Obtient le nombre d'éléments effectivement contenus dans la collection. Lecture seule Int32. |
-| [IsSynchronized](../../aspose.slides.vba/vbamodulecollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (sécurisé par fil). Lecture seule Boolean. |
+| [Count](../../aspose.slides.vba/vbamodulecollection/count) { get; } | Obtient le nombre d'éléments actuellement contenus dans la collection. Lecture seule Int32. |
+| [IsSynchronized](../../aspose.slides.vba/vbamodulecollection/issynchronized) { get; } | Retourne une valeur indiquant si l'accès à la collection est synchronisé (sécurisé pour les threads). Lecture seule Boolean. |
 | [Item](../../aspose.slides.vba/vbamodulecollection/item) { get; } | Obtient l'élément à l'index spécifié. |
-| [SyncRoot](../../aspose.slides.vba/vbamodulecollection/syncroot) { get; } | Renvoie une racine de synchronisation. Lecture seule Object. |
+| [SyncRoot](../../aspose.slides.vba/vbamodulecollection/syncroot) { get; } | Retourne une racine de synchronisation. Lecture seule Object. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
 | [AddEmptyModule](../../aspose.slides.vba/vbamodulecollection/addemptymodule)(string) | Ajoute un nouveau module vide au projet VBA. |
-| [CopyTo](../../aspose.slides.vba/vbamodulecollection/copyto)(Array, int) | Copie tous les éléments de la collection vers le tableau spécifié. |
-| [GetEnumerator](../../aspose.slides.vba/vbamodulecollection/getenumerator)() | Renvoie un énumérateur qui itère à travers la collection. |
-| [Remove](../../aspose.slides.vba/vbamodulecollection/remove)(IVbaModule) | Supprime la première occurrence d'un objet spécifique de la collection. |
+| [CopyTo](../../aspose.slides.vba/vbamodulecollection/copyto)(Array, int) | Copie tous les éléments de la collection dans le tableau spécifié. |
+| [GetEnumerator](../../aspose.slides.vba/vbamodulecollection/getenumerator)() | Retourne un énumérateur qui itère à travers la collection. |
+| [Remove](../../aspose.slides.vba/vbamodulecollection/remove)(IVbaModule) | Supprime la première occurrence d'un objet spécifique dans la collection. |
 
-### Voir Aussi
+### Voir également
 
 * interface [IVbaModuleCollection](../ivbamodulecollection)
 * namespace [Aspose.Slides.Vba](../../aspose.slides.vba)

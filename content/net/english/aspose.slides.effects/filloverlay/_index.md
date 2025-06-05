@@ -3,9 +3,10 @@ title: FillOverlay
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a Fill Overlay effect. A fill overlay may be used to specify an additional fill for an object and blend the two fills together.
 type: docs
-weight: 2830
+weight: 2880
 url: /aspose.slides.effects/filloverlay/
 ---
+
 ## FillOverlay class
 
 Represents a Fill Overlay effect. A fill overlay may be used to specify an additional fill for an object and blend the two fills together.

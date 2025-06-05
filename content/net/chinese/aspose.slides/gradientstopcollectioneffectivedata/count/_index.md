@@ -1,7 +1,7 @@
 ---
-title: 计数
-second_title: Aspose.Slides for .NET API 参考
-description: 返回集合中梯度停止的数量。只读 Int32。
+title: Count
+second_title: Aspose.Slides for .NET API Reference
+description: 返回集合中渐变停止的数量。只读 Int32。
 type: docs
 weight: 10
 url: /zh/aspose.slides/gradientstopcollectioneffectivedata/count/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/gradientstopcollectioneffectivedata/count/
 
 ## GradientStopCollectionEffectiveData.Count 属性
 
-返回集合中梯度停止的数量。只读 Int32。
+返回集合中渐变停止的数量。只读 Int32。
 
 ```csharp
 public int Count { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [GradientStopCollectionEffectiveData](../../gradientstopcollectioneffectivedata)
 * namespace [Aspose.Slides](../../gradientstopcollectioneffectivedata)

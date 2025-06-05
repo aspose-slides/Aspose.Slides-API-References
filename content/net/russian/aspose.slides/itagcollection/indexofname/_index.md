@@ -1,15 +1,15 @@
 ---
 title: IndexOfName
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает индекс на основе нуля для указанного ключа в коллекции.
+second_title: Aspose.Slildes для .NET API Справочник
+description: Возвращает индекс по умолчанию, начиная с нуля, указанного ключа в коллекции.
 type: docs
 weight: 80
 url: /ru/aspose.slides/itagcollection/indexofname/
 ---
 
-## Метод ITagCollection.IndexOfName
+## ITagCollection.IndexOfName метод
 
-Возвращает индекс на основе нуля для указанного ключа в коллекции.
+Возвращает индекс по умолчанию, начиная с нуля, указанного ключа в коллекции.
 
 ```csharp
 public int IndexOfName(string name)
@@ -21,7 +21,7 @@ public int IndexOfName(string name)
 
 ### Значение Возврата
 
-Индекс на основе нуля для ключа, если ключ найден в коллекции; в противном случае -1.
+Индекс по умолчанию, начиная с нуля, ключа, если ключ найден в коллекции; в противном случае -1.
 
 ### См. Также
 

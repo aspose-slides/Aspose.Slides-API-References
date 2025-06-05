@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.slideshow/slideshowtransition/soundloop/
 ---
+
 ## SlideShowTransition.SoundLoop property
 
 This attribute specifies if the sound will loop until the next sound event occurs in slideshow. Read/write Boolean.

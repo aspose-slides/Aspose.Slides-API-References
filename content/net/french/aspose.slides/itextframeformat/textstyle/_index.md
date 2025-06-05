@@ -1,7 +1,7 @@
 ---
 title: TextStyle
-second_title: Aspose.Slides pour .NET Référence API
-description: Renvoie le style de texte. Lecture seule ITextStyle aspose.slides/itextstyle.
+second_title: Aspose.Slides pour .NET API Référence
+description: Retourne le style des textes. Lecture seule ITextStyle aspose.slides/itextstyle.
 type: docs
 weight: 120
 url: /fr/aspose.slides/itextframeformat/textstyle/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/itextframeformat/textstyle/
 
 ## Propriété ITextFrameFormat.TextStyle
 
-Renvoie le style du texte. Lecture seule [`ITextStyle`](../../itextstyle).
+Retourne le style du texte. Lecture seule [`ITextStyle`](../../itextstyle).
 
 ```csharp
 public ITextStyle TextStyle { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ITextStyle](../../itextstyle)
 * interface [ITextFrameFormat](../../itextframeformat)

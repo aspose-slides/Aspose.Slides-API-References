@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.theme/imastertheme/asitheme/
 ---
+
 ## IMasterTheme.AsITheme property
 
 Allows to get base ITheme interface. Read-only [`ITheme`](../../itheme).

@@ -1,5 +1,5 @@
 ---
-title: Cloner
+title: Clone
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Clones
 type: docs
@@ -7,7 +7,7 @@ weight: 120
 url: /fr/aspose.slides/shapeframe/clone/
 ---
 
-## Méthode ShapeFrame.Clone
+## ShapeFrame.Clone méthode
 
 Clones
 
@@ -15,11 +15,11 @@ Clones
 public object Clone()
 ```
 
-### Valeur de Retour
+### Valeur de retour
 
 Cadre de forme cloné.
 
-### Voir Aussi
+### Voir aussi
 
 * classe [ShapeFrame](../../shapeframe)
 * espace de noms [Aspose.Slides](../../shapeframe)

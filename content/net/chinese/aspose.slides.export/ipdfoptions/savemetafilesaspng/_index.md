@@ -1,7 +1,7 @@
 ---
 title: SaveMetafilesAsPng
-second_title: Aspose.Sildes for .NET API 参考
-description: True 用于将演示文稿中使用的所有元文件转换为 PNG 图像。可读/可写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 将演示文稿中使用的所有元文件转换为 PNG 图像时为真。可读/写布尔值。
 type: docs
 weight: 160
 url: /zh/aspose.slides.export/ipdfoptions/savemetafilesaspng/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/ipdfoptions/savemetafilesaspng/
 
 ## IPdfOptions.SaveMetafilesAsPng 属性
 
-True 用于将演示文稿中使用的所有元文件转换为 PNG 图像。可读/可写布尔值。
+将演示文稿中使用的所有元文件转换为 PNG 图像时为真。可读/写布尔值。
 
 ```csharp
 public bool SaveMetafilesAsPng { get; set; }
@@ -17,9 +17,9 @@ public bool SaveMetafilesAsPng { get; set; }
 
 ### 备注
 
-默认值为 **true**。Pdf 文档可以包含矢量图形和光栅图像。如果将 SaveMetafilesAsPng 设置为 true，则源元文件图像将转换为 Png 格式并作为光栅图像保存到 Pdf 中。如果将 SaveMetafilesAsPng 设置为 false，则源元文件会转换为 Pdf 矢量图形。每种方法都有其优缺点。例如，如果元文件转换为 PNG，则在生成文档缩放时可能会出现某些质量损失。如果元文件转换为 Pdf 矢量图形，则在 Pdf 查看工具中可能会出现性能问题。
+默认值为 **true**。Pdf 文档可以包含矢量图形和栅格图像。如果将 SaveMetafilesAsPng 设置为 true，则源元文件图像将转换为 Png 格式并作为栅格图像保存到 Pdf 中。如果将 SaveMetafilesAsPng 设置为 false，则源元文件将转换为 Pdf 矢量图形。这两种方法各有优缺点。例如，如果元文件转换为 PNG，则在结果文档缩放期间可能会出现一些质量损失。如果元文件转换为 Pdf 矢量图形，则在 Pdf 查看工具中可能会出现性能问题。
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IPdfOptions](../../ipdfoptions)
 * 命名空间 [Aspose.Slides.Export](../../ipdfoptions)

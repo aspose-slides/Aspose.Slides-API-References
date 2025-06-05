@@ -1,7 +1,7 @@
 ---
-title: Paramètre
+title: Parameter
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie un paramètre d'une opération. Lecture seule Simple.
+description: Renvoie un paramètre d'une opération. Lecture seule Single.
 type: docs
 weight: 20
 url: /fr/aspose.slides/icoloroperation/parameter/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/icoloroperation/parameter/
 
 ## Propriété IColorOperation.Parameter
 
-Renvoie un paramètre d'une opération. Lecture seule Simple.
+Renvoie un paramètre d'une opération. Lecture seule Single.
 
 ```csharp
 public float Parameter { get; }

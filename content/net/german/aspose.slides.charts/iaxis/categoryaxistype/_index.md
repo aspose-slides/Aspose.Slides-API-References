@@ -1,7 +1,7 @@
 ---
 title: CategoryAxisType
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Typ der Kategoriebeschriftung an. Lese-/Schreibzugriff auf CategoryAxisTypeaspose.slides.charts/iaxis/categoryaxistype.
+description: Gibt den Typ der Kategoriekurve an. Lese-/Schreibzugriff auf CategoryAxisTypeaspose.slides.charts/iaxis/categoryaxistype.
 type: docs
 weight: 120
 url: /de/aspose.slides.charts/iaxis/categoryaxistype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/iaxis/categoryaxistype/
 
 ## IAxis.CategoryAxisType-Eigenschaft
 
-Gibt den Typ der Kategoriebeschriftung an. Lese-/Schreibzugriff auf `CategoryAxisType`.
+Gibt den Typ der Kategoriekurve an. Lese-/Schreibzugriff auf `CategoryAxisType`.
 
 ```csharp
 public CategoryAxisType CategoryAxisType { get; set; }

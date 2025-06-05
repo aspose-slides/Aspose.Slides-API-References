@@ -1,15 +1,15 @@
 ---
-title: Dénominateur
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Dénominateur
+title: Denominator
+second_title: Référence API Aspose.Slides pour .NET
+description: Denominator
 type: docs
 weight: 20
 url: /fr/aspose.slides.mathtext/imathfraction/denominator/
 ---
 
-## Propriété IMathFraction.Denominator
+## IMathFraction.Denominator propriété
 
-Dénominateur
+Denominator
 
 ```csharp
 public IMathElement Denominator { get; }
@@ -25,7 +25,7 @@ IMathFraction mathFraction = new MathematicalText("x").Divide("y");
 IMathElement denominator = mathFraction.Denominator;
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathElement](../../imathelement)
 * interface [IMathFraction](../../imathfraction)

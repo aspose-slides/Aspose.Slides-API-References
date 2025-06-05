@@ -1,15 +1,15 @@
 ---
-title: Rapport
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Informe d'une mise à jour de progression.
+title: Reporting
+second_title: Aspose.Sildes pour .NET API Référence
+description: Informe une mise à jour de progression.
 type: docs
 weight: 10
 url: /fr/aspose.slides/iprogresscallback/reporting/
 ---
 
-## Méthode IProgressCallback.Reporting
+## IProgressCallback.Reporting méthode
 
-Informe d'une mise à jour de progression.
+Informe une mise à jour de progression.
 
 ```csharp
 public void Reporting(double progressValue)

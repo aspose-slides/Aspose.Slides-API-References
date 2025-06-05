@@ -1,15 +1,15 @@
 ---
 title: ILuminanceEffectiveData
-second_title: Aspose.Sildes pour .NET Référence API
-description: Représente un effet de luminance. La luminosité déplace linéairement toutes les couleurs plus près du blanc ou du noir. Le contraste échelle toutes les couleurs pour qu'elles soient soit plus proches, soit plus éloignées.
+second_title: Aspose.Slides pour la référence API .NET
+description: Représente un effet de luminance. La luminosité déplace linéairement toutes les couleurs vers le blanc ou le noir. Le contraste échelle toutes les couleurs pour qu'elles soient soit plus proches soit plus éloignées les unes des autres.
 type: docs
 weight: 3330
 url: /fr/aspose.slides.effects/iluminanceeffectivedata/
 ---
 
-## Interface ILuminanceEffectiveData
+## ILuminanceEffectiveData interface
 
-Représente un effet de luminance. La luminosité déplace linéairement toutes les couleurs plus près du blanc ou du noir. Le contraste échelle toutes les couleurs pour qu'elles soient soit plus proches, soit plus éloignées.
+Représente un effet de luminance. La luminosité déplace linéairement toutes les couleurs vers le blanc ou le noir. Le contraste échelle toutes les couleurs pour qu'elles soient soit plus proches soit plus éloignées les unes des autres.
 
 ```csharp
 public interface ILuminanceEffectiveData : IEffectEffectiveData

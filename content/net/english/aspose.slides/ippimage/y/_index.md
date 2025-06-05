@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/ippimage/y/
 ---
+
 ## IPPImage.Y property
 
 Returns a Y-offset of an image. Read-only Int32.

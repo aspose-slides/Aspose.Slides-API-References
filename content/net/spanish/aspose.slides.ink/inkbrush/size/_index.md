@@ -1,13 +1,13 @@
 ---
-title: Tamaño
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Size
+second_title: Referencia de la API Aspose.Slidess para .NET
 description: Obtiene o establece el tamaño del pincel para una línea en puntos.
 type: docs
 weight: 20
 url: /es/aspose.slides.ink/inkbrush/size/
 ---
 
-## Propiedad InkBrush.Size
+## InkBrush.Size property
 
 Obtiene o establece el tamaño del pincel para una línea en puntos.
 
@@ -15,7 +15,7 @@ Obtiene o establece el tamaño del pincel para una línea en puntos.
 public SizeF Size { get; set; }
 ```
 
-### Ejemplos
+### Examples
 
 Ejemplo:
 
@@ -31,7 +31,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Véase También
+### See Also
 
 * class [InkBrush](../../inkbrush)
 * namespace [Aspose.Slides.Ink](../../inkbrush)

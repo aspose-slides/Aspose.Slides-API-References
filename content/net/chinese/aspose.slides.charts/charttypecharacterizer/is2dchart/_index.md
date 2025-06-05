@@ -1,6 +1,6 @@
 ---
 title: Is2DChart
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 如果 chartType 是 2D 图表类型之一，则返回 true。
 type: docs
 weight: 20

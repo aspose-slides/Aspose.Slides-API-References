@@ -1,7 +1,7 @@
 ---
 title: SpaceWithin
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置段落中基本线之间的间距。可读/写的单精度浮点数。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回或设置段落中基线之间的间距。可读/可写的单精度浮点数。
 type: docs
 weight: 130
 url: /zh/aspose.slides.charts/ichartparagraphformat/spacewithin/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ichartparagraphformat/spacewithin/
 
 ## IChartParagraphFormat.SpaceWithin 属性
 
-返回或设置段落中基本线之间的间距。可读/写的单精度浮点数。
+返回或设置段落中基线之间的间距。可读/可写的单精度浮点数。
 
 ```csharp
 public float SpaceWithin { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IChartParagraphFormat](../../ichartparagraphformat)
 * 命名空间 [Aspose.Slides.Charts](../../ichartparagraphformat)

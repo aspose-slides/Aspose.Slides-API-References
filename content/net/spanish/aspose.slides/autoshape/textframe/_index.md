@@ -15,11 +15,11 @@ Devuelve el objeto TextFrame para el AutoShape. Solo lectura [`ITextFrame`](../.
 public ITextFrame TextFrame { get; }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [ITextFrame](../../itextframe)
 * clase [AutoShape](../../autoshape)
 * espacio de nombres [Aspose.Slides](../../autoshape)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

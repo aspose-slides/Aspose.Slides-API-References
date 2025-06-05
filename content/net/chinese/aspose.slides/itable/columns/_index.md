@@ -1,7 +1,7 @@
 ---
-title: 列
-second_title: Aspose.Slides for .NET API 参考
-description: 返回列的集合。只读 IColumnCollection aspose.slides/icolumncollection。
+title: Columns
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回列的集合。只读 IColumnCollectionaspose.slides/icolumncollection。
 type: docs
 weight: 30
 url: /zh/aspose.slides/itable/columns/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/itable/columns/
 public IColumnCollection Columns { get; }
 ```
 
-### 另见
+### 参考
 
 * 接口 [IColumnCollection](../../icolumncollection)
 * 接口 [ITable](../../itable)

@@ -1,13 +1,13 @@
 ---
 title: ImageTransformOperationFactory
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Referencia
 description: Devuelve ImageTransformOperationFactory. Solo lectura IImageTransformOperationFactoryaspose.slides.effects/iimagetransformoperationfactory.
 type: docs
 weight: 20
 url: /es/aspose.slides.effects/effectfactory/imagetransformoperationfactory/
 ---
 
-## Propiedad EffectFactory.ImageTransformOperationFactory
+## EffectFactory.ImageTransformOperationFactory propiedad
 
 Devuelve ImageTransformOperationFactory. Solo lectura [`IImageTransformOperationFactory`](../../iimagetransformoperationfactory).
 
@@ -15,7 +15,7 @@ Devuelve ImageTransformOperationFactory. Solo lectura [`IImageTransformOperation
 public IImageTransformOperationFactory ImageTransformOperationFactory { get; }
 ```
 
-### Vea También
+### Ver También
 
 * interfaz [IImageTransformOperationFactory](../../iimagetransformoperationfactory)
 * clase [EffectFactory](../../effectfactory)

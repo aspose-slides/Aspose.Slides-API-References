@@ -1,6 +1,6 @@
 ---
 title: MathBlock
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Slildes для .NET API Справочник
 description: Инициализирует новый экземпляр класса MathBlock.
 type: docs
 weight: 10
@@ -24,7 +24,7 @@ public MathBlock()
 MathBlock mathBlock = new MathBlock();
 ```
 
-### Смотрите также
+### См. также
 
 * класс [MathBlock](../../mathblock)
 * пространство имен [Aspose.Slides.MathText](../../mathblock)
@@ -34,7 +34,7 @@ MathBlock mathBlock = new MathBlock();
 
 ## MathBlock(IMathElement) {#constructor_1}
 
-Создает новый математический блок и помещает в него указанный элемент
+Создает новый математический блок и помещает указанный элемент в него
 
 ```csharp
 public MathBlock(IMathElement mathElement)
@@ -42,7 +42,7 @@ public MathBlock(IMathElement mathElement)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mathElement | IMathElement | Математический элемент, который будет помещен в блок |
+| mathElement | IMathElement | Математический элемент, который нужно поместить в блок |
 
 ### Примеры
 
@@ -53,7 +53,7 @@ public MathBlock(IMathElement mathElement)
 MathBlock mathBlock = new MathBlock(new MathematicalText("x"));
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IMathElement](../../imathelement)
 * класс [MathBlock](../../mathblock)
@@ -64,7 +64,7 @@ MathBlock mathBlock = new MathBlock(new MathematicalText("x"));
 
 ## MathBlock(IEnumerable&lt;IMathElement&gt;) {#constructor_2}
 
-Создает новый математический блок и помещает в него указанные элементы
+Создает новый математический блок и помещает указанные элементы в него
 
 ```csharp
 public MathBlock(IEnumerable<IMathElement> mathElements)
@@ -72,7 +72,7 @@ public MathBlock(IEnumerable<IMathElement> mathElements)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mathElements | IEnumerable`1 | Математические элементы, которые будут помещены в блок |
+| mathElements | IEnumerable`1 | Математические элементы, которые нужно поместить в блок |
 
 ### Примеры
 
@@ -84,7 +84,7 @@ var elems = new IMathElement[2] { new MathematicalText("item1"), new Mathematica
 MathBlock mathBlock = new MathBlock(elems);
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IMathElement](../../imathelement)
 * класс [MathBlock](../../mathblock)

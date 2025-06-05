@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/datalabelformat/position/
 ---
+
 ## DataLabelFormat.Position property
 
 Represents the position of the data label. Read/write [`LegendDataLabelPosition`](../../legenddatalabelposition).

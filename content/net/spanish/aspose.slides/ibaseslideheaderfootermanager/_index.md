@@ -1,43 +1,43 @@
----
+---  
 title: IBaseSlideHeaderFooterManager
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa el gestor que tiene el comportamiento de los marcadores de posición de fecha-hora y número de página del pie de página para todos los tipos de diapositivas.
-type: docs
-weight: 5150
+second_title: Referencia de API de Aspose.Slides para .NET  
+description: Representa el administrador que contiene el comportamiento de los marcadores de posición de fecha-hora y número de página del pie de página para todos los tipos de diapositivas.
+type: docs  
+weight: 5150  
 url: /es/aspose.slides/ibaseslideheaderfootermanager/
----
+---  
 
-## Interfaz IBaseSlideHeaderFooterManager
+## Interfaz IBaseSlideHeaderFooterManager  
 
-Representa el gestor que tiene el comportamiento del pie de página, fecha-hora y marcadores de posición del número de página para todos los tipos de diapositivas.
+Representa el administrador que contiene el comportamiento del pie de página, fecha-hora y marcadores de posición de número de página para todos los tipos de diapositivas.  
 
-```csharp
-public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
-```
+```csharp  
+public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager  
+```  
 
-## Propiedades
+## Propiedades  
 
-| Nombre | Descripción |
-| --- | --- |
-| [AsIBaseHeaderFooterManager](../../aspose.slides/ibaseslideheaderfootermanager/asibaseheaderfootermanager) { get; } | Devuelve la interfaz IBaseHeaderFooterManager. |
-| [IsDateTimeVisible](../../aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible) { get; } | Obtiene el valor que indica que un marcador de posición de fecha-hora está presente. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/ibaseslideheaderfootermanager/isfootervisible) { get; } | Obtiene el valor que indica que un marcador de posición de pie de página está presente. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible) { get; } | Obtiene el valor que indica que un marcador de posición de número de página está presente. ReadBoolean. |
+| Nombre | Descripción |  
+| --- | --- |  
+| [AsIBaseHeaderFooterManager](../../aspose.slides/ibaseslideheaderfootermanager/asibaseheaderfootermanager) { get; } | Devuelve la interfaz IBaseHeaderFooterManager. |  
+| [IsDateTimeVisible](../../aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible) { get; } | Obtiene el valor que indica que un marcador de posición de fecha-hora está presente. ReadBoolean. |  
+| [IsFooterVisible](../../aspose.slides/ibaseslideheaderfootermanager/isfootervisible) { get; } | Obtiene el valor que indica que un marcador de posición de pie de página está presente. Read Boolean. |  
+| [IsSlideNumberVisible](../../aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible) { get; } | Obtiene el valor que indica que un marcador de posición de número de página está presente. ReadBoolean. |  
 
-## Métodos
+## Métodos  
 
-| Nombre | Descripción |
-| --- | --- |
-| [SetDateTimeText](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimetext)(string) | Establece el texto para el marcador de posición de fecha-hora de la diapositiva. |
-| [SetDateTimeVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility)(bool) | Cambia la visibilidad del marcador de posición de fecha-hora de la diapositiva. |
-| [SetFooterText](../../aspose.slides/ibaseslideheaderfootermanager/setfootertext)(string) | Establece el texto para el marcador de posición de pie de página de la diapositiva. |
-| [SetFooterVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setfootervisibility)(bool) | Cambia la visibilidad del marcador de posición de pie de página de la diapositiva. |
-| [SetSlideNumberVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setslidenumbervisibility)(bool) | Cambia la visibilidad del marcador de posición del número de página de la diapositiva. |
+| Nombre | Descripción |  
+| --- | --- |  
+| [SetDateTimeText](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimetext)(string) | Establece el texto en el marcador de posición de fecha-hora de la diapositiva. |  
+| [SetDateTimeVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility)(bool) | Cambia la visibilidad del marcador de posición de fecha-hora de la diapositiva. |  
+| [SetFooterText](../../aspose.slides/ibaseslideheaderfootermanager/setfootertext)(string) | Establece el texto en el marcador de posición de pie de página de la diapositiva. |  
+| [SetFooterVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setfootervisibility)(bool) | Cambia la visibilidad del marcador de posición de pie de página de la diapositiva. |  
+| [SetSlideNumberVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setslidenumbervisibility)(bool) | Cambia la visibilidad del marcador de posición de número de página de la diapositiva. |  
 
-### Véase también
+### Véase También  
 
-* interfaz [IBaseHeaderFooterManager](../ibaseheaderfootermanager)
-* espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblaje [Aspose.Slides](../../)
+* interfaz [IBaseHeaderFooterManager](../ibaseheaderfootermanager)  
+* espacio de nombres [Aspose.Slides](../../aspose.slides)  
+* ensamblaje [Aspose.Slides](../../)  
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

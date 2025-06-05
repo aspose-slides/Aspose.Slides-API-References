@@ -1,13 +1,13 @@
 ---
 title: Value1
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Definiert den zweiten Wert des Offsets. Lese-/Schreibzugriff auf Single.
 type: docs
 weight: 30
 url: /de/aspose.slides.animation/coloroffset/value1/
 ---
 
-## ColorOffset.Value1-Eigenschaft
+## ColorOffset.Value1 Eigenschaft
 
 Definiert den zweiten Wert des Offsets. Lese-/Schreibzugriff auf Single.
 

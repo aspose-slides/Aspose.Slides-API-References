@@ -1,7 +1,7 @@
 ---
 title: IsCameo
-second_title: Aspose.Slidess für .NET API Referenz
-description: Bestimmt, ob der PictureFrame ein Cameo-Objekt ist oder nicht. Nur lesbarer Boolean.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Bestimmt, ob das PictureFrame ein Cameo-Objekt ist oder nicht. Nur lesbares Boolean.
 type: docs
 weight: 10
 url: /de/aspose.slides/pictureframe/iscameo/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/pictureframe/iscameo/
 
 ## PictureFrame.IsCameo-Eigenschaft
 
-Bestimmt, ob der PictureFrame ein Cameo-Objekt ist oder nicht. Nur lesbarer Boolean.
+Bestimmt, ob das PictureFrame ein Cameo-Objekt ist oder nicht. Nur lesbares Boolean.
 
 ```csharp
 public bool IsCameo { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [PictureFrame](../../pictureframe)
 * Namespace [Aspose.Slides](../../pictureframe)

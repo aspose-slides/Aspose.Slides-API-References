@@ -1,7 +1,7 @@
 ---
-title: Compte
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie un nombre de fichiers audio dans la collection. Lecture seule Int32.
+title: Count
+second_title: Référence API Aspose.Sildes pour .NET
+description: Renvoie le nombre de fichiers audio dans la collection. En lecture seule Int32.
 type: docs
 weight: 10
 url: /fr/aspose.slides/audiocollection/count/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/audiocollection/count/
 
 ## Propriété AudioCollection.Count
 
-Renvoie un nombre de fichiers audio dans la collection. Lecture seule Int32.
+Renvoie le nombre de fichiers audio dans la collection. En lecture seule Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * class [AudioCollection](../../audiocollection)
 * namespace [Aspose.Slides](../../audiocollection)

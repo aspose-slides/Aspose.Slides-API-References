@@ -1,7 +1,7 @@
 ---
 title: MarginTop
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置 TextFrame 中的上边距点数。可读/可写 Double。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回或设置 TextFrame 中的上边距（点）。可读写的 Double。
 type: docs
 weight: 100
 url: /zh/aspose.slides/itextframeformat/margintop/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/itextframeformat/margintop/
 
 ## ITextFrameFormat.MarginTop 属性
 
-返回或设置 TextFrame 中的上边距（点数）。可读/可写 Double。
+返回或设置 TextFrame 中的上边距（点）。可读写的 Double。
 
 ```csharp
 public double MarginTop { get; set; }

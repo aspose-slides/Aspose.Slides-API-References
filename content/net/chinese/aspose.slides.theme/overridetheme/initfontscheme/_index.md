@@ -1,7 +1,7 @@
 ---
 title: InitFontScheme
-second_title: Aspose.Slides for .NET API 参考
-description: 用新对象初始化 FontScheme 以覆盖 InheritedTheme 的 FontScheme。
+second_title: Aspose.Slides for .NET API Reference
+description: 用新对象初始化 FontScheme，以覆盖 InheritedTheme 的 FontScheme。
 type: docs
 weight: 90
 url: /zh/aspose.slides.theme/overridetheme/initfontscheme/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.theme/overridetheme/initfontscheme/
 
 ## OverrideTheme.InitFontScheme 方法
 
-用新对象初始化 FontScheme 以覆盖 InheritedTheme 的 FontScheme。
+用新对象初始化 FontScheme，以覆盖 InheritedTheme 的 FontScheme。
 
 ```csharp
 public void InitFontScheme()
@@ -19,9 +19,9 @@ public void InitFontScheme()
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | 当 FontScheme 已经初始化（非 null）时抛出。 |
+| InvalidOperationException | 如果 FontScheme 已经初始化（非 null），则抛出。 |
 
-### 另请参阅
+### 另请参见
 
 * class [OverrideTheme](../../overridetheme)
 * namespace [Aspose.Slides.Theme](../../overridetheme)

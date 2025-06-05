@@ -1,15 +1,15 @@
 ---
 title: FontBold
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si la police est en gras. Boolean en lecture seule.
+second_title: Aspose.Slides pour la référence API .NET
+description: Détermine si la police est en gras. Booléen en lecture seule.
 type: docs
 weight: 70
 url: /fr/aspose.slides/ibaseportionformateffectivedata/fontbold/
 ---
 
-## Propriété IBasePortionFormatEffectiveData.FontBold
+## IBasePortionFormatEffectiveData.FontBold propriété
 
-Détermine si la police est en gras. Boolean en lecture seule.
+Détermine si la police est en gras. Booléen en lecture seule.
 
 ```csharp
 public bool FontBold { get; }

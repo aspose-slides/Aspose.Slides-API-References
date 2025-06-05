@@ -1,13 +1,13 @@
 ---
-title: Расстояние
-second_title: Ссылка на API Aspose.Sildes для .NET
+title: Distance
+second_title: Aspose.Sildes для .NET API Reference
 description: Расстояние отражения. Только для чтения Double.
 type: docs
 weight: 40
 url: /ru/aspose.slides.effects/ireflectioneffectivedata/distance/
 ---
 
-## Свойство IReflectionEffectiveData.Distance
+## IReflectionEffectiveData.Distance свойство
 
 Расстояние отражения. Только для чтения Double.
 

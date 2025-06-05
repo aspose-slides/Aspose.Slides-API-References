@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/iparagraph/text/
 ---
+
 ## IParagraph.Text property
 
 Gets or sets the the plain text of a paragraph. Read/write String.

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/filloverlay/fillformat/
 ---
+
 ## FillOverlay.FillFormat property
 
 Fill format. Read-only [`IFillFormat`](../../../aspose.slides/ifillformat).

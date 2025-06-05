@@ -1,6 +1,6 @@
 ---
 title: IVideo
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示嵌入到演示文稿中的视频。
 type: docs
 weight: 7140
@@ -19,7 +19,7 @@ public interface IVideo
 
 | 名称 | 描述 |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ivideo/binarydata) { get; } | 返回音频数据的副本。在数据量较大的情况下，考虑使用 [`GetStream`](./getstream) 方法，以防止不必要地将视频数据加载到内存中，甚至引发 OutOfMemoryException。只读 Byte[]。 |
+| [BinaryData](../../aspose.slides/ivideo/binarydata) { get; } | 返回音频数据的副本。如果数据量很大，请考虑使用 [`GetStream`](./getstream) 方法，以防止不必要地将视频数据加载到内存中，甚至导致 OutOfMemoryException。只读 Byte[]。 |
 | [ContentType](../../aspose.slides/ivideo/contenttype) { get; } | 返回视频的 MIME 类型，该类型编码在 [`BinaryData`](./binarydata) 中。只读 String。 |
 
 ## 方法
@@ -28,7 +28,7 @@ public interface IVideo
 | --- | --- |
 | [GetStream](../../aspose.slides/ivideo/getstream)() | 返回用于读取的 Stream。使用后请使用 'using' 或关闭流。 |
 
-### 参见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

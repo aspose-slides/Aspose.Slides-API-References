@@ -1,15 +1,15 @@
 ---
 title: AlignShapes
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Modifie le placement de toutes les formes sur la diapositive. Aligne les formes aux marges ou au bord de la diapositive ou les aligne par rapport les unes aux autres.
+description: Modifie le placement de toutes les formes sur la diapositive. Aligne les formes aux marges ou au bord de la diapositive ou les aligne les unes par rapport aux autres.
 type: docs
 weight: 10
 url: /fr/aspose.slides.util/slideutil/alignshapes/
 ---
 
-## AlignShapes(ShapesAlignmentType, bool, IBaseSlide) {#alignshapes}
+## AlignShapes(ShapesAlignmentType, bool, IBaseSlide) {#alignshapes}
 
-Modifie le placement de toutes les formes sur la diapositive. Aligne les formes aux marges ou au bord de la diapositive ou les aligne par rapport les unes aux autres.
+Modifie le placement de toutes les formes sur la diapositive. Aligne les formes aux marges ou au bord de la diapositive ou les aligne les unes par rapport aux autres.
 
 ```csharp
 public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
@@ -34,7 +34,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
 * interface [IBaseSlide](../../../aspose.slides/ibaseslide)
@@ -44,9 +44,9 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ---
 
-## AlignShapes(ShapesAlignmentType, bool, IBaseSlide, int[]) {#alignshapes_1}
+## AlignShapes(ShapesAlignmentType, bool, IBaseSlide, int[]) {#alignshapes_1}
 
-Modifie le placement des formes sélectionnées sur la diapositive. Aligne les formes aux marges ou au bord de la diapositive ou les aligne par rapport les unes aux autres.
+Modifie le placement des formes sélectionnées sur la diapositive. Aligne les formes aux marges ou au bord de la diapositive ou les aligne les unes par rapport aux autres.
 
 ```csharp
 public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
@@ -80,19 +80,19 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
 * interface [IBaseSlide](../../../aspose.slides/ibaseslide)
-* class [SlideUtil](../../slideutil)
+* class [SlideUtil](="../../slideutil)
 * namespace [Aspose.Slides.Util](../../slideutil)
 * assembly [Aspose.Slides](../../../)
 
 ---
 
-## AlignShapes(ShapesAlignmentType, bool, IGroupShape) {#alignshapes_2}
+## AlignShapes(ShapesAlignmentType, bool, IGroupShape) {#alignshapes_2}
 
-Modifie le placement de toutes les formes au sein d'une forme groupe. Aligne les formes aux marges ou au bord de la diapositive ou les aligne par rapport les unes aux autres.
+Modifie le placement de toutes les formes au sein d'un groupe de formes. Aligne les formes aux marges ou au bord de la diapositive ou les aligne les unes par rapport aux autres.
 
 ```csharp
 public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
@@ -103,7 +103,7 @@ public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSl
 | --- | --- | --- |
 | alignmentType | ShapesAlignmentType | Détermine quel type d'alignement sera appliqué. |
 | alignToSlide | Boolean | Si vrai, les formes seront alignées par rapport aux bords de la diapositive. |
-| groupShape | IGroupShape | Forme groupe parente. |
+| groupShape | IGroupShape | Groupe de formes parent. |
 
 ### Exemples
 
@@ -117,7 +117,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
 * interface [IGroupShape](../../../aspose.slides/igroupshape)
@@ -127,9 +127,9 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ---
 
-## AlignShapes(ShapesAlignmentType, bool, IGroupShape, int[]) {#alignshapes_3}
+## AlignShapes(ShapesAlignmentType, bool, IGroupShape, int[]) {#alignshapes_3}
 
-Modifie le placement des formes sélectionnées au sein d'une forme groupe. Aligne les formes aux marges ou au bord de la diapositive ou les aligne par rapport les unes aux autres.
+Modifie le placement des formes sélectionnées au sein d'un groupe de formes. Aligne les formes aux marges ou au bord de la diapositive ou les aligne les unes par rapport aux autres.
 
 ```csharp
 public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
@@ -140,7 +140,7 @@ public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSl
 | --- | --- | --- |
 | alignmentType | ShapesAlignmentType | Détermine quel type d'alignement sera appliqué. |
 | alignToSlide | Boolean | Si vrai, les formes seront alignées par rapport aux bords de la diapositive. |
-| groupShape | IGroupShape | Forme groupe parente. |
+| groupShape | IGroupShape | Groupe de formes parent. |
 | shapeIndexes | Int32[] | Index des formes à aligner. |
 
 ### Exemples
@@ -155,7 +155,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
 * interface [IGroupShape](../../../aspose.slides/igroupshape)

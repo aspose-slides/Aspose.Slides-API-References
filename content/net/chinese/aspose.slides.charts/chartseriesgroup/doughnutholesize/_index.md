@@ -1,7 +1,7 @@
 ---
-title: 圆环图孔的大小
-second_title: Aspose.Slides for .NET API 参考
-description: 指定圆环图中孔的大小，可以介于绘图区域大小的 0 到 90 百分比之间。可读/写字节。
+title: DoughnutHoleSize
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定甜甜圈图中孔的大小，可以在绘图区域大小的0到90个百分点之间。可读写字节。
 type: docs
 weight: 40
 url: /zh/aspose.slides.charts/chartseriesgroup/doughnutholesize/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/chartseriesgroup/doughnutholesize/
 
 ## ChartSeriesGroup.DoughnutHoleSize 属性
 
-指定圆环图中孔的大小（可以介于绘图区域大小的 0 到 90 百分比之间）。可读/写字节。
+指定甜甜圈图中孔的大小（可以在绘图区域大小的0到90个百分点之间）。可读写字节。
 
 ```csharp
 public byte DoughnutHoleSize { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * class [ChartSeriesGroup](../../chartseriesgroup)
 * namespace [Aspose.Slides.Charts](../../chartseriesgroup)

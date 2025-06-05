@@ -1,13 +1,13 @@
 ---
-title: SupprimerÀ
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: RemoveAt
+second_title: Référence API Aspose.Sildes pour .NET
 description: Supprime l'élément à l'index spécifié de la collection.
 type: docs
 weight: 110
 url: /fr/aspose.slides/iparagraphcollection/removeat/
 ---
 
-## Méthode IParagraphCollection.RemoveAt
+## IParagraphCollection.RemoveAt méthode
 
 Supprime l'élément à l'index spécifié de la collection.
 
@@ -19,7 +19,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | L'index basé sur zéro de l'élément à supprimer. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IParagraphCollection](../../iparagraphcollection)
 * namespace [Aspose.Slides](../../iparagraphcollection)

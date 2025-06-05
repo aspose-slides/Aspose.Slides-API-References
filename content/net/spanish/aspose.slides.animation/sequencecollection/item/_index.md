@@ -1,29 +1,29 @@
----  
-title: Ítem  
-second_title: Referencia de API de Aspose.Slides para .NET  
+---
+title: Item
+second_title: Aspose.Sildes para .NET API Reference
 description: Devuelve una secuencia en el índice especificado.
-type: docs  
-weight: 20  
+type: docs
+weight: 20
 url: /es/aspose.slides.animation/sequencecollection/item/
----  
+---
 
-## Indexador de SequenceCollection  
+## indexador de SequenceCollection
 
-Devuelve una secuencia en el índice especificado.  
+Devuelve una secuencia en el índice especificado.
 
-```csharp  
-public ISequence this[int index] { get; }  
-```  
+```csharp
+public ISequence this[int index] { get; }
+```
 
-| Parámetro | Descripción |  
-| --- | --- |  
-| index |  |  
+| Parámetro | Descripción |
+| --- | --- |
+| index |  |
 
-### Véase también  
+### Ver También
 
-* interfaz [ISequence](../../isequence)  
-* clase [SequenceCollection](../../sequencecollection)  
-* espacio de nombres [Aspose.Slides.Animation](../../sequencecollection)  
-* ensamblado [Aspose.Slides](../../../)  
+* interfaz [ISequence](../../isequence)
+* clase [SequenceCollection](../../sequencecollection)
+* espacio de nombres [Aspose.Slides.Animation](../../sequencecollection)
+* ensamblaje [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

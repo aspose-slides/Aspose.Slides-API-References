@@ -1,6 +1,6 @@
 ---
 title: AsIEnumerable
-second_title: Aspose.Sildes для .NET API Справка
+second_title: Aspose.Sildes для .NET API Справочник
 description: Позволяет получить базовый интерфейс IEnumerable. Только для чтения IEnumerable.
 type: docs
 weight: 10

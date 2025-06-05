@@ -1,6 +1,6 @@
 ---
-title: 添加摘要缩放框
-second_title: Aspose.Slides for .NET API 参考
+title: AddSummaryZoomFrame
+second_title: Aspose.Sildes for .NET API Reference
 description: 将新的摘要缩放对象添加到集合的末尾。
 type: docs
 weight: 160
@@ -30,15 +30,15 @@ public ISummaryZoomFrame AddSummaryZoomFrame(float x, float y, float width, floa
 
 | 异常 | 条件 |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | 演示文稿中没有节，或目标幻灯片不属于任何节。 |
+| [PptxEditException](../../pptxeditexception) | 演示文稿中没有节，或者目标幻灯片不属于任何节。 |
 
 ### 备注
 
-此方法创建一个新的摘要缩放，并将该演示文稿中所有节的对象集合放入其中。
+此方法创建一个新的摘要缩放，并将该演示文稿中所有节的对象收集到其中。
 
 ### 示例
 
-此示例演示将摘要缩放对象添加到集合的末尾（假设在"Presentation.pptx"演示文稿中至少有两个节）：
+此示例演示如何将摘要缩放对象添加到集合的末尾（假设在 "Presentation.pptx" 演示文稿中至少有两个节）：
 
 ```csharp
 [C#]
@@ -48,7 +48,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [ISummaryZoomFrame](../../isummaryzoomframe)
 * 接口 [IShapeCollection](../../ishapecollection)

@@ -1,13 +1,13 @@
 ---
-title: Элемент
-second_title: Справочник API Aspose.Slides для .NET
+title: Item
+second_title: Справка по API Aspose.Sildes для .NET
 description: Возвращает или устанавливает операцию по указанному индексу. Чтение/запись IColorOperationaspose.slides/icoloroperation.
 type: docs
 weight: 10
 url: /ru/aspose.slides/icoloroperationcollection/item/
 ---
 
-## Индексатор IColorOperationCollection
+## IColorOperationCollection индексатор
 
 Возвращает или устанавливает операцию по указанному индексу. Чтение/запись [`IColorOperation`](../../icoloroperation).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/icoloroperationcollection/item/
 public IColorOperation this[int index] { get; set; }
 ```
 
-### См. также
+### Также смотри
 
 * интерфейс [IColorOperation](../../icoloroperation)
 * интерфейс [IColorOperationCollection](../../icoloroperationcollection)

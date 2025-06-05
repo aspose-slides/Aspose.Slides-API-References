@@ -1,5 +1,5 @@
 ---
-title: Élement
+title: Item
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient l'élément à l'index spécifié. Lecture seule IShapeaspose.slides/ishape.
 type: docs
@@ -7,7 +7,7 @@ weight: 10
 url: /fr/aspose.slides/ishapecollection/item/
 ---
 
-## Indexeur IShapeCollection
+## IShapeCollection indexer
 
 Obtient l'élément à l'index spécifié. Lecture seule [`IShape`](../../ishape).
 

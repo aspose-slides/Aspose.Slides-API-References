@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/ishape/connectionsitecount/
 ---
+
 ## IShape.ConnectionSiteCount property
 
 Returns the number of connection sites on the shape. Read-only Int32.

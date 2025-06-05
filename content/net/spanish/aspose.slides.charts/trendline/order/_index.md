@@ -1,15 +1,15 @@
 ---
-title: Orden
+title: Order
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Especifica el orden de la línea de tendencia polinómica. Se ignora para otros tipos de líneas de tendencia. El valor debe estar entre 2 y 6. Byte de lectura/escritura.
+description: Especifica el orden de la línea de tendencia polinómica. Se ignora para otros tipos de líneas de tendencia. El valor debe estar entre 2 y 6. Lectura/escritura Byte.
 type: docs
 weight: 80
 url: /es/aspose.slides.charts/trendline/order/
 ---
 
-## Propiedad Trendline.Order
+## Trendline.Order property
 
-Especifica el orden de la línea de tendencia polinómica. Se ignora para otros tipos de líneas de tendencia. El valor debe estar entre 2 y 6. Byte de lectura/escritura.
+Especifica el orden de la línea de tendencia polinómica. Se ignora para otros tipos de líneas de tendencia. El valor debe estar entre 2 y 6. Lectura/escritura Byte.
 
 ```csharp
 public byte Order { get; set; }
@@ -17,8 +17,8 @@ public byte Order { get; set; }
 
 ### Ver También
 
-* clase [Trendline](../../trendline)
-* espacio de nombres [Aspose.Slides.Charts](../../trendline)
-* ensamblaje [Aspose.Slides](../../../)
+* class [Trendline](../../trendline)
+* namespace [Aspose.Slides.Charts](../../trendline)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

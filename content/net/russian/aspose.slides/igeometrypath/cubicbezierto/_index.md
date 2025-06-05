@@ -1,7 +1,7 @@
 ---
 title: CubicBezierTo
-second_title: Aspose.Slides для .NET API Reference
-description: Добавляет кубическую bezier кривую в конце пути
+second_title: Aspose.Sildes для .NET API Reference
+description: Добавляет кубическую кривую Безье в конце пути
 type: docs
 weight: 60
 url: /ru/aspose.slides/igeometrypath/cubicbezierto/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/igeometrypath/cubicbezierto/
 
 ## CubicBezierTo(PointF, PointF, PointF) {#cubicbezierto_2}
 
-Добавляет кубическую bezier кривую в конце пути
+Добавляет кубическую кривую Безье в конце пути
 
 ```csharp
 public void CubicBezierTo(PointF point1, PointF point2, PointF point3)
@@ -31,7 +31,7 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3)
 
 ## CubicBezierTo(float, float, float, float, float, float) {#cubicbezierto}
 
-Добавляет кубическую bezier кривую в конце пути
+Добавляет кубическую кривую Безье в конце пути
 
 ```csharp
 public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, float y3)
@@ -56,7 +56,7 @@ public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, floa
 
 ## CubicBezierTo(PointF, PointF, PointF, uint) {#cubicbezierto_3}
 
-Добавляет кубическую bezier кривую в указанное место пути
+Добавляет кубическую кривую Безье в указанное место пути
 
 ```csharp
 public void CubicBezierTo(PointF point1, PointF point2, PointF point3, uint index)
@@ -73,7 +73,7 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3, uint inde
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Индекс сегмента находится вне диапазона PathData |
+| ArgumentOutOfRangeException | Индекс сегмента выходит за пределы диапазона PathData |
 
 ### См. также
 
@@ -85,7 +85,7 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3, uint inde
 
 ## CubicBezierTo(float, float, float, float, float, float, uint) {#cubicbezierto_1}
 
-Добавляет кубическую bezier кривую в указанное место пути
+Добавляет кубическую кривую Безье в указанное место пути
 
 ```csharp
 public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, float y3, uint index)
@@ -105,7 +105,7 @@ public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, floa
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Индекс сегмента находится вне диапазона PathData |
+| ArgumentOutOfRangeException | Индекс сегмента выходит за пределы диапазона PathData |
 
 ### См. также
 

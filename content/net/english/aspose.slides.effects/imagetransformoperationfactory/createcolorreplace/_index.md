@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.effects/imagetransformoperationfactory/createcolorreplace/
 ---
+
 ## ImageTransformOperationFactory.CreateColorReplace method
 
 Creates Color replace effect.

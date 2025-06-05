@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/icontrol/activexcontrolbinary/
 ---
+
 ## IControl.ActiveXControlBinary property
 
 Specifies the persistence of an ActiveX control when the method used to persist is either PersistStream, PersistStreamInit or PersistStorage.

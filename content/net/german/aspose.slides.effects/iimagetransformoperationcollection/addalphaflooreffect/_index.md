@@ -1,6 +1,6 @@
 ---
 title: AddAlphaFloorEffect
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Fügt den neuen Alpha Floor-Effekt am Ende einer Sammlung hinzu.
 type: docs
 weight: 50

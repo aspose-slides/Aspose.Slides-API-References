@@ -1,7 +1,7 @@
 ---
 title: SetTextFormat
-second_title: Aspose.Slides для .NET API Reference
-description: Устанавливает заданные свойства формата порции для всех частей ячеек таблицы.
+second_title: Aspose.Sildes для .NET API Reference
+description: Устанавливает определенные свойства формата для всех частей ячеек таблицы.
 type: docs
 weight: 150
 url: /ru/aspose.slides/table/settextformat/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/table/settextformat/
 
 ## SetTextFormat(IPortionFormat) {#settextformat_1}
 
-Устанавливает заданные свойства формата порции для всех частей ячеек таблицы.
+Устанавливает определенные свойства формата для всех частей ячеек таблицы.
 
 ```csharp
 public void SetTextFormat(IPortionFormat source)
@@ -19,7 +19,7 @@ public void SetTextFormat(IPortionFormat source)
 | --- | --- | --- |
 | source | IPortionFormat | Объект IPortionFormat с установленными необходимыми свойствами. |
 
-### См. Также
+### См. также
 
 * интерфейс [IPortionFormat](../../iportionformat)
 * класс [Table](../../table)
@@ -30,7 +30,7 @@ public void SetTextFormat(IPortionFormat source)
 
 ## SetTextFormat(IParagraphFormat) {#settextformat}
 
-Устанавливает заданные свойства формата абзаца для всех абзацев ячеек таблицы.
+Устанавливает определенные свойства формата абзаца для всех абзацев ячеек таблицы.
 
 ```csharp
 public void SetTextFormat(IParagraphFormat source)
@@ -40,7 +40,7 @@ public void SetTextFormat(IParagraphFormat source)
 | --- | --- | --- |
 | source | IParagraphFormat | Объект IParagraphFormat с установленными необходимыми свойствами. |
 
-### См. Также
+### См. также
 
 * интерфейс [IParagraphFormat](../../iparagraphformat)
 * класс [Table](../../table)
@@ -51,7 +51,7 @@ public void SetTextFormat(IParagraphFormat source)
 
 ## SetTextFormat(ITextFrameFormat) {#settextformat_2}
 
-Устанавливает заданные свойства формата текстового фрейма для всех текстовых фреймов ячеек таблицы.
+Устанавливает определенные свойства формата текстового фрейма для всех текстовых фреймов ячеек таблицы.
 
 ```csharp
 public void SetTextFormat(ITextFrameFormat source)
@@ -61,7 +61,7 @@ public void SetTextFormat(ITextFrameFormat source)
 | --- | --- | --- |
 | source | ITextFrameFormat | Объект ITextFrameFormat с установленными необходимыми свойствами. |
 
-### См. Также
+### См. также
 
 * интерфейс [ITextFrameFormat](../../itextframeformat)
 * класс [Table](../../table)

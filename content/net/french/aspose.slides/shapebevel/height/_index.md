@@ -1,6 +1,6 @@
 ---
-title: Hauteur
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Height
+second_title: Référence API Aspose.Slides pour .NET
 description: Hauteur du biseau. Lecture/écriture Double.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ Hauteur du biseau. Lecture/écriture Double.
 public double Height { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [ShapeBevel](../../shapebevel)
 * espace de noms [Aspose.Slides](../../shapebevel)

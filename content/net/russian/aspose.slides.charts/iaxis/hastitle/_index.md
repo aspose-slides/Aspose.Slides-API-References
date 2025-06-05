@@ -1,7 +1,7 @@
 ---
 title: HasTitle
-second_title: Aspose.Slidеs для .NET API Reference
-description: Определяет, имеет ли ось видимый заголовок. Чтение/запись Boolean.
+second_title: Aspose.Slides для .NET API Reference
+description: Определяет, имеет ли ось видимый заголовок. Читаемое/записываемое логическое значение.
 type: docs
 weight: 170
 url: /ru/aspose.slides.charts/iaxis/hastitle/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.charts/iaxis/hastitle/
 
 ## IAxis.HasTitle свойство
 
-Определяет, имеет ли ось видимый заголовок. Чтение/запись Boolean.
+Определяет, имеет ли ось видимый заголовок. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool HasTitle { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IAxis](../../iaxis)
 * пространство имен [Aspose.Slides.Charts](../../iaxis)

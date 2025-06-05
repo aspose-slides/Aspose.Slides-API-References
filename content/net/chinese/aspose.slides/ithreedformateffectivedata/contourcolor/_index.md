@@ -1,6 +1,6 @@
 ---
 title: ContourColor
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回轮廓的颜色。只读 Color。
 type: docs
 weight: 50
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ithreedformateffectivedata/contourcolor/
 public Color ContourColor { get; }
 ```
 
-### 参见
+### 另见
 
 * 接口 [IThreeDFormatEffectiveData](../../ithreedformateffectivedata)
 * 命名空间 [Aspose.Slides](../../ithreedformateffectivedata)

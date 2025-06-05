@@ -15,7 +15,7 @@ Deaktiviert den inneren Schatteneffekt.
 public void DisableInnerShadowEffect()
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [EffectFormat](../../effectformat)
 * Namespace [Aspose.Slides](../../effectformat)

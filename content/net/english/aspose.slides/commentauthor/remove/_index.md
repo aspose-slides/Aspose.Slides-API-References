@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/commentauthor/remove/
 ---
+
 ## CommentAuthor.Remove method
 
 Removes the author from the parent collection.

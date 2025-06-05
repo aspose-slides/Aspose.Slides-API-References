@@ -1,7 +1,7 @@
 ---
 title: ArrowheadsLocked
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Determina si se prohíbe cambiar las cabezas de las flechas. Booleano de lectura/escritura.
+second_title: Aspose.Slides para .NET API Reference
+description: Determina si cambiar las cabezas de flecha está prohibido. Booleano de lectura/escritura.
 type: docs
 weight: 20
 url: /es/aspose.slides/iconnectorlock/arrowheadslocked/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/iconnectorlock/arrowheadslocked/
 
 ## Propiedad IConnectorLock.ArrowheadsLocked
 
-Determina si se prohíbe cambiar las cabezas de las flechas. Booleano de lectura/escritura.
+Determina si cambiar las cabezas de flecha está prohibido. Booleano de lectura/escritura.
 
 ```csharp
 public bool ArrowheadsLocked { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IConnectorLock](../../iconnectorlock)
 * espacio de nombres [Aspose.Slides](../../iconnectorlock)

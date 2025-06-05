@@ -1,6 +1,6 @@
 ---
 title: GetEffectsByParagraph
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回指定段落的效果数组。
 type: docs
 weight: 70
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/sequence/geteffectsbyparagraph/
 public IEffect[] GetEffectsByParagraph(IParagraph paragraph)
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IEffect](../../ieffect)
 * 接口 [IParagraph](../../../aspose.slides/iparagraph)

@@ -1,15 +1,15 @@
 ---
-title: Insérer
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Crée un nouvel arrêt de dégradé et l'insère à l'index spécifié dans la collection.
+title: Insert
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Crée le nouvel arrêt de gradient et l'insère à l'index spécifié dans la collection.
 type: docs
 weight: 40
 url: /fr/aspose.slides/igradientstopcollection/insert/
 ---
 
-## Insérer(int, float, Color) {#insert_2}
+## Insert(int, float, Color) {#insert_2}
 
-Crée un nouvel arrêt de dégradé et l'insère à l'index spécifié dans la collection.
+Crée le nouvel arrêt de gradient et l'insère à l'index spécifié dans la collection.
 
 ```csharp
 public void Insert(int index, float position, Color color)
@@ -17,9 +17,9 @@ public void Insert(int index, float position, Color color)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | Index dans la collection où le nouvel arrêt de dégradé sera inséré. |
-| position | Single | Position du nouvel arrêt de dégradé. |
-| color | Color | Couleur du nouvel arrêt de dégradé. |
+| index | Int32 | Index dans la collection où le nouvel arrêt de gradient sera inséré. |
+| position | Single | Position du nouvel arrêt de gradient. |
+| color | Color | Couleur du nouvel arrêt de gradient. |
 
 ### Voir Aussi
 
@@ -29,9 +29,9 @@ public void Insert(int index, float position, Color color)
 
 ---
 
-## Insérer(int, float, PresetColor) {#insert}
+## Insert(int, float, PresetColor) {#insert}
 
-Crée un nouvel arrêt de dégradé et l'insère à l'index spécifié dans la collection.
+Crée le nouvel arrêt de gradient et l'insère à l'index spécifié dans la collection.
 
 ```csharp
 public void Insert(int index, float position, PresetColor presetColor)
@@ -39,9 +39,9 @@ public void Insert(int index, float position, PresetColor presetColor)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | Index dans la collection où le nouvel arrêt de dégradé sera inséré. |
-| position | Single | Position du nouvel arrêt de dégradé. |
-| presetColor | PresetColor | Couleur du nouvel arrêt de dégradé. |
+| index | Int32 | Index dans la collection où le nouvel arrêt de gradient sera inséré. |
+| position | Single | Position du nouvel arrêt de gradient. |
+| presetColor | PresetColor | Couleur du nouvel arrêt de gradient. |
 
 ### Voir Aussi
 
@@ -52,9 +52,9 @@ public void Insert(int index, float position, PresetColor presetColor)
 
 ---
 
-## Insérer(int, float, SchemeColor) {#insert_1}
+## Insert(int, float, SchemeColor) {#insert_1}
 
-Crée un nouvel arrêt de dégradé et l'insère à l'index spécifié dans la collection.
+Crée le nouvel arrêt de gradient et l'insère à l'index spécifié dans la collection.
 
 ```csharp
 public void Insert(int index, float position, SchemeColor schemeColor)
@@ -62,9 +62,9 @@ public void Insert(int index, float position, SchemeColor schemeColor)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | Index dans la collection où le nouvel arrêt de dégradé sera inséré. |
-| position | Single | Position du nouvel arrêt de dégradé. |
-| schemeColor | SchemeColor | Couleur du nouvel arrêt de dégradé. |
+| index | Int32 | Index dans la collection où le nouvel arrêt de gradient sera inséré. |
+| position | Single | Position du nouvel arrêt de gradient. |
+| schemeColor | SchemeColor | Couleur du nouvel arrêt de gradient. |
 
 ### Voir Aussi
 

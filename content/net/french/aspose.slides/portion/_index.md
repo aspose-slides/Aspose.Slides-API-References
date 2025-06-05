@@ -1,6 +1,6 @@
 ---
 title: Portion
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente une portion de texte à l'intérieur d'un paragraphe de texte.
 type: docs
 weight: 9190
@@ -28,8 +28,8 @@ public class Portion : IPortion
 | Nom | Description |
 | --- | --- |
 | [Field](../../aspose.slides/portion/field) { get; } | Renvoie un champ de cette portion. En lecture seule [`IField`](../ifield). |
-| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Renvoie un objet de formatage qui contient des propriétés de formatage définies explicitement pour la portion de texte, sans héritage appliqué. En lecture seule [`IPortionFormat`](../iportionformat). |
-| [Text](../../aspose.slides/portion/text) { get; set; } | Obtient ou définit le texte brut d'une portion. En lecture/écriture String. |
+| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Renvoie un objet de formatage qui contient des propriétés de formatage explicitement définies de la portion de texte sans héritage appliqué. En lecture seule [`IPortionFormat`](../iportionformat). |
+| [Text](../../aspose.slides/portion/text) { get; set; } | Obtient ou définit le texte brut d'une portion. Lecture/écriture String. |
 
 ## Méthodes
 
@@ -37,9 +37,9 @@ public class Portion : IPortion
 | --- | --- |
 | [AddField](../../aspose.slides/portion/addfield#addfield)(IFieldType) | Convertit cette portion en champ mis à jour automatiquement. |
 | [AddField](../../aspose.slides/portion/addfield#addfield_1)(string) | Convertit cette portion en champ mis à jour automatiquement. |
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Obtient les coordonnées du début de la portion. La coordonnée X du point représente le début de la portion à partir du premier caractère, y compris le support latéral gauche. La coordonnée Y inclut le support supérieur. |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Obtient les coordonnées du début de la portion. La coordonnée X du point représente le début de la portion depuis le premier caractère, y compris la marge gauche. La coordonnée Y inclut la marge supérieure. |
 | [GetRect](../../aspose.slides/portion/getrect)() | Obtient les coordonnées du rectangle qui délimite la portion. Le rectangle inclut toutes les lignes de texte dans la portion, y compris celles vides. |
-| [RemoveField](../../aspose.slides/portion/removefield)() | Convertit cette portion de champ en une portion simple. |
+| [RemoveField](../../aspose.slides/portion/removefield)() | Convertit cette portion de champ en portion simple. |
 
 ### Voir Aussi
 

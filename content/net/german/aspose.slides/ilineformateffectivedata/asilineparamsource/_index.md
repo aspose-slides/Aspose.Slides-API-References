@@ -1,7 +1,7 @@
 ---
 title: AsILineParamSource
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf die Basis-IlineParamSource-Schnittstelle. Schreibgeschützte ILineParamSource aspose.slides/ilineparamsource.
+description: Ermöglicht den Zugriff auf die basale ILineParamSource-Schnittstelle. Nur-Lese ILineParamSource aspose.slides/ilineparamsource.
 type: docs
 weight: 20
 url: /de/aspose.slides/ilineformateffectivedata/asilineparamsource/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ilineformateffectivedata/asilineparamsource/
 
 ## ILineFormatEffectiveData.AsILineParamSource-Eigenschaft
 
-Ermöglicht den Zugriff auf die Basis-IlineParamSource-Schnittstelle. Schreibgeschützte [`ILineParamSource`](../../ilineparamsource).
+Ermöglicht den Zugriff auf die basale ILineParamSource-Schnittstelle. Nur-Lese [`ILineParamSource`](../../ilineparamsource).
 
 ```csharp
 public ILineParamSource AsILineParamSource { get; }

@@ -1,6 +1,6 @@
 ---
-title: 添加色调效果
-second_title: Aspose.Slides for .NET API 参考
+title: AddTintEffect
+second_title: Aspose.Sildes for .NET API Reference
 description: 将新的色调效果添加到集合的末尾。
 type: docs
 weight: 190
@@ -18,13 +18,13 @@ public ITint AddTintEffect(float hue, float amount)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | hue | Single | 要调整的色调。 |
-| amount | Single | 指定颜色值偏移的幅度。 |
+| amount | Single | 指定颜色值的偏移量。 |
 
 ### 返回值
 
 新图像效果在集合中的索引。
 
-### 参见
+### 另请参见
 
 * 接口 [ITint](../../itint)
 * 接口 [IImageTransformOperationCollection](../../iimagetransformoperationcollection)

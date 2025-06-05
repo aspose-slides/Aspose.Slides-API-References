@@ -1,15 +1,15 @@
 ---
-title: Chevauchement
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie à quel point les barres et les colonnes se chevauchent sur les graphiques 2D en pourcentage de -100 à 100. C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent. C'est une projection de la propriété appropriée dans le groupe de séries parent et donc cette propriété est en lecture seule. Pour modifier la valeur, utilisez la propriété en lecture/écriture ParentSeriesGroup.Overlap. SByte en lecture seule.
+title: Overlap
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Spécifie combien de barres et de colonnes se chevauchent sur des graphiques 2-D en pourcentage de -100 à 100. Il s'agit de la propriété non seulement de cette série, mais de toutes les séries du groupe de séries parent. C'est une projection de la propriété appropriée dans le groupe de séries parent et donc cette propriété est en lecture seule. Pour changer la valeur, utilisez la propriété en lecture/écriture ParentSeriesGroup.Overlap. SByte en lecture seule.
 type: docs
 weight: 270
 url: /fr/aspose.slides.charts/ichartseries/overlap/
 ---
 
-## Propriété IChartSeries.Overlap
+## IChartSeries.Overlap propriété
 
-Spécifie à quel point les barres et les colonnes se chevauchent sur les graphiques 2D, en pourcentage (de -100% à 100%). C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent. C'est une projection de la propriété appropriée dans le groupe de séries parent, et donc cette propriété est en lecture seule. Pour modifier la valeur, utilisez la propriété en lecture/écriture ParentSeriesGroup.Overlap. SByte en lecture seule.
+Spécifie combien de barres et de colonnes se chevauchent sur des graphiques 2-D, en pourcentage (de -100 % à 100 %). Il s'agit de la propriété non seulement de cette série, mais de toutes les séries du groupe de séries parent. C'est une projection de la propriété appropriée dans le groupe de séries parent, et donc cette propriété est en lecture seule. Pour changer la valeur, utilisez la propriété en lecture/écriture ParentSeriesGroup.Overlap. SByte en lecture seule.
 
 ```csharp
 public sbyte Overlap { get; }
@@ -17,9 +17,9 @@ public sbyte Overlap { get; }
 
 ### Remarques
 
-Le chevauchement spécifie le degré de chevauchement ou d'espacement entre les barres et les colonnes en pourcentage de leur largeur : - -100% : Espacement maximum (les barres sont complètement séparées). - 0% : Les barres sont placées côte à côte sans chevauchement ni espacement. - 100% : Chevauchement maximum (les barres se chevauchent complètement). C'est une projection de la propriété ParentSeriesGroup.Overlap.
+Overlap spécifie le degré de chevauchement ou d'espacement entre les barres et les colonnes en pourcentage de leur largeur : - -100 % : Espacement maximal (les barres sont complètement séparées). - 0 % : Les barres sont placées côte à côte sans chevauchement ni espacement. - 100 % : Chevauchement maximal (les barres se chevauchent complètement). C'est une projection de la propriété ParentSeriesGroup.Overlap.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IChartSeries](../../ichartseries)
 * namespace [Aspose.Slides.Charts](../../ichartseries)

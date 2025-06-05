@@ -1,21 +1,21 @@
 ---
 title: LightType
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente un type de lumière prédéfini qui peut être appliqué à une forme. Le système de lumière représente un groupe de lumières orientées d'une manière spécifique par rapport à une scène 3D. Lecture/écriture LightRigPresetTypeaspose.slides/lightrigpresettype.
+second_title: Aspose.Slides pour .NET Référence API
+description: Représente un type de lumière prédéfini qui peut être appliqué à une forme. Le rig de lumière représente un groupe de lumières orientées d'une manière spécifique par rapport à une scène 3D. Lecture/écriture LightRigPresetTypeaspose.slides/lightrigpresettype.
 type: docs
 weight: 20
 url: /fr/aspose.slides/lightrig/lighttype/
 ---
 
-## Propriété LightRig.LightType
+## LightRig.LightType propriété
 
-Représente un type de lumière prédéfini qui peut être appliqué à une forme. Le système de lumière représente un groupe de lumières orientées d'une manière spécifique par rapport à une scène 3D. Lecture/écriture [`LightRigPresetType`](../../lightrigpresettype).
+Représente un type de lumière prédéfini qui peut être appliqué à une forme. Le rig de lumière représente un groupe de lumières orientées d'une manière spécifique par rapport à une scène 3D. Lecture/écriture [`LightRigPresetType`](../../lightrigpresettype).
 
 ```csharp
 public LightRigPresetType LightType { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [LightRigPresetType](../../lightrigpresettype)
 * class [LightRig](../../lightrig)

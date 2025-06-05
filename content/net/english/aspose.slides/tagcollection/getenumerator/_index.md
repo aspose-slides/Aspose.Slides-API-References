@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/tagcollection/getenumerator/
 ---
+
 ## TagCollection.GetEnumerator method
 
 Returns an enumerator that iterates through the collection.

@@ -1,15 +1,15 @@
 ---
 title: RepeatUntilEndSlide
-second_title: Aspose.Sildes для .NET Справочник по API
-description: Этот атрибут указывает, будет ли эффект повторяться до конца слайда. Читаемая/записываемая логика.
+second_title: Aspose.Slildes для .NET API Справочник
+description: Этот атрибут определяет, будет ли эффект повторяться до конца слайда. Доступен для чтения и записи Boolean.
 type: docs
 weight: 70
 url: /ru/aspose.slides.animation/timing/repeatuntilendslide/
 ---
 
-## Свойство Timing.RepeatUntilEndSlide
+## Timing.RepeatUntilEndSlide свойство
 
-Этот атрибут указывает, будет ли эффект повторяться до конца слайда. Читаемая/записываемая логика.
+Этот атрибут определяет, будет ли эффект повторяться до конца слайда. Доступен для чтения и записи Boolean.
 
 ```csharp
 public bool RepeatUntilEndSlide { get; set; }
@@ -21,13 +21,13 @@ public bool RepeatUntilEndSlide { get; set; }
 [C#]
 using (Presentation presentation = new Presentation("demo.pptx"))
 {
-    // Получите последовательность эффектов для первого слайда
+    // Получить последовательность эффектов для первого слайда
     ISequence effectsSequence = presentation.Slides[0].Timeline.MainSequence;
 
-    // Получите первый эффект основной последовательности.
+    // Получить первый эффект основной последовательности.
     IEffect effect = effectsSequence[0];
 
-    // Измените время эффекта/Повтор на "До конца слайда"
+    // Изменить время эффекта/Повтор на "До конца слайда"
     effect.Timing.RepeatUntilEndSlide = true;
 }
 ```

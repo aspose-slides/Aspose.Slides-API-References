@@ -1,6 +1,6 @@
 ---
 title: MathVerticalAlignment
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Vertikale Ausrichtung
 type: docs
 weight: 8780
@@ -17,12 +17,12 @@ public enum MathVerticalAlignment
 
 ### Werte
 
-| Name        | Wert | Beschreibung                      |
-|-------------|------|-----------------------------------|
-| NotDefined  | `0`  | Wert ist nicht definiert          |
-| Top         | `1`  | Oben                              |
-| Center      | `2`  | Zentrum                           |
-| Bottom      | `3`  | Unten                             |
+| Name | Wert | Beschreibung |
+| --- | --- | --- |
+| NotDefined | `0` | Wert ist nicht definiert |
+| Top | `1` | Oben |
+| Center | `2` | Mitte |
+| Bottom | `3` | Unten |
 
 ### Siehe auch
 

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/presentedbyspeaker/presentedbyspeaker/
 ---
+
 ## PresentedBySpeaker constructor
 
 Initializes a new instance of the PresentedBySpeaker class.

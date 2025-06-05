@@ -1,13 +1,13 @@
 ---
-title: Удалить
-second_title: Справочник по API Aspose.Slides для .NET
+title: Remove
+second_title: Aspose.Slides для .NET API Reference
 description: Удаляет первое вхождение указанного комментария в коллекции.
 type: docs
 weight: 130
 url: /ru/aspose.slides/commentcollection/remove/
 ---
 
-## Метод CommentCollection.Remove
+## CommentCollection.Remove метод
 
 Удаляет первое вхождение указанного комментария в коллекции.
 
@@ -23,8 +23,8 @@ public void Remove(IComment comment)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если комментарий равен `null` |
-| [PptxEditException](../../pptxeditexception) | Вызывается, если комментарий уже удален. |
+| ArgumentNullException | Если comment равен `null` |
+| [PptxEditException](../../pptxeditexception) | Генерируется, если комментарий уже удален. |
 
 ### См. также
 

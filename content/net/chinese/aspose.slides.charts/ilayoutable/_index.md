@@ -19,15 +19,15 @@ public interface ILayoutable : IChartComponent
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/ilayoutable/asichartcomponent) { get; } | 允许获取基础的 IChartComponent 接口。只读 [`IChartComponent`](../ichartcomponent)。 |
-| [Bottom](../../aspose.slides.charts/ilayoutable/bottom) { get; } | 获取图表元素的顶部作为图表高度的一个分数。只读 Single。 |
-| [Height](../../aspose.slides.charts/ilayoutable/height) { get; set; } | 指定图表元素的高度作为图表高度的一个分数。读写 Single。 |
-| [Right](../../aspose.slides.charts/ilayoutable/right) { get; } | 获取图表元素的右侧作为图表宽度的一个分数。只读 Single。 |
-| [Width](../../aspose.slides.charts/ilayoutable/width) { get; set; } | 指定图表元素的宽度作为图表宽度的一个分数。读写 Single。 |
-| [X](../../aspose.slides.charts/ilayoutable/x) { get; set; } | 指定图表元素的 x 位置（左侧）作为图表宽度的一个分数。读写 Single。 |
-| [Y](../../aspose.slides.charts/ilayoutable/y) { get; set; } | 指定图表元素的顶部作为图表高度的一个分数。读写 Single。 |
+| [AsIChartComponent](../../aspose.slides.charts/ilayoutable/asichartcomponent) { get; } | 允许获取基础 IChartComponent 接口。只读 [`IChartComponent`](../ichartcomponent)。 |
+| [Bottom](../../aspose.slides.charts/ilayoutable/bottom) { get; } | 获取图表元素的顶部，作为图表高度的一个比例。只读 Single。 |
+| [Height](../../aspose.slides.charts/ilayoutable/height) { get; set; } | 指定图表元素的高度，作为图表高度的一个比例。读/写 Single。 |
+| [Right](../../aspose.slides.charts/ilayoutable/right) { get; } | 获取图表元素的右边，作为图表宽度的一个比例。只读 Single。 |
+| [Width](../../aspose.slides.charts/ilayoutable/width) { get; set; } | 指定图表元素的宽度，作为图表宽度的一个比例。读/写 Single。 |
+| [X](../../aspose.slides.charts/ilayoutable/x) { get; set; } | 指定图表元素的 x 位置（左侧），作为图表宽度的一个比例。读/写 Single。 |
+| [Y](../../aspose.slides.charts/ilayoutable/y) { get; set; } | 指定图表元素的顶部，作为图表高度的一个比例。读/写 Single。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IChartComponent](../ichartcomponent)
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)

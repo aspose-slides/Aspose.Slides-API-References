@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/itabeffectivedata/asicomparable/
 ---
+
 ## ITabEffectiveData.AsIComparable property
 
 Returns IComparable interface. Read-only IComparable.

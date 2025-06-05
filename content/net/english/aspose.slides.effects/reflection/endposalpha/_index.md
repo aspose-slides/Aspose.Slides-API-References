@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.effects/reflection/endposalpha/
 ---
+
 ## Reflection.EndPosAlpha property
 
 Specifies the end position (along the alpha gradient ramp) of the end alpha value (percents). Read/write Single.

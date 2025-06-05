@@ -1,15 +1,15 @@
 ---
-title: GestionDesPolicesExternes
+title: ExternalFontsHandling
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine une manière de gérer les polices chargées de manière externe. Lire/écrire SvgExternalFontsHandlingaspose.slides.export/svgexternalfontshandling.
+description: Détermine un moyen de gérer les polices chargées externément. Lire/écrire SvgExternalFontsHandlingaspose.slides.export/svgexternalfontshandling.
 type: docs
 weight: 70
 url: /fr/aspose.slides.export/isvgoptions/externalfontshandling/
 ---
 
-## Propriété ISVGOptions.ExternalFontsHandling
+## ISVGOptions.ExternalFontsHandling property
 
-Détermine une manière de gérer les polices chargées de manière externe. Lire/écrire [`SvgExternalFontsHandling`](../../svgexternalfontshandling).
+Détermine un moyen de gérer les polices chargées externément. Lire/écrire [`SvgExternalFontsHandling`](../../svgexternalfontshandling).
 
 ```csharp
 public SvgExternalFontsHandling ExternalFontsHandling { get; set; }

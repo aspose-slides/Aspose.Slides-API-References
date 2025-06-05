@@ -1,15 +1,15 @@
 ---
 title: IUpDownBarsManager
-second_title: Aspose.Slides for .NET API Reference
-description: 提供对线形图或股票图的上下条形图的访问。
+second_title: Aspose.Sildes for .NET API Reference
+description: 提供对线图或股票图的上下条形的访问。
 type: docs
 weight: 2180
 url: /zh/aspose.slides.charts/iupdownbarsmanager/
 ---
 
-## IUpDownBarsManager接口
+## IUpDownBarsManager 接口
 
-提供对线形图或股票图的上下条形图的访问。
+提供对线图或股票图的上下条形的访问。
 
 ```csharp
 public interface IUpDownBarsManager
@@ -19,12 +19,12 @@ public interface IUpDownBarsManager
 
 | 名称 | 描述 |
 | --- | --- |
-| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | 返回下条形图的格式。只读 [`IFormat`](../iformat)。 |
-| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | 返回或设置间隔宽度。读写 Int32。 |
-| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | 确定图表是否具有上下条形图。读写 Boolean。 |
-| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | 返回上条形图的格式。只读 [`IFormat`](../iformat)。 |
+| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | 返回下跌条的格式。只读 [`IFormat`](../iformat)。 |
+| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | 返回或设置间隙宽度。读写 Int32。 |
+| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | 确定图表是否具有上下条形。读写 Boolean。 |
+| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | 返回上涨条的格式。只读 [`IFormat`](../iformat)。 |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程序集 [Aspose.Slides](../../)

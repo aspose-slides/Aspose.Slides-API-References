@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/odpexception/odpexception/
 ---
+
 ## OdpException() {#constructor}
 
 Default constructor

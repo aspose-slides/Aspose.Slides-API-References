@@ -32,7 +32,7 @@ public class MathGroupingCharacterFactory : IMathGroupingCharacterFactory
 
 Pour la compatibilité COM
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathGroupingCharacterFactory](../imathgroupingcharacterfactory)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

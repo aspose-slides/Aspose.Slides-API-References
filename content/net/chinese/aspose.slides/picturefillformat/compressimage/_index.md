@@ -1,7 +1,7 @@
 ---
 title: CompressImage
 second_title: Aspose.Sildes for .NET API Reference
-description: 通过减少形状大小和指定分辨率来压缩图像。可选地，它还会删除裁剪区域。
+description: 通过根据形状大小和指定的分辨率减少图像的大小来压缩图像。可选地，它还会删除裁剪区域。
 type: docs
 weight: 180
 url: /zh/aspose.slides/picturefillformat/compressimage/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/picturefillformat/compressimage/
 
 ## CompressImage(bool, PicturesCompression) {#compressimage}
 
-通过减少形状大小和指定分辨率来压缩图像。可选地，它还会删除裁剪区域。
+通过根据形状大小和指定的分辨率减少图像的大小来压缩图像。可选地，它还会删除裁剪区域。
 
 ```csharp
 public bool CompressImage(bool deleteCroppedAreasOfImage, PicturesCompression resolution)
@@ -17,33 +17,33 @@ public bool CompressImage(bool deleteCroppedAreasOfImage, PicturesCompression re
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| deleteCroppedAreasOfImage | 布尔值 | 如果为真，该方法将移除图像的裁剪区域，可能进一步减少其大小。 |
-| resolution | PicturesCompression | 指定为[`PicturesCompression`](../../../aspose.slides.export/picturescompression)枚举值的压缩目标分辨率。 |
+| deleteCroppedAreasOfImage | 布尔值 | 如果为真，则该方法将移除图像的裁剪区域，从而可能进一步减少其大小。 |
+| resolution | PicturesCompression | 压缩的目标分辨率，以[`PicturesCompression`](../../../aspose.slides.export/picturescompression)枚举的值指定。 |
 
 ### 返回值
 
-一个布尔值，指示图像是否成功压缩。如果图像被重新调整大小或裁剪，则返回`true`，否则返回`false`。
+一个布尔值，指示图像是否成功压缩。如果图像被调整大小或裁剪，则返回`true`，否则返回`false`。
 
 ### 异常
 
 | 异常 | 条件 |
 | --- | --- |
-| ArgumentException | 当分辨率不是有效值时抛出。 |
+| ArgumentException | 当分辨率不是有效值时引发。 |
 
-### 注释
+### 备注
 
-该方法更改图像的大小和分辨率，类似于PowerPoint的“图片格式 -&gt; 压缩图片”功能。
+该方法改变图像的大小和分辨率，类似于PowerPoint的“图片格式 -&gt; 压缩图片”功能。
 
 ### 示例
 
-以下示例演示如何使用`CompressImage`方法通过设置目标分辨率和移除裁剪区域来减少演示文稿中图像的大小：
+以下示例演示如何使用`CompressImage`方法通过设置目标分辨率并移除裁剪区域来减少演示文稿中图像的大小：
 
 ```csharp
 using (Presentation presentation = new Presentation("demo.pptx"))
 {
     ISlide slide = presentation.Slides[0];
     IPictureFrame picFrame = slide.Shapes[0] as IPictureFrame;
-    // 使用150 DPI（网页分辨率）作为目标分辨率并移除裁剪区域来压缩图像
+    // 使用150 DPI（网络分辨率）的目标分辨率压缩图像并移除裁剪区域
     bool result = picFrame.PictureFormat.CompressImage(true, PicturesCompression.Dpi150);
 }
 ```
@@ -59,7 +59,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 
 ## CompressImage(bool, float) {#compressimage_1}
 
-通过减少形状大小和指定分辨率来压缩图像。可选地，它还会删除裁剪区域。
+通过根据形状大小和指定的分辨率减少图像的大小来压缩图像。可选地，它还会删除裁剪区域。
 
 ```csharp
 public bool CompressImage(bool deleteCroppedAreasOfImage, float resolution)
@@ -67,26 +67,26 @@ public bool CompressImage(bool deleteCroppedAreasOfImage, float resolution)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| deleteCroppedAreasOfImage | 布尔值 | 如果为真，该方法将移除图像的裁剪区域，可能进一步减少其大小。 |
-| resolution | 单精度浮点数 | 目标分辨率，以DPI为单位。该值必须为正，并定义图像的调整大小方式。 |
+| deleteCroppedAreasOfImage | 布尔值 | 如果为真，则该方法将移除图像的裁剪区域，从而可能进一步减少其大小。 |
+| resolution | 单精度浮点数 | 目标分辨率，以DPI为单位。此值必须为正，并定义图像将如何被调整大小。 |
 
 ### 返回值
 
-一个布尔值，指示图像是否成功压缩。如果图像被重新调整大小或裁剪，则返回`true`，否则返回`false`。
+一个布尔值，指示图像是否成功压缩。如果图像被调整大小或裁剪，则返回`true`，否则返回`false`。
 
 ### 异常
 
 | 异常 | 条件 |
 | --- | --- |
-| ArgumentException | 当分辨率不是正值时抛出。 |
+| ArgumentException | 当分辨率不是正值时引发。 |
 
-### 注释
+### 备注
 
-该方法更改图像的大小和分辨率，类似于PowerPoint的“图片格式 -&gt; 压缩图片”功能。
+该方法改变图像的大小和分辨率，类似于PowerPoint的“图片格式 -&gt; 压缩图片”功能。
 
 ### 示例
 
-以下示例演示如何使用`CompressImage`方法通过设置目标分辨率和移除裁剪区域来减少演示文稿中图像的大小：
+以下示例演示如何使用`CompressImage`方法通过设置目标分辨率并移除裁剪区域来减少演示文稿中图像的大小：
 
 ```csharp
 [C#]
@@ -97,8 +97,8 @@ using (Presentation presentation = new Presentation("demo.pptx"))
     // 获取PictureFrame
     IPictureFrame picFrame = slide.Shapes[0] as IPictureFrame;
 
-    // 使用150 DPI（网页分辨率）作为目标分辨率并移除裁剪区域来压缩图像
-    bool result=picFrame.PictureFormat.CompressImage(true, 150f); // 网页分辨率
+    // 使用150 DPI（网络分辨率）的目标分辨率压缩图像并移除裁剪区域
+    bool result=picFrame.PictureFormat.CompressImage(true, 150f); // 网络分辨率
 }
 ```
 

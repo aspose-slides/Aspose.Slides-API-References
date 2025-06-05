@@ -1,6 +1,6 @@
 ---
 title: AddAudio
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 从另一个演示文稿中添加音频文件的副本。
 type: docs
 weight: 50
@@ -23,7 +23,7 @@ public IAudio AddAudio(IAudio audio)
 
 添加的音频。
 
-### 另见
+### 另请参阅
 
 * 接口 [IAudio](../../iaudio)
 * 类 [AudioCollection](../../audiocollection)
@@ -42,13 +42,13 @@ public IAudio AddAudio(Stream stream)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 添加音频的流。 |
+| stream | Stream | 从中添加音频的流。 |
 
 ### 返回值
 
 添加的音频。
 
-### 另见
+### 另请参阅
 
 * 接口 [IAudio](../../iaudio)
 * 类 [AudioCollection](../../audiocollection)
@@ -67,14 +67,14 @@ public IAudio AddAudio(Stream stream, LoadingStreamBehavior loadingStreamBehavio
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 添加视频音频的流。 |
+| stream | Stream | 从中添加视频音频的流。 |
 | loadingStreamBehavior | LoadingStreamBehavior | 将应用于流的行为。 |
 
 ### 返回值
 
 添加的音频。
 
-### 另见
+### 另请参阅
 
 * 接口 [IAudio](../../iaudio)
 * 枚举 [LoadingStreamBehavior](../../loadingstreambehavior)
@@ -86,7 +86,7 @@ public IAudio AddAudio(Stream stream, LoadingStreamBehavior loadingStreamBehavio
 
 ## AddAudio(byte[]) {#addaudio_1}
 
-从字节数组中创建并添加音频到演示文稿。
+从字节数组创建并添加音频到演示文稿。
 
 ```csharp
 public IAudio AddAudio(byte[] audioData)
@@ -100,7 +100,7 @@ public IAudio AddAudio(byte[] audioData)
 
 添加的音频。
 
-### 另见
+### 另请参阅
 
 * 接口 [IAudio](../../iaudio)
 * 类 [AudioCollection](../../audiocollection)

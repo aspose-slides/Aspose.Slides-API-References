@@ -1,7 +1,7 @@
 ---
-title: FormatoDeNumeroDeValores
+title: NumberFormatOfValues
 second_title: Referencia de API de Aspose.Slides para .NET
-description: FormatoDeNumeroDeValores. Leer/escribir cadena.
+description: NumberFormatOfValues. Leer/escribir String.
 type: docs
 weight: 230
 url: /es/aspose.slides.charts/chartseries/numberformatofvalues/
@@ -9,13 +9,13 @@ url: /es/aspose.slides.charts/chartseries/numberformatofvalues/
 
 ## Propiedad ChartSeries.NumberFormatOfValues
 
-FormatoDeNumeroDeValores. Leer/escribir cadena.
+NumberFormatOfValues. Leer/escribir String.
 
 ```csharp
 public string NumberFormatOfValues { get; set; }
 ```
 
-### Véase También
+### Ver También
 
 * clase [ChartSeries](../../chartseries)
 * espacio de nombres [Aspose.Slides.Charts](../../chartseries)

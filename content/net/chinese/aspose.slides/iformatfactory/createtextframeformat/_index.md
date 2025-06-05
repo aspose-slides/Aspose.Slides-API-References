@@ -1,6 +1,6 @@
 ---
 title: CreateTextFrameFormat
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 创建新的 ITextFrameFormataspose.slides/itextframeformat。
 type: docs
 weight: 30
@@ -19,7 +19,7 @@ public ITextFrameFormat CreateTextFrameFormat()
 
 新的文本框格式。
 
-### 参见
+### 另请参见
 
 * 接口 [ITextFrameFormat](../../itextframeformat)
 * 接口 [IFormatFactory](../../iformatfactory)

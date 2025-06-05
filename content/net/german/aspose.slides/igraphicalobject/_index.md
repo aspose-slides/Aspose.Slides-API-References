@@ -1,7 +1,7 @@
 ---
 title: IGraphicalObject
-second_title: Aspose.Slides für .NET API Referenz
-description: Repräsentiert abstraktes grafisches Objekt.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt abstraktes grafisches Objekt dar.
 type: docs
 weight: 5860
 url: /de/aspose.slides/igraphicalobject/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/igraphicalobject/
 
 ## IGraphicalObject-Schnittstelle
 
-Repräsentiert abstraktes grafisches Objekt.
+Stellt abstraktes grafisches Objekt dar.
 
 ```csharp
 public interface IGraphicalObject : IShape
@@ -19,9 +19,9 @@ public interface IGraphicalObject : IShape
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | Ermöglicht das Abrufen der Basis-IShape-Schnittstelle. Schreibgeschützt [`IShape`](../ishape). |
-| [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | Gibt die Sperren des Objekts zurück. Schreibgeschützt [`IGraphicalObjectLock`](../igraphicalobjectlock). |
-| [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | Gibt die Sperren des Objekts zurück. Schreibgeschützt [`IGraphicalObjectLock`](../igraphicalobjectlock). |
+| [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | Ermöglicht den Zugriff auf die Basis-IShape-Schnittstelle. Nur lesbar [`IShape`](../ishape). |
+| [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | Gibt die Sperren des Objekts zurück. Nur lesbar [`IGraphicalObjectLock`](../igraphicalobjectlock). |
+| [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | Gibt die Sperren des Objekts zurück. Nur lesbar [`IGraphicalObjectLock`](../igraphicalobjectlock). |
 
 ### Siehe auch
 

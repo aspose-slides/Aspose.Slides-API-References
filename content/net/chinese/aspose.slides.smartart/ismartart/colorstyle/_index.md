@@ -1,7 +1,7 @@
 ---
-title: 颜色样式
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置 SmartArt 对象的颜色样式。可读写 SmartArtColorType aspose.slides.smartart/smartartcolortype。
+title: ColorStyle
+second_title: Aspose.Slides for .NET API Reference
+description: 返回或设置SmartArt对象的颜色样式。读/写 SmartArtColorType aspose.slides.smartart/smartartcolortype。
 type: docs
 weight: 30
 url: /zh/aspose.slides.smartart/ismartart/colorstyle/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.smartart/ismartart/colorstyle/
 
 ## ISmartArt.ColorStyle 属性
 
-返回或设置 SmartArt 对象的颜色样式。可读写 [`SmartArtColorType`](../../smartartcolortype)。
+返回或设置SmartArt对象的颜色样式。读/写 [`SmartArtColorType`](../../smartartcolortype)。
 
 ```csharp
 public SmartArtColorType ColorStyle { get; set; }

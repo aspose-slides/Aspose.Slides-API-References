@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.charts/trendline/intercept/
 ---
+
 ## Trendline.Intercept property
 
 Specifies the value where the trendline shall cross the y axis. This property shall be supported only when the trendline type is exp, linear, or poly. Read/write Double.

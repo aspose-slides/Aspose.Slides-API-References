@@ -1,13 +1,13 @@
 ---
-title: Article
-second_title: Référence API Aspose.Slides pour .NET
+title: Item
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Renvoie une cellule IChartDataCell par index.
 type: docs
 weight: 30
 url: /fr/aspose.slides.charts/ichartcellcollection/item/
 ---
 
-## Indexeur IChartCellCollection
+## IChartCellCollection indexer
 
 Renvoie une cellule (IChartDataCell) par index.
 
@@ -19,11 +19,11 @@ public IChartDataCell this[int index] { get; }
 | --- | --- |
 | index | Index d'une cellule. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Cellule avec des données.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IChartDataCell](../../ichartdatacell)
 * interface [IChartCellCollection](../../ichartcellcollection)

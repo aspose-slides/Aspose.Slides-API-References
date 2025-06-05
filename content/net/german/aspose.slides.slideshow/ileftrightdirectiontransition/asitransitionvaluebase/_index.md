@@ -1,21 +1,21 @@
 ---
 title: AsITransitionValueBase
 second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht den Zugriff auf die Basis-ITransitionValueBase-Schnittstelle. Nur-lesbare ITransitionValueBaseaspose.slides.slideshow/itransitionvaluebase.
+description: Ermöglicht den Zugriff auf die Basisschnittstelle ITransitionValueBase. Schreibgeschütztes ITransitionValueBase aspose.slides.slideshow/itransitionvaluebase.
 type: docs
 weight: 10
 url: /de/aspose.slides.slideshow/ileftrightdirectiontransition/asitransitionvaluebase/
 ---
 
-## ILeftRightDirectionTransition.AsITransitionValueBase Eigenschaft
+## ILeftRightDirectionTransition.AsITransitionValueBase-Eigenschaft
 
-Ermöglicht den Zugriff auf die Basis-ITransitionValueBase-Schnittstelle. Nur-lesbare [`ITransitionValueBase`](../../itransitionvaluebase).
+Ermöglicht den Zugriff auf die Basisschnittstelle ITransitionValueBase. Schreibgeschütztes [`ITransitionValueBase`](../../itransitionvaluebase).
 
 ```csharp
 public ITransitionValueBase AsITransitionValueBase { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ITransitionValueBase](../../itransitionvaluebase)
 * Schnittstelle [ILeftRightDirectionTransition](../../ileftrightdirectiontransition)

@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.charts/datalabel/bottom/
 ---
+
 ## DataLabel.Bottom property
 
 Bottom. Read-only Single.

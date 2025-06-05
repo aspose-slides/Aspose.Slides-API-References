@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/ilayoutslidecollection/removeunused/
 ---
+
 ## ILayoutSlideCollection.RemoveUnused method
 
 Removes unused layout slides (layout slides whose HasDependingSlides is false).

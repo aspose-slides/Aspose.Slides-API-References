@@ -1,6 +1,6 @@
 ---
 title: ExtrusionOrientationZ
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Représente la propriété extrusion.orientation.z
 type: docs
 weight: 110

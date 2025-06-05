@@ -6,6 +6,7 @@ type: docs
 weight: 180
 url: /aspose.slides.charts/ichart/rotation3d/
 ---
+
 ## IChart.Rotation3D property
 
 Returns a 3D rotation of a chart. Read-only [`IRotation3D`](../../irotation3d).

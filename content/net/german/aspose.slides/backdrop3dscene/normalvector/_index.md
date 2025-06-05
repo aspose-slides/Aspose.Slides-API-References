@@ -1,7 +1,7 @@
 ---
 title: NormalVector
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen Normalenvektor zurück oder setzt diesen. Genauer gesagt definiert dieses Attribut einen Vektor, der senkrecht zur Fläche des Hintergrundplans ist. Der Vektor wird durch ein Array von 3 Float-Werten dargestellt, die die X-, Y- und Z-Koordinaten definieren. Lese-/Schreibzugriff auf Einzelwert.
+description: Gibt einen Normalenvektor zurück oder setzt ihn. Genauer gesagt definiert dieses Attribut einen Vektor, der normal zur Fläche des Hintergrundplanes ist. Vektor dargestellt durch ein Array von 3 Float-Werten, die die X-, Y- und Z-Koordinaten definieren. Lese-/Schreibzugriff Einfach.
 type: docs
 weight: 20
 url: /de/aspose.slides/backdrop3dscene/normalvector/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/backdrop3dscene/normalvector/
 
 ## Backdrop3DScene.NormalVector-Eigenschaft
 
-Gibt einen Normalenvektor zurück oder setzt diesen. Genauer gesagt definiert dieses Attribut einen Vektor, der senkrecht zur Fläche des Hintergrundplans ist. Der Vektor wird durch ein Array von 3 Float-Werten dargestellt, die die X-, Y- und Z-Koordinaten definieren. Lese-/Schreibzugriff auf Single[].
+Gibt einen Normalenvektor zurück oder setzt ihn. Genauer gesagt definiert dieses Attribut einen Vektor, der normal zur Fläche des Hintergrundplanes ist. Vektor dargestellt durch ein Array von 3 Float-Werten, die die X-, Y- und Z-Koordinaten definieren. Lese-/Schreibzugriff Single[].
 
 ```csharp
 public float[] NormalVector { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [Backdrop3DScene](../../backdrop3dscene)
 * Namespace [Aspose.Slides](../../backdrop3dscene)

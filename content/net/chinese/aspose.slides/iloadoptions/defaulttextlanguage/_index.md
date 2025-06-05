@@ -1,7 +1,7 @@
 ---
-title: 默认文本语言
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置演示文稿文本的默认语言。可读写字符串。
+title: DefaultTextLanguage
+second_title: Aspose.Slides for .NET API Reference
+description: 返回或设置演示文稿文本的默认语言。可读/写字符串。
 type: docs
 weight: 50
 url: /zh/aspose.slides/iloadoptions/defaulttextlanguage/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iloadoptions/defaulttextlanguage/
 
 ## ILoadOptions.DefaultTextLanguage 属性
 
-返回或设置演示文稿文本的默认语言。可读写字符串。
+返回或设置演示文稿文本的默认语言。可读/写字符串。
 
 ```csharp
 public string DefaultTextLanguage { get; set; }
@@ -25,17 +25,17 @@ public string DefaultTextLanguage { get; set; }
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.DefaultTextLanguage = "en-US";
 using (Presentation pres = new Presentation(loadOptions))
-{
-    // 添加新的带文本的矩形形状
+ {
+    // 添加带文本的新矩形形状
     IAutoShape shp = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 50, 50, 150, 50);
     shp.TextFrame.Text = "New Text";
 
-    // 检查第一部分的语言
+    // 检查第一个部分的语言
     Console.WriteLine(shp.TextFrame.Paragraphs[0].Portions[0].PortionFormat.LanguageId);
 }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [ILoadOptions](../../iloadoptions)
 * 命名空间 [Aspose.Slides](../../iloadoptions)

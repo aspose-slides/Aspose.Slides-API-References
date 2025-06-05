@@ -1,7 +1,7 @@
 ---
 title: BeginningCharacter
-second_title: Aspose.Slides für .NET API Referenz
-description: Der Anfangszeichen-Delimiter gibt das Anfangs- oder Eröffnungs-Delimiter-Zeichen an. Mathematische Delimiter sind umschließende Zeichen wie Klammern, eckige Klammern und geschweifte Klammern. Der Standardwert .
+second_title: Aspose.Sildes für .NET API Referenz
+description: Delimiter Beginning Character gibt das Anfangs- oder öffnende Trennzeichen an. Mathematische Trennzeichen sind umschließende Zeichen wie Klammern, eckige Klammern und geschweifte Klammern. Der Standardwert .
 type: docs
 weight: 30
 url: /de/aspose.slides.mathtext/imathdelimiter/beginningcharacter/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathdelimiter/beginningcharacter/
 
 ## IMathDelimiter.BeginningCharacter-Eigenschaft
 
-Der Anfangszeichen-Delimiter gibt das Anfangs- oder Eröffnungs-Delimiter-Zeichen an. Mathematische Delimiter sind umschließende Zeichen wie Klammern, eckige Klammern und geschweifte Klammern. Der Standardwert: '('.
+Delimiter Beginning Character gibt das Anfangs- oder öffnende Trennzeichen an. Mathematische Trennzeichen sind umschließende Zeichen wie Klammern, eckige Klammern und geschweifte Klammern. Der Standardwert: '('.
 
 ```csharp
 public char BeginningCharacter { get; set; }
@@ -25,7 +25,7 @@ IMathDelimiter delimiter = new MathematicalText("x").Join("y").Enclose();
 delimiter.BeginningCharacter = '[';
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IMathDelimiter](../../imathdelimiter)
 * Namespace [Aspose.Slides.MathText](../../imathdelimiter)

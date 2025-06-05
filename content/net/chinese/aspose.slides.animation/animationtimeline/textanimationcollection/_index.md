@@ -1,7 +1,7 @@
 ---
-title: 文本动画集合
-second_title: Aspose.Slides for .NET API 参考
-description: 返回文本动画的集合。只读 ITextAnimationCollection aspose.slides.animation/itextanimationcollection。
+title: TextAnimationCollection
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回文本动画集合。只读 ITextAnimationCollectionaspose.slides.animation/itextanimationcollection。
 type: docs
 weight: 30
 url: /zh/aspose.slides.animation/animationtimeline/textanimationcollection/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.animation/animationtimeline/textanimationcollection/
 
 ## AnimationTimeLine.TextAnimationCollection 属性
 
-返回文本动画的集合。只读 [`ITextAnimationCollection`](../../itextanimationcollection)。
+返回文本动画集合。只读 [`ITextAnimationCollection`](../../itextanimationcollection)。
 
 ```csharp
 public ITextAnimationCollection TextAnimationCollection { get; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [ITextAnimationCollection](../../itextanimationcollection)
 * 类 [AnimationTimeLine](../../animationtimeline)

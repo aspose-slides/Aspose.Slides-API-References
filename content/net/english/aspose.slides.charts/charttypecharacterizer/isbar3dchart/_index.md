@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.charts/charttypecharacterizer/isbar3dchart/
 ---
+
 ## ChartTypeCharacterizer.IsBar3DChart method
 
 Return true if chartType is one of bar3DChart subtypes (3D columns or bars).

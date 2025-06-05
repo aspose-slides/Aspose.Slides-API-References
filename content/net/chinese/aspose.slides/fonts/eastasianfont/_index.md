@@ -1,7 +1,7 @@
 ---
-title: 东亚字体
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置东亚字体。可读/写 IFontData aspose.slides/ifontdata。
+title: EastAsianFont
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置东亚字体。可读可写 IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 20
 url: /zh/aspose.slides/fonts/eastasianfont/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/fonts/eastasianfont/
 
 ## Fonts.EastAsianFont 属性
 
-返回或设置东亚字体。可读/写 [`IFontData`](../../ifontdata)。
+返回或设置东亚字体。可读可写 [`IFontData`](../../ifontdata)。
 
 ```csharp
 public IFontData EastAsianFont { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IFontData](../../ifontdata)
 * 类 [Fonts](../../fonts)

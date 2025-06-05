@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides for .NET API Reference
-description: 获取应用了继承和表样式的有效表格列格式属性。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取有效的表格列格式属性，包含继承和表格样式应用。
 type: docs
 weight: 10
 url: /zh/aspose.slides/columnformat/geteffective/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/columnformat/geteffective/
 
 ## ColumnFormat.GetEffective 方法
 
-获取应用了继承和表样式的有效表格列格式属性。
+获取有效的表格列格式属性，包含继承和表格样式应用。
 
 ```csharp
 public IColumnFormatEffectiveData GetEffective()
@@ -21,7 +21,7 @@ public IColumnFormatEffectiveData GetEffective()
 
 ### 示例
 
-此示例演示了如何获取不同表逻辑部分的有效填充格式。请注意，单元格格式的优先级始终高于行格式，行格式高于列格式，列格式高于整个表。因此，CellFormatEffectiveData 属性始终用于绘制表格。以下代码只是 API 的一个示例。
+本示例演示了如何获取不同表格逻辑部分的有效填充格式。请注意，单元格格式永远优先于行格式，行优先于列，列优先于整个表格。因此，CellFormatEffectiveData 属性始终用于绘制表格。以下代码仅是 API 的示例。
 
 ```csharp
 [C#]
@@ -36,7 +36,7 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IColumnFormatEffectiveData](../../icolumnformateffectivedata)
 * 类 [ColumnFormat](../../columnformat)

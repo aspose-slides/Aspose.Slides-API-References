@@ -1,15 +1,15 @@
 ---
-title: Позиция
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает или задает позицию направляющей для рисования в пунктах от верхнего левого угла слайда. Чтение/запись Single.
+title: Position
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает или задает позицию направляющей в пунктах от верхнего левого угла слайда. Чтение/запись Single.
 type: docs
 weight: 20
 url: /ru/aspose.slides/drawingguide/position/
 ---
 
-## Свойство DrawingGuide.Position
+## DrawingGuide.Position свойство
 
-Возвращает или задает позицию направляющей для рисования в пунктах от верхнего левого угла слайда. Чтение/запись Single.
+Возвращает или задает позицию направляющей в пунктах от верхнего левого угла слайда. Чтение/запись Single.
 
 ```csharp
 public float Position { get; set; }

@@ -1,21 +1,21 @@
 ---
 title: Reveal
 second_title: Справочник по API Aspose.Sildes для .NET
-description: Представляет эффект, поведение которого должно скрывать/показывать вход/выход Read/write FilterEffectRevealTypeaspose.slides.animation/filtereffectrevealtype.
+description: Представляет, что эффект с поведением должен раскрывать вход/выход Чтение/запись FilterEffectRevealTypeaspose.slides.animation/filtereffectrevealtype.
 type: docs
 weight: 20
 url: /ru/aspose.slides.animation/filtereffect/reveal/
 ---
 
-## Свойство FilterEffect.Reveal
+## FilterEffect.Reveal свойство
 
-Представляет эффект, поведение которого должно скрывать (вход/выход) Read/write [`FilterEffectRevealType`](../../filtereffectrevealtype).
+Представляет, что эффект с поведением должен раскрывать (вход/выход) Чтение/запись [`FilterEffectRevealType`](../../filtereffectrevealtype).
 
 ```csharp
 public FilterEffectRevealType Reveal { get; set; }
 ```
 
-### См. также
+### Также смотри
 
 * enum [FilterEffectRevealType](../../filtereffectrevealtype)
 * class [FilterEffect](../../filtereffect)

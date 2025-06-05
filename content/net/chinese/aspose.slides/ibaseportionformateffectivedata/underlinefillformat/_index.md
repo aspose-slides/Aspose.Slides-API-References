@@ -1,6 +1,6 @@
 ---
 title: UnderlineFillFormat
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回下划线填充格式属性。只读 IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata。
 type: docs
 weight: 260
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ibaseportionformateffectivedata/underlinefillformat/
 public IFillFormatEffectiveData UnderlineFillFormat { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IFillFormatEffectiveData](../../ifillformateffectivedata)
 * 接口 [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)

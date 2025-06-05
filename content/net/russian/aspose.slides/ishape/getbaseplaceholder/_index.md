@@ -1,7 +1,7 @@
 ---
 title: GetBasePlaceholder
-second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает базовую фигуру-заместитель из макета и/или основного слайда, от которого унаследована текущая фигура. Возвращается null, если текущая фигура не унаследована.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает базовую форму заполнителя из макета и/или главного слайда, от которого наследуется текущая форма. Если текущая форма не наследуется, возвращается null.
 type: docs
 weight: 310
 url: /ru/aspose.slides/ishape/getbaseplaceholder/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ishape/getbaseplaceholder/
 
 ## IShape.GetBasePlaceholder метод
 
-Возвращает базовую фигуру-заместитель (фигуру из макета и/или основного слайда, от которой унаследована текущая фигура). Возвращается null, если текущая фигура не унаследована.
+Возвращает базовую форму заполнителя (форму из макета и/или главного слайда, от которого наследуется текущая форма). Если текущая форма не наследуется, возвращается null.
 
 ```csharp
 public IShape GetBasePlaceholder()
@@ -19,7 +19,7 @@ public IShape GetBasePlaceholder()
 
 ```csharp
 [C#]
-// получить все (основные/макетные/слайдовые) анимационные эффекты фигуры-заместителя
+// получить все (главные/макетные/слайдовые) анимационные эффекты формы заполнителя
 using (Presentation pres = new Presentation("sample.pptx"))
 {
     ISlide slide = pres.Slides[0];
@@ -34,7 +34,7 @@ using (Presentation pres = new Presentation("sample.pptx"))
 }
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [IShape](../../ishape)
 * пространство имен [Aspose.Slides](../../ishape)

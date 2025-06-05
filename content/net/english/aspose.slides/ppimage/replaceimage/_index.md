@@ -6,7 +6,8 @@ type: docs
 weight: 110
 url: /aspose.slides/ppimage/replaceimage/
 ---
-## ReplaceImage(byte[]) {#replaceimage_1}
+
+## ReplaceImage(byte[]) {#replaceimage_2}
 
 Replaces image data. The new image's data.When newImageData parameter is null.
 
@@ -22,23 +23,24 @@ public void ReplaceImage(byte[] newImageData)
 
 ---
 
-## ReplaceImage(Image) {#replaceimage_2}
+## ReplaceImage(IImage) {#replaceimage}
 
-Replaces image data. Attention: when Image is metafile - it will be rasterized due to restrictions of GDI+. Use ReplaceImage(byte[]) instead The new image.When newImage parameter is null.
+Replaces image data. Attention: when Image is metafile - it will be rasterized. Use ReplaceImage(byte[]) instead The new image.When newImage parameter is null.
 
 ```csharp
-public void ReplaceImage(Image newImage)
+public void ReplaceImage(IImage newImage)
 ```
 
 ### See Also
 
+* interface [IImage](../../iimage)
 * class [PPImage](../../ppimage)
 * namespace [Aspose.Slides](../../ppimage)
 * assembly [Aspose.Slides](../../../)
 
 ---
 
-## ReplaceImage(IPPImage) {#replaceimage}
+## ReplaceImage(IPPImage) {#replaceimage_1}
 
 Replaces image data. The new IPPImage.When newImage parameter is null.
 

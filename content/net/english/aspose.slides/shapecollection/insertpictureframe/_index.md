@@ -6,6 +6,7 @@ type: docs
 weight: 360
 url: /aspose.slides/shapecollection/insertpictureframe/
 ---
+
 ## ShapeCollection.InsertPictureFrame method
 
 Creates a new PictureFrame and inserts it to the collection at the specified index.

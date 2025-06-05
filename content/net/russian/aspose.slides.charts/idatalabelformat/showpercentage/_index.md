@@ -1,15 +1,15 @@
 ---
 title: ShowPercentage
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Описывает поведение отображения процентного значения метки данных заданного графика. True отображает процентное значение. False - скрыть. Чтение/запись логическое значение.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет поведение отображения значения процента метки данных указанного графика. True отображает значение процента. False скрывает. Читаемое/записываемое логическое значение.
 type: docs
 weight: 130
 url: /ru/aspose.slides.charts/idatalabelformat/showpercentage/
 ---
 
-## Свойство IDataLabelFormat.ShowPercentage
+## IDataLabelFormat.ShowPercentage свойство
 
-Описывает поведение отображения процентного значения метки данных заданного графика. True отображает процентное значение. False - скрыть. Чтение/запись логическое значение.
+Представляет поведение отображения значения процента метки данных указанного графика. True отображает значение процента. False скрывает. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool ShowPercentage { get; set; }
@@ -17,7 +17,7 @@ public bool ShowPercentage { get; set; }
 
 ### Примечания
 
-Если родителем этого объекта DataLabelFormat является коллекция DataLabelCollection меток данных, то это свойство получает или устанавливает значение по умолчанию для свойства ShowPercentage для новых меток данных в коллекции DataLabelCollection. Установка этого свойства с значением также устанавливает это значение для свойства ShowPercentage для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.ShowPercentage = val;" приведет к тому, что все DataLabels[i].ShowPercentage будут равны val).
+Если родителем этого объекта DataLabelFormat является коллекция DataLabelCollection меток данных, то это свойство получает или задает значение по умолчанию для свойства ShowPercentage для новых меток данных в коллекции DataLabelCollection. Установив это свойство со значением, вы также устанавливаете это значение для свойства ShowPercentage для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.ShowPercentage = val;" вызывает равенство всех DataLabels[i].ShowPercentage значению val).
 
 ### Смотрите также
 

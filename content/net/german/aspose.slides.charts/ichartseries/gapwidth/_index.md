@@ -1,7 +1,7 @@
 ---
 title: GapWidth
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Abstand zwischen Balken- oder Säulengruppen als Prozentsatz der Breite des Balkens oder der Säule an. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist eine Projektion der entsprechenden Gruppeneigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die Eigenschaft ParentSeriesGroup, um auf die übergeordnete Seriengruppe zuzugreifen. Verwenden Sie die lesbare/schreibbare Eigenschaft ParentSeriesGroup.GapWidth, um den Wert zu ändern. Schreibgeschützter Int32.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Abstand zwischen Balken- oder Säulengruppen als Prozentsatz der Breite des Balkens oder der Säule an. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist die Projektion der entsprechenden Gruppeneigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die ParentSeriesGroup-Eigenschaft, um auf die übergeordnete Seriengruppe zuzugreifen. Verwenden Sie die ParentSeriesGroup.GapWidth-Lese-/Schreib-Eigenschaft, um den Wert zu ändern. Schreibgeschützter Int32.
 type: docs
 weight: 130
 url: /de/aspose.slides.charts/ichartseries/gapwidth/
@@ -9,17 +9,17 @@ url: /de/aspose.slides.charts/ichartseries/gapwidth/
 
 ## IChartSeries.GapWidth-Eigenschaft
 
-Gibt den Abstand zwischen Balken- oder Säulengruppen als Prozentsatz der Breite des Balkens oder der Säule an. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist eine Projektion der entsprechenden Gruppeneigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die Eigenschaft ParentSeriesGroup, um auf die übergeordnete Seriengruppe zuzugreifen. Verwenden Sie die lesbare/schreibbare Eigenschaft ParentSeriesGroup.GapWidth, um den Wert zu ändern. Schreibgeschützter Int32.
+Gibt den Abstand zwischen Balken- oder Säulengruppen als Prozentsatz der Breite des Balkens oder der Säule an. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist die Projektion der entsprechenden Gruppeneigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die ParentSeriesGroup-Eigenschaft, um auf die übergeordnete Seriengruppe zuzugreifen. Verwenden Sie die ParentSeriesGroup.GapWidth-Lese-/Schreib-Eigenschaft, um den Wert zu ändern. Schreibgeschützter Int32.
 
 ```csharp
 public int GapWidth { get; }
 ```
 
-### Anmerkungen
+### Bemerkungen
 
 Dies ist die Projektion der Eigenschaft ParentSeriesGroup.GapWidth.
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IChartSeries](../../ichartseries)
 * Namespace [Aspose.Slides.Charts](../../ichartseries)

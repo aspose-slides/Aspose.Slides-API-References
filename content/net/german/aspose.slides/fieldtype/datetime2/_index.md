@@ -1,7 +1,7 @@
 ---
 title: DateTime2
-second_title: Aspose.Slides für .NET API-Referenz
-description: Aktuelles Datum und Uhrzeit in einem zweiten vordefinierten Format Tag Monat DD YYYY für Englisch. Schreibgeschützter FieldType aspose.slides/fieldtype.
+second_title: Aspose.Slides for .NET API Referenz
+description: Aktuelles Datum und Uhrzeit in einem zweiten vordefinierten Format Tag Monat DD YYYY für Englisch. Schreibgeschützter FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 80
 url: /de/aspose.slides/fieldtype/datetime2/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/fieldtype/datetime2/
 
 ## FieldType.DateTime2-Eigenschaft
 
-Aktuelles Datum und Uhrzeit in einem zweiten vordefinierten Format (Tag, Monat DD, YYYY für Englisch). Schreibgeschützte [`FieldType`](../../fieldtype).
+Aktuelles Datum und Uhrzeit in einem zweiten vordefinierten Format (Tag, Monat DD, YYYY für Englisch). Schreibgeschützter [`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType DateTime2 { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [FieldType](../../fieldtype)
 * Namespace [Aspose.Slides](../../fieldtype)

@@ -1,7 +1,7 @@
 ---
 title: SoftEdge
-second_title: Aspose.Slides для .NET API Reference
-description: Представляет эффект мягкого края. Края фигуры размыты, в то время как заливка не затрагивается.
+second_title: Aspose.Sildes для справки по API .NET
+description: Представляет эффект мягкого края. Края формы размыты, в то время как заливка не затрагивается.
 type: docs
 weight: 3530
 url: /ru/aspose.slides.effects/softedge/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/softedge/
 
 ## Класс SoftEdge
 
-Представляет эффект мягкого края. Края фигуры размыты, в то время как заливка не затрагивается.
+Представляет эффект мягкого края. Края формы размыты, в то время как заливка не затрагивается.
 
 ```csharp
 public sealed class SoftEdge : ISoftEdge
@@ -17,17 +17,17 @@ public sealed class SoftEdge : ISoftEdge
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | Указывает радиус размытия, который нужно применить к краям. Чтение/запись Double. |
+| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | Указывает радиус размытия, который необходимо применить к краям. Читаемый/записываемый Double. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/softedge/equals)(object) | Определяет, равен ли указанный [`SoftEdge`](../softedge) текущему [`SoftEdge`](../softedge). |
-| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Получает данные эффекта Soft Edge с применённым наследованием. |
-| override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | Служит хеш-функцией для конкретного типа. |
+| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Получает данные эффективного эффекта мягкого края с примененной наследуемостью. |
+| override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | Служит хэш-функцией для данного типа. |
 
 ### См. также
 

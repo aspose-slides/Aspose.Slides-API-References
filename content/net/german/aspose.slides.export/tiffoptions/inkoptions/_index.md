@@ -1,13 +1,13 @@
 ---
 title: InkOptions
 second_title: Aspose.Slides für .NET API Referenz
-description: Bietet Optionen, die das Aussehen von Ink-Objekten im exportierten Dokument steuern. Schreibgeschützte IInkOptionsaspose.slides.export/iinkoptions
+description: Bietet Optionen, die das Aussehen von Ink-Objekten im exportierten Dokument steuern. Schreibgeschütztes IInkOptionsaspose.slides/iinkoptions
 type: docs
 weight: 70
 url: /de/aspose.slides.export/tiffoptions/inkoptions/
 ---
 
-## TiffOptions.InkOptions-Eigenschaft
+## TiffOptions.InkOptions Eigenschaft
 
 Bietet Optionen, die das Aussehen von Ink-Objekten im exportierten Dokument steuern. Schreibgeschützt [`IInkOptions`](../../iinkoptions)
 
@@ -15,7 +15,7 @@ Bietet Optionen, die das Aussehen von Ink-Objekten im exportierten Dokument steu
 public IInkOptions InkOptions { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IInkOptions](../../iinkoptions)
 * Klasse [TiffOptions](../../tiffoptions)

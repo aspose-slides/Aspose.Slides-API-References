@@ -1,15 +1,15 @@
 ---
-title: Высота
-second_title: Справочная информация по API Aspose.Slides для .NET
-description: Возвращает высоту строки. Свойство только для чтения Double.
+title: Height
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает высоту строки. Только для чтения Double.
 type: docs
 weight: 10
 url: /ru/aspose.slides/row/height/
 ---
 
-## Свойство Row.Height
+## Row.Height свойство
 
-Возвращает высоту строки. Свойство только для чтения Double.
+Возвращает высоту строки. Только для чтения Double.
 
 ```csharp
 public double Height { get; }

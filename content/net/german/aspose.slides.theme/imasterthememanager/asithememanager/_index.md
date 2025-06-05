@@ -1,7 +1,7 @@
 ---
 title: AsIThemeManager
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf die Basis-IThemeManager-Schnittstelle. Nur-lesbare IThemeManageraspose.slides.theme/ithememanager.
+description: Ermöglicht den Zugriff auf die Basis-IThemeManager-Schnittstelle. Nur-Lese-IThemeManageraspose.slides.theme/ithememanager.
 type: docs
 weight: 10
 url: /de/aspose.slides.theme/imasterthememanager/asithememanager/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.theme/imasterthememanager/asithememanager/
 
 ## IMasterThemeManager.AsIThemeManager-Eigenschaft
 
-Ermöglicht den Zugriff auf die Basis-IThemeManager-Schnittstelle. Nur-lesbare [`IThemeManager`](../../ithememanager).
+Ermöglicht den Zugriff auf die Basis-IThemeManager-Schnittstelle. Nur-Lese [`IThemeManager`](../../ithememanager).
 
 ```csharp
 public IThemeManager AsIThemeManager { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IThemeManager](../../ithememanager)
 * Schnittstelle [IMasterThemeManager](../../imasterthememanager)

@@ -1,13 +1,13 @@
 ---
 title: CompareTo
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Compare l'instance actuelle avec un autre objet du même type.
 type: docs
 weight: 40
 url: /fr/aspose.slides/tab/compareto/
 ---
 
-## Méthode Tab.CompareTo
+## Tab.CompareTo méthode
 
 Compare l'instance actuelle avec un autre objet du même type.
 
@@ -21,7 +21,7 @@ public int CompareTo(object obj)
 
 ### Valeur de Retour
 
-Un entier de 32 bits qui indique l'ordre relatif des comparands. La valeur de retour a les significations suivantes :  &lt; 0 - Cette instance est inférieure à obj. = 0 - Cette instance est égale à obj. &gt; 0 - Cette instance est supérieure à obj.
+Un entier sur 32 bits qui indique l'ordre relatif des comparands. La valeur de retour a les significations suivantes :  &lt; 0 - Cette instance est inférieure à obj. = 0 - Cette instance est égale à obj. &gt; 0 - Cette instance est supérieure à obj.
 
 ### Voir Aussi
 

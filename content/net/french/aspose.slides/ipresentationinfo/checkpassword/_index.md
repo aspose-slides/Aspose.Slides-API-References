@@ -1,6 +1,6 @@
 ---
-title: VérifierMotDePasse
-second_title: Référence API Aspose.Slides pour .NET
+title: CheckPassword
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Vérifie si un mot de passe est correct pour une présentation protégée par un mot de passe ouvert.
 type: docs
 weight: 50
@@ -21,11 +21,11 @@ public bool CheckPassword(string password)
 
 ### Valeur de retour
 
-Vrai si la présentation est protégée par un mot de passe ouvert et que le mot de passe est correct, et faux dans le cas contraire.
+Vrai si la présentation est protégée par un mot de passe ouvert et que le mot de passe est correct, faux sinon.
 
 ### Remarques
 
-Lorsque le mot de passe est nul ou vide, cette méthode retourne faux.
+Lorsque le mot de passe est null ou vide, cette méthode renvoie faux.
 
 ### Exemples
 

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/iresourceloadingargs/originaluri/
 ---
+
 ## IResourceLoadingArgs.OriginalUri property
 
 Original URI of the resource as specified in imported presentation.

@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.mathtext/mathparagraph/indexof/
 ---
+
 ## MathParagraph.IndexOf method
 
 Determines the index of a specific IMathBlock in collection.

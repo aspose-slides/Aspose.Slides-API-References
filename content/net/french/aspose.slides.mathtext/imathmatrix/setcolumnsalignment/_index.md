@@ -1,13 +1,13 @@
 ---
 title: SetColumnsAlignment
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence de l'API .NET
 description: Définir l'alignement horizontal des colonnes spécifiées
 type: docs
 weight: 200
 url: /fr/aspose.slides.mathtext/imathmatrix/setcolumnsalignment/
 ---
 
-## Méthode IMathMatrix.SetColumnsAlignment
+## IMathMatrix.SetColumnsAlignment method
 
 Définir l'alignement horizontal des colonnes spécifiées
 
@@ -31,7 +31,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.SetColumnAlignment(0, 3, MathHorizontalAlignment.Left);
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [MathHorizontalAlignment](../../mathhorizontalalignment)
 * interface [IMathMatrix](../../imathmatrix)

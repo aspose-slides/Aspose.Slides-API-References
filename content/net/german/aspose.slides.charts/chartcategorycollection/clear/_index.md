@@ -1,5 +1,5 @@
 ---
-title: Löschen
+title: Clear
 second_title: Aspose.Slides für .NET API-Referenz
 description: Entfernt alle Elemente aus der Sammlung.
 type: docs
@@ -7,7 +7,7 @@ weight: 80
 url: /de/aspose.slides.charts/chartcategorycollection/clear/
 ---
 
-## ChartCategoryCollection.Clear-Methode
+## ChartCategoryCollection.Clear Methode
 
 Entfernt alle Elemente aus der Sammlung.
 

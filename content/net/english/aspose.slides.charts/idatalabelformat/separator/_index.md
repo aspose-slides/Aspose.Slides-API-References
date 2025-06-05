@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.charts/idatalabelformat/separator/
 ---
+
 ## IDataLabelFormat.Separator property
 
 Sets or returns a Variant representing the separator used for the data labels on a chart. Read/write String.

@@ -19,18 +19,18 @@ public interface IPictureFillFormatEffectiveData : IFillParamSource
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ipicturefillformateffectivedata/asifillparamsource) { get; } | 允许获取基本的 IFillParamSource 接口。只读 [`IFillParamSource`](../ifillparamsource)。 |
-| [CropBottom](../../aspose.slides/ipicturefillformateffectivedata/cropbottom) { get; } | 返回从图片底部裁剪掉的实际图像高度的百分比。只读 Single。 |
-| [CropLeft](../../aspose.slides/ipicturefillformateffectivedata/cropleft) { get; } | 返回从图片左侧裁剪掉的实际图像宽度的百分比。只读 Single。 |
-| [CropRight](../../aspose.slides/ipicturefillformateffectivedata/cropright) { get; } | 返回从图片右侧裁剪掉的实际图像宽度的百分比。只读 Single。 |
-| [CropTop](../../aspose.slides/ipicturefillformateffectivedata/croptop) { get; } | 返回从图片顶部裁剪掉的实际图像高度的百分比。只读 Single。 |
-| [Dpi](../../aspose.slides/ipicturefillformateffectivedata/dpi) { get; } | 返回用于填充图片的 dpi。只读 Int32。 |
+| [AsIFillParamSource](../../aspose.slides/ipicturefillformateffectivedata/asifillparamsource) { get; } | 允许获取基础 IFillParamSource 接口。只读 [`IFillParamSource`](../ifillparamsource)。 |
+| [CropBottom](../../aspose.slides/ipicturefillformateffectivedata/cropbottom) { get; } | 返回从图片底部裁剪掉的真实图像高度的百分比。只读 Single。 |
+| [CropLeft](../../aspose.slides/ipicturefillformateffectivedata/cropleft) { get; } | 返回从图片左侧裁剪掉的真实图像宽度的百分比。只读 Single。 |
+| [CropRight](../../aspose.slides/ipicturefillformateffectivedata/cropright) { get; } | 返回从图片右侧裁剪掉的真实图像宽度的百分比。只读 Single。 |
+| [CropTop](../../aspose.slides/ipicturefillformateffectivedata/croptop) { get; } | 返回从图片顶部裁剪掉的真实图像高度的百分比。只读 Single。 |
+| [Dpi](../../aspose.slides/ipicturefillformateffectivedata/dpi) { get; } | 返回用来填充图片的 dpi 值。只读 Int32。 |
 | [Picture](../../aspose.slides/ipicturefillformateffectivedata/picture) { get; } | 返回图片。只读 [`IPictureEffectiveData`](../ipictureeffectivedata)。 |
 | [PictureFillMode](../../aspose.slides/ipicturefillformateffectivedata/picturefillmode) { get; } | 返回图片填充模式。只读 [`PictureFillMode`](../picturefillmode)。 |
 
 ### 备注
 
-此接口作为 [`IFillFormatEffectiveData`](../ifillformateffectivedata) 的一部分使用。
+该接口作为 [`IFillFormatEffectiveData`](../ifillformateffectivedata) 的一部分使用。
 
 ### 另请参见
 

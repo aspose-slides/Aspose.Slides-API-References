@@ -1,7 +1,7 @@
 ---
 title: IsSynchronized
 second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie une valeur indiquant si l'accès à la collection est synchronisé et sécurisé pour les threads. Propriété booléenne en lecture seule.
+description: Renvoie une valeur indiquant si l'accès à la collection est synchronisé et sécurisé pour les threads. Booléen en lecture seule.
 type: docs
 weight: 20
 url: /fr/aspose.slides.vba/vbamodulecollection/issynchronized/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.vba/vbamodulecollection/issynchronized/
 
 ## Propriété VbaModuleCollection.IsSynchronized
 
-Renvoie une valeur indiquant si l'accès à la collection est synchronisé (sécurisé pour les threads). Propriété booléenne en lecture seule.
+Renvoie une valeur indiquant si l'accès à la collection est synchronisé (sécurisé pour les threads). Booléen en lecture seule.
 
 ```csharp
 public bool IsSynchronized { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [VbaModuleCollection](../../vbamodulecollection)
 * espace de noms [Aspose.Slides.Vba](../../vbamodulecollection)

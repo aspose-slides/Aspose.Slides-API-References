@@ -1,24 +1,24 @@
 ---
-title: Rotación
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve el número de grados que un marco está rotado alrededor del eje z. Un valor positivo indica rotación en el sentido de las agujas del reloj, un valor negativo indica rotación en sentido contrario. Sólo lectura Single.
+title: Rotation
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Devuelve el número de grados que un marco está rotado alrededor del eje z. Un valor positivo indica rotación en el sentido de las agujas del reloj; un valor negativo indica rotación en sentido antihorario. Solo lectura Single.
 type: docs
 weight: 80
 url: /es/aspose.slides/shapeframe/rotation/
 ---
 
-## Propiedad ShapeFrame.Rotation
+## ShapeFrame.Rotation property
 
-Devuelve el número de grados que un marco está rotado alrededor del eje z. Un valor positivo indica rotación en el sentido de las agujas del reloj; un valor negativo indica rotación en sentido contrario. Sólo lectura Single.
+Devuelve el número de grados que un marco está rotado alrededor del eje z. Un valor positivo indica rotación en el sentido de las agujas del reloj; un valor negativo indica rotación en sentido antihorario. Solo lectura Single.
 
 ```csharp
 public float Rotation { get; }
 ```
 
-### Véase también
+### See Also
 
-* clase [ShapeFrame](../../shapeframe)
-* espacio de nombres [Aspose.Slides](../../shapeframe)
-* ensamblado [Aspose.Slides](../../../)
+* class [ShapeFrame](../../shapeframe)
+* namespace [Aspose.Slides](../../shapeframe)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

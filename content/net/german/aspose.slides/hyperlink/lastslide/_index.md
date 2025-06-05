@@ -1,7 +1,7 @@
 ---
 title: LastSlide
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen Hyperlink zur letzten Folie der Präsentation zurück. Nur-Lese-Hyperlinkaspose.slides/hyperlink.
+description: Gibt einen Hyperlink zur letzten Folie der Präsentation zurück. Nur-Lese Hyperlinkaspose.slides/hyperlink.
 type: docs
 weight: 40
 url: /de/aspose.slides/hyperlink/lastslide/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/hyperlink/lastslide/
 
 ## Hyperlink.LastSlide-Eigenschaft
 
-Gibt einen Hyperlink zur letzten Folie der Präsentation zurück. Nur-Lese- [`Hyperlink`](../../hyperlink).
+Gibt einen Hyperlink zur letzten Folie der Präsentation zurück. Nur-Lese [`Hyperlink`](../../hyperlink).
 
 ```csharp
 public static Hyperlink LastSlide { get; }

@@ -1,7 +1,7 @@
 ---
-title: 输出路径
-second_title: Aspose.Slides for .NET API 参考
-description: 确定外部资源应该存储的位置。可读/可写字符串。
+title: OutputPath
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定外部资源应该存储的位置。可读写字符串。
 type: docs
 weight: 60
 url: /zh/aspose.slides.export/ihtml5options/outputpath/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/ihtml5options/outputpath/
 
 ## IHtml5Options.OutputPath 属性
 
-确定外部资源应该存储的位置。可读/可写字符串。
+确定外部资源应该存储的位置。可读写字符串。
 
 ```csharp
 public string OutputPath { get; set; }
@@ -31,7 +31,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IHtml5Options](../../ihtml5options)
 * 命名空间 [Aspose.Slides.Export](../../ihtml5options)

@@ -1,13 +1,13 @@
 ---
-title: Время
-second_title: Справочник по Aspose.Slides для .NET
+title: Time
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет значение времени. Чтение/запись Single.
 type: docs
 weight: 20
 url: /ru/aspose.slides.animation/ipoint/time/
 ---
 
-## Свойство IPoint.Time
+## IPoint.Time свойство
 
 Представляет значение времени. Чтение/запись Single.
 

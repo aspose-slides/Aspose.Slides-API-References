@@ -1,7 +1,7 @@
 ---
-title: Выравнивание
-second_title: Справочник по API Aspose.Slides для .NET
-description: Выравнивание абзаца Значение по умолчанию CenteredAsGroup
+title: Justification
+second_title: Aspose.Sildes для справки по API .NET
+description: Выравнивание абзаца Значение по умолчанию Центрированное как группа
 type: docs
 weight: 40
 url: /ru/aspose.slides.mathtext/mathparagraph/justification/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/mathparagraph/justification/
 
 ## MathParagraph.Justification свойство
 
-Выравнивание абзаца Значение по умолчанию: CenteredAsGroup
+Выравнивание абзаца Значение по умолчанию: Центрированное как группа
 
 ```csharp
 public MathJustification Justification { get; set; }
@@ -26,7 +26,7 @@ IMathParagraph mathParagraph = (shape.TextFrame.Paragraphs[0].Portions[0] as Mat
 mathParagraph.Justification = MathJustification.LeftJustified;
 ```
 
-### Также см.
+### См. также
 
 * enum [MathJustification](../../mathjustification)
 * class [MathParagraph](../../mathparagraph)

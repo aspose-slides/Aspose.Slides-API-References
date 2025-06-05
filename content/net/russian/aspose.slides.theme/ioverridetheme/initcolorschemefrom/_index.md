@@ -1,7 +1,7 @@
 ---
 title: InitColorSchemeFrom
-second_title: Aspose.Slides для .NET API Справочник
-description: Инициализировать ColorScheme с новым объектом для переопределения ColorScheme наследованной темы.
+second_title: Aspose.Sildes для .NET API Reference
+description: Инициализирует ColorScheme с новым объектом для переопределения ColorScheme у InheritedTheme.
 type: docs
 weight: 50
 url: /ru/aspose.slides.theme/ioverridetheme/initcolorschemefrom/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.theme/ioverridetheme/initcolorschemefrom/
 
 ## IOverrideTheme.InitColorSchemeFrom метод
 
-Инициализировать ColorScheme с новым объектом для переопределения ColorScheme наследованной темы.
+Инициализирует ColorScheme с новым объектом для переопределения ColorScheme у InheritedTheme.
 
 ```csharp
 public void InitColorSchemeFrom(IColorScheme colorScheme)
@@ -21,7 +21,7 @@ public void InitColorSchemeFrom(IColorScheme colorScheme)
 
 ### Исключения
 
-| исключение | условие |
+| exception | condition |
 | --- | --- |
 | InvalidOperationException | Вызывается, если ColorScheme уже инициализирован (не null). |
 | ArgumentNullException | Вызывается, если параметр colorScheme равен null. |

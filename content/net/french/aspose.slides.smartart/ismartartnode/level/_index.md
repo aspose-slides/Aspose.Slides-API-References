@@ -1,7 +1,7 @@
 ---
-title: Niveau
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie le niveau d'imbrication du nœud. En lecture seule Int32.
+title: Level
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Renvoie le niveau de nidification du nœud. En lecture seule Int32.
 type: docs
 weight: 50
 url: /fr/aspose.slides.smartart/ismartartnode/level/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.smartart/ismartartnode/level/
 
 ## Propriété ISmartArtNode.Level
 
-Renvoie le niveau d'imbrication du nœud. En lecture seule Int32.
+Renvoie le niveau de nidification du nœud. En lecture seule Int32.
 
 ```csharp
 public int Level { get; }

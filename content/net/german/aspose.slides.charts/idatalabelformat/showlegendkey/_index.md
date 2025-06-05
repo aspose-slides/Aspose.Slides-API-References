@@ -1,7 +1,7 @@
 ---
 title: ShowLegendKey
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt das Verhalten der Anzeige des Legenden-Schlüssels für bestimmte Datenbeschriftungen eines Diagramms dar. Wahr, wenn der Legenden-Schlüssel der Datenbeschriftung sichtbar ist. Lese-/Schreib-Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt das Verhalten der Anzeige des Legenden-Schlüssels für die Datenbeschriftung eines bestimmten Diagramms dar. Wahr, wenn der Legenden-Schlüssel der Datenbeschriftung sichtbar ist. Lese-/Schreib-Boolean.
 type: docs
 weight: 120
 url: /de/aspose.slides.charts/idatalabelformat/showlegendkey/
@@ -15,9 +15,9 @@ Stellt das Verhalten der Anzeige des Legenden-Schlüssels für die Datenbeschrif
 public bool ShowLegendKey { get; set; }
 ```
 
-### Anmerkungen
+### Bemerkungen
 
-Wenn der Elternteil dieses DataLabelFormat-Objekts eine DataLabelCollection-Sammlung von Datenbeschriftungen ist, dann erhält oder setzt diese Eigenschaft den Standardwert der ShowLegendKey-Eigenschaft für die neuen Datenbeschriftungen in der DataLabelCollection-Sammlung. Das Setzen dieser Eigenschaft mit einem Wert setzt auch diesen Wert für die ShowLegendKey-Eigenschaft für alle Datenbeschriftungen in der DataLabelCollection-Sammlung (d.h. "DataLabels.DefaultDataLabelFormat.ShowLegendKey = val;" führt dazu, dass alle DataLabels[i].ShowLegendKey gleich val ist).
+Wenn der übergeordnete Teil dieses DataLabelFormat-Objekts eine DataLabelCollection-Sammlung von Datenbeschriftungen ist, dann wird diese Eigenschaft verwendet, um den Standardwert der ShowLegendKey-Eigenschaft für die neuen Datenbeschriftungen in der DataLabelCollection-Sammlung zu erhalten oder zu setzen. Das Setzen dieser Eigenschaft mit einem Wert setzt auch diesen Wert für die ShowLegendKey-Eigenschaft für alle Datenbeschriftungen in der DataLabelCollection-Sammlung (d.h. "DataLabels.DefaultDataLabelFormat.ShowLegendKey = val;" sorgt dafür, dass alle DataLabels[i].ShowLegendKey gleich val ist).
 
 ### Siehe Auch
 

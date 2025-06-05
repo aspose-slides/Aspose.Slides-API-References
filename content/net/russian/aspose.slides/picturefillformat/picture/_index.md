@@ -1,7 +1,7 @@
 ---
-title: Картинка
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает картинку. Только для чтения ISlidesPictureaspose.slides/islidespicture.
+title: Picture
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает изображение. Только для чтения ISlidesPicture aspose.slides/islidespicture.
 type: docs
 weight: 60
 url: /ru/aspose.slides/picturefillformat/picture/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/picturefillformat/picture/
 
 ## PictureFillFormat.Picture свойство
 
-Возвращает картинку. Только для чтения [`ISlidesPicture`](../../islidespicture).
+Возвращает изображение. Только для чтения [`ISlidesPicture`](../../islidespicture).
 
 ```csharp
 public ISlidesPicture Picture { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [ISlidesPicture](../../islidespicture)
 * класс [PictureFillFormat](../../picturefillformat)

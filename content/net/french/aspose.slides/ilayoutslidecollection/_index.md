@@ -25,9 +25,9 @@ public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>
 
 | Nom | Description |
 | --- | --- |
-| [GetByType](../../aspose.slides/ilayoutslidecollection/getbytype)(SlideLayoutType) | Renvoie la première diapositive de mise en page du type spécifié. |
-| [Remove](../../aspose.slides/ilayoutslidecollection/remove)(ILayoutSlide) | Supprime une diapositive de la collection. |
-| [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | Supprime les diapositives de mise en page non utilisées (les diapositives de mise en page dont HasDependingSlides est faux). |
+| [GetByType](../../aspose.slides/ilayoutslidecollection/getbytype)(SlideLayoutType) | Renvoie la première diapositive de mise en page de type spécifié. |
+| [Remove](../../aspose.slides/ilayoutslidecollection/remove)(ILayoutSlide) | Supprime une mise en page de la collection. |
+| [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | Supprime les diapositives de mise en page non utilisées (diapositives de mise en page dont HasDependingSlides est faux). |
 
 ### Voir Aussi
 

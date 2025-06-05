@@ -1,6 +1,6 @@
 ---
 title: AsIFormattedTextContainer
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Позволяет получить базовый интерфейс IFormattedTextContainer. Только для чтения IFormattedTextContainer aspose.slides.charts/iformattedtextcontainer.
 type: docs
 weight: 10

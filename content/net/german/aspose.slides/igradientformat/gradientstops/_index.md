@@ -1,7 +1,7 @@
 ---
 title: GradientStops
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Sammlung der Farbverläufe zurück. Nur-Lese IGradientStopCollectionaspose.slides/igradientstopcollection.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Sammlung der Farbverlaufsstops zurück. Nur lesbare IGradientStopCollectionaspose.slides/igradientstopcollection.
 type: docs
 weight: 40
 url: /de/aspose.slides/igradientformat/gradientstops/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/igradientformat/gradientstops/
 
 ## IGradientFormat.GradientStops-Eigenschaft
 
-Gibt die Sammlung der Farbverläufe zurück. Nur-Lese [`IGradientStopCollection`](../../igradientstopcollection).
+Gibt die Sammlung der Farbverlaufsstops zurück. Nur lesbar [`IGradientStopCollection`](../../igradientstopcollection).
 
 ```csharp
 public IGradientStopCollection GradientStops { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IGradientStopCollection](../../igradientstopcollection)
 * Schnittstelle [IGradientFormat](../../igradientformat)

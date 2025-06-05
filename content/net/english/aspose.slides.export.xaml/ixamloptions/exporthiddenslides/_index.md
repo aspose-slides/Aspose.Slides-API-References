@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.export.xaml/ixamloptions/exporthiddenslides/
 ---
+
 ## IXamlOptions.ExportHiddenSlides property
 
 Determines whether hidden slides will be exported.

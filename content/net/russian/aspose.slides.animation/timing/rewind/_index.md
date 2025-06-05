@@ -1,15 +1,15 @@
 ---
-title: Перемотка
+title: Rewind
 second_title: Aspose.Sildes для .NET API Справочник
-description: Этот атрибут указывает, будет ли эффект перематываться по завершении воспроизведения. Читаемое/записываемое логическое значение.
+description: Этот атрибут указывает, будет ли эффект откатываться после завершения воспроизведения. Читаемое/записываемое логическое значение.
 type: docs
 weight: 100
 url: /ru/aspose.slides.animation/timing/rewind/
 ---
 
-## Свойство Timing.Rewind
+## Timing.Rewind свойство
 
-Этот атрибут указывает, будет ли эффект перематываться по завершении воспроизведения. Читаемое/записываемое логическое значение.
+Этот атрибут указывает, будет ли эффект откатываться после завершения воспроизведения. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool Rewind { get; set; }
@@ -20,18 +20,18 @@ public bool Rewind { get; set; }
 ```csharp
 using (Presentation presentation = new Presentation("demo.pptx"))
 {
-    // Получить последовательность эффектов для первого слайда
+    // Получаем последовательность эффектов для первого слайда
     ISequence effectsSequence = presentation.Slides[0].Timeline.MainSequence;
 
-    // Получить первый эффект основной последовательности.
+    // Получаем первый эффект основной последовательности.
     IEffect effect = effectsSequence[0];
 
-    // Включить перемотку для эффекта Timing/Rewind.
+    // Включаем эффект Timing/Rewind.
     effect.Timing.Rewind = true;
 }
 ```
 
-### См. Также
+### См. также
 
 * класс [Timing](../../timing)
 * пространство имен [Aspose.Slides.Animation](../../timing)

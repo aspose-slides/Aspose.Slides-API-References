@@ -3,9 +3,10 @@ title: PlaceholderSize
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the size of a placeholder.
 type: docs
-weight: 8840
+weight: 9170
 url: /aspose.slides/placeholdersize/
 ---
+
 ## PlaceholderSize enumeration
 
 Represents the size of a placeholder.

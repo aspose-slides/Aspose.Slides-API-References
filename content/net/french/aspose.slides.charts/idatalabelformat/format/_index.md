@@ -1,6 +1,6 @@
 ---
 title: Format
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Représente le format de l'étiquette de données. Lecture seule IFormataspose.slides.charts/iformat.
 type: docs
 weight: 20
@@ -17,7 +17,7 @@ public IFormat Format { get; }
 
 ### Remarques
 
-Si le parent de cet objet DataLabelFormat est une collection DataLabelCollection d'étiquettes de données, cette propriété représente le format par défaut pour les nouvelles étiquettes de données dans la collection DataLabelCollection.
+Si le parent de cet objet DataLabelFormat est une collection DataLabelCollection d'étiquettes de données, alors cette propriété représente le format par défaut pour les nouvelles étiquettes de données dans la collection DataLabelCollection.
 
 ### Voir Aussi
 

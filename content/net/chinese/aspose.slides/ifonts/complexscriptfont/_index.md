@@ -1,6 +1,6 @@
 ---
-title: 复杂脚本字体
-second_title: Aspose.Slides for .NET API 参考
+title: ComplexScriptFont
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回或设置复杂脚本字体。可读/写 IFontDataaspose.slides/ifontdata。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ifonts/complexscriptfont/
 public IFontData ComplexScriptFont { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IFontData](../../ifontdata)
 * 接口 [IFonts](../../ifonts)

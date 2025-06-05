@@ -1,7 +1,7 @@
 ---
-title: 所有自定义XML部分
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回演示文稿中的所有自定义数据部分。仅限于 ICustomXmlPartaspose.slides/icustomxmlpart。
+title: AllCustomXmlParts
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回演示文稿中的所有自定义数据部分。只读 ICustomXmlPartaspose.slides/icustomxmlpart。
 type: docs
 weight: 10
 url: /zh/aspose.slides/ipresentation/allcustomxmlparts/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ipresentation/allcustomxmlparts/
 
 ## IPresentation.AllCustomXmlParts 属性
 
-返回演示文稿中的所有自定义数据部分。仅限于 [`ICustomXmlPart`](../../icustomxmlpart)[]。
+返回演示文稿中的所有自定义数据部分。只读 [`ICustomXmlPart`](../../icustomxmlpart)[]。
 
 ```csharp
 public ICustomXmlPart[] AllCustomXmlParts { get; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [ICustomXmlPart](../../icustomxmlpart)
 * 接口 [IPresentation](../../ipresentation)

@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.effects/iimagetransformoperationcollection/addblureffect/
 ---
+
 ## IImageTransformOperationCollection.AddBlurEffect method
 
 Adds the new Blur effect to the end of a collection.

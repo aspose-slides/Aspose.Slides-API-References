@@ -1,6 +1,6 @@
 ---
 title: Light2
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 方案中的第二种浅色。只读 IColorFormataspose.slides/icolorformat。
 type: docs
 weight: 140
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.theme/icolorscheme/light2/
 public IColorFormat Light2 { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IColorFormat](../../../aspose.slides/icolorformat)
 * 接口 [IColorScheme](../../icolorscheme)

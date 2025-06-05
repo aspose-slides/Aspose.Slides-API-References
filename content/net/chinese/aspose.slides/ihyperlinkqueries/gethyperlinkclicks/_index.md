@@ -1,7 +1,7 @@
 ---
 title: GetHyperlinkClicks
-second_title: Aspose.Sildes for .NET API 参考
-description: 获取所有包含非空 HyperlinkClick 的 IHyperlinkContainer 子对象。使用给定的 IHyperlinkContainer 对象，您可以管理其超链接（读取、更新或删除）。请参阅 IHyperlinkContainer 接口。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取所有包含非空 HyperlinkClick 的 IHyperlinkContainer 子对象。使用给定的 IHyperlinkContainer 对象可以管理其超链接（读取、更新或删除）。请参见 IHyperlinkContainer 接口。
 type: docs
 weight: 20
 url: /zh/aspose.slides/ihyperlinkqueries/gethyperlinkclicks/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ihyperlinkqueries/gethyperlinkclicks/
 
 ## IHyperlinkQueries.GetHyperlinkClicks 方法
 
-获取所有包含非空 HyperlinkClick 的 IHyperlinkContainer 子对象。使用给定的 IHyperlinkContainer 对象，您可以管理其超链接（读取、更新或删除）。请参阅 IHyperlinkContainer 接口。
+获取所有包含非空 HyperlinkClick 的 IHyperlinkContainer 子对象。使用给定的 IHyperlinkContainer 对象可以管理其超链接（读取、更新或删除）。请参见 IHyperlinkContainer 接口。
 
 ```csharp
 public IList<IHyperlinkContainer> GetHyperlinkClicks()

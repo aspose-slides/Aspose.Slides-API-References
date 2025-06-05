@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.export/ipresentationanimationplayer/settimeposition/
 ---
+
 ## IPresentationAnimationPlayer.SetTimePosition method
 
 Set the animation time position within the [`Duration`](../duration).

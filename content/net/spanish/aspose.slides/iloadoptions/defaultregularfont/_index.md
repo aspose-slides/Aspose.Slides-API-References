@@ -1,6 +1,6 @@
 ---
 title: DefaultRegularFont
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Devuelve o establece la fuente Regular utilizada en caso de que no se encuentre la fuente de origen. Cadena de lectura y escritura.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ Devuelve o establece la fuente Regular utilizada en caso de que no se encuentre 
 public string DefaultRegularFont { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [ILoadOptions](../../iloadoptions)
 * espacio de nombres [Aspose.Slides](../../iloadoptions)

@@ -1,7 +1,7 @@
 ---
 title: AsIWarningInfo
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie l'interface IWarningInfo. IWarningInfo en lecture seule aspose.slides.warnings/iwarninginfo.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie l'interface IWarningInfo. Lecture seule IWarningInfoaspose.slides.warnings/iwarninginfo.
 type: docs
 weight: 10
 url: /fr/aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarninginfo/
@@ -17,7 +17,7 @@ public IWarningInfo AsIWarningInfo { get; }
 
 ### Remarques
 
-Pour la compatibilité avec COM.
+Pour la compatibilité COM.
 
 ### Voir aussi
 

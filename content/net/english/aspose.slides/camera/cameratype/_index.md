@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/camera/cameratype/
 ---
+
 ## Camera.CameraType property
 
 Camera type. Read/write [`CameraPresetType`](../../camerapresettype).

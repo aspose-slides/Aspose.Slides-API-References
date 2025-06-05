@@ -1,15 +1,15 @@
 ---
 title: DoughnutHoleSize
-second_title: Aspose.Sildes pour .NET Référence API
-description: Spécifie la taille du trou dans un graphique en anneau qui peut être comprise entre 10 et 90 pour cent de la taille de la zone de tracé. Lecture/écriture Octet.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Spécifie la taille du trou dans un graphique en anneau, pouvant varier entre 10 et 90 pour cent de la taille de la zone de tracé. Lecture/écriture Octet.
 type: docs
 weight: 40
 url: /fr/aspose.slides.charts/ichartseriesgroup/doughnutholesize/
 ---
 
-## Propriété IChartSeriesGroup.DoughnutHoleSize
+## IChartSeriesGroup.DoughnutHoleSize property
 
-Spécifie la taille du trou dans un graphique en anneau (peut être comprise entre 10 et 90 pour cent de la taille de la zone de tracé). Lecture/écriture Octet.
+Spécifie la taille du trou dans un graphique en anneau (peut être entre 10 et 90 pour cent de la taille de la zone de tracé). Lecture/écriture Octet.
 
 ```csharp
 public byte DoughnutHoleSize { get; set; }

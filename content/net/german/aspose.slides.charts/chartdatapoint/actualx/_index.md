@@ -1,7 +1,7 @@
 ---
 title: ActualX
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die aktuelle x-Position links des Diagrammelements relativ zur oberen linken Ecke des Diagramms an. Rufen Sie die Methode IChart.ValidateChartLayout auf, um die aktuellen Werte zu erhalten. Lesen Sie Single.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die tatsächliche x-Position links des Diagrammelements relativ zur oberen linken Ecke des Diagramms an. Rufen Sie die Methode IChart.ValidateChartLayout auf, um die tatsächlichen Werte zu erhalten. Lesen Sie Single.
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/chartdatapoint/actualx/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartdatapoint/actualx/
 
 ## ChartDataPoint.ActualX-Eigenschaft
 
-Gibt die aktuelle x-Position (links) des Diagrammelements relativ zur oberen linken Ecke des Diagramms an. Rufen Sie die Methode IChart.ValidateChartLayout() auf, um die aktuellen Werte zu erhalten. Lesen Sie Single.
+Gibt die tatsächliche x-Position (links) des Diagrammelements relativ zur oberen linken Ecke des Diagramms an. Rufen Sie die Methode IChart.ValidateChartLayout() auf, um die tatsächlichen Werte zu erhalten. Lesen Sie Single.
 
 ```csharp
 public float ActualX { get; }

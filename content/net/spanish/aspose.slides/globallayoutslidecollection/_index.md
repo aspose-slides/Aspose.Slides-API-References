@@ -1,48 +1,48 @@
 ---
 title: GlobalLayoutSlideCollection
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa una colección de todas las diapositivas de diseño en la presentación. Extiende la clase LayoutSlideCollection con métodos para agregar/clonar diapositivas de diseño en el contexto de unificar las colecciones individuales de diapositivas de diseño maestro.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa una colección de todas las diapositivas de diseño en la presentación. Extiende la clase LayoutSlideCollection con métodos para agregar/clonar diapositivas de diseño en el contexto de la unión de las colecciones individuales de diapositivas de diseño maestro.
 type: docs
 weight: 4780
 url: /es/aspose.slides/globallayoutslidecollection/
 ---
 
-## Clase GlobalLayoutSlideCollection
+## GlobalLayoutSlideCollection class
 
-Representa una colección de todas las diapositivas de diseño en la presentación. Extiende la clase LayoutSlideCollection con métodos para agregar/clonar diapositivas de diseño en el contexto de unificar las colecciones individuales de diapositivas de diseño maestro.
+Representa una colección de todas las diapositivas de diseño en la presentación. Extiende la clase LayoutSlideCollection con métodos para agregar/clonar diapositivas de diseño en el contexto de la unión de las colecciones individuales de diapositivas de diseño maestro.
 
 ```csharp
 public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection, 
     IGlobalLayoutSlideCollection
 ```
 
-## Propiedades
+## Properties
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Devuelve el número de diapositivas de diseño en una colección. Solo lectura Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (seguro para subprocesos). Solo lectura Boolean. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (seguro para hilos). Solo lectura Boolean. |
 | [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Devuelve la diapositiva de diseño por índice. Solo lectura [`LayoutSlide`](../layoutslide). |
 | [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Devuelve una raíz de sincronización. Solo lectura Object. |
 
-## Métodos
+## Methods
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/globallayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | Agrega una nueva diapositiva de diseño a la presentación. |
 | [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone)(ILayoutSlide) | Agrega una copia de una diapositiva de diseño especificada a la presentación. |
 | [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | Agrega una copia de una diapositiva de diseño especificada a la presentación. |
 | [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Copia todos los elementos de la colección al array especificado. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Devuelve la primera diapositiva de diseño del tipo especificado. Un tipo de diapositiva de diseño a encontrar.[`LayoutSlide`](../layoutslide) con el tipo especificado o null si no se encontraron diseños. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Devuelve la primera diapositiva de diseño del tipo especificado. Un tipo de diapositiva de diseño para encontrar.[`LayoutSlide`](../layoutslide) con el tipo especificado o nulo si no se encontraron diseños. |
 | [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Devuelve un enumerador que itera a través de la colección. |
-| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Elimina una diapositiva del diseño de la colección. |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Elimina las diapositivas de diseño no utilizadas (diapositivas de diseño cuyo HasDependingSlides es falso). |
+| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Elimina una diapositiva de diseño de la colección. |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Elimina las diapositivas de diseño no utilizadas (diapositivas de diseño cuya HasDependingSlides es falsa). |
 
-### Ver También
+### See Also
 
-* clase [LayoutSlideCollection](../layoutslidecollection)
-* interfaz [IGlobalLayoutSlideCollection](../igloballayoutslidecollection)
-* espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblado [Aspose.Slides](../../)
+* class [LayoutSlideCollection](../layoutslidecollection)
+* interface [IGlobalLayoutSlideCollection](../igloballayoutslidecollection)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

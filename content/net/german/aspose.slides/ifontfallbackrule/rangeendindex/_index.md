@@ -1,15 +1,15 @@
 ---
 title: RangeEndIndex
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erhalte den letzten Index eines kontinuierlichen Unicode-Bereichs.
+second_title: Aspose.Slides für .NET API Referenz
+description: Erlangen des letzten Index des kontinuierlichen Unicode-Bereichs.
 type: docs
 weight: 30
 url: /de/aspose.slides/ifontfallbackrule/rangeendindex/
 ---
 
-## IFontFallBackRule.RangeEndIndex-Eigenschaft
+## IFontFallBackRule.RangeEndIndex Eigenschaft
 
-Erhalte den letzten Index eines kontinuierlichen Unicode-Bereichs.
+Erlangen des letzten Index des kontinuierlichen Unicode-Bereichs.
 
 ```csharp
 public uint RangeEndIndex { get; }

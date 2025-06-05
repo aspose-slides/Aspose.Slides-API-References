@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/presentationtext/slidestext/
 ---
+
 ## PresentationText.SlidesText property
 
 An array of [`SlideText`](../../islidetext) contains a presentation's text.

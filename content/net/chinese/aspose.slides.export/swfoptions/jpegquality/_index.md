@@ -1,7 +1,7 @@
 ---
 title: JpegQuality
 second_title: Aspose.Sildes for .NET API Reference
-description: 指定JPEG图像的质量。默认为95。
+description: 指定 JPEG 图像的质量。默认值为 95。
 type: docs
 weight: 40
 url: /zh/aspose.slides.export/swfoptions/jpegquality/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/swfoptions/jpegquality/
 
 ## SwfOptions.JpegQuality 属性
 
-指定JPEG图像的质量。默认为95。
+指定 JPEG 图像的质量。默认值为 95。
 
 ```csharp
 public int JpegQuality { get; set; }

@@ -1,6 +1,6 @@
 ---
 title: ColorSpace
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет цветовое пространство поведения. Чтение/запись ColorSpaceaspose.slides.animation/icoloreffect/colorspace.
 type: docs
 weight: 30

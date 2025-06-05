@@ -1,7 +1,7 @@
 ---
 title: ValueType
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Typ eines Eigenschaftswertes an. Schreib-/Lesebare PropertyValueTypeaspose.slides.animation/propertyvaluetype.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Typ eines Eigenschaftswertes an. Lese-/Schreibzugriff auf PropertyValueTypeaspose.slides/propertyvaluetype.
 type: docs
 weight: 70
 url: /de/aspose.slides.animation/ipropertyeffect/valuetype/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.animation/ipropertyeffect/valuetype/
 
 ## IPropertyEffect.ValueType-Eigenschaft
 
-Gibt den Typ eines Eigenschaftswertes an. Schreib-/Lesebar [`PropertyValueType`](../../propertyvaluetype).
+Gibt den Typ eines Eigenschaftswertes an. Lese-/Schreibzugriff auf [`PropertyValueType`](../../propertyvaluetype).
 
 ```csharp
 public PropertyValueType ValueType { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [PropertyValueType](../../propertyvaluetype)
 * interface [IPropertyEffect](../../ipropertyeffect)

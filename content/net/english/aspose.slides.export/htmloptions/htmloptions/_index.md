@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export/htmloptions/htmloptions/
 ---
+
 ## HtmlOptions(ILinkEmbedController) {#constructor_1}
 
 Creates a new HtmlOptions object specifiing callback.

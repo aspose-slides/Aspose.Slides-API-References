@@ -1,21 +1,22 @@
 ---
 title: PieSplitPosition
-second_title: Aspose.Sildes для .NET API Справка
-description: Указывает значение, которое будет использоваться для определения, какие точки данных находятся во втором пироге или.bar на диаграмме pie-of-pie или bar-of-pie. Используется вместе с свойством PieSplitBy. Читаемое/записываемое Double.
+second_title: Aspose.Slides для .NET API Reference
+description: Указывает значение, которое будет использоваться для определения, какие данные находятся во втором круге или столбце на графике круг-к-кругу или столбцу-к-кругу. Используется вместе с свойством PieSplitBy. Чтение/запись Double.
 type: docs
 weight: 150
 url: /ru/aspose.slides.charts/chartseriesgroup/piesplitposition/
 ---
 
-## Свойство ChartSeriesGroup.PieSplitPosition
+## ChartSeriesGroup.PieSplitPosition свойство
 
-Указывает значение, которое будет использоваться для определения, какие точки данных находятся во втором пироге или баре на диаграмме pie-of-pie или bar-of-pie. Используется вместе с свойством PieSplitBy. Читаемое/записываемое Double.
+Указывает значение, которое будет использоваться для определения, какие данные находятся во втором круге или столбце на графике круг-к-кругу или столбцу-к-кругу. Используется вместе с свойством PieSplitBy. Чтение/запись Double.
 
 ```csharp
 public double PieSplitPosition { get; set; }
 ```
 
-### Также см.
+### См. также
+
 * класс [ChartSeriesGroup](../../chartseriesgroup)
 * пространство имен [Aspose.Slides.Charts](../../chartseriesgroup)
 * сборка [Aspose.Slides](../../../)

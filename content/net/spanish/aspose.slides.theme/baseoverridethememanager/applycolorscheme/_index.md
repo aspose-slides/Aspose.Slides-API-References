@@ -1,13 +1,13 @@
 ---
 title: ApplyColorScheme
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Aplica un esquema de color adicional a una diapositiva.
 type: docs
 weight: 30
 url: /es/aspose.slides.theme/baseoverridethememanager/applycolorscheme/
 ---
 
-## Método BaseOverrideThemeManager.ApplyColorScheme
+## BaseOverrideThemeManager.ApplyColorScheme method
 
 Aplica un esquema de color adicional a una diapositiva.
 

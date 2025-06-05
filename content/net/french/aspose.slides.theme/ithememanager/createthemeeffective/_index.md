@@ -1,13 +1,13 @@
 ---
 title: CreateThemeEffective
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la documentation de l'API .NET
 description: Renvoie l'objet thème.
 type: docs
 weight: 20
 url: /fr/aspose.slides.theme/ithememanager/createthemeeffective/
 ---
 
-## Méthode IThemeManager.CreateThemeEffective
+## méthode IThemeManager.CreateThemeEffective
 
 Renvoie l'objet thème.
 
@@ -15,11 +15,11 @@ Renvoie l'objet thème.
 public IThemeEffectiveData CreateThemeEffective()
 ```
 
-### Valeur de retour
+### Valeur de Retour
 
 Objet thème [`IThemeEffectiveData`](../../ithemeeffectivedata)
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IThemeEffectiveData](../../ithemeeffectivedata)
 * interface [IThemeManager](../../ithememanager)

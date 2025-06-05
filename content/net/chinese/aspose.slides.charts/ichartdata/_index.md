@@ -1,6 +1,6 @@
 ---
 title: IChartData
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示用于图表绘制的数据。
 type: docs
 weight: 1720
@@ -19,28 +19,28 @@ public interface IChartData
 
 | 名称 | 描述 |
 | --- | --- |
-| [Categories](../../aspose.slides.charts/ichartdata/categories) { get; } | 获取主要类别（如果 [`UseSecondaryCategories`](./usesecondarycategories) 属性为 false，则返回主类别和次类别）。只读 [`IChartCategoryCollection`](../ichartcategorycollection)。 |
+| [Categories](../../aspose.slides.charts/ichartdata/categories) { get; } | 获取主要类别（如果 [`UseSecondaryCategories`](./usesecondarycategories) 属性为 false，则获取主要和次要类别）。只读 [`IChartCategoryCollection`](../ichartcategorycollection)。 |
 | [ChartDataWorkbook](../../aspose.slides.charts/ichartdata/chartdataworkbook) { get; } | 获取用于创建图表系列或类别的单元格工厂。只读 [`IChartDataWorkbook`](../ichartdataworkbook)。 |
 | [DataSourceType](../../aspose.slides.charts/ichartdata/datasourcetype) { get; } | 表示图表的数据源 |
-| [ExternalWorkbookPath](../../aspose.slides.charts/ichartdata/externalworkbookpath) { get; } | 如果数据源是外部的，则表示外部工作簿路径，否则为 null |
-| [SecondaryCategories](../../aspose.slides.charts/ichartdata/secondarycategories) { get; } | 如果 [`UseSecondaryCategories`](./usesecondarycategories) 属性为 true，则获取次类别。只读 [`IChartCategoryCollection`](../ichartcategorycollection)。 |
+| [ExternalWorkbookPath](../../aspose.slides.charts/ichartdata/externalworkbookpath) { get; } | 表示外部工作簿路径，如果数据源为外部，则为此，反之为 null |
+| [SecondaryCategories](../../aspose.slides.charts/ichartdata/secondarycategories) { get; } | 如果 [`UseSecondaryCategories`](./usesecondarycategories) 属性为 true，则获取次要类别。只读 [`IChartCategoryCollection`](../ichartcategorycollection)。 |
 | [Series](../../aspose.slides.charts/ichartdata/series) { get; } | 获取系列。只读 [`IChartSeriesCollection`](../ichartseriescollection)。 |
 | [SeriesGroups](../../aspose.slides.charts/ichartdata/seriesgroups) { get; } | 获取系列组。只读 [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection)。 |
-| [UseSecondaryCategories](../../aspose.slides.charts/ichartdata/usesecondarycategories) { get; set; } | 如果为 false，则 [`SecondaryCategories`](./secondarycategories) 属性返回 null，且 [`Categories`](./categories) 属性中的数据用于主要和次要系列。如果为 true，则 [`SecondaryCategories`](./secondarycategories) 属性中的数据用于次要系列，而 [`Categories`](./categories) 属性中的数据用于主要系列。可读写布尔值。 |
+| [UseSecondaryCategories](../../aspose.slides.charts/ichartdata/usesecondarycategories) { get; set; } | 如果为 false，则 [`SecondaryCategories`](./secondarycategories) 属性返回 null，并且 [`Categories`](./categories) 属性中的数据用于主系列和次要系列。如果为 true，则 [`SecondaryCategories`](./secondarycategories) 属性中的数据用于次要系列，而 [`Categories`](./categories) 属性中的数据用于主要系列。可读写 Boolean。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
 | [GetRange](../../aspose.slides.charts/ichartdata/getrange)() | 获取图表数据范围。 |
-| [ReadWorkbookStream](../../aspose.slides.charts/ichartdata/readworkbookstream)() | 将内部包含的Excel工作簿写入内存流。 |
+| [ReadWorkbookStream](../../aspose.slides.charts/ichartdata/readworkbookstream)() | 将内部包含的 Excel 工作簿写入内存流中。 |
 | [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook)(string) | 将外部工作簿设置为图表的数据源。图表数据将从目标工作簿更新。 |
 | [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | 将外部工作簿设置为图表的数据源。 |
-| [SetRange](../../aspose.slides.charts/ichartdata/setrange)(string) | 设置图表数据范围。系列和类别将基于新数据范围更新。如果数据范围内的系列数量大于图表数据中的系列数量，则将添加与当前集合中最后一个系列相同类型的额外系列。 |
-| [SwitchRowColumn](../../aspose.slides.charts/ichartdata/switchrowcolumn)() | 在轴上交换数据。用于 X 轴的图表数据将移到 Y 轴，反之亦然。 |
-| [WriteWorkbookStream](../../aspose.slides.charts/ichartdata/writeworkbookstream)(MemoryStream) | 用用户指定的值初始化内部包含的Excel工作簿。 |
+| [SetRange](../../aspose.slides.charts/ichartdata/setrange)(string) | 设置图表数据范围。系列和类别将根据新数据范围更新。如果数据范围中的系列数量大于图表数据中的系列数量，则将添加与当前集合最后一个系列相同类型的额外系列到集合末尾。 |
+| [SwitchRowColumn](../../aspose.slides.charts/ichartdata/switchrowcolumn)() | 交换轴上的数据。绘制在 X 轴上的数据将移动到 Y 轴，反之亦然。 |
+| [WriteWorkbookStream](../../aspose.slides.charts/ichartdata/writeworkbookstream)(MemoryStream) | 用用户指定的值初始化内部包含的 Excel 工作簿。 |
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程序集 [Aspose.Slides](../../)

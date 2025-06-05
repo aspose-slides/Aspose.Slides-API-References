@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/ishapecollection/addconnector/
 ---
+
 ## AddConnector(ShapeType, float, float, float, float) {#addconnector}
 
 Creates a new Connector, tunes it from default template and adds it to the end of the collection.

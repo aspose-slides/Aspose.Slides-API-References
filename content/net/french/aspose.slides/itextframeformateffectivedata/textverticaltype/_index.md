@@ -1,13 +1,13 @@
 ---
 title: TextVerticalType
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Renvoie l'orientation du texte. Propriété en lecture seule TextVerticalTypeaspose.slides/textverticaltype.
 type: docs
 weight: 110
 url: /fr/aspose.slides/itextframeformateffectivedata/textverticaltype/
 ---
 
-## Propriété ITextFrameFormatEffectiveData.TextVerticalType
+## ITextFrameFormatEffectiveData.TextVerticalType propriété
 
 Renvoie l'orientation du texte. Propriété en lecture seule [`TextVerticalType`](../../textverticaltype).
 

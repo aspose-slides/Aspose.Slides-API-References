@@ -1,7 +1,7 @@
 ---
-title: 格式
-second_title: Aspose.Slides for .NET API 参考
-description: 表示误差线的格式。可读/写 IFormataspose.slides.charts/iformat。
+title: Format
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示误差条的格式。可读写 IFormataspose.slides.charts/iformat。
 type: docs
 weight: 20
 url: /zh/aspose.slides.charts/ierrorbarsformat/format/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ierrorbarsformat/format/
 
 ## IErrorBarsFormat.Format 属性
 
-表示误差线的格式。可读/写 [`IFormat`](../../iformat)。
+表示误差条的格式。可读写 [`IFormat`](../../iformat)。
 
 ```csharp
 public IFormat Format { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IFormat](../../iformat)
 * 接口 [IErrorBarsFormat](../../ierrorbarsformat)

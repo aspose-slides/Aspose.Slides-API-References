@@ -1,15 +1,15 @@
 ---
-title: Ориентация
+title: Orientation
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает ориентацию направляющей для рисования. Читаемое/записываемое свойство Orientationaspose.slides/orientation.
+description: Возвращает или задает ориентацию направляющей для рисования. Чтение/запись Orientationaspose.slides/orientation.
 type: docs
 weight: 10
 url: /ru/aspose.slides/drawingguide/orientation/
 ---
 
-## Свойство DrawingGuide.Orientation
+## DrawingGuide.Orientation property
 
-Возвращает или устанавливает ориентацию направляющей для рисования. Читаемое/записываемое свойство [`Orientation`](../../orientation).
+Возвращает или задает ориентацию направляющей для рисования. Чтение/запись [`Orientation`](../../orientation).
 
 ```csharp
 public Orientation Orientation { get; set; }

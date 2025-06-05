@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/background/effectformat/
 ---
+
 ## Background.EffectFormat property
 
 Returns a EffectFormat for BackgroundType.OwnBackground fill. Read-only [`IEffectFormat`](../../ieffectformat).

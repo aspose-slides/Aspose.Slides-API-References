@@ -1,7 +1,7 @@
 ---
-title: Elemento
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Obtiene el elemento en el índice especificado. Solo lectura ISmartArtShape aspose.slides.smartart/ismartartshape. Índice basado en cero del elemento
+title: Item
+second_title: Aspose.Slides para .NET Referencia de API
+description: Obtiene el elemento en el índice especificado. Solo lectura ISmartArtShapeaspose.slides.smartart/ismartartshape. Índice basado en cero del elemento
 type: docs
 weight: 10
 url: /es/aspose.slides.smartart/ismartartshapecollection/item/
@@ -15,7 +15,7 @@ Obtiene el elemento en el índice especificado. Solo lectura [`ISmartArtShape`](
 public ISmartArtShape this[int index] { get; }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [ISmartArtShape](../../ismartartshape)
 * interfaz [ISmartArtShapeCollection](../../ismartartshapecollection)

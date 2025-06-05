@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides/ishapecollection/addsectionzoomframe/
 ---
+
 ## AddSectionZoomFrame(float, float, float, float, ISection) {#addsectionzoomframe}
 
 Adds a new Section Zoom object to the end of a collection.

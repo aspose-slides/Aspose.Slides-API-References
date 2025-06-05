@@ -1,6 +1,6 @@
 ---
 title: ILightRig
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Slides for .NET API Reference
 description: 表示 LightRig。
 type: docs
 weight: 6070
@@ -19,15 +19,15 @@ public interface ILightRig
 
 | 名称 | 描述 |
 | --- | --- |
-| [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | 光线方向。可读写 [`LightingDirection`](../lightingdirection)。 |
-| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | 表示可以应用于形状的预设光源。光源装备表示相对于 3D 场景以特定方式定向的一组光源。可读写 [`LightRigPresetType`](../lightrigpresettype)。 |
+| [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | 光的方向。可读/写 [`LightingDirection`](../lightingdirection)。 |
+| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | 表示可以应用于形状的预设光源。光源设备表示相对于 3D 场景特定方式定向的一组光。可读/写 [`LightRigPresetType`](../lightrigpresettype)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | 旋转通过纬度坐标、经度坐标和围绕轴的旋转定义，作为纬度和经度坐标。返回数组中的第一个元素 - 纬度，第二个 - 经度，第三个 - 旋转。 |
-| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | 旋转通过纬度坐标、经度坐标和围绕轴的旋转定义，作为纬度和经度坐标。 |
+| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | 通过使用纬度坐标、经度坐标以及围绕轴的旋转来定义旋转。返回数组中的第一个元素 - 纬度，第二 - 经度，第三 - 旋转。 |
+| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | 通过使用纬度坐标、经度坐标以及围绕轴的旋转来定义旋转。 |
 
 ### 另见
 

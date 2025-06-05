@@ -1,7 +1,7 @@
 ---
-title: Betreff
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Betreff einer Präsentation zurück oder legt ihn fest. Lese-/Schreibzeichenfolge.
+title: Subject
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt das Thema einer Präsentation zurück oder legt es fest. Lese-/Schreib-String.
 type: docs
 weight: 320
 url: /de/aspose.slides/documentproperties/subject/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/documentproperties/subject/
 
 ## DocumentProperties.Subject-Eigenschaft
 
-Gibt den Betreff einer Präsentation zurück oder legt ihn fest. Lese-/Schreibzeichenfolge.
+Gibt das Thema einer Präsentation zurück oder legt es fest. Lese-/Schreib-String.
 
 ```csharp
 public string Subject { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [DocumentProperties](../../documentproperties)
 * Namespace [Aspose.Slides](../../documentproperties)

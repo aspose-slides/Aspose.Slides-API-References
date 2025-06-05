@@ -23,7 +23,7 @@ public IHyperlink SetInternalHyperlinkClick(ISlide targetSlide)
 
 Гиперссылка.
 
-### С смежными
+### Также смотри
 
 * интерфейс [IHyperlink](../../ihyperlink)
 * интерфейс [ISlide](../../islide)

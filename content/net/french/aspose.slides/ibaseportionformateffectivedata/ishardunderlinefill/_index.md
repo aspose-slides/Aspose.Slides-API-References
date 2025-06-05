@@ -1,7 +1,7 @@
 ---
 title: IsHardUnderlineFill
 second_title: Référence API Aspose.Slides pour .NET
-description: Détermine si le style de soulignement a ses propres propriétés FillFormat ou les hérite des propriétés FillFormat du texte. Booléen en lecture seule.
+description: Détermine si le style de soulignement a ses propres propriétés FillFormat ou les hérite des propriétés FillFormat du texte. Boolean en lecture seule.
 type: docs
 weight: 120
 url: /fr/aspose.slides/ibaseportionformateffectivedata/ishardunderlinefill/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ibaseportionformateffectivedata/ishardunderlinefill/
 
 ## IBasePortionFormatEffectiveData.IsHardUnderlineFill propriété
 
-Détermine si le style de soulignement a ses propres propriétés FillFormat ou les hérite des propriétés FillFormat du texte. Booléen en lecture seule.
+Détermine si le style de soulignement a ses propres propriétés FillFormat ou les hérite des propriétés FillFormat du texte. Boolean en lecture seule.
 
 ```csharp
 public bool IsHardUnderlineFill { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
 * namespace [Aspose.Slides](../../ibaseportionformateffectivedata)

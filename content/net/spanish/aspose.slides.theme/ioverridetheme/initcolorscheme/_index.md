@@ -1,15 +1,15 @@
 ---
 title: InitColorScheme
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Inicializa el ColorScheme con un nuevo objeto para anular el ColorScheme de InheritedTheme.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Inicializa ColorScheme con un nuevo objeto para anular el ColorScheme de InheritedTheme.
 type: docs
 weight: 40
 url: /es/aspose.slides.theme/ioverridetheme/initcolorscheme/
 ---
 
-## Método IOverrideTheme.InitColorScheme
+## IOverrideTheme.InitColorScheme método
 
-Inicializa el ColorScheme con un nuevo objeto para anular el ColorScheme de InheritedTheme.
+Inicializa ColorScheme con un nuevo objeto para anular el ColorScheme de InheritedTheme.
 
 ```csharp
 public void InitColorScheme()
@@ -19,7 +19,7 @@ public void InitColorScheme()
 
 | excepción | condición |
 | --- | --- |
-| InvalidOperationException | Lanza si el ColorScheme ya está inicializado (no es nulo). |
+| InvalidOperationException | Lanzada si el ColorScheme ya está inicializado (no nulo). |
 
 ### Véase también
 

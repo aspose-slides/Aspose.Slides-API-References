@@ -6,6 +6,7 @@ type: docs
 weight: 170
 url: /aspose.slides/iparagraphformateffectivedata/tabs/
 ---
+
 ## IParagraphFormatEffectiveData.Tabs property
 
 Returns tabulations of a paragraph. Read-only [`ITabEffectiveData`](../../itabeffectivedata)[].

@@ -1,7 +1,7 @@
 ---
-title: Transparenz
-second_title: Aspose.Slides für .NET API Referenz
-description: Ruft die Transparenz der Füllfarbe ab oder legt sie fest. Lese-/Schreibzugriff Single.
+title: Transparency
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ruft die Transparenz der Füllfarbe ab oder legt sie fest. Schreib-/Lesezugriff Single.
 type: docs
 weight: 80
 url: /de/aspose.slides/cellformat/transparency/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/cellformat/transparency/
 
 ## CellFormat.Transparency-Eigenschaft
 
-Ruft die Transparenz der Füllfarbe ab oder legt sie fest. Lese-/Schreibzugriff Single.
+Ruft die Transparenz der Füllfarbe ab oder legt sie fest. Schreib-/Lesezugriff Single.
 
 ```csharp
 public float Transparency { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [CellFormat](../../cellformat)
 * Namespace [Aspose.Slides](../../cellformat)

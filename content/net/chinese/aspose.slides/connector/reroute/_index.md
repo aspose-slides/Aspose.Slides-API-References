@@ -1,7 +1,7 @@
 ---
-title: 重新路由
-second_title: Aspose.Slides for .NET API 参考
-description: 重新路由连接器，以便它在连接的形状之间采取最短的路径。
+title: Reroute
+second_title: Aspose.Sildes for .NET API Reference
+description: 重新规划连接器，以便它在连接的形状之间采取最短的路径。
 type: docs
 weight: 80
 url: /zh/aspose.slides/connector/reroute/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/connector/reroute/
 
 ## Connector.Reroute 方法
 
-重新路由连接器，以便它在连接的形状之间采取最短的路径。
+重新规划连接器，以便它在连接的形状之间采取最短的路径。
 
 ```csharp
 public void Reroute()
 ```
 
-### 另请参阅
+### 另见
 
 * class [Connector](../../connector)
 * namespace [Aspose.Slides](../../connector)

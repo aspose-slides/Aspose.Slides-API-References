@@ -1,7 +1,7 @@
 ---
-title: Sortie
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne la collection des éléments de sortie du document hôte. En lecture seule Outputaspose.slides.export.web/templatecontext-1/output.
+title: Output
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Renvoie une collection d'éléments de sortie du document hôte. Lecture seule Output.
 type: docs
 weight: 40
 url: /fr/aspose.slides.export.web/templatecontext-1/output/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.export.web/templatecontext-1/output/
 
 ## TemplateContext&lt;TObject&gt;.Propriété Output
 
-Retourne la collection des éléments de sortie du document hôte. En lecture seule `Output`.
+Renvoie une collection d'éléments de sortie du document hôte. Lecture seule `Output`.
 
 ```csharp
 public Output Output { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [Output](../../output)
 * classe [TemplateContext&lt;TObject&gt;](../../templatecontext-1)

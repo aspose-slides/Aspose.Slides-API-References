@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/imagetransformoperationfactory/createalphabilevel/
 ---
+
 ## ImageTransformOperationFactory.CreateAlphaBiLevel method
 
 Creates Alpha BiLevel effect.

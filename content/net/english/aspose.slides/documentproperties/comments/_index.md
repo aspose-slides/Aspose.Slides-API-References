@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/documentproperties/comments/
 ---
+
 ## DocumentProperties.Comments property
 
 Returns or sets the comments of a presentation. Read/write String.

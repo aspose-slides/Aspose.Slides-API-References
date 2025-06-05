@@ -1,7 +1,7 @@
 ---
 title: IsColorVaried
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt an, dass jeder Datenmarkierer in der Serie eine andere Farbe hat. Lese-/Schreibbare Boolesche Variable.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt an, dass jeder Datenmarker in der Serie eine andere Farbe hat. Lese-/schreibbare Boolesche.
 type: docs
 weight: 100
 url: /de/aspose.slides.charts/ichartseriesgroup/iscolorvaried/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/ichartseriesgroup/iscolorvaried/
 
 ## IChartSeriesGroup.IsColorVaried-Eigenschaft
 
-Gibt an, dass jeder Datenmarkierer in der Serie eine andere Farbe hat. Lese-/Schreibbare Boolesche Variable.
+Gibt an, dass jeder Datenmarker in der Serie eine andere Farbe hat. Lese-/schreibbare Boolesche.
 
 ```csharp
 public bool IsColorVaried { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IChartSeriesGroup](../../ichartseriesgroup)
 * Namespace [Aspose.Slides.Charts](../../ichartseriesgroup)

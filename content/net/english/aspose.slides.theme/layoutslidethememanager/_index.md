@@ -3,9 +3,10 @@ title: LayoutSlideThemeManager
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides access to layout slide theme overriden.
 type: docs
-weight: 10760
+weight: 11100
 url: /aspose.slides.theme/layoutslidethememanager/
 ---
+
 ## LayoutSlideThemeManager class
 
 Provides access to layout slide theme overriden.

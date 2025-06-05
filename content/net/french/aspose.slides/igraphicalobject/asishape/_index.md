@@ -1,15 +1,15 @@
 ---
 title: AsIShape
-second_title: Référence API Aspose.Slides pour .NET
-description: Permet d'obtenir l'interface de base IShape. IShape en lecture seule aspose.slides/ishape.
+second_title: Référence API d'Aspose.Slides pour .NET
+description: Permet d'obtenir l'interface de base IShape. IShape de lecture seule aspose.slides/ishape.
 type: docs
 weight: 10
 url: /fr/aspose.slides/igraphicalobject/asishape/
 ---
 
-## Propriété IGraphicalObject.AsIShape
+## IGraphicalObject.AsIShape propriété
 
-Permet d'obtenir l'interface de base IShape. IShape en lecture seule [`IShape`](../../ishape).
+Permet d'obtenir l'interface de base IShape. Lecture seule [`IShape`](../../ishape).
 
 ```csharp
 public IShape AsIShape { get; }

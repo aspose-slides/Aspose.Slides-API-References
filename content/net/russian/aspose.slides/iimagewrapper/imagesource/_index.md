@@ -1,21 +1,21 @@
 ---
 title: ImageSource
-second_title: Справка по API Aspose.Slides для .NET
-description: Получает изображение только для чтения Image.
+second_title: Aspose.Sildes для .NET API Справка
+description: Получает изображение Только для чтения Image.
 type: docs
 weight: 20
 url: /ru/aspose.slides/iimagewrapper/imagesource/
 ---
 
-## Свойство IImageWrapper.ImageSource
+## IImageWrapper.ImageSource свойство
 
-Получает изображение только для чтения Image.
+Получает изображение Только для чтения Image.
 
 ```csharp
 public IImage ImageSource { get; }
 ```
 
-### Также см.
+### См. также
 
 * интерфейс [IImage](../../iimage)
 * интерфейс [IImageWrapper](../../iimagewrapper)

@@ -1,6 +1,6 @@
 ---
-title: 获取子元素
-second_title: Aspose.Slides for .NET API 参考
+title: GetChildren
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取子元素
 type: docs
 weight: 100
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.mathtext/mathdelimiter/getchildren/
 public IMathElement[] GetChildren()
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IMathElement](../../imathelement)
 * 类 [MathDelimiter](../../mathdelimiter)

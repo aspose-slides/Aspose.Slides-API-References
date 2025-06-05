@@ -1,13 +1,13 @@
 ---
 title: PrintFrameSlide
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Указывает, следует ли рисовать рамки вокруг отображаемых слайдов или нет.
 type: docs
 weight: 40
 url: /ru/aspose.slides.export/handoutlayoutingoptions/printframeslide/
 ---
 
-## Свойство HandoutLayoutingOptions.PrintFrameSlide
+## HandoutLayoutingOptions.PrintFrameSlide свойство
 
 Указывает, следует ли рисовать рамки вокруг отображаемых слайдов или нет.
 

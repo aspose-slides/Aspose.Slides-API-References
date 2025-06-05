@@ -1,6 +1,6 @@
 ---
-title: Einfügen
-second_title: Aspose.Slides für .NET API-Referenz
+title: Insert
+second_title: Aspose.Slides für .NET API Referenz
 description: Fügt die neue Operation zu einer Sammlung hinzu.
 type: docs
 weight: 110
@@ -25,7 +25,7 @@ public IColorOperation Insert(int position, ColorTransformOperation operation, f
 
 Eingefügte Operation.
 
-### Siehe auch
+### Siehe Auch
 
 * interface [IColorOperation](../../icoloroperation)
 * enum [ColorTransformOperation](../../colortransformoperation)
@@ -52,7 +52,7 @@ public IColorOperation Insert(int position, ColorTransformOperation operation)
 
 Eingefügte Operation.
 
-### Siehe auch
+### Siehe Auch
 
 * interface [IColorOperation](../../icoloroperation)
 * enum [ColorTransformOperation](../../colortransformoperation)

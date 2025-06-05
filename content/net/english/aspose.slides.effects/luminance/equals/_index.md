@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.effects/luminance/equals/
 ---
+
 ## Luminance.Equals method
 
 Determines whether the specified [`Luminance`](../../luminance) is equal to the current [`Luminance`](../../luminance).

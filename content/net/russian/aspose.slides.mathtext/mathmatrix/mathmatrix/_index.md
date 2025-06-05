@@ -1,6 +1,6 @@
 ---
 title: MathMatrix
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Инициализирует новый экземпляр класса MathMatrix.
 type: docs
 weight: 10
@@ -29,7 +29,7 @@ public MathMatrix(int rowCount, int columnCount)
 IMathMatrix matrix = new MathMatrix(2, 3);
 ```
 
-### См. также
+### Смотрите также
 
 * класс [MathMatrix](../../mathmatrix)
 * пространство имен [Aspose.Slides.MathText](../../mathmatrix)

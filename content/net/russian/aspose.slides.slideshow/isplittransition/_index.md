@@ -1,7 +1,7 @@
 ---
 title: ISplitTransition
-second_title: Aspose.Slides для .NET API Справочник
-description: Эффект превышения слайдов.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Эффект перехода с разделением слайдов.
 type: docs
 weight: 9890
 url: /ru/aspose.slides.slideshow/isplittransition/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.slideshow/isplittransition/
 
 ## Интерфейс ISplitTransition
 
-Эффект превышения слайдов.
+Эффект перехода с разделением слайдов.
 
 ```csharp
 public interface ISplitTransition : ITransitionValueBase
@@ -23,7 +23,7 @@ public interface ISplitTransition : ITransitionValueBase
 | [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | Направление разделения перехода. Чтение/запись [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 | [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | Ориентация разделения перехода. Чтение/запись [`Orientation`](../../aspose.slides/orientation). |
 
-### См. также
+### Смотрите также
 
 * интерфейс [ITransitionValueBase](../itransitionvaluebase)
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

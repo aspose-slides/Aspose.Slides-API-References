@@ -1,6 +1,6 @@
 ---
-title: 包含
-second_title: Aspose.Slides for .NET API 参考
+title: Contains
+second_title: Aspose.Sildes for .NET API Reference
 description: 确定集合中是否包含特定值。
 type: docs
 weight: 60
@@ -17,11 +17,11 @@ public bool Contains(IMathElement item)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| item | IMathElement | 要在集合中查找的对象。 |
+| item | IMathElement | 要在集合中定位的对象。 |
 
 ### 返回值
 
-如果找到 *item* 在集合中，则为 true；否则，返回 false。
+如果在集合中找到 *item*，则为 true；否则为 false。
 
 ### 示例
 
@@ -36,7 +36,7 @@ collection.Add(new MathRadical(new MathematicalText("x"), new MathematicalText("
 bool contains = collection.Contains(plusElement);
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IMathElement](../../imathelement)
 * 接口 [IMathElementCollection](../../imathelementcollection)

@@ -1,15 +1,15 @@
 ---
-title: 清除
-second_title: Aspose.Slides for .NET API 参考
-description: 清除工作表中所有单元格的值
+title: Clear
+second_title: Aspose.Sildes for .NET API Reference
+description: 清除工作表中的所有单元格值
 type: docs
 weight: 30
 url: /zh/aspose.slides.charts/ichartdataworkbook/clear/
 ---
 
-## IChartDataWorkbook.Clear 方法
+## IChartDataWorkbook.Clear method
 
-清除工作表中所有单元格的值
+清除工作表中的所有单元格值
 
 ```csharp
 public void Clear(int sheetIndex)
@@ -19,7 +19,7 @@ public void Clear(int sheetIndex)
 | --- | --- | --- |
 | sheetIndex | Int32 | 工作表索引 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IChartDataWorkbook](../../ichartdataworkbook)
 * 命名空间 [Aspose.Slides.Charts](../../ichartdataworkbook)

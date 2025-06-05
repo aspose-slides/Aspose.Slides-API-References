@@ -1,6 +1,6 @@
 ---
-title: 添加
-second_title: Aspose.Slides for .NET API 参考
+title: Add
+second_title: Aspose.Sildes for .NET API Reference
 description: 向集合中添加新单元格。
 type: docs
 weight: 40
@@ -19,7 +19,7 @@ public void Add(IChartDataCell chartDataCell)
 | --- | --- | --- |
 | chartDataCell | IChartDataCell | 要添加的新单元格。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IChartDataCell](../../ichartdatacell)
 * 接口 [IChartCellCollection](../../ichartcellcollection)
@@ -48,9 +48,9 @@ public void Add(object value)
 
 ### 备注
 
-此方法添加名称为 AUTO_DATA 的工作表，并将所有值添加到其中。如果使用 [`IChartDataWorkbook`](../../ichartdataworkbook) 来添加或编辑单元格值，请确保不使用此工作表。通过此方法添加的最大值不得超过 16711680。
+此方法添加名称为 AUTO_DATA 的工作表，并将所有值添加到其中。如果您使用 [`IChartDataWorkbook`](../../ichartdataworkbook) 添加或编辑单元格值，请确保您不使用此工作表。通过此方法添加的最大值不得超过 16711680。
 
-### 另请参见
+### 另见
 
 * 接口 [IChartCellCollection](../../ichartcellcollection)
 * 命名空间 [Aspose.Slides.Charts](../../ichartcellcollection)

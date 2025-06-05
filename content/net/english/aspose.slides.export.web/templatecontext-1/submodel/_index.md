@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.export.web/templatecontext-1/submodel/
 ---
+
 ## TemplateContext&lt;TObject&gt;.SubModel&lt;TSubModel&gt; method
 
 ```csharp

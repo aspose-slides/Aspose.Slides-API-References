@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export/htmlformatter/createcustomformatter/
 ---
+
 ## HtmlFormatter.CreateCustomFormatter method
 
 Creates and returns HTML formatter for custom callback-driven html generation.

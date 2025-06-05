@@ -1,6 +1,6 @@
 ---
 title: AddAlphaCeilingEffect
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справка по API Aspose.Slidess для .NET
 description: Добавляет новый эффект Alpha Ceiling в конец коллекции.
 type: docs
 weight: 60

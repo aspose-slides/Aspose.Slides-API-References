@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.mathtext/mathelementbase/divide/
 ---
+
 ## Divide(IMathElement) {#divide}
 
 Creates a fraction with this numerator and specified denominator

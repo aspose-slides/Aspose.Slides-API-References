@@ -6,6 +6,7 @@ type: docs
 weight: 200
 url: /aspose.slides/baseportionformat/proofdisabled/
 ---
+
 ## BasePortionFormat.ProofDisabled property
 
 Determines whether the text shouldn't be proofed. No inheritance applied. Read/write [`NullableBool`](../../nullablebool).

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/ibileveleffectivedata/threshold/
 ---
+
 ## IBiLevelEffectiveData.Threshold property
 
 Returns the threshold value. Read-only Single.

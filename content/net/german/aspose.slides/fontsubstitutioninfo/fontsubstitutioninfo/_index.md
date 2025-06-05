@@ -1,15 +1,15 @@
 ---
 title: FontSubstitutionInfo
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Erstellt eine Instanz der Klasse FontSubstitutionInfoaspose.slides/fontsubstitutioninfo.
 type: docs
 weight: 10
 url: /de/aspose.slides/fontsubstitutioninfo/fontsubstitutioninfo/
 ---
 
-## Konstruktor von FontSubstitutionInfo
+## FontSubstitutionInfo-Konstruktor
 
-Erstellt eine Instanz der [`FontSubstitutionInfo`](../../fontsubstitutioninfo) Klasse.
+Erstellt eine Instanz der Klasse [`FontSubstitutionInfo`](../../fontsubstitutioninfo).
 
 ```csharp
 public FontSubstitutionInfo(string originFontName, string substFontName)
@@ -17,10 +17,10 @@ public FontSubstitutionInfo(string originFontName, string substFontName)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| originFontName | String | Quellschriftartname in der Präsentation String |
-| substFontName | String | Ersetzungsschriftartname für die ursprüngliche Schriftart String |
+| originFontName | String | Quellschriftname in der Präsentation String |
+| substFontName | String | Ersatzschriftname für die Originalschrift String |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [FontSubstitutionInfo](../../fontsubstitutioninfo)
 * Namespace [Aspose.Slides](../../fontsubstitutioninfo)

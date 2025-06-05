@@ -1,7 +1,7 @@
 ---
-title: Hinzufügen
-second_title: Aspose.Slides für .NET API-Referenz
-description: Fügt eine neue Kennzeichnung zur Sammlung hinzu.
+title: Add
+second_title: Aspose.Sildes für .NET API Referenz
+description: Fügt ein neues Tag zur Sammlung hinzu.
 type: docs
 weight: 50
 url: /de/aspose.slides/tagcollection/add/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/tagcollection/add/
 
 ## TagCollection.Add-Methode
 
-Fügt eine neue Kennzeichnung zur Sammlung hinzu.
+Fügt ein neues Tag zur Sammlung hinzu.
 
 ```csharp
 public int Add(string name, string value)
@@ -17,12 +17,12 @@ public int Add(string name, string value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| name | String | Der Name der Kennzeichnung. |
-| value | String | Der Wert der Kennzeichnung. |
+| name | String | Der Name des Tags. |
+| value | String | Der Wert des Tags. |
 
 ### Rückgabewert
 
-Der Index der hinzugefügten Kennzeichnung.
+Der Index des hinzugefügten Tags.
 
 ### Siehe auch
 

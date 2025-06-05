@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/presentationinfo/loadformat/
 ---
+
 ## PresentationInfo.LoadFormat property
 
 Gets format of the binded presentation. Read-only [`LoadFormat`](../../loadformat).

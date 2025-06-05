@@ -7,7 +7,7 @@ weight: 40
 url: /ru/aspose.slides/formatfactory/createportionformat/
 ---
 
-## Метод FormatFactory.CreatePortionFormat
+## FormatFactory.CreatePortionFormat метод
 
 Создает новый [`IPortionFormat`](../../iportionformat).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/formatfactory/createportionformat/
 public IPortionFormat CreatePortionFormat()
 ```
 
-### Возвращаемое значение
+### Значение Возвращаемое
 
 Новый формат порции.
 

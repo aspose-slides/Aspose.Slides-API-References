@@ -1,13 +1,13 @@
 ---
 title: ToArray
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Erstellt und gibt ein Array mit allen Autoren zurück.
 type: docs
 weight: 80
 url: /de/aspose.slides/icommentauthorcollection/toarray/
 ---
 
-## ICommentAuthorCollection.ToArray-Methode
+## ICommentAuthorCollection.ToArray Methode
 
 Erstellt und gibt ein Array mit allen Autoren zurück.
 

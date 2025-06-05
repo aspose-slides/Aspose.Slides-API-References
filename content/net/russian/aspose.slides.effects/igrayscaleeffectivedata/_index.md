@@ -1,15 +1,15 @@
 ---
 title: IGrayScaleEffectiveData
 second_title: Aspose.Sildes для .NET API Справочник
-description: Неизменяемый объект, представляющий эффект градации серого. Преобразует все значения цвета эффекта в оттенок серого, соответствующий их яркости. Значения альфа-прозрачности эффекта не затрагиваются.
+description: Неизменяемый объект, представляющий эффект градации серого. Преобразует все значения цветовых эффектов в оттенок серого, соответствующий их яркости. Значения альфа-прозрачности эффектов не затрагиваются.
 type: docs
 weight: 3230
 url: /ru/aspose.slides.effects/igrayscaleeffectivedata/
 ---
 
-## Интерфейс IGrayScaleEffectiveData
+## IGrayScaleEffectiveData interface
 
-Неизменяемый объект, представляющий эффект градации серого. Преобразует все значения цвета эффекта в оттенок серого, соответствующий их яркости. Значения альфа-прозрачности (opacity) эффекта не затрагиваются.
+Неизменяемый объект, представляющий эффект градации серого. Преобразует все значения цветовых эффектов в оттенок серого, соответствующий их яркости. Значения альфа-прозрачности эффектов не затрагиваются.
 
 ```csharp
 public interface IGrayScaleEffectiveData : IEffectEffectiveData
@@ -17,7 +17,7 @@ public interface IGrayScaleEffectiveData : IEffectEffectiveData
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/igrayscaleeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения [`IEffectEffectiveData`](../ieffecteffectivedata). |
 

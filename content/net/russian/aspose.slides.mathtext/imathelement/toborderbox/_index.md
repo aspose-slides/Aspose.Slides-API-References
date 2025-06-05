@@ -1,7 +1,7 @@
 ---
 title: ToBorderBox
-second_title: Aspose.Slides для .NET API Справочник
-description: Размещает этот элемент в границах
+second_title: Aspose.Sildes для .NET API Справочник
+description: Помещает этот элемент в рамку
 type: docs
 weight: 190
 url: /ru/aspose.slides.mathtext/imathelement/toborderbox/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/imathelement/toborderbox/
 
 ## ToBorderBox() {#toborderbox}
 
-Размещает этот элемент в границах
+Помещает этот элемент в рамку
 
 ```csharp
 public IMathBorderBox ToBorderBox()
@@ -17,7 +17,7 @@ public IMathBorderBox ToBorderBox()
 
 ### Возвращаемое значение
 
-Границы с этим элементом внутри
+Рамка с элементом, помещенным внутрь
 
 ### Примеры
 
@@ -39,7 +39,7 @@ IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox();
 
 ## ToBorderBox(bool, bool, bool, bool, bool, bool, bool, bool) {#toborderbox_1}
 
-Размещает этот элемент в границах
+Помещает этот элемент в рамку
 
 ```csharp
 public IMathBorderBox ToBorderBox(bool hideTop, bool hideBottom, bool hideLeft, bool hideRight, 
@@ -49,18 +49,18 @@ public IMathBorderBox ToBorderBox(bool hideTop, bool hideBottom, bool hideLeft, 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| hideTop | Boolean | Скрыть верхний край |
-| hideBottom | Boolean | Скрыть нижний край |
-| hideLeft | Boolean | Скрыть левый край |
-| hideRight | Boolean | Скрыть правый край |
-| strikethroughHorizontal | Boolean | Перечеркивание горизонтальной границы |
-| strikethroughVertical | Boolean | Перечеркивание вертикальной границы |
-| strikethroughBottomLeftToTopRight | Boolean | Перечеркивание границы снизу слева до верхнего справа |
-| strikethroughTopLeftToBottomRight | Boolean | Перечеркивание границы сверху слева до нижнего справа |
+| hideTop | Логический | Скрыть верхний край |
+| hideBottom | Логический | Скрыть нижний край |
+| hideLeft | Логический | Скрыть левый край |
+| hideRight | Логический | Скрыть правый край |
+| strikethroughHorizontal | Логический | Пересечение рамки по горизонтали |
+| strikethroughVertical | Логический | Пересечение рамки по вертикали |
+| strikethroughBottomLeftToTopRight | Логический | Пересечение рамки снизу слева до верха справа |
+| strikethroughTopLeftToBottomRight | Логический | Пересечение рамки сверху слева до низа справа |
 
 ### Возвращаемое значение
 
-Границы с этим элементом внутри
+Рамка с элементом, помещенным внутрь
 
 ### Примеры
 

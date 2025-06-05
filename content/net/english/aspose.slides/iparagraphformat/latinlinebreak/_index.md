@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/iparagraphformat/latinlinebreak/
 ---
+
 ## IParagraphFormat.LatinLineBreak property
 
 Determines whether the Latin line break is used in a paragraph. No inheritance applied. Read/write [`NullableBool`](../../nullablebool).

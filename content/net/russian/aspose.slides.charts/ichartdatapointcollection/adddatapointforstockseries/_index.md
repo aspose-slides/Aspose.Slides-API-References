@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForStockSeries
 second_title: Aspose.Slides для .NET API Reference
-description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, чей chartType является одним из субтипов Stock, см. также метод ChartTypeCharacterizer.IsChartTypeStockChartType.
+description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, чей chartType является одним из подтипов Stock, см. также метод ChartTypeCharacterizer.IsChartTypeStockChartType.
 type: docs
 weight: 190
 url: /ru/aspose.slides.charts/ichartdatapointcollection/adddatapointforstockseries/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/ichartdatapointcollection/adddatapointforstockseri
 
 ## AddDataPointForStockSeries(IChartDataCell) {#adddatapointforstockseries}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, чей chartType является одним из субтипов Stock (см. также метод ChartTypeCharacterizer.IsChartTypeStock(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, чей chartType является одним из подтипов Stock (см. также метод ChartTypeCharacterizer.IsChartTypeStock(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForStockSeries(IChartDataCell value)
@@ -19,7 +19,7 @@ public IChartDataPoint AddDataPointForStockSeries(IChartDataCell value)
 | --- | --- | --- |
 | value | IChartDataCell | Значение точки данных. |
 
-### Возврат значения
+### Возврат
 
 Новая точка данных.
 
@@ -35,7 +35,7 @@ public IChartDataPoint AddDataPointForStockSeries(IChartDataCell value)
 
 ## AddDataPointForStockSeries(double) {#adddatapointforstockseries_1}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, чей chartType является одним из субтипов Stock (см. также метод ChartTypeCharacterizer.IsChartTypeStock(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, чей chartType является одним из подтипов Stock (см. также метод ChartTypeCharacterizer.IsChartTypeStock(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForStockSeries(double value)
@@ -45,7 +45,7 @@ public IChartDataPoint AddDataPointForStockSeries(double value)
 | --- | --- | --- |
 | value | Double | Значение точки данных. |
 
-### Возврат значения
+### Возврат
 
 Новая точка данных.
 

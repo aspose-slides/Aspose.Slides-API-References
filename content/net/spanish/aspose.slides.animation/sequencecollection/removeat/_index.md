@@ -1,6 +1,6 @@
 ---
 title: RemoveAt
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Elimina la secuencia en el índice especificado.
 type: docs
 weight: 70
@@ -19,7 +19,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 |  |
 
-### Ver También
+### Véase también
 
 * clase [SequenceCollection](../../sequencecollection)
 * espacio de nombres [Aspose.Slides.Animation](../../sequencecollection)

@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Référence API Aspose.Slides pour .NET
-description: Obtient les données de formatage de remplissage effectives avec l'héritage appliqué.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Obtient les données de formatage de remplissage effectif avec l'héritage appliqué.
 type: docs
 weight: 70
 url: /fr/aspose.slides/fillformat/geteffective/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/fillformat/geteffective/
 
 ## Méthode FillFormat.GetEffective
 
-Obtient les données de formatage de remplissage effectives avec l'héritage appliqué.
+Obtient les données de formatage de remplissage effectif avec l'héritage appliqué.
 
 ```csharp
 public IFillFormatEffectiveData GetEffective()
@@ -21,7 +21,7 @@ Un [`IFillFormatEffectiveData`](../../ifillformateffectivedata).
 
 ### Exemples
 
-Cet exemple montre comment obtenir les propriétés de format de remplissage effectif d'une forme.
+Cet exemple démontre comment obtenir les propriétés de format de remplissage effectif d'une forme.
 
 ```csharp
 [C#]
@@ -37,12 +37,12 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 			break;
 		case FillType.Pattern:
 			Console.WriteLine("Style de motif: " + effectiveFillFormat.PatternFormat.PatternStyle);
-			Console.WriteLine("Couleur de premier plan: " + effectiveFillFormat.PatternFormat.ForeColor);
-			Console.WriteLine("Couleur d'arrière-plan: " + effectiveFillFormat.PatternFormat.BackColor);
+			Console.WriteLine("Couleur avant: " + effectiveFillFormat.PatternFormat.ForeColor);
+			Console.WriteLine("Couleur arrière: " + effectiveFillFormat.PatternFormat.BackColor);
 			break;
 		case FillType.Gradient:
 			Console.WriteLine("Direction du dégradé: " + effectiveFillFormat.GradientFormat.GradientDirection);
-			Console.WriteLine("Nombre d'arrêts de dégradé: " + effectiveFillFormat.GradientFormat.GradientStops.Count);
+			Console.WriteLine("Nombre d'arrêt de dégradé: " + effectiveFillFormat.GradientFormat.GradientStops.Count);
 			break;
 		case FillType.Picture:
 			Console.WriteLine("Largeur de l'image: " + effectiveFillFormat.PictureFillFormat.Picture.Image.Width);

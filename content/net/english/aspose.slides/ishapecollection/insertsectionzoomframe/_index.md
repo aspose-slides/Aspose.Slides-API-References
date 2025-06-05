@@ -6,6 +6,7 @@ type: docs
 weight: 320
 url: /aspose.slides/ishapecollection/insertsectionzoomframe/
 ---
+
 ## InsertSectionZoomFrame(int, float, float, float, float, ISection) {#insertsectionzoomframe}
 
 Creates a new Section Zoom object and inserts into to a collection at the specified index.

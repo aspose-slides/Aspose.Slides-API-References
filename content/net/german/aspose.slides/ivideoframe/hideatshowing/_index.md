@@ -1,6 +1,6 @@
 ---
 title: HideAtShowing
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Bestimmt, ob ein VideoFrame verborgen ist. Lese-/Schreib-Boolean.
 type: docs
 weight: 50
@@ -15,7 +15,7 @@ Bestimmt, ob ein VideoFrame verborgen ist. Lese-/Schreib-Boolean.
 public bool HideAtShowing { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IVideoFrame](../../ivideoframe)
 * Namespace [Aspose.Slides](../../ivideoframe)

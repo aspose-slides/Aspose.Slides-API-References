@@ -1,7 +1,7 @@
 ---
 title: IInk
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente un objet encre sur une diapositive.
+second_title: Référence API Aspose.Slides pour .NET
+description: Représente un objet d'encre sur une diapositive.
 type: docs
 weight: 7280
 url: /fr/aspose.slides.ink/iink/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.ink/iink/
 
 ## Interface IInk
 
-Représente un objet encre sur une diapositive.
+Représente un objet d'encre sur une diapositive.
 
 ```csharp
 public interface IInk : IGraphicalObject
@@ -19,10 +19,10 @@ public interface IInk : IGraphicalObject
 
 | Nom | Description |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | Permet d'obtenir l'interface de base IGraphicalObject. En lecture seule [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
-| [Traces](../../aspose.slides.ink/iink/traces) { get; } | Obtient toutes les traces contenues dans l'élément IInk [`IInkTrace`](../iinktrace). En lecture seule. |
+| [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | Permet d'obtenir l'interface de base IGraphicalObject. Lecture seule [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [Traces](../../aspose.slides.ink/iink/traces) { get; } | Obtient toutes les traces contenues dans l'élément IInk [`IInkTrace`](../iinktrace). Lecture seule. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IGraphicalObject](../../aspose.slides/igraphicalobject)
 * namespace [Aspose.Slides.Ink](../../aspose.slides.ink)

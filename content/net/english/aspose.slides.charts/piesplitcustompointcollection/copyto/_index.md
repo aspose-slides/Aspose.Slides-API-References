@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.charts/piesplitcustompointcollection/copyto/
 ---
+
 ## PieSplitCustomPointCollection.CopyTo method
 
 Copies the elements of the ICollection to an Array, starting at a particular Array index.

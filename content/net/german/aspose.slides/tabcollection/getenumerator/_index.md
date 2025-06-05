@@ -19,7 +19,7 @@ public IEnumerator<ITab> GetEnumerator()
 
 Ein IEnumerator, der verwendet werden kann, um durch die Sammlung zu iterieren.
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ITab](../../itab)
 * Klasse [TabCollection](../../tabcollection)

@@ -1,7 +1,7 @@
 ---
 title: ResolveUri
-second_title: Aspose.Slides für .NET API Referenz
-description: Auflösung der absoluten URI aus der Basis- und relativen URI.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Löst die absolute URI aus der Basis- und relativen URI.
 type: docs
 weight: 20
 url: /de/aspose.slides.import/iexternalresourceresolver/resolveuri/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.import/iexternalresourceresolver/resolveuri/
 
 ## IExternalResourceResolver.ResolveUri Methode
 
-Auflösung der absoluten URI aus der Basis- und relativen URI.
+Löst die absolute URI aus der Basis- und relativen URI.
 
 ```csharp
 public string ResolveUri(string baseUri, string relativeUri)
@@ -17,14 +17,14 @@ public string ResolveUri(string baseUri, string relativeUri)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| baseUri | String | Basis-URI der verlinkenden Objekte |
+| baseUri | String | Basis-URI der verlinkten Objekte |
 | relativeUri | String | Relative URI zum verlinkten Objekt. |
 
 ### Rückgabewert
 
 Absolute URI oder null, wenn die relative URI nicht aufgelöst werden kann.
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IExternalResourceResolver](../../iexternalresourceresolver)
 * Namespace [Aspose.Slides.Import](../../iexternalresourceresolver)

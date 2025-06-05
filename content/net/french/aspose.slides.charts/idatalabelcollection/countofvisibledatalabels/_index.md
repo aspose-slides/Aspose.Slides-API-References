@@ -1,6 +1,6 @@
 ---
 title: CountOfVisibleDataLabels
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Obtient le nombre d'étiquettes de données visibles dans la collection. Lecture seule Int32.
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ Obtient le nombre d'étiquettes de données visibles dans la collection. Lecture
 public int CountOfVisibleDataLabels { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IDataLabelCollection](../../idatalabelcollection)
 * namespace [Aspose.Slides.Charts](../../idatalabelcollection)

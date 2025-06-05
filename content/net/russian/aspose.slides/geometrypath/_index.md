@@ -35,19 +35,19 @@ public sealed class GeometryPath : IGeometryPath
 | --- | --- |
 | [ArcTo](../../aspose.slides/geometrypath/arcto)(float, float, float, float) | Добавляет указанный дугу к пути. |
 | [CloseFigure](../../aspose.slides/geometrypath/closefigure)() | Закрывает текущую фигуру этого пути |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | Добавляет кубическую кривую Безье в конец пути |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | Добавляет кубическую кривую Безье в конце пути |
 | [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | Добавляет кубическую кривую Безье в указанное место пути |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | Добавляет кубическую кривую Безье в конец пути |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | Добавляет кубическую кривую Безье в конце пути |
 | [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | Добавляет кубическую кривую Безье в указанное место пути |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_2)(PointF) | Добавляет линию к концу пути |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto)(float, float) | Добавляет линию к концу пути |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_2)(PointF) | Добавляет линию в конец пути |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto)(float, float) | Добавляет линию в конец пути |
 | [LineTo](../../aspose.slides/geometrypath/lineto#lineto_3)(PointF, uint) | Добавляет линию в указанное место пути |
 | [LineTo](../../aspose.slides/geometrypath/lineto#lineto_1)(float, float, uint) | Добавляет линию в указанное место пути |
 | [MoveTo](../../aspose.slides/geometrypath/moveto#moveto_1)(PointF) | Устанавливает позицию следующей точки. |
 | [MoveTo](../../aspose.slides/geometrypath/moveto#moveto)(float, float) | Устанавливает позицию следующей точки. |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | Добавляет квадратичную кривую Безье в конец пути |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | Добавляет квадратичную кривую Безье в конце пути |
 | [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | Добавляет квадратичную кривую Безье в указанное место пути |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | Добавляет квадратичную кривую Безье в конец пути |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | Добавляет квадратичную кривую Безье в конце пути |
 | [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | Добавляет квадратичную кривую Безье в указанное место пути |
 | [RemoveAt](../../aspose.slides/geometrypath/removeat)(int) | Удаляет сегмент по указанному индексу геометрического пути. |
 

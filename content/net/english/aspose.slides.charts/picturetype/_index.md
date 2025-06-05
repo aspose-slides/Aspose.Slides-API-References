@@ -3,9 +3,10 @@ title: PictureType
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines mode of bar picture filling.
 type: docs
-weight: 2250
+weight: 2280
 url: /aspose.slides.charts/picturetype/
 ---
+
 ## PictureType enumeration
 
 Determines mode of bar picture filling.

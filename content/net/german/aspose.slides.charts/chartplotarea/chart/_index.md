@@ -1,7 +1,7 @@
 ---
-title: Diagramm
-second_title: Aspose.Slides für .NET API Referenz
-description: Diagramm. Nur-lesbare IChartaspose.slides.charts/ichart.
+title: Chart
+second_title: Aspose.Slides für .NET API-Referenz
+description: Chart. Nur lesbar IChartaspose.slides.charts/ichart.
 type: docs
 weight: 60
 url: /de/aspose.slides.charts/chartplotarea/chart/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartplotarea/chart/
 
 ## ChartPlotArea.Chart-Eigenschaft
 
-Diagramm. Nur-lesbare [`IChart`](../../ichart).
+Chart. Nur lesbar [`IChart`](../../ichart).
 
 ```csharp
 public IChart Chart { get; }

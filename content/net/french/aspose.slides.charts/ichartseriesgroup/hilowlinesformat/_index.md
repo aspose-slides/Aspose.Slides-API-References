@@ -1,7 +1,7 @@
 ---
 title: HiLowLinesFormat
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie le format HiLowLines. HiLowLines est appliqué avec les types de graphiques HiLowClose, OpenHiLowClose, VolumeHiLowClose et VolumeOpenHiLowClose.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Spécifie le format HiLowLines. HiLowLines est appliqué avec les types de graphique HiLowClose, OpenHiLowClose, VolumeHiLowClose et VolumeOpenHiLowClose.
 type: docs
 weight: 90
 url: /fr/aspose.slides.charts/ichartseriesgroup/hilowlinesformat/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/ichartseriesgroup/hilowlinesformat/
 
 ## Propriété IChartSeriesGroup.HiLowLinesFormat
 
-Spécifie le format HiLowLines. HiLowLines est appliqué avec les types de graphiques HiLowClose, OpenHiLowClose, VolumeHiLowClose et VolumeOpenHiLowClose.
+Spécifie le format HiLowLines. HiLowLines est appliqué avec les types de graphique HiLowClose, OpenHiLowClose, VolumeHiLowClose et VolumeOpenHiLowClose.
 
 ```csharp
 public IChartLinesFormat HiLowLinesFormat { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IChartLinesFormat](../../ichartlinesformat)
 * interface [IChartSeriesGroup](../../ichartseriesgroup)

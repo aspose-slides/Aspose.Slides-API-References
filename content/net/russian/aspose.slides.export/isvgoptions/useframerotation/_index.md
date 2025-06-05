@@ -1,7 +1,7 @@
 ---
 title: UseFrameRotation
-second_title: Aspose.Sildes для .NET API Справочник
-description: Определяет, следует ли выполнять указанное вращение фигуры при рендеринге или нет. Свойство для чтения/записи типа Boolean. Значение по умолчанию - true.
+second_title: Aspose.Sildes для .NET API Справка
+description: Определяет, следует ли выполнять указанное вращение фигуры при рендеринге или нет. Читаемое/записываемое логическое значение. Значение по умолчанию - true.
 type: docs
 weight: 130
 url: /ru/aspose.slides.export/isvgoptions/useframerotation/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export/isvgoptions/useframerotation/
 
 ## ISVGOptions.UseFrameRotation свойство
 
-Определяет, следует ли выполнять указанное вращение фигуры при рендеринге или нет. Свойство для чтения/записи типа Boolean. Значение по умолчанию - true.
+Определяет, следует ли выполнять указанное вращение фигуры при рендеринге или нет. Читаемое/записываемое логическое значение. Значение по умолчанию - true.
 
 ```csharp
 public bool UseFrameRotation { get; set; }

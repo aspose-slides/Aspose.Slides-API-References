@@ -1,15 +1,15 @@
 ---
 title: CopyFrom
-second_title: Référence API Aspose.Slides pour .NET
-description: Copie le format de texte d'un cadre de texte spécifié.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Copie le format de texte à partir du cadre de texte spécifié.
 type: docs
 weight: 40
 url: /fr/aspose.slides.charts/icharttextformat/copyfrom/
 ---
 
-## Méthode IChartTextFormat.CopyFrom
+## IChartTextFormat.CopyFrom méthode
 
-Copie le format de texte d'un cadre de texte spécifié.
+Copie le format de texte à partir du cadre de texte spécifié.
 
 ```csharp
 public void CopyFrom(ITextFrame sourceTextFrame)

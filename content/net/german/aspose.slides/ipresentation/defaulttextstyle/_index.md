@@ -1,7 +1,7 @@
 ---
 title: DefaultTextStyle
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Standardtextstil für Formen zurück. Schreibgeschütztes ITextStyleaspose.slides/itextstyle.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den standardmäßigen Textstil für Formen zurück. Nur lesbarer ITextStyleaspose.slides/itextstyle.
 type: docs
 weight: 80
 url: /de/aspose.slides/ipresentation/defaulttextstyle/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ipresentation/defaulttextstyle/
 
 ## IPresentation.DefaultTextStyle-Eigenschaft
 
-Gibt den Standardtextstil für Formen zurück. Schreibgeschütztes [`ITextStyle`](../../itextstyle).
+Gibt den standardmäßigen Textstil für Formen zurück. Nur lesbar [`ITextStyle`](../../itextstyle).
 
 ```csharp
 public ITextStyle DefaultTextStyle { get; }

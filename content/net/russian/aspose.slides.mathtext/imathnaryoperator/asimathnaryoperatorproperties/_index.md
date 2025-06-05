@@ -1,6 +1,6 @@
 ---
 title: AsIMathNaryOperatorProperties
-second_title: Aspose.Slides для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Позволяет получить базовый интерфейс IMathNaryOperatorProperties IMathNaryOperatorPropertiesaspose.slides.mathtext/imathnaryoperatorproperties
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.mathtext/imathnaryoperator/asimathnaryoperatorproperties/
 public IMathNaryOperatorProperties AsIMathNaryOperatorProperties { get; }
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [IMathNaryOperatorProperties](../../imathnaryoperatorproperties)
 * интерфейс [IMathNaryOperator](../../imathnaryoperator)

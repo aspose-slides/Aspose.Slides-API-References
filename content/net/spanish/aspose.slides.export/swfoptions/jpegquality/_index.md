@@ -1,6 +1,6 @@
 ---
 title: JpegQuality
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes for .NET API Reference
 description: Especifica la calidad de las imágenes JPEG. El valor predeterminado es 95.
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ Especifica la calidad de las imágenes JPEG. El valor predeterminado es 95.
 public int JpegQuality { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [SwfOptions](../../swfoptions)
 * espacio de nombres [Aspose.Slides.Export](../../swfoptions)

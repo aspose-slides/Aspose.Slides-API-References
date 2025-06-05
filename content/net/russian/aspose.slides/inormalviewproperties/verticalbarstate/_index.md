@@ -1,21 +1,21 @@
 ---
 title: VerticalBarState
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Указывает состояние, в котором должна отображаться вертикальная разделительная панель. Вертикальная разделительная панель отделяет слайд от области бокового содержания.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Указывает состояние, в котором должна отображаться вертикальная панель разбиения. Вертикальная панель разбиения отделяет слайд от области бокового содержимого.
 type: docs
 weight: 70
 url: /ru/aspose.slides/inormalviewproperties/verticalbarstate/
 ---
 
-## Свойство INormalViewProperties.VerticalBarState
+## INormalViewProperties.VerticalBarState свойство
 
-Указывает состояние, в котором должна отображаться вертикальная разделительная панель. Вертикальная разделительная панель отделяет слайд от области бокового содержания.
+Указывает состояние, в котором должна отображаться вертикальная панель разбиения. Вертикальная панель разбиения отделяет слайд от области бокового содержимого.
 
 ```csharp
 public SplitterBarStateType VerticalBarState { get; set; }
 ```
 
-### См. также
+### Также см.
 
 * enum [SplitterBarStateType](../../splitterbarstatetype)
 * interface [INormalViewProperties](../../inormalviewproperties)

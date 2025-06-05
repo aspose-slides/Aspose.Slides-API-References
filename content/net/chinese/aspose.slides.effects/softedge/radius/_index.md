@@ -1,21 +1,21 @@
 ---
-title: 半径
-second_title: Aspose.Slides for .NET API 参考
-description: 指定应用于边缘的模糊半径。可读/写双精度浮点数。
+title: Radius
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定应用于边缘的模糊半径。可读写的 Double。
 type: docs
 weight: 10
 url: /zh/aspose.slides.effects/softedge/radius/
 ---
 
-## SoftEdge.Radius 属性
+## SoftEdge.Radius property
 
-指定应用于边缘的模糊半径。可读/写双精度浮点数。
+指定应用于边缘的模糊半径。可读写的 Double。
 
 ```csharp
 public double Radius { get; set; }
 ```
 
-### 另请参阅
+### See Also
 
 * class [SoftEdge](../../softedge)
 * namespace [Aspose.Slides.Effects](../../softedge)

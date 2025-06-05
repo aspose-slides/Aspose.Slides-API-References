@@ -15,7 +15,7 @@ Representa la fuente de datos del gráfico
 public string ExternalWorkbookPath { get; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [ChartData](../../chartdata)
 * espacio de nombres [Aspose.Slides.Charts](../../chartdata)

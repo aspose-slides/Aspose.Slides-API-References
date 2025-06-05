@@ -1,15 +1,15 @@
 ---
 title: Light1
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour Référence API .NET
 description: Première couleur claire dans le schéma. Couleur en lecture seule.
 type: docs
 weight: 120
 url: /fr/aspose.slides.theme/icolorschemeeffectivedata/light1/
 ---
 
-## Propriété IColorSchemeEffectiveData.Light1
+## IColorSchemeEffectiveData.Light1 propriété
 
-Première couleur claire dans le schéma. Couleur en lecture seule.
+ Première couleur claire dans le schéma. Couleur en lecture seule.
 
 ```csharp
 public Color Light1 { get; }

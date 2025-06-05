@@ -1,15 +1,15 @@
 ---
 title: CreateParagraphFormat
-second_title: Aspose.Sildes für .NET API Referenz
-description: Erstellt eine neue IParagraphFormataspose.slides/iparagraphformat.
+second_title: Aspose.Slides for .NET API Referenz
+description: Erstellt new IParagraphFormataspose.slides/iparagraphformat.
 type: docs
 weight: 30
 url: /de/aspose.slides/formatfactory/createparagraphformat/
 ---
 
-## FormatFactory.CreateParagraphFormat Methode
+## FormatFactory.CreateParagraphFormat-Methode
 
-Erstellt ein neues [`IParagraphFormat`](../../iparagraphformat).
+Erstellt new [`IParagraphFormat`](../../iparagraphformat).
 
 ```csharp
 public IParagraphFormat CreateParagraphFormat()
@@ -19,7 +19,7 @@ public IParagraphFormat CreateParagraphFormat()
 
 Neues Absatzformat.
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IParagraphFormat](../../iparagraphformat)
 * Klasse [FormatFactory](../../formatfactory)

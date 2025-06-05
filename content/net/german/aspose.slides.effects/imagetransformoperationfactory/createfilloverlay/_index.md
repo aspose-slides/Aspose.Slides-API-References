@@ -1,7 +1,7 @@
 ---
 title: CreateFillOverlay
 second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt einen Füll-Overlay-Effekt.
+description: Erstellt einen Füllüberlagerungseffekt.
 type: docs
 weight: 140
 url: /de/aspose.slides.effects/imagetransformoperationfactory/createfilloverlay/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/imagetransformoperationfactory/createfilloverlay/
 
 ## ImageTransformOperationFactory.CreateFillOverlay-Methode
 
-Erstellt einen Füll-Overlay-Effekt.
+Erstellt einen Füllüberlagerungseffekt.
 
 ```csharp
 public IFillOverlay CreateFillOverlay()
@@ -17,7 +17,7 @@ public IFillOverlay CreateFillOverlay()
 
 ### Rückgabewert
 
-Füll-Overlay-Effekt.
+Füllüberlagerungseffekt.
 
 ### Siehe auch
 

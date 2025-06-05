@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffect/
 ---
+
 ## IImageTransformOperationCollection.AddDuotoneEffect method
 
 Adds the new Duotone effect to the end of a collection.

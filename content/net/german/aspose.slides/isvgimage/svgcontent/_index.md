@@ -1,7 +1,7 @@
 ---
 title: SvgContent
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den SVG-Inhalt zurück. Nur-Lese-Zeichenfolge.
+description: Gibt SVG-Inhalt zurück. Nur-Lesen String.
 type: docs
 weight: 30
 url: /de/aspose.slides/isvgimage/svgcontent/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/isvgimage/svgcontent/
 
 ## ISvgImage.SvgContent-Eigenschaft
 
-Gibt den SVG-Inhalt zurück. Nur-Lese-Zeichenfolge.
+Gibt SVG-Inhalt zurück. Nur-Lesen String.
 
 ```csharp
 public string SvgContent { get; }

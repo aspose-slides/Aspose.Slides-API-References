@@ -1,7 +1,7 @@
 ---
 title: PlotOnSecondAxis
-second_title: Référence API Aspose.Slides pour .NET
-description: Indique si la série de ce groupe est tracée sur l'axe secondaire. Booléen en lecture seule.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Indique si les séries de ce groupe sont tracées sur l'axe secondaire. Booléen en lecture seule.
 type: docs
 weight: 160
 url: /fr/aspose.slides.charts/chartseriesgroup/plotonsecondaxis/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/chartseriesgroup/plotonsecondaxis/
 
 ## Propriété ChartSeriesGroup.PlotOnSecondAxis
 
-Indique si la série de ce groupe est tracée sur l'axe secondaire. Booléen en lecture seule.
+Indique si les séries de ce groupe sont tracées sur l'axe secondaire. Booléen en lecture seule.
 
 ```csharp
 public bool PlotOnSecondAxis { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [ChartSeriesGroup](../../chartseriesgroup)
 * espace de noms [Aspose.Slides.Charts](../../chartseriesgroup)

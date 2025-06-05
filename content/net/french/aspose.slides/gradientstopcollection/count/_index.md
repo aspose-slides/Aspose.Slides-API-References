@@ -1,15 +1,15 @@
 ---
-title: Compter
-second_title: Référence de l’API Aspose.Slides pour .NET
-description: Renvoie le nombre d'arrêts de gradient dans une collection. Lecture seule Int32.
+title: Count
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie le nombre d'arrêts de dégradé dans une collection. Lecture seule Int32.
 type: docs
 weight: 10
 url: /fr/aspose.slides/gradientstopcollection/count/
 ---
 
-## Propriété GradientStopCollection.Count
+## GradientStopCollection.Count property
 
-Renvoie le nombre d'arrêts de gradient dans une collection. Lecture seule Int32.
+Renvoie le nombre d'arrêts de dégradé dans une collection. Lecture seule Int32.
 
 ```csharp
 public int Count { get; }

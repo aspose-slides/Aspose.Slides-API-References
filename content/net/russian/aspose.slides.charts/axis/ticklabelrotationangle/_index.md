@@ -1,7 +1,7 @@
 ---
-title: УголПоворотаПодписейМаркеров
-second_title: Справочник API Aspose.Sildes для .NET
-description: Представляет угол поворота подписей маркеров. Чтение/запись Single.
+title: TickLabelRotationAngle
+second_title: Справка по API Aspose.Sildes для .NET
+description: Представляет угол поворота меток делений. Чтение/запись Single.
 type: docs
 weight: 520
 url: /ru/aspose.slides.charts/axis/ticklabelrotationangle/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.charts/axis/ticklabelrotationangle/
 
 ## Свойство Axis.TickLabelRotationAngle
 
-Представляет угол поворота подписей маркеров. Чтение/запись Single.
+Представляет угол поворота меток делений. Чтение/запись Single.
 
 ```csharp
 public float TickLabelRotationAngle { get; set; }
 ```
 
-### См. Также
+### См. также
 
 * класс [Axis](../../axis)
 * пространство имен [Aspose.Slides.Charts](../../axis)

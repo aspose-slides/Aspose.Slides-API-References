@@ -1,7 +1,7 @@
 ---
 title: NewLineType
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt an, ob das generierte Dokument neue Zeilen \\rMacintosh, \\nUnix oder \\r\\nWindows haben soll. Standard ist Unix.
+description: Gibt an, ob das generierte Dokument Zeilenumbrüche \\rMacintosh, \\nUnix oder \\r\\nWindows haben soll. Standardmäßig ist Unix.
 type: docs
 weight: 70
 url: /de/aspose.slides.export/markdownsaveoptions/newlinetype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/markdownsaveoptions/newlinetype/
 
 ## MarkdownSaveOptions.NewLineType-Eigenschaft
 
-Gibt an, ob das generierte Dokument neue Zeilen \\r(Macintosh), \\n(Unix) oder \\r\\n(Windows) haben soll. Standard ist `Unix`.
+Gibt an, ob das generierte Dokument Zeilenumbrüche \\r(Macintosh), \\n(Unix) oder \\r\\n(Windows) haben soll. Standardmäßig ist `Unix`.
 
 ```csharp
 public NewLineType NewLineType { get; set; }

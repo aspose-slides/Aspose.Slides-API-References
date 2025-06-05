@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/threedformat/bevelbottom/
 ---
+
 ## ThreeDFormat.BevelBottom property
 
 Returns or sets the type of a bottom 3D bevel. Read-only [`IShapeBevel`](../../ishapebevel).

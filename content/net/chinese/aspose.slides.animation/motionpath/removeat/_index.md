@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
-second_title: Aspose.Slides for .NET API参考
-description: 移除指定索引处的命令。
+second_title: Aspose.Sildes for .NET API Reference
+description: 删除指定索引处的命令。
 type: docs
 weight: 90
 url: /zh/aspose.slides.animation/motionpath/removeat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/motionpath/removeat/
 
 ## MotionPath.RemoveAt 方法
 
-移除指定索引处的命令。
+删除指定索引处的命令。
 
 ```csharp
 public void RemoveAt(int index)

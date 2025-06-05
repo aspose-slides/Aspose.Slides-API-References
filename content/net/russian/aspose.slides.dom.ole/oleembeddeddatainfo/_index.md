@@ -1,15 +1,15 @@
 ---
 title: OleEmbeddedDataInfo
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет информацию о встроенных данных для OLE-объекта.
+second_title: Aspose.Slides для .NET API Reference
+description: Представляет информацию о встроенных данных для объекта OLE.
 type: docs
 weight: 2670
 url: /ru/aspose.slides.dom.ole/oleembeddeddatainfo/
 ---
 
-## Класс OleEmbeddedDataInfo
+## OleEmbeddedDataInfo class
 
-Представляет информацию о встроенных данных для OLE-объекта.
+Представляет информацию о встроенных данных для объекта OLE.
 
 ```csharp
 public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
@@ -17,19 +17,19 @@ public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
 
 ## Конструкторы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | Создает новую информацию о встроенных данных для OLE-объекта. |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | Создает новый экземпляр информации о встроенных данных для OLE-объекта. Данные файла встроенного OLE-объекта Byte[]. Расширение файла для текущего встроенного OLE-объекта String. |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | Создает новую информацию о встроенных данных для объекта OLE. |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | Создает новый экземпляр информации о встроенных данных для объекта OLE. Данные файла встроенного объекта OLE Byte[]. Расширение файла для текущего встроенного объекта OLE String. |
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | Возвращает данные файла встроенного OLE-объекта. Только для чтения Byte[]. |
-| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | Возвращает расширение файла для текущего встроенного OLE-объекта. Только для чтения String. |
+| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | Возвращает данные файла встроенного объекта OLE. Только для чтения Byte[]. |
+| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | Возвращает расширение файла для текущего встроенного объекта OLE. Только для чтения String. |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IOleEmbeddedDataInfo](../../aspose.slides/ioleembeddeddatainfo)
 * пространство имен [Aspose.Slides.DOM.Ole](../../aspose.slides.dom.ole)

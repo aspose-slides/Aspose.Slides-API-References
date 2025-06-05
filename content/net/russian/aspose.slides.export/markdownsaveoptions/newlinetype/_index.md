@@ -1,21 +1,21 @@
 ---
 title: NewLineType
-second_title: Aspose.Slides для .NET API Справочник
-description: Указывает, должны ли сгенерированный документ иметь новые строки \\rMacintosh или \\nUnix, или \\r\\nWindows. По умолчанию используется Unix.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Указывает, должен ли сгенерированный документ использовать новые строки \\rMacintosh \\nUnix или \\r\\nWindows. По умолчанию используется Unix.
 type: docs
 weight: 70
 url: /ru/aspose.slides.export/markdownsaveoptions/newlinetype/
 ---
 
-## Свойство MarkdownSaveOptions.NewLineType
+## MarkdownSaveOptions.NewLineType property
 
-Указывает, должны ли сгенерированный документ иметь новые строки \\r(Macintosh) или \\n(Unix), или \\r\\n(Windows). По умолчанию используется `Unix`.
+Указывает, должен ли сгенерированный документ использовать новые строки \\r(Macintosh) \\n(Unix) или \\r\\n(Windows). По умолчанию используется `Unix`.
 
 ```csharp
 public NewLineType NewLineType { get; set; }
 ```
 
-### См. также
+### Также смотри
 
 * enum [NewLineType](../../newlinetype)
 * class [MarkdownSaveOptions](../../markdownsaveoptions)

@@ -1,15 +1,15 @@
 ---
-title: Символ
-second_title: Справочник API Aspose.Sildes для .NET
-description: Представляет стиль маркера в линейном графике, диаграмме разброса или радарном графике. Чтение/запись MarkerStyleTypeaspose.slides.charts/markerstyletype.
+title: Symbol
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет стиль маркера в линейном графике, точечном графике или радиальном графике. Чтение/запись MarkerStyleTypeaspose.slides.charts/markerstyletype.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/imarker/symbol/
 ---
 
-## Свойство IMarker.Symbol
+## IMarker.Symbol свойство
 
-Представляет стиль маркера в линейном графике, диаграмме разброса или радарном графике. Чтение/запись [`MarkerStyleType`](../../markerstyletype).
+Представляет стиль маркера в линейном графике, точечном графике или радиальном графике. Чтение/запись [`MarkerStyleType`](../../markerstyletype).
 
 ```csharp
 public MarkerStyleType Symbol { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: DoubleChartValue
 second_title: Aspose.Slides für .NET API Referenz
-description: Stellt einen Double-Wert dar, der in einem pptx-Präsentationsdokument auf zwei Arten gespeichert werden kann 1 in Zelle/Zellen der Arbeitsmappe, die mit dem Diagramm verbunden sind; 2 als Literalwert.
+description: Stellt einen doppelten Wert dar, der in einem pptx-Präsentationsdokument auf zwei Arten gespeichert werden kann 1 in einer Zelle/einem Zellbereich des Arbeitsbuchs, das mit dem Diagramm verbunden ist; 2 als literaler Wert.
 type: docs
 weight: 1550
 url: /de/aspose.slides.charts/doublechartvalue/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/doublechartvalue/
 
 ## DoubleChartValue-Klasse
 
-Stellt einen Double-Wert dar, der in einem pptx-Präsentationsdokument auf zwei Arten gespeichert werden kann: 1) in Zelle/Zellen der Arbeitsmappe, die mit dem Diagramm verbunden sind; 2) als Literalwert.
+Stellt einen doppelten Wert dar, der in einem pptx-Präsentationsdokument auf zwei Arten gespeichert werden kann: 1) in einer Zelle/einem Zellbereich des Arbeitsbuchs, das mit dem Diagramm verbunden ist; 2) als literaler Wert.
 
 ```csharp
 public class DoubleChartValue : BaseChartValue, IDoubleChartValue
@@ -19,16 +19,16 @@ public class DoubleChartValue : BaseChartValue, IDoubleChartValue
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/doublechartvalue/ascell) { get; set; } | Gibt die Diagrammdatenzelle zurück oder legt sie fest. Lesen/Schreiben [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteralDouble](../../aspose.slides.charts/doublechartvalue/asliteraldouble) { get; set; } | Gibt den Wert als Literal-Double zurück oder legt ihn fest. Lesen/Schreiben Double. |
-| override [Data](../../aspose.slides.charts/doublechartvalue/data) { get; set; } | Gibt das Data-Objekt zurück oder legt es fest. Lesen/Schreiben Objekt. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Gibt an, ob die Eigenschaften AsCell, AsCells, AsLiteralString oder AsLiteralDouble in den Nachfahren aktuell sind. Mit anderen Worten, sie gibt den Typ des Wertes der Data-Eigenschaft an. Lesen/Schreiben [`DataSourceType`](../datasourcetype). |
+| [AsCell](../../aspose.slides.charts/doublechartvalue/ascell) { get; set; } | Gibt die Diagrammdatenzelle zurück oder setzt sie. Lese-/Schreibzugriff [`IChartDataCell`](../ichartdatacell). |
+| [AsLiteralDouble](../../aspose.slides.charts/doublechartvalue/asliteraldouble) { get; set; } | Gibt den Wert als literalen Double zurück oder setzt ihn. Lese-/Schreibzugriff Double. |
+| override [Data](../../aspose.slides.charts/doublechartvalue/data) { get; set; } | Gibt das Data-Objekt zurück oder setzt es. Lese-/Schreibzugriff Object. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Gibt an, ob die Eigenschaften AsCell, AsCells, AsLiteralString oder AsLiteralDouble in den Abkömmlingen aktuell sind. Mit anderen Worten, sie gibt den Typ des Wertes der Data-Eigenschaft an. Lese-/Schreibzugriff [`DataSourceType`](../datasourcetype). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [ToDouble](../../aspose.slides.charts/doublechartvalue/todouble)() | Konvertiert zu Double. |
+| [ToDouble](../../aspose.slides.charts/doublechartvalue/todouble)() | Konvertiert in Double. |
 
 ### Siehe auch
 

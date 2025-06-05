@@ -1,25 +1,25 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Slides pour .NET Référence API
-description: Renvoie un énumérateur qui itère sur la collection.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Renvoie un énumérateur qui itère à travers la collection.
 type: docs
 weight: 290
 url: /fr/aspose.slides.charts/chartdatapointcollection/getenumerator/
 ---
 
-## Méthode ChartDataPointCollection.GetEnumerator
+## ChartDataPointCollection.GetEnumerator méthode
 
-Renvoie un énumérateur qui itère sur la collection.
+Renvoie un énumérateur qui itère à travers la collection.
 
 ```csharp
 public IEnumerator<IChartDataPoint> GetEnumerator()
 ```
 
-### Valeur de Retour
+### Valeur de retour
 
-Un IEnumerator qui peut être utilisé pour itérer sur la collection.
+Un IEnumerator qui peut être utilisé pour itérer à travers la collection.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IChartDataPoint](../../ichartdatapoint)
 * classe [ChartDataPointCollection](../../chartdatapointcollection)

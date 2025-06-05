@@ -1,13 +1,13 @@
 ---
 title: InsertOleObjectFrame
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Crée un nouvel objet OLE et l'insère dans une collection à l'index spécifié.
 type: docs
 weight: 350
 url: /fr/aspose.slides/shapecollection/insertoleobjectframe/
 ---
 
-## InsertOleObjectFrame(int, float, float, float, float, IOleEmbeddedDataInfo) {#insertoleobjectframe}
+## InsertOleObjectFrame(int, float, float, float, float, IOleEmbeddedDataInfo) {#insertoleobjectframe}
 
 Crée un nouvel objet OLE et l'insère dans une collection à l'index spécifié.
 
@@ -18,20 +18,20 @@ public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float w
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | L'index basé sur zéro où l'objet OLE doit être inséré. |
+| index | Int32 | L'index basé sur zéro auquel l'objet OLE doit être inséré. |
 | x | Single | Coordonnée X d'un nouveau cadre OLE. |
 | y | Single | Coordonnée Y d'un nouveau cadre OLE. |
 | width | Single | Largeur d'un nouveau cadre OLE. |
 | height | Single | Hauteur d'un nouveau cadre OLE. |
 | dataInfo | IOleEmbeddedDataInfo | Informations sur les données intégrées [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |
 
-### Valeur de retour
+### Valeur de Retour
 
 Objet OLE créé.
 
 ### Exemples
 
-Cet exemple montre comment insérer un objet OLE à l'index deux :
+Cet exemple démontre l'insertion d'un objet OLE à l'index deux :
 
 ```csharp
 [C#]
@@ -50,7 +50,7 @@ IOleObjectFrame oleObjectFrame = slidees.Shapes.AddOleObjectFrame(2, 150, 20, 50
 
 ---
 
-## InsertOleObjectFrame(int, float, float, float, float, string, string) {#insertoleobjectframe_1}
+## InsertOleObjectFrame(int, float, float, float, float, string, string) {#insertoleobjectframe_1}
 
 Crée un nouvel objet OLE et l'insère dans une collection à l'index spécifié.
 
@@ -61,7 +61,7 @@ public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float w
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | L'index basé sur zéro où l'objet OLE doit être inséré. |
+| index | Int32 | L'index basé sur zéro auquel l'objet OLE doit être inséré. |
 | x | Single | Coordonnée X d'un nouveau cadre OLE. |
 | y | Single | Coordonnée Y d'un nouveau cadre OLE. |
 | width | Single | Largeur d'un nouveau cadre OLE. |
@@ -69,7 +69,7 @@ public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float w
 | className | String | Nom d'une classe OLE. |
 | path | String | Chemin vers le fichier lié. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Objet OLE créé.
 

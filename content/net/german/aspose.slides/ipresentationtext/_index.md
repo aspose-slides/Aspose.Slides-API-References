@@ -1,7 +1,7 @@
 ---
 title: IPresentationText
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt den von der Folie extrahierten Text dar
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt den aus der Folie extrahierten Text dar
 type: docs
 weight: 6600
 url: /de/aspose.slides/ipresentationtext/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ipresentationtext/
 
 ## IPresentationText-Schnittstelle
 
-Stellt den von der Folie extrahierten Text dar
+Stellt den aus der Folie extrahierten Text dar
 
 ```csharp
 public interface IPresentationText

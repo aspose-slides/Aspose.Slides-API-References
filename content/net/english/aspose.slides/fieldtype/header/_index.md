@@ -6,6 +6,7 @@ type: docs
 weight: 170
 url: /aspose.slides/fieldtype/header/
 ---
+
 ## FieldType.Header property
 
 Slide's header. Read-only [`FieldType`](../../fieldtype).

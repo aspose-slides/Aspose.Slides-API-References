@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.export/ipdfoptions/drawslidesframe/
 ---
+
 ## IPdfOptions.DrawSlidesFrame property
 
 True to draw black frame around each slide. Read/write Boolean.

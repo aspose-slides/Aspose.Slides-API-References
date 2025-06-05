@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/ilayoutable/width/
 ---
+
 ## ILayoutable.Width property
 
 Specifies the width of the chart element as a fraction of the width of the chart. Read/write Single.

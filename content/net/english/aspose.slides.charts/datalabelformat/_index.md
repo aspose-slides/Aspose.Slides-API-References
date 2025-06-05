@@ -3,9 +3,10 @@ title: DataLabelFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents formatting options for DataLabel.
 type: docs
-weight: 1460
+weight: 1490
 url: /aspose.slides.charts/datalabelformat/
 ---
+
 ## DataLabelFormat class
 
 Represents formatting options for DataLabel.

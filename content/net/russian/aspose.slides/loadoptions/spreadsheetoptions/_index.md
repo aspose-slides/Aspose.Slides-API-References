@@ -1,7 +1,7 @@
 ---
 title: SpreadsheetOptions
 second_title: Aspose.Sildes для .NET API Справочник
-description: Получает параметры для электронных таблиц. Например, эти параметры влияют на вычисление формул для диаграмм.
+description: Получает параметры для электронных таблиц. Например, эти параметры влияют на вычисление формул для графиков.
 type: docs
 weight: 140
 url: /ru/aspose.slides/loadoptions/spreadsheetoptions/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/loadoptions/spreadsheetoptions/
 
 ## LoadOptions.SpreadsheetOptions свойство
 
-Получает параметры для электронных таблиц. Например, эти параметры влияют на вычисление формул для диаграмм.
+Получает параметры для электронных таблиц. Например, эти параметры влияют на вычисление формул для графиков.
 
 ```csharp
 public ISpreadsheetOptions SpreadsheetOptions { get; set; }

@@ -1,6 +1,6 @@
 ---
 title: CreateMathRadical
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Slides для .NET API Справочник
 description: Создает математический радикал
 type: docs
 weight: 10
@@ -17,14 +17,14 @@ public IMathRadical CreateMathRadical(IMathElement baseArgument, IMathElement de
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| baseArgument | IMathElement | Основной аргумент для применения радикала |
+| baseArgument | IMathElement | Основание, к которому применяется радикал |
 | degreeArgument | IMathElement | Значение степени |
 
 ### Возвращаемое значение
 
 новый элемент радикала
 
-### См. также
+### Смотрите также
 
 * интерфейс [IMathRadical](../../imathradical)
 * интерфейс [IMathElement](../../imathelement)

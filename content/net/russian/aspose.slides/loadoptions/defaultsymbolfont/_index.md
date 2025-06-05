@@ -1,7 +1,7 @@
 ---
 title: DefaultSymbolFont
-second_title: Aspose.Slides для .NET API Справка
-description: Возвращает или задает символ шрифта, используемый в случае, если исходный шрифт не найден. Читаемый/записываемый строка.
+second_title: Aspose.Slides для справки по .NET API
+description: Возвращает или устанавливает шрифт Symbol, используемый в случае, если исходный шрифт не найден. Чтение/запись Строка.
 type: docs
 weight: 50
 url: /ru/aspose.slides/loadoptions/defaultsymbolfont/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/loadoptions/defaultsymbolfont/
 
 ## LoadOptions.DefaultSymbolFont свойство
 
-Возвращает или задает символ шрифта, используемый в случае, если исходный шрифт не найден. Читаемый/записываемый строка.
+Возвращает или устанавливает шрифт Symbol, используемый в случае, если исходный шрифт не найден. Чтение/запись Строка.
 
 ```csharp
 public string DefaultSymbolFont { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * класс [LoadOptions](../../loadoptions)
 * пространство имен [Aspose.Slides](../../loadoptions)

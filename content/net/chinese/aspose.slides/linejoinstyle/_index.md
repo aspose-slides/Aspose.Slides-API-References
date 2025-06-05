@@ -1,15 +1,15 @@
 ---
-title: 线连接样式
-second_title: Aspose.Slides for .NET API 参考
-description: 表示线条的连接样式。
+title: LineJoinStyle
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示线条连接样式。
 type: docs
 weight: 7560
 url: /zh/aspose.slides/linejoinstyle/
 ---
 
-## LineJoinStyle 枚举
+## LineJoinStyle枚举
 
-表示线条的连接样式。
+表示线条连接样式。
 
 ```csharp
 public enum LineJoinStyle : sbyte
@@ -24,7 +24,7 @@ public enum LineJoinStyle : sbyte
 | Bevel | `1` |  |
 | Miter | `2` |  |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

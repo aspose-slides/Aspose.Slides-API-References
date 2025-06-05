@@ -1,15 +1,15 @@
 ---
 title: Description
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie la description textuelle de l'objet Section de Zoom Résumé.
+second_title: Aspose.Slides pour .NET API Référence
+description: Renvoie la description textuelle de l'objet Section Zoom de Résumé.
 type: docs
 weight: 20
 url: /fr/aspose.slides/isummaryzoomsection/description/
 ---
 
-## Propriété ISummaryZoomSection.Description
+## ISummaryZoomSection.Description propriété
 
-Renvoie la description textuelle de l'objet Section de Zoom Résumé.
+Renvoie la description textuelle de l'objet Section Zoom de Résumé.
 
 ```csharp
 public string Description { get; set; }

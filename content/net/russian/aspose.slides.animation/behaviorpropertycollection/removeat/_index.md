@@ -1,6 +1,6 @@
 ---
 title: RemoveAt
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Reference
 description: Удаляет свойство по указанному индексу.
 type: docs
 weight: 120
@@ -19,7 +19,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Индекс свойства, которое должно быть удалено. |
 
-### Также см.
+### См. также
 
 * класс [BehaviorPropertyCollection](../../behaviorpropertycollection)
 * пространство имен [Aspose.Slides.Animation](../../behaviorpropertycollection)

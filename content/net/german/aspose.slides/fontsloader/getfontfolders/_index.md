@@ -1,7 +1,7 @@
 ---
 title: GetFontFolders
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt Schriftartenordner zurück. Gibt Ordner zurück, die mit der Methode LoadExternalFonts hinzugefügt wurden, sowie Systemschriftartenordner
+second_title: Aspose.Slides für .NET API Referenz
+description: Holt Schriftartenordner. Gibt Ordner zurück, die mit der Methode LoadExternalFonts hinzugefügt wurden, sowie systemeigene Schriftartenordner
 type: docs
 weight: 20
 url: /de/aspose.slides/fontsloader/getfontfolders/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/fontsloader/getfontfolders/
 
 ## FontsLoader.GetFontFolders Methode
 
-Gibt Schriftartenordner zurück. Gibt Ordner zurück, die mit der Methode LoadExternalFonts hinzugefügt wurden, sowie Systemschriftartenordner
+Holt Schriftartenordner. Gibt Ordner zurück, die mit der Methode LoadExternalFonts hinzugefügt wurden, sowie systemeigene Schriftartenordner
 
 ```csharp
 public static string[] GetFontFolders()

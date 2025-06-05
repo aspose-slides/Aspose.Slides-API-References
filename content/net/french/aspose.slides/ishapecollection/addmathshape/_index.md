@@ -1,7 +1,7 @@
 ---
 title: AddMathShape
-second_title: Aspose.Slides pour .NET Référence API
-description: Crée une nouvelle AutoShape du type Rectangle pour contenir du contenu mathématique et l'ajoute à la fin de la collection.
+second_title: Aspose.Sildes pour la référence de l'API .NET
+description: Crée un nouvel AutoShape de type Rectangle pour héberger le contenu mathématique à l'intérieur et l'ajoute à la fin de la collection.
 type: docs
 weight: 110
 url: /fr/aspose.slides/ishapecollection/addmathshape/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ishapecollection/addmathshape/
 
 ## IShapeCollection.AddMathShape méthode
 
-Crée une nouvelle AutoShape du type Rectangle pour contenir du contenu mathématique et l'ajoute à la fin de la collection.
+Crée un nouvel AutoShape de type Rectangle pour héberger le contenu mathématique à l'intérieur et l'ajoute à la fin de la collection.
 
 ```csharp
 public IAutoShape AddMathShape(float x, float y, float width, float height)
@@ -17,8 +17,8 @@ public IAutoShape AddMathShape(float x, float y, float width, float height)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| x | Single | La coordonnée X pour le côté gauche du cadre de la forme. |
-| y | Single | La coordonnée Y pour le côté supérieur du cadre de la forme. |
+| x | Single | La coordonnée X pour un côté gauche du cadre de la forme. |
+| y | Single | La coordonnée Y pour un côté supérieur du cadre de la forme. |
 | width | Single | La largeur du cadre de la forme. |
 | height | Single | La hauteur du cadre de la forme. |
 

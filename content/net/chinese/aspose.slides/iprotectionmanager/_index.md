@@ -1,6 +1,6 @@
 ---
 title: IProtectionManager
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 演示文稿密码保护管理。
 type: docs
 weight: 6620
@@ -19,24 +19,24 @@ public interface IProtectionManager
 
 | 名称 | 描述 |
 | --- | --- |
-| [EncryptDocumentProperties](../../aspose.slides/iprotectionmanager/encryptdocumentproperties) { get; set; } | 当演示文稿受到密码保护时，此属性有意义。如果为真，则文档属性在演示文稿文件中被加密。如果为假，则文档属性在演示文稿加密时是公开的。可读/写布尔值。 |
+| [EncryptDocumentProperties](../../aspose.slides/iprotectionmanager/encryptdocumentproperties) { get; set; } | 如果演示文稿受密码保护，则此属性有意义。如果为 true，则文档属性在演示文稿文件中被加密。如果为 false，则文档属性在演示文稿加密时为公开。可读写布尔值。 |
 | [EncryptionPassword](../../aspose.slides/iprotectionmanager/encryptionpassword) { get; } | 返回加密密码。只读字符串。 |
-| [IsEncrypted](../../aspose.slides/iprotectionmanager/isencrypted) { get; } | 获取一个值，指示此实例是否被加密。只读布尔值。 |
-| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/iprotectionmanager/isonlydocumentpropertiesloaded) { get; } | 当演示文稿文件受到密码保护且该文件的文档属性是公开时，此属性有意义。真值意味着仅从加密演示文稿文件加载文档属性，而无需使用密码。假值意味着整个加密演示文稿与正确密码一起加载，而不仅仅是加载文档属性。如果演示文稿未加密，则属性值始终为假。如果加密文件的文档属性不是公开的，则属性值始终为假。如果 PresentationEx.EncryptDocumentProperties 为真，则 IsOnlyDocumentPropertiesLoaded 属性值始终为假。只读布尔值。 |
-| [IsWriteProtected](../../aspose.slides/iprotectionmanager/iswriteprotected) { get; } | 获取一个值，指示此演示文稿是否受到写保护。只读布尔值。 |
-| [ReadOnlyRecommended](../../aspose.slides/iprotectionmanager/readonlyrecommended) { get; set; } | 获取或设置只读推荐。可读/写布尔值。 |
+| [IsEncrypted](../../aspose.slides/iprotectionmanager/isencrypted) { get; } | 获取一个值，指示此实例是否已加密。只读布尔值。 |
+| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/iprotectionmanager/isonlydocumentpropertiesloaded) { get; } | 如果演示文稿文件受密码保护并且该文件的文档属性是公开的，则此属性有意义。值为 true 表示仅从加密的演示文稿文件中加载文档属性，而不使用密码。值为 false 表示整个加密的演示文稿在使用正确密码的情况下加载，而不仅仅是加载文档属性。如果演示文稿未加密，则属性值始终为 false。如果加密文件的文档属性不公开，则属性值始终为 false。如果 PresentationEx.EncryptDocumentProperties 为 true，则 IsOnlyDocumentPropertiesLoaded 属性值始终为 false。只读布尔值。 |
+| [IsWriteProtected](../../aspose.slides/iprotectionmanager/iswriteprotected) { get; } | 获取一个值，指示此演示文稿是否为写保护。只读布尔值。 |
+| [ReadOnlyRecommended](../../aspose.slides/iprotectionmanager/readonlyrecommended) { get; set; } | 获取或设置只读推荐。可读写布尔值。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [CheckWriteProtection](../../aspose.slides/iprotectionmanager/checkwriteprotection)(string) | 确定演示文稿是否受到密码保护以进行修改。 |
+| [CheckWriteProtection](../../aspose.slides/iprotectionmanager/checkwriteprotection)(string) | 确定演示文稿是否受密码保护以进行修改。 |
 | [Encrypt](../../aspose.slides/iprotectionmanager/encrypt)(string) | 使用指定密码加密演示文稿。 |
 | [RemoveEncryption](../../aspose.slides/iprotectionmanager/removeencryption)() | 移除加密。 |
 | [RemoveWriteProtection](../../aspose.slides/iprotectionmanager/removewriteprotection)() | 移除此演示文稿的写保护。 |
 | [SetWriteProtection](../../aspose.slides/iprotectionmanager/setwriteprotection)(string) | 使用指定密码设置此演示文稿的写保护。 |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

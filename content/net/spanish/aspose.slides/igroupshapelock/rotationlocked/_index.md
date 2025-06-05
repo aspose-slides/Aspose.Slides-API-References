@@ -1,13 +1,13 @@
 ---
 title: RotationLocked
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Determina si cambiar el ángulo de rotación de esta forma está prohibido. Booleano de lectura/escritura.
 type: docs
 weight: 50
 url: /es/aspose.slides/igroupshapelock/rotationlocked/
 ---
 
-## IGroupShapeLock.RotationLocked property
+## Propiedad IGroupShapeLock.RotationLocked
 
 Determina si cambiar el ángulo de rotación de esta forma está prohibido. Booleano de lectura/escritura.
 
@@ -15,7 +15,7 @@ Determina si cambiar el ángulo de rotación de esta forma está prohibido. Bool
 public bool RotationLocked { get; set; }
 ```
 
-### Ver También
+### Vea También
 
 * interfaz [IGroupShapeLock](../../igroupshapelock)
 * espacio de nombres [Aspose.Slides](../../igroupshapelock)

@@ -1,7 +1,7 @@
 ---
 title: PresentationLockingBehavior
-second_title: Aspose.Slides для .NET API Справочник
-description: Это свойство определяет, может ли экземпляр класса Presentation быть владельцем источника - файла или потока на протяжении времени существования экземпляра. Если экземпляр является владельцем, он блокирует источник. Это помогает улучшить потребление памяти и производительность при работе с BLOB, но источник поток или файл не может быть изменен на протяжении времени существования экземпляра Presentation. Вот пример
+second_title: Aspose.Sildes для .NET API Справочник
+description: Это свойство определяет, может ли экземпляр класса Presentation быть владельцем источника - файла или потока на протяжении срока службы экземпляра. Если экземпляр является владельцем, он блокирует источник. Это помогает улучшить потребление памяти и производительность при работе с BLOB-ами, но источник поток или файл не может быть изменен в течение срока службы экземпляра Presentation. Это пример
 type: docs
 weight: 30
 url: /ru/aspose.slides/iblobmanagementoptions/presentationlockingbehavior/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/iblobmanagementoptions/presentationlockingbehavior/
 
 ## IBlobManagementOptions.PresentationLockingBehavior свойство
 
-Это свойство определяет, может ли экземпляр класса Presentation быть владельцем источника - файла или потока на протяжении времени существования экземпляра. Если экземпляр является владельцем, он блокирует источник. Это помогает улучшить потребление памяти и производительность при работе с BLOB, но источник (поток или файл) не может быть изменен на протяжении времени существования экземпляра Presentation. Вот пример:
+Это свойство определяет, может ли экземпляр класса Presentation быть владельцем источника - файла или потока на протяжении срока службы экземпляра. Если экземпляр является владельцем, он блокирует источник. Это помогает улучшить потребление памяти и производительность при работе с BLOB-ами, но источник (поток или файл) не может быть изменен в течение срока службы экземпляра Presentation. Это пример:
 
 ```csharp
 public PresentationLockingBehavior PresentationLockingBehavior { get; set; }
@@ -21,14 +21,14 @@ public PresentationLockingBehavior PresentationLockingBehavior { get; set; }
 LoadOptions loadOptions = new LoadOptions { 
   BlobManagementOptions = {PresentationLockingBehavior = PresentationLockingBehavior.KeepLocked} };
 using (Presentation pres = new Presentation("pres.pptx", loadOptions)) {
-  // IOException будет выброшено, потому что pres.pptx заблокирован на время существования Presentation
+  // IOException будет выброшено, потому что pres.pptx заблокирован на время жизни Presentation
   // File.Delete("pres.pptx");
 }
-// после уничтожения объекта Presentation файл разблокирован и может быть удален
+// после освобождения объекта Presentation файл разблокирован и может быть удален
 File.Delete("pres.pptx");
 ```
 
-### См. Также
+### Также смотри
 
 * enum [PresentationLockingBehavior](../../presentationlockingbehavior)
 * interface [IBlobManagementOptions](../../iblobmanagementoptions)

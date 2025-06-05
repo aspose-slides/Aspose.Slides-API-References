@@ -1,15 +1,15 @@
 ---
 title: PresetShadowType
-second_title: Aspose.Sildes for .NET API 参考
-description: 代表阴影效果的预设。
+second_title: Aspose.Sildes for .NET API Reference
+description: 代表阴影效果的预设.
 type: docs
 weight: 9400
 url: /zh/aspose.slides/presetshadowtype/
 ---
 
-## PresetShadowType 枚举
+## PresetShadowType枚举
 
-代表阴影效果的预设。
+代表阴影效果的预设.
 
 ```csharp
 public enum PresetShadowType
@@ -19,28 +19,28 @@ public enum PresetShadowType
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| TopLeftDropShadow | `0` | 代表左上方阴影。 |
-| TopLeftLargeDropShadow | `1` | 代表左上方大阴影。 |
-| BackLeftLongPerspectiveShadow | `2` | 代表后左长透视阴影。 |
-| BackRightLongPerspectiveShadow | `3` | 代表后右长透视阴影。 |
-| TopLeftDoubleDropShadow | `4` | 代表左上方双阴影。 |
-| BottomRightSmallDropShadow | `5` | 代表右下方小阴影。 |
-| FrontLeftLongPerspectiveShadow | `6` | 代表前左长透视阴影。 |
-| FrontRightLongPerspectiveShadow | `7` | 代表前右长透视阴影。 |
-| OuterBoxShadow3D | `8` | 代表外部盒子阴影3D。 |
-| InnerBoxShadow3D | `9` | 代表内部盒子阴影3D。 |
-| BackCenterPerspectiveShadow | `10` | 代表后中心透视阴影。 |
-| TopRightDropShadow | `11` | 代表右上方阴影。 |
-| FrontBottomShadow | `12` | 代表前下方阴影。 |
-| BackLeftPerspectiveShadow | `13` | 代表后左透视阴影。 |
-| BackRightPerspectiveShadow | `14` | 代表后右透视阴影。 |
-| BottomLeftDropShadow | `15` | 代表左下方阴影。 |
-| BottomRightDropShadow | `16` | 代表右下方阴影。 |
-| FrontLeftPerspectiveShadow | `17` | 代表前左透视阴影。 |
-| FrontRightPerspectiveShadow | `18` | 代表前右透视阴影。 |
-| TopLeftSmallDropShadow | `19` | 代表左上方小阴影。 |
+| TopLeftDropShadow | `0` | 代表左上角下沉阴影. |
+| TopLeftLargeDropShadow | `1` | 代表左上角大型下沉阴影. |
+| BackLeftLongPerspectiveShadow | `2` | 代表左后长透视阴影 |
+| BackRightLongPerspectiveShadow | `3` | 代表右后长透视阴影 |
+| TopLeftDoubleDropShadow | `4` | 代表左上角双重下沉阴影. |
+| BottomRightSmallDropShadow | `5` | 代表右下角小下沉阴影. |
+| FrontLeftLongPerspectiveShadow | `6` | 代表左前长透视阴影. |
+| FrontRightLongPerspectiveShadow | `7` | 代表右前长透视阴影. |
+| OuterBoxShadow3D | `8` | 代表外部3D盒阴影. |
+| InnerBoxShadow3D | `9` | 代表内部3D盒阴影. |
+| BackCenterPerspectiveShadow | `10` | 代表后中心透视阴影. |
+| TopRightDropShadow | `11` | 代表右上角下沉阴影. |
+| FrontBottomShadow | `12` | 代表前底部阴影. |
+| BackLeftPerspectiveShadow | `13` | 代表左后透视阴影. |
+| BackRightPerspectiveShadow | `14` | 代表右后透视阴影. |
+| BottomLeftDropShadow | `15` | 代表左下角下沉阴影. |
+| BottomRightDropShadow | `16` | 代表右下角下沉阴影. |
+| FrontLeftPerspectiveShadow | `17` | 代表左前透视阴影. |
+| FrontRightPerspectiveShadow | `18` | 代表右前透视阴影. |
+| TopLeftSmallDropShadow | `19` | 代表左上角小下沉阴影. |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

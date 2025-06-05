@@ -1,7 +1,7 @@
 ---
-title: Motif
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie la forme des éléments visuels utilisés lors de la transition. Lecture/écriture TransitionPatternaspose.slides.slideshow/transitionpattern.
+title: Pattern
+second_title: Référence API Aspose.Slides pour .NET
+description: Spécifie la forme des éléments visuels utilisés pendant la transition. Lecture/écriture TransitionPatternaspose.slides.slideshow/transitionpattern.
 type: docs
 weight: 30
 url: /fr/aspose.slides.slideshow/iglittertransition/pattern/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.slideshow/iglittertransition/pattern/
 
 ## Propriété IGlitterTransition.Pattern
 
-Spécifie la forme des éléments visuels utilisés lors de la transition. Lecture/écriture [`TransitionPattern`](../../transitionpattern).
+Spécifie la forme des éléments visuels utilisés pendant la transition. Lecture/écriture [`TransitionPattern`](../../transitionpattern).
 
 ```csharp
 public TransitionPattern Pattern { get; set; }

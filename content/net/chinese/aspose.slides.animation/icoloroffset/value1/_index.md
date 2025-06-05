@@ -1,7 +1,7 @@
 ---
-title: 值1
-second_title: Aspose.Slides for .NET API 参考
-description: 定义偏移量的第二个值。可读写的单精度浮点数。
+title: Value1
+second_title: Aspose.Sildes for .NET API Reference
+description: 定义偏移的第二个值。可读/可写 Single。
 type: docs
 weight: 20
 url: /zh/aspose.slides.animation/icoloroffset/value1/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.animation/icoloroffset/value1/
 
 ## IColorOffset.Value1 属性
 
-定义偏移量的第二个值。可读写的单精度浮点数。
+定义偏移的第二个值。可读/可写 Single。
 
 ```csharp
 public float Value1 { get; set; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IColorOffset](../../icoloroffset)
 * 命名空间 [Aspose.Slides.Animation](../../icoloroffset)

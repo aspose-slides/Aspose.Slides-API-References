@@ -1,7 +1,7 @@
 ---
 title: ShowMasterShapes
-second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie si les formes sur la diapositive maître doivent être affichées sur les diapositives ou non. Pour la diapositive maître elle-même, cette propriété retourne toujours false. Lecture/écriture Booléen.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Spécifie si les formes sur la diapositive maître doivent être affichées sur les diapositives ou non. Pour la diapositive maître elle-même, cette propriété renvoie toujours false. Booléen lisible/écrivable.
 type: docs
 weight: 80
 url: /fr/aspose.slides/baseslide/showmastershapes/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/baseslide/showmastershapes/
 
 ## BaseSlide.ShowMasterShapes property
 
-Spécifie si les formes sur la diapositive maître doivent être affichées sur les diapositives ou non. Pour la diapositive maître elle-même, cette propriété retourne toujours `false`. Lecture/écriture Booléen.
+Spécifie si les formes sur la diapositive maître doivent être affichées sur les diapositives ou non. Pour la diapositive maître elle-même, cette propriété renvoie toujours `false`. Booléen lisible/écrivable.
 
 ```csharp
 public abstract bool ShowMasterShapes { get; set; }
@@ -19,9 +19,9 @@ public abstract bool ShowMasterShapes { get; set; }
 
 | exception | condition |
 | --- | --- |
-| NotSupportedException | Lancé si défini `true` pour la diapositive maître. |
+| NotSupportedException | Lancé si défini sur `true` pour la diapositive maître. |
 
-### Voir Aussi
+### Voir aussi
 
 * class [BaseSlide](../../baseslide)
 * namespace [Aspose.Slides](../../baseslide)

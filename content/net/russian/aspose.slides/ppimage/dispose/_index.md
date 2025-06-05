@@ -1,13 +1,13 @@
 ---
-title: Освобождение
-second_title: Справочник по API Aspose.Slides для .NET
+title: Dispose
+second_title: Aspose.Sildes для справочника API .NET
 description: Освобождает объект.
 type: docs
 weight: 90
 url: /ru/aspose.slides/ppimage/dispose/
 ---
 
-## Метод PPImage.Dispose
+## PPImage.Dispose метод
 
 Освобождает объект.
 

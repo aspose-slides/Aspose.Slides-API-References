@@ -1,7 +1,7 @@
 ---
 title: SignTime
 second_title: Aspose.Slides für .NET API-Referenz
-description: Der Zeitpunkt, an dem das Dokument signiert wurde. Nur-Lese DateTime.
+description: Der Zeitpunkt, zu dem das Dokument signiert wurde. Nur-Lese DateTime.
 type: docs
 weight: 50
 url: /de/aspose.slides/digitalsignature/signtime/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/digitalsignature/signtime/
 
 ## DigitalSignature.SignTime-Eigenschaft
 
-Der Zeitpunkt, an dem das Dokument signiert wurde. Nur-Lese DateTime.
+Der Zeitpunkt, zu dem das Dokument signiert wurde. Nur-Lese DateTime.
 
 ```csharp
 public DateTime SignTime { get; }

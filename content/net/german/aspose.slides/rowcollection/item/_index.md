@@ -1,7 +1,7 @@
 ---
-title: Element
+title: Item
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Zeile am angegebenen Index zurück. Nur-lesbare Zeile aspose.slides/row.
+description: Gibt die Zeile am angegebenen Index zurück. Nur Lese-Zeile aspose.slides/row.
 type: docs
 weight: 30
 url: /de/aspose.slides/rowcollection/item/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/rowcollection/item/
 
 ## RowCollection-Indexer
 
-Gibt die Zeile am angegebenen Index zurück. Nur-lesbare [`Row`](../../row).
+Gibt die Zeile am angegebenen Index zurück. Nur Lese- [`Row`](../../row).
 
 ```csharp
 public IRow this[int index] { get; }

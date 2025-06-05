@@ -1,15 +1,15 @@
 ---
 title: NoBreak
 second_title: Aspose.Sildes for .NET API Reference
-description: 不可断裂。此属性指定对象框的不可断裂属性。当为真时，框内无法发生换行。这对于由多个二进制运算符组成的运算符模拟器可能很重要。当未指定此元素时，框内可以发生换行。默认值：true
+description: 不断行。此属性指定对象框上的“不可分割”属性。当为真时，框内不能出现换行。这对于由多个二元运算符组成的运算符模拟器可能很重要。当不指定此元素时，框内可能会出现换行。默认值：真
 type: docs
 weight: 60
 url: /zh/aspose.slides.mathtext/imathbox/nobreak/
 ---
 
-## IMathBox.NoBreak 属性
+## IMathBox.NoBreak property
 
-不可断裂。此属性指定对象框上的“不可断裂”属性。当为真时，框内无法发生换行。这对于由多个二进制运算符组成的运算符模拟器可能很重要。当未指定此元素时，框内可以发生换行。默认值：true
+不断行。此属性指定对象框上的“不可分割”属性。当为真时，框内不能出现换行。这对于由多个二元运算符组成的运算符模拟器可能很重要。当不指定此元素时，框内可能会出现换行。默认值：真
 
 ```csharp
 public bool NoBreak { get; set; }
@@ -25,7 +25,7 @@ IMathBox box = new MathematicalText("**********").ToBox();
 box.NoBreak = false;
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IMathBox](../../imathbox)
 * 命名空间 [Aspose.Slides.MathText](../../imathbox)

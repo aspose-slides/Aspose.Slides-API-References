@@ -1,7 +1,7 @@
 ---
 title: Metered
 second_title: Aspose.Slides für .NET API-Referenz
-description: Bietet Methoden zum Setzen des metered-Schlüssels.
+description: Bietet Methoden zum Festlegen des gemessenen Schlüssels.
 type: docs
 weight: 8810
 url: /de/aspose.slides/metered/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/metered/
 
 ## Metered-Klasse
 
-Bietet Methoden zum Setzen des metered-Schlüssels.
+Bietet Methoden zum Festlegen des gemessenen Schlüssels.
 
 ```csharp
 public class Metered
@@ -25,14 +25,14 @@ public class Metered
 
 | Name | Beschreibung |
 | --- | --- |
-| [SetMeteredKey](../../aspose.slides/metered/setmeteredkey)(string, string) | Setzt den metered öffentlichen und privaten Schlüssel |
-| static [GetConsumptionCredit](../../aspose.slides/metered/getconsumptioncredit)() | Holt den Verbrauchsguthaben |
-| static [GetConsumptionQuantity](../../aspose.slides/metered/getconsumptionquantity)() | Holt die Verbrauchsdateigröße |
-| static [IsMeteredLicensed](../../aspose.slides/metered/ismeteredlicensed)() | Überprüft, ob metered lizenziert ist |
+| [SetMeteredKey](../../aspose.slides/metered/setmeteredkey)(string, string) | Setzt den gemessenen öffentlichen und privaten Schlüssel |
+| static [GetConsumptionCredit](../../aspose.slides/metered/getconsumptioncredit)() | Holt das Verbrauchsguthaben |
+| static [GetConsumptionQuantity](../../aspose.slides/metered/getconsumptionquantity)() | Holt die Dateigröße des Verbrauchs |
+| static [IsMeteredLicensed](../../aspose.slides/metered/ismeteredlicensed)() | Überprüft, ob gemessen lizenziert ist |
 
 ### Beispiele
 
-In diesem Beispiel wird versucht, den metered öffentlichen und privaten Schlüssel festzulegen
+In diesem Beispiel wird versucht, den gemessenen öffentlichen und privaten Schlüssel festzulegen
 
 ```csharp
 [C#]

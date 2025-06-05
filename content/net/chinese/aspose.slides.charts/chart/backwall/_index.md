@@ -1,7 +1,7 @@
 ---
 title: BackWall
-second_title: Aspose.Slides for .NET API Reference
-description: 返回一个对象，该对象允许更改3D图表的背墙格式。为只读 IChartWallaspose.slides/ichartwall。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回一个对象，该对象允许更改 3D 图表的背墙格式。 仅限读取 IChartWallaspose.slides.charts/ichartwall。
 type: docs
 weight: 40
 url: /zh/aspose.slides.charts/chart/backwall/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/chart/backwall/
 
 ## Chart.BackWall 属性
 
-返回一个对象，该对象允许更改3D图表的背墙格式。为只读 [`IChartWall`](../../ichartwall)。
+返回一个对象，该对象允许更改 3D 图表的背墙格式。 仅限读取 [`IChartWall`](../../ichartwall)。
 
 ```csharp
 public IChartWall BackWall { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IChartWall](../../ichartwall)
 * 类 [Chart](../../chart)

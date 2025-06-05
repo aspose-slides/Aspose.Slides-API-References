@@ -1,21 +1,21 @@
 ---
-title: 透明度
-second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置填充颜色的透明度。可读写单精度浮点数。
+title: Transparency
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取或设置填充颜色的透明度。可读/写单精度浮点数。
 type: docs
 weight: 80
 url: /zh/aspose.slides/cellformat/transparency/
 ---
 
-## CellFormat.Transparency 属性
+## CellFormat.Transparency property
 
-获取或设置填充颜色的透明度。可读写单精度浮点数。
+获取或设置填充颜色的透明度。可读/写单精度浮点数。
 
 ```csharp
 public float Transparency { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [CellFormat](../../cellformat)
 * namespace [Aspose.Slides](../../cellformat)

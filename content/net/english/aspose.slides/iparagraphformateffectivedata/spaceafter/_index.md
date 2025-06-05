@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides/iparagraphformateffectivedata/spaceafter/
 ---
+
 ## IParagraphFormatEffectiveData.SpaceAfter property
 
 Returns the amount of space after the last line in a paragraph. Read-only Single.

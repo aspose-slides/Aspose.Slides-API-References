@@ -1,85 +1,85 @@
----
+---  
 title: SetExternalWorkbook
-second_title: Aspose.Slides für .NET API-Referenz
-description: Setzt die externe Arbeitsmappe als Datenquelle für das Diagramm. Die Diagrammdaten werden aus der Zielarbeitsmappe aktualisiert.
-type: docs
-weight: 110
+second_title: Aspose.Slides für .NET API Referenz  
+description: Legt die externe Arbeitsmappe als Datenquelle für das Diagramm fest. Die Diagrammdaten werden aus der Zielarbeitsmappe aktualisiert.
+type: docs  
+weight: 110  
 url: /de/aspose.slides.charts/ichartdata/setexternalworkbook/
----
+---  
 
-## SetExternalWorkbook(string) {#setexternalworkbook}
+## SetExternalWorkbook(string) {#setexternalworkbook}  
 
-Setzt die externe Arbeitsmappe als Datenquelle für das Diagramm. Die Diagrammdaten werden aus der Zielarbeitsmappe aktualisiert.
+Legt die externe Arbeitsmappe als Datenquelle für das Diagramm fest. Die Diagrammdaten werden aus der Zielarbeitsmappe aktualisiert.  
 
-```csharp
-public void SetExternalWorkbook(string workbookPath)
-```
+```csharp  
+public void SetExternalWorkbook(string workbookPath)  
+```  
 
-| Parameter      | Typ    | Beschreibung                                |
-|----------------|--------|---------------------------------------------|
-| workbookPath   | String | Pfad zur Zielarbeitsmappe                  |
+| Parameter | Typ | Beschreibung |  
+| --- | --- | --- |  
+| workbookPath | String | Pfad zur Zielarbeitsmappe |  
 
-### Ausnahmen
+### Ausnahmen  
 
-| Ausnahme                  | Bedingung                                             |
-|--------------------------|-----------------------------------------------------|
-| InvalidOperationException | Externe Arbeitsmappe ist nicht verfügbar oder kann nicht geladen werden. |
+| Ausnahme | Bedingung |  
+| --- | --- |  
+| InvalidOperationException | Die externe Arbeitsmappe ist nicht verfügbar oder kann nicht geladen werden. |  
 
-### Beispiele
+### Beispiele  
 
-```csharp
-[C#]
-using (Presentation pres = new Presentation())
+```csharp  
+[C#]  
+using (Presentation pres = new Presentation())  
 
-   IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.Pie, 50, 50, 400, 600, true);
-   IChartData chartData = chart.ChartData;
-   (chartData as ChartData).SetExternalWorkbook("../../workbook.xlsx");
+   IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.Pie, 50, 50, 400, 600, true);  
+   IChartData chartData = chart.ChartData;  
+   (chartData as ChartData).SetExternalWorkbook("../../workbook.xlsx");  
 
-```
+```  
 
-### Siehe auch
+### Siehe auch  
 
-* interface [IChartData](../../ichartdata)
-* namespace [Aspose.Slides.Charts](../../ichartdata)
-* assembly [Aspose.Slides](../../../)
+* interface [IChartData](../../ichartdata)  
+* namespace [Aspose.Slides.Charts](../../ichartdata)  
+* assembly [Aspose.Slides](../../../)  
 
----
+---  
 
-## SetExternalWorkbook(string, bool) {#setexternalworkbook_1}
+## SetExternalWorkbook(string, bool) {#setexternalworkbook_1}  
 
-Setzt die externe Arbeitsmappe als Datenquelle für das Diagramm.
+Legt die externe Arbeitsmappe als Datenquelle für das Diagramm fest.  
 
-```csharp
-public void SetExternalWorkbook(string workbookPath, bool updateChartData)
-```
+```csharp  
+public void SetExternalWorkbook(string workbookPath, bool updateChartData)  
+```  
 
-| Parameter      | Typ      | Beschreibung                                                                                                                                                                |
-|----------------|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| workbookPath   | String   | Pfad zur Zielarbeitsmappe                                                                                                                                                  |
-| updateChartData| Boolean  | Wenn der Wert false ist, wird nur der Arbeitsmappenpfad aktualisiert. Diagrammdaten werden nicht geladen und aus der Zielarbeitsmappe aktualisiert. Kann verwendet werden, wenn die Zielarbeitsmappe nicht existiert oder nicht verfügbar ist. Wenn der Wert true ist, werden die Diagrammdaten aus der Zielarbeitsmappe aktualisiert. |
+| Parameter | Typ | Beschreibung |  
+| --- | --- | --- |  
+| workbookPath | String | Pfad zur Zielarbeitsmappe |  
+| updateChartData | Boolean | Wenn der Wert false ist, wird nur der Arbeitsmappe-Pfad aktualisiert. Die Diagrammdaten werden nicht geladen und aus der Zielarbeitsmappe aktualisiert. Kann verwendet werden, wenn die Zielarbeitsmappe nicht existiert oder nicht verfügbar ist. Wenn der Wert true ist, werden die Diagrammdaten aus der Zielarbeitsmappe aktualisiert. |  
 
-### Ausnahmen
+### Ausnahmen  
 
-| Ausnahme                  | Bedingung                                             |
-|--------------------------|-----------------------------------------------------|
-| InvalidOperationException | Externe Arbeitsmappe ist nicht verfügbar oder kann nicht geladen werden. |
+| Ausnahme | Bedingung |  
+| --- | --- |  
+| InvalidOperationException | Die externe Arbeitsmappe ist nicht verfügbar oder kann nicht geladen werden. |  
 
-### Beispiele
+### Beispiele  
 
-```csharp
-using (Presentation pres = new Presentation())
+```csharp  
+using (Presentation pres = new Presentation())  
 
-   IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.Pie, 50, 50, 400, 600, true);
-   IChartData chartData = chart.ChartData;
+   IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.Pie, 50, 50, 400, 600, true);  
+   IChartData chartData = chart.ChartData;  
 
-   (chartData as ChartData).SetExternalWorkbook("http://path/doesnt/exists", false);
+   (chartData as ChartData).SetExternalWorkbook("http://path/doesnt/exists", false);  
 
-```
+```  
 
-### Siehe auch
+### Siehe auch  
 
-* interface [IChartData](../../ichartdata)
-* namespace [Aspose.Slides.Charts](../../ichartdata)
-* assembly [Aspose.Slides](../../../)
+* interface [IChartData](../../ichartdata)  
+* namespace [Aspose.Slides.Charts](../../ichartdata)  
+* assembly [Aspose.Slides](../../../)  
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->  

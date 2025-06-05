@@ -1,6 +1,6 @@
 ---
 title: IInnerShadow
-second_title: Référence de l'API Aspose.Slides for .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Représente un effet d'ombre intérieure.
 type: docs
 weight: 3300
@@ -20,12 +20,12 @@ public interface IInnerShadow : IAccessiblePVIObject<IInnerShadowEffectiveData>,
 
 | Nom | Description |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | Permet d'obtenir l'interface de base IAccessiblePVIObject. En lecture seule [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | Permet d'obtenir l'interface de base IImageTransformOperation. En lecture seule [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | Permet d'obtenir l'interface de base IAccessiblePVIObject. Lecture seule [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | Permet d'obtenir l'interface de base IImageTransformOperation. Lecture seule [`IImageTransformOperation`](../iimagetransformoperation). |
 | [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | Rayon de flou. Lecture/écriture Double. |
 | [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | Direction de l'ombre. Lecture/écriture Single. |
 | [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | Distance de l'ombre. Lecture/écriture Double. |
-| [ShadowColor](../../aspose.slides.effects/iinnershadow/shadowcolor) { get; } | Couleur de l'ombre. En lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [ShadowColor](../../aspose.slides.effects/iinnershadow/shadowcolor) { get; } | Couleur de l'ombre. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Voir aussi
 

@@ -1,7 +1,7 @@
 ---
-title: Texto
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Obtiene o establece el texto sin formato de un párrafo. Lectura/escritura String.
+title: Text
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Obtiene o establece el texto plano de un párrafo. Lectura/escritura String.
 type: docs
 weight: 50
 url: /es/aspose.slides/iparagraph/text/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/iparagraph/text/
 
 ## Propiedad IParagraph.Text
 
-Obtiene o establece el texto sin formato de un párrafo. Lectura/escritura String.
+Obtiene o establece el texto plano de un párrafo. Lectura/escritura String.
 
 ```csharp
 public string Text { get; set; }
@@ -19,10 +19,10 @@ public string Text { get; set; }
 
 El texto.
 
-### Véase También
+### Ver También
 
 * interfaz [IParagraph](../../iparagraph)
 * espacio de nombres [Aspose.Slides](../../iparagraph)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

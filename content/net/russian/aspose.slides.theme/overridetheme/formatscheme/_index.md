@@ -1,6 +1,6 @@
 ---
 title: FormatScheme
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает схему формата фигуры. Только для чтения IFormatSchemeaspose.slides.theme/iformatscheme.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.theme/overridetheme/formatscheme/
 public override IFormatScheme FormatScheme { get; }
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [IFormatScheme](../../iformatscheme)
 * класс [OverrideTheme](../../overridetheme)

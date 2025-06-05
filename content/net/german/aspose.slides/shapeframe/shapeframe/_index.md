@@ -1,7 +1,7 @@
 ---
 title: ShapeFrame
 second_title: Aspose.Slides für .NET API-Referenz
-description: Erstellt Eigenschaften für neue Formrahmen.
+description: Erstellt neue Eigenschaften für Formrahmen.
 type: docs
 weight: 10
 url: /de/aspose.slides/shapeframe/shapeframe/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/shapeframe/shapeframe/
 
 ## ShapeFrame-Konstruktor
 
-Erstellt Eigenschaften für einen neuen Formrahmen.
+Erstellt neue Eigenschaften für einen Formrahmen.
 
 ```csharp
 public ShapeFrame(float x, float y, float width, float height, NullableBool flipH, 
@@ -24,7 +24,7 @@ public ShapeFrame(float x, float y, float width, float height, NullableBool flip
 | height | Single | Höhe eines Rahmens. |
 | flipH | NullableBool | Wahr, wenn ein Rahmen horizontal gespiegelt ist. |
 | flipV | NullableBool | Wahr, wenn ein Rahmen vertikal gespiegelt ist. |
-| rotationAngle | Single | Anzahl der Grad, um die ein Rahmen gedreht ist. |
+| rotationAngle | Single | Anzahl der Grad, um die ein Rahmen rotiert ist. |
 
 ### Siehe auch
 

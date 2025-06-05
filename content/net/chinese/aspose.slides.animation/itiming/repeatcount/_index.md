@@ -1,7 +1,7 @@
 ---
 title: RepeatCount
-second_title: Aspose.Slides for .NET API Reference
-description: 描述效果应重复的次数。可读写 Single。
+second_title: Aspose.Sildes for .NET API Reference
+description: 描述效果应重复的次数。可读/写单精度浮点数。
 type: docs
 weight: 50
 url: /zh/aspose.slides.animation/itiming/repeatcount/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.animation/itiming/repeatcount/
 
 ## ITiming.RepeatCount 属性
 
-描述效果应重复的次数。可读写 Single。
+描述效果应重复的次数。可读/写单精度浮点数。
 
 ```csharp
 public float RepeatCount { get; set; }
 ```
 
-### 参见
+### 另请参见
 
 * 接口 [ITiming](../../itiming)
 * 命名空间 [Aspose.Slides.Animation](../../itiming)

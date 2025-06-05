@@ -1,7 +1,7 @@
 ---
 title: Name
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Namen des Arbeitsblatts zurück. Schreibgeschützter String.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den Namen des Arbeitsblatts zurück. Nur-Lese-String.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/chartdataworksheet/name/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/chartdataworksheet/name/
 
 ## ChartDataWorksheet.Name-Eigenschaft
 
-Gibt den Namen des Arbeitsblatts zurück. Schreibgeschützter String.
+Gibt den Namen des Arbeitsblatts zurück. Nur-Lese-String.
 
 ```csharp
 public string Name { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * class [ChartDataWorksheet](../../chartdataworksheet)
 * namespace [Aspose.Slides.Charts](../../chartdataworksheet)

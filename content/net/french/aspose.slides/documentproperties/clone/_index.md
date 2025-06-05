@@ -1,13 +1,13 @@
 ---
-title: Cloner
-second_title: Référence API Aspose.Slides pour .NET
+title: Clone
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Clone l'objet actuel
 type: docs
 weight: 390
 url: /fr/aspose.slides/documentproperties/clone/
 ---
 
-## Méthode DocumentProperties.Clone
+## DocumentProperties.Clone méthode
 
 Clone l'objet actuel
 

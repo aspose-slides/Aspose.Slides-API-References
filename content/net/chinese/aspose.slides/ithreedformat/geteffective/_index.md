@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Aspose.Sildes for .NET API 参考
-description: 获取应用继承的有效 3-D 格式数据。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取应用继承的有效3-D格式数据。
 type: docs
 weight: 120
 url: /zh/aspose.slides/ithreedformat/geteffective/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ithreedformat/geteffective/
 
 ## IThreeDFormat.GetEffective 方法
 
-获取应用继承的有效 3-D 格式数据。
+获取应用继承的有效3-D格式数据。
 
 ```csharp
 public IThreeDFormatEffectiveData GetEffective()
@@ -19,7 +19,7 @@ public IThreeDFormatEffectiveData GetEffective()
 
 一个 [`IThreeDFormatEffectiveData`](../../ithreedformateffectivedata)。
 
-### 参考
+### 另请参见
 
 * 接口 [IThreeDFormatEffectiveData](../../ithreedformateffectivedata)
 * 接口 [IThreeDFormat](../../ithreedformat)

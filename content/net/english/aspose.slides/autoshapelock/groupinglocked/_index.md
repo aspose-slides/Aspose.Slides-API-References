@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/autoshapelock/groupinglocked/
 ---
+
 ## AutoShapeLock.GroupingLocked property
 
 Determines whether an adding this shape to a group is forbidden. Read/write Boolean.

@@ -1,7 +1,7 @@
 ---
-title: Ebene
+title: Level
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Verschachtelungsebene des Knotens zurück. Schreibgeschützter Int32.
+description: Gibt die Verschachtelungsebene des Knotens zurück. Nur-Lese Int32.
 type: docs
 weight: 50
 url: /de/aspose.slides.smartart/smartartnode/level/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.smartart/smartartnode/level/
 
 ## SmartArtNode.Level-Eigenschaft
 
-Gibt die Verschachtelungsebene des Knotens zurück. Schreibgeschützter Int32.
+Gibt die Verschachtelungsebene des Knotens zurück. Nur-Lese Int32.
 
 ```csharp
 public int Level { get; }

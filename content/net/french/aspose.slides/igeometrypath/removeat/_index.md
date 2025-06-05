@@ -7,7 +7,7 @@ weight: 100
 url: /fr/aspose.slides/igeometrypath/removeat/
 ---
 
-## Méthode IGeometryPath.RemoveAt
+## IGeometryPath.RemoveAt méthode
 
 Supprime le segment à l'index spécifié du chemin géométrique.
 

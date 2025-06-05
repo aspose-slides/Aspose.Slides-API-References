@@ -1,7 +1,7 @@
 ---
-title: 持久性
-second_title: Aspose.Slides for .NET API 参考
-description: 获取用于存储 ActiveX 控件属性的方法。只读 PersistenceTypeaspose.slides/persistencetype。
+title: Persistence
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取用于存储ActiveX控件属性的方法。唯读 PersistenceTypeaspose.slides/persistencetype。
 type: docs
 weight: 50
 url: /zh/aspose.slides/control/persistence/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/control/persistence/
 
 ## Control.Persistence 属性
 
-获取用于存储 ActiveX 控件属性的方法。只读 [`PersistenceType`](../../persistencetype)。
+获取用于存储ActiveX控件属性的方法。唯读 [`PersistenceType`](../../persistencetype)。
 
 ```csharp
 public PersistenceType Persistence { get; }
@@ -17,7 +17,7 @@ public PersistenceType Persistence { get; }
 
 ### 示例
 
-下一个示例展示了如何使用 Persistence 属性检查 ActiveX 对象的属性是否可以作为基于 XML 的 ActiveX 属性进行更改：
+下例演示了如何使用 Persistence 属性检查 ActiveX 对象的属性是否可以作为基于 XML 的 ActiveX 属性进行更改：
 
 ```csharp
 [C#]

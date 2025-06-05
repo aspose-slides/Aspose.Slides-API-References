@@ -1,7 +1,7 @@
 ---
 title: Color1
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Zielfarbenformat für dunkle Pixel zurück. Nur lesbar IColorFormataspose.slides/icolorformat.
+description: Gibt das Ziel-Farbformat für dunkle Pixel zurück. Nur-lesend IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 30
 url: /de/aspose.slides.effects/iduotone/color1/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/iduotone/color1/
 
 ## IDuotone.Color1-Eigenschaft
 
-Gibt das Zielfarbenformat für dunkle Pixel zurück. Nur lesbar [`IColorFormat`](../../../aspose.slides/icolorformat).
+Gibt das Ziel-Farbformat für dunkle Pixel zurück. Nur-lesend [`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat Color1 { get; }

@@ -1,7 +1,7 @@
 ---
 title: IsSynchronized
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve un valor que indica si el acceso a la colección está sincronizado de manera segura entre hilos. Solo lectura booleano.
+description: Devuelve un valor que indica si el acceso a la colección es seguro para subprocesos sincronizado. Solo lectura Boolean.
 type: docs
 weight: 20
 url: /es/aspose.slides/videocollection/issynchronized/
@@ -9,16 +9,16 @@ url: /es/aspose.slides/videocollection/issynchronized/
 
 ## VideoCollection.IsSynchronized propiedad
 
-Devuelve un valor que indica si el acceso a la colección está sincronizado (seguro para hilos). Solo lectura booleano.
+Devuelve un valor que indica si el acceso a la colección es seguro para subprocesos (sincronizado). Solo lectura Boolean.
 
 ```csharp
 public bool IsSynchronized { get; }
 ```
 
-### Vea También
+### Ver También
 
-* clase [VideoCollection](../../videocollection)
-* espacio de nombres [Aspose.Slides](../../videocollection)
-* ensamblado [Aspose.Slides](../../../)
+* class [VideoCollection](../../videocollection)
+* namespace [Aspose.Slides](../../videocollection)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

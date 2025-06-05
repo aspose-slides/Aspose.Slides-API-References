@@ -1,7 +1,7 @@
 ---
 title: EastAsianLineBreak
 second_title: Aspose.Sildes for .NET API Reference
-description: 确定段落中是否使用东亚换行。读/写 NullableBoolaspose.slides/nullablebool。
+description: 确定段落中是否使用东亚换行。可读/写 NullableBoolaspose.slides/nullablebool。
 type: docs
 weight: 30
 url: /zh/aspose.slides.charts/ichartparagraphformat/eastasianlinebreak/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ichartparagraphformat/eastasianlinebreak/
 
 ## IChartParagraphFormat.EastAsianLineBreak 属性
 
-确定段落中是否使用东亚换行。读/写 [`NullableBool`](../../../aspose.slides/nullablebool)。
+确定段落中是否使用东亚换行。可读/写 [`NullableBool`](../../../aspose.slides/nullablebool)。
 
 ```csharp
 public NullableBool EastAsianLineBreak { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * 枚举 [NullableBool](../../../aspose.slides/nullablebool)
 * 接口 [IChartParagraphFormat](../../ichartparagraphformat)

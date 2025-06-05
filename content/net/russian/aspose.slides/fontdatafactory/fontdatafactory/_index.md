@@ -15,7 +15,7 @@ url: /ru/aspose.slides/fontdatafactory/fontdatafactory/
 public FontDataFactory()
 ```
 
-### См. Также
+### См. также
 
 * класс [FontDataFactory](../../fontdatafactory)
 * пространство имен [Aspose.Slides](../../fontdatafactory)

@@ -1,21 +1,21 @@
 ---
-title: Столбец
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает индекс столбца рабочего листа, в котором находится ячейка. Только для чтения Int32.
+title: Column
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает индекс столбца рабочего листа, в котором расположена ячейка. Только для чтения Int32.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/chartdatacell/column/
 ---
 
-## Свойство ChartDataCell.Column
+## ChartDataCell.Column свойство
 
-Возвращает индекс столбца рабочего листа, в котором находится ячейка. Только для чтения Int32.
+Возвращает индекс столбца рабочего листа, в котором расположена ячейка. Только для чтения Int32.
 
 ```csharp
 public int Column { get; }
 ```
 
-### Также см.
+### См. также
 
 * класс [ChartDataCell](../../chartdatacell)
 * пространство имен [Aspose.Slides.Charts](../../chartdatacell)

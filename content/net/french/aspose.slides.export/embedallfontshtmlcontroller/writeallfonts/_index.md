@@ -1,13 +1,13 @@
 ---
 title: WriteAllFonts
-second_title: Référence API Aspose.Slides pour .NET
-description: Écrire toutes les polices contenues dans la présentation Presentationaspose.slides/../aspose.slides/presentation.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Écrire toutes les polices contenues dans Presentationaspose.slides/presentation.
 type: docs
 weight: 20
 url: /fr/aspose.slides.export/embedallfontshtmlcontroller/writeallfonts/
 ---
 
-## Méthode EmbedAllFontsHtmlController.WriteAllFonts
+## EmbedAllFontsHtmlController.WriteAllFonts method
 
 Écrire toutes les polices contenues dans [`Presentation`](../../../aspose.slides/presentation).
 

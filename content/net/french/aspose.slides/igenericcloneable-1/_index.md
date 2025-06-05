@@ -1,13 +1,13 @@
 ---
 title: IGenericCloneableT
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Représente la version générique de ICloneable
 type: docs
 weight: 5750
 url: /fr/aspose.slides/igenericcloneable-1/
 ---
 
-## Interface IGenericCloneable&lt;T&gt;
+## IGenericCloneable&lt;T&gt; interface
 
 Représente la version générique de ICloneable
 

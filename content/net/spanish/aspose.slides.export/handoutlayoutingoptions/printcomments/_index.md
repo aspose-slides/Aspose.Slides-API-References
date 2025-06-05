@@ -1,6 +1,6 @@
 ---
 title: PrintComments
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Especifica si se deben mostrar o no los comentarios en las diapositivas
 type: docs
 weight: 30
@@ -40,7 +40,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Ver También
+### Véase También
 
 * clase [HandoutLayoutingOptions](../../handoutlayoutingoptions)
 * espacio de nombres [Aspose.Slides.Export](../../handoutlayoutingoptions)

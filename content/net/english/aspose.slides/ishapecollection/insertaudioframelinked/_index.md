@@ -6,6 +6,7 @@ type: docs
 weight: 240
 url: /aspose.slides/ishapecollection/insertaudioframelinked/
 ---
+
 ## IShapeCollection.InsertAudioFrameLinked method
 
 Creates a new audio frame with linked audio file and inserts it to a collection at the specified index.

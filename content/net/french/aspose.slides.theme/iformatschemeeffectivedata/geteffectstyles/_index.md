@@ -1,13 +1,13 @@
 ---
 title: GetEffectStyles
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Renvoie une collection de styles d'effet définis par le thème.
 type: docs
 weight: 20
 url: /fr/aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles/
 ---
 
-## Méthode IFormatSchemeEffectiveData.GetEffectStyles
+## IFormatSchemeEffectiveData.GetEffectStyles méthode
 
 Renvoie une collection de styles d'effet définis par le thème.
 
@@ -15,13 +15,13 @@ Renvoie une collection de styles d'effet définis par le thème.
 public IEffectStyleCollectionEffectiveData GetEffectStyles(Color styleColor)
 ```
 
-| Paramètre  | Type  | Description         |
-| ---        | ---   | ---                 |
-| styleColor | Color | Couleur Color       |
+| Paramètre | Type | Description |
+| --- | --- | --- |
+| styleColor | Color | Couleur Color |
 
 ### Valeur de retour
 
-Collection de styles d'effet efficaces [`IEffectStyleCollectionEffectiveData`](../../ieffectstylecollectioneffectivedata)
+Collection de styles d'effet effectifs [`IEffectStyleCollectionEffectiveData`](../../ieffectstylecollectioneffectivedata)
 
 ### Voir aussi
 

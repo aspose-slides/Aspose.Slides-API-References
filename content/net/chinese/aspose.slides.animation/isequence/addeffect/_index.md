@@ -1,15 +1,15 @@
 ---
 title: AddEffect
-second_title: Aspose.Sildes for .NET API Reference
-description: 在序列末尾添加新效果。
+second_title: Aspose.Sildes for .NET API 参考
+description: 向序列末尾添加新效果。
 type: docs
 weight: 50
 url: /zh/aspose.slides.animation/isequence/addeffect/
 ---
 
-## AddEffect(IShape, EffectType, EffectSubtype, EffectTriggerType) {#addeffect_3}
+## AddEffect(IShape, EffectType, EffectSubtype, EffectTriggerType) {#addeffect_3}
 
-在序列末尾添加新效果。
+向序列末尾添加新效果。
 
 ```csharp
 public IEffect AddEffect(IShape shape, EffectType effectType, EffectSubtype subtype, 
@@ -18,7 +18,7 @@ public IEffect AddEffect(IShape shape, EffectType effectType, EffectSubtype subt
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| shape | IShape | 要添加效果的形状对象 [`IShape`](../../../aspose.slides/ishape) |
+| shape | IShape | 用于添加效果的形状对象 [`IShape`](../../../aspose.slides/ishape) |
 | effectType | EffectType | 动画效果的类型 [`EffectType`](../../effecttype) |
 | subtype | EffectSubtype | 动画效果的子类型 [`EffectSubtype`](../../effectsubtype) |
 | triggerType | EffectTriggerType | 效果的触发类型 [`EffectTriggerType`](../../effecttriggertype) |
@@ -27,22 +27,22 @@ public IEffect AddEffect(IShape shape, EffectType effectType, EffectSubtype subt
 
 新效果对象 [`IEffect`](../../ieffect)
 
-### 另请参阅
+### 另请参见
 
-* 接口 [IEffect](../../ieffect)
-* 接口 [IShape](../../../aspose.slides/ishape)
-* 枚举 [EffectType](../../effecttype)
-* 枚举 [EffectSubtype](../../effectsubtype)
-* 枚举 [EffectTriggerType](../../effecttriggertype)
-* 接口 [ISequence](../../isequence)
-* 命名空间 [Aspose.Slides.Animation](../../isequence)
-* 程序集 [Aspose.Slides](../../../)
+* interface [IEffect](../../ieffect)
+* interface [IShape](../../../aspose.slides/ishape)
+* enum [EffectType](../../effecttype)
+* enum [EffectSubtype](../../effectsubtype)
+* enum [EffectTriggerType](../../effecttriggertype)
+* interface [ISequence](../../isequence)
+* namespace [Aspose.Slides.Animation](../../isequence)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## AddEffect(IParagraph, EffectType, EffectSubtype, EffectTriggerType) {#addeffect_2}
+## AddEffect(IParagraph, EffectType, EffectSubtype, EffectTriggerType) {#addeffect_2}
 
-在序列末尾为段落添加新动画效果。
+向段落的序列末尾添加新的动画效果。
 
 ```csharp
 public IEffect AddEffect(IParagraph paragraph, EffectType effectType, EffectSubtype subtype, 
@@ -66,32 +66,32 @@ public IEffect AddEffect(IParagraph paragraph, EffectType effectType, EffectSubt
 [C#]
 using(Presentation presentation = new Presentation(path + "input.pptx"))
 {        
-   // 选择要添加效果的段落
+   // 选择段落以添加效果
    IAutoShape autoShape = (IAutoShape)presentation.Slides[0].Shapes[0];
    IParagraph paragraph = autoShape.TextFrame.Paragraphs[0];
 
-   // 为所选段落添加飞入动画效果
+   // 为选定的段落添加飞入动画效果
    IEffect effect = presentation.Slides[0].Timeline.MainSequence.AddEffect(
    paragraph, EffectType.Fly, EffectSubtype.Left, EffectTriggerType.OnClick);
 }
 ```
 
-### 另请参阅
+### 另请参见
 
-* 接口 [IEffect](../../ieffect)
-* 接口 [IParagraph](../../../aspose.slides/iparagraph)
-* 枚举 [EffectType](../../effecttype)
-* 枚举 [EffectSubtype](../../effectsubtype)
-* 枚举 [EffectTriggerType](../../effecttriggertype)
-* 接口 [ISequence](../../isequence)
-* 命名空间 [Aspose.Slides.Animation](../../isequence)
-* 程序集 [Aspose.Slides](../../../)
+* interface [IEffect](../../ieffect)
+* interface [IParagraph](../../../aspose.slides/iparagraph)
+* enum [EffectType](../../effecttype)
+* enum [EffectSubtype](../../effectsubtype)
+* enum [EffectTriggerType](../../effecttriggertype)
+* interface [ISequence](../../isequence)
+* namespace [Aspose.Slides.Animation](../../isequence)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## AddEffect(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) {#addeffect}
+## AddEffect(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) {#addeffect}
 
-为类别或系列在序列末尾添加新的图表动画效果。
+为类别或系列的图表末尾添加新的动画效果。
 
 ```csharp
 public IEffect AddEffect(IChart chart, EffectChartMajorGroupingType type, int index, 
@@ -102,7 +102,7 @@ public IEffect AddEffect(IChart chart, EffectChartMajorGroupingType type, int in
 | --- | --- | --- |
 | chart | IChart | 图表对象 [`IChart`](../../../aspose.slides.charts/ichart) |
 | type | EffectChartMajorGroupingType | 动画效果的类型 [`EffectChartMinorGroupingType`](../../effectchartminorgroupingtype) |
-| index | Int32 | Index Int32 |
+| index | Int32 | Int32 索引 |
 | effectType | EffectType | 动画效果的类型 [`EffectType`](../../effecttype) |
 | subtype | EffectSubtype | 动画效果的子类型 [`EffectSubtype`](../../effectsubtype) |
 | triggerType | EffectTriggerType | 效果的触发类型 [`EffectTriggerType`](../../effecttriggertype) |
@@ -111,23 +111,23 @@ public IEffect AddEffect(IChart chart, EffectChartMajorGroupingType type, int in
 
 新效果对象 [`IEffect`](../../ieffect)
 
-### 另请参阅
+### 另请参见
 
-* 接口 [IEffect](../../ieffect)
-* 接口 [IChart](../../../aspose.slides.charts/ichart)
-* 枚举 [EffectChartMajorGroupingType](../../effectchartmajorgroupingtype)
-* 枚举 [EffectType](../../effecttype)
-* 枚举 [EffectSubtype](../../effectsubtype)
-* 枚举 [EffectTriggerType](../../effecttriggertype)
-* 接口 [ISequence](../../isequence)
-* 命名空间 [Aspose.Slides.Animation](../../isequence)
-* 程序集 [Aspose.Slides](../../../)
+* interface [IEffect](../../ieffect)
+* interface [IChart](../../../aspose.slides.charts/ichart)
+* enum [EffectChartMajorGroupingType](../../effectchartmajorgroupingtype)
+* enum [EffectType](../../effecttype)
+* enum [EffectSubtype](../../effectsubtype)
+* enum [EffectTriggerType](../../effecttriggertype)
+* interface [ISequence](../../isequence)
+* namespace [Aspose.Slides.Animation](../../isequence)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## AddEffect(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) {#addeffect_1}
+## AddEffect(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) {#addeffect_1}
 
-为类别或系列中的元素在序列末尾添加新的图表动画效果。
+为类别或系列中的元素末尾添加新的图表动画效果。
 
 ```csharp
 public IEffect AddEffect(IChart chart, EffectChartMinorGroupingType type, int seriesIndex, 
@@ -149,16 +149,16 @@ public IEffect AddEffect(IChart chart, EffectChartMinorGroupingType type, int se
 
 新效果对象 [`IEffect`](../../ieffect)
 
-### 另请参阅
+### 另请参见
 
-* 接口 [IEffect](../../ieffect)
-* 接口 [IChart](../../../aspose.slides.charts/ichart)
-* 枚举 [EffectChartMinorGroupingType](../../effectchartminorgroupingtype)
-* 枚举 [EffectType](../../effecttype)
-* 枚举 [EffectSubtype](../../effectsubtype)
-* 枚举 [EffectTriggerType](../../effecttriggertype)
-* 接口 [ISequence](../../isequence)
-* 命名空间 [Aspose.Slides.Animation](../../isequence)
-* 程序集 [Aspose.Slides](../../../)
+* interface [IEffect](../../ieffect)
+* interface [IChart](../../../aspose.slides.charts/ichart)
+* enum [EffectChartMinorGroupingType](../../effectchartminorgroupingtype)
+* enum [EffectType](../../effecttype)
+* enum [EffectSubtype](../../effectsubtype)
+* enum [EffectTriggerType](../../effecttriggertype)
+* interface [ISequence](../../isequence)
+* namespace [Aspose.Slides.Animation](../../isequence)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

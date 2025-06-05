@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.theme/mastertheme/formatscheme/
 ---
+
 ## MasterTheme.FormatScheme property
 
 Returns the shape format scheme. Read-only [`IFormatScheme`](../../iformatscheme).

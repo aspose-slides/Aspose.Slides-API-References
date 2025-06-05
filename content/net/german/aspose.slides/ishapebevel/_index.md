@@ -1,15 +1,15 @@
 ---
 title: IShapeBevel
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt die Eigenschaften des Hauptgesichtsreliefs von Formen dar.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt Eigenschaften des Hauptflächenreliefs von Formen dar.
 type: docs
 weight: 6740
 url: /de/aspose.slides/ishapebevel/
 ---
 
-## IShapeBevel Schnittstelle
+## IShapeBevel-Schnittstelle
 
-Stellt die Eigenschaften des Hauptgesichtsreliefs von Formen dar.
+Stellt Eigenschaften des Hauptflächenreliefs einer Form dar.
 
 ```csharp
 public interface IShapeBevel
@@ -19,9 +19,9 @@ public interface IShapeBevel
 
 | Name | Beschreibung |
 | --- | --- |
-| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | Fasenart. Lese-/Schreibzugriff auf [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | Fasenhöhe. Lese-/Schreibzugriff auf Double. |
-| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | Fasenbreite. Lese-/Schreibzugriff auf Double. |
+| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | Art des Fasen. Lese-/Schreibzugriff [`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | Fasenhöhe. Lese-/Schreibzugriff Double. |
+| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | Fasenbreite. Lese-/Schreibzugriff Double. |
 
 ### Siehe auch
 

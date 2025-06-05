@@ -1,6 +1,6 @@
 ---
 title: SelectLocked
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Détermine si la sélection de cette forme est interdite. Booléen en lecture/écriture.
 type: docs
 weight: 90
@@ -15,10 +15,10 @@ Détermine si la sélection de cette forme est interdite. Booléen en lecture/é
 public bool SelectLocked { get; set; }
 ```
 
-### Voir également
+### Voir Aussi
 
-* classe [PictureFrameLock](../../pictureframelock)
-* espace de noms [Aspose.Slides](../../pictureframelock)
+* class [PictureFrameLock](../../pictureframelock)
+* namespace [Aspose.Slides](../../pictureframelock)
 * assembly [Aspose.Slides](../../../)
 
-<!-- NE PAS ÉDITER : généré par xmldocmd pour Aspose.Slides.dll -->
+<!-- NE PAS ÉDITER: généré par xmldocmd pour Aspose.Slides.dll -->

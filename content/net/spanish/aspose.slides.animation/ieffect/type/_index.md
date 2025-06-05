@@ -1,6 +1,6 @@
 ---
-title: Tipo
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Type
+second_title: Aspose.Slides para .NET Referencia de API
 description: Define el tipo de efecto. Lectura/escritura EffectTypeaspose.slides.animation/effecttype.
 type: docs
 weight: 140

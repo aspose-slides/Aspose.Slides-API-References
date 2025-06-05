@@ -7,7 +7,7 @@ weight: 340
 url: /fr/aspose.slides.charts/ichartseries/quartilemethod/
 ---
 
-## Propriété IChartSeries.QuartileMethod
+## IChartSeries.QuartileMethod propriété
 
 Représente la méthode des quartiles. S'applique uniquement aux graphiques BoxAndWhisker.
 

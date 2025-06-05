@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/iparagraphformat/depth/
 ---
+
 ## IParagraphFormat.Depth property
 
 Returns or sets depth of the paragraph. Value 0 means undefined value. Read/write Int16.

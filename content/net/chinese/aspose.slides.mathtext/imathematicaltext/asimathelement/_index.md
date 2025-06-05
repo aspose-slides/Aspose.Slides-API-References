@@ -1,7 +1,7 @@
 ---
 title: AsIMathElement
-second_title: Aspose.Sildes for .NET API 参考
-description: 允许获取基接口 IMathElement 接口 IMathElementaspose.slides.mathtext/imathelement
+second_title: Aspose.Sildes for .NET API Reference
+description: 允许获取基础 IMathElement 接口 IMathElementaspose.slides.mathtext/imathelement
 type: docs
 weight: 10
 url: /zh/aspose.slides.mathtext/imathematicaltext/asimathelement/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.mathtext/imathematicaltext/asimathelement/
 
 ## IMathematicalText.AsIMathElement 属性
 
-允许获取基接口 IMathElement 接口 [`IMathElement`](../../imathelement)
+允许获取基础 IMathElement 接口 [`IMathElement`](../../imathelement)
 
 ```csharp
 public IMathElement AsIMathElement { get; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IMathElement](../../imathelement)
 * 接口 [IMathematicalText](../../imathematicaltext)

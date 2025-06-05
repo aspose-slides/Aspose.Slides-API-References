@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.mathtext/imathmatrix/item/
 ---
+
 ## IMathMatrix indexer
 
 Elements of matrix

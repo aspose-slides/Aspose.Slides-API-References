@@ -1,6 +1,6 @@
 ---
-title: Compter
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Count
+second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie le nombre d'éléments dans la collection. Lecture seule Int32.
 type: docs
 weight: 10

@@ -1,7 +1,7 @@
 ---
 title: InsertAutoShape
-second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt ein neues AutoShape, passt es von der Standardvorlage an und fügt es in die Sammlung an dem angegebenen Index ein. Beachten Sie, dass der Typ der Form durch den Parameter shapeType bestimmt wird.
+second_title: Aspose.Slides für .NET API-Verweis
+description: Erstellt eine neue Autoform, passt sie mithilfe der Standardvorlage an und fügt sie an der angegebenen Position in die Sammlung ein. Beachten Sie, dass der Typ der Form durch den Parameter shapeType bestimmt wird.
 type: docs
 weight: 300
 url: /de/aspose.slides/shapecollection/insertautoshape/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/shapecollection/insertautoshape/
 
 ## InsertAutoShape(int, ShapeType, float, float, float, float) {#insertautoshape}
 
-Erstellt ein neues AutoShape, passt es von der Standardvorlage an und fügt es in die Sammlung an dem angegebenen Index ein. Hinweis: Der Typ der Form wird durch den Parameter shapeType bestimmt.
+Erstellt eine neue Autoform, passt sie mithilfe der Standardvorlage an und fügt sie an der angegebenen Position in die Sammlung ein. Hinweis: Der Typ der Form wird durch den Parameter shapeType bestimmt.
 
 ```csharp
 public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float y, float width, 
@@ -41,7 +41,7 @@ Erstelltes AutoShape-Objekt.
 
 ## InsertAutoShape(int, ShapeType, float, float, float, float, bool) {#insertautoshape_1}
 
-Erstellt ein neues AutoShape und fügt es in die Sammlung an dem angegebenen Index ein. Hinweis: Der Typ der Form wird durch den Parameter shapeType bestimmt.
+Erstellt eine neue Autoform und fügt sie an der angegebenen Position in die Sammlung ein. Hinweis: Der Typ der Form wird durch den Parameter shapeType bestimmt.
 
 ```csharp
 public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float y, float width, 
@@ -56,7 +56,7 @@ public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float
 | y | Single | Die Y-Koordinate für die obere Seite des Rahmens der Form. |
 | width | Single | Die Breite des Rahmens der Form. |
 | height | Single | Die Höhe des Rahmens der Form. |
-| createFromTemplate | Boolean | Wenn wahr, wird die neue Form von der Standardvorlage angepasst. Ein nicht leerer Name, einfacher Stil, zentrierter Text wird der neuen Form zugewiesen. Wenn falsch, haben alle Werte der Eigenschaften der neuen Form Standardwerte. |
+| createFromTemplate | Boolean | Wenn true, wird die neue Form mithilfe der Standardvorlage angepasst. Ein nicht leerer Name, einfacher Stil, zentrierter Text werden der neuen Form zugewiesen. Wenn false, haben alle Eigenschaften der neuen Form die Standardwerte. |
 
 ### Rückgabewert
 

@@ -3,9 +3,10 @@ title: Presentation
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns the parent presentation of a TextFrame. Read-only IPresentationaspose.slides/ipresentation.
 type: docs
-weight: 30
+weight: 50
 url: /aspose.slides/textframe/presentation/
 ---
+
 ## TextFrame.Presentation property
 
 Returns the parent presentation of a TextFrame. Read-only [`IPresentation`](../../ipresentation).

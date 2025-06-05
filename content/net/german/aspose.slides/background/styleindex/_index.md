@@ -1,7 +1,7 @@
 ---
 title: StyleIndex
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt einen Index von BackgroundType.Themed-Füllungen in der Hintergrundthemensammlung zurück. 0 bedeutet keine Füllung. 1..999 - Index. Lese-/Schreibzugriff auf UInt16.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt einen Index des BackgroundType.Themed-Fills in der Hintergrundthemen-Sammlung zurück. 0 bedeutet keine Füllung. 1..999 - Index. Lese-/Schreibzugriff UInt16.
 type: docs
 weight: 60
 url: /de/aspose.slides/background/styleindex/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/background/styleindex/
 
 ## Background.StyleIndex-Eigenschaft
 
-Gibt einen Index von BackgroundType.Themed-Füllungen in der Hintergrundthemensammlung zurück. 0 bedeutet keine Füllung. 1..999 - Index. Lese-/Schreibzugriff auf UInt16.
+Gibt einen Index des BackgroundType.Themed-Fills in der Hintergrundthemen-Sammlung zurück. 0 bedeutet keine Füllung. 1..999 - Index. Lese-/Schreibzugriff UInt16.
 
 ```csharp
 public ushort StyleIndex { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [Background](../../background)
 * Namespace [Aspose.Slides](../../background)

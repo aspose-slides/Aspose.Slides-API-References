@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/ipicturefillformat/stretchoffsetleft/
 ---
+
 ## IPictureFillFormat.StretchOffsetLeft property
 
 Returns or sets left edge of the fill rectangle that is defined by a percentage offset from the left edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write Single.

@@ -1,6 +1,6 @@
 ---
 title: PptxReadException
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справка по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/pptxreadexception/pptxreadexception/
 public PptxReadException()
 ```
 
-### См. также
+### Смотрите также
 
 * класс [PptxReadException](../../pptxreadexception)
 * пространство имен [Aspose.Slides](../../pptxreadexception)
@@ -35,7 +35,7 @@ public PptxReadException(string message)
 | --- | --- | --- |
 | message | String | сообщение |
 
-### См. также
+### Смотрите также
 
 * класс [PptxReadException](../../pptxreadexception)
 * пространство имен [Aspose.Slides](../../pptxreadexception)
@@ -45,7 +45,7 @@ public PptxReadException(string message)
 
 ## PptxReadException(string, Exception) {#constructor_2}
 
-Конструктор для исключения, содержащее сообщение и встроенное исключение.
+Конструктор для исключения, содержащего сообщение и встроенное исключение.
 
 ```csharp
 public PptxReadException(string message, Exception exception)
@@ -56,7 +56,7 @@ public PptxReadException(string message, Exception exception)
 | message | String | сообщение |
 | exception | Exception | оригинальное исключение |
 
-### См. также
+### Смотрите также
 
 * класс [PptxReadException](../../pptxreadexception)
 * пространство имен [Aspose.Slides](../../pptxreadexception)

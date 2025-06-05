@@ -3,9 +3,10 @@ title: ToBinary
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns the binary representation of the VBA project as OLE container. Read-only Byte.
 type: docs
-weight: 40
+weight: 50
 url: /aspose.slides.vba/ivbaproject/tobinary/
 ---
+
 ## IVbaProject.ToBinary method
 
 Returns the binary representation of the VBA project as OLE container. Read-only Byte[].

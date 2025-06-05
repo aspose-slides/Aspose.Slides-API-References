@@ -1,6 +1,6 @@
 ---
 title: SelectLocked
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Determina si seleccionar esta forma está prohibido. Booleano de lectura/escritura.
 type: docs
 weight: 50
@@ -19,6 +19,6 @@ public bool SelectLocked { get; set; }
 
 * clase [GraphicalObjectLock](../../graphicalobjectlock)
 * espacio de nombres [Aspose.Slides](../../graphicalobjectlock)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

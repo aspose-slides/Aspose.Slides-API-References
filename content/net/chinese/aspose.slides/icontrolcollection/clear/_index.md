@@ -1,7 +1,7 @@
 ---
-title: 清除
-second_title: Aspose.Slides for .NET API 参考
-description: 从集合中移除所有控件。
+title: Clear
+second_title: Aspose.Slides for .NET API Reference
+description: 从集合中删除所有控件。
 type: docs
 weight: 30
 url: /zh/aspose.slides/icontrolcollection/clear/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/icontrolcollection/clear/
 
 ## IControlCollection.Clear 方法
 
-从集合中移除所有控件。
+从集合中删除所有控件。
 
 ```csharp
 public void Clear()
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IControlCollection](../../icontrolcollection)
 * 命名空间 [Aspose.Slides](../../icontrolcollection)

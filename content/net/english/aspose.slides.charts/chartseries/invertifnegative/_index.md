@@ -6,6 +6,7 @@ type: docs
 weight: 170
 url: /aspose.slides.charts/chartseries/invertifnegative/
 ---
+
 ## ChartSeries.InvertIfNegative property
 
 Specifies the bar, column or bubble series shall invert its colors if the value is negative. Read/write Boolean.

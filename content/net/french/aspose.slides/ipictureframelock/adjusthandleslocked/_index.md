@@ -1,13 +1,13 @@
 ---
 title: AdjustHandlesLocked
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Détermine si un changement des valeurs d'ajustement est interdit. Booléen en lecture/écriture.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ipictureframelock/adjusthandleslocked/
 ---
 
-## Propriété IPictureFrameLock.AdjustHandlesLocked
+## IPictureFrameLock.AdjustHandlesLocked propriété
 
 Détermine si un changement des valeurs d'ajustement est interdit. Booléen en lecture/écriture.
 
@@ -15,7 +15,7 @@ Détermine si un changement des valeurs d'ajustement est interdit. Booléen en l
 public bool AdjustHandlesLocked { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IPictureFrameLock](../../ipictureframelock)
 * namespace [Aspose.Slides](../../ipictureframelock)

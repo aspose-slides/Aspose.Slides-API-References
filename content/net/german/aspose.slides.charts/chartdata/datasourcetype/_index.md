@@ -1,7 +1,7 @@
 ---
 title: DataSourceType
 second_title: Aspose.Slides für .NET API Referenz
-description: Repräsentiert den externen Arbeitsmappenpfad, wenn die externe Datenquelle null ist, sonst
+description: Stellt den Pfad zur externen Arbeitsmappe dar, wenn die externe Datenquelle null ist, andernfalls
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/chartdata/datasourcetype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartdata/datasourcetype/
 
 ## ChartData.DataSourceType-Eigenschaft
 
-Repräsentiert den externen Arbeitsmappenpfad, wenn die externe Datenquelle vorhanden ist, sonst null
+Stellt den Pfad zur externen Arbeitsmappe dar, wenn die externe Datenquelle vorhanden ist, andernfalls null
 
 ```csharp
 public ChartDataSourceType DataSourceType { get; }

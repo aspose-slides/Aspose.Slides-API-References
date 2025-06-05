@@ -1,7 +1,7 @@
 ---
 title: LineStyleIndex
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回或设置样式矩阵中线的列索引。可读写 UInt16。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回或设置样式矩阵中线的列索引。可读/可写 UInt16。
 type: docs
 weight: 80
 url: /zh/aspose.slides/ishapestyle/linestyleindex/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ishapestyle/linestyleindex/
 
 ## IShapeStyle.LineStyleIndex 属性
 
-返回或设置样式矩阵中线的列索引。可读写 UInt16。
+返回或设置样式矩阵中线的列索引。可读/可写 UInt16。
 
 ```csharp
 public ushort LineStyleIndex { get; set; }
 ```
 
-### 参见
+### 另见
 
 * 接口 [IShapeStyle](../../ishapestyle)
 * 命名空间 [Aspose.Slides](../../ishapestyle)

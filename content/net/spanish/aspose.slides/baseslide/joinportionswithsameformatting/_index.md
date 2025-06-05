@@ -1,7 +1,7 @@
 ---
-title: UnirPorcionesConElMismoFormato
+title: JoinPortionsWithSameFormatting
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Une las corridas con el mismo formato en todos los párrafos de todas las formas aceptables.
+description: Une tramos con el mismo formato en todos los párrafos de todas las formas aceptables.
 type: docs
 weight: 150
 url: /es/aspose.slides/baseslide/joinportionswithsameformatting/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/baseslide/joinportionswithsameformatting/
 
 ## JoinPortionsWithSameFormatting() {#joinportionswithsameformatting}
 
-Une las corridas con el mismo formato en todos los párrafos de todas las formas aceptables.
+Une tramos con el mismo formato en todos los párrafos de todas las formas aceptables.
 
 ```csharp
 public virtual void JoinPortionsWithSameFormatting()
 ```
 
-### Véase También
+### Véase también
 
 * class [BaseSlide](../../baseslide)
 * namespace [Aspose.Slides](../../baseslide)
@@ -25,13 +25,13 @@ public virtual void JoinPortionsWithSameFormatting()
 
 ## JoinPortionsWithSameFormatting(IShapeCollection) {#joinportionswithsameformatting_1}
 
-Une las corridas con el mismo formato en todos los párrafos de todas las formas aceptables.
+Une tramos con el mismo formato en todos los párrafos de todas las formas aceptables.
 
 ```csharp
 public virtual void JoinPortionsWithSameFormatting(IShapeCollection collection)
 ```
 
-### Véase También
+### Véase también
 
 * interface [IShapeCollection](../../ishapecollection)
 * class [BaseSlide](../../baseslide)

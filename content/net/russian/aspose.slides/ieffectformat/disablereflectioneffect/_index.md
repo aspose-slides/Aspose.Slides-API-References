@@ -1,6 +1,6 @@
 ---
 title: DisableReflectionEffect
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Slides для .NET API Ссылка
 description: Отключает эффект отражения.
 type: docs
 weight: 170

@@ -1,7 +1,7 @@
 ---
 title: MarginTop
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die oberen Randeinstellungen in einem TextFrame zurück oder legt sie fest. Lese-/Schreib-Double.
+description: Gibt die oberen Margenpunkte in einem TextFrame zurück oder setzt sie. Lese-/Schreibbares Double.
 type: docs
 weight: 100
 url: /de/aspose.slides/itextframeformat/margintop/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/itextframeformat/margintop/
 
 ## ITextFrameFormat.MarginTop-Eigenschaft
 
-Gibt den oberen Rand (Punkte) in einem TextFrame zurück oder legt ihn fest. Lese-/Schreib-Double.
+Gibt die obere Marge (Punkte) in einem TextFrame zurück oder setzt sie. Lese-/Schreibbares Double.
 
 ```csharp
 public double MarginTop { get; set; }

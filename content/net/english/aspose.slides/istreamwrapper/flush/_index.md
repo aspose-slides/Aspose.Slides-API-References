@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/istreamwrapper/flush/
 ---
+
 ## IStreamWrapper.Flush method
 
 Clears all buffers for this stream and causes any buffered data to be written to the underlying device.

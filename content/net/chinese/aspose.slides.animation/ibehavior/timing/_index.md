@@ -1,15 +1,15 @@
 ---
-title: 定时
-second_title: Aspose.Slides for .NET API 参考
-description: 表示效果行为的定时属性。读/写 ITimingaspose.slides/itiming。
+title: Timing
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示效果行为的时间属性。读/写 ITimingaspose.slides/itiming。
 type: docs
 weight: 40
 url: /zh/aspose.slides.animation/ibehavior/timing/
 ---
 
-## IBehavior.Timing 属性
+## IBehavior.Timing属性
 
-表示效果行为的定时属性。读/写 [`ITiming`](../../itiming)。
+表示效果行为的时间属性。读/写 [`ITiming`](../../itiming)。
 
 ```csharp
 public ITiming Timing { get; set; }

@@ -15,7 +15,7 @@ Bestimmt, ob ein Objekt als Symbol sichtbar ist. Lese-/Schreib-Boolean.
 public bool IsObjectIcon { get; set; }
 ```
 
-### Weitere Informationen
+### Siehe Auch
 
 * Klasse [OleObjectFrame](../../oleobjectframe)
 * Namespace [Aspose.Slides](../../oleobjectframe)

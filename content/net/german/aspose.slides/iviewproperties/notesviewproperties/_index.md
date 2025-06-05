@@ -1,7 +1,7 @@
 ---
 title: NotesViewProperties
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt allgemeine Ansichtsattribute an, die mit dem Notizen-Ansichtsmodus verbunden sind. Nur lesbar ICommonSlideViewPropertiesaspose.slides/icommonslideviewproperties.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt allgemeine Anzeigeeinstellungen an, die mit dem Notizenansichtsmodus verbunden sind. Nur-Lese ICommonSlideViewProperties aspose.slides/icommonslideviewproperties.
 type: docs
 weight: 40
 url: /de/aspose.slides/iviewproperties/notesviewproperties/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/iviewproperties/notesviewproperties/
 
 ## IViewProperties.NotesViewProperties-Eigenschaft
 
-Gibt allgemeine Ansichtsattribute an, die mit dem Notizen-Ansichtsmodus verbunden sind. Nur lesbar [`ICommonSlideViewProperties`](../../icommonslideviewproperties).
+Gibt allgemeine Anzeigeeinstellungen an, die mit dem Notizenansichtsmodus verbunden sind. Nur-Lese [`ICommonSlideViewProperties`](../../icommonslideviewproperties).
 
 ```csharp
 public ICommonSlideViewProperties NotesViewProperties { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ICommonSlideViewProperties](../../icommonslideviewproperties)
 * Schnittstelle [IViewProperties](../../iviewproperties)

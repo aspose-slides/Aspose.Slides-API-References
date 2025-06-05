@@ -1,7 +1,7 @@
 ---
 title: IAlphaInverse
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt einen Alpha Inverse-Effekt dar. Alpha-Transparenzwerte werden um 100 subtrahiert.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt einen Alpha Inverse-Effekt dar. Alpha-Transparenzwerte werden durch Subtrahieren von 100 invertiert.
 type: docs
 weight: 2980
 url: /de/aspose.slides.effects/ialphainverse/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/ialphainverse/
 
 ## IAlphaInverse-Schnittstelle
 
-Stellt einen Alpha Inverse-Effekt dar. Alpha (Transparenz) Werte werden um 100% subtrahiert.
+Stellt einen Alpha Inverse-Effekt dar. Alpha (Transparenz)-Werte werden durch Subtrahieren von 100% invertiert.
 
 ```csharp
 public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData>, 
@@ -20,8 +20,8 @@ public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphainverse/asiaccessiblepviobject) { get; } | Ermöglicht den Zugriff auf die Basis-IAccessiblePVIObject-Schnittstelle. Nur lesbar [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphainverse/asiimagetransformoperation) { get; } | Ermöglicht den Zugriff auf die Basis-IImageTransformOperation-Schnittstelle. Nur lesbar [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphainverse/asiaccessiblepviobject) { get; } | Ermöglicht den Zugriff auf die Basis-Schnittstelle IAccessiblePVIObject. Nur lesbar [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphainverse/asiimagetransformoperation) { get; } | Ermöglicht den Zugriff auf die Basis-Schnittstelle IImageTransformOperation. Nur lesbar [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Siehe auch
 

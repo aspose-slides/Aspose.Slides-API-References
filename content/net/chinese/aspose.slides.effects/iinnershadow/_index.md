@@ -1,7 +1,7 @@
 ---
 title: IInnerShadow
-second_title: Aspose.Slides for .NET API Reference
-description: 表示内阴影效果。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示一种内阴影效果。
 type: docs
 weight: 3300
 url: /zh/aspose.slides.effects/iinnershadow/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/iinnershadow/
 
 ## IInnerShadow 接口
 
-表示内阴影效果。
+表示一种内阴影效果。
 
 ```csharp
 public interface IInnerShadow : IAccessiblePVIObject<IInnerShadowEffectiveData>, 
@@ -22,12 +22,12 @@ public interface IInnerShadow : IAccessiblePVIObject<IInnerShadowEffectiveData>,
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | 允许获取基础的 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
 | [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | 允许获取基础的 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
-| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | 模糊半径。读/写 Double。 |
-| [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | 阴影方向。读/写 Single。 |
-| [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | 阴影距离。读/写 Double。 |
+| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | 模糊半径。读写 Double。 |
+| [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | 阴影方向。读写 Single。 |
+| [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | 阴影距离。读写 Double。 |
 | [ShadowColor](../../aspose.slides.effects/iinnershadow/shadowcolor) { get; } | 阴影颜色。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 接口 [IInnerShadowEffectiveData](../iinnershadoweffectivedata)

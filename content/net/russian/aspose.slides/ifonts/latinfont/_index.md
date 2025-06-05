@@ -7,7 +7,7 @@ weight: 30
 url: /ru/aspose.slides/ifonts/latinfont/
 ---
 
-## Свойство IFonts.LatinFont
+## IFonts.LatinFont свойство
 
 Возвращает или задает латинский шрифт. Чтение/запись [`IFontData`](../../ifontdata).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ifonts/latinfont/
 public IFontData LatinFont { get; set; }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IFontData](../../ifontdata)
 * интерфейс [IFonts](../../ifonts)

@@ -1,13 +1,13 @@
 ---
 title: FloatR
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает или устанавливает красный компонент цвета. Все цветовые преобразования игнорируются. Чтение/запись Single.
 type: docs
 weight: 80
 url: /ru/aspose.slides/icolorformat/floatr/
 ---
 
-## Свойство IColorFormat.FloatR
+## IColorFormat.FloatR свойство
 
 Возвращает или устанавливает красный компонент цвета. Все цветовые преобразования игнорируются. Чтение/запись Single.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/icolorformat/floatr/
 public float FloatR { get; set; }
 ```
 
-### Также см.
+### См. также
 
 * интерфейс [IColorFormat](../../icolorformat)
 * пространство имен [Aspose.Slides](../../icolorformat)

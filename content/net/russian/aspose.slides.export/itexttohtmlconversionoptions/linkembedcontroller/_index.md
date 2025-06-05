@@ -1,7 +1,7 @@
 ---
 title: LinkEmbedController
-second_title: Aspose.Slides для .NET Справочник по API
-description: Возвращает или устанавливает объект обратного вызова, который управляет тем, как будет храниться внешний объект. Чтение/запись ILinkEmbedController aspose.slides.export/ilinkembedcontroller.
+second_title: Справочник API Aspose.Slides для .NET
+description: Возвращает или устанавливает объект обратного вызова, который контролирует, как будет храниться внешний объект. Чтение/запись ILinkEmbedControlleraspose.slides.export/ilinkembedcontroller.
 type: docs
 weight: 30
 url: /ru/aspose.slides.export/itexttohtmlconversionoptions/linkembedcontroller/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export/itexttohtmlconversionoptions/linkembedcontroller/
 
 ## Свойство ITextToHtmlConversionOptions.LinkEmbedController
 
-Возвращает или устанавливает объект обратного вызова, который управляет тем, как будет храниться внешний объект. Чтение/запись [`ILinkEmbedController`](../../ilinkembedcontroller).
+Возвращает или устанавливает объект обратного вызова, который контролирует, как будет храниться внешний объект. Чтение/запись [`ILinkEmbedController`](../../ilinkembedcontroller).
 
 ```csharp
 public ILinkEmbedController LinkEmbedController { get; set; }

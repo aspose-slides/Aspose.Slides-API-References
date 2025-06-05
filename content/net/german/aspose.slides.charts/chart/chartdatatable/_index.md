@@ -1,6 +1,6 @@
 ---
 title: ChartDataTable
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API-Dokumentation
 description: Gibt eine Datentabelle eines Diagramms zurück. Nur-Lese IDataTableaspose.slides/idatatable.
 type: docs
 weight: 60

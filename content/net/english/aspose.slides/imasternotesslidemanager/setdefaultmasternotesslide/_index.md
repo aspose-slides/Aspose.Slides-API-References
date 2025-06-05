@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide/
 ---
+
 ## IMasterNotesSlideManager.SetDefaultMasterNotesSlide method
 
 Sets defalut master notes slide for related notes slide.

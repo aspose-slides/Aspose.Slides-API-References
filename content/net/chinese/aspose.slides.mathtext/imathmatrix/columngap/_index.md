@@ -1,7 +1,7 @@
 ---
-title: 列间距
-second_title: Aspose.Slides for .NET API 参考
-description: 矩阵列之间的水平间距值。如果 ColumnGapRule 设置为 3（“精确”），则单位被解释为 twips（1/20 点）。如果 ColumnGapRule 设置为 4（“多重”），则单位被解释为 0.5 em 的增量。在其他情况下将被忽略。默认值：0
+title: ColumnGap
+second_title: Aspose.Sildes for .NET API Reference
+description: 矩阵列之间的水平间距的值。如果 ColumnGapRule 设置为 3 "Exactly"，则单位解释为 twips 1/20 个点。如果 ColumnGapRule 设置为 4 "Multiple"，则单位解释为 0.5 em 增量的数量。在其他情况下被忽略。默认值：0
 type: docs
 weight: 40
 url: /zh/aspose.slides.mathtext/imathmatrix/columngap/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathmatrix/columngap/
 
 ## IMathMatrix.ColumnGap 属性
 
-矩阵列之间的水平间距值；如果 ColumnGapRule 设置为 3（“精确”），则单位被解释为 twips（1/20 点）。如果 ColumnGapRule 设置为 4（“多重”），则单位被解释为 0.5 em 的增量。在其他情况下将被忽略。默认值：0
+矩阵列之间的水平间距的值；如果 ColumnGapRule 设置为 3 ("Exactly")，则单位解释为 twips (1/20 个点)。如果 ColumnGapRule 设置为 4 ("Multiple")，则单位解释为 0.5 em 增量的数量。在其他情况下被忽略。默认值：0
 
 ```csharp
 public uint ColumnGap { get; set; }

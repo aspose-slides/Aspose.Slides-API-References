@@ -1,21 +1,21 @@
 ---
 title: AggregationType
-second_title: Справка по API Aspose.Slides для .NET
-description: Представляет тип агрегации оси категории биннинг. Применяется к категории. Используется только с сериями Histogram или HistogramPareto.
+second_title: Aspose.Sildes для .NET Справочник по API
+description: Представляет тип агрегации оси категорий группировка. Применяется к категории. Используется только с сериями Histogram или HistogramPareto.
 type: docs
 weight: 70
 url: /ru/aspose.slides.charts/iaxis/aggregationtype/
 ---
 
-## Свойство IAxis.AggregationType
+## IAxis.AggregationType свойство
 
-Представляет тип агрегации оси категории (биннинг). Применяется к категории. Используется только с сериями Histogram или HistogramPareto.
+Представляет тип агрегации оси категорий (группировка). Применяется к категории. Используется только с сериями Histogram или HistogramPareto.
 
 ```csharp
 public AxisAggregationType AggregationType { get; set; }
 ```
 
-### См. Также
+### Также смотри
 
 * enum [AxisAggregationType](../../axisaggregationtype)
 * interface [IAxis](../../iaxis)

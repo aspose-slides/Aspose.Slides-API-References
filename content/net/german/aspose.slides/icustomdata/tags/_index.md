@@ -1,7 +1,7 @@
 ---
 title: Tags
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Sammlung von Kundendaten-Tags zurück. Nur-lesbare ITagCollection aspose.slides/itagcollection.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Sammlung der Kunden-Daten-Tags zurück. Schreibgeschützte ITagCollectionaspose.slides/itagcollection.
 type: docs
 weight: 20
 url: /de/aspose.slides/icustomdata/tags/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/icustomdata/tags/
 
 ## ICustomData.Tags-Eigenschaft
 
-Gibt die Sammlung von Kundendaten-Tags zurück. Nur-lesbare [`ITagCollection`](../../itagcollection).
+Gibt die Sammlung der Kunden-Daten-Tags zurück. Schreibgeschützte [`ITagCollection`](../../itagcollection).
 
 ```csharp
 public ITagCollection Tags { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ITagCollection](../../itagcollection)
 * Schnittstelle [ICustomData](../../icustomdata)

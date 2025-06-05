@@ -1,7 +1,7 @@
 ---
 title: Alpha
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回间隔 0..1 内的新 alpha 值，只读单精度浮点数。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回区间 0..1 内的新 alpha 值 只读单精度浮点数。
 type: docs
 weight: 10
 url: /zh/aspose.slides.effects/ialphareplaceeffectivedata/alpha/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/ialphareplaceeffectivedata/alpha/
 
 ## IAlphaReplaceEffectiveData.Alpha 属性
 
-返回间隔 [0..1] 内的新 alpha 值，只读单精度浮点数。
+返回区间 [0..1] 内的新 alpha 值 只读单精度浮点数。
 
 ```csharp
 public float Alpha { get; }

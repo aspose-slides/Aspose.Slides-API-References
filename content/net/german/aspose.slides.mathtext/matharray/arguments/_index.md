@@ -1,6 +1,6 @@
 ---
-title: Argumente
-second_title: Aspose.Slides für .NET API-Referenz
+title: Arguments
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Die Menge der Elemente des Arrays
 type: docs
 weight: 20
@@ -25,7 +25,7 @@ IMathArray mathArray = new MathArray(new MathematicalText("item1"));
 mathArray.Arguments.Add(new MathematicalText("item2"));
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IMathElementCollection](../../imathelementcollection)
 * Klasse [MathArray](../../matharray)

@@ -1,15 +1,15 @@
 ---
-title: Basis
-second_title: Aspose.Slides für .NET API-Referenz
-description: Basis-Argument
+title: Base
+second_title: Aspose.Slides für .NET API Referenz
+description: Basisargument
 type: docs
 weight: 20
 url: /de/aspose.slides.mathtext/imathradical/base/
 ---
 
-## IMathRadical.Base Eigenschaft
+## IMathRadical.Base-Eigenschaft
 
-Basis-Argument
+Basisargument
 
 ```csharp
 public IMathElement Base { get; }

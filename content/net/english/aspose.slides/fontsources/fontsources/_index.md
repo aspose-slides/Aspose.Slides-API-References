@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/fontsources/fontsources/
 ---
+
 ## FontSources constructor
 
 Creates new default font options.

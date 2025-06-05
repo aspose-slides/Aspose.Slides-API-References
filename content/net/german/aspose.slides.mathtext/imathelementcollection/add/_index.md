@@ -1,6 +1,6 @@
 ---
-title: Hinzufügen
-second_title: Aspose.Slides für .NET API-Referenz
+title: Add
+second_title: Aspose.Slides für .NET API Referenz
 description: Fügt ein Mathe-Element am Ende der Sammlung hinzu.
 type: docs
 weight: 40

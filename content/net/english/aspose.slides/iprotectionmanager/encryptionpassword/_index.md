@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/iprotectionmanager/encryptionpassword/
 ---
+
 ## IProtectionManager.EncryptionPassword property
 
 Returns encryption password. Read-only String.

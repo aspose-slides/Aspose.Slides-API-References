@@ -1,6 +1,6 @@
 ---
 title: AsIBaseShapeLock
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Slides для .NET API Справочник
 description: Позволяет получить базовый интерфейс IBaseShapeLock. Только для чтения IBaseShapeLockaspose.slides/ibaseshapelock.
 type: docs
 weight: 10

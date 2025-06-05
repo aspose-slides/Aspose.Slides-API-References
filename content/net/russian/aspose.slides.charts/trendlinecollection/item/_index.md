@@ -1,7 +1,7 @@
 ---
-title: Элемент
-second_title: Ссылки на API Aspose.Slides для .NET
-description: Получает элемент по указанному индексу. Доступ только для чтения Trendlineaspose.slides.charts/trendline.
+title: Item
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает элемент по заданному индексу. Только для чтения Trendlineaspose.slides.charts/trendline.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/trendlinecollection/item/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/trendlinecollection/item/
 
 ## Индексатор TrendlineCollection
 
-Получает элемент по указанному индексу. Доступ только для чтения [`Trendline`](../../trendline).
+Получает элемент по заданному индексу. Только для чтения [`Trendline`](../../trendline).
 
 ```csharp
 public ITrendline this[int index] { get; }

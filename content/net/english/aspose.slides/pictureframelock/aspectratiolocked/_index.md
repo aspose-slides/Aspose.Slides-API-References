@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/pictureframelock/aspectratiolocked/
 ---
+
 ## PictureFrameLock.AspectRatioLocked property
 
 Determines whether a shape have to preserve aspect ratio on resizing. Read/write Boolean.

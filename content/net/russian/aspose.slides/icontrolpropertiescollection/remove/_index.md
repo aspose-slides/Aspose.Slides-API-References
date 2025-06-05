@@ -1,13 +1,13 @@
 ---
-title: Удалить
-second_title: Aspose.Slides для .NET API Справочник
+title: Remove
+second_title: Aspose.Sildes для .NET API Справочник
 description: Удаляет свойство с указанным именем.
 type: docs
 weight: 70
 url: /ru/aspose.slides/icontrolpropertiescollection/remove/
 ---
 
-## Метод IControlPropertiesCollection.Remove
+## IControlPropertiesCollection.Remove метод
 
 Удаляет свойство с указанным именем.
 
@@ -17,9 +17,9 @@ public void Remove(string name)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя свойства для удаления. |
+| name | String | Имя свойства, которое нужно удалить. |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IControlPropertiesCollection](../../icontrolpropertiescollection)
 * пространство имен [Aspose.Slides](../../icontrolpropertiescollection)

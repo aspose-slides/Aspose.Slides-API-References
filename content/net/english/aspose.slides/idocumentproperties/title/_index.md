@@ -3,9 +3,10 @@ title: Title
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets the title of a presentation. Read/write String.
 type: docs
-weight: 230
+weight: 320
 url: /aspose.slides/idocumentproperties/title/
 ---
+
 ## IDocumentProperties.Title property
 
 Returns or sets the title of a presentation. Read/write String.

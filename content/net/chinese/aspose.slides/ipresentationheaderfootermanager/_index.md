@@ -1,7 +1,7 @@
 ---
 title: IPresentationHeaderFooterManager
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示管理所有演示文稿的页脚日期时间和页码占位符行为的管理器。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示管理所有演示文稿的页脚、日期时间和页码占位符行为的管理器。
 type: docs
 weight: 6580
 url: /zh/aspose.slides/ipresentationheaderfootermanager/
@@ -29,12 +29,12 @@ public interface IPresentationHeaderFooterManager : IBaseHeaderFooterManager
 | [SetAllDateTimesVisibility](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimesvisibility)(bool) | 更改所有日期时间占位符的可见性，包括母版幻灯片、布局幻灯片和幻灯片。 |
 | [SetAllFootersText](../../aspose.slides/ipresentationheaderfootermanager/setallfooterstext)(string) | 设置所有页脚占位符的文本，包括母版幻灯片、布局幻灯片和幻灯片。 |
 | [SetAllFootersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallfootersvisibility)(bool) | 更改所有页脚占位符的可见性，包括母版幻灯片、布局幻灯片和幻灯片。 |
-| [SetAllHeadersText](../../aspose.slides/ipresentationheaderfootermanager/setallheaderstext)(string) | 设置所有页眉占位符的文本，包括备注母版、备注幻灯片和分发母版。 |
-| [SetAllHeadersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallheadersvisibility)(bool) | 更改所有页眉占位符的可见性，包括备注母版、备注幻灯片和分发母版。 |
+| [SetAllHeadersText](../../aspose.slides/ipresentationheaderfootermanager/setallheaderstext)(string) | 设置所有页眉占位符的文本，包括备注母版、备注幻灯片和讲义母版。 |
+| [SetAllHeadersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallheadersvisibility)(bool) | 更改所有页眉占位符的可见性，包括备注母版、备注幻灯片和讲义母版。 |
 | [SetAllSlideNumbersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallslidenumbersvisibility)(bool) | 更改所有页码占位符的可见性，包括母版幻灯片、布局幻灯片和幻灯片。 |
-| [SetVisibilityOnAllTitleSlides](../../aspose.slides/ipresentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | 更改所有标题幻灯片和第一个布局幻灯片的页脚、日期时间和页码占位符的可见性。标题幻灯片 – 基于第一个布局幻灯片的幻灯片（与第一个布局的类型无关）。 |
+| [SetVisibilityOnAllTitleSlides](../../aspose.slides/ipresentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | 更改所有标题幻灯片和第一布局幻灯片的页脚、日期时间和页码占位符的可见性。标题幻灯片是基于第一布局幻灯片的幻灯片（无论该第一布局的类型）。 |
 
-### 另请参阅
+### 参见
 
 * 接口 [IBaseHeaderFooterManager](../ibaseheaderfootermanager)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

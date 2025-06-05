@@ -1,7 +1,7 @@
 ---
-title: 动画文本类型
-second_title: Aspose.Slides for .NET API 参考
-description: 定义动画文本效果类型。形状文本可以按字母、按单词或一次性进行动画效果。读取/写入 AnimateTextType。
+title: AnimateTextType
+second_title: Aspose.Sildes for .NET API Reference
+description: 定义了一种用于效果的动画文本类型。形状文本可以按字母、按单词或一次性全部动画化。读/写 AnimateTextType。
 type: docs
 weight: 30
 url: /zh/aspose.slides.animation/effect/animatetexttype/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/effect/animatetexttype/
 
 ## Effect.AnimateTextType 属性
 
-定义动画文本效果类型。形状文本可以按字母、按单词或一次性进行动画效果。读取/写入 `AnimateTextType`。
+定义了一种用于效果的动画文本类型。形状文本可以按字母、按单词或一次性全部动画化。读/写 `AnimateTextType`。
 
 ```csharp
 public AnimateTextType AnimateTextType { get; set; }
@@ -21,15 +21,15 @@ public AnimateTextType AnimateTextType { get; set; }
 [C#]
 using (Presentation presentation = new Presentation("demo.pptx"))
 {
-    // 获取第一页的第一个效果。
+    // 获取第一张幻灯片的第一个效果。
     IEffect firstSlideEffect = presentation.Slides[0].Timeline.MainSequence[0];
     
-    // 将效果动画文本类型更改为“按字母”
+    // 更改效果的动画文本类型为“按字母”
     firstSlideEffect.AnimateTextType = AnimateTextType.ByLetter;
 }
 ```
 
-### 另请参见
+### 另请参阅
 
 * enum [AnimateTextType](../../animatetexttype)
 * class [Effect](../../effect)

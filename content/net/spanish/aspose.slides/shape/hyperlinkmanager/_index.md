@@ -1,7 +1,7 @@
 ---
 title: HyperlinkManager
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve el administrador de hiperenlaces. Solo lectura IHyperlinkManageraspose.slides/ihyperlinkmanager.
+description: Devuelve el administrador de hipervínculos. Solo lectura IHyperlinkManageraspose.slides/ihyperlinkmanager.
 type: docs
 weight: 120
 url: /es/aspose.slides/shape/hyperlinkmanager/
@@ -9,17 +9,17 @@ url: /es/aspose.slides/shape/hyperlinkmanager/
 
 ## Propiedad Shape.HyperlinkManager
 
-Devuelve el administrador de hiperenlaces. Solo lectura [`IHyperlinkManager`](../../ihyperlinkmanager).
+Devuelve el administrador de hipervínculos. Solo lectura [`IHyperlinkManager`](../../ihyperlinkmanager).
 
 ```csharp
 public IHyperlinkManager HyperlinkManager { get; }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [IHyperlinkManager](../../ihyperlinkmanager)
 * clase [Shape](../../shape)
 * espacio de nombres [Aspose.Slides](../../shape)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

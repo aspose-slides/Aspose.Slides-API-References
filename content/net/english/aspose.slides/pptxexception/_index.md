@@ -3,9 +3,10 @@ title: PptxException
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a standard internal exception type.
 type: docs
-weight: 8960
+weight: 9290
 url: /aspose.slides/pptxexception/
 ---
+
 ## PptxException class
 
 Represents a standard internal exception type.

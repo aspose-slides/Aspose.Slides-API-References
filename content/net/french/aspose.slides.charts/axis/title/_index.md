@@ -1,7 +1,7 @@
 ---
-title: Titre
+title: Title
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient le titre de l'axe. Lecture seule IChartTitleaspose.slides.charts/icharttitle.
+description: Obtient le titre de l'axe. Lecture seule IChartTitle aspose.slides.charts/icharttitle.
 type: docs
 weight: 550
 url: /fr/aspose.slides.charts/axis/title/

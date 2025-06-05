@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.effects/iimagetransformoperationcollection/addalphabileveleffect/
 ---
+
 ## IImageTransformOperationCollection.AddAlphaBiLevelEffect method
 
 Adds the new Alpha Bi-Level effect to the end of a collection.

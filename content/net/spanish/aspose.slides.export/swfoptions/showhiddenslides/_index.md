@@ -1,6 +1,6 @@
 ---
 title: ShowHiddenSlides
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Especifica si el documento generado debe incluir diapositivas ocultas o no. El valor predeterminado es falso.
 type: docs
 weight: 90
@@ -15,7 +15,7 @@ Especifica si el documento generado debe incluir diapositivas ocultas o no. El v
 public bool ShowHiddenSlides { get; set; }
 ```
 
-### Véase También
+### Véase también
 
 * clase [SwfOptions](../../swfoptions)
 * espacio de nombres [Aspose.Slides.Export](../../swfoptions)

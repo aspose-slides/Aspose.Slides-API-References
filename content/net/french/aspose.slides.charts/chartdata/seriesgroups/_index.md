@@ -1,6 +1,6 @@
 ---
 title: SeriesGroups
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient les groupes de séries. Collection IChartSeriesGroupCollection en lecture seule aspose.slides.charts/ichartseriesgroupcollection.
 type: docs
 weight: 70
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/chartdata/seriesgroups/
 
 ## Propriété ChartData.SeriesGroups
 
-Obtient les groupes de séries. [`IChartSeriesGroupCollection`](../../ichartseriesgroupcollection) en lecture seule.
+Obtient les groupes de séries. Collection [`IChartSeriesGroupCollection`](../../ichartseriesgroupcollection) en lecture seule.
 
 ```csharp
 public IChartSeriesGroupCollection SeriesGroups { get; }
@@ -17,7 +17,7 @@ public IChartSeriesGroupCollection SeriesGroups { get; }
 
 ### Remarques
 
-1) Chaque groupe de séries contient des séries avec des types combinables. Les groupes de types de séries combinables sont définis et décrits avec l'énumération CombinableSeriesTypesGroup. De plus, chaque groupe de séries contient des séries qui se tracent soit sur des axes principaux, soit sur des axes secondaires (pas dans les deux cas dans un même groupe). Ainsi, le principe de regroupement des séries est un regroupement par les types de groupes mentionnés ci-dessus et par le type de traçage principal/secondaire. 2) Un groupe de séries contient certaines propriétés de séries qui sont communes à chaque série du groupe ("propriétés de groupe de séries"). Les "propriétés de groupe de séries" dans la classe ChartSeriesGroup sont en lecture/écriture. Chacune des "propriétés de groupe de séries" peut avoir une projection en lecture seule dans la classe ChartSeries.
+1) Chaque groupe de séries contient des séries avec des types combinables. Les groupes de types de séries combinables sont définis et décrits avec l'énumération CombinableSeriesTypesGroup. De plus, chaque groupe de séries contient des séries tracées soit sur les axes principaux, soit sur les axes secondaires (pas les deux cas dans un même groupe). Ainsi, le principe de regroupement des séries est un regroupement par les types mentionnés ci-dessus et par le type de traçage principal/secondaire. 2) Un groupe de séries contient certaines propriétés de série communes à chaque série du groupe ("propriétés de groupe de séries"). Les "propriétés de groupe de séries" dans la classe ChartSeriesGroup sont en lecture/écriture. Chacune des "propriétés de groupe de séries" peut avoir une projection en lecture seule dans la classe ChartSeries.
 
 ### Voir aussi
 

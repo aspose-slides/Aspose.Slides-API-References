@@ -3,9 +3,10 @@ title: PlayLoopMode
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines whether a video is looped. Read/write Boolean.
 type: docs
-weight: 50
+weight: 60
 url: /aspose.slides/videoframe/playloopmode/
 ---
+
 ## VideoFrame.PlayLoopMode property
 
 Determines whether a video is looped. Read/write Boolean.

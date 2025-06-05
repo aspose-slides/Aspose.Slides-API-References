@@ -1,6 +1,6 @@
 ---
 title: MathNaryOperator
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Initialisiert eine neue Instanz der MathNaryOperator-Klasse.
 type: docs
 weight: 10
@@ -18,7 +18,7 @@ public MathNaryOperator(char operatorSymbol, IMathElement baseArgument, IMathEle
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| operatorSymbol | Char | N-ärer Operator-Symbol |
+| operatorSymbol | Char | N-ary Operator Symbol |
 | baseArgument | IMathElement | Basisargument |
 | lowerLimit | IMathElement | Untere Grenze |
 | upperLimit | IMathElement | Obere Grenze |
@@ -32,9 +32,9 @@ Beispiel:
 IMathNaryOperator naryOperator = new MathNaryOperator('∑', new MathematicalText("i"), new MathematicalText("i=0"), new MathematicalText("𝑛"));
 ```
 
-### Siehe auch
+### Siehe Auch
 
-* Schnittstelle [IMathElement](../../imathelement)
+* Interface [IMathElement](../../imathelement)
 * Klasse [MathNaryOperator](../../mathnaryoperator)
 * Namespace [Aspose.Slides.MathText](../../mathnaryoperator)
 * Assembly [Aspose.Slides](../../../)
@@ -51,7 +51,7 @@ public MathNaryOperator(char operatorSymbol, IMathElement baseArgument, IMathEle
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| operatorSymbol | Char | N-ärer Operator-Symbol |
+| operatorSymbol | Char | N-ary Operator Symbol |
 | baseArgument | IMathElement | Basisargument |
 | lowerLimit | IMathElement | Untere Grenze |
 
@@ -64,9 +64,9 @@ Beispiel:
 IMathNaryOperator naryOperator = new MathNaryOperator('∑', new MathematicalText("i"), new MathematicalText("i"));
 ```
 
-### Siehe auch
+### Siehe Auch
 
-* Schnittstelle [IMathElement](../../imathelement)
+* Interface [IMathElement](../../imathelement)
 * Klasse [MathNaryOperator](../../mathnaryoperator)
 * Namespace [Aspose.Slides.MathText](../../mathnaryoperator)
 * Assembly [Aspose.Slides](../../../)
@@ -83,7 +83,7 @@ public MathNaryOperator(char operatorSymbol, IMathElement baseArgument)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| operatorSymbol | Char | N-ärer Operator-Symbol |
+| operatorSymbol | Char | N-ary Operator Symbol |
 | baseArgument | IMathElement | Basisargument |
 
 ### Beispiele
@@ -95,9 +95,9 @@ Beispiel:
 IMathNaryOperator naryOperator = new MathNaryOperator('∑', new MathematicalText("i"));
 ```
 
-### Siehe auch
+### Siehe Auch
 
-* Schnittstelle [IMathElement](../../imathelement)
+* Interface [IMathElement](../../imathelement)
 * Klasse [MathNaryOperator](../../mathnaryoperator)
 * Namespace [Aspose.Slides.MathText](../../mathnaryoperator)
 * Assembly [Aspose.Slides](../../../)

@@ -1,15 +1,15 @@
 ---
 title: ITableFormatEffectiveData
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Objet immuable contenant les propriétés de formatage de tableau effectives.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Objet immuable qui contient les propriétés de formatage de tableau effectif.
 type: docs
 weight: 7030
 url: /fr/aspose.slides/itableformateffectivedata/
 ---
 
-## Interface ITableFormatEffectiveData
+## ITableFormatEffectiveData interface
 
-Objet immuable contenant les propriétés de formatage de tableau effectives.
+Objet immuable qui contient les propriétés de formatage de tableau effectif.
 
 ```csharp
 public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -19,14 +19,14 @@ public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Nom | Description |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | Permet d'obtenir l'interface IBaseTableFormatEffectiveData de base. Lecture seule [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | Obtient la transparence de la couleur de remplissage. Lecture d'un nombre réel. |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | Permet d'obtenir l'interface de base IBaseTableFormatEffectiveData. Lecture seule [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | Obtient la transparence de la couleur de remplissage. Lecture de Single. |
 
 ### Remarques
 
-Cette interface est utilisée avec l'interface [`ITableFormat`](../itableformat) pour retourner des valeurs de formatage effectives avec héritage et styles de tableau appliqués.
+Cette interface est utilisée avec l'interface [`ITableFormat`](../itableformat) pour retourner des valeurs de formatage effectif avec héritage et styles de tableau appliqués.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IBaseTableFormatEffectiveData](../ibasetableformateffectivedata)
 * namespace [Aspose.Slides](../../aspose.slides)

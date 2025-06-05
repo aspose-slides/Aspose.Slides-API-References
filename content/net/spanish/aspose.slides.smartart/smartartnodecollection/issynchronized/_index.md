@@ -15,7 +15,7 @@ Devuelve un valor que indica si el acceso a la colección está sincronizado (se
 public bool IsSynchronized { get; }
 ```
 
-### Vea También
+### Véase también
 
 * clase [SmartArtNodeCollection](../../smartartnodecollection)
 * espacio de nombres [Aspose.Slides.SmartArt](../../smartartnodecollection)

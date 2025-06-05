@@ -1,5 +1,5 @@
 ---
-title: Element
+title: Item
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt das Element am angegebenen Index zurück.
 type: docs
@@ -15,7 +15,7 @@ Gibt das Element am angegebenen Index zurück.
 public IChartSeries this[int index] { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IChartSeries](../../ichartseries)
 * Schnittstelle [IChartSeriesReadonlyCollection](../../ichartseriesreadonlycollection)

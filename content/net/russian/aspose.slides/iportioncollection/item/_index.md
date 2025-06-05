@@ -1,21 +1,21 @@
 ---
-title: Элемент
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает элемент по указанному индексу.
+title: Item
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает элемент по заданному индексу.
 type: docs
 weight: 30
 url: /ru/aspose.slides/iportioncollection/item/
 ---
 
-## Индексатор IPortionCollection
+## IPortionCollection индексатор
 
-Получает элемент по указанному индексу.
+Получает элемент по заданному индексу.
 
 ```csharp
 public IPortion this[int index] { get; }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IPortion](../../iportion)
 * интерфейс [IPortionCollection](../../iportioncollection)

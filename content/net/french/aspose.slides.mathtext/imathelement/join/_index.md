@@ -1,15 +1,15 @@
 ---
-title: Joindre
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Joins un élément mathématique et forme un bloc mathématique
+title: Join
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Joint un élément mathématique et forme un bloc mathématique
 type: docs
 weight: 90
 url: /fr/aspose.slides.mathtext/imathelement/join/
 ---
 
-## Joindre(IMathElement) {#join}
+## Join(IMathElement) {#join}
 
-Joins un élément mathématique et forme un bloc mathématique
+Joint un élément mathématique et forme un bloc mathématique
 
 ```csharp
 public IMathBlock Join(IMathElement mathElement)
@@ -19,7 +19,7 @@ public IMathBlock Join(IMathElement mathElement)
 | --- | --- | --- |
 | mathElement | IMathElement | L'élément à joindre |
 
-### Valeur de retour
+### Valeur de Retour
 
 Un nouveau IMathBlock contenant cette instance et l'argument spécifié
 
@@ -34,7 +34,7 @@ IMathElement element2 = new MathematicalText("y");
 IMathBlock block = element1.Join(element2);
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathBlock](../../imathblock)
 * interface [IMathElement](../../imathelement)
@@ -43,9 +43,9 @@ IMathBlock block = element1.Join(element2);
 
 ---
 
-## Joindre(string) {#join_1}
+## Join(string) {#join_1}
 
-Joins un texte mathématique et forme un bloc mathématique
+Joint un texte mathématique et forme un bloc mathématique
 
 ```csharp
 public IMathBlock Join(string mathText)
@@ -55,7 +55,7 @@ public IMathBlock Join(string mathText)
 | --- | --- | --- |
 | mathText | String | Texte mathématique à joindre |
 
-### Valeur de retour
+### Valeur de Retour
 
 Un nouveau IMathBlock contenant cette instance et l'argument spécifié
 
@@ -69,7 +69,7 @@ IMathElement element = new MathematicalText("x");
 IMathBlock block = element.Join("+y");
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathBlock](../../imathblock)
 * interface [IMathElement](../../imathelement)

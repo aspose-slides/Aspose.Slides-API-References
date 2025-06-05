@@ -1,24 +1,24 @@
----
-title: CódigoFuente
-second_title: Referencia de API de Aspose.Slides para .NET
+---  
+title: SourceCode
+second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve o establece el código fuente del módulo. Cadena de lectura/escritura.
-type: docs
-weight: 20
+type: docs  
+weight: 20  
 url: /es/aspose.slides.vba/vbamodule/sourcecode/
----
+---  
 
-## Propiedad VbaModule.SourceCode
+## Propiedad VbaModule.SourceCode  
 
-Devuelve o establece el código fuente del módulo. Cadena de lectura/escritura.
+Devuelve o establece el código fuente del módulo. Cadena de lectura/escritura.  
 
-```csharp
-public string SourceCode { get; set; }
-```
+```csharp  
+public string SourceCode { get; set; }  
+```  
 
-### Véase también
+### Véase También  
 
-* clase [VbaModule](../../vbamodule)
-* espacio de nombres [Aspose.Slides.Vba](../../vbamodule)
-* ensamblaje [Aspose.Slides](../../../)
+* clase [VbaModule](../../vbamodule)  
+* espacio de nombres [Aspose.Slides.Vba](../../vbamodule)  
+* ensamblaje [Aspose.Slides](../../../)  
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

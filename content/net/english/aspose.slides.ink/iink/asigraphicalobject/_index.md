@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.ink/iink/asigraphicalobject/
 ---
+
 ## IInk.AsIGraphicalObject property
 
 Allows to get base IGraphicalObject interface. Read-only [`IGraphicalObject`](../../../aspose.slides/igraphicalobject).

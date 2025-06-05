@@ -1,21 +1,21 @@
 ---
 title: BuildType
-second_title: Aspose.Sildes для .NET API Reference
-description: Список типов построения для примера. Параграф 123 Все сразу анимации текста. Чтение/запись BuildTypeaspose.slides.animation/itextanimation/buildtype.
+second_title: Aspose.Slides для .NET API Справочник
+description: Список типов сборки для примера. Параграф 123 Всё сразу анимации текста. Чтение/запись BuildTypeaspose.slides.animation/itextanimation/buildtype.
 type: docs
 weight: 10
 url: /ru/aspose.slides.animation/itextanimation/buildtype/
 ---
 
-## Свойство ITextAnimation.BuildType
+## ITextAnimation.BuildType свойство
 
-Список типов построения (например, Параграф 1, 2, 3, Все сразу) анимации текста. Чтение/запись `BuildType`.
+Список типов сборки (например, Параграф 1,2,3, Всё сразу) анимации текста. Чтение/запись `BuildType`.
 
 ```csharp
 public BuildType BuildType { get; set; }
 ```
 
-### См. также
+### Смотрите Также
 
 * enum [BuildType](../../buildtype)
 * interface [ITextAnimation](../../itextanimation)

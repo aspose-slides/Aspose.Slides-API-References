@@ -1,7 +1,7 @@
 ---
 title: FontFallBackRulesCollection
 second_title: Aspose.Slides für .NET API Referenz
-description: Stellt eine Sammlung von FontFallBack-Regeln eines Benutzers zum Verwalten von Schriftarten-Sammlungen für ordnungsgemäße Substitutionen durch Fallback-Funktionalität dar. Lese-/Schreibzugriff auf IFontFallBackRulesCollectionaspose.slides/ifontfallbackrulescollection.
+description: Stellt eine Sammlung von FontFallBack-Regeln eines Benutzers zur Verwaltung von Schriftarten-Sammlungen für ordnungsgemäße Substitutionen durch die Fallback-Funktionalität dar. Lesen/Schreiben IFontFallBackRulesCollectionaspose.slides/ifontfallbackrulescollection.
 type: docs
 weight: 10
 url: /de/aspose.slides/fontsmanager/fontfallbackrulescollection/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/fontsmanager/fontfallbackrulescollection/
 
 ## FontsManager.FontFallBackRulesCollection-Eigenschaft
 
-Stellt eine Sammlung von FontFallBack-Regeln eines Benutzers zum Verwalten von Schriftarten-Sammlungen für ordnungsgemäße Substitutionen durch Fallback-Funktionalität dar. Lese-/Schreibzugriff auf [`IFontFallBackRulesCollection`](../../ifontfallbackrulescollection).
+Stellt die Sammlung von FontFallBack-Regeln eines Benutzers zur Verwaltung von Schriftarten-Sammlungen für ordnungsgemäße Substitutionen durch die Fallback-Funktionalität dar. Lesen/Schreiben [`IFontFallBackRulesCollection`](../../ifontfallbackrulescollection).
 
 ```csharp
 public IFontFallBackRulesCollection FontFallBackRulesCollection { get; set; }
@@ -21,27 +21,27 @@ public IFontFallBackRulesCollection FontFallBackRulesCollection { get; set; }
 [C#]
 using (Presentation pres = new Presentation ())
 {
-    // Abrufen der leeren oder vorinitialisierten Regeln-Sammlung aus FontsManager
+    // Abrufen der leeren oder vorinitialisierten Regel-Sammlung von FontsManager
     IFontFallBackRulesCollection rulesList = pres.FontsManager.FontFallBackRulesCollection;
 
     // Hinzufügen von Regeln zur Sammlung
     rulesList.Add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
 
     // oder 
-    // Initialisierung einer neuen Instanz der Regeln-Sammlung
+    // Initialisierung einer neuen Instanz der Regel-Sammlung
     IFontFallBackRulesCollection rulesList = new FontFallBackRulesCollection();
 
     // Hinzufügen von Regeln zur Sammlung
     rulesList.Add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
 
-    // und Ersetzen der vorhandenen Sammlung durch die neue im FontsManager 
+    // und Ersetzen der bestehenden Sammlung durch die neue im FontsManager 
     pres.FontsManager.FontFallBackRulesCollection = rulesList;
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
-* Interface [IFontFallBackRulesCollection](../../ifontfallbackrulescollection)
+* Schnittstelle [IFontFallBackRulesCollection](../../ifontfallbackrulescollection)
 * Klasse [FontsManager](../../fontsmanager)
 * Namespace [Aspose.Slides](../../fontsmanager)
 * Assembly [Aspose.Slides](../../../)

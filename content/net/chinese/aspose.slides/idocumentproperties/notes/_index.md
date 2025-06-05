@@ -1,21 +1,21 @@
 ---
-title: 笔记
-second_title: Aspose.Sildes for .NET API 参考
-description: 指定包含笔记的演示文稿中的幻灯片数量。只读 Int32。
+title: Notes
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定包含备注的演示文稿中的幻灯片数量。只读 Int32。
 type: docs
 weight: 240
 url: /zh/aspose.slides/idocumentproperties/notes/
 ---
 
-## IDocumentProperties.Notes 属性
+## IDocumentProperties.Notes属性
 
-指定包含笔记的演示文稿中的幻灯片数量。只读 Int32。
+指定包含备注的演示文稿中的幻灯片数量。只读 Int32。
 
 ```csharp
 public int Notes { get; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IDocumentProperties](../../idocumentproperties)
 * 命名空间 [Aspose.Slides](../../idocumentproperties)

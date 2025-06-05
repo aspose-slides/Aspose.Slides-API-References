@@ -1,7 +1,7 @@
 ---
-title: Element
-second_title: Aspose.Slides für .NET API Referenz
-description: Holt das Element am angegebenen Index.
+title: Item
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ruft das Element am angegebenen Index ab.
 type: docs
 weight: 40
 url: /de/aspose.slides/fontsubstrulecollection/item/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/fontsubstrulecollection/item/
 
 ## FontSubstRuleCollection-Indexer
 
-Holt das Element am angegebenen Index.
+Ruft das Element am angegebenen Index ab.
 
 ```csharp
 public IFontSubstRule this[int index] { get; }

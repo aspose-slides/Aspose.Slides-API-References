@@ -19,7 +19,7 @@ public IGrayScale CreateGrayScale()
 
 返回灰度效果。
 
-### 另见
+### 另请参阅
 
 * 接口 [IGrayScale](../../igrayscale)
 * 接口 [IImageTransformOperationFactory](../../iimagetransformoperationfactory)

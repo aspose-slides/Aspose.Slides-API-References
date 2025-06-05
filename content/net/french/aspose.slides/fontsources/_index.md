@@ -1,6 +1,6 @@
 ---
 title: FontSources
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Fournit des sources de fichiers et de mémoire pour des polices externes.
 type: docs
 weight: 4670
@@ -25,7 +25,7 @@ public class FontSources : IFontSources
 
 | Nom | Description |
 | --- | --- |
-| [FontFolders](../../aspose.slides/fontsources/fontfolders) { get; set; } | Dossiers contenant des fichiers de polices. Tous les fichiers de polices situés dans ces dossiers sont inclus dans la collection. Dossiers qui sont recherchés de manière récursive. |
+| [FontFolders](../../aspose.slides/fontsources/fontfolders) { get; set; } | Dossiers contenant des fichiers de police. Tous les fichiers de police situés dans ces dossiers sont inclus dans la collection. Dossiers qui sont recherchés de manière récursive. |
 | [MemoryFonts](../../aspose.slides/fontsources/memoryfonts) { get; set; } | Une collection de polices représentées sous forme de tableaux d'octets. |
 
 ### Voir aussi

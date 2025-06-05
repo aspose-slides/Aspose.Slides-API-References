@@ -1,6 +1,6 @@
 ---
-title: 控件类型
-second_title: Aspose.Slides for .NET API参考
+title: ControlType
+second_title: Aspose.Sildes for .NET API Reference
 description: 定义一个应通过 AddControl./icontrolcollection/addcontrol 嵌入的控件类型。
 type: docs
 weight: 2630
@@ -21,7 +21,7 @@ public enum ControlType
 | --- | --- | --- |
 | WindowsMediaPlayer | `0` | Windows Media Player 控件。 |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

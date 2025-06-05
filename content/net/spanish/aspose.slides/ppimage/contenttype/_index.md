@@ -1,13 +1,13 @@
 ---
 title: ContentType
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve un tipo MIME de una imagen codificada en BinaryDataaspose.slides/ppimage/binarydata. Solo lectura String.
 type: docs
 weight: 20
 url: /es/aspose.slides/ppimage/contenttype/
 ---
 
-## Propiedad PPImage.ContentType
+## PPImage.ContentType propiedad
 
 Devuelve un tipo MIME de una imagen, codificada en [`BinaryData`](../binarydata). Solo lectura String.
 
@@ -15,10 +15,10 @@ Devuelve un tipo MIME de una imagen, codificada en [`BinaryData`](../binarydata)
 public string ContentType { get; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [PPImage](../../ppimage)
 * espacio de nombres [Aspose.Slides](../../ppimage)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

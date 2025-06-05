@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/igenericcloneable-1/asicloneable/
 ---
+
 ## IGenericCloneable&lt;T&gt;.AsICloneable property
 
 Returns ICloneable interface.

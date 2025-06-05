@@ -1,21 +1,21 @@
 ---
 title: ShadowOffsetX
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt die Eigenschaft shadow.offset.x dar
 type: docs
 weight: 700
 url: /de/aspose.slides.animation/behaviorproperty/shadowoffsetx/
 ---
 
-## BehaviorProperty.ShadowOffsetX Eigenschaft
+## BehaviorProperty.ShadowOffsetX-Eigenschaft
 
-Stellt die Eigenschaft 'shadow.offset.x' dar
+Stellt die 'shadow.offset.x' Eigenschaft dar
 
 ```csharp
 public static BehaviorProperty ShadowOffsetX { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [BehaviorProperty](../../behaviorproperty)
 * Namespace [Aspose.Slides.Animation](../../behaviorproperty)

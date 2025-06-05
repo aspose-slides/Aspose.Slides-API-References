@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/ibackground/type/
 ---
+
 ## IBackground.Type property
 
 Returns a type of background fill. Read/write [`BackgroundType`](../../backgroundtype).

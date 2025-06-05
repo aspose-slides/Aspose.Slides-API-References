@@ -15,7 +15,7 @@ Representa la cadena de formato para las etiquetas del eje. Cadena de lectura/es
 public string NumberFormat { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IAxis](../../iaxis)
 * espacio de nombres [Aspose.Slides.Charts](../../iaxis)

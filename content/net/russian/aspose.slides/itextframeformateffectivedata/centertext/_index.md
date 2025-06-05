@@ -1,21 +1,21 @@
 ---
 title: CenterText
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает, должен ли текст быть выровнен по центру в коробке по горизонтали. Свойство только для чтения Boolean.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает, следует ли центрировать текст в рамке по горизонтали. Свойство только для чтения, логическое значение.
 type: docs
 weight: 30
 url: /ru/aspose.slides/itextframeformateffectivedata/centertext/
 ---
 
-## Свойство ITextFrameFormatEffectiveData.CenterText
+## ITextFrameFormatEffectiveData.CenterText свойство
 
-Возвращает, должен ли текст быть выровнен по центру в коробке по горизонтали. Свойство только для чтения Boolean.
+Возвращает, следует ли центрировать текст в рамке по горизонтали. Свойство только для чтения, логическое значение.
 
 ```csharp
 public bool CenterText { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [ITextFrameFormatEffectiveData](../../itextframeformateffectivedata)
 * пространство имен [Aspose.Slides](../../itextframeformateffectivedata)

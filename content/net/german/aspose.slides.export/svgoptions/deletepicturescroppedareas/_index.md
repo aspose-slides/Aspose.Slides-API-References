@@ -1,7 +1,7 @@
 ---
 title: DeletePicturesCroppedAreas
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ein boolesches Flag zeigt an, ob die beschnittenen Teile Teil des Dokuments bleiben. Wenn true, werden die beschnittenen Teile entfernt; wenn false, werden sie im Dokument serialisiert, was möglicherweise zu einer größeren Datei führen kann.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ein boolesches Flag gibt an, ob die zugeschnittenen Teile als Teil des Dokuments verbleiben. Wenn es wahr ist, werden die zugeschnittenen Teile entfernt, wenn es falsch ist, werden sie im Dokument serialisiert, was möglicherweise zu einer größeren Datei führen kann.
 type: docs
 weight: 50
 url: /de/aspose.slides.export/svgoptions/deletepicturescroppedareas/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/svgoptions/deletepicturescroppedareas/
 
 ## SVGOptions.DeletePicturesCroppedAreas-Eigenschaft
 
-Ein boolesches Flag zeigt an, ob die beschnittenen Teile Teil des Dokuments bleiben. Wenn true, werden die beschnittenen Teile entfernt; wenn false, werden sie im Dokument serialisiert (was möglicherweise zu einer größeren Datei führen kann).
+Ein boolesches Flag gibt an, ob die zugeschnittenen Teile als Teil des Dokuments verbleiben. Wenn es wahr ist, werden die zugeschnittenen Teile entfernt, wenn es falsch ist, werden sie im Dokument serialisiert (was möglicherweise zu einer größeren Datei führen kann).
 
 ```csharp
 public bool DeletePicturesCroppedAreas { get; set; }

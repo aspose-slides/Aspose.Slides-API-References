@@ -1,7 +1,7 @@
 ---
 title: AddClone
-second_title: Aspose.Slides для .NET API Справочник
-description: Добавляет копию указанного макета слайда в конец коллекции.
+second_title: Aspose.Sildes для .NET Справочник по API
+description: Добавляет копию указанного слайда макета в конец коллекции.
 type: docs
 weight: 30
 url: /ru/aspose.slides/imasterlayoutslidecollection/addclone/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/imasterlayoutslidecollection/addclone/
 
 ## IMasterLayoutSlideCollection.AddClone метод
 
-Добавляет копию указанного макета слайда в конец коллекции.
+Добавляет копию указанного слайда макета в конец коллекции.
 
 ```csharp
 public ILayoutSlide AddClone(ILayoutSlide sourceLayout)
@@ -23,9 +23,9 @@ public ILayoutSlide AddClone(ILayoutSlide sourceLayout)
 
 Добавленный слайд.
 
-### Примечания
+### Заметки
 
-1) Новый макет будет связан с родительским мастер-слайдом для этой коллекции макетов слайдов. Это аналог функции копирования/вставки с опцией "Использовать тему назначения" в PowerPoint. 2) Аналогом этого метода является метод [`AddClone`](../../igloballayoutslidecollection/addclone), доступный через свойство [`LayoutSlides`](../../ipresentation/layoutslides).
+1) Новый макет будет связан с родительским слайдом мастера для этой коллекции слайдов макета. Таким образом, это аналог копирования/вставки с опцией "Использовать тему назначения" в PowerPoint. 2) Аналогом этого метода является метод [`AddClone`](../../igloballayoutslidecollection/addclone), доступный через свойство [`LayoutSlides`](../../ipresentation/layoutslides).
 
 ### См. также
 

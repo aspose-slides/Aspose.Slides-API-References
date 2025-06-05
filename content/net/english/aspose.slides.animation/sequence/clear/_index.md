@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.animation/sequence/clear/
 ---
+
 ## Sequence.Clear method
 
 Removes all effects from a collection.

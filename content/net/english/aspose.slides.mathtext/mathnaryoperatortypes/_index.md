@@ -3,9 +3,10 @@ title: MathNaryOperatorTypes
 second_title: Aspose.Sildes for .NET API Reference
 description: Nary operator IMathNaryOperator types excluding integrals For integrals MathIntegralTypes./mathintegraltypes
 type: docs
-weight: 8300
+weight: 8630
 url: /aspose.slides.mathtext/mathnaryoperatortypes/
 ---
+
 ## MathNaryOperatorTypes enumeration
 
 Nary operator IMathNaryOperator types (excluding integrals) For integrals [`MathIntegralTypes`](../mathintegraltypes)

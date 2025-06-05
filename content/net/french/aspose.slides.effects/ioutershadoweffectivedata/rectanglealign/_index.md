@@ -1,7 +1,7 @@
 ---
 title: RectangleAlign
 second_title: Référence API Aspose.Slides pour .NET
-description: Alignement des rectangles. Lecture seule RectangleAlignment aspose.slides/rectanglealignment.
+description: Alignement des rectangles. Lecture seule RectangleAlignment dans aspose.slides/rectanglealignment.
 type: docs
 weight: 50
 url: /fr/aspose.slides.effects/ioutershadoweffectivedata/rectanglealign/

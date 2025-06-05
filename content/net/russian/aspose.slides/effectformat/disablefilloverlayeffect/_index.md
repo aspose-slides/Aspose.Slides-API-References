@@ -15,7 +15,7 @@ url: /ru/aspose.slides/effectformat/disablefilloverlayeffect/
 public void DisableFillOverlayEffect()
 ```
 
-### Смотрите также
+### См. также
 
 * класс [EffectFormat](../../effectformat)
 * пространство имен [Aspose.Slides](../../effectformat)

@@ -7,7 +7,7 @@ weight: 2370
 url: /zh/aspose.slides.charts/tickmarktype/
 ---
 
-## TickMarkType枚举
+## TickMarkType 枚举
 
 表示指定轴的刻度标记类型。
 
@@ -19,7 +19,7 @@ public enum TickMarkType
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Cross | `0` | 指定刻度标记应穿过轴。 |
+| Cross | `0` | 指定刻度标记应交叉轴线。 |
 | Inside | `1` | 指定刻度标记应位于绘图区域内部。 |
 | None | `2` | 指定不应有刻度标记。 |
 | Outside | `3` | 指定刻度标记应位于绘图区域外部。 |

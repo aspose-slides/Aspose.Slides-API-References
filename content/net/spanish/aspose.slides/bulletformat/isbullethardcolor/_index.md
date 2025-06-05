@@ -1,15 +1,15 @@
 ---
 title: IsBulletHardColor
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Determina si el viñeta tiene su propio color o lo hereda de la primera porción en el párrafo. NullableBool.True si la viñeta tiene su propio color y NullableBool.False si la viñeta hereda el color de la primera porción en el párrafo. Lectura/escritura NullableBoolaspose.slides/nullablebool.
+second_title: Referencia de la API Aspose.Slides para .NET
+description: Determina si el marcador tiene su propio color o lo hereda de la primera porción en el párrafo. NullableBool.True si el marcador tiene su propio color y NullableBool.False si el marcador hereda el color de la primera porción en el párrafo. Lectura/escritura NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 50
 url: /es/aspose.slides/bulletformat/isbullethardcolor/
 ---
 
-## Propiedad BulletFormat.IsBulletHardColor
+## BulletFormat.IsBulletHardColor property
 
-Determina si la viñeta tiene su propio color o lo hereda de la primera porción en el párrafo. **NullableBool.True** si la viñeta tiene su propio color y **NullableBool.False** si la viñeta hereda el color de la primera porción en el párrafo. Lectura/escritura [`NullableBool`](../../nullablebool).
+Determina si el marcador tiene su propio color o lo hereda de la primera porción en el párrafo. **NullableBool.True** si el marcador tiene su propio color y **NullableBool.False** si el marcador hereda el color de la primera porción en el párrafo. Lectura/escritura [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool IsBulletHardColor { get; set; }

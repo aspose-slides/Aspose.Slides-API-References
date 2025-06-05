@@ -1,13 +1,13 @@
 ---
-title: Слайд
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает базовый слайд. Только для чтения IBaseSlide aspose.slides/ibaseslide.
+title: Slide
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает базовый слайд. Только для чтения IBaseSlideaspose.slides/ibaseslide.
 type: docs
 weight: 20
 url: /ru/aspose.slides/islidecomponent/slide/
 ---
 
-## Свойство ISlideComponent.Slide
+## ISlideComponent.Slide свойство
 
 Возвращает базовый слайд. Только для чтения [`IBaseSlide`](../../ibaseslide).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/islidecomponent/slide/
 public IBaseSlide Slide { get; }
 ```
 
-### Смотрите также
+### См. Также
 
 * интерфейс [IBaseSlide](../../ibaseslide)
 * интерфейс [ISlideComponent](../../islidecomponent)

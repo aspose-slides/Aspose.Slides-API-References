@@ -1,7 +1,7 @@
 ---
 title: AdditionalCommonFontFamilies
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt ein Array von benutzerdefinierten Namen von Schriftartenfamilien zurück oder setzt dieses, die Aspose.Slides als allgemein betrachten sollte. Lese-/Schreibzeichenfolge.
+description: Gibt ein Array von benutzerdefinierten Namen von Schriftfamilien zurück oder legt es fest, die Aspose.Slides als allgemein betrachten sollte. Lese-/Schreibzugriff auf String.
 type: docs
 weight: 20
 url: /de/aspose.slides.export/ipdfoptions/additionalcommonfontfamilies/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/ipdfoptions/additionalcommonfontfamilies/
 
 ## IPdfOptions.AdditionalCommonFontFamilies-Eigenschaft
 
-Gibt ein Array von benutzerdefinierten Namen von Schriftartenfamilien zurück oder setzt dieses, die Aspose.Slides als allgemein betrachten sollte. Lese-/Schreibzeichenfolgen[].
+Gibt ein Array von benutzerdefinierten Namen von Schriftfamilien zurück oder legt es fest, die Aspose.Slides als allgemein betrachten sollte. Lese-/Schreibzugriff auf String[].
 
 ```csharp
 public string[] AdditionalCommonFontFamilies { get; set; }

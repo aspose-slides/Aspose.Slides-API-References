@@ -1,13 +1,13 @@
 ---
-title: Supprimer
-second_title: Référence API Aspose.Slides pour .NET
+title: Remove
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Supprime la première occurrence de l'auteur spécifié dans une collection.
 type: docs
 weight: 60
 url: /fr/aspose.slides/icommentauthorcollection/remove/
 ---
 
-## Méthode ICommentAuthorCollection.Remove
+## ICommentAuthorCollection.Remove méthode
 
 Supprime la première occurrence de l'auteur spécifié dans une collection.
 

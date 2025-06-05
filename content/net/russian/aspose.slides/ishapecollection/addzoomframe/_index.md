@@ -1,6 +1,6 @@
 ---
 title: AddZoomFrame
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Добавляет новый объект Zoom в конец коллекции.
 type: docs
 weight: 190
@@ -17,11 +17,11 @@ public IZoomFrame AddZoomFrame(float x, float y, float width, float height, ISli
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | Координата X нового рамки Zoom Single. |
-| y | Single | Координата Y нового рамки Zoom Single. |
-| width | Single | Ширина нового рамки Zoom Single. |
-| height | Single | Высота нового рамки Zoom Single. |
-| slide | ISlide | Объект слайда, на который ссылается рамка Zoom [`ISlide`](../../islide). |
+| x | Single | X-координата нового кадра Zoom Single. |
+| y | Single | Y-координата нового кадра Zoom Single. |
+| width | Single | Ширина нового кадра Zoom Single. |
+| height | Single | Высота нового кадра Zoom Single. |
+| slide | ISlide | Объект слайда, на который ссылается кадр Zoom [`ISlide`](../../islide). |
 
 ### Возвращаемое значение
 
@@ -35,7 +35,7 @@ public IZoomFrame AddZoomFrame(float x, float y, float width, float height, ISli
 
 ### Примеры
 
-Этот пример демонстрирует добавление объекта Zoom в конец коллекции (предполагается, что в презентации "Presentation.pptx" есть как минимум два слайда):
+Этот пример демонстрирует добавление объекта Zoom в конец коллекции (предположим, что в презентации "Presentation.pptx" есть как минимум два слайда):
 
 ```csharp
 [C#]
@@ -66,11 +66,11 @@ public IZoomFrame AddZoomFrame(float x, float y, float width, float height, ISli
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | Координата X нового рамки Zoom Single. |
-| y | Single | Координата Y нового рамки Zoom Single. |
-| width | Single | Ширина нового рамки Zoom Single. |
-| height | Single | Высота нового рамки Zoom Single. |
-| slide | ISlide | Объект слайда, на который ссылается рамка Zoom [`ISlide`](../../islide). |
+| x | Single | X-координата нового кадра Zoom Single. |
+| y | Single | Y-координата нового кадра Zoom Single. |
+| width | Single | Ширина нового кадра Zoom Single. |
+| height | Single | Высота нового кадра Zoom Single. |
+| slide | ISlide | Объект слайда, на который ссылается кадр Zoom [`ISlide`](../../islide). |
 | image | IPPImage | Изображение для указанного слайда [`IPPImage`](../../ippimage) |
 
 ### Возвращаемое значение
@@ -85,7 +85,7 @@ public IZoomFrame AddZoomFrame(float x, float y, float width, float height, ISli
 
 ### Примеры
 
-Этот пример демонстрирует добавление объекта Zoom в конец коллекции (предполагается, что в презентации "Presentation.pptx" есть как минимум два слайда):
+Этот пример демонстрирует добавление объекта Zoom в конец коллекции (предположим, что в презентации "Presentation.pptx" есть как минимум два слайда):
 
 ```csharp
 [C#]

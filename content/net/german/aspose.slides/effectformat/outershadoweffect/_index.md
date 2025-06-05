@@ -1,7 +1,7 @@
 ---
 title: OuterShadowEffect
-second_title: Aspose.Slides für .NET API-Referenz
-description: Außenschatten. Lesen / Schreiben von IOuterShadowaspose.slides.effects/ioutershadow.
+second_title: Aspose.Slides für .NET API Referenz
+description: Äußerer Schatten. Lesen/Schreiben von IOuterShadowaspose.slides.effects/ioutershadow.
 type: docs
 weight: 60
 url: /de/aspose.slides/effectformat/outershadoweffect/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/effectformat/outershadoweffect/
 
 ## EffectFormat.OuterShadowEffect Eigenschaft
 
-Außenschatten. Lesen / Schreiben von [`IOuterShadow`](../../../aspose.slides.effects/ioutershadow).
+Äußerer Schatten. Lesen/Schreiben von [`IOuterShadow`](../../../aspose.slides.effects/ioutershadow).
 
 ```csharp
 public IOuterShadow OuterShadowEffect { get; set; }

@@ -1,6 +1,6 @@
 ---
 title: WrapText
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Verdadero si el texto se ajusta a los márgenes de TextFrames. Lectura/escritura NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 160

@@ -1,12 +1,12 @@
 ---
-title: Равно
-second_title: Справочник по API Aspose.Slides для .NET
+title: Equals
+second_title: Aspose.Slides для .NET API Справочник
 description: type docs
 weight: 50
 url: /ru/aspose.slides/shapebevel/equals/
 ---
 
-## Метод ShapeBevel.Equals
+## ShapeBevel.Equals метод
 
 ```csharp
 public override bool Equals(object obj)

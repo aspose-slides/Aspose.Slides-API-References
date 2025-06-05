@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.charts/chartdatapoint/index/
 ---
+
 ## ChartDataPoint.Index property
 
 ```csharp

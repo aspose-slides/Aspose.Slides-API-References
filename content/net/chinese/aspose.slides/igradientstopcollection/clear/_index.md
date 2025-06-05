@@ -1,13 +1,13 @@
 ---
-title: 清除
-second_title: Aspose.Slides for .NET API 参考
+title: Clear
+second_title: Aspose.Sildes for .NET API Reference
 description: 从集合中移除所有渐变停止点。
 type: docs
 weight: 30
 url: /zh/aspose.slides/igradientstopcollection/clear/
 ---
 
-## IGradientStopCollection.Clear 方法
+## IGradientStopCollection.Clear method
 
 从集合中移除所有渐变停止点。
 

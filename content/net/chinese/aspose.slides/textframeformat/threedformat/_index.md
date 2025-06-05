@@ -1,7 +1,7 @@
 ---
 title: ThreeDFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 返回表示文本的三维效果属性的 ThreeDFormat 对象。唯读 IThreeDFormataspose.slides/ithreedformat。
+description: 返回表示文本的 3D 效果属性的 ThreeDFormat 对象。只读 IThreeDFormataspose.slides/ithreedformat。
 type: docs
 weight: 140
 url: /zh/aspose.slides/textframeformat/threedformat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/textframeformat/threedformat/
 
 ## TextFrameFormat.ThreeDFormat 属性
 
-返回表示文本的三维效果属性的 ThreeDFormat 对象。唯读 [`IThreeDFormat`](../../ithreedformat)。
+返回表示文本的 3D 效果属性的 ThreeDFormat 对象。只读 [`IThreeDFormat`](../../ithreedformat)。
 
 ```csharp
 public IThreeDFormat ThreeDFormat { get; }
@@ -25,9 +25,9 @@ using (Presentation pres = new Presentation())
 
     ITextFrame textFrame = autoShape.TextFrame;
 
-    textFrame.Text = "Aspose.Slide 测试文本";
+    textFrame.Text = "Aspose.Slide Test Text";
 
-    // 设置文本变换
+    // 设置文本转换
     textFrame.TextFrameFormat.Transform = TextShapeType.ArchUpPour;
 
     // 设置挤出
@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation())
     // 设置深度
     textFrame.TextFrameFormat.ThreeDFormat.Depth = 3;
 
-    // 设置材质
+    // 设置材料
     textFrame.TextFrameFormat.ThreeDFormat.Material = MaterialPresetType.Plastic;
 
     // 设置照明
@@ -54,7 +54,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IThreeDFormat](../../ithreedformat)
 * 类 [TextFrameFormat](../../textframeformat)

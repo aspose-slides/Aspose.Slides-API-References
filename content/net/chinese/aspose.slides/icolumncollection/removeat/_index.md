@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
-second_title: Aspose.Slides for .NET API Reference
-description: 从表中删除指定位置的列。
+second_title: Aspose.Sildes for .NET API Reference
+description: 从表中指定位置删除一列。
 type: docs
 weight: 40
 url: /zh/aspose.slides/icolumncollection/removeat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/icolumncollection/removeat/
 
 ## IColumnCollection.RemoveAt 方法
 
-从表中删除指定位置的列。
+从表中指定位置删除一列。
 
 ```csharp
 public void RemoveAt(int firstColumnIndex, bool withAttachedRows)
@@ -18,7 +18,7 @@ public void RemoveAt(int firstColumnIndex, bool withAttachedRows)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | firstColumnIndex | Int32 | 要删除的列的索引。 |
-| withAttachedRows | Boolean | 如果为真，则还删除所有附加列。 |
+| withAttachedRows | Boolean | 如果为真，则同时删除所有附加列。 |
 
 ### 另见
 

@@ -1,7 +1,7 @@
 ---
 title: MaximumDistribution
-second_title: Aspose.Slides для .NET API Reference
-description: Максимальное распределение. Если true, массив располагается на максимальную ширину содержащего элемента страница, колонка, ячейка и т.д..
+second_title: Aspose.Sildes для .NET API Справочник
+description: Максимальное распределение. Если установлено в true, массив располагается на максимальную ширину содержащего элемента страница, столбец, ячейка и т.д..
 type: docs
 weight: 40
 url: /ru/aspose.slides.mathtext/imatharray/maximumdistribution/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/imatharray/maximumdistribution/
 
 ## IMathArray.MaximumDistribution свойство
 
-Максимальное распределение. Если true, массив располагается на максимальную ширину содержащего элемента (страница, колонка, ячейка и т.д.).
+Максимальное распределение. Если установлено в true, массив располагается на максимальную ширину содержащего элемента (страница, столбец, ячейка и т.д.).
 
 ```csharp
 public bool MaximumDistribution { get; set; }

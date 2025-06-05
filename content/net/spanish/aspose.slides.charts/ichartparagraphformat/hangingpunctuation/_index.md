@@ -1,15 +1,15 @@
 ---
 title: HangingPunctuation
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Determina si se utiliza la puntuación colgante en un párrafo. Lectura/escritura NullableBoolaspose.slides/nullablebool.
+second_title: Referencia API de Aspose.Sildes para .NET
+description: Determina si se utiliza la puntuación colgante en un párrafo. Leer/escribir NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 50
 url: /es/aspose.slides.charts/ichartparagraphformat/hangingpunctuation/
 ---
 
-## IChartParagraphFormat.HangingPunctuation propiedad
+## IChartParagraphFormat.HangingPunctuation property
 
-Determina si se utiliza la puntuación colgante en un párrafo. Lectura/escritura [`NullableBool`](../../../aspose.slides/nullablebool).
+Determina si se utiliza la puntuación colgante en un párrafo. Leer/escribir [`NullableBool`](../../../aspose.slides/nullablebool).
 
 ```csharp
 public NullableBool HangingPunctuation { get; set; }

@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.charts/ichartdata/seriesgroups/
 ---
+
 ## IChartData.SeriesGroups property
 
 Gets the groups of series. Read-only [`IChartSeriesGroupCollection`](../../ichartseriesgroupcollection).

@@ -1,6 +1,6 @@
 ---
-title: Supprimer
-second_title: Référence API Aspose.Slides pour .NET
+title: Remove
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Supprime la première occurrence d'un objet spécifique de l'ICollection.
 type: docs
 weight: 110
@@ -19,7 +19,7 @@ public bool Remove(IPortion item)
 | --- | --- | --- |
 | item | IPortion | L'objet à supprimer de l'ICollection. |
 
-### Valeur de retour
+### Valeur de Retour
 
 true si *item* a été supprimé avec succès de l'ICollection ; sinon, false. Cette méthode retourne également false si *item* n'est pas trouvé dans l'ICollection d'origine.
 
@@ -29,7 +29,7 @@ true si *item* a été supprimé avec succès de l'ICollection ; sinon, false. C
 | --- | --- |
 | NotSupportedException | L'ICollection est en lecture seule. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IPortion](../../iportion)
 * class [PortionCollection](../../portioncollection)

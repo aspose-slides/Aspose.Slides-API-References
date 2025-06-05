@@ -1,7 +1,7 @@
 ---
 title: IBehaviorPropertyCollection
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente les propriétés de timing pour le comportement des effets.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Représente les propriétés de timing pour le comportement de l'effet.
 type: docs
 weight: 370
 url: /fr/aspose.slides.animation/ibehaviorpropertycollection/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/ibehaviorpropertycollection/
 
 ## Interface IBehaviorPropertyCollection
 
-Représente les propriétés de timing pour le comportement des effets.
+Représente les propriétés de timing pour le comportement de l'effet.
 
 ```csharp
 public interface IBehaviorPropertyCollection : IList<IBehaviorProperty>
@@ -19,19 +19,19 @@ public interface IBehaviorPropertyCollection : IList<IBehaviorProperty>
 
 | Nom | Description |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/ibehaviorpropertycollection/asienumerable) { get; } | Renvoie des interfaces IEnumerable. En lecture seule IEnumerable. |
+| [AsIEnumerable](../../aspose.slides.animation/ibehaviorpropertycollection/asienumerable) { get; } | Renvoie des interfaces IEnumerable. Lecture seule IEnumerable. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
 | [Add](../../aspose.slides.animation/ibehaviorpropertycollection/add)(string) | Ajoute une nouvelle propriété à la collection. |
-| [Contains](../../aspose.slides.animation/ibehaviorpropertycollection/contains)(string) | Détermine si la ICollection contient une valeur spécifique. |
-| [IndexOf](../../aspose.slides.animation/ibehaviorpropertycollection/indexof)(string) | Détermine l'index d'un élément spécifique par la valeur de propriété dans la IList. |
+| [Contains](../../aspose.slides.animation/ibehaviorpropertycollection/contains)(string) | Détermine si ICollection contient une valeur spécifique. |
+| [IndexOf](../../aspose.slides.animation/ibehaviorpropertycollection/indexof)(string) | Détermine l'indice d'un élément spécifique par la valeur de propriété dans IList. |
 | [Insert](../../aspose.slides.animation/ibehaviorpropertycollection/insert)(int, string) | Insère une nouvelle propriété (avec la valeur de propriété spécifiée) dans la collection à l'index spécifié. |
 | [Remove](../../aspose.slides.animation/ibehaviorpropertycollection/remove)(string) | Supprime la propriété spécifiée de la collection. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IBehaviorProperty](../ibehaviorproperty)
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)

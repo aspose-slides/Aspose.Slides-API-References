@@ -6,6 +6,7 @@ type: docs
 weight: 230
 url: /aspose.slides.charts/iaxis/isautomaticticklabelspacing/
 ---
+
 ## IAxis.IsAutomaticTickLabelSpacing property
 
 Specifies automatic tick label spacing value. If false: use TickLabelSpacing property. Read/write Boolean.

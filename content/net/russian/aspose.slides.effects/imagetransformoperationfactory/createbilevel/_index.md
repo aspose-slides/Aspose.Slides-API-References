@@ -1,13 +1,13 @@
 ---
 title: CreateBiLevel
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Создает эффект BiLevel.
 type: docs
 weight: 90
 url: /ru/aspose.slides.effects/imagetransformoperationfactory/createbilevel/
 ---
 
-## Метод ImageTransformOperationFactory.CreateBiLevel
+## ImageTransformOperationFactory.CreateBiLevel метод
 
 Создает эффект BiLevel.
 
@@ -19,11 +19,11 @@ public IBiLevel CreateBiLevel(float threshold)
 | --- | --- | --- |
 | threshold | Single | Порог. |
 
-### Возвращаемое значение
+### Значение Возврата
 
 Эффект BiLevel.
 
-### См. также
+### См. Также
 
 * интерфейс [IBiLevel](../../ibilevel)
 * класс [ImageTransformOperationFactory](../../imagetransformoperationfactory)

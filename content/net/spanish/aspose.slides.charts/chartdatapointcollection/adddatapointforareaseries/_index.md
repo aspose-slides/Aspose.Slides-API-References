@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForAreaSeries
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Crea el nuevo punto de datos y lo añade al final de la colección. Aplicable para series cuyo chartType es uno de los subtipos de área, véase también el método IsChartTypeAreaaspose.slides.charts/charttypecharacterizer/ischarttypearea.
+second_title: Referencia de la API Aspose.Slides para .NET
+description: Crea el nuevo punto de datos y lo agrega al final de la colección. Aplicable para series cuyo chartType es uno de los subtipos de Área, ver también el método IsChartTypeAreaaspose.slides.charts/charttypecharacterizer/ischarttypearea.
 type: docs
 weight: 100
 url: /es/aspose.slides.charts/chartdatapointcollection/adddatapointforareaseries/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.charts/chartdatapointcollection/adddatapointforareaseries
 
 ## AddDataPointForAreaSeries(IChartDataCell) {#adddatapointforareaseries}
 
-Crea el nuevo punto de datos y lo añade al final de la colección. Aplicable para series cuyo chartType es uno de los subtipos de área (véase también el método [`IsChartTypeArea`](../../charttypecharacterizer/ischarttypearea)).
+Crea el nuevo punto de datos y lo agrega al final de la colección. Aplicable para series cuyo chartType es uno de los subtipos de Área (ver también el método [`IsChartTypeArea`](../../charttypecharacterizer/ischarttypearea)).
 
 ```csharp
 public IChartDataPoint AddDataPointForAreaSeries(IChartDataCell value)
@@ -35,7 +35,7 @@ Nuevo punto de datos.
 
 ## AddDataPointForAreaSeries(double) {#adddatapointforareaseries_1}
 
-Crea el nuevo punto de datos y lo añade al final de la colección. Aplicable para series cuyo chartType es uno de los subtipos de área (véase también el método [`IsChartTypeArea`](../../charttypecharacterizer/ischarttypearea)).
+Crea el nuevo punto de datos y lo agrega al final de la colección. Aplicable para series cuyo chartType es uno de los subtipos de Área (ver también el método [`IsChartTypeArea`](../../charttypecharacterizer/ischarttypearea)).
 
 ```csharp
 public IChartDataPoint AddDataPointForAreaSeries(double value)

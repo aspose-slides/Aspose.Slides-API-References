@@ -1,7 +1,7 @@
 ---
-title: Image
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie l'image. IPictureEffectiveDataaspose.slides/ipictureeffectivedata en lecture seule.
+title: Picture
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Renvoie l'image. Lecture seule IPictureEffectiveDataaspose.slides/ipictureeffectivedata.
 type: docs
 weight: 70
 url: /fr/aspose.slides/ipicturefillformateffectivedata/picture/
@@ -15,7 +15,7 @@ Renvoie l'image. Lecture seule [`IPictureEffectiveData`](../../ipictureeffective
 public IPictureEffectiveData Picture { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IPictureEffectiveData](../../ipictureeffectivedata)
 * interface [IPictureFillFormatEffectiveData](../../ipicturefillformateffectivedata)

@@ -1,21 +1,21 @@
 ---
 title: ActualMajorUnitScale
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Указывает фактический основной масштаб единиц оси. Сначала вызовите метод IChart.ValidateChartLayout, чтобы получить фактическое значение.
+second_title: Aspose.Slides для .NET API Reference
+description: Указывает фактическую шкалу основных единиц оси. Сначала вызовите метод IChart.ValidateChartLayout, чтобы получить фактическое значение.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/axis/actualmajorunitscale/
 ---
 
-## Свойство Axis.ActualMajorUnitScale
+## Axis.ActualMajorUnitScale свойство
 
-Указывает фактический основной масштаб единиц оси. Сначала вызовите метод IChart.ValidateChartLayout(), чтобы получить фактическое значение.
+Указывает фактическую шкалу основных единиц оси. Сначала вызовите метод IChart.ValidateChartLayout(), чтобы получить фактическое значение.
 
 ```csharp
 public TimeUnitType ActualMajorUnitScale { get; }
 ```
 
-### Также смотрите
+### См. Также
 
 * enum [TimeUnitType](../../timeunittype)
 * class [Axis](../../axis)

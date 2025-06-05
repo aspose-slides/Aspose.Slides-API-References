@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.theme/icolorscheme/accent5/
 ---
+
 ## IColorScheme.Accent5 property
 
 Fifth accent color in the scheme. Read-only [`IColorFormat`](../../../aspose.slides/icolorformat).

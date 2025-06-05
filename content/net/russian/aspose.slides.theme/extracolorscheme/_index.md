@@ -1,13 +1,13 @@
 ---
 title: ExtraColorScheme
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет дополнительную цветовую схему, которую можно назначить слайду.
 type: docs
 weight: 10790
 url: /ru/aspose.slides.theme/extracolorscheme/
 ---
 
-## Класс ExtraColorScheme
+## ExtraColorScheme class
 
 Представляет дополнительную цветовую схему, которую можно назначить слайду.
 
@@ -20,9 +20,9 @@ public class ExtraColorScheme : IExtraColorScheme
 | Имя | Описание |
 | --- | --- |
 | [ColorScheme](../../aspose.slides.theme/extracolorscheme/colorscheme) { get; } | Возвращает цветовую схему. Только для чтения [`IColorScheme`](../icolorscheme). |
-| [Name](../../aspose.slides.theme/extracolorscheme/name) { get; } | Возвращает название этой схемы. Только для чтения String. |
+| [Name](../../aspose.slides.theme/extracolorscheme/name) { get; } | Возвращает имя этой схемы. Только для чтения String. |
 
-### См. Также
+### См. также
 
 * интерфейс [IExtraColorScheme](../iextracolorscheme)
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)

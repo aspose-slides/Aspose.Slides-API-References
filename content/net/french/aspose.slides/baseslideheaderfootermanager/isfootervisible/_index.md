@@ -1,7 +1,7 @@
 ---
 title: IsFooterVisible
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient une valeur indiquant qu'un espace réservé de pied de page est présent. Lire Booléen.
+second_title: Référence API Aspose.Slides pour .NET
+description: Obtient une valeur indiquant qu'un espace réservé pour le pied de page est présent. Lecture Boolean.
 type: docs
 weight: 20
 url: /fr/aspose.slides/baseslideheaderfootermanager/isfootervisible/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/baseslideheaderfootermanager/isfootervisible/
 
 ## Propriété BaseSlideHeaderFooterManager.IsFooterVisible
 
-Obtient une valeur indiquant qu'un espace réservé de pied de page est présent. Lire Booléen.
+Obtient une valeur indiquant qu'un espace réservé pour le pied de page est présent. Lecture Boolean.
 
 ```csharp
 public bool IsFooterVisible { get; }

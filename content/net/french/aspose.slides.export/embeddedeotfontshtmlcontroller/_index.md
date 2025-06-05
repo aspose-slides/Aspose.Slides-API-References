@@ -1,7 +1,7 @@
 ---
 title: EmbeddedEotFontsHtmlController
-second_title: Aspose.Slides pour la référence de l'API .NET
-description: La classe de contrôleur de formatage à utiliser pour l'intégration de polices au format EOT
+second_title: Référence API Aspose.Slides pour .NET
+description: La classe de contrôleur de mise en forme à utiliser pour l'incorporation de polices au format EOT
 type: docs
 weight: 3610
 url: /fr/aspose.slides.export/embeddedeotfontshtmlcontroller/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/embeddedeotfontshtmlcontroller/
 
 ## Classe EmbeddedEotFontsHtmlController
 
-La classe de contrôleur de formatage à utiliser pour l'intégration de polices au format EOT
+La classe de contrôleur de mise en forme à utiliser pour l'incorporation de polices au format EOT
 
 ```csharp
 public class EmbeddedEotFontsHtmlController : IEmbeddedEotFontsHtmlController

@@ -1,6 +1,6 @@
 ---
-title: Добавить
-second_title: Справочник по API Aspose.Slides для .NET
+title: Add
+second_title: Aspose.Sildes для .NET API Справочник
 description: Добавляет новое свойство в коллекцию.
 type: docs
 weight: 40
@@ -17,7 +17,7 @@ public void Add(IBehaviorProperty item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | IBehaviorProperty | Свойство для добавления. |
+| item | IBehaviorProperty | Свойство, которое нужно добавить. |
 
 ### См. также
 
@@ -38,7 +38,7 @@ public void Add(string propertyValue)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| propertyValue | String | Значение добавляемого свойства. |
+| propertyValue | String | Значение свойства, которое нужно добавить. |
 
 ### См. также
 

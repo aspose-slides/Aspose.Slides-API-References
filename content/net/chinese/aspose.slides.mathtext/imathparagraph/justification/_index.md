@@ -1,15 +1,15 @@
 ---
-title: 对齐方式
-second_title: Aspose.Slides for .NET API 参考
-description: 段落对齐方式 默认值：CenteredAsGroup
+title: Justification
+second_title: Aspose.Sildes for .NET API Reference
+description: 段落对齐 默认值 CenteredAsGroup
 type: docs
 weight: 20
 url: /zh/aspose.slides.mathtext/imathparagraph/justification/
 ---
 
-## IMathParagraph.Justification 属性
+## IMathParagraph.Justification property
 
-段落对齐方式 默认值：CenteredAsGroup
+段落对齐 默认值: CenteredAsGroup
 
 ```csharp
 public MathJustification Justification { get; set; }
@@ -17,7 +17,7 @@ public MathJustification Justification { get; set; }
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -26,7 +26,7 @@ IMathParagraph mathParagraph = (shape.TextFrame.Paragraphs[0].Portions[0] as Mat
 mathParagraph.Justification = MathJustification.LeftJustified;
 ```
 
-### 另请参阅
+### 另见
 
 * enum [MathJustification](../../mathjustification)
 * interface [IMathParagraph](../../imathparagraph)

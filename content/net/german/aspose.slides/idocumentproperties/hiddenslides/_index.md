@@ -1,15 +1,15 @@
 ---
 title: HiddenSlides
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Anzahl der versteckten Folien in einem Präsentationsdokument an. Nur lesbar Int32.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Anzahl der versteckten Folien in einem Präsentationsdokument an. Nur-lesbarer Int32.
 type: docs
 weight: 120
 url: /de/aspose.slides/idocumentproperties/hiddenslides/
 ---
 
-## IDocumentProperties.HiddenSlides-Eigenschaft
+## IDocumentProperties.HiddenSlides Eigenschaft
 
-Gibt die Anzahl der versteckten Folien in einem Präsentationsdokument an. Nur lesbar Int32.
+Gibt die Anzahl der versteckten Folien in einem Präsentationsdokument an. Nur-lesbarer Int32.
 
 ```csharp
 public int HiddenSlides { get; }

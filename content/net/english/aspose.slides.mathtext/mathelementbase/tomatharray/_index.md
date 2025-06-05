@@ -6,6 +6,7 @@ type: docs
 weight: 200
 url: /aspose.slides.mathtext/mathelementbase/tomatharray/
 ---
+
 ## MathElementBase.ToMathArray method
 
 Puts in a vertical array

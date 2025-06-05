@@ -1,6 +1,6 @@
 ---
 title: AutofitType
-second_title: Справочная информация по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Возвращает или устанавливает режим авторазмера текста. Чтение/запись TextAutofitTypeaspose.slides/textautofittype.
 type: docs
 weight: 30
@@ -17,7 +17,7 @@ public TextAutofitType AutofitType { get; set; }
 
 ### Примеры
 
-Следующий пример кода показывает, как изменить размер фигуры, чтобы текст поместился в презентации PowerPoint.
+Следующий пример кода показывает, как изменить размер фигуры, чтобы она соответствовала тексту в презентации PowerPoint.
 
 ```csharp
 [C#]
@@ -53,7 +53,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [TextAutofitType](../../textautofittype)
 * class [TextFrameFormat](../../textframeformat)

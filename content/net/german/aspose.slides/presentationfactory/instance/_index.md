@@ -1,7 +1,7 @@
 ---
-title: Instanz
+title: Instance
 second_title: Aspose.Slides für .NET API Referenz
-description: Präsentationsfabrik statische Instanz. Nur-Lese Präsentationsfabrik aspose.slides/presentationfactory.
+description: Präsentationsfabrik statische Instanz. Nur-lesbare PresentationFactoryaspose.slides/presentationfactory.
 type: docs
 weight: 20
 url: /de/aspose.slides/presentationfactory/instance/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/presentationfactory/instance/
 
 ## PresentationFactory.Instance-Eigenschaft
 
-Präsentationsfabrik statische Instanz. Nur-Lese [`PresentationFactory`](../../presentationfactory).
+Präsentationsfabrik statische Instanz. Nur-lesbare [`PresentationFactory`](../../presentationfactory).
 
 ```csharp
 public static PresentationFactory Instance { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [PresentationFactory](../../presentationfactory)
 * Namespace [Aspose.Slides](../../presentationfactory)

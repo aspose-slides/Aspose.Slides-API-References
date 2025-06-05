@@ -1,18 +1,18 @@
 ---
-title: Поместить
-second_title: Справочник по API Aspose.Slides для .NET
+title: Put
+second_title: Aspose.Slides для .NET API Справочник
 description: type docs
 weight: 40
 url: /ru/aspose.slides.export.web/storage/put/
 ---
 
-## Метод Storage.Put&lt;TValue&gt;
+## Storage.Put&lt;TValue&gt; метод
 
 ```csharp
 public void Put<TValue>(string key, TValue value)
 ```
 
-### См. также
+### См. Также
 
 * класс [Storage](../../storage)
 * пространство имен [Aspose.Slides.Export.Web](../../storage)

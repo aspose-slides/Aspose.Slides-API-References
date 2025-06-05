@@ -1,21 +1,21 @@
 ---
-title: HatAbhängigeFolien
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt true zurück, wenn mindestens eine Folie existiert, die von dieser Masterfolie abhängt. Schreibgeschützter Boolean.
+title: HasDependingSlides
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt true zurück, wenn mindestens eine Folie existiert, die von dieser Masterfolie abhängt. Nur-Lese-Boolesch.
 type: docs
 weight: 20
 url: /de/aspose.slides/masterslide/hasdependingslides/
 ---
 
-## MasterSlide.HatAbhängigeFolien-Eigenschaft
+## MasterSlide.HasDependingSlides-Eigenschaft
 
-Gibt true zurück, wenn mindestens eine Folie existiert, die von dieser Masterfolie abhängt. Schreibgeschützter Boolean.
+Gibt true zurück, wenn mindestens eine Folie existiert, die von dieser Masterfolie abhängt. Nur-Lese-Boolesch.
 
 ```csharp
 public bool HasDependingSlides { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [MasterSlide](../../masterslide)
 * Namespace [Aspose.Slides](../../masterslide)

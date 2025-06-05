@@ -1,6 +1,6 @@
 ---
 title: AddControl
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建并将新控件添加到集合中。
 type: docs
 weight: 20
@@ -17,7 +17,7 @@ public IControl AddControl(ControlType controlType, float x, float y, float widt
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| controlType | ControlType | 要添加的控件类型。 |
+| controlType | ControlType | 要添加控件的类型。 |
 | x | Single | 形状框左侧的 X 坐标。 |
 | y | Single | 形状框顶部的 Y 坐标。 |
 | width | Single | 形状框的宽度。 |
@@ -27,7 +27,7 @@ public IControl AddControl(ControlType controlType, float x, float y, float widt
 
 创建的控件 [`IControl`](../../icontrol)。
 
-### 另见
+### 另请参阅
 
 * 接口 [IControl](../../icontrol)
 * 枚举 [ControlType](../../controltype)

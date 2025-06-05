@@ -6,6 +6,7 @@ type: docs
 weight: 170
 url: /aspose.slides/ibaseportionformat/latinfont/
 ---
+
 ## IBasePortionFormat.LatinFont property
 
 Returns or sets the Latin font info. Null means font is undefined and should be inherited from the Master. Read/write [`IFontData`](../../ifontdata).

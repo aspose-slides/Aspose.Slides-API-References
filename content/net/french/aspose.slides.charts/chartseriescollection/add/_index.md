@@ -1,13 +1,13 @@
 ---
-title: Ajouter
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Add
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Crée de nouvelles séries de graphiques et les ajoute à la collection.
 type: docs
 weight: 50
 url: /fr/aspose.slides.charts/chartseriescollection/add/
 ---
 
-## Ajouter(ChartType) {#add}
+## Add(ChartType) {#add}
 
 Crée de nouvelles séries de graphiques et les ajoute à la collection.
 
@@ -17,7 +17,7 @@ public IChartSeries Add(ChartType type)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| type | ChartType | Type de la série |
+| type | ChartType | Type de série |
 
 ### Valeur de retour
 
@@ -33,7 +33,7 @@ Nouvelle série de graphiques.
 
 ---
 
-## Ajouter(IChartDataCell, ChartType) {#add_2}
+## Add(IChartDataCell, ChartType) {#add_2}
 
 Crée de nouvelles séries de graphiques à partir de [`ChartDataCell`](../../chartdatacell) et les ajoute à la collection.
 
@@ -44,15 +44,15 @@ public IChartSeries Add(IChartDataCell cellWithSeriesName, ChartType type)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | cellWithSeriesName | IChartDataCell | Cellule contenant le nom de la série. |
-| type | ChartType | Type de la série |
+| type | ChartType | Type défini pour le type de série |
 
 ### Valeur de retour
 
-Série de graphiques ajoutée ou série qui est déjà dans la collection.
+Séries de graphiques ajoutées ou séries déjà dans la collection.
 
 ### Remarques
 
-Si la série de graphiques créée à partir de la même cellule est déjà dans la collection, la méthode n'ajoute rien et retourne son index.
+Si une série de graphiques créée à partir de la même cellule est déjà dans la collection, alors la méthode n'ajoute rien et renvoie son index.
 
 ### Voir aussi
 
@@ -65,7 +65,7 @@ Si la série de graphiques créée à partir de la même cellule est déjà dans
 
 ---
 
-## Ajouter(IChartCellCollection, ChartType) {#add_1}
+## Add(IChartCellCollection, ChartType) {#add_1}
 
 Crée de nouvelles séries de graphiques à partir de [`ChartCellCollection`](../../chartcellcollection) et les ajoute à la collection.
 
@@ -76,15 +76,15 @@ public IChartSeries Add(IChartCellCollection cellsWithSeriesName, ChartType type
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | cellsWithSeriesName | IChartCellCollection | Cellules contenant le nom de la série. |
-| type | ChartType | Type de la série |
+| type | ChartType | Type défini pour le type de série |
 
 ### Valeur de retour
 
-Série de graphiques ajoutée ou série qui est déjà dans la collection.
+Séries de graphiques ajoutées ou séries déjà dans la collection.
 
 ### Remarques
 
-Si la série de graphiques créée à partir de la même cellule est déjà dans la collection, la méthode n'ajoute rien et retourne son index.
+Si une série de graphiques créée à partir de la même cellule est déjà dans la collection, alors la méthode n'ajoute rien et renvoie son index.
 
 ### Voir aussi
 
@@ -97,9 +97,9 @@ Si la série de graphiques créée à partir de la même cellule est déjà dans
 
 ---
 
-## Ajouter(string, ChartType) {#add_3}
+## Add(string, ChartType) {#add_3}
 
-Crée de nouvelles séries de graphiques à partir d'une valeur et les ajoute à la collection.
+Crée de nouvelles séries de graphiques à partir de la valeur et les ajoute à la collection.
 
 ```csharp
 public IChartSeries Add(string name, ChartType type)
@@ -108,7 +108,7 @@ public IChartSeries Add(string name, ChartType type)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | name | String | Nom de la série. |
-| type | ChartType | Type de la série |
+| type | ChartType | Type défini pour le type de série |
 
 ### Valeur de retour
 

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/slideshowsettings/showmediacontrols/
 ---
+
 ## SlideShowSettings.ShowMediaControls property
 
 Show Media Controls

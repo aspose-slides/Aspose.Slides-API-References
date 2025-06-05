@@ -1,13 +1,13 @@
 ---
-title: Ajouter
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Add
+second_title: Aspose.Sildes pour .NET Référence API
 description: Ajoute des sous-titres WebVTT à la fin de la collection.
 type: docs
 weight: 30
 url: /fr/aspose.slides/icaptionscollection/add/
 ---
 
-## Ajouter(string, string) {#add_1}
+## Add(string, string) {#add_1}
 
 Ajoute des sous-titres WebVTT à la fin de la collection.
 
@@ -28,8 +28,8 @@ L'instance ajoutée [`ICaptions`](../../icaptions).
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | Lancé si *filePath* est `null`. |
-| ArgumentException | Lancé si *filePath* est vide. |
+| ArgumentNullException | Levé si *filePath* est `null`. |
+| ArgumentException | Levé si *filePath* est vide. |
 
 ### Voir aussi
 
@@ -40,7 +40,7 @@ L'instance ajoutée [`ICaptions`](../../icaptions).
 
 ---
 
-## Ajouter(string, Stream) {#add}
+## Add(string, Stream) {#add}
 
 Ajoute des sous-titres WebVTT à la fin de la collection à partir d'un flux.
 
@@ -61,8 +61,8 @@ L'instance ajoutée [`ICaptions`](../../icaptions).
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | Lancé si *stream* est `null`. |
-| ArgumentException | Lancé si les données d'entrée ne sont pas au format WebVTT. |
+| ArgumentNullException | Levé si *stream* est `null`. |
+| ArgumentException | Levé si les données d'entrée ne sont pas au format WebVTT. |
 
 ### Voir aussi
 

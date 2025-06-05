@@ -1,6 +1,6 @@
 ---
 title: FindByName
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Slildes для .NET API Справочник
 description: Найдите автора в коллекции по имени.
 type: docs
 weight: 40
@@ -23,7 +23,7 @@ public ICommentAuthor[] FindByName(string name)
 
 Автор или null.
 
-### См. также
+### Также смотри
 
 * интерфейс [ICommentAuthor](../../icommentauthor)
 * интерфейс [ICommentAuthorCollection](../../icommentauthorcollection)

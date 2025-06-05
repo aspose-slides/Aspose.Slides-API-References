@@ -1,15 +1,15 @@
 ---
 title: AddEffect
-second_title: Aspose.Slides для .NET API Reference
-description: Добавить новый эффект в конец текущей последовательности текстовых анимаций группы. Действительно только если количество текстовых абзацев равно или больше количества эффектов этой группы.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Добавить новый эффект в конец текущей последовательности к группам анимаций текста. Действительно только если количество текстовых параграфов равно или больше количества эффектов этой группы
 type: docs
 weight: 30
 url: /ru/aspose.slides.animation/itextanimation/addeffect/
 ---
 
-## Метод ITextAnimation.AddEffect
+## ITextAnimation.AddEffect метод
 
-Добавить новый эффект в конец текущей последовательности текстовых анимаций группы. Действительно только если количество текстовых абзацев равно или больше количества эффектов этой группы!
+Добавить новый эффект в конец текущей последовательности к группам анимаций текста. Действительно только если количество текстовых параграфов равно или больше количества эффектов этой группы!
 
 ```csharp
 public IEffect AddEffect(EffectType effectType, EffectSubtype subtype, 
@@ -22,11 +22,11 @@ public IEffect AddEffect(EffectType effectType, EffectSubtype subtype,
 | subtype | EffectSubtype | Подтипы анимационного эффекта [`EffectSubtype`](../../effectsubtype) |
 | triggerType | EffectTriggerType | Тип триггера эффекта [`EffectTriggerType`](../../effecttriggertype) |
 
-### Возвращаемое значение
+### Возврат значения
 
 Новый объект эффекта [`IEffect`](../../ieffect)
 
-### См. также
+### См. Также
 
 * интерфейс [IEffect](../../ieffect)
 * перечисление [EffectType](../../effecttype)

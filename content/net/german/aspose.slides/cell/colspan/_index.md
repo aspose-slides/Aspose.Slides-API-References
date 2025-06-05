@@ -1,7 +1,7 @@
 ---
 title: ColSpan
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Anzahl der Rasterspalten im Raster der übergeordneten Tabelle zurück, die von der aktuellen Zelle überspannt werden sollen. Diese Eigenschaft ermöglicht es Zellen, den Anschein zu erwecken, als wären sie zusammengeführt, da sie vertikale Grenzen anderer Zellen in der Tabelle überschreiten. Nur-Lese Int32.
+second_title: Aspose.Slides für .NET API-Verweis
+description: Gibt die Anzahl der Gitterspalten im Gitter der übergeordneten Tabelle zurück, die von der aktuellen Zelle überspannt werden sollen. Dieses Property ermöglicht es Zellen, den Anschein zu erwecken, als wären sie zusammengeführt, da sie vertikale Grenzen anderer Zellen in der Tabelle überspannen. Schreibgeschützter Int32.
 type: docs
 weight: 30
 url: /de/aspose.slides/cell/colspan/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/cell/colspan/
 
 ## Cell.ColSpan-Eigenschaft
 
-Gibt die Anzahl der Rasterspalten im Raster der übergeordneten Tabelle zurück, die von der aktuellen Zelle überspannt werden sollen. Diese Eigenschaft ermöglicht es Zellen, den Anschein zu erwecken, als wären sie zusammengeführt, da sie vertikale Grenzen anderer Zellen in der Tabelle überschreiten. Nur-Lese Int32.
+Gibt die Anzahl der Gitterspalten im Gitter der übergeordneten Tabelle zurück, die von der aktuellen Zelle überspannt werden sollen. Dieses Property ermöglicht es Zellen, den Anschein zu erwecken, als wären sie zusammengeführt, da sie vertikale Grenzen anderer Zellen in der Tabelle überspannen. Schreibgeschützter Int32.
 
 ```csharp
 public int ColSpan { get; }

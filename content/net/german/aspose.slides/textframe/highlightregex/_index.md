@@ -1,7 +1,7 @@
 ---
 title: HighlightRegex
-second_title: Aspose.Slides für .NET API Referenz
-description: Hebt alle Übereinstimmungen des regulären Ausdrucks mit der angegebenen Farbe hervor.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Hervorhebung aller Übereinstimmungen des regulären Ausdrucks mit der angegebenen Farbe.
 type: docs
 weight: 90
 url: /de/aspose.slides/textframe/highlightregex/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/textframe/highlightregex/
 
 ## TextFrame.HighlightRegex-Methode
 
-Hebt alle Übereinstimmungen des regulären Ausdrucks mit der angegebenen Farbe hervor.
+Hervorhebung aller Übereinstimmungen des regulären Ausdrucks mit der angegebenen Farbe.
 
 ```csharp
 public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallback callback)
@@ -17,20 +17,20 @@ public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallbac
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| regex | Regex | Der reguläre Ausdruck Regex, um Strings zu ermitteln, die hervorgehoben werden sollen. |
+| regex | Regex | Der reguläre Ausdruck Regex, um die zu hebenden Zeichenfolgen zu erhalten. |
 | highlightColor | Color | Die Farbe, um den Text hervorzuheben. |
 | callback | IFindResultCallback | Das Callback-Objekt zum Empfangen von Suchergebnissen [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Beispiele
 
-Das folgende Codebeispiel zeigt, wie man Text in einem TextFrame mithilfe eines regulären Ausdrucks hervorhebt.
+Das folgende Codebeispiel zeigt, wie man Text in einem TextFrame mit einem regulären Ausdruck hervorhebt.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// alle Wörter mit 10 oder mehr Zeichen hervorheben
+	// Hervorhebung aller Wörter mit 10 oder mehr Zeichen
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightRegex(regex, Color.Blue, null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }

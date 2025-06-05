@@ -1,6 +1,6 @@
 ---
 title: CreateMathDelimiter
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Slides для .NET API Reference
 description: Создать математический разделитель, применив его к элементу
 type: docs
 weight: 20

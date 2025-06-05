@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot/
 ---
+
 ## ImageTransformOCollectionEffectiveData.SyncRoot property
 
 Returns a synchronization root. Read-only Object.

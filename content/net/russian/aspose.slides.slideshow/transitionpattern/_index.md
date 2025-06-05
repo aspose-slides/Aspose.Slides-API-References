@@ -1,7 +1,7 @@
 ---
 title: TransitionPattern
-second_title: Aspose.Slides для .NET API Справочник
-description: Определяет геометрический узор, который заполняет большую область.
+second_title: Aspose.Sildes для .NET API Reference
+description: Указывает геометрический узор, который заполняет собой большую площадь.
 type: docs
 weight: 10090
 url: /ru/aspose.slides.slideshow/transitionpattern/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.slideshow/transitionpattern/
 
 ## Перечисление TransitionPattern
 
-Определяет геометрический узор, который заполняет большую область.
+Указывает геометрический узор, который заполняет собой большую площадь.
 
 ```csharp
 public enum TransitionPattern
@@ -17,12 +17,12 @@ public enum TransitionPattern
 
 ### Значения
 
-| Название | Значение | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
-| Diamond | `0` | Узора плитки в виде ромба |
-| Hexagon | `1` | Узора плитки в виде шестиугольника |
+| Diamond | `0` | Узор плитки в виде ромба |
+| Hexagon | `1` | Узор плитки в виде шестиугольника |
 
-### См. Также
+### См. также
 
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * сборка [Aspose.Slides](../../)

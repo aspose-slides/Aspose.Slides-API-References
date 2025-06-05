@@ -1,25 +1,25 @@
 ---
 title: GetEnumerator
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает перечислитель, который выполняет итерацию по коллекции.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает перечислитель, который проходит через коллекцию.
 type: docs
 weight: 70
 url: /ru/aspose.slides/layoutslidecollection/getenumerator/
 ---
 
-## Метод LayoutSlideCollection.GetEnumerator
+## LayoutSlideCollection.GetEnumerator метод
 
-Возвращает перечислитель, который выполняет итерацию по коллекции.
+Возвращает перечислитель, который проходит через коллекцию.
 
 ```csharp
 public IEnumerator<ILayoutSlide> GetEnumerator()
 ```
 
-### Значение, возвращаемое методом
+### Значение Возврата
 
-IEnumerator, который можно использовать для итерации по коллекции.
+IEnumerator, который может быть использован для перебора коллекции.
 
-### См. также
+### См. Также
 
 * интерфейс [ILayoutSlide](../../ilayoutslide)
 * класс [LayoutSlideCollection](../../layoutslidecollection)

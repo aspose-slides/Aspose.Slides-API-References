@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.effects/iduotoneeffectivedata/color2/
 ---
+
 ## IDuotoneEffectiveData.Color2 property
 
 Returns target color format for light pixels. Read-only Color.

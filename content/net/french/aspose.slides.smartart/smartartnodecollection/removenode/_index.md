@@ -1,6 +1,6 @@
 ---
 title: RemoveNode
-second_title: Aspose.Sildes pour .NET Référence API
+second_title: Référence API Aspose.Slides pour .NET
 description: Supprimer un nœud ou un sous-nœud par index
 type: docs
 weight: 90
@@ -17,7 +17,7 @@ public void RemoveNode(int index)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | Index basé sur zéro du nœud |
+| index | Int32 | Index de nœud basé sur zéro |
 
 ### Exceptions
 
@@ -25,9 +25,9 @@ public void RemoveNode(int index)
 | --- | --- |
 | ArgumentOutOfRangeException | index est inférieur à 0. -ou- index est égal ou supérieur au nombre de frères et sœurs |
 
-### Voir aussi
+### Voir Aussi
 
-* classe [SmartArtNodeCollection](../../smartartnodecollection)
+* class [SmartArtNodeCollection](../../smartartnodecollection)
 * namespace [Aspose.Slides.SmartArt](../../smartartnodecollection)
 * assembly [Aspose.Slides](../../../)
 
@@ -45,10 +45,10 @@ public void RemoveNode(ISmartArtNode node)
 | --- | --- | --- |
 | node | ISmartArtNode | Nœud à supprimer |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ISmartArtNode](../../ismartartnode)
-* classe [SmartArtNodeCollection](../../smartartnodecollection)
+* class [SmartArtNodeCollection](../../smartartnodecollection)
 * namespace [Aspose.Slides.SmartArt](../../smartartnodecollection)
 * assembly [Aspose.Slides](../../../)
 

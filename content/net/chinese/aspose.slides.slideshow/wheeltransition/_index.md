@@ -1,13 +1,13 @@
 ---
 title: WheelTransition
 second_title: Aspose.Sildes for .NET API Reference
-description: 轮子幻灯片过渡效果。
+description: Wheel slide transition effect.
 type: docs
 weight: 10160
 url: /zh/aspose.slides.slideshow/wheeltransition/
 ---
 
-## WheelTransition类
+## WheelTransition 类
 
 轮子幻灯片过渡效果。
 
@@ -19,16 +19,16 @@ public class WheelTransition : TransitionValueBase, IWheelTransition
 
 | 名称 | 描述 |
 | --- | --- |
-| [Spokes](../../aspose.slides.slideshow/wheeltransition/spokes) { get; set; } | 轮子过渡的辐条数量。可读/可写 UInt32。 |
+| [Spokes](../../aspose.slides.slideshow/wheeltransition/spokes) { get; set; } | 轮子过渡的辐条数。可读写 UInt32。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 确定两个 TransitionValueBase 实例是否相等。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作为特定类型的哈希函数，适合用于哈希算法和数据结构，如哈希表。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作为特定类型的哈希函数，适用于哈希算法和数据结构，如哈希表。 |
 
-### 另请参阅
+### 参见
 
 * 类 [TransitionValueBase](../transitionvaluebase)
 * 接口 [IWheelTransition](../iwheeltransition)

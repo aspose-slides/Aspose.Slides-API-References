@@ -1,15 +1,15 @@
 ---
 title: CopyTo
-second_title: Справочник по API Aspose.Slides для .NET
-description: Копирование в указанной массив.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Копировать в указанный массив.
 type: docs
 weight: 280
 url: /ru/aspose.slides.charts/chartdatapointcollection/copyto/
 ---
 
-## Метод ChartDataPointCollection.CopyTo
+## ChartDataPointCollection.CopyTo метод
 
-Копирование в указанный массив.
+Копировать в указанный массив.
 
 ```csharp
 public void CopyTo(Array array, int arrayIndex)
@@ -17,10 +17,10 @@ public void CopyTo(Array array, int arrayIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| array | Array | Массив, в который будет производиться копирование. |
-| arrayIndex | Int32 | Индекс, с которого начинается копирование. |
+| array | Array | Массив для копирования. |
+| arrayIndex | Int32 | Индекс для начала копирования. |
 
-### См. также
+### Также см.
 
 * класс [ChartDataPointCollection](../../chartdatapointcollection)
 * пространство имен [Aspose.Slides.Charts](../../chartdatapointcollection)

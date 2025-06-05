@@ -1,7 +1,7 @@
 ---
 title: X
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回或设置标题的 x 坐标，作为图表宽度的一个分数。可读/写 Single。
+second_title: Aspose.Slides for .NET API 参考
+description: 返回或设置标题的 x 坐标，作为图表宽度的一个分数。可读/可写 Single。
 type: docs
 weight: 100
 url: /zh/aspose.slides.charts/charttitle/x/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/charttitle/x/
 
 ## ChartTitle.X 属性
 
-返回或设置标题的 x 坐标，作为图表宽度的一个分数。可读/写 Single。
+返回或设置标题的 x 坐标，作为图表宽度的一个分数。可读/可写 Single。
 
 ```csharp
 public float X { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * class [ChartTitle](../../charttitle)
 * namespace [Aspose.Slides.Charts](../../charttitle)

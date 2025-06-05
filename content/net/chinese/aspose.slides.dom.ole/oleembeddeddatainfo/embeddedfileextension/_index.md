@@ -1,7 +1,7 @@
 ---
-title: 嵌入文件扩展名
-second_title: Aspose.Slides for .NET API 参考
-description: 返回当前嵌入 OLE 对象的文件扩展名，只读字符串。
+title: EmbeddedFileExtension
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回当前嵌入的 OLE 对象的文件扩展名 只读字符串。
 type: docs
 weight: 30
 url: /zh/aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension/
 
 ## OleEmbeddedDataInfo.EmbeddedFileExtension 属性
 
-返回当前嵌入 OLE 对象的文件扩展名，只读字符串。
+返回当前嵌入的 OLE 对象的文件扩展名 只读字符串。
 
 ```csharp
 public string EmbeddedFileExtension { get; }
 ```
 
-### 另见
+### 参见
 
 * 类 [OleEmbeddedDataInfo](../../oleembeddeddatainfo)
 * 命名空间 [Aspose.Slides.DOM.Ole](../../oleembeddeddatainfo)

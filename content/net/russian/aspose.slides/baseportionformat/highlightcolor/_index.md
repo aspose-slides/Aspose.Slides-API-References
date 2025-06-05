@@ -15,7 +15,7 @@ url: /ru/aspose.slides/baseportionformat/highlightcolor/
 public IColorFormat HighlightColor { get; }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IColorFormat](../../icolorformat)
 * класс [BasePortionFormat](../../baseportionformat)

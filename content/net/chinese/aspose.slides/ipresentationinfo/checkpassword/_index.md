@@ -1,7 +1,7 @@
 ---
 title: CheckPassword
-second_title: Aspose.Slides for .NET API 参考
-description: 检查给定的密码是否正确，适用于用开放密码保护的演示文稿。
+second_title: Aspose.Sildes for .NET API Reference
+description: 检查给定的密码是否正确，用于保护开放密码的演示文稿。
 type: docs
 weight: 50
 url: /zh/aspose.slides/ipresentationinfo/checkpassword/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ipresentationinfo/checkpassword/
 
 ## IPresentationInfo.CheckPassword 方法
 
-检查给定的密码是否正确，适用于用开放密码保护的演示文稿。
+检查给定的密码是否正确，用于保护开放密码的演示文稿。
 
 ```csharp
 public bool CheckPassword(string password)
@@ -21,11 +21,11 @@ public bool CheckPassword(string password)
 
 ### 返回值
 
-如果演示文稿使用开放密码保护且密码正确，则返回 true；否则返回 false。
+如果演示文稿受到开放密码保护且密码正确，则返回 true；否则返回 false。
 
-### 备注
+### 注释
 
-当密码为 null 或空字符串时，此方法返回 false。
+当密码为 null 或为空时，此方法返回 false。
 
 ### 示例
 
@@ -35,7 +35,7 @@ IPresentationInfo info = PresentationFactory.Instance.GetPresentationInfo("pres.
 bool isPasswordCorrect = info.CheckPassword("my_password");
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IPresentationInfo](../../ipresentationinfo)
 * 命名空间 [Aspose.Slides](../../ipresentationinfo)

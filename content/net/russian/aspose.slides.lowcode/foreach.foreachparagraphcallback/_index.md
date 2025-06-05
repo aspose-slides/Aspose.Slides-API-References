@@ -1,6 +1,6 @@
 ---
 title: ForEach.ForEachParagraphCallback
-second_title: Справочник по API Aspose.Slidеs для .NET
+second_title: Aspose.Sildes for .NET API Reference
 description: type docs
 weight: 7690
 url: /ru/aspose.slides.lowcode/foreach.foreachparagraphcallback/
@@ -12,7 +12,7 @@ url: /ru/aspose.slides.lowcode/foreach.foreachparagraphcallback/
 public delegate void ForEachParagraphCallback(Paragraph para, BaseSlide slide, int index);
 ```
 
-### См. также
+### См. Также
 
 * класс [Paragraph](../../aspose.slides/paragraph)
 * класс [BaseSlide](../../aspose.slides/baseslide)

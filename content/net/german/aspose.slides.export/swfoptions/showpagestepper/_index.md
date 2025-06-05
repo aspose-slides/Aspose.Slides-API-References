@@ -1,15 +1,15 @@
 ---
 title: ShowPageStepper
 second_title: Aspose.Slides für .NET API-Referenz
-description: Zeigt/verbirgt den Seitensteppers. Kann in flashvars überschrieben werden. Standard ist true.
+description: Seitenstepper anzeigen/ausblenden. Kann in flashvars überschrieben werden. Standard ist true.
 type: docs
 weight: 120
 url: /de/aspose.slides.export/swfoptions/showpagestepper/
 ---
 
-## SwfOptions.ShowPageStepper-Eigenschaft
+## SwfOptions.ShowPageStepper Eigenschaft
 
-Zeigt/verbirgt den Seitensteppers. Kann in flashvars überschrieben werden. Standard ist true.
+Seitenstepper anzeigen/ausblenden. Kann in flashvars überschrieben werden. Standard ist true.
 
 ```csharp
 public bool ShowPageStepper { get; set; }

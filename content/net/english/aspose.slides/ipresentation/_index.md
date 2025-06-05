@@ -3,9 +3,10 @@ title: IPresentation
 second_title: Aspose.Sildes for .NET API Reference
 description: Presentation document
 type: docs
-weight: 6320
+weight: 6550
 url: /aspose.slides/ipresentation/
 ---
+
 ## IPresentation interface
 
 Presentation document
@@ -52,29 +53,28 @@ public interface IPresentation : IDisposable, IPresentationComponent
 
 | Name | Description |
 | --- | --- |
+| [GetImages](../../aspose.slides/ipresentation/getimages#getimages)(IRenderingOptions) | Returns a Thumbnail Image objects for all slides of a presentation. |
+| [GetImages](../../aspose.slides/ipresentation/getimages#getimages_1)(IRenderingOptions, int[]) | Returns a Thumbnail Bitmap objects for specified slides of a presentation. |
+| [GetImages](../../aspose.slides/ipresentation/getimages#getimages_5)(IRenderingOptions, Size) | Returns a Thumbnail Image objects for all slides of a presentation with specified size. |
+| [GetImages](../../aspose.slides/ipresentation/getimages#getimages_4)(IRenderingOptions, float, float) | Returns a Thumbnail Image objects for all slides of a presentation with custom scaling. |
+| [GetImages](../../aspose.slides/ipresentation/getimages#getimages_3)(IRenderingOptions, int[], Size) | Returns a Thumbnail Image objects for specified slides of a presentation with specified size. |
+| [GetImages](../../aspose.slides/ipresentation/getimages#getimages_2)(IRenderingOptions, int[], float, float) | Returns a Thumbnail Image objects for specified slides of a presentation with custom scaling. |
 | [GetSlideById](../../aspose.slides/ipresentation/getslidebyid)(uint) | Returns a Slide, MasterSlide or LayoutSlide by Id. |
-| [GetThumbnails](../../aspose.slides/ipresentation/getthumbnails#getthumbnails_6)(IRenderingOptions) | Returns a Thumbnail Bitmap objects for all slides of a presentation. |
-| [GetThumbnails](../../aspose.slides/ipresentation/getthumbnails#getthumbnails_7)(IRenderingOptions, int[]) | Returns a Thumbnail Bitmap objects for specified slides of a presentation. |
-| [GetThumbnails](../../aspose.slides/ipresentation/getthumbnails#getthumbnails_11)(IRenderingOptions, Size) | Returns a Thumbnail Bitmap objects for all slides of a presentation with specified size. |
-| [GetThumbnails](../../aspose.slides/ipresentation/getthumbnails#getthumbnails_10)(IRenderingOptions, float, float) | Returns a Thumbnail Bitmap objects for all slides of a presentation with custom scaling. |
-| [GetThumbnails](../../aspose.slides/ipresentation/getthumbnails#getthumbnails_9)(IRenderingOptions, int[], Size) | Returns a Thumbnail Bitmap objects for specified slides of a presentation with specified size. |
-| [GetThumbnails](../../aspose.slides/ipresentation/getthumbnails#getthumbnails_8)(IRenderingOptions, int[], float, float) | Returns a Thumbnail Bitmap objects for specified slides of a presentation with custom scaling. |
+| [HighlightRegex](../../aspose.slides/ipresentation/highlightregex)(Regex, Color, IFindResultCallback) | Highlights all matches of the regular expression with the specified color. |
+| [HighlightText](../../aspose.slides/ipresentation/highlighttext#highlighttext)(string, Color) | Highlights all matches of the sample text with the specified color. |
+| [HighlightText](../../aspose.slides/ipresentation/highlighttext#highlighttext_1)(string, Color, ITextSearchOptions, IFindResultCallback) | Highlights all matches of the sample text with the specified color. |
 | [JoinPortionsWithSameFormatting](../../aspose.slides/ipresentation/joinportionswithsameformatting)() | Joins runs with same formatting in all paragraphs in all acceptable shapes in all slides. |
-| [Print](../../aspose.slides/ipresentation/print#print)() | Prints the whole presentation to the default printer. |
-| [Print](../../aspose.slides/ipresentation/print#print_1)(PrinterSettings) | Prints the presentation according to the specified printer settings, using the standard (no User Interface) print controller. |
-| [Print](../../aspose.slides/ipresentation/print#print_3)(string) | Print the whole presentation to the specified printer, using the standard (no User Interface) print controller. |
-| [Print](../../aspose.slides/ipresentation/print#print_2)(PrinterSettings, string) | Prints the document according to the specified printer settings, using the standard (no User Interface) print controller and a presentation name. |
+| [ReplaceRegex](../../aspose.slides/ipresentation/replaceregex)(Regex, string, IFindResultCallback) | Replaces all matches of the regular expression with the specified string. |
+| [ReplaceText](../../aspose.slides/ipresentation/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Replaces all occurrences of the specified text with another specified text. |
 | [Save](../../aspose.slides/ipresentation/save#save)(IXamlOptions) | Saves all slides of a presentation to a set of files representing XAML markup. |
 | [Save](../../aspose.slides/ipresentation/save#save_1)(Stream, SaveFormat) | Saves all slides of a presentation to a stream in the specified format. |
 | [Save](../../aspose.slides/ipresentation/save#save_5)(string, SaveFormat) | Saves all slides of a presentation to a file with the specified format. |
 | [Save](../../aspose.slides/ipresentation/save#save_3)(Stream, int[], SaveFormat) | Saves specified slides of a presentation to a stream in the specified format. |
 | [Save](../../aspose.slides/ipresentation/save#save_2)(Stream, SaveFormat, ISaveOptions) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
-| [Save](../../aspose.slides/ipresentation/save#save_9)(string, int[], SaveFormat) | Saves specified slides of a presentation to a file with the specified format. |
+| [Save](../../aspose.slides/ipresentation/save#save_7)(string, int[], SaveFormat) | Saves specified slides of a presentation to a file with the specified format. |
 | [Save](../../aspose.slides/ipresentation/save#save_6)(string, SaveFormat, ISaveOptions) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 | [Save](../../aspose.slides/ipresentation/save#save_4)(Stream, int[], SaveFormat, ISaveOptions) | Saves specified slides of a presentation to a stream in the specified format. |
-| [Save](../../aspose.slides/ipresentation/save#save_10)(string, int[], SaveFormat, ISaveOptions) | Saves specified slides of a presentation to a file with the specified format. |
-| [Save](../../aspose.slides/ipresentation/save#save_8)(string, SaveFormat, HttpResponse, bool) | Sends the presentation to the client browser. This method is absent in ClientProfile versions of Aspose.Slide. |
-| [Save](../../aspose.slides/ipresentation/save#save_7)(string, SaveFormat, ISaveOptions, HttpResponse, bool) | Sends the presentation to the client browser. This method is absent in ClientProfile versions of Aspose.Slide. |
+| [Save](../../aspose.slides/ipresentation/save#save_8)(string, int[], SaveFormat, ISaveOptions) | Saves specified slides of a presentation to a file with the specified format. |
 
 ### See Also
 

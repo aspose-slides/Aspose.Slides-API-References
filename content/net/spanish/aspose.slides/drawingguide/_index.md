@@ -1,6 +1,6 @@
 ---
-title: Guía de Dibujo
-second_title: Referencia de la API de Aspose.Slides para .NET
+title: DrawingGuide
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa una guía de dibujo ajustable.
 type: docs
 weight: 2720
@@ -26,6 +26,6 @@ public sealed class DrawingGuide : IDrawingGuide
 
 * interfaz [IDrawingGuide](../idrawingguide)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblaje [Aspose.Slides](../../)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

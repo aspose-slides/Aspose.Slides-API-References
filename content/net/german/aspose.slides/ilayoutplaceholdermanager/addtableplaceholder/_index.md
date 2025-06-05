@@ -1,15 +1,15 @@
 ---
 title: AddTablePlaceholder
-second_title: Aspose.Slides für .NET API-Referenz
-description: Fügt der Layout-Folie eine neue Platzhalterform hinzu, um eine Tabelle zu halten.
+second_title: Aspose.Slides für .NET API Referenz
+description: Fügt eine neue Platzhalterform zur Layout-Folie hinzu, um eine Tabelle zu halten.
 type: docs
 weight: 70
 url: /de/aspose.slides/ilayoutplaceholdermanager/addtableplaceholder/
 ---
 
-## ILayoutPlaceholderManager.AddTablePlaceholder-Methode
+## ILayoutPlaceholderManager.AddTablePlaceholder Methode
 
-Fügt der Layout-Folie eine neue Platzhalterform hinzu, um eine Tabelle zu halten.
+Fügt eine neue Platzhalterform zur Layout-Folie hinzu, um eine Tabelle zu halten.
 
 ```csharp
 public IAutoShape AddTablePlaceholder(float x, float y, float width, float height)
@@ -28,7 +28,7 @@ Erstellt [`IAutoShape`](../../iautoshape) mit einem Tabellenplatzhalter.
 
 ### Beispiele
 
-Das folgende Beispiel zeigt, wie die Tabellenplatzhalterform zur Layout-Folie hinzugefügt wird.
+Das folgende Beispiel zeigt, wie man die Tabellenplatzhalterform zur Layout-Folie hinzufügt.
 
 ```csharp
 [C#]
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IAutoShape](../../iautoshape)
 * Schnittstelle [ILayoutPlaceholderManager](../../ilayoutplaceholdermanager)

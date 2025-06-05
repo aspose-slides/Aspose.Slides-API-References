@@ -1,6 +1,6 @@
 ---
 title: IsNoEffects
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Renvoie true si tous les effets sont désactivés comme un objet EffectFormat par défaut nouvellement créé. Booléen en lecture seule.
 type: docs
 weight: 60
@@ -15,7 +15,7 @@ Renvoie true si tous les effets sont désactivés (comme un objet EffectFormat p
 public bool IsNoEffects { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IEffectFormat](../../ieffectformat)
 * namespace [Aspose.Slides](../../ieffectformat)

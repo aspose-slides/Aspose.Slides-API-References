@@ -1,6 +1,6 @@
 ---
 title: HasBorderOutline
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 如果图表数据表具有轮廓边框，则为真。可读/可写布尔值。
 type: docs
 weight: 40

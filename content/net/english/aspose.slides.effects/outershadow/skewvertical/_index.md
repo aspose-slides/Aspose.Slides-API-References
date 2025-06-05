@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.effects/outershadow/skewvertical/
 ---
+
 ## OuterShadow.SkewVertical property
 
 Specifies the vertical skew angle (in degrees). Read/write Double.

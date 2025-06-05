@@ -1,5 +1,5 @@
 ---
-title: Altura
+title: Height
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece la altura de un título como una fracción de la altura del gráfico. Lectura/escritura Single.
 type: docs
@@ -7,7 +7,7 @@ weight: 90
 url: /es/aspose.slides.charts/datalabel/height/
 ---
 
-## Propiedad DataLabel.Height
+## DataLabel.Height property
 
 Devuelve o establece la altura de un título como una fracción de la altura del gráfico. Lectura/escritura Single.
 
@@ -15,10 +15,10 @@ Devuelve o establece la altura de un título como una fracción de la altura del
 public float Height { get; set; }
 ```
 
-### Ver También
+### Véase también
 
-* clase [DataLabel](../../datalabel)
-* espacio de nombres [Aspose.Slides.Charts](../../datalabel)
-* ensamblado [Aspose.Slides](../../../)
+* class [DataLabel](../../datalabel)
+* namespace [Aspose.Slides.Charts](../../datalabel)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -3,10 +3,11 @@ title: Save
 second_title: Aspose.Sildes for .NET API Reference
 description: Saves specified slides of a presentation to a file with the specified format with page number keeping.
 type: docs
-weight: 350
+weight: 380
 url: /aspose.slides/presentation/save/
 ---
-## Save(string, int[], SaveFormat) {#save_9}
+
+## Save(string, int[], SaveFormat) {#save_7}
 
 Saves specified slides of a presentation to a file with the specified format with page number keeping.
 
@@ -37,7 +38,7 @@ public void Save(string fname, int[] slides, SaveFormat format)
 
 ---
 
-## Save(string, int[], SaveFormat, ISaveOptions) {#save_10}
+## Save(string, int[], SaveFormat, ISaveOptions) {#save_8}
 
 Saves specified slides of a presentation to a file with the specified format with page number keeping.
 
@@ -154,57 +155,6 @@ using (Presentation pres = new Presentation("pres.pptx"))
     }
 }
 ```
-
-### See Also
-
-* enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## Save(string, SaveFormat, HttpResponse, bool) {#save_8}
-
-Sends the presentation to the client browser. This method is absent in ClientProfile versions of Aspose.Slide.
-
-```csharp
-public void Save(string fname, SaveFormat format, HttpResponse response, bool showInline)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fname | String | The name for the presentation that will appear at the client browser. The name should not contain path. |
-| format | SaveFormat | Format of the exported data. |
-| response | HttpResponse | Response object where to save the document. |
-| showInline | Boolean | True to show an option to open the presentation inside the browser. |
-
-### See Also
-
-* enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## Save(string, SaveFormat, ISaveOptions, HttpResponse, bool) {#save_7}
-
-Sends the presentation to the client browser. This method is absent in ClientProfile versions of Aspose.Slide.
-
-```csharp
-public void Save(string fname, SaveFormat format, ISaveOptions options, HttpResponse response, 
-    bool showInline)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fname | String | The name for the presentation that will appear at the client browser. The name should not contain path. |
-| format | SaveFormat | Format of the exported data. |
-| options | ISaveOptions | Additional format options. |
-| response | HttpResponse | Response object where to save the document. |
-| showInline | Boolean | True to show an option to open the presentation inside the browser. |
 
 ### See Also
 

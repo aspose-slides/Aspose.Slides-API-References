@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/gradientstopcollectioneffectivedata/count/
 ---
+
 ## GradientStopCollectionEffectiveData.Count property
 
 Returns the number of gradient stops in a collection. Read-only Int32.

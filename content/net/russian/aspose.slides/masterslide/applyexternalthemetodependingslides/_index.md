@@ -1,7 +1,7 @@
 ---
 title: ApplyExternalThemeToDependingSlides
-second_title: Aspose.Slides для .NET Справочник по API
-description: Создает новый основной слайд на основе текущего, применяя к нему внешний шаблон и применяет созданный основной слайд ко всем зависимым слайдам.
+second_title: Aspose.Slides для .NET API Справочник
+description: Создает новый мастер-слайд на основе текущего, применяя к нему внешний шаблон, и применяет созданный мастер-слайд ко всем зависимым слайдам.
 type: docs
 weight: 110
 url: /ru/aspose.slides/masterslide/applyexternalthemetodependingslides/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/masterslide/applyexternalthemetodependingslides/
 
 ## MasterSlide.ApplyExternalThemeToDependingSlides метод
 
-Создает новый основной слайд на основе текущего, применяя к нему внешний шаблон и применяет созданный основной слайд ко всем зависимым слайдам.
+Создает новый мастер-слайд на основе текущего, применяя к нему внешний шаблон, и применяет созданный мастер-слайд ко всем зависимым слайдам.
 
 ```csharp
 public IMasterSlide ApplyExternalThemeToDependingSlides(string fname)
@@ -21,7 +21,7 @@ public IMasterSlide ApplyExternalThemeToDependingSlides(string fname)
 
 ### Возвращаемое значение
 
-Новый оформленный MasterSlide.
+Новый тематический MasterSlide.
 
 ### Исключения
 

@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/chartdataworksheetcollection/syncroot/
 public object SyncRoot { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [ChartDataWorksheetCollection](../../chartdataworksheetcollection)
 * namespace [Aspose.Slides.Charts](../../chartdataworksheetcollection)

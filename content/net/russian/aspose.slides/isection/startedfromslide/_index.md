@@ -1,6 +1,6 @@
 ---
 title: StartedFromSlide
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает первый слайд секции.
 type: docs
 weight: 30

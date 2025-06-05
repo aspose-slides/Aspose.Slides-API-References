@@ -1,15 +1,15 @@
 ---
-title: GestionnaireDeDiaposDeNotes
-second_title: Documentation de l'API Aspose.Slides pour .NET
-description: Gestionnaire de diapos de notes.
+title: NotesSlideManager
+second_title: Référence API Aspose.Slides pour .NET
+description: Gestionnaire de diapositive de notes.
 type: docs
 weight: 8890
 url: /fr/aspose.slides/notesslidemanager/
 ---
 
-## Classe GestionnaireDeDiaposDeNotes
+## Classe NotesSlideManager
 
-Gestionnaire de diapos de notes.
+Gestionnaire de diapositive de notes.
 
 ```csharp
 public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
@@ -19,39 +19,39 @@ public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 
 | Nom | Description |
 | --- | --- |
-| [NotesSlide](../../aspose.slides/notesslidemanager/notesslide) { get; } | Renvoie la diapo de notes pour la diapo actuelle. Renvoie null si la diapo n'a pas de diapo de notes. Lecture seule [`INotesSlide`](../inotesslide). |
+| [NotesSlide](../../aspose.slides/notesslidemanager/notesslide) { get; } | Retourne la diapositive de notes pour la diapositive actuelle. Retourne null si la diapositive n'a pas de diapositive de notes. Lecture seule [`INotesSlide`](../inotesslide). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [AddNotesSlide](../../aspose.slides/notesslidemanager/addnotesslide)() | Renvoie la diapo de notes pour la diapo actuelle, en en créant une si elle n'existe pas. |
-| [RemoveNotesSlide](../../aspose.slides/notesslidemanager/removenotesslide)() | Supprime la diapo de notes de la diapo actuelle. |
+| [AddNotesSlide](../../aspose.slides/notesslidemanager/addnotesslide)() | Retourne la diapositive de notes pour la diapositive actuelle, en en créant une s'il n'y en a pas. |
+| [RemoveNotesSlide](../../aspose.slides/notesslidemanager/removenotesslide)() | Supprime la diapositive de notes de la diapositive actuelle. |
 
 ### Exemples
 
-L’exemple suivant montre comment ajouter des notes à une diapo spécifique d'une présentation PowerPoint.
+L'exemple suivant montre comment ajouter des notes à une diapositive de présentation PowerPoint spécifique.
 
 ```csharp
 [C#]
 	// Instancier un objet Presentation qui représente un fichier de présentation
 	using(Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx")) {
-	  // Ajouter des notes à la première diapo
+	  // Ajouter des notes à la première diapositive
 	  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
 	  INotesSlide noteSlide = mgr.AddNotesSlide();
-	  noteSlide.NotesTextFrame.Text = "Vos Notes";
+	  noteSlide.NotesTextFrame.Text = "Vos notes";
 	  // Enregistrer la présentation sur le disque
 	  presentation.Save(dataDir + "RemoveNotesAtSpecificSlide_out.pptx", SaveFormat.Pptx);
 	}
 ```
 
-L’exemple suivant montre comment supprimer des notes de la diapo spécifique d'une présentation PowerPoint.
+L'exemple suivant montre comment supprimer des notes d'une diapositive spécifique de présentation PowerPoint.
 
 ```csharp
 [C#]
 	// Instancier un objet Presentation qui représente un fichier de présentation
 	using(Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx")) {
-	  // Supprimer les notes de la première diapo
+	  // Supprimer les notes de la première diapositive
 	  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
 	  mgr.RemoveNotesSlide();
 	  // Enregistrer la présentation sur le disque
@@ -59,7 +59,7 @@ L’exemple suivant montre comment supprimer des notes de la diapo spécifique d
 	}
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [DomObject&lt;TParent&gt;](../domobject-1)
 * classe [Slide](../slide)

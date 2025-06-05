@@ -1,13 +1,13 @@
 ---
-title: RemplacerTexte
-second_title: Référence API Aspose.Slides pour .NET
+title: ReplaceText
+second_title: Aspose.Slides pour .NET Référence API
 description: Remplace toutes les occurrences du texte spécifié par un autre texte spécifié.
 type: docs
 weight: 130
 url: /fr/aspose.slides/textframe/replacetext/
 ---
 
-## Méthode TextFrame.ReplaceText
+## TextFrame.ReplaceText méthode
 
 Remplace toutes les occurrences du texte spécifié par un autre texte spécifié.
 
@@ -25,7 +25,7 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 
 ### Exemples
 
-Le code exemple suivant montre comment remplacer une chaîne spécifiée par une autre chaîne spécifiée.
+Le code d'exemple suivant montre comment remplacer une chaîne spécifiée par une autre chaîne spécifiée.
 
 ```csharp
 [C#]
@@ -37,7 +37,7 @@ using (Presentation presentation = new Presentation("SomePresentation.pptx")){
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ITextSearchOptions](../../itextsearchoptions)
 * interface [IFindResultCallback](../../ifindresultcallback)

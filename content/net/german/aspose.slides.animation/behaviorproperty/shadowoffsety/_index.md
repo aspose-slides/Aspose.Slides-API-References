@@ -1,6 +1,6 @@
 ---
 title: ShadowOffsetY
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Verweis
 description: Stellt die Eigenschaft shadow.offset.y dar
 type: docs
 weight: 710

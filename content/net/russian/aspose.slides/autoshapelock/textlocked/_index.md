@@ -1,15 +1,15 @@
 ---
 title: TextLocked
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, запрещено ли редактирование текста. Чтение/запись Boolean.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Определяет, запрещено ли редактирование текста. Читаемый/записываемый логический тип.
 type: docs
 weight: 110
 url: /ru/aspose.slides/autoshapelock/textlocked/
 ---
 
-## Свойство AutoShapeLock.TextLocked
+## AutoShapeLock.TextLocked свойство
 
-Определяет, запрещено ли редактирование текста. Чтение/запись Boolean.
+Определяет, запрещено ли редактирование текста. Читаемый/записываемый логический тип.
 
 ```csharp
 public bool TextLocked { get; set; }

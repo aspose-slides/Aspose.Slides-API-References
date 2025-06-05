@@ -1,7 +1,7 @@
 ---
 title: ILightRigEffectiveData
-second_title: Référence API Aspose.Slides pour .NET
-description: Objet immuable qui contient les propriétés effectives de l'éclairage.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Objet immuable qui contient les propriétés effectives du cadre de lumière.
 type: docs
 weight: 6080
 url: /fr/aspose.slides/ilightrigeffectivedata/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ilightrigeffectivedata/
 
 ## Interface ILightRigEffectiveData
 
-Objet immuable qui contient les propriétés effectives de l'éclairage.
+Objet immuable qui contient les propriétés effectives du cadre de lumière.
 
 ```csharp
 public interface ILightRigEffectiveData
@@ -20,17 +20,17 @@ public interface ILightRigEffectiveData
 | Nom | Description |
 | --- | --- |
 | [Direction](../../aspose.slides/ilightrigeffectivedata/direction) { get; } | Direction de la lumière. Lecture seule [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Représente un éclairage prédéfini qui peut être appliqué à une forme. L'éclairage représente un groupe de lumières orientées d'une manière spécifique par rapport à une scène 3D. Lecture seule [`LightRigPresetType`](../lightrigpresettype). |
+| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Représente un cadre de lumière prédéfini qui peut être appliqué à une forme. Le cadre de lumière représente un groupe de lumières orientées d'une manière spécifique par rapport à une scène 3D. Lecture seule [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | Une rotation est définie par l'utilisation d'une coordonnée de latitude, d'une coordonnée de longitude, et d'une révolution autour de l'axe comme pour les coordonnées de latitude et de longitude. Premier élément du tableau de retour - latitude, deuxième - longitude, troisième - révolution. |
+| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | Une rotation est définie par l'utilisation d'une coordonnée de latitude, d'une coordonnée de longitude et d'une révolution autour de l'axe comme les coordonnées de latitude et de longitude. Premier élément dans le tableau de retour - latitude, deuxième - longitude, troisième - révolution. |
 
 ### Remarques
 
-Cette interface est utilisée comme partie de [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
+Cette interface est utilisée dans le cadre de [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
 
 ### Voir aussi
 

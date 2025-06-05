@@ -1,6 +1,6 @@
 ---
-title: 获取颜色方案
-second_title: Aspose.Slides for .NET API 参考
+title: GetColorScheme
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回颜色方案。
 type: docs
 weight: 30
@@ -18,12 +18,12 @@ public IColorSchemeEffectiveData GetColorScheme(Color styleColor)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | styleColor | Color | 颜色 |
-
+  
 ### 返回值
 
 颜色方案 [`IColorSchemeEffectiveData`](../../icolorschemeeffectivedata)
 
-### 参阅
+### 另见
 
 * 接口 [IColorSchemeEffectiveData](../../icolorschemeeffectivedata)
 * 接口 [IThemeEffectiveData](../../ithemeeffectivedata)

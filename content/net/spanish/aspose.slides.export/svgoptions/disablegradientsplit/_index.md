@@ -15,7 +15,7 @@ Desactiva la división de gradientes FromCornerX y FromCenter. Booleano de lectu
 public bool DisableGradientSplit { get; set; }
 ```
 
-### Ver también
+### Véase también
 
 * clase [SVGOptions](../../svgoptions)
 * espacio de nombres [Aspose.Slides.Export](../../svgoptions)

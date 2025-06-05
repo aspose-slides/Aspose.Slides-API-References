@@ -1,7 +1,7 @@
 ---
 title: WriteAsMathMl
-second_title: Aspose.Slides for .NET API Reference
-description: 将此 MathBlock 的内容 aspose.slides.mathtext/mathblock 保存为 MathML
+second_title: Aspose.Sildes for .NET API Reference
+description: 将此 MathBlockaspose.slides.mathtext/mathblock 的内容保存为 MathML
 type: docs
 weight: 190
 url: /zh/aspose.slides.mathtext/mathblock/writeasmathml/
@@ -19,7 +19,7 @@ public void WriteAsMathMl(Stream stream)
 | --- | --- | --- |
 | stream | Stream | 目标流 |
 
-### 另请参见
+### 另见
 
 * 类 [MathBlock](../../mathblock)
 * 命名空间 [Aspose.Slides.MathText](../../mathblock)

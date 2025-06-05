@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/itagcollection/contains/
 ---
+
 ## ITagCollection.Contains method
 
 Determines whether the collection contains a specific name.

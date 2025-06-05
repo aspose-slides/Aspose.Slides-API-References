@@ -1,6 +1,6 @@
 ---
 title: GetAllTextBoxes
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает все текстовые рамки на слайде в презентации PPTX.
 type: docs
 weight: 40
@@ -17,7 +17,7 @@ public static ITextFrame[] GetAllTextBoxes(IBaseSlide slide)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| slide | IBaseSlide | Сканиваемый слайд. |
+| slide | IBaseSlide | Обрабатываемый слайд. |
 
 ### Возвращаемое значение
 

@@ -1,6 +1,6 @@
 ---
-title: 合并单元格
-second_title: Aspose.Sildes for .NET API 参考
+title: MergeCells
+second_title: Aspose.Sildes for .NET API Reference
 description: 合并相邻单元格。
 type: docs
 weight: 140
@@ -19,13 +19,13 @@ public ICell MergeCells(ICell cell1, ICell cell2, bool allowSplitting)
 | --- | --- | --- |
 | cell1 | ICell | 要合并的单元格。 |
 | cell2 | ICell | 要合并的单元格。 |
-| allowSplitting | 布尔值 | 如果为 true，则允许单元格拆分。 |
+| allowSplitting | Boolean | 为 true 以允许单元格拆分。 |
 
 ### 返回值
 
 合并后的单元格。
 
-### 另见
+### 另请参见
 
 * 接口 [ICell](../../icell)
 * 类 [Table](../../table)

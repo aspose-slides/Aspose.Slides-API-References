@@ -1,15 +1,15 @@
 ---
 title: CreatePortionFormat
-second_title: Aspose.Slides pour .NET Référence API
-description: Crée un nouvel IPortionFormataspose.slides/iportionformat.
+second_title: Aspose.Slides pour .NET API Référence
+description: Crée un nouvel IPortionFormat aspose.slides/iportionformat.
 type: docs
 weight: 20
 url: /fr/aspose.slides/iformatfactory/createportionformat/
 ---
 
-## Méthode IFormatFactory.CreatePortionFormat
+## IFormatFactory.CreatePortionFormat méthode
 
-Crée un nouvel [`IPortionFormat`](../../iportionformat).
+Crée un nouveau [`IPortionFormat`](../../iportionformat).
 
 ```csharp
 public IPortionFormat CreatePortionFormat()
@@ -17,7 +17,7 @@ public IPortionFormat CreatePortionFormat()
 
 ### Valeur de Retour
 
-Nouvelle format de portion.
+Nouveau format de portion.
 
 ### Voir aussi
 

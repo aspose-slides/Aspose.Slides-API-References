@@ -1,7 +1,7 @@
 ---
 title: KerningMinimalSize
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit la taille de police minimale pour laquelle le crénage doit être activé. float.NaN signifie que la valeur est indéfinie et doit être héritée du Master. Lecture/écriture Single.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Renvoie ou définit la taille de police minimale pour laquelle le crénage doit être activé. **float.NaN** signifie que la valeur est indéfinie et doit être héritée du Maître. Lecture/écriture Simple.
 type: docs
 weight: 140
 url: /fr/aspose.slides/ibaseportionformat/kerningminimalsize/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ibaseportionformat/kerningminimalsize/
 
 ## Propriété IBasePortionFormat.KerningMinimalSize
 
-Renvoie ou définit la taille de police minimale, pour laquelle le crénage doit être activé. **float.NaN** signifie que la valeur est indéfinie et doit être héritée du Master. Lecture/écriture Single.
+Renvoie ou définit la taille de police minimale, pour laquelle le crénage doit être activé. **float.NaN** signifie que la valeur est indéfinie et doit être héritée du Maître. Lecture/écriture Simple.
 
 ```csharp
 public float KerningMinimalSize { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IBasePortionFormat](../../ibaseportionformat)
 * namespace [Aspose.Slides](../../ibaseportionformat)

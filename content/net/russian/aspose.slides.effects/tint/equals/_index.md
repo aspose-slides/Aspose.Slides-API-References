@@ -1,13 +1,13 @@
 ---
-title: Равно
-second_title: Справочник по API Aspose.Slides для .NET
+title: Equals
+second_title: Aspose.Slides для .NET API Справочник
 description: Определяет, равен ли указанный Tintaspose.slides.effects/tint текущему Tintaspose.slides.effects/tint.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/tint/equals/
 ---
 
-## Метод Tint.Equals
+## Tint.Equals метод
 
 Определяет, равен ли указанный [`Tint`](../../tint) текущему [`Tint`](../../tint).
 

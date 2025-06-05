@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/shapeframe/width/
 ---
+
 ## ShapeFrame.Width property
 
 Returns the width of a frame. Read-only Single.

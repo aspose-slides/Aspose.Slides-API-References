@@ -15,7 +15,7 @@ Devuelve el objeto CellFormat que contiene propiedades de formato para esta celd
 public ICellFormat CellFormat { get; }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [ICellFormat](../../icellformat)
 * interfaz [ICell](../../icell)

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.vba/vbaprojectfactory/createvbaproject/
 ---
+
 ## VbaProjectFactory.CreateVbaProject method
 
 Creates new VBA project.

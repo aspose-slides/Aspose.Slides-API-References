@@ -15,7 +15,7 @@ Renvoie le schéma de format de la forme. Lecture seule [`IFormatScheme`](../../
 public IFormatScheme FormatScheme { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IFormatScheme](../../iformatscheme)
 * interface [ITheme](../../itheme)

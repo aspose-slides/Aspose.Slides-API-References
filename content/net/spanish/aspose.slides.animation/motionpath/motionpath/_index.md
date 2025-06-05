@@ -1,24 +1,24 @@
----
+---  
 title: MotionPath
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API  
 description: El constructor por defecto.
-type: docs
-weight: 10
+type: docs  
+weight: 10  
 url: /es/aspose.slides.animation/motionpath/motionpath/
----
+---  
 
-## Constructor de MotionPath
+## Constructor MotionPath  
 
-El constructor por defecto.
+El constructor por defecto.  
 
-```csharp
-public MotionPath()
-```
+```csharp  
+public MotionPath()  
+```  
 
-### Ver También
+### Véase también  
 
-* clase [MotionPath](../../motionpath)
-* espacio de nombres [Aspose.Slides.Animation](../../motionpath)
-* ensamblaje [Aspose.Slides](../../../)
+* class [MotionPath](../../motionpath)  
+* namespace [Aspose.Slides.Animation](../../motionpath)  
+* assembly [Aspose.Slides](../../../)  
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  

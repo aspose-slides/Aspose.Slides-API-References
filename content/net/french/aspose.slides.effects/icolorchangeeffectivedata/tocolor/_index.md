@@ -7,7 +7,7 @@ weight: 30
 url: /fr/aspose.slides.effects/icolorchangeeffectivedata/tocolor/
 ---
 
-## Propriété IColorChangeEffectiveData.ToColor
+## IColorChangeEffectiveData.ToColor property
 
 Couleur qui sera remplacée. Couleur en lecture seule.
 

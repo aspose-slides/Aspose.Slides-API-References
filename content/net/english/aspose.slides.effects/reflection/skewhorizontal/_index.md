@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.effects/reflection/skewhorizontal/
 ---
+
 ## Reflection.SkewHorizontal property
 
 Specifies the horizontal skew angle. Read/write Double.

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export/ipdfoptions/accesspermissions/
 ---
+
 ## IPdfOptions.AccessPermissions property
 
 Contains a set of flags specifying which access permissions should be granted when the document is opened with user access. See [`PdfAccessPermissions`](../../pdfaccesspermissions).

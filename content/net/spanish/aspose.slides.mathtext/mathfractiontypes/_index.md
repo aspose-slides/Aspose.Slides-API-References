@@ -1,7 +1,7 @@
 ---
 title: MathFractionTypes
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Tipos de Fracción
+description: Tipos de fracciones
 type: docs
 weight: 8450
 url: /es/aspose.slides.mathtext/mathfractiontypes/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.mathtext/mathfractiontypes/
 
 ## Enumeración MathFractionTypes
 
-Tipos de Fracción
+Tipos de Fracciones
 
 ```csharp
 public enum MathFractionTypes
@@ -19,14 +19,14 @@ public enum MathFractionTypes
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Bar | `1` | Fracción Bar |
+| Bar | `1` | Fracción de Barra |
 | Skewed | `2` | Sesgada |
 | Linear | `3` | Fracción Lineal |
-| NoBar | `4` | Fracción sin Bar (Apilada) |
+| NoBar | `4` | Fracción Sin Barra (Apilada) |
 
-### Ver también
+### Véase también
 
-* espacio de nombres [Aspose.Slides.MathText](../../aspose.slides.mathtext)
-* ensamblaje [Aspose.Slides](../../)
+* namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)
+* assembly [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,6 +1,6 @@
 ---
-title: Формат
-second_title: Ссылка на API Aspose.Slides для .NET
+title: Format
+second_title: Aspose.Sildes для .NET API Справочник
 description: Получает заливку маркера. Только для чтения IFormataspose.slides.charts/iformat.
 type: docs
 weight: 10

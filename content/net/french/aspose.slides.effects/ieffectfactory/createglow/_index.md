@@ -1,13 +1,13 @@
 ---
 title: CreateGlow
-second_title: Référence de l'API Aspose.Slide pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Crée un effet de lueur.
 type: docs
 weight: 20
 url: /fr/aspose.slides.effects/ieffectfactory/createglow/
 ---
 
-## Méthode IEffectFactory.CreateGlow
+## IEffectFactory.CreateGlow méthode
 
 Crée un effet de lueur.
 

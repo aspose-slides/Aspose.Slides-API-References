@@ -1,7 +1,7 @@
 ---
-title: Égal
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si le BiLevel spécifié aspose.slides.effects/bilevel est égal au BiLevel actuel aspose.slides.effects/bilevel.
+title: Equals
+second_title: Référence API Aspose.Slides pour .NET
+description: Détermine si le BiLevelaspose.slides.effects/bilevel spécifié est égal au BiLevelaspose.slides.effects/bilevel actuel.
 type: docs
 weight: 10
 url: /fr/aspose.slides.effects/bilevel/equals/

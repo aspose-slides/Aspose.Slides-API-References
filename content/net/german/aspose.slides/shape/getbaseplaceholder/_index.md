@@ -1,15 +1,15 @@
 ---
 title: GetBasePlaceholder
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt eine grundlegende Platzhalterform zurück, die von dem Layout und/oder der Masterfolie abgeleitet ist, von der die aktuelle Form geerbt wird. Null wird zurückgegeben, wenn die aktuelle Form nicht geerbt wird.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt eine grundlegende Platzhalterform zurück, die von dem Layout und/oder der Master-Folie, von der die aktuelle Form abgeleitet ist, stammt. Ein null wird zurückgegeben, wenn die aktuelle Form nicht abgeleitet ist.
 type: docs
 weight: 340
 url: /de/aspose.slides/shape/getbaseplaceholder/
 ---
 
-## Shape.GetBasePlaceholder-Methode
+## Shape.GetBasePlaceholder Methode
 
-Gibt eine grundlegende Platzhalterform (Form aus dem Layout und/oder von der Masterfolie, von der die aktuelle Form geerbt wird) zurück. Es wird null zurückgegeben, wenn die aktuelle Form nicht geerbt wird.
+Gibt eine grundlegende Platzhalterform (Form von dem Layout und/oder der Master-Folie, von der die aktuelle Form abgeleitet ist) zurück. Ein null wird zurückgegeben, wenn die aktuelle Form nicht abgeleitet ist.
 
 ```csharp
 public IShape GetBasePlaceholder()

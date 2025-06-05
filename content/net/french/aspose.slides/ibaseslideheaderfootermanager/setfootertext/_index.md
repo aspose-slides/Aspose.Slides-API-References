@@ -1,15 +1,15 @@
 ---
 title: SetFooterText
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Définit le texte du champ de pied de page de la diapositive.
+description: Définit le texte dans l'espace réservé du bas de page de la diapositive.
 type: docs
 weight: 70
 url: /fr/aspose.slides/ibaseslideheaderfootermanager/setfootertext/
 ---
 
-## Méthode IBaseSlideHeaderFooterManager.SetFooterText
+## IBaseSlideHeaderFooterManager.SetFooterText méthode
 
-Définit le texte du champ de pied de page de la diapositive.
+Définit le texte dans l'espace réservé du bas de page de la diapositive.
 
 ```csharp
 public void SetFooterText(string text)

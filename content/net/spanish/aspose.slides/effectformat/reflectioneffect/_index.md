@@ -1,7 +1,7 @@
 ---
 title: ReflectionEffect
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Reflexión. Leer/escribir IReflection aspose.slides.effects/ireflection.
+description: Reflexión. Leer/escribir IReflectionaspose.slides.effects/ireflection.
 type: docs
 weight: 80
 url: /es/aspose.slides/effectformat/reflectioneffect/
@@ -15,7 +15,7 @@ Reflexión. Leer/escribir [`IReflection`](../../../aspose.slides.effects/ireflec
 public IReflection ReflectionEffect { get; set; }
 ```
 
-### Véase también
+### Véase También
 
 * interfaz [IReflection](../../../aspose.slides.effects/ireflection)
 * clase [EffectFormat](../../effectformat)

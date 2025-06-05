@@ -1,15 +1,15 @@
 ---
-title: Hinzufügen
+title: Add
 second_title: Aspose.Slides für .NET API Referenz
-description: Wenn die Kategorie in der Sammlung existiert, geben Sie sie zurück. Andernfalls erstellen Sie eine neue Diagrammkategorie aus IChartDataCellaspose.slides.charts/ichartdatacell und fügen Sie sie der Sammlung hinzu.
+description: Wenn die Kategorie in der Sammlung vorhanden ist, geben Sie sie zurück. Andernfalls erstellen Sie eine neue Diagrammkategorie aus IChartDataCellaspose.slides.charts/ichartdatacell und fügen Sie sie der Sammlung hinzu.
 type: docs
 weight: 40
 url: /de/aspose.slides.charts/ichartcategorycollection/add/
 ---
 
-## Hinzufügen(IChartDataCell) {#add}
+## Add(IChartDataCell) {#add}
 
-Wenn die Kategorie in der Sammlung existiert, geben Sie sie zurück. Andernfalls erstellen Sie eine neue Diagrammkategorie aus [`IChartDataCell`](../../ichartdatacell) und fügen Sie sie der Sammlung hinzu.
+Wenn die Kategorie in der Sammlung vorhanden ist, geben Sie sie zurück. Andernfalls erstellen Sie eine neue Diagrammkategorie aus [`IChartDataCell`](../../ichartdatacell) und fügen Sie sie der Sammlung hinzu.
 
 ```csharp
 public IChartCategory Add(IChartDataCell chartDataCell)
@@ -33,7 +33,7 @@ Hinzugefügte oder vorhandene Kategorie.
 
 ---
 
-## Hinzufügen(object) {#add_1}
+## Add(object) {#add_1}
 
 Erstellt eine neue [`IChartCategory`](../../ichartcategory) aus dem Wert und fügt sie der Sammlung hinzu.
 
@@ -53,11 +53,11 @@ Hinzugefügte [`IChartCategory`](../../ichartcategory).
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| InvalidOperationException | wenn Limit überschritten wird |
+| InvalidOperationException | wenn das Limit überschritten wird |
 
 ### Anmerkungen
 
-Diese Methode fügt ein Arbeitsblatt mit dem Namen AUTO_DATA hinzu und fügt dort alle Werte hinzu. Wenn Sie [`IChartDataWorkbook`](../../ichartdataworkbook) verwenden, um Zellwerte hinzuzufügen oder zu bearbeiten, stellen Sie sicher, dass Sie dieses Arbeitsblatt nicht verwenden. Die maximale Anzahl an Werten, die mit dieser Methode hinzugefügt werden können, darf 16711680 nicht überschreiten.
+Diese Methode fügt das Arbeitsblatt mit dem Namen AUTO_DATA hinzu und fügt dort alle Werte hinzu. Wenn Sie [`IChartDataWorkbook`](../../ichartdataworkbook) verwenden, um Zellwerte hinzuzufügen oder zu bearbeiten, stellen Sie sicher, dass Sie dieses Arbeitsblatt nicht verwenden. Die maximale Anzahl der mit dieser Methode hinzugefügten Werte darf 16711680 nicht überschreiten.
 
 ### Siehe auch
 

@@ -1,6 +1,6 @@
 ---
 title: GetEffectsByParagraph
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt ein Array von Effekten für den angegebenen Absatz zurück.
 type: docs
 weight: 70
@@ -15,7 +15,7 @@ Gibt ein Array von Effekten für den angegebenen Absatz zurück.
 public IEffect[] GetEffectsByParagraph(IParagraph paragraph)
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IEffect](../../ieffect)
 * Schnittstelle [IParagraph](../../../aspose.slides/iparagraph)

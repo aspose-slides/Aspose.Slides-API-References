@@ -1,13 +1,13 @@
 ---
 title: MorphType
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slidess para .NET API Reference
 description: Tipo de transición morfológica. Lectura/escritura TransitionMorphTypeaspose.slides.slideshow/transitionmorphtype.
 type: docs
 weight: 20
 url: /es/aspose.slides.slideshow/imorphtransition/morphtype/
 ---
 
-## Propiedad IMorphTransition.MorphType
+## IMorphTransition.MorphType propiedad
 
 Tipo de transición morfológica. Lectura/escritura [`TransitionMorphType`](../../transitionmorphtype).
 
@@ -15,7 +15,7 @@ Tipo de transición morfológica. Lectura/escritura [`TransitionMorphType`](../.
 public TransitionMorphType MorphType { get; set; }
 ```
 
-### Ver También
+### Véase También
 
 * enum [TransitionMorphType](../../transitionmorphtype)
 * interface [IMorphTransition](../../imorphtransition)

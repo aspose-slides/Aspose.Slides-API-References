@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ppteditexception/ppteditexception/
 public PptEditException()
 ```
 
-### Смотрите также
+### См. Также
 
 * класс [PptEditException](../../ppteditexception)
 * пространство имен [Aspose.Slides](../../ppteditexception)
@@ -35,7 +35,7 @@ public PptEditException(string message)
 | --- | --- | --- |
 | message | String | сообщение |
 
-### Смотрите также
+### См. Также
 
 * класс [PptEditException](../../ppteditexception)
 * пространство имен [Aspose.Slides](../../ppteditexception)
@@ -45,7 +45,7 @@ public PptEditException(string message)
 
 ## PptEditException(string, Exception) {#constructor_2}
 
-Конструктор для исключения, содержащее сообщение и вложенное исключение.
+Конструктор для исключения, содержащего сообщение и встроенное исключение.
 
 ```csharp
 public PptEditException(string message, Exception exception)
@@ -56,7 +56,7 @@ public PptEditException(string message, Exception exception)
 | message | String | сообщение |
 | exception | Exception | оригинальное исключение |
 
-### Смотрите также
+### См. Также
 
 * класс [PptEditException](../../ppteditexception)
 * пространство имен [Aspose.Slides](../../ppteditexception)

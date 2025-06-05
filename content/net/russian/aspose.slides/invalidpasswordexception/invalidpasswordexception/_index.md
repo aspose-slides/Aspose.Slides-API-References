@@ -1,6 +1,6 @@
 ---
 title: InvalidPasswordException
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/invalidpasswordexception/invalidpasswordexception/
 public InvalidPasswordException()
 ```
 
-### См. также
+### Смотрите Так же
 
 * класс [InvalidPasswordException](../../invalidpasswordexception)
 * пространство имен [Aspose.Slides](../../invalidpasswordexception)
@@ -25,7 +25,7 @@ public InvalidPasswordException()
 
 ## InvalidPasswordException(string) {#constructor_1}
 
-Конструктор, позволяющий добавить сообщение к этому исключению.
+Конструктор, который позволяет добавить сообщение к этому исключению.
 
 ```csharp
 public InvalidPasswordException(string message)
@@ -35,7 +35,7 @@ public InvalidPasswordException(string message)
 | --- | --- | --- |
 | message | String | сообщение |
 
-### См. также
+### Смотрите Так же
 
 * класс [InvalidPasswordException](../../invalidpasswordexception)
 * пространство имен [Aspose.Slides](../../invalidpasswordexception)
@@ -45,7 +45,7 @@ public InvalidPasswordException(string message)
 
 ## InvalidPasswordException(string, Exception) {#constructor_2}
 
-Конструктор для исключения, содержащего сообщение и встроенное исключение.
+Конструктор для исключения, содержащее сообщение и встроенное исключение.
 
 ```csharp
 public InvalidPasswordException(string message, Exception exception)
@@ -56,7 +56,7 @@ public InvalidPasswordException(string message, Exception exception)
 | message | String | сообщение |
 | exception | Exception | оригинальное исключение |
 
-### См. также
+### Смотрите Так же
 
 * класс [InvalidPasswordException](../../invalidpasswordexception)
 * пространство имен [Aspose.Slides](../../invalidpasswordexception)

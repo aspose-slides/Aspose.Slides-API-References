@@ -1,7 +1,7 @@
 ---
 title: HighlightColor
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Farbe zurück, die verwendet wird, um einen Text hervorzuheben. Keine Vererbung angewendet. Schreibgeschütztes IColorFormat aspose.slides/icolorformat.
+description: Gibt die Farbe zurück, die verwendet wird, um einen Text hervorzuheben. Keine Vererbung angewendet. Nur lesendes IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 110
 url: /de/aspose.slides/ibaseportionformat/highlightcolor/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ibaseportionformat/highlightcolor/
 
 ## IBasePortionFormat.HighlightColor-Eigenschaft
 
-Gibt die Farbe zurück, die verwendet wird, um einen Text hervorzuheben. Keine Vererbung angewendet. Schreibgeschützt [`IColorFormat`](../../icolorformat).
+Gibt die Farbe zurück, die verwendet wird, um einen Text hervorzuheben. Keine Vererbung angewendet. Nur lesendes [`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat HighlightColor { get; }

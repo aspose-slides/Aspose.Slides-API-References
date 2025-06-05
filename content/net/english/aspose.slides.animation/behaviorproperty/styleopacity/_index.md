@@ -6,6 +6,7 @@ type: docs
 weight: 1100
 url: /aspose.slides.animation/behaviorproperty/styleopacity/
 ---
+
 ## BehaviorProperty.StyleOpacity property
 
 Represents 'style.opacity' property

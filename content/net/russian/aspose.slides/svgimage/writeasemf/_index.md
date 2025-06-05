@@ -1,15 +1,15 @@
 ---
 title: WriteAsEmf
-second_title: Справочник по API Aspose.Slides для .NET
-description: Сохраняет изображение SVG в файл EMF.
+second_title: Aspose.Sildes для .NET API Reference
+description: Сохраняет изображение SVG как файл EMF.
 type: docs
 weight: 60
 url: /ru/aspose.slides/svgimage/writeasemf/
 ---
 
-## Метод SvgImage.WriteAsEmf
+## SvgImage.WriteAsEmf метод
 
-Сохраняет изображение SVG в файл EMF.
+Сохраняет изображение SVG как файл EMF.
 
 ```csharp
 public void WriteAsEmf(Stream stream)
@@ -27,7 +27,7 @@ public void WriteAsEmf(Stream stream)
 
 ### Примеры
 
-Следующий пример демонстрирует, как сохранить изображение SVG в метафайл.
+Следующий пример показывает, как сохранить изображение SVG в метафайл.
 
 ```csharp
 [C#]
@@ -39,7 +39,7 @@ using (var fileStream = System.IO.File.OpenWrite("SvgAsEmf.emf"))
     svgImage.WriteAsEmf(fileStream);
 ```
 
-Этот пример демонстрирует, как добавить изображение SVG в качестве метафайла в коллекцию изображений презентации.
+Этот пример демонстрирует, как добавить изображение SVG как метафайл в коллекцию изображений презентации.
 
 ```csharp
 [C#]

@@ -1,6 +1,6 @@
 ---
 title: MathSubscriptElement
-second_title: Aspose.Sildes для справки по API .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Инициализирует новый экземпляр класса MathSubscriptElement.
 type: docs
 weight: 10
@@ -26,7 +26,7 @@ IMathElement subscript = new MathematicalText("i");
 MathSubscriptElement subscriptElement = new MathSubscriptElement(baseElement, subscript);
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IMathElement](../../imathelement)
 * класс [MathSubscriptElement](../../mathsubscriptelement)

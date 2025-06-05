@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/masterslidecollection/syncroot/
 ---
+
 ## MasterSlideCollection.SyncRoot property
 
 Returns a synchronization root. Read-only Object.

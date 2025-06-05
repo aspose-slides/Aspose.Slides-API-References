@@ -1,7 +1,7 @@
 ---
 title: Position
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt die Position der Achse dar. Lese-/schreibbarer AxisPositionTypeaspose.slides.charts/axispositiontype.
+description: Stellt die Position der Achse dar. Lese-/Schreibzugriff auf AxisPositionTypeaspose.slides.charts/axispositiontype.
 type: docs
 weight: 470
 url: /de/aspose.slides.charts/axis/position/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/axis/position/
 
 ## Axis.Position-Eigenschaft
 
-Stellt die Position der Achse dar. Lese-/schreibbarer [`AxisPositionType`](../../axispositiontype).
+Stellt die Position der Achse dar. Lese-/Schreibzugriff auf [`AxisPositionType`](../../axispositiontype).
 
 ```csharp
 public AxisPositionType Position { get; set; }

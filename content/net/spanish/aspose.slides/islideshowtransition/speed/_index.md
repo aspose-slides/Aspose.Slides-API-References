@@ -1,21 +1,21 @@
 ---
-title: Velocidad
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Especifica la velocidad de transición que se utilizará al pasar de la diapositiva actual a la siguiente. Lectura-escritura TransitionSpeedaspose.slides.slideshow/transitionspeed.
+title: Speed
+second_title: Aspose.Slides para .NET Referencia de la API
+description: Especifica la velocidad de transición que se debe utilizar al pasar de la diapositiva actual a la siguiente. Lectura-escritura TransitionSpeedaspose.slides.slideshow/transitionspeed.
 type: docs
 weight: 90
 url: /es/aspose.slides/islideshowtransition/speed/
 ---
 
-## Propiedad ISlideShowTransition.Speed
+## ISlideShowTransition.Speed propiedad
 
-Especifica la velocidad de transición que se utilizará al pasar de la diapositiva actual a la siguiente. Lectura-escritura [`TransitionSpeed`](../../../aspose.slides.slideshow/transitionspeed).
+Especifica la velocidad de transición que se debe utilizar al pasar de la diapositiva actual a la siguiente. Lectura-escritura [`TransitionSpeed`](../../../aspose.slides.slideshow/transitionspeed).
 
 ```csharp
 public TransitionSpeed Speed { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * enum [TransitionSpeed](../../../aspose.slides.slideshow/transitionspeed)
 * interface [ISlideShowTransition](../../islideshowtransition)

@@ -1,13 +1,13 @@
 ---
 title: CreateBlur
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Crée un effet de flou.
 type: docs
 weight: 90
 url: /fr/aspose.slides.effects/iimagetransformoperationfactory/createblur/
 ---
 
-## Méthode IImageTransformOperationFactory.CreateBlur
+## IImageTransformOperationFactory.CreateBlur méthode
 
 Crée un effet de flou.
 
@@ -20,7 +20,7 @@ public IBlur CreateBlur(double radius, bool grow)
 | radius | Double | Rayon. |
 | grow | Boolean | Croître. |
 
-### Valeur de Retour
+### Valeur de retour
 
 Effet de flou.
 

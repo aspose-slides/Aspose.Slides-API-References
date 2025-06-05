@@ -1,6 +1,6 @@
 ---
 title: InsertZoomFrame
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Создает новый объект Zoom и вставляет его в коллекцию по указанному индексу.
 type: docs
 weight: 360
@@ -18,14 +18,14 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс, основанный на нуле, по которому должен быть вставлен Zoom фрейм. |
-| x | Single | X координата нового Zoom фрейма. |
-| y | Single | Y координата нового Zoom фрейма. |
-| width | Single | Ширина нового Zoom фрейма. |
-| height | Single | Высота нового Zoom фрейма. |
-| slide | ISlide | Объект слайда, на который ссылается Zoom фрейм [`ISlide`](../../islide). |
+| index | Int32 | Индекс, на который должен быть вставлен кадр Zoom (начиная с 0). |
+| x | Single | X-координата нового кадра Zoom. |
+| y | Single | Y-координата нового кадра Zoom. |
+| width | Single | Ширина нового кадра Zoom. |
+| height | Single | Высота нового кадра Zoom. |
+| slide | ISlide | Объект слайда, на который ссылается кадр Zoom [`ISlide`](../../islide). |
 
-### Возвращаемое Значение
+### Возвращаемое значение
 
 Созданный объект Zoom [`IZoomFrame`](../../izoomframe).
 
@@ -37,7 +37,7 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
 
 ### Примеры
 
-Этот пример демонстрирует создание и вставку объекта Zoom по указанному индексу в коллекции (предположим, что в презентации "Presentation.pptx" есть как минимум два слайда):
+Этот пример демонстрирует создание и вставку объекта Zoom по указанному индексу в коллекции (предполагается, что в презентации "Presentation.pptx" как минимум два слайда):
 
 ```csharp
 [C#]
@@ -47,7 +47,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Ссылка на Дополнительные Ресурсы
+### Смотрите также
 
 * интерфейс [IZoomFrame](../../izoomframe)
 * интерфейс [ISlide](../../islide)
@@ -68,15 +68,15 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс, основанный на нуле, по которому должен быть вставлен Zoom фрейм. |
-| x | Single | X координата нового Zoom фрейма. |
-| y | Single | Y координата нового Zoom фрейма. |
-| width | Single | Ширина нового Zoom фрейма. |
-| height | Single | Высота нового Zoom фрейма. |
-| slide | ISlide | Объект слайда, на который ссылается Zoom фрейм [`ISlide`](../../islide). |
+| index | Int32 | Индекс, на который должен быть вставлен кадр Zoom (начиная с 0). |
+| x | Single | X-координата нового кадра Zoom. |
+| y | Single | Y-координата нового кадра Zoom. |
+| width | Single | Ширина нового кадра Zoom. |
+| height | Single | Высота нового кадра Zoom. |
+| slide | ISlide | Объект слайда, на который ссылается кадр Zoom [`ISlide`](../../islide). |
 | image | IPPImage | Изображение для указанного слайда [`IPPImage`](../../ippimage). |
 
-### Возвращаемое Значение
+### Возвращаемое значение
 
 Созданный объект Zoom [`IZoomFrame`](../../izoomframe).
 
@@ -88,7 +88,7 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
 
 ### Примеры
 
-Этот пример демонстрирует создание и вставку объекта Zoom по указанному индексу в коллекции (предположим, что в презентации "Presentation.pptx" есть как минимум два слайда):
+Этот пример демонстрирует создание и вставку объекта Zoom по указанному индексу в коллекции (предполагается, что в презентации "Presentation.pptx" как минимум два слайда):
 
 ```csharp
 [C#]
@@ -99,7 +99,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Ссылка на Дополнительные Ресурсы
+### Смотрите также
 
 * интерфейс [IZoomFrame](../../izoomframe)
 * интерфейс [ISlide](../../islide)

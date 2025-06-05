@@ -1,7 +1,7 @@
 ---
 title: ReplaceRegex
-second_title: Aspose.Slides for .NET API Reference
-description: 用指定的字符串替换正则表达式的所有匹配项。
+second_title: Aspose.Sildes for .NET API Reference
+description: 使用指定的字符串替换正则表达式的所有匹配项。
 type: docs
 weight: 350
 url: /zh/aspose.slides/ipresentation/replaceregex/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ipresentation/replaceregex/
 
 ## IPresentation.ReplaceRegex 方法
 
-用指定的字符串替换正则表达式的所有匹配项。
+使用指定的字符串替换正则表达式的所有匹配项。
 
 ```csharp
 public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callback)
@@ -17,20 +17,20 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| regex | Regex | 要获取替换字符串的正则表达式 Regex。 |
-| newText | String | 用于替换要被替换字符串的所有实例的字符串。 |
+| regex | Regex | 要替换字符串的正则表达式 Regex。 |
+| newText | String | 替换所有要替换字符串的字符串。 |
 | callback | IFindResultCallback | 用于接收搜索结果的回调对象 [`IFindResultCallback`](../../ifindresultcallback)。 |
 
 ### 示例
 
-以下代码示例演示了如何使用正则表达式和指定字符串替换文本。
+以下代码示例演示了如何使用正则表达式和指定的字符串替换文本。
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// 用 '***' 替换所有字符数为10个或更多的单词
+	// 使用 '***' 替换所有字符数为 10 或更多的单词
 	presentation.ReplaceRegex(regex, "***", null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }

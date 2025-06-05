@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/charttypecharacterizer/is2dchart/
 ---
+
 ## ChartTypeCharacterizer.Is2DChart method
 
 Return true if *chartType* is one of 2D chart types.

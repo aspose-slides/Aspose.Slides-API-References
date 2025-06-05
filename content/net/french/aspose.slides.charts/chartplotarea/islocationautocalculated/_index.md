@@ -1,21 +1,21 @@
 ---
 title: IsLocationAutocalculated
-second_title: Référence API Aspose.Slides pour .NET
-description: Définit comment l'emplacement doit être calculé  vrai – calculé automatiquement ; défini par les propriétés X, Y, Largeur, Hauteur. Booléen en lecture seule.
+second_title: Aspose.Slides pour .NET API Reference
+description: Définit comment la localisation doit être calculée  vrai – calculé automatiquement ; défini par les propriétés X, Y, Largeur, Hauteur. Booléen en lecture seule.
 type: docs
 weight: 90
 url: /fr/aspose.slides.charts/chartplotarea/islocationautocalculated/
 ---
 
-## Propriété ChartPlotArea.IsLocationAutocalculated
+## ChartPlotArea.IsLocationAutocalculated propriété
 
-Définit comment l'emplacement doit être calculé : vrai – calculé automatiquement ; défini par les propriétés X, Y, Largeur, Hauteur. Booléen en lecture seule.
+Définit comment la localisation doit être calculée : vrai – calculé automatiquement ; défini par les propriétés X, Y, Largeur, Hauteur. Booléen en lecture seule.
 
 ```csharp
 public bool IsLocationAutocalculated { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [ChartPlotArea](../../chartplotarea)
 * espace de noms [Aspose.Slides.Charts](../../chartplotarea)

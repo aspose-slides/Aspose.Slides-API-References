@@ -1,7 +1,7 @@
 ---
 title: GetRotation
-second_title: Aspose.Slides für .NET API Referenz
-description: Eine Rotation wird durch die Verwendung einer Breitenkoordinate, einer Längenkoordinate und einer Umdrehung um die Achse als die Breiten- und Längenkoordinaten definiert. Erstes Element im Rückgabearray - Breite, zweites - Länge, drittes - Umdrehung.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Eine Rotation wird durch die Verwendung einer Breitengradkoordinate, einer Längengradkoordinate und einer Umdrehung um die Achse als die Breitengrad- und Längengradkoordinaten definiert. Erstes Element im Rückgabearray - Breitengrad, zweites - Längengrad, drittes - Umdrehung.
 type: docs
 weight: 30
 url: /de/aspose.slides/ilightrigeffectivedata/getrotation/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ilightrigeffectivedata/getrotation/
 
 ## ILightRigEffectiveData.GetRotation-Methode
 
-Eine Rotation wird durch die Verwendung einer Breitenkoordinate, einer Längenkoordinate und einer Umdrehung um die Achse als die Breiten- und Längenkoordinaten definiert. Erstes Element im Rückgabearray - Breite, zweites - Länge, drittes - Umdrehung.
+Eine Rotation wird durch die Verwendung einer Breitengradkoordinate, einer Längengradkoordinate und einer Umdrehung um die Achse als die Breitengrad- und Längengradkoordinaten definiert. Erstes Element im Rückgabearray - Breitengrad, zweites - Längengrad, drittes - Umdrehung.
 
 ```csharp
 public float[] GetRotation()

@@ -1,7 +1,7 @@
 ---
 title: StylePreset
 second_title: Référence API Aspose.Slides pour .NET
-description: Obtient ou définit le style de table intégré. Lecture/écriture TableStylePreset aspose.slides/tablestylepreset.
+description: Obtient ou définit le style de tableau intégré. Lecture/écriture TableStylePreset aspose.slides/tablestylepreset.
 type: docs
 weight: 110
 url: /fr/aspose.slides/table/stylepreset/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/table/stylepreset/
 
 ## Propriété Table.StylePreset
 
-Obtient ou définit le style de table intégré. Lecture/écriture [`TableStylePreset`](../../tablestylepreset).
+Obtient ou définit le style de tableau intégré. Lecture/écriture [`TableStylePreset`](../../tablestylepreset).
 
 ```csharp
 public TableStylePreset StylePreset { get; set; }

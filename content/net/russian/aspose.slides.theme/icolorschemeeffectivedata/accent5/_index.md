@@ -1,6 +1,6 @@
 ---
 title: Accent5
-second_title: Aspose.Slides для .NET API Справка
+second_title: Aspose.Sildes для .NET API Справочник
 description: Пятый акцентный цвет в схеме. Только для чтения Color.
 type: docs
 weight: 50
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.theme/icolorschemeeffectivedata/accent5/
 public Color Accent5 { get; }
 ```
 
-### Также смотри
+### Смотрите также
 
 * интерфейс [IColorSchemeEffectiveData](../../icolorschemeeffectivedata)
 * пространство имен [Aspose.Slides.Theme](../../icolorschemeeffectivedata)

@@ -1,7 +1,7 @@
 ---
 title: PresetShadowType
-second_title: Aspose.Slildes для .NET API Справка
-description: Представляет предустановку для эффекта тени.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет пресет для эффекта тени.
 type: docs
 weight: 9400
 url: /ru/aspose.slides/presetshadowtype/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/presetshadowtype/
 
 ## Перечисление PresetShadowType
 
-Представляет предустановку для эффекта тени.
+Представляет пресет для эффекта тени.
 
 ```csharp
 public enum PresetShadowType
@@ -19,28 +19,28 @@ public enum PresetShadowType
 
 | Имя | Значение | Описание |
 | --- | --- | --- |
-| TopLeftDropShadow | `0` | Представляет тень, падающую из верхнего левого угла. |
-| TopLeftLargeDropShadow | `1` | Представляет крупную тень, падающую из верхнего левого угла. |
-| BackLeftLongPerspectiveShadow | `2` | Представляет длинную перспективную тень сзади слева. |
-| BackRightLongPerspectiveShadow | `3` | Представляет длинную перспективную тень сзади справа. |
-| TopLeftDoubleDropShadow | `4` | Представляет двойную тень, падающую из верхнего левого угла. |
-| BottomRightSmallDropShadow | `5` | Представляет небольшую тень, падающую из нижнего правого угла. |
-| FrontLeftLongPerspectiveShadow | `6` | Представляет длинную перспективную тень спереди слева. |
-| FrontRightLongPerspectiveShadow | `7` | Представляет длинную перспективную тень спереди справа. |
-| OuterBoxShadow3D | `8` | Представляет 3D тень внешнего блока. |
-| InnerBoxShadow3D | `9` | Представляет 3D тень внутреннего блока. |
-| BackCenterPerspectiveShadow | `10` | Представляет перспективную тень сзади по центру. |
-| TopRightDropShadow | `11` | Представляет тень, падающую из верхнего правого угла. |
-| FrontBottomShadow | `12` | Представляет тень спереди снизу. |
-| BackLeftPerspectiveShadow | `13` | Представляет перспективную тень сзади слева. |
-| BackRightPerspectiveShadow | `14` | Представляет перспективную тень сзади справа. |
-| BottomLeftDropShadow | `15` | Представляет тень, падающую из нижнего левого угла. |
-| BottomRightDropShadow | `16` | Представляет тень, падающую из нижнего правого угла. |
-| FrontLeftPerspectiveShadow | `17` | Представляет перспективную тень спереди слева. |
-| FrontRightPerspectiveShadow | `18` | Представляет перспективную тень спереди справа. |
-| TopLeftSmallDropShadow | `19` | Представляет небольшую тень, падающую из верхнего левого угла. |
+| TopLeftDropShadow | `0` | Представляет Тень, падающую с верхнего левого угла. |
+| TopLeftLargeDropShadow | `1` | Представляет Большую тень, падающую с верхнего левого угла. |
+| BackLeftLongPerspectiveShadow | `2` | Представляет Долгую перспективную тень со спины слева |
+| BackRightLongPerspectiveShadow | `3` | Представляет Долгую перспективную тень со спины справа |
+| TopLeftDoubleDropShadow | `4` | Представляет Двойную тень, падающую с верхнего левого угла. |
+| BottomRightSmallDropShadow | `5` | Представляет Маленькую тень, падающую с нижнего правого угла. |
+| FrontLeftLongPerspectiveShadow | `6` | Представляет Долгую перспективную тень спереди слева. |
+| FrontRightLongPerspectiveShadow | `7` | Представляет Долгую перспективную тень спереди справа. |
+| OuterBoxShadow3D | `8` | Представляет Внешнюю 3D-тень коробки. |
+| InnerBoxShadow3D | `9` | Представляет Внутреннюю 3D-тень коробки. |
+| BackCenterPerspectiveShadow | `10` | Представляет Центральную перспективную тень со спины. |
+| TopRightDropShadow | `11` | Представляет Тень, падающую с верхнего правого угла. |
+| FrontBottomShadow | `12` | Представляет Нижнюю тень спереди. |
+| BackLeftPerspectiveShadow | `13` | Представляет Перспективную тень со спины слева. |
+| BackRightPerspectiveShadow | `14` | Представляет Перспективную тень со спины справа. |
+| BottomLeftDropShadow | `15` | Представляет Тень, падающую с нижнего левого угла. |
+| BottomRightDropShadow | `16` | Представляет Тень, падающую с нижнего правого угла. |
+| FrontLeftPerspectiveShadow | `17` | Представляет Перспективную тень спереди слева. |
+| FrontRightPerspectiveShadow | `18` | Представляет Перспективную тень спереди справа. |
+| TopLeftSmallDropShadow | `19` | Представляет Маленькую тень, падающую с верхнего левого угла. |
 
-### См. Также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

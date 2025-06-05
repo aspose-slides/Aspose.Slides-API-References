@@ -1,6 +1,6 @@
 ---
-title: 项
-second_title: Aspose.Slides for .NET API 参考
+title: Item
+second_title: Aspose.Sildes for .NET API Reference
 description: 矩阵的元素
 type: docs
 weight: 70
@@ -17,12 +17,12 @@ public IMathElement this[int row, int column] { get; set; }
 
 | 参数 | 描述 |
 | --- | --- |
-| row | 获取项的零基行索引 |
-| column | 获取项的零基列索引 |
+| row | 要获取项的行的零基索引 |
+| column | 要获取项的列的零基索引 |
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]

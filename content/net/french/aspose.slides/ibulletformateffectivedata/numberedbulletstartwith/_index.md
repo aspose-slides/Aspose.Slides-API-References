@@ -1,21 +1,21 @@
 ---
 title: NumberedBulletStartWith
 second_title: Référence API Aspose.Slides pour .NET
-description: Retourne le premier numéro utilisé pour un groupe de puces numérotées. Lecture seule Int16.
+description: Renvoie le premier numéro utilisé pour un groupe de puces numérotées. Lecture seule Int16.
 type: docs
 weight: 80
 url: /fr/aspose.slides/ibulletformateffectivedata/numberedbulletstartwith/
 ---
 
-## Propriété IBulletFormatEffectiveData.NumberedBulletStartWith
+## IBulletFormatEffectiveData.NumberedBulletStartWith propriété
 
-Retourne le premier numéro utilisé pour un groupe de puces numérotées. Lecture seule Int16.
+Renvoie le premier numéro utilisé pour un groupe de puces numérotées. Lecture seule Int16.
 
 ```csharp
 public short NumberedBulletStartWith { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IBulletFormatEffectiveData](../../ibulletformateffectivedata)
 * namespace [Aspose.Slides](../../ibulletformateffectivedata)

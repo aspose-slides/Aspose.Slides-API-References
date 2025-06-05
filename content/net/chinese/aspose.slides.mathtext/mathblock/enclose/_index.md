@@ -1,15 +1,15 @@
 ---
-title: 包围
-second_title: Aspose.Slidess for .NET API 参考
-description: 用指定字符如括号或其他字符将此块的子元素包围起来
+title: Enclose
+second_title: Aspose.Sildes for .NET API Reference
+description: 在指定字符（例如括号或其它字符）中封闭此块的子元素作为框架
 type: docs
 weight: 100
 url: /zh/aspose.slides.mathtext/mathblock/enclose/
 ---
 
-## Enclose(char, char) {#enclose_1}
+## Enclose(char, char) {#enclose_1}
 
-用指定字符如括号或其他字符将此块的子元素包围起来
+在指定字符（例如括号或其它字符）中封闭此块的子元素作为框架
 
 ```csharp
 public override IMathDelimiter Enclose(char beginningCharacter, char endingCharacter)
@@ -22,7 +22,7 @@ public override IMathDelimiter Enclose(char beginningCharacter, char endingChara
 
 ### 返回值
 
-类型为 [`IMathDelimiter`](../../imathdelimiter) 的数学元素，其中包含指定字符作为包围
+类型为 [`IMathDelimiter`](../../imathdelimiter) 的数学元素，其中包含指定字符作为框架
 
 ### 示例
 
@@ -34,7 +34,7 @@ IMathBlock block = new MathematicalText("x").Join("+y");
 IMathDelimiter delimiter = block.Enclose('[', ']');
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [IMathDelimiter](../../imathdelimiter)
 * 类 [MathBlock](../../mathblock)
@@ -43,9 +43,9 @@ IMathDelimiter delimiter = block.Enclose('[', ']');
 
 ---
 
-## Enclose(char, char, char) {#enclose_2}
+## Enclose(char, char, char) {#enclose_2}
 
-用指定字符如括号或其他字符将此块的子元素包围起来，并用分隔符字符进行隔开
+在指定字符（例如括号或其它字符）中封闭此块的子元素作为框架，并使用分隔字符进行分隔
 
 ```csharp
 public IMathDelimiter Enclose(char beginningCharacter, char endingCharacter, 
@@ -56,11 +56,11 @@ public IMathDelimiter Enclose(char beginningCharacter, char endingCharacter,
 | --- | --- | --- |
 | beginningCharacter | Char | 开始字符（通常是左括号） |
 | endingCharacter | Char | 结束字符（通常是右括号） |
-| separatorCharacter | Char | 分隔符字符 |
+| separatorCharacter | Char | 分隔字符 |
 
 ### 返回值
 
-类型为 [`IMathDelimiter`](../../imathdelimiter) 的数学元素，其中包含指定字符作为包围和分隔符
+类型为 [`IMathDelimiter`](../../imathdelimiter) 的数学元素，其中包含指定字符作为框架和分隔符
 
 ### 示例
 
@@ -72,7 +72,7 @@ IMathBlock mathBlock = new MathematicalText("x").Join("y");
 IMathDelimiter delimiterElement = mathBlock.Enclose('{', '}', '%');
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [IMathDelimiter](../../imathdelimiter)
 * 类 [MathBlock](../../mathblock)

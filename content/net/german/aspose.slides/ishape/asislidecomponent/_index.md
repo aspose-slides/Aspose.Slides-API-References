@@ -1,21 +1,21 @@
 ---
 title: AsISlideComponent
-second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht den Zugriff auf die Basis-ISlideComponent-Schnittstelle. Nur-lesende ISlideComponentaspose.slides/islidecomponent.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ermöglicht den Zugriff auf die Basisschnittstelle ISlideComponent. Nur lesezugängliches ISlideComponentaspose.slides/islidecomponent.
 type: docs
 weight: 40
 url: /de/aspose.slides/ishape/asislidecomponent/
 ---
 
-## IShape.AsISlideComponent Eigenschaft
+## IShape.AsISlideComponent-Eigenschaft
 
-Ermöglicht den Zugriff auf die Basis-ISlideComponent-Schnittstelle. Nur-lesend [`ISlideComponent`](../../islidecomponent).
+Ermöglicht den Zugriff auf die Basisschnittstelle ISlideComponent. Nur lesezugängliches [`ISlideComponent`](../../islidecomponent).
 
 ```csharp
 public ISlideComponent AsISlideComponent { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ISlideComponent](../../islidecomponent)
 * Schnittstelle [IShape](../../ishape)

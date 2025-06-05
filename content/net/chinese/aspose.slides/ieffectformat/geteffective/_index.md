@@ -19,7 +19,7 @@ public IEffectFormatEffectiveData GetEffective()
 
 一个 [`IEffectFormatEffectiveData`](../../ieffectformateffectivedata)。
 
-### 另见
+### 另请参阅
 
 * 接口 [IEffectFormatEffectiveData](../../ieffectformateffectivedata)
 * 接口 [IEffectFormat](../../ieffectformat)

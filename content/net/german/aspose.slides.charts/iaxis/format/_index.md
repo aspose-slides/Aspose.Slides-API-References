@@ -1,7 +1,7 @@
 ---
 title: Format
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt das Format der Achse dar. Nur lesbarer IAxisFormataspose.slides.charts/iaxisformat.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt das Format der Achse dar. Nur-lesend IAxisFormataspose.slides.charts/iaxisformat.
 type: docs
 weight: 160
 url: /de/aspose.slides.charts/iaxis/format/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/iaxis/format/
 
 ## IAxis.Format-Eigenschaft
 
-Stellt das Format der Achse dar. Nur lesbar [`IAxisFormat`](../../iaxisformat).
+Stellt das Format der Achse dar. Nur-lesend [`IAxisFormat`](../../iaxisformat).
 
 ```csharp
 public IAxisFormat Format { get; }

@@ -1,7 +1,7 @@
 ---
 title: X
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen X-Versatz eines Bildes zurück. Nur lesbares Int32.
+description: Gibt einen X-Versatz eines Bildes zurück. Schreibgeschütztes Int32.
 type: docs
 weight: 70
 url: /de/aspose.slides/ippimage/x/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ippimage/x/
 
 ## IPPImage.X-Eigenschaft
 
-Gibt einen X-Versatz eines Bildes zurück. Nur lesbares Int32.
+Gibt einen X-Versatz eines Bildes zurück. Schreibgeschütztes Int32.
 
 ```csharp
 public int X { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IPPImage](../../ippimage)
 * Namespace [Aspose.Slides](../../ippimage)

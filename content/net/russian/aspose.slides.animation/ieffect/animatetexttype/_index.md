@@ -1,7 +1,7 @@
 ---
 title: AnimateTextType
-second_title: Aspose.Slides для .NET Справочник по API
-description: Определяет тип анимации текста для эффекта. Текст формы может анимироваться по букве, по слову или сразу целиком. Чтение/запись AnimateTextTypeaspose.slides.animation/ieffect/animatetexttype.
+second_title: Aspose.Sildes для .NET API Reference
+description: Определяет тип анимации текста для эффекта. Текст фигуры можно анимировать по букве, по слову или всё сразу. Чтение/запись AnimateTextTypeaspose.slides.animation/ieffect/animatetexttype.
 type: docs
 weight: 30
 url: /ru/aspose.slides.animation/ieffect/animatetexttype/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.animation/ieffect/animatetexttype/
 
 ## IEffect.AnimateTextType свойство
 
-Определяет тип анимации текста для эффекта. Текст формы может анимироваться по букве, по слову или сразу целиком. Чтение/запись `AnimateTextType`.
+Определяет тип анимации текста для эффекта. Текст фигуры можно анимировать по букве, по слову или всё сразу. Чтение/запись `AnimateTextType`.
 
 ```csharp
 public AnimateTextType AnimateTextType { get; set; }
@@ -29,7 +29,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [AnimateTextType](../../animatetexttype)
 * interface [IEffect](../../ieffect)

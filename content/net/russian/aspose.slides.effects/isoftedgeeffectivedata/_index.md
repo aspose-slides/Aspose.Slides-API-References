@@ -1,7 +1,7 @@
 ---
 title: ISoftEdgeEffectiveData
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Неизменяемый объект, представляющий эффект мягкого края. Края формы размыты, в то время как заливка не затрагивается.
+second_title: Aspose.Sildes for .NET API Reference
+description: Неизменяемый объект, представляющий эффект мягкого края. Края фигуры размыты, в то время как заливка не затрагивается.
 type: docs
 weight: 3410
 url: /ru/aspose.slides.effects/isoftedgeeffectivedata/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/isoftedgeeffectivedata/
 
 ## Интерфейс ISoftEdgeEffectiveData
 
-Неизменяемый объект, представляющий эффект мягкого края. Края формы размыты, в то время как заливка не затрагивается.
+Неизменяемый объект, представляющий эффект мягкого края. Края фигуры размыты, в то время как заливка не затрагивается.
 
 ```csharp
 public interface ISoftEdgeEffectiveData : IEffectEffectiveData
@@ -17,12 +17,12 @@ public interface ISoftEdgeEffectiveData : IEffectEffectiveData
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | Указывает радиус размытия, который будет применен к краям. Только для чтения Double. |
+| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | Указывает радиус размытия, который необходимо применить к краям. Только для чтения Double. |
 
-### См. Также
+### См. также
 
 * интерфейс [IEffectEffectiveData](../ieffecteffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)

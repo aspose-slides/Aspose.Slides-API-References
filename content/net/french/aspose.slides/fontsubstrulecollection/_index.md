@@ -1,15 +1,15 @@
 ---
 title: FontSubstRuleCollection
 second_title: Aspose.Sildes pour .NET API Référence
-description: Représente une collection de substitution de polices.
+description: Représente une collection de substitutions de polices.
 type: docs
 weight: 4700
 url: /fr/aspose.slides/fontsubstrulecollection/
 ---
 
-## Classe FontSubstRuleCollection
+## FontSubstRuleCollection class
 
-Représente une collection de substitution de polices.
+Représente une collection de substitutions de polices.
 
 ```csharp
 public class FontSubstRuleCollection : IFontSubstRuleCollection
@@ -25,18 +25,18 @@ public class FontSubstRuleCollection : IFontSubstRuleCollection
 
 | Nom | Description |
 | --- | --- |
-| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | Obtient le nombre d'éléments réellement contenus dans la collection. En lecture seule Int32. |
-| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (sûr pour les threads). En lecture seule Boolean. |
+| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | Obtient le nombre d'éléments contenus dans la collection. Lecteur uniquement Int32. |
+| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (sécurisé pour les threads). Lecteur uniquement Boolean. |
 | [Item](../../aspose.slides/fontsubstrulecollection/item) { get; } | Obtient l'élément à l'index spécifié. |
-| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | Renvoie une racine de synchronisation. En lecture seule Object. |
+| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | Renvoie une racine de synchronisation. Lecteur uniquement Object. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | Ajoute la nouvelle règle de substitution de polices à la collection |
-| [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | Copie tous les éléments de la collection vers le tableau spécifié. |
-| [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | Renvoie un énumérateur qui parcourt la collection. |
+| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | Ajoute la nouvelle règle de substitution de police à la collection. |
+| [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | Copie tous les éléments de la collection dans le tableau spécifié. |
+| [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | Renvoie un énumérateur qui itère à travers la collection. |
 | [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | Supprime la première occurrence d'un objet spécifique de la collection. |
 
 ### Voir aussi

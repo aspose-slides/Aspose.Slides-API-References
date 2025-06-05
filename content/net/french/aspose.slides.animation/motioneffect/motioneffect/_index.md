@@ -15,7 +15,7 @@ Le constructeur par défaut.
 public MotionEffect()
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [MotionEffect](../../motioneffect)
 * espace de noms [Aspose.Slides.Animation](../../motioneffect)

@@ -1,7 +1,7 @@
 ---
 title: IPatternFormat
-second_title: Aspose.Sildes для .NET API Reference
-description: Представляет паттерн для заливки фигуры.
+second_title: Aspose.Sildes для .NET API Справка
+description: Представляет собой узор для заполнения фигуры.
 type: docs
 weight: 6420
 url: /ru/aspose.slides/ipatternformat/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ipatternformat/
 
 ## Интерфейс IPatternFormat
 
-Представляет паттерн для заливки фигуры.
+Представляет собой узор для заполнения фигуры.
 
 ```csharp
 public interface IPatternFormat
@@ -19,16 +19,16 @@ public interface IPatternFormat
 
 | Название | Описание |
 | --- | --- |
-| [BackColor](../../aspose.slides/ipatternformat/backcolor) { get; } | Возвращает цвет фона паттерна. Только для чтения [`IColorFormat`](../icolorformat). |
-| [ForeColor](../../aspose.slides/ipatternformat/forecolor) { get; } | Возвращает цвет переднего плана паттерна. Только для чтения [`IColorFormat`](../icolorformat). |
-| [PatternStyle](../../aspose.slides/ipatternformat/patternstyle) { get; set; } | Возвращает или устанавливает стиль паттерна. Читается и записывается [`PatternStyle`](../patternstyle). |
+| [BackColor](../../aspose.slides/ipatternformat/backcolor) { get; } | Возвращает цвет фона узора. Только для чтения [`IColorFormat`](../icolorformat). |
+| [ForeColor](../../aspose.slides/ipatternformat/forecolor) { get; } | Возвращает цвет переднего плана узора. Только для чтения [`IColorFormat`](../icolorformat). |
+| [PatternStyle](../../aspose.slides/ipatternformat/patternstyle) { get; set; } | Возвращает или устанавливает стиль узора. Чтение/запись [`PatternStyle`](../patternstyle). |
 
 ## Методы
 
 | Название | Описание |
 | --- | --- |
-| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile)(Color) | Создает плиточное изображение для заливки паттерном. |
-| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile_1)(Color, Color) | Создает плиточное изображение для заливки паттерном с заданными цветами. |
+| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile)(Color) | Создает изображение тайла для заполнения узором. |
+| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile_1)(Color, Color) | Создает изображение тайла для заполнения узором с указанными цветами. |
 
 ### См. также
 

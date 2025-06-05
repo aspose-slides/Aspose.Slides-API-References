@@ -3,9 +3,10 @@ title: SlideCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of a slides.
 type: docs
-weight: 9320
+weight: 9660
 url: /aspose.slides/slidecollection/
 ---
+
 ## SlideCollection class
 
 Represents a collection of a slides.
@@ -39,7 +40,9 @@ public sealed class SlideCollection : DomObject<Presentation>, ISlideCollection
 | [AddFromHtml](../../aspose.slides/slidecollection/addfromhtml#addfromhtml_5)(string, IExternalResourceResolver, string) | Creates slides from HTML text and adds them to the end of the collection. |
 | [AddFromHtml](../../aspose.slides/slidecollection/addfromhtml#addfromhtml_3)(TextReader, IExternalResourceResolver, string) | Creates slides from HTML text and adds them to the end of the collection. |
 | [AddFromPdf](../../aspose.slides/slidecollection/addfrompdf#addfrompdf)(Stream) | Creates slides from the PDF document and adds them to the end of the collection. |
-| [AddFromPdf](../../aspose.slides/slidecollection/addfrompdf#addfrompdf_1)(string) | Creates slides from the PDF document and adds them to the end of the collection. |
+| [AddFromPdf](../../aspose.slides/slidecollection/addfrompdf#addfrompdf_2)(string) | Creates slides from the PDF document and adds them to the end of the collection. |
+| [AddFromPdf](../../aspose.slides/slidecollection/addfrompdf#addfrompdf_1)(Stream, PdfImportOptions) | Creates slides from the PDF document and adds them to the end of the collection. |
+| [AddFromPdf](../../aspose.slides/slidecollection/addfrompdf#addfrompdf_3)(string, PdfImportOptions) | Creates slides from the PDF document and adds them to the end of the collection considering the pdf import options. |
 | [CopyTo](../../aspose.slides/slidecollection/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
 | [GetEnumerator](../../aspose.slides/slidecollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
 | [IndexOf](../../aspose.slides/slidecollection/indexof)(ISlide) | Returns an index of the specified slide in the collection. |
@@ -48,11 +51,15 @@ public sealed class SlideCollection : DomObject<Presentation>, ISlideCollection
 | [InsertClone](../../aspose.slides/slidecollection/insertclone#insertclone_2)(int, ISlide, IMasterSlide, bool) | Inserts a copy of a specified source slide to specified position of the collection. Appropriate layout will be selected automatically from the specified master (appropriate layout is the layout with the same Type or Name as of layout of the source slide). If there is no appropriate layout then layout of the source slide will be cloned (if allowCloneMissingLayout is true) or PptxEditException will be thrown (if allowCloneMissingLayout is false). |
 | [InsertEmptySlide](../../aspose.slides/slidecollection/insertemptyslide)(int, ILayoutSlide) | Inserts a copy of a specified slide to specified position of the collection. |
 | [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml)(int, Stream) | Creates slides from HTML text and inserts them to the collection at the specified position. |
-| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_4)(int, string) | Creates slides from HTML text and inserts them to the collection at the specified position. |
-| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_2)(int, TextReader) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_6)(int, string) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_4)(int, TextReader) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_3)(int, Stream, bool) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_9)(int, string, bool) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 | [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_1)(int, Stream, IExternalResourceResolver, string) | Creates slides from HTML text and inserts them to the collection at the specified position. |
-| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_5)(int, string, IExternalResourceResolver, string) | Creates slides from HTML text and inserts them to the collection at the specified position. |
-| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_3)(int, TextReader, IExternalResourceResolver, string) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_7)(int, string, IExternalResourceResolver, string) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_5)(int, TextReader, IExternalResourceResolver, string) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_2)(int, Stream, IExternalResourceResolver, string, bool) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_8)(int, string, IExternalResourceResolver, string, bool) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 | [Remove](../../aspose.slides/slidecollection/remove)(ISlide) | Removes the first occurrence of a specific object from the collection. |
 | [RemoveAt](../../aspose.slides/slidecollection/removeat)(int) | Removes the element at the specified index of the collection. |
 | [Reorder](../../aspose.slides/slidecollection/reorder#reorder)(int, ISlide) | Moves slide from the collection to the specified position. |

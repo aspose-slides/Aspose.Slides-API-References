@@ -1,7 +1,7 @@
 ---
-title: Wiedergabemodus
+title: PlayMode
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Wiedergabemodus für Videos zurück oder setzt ihn. Lese-/Schreibzugriff auf VideoPlayModePresetaspose.slides/videoplaymodepreset.
+description: Gibt den Videowiedergabemodus zurück oder setzt ihn. Lese-/Schreibzugriff auf VideoPlayModePresetaspose.slides/videoplaymodepreset.
 type: docs
 weight: 80
 url: /de/aspose.slides/ivideoframe/playmode/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ivideoframe/playmode/
 
 ## IVideoFrame.PlayMode-Eigenschaft
 
-Gibt den Wiedergabemodus für Videos zurück oder setzt ihn. Lese-/Schreibzugriff auf [`VideoPlayModePreset`](../../videoplaymodepreset).
+Gibt den Videowiedergabemodus zurück oder setzt ihn. Lese-/Schreibzugriff auf [`VideoPlayModePreset`](../../videoplaymodepreset).
 
 ```csharp
 public VideoPlayModePreset PlayMode { get; set; }

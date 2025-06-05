@@ -1,13 +1,13 @@
 ---
 title: InsertEmptySlide
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Вставляет копию указанного слайда в указанную позицию коллекции.
 type: docs
 weight: 130
 url: /ru/aspose.slides/slidecollection/insertemptyslide/
 ---
 
-## Метод SlideCollection.InsertEmptySlide
+## SlideCollection.InsertEmptySlide метод
 
 Вставляет копию указанного слайда в указанную позицию коллекции.
 
@@ -20,11 +20,11 @@ public ISlide InsertEmptySlide(int index, ILayoutSlide layout)
 | index | Int32 | Индекс нового слайда. |
 | layout | ILayoutSlide | Макет для слайда. |
 
-### Возвращаемое значение
+### Значение Возврата
 
 Вставленный слайд.
 
-### См. также
+### См. Также
 
 * интерфейс [ISlide](../../islide)
 * интерфейс [ILayoutSlide](../../ilayoutslide)

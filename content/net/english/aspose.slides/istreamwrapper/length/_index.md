@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/istreamwrapper/length/
 ---
+
 ## IStreamWrapper.Length property
 
 Gets the length in bytes of the stream. Read-only Int64.

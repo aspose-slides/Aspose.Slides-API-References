@@ -1,7 +1,7 @@
 ---
 title: IAlphaCeiling
-second_title: Aspose.Sildes для .NET API Справка
-description: Представляет эффект Alpha Ceiling. Значения альфа-прозрачности больше нуля изменяются на 100. Другими словами, все, что частично непрозрачно, становится полностью непрозрачным.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет эффект Alpha Ceiling. Значения альфа-прозрачности больше нуля изменяются на 100. Иными словами, всё, что частично прозрачно, становится полностью непрозрачным.
 type: docs
 weight: 2940
 url: /ru/aspose.slides.effects/ialphaceiling/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/ialphaceiling/
 
 ## Интерфейс IAlphaCeiling
 
-Представляет эффект Alpha Ceiling. Значения альфа (прозрачности), большие нуля, изменяются на 100%. Другими словами, все, что частично непрозрачно, становится полностью непрозрачным.
+Представляет эффект Alpha Ceiling. Значения альфа-прозрачности (opacity) больше нуля изменяются на 100%. Иными словами, всё, что частично прозрачно, становится полностью непрозрачным.
 
 ```csharp
 public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData>, 
@@ -18,12 +18,12 @@ public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphaceiling/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ialphaceiling/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperationEx. Только для чтения [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### См. также
+### Смотрите Также
 
 * интерфейс [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * интерфейс [IAlphaCeilingEffectiveData](../ialphaceilingeffectivedata)

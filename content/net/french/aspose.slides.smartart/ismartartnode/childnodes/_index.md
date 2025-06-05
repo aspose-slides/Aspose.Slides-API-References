@@ -1,7 +1,7 @@
 ---
 title: ChildNodes
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie des collections de tous les nœuds enfants du nœud courant. Lecture seule ISmartArtNodeCollectionaspose.slides.smartart/ismartartnodecollection.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie des collections de tous les nœuds enfants du nœud actuel. Collection ISmartArtNodeCollection en lecture seule aspose.slides.smartart/ismartartnodecollection.
 type: docs
 weight: 20
 url: /fr/aspose.slides.smartart/ismartartnode/childnodes/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.smartart/ismartartnode/childnodes/
 
 ## Propriété ISmartArtNode.ChildNodes
 
-Renvoie des collections de tous les nœuds enfants du nœud courant. Lecture seule [`ISmartArtNodeCollection`](../../ismartartnodecollection).
+Renvoie des collections de tous les nœuds enfants du nœud actuel. Collection [`ISmartArtNodeCollection`](../../ismartartnodecollection) en lecture seule.
 
 ```csharp
 public ISmartArtNodeCollection ChildNodes { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ISmartArtNodeCollection](../../ismartartnodecollection)
 * interface [ISmartArtNode](../../ismartartnode)

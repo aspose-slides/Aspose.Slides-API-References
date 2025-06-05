@@ -1,6 +1,6 @@
 ---
 title: PositionLocked
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si mover esta forma está prohibido. Booleano de lectura/escritura.
 type: docs
 weight: 70
@@ -15,10 +15,10 @@ Determina si mover esta forma está prohibido. Booleano de lectura/escritura.
 public bool PositionLocked { get; set; }
 ```
 
-### Véase También
+### Ver También
 
 * clase [PictureFrameLock](../../pictureframelock)
 * espacio de nombres [Aspose.Slides](../../pictureframelock)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: CreateFillOverlay
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Crea efecto de superposición de relleno.
+second_title: Aspose.Slides para .NET API Reference
+description: Crea un efecto de superposición de relleno.
 type: docs
 weight: 140
 url: /es/aspose.slides.effects/imagetransformoperationfactory/createfilloverlay/
@@ -9,17 +9,17 @@ url: /es/aspose.slides.effects/imagetransformoperationfactory/createfilloverlay/
 
 ## ImageTransformOperationFactory.CreateFillOverlay método
 
-Crea efecto de superposición de relleno.
+Crea un efecto de superposición de relleno.
 
 ```csharp
 public IFillOverlay CreateFillOverlay()
 ```
 
-### Valor de Retorno
+### Valor de retorno
 
 Efecto de superposición de relleno.
 
-### Ver También
+### Ver también
 
 * interfaz [IFillOverlay](../../ifilloverlay)
 * clase [ImageTransformOperationFactory](../../imagetransformoperationfactory)

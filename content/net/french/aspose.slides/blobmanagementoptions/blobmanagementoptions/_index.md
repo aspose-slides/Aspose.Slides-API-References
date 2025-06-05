@@ -15,7 +15,7 @@ Crée de nouvelles options de gestion de blob par défaut.
 public BlobManagementOptions()
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * class [BlobManagementOptions](../../blobmanagementoptions)
 * namespace [Aspose.Slides](../../blobmanagementoptions)

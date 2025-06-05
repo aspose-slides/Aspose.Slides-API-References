@@ -1,13 +1,13 @@
 ---
 title: InkOptions
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Bietet Optionen, die das Aussehen von Ink-Objekten im exportierten Dokument steuern.
 type: docs
 weight: 4050
 url: /de/aspose.slides.export/inkoptions/
 ---
 
-## InkOptions Klasse
+## InkOptions-Klasse
 
 Bietet Optionen, die das Aussehen von Ink-Objekten im exportierten Dokument steuern.
 
@@ -20,11 +20,11 @@ public class InkOptions : IInkOptions
 | Name | Beschreibung |
 | --- | --- |
 | [HideInk](../../aspose.slides.export/inkoptions/hideink) { get; set; } | Zeigt Ink-Elemente im exportierten Dokument an oder verbirgt sie. |
-| [InterpretMaskOpAsOpacity](../../aspose.slides.export/inkoptions/interpretmaskopasopacity) { get; set; } | Verwendet die ROP-Operation oder Opazität zum Rendern des Pinsels. |
+| [InterpretMaskOpAsOpacity](../../aspose.slides.export/inkoptions/interpretmaskopasopacity) { get; set; } | Verwendet ROP-Operation oder Transparenz zum Rendern des Pinsels. |
 
 ### Siehe auch
 
-* Interface [IInkOptions](../iinkoptions)
+* Schnittstelle [IInkOptions](../iinkoptions)
 * Namespace [Aspose.Slides.Export](../../aspose.slides.export)
 * Assembly [Aspose.Slides](../../)
 

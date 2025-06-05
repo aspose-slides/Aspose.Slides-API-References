@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/fontsubstrule/fontsubstrule/
 ---
+
 ## FontSubstRule(IFontData, IFontData) {#constructor}
 
 Creates new instance.

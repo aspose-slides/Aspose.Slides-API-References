@@ -1,7 +1,7 @@
 ---
-title: 相机
-second_title: Aspose.Slides for .NET API参考
-description: 返回相机的设置。只读 ICameraEffectiveDataaspose.slides/icameraeffectivedata。
+title: Camera
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回相机的设置。唯读 ICameraEffectiveDataaspose.slides/icameraeffectivedata。
 type: docs
 weight: 40
 url: /zh/aspose.slides/ithreedformateffectivedata/camera/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ithreedformateffectivedata/camera/
 
 ## IThreeDFormatEffectiveData.Camera 属性
 
-返回相机的设置。只读 [`ICameraEffectiveData`](../../icameraeffectivedata)。
+返回相机的设置。唯读 [`ICameraEffectiveData`](../../icameraeffectivedata)。
 
 ```csharp
 public ICameraEffectiveData Camera { get; }

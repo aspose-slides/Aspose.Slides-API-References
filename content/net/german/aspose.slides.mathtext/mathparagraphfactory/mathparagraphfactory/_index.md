@@ -7,7 +7,7 @@ weight: 10
 url: /de/aspose.slides.mathtext/mathparagraphfactory/mathparagraphfactory/
 ---
 
-## MathParagraphFactory Konstruktor
+## MathParagraphFactory-Konstruktor
 
 Der Standardkonstruktor.
 
@@ -15,7 +15,7 @@ Der Standardkonstruktor.
 public MathParagraphFactory()
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [MathParagraphFactory](../../mathparagraphfactory)
 * Namespace [Aspose.Slides.MathText](../../mathparagraphfactory)

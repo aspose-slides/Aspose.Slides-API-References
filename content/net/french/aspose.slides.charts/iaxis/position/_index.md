@@ -1,6 +1,6 @@
 ---
 title: Position
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente la position de l'axe. Lecture/écriture AxisPositionTypeaspose.slides.charts/axispositiontype.
 type: docs
 weight: 470

@@ -1,34 +1,34 @@
 ---
 title: SetGeometryPaths
-second_title: Aspose.Slides pour la référence API .NET
-description: Met à jour la géométrie de la forme à partir d'un tableau de IGeometryPathaspose.slides/igeometrypath. Les coordonnées doivent être relatives au coin supérieur gauche de la forme. Change le type de la forme ShapeTypeaspose.slides/igeometryshape/shapetype en Personnalisé.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Met à jour la géométrie de la forme à partir du tableau de IGeometryPathaspose.slides/igeometrypath. Les coordonnées doivent être relatives au coin supérieur gauche de la forme. Change le type de la forme ShapeTypeaspose.slides/igeometryshape/shapetype en Personnalisé.
 type: docs
 weight: 80
 url: /fr/aspose.slides/igeometryshape/setgeometrypaths/
 ---
 
-## Méthode IGeometryShape.SetGeometryPaths
+## IGeometryShape.SetGeometryPaths méthode
 
-Met à jour la géométrie de la forme à partir d'un tableau de [`IGeometryPath`](../../igeometrypath). Les coordonnées doivent être relatives au coin supérieur gauche de la forme. Change le type de la forme ([`ShapeType`](../shapetype)) en Personnalisé.
+Met à jour la géométrie de la forme à partir du tableau de [`IGeometryPath`](../../igeometrypath). Les coordonnées doivent être relatives au coin supérieur gauche de la forme. Change le type de la forme ([`ShapeType`](../shapetype)) en Personnalisé.
 
 ```csharp
 public void SetGeometryPaths(IGeometryPath[] geometryPaths)
 ```
 
-| Paramètre | Type | Description |
-| --- | --- | --- |
-| geometryPaths | IGeometryPath[] | Tableau des chemins de géométrie |
+| Paramètre     | Type              | Description                |
+| --------------| ----------------- | -------------------------- |
+| geometryPaths | IGeometryPath[]   | Tableau des chemins de géométrie |
 
 ### Exceptions
 
-| exception | condition |
-| --- | --- |
-| ArgumentException | Aucun chemin trouvé |
-| ArgumentException | Chemin vide |
+| exception        | condition         |
+| ---------------- | ------------------|
+| ArgumentException| Aucun chemin trouvé|
+| ArgumentException| Chemin vide       |
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -47,7 +47,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IGeometryPath](../../igeometrypath)
 * interface [IGeometryShape](../../igeometryshape)

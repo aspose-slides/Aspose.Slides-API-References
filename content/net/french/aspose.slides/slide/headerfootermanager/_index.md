@@ -1,7 +1,7 @@
 ---
 title: HeaderFooterManager
-second_title: Référence API Aspose.Slides pour .NET
-description: Retourne le gestionnaire de HeaderFooter de la diapositive. Lecture seule ISlideHeaderFooterManageraspose.slides/islideheaderfootermanager.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie le gestionnaire HeaderFooter de la diapositive. Lecture seule ISlideHeaderFooterManager aspose.slides/islideheaderfootermanager.
 type: docs
 weight: 10
 url: /fr/aspose.slides/slide/headerfootermanager/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/slide/headerfootermanager/
 
 ## Propriété Slide.HeaderFooterManager
 
-Retourne le gestionnaire de HeaderFooter de la diapositive. Lecture seule [`ISlideHeaderFooterManager`](../../islideheaderfootermanager).
+Renvoie le gestionnaire HeaderFooter de la diapositive. Lecture seule [`ISlideHeaderFooterManager`](../../islideheaderfootermanager).
 
 ```csharp
 public ISlideHeaderFooterManager HeaderFooterManager { get; }
 ```
 
-### Voir Également
+### Voir aussi
 
 * interface [ISlideHeaderFooterManager](../../islideheaderfootermanager)
 * classe [Slide](../../slide)

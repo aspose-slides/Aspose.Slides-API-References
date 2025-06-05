@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/ierrorbarsformat/asichartcomponent/
 ---
+
 ## IErrorBarsFormat.AsIChartComponent property
 
 Returns IChartComponent interface. Read-only [`IChartComponent`](../../ichartcomponent).

@@ -1,7 +1,7 @@
 ---
 title: IsOnlyDocumentPropertiesLoaded
-second_title: Aspose.Slides für .NET API-Referenz
-description: Diese Eigenschaft macht Sinn, wenn die Präsentationsdatei passwortgeschützt ist und die Dokumenteigenschaften dieser Datei öffentlich sind. Ein Wert von true bedeutet, dass nur die Dokumenteigenschaften aus einer verschlüsselten Präsentationsdatei ohne Verwendung eines Passworts geladen werden. Ein Wert von false bedeutet, dass die gesamte verschlüsselte Präsentation mit dem richtigen Passwort geladen wird, nicht nur die Dokumenteigenschaften. Wenn die Präsentation nicht verschlüsselt ist, ist der Eigenschaftswert immer false. Wenn die Dokumenteigenschaften einer verschlüsselten Datei nicht öffentlich sind, ist der Eigenschaftswert immer false. Wenn Presentation.EncryptDocumentProperties true ist, ist der Wert der IsOnlyDocumentPropertiesLoaded-Eigenschaft immer false. Schreibgeschütztes Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Diese Eigenschaft ist sinnvoll, wenn die Präsentationsdatei passwortgeschützt ist und die Dokumenteigenschaften dieser Datei öffentlich sind. Ein Wert von true bedeutet, dass nur die Dokumenteigenschaften aus einer verschlüsselten Präsentationsdatei ohne Verwendung eines Passworts geladen werden. Ein Wert von false bedeutet, dass die gesamte verschlüsselte Präsentation mit Verwendung des richtigen Passworts geladen wird, nicht nur die Dokumenteigenschaften. Wenn die Präsentation nicht verschlüsselt ist, ist der Eigenschaftswert immer false. Wenn die Dokumenteigenschaften einer verschlüsselten Datei nicht öffentlich sind, ist der Eigenschaftswert immer false. Wenn Presentation.EncryptDocumentProperties true ist, ist der Wert der Eigenschaft IsOnlyDocumentPropertiesLoaded immer false. Schreibgeschützter Boolean.
 type: docs
 weight: 40
 url: /de/aspose.slides/protectionmanager/isonlydocumentpropertiesloaded/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/protectionmanager/isonlydocumentpropertiesloaded/
 
 ## ProtectionManager.IsOnlyDocumentPropertiesLoaded-Eigenschaft
 
-Diese Eigenschaft macht Sinn, wenn die Präsentationsdatei passwortgeschützt ist und die Dokumenteigenschaften dieser Datei öffentlich sind. Ein Wert von true bedeutet, dass nur die Dokumenteigenschaften aus einer verschlüsselten Präsentationsdatei ohne Verwendung eines Passworts geladen werden. Ein Wert von false bedeutet, dass die gesamte verschlüsselte Präsentation mit dem richtigen Passwort geladen wird, nicht nur die Dokumenteigenschaften. Wenn die Präsentation nicht verschlüsselt ist, ist der Eigenschaftswert immer false. Wenn die Dokumenteigenschaften einer verschlüsselten Datei nicht öffentlich sind, ist der Eigenschaftswert immer false. Wenn Presentation.EncryptDocumentProperties true ist, ist der Wert der IsOnlyDocumentPropertiesLoaded-Eigenschaft immer false. Schreibgeschütztes Boolean.
+Diese Eigenschaft ist sinnvoll, wenn die Präsentationsdatei passwortgeschützt ist und die Dokumenteigenschaften dieser Datei öffentlich sind. Ein Wert von true bedeutet, dass nur die Dokumenteigenschaften aus einer verschlüsselten Präsentationsdatei ohne Verwendung eines Passworts geladen werden. Ein Wert von false bedeutet, dass die gesamte verschlüsselte Präsentation mit Verwendung des richtigen Passworts geladen wird, nicht nur die Dokumenteigenschaften. Wenn die Präsentation nicht verschlüsselt ist, ist der Eigenschaftswert immer false. Wenn die Dokumenteigenschaften einer verschlüsselten Datei nicht öffentlich sind, ist der Eigenschaftswert immer false. Wenn Presentation.EncryptDocumentProperties true ist, ist der Wert der Eigenschaft IsOnlyDocumentPropertiesLoaded immer false. Schreibgeschützter Boolean.
 
 ```csharp
 public bool IsOnlyDocumentPropertiesLoaded { get; }

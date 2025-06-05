@@ -1,7 +1,7 @@
 ---
 title: HasSeriesLines
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Vrai si le graphique a des lignes de séries. Appliqué aux graphiques à barres empilées et OfPie. Lecture/écriture Booléen.
+description: Vrai si le graphique a des lignes de séries. Appliqué aux graphiques à barres empilées et aux graphiques en secteurs. Boolean en lecture/écriture.
 type: docs
 weight: 80
 url: /fr/aspose.slides.charts/ichartseriesgroup/hasserieslines/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ichartseriesgroup/hasserieslines/
 
 ## Propriété IChartSeriesGroup.HasSeriesLines
 
-Vrai si le graphique a des lignes de séries. Appliqué aux graphiques à barres empilées et OfPie. Lecture/écriture Booléen.
+Vrai si le graphique a des lignes de séries. Appliqué aux graphiques à barres empilées et aux graphiques en secteurs. Boolean en lecture/écriture.
 
 ```csharp
 public bool HasSeriesLines { get; set; }

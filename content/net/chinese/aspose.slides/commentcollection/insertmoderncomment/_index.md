@@ -18,18 +18,18 @@ public IModernComment InsertModernComment(int index, string text, ISlide slide, 
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 现代评论应插入到集合中的元素索引。 |
+| index | Int32 | 应插入现代评论的集合中元素的索引。 |
 | text | String | 新现代评论的纯文本。 |
-| slide | ISlide | 在演示文稿中添加新现代评论的幻灯片。 |
-| shape | IShape | 关联新现代评论的幻灯片中的形状。 |
-| position | PointF | 在幻灯片上添加新现代评论的位置。 |
+| slide | ISlide | 要添加新现代评论的演示文稿中的幻灯片。 |
+| shape | IShape | 与新现代评论关联的幻灯片上的形状。 |
+| position | PointF | 要添加新现代评论的幻灯片上的位置。 |
 | creationTime | DateTime | 现代评论创建的时间。 |
 
 ### 返回值
 
 插入的现代评论。
 
-### 另请参见
+### 另见
 
 * 接口 [IModernComment](../../imoderncomment)
 * 接口 [ISlide](../../islide)

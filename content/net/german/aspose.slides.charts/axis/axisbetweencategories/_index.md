@@ -1,7 +1,7 @@
 ---
-title: AchseZwischenKategorien
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt dar, ob die Wertachse die Kategorienachse zwischen den Kategorien schneidet. Diese Eigenschaft gilt nur für Kategorienachsen und nicht für 3-D-Diagramme. Lese-/Schreib-Boolean.
+title: AxisBetweenCategories
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt dar, ob die Wertachse die Kategorienachse zwischen den Kategorien schneidet. Diese Eigenschaft gilt nur für Kategorienachsen und nicht für 3D-Diagramme. Lese-/Schreib-Boolescher Wert.
 type: docs
 weight: 80
 url: /de/aspose.slides.charts/axis/axisbetweencategories/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/axis/axisbetweencategories/
 
 ## Axis.AxisBetweenCategories-Eigenschaft
 
-Stellt dar, ob die Wertachse die Kategorienachse zwischen den Kategorien schneidet. Diese Eigenschaft gilt nur für Kategorienachsen und nicht für 3-D-Diagramme. Lese-/Schreib-Boolean.
+Stellt dar, ob die Wertachse die Kategorienachse zwischen den Kategorien schneidet. Diese Eigenschaft gilt nur für Kategorienachsen und nicht für 3D-Diagramme. Lese-/Schreib-Boolescher Wert.
 
 ```csharp
 public bool AxisBetweenCategories { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [Axis](../../axis)
 * Namespace [Aspose.Slides.Charts](../../axis)

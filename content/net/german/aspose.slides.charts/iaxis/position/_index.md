@@ -7,7 +7,7 @@ weight: 470
 url: /de/aspose.slides.charts/iaxis/position/
 ---
 
-## IAxis.Position Eigenschaften
+## IAxis.Position-Eigenschaft
 
 Stellt die Position der Achse dar. Lese-/Schreibzugriff auf [`AxisPositionType`](../../axispositiontype).
 
@@ -15,7 +15,7 @@ Stellt die Position der Achse dar. Lese-/Schreibzugriff auf [`AxisPositionType`]
 public AxisPositionType Position { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [AxisPositionType](../../axispositiontype)
 * interface [IAxis](../../iaxis)

@@ -1,7 +1,7 @@
 ---
 title: IVideoFrame
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt einen Videoclip auf einer Folie dar.
+description: Stellt einen Videoausschnitt auf einer Folie dar.
 type: docs
 weight: 7160
 url: /de/aspose.slides/ivideoframe/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ivideoframe/
 
 ## IVideoFrame-Schnittstelle
 
-Stellt einen Videoclip auf einer Folie dar.
+Stellt einen Videoausschnitt auf einer Folie dar.
 
 ```csharp
 public interface IVideoFrame : IPictureFrame
@@ -19,18 +19,18 @@ public interface IVideoFrame : IPictureFrame
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | Ermöglicht den Zugriff auf die Basis-IPictureFrame-Schnittstelle. Nur lesbar [`IPictureFrame`](../ipictureframe). |
+| [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IPictureFrame. Nur lesbar [`IPictureFrame`](../ipictureframe). |
 | [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | Gibt die Sammlung der Untertitel des Videos zurück. Nur lesbar [`ICaptionsCollection`](../icaptionscollection). |
-| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | Gibt das eingebettete Videoobjekt zurück oder legt es fest. Lese-/Schreibzugriff [`IVideo`](../ivideo). |
+| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | Gibt ein eingebettetes Videoobjekt zurück oder setzt es. Lese-/Schreibzugriff [`IVideo`](../ivideo). |
 | [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | Bestimmt, ob ein Video im Vollbildmodus angezeigt wird. Lese-/Schreibzugriff Boolean. |
 | [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | Bestimmt, ob ein VideoFrame verborgen ist. Lese-/Schreibzugriff Boolean. |
-| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | Gibt den Namen einer Videodatei zurück oder legt ihn fest, die mit einem VideoFrame verknüpft ist. Lese-/Schreibzugriff String. |
+| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | Gibt den Namen einer Videodatei zurück oder setzt ihn, die mit einem VideoFrame verlinkt ist. Lese-/Schreibzugriff String. |
 | [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | Bestimmt, ob ein Video wiederholt wird. Lese-/Schreibzugriff Boolean. |
-| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | Gibt den Wiedergabemodus des Videos zurück oder legt ihn fest. Lese-/Schreibzugriff [`VideoPlayModePreset`](../videoplaymodepreset). |
-| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Bestimmt, ob ein Video automatisch zurückgespult wird, sobald der Film beendet ist. Lese-/Schreibzugriff Boolean. |
+| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | Gibt den Wiedergabemodus des Videos zurück oder setzt ihn. Lese-/Schreibzugriff [`VideoPlayModePreset`](../videoplaymodepreset). |
+| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Bestimmt, ob ein Video automatisch zurückgespult wird, sobald der Film zu Ende ist. Lese-/Schreibzugriff Boolean. |
 | [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | Ende kürzen [ms] |
 | [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | Anfang kürzen [ms] |
-| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | Gibt die Lautstärke zurück oder legt sie fest. Lese-/Schreibzugriff [`AudioVolumeMode`](../audiovolumemode). |
+| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | Gibt die Audio-Lautstärke zurück oder setzt sie. Lese-/Schreibzugriff [`AudioVolumeMode`](../audiovolumemode). |
 
 ### Siehe auch
 

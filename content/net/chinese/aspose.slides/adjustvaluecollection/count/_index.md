@@ -1,6 +1,6 @@
 ---
-title: 计数
-second_title: Aspose.Slides for .NET API 参考
+title: Count
+second_title: Aspose.Slides for .NET API Reference
 description: 返回调整的数量。只读 Int32。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/adjustvaluecollection/count/
 public int Count { get; }
 ```
 
-### 另见
+### 参见
 
 * class [AdjustValueCollection](../../adjustvaluecollection)
 * namespace [Aspose.Slides](../../adjustvaluecollection)

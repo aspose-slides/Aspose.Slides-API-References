@@ -6,6 +6,7 @@ type: docs
 weight: 460
 url: /aspose.slides.animation/behaviorproperty/imagedatacropright/
 ---
+
 ## BehaviorProperty.ImageDataCropRight property
 
 Represents 'imageData.cropRight' property

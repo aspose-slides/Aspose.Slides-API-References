@@ -1,5 +1,5 @@
 ---
-title: Élément
+title: Item
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient l'élément à l'index spécifié. Lecture seule ITrendlineaspose.slides.charts/itrendline.
 type: docs
@@ -7,7 +7,7 @@ weight: 30
 url: /fr/aspose.slides.charts/itrendlinecollection/item/
 ---
 
-## Indexeur ITrendlineCollection
+## Indice ITrendlineCollection
 
 Obtient l'élément à l'index spécifié. Lecture seule [`ITrendline`](../../itrendline).
 
@@ -15,7 +15,7 @@ Obtient l'élément à l'index spécifié. Lecture seule [`ITrendline`](../../it
 public ITrendline this[int index] { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ITrendline](../../itrendline)
 * interface [ITrendlineCollection](../../itrendlinecollection)

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.charts/ilayoutable/right/
 ---
+
 ## ILayoutable.Right property
 
 Gets the right of the chart element as a fraction of the width of the chart. Read-only Single.

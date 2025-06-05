@@ -1,7 +1,7 @@
 ---
 title: StylePreset
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает встроенный стиль таблицы. Чтение/запись TableStylePreset aspose.slides/tablestylepreset.
+second_title: Aspose.Slides для .NET API Справочник
+description: Получает или задает встроенный стиль таблицы. Чтение/запись TableStylePresetaspose.slides/tablestylepreset.
 type: docs
 weight: 110
 url: /ru/aspose.slides/table/stylepreset/
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/table/stylepreset/
 public TableStylePreset StylePreset { get; set; }
 ```
 
-### Также смотри
+### См. также
 
 * enum [TableStylePreset](../../tablestylepreset)
 * class [Table](../../table)

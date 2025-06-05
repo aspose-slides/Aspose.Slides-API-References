@@ -1,6 +1,6 @@
 ---
 title: SizeLocked
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Reference
 description: Détermine si le redimensionnement de cette forme est interdit. Booléen en lecture/écriture.
 type: docs
 weight: 60

@@ -1,21 +1,21 @@
 ---
 title: TargetFrame
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает фрейм в родительском HTML-рамочном наборе для цели родительской гиперссылки, когда такая существует. Читаемая/записываемая строка.
+second_title: Aspose.Slides для .NET API Справка
+description: Возвращает фрейм в родительском HTML-фреймсете для цели родительского гиперссылки, если таковая существует. Доступ для чтения/записи String.
 type: docs
 weight: 90
 url: /ru/aspose.slides/ihyperlink/targetframe/
 ---
 
-## Свойство IHyperlink.TargetFrame
+## IHyperlink.TargetFrame свойство
 
-Возвращает фрейм в родительском HTML-рамочном наборе для цели родительской гиперссылки, когда такая существует. Читаемая/записываемая строка.
+Возвращает фрейм в родительском HTML-фреймсете для цели родительского гиперссылки, если таковая существует. Доступ для чтения/записи String.
 
 ```csharp
 public string TargetFrame { get; set; }
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [IHyperlink](../../ihyperlink)
 * пространство имен [Aspose.Slides](../../ihyperlink)

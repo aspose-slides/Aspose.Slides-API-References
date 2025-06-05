@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/shapecollection/addautoshape/
 ---
+
 ## AddAutoShape(ShapeType, float, float, float, float) {#addautoshape}
 
 Creates a new AutoShape, tunes it from default template and adds it to the end of the collection.

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.theme/fillformatcollection/item/
 ---
+
 ## FillFormatCollection indexer
 
 Gets the element at the specified index. Read-only [`IFillFormat`](../../../aspose.slides/ifillformat).

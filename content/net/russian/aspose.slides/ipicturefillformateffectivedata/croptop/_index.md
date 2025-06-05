@@ -1,21 +1,21 @@
 ---
 title: CropTop
-second_title: Справочник API Aspose.Slides для .NET
-description: Возвращает процент от реальной высоты изображения, который обрезан сверху картинки. Только для чтения Single.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает количество процентов от реальной высоты изображения, которое обрезано сверху картинки. Только для чтения Single.
 type: docs
 weight: 50
 url: /ru/aspose.slides/ipicturefillformateffectivedata/croptop/
 ---
 
-## Свойство IPictureFillFormatEffectiveData.CropTop
+## IPictureFillFormatEffectiveData.CropTop свойство
 
-Возвращает процент от реальной высоты изображения, который обрезан сверху картинки. Только для чтения Single.
+Возвращает количество процентов от реальной высоты изображения, которое обрезано сверху картинки. Только для чтения Single.
 
 ```csharp
 public float CropTop { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IPictureFillFormatEffectiveData](../../ipicturefillformateffectivedata)
 * пространство имен [Aspose.Slides](../../ipicturefillformateffectivedata)

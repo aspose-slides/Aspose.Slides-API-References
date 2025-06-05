@@ -1,7 +1,7 @@
 ---
-title: 显示方程
-second_title: Aspose.Slides for .NET API 参考
-description: 指定趋势线的方程在图表上显示，与 Rsquaredvalue 的标签相同。可读/写布尔值。
+title: DisplayEquation
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定趋势线的方程在图表上与 Rsquaredvalue 采用相同标签显示。可读写的布尔值。
 type: docs
 weight: 30
 url: /zh/aspose.slides.charts/trendline/displayequation/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/trendline/displayequation/
 
 ## Trendline.DisplayEquation 属性
 
-指定趋势线的方程在图表上显示（与 Rsquaredvalue 的标签相同）。可读/写布尔值。
+指定趋势线的方程在图表上显示（与 Rsquaredvalue 采用相同标签）。可读写的布尔值。
 
 ```csharp
 public bool DisplayEquation { get; set; }
 ```
 
-### 另见
+### 参见
 
 * 类 [Trendline](../../trendline)
 * 命名空间 [Aspose.Slides.Charts](../../trendline)

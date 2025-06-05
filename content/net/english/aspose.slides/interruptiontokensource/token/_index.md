@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/interruptiontokensource/token/
 ---
+
 ## InterruptionTokenSource.Token property
 
 Returns new token binded to this [`InterruptionTokenSource`](../../interruptiontokensource).

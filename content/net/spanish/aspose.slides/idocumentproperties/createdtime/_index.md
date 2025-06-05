@@ -1,15 +1,15 @@
 ---
 title: CreatedTime
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve la fecha en que se creó una presentación. Los valores están en UTC. Fecha y hora de lectura/escritura.
+second_title: Aspose.Slides for .NET API Reference
+description: Devuelve la fecha en que se creó una presentación. Los valores están en UTC. Legible/escribible DateTime.
 type: docs
 weight: 100
 url: /es/aspose.slides/idocumentproperties/createdtime/
 ---
 
-## Propiedad IDocumentProperties.CreatedTime
+## IDocumentProperties.CreatedTime property
 
-Devuelve la fecha en que se creó una presentación. Los valores están en UTC. Fecha y hora de lectura/escritura.
+Devuelve la fecha en que se creó una presentación. Los valores están en UTC. Legible/escribible DateTime.
 
 ```csharp
 public DateTime CreatedTime { get; set; }
@@ -17,8 +17,8 @@ public DateTime CreatedTime { get; set; }
 
 ### Ver También
 
-* interfaz [IDocumentProperties](../../idocumentproperties)
-* espacio de nombres [Aspose.Slides](../../idocumentproperties)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IDocumentProperties](../../idocumentproperties)
+* namespace [Aspose.Slides](../../idocumentproperties)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides/shapecollection/addoleobjectframe/
 ---
+
 ## AddOleObjectFrame(float, float, float, float, IOleEmbeddedDataInfo) {#addoleobjectframe}
 
 Adds a new OLE object to the end of a collection.

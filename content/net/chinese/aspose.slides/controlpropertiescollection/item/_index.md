@@ -1,6 +1,6 @@
 ---
-title: 项目
-second_title: Aspose.Sildes for .NET API 参考
+title: Item
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回或设置属性。
 type: docs
 weight: 20
@@ -19,7 +19,7 @@ public string this[string name] { get; set; }
 | --- | --- |
 | name | 属性名称。 |
 
-### 另见
+### 参见
 
 * class [ControlPropertiesCollection](../../controlpropertiescollection)
 * namespace [Aspose.Slides](../../controlpropertiescollection)

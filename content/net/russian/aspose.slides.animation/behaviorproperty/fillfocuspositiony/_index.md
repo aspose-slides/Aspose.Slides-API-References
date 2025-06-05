@@ -1,13 +1,13 @@
 ---
 title: FillFocusPositionY
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Slides для .NET API Reference
 description: Представляет свойство fill.focusposition.y
 type: docs
 weight: 320
 url: /ru/aspose.slides.animation/behaviorproperty/fillfocuspositiony/
 ---
 
-## Свойство BehaviorProperty.FillFocusPositionY
+## BehaviorProperty.FillFocusPositionY свойство
 
 Представляет свойство 'fill.focusposition.y'
 

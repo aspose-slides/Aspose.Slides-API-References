@@ -3,9 +3,10 @@ title: IBehaviorProperty
 second_title: Aspose.Sildes for .NET API Reference
 description: Represent property types for animation behavior. Follows the list of properties from https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx and https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx
 type: docs
-weight: 350
+weight: 360
 url: /aspose.slides.animation/ibehaviorproperty/
 ---
+
 ## IBehaviorProperty interface
 
 Represent property types for animation behavior. Follows the list of properties from https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx and https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx

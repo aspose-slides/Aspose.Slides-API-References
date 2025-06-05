@@ -1,7 +1,7 @@
 ---
 title: AsIOverridableText
-second_title: Aspose.Slides for .NET API Reference
-description: 允许获取基础 IOverridableText 接口。只读 IOverridableText aspose.slides.charts/ioverridabletext。
+second_title: Aspose.Sildes for .NET API Reference
+description: 允许获取基本的 IOverridableText 接口。只读 IOverridableTextaspose.slides.charts/ioverridabletext。
 type: docs
 weight: 20
 url: /zh/aspose.slides.charts/icharttitle/asioverridabletext/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/icharttitle/asioverridabletext/
 
 ## IChartTitle.AsIOverridableText 属性
 
-允许获取基础 IOverridableText 接口。只读 [`IOverridableText`](../../ioverridabletext)。
+允许获取基本的 IOverridableText 接口。只读 [`IOverridableText`](../../ioverridabletext)。
 
 ```csharp
 public IOverridableText AsIOverridableText { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IOverridableText](../../ioverridabletext)
 * 接口 [IChartTitle](../../icharttitle)

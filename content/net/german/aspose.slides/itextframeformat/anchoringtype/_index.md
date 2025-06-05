@@ -1,7 +1,7 @@
 ---
 title: AnchoringType
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den vertikalen Ankertext in einem TextFrame zurück oder legt ihn fest. Schreib-/Lesezugriff auf TextAnchorType aspose.slides/textanchortype.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den vertikalen Ankertext in einem TextFrame zurück oder legt ihn fest. Lese-/schreibbarer TextAnchorTypeaspose.slides/textanchortype.
 type: docs
 weight: 10
 url: /de/aspose.slides/itextframeformat/anchoringtype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/itextframeformat/anchoringtype/
 
 ## ITextFrameFormat.AnchoringType-Eigenschaft
 
-Gibt den vertikalen Ankertext in einem TextFrame zurück oder legt ihn fest. Schreib-/Lesezugriff auf [`TextAnchorType`](../../textanchortype).
+Gibt den vertikalen Ankertext in einem TextFrame zurück oder legt ihn fest. Lese-/schreibbarer [`TextAnchorType`](../../textanchortype).
 
 ```csharp
 public TextAnchorType AnchoringType { get; set; }

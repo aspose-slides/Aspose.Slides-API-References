@@ -1,7 +1,7 @@
 ---
 title: TransitionSideDirectionType
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente les types de transition de direction latérale.
+second_title: Référence API Aspose.Slides pour .NET
+description: Représente les types de transitions de direction latérale.
 type: docs
 weight: 10110
 url: /fr/aspose.slides.slideshow/transitionsidedirectiontype/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.slideshow/transitionsidedirectiontype/
 
 ## Énumération TransitionSideDirectionType
 
-Représente les types de transition de direction latérale.
+Représente les types de transitions de direction latérale.
 
 ```csharp
 public enum TransitionSideDirectionType
@@ -24,7 +24,7 @@ public enum TransitionSideDirectionType
 | Down | `2` |  |
 | Right | `3` |  |
 
-### Voir aussi
+### À voir aussi
 
 * namespace [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * assembly [Aspose.Slides](../../)

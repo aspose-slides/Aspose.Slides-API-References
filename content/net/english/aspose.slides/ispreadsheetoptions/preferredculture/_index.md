@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ispreadsheetoptions/preferredculture/
 ---
+
 ## ISpreadsheetOptions.PreferredCulture property
 
 Gets or sets preferred culture information for calculating some functions intended for use with languages that use the double-byte character set (DBCS).

@@ -1,6 +1,6 @@
 ---
 title: ExtrusionHeight
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Renvoie ou définit la hauteur d'un effet d'extrusion. Lecture/écriture Double.
 type: docs
 weight: 80

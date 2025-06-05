@@ -1,7 +1,7 @@
 ---
-title: ДополнительныеОбщиеСемействаШрифтов
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает или устанавливает массив имен семейств шрифтов, определенных пользователем, которые Aspose.Slides должен считать общими. Чтение/запись String.
+title: AdditionalCommonFontFamilies
+second_title: Aspose.Slides для .NET API Reference
+description: Возвращает или устанавливает массив пользовательских названий семейств шрифтов, которые Aspose.Slides должен считать общими. Чтение/запись String.
 type: docs
 weight: 30
 url: /ru/aspose.slides.export/pdfoptions/additionalcommonfontfamilies/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.export/pdfoptions/additionalcommonfontfamilies/
 
 ## PdfOptions.AdditionalCommonFontFamilies свойство
 
-Возвращает или устанавливает массив имен семейств шрифтов, определенных пользователем, которые Aspose.Slides должен считать общими. Чтение/запись String[].
+Возвращает или устанавливает массив пользовательских названий семейств шрифтов, которые Aspose.Slides должен считать общими. Чтение/запись String[].
 
 ```csharp
 public string[] AdditionalCommonFontFamilies { get; set; }
 ```
 
-### Также смотри
+### Смотрите Также
 
 * класс [PdfOptions](../../pdfoptions)
 * пространство имен [Aspose.Slides.Export](../../pdfoptions)

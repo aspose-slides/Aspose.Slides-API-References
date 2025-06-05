@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/ichartdatapointcollection/datasourcetypeforerrorbarscustomvalues/
 ---
+
 ## IChartDataPointCollection.DataSourceTypeForErrorBarsCustomValues property
 
 Specifies the type of values in ChartDataPoint.ErrorBarsCustomValues properties list. Read-only [`IDataSourceTypeForErrorBarsCustomValues`](../../idatasourcetypeforerrorbarscustomvalues).

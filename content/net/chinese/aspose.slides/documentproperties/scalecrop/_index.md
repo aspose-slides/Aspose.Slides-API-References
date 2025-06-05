@@ -1,7 +1,7 @@
 ---
 title: ScaleCrop
 second_title: Aspose.Sildes for .NET API Reference
-description: 指示文档缩略图的显示模式。将此元素设置为 **true** 以启用文档缩略图的缩放以适应显示。将此元素设置为 **false** 以启用文档缩略图的裁剪，只显示适合显示的部分。可读写布尔值。
+description: 指示文档缩略图的显示模式。将此元素设置为 **true** 以启用文档缩略图按显示比例缩放。将此元素设置为 **false** 以启用裁剪文档缩略图，仅显示适合显示的部分。可读/写布尔值。
 type: docs
 weight: 290
 url: /zh/aspose.slides/documentproperties/scalecrop/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/documentproperties/scalecrop/
 
 ## DocumentProperties.ScaleCrop 属性
 
-指示文档缩略图的显示模式。将此元素设置为 **true** 以启用文档缩略图的缩放以适应显示。将此元素设置为 **false** 以启用文档缩略图的裁剪，只显示适合显示的部分。可读写布尔值。
+指示文档缩略图的显示模式。将此元素设置为 **true** 以启用文档缩略图按显示比例缩放。将此元素设置为 **false** 以启用裁剪文档缩略图，仅显示适合显示的部分。可读/写布尔值。
 
 ```csharp
 public bool ScaleCrop { get; set; }
 ```
 
-### 参见
+### 另请参阅
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)

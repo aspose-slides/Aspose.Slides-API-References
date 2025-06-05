@@ -1,6 +1,6 @@
 ---
 title: IndexOf
-second_title: Aspose.Sildes для справки по API .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Определяет индекс конкретного элемента в IList.
 type: docs
 weight: 90
@@ -17,7 +17,7 @@ public int IndexOf(IPortion item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | IPortion | Объект, который нужно найти в IList. |
+| item | IPortion | Объект, который необходимо найти в IList. |
 
 ### Возвращаемое значение
 

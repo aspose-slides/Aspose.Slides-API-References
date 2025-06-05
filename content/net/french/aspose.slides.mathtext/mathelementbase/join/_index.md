@@ -1,15 +1,15 @@
 ---
-title: Joindre
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Joint un élément mathématique et forme un bloc mathématique
+title: Join
+second_title: Aspose.Slides pour .NET API Référence
+description: Joins un élément mathématique et forme un bloc mathématique
 type: docs
 weight: 80
 url: /fr/aspose.slides.mathtext/mathelementbase/join/
 ---
 
-## Joindre(IMathElement) {#join}
+## Join(IMathElement) {#join}
 
-Joint un élément mathématique et forme un bloc mathématique
+Joins un élément mathématique et forme un bloc mathématique
 
 ```csharp
 public virtual IMathBlock Join(IMathElement mathElement)
@@ -21,7 +21,7 @@ public virtual IMathBlock Join(IMathElement mathElement)
 
 ### Valeur de retour
 
-Un nouveau IMathBlock contenant cette instance et l'argument spécifié
+Un nouvel IMathBlock contenant cette instance et l'argument spécifié
 
 ### Exemples
 
@@ -44,9 +44,9 @@ IMathBlock block = element1.Join(element2);
 
 ---
 
-## Joindre(string) {#join_1}
+## Join(string) {#join_1}
 
-Joint un texte mathématique et forme un bloc mathématique
+Joins un texte mathématique et forme un bloc mathématique
 
 ```csharp
 public virtual IMathBlock Join(string mathText)
@@ -58,7 +58,7 @@ public virtual IMathBlock Join(string mathText)
 
 ### Valeur de retour
 
-Un nouveau IMathBlock contenant cette instance et l'argument spécifié
+Un nouvel IMathBlock contenant cette instance et l'argument spécifié
 
 ### Exemples
 

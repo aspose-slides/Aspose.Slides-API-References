@@ -1,7 +1,7 @@
 ---
 title: ISummaryZoomSection
-second_title: Aspose.Slides for .NET API 参考
-description: 表示摘要缩放框架中的摘要缩放部分对象。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示一个在总结缩放框架中的总结缩放部分对象。
 type: docs
 weight: 6940
 url: /zh/aspose.slides/isummaryzoomsection/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/isummaryzoomsection/
 
 ## ISummaryZoomSection 接口
 
-表示摘要缩放框架中的摘要缩放部分对象。
+表示一个在总结缩放框架中的总结缩放部分对象。
 
 ```csharp
 public interface ISummaryZoomSection : ISectionZoomFrame
@@ -20,10 +20,10 @@ public interface ISummaryZoomSection : ISectionZoomFrame
 | 名称 | 描述 |
 | --- | --- |
 | [AsISectionZoomFrame](../../aspose.slides/isummaryzoomsection/asisectionzoomframe) { get; } | 返回 ISectionZoomFrame 接口。 |
-| [Description](../../aspose.slides/isummaryzoomsection/description) { get; set; } | 返回摘要缩放部分对象的文本描述。 |
-| [Title](../../aspose.slides/isummaryzoomsection/title) { get; set; } | 返回摘要缩放部分对象的文本标题。 |
+| [Description](../../aspose.slides/isummaryzoomsection/description) { get; set; } | 返回总结缩放部分对象的文本描述。 |
+| [Title](../../aspose.slides/isummaryzoomsection/title) { get; set; } | 返回总结缩放部分对象的文本标题。 |
 
-### 另请参阅
+### 另见
 
 * 接口 [ISectionZoomFrame](../isectionzoomframe)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

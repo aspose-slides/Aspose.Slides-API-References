@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/ibaseportionformateffectivedata/fontunderline/
 ---
+
 ## IBasePortionFormatEffectiveData.FontUnderline property
 
 Returns the text underline type. Read-only [`TextUnderlineType`](../../textunderlinetype).

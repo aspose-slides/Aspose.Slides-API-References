@@ -1,7 +1,7 @@
 ---
-title: Bilderkompression
+title: PicturesCompression
 second_title: Aspose.Slides für .NET API Referenz
-description: Stellt die Bilderkompressionsstufe dar. Lesen/Schreiben von PicturesCompression.
+description: Stellt das Komprimierungsniveau für Bilder dar. Lese-/Schreibzugriff auf PicturesCompression.
 type: docs
 weight: 70
 url: /de/aspose.slides.export/ihtmloptions/picturescompression/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.export/ihtmloptions/picturescompression/
 
 ## IHtmlOptions.PicturesCompression-Eigenschaft
 
-Stellt die Bilderkompressionsstufe dar. Lesen/Schreiben von `PicturesCompression`.
+Stellt das Komprimierungsniveau für Bilder dar. Lese-/Schreibzugriff auf `PicturesCompression`.
 
 ```csharp
 public PicturesCompression PicturesCompression { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [PicturesCompression](../../picturescompression)
 * interface [IHtmlOptions](../../ihtmloptions)

@@ -1,7 +1,7 @@
 ---
-title: MargeDroite
+title: MarginRight
 second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit la marge droite dans un paragraphe sans héritage. Lecture/écriture Simple.
+description: Renvoie ou définit la marge droite d'un paragraphe sans héritage. Lecture/écriture Simple.
 type: docs
 weight: 120
 url: /fr/aspose.slides/iparagraphformat/marginright/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/iparagraphformat/marginright/
 
 ## Propriété IParagraphFormat.MarginRight
 
-Renvoie ou définit la marge droite dans un paragraphe sans héritage. Lecture/écriture Simple.
+Renvoie ou définit la marge droite d'un paragraphe sans héritage. Lecture/écriture Simple.
 
 ```csharp
 public float MarginRight { get; set; }

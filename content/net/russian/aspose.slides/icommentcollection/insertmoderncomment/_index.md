@@ -1,13 +1,13 @@
 ---
 title: InsertModernComment
-second_title: Aspose.Slides для .NET Справочник по API
+second_title: Справка по API Aspose.Sildes для .NET
 description: Вставить новый современный комментарий в коллекцию по указанному индексу.
 type: docs
 weight: 60
 url: /ru/aspose.slides/icommentcollection/insertmoderncomment/
 ---
 
-## Метод ICommentCollection.InsertModernComment
+## ICommentCollection.InsertModernComment method
 
 Вставить новый современный комментарий в коллекцию по указанному индексу.
 
@@ -19,17 +19,17 @@ public IModernComment InsertModernComment(int index, string text, ISlide slide, 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | index | Int32 | Индекс элемента в коллекции, в который должен быть вставлен современный комментарий. |
-| text | String | Простой текст нового современного комментария. |
-| slide | ISlide | Слайд в презентации, на который нужно добавить новый современный комментарий. |
-| shape | IShape | Форма на слайде, с которой ассоциирован новый современный комментарий. |
-| position | PointF | Позиция на слайде, где нужно добавить новый современный комментарий. |
+| text | String | Обычный текст нового современного комментария. |
+| slide | ISlide | Слайд в презентации, на котором следует добавить новый современный комментарий. |
+| shape | IShape | Фигура на слайде, к которой относится новый современный комментарий. |
+| position | PointF | Позиция на слайде, где следует добавить новый современный комментарий. |
 | creationTime | DateTime | Время создания современного комментария. |
 
-### Возвращаемое значение
+### Возврат значения
 
 Вставленный современный комментарий.
 
-### См. Также
+### См. также
 
 * интерфейс [IModernComment](../../imoderncomment)
 * интерфейс [ISlide](../../islide)

@@ -1,6 +1,6 @@
 ---
 title: MiterLimit
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Devuelve o establece el límite de inglete de una línea. Lectura/escritura Simple.
 type: docs
 weight: 140
@@ -15,7 +15,7 @@ Devuelve o establece el límite de inglete de una línea. Lectura/escritura Simp
 public float MiterLimit { get; set; }
 ```
 
-### Véase también
+### Véase También
 
 * clase [LineFormat](../../lineformat)
 * espacio de nombres [Aspose.Slides](../../lineformat)

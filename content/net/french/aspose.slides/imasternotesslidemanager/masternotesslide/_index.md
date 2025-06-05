@@ -1,15 +1,15 @@
 ---
 title: MasterNotesSlide
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie un maître pour toutes les diapositives de notes de cette présentation s'il en existe un, sinon renvoie null. Lecture seule IMasterNotesSlide aspose.slides/imasternotesslide.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie un modèle pour toutes les diapos de notes de cette présentation s'il en existe un, sinon renvoie null. Lecture seule IMasterNotesSlideaspose.slides/imasternotesslide.
 type: docs
 weight: 10
 url: /fr/aspose.slides/imasternotesslidemanager/masternotesslide/
 ---
 
-## Propriété IMasterNotesSlideManager.MasterNotesSlide
+## IMasterNotesSlideManager.MasterNotesSlide propriété
 
-Renvoie un maître pour toutes les diapositives de notes de cette présentation s'il en existe un, sinon renvoie null. Lecture seule [`IMasterNotesSlide`](../../imasternotesslide).
+Renvoie un modèle pour toutes les diapos de notes de cette présentation s'il en existe un, sinon renvoie null. Lecture seule [`IMasterNotesSlide`](../../imasternotesslide).
 
 ```csharp
 public IMasterNotesSlide MasterNotesSlide { get; }

@@ -1,7 +1,7 @@
 ---
 title: MarginBottom
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die unteren Randeinstellungen Punkte in einem TextFrame zurück oder setzt sie. Lese-/Schreib-Zahl.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die unteren Margenpunkte in einem TextFrame zurück oder setzt sie. Lese-/Schreib-Doppel.
 type: docs
 weight: 70
 url: /de/aspose.slides/itextframeformat/marginbottom/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/itextframeformat/marginbottom/
 
 ## ITextFrameFormat.MarginBottom-Eigenschaft
 
-Gibt den unteren Rand (Punkte) in einem TextFrame zurück oder setzt ihn. Lese-/Schreib-Zahl.
+Gibt die unteren Margen (Punkte) in einem TextFrame zurück oder setzt sie. Lese-/Schreib-Doppel.
 
 ```csharp
 public double MarginBottom { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ITextFrameFormat](../../itextframeformat)
 * Namespace [Aspose.Slides](../../itextframeformat)

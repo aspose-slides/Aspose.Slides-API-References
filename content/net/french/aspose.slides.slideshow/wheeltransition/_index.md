@@ -1,7 +1,7 @@
 ---
 title: WheelTransition
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Effet de transition de diapositive de roue.
+description: Effet de transition de diapositive en roue.
 type: docs
 weight: 10160
 url: /fr/aspose.slides.slideshow/wheeltransition/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.slideshow/wheeltransition/
 
 ## Classe WheelTransition
 
-Effet de transition de diapositive de roue.
+Effet de transition de diapositive en roue.
 
 ```csharp
 public class WheelTransition : TransitionValueBase, IWheelTransition
@@ -19,7 +19,7 @@ public class WheelTransition : TransitionValueBase, IWheelTransition
 
 | Nom | Description |
 | --- | --- |
-| [Spokes](../../aspose.slides.slideshow/wheeltransition/spokes) { get; set; } | Nombre de rayons de la transition de roue. En lecture/écriture UInt32. |
+| [Spokes](../../aspose.slides.slideshow/wheeltransition/spokes) { get; set; } | Nombre de rayons de la transition en roue. Lecture/écriture UInt32. |
 
 ## Méthodes
 
@@ -28,7 +28,7 @@ public class WheelTransition : TransitionValueBase, IWheelTransition
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Détermine si les deux instances de TransitionValueBase sont égales. |
 | override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Sert de fonction de hachage pour un type particulier, adapté à une utilisation dans des algorithmes de hachage et des structures de données comme une table de hachage. |
 
-### Voir aussi
+### Voir Aussi
 
 * class [TransitionValueBase](../transitionvaluebase)
 * interface [IWheelTransition](../iwheeltransition)

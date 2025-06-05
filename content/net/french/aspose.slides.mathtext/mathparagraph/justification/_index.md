@@ -1,7 +1,7 @@
 ---
 title: Justification
-second_title: Référence API Aspose.Slides pour .NET
-description: Justification de Paragraphe Valeur par défaut  CenteredAsGroup
+second_title: Aspose.Sildes pour la référence API .NET
+description: Justification de paragraphe Valeur par défaut CentréEnGroupe
 type: docs
 weight: 40
 url: /fr/aspose.slides.mathtext/mathparagraph/justification/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/mathparagraph/justification/
 
 ## Propriété MathParagraph.Justification
 
-Justification de Paragraphe Valeur par défaut : CenteredAsGroup
+Justification de paragraphe Valeur par défaut : CentréEnGroupe
 
 ```csharp
 public MathJustification Justification { get; set; }
@@ -17,7 +17,7 @@ public MathJustification Justification { get; set; }
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -26,7 +26,7 @@ IMathParagraph mathParagraph = (shape.TextFrame.Paragraphs[0].Portions[0] as Mat
 mathParagraph.Justification = MathJustification.LeftJustified;
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [MathJustification](../../mathjustification)
 * class [MathParagraph](../../mathparagraph)

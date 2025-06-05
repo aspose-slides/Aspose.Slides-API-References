@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.mathtext/mathlimit/upperlimit/
 ---
+
 ## MathLimit.UpperLimit property
 
 Specifies upper or lower limit

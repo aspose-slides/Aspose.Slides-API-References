@@ -1,21 +1,21 @@
 ---
 title: IsEncrypted
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает True, если связанная презентация зашифрована, иначе False. Только для чтения Boolean.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает True, если связанную презентацию защищено шифрованием, в противном случае False. Свойство только для чтения типа Boolean.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ipresentationinfo/isencrypted/
 ---
 
-## IPresentationInfo.IsEncrypted свойство
+## IPresentationInfo.IsEncrypted property
 
-Возвращает True, если связанная презентация зашифрована, иначе False. Только для чтения Boolean.
+Возвращает True, если связанную презентацию защищено шифрованием, в противном случае False. Свойство только для чтения типа Boolean.
 
 ```csharp
 public bool IsEncrypted { get; }
 ```
 
-### Также смотрите
+### См. также
 
 * интерфейс [IPresentationInfo](../../ipresentationinfo)
 * пространство имен [Aspose.Slides](../../ipresentationinfo)

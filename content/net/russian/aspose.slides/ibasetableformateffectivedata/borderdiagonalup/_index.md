@@ -1,21 +1,21 @@
 ---
 title: BorderDiagonalUp
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает эффективное значение формата линии диагонали вверх. Только для чтения ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает эффективное значение формата линии по диагонали вверх. Только для чтения ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs
 weight: 30
 url: /ru/aspose.slides/ibasetableformateffectivedata/borderdiagonalup/
 ---
 
-## Свойство IBaseTableFormatEffectiveData.BorderDiagonalUp
+## IBaseTableFormatEffectiveData.BorderDiagonalUp свойство
 
-Возвращает эффективное значение формата линии диагонали вверх. Только для чтения [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
+Возвращает эффективное значение формата линии по диагонали вверх. Только для чтения [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
 
 ```csharp
 public ILineFormatEffectiveData BorderDiagonalUp { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [ILineFormatEffectiveData](../../ilineformateffectivedata)
 * интерфейс [IBaseTableFormatEffectiveData](../../ibasetableformateffectivedata)

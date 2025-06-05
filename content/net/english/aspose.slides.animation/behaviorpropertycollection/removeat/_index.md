@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.animation/behaviorpropertycollection/removeat/
 ---
+
 ## BehaviorPropertyCollection.RemoveAt method
 
 Removes property at the specified index.

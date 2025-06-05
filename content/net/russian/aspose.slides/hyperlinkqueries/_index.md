@@ -1,7 +1,7 @@
 ---
 title: HyperlinkQueries
-second_title: Справочник по API Aspose.Slides для .NET
-description: Обеспечьте легкий доступ к содержащимся гиперссылкам.
+second_title: Aspose.Slides для .NET API Reference
+description: Обеспечение простого доступа к содержащимся гиперссылкам.
 type: docs
 weight: 4960
 url: /ru/aspose.slides/hyperlinkqueries/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/hyperlinkqueries/
 
 ## Класс HyperlinkQueries
 
-Обеспечьте легкий доступ к содержащимся гиперссылкам.
+Обеспечение простого доступа к содержащимся гиперссылкам.
 
 ```csharp
 public sealed class HyperlinkQueries : IHyperlinkQueries
@@ -19,10 +19,10 @@ public sealed class HyperlinkQueries : IHyperlinkQueries
 
 | Название | Описание |
 | --- | --- |
-| [GetAnyHyperlinks](../../aspose.slides/hyperlinkqueries/getanyhyperlinks)() | Получить все подобъекты IHyperlinkContainer, которые содержат не нулевую HyperlinkMouseOver. С данным объектом IHyperlinkContainer вы можете управлять его гиперссылкой (читать, обновлять или удалять). См. интерфейс IHyperlinkContainer. |
-| [GetHyperlinkClicks](../../aspose.slides/hyperlinkqueries/gethyperlinkclicks)() | Получить все подобъекты IHyperlinkContainer, которые содержат не нулевую HyperlinkClick. С данным объектом IHyperlinkContainer вы можете управлять его гиперссылкой (читать, обновлять или удалять). См. интерфейс IHyperlinkContainer. |
-| [GetHyperlinkMouseOvers](../../aspose.slides/hyperlinkqueries/gethyperlinkmouseovers)() | Получить все подобъекты IHyperlinkContainer, которые содержат не нулевую HyperlinkMouseOver. С данным объектом IHyperlinkContainer вы можете управлять его гиперссылкой (читать, обновлять или удалять). См. интерфейс IHyperlinkContainer. |
-| [RemoveAllHyperlinks](../../aspose.slides/hyperlinkqueries/removeallhyperlinks)() | Удаляет все содержащиеся гиперссылки HyperlinkClick и HyperlinkMouseOver (во всех подобъектах IHyperlinkContainer). |
+| [GetAnyHyperlinks](../../aspose.slides/hyperlinkqueries/getanyhyperlinks)() | Получает все подобъекты IHyperlinkContainer, которые содержат не null HyperlinkMouseOver. С данным объектом IHyperlinkContainer вы можете управлять его гиперссылкой (читать, обновлять или удалять). См. интерфейс IHyperlinkContainer. |
+| [GetHyperlinkClicks](../../aspose.slides/hyperlinkqueries/gethyperlinkclicks)() | Получает все подобъекты IHyperlinkContainer, которые содержат не null HyperlinkClick. С данным объектом IHyperlinkContainer вы можете управлять его гиперссылкой (читать, обновлять или удалять). См. интерфейс IHyperlinkContainer. |
+| [GetHyperlinkMouseOvers](../../aspose.slides/hyperlinkqueries/gethyperlinkmouseovers)() | Получает все подобъекты IHyperlinkContainer, которые содержат не null HyperlinkMouseOver. С данным объектом IHyperlinkContainer вы можете управлять его гиперссылкой (читать, обновлять или удалять). См. интерфейс IHyperlinkContainer. |
+| [RemoveAllHyperlinks](../../aspose.slides/hyperlinkqueries/removeallhyperlinks)() | Удаляет все содержащиеся гиперссылки HyperlinkClick и HyperlinkMouseOver (во всех подгруппах IHyperlinkContainer). |
 
 ### См. также
 

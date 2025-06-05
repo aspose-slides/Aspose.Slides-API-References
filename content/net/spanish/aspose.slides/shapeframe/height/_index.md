@@ -1,6 +1,6 @@
 ---
-title: Altura
-second_title: Referencia de la API de Aspose.Slides para .NET
+title: Height
+second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve la altura de un marco. Solo lectura Single.
 type: docs
 weight: 60
@@ -15,10 +15,10 @@ Devuelve la altura de un marco. Solo lectura Single.
 public float Height { get; }
 ```
 
-### Ver También
+### Véase También
 
-* clase [ShapeFrame](../../shapeframe)
-* espacio de nombres [Aspose.Slides](../../shapeframe)
-* ensamblado [Aspose.Slides](../../../)
+* class [ShapeFrame](../../shapeframe)
+* namespace [Aspose.Slides](../../shapeframe)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

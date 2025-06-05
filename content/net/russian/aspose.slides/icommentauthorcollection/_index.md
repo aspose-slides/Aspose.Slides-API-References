@@ -1,6 +1,6 @@
 ---
 title: ICommentAuthorCollection
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет собой коллекцию авторов комментариев.
 type: docs
 weight: 5380
@@ -29,11 +29,11 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 | [Clear](../../aspose.slides/icommentauthorcollection/clear)() | Удаляет всех авторов из коллекции. |
 | [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | Находит автора в коллекции по имени. |
 | [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | Находит автора в коллекции по имени и инициалам. |
-| [Remove](../../aspose.slides/icommentauthorcollection/remove)(ICommentAuthor) | Удаляет первое вхождение указанного автора в коллекции. |
-| [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | Удаляет автора по указанному индексу в коллекции. |
+| [Remove](../../aspose.slides/icommentauthorcollection/remove)(ICommentAuthor) | Удаляет первое вхождение указанного автора из коллекции. |
+| [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | Удаляет автора по указанному индексу из коллекции. |
 | [ToArray](../../aspose.slides/icommentauthorcollection/toarray)() | Создает и возвращает массив со всеми авторами. |
 
-### См. также
+### См. Также
 
 * интерфейс [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * интерфейс [ICommentAuthor](../icommentauthor)

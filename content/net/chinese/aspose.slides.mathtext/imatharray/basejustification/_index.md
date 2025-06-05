@@ -1,7 +1,7 @@
 ---
-title: 基本对齐方式
-second_title: Aspose.Slides for .NET API 参考
-description: 指定数组相对于周围文本的对齐方式 数组外的文本可以与数组对象的底部、顶部或中心对齐 默认值：中心
+title: BaseJustification
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定数组相对于周围文本的对齐方式。数组外部的文本可以与数组对象的底部、顶部或中心对齐。默认值：中心
 type: docs
 weight: 30
 url: /zh/aspose.slides.mathtext/imatharray/basejustification/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imatharray/basejustification/
 
 ## IMathArray.BaseJustification 属性
 
-指定数组相对于周围文本的对齐方式 数组外的文本可以与数组对象的底部、顶部或中心对齐 默认值：中心
+指定数组相对于周围文本的对齐方式。数组外部的文本可以与数组对象的底部、顶部或中心对齐。默认值：中心
 
 ```csharp
 public MathVerticalAlignment BaseJustification { get; set; }

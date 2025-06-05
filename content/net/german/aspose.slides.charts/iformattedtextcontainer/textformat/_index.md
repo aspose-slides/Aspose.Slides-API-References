@@ -1,7 +1,7 @@
 ---
 title: TextFormat
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das Textformat eines Charts zurück. Nur-lesbare IChartTextFormataspose.slides.charts/icharttextformat.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt das Textformat des Diagramms zurück. Nur-lesen IChartTextFormataspose.slides.charts/icharttextformat.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/iformattedtextcontainer/textformat/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/iformattedtextcontainer/textformat/
 
 ## IFormattedTextContainer.TextFormat-Eigenschaft
 
-Gibt das Textformat eines Charts zurück. Nur-lesbare [`IChartTextFormat`](../../icharttextformat).
+Gibt das Textformat des Diagramms zurück. Nur-lesen [`IChartTextFormat`](../../icharttextformat).
 
 ```csharp
 public IChartTextFormat TextFormat { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IChartTextFormat](../../icharttextformat)
 * Schnittstelle [IFormattedTextContainer](../../iformattedtextcontainer)

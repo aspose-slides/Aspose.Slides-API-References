@@ -1,13 +1,13 @@
 ---
 title: InterpretMaskOpAsOpacity
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Utiliza la operación ROP o la Opacidad para renderizar el pincel.
 type: docs
 weight: 20
 url: /es/aspose.slides.export/inkoptions/interpretmaskopasopacity/
 ---
 
-## InkOptions.InterpretMaskOpAsOpacity propiedad
+## Propiedad InkOptions.InterpretMaskOpAsOpacity
 
 Utiliza la operación ROP o la Opacidad para renderizar el pincel.
 
@@ -15,7 +15,7 @@ Utiliza la operación ROP o la Opacidad para renderizar el pincel.
 public bool InterpretMaskOpAsOpacity { get; set; }
 ```
 
-### Notas
+### Observaciones
 
 El valor predeterminado es verdadero.
 
@@ -33,10 +33,10 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Véase también
+### Véase También
 
-* clase [InkOptions](../../inkoptions)
-* espacio de nombres [Aspose.Slides.Export](../../inkoptions)
-* ensamblaje [Aspose.Slides](../../../)
+* class [InkOptions](../../inkoptions)
+* namespace [Aspose.Slides.Export](../../inkoptions)
+* assembly [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->

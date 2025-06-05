@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides/iparagraphformateffectivedata/spacebefore/
 ---
+
 ## IParagraphFormatEffectiveData.SpaceBefore property
 
 Returns the amount of space before the first line in a paragraph. Read-only Single.

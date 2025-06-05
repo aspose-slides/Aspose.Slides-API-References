@@ -1,6 +1,6 @@
 ---
-title: Seuil
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Threshold
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Retourne le seuil de l'effet. Lecture seule Single.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ Retourne le seuil de l'effet. Lecture seule Single.
 public float Threshold { get; }
 ```
 
-### À Voir Aussi
+### Voir Aussi
 
 * interface [IAlphaBiLevelEffectiveData](../../ialphabileveleffectivedata)
 * namespace [Aspose.Slides.Effects](../../ialphabileveleffectivedata)

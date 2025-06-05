@@ -19,6 +19,6 @@ public bool ViewerIncluded { get; set; }
 
 * clase [SwfOptions](../../swfoptions)
 * espacio de nombres [Aspose.Slides.Export](../../swfoptions)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

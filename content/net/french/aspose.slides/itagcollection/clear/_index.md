@@ -1,5 +1,5 @@
 ---
-title: Effacer
+title: Clear
 second_title: Référence API Aspose.Slides pour .NET
 description: Supprime tous les tags de la collection.
 type: docs
@@ -7,7 +7,7 @@ weight: 30
 url: /fr/aspose.slides/itagcollection/clear/
 ---
 
-## Méthode ITagCollection.Clear
+## ITagCollection.Clear méthode
 
 Supprime tous les tags de la collection.
 

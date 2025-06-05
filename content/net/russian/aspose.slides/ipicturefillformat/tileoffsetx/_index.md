@@ -1,15 +1,15 @@
 ---
 title: TileOffsetX
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает горизонтальный смещение текстуры от точки начала формы в пунктах. Положительное значение перемещает текстуру вправо, в то время как отрицательное значение перемещает ее влево. Чтение/запись Single.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или задает горизонтальный сдвиг текстуры от начала формы в пунктах. Положительное значение смещает текстуру вправо, в то время как отрицательное значение смещает ее влево. Чтение/запись Single.
 type: docs
 weight: 150
 url: /ru/aspose.slides/ipicturefillformat/tileoffsetx/
 ---
 
-## Свойство IPictureFillFormat.TileOffsetX
+## IPictureFillFormat.TileOffsetX свойство
 
-Возвращает или устанавливает горизонтальный смещение текстуры от точки начала формы в пунктах. Положительное значение перемещает текстуру вправо, в то время как отрицательное значение перемещает ее влево. Чтение/запись Single.
+Возвращает или задает горизонтальный сдвиг текстуры от начала формы в пунктах. Положительное значение смещает текстуру вправо, в то время как отрицательное значение смещает ее влево. Чтение/запись Single.
 
 ```csharp
 public float TileOffsetX { get; set; }
@@ -26,15 +26,15 @@ using (Presentation presentation = new Presentation("demo.pptx"))
     // Получает формат заполнения изображения формы
     IPictureFillFormat pictureFillFormat = slide.Shapes[0].FillFormat.PictureFillFormat;
 
-    // Устанавливает режим заполнения изображения на Tile
+    // Устанавливает режим заполнения изображения в Плитка
     pictureFillFormat.PictureFillMode = PictureFillMode.Tile;
 
-    // Устанавливает горизонтальное смещение текстуры на 20 пунктов
+    // Устанавливает горизонтальный сдвиг текстуры на 20 пунктов
     pictureFillFormat.TileOffsetX = 20f;
 }
 ```
 
-### Также см.
+### Смотрите Также
 
 * интерфейс [IPictureFillFormat](../../ipicturefillformat)
 * пространство имен [Aspose.Slides](../../ipicturefillformat)

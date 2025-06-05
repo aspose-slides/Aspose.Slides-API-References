@@ -1,13 +1,13 @@
 ---
 title: MathLeftSubSuperscriptElement
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Initialise une nouvelle instance de la classe MathLeftSubSuperscriptElement.
 type: docs
 weight: 10
 url: /fr/aspose.slides.mathtext/mathleftsubsuperscriptelement/mathleftsubsuperscriptelement/
 ---
 
-## Constructeur MathLeftSubSuperscriptElement
+## Constructeur de MathLeftSubSuperscriptElement
 
 Initialise une nouvelle instance de la classe MathLeftSubSuperscriptElement.
 
@@ -18,7 +18,7 @@ public MathLeftSubSuperscriptElement(IMathElement baseArg, IMathElement subScrip
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -28,7 +28,7 @@ IMathElement superscript = new MathematicalText("j");
 MathLeftSubSuperscriptElement leftSubSuperscript = new MathLeftSubSuperscriptElement(baseElement, subscript, superscript);
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathElement](../../imathelement)
 * class [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement)

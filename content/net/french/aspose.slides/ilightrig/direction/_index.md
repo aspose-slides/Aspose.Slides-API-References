@@ -1,15 +1,15 @@
 ---
 title: Direction
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Direction de la lumière. Lecture/écriture de LightingDirectionaspose.slides/lightingdirection.
+description: Direction de la lumière. Lire/écrire LightingDirectionaspose.slides/lightingdirection.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ilightrig/direction/
 ---
 
-## Propriété ILightRig.Direction
+## ILightRig.Direction propriété
 
-Direction de la lumière. Lecture/écriture de [`LightingDirection`](../../lightingdirection).
+Direction de la lumière. Lire/écrire [`LightingDirection`](../../lightingdirection).
 
 ```csharp
 public LightingDirection Direction { get; set; }

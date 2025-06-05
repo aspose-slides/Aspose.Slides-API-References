@@ -1,15 +1,15 @@
 ---
 title: BiLevel
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente un effet Bi-Niveau noir/blanc. Les couleurs d'entrée dont la luminance est inférieure à la valeur seuil spécifiée sont changées en noir. Les couleurs d'entrée dont la luminance est supérieure ou égale à la valeur spécifiée sont réglées sur blanc. Les valeurs de l'effet alpha ne sont pas affectées par cet effet.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Représente un effet bicolore noir/blanc. Les couleurs d'entrée dont la luminance est inférieure à la valeur seuil spécifiée sont changées en noir. Les couleurs d'entrée dont la luminance est supérieure ou égale à la valeur spécifiée sont réglées sur blanc. Les valeurs d'effet alpha ne sont pas affectées par cet effet.
 type: docs
 weight: 2820
 url: /fr/aspose.slides.effects/bilevel/
 ---
 
-## Classe BiLevel
+## BiLevel class
 
-Représente un effet Bi-Niveau (noir/blanc). Les couleurs d'entrée dont la luminance est inférieure à la valeur seuil spécifiée sont changées en noir. Les couleurs d'entrée dont la luminance est supérieure ou égale à la valeur spécifiée sont réglées sur blanc. Les valeurs de l'effet alpha ne sont pas affectées par cet effet.
+Représente un effet bicolore (noir/blanc). Les couleurs d'entrée dont la luminance est inférieure à la valeur seuil spécifiée sont changées en noir. Les couleurs d'entrée dont la luminance est supérieure ou égale à la valeur spécifiée sont réglées sur blanc. Les valeurs d'effet alpha ne sont pas affectées par cet effet.
 
 ```csharp
 public sealed class BiLevel : ImageTransformOperation, IBiLevel
@@ -26,12 +26,12 @@ public sealed class BiLevel : ImageTransformOperation, IBiLevel
 | Nom | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/bilevel/equals)(object) | Détermine si le [`BiLevel`](../bilevel) spécifié est égal au [`BiLevel`](../bilevel) actuel. |
-| [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | Obtient les données effectives de l'effet Bi-Niveau avec l'héritage appliqué. |
+| [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | Obtient les données effectives de l'effet Bi-Level avec l'héritage appliqué. |
 | override [GetHashCode](../../aspose.slides.effects/bilevel/gethashcode)() | Sert de fonction de hachage pour un type particulier. |
 
 ### Voir Aussi
 
-* classe [ImageTransformOperation](../imagetransformoperation)
+* class [ImageTransformOperation](../imagetransformoperation)
 * interface [IBiLevel](../ibilevel)
 * namespace [Aspose.Slides.Effects](../../aspose.slides.effects)
 * assembly [Aspose.Slides](../../)

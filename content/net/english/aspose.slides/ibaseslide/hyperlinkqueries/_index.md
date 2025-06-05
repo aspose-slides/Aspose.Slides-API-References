@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/ibaseslide/hyperlinkqueries/
 ---
+
 ## IBaseSlide.HyperlinkQueries property
 
 Provides easy access to contained hyperlinks. Read-only [`IHyperlinkQueries`](../../ihyperlinkqueries).

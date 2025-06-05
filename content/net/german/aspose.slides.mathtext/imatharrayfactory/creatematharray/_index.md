@@ -1,6 +1,6 @@
 ---
 title: CreateMathArray
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API-Verweis
 description: Erstellt ein mathematisches Array und platziert das angegebene Element darin
 type: docs
 weight: 10
@@ -23,7 +23,7 @@ public IMathArray CreateMathArray(IMathElement element)
 
 neues mathematisches Array
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMathArray](../../imatharray)
 * Schnittstelle [IMathElement](../../imathelement)
@@ -49,7 +49,7 @@ public IMathArray CreateMathArray(IMathElementCollection elements)
 
 neues mathematisches Array
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMathArray](../../imatharray)
 * Schnittstelle [IMathElementCollection](../../imathelementcollection)

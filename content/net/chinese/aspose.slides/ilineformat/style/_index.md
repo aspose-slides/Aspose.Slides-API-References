@@ -1,6 +1,6 @@
 ---
-title: 样式
-second_title: Aspose.Slides for .NET API 参考
+title: Style
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回或设置线条样式。可读/写 LineStyleaspose.slides/linestyle。
 type: docs
 weight: 170
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ilineformat/style/
 public LineStyle Style { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * 枚举 [LineStyle](../../linestyle)
 * 接口 [ILineFormat](../../ilineformat)

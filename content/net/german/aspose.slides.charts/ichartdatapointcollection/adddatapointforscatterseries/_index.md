@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForScatterSeries
 second_title: Aspose.Slides für .NET API-Referenz
-description: Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType eines der Scatter-Subtypen ist siehe auch die Methode ChartTypeCharacterizer.IsChartTypeScatterChartType.
+description: Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType eine der Scatter-Unterarten ist, siehe auch die Methode ChartTypeCharacterizer.IsChartTypeScatterChartType.
 type: docs
 weight: 180
 url: /de/aspose.slides.charts/ichartdatapointcollection/adddatapointforscatterseries/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartdatapointcollection/adddatapointforscatterse
 
 ## AddDataPointForScatterSeries(IChartDataCell, IChartDataCell) {#adddatapointforscatterseries}
 
-Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType eines der Scatter-Subtypen ist (siehe auch die Methode ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
+Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType eine der Scatter-Unterarten ist (siehe auch die Methode ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, IChartDataCell yValue)
@@ -29,14 +29,14 @@ Neuer Datenpunkt.
 * Schnittstelle [IChartDataPoint](../../ichartdatapoint)
 * Schnittstelle [IChartDataCell](../../ichartdatacell)
 * Schnittstelle [IChartDataPointCollection](../../ichartdatapointcollection)
-* Namensraum [Aspose.Slides.Charts](../../ichartdatapointcollection)
+* Namespace [Aspose.Slides.Charts](../../ichartdatapointcollection)
 * Assembly [Aspose.Slides](../../../)
 
 ---
 
 ## AddDataPointForScatterSeries(double, IChartDataCell) {#adddatapointforscatterseries_2}
 
-Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType eines der Scatter-Subtypen ist (siehe auch die Methode ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
+Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType eine der Scatter-Unterarten ist (siehe auch die Methode ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(double xValue, IChartDataCell yValue)
@@ -56,14 +56,14 @@ Neuer Datenpunkt.
 * Schnittstelle [IChartDataPoint](../../ichartdatapoint)
 * Schnittstelle [IChartDataCell](../../ichartdatacell)
 * Schnittstelle [IChartDataPointCollection](../../ichartdatapointcollection)
-* Namensraum [Aspose.Slides.Charts](../../ichartdatapointcollection)
+* Namespace [Aspose.Slides.Charts](../../ichartdatapointcollection)
 * Assembly [Aspose.Slides](../../../)
 
 ---
 
 ## AddDataPointForScatterSeries(string, IChartDataCell) {#adddatapointforscatterseries_4}
 
-Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType eines der Scatter-Subtypen ist (siehe auch die Methode ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
+Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType eine der Scatter-Unterarten ist (siehe auch die Methode ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(string xValue, IChartDataCell yValue)
@@ -83,14 +83,14 @@ Neuer Datenpunkt.
 * Schnittstelle [IChartDataPoint](../../ichartdatapoint)
 * Schnittstelle [IChartDataCell](../../ichartdatacell)
 * Schnittstelle [IChartDataPointCollection](../../ichartdatapointcollection)
-* Namensraum [Aspose.Slides.Charts](../../ichartdatapointcollection)
+* Namespace [Aspose.Slides.Charts](../../ichartdatapointcollection)
 * Assembly [Aspose.Slides](../../../)
 
 ---
 
 ## AddDataPointForScatterSeries(IChartDataCell, double) {#adddatapointforscatterseries_1}
 
-Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType eines der Scatter-Subtypen ist (siehe auch die Methode ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
+Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType eine der Scatter-Unterarten ist (siehe auch die Methode ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, double yValue)
@@ -110,14 +110,14 @@ Neuer Datenpunkt.
 * Schnittstelle [IChartDataPoint](../../ichartdatapoint)
 * Schnittstelle [IChartDataCell](../../ichartdatacell)
 * Schnittstelle [IChartDataPointCollection](../../ichartdatapointcollection)
-* Namensraum [Aspose.Slides.Charts](../../ichartdatapointcollection)
+* Namespace [Aspose.Slides.Charts](../../ichartdatapointcollection)
 * Assembly [Aspose.Slides](../../../)
 
 ---
 
 ## AddDataPointForScatterSeries(double, double) {#adddatapointforscatterseries_3}
 
-Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType eines der Scatter-Subtypen ist (siehe auch die Methode ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
+Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType eine der Scatter-Unterarten ist (siehe auch die Methode ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(double xValue, double yValue)
@@ -136,14 +136,14 @@ Neuer Datenpunkt.
 
 * Schnittstelle [IChartDataPoint](../../ichartdatapoint)
 * Schnittstelle [IChartDataPointCollection](../../ichartdatapointcollection)
-* Namensraum [Aspose.Slides.Charts](../../ichartdatapointcollection)
+* Namespace [Aspose.Slides.Charts](../../ichartdatapointcollection)
 * Assembly [Aspose.Slides](../../../)
 
 ---
 
 ## AddDataPointForScatterSeries(string, double) {#adddatapointforscatterseries_5}
 
-Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType eines der Scatter-Subtypen ist (siehe auch die Methode ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
+Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType eine der Scatter-Unterarten ist (siehe auch die Methode ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(string xValue, double yValue)
@@ -162,7 +162,7 @@ Neuer Datenpunkt.
 
 * Schnittstelle [IChartDataPoint](../../ichartdatapoint)
 * Schnittstelle [IChartDataPointCollection](../../ichartdatapointcollection)
-* Namensraum [Aspose.Slides.Charts](../../ichartdatapointcollection)
+* Namespace [Aspose.Slides.Charts](../../ichartdatapointcollection)
 * Assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

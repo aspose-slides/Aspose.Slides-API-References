@@ -1,6 +1,6 @@
 ---
-title: 主题
-second_title: Aspose.Slides for .NET API 参考
+title: Subject
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回或设置演示文稿的主题。可读写字符串。
 type: docs
 weight: 310
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/idocumentproperties/subject/
 public string Subject { get; set; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IDocumentProperties](../../idocumentproperties)
 * 命名空间 [Aspose.Slides](../../idocumentproperties)

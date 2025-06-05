@@ -1,7 +1,7 @@
 ---
 title: EastAsianFont
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit la police est-asiatique. Lecture/écriture IFontData aspose.slides/ifontdata.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Renvoie ou définit la police est-asiatique. Lecture/écriture IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 20
 url: /fr/aspose.slides/fonts/eastasianfont/
@@ -15,7 +15,7 @@ Renvoie ou définit la police est-asiatique. Lecture/écriture [`IFontData`](../
 public IFontData EastAsianFont { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IFontData](../../ifontdata)
 * classe [Fonts](../../fonts)

@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.charts/ichartdatapointcollection/adddatapointforboxandwhiskerseries/
 ---
+
 ## IChartDataPointCollection.AddDataPointForBoxAndWhiskerSeries method
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chart type is BoxAndWhisker.

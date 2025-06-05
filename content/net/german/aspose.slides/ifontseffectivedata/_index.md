@@ -1,7 +1,7 @@
 ---
 title: IFontsEffectiveData
-second_title: Aspose.Slides für .NET API Referenz
-description: Unveränderliches Objekt, das ein effektives Set von Schriftarten enthält.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Unveränderliches Objekt, das das effektive Schriftarten-Set enthält.
 type: docs
 weight: 5710
 url: /de/aspose.slides/ifontseffectivedata/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ifontseffectivedata/
 
 ## IFontsEffectiveData-Schnittstelle
 
-Unveränderliches Objekt, das ein effektives Set von Schriftarten enthält.
+Unveränderliches Objekt, das das effektive Schriftarten-Set enthält.
 
 ```csharp
 public interface IFontsEffectiveData
@@ -19,13 +19,13 @@ public interface IFontsEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | Gibt die Schriftart für komplexe Skripte zurück. Nur lesbar [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | Gibt die ostasiatische Schriftart zurück. Nur lesbar [`IFontData`](../ifontdata). |
-| [LatinFont](../../aspose.slides/ifontseffectivedata/latinfont) { get; } | Gibt die lateinische Schriftart zurück. Nur lesbar [`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | Gibt die komplexe Skriptschriftart zurück. Nur-Lese [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | Gibt die ostasiatische Schriftart zurück. Nur-Lese [`IFontData`](../ifontdata). |
+| [LatinFont](../../aspose.slides/ifontseffectivedata/latinfont) { get; } | Gibt die lateinische Schriftart zurück. Nur-Lese [`IFontData`](../ifontdata). |
 
-### Anmerkungen
+### Hinweise
 
-Diese Schnittstelle wird als Teil von [`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata) und [`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata) Schnittstellen verwendet.
+Diese Schnittstelle wird als Teil der Schnittstellen [`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata) und [`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata) verwendet.
 
 ### Siehe auch
 

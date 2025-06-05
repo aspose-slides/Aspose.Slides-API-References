@@ -1,22 +1,23 @@
 ---
 title: CreateImageWrapper
 second_title: Aspose.Sildes for .NET API Reference
-description: Initializes a new instance of the BitmapWrapper class from the specified existing image.
+description: Initializes a new instance of the ImageWrapper class from the specified existing image.
 type: docs
 weight: 10
 url: /aspose.slides/iimagewrapperfactory/createimagewrapper/
 ---
-## CreateImageWrapper(Image) {#createimagewrapper}
 
-Initializes a new instance of the BitmapWrapper class from the specified existing image.
+## CreateImageWrapper(IImage) {#createimagewrapper}
+
+Initializes a new instance of the ImageWrapper class from the specified existing image.
 
 ```csharp
-public IImageWrapper CreateImageWrapper(Image image)
+public IImageWrapper CreateImageWrapper(IImage image)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| image | Image | Existing Image Image |
+| image | IImage | Existing Image Image |
 
 ### Return Value
 
@@ -25,15 +26,16 @@ New instance of a [`IImageWrapper`](../../iimagewrapper)
 ### See Also
 
 * interface [IImageWrapper](../../iimagewrapper)
+* interface [IImage](../../iimage)
 * interface [IImageWrapperFactory](../../iimagewrapperfactory)
 * namespace [Aspose.Slides](../../iimagewrapperfactory)
 * assembly [Aspose.Slides](../../../)
 
 ---
 
-## CreateImageWrapper(Stream) {#createimagewrapper_1}
+## CreateImageWrapper(Stream) {#createimagewrapper_2}
 
-Initializes a new instance of the BitmapWrapper class from the specified data stream.
+Initializes a new instance of the ImageWrapper class from the specified data stream.
 
 ```csharp
 public IImageWrapper CreateImageWrapper(Stream stream)
@@ -56,9 +58,9 @@ New instance of a [`IImageWrapper`](../../iimagewrapper)
 
 ---
 
-## CreateImageWrapper(string) {#createimagewrapper_2}
+## CreateImageWrapper(string) {#createimagewrapper_3}
 
-Initializes a new instance of the BitmapWrapper class from the specified file.
+Initializes a new instance of the ImageWrapper class from the specified file.
 
 ```csharp
 public IImageWrapper CreateImageWrapper(string fileName)

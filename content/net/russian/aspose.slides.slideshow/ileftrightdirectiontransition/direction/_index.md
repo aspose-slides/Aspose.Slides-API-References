@@ -1,13 +1,13 @@
 ---
-title: Направление
-second_title: Справка по API Aspose.Slides для .NET
+title: Direction
+second_title: Aspose.Sildes для .NET API Reference
 description: Направление перехода. Чтение/запись TransitionLeftRightDirectionTypeaspose.slides.slideshow/transitionleftrightdirectiontype.
 type: docs
 weight: 20
 url: /ru/aspose.slides.slideshow/ileftrightdirectiontransition/direction/
 ---
 
-## ILeftRightDirectionTransition.Direction свойство
+## ILeftRightDirectionTransition.Direction property
 
 Направление перехода. Чтение/запись [`TransitionLeftRightDirectionType`](../../transitionleftrightdirectiontype).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.slideshow/ileftrightdirectiontransition/direction/
 public TransitionLeftRightDirectionType Direction { get; set; }
 ```
 
-### См. также
+### See Also
 
 * enum [TransitionLeftRightDirectionType](../../transitionleftrightdirectiontype)
 * interface [ILeftRightDirectionTransition](../../ileftrightdirectiontransition)

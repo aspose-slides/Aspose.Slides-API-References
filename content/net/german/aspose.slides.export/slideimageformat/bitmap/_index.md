@@ -1,13 +1,13 @@
 ---
 title: Bitmap
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Folien sollten in ein Rasterbild konvertiert werden.
 type: docs
 weight: 20
 url: /de/aspose.slides.export/slideimageformat/bitmap/
 ---
 
-## SlideImageFormat.Bitmap Methode
+## SlideImageFormat.Bitmap-Methode
 
 Folien sollten in ein Rasterbild konvertiert werden.
 
@@ -17,7 +17,7 @@ public static SlideImageFormat Bitmap(float scale, ImageFormat imgFormat)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| scale | Single | Bildmaßstabfaktor. |
+| scale | Single | Bildskalierungsfaktor. |
 | imgFormat | ImageFormat | Bildformat. |
 
 ### Siehe auch

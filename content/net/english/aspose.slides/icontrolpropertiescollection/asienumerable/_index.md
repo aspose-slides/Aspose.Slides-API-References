@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/icontrolpropertiescollection/asienumerable/
 ---
+
 ## IControlPropertiesCollection.AsIEnumerable property
 
 Returns IEnumerable interface. Read-only IEnumerable.

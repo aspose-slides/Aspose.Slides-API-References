@@ -1,13 +1,13 @@
 ---
-title: СкоростьПерехода
-second_title: Справочник по API Aspose.Slides для .NET
+title: TransitionSpeed
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет типы скорости перехода.
 type: docs
 weight: 10130
 url: /ru/aspose.slides.slideshow/transitionspeed/
 ---
 
-## Перечисление СкоростьПерехода
+## Перечисление TransitionSpeed
 
 Представляет типы скорости перехода.
 
@@ -17,13 +17,13 @@ public enum TransitionSpeed
 
 ### Значения
 
-| Имя | Значение | Описание |
+| Название | Значение | Описание |
 | --- | --- | --- |
 | Быстро | `0` |  |
 | Средне | `1` |  |
 | Медленно | `2` |  |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * сборка [Aspose.Slides](../../)

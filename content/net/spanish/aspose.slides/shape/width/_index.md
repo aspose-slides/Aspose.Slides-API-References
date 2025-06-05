@@ -1,5 +1,5 @@
 ---
-title: Ancho
+title: Width
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece el ancho de la forma. Lectura/escritura Single.
 type: docs
@@ -15,11 +15,11 @@ Devuelve o establece el ancho de la forma. Lectura/escritura Single.
 public float Width { get; set; }
 ```
 
-### Comentarios
+### Observaciones
 
-El valor devuelto siempre está definido (no es float.NaN). El valor asignado debe estar definido (no float.NaN). Puede establecer valores indefinidos para las propiedades de la instancia RawFrame.
+El valor devuelto siempre está definido (no es float.NaN). El valor asignado debe estar definido (no float.NaN). Puedes establecer valores indefinidos para las propiedades de la instancia RawFrame.
 
-### Véase También
+### Ver También
 
 * clase [Shape](../../shape)
 * espacio de nombres [Aspose.Slides](../../shape)

@@ -15,10 +15,10 @@ Devuelve o establece un tiempo de la última pista. Lectura/escritura Int32.
 public int AudioCdEndTrackTime { get; set; }
 ```
 
-### Ver también
+### Véase También
 
-* interfaz [IAudioFrame](../../iaudioframe)
-* espacio de nombres [Aspose.Slides](../../iaudioframe)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IAudioFrame](../../iaudioframe)
+* espacio de nombres [Aspose.Slides](../../iaudioframe)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

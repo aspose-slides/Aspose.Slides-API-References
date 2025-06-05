@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/alphafloor/geteffective/
 ---
+
 ## AlphaFloor.GetEffective method
 
 Gets effective Alpha Floor effect data with the inheritance applied.

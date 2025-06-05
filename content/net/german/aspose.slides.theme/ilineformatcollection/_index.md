@@ -1,13 +1,13 @@
 ---
 title: ILineFormatCollection
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Stellt die Sammlung von Linienformaten dar.
 type: docs
 weight: 10980
 url: /de/aspose.slides.theme/ilineformatcollection/
 ---
 
-## ILineFormatCollection-Schnittstelle
+## ILineFormatCollection Schnittstelle
 
 Stellt die Sammlung von Linienformaten dar.
 
@@ -19,9 +19,9 @@ public interface ILineFormatCollection : IGenericCollection<ILineFormat>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ilineformatcollection/item) { get; } | Gibt das Element an dem angegebenen Index zurück. Nur lesend [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Item](../../aspose.slides.theme/ilineformatcollection/item) { get; } | Erhält das Element am angegebenen Index. Nur-Lese [`ILineFormat`](../../aspose.slides/ilineformat). |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * Schnittstelle [ILineFormat](../../aspose.slides/ilineformat)

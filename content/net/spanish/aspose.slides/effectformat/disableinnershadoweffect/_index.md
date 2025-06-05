@@ -7,7 +7,7 @@ weight: 130
 url: /es/aspose.slides/effectformat/disableinnershadoweffect/
 ---
 
-## Método EffectFormat.DisableInnerShadowEffect
+## EffectFormat.DisableInnerShadowEffect método
 
 Desactiva el efecto de sombra interna.
 
@@ -15,10 +15,10 @@ Desactiva el efecto de sombra interna.
 public void DisableInnerShadowEffect()
 ```
 
-### Ver también
+### Ver También
 
-* clase [EffectFormat](../../effectformat)
-* espacio de nombres [Aspose.Slides](../../effectformat)
-* ensamblaje [Aspose.Slides](../../../)
+* class [EffectFormat](../../effectformat)
+* namespace [Aspose.Slides](../../effectformat)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

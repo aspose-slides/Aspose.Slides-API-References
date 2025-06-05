@@ -1,13 +1,13 @@
 ---
 title: StrokeColor2
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет свойство stroke.color2
 type: docs
 weight: 890
 url: /ru/aspose.slides.animation/behaviorproperty/strokecolor2/
 ---
 
-## Свойство BehaviorProperty.StrokeColor2
+## BehaviorProperty.StrokeColor2 свойство
 
 Представляет свойство 'stroke.color2'
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/behaviorproperty/strokecolor2/
 public static BehaviorProperty StrokeColor2 { get; }
 ```
 
-### См. также
+### См. Также
 
 * класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)

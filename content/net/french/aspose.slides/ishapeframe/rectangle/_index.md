@@ -1,15 +1,15 @@
 ---
 title: Rectangle
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Renvoie les coordonnées d'un cadre. RectangleF en lecture seule.
+second_title: Référence API Aspose.Slides pour .NET
+description: Retourne les coordonnées d'un cadre. Read-only RectangleF.
 type: docs
 weight: 60
 url: /fr/aspose.slides/ishapeframe/rectangle/
 ---
 
-## Propriété IShapeFrame.Rectangle
+## IShapeFrame.Rectangle propriété
 
-Renvoie les coordonnées d'un cadre. RectangleF en lecture seule.
+Retourne les coordonnées d'un cadre. Read-only RectangleF.
 
 ```csharp
 public RectangleF Rectangle { get; }

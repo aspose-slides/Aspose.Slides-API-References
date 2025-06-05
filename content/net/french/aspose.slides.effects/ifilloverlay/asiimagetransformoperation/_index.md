@@ -7,9 +7,9 @@ weight: 20
 url: /fr/aspose.slides.effects/ifilloverlay/asiimagetransformoperation/
 ---
 
-## Propriété IFillOverlay.AsIImageTransformOperation
+## IFillOverlay.AsIImageTransformOperation propriété
 
-Permet d'obtenir l'interface de base IImageTransformOperation. Lecture seule [`IImageTransformOperation`](../../iimagetransformoperation).
+Permet d'obtenir l'interface de base IImageTransformOperation. [`IImageTransformOperation`](../../iimagetransformoperation) en lecture seule.
 
 ```csharp
 public IImageTransformOperation AsIImageTransformOperation { get; }

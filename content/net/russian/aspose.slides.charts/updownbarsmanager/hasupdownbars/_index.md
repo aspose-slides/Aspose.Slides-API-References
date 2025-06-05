@@ -1,7 +1,7 @@
 ---
 title: HasUpDownBars
-second_title: Aspose.Sildes для .NET API Справочник
-description: HasUpDownBars. Чтение/запись логического значения.
+second_title: Справка по API Aspose.Slides для .NET
+description: HasUpDownBars. Чтение/запись булевого значения.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/updownbarsmanager/hasupdownbars/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/updownbarsmanager/hasupdownbars/
 
 ## UpDownBarsManager.HasUpDownBars свойство
 
-HasUpDownBars. Чтение/запись логического значения.
+HasUpDownBars. Чтение/запись булевого значения.
 
 ```csharp
 public bool HasUpDownBars { get; set; }

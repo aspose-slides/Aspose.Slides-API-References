@@ -1,15 +1,15 @@
 ---
 title: AsIChartComponent
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回 IChartComponent 接口。只读 IChartComponentaspose.slides.charts/ichartcomponent。
+second_title: Aspose.Slides for .NET API参考
+description: 返回IChartComponent接口。只读IChartComponentaspose.slides.charts/ichartcomponent。
 type: docs
 weight: 10
 url: /zh/aspose.slides.charts/iformattedtextcontainer/asichartcomponent/
 ---
 
-## IFormattedTextContainer.AsIChartComponent 属性
+## IFormattedTextContainer.AsIChartComponent属性
 
-返回 IChartComponent 接口。只读 [`IChartComponent`](../../ichartcomponent)。
+返回IChartComponent接口。只读 [`IChartComponent`](../../ichartcomponent)。
 
 ```csharp
 public IChartComponent AsIChartComponent { get; }
@@ -17,9 +17,9 @@ public IChartComponent AsIChartComponent { get; }
 
 ### 备注
 
-用于 COM 兼容性。
+为了与COM兼容。
 
-### 另见
+### 另请参阅
 
 * 接口 [IChartComponent](../../ichartcomponent)
 * 接口 [IFormattedTextContainer](../../iformattedtextcontainer)

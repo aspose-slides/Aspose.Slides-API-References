@@ -1,6 +1,6 @@
 ---
-title: Droit
-second_title: Référence API Aspose.Slides pour .NET
+title: Right
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Droit. Lecture seule Single.
 type: docs
 weight: 110
@@ -15,9 +15,9 @@ Droit. Lecture seule Single.
 public float Right { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
-* class [DataLabel](../../datalabel)
+* classe [DataLabel](../../datalabel)
 * namespace [Aspose.Slides.Charts](../../datalabel)
 * assembly [Aspose.Slides](../../../)
 

@@ -1,5 +1,5 @@
 ---
-title: Élément
+title: Item
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie la feuille de calcul par index.
 type: docs
@@ -21,7 +21,7 @@ public IChartDataWorksheet this[int index] { get; }
 
 ### Valeur de retour
 
-Instance de IChartDataWorksheet.
+Instance de l'IChartDataWorksheet.
 
 ### Voir aussi
 

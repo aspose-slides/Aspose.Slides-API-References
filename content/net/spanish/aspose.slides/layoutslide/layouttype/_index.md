@@ -1,6 +1,6 @@
 ---
 title: LayoutType
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve el tipo de diseño de esta diapositiva de diseño. Solo lectura SlideLayoutTypeaspose.slides/slidelayouttype.
 type: docs
 weight: 30

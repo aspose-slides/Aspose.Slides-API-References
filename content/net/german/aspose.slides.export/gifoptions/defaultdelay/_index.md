@@ -1,15 +1,15 @@
 ---
 title: DefaultDelay
-second_title: Aspose.Slides für .NET API Referenz
-description: Ruft die Standardverzögerungszeit ms ab oder setzt sie. Dieser Wert wird verwendet, wenn AdvanceAfterTime aspose.slides/islideshowtransition/advanceaftertime nicht festgelegt ist. Der Standardwert beträgt 1000.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ruft die Standardverzögerungszeit in ms ab oder setzt sie. Dieser Wert wird verwendet, wenn AdvanceAfterTime nicht festgelegt ist. Der Standardwert beträgt 1000.
 type: docs
 weight: 20
 url: /de/aspose.slides.export/gifoptions/defaultdelay/
 ---
 
-## GifOptions.DefaultDelay Eigenschaft
+## GifOptions.DefaultDelay-Eigenschaft
 
-Ruht die Standardverzögerungszeit [ms] ab oder setzt sie. Dieser Wert wird verwendet, wenn [`AdvanceAfterTime`](../../../aspose.slides/islideshowtransition/advanceaftertime) nicht festgelegt ist. Der Standardwert beträgt 1000.
+Ruft die Standardverzögerungszeit [ms] ab oder setzt sie. Dieser Wert wird verwendet, wenn [`AdvanceAfterTime`](../../../aspose.slides/islideshowtransition/advanceaftertime) nicht festgelegt ist. Der Standardwert beträgt 1000.
 
 ```csharp
 public int DefaultDelay { get; set; }
@@ -25,7 +25,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [GifOptions](../../gifoptions)
 * Namespace [Aspose.Slides.Export](../../gifoptions)

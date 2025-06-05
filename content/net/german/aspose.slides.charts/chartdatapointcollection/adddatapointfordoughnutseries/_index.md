@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForDoughnutSeries
-second_title: Aspose.Slides for .NET API Referenz
-description: Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Doughnut-Subtypen ist, siehe auch die Methode IsChartTypeDoughnut aspose.slides.charts/charttypecharacterizer/ischarttypedoughnut.
+second_title: Aspose.Slides für .NET API Referenz
+description: Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Doughnut-Subtypen ist siehe auch die Methode IsChartTypeDoughnutaspose.slides/charttypecharacterizer/ischarttypedoughnut.
 type: docs
 weight: 140
 url: /de/aspose.slides.charts/chartdatapointcollection/adddatapointfordoughnutseries/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartdatapointcollection/adddatapointfordoughnutse
 
 ## AddDataPointForDoughnutSeries(IChartDataCell) {#adddatapointfordoughnutseries}
 
-Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Doughnut-Subtypen ist (siehe auch [`IsChartTypeDoughnut`](../../charttypecharacterizer/ischarttypedoughnut) Methode).
+Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Doughnut-Subtypen ist (siehe auch die Methode [`IsChartTypeDoughnut`](../../charttypecharacterizer/ischarttypedoughnut)).
 
 ```csharp
 public IChartDataPoint AddDataPointForDoughnutSeries(IChartDataCell value)
@@ -35,7 +35,7 @@ Neuer Datenpunkt.
 
 ## AddDataPointForDoughnutSeries(double) {#adddatapointfordoughnutseries_1}
 
-Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Doughnut-Subtypen ist (siehe auch [`IsChartTypeDoughnut`](../../charttypecharacterizer/ischarttypedoughnut) Methode).
+Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Doughnut-Subtypen ist (siehe auch die Methode [`IsChartTypeDoughnut`](../../charttypecharacterizer/ischarttypedoughnut)).
 
 ```csharp
 public IChartDataPoint AddDataPointForDoughnutSeries(double value)

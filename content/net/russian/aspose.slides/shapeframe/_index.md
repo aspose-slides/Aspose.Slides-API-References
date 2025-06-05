@@ -1,7 +1,7 @@
 ---
 title: ShapeFrame
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет свойства рамок формы.
+second_title: Aspose.Sildes для справки по API .NET
+description: Представляет свойства рамок форм.
 type: docs
 weight: 9590
 url: /ru/aspose.slides/shapeframe/
@@ -25,16 +25,16 @@ public class ShapeFrame : IShapeFrame
 
 | Имя | Описание |
 | --- | --- |
-| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | Возвращает координату X центра рамки. Только для чтения Single. |
-| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | Возвращает координату Y центра рамки. Только для чтения Single. |
-| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | Определяет, перевернута ли рамка по горизонтали. Только для чтения [`NullableBool`](../nullablebool). |
-| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Определяет, перевернута ли рамка по вертикали. Только для чтения [`NullableBool`](../nullablebool). |
+| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | Возвращает X-координату центра рамки. Только для чтения Single. |
+| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | Возвращает Y-координату центра рамки. Только для чтения Single. |
+| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | Определяет, является ли рамка перевернутой по горизонтали. Только для чтения [`NullableBool`](../nullablebool). |
+| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Определяет, является ли рамка перевернутой по вертикали. Только для чтения [`NullableBool`](../nullablebool). |
 | [Height](../../aspose.slides/shapeframe/height) { get; } | Возвращает высоту рамки. Только для чтения Single. |
 | [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | Возвращает координаты рамки. Только для чтения RectangleF. |
-| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Возвращает количество градусов, на которые рамка вращена вокруг оси z. Положительное значение указывает на вращение по часовой стрелке; отрицательное значение указывает на вращение против часовой стрелки. Только для чтения Single. |
+| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Возвращает количество градусов, на которое рамка повёрнута вокруг оси z. Положительное значение указывает на поворот по часовой стрелке; отрицательное значение указывает на поворот против часовой стрелки. Только для чтения Single. |
 | [Width](../../aspose.slides/shapeframe/width) { get; } | Возвращает ширину рамки. Только для чтения Single. |
-| [X](../../aspose.slides/shapeframe/x) { get; } | Возвращает координату X верхнего левого угла рамки. Только для чтения Single. |
-| [Y](../../aspose.slides/shapeframe/y) { get; } | Возвращает координату Y верхнего левого угла рамки. Только для чтения Single. |
+| [X](../../aspose.slides/shapeframe/x) { get; } | Возвращает X-координату верхнего левого угла рамки. Только для чтения Single. |
+| [Y](../../aspose.slides/shapeframe/y) { get; } | Возвращает Y-координату верхнего левого угла рамки. Только для чтения Single. |
 
 ## Методы
 
@@ -42,11 +42,11 @@ public class ShapeFrame : IShapeFrame
 | --- | --- |
 | [Clone](../../aspose.slides/shapeframe/clone)() | Клонирует |
 | [CloneT](../../aspose.slides/shapeframe/clonet)() | Клонирует. |
-| override [Equals](../../aspose.slides/shapeframe/equals#equals_1)(object) | Возвращает значение, указывающее, равно ли это экземпляр заданному объекту. |
-| [Equals](../../aspose.slides/shapeframe/equals#equals)(ShapeFrame) | Возвращает значение, указывающее, равно ли это экземпляр заданному объекту. |
+| override [Equals](../../aspose.slides/shapeframe/equals#equals_1)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |
+| [Equals](../../aspose.slides/shapeframe/equals#equals)(ShapeFrame) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |
 | override [GetHashCode](../../aspose.slides/shapeframe/gethashcode)() | Возвращает хэш-код для этого объекта. |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IShapeFrame](../ishapeframe)
 * пространство имен [Aspose.Slides](../../aspose.slides)

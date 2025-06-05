@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.charts/ichartdata/usesecondarycategories/
 ---
+
 ## IChartData.UseSecondaryCategories property
 
 If false then [`SecondaryCategories`](../secondarycategories) property return null and data in [`Categories`](../categories) property is used both for primary and secondary series. If true then data in [`SecondaryCategories`](../secondarycategories) property is used for secondary series and data in [`Categories`](../categories) property is used for primary series. Read/write Boolean.

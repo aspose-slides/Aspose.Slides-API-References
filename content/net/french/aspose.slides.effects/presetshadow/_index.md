@@ -1,5 +1,5 @@
 ---
-title: OmbrePrédéfinie
+title: PresetShadow
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente un effet d'ombre prédéfinie.
 type: docs
@@ -7,7 +7,7 @@ weight: 3510
 url: /fr/aspose.slides.effects/presetshadow/
 ---
 
-## Classe OmbrePrédéfinie
+## Classe PresetShadow
 
 Représente un effet d'ombre prédéfinie.
 
@@ -21,15 +21,15 @@ public sealed class PresetShadow : IPresetShadow
 | --- | --- |
 | [Direction](../../aspose.slides.effects/presetshadow/direction) { get; set; } | Direction de l'ombre. Lecture/écriture Simple. |
 | [Distance](../../aspose.slides.effects/presetshadow/distance) { get; set; } | Distance de l'ombre. Lecture/écriture Double. |
-| [Prédéfinie](../../aspose.slides.effects/presetshadow/preset) { get; set; } | Prédéfinie. Lecture/écriture [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
-| [CouleurOmbre](../../aspose.slides.effects/presetshadow/shadowcolor) { get; } | Couleur de l'ombre. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Preset](../../aspose.slides.effects/presetshadow/preset) { get; set; } | Préréglage. Lecture/écriture [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [ShadowColor](../../aspose.slides.effects/presetshadow/shadowcolor) { get; } | Couleur de l'ombre. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/presetshadow/equals)(object) | Détermine si le [`PresetShadow`](../presetshadow) spécifié est égal au [`PresetShadow`](../presetshadow) actuel. |
-| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | Obtient les données de l'effet d'ombre prédéfinie efficaces avec l'héritage appliqué. |
+| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | Récupère les données effectives de l'effet d'ombre prédéfinie avec l'héritage appliqué. |
 | override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | Sert de fonction de hachage pour un type particulier. |
 
 ### Voir aussi

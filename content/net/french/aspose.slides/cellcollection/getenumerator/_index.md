@@ -1,15 +1,15 @@
 ---
 title: GetEnumerator
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie un énumérateur qui parcourt la collection.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Retourne un énumérateur qui itère à travers la collection.
 type: docs
 weight: 80
 url: /fr/aspose.slides/cellcollection/getenumerator/
 ---
 
-## Méthode CellCollection.GetEnumerator
+## CellCollection.GetEnumerator méthode
 
-Renvoie un énumérateur qui parcourt la collection.
+Retourne un énumérateur qui itère à travers la collection.
 
 ```csharp
 public IEnumerator<ICell> GetEnumerator()
@@ -17,7 +17,7 @@ public IEnumerator<ICell> GetEnumerator()
 
 ### Valeur de retour
 
-Un IEnumerator qui peut être utilisé pour parcourir la collection.
+Un IEnumerator qui peut être utilisé pour itérer à travers la collection.
 
 ### Voir aussi
 

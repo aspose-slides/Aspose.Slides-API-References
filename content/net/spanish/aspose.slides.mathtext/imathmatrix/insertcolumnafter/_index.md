@@ -1,13 +1,13 @@
 ---
-title: InsertarColumnaDespues
-second_title: Referencia de API de Aspose.Slides para .NET
+title: InsertColumnAfter
+second_title: Aspose.Sildes for .NET API Reference
 description: Inserta una nueva columna después de la especificada. Inicialmente, todos los elementos en la nueva columna son nulos.
 type: docs
 weight: 150
 url: /es/aspose.slides.mathtext/imathmatrix/insertcolumnafter/
 ---
 
-## Método IMathMatrix.InsertColumnAfter
+## IMathMatrix.InsertColumnAfter método
 
 Inserta una nueva columna después de la especificada. Inicialmente, todos los elementos en la nueva columna son nulos.
 
@@ -29,7 +29,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.InsertColumnAfter(0);
 ```
 
-### Véase También
+### Véase también
 
 * interfaz [IMathMatrix](../../imathmatrix)
 * espacio de nombres [Aspose.Slides.MathText](../../imathmatrix)

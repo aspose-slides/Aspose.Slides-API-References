@@ -1,7 +1,7 @@
 ---
 title: BevelPresetType
-second_title: Aspose.Slides для справки по .NET API
-description: Константы, определяющие 3D закругление формы.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Константы, определяющие 3D фаску формы.
 type: docs
 weight: 930
 url: /ru/aspose.slides/bevelpresettype/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/bevelpresettype/
 
 ## Перечисление BevelPresetType
 
-Константы, определяющие 3D закругление формы.
+Константы, определяющие 3D фаску формы.
 
 ```csharp
 public enum BevelPresetType
@@ -33,7 +33,7 @@ public enum BevelPresetType
 | Slope | `10` |  |
 | SoftRound | `11` |  |
 
-### Смотрите также
+### Смотрите Также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

@@ -1,7 +1,7 @@
 ---
-title: 命令字符串
-second_title: Aspose.Slides for .NET API 参考
-description: 定义命令字符串。可读/可写字符串。
+title: CommandString
+second_title: Aspose.Sildes for .NET API Reference
+description: 定义命令字符串。可读/写字符串。
 type: docs
 weight: 20
 url: /zh/aspose.slides.animation/icommandeffect/commandstring/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.animation/icommandeffect/commandstring/
 
 ## ICommandEffect.CommandString 属性
 
-定义命令字符串。可读/可写字符串。
+定义命令字符串。可读/写字符串。
 
 ```csharp
 public string CommandString { get; set; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [ICommandEffect](../../icommandeffect)
 * 命名空间 [Aspose.Slides.Animation](../../icommandeffect)

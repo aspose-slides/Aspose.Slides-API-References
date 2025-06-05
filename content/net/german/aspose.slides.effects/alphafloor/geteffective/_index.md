@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides für .NET API Referenz
-description: Erhält effektive Alpha Floor Effektdaten mit der Anwendung der Vererbung.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ruft effektive Alpha Floor-Effektdaten mit der angewendeten Vererbung ab.
 type: docs
 weight: 20
 url: /de/aspose.slides.effects/alphafloor/geteffective/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/alphafloor/geteffective/
 
 ## AlphaFloor.GetEffective Methode
 
-Erhält effektive Alpha Floor Effektdaten mit der Anwendung der Vererbung.
+Ruft effektive Alpha Floor-Effektdaten mit der angewendeten Vererbung ab.
 
 ```csharp
 public IAlphaFloorEffectiveData GetEffective()
@@ -21,7 +21,7 @@ Ein [`IAlphaFloorEffectiveData`](../../ialphaflooreffectivedata).
 
 ### Siehe auch
 
-* Interface [IAlphaFloorEffectiveData](../../ialphaflooreffectivedata)
+* Schnittstelle [IAlphaFloorEffectiveData](../../ialphaflooreffectivedata)
 * Klasse [AlphaFloor](../../alphafloor)
 * Namespace [Aspose.Slides.Effects](../../alphafloor)
 * Assembly [Aspose.Slides](../../../)

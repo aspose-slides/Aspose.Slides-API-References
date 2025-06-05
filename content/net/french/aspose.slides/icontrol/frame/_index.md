@@ -1,5 +1,5 @@
 ---
-title: Cadre
+title: Frame
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie ou définit le cadre des contrôles. Lecture/écriture IShapeFrameaspose.slides/ishapeframe.
 type: docs
@@ -15,7 +15,7 @@ Renvoie ou définit le cadre du contrôle. Lecture/écriture [`IShapeFrame`](../
 public IShapeFrame Frame { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IShapeFrame](../../ishapeframe)
 * interface [IControl](../../icontrol)

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/masternotesslide/notesstyle/
 ---
+
 ## MasterNotesSlide.NotesStyle property
 
 Returns the style of a notes text. Read-only [`ITextStyle`](../../itextstyle).

@@ -6,6 +6,7 @@ type: docs
 weight: 180
 url: /aspose.slides/presentation/masters/
 ---
+
 ## Presentation.Masters property
 
 Returns a list of all master slides that are defined in the presentation. Read-only [`IMasterSlideCollection`](../../imasterslidecollection).

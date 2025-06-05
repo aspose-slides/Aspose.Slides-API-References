@@ -1,5 +1,5 @@
 ---
-title: 项目
+title: Item
 second_title: Aspose.Slides for .NET API 参考
 description: 返回指定位置的元素。只读 EffectStyleaspose.slides.theme/effectstyle。
 type: docs
@@ -23,7 +23,7 @@ public IEffectStyle this[int index] { get; }
 
 指定位置的元素。
 
-### 另见
+### 另请参见
 
 * 接口 [IEffectStyle](../../ieffectstyle)
 * 类 [EffectStyleCollection](../../effectstylecollection)

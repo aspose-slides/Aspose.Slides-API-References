@@ -1,13 +1,13 @@
 ---
-title: Élément
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Item
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Obtient l'étiquette de données pour le point de données avec l'index spécifié.
 type: docs
 weight: 70
 url: /fr/aspose.slides.charts/idatalabelcollection/item/
 ---
 
-## Indexeur IDataLabelCollection
+## IDataLabelCollection indexeur
 
 Obtient l'étiquette de données pour le point de données avec l'index spécifié.
 
@@ -19,7 +19,7 @@ public IDataLabel this[int index] { get; }
 
 Une autre façon d'accéder à l'étiquette de données est : - SeriesEx.DataPoints[i].Label - gérer les propriétés de l'étiquette.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IDataLabel](../../idatalabel)
 * interface [IDataLabelCollection](../../idatalabelcollection)

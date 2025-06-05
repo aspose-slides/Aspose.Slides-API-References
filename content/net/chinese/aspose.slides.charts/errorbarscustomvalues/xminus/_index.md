@@ -1,7 +1,7 @@
 ---
 title: XMinus
-second_title: Aspose.Slides for .NET API 参考
-description: 指定负方向上的误差条值。仅当误差条值类型为自定义且允许 ErrorBarsXFormat 时可用。在任何其他情况下，此属性返回 null。只读 IDoubleChartValueaspose.slides/idoublechartvalue。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定负方向的误差条值。仅在误差条值类型为自定义且允许 ErrorBarsXFormat 时可用。在其他情况下，此属性返回 null。只读 IDoubleChartValueaspose.slides/idoublechartvalue。
 type: docs
 weight: 10
 url: /zh/aspose.slides.charts/errorbarscustomvalues/xminus/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/errorbarscustomvalues/xminus/
 
 ## ErrorBarsCustomValues.XMinus 属性
 
-指定负方向上的误差条值。仅当误差条值类型为自定义且允许 ErrorBarsXFormat 时可用。在任何其他情况下，此属性返回 null。只读 [`IDoubleChartValue`](../../idoublechartvalue)。
+指定负方向的误差条值。仅在误差条值类型为自定义且允许 ErrorBarsXFormat 时可用。在其他情况下，此属性返回 null。只读 [`IDoubleChartValue`](../../idoublechartvalue)。
 
 ```csharp
 public IDoubleChartValue XMinus { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IDoubleChartValue](../../idoublechartvalue)
 * 类 [ErrorBarsCustomValues](../../errorbarscustomvalues)

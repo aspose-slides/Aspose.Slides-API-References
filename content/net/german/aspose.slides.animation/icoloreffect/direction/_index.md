@@ -1,7 +1,7 @@
 ---
-title: Richtung
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, in welche Richtung der Farbton auf dem Farbkreis zyklisch geändert wird. Lese-/Schreibzugriff auf ColorDirectionaspose.slides.animation/colordirection.
+title: Direction
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt an, in welche Richtung der Farbton um das Farbrad zyklisch geändert werden soll. Lese-/Schreibzugriff auf ColorDirectionaspose.slides.animation/colordirection.
 type: docs
 weight: 40
 url: /de/aspose.slides.animation/icoloreffect/direction/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.animation/icoloreffect/direction/
 
 ## IColorEffect.Direction-Eigenschaft
 
-Bestimmt, in welche Richtung der Farbton auf dem Farbkreis zyklisch geändert wird. Lese-/Schreibzugriff auf [`ColorDirection`](../../colordirection).
+Gibt an, in welche Richtung der Farbton um das Farbrad zyklisch geändert werden soll. Lese-/Schreibzugriff auf [`ColorDirection`](../../colordirection).
 
 ```csharp
 public ColorDirection Direction { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [ColorDirection](../../colordirection)
 * interface [IColorEffect](../../icoloreffect)

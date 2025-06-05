@@ -19,21 +19,21 @@ public sealed class VbaModuleCollection : IVbaModuleCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides.vba/vbamodulecollection/count) { get; } | Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente zurück. Nur-lesender Int32. |
-| [IsSynchronized](../../aspose.slides.vba/vbamodulecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (thread-sicher). Nur-lesender Boolean. |
+| [Count](../../aspose.slides.vba/vbamodulecollection/count) { get; } | Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente zurück. Nur lesbar Int32. |
+| [IsSynchronized](../../aspose.slides.vba/vbamodulecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (thread-sicher). Nur lesbar Boolean. |
 | [Item](../../aspose.slides.vba/vbamodulecollection/item) { get; } | Gibt das Element am angegebenen Index zurück. |
-| [SyncRoot](../../aspose.slides.vba/vbamodulecollection/syncroot) { get; } | Gibt eine Synchronisierungswurzel zurück. Nur-lesendes Objekt. |
+| [SyncRoot](../../aspose.slides.vba/vbamodulecollection/syncroot) { get; } | Gibt einen Synchronisierungswurzel zurück. Nur lesbar Object. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddEmptyModule](../../aspose.slides.vba/vbamodulecollection/addemptymodule)(string) | Fügt dem VBA-Projekt ein neues leeres Modul hinzu. |
+| [AddEmptyModule](../../aspose.slides.vba/vbamodulecollection/addemptymodule)(string) | Fügt ein neues leeres Modul zum VBA-Projekt hinzu. |
 | [CopyTo](../../aspose.slides.vba/vbamodulecollection/copyto)(Array, int) | Kopiert alle Elemente aus der Sammlung in das angegebene Array. |
 | [GetEnumerator](../../aspose.slides.vba/vbamodulecollection/getenumerator)() | Gibt einen Enumerator zurück, der durch die Sammlung iteriert. |
-| [Remove](../../aspose.slides.vba/vbamodulecollection/remove)(IVbaModule) | Entfernt die erste Vorkommen eines bestimmten Objekts aus der Sammlung. |
+| [Remove](../../aspose.slides.vba/vbamodulecollection/remove)(IVbaModule) | Entfernt das erste Vorkommen eines bestimmten Objekts aus der Sammlung. |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IVbaModuleCollection](../ivbamodulecollection)
 * Namespace [Aspose.Slides.Vba](../../aspose.slides.vba)

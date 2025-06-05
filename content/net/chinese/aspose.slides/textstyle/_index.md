@@ -1,37 +1,37 @@
 ---
-title: 文本样式
-second_title: Aspose.Slides for .NET API 参考
-description: 此类包含文本样式格式化属性。
+title: TextStyle
+second_title: Aspose.Sildes for .NET API Reference
+description: 这个类包含文本样式格式化属性。
 type: docs
 weight: 10690
 url: /zh/aspose.slides/textstyle/
 ---
 
-## TextStyle 类
+## TextStyle class
 
-此类包含文本样式格式化属性。
+这个类包含文本样式格式化属性。
 
 ```csharp
 public sealed class TextStyle : PVIObject, ITextStyle
 ```
 
-## 属性
+## Properties
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基础的 IPresentationComponent 接口。只读 [`IPresentationComponent`](../ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本的 IPresentationComponent 接口。只读 [`IPresentationComponent`](../ipresentationcomponent)。 |
 | [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | 默认段落属性。只读 [`IParagraphFormat`](../iparagraphformat)。 |
 
-## 方法
+## Methods
 
 | 名称 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 与指定对象进行比较。 |
-| [GetEffective](../../aspose.slides/textstyle/geteffective)() | 获取应用了继承的有效文本样式格式数据。 |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 返回哈希代码。 |
-| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | 如果样式级别存在，则返回它，否则返回 null。 |
+| [GetEffective](../../aspose.slides/textstyle/geteffective)() | 获取应用继承的有效文本样式格式化数据。 |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 返回哈希码。 |
+| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | 如果样式级别存在则返回它，否则返回 null。 |
 
-### 另请参见
+### 另见
 
 * 类 [PVIObject](../pviobject)
 * 接口 [ITextStyle](../itextstyle)

@@ -1,7 +1,7 @@
 ---
 title: AddAttributeValue
-second_title: Aspose.Slides для .NET API Справочник
-description: Оборачивает значение атрибута в кавычки и добавляет его в html файл.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Цитирует значение атрибута и добавляет его в html файл.
 type: docs
 weight: 70
 url: /ru/aspose.slides.export/ihtmlgenerator/addattributevalue/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export/ihtmlgenerator/addattributevalue/
 
 ## AddAttributeValue(string) {#addattributevalue_2}
 
-Оборачивает значение атрибута в кавычки и добавляет его в html файл.
+Цитирует значение атрибута и добавляет его в html файл.
 
 ```csharp
 public void AddAttributeValue(string value)
@@ -29,7 +29,7 @@ public void AddAttributeValue(string value)
 
 ## AddAttributeValue(char[]) {#addattributevalue}
 
-Оборачивает значение атрибута в кавычки и добавляет его в html файл.
+Цитирует значение атрибута и добавляет его в html файл.
 
 ```csharp
 public void AddAttributeValue(char[] value)
@@ -49,7 +49,7 @@ public void AddAttributeValue(char[] value)
 
 ## AddAttributeValue(char[], int, int) {#addattributevalue_1}
 
-Оборачивает значение атрибута в кавычки и добавляет его в html файл.
+Цитирует значение атрибута и добавляет его в html файл.
 
 ```csharp
 public void AddAttributeValue(char[] value, int startIndex, int length)

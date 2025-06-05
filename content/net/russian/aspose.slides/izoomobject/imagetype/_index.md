@@ -1,13 +1,13 @@
 ---
 title: ImageType
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Получает или задает тип изображения объекта увеличения. Чтение/запись ZoomImageTypeaspose.slides/zoomimagetype. Значение по умолчанию Preview
 type: docs
 weight: 20
 url: /ru/aspose.slides/izoomobject/imagetype/
 ---
 
-## Свойство IZoomObject.ImageType
+## IZoomObject.ImageType свойство
 
 Получает или задает тип изображения объекта увеличения. Чтение/запись [`ZoomImageType`](../../zoomimagetype). Значение по умолчанию: Preview
 
@@ -15,13 +15,13 @@ url: /ru/aspose.slides/izoomobject/imagetype/
 public ZoomImageType ImageType { get; set; }
 ```
 
-### Примечания
+### Замечания
 
 Указывает, использует ли объект увеличения предварительный просмотр слайда или изображение обложки.
 
 ### Примеры
 
-Этот пример демонстрирует изменение типа изображения на значение Preview. В этом случае текущее изображение объекта увеличения меняется на изображение слайда:
+Этот пример демонстрирует изменение типа изображения на значение Preview. В этом случае текущее изображение объекта увеличения изменяется на изображение слайда:
 
 ```csharp
 [C#]
@@ -33,7 +33,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. также
+### Также смотрите
 
 * enum [ZoomImageType](../../zoomimagetype)
 * interface [IZoomObject](../../izoomobject)

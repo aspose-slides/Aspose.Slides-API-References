@@ -1,13 +1,13 @@
 ---
-title: Élément
-second_title: Référence API Aspose.Slides pour .NET
+title: Item
+second_title: Aspose.Slides pour .NET Référence API
 description: Renvoie un contrôle à la position spécifiée.
 type: docs
 weight: 30
 url: /fr/aspose.slides/controlcollection/item/
 ---
 
-## Indice ControlCollection
+## Indexeur ControlCollection
 
 Renvoie un contrôle à la position spécifiée.
 
@@ -19,7 +19,7 @@ public IControl this[int index] { get; }
 | --- | --- |
 | index | Index d'un contrôle. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IControl](../../icontrol)
 * class [ControlCollection](../../controlcollection)

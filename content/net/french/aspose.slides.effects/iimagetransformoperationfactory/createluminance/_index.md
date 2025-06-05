@@ -17,8 +17,8 @@ public ILuminance CreateLuminance(float brightness, float contrast)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| brightness | Simple | Luminosité. |
-| contrast | Simple | Contraste. |
+| brightness | Single | Luminosité. |
+| contrast | Single | Contraste. |
 
 ### Valeur de retour
 

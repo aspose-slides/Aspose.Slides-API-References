@@ -1,7 +1,7 @@
 ---
 title: IStringChartValue
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente une valeur chaîne qui peut être stockée dans un document de présentation pptx de deux manières  1 dans une ou plusieurs cellules du classeur liées au graphique ; 2 en tant que valeur littérale.
+second_title: Aspose.Slides pour .NET Référence API
+description: Représente une valeur de chaîne qui peut être stockée dans un document de présentation pptx de deux manières  1 dans une ou plusieurs cellules de la feuille de calcul liée au graphique ; 2 en tant que valeur littérale.
 type: docs
 weight: 2140
 url: /fr/aspose.slides.charts/istringchartvalue/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/istringchartvalue/
 
 ## Interface IStringChartValue
 
-Représente une valeur chaîne qui peut être stockée dans un document de présentation pptx de deux manières : 1) dans une ou plusieurs cellules du classeur liées au graphique ; 2) en tant que valeur littérale.
+Représente une valeur de chaîne qui peut être stockée dans un document de présentation pptx de deux manières : 1) dans une ou plusieurs cellules de la feuille de calcul liée au graphique ; 2) en tant que valeur littérale.
 
 ```csharp
 public interface IStringChartValue : IMultipleCellChartValue
@@ -20,15 +20,15 @@ public interface IStringChartValue : IMultipleCellChartValue
 | Nom | Description |
 | --- | --- |
 | [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | Permet d'obtenir l'interface de base IMultipleCellChartValue. Lecture seule [`IMultipleCellChartValue`](../imultiplecellchartvalue). |
-| [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | Renvoie ou définit la chaîne littérale si la propriété DataSourceType est DataSourceType.StringLiterals. Lecture/écriture chaîne. |
+| [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | Retourne ou définit la chaîne littérale si la propriété DataSourceType est DataSourceType.StringLiterals. Lecture/écriture String. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | Si la propriété DataSourceType est DataSourceType.Worksheet, cette méthode renvoie l'adresse des cellules dans le classeur qui représentent les données chaîne. Sinon, renvoie une chaîne vide. |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | Si la propriété DataSourceType est DataSourceType.Worksheet, alors cette méthode retourne l'adresse des cellules dans la feuille de calcul qui représentent les données de chaîne. Sinon, retourne une chaîne vide. |
 | [SetFromOneCell](../../aspose.slides.charts/istringchartvalue/setfromonecell)(IChartDataCell) | Définit la valeur à partir de la cellule spécifiée. |
-| [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | Renvoie la représentation sous forme de chaîne. |
+| [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | Retourne la représentation sous forme de chaîne. |
 
 ### Voir aussi
 

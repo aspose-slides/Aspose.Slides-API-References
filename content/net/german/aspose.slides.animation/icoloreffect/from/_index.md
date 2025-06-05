@@ -1,7 +1,7 @@
 ---
-title: Von
-second_title: Aspose.Slides für .NET API-Referenz
-description: Dieser Wert wird verwendet, um die Ausgangsfarbe des Verhaltens zu spezifizieren. Lese-/Schreibzugriff auf IColorFormataspose.slides/../aspose.slides/icolorformat.
+title: From
+second_title: Aspose.Slides für .NET API Referenz
+description: Dieser Wert wird verwendet, um die Startfarbe des Verhaltens anzugeben. Lese-/Schreibzugriff auf IColorFormataspose.slides/../aspose.slides/icolorformat.
 type: docs
 weight: 50
 url: /de/aspose.slides.animation/icoloreffect/from/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/icoloreffect/from/
 
 ## IColorEffect.From-Eigenschaft
 
-Dieser Wert wird verwendet, um die Ausgangsfarbe des Verhaltens zu spezifizieren. Lese-/Schreibzugriff auf [`IColorFormat`](../../../aspose.slides/icolorformat).
+Dieser Wert wird verwendet, um die Startfarbe des Verhaltens anzugeben. Lese-/Schreibzugriff auf [`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat From { get; set; }

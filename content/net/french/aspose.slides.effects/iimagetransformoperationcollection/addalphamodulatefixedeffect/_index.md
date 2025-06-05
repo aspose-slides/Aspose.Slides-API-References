@@ -1,6 +1,6 @@
 ---
 title: AddAlphaModulateFixedEffect
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slidés pour .NET API Reference
 description: Ajoute le nouvel effet Alpha Modulate Fixed à la fin d'une collection.
 type: docs
 weight: 80
@@ -17,13 +17,13 @@ public IAlphaModulateFixed AddAlphaModulateFixedEffect(float amount)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| amount | Single | Le pourcentage à appliquer pour modifier l'alpha. |
+| amount | Single | Le pourcentage à utiliser pour mettre à l'échelle l'alpha. |
 
-### Valeur de Retour
+### Valeur de retour
 
 Index du nouvel effet d'image dans une collection.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IAlphaModulateFixed](../../ialphamodulatefixed)
 * interface [IImageTransformOperationCollection](../../iimagetransformoperationcollection)

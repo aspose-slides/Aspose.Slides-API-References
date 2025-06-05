@@ -1,7 +1,7 @@
 ---
 title: IMotionPath
-second_title: Aspose.Slides pour .NET API Référence
-description: Représente un chemin de mouvement.
+second_title: Référence API Aspose.Slides pour .NET
+description: Représente le chemin de mouvement.
 type: docs
 weight: 450
 url: /fr/aspose.slides.animation/imotionpath/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/imotionpath/
 
 ## Interface IMotionPath
 
-Représente un chemin de mouvement.
+Représente le chemin de mouvement.
 
 ```csharp
 public interface IMotionPath : IEnumerable<IMotionCmdPath>

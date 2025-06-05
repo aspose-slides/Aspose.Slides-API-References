@@ -6,6 +6,7 @@ type: docs
 weight: 190
 url: /aspose.slides.effects/iimagetransformoperationcollection/addtinteffect/
 ---
+
 ## IImageTransformOperationCollection.AddTintEffect method
 
 Adds the new Tint effect to the end of a collection.

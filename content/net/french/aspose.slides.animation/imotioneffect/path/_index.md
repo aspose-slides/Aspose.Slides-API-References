@@ -1,7 +1,7 @@
 ---
-title: Chemin
-second_title: Référence API Aspose.Sildes pour .NET
-description: Spécifie le primitive de chemin suivi par des coordonnées pour le mouvement de l'animation. Lecture/écriture IMotionPathaspose.slides.animation/imotionpath.
+title: Path
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Spécifie le chemin primitif suivi par des coordonnées pour le mouvement d'animation. Lecture/écriture IMotionPathaspose.slides.animation/imotionpath.
 type: docs
 weight: 60
 url: /fr/aspose.slides.animation/imotioneffect/path/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.animation/imotioneffect/path/
 
 ## Propriété IMotionEffect.Path
 
-Spécifie le primitive de chemin suivi par des coordonnées pour le mouvement de l'animation. Lecture/écriture [`IMotionPath`](../../imotionpath).
+Spécifie le chemin primitif suivi par des coordonnées pour le mouvement d'animation. Lecture/écriture [`IMotionPath`](../../imotionpath).
 
 ```csharp
 public IMotionPath Path { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMotionPath](../../imotionpath)
 * interface [IMotionEffect](../../imotioneffect)

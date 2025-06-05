@@ -1,7 +1,7 @@
 ---
 title: NumberOfBins
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Anzahl der Bins an, wenn der Wert der Eigenschaft AggregationType auf AxisAggregationType.ByNumberOfBins gesetzt ist. Angewendet auf Kategoriewerte. Nur in Verbindung mit Histogramm- oder HistogrammPareto-Serien verwendet.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Anzahl der Bins an, wenn der Wert der Eigenschaft AggregationType auf AxisAggregationType.ByNumberOfBins gesetzt ist. Wird auf Kategoriediagrammachsen angewendet. Nur mit Histogramm- oder HistogrammPareto-Serien verwendet.
 type: docs
 weight: 450
 url: /de/aspose.slides.charts/iaxis/numberofbins/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/iaxis/numberofbins/
 
 ## IAxis.NumberOfBins-Eigenschaft
 
-Gibt die Anzahl der Bins an, wenn der Wert der Eigenschaft AggregationType auf AxisAggregationType.ByNumberOfBins gesetzt ist. Angewendet auf Kategoriewerte. Nur in Verbindung mit Histogramm- oder HistogrammPareto-Serien verwendet.
+Gibt die Anzahl der Bins an, wenn der Wert der Eigenschaft AggregationType auf AxisAggregationType.ByNumberOfBins gesetzt ist. Wird auf Kategoriediagrammachsen angewendet. Nur mit Histogramm- oder HistogrammPareto-Serien verwendet.
 
 ```csharp
 public uint NumberOfBins { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IAxis](../../iaxis)
 * Namespace [Aspose.Slides.Charts](../../iaxis)

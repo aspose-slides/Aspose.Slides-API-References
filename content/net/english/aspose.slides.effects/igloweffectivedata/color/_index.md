@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/igloweffectivedata/color/
 ---
+
 ## IGlowEffectiveData.Color property
 
 Color. Read-only Color.

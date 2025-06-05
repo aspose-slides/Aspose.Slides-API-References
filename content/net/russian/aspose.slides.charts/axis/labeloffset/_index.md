@@ -1,22 +1,22 @@
 ---
 title: LabelOffset
-second_title: Aspose.Sildes для .NET API Reference
-description: Указывает расстояние меток от оси. Применяется к категориальной или временной оси. Значение должно быть в пределах от 0 до 1000. Чтение/запись UInt16.
+second_title: Aspose.Slides для .NET API Reference
+description: Указывает расстояние меток от оси. Применяется к категориям или датам оси. Значение должно находиться между 0 и 1000. Чтение/запись UInt16.
 type: docs
 weight: 320
 url: /ru/aspose.slides.charts/axis/labeloffset/
 ---
 
-## Свойство Axis.LabelOffset
+## Axis.LabelOffset property
 
-Указывает расстояние меток от оси. Применяется к категориальной или временной оси. Значение должно быть в пределах от 0% до 1000%. Чтение/запись UInt16.
+Указывает расстояние меток от оси. Применяется к категориям или датам оси. Значение должно находиться между 0% и 1000%. Чтение/запись UInt16.
 
 ```csharp
 public ushort LabelOffset { get; set; }
 ```
 
-### См. также
-
+### Также см.
+ 
 * класс [Axis](../../axis)
 * пространство имен [Aspose.Slides.Charts](../../axis)
 * сборка [Aspose.Slides](../../../)

@@ -1,6 +1,6 @@
 ---
 title: GetEffective
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Obtient les données effectives de l'effet Glow avec l'héritage appliqué.
 type: docs
 weight: 40
@@ -15,14 +15,14 @@ Obtient les données effectives de l'effet Glow avec l'héritage appliqué.
 public IGlowEffectiveData GetEffective()
 ```
 
-### Valeur de retour
+### Valeur de Retour
 
 Un [`IGlowEffectiveData`](../../igloweffectivedata).
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IGlowEffectiveData](../../igloweffectivedata)
-* class [Glow](../../glow)
+* classe [Glow](../../glow)
 * namespace [Aspose.Slides.Effects](../../glow)
 * assembly [Aspose.Slides](../../../)
 

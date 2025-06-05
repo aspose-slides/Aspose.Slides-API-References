@@ -1,13 +1,13 @@
 ---
 title: Equals
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Bestimmt, ob die angegebene Luminanceaspose.slides.effects/luminance gleich der aktuellen Luminanceaspose.slides.effects/luminance ist.
 type: docs
 weight: 10
 url: /de/aspose.slides.effects/luminance/equals/
 ---
 
-## Luminance.Equals Methode
+## Luminance.Equals-Methode
 
 Bestimmt, ob die angegebene [`Luminance`](../../luminance) gleich der aktuellen [`Luminance`](../../luminance) ist.
 

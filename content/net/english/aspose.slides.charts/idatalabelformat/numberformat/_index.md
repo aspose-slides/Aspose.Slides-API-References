@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.charts/idatalabelformat/numberformat/
 ---
+
 ## IDataLabelFormat.NumberFormat property
 
 Represents the format string for the DataLabels object. Read/write String.

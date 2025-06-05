@@ -6,6 +6,7 @@ type: docs
 weight: 200
 url: /aspose.slides/effectformat/enableinnershadoweffect/
 ---
+
 ## EffectFormat.EnableInnerShadowEffect method
 
 Enables inner shadow effect.

@@ -1,7 +1,7 @@
 ---
 title: SeriesAxis
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient l'axe des séries du graphique. Lecture seule IAxisaspose.slides.charts/iaxis.
+second_title: Référence API Aspose.Slides pour .NET
+description: Obtient l'axe des séries des graphiques. Lecture seule IAxisaspose.slides.charts/iaxis.
 type: docs
 weight: 40
 url: /fr/aspose.slides.charts/iaxesmanager/seriesaxis/

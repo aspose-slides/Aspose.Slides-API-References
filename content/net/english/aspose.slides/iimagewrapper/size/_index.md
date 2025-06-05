@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/iimagewrapper/size/
 ---
+
 ## IImageWrapper.Size property
 
 Gets the width and height, in pixels, of the Image Read-only `Size`.

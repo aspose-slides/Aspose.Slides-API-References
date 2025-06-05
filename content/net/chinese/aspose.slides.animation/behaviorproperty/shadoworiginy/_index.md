@@ -1,6 +1,6 @@
 ---
 title: ShadowOriginY
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示 shadow.origin.y 属性
 type: docs
 weight: 750
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/behaviorproperty/shadoworiginy/
 public static BehaviorProperty ShadowOriginY { get; }
 ```
 
-### 参见
+### 另见
 
 * 类 [BehaviorProperty](../../behaviorproperty)
 * 命名空间 [Aspose.Slides.Animation](../../behaviorproperty)

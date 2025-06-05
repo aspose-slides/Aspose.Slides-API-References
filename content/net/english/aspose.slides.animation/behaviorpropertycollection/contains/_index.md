@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.animation/behaviorpropertycollection/contains/
 ---
+
 ## Contains(IBehaviorProperty) {#contains}
 
 Determines whether the ICollection contains a specific value.

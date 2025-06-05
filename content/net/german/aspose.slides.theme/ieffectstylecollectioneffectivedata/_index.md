@@ -1,6 +1,6 @@
 ---
 title: IEffectStyleCollectionEffectiveData
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Unveränderliches Objekt, das eine schreibgeschützte Sammlung von effektiven Effektstilen darstellt.
 type: docs
 weight: 10880
@@ -19,7 +19,7 @@ public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffec
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ieffectstylecollectioneffectivedata/item) { get; } | Gibt das Element an dem angegebenen Index zurück. Nur lesbar [`IEffectStyleEffectiveData`](../ieffectstyleeffectivedata). |
+| [Item](../../aspose.slides.theme/ieffectstylecollectioneffectivedata/item) { get; } | Gibt das Element am angegebenen Index zurück. Nur-Lese [`IEffectStyleEffectiveData`](../ieffectstyleeffectivedata). |
 
 ### Anmerkungen
 

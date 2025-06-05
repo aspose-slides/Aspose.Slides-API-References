@@ -1,7 +1,7 @@
 ---
-title: Nom
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente le nom de la référence de projet VBA. Chaîne en lecture/écriture.
+title: Name
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Représente le nom de la référence de projet VBA. Lire/écrire String.
 type: docs
 weight: 10
 url: /fr/aspose.slides.vba/ivbareference/name/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.vba/ivbareference/name/
 
 ## Propriété IVbaReference.Name
 
-Représente le nom de la référence de projet VBA. Chaîne en lecture/écriture.
+Représente le nom de la référence de projet VBA. Lire/écrire String.
 
 ```csharp
 public string Name { get; set; }

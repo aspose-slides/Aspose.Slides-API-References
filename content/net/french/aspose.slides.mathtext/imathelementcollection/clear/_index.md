@@ -1,13 +1,13 @@
 ---
-title: Effacer
-second_title: Référence API Aspose.Slides pour .NET
+title: Clear
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Supprime tous les éléments de la collection.
 type: docs
 weight: 50
 url: /fr/aspose.slides.mathtext/imathelementcollection/clear/
 ---
 
-## Méthode IMathElementCollection.Clear
+## IMathElementCollection.Clear méthode
 
 Supprime tous les éléments de la collection.
 
@@ -25,7 +25,7 @@ IMathElementCollection collection = new MathBlock(new MathematicalText("x"));
 collection.Clear();
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathElementCollection](../../imathelementcollection)
 * namespace [Aspose.Slides.MathText](../../imathelementcollection)

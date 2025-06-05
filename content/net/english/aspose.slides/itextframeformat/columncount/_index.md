@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/itextframeformat/columncount/
 ---
+
 ## ITextFrameFormat.ColumnCount property
 
 Returns or sets number of columns in the text area. This value must be a positive number. Otherwise, the value will be set to zero. Value 0 means undefined value. Read/write Int32.

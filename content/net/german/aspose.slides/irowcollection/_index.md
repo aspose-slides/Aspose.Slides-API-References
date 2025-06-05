@@ -25,8 +25,8 @@ public interface IRowCollection : IGenericCollection<IRow>
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | Erstellt eine Kopie der angegebenen Vorlagezeile und fügt sie am Ende einer Tabelle ein. |
-| [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | Erstellt eine Kopie der angegebenen Vorlagezeile und fügt sie an der angegebenen Position in einer Tabelle ein. |
+| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | Erstellt eine Kopie der angegebenen Vorlagenzeile und fügt sie am Ende einer Tabelle ein. |
+| [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | Erstellt eine Kopie der angegebenen Vorlagenzeile und fügt sie an der angegebenen Position in einer Tabelle ein. |
 | [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | Entfernt eine Zeile an der angegebenen Position aus einer Tabelle. |
 
 ### Siehe auch

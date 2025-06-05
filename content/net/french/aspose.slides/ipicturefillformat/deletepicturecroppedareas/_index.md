@@ -1,13 +1,13 @@
 ---
 title: DeletePictureCroppedAreas
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Supprimer les zones recadrées de l'image de remplissage.
 type: docs
 weight: 200
 url: /fr/aspose.slides/ipicturefillformat/deletepicturecroppedareas/
 ---
 
-## Méthode IPictureFillFormat.DeletePictureCroppedAreas
+## IPictureFillFormat.DeletePictureCroppedAreas method
 
 Supprimer les zones recadrées de l'image de remplissage.
 
@@ -15,15 +15,15 @@ Supprimer les zones recadrées de l'image de remplissage.
 public IPPImage DeletePictureCroppedAreas()
 ```
 
-### Valeur de retour
+### Return Value
 
 Image recadrée ou image d'origine si le recadrage n'est pas nécessaire.
 
-### Remarques
+### Remarks
 
-Cette méthode convertit les mét fichiers WMF/EMF en image raster PNG tout en recadrant.
+Cette méthode convertit les fichiers métas WMF/EMF en image PNG raster tout en recadrant.
 
-### Exemples
+### Examples
 
 ```csharp
 [C#]
@@ -39,7 +39,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 }
 ```
 
-### Voir aussi
+### See Also
 
 * interface [IPPImage](../../ippimage)
 * interface [IPictureFillFormat](../../ipicturefillformat)

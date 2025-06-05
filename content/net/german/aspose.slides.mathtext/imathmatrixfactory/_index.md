@@ -1,7 +1,7 @@
 ---
 title: IMathMatrixFactory
-second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht die Erstellung einer mathematischen Matrix
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ermöglicht das Erstellen einer mathematischen Matrix
 type: docs
 weight: 8100
 url: /de/aspose.slides.mathtext/imathmatrixfactory/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathmatrixfactory/
 
 ## IMathMatrixFactory-Schnittstelle
 
-Ermöglicht die Erstellung einer mathematischen Matrix
+Ermöglicht das Erstellen einer mathematischen Matrix
 
 ```csharp
 public interface IMathMatrixFactory
@@ -21,11 +21,11 @@ public interface IMathMatrixFactory
 | --- | --- |
 | [CreateMathMatrix](../../aspose.slides.mathtext/imathmatrixfactory/createmathmatrix)(int, int) | Erstellt eine mathematische Matrix |
 
-### Bemerkungen
+### Anmerkungen
 
 Für COM-Kompatibilität
 
-### Siehe Auch
+### Siehe auch
 
 * Namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * Assembly [Aspose.Slides](../../)

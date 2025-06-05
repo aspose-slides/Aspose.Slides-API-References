@@ -1,15 +1,15 @@
 ---
-title: Compiler
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Transforme le modèle avec la clé donnée et l'objet modèle en un résultat.
+title: Compile
+second_title: Référence de l'API Aspose.Sildes for .NET
+description: Transforme le modèle avec la clé et l'objet modèle donnés en sortie.
 type: docs
 weight: 20
 url: /fr/aspose.slides.export.web/itemplateengine/compile/
 ---
 
-## Méthode ITemplateEngine.Compile
+## ITemplateEngine.Compile méthode
 
-Transforme le modèle avec la clé donnée et l'objet modèle en un résultat.
+Transforme le modèle avec la clé et l'objet modèle donnés en sortie.
 
 ```csharp
 public string Compile(string key, object model)
@@ -18,13 +18,13 @@ public string Compile(string key, object model)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | key | String | Clé pour le modèle dans la collection de modèles. |
-| model | Object | Objet modèle contenant les données pour la transformation. |
+| model | Object | Objet modèle contenant des données pour la transformation. |
 
-### Valeur de retour
+### Valeur de Retour
 
-Résultat en tant que String.
+Sortie résultante sous forme de String.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ITemplateEngine](../../itemplateengine)
 * namespace [Aspose.Slides.Export.Web](../../itemplateengine)

@@ -7,7 +7,7 @@ weight: 10570
 url: /de/aspose.slides/tablestylepreset/
 ---
 
-## TableStylePreset Enumeration
+## TableStylePreset Aufzählung
 
 Stellt integrierte Tabellenstile dar.
 
@@ -19,24 +19,24 @@ public enum TableStylePreset
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Custom | `-1` | Tabelle hat einen benutzerdefinierten Stil. Dies ist ein nur zurückgegebener Wert. |
+| Custom | `-1` | Die Tabelle hat einen benutzerdefinierten Stil. Dies ist ein Rückgabewert. |
 | None | `0` | Kein Stil. |
-| MediumStyle2Accent1 | `1` | Mittelstil 2 - Akzent 1. |
-| MediumStyle2 | `2` | Mittelstil 2. |
-| NoStyleNoGrid | `3` | Kein Stil, kein Gitter. |
-| ThemedStyle1Accent1 | `4` | Thematischer Stil 1 - Akzent 1. |
-| ThemedStyle1Accent2 | `5` | Thematischer Stil 1 - Akzent 2. |
-| ThemedStyle1Accent3 | `6` | Thematischer Stil 1 - Akzent 3. |
-| ThemedStyle1Accent4 | `7` | Thematischer Stil 1 - Akzent 4. |
-| ThemedStyle1Accent5 | `8` | Thematischer Stil 1 - Akzent 5. |
-| ThemedStyle1Accent6 | `9` | Thematischer Stil 1 - Akzent 6. |
-| NoStyleTableGrid | `10` | Kein Stil, Tabellengitter. |
-| ThemedStyle2Accent1 | `11` | Thematischer Stil 2 - Akzent 1. |
-| ThemedStyle2Accent2 | `12` | Thematischer Stil 2 - Akzent 2. |
-| ThemedStyle2Accent3 | `13` | Thematischer Stil 2 - Akzent 3. |
-| ThemedStyle2Accent4 | `14` | Thematischer Stil 2 - Akzent 4. |
-| ThemedStyle2Accent5 | `15` | Thematischer Stil 2 - Akzent 5. |
-| ThemedStyle2Accent6 | `16` | Thematischer Stil 2 - Akzent 6. |
+| MediumStyle2Accent1 | `1` | Medium Stil 2 - Akzent 1. |
+| MediumStyle2 | `2` | Medium Stil 2. |
+| NoStyleNoGrid | `3` | Kein Stil, kein Raster. |
+| ThemedStyle1Accent1 | `4` | Themed Stil 1 - Akzent 1. |
+| ThemedStyle1Accent2 | `5` | Themed Stil 1 - Akzent 2. |
+| ThemedStyle1Accent3 | `6` | Themed Stil 1 - Akzent 3. |
+| ThemedStyle1Accent4 | `7` | Themed Stil 1 - Akzent 4. |
+| ThemedStyle1Accent5 | `8` | Themed Stil 1 - Akzent 5. |
+| ThemedStyle1Accent6 | `9` | Themed Stil 1 - Akzent 6. |
+| NoStyleTableGrid | `10` | Kein Stil, Tabellenraster. |
+| ThemedStyle2Accent1 | `11` | Themed Stil 2 - Akzent 1. |
+| ThemedStyle2Accent2 | `12` | Themed Stil 2 - Akzent 2. |
+| ThemedStyle2Accent3 | `13` | Themed Stil 2 - Akzent 3. |
+| ThemedStyle2Accent4 | `14` | Themed Stil 2 - Akzent 4. |
+| ThemedStyle2Accent5 | `15` | Themed Stil 2 - Akzent 5. |
+| ThemedStyle2Accent6 | `16` | Themed Stil 2 - Akzent 6. |
 | LightStyle1 | `17` | Heller Stil 1 |
 | LightStyle1Accent1 | `18` | Heller Stil 1 - Akzent 1. |
 | LightStyle1Accent2 | `19` | Heller Stil 1 - Akzent 2. |
@@ -48,41 +48,41 @@ public enum TableStylePreset
 | LightStyle2Accent1 | `25` | Heller Stil 2 - Akzent 1. |
 | LightStyle2Accent2 | `26` | Heller Stil 2 - Akzent 2. |
 | LightStyle2Accent3 | `27` | Heller Stil 2 - Akzent 3. |
-| MediumStyle2Accent3 | `28` | Mittelstil 2 - Akzent 3. |
-| MediumStyle2Accent4 | `29` | Mittelstil 2 - Akzent 4. |
-| MediumStyle2Accent5 | `30` | Mittelstil 2 - Akzent 5. |
+| MediumStyle2Accent3 | `28` | Medium Stil 2 - Akzent 3. |
+| MediumStyle2Accent4 | `29` | Medium Stil 2 - Akzent 4. |
+| MediumStyle2Accent5 | `30` | Medium Stil 2 - Akzent 5. |
 | LightStyle2Accent6 | `31` | Heller Stil 2 - Akzent 6. |
 | LightStyle2Accent4 | `32` | Heller Stil 2 - Akzent 4. |
 | LightStyle3 | `33` | Heller Stil 3. |
 | LightStyle3Accent1 | `34` | Heller Stil 3 - Akzent 1. |
-| MediumStyle2Accent2 | `35` | Mittelstil 2 - Akzent 2. |
+| MediumStyle2Accent2 | `35` | Medium Stil 2 - Akzent 2. |
 | LightStyle3Accent2 | `36` | Heller Stil 3 - Akzent 2. |
 | LightStyle3Accent3 | `37` | Heller Stil 3 - Akzent 3. |
 | LightStyle3Accent4 | `38` | Heller Stil 3 - Akzent 4. |
 | LightStyle3Accent5 | `39` | Heller Stil 3 - Akzent 5. |
 | LightStyle3Accent6 | `40` | Heller Stil 3 - Akzent 6. |
-| MediumStyle1 | `41` | Mittelstil 1. |
-| MediumStyle1Accent1 | `42` | Mittelstil 1 - Akzent 1. |
-| MediumStyle1Accent2 | `43` | Mittelstil 1 - Akzent 2. |
-| MediumStyle1Accent3 | `44` | Mittelstil 1 - Akzent 3. |
-| MediumStyle1Accent4 | `45` | Mittelstil 1 - Akzent 4. |
-| MediumStyle1Accent5 | `46` | Mittelstil 1 - Akzent 5. |
-| MediumStyle1Accent6 | `47` | Mittelstil 1 - Akzent 6. |
-| MediumStyle2Accent6 | `48` | Mittelstil 2 - Akzent 6. |
-| MediumStyle3 | `49` | Mittelstil 3. |
-| MediumStyle3Accent1 | `50` | Mittelstil 3 - Akzent 1. |
-| MediumStyle3Accent2 | `51` | Mittelstil 3 - Akzent 2. |
-| MediumStyle3Accent3 | `52` | Mittelstil 3 - Akzent 3. |
-| MediumStyle3Accent4 | `53` | Mittelstil 3 - Akzent 4. |
-| MediumStyle3Accent5 | `54` | Mittelstil 3 - Akzent 5. |
-| MediumStyle3Accent6 | `55` | Mittelstil 3 - Akzent 6. |
-| MediumStyle4 | `56` | Mittelstil 4. |
-| MediumStyle4Accent1 | `57` | Mittelstil 4 - Akzent 1. |
-| MediumStyle4Accent2 | `58` | Mittelstil 4 - Akzent 2. |
-| MediumStyle4Accent3 | `59` | Mittelstil 4 - Akzent 3. |
-| MediumStyle4Accent4 | `60` | Mittelstil 4 - Akzent 4. |
-| MediumStyle4Accent5 | `61` | Mittelstil 4 - Akzent 5. |
-| MediumStyle4Accent6 | `62` | Mittelstil 4 - Akzent 6. |
+| MediumStyle1 | `41` | Medium Stil 1. |
+| MediumStyle1Accent1 | `42` | Medium Stil 1 - Akzent 1. |
+| MediumStyle1Accent2 | `43` | Medium Stil 1 - Akzent 2. |
+| MediumStyle1Accent3 | `44` | Medium Stil 1 - Akzent 3. |
+| MediumStyle1Accent4 | `45` | Medium Stil 1 - Akzent 4. |
+| MediumStyle1Accent5 | `46` | Medium Stil 1 - Akzent 5. |
+| MediumStyle1Accent6 | `47` | Medium Stil 1 - Akzent 6. |
+| MediumStyle2Accent6 | `48` | Medium Stil 2 - Akzent 6. |
+| MediumStyle3 | `49` | Medium Stil 3. |
+| MediumStyle3Accent1 | `50` | Medium Stil 3 - Akzent 1. |
+| MediumStyle3Accent2 | `51` | Medium Stil 3 - Akzent 2. |
+| MediumStyle3Accent3 | `52` | Medium Stil 3 - Akzent 3. |
+| MediumStyle3Accent4 | `53` | Medium Stil 3 - Akzent 4. |
+| MediumStyle3Accent5 | `54` | Medium Stil 3 - Akzent 5. |
+| MediumStyle3Accent6 | `55` | Medium Stil 3 - Akzent 6. |
+| MediumStyle4 | `56` | Medium Stil 4. |
+| MediumStyle4Accent1 | `57` | Medium Stil 4 - Akzent 1. |
+| MediumStyle4Accent2 | `58` | Medium Stil 4 - Akzent 2. |
+| MediumStyle4Accent3 | `59` | Medium Stil 4 - Akzent 3. |
+| MediumStyle4Accent4 | `60` | Medium Stil 4 - Akzent 4. |
+| MediumStyle4Accent5 | `61` | Medium Stil 4 - Akzent 5. |
+| MediumStyle4Accent6 | `62` | Medium Stil 4 - Akzent 6. |
 | DarkStyle1 | `63` | Dunkler Stil 1. |
 | DarkStyle1Accent1 | `64` | Dunkler Stil 1 - Akzent 1. |
 | DarkStyle1Accent2 | `65` | Dunkler Stil 1 - Akzent 2. |

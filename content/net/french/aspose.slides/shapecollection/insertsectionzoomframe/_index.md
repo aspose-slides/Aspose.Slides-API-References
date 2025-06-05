@@ -1,6 +1,6 @@
 ---
 title: InsertSectionZoomFrame
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Crée un nouvel objet Section Zoom et l'insère dans une collection à l'index spécifié.
 type: docs
 weight: 370
@@ -18,11 +18,11 @@ public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, flo
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | L'index basé sur zéro à laquelle le cadre Section Zoom doit être inséré. |
-| x | Single | Coordonnée X d'un nouveau cadre Section Zoom. |
-| y | Single | Coordonnée Y d'un nouveau cadre Section Zoom. |
-| width | Single | Largeur d'un nouveau cadre Section Zoom. |
-| height | Single | Hauteur d'un nouveau cadre Section Zoom. |
+| index | Int32 | L'index basé sur zéro où le cadre Section Zoom doit être inséré. |
+| x | Single | Coordonnée X d'un nouveau cadre Section Zoom Single. |
+| y | Single | Coordonnée Y d'un nouveau cadre Section Zoom Single. |
+| width | Single | Largeur d'un nouveau cadre Section Zoom Single. |
+| height | Single | Hauteur d'un nouveau cadre Section Zoom Single. |
 | section | ISection | L'objet diapositive référencé par le cadre Section Zoom [`ISection`](../../isection). |
 
 ### Valeur de retour
@@ -37,7 +37,7 @@ Objet Section Zoom créé [`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### Exemples
 
-Cet exemple illustre la création et l'insertion d'un objet Section Zoom à l'intérieur de l'index spécifié d'une collection (supposons qu'il y ait au moins deux sections dans la présentation "Presentation.pptx"):
+Cet exemple démontre la création et l'insertion d'un objet Section Zoom à l'index spécifié d'une collection (supposons qu'il y ait au moins deux sections dans la présentation "Presentation.pptx"):
 
 ```csharp
 [C#]
@@ -47,7 +47,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ISectionZoomFrame](../../isectionzoomframe)
 * interface [ISection](../../isection)
@@ -68,11 +68,11 @@ public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, flo
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | L'index basé sur zéro à laquelle le cadre Section Zoom doit être inséré. |
-| x | Single | Coordonnée X d'un nouveau cadre Section Zoom. |
-| y | Single | Coordonnée Y d'un nouveau cadre Section Zoom. |
-| width | Single | Largeur d'un nouveau cadre Section Zoom. |
-| height | Single | Hauteur d'un nouveau cadre Section Zoom. |
+| index | Int32 | L'index basé sur zéro où le cadre Section Zoom doit être inséré. |
+| x | Single | Coordonnée X d'un nouveau cadre Section Zoom Single. |
+| y | Single | Coordonnée Y d'un nouveau cadre Section Zoom Single. |
+| width | Single | Largeur d'un nouveau cadre Section Zoom Single. |
+| height | Single | Hauteur d'un nouveau cadre Section Zoom Single. |
 | section | ISection | L'objet diapositive référencé par le cadre Section Zoom [`ISection`](../../isection). |
 | image | IPPImage | L'image pour la diapositive référencée [`IPPImage`](../../ippimage) |
 
@@ -88,7 +88,7 @@ Objet Section Zoom créé [`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### Exemples
 
-Cet exemple illustre la création et l'insertion d'un objet Section Zoom à l'intérieur de l'index spécifié d'une collection (supposons qu'il y ait au moins deux sections dans la présentation "Presentation.pptx"):
+Cet exemple démontre la création et l'insertion d'un objet Section Zoom à l'index spécifié d'une collection (supposons qu'il y ait au moins deux sections dans la présentation "Presentation.pptx"):
 
 ```csharp
 [C#]
@@ -99,7 +99,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ISectionZoomFrame](../../isectionzoomframe)
 * interface [ISection](../../isection)

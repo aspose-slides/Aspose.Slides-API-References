@@ -1,7 +1,7 @@
 ---
-title: Ausrichtung
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Ausrichtungsstil eines Tabs zurück oder legt ihn fest. Lese-/Schreibzugriff auf TabAlignmentaspose.slides/tabalignment.
+title: Alignment
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt den Ausrichtungsstil eines Tabs zurück oder setzt ihn. Lese-/schreibbare TabAlignmentaspose.slides/tabalignment.
 type: docs
 weight: 10
 url: /de/aspose.slides/itab/alignment/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/itab/alignment/
 
 ## ITab.Alignment-Eigenschaft
 
-Gibt den Ausrichtungsstil eines Tabs zurück oder legt ihn fest. Lese-/Schreibzugriff auf [`TabAlignment`](../../tabalignment).
+Gibt den Ausrichtungsstil eines Tabs zurück oder setzt ihn. Lese-/schreibbare [`TabAlignment`](../../tabalignment).
 
 ```csharp
 public TabAlignment Alignment { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [TabAlignment](../../tabalignment)
 * interface [ITab](../../itab)

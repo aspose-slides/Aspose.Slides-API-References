@@ -1,13 +1,13 @@
 ---
-title: 重新排序
-second_title: Aspose.Sildes for .NET API 参考
+title: Reorder
+second_title: Aspose.Sildes for .NET API Reference
 description: 将幻灯片从集合中移动到指定位置。
 type: docs
 weight: 120
 url: /zh/aspose.slides/islidecollection/reorder/
 ---
 
-## Reorder(int, ISlide) {#reorder}
+## Reorder(int, ISlide) {#reorder}
 
 将幻灯片从集合中移动到指定位置。
 
@@ -20,7 +20,7 @@ public void Reorder(int index, ISlide slide)
 | index | Int32 | 目标索引。 |
 | slide | ISlide | 要移动的幻灯片。 |
 
-### 另见
+### 参见
 
 * 接口 [ISlide](../../islide)
 * 接口 [ISlideCollection](../../islidecollection)
@@ -29,9 +29,9 @@ public void Reorder(int index, ISlide slide)
 
 ---
 
-## Reorder(int, params ISlide[]) {#reorder_1}
+## Reorder(int, params ISlide[]) {#reorder_1}
 
-将幻灯片从集合中移动到指定位置。幻灯片将从索引开始按列表中出现的顺序放置。
+将幻灯片从集合中移动到指定位置。幻灯片将根据它们在列表中出现的顺序，从索引开始放置。
 
 ```csharp
 public void Reorder(int index, params ISlide[] slides)
@@ -42,7 +42,7 @@ public void Reorder(int index, params ISlide[] slides)
 | index | Int32 | 目标索引。 |
 | slides | ISlide[] | 要移动的幻灯片。 |
 
-### 另见
+### 参见
 
 * 接口 [ISlide](../../islide)
 * 接口 [ISlideCollection](../../islidecollection)

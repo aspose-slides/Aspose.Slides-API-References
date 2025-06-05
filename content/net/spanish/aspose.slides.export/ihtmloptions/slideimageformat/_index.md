@@ -1,25 +1,25 @@
 ---
 title: SlideImageFormat
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Devuelve o establece opciones de formato de imagen de diapositiva. Lectura/escritura ISlideImageFormataspose.slides.export/islideimageformat.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve o establece las opciones de formato de imagen de la diapositiva. Lectura/escritura ISlideImageFormataspose.slides.export/islideimageformat.
 type: docs
 weight: 90
 url: /es/aspose.slides.export/ihtmloptions/slideimageformat/
 ---
 
-## Propiedad IHtmlOptions.SlideImageFormat
+## IHtmlOptions.SlideImageFormat property
 
-Devuelve o establece opciones de formato de imagen de diapositiva. Lectura/escritura [`ISlideImageFormat`](../../islideimageformat).
+Devuelve o establece las opciones de formato de imagen de la diapositiva. Lectura/escritura [`ISlideImageFormat`](../../islideimageformat).
 
 ```csharp
 public ISlideImageFormat SlideImageFormat { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [ISlideImageFormat](../../islideimageformat)
 * interfaz [IHtmlOptions](../../ihtmloptions)
 * espacio de nombres [Aspose.Slides.Export](../../ihtmloptions)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

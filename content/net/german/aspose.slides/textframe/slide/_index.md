@@ -1,7 +1,7 @@
 ---
-title: Folie
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die übergeordnete Folie eines TextFrames zurück. Nur lesen IBaseSlideaspose.slides/ibaseslide.
+title: Slide
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den übergeordneten Slide eines TextFrames zurück. Nur lesend IBaseSlideaspose.slides/ibaseslide.
 type: docs
 weight: 60
 url: /de/aspose.slides/textframe/slide/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/textframe/slide/
 
 ## TextFrame.Slide-Eigenschaft
 
-Gibt die übergeordnete Folie eines TextFrames zurück. Nur lesen [`IBaseSlide`](../../ibaseslide).
+Gibt den übergeordneten Slide eines TextFrames zurück. Nur lesend [`IBaseSlide`](../../ibaseslide).
 
 ```csharp
 public IBaseSlide Slide { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IBaseSlide](../../ibaseslide)
 * Klasse [TextFrame](../../textframe)

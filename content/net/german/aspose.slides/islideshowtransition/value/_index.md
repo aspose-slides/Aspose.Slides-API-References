@@ -1,7 +1,7 @@
 ---
-title: Wert
-second_title: Aspose.Slides für .NET API-Referenz
-description: Folienübergangswert. Nur-Lese ITransitionValueBase aspose.slides.slideshow/itransitionvaluebase.
+title: Value
+second_title: Aspose.Slides für .NET API Referenz
+description: Wert der Folienübergänge. Nur lesbarer ITransitionValueBase aspose.slides.slideshow/itransitionvaluebase.
 type: docs
 weight: 110
 url: /de/aspose.slides/islideshowtransition/value/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/islideshowtransition/value/
 
 ## ISlideShowTransition.Value-Eigenschaft
 
-Folienübergangswert. Nur-Lese [`ITransitionValueBase`](../../../aspose.slides.slideshow/itransitionvaluebase).
+Wert der Folienübergänge. Nur lesbar [`ITransitionValueBase`](../../../aspose.slides.slideshow/itransitionvaluebase).
 
 ```csharp
 public ITransitionValueBase Value { get; }

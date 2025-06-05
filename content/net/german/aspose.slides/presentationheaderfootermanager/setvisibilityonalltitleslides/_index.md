@@ -1,7 +1,7 @@
 ---
 title: SetVisibilityOnAllTitleSlides
 second_title: Aspose.Sildes für .NET API Referenz
-description: Ändert die Sichtbarkeit der Platzhalter für Datum, Uhrzeit und Seitenzahl für alle Titel-Slides und für die erste Layout-Slide. Titel-Slides sind Slides, die auf der ersten Layout-Slide basieren, unabhängig vom Typ dieser ersten Layout.
+description: Ändert die Sichtbarkeit der Fußzeilen-Datums- und Seitenzahl-Platzhalter für alle Titel-Folien und für die erste Layoutfolie. Titel-Folien sind Folien, die auf der ersten Layoutfolie basieren, unabhängig vom Typ dieser ersten Layoutfolie.
 type: docs
 weight: 80
 url: /de/aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/presentationheaderfootermanager/setvisibilityonalltitlesl
 
 ## PresentationHeaderFooterManager.SetVisibilityOnAllTitleSlides-Methode
 
-Ändert die Sichtbarkeit der Platzhalter für Fußzeile, Datum, Uhrzeit und Seitenzahl für alle Titel-Slides und für die erste Layout-Slide. Titel-Slides sind Slides, die auf der ersten Layout-Slide basieren (unabhängig vom Typ dieser ersten Layout).
+Ändert die Sichtbarkeit der Fußzeilen-, Datums- und Seitenzahl-Platzhalter für alle Titel-Folien und für die erste Layoutfolie. Titel-Folien – Folien, die auf der ersten Layoutfolie basieren (unabhängig vom Typ dieser ersten Layoutfolie).
 
 ```csharp
 public void SetVisibilityOnAllTitleSlides(bool isVisible)

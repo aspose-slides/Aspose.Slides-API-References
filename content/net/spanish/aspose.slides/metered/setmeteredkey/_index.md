@@ -1,6 +1,6 @@
 ---
 title: SetMeteredKey
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Establece la clave pública y privada medida
 type: docs
 weight: 20
@@ -24,6 +24,6 @@ public void SetMeteredKey(string publicKey, string privateKey)
 
 * clase [Metered](../../metered)
 * espacio de nombres [Aspose.Slides](../../metered)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

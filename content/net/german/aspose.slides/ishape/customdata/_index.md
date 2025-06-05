@@ -1,21 +1,21 @@
 ---
 title: CustomData
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die benutzerdefinierten Daten der Formen zurück. Nur-Lese ICustomDataaspose.slides/icustomdata.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die benutzerdefinierten Daten der Formen zurück. Nur-lesbares ICustomDataaspose.slides/icustomdata.
 type: docs
 weight: 70
 url: /de/aspose.slides/ishape/customdata/
 ---
 
-## IShape.CustomData Eigenschaft
+## IShape.CustomData-Eigenschaft
 
-Gibt die benutzerdefinierten Daten der Form zurück. Nur-Lese [`ICustomData`](../../icustomdata).
+Gibt die benutzerdefinierten Daten der Form zurück. Nur-lesbares [`ICustomData`](../../icustomdata).
 
 ```csharp
 public ICustomData CustomData { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ICustomData](../../icustomdata)
 * Schnittstelle [IShape](../../ishape)

@@ -15,10 +15,10 @@ Indica si el valor mínimo se asigna automáticamente. Booleano de lectura/escri
 public bool IsAutomaticMinValue { get; set; }
 ```
 
-### Véase también
+### Véase También
 
-* clase [Axis](../../axis)
-* espacio de nombres [Aspose.Slides.Charts](../../axis)
-* ensamblaje [Aspose.Slides](../../../)
+* clase [Axis](../../axis)
+* espacio de nombres [Aspose.Slides.Charts](../../axis)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

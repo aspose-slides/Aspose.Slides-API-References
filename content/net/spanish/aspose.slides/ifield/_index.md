@@ -20,9 +20,9 @@ public interface IField : ISlideComponent
 | Nombre | Descripción |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides/ifield/asislidecomponent) { get; } | Permite obtener la interfaz base ISlideComponent. Solo lectura [`ISlideComponent`](../islidecomponent). |
-| [Type](../../aspose.slides/ifield/type) { get; set; } | Retorna o establece el tipo del campo. Lectura/escritura [`IFieldType`](../ifieldtype). |
+| [Type](../../aspose.slides/ifield/type) { get; set; } | Devuelve o establece el tipo del campo. Lectura/escritura [`IFieldType`](../ifieldtype). |
 
-### Véase también
+### Véase También
 
 * interfaz [ISlideComponent](../islidecomponent)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)

@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides.charts/chartdatapointcollection/adddatapointfordoughnutseries/
 ---
+
 ## AddDataPointForDoughnutSeries(IChartDataCell) {#adddatapointfordoughnutseries}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Doughnut subtypes (see also [`IsChartTypeDoughnut`](../../charttypecharacterizer/ischarttypedoughnut) method).

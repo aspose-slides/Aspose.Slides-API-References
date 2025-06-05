@@ -6,6 +6,7 @@ type: docs
 weight: 210
 url: /aspose.slides.animation/behaviorproperty/extrusiontype/
 ---
+
 ## BehaviorProperty.ExtrusionType property
 
 Represents 'extrusion.type' property

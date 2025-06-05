@@ -1,7 +1,7 @@
 ---
 title: IVbaReferenceCollection
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente une collection de références de projet VBA.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Représente une collection de références d'un projet VBA.
 type: docs
 weight: 11270
 url: /fr/aspose.slides.vba/ivbareferencecollection/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.vba/ivbareferencecollection/
 
 ## Interface IVbaReferenceCollection
 
-Représente une collection de références de projet VBA.
+Représente une collection de références d'un projet VBA.
 
 ```csharp
 public interface IVbaReferenceCollection : IGenericCollection<IVbaReference>

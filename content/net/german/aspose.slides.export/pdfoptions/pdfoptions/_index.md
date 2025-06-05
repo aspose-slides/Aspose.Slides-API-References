@@ -1,13 +1,13 @@
 ---
 title: PdfOptions
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Standardkonstruktor.
 type: docs
 weight: 10
 url: /de/aspose.slides.export/pdfoptions/pdfoptions/
 ---
 
-## PdfOptions Konstruktor
+## PdfOptions-Konstruktor
 
 Standardkonstruktor.
 

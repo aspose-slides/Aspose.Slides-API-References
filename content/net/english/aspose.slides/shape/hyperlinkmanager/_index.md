@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides/shape/hyperlinkmanager/
 ---
+
 ## Shape.HyperlinkManager property
 
 Returns the hyperlink manager. Read-only [`IHyperlinkManager`](../../ihyperlinkmanager).

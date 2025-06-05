@@ -1,5 +1,5 @@
 ---
-title: Ajouter
+title: Add
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Ajouter une nouvelle cellule à la collection.
 type: docs
@@ -7,7 +7,7 @@ weight: 40
 url: /fr/aspose.slides.charts/ichartcellcollection/add/
 ---
 
-## Ajouter(IChartDataCell) {#add}
+## Add(IChartDataCell) {#add}
 
 Ajouter une nouvelle cellule à la collection.
 
@@ -28,7 +28,7 @@ public void Add(IChartDataCell chartDataCell)
 
 ---
 
-## Ajouter(object) {#add_1}
+## Add(object) {#add_1}
 
 Crée un [`IChartDataCell`](../../ichartdatacell) à partir de la valeur spécifiée et l'ajoute à la collection.
 
@@ -48,7 +48,7 @@ public void Add(object value)
 
 ### Remarques
 
-Cette méthode ajoute une feuille de calcul avec le nom AUTO_DATA et y ajoute toutes les valeurs. Si vous utilisez [`IChartDataWorkbook`](../../ichartdataworkbook) pour ajouter ou modifier les valeurs des cellules, assurez-vous de ne pas utiliser cette feuille de calcul. Le nombre maximum de valeurs ajoutées avec cette méthode ne doit pas dépasser 16711680.
+Cette méthode ajoute une feuille de calcul nommée AUTO_DATA et y ajoute toutes les valeurs. Si vous utilisez [`IChartDataWorkbook`](../../ichartdataworkbook) pour ajouter ou modifier les valeurs des cellules, assurez-vous de ne pas utiliser cette feuille de calcul. Le nombre maximum de valeurs ajoutées à l'aide de cette méthode ne doit pas dépasser 16711680
 
 ### Voir aussi
 

@@ -1,6 +1,6 @@
 ---
 title: CrossType
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Représente le CrossType sur l'axe spécifié où l'autre axe croise. Lecture/écriture CrossesTypeaspose.slides.charts/crossestype.
 type: docs
 weight: 140

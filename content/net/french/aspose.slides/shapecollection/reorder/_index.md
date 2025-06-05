@@ -1,15 +1,15 @@
 ---
-title: Réorganiser
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Déplace une forme de la collection à la position spécifiée.
+title: Reorder
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Déplace une forme de la collection vers la position spécifiée.
 type: docs
 weight: 440
 url: /fr/aspose.slides/shapecollection/reorder/
 ---
 
-## Réorganiser(int, IShape) {#reorder}
+## Reorder(int, IShape) {#reorder}
 
-Déplace une forme de la collection à la position spécifiée.
+Déplace une forme de la collection vers la position spécifiée.
 
 ```csharp
 public void Reorder(int index, IShape shape)
@@ -20,7 +20,7 @@ public void Reorder(int index, IShape shape)
 | index | Int32 | Index cible. |
 | shape | IShape | Forme à déplacer. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IShape](../../ishape)
 * class [ShapeCollection](../../shapecollection)
@@ -29,9 +29,9 @@ public void Reorder(int index, IShape shape)
 
 ---
 
-## Réorganiser(int, params IShape[]) {#reorder_1}
+## Reorder(int, params IShape[]) {#reorder_1}
 
-Déplace les formes de la collection à la position spécifiée. Les formes seront placées à partir de l'index dans l'ordre où elles apparaissent dans la liste.
+Déplace des formes de la collection vers la position spécifiée. Les formes seront placées à partir de l'index dans l'ordre dans lequel elles apparaissent dans la liste.
 
 ```csharp
 public void Reorder(int index, params IShape[] shapes)
@@ -42,7 +42,7 @@ public void Reorder(int index, params IShape[] shapes)
 | index | Int32 | Index cible. |
 | shapes | IShape[] | Formes à déplacer. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IShape](../../ishape)
 * class [ShapeCollection](../../shapecollection)

@@ -1,6 +1,6 @@
 ---
 title: SVGOptions
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 初始化 SVGOptions 类的新实例。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.export/svgoptions/svgoptions/
 public SVGOptions()
 ```
 
-### 参见
+### See Also
 
 * class [SVGOptions](../../svgoptions)
 * namespace [Aspose.Slides.Export](../../svgoptions)
@@ -25,7 +25,7 @@ public SVGOptions()
 
 ## SVGOptions(ILinkEmbedController) {#constructor_1}
 
-初始化指定链接嵌入控制器对象的 SVGOptions 类的新实例。
+初始化一个新的 SVGOptions 类实例，指定链接嵌入控制器对象。
 
 ```csharp
 public SVGOptions(ILinkEmbedController linkEmbedController)
@@ -33,13 +33,13 @@ public SVGOptions(ILinkEmbedController linkEmbedController)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| linkEmbedController | ILinkEmbedController | 链接嵌入控制器引用。 |
+| linkEmbedController | ILinkEmbedController | 链接嵌入控制器参考。 |
 
-### 备注
+### Remarks
 
-链接嵌入控制器是一个委托对象，负责判断资源（如图像）是否需要嵌入或作为外部资源引用。
+链接嵌入控制器是一个委托对象，负责决定是否需要将资源（例如图像）嵌入或作为外部资源引用。
 
-### 参见
+### See Also
 
 * interface [ILinkEmbedController](../../ilinkembedcontroller)
 * class [SVGOptions](../../svgoptions)

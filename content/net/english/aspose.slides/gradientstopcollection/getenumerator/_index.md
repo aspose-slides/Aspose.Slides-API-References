@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/gradientstopcollection/getenumerator/
 ---
+
 ## GradientStopCollection.GetEnumerator method
 
 Returns an enumerator that iterates through the collection.

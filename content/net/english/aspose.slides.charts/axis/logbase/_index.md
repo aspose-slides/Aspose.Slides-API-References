@@ -6,6 +6,7 @@ type: docs
 weight: 330
 url: /aspose.slides.charts/axis/logbase/
 ---
+
 ## Axis.LogBase property
 
 Represents the logarithmic base. Default value is 10. Read/write Double.

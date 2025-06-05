@@ -1,6 +1,6 @@
 ---
 title: FirstRow
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Bestimmt, ob die erste Zeile einer Tabelle mit einer speziellen Formatierung gezeichnet werden muss. Lese-/Schreib-Boolean.
 type: docs
 weight: 50
@@ -15,9 +15,9 @@ Bestimmt, ob die erste Zeile einer Tabelle mit einer speziellen Formatierung gez
 public bool FirstRow { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
-* Interface [ITable](../../itable)
+* Schnittstelle [ITable](../../itable)
 * Namespace [Aspose.Slides](../../itable)
 * Assembly [Aspose.Slides](../../../)
 

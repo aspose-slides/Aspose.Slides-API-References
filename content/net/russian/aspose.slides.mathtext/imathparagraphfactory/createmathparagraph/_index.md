@@ -1,7 +1,7 @@
 ---
 title: CreateMathParagraph
-second_title: Aspose.Slides для .NET API Справочник
-description: Создать пустой математический абзац
+second_title: Aspose.Sildes для .NET API Справка
+description: Создать пустой математический параграф
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/imathparagraphfactory/createmathparagraph/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/imathparagraphfactory/createmathparagraph/
 
 ## CreateMathParagraph() {#createmathparagraph}
 
-Создать пустой математический абзац
+Создать пустой математический параграф
 
 ```csharp
 public IMathParagraph CreateMathParagraph()
@@ -17,7 +17,7 @@ public IMathParagraph CreateMathParagraph()
 
 ### Возвращаемое значение
 
-новый математический абзац
+новый математический параграф
 
 ### См. также
 
@@ -30,7 +30,7 @@ public IMathParagraph CreateMathParagraph()
 
 ## CreateMathParagraph(IMathBlock) {#createmathparagraph_1}
 
-Создает математический абзац и помещает в него указанный математический блок
+Создает математический параграф и помещает в него указанный математический блок
 
 ```csharp
 public IMathParagraph CreateMathParagraph(IMathBlock mathBlock)
@@ -38,11 +38,11 @@ public IMathParagraph CreateMathParagraph(IMathBlock mathBlock)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mathBlock | IMathBlock | математический блок для размещения в абзаце |
+| mathBlock | IMathBlock | математический блок для размещения в параграфе |
 
 ### Возвращаемое значение
 
-новый математический абзац
+новый математический параграф
 
 ### См. также
 

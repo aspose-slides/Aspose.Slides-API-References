@@ -1,6 +1,6 @@
 ---
 title: CreatePresentation
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Crée une nouvelle présentation.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Crée une nouvelle présentation.
 public IPresentation CreatePresentation()
 ```
 
-### Retourne
+### Valeur de retour
 
 Nouvelle présentation
 
@@ -40,7 +40,7 @@ public IPresentation CreatePresentation(ILoadOptions options)
 | --- | --- | --- |
 | options | ILoadOptions | Options de chargement |
 
-### Retourne
+### Valeur de retour
 
 Nouvelle présentation
 

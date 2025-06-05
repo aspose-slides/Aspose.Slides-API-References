@@ -1,13 +1,13 @@
 ---
 title: AddModernComment
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Fügen Sie einen neuen modernen Kommentar am Ende einer Sammlung hinzu.
 type: docs
 weight: 30
 url: /de/aspose.slides/icommentcollection/addmoderncomment/
 ---
 
-## ICommentCollection.AddModernComment-Methode
+## ICommentCollection.AddModernComment Methode
 
 Fügen Sie einen neuen modernen Kommentar am Ende einer Sammlung hinzu.
 
@@ -19,9 +19,9 @@ public IModernComment AddModernComment(string text, ISlide slide, IShape shape, 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | text | String | Klartext eines neuen modernen Kommentars. |
-| slide | ISlide | Folie in einer Präsentation, auf der ein neuer moderner Kommentar hinzugefügt wird. |
+| slide | ISlide | Folie in einer Präsentation, in der ein neuer moderner Kommentar hinzugefügt werden soll. |
 | shape | IShape | Form auf einer Folie, die mit einem neuen modernen Kommentar verknüpft ist. |
-| position | PointF | Position auf einer Folie, an der ein neuer moderner Kommentar hinzugefügt wird. |
+| position | PointF | Position auf einer Folie, an der ein neuer moderner Kommentar hinzugefügt werden soll. |
 | creationTime | DateTime | Zeitpunkt der Erstellung eines modernen Kommentars. |
 
 ### Rückgabewert

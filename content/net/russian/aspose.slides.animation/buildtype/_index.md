@@ -1,6 +1,6 @@
 ---
 title: BuildType
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Reference
 description: Определяет, как текст будет отображаться на фигуре во время анимации.
 type: docs
 weight: 130
@@ -17,15 +17,15 @@ public enum BuildType
 
 ### Значения
 
-| Название | Значение | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
-| AsOneObject | `0` | С содержащей фигурой. |
-| AllParagraphsAtOnce | `1` | Все параграфы. |
-| ByLevelParagraphs1 | `2` | По группам параграфов глубины 1. |
-| ByLevelParagraphs2 | `3` | По группам параграфов глубины 2. |
-| ByLevelParagraphs3 | `4` | По группам параграфов глубины 3. |
-| ByLevelParagraphs4 | `5` | По группам параграфов глубины 4. |
-| ByLevelParagraphs5 | `6` | По группам параграфов глубины 5. |
+| AsOneObject | `0` | Вместе с содержащей фигурой. |
+| AllParagraphsAtOnce | `1` | Все абзацы. |
+| ByLevelParagraphs1 | `2` | По группам абзацев глубины 1. |
+| ByLevelParagraphs2 | `3` | По группам абзацев глубины 2. |
+| ByLevelParagraphs3 | `4` | По группам абзацев глубины 3. |
+| ByLevelParagraphs4 | `5` | По группам абзацев глубины 4. |
+| ByLevelParagraphs5 | `6` | По группам абзацев глубины 5. |
 
 ### См. также
 

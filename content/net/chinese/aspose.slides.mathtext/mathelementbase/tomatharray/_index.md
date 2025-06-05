@@ -1,7 +1,7 @@
 ---
 title: ToMathArray
-second_title: Aspose.Slides for .NET API 参考
-description: 以垂直数组的形式插入
+second_title: Aspose.Sildes for .NET API Reference
+description: 生成一个垂直数组
 type: docs
 weight: 200
 url: /zh/aspose.slides.mathtext/mathelementbase/tomatharray/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathelementbase/tomatharray/
 
 ## MathElementBase.ToMathArray 方法
 
-以垂直数组的形式插入
+生成一个垂直数组
 
 ```csharp
 public virtual IMathArray ToMathArray()
@@ -17,7 +17,7 @@ public virtual IMathArray ToMathArray()
 
 ### 返回值
 
-类型为 [`IMathArray`](../../imatharray) 的新实例
+新实例类型 [`IMathArray`](../../imatharray)
 
 ### 示例
 
@@ -28,7 +28,7 @@ public virtual IMathArray ToMathArray()
 IMathArray array = new MathematicalText("x1").Join("x2").Join("x3").ToMathArray();
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IMathArray](../../imatharray)
 * 类 [MathElementBase](../../mathelementbase)

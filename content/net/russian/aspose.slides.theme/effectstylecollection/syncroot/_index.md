@@ -1,6 +1,6 @@
 ---
 title: SyncRoot
-second_title: Ссылка на API Aspose.Sildes для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает корень синхронизации. Объект только для чтения.
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.theme/effectstylecollection/syncroot/
 public object SyncRoot { get; }
 ```
 
-### См. также
+### Также см. 
 
 * класс [EffectStyleCollection](../../effectstylecollection)
 * пространство имен [Aspose.Slides.Theme](../../effectstylecollection)

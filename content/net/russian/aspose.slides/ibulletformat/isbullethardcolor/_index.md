@@ -1,15 +1,15 @@
 ---
 title: IsBulletHardColor
-second_title: Справка по API Aspose.Slides для .NET
-description: Определяет, имеет ли маркер собственный цвет или наследует его от первой части в абзаце. NullableBool.True, если маркер имеет собственный цвет, и NullableBool.False, если маркер наследует цвет от первой части в абзаце. Чтение/запись NullableBoolaspose.slides/nullablebool.
+second_title: Aspose.Sildes для .NET API Reference
+description: Определяет, имеет ли маркер свой собственный цвет или наследует его от первой части в абзаце. NullableBool.True если маркер имеет свой собственный цвет и NullableBool.False если маркер наследует цвет от первой части в абзаце. Чтение/запись NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 50
 url: /ru/aspose.slides/ibulletformat/isbullethardcolor/
 ---
 
-## Свойство IBulletFormat.IsBulletHardColor
+## IBulletFormat.IsBulletHardColor свойство
 
-Определяет, имеет ли маркер собственный цвет или наследует его от первой части в абзаце. **NullableBool.True**, если маркер имеет собственный цвет, и **NullableBool.False**, если маркер наследует цвет от первой части в абзаце. Чтение/запись [`NullableBool`](../../nullablebool).
+Определяет, имеет ли маркер свой собственный цвет или наследует его от первой части в абзаце. **NullableBool.True** если маркер имеет свой собственный цвет и **NullableBool.False** если маркер наследует цвет от первой части в абзаце. Чтение/запись [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool IsBulletHardColor { get; set; }

@@ -1,21 +1,21 @@
 ---
 title: HeightPercents
-second_title: Aspose.Slides for .NET API Reference
-description: 指定3-D图表高度占图表宽度的百分比，范围是5到500百分比。可读写UInt16。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定 3-D 图表的高度为图表宽度的百分比（在 5% 到 500% 之间）。可读写 UInt16。
 type: docs
 weight: 20
 url: /zh/aspose.slides.charts/irotation3d/heightpercents/
 ---
 
-## IRotation3D.HeightPercents属性
+## IRotation3D.HeightPercents 属性
 
-指定3-D图表高度占图表宽度的百分比（范围是5到500百分比）。可读写UInt16。
+指定 3-D 图表的高度为图表宽度的百分比（在 5% 到 500% 之间）。可读写 UInt16。
 
 ```csharp
 public ushort HeightPercents { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IRotation3D](../../irotation3d)
 * 命名空间 [Aspose.Slides.Charts](../../irotation3d)

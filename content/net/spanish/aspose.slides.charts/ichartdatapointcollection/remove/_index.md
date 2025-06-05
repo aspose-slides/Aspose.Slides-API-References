@@ -1,6 +1,6 @@
 ---
-title: Eliminar
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Remove
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Elimina el valor especificado.
 type: docs
 weight: 260
@@ -23,9 +23,9 @@ public void Remove(IChartDataPoint value)
 
 | excepción | condición |
 | --- | --- |
-| ArgumentException | El parámetro value no fue encontrado en la colección. |
+| ArgumentException | El parámetro value no se encontró en la colección. |
 
-### Véase también
+### Ver También
 
 * interfaz [IChartDataPoint](../../ichartdatapoint)
 * interfaz [IChartDataPointCollection](../../ichartdatapointcollection)

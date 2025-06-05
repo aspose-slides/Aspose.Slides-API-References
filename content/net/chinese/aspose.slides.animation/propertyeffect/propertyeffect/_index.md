@@ -1,13 +1,13 @@
 ---
-title: 属性效果
-second_title: Aspose.Sildes for .NET API 参考
+title: PropertyEffect
+second_title: Aspose.Sildes for .NET API Reference
 description: 默认构造函数。
 type: docs
 weight: 10
 url: /zh/aspose.slides.animation/propertyeffect/propertyeffect/
 ---
 
-## 属性效果构造函数
+## PropertyEffect 构造函数
 
 默认构造函数。
 
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/propertyeffect/propertyeffect/
 public PropertyEffect()
 ```
 
-### 另请参见
+### 参见
 
 * class [PropertyEffect](../../propertyeffect)
 * namespace [Aspose.Slides.Animation](../../propertyeffect)

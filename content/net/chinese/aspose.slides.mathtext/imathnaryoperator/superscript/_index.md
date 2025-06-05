@@ -1,6 +1,6 @@
 ---
-title: 上标
-second_title: Aspose.Slides for .NET API 参考
+title: Superscript
+second_title: Aspose.Sildes for .NET API Reference
 description: 指定一个上标参数，例如在积分的情况下，设置上限
 type: docs
 weight: 50
@@ -25,7 +25,7 @@ IMathNaryOperator naryOperator = new MathematicalText("x").Nary(MathNaryOperator
 IMathElement superscriptArg = naryOperator.Superscript;
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IMathElement](../../imathelement)
 * 接口 [IMathNaryOperator](../../imathnaryoperator)

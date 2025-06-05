@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/connector/endshapeconnectionsiteindex/
 ---
+
 ## Connector.EndShapeConnectionSiteIndex property
 
 Returns or sets the index of connection site for end shape. Read/write UInt32.

@@ -1,5 +1,5 @@
 ---
-title: ModoDeReproducción
+title: PlayMode
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece el modo de reproducción de audio. Lectura/escritura AudioPlayModePresetaspose.slides/audioplaymodepreset.
 type: docs
@@ -7,7 +7,7 @@ weight: 140
 url: /es/aspose.slides/iaudioframe/playmode/
 ---
 
-## Propiedad IAudioFrame.PlayMode
+## IAudioFrame.PlayMode property
 
 Devuelve o establece el modo de reproducción de audio. Lectura/escritura [`AudioPlayModePreset`](../../audioplaymodepreset).
 
@@ -15,11 +15,11 @@ Devuelve o establece el modo de reproducción de audio. Lectura/escritura [`Audi
 public AudioPlayModePreset PlayMode { get; set; }
 ```
 
-### Véase También
+### Ver también
 
 * enum [AudioPlayModePreset](../../audioplaymodepreset)
 * interface [IAudioFrame](../../iaudioframe)
 * namespace [Aspose.Slides](../../iaudioframe)
 * assembly [Aspose.Slides](../../../)
 
-<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

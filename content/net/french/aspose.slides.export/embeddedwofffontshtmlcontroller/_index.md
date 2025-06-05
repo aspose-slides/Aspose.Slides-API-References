@@ -1,7 +1,7 @@
 ---
 title: EmbeddedWoffFontsHtmlController
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: La classe de contrôleur de formatage à utiliser pour l'intégration de polices au format WOFF
+description: La classe de contrôleur de formatage à utiliser pour l'incorporation de polices au format WOFF
 type: docs
 weight: 3620
 url: /fr/aspose.slides.export/embeddedwofffontshtmlcontroller/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/embeddedwofffontshtmlcontroller/
 
 ## Classe EmbeddedWoffFontsHtmlController
 
-La classe de contrôleur de formatage à utiliser pour l'intégration de polices au format WOFF
+La classe de contrôleur de formatage à utiliser pour l'incorporation de polices au format WOFF
 
 ```csharp
 public class EmbeddedWoffFontsHtmlController : IEmbeddedWoffFontsHtmlController

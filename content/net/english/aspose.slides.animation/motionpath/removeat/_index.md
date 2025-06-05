@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.animation/motionpath/removeat/
 ---
+
 ## MotionPath.RemoveAt method
 
 Removes a command at the specified index.

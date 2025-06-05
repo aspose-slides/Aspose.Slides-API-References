@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.slideshow/iwheeltransition/spokes/
 ---
+
 ## IWheelTransition.Spokes property
 
 Number spokes of wheel transition. Read/write UInt32.

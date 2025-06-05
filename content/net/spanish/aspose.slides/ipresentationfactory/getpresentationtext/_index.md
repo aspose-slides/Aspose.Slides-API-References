@@ -1,7 +1,7 @@
 ---
 title: GetPresentationText
-second_title: Aspose.Slides para .NET API Reference
-description: Recupera el texto bruto de las diapositivas
+second_title: Aspose.Sildes para la referencia de API de .NET
+description: Recupera el texto en bruto de las diapositivas
 type: docs
 weight: 30
 url: /es/aspose.slides/ipresentationfactory/getpresentationtext/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/ipresentationfactory/getpresentationtext/
 
 ## GetPresentationText(string, TextExtractionArrangingMode) {#getpresentationtext_2}
 
-Recupera el texto bruto de las diapositivas
+Recupera el texto en bruto de las diapositivas
 
 ```csharp
 public IPresentationText GetPresentationText(string file, TextExtractionArrangingMode mode)
@@ -22,9 +22,9 @@ public IPresentationText GetPresentationText(string file, TextExtractionArrangin
 
 ### Valor de Retorno
 
-La instancia de PresentationText que contiene el arreglo SlideText representando el texto bruto de las diapositivas
+La instancia de PresentationText que contiene el arreglo SlideText que representa el texto en bruto de las diapositivas
 
-### Véase También
+### Ver También
 
 * interface [IPresentationText](../../ipresentationtext)
 * enum [TextExtractionArrangingMode](../../textextractionarrangingmode)
@@ -36,7 +36,7 @@ La instancia de PresentationText que contiene el arreglo SlideText representando
 
 ## GetPresentationText(Stream, TextExtractionArrangingMode) {#getpresentationtext}
 
-Recupera el texto bruto de las diapositivas
+Recupera el texto en bruto de las diapositivas
 
 ```csharp
 public IPresentationText GetPresentationText(Stream stream, TextExtractionArrangingMode mode)
@@ -49,9 +49,9 @@ public IPresentationText GetPresentationText(Stream stream, TextExtractionArrang
 
 ### Valor de Retorno
 
-La instancia de PresentationText que contiene el arreglo SlideText representando el texto bruto de las diapositivas
+La instancia de PresentationText que contiene el arreglo SlideText que representa el texto en bruto de las diapositivas
 
-### Véase También
+### Ver También
 
 * interface [IPresentationText](../../ipresentationtext)
 * enum [TextExtractionArrangingMode](../../textextractionarrangingmode)
@@ -63,7 +63,7 @@ La instancia de PresentationText que contiene el arreglo SlideText representando
 
 ## GetPresentationText(Stream, TextExtractionArrangingMode, ILoadOptions) {#getpresentationtext_1}
 
-Recupera el texto bruto de las diapositivas
+Recupera el texto en bruto de las diapositivas
 
 ```csharp
 public IPresentationText GetPresentationText(Stream stream, TextExtractionArrangingMode mode, 
@@ -78,9 +78,9 @@ public IPresentationText GetPresentationText(Stream stream, TextExtractionArrang
 
 ### Valor de Retorno
 
-La instancia de PresentationText que contiene el arreglo SlideText representando el texto bruto de las diapositivas
+La instancia de PresentationText que contiene el arreglo SlideText que representa el texto en bruto de las diapositivas
 
-### Véase También
+### Ver También
 
 * interface [IPresentationText](../../ipresentationtext)
 * enum [TextExtractionArrangingMode](../../textextractionarrangingmode)

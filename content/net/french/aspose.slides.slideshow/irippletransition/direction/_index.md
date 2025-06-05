@@ -1,7 +1,7 @@
 ---
 title: Direction
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Direction de la transition. Lecteur/écrivain TransitionCornerAndCenterDirectionTypeaspose.slides.slideshow/transitioncornerandcenterdirectiontype.
+second_title: Aspose.Slides pour .NET Référence API
+description: Direction de la transition. Lire/écrire TransitionCornerAndCenterDirectionType aspose.slides.slideshow/transitioncornerandcenterdirectiontype.
 type: docs
 weight: 20
 url: /fr/aspose.slides.slideshow/irippletransition/direction/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.slideshow/irippletransition/direction/
 
 ## Propriété IRippleTransition.Direction
 
-Direction de la transition. Lecteur/écrivain [`TransitionCornerAndCenterDirectionType`](../../transitioncornerandcenterdirectiontype).
+Direction de la transition. Lire/écrire [`TransitionCornerAndCenterDirectionType`](../../transitioncornerandcenterdirectiontype).
 
 ```csharp
 public TransitionCornerAndCenterDirectionType Direction { get; set; }

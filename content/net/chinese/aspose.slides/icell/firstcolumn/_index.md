@@ -1,7 +1,7 @@
 ---
 title: FirstColumn
-second_title: Aspose.Sildes for .NET API 参考
-description: 获取单元格的第一列。只读 IColumnaspose.slides/icolumn。
+second_title: Aspose.Slidess for .NET API 参考
+description: 获取单元格的第一列。只读 IColumn aspose.slides/icolumn。
 type: docs
 weight: 50
 url: /zh/aspose.slides/icell/firstcolumn/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/icell/firstcolumn/
 public IColumn FirstColumn { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IColumn](../../icolumn)
 * 接口 [ICell](../../icell)

@@ -1,6 +1,6 @@
 ---
 title: MathSubscriptElement
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Initialise une nouvelle instance de la classe MathSubscriptElement.
 type: docs
 weight: 10
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/mathsubscriptelement/mathsubscriptelement/
 
 ## Constructeur MathSubscriptElement
 
-Initialise une nouvelle instance de la classe MathSubscriptElement.
+ Initialise une nouvelle instance de la classe MathSubscriptElement.
 
 ```csharp
 public MathSubscriptElement(IMathElement baseArg, IMathElement subScript)

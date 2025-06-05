@@ -1,7 +1,7 @@
 ---
 title: AsIAccessiblePVIObject
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf die Basis-IAccessiblePVIObject-Schnittstelle. Nur-lesende IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ermöglicht den Zugriff auf die Basis-IInterface IAccessiblePVIObject. Nur lesbar IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
 type: docs
 weight: 10
 url: /de/aspose.slides.effects/ialphabilevel/asiaccessiblepviobject/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.effects/ialphabilevel/asiaccessiblepviobject/
 
 ## IAlphaBiLevel.AsIAccessiblePVIObject-Eigenschaft
 
-Ermöglicht den Zugriff auf die Basis-IAccessiblePVIObject-Schnittstelle. Nur-lesend [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
+Ermöglicht den Zugriff auf die Basis-IInterface IAccessiblePVIObject. Nur lesbar [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
 
 ```csharp
 public IAccessiblePVIObject<IAlphaBiLevelEffectiveData> AsIAccessiblePVIObject { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
 * Schnittstelle [IAlphaBiLevelEffectiveData](../../ialphabileveleffectivedata)

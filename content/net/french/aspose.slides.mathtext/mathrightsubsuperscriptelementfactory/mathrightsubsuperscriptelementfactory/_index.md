@@ -1,13 +1,13 @@
 ---
 title: MathRightSubSuperscriptElementFactory
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Le constructeur par défaut.
 type: docs
 weight: 10
 url: /fr/aspose.slides.mathtext/mathrightsubsuperscriptelementfactory/mathrightsubsuperscriptelementfactory/
 ---
 
-## Constructeur MathRightSubSuperscriptElementFactory
+## Constructeur de MathRightSubSuperscriptElementFactory
 
 Le constructeur par défaut.
 

@@ -1,21 +1,21 @@
 ---
 title: JoinPortionsWithSameFormatting
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Une porciones con el mismo formato en todos los párrafos en todas las formas aceptables.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Une runs con el mismo formato en todos los párrafos en todas las formas aceptables.
 type: docs
 weight: 140
 url: /es/aspose.slides/ibaseslide/joinportionswithsameformatting/
 ---
 
-## Método IBaseSlide.JoinPortionsWithSameFormatting
+## IBaseSlide.JoinPortionsWithSameFormatting método
 
-Une porciones con el mismo formato en todos los párrafos en todas las formas aceptables.
+Une runs con el mismo formato en todos los párrafos en todas las formas aceptables.
 
 ```csharp
 public void JoinPortionsWithSameFormatting()
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IBaseSlide](../../ibaseslide)
 * espacio de nombres [Aspose.Slides](../../ibaseslide)

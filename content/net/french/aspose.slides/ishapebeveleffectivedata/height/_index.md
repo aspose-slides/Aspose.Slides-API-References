@@ -1,7 +1,7 @@
 ---
-title: Hauteur
-second_title: Référence API Aspose.Slides pour .NET
-description: Hauteur du biseau. Lecture seule Double.
+title: Height
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Hauteur de chanfrein. Lecture seule Double.
 type: docs
 weight: 20
 url: /fr/aspose.slides/ishapebeveleffectivedata/height/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ishapebeveleffectivedata/height/
 
 ## Propriété IShapeBevelEffectiveData.Height
 
-Hauteur du biseau. Lecture seule Double.
+Hauteur de chanfrein. Lecture seule Double.
 
 ```csharp
 public double Height { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IShapeBevelEffectiveData](../../ishapebeveleffectivedata)
 * namespace [Aspose.Slides](../../ishapebeveleffectivedata)

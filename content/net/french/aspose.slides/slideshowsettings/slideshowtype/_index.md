@@ -1,15 +1,15 @@
 ---
 title: SlideShowType
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient ou définit le type de diaporama. Représenté par les ancêtres suivants  SlideShowTypeaspose.slides/slideshowsettings/slideshowtype BrowsedAtKioskaspose.slides/browsedatkiosk PresentedBySpeakeraspose.slides/presentedbyspeaker et BrowsedByIndividualaspose.slides/browsedbyindividual
+description: Obtient ou définit le type de diaporama. Représenté par les ancêtres suivants SlideShowType BrowsedAtKioskaspose.slides/browsedatkiosk, PresentedBySpeakeraspose.slides/presentedbyspeaker et BrowsedByIndividualaspose.slides/browsedbyindividual
 type: docs
 weight: 70
 url: /fr/aspose.slides/slideshowsettings/slideshowtype/
 ---
 
-## Propriété SlideShowSettings.SlideShowType
+## SlideShowSettings.SlideShowType propriété
 
-Obtient ou définit le type de diaporama. Représenté par les ancêtres suivants : [`SlideShowType`](../../slideshowtype) : [`BrowsedAtKiosk`](../../browsedatkiosk), [`PresentedBySpeaker`](../../presentedbyspeaker) et [`BrowsedByIndividual`](../../browsedbyindividual)
+Obtient ou définit le type de diaporama. Représenté par les ancêtres suivants `SlideShowType`: [`BrowsedAtKiosk`](../../browsedatkiosk), [`PresentedBySpeaker`](../../presentedbyspeaker) et [`BrowsedByIndividual`](../../browsedbyindividual)
 
 ```csharp
 public SlideShowType SlideShowType { get; set; }
@@ -21,13 +21,13 @@ public SlideShowType SlideShowType { get; set; }
 [C#]
 using (Presentation pres = new Presentation())
 {
-    // pour définir le type "Consulté à un kiosque (plein écran)"
+    // pour définir le type "Consulté à un kiosque (plein écran)" 
     pres.SlideShowSettings.SlideShowType = new BrowsedAtKiosk();
     
     // pour définir le type "Consulté par un individu (fenêtre)"
     pres.SlideShowSettings.SlideShowType = new BrowsedByIndividual();
     
-    // pour définir le type "Présenté par un orateur (plein écran)"
+    // pour définir le type "Présenté par un conférencier (plein écran)"
     pres.SlideShowSettings.SlideShowType = new PresentedBySpeaker();
 }
 ```

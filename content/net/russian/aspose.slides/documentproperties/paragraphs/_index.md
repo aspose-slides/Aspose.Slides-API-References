@@ -1,6 +1,6 @@
 ---
-title: Параграфы
-second_title: Справочник по API Aspose.Sildes для .NET
+title: Paragraphs
+second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает общее количество параграфов, найденных в документе, если это применимо. Только для чтения Int32.
 type: docs
 weight: 260
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/documentproperties/paragraphs/
 public int Paragraphs { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [DocumentProperties](../../documentproperties)
 * пространство имен [Aspose.Slides](../../documentproperties)

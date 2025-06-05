@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.export/isvgoptions/disable3dtext/
 ---
+
 ## ISVGOptions.Disable3DText property
 
 Determines whether the 3D text is disabled in SVG. Read/write Boolean.

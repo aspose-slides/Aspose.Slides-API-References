@@ -1,7 +1,7 @@
 ---
 title: AudioPlayModePreset
-second_title: Aspose.Slides для .NET API Справка
-description: Константы, определяющие способ воспроизведения звука.
+second_title: Aspose.Sildes для .NET API Reference
+description: Константы, определяющие, как воспроизводится звук.
 type: docs
 weight: 800
 url: /ru/aspose.slides/audioplaymodepreset/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/audioplaymodepreset/
 
 ## Перечисление AudioPlayModePreset
 
-Константы, определяющие способ воспроизведения звука.
+Константы, определяющие, как воспроизводится звук.
 
 ```csharp
 public enum AudioPlayModePreset
@@ -17,13 +17,13 @@ public enum AudioPlayModePreset
 
 ### Значения
 
-| Имя | Значение | Описание |
+| Название | Значение | Описание |
 | --- | --- | --- |
 | Mixed | `-1` |  |
-| Auto | `0` | Воспроизведение автоматически. |
-| OnClick | `1` | Воспроизведение происходит только при нажатии на иконку. |
-| AllSlides | `2` | Воспроизведение на всех слайдах. Пожалуйста, используйте свойство [`PlayAcrossSlides`](../iaudioframe/playacrossslides) вместо этого. Этот элемент устарел с PowerPoint 2013. |
-| InClickSequence | `3` | Воспроизведение автоматически с нажатием. |
+| Auto | `0` | Воспроизводить автоматически. |
+| OnClick | `1` | Воспроизводить только при нажатии на значок. |
+| AllSlides | `2` | Воспроизводить на всех слайдах. Пожалуйста, используйте свойство [`PlayAcrossSlides`](../iaudioframe/playacrossslides). Этот элемент устарел с PowerPoint 2013. |
+| InClickSequence | `3` | Воспроизводить автоматически по щелчку. |
 
 ### См. также
 

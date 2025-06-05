@@ -1,6 +1,6 @@
 ---
 title: TiffOptions
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Standardkonstruktor.
 type: docs
 weight: 10

@@ -7,7 +7,7 @@ weight: 200
 url: /es/aspose.slides/ieffectformat/enablegloweffect/
 ---
 
-## Método IEffectFormat.EnableGlowEffect
+## IEffectFormat.EnableGlowEffect method
 
 Habilita el efecto de resplandor.
 
@@ -17,8 +17,8 @@ public void EnableGlowEffect()
 
 ### Ver También
 
-* interfaz [IEffectFormat](../../ieffectformat)
-* espacio de nombres [Aspose.Slides](../../ieffectformat)
-* ensamblaje [Aspose.Slides](../../../)
+* interface [IEffectFormat](../../ieffectformat)
+* namespace [Aspose.Slides](../../ieffectformat)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

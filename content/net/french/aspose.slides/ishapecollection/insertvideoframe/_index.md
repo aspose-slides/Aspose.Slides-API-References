@@ -1,15 +1,15 @@
 ---
 title: InsertVideoFrame
-second_title: Aspose.Slides pour API .NET
-description: Crée une nouvelle vidéo et l'insère dans une collection à l'index spécifié.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Crée un nouveau cadre vidéo et l'insère dans une collection à l'index spécifié.
 type: docs
 weight: 350
 url: /fr/aspose.slides/ishapecollection/insertvideoframe/
 ---
 
-## Méthode IShapeCollection.InsertVideoFrame
+## IShapeCollection.InsertVideoFrame méthode
 
-Crée une nouvelle vidéo et l'insère dans une collection à l'index spécifié.
+Crée un nouveau cadre vidéo et l'insère dans une collection à l'index spécifié.
 
 ```csharp
 public IVideoFrame InsertVideoFrame(int index, float x, float y, float width, float height, 
@@ -25,11 +25,11 @@ public IVideoFrame InsertVideoFrame(int index, float x, float y, float width, fl
 | height | Single | Hauteur d'un nouveau cadre vidéo. |
 | fname | String | Nom du fichier vidéo. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Objet VideoFrame créé.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IVideoFrame](../../ivideoframe)
 * interface [IShapeCollection](../../ishapecollection)

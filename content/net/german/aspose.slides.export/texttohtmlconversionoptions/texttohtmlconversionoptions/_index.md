@@ -15,7 +15,7 @@ Der Standardkonstruktor.
 public TextToHtmlConversionOptions()
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [TextToHtmlConversionOptions](../../texttohtmlconversionoptions)
 * Namespace [Aspose.Slides.Export](../../texttohtmlconversionoptions)

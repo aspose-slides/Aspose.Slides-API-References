@@ -1,6 +1,6 @@
 ---
-title: Тип
-second_title: Справочник по API Aspose.Slides для .NET
+title: Type
+second_title: Справочник API Aspose.Slides для .NET
 description: Получает тип заполнителя. Только для чтения PlaceholderTypeaspose.slides/placeholdertype.
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/iplaceholder/type/
 public PlaceholderType Type { get; }
 ```
 
-### См. Также
+### См. также
 
 * enum [PlaceholderType](../../placeholdertype)
 * interface [IPlaceholder](../../iplaceholder)

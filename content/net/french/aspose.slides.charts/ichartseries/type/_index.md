@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie un type de cette série. Lecture/écriture ChartTypeaspose.slides.charts/charttype.
+description: Renvoie un type de cette série. Lecture / écriture ChartTypeaspose.slides.charts/charttype.
 type: docs
 weight: 440
 url: /fr/aspose.slides.charts/ichartseries/type/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ichartseries/type/
 
 ## Propriété IChartSeries.Type
 
-Renvoie un type de cette série. Lecture/écriture [`ChartType`](../../charttype).
+Renvoie un type de cette série. Lecture / écriture [`ChartType`](../../charttype).
 
 ```csharp
 public ChartType Type { get; set; }

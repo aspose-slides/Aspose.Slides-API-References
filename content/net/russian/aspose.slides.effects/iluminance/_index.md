@@ -1,15 +1,15 @@
 ---
 title: ILuminance
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет эффект Люминанса. Яркость линейно сдвигает все цвета ближе к белому или черному. Контраст масштабирует все цвета так, чтобы они были либо ближе, либо дальше друг от друга.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет эффект Люминенции. Яркость линейно смещает все цвета ближе к белому или черному. Контраст масштабирует все цвета, делая их либо ближе, либо дальше друг от друга.
 type: docs
 weight: 3320
 url: /ru/aspose.slides.effects/iluminance/
 ---
 
-## Интерфейс ILuminance
+## ILuminance интерфейс
 
-Представляет эффект Люминанса. Яркость линейно сдвигает все цвета ближе к белому или черному. Контраст масштабирует все цвета так, чтобы они были либо ближе, либо дальше друг от друга.
+Представляет эффект Люминенции. Яркость линейно смещает все цвета ближе к белому или черному. Контраст масштабирует все цвета, делая их либо ближе, либо дальше друг от друга.
 
 ```csharp
 public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>, 
@@ -23,7 +23,7 @@ public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>,
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/iluminance/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/iluminance/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### См. также
+### Также см. 
 
 * интерфейс [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * интерфейс [ILuminanceEffectiveData](../iluminanceeffectivedata)

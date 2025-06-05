@@ -1,15 +1,15 @@
 ---
 title: Bitmap
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Les diapositives doivent être converties en une image raster.
+description: Les diapositives doivent être converties en une image matricielle.
 type: docs
 weight: 20
 url: /fr/aspose.slides.export/slideimageformat/bitmap/
 ---
 
-## Méthode SlideImageFormat.Bitmap
+## SlideImageFormat.Bitmap méthode
 
-Les diapositives doivent être converties en une image raster.
+Les diapositives doivent être converties en une image matricielle.
 
 ```csharp
 public static SlideImageFormat Bitmap(float scale, ImageFormat imgFormat)
@@ -18,9 +18,9 @@ public static SlideImageFormat Bitmap(float scale, ImageFormat imgFormat)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | scale | Single | Facteur d'échelle de l'image. |
-| imgFormat | ImageFormat | Format d'image. |
+| imgFormat | ImageFormat | Format de l'image. |
 
-### Voir Aussi
+### Voir aussi
 
 * classe [SlideImageFormat](../../slideimageformat)
 * espace de noms [Aspose.Slides.Export](../../slideimageformat)

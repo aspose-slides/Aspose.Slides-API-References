@@ -7,7 +7,7 @@ weight: 40
 url: /de/aspose.slides/isectioncollection/appendemptysection/
 ---
 
-## ISectionCollection.AppendEmptySection Methode
+## ISectionCollection.AppendEmptySection-Methode
 
 Fügen Sie eine leere Sektion am Ende der Sammlung hinzu.
 
@@ -23,7 +23,7 @@ public ISection AppendEmptySection(string name)
 
 Hinzugefügte Sektion.
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ISection](../../isection)
 * Schnittstelle [ISectionCollection](../../isectioncollection)

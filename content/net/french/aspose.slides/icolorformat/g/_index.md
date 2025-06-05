@@ -1,7 +1,7 @@
 ---
 title: G
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit le composant vert d'une couleur. Toutes les transformations de couleur sont ignorées. Lecture/écriture Byte.
+description: Retourne ou définit le composant vert d'une couleur. Toutes les transformations de couleur sont ignorées. Lecture/écriture Byte.
 type: docs
 weight: 90
 url: /fr/aspose.slides/icolorformat/g/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/icolorformat/g/
 
 ## Propriété IColorFormat.G
 
-Renvoie ou définit le composant vert d'une couleur. Toutes les transformations de couleur sont ignorées. Lecture/écriture Byte.
+Retourne ou définit le composant vert d'une couleur. Toutes les transformations de couleur sont ignorées. Lecture/écriture Byte.
 
 ```csharp
 public byte G { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IColorFormat](../../icolorformat)
 * namespace [Aspose.Slides](../../icolorformat)

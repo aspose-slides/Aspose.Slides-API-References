@@ -1,15 +1,15 @@
 ---
 title: RemoveAt
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Supprime un contrôle ActiveX stocké à la position spécifiée de la collection.
+second_title: Aspose.Sildes pour la référence de l'API .NET
+description: Supprime un contrôle ActiveX stocké à la position spécifiée dans la collection.
 type: docs
 weight: 50
 url: /fr/aspose.slides/icontrolcollection/removeat/
 ---
 
-## Méthode IControlCollection.RemoveAt
+## IControlCollection.RemoveAt méthode
 
-Supprime un contrôle ActiveX stocké à la position spécifiée de la collection.
+Supprime un contrôle ActiveX stocké à la position spécifiée dans la collection.
 
 ```csharp
 public void RemoveAt(int index)
@@ -17,7 +17,7 @@ public void RemoveAt(int index)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | Index d'un contrôle à supprimer. |
+| index | Int32 | Indice d'un contrôle à supprimer. |
 
 ### Voir aussi
 

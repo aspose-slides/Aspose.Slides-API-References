@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides/istreamwrapper/writebyte/
 ---
+
 ## IStreamWrapper.WriteByte method
 
 Writes a byte to the current position in the stream and advances the position within the stream by one byte.

@@ -1,7 +1,7 @@
 ---
 title: SelectLocked
-second_title: Aspose.Slides for .NET API 参考
-description: 确定是否禁止选择此形状。可读写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定选择此形状是否被禁止。可读写布尔值。
 type: docs
 weight: 90
 url: /zh/aspose.slides/iautoshapelock/selectlocked/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/iautoshapelock/selectlocked/
 
 ## IAutoShapeLock.SelectLocked 属性
 
-确定是否禁止选择此形状。可读写布尔值。
+确定选择此形状是否被禁止。可读写布尔值。
 
 ```csharp
 public bool SelectLocked { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IAutoShapeLock](../../iautoshapelock)
 * 命名空间 [Aspose.Slides](../../iautoshapelock)

@@ -1,6 +1,6 @@
 ---
 title: CreateVideoPlayerHtmlController
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Crée un nouveau VideoPlayerHtmlController.
 type: docs
 weight: 20

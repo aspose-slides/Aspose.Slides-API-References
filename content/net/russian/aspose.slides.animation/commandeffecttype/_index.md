@@ -1,6 +1,6 @@
 ---
 title: CommandEffectType
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет тип эффекта команды для поведения эффекта команды.
 type: docs
 weight: 190
@@ -24,7 +24,7 @@ public enum CommandEffectType : sbyte
 | Call | `1` |  |
 | Verb | `2` |  |
 
-### См. также
+### См. Также
 
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)

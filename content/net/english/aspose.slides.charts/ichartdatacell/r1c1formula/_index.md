@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.charts/ichartdatacell/r1c1formula/
 ---
+
 ## IChartDataCell.R1C1Formula property
 
 Gets or sets the formula in R1C1-style.

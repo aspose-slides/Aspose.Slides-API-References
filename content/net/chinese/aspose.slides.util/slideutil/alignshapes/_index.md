@@ -1,7 +1,7 @@
 ---
-title: 对齐形状
-second_title: Aspose.Sildes for .NET API 参考
-description: 更改幻灯片上所有形状的放置位置。将形状对齐到边距或幻灯片的边缘或相互之间对齐。
+title: AlignShapes
+second_title: Aspose.Sildes for .NET API Reference
+description: 改变幻灯片上所有形状的放置。将形状对齐到幻灯片的边缘或边缘，或使它们相互对齐。
 type: docs
 weight: 10
 url: /zh/aspose.slides.util/slideutil/alignshapes/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.util/slideutil/alignshapes/
 
 ## AlignShapes(ShapesAlignmentType, bool, IBaseSlide) {#alignshapes}
 
-更改幻灯片上所有形状的放置位置。将形状对齐到边距或幻灯片的边缘或相互之间对齐。
+改变幻灯片上所有形状的放置。将形状对齐到幻灯片的边缘或边缘，或使它们相互对齐。
 
 ```csharp
 public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
@@ -19,7 +19,7 @@ public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSl
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | alignmentType | ShapesAlignmentType | 确定将应用哪种对齐类型。 |
-| alignToSlide | Boolean | 如果为真，则形状将相对于幻灯片边缘对齐。 |
+| alignToSlide | Boolean | 如果为 true，形状将相对于幻灯片边缘对齐。 |
 | slide | IBaseSlide | 父幻灯片。 |
 
 ### 示例
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## AlignShapes(ShapesAlignmentType, bool, IBaseSlide, int[]) {#alignshapes_1}
 
-更改幻灯片上所选形状的放置位置。将形状对齐到边距或幻灯片的边缘或相互之间对齐。
+改变幻灯片上所选形状的放置。将形状对齐到幻灯片的边缘或边缘，或使它们相互对齐。
 
 ```csharp
 public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
@@ -56,7 +56,7 @@ public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSl
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | alignmentType | ShapesAlignmentType | 确定将应用哪种对齐类型。 |
-| alignToSlide | Boolean | 如果为真，则形状将相对于幻灯片边缘对齐。 |
+| alignToSlide | Boolean | 如果为 true，形状将相对于幻灯片边缘对齐。 |
 | slide | IBaseSlide | 父幻灯片。 |
 | shapeIndexes | Int32[] | 要对齐的形状索引。 |
 
@@ -92,7 +92,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## AlignShapes(ShapesAlignmentType, bool, IGroupShape) {#alignshapes_2}
 
-更改组形状内所有形状的放置位置。将形状对齐到边距或幻灯片的边缘或相互之间对齐。
+改变组形状内所有形状的放置。将形状对齐到幻灯片的边缘或边缘，或使它们相互对齐。
 
 ```csharp
 public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
@@ -102,7 +102,7 @@ public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSl
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | alignmentType | ShapesAlignmentType | 确定将应用哪种对齐类型。 |
-| alignToSlide | Boolean | 如果为真，则形状将相对于幻灯片边缘对齐。 |
+| alignToSlide | Boolean | 如果为 true，形状将相对于幻灯片边缘对齐。 |
 | groupShape | IGroupShape | 父组形状。 |
 
 ### 示例
@@ -129,7 +129,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## AlignShapes(ShapesAlignmentType, bool, IGroupShape, int[]) {#alignshapes_3}
 
-更改组形状内所选形状的放置位置。将形状对齐到边距或幻灯片的边缘或相互之间对齐。
+改变组形状内所选形状的放置。将形状对齐到幻灯片的边缘或边缘，或使它们相互对齐。
 
 ```csharp
 public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
@@ -139,7 +139,7 @@ public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSl
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | alignmentType | ShapesAlignmentType | 确定将应用哪种对齐类型。 |
-| alignToSlide | Boolean | 如果为真，则形状将相对于幻灯片边缘对齐。 |
+| alignToSlide | Boolean | 如果为 true，形状将相对于幻灯片边缘对齐。 |
 | groupShape | IGroupShape | 父组形状。 |
 | shapeIndexes | Int32[] | 要对齐的形状索引。 |
 

@@ -1,7 +1,7 @@
 ---
 title: IInkBrush
-second_title: Aspose.Slides для .NET Справочник API
-description: Представляет трековый кисть.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет кисть для рисования.
 type: docs
 weight: 7300
 url: /ru/aspose.slides.ink/iinkbrush/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.ink/iinkbrush/
 
 ## Интерфейс IInkBrush
 
-Представляет трековый кисть.
+Представляет кисть для рисования.
 
 ```csharp
 public interface IInkBrush
@@ -17,7 +17,7 @@ public interface IInkBrush
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [Color](../../aspose.slides.ink/iinkbrush/color) { get; set; } | Получает или задает цвет кисти для линии. |
 | [Size](../../aspose.slides.ink/iinkbrush/size) { get; set; } | Получает или задает размер кисти для линии в пунктах. |

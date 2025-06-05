@@ -1,6 +1,6 @@
 ---
-title: 索引
-second_title: Aspose.Slides for .NET API 参考
+title: Index
+second_title: Aspose.Sildes for .NET API 参考
 description: type docs
 weight: 110
 url: /zh/aspose.slides.charts/chartdatapoint/index/
@@ -12,7 +12,7 @@ url: /zh/aspose.slides.charts/chartdatapoint/index/
 public uint Index { get; }
 ```
 
-### 另请参阅
+### 参见
 
 * class [ChartDataPoint](../../chartdatapoint)
 * namespace [Aspose.Slides.Charts](../../chartdatapoint)

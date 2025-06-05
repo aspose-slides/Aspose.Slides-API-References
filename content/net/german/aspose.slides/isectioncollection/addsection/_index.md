@@ -1,7 +1,7 @@
 ---
 title: AddSection
 second_title: Aspose.Slides für .NET API-Referenz
-description: Neue Sektion aus einer bestimmten Folie hinzufügen.
+description: Fügen Sie eine neue Sektion hinzu, die von einer bestimmten Folie gestartet wird.
 type: docs
 weight: 30
 url: /de/aspose.slides/isectioncollection/addsection/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/isectioncollection/addsection/
 
 ## ISectionCollection.AddSection-Methode
 
-Neue Sektion aus einer bestimmten Folie hinzufügen.
+Fügen Sie eine neue Sektion hinzu, die von einer bestimmten Folie gestartet wird.
 
 ```csharp
 public ISection AddSection(string name, ISlide startedFromSlide)

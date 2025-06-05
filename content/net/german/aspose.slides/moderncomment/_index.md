@@ -1,7 +1,7 @@
 ---
 title: ModernComment
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt einen Kommentar zu einer Folie dar.
+description: Stellt einen Kommentar auf einer Folie dar.
 type: docs
 weight: 8820
 url: /de/aspose.slides/moderncomment/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/moderncomment/
 
 ## ModernComment-Klasse
 
-Stellt einen Kommentar zu einer Folie dar.
+Stellt einen Kommentar auf einer Folie dar.
 
 ```csharp
 public sealed class ModernComment : Comment, IModernComment
@@ -20,15 +20,15 @@ public sealed class ModernComment : Comment, IModernComment
 | Name | Beschreibung |
 | --- | --- |
 | [Author](../../aspose.slides/comment/author) { get; } | Gibt den Autor eines Kommentars zurück. Nur lesbar [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Gibt die Zeit der Kommentarerstellung zurück oder legt sie fest. Das Setzen dieser Eigenschaft auf MinValue bedeutet, dass keine Kommentarzeit festgelegt ist. Lese-/schreibbarer DateTime. |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Ruft den übergeordneten Kommentar ab oder legt ihn fest. Lese-/schreibbarer [`IComment`](../icomment). |
-| [Position](../../aspose.slides/comment/position) { get; set; } | Gibt die Position eines Kommentars auf einer Folie zurück oder legt sie fest. Lese-/schreibbarer PointF. |
-| [Shape](../../aspose.slides/moderncomment/shape) { get; } | Gibt eine Form zurück, die mit dem Kommentar verknüpft ist. Nur lesbar [`IShape`](../ishape). |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Gibt die Zeit der Kommentarerstellung zurück oder legt sie fest. Wenn diese Eigenschaft auf MinValue gesetzt ist, bedeutet das, dass keine Kommentarzeit festgelegt ist. Lese-/Schreibzugriff DateTime. |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Ruft den übergeordneten Kommentar ab oder legt ihn fest. Lese-/Schreibzugriff [`IComment`](../icomment). |
+| [Position](../../aspose.slides/comment/position) { get; set; } | Gibt die Position eines Kommentars auf einer Folie zurück oder legt sie fest. Lese-/Schreibzugriff PointF. |
+| [Shape](../../aspose.slides/moderncomment/shape) { get; } | Gibt eine mit dem Kommentar verbundene Form zurück. Nur lesbar [`IShape`](../ishape). |
 | [Slide](../../aspose.slides/comment/slide) { get; } | Gibt die übergeordnete Folie eines Kommentars zurück oder legt sie fest. Nur lesbar [`ISlide`](../islide). |
-| [Status](../../aspose.slides/moderncomment/status) { get; set; } | Ruft den Status des Kommentars ab oder legt ihn fest. Lese-/schreibbarer [`ModernCommentStatus`](../moderncommentstatus). |
-| [Text](../../aspose.slides/comment/text) { get; set; } | Gibt den Klartext eines Folienkommentars zurück oder legt ihn fest. Lese-/schreibbarer String. |
-| [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | Ruft die Textauswahl Länge im Textfeld ab oder legt sie fest, wenn der Kommentar mit einer AutoShape verknüpft ist. Lese-/schreibbarer Int32. |
-| [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | Ruft die Startposition der Textauswahl im Textfeld ab oder legt sie fest, wenn der Kommentar mit einer AutoShape verknüpft ist. Lese-/schreibbarer Int32. |
+| [Status](../../aspose.slides/moderncomment/status) { get; set; } | Ruft den Status des Kommentars ab oder legt ihn fest. Lese-/Schreibzugriff [`ModernCommentStatus`](../moderncommentstatus). |
+| [Text](../../aspose.slides/comment/text) { get; set; } | Gibt den Klartext eines Folienkommentars zurück oder legt ihn fest. Lese-/Schreibzugriff String. |
+| [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | Ruft die Länge der Textauswahl im Textfeld ab oder legt sie fest, wenn der Kommentar mit einer AutoShape verbunden ist. Lese-/Schreibzugriff Int32. |
+| [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | Ruft die Startposition der Textauswahl im Textfeld ab oder legt sie fest, wenn der Kommentar mit einer AutoShape verbunden ist. Lese-/Schreibzugriff Int32. |
 
 ## Methoden
 
@@ -49,7 +49,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [Comment](../comment)
 * Schnittstelle [IModernComment](../imoderncomment)

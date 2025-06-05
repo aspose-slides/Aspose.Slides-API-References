@@ -1,6 +1,6 @@
 ---
-title: 数量
-second_title: Aspose.Slides for .NET API 参考
+title: Amount
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回效果数量。只读 Single。
 type: docs
 weight: 10

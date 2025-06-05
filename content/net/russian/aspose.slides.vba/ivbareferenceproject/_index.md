@@ -1,6 +1,6 @@
 ---
 title: IVbaReferenceProject
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет ссылку на внешний проект VBA.
 type: docs
 weight: 11310
@@ -17,7 +17,7 @@ public interface IVbaReferenceProject : IVbaReference
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [AsIVbaReference](../../aspose.slides.vba/ivbareferenceproject/asivbareference) { get; } | Возвращает интерфейс IVbaReference. Только для чтения [`IVbaReference`](../ivbareference). |
 

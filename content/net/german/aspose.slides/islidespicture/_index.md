@@ -19,10 +19,10 @@ public interface ISlidesPicture : ISlideComponent
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | Ermöglicht den Zugriff auf die Basis-Schnittstelle ISlideComponent. Nur Lesezugriff auf [`ISlideComponent`](../islidecomponent). |
-| [Image](../../aspose.slides/islidespicture/image) { get; set; } | Gibt das eingebettete Bild zurück oder legt es fest. Lese-/Schreibzugriff auf [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/islidespicture/imagetransform) { get; } | Gibt die Sammlung der Bildtransformations-Effekte zurück. Nur Lesezugriff auf [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
-| [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | Gibt die URL des verknüpften Bildes zurück oder legt sie fest. Lese-/Schreibzugriff auf String. |
+| [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | Ermöglicht den Zugriff auf die Basis-ISlideComponent-Schnittstelle. Nur lesen [`ISlideComponent`](../islidecomponent). |
+| [Image](../../aspose.slides/islidespicture/image) { get; set; } | Gibt das eingebettete Bild zurück oder legt es fest. Lesen/Schreiben [`IPPImage`](../ippimage). |
+| [ImageTransform](../../aspose.slides/islidespicture/imagetransform) { get; } | Gibt die Sammlung von Bildtransformationseffekten zurück. Nur lesen [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
+| [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | Gibt die URL des verlinkten Bildes zurück oder legt sie fest. Lesen/Schreiben String. |
 
 ### Siehe auch
 

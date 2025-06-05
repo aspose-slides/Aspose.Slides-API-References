@@ -1,6 +1,6 @@
 ---
-title: Por
-second_title: Referencia de API de Aspose.Slides para .NET
+title: By
+second_title: Referencia API de Aspose.Slides para .NET
 description: Describe el valor de desplazamiento relativo para la animación. Lectura/escritura Single.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ Describe el valor de desplazamiento relativo para la animación. Lectura/escritu
 public float By { get; set; }
 ```
 
-### Véase también
+### Consulta También
 
 * interfaz [IRotationEffect](../../irotationeffect)
 * espacio de nombres [Aspose.Slides.Animation](../../irotationeffect)

@@ -1,7 +1,7 @@
 ---
 title: RestoredTop
-second_title: Справочник по API Aspose.Slides для .NET
-description: Этот элемент определяет размер верхнего слайда в нормальном представлении, когда размер области переменный не минимизирован и не развернут. Только для чтения INormalViewRestoredPropertiesaspose.slides/inormalviewrestoredproperties.
+second_title: Aspose.Sildes для .NET Справочник по API
+description: Этот элемент задает размер верхней области слайда обычного представления, когда область имеет переменный восстановленный размер ни минимизированный, ни максимизированный. Только для чтения INormalViewRestoredPropertiesaspose.slides/inormalviewrestoredproperties.
 type: docs
 weight: 40
 url: /ru/aspose.slides/inormalviewproperties/restoredtop/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/inormalviewproperties/restoredtop/
 
 ## INormalViewProperties.RestoredTop свойство
 
-Этот элемент определяет размер верхней области слайда в нормальном представлении, когда область имеет переменный восстановленный размер (не минимизирован и не развернут). Только для чтения [`INormalViewRestoredProperties`](../../inormalviewrestoredproperties).
+Этот элемент задает размер верхней области слайда обычного представления, когда область имеет переменный восстановленный размер (ни минимизированный, ни максимизированный). Только для чтения [`INormalViewRestoredProperties`](../../inormalviewrestoredproperties).
 
 ```csharp
 public INormalViewRestoredProperties RestoredTop { get; }

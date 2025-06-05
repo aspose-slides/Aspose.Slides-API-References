@@ -1,7 +1,7 @@
 ---
 title: SetSuperscript
-second_title: Referencia API de Aspose.Slides para .NET
-description: Crea superíndice
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Crea superíndices
 type: docs
 weight: 170
 url: /es/aspose.slides.mathtext/imathelement/setsuperscript/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.mathtext/imathelement/setsuperscript/
 
 ## SetSuperscript(IMathElement) {#setsuperscript}
 
-Crea superíndice
+Crea superíndices
 
 ```csharp
 public IMathSuperscriptElement SetSuperscript(IMathElement superscript)
@@ -34,7 +34,7 @@ IMathElement index = new MathematicalText("4");
 IMathSuperscriptElement superscript = element.SetSuperscript(index);
 ```
 
-### Ver También
+### Véase También
 
 * interfaz [IMathSuperscriptElement](../../imathsuperscriptelement)
 * interfaz [IMathElement](../../imathelement)
@@ -45,7 +45,7 @@ IMathSuperscriptElement superscript = element.SetSuperscript(index);
 
 ## SetSuperscript(string) {#setsuperscript_1}
 
-Crea superíndice
+Crea superíndices
 
 ```csharp
 public IMathSuperscriptElement SetSuperscript(string superscript)
@@ -69,7 +69,7 @@ IMathElement element = new MathematicalText("N");
 IMathSuperscriptElement superscript = element.SetSuperscript("4");
 ```
 
-### Ver También
+### Véase También
 
 * interfaz [IMathSuperscriptElement](../../imathsuperscriptelement)
 * interfaz [IMathElement](../../imathelement)

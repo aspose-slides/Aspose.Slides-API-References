@@ -1,7 +1,7 @@
 ---
 title: TrimFromStart
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Trim début ms
+second_title: Aspose.Sildes pour .NET Référence API
+description: Couper le début ms
 type: docs
 weight: 100
 url: /fr/aspose.slides/videoframe/trimfromstart/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/videoframe/trimfromstart/
 
 ## Propriété VideoFrame.TrimFromStart
 
-Trim début [ms]
+Couper le début [ms]
 
 ```csharp
 public float TrimFromStart { get; set; }
@@ -17,7 +17,7 @@ public float TrimFromStart { get; set; }
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -27,15 +27,15 @@ using (Presentation pres = new Presentation())
     IVideo video = pres.Videos.AddVideo(File.ReadAllBytes("video.mp4"));
     var videoFrame = slide.Shapes.AddVideoFrame(0, 0, 100, 100, video);
 
-    // définir le temps de début de la coupe à 1s
+    // définir le temps de début de coupe à 1 seconde
     videoFrame.TrimFromStart = 1000f;
 
-    // définir le temps de fin de la coupe à 2s
+    // définir le temps de fin de coupe à 2 secondes
     videoFrame.TrimFromEnd = 2000f;
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [VideoFrame](../../videoframe)
 * espace de noms [Aspose.Slides](../../videoframe)

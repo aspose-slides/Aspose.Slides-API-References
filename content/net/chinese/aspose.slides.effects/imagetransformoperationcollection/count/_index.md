@@ -1,6 +1,6 @@
 ---
-title: 计数
-second_title: Aspose.Slide for .NET API 参考
+title: Count
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回集合中图像效果的数量。只读 Int32。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.effects/imagetransformoperationcollection/count/
 public int Count { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * class [ImageTransformOperationCollection](../../imagetransformoperationcollection)
 * namespace [Aspose.Slides.Effects](../../imagetransformoperationcollection)

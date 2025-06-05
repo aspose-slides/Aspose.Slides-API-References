@@ -1,6 +1,6 @@
 ---
-title: Элемент
-second_title: Справочник по API Aspose.Sildes для .NET
+title: Item
+second_title: Aspose.Slides для .NET справочник по API
 description: Возвращает градиентную остановку по индексу.
 type: docs
 weight: 30

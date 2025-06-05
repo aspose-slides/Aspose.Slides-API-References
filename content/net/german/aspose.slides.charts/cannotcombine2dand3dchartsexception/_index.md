@@ -1,7 +1,7 @@
 ---
 title: CannotCombine2DAnd3DChartsException
-second_title: Aspose.Slides für .NET API Referenz
-description: Ausnahme, die ausgelöst wird, wenn versucht wird, 2D- und 3D-Diagrammtypen zu kombinieren.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ausnahme, die ausgelöst wird, wenn man versucht, 2D- und 3D-Diagrammtypen zu kombinieren.
 type: docs
 weight: 1160
 url: /de/aspose.slides.charts/cannotcombine2dand3dchartsexception/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/cannotcombine2dand3dchartsexception/
 
 ## CannotCombine2DAnd3DChartsException-Klasse
 
-Ausnahme, die ausgelöst wird, wenn versucht wird, 2D- und 3D-Diagrammtypen zu kombinieren.
+Ausnahme, die ausgelöst wird, wenn man versucht, 2D- und 3D-Diagrammtypen zu kombinieren.
 
 ```csharp
 public class CannotCombine2DAnd3DChartsException : InvalidOperationException

@@ -23,9 +23,9 @@ public interface IMathSubscriptElementFactory
 
 ### 备注
 
-为了与 COM 兼容
+为 COM 兼容性
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 程序集 [Aspose.Slides](../../)

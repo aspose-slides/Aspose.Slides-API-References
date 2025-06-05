@@ -1,7 +1,7 @@
 ---
 title: HtmlFormatter
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das HTML-Template zurück oder setzt es. Lese-/Schreibzugriff auf IHtmlFormatter aspose.slides.export / ihtmlformatter.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die HTML-Vorlage zurück oder legt sie fest. Lese-/Schreibzugriff auf IHtmlFormatteraspose.slides.export/ihtmlformatter.
 type: docs
 weight: 40
 url: /de/aspose.slides.export/ihtmloptions/htmlformatter/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/ihtmloptions/htmlformatter/
 
 ## IHtmlOptions.HtmlFormatter-Eigenschaft
 
-Gibt das HTML-Template zurück oder setzt es. Lese-/Schreibzugriff auf [`IHtmlFormatter`](../../ihtmlformatter).
+Gibt die HTML-Vorlage zurück oder legt sie fest. Lese-/Schreibzugriff auf [`IHtmlFormatter`](../../ihtmlformatter).
 
 ```csharp
 public IHtmlFormatter HtmlFormatter { get; set; }

@@ -1,6 +1,6 @@
 ---
-title: Altura
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Height
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Obtiene la altura de la imagen en píxeles.
 type: docs
 weight: 10
@@ -15,10 +15,10 @@ Obtiene la altura de la imagen en píxeles.
 public int Height { get; }
 ```
 
-### Véase también
+### Véase También
 
 * interfaz [IImage](../../iimage)
 * espacio de nombres [Aspose.Slides](../../iimage)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

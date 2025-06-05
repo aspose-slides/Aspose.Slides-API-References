@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/idatalabelcollection/asienumerable/
 ---
+
 ## IDataLabelCollection.AsIEnumerable property
 
 Allows to get base IEnumerable interface. Read-only IEnumerable.

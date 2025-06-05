@@ -1,6 +1,6 @@
 ---
 title: ToString
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回一个表示当前颜色格式的字符串。
 type: docs
 weight: 180
@@ -17,13 +17,13 @@ public string ToString(ColorStringFormat format)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| format | ColorStringFormat | 一种颜色字符串格式类型。 |
+| format | ColorStringFormat | 一种颜色字符串格式。 |
 
 ### 返回值
 
 一个表示当前颜色格式的字符串。
 
-### 另请参见
+### 另见
 
 * enum [ColorStringFormat](../../colorstringformat)
 * interface [IColorFormat](../../icolorformat)

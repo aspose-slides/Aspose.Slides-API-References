@@ -1,6 +1,6 @@
 ---
-title: 等于
-second_title: Aspose.Slides for .NET API 参考
+title: Equals
+second_title: Aspose.Sildes for .NET API Reference
 description: 确定指定的 AlphaModulateFixedaspose.slides.effects/alphamodulatefixed 是否等于当前的 AlphaModulateFixedaspose.slides.effects/alphamodulatefixed。
 type: docs
 weight: 20
@@ -21,7 +21,7 @@ public override bool Equals(object obj)
 
 ### 返回值
 
-如果对象相等，则为 true；否则为 false。
+如果对象相等则为 true；否则，返回 false。
 
 ### 另见
 

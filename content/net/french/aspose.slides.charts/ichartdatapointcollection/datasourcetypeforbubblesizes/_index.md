@@ -1,21 +1,21 @@
 ---
 title: DataSourceTypeForBubbleSizes
-second_title: Aspose.Sildes pour la référence API .NET
-description: Spécifie si la propriété AsCell, AsLiteralString ou AsLiteralDouble est active dans l'objet de propriété BubbleSize des points de données. En d'autres termes, cela spécifie le type de valeur de la propriété ChartDataPointEx.BubbleSize.Data. Lecture/écriture DataSourceTypeaspose.slides/datasourcetype.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Spécifie si la propriété AsCell, AsLiteralString ou AsLiteralDouble est réelle dans l'objet propriété BubbleSize des points de données. En d'autres termes, cela spécifie le type de valeur de la propriété ChartDataPointEx.BubbleSize.Data. Lecture/écriture DataSourceTypeaspose.slides.charts/datasourcetype.
 type: docs
 weight: 10
 url: /fr/aspose.slides.charts/ichartdatapointcollection/datasourcetypeforbubblesizes/
 ---
 
-## Propriété IChartDataPointCollection.DataSourceTypeForBubbleSizes
+## IChartDataPointCollection.DataSourceTypeForBubbleSizes property
 
-Spécifie si la propriété AsCell, AsLiteralString ou AsLiteralDouble est active dans l'objet de propriété BubbleSize des points de données. En d'autres termes, cela spécifie le type de valeur de la propriété ChartDataPointEx.BubbleSize.Data. Lecture/écriture [`DataSourceType`](../../datasourcetype).
+Spécifie si la propriété AsCell, AsLiteralString ou AsLiteralDouble est réelle dans l'objet propriété BubbleSize des points de données. En d'autres termes, cela spécifie le type de valeur de la propriété ChartDataPointEx.BubbleSize.Data. Lecture/écriture [`DataSourceType`](../../datasourcetype).
 
 ```csharp
 public DataSourceType DataSourceTypeForBubbleSizes { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [DataSourceType](../../datasourcetype)
 * interface [IChartDataPointCollection](../../ichartdatapointcollection)

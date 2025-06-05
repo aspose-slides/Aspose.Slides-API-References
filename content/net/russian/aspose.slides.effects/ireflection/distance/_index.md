@@ -1,13 +1,13 @@
 ---
-title: Расстояние
-second_title: Справочник по API Aspose.Sildes для .NET
+title: Distance
+second_title: Aspose.Sildes для .NET API Справочник
 description: Расстояние отражения. Чтение/запись Double.
 type: docs
 weight: 50
 url: /ru/aspose.slides.effects/ireflection/distance/
 ---
 
-## Свойство IReflection.Distance
+## IReflection.Distance свойство
 
 Расстояние отражения. Чтение/запись Double.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.effects/ireflection/distance/
 public double Distance { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IReflection](../../ireflection)
 * пространство имен [Aspose.Slides.Effects](../../ireflection)

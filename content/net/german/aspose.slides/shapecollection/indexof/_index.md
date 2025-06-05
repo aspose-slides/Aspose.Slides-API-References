@@ -17,7 +17,7 @@ public int IndexOf(IShape shape)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| shape | IShape | Die Form, die in der Sammlung lokalisiert werden soll. |
+| shape | IShape | Die Form, die in der Sammlung gefunden werden soll. |
 
 ### Rückgabewert
 

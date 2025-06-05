@@ -1,7 +1,7 @@
 ---
 title: JoinPortionsWithSameFormatting
-second_title: Aspose.Slides для .NET API Справочник
-description: Объединяет фрагменты с одинаковым форматированием во всех абзацах во всех допустимых формах.
+second_title: Справка по API Aspose.Slides для .NET
+description: Объединяет части текста с одинаковым форматированием во всех абзацах во всех допустимых формах.
 type: docs
 weight: 140
 url: /ru/aspose.slides/ibaseslide/joinportionswithsameformatting/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/ibaseslide/joinportionswithsameformatting/
 
 ## IBaseSlide.JoinPortionsWithSameFormatting метод
 
-Объединяет фрагменты с одинаковым форматированием во всех абзацах во всех допустимых формах.
+Объединяет части текста с одинаковым форматированием во всех абзацах во всех допустимых формах.
 
 ```csharp
 public void JoinPortionsWithSameFormatting()
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IBaseSlide](../../ibaseslide)
 * пространство имен [Aspose.Slides](../../ibaseslide)

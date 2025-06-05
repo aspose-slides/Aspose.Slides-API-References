@@ -1,15 +1,15 @@
 ---
 title: NoLocks
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt true zurück, wenn alle Sperr-Flags deaktiviert sind. Nur-Lese-Boolean.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt true zurück, wenn alle Sperrflags deaktiviert sind. Nur lesbarer Boolean.
 type: docs
 weight: 10
 url: /de/aspose.slides/baseshapelock/nolocks/
 ---
 
-## BaseShapeLock.NoLocks Eigenschaft
+## BaseShapeLock.NoLocks-Eigenschaft
 
-Gibt true zurück, wenn alle Sperr-Flags deaktiviert sind. Nur-Lese-Boolean.
+Gibt true zurück, wenn alle Sperrflags deaktiviert sind. Nur lesbarer Boolean.
 
 ```csharp
 public bool NoLocks { get; }

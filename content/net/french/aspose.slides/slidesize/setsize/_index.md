@@ -1,7 +1,7 @@
 ---
 title: SetSize
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Définit le type de taille de diapositive et ajuste le contenu en utilisant le type d'échelle. L'attribution de toute valeur sauf Custom modifiera Sizeaspose.slides/slidesize/size en conséquence, mais conservera Orientationaspose.slides/slidesize/orientation intact.
+second_title: Aspose.Sildes pour .NET API Reference
+description: Définit le type de taille de diapositive et met à l'échelle le contenu en utilisant le type d'échelle. Assigner toute valeur sauf Personnalisé changera Size../size en conséquence, mais gardera Orientation../orientation intact.
 type: docs
 weight: 40
 url: /fr/aspose.slides/slidesize/setsize/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/slidesize/setsize/
 
 ## SetSize(SlideSizeType, SlideSizeScaleType) {#setsize}
 
-Définit le type de taille de diapositive et ajuste le contenu en utilisant le type d'échelle. L'attribution de toute valeur sauf Custom modifiera [`Size`](../size) en conséquence, mais conservera [`Orientation`](../orientation) intact.
+Définit le type de taille de diapositive et met à l'échelle le contenu en utilisant le type d'échelle. Assigner toute valeur sauf Personnalisé changera [`Size`](../size) en conséquence, mais gardera [`Orientation`](../orientation) intact.
 
 ```csharp
 public void SetSize(SlideSizeType type, SlideSizeScaleType scaleType)
@@ -32,7 +32,7 @@ public void SetSize(SlideSizeType type, SlideSizeScaleType scaleType)
 
 ## SetSize(float, float, SlideSizeScaleType) {#setsize_1}
 
-Définit la taille en points et ajuste le contenu en utilisant le type d'échelle. L'attribution de toute valeur réinitialisera la propriété [`Type`](../type) à Custom et définira [`Orientation`](../orientation).
+Définit la taille en points et met à l'échelle le contenu en utilisant le type d'échelle. Assigner toute valeur réinitialisera la propriété [`Type`](../type) à Personnalisé et définira [`Orientation`](../orientation).
 
 ```csharp
 public void SetSize(float width, float height, SlideSizeScaleType scaleType)

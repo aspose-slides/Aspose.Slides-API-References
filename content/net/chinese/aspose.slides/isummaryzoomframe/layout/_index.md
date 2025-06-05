@@ -1,7 +1,7 @@
 ---
-title: 布局
-second_title: Aspose.Slides for .NET API 参考
-description: 获取框架中摘要缩放部分的布局。默认值为 GridLayout。
+title: Layout
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取框架中摘要缩放部分的布局。默认值是 GridLayout。
 type: docs
 weight: 20
 url: /zh/aspose.slides/isummaryzoomframe/layout/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/isummaryzoomframe/layout/
 
 ## ISummaryZoomFrame.Layout 属性
 
-获取框架中摘要缩放部分的布局。默认值为 GridLayout。
+获取框架中摘要缩放部分的布局。默认值是 GridLayout。
 
 ```csharp
 public ZoomLayout Layout { get; }
@@ -17,7 +17,7 @@ public ZoomLayout Layout { get; }
 
 ### 示例
 
-该示例演示如何通过索引获取摘要缩放部分元素：
+该示例演示了通过索引获取摘要缩放部分元素：
 
 ```csharp
 [C#]
@@ -28,7 +28,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 参见
+### 另请参阅
 
 * enum [ZoomLayout](../../zoomlayout)
 * interface [ISummaryZoomFrame](../../isummaryzoomframe)

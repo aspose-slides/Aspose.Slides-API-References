@@ -1,6 +1,6 @@
 ---
 title: IsChartTypeBubble
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Gibt true zurück, wenn chartType einer der Bubble-Subtypen ist. Die Menge der Subtypen entspricht der entsprechenden Menge in PowerPoint siehe Dialogfeld "Diagrammtyp ändern" in PowerPoint Bubble, BubbleWith3D.
 type: docs
 weight: 70

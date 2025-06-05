@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/baseslide/timeline/
 ---
+
 ## BaseSlide.Timeline property
 
 Returns animation timeline object. Read-only [`IAnimationTimeLine`](../../ianimationtimeline).

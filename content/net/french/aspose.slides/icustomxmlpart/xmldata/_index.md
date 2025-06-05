@@ -1,15 +1,15 @@
 ---
 title: XmlData
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit des données xml. Lecture/écriture Byte. la valeur est null. la valeur est vide ou les données xml sont invalides.
+description: Renvoie ou définit des données xml. Lecture/écriture Byte. la valeur est null.la valeur est vide ou les données xml sont invalides.
 type: docs
 weight: 40
 url: /fr/aspose.slides/icustomxmlpart/xmldata/
 ---
 
-## Propriété ICustomXmlPart.XmlData
+## ICustomXmlPart.XmlData propriété
 
-Renvoie ou définit des données xml. Lecture/écriture Byte[]. La valeur est `null`. La valeur est vide ou les données xml sont invalides.
+Renvoie ou définit des données xml. Lecture/écriture Byte[]. la valeur est `null`.la valeur est vide ou les données xml sont invalides.
 
 ```csharp
 public byte[] XmlData { get; set; }

@@ -6,6 +6,7 @@ type: docs
 weight: 1140
 url: /aspose.slides.animation/behaviorproperty/styletextdecorationunderline/
 ---
+
 ## BehaviorProperty.StyleTextDecorationUnderline property
 
 Represents 'style.textDecorationUnderline' property

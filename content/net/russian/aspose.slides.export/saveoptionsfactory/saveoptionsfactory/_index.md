@@ -1,6 +1,6 @@
 ---
 title: SaveOptionsFactory
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справка по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10

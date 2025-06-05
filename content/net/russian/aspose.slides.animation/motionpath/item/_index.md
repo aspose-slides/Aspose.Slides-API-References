@@ -1,7 +1,7 @@
 ---
-title: Элемент
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает команду по указанному индексу.
+title: Item
+second_title: Aspose.Sildes для .NET Справочник по API
+description: Возвращает команду по заданному индексу.
 type: docs
 weight: 30
 url: /ru/aspose.slides.animation/motionpath/item/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.animation/motionpath/item/
 
 ## Индексатор MotionPath
 
-Возвращает команду по указанному индексу.
+Возвращает команду по заданному индексу.
 
 ```csharp
 public IMotionCmdPath this[int index] { get; }
@@ -19,7 +19,7 @@ public IMotionCmdPath this[int index] { get; }
 | --- | --- |
 | index |  |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IMotionCmdPath](../../imotioncmdpath)
 * класс [MotionPath](../../motionpath)

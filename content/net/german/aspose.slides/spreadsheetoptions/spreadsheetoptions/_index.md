@@ -1,7 +1,7 @@
 ---
 title: SpreadsheetOptions
 second_title: Aspose.Slides für .NET API-Referenz
-description: Initialisiert eine neue Instanz der Klasse SpreadsheetOptionsaspose.slides/spreadsheetoptions.
+description: Initialisiert eine neue Instanz der SpreadsheetOptionsaspose.slides/spreadsheetoptions-Klasse.
 type: docs
 weight: 10
 url: /de/aspose.slides/spreadsheetoptions/spreadsheetoptions/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/spreadsheetoptions/spreadsheetoptions/
 
 ## Konstruktor von SpreadsheetOptions
 
-Initialisiert eine neue Instanz der Klasse [`SpreadsheetOptions`](../../spreadsheetoptions).
+Initialisiert eine neue Instanz der [`SpreadsheetOptions`](../../spreadsheetoptions)-Klasse.
 
 ```csharp
 public SpreadsheetOptions()
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [SpreadsheetOptions](../../spreadsheetoptions)
 * Namespace [Aspose.Slides](../../spreadsheetoptions)

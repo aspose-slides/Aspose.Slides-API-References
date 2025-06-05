@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.animation/ibehaviorproperty/value/
 ---
+
 ## IBehaviorProperty.Value property
 
 Value of the property

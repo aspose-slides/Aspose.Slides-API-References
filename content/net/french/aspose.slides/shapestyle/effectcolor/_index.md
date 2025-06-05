@@ -1,6 +1,6 @@
 ---
 title: EffectColor
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Renvoie la couleur d'effet d'une forme. Lecture seule IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Renvoie la couleur d'effet d'une forme. Lecture seule [`IColorFormat`](../../ico
 public IColorFormat EffectColor { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IColorFormat](../../icolorformat)
 * classe [ShapeStyle](../../shapestyle)

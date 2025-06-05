@@ -1,6 +1,6 @@
 ---
-title: ВыравниваниеЛиний
-second_title: Ссылка на API Aspose.Slides для .NET
+title: LineAlignment
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет тип выравнивания линий.
 type: docs
 weight: 7480
@@ -17,7 +17,7 @@ public enum LineAlignment : sbyte
 
 ### Значения
 
-| Имя | Значение | Описание |
+| Название | Значение | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Center | `0` |  |

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/icontrol/asislidecomponent/
 ---
+
 ## IControl.AsISlideComponent property
 
 Allows to get base ISlideComponent interface. Read-only [`ISlideComponent`](../../islidecomponent).

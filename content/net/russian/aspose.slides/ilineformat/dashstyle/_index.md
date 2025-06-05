@@ -1,7 +1,7 @@
 ---
 title: DashStyle
-second_title: Справочник API Aspose.Slidess для .NET
-description: Возвращает или задает стиль штриха линии. Чтение/запись LineDashStyle aspose.slides/linedashstyle.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или устанавливает стиль линий с штриховкой. Чтение/запись LineDashStyleaspose.slides/linedashstyle.
 type: docs
 weight: 80
 url: /ru/aspose.slides/ilineformat/dashstyle/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ilineformat/dashstyle/
 
 ## Свойство ILineFormat.DashStyle
 
-Возвращает или задает стиль штриха линии. Чтение/запись [`LineDashStyle`](../../linedashstyle).
+Возвращает или устанавливает стиль линий с штриховкой. Чтение/запись [`LineDashStyle`](../../linedashstyle).
 
 ```csharp
 public LineDashStyle DashStyle { get; set; }

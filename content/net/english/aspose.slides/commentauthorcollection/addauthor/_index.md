@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/commentauthorcollection/addauthor/
 ---
+
 ## CommentAuthorCollection.AddAuthor method
 
 Add new author at the end of a collection.
@@ -18,6 +19,16 @@ public ICommentAuthor AddAuthor(string name, string initials)
 | --- | --- | --- |
 | name | String | Name of a new author. |
 | initials | String | Initials of a new author. |
+
+### Return Value
+
+New [`ICommentAuthor`](../../icommentauthor) object.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [PptxEditException](../../pptxeditexception) | Thrown if author with the same name and initials is already added. |
 
 ### See Also
 

@@ -1,15 +1,15 @@
 ---
 title: DataSourceTypeForXValues
-second_title: Aspose.Sildes для .NET API Справка
-description: Указывает, является ли свойство AsCell или AsLiteralString или AsLiteralDouble актуальным в объекте свойства XValue точки данных. Другими словами, оно указывает тип значения свойства ChartDataPoint.XValue.Data. Свойство для чтения и записи DataSourceTypeaspose.slides/datasourcetype.
+second_title: Aspose.Sildes для .NET API Reference
+description: Указывает, является ли свойство AsCell или AsLiteralString или AsLiteralDouble актуальным в объекте свойства XValue точек данных. Иными словами, оно указывает тип значения свойства ChartDataPoint.XValue.Data. Чтение/запись DataSourceTypeaspose.slides/datasourcetype.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/chartdatapointcollection/datasourcetypeforxvalues/
 ---
 
-## ChartDataPointCollection.DataSourceTypeForXValues свойство
+## ChartDataPointCollection.DataSourceTypeForXValues property
 
-Указывает, является ли свойство AsCell или AsLiteralString или AsLiteralDouble актуальным в объекте свойства XValue точки данных. Другими словами, оно указывает тип значения свойства ChartDataPoint.XValue.Data. Свойство для чтения и записи [`DataSourceType`](../../datasourcetype).
+Указывает, является ли свойство AsCell или AsLiteralString или AsLiteralDouble актуальным в объекте свойства XValue точек данных. Иными словами, оно указывает тип значения свойства ChartDataPoint.XValue.Data. Чтение/запись [`DataSourceType`](../../datasourcetype).
 
 ```csharp
 public DataSourceType DataSourceTypeForXValues { get; set; }

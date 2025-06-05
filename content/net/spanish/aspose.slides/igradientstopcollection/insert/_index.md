@@ -1,7 +1,7 @@
 ---
-title: Insertar
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Crea un nuevo punto de degradado e inserta en el índice especificado en la colección.
+title: Insert
+second_title: Aspose.Sildes for .NET API Reference
+description: Crea el nuevo punto de parada de degradado e inserta en el índice especificado en la colección.
 type: docs
 weight: 40
 url: /es/aspose.slides/igradientstopcollection/insert/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/igradientstopcollection/insert/
 
 ## Insert(int, float, Color) {#insert_2}
 
-Crea un nuevo punto de degradado e inserta en el índice especificado en la colección.
+Crea el nuevo punto de parada de degradado e inserta en el índice especificado en la colección.
 
 ```csharp
 public void Insert(int index, float position, Color color)
@@ -17,11 +17,11 @@ public void Insert(int index, float position, Color color)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| index | Int32 | Índice en la colección donde se insertará el nuevo punto de degradado. |
-| position | Single | Posición del nuevo punto de degradado. |
-| color | Color | Color del nuevo punto de degradado. |
+| index | Int32 | Índice en la colección donde se insertará el nuevo punto de parada de degradado. |
+| position | Single | Posición del nuevo punto de parada de degradado. |
+| color | Color | Color del nuevo punto de parada de degradado. |
 
-### Ver También
+### Véase también
 
 * interface [IGradientStopCollection](../../igradientstopcollection)
 * namespace [Aspose.Slides](../../igradientstopcollection)
@@ -31,7 +31,7 @@ public void Insert(int index, float position, Color color)
 
 ## Insert(int, float, PresetColor) {#insert}
 
-Crea un nuevo punto de degradado e inserta en el índice especificado en la colección.
+Crea el nuevo punto de parada de degradado e inserta en el índice especificado en la colección.
 
 ```csharp
 public void Insert(int index, float position, PresetColor presetColor)
@@ -39,11 +39,11 @@ public void Insert(int index, float position, PresetColor presetColor)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| index | Int32 | Índice en la colección donde se insertará el nuevo punto de degradado. |
-| position | Single | Posición del nuevo punto de degradado. |
-| presetColor | PresetColor | Color del nuevo punto de degradado. |
+| index | Int32 | Índice en la colección donde se insertará el nuevo punto de parada de degradado. |
+| position | Single | Posición del nuevo punto de parada de degradado. |
+| presetColor | PresetColor | Color del nuevo punto de parada de degradado. |
 
-### Ver También
+### Véase también
 
 * enum [PresetColor](../../presetcolor)
 * interface [IGradientStopCollection](../../igradientstopcollection)
@@ -54,7 +54,7 @@ public void Insert(int index, float position, PresetColor presetColor)
 
 ## Insert(int, float, SchemeColor) {#insert_1}
 
-Crea un nuevo punto de degradado e inserta en el índice especificado en la colección.
+Crea el nuevo punto de parada de degradado e inserta en el índice especificado en la colección.
 
 ```csharp
 public void Insert(int index, float position, SchemeColor schemeColor)
@@ -62,11 +62,11 @@ public void Insert(int index, float position, SchemeColor schemeColor)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| index | Int32 | Índice en la colección donde se insertará el nuevo punto de degradado. |
-| position | Single | Posición del nuevo punto de degradado. |
-| schemeColor | SchemeColor | Color del nuevo punto de degradado. |
+| index | Int32 | Índice en la colección donde se insertará el nuevo punto de parada de degradado. |
+| position | Single | Posición del nuevo punto de parada de degradado. |
+| schemeColor | SchemeColor | Color del nuevo punto de parada de degradado. |
 
-### Ver También
+### Véase también
 
 * enum [SchemeColor](../../schemecolor)
 * interface [IGradientStopCollection](../../igradientstopcollection)

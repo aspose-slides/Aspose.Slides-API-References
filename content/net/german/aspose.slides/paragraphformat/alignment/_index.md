@@ -1,6 +1,6 @@
 ---
-title: Ausrichtung
-second_title: Aspose.Slides für .NET API-Referenz
+title: Alignment
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Gibt die Textausrichtung in einem Absatz ohne Vererbung zurück oder setzt sie. Lese-/Schreibzugriff auf TextAlignmentaspose.slides/textalignment.
 type: docs
 weight: 20
@@ -21,24 +21,24 @@ Der folgende Beispielcode zeigt, wie man Textabsätze in einer PowerPoint-Präse
 
 ```csharp
 [C#]
-// Ein Presentation-Objekt instanziieren, das eine PPTX-Datei repräsentiert
+// Erstellen Sie ein Präsentationsobjekt, das eine PPTX-Datei darstellt
 using (Presentation pres = new Presentation("ParagraphsAlignment.pptx"))
 {
-    // Auf die erste Folie zugreifen
+    // Zugriff auf die erste Folie
     ISlide slide = pres.Slides[0];
-    // Auf die erste und zweite Platzhalter in der Folie zugreifen und sie als AutoShape umwandeln
+    // Zugriff auf den ersten und zweiten Platzhalter in der Folie und Typumwandlung als AutoShape
     ITextFrame tf1 = ((IAutoShape)slide.Shapes[0]).TextFrame;
     ITextFrame tf2 = ((IAutoShape)slide.Shapes[1]).TextFrame;
-    // Den Text in beiden Platzhaltern ändern
-    tf1.Text = "Zentrierte Ausrichtung von Aspose";
-    tf2.Text = "Zentrierte Ausrichtung von Aspose";
-    // Den ersten Absatz der Platzhalter abrufen
+    // Ändern Sie den Text in beiden Platzhaltern
+    tf1.Text = "Zentriert Ausrichten von Aspose";
+    tf2.Text = "Zentriert Ausrichten von Aspose";
+    // Holen Sie sich den ersten Absatz der Platzhalter
     IParagraph para1 = tf1.Paragraphs[0];
     IParagraph para2 = tf2.Paragraphs[0];
-    // Den Textabsatz zentriert ausrichten
+    // Textabsatz zentrieren
     para1.ParagraphFormat.Alignment = TextAlignment.Center;
     para2.ParagraphFormat.Alignment = TextAlignment.Center;
-    // Die Präsentation als PPTX-Datei speichern
+    // Schreiben der Präsentation als PPTX-Datei
     pres.Save("Centeralign_out.pptx", SaveFormat.Pptx);
 }
 ```

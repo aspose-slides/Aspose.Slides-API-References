@@ -1,6 +1,6 @@
 ---
 title: IHtml5Options
-second_title: Aspose.Slides для .NET Справочник по API
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет параметры экспорта в HTML5.
 type: docs
 weight: 3760
@@ -15,17 +15,17 @@ url: /ru/aspose.slides.export/ihtml5options/
 public interface IHtml5Options : ISaveOptions
 ```
 
-## Свойства
+## СвProperties
 
 | Имя | Описание |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | Возвращает или устанавливает опцию анимации фигур. Запись/Чтение Boolean. |
-| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | Возвращает или устанавливает опцию анимации переходов. Запись/Чтение Boolean. |
+| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | Возвращает или устанавливает опцию анимации фигур. Чтение/запись Булево. |
+| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | Возвращает или устанавливает опцию анимации переходов. Чтение/запись Булево. |
 | [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения [`ISaveOptions`](../isaveoptions). |
-| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | Получает или устанавливает значение, указывающее, будет ли текст отображаться без использования лигатур. Если установлено в `true`, лигатуры будут отключены в выводе. По умолчанию это свойство установлено в `false`. |
-| [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | Возвращает или устанавливает опцию встраивания изображений. Запись/Чтение Boolean. |
-| [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | Определяет, где должны храниться внешние ресурсы. Запись/Чтение String. |
-| [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | Получает или устанавливает режим размещения слайдов на странице при экспорте презентации [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | Получает или устанавливает значение, указывающее, выводится ли текст без использования лигатур. Если установлено в `true`, лигатуры будут отключены в сгенерированном выводе. По умолчанию это свойство установлено в `false`. |
+| [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | Возвращает или устанавливает опцию встраивания изображений. Чтение/запись Булево. |
+| [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | Определяет, где должны храниться внешние ресурсы. Чтение/запись Строка. |
+| [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | Получает или устанавливает режим, в котором слайды размещаются на странице при экспорте презентации [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Примеры
 
@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [ISaveOptions](../isaveoptions)
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)

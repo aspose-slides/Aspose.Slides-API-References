@@ -1,7 +1,7 @@
 ---
 title: ShowHiddenSlides
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt an, ob das generierte Dokument versteckte Folien enthalten soll oder nicht. Standard ist false.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt an, ob das erzeugte Dokument versteckte Folien enthalten soll oder nicht. Standard ist false.
 type: docs
 weight: 170
 url: /de/aspose.slides.export/ipdfoptions/showhiddenslides/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/ipdfoptions/showhiddenslides/
 
 ## IPdfOptions.ShowHiddenSlides-Eigenschaft
 
-Gibt an, ob das generierte Dokument versteckte Folien enthalten soll oder nicht. Standard ist `false`.
+Gibt an, ob das erzeugte Dokument versteckte Folien enthalten soll oder nicht. Der Standardwert ist `false`.
 
 ```csharp
 public bool ShowHiddenSlides { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: RepeatDuration
-second_title: Aspose.Slides for .NET API 参考
-description: 描述效果应重复的次数。可读/写 Single。
+second_title: Aspose.Sildes for .NET API Reference
+description: 描述效果应重复的次数。可读/写单精度浮点数。
 type: docs
 weight: 60
 url: /zh/aspose.slides.animation/itiming/repeatduration/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.animation/itiming/repeatduration/
 
 ## ITiming.RepeatDuration 属性
 
-描述效果应重复的次数。可读/写 Single。
+描述效果应重复的次数。可读/写单精度浮点数。
 
 ```csharp
 public float RepeatDuration { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [ITiming](../../itiming)
 * 命名空间 [Aspose.Slides.Animation](../../itiming)

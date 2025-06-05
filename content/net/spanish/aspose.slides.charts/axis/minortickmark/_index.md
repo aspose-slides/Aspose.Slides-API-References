@@ -1,7 +1,7 @@
 ---
 title: MinorTickMark
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa el tipo de marca de tick menor para el eje especificado. Lectura/escritura TickMarkTypeaspose.slides.charts/tickmarktype.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Representa el tipo de marca menor para el eje especificado. Lectura/escritura TickMarkTypeaspose.slides.charts/tickmarktype.
 type: docs
 weight: 400
 url: /es/aspose.slides.charts/axis/minortickmark/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.charts/axis/minortickmark/
 
 ## Propiedad Axis.MinorTickMark
 
-Representa el tipo de marca de tick menor para el eje especificado. Lectura/escritura [`TickMarkType`](../../tickmarktype).
+Representa el tipo de marca menor para el eje especificado. Lectura/escritura [`TickMarkType`](../../tickmarktype).
 
 ```csharp
 public TickMarkType MinorTickMark { get; set; }

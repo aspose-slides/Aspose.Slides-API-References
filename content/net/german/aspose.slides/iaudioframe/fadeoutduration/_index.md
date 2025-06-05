@@ -1,15 +1,15 @@
 ---
 title: FadeOutDuration
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Zeitdauer für das Ende des Ausblendens des Mediums in Millisekunden an. Lese-/Schreibzugriff auf Single.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Zeitdauer für das abschließende Ausblenden des Mediums in Millisekunden an. Lese-/Schreibbare Single.
 type: docs
 weight: 90
 url: /de/aspose.slides/iaudioframe/fadeoutduration/
 ---
 
-## IAudioFrame.FadeOutDuration-Eigenschaft
+## IAudioFrame.FadeOutDuration Eigenschaft
 
-Gibt die Zeitdauer für das Ende des Ausblendens des Mediums in Millisekunden an. Lese-/Schreibzugriff auf Single.
+Gibt die Zeitdauer für das abschließende Ausblenden des Mediums in Millisekunden an. Lese-/Schreibbare Single.
 
 ```csharp
 public float FadeOutDuration { get; set; }
@@ -27,7 +27,7 @@ using (Presentation pres = new Presentation())
     IAudio audio = pres.Audios.AddAudio(File.ReadAllBytes("sampleaudio.mp3"));
     IAudioFrame audioFrame = pres.Slides[0].Shapes.AddAudioFrameEmbedded(50, 50, 100, 100, audio);
 
-    // Setze die Dauer des Ausblendens auf 500ms
+    // Dauer des abschließenden Ausblendens auf 500ms setzen
     audioFrame.FadeOutDuration = 500f;
 
     pres.Save("AudioFrameFade_out.pptx", SaveFormat.Pptx);

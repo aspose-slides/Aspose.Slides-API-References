@@ -1,7 +1,7 @@
 ---
 title: SymbolFont
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回或设置符号字体信息。空值表示字体未定义，应从母版继承。可读/写 IFontDataaspose.slides/ifontdata。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置符号字体信息。空值表示字体未定义，应从母版继承。可读写 IFontDataaspose.slides/ifontdata。
 type: docs
 weight: 230
 url: /zh/aspose.slides/baseportionformat/symbolfont/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/baseportionformat/symbolfont/
 
 ## BasePortionFormat.SymbolFont 属性
 
-返回或设置符号字体信息。空值表示字体未定义，应从母版继承。可读/写 [`IFontData`](../../ifontdata)。
+返回或设置符号字体信息。空值表示字体未定义，应从母版继承。可读写 [`IFontData`](../../ifontdata)。
 
 ```csharp
 public IFontData SymbolFont { get; set; }

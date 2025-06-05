@@ -1,7 +1,7 @@
 ---
 title: RotationEffect
-second_title: Aspose.Slides für .NET API-Referenz
-description: Repräsentiert das Rotationsverhalten des Effekts.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt das Rotationsverhalten des Effekts dar.
 type: docs
 weight: 690
 url: /de/aspose.slides.animation/rotationeffect/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/rotationeffect/
 
 ## RotationEffect-Klasse
 
-Repräsentiert das Rotationsverhalten des Effekts.
+Stellt das Rotationsverhalten des Effekts dar.
 
 ```csharp
 public class RotationEffect : Behavior, IRotationEffect
@@ -25,12 +25,12 @@ public class RotationEffect : Behavior, IRotationEffect
 
 | Name | Beschreibung |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Repräsentiert, ob Animationsverhalten angesammelt werden. Lese-/Schreibzugriff [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Repräsentiert, ob das aktuelle Animationsverhalten mit anderen laufenden Animationen kombiniert wird. Lese-/Schreibzugriff [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [By](../../aspose.slides.animation/rotationeffect/by) { get; set; } | Beschreibt den relativen Offsetwert für die Animation. Lese-/Schreibzugriff Single. |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Gibt an, ob Animationsverhalten kumuliert werden. Lese-/Schreibzugriff [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Gibt an, ob das aktuelle Animationsverhalten mit anderen aktiven Animationen kombiniert wird. Lese-/Schreibzugriff [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [By](../../aspose.slides.animation/rotationeffect/by) { get; set; } | Beschreibt den relativen Offsetswert für die Animation. Lese-/Schreibzugriff Single. |
 | [From](../../aspose.slides.animation/rotationeffect/from) { get; set; } | Beschreibt den Startwert für die Animation. Lese-/Schreibzugriff Single. |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Repräsentiert die Eigenschaften des Verhaltens. Nur Lesezugriff [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Repräsentiert die Timing-Eigenschaften für das Effektverhalten. Lese-/Schreibzugriff [`ITiming`](../itiming). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Stellt die Eigenschaften des Verhaltens dar. Schreibgeschützt [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Stellt die Zeit Eigenschaften für das Effekverhalten dar. Lese-/Schreibzugriff [`ITiming`](../itiming). |
 | [To](../../aspose.slides.animation/rotationeffect/to) { get; set; } | Beschreibt den Endwert für die Animation. Lese-/Schreibzugriff Single. |
 
 ### Siehe auch

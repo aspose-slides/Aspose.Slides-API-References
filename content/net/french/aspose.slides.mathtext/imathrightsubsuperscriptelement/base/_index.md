@@ -1,6 +1,6 @@
 ---
 title: Base
-second_title: Aspose.Slides pour .NET Référence de l'API
+second_title: Aspose.Slides pour .NET Référence API
 description: Argument de base
 type: docs
 weight: 30

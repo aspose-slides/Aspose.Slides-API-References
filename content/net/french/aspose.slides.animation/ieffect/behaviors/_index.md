@@ -1,7 +1,7 @@
 ---
-title: Comportements
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne la collection de comportements pour l'effet. Lecture/écriture IBehaviorCollectionaspose.slides.animation/ibehaviorcollection.
+title: Behaviors
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie une collection de comportements pour l'effet. Lecture/écriture IBehaviorCollectionaspose.slides.animation/ibehaviorcollection.
 type: docs
 weight: 40
 url: /fr/aspose.slides.animation/ieffect/behaviors/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/ieffect/behaviors/
 
 ## Propriété IEffect.Behaviors
 
-Retourne la collection de comportements pour l'effet. Lecture/écriture [`IBehaviorCollection`](../../ibehaviorcollection).
+Renvoie une collection de comportements pour l'effet. Lecture/écriture [`IBehaviorCollection`](../../ibehaviorcollection).
 
 ```csharp
 public IBehaviorCollection Behaviors { get; set; }

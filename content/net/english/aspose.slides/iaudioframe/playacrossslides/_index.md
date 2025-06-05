@@ -3,9 +3,10 @@ title: PlayAcrossSlides
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines whether an audio is playing across the slides. Read/write Boolean.
 type: docs
-weight: 100
+weight: 120
 url: /aspose.slides/iaudioframe/playacrossslides/
 ---
+
 ## IAudioFrame.PlayAcrossSlides property
 
 Determines whether an audio is playing across the slides. Read/write Boolean.

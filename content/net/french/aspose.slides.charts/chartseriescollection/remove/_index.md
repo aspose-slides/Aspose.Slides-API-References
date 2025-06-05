@@ -1,5 +1,5 @@
 ---
-title: Supprimer
+title: Remove
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Supprime la valeur spécifiée.
 type: docs
@@ -7,7 +7,7 @@ weight: 110
 url: /fr/aspose.slides.charts/chartseriescollection/remove/
 ---
 
-## Méthode ChartSeriesCollection.Remove
+## ChartSeriesCollection.Remove méthode
 
 Supprime la valeur spécifiée.
 
@@ -23,7 +23,7 @@ public void Remove(IChartSeries value)
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Le paramètre value n'a pas été trouvé dans la collection. |
+| ArgumentException | Le paramètre de valeur n'a pas été trouvé dans la collection. |
 
 ### Voir Aussi
 

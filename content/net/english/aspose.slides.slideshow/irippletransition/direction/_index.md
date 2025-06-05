@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.slideshow/irippletransition/direction/
 ---
+
 ## IRippleTransition.Direction property
 
 Direction of transition. Read/write [`TransitionCornerAndCenterDirectionType`](../../transitioncornerandcenterdirectiontype).

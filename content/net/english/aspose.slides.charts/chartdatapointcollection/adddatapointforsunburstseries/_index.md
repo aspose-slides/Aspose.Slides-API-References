@@ -6,6 +6,7 @@ type: docs
 weight: 230
 url: /aspose.slides.charts/chartdatapointcollection/adddatapointforsunburstseries/
 ---
+
 ## ChartDataPointCollection.AddDataPointForSunburstSeries method
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Sunburst.

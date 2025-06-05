@@ -1,7 +1,7 @@
 ---
 title: IncludeOleData
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: True pour convertir toutes les données OLE de la présentation en fichiers intégrés dans le PDF résultant. Lecture/écriture Boolean.
+second_title: Aspose.Slides pour .NET Référence API
+description: Vrai pour convertir toutes les données OLE de la présentation en fichiers intégrés dans le PDF résultant. Lecture/écriture booléen.
 type: docs
 weight: 110
 url: /fr/aspose.slides.export/ipdfoptions/includeoledata/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/ipdfoptions/includeoledata/
 
 ## Propriété IPdfOptions.IncludeOleData
 
-True pour convertir toutes les données OLE de la présentation en fichiers intégrés dans le PDF résultant. Lecture/écriture Boolean.
+Vrai pour convertir toutes les données OLE de la présentation en fichiers intégrés dans le PDF résultant. Lecture/écriture booléen.
 
 ```csharp
 public bool IncludeOleData { get; set; }
@@ -17,7 +17,7 @@ public bool IncludeOleData { get; set; }
 
 ### Remarques
 
-La valeur par défaut est **false**.
+Par défaut, c'est **faux**.
 
 ### Exemples
 

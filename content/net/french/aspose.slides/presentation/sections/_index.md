@@ -1,7 +1,7 @@
 ---
 title: Sections
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie une liste de toutes les sections de diapositives qui sont définies dans la présentation. Lecture seule ISectionCollectionaspose.slides/isectioncollection.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie une liste de toutes les sections de diapositives définies dans la présentation. En lecture seule ISectionCollection aspose.slides/isectioncollection.
 type: docs
 weight: 220
 url: /fr/aspose.slides/presentation/sections/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/presentation/sections/
 
 ## Propriété Presentation.Sections
 
-Renvoie une liste de toutes les sections de diapositives qui sont définies dans la présentation. Lecture seule [`ISectionCollection`](../../isectioncollection).
+Renvoie une liste de toutes les sections de diapositives définies dans la présentation. En lecture seule [`ISectionCollection`](../../isectioncollection).
 
 ```csharp
 public ISectionCollection Sections { get; }
@@ -36,7 +36,7 @@ using (Presentation pres = new Presentation())
     pres.Save("pres-sections-moved.pptx", SaveFormat.Pptx);
     pres.Sections.RemoveSectionWithSlides(section2);
     pres.Sections.AppendEmptySection("Dernière section vide");
-    pres.Save("pres-section-with-empty.pptx",SaveFormat.Pptx);
+    pres.Save("pres-section-with-empty.pptx", SaveFormat.Pptx);
 }
 ```
 

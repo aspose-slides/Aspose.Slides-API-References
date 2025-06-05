@@ -1,5 +1,5 @@
 ---
-title: Insertar
+title: Insert
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Inserta IMathBlock en la colección en el índice especificado.
 type: docs
@@ -7,7 +7,7 @@ weight: 80
 url: /es/aspose.slides.mathtext/imathblockcollection/insert/
 ---
 
-## Método IMathBlockCollection.Insert
+## IMathBlockCollection.Insert método
 
 Inserta IMathBlock en la colección en el índice especificado.
 

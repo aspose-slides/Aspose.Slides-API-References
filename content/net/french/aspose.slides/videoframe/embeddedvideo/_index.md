@@ -1,7 +1,7 @@
 ---
-title: VidéoEmbeddée
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit l'objet vidéo intégré. Lecture/écriture IVideo aspose.slides/ivideo.
+title: EmbeddedVideo
+second_title: Aspose.Sildes pour la référence API .NET
+description: Retourne ou définit un objet vidéo intégré. Lecture/écriture IVideoaspose.slides/ivideo.
 type: docs
 weight: 20
 url: /fr/aspose.slides/videoframe/embeddedvideo/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/videoframe/embeddedvideo/
 
 ## Propriété VideoFrame.EmbeddedVideo
 
-Renvoie ou définit l'objet vidéo intégré. Lecture/écriture [`IVideo`](../../ivideo).
+Retourne ou définit un objet vidéo intégré. Lecture/écriture [`IVideo`](../../ivideo).
 
 ```csharp
 public IVideo EmbeddedVideo { get; set; }

@@ -1,5 +1,5 @@
 ---
-title: Einfügen
+title: Insert
 second_title: Aspose.Slides für .NET API-Referenz
 description: Neuen Befehl zum Pfad hinzufügen
 type: docs

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.mathtext/imathblockcollection/item/
 ---
+
 ## IMathBlockCollection indexer
 
 Gets the item at the specified index. Read-only [`IMathBlock`](../../imathblock).

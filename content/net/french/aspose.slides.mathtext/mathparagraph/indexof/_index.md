@@ -1,6 +1,6 @@
 ---
 title: IndexOf
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Détermine l'index d'un IMathBlock spécifique dans la collection.
 type: docs
 weight: 80
@@ -19,7 +19,7 @@ public int IndexOf(IMathBlock mathBlock)
 | --- | --- | --- |
 | mathBlock | IMathBlock | L'élément à localiser dans la collection. |
 
-### Valeur de retour
+### Valeur de Retour
 
 L'index de *mathBlock* s'il est trouvé dans la collection ; sinon, -1.
 
@@ -36,7 +36,7 @@ mathParagraph.Add(block);
 int index = mathParagraph.IndexOf(block);
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathBlock](../../imathblock)
 * classe [MathParagraph](../../mathparagraph)

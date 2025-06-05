@@ -1,13 +1,13 @@
 ---
 title: DrawingGuides
-second_title: Aspose.Slides для .NET Справочник по API
+second_title: Aspose.Sildes для справки по API .NET
 description: Возвращает коллекцию направляющих. Только для чтения IDrawingGuidesCollectionaspose.slides/idrawingguidescollection
 type: docs
 weight: 10
 url: /ru/aspose.slides/commonslideviewproperties/drawingguides/
 ---
 
-## Свойство CommonSlideViewProperties.DrawingGuides
+## CommonSlideViewProperties.DrawingGuides свойство
 
 Возвращает коллекцию направляющих. Только для чтения [`IDrawingGuidesCollection`](../../idrawingguidescollection)
 
@@ -17,7 +17,7 @@ public IDrawingGuidesCollection DrawingGuides { get; }
 
 ### Примеры
 
-Следующий образец кода показывает, как добавить новые направляющие в презентацию PowerPoint.
+Следующий пример кода показывает, как добавить новые направляющие в презентацию PowerPoint.
 
 ```csharp
 [C#]
@@ -28,14 +28,14 @@ using (Presentation pres = new Presentation())
     IDrawingGuidesCollection guides = pres.ViewProperties.SlideViewProperties.DrawingGuides;
     // Добавление новой вертикальной направляющей справа от центра слайда
     guides.Add(Orientation.Vertical, slideSize.Width / 2 + 12.5f);
-    // Добавление новой горизонтальной направляющей под центром слайда
+    // Добавление новой горизонтальной направляющей ниже центра слайда
     guides.Add(Orientation.Horizontal, slideSize.Height / 2 + 12.5f);
     
     pres.Save("DrawingGuides_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### См. также
+### Также см.
 
 * интерфейс [IDrawingGuidesCollection](../../idrawingguidescollection)
 * класс [CommonSlideViewProperties](../../commonslideviewproperties)

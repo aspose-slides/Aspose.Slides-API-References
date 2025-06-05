@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/fontfallbackrule/fontfallbackrule/
 ---
+
 ## FontFallBackRule(uint, uint, string) {#constructor}
 
 Creates new instance.

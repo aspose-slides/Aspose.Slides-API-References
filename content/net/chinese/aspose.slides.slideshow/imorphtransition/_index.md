@@ -1,7 +1,7 @@
 ---
 title: IMorphTransition
-second_title: Aspose.Slides for .NET API Reference
-description: 波纹幻灯片过渡效果。
+second_title: Aspose.Sildes for .NET API Reference
+description: 涟漪幻灯片过渡效果。
 type: docs
 weight: 9820
 url: /zh/aspose.slides.slideshow/imorphtransition/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.slideshow/imorphtransition/
 
 ## IMorphTransition 接口
 
-波纹幻灯片过渡效果。
+涟漪幻灯片过渡效果。
 
 ```csharp
 public interface IMorphTransition : ITransitionValueBase
@@ -20,9 +20,9 @@ public interface IMorphTransition : ITransitionValueBase
 | 名称 | 描述 |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/imorphtransition/asitransitionvaluebase) { get; } | 允许获取基础 ITransitionValueBase 接口。只读 [`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | 变换过渡的类型。读/写 [`TransitionMorphType`](../transitionmorphtype)。 |
+| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | 变形过渡的类型。读/写 [`TransitionMorphType`](../transitionmorphtype)。 |
 
-### 另请参阅
+### 另见
 
 * 接口 [ITransitionValueBase](../itransitionvaluebase)
 * 命名空间 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

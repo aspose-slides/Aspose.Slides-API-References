@@ -1,7 +1,7 @@
 ---
 title: WholeWordsOnly
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Définissez true pour ne correspondre qu'aux mots entiers, false - sinon. Lecture/écriture Boolean.
+description: Définir vrai pour ne faire correspondre que des mots entiers, faux - sinon. Boolean en lecture/écriture.
 type: docs
 weight: 30
 url: /fr/aspose.slides/textsearchoptions/wholewordsonly/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/textsearchoptions/wholewordsonly/
 
 ## Propriété TextSearchOptions.WholeWordsOnly
 
-Définissez true pour ne correspondre qu'aux mots entiers, false - sinon. Lecture/écriture Boolean.
+Définir vrai pour ne faire correspondre que des mots entiers, faux - sinon. Boolean en lecture/écriture.
 
 ```csharp
 public bool WholeWordsOnly { get; set; }

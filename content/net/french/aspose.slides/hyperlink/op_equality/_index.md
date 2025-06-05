@@ -1,7 +1,7 @@
 ---
 title: op_Equality
-second_title: Référence API Aspose.Slides pour .NET
-description: Teste l'égalité de deux hyperliens.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Teste deux hyperliens pour l'égalité.
 type: docs
 weight: 230
 url: /fr/aspose.slides/hyperlink/op_equality/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/hyperlink/op_equality/
 
 ## Opérateur d'égalité des hyperliens
 
-Teste l'égalité de deux hyperliens.
+Teste deux hyperliens pour l'égalité.
 
 ```csharp
 public static bool operator ==(Hyperlink hlink1, Hyperlink hlink2)
@@ -24,7 +24,7 @@ public static bool operator ==(Hyperlink hlink1, Hyperlink hlink2)
 
 **Vrai** si les hyperliens sont égaux.
 
-### Voir Aussi
+### Voir aussi
 
 * classe [Hyperlink](../../hyperlink)
 * espace de noms [Aspose.Slides](../../hyperlink)

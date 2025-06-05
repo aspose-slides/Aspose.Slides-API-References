@@ -1,6 +1,6 @@
 ---
 title: IColorScheme
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Almacena colores definidos por el tema.
 type: docs
 weight: 10840
@@ -34,7 +34,7 @@ public interface IColorScheme : ISlideComponent
 | [Light1](../../aspose.slides.theme/icolorscheme/light1) { get; } | Primer color claro en el esquema. Solo lectura [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Light2](../../aspose.slides.theme/icolorscheme/light2) { get; } | Segundo color claro en el esquema. Solo lectura [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-### Véase también
+### Ver También
 
 * interfaz [ISlideComponent](../../aspose.slides/islidecomponent)
 * espacio de nombres [Aspose.Slides.Theme](../../aspose.slides.theme)

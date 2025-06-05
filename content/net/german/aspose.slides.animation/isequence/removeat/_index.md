@@ -1,6 +1,6 @@
 ---
 title: RemoveAt
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Entfernt einen Effekt aus einer Sammlung.
 type: docs
 weight: 110

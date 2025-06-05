@@ -3,9 +3,10 @@ title: RawFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets the raw shape frames properties. Read/write IShapeFrameaspose.slides/ishapeframe.
 type: docs
-weight: 200
+weight: 210
 url: /aspose.slides/ishape/rawframe/
 ---
+
 ## IShape.RawFrame property
 
 Returns or sets the raw shape frame's properties. Read/write [`IShapeFrame`](../../ishapeframe).

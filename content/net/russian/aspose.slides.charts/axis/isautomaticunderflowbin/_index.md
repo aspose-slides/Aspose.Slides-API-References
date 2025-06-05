@@ -1,7 +1,7 @@
 ---
 title: IsAutomaticUnderflowBin
-second_title: Aspose.Sildes для .NET API Справочник
-description: Указывает значение автоматического подбина. Если значение ложное, используйте свойство UnderflowBin.
+second_title: Aspose.Slides для .NET API Справка
+description: Указывает значение автоматического подземного бина. Если ложь, используйте свойство UnderflowBin.
 type: docs
 weight: 250
 url: /ru/aspose.slides.charts/axis/isautomaticunderflowbin/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.charts/axis/isautomaticunderflowbin/
 
 ## Axis.IsAutomaticUnderflowBin свойство
 
-Указывает значение автоматического подбина. Если ложь: используйте свойство UnderflowBin.
+Указывает значение автоматического подземного бина. Если ложь: используйте свойство UnderflowBin.
 
 ```csharp
 public bool IsAutomaticUnderflowBin { get; set; }
 ```
 
-### Смотрите Также
+### Смотрите также
 
 * класс [Axis](../../axis)
 * пространство имен [Aspose.Slides.Charts](../../axis)

@@ -1,7 +1,7 @@
 ---
-title: 检查写保护
-second_title: Aspose.Slides for .NET API 参考
-description: 确定演示文稿是否受到修改密码保护。
+title: CheckWriteProtection
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定演示文稿是否受密码保护以进行修改。
 type: docs
 weight: 70
 url: /zh/aspose.slides/iprotectionmanager/checkwriteprotection/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iprotectionmanager/checkwriteprotection/
 
 ## IProtectionManager.CheckWriteProtection 方法
 
-确定演示文稿是否受到修改密码保护。
+确定演示文稿是否受密码保护以进行修改。
 
 ```csharp
 public bool CheckWriteProtection(string password)
@@ -17,15 +17,15 @@ public bool CheckWriteProtection(string password)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| password | String | 要检查的密码。 |
+| password | String | 用于检查的密码。 |
 
 ### 返回值
 
-如果密码有效，则为 true；否则为 false。
+如果密码有效，则为 True；否则为 false。
 
 ### 备注
 
-1. 在调用此方法之前，您应该检查 [`IsWriteProtected`](../iswriteprotected) 属性。 2. 当密码为 null 或为空时，此方法返回 false。
+1. 在调用此方法之前，应检查 [`IsWriteProtected`](../iswriteprotected) 属性。 2. 当密码为 null 或空时，此方法返回 false。
 
 ### 示例
 

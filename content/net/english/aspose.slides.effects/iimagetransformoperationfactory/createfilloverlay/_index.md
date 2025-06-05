@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides.effects/iimagetransformoperationfactory/createfilloverlay/
 ---
+
 ## IImageTransformOperationFactory.CreateFillOverlay method
 
 Creates Fill overlay effect.

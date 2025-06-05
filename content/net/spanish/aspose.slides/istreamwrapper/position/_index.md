@@ -1,5 +1,5 @@
 ---
-title: Posición
+title: Position
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene la posición dentro del flujo actual. Solo lectura Int64.
 type: docs
@@ -17,8 +17,8 @@ public long Position { get; }
 
 ### Vea También
 
-* interfaz [IStreamWrapper](../../istreamwrapper)
-* espacio de nombres [Aspose.Slides](../../istreamwrapper)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IStreamWrapper](../../istreamwrapper)
+* espacio de nombres [Aspose.Slides](../../istreamwrapper)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

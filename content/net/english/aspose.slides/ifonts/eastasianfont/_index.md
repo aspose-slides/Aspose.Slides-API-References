@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ifonts/eastasianfont/
 ---
+
 ## IFonts.EastAsianFont property
 
 Returns or sets the East Asian font. Read/write [`IFontData`](../../ifontdata).

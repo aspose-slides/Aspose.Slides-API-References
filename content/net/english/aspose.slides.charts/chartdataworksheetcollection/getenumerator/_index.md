@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.charts/chartdataworksheetcollection/getenumerator/
 ---
+
 ## ChartDataWorksheetCollection.GetEnumerator method
 
 Returns an enumerator that iterates through the collection.

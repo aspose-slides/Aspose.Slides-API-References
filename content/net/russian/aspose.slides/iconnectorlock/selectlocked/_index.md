@@ -1,13 +1,13 @@
 ---
 title: SelectLocked
-second_title: Ссылка на API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Определяет, запрещено ли выбирать эту фигуру. Читаемое/записываемое логическое значение.
 type: docs
 weight: 90
 url: /ru/aspose.slides/iconnectorlock/selectlocked/
 ---
 
-## Свойство IConnectorLock.SelectLocked
+## IConnectorLock.SelectLocked свойство
 
 Определяет, запрещено ли выбирать эту фигуру. Читаемое/записываемое логическое значение.
 

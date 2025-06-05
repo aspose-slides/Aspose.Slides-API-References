@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.theme/iformatscheme/backgroundfillstyles/
 ---
+
 ## IFormatScheme.BackgroundFillStyles property
 
 Returns a collection of theme defined background fill styles. Read-only [`IFillFormatCollection`](../../ifillformatcollection).

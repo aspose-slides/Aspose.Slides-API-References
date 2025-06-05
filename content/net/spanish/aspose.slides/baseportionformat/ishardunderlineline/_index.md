@@ -1,21 +1,21 @@
 ---
 title: IsHardUnderlineLine
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Determina si el estilo de subrayado tiene propiedades de LineFormat propias o las hereda de las propiedades de LineFormat del texto. Leer/escribir NullableBoolaspose.slides/nullablebool.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Determina si el estilo de subrayado tiene propiedades de LineFormat propias o las hereda de las propiedades de LineFormat del texto. Lectura/escritura NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 130
 url: /es/aspose.slides/baseportionformat/ishardunderlineline/
 ---
 
-## Propiedad BasePortionFormat.IsHardUnderlineLine
+## BasePortionFormat.IsHardUnderlineLine propiedad
 
-Determina si el estilo de subrayado tiene propiedades de LineFormat propias o las hereda de las propiedades de LineFormat del texto. Leer/escribir [`NullableBool`](../../nullablebool).
+Determina si el estilo de subrayado tiene propiedades de LineFormat propias o las hereda de las propiedades de LineFormat del texto. Lectura/escritura [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool IsHardUnderlineLine { get; set; }
 ```
 
-### Véase también
+### Véase También
 
 * enum [NullableBool](../../nullablebool)
 * class [BasePortionFormat](../../baseportionformat)

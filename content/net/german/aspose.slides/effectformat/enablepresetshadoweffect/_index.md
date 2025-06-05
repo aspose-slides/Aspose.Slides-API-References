@@ -1,7 +1,7 @@
 ---
 title: EnablePresetShadowEffect
 second_title: Aspose.Slides für .NET API Referenz
-description: Aktiviert den vordefinierten Schatteneffekt.
+description: Aktiviert den Effekt für vordefinierte Schatten.
 type: docs
 weight: 220
 url: /de/aspose.slides/effectformat/enablepresetshadoweffect/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/effectformat/enablepresetshadoweffect/
 
 ## EffectFormat.EnablePresetShadowEffect-Methode
 
-Aktiviert den vordefinierten Schatteneffekt.
+Aktiviert den Effekt für vordefinierte Schatten.
 
 ```csharp
 public void EnablePresetShadowEffect()

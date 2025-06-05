@@ -1,15 +1,15 @@
 ---
 title: CreateColorChange
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erstellt Farbwechseleffekt.
+second_title: Aspose.Slides für .NET API Referenz
+description: Erstellt einen Farbwechsel-Effekt.
 type: docs
 weight: 100
 url: /de/aspose.slides.effects/iimagetransformoperationfactory/createcolorchange/
 ---
 
-## IImageTransformOperationFactory.CreateColorChange-Methode
+## IImageTransformOperationFactory.CreateColorChange Methode
 
-Erstellt Farbwechseleffekt.
+Erstellt einen Farbwechsel-Effekt.
 
 ```csharp
 public IColorChange CreateColorChange()
@@ -17,7 +17,7 @@ public IColorChange CreateColorChange()
 
 ### Rückgabewert
 
-Farbwechseleffekt.
+Farbwechsel-Effekt.
 
 ### Siehe auch
 

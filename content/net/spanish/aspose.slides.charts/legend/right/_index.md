@@ -1,7 +1,7 @@
 ---
-title: Derecho
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Derecho. Solo lectura Single.
+title: Right
+second_title: Aspose.Slides para .NET API Reference
+description: Derecho. Solo de lectura Single.
 type: docs
 weight: 80
 url: /es/aspose.slides.charts/legend/right/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.charts/legend/right/
 
 ## Propiedad Legend.Right
 
-Derecho. Solo lectura Single.
+Derecho. Solo de lectura Single.
 
 ```csharp
 public float Right { get; }

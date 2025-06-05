@@ -1,7 +1,7 @@
 ---
-title: 方向
-second_title: Aspose.Slides for .NET API 参考
-description: 过渡效果的方向。可读/写 TransitionInOutDirectionTypeaspose.slides/transitioninoutdirectiontype。
+title: Direction
+second_title: Aspose.Sildes for .NET API Reference
+description: 过渡效果的方向。读/写 TransitionInOutDirectionType aspose.slides.slideshow/transitioninoutdirectiontype.
 type: docs
 weight: 20
 url: /zh/aspose.slides.slideshow/iinouttransition/direction/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.slideshow/iinouttransition/direction/
 
 ## IInOutTransition.Direction 属性
 
-过渡效果的方向。可读/写 [`TransitionInOutDirectionType`](../../transitioninoutdirectiontype)。
+过渡效果的方向。读/写 [`TransitionInOutDirectionType`](../../transitioninoutdirectiontype)。
 
 ```csharp
 public TransitionInOutDirectionType Direction { get; set; }
 ```
 
-### 参见
+### 另见
 
 * 枚举 [TransitionInOutDirectionType](../../transitioninoutdirectiontype)
 * 接口 [IInOutTransition](../../iinouttransition)

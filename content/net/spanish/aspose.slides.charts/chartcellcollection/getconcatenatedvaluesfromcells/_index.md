@@ -1,24 +1,24 @@
 ---
 title: GetConcatenatedValuesFromCells
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Cadena de concatenación de todos los valores de cadena de las celdas.
+description: Cadena de concatenación de todos los valores de las celdas.
 type: docs
 weight: 50
 url: /es/aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells/
 ---
 
-## Método ChartCellCollection.GetConcatenatedValuesFromCells
+## ChartCellCollection.GetConcatenatedValuesFromCells método
 
-Cadena de concatenación de todos los valores de cadena de las celdas.
+Cadena de concatenación de todos los valores de las celdas.
 
 ```csharp
 public string GetConcatenatedValuesFromCells()
 ```
 
-### Ver También
+### Véase también
 
 * clase [ChartCellCollection](../../chartcellcollection)
 * espacio de nombres [Aspose.Slides.Charts](../../chartcellcollection)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

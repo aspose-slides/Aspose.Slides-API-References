@@ -1,5 +1,5 @@
 ---
-title: Ítem
+title: Item
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene la regla en el índice especificado. Solo lectura IFontFallBackRuleaspose.slides/ifontfallbackrule.
 type: docs
@@ -21,7 +21,7 @@ public IFontFallBackRule this[int index] { get; }
 [C#]
 using (Presentation pres = new Presentation ())
 {
-    //Obtención de una colección de reglas vacía o preinicializada del FontsManager
+    //Obtención de una colección de reglas vacía o preinicializada desde FontsManager
     IFontFallBackRulesCollection rulesList = pres.FontsManager.FontFallBackRulesCollection;
 
     //Adición de varias reglas a la colección
@@ -35,9 +35,9 @@ using (Presentation pres = new Presentation ())
 
 ### Ver También
 
-* interfaz [IFontFallBackRule](../../ifontfallbackrule)
-* clase [FontFallBackRulesCollection](../../fontfallbackrulescollection)
+* interface [IFontFallBackRule](../../ifontfallbackrule)
+* class [FontFallBackRulesCollection](../../fontfallbackrulescollection)
 * namespace [Aspose.Slides](../../fontfallbackrulescollection)
-* ensamblado [Aspose.Slides](../../../)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.effects/iinnershadow/blurradius/
 ---
+
 ## IInnerShadow.BlurRadius property
 
 Blur radius. Read/write Double.

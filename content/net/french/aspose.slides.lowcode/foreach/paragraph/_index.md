@@ -1,13 +1,13 @@
 ---
-title: Paragraphe
+title: Paragraph
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Itérer chaque Paragraphe aspose.slides.lowcode/foreach/paragraph dans la Présentation aspose.slides/presentation. Les formes seront itérées dans tous les types de diapositives - Diapositive aspose.slides.lowcode/foreach/slide MaîtreDiapositive aspose.slides.lowcode/foreach/masterslide et DiapositiveDeMiseEnPage aspose.slides.lowcode/foreach/layoutslide
+description: Itérer chaque Paragraphaspose.slides.lowcode/foreach/paragraph dans la Presentationaspose.slides/presentation. Les formes seront itérées dans tous les types de diapositives - Slideaspose.slides.lowcode/foreach/slide MasterSlideaspose.slides.lowcode/foreach/masterslide et LayoutSlideaspose.slides.lowcode/foreach/layoutslide
 type: docs
 weight: 30
 url: /fr/aspose.slides.lowcode/foreach/paragraph/
 ---
 
-## Paragraphe(Presentation, ForEachParagraphCallback) {#paragraph_1}
+## Paragraph(Presentation, ForEachParagraphCallback) {#paragraph_1}
 
 Itérer chaque `Paragraph` dans la [`Presentation`](../../../aspose.slides/presentation). Les formes seront itérées dans tous les types de diapositives - [`Slide`](../slide), [`MasterSlide`](../masterslide) et [`LayoutSlide`](../layoutslide)
 
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }        
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * class [Presentation](../../../aspose.slides/presentation)
 * delegate [ForEachParagraphCallback](../../foreach.foreachparagraphcallback)
@@ -42,7 +42,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ---
 
-## Paragraphe(Presentation, bool, ForEachParagraphCallback) {#paragraph}
+## Paragraph(Presentation, bool, ForEachParagraphCallback) {#paragraph}
 
 Itérer chaque [`Paragraph`](../paragraph) dans la [`Presentation`](../../../aspose.slides/presentation). Les formes seront itérées dans tous les types de diapositives - [`Slide`](../slide), [`MasterSlide`](../masterslide), [`LayoutSlide`](../layoutslide) et [`NotesSlide`](../../../aspose.slides/notesslide)
 
@@ -69,7 +69,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }        
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * class [Presentation](../../../aspose.slides/presentation)
 * delegate [ForEachParagraphCallback](../../foreach.foreachparagraphcallback)

@@ -1,21 +1,21 @@
 ---
 title: NumberOfBins
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает количество ящиков, когда значение свойства AggregationType установлено в AxisAggregationType.ByNumberOfBins. Применяется к категориальным осям. Используется только с сериями Histogram или HistogramPareto.
+second_title: Aspose.Slides для .NET API Reference
+description: Указывает количество интервалов, когда значение свойства AggregationType установлено на AxisAggregationType.ByNumberOfBins. Применяется к категориальным осям. Используется только с сериями Histogram или HistogramPareto.
 type: docs
 weight: 450
 url: /ru/aspose.slides.charts/iaxis/numberofbins/
 ---
 
-## IAxis.NumberOfBins property
+## IAxis.NumberOfBins свойство
 
-Указывает количество ящиков, когда значение свойства AggregationType установлено в AxisAggregationType.ByNumberOfBins. Применяется к категориальным осям. Используется только с сериями Histogram или HistogramPareto.
+Указывает количество интервалов, когда значение свойства AggregationType установлено на AxisAggregationType.ByNumberOfBins. Применяется к категориальным осям. Используется только с сериями Histogram или HistogramPareto.
 
 ```csharp
 public uint NumberOfBins { get; set; }
 ```
 
-### См. также
+### Смотрите Также
 
 * интерфейс [IAxis](../../iaxis)
 * пространство имен [Aspose.Slides.Charts](../../iaxis)

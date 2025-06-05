@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/itagcollection/item/
 ---
+
 ## ITagCollection indexer
 
 Returns or sets a key and a value pair of a tag.

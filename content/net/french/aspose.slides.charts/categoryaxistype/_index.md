@@ -19,7 +19,7 @@ public enum CategoryAxisType
 
 | Nom | Valeur | Description |
 | --- | --- | --- |
-| Texte | `0` | Spécifie que l'axe de catégorie est un axe de texte. |
+| Text | `0` | Spécifie que l'axe de catégorie est un axe de texte. |
 | Date | `1` | Spécifie que l'axe de catégorie est un axe de date. |
 
 ### Voir aussi

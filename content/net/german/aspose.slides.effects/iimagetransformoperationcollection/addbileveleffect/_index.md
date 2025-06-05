@@ -1,7 +1,7 @@
 ---
 title: AddBiLevelEffect
-second_title: Aspose.Slides für .NET API Referenz
-description: Fügt den neuen Bi-Level Schwarz/Weiß Effekt am Ende einer Sammlung hinzu.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Fügt den neuen Bi-Level Schwarz-/Weiß-Effekt am Ende einer Sammlung hinzu.
 type: docs
 weight: 100
 url: /de/aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect/
@@ -23,7 +23,7 @@ public IBiLevel AddBiLevelEffect(float threshold)
 
 Index des neuen Bildeffekts in einer Sammlung.
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IBiLevel](../../ibilevel)
 * Schnittstelle [IImageTransformOperationCollection](../../iimagetransformoperationcollection)

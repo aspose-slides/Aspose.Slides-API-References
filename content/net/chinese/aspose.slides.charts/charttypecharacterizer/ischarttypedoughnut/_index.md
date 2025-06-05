@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeDoughnut
-second_title: Aspose.Sildes for .NET API 参考
-description: 如果 chartType 是圆环子类型之一，则返回true。子类型集对应于 PowerPoint 中的适当集，参见 PowerPoint 的“更改图表类型”对话框：圆环、爆炸圆环。
+second_title: Aspose.Sildes for .NET API Reference
+description: 如果 chartType 是 Doughnut 子类型之一，则返回 true。子类型集对应于 PowerPoint 中的相应集合，请参见 PowerPoint 中的“更改图表类型”对话框：Doughnut, ExplodedDoughnut。
 type: docs
 weight: 90
 url: /zh/aspose.slides.charts/charttypecharacterizer/ischarttypedoughnut/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/charttypecharacterizer/ischarttypedoughnut/
 
 ## ChartTypeCharacterizer.IsChartTypeDoughnut 方法
 
-如果 chartType 是圆环子类型之一，则返回true。子类型集对应于 PowerPoint 中的适当集（参见“更改图表类型”对话框）：圆环、爆炸圆环。
+如果 chartType 是 Doughnut 子类型之一，则返回 true。子类型集对应于 PowerPoint 中的相应集合（请参见“更改图表类型”对话框）：Doughnut, ExplodedDoughnut。
 
 ```csharp
 public static bool IsChartTypeDoughnut(ChartType chartType)
 ```
 
-### 另见
+### 另请参阅
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

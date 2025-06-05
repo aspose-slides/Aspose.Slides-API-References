@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.effects/ialphabilevel/asiaccessiblepviobject/
 ---
+
 ## IAlphaBiLevel.AsIAccessiblePVIObject property
 
 Allows to get base IAccessiblePVIObject interface. Read-only [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).

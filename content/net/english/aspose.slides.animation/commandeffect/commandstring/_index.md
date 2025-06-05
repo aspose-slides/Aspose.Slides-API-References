@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.animation/commandeffect/commandstring/
 ---
+
 ## CommandEffect.CommandString property
 
 Defines command string. Read/write String.

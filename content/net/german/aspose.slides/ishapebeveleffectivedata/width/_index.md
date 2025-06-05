@@ -1,7 +1,7 @@
 ---
-title: Breite
+title: Width
 second_title: Aspose.Slides für .NET API Referenz
-description: Fasenbreite. Nur-lesbare Double.
+description: Fasenbreite. Nur Lesezugriff Double.
 type: docs
 weight: 30
 url: /de/aspose.slides/ishapebeveleffectivedata/width/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ishapebeveleffectivedata/width/
 
 ## IShapeBevelEffectiveData.Width-Eigenschaft
 
-Fasenbreite. Nur-lesbare Double.
+Fasenbreite. Nur Lesezugriff Double.
 
 ```csharp
 public double Width { get; }

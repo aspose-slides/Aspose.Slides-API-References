@@ -1,21 +1,21 @@
 ---
 title: SkewHorizontal
 second_title: Aspose.Slides для .NET API Справочник
-description: Указывает угол горизонтального искажения. Читаемый/записываемый Double.
+description: Указывает угол горизонтального искажения. Читаемое/записываемое Double.
 type: docs
 weight: 110
 url: /ru/aspose.slides.effects/reflection/skewhorizontal/
 ---
 
-## Свойство Reflection.SkewHorizontal
+## Reflection.SkewHorizontal свойство
 
-Указывает угол горизонтального искажения. Читаемый/записываемый Double.
+Указывает угол горизонтального искажения. Читаемое/записываемое Double.
 
 ```csharp
 public double SkewHorizontal { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [Reflection](../../reflection)
 * пространство имен [Aspose.Slides.Effects](../../reflection)

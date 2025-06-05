@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ithreedformat/asithreedparamsource/
 ---
+
 ## IThreeDFormat.AsIThreeDParamSource property
 
 Allows to get base IThreeDParamSource interface. Read-only [`IThreeDParamSource`](../../ithreedparamsource).

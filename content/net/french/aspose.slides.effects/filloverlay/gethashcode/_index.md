@@ -1,13 +1,13 @@
 ---
 title: GetHashCode
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Sert de fonction de hachage pour un type particulier.
 type: docs
 weight: 50
 url: /fr/aspose.slides.effects/filloverlay/gethashcode/
 ---
 
-## Méthode FillOverlay.GetHashCode
+## FillOverlay.GetHashCode méthode
 
 Sert de fonction de hachage pour un type particulier.
 

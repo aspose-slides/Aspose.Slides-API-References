@@ -1,7 +1,7 @@
 ---
 title: X
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie la position x à gauche de l'élément de graphique comme une fraction de la largeur du graphique. Lecture/écriture Single.
+description: Spécifie l'emplacement x à gauche de l'élément de graphique en tant que fraction de la largeur du graphique. Lecture/écriture Simple.
 type: docs
 weight: 60
 url: /fr/aspose.slides.charts/ilayoutable/x/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ilayoutable/x/
 
 ## Propriété ILayoutable.X
 
-Spécifie la position x (à gauche) de l'élément de graphique comme une fraction de la largeur du graphique. Lecture/écriture Single.
+Spécifie l'emplacement x (gauche) de l'élément de graphique en tant que fraction de la largeur du graphique. Lecture/écriture Simple.
 
 ```csharp
 public float X { get; set; }

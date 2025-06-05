@@ -1,15 +1,15 @@
 ---
-title: Élement
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie un nœud par index. Lecture seule ISmartArtNodeaspose.slides.smartart/ismartartnode
+title: Item
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie le nœud par index. Lecture seule ISmartArtNodeaspose.slides.smartart/ismartartnode
 type: docs
 weight: 10
 url: /fr/aspose.slides.smartart/ismartartnodecollection/item/
 ---
 
-## Indexeur ISmartArtNodeCollection
+## ISmartArtNodeCollection indexer
 
-Renvoie un nœud par index. Lecture seule [`ISmartArtNode`](../../ismartartnode)
+Renvoie le nœud par index. Lecture seule [`ISmartArtNode`](../../ismartartnode)
 
 ```csharp
 public ISmartArtNode this[int index] { get; }
@@ -17,7 +17,7 @@ public ISmartArtNode this[int index] { get; }
 
 | Paramètre | Description |
 | --- | --- |
-| index | L'index basé sur zéro de l'élément. |
+| index | L'index de l'élément basé sur zéro. |
 
 ### Voir aussi
 

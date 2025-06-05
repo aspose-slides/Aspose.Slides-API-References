@@ -1,15 +1,15 @@
 ---
 title: InsertRowBefore
 second_title: Aspose.Slides für .NET API-Referenz
-description: Fügen Sie eine neue Zeile vor der angegebenen ein. Anfangs sind alle Elemente in der neuen Zeile null.
+description: Fügen Sie eine neue Zeile vor der angegebenen hinzu. Zunächst sind alle Elemente in der neuen Zeile null.
 type: docs
 weight: 190
 url: /de/aspose.slides.mathtext/mathmatrix/insertrowbefore/
 ---
 
-## MathMatrix.InsertRowBefore Methode
+## MathMatrix.InsertRowBefore-Methode
 
-Fügen Sie eine neue Zeile vor der angegebenen ein. Anfangs sind alle Elemente in der neuen Zeile null.
+Fügen Sie eine neue Zeile vor der angegebenen hinzu. Zunächst sind alle Elemente in der neuen Zeile null.
 
 ```csharp
 public void InsertRowBefore(int rowIndex)

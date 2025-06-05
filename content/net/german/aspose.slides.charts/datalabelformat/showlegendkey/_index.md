@@ -1,7 +1,7 @@
 ---
 title: ShowLegendKey
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt das angegebene Verhalten der Anzeige des Legendenkeys für Datenbeschriftungen eines Diagramms dar. Wahr, wenn der Legendenkey für die Datenbeschriftung sichtbar ist. Lese-/Schreib-Boolean.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt das Anzeigeverhalten des Legendenkeys der Datenbeschriftung eines bestimmten Diagramms dar. Wahr, wenn der Legendenkey der Datenbeschriftung sichtbar ist. Lese-/Schreib-Boolescher Wert.
 type: docs
 weight: 120
 url: /de/aspose.slides.charts/datalabelformat/showlegendkey/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/datalabelformat/showlegendkey/
 
 ## DataLabelFormat.ShowLegendKey-Eigenschaft
 
-Stellt das Anzeigeverhalten des Legendenkeys für die Datenbeschriftungen eines bestimmten Diagramms dar. Wahr, wenn der Legendenkey für die Datenbeschriftung sichtbar ist. Lese-/Schreib-Boolean.
+Stellt das Anzeigeverhalten des Legendenkeys der Datenbeschriftung eines bestimmten Diagramms dar. Wahr, wenn der Legendenkey der Datenbeschriftung sichtbar ist. Lese-/Schreib-Boolescher Wert.
 
 ```csharp
 public bool ShowLegendKey { get; set; }
@@ -17,7 +17,7 @@ public bool ShowLegendKey { get; set; }
 
 ### Bemerkungen
 
-Wenn der übergeordnete DataLabelFormat-Objekt ein DataLabelCollection ist, das eine Sammlung von Datenbeschriftungen ist, dann erhält oder setzt diese Eigenschaft den Standardwert der ShowLegendKey-Eigenschaft für die neuen Datenbeschriftungen in der DataLabelCollection. Das Setzen dieser Eigenschaft mit einem Wert setzt diesen Wert auch für die ShowLegendKey-Eigenschaft aller Datenbeschriftungen in der DataLabelCollection (d.h. "DataLabels.DefaultDataLabelFormat.ShowLegendKey = val;" führt dazu, dass alle DataLabels[i].ShowLegendKey gleich val ist).
+Wenn der übergeordnete DataLabelFormat-Objekt eine DataLabelCollection-Sammlung von Datenbeschriftungen ist, wird mit dieser Eigenschaft der Standardwert der ShowLegendKey-Eigenschaft für die neuen Datenbeschriftungen in der DataLabelCollection-Sammlung festgelegt oder abgerufen. Das Setzen dieser Eigenschaft mit einem Wert setzt diesen Wert auch für die ShowLegendKey-Eigenschaft aller Datenbeschriftungen in der DataLabelCollection-Sammlung (d.h. "DataLabels.DefaultDataLabelFormat.ShowLegendKey = val;" führt dazu, dass alle DataLabels[i].ShowLegendKey gleich val ist).
 
 ### Siehe auch
 

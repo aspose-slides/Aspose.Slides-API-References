@@ -1,7 +1,7 @@
 ---
-title: Перемещение
-second_title: Справка по API Aspose.Slides для .NET
-description: Перемещает фигуру из коллекции на указанную позицию.
+title: Reorder
+second_title: Aspose.Sildes для .NET API Справочник
+description: Перемещает фигуру из коллекции в указанную позицию.
 type: docs
 weight: 390
 url: /ru/aspose.slides/ishapecollection/reorder/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ishapecollection/reorder/
 
 ## Reorder(int, IShape) {#reorder}
 
-Перемещает фигуру из коллекции на указанную позицию.
+Перемещает фигуру из коллекции в указанную позицию.
 
 ```csharp
 public void Reorder(int index, IShape shape)
@@ -18,9 +18,9 @@ public void Reorder(int index, IShape shape)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | index | Int32 | Целевой индекс. |
-| shape | IShape | Фигура для перемещения. |
+| shape | IShape | Фигура, которую нужно переместить. |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IShape](../../ishape)
 * интерфейс [IShapeCollection](../../ishapecollection)
@@ -31,7 +31,7 @@ public void Reorder(int index, IShape shape)
 
 ## Reorder(int, params IShape[]) {#reorder_1}
 
-Перемещает фигуры из коллекции на указанную позицию. Фигуры будут размещены начиная с указанного индекса в порядке их появления в списке.
+Перемещает фигуры из коллекции в указанную позицию. Фигуры будут помещены, начиная с индекса, в порядке, в котором они появляются в списке.
 
 ```csharp
 public void Reorder(int index, params IShape[] shapes)
@@ -40,9 +40,9 @@ public void Reorder(int index, params IShape[] shapes)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | index | Int32 | Целевой индекс. |
-| shapes | IShape[] | Фигуры для перемещения. |
+| shapes | IShape[] | Фигуры, которые нужно переместить. |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IShape](../../ishape)
 * интерфейс [IShapeCollection](../../ishapecollection)

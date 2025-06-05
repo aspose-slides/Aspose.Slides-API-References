@@ -7,7 +7,7 @@ weight: 10
 url: /zh/aspose.slides.mathtext/mathnaryoperator/mathnaryoperator/
 ---
 
-## MathNaryOperator(char, IMathElement, IMathElement, IMathElement) {#constructor_2}
+## MathNaryOperator(char, IMathElement, IMathElement, IMathElement) {#constructor_2}
 
 初始化 MathNaryOperator 类的新实例。
 
@@ -18,8 +18,8 @@ public MathNaryOperator(char operatorSymbol, IMathElement baseArgument, IMathEle
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| operatorSymbol | Char | N 叉运算符号 |
-| baseArgument | IMathElement | 基础参数 |
+| operatorSymbol | Char | N 元运算符符号 |
+| baseArgument | IMathElement | 基本参数 |
 | lowerLimit | IMathElement | 下限 |
 | upperLimit | IMathElement | 上限 |
 
@@ -32,7 +32,7 @@ public MathNaryOperator(char operatorSymbol, IMathElement baseArgument, IMathEle
 IMathNaryOperator naryOperator = new MathNaryOperator('∑', new MathematicalText("i"), new MathematicalText("i=0"), new MathematicalText("𝑛"));
 ```
 
-### 另见
+### 参见
 
 * 接口 [IMathElement](../../imathelement)
 * 类 [MathNaryOperator](../../mathnaryoperator)
@@ -41,7 +41,7 @@ IMathNaryOperator naryOperator = new MathNaryOperator('∑', new MathematicalTex
 
 ---
 
-## MathNaryOperator(char, IMathElement, IMathElement) {#constructor_1}
+## MathNaryOperator(char, IMathElement, IMathElement) {#constructor_1}
 
 初始化 MathNaryOperator 类的新实例。
 
@@ -51,8 +51,8 @@ public MathNaryOperator(char operatorSymbol, IMathElement baseArgument, IMathEle
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| operatorSymbol | Char | N 叉运算符号 |
-| baseArgument | IMathElement | 基础参数 |
+| operatorSymbol | Char | N 元运算符符号 |
+| baseArgument | IMathElement | 基本参数 |
 | lowerLimit | IMathElement | 下限 |
 
 ### 示例
@@ -64,7 +64,7 @@ public MathNaryOperator(char operatorSymbol, IMathElement baseArgument, IMathEle
 IMathNaryOperator naryOperator = new MathNaryOperator('∑', new MathematicalText("i"), new MathematicalText("i"));
 ```
 
-### 另见
+### 参见
 
 * 接口 [IMathElement](../../imathelement)
 * 类 [MathNaryOperator](../../mathnaryoperator)
@@ -73,7 +73,7 @@ IMathNaryOperator naryOperator = new MathNaryOperator('∑', new MathematicalTex
 
 ---
 
-## MathNaryOperator(char, IMathElement) {#constructor}
+## MathNaryOperator(char, IMathElement) {#constructor}
 
 初始化 MathNaryOperator 类的新实例。
 
@@ -83,8 +83,8 @@ public MathNaryOperator(char operatorSymbol, IMathElement baseArgument)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| operatorSymbol | Char | N 叉运算符号 |
-| baseArgument | IMathElement | 基础参数 |
+| operatorSymbol | Char | N 元运算符符号 |
+| baseArgument | IMathElement | 基本参数 |
 
 ### 示例
 
@@ -95,7 +95,7 @@ public MathNaryOperator(char operatorSymbol, IMathElement baseArgument)
 IMathNaryOperator naryOperator = new MathNaryOperator('∑', new MathematicalText("i"));
 ```
 
-### 另见
+### 参见
 
 * 接口 [IMathElement](../../imathelement)
 * 类 [MathNaryOperator](../../mathnaryoperator)

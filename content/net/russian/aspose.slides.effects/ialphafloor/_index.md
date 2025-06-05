@@ -1,7 +1,7 @@
 ---
 title: IAlphaFloor
-second_title: Aspose.Sildes для .NET Справочник API
-description: Представляет эффект Alpha Floor. Значения альфа-прозрачности меньше 100 изменяются на ноль. Иными словами, всё частично прозрачное становится полностью прозрачным.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет эффект Alpha Floor. Значения альфа-непрозрачности менее 100 изменяются на ноль. Иными словами, всё частично прозрачное становится полностью прозрачным.
 type: docs
 weight: 2960
 url: /ru/aspose.slides.effects/ialphafloor/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/ialphafloor/
 
 ## Интерфейс IAlphaFloor
 
-Представляет эффект Alpha Floor. Значения альфа (прозрачности) менее 100% изменяются на ноль. Иными словами, всё частично прозрачное становится полностью прозрачным.
+Представляет эффект Alpha Floor. Значения альфа (непрозрачности) менее 100% изменяются на ноль. Иными словами, всё частично прозрачное становится полностью прозрачным.
 
 ```csharp
 public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>, 

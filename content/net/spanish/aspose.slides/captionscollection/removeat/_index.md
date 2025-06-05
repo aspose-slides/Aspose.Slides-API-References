@@ -1,6 +1,6 @@
 ---
 title: RemoveAt
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Elimina los subtítulos cerrados en el índice especificado.
 type: docs
 weight: 70
@@ -19,10 +19,10 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | El índice de los subtítulos cerrados a eliminar. |
 
-### Véase también
+### Ver También
 
 * clase [CaptionsCollection](../../captionscollection)
 * espacio de nombres [Aspose.Slides](../../captionscollection)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

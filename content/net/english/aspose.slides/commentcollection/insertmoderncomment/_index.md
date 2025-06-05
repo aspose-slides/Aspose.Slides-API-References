@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides/commentcollection/insertmoderncomment/
 ---
+
 ## CommentCollection.InsertModernComment method
 
 Insert new modern comment to a collection at the specified index.

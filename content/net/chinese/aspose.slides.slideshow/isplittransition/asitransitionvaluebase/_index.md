@@ -1,7 +1,7 @@
 ---
 title: AsITransitionValueBase
 second_title: Aspose.Slides for .NET API Reference
-description: 允许获取基本的 ITransitionValueBase 接口。是一个只读的 ITransitionValueBaseaspose.slides.slideshow/itransitionvaluebase。
+description: 允许获取基本的 ITransitionValueBase 接口。只读 ITransitionValueBaseaspose.slides.slideshow/itransitionvaluebase。
 type: docs
 weight: 10
 url: /zh/aspose.slides.slideshow/isplittransition/asitransitionvaluebase/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.slideshow/isplittransition/asitransitionvaluebase/
 public ITransitionValueBase AsITransitionValueBase { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [ITransitionValueBase](../../itransitionvaluebase)
 * 接口 [ISplitTransition](../../isplittransition)

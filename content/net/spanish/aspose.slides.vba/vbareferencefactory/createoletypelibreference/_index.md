@@ -1,7 +1,7 @@
 ---
 title: CreateOleTypeLibReference
-second_title: Aspose.Slides para .NET API Reference
-description: Crea una nueva referencia de biblioteca de tipos de automatización OLE.
+second_title: Aspose.Sildes para .NET API Reference
+description: Crea una nueva referencia de biblioteca de tipos OLE Automation.
 type: docs
 weight: 30
 url: /es/aspose.slides.vba/vbareferencefactory/createoletypelibreference/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.vba/vbareferencefactory/createoletypelibreference/
 
 ## VbaReferenceFactory.CreateOleTypeLibReference método
 
-Crea una nueva referencia de biblioteca de tipos de automatización OLE.
+Crea una nueva referencia de biblioteca de tipos OLE Automation.
 
 ```csharp
 public IVbaReferenceOleTypeLib CreateOleTypeLibReference(string name, string libid)
@@ -17,7 +17,7 @@ public IVbaReferenceOleTypeLib CreateOleTypeLibReference(string name, string lib
 
 ### Valor de retorno
 
-Nueva referencia de biblioteca de tipos de automatización OLE.
+Nueva referencia de biblioteca de tipos OLE Automation
 
 ### Ver también
 

@@ -1,7 +1,7 @@
 ---
-title: AnimationDeTexte
+title: TextAnimation
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: AnimationDeTexte Read-only ITextAnimationaspose.slides.animation/itextanimation.
+description: TextAnimation Lecture seule ITextAnimationaspose.slides.animation/itextanimation.
 type: docs
 weight: 120
 url: /fr/aspose.slides.animation/effect/textanimation/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/effect/textanimation/
 
 ## Propriété Effect.TextAnimation
 
-AnimationDeTexte Read-only [`ITextAnimation`](../../itextanimation).
+TextAnimation Lecture seule [`ITextAnimation`](../../itextanimation).
 
 ```csharp
 public ITextAnimation TextAnimation { get; }

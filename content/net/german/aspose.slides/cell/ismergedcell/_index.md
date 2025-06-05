@@ -1,7 +1,7 @@
 ---
 title: IsMergedCell
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt true zurück, wenn die Zelle mit einer angepassten Zelle zusammengeführt ist, andernfalls false. Schreibgeschütztes Boolean.
+description: Gibt true zurück, wenn die Zelle mit einer angepassten Zelle zusammengeführt ist, andernfalls false. Nur lesbare Boolean.
 type: docs
 weight: 90
 url: /de/aspose.slides/cell/ismergedcell/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/cell/ismergedcell/
 
 ## Cell.IsMergedCell-Eigenschaft
 
-Gibt true zurück, wenn die Zelle mit einer angepassten Zelle zusammengeführt ist, andernfalls false. Schreibgeschütztes Boolean.
+Gibt true zurück, wenn die Zelle mit einer angepassten Zelle zusammengeführt ist, andernfalls false. Nur lesbare Boolean.
 
 ```csharp
 public bool IsMergedCell { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [Cell](../../cell)
 * Namespace [Aspose.Slides](../../cell)

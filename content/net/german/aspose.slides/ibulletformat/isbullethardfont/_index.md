@@ -1,15 +1,15 @@
 ---
 title: IsBulletHardFont
 second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob die Aufzählungspunkt eine eigene Schriftart hat oder sie von dem ersten Abschnitt im Absatz erbt. NullableBool.True, wenn der Aufzählungspunkt eine eigene Schriftart hat, und NullableBool.False, wenn der Aufzählungspunkt die Schriftart vom ersten Abschnitt im Absatz erbt. Schreib- und Lesezugriff auf NullableBool aspose.slides/nullablebool.
+description: Bestimmt, ob die Aufzählungszeichen eine eigene Schriftart haben oder sie von dem ersten Abschnitt im Absatz erben. **NullableBool.True**, wenn das Aufzählungszeichen eine eigene Schriftart hat, und **NullableBool.False**, wenn das Aufzählungszeichen die Schriftart vom ersten Abschnitt im Absatz erbt. Lese-/schreibbare NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 60
 url: /de/aspose.slides/ibulletformat/isbullethardfont/
 ---
 
-## IBulletFormat.IsBulletHardFont-Eigenschaft
+## IBulletFormat.IsBulletHardFont Eigenschaft
 
-Bestimmt, ob der Aufzählungspunkt eine eigene Schriftart hat oder sie von dem ersten Abschnitt im Absatz erbt. **NullableBool.True**, wenn der Aufzählungspunkt eine eigene Schriftart hat, und **NullableBool.False**, wenn der Aufzählungspunkt die Schriftart vom ersten Abschnitt im Absatz erbt. Schreib- und Lesezugriff auf [`NullableBool`](../../nullablebool).
+Bestimmt, ob die Aufzählungszeichen eine eigene Schriftart haben oder sie von dem ersten Abschnitt im Absatz erben. **NullableBool.True**, wenn das Aufzählungszeichen eine eigene Schriftart hat, und **NullableBool.False**, wenn das Aufzählungszeichen die Schriftart vom ersten Abschnitt im Absatz erbt. Lese-/schreibbare [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool IsBulletHardFont { get; set; }

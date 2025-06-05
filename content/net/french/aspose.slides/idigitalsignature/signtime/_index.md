@@ -1,15 +1,15 @@
 ---
 title: SignTime
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Le moment où le document a été signé. DateTime en lecture seule.
+second_title: Aspose.Slides pour .NET API Référence
+description: Le moment où le document a été signé. Propriété DateTime en lecture seule.
 type: docs
 weight: 40
 url: /fr/aspose.slides/idigitalsignature/signtime/
 ---
 
-## Propriété IDigitalSignature.SignTime
+## IDigitalSignature.SignTime propriété
 
-Le moment où le document a été signé. DateTime en lecture seule.
+Le moment où le document a été signé. Propriété DateTime en lecture seule.
 
 ```csharp
 public DateTime SignTime { get; }
@@ -22,7 +22,7 @@ public DateTime SignTime { get; }
 using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
 {
     foreach (DigitalSignature signature in pres.DigitalSignatures)
-        Console.WriteLine("Vérification de la signature: " + (signature.IsValid ? "VALIDE" : "INVALID") + ", Heure de signature: " + signature.SignTime);
+        Console.WriteLine("Vérification de la signature: " + (signature.IsValid ? "VALID" : "INVALID") + ", Heure de signature: " + signature.SignTime);
 }
 ```
 

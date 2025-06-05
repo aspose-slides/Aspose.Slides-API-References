@@ -1,7 +1,7 @@
 ---
 title: GetImage
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie un objet d'image miniature avec un redimensionnement personnalisé.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Renvoie un objet Image Thumbnail avec un scaling personnalisé.
 type: docs
 weight: 80
 url: /fr/aspose.slides/slide/getimage/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/slide/getimage/
 
 ## GetImage(float, float) {#getimage_5}
 
-Renvoie un objet d'image miniature avec un redimensionnement personnalisé.
+Renvoie un objet Image Thumbnail avec un scaling personnalisé.
 
 ```csharp
 public IImage GetImage(float scaleX, float scaleY)
@@ -17,8 +17,8 @@ public IImage GetImage(float scaleX, float scaleY)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| scaleX | Single | La valeur par laquelle redimensionner cette miniature dans la direction de l'axe x. |
-| scaleY | Single | La valeur par laquelle redimensionner cette miniature dans la direction de l'axe y. |
+| scaleX | Single | La valeur par laquelle scalier ce Thumbnail dans la direction de l'axe x. |
+| scaleY | Single | La valeur par laquelle scalier ce Thumbnail dans la direction de l'axe y. |
 
 ### Valeur de retour
 
@@ -26,7 +26,7 @@ Objet IImage.
 
 ### Exemples
 
-L'exemple suivant montre comment générer des miniatures à partir d'une présentation PowerPoint.
+L'exemple suivant montre comment générer des vignettes à partir d'une présentation PowerPoint.
 
 ```csharp
 [C#]
@@ -37,7 +37,7 @@ using (Presentation pres = new Presentation("ThumbnailFromSlide.pptx"))
     ISlide sld = pres.Slides[0];
     // Créer une image à pleine échelle
     IImage bmp = sld.GetImage(1f, 1f);
-    // Enregistrer l'image sur le disque au format JPEG
+    // Enregistrer l'image sur disque au format JPEG
     bmp.Save("Thumbnail_out.jpg", ImageFormat.Jpeg);
 }
 ```
@@ -57,7 +57,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-L'exemple suivant montre comment convertir un PowerPoint PPT/PPTX en JPG.
+L'exemple suivant montre comment convertir PowerPoint PPT/PPTX en JPG.
 
 ```csharp
 [C#]
@@ -67,13 +67,13 @@ using (Presentation pres = new Presentation("PowerPoint-Presentation.ppt"))
 	{
 		// Créer une image à pleine échelle
 		IImage bmp = sld.GetImage(1f, 1f);
-		// Enregistrer l'image sur le disque au format JPEG
+		// Enregistrer l'image sur disque au format JPEG
 		bmp.Save(string.Format("Slide_{0}.jpg", sld.SlideNumber), ImageFormat.Jpeg);
 	}
 }
 ```
 
-L'exemple suivant montre comment convertir un PowerPoint PPT/PPTX en JPG avec des dimensions personnalisées.
+L'exemple suivant montre comment convertir PowerPoint PPT/PPTX en JPG avec des dimensions personnalisées.
 
 ```csharp
 [C#]
@@ -89,41 +89,41 @@ using (Presentation pres = new Presentation("PowerPoint-Presentation.pptx"))
 	{
 		// Créer une image à pleine échelle
 		IImage bmp = sld.GetImage(ScaleX, ScaleY);
-		// Enregistrer l'image sur le disque au format JPEG
+		// Enregistrer l'image sur disque au format JPEG
 		bmp.Save(string.Format("Slide_{0}.jpg", sld.SlideNumber), ImageFormat.Jpeg);
 	}
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IImage](../../iimage)
-* classe [Slide](../../slide)
-* espace de noms [Aspose.Slides](../../slide)
+* class [Slide](../../slide)
+* namespace [Aspose.Slides](../../slide)
 * assembly [Aspose.Slides](../../../)
 
 ---
 
 ## GetImage() {#getimage}
 
-Renvoie un objet d'image miniature (20 % de la taille réelle).
+Renvoie un objet Image Thumbnail (20 % de la taille réelle).
 
 ```csharp
 public IImage GetImage()
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IImage](../../iimage)
-* classe [Slide](../../slide)
-* espace de noms [Aspose.Slides](../../slide)
+* class [Slide](../../slide)
+* namespace [Aspose.Slides](../../slide)
 * assembly [Aspose.Slides](../../../)
 
 ---
 
 ## GetImage(Size) {#getimage_6}
 
-Renvoie un objet d'image miniature avec une taille spécifiée.
+Renvoie un objet Image Thumbnail avec une taille spécifiée.
 
 ```csharp
 public IImage GetImage(Size imageSize)
@@ -144,7 +144,7 @@ L'exemple suivant montre comment convertir des diapositives en images avec des t
 ```csharp
 using (Presentation pres = new Presentation("Presentation.pptx"))
 {
-    // Convertit la première diapositive de la présentation en un Bitmap de la taille spécifiée
+    // Convertit la première diapositive de la présentation en un Bitmap avec la taille spécifiée
     using (IImage bmp = pres.Slides[0].GetImage(new Size(1820, 1040)))
     {
         // Enregistre l'image au format JPEG
@@ -153,18 +153,18 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IImage](../../iimage)
-* classe [Slide](../../slide)
-* espace de noms [Aspose.Slides](../../slide)
+* class [Slide](../../slide)
+* namespace [Aspose.Slides](../../slide)
 * assembly [Aspose.Slides](../../../)
 
 ---
 
 ## GetImage(ITiffOptions) {#getimage_4}
 
-Renvoie un objet d'image tiff miniature avec des paramètres spécifiés.
+Renvoie un objet image tiff Thumbnail avec des paramètres spécifiés.
 
 ```csharp
 public IImage GetImage(ITiffOptions options)
@@ -182,21 +182,21 @@ Objet Image.
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | Lancée lorsque options.SlideLayoutOption est NotesCommentsLayoutingOptions et que sa propriété NotesPosition prend la valeur NotesPositions.BottomFull. |
+| InvalidOperationException | Lancée lorsque options.SlideLayoutOption est NotesCommentsLayoutingOptions et sa propriété NotesPosition prend la valeur NotesPositions.BottomFull. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IImage](../../iimage)
 * interface [ITiffOptions](../../../aspose.slides.export/itiffoptions)
-* classe [Slide](../../slide)
-* espace de noms [Aspose.Slides](../../slide)
+* class [Slide](../../slide)
+* namespace [Aspose.Slides](../../slide)
 * assembly [Aspose.Slides](../../../)
 
 ---
 
 ## GetImage(IRenderingOptions) {#getimage_1}
 
-Renvoie un objet d'image miniature.
+Renvoie un objet Image Thumbnail.
 
 ```csharp
 public IImage GetImage(IRenderingOptions options)
@@ -216,19 +216,19 @@ Objet Image.
 | --- | --- |
 | InvalidOperationException | Lancée lorsque notesCommentsLayouting.NotesPosition prend la valeur NotesPositions.BottomFull |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IImage](../../iimage)
 * interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
-* classe [Slide](../../slide)
-* espace de noms [Aspose.Slides](../../slide)
+* class [Slide](../../slide)
+* namespace [Aspose.Slides](../../slide)
 * assembly [Aspose.Slides](../../../)
 
 ---
 
 ## GetImage(IRenderingOptions, float, float) {#getimage_2}
 
-Renvoie un objet d'image miniature avec un redimensionnement personnalisé.
+Renvoie un objet Image Thumbnail avec un scaling personnalisé.
 
 ```csharp
 public IImage GetImage(IRenderingOptions options, float scaleX, float scaleY)
@@ -237,8 +237,8 @@ public IImage GetImage(IRenderingOptions options, float scaleX, float scaleY)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | options | IRenderingOptions | Options de rendu. |
-| scaleX | Single | La valeur par laquelle redimensionner cette miniature dans la direction de l'axe x. |
-| scaleY | Single | La valeur par laquelle redimensionner cette miniature dans la direction de l'axe y. |
+| scaleX | Single | La valeur par laquelle scalier ce Thumbnail dans la direction de l'axe x. |
+| scaleY | Single | La valeur par laquelle scalier ce Thumbnail dans la direction de l'axe y. |
 
 ### Valeur de retour
 
@@ -252,7 +252,7 @@ Objets Bitmap.
 
 ### Exemples
 
-L'exemple suivant montre comment convertir des diapositives avec des notes et des commentaires en images en utilisant C#.
+L'exemple suivant montre comment convertir des diapositives avec des notes et des commentaires en Images en utilisant C#.
 
 ```csharp
 using (Presentation pres = new Presentation("PresentationNotesComments.pptx"))
@@ -267,30 +267,30 @@ using (Presentation pres = new Presentation("PresentationNotesComments.pptx"))
     notesCommentsLayouting.CommentsPosition = CommentsPositions.Right;
     // Définit la largeur de la zone de sortie des commentaires
     notesCommentsLayouting.CommentsAreaWidth = 500;
-    // Définit la couleur pour la zone des commentaires
+    // Définit la couleur de la zone des commentaires
     notesCommentsLayouting.CommentsAreaColor = Color.AntiqueWhite;
     // Définir les options de mise en page pour le rendu
     options.SlidesLayoutOptions = notesCommentsLayouting;
     // Convertit la première diapositive de la présentation en un objet IImage
     IImage image = pres.Slides[0].GetImage(options, 2f, 2f);
-    // Enregistrer l'image au format GIF
+    // Enregistre l'image au format GIF
     image.Save("Slide_Notes_Comments_0.gif", ImageFormat.Gif);
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IImage](../../iimage)
 * interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
-* classe [Slide](../../slide)
-* espace de noms [Aspose.Slides](../../slide)
+* class [Slide](../../slide)
+* namespace [Aspose.Slides](../../slide)
 * assembly [Aspose.Slides](../../../)
 
 ---
 
 ## GetImage(IRenderingOptions, Size) {#getimage_3}
 
-Renvoie un objet d'image miniature avec une taille spécifiée.
+Renvoie un objet Image Thumbnail avec une taille spécifiée.
 
 ```csharp
 public IImage GetImage(IRenderingOptions options, Size imageSize)
@@ -309,14 +309,14 @@ Objet Image.
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | Lancée lorsque options.SlideLayoutOption est NotesCommentsLayoutingOptions et que sa propriété NotesPosition prend la valeur NotesPositions.BottomFull. |
+| InvalidOperationException | Lancée lorsque options.SlideLayoutOption est NotesCommentsLayoutingOptions et sa propriété NotesPosition prend la valeur NotesPositions.BottomFull. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IImage](../../iimage)
 * interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
-* classe [Slide](../../slide)
-* espace de noms [Aspose.Slides](../../slide)
+* class [Slide](../../slide)
+* namespace [Aspose.Slides](../../slide)
 * assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

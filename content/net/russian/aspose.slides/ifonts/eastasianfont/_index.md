@@ -1,13 +1,13 @@
 ---
-title: ВосточноазиатскийШрифт
-second_title: Справочник по API Aspose.Sildes для .NET
+title: EastAsianFont
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает или устанавливает восточноазиатский шрифт. Чтение/запись IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ifonts/eastasianfont/
 ---
 
-## Св свойство IFonts.EastAsianFont
+## IFonts.EastAsianFont свойство
 
 Возвращает или устанавливает восточноазиатский шрифт. Чтение/запись [`IFontData`](../../ifontdata).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ifonts/eastasianfont/
 public IFontData EastAsianFont { get; set; }
 ```
 
-### См. Также
+### Смотрите также
 
 * интерфейс [IFontData](../../ifontdata)
 * интерфейс [IFonts](../../ifonts)

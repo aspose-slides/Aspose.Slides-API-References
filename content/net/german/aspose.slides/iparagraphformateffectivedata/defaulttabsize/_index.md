@@ -1,7 +1,7 @@
 ---
 title: DefaultTabSize
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Standard-Tabulatorgröße zurück. Nur Lesezugriff, Typ Single.
+description: Gibt die Standard-Tabulatorgröße zurück. Nur lesbar Single.
 type: docs
 weight: 40
 url: /de/aspose.slides/iparagraphformateffectivedata/defaulttabsize/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iparagraphformateffectivedata/defaulttabsize/
 
 ## IParagraphFormatEffectiveData.DefaultTabSize-Eigenschaft
 
-Gibt die Standard-Tabulatorgröße zurück. Nur Lesezugriff, Typ: Single.
+Gibt die Standard-Tabulatorgröße zurück. Nur lesbar Single.
 
 ```csharp
 public float DefaultTabSize { get; }

@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/picture/presentation/
 ---
+
 ## Picture.Presentation property
 
 Returns the presentation. Read-only [`IPresentation`](../../ipresentation).

@@ -1,15 +1,15 @@
 ---
 title: PlayAcrossSlides
-second_title: Références de l'API Aspose.Slides pour .NET
-description: Détermine si l'audio est reproduit entre les diapositives. Booléen en lecture/écriture.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Détermine si l'audio est en lecture à travers les diapositives. Booléen en lecture/écriture.
 type: docs
 weight: 110
 url: /fr/aspose.slides/audioframe/playacrossslides/
 ---
 
-## Propriété AudioFrame.PlayAcrossSlides
+## AudioFrame.PlayAcrossSlides propriété
 
-Détermine si l'audio est reproduit entre les diapositives. Booléen en lecture/écriture.
+Détermine si l'audio est en lecture à travers les diapositives. Booléen en lecture/écriture.
 
 ```csharp
 public bool PlayAcrossSlides { get; set; }
@@ -26,7 +26,7 @@ using (Presentation pres = new Presentation())
     // Ajouter un cadre audio
     IAudioFrame audioFrame = slide.Shapes.AddAudioFrameLinked(50, 50, 100, 100, "sampleaudio.wav");
 
-    // Définir l'audio pour jouer entre les diapositives
+    // Définir l'audio pour jouer à travers les diapositives
     audioFrame.PlayAcrossSlides = true;
 
     // Définir l'audio pour revenir automatiquement au début après la lecture

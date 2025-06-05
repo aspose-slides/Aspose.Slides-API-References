@@ -1,6 +1,6 @@
 ---
-title: CréerOmbreExtérieure
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: CreateOuterShadow
+second_title: Aspose.Slides pour .NET API Reference
 description: Crée un effet d'ombre extérieure.
 type: docs
 weight: 50
@@ -22,7 +22,7 @@ Effet d'ombre extérieure.
 ### Voir aussi
 
 * interface [IOuterShadow](../../ioutershadow)
-* classe [EffectFactory](../../effectfactory)
+* class [EffectFactory](../../effectfactory)
 * namespace [Aspose.Slides.Effects](../../effectfactory)
 * assembly [Aspose.Slides](../../../)
 

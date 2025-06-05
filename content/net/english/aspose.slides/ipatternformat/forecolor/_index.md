@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ipatternformat/forecolor/
 ---
+
 ## IPatternFormat.ForeColor property
 
 Returns the foreground pattern color. Read-only [`IColorFormat`](../../icolorformat).

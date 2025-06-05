@@ -1,7 +1,7 @@
 ---
 title: AnimateTransitions
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает опцию анимации переходов. Чтение/запись Boolean.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или устанавливает параметр анимации переходов. Чтение/запись Boolean.
 type: docs
 weight: 30
 url: /ru/aspose.slides.export.web/webdocumentoptions/animatetransitions/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.export.web/webdocumentoptions/animatetransitions/
 
 ## WebDocumentOptions.AnimateTransitions свойство
 
-Возвращает или устанавливает опцию анимации переходов. Чтение/запись Boolean.
+Возвращает или устанавливает параметр анимации переходов. Чтение/запись Boolean.
 
 ```csharp
 public bool AnimateTransitions { get; set; }
 ```
 
-### См. также
+### См. Также
 
 * класс [WebDocumentOptions](../../webdocumentoptions)
 * пространство имен [Aspose.Slides.Export.Web](../../webdocumentoptions)

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.theme/theme/fontscheme/
 ---
+
 ## Theme.FontScheme property
 
 Returns the font scheme. Read-only [`IFontScheme`](../../ifontscheme).

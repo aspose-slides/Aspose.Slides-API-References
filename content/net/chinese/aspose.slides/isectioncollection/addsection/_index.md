@@ -1,7 +1,7 @@
 ---
-title: 添加章节
-second_title: Aspose.Slides for .NET API 参考
-description: 从特定幻灯片开始添加新章节。
+title: AddSection
+second_title: Aspose.Sildes for .NET API Reference
+description: 从特定幻灯片开始添加新节。
 type: docs
 weight: 30
 url: /zh/aspose.slides/isectioncollection/addsection/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/isectioncollection/addsection/
 
 ## ISectionCollection.AddSection 方法
 
-从特定幻灯片开始添加新章节。
+从特定幻灯片开始添加新节。
 
 ```csharp
 public ISection AddSection(string name, ISlide startedFromSlide)
@@ -17,14 +17,14 @@ public ISection AddSection(string name, ISlide startedFromSlide)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 章节名称 |
-| startedFromSlide | ISlide | 章节的第一张幻灯片 |
+| name | String | 节的名称 |
+| startedFromSlide | ISlide | 节的第一张幻灯片 |
 
 ### 返回值
 
-添加的章节。
+添加的节。
 
-### 另见
+### 另请参阅
 
 * 接口 [ISection](../../isection)
 * 接口 [ISlide](../../islide)

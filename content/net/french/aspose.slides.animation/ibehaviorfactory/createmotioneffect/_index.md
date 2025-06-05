@@ -7,7 +7,7 @@ weight: 40
 url: /fr/aspose.slides.animation/ibehaviorfactory/createmotioneffect/
 ---
 
-## Méthode IBehaviorFactory.CreateMotionEffect
+## IBehaviorFactory.CreateMotionEffect méthode
 
 Crée un effet de mouvement.
 
@@ -15,11 +15,11 @@ Crée un effet de mouvement.
 public IMotionEffect CreateMotionEffect()
 ```
 
-### Valeur de Retour
+### Valeur de retour
 
 Effet de mouvement.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMotionEffect](../../imotioneffect)
 * interface [IBehaviorFactory](../../ibehaviorfactory)

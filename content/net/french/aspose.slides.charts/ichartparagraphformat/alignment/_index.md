@@ -1,7 +1,7 @@
 ---
-title: Alignement
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit l'alignement du texte dans un paragraphe. Lecture/écriture TextAlignmentaspose.slides/textalignment.
+title: Alignment
+second_title: Aspose.Sildes pour .NET API Reference
+description: Retourne ou définit l'alignement du texte dans un paragraphe. Lecture/écriture TextAlignmentaspose.slides/textalignment.
 type: docs
 weight: 10
 url: /fr/aspose.slides.charts/ichartparagraphformat/alignment/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/ichartparagraphformat/alignment/
 
 ## Propriété IChartParagraphFormat.Alignment
 
-Renvoie ou définit l'alignement du texte dans un paragraphe. Lecture/écriture [`TextAlignment`](../../../aspose.slides/textalignment).
+Retourne ou définit l'alignement du texte dans un paragraphe. Lecture/écriture [`TextAlignment`](../../../aspose.slides/textalignment).
 
 ```csharp
 public TextAlignment Alignment { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [TextAlignment](../../../aspose.slides/textalignment)
 * interface [IChartParagraphFormat](../../ichartparagraphformat)

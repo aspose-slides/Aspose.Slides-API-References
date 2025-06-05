@@ -1,7 +1,7 @@
 ---
 title: BevelBottom
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置底部 3D 倒角的类型。为只读 IShapeBevel。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回或设置底部 3D 倾斜的类型。 只读 IShapeBevelaspose.slides/ishapebevel。
 type: docs
 weight: 20
 url: /zh/aspose.slides/ithreedformat/bevelbottom/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ithreedformat/bevelbottom/
 
 ## IThreeDFormat.BevelBottom 属性
 
-返回或设置底部 3D 倒角的类型。为只读 [`IShapeBevel`](../../ishapebevel)。
+返回或设置底部 3D 倾斜的类型。只读 [`IShapeBevel`](../../ishapebevel)。
 
 ```csharp
 public IShapeBevel BevelBottom { get; }

@@ -1,6 +1,6 @@
 ---
 title: RemoveEmbeddedFont
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Slides for .NET API Reference
 description: 移除嵌入字体
 type: docs
 weight: 90
@@ -19,7 +19,7 @@ public void RemoveEmbeddedFont(IFontData fontData)
 | --- | --- | --- |
 | fontData | IFontData | 字体数据对象 [`IFontData`](../../ifontdata) |
 
-### 另请参阅
+### 另见
 
 * 接口 [IFontData](../../ifontdata)
 * 接口 [IFontsManager](../../ifontsmanager)

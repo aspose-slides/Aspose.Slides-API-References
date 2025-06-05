@@ -1,7 +1,7 @@
 ---
 title: SplitByRowSpan
-second_title: Aspose.Slides für .NET API-Referenz
-description: Teilt die Zelle in zwei Zellen nach dem Index der Zeile.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Teilt die Zelle in zwei Zellen nach dem Index der Reihe.
 type: docs
 weight: 270
 url: /de/aspose.slides/cell/splitbyrowspan/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/cell/splitbyrowspan/
 
 ## Cell.SplitByRowSpan Methode
 
-Teilt die Zelle in zwei Zellen nach dem Index der Zeile.
+Teilt die Zelle in zwei Zellen nach dem Index der Reihe.
 
 ```csharp
 public void SplitByRowSpan(int index)
@@ -17,9 +17,9 @@ public void SplitByRowSpan(int index)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Index der Zeile. |
+| index | Int32 | Index der Reihe. |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [Cell](../../cell)
 * Namespace [Aspose.Slides](../../cell)

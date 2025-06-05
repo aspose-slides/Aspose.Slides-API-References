@@ -15,15 +15,15 @@ Devuelve un enumerador que itera a través de la colección.
 public IEnumerator<IRow> GetEnumerator()
 ```
 
-### Valor de retorno
+### Valor de Retorno
 
 Un IEnumerator que se puede utilizar para iterar a través de la colección.
 
-### Véase también
+### Véase También
 
 * interfaz [IRow](../../irow)
 * clase [RowCollection](../../rowcollection)
-* espacio de nombres [Aspose.Slides](../../rowcollection)
+* namespace [Aspose.Slides](../../rowcollection)
 * ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

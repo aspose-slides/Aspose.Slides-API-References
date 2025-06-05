@@ -3,9 +3,10 @@ title: ForEach.ForEachParagraphCallback
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7360
+weight: 7690
 url: /aspose.slides.lowcode/foreach.foreachparagraphcallback/
 ---
+
 ## ForEach.ForEachParagraphCallback delegate
 
 ```csharp

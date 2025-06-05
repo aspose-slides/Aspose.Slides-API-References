@@ -1,13 +1,13 @@
 ---
 title: GetBackgroundFillStyles
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Devuelve una colección de estilos de relleno de fondo definidos por el tema.
 type: docs
 weight: 10
 url: /es/aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles/
 ---
 
-## Método IFormatSchemeEffectiveData.GetBackgroundFillStyles
+## IFormatSchemeEffectiveData.GetBackgroundFillStyles método
 
 Devuelve una colección de estilos de relleno de fondo definidos por el tema.
 
@@ -15,8 +15,8 @@ Devuelve una colección de estilos de relleno de fondo definidos por el tema.
 public IFillFormatCollectionEffectiveData GetBackgroundFillStyles(Color styleColor)
 ```
 
-| Parámetro  | Tipo  | Descripción   |
-| ---------- | ----- | -------------- |
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
 | styleColor | Color | Color Color |
 
 ### Valor de retorno

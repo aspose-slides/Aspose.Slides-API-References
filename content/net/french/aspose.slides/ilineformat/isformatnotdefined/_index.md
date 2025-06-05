@@ -1,15 +1,15 @@
 ---
 title: IsFormatNotDefined
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie vrai si le format de ligne n'est pas défini comme vient d'être créé par défaut. Booléen en lecture seule.
+description: Retourne vrai si le format de ligne n'est pas défini comme par défaut nouvellement créé. Booléen en lecture seule.
 type: docs
 weight: 130
 url: /fr/aspose.slides/ilineformat/isformatnotdefined/
 ---
 
-## Propriété ILineFormat.IsFormatNotDefined
+## ILineFormat.IsFormatNotDefined propriété
 
-Renvoie vrai si le format de ligne n'est pas défini (comme vient d'être créé, par défaut). Booléen en lecture seule.
+Retourne vrai si le format de ligne n'est pas défini (comme juste créé, par défaut). Booléen en lecture seule.
 
 ```csharp
 public bool IsFormatNotDefined { get; }

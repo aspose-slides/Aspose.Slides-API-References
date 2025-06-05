@@ -1,13 +1,13 @@
 ---
-title: Supprimer
-second_title: Référence API Aspose.Slides pour .NET
+title: Remove
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Supprime l'auteur de la collection parente.
 type: docs
 weight: 40
 url: /fr/aspose.slides/icommentauthor/remove/
 ---
 
-## Méthode ICommentAuthor.Remove
+## ICommentAuthor.Remove méthode
 
 Supprime l'auteur de la collection parente.
 

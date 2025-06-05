@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.effects/ireflection/rotateshadowwithshape/
 ---
+
 ## IReflection.RotateShadowWithShape property
 
 Specifies whether the reflection should rotate with the shape if the shape is rotated. Read/write Boolean.

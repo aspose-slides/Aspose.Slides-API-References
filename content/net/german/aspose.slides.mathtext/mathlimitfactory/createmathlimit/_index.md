@@ -1,7 +1,7 @@
 ---
 title: CreateMathLimit
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erstellt IMathLimit
+second_title: Aspose.Sildes für .NET API-Referenz
+description: erstellt IMathLimit
 type: docs
 weight: 20
 url: /de/aspose.slides.mathtext/mathlimitfactory/createmathlimit/
@@ -15,17 +15,17 @@ Erstellt IMathLimit
 public IMathLimit CreateMathLimit(IMathElement baseArg, IMathElement limit, bool upperLimit)
 ```
 
-| Parameter  | Typ           | Beschreibung                                |
-|------------|---------------|--------------------------------------------|
-| baseArg    | IMathElement  | Basisargument zur Anwendung des Limits     |
-| limit      | IMathElement  | Limitelement                               |
-| upperLimit | Boolean       | Legt die Position des Limits oben fest     |
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| baseArg | IMathElement | Basisargument zur Anwendung des Limits |
+| limit | IMathElement | Limit-Element |
+| upperLimit | Boolean | Legt die Platzierung des Limits oben fest |
 
 ### Rückgabewert
 
 neues mathematisches Limit
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMathLimit](../../imathlimit)
 * Schnittstelle [IMathElement](../../imathelement)
@@ -37,22 +37,22 @@ neues mathematisches Limit
 
 ## CreateMathLimit(IMathElement, IMathElement) {#createmathlimit}
 
-Erstellt IMathLimit mit Limit unten
+Erstellt IMathLimit mit dem Limit unten
 
 ```csharp
 public IMathLimit CreateMathLimit(IMathElement baseArg, IMathElement limit)
 ```
 
-| Parameter  | Typ           | Beschreibung                                |
-|------------|---------------|--------------------------------------------|
-| baseArg    | IMathElement  | Basisargument zur Anwendung des Limits     |
-| limit      | IMathElement  | Limitelement                               |
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| baseArg | IMathElement | Basisargument zur Anwendung des Limits |
+| limit | IMathElement | Limit-Element |
 
 ### Rückgabewert
 
 neues mathematisches Limit
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMathLimit](../../imathlimit)
 * Schnittstelle [IMathElement](../../imathelement)

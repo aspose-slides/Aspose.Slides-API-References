@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.mathtext/mathblock/isreadonly/
 ---
+
 ## MathBlock.IsReadOnly property
 
 Returns false because child elements collection can be modified.

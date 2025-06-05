@@ -1,7 +1,7 @@
 ---
 title: PointsType
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie le type de points de commande Read/write MotionPathPointsTypeaspose.slides.animation/motionpathpointstype.
+second_title: Aspose.Slides pour .NET Référence API
+description: Spécifie le type de points de commande Lecture/écriture MotionPathPointsType aspose.slides.animation/motionpathpointstype.
 type: docs
 weight: 40
 url: /fr/aspose.slides.animation/motioncmdpath/pointstype/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/motioncmdpath/pointstype/
 
 ## Propriété MotionCmdPath.PointsType
 
-Spécifie le type de points de commande Read/write [`MotionPathPointsType`](../../motionpathpointstype).
+Spécifie le type de points de commande Lecture/écriture [`MotionPathPointsType`](../../motionpathpointstype).
 
 ```csharp
 public MotionPathPointsType PointsType { get; set; }

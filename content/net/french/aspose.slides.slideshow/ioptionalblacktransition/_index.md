@@ -1,6 +1,6 @@
 ---
 title: IOptionalBlackTransition
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Effet de transition de diapositive noire optionnel.
 type: docs
 weight: 9830
@@ -20,9 +20,9 @@ public interface IOptionalBlackTransition : ITransitionValueBase
 | Nom | Description |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | Permet d'obtenir l'interface de base ITransitionValueBase. Lecture seule [`ITransitionValueBase`](../itransitionvaluebase). |
-| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | Cet attribut spécifie si la transition commencera par un écran noir (puis transitionnera la nouvelle diapositive sur du noir). Lecture/écriture Boolean. |
+| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | Cet attribut spécifie si la transition commencera à partir d'un écran noir (puis transitionnera la nouvelle diapositive sur du noir). Booléen en lecture/écriture. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ITransitionValueBase](../itransitionvaluebase)
 * namespace [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

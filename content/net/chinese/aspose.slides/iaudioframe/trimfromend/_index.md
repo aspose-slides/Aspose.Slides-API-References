@@ -1,7 +1,7 @@
 ---
-title: 从末尾修剪
-second_title: Aspose.Slides for .NET API 参考
-description: 指定在播放期间要从媒体的末尾删除的时间持续时间，以毫秒为单位。可读/写 Single。
+title: TrimFromEnd
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定在播放过程中要从媒体末尾移除的时间长度（以毫秒为单位）。可读/写单精度浮点数。
 type: docs
 weight: 160
 url: /zh/aspose.slides/iaudioframe/trimfromend/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iaudioframe/trimfromend/
 
 ## IAudioFrame.TrimFromEnd 属性
 
-指定在播放期间要从媒体的末尾删除的时间持续时间，以毫秒为单位。可读/写 Single。
+指定在播放过程中要从媒体末尾移除的时间长度（以毫秒为单位）。可读/写单精度浮点数。
 
 ```csharp
 public float TrimFromEnd { get; set; }
@@ -26,12 +26,12 @@ using (Presentation pres = new Presentation())
     IAudio audio = pres.Audios.AddAudio(File.ReadAllBytes("sampleaudio.mp3"));
     IAudioFrame audioFrame = pres.Slides[0].Shapes.AddAudioFrameEmbedded(50, 50, 100, 100, audio);
 
-    // 设置结束修剪时间为 2 秒
+    // 设置结束修剪时间为2秒
     audioFrame.TrimFromEnd = 2000f;
 }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IAudioFrame](../../iaudioframe)
 * 命名空间 [Aspose.Slides](../../iaudioframe)

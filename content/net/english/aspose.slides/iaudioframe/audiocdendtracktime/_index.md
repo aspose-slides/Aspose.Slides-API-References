@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/iaudioframe/audiocdendtracktime/
 ---
+
 ## IAudioFrame.AudioCdEndTrackTime property
 
 Returns or sets a last track time. Read/write Int32.

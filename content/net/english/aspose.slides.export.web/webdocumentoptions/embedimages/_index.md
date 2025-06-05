@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.export.web/webdocumentoptions/embedimages/
 ---
+
 ## WebDocumentOptions.EmbedImages property
 
 Returns or sets images embedding option. Read/write Boolean.

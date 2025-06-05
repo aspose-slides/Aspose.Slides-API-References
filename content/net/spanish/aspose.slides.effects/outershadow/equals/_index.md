@@ -1,6 +1,6 @@
 ---
-title: Igual
-second_title: Referencia de API de Aspose.Slides para .NET
+title: Equals
+second_title: Aspose.Slides para referencia de API .NET
 description: Determina si el OuterShadowaspose.slides.effects/outershadow especificado es igual al OuterShadowaspose.slides.effects/outershadow actual.
 type: docs
 weight: 110
@@ -19,11 +19,11 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | El [`OuterShadow`](../../outershadow) a comparar. |
 
-### Valor de Retorno
+### Valor de retorno
 
 true si los objetos son iguales; de lo contrario, false.
 
-### Véase También
+### Ver también
 
 * clase [OuterShadow](../../outershadow)
 * espacio de nombres [Aspose.Slides.Effects](../../outershadow)

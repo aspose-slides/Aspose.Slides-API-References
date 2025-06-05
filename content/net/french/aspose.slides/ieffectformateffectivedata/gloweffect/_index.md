@@ -1,15 +1,15 @@
 ---
 title: GlowEffect
-second_title: Référence API Aspose.Slides pour .NET
-description: Effet de glow. Données IGlowEffectiveDataaspose.slides.effects en lecture seule.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Effet de lueur. Données IGlowEffectiveDataaspose.slides/../aspose.slides.effects/igloweffectivedata en lecture seule.
 type: docs
 weight: 40
 url: /fr/aspose.slides/ieffectformateffectivedata/gloweffect/
 ---
 
-## Propriété IEffectFormatEffectiveData.GlowEffect
+## IEffectFormatEffectiveData.GlowEffect property
 
-Effet de glow. Données [`IGlowEffectiveData`](../../../aspose.slides.effects/igloweffectivedata) en lecture seule.
+Effet de lueur. Données en lecture seule [`IGlowEffectiveData`](../../../aspose.slides.effects/igloweffectivedata).
 
 ```csharp
 public IGlowEffectiveData GlowEffect { get; }

@@ -1,13 +1,13 @@
 ---
 title: OtherStyle
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie le style d'un autre texte. Lecture seule ITextStyleaspose.slides/itextstyle.
+second_title: Aspose.Slides pour la référence API .NET
+description: Renvoie le style d'un autre texte. Lecture seule ITextStyle aspose.slides/itextstyle.
 type: docs
 weight: 70
 url: /fr/aspose.slides/imasterslide/otherstyle/
 ---
 
-## IMasterSlide.OtherStyle propriété
+## Propriété IMasterSlide.OtherStyle
 
 Renvoie le style d'un autre texte. Lecture seule [`ITextStyle`](../../itextstyle).
 
@@ -15,7 +15,7 @@ Renvoie le style d'un autre texte. Lecture seule [`ITextStyle`](../../itextstyle
 public ITextStyle OtherStyle { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ITextStyle](../../itextstyle)
 * interface [IMasterSlide](../../imasterslide)

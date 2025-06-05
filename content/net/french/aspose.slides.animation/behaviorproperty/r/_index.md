@@ -1,6 +1,6 @@
 ---
 title: R
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente la propriété r
 type: docs
 weight: 570
@@ -21,4 +21,4 @@ public static BehaviorProperty R { get; }
 * espace de noms [Aspose.Slides.Animation](../../behaviorproperty)
 * assembly [Aspose.Slides](../../../)
 
-<!-- NE PAS ÉDITER : généré par xmldocmd pour Aspose.Slides.dll -->
+<!-- NE PAS ÉDITE : généré par xmldocmd pour Aspose.Slides.dll -->

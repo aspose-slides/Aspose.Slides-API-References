@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
-second_title: Aspose.Slidess for .NET API 参考
-description: 从集合中移除一个效果。
+second_title: Aspose.Slides for .NET API Reference
+description: 从集合中删除效果。
 type: docs
 weight: 110
 url: /zh/aspose.slides.animation/isequence/removeat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/isequence/removeat/
 
 ## ISequence.RemoveAt 方法
 
-从集合中移除一个效果。
+从集合中删除效果。
 
 ```csharp
 public void RemoveAt(int index)
@@ -17,7 +17,7 @@ public void RemoveAt(int index)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 要移除效果的索引 Int32 |
+| index | Int32 | 要删除的效果的索引 Int32 |
 
 ### 另请参见
 

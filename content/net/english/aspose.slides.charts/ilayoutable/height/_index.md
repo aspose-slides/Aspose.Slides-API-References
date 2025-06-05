@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/ilayoutable/height/
 ---
+
 ## ILayoutable.Height property
 
 Specifies the height of the chart element as a fraction of the height of the chart. Read/write Single.

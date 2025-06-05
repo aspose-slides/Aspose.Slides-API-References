@@ -1,24 +1,24 @@
 ---
 title: BookmarkId
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve el identificador de marcadores. String de solo lectura.
+description: Devuelve el identificador del marcador. Solo lectura String.
 type: docs
 weight: 20
 url: /es/aspose.slides/iportionformateffectivedata/bookmarkid/
 ---
 
-## Propiedad IPortionFormatEffectiveData.BookmarkId
+## IPortionFormatEffectiveData.BookmarkId property
 
-Devuelve el identificador de marcadores. String de solo lectura.
+Devuelve el identificador del marcador. Solo lectura String.
 
 ```csharp
 public string BookmarkId { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IPortionFormatEffectiveData](../../iportionformateffectivedata)
-* espacio de nombres [Aspose.Slides](../../iportionformateffectivedata)
-* ensamblado [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../iportionformateffectivedata)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,6 +1,6 @@
 ---
-title: Komprimiert
-second_title: Aspose.Slides für .NET API-Referenz
+title: Compressed
+second_title: Aspose.Slides für .NET API-Dokumentation
 description: Gibt an, ob das generierte SWF-Dokument komprimiert werden soll oder nicht. Standard ist true.
 type: docs
 weight: 20

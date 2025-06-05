@@ -1,32 +1,32 @@
----
-title: AlineaciónHorizontalMatemática
-second_title: Referencia de la API de Aspose.Slides para .NET
+---  
+title: MathHorizontalAlignment
+second_title: Aspose.Sildes para .NET Referencia de API  
 description: Alineación Horizontal
-type: docs
-weight: 8520
+type: docs  
+weight: 8520  
 url: /es/aspose.slides.mathtext/mathhorizontalalignment/
----
+---  
 
-## Enumeración AlineaciónHorizontalMatemática
+## Enumeración MathHorizontalAlignment  
 
-Alineación Horizontal
+Alineación Horizontal  
 
-```csharp
-public enum MathHorizontalAlignment
-```
+```csharp  
+public enum MathHorizontalAlignment  
+```  
 
-### Valores
+### Valores  
 
-| Nombre | Valor | Descripción |
-| --- | --- | --- |
-| NotDefined | `0` | El valor no está definido |
-| Left | `1` | Justificación Izquierda |
-| Center | `2` | Centro |
-| Right | `3` | Derecha |
+| Nombre | Valor | Descripción |  
+| --- | --- | --- |  
+| NotDefined | `0` | El valor no está definido |  
+| Left | `1` | Justificación Izquierda |  
+| Center | `2` | Centro |  
+| Right | `3` | Derecha |  
 
-### Ver También
+### Véase También  
 
-* namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)
-* assembly [Aspose.Slides](../../)
+* espacio de nombres [Aspose.Slides.MathText](../../aspose.slides.mathtext)  
+* ensamblado [Aspose.Slides](../../)  
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  

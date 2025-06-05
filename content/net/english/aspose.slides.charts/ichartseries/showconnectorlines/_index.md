@@ -6,6 +6,7 @@ type: docs
 weight: 370
 url: /aspose.slides.charts/ichartseries/showconnectorlines/
 ---
+
 ## IChartSeries.ShowConnectorLines property
 
 Represents connector lines. Applies only to Waterfall charts.

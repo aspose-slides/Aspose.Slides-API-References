@@ -1,5 +1,5 @@
 ---
-title: Umbral
+title: Threshold
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el umbral del efecto. Solo lectura Single.
 type: docs
@@ -7,7 +7,7 @@ weight: 20
 url: /es/aspose.slides.effects/ialphabileveleffectivedata/threshold/
 ---
 
-## Propiedad IAlphaBiLevelEffectiveData.Threshold
+## IAlphaBiLevelEffectiveData.Threshold property
 
 Devuelve el umbral del efecto. Solo lectura Single.
 
@@ -15,10 +15,10 @@ Devuelve el umbral del efecto. Solo lectura Single.
 public float Threshold { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IAlphaBiLevelEffectiveData](../../ialphabileveleffectivedata)
-* espacio de nombres [Aspose.Slides.Effects](../../ialphabileveleffectivedata)
-* ensamblado [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Effects](../../ialphabileveleffectivedata)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

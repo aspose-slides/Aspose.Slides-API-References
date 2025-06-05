@@ -1,7 +1,7 @@
 ---
 title: HasRoundedCorners
-second_title: Aspose.Slides for .NET API 参考
-description: 指定图表区域应具有圆角。可读/可写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定图表区域应具有圆角。可读/写布尔值。
 type: docs
 weight: 130
 url: /zh/aspose.slides.charts/ichart/hasroundedcorners/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ichart/hasroundedcorners/
 
 ## IChart.HasRoundedCorners 属性
 
-指定图表区域应具有圆角。可读/可写布尔值。
+指定图表区域应具有圆角。可读/写布尔值。
 
 ```csharp
 public bool HasRoundedCorners { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IChart](../../ichart)
 * 命名空间 [Aspose.Slides.Charts](../../ichart)

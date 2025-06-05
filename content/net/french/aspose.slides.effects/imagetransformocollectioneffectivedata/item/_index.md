@@ -1,15 +1,15 @@
 ---
-title: Élément
+title: Item
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie un élément par index.
+description: Retourne l'élément par index.
 type: docs
 weight: 40
 url: /fr/aspose.slides.effects/imagetransformocollectioneffectivedata/item/
 ---
 
-## Indexeur ImageTransformOCollectionEffectiveData
+## ImageTransformOCollectionEffectiveData indexer
 
-Renvoie un élément par index.
+Retourne l'élément par index.
 
 ```csharp
 public IEffectEffectiveData this[int index] { get; }

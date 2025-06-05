@@ -1,13 +1,13 @@
 ---
 title: TargetSection
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient ou définit l'objet section auquel l'objet Section Zoom est lié. Lecture/écriture ISectionaspose.slides/isection.
 type: docs
 weight: 20
 url: /fr/aspose.slides/isectionzoomframe/targetsection/
 ---
 
-## Propriété ISectionZoomFrame.TargetSection
+## ISectionZoomFrame.TargetSection propriété
 
 Obtient ou définit l'objet section auquel l'objet Section Zoom est lié. Lecture/écriture [`ISection`](../../isection).
 
@@ -17,7 +17,7 @@ public ISection TargetSection { get; set; }
 
 ### Exemples
 
-Cet exemple démontre le changement de section cible et crée une nouvelle image pour l'objet zoom de section :
+Cet exemple démontre le changement de la section cible et crée une nouvelle image pour l'objet de zoom de section :
 
 ```csharp
 [C#]

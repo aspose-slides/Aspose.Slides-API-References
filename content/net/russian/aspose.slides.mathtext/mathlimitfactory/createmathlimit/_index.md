@@ -1,6 +1,6 @@
 ---
 title: CreateMathLimit
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Slidess для .NET API Справочник
 description: Создает IMathLimit
 type: docs
 weight: 20
@@ -17,13 +17,13 @@ public IMathLimit CreateMathLimit(IMathElement baseArg, IMathElement limit, bool
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| baseArg | IMathElement | Базовый аргумент для применения предела |
-| limit | IMathElement | Элемент предела |
-| upperLimit | Boolean | Устанавливает размещение предела сверху |
+| baseArg | IMathElement | Основной аргумент для применения лимита |
+| limit | IMathElement | Элемент лимита |
+| upperLimit | Boolean | Устанавливает размещение лимита сверху |
 
 ### Возвращаемое значение
 
-новый математический предел
+новый математический лимит
 
 ### См. также
 
@@ -37,7 +37,7 @@ public IMathLimit CreateMathLimit(IMathElement baseArg, IMathElement limit, bool
 
 ## CreateMathLimit(IMathElement, IMathElement) {#createmathlimit}
 
-Создает IMathLimit с пределом снизу
+Создает IMathLimit с лимитом снизу
 
 ```csharp
 public IMathLimit CreateMathLimit(IMathElement baseArg, IMathElement limit)
@@ -45,12 +45,12 @@ public IMathLimit CreateMathLimit(IMathElement baseArg, IMathElement limit)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| baseArg | IMathElement | Базовый аргумент для применения предела |
-| limit | IMathElement | Элемент предела |
+| baseArg | IMathElement | Основной аргумент для применения лимита |
+| limit | IMathElement | Элемент лимита |
 
 ### Возвращаемое значение
 
-новый математический предел
+новый математический лимит
 
 ### См. также
 

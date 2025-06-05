@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.smartart/smartartshapecollection/copyto/
 ---
+
 ## SmartArtShapeCollection.CopyTo method
 
 Copies all elements from the collection to the specified array.

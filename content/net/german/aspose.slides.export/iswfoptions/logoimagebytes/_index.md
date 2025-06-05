@@ -1,7 +1,7 @@
 ---
 title: LogoImageBytes
-second_title: Aspose.Slides für .NET API Referenz
-description: Bild, das als Logo in der oberen rechten Ecke des Ansichtssystems angezeigt wird. Das Bild sollte eine PNG-Datei mit 32x64 Pixeln sein, andernfalls kann das Logo nicht korrekt angezeigt werden.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Bild, das als Logo in der oberen rechten Ecke des Viewers angezeigt wird. Das Bild sollte eine 32x64 Pixel große PNG-Datei sein, andernfalls kann das Logo nicht korrekt angezeigt werden.
 type: docs
 weight: 50
 url: /de/aspose.slides.export/iswfoptions/logoimagebytes/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.export/iswfoptions/logoimagebytes/
 
 ## ISwfOptions.LogoImageBytes-Eigenschaft
 
-Bild, das als Logo in der oberen rechten Ecke des Ansichtssystems angezeigt wird. Das Bild sollte eine PNG-Datei mit 32x64 Pixeln sein, andernfalls kann das Logo nicht korrekt angezeigt werden.
+Bild, das als Logo in der oberen rechten Ecke des Viewers angezeigt wird. Das Bild sollte eine 32x64 Pixel große PNG-Datei sein, andernfalls kann das Logo nicht korrekt angezeigt werden.
 
 ```csharp
 public byte[] LogoImageBytes { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ISwfOptions](../../iswfoptions)
 * Namespace [Aspose.Slides.Export](../../iswfoptions)

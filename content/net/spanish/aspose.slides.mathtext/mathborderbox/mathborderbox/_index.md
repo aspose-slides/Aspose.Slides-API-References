@@ -1,6 +1,6 @@
 ---
 title: MathBorderBox
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Crea un elemento MathBorderBox con borde rectangular
 type: docs
 weight: 10
@@ -17,7 +17,7 @@ public MathBorderBox(IMathElement element)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| element | IMathElement | El elemento base al que se aplica el cuadro de borde. Puede ser nulo. |
+| element | IMathElement | El elemento base al que se aplica la caja de borde. Puede ser nulo. |
 
 ### Ejemplos
 
@@ -49,15 +49,15 @@ public MathBorderBox(IMathElement element, bool hideTop, bool hideBottom, bool h
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| element | IMathElement | El elemento base al que se aplica el cuadro de borde |
-| hideTop | Boolean | Ocultar borde superior |
-| hideBottom | Boolean | Ocultar borde inferior |
-| hideLeft | Boolean | Ocultar borde izquierdo |
-| hideRight | Boolean | Ocultar borde derecho |
-| strikethroughHorizontal | Boolean | Tachar horizontalmente |
-| strikethroughVertical | Boolean | Tachar verticalmente |
-| strikethroughBottomLeftToTopRight | Boolean | Tachar de abajo izquierda a arriba derecha |
-| strikethroughTopLeftToBottomRight | Boolean | Tachar de arriba izquierda a abajo derecha |
+| element | IMathElement | El elemento base al que se aplica la caja de borde |
+| hideTop | Boolean | Ocultar Borde Superior |
+| hideBottom | Boolean | Ocultar Borde Inferior |
+| hideLeft | Boolean | Ocultar Borde Izquierdo |
+| hideRight | Boolean | Ocultar Borde Derecho |
+| strikethroughHorizontal | Boolean | Tachar Horizontal |
+| strikethroughVertical | Boolean | Tachar Vertical |
+| strikethroughBottomLeftToTopRight | Boolean | Tachar de Inferior Izquierdo a Superior Derecho |
+| strikethroughTopLeftToBottomRight | Boolean | Tachar de Superior Izquierdo a Inferior Derecho |
 
 ### Ejemplos
 

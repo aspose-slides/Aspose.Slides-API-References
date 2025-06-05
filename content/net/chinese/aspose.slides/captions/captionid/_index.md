@@ -1,7 +1,7 @@
 ---
 title: CaptionId
-second_title: Aspose.Slides for .NET API Reference
-description: 返回闭caption的全局唯一标识符 GUID。只读 Guid。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回闭合字幕的全球唯一标识符 GUID。只读 Guid。
 type: docs
 weight: 20
 url: /zh/aspose.slides/captions/captionid/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/captions/captionid/
 
 ## Captions.CaptionId 属性
 
-返回闭caption的全局唯一标识符 (GUID)。只读 Guid。
+返回闭合字幕的全球唯一标识符（GUID）。只读 Guid。
 
 ```csharp
 public Guid CaptionId { get; }
 ```
 
-### 参见
+### 另请参见
 
 * class [Captions](../../captions)
 * namespace [Aspose.Slides](../../captions)

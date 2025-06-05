@@ -1,15 +1,15 @@
 ---
 title: IsAutomaticTickLabelSpacing
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Указывает значение автоматического интервала меток делений. Если false, используйте свойство TickLabelSpacing. Читаемое/записываемое логическое.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Указывает значение автоматического интервала меток делений. Если false, используйте свойство TickLabelSpacing. Читаемое/редактируемое логическое значение.
 type: docs
 weight: 230
 url: /ru/aspose.slides.charts/axis/isautomaticticklabelspacing/
 ---
 
-## Свойство Axis.IsAutomaticTickLabelSpacing
+## Axis.IsAutomaticTickLabelSpacing property
 
-Указывает значение автоматического интервала меток делений. Если false: используйте свойство TickLabelSpacing. Читаемое/записываемое логическое.
+Указывает значение автоматического интервала меток делений. Если false: используйте свойство TickLabelSpacing. Читаемое/редактируемое логическое значение.
 
 ```csharp
 public bool IsAutomaticTickLabelSpacing { get; set; }

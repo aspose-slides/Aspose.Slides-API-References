@@ -1,7 +1,7 @@
 ---
 title: PictureFillFormat
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Bildfüllformat zurück. Nur-Lese IPictureFillFormatEffectiveDataaspose.slides/ipicturefillformateffectivedata.
+description: Gibt das Bildfüllformat zurück. Nur-Lese-IPictureFillFormatEffectiveDataaspose.slides/ipicturefillformateffectivedata.
 type: docs
 weight: 50
 url: /de/aspose.slides/ifillformateffectivedata/picturefillformat/

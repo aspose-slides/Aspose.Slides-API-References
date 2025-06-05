@@ -1,7 +1,7 @@
 ---
 title: FillType
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Typ der Füllung zurück oder setzt ihn. Lese-/Schreibzugriff auf FillTypeaspose.slides/filltype.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt den Typ der Füllung zurück oder legt ihn fest. Lese-/Schreibe FillTypeaspose.slides/filltype.
 type: docs
 weight: 20
 url: /de/aspose.slides/ifillformat/filltype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ifillformat/filltype/
 
 ## IFillFormat.FillType-Eigenschaft
 
-Gibt den Typ der Füllung zurück oder setzt ihn. Lese-/Schreibzugriff auf [`FillType`](../../filltype).
+Gibt den Typ der Füllung zurück oder legt ihn fest. Lese-/Schreibe [`FillType`](../../filltype).
 
 ```csharp
 public FillType FillType { get; set; }

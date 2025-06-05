@@ -1,6 +1,6 @@
 ---
 title: JpegQuality
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence de l'API .NET
 description: Spécifie la qualité des images JPEG. La valeur par défaut est 95.
 type: docs
 weight: 40

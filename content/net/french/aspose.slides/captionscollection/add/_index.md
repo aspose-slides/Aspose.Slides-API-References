@@ -1,13 +1,13 @@
 ---
-title: Ajouter
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Add
+second_title: Aspose.Sildes pour .NET API Référence
 description: Ajoute des sous-titres WebVTT à la fin de la collection.
 type: docs
 weight: 30
 url: /fr/aspose.slides/captionscollection/add/
 ---
 
-## Ajouter(string, string) {#add_1}
+## Add(string, string) {#add_1}
 
 Ajoute des sous-titres WebVTT à la fin de la collection.
 
@@ -20,7 +20,7 @@ public ICaptions Add(string label, string filePath)
 | label | String | L'étiquette des sous-titres. |
 | filePath | String | Le chemin vers le fichier WebVTT. |
 
-### Valeur de retour
+### Valeur de Retour
 
 L'instance [`ICaptions`](../../icaptions) ajoutée.
 
@@ -31,7 +31,7 @@ L'instance [`ICaptions`](../../icaptions) ajoutée.
 | ArgumentNullException | Lancé si *filePath* est `null`. |
 | ArgumentException | Lancé si *filePath* est vide. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ICaptions](../../icaptions)
 * class [CaptionsCollection](../../captionscollection)
@@ -40,7 +40,7 @@ L'instance [`ICaptions`](../../icaptions) ajoutée.
 
 ---
 
-## Ajouter(string, Stream) {#add}
+## Add(string, Stream) {#add}
 
 Ajoute des sous-titres WebVTT à la fin de la collection à partir d'un flux.
 
@@ -53,7 +53,7 @@ public ICaptions Add(string label, Stream stream)
 | label | String | L'étiquette des sous-titres. |
 | stream | Stream | Le flux d'entrée contenant des données au format WebVTT. |
 
-### Valeur de retour
+### Valeur de Retour
 
 L'instance [`ICaptions`](../../icaptions) ajoutée.
 
@@ -64,7 +64,7 @@ L'instance [`ICaptions`](../../icaptions) ajoutée.
 | ArgumentNullException | Lancé si *stream* est `null`. |
 | ArgumentException | Lancé si les données d'entrée ne sont pas au format WebVTT. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ICaptions](../../icaptions)
 * class [CaptionsCollection](../../captionscollection)

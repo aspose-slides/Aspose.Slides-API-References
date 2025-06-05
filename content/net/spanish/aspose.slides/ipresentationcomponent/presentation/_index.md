@@ -1,5 +1,5 @@
 ---
-title: Presentación
+title: Presentation
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve la presentación. Solo lectura IPresentationaspose.slides/ipresentation.
 type: docs
@@ -7,7 +7,7 @@ weight: 10
 url: /es/aspose.slides/ipresentationcomponent/presentation/
 ---
 
-## Propiedad IPresentationComponent.Presentation
+## IPresentationComponent.Property de Presentación
 
 Devuelve la presentación. Solo lectura [`IPresentation`](../../ipresentation).
 

@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
-second_title: Aspose.Slides для .NET API Справочник
-description: Служит хеш-функцией для определенного типа, подходящего для использования в хеш-алгоритмах и структурах данных, таких как хеш-таблица.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Служит в качестве хеш-функции для определенного типа, подходящего для использования в алгоритмах хеширования и структурах данных, таких как хеш-таблица.
 type: docs
 weight: 50
 url: /ru/aspose.slides/coloroperation/gethashcode/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/coloroperation/gethashcode/
 
 ## ColorOperation.GetHashCode метод
 
-Служит хеш-функцией для определенного типа, подходящего для использования в хеш-алгоритмах и структурах данных, таких как хеш-таблица.
+Служит в качестве хеш-функции для определенного типа, подходящего для использования в алгоритмах хеширования и структурах данных, таких как хеш-таблица.
 
 ```csharp
 public override int GetHashCode()
 ```
 
-### Также смотрите
+### См. также
 
 * класс [ColorOperation](../../coloroperation)
 * пространство имен [Aspose.Slides](../../coloroperation)

@@ -1,7 +1,7 @@
 ---
 title: IsReadOnly
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Renvoie false car la collection des éléments enfants peut être modifiée.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie faux car la collection d'éléments enfants peut être modifiée.
 type: docs
 weight: 30
 url: /fr/aspose.slides.mathtext/mathblock/isreadonly/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/mathblock/isreadonly/
 
 ## Propriété MathBlock.IsReadOnly
 
-Renvoie false car la collection des éléments enfants peut être modifiée.
+Renvoie faux car la collection d'éléments enfants peut être modifiée.
 
 ```csharp
 public bool IsReadOnly { get; }

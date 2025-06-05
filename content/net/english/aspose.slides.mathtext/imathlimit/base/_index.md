@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.mathtext/imathlimit/base/
 ---
+
 ## IMathLimit.Base property
 
 Base argument

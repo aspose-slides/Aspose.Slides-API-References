@@ -1,6 +1,6 @@
 ---
 title: RemoveUnused
-second_title: Ссылка на API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет неиспользуемые макеты слайдов, у которых HasDependingSlides равно false.
 type: docs
 weight: 90
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/layoutslidecollection/removeunused/
 public void RemoveUnused()
 ```
 
-### См. Также
+### См. также
 
 * класс [LayoutSlideCollection](../../layoutslidecollection)
 * пространство имен [Aspose.Slides](../../layoutslidecollection)

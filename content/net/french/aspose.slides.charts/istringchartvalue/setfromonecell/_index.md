@@ -1,13 +1,13 @@
 ---
 title: SetFromOneCell
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Définit la valeur à partir de la cellule spécifiée.
 type: docs
 weight: 40
 url: /fr/aspose.slides.charts/istringchartvalue/setfromonecell/
 ---
 
-## Méthode IStringChartValue.SetFromOneCell
+## IStringChartValue.SetFromOneCell méthode
 
 Définit la valeur à partir de la cellule spécifiée.
 
@@ -19,7 +19,7 @@ public void SetFromOneCell(IChartDataCell cell)
 | --- | --- | --- |
 | cell | IChartDataCell | Cellule. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IChartDataCell](../../ichartdatacell)
 * interface [IStringChartValue](../../istringchartvalue)

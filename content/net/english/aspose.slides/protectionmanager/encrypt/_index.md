@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/protectionmanager/encrypt/
 ---
+
 ## ProtectionManager.Encrypt method
 
 Encrypts Presentation with specified password.

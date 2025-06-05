@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides/tagcollection/indexofname/
 ---
+
 ## TagCollection.IndexOfName method
 
 Returns the zero-based index of the specified key in the collection.

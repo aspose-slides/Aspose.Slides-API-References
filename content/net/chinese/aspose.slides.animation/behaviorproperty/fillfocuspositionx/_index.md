@@ -1,6 +1,6 @@
 ---
 title: FillFocusPositionX
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示 fill.focusposition.x 属性
 type: docs
 weight: 310
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/behaviorproperty/fillfocuspositionx/
 public static BehaviorProperty FillFocusPositionX { get; }
 ```
 
-### 另请参阅
+### 参见
 
 * class [BehaviorProperty](../../behaviorproperty)
 * namespace [Aspose.Slides.Animation](../../behaviorproperty)

@@ -1,7 +1,7 @@
 ---
 title: Format
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente le format d'un axe. Lecture seule IAxisFormataspose.slides.charts/iaxisformat.
+description: Représente le format de l'axe. Lecture seule IAxisFormataspose.slides.charts/iaxisformat.
 type: docs
 weight: 160
 url: /fr/aspose.slides.charts/axis/format/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/axis/format/
 
 ## Propriété Axis.Format
 
-Représente le format d'un axe. Lecture seule [`IAxisFormat`](../../iaxisformat).
+Représente le format de l'axe. Lecture seule [`IAxisFormat`](../../iaxisformat).
 
 ```csharp
 public IAxisFormat Format { get; }

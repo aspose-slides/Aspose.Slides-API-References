@@ -1,7 +1,7 @@
 ---
 title: AsIMathElement
-second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht den Zugriff auf das Basis-IMathElement-Interface IMathElementaspose.slides.mathtext/imathelement
+second_title: Aspose.Slides for .NET API Referenz
+description: Ermöglicht den Zugriff auf die Basis-IMathElement-Schnittstelle IMathElementaspose.slides.mathtext/imathelement
 type: docs
 weight: 10
 url: /de/aspose.slides.mathtext/imathborderbox/asimathelement/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathborderbox/asimathelement/
 
 ## IMathBorderBox.AsIMathElement-Eigenschaft
 
-Ermöglicht den Zugriff auf das Basis-IMathElement-Interface [`IMathElement`](../../imathelement)
+Ermöglicht den Zugriff auf die Basis-IMathElement-Schnittstelle [`IMathElement`](../../imathelement)
 
 ```csharp
 public IMathElement AsIMathElement { get; }
@@ -17,8 +17,8 @@ public IMathElement AsIMathElement { get; }
 
 ### Siehe auch
 
-* Interface [IMathElement](../../imathelement)
-* Interface [IMathBorderBox](../../imathborderbox)
+* Schnittstelle [IMathElement](../../imathelement)
+* Schnittstelle [IMathBorderBox](../../imathborderbox)
 * Namespace [Aspose.Slides.MathText](../../imathborderbox)
 * Assembly [Aspose.Slides](../../../)
 

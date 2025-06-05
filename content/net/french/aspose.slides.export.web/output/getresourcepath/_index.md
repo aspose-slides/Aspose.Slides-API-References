@@ -1,13 +1,13 @@
 ---
 title: GetResourcePath
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Renvoie le chemin d'une ressource donnée.
 type: docs
 weight: 30
 url: /fr/aspose.slides.export.web/output/getresourcepath/
 ---
 
-## Méthode Output.GetResourcePath
+## Output.GetResourcePath méthode
 
 Renvoie le chemin d'une ressource donnée.
 

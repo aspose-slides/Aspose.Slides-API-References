@@ -6,6 +6,7 @@ type: docs
 weight: 480
 url: /aspose.slides.animation/behaviorproperty/imagedatagain/
 ---
+
 ## BehaviorProperty.ImageDataGain property
 
 Represents 'imageData.gain' property

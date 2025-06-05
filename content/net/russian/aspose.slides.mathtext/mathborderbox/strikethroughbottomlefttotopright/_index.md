@@ -1,7 +1,7 @@
 ---
-title: ПересечениеСнизуВлевоНаверхВправо
-second_title: Aspose.Slides для .NET API Ссылка
-description: Пересечение Снизу-Влево Наверх-Вправо по умолчанию равно false. Указывает скрытое или видимое состояние диагональной линии с пересечением из нижнего левого угла в верхний правый угол границы блока.
+title: StrikethroughBottomLeftToTopRight
+second_title: Aspose.Sildes для .NET API Справочник
+description: Зачеркивание из нижнего левого в верхний правый угол по умолчанию false. Указывает на скрытое или видимое состояние диагональной линии зачеркивания из нижнего левого угла в верхний правый угол рамки.
 type: docs
 weight: 70
 url: /ru/aspose.slides.mathtext/mathborderbox/strikethroughbottomlefttotopright/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/mathborderbox/strikethroughbottomlefttotopright/
 
 ## MathBorderBox.StrikethroughBottomLeftToTopRight свойство
 
-Пересечение Снизу-Влево Наверх-Вправо (по умолчанию равно false). Указывает скрытое или видимое состояние диагональной линии с пересечением из нижнего левого угла в верхний правый угол границы блока.
+Зачеркивание из нижнего левого в верхний правый угол (по умолчанию false). Указывает на скрытое или видимое состояние диагональной линии зачеркивания из нижнего левого угла в верхний правый угол рамки.
 
 ```csharp
 public bool StrikethroughBottomLeftToTopRight { get; set; }
@@ -25,7 +25,7 @@ MathBorderBox borderBox = new MathBorderBox(new MathematicalText("x"));
 borderBox.StrikethroughBottomLeftToTopRight = true;
 ```
 
-### Смотрите также
+### См. также
 
 * класс [MathBorderBox](../../mathborderbox)
 * пространство имен [Aspose.Slides.MathText](../../mathborderbox)

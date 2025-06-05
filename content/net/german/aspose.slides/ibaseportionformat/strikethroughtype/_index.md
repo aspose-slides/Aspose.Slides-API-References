@@ -1,7 +1,7 @@
 ---
 title: StrikethroughType
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Strikethrough-Typ eines Textes zurück oder legt ihn fest. Keine Vererbung angewendet. Lese-/Schreibzugriff auf TextStrikethroughTypeaspose.slides/textstrikethroughtype.
+description: Gibt den Durchstreichtyp eines Textes zurück oder setzt ihn. Keine Vererbung angewendet. Lese-/Schreibzugriff auf TextStrikethroughType aspose.slides/textstrikethroughtype.
 type: docs
 weight: 220
 url: /de/aspose.slides/ibaseportionformat/strikethroughtype/
@@ -9,15 +9,15 @@ url: /de/aspose.slides/ibaseportionformat/strikethroughtype/
 
 ## IBasePortionFormat.StrikethroughType-Eigenschaft
 
-Gibt den Strikethrough-Typ eines Textes zurück oder legt ihn fest. Keine Vererbung angewendet. Lese-/Schreibzugriff auf [`TextStrikethroughType`](../../textstrikethroughtype).
+Gibt den Durchstreichtyp eines Textes zurück oder setzt ihn. Keine Vererbung angewendet. Lese-/Schreibzugriff auf [`TextStrikethroughType`](../../textstrikethroughtype).
 
 ```csharp
 public TextStrikethroughType StrikethroughType { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
-* enum [TextStrikethroughType](../../textstrikethroughtype)
+* enum [TextStrikethroughType](../../textstrikethoughtype)
 * interface [IBasePortionFormat](../../ibaseportionformat)
 * namespace [Aspose.Slides](../../ibaseportionformat)
 * assembly [Aspose.Slides](../../../)

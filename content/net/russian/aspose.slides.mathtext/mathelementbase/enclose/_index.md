@@ -1,7 +1,7 @@
 ---
-title: Обрамление
-second_title: Aspose.Slides для .NET API Справочник
-description: Обрамляет математический элемент в заданных символах, таких как скобки или другие символы в качестве обрамления
+title: Enclose
+second_title: Aspose.Sildes для .NET API Reference
+description: Ограждает математический элемент в указанных символах, таких как круглые скобки или другие символы в качестве обрамления
 type: docs
 weight: 40
 url: /ru/aspose.slides.mathtext/mathelementbase/enclose/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/mathelementbase/enclose/
 
 ## Enclose(char, char) {#enclose_1}
 
-Обрамляет математический элемент в заданных символах, таких как скобки или другие символы в качестве обрамления
+Ограждает математический элемент в указанных символах, таких как круглые скобки или другие символы в качестве обрамления
 
 ```csharp
 public virtual IMathDelimiter Enclose(char beginningCharacter, char endingCharacter)
@@ -20,9 +20,9 @@ public virtual IMathDelimiter Enclose(char beginningCharacter, char endingCharac
 | beginningCharacter | Char | Начальный символ (обычно левая скобка) |
 | endingCharacter | Char | Конечный символ (обычно правая скобка) |
 
-### Возвращаемое значение
+### Возврат Значения
 
-Математический элемент типа [`IMathDelimiter`](../../imathdelimiter), который включает заданные символы в качестве обрамления
+Математический элемент типа [`IMathDelimiter`](../../imathdelimiter), который включает указанные символы в качестве обрамления
 
 ### Примеры
 
@@ -34,7 +34,7 @@ IMathElement element = new MathematicalText("x");
 IMathDelimiter delimiter = element.Enclose('[', ']');
 ```
 
-### Также посмотрите
+### Также Смотрите
 
 * интерфейс [IMathDelimiter](../../imathdelimiter)
 * класс [MathElementBase](../../mathelementbase)
@@ -45,15 +45,15 @@ IMathDelimiter delimiter = element.Enclose('[', ']');
 
 ## Enclose() {#enclose}
 
-Обрамляет математический элемент в скобках
+Ограждает математический элемент в круглых скобках
 
 ```csharp
 public IMathDelimiter Enclose()
 ```
 
-### Возвращаемое значение
+### Возврат Значения
 
-Математический элемент типа [`IMathDelimiter`](../../imathdelimiter), который включает скобки
+Математический элемент типа [`IMathDelimiter`](../../imathdelimiter), который включает круглые скобки
 
 ### Примеры
 
@@ -65,7 +65,7 @@ IMathElement element = new MathematicalText("x");
 IMathDelimiter delimiter = element.Enclose();
 ```
 
-### Также посмотрите
+### Также Смотрите
 
 * интерфейс [IMathDelimiter](../../imathdelimiter)
 * класс [MathElementBase](../../mathelementbase)

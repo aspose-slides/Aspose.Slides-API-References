@@ -1,13 +1,13 @@
 ---
-title: Contour
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Stroke
+second_title: Aspose.Slides pour .NET Référence API
 description: Définit l'apparence du contour
 type: docs
 weight: 30
 url: /fr/aspose.slides/igeometrypath/stroke/
 ---
 
-## Propriété IGeometryPath.Stroke
+## IGeometryPath.Stroke propriété
 
 Définit l'apparence du contour
 
@@ -15,7 +15,7 @@ Définit l'apparence du contour
 public bool Stroke { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IGeometryPath](../../igeometrypath)
 * namespace [Aspose.Slides](../../igeometrypath)

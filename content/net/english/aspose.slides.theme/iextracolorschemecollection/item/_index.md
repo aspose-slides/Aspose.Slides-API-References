@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.theme/iextracolorschemecollection/item/
 ---
+
 ## IExtraColorSchemeCollection indexer
 
 Returns an color scheme by index. Read-only [`IExtraColorScheme`](../../iextracolorscheme).

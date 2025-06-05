@@ -1,7 +1,7 @@
 ---
 title: Format
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Wandfülllinieneffekt 3D-Stile zurück. Nur-Lese IFormataspose.slides/iformat.
+description: Gibt die Wandfüllung, Linieneffekt, 3D-Stile zurück. Nur lesend IFormataspose.slides.charts/iformat.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/chartwall/format/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartwall/format/
 
 ## ChartWall.Format-Eigenschaft
 
-Gibt die Wandfüllung, Linie, Effekt, 3D-Stile zurück. Nur-Lese [`IFormat`](../../iformat).
+Gibt die Wandfüllung, Linie, Effekt, 3D-Stile zurück. Nur lesend [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; }

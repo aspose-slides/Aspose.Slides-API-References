@@ -1,6 +1,6 @@
 ---
-title: Espace réservé
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Placeholder
+second_title: Référence API Aspose.Slides pour .NET
 description: Représente un espace réservé sur une diapositive.
 type: docs
 weight: 9160

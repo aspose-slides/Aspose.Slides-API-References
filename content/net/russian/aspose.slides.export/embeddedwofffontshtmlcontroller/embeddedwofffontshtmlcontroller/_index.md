@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export/embeddedwofffontshtmlcontroller/embeddedwofffontsh
 public EmbeddedWoffFontsHtmlController()
 ```
 
-### Смотрите также
+### См. также
 
 * класс [EmbeddedWoffFontsHtmlController](../../embeddedwofffontshtmlcontroller)
 * пространство имен [Aspose.Slides.Export](../../embeddedwofffontshtmlcontroller)
@@ -35,7 +35,7 @@ public EmbeddedWoffFontsHtmlController(IHtmlFormattingController controller)
 | --- | --- | --- |
 | controller | IHtmlFormattingController | Контроллер форматирования HTML. |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IHtmlFormattingController](../../ihtmlformattingcontroller)
 * класс [EmbeddedWoffFontsHtmlController](../../embeddedwofffontshtmlcontroller)

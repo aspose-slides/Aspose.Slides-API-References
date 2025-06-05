@@ -1,13 +1,13 @@
 ---
-title: Élément
-second_title: Référence de l'API Aspose.Slides pour .NET
+title: Item
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Obtient l'élément à l'index spécifié.
 type: docs
 weight: 10
 url: /fr/aspose.slides/irowcollection/item/
 ---
 
-## Indexeur IRowCollection
+## IRowCollection indexeur
 
 Obtient l'élément à l'index spécifié.
 
@@ -15,7 +15,7 @@ Obtient l'élément à l'index spécifié.
 public IRow this[int index] { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IRow](../../irow)
 * interface [IRowCollection](../../irowcollection)

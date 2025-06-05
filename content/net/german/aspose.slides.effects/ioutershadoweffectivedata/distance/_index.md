@@ -1,7 +1,7 @@
 ---
-title: Abstand
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Abstand des Schattens. Schreibgeschütztes Double.
+title: Distance
+second_title: Aspose.Slides für .NET API Referenz
+description: Abstand des Schattens. Nur-Lese Double.
 type: docs
 weight: 40
 url: /de/aspose.slides.effects/ioutershadoweffectivedata/distance/
@@ -9,15 +9,15 @@ url: /de/aspose.slides.effects/ioutershadoweffectivedata/distance/
 
 ## IOuterShadowEffectiveData.Distance-Eigenschaft
 
-Abstand des Schattens. Schreibgeschütztes Double.
+Abstand des Schattens. Nur-Lese Double.
 
 ```csharp
 public double Distance { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
-* Interface [IOuterShadowEffectiveData](../../ioutershadoweffectivedata)
+* Schnittstelle [IOuterShadowEffectiveData](../../ioutershadoweffectivedata)
 * Namespace [Aspose.Slides.Effects](../../ioutershadoweffectivedata)
 * Assembly [Aspose.Slides](../../../)
 

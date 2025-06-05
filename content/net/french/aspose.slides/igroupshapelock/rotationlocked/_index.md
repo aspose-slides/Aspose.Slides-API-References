@@ -1,21 +1,21 @@
 ---
 title: RotationLocked
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si le changement d'angle de rotation de cette forme est interdit. Booléen lisible/écrivable.
+description: Détermine si le changement de l'angle de rotation de cette forme est interdit. Booléen en lecture/écriture.
 type: docs
 weight: 50
 url: /fr/aspose.slides/igroupshapelock/rotationlocked/
 ---
 
-## Propriété IGroupShapeLock.RotationLocked
+## IGroupShapeLock.RotationLocked propriété
 
-Détermine si le changement d'angle de rotation de cette forme est interdit. Booléen lisible/écrivable.
+Détermine si le changement de l'angle de rotation de cette forme est interdit. Booléen en lecture/écriture.
 
 ```csharp
 public bool RotationLocked { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IGroupShapeLock](../../igroupshapelock)
 * namespace [Aspose.Slides](../../igroupshapelock)

@@ -1,6 +1,6 @@
 ---
 title: MathParagraph
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slildes pour l'API .NET
 description: Initialise une nouvelle instance de la classe MathParagraph.
 type: docs
 weight: 10

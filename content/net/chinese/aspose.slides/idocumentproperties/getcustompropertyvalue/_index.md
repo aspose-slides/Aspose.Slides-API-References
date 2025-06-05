@@ -1,7 +1,7 @@
 ---
 title: GetCustomPropertyValue
-second_title: Aspose.Sildes for .NET API Reference
-description: 从自定义属性中获取命名的布尔值。
+second_title: Aspose.Slides for .NET API Reference
+description: 从自定义属性获取命名的布尔值。
 type: docs
 weight: 400
 url: /zh/aspose.slides/idocumentproperties/getcustompropertyvalue/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/idocumentproperties/getcustompropertyvalue/
 
 ## GetCustomPropertyValue(string, out bool) {#getcustompropertyvalue}
 
-从自定义属性中获取命名的布尔值。
+从自定义属性获取命名的布尔值。
 
 ```csharp
 public void GetCustomPropertyValue(string name, out bool value)
@@ -17,7 +17,7 @@ public void GetCustomPropertyValue(string name, out bool value)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 要获取的自定义属性名称 |
+| name | String | 要获取的自定义属性的名称 |
 | value | Boolean& | 自定义属性值 |
 
 ### 另见
@@ -30,7 +30,7 @@ public void GetCustomPropertyValue(string name, out bool value)
 
 ## GetCustomPropertyValue(string, out int) {#getcustompropertyvalue_2}
 
-从自定义属性中获取命名的整数值。
+从自定义属性获取命名的整数值。
 
 ```csharp
 public void GetCustomPropertyValue(string name, out int value)
@@ -38,7 +38,7 @@ public void GetCustomPropertyValue(string name, out int value)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 要获取的自定义属性名称 |
+| name | String | 要获取的自定义属性的名称 |
 | value | Int32& | 自定义属性值 |
 
 ### 另见
@@ -51,7 +51,7 @@ public void GetCustomPropertyValue(string name, out int value)
 
 ## GetCustomPropertyValue(string, out DateTime) {#getcustompropertyvalue_4}
 
-从自定义属性中获取命名的 DateTime 值。
+从自定义属性获取命名的 DateTime 值。
 
 ```csharp
 public void GetCustomPropertyValue(string name, out DateTime value)
@@ -59,7 +59,7 @@ public void GetCustomPropertyValue(string name, out DateTime value)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 要获取的自定义属性名称 |
+| name | String | 要获取的自定义属性的名称 |
 | value | DateTime& | 自定义属性值 |
 
 ### 另见
@@ -72,7 +72,7 @@ public void GetCustomPropertyValue(string name, out DateTime value)
 
 ## GetCustomPropertyValue(string, out string) {#getcustompropertyvalue_5}
 
-从自定义属性中获取命名的字符串值。
+从自定义属性获取命名的字符串值。
 
 ```csharp
 public void GetCustomPropertyValue(string name, out string value)
@@ -80,7 +80,7 @@ public void GetCustomPropertyValue(string name, out string value)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 要获取的自定义属性名称 |
+| name | String | 要获取的自定义属性的名称 |
 | value | String& | 自定义属性值 |
 
 ### 另见
@@ -93,7 +93,7 @@ public void GetCustomPropertyValue(string name, out string value)
 
 ## GetCustomPropertyValue(string, out float) {#getcustompropertyvalue_3}
 
-从自定义属性中获取命名的浮点值。
+从自定义属性获取命名的浮点值。
 
 ```csharp
 public void GetCustomPropertyValue(string name, out float value)
@@ -101,7 +101,7 @@ public void GetCustomPropertyValue(string name, out float value)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 要获取的自定义属性名称 |
+| name | String | 要获取的自定义属性的名称 |
 | value | Single& | 自定义属性值 |
 
 ### 另见
@@ -114,7 +114,7 @@ public void GetCustomPropertyValue(string name, out float value)
 
 ## GetCustomPropertyValue(string, out double) {#getcustompropertyvalue_1}
 
-从自定义属性中获取命名的双精度值。
+从自定义属性获取命名的双精度值。
 
 ```csharp
 public void GetCustomPropertyValue(string name, out double value)
@@ -122,7 +122,7 @@ public void GetCustomPropertyValue(string name, out double value)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 要获取的自定义属性名称。 |
+| name | String | 要获取的自定义属性的名称。 |
 | value | Double& | 自定义属性值 |
 
 ### 另见

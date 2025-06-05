@@ -1,15 +1,15 @@
 ---
 title: SlidesLayoutOptions
-second_title: Справочник API Aspose.Sildes для .NET
-description: Получает или задает режим, в котором слайды размещаются на странице при экспорте презентации ISlidesLayoutOptionsaspose.slides/islideslayoutoptions. Это свойство не поддерживает присваивание объектов типа HandoutLayoutingOptionsaspose.slides/handoutlayoutingoptions
+second_title: Aspose.Sildes для .NET API Reference
+description: Получает или задает режим, в котором слайды размещаются на странице при экспорте презентации ISlidesLayoutOptionsaspose.slides/islideslayoutoptions. Это свойство не поддерживает присвоение объектов типа HandoutLayoutingOptionsaspose.slides/handoutlayoutingoptions
 type: docs
 weight: 150
 url: /ru/aspose.slides.export/swfoptions/slideslayoutoptions/
 ---
 
-## Свойство SwfOptions.SlidesLayoutOptions
+## SwfOptions.SlidesLayoutOptions свойство
 
-Получает или задает режим, в котором слайды размещаются на странице при экспорте презентации [`ISlidesLayoutOptions`](../../islideslayoutoptions). Это свойство не поддерживает присваивание объектов типа [`HandoutLayoutingOptions`](../../handoutlayoutingoptions)
+Получает или задает режим, в котором слайды размещаются на странице при экспорте презентации [`ISlidesLayoutOptions`](../../islideslayoutoptions). Это свойство не поддерживает присвоение объектов типа [`HandoutLayoutingOptions`](../../handoutlayoutingoptions)
 
 ```csharp
 public ISlidesLayoutOptions SlidesLayoutOptions { get; set; }

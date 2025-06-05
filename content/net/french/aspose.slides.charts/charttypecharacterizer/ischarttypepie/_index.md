@@ -1,7 +1,7 @@
 ---
 title: IsChartTypePie
-second_title: Référence API Aspose.Slides pour .NET
-description: Retourne vrai si chartType est l'un des sous-types de Pie. L'ensemble des sous-types correspond à l'ensemble approprié dans PowerPoint voir la boîte de dialogue "Modifier le type de graphique" dans PowerPoint  BarOfPie, ExplodedPie, ExplodedPie3D, Pie, Pie3D, PieOfPie.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Retourne vrai si chartType est l'un des sous-types de Pie. L'ensemble des sous-types correspond à l'ensemble approprié dans PowerPoint, voir la boîte de dialogue "Changer le type de graphique" dans PowerPoint  BarOfPie, ExplodedPie, ExplodedPie3D, Pie, Pie3D, PieOfPie.
 type: docs
 weight: 110
 url: /fr/aspose.slides.charts/charttypecharacterizer/ischarttypepie/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/charttypecharacterizer/ischarttypepie/
 
 ## ChartTypeCharacterizer.IsChartTypePie méthode
 
-Retourne vrai si chartType est l'un des sous-types de Pie. L'ensemble des sous-types correspond à l'ensemble approprié dans PowerPoint (voir la boîte de dialogue "Modifier le type de graphique" dans PowerPoint) : BarOfPie, ExplodedPie, ExplodedPie3D, Pie, Pie3D, PieOfPie.
+Retourne vrai si chartType est l'un des sous-types de Pie. L'ensemble des sous-types correspond à l'ensemble approprié dans PowerPoint (voir la boîte de dialogue "Changer le type de graphique" dans PowerPoint) : BarOfPie, ExplodedPie, ExplodedPie3D, Pie, Pie3D, PieOfPie.
 
 ```csharp
 public static bool IsChartTypePie(ChartType chartType)
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

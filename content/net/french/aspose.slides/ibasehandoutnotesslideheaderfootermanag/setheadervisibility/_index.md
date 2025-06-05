@@ -1,15 +1,15 @@
 ---
 title: SetHeaderVisibility
-second_title: Aspose.Slides pour la référence API .NET
-description: Change la visibilité de l'espace réservé dans l'en-tête de la diapositive.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Modifie la visibilité du cadre de titre de la diapositive.
 type: docs
 weight: 40
 url: /fr/aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadervisibility/
 ---
 
-## IBaseHandoutNotesSlideHeaderFooterManag.SetHeaderVisibility méthode
+## IBaseHandoutNotesSlideHeaderFooterManag.SetHeaderVisibility method
 
-Change la visibilité de l'espace réservé dans l'en-tête de la diapositive.
+Modifie la visibilité du cadre de titre de la diapositive.
 
 ```csharp
 public void SetHeaderVisibility(bool isVisible)
@@ -17,7 +17,7 @@ public void SetHeaderVisibility(bool isVisible)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| isVisible | Boolean | true - rend un espace réservé d'en-tête visible, sinon - le cache. |
+| isVisible | Boolean | true - rend un cadre de titre visible, sinon - le cache. |
 
 ### Voir aussi
 

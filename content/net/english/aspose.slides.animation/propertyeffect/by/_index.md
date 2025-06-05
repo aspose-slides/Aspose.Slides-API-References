@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.animation/propertyeffect/by/
 ---
+
 ## PropertyEffect.By property
 
 Specifies a relative offset value for the animation with respect to its position before the start of the animation. Read/write String.

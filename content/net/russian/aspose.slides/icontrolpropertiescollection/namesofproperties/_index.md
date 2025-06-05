@@ -1,6 +1,6 @@
 ---
 title: NamesOfProperties
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для справки по API .NET
 description: Возвращает количество свойств в коллекции. Только для чтения ICollection.
 type: docs
 weight: 40

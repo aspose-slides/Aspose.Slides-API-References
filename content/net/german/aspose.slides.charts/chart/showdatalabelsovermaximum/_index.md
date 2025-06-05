@@ -1,7 +1,7 @@
 ---
 title: ShowDataLabelsOverMaximum
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt an, dass Datenbeschriftungen über dem Maximum des Diagramms angezeigt werden sollen. Lese-/Schreib-Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt an, dass Datenbeschriftungen über dem Maximum des Diagramms angezeigt werden sollen. Schreib-/Leseboolescher Wert.
 type: docs
 weight: 180
 url: /de/aspose.slides.charts/chart/showdatalabelsovermaximum/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/chart/showdatalabelsovermaximum/
 
 ## Chart.ShowDataLabelsOverMaximum-Eigenschaft
 
-Gibt an, dass Datenbeschriftungen über dem Maximum des Diagramms angezeigt werden sollen. Lese-/Schreib-Boolean.
+Gibt an, dass Datenbeschriftungen über dem Maximum des Diagramms angezeigt werden sollen. Schreib-/Leseboolescher Wert.
 
 ```csharp
 public bool ShowDataLabelsOverMaximum { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [Chart](../../chart)
 * Namespace [Aspose.Slides.Charts](../../chart)

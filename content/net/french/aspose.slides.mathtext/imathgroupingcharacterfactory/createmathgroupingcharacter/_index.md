@@ -1,13 +1,13 @@
 ---
 title: CreateMathGroupingCharacter
-second_title: Aspose.Sildes pour la référence de l'API .NET
-description: Crée un caractère de regroupement mathématique
+second_title: Aspose.Slides pour .NET Référence API
+description: Créé un caractère de regroupement mathématique
 type: docs
 weight: 10
 url: /fr/aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 
-## CreateMathGroupingCharacter(IMathElement, char, MathTopBotPositions, MathTopBotPositions) {#createmathgroupingcharacter_1}
+## CreateMathGroupingCharacter(IMathElement, char, MathTopBotPositions, MathTopBotPositions) {#createmathgroupingcharacter_1}
 
 Crée un caractère de regroupement mathématique
 

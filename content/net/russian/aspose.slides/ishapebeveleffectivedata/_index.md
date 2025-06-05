@@ -1,7 +1,7 @@
 ---
 title: IShapeBevelEffectiveData
-second_title: Справка по API Aspose.Slides для .NET
-description: Невозможный объект, который содержит эффективные свойства рельефа поверхности фигур.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Нименной объект, который содержит свойства рельефа лицевой поверхности эффективных форм.
 type: docs
 weight: 6750
 url: /ru/aspose.slides/ishapebeveleffectivedata/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ishapebeveleffectivedata/
 
 ## Интерфейс IShapeBevelEffectiveData
 
-Невозможный объект, который содержит эффективные свойства рельефа поверхности фигуры.
+Нименной объект, который содержит свойства рельефа лицевой поверхности эффективной формы.
 
 ```csharp
 public interface IShapeBevelEffectiveData

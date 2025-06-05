@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForFunnelSeries
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le type de graphique est entonnoir.
+second_title: Aspose.Slides pour le référentiel API .NET
+description: Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le type de graphique est Funnel.
 type: docs
 weight: 120
 url: /fr/aspose.slides.charts/ichartdatapointcollection/adddatapointforfunnelseries/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ichartdatapointcollection/adddatapointforfunnelser
 
 ## IChartDataPointCollection.AddDataPointForFunnelSeries méthode
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le type de graphique est entonnoir.
+Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le type de graphique est Funnel.
 
 ```csharp
 public IChartDataPoint AddDataPointForFunnelSeries(IChartDataCell value)

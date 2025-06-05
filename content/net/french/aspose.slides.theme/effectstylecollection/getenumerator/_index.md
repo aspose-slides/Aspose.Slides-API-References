@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie un énumérateur qui itère à travers la collection.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Retourne un énumérateur qui itère à travers la collection.
 type: docs
 weight: 60
 url: /fr/aspose.slides.theme/effectstylecollection/getenumerator/
@@ -9,17 +9,17 @@ url: /fr/aspose.slides.theme/effectstylecollection/getenumerator/
 
 ## Méthode EffectStyleCollection.GetEnumerator
 
-Renvoie un énumérateur qui itère à travers la collection.
+Retourne un énumérateur qui itère à travers la collection.
 
 ```csharp
 public IEnumerator<IEffectStyle> GetEnumerator()
 ```
 
-### Valeur de Retour
+### Valeur de retour
 
 Un IEnumerator qui peut être utilisé pour itérer à travers la collection.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IEffectStyle](../../ieffectstyle)
 * classe [EffectStyleCollection](../../effectstylecollection)

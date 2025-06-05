@@ -1,7 +1,7 @@
 ---
-title: 颜色
-second_title: Aspose.Slides for .NET API 参考
-description: 返回渐变停靠点的颜色。只读 Color。
+title: Color
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回渐变停止的颜色。只读颜色。
 type: docs
 weight: 10
 url: /zh/aspose.slides/gradientstopeffectivedata/color/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/gradientstopeffectivedata/color/
 
 ## GradientStopEffectiveData.Color 属性
 
-返回渐变停靠点的颜色。只读 Color。
+返回渐变停止的颜色。只读颜色。
 
 ```csharp
 public Color Color { get; }
 ```
 
-### 参见
+### 另请参阅
 
 * class [GradientStopEffectiveData](../../gradientstopeffectivedata)
 * namespace [Aspose.Slides](../../gradientstopeffectivedata)

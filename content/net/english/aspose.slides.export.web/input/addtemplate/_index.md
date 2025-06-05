@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export.web/input/addtemplate/
 ---
+
 ## Input.AddTemplate&lt;TContextObject&gt; method
 
 ```csharp

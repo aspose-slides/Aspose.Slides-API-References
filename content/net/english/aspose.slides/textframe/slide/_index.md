@@ -3,9 +3,10 @@ title: Slide
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns the parent slide of a TextFrame. Read-only IBaseSlideaspose.slides/ibaseslide.
 type: docs
-weight: 40
+weight: 60
 url: /aspose.slides/textframe/slide/
 ---
+
 ## TextFrame.Slide property
 
 Returns the parent slide of a TextFrame. Read-only [`IBaseSlide`](../../ibaseslide).

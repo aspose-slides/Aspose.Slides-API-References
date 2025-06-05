@@ -1,5 +1,5 @@
 ---
-title: Farbraum
+title: ColorSpace
 second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt den Farbraum für das Verhalten von Farbeffekten dar.
 type: docs
@@ -7,7 +7,7 @@ weight: 170
 url: /de/aspose.slides.animation/colorspace/
 ---
 
-## Farbraum Aufzählung
+## ColorSpace Aufzählung
 
 Stellt den Farbraum für das Verhalten von Farbeffekten dar.
 
@@ -17,13 +17,13 @@ public enum ColorSpace
 
 ### Werte
 
-| Name          | Wert | Beschreibung |
-|---------------|------|--------------|
-| NotDefined    | `-1` |              |
-| RGB           | `0`  |              |
-| HSL           | `1`  |              |
+| Name | Wert | Beschreibung |
+| --- | --- | --- |
+| NotDefined | `-1` |  |
+| RGB | `0` |  |
+| HSL | `1` |  |
 
-### Siehe Auch
+### Siehe auch
 
 * Namespace [Aspose.Slides.Animation](../../aspose.slides.animation)
 * Assembly [Aspose.Slides](../../)

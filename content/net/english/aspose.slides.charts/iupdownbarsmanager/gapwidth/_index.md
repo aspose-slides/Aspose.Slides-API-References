@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/iupdownbarsmanager/gapwidth/
 ---
+
 ## IUpDownBarsManager.GapWidth property
 
 Returns or sets gap width. Read/write Int32.

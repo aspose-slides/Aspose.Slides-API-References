@@ -1,13 +1,13 @@
 ---
 title: AsIImageTransformOperation
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie l'interface IImageTransformOperation. Lecture seule IImageTransformOperation aspose.slides.effects/iimagetransformoperation.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Renvoie l'interface IImageTransformOperation. IImageTransformOperation en lecture seule aspose.slides.effects/iimagetransformoperation.
 type: docs
 weight: 20
 url: /fr/aspose.slides.effects/ihsl/asiimagetransformoperation/
 ---
 
-## Propriété IHSL.AsIImageTransformOperation
+## IHSL.AsIImageTransformOperation propriété
 
 Renvoie l'interface IImageTransformOperation. Lecture seule [`IImageTransformOperation`](../../iimagetransformoperation).
 
@@ -19,7 +19,7 @@ public IImageTransformOperation AsIImageTransformOperation { get; }
 
 Pour la compatibilité COM.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IImageTransformOperation](../../iimagetransformoperation)
 * interface [IHSL](../../ihsl)

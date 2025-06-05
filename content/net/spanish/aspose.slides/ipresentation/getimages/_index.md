@@ -1,7 +1,7 @@
 ---
 title: GetImages
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve objetos de imágenes en miniatura para todas las diapositivas de una presentación.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve objetos de imagen en miniatura para todas las diapositivas de una presentación.
 type: docs
 weight: 300
 url: /es/aspose.slides/ipresentation/getimages/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/ipresentation/getimages/
 
 ## GetImages(IRenderingOptions) {#getimages}
 
-Devuelve objetos de imágenes en miniatura para todas las diapositivas de una presentación.
+Devuelve objetos de imagen en miniatura para todas las diapositivas de una presentación.
 
 ```csharp
 public IImage[] GetImages(IRenderingOptions options)
@@ -17,13 +17,13 @@ public IImage[] GetImages(IRenderingOptions options)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| options | IRenderingOptions | Opciones de renderizado. |
+| options | IRenderingOptions | Opciones de renderización. |
 
-### Valor de retorno
+### Valor de Retorno
 
 Objetos Bitmap.
 
-### Véase también
+### Véase También
 
 * interface [IImage](../../iimage)
 * interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
@@ -35,7 +35,7 @@ Objetos Bitmap.
 
 ## GetImages(IRenderingOptions, int[]) {#getimages_1}
 
-Devuelve objetos de Bitmap en miniatura para diapositivas específicas de una presentación.
+Devuelve objetos de bitmap en miniatura para las diapositivas especificadas de una presentación.
 
 ```csharp
 public IImage[] GetImages(IRenderingOptions options, int[] slides)
@@ -43,14 +43,14 @@ public IImage[] GetImages(IRenderingOptions options, int[] slides)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| options | IRenderingOptions | Opciones de renderizado. |
-| slides | Int32[] | Arreglo con posiciones de diapositivas, comenzando desde 1. |
+| options | IRenderingOptions | Opciones de renderización. |
+| slides | Int32[] | Array con posiciones de diapositivas, comenzando desde 1. |
 
-### Valor de retorno
+### Valor de Retorno
 
 Objetos Bitmap.
 
-### Véase también
+### Véase También
 
 * interface [IImage](../../iimage)
 * interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
@@ -62,7 +62,7 @@ Objetos Bitmap.
 
 ## GetImages(IRenderingOptions, float, float) {#getimages_4}
 
-Devuelve objetos de imágenes en miniatura para todas las diapositivas de una presentación con escalado personalizado.
+Devuelve objetos de imagen en miniatura para todas las diapositivas de una presentación con escalado personalizado.
 
 ```csharp
 public IImage[] GetImages(IRenderingOptions options, float scaleX, float scaleY)
@@ -70,15 +70,15 @@ public IImage[] GetImages(IRenderingOptions options, float scaleX, float scaleY)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| options | IRenderingOptions | Opciones de renderizado. |
+| options | IRenderingOptions | Opciones de renderización. |
 | scaleX | Single | El valor por el cual escalar esta miniatura en la dirección del eje x. |
 | scaleY | Single | El valor por el cual escalar esta miniatura en la dirección del eje y. |
 
-### Valor de retorno
+### Valor de Retorno
 
 Objetos Bitmap.
 
-### Véase también
+### Véase También
 
 * interface [IImage](../../iimage)
 * interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
@@ -90,7 +90,7 @@ Objetos Bitmap.
 
 ## GetImages(IRenderingOptions, int[], float, float) {#getimages_2}
 
-Devuelve objetos de imágenes en miniatura para diapositivas específicas de una presentación con escalado personalizado.
+Devuelve objetos de imagen en miniatura para las diapositivas especificadas de una presentación con escalado personalizado.
 
 ```csharp
 public IImage[] GetImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
@@ -98,16 +98,16 @@ public IImage[] GetImages(IRenderingOptions options, int[] slides, float scaleX,
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| options | IRenderingOptions | Opciones de renderizado. |
-| slides | Int32[] | Arreglo con posiciones de diapositivas, comenzando desde 1. |
+| options | IRenderingOptions | Opciones de renderización. |
+| slides | Int32[] | Array con posiciones de diapositivas, comenzando desde 1. |
 | scaleX | Single | El valor por el cual escalar esta miniatura en la dirección del eje x. |
 | scaleY | Single | El valor por el cual escalar esta miniatura en la dirección del eje y. |
 
-### Valor de retorno
+### Valor de Retorno
 
 Objetos Bitmap.
 
-### Véase también
+### Véase También
 
 * interface [IImage](../../iimage)
 * interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
@@ -119,7 +119,7 @@ Objetos Bitmap.
 
 ## GetImages(IRenderingOptions, Size) {#getimages_5}
 
-Devuelve objetos de imágenes en miniatura para todas las diapositivas de una presentación con tamaño especificado.
+Devuelve objetos de imagen en miniatura para todas las diapositivas de una presentación con tamaño especificado.
 
 ```csharp
 public IImage[] GetImages(IRenderingOptions options, Size imageSize)
@@ -127,14 +127,14 @@ public IImage[] GetImages(IRenderingOptions options, Size imageSize)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| options | IRenderingOptions | Opciones de renderizado. |
+| options | IRenderingOptions | Opciones de renderización. |
 | imageSize | Size | Tamaño de la imagen a crear. |
 
-### Valor de retorno
+### Valor de Retorno
 
 Objetos Bitmap.
 
-### Véase también
+### Véase También
 
 * interface [IImage](../../iimage)
 * interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
@@ -146,7 +146,7 @@ Objetos Bitmap.
 
 ## GetImages(IRenderingOptions, int[], Size) {#getimages_3}
 
-Devuelve objetos de imágenes en miniatura para diapositivas específicas de una presentación con tamaño especificado.
+Devuelve objetos de imagen en miniatura para las diapositivas especificadas de una presentación con tamaño especificado.
 
 ```csharp
 public IImage[] GetImages(IRenderingOptions options, int[] slides, Size imageSize)
@@ -154,15 +154,15 @@ public IImage[] GetImages(IRenderingOptions options, int[] slides, Size imageSiz
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| options | IRenderingOptions | Opciones de renderizado. |
-| slides | Int32[] | Arreglo con posiciones de diapositivas, comenzando desde 1. |
+| options | IRenderingOptions | Opciones de renderización. |
+| slides | Int32[] | Array con posiciones de diapositivas, comenzando desde 1. |
 | imageSize | Size | Tamaño de la imagen a crear. |
 
-### Valor de retorno
+### Valor de Retorno
 
 Objetos Bitmap.
 
-### Véase también
+### Véase También
 
 * interface [IImage](../../iimage)
 * interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)

@@ -1,7 +1,7 @@
 ---
 title: SkewVertical
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Especifica el ángulo de sesgo vertical. Lectura/escritura Double.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Especifica el ángulo de sesgo vertical. Lectura/escritura Doble.
 type: docs
 weight: 120
 url: /es/aspose.slides.effects/reflection/skewvertical/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.effects/reflection/skewvertical/
 
 ## Propiedad Reflection.SkewVertical
 
-Especifica el ángulo de sesgo vertical. Lectura/escritura Double.
+Especifica el ángulo de sesgo vertical. Lectura/escritura Doble.
 
 ```csharp
 public double SkewVertical { get; set; }

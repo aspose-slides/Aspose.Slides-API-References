@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.effects/imagetransformoperationfactory/createbilevel/
 ---
+
 ## ImageTransformOperationFactory.CreateBiLevel method
 
 Creates BiLevel effect.

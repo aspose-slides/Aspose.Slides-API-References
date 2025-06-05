@@ -1,7 +1,7 @@
 ---
 title: RestoredTop
-second_title: Aspose.Sildes for .NET API 参考
-description: 此元素指定正常视图的顶部幻灯片区域的大小，当该区域的还原大小为可变时（既不最小化也不最大化）。只读 INormalViewRestoredPropertiesaspose.slides/inormalviewrestoredproperties。
+second_title: Aspose.Sildes for .NET API Reference
+description: 该元素指定正常视图的顶部幻灯片区域的大小，当该区域的大小为可变恢复大小（既不是最小化也不是最大化）时。仅限读取 INormalViewRestoredPropertiesaspose.slides/inormalviewrestoredproperties。
 type: docs
 weight: 40
 url: /zh/aspose.slides/inormalviewproperties/restoredtop/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/inormalviewproperties/restoredtop/
 
 ## INormalViewProperties.RestoredTop 属性
 
-此元素指定正常视图的顶部幻灯片区域的大小，当该区域为可变的还原大小（既不最小化也不最大化）时。只读 [`INormalViewRestoredProperties`](../../inormalviewrestoredproperties)。
+该元素指定正常视图的顶部幻灯片区域的大小，当该区域为可变恢复大小（既不是最小化也不是最大化）时。仅限读取 [`INormalViewRestoredProperties`](../../inormalviewrestoredproperties)。
 
 ```csharp
 public INormalViewRestoredProperties RestoredTop { get; }

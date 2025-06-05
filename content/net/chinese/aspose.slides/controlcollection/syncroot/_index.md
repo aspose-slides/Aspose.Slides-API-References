@@ -1,6 +1,6 @@
 ---
 title: SyncRoot
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 返回一个同步根。只读对象。
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/controlcollection/syncroot/
 public object SyncRoot { get; }
 ```
 
-### 另请参见
+### 另见
 
 * class [ControlCollection](../../controlcollection)
 * namespace [Aspose.Slides](../../controlcollection)

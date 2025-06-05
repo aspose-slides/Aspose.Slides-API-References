@@ -1,21 +1,21 @@
 ---
 title: Token
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve un nuevo token asociado a este IInterruptionTokenSource aspose.slides/iinterruptiontokensource.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve un nuevo token vinculado a este IInterruptionTokenSourceaspose.slides/iinterruptiontokensource.
 type: docs
 weight: 20
 url: /es/aspose.slides/iinterruptiontokensource/token/
 ---
 
-## Propiedad IInterruptionTokenSource.Token
+## IInterruptionTokenSource.Token property
 
-Devuelve un nuevo token asociado a este [`IInterruptionTokenSource`](../../iinterruptiontokensource).
+Devuelve un nuevo token vinculado a este [`IInterruptionTokenSource`](../../iinterruptiontokensource).
 
 ```csharp
 public IInterruptionToken Token { get; }
 ```
 
-### Ver También
+### Véase También
 
 * interfaz [IInterruptionToken](../../iinterruptiontoken)
 * interfaz [IInterruptionTokenSource](../../iinterruptiontokensource)

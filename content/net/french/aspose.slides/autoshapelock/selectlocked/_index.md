@@ -1,6 +1,6 @@
 ---
 title: SelectLocked
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence de l'API .NET
 description: Détermine si la sélection de cette forme est interdite. Booléen en lecture/écriture.
 type: docs
 weight: 80
@@ -15,7 +15,7 @@ Détermine si la sélection de cette forme est interdite. Booléen en lecture/é
 public bool SelectLocked { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [AutoShapeLock](../../autoshapelock)
 * espace de noms [Aspose.Slides](../../autoshapelock)

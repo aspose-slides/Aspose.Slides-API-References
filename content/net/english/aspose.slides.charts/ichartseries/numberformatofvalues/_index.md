@@ -6,6 +6,7 @@ type: docs
 weight: 230
 url: /aspose.slides.charts/ichartseries/numberformatofvalues/
 ---
+
 ## IChartSeries.NumberFormatOfValues property
 
 Returns or sets the number format for series values. Read/write String.

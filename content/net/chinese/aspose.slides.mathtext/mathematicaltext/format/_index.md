@@ -1,6 +1,6 @@
 ---
-title: 格式
-second_title: Aspose.Slides for .NET API 参考
+title: Format
+second_title: Aspose.Sildes for .NET API Reference
 description: 文本格式属性
 type: docs
 weight: 20
@@ -17,7 +17,7 @@ public IPortionFormat Format { get; }
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -25,7 +25,7 @@ IMathematicalText mathText = new MathematicalText("x+y");
 mathText.Format.FontHeight = 28;
 ```
 
-### 另见
+### 参见
 
 * 接口 [IPortionFormat](../../../aspose.slides/iportionformat)
 * 类 [MathematicalText](../../mathematicaltext)

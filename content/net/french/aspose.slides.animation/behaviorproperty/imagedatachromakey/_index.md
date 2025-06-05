@@ -15,7 +15,7 @@ Représente la propriété 'imageData.chromakey'
 public static BehaviorProperty ImageDataChromakey { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [BehaviorProperty](../../behaviorproperty)
 * espace de noms [Aspose.Slides.Animation](../../behaviorproperty)

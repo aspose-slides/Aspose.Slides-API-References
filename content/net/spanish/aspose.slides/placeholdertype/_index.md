@@ -1,5 +1,5 @@
 ---
-title: Tipo de marcador de posición
+title: PlaceholderType
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa el tipo de un marcador de posición.
 type: docs
@@ -19,26 +19,26 @@ public enum PlaceholderType : sbyte
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Título | `0` | Título. |
-| Cuerpo | `1` | Cuerpo. |
-| TítuloCentrado | `2` | Título Centrado. |
-| Subtítulo | `3` | Subtítulo. |
-| FechaYHora | `4` | Fecha y Hora. |
-| NúmeroDeDiapositiva | `5` | Número de Diapositiva. |
-| PieDePágina | `6` | Pie de Página. |
-| Encabezado | `7` | Encabezado. |
-| Objeto | `8` | Objeto. |
-| Gráfico | `9` | Gráfico. |
-| Tabla | `10` | Tabla. |
+| Title | `0` | Título. |
+| Body | `1` | Cuerpo. |
+| CenteredTitle | `2` | Título centrado. |
+| Subtitle | `3` | Subtítulo. |
+| DateAndTime | `4` | Fecha y hora. |
+| SlideNumber | `5` | Número de la diapositiva. |
+| Footer | `6` | Pie de página. |
+| Header | `7` | Encabezado. |
+| Object | `8` | Objeto. |
+| Chart | `9` | Gráfico. |
+| Table | `10` | Tabla. |
 | ClipArt | `11` | Clip Art. |
-| Diagrama | `12` | Diagrama. |
-| Multimedia | `13` | Multimedia. |
-| ImagenDeDiapositiva | `14` | Imagen de Diapositiva. |
-| Imagen | `15` | Imagen. |
+| Diagram | `12` | Diagrama. |
+| Media | `13` | Medios. |
+| SlideImage | `14` | Imagen de la diapositiva. |
+| Picture | `15` | Imagen. |
 
-### Véase también
+### Ver También
 
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblado [Aspose.Slides](../../)
+* ensamblaje [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,6 +1,6 @@
 ---
-title: Количество
-second_title: Справочник по API Aspose.Sildes для .NET
+title: Count
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает количество элементов в коллекции. Только для чтения Int32.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/chartcategorycollection/count/
 public int Count { get; }
 ```
 
-### Смотрите также
+### См. Также
 
 * класс [ChartCategoryCollection](../../chartcategorycollection)
 * пространство имен [Aspose.Slides.Charts](../../chartcategorycollection)

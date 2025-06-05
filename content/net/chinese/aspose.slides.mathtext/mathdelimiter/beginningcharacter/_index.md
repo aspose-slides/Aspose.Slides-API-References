@@ -1,15 +1,15 @@
 ---
-title: 开始字符
-second_title: Aspose.Slides for .NET API 参考
-description: 分隔符开始字符指定开始或开放的分隔符字符。数学分隔符是包围字符，例如括号、方括号和大括号。默认值：''。
+title: BeginningCharacter
+second_title: Aspose.Sildes for .NET API Reference
+description: 分隔符开始字符指定开始或打开的分隔符字符。数学分隔符是诸如括号、方括号和大括号等封闭字符。默认值为 ''。
 type: docs
 weight: 30
 url: /zh/aspose.slides.mathtext/mathdelimiter/beginningcharacter/
 ---
 
-## MathDelimiter.BeginningCharacter 属性
+## MathDelimiter.BeginningCharacter property
 
-分隔符开始字符指定开始或开放的分隔符字符。数学分隔符是包围字符，例如括号、方括号和大括号。默认值：'('。
+分隔符开始字符指定开始或打开的分隔符字符。数学分隔符是诸如括号、方括号和大括号等封闭字符。默认值为 '('。
 
 ```csharp
 public char BeginningCharacter { get; set; }
@@ -25,7 +25,7 @@ IMathDelimiter delimiter = new MathematicalText("x").Join("y").Enclose();
 delimiter.BeginningCharacter = '[';
 ```
 
-### 另请参阅
+### 另见
 
 * class [MathDelimiter](../../mathdelimiter)
 * namespace [Aspose.Slides.MathText](../../mathdelimiter)

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/fontdatafactory/fontdatafactory/
 ---
+
 ## FontDataFactory constructor
 
 The default constructor.

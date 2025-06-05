@@ -1,7 +1,7 @@
 ---
 title: MotionPathPointsType
-second_title: Aspose.Slides for .NET API 参考
-description: 表示动画运动路径中点的类型。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示动画运动路径中的点的类型。
 type: docs
 weight: 630
 url: /zh/aspose.slides.animation/motionpathpointstype/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/motionpathpointstype/
 
 ## MotionPathPointsType 枚举
 
-表示动画运动路径中点的类型。
+表示动画运动路径中的点的类型。
 
 ```csharp
 public enum MotionPathPointsType
@@ -29,7 +29,7 @@ public enum MotionPathPointsType
 | CurveStraight | `7` |  |
 | CurveSmooth | `8` |  |
 
-### 参见
+### 另见
 
 * 命名空间 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 程序集 [Aspose.Slides](../../)

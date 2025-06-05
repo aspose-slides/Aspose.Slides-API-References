@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.animation/
 ---
+
 Contains classes for work with animation in Microsoft PowerPoint presentations.
 
 ## Classes
@@ -70,6 +71,7 @@ Contains classes for work with animation in Microsoft PowerPoint presentations.
 | Enumeration | Description |
 | --- | --- |
 | [AfterAnimationType](./afteranimationtype) | Represents the after animation type of an animation effect. |
+| [AnimateTextType](./animatetexttype) | Represents the animate text type of an animation effect. |
 | [BehaviorAccumulateType](./behavioraccumulatetype) | Represents types of accumulation of effect behaviors. |
 | [BehaviorAdditiveType](./behavioradditivetype) | Represents additive type for effect behavior. |
 | [BuildType](./buildtype) | Determines how text will appear on a shape during animation. |

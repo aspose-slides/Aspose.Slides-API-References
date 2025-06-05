@@ -1,7 +1,7 @@
 ---
 title: AddText
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Ajoute du texte brut aux fichiers html en remplaçant les caractères spéciaux par des entités html. Les retours à la ligne et les espaces blancs ne sont pas remplacés.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Ajoute du texte brut aux fichiers html en remplaçant les caractères spéciaux par des entités html. Les sauts de ligne et les espaces ne sont pas remplacés.
 type: docs
 weight: 90
 url: /fr/aspose.slides.export/htmlgenerator/addtext/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.export/htmlgenerator/addtext/
 
 ## AddText(string) {#addtext_2}
 
-Ajoute du texte brut aux fichiers html, remplaçant les caractères spéciaux par des entités html. Les retours à la ligne et les espaces blancs ne sont pas remplacés.
+Ajoute du texte brut aux fichiers html, remplaçant les caractères spéciaux par des entités html. Les sauts de ligne et les espaces ne sont pas remplacés.
 
 ```csharp
 public void AddText(string text)
 ```
 
-| Paramètre | Type | Description |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | text | String | Texte à ajouter. |
 
@@ -29,13 +29,13 @@ public void AddText(string text)
 
 ## AddText(char[]) {#addtext}
 
-Ajoute du texte brut aux fichiers html, remplaçant les caractères spéciaux par des entités html. Les retours à la ligne et les espaces blancs ne sont pas remplacés.
+Ajoute du texte brut aux fichiers html, remplaçant les caractères spéciaux par des entités html. Les sauts de ligne et les espaces ne sont pas remplacés.
 
 ```csharp
 public void AddText(char[] text)
 ```
 
-| Paramètre | Type | Description |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | text | Char[] | Texte à ajouter. |
 
@@ -49,13 +49,13 @@ public void AddText(char[] text)
 
 ## AddText(char[], int, int) {#addtext_1}
 
-Ajoute du texte brut aux fichiers html, remplaçant les caractères spéciaux par des entités html. Les retours à la ligne et les espaces blancs ne sont pas remplacés.
+Ajoute du texte brut aux fichiers html, remplaçant les caractères spéciaux par des entités html. Les sauts de ligne et les espaces ne sont pas remplacés.
 
 ```csharp
 public void AddText(char[] text, int startIndex, int length)
 ```
 
-| Paramètre | Type | Description |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | text | Char[] | Texte à ajouter. |
 | startIndex | Int32 | Index de départ de la portion à ajouter. |

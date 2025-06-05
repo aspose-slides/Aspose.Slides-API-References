@@ -1,13 +1,13 @@
 ---
-title: Равенство
-second_title: Справочник по API Aspose.Sildes для .NET
+title: Equals
+second_title: Aspose.Sildes для .NET API Справочник
 description: Сравнивает с указанным объектом.
 type: docs
 weight: 70
 url: /ru/aspose.slides/picture/equals/
 ---
 
-## Метод Picture.Equals
+## Picture.Equals метод
 
 Сравнивает с указанным объектом.
 
@@ -19,11 +19,11 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | Объект для сравнения. |
 
-### Значение Возврата
+### Возвращаемое значение
 
-Истина, если объекты равны, в противном случае ложь.
+True, если объекты равны, в противном случае false.
 
-### См. Также
+### См. также
 
 * класс [Picture](../../picture)
 * пространство имен [Aspose.Slides](../../picture)

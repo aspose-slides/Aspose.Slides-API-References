@@ -1,6 +1,6 @@
 ---
 title: SetEffect
-second_title: Aspose.Slides para .NET API Reference
+second_title: Aspose.Sildes para .NET API Reference
 description: Representa un efecto de conjunto para un comportamiento de animación.
 type: docs
 weight: 730
@@ -19,7 +19,7 @@ public class SetEffect : Behavior, ISetEffect
 
 | Nombre | Descripción |
 | --- | --- |
-| [SetEffect](seteffect)() | El constructor predeterminado. |
+| [SetEffect](seteffect)() | El constructor por defecto. |
 
 ## Propiedades
 
@@ -29,13 +29,13 @@ public class SetEffect : Behavior, ISetEffect
 | [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Representa si el comportamiento de animación actual se combina con otras animaciones en ejecución. Lectura/escritura [`BehaviorAdditiveType`](../behavioradditivetype). |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Representa las propiedades del comportamiento. Solo lectura [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
 | [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Representa las propiedades de temporización para el comportamiento del efecto. Lectura/escritura [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/seteffect/to) { get; set; } | Especifica el atributo cierto de un efecto después de un efecto de animación. Representa el valor puntual. Solo: bool, ColorFormat, float, int, string. Lectura/escritura Object. |
+| [To](../../aspose.slides.animation/seteffect/to) { get; set; } | Especifica el atributo específico de un efecto después de un efecto de animación. Representa un valor puntual. Solo: bool, ColorFormat, float, int, string. Lectura/escritura Object. |
 
-### Véase también
+### Véase También
 
 * clase [Behavior](../behavior)
 * interfaz [ISetEffect](../iseteffect)
 * espacio de nombres [Aspose.Slides.Animation](../../aspose.slides.animation)
 * ensamblado [Aspose.Slides](../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->

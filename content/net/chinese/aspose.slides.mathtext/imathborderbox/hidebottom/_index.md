@@ -1,15 +1,15 @@
 ---
-title: 隐藏底部
-second_title: Aspose.Slides for .NET API 参考
-description: 隐藏底部边缘（默认值为 false）- 指定边框框的底部边缘是隐藏还是显示的状态。
+title: HideBottom
+second_title: Aspose.Sildes for .NET API Reference
+description: 隐藏底边，默认值为 false - 指定边框框底边的隐藏或显示状态。
 type: docs
 weight: 30
 url: /zh/aspose.slides.mathtext/imathborderbox/hidebottom/
 ---
 
-## IMathBorderBox.HideBottom 属性
+## IMathBorderBox.HideBottom property
 
-隐藏底部边缘（默认值为 false）- 指定边框框的底部边缘是隐藏还是显示的状态。
+隐藏底边（默认值为 false）- 指定边框框底边的隐藏或显示状态。
 
 ```csharp
 public bool HideBottom { get; set; }

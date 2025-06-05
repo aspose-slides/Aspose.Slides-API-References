@@ -1,13 +1,13 @@
 ---
 title: BorderDiagonalDown
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie la valeur effective du format de ligne diagonale descendante. Données ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata en lecture seule.
+second_title: Aspose.Slides pour .NET Référence de l’API
+description: Renvoie la valeur effective du format de ligne diagonale descendante. Lecture seule ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs
 weight: 20
 url: /fr/aspose.slides/ibasetableformateffectivedata/borderdiagonaldown/
 ---
 
-## Propriété IBaseTableFormatEffectiveData.BorderDiagonalDown
+## IBaseTableFormatEffectiveData.BorderDiagonalDown propriété
 
 Renvoie la valeur effective du format de ligne diagonale descendante. Lecture seule [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
 

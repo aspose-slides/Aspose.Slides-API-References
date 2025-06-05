@@ -1,7 +1,7 @@
 ---
-title: 启用软边缘效果
-second_title: Aspose.Slides for .NET API 参考
-description: 启用软边缘效果。
+title: EnableSoftEdgeEffect
+second_title: Aspose.Sildes for .NET API Reference
+description: 启用柔和边缘效果。
 type: docs
 weight: 250
 url: /zh/aspose.slides/ieffectformat/enablesoftedgeeffect/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ieffectformat/enablesoftedgeeffect/
 
 ## IEffectFormat.EnableSoftEdgeEffect 方法
 
-启用软边缘效果。
+启用柔和边缘效果。
 
 ```csharp
 public void EnableSoftEdgeEffect()

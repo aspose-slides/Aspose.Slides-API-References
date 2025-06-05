@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/imasterlayoutslidecollection/removeat/
 ---
+
 ## IMasterLayoutSlideCollection.RemoveAt method
 
 Removes the element at the specified index of the collection.

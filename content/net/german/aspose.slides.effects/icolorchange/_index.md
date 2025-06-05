@@ -1,7 +1,7 @@
 ---
 title: IColorChange
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt einen Farbanpassungseffekt dar. Instanzen von FromColor werden durch Instanzen von ToColor ersetzt.
+description: Stellt einen Farbewechsel-Effekt dar. Instanzen von FromColor werden durch Instanzen von ToColor ersetzt.
 type: docs
 weight: 3100
 url: /de/aspose.slides.effects/icolorchange/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/icolorchange/
 
 ## IColorChange-Schnittstelle
 
-Stellt einen Farbanpassungseffekt dar. Instanzen von FromColor werden durch Instanzen von ToColor ersetzt.
+Stellt einen Farbewechsel-Effekt dar. Instanzen von FromColor werden durch Instanzen von ToColor ersetzt.
 
 ```csharp
 public interface IColorChange : IAccessiblePVIObject<IColorChangeEffectiveData>, 
@@ -20,10 +20,10 @@ public interface IColorChange : IAccessiblePVIObject<IColorChangeEffectiveData>,
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorchange/asiaccessiblepviobject) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IAccessiblePVIObject. Nur lesbar [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/icolorchange/asiimagetransformoperation) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IImageTransformOperation. Nur lesbar [`IImageTransformOperation`](../iimagetransformoperation). |
-| [FromColor](../../aspose.slides.effects/icolorchange/fromcolor) { get; } | Farbe, die ersetzt werden soll. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [ToColor](../../aspose.slides.effects/icolorchange/tocolor) { get; } | Farbe, die ersetzt werden soll. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorchange/asiaccessiblepviobject) { get; } | Ermöglicht den Zugriff auf die Basis-IAccessiblePVIObject-Schnittstelle. Nur-lesend [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/icolorchange/asiimagetransformoperation) { get; } | Ermöglicht den Zugriff auf die Basis-IImageTransformOperation-Schnittstelle. Nur-lesend [`IImageTransformOperation`](../iimagetransformoperation). |
+| [FromColor](../../aspose.slides.effects/icolorchange/fromcolor) { get; } | Farbe, die ersetzt wird. Nur-lesend [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [ToColor](../../aspose.slides.effects/icolorchange/tocolor) { get; } | Farbe, die ersetzen wird. Nur-lesend [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Siehe auch
 

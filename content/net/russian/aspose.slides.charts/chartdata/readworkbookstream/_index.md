@@ -1,13 +1,13 @@
 ---
 title: ReadWorkbookStream
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Записывает внутренне содержащуюся книгу Excel в поток в памяти.
 type: docs
 weight: 100
 url: /ru/aspose.slides.charts/chartdata/readworkbookstream/
 ---
 
-## Метод ChartData.ReadWorkbookStream
+## ChartData.ReadWorkbookStream метод
 
 Записывает внутренне содержащуюся книгу Excel в поток в памяти.
 

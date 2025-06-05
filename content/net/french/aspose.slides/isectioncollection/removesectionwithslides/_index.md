@@ -1,6 +1,6 @@
 ---
 title: RemoveSectionWithSlides
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Supprimer la section et les diapositives contenues dans la section.
 type: docs
 weight: 80

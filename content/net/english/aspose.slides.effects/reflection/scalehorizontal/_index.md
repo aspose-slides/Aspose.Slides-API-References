@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.effects/reflection/scalehorizontal/
 ---
+
 ## Reflection.ScaleHorizontal property
 
 Specifies the horizontal scaling factor, negative scaling causes a flip. (percents) Read/write Double.

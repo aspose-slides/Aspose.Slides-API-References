@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Aspose.Slides für .NET API Referenz
-description: Berechnet und gibt einen Hash-Code basierend auf der Valueaspose.slides.animation/behaviorproperty/value-Eigenschaft zurück
+description: Berechnet und gibt den Hash-Code basierend auf der Valueaspose.slides.animation/behaviorproperty/value Eigenschaft zurück
 type: docs
 weight: 1260
 url: /de/aspose.slides.animation/behaviorproperty/gethashcode/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/behaviorproperty/gethashcode/
 
 ## BehaviorProperty.GetHashCode Methode
 
-Berechnet und gibt einen Hash-Code basierend auf der [`Value`](../value) Eigenschaft zurück
+Berechnet und gibt den Hash-Code basierend auf der [`Value`](../value) Eigenschaft zurück
 
 ```csharp
 public override int GetHashCode()

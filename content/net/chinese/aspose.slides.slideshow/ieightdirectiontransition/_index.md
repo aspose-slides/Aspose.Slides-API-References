@@ -1,7 +1,7 @@
 ---
 title: IEightDirectionTransition
 second_title: Aspose.Sildes for .NET API Reference
-description: 八方向幻灯片切换效果。
+description: 八方向幻灯片过渡效果。
 type: docs
 weight: 9760
 url: /zh/aspose.slides.slideshow/ieightdirectiontransition/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.slideshow/ieightdirectiontransition/
 
 ## IEightDirectionTransition 接口
 
-八方向幻灯片切换效果。
+八方向幻灯片过渡效果。
 
 ```csharp
 public interface IEightDirectionTransition : ITransitionValueBase
@@ -19,10 +19,10 @@ public interface IEightDirectionTransition : ITransitionValueBase
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase) { get; } | 允许获取基本的 ITransitionValueBase 接口。只读 [`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [Direction](../../aspose.slides.slideshow/ieightdirectiontransition/direction) { get; set; } | 切换的方向。可读写 [`TransitionEightDirectionType`](../transitioneightdirectiontype)。 |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase) { get; } | 允许获取基础 ITransitionValueBase 接口。只读 [`ITransitionValueBase`](../itransitionvaluebase)。 |
+| [Direction](../../aspose.slides.slideshow/ieightdirectiontransition/direction) { get; set; } | 过渡方向。读写 [`TransitionEightDirectionType`](../transitioneightdirectiontype)。 |
 
-### 另请参见
+### 另请参阅
 
 * 接口 [ITransitionValueBase](../itransitionvaluebase)
 * 命名空间 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

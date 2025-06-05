@@ -1,7 +1,7 @@
 ---
 title: DataAsString
-second_title: Aspose.Slides для .NET API Reference
-description: Возвращает данные субтитров в виде строки, закодированной в UTF-8. Только для чтения String.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает данные закрытых субтитров в виде строки с кодировкой UTF-8 Только для чтения Строка.
 type: docs
 weight: 30
 url: /ru/aspose.slides/captions/dataasstring/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/captions/dataasstring/
 
 ## Свойство Captions.DataAsString
 
-Возвращает данные субтитров в виде строки, закодированной в UTF-8. Только для чтения String.
+Возвращает данные закрытых субтитров в виде строки с кодировкой UTF-8 Только для чтения Строка.
 
 ```csharp
 public string DataAsString { get; }

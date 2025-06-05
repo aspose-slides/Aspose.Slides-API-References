@@ -1,13 +1,13 @@
 ---
 title: ChartShapeType
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示图表的形状。
 type: docs
 weight: 1390
 url: /zh/aspose.slides.charts/chartshapetype/
 ---
 
-## ChartShapeType 列举
+## ChartShapeType 枚举
 
 表示图表的形状。
 
@@ -20,12 +20,12 @@ public enum ChartShapeType
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
 | NotDefined | `-1` | 图表形状未定义。 |
-| Box | `0` | 指定图表应绘制为方形。 |
-| Cone | `1` | 指定图表应绘制为圆锥形，圆锥的底部位于地面，圆锥的顶点在数据标记的顶部。 |
-| ConeToMax | `2` | 指定图表应绘制为截断的圆锥，以至于圆锥的顶点为最大数据值。 |
+| Box | `0` | 指定图表应使用方框形状绘制。 |
+| Cone | `1` | 指定图表应绘制为圆锥形，圆锥的底部在地面上，圆锥的尖端位于数据标记的顶部。 |
+| ConeToMax | `2` | 指定图表应绘制为截断圆锥，以使圆锥的尖端为最大数据值。 |
 | Cylinder | `3` | 指定图表应绘制为圆柱形。 |
-| Pyramid | `4` | 指定图表应绘制为矩形金字塔，金字塔的底部位于地面，金字塔的顶点在数据标记的顶部。 |
-| PyramidToMaximum | `5` | 指定图表应绘制为截断的圆锥，以至于圆锥的顶点为最大数据值。 |
+| Pyramid | `4` | 指定图表应绘制为矩形金字塔，金字塔的底部在地面上，金字塔的尖端位于数据标记的顶部。 |
+| PyramidToMaximum | `5` | 指定图表应绘制为截断圆锥，以使圆锥的尖端为最大数据值。 |
 
 ### 另请参阅
 

@@ -1,15 +1,15 @@
 ---
 title: BlurRadius
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Rayon de flou. Lecture seule Double.
+second_title: Référence API Aspose.Slides pour .NET
+description: Rayon de flou. Double en lecture seule.
 type: docs
 weight: 20
 url: /fr/aspose.slides.effects/iinnershadoweffectivedata/blurradius/
 ---
 
-## IInnerShadowEffectiveData.BlurRadius propriété
+## Propriété IInnerShadowEffectiveData.BlurRadius
 
-Rayon de flou. Lecture seule Double.
+Rayon de flou. Double en lecture seule.
 
 ```csharp
 public double BlurRadius { get; }

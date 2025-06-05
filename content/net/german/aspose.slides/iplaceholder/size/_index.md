@@ -1,15 +1,15 @@
 ---
-title: Größe
+title: Size
 second_title: Aspose.Slides für .NET API Referenz
-description: Erhält die Größe eines Platzhalters. Schreibgeschützter PlaceholderSizeaspose.slides/placeholdersize.
+description: Erhält die Größe eines Platzhalters. Nur lesbare PlaceholderSizeaspose.slides/placeholdersize.
 type: docs
 weight: 30
 url: /de/aspose.slides/iplaceholder/size/
 ---
 
-## IPlaceholder.Size-Eigenschaft
+## IPlaceholder.Size Eigenschaft
 
-Erhält die Größe eines Platzhalters. Schreibgeschützter [`PlaceholderSize`](../../placeholdersize).
+Erhält die Größe eines Platzhalters. Nur lesbare [`PlaceholderSize`](../../placeholdersize).
 
 ```csharp
 public PlaceholderSize Size { get; }

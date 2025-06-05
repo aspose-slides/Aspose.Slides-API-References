@@ -1,6 +1,6 @@
 ---
 title: PicturesCompression
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет уровень сжатия изображений
 type: docs
 weight: 70
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export/htmloptions/picturescompression/
 public PicturesCompression PicturesCompression { get; set; }
 ```
 
-### См. также
+### См. Также
 
 * enum [PicturesCompression](../../picturescompression)
 * class [HtmlOptions](../../htmloptions)

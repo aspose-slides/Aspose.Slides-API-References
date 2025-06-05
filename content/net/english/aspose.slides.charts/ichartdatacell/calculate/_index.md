@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.charts/ichartdatacell/calculate/
 ---
+
 ## IChartDataCell.Calculate method
 
 If the cell contains a formula, the value will be updated base on that formula.

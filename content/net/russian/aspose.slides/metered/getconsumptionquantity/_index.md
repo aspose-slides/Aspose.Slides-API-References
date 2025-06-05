@@ -1,7 +1,7 @@
 ---
 title: GetConsumptionQuantity
 second_title: Aspose.Slides для .NET API Reference
-description: Получаем размер файла потребления
+description: Получает размер файла потребления
 type: docs
 weight: 40
 url: /ru/aspose.slides/metered/getconsumptionquantity/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/metered/getconsumptionquantity/
 
 ## Metered.GetConsumptionQuantity метод
 
-Получаем размер файла потребления
+Получает размер файла потребления
 
 ```csharp
 public static decimal GetConsumptionQuantity()
@@ -19,7 +19,7 @@ public static decimal GetConsumptionQuantity()
 
 количество потребления
 
-### Смотрите также
+### См. также
 
 * класс [Metered](../../metered)
 * пространство имен [Aspose.Slides](../../metered)

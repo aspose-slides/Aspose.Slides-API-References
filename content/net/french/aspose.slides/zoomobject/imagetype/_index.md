@@ -1,15 +1,15 @@
 ---
 title: ImageType
-second_title: Aspose.Slides pour la référence API .NET
-description: Obtient ou définit le type d'image d'un objet de zoom. Lecture/écriture ZoomImageTypeaspose.slides/zoomimagetype. Valeur par défaut Aperçu
+second_title: Référence API Aspose.Sildes pour .NET
+description: Obtient ou définit le type d'image d'un objet zoom. Lecture/écriture ZoomImageTypeaspose.slides/zoomimagetype. Valeur par défaut  Aperçu
 type: docs
 weight: 10
 url: /fr/aspose.slides/zoomobject/imagetype/
 ---
 
-## Propriété ZoomObject.ImageType
+## ZoomObject.ImageType propriété
 
-Obtient ou définit le type d'image d'un objet de zoom. Lecture/écriture [`ZoomImageType`](../../zoomimagetype). Valeur par défaut : Aperçu
+Obtient ou définit le type d'image d'un objet zoom. Lecture/écriture [`ZoomImageType`](../../zoomimagetype). Valeur par défaut : Aperçu
 
 ```csharp
 public ZoomImageType ImageType { get; set; }
@@ -17,11 +17,11 @@ public ZoomImageType ImageType { get; set; }
 
 ### Remarques
 
-Précise si l'objet Zoom utilise l'aperçu de la diapositive ou une image de couverture.
+Spécifie si l'objet Zoom utilise l'aperçu de la diapositive ou une image de couverture.
 
 ### Exemples
 
-L'exemple suivant démontre le changement du type d'image en valeur Aperçu. Dans ce cas, l'image actuelle d'un objet Zoom change pour l'image de la diapositive :
+L'exemple suivant démontre le changement de type d'image à la valeur Aperçu. Dans ce cas, l'image actuelle d'un objet Zoom change en image de diapositive :
 
 ```csharp
 [C#]

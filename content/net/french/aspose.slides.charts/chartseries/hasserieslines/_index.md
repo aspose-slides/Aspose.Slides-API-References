@@ -1,7 +1,7 @@
 ---
 title: HasSeriesLines
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine s'il y a des lignes de séries pour cette série et les séries apparentées. C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est la projection de la propriété de groupe appropriée. Et donc, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété en lecture/écriture ParentSeriesGroup.HasSeriesLines pour changer la valeur. Utilisez la propriété ParentSeriesGroup.SeriesLinesFormat pour formater les lignes de séries. Booléen en lecture seule.
+description: Détermine s'il existe des lignes de séries pour cette série et les séries apparentées. C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est la projection de la propriété appropriée du groupe. Et donc cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété en lecture/écriture ParentSeriesGroup.HasSeriesLines pour changer la valeur. Utilisez la propriété ParentSeriesGroup.SeriesLinesFormat pour formater les lignes de séries. Booléen en lecture seule.
 type: docs
 weight: 140
 url: /fr/aspose.slides.charts/chartseries/hasserieslines/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/chartseries/hasserieslines/
 
 ## ChartSeries.HasSeriesLines property
 
-Détermine s'il y a des lignes de séries pour cette série et les séries apparentées. C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est la projection de la propriété de groupe appropriée. Et donc, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété en lecture/écriture ParentSeriesGroup.HasSeriesLines pour changer la valeur. Utilisez la propriété ParentSeriesGroup.SeriesLinesFormat pour formater les lignes de séries. Booléen en lecture seule.
+Détermine s'il existe des lignes de séries pour cette série et les séries apparentées. C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est la projection de la propriété appropriée du groupe. Et donc cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété en lecture/écriture ParentSeriesGroup.HasSeriesLines pour changer la valeur. Utilisez la propriété ParentSeriesGroup.SeriesLinesFormat pour formater les lignes de séries. Booléen en lecture seule.
 
 ```csharp
 public bool HasSeriesLines { get; }

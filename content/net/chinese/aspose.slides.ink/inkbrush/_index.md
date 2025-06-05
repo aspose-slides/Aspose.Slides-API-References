@@ -7,7 +7,7 @@ weight: 7340
 url: /zh/aspose.slides.ink/inkbrush/
 ---
 
-## InkBrush 类
+## InkBrush class
 
 表示一个 inkBrush 对象。
 
@@ -19,8 +19,8 @@ public class InkBrush : IInkBrush
 
 | 名称 | 描述 |
 | --- | --- |
-| [Color](../../aspose.slides.ink/inkbrush/color) { get; set; } | 获取或设置线条的画刷颜色。 |
-| [Size](../../aspose.slides.ink/inkbrush/size) { get; set; } | 获取或设置线条的画刷大小（以磅为单位）。 |
+| [Color](../../aspose.slides.ink/inkbrush/color) { get; set; } | 获取或设置线条的笔刷颜色。 |
+| [Size](../../aspose.slides.ink/inkbrush/size) { get; set; } | 获取或设置线条的笔刷大小（以点为单位）。 |
 
 ### 另请参阅
 

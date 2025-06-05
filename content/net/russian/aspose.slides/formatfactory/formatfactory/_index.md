@@ -1,6 +1,6 @@
 ---
 title: FormatFactory
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справка по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/formatfactory/formatfactory/
 public FormatFactory()
 ```
 
-### Смотрите также
+### Также смотри
 
 * класс [FormatFactory](../../formatfactory)
 * пространство имен [Aspose.Slides](../../formatfactory)

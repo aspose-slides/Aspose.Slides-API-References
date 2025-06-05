@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides/ieffectformat/disablefilloverlayeffect/
 ---
+
 ## IEffectFormat.DisableFillOverlayEffect method
 
 Disables fill overlay effect.

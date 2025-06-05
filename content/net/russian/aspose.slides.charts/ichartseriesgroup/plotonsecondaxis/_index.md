@@ -1,21 +1,21 @@
 ---
 title: PlotOnSecondAxis
-second_title: Aspose.Slides для .NET API Справочник
-description: Указывает, рисуется ли серия этой группы на вторичной оси. Доступен только для чтения логический тип.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Указывает, отображается ли серия этой группы на вторичной оси. Доступно только для чтения Boolean.
 type: docs
 weight: 160
 url: /ru/aspose.slides.charts/ichartseriesgroup/plotonsecondaxis/
 ---
 
-## Свойство IChartSeriesGroup.PlotOnSecondAxis
+## IChartSeriesGroup.PlotOnSecondAxis свойство
 
-Указывает, рисуется ли серия этой группы на вторичной оси. Доступен только для чтения логический тип.
+Указывает, отображается ли серия этой группы на вторичной оси. Доступно только для чтения Boolean.
 
 ```csharp
 public bool PlotOnSecondAxis { get; }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IChartSeriesGroup](../../ichartseriesgroup)
 * пространство имен [Aspose.Slides.Charts](../../ichartseriesgroup)

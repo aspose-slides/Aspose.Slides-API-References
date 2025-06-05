@@ -1,21 +1,21 @@
 ---
 title: MarginRight
-second_title: Aspose.Sldes для .NET API Справочник
-description: Возвращает или устанавливает правый отступ в пунктах в TextFrame. Чтение/запись Double.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает или устанавливает правый отступ в текстовом фрейме. Читаемый/записываемый Double.
 type: docs
 weight: 100
 url: /ru/aspose.slides/textframeformat/marginright/
 ---
 
-## Свойство TextFrameFormat.MarginRight
+## TextFrameFormat.MarginRight свойство
 
-Возвращает или устанавливает правый отступ (пункты) в TextFrame. Чтение/запись Double.
+Возвращает или устанавливает правый отступ (пункты) в текстовом фрейме. Читаемый/записываемый Double.
 
 ```csharp
 public double MarginRight { get; set; }
 ```
 
-### Смотрите также
+### См. Также
 
 * класс [TextFrameFormat](../../textframeformat)
 * пространство имен [Aspose.Slides](../../textframeformat)

@@ -1,21 +1,21 @@
 ---
 title: AsIAccessiblePVIObject
-second_title: Référence API Aspose.Slides pour .NET
-description: Permet d'obtenir l'interface de base IAccessiblePVIObject. Read-only IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Permet d'obtenir l'interface de base IAccessiblePVIObject. Lecture seule IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
 type: docs
 weight: 20
 url: /fr/aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject/
 ---
 
-## Propriété IAlphaModulateFixed.AsIAccessiblePVIObject
+## IAlphaModulateFixed.AsIAccessiblePVIObject propriété
 
-Permet d'obtenir l'interface de base IAccessiblePVIObject. Read-only [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
+Permet d'obtenir l'interface de base IAccessiblePVIObject. Lecture seule [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
 
 ```csharp
 public IAccessiblePVIObject<IAlphaModulateFixedEffectiveData> AsIAccessiblePVIObject { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
 * interface [IAlphaModulateFixedEffectiveData](../../ialphamodulatefixedeffectivedata)

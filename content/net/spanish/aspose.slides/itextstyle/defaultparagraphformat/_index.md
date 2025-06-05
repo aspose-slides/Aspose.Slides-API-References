@@ -1,25 +1,25 @@
 ---
 title: DefaultParagraphFormat
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Propiedades del párrafo por defecto. Solo lectura IParagraphFormataspose.slides/iparagraphformat.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Propiedades predeterminadas del párrafo. Solo lectura IParagraphFormat aspose.slides/iparagraphformat.
 type: docs
 weight: 10
 url: /es/aspose.slides/itextstyle/defaultparagraphformat/
 ---
 
-## Propiedad ITextStyle.DefaultParagraphFormat
+## ITextStyle.DefaultParagraphFormat propiedad
 
-Propiedades del párrafo por defecto. Solo lectura [`IParagraphFormat`](../../iparagraphformat).
+Propiedades predeterminadas del párrafo. Solo lectura [`IParagraphFormat`](../../iparagraphformat).
 
 ```csharp
 public IParagraphFormat DefaultParagraphFormat { get; }
 ```
 
-### Véase también
+### También Visto
 
 * interfaz [IParagraphFormat](../../iparagraphformat)
 * interfaz [ITextStyle](../../itextstyle)
 * espacio de nombres [Aspose.Slides](../../itextstyle)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
-<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

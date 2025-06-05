@@ -1,15 +1,15 @@
 ---
 title: IAlphaFloorEffectiveData
-second_title: Aspose.Slides pour .NET Référence de l'API
-description: Objet immuable qui représente un effet Alpha Floor. Les valeurs d'opacité Alpha inférieures à 100 sont changées en zéro. En d'autres termes, tout ce qui est partiellement transparent devient complètement transparent.
+second_title: Aspose.Slides pour .NET API Reference
+description: Objet immuable qui représente un effet de plancher alpha. Les valeurs d'opacité alpha inférieures à 100 sont changées en zéro. En d'autres termes, tout ce qui est partiellement transparent devient complètement transparent.
 type: docs
 weight: 2970
 url: /fr/aspose.slides.effects/ialphaflooreffectivedata/
 ---
 
-## Interface IAlphaFloorEffectiveData
+## IAlphaFloorEffectiveData interface
 
-Objet immuable qui représente un effet Alpha Floor. Les valeurs d'Alpha (opacité) inférieures à 100 % sont changées en zéro. En d'autres termes, tout ce qui est partiellement transparent devient complètement transparent.
+Objet immuable qui représente un effet de plancher alpha. Les valeurs alpha (opacité) inférieures à 100 % sont changées en zéro. En d'autres termes, tout ce qui est partiellement transparent devient complètement transparent.
 
 ```csharp
 public interface IAlphaFloorEffectiveData : IEffectEffectiveData
@@ -19,9 +19,9 @@ public interface IAlphaFloorEffectiveData : IEffectEffectiveData
 
 | Nom | Description |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaflooreffectivedata/asieffecteffectivedata) { get; } | Permet d'obtenir l'interface de base IEffectEffectiveData. Lecture seule [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaflooreffectivedata/asieffecteffectivedata) { get; } | Permet d'obtenir l'interface de base IEffectEffectiveData. En lecture seule [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
-### Voir aussi
+### À voir aussi
 
 * interface [IEffectEffectiveData](../ieffecteffectivedata)
 * namespace [Aspose.Slides.Effects](../../aspose.slides.effects)

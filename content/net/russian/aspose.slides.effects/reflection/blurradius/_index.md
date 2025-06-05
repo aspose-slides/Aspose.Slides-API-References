@@ -1,6 +1,6 @@
 ---
 title: BlurRadius
-second_title: Aspose.Sildes для справки по API .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Радиус размытия. Чтение/запись Double.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.effects/reflection/blurradius/
 public double BlurRadius { get; set; }
 ```
 
-### Смотрите также
+### Смотрите Также
 
 * класс [Reflection](../../reflection)
 * пространство имен [Aspose.Slides.Effects](../../reflection)

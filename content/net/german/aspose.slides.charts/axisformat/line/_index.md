@@ -1,7 +1,7 @@
 ---
-title: Linie
+title: Line
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Linienstileigenschaften einer Achse zurück. Nur lesbar ILineFormataspose.slides/../aspose.slides/ilineformat.
+description: Gibt die Linienstil-Eigenschaften einer Achse zurück. Nur lesbarer ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/axisformat/line/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/axisformat/line/
 
 ## AxisFormat.Line-Eigenschaft
 
-Gibt die Linienstileigenschaften einer Achse zurück. Nur lesbar [`ILineFormat`](../../../aspose.slides/ilineformat).
+Gibt die Linienstil-Eigenschaften einer Achse zurück. Nur lesbar [`ILineFormat`](../../../aspose.slides/ilineformat).
 
 ```csharp
 public ILineFormat Line { get; }

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.export/svgoptions/wysiwyg/
 ---
+
 ## SVGOptions.WYSIWYG property
 
 Returns settings for most accurate SVG file generation. Read-only [`SVGOptions`](../../svgoptions).

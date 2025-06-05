@@ -1,7 +1,7 @@
 ---
 title: StartPosAlpha
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Startposition entlang des Alpha-Gradientenrampen des Start-Alpha-Werts in Prozent an. Lese-/Schreibzugriff auf Single.
+second_title: Aspose.Sildes for .NET API Reference
+description: Gibt die Startposition entlang der Alpha-Gradientenrampe des Startalphawertes Prozentsätze an. Lese-/schreibbar Single.
 type: docs
 weight: 150
 url: /de/aspose.slides.effects/ireflection/startposalpha/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/ireflection/startposalpha/
 
 ## IReflection.StartPosAlpha-Eigenschaft
 
-Gibt die Startposition (entlang der Alpha-Gradientenrampe) des Start-Alpha-Werts (Prozentsätze) an. Lese-/Schreibzugriff auf Single.
+Gibt die Startposition (entlang der Alpha-Gradientenrampe) des Startalphawertes (Prozentsätze) an. Lese-/schreibbar Single.
 
 ```csharp
 public float StartPosAlpha { get; set; }

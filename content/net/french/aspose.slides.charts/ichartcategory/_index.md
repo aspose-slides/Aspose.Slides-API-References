@@ -19,11 +19,11 @@ public interface IChartCategory
 
 | Nom | Description |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/ichartcategory/ascell) { get; set; } | Renvoie ou définit l'objet IChartDataCell. Si la catégorie est multi-niveaux, alors l'objet IChartDataCell utilisé est celui du niveau "0". Lecture/écriture [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteral](../../aspose.slides.charts/ichartcategory/asliteral) { get; set; } | Renvoie ou définit AsLiteral si UseCell est false. Lecture/écriture Objet. |
-| [GroupingLevels](../../aspose.slides.charts/ichartcategory/groupinglevels) { get; } | Conteneur géré des valeurs des niveaux de regroupement des catégories de graphiques. Une catégorie multi-niveaux contient plus d'un niveau de regroupement. L'indexation des niveaux de regroupement est basée sur zéro. Lecture seule [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
-| [UseCell](../../aspose.slides.charts/ichartcategory/usecell) { get; } | Si vrai, alors la propriété AsCell est active. En d'autres termes, la feuille de calcul est utilisée pour stocker la catégorie (ce cas prend en charge une catégorie multi-niveaux). Si faux, alors la propriété AsLiteral est active. En d'autres termes, la feuille de calcul n'est PAS utilisée pour stocker la catégorie (et ce cas ne prend pas en charge les catégories multi-niveaux). Lecture seule Boolean. |
-| [Value](../../aspose.slides.charts/ichartcategory/value) { get; set; } | Si UseCell est vrai, alors cette propriété représente la propriété AsCell.Value. Si UseCell est faux, alors cette propriété représente la propriété AsLiteral. Lecture/écriture Objet. |
+| [AsCell](../../aspose.slides.charts/ichartcategory/ascell) { get; set; } | Renvoie ou définit l'objet IChartDataCell. Si la catégorie est multi-niveau, alors l'objet IChartDataCell est utilisé pour le niveau "0". Lecture/écriture [`IChartDataCell`](../ichartdatacell). |
+| [AsLiteral](../../aspose.slides.charts/ichartcategory/asliteral) { get; set; } | Renvoie ou définit AsLiteral si UseCell est faux. Lecture/écriture Object. |
+| [GroupingLevels](../../aspose.slides.charts/ichartcategory/groupinglevels) { get; } | Conteneur géré des valeurs des niveaux de regroupement de la catégorie de graphique. Les catégories multi-niveau contiennent plus d'un niveau de regroupement. L'indexation des niveaux de regroupement est basée sur zéro. Lecture seule [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
+| [UseCell](../../aspose.slides.charts/ichartcategory/usecell) { get; } | Si vrai, la propriété AsCell est actuelle. En d'autres termes, la feuille de calcul est utilisée pour stocker la catégorie (ce cas prend en charge une catégorie multi-niveau). Si faux, la propriété AsLiteral est actuelle. En d'autres termes, la feuille de calcul n'est PAS utilisée pour stocker la catégorie (et ce cas ne prend pas en charge les catégories multi-niveau). Lecture seule Boolean. |
+| [Value](../../aspose.slides.charts/ichartcategory/value) { get; set; } | Si UseCell est vrai, cette propriété représente la propriété AsCell.Value. Si UseCell est faux, cette propriété représente la propriété AsLiteral. Lecture/écriture Object. |
 
 ## Méthodes
 

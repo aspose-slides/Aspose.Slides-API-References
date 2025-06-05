@@ -1,7 +1,7 @@
 ---
-title: 距离
-second_title: Aspose.Sildes for .NET API 参考
-description: 阴影的距离。可读写的 Double。
+title: Distance
+second_title: Aspose.Sildes for .NET API Reference
+description: 阴影的距离。可读/写 Double。
 type: docs
 weight: 30
 url: /zh/aspose.slides.effects/outershadow/distance/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.effects/outershadow/distance/
 
 ## OuterShadow.Distance 属性
 
-阴影的距离。可读写的 Double。
+阴影的距离。可读/写 Double。
 
 ```csharp
 public double Distance { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * class [OuterShadow](../../outershadow)
 * namespace [Aspose.Slides.Effects](../../outershadow)

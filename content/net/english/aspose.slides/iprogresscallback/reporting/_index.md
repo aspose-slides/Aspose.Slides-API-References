@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/iprogresscallback/reporting/
 ---
+
 ## IProgressCallback.Reporting method
 
 Reports a progress update.

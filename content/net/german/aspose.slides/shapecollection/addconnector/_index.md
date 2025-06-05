@@ -1,7 +1,7 @@
 ---
 title: AddConnector
 second_title: Aspose.Slides für .NET API-Referenz
-description: Erstellt einen neuen Connector, passt ihn von der Standardvorlage an und fügt ihn am Ende der Sammlung hinzu.
+description: Erstellt einen neuen Connector, passt ihn anhand der Standardvorlage an und fügt ihn am Ende der Sammlung hinzu.
 type: docs
 weight: 120
 url: /de/aspose.slides/shapecollection/addconnector/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/shapecollection/addconnector/
 
 ## AddConnector(ShapeType, float, float, float, float) {#addconnector}
 
-Erstellt einen neuen Connector, passt ihn von der Standardvorlage an und fügt ihn am Ende der Sammlung hinzu.
+Erstellt einen neuen Connector, passt ihn anhand der Standardvorlage an und fügt ihn am Ende der Sammlung hinzu.
 
 ```csharp
 public IConnector AddConnector(ShapeType shapeType, float x, float y, float width, float height)
@@ -18,10 +18,10 @@ public IConnector AddConnector(ShapeType shapeType, float x, float y, float widt
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | shapeType | ShapeType | Der [`ShapeType`](../../shapetype) der Form. |
-| x | Single | Die X-Koordinate für die linke Seite des Rahmens der Form. |
-| y | Single | Die Y-Koordinate für die obere Seite des Rahmens der Form. |
-| width | Single | Die Breite des Rahmens der Form. |
-| height | Single | Die Höhe des Rahmens der Form. |
+| x | Einzel | Die X-Koordinate für die linke Seite des Rahmens der Form. |
+| y | Einzel | Die Y-Koordinate für die obere Seite des Rahmens der Form. |
+| width | Einzel | Die Breite des Rahmens der Form. |
+| height | Einzel | Die Höhe des Rahmens der Form. |
 
 ### Rückgabewert
 
@@ -35,21 +35,21 @@ Das folgende Beispiel zeigt, wie man einen Connector (einen gebogenen Connector)
 
 ```csharp
 [C#]
-// Instanziiert eine Präsentationsklasse, die eine PPTX-Datei repräsentiert
+// Instanziiert eine Präsentationsklasse, die eine PPTX-Datei darstellt
 using (Presentation input = new Presentation())
 {
-    // Greift auf die Sammlung von Formen für eine bestimmte Folie zu
+    // Greift auf die Formensammlung für eine bestimmte Folie zu
     IShapeCollection shapes = input.Slides[0].Shapes;
-    // Fügt eine Ellipse-Autoshape hinzu
+    // Fügt eine Ellipse-Autohform hinzu
     IAutoShape ellipse = shapes.AddAutoShape(ShapeType.Ellipse, 0, 100, 100, 100);
-    // Fügt eine Rechteck-Autoshape hinzu
+    // Fügt eine Rechteck-Autohform hinzu
     IAutoShape rectangle = shapes.AddAutoShape(ShapeType.Rectangle, 100, 300, 100, 100);
     // Fügt der Folienformensammlung eine Connector-Form hinzu
     IConnector connector = shapes.AddConnector(ShapeType.BentConnector2, 0, 0, 10, 10);
     // Verbindet die Formen mit dem Connector
     connector.StartShapeConnectedTo = ellipse;
     connector.EndShapeConnectedTo = rectangle;
-    // Ruft reroute auf, das den automatischen kürzesten Weg zwischen den Formen festlegt
+    // Ruft reroute auf, um den automatischen kürzesten Weg zwischen den Formen festzulegen
     connector.Reroute();
     // Speichert die Präsentation
     input.Save("Shapes-connector.pptx", SaveFormat.Pptx);
@@ -78,11 +78,11 @@ public IConnector AddConnector(ShapeType shapeType, float x, float y, float widt
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | shapeType | ShapeType | Der [`ShapeType`](../../shapetype) der Form. |
-| x | Single | Die X-Koordinate für die linke Seite des Rahmens der Form. |
-| y | Single | Die Y-Koordinate für die obere Seite des Rahmens der Form. |
-| width | Single | Die Breite des Rahmens der Form. |
-| height | Single | Die Höhe des Rahmens der Form. |
-| createFromTemplate | Boolean | Wenn true, wird die neue Form von der Standardvorlage angepasst. Ein nicht leerer Name, einfacher Stil und zentrierter Text werden der neuen Form zugewiesen. Wenn false, haben alle Eigenschaften der neuen Form die Standardwerte. |
+| x | Einzel | Die X-Koordinate für die linke Seite des Rahmens der Form. |
+| y | Einzel | Die Y-Koordinate für die obere Seite des Rahmens der Form. |
+| width | Einzel | Die Breite des Rahmens der Form. |
+| height | Einzel | Die Höhe des Rahmens der Form. |
+| createFromTemplate | Boolean | Wenn true, wird die neue Form von der Standardvorlage abgeleitet. Ein nicht leerer Name, ein einfacher Stil, zentrierter Text werden der neuen Form zugewiesen. Wenn false, haben alle Werte der Eigenschaften der neuen Form die Standardwerte. |
 
 ### Rückgabewert
 

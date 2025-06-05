@@ -1,7 +1,7 @@
 ---
 title: Direction
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Direction de la transition de séparation. Lire/écrire TransitionInOutDirectionTypeaspose.slides.slideshow/transitioninoutdirectiontype.
+description: Direction de la transition divisée. Lire/écrire TransitionInOutDirectionTypeaspose.slides.slideshow/transitioninoutdirectiontype.
 type: docs
 weight: 20
 url: /fr/aspose.slides.slideshow/isplittransition/direction/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.slideshow/isplittransition/direction/
 
 ## Propriété ISplitTransition.Direction
 
-Direction de la transition de séparation. Lire/écrire [`TransitionInOutDirectionType`](../../transitioninoutdirectiontype).
+Direction de la transition divisée. Lire/écrire [`TransitionInOutDirectionType`](../../transitioninoutdirectiontype).
 
 ```csharp
 public TransitionInOutDirectionType Direction { get; set; }

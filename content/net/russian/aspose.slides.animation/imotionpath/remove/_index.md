@@ -1,6 +1,6 @@
 ---
-title: Удалить
-second_title: Справочник по API Aspose.Slides для .NET
+title: Remove
+second_title: Aspose.Slides для .NET API Reference
 description: Удаляет указанные команды из коллекции.
 type: docs
 weight: 70

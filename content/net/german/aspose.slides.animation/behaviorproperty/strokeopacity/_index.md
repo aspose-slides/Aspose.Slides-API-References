@@ -9,13 +9,13 @@ url: /de/aspose.slides.animation/behaviorproperty/strokeopacity/
 
 ## BehaviorProperty.StrokeOpacity-Eigenschaft
 
-Stellt die Eigenschaft 'stroke.opacity' dar
+Stellt die 'stroke.opacity'-Eigenschaft dar
 
 ```csharp
 public static BehaviorProperty StrokeOpacity { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [BehaviorProperty](../../behaviorproperty)
 * Namespace [Aspose.Slides.Animation](../../behaviorproperty)

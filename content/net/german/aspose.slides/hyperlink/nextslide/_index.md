@@ -1,7 +1,7 @@
 ---
 title: NextSlide
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt einen Hyperlink zur nächsten Folie zurück. Nur-Lese Hyperlink aspose.slides/hyperlink.
+description: Gibt einen Hyperlink zur nächsten Folie zurück. Schreibgeschützter Hyperlinkaspose.slides/hyperlink.
 type: docs
 weight: 70
 url: /de/aspose.slides/hyperlink/nextslide/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/hyperlink/nextslide/
 
 ## Hyperlink.NextSlide-Eigenschaft
 
-Gibt einen Hyperlink zur nächsten Folie zurück. Nur-Lese [`Hyperlink`](../../hyperlink).
+Gibt einen Hyperlink zur nächsten Folie zurück. Schreibgeschützter [`Hyperlink`](../../hyperlink).
 
 ```csharp
 public static Hyperlink NextSlide { get; }

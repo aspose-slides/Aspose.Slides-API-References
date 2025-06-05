@@ -6,6 +6,7 @@ type: docs
 weight: 220
 url: /aspose.slides/cell/textframe/
 ---
+
 ## Cell.TextFrame property
 
 Returns the text frame of a cell. Read-only [`ITextFrame`](../../itextframe).

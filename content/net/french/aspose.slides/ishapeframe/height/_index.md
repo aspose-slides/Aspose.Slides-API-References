@@ -1,7 +1,7 @@
 ---
-title: Hauteur
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie la hauteur d'un cadre. En lecture seule Single.
+title: Height
+second_title: Aspose.Sildes pour .NET API Référence
+description: Renvoie la hauteur d'un cadre. Lecture seule Single.
 type: docs
 weight: 50
 url: /fr/aspose.slides/ishapeframe/height/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ishapeframe/height/
 
 ## Propriété IShapeFrame.Height
 
-Renvoie la hauteur d'un cadre. En lecture seule Single.
+Renvoie la hauteur d'un cadre. Lecture seule Single.
 
 ```csharp
 public float Height { get; }

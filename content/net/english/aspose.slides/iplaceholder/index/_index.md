@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/iplaceholder/index/
 ---
+
 ## IPlaceholder.Index property
 
 Gets the index of a placeholder. Read-only UInt32.

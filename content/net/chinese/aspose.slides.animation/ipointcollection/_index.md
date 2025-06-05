@@ -19,11 +19,11 @@ public interface IPointCollection : IEnumerable<IPoint>
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/ipointcollection/asienumerable) { get; } | 允许获取基本的 IEnumerable 接口。只读 IEnumerable。 |
+| [AsIEnumerable](../../aspose.slides.animation/ipointcollection/asienumerable) { get; } | 允许获取基础的 IEnumerable 接口。只读 IEnumerable。 |
 | [Count](../../aspose.slides.animation/ipointcollection/count) { get; } | 返回集合中的点的数量。只读 Int32。 |
 | [Item](../../aspose.slides.animation/ipointcollection/item) { get; } | 返回指定索引处的点。 |
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IPoint](../ipoint)
 * 命名空间 [Aspose.Slides.Animation](../../aspose.slides.animation)

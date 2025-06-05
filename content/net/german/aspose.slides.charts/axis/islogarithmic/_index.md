@@ -1,7 +1,7 @@
 ---
 title: IsLogarithmic
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt dar, ob der Typ der Wertachse logarithmisch ist oder nicht. Lese-/Schreib-Boolean.
+description: Stellt dar, ob der Skalentyp der Wertachse logarithmisch ist oder nicht. Lese-/schreibbare Boolean.
 type: docs
 weight: 260
 url: /de/aspose.slides.charts/axis/islogarithmic/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/axis/islogarithmic/
 
 ## Axis.IsLogarithmic-Eigenschaft
 
-Stellt dar, ob der Typ der Wertachse logarithmisch ist oder nicht. Lese-/Schreib-Boolean.
+Stellt dar, ob der Skalentyp der Wertachse logarithmisch ist oder nicht. Lese-/schreibbare Boolean.
 
 ```csharp
 public bool IsLogarithmic { get; set; }

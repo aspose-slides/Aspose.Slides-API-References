@@ -1,15 +1,15 @@
 ---
-title: 输出
-second_title: Aspose.Slides for .NET API 参考
-description: 代表 IWebDocument 的输出元素集合。
+title: Output
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示 IWebDocument 的输出元素集合。
 type: docs
 weight: 4450
 url: /zh/aspose.slides.export.web/output/
 ---
 
-## Output 类
+## Output class
 
-代表 IWebDocument 的输出元素集合。
+表示 IWebDocument 的输出元素集合。
 
 ```csharp
 public sealed class Output
@@ -28,7 +28,7 @@ public sealed class Output
 | [BindResource](../../aspose.slides.export.web/output/bindresource)(IOutputFile, object) | 将资源绑定到输出文件。 |
 | [GetResourcePath](../../aspose.slides.export.web/output/getresourcepath)(object) | 返回给定资源的路径。 |
 
-### 另请参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * 程序集 [Aspose.Slides](../../)

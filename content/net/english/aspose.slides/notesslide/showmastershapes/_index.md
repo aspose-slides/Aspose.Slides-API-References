@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/notesslide/showmastershapes/
 ---
+
 ## NotesSlide.ShowMasterShapes property
 
 Specifies if shapes on the master slide should be shown on slides or not. Read/write Boolean.

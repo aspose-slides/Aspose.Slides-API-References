@@ -1,6 +1,6 @@
 ---
-title: Abstand
-second_title: Aspose.Slides für .NET API-Referenz
+title: Distance
+second_title: Aspose.Slides für .NET API Referenz
 description: Abstand des Schattens. Lese-/Schreib-Doppel.
 type: docs
 weight: 50
@@ -15,7 +15,7 @@ Abstand des Schattens. Lese-/Schreib-Doppel.
 public double Distance { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IOuterShadow](../../ioutershadow)
 * Namespace [Aspose.Slides.Effects](../../ioutershadow)

@@ -1,15 +1,15 @@
 ---
 title: CenterX
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Retorna la coordenada X del centro de un marco. Solo lectura Single.
+description: Devuelve la coordenada X del centro de un marco. Solo lectura Single.
 type: docs
 weight: 10
 url: /es/aspose.slides/ishapeframe/centerx/
 ---
 
-## Propiedad IShapeFrame.CenterX
+## IShapeFrame.CenterX propiedad
 
-Retorna la coordenada X del centro de un marco. Solo lectura Single.
+Devuelve la coordenada X del centro de un marco. Solo lectura Single.
 
 ```csharp
 public float CenterX { get; }
@@ -19,6 +19,6 @@ public float CenterX { get; }
 
 * interfaz [IShapeFrame](../../ishapeframe)
 * espacio de nombres [Aspose.Slides](../../ishapeframe)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

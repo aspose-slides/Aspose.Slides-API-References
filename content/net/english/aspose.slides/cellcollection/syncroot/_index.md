@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/cellcollection/syncroot/
 ---
+
 ## CellCollection.SyncRoot property
 
 Returns a synchronization root. Read-only Object.

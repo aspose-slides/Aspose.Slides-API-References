@@ -1,15 +1,15 @@
 ---
-title: База
+title: Base
 second_title: Справочник по API Aspose.Slides для .NET
-description: Аргумент базы
+description: Базовый аргумент
 type: docs
 weight: 30
 url: /ru/aspose.slides.mathtext/imathbox/base/
 ---
 
-## Свойство IMathBox.Base
+## IMathBox.Base свойство
 
-Аргумент базы
+Базовый аргумент
 
 ```csharp
 public IMathElement Base { get; }
@@ -25,7 +25,7 @@ IMathBox box = new MathematicalText("==").ToBox();
 IMathElement base = box.Base;
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [IMathElement](../../imathelement)
 * интерфейс [IMathBox](../../imathbox)

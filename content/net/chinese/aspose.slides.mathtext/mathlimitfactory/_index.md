@@ -1,13 +1,13 @@
 ---
 title: MathLimitFactory
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 允许创建 IMathLimit
 type: docs
 weight: 8570
 url: /zh/aspose.slides.mathtext/mathlimitfactory/
 ---
 
-## MathLimitFactory 类
+## MathLimitFactory class
 
 允许创建 IMathLimit
 
@@ -30,7 +30,7 @@ public class MathLimitFactory : IMathLimitFactory
 
 ### 备注
 
-用于 COM 兼容性
+为了与 COM 兼容
 
 ### 另请参阅
 

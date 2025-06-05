@@ -1,15 +1,15 @@
 ---
-title: Speichern
+title: Save
 second_title: Aspose.Slides für .NET API-Referenz
-description: Speichert die Dokumentausgabe.
+description: Speichert die Dokumentenausgabe.
 type: docs
 weight: 50
 url: /de/aspose.slides.export.web/webdocument/save/
 ---
 
-## WebDocument.Save-Methode
+## WebDocument.Save Methode
 
-Speichert die Dokumentausgabe.
+Speichert die Dokumentenausgabe.
 
 ```csharp
 public void Save()
@@ -30,10 +30,10 @@ using (Presentation pres = new Presentation("pres.pptx"))
     
     WebDocument document = new WebDocument(options);
 
-    // Add "index-template.html" Template mit "index" Template-Schlüssel, um es später (für Output) zu verwenden
+    // Fügen Sie die "index-template.html" Vorlage mit dem "index" Vorlagenschlüssel hinzu, um sie später (für die Ausgabe) zu verwenden
     document.Input.AddTemplate<Aspose.Slides.Presentation>("index", "index-template.html");
 
-    // Füge "index.html" zu den Ausgabedateien hinzu, wobei "index"-Template zur Generierung und die pres-Variable als Modell verwendet wird
+    // Fügen Sie "index.html" zu den Ausgabedateien hinzu, verwenden Sie die "index" Vorlage, um es zu generieren, und die pres-Variable als Modell
     document.Output.Add("index.html", "index", pres);
     
     // ... richten Sie andere Optionen des Dokuments ein und speichern Sie dann das Dokument

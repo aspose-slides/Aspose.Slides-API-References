@@ -1,7 +1,7 @@
 ---
 title: Overlay
 second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob anderen Grafikelementen erlaubt werden soll, die Legende zu überlappen. Lese-/Schreibbarer Boolean.
+description: Bestimmt, ob andere Diagrammelemente über die Legende überlappen dürfen. Lese-/Schreib-Boolean.
 type: docs
 weight: 60
 url: /de/aspose.slides.charts/legend/overlay/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/legend/overlay/
 
 ## Legend.Overlay-Eigenschaft
 
-Bestimmt, ob anderen Grafikelementen erlaubt werden soll, die Legende zu überlappen. Lese-/Schreibbarer Boolean.
+Bestimmt, ob andere Diagrammelemente über die Legende überlappen dürfen. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool Overlay { get; set; }

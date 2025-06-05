@@ -1,21 +1,21 @@
 ---
 title: AutoShapeLock
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie les verrouillages d'AutoShapes. Lecture seule IAutoShapeLock aspose.slides/iautoshapelock.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie les verrous des AutoShapes. Lecture seule IAutoShapeLockaspose.slides/iautoshapelock.
 type: docs
 weight: 20
 url: /fr/aspose.slides/iautoshape/autoshapelock/
 ---
 
-## Propriété IAutoShape.AutoShapeLock
+## IAutoShape.AutoShapeLock propriété
 
-Renvoie les verrouillages d'AutoShape. Lecture seule [`IAutoShapeLock`](../../iautoshapelock).
+Renvoie les verrous de l'AutoShape. Lecture seule [`IAutoShapeLock`](../../iautoshapelock).
 
 ```csharp
 public IAutoShapeLock AutoShapeLock { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IAutoShapeLock](../../iautoshapelock)
 * interface [IAutoShape](../../iautoshape)

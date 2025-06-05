@@ -1,7 +1,7 @@
 ---
-title: Скрытый
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, скрыта ли фигура. Читаемое/записываемое логическое значение.
+title: Hidden
+second_title: Aspose.Sildes для .NET API Reference
+description: Определяет, скрыта ли фигура. Читаемое/записываемое булево значение.
 type: docs
 weight: 100
 url: /ru/aspose.slides/shape/hidden/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/shape/hidden/
 
 ## Свойство Shape.Hidden
 
-Определяет, скрыта ли фигура. Читаемое/записываемое логическое значение.
+Определяет, скрыта ли фигура. Читаемое/записываемое булево значение.
 
 ```csharp
 public bool Hidden { get; set; }

@@ -1,15 +1,15 @@
 ---
 title: SeparatorCharacter
-second_title: Aspose.Slides для .NET API Справочник
-description: Символ-разделитель указывает символ, который разделяет аргументы в объекте разделителя. По умолчанию x7C.
+second_title: Aspose.Sildes для .NET API Reference
+description: Символ-разделитель указывает на символ, который разделяет аргументы в объекте-разделителе. По умолчанию x7C.
 type: docs
 weight: 70
 url: /ru/aspose.slides.mathtext/imathdelimiter/separatorcharacter/
 ---
 
-## Свойство IMathDelimiter.SeparatorCharacter
+## IMathDelimiter.SeparatorCharacter свойство
 
-Символ-разделитель указывает символ, который разделяет аргументы в объекте разделителя. По умолчанию: '&#x7C;'.
+Символ-разделитель указывает на символ, который разделяет аргументы в объекте-разделителе. По умолчанию: '&#x7C;'.
 
 ```csharp
 public char SeparatorCharacter { get; set; }

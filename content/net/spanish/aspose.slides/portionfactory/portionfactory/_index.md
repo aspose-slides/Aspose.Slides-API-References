@@ -15,10 +15,10 @@ El constructor predeterminado.
 public PortionFactory()
 ```
 
-### Ver También
+### Véase también
 
 * clase [PortionFactory](../../portionfactory)
 * espacio de nombres [Aspose.Slides](../../portionfactory)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

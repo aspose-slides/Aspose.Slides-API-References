@@ -1,13 +1,13 @@
 ---
 title: ChartData
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Renvoie des informations sur les données liées ou intégrées associées à un graphique. Lecture seule IChartDataaspose.slides.charts/ichartdata.
 type: docs
 weight: 60
 url: /fr/aspose.slides.charts/ichart/chartdata/
 ---
 
-## Propriété IChart.ChartData
+## IChart.ChartData propriété
 
 Renvoie des informations sur les données liées ou intégrées associées à un graphique. Lecture seule [`IChartData`](../../ichartdata).
 

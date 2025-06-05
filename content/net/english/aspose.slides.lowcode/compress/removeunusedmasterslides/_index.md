@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.lowcode/compress/removeunusedmasterslides/
 ---
+
 ## Compress.RemoveUnusedMasterSlides method
 
 Makes compression of the [`Presentation`](../../../aspose.slides/presentation) by removing unused master slides.

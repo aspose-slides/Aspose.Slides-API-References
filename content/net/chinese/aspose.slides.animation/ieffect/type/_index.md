@@ -1,7 +1,7 @@
 ---
-title: 类型
-second_title: Aspose.Slides for .NET API 参考
-description: 定义效果的类型。可读/写 EffectTypeaspose.slides.animation/effecttype。
+title: Type
+second_title: Aspose.Slide for .NET API参考
+description: 定义效果的类型。可以读写EffectTypeaspose.slides.animation/effecttype。
 type: docs
 weight: 140
 url: /zh/aspose.slides.animation/ieffect/type/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/ieffect/type/
 
 ## IEffect.Type 属性
 
-定义效果的类型。可读/写 [`EffectType`](../../effecttype)。
+定义效果的类型。可以读写 [`EffectType`](../../effecttype)。
 
 ```csharp
 public EffectType Type { get; set; }

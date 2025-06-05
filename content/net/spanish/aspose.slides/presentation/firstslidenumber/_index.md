@@ -15,7 +15,7 @@ Representa el primer número de diapositiva en la presentación
 public int FirstSlideNumber { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [Presentation](../../presentation)
 * espacio de nombres [Aspose.Slides](../../presentation)

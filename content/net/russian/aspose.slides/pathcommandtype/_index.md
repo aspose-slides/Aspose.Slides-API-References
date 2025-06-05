@@ -1,7 +1,7 @@
 ---
 title: PathCommandType
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет команды графического пути
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет команды графических путей
 type: docs
 weight: 9050
 url: /ru/aspose.slides/pathcommandtype/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/pathcommandtype/
 
 ## Перечисление PathCommandType
 
-Представляет команды графического пути
+Представляет команды графических путей
 
 ```csharp
 public enum PathCommandType : byte
@@ -20,9 +20,9 @@ public enum PathCommandType : byte
 | Имя | Значение | Описание |
 | --- | --- | --- |
 | Close | `0` | Закрывает геометрический путь |
-| MoveTo | `1` | Устанавливает позицию следующей точки геометрического пути |
+| MoveTo | `1` | Устанавливает положение следующей точки геометрического пути |
 | LineTo | `2` | Добавляет линию к геометрическому пути |
-| ArcTo | `3` | Добавляет указанный дугу к геометрическому пути. |
+| ArcTo | `3` | Добавляет указанный дугой к геометрическому пути. |
 | QuadBezierTo | `4` | Добавляет квадратичную кривую Безье к геометрическому пути |
 | CubicBezierTo | `5` | Добавляет кубическую кривую Безье к геометрическому пути |
 

@@ -1,15 +1,15 @@
 ---
-title: JustificationVerticale
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Justification verticale du caractère de groupe. Spécifie l'alignement de l'objet par rapport à la ligne de base. Par exemple, lorsque le caractère de groupe est au-dessus de l'objet, la JustificationVerticale de Haut signifie que le haut de l'objet est aligné avec la ligne de base ; lorsque la JustificationVerticale est définie sur Bas, le bas de l'objet est sur la ligne de base. Par défaut  Bas pour Position=Haut, et Haut pour Position=Bas
+title: VerticalJustification
+second_title: Aspose.Slide pour .NET API Référence
+description: Justification verticale du caractère de groupe. Spécifie l'alignement de l'objet par rapport à la ligne de base. Par exemple, lorsque le caractère de groupe est au-dessus de l'objet, VerticalJustification de Top signifie que le haut de l'objet se trouve sur la ligne de base ; lorsque VerticalJustification est réglé sur Bottom, le bas de l'objet est sur la ligne de base. Par défaut  Bottom pour Position=Top, et Top pour Position=Bottom
 type: docs
 weight: 50
 url: /fr/aspose.slides.mathtext/imathgroupingcharacter/verticaljustification/
 ---
 
-## Propriété IMathGroupingCharacter.VerticalJustification
+## IMathGroupingCharacter.VerticalJustification property
 
-Justification verticale du caractère de groupe. Spécifie l'alignement de l'objet par rapport à la ligne de base. Par exemple, lorsque le caractère de groupe est au-dessus de l'objet, la JustificationVerticale de Haut signifie que le haut de l'objet est aligné avec la ligne de base ; lorsque la JustificationVerticale est définie sur Bas, le bas de l'objet est sur la ligne de base. Par défaut : Bas pour Position=Haut, et Haut pour Position=Bas
+Justification verticale du caractère de groupe. Spécifie l'alignement de l'objet par rapport à la ligne de base. Par exemple, lorsque le caractère de groupe est au-dessus de l'objet, VerticalJustification de Top signifie que le haut de l'objet se trouve sur la ligne de base ; lorsque VerticalJustification est réglé sur Bottom, le bas de l'objet est sur la ligne de base. Par défaut : Bottom pour Position=Top, et Top pour Position=Bottom
 
 ```csharp
 public MathTopBotPositions VerticalJustification { get; set; }
@@ -17,7 +17,7 @@ public MathTopBotPositions VerticalJustification { get; set; }
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

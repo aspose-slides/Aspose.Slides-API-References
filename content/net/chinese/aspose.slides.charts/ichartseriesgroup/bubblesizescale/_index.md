@@ -1,7 +1,7 @@
 ---
 title: BubbleSizeScale
-second_title: Aspose.Slides for .NET API 参考
-description: 指定气泡图的比例因子，可以在默认大小的0到300百分比之间。可读写 Int32。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定气泡图的缩放因子，可以介于默认大小的0到300百分比之间。可读写 Int32。
 type: docs
 weight: 30
 url: /zh/aspose.slides.charts/ichartseriesgroup/bubblesizescale/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ichartseriesgroup/bubblesizescale/
 
 ## IChartSeriesGroup.BubbleSizeScale 属性
 
-指定气泡图的比例因子（可以在默认大小的0到300百分比之间）。可读写 Int32。
+指定气泡图的缩放因子（可以介于默认大小的0到300百分比之间）。可读写 Int32。
 
 ```csharp
 public int BubbleSizeScale { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IChartSeriesGroup](../../ichartseriesgroup)
 * 命名空间 [Aspose.Slides.Charts](../../ichartseriesgroup)

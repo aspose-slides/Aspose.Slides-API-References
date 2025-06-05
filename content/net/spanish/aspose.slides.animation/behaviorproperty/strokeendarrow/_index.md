@@ -1,24 +1,24 @@
----
+---  
 title: StrokeEndArrow
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API  
 description: Representa la propiedad stroke.endArrow
-type: docs
-weight: 910
+type: docs  
+weight: 910  
 url: /es/aspose.slides.animation/behaviorproperty/strokeendarrow/
----
+---  
 
-## Propiedad BehaviorProperty.StrokeEndArrow
+## Propiedad BehaviorProperty.StrokeEndArrow  
 
-Representa la propiedad 'stroke.endArrow'
+Representa la propiedad 'stroke.endArrow'  
 
-```csharp
-public static BehaviorProperty StrokeEndArrow { get; }
-```
+```csharp  
+public static BehaviorProperty StrokeEndArrow { get; }  
+```  
 
-### Véase también
+### Ver También  
 
-* clase [BehaviorProperty](../../behaviorproperty)
-* espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)
-* ensamblado [Aspose.Slides](../../../)
+* clase [BehaviorProperty](../../behaviorproperty)  
+* espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)  
+* ensamblaje [Aspose.Slides](../../../)  
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

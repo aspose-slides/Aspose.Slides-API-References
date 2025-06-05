@@ -17,9 +17,9 @@ public void AddHtml(string html)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| html | String | Text, der hinzugefügt werden soll. |
+| html | String | Hinzuzufügender Text. |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [HtmlGenerator](../../htmlgenerator)
 * Namespace [Aspose.Slides.Export](../../htmlgenerator)
@@ -37,9 +37,9 @@ public void AddHtml(char[] html)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| html | Char[] | Text, der hinzugefügt werden soll. |
+| html | Char[] | Hinzuzufügender Text. |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [HtmlGenerator](../../htmlgenerator)
 * Namespace [Aspose.Slides.Export](../../htmlgenerator)
@@ -57,11 +57,11 @@ public void AddHtml(char[] html, int startIndex, int length)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| html | Char[] | Text, der hinzugefügt werden soll. |
-| startIndex | Int32 | Startindex des hinzuzufügenden Abschnitts. |
-| length | Int32 | Länge des hinzuzufügenden Abschnitts. |
+| html | Char[] | Hinzuzufügender Text. |
+| startIndex | Int32 | Startindex des hinzuzufügenden Teils. |
+| length | Int32 | Länge des hinzuzufügenden Teils. |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [HtmlGenerator](../../htmlgenerator)
 * Namespace [Aspose.Slides.Export](../../htmlgenerator)

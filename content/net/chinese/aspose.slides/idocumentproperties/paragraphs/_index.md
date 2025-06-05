@@ -1,7 +1,7 @@
 ---
-title: 段落
-second_title: Aspose.Slides for .NET API 参考
-description: 指定文档中找到的段落总数（如适用）。只读 Int32。
+title: Paragraphs
+second_title: Aspose.Sildes for .NET API 参考
+description: 指定文档中找到的段落总数（如果适用）。只读 Int32。
 type: docs
 weight: 250
 url: /zh/aspose.slides/idocumentproperties/paragraphs/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/idocumentproperties/paragraphs/
 
 ## IDocumentProperties.Paragraphs 属性
 
-指定文档中找到的段落总数（如适用）。只读 Int32。
+指定文档中找到的段落总数（如果适用）。只读 Int32。
 
 ```csharp
 public int Paragraphs { get; }
 ```
 
-### 参见
+### 另见
 
 * 接口 [IDocumentProperties](../../idocumentproperties)
 * 命名空间 [Aspose.Slides](../../idocumentproperties)

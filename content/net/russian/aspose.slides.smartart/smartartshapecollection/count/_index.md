@@ -1,15 +1,15 @@
 ---
-title: Количество
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
+title: Count
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает количество элементов, действительно содержащихся в коллекции. Только для чтения Int32.
 type: docs
 weight: 10
 url: /ru/aspose.slides.smartart/smartartshapecollection/count/
 ---
 
-## Свойство SmartArtShapeCollection.Count
+## SmartArtShapeCollection.Count свойство
 
-Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
+Получает количество элементов, действительно содержащихся в коллекции. Только для чтения Int32.
 
 ```csharp
 public int Count { get; }

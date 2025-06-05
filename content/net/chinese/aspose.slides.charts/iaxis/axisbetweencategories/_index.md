@@ -1,7 +1,7 @@
 ---
-title: 分类之间的轴
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示值轴是否在类别之间穿过类别轴。此属性仅适用于类别轴，不适用于 3-D 图表。可读写布尔值。
+title: AxisBetweenCategories
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示值轴是否在类别之间穿过类别轴。此属性仅适用于类别轴，不适用于三维图表。可读/写布尔值。
 type: docs
 weight: 90
 url: /zh/aspose.slides.charts/iaxis/axisbetweencategories/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/iaxis/axisbetweencategories/
 
 ## IAxis.AxisBetweenCategories 属性
 
-表示值轴是否在类别之间穿过类别轴。此属性仅适用于类别轴，不适用于 3-D 图表。可读写布尔值。
+表示值轴是否在类别之间穿过类别轴。此属性仅适用于类别轴，不适用于三维图表。可读/写布尔值。
 
 ```csharp
 public bool AxisBetweenCategories { get; set; }

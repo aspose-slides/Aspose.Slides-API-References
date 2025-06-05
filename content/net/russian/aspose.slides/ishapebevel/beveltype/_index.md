@@ -1,6 +1,6 @@
 ---
 title: BevelType
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Тип фаски. Чтение/запись BevelPresetTypeaspose.slides/bevelpresettype.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ishapebevel/beveltype/
 public BevelPresetType BevelType { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * enum [BevelPresetType](../../bevelpresettype)
 * interface [IShapeBevel](../../ishapebevel)

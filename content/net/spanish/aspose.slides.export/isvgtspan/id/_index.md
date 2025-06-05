@@ -7,7 +7,7 @@ weight: 10
 url: /es/aspose.slides.export/isvgtspan/id/
 ---
 
-## Propiedad ISvgTSpan.Id
+## ISvgTSpan.Id property
 
 Obtiene o establece el id para el elemento "tspan"
 

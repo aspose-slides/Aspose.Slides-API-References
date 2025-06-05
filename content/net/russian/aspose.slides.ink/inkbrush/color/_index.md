@@ -1,13 +1,13 @@
 ---
-title: Цвет
-second_title: Справочник по API Aspose.Slides для .NET
+title: Color
+second_title: Aspose.Sildes for .NET API Reference
 description: Получает или устанавливает цвет кисти для линии.
 type: docs
 weight: 10
 url: /ru/aspose.slides.ink/inkbrush/color/
 ---
 
-## Свойство InkBrush.Color
+## InkBrush.Color свойство
 
 Получает или устанавливает цвет кисти для линии.
 
@@ -31,7 +31,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. также
+### См. Также
 
 * класс [InkBrush](../../inkbrush)
 * пространство имен [Aspose.Slides.Ink](../../inkbrush)

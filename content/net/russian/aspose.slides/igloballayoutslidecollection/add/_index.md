@@ -1,13 +1,13 @@
 ---
-title: Добавить
-second_title: Справочник по API Aspose.Slides для .NET
+title: Add
+second_title: Aspose.Sildes для .NET API Reference
 description: Добавляет новый слайд макета в презентацию.
 type: docs
 weight: 20
 url: /ru/aspose.slides/igloballayoutslidecollection/add/
 ---
 
-## Метод IGlobalLayoutSlideCollection.Add
+## IGlobalLayoutSlideCollection.Add метод
 
 Добавляет новый слайд макета в презентацию.
 
@@ -17,9 +17,9 @@ public ILayoutSlide Add(IMasterSlide master, SlideLayoutType layoutType, string 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| master | IMasterSlide | Основной слайд для нового макета. |
-| layoutType | SlideLayoutType | Тип макета для нового макета. Поддерживаемые типы макетов: Title, TitleOnly, Blank, TitleAndObject, VerticalText, VerticalTitleAndText, TwoObjects, SectionHeader, TwoTextAndTwoObjects, TitleObjectAndCaption, PictureAndCaption, Custom. Другие типы макетов сейчас не поддерживаются: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
-| layoutName | String | Имя для нового макета. Если переданное имя уже используется, будет выброшено исключение ArgumentException. Если передан параметр null, будет автоматически сгенерировано имя в зависимости от переданного типа макета (например, "Title Slide" или "1_Title Slide", "2_..", и т.д.). |
+| master | IMasterSlide | Мастер-слайд для нового макета. |
+| layoutType | SlideLayoutType | Тип макета для нового слайда. Поддерживаемые типы макетов: Title, TitleOnly, Blank, TitleAndObject, VerticalText, VerticalTitleAndText, TwoObjects, SectionHeader, TwoTextAndTwoObjects, TitleObjectAndCaption, PictureAndCaption, Custom. Другие типы макетов в настоящее время не поддерживаются: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
+| layoutName | String | Имя для нового макета. Если переданное имя уже используется, будет выброшено исключение ArgumentException. Если передан null, то имя генерируется автоматически в зависимости от переданного типа макета (например, "Title Slide" или "1_Title Slide", "2_..", и т.д.). |
 
 ### Возвращаемое значение
 
@@ -29,16 +29,16 @@ public ILayoutSlide Add(IMasterSlide master, SlideLayoutType layoutType, string 
 
 | исключение | условие |
 | --- | --- |
-| NotImplementedException | Выбрасывается, если передано неподдерживаемое значение параметра *layoutType*. Типы макетов, которые сейчас не поддерживаются: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
-| ArgumentNullException | Выбрасывается, если *master* равно null. |
+| NotImplementedException | Выбрасывается, если передано неподдерживаемое значение параметра *layoutType*. Типы макетов, которые в настоящее время не поддерживаются: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
+| ArgumentNullException | Выбрасывается, если *master* равен null. |
 | ArgumentException | Выбрасывается, если *master* принадлежит другой презентации. |
 | ArgumentException | Выбрасывается, если значение имени макета *layoutName* уже используется в коллекции макетов *master*. |
 
 ### Примечания
 
-1) Добавленный макет для значения SlideLayoutType.Custom из *layoutType* не содержит заполнителей и фигур. 2) Аналогом этого метода является метод [`Add`](../../imasterlayoutslidecollection/add), доступный через свойство [`LayoutSlides`](../../imasterslide/layoutslides).
+1) Добавленный макет для значения SlideLayoutType.Custom в *layoutType* не содержит заполнителей и фигур. 2) Аналогом этого метода является метод [`Add`](../../imasterlayoutslidecollection/add), который доступен через свойство [`LayoutSlides`](../../imasterslide/layoutslides).
 
-### См. также
+### Смотрите также
 
 * интерфейс [ILayoutSlide](../../ilayoutslide)
 * интерфейс [IMasterSlide](../../imasterslide)
@@ -47,4 +47,4 @@ public ILayoutSlide Add(IMasterSlide master, SlideLayoutType layoutType, string 
 * пространство имен [Aspose.Slides](../../igloballayoutslidecollection)
 * сборка [Aspose.Slides](../../../)
 
-<!-- DO NOT EDIT: сгенерировано xmldocmd для Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

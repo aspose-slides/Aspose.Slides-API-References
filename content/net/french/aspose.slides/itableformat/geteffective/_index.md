@@ -1,6 +1,6 @@
 ---
 title: GetEffective
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Aspose.Slides pour la référence de l'API .NET
 description: Obtient les propriétés de formatage de tableau effectives avec héritage et styles de tableau appliqués.
 type: docs
 weight: 30
@@ -15,11 +15,11 @@ Obtient les propriétés de formatage de tableau effectives avec héritage et st
 public ITableFormatEffectiveData GetEffective()
 ```
 
-### Valeur de retour
+### Valeur de Retour
 
 Un [`ITableFormatEffectiveData`](../../itableformateffectivedata).
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ITableFormatEffectiveData](../../itableformateffectivedata)
 * interface [ITableFormat](../../itableformat)

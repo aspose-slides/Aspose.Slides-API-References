@@ -1,7 +1,7 @@
 ---
 title: IChartDataPointLevelsManager
-second_title: Aspose.Slides for .NET API 参考
-description: 数据点级别的容器。应用于 Treeamp 和 Sunburst 系列。数据点级别索引是零基的。
+second_title: Aspose.Sildes for .NET API Reference
+description: 数据点级别的容器。应用于 Treeamp 和 Sunburst 系列。数据点级别的索引是零基的。
 type: docs
 weight: 1770
 url: /zh/aspose.slides.charts/ichartdatapointlevelsmanager/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ichartdatapointlevelsmanager/
 
 ## IChartDataPointLevelsManager 接口
 
-数据点级别的容器。应用于 Treeamp 和 Sunburst 系列。数据点级别索引是零基的。
+数据点级别的容器。应用于 Treeamp 和 Sunburst 系列。数据点级别的索引是零基的。
 
 ```csharp
 public interface IChartDataPointLevelsManager
@@ -19,7 +19,7 @@ public interface IChartDataPointLevelsManager
 
 | 名称 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides.charts/ichartdatapointlevelsmanager/count) { get; } | 返回数据点级别的数量。 |
+| [Count](../../aspose.slides.charts/ichartdatapointlevelsmanager/count) { get; } | 返回数据点级别的计数。 |
 | [Item](../../aspose.slides.charts/ichartdatapointlevelsmanager/item) { get; } | 返回定义级别的 IChartDataPointLevel 对象。 |
 
 ### 另见

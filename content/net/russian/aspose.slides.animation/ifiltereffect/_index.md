@@ -1,6 +1,6 @@
 ---
 title: IFilterEffect
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: Представляет эффект фильтра поведения.
 type: docs
 weight: 420
@@ -20,11 +20,11 @@ public interface IFilterEffect : IBehavior
 | Имя | Описание |
 | --- | --- |
 | [AsIBehavior](../../aspose.slides.animation/ifiltereffect/asibehavior) { get; } | Позволяет получить базовый интерфейс IBehavior. Только для чтения [`IBehavior`](../ibehavior). |
-| [Reveal](../../aspose.slides.animation/ifiltereffect/reveal) { get; set; } | Представляет, что эффект с поведением должен раскрывать (вход/выход). Чтение/запись [`FilterEffectRevealType`](../filtereffectrevealtype). |
-| [Subtype](../../aspose.slides.animation/ifiltereffect/subtype) { get; set; } | Представляет подтип эффекта фильтра. Чтение/запись [`FilterEffectSubtype`](../filtereffectsubtype). |
-| [Type](../../aspose.slides.animation/ifiltereffect/type) { get; set; } | Представляет тип эффекта фильтра. Чтение/запись [`FilterEffectType`](../filtereffecttype). |
+| [Reveal](../../aspose.slides.animation/ifiltereffect/reveal) { get; set; } | Представляет, что эффект с поведением должен открываться (в/из) Читаемое/пишущее [`FilterEffectRevealType`](../filtereffectrevealtype). |
+| [Subtype](../../aspose.slides.animation/ifiltereffect/subtype) { get; set; } | Представляет подтип эффекта фильтра. Читаемое/пишущее [`FilterEffectSubtype`](../filtereffectsubtype). |
+| [Type](../../aspose.slides.animation/ifiltereffect/type) { get; set; } | Представляет тип эффекта фильтра. Читаемое/пишущее [`FilterEffectType`](../filtereffecttype). |
 
-### Также см. 
+### Смотрите также
 
 * интерфейс [IBehavior](../ibehavior)
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)

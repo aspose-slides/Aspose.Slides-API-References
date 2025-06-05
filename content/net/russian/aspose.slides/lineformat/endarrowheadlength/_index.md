@@ -1,21 +1,21 @@
 ---
 title: EndArrowheadLength
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает или задает длину стрелки на конце линии. Чтение/запись LineArrowheadLengthaspose.slides/linearrowheadlength.
+second_title: Справка по API Aspose.Sildes для .NET
+description: Возвращает или устанавливает длину стрелки у конца линии. Чтение/запись LineArrowheadLengthaspose.slides/linearrowheadlength.
 type: docs
 weight: 80
 url: /ru/aspose.slides/lineformat/endarrowheadlength/
 ---
 
-## Свойство LineFormat.EndArrowheadLength
+## LineFormat.EndArrowheadLength property
 
-Возвращает или задает длину стрелки на конце линии. Чтение/запись [`LineArrowheadLength`](../../linearrowheadlength).
+Возвращает или устанавливает длину стрелки у конца линии. Чтение/запись [`LineArrowheadLength`](../../linearrowheadlength).
 
 ```csharp
 public LineArrowheadLength EndArrowheadLength { get; set; }
 ```
 
-### Смотрите также
+### See Also
 
 * enum [LineArrowheadLength](../../linearrowheadlength)
 * class [LineFormat](../../lineformat)

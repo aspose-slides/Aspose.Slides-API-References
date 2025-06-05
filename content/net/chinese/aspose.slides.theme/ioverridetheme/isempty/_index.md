@@ -1,7 +1,7 @@
 ---
 title: IsEmpty
-second_title: Aspose.Sildes for .NET API 参考
-description: 真值意味着 ColorScheme、FontScheme、FormatScheme 为 null，并且任何与此主题对象的重写都被禁用。只读布尔值。
+second_title: Aspose.Slides for .NET API Reference
+description: 真值表示 ColorScheme、FontScheme、FormatScheme 为 null，并且通过此主题对象的任何覆盖均被禁用。只读布尔值。
 type: docs
 weight: 20
 url: /zh/aspose.slides.theme/ioverridetheme/isempty/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.theme/ioverridetheme/isempty/
 
 ## IOverrideTheme.IsEmpty 属性
 
-真值意味着 ColorScheme、FontScheme、FormatScheme 为 null，并且任何与此主题对象的重写都被禁用。只读布尔值。
+真值表示 ColorScheme、FontScheme、FormatScheme 为 null，并且通过此主题对象的任何覆盖均被禁用。只读布尔值。
 
 ```csharp
 public bool IsEmpty { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IOverrideTheme](../../ioverridetheme)
 * 命名空间 [Aspose.Slides.Theme](../../ioverridetheme)

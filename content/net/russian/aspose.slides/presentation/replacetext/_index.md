@@ -1,13 +1,13 @@
 ---
 title: ReplaceText
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Заменяет все вхождения указанного текста на другой указанный текст.
 type: docs
 weight: 370
 url: /ru/aspose.slides/presentation/replacetext/
 ---
 
-## Метод Presentation.ReplaceText
+## Presentation.ReplaceText метод
 
 Заменяет все вхождения указанного текста на другой указанный текст.
 
@@ -20,12 +20,12 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 | --- | --- | --- |
 | oldText | String | Строка, которую нужно заменить. |
 | newText | String | Строка для замены всех вхождений oldText. |
-| options | ITextSearchOptions | Опции поиска текста [`ITextSearchOptions`](../../itextsearchoptions). |
+| options | ITextSearchOptions | Варианты поиска текста [`ITextSearchOptions`](../../itextsearchoptions). |
 | callback | IFindResultCallback | Объект обратного вызова для получения результатов поиска [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Примеры
 
-Следующий пример кода показывает, как заменить одну указанную строку на другую указанную строку.
+Следующий пример кода демонстрирует, как заменить одну указанную строку на другую указанную строку.
 
 ```csharp
 [C#]
@@ -37,7 +37,7 @@ using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 }
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [ITextSearchOptions](../../itextsearchoptions)
 * интерфейс [IFindResultCallback](../../ifindresultcallback)

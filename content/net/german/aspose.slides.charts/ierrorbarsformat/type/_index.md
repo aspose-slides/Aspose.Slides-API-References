@@ -1,7 +1,7 @@
 ---
-title: Typ
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft den Typ der Fehlerbalken ab oder setzt ihn. Lese-/schreibbarer ErrorBarTypeaspose.slides.charts/errorbartype.
+title: Type
+second_title: Aspose.Slides für .NET API Referenz
+description: Ruft den Typ der Fehlerbalken ab oder legt ihn fest. Lese-/Schreibzugriff auf ErrorBarTypeaspose.slides.charts/errorbartype.
 type: docs
 weight: 50
 url: /de/aspose.slides.charts/ierrorbarsformat/type/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ierrorbarsformat/type/
 
 ## IErrorBarsFormat.Type-Eigenschaft
 
-Ruft den Typ der Fehlerbalken ab oder setzt ihn. Lese-/schreibbar [`ErrorBarType`](../../errorbartype).
+Ruft den Typ der Fehlerbalken ab oder legt ihn fest. Lese-/Schreibzugriff auf [`ErrorBarType`](../../errorbartype).
 
 ```csharp
 public ErrorBarType Type { get; set; }

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/textframeformat/textframeformat/
 ---
+
 ## TextFrameFormat constructor
 
 Initializes a new instance of [`TextFrameFormat`](../../textframeformat) class.

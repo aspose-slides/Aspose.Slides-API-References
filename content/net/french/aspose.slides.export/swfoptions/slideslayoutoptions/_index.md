@@ -1,7 +1,7 @@
 ---
 title: SlidesLayoutOptions
-second_title: Aspose.Slides pour .NET Référence de l'API
-description: Obtient ou définit le mode dans lequel les diapositives sont placées sur la page lors de l'exportation d'une présentation ISlidesLayoutOptionsaspose.slides/islideslayoutoptions. Cette propriété ne prend pas en charge l'attribution d'objets de type HandoutLayoutingOptionsaspose.slides/handoutlayoutingoptions
+second_title: Aspose.Sildes pour la documentation de l'API .NET
+description: Obtient ou définit le mode dans lequel les diapositives sont placées sur la page lors de l'exportation d'une présentation ISlidesLayoutOptionsaspose.slides/islideslayoutoptions. Cette propriété ne prend pas en charge l'attribution d'objets de type HandoutLayoutingOptionsaspose.slides/handoutlayoutingoptions.
 type: docs
 weight: 150
 url: /fr/aspose.slides.export/swfoptions/slideslayoutoptions/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/swfoptions/slideslayoutoptions/
 
 ## Propriété SwfOptions.SlidesLayoutOptions
 
-Obtient ou définit le mode dans lequel les diapositives sont placées sur la page lors de l'exportation d'une présentation [`ISlidesLayoutOptions`](../../islideslayoutoptions). Cette propriété ne prend pas en charge l'attribution d'objets de type [`HandoutLayoutingOptions`](../../handoutlayoutingoptions)
+Obtient ou définit le mode dans lequel les diapositives sont placées sur la page lors de l'exportation d'une présentation [`ISlidesLayoutOptions`](../../islideslayoutoptions). Cette propriété ne prend pas en charge l'attribution d'objets de type [`HandoutLayoutingOptions`](../../handoutlayoutingoptions).
 
 ```csharp
 public ISlidesLayoutOptions SlidesLayoutOptions { get; set; }
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 ### Voir aussi
 
 * interface [ISlidesLayoutOptions](../../islideslayoutoptions)
-* class [SwfOptions](../../swfoptions)
+* classe [SwfOptions](../../swfoptions)
 * namespace [Aspose.Slides.Export](../../swfoptions)
 * assembly [Aspose.Slides](../../../)
 

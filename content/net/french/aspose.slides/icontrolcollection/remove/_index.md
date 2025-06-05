@@ -1,13 +1,13 @@
 ---
-title: Retirer
-second_title: Référence API d'Aspose.Slides pour .NET
+title: Remove
+second_title: Aspose.Sildes pour .NET Référence API
 description: Supprime un contrôle ActiveX de la collection.
 type: docs
 weight: 40
 url: /fr/aspose.slides/icontrolcollection/remove/
 ---
 
-## Méthode IControlCollection.Remove
+## IControlCollection.Remove méthode
 
 Supprime un contrôle ActiveX de la collection.
 

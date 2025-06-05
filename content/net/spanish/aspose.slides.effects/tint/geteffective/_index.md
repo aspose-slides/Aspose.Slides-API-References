@@ -1,13 +1,13 @@
 ---
 title: GetEffective
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Obtiene datos efectivos del efecto Tint con la herencia aplicada.
 type: docs
 weight: 20
 url: /es/aspose.slides.effects/tint/geteffective/
 ---
 
-## Método Tint.GetEffective
+## Tint.GetEffective método
 
 Obtiene datos efectivos del efecto Tint con la herencia aplicada.
 
@@ -15,11 +15,11 @@ Obtiene datos efectivos del efecto Tint con la herencia aplicada.
 public ITintEffectiveData GetEffective()
 ```
 
-### Valor de Retorno
+### Valor de retorno
 
 Un [`ITintEffectiveData`](../../itinteffectivedata).
 
-### Véase También
+### Véase también
 
 * interfaz [ITintEffectiveData](../../itinteffectivedata)
 * clase [Tint](../../tint)

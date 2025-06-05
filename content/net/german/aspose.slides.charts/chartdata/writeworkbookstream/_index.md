@@ -1,15 +1,15 @@
 ---
 title: WriteWorkbookStream
-second_title: Aspose.Slides für .NET API Referenz
-description: Initialisiert das intern enthaltene Excel-Arbeitsbuch mit dem vom Benutzer angegebenen Wert.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Initialisiert die intern enthaltene Excel-Arbeitsmappe mit benutzerdefiniertem Wert.
 type: docs
 weight: 140
 url: /de/aspose.slides.charts/chartdata/writeworkbookstream/
 ---
 
-## ChartData.WriteWorkbookStream Methode
+## ChartData.WriteWorkbookStream-Methode
 
-Initialisiert das intern enthaltene Excel-Arbeitsbuch mit dem vom Benutzer angegebenen Wert.
+Initialisiert die intern enthaltene Excel-Arbeitsmappe mit benutzerdefiniertem Wert.
 
 ```csharp
 public void WriteWorkbookStream(MemoryStream ms)
@@ -17,9 +17,9 @@ public void WriteWorkbookStream(MemoryStream ms)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| ms | MemoryStream | Der vom Benutzer bereitgestellte Stream, der das gesamte Excel-Arbeitsbuch enthält. |
+| ms | MemoryStream | Der vom Benutzer bereitgestellte Stream, der die gesamte Excel-Arbeitsmappe enthält. |
 
-### Weitere Informationen
+### Siehe Auch
 
 * Klasse [ChartData](../../chartdata)
 * Namespace [Aspose.Slides.Charts](../../chartdata)

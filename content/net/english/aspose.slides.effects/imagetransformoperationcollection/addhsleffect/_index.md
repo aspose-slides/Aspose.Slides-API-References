@@ -6,6 +6,7 @@ type: docs
 weight: 190
 url: /aspose.slides.effects/imagetransformoperationcollection/addhsleffect/
 ---
+
 ## ImageTransformOperationCollection.AddHSLEffect method
 
 Adds the new Hue/Saturation/Luminance effect to the end of a collection.

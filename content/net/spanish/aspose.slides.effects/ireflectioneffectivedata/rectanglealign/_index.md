@@ -1,21 +1,21 @@
 ---
-title: AlineaciónRectángulo
+title: RectangleAlign
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Alineación de rectángulo. Solo lectura RectangleAlignmentaspose.slides/rectanglealignment.
+description: Alineación de rectángulos. Solo lectura RectangleAlignmentaspose.slides/../aspose.slides/rectanglealignment.
 type: docs
 weight: 80
 url: /es/aspose.slides.effects/ireflectioneffectivedata/rectanglealign/
 ---
 
-## Propiedad IReflectionEffectiveData.RectangleAlign
+## IReflectionEffectiveData.RectangleAlign property
 
-Alineación de rectángulo. Solo lectura [`RectangleAlignment`](../../../aspose.slides/rectanglealignment).
+Alineación de rectángulos. Solo lectura [`RectangleAlignment`](../../../aspose.slides/rectanglealignment).
 
 ```csharp
 public RectangleAlignment RectangleAlign { get; }
 ```
 
-### Véase también
+### Ver También
 
 * enum [RectangleAlignment](../../../aspose.slides/rectanglealignment)
 * interface [IReflectionEffectiveData](../../ireflectioneffectivedata)

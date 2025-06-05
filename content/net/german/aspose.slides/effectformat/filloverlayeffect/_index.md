@@ -1,15 +1,15 @@
 ---
 title: FillOverlayEffect
-second_title: Aspose.Slides für .NET API-Referenz
-description: Fülle Überlagerungseffekt. Lesen/Schreiben IFillOverlayaspose.slides.effects/ifilloverlay.
+second_title: Aspose.Slides für .NET API Referenz
+description: Füllüberlagerungseffekt. Read/write IFillOverlayaspose.slides.effects/ifilloverlay.
 type: docs
 weight: 20
 url: /de/aspose.slides/effectformat/filloverlayeffect/
 ---
 
-## EffectFormat.FillOverlayEffect-Eigenschaft
+## EffectFormat.FillOverlayEffect property
 
-Fülle Überlagerungseffekt. Lesen/Schreiben [`IFillOverlay`](../../../aspose.slides.effects/ifilloverlay).
+Füllüberlagerungseffekt. Read/write [`IFillOverlay`](../../../aspose.slides.effects/ifilloverlay).
 
 ```csharp
 public IFillOverlay FillOverlayEffect { get; set; }
