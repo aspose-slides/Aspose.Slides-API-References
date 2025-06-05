@@ -2,7 +2,7 @@
 title: TagCollection
 second_title: Référence API Aspose.Slides pour .NET  
 description: Représente la collection d'étiquettes paires de chaînes définies par l'utilisateur
-type: docs  
+type: docs
 weight: 10580  
 url: /fr/aspose.slides/tagcollection/
 ---  

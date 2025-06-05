@@ -2,7 +2,7 @@
 title: ISaveOptionsFactory
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Ermöglicht das Erstellen von Instanzen von Speicheroptionen
-type: docs  
+type: docs
 weight: 3910  
 url: /de/aspose.slides.export/isaveoptionsfactory/
 ---  

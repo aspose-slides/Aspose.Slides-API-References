@@ -2,7 +2,7 @@
 title: AddAuthor
 second_title: Aspose.Slides pour .NET API Reference  
 description: Ajouter un nouvel auteur à la fin d'une collection.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides/icommentauthorcollection/addauthor/
 ---  

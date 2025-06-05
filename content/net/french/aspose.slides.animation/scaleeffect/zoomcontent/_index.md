@@ -2,7 +2,7 @@
 title: ZoomContent
 second_title: Aspose.Sildes pour .NET Référence de l'API  
 description: Détermine si un contenu doit être zoomé. Lecture/écriture NullableBoolaspose.slides/nullablebool.
-type: docs  
+type: docs
 weight: 50  
 url: /fr/aspose.slides.animation/scaleeffect/zoomcontent/
 ---  

@@ -2,7 +2,7 @@
 title: Remove
 second_title: Aspose.Sildes pour la référence de l'API .NET  
 description: Supprime la première occurrence d'un objet spécifique de la collection.
-type: docs  
+type: docs
 weight: 100  
 url: /fr/aspose.slides.mathtext/imathelementcollection/remove/
 ---  

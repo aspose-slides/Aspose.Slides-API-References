@@ -2,7 +2,7 @@
 title: GetEnumerator
 second_title: Aspose.Sildes para .NET API Reference  
 description: Devuelve un enumerador que itera a través de la colección.
-type: docs  
+type: docs
 weight: 50  
 url: /es/aspose.slides/captionscollection/getenumerator/
 ---  

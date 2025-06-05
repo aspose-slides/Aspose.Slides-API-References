@@ -2,7 +2,7 @@
 title: Comments
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Der Zweck der Signatur. Lese-/schreibbare Zeichenfolge.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides/idigitalsignature/comments/
 ---  

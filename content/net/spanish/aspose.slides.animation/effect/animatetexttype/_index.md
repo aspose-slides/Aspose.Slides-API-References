@@ -2,7 +2,7 @@
 title: AnimateTextType
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Define un tipo de texto animado para el efecto. El texto de la forma se puede animar por letra, por palabra o todo a la vez. Leer/escribir AnimateTextTypeaspose.slides.animation/effect/animatetexttype.
-type: docs  
+type: docs
 weight: 30  
 url: /es/aspose.slides.animation/effect/animatetexttype/
 ---  

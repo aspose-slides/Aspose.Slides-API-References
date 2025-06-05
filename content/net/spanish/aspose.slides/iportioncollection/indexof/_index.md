@@ -2,7 +2,7 @@
 title: IndexOf
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Determina el índice de una porción específica en la colección.
-type: docs  
+type: docs
 weight: 70  
 url: /es/aspose.slides/iportioncollection/indexof/
 ---  

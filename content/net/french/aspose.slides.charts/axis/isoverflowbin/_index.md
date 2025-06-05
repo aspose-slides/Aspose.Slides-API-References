@@ -2,7 +2,7 @@
 title: IsOverflowBin
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Précise si le bac de débordement est appliqué. Utilisez IsAutomaticOverflowBin et OverflowBin pour ajuster la valeur du bac de débordement.
-type: docs  
+type: docs
 weight: 280  
 url: /fr/aspose.slides.charts/axis/isoverflowbin/
 ---  

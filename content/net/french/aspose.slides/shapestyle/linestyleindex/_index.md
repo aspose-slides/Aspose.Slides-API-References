@@ -2,7 +2,7 @@
 title: LineStyleIndex
 second_title: Aspose.Slides pour .NET API Reference  
 description: Renvoie ou définit l'index de colonne des lignes dans une matrice de styles. Lecteur/écrivain UInt16.
-type: docs  
+type: docs
 weight: 80  
 url: /fr/aspose.slides/shapestyle/linestyleindex/
 ---  

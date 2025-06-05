@@ -2,7 +2,7 @@
 title: ColorSource
 second_title: Aspose.Slides für .NET API Referenz  
 description: Stellt die Quelle der Hyperlinkfarbe dar - entweder Stile oder Portionsformat. Lese-/schreibbar HyperlinkColorSourceaspose.slides/hyperlinkcolorsource.
-type: docs  
+type: docs
 weight: 110  
 url: /de/aspose.slides/hyperlink/colorsource/
 ---  

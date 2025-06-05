@@ -2,7 +2,7 @@
 title: FontSubstRuleList
 second_title: Aspose.Slides für .NET API Referenz  
 description: Schriftartsubstitutionen, die beim Rendern verwendet werden. Lese-/Schreibzugriff auf IFontSubstRuleCollectionaspose.slides/ifontsubstrulecollection.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides/fontsmanager/fontsubstrulelist/
 ---  

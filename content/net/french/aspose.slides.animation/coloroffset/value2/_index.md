@@ -2,7 +2,7 @@
 title: Value2
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Définit la troisième valeur de décalage. Lecture/écriture Single.
-type: docs  
+type: docs
 weight: 40  
 url: /fr/aspose.slides.animation/coloroffset/value2/
 ---  

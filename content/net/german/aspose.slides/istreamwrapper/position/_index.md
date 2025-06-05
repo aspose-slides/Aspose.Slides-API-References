@@ -2,7 +2,7 @@
 title: Position
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt die Position im aktuellen Stream zurück. Schreibgeschütztes Int64.
-type: docs  
+type: docs
 weight: 60  
 url: /de/aspose.slides/istreamwrapper/position/
 ---  

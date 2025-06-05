@@ -2,7 +2,7 @@
 title: PicturesCompression
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示图片压缩级别
-type: docs  
+type: docs
 weight: 70  
 url: /zh/aspose.slides.export/htmloptions/picturescompression/
 ---  

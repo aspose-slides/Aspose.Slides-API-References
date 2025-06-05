@@ -2,7 +2,7 @@
 title: Slides
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve el número total de diapositivas en un documento de presentación. Solo lectura Int32.
-type: docs  
+type: docs
 weight: 310  
 url: /es/aspose.slides/documentproperties/slides/
 ---  

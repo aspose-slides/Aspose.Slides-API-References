@@ -2,7 +2,7 @@
 title: FontSubstCondition
 second_title: Aspose.Sildes pour la référence API .NET  
 description: Représente une règle pour la substitution de police
-type: docs  
+type: docs
 weight: 4680  
 url: /fr/aspose.slides/fontsubstcondition/
 ---  

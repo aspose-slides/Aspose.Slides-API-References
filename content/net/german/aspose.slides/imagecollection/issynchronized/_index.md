@@ -2,7 +2,7 @@
 title: IsSynchronized
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert thread-sicher ist. Schreibgeschütztes Boolean.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides/imagecollection/issynchronized/
 ---  

@@ -2,7 +2,7 @@
 title: TrendlineName
 second_title: Aspose.Slides for .NET API Reference  
 description: 获取或设置趋势线的名称。可读写字符串。
-type: docs  
+type: docs
 weight: 110  
 url: /zh/aspose.slides.charts/itrendline/trendlinename/
 ---  

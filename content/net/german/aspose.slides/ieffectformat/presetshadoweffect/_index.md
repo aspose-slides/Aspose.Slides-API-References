@@ -2,7 +2,7 @@
 title: PresetShadowEffect
 second_title: Aspose.Slides für .NET API Referenz  
 description: Vorgedefinierter Schatten. Lesen/Speichern von IPresetShadowaspose.slides.effects/ipresetshadow.
-type: docs  
+type: docs
 weight: 80  
 url: /de/aspose.slides/ieffectformat/presetshadoweffect/
 ---  

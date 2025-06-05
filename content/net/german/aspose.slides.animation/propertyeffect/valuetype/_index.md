@@ -2,7 +2,7 @@
 title: ValueType
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Gibt den Typ eines Eigenschaftswerts an. Lese-/Schreibzugriff auf PropertyValueTypeaspose.slides/propertyvaluetype.
-type: docs  
+type: docs
 weight: 70  
 url: /de/aspose.slides.animation/propertyeffect/valuetype/
 ---  

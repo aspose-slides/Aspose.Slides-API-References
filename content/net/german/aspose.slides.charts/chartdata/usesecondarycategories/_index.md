@@ -2,7 +2,7 @@
 title: UseSecondaryCategories
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Wenn falsch, gibt die Eigenschaft SecondaryCategoriesaspose.slides.charts/chartdata/secondarycategories null zurück und die Daten in der Eigenschaft Categoriesaspose.slides.charts/chartdata/categories werden sowohl für primäre als auch für sekundäre Serien verwendet. Wenn wahr, werden die Daten in der Eigenschaft SecondaryCategoriesaspose.slides.charts/chartdata/secondarycategories für sekundäre Serien verwendet und die Daten in der Eigenschaft Categoriesaspose.slides.charts/chartdata/categories werden für primäre Serien verwendet. Lese-/schreibbare Boolean.
-type: docs  
+type: docs
 weight: 80  
 url: /de/aspose.slides.charts/chartdata/usesecondarycategories/
 ---  

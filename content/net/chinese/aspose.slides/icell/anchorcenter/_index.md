@@ -2,7 +2,7 @@
 title: AnchorCenter
 second_title: Aspose.Sildes for .NET API Reference  
 description: 确定文本框是否在单元格内居中。可读/写布尔值。
-type: docs  
+type: docs
 weight: 10  
 url: /zh/aspose.slides/icell/anchorcenter/
 ---  

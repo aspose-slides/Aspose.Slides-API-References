@@ -2,7 +2,7 @@
 title: FloatB
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回或设置颜色的蓝色分量。所有颜色变换将被忽略。可读/可写单精度浮点数。
-type: docs  
+type: docs
 weight: 50  
 url: /zh/aspose.slides/colorformat/floatb/
 ---  

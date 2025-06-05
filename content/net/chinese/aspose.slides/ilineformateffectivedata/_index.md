@@ -2,7 +2,7 @@
 title: ILineFormatEffectiveData
 second_title: Aspose.Sildes for .NET API Reference  
 description: 不可变对象，包含有效的线条格式属性。
-type: docs  
+type: docs
 weight: 6120  
 url: /zh/aspose.slides/ilineformateffectivedata/
 ---  

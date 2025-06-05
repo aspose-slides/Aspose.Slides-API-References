@@ -2,7 +2,7 @@
 title: Clear
 second_title: Aspose.Sildes pour la référence API .NET  
 description: Supprime toutes les polices de la liste.
-type: docs  
+type: docs
 weight: 60  
 url: /fr/aspose.slides/ifontfallbackrule/clear/
 ---  

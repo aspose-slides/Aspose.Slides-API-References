@@ -2,7 +2,7 @@
 title: Forward
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Gibt die Anzahl der Kategorien oder Einheiten auf einem Streudiagramm an, die die Trendlinie nach den Daten der trendenden Reihe verlängert. Bei Streu- und Nicht-Streudiagrammen sollte der Wert ein beliebiger nicht-negativer Wert sein. Lese-/Schreibwert Double.
-type: docs  
+type: docs
 weight: 60  
 url: /de/aspose.slides.charts/trendline/forward/
 ---  

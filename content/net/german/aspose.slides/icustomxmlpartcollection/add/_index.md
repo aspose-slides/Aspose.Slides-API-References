@@ -2,7 +2,7 @@
 title: Add
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Fügt ein neues benutzerdefiniertes XML-Teil hinzu.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides/icustomxmlpartcollection/add/
 ---  

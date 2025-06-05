@@ -2,7 +2,7 @@
 title: Aspose.Slides.Vba
 second_title: Aspose.Slides für .NET API Referenz  
 description: Enthält Klassen zur Arbeit mit VBA-Makros
-type: docs  
+type: docs
 weight: 180  
 url: /de/aspose.slides.vba/
 ---  

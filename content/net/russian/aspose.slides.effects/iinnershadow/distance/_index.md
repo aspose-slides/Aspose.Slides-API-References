@@ -2,7 +2,7 @@
 title: Distance
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Расстояние тени. Чтение/запись Double.
-type: docs  
+type: docs
 weight: 50  
 url: /ru/aspose.slides.effects/iinnershadow/distance/
 ---  

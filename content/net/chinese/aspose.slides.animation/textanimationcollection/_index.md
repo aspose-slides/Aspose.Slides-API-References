@@ -2,7 +2,7 @@
 title: TextAnimationCollection
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示文本动画的集合。
-type: docs  
+type: docs
 weight: 750  
 url: /zh/aspose.slides.animation/textanimationcollection/
 ---  

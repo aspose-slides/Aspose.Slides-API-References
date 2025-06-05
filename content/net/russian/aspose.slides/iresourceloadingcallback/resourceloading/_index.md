@@ -2,7 +2,7 @@
 title: ResourceLoading
 second_title: Aspose.Sildes для .NET API Reference  
 description: Метод обратного вызова, который регулирует загрузку внешних ресурсов.
-type: docs  
+type: docs
 weight: 10  
 url: /ru/aspose.slides/iresourceloadingcallback/resourceloading/
 ---  

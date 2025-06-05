@@ -2,7 +2,7 @@
 title: GetSubstitutions
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Obtient les informations sur les polices qui seront remplacées lors du rendu de la présentation.
-type: docs  
+type: docs
 weight: 80  
 url: /fr/aspose.slides/ifontsmanager/getsubstitutions/
 ---  

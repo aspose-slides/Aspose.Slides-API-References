@@ -2,7 +2,7 @@
 title: IndexOf
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt einen Index der angegebenen Regel in der Sammlung zurück.
-type: docs  
+type: docs
 weight: 70  
 url: /de/aspose.slides/ifontfallbackrule/indexof/
 ---  

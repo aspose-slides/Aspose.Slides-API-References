@@ -2,7 +2,7 @@
 title: Item
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Возвращает эффект по заданному индексу.
-type: docs  
+type: docs
 weight: 20  
 url: /ru/aspose.slides.animation/sequence/item/
 ---  

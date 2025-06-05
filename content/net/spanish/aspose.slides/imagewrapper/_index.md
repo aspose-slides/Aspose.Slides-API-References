@@ -2,7 +2,7 @@
 title: ImageWrapper
 second_title: Aspose.Sildes para .NET Referencia de API  
 description: Envoltura de System.Drawing.Image para interfaz COM.
-type: docs  
+type: docs
 weight: 7220  
 url: /es/aspose.slides/imagewrapper/
 ---  

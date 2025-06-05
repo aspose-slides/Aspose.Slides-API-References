@@ -2,7 +2,7 @@
 title: Field
 second_title: Aspose.Sildes for .NET API Reference  
 description: 代表一个字段。
-type: docs  
+type: docs
 weight: 4560  
 url: /zh/aspose.slides/field/
 ---  

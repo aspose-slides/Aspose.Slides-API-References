@@ -2,7 +2,7 @@
 title: ColumnCollection
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示表中列的集合。
-type: docs  
+type: docs
 weight: 2510  
 url: /zh/aspose.slides/columncollection/
 ---  

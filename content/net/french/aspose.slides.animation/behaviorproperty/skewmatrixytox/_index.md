@@ -2,7 +2,7 @@
 title: SkewMatrixYtoX
 second_title: Aspose.Slides pour .NET Référence de l'API  
 description: Représente la propriété skew.matrix.ytox
-type: docs  
+type: docs
 weight: 810  
 url: /fr/aspose.slides.animation/behaviorproperty/skewmatrixytox/
 ---  

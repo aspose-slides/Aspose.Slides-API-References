@@ -2,7 +2,7 @@
 title: StretchOffsetBottom
 second_title: Aspose.Sildes para .NET Referencia de API  
 description: Devuelve o establece el borde inferior del rectángulo de relleno que se define por un desplazamiento porcentual desde el borde inferior de la caja de delimitación de la forma. Un porcentaje positivo especifica un inset, mientras que un porcentaje negativo especifica un outset. Lectura/escritura Single.
-type: docs  
+type: docs
 weight: 90  
 url: /es/aspose.slides/ipicturefillformat/stretchoffsetbottom/
 ---  

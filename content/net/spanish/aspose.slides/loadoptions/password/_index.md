@@ -2,7 +2,7 @@
 title: Password
 second_title: Aspose.Sildes para .NET API Reference  
 description: Obtiene o establece la contraseña. Lectura/escritura String.
-type: docs  
+type: docs
 weight: 120  
 url: /es/aspose.slides/loadoptions/password/
 ---  

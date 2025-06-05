@@ -2,7 +2,7 @@
 title: ShowLegendKey
 second_title: Aspose.Slides pour .NET API Reference  
 description: Représente le comportement d'affichage de la clé de légende des étiquettes de données d'un graphique spécifié. Vrai si la clé de légende de l'étiquette de données est visible. Booléen en lecture/écriture.
-type: docs  
+type: docs
 weight: 120  
 url: /fr/aspose.slides.charts/idatalabelformat/showlegendkey/
 ---  

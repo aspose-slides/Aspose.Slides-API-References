@@ -3,7 +3,7 @@
 title: AsLiteralString
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Devuelve o establece la cadena literal si la propiedad DataSourceType es DataSourceType.StringLiterals. Lectura/escritura String.
-type: docs  
+type: docs
 weight: 30  
 url: /es/aspose.slides.charts/istringordoublechartvalue/asliteralstring/
 ---

@@ -2,7 +2,7 @@
 title: Shapes
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt die Formen einer Folie zurück. Nur-Lesen IShapeCollection aspose.slides/ishapecollection.
-type: docs  
+type: docs
 weight: 70  
 url: /de/aspose.slides/ibaseslide/shapes/
 ---  

@@ -2,7 +2,7 @@
 title: HasSeriesTrendLines
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve si hay líneas de tendencia de series para el tipo de serie especificado.
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides.charts/charttypecharacterizer/hasseriestrendlines/
 ---  

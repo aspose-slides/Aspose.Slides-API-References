@@ -2,7 +2,7 @@
 title: AddAlphaReplaceEffect
 second_title: Aspose.Sildes para .NET API Reference  
 description: Agrega el nuevo efecto Alpha Replace al final de una colección.
-type: docs  
+type: docs
 weight: 110  
 url: /es/aspose.slides.effects/imagetransformoperationcollection/addalphareplaceeffect/
 ---  

@@ -2,7 +2,7 @@
 title: FontUnderline
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Retourne le type de soulignement du texte. Lecture seule TextUnderlineType aspose.slides/textunderlinetype.
-type: docs  
+type: docs
 weight: 100  
 url: /fr/aspose.slides/ibaseportionformateffectivedata/fontunderline/
 ---  

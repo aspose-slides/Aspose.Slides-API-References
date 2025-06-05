@@ -2,7 +2,7 @@
 title: GetLevel
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve el nivel del estilo efectivo.
-type: docs  
+type: docs
 weight: 20  
 url: /es/aspose.slides/itextstyleeffectivedata/getlevel/
 ---  

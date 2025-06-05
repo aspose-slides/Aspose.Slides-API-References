@@ -2,7 +2,7 @@
 title: GetEntity
 second_title: Aspose.Slides für .NET API Referenz  
 description: Ordnet eine URI einem Objekt zu, das die tatsächliche Ressource enthält.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides.import/externalresourceresolver/getentity/
 ---  

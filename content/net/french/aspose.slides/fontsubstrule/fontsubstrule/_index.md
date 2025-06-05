@@ -2,7 +2,7 @@
 title: FontSubstRule
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Crée une nouvelle instance.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides/fontsubstrule/fontsubstrule/
 ---  

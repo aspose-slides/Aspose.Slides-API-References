@@ -2,7 +2,7 @@
 title: AsIEnumerable
 second_title: Référence API Aspose.Slides pour .NET  
 description: Renvoie l'interface IEnumerable.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides.charts/ipiesplitcustompointcollection/asienumerable/
 ---  

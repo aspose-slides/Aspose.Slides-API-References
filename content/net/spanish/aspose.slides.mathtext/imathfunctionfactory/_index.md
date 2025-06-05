@@ -2,7 +2,7 @@
 title: IMathFunctionFactory
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Permite crear una función matemática
-type: docs  
+type: docs
 weight: 8030  
 url: /es/aspose.slides.mathtext/imathfunctionfactory/
 ---  

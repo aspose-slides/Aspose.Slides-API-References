@@ -2,7 +2,7 @@
 title: AddGroupShape
 second_title: Aspose.Slides для .NET API Reference  
 description: Создает новый GroupShape и добавляет его в конец коллекции. Размер и положение рамки GroupShape будут подогнаны под содержимое, когда новая фигура будет добавлена в GroupShape.
-type: docs  
+type: docs
 weight: 130  
 url: /ru/aspose.slides/shapecollection/addgroupshape/
 ---  

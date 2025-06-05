@@ -2,7 +2,7 @@
 title: RectangleAlign
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Выравнивание прямоугольника. Только для чтения RectangleAlignmentaspose.slides/../aspose.slides/rectanglealignment.
-type: docs  
+type: docs
 weight: 50  
 url: /ru/aspose.slides.effects/ioutershadoweffectivedata/rectanglealign/
 ---  

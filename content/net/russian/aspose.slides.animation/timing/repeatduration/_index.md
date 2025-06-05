@@ -2,7 +2,7 @@
 title: RepeatDuration
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Описывает количество повторений эффекта. Чтение/запись Single.
-type: docs  
+type: docs
 weight: 60  
 url: /ru/aspose.slides.animation/timing/repeatduration/
 ---  

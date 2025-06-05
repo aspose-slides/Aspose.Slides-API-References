@@ -2,7 +2,7 @@
 title: CannotCombine2DAnd3DChartsException
 second_title: Aspose.Slides für .NET API Referenz  
 description: Standardkonstruktor.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides.charts/cannotcombine2dand3dchartsexception/cannotcombine2dand3dchartsexception/
 ---  

@@ -2,7 +2,7 @@
 title: RightToLeft
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Bestimmt, ob die Tabelle einen Recht-nach-Links-Leseablauf hat. Lese-Schreib-Boolean.
-type: docs  
+type: docs
 weight: 90  
 url: /de/aspose.slides/table/righttoleft/
 ---  

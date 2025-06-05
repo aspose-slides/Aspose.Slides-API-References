@@ -2,7 +2,7 @@
 title: RemoveAt
 second_title: Aspose.Sildes for .NET API Reference  
 description: Удаляет градиентную остановку по заданному индексу.
-type: docs  
+type: docs
 weight: 100  
 url: /ru/aspose.slides/gradientstopcollection/removeat/
 ---  

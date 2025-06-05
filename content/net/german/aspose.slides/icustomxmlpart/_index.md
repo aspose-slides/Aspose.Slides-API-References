@@ -2,7 +2,7 @@
 title: ICustomXmlPart
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Stellt einen benutzerdefinierten XML-Teil dar.
-type: docs  
+type: docs
 weight: 5470  
 url: /de/aspose.slides/icustomxmlpart/
 ---  

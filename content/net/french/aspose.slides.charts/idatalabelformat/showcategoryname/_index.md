@@ -2,7 +2,7 @@
 title: ShowCategoryName
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Représente un comportement d'affichage spécifié pour le nom de catégorie des étiquettes de données d'un graphique. True pour afficher le nom de la catégorie pour les étiquettes de données sur un graphique. False pour masquer. Boolean en lecture/écriture.
-type: docs  
+type: docs
 weight: 80  
 url: /fr/aspose.slides.charts/idatalabelformat/showcategoryname/
 ---  

@@ -2,7 +2,7 @@
 title: GetEntity
 second_title: Aspose.Slides для .NET API Справочник  
 description: Соответствует URI объекту, содержащему фактический ресурс.
-type: docs  
+type: docs
 weight: 20  
 url: /ru/aspose.slides.import/externalresourceresolver/getentity/
 ---  

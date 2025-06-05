@@ -2,7 +2,7 @@
 title: Value
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Valor de la propiedad
-type: docs  
+type: docs
 weight: 20  
 url: /es/aspose.slides.animation/ibehaviorproperty/value/
 ---  

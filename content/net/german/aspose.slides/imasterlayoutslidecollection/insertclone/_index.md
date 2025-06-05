@@ -2,7 +2,7 @@
 title: InsertClone
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Fügt eine Kopie einer bestimmten Layout-Folie an der angegebenen Position der Sammlung ein.
-type: docs  
+type: docs
 weight: 50  
 url: /de/aspose.slides/imasterlayoutslidecollection/insertclone/
 ---  

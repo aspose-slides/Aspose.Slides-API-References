@@ -2,7 +2,7 @@
 title: Item
 second_title: Aspose.Slides pour .NET API Référence  
 description: Obtient l'étiquette de données pour le point de données avec l'index spécifié.
-type: docs  
+type: docs
 weight: 60  
 url: /fr/aspose.slides.charts/datalabelcollection/item/
 ---  

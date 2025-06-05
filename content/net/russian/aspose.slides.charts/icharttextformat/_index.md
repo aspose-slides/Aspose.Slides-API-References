@@ -2,7 +2,7 @@
 title: IChartTextFormat
 second_title: Aspose.Sildes для .NET API Reference  
 description: График работает с ограниченным набором свойств формата текста. Интерфейсы IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat, IChartPortionFormat описывают этот ограниченный набор.
-type: docs  
+type: docs
 weight: 1910  
 url: /ru/aspose.slides.charts/icharttextformat/
 ---  

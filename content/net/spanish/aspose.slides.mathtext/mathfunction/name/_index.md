@@ -2,7 +2,7 @@
 title: Name
 second_title: Referencia de la API de Aspose.Slides para .NET  
 description: Nombre de la función Por ejemplo, los nombres de las funciones son sin y cos
-type: docs  
+type: docs
 weight: 30  
 url: /es/aspose.slides.mathtext/mathfunction/name/
 ---  

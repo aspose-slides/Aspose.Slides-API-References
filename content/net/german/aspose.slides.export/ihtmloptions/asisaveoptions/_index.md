@@ -2,7 +2,7 @@
 title: AsISaveOptions
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt das ISaveOptions-Schnittstelle zurück. Nur lese ISaveOptionsaspose.slides.export/isaveoptions.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides.export/ihtmloptions/asisaveoptions/
 ---  

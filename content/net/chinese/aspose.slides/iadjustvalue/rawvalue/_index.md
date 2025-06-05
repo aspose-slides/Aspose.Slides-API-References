@@ -2,7 +2,7 @@
 title: RawValue
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回或设置调整值 "原样"。读/写 Int64。
-type: docs  
+type: docs
 weight: 30  
 url: /zh/aspose.slides/iadjustvalue/rawvalue/
 ---  

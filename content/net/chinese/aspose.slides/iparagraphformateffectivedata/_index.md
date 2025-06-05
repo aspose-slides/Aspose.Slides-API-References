@@ -2,7 +2,7 @@
 title: IParagraphFormatEffectiveData
 second_title: Aspose.Slides for .NET API Reference  
 description: 不可变对象，包含有效的段落格式属性。
-type: docs  
+type: docs
 weight: 6400  
 url: /zh/aspose.slides/iparagraphformateffectivedata/
 ---  

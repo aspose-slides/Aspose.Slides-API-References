@@ -2,7 +2,7 @@
 title: AddControl
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Erstellt und fügt der Sammlung ein neues Steuerelement hinzu.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides/icontrolcollection/addcontrol/
 ---  

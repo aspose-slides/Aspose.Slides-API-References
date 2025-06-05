@@ -2,7 +2,7 @@
 title: SmartArtColorType
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示 SmartArt 图表的配色方案。
-type: docs  
+type: docs
 weight: 10300  
 url: /zh/aspose.slides.smartart/smartartcolortype/
 ---  

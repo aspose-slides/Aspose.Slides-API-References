@@ -2,7 +2,7 @@
 title: ColorOperationCollection
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Représente une collection d'opérations de transformation des couleurs.
-type: docs  
+type: docs
 weight: 2450  
 url: /fr/aspose.slides/coloroperationcollection/
 ---  

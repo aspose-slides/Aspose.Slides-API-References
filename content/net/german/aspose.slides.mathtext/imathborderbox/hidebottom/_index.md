@@ -2,7 +2,7 @@
 title: HideBottom
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Hide Bottom Edge standardmäßig ist falsch - gibt den versteckten oder sichtbaren Zustand der unteren Kante des Rahmenkästchens an.
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides.mathtext/imathborderbox/hidebottom/
 ---  

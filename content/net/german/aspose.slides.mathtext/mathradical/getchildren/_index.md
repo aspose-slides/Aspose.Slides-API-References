@@ -2,7 +2,7 @@
 title: GetChildren
 second_title: Aspose.Slides für .NET API Referenz  
 description: Kinder-Elemente abrufen
-type: docs  
+type: docs
 weight: 50  
 url: /de/aspose.slides.mathtext/mathradical/getchildren/
 ---  

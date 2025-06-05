@@ -2,7 +2,7 @@
 title: IBehaviorPropertyCollection
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示效果行为的定时属性。
-type: docs  
+type: docs
 weight: 370  
 url: /zh/aspose.slides.animation/ibehaviorpropertycollection/
 ---  

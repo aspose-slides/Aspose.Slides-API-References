@@ -2,7 +2,7 @@
 title: RemoveAt
 second_title: Referencia API de Aspose.Slides para .NET  
 description: Elimina el elemento en el índice especificado de la colección.
-type: docs  
+type: docs
 weight: 110  
 url: /es/aspose.slides/iparagraphcollection/removeat/
 ---  

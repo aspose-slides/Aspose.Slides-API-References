@@ -2,7 +2,7 @@
 title: ScaleHorizontal
 second_title: Aspose.Slides für .NET API Referenz  
 description: Spezifiziert den horizontalen Skalierungsfaktor, negative Skalierung verursacht eine Umkehrung. Prozent. Lesen/Schreiben Double.
-type: docs  
+type: docs
 weight: 90  
 url: /de/aspose.slides.effects/reflection/scalehorizontal/
 ---  

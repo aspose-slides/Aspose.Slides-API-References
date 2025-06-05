@@ -2,7 +2,7 @@
 title: DataLabelFormat
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Представляет параметры форматирования для DataLabel.
-type: docs  
+type: docs
 weight: 1490  
 url: /ru/aspose.slides.charts/datalabelformat/
 ---  

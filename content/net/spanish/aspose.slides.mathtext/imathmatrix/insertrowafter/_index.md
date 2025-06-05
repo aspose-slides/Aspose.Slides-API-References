@@ -2,7 +2,7 @@
 title: InsertRowAfter
 second_title: Aspose.Sildes para .NET Referencia de API  
 description: Insertar una nueva fila después de la especificada. Inicialmente, todos los elementos en la nueva fila son nulos.
-type: docs  
+type: docs
 weight: 170  
 url: /es/aspose.slides.mathtext/imathmatrix/insertrowafter/
 ---  

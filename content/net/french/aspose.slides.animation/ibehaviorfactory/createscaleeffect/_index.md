@@ -2,7 +2,7 @@
 title: CreateScaleEffect
 second_title: Référence API Aspose.Slides pour .NET  
 description: Crée un effet de mise à l'échelle.
-type: docs  
+type: docs
 weight: 70  
 url: /fr/aspose.slides.animation/ibehaviorfactory/createscaleeffect/
 ---  

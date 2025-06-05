@@ -2,7 +2,7 @@
 title: FillOverlay
 second_title: Aspose.Slides für .NET API Referenz  
 description: Stellt einen Füllüberlagerungseffekt dar. Eine Füllüberlagerung kann verwendet werden, um eine zusätzliche Füllung für ein Objekt anzugeben und die beiden Füllungen miteinander zu mischen.
-type: docs  
+type: docs
 weight: 2880  
 url: /de/aspose.slides.effects/filloverlay/
 ---  

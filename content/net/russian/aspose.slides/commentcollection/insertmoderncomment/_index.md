@@ -2,7 +2,7 @@
 title: InsertModernComment
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Вставить новый современный комментарий в коллекцию по указанному индексу.
-type: docs  
+type: docs
 weight: 120  
 url: /ru/aspose.slides/commentcollection/insertmoderncomment/
 ---  

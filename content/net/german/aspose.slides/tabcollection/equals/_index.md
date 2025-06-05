@@ -2,7 +2,7 @@
 title: Equals
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Bestimmt, ob zwei TabsEx-Instanzen gleich sind.
-type: docs  
+type: docs
 weight: 80  
 url: /de/aspose.slides/tabcollection/equals/
 ---  

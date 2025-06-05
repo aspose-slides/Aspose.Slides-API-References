@@ -2,7 +2,7 @@
 title: CreateParagraphFormat
 second_title: Aspose.Slides для .NET API Справка  
 description: Создает новый IParagraphFormataspose.slides/iparagraphformat.
-type: docs  
+type: docs
 weight: 30  
 url: /ru/aspose.slides/formatfactory/createparagraphformat/
 ---  

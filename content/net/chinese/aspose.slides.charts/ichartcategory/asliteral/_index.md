@@ -2,7 +2,7 @@
 title: AsLiteral
 second_title: Aspose.Sildes for .NET API Reference  
 description: 如果 UseCell 为 false，返回或设置 AsLiteral。可读/可写对象。
-type: docs  
+type: docs
 weight: 20  
 url: /zh/aspose.slides.charts/ichartcategory/asliteral/
 ---  

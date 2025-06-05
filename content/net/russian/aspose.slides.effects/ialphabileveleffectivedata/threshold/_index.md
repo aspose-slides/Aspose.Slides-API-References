@@ -2,7 +2,7 @@
 title: Threshold
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Возвращает порог эффекта. Только для чтения Single.
-type: docs  
+type: docs
 weight: 20  
 url: /ru/aspose.slides.effects/ialphabileveleffectivedata/threshold/
 ---  

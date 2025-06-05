@@ -2,7 +2,7 @@
 title: DefaultDelay
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Получает или задает время задержки по умолчанию в мс. Это значение будет использовано, если AdvanceAfterTimeaspose.slides/../aspose.slides/islideshowtransition/advanceaftertime не задано. Значение по умолчанию — 1000.
-type: docs  
+type: docs
 weight: 20  
 url: /ru/aspose.slides.export/igifoptions/defaultdelay/
 ---  

@@ -2,7 +2,7 @@
 title: ImageWrapperFactory
 second_title: Aspose.Slides для .NET API Справочник  
 description: Конструктор по умолчанию.
-type: docs  
+type: docs
 weight: 10  
 url: /ru/aspose.slides/imagewrapperfactory/imagewrapperfactory/
 ---  

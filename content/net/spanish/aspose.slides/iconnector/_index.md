@@ -2,7 +2,7 @@
 title: IConnector
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Representa un conector.
-type: docs  
+type: docs
 weight: 5410  
 url: /es/aspose.slides/iconnector/
 ---  

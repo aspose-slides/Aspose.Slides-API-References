@@ -2,7 +2,7 @@
 title: CalculateFormulas
 second_title: Aspose.Sildes for .NET API Reference  
 description: 计算工作簿中的所有公式并更新相应单元格的值。
-type: docs  
+type: docs
 weight: 20  
 url: /zh/aspose.slides.charts/chartdataworkbook/calculateformulas/
 ---  

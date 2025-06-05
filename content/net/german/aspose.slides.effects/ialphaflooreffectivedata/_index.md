@@ -2,7 +2,7 @@
 title: IAlphaFloorEffectiveData
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Unveränderliches Objekt, das einen Alpha Floor-Effekt darstellt. Alpha-Transparenzwerte unter 100 werden auf Null geändert. Mit anderen Worten, alles, was teilweise transparent ist, wird vollständig transparent.
-type: docs  
+type: docs
 weight: 2970  
 url: /de/aspose.slides.effects/ialphaflooreffectivedata/
 ---  

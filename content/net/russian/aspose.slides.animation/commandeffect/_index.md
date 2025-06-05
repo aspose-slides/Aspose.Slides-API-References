@@ -2,7 +2,7 @@
 title: CommandEffect
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Представляет эффект команды для анимационного поведения.
-type: docs  
+type: docs
 weight: 180  
 url: /ru/aspose.slides.animation/commandeffect/
 ---  

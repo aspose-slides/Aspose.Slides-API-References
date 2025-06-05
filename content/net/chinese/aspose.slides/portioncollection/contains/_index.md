@@ -2,7 +2,7 @@
 title: Contains
 second_title: Aspose.Sildes for .NET API Reference  
 description: 确定 ICollection 是否包含特定值。
-type: docs  
+type: docs
 weight: 60  
 url: /zh/aspose.slides/portioncollection/contains/
 ---  

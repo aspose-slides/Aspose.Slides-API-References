@@ -2,7 +2,7 @@
 title: AspectRatioLocked
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Bestimmt, ob die Form beim Ändern der Größe das Seitenverhältnis beibehalten muss. Lese-/schreibbares Boolean.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides/groupshapelock/aspectratiolocked/
 ---  

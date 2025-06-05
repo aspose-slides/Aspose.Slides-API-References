@@ -2,7 +2,7 @@
 title: Add
 second_title: Aspose.Sildes pour .NET API Reference  
 description: Ajoute une propriété à la collection.
-type: docs  
+type: docs
 weight: 40  
 url: /fr/aspose.slides/controlpropertiescollection/add/
 ---  

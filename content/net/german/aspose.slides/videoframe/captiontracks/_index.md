@@ -2,7 +2,7 @@
 title: CaptionTracks
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Gibt die Sammlung der Untertitel des Videos zurück. Nur lesbare ICaptionsCollectionaspose.slides/icaptionscollection.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides/videoframe/captiontracks/
 ---  

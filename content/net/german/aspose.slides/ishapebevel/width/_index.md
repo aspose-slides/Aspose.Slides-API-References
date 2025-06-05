@@ -2,7 +2,7 @@
 title: Width
 second_title: Aspose.Slides für .NET API Referenz  
 description: Fasenbreite. Lese-/Schreib-Double.
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides/ishapebevel/width/
 ---  

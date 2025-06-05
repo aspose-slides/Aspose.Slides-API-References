@@ -2,7 +2,7 @@
 title: NameOfApplication
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt den Namen der Anwendung zurück oder setzt ihn. Lese-/schreibbarer String.
-type: docs  
+type: docs
 weight: 240  
 url: /de/aspose.slides/documentproperties/nameofapplication/
 ---  

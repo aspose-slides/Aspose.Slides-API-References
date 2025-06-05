@@ -2,7 +2,7 @@
 title: RemoveAt
 second_title: Referencia de la API de Aspose.Slides para .NET  
 description: Elimina el elemento en el índice especificado de la colección.
-type: docs  
+type: docs
 weight: 430  
 url: /es/aspose.slides/shapecollection/removeat/
 ---  

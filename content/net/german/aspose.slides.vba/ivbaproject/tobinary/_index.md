@@ -2,7 +2,7 @@
 title: ToBinary
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt die binäre Darstellung des VBA-Projekts als OLE-Container zurück. Nur-Lese Byte.
-type: docs  
+type: docs
 weight: 50  
 url: /de/aspose.slides.vba/ivbaproject/tobinary/
 ---  

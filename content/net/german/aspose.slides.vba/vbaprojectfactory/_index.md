@@ -2,7 +2,7 @@
 title: VbaProjectFactory
 second_title: Aspose.Slides für .NET API-Verweis  
 description: Ermöglicht das Erstellen eines VBA-Projekts über die COM-Schnittstelle
-type: docs  
+type: docs
 weight: 11350  
 url: /de/aspose.slides.vba/vbaprojectfactory/
 ---  

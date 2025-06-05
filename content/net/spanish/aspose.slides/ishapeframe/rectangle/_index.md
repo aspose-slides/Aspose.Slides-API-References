@@ -2,7 +2,7 @@
 title: Rectangle
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve las coordenadas de un marco. Solo lectura RectangleF.
-type: docs  
+type: docs
 weight: 60  
 url: /es/aspose.slides/ishapeframe/rectangle/
 ---  

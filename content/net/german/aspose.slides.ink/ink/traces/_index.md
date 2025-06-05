@@ -2,7 +2,7 @@
 title: Traces
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Erhält alle Traces, die im IInk-Element IInkTraceaspose.slides/iinktrace enthalten sind. Nur Lesemodus.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides.ink/ink/traces/
 ---  

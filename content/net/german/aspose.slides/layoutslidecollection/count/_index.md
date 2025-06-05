@@ -2,7 +2,7 @@
 title: Count
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt die Anzahl der Layout-Folien in einer Sammlung zurück. Schreibgeschütztes Int32.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides/layoutslidecollection/count/
 ---  

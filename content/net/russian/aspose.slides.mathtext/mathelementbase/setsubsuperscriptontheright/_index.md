@@ -2,7 +2,7 @@
 title: SetSubSuperscriptOnTheRight
 second_title: Aspose.Sildes для .NET API Reference  
 description: Создает подстрочный и надстрочный текст справа
-type: docs  
+type: docs
 weight: 150  
 url: /ru/aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright/
 ---  

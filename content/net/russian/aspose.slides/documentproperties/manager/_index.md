@@ -2,7 +2,7 @@
 title: Manager
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Возвращает или задает свойство менеджера. Чтение/запись Строка.
-type: docs  
+type: docs
 weight: 220  
 url: /ru/aspose.slides/documentproperties/manager/
 ---  

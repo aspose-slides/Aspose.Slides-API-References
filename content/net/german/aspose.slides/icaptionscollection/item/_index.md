@@ -2,7 +2,7 @@
 title: Item
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt die Untertitel am angegebenen Index zurück. Schreibgeschütztes ICaptionsaspose.slides/icaptions.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides/icaptionscollection/item/
 ---  

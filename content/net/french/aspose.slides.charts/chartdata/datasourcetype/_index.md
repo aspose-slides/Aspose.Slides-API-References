@@ -2,7 +2,7 @@
 title: DataSourceType
 second_title: Référence API Aspose.Slides pour .NET  
 description: Représente le chemin du classeur externe si la source de données externe est nulle, sinon
-type: docs  
+type: docs
 weight: 30  
 url: /fr/aspose.slides.charts/chartdata/datasourcetype/
 ---  

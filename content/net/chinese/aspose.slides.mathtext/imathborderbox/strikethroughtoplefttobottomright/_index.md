@@ -2,7 +2,7 @@
 title: StrikethroughTopLeftToBottomRight
 second_title: Aspose.Sildes for .NET API Reference  
 description: 从左上角到右下角的删除线（默认值为 false）。指定从边框框的左上角到右下角的删除线的隐藏或显示状态。
-type: docs  
+type: docs
 weight: 90  
 url: /zh/aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright/
 ---  

@@ -2,7 +2,7 @@
 title: MotionPath
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Stellt den Bewegungsweg dar.
-type: docs  
+type: docs
 weight: 610  
 url: /de/aspose.slides.animation/motionpath/
 ---  

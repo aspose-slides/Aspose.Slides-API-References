@@ -2,7 +2,7 @@
 title: RangeStartIndex
 second_title: Aspose.Slides для .NET API Справочник  
 description: Получить первый индекс непрерывного диапазона юникода.
-type: docs  
+type: docs
 weight: 50  
 url: /ru/aspose.slides/fontfallbackrule/rangestartindex/
 ---  

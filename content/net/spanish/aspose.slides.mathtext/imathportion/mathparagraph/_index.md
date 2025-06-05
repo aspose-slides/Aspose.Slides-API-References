@@ -2,7 +2,7 @@
 title: MathParagraph
 second_title: Aspose.Sildes for .NET API Reference  
 description: Párrafo matemático
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides.mathtext/imathportion/mathparagraph/
 ---  

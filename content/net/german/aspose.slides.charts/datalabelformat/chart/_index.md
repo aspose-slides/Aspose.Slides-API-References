@@ -2,7 +2,7 @@
 title: Chart
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt das Diagramm zurück. Nur-Lese IChartaspose.slides/ichart.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides.charts/datalabelformat/chart/
 ---  

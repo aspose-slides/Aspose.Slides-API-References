@@ -2,7 +2,7 @@
 title: MathSuperscriptElementFactory
 second_title: Aspose.Sildes pour .NET API Référence  
 description: Le constructeur par défaut.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides.mathtext/mathsuperscriptelementfactory/mathsuperscriptelementfactory/
 ---  

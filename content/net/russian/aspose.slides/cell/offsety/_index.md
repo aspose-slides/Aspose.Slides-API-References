@@ -2,7 +2,7 @@
 title: OffsetY
 second_title: Aspose.Slides для .NET API Справочник  
 description: Возвращает расстояние от верхней стороны таблицы до верхней стороны ячейки. Только для чтения Double.
-type: docs  
+type: docs
 weight: 160  
 url: /ru/aspose.slides/cell/offsety/
 ---  

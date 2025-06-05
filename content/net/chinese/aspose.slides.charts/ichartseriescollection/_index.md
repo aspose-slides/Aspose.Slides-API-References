@@ -2,7 +2,7 @@
 title: IChartSeriesCollection
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示 IChartSeries 的集合。
-type: docs  
+type: docs
 weight: 1860  
 url: /zh/aspose.slides.charts/ichartseriescollection/
 ---  

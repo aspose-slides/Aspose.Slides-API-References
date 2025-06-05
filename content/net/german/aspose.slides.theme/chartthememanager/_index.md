@@ -2,7 +2,7 @@
 title: ChartThemeManager
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Bietet Zugriff auf das überschriebenen Diagrammthema.
-type: docs  
+type: docs
 weight: 10750  
 url: /de/aspose.slides.theme/chartthememanager/
 ---  

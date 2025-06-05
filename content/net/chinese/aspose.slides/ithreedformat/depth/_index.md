@@ -2,7 +2,7 @@
 title: Depth
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回或设置三维形状的深度。可读写 Double。
-type: docs  
+type: docs
 weight: 70  
 url: /zh/aspose.slides/ithreedformat/depth/
 ---  

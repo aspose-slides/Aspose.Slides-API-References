@@ -2,7 +2,7 @@
 title: SetHeaderText
 second_title: Aspose.Sildes para .NET API Reference  
 description: Establece el texto en el marcador de posición del encabezado de la diapositiva.
-type: docs  
+type: docs
 weight: 20  
 url: /es/aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext/
 ---  

@@ -2,7 +2,7 @@
 title: SkewMatrixXtoX
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Stellt die Eigenschaft 'skew.matrix.xtox' dar
-type: docs  
+type: docs
 weight: 790  
 url: /de/aspose.slides.animation/behaviorproperty/skewmatrixxtox/
 ---  

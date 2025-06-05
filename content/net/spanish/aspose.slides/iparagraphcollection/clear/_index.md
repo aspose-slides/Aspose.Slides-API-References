@@ -2,7 +2,7 @@
 title: Clear
 second_title: Aspose.Sildes para .NET Referencia de API  
 description: Elimina todos los elementos de la colección.
-type: docs  
+type: docs
 weight: 70  
 url: /es/aspose.slides/iparagraphcollection/clear/
 ---  

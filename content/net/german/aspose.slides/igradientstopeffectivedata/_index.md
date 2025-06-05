@@ -2,7 +2,7 @@
 title: IGradientStopEffectiveData
 second_title: Aspose.Slides für .NET API Referenz  
 description: unveränderliches Objekt, das einen Farbverlauf-Stopp darstellt.
-type: docs  
+type: docs
 weight: 5850  
 url: /de/aspose.slides/igradientstopeffectivedata/
 ---  

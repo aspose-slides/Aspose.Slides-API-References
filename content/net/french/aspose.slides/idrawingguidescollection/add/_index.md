@@ -2,7 +2,7 @@
 title: Add
 second_title: Aspose.Sildes pour .NET API Reference  
 description: Ajoute le guide de dessin à la fin de la collection.
-type: docs  
+type: docs
 weight: 30  
 url: /fr/aspose.slides/idrawingguidescollection/add/
 ---  

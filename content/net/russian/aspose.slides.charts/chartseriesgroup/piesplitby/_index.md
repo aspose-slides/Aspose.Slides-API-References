@@ -2,7 +2,7 @@
 title: PieSplitBy
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Определяет, как определить, какие точки данных находятся во втором пироге или столбце на диаграмме "пирог из пирога" или "столбец из пирога". Чтение/запись PieSplitTypeaspose.slides.charts/piesplittype.
-type: docs  
+type: docs
 weight: 130  
 url: /ru/aspose.slides.charts/chartseriesgroup/piesplitby/
 ---  

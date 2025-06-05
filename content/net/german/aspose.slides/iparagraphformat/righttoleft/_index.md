@@ -2,7 +2,7 @@
 title: RightToLeft
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Bestimmt, ob die Schreibrichtung von rechts nach links in einem Absatz verwendet wird. Keine Vererbung angewendet. Lese-/Schreibbar NullableBoolaspose.slides/nullablebool.
-type: docs  
+type: docs
 weight: 130  
 url: /de/aspose.slides/iparagraphformat/righttoleft/
 ---  

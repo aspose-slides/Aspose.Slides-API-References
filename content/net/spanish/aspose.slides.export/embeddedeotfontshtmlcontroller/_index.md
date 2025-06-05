@@ -2,7 +2,7 @@
 title: EmbeddedEotFontsHtmlController
 second_title: Aspose.Sildes para .NET API Reference  
 description: La clase de controlador de formato a utilizar para la incrustación de fuentes en formato EOT
-type: docs  
+type: docs
 weight: 3610  
 url: /es/aspose.slides.export/embeddedeotfontshtmlcontroller/
 ---  

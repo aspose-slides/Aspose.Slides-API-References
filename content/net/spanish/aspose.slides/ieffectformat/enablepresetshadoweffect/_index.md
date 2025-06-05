@@ -2,7 +2,7 @@
 title: EnablePresetShadowEffect
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Habilita el efecto de sombras preestablecidas.
-type: docs  
+type: docs
 weight: 230  
 url: /es/aspose.slides/ieffectformat/enablepresetshadoweffect/
 ---  

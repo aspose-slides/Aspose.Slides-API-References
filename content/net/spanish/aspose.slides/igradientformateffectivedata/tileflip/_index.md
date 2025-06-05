@@ -2,7 +2,7 @@
 title: TileFlip
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve el modo de voltea para un degradado. Solo lectura TileFlipaspose.slides/tileflip.
-type: docs  
+type: docs
 weight: 70  
 url: /es/aspose.slides/igradientformateffectivedata/tileflip/
 ---  

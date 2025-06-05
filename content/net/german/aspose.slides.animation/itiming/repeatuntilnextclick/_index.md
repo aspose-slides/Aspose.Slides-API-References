@@ -2,7 +2,7 @@
 title: RepeatUntilNextClick
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Dieses Attribut gibt an, ob der Effekt bis zum nächsten Klick wiederholt wird. Lese-/Schreibbare Boolesche Werte.
-type: docs  
+type: docs
 weight: 80  
 url: /de/aspose.slides.animation/itiming/repeatuntilnextclick/
 ---  

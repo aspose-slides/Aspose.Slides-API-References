@@ -2,7 +2,7 @@
 title: DeleteColumn
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Удаляет указанную колонку
-type: docs  
+type: docs
 weight: 120  
 url: /ru/aspose.slides.mathtext/imathmatrix/deletecolumn/
 ---  

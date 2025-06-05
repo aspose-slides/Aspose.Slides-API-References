@@ -2,7 +2,7 @@
 title: LoadExternalFont
 second_title: Aspose.Sildes pour .NET Référence API  
 description: Ajoute une police à partir des données binaires
-type: docs  
+type: docs
 weight: 30  
 url: /fr/aspose.slides/fontsloader/loadexternalfont/
 ---  

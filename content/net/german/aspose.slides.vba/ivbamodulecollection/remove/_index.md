@@ -2,7 +2,7 @@
 title: Remove
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Entfernt das erste Vorkommen eines bestimmten Objekts aus der Sammlung.
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides.vba/ivbamodulecollection/remove/
 ---  

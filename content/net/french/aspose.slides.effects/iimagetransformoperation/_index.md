@@ -2,7 +2,7 @@
 title: IImageTransformOperation
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Représente un effet de transformation d'image abstrait.
-type: docs  
+type: docs
 weight: 3270  
 url: /fr/aspose.slides.effects/iimagetransformoperation/
 ---  

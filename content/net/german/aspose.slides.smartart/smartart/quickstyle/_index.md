@@ -2,7 +2,7 @@
 title: QuickStyle
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Gibt den Schnellstil des SmartArt-Objekts zurück oder setzt ihn. Lese-/Schreibzugriff auf SmartArtQuickStyleTypeaspose.slides/smartartquickstyletype.
-type: docs  
+type: docs
 weight: 60  
 url: /de/aspose.slides.smartart/smartart/quickstyle/
 ---  

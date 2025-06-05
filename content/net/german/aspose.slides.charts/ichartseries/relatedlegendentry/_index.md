@@ -2,7 +2,7 @@
 title: RelatedLegendEntry
 second_title: Aspose.Slides für .NET API Referenz  
 description: Stellt einen Legenden-Eintrag dar, der mit dieser Serie verbunden ist. Nur-Lese ILegendEntryPropertiesaspose.slides/ilegendentryproperties.
-type: docs  
+type: docs
 weight: 350  
 url: /de/aspose.slides.charts/ichartseries/relatedlegendentry/
 ---  

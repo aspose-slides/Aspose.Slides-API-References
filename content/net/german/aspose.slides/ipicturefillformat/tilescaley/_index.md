@@ -2,7 +2,7 @@
 title: TileScaleY
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt den vertikalen Maßstab für die Texturfüllung als Prozentsatz zurück oder setzt ihn. Lese-/schreibbare Single.
-type: docs  
+type: docs
 weight: 180  
 url: /de/aspose.slides/ipicturefillformat/tilescaley/
 ---  

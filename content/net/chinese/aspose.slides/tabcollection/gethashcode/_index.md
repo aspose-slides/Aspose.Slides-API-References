@@ -2,7 +2,7 @@
 title: GetHashCode
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回此对象的哈希代码。
-type: docs  
+type: docs
 weight: 100  
 url: /zh/aspose.slides/tabcollection/gethashcode/
 ---  

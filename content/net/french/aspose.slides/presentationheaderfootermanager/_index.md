@@ -2,7 +2,7 @@
 title: PresentationHeaderFooterManager
 second_title: Référence API Aspose.Slides pour .NET  
 description: Représente le gestionnaire qui contient le comportement de tous les espaces réservés de date-heure et de numéro de page du pied de page de la présentation.
-type: docs  
+type: docs
 weight: 9340  
 url: /fr/aspose.slides/presentationheaderfootermanager/
 ---  

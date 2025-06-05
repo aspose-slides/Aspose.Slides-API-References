@@ -2,7 +2,7 @@
 title: RangeEndIndex
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Obtenir le dernier index d'une plage unicode continue.
-type: docs  
+type: docs
 weight: 40  
 url: /fr/aspose.slides/fontfallbackrule/rangeendindex/
 ---  

@@ -2,7 +2,7 @@
 title: GetEnumerator
 second_title: Aspose.Sildes для .NET API Справка  
 description: Возвращает перечислитель, который перебирает коллекцию.
-type: docs  
+type: docs
 weight: 70  
 url: /ru/aspose.slides.vba/vbamodulecollection/getenumerator/
 ---  

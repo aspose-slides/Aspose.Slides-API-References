@@ -2,7 +2,7 @@
 title: TitleStyle
 second_title: Aspose.Slides для .NET API Reference  
 description: Возвращает стиль текста заголовка. Только для чтения ITextStyle aspose.slides/itextstyle.
-type: docs  
+type: docs
 weight: 90  
 url: /ru/aspose.slides/imasterslide/titlestyle/
 ---  

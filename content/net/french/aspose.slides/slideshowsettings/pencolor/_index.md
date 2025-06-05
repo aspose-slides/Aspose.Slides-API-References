@@ -2,7 +2,7 @@
 title: PenColor
 second_title: Aspose.Sildes pour la référence API .NET  
 description: Couleur du stylo pour la présentation
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides/slideshowsettings/pencolor/
 ---  

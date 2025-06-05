@@ -2,7 +2,7 @@
 title: CreateReflection
 second_title: Aspose.Slid es for .NET API Reference  
 description: 创建反射效果。
-type: docs  
+type: docs
 weight: 70  
 url: /zh/aspose.slides.effects/effectfactory/createreflection/
 ---  

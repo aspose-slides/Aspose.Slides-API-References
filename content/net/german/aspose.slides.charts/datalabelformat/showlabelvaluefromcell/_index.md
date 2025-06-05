@@ -2,7 +2,7 @@
 title: ShowLabelValueFromCell
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Stellt ein bestimmtes Verhalten für die Anzeige des Zellenwerts des Datenlabels eines Diagramms dar. Wahr zeigt den Zellenwert an. Falsch, um ihn auszublenden. Lese-/Schreib-Boolean.
-type: docs  
+type: docs
 weight: 100  
 url: /de/aspose.slides.charts/datalabelformat/showlabelvaluefromcell/
 ---  

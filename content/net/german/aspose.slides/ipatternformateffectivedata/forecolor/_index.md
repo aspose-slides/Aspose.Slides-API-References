@@ -2,7 +2,7 @@
 title: ForeColor
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt die Vordergrundmusterfarbe zurück. Nur lesbare Farbe.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides/ipatternformateffectivedata/forecolor/
 ---  

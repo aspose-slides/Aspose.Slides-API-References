@@ -2,7 +2,7 @@
 title: IMasterSlideHeaderFooterManager
 second_title: Aspose.Sildes для справочника API .NET  
 description: Представляет менеджер, который хранит поведение заголовка и колонтитула слайдов, дату-время, номер страницы и все дочерние заполнители. Дочерние заполнители - это заполнители, которые содержатся на зависимых макетах слайдов и зависимых слайдах. Зависимые макеты слайдов и слайды используют и зависят от мастер-слайда.
-type: docs  
+type: docs
 weight: 6240  
 url: /ru/aspose.slides/imasterslideheaderfootermanager/
 ---  

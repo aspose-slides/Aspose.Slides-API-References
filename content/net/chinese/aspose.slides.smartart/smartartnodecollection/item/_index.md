@@ -2,7 +2,7 @@
 title: Item
 second_title: Aspose.Slides for .NET API Reference  
 description: 根据索引返回节点
-type: docs  
+type: docs
 weight: 30  
 url: /zh/aspose.slides.smartart/smartartnodecollection/item/
 ---  

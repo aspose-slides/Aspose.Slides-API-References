@@ -2,7 +2,7 @@
 title: IsSynchronized
 second_title: Référence API Aspose.Slides pour .NET  
 description: Retourne une valeur indiquant si l'accès à la collection est synchronisé et thread-safe. Boolean en lecture seule.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides.theme/effectstylecollection/issynchronized/
 ---  

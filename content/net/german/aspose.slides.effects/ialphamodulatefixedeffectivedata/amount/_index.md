@@ -2,7 +2,7 @@
 title: Amount
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Gibt einen Betrag des Effekts in Prozent an. Nur lesbar Single.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides.effects/ialphamodulatefixedeffectivedata/amount/
 ---  

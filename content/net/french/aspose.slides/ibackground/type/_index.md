@@ -2,7 +2,7 @@
 title: Type
 second_title: Aspose.Sildes pour .NET API Référence  
 description: Renvoie un type de remplissage d'arrière-plan. Lecture/écriture BackgroundTypeaspose.slides/backgroundtype.
-type: docs  
+type: docs
 weight: 70  
 url: /fr/aspose.slides/ibackground/type/
 ---  

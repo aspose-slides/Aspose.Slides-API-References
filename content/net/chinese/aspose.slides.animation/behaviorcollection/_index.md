@@ -2,7 +2,7 @@
 title: BehaviorCollection
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示行为效果的集合。
-type: docs  
+type: docs
 weight: 90  
 url: /zh/aspose.slides.animation/behaviorcollection/
 ---  

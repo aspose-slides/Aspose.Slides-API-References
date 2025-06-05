@@ -2,7 +2,7 @@
 title: Value2
 second_title: Aspose.Sildes for .NET API Reference  
 description: 定义偏移的第三个值。可读/可写单精度数。
-type: docs  
+type: docs
 weight: 30  
 url: /zh/aspose.slides.animation/icoloroffset/value2/
 ---  

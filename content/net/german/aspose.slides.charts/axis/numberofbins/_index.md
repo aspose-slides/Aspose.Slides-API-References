@@ -3,7 +3,7 @@
 title: NumberOfBins
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt die Anzahl der Bins an, wenn der Wert der Eigenschaft AggregationType auf AxisAggregationType.ByNumberOfBins gesetzt ist. Anwendbar auf Kategorienachsen. Nur mit Histogramm- oder HistogrammPareto-Serien verwendet.
-type: docs  
+type: docs
 weight: 450  
 url: /de/aspose.slides.charts/axis/numberofbins/
 ---  

@@ -2,7 +2,7 @@
 title: DisableFillOverlayEffect
 second_title: Aspose.Slides für .NET API Referenz  
 description: Deaktiviert den Füllüberlagerungseffekt.
-type: docs  
+type: docs
 weight: 120  
 url: /de/aspose.slides/ieffectformat/disablefilloverlayeffect/
 ---  

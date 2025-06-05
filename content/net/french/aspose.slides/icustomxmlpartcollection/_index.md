@@ -2,7 +2,7 @@
 title: ICustomXmlPartCollection
 second_title: Référence API Aspose.Slides pour .NET  
 description: Représente une collection de parties xml personnalisées.
-type: docs  
+type: docs
 weight: 5480  
 url: /fr/aspose.slides/icustomxmlpartcollection/
 ---  

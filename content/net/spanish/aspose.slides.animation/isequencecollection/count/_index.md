@@ -2,7 +2,7 @@
 title: Count
 second_title: Referencia de la API de Aspose.Slides para .NET  
 description: Devuelve el número de elementos en una colección Int32 de solo lectura.
-type: docs  
+type: docs
 weight: 20  
 url: /es/aspose.slides.animation/isequencecollection/count/
 ---  

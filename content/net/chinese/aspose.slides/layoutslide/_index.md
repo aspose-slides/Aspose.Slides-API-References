@@ -2,7 +2,7 @@
 title: LayoutSlide
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示幻灯片布局。
-type: docs  
+type: docs
 weight: 7400  
 url: /zh/aspose.slides/layoutslide/
 ---  

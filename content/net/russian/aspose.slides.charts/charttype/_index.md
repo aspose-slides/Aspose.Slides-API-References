@@ -2,7 +2,7 @@
 title: ChartType
 second_title: Aspose.Sildes для .NET API Reference  
 description: Представляет тип диаграммы.
-type: docs  
+type: docs
 weight: 1420  
 url: /ru/aspose.slides.charts/charttype/
 ---  

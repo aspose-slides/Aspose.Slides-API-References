@@ -2,7 +2,7 @@
 title: ShowBubbleSize
 second_title: Aspose.Sildes para .NET API Reference  
 description: Representa el comportamiento de visualización del valor del tamaño de burbuja de la etiqueta de datos de un gráfico específico. Verdadero muestra el valor del tamaño de la burbuja. Falso para ocultar. Booleano de lectura/escritura.
-type: docs  
+type: docs
 weight: 70  
 url: /es/aspose.slides.charts/idatalabelformat/showbubblesize/
 ---  

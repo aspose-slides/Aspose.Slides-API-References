@@ -2,7 +2,7 @@
 title: IBaseSlide
 second_title: Aspose.Sildes for .NET API Reference  
 description: 代表所有幻灯片类型的通用数据。
-type: docs  
+type: docs
 weight: 5140  
 url: /zh/aspose.slides/ibaseslide/
 ---  

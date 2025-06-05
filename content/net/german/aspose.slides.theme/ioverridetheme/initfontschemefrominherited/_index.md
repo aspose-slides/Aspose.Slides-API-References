@@ -2,7 +2,7 @@
 title: InitFontSchemeFromInherited
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Initialisiere FontScheme mit einem neuen Objekt zum Überschreiben von FontScheme des InheritedTheme. Und initialisiere die Daten dieses neuen Objekts mit den Daten des FontScheme des InheritedTheme.
-type: docs  
+type: docs
 weight: 90  
 url: /de/aspose.slides.theme/ioverridetheme/initfontschemefrominherited/
 ---  

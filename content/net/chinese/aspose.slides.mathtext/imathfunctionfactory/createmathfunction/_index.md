@@ -2,7 +2,7 @@
 title: CreateMathFunction
 second_title: Aspose.Sildes for .NET API Reference  
 description: 创建数学函数
-type: docs  
+type: docs
 weight: 10  
 url: /zh/aspose.slides.mathtext/imathfunctionfactory/createmathfunction/
 ---  

@@ -2,7 +2,7 @@
 title: CustomNumberFormat
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Ruft das benutzerdefinierte Anzeigeformat von Zahlen und Daten ab oder legt es fest. Wenn der Wert leer ist, wird der Wert von PresetNumberFormat verwendet. Lese-/Schreibzeichenfolge.
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides.charts/ichartdatacell/customnumberformat/
 ---  

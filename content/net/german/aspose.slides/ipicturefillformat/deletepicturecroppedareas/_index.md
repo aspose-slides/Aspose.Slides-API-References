@@ -2,7 +2,7 @@
 title: DeletePictureCroppedAreas
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Löscht zugeschnittene Bereiche des Füllbilds.
-type: docs  
+type: docs
 weight: 200  
 url: /de/aspose.slides/ipicturefillformat/deletepicturecroppedareas/
 ---  

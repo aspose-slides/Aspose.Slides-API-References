@@ -2,7 +2,7 @@
 title: AlphaModulateFixed
 second_title: Aspose.Slides für .NET API Referenz  
 description: Stellt einen Alpha Modulate Fixed Effekt dar. Die Alpha-Opazitätswerte des Effekts werden mit einem festen Prozentsatz multipliziert.
-type: docs  
+type: docs
 weight: 2800  
 url: /de/aspose.slides.effects/alphamodulatefixed/
 ---  

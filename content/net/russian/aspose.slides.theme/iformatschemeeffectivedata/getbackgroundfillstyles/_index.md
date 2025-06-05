@@ -2,7 +2,7 @@
 title: GetBackgroundFillStyles
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Возвращает коллекцию стилей заливки фона, определенных темой.
-type: docs  
+type: docs
 weight: 10  
 url: /ru/aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles/
 ---  

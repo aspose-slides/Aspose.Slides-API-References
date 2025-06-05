@@ -2,7 +2,7 @@
 title: IGraphicalObject
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示抽象图形对象。
-type: docs  
+type: docs
 weight: 5860  
 url: /zh/aspose.slides/igraphicalobject/
 ---  

@@ -2,7 +2,7 @@
 title: Bottom
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Bottom. Nur-Lese Single.
-type: docs  
+type: docs
 weight: 60  
 url: /de/aspose.slides.charts/datalabel/bottom/
 ---  

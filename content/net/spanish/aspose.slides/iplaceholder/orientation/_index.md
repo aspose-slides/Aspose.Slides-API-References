@@ -2,7 +2,7 @@
 title: Orientation
 second_title: Aspose.Slides para .NET API Reference  
 description: Obtiene la orientación de un marcador de posición. Solo lectura Orientationaspose.slides/orientation.
-type: docs  
+type: docs
 weight: 20  
 url: /es/aspose.slides/iplaceholder/orientation/
 ---  

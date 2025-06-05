@@ -2,7 +2,7 @@
 title: AudioCdStartTrack
 second_title: Aspose.Slides pour .NET Référence de l'API  
 description: Renvoie ou définit un index de piste de départ. Lecture/écriture Int32.
-type: docs  
+type: docs
 weight: 30  
 url: /fr/aspose.slides/audioframe/audiocdstarttrack/
 ---  

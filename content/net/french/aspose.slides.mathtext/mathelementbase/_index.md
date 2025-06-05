@@ -2,7 +2,7 @@
 title: MathElementBase
 second_title: Aspose.Sildes pour la référence API .NET  
 description: Classe de base pour IMathElement avec l'implémentation de certaines méthodes qui sont communes à toutes les classes héritées Utilisation interne uniquement. La classe héritée doit être IMathElement.
-type: docs  
+type: docs
 weight: 8420  
 url: /fr/aspose.slides.mathtext/mathelementbase/
 ---  

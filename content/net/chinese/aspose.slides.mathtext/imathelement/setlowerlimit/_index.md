@@ -2,7 +2,7 @@
 title: SetLowerLimit
 second_title: Aspose.Sildes for .NET API Reference  
 description: 取下限
-type: docs  
+type: docs
 weight: 130  
 url: /zh/aspose.slides.mathtext/imathelement/setlowerlimit/
 ---  

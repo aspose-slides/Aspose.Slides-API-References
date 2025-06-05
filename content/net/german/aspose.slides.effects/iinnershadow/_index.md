@@ -2,7 +2,7 @@
 title: IInnerShadow
 second_title: Aspose.Slides für .NET API Referenz  
 description: Stellt einen inneren Schatteneffekt dar.
-type: docs  
+type: docs
 weight: 3300  
 url: /de/aspose.slides.effects/iinnershadow/
 ---  

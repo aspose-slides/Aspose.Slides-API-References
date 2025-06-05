@@ -2,7 +2,7 @@
 title: RotationEffect
 second_title: Aspose.Sildes для .NET API Reference  
 description: Конструктор по умолчанию.
-type: docs  
+type: docs
 weight: 10  
 url: /ru/aspose.slides.animation/rotationeffect/rotationeffect/
 ---  

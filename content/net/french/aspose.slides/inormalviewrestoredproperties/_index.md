@@ -2,7 +2,7 @@
 title: INormalViewRestoredProperties
 second_title: Aspose.Slides pour .NET Référence de l'API  
 description: Spécifie la taille de la largeur de la région de diapositive largeur lorsque enfant de restoredTop, hauteur lorsque enfant de restoredLeft de la vue normale, lorsque la région est d'une taille restaurée variable ni minimisée ni maximisée.
-type: docs  
+type: docs
 weight: 6280  
 url: /fr/aspose.slides/inormalviewrestoredproperties/
 ---  

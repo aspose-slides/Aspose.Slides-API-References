@@ -2,7 +2,7 @@
 title: HighlightRegex
 second_title: Aspose.Sildes for .NET API Reference  
 description: 使用指定的颜色突出显示正则表达式的所有匹配项。
-type: docs  
+type: docs
 weight: 320  
 url: /zh/aspose.slides/ipresentation/highlightregex/
 ---  

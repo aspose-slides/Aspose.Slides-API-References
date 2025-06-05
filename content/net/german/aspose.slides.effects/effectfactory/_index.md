@@ -2,7 +2,7 @@
 title: EffectFactory
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Ermöglicht das Erstellen von Effekten
-type: docs  
+type: docs
 weight: 2870  
 url: /de/aspose.slides.effects/effectfactory/
 ---  

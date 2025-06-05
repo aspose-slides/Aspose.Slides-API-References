@@ -2,7 +2,7 @@
 title: ViewProperties
 second_title: Aspose.Sildes for .NET API Reference  
 description: 演示文稿的全局视图属性。
-type: docs  
+type: docs
 weight: 11430  
 url: /zh/aspose.slides/viewproperties/
 ---  

@@ -2,7 +2,7 @@
 title: CreateColorEffect
 second_title: Aspose.Slides für .NET API Referenz  
 description: Erstellt Farbeffekt.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides.animation/ibehaviorfactory/createcoloreffect/
 ---  

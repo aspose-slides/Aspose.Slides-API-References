@@ -2,7 +2,7 @@
 title: Name
 second_title: Aspose.Slides für .NET API Referenz  
 description: Ruft den Namen dieses Steuerelements ab oder legt ihn fest. Lese-/Schreib-String.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides/control/name/
 ---  

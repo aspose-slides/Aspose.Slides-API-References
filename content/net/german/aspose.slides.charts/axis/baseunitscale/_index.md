@@ -2,7 +2,7 @@
 title: BaseUnitScale
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt die kleinste Zeiteinheit an, die auf der Datumsachse dargestellt wird. Lese-/Schreibzugriff auf TimeUnitTypeaspose.slides/timeunittype.
-type: docs  
+type: docs
 weight: 90  
 url: /de/aspose.slides.charts/axis/baseunitscale/
 ---  

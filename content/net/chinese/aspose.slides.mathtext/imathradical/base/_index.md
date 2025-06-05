@@ -2,7 +2,7 @@
 title: Base
 second_title: Aspose.Sildes for .NET API Reference  
 description: Base argument
-type: docs  
+type: docs
 weight: 20  
 url: /zh/aspose.slides.mathtext/imathradical/base/
 ---  

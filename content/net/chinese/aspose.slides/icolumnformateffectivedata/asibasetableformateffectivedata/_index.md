@@ -2,7 +2,7 @@
 title: AsIBaseTableFormatEffectiveData
 second_title: Aspose.Sildes for .NET API Reference  
 description: 允许获取基础 IBaseTableFormatEffectiveData 接口。只读 IBaseTableFormatEffectiveData aspose.slides/ibasetableformateffectivedata。
-type: docs  
+type: docs
 weight: 10  
 url: /zh/aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata/
 ---  

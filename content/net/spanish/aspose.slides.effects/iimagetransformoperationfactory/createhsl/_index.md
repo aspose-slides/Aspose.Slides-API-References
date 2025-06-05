@@ -2,7 +2,7 @@
 title: CreateHSL
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Crea el efecto de Tono, Saturación y Brillo.
-type: docs  
+type: docs
 weight: 150  
 url: /es/aspose.slides.effects/iimagetransformoperationfactory/createhsl/
 ---  

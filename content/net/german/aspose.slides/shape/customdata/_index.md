@@ -2,7 +2,7 @@
 title: CustomData
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt die benutzerdefinierten Daten der Formen zurück. Nur-lesbare ICustomDataaspose.slides/icustomdata.
-type: docs  
+type: docs
 weight: 50  
 url: /de/aspose.slides/shape/customdata/
 ---  

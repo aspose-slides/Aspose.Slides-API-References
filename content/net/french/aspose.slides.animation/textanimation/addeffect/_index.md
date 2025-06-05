@@ -3,7 +3,7 @@
 title: AddEffect
 second_title: Aspose.Sildes pour .NET API Référence  
 description: Ajouter un nouvel effet à la fin de la séquence actuelle à la fin des animations de texte du groupe. Valide uniquement si le nombre de paragraphes de texte est égal ou supérieur au nombre d'effets de ce groupe
-type: docs  
+type: docs
 weight: 40  
 url: /fr/aspose.slides.animation/textanimation/addeffect/
 ---  

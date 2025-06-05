@@ -2,7 +2,7 @@
 title: ToSvg
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Konvertiert Presentationaspose.slides/presentation in SVG.
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides.lowcode/convert/tosvg/
 ---  

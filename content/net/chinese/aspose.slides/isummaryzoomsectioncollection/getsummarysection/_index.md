@@ -2,7 +2,7 @@
 title: GetSummarySection
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回给定节的摘要缩放节元素。
-type: docs  
+type: docs
 weight: 40  
 url: /zh/aspose.slides/isummaryzoomsectioncollection/getsummarysection/
 ---  

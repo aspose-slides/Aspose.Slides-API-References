@@ -2,7 +2,7 @@
 title: Count
 second_title: Aspose.Slides для .NET API Справочник  
 description: Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
-type: docs  
+type: docs
 weight: 20  
 url: /ru/aspose.slides.charts/itrendlinecollection/count/
 ---  

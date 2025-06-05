@@ -2,7 +2,7 @@
 title: GetEnumerator
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt einen Enumerator zurück, der die Sammlung durchläuft.
-type: docs  
+type: docs
 weight: 60  
 url: /de/aspose.slides.charts/chartcellcollection/getenumerator/
 ---  

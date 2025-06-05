@@ -2,7 +2,7 @@
 title: RemoveUnused
 second_title: Aspose.Slides para .NET API Reference  
 description: Elimina las diapositivas de diseño no utilizadas cuyas HasDependingSlides son falsas.
-type: docs  
+type: docs
 weight: 90  
 url: /es/aspose.slides/layoutslidecollection/removeunused/
 ---  

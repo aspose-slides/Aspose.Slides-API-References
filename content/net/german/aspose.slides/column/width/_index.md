@@ -2,7 +2,7 @@
 title: Width
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt die Breite einer Spalte zurück oder legt sie fest. Lese-/Schreibzugriff Double.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides/column/width/
 ---  

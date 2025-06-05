@@ -2,7 +2,7 @@
 title: IPointCollection
 second_title: Référence API d'Aspose.Slides pour .NET  
 description: Représente une collection de portions.
-type: docs  
+type: docs
 weight: 470  
 url: /fr/aspose.slides.animation/ipointcollection/
 ---  

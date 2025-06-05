@@ -2,7 +2,7 @@
 title: IMathGroupingCharacterFactory
 second_title: Aspose.Sildes para .NET API Reference  
 description: Permite crear un carácter de agrupamiento matemático
-type: docs  
+type: docs
 weight: 8050  
 url: /es/aspose.slides.mathtext/imathgroupingcharacterfactory/
 ---  

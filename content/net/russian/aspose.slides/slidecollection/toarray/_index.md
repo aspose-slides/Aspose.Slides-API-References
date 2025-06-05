@@ -2,7 +2,7 @@
 title: ToArray
 second_title: Aspose.Sildes для .NET API Reference  
 description: Создает и возвращает массив со всеми слайдами в нем.
-type: docs  
+type: docs
 weight: 180  
 url: /ru/aspose.slides/slidecollection/toarray/
 ---  

@@ -2,7 +2,7 @@
 title: TickLabelPosition
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Representa la posición de las etiquetas de marcas de ticks en el eje especificado. Lectura/escritura TickLabelPositionTypeaspose.slides.charts/ticklabelpositiontype.
-type: docs  
+type: docs
 weight: 510  
 url: /es/aspose.slides.charts/axis/ticklabelposition/
 ---  

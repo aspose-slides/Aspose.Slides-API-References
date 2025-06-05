@@ -2,7 +2,7 @@
 title: ExtraColorSchemes
 second_title: Aspose.Sildes pour .NET Référence API  
 description: Renvoie la collection de schémas de couleurs supplémentaires. Ces schémas n'affectent pas l'apparence des présentations, ils peuvent être sélectionnés comme schéma de couleurs principal pour une diapositive. Lecture seule IExtraColorSchemeCollectionaspose.slides.theme/iextracolorschemecollection.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides.theme/mastertheme/extracolorschemes/
 ---  

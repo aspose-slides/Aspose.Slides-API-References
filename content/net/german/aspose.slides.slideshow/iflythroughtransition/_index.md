@@ -2,7 +2,7 @@
 title: IFlyThroughTransition
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Fly-through Folienübergangseffekt.
-type: docs  
+type: docs
 weight: 9780  
 url: /de/aspose.slides.slideshow/iflythroughtransition/
 ---  

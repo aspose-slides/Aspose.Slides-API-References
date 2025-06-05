@@ -2,7 +2,7 @@
 title: HandoutLayoutingOptions
 second_title: Aspose.Sildes pour .NET Référence de l'API  
 description: Représente le mode de mise en page de la présentation des documents pour l'exportation.
-type: docs  
+type: docs
 weight: 3670  
 url: /fr/aspose.slides.export/handoutlayoutingoptions/
 ---  

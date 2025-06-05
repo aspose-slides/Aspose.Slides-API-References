@@ -2,7 +2,7 @@
 title: ShapeLock
 second_title: Aspose.Sildes para .NET API Reference  
 description: Devuelve los bloqueos de formas. Solo lectura IPictureFrameLockaspose.slides/ipictureframelock.
-type: docs  
+type: docs
 weight: 60  
 url: /es/aspose.slides/pictureframe/shapelock/
 ---  

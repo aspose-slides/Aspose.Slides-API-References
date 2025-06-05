@@ -2,7 +2,7 @@
 title: GetSlideById
 second_title: Aspose.Sildes for .NET API Reference  
 description: 根据 Id 返回幻灯片、母版幻灯片或布局幻灯片。
-type: docs  
+type: docs
 weight: 310  
 url: /zh/aspose.slides/ipresentation/getslidebyid/
 ---  

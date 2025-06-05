@@ -2,7 +2,7 @@
 title: MasterNotesSlideManager
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Renvoie le gestionnaire de notes principales. Lecture seule IMasterNotesSlideManageraspose.slides/imasternotesslidemanager.
-type: docs  
+type: docs
 weight: 170  
 url: /fr/aspose.slides/presentation/masternotesslidemanager/
 ---  

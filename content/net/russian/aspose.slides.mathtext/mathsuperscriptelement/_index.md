@@ -2,7 +2,7 @@
 title: MathSuperscriptElement
 second_title: Aspose.Sildes for .NET API Reference  
 description: Указывает объект надстрочного текста, который состоит из основания и уменьшенного надстрочного текста, расположенного выше и справа
-type: docs  
+type: docs
 weight: 8750  
 url: /ru/aspose.slides.mathtext/mathsuperscriptelement/
 ---  

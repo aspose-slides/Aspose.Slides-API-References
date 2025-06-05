@@ -2,7 +2,7 @@
 title: Rotation3D
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Représente la rotation 3D d'un graphique.
-type: docs  
+type: docs
 weight: 2320  
 url: /fr/aspose.slides.charts/rotation3d/
 ---  

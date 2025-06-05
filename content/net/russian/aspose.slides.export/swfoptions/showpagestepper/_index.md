@@ -2,7 +2,7 @@
 title: ShowPageStepper
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Показать/скрыть шаги страницы. Может быть переопределен в flashvars. По умолчанию true.
-type: docs  
+type: docs
 weight: 120  
 url: /ru/aspose.slides.export/swfoptions/showpagestepper/
 ---  

@@ -2,7 +2,7 @@
 title: AsIFillParamSource
 second_title: Aspose.Slides for .NET API Reference  
 description: 允许获取基本的 IFillParamSource 接口。只读 IFillParamSource aspose.slides/ifillparamsource。
-type: docs  
+type: docs
 weight: 10  
 url: /zh/aspose.slides/ifillformat/asifillparamsource/
 ---  

@@ -2,7 +2,7 @@
 title: WriteSlideStart
 second_title: Referencia de la API de Aspose.Slides para .NET  
 description: Se llama para escribir el encabezado de la diapositiva html. Se llama una vez por cada una de las diapositivas.
-type: docs  
+type: docs
 weight: 90  
 url: /es/aspose.slides.export/embedallfontshtmlcontroller/writeslidestart/
 ---  

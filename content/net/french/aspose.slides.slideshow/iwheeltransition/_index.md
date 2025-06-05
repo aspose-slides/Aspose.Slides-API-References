@@ -2,7 +2,7 @@
 title: IWheelTransition
 second_title: Aspose.Sildes for .NET API Reference  
 description: Effet de transition de diapositive de roue.
-type: docs  
+type: docs
 weight: 9910  
 url: /fr/aspose.slides.slideshow/iwheeltransition/
 ---  

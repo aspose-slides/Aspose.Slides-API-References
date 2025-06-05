@@ -2,7 +2,7 @@
 title: SetAllHeadersText
 second_title: Aspose.Sildes для .NET API Справка  
 description: Устанавливает текст для всех заполняемых мест заголовков, включая мастер заметок, слайды заметок и мастер раздаточных материалов.
-type: docs  
+type: docs
 weight: 60  
 url: /ru/aspose.slides/ipresentationheaderfootermanager/setallheaderstext/
 ---  

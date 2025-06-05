@@ -2,7 +2,7 @@
 title: SetGeometryPath
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Actualiza la geometría de la forma a partir del objeto IGeometryPathaspose.slides/igeometrypath. Las coordenadas deben ser relativas a la esquina superior izquierda de la forma. Cambia el tipo de la forma ShapeTypeaspose.slides/igeometryshape/shapetype a Personalizado.
-type: docs  
+type: docs
 weight: 70  
 url: /es/aspose.slides/igeometryshape/setgeometrypath/
 ---  

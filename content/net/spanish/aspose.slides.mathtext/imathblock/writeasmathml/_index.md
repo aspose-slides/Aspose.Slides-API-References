@@ -2,7 +2,7 @@
 title: WriteAsMathMl
 second_title: Aspose.Sildes para .NET Referencia de API  
 description: Guarda el contenido de este IMathBlockaspose.slides.mathtext/imathblock como MathML
-type: docs  
+type: docs
 weight: 60  
 url: /es/aspose.slides.mathtext/imathblock/writeasmathml/
 ---  

@@ -2,7 +2,7 @@
 title: CommandType
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Spécifie le type de commande. Lecture/écriture MotionCommandPathTypeaspose.slides.animation/motioncommandpathtype.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides.animation/motioncmdpath/commandtype/
 ---  

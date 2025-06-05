@@ -2,7 +2,7 @@
 title: AsIWarningInfo
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt das IWarningInfo-Interface zurück. Nur-Lese IWarningInfo aspose.slides.warnings/iwarninginfo.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides.warnings/ipresentationsignedwarninginfo/asiwarninginfo/
 ---  

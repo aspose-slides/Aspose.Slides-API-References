@@ -2,7 +2,7 @@
 title: GetCustomPropertyName
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Retourne un nom de propriété personnalisée à l'index spécifié.
-type: docs  
+type: docs
 weight: 390  
 url: /fr/aspose.slides/idocumentproperties/getcustompropertyname/
 ---  

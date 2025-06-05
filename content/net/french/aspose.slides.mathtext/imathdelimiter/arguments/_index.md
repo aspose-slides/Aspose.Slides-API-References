@@ -2,7 +2,7 @@
 title: Arguments
 second_title: Aspose.Slides pour la référence de l'API .NET  
 description: Un ou plusieurs éléments mathématiques séparés par des caractères délimiteurs
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides.mathtext/imathdelimiter/arguments/
 ---  

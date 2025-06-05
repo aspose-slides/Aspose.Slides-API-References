@@ -2,7 +2,7 @@
 title: GetByType
 second_title: Aspose.Sildes pour .NET Référence de l'API  
 description: Renvoie la première diapositive de mise en page du type spécifié.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides/ilayoutslidecollection/getbytype/
 ---  

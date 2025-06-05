@@ -2,7 +2,7 @@
 title: License
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Bietet Methoden zur Lizenzierung der Komponente.
-type: docs  
+type: docs
 weight: 7440  
 url: /de/aspose.slides/license/
 ---  

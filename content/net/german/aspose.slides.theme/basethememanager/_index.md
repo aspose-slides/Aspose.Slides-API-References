@@ -2,7 +2,7 @@
 title: BaseThemeManager
 second_title: Aspose.Slides für .NET API Referenz  
 description: Basisklasse für Klassen, die Zugriff auf verschiedene Arten von Themen bieten.
-type: docs  
+type: docs
 weight: 10740  
 url: /de/aspose.slides.theme/basethememanager/
 ---  

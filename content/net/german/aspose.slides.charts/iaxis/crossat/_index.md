@@ -2,7 +2,7 @@
 title: CrossAt
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Stellt den Punkt auf der Achse dar, an dem die senkrechte Achse sie schneidet. Lese-/Schreibzugriff auf Single.
-type: docs  
+type: docs
 weight: 130  
 url: /de/aspose.slides.charts/iaxis/crossat/
 ---  

@@ -2,7 +2,7 @@
 title: IOleObjectFrame
 second_title: Aspose.Slides for .NET API Reference  
 description: 表示幻灯片上的 OLE 对象。
-type: docs  
+type: docs
 weight: 6340  
 url: /zh/aspose.slides/ioleobjectframe/
 ---  

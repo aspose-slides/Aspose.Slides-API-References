@@ -2,7 +2,7 @@
 title: SetInternalHyperlinkMouseOver
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Establece el mouse over del hiperenlace interno.
-type: docs  
+type: docs
 weight: 60  
 url: /es/aspose.slides/hyperlinkmanager/setinternalhyperlinkmouseover/
 ---  

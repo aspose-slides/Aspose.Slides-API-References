@@ -2,7 +2,7 @@
 title: TrendlineType
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Obtient ou définit le type de ligne de tendance. Lecture/écriture TrendlineTypeaspose.slides.charts/itrendline/trendlinetype.
-type: docs  
+type: docs
 weight: 120  
 url: /fr/aspose.slides.charts/itrendline/trendlinetype/
 ---  

@@ -2,7 +2,7 @@
 title: IMotionEffect
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示效果的运动效果行为。
-type: docs  
+type: docs
 weight: 440  
 url: /zh/aspose.slides.animation/imotioneffect/
 ---  

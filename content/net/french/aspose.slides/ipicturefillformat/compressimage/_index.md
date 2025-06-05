@@ -2,7 +2,7 @@
 title: CompressImage
 second_title: Aspose.Sildes pour .NET Référence de l'API  
 description: Compresse l'image en réduisant sa taille en fonction de la taille de la forme et de la résolution spécifiée. En option, elle supprime également les zones recadrées.
-type: docs  
+type: docs
 weight: 190  
 url: /fr/aspose.slides/ipicturefillformat/compressimage/
 ---  

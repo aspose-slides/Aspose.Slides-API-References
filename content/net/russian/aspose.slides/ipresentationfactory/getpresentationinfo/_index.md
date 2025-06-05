@@ -2,7 +2,7 @@
 title: GetPresentationInfo
 second_title: Aspose.Slides для .NET API Справочник  
 description: Получает информацию о презентации в заданном файле.
-type: docs  
+type: docs
 weight: 20  
 url: /ru/aspose.slides/ipresentationfactory/getpresentationinfo/
 ---  

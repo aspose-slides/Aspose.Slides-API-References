@@ -2,7 +2,7 @@
 title: IDocumentProperties
 second_title: Aspose.Slides für .NET API Referenz  
 description: Stellt die Eigenschaften einer Präsentation dar.
-type: docs  
+type: docs
 weight: 5510  
 url: /de/aspose.slides/idocumentproperties/
 ---  

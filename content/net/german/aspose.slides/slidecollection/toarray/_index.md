@@ -2,7 +2,7 @@
 title: ToArray
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Erstellt und gibt ein Array mit allen Folien darin zurück.
-type: docs  
+type: docs
 weight: 180  
 url: /de/aspose.slides/slidecollection/toarray/
 ---  

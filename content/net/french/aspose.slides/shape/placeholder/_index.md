@@ -2,7 +2,7 @@
 title: Placeholder
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Retourne le placeholder pour une forme. Retourne null si la forme n'a pas de placeholder. Lecture seule IPlaceholderaspose.slides/iplaceholder.
-type: docs  
+type: docs
 weight: 210  
 url: /fr/aspose.slides/shape/placeholder/
 ---  

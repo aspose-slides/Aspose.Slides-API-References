@@ -2,7 +2,7 @@
 title: FontAlignment
 second_title: Aspose.Sildes for .NET API Reference  
 description: 在段落中返回或设置字体对齐方式。可读写 FontAlignmentaspose.slides/fontalignment。
-type: docs  
+type: docs
 weight: 40  
 url: /zh/aspose.slides.charts/ichartparagraphformat/fontalignment/
 ---  

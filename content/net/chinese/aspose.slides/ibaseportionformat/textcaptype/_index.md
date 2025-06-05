@@ -2,7 +2,7 @@
 title: TextCapType
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回或设置文本大小写类型。不应用继承。可读/可写 TextCapTypeaspose.slides/textcaptype。
-type: docs  
+type: docs
 weight: 240  
 url: /zh/aspose.slides/ibaseportionformat/textcaptype/
 ---  

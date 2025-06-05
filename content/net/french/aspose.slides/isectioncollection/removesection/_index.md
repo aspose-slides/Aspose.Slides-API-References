@@ -2,7 +2,7 @@
 title: RemoveSection
 second_title: Aspose.Slides pour la référence de l'API .NET  
 description: Supprimer la section. Les diapositives contenues dans la section seront fusionnées dans la section précédente.
-type: docs  
+type: docs
 weight: 70  
 url: /fr/aspose.slides/isectioncollection/removesection/
 ---  

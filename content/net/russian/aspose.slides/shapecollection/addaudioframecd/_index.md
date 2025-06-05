@@ -2,7 +2,7 @@
 title: AddAudioFrameCD
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Добавляет AudioFrame с CD в конец коллекции.
-type: docs  
+type: docs
 weight: 60  
 url: /ru/aspose.slides/shapecollection/addaudioframecd/
 ---  

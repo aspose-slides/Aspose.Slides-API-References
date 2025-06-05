@@ -2,7 +2,7 @@
 title: FromStream
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Créer une image à partir du flux.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides/images/fromstream/
 ---

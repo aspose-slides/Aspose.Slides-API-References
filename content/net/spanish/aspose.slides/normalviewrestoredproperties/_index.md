@@ -2,7 +2,7 @@
 title: NormalViewRestoredProperties
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Especifica el tamaño de la anchura de la región de la diapositiva altura cuando es un hijo de restoredLeft, anchura cuando es un hijo de restoredTop de la vista normal, cuando la región es de un tamaño restaurado variable ni minimizado ni maximizado.
-type: docs  
+type: docs
 weight: 8850  
 url: /es/aspose.slides/normalviewrestoredproperties/
 ---  

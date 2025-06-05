@@ -2,7 +2,7 @@
 title: IMathBorderBox
 second_title: Aspose.Sildes for .NET API Reference  
 description: 在 IMathElement 周围绘制矩形或其他边框。
-type: docs  
+type: docs
 weight: 7920  
 url: /zh/aspose.slides.mathtext/imathborderbox/
 ---  

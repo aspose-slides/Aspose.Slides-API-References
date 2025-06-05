@@ -2,7 +2,7 @@
 title: Stream
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt einen Stream zurück. Nur lesbarer Stream.
-type: docs  
+type: docs
 weight: 70  
 url: /de/aspose.slides/streamwrapper/stream/
 ---  

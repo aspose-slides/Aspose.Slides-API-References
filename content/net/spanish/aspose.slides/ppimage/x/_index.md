@@ -2,7 +2,7 @@
 title: X
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve un desplazamiento X de una imagen. Solo lectura Int32.
-type: docs  
+type: docs
 weight: 70  
 url: /es/aspose.slides/ppimage/x/
 ---  

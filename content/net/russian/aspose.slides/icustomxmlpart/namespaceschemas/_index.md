@@ -2,7 +2,7 @@
 title: NamespaceSchemas
 second_title: Aspose.Sildes для .NET API Справка  
 description: Возвращает коллекцию XML-схем, связанных с пользовательской XML-частью. Только для чтения String.
-type: docs  
+type: docs
 weight: 20  
 url: /ru/aspose.slides/icustomxmlpart/namespaceschemas/
 ---  

@@ -2,7 +2,7 @@
 title: BlurRadius
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Unschärferadius. Schreibgeschützter Double.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides.effects/ioutershadoweffectivedata/blurradius/
 ---  

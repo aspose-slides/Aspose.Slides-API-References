@@ -2,7 +2,7 @@
 title: Width
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回或设置图表绘图区边界框的宽度，作为图表宽度的一个分数，范围从 0 到 1。可读写 Single。
-type: docs  
+type: docs
 weight: 120  
 url: /zh/aspose.slides.charts/chartplotarea/width/
 ---  

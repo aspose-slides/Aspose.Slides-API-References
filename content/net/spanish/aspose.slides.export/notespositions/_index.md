@@ -2,7 +2,7 @@
 title: NotesPositions
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Representa la regla para renderizar notas en el documento exportado
-type: docs  
+type: docs
 weight: 4110  
 url: /es/aspose.slides.export/notespositions/
 ---  

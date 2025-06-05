@@ -2,7 +2,7 @@
 title: FillFormat
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回文本 FillFormat 属性。没有继承应用。只读 IFillFormat aspose.slides/ifillformat。
-type: docs  
+type: docs
 weight: 60  
 url: /zh/aspose.slides/baseportionformat/fillformat/
 ---  

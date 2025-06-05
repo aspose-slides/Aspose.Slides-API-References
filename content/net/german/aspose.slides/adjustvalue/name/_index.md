@@ -2,7 +2,7 @@
 title: Name
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt den Namen dieses Anpassungswerts zurück. Nur-Lese-String.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides/adjustvalue/name/
 ---  

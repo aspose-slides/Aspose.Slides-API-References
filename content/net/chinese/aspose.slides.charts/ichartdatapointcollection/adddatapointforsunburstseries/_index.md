@@ -2,7 +2,7 @@
 title: AddDataPointForSunburstSeries
 second_title: Aspose.Sildes for .NET API Reference  
 description: 创建新的数据点并将其添加到集合的末尾。适用于图表类型为 Sunburst 的系列。
-type: docs  
+type: docs
 weight: 200  
 url: /zh/aspose.slides.charts/ichartdatapointcollection/adddatapointforsunburstseries/
 ---  

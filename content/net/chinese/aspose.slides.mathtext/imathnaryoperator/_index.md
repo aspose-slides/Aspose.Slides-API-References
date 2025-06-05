@@ -2,7 +2,7 @@
 title: IMathNaryOperator
 second_title: Aspose.Sildes for .NET API Reference  
 description: 指定一个 N-元数学对象，例如求和和积分。它由一个运算符、一个基数（或操作数）以及可选的上限和下限组成。N-元运算符的示例包括：求和、并集、交集、积分
-type: docs  
+type: docs
 weight: 8110  
 url: /zh/aspose.slides.mathtext/imathnaryoperator/
 ---  

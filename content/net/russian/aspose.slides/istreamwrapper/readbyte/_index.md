@@ -2,7 +2,7 @@
 title: ReadByte
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Читает байт из потока и продвигает позицию в потоке на один байт или возвращает -1, если достигнут конец потока.
-type: docs  
+type: docs
 weight: 110  
 url: /ru/aspose.slides/istreamwrapper/readbyte/
 ---  

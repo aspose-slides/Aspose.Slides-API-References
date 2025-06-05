@@ -2,7 +2,7 @@
 title: Thickness
 second_title: Aspose.Sildes для .NET API Reference  
 description: Возвращает или устанавливает толщину стен в процентах от наибольшего размера объема графика. Чтение/запись Int32.
-type: docs  
+type: docs
 weight: 30  
 url: /ru/aspose.slides.charts/ichartwall/thickness/
 ---  

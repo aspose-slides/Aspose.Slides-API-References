@@ -2,7 +2,7 @@
 title: GetEnumerator
 second_title: Référence API Aspose.Slides pour .NET  
 description: Renvoie un énumérateur qui parcourt la collection.
-type: docs  
+type: docs
 weight: 80  
 url: /fr/aspose.slides/summaryzoomsectioncollection/getenumerator/
 ---  

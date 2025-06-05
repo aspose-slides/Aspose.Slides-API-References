@@ -2,7 +2,7 @@
 title: IsDecorative
 second_title: Aspose.Sildes para .NET Referencia de API  
 description: Obtiene o establece la opción Marcar como decorativo Reed/escribir Booleano.
-type: docs  
+type: docs
 weight: 130  
 url: /es/aspose.slides/ishape/isdecorative/
 ---  

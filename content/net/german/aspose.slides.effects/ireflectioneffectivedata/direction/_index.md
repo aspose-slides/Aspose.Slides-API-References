@@ -2,7 +2,7 @@
 title: Direction
 second_title: Aspose.Slides für .NET API Referenz  
 description: Richtung der Reflexion. Nur lesbar Single.
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides.effects/ireflectioneffectivedata/direction/
 ---  

@@ -2,7 +2,7 @@
 title: Right
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Right. Solo lectura Single.
-type: docs  
+type: docs
 weight: 110  
 url: /es/aspose.slides.charts/datalabel/right/
 ---  

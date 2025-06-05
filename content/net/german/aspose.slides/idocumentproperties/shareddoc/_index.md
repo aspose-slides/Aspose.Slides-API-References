@@ -2,7 +2,7 @@
 title: SharedDoc
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Bestimmt, ob die Präsentation zwischen mehreren Personen geteilt wird. Lese-/schreibbare Boolesche Variable.
-type: docs  
+type: docs
 weight: 290  
 url: /de/aspose.slides/idocumentproperties/shareddoc/
 ---  

@@ -2,7 +2,7 @@
 title: IMasterHandoutSlideManager
 second_title: Référence API Aspose.Slides pour .NET  
 description: Gestionnaire de diapositives de remise principale.
-type: docs  
+type: docs
 weight: 6170  
 url: /fr/aspose.slides/imasterhandoutslidemanager/
 ---  

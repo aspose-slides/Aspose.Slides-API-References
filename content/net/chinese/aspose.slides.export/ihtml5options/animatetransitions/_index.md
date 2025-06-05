@@ -2,7 +2,7 @@
 title: AnimateTransitions
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回或设置过渡动画选项。可读写布尔值。
-type: docs  
+type: docs
 weight: 20  
 url: /zh/aspose.slides.export/ihtml5options/animatetransitions/
 ---  

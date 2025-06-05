@@ -2,7 +2,7 @@
 title: Data
 second_title: Aspose.Sildes pour .NET Référence de l'API  
 description: Retourne ou définit l'objet Data. Objet en lecture/écriture.
-type: docs  
+type: docs
 weight: 30  
 url: /fr/aspose.slides.charts/doublechartvalue/data/
 ---  

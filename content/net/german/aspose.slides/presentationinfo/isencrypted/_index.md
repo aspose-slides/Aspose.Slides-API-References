@@ -2,7 +2,7 @@
 title: IsEncrypted
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt True zurück, wenn die gebundene Präsentation verschlüsselt ist, andernfalls False. Schreibgeschützter Boolean.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides/presentationinfo/isencrypted/
 ---  

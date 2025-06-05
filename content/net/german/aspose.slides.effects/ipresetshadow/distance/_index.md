@@ -2,7 +2,7 @@
 title: Distance
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Distanz des Schattens. Lese-/Schreibbare Double.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides.effects/ipresetshadow/distance/
 ---  

@@ -2,7 +2,7 @@
 title: ArrowheadsLocked
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Bestimmt, ob das Ändern von Pfeilspitzen verboten ist. Lese-/Schreib-Boolean.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides/ipictureframelock/arrowheadslocked/
 ---  

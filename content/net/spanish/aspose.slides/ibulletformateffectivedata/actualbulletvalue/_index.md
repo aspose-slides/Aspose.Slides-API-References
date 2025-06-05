@@ -2,7 +2,7 @@
 title: ActualBulletValue
 second_title: Aspose.Slides para .NET API Reference  
 description: Devuelve el valor actual del viñeta para el párrafo padre. Solo lectura String.
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides/ibulletformateffectivedata/actualbulletvalue/
 ---  

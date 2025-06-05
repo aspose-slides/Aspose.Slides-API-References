@@ -2,7 +2,7 @@
 title: VbaProject
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Este constructor crea un nuevo proyecto VBA desde cero. El proyecto se creará en la página de códigos ANSI 1252 Windows Latin 1
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides.vba/vbaproject/vbaproject/
 ---  

@@ -2,7 +2,7 @@
 title: ActualX
 second_title: Aspose.Sildes pour la référence de l'API .NET  
 description: Spécifie la position x réelle à gauche de l'élément du graphique par rapport au coin supérieur gauche du graphique. Appelez la méthode IChart.ValidateChartLayout avant de obtenir les valeurs réelles. Lire Single.
-type: docs  
+type: docs
 weight: 30  
 url: /fr/aspose.slides.charts/iactuallayout/actualx/
 ---  

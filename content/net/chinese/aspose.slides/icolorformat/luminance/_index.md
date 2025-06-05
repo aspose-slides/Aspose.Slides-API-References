@@ -2,7 +2,7 @@
 title: Luminance
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回或设置 HSL 表示中的颜色亮度组件。所有颜色转换都被忽略。读/写单精度浮点数。
-type: docs  
+type: docs
 weight: 110  
 url: /zh/aspose.slides/icolorformat/luminance/
 ---  

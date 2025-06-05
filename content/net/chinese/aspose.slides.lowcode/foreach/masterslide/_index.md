@@ -2,7 +2,7 @@
 title: MasterSlide
 second_title: Aspose.Sildes for .NET API Reference  
 description: 遍历每个 MasterSlide aspose.slides.lowcode/foreach/masterslide 在 Presentation aspose.slides/presentation 中。
-type: docs  
+type: docs
 weight: 20  
 url: /zh/aspose.slides.lowcode/foreach/masterslide/
 ---  

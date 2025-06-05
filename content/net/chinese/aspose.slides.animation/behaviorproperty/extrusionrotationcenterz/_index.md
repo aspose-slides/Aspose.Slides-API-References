@@ -2,7 +2,7 @@
 title: ExtrusionRotationCenterZ
 second_title: Aspose.Slides for .NET API Reference  
 description: 表示 extrusion.rotationcenter.z 属性
-type: docs  
+type: docs
 weight: 180  
 url: /zh/aspose.slides.animation/behaviorproperty/extrusionrotationcenterz/
 ---  

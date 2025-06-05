@@ -2,7 +2,7 @@
 title: CopyTo
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Copia todos los elementos de la colección al arreglo especificado.
-type: docs  
+type: docs
 weight: 50  
 url: /es/aspose.slides/adjustvaluecollection/copyto/
 ---  

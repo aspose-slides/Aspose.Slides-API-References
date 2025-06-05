@@ -2,7 +2,7 @@
 title: CommonSlideViewProperties
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Stellt allgemeine Eigenschaften der Folienansicht dar.
-type: docs  
+type: docs
 weight: 2570  
 url: /de/aspose.slides/commonslideviewproperties/
 ---  

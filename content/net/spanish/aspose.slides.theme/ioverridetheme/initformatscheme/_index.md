@@ -2,7 +2,7 @@
 title: InitFormatScheme
 second_title: Aspose.Sildes para .NET Referencia de API  
 description: Inicializar FormatScheme con un nuevo objeto para anular el FormatScheme de InheritedTheme.
-type: docs  
+type: docs
 weight: 100  
 url: /es/aspose.slides.theme/ioverridetheme/initformatscheme/
 ---  

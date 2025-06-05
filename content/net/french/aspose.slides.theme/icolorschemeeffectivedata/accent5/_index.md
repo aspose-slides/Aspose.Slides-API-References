@@ -2,7 +2,7 @@
 title: Accent5
 second_title: Référence API Aspose.Slides pour .NET  
 description: Cinquième couleur d'accent dans le schéma. Couleur en lecture seule.
-type: docs  
+type: docs
 weight: 50  
 url: /fr/aspose.slides.theme/icolorschemeeffectivedata/accent5/
 ---  

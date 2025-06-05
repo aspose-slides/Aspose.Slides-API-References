@@ -2,7 +2,7 @@
 title: Add
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Agrega la nueva Trendline al final de una colección y la devuelve.
-type: docs  
+type: docs
 weight: 30  
 url: /es/aspose.slides.charts/trendlinecollection/add/
 ---  

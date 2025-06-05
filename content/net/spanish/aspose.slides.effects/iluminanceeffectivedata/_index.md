@@ -2,7 +2,7 @@
 title: ILuminanceEffectiveData
 second_title: Aspose.Slides para .NET API Referencia  
 description: Representa un efecto de Luminancia. El brillo desplaza linealmente todos los colores más cerca de blanco o negro. El contraste escala todos los colores para estar más cerca o más separados.
-type: docs  
+type: docs
 weight: 3330  
 url: /es/aspose.slides.effects/iluminanceeffectivedata/
 ---  

@@ -2,7 +2,7 @@
 title: Instance
 second_title: Aspose.Slides pour .NET Référence de l'API  
 description: Référence de projet VBA usine d'instance statique. Lecture seule VbaReferenceFactoryaspose.slides.vba/vbareferencefactory.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides.vba/vbareferencefactory/instance/
 ---  

@@ -2,7 +2,7 @@
 title: ShowMeanMarkers
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示均值标记。 如果在箱线图上显示均值标记，则为真。 仅适用于箱线图。 可读/可写布尔值。
-type: docs  
+type: docs
 weight: 400  
 url: /zh/aspose.slides.charts/chartseries/showmeanmarkers/
 ---  

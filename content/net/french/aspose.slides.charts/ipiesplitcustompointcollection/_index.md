@@ -2,7 +2,7 @@
 title: IPieSplitCustomPointCollection
 second_title: Référence API Aspose.Slides pour .NET  
 description: Représente une collection de points qui doivent être dessinés dans le deuxième secteur ou barre sur un graphique en secteurs ou en barres en secteurs avec une séparation personnalisée.
-type: docs  
+type: docs
 weight: 2110  
 url: /fr/aspose.slides.charts/ipiesplitcustompointcollection/
 ---  

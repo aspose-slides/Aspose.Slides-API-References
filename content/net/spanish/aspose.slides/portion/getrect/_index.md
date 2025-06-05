@@ -3,7 +3,7 @@
 title: GetRect
 second_title: Aspose.Sildes para .NET Referencia de API  
 description: Obtenga las coordenadas del rectángulo que limita la porción. El rectángulo incluye todas las líneas de texto en la porción, incluidas las vacías.
-type: docs  
+type: docs
 weight: 70  
 url: /es/aspose.slides/portion/getrect/
 ---  

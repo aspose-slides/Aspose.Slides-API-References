@@ -2,7 +2,7 @@
 title: AddOnlineImagePlaceholder
 second_title: Aspose.Slides für .NET API Referenz  
 description: Fügt der Layout-Folie eine neue Platzhalterform hinzu, um ein Online-Bild zu halten.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides/ilayoutplaceholdermanager/addonlineimageplaceholder/
 ---  

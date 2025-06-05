@@ -2,7 +2,7 @@
 title: References
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回包含在 VBA 项目中的所有引用的列表。只读 IVbaReferenceCollectionaspose.slides.vba/ivbareferencecollection。
-type: docs  
+type: docs
 weight: 40  
 url: /zh/aspose.slides.vba/ivbaproject/references/
 ---  

@@ -2,7 +2,7 @@
 title: DocumentProperties
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Renvoie l'objet DocumentProperties qui contient les propriétés standard et personnalisées du document. Lecture seule IDocumentPropertiesaspose.slides/idocumentproperties.
-type: docs  
+type: docs
 weight: 100  
 url: /fr/aspose.slides/ipresentation/documentproperties/
 ---  

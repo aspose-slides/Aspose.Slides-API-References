@@ -2,7 +2,7 @@
 title: IMathDelimiterFactory
 second_title: Aspose.Sildes para .NET API Reference  
 description: Permite crear un delimitador matemático
-type: docs  
+type: docs
 weight: 7970  
 url: /es/aspose.slides.mathtext/imathdelimiterfactory/
 ---  

@@ -2,7 +2,7 @@
 title: ShowInnerPoints
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Stellt innere Punkte dar. Wahr, wenn innere Punkte im BoxAndWhisker-Diagramm angezeigt werden. Gilt nur für BoxAndWhisker-Diagramme. Lese-/Schreib-Boolean.
-type: docs  
+type: docs
 weight: 380  
 url: /de/aspose.slides.charts/ichartseries/showinnerpoints/
 ---  

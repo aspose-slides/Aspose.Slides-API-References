@@ -2,7 +2,7 @@
 title: MinColumnWidth
 second_title: Aspose.Sildes pour .NET API Référence  
 description: Largeur minimale d'une colonne en twips 1/20e de point L'espacement des écartements, également appelé Espace de colonne ou Largeur d'écart, est ajouté à la MinColumnWidth pour déterminer la distance totale entre les colonnes dans la matrice distance entre les mêmes bords de différentes colonnes. Par défaut  0.
-type: docs  
+type: docs
 weight: 80  
 url: /fr/aspose.slides.mathtext/mathmatrix/mincolumnwidth/
 ---  

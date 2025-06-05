@@ -2,7 +2,7 @@
 title: Distance
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Abstand der Reflexion. Nur-Lese Double.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides.effects/ireflectioneffectivedata/distance/
 ---  

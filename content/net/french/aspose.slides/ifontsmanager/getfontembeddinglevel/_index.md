@@ -2,7 +2,7 @@
 title: GetFontEmbeddingLevel
 second_title: Aspose.Sildes for .NET API Reference  
 description: Détermine le niveau d'incorporation d'une police à partir du tableau de bytes donné et du nom de la police.
-type: docs  
+type: docs
 weight: 60  
 url: /fr/aspose.slides/ifontsmanager/getfontembeddinglevel/
 ---  

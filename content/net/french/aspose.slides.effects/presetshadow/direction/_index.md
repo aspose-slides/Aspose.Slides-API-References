@@ -2,7 +2,7 @@
 title: Direction
 second_title: Aspose.Sildes pour la référence API .NET  
 description: Direction de l'ombre. Lecture/écriture Single.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides.effects/presetshadow/direction/
 ---  

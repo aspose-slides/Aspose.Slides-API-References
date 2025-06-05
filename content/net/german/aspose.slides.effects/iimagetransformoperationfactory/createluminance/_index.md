@@ -2,7 +2,7 @@
 title: CreateLuminance
 second_title: Aspose.Slides für .NET API Referenz  
 description: Erzeugt Luminance-Effekt.
-type: docs  
+type: docs
 weight: 160  
 url: /de/aspose.slides.effects/iimagetransformoperationfactory/createluminance/
 ---  

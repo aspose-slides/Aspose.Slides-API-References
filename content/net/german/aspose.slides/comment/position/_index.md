@@ -2,7 +2,7 @@
 title: Position
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt die Position eines Kommentars auf einer Folie zurück oder setzt sie. Lese-/Schreibzugriff PointF.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides/comment/position/
 ---  

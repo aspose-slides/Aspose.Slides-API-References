@@ -2,7 +2,7 @@
 title: Table
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Representa una tabla en una diapositiva.
-type: docs  
+type: docs
 weight: 10550  
 url: /es/aspose.slides/table/
 ---  

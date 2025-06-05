@@ -2,7 +2,7 @@
 title: ToArray
 second_title: Aspose.Sildes for .NET API Reference  
 description: 创建并返回一个包含所有形状的数组。
-type: docs  
+type: docs
 weight: 400  
 url: /zh/aspose.slides/ishapecollection/toarray/
 ---  

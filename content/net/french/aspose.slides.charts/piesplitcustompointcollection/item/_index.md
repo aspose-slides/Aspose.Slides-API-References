@@ -2,7 +2,7 @@
 title: Item
 second_title: Référence API Aspose.Sildes pour .NET  
 description: Renvoie le point de données du graphique pour l'indice spécifié.
-type: docs  
+type: docs
 weight: 40  
 url: /fr/aspose.slides.charts/piesplitcustompointcollection/item/
 ---  

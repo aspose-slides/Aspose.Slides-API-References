@@ -2,7 +2,7 @@
 title: AsIBaseHeaderFooterManager
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt die IBaseHeaderFooterManager-Schnittstelle zurück.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides/ipresentationheaderfootermanager/asibaseheaderfootermanager/
 ---  

@@ -2,7 +2,7 @@
 title: ITable
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Stellt eine Tabelle auf einer Folie dar.
-type: docs  
+type: docs
 weight: 7010  
 url: /de/aspose.slides/itable/
 ---  

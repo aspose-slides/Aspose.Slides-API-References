@@ -2,7 +2,7 @@
 title: SetAsTotal
 second_title: Aspose.Slides для .NET API Справочник  
 description: Устанавливает точку данных как итог. Применяется только для типа серии Водопад.
-type: docs  
+type: docs
 weight: 170  
 url: /ru/aspose.slides.charts/chartdatapoint/setastotal/
 ---  

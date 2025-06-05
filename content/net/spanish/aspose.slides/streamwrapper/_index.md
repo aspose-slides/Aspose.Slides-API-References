@@ -2,7 +2,7 @@
 title: StreamWrapper
 second_title: Referencia de la API de Aspose.Slides para .NET  
 description: Envoltorio de Aspose.IO.Stream para la interfaz COM.
-type: docs  
+type: docs
 weight: 10440  
 url: /es/aspose.slides/streamwrapper/
 ---  

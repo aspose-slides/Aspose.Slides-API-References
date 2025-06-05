@@ -2,7 +2,7 @@
 title: GlowEffect
 second_title: Referencia API de Aspose.Slides para .NET  
 description: Efecto de resplandor. Leer/escribir IGlowaspose.slides.effects/iglow.
-type: docs  
+type: docs
 weight: 40  
 url: /es/aspose.slides/ieffectformat/gloweffect/
 ---  

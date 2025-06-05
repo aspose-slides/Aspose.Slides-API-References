@@ -2,7 +2,7 @@
 title: GetSubstitutions
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Erhält Informationen über Schriftarten, die bei der Präsentationsdarstellung ersetzt werden.
-type: docs  
+type: docs
 weight: 80  
 url: /de/aspose.slides/ifontsmanager/getsubstitutions/
 ---  

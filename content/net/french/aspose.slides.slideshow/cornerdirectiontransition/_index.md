@@ -2,7 +2,7 @@
 title: CornerDirectionTransition
 second_title: Aspose.Sildes pour .NET Référence API  
 description: Effet de transition de diapositive en direction des coins.
-type: docs  
+type: docs
 weight: 9700  
 url: /fr/aspose.slides.slideshow/cornerdirectiontransition/
 ---  

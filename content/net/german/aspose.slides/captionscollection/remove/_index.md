@@ -2,7 +2,7 @@
 title: Remove
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Entfernt die angegebenen Untertitel aus der Sammlung.
-type: docs  
+type: docs
 weight: 60  
 url: /de/aspose.slides/captionscollection/remove/
 ---  

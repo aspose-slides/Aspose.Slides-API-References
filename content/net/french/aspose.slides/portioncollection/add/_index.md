@@ -2,7 +2,7 @@
 title: Add
 second_title: Référence de l'API Aspose.Sildes pour .NET  
 description: Ajoute une Portion à la fin de la collection.
-type: docs  
+type: docs
 weight: 40  
 url: /fr/aspose.slides/portioncollection/add/
 ---  

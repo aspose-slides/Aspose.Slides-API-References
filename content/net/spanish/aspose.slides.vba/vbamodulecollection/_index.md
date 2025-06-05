@@ -2,7 +2,7 @@
 title: VbaModuleCollection
 second_title: Aspose.Sildes para .NET Referencia de API  
 description: Representa una colección de módulos de un proyecto VBA.
-type: docs  
+type: docs
 weight: 11330  
 url: /es/aspose.slides.vba/vbamodulecollection/
 ---  

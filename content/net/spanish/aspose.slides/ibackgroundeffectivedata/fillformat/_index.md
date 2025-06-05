@@ -2,7 +2,7 @@
 title: FillFormat
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve el formato de relleno efectivo. Solo lectura IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
-type: docs  
+type: docs
 weight: 30  
 url: /es/aspose.slides/ibackgroundeffectivedata/fillformat/
 ---  

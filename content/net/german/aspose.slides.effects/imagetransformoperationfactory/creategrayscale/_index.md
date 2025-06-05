@@ -2,7 +2,7 @@
 title: CreateGrayScale
 second_title: Aspose.Slides für .NET API Referenz  
 description: Erstellt Graustufen-Effekt.
-type: docs  
+type: docs
 weight: 150  
 url: /de/aspose.slides.effects/imagetransformoperationfactory/creategrayscale/
 ---  

@@ -2,7 +2,7 @@
 title: ShadowColor
 second_title: Aspose.Slides für .NET API Referenz  
 description: Farbe des Schattens. Nur lesend IColorFormataspose.slides/icolorformat.
-type: docs  
+type: docs
 weight: 60  
 url: /de/aspose.slides.effects/iinnershadow/shadowcolor/
 ---  

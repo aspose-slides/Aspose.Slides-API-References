@@ -2,7 +2,7 @@
 title: ToBorderBox
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Platziert dieses Element in einem Rahmen
-type: docs  
+type: docs
 weight: 190  
 url: /de/aspose.slides.mathtext/imathelement/toborderbox/
 ---  

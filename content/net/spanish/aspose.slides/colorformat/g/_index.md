@@ -2,7 +2,7 @@
 title: G
 second_title: Referencia de la API de Aspose.Slides para .NET  
 description: Devuelve o establece el componente verde de un color. Se ignoran todas las transformaciones de color.
-type: docs  
+type: docs
 weight: 80  
 url: /es/aspose.slides/colorformat/g/
 ---  

@@ -2,7 +2,7 @@
 title: LinkPathRelative
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve la ruta relativa a un archivo vinculado si está presente; de lo contrario, devuelve una cadena vacía. Solo lectura String.
-type: docs  
+type: docs
 weight: 90  
 url: /es/aspose.slides/oleobjectframe/linkpathrelative/
 ---  

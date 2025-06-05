@@ -2,7 +2,7 @@
 title: CanSeek
 second_title: Referencia de API de Aspose.Sildes para .NET  
 description: Obtiene un valor que indica si el flujo actual admite búsqueda. Booleano de solo lectura.
-type: docs  
+type: docs
 weight: 30  
 url: /es/aspose.slides/istreamwrapper/canseek/
 ---  

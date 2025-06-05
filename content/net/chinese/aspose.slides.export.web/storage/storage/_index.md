@@ -2,7 +2,7 @@
 title: Storage
 second_title: Aspose.Slides for .NET API Reference  
 description: 默认构造函数。
-type: docs  
+type: docs
 weight: 10  
 url: /zh/aspose.slides.export.web/storage/storage/
 ---  

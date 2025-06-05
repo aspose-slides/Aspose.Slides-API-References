@@ -2,7 +2,7 @@
 title: IEffectStyleEffectiveData
 second_title: Aspose.Slides für .NET API Referenz  
 description: Unveränderliches Objekt, das die effektiven Eigenschaften des Effektstils enthält.
-type: docs  
+type: docs
 weight: 10890  
 url: /de/aspose.slides.theme/ieffectstyleeffectivedata/
 ---  

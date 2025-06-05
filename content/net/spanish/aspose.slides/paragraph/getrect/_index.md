@@ -2,7 +2,7 @@
 title: GetRect
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Obtenga las coordenadas del rectángulo que delimita el párrafo. El rectángulo incluye todas las líneas de texto en el párrafo, incluidas las vacías.
-type: docs  
+type: docs
 weight: 70  
 url: /es/aspose.slides/paragraph/getrect/
 ---  

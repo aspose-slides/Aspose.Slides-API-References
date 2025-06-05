@@ -2,7 +2,7 @@
 title: BlurRadius
 second_title: Aspose.Slides pour .NET Référence de l'API  
 description: Rayon de flou. Lecture/écriture Double.
-type: docs  
+type: docs
 weight: 30  
 url: /fr/aspose.slides.effects/iinnershadow/blurradius/
 ---  

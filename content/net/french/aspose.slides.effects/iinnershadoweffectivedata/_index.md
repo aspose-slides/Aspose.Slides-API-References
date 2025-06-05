@@ -2,7 +2,7 @@
 title: IInnerShadowEffectiveData
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Objet immuable qui représente un effet d'ombre intérieure.
-type: docs  
+type: docs
 weight: 3310  
 url: /fr/aspose.slides.effects/iinnershadoweffectivedata/
 ---  

@@ -2,7 +2,7 @@
 title: IMasterSlide
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示演示文稿中的母版幻灯片。
-type: docs  
+type: docs
 weight: 6220  
 url: /zh/aspose.slides/imasterslide/
 ---  

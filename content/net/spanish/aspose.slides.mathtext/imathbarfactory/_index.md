@@ -2,7 +2,7 @@
 title: IMathBarFactory
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Permite crear una barra matemática
-type: docs  
+type: docs
 weight: 7880  
 url: /es/aspose.slides.mathtext/imathbarfactory/
 ---  

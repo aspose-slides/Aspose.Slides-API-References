@@ -2,7 +2,7 @@
 title: AddAudioFrameLinked
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Fügt am Ende einer Sammlung einen neuen Audioframe mit verknüpftem Audiofile hinzu.
-type: docs  
+type: docs
 weight: 80  
 url: /de/aspose.slides/shapecollection/addaudioframelinked/
 ---  

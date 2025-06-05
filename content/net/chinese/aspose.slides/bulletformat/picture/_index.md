@@ -2,7 +2,7 @@
 title: Picture
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回在没有继承的情况下用作段落中项目符号的图片。只读 ISlidesPictureaspose.slides/islidespicture。
-type: docs  
+type: docs
 weight: 90  
 url: /zh/aspose.slides/bulletformat/picture/
 ---  

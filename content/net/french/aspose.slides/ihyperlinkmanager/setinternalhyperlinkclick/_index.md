@@ -2,7 +2,7 @@
 title: SetInternalHyperlinkClick
 second_title: Référence API Aspose.Slides pour .NET  
 description: Définit le lien hypertexte interne au clic.
-type: docs  
+type: docs
 weight: 50  
 url: /fr/aspose.slides/ihyperlinkmanager/setinternalhyperlinkclick/
 ---  

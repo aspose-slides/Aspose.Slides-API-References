@@ -2,7 +2,7 @@
 title: IsErrorBarsYAllowed
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Gibt zurück, ob Fehlerbalken Y für den angegebenen Serientyp erlaubt sind.
-type: docs  
+type: docs
 weight: 170  
 url: /de/aspose.slides.charts/charttypecharacterizer/iserrorbarsyallowed/
 ---  

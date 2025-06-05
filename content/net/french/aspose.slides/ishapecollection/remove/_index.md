@@ -2,7 +2,7 @@
 title: Remove
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Supprime la première occurrence d'une forme spécifique de la collection.
-type: docs  
+type: docs
 weight: 370  
 url: /fr/aspose.slides/ishapecollection/remove/
 ---  

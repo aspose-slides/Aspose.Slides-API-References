@@ -2,7 +2,7 @@
 title: ExtrusionRotationCenterY
 second_title: Aspose.Slidese pour .NET API Référence  
 description: Représente la propriété extrusion.rotationcenter.y
-type: docs  
+type: docs
 weight: 170  
 url: /fr/aspose.slides.animation/behaviorproperty/extrusionrotationcentery/
 ---  

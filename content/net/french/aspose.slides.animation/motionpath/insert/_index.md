@@ -2,7 +2,7 @@
 title: Insert
 second_title: Référence API Aspose.Slides pour .NET  
 description: Insérer une nouvelle commande dans le chemin
-type: docs  
+type: docs
 weight: 70  
 url: /fr/aspose.slides.animation/motionpath/insert/
 ---  

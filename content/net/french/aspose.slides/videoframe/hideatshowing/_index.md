@@ -2,7 +2,7 @@
 title: HideAtShowing
 second_title: Référence API Aspose.Slides pour .NET  
 description: Détermine si un VideoFrame est masqué. Booléen en lecture/écriture.
-type: docs  
+type: docs
 weight: 40  
 url: /fr/aspose.slides/videoframe/hideatshowing/
 ---  

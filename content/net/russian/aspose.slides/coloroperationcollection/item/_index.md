@@ -2,7 +2,7 @@
 title: Item
 second_title: Aspose.Slides для .NET API Справочник  
 description: Возвращает или устанавливает операцию по указанному индексу. Чтение/запись ColorOperationaspose.slides/coloroperation.
-type: docs  
+type: docs
 weight: 30  
 url: /ru/aspose.slides/coloroperationcollection/item/
 ---  

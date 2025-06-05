@@ -2,7 +2,7 @@
 title: B
 second_title: Aspose.Slides for .NET API Reference  
 description: 返回或设置颜色的蓝色分量。所有颜色转换都被忽略。可读/写字节。
-type: docs  
+type: docs
 weight: 20  
 url: /zh/aspose.slides/icolorformat/b/
 ---  

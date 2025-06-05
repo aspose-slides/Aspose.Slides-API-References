@@ -2,7 +2,7 @@
 title: FlipV
 second_title: Aspose.Sildes para .NET Referencia de la API  
 description: Determina si un marco está volteado verticalmente. Solo lectura NullableBoolaspose.slides/nullablebool.
-type: docs  
+type: docs
 weight: 50  
 url: /es/aspose.slides/shapeframe/flipv/
 ---  

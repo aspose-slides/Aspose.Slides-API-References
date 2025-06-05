@@ -2,7 +2,7 @@
 title: Index
 second_title: Référence API Aspose.Slides pour .NET  
 description: Obtient l'index d'un espace réservé. Lecture seule UInt32.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides/iplaceholder/index/
 ---  

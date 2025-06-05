@@ -2,7 +2,7 @@
 title: GetHyperlinkClicks
 second_title: Aspose.Sildes for .NET API Reference  
 description: 获取所有包含非空 HyperlinkClick 的 IHyperlinkContainer 子对象。使用给定的 IHyperlinkContainer 对象，您可以管理它的超链接（读取、更新或删除）。请参见 IHyperlinkContainer 接口。
-type: docs  
+type: docs
 weight: 20  
 url: /zh/aspose.slides/hyperlinkqueries/gethyperlinkclicks/
 ---  

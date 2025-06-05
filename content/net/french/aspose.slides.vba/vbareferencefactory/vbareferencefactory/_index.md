@@ -2,7 +2,7 @@
 title: VbaReferenceFactory
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Le constructeur par défaut.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides.vba/vbareferencefactory/vbareferencefactory/
 ---  

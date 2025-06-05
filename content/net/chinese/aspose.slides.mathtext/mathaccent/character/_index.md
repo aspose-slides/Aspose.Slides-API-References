@@ -2,7 +2,7 @@
 title: Character
 second_title: Aspose.Sildes for .NET API Reference  
 description: 重音字符 值应在 U0300U036F 或 U20D0U20EF 的范围内 默认值 组合抑扬符 U0302
-type: docs  
+type: docs
 weight: 30  
 url: /zh/aspose.slides.mathtext/mathaccent/character/
 ---  

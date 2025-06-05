@@ -2,7 +2,7 @@
 title: AddMathShape
 second_title: Aspose.Sildes для .NET API Reference  
 description: Создает новый AutoShape типа Прямоугольник для размещения математического содержимого внутри и добавляет его в конец коллекции.
-type: docs  
+type: docs
 weight: 110  
 url: /ru/aspose.slides/ishapecollection/addmathshape/
 ---  

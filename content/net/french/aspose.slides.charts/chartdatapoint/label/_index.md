@@ -2,7 +2,7 @@
 title: Label
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Label. Lire uniquement IDataLabel aspose.slides.charts/idatalabel.
-type: docs  
+type: docs
 weight: 140  
 url: /fr/aspose.slides.charts/chartdatapoint/label/
 ---  

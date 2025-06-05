@@ -2,7 +2,7 @@
 title: AsIBaseChartValue
 second_title: Aspose.Slides für .NET API Referenz  
 description: Ermöglicht den Zugriff auf die Basis-IBaseChartValue-Schnittstelle. Nur-lesbares IBaseChartValueaspose.slides.charts/ibasechartvalue.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides.charts/isinglecellchartvalue/asibasechartvalue/
 ---  

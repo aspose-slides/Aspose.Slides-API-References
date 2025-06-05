@@ -2,7 +2,7 @@
 title: PlotArea
 second_title: Aspose.Sildes for .NET API Reference  
 description: 代表图表的绘图区域。只读 IChartPlotArea aspose.slides.charts/ichartplotarea。
-type: docs  
+type: docs
 weight: 160  
 url: /zh/aspose.slides.charts/ichart/plotarea/
 ---  

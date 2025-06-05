@@ -2,7 +2,7 @@
 title: LayoutText
 second_title: Aspose.Sildes для .NET API Reference  
 description: Текст на фигурках страниц макета для этого слайда
-type: docs  
+type: docs
 weight: 20  
 url: /ru/aspose.slides/islidetext/layouttext/
 ---  

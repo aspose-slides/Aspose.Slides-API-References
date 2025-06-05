@@ -2,7 +2,7 @@
 title: IParagraphFactory
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Ermöglicht das Erstellen von Absätzen
-type: docs  
+type: docs
 weight: 6380  
 url: /de/aspose.slides/iparagraphfactory/
 ---  

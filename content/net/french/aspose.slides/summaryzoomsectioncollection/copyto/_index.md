@@ -2,7 +2,7 @@
 title: CopyTo
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Copie l'ensemble de la collection dans le tableau spécifié.
-type: docs  
+type: docs
 weight: 70  
 url: /fr/aspose.slides/summaryzoomsectioncollection/copyto/
 ---  

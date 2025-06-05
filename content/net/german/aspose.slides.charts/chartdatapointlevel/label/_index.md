@@ -2,7 +2,7 @@
 title: Label
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Stellt das Datenlabel auf der Ebene des Datenpunkts dar. Angewendet für die Treemap- und Sunburst-Serie. Nur-Lese IDataLabelaspose.slides/idatalabel.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides.charts/chartdatapointlevel/label/
 ---  

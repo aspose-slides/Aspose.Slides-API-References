@@ -2,7 +2,7 @@
 title: GetEffective
 second_title: Aspose.Slides pour .NET API Reference  
 description: Obtient les données de formatage des effets effectifs avec l'héritage appliqué.
-type: docs  
+type: docs
 weight: 250  
 url: /fr/aspose.slides/effectformat/geteffective/
 ---  

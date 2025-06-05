@@ -2,7 +2,7 @@
 title: StartReflectionOpacity
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Startreflexionsopazität. Prozentsätze. Lese-/Schreib-Single.
-type: docs  
+type: docs
 weight: 160  
 url: /de/aspose.slides.effects/ireflection/startreflectionopacity/
 ---  

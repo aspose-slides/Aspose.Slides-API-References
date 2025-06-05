@@ -2,7 +2,7 @@
 title: AddDataPointForMapSeries
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren Diagrammtyp Map ist.
-type: docs  
+type: docs
 weight: 180  
 url: /de/aspose.slides.charts/chartdatapointcollection/adddatapointformapseries/
 ---  

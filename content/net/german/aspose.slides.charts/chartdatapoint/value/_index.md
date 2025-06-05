@@ -2,7 +2,7 @@
 title: Value
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Value. Schreibgeschützter IDoubleChartValueaspose.slides.charts/idoublechartvalue.
-type: docs  
+type: docs
 weight: 190  
 url: /de/aspose.slides.charts/chartdatapoint/value/
 ---  

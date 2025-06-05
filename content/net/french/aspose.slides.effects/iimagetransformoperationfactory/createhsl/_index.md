@@ -2,7 +2,7 @@
 title: CreateHSL
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Crée un effet de Teinte Saturation Luminosité.
-type: docs  
+type: docs
 weight: 150  
 url: /fr/aspose.slides.effects/iimagetransformoperationfactory/createhsl/
 ---  

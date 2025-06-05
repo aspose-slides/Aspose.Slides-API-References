@@ -2,7 +2,7 @@
 title: Reorder
 second_title: Aspose.Sildes для .NET API Reference  
 description: Перемещает слайд из коллекции на указанную позицию.
-type: docs  
+type: docs
 weight: 170  
 url: /ru/aspose.slides/slidecollection/reorder/
 ---  

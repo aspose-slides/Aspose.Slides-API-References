@@ -2,7 +2,7 @@
 title: Bottom
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Получает верхнюю часть элемента диаграммы в виде доли высоты диаграммы. Только для чтения Single.
-type: docs  
+type: docs
 weight: 20  
 url: /ru/aspose.slides.charts/ilayoutable/bottom/
 ---  

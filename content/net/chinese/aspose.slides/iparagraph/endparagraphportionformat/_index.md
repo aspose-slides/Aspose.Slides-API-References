@@ -2,7 +2,7 @@
 title: EndParagraphPortionFormat
 second_title: Aspose.Sildes for .NET API Reference  
 description: 指定在最后一个部分之后插入另一个部分时要使用的部分属性。
-type: docs  
+type: docs
 weight: 20  
 url: /zh/aspose.slides/iparagraph/endparagraphportionformat/
 ---  

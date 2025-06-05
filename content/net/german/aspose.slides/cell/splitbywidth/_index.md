@@ -2,7 +2,7 @@
 title: SplitByWidth
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Teilt die Zelle nach Breite.
-type: docs  
+type: docs
 weight: 280  
 url: /de/aspose.slides/cell/splitbywidth/
 ---  

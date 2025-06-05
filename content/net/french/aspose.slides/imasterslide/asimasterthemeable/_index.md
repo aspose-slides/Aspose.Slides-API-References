@@ -2,7 +2,7 @@
 title: AsIMasterThemeable
 second_title: Aspose.Slides pour .NET API Référence  
 description: Renvoie l'interface IMasterThemeable. Lecture seule IMasterThemeable aspose.slides.theme/imasterthemeable.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides/imasterslide/asimasterthemeable/
 ---  

@@ -2,7 +2,7 @@
 title: InitColorSchemeFrom
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Инициализировать ColorScheme с новым объектом для переопределения ColorScheme наследуемой темы.
-type: docs  
+type: docs
 weight: 70  
 url: /ru/aspose.slides.theme/overridetheme/initcolorschemefrom/
 ---  

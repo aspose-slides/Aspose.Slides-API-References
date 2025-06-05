@@ -2,7 +2,7 @@
 title: Remove
 second_title: Aspose.Sildes pour .NET API Référence  
 description: Supprime la première occurrence d'une règle FallBack spécifique de la collection.
-type: docs  
+type: docs
 weight: 90  
 url: /fr/aspose.slides/fontfallbackrulescollection/remove/
 ---  

@@ -2,7 +2,7 @@
 title: Legend
 second_title: Aspose.Sildes pour .NET Référence de l'API  
 description: Représente les propriétés de légende des graphiques.
-type: docs  
+type: docs
 weight: 2200  
 url: /fr/aspose.slides.charts/legend/
 ---  

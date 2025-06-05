@@ -2,7 +2,7 @@
 title: TargetShape
 second_title: Aspose.Slides pour .NET Référence API  
 description: Renvoie la forme cible pour l'effet. Lecture seule IShapeaspose.slides/ishape.
-type: docs  
+type: docs
 weight: 110  
 url: /fr/aspose.slides.animation/effect/targetshape/
 ---  

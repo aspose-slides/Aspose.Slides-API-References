@@ -2,7 +2,7 @@
 title: CreateTextFrameFormat
 second_title: Aspose.Slides para .NET Referencia de la API  
 description: Crea un nuevo ITextFrameFormataspose.slides/itextframeformat.
-type: docs  
+type: docs
 weight: 50  
 url: /es/aspose.slides/formatfactory/createtextframeformat/
 ---  

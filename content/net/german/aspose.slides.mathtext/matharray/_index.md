@@ -2,7 +2,7 @@
 title: MathArray
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt ein vertikales Array von Gleichungen oder anderen mathematischen Objekten an
-type: docs  
+type: docs
 weight: 8290  
 url: /de/aspose.slides.mathtext/matharray/
 ---  

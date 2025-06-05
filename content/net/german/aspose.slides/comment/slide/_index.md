@@ -2,7 +2,7 @@
 title: Slide
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt die übergeordnete Folie eines Kommentars zurück oder setzt sie. Schreibgeschützt ISlideaspose.slides/islide.
-type: docs  
+type: docs
 weight: 50  
 url: /de/aspose.slides/comment/slide/
 ---  

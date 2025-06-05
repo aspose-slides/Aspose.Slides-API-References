@@ -2,7 +2,7 @@
 title: Comments
 second_title: Référence API Aspose.Sildes pour .NET  
 description: Le but de la signature. Chaîne en lecture/écriture.
-type: docs  
+type: docs
 weight: 30  
 url: /fr/aspose.slides/digitalsignature/comments/
 ---  

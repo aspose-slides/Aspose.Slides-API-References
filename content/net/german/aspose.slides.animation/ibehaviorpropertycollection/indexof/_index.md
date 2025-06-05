@@ -2,7 +2,7 @@
 title: IndexOf
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Bestimmt den Index eines bestimmten Elements nach dem Eigenschaftswert in der IList.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides.animation/ibehaviorpropertycollection/indexof/
 ---  

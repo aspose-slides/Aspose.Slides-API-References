@@ -2,7 +2,7 @@
 title: LayoutSlides
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Возвращает список всех макетов слайдов, определённых в презентации. Только для чтения IGlobalLayoutSlideCollectionaspose.slides/igloballayoutslidecollection.
-type: docs  
+type: docs
 weight: 160  
 url: /ru/aspose.slides/ipresentation/layoutslides/
 ---  

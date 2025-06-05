@@ -2,7 +2,7 @@
 title: CreateGlow
 second_title: Aspose.Sildes pour la référence de l'API .NET  
 description: Crée un effet de lueur.
-type: docs  
+type: docs
 weight: 30  
 url: /fr/aspose.slides.effects/effectfactory/createglow/
 ---  

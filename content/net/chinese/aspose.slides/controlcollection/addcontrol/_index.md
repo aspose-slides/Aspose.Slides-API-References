@@ -2,7 +2,7 @@
 title: AddControl
 second_title: Aspose.Sildes for .NET API Reference  
 description: 创建并添加一个新的控件到集合中。
-type: docs  
+type: docs
 weight: 50  
 url: /zh/aspose.slides/controlcollection/addcontrol/
 ---  

@@ -2,7 +2,7 @@
 title: DataLabelFormat
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve el formato de la etiqueta de datos. Solo lectura IDataLabelFormataspose.slides.charts/idatalabelformat.
-type: docs  
+type: docs
 weight: 40  
 url: /es/aspose.slides.charts/idatalabel/datalabelformat/
 ---  

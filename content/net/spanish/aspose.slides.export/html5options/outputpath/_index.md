@@ -2,7 +2,7 @@
 title: OutputPath
 second_title: Aspose.Sildes para .NET Referencia de API  
 description: Determina dónde deben almacenarse los recursos externos. String de lectura/escritura.
-type: docs  
+type: docs
 weight: 60  
 url: /es/aspose.slides.export/html5options/outputpath/
 ---  

@@ -2,7 +2,7 @@
 title: SlidesLayoutOptions
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Ruft den Modus ab oder legt ihn fest, in dem Folien auf der Seite platziert werden, wenn eine Präsentation exportiert wird ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides.export/irenderingoptions/slideslayoutoptions/
 ---  

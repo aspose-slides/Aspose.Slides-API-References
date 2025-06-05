@@ -2,7 +2,7 @@
 title: GetImage
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt die Miniaturansicht der Form zurück. Der Typ ShapeThumbnailBounds.Shape der Miniaturansicht der Form wird standardmäßig verwendet.
-type: docs  
+type: docs
 weight: 320  
 url: /de/aspose.slides/ishape/getimage/
 ---  

@@ -2,7 +2,7 @@
 title: Dispose
 second_title: Aspose.Sildes for .NET API Reference  
 description: 释放 PresentationPlayer 的实例 aspose.slides.export/presentationplayer。
-type: docs  
+type: docs
 weight: 40  
 url: /zh/aspose.slides.export/presentationplayer/dispose/
 ---  

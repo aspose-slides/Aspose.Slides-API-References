@@ -2,7 +2,7 @@
 title: MasterTheme
 second_title: Справочник по API Aspose.Slides для .NET  
 description: Возвращает мастер-тему презентации. Только для чтения IMasterTheme aspose.slides.theme/imastertheme.
-type: docs  
+type: docs
 weight: 200  
 url: /ru/aspose.slides/ipresentation/mastertheme/
 ---  

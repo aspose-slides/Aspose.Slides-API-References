@@ -2,7 +2,7 @@
 title: DisplayUnitType
 second_title: Référence API Aspose.Slides pour .NET  
 description: Détermine la multiplicité des données affichées.
-type: docs  
+type: docs
 weight: 1540  
 url: /fr/aspose.slides.charts/displayunittype/
 ---  

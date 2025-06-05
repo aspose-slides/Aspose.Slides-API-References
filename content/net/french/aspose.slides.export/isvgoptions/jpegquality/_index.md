@@ -2,7 +2,7 @@
 title: JpegQuality
 second_title: Aspose.Sildes pour la référence API .NET  
 description: Détermine la qualité d'encodage JPEG. Lecture/écriture Int32.
-type: docs  
+type: docs
 weight: 90  
 url: /fr/aspose.slides.export/isvgoptions/jpegquality/
 ---  

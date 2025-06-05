@@ -2,7 +2,7 @@
 title: Item
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt eine Zelle anhand ihrer Position zurück. Nur-Lese ICell aspose.slides/icell.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides/icellcollection/item/
 ---  

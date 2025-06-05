@@ -2,7 +2,7 @@
 title: IInkOptions
 second_title: Aspose.Sildes for .NET API Reference  
 description: Proporciona opciones que controlan la apariencia de los objetos de tinta en el documento exportado.
-type: docs  
+type: docs
 weight: 3810  
 url: /es/aspose.slides.export/iinkoptions/
 ---  

@@ -2,7 +2,7 @@
 title: CopyTo
 second_title: Aspose.Slides pour .NET Référence de l'API  
 description: Copie tous les éléments de la collection vers le tableau spécifié.
-type: docs  
+type: docs
 weight: 70  
 url: /fr/aspose.slides/digitalsignaturecollection/copyto/
 ---  

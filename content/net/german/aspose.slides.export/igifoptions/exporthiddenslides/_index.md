@@ -2,7 +2,7 @@
 title: ExportHiddenSlides
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Bestimmt, ob verborgene Folien exportiert werden. Der Standardwert ist false.
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides.export/igifoptions/exporthiddenslides/
 ---  

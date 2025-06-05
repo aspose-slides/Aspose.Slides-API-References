@@ -2,7 +2,7 @@
 title: EmbedAllFontsHtmlController
 second_title: Aspose.Slides für .NET API Referenz  
 description: Die Formatierungssteuerungsklasse, die zum Einbetten aller Präsentationsschriftarten im WOFF-Format verwendet wird.
-type: docs  
+type: docs
 weight: 3590  
 url: /de/aspose.slides.export/embedallfontshtmlcontroller/
 ---  

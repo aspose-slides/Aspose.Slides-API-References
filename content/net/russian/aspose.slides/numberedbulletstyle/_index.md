@@ -2,7 +2,7 @@
 title: NumberedBulletStyle
 second_title: Aspose.Sildes for .NET API Reference  
 description: Представляет стиль нумерованных маркеров.
-type: docs  
+type: docs
 weight: 8910  
 url: /ru/aspose.slides/numberedbulletstyle/
 ---  

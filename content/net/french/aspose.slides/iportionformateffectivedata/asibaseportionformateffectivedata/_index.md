@@ -2,7 +2,7 @@
 title: AsIBasePortionFormatEffectiveData
 second_title: Aspose.Sildes pour .NET API Référence  
 description: Renvoie l'interface IBasePortionFormatEffectiveData.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata/
 ---  

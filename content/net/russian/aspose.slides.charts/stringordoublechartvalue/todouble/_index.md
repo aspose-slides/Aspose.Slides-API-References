@@ -2,7 +2,7 @@
 title: ToDouble
 second_title: Aspose.Slides для .NET API Справочник  
 description: Преобразует в double.
-type: docs  
+type: docs
 weight: 50  
 url: /ru/aspose.slides.charts/stringordoublechartvalue/todouble/
 ---  

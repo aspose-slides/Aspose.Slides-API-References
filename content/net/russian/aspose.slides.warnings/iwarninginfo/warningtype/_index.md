@@ -2,7 +2,7 @@
 title: WarningType
 second_title: Справочник API Aspose.Slides для .NET  
 description: Возвращает тип предупреждения. Свойство только для чтения WarningType aspose.slides.warnings/iwarninginfo/warningtype.
-type: docs  
+type: docs
 weight: 20  
 url: /ru/aspose.slides.warnings/iwarninginfo/warningtype/
 ---  

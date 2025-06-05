@@ -2,7 +2,7 @@
 title: EffectColor
 second_title: Справочник по API Aspose.Slides для .NET  
 description: Возвращает цвет эффекта фигуры. Только для чтения IColorFormataspose.slides/icolorformat.
-type: docs  
+type: docs
 weight: 10  
 url: /ru/aspose.slides/shapestyle/effectcolor/
 ---  

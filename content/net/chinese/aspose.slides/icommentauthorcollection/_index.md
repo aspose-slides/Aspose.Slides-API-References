@@ -2,7 +2,7 @@
 title: ICommentAuthorCollection
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示评论作者的集合。
-type: docs  
+type: docs
 weight: 5380  
 url: /zh/aspose.slides/icommentauthorcollection/
 ---  

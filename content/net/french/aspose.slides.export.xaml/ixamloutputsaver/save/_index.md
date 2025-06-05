@@ -2,7 +2,7 @@
 title: Save
 second_title: Référence API Aspose.Sildes pour .NET  
 description: Enregistre un tableau d'octets à un emplacement de destination.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides.export.xaml/ixamloutputsaver/save/
 ---  

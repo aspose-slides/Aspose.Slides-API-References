@@ -2,7 +2,7 @@
 title: PictureFormat
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt das PictureFillFormat-Objekt für einen Bilderrahmen zurück. Nur-lesender IPictureFillFormataspose.slides/ipicturefillformat.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides/pictureframe/pictureformat/
 ---  

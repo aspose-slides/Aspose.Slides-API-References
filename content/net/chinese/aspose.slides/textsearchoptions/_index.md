@@ -2,7 +2,7 @@
 title: TextSearchOptions
 second_title: Aspose.Sildes for .NET API Reference  
 description: 代表可以用于在演示文稿幻灯片或文本框中搜索文本的选项。
-type: docs  
+type: docs
 weight: 10660  
 url: /zh/aspose.slides/textsearchoptions/
 ---  

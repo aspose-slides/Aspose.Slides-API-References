@@ -2,7 +2,7 @@
 title: InsertComment
 second_title: Aspose.Sildes para referencia de API de .NET  
 description: Insertar un nuevo comentario en una colección en el índice especificado.
-type: docs  
+type: docs
 weight: 110  
 url: /es/aspose.slides/commentcollection/insertcomment/
 ---  

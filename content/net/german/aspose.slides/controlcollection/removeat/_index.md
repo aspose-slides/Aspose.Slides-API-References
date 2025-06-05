@@ -2,7 +2,7 @@
 title: RemoveAt
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Entfernt ein ActiveX-Steuerelement, das an einer bestimmten Position in der Sammlung gespeichert ist.
-type: docs  
+type: docs
 weight: 100  
 url: /de/aspose.slides/controlcollection/removeat/
 ---  

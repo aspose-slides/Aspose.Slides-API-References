@@ -2,7 +2,7 @@
 title: IMasterNotesSlide
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Representa la diapositiva maestra para notas.
-type: docs  
+type: docs
 weight: 6190  
 url: /es/aspose.slides/imasternotesslide/
 ---  

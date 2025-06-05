@@ -2,7 +2,7 @@
 title: CommentsAreaWidth
 second_title: Aspose.Slides pour .NET API Référence  
 description: Obtient ou définit la largeur de la zone de sortie des commentaires en pixels S'applique uniquement si les commentaires sont affichés à droite.
-type: docs  
+type: docs
 weight: 30  
 url: /fr/aspose.slides.export/notescommentslayoutingoptions/commentsareawidth/
 ---  

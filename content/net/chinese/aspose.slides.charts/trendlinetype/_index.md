@@ -2,7 +2,7 @@
 title: TrendlineType
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示趋势线的类型
-type: docs  
+type: docs
 weight: 2410  
 url: /zh/aspose.slides.charts/trendlinetype/
 ---  

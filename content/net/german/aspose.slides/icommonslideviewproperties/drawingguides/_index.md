@@ -2,7 +2,7 @@
 title: DrawingGuides
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt die Sammlung der Zeichenhilfen zurück. Nur-Lesen IDrawingGuidesCollectionaspose.slides/idrawingguidescollection
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides/icommonslideviewproperties/drawingguides/
 ---  

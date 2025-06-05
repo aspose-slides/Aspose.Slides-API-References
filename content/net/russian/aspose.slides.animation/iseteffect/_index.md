@@ -2,7 +2,7 @@
 title: ISetEffect
 second_title: Aspose.Sildes для .NET API Reference  
 description: Представляет эффект установки для анимационного поведения.
-type: docs  
+type: docs
 weight: 530  
 url: /ru/aspose.slides.animation/iseteffect/
 ---  

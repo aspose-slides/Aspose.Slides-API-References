@@ -2,7 +2,7 @@
 title: IPoint
 second_title: Aspose.Slides para .NET API Reference  
 description: Representar punto de animación.
-type: docs  
+type: docs
 weight: 460  
 url: /es/aspose.slides.animation/ipoint/
 ---  

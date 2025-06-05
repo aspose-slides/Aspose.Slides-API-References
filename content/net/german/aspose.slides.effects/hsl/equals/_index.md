@@ -2,7 +2,7 @@
 title: Equals
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Bestimmt, ob das angegebene HSLaspose.slides.effects/hsl gleich dem aktuellen HSLaspose.slides.effects/hsl ist.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides.effects/hsl/equals/
 ---  

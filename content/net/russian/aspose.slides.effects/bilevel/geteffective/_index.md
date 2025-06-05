@@ -2,7 +2,7 @@
 title: GetEffective
 second_title: Aspose.Sildes для .NET API Reference  
 description: Получает эффективные данные эффекта Bi-Level с применённым наследованием.
-type: docs  
+type: docs
 weight: 20  
 url: /ru/aspose.slides.effects/bilevel/geteffective/
 ---  

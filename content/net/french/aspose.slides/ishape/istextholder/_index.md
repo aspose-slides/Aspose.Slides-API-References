@@ -2,7 +2,7 @@
 title: IsTextHolder
 second_title: Référence de l'API Aspose.Sildes pour .NET  
 description: Détermine si la forme est un TextHolder. Booléen en lecture seule.
-type: docs  
+type: docs
 weight: 150  
 url: /fr/aspose.slides/ishape/istextholder/
 ---  

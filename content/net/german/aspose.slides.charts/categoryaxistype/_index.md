@@ -2,7 +2,7 @@
 title: CategoryAxisType
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Stellt einen Typ einer Kategoriensachse dar.
-type: docs  
+type: docs
 weight: 1170  
 url: /de/aspose.slides.charts/categoryaxistype/
 ---  

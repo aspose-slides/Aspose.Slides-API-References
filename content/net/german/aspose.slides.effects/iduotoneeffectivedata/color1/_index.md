@@ -2,7 +2,7 @@
 title: Color1
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt das Ziel-Farbenformat für dunkle Pixel zurück. Nur lesbare Farbe.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides.effects/iduotoneeffectivedata/color1/
 ---  

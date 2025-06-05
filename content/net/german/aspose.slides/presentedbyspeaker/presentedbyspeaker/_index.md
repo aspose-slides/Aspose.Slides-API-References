@@ -2,7 +2,7 @@
 title: PresentedBySpeaker
 second_title: Aspose.Slides für .NET API Referenz  
 description: Initialisiert eine neue Instanz der Klasse PresentedBySpeaker.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides/presentedbyspeaker/presentedbyspeaker/
 ---  

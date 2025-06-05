@@ -2,7 +2,7 @@
 title: NewAnimation
 second_title: Aspose.Sildes para .NET Referencia de API  
 description: Un evento representa que se generó una nueva animación.
-type: docs  
+type: docs
 weight: 60  
 url: /es/aspose.slides.export/presentationanimationsgenerator/newanimation/
 ---  

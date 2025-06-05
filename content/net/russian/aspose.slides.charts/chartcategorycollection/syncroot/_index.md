@@ -2,7 +2,7 @@
 title: SyncRoot
 second_title: Aspose.Slides для .NET API Справочник  
 description: Возвращает объект, который можно использовать для синхронизации доступа к коллекции. Объект только для чтения.
-type: docs  
+type: docs
 weight: 50  
 url: /ru/aspose.slides.charts/chartcategorycollection/syncroot/
 ---  

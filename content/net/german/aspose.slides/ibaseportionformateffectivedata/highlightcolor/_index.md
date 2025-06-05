@@ -2,7 +2,7 @@
 title: HighlightColor
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt die Farbe zurück, die zum Hervorheben eines Textes verwendet wird. Nur lesbare Farbe.
-type: docs  
+type: docs
 weight: 110  
 url: /de/aspose.slides/ibaseportionformateffectivedata/highlightcolor/
 ---  

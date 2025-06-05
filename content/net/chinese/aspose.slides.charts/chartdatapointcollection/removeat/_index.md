@@ -2,7 +2,7 @@
 title: RemoveAt
 second_title: Aspose.Sildes for .NET API Reference 
 description: 移除给定索引处的元素。
-type: docs 
+type: docs
 weight: 320 
 url: /zh/aspose.slides.charts/chartdatapointcollection/removeat/
 --- 

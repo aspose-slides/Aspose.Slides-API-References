@@ -2,7 +2,7 @@
 title: Position
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt die Position des Zeichnungsführers in Punkten vom oberen linken Eck der Folie zurück oder setzt diese. Lesen/Schreiben Single.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides/drawingguide/position/
 ---  

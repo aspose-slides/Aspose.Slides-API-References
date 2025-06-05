@@ -2,7 +2,7 @@
 title: Add
 second_title: Aspose.Sildes for .NET API Reference  
 description: 创建新的渐变停止并将其添加到集合的末尾。
-type: docs  
+type: docs
 weight: 50  
 url: /zh/aspose.slides/gradientstopcollection/add/
 ---  

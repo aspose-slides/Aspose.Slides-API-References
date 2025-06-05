@@ -2,7 +2,7 @@
 title: AddNodeByPosition
 second_title: Referencia de la API Aspose.Slides para .NET  
 description: Agregar nuevo nodo en la posición seleccionada de la colección de nodos
-type: docs  
+type: docs
 weight: 60  
 url: /es/aspose.slides.smartart/smartartnodecollection/addnodebyposition/
 ---  

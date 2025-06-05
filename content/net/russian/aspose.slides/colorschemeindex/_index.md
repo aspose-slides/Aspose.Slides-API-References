@@ -2,7 +2,7 @@
 title: ColorSchemeIndex
 second_title: Aspose.Sildes для справочника API .NET  
 description: Представляет индекс в цветовой схеме.
-type: docs  
+type: docs
 weight: 2460  
 url: /ru/aspose.slides/colorschemeindex/
 ---  

@@ -2,7 +2,7 @@
 title: CommentAuthors
 second_title: Référence API Aspose.Slides pour .NET  
 description: Renvoie la collection des auteurs de commentaires. Lecture seule ICommentAuthorCollection aspose.slides/icommentauthorcollection.
-type: docs  
+type: docs
 weight: 40  
 url: /fr/aspose.slides/presentation/commentauthors/
 ---  

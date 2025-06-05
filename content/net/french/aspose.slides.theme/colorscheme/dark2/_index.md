@@ -2,7 +2,7 @@
 title: Dark2
 second_title: Référence de l'API Aspose.Sildes pour .NET  
 description: Deuxième couleur sombre dans le schéma. Lecture seule IColorFormataspose.slides/icolorformat.
-type: docs  
+type: docs
 weight: 80  
 url: /fr/aspose.slides.theme/colorscheme/dark2/
 ---  

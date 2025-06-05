@@ -2,7 +2,7 @@
 title: WriteDocumentStart
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Appelé pour écrire l'en-tête du document html. Appelé une fois par conversion de présentation.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides.export/ihtmlformattingcontroller/writedocumentstart/
 ---  

@@ -2,7 +2,7 @@
 title: FontItalic
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Определяет, является ли шрифт курсивным. Свойство только для чтения типа Boolean.
-type: docs  
+type: docs
 weight: 90  
 url: /ru/aspose.slides/ibaseportionformateffectivedata/fontitalic/
 ---  

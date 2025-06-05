@@ -2,7 +2,7 @@
 title: Base
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Аргумент функции
-type: docs  
+type: docs
 weight: 20  
 url: /ru/aspose.slides.mathtext/mathfunction/base/
 ---  

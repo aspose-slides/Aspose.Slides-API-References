@@ -2,7 +2,7 @@
 title: ImageTransparentColor
 second_title: Aspose.Slides für .NET API Referenz  
 description: Ruft die transparente Farbe des Bildes ab oder legt sie fest.
-type: docs  
+type: docs
 weight: 100  
 url: /de/aspose.slides.export/ipdfoptions/imagetransparentcolor/
 ---  

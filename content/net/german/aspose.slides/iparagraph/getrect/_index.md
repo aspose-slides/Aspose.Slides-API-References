@@ -2,7 +2,7 @@
 title: GetRect
 second_title: Aspose.Slides für .NET API Referenz  
 description: Erhalte die Koordinaten des Rechtecks, das den Absatz umschließt. Das Rechteck umfasst alle Textzeilen im Absatz, einschließlich leerer.
-type: docs  
+type: docs
 weight: 70  
 url: /de/aspose.slides/iparagraph/getrect/
 ---  

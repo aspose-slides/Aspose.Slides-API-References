@@ -2,7 +2,7 @@
 title: EndShapeConnectionSiteIndex
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Gibt den Index des Verbindungspunktes für die Endform zurück oder legt ihn fest. Lese-/Schreibzugriff UInt32.
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides/connector/endshapeconnectionsiteindex/
 ---  

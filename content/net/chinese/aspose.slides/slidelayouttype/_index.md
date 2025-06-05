@@ -2,7 +2,7 @@
 title: SlideLayoutType
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示幻灯片布局类型。
-type: docs  
+type: docs
 weight: 9680  
 url: /zh/aspose.slides/slidelayouttype/
 ---  

@@ -2,7 +2,7 @@
 title: Tooltip
 second_title: Aspose.Slides für .NET API-Verweis  
 description: Gibt den String zurück, der in einer Benutzeroberfläche angezeigt werden kann und mit dem übergeordneten Hyperlink verknüpft ist. Lese-/Schreib-String.
-type: docs  
+type: docs
 weight: 200  
 url: /de/aspose.slides/hyperlink/tooltip/
 ---  

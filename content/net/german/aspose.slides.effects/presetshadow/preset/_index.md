@@ -2,7 +2,7 @@
 title: Preset
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Preset. Lesen/Schreiben von PresetShadowTypeaspose.slides/presetshadowtype.
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides.effects/presetshadow/preset/
 ---  

@@ -2,7 +2,7 @@
 title: AddNode
 second_title: Référence API Aspose.Slides pour .NET  
 description: Ajouter un nouveau nœud ou sous-nœud.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides.smartart/ismartartnodecollection/addnode/
 ---  

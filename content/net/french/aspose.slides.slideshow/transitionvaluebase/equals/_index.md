@@ -2,7 +2,7 @@
 title: Equals
 second_title: Aspose.Sildes pour .NET Référence API  
 description: Détermine si les deux instances de TransitionValueBase sont égales.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides.slideshow/transitionvaluebase/equals/
 ---  

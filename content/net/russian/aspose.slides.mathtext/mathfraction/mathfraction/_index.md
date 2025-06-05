@@ -2,7 +2,7 @@
 title: MathFraction
 second_title: Aspose.Slides для .NET API Reference  
 description: Инициализирует MathFraction с указанными числителем, знаменателем и типом
-type: docs  
+type: docs
 weight: 10  
 url: /ru/aspose.slides.mathtext/mathfraction/mathfraction/
 ---  

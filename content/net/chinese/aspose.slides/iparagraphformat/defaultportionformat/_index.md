@@ -2,7 +2,7 @@
 title: DefaultPortionFormat
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回段落的默认部分格式。无继承应用。只读 IPortionFormataspose.slides/iportionformat。
-type: docs  
+type: docs
 weight: 30  
 url: /zh/aspose.slides/iparagraphformat/defaultportionformat/
 ---  

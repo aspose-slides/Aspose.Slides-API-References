@@ -2,7 +2,7 @@
 title: AddGrayScaleEffect
 second_title: Aspose.Slides pour .NET Référence API  
 description: Ajoute le nouvel effet d'échelle de gris à la fin d'une collection.
-type: docs  
+type: docs
 weight: 180  
 url: /fr/aspose.slides.effects/imagetransformoperationcollection/addgrayscaleeffect/
 ---  

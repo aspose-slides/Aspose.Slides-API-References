@@ -2,7 +2,7 @@
 title: ChartPlotArea
 second_title: Aspose.Slides für .NET API Referenz  
 description: Stellt das Rechteck dar, in dem das Diagramm gezeichnet werden soll.
-type: docs  
+type: docs
 weight: 1340  
 url: /de/aspose.slides.charts/chartplotarea/
 ---  

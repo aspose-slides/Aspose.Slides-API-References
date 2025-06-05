@@ -2,7 +2,7 @@
 title: VbaReferenceFactory
 second_title: Aspose.Sildes pour la référence API .NET  
 description: Permet de créer des références de projet VBA via l'interface COM
-type: docs  
+type: docs
 weight: 11370  
 url: /fr/aspose.slides.vba/vbareferencefactory/
 ---  

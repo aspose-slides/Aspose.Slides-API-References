@@ -2,7 +2,7 @@
 title: ResourceLoadingCallback
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回或设置管理外部资源加载的回调接口。读/写 IResourceLoadingCallbackaspose.slides/iresourceloadingcallback。
-type: docs  
+type: docs
 weight: 120  
 url: /zh/aspose.slides/iloadoptions/resourceloadingcallback/
 ---  

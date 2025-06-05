@@ -2,7 +2,7 @@
 title: Remove
 second_title: Aspose.Sildes for .NET API Reference  
 description: 从集合中删除一个布局。
-type: docs  
+type: docs
 weight: 80  
 url: /zh/aspose.slides/layoutslidecollection/remove/
 ---  

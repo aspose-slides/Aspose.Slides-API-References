@@ -2,7 +2,7 @@
 title: GapDepth
 second_title: Référence API Aspose.Slides pour .NET  
 description: Renvoie ou définit la distance en pourcentage de la largeur du marqueur entre les séries de données dans un graphique 3D. Il s'agit de la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est la projection de la propriété de groupe appropriée. Et donc, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété ParentSeriesGroup.GapDepth en lecture/écriture pour modifier la valeur. Int32 en lecture seule.
-type: docs  
+type: docs
 weight: 120  
 url: /fr/aspose.slides.charts/chartseries/gapdepth/
 ---  

@@ -2,7 +2,7 @@
 title: IsAutomaticMinValue
 second_title: Aspose.Slidеs für .NET API Referenz  
 description: Gibt an, ob der Min-Wert automatisch zugewiesen wird. Lese-/Schreibbare Boolean.
-type: docs  
+type: docs
 weight: 210  
 url: /de/aspose.slides.charts/iaxis/isautomaticminvalue/
 ---  

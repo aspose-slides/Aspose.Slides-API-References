@@ -2,7 +2,7 @@
 title: InsertChart
 second_title: Aspose.Sildes для .NET API Reference  
 description: Создает новый график, инициализирует его с образцовыми данными и настройками и вставляет в указанную позицию в коллекции.
-type: docs  
+type: docs
 weight: 310  
 url: /ru/aspose.slides/shapecollection/insertchart/
 ---  

@@ -2,7 +2,7 @@
 title: Format
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt das Format eines Diagrammflächenbereichs zurück. Nur-Lese IFormataspose.slides/iformat.
-type: docs  
+type: docs
 weight: 70  
 url: /de/aspose.slides.charts/chartplotarea/format/
 ---  

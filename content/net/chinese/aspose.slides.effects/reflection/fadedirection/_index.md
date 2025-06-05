@@ -2,7 +2,7 @@
 title: FadeDirection
 second_title: Aspose.Sildes for .NET API Reference  
 description: 指定反射的偏移方向（角度）。可读写单精度浮点数。
-type: docs  
+type: docs
 weight: 60  
 url: /zh/aspose.slides.effects/reflection/fadedirection/
 ---  

@@ -2,7 +2,7 @@
 title: AsLiteralDouble
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt den Wert als Literal-Doppelwert zurück oder setzt ihn. Lese-/Schreib-Doppelwert.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides.charts/stringordoublechartvalue/asliteraldouble/
 ---  

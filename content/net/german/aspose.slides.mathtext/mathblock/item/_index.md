@@ -2,7 +2,7 @@
 title: Item
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Ruft das IMathElement am angegebenen Index ab oder setzt es.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides.mathtext/mathblock/item/
 ---  

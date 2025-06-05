@@ -2,7 +2,7 @@
 title: FillFocusSizeY
 second_title: Aspose.Slides para .NET API Reference  
 description: Representa la propiedad fill.focussize.y
-type: docs  
+type: docs
 weight: 340  
 url: /es/aspose.slides.animation/behaviorproperty/fillfocussizey/
 ---  

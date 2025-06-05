@@ -2,7 +2,7 @@
 title: CopyTo
 second_title: Aspose.Sildes pour .NET Référence de l'API  
 description: Copie tous les éléments de la collection dans le tableau spécifié.
-type: docs  
+type: docs
 weight: 50  
 url: /fr/aspose.slides/drawingguidescollection/copyto/
 ---  

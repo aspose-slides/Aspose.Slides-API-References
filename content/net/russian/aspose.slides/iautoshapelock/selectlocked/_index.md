@@ -2,7 +2,7 @@
 title: SelectLocked
 second_title: Aspose.Sildes для .NET API Reference  
 description: Определяет, запрещено ли выбирать эту фигуру. Свойство с чтением и записью, тип Boolean.
-type: docs  
+type: docs
 weight: 90  
 url: /ru/aspose.slides/iautoshapelock/selectlocked/
 ---  

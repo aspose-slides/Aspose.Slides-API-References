@@ -2,7 +2,7 @@
 title: Paragraph
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示一段文本。
-type: docs  
+type: docs
 weight: 9010  
 url: /zh/aspose.slides/paragraph/
 ---  

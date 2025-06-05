@@ -2,7 +2,7 @@
 title: Width
 second_title: Aspose.Slides pour .NET API Référence  
 description: Obtient la largeur de l'image en pixels.
-type: docs  
+type: docs
 weight: 30  
 url: /fr/aspose.slides/iimage/width/
 ---  

@@ -2,7 +2,7 @@
 title: Item
 second_title: Aspose.Sildes for .NET API Reference  
 description: 获取指定索引处的元素。
-type: docs  
+type: docs
 weight: 20  
 url: /zh/aspose.slides.charts/ichartcategorycollection/item/
 ---  

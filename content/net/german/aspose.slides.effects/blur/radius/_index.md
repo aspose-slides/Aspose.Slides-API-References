@@ -2,7 +2,7 @@
 title: Radius
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt den Unschärferadius zurück oder setzt ihn. Schreib-/Lese Double.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides.effects/blur/radius/
 ---  

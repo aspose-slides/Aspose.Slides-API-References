@@ -2,7 +2,7 @@
 title: Minor
 second_title: Référence API Aspose.Sildes pour .NET  
 description: Renvoie la collection de polices pour une partie "corps" de la diapositive. En lecture seule IFontsaspose.slides/ifonts.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides.theme/ifontscheme/minor/
 ---  

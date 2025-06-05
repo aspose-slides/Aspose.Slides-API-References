@@ -2,7 +2,7 @@
 title: Dpi
 second_title: Référence de l'API Aspose.Sildes pour .NET  
 description: Renvoie ou définit le dpi qui est utilisé pour remplir une image. Lecture/écriture Int32.
-type: docs  
+type: docs
 weight: 50  
 url: /fr/aspose.slides/picturefillformat/dpi/
 ---  

@@ -2,7 +2,7 @@
 title: RemoveSectionWithSlides
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Удалить секцию и слайды, содержащиеся в секции.
-type: docs  
+type: docs
 weight: 130  
 url: /ru/aspose.slides/sectioncollection/removesectionwithslides/
 ---  

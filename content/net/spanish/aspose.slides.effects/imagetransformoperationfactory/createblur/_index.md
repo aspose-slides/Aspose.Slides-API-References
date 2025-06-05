@@ -2,7 +2,7 @@
 title: CreateBlur
 second_title: Aspose.Sildes para .NET Referencia de API  
 description: Crea efecto de desenfoque.
-type: docs  
+type: docs
 weight: 100  
 url: /es/aspose.slides.effects/imagetransformoperationfactory/createblur/
 ---  

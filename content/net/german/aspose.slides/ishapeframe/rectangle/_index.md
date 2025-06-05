@@ -2,7 +2,7 @@
 title: Rectangle
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt die Koordinaten eines Rahmens zurück. Schreibgeschütztes RectangleF.
-type: docs  
+type: docs
 weight: 60  
 url: /de/aspose.slides/ishapeframe/rectangle/
 ---  

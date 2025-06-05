@@ -2,7 +2,7 @@
 title: IsInterruptionRequested
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt true zurück, wenn eine Unterbrechung angefordert wurde, andernfalls false.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides/interruptiontokensource/isinterruptionrequested/
 ---  

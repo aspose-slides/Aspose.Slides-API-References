@@ -2,7 +2,7 @@
 title: Radius
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Указывает радиус размытия, который следует применить к краям. Читаемое/записываемое Double.
-type: docs  
+type: docs
 weight: 10  
 url: /ru/aspose.slides.effects/softedge/radius/
 ---  

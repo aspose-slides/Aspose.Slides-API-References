@@ -2,7 +2,7 @@
 title: Height
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Fasenhöhe. Lese-/Schreibzugriff Double.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides/ishapebevel/height/
 ---  

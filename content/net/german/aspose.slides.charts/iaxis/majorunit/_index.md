@@ -2,7 +2,7 @@
 title: MajorUnit
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Repräsentiert die Haupt-Einheiten für die Daten- oder Werteachse. Schreib-/Lesebar Double.
-type: docs  
+type: docs
 weight: 360  
 url: /de/aspose.slides.charts/iaxis/majorunit/
 ---  

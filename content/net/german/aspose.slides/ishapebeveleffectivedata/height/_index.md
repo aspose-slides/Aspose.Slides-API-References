@@ -2,7 +2,7 @@
 title: Height
 second_title: Aspose.Slides für .NET API Referenz  
 description: Fasenhöhe. Nur-Lesen Double.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides/ishapebeveleffectivedata/height/
 ---  

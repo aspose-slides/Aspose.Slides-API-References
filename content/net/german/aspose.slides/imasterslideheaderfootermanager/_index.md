@@ -2,7 +2,7 @@
 title: IMasterSlideHeaderFooterManager
 second_title: Aspose.Slides für .NET API Referenz  
 description: Stellt den Manager dar, der das Verhalten der Fußzeile der Masterfolie, des Datums, der Uhrzeit, der Seitennummernplatzhalter und aller untergeordneten Platzhalter hält. Untergeordnete Platzhalter bedeuten, dass Platzhalter auf abhängigen Layoutfolien und abhängigen Folien enthalten sind. Abhängige Layoutfolien und Folien verwenden und hängen von der Masterfolie ab.
-type: docs  
+type: docs
 weight: 6240  
 url: /de/aspose.slides/imasterslideheaderfootermanager/
 ---  

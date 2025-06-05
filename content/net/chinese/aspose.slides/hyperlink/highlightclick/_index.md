@@ -2,7 +2,7 @@
 title: HighlightClick
 second_title: Aspose.Sildes for .NET API 参考  
 description: 确定超链接在点击时是否应该高亮显示。可读写布尔值。
-type: docs  
+type: docs
 weight: 140  
 url: /zh/aspose.slides/hyperlink/highlightclick/
 ---  

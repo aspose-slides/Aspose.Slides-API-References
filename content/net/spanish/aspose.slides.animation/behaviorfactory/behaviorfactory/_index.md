@@ -2,7 +2,7 @@
 title: BehaviorFactory
 second_title: Aspose.Slides para .NET Referencia de API  
 description: El constructor predeterminado.
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides.animation/behaviorfactory/behaviorfactory/
 ---  

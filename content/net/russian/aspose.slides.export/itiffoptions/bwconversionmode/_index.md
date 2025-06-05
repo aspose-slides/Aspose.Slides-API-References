@@ -2,7 +2,7 @@
 title: BwConversionMode
 second_title: Aspose.Sildes для .NET API Reference  
 description: Определяет алгоритм преобразования цветного изображения в черно-белое изображение. Этот параметр будет применен только если CompressionTypeaspose.slides.export/itiffoptions/compressiontype установлен на CCITT4 или CCITT3 Чтение/запись BlackWhiteConversionModeaspose.slides.export/blackwhiteconversionmode. По умолчанию - Default.
-type: docs  
+type: docs
 weight: 20  
 url: /ru/aspose.slides.export/itiffoptions/bwconversionmode/
 ---  

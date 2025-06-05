@@ -2,7 +2,7 @@
 title: DocumentLevelFontSources
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Especifica fuentes para fuentes externas que se utilizarán en la presentación. Estas fuentes están disponibles para la presentación durante toda su vida útil y no se comparten con otras presentaciones
-type: docs  
+type: docs
 weight: 80  
 url: /es/aspose.slides/loadoptions/documentlevelfontsources/
 ---  

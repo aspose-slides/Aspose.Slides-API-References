@@ -2,7 +2,7 @@
 title: LineSketchType
 second_title: Aspose.Slides pour .NET API Référence  
 description: Représente le type de croquis ou l'effet qu'une forme a été assigné.
-type: docs  
+type: docs
 weight: 7570  
 url: /fr/aspose.slides/linesketchtype/
 ---  

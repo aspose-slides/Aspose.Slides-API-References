@@ -2,7 +2,7 @@
 title: MarginBottom
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt den unteren Rand in einem TextFrame zurück oder legt ihn fest. Lese-/Schreibzugriff Double.
-type: docs  
+type: docs
 weight: 100  
 url: /de/aspose.slides/cell/marginbottom/
 ---  

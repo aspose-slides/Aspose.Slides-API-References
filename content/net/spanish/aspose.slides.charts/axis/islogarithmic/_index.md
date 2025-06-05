@@ -2,7 +2,7 @@
 title: IsLogarithmic
 second_title: Aspose.Sildes para .NET Referencia de API  
 description: Representa si el tipo de escala del eje de valor es logarítmico o no. Booleano de lectura/escritura.
-type: docs  
+type: docs
 weight: 260  
 url: /es/aspose.slides.charts/axis/islogarithmic/
 ---  

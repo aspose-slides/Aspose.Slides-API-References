@@ -2,7 +2,7 @@
 title: CreateHSL
 second_title: Aspose.Sildes pour .NET Référence de l'API  
 description: Crée un effet de teinte, saturation et luminance.
-type: docs  
+type: docs
 weight: 160  
 url: /fr/aspose.slides.effects/imagetransformoperationfactory/createhsl/
 ---  

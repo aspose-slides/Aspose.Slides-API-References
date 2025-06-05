@@ -2,7 +2,7 @@
 title: PptOptions
 second_title: Aspose.Sildes for .NET API Reference  
 description: 提供控制演示文稿如何以 PPT 格式保存的选项。
-type: docs  
+type: docs
 weight: 4170  
 url: /zh/aspose.slides.export/pptoptions/
 ---  

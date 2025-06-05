@@ -2,7 +2,7 @@
 title: GetStream
 second_title: Aspose.Slides pour .NET Référence API  
 description: Renvoie un flux Stream pour la lecture. Utilisez 'using' ou fermez le flux après utilisation.
-type: docs  
+type: docs
 weight: 30  
 url: /fr/aspose.slides/video/getstream/
 ---  

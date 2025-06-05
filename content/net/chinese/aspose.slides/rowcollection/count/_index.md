@@ -2,7 +2,7 @@
 title: Count
 second_title: Aspose.Sildes for .NET API Reference  
 description: 获取集合中实际包含的行数。只读 Int32。
-type: docs  
+type: docs
 weight: 10  
 url: /zh/aspose.slides/rowcollection/count/
 ---  

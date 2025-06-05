@@ -2,7 +2,7 @@
 title: SkewVertical
 second_title: Aspose.Slides pour .NET Référence de l'API  
 description: Spécifie l'angle de déformation vertical. Lecture seule Double.
-type: docs  
+type: docs
 weight: 130  
 url: /fr/aspose.slides.effects/ireflectioneffectivedata/skewvertical/
 ---  

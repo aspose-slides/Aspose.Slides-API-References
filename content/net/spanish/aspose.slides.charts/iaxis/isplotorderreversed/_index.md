@@ -2,7 +2,7 @@
 title: IsPlotOrderReversed
 second_title: Referencia de la API de Aspose.Slides para .NET  
 description: Representa si MS PowerPoint traza puntos de datos de último a primero. Booleano de lectura/escritura.
-type: docs  
+type: docs
 weight: 290  
 url: /es/aspose.slides.charts/iaxis/isplotorderreversed/
 ---  

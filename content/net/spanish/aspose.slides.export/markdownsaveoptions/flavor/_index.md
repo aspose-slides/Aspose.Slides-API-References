@@ -2,7 +2,7 @@
 title: Flavor
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Especifica la especificación de markdown para convertir la presentación. El valor predeterminado es Multi-markdown.
-type: docs  
+type: docs
 weight: 40  
 url: /es/aspose.slides.export/markdownsaveoptions/flavor/
 ---  

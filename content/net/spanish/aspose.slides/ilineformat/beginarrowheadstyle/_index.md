@@ -2,7 +2,7 @@
 title: BeginArrowheadStyle
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Devuelve o establece el estilo de la punta de la flecha al comienzo de una línea. Lectura/escritura LineArrowheadStyleaspose.slides/linearrowheadstyle.
-type: docs  
+type: docs
 weight: 40  
 url: /es/aspose.slides/ilineformat/beginarrowheadstyle/
 ---  

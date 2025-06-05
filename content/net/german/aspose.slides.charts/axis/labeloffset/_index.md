@@ -2,7 +2,7 @@
 title: LabelOffset
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt den Abstand der Beschriftungen von der Achse an. Gilt für die Kategorien- oder Datumsachse. Der Wert muss zwischen 0 und 1000 liegen. Lese-/schreibbarer UInt16.
-type: docs  
+type: docs
 weight: 320  
 url: /de/aspose.slides.charts/axis/labeloffset/
 ---  

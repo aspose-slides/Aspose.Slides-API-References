@@ -2,7 +2,7 @@
 title: Slide
 second_title: Aspose.Slides para .NET API Reference  
 description: Devuelve o establece la diapositiva principal de un comentario. Solo lectura ISlideaspose.slides/islide.
-type: docs  
+type: docs
 weight: 50  
 url: /es/aspose.slides/comment/slide/
 ---  

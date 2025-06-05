@@ -2,7 +2,7 @@
 title: TileScaleX
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Retourne ou définit l'échelle horizontale pour le remplissage de texture en pourcentage. Lecture/écriture Single.
-type: docs  
+type: docs
 weight: 160  
 url: /fr/aspose.slides/picturefillformat/tilescalex/
 ---  

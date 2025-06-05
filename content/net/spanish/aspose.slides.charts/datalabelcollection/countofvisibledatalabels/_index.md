@@ -2,7 +2,7 @@
 title: CountOfVisibleDataLabels
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Obtiene el número de etiquetas de datos visibles en la colección. Solo lectura Int32.
-type: docs  
+type: docs
 weight: 30  
 url: /es/aspose.slides.charts/datalabelcollection/countofvisibledatalabels/
 ---  

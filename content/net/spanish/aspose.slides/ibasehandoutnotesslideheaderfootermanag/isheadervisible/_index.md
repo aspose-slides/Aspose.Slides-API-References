@@ -2,7 +2,7 @@
 title: IsHeaderVisible
 second_title: Aspose.Slides para .NET API Reference  
 description: Obtiene un valor que indica si un marcador de posición de encabezado está presente. Lee Boolean.
-type: docs  
+type: docs
 weight: 20  
 url: /es/aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible/
 ---  

@@ -2,7 +2,7 @@
 title: CurrentDateTime
 second_title: Référence de l'API Aspose.Sildes pour .NET  
 description: Renvoie ou définit la date et l'heure qui remplaceront le contenu des champs datetime. Heure de création par défaut de cet objet Presentation. Lecture/écriture DateTime.
-type: docs  
+type: docs
 weight: 60  
 url: /fr/aspose.slides/ipresentation/currentdatetime/
 ---  

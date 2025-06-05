@@ -2,7 +2,7 @@
 title: IGroupShape
 second_title: Aspose.Slides для .NET API Reference  
 description: Представляет группу фигур на слайде.
-type: docs  
+type: docs
 weight: 5880  
 url: /ru/aspose.slides/igroupshape/
 ---  

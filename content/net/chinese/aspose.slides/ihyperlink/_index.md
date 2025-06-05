@@ -2,7 +2,7 @@
 title: IHyperlink
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示一个超链接。
-type: docs  
+type: docs
 weight: 5910  
 url: /zh/aspose.slides/ihyperlink/
 ---  

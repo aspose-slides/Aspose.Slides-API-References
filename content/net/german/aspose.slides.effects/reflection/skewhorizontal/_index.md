@@ -2,7 +2,7 @@
 title: SkewHorizontal
 second_title: Aspose.Slides für .NET API Referenz  
 description: Spezifiziert den horizontalen Schrägwinkel. Lese-/Schreibbares Double.
-type: docs  
+type: docs
 weight: 110  
 url: /de/aspose.slides.effects/reflection/skewhorizontal/
 ---  

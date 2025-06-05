@@ -2,7 +2,7 @@
 title: UseFrameRotation
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Bestimmt, ob die angegebene Drehung der Form beim Rendern durchgeführt werden soll oder nicht. Lese-/Schreibbare Boolesche Werte. Standardwert ist true.
-type: docs  
+type: docs
 weight: 130  
 url: /de/aspose.slides.export/isvgoptions/useframerotation/
 ---  

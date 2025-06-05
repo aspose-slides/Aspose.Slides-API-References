@@ -2,7 +2,7 @@
 title: Remove
 second_title: Aspose.Sildes para .NET Referencia de la API  
 description: Elimina la primera ocurrencia de un objeto específico de la colección.
-type: docs  
+type: docs
 weight: 100  
 url: /es/aspose.slides/islidecollection/remove/
 ---  

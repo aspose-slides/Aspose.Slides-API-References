@@ -2,7 +2,7 @@
 title: FirstRowIndex
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Devuelve un índice de la primera fila cubierta por la celda. Solo lectura Int32.
-type: docs  
+type: docs
 weight: 70  
 url: /es/aspose.slides/cell/firstrowindex/
 ---  

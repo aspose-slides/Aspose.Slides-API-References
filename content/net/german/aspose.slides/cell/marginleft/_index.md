@@ -2,7 +2,7 @@
 title: MarginLeft
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt den linken Rand in einem TextFrame zurück oder setzt ihn. Lese-/Schreibzugriff Double.
-type: docs  
+type: docs
 weight: 110  
 url: /de/aspose.slides/cell/marginleft/
 ---  

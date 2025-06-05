@@ -2,7 +2,7 @@
 title: RemoveAt
 second_title: Aspose.Sildes for .NET API Reference  
 description: 删除指定索引处的绘图指南。
-type: docs  
+type: docs
 weight: 70  
 url: /zh/aspose.slides/drawingguidescollection/removeat/
 ---  

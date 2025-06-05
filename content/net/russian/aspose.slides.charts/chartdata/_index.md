@@ -2,7 +2,7 @@
 title: ChartData
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Представляет данные, используемые для построения графика.
-type: docs  
+type: docs
 weight: 1230  
 url: /ru/aspose.slides.charts/chartdata/
 ---  

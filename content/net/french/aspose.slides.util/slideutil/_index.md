@@ -2,7 +2,7 @@
 title: SlideUtil
 second_title: Référence API Aspose.Slides pour .NET  
 description: Offre des méthodes qui aident à rechercher des formes et du texte dans une présentation.
-type: docs  
+type: docs
 weight: 11210  
 url: /fr/aspose.slides.util/slideutil/
 ---  

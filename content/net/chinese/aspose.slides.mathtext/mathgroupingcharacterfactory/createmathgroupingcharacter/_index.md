@@ -2,7 +2,7 @@
 title: CreateMathGroupingCharacter
 second_title: Aspose.Sildes for .NET API Reference  
 description: 创建数学分组字符
-type: docs  
+type: docs
 weight: 20  
 url: /zh/aspose.slides.mathtext/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---  

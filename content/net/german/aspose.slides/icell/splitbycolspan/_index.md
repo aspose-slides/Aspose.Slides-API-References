@@ -2,7 +2,7 @@
 title: SplitByColSpan
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Teilt die Zelle anhand des Spaltenindex in zwei Zellen.
-type: docs  
+type: docs
 weight: 240  
 url: /de/aspose.slides/icell/splitbycolspan/
 ---  

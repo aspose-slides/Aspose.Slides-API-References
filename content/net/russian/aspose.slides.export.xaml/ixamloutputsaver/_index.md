@@ -2,7 +2,7 @@
 title: IXamlOutputSaver
 second_title: Справочник по API Aspose.Sildes для .NET  
 description: Представляет собой реализацию сохранителя выходных данных для передачи данных во внешнее хранилище.
-type: docs  
+type: docs
 weight: 4520  
 url: /ru/aspose.slides.export.xaml/ixamloutputsaver/
 ---  

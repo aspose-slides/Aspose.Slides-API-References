@@ -2,7 +2,7 @@
 title: Layout
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Obtient la mise en page des sections de résumé de zoom dans le cadre. La valeur par défaut est GridLayout.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides/isummaryzoomframe/layout/
 ---  

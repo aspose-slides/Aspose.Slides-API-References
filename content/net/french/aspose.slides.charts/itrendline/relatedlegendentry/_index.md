@@ -2,7 +2,7 @@
 title: RelatedLegendEntry
 second_title: Aspose.Slides pour .NET Référence de l'API  
 description: Représente une entrée de légende liée à cette ligne de tendance Propriété en lecture seule ILegendEntryPropertiesaspose.slides/ilegendentryproperties.
-type: docs  
+type: docs
 weight: 100  
 url: /fr/aspose.slides.charts/itrendline/relatedlegendentry/
 ---  

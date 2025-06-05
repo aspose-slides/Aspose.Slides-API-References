@@ -2,7 +2,7 @@
 title: SoundName
 second_title: Référence API Aspose.Slides pour .NET  
 description: Spécifie un nom lisible par l'homme pour le son de la transition. La propriété Soundaspose.slides.slideshow/slideshowtransition/sound doit être assignée pour obtenir ou définir le nom du son. Chaîne en lecture-écriture.
-type: docs  
+type: docs
 weight: 80  
 url: /fr/aspose.slides.slideshow/slideshowtransition/soundname/
 ---  

@@ -2,7 +2,7 @@
 title: Equals
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Determina si el Reflectionaspose.slides/reflection especificado es igual al Reflectionaspose.slides/reflection actual.
-type: docs  
+type: docs
 weight: 150  
 url: /es/aspose.slides.effects/reflection/equals/
 ---  

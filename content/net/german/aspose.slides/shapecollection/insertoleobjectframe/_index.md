@@ -2,7 +2,7 @@
 title: InsertOleObjectFrame
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Erstellt ein neues OLE-Objekt und fügt es an der angegebenen Stelle in die Sammlung ein.
-type: docs  
+type: docs
 weight: 350  
 url: /de/aspose.slides/shapecollection/insertoleobjectframe/
 ---  

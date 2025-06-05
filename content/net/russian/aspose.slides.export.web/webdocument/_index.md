@@ -2,7 +2,7 @@
 title: WebDocument
 second_title: Aspose.Slides для .NET API Справка  
 description: Представляет переходную форму презентации для сохранения в веб-формате.
-type: docs  
+type: docs
 weight: 4490  
 url: /ru/aspose.slides.export.web/webdocument/
 ---  

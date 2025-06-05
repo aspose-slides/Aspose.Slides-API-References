@@ -2,7 +2,7 @@
 title: ParentGroup
 second_title: Aspose.Sildes for .NET API Reference  
 description: 如果形状被分组，则返回父 GroupShape 对象。否则返回 null。只读 IGroupShapeaspose.slides/igroupshape。
-type: docs  
+type: docs
 weight: 200  
 url: /zh/aspose.slides/shape/parentgroup/
 ---  

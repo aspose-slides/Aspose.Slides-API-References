@@ -2,7 +2,7 @@
 title: SvgCoordinateUnit
 second_title: Aspose.Slides pour .NET API Référence  
 description: Représente les unités de coordonnées CSS2 utilisées pour définir les coordonnées SVG.
-type: docs  
+type: docs
 weight: 4290  
 url: /fr/aspose.slides.export/svgcoordinateunit/
 ---  

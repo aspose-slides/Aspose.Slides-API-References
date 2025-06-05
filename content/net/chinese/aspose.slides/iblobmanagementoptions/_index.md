@@ -2,7 +2,7 @@
 title: IBlobManagementOptions
 second_title: Aspose.Sildes for .NET API Reference  
 description: 二进制大型对象 BLOB 是作为单个实体存储的二进制数据 - 即 BLOB 可以是音频、视频或演示文稿本身。在处理 BLOB 时采用了多种技术来优化内存消耗 - 这些 BLOB 已经存储在演示文稿中，或可以在后续通过编程添加。使用 IBlobManagementOptions../iblobmanagementoptions 您可以更改与 BLOB 处理相关的不同行为方面，以适应 IPresentation../ipresentation 实例的生命周期。
-type: docs  
+type: docs
 weight: 5170  
 url: /zh/aspose.slides/iblobmanagementoptions/
 ---  

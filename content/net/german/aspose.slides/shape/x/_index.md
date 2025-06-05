@@ -2,7 +2,7 @@
 title: X
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt die x-Koordinate der oberen linken Ecke der Form zurück oder setzt sie. Lese-/Schreibzugriff auf Single.
-type: docs  
+type: docs
 weight: 300  
 url: /de/aspose.slides/shape/x/
 ---  

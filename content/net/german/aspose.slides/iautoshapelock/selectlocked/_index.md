@@ -2,7 +2,7 @@
 title: SelectLocked
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Bestimmt, ob das Auswählen dieser Form verboten ist. Lese-/Schreib-Boolean.
-type: docs  
+type: docs
 weight: 90  
 url: /de/aspose.slides/iautoshapelock/selectlocked/
 ---  

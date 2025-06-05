@@ -2,7 +2,7 @@
 title: GetLinesCount
 second_title: Aspose.Slides für .NET API Referenz  
 description: Anzahl der Zeilen in einem Absatz ermitteln.
-type: docs  
+type: docs
 weight: 60  
 url: /de/aspose.slides/paragraph/getlinescount/
 ---  

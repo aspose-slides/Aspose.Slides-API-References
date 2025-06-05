@@ -2,7 +2,7 @@
 title: IMathLimit
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Указывает объект Limit, состоящий из текста на базовой линии и уменьшенного текста сразу над или под ним.
-type: docs  
+type: docs
 weight: 8070  
 url: /ru/aspose.slides.mathtext/imathlimit/
 ---  

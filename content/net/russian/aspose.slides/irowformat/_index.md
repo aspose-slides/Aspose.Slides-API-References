@@ -2,7 +2,7 @@
 title: IRowFormat
 second_title: Ссылка по API Aspose.Slides для .NET  
 description: Представляет формат строки таблицы.
-type: docs  
+type: docs
 weight: 6670  
 url: /ru/aspose.slides/irowformat/
 ---  

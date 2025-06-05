@@ -2,7 +2,7 @@
 title: BubbleSizeRepresentation
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt an, wie die Blasengrößenwerte im Blasendiagramm dargestellt werden. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriendgruppe - dies ist eine Projektion der entsprechenden Gruppeeigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die Eigenschaft ParentSeriesGroup, um auf die übergeordnete Seriendgruppe zuzugreifen. Verwenden Sie die lesbare/schreibbare Eigenschaft ParentSeriesGroup.BubbleSizeRepresentation, um den Wert zu ändern.
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides.charts/ichartseries/bubblesizerepresentation/
 ---  

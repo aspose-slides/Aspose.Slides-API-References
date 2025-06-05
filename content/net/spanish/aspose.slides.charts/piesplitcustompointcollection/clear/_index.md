@@ -2,7 +2,7 @@
 title: Clear
 second_title: Aspose.Sildes para .NET API Reference  
 description: Elimina todos los elementos del ICollection.
-type: docs  
+type: docs
 weight: 70  
 url: /es/aspose.slides.charts/piesplitcustompointcollection/clear/
 ---  

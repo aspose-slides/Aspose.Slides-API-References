@@ -2,7 +2,7 @@
 title: Clear
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Elimina todas las etiquetas de la colección.
-type: docs  
+type: docs
 weight: 30  
 url: /es/aspose.slides/itagcollection/clear/
 ---  

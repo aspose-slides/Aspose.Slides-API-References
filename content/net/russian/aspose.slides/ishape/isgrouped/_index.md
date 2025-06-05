@@ -2,7 +2,7 @@
 title: IsGrouped
 second_title: Aspose.Slides для .NET API Справочник  
 description: Определяет, сгруппирована ли фигура. Только для чтения логическое значение.
-type: docs  
+type: docs
 weight: 140  
 url: /ru/aspose.slides/ishape/isgrouped/
 ---  

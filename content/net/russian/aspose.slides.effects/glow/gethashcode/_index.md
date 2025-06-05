@@ -2,7 +2,7 @@
 title: GetHashCode
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Используется в качестве функции хеширования для конкретного типа.
-type: docs  
+type: docs
 weight: 50  
 url: /ru/aspose.slides.effects/glow/gethashcode/
 ---  

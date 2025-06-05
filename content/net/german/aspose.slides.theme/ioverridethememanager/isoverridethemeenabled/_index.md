@@ -2,7 +2,7 @@
 title: IsOverrideThemeEnabled
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Bestimmt, ob OverrideTheme das geerbte effektive Design überschreibt oder nicht. Um OverrideTheme zum Überschreiben zu aktivieren, verwenden Sie die OverrideTheme.Init-Methoden. Um OverrideTheme vom Überschreiben abzuhalten, verwenden Sie die Methode OverrideTheme.Clear. Nur-Lese Boolean.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides.theme/ioverridethememanager/isoverridethemeenabled/
 ---  

@@ -2,7 +2,7 @@
 title: LogoImageBytes
 second_title: Aspose.Sildes pour .NET Référence de l'API  
 description: Image qui sera affichée comme logo dans le coin supérieur droit du visualiseur. L'image doit être une image PNG de 32x64 pixels, sinon le logo peut s'afficher de manière incorrecte.
-type: docs  
+type: docs
 weight: 50  
 url: /fr/aspose.slides.export/swfoptions/logoimagebytes/
 ---  

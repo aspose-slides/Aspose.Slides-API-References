@@ -2,7 +2,7 @@
 title: CommandString
 second_title: Aspose.Slidеs для .NET API Справка  
 description: Определяет строку команды. Чтение/запись Строка.
-type: docs  
+type: docs
 weight: 20  
 url: /ru/aspose.slides.animation/icommandeffect/commandstring/
 ---  

@@ -2,7 +2,7 @@
 title: SetSubscript
 second_title: Aspose.Slides pour la référence de l'API .NET  
 description: Crée un indice inférieur
-type: docs  
+type: docs
 weight: 140  
 url: /fr/aspose.slides.mathtext/imathelement/setsubscript/
 ---  

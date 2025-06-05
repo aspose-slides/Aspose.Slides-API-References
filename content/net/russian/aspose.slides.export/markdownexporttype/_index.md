@@ -2,7 +2,7 @@
 title: MarkdownExportType
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Тип документа рендеринга.
-type: docs  
+type: docs
 weight: 4070  
 url: /ru/aspose.slides.export/markdownexporttype/
 ---  

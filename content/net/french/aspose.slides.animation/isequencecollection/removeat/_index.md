@@ -2,7 +2,7 @@
 title: RemoveAt
 second_title: Aspose.Sildes pour .NET Référence API  
 description: Supprime la séquence à l'index spécifié.
-type: docs  
+type: docs
 weight: 70  
 url: /fr/aspose.slides.animation/isequencecollection/removeat/
 ---  

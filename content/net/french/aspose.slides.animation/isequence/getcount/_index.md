@@ -2,7 +2,7 @@
 title: GetCount
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Retourne le nombre d'effets pour la forme spécifiée.
-type: docs  
+type: docs
 weight: 70  
 url: /fr/aspose.slides.animation/isequence/getcount/
 ---  

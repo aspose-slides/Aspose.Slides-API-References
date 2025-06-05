@@ -2,7 +2,7 @@
 title: ApplicationTemplate
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt das Template einer Anwendung zurück oder setzt es. Lese-/Schreibzeichenfolge.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides/idocumentproperties/applicationtemplate/
 ---  

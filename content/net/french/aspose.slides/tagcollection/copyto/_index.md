@@ -2,7 +2,7 @@
 title: CopyTo
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Copie tous les éléments de la collection dans le tableau spécifié.
-type: docs  
+type: docs
 weight: 80  
 url: /fr/aspose.slides/tagcollection/copyto/
 ---  

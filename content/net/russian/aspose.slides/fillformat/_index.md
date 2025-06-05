@@ -2,7 +2,7 @@
 title: FillFormat
 second_title: Справочник по API Aspose.Slides для .NET  
 description: Представляет параметры оформления заливки.
-type: docs  
+type: docs
 weight: 4590  
 url: /ru/aspose.slides/fillformat/
 ---  

@@ -2,7 +2,7 @@
 title: Contains
 second_title: Aspose.Sildes para .NET Referencia de API  
 description: Determina si el ICollection contiene un valor específico.
-type: docs  
+type: docs
 weight: 60  
 url: /es/aspose.slides.animation/behaviorcollection/contains/
 ---  

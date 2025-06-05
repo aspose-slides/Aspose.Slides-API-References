@@ -2,7 +2,7 @@
 title: MarginRight
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve o establece el margen derecho en un párrafo. Lectura/escritura Simple.
-type: docs  
+type: docs
 weight: 90  
 url: /es/aspose.slides.charts/ichartparagraphformat/marginright/
 ---  

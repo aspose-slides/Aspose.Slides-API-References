@@ -2,7 +2,7 @@
 title: WriteShapeStart
 second_title: Aspose.Slides für .NET API Referenz  
 description: Wird vor dem Rendern von Formen aufgerufen. Wird einmal für jede Form aufgerufen. Wenn diese Funktion etwas an den Generator schreibt, wird die aktuelle Generierung des Bildes der Folie abgeschlossen, das hinzugefügte HTML-Fragment wird eingefügt und ein neues Bild wird über dem vorherigen gestartet.
-type: docs  
+type: docs
 weight: 70  
 url: /de/aspose.slides.export/embedallfontshtmlcontroller/writeshapestart/
 ---  

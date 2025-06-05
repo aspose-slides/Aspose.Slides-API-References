@@ -2,7 +2,7 @@
 title: CalculateFormulas
 second_title: Referencia de la API de Aspose.Slides para .NET  
 description: Calcula todas las fórmulas en el libro de trabajo y actualiza los valores de las celdas correspondientes.
-type: docs  
+type: docs
 weight: 20  
 url: /es/aspose.slides.charts/chartdataworkbook/calculateformulas/
 ---  

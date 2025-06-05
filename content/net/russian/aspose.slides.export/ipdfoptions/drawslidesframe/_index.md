@@ -2,7 +2,7 @@
 title: DrawSlidesFrame
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Истина для рисования черной рамки вокруг каждого слайда. Чтение/запись логическое.
-type: docs  
+type: docs
 weight: 70  
 url: /ru/aspose.slides.export/ipdfoptions/drawslidesframe/
 ---  

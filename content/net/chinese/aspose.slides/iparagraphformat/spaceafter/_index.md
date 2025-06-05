@@ -2,7 +2,7 @@
 title: SpaceAfter
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回或设置在没有继承的段落中最后一行之后的空白量。正值指定空白占字体大小的百分比。负值指定空白的点大小。可读/可写单精度浮点数。
-type: docs  
+type: docs
 weight: 140  
 url: /zh/aspose.slides/iparagraphformat/spaceafter/
 ---  

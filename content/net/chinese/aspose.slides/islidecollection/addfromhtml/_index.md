@@ -2,7 +2,7 @@
 title: AddFromHtml
 second_title: Aspose.Sildes for .NET API Reference  
 description: 从 HTML 文本创建幻灯片并将其添加到集合的末尾。
-type: docs  
+type: docs
 weight: 40  
 url: /zh/aspose.slides/islidecollection/addfromhtml/
 ---  

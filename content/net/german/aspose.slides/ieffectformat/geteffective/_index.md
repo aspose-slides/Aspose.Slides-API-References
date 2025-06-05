@@ -2,7 +2,7 @@
 title: GetEffective
 second_title: Aspose.Slides für .NET API Referenz  
 description: Erhält effektive Effektformatierungsdaten mit der angewendeten Vererbung.
-type: docs  
+type: docs
 weight: 260  
 url: /de/aspose.slides/ieffectformat/geteffective/
 ---  

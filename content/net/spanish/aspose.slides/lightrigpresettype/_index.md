@@ -2,7 +2,7 @@
 title: LightRigPresetType
 second_title: Aspose.Slides para .NET API Reference  
 description: Constantes que definen tipos de preajustes de luz.
-type: docs  
+type: docs
 weight: 7460  
 url: /es/aspose.slides/lightrigpresettype/
 ---  

@@ -3,7 +3,7 @@
 title: DisplayRSquaredValue
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt an, dass der R-Quadrat-Wert der Trendlinie im Diagramm im gleichen Label wie die Gleichung angezeigt wird. Lese-/schreibbares Boolesches.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides.charts/trendline/displayrsquaredvalue/
 ---  

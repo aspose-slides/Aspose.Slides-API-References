@@ -2,7 +2,7 @@
 title: IsSeriesUsesYValueCoordinate
 second_title: Aspose.Sildes pour .NET Référence de l'API  
 description: Renvoie si le type de série spécifié utilise des coordonnées de valeur Y.
-type: docs  
+type: docs
 weight: 210  
 url: /fr/aspose.slides.charts/charttypecharacterizer/isseriesusesyvaluecoordinate/
 ---  

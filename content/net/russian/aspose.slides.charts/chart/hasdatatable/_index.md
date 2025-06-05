@@ -2,7 +2,7 @@
 title: HasDataTable
 second_title: Aspose.Slides для .NET API Справочник  
 description: Определяет, имеет ли график таблицу данных. Читаемое/записываемое логическое значение.
-type: docs  
+type: docs
 weight: 100  
 url: /ru/aspose.slides.charts/chart/hasdatatable/
 ---  

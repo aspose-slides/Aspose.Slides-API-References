@@ -2,7 +2,7 @@
 title: RemoveAt
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Elimina un efecto de imagen de una colección en el índice especificado.
-type: docs  
+type: docs
 weight: 200  
 url: /es/aspose.slides.effects/iimagetransformoperationcollection/removeat/
 ---  

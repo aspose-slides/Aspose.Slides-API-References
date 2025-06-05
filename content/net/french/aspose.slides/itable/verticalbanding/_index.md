@@ -2,7 +2,7 @@
 title: VerticalBanding
 second_title: Référence API Aspose.Slides pour .NET  
 description: Détermine si les colonnes paires doivent être dessinées avec un formatage différent. Booléen en lecture/écriture.
-type: docs  
+type: docs
 weight: 140  
 url: /fr/aspose.slides/itable/verticalbanding/
 ---  

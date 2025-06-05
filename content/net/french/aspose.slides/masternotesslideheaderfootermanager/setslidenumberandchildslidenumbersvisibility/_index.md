@@ -2,7 +2,7 @@
 title: SetSlideNumberAndChildSlideNumbersVisibility
 second_title: Aspose.Slides pour .NET API Reference  
 description: Modifie la visibilité du champ de numéro de page de la diapositive maître et de tous les champs de numéro de page des diapositives filles. Les espaces réservés enfants signifient que les espaces réservés sont contenus dans les diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maître.
-type: docs  
+type: docs
 weight: 70  
 url: /fr/aspose.slides/masternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility/
 ---  

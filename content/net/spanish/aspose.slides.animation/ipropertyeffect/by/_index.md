@@ -2,7 +2,7 @@
 title: By
 second_title: Aspose.Sildes para referencia de API .NET  
 description: Especifica un valor de desplazamiento relativo para la animación con respecto a su posición antes del inicio de la animación. Lectura/escritura String.
-type: docs  
+type: docs
 weight: 20  
 url: /es/aspose.slides.animation/ipropertyeffect/by/
 ---  

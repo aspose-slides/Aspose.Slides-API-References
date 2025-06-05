@@ -2,7 +2,7 @@
 title: Angle
 second_title: Aspose.Slides für .NET API Referenz  
 description: Beschreibt den relativen Winkel des Bewegungsweges. Lese-/Schreibender Single.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides.animation/imotioneffect/angle/
 ---  

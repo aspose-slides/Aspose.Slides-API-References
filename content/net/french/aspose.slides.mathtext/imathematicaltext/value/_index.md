@@ -2,7 +2,7 @@
 title: Value
 second_title: Aspose.Slides pour .NET Référence de l'API  
 description: Valeur du texte
-type: docs  
+type: docs
 weight: 30  
 url: /fr/aspose.slides.mathtext/imathematicaltext/value/
 ---  

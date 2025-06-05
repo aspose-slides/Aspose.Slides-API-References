@@ -2,7 +2,7 @@
 title: IsObjectLink
 second_title: Aspose.Slides für .NET API Referenz  
 description: Bestimmt, ob ein Objekt mit einer externen Datei verknüpft ist. Nur-Lese Boolean.
-type: docs  
+type: docs
 weight: 60  
 url: /de/aspose.slides/oleobjectframe/isobjectlink/
 ---  

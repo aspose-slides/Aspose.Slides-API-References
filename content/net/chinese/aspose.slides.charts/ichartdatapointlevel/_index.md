@@ -2,7 +2,7 @@
 title: IChartDataPointLevel
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示数据点级别。适用于树图和旭日图。
-type: docs  
+type: docs
 weight: 1760  
 url: /zh/aspose.slides.charts/ichartdatapointlevel/
 ---  

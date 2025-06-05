@@ -2,7 +2,7 @@
 title: ArcTo
 second_title: Aspose.Slides für .NET API Referenz  
 description: Fügt den angegebenen Bogen zum Pfad hinzu.
-type: docs  
+type: docs
 weight: 50  
 url: /de/aspose.slides/geometrypath/arcto/
 ---  

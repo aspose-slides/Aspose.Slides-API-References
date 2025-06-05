@@ -2,7 +2,7 @@
 title: GetEffective
 second_title: Aspose.Sildes for .NET API Reference  
 description: 获取应用了继承的有效灰度效果数据。
-type: docs  
+type: docs
 weight: 20  
 url: /zh/aspose.slides.effects/grayscale/geteffective/
 ---  

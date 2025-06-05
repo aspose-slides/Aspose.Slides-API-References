@@ -2,7 +2,7 @@
 title: AfterAnimationType
 second_title: Aspose.Slides pour .NET API Reference  
 description: Défini un type d'animation après pour l'effet. Lecture/écriture AfterAnimationTypeaspose.slides.animation/ieffect/afteranimationtype.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides.animation/ieffect/afteranimationtype/
 ---  

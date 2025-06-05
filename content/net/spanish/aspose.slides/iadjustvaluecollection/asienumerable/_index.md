@@ -2,7 +2,7 @@
 title: AsIEnumerable
 second_title: Aspose.Sildes para .NET Referencia de API  
 description: Devuelve la interfaz IEnumerable. IEnumerable de solo lectura.
-type: docs  
+type: docs
 weight: 20  
 url: /es/aspose.slides/iadjustvaluecollection/asienumerable/
 ---  

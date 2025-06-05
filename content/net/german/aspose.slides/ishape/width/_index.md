@@ -2,7 +2,7 @@
 title: Width
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt die Breite der Form zurück oder legt sie fest. Lese-/Schreibzugriff Einzelwert.
-type: docs  
+type: docs
 weight: 260  
 url: /de/aspose.slides/ishape/width/
 ---  

@@ -2,7 +2,7 @@
 title: HasTitle
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Determina si un eje tiene un título visible. Booleano de lectura/escritura.
-type: docs  
+type: docs
 weight: 170  
 url: /es/aspose.slides.charts/iaxis/hastitle/
 ---  

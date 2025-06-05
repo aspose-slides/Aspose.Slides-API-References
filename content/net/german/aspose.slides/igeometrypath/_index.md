@@ -2,7 +2,7 @@
 title: IGeometryPath
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Repräsentiert den Geometriepfad von GeometryShape
-type: docs  
+type: docs
 weight: 5770  
 url: /de/aspose.slides/igeometrypath/
 ---  

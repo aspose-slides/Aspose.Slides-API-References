@@ -2,7 +2,7 @@
 title: AsLiteralDouble
 second_title: Aspose.Slides pour .NET Référence API  
 description: Renvoie ou définit la valeur en tant que double littéral. Lecture/écriture Double.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides.charts/doublechartvalue/asliteraldouble/
 ---  

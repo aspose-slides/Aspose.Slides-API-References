@@ -2,7 +2,7 @@
 title: NamespaceSchemas
 second_title: Aspose.Slides pour .NET Référence API  
 description: Renvoie la collection de schémas XML qui sont associés à la partie XML personnalisée. Chaîne en lecture seule.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides/customxmlpart/namespaceschemas/
 ---  

@@ -2,7 +2,7 @@
 title: AsISaveOptions
 second_title: Référentiel API Aspose.Slidess pour .NET  
 description: Renvoie l'interface ISaveOptions. ISaveOptions en lecture seule aspose.slides.export/isaveoptions.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides.export/igifoptions/asisaveoptions/
 ---  

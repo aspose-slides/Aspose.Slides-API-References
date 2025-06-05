@@ -2,7 +2,7 @@
 title: EnableInnerShadowEffect
 second_title: Aspose.Slides für .NET API Referenz  
 description: Aktiviert den inneren Schatteneffekt.
-type: docs  
+type: docs
 weight: 200  
 url: /de/aspose.slides/effectformat/enableinnershadoweffect/
 ---  

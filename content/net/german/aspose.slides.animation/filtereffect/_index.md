@@ -2,7 +2,7 @@
 title: FilterEffect
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Stellt den Filtereffekt des Verhaltens dar.
-type: docs  
+type: docs
 weight: 290  
 url: /de/aspose.slides.animation/filtereffect/
 ---  

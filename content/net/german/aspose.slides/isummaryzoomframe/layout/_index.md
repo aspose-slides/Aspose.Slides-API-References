@@ -2,7 +2,7 @@
 title: Layout
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Holt das Layout von Zusammenfassungs-Zoom-Abschnitten im Rahmen. Der Standardwert ist GridLayout.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides/isummaryzoomframe/layout/
 ---  

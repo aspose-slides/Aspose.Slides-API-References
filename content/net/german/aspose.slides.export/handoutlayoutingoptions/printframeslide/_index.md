@@ -2,7 +2,7 @@
 title: PrintFrameSlide
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Gibt an, ob Rahmen um die angezeigten Folien gezeichnet werden sollen oder nicht.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides.export/handoutlayoutingoptions/printframeslide/
 ---  

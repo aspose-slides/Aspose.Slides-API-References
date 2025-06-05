@@ -2,7 +2,7 @@
 title: Angle
 second_title: Aspose.Sildes for .NET API Reference  
 description: 描述运动路径的相对角度。可读/写 Single。
-type: docs  
+type: docs
 weight: 20  
 url: /zh/aspose.slides.animation/motioneffect/angle/
 ---  

@@ -2,7 +2,7 @@
 title: FadeDirection
 second_title: Aspose.Slides pour .NET API Référence  
 description: Spécifie la direction pour décaler la réflexion. angle. Lecture/écriture Simple.
-type: docs  
+type: docs
 weight: 60  
 url: /fr/aspose.slides.effects/reflection/fadedirection/
 ---  

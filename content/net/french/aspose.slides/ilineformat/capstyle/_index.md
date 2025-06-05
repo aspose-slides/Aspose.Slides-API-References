@@ -2,7 +2,7 @@
 title: CapStyle
 second_title: Aspose.Slides pour .NET Référence API  
 description: Renvoie ou définit le style de cap de ligne. Lecture/écriture LineCapStyle aspose.slides/linecapstyle.
-type: docs  
+type: docs
 weight: 60  
 url: /fr/aspose.slides/ilineformat/capstyle/
 ---  

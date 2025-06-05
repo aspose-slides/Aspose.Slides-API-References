@@ -2,7 +2,7 @@
 title: VerticalBarState
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Especifica el estado en el que se debe mostrar la barra separadora vertical. Una barra separadora vertical separa la diapositiva de la región de contenido lateral.
-type: docs  
+type: docs
 weight: 70  
 url: /es/aspose.slides/inormalviewproperties/verticalbarstate/
 ---  

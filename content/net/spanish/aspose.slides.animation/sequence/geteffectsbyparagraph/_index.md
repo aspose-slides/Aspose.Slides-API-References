@@ -3,7 +3,7 @@
 title: GetEffectsByParagraph
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve un array de efectos para el párrafo especificado.
-type: docs  
+type: docs
 weight: 70  
 url: /es/aspose.slides.animation/sequence/geteffectsbyparagraph/
 ---

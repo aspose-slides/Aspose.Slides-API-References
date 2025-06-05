@@ -2,7 +2,7 @@
 title: Global
 second_title: Aspose.Sildes для .NET API Reference  
 description: Возвращает глобальное хранилище документа. Только для чтения Storageaspose.slides/storage.
-type: docs  
+type: docs
 weight: 20  
 url: /ru/aspose.slides.export.web/webdocument/global/
 ---  

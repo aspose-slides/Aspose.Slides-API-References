@@ -2,7 +2,7 @@
 title: IHeadingPair
 second_title: Aspose.Sildes for .NET API Reference  
 description: 代表文档的“标题对”属性。它指示文档部分的组名称和组中的部分数量。
-type: docs  
+type: docs
 weight: 5900  
 url: /zh/aspose.slides/iheadingpair/
 ---  

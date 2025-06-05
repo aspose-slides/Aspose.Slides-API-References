@@ -2,7 +2,7 @@
 title: Position
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt die Position 0..1 eines Farbverlaufsstopps zurück oder legt sie fest. Lese-/Schreibzugriff auf Einzelwert.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides/gradientstop/position/
 ---  

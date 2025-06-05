@@ -2,7 +2,7 @@
 title: DisplayBlanksAs
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Gibt die Art und Weise zurück oder setzt sie, wie leere Zellen in einem Diagramm dargestellt werden. Lesen/Schreiben von DisplayBlanksAsTypeaspose.slides.charts/displayblanksastype.
-type: docs  
+type: docs
 weight: 80  
 url: /de/aspose.slides.charts/chart/displayblanksas/
 ---  

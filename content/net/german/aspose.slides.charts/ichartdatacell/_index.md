@@ -2,7 +2,7 @@
 title: IChartDataCell
 second_title: Aspose.Slides für .NET API Referenz  
 description: Stellt eine Zelle für Diagrammdaten dar.
-type: docs  
+type: docs
 weight: 1730  
 url: /de/aspose.slides.charts/ichartdatacell/
 ---  

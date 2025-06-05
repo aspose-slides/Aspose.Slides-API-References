@@ -2,7 +2,7 @@
 title: Insert
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Fügt eine neue Layoutfolie an der angegebenen Position der Sammlung hinzu.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides/imasterlayoutslidecollection/insert/
 ---  

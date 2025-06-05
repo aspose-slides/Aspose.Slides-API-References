@@ -2,7 +2,7 @@
 title: OrganizationChartLayout
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回或设置与当前节点关联的组织图布局类型。可读/写 OrganizationChartLayoutTypeaspose.slides/organizationchartlayouttype。
-type: docs  
+type: docs
 weight: 60  
 url: /zh/aspose.slides.smartart/smartartnode/organizationchartlayout/
 ---  

@@ -2,7 +2,7 @@
 title: Radius
 second_title: Aspose.Sildes for .NET API Reference  
 description: Radius. 只读双精度浮点数。
-type: docs  
+type: docs
 weight: 30  
 url: /zh/aspose.slides.effects/igloweffectivedata/radius/
 ---  

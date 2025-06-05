@@ -2,7 +2,7 @@
 title: ShowMeanLine
 second_title: Aspose.Slildes für .NET API Referenz  
 description: Stellt Mittelwertmarker dar. Wahr, wenn die Mittelwertlinie im BoxAndWhisker-Diagramm angezeigt wird. Gilt nur für BoxAndWhisker-Diagramme. Lese-/Schreib-Boolean.
-type: docs  
+type: docs
 weight: 390  
 url: /de/aspose.slides.charts/ichartseries/showmeanline/
 ---  

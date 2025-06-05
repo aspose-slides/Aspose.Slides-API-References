@@ -2,7 +2,7 @@
 title: MathBar
 second_title: Aspose.Sildes for .NET API Reference  
 description: 指定由基参数和上划线或下划线组成的条形函数
-type: docs  
+type: docs
 weight: 8310  
 url: /zh/aspose.slides.mathtext/mathbar/
 ---  

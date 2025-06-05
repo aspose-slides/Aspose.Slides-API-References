@@ -2,7 +2,7 @@
 title: Marker
 second_title: Aspose.Slides für .NET API Referenz  
 description: Stellt den Marker eines Diagramms dar.
-type: docs  
+type: docs
 weight: 2250  
 url: /de/aspose.slides.charts/marker/
 ---  

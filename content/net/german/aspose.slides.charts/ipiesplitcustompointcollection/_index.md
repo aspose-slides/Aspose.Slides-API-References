@@ -2,7 +2,7 @@
 title: IPieSplitCustomPointCollection
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Stellt eine Sammlung von Punkten dar, die im zweiten Tortendiagramm oder Balken auf einem Balken-von-Torte- oder Torte-von-Torte-Diagramm mit einer benutzerdefinierten Aufteilung gezeichnet werden sollen.
-type: docs  
+type: docs
 weight: 2110  
 url: /de/aspose.slides.charts/ipiesplitcustompointcollection/
 ---  

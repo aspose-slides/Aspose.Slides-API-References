@@ -2,7 +2,7 @@
 title: AfterAnimationColor
 second_title: Aspose.Sildes pour .NET API Référence  
 description: Définit une couleur après animation pour l'effet. Lecture/écriture IColorFormataspose.slides/icolorformat.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides.animation/effect/afteranimationcolor/
 ---  

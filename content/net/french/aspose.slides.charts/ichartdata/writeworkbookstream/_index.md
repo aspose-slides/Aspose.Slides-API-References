@@ -2,7 +2,7 @@
 title: WriteWorkbookStream
 second_title: Aspose.Sildes pour .NET Référence API  
 description: Initialise le classeur Excel interne avec une valeur spécifiée par l'utilisateur.
-type: docs  
+type: docs
 weight: 140  
 url: /fr/aspose.slides.charts/ichartdata/writeworkbookstream/
 ---  

@@ -2,7 +2,7 @@
 title: InterpretMaskOpAsOpacity
 second_title: Aspose.Sildes for .NET API Reference  
 description: 使用 ROP 操作或不透明度来渲染画刷。
-type: docs  
+type: docs
 weight: 20  
 url: /zh/aspose.slides.export/iinkoptions/interpretmaskopasopacity/
 ---  

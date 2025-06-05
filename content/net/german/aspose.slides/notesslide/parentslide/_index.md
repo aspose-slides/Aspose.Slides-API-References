@@ -2,7 +2,7 @@
 title: ParentSlide
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt die übergeordnete Folie zurück. Nur-Lesen ISlideaspose.slides/islide.
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides/notesslide/parentslide/
 ---  

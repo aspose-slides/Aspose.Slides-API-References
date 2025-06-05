@@ -2,7 +2,7 @@
 title: GetSummarySection
 second_title: Aspose.Slidese para .NET API Reference  
 description: Devuelve el elemento de la sección de zoom resumen para la sección dada.
-type: docs  
+type: docs
 weight: 40  
 url: /es/aspose.slides/isummaryzoomsectioncollection/getsummarysection/
 ---  

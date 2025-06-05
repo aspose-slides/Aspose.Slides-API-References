@@ -2,7 +2,7 @@
 title: GapDepth
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt den Abstand als Prozentsatz der Markierungsbreite zwischen den Datensätzen in einem 3D-Diagramm zurück oder legt ihn fest. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist die Projektion der entsprechenden Gruppeneigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die Eigenschaft ParentSeriesGroup, um auf die übergeordnete Seriengruppe zuzugreifen. Verwenden Sie die schreib-/lesbare Eigenschaft ParentSeriesGroup.GapDepth, um den Wert zu ändern. Schreibgeschützter Int32.
-type: docs  
+type: docs
 weight: 120  
 url: /de/aspose.slides.charts/chartseries/gapdepth/
 ---  

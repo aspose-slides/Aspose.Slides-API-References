@@ -2,7 +2,7 @@
 title: Name
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve o establece el nombre de una diapositiva. Lectura/escritura String.
-type: docs  
+type: docs
 weight: 60  
 url: /es/aspose.slides/ibaseslide/name/
 ---  

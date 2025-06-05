@@ -2,7 +2,7 @@
 title: AspectRatioLocked
 second_title: Aspose.Slides pour .NET Référence de l'API  
 description: Détermine si la forme doit préserver le rapport d'aspect lors du redimensionnement. Booléen en lecture/écriture.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides/groupshapelock/aspectratiolocked/
 ---  

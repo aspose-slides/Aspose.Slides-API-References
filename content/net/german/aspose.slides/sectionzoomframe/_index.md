@@ -2,7 +2,7 @@
 title: SectionZoomFrame
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Stellt ein Section Zoom-Objekt in einer Folie dar.
-type: docs  
+type: docs
 weight: 9510  
 url: /de/aspose.slides/sectionzoomframe/
 ---  

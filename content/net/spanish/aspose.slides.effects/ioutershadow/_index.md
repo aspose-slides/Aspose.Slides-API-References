@@ -2,7 +2,7 @@
 title: IOuterShadow
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Representa un efecto de Sombra Externa.
-type: docs  
+type: docs
 weight: 3340  
 url: /es/aspose.slides.effects/ioutershadow/
 ---  

@@ -2,7 +2,7 @@
 title: Remove
 second_title: Aspose.Sildes for .NET API Reference  
 description: 从 ICollection 中移除特定对象的第一个实例。
-type: docs  
+type: docs
 weight: 110  
 url: /zh/aspose.slides/portioncollection/remove/
 ---  

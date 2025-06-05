@@ -2,7 +2,7 @@
 title: NoLocks
 second_title: Aspose.Slides pour .NET API Reference  
 description: Retourne true si tous les drapeaux de verrou sont désactivés. Boolean en lecture seule.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides/baseshapelock/nolocks/
 ---  

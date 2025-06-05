@@ -2,7 +2,7 @@
 title: IsFormatNotDefined
 second_title: Aspose.Sildes for .NET API Reference  
 description: 如果线条格式未定义为刚创建的默认值，则返回true。只读布尔值。
-type: docs  
+type: docs
 weight: 120  
 url: /zh/aspose.slides/lineformat/isformatnotdefined/
 ---  

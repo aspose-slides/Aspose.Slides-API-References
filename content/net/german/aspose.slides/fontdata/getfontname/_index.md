@@ -2,7 +2,7 @@
 title: GetFontName
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt den Schriftartnamen zurück, wobei der Themenhinweis durch eine tatsächlich verwendete Schriftart ersetzt wird.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides/fontdata/getfontname/
 ---  

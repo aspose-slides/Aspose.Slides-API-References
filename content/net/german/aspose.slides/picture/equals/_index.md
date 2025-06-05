@@ -2,7 +2,7 @@
 title: Equals
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Vergleicht mit dem angegebenen Objekt.
-type: docs  
+type: docs
 weight: 70  
 url: /de/aspose.slides/picture/equals/
 ---  

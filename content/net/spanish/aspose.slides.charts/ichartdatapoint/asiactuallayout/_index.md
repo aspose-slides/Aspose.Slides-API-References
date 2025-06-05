@@ -2,7 +2,7 @@
 title: AsIActualLayout
 second_title: Aspose.Sildes for .NET API Reference  
 description: Devuelve la interfaz IActualLayout.
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides.charts/ichartdatapoint/asiactuallayout/
 ---  

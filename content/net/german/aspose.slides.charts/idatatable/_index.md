@@ -2,7 +2,7 @@
 title: IDataTable
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Stellt Eigenschaften der Datentabelle dar.
-type: docs  
+type: docs
 weight: 1980  
 url: /de/aspose.slides.charts/idatatable/
 ---  

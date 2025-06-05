@@ -2,7 +2,7 @@
 title: To
 second_title: Aspose.Slides für .NET API Referenz  
 description: Beschreibt den Endwert für die Animation. Lese-/Schreibzugriff auf Single.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides.animation/irotationeffect/to/
 ---  

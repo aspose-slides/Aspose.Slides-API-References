@@ -2,7 +2,7 @@
 title: SetColumnsAlignment
 second_title: Aspose.Sildes for .NET API Reference  
 description: Установить горизонтальное выравнивание заданных столбцов
-type: docs  
+type: docs
 weight: 200  
 url: /ru/aspose.slides.mathtext/imathmatrix/setcolumnsalignment/
 ---  

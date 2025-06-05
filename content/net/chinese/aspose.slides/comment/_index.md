@@ -2,7 +2,7 @@
 title: Comment
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示幻灯片上的评论。
-type: docs  
+type: docs
 weight: 2530  
 url: /zh/aspose.slides/comment/
 ---  

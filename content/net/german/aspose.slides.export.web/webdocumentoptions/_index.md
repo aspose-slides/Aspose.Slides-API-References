@@ -2,7 +2,7 @@
 title: WebDocumentOptions
 second_title: Aspose.Slides für .NET API Referenz  
 description: Stellt ein Optionsset für das Speichern von WebDocument dar.
-type: docs  
+type: docs
 weight: 4500  
 url: /de/aspose.slides.export.web/webdocumentoptions/
 ---  

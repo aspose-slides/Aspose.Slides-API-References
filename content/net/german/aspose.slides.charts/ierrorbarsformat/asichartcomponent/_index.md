@@ -2,7 +2,7 @@
 title: AsIChartComponent
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt das IChartComponent-Interface zurück. Nur-lesbares IChartComponent aspose.slides.charts/ichartcomponent.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides.charts/ierrorbarsformat/asichartcomponent/
 ---  

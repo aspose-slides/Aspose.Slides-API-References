@@ -2,7 +2,7 @@
 title: EffectFormat
 second_title: Référence API Aspose.Slides pour .NET  
 description: Renvoie le format d'effet effectif. Lecture seule IEffectFormatEffectiveDataaspose.slides/ieffectformateffectivedata.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides/ibackgroundeffectivedata/effectformat/
 ---  

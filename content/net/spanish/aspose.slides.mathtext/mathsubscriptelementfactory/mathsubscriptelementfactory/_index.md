@@ -2,7 +2,7 @@
 title: MathSubscriptElementFactory
 second_title: Aspose.Slides para .NET API Reference  
 description: El constructor por defecto.
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides.mathtext/mathsubscriptelementfactory/mathsubscriptelementfactory/
 ---  

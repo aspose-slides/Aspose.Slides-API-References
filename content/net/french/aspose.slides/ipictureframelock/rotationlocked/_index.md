@@ -2,7 +2,7 @@
 title: RotationLocked
 second_title: Aspose.Slides pour .NET Référence de l'API  
 description: Détermine si un changement d'angle de rotation de cette forme est interdit. Booléen en lecture/écriture.
-type: docs  
+type: docs
 weight: 90  
 url: /fr/aspose.slides/ipictureframelock/rotationlocked/
 ---  

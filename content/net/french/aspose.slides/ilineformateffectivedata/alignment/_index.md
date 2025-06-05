@@ -2,7 +2,7 @@
 title: Alignment
 second_title: Aspose.Sildes pour .NET API Reference  
 description: Renvoie l'alignement de ligne. Lecture seule LineAlignmentaspose.slides/linealignment.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides/ilineformateffectivedata/alignment/
 ---  

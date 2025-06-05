@@ -2,7 +2,7 @@
 title: IMathArrayFactory
 second_title: Aspose.Slides für .NET API Referenz  
 description: Ermöglicht die Erstellung eines mathematischen Arrays
-type: docs  
+type: docs
 weight: 7860  
 url: /de/aspose.slides.mathtext/imatharrayfactory/
 ---  

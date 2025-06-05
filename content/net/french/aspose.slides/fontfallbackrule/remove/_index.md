@@ -2,7 +2,7 @@
 title: Remove
 second_title: Aspose.Sildes pour .NET API Reference  
 description: Supprime la première occurrence d'une police FallBack spécifique de la liste.
-type: docs  
+type: docs
 weight: 90  
 url: /fr/aspose.slides/fontfallbackrule/remove/
 ---  

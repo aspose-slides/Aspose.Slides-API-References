@@ -2,7 +2,7 @@
 title: Format
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Obtiene el relleno del marcador. Solo lectura IFormataspose.slides.charts/iformat.
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides.charts/imarker/format/
 ---  

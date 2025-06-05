@@ -2,7 +2,7 @@
 title: MiterLimit
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt das Miter-Limit einer Linie zurück oder setzt es. Lese-/schreibbarer Single.
-type: docs  
+type: docs
 weight: 140  
 url: /de/aspose.slides/lineformat/miterlimit/
 ---  

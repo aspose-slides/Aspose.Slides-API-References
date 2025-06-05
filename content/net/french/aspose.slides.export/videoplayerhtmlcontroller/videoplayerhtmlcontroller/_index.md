@@ -2,7 +2,7 @@
 title: VideoPlayerHtmlController
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Crée une nouvelle instance de contrôleur
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides.export/videoplayerhtmlcontroller/videoplayerhtmlcontroller/
 ---  

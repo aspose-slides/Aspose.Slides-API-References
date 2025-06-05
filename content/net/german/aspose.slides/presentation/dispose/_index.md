@@ -2,7 +2,7 @@
 title: Dispose
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Gibt alle Ressourcen frei, die von diesem Presentation-Objekt verwendet werden.
-type: docs  
+type: docs
 weight: 300  
 url: /de/aspose.slides/presentation/dispose/
 ---  

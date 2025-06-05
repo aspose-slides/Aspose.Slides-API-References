@@ -2,7 +2,7 @@
 title: InsertColumnBefore
 second_title: Aspose.Sildes for .NET API Reference  
 description: 在指定列之前插入新列。新列中的所有元素最初都是 null。
-type: docs  
+type: docs
 weight: 170  
 url: /zh/aspose.slides.mathtext/mathmatrix/insertcolumnbefore/
 ---  

@@ -2,7 +2,7 @@
 title: ColumnGap
 second_title: Aspose.Sildes для .NET API Reference  
 description: Значение горизонтального расстояния между колонками матрицы. Если ColumnGapRule установлено на 3 "Точно", то единица измерения интерпретируется как твипы 1/20 точки. Если ColumnGapRule установлено на 4 "Множественное", то единица измерения интерпретируется как количество увеличений на 0.5 em. В других случаях игнорируется. По умолчанию 0
-type: docs  
+type: docs
 weight: 40  
 url: /ru/aspose.slides.mathtext/mathmatrix/columngap/
 ---  

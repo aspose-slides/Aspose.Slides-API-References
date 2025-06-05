@@ -2,7 +2,7 @@
 title: AsIImageTransformOperation
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Permite obtener la interfaz base IImageTransformOperation. Solo lectura IImageTransformOperationaspose.slides.effects/iimagetransformoperation.
-type: docs  
+type: docs
 weight: 20  
 url: /es/aspose.slides.effects/ialphainverse/asiimagetransformoperation/
 ---  

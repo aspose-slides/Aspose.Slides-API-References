@@ -2,7 +2,7 @@
 title: StyleColor
 second_title: Aspose.Slides для .NET API Справочник  
 description: Представляет свойство style.color
-type: docs  
+type: docs
 weight: 1050  
 url: /ru/aspose.slides.animation/behaviorproperty/stylecolor/
 ---  

@@ -2,7 +2,7 @@
 title: Effect
 second_title: Aspose.Slides para .NET API Reference  
 description: Devuelve los efectos utilizados para un eje. Solo lectura IEffectFormataspose.slides/ieffectformat.
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides.charts/iaxisformat/effect/
 ---  

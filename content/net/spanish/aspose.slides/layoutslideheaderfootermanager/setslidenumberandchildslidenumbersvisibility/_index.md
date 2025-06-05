@@ -2,7 +2,7 @@
 title: SetSlideNumberAndChildSlideNumbersVisibility
 second_title: Aspose.Slides para .NET API Reference  
 description: Cambia la visibilidad del marcador de posición del número de página de la diapositiva de diseño y de todos los marcadores de posición del número de página de las diapositivas secundarias. Los marcadores de posición secundarios son aquellos que se encuentran en las diapositivas dependientes. Las diapositivas dependientes utilizan y dependen de la diapositiva de diseño.
-type: docs  
+type: docs
 weight: 50  
 url: /es/aspose.slides/layoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility/
 ---  

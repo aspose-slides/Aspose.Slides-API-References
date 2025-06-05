@@ -2,7 +2,7 @@
 title: CompressEmbeddedFonts
 second_title: Aspose.Sildes для .NET API Reference  
 description: Сжатие презентации Presentationaspose.slides/../aspose.slides/presentation путем удаления неиспользуемых символов из встроенных шрифтов.
-type: docs  
+type: docs
 weight: 10  
 url: /ru/aspose.slides.lowcode/compress/compressembeddedfonts/
 ---  

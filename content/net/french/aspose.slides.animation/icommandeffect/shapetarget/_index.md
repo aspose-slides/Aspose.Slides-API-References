@@ -2,7 +2,7 @@
 title: ShapeTarget
 second_title: Aspose.Sildes pour .NET API Référence  
 description: Définit la cible de forme de l'effet de commande. Lecture/écriture IShapeaspose.slides/ishape.
-type: docs  
+type: docs
 weight: 30  
 url: /fr/aspose.slides.animation/icommandeffect/shapetarget/
 ---  

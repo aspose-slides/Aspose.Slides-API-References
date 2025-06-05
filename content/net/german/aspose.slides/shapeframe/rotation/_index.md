@@ -2,7 +2,7 @@
 title: Rotation
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt die Anzahl der Grad an, um die ein Rahmen um die z-Achse rotiert ist. Ein positiver Wert zeigt eine Drehung im Uhrzeigersinn an, ein negativer Wert zeigt eine Drehung gegen den Uhrzeigersinn an. Nur-lesbar Single.
-type: docs  
+type: docs
 weight: 80  
 url: /de/aspose.slides/shapeframe/rotation/
 ---  

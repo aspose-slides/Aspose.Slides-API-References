@@ -2,7 +2,7 @@
 title: AddBlurEffect
 second_title: Aspose.Sildes for .NET API Reference  
 description: Agrega el nuevo efecto de desenfoque al final de una colección.
-type: docs  
+type: docs
 weight: 110  
 url: /es/aspose.slides.effects/iimagetransformoperationcollection/addblureffect/
 ---  

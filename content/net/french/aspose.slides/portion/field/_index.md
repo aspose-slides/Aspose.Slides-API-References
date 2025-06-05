@@ -2,7 +2,7 @@
 title: Field
 second_title: Référence API Aspose.Slides pour .NET  
 description: Retourne un champ de cette portion. Lecture seule IFieldaspose.slides/ifield.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides/portion/field/
 ---  

@@ -2,7 +2,7 @@
 title: ContentType
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Retourne un type MIME d'une image encodée en BinaryDataaspose.slides/ppimage/binarydata. Chaîne en lecture seule.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides/ppimage/contenttype/
 ---  

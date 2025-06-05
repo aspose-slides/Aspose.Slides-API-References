@@ -2,7 +2,7 @@
 title: AddTemplate
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Agrega la plantilla a la colección de plantillas.
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides.export.web/itemplateengine/addtemplate/
 ---  

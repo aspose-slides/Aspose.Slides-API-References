@@ -2,7 +2,7 @@
 title: MathBlockFactory
 second_title: Aspose.Slides für .NET API Referenz  
 description: Ermöglicht das Erstellen eines Mathematikblocks
-type: docs  
+type: docs
 weight: 8340  
 url: /de/aspose.slides.mathtext/mathblockfactory/
 ---  

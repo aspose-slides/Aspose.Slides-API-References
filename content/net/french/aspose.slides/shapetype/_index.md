@@ -2,7 +2,7 @@
 title: ShapeType
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Représente la géométrie prédéfinie des formes géométriques.
-type: docs  
+type: docs
 weight: 9620  
 url: /fr/aspose.slides/shapetype/
 ---  

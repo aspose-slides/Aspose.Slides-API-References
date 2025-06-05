@@ -2,7 +2,7 @@
 title: ReadOnlyRecommended
 second_title: Aspose.Sildes for .NET API Reference  
 description: 获取或设置只读推荐。可读写的布尔值。
-type: docs  
+type: docs
 weight: 60  
 url: /zh/aspose.slides/protectionmanager/readonlyrecommended/
 ---  

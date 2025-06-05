@@ -2,7 +2,7 @@
 title: GradientFormat
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Возвращает формат заливки градиента. Только для чтения IGradientFormataspose.slides/igradientformat.
-type: docs  
+type: docs
 weight: 20  
 url: /ru/aspose.slides/fillformat/gradientformat/
 ---  

@@ -2,7 +2,7 @@
 title: IColorScheme
 second_title: Aspose.Sildes для .NET API Reference  
 description: Хранит цвета, определенные темой.
-type: docs  
+type: docs
 weight: 10840  
 url: /ru/aspose.slides.theme/icolorscheme/
 ---  

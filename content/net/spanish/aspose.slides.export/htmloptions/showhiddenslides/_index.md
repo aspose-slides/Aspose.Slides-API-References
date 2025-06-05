@@ -2,7 +2,7 @@
 title: ShowHiddenSlides
 second_title: Aspose.Sildes para referencia de API .NET  
 description: Especifica si el documento generado debe incluir diapositivas ocultas o no. El valor predeterminado es falso.
-type: docs  
+type: docs
 weight: 80  
 url: /es/aspose.slides.export/htmloptions/showhiddenslides/
 ---  

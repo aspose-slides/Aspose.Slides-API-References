@@ -2,7 +2,7 @@
 title: LayoutPlaceholderManager
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Stellt einen Manager dar, der es Ihnen ermöglicht, Platzhalter zur Layoutfolie hinzuzufügen.
-type: docs  
+type: docs
 weight: 7390  
 url: /de/aspose.slides/layoutplaceholdermanager/
 ---  

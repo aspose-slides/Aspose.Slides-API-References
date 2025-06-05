@@ -2,7 +2,7 @@
 title: ActualY
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Указывает фактическое значение верхней части элемента диаграммы относительно верхнего левого угла диаграммы. Вызовите метод IChart.ValidateChartLayout перед получением фактических значений. Читайте Single.
-type: docs  
+type: docs
 weight: 50  
 url: /ru/aspose.slides.charts/datalabel/actualy/
 ---  

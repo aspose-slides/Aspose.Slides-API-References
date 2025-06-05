@@ -2,7 +2,7 @@
 title: BevelBottom
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt den Typ eines unteren 3D-Facettenschliffs zurück oder legt ihn fest. Nur-Lese IShapeBevelaspose.slides/ishapebevel.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides/threedformat/bevelbottom/
 ---  

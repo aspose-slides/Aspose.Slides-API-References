@@ -2,7 +2,7 @@
 title: IChartTextBlockFormat
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Stellt Formatierungs Eigenschaften für Diagrammtext-Elemente dar.
-type: docs  
+type: docs
 weight: 1900  
 url: /de/aspose.slides.charts/icharttextblockformat/
 ---  

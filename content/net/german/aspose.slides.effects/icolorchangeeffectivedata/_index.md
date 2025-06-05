@@ -2,7 +2,7 @@
 title: IColorChangeEffectiveData
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Unveränderliches Objekt, das einen Farbeffekt darstellt. Instanzen von FromColor werden durch Instanzen von ToColor ersetzt.
-type: docs  
+type: docs
 weight: 3110  
 url: /de/aspose.slides.effects/icolorchangeeffectivedata/
 ---  

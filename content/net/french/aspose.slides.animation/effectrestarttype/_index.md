@@ -2,7 +2,7 @@
 title: EffectRestartType
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Représente les types de redémarrage pour le timing.
-type: docs  
+type: docs
 weight: 250  
 url: /fr/aspose.slides.animation/effectrestarttype/
 ---  

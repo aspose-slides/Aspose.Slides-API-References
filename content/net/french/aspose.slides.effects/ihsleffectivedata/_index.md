@@ -2,7 +2,7 @@
 title: IHSLEffectiveData
 second_title: Référence API Aspose.Slides pour .NET  
 description: Représente un effet de teinte/saturation/luminance. La teinte, la saturation et la luminance peuvent chacune être ajustées par rapport à leur valeur actuelle.
-type: docs  
+type: docs
 weight: 3250  
 url: /fr/aspose.slides.effects/ihsleffectivedata/
 ---  

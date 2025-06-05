@@ -3,7 +3,7 @@
 title: Height
 second_title: Aspose.Slides для .NET API Reference  
 description: Указывает высоту элемента диаграммы как дробь от высоты диаграммы. Чтение/запись Single.
-type: docs  
+type: docs
 weight: 30  
 url: /ru/aspose.slides.charts/ilayoutable/height/
 ---  

@@ -2,7 +2,7 @@
 title: Certificate
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Zertifikatobjekt, das verwendet wurde, um das Dokument zu signieren. Nur-lesbares X509Certificate2.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides/digitalsignature/certificate/
 ---  

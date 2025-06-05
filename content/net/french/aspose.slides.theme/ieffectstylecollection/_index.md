@@ -2,7 +2,7 @@
 title: IEffectStyleCollection
 second_title: Aspose.Slides pour .NET Référence de l'API  
 description: Représente une collection de styles d'effet.
-type: docs  
+type: docs
 weight: 10870  
 url: /fr/aspose.slides.theme/ieffectstylecollection/
 ---  

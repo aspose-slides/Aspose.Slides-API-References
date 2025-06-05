@@ -2,7 +2,7 @@
 title: TextFrame
 second_title: Referencia de la API de Aspose.Slides para .NET  
 description: Devuelve el marco de texto del nodo. Solo lectura ITextFrameaspose.slides/itextframe.
-type: docs  
+type: docs
 weight: 90  
 url: /es/aspose.slides.smartart/smartartnode/textframe/
 ---  

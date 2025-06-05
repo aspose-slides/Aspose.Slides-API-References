@@ -2,7 +2,7 @@
 title: FontScheme
 second_title: Referencia de la API de Aspose.Slides para .NET  
 description: Devuelve el esquema de fuente. Solo lectura IFontSchemeEffectiveDataaspose.slides.theme/ifontschemeeffectivedata.
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides.theme/ithemeeffectivedata/fontscheme/
 ---  

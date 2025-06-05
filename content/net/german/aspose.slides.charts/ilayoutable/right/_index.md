@@ -2,7 +2,7 @@
 title: Right
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt die rechte Seite des Diagrammelements als einen Bruchteil der Breite des Diagramms zurück. Nur-Lesen Single.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides.charts/ilayoutable/right/
 ---  

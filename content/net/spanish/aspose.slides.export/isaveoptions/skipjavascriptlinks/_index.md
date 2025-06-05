@@ -2,7 +2,7 @@
 title: SkipJavaScriptLinks
 second_title: Referencia de la API Aspose.Slides para .NET  
 description: Especifica si se deben omitir hipervínculos con llamadas a JavaScript al guardar la presentación. Booleano de lectura/escritura. El valor predeterminado es false.
-type: docs  
+type: docs
 weight: 40  
 url: /es/aspose.slides.export/isaveoptions/skipjavascriptlinks/
 ---  

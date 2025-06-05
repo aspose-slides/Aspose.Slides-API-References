@@ -2,7 +2,7 @@
 title: GetResourcePath
 second_title: Aspose.Sildes para .NET Referencia de API  
 description: Devuelve la ruta para un recurso dado.
-type: docs  
+type: docs
 weight: 30  
 url: /es/aspose.slides.export.web/output/getresourcepath/
 ---  

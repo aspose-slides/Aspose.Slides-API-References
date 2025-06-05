@@ -2,7 +2,7 @@
 title: AddSection
 second_title: Aspose.Slides para .NET Referencia de la API  
 description: Agregar sección de diapositivas comenzando desde una diapositiva específica.
-type: docs  
+type: docs
 weight: 60  
 url: /es/aspose.slides/sectioncollection/addsection/
 ---  

@@ -2,7 +2,7 @@
 title: NormaliseHeight
 second_title: Aspose.Slides para .NET API Reference  
 description: Determina si la altura de un texto debe ser normalizada. Booleano de solo lectura.
-type: docs  
+type: docs
 weight: 190  
 url: /es/aspose.slides/ibaseportionformateffectivedata/normaliseheight/
 ---  

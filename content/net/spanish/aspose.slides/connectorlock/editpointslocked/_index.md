@@ -2,7 +2,7 @@
 title: EditPointsLocked
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Determina si se prohíbe un cambio directo del contorno de esta forma. Booleano de lectura/escritura.
-type: docs  
+type: docs
 weight: 40  
 url: /es/aspose.slides/connectorlock/editpointslocked/
 ---  

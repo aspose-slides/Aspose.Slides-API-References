@@ -2,7 +2,7 @@
 title: Item
 second_title: Aspose.Slides pour .NET Référence de l'API  
 description: Renvoie une cellule par sa position. Lecture seule ICell aspose.slides/icell.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides/icellcollection/item/
 ---  

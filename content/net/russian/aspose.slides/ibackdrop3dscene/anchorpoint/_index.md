@@ -2,7 +2,7 @@
 title: AnchorPoint
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Возвращает или задает точку в 3D пространстве. Эта точка является точкой в пространстве, которая закрепляет плоскость заднего фона. 3D точка представлена массивом из 3 значений типа float, которые определяют координаты X, Y и Z. Чтение/запись Single.
-type: docs  
+type: docs
 weight: 10  
 url: /ru/aspose.slides/ibackdrop3dscene/anchorpoint/
 ---  

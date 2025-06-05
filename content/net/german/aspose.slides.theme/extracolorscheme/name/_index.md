@@ -2,7 +2,7 @@
 title: Name
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Gibt den Namen dieses Schemas zurück. Nur lesbarer String.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides.theme/extracolorscheme/name/
 ---  

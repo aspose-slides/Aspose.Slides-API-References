@@ -2,7 +2,7 @@
 title: CreateHSL
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Erstellt den Hue Saturation Luminance Effekt.
-type: docs  
+type: docs
 weight: 160  
 url: /de/aspose.slides.effects/imagetransformoperationfactory/createhsl/
 ---  

@@ -2,7 +2,7 @@
 title: InitFormatSchemeFromInherited
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Init FormatScheme mit neuem Objekt zum Überschreiben des FormatScheme von InheritedTheme. Und initialisiere die Daten dieses neuen Objekts mit den Daten des FormatScheme von InheritedTheme.
-type: docs  
+type: docs
 weight: 120  
 url: /de/aspose.slides.theme/ioverridetheme/initformatschemefrominherited/
 ---  

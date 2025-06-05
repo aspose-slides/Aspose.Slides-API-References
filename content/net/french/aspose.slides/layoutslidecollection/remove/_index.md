@@ -2,7 +2,7 @@
 title: Remove
 second_title: Aspose.Sildes pour .NET API Référence  
 description: Supprime une diapositive de la collection.
-type: docs  
+type: docs
 weight: 80  
 url: /fr/aspose.slides/layoutslidecollection/remove/
 ---  

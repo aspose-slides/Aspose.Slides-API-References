@@ -2,7 +2,7 @@
 title: IPatternFormatEffectiveData
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Unveränderliches Objekt, das effektive Eigenschaften für die Musterfüllung enthält.
-type: docs  
+type: docs
 weight: 6430  
 url: /de/aspose.slides/ipatternformateffectivedata/
 ---  

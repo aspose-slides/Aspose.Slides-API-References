@@ -2,7 +2,7 @@
 title: StreamWrapperFactory
 second_title: Référence API Aspose.Slides pour .NET  
 description: Usine de StreamWrappers. Pour l'interface COM.
-type: docs  
+type: docs
 weight: 10450  
 url: /fr/aspose.slides/streamwrapperfactory/
 ---  

@@ -2,7 +2,7 @@
 title: SetRotation
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Eine Rotation wird durch die Verwendung einer Breitengradkoordinate, einer Längengradkoordinate und einer Umdrehung um die Achse definiert, die den Breitengrad- und Längengradkoordinaten entspricht.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides/ilightrig/setrotation/
 ---  

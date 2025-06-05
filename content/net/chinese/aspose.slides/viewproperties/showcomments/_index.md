@@ -2,7 +2,7 @@
 title: ShowComments
 second_title: Aspose.Sildes for .NET API Reference  
 description: 指定幻灯片注释是否应显示。可读/可写 NullableBoolaspose.slides/nullablebool。
-type: docs  
+type: docs
 weight: 50  
 url: /zh/aspose.slides/viewproperties/showcomments/
 ---  

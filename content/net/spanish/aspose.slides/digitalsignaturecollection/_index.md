@@ -2,7 +2,7 @@
 title: DigitalSignatureCollection
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Representa una colección de firmas digitales anexadas a un documento.
-type: docs  
+type: docs
 weight: 2690  
 url: /es/aspose.slides/digitalsignaturecollection/
 ---  

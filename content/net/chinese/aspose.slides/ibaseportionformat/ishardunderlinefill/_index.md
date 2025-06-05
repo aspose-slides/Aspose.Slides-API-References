@@ -2,7 +2,7 @@
 title: IsHardUnderlineFill
 second_title: Aspose.Sildes for .NET API Reference  
 description: 确定下划线样式是否具有自己的 FillFormat 属性或从文本的 FillFormat 属性继承。可读可写 NullableBoolaspose.slides/nullablebool。
-type: docs  
+type: docs
 weight: 120  
 url: /zh/aspose.slides/ibaseportionformat/ishardunderlinefill/
 ---  

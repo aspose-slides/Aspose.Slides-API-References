@@ -2,7 +2,7 @@
 title: Remove
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Entfernt das erste Vorkommen eines bestimmten Objekts aus der ICollection.
-type: docs  
+type: docs
 weight: 260  
 url: /de/aspose.slides.effects/imagetransformoperationcollection/remove/
 ---  

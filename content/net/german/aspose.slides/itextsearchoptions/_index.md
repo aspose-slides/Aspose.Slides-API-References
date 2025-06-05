@@ -2,7 +2,7 @@
 title: ITextSearchOptions
 second_title: Aspose.Slides für .NET API Referenz  
 description: Stellt Optionen dar, die zum Suchen von Text in einer Präsentationsfolie oder TextFrame verwendet werden können.
-type: docs  
+type: docs
 weight: 7080  
 url: /de/aspose.slides/itextsearchoptions/
 ---  

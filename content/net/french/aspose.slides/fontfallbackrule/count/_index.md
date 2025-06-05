@@ -2,7 +2,7 @@
 title: Count
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Obtient le nombre de polices effectivement définies pour la plage. Lecture seule Int32.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides/fontfallbackrule/count/
 ---  

@@ -2,7 +2,7 @@
 title: AdvanceOnClick
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt an, ob ein Mausklick die Folie voranbringt oder nicht. Wenn dieses Attribut nicht angegeben ist, wird ein Wert von true angenommen. Schreib- und lesbares Boolesches.
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides/islideshowtransition/advanceonclick/
 ---  

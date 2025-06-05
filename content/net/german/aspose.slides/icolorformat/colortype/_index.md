@@ -2,7 +2,7 @@
 title: ColorType
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt die Methode zur Farbbestimmung zurück oder legt sie fest. Schreib-/Lese ColorType aspose.slides/colortype.
-type: docs  
+type: docs
 weight: 50  
 url: /de/aspose.slides/icolorformat/colortype/
 ---  

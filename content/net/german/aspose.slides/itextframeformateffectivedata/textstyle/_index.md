@@ -2,7 +2,7 @@
 title: TextStyle
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt den effektiven Textstil zurück. Nur-Lese ITextStyleEffectiveDataaspose.slides/itextstyleeffectivedata.
-type: docs  
+type: docs
 weight: 100  
 url: /de/aspose.slides/itextframeformateffectivedata/textstyle/
 ---  

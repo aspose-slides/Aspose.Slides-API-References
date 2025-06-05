@@ -2,7 +2,7 @@
 title: RepeatCount
 second_title: Référence API Aspose.Slides pour .NET  
 description: Décrit le nombre de fois que l'effet doit se répéter. Lecture/écriture de type Single.
-type: docs  
+type: docs
 weight: 50  
 url: /fr/aspose.slides.animation/timing/repeatcount/
 ---  

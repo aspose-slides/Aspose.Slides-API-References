@@ -2,7 +2,7 @@
 title: CreateThemeEffective
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Gibt das Themenobjekt zurück.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides.theme/ithememanager/createthemeeffective/
 ---  

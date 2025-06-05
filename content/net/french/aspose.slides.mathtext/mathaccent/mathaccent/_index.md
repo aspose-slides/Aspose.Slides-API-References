@@ -2,7 +2,7 @@
 title: MathAccent
 second_title: Aspose.Sildes pour .NET API Reference  
 description: Crée un accent mathématique appliqué à un élément mathématique spécifié avec la valeur par défaut du caractère d'accent
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides.mathtext/mathaccent/mathaccent/
 ---  

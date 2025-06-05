@@ -2,7 +2,7 @@
 title: ColorTransformOperation
 second_title: Aspose.Slides pour .NET Référence de l'API  
 description: Définit l'opération de transformation des couleurs.
-type: docs  
+type: docs
 weight: 2480  
 url: /fr/aspose.slides/colortransformoperation/
 ---  

@@ -2,7 +2,7 @@
 title: Height
 second_title: Aspose.Sildes pour .NET API Reference  
 description: Hauteur de biseau. Lecture/écriture Double.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides/ishapebevel/height/
 ---  

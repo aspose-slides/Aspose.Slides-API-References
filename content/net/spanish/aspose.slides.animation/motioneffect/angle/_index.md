@@ -2,7 +2,7 @@
 title: Angle
 second_title: Aspose.Sildes for .NET API Reference  
 description: Describe el ángulo relativo de la trayectoria de movimiento. Lectura/escritura Single.
-type: docs  
+type: docs
 weight: 20  
 url: /es/aspose.slides.animation/motioneffect/angle/
 ---  

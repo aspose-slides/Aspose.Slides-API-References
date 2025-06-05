@@ -2,7 +2,7 @@
 title: Timing
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Stellt Timing-Eigenschaften für das Effektverhalten dar. Lese-/Schreibe ITimingaspose.slides/itiming.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides.animation/ibehavior/timing/
 ---  

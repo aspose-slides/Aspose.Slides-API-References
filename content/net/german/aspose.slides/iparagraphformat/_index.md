@@ -2,7 +2,7 @@
 title: IParagraphFormat
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Diese Klasse enthält die Eigenschaften der Absatzformatierung. Im Gegensatz zu IParagraphFormatEffectiveData../iparagraphformateffectivedata sind alle Eigenschaften dieser Klasse beschreibbar.
-type: docs  
+type: docs
 weight: 6390  
 url: /de/aspose.slides/iparagraphformat/
 ---  

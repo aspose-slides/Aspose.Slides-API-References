@@ -2,7 +2,7 @@
 title: Position
 second_title: Aspose.Slides for .NET API Reference  
 description: 返回标签的位置。分配此属性可以更改集合中标签的索引并使枚举器失效。只读 Double。
-type: docs  
+type: docs
 weight: 30  
 url: /zh/aspose.slides/itabeffectivedata/position/
 ---  

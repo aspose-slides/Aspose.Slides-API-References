@@ -2,7 +2,7 @@
 title: ContainsKey
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Bestimmt, ob der Speicher ein Element mit dem angegebenen Schlüssel enthält.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides.export.web/storage/containskey/
 ---  

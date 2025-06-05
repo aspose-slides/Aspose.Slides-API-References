@@ -2,7 +2,7 @@
 title: SetExternalWorkbook
 second_title: Aspose.Slides für .NET API Referenz  
 description: Legt die externe Arbeitsmappe als Datenquelle für das Diagramm fest. Die Diagrammdaten werden aus der Zielarbeitsmappe aktualisiert.
-type: docs  
+type: docs
 weight: 110  
 url: /de/aspose.slides.charts/ichartdata/setexternalworkbook/
 ---  

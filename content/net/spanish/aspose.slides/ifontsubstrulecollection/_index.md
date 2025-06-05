@@ -2,7 +2,7 @@
 title: IFontSubstRuleCollection
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Representa una colección de sustitución de fuentes.
-type: docs  
+type: docs
 weight: 5690  
 url: /es/aspose.slides/ifontsubstrulecollection/
 ---  

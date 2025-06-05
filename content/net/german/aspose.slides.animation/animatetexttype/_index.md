@@ -2,7 +2,7 @@
 title: AnimateTextType
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Stellt den animierten Texttyp eines Animationseffekts dar.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides.animation/animatetexttype/
 ---  

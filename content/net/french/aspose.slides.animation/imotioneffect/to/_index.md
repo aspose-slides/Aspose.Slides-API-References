@@ -2,7 +2,7 @@
 title: To
 second_title: Aspose.Sildes pour .NET Référence API  
 description: Spécifie l'emplacement cible pour un effet de mouvement d'animation en pourcentages. Lecture/écriture PointF.
-type: docs  
+type: docs
 weight: 90  
 url: /fr/aspose.slides.animation/imotioneffect/to/
 ---  

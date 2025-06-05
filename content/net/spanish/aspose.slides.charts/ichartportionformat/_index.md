@@ -2,7 +2,7 @@
 title: IChartPortionFormat
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Representa las propiedades de formato de porción de gráfico utilizadas en gráficos.
-type: docs  
+type: docs
 weight: 1840  
 url: /es/aspose.slides.charts/ichartportionformat/
 ---  

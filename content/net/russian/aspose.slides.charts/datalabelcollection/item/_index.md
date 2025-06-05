@@ -2,7 +2,7 @@
 title: Item
 second_title: Aspose.Slides для .NET API Справочник  
 description: Получает метку данных для точки данных с указанным индексом.
-type: docs  
+type: docs
 weight: 60  
 url: /ru/aspose.slides.charts/datalabelcollection/item/
 ---  

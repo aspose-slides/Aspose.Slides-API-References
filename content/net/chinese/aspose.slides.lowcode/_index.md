@@ -2,7 +2,7 @@
 title: Aspose.Slides.LowCode
 second_title: Aspose.Sildes for .NET API Reference  
 description: 包含处理复杂通用操作的类和方法，以低代码的方式实现。
-type: docs  
+type: docs
 weight: 110  
 url: /zh/aspose.slides.lowcode/
 ---  

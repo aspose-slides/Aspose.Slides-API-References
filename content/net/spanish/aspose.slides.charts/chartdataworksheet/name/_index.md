@@ -2,7 +2,7 @@
 title: Name
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve el nombre de la hoja de trabajo. Solo lectura de tipo String.
-type: docs  
+type: docs
 weight: 20  
 url: /es/aspose.slides.charts/chartdataworksheet/name/
 ---  

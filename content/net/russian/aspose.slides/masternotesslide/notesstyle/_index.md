@@ -2,7 +2,7 @@
 title: NotesStyle
 second_title: Aspose.Slildes для .NET API Reference  
 description: Возвращает стиль текста заметок. Только для чтения ITextStyleaspose.slides/itextstyle.
-type: docs  
+type: docs
 weight: 20  
 url: /ru/aspose.slides/masternotesslide/notesstyle/
 ---  

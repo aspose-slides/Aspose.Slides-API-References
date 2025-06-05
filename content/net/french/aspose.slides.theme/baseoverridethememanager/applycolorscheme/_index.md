@@ -2,7 +2,7 @@
 title: ApplyColorScheme
 second_title: Aspose.Sildes pour la référence API .NET  
 description: Applique un schéma de couleurs supplémentaire à une diapositive.
-type: docs  
+type: docs
 weight: 30  
 url: /fr/aspose.slides.theme/baseoverridethememanager/applycolorscheme/
 ---  

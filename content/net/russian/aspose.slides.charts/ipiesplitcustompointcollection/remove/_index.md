@@ -2,7 +2,7 @@
 title: Remove
 second_title: Aspose.Slides для .NET API Справочник  
 description: Удаляет элемент из коллекции по его индексу в родительской коллекции точек серии.
-type: docs  
+type: docs
 weight: 40  
 url: /ru/aspose.slides.charts/ipiesplitcustompointcollection/remove/
 ---  

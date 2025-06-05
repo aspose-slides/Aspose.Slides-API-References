@@ -2,7 +2,7 @@
 title: OleEmbeddedDataInfo
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示OLE对象的嵌入数据信息。
-type: docs  
+type: docs
 weight: 2670  
 url: /zh/aspose.slides.dom.ole/oleembeddeddatainfo/
 ---  

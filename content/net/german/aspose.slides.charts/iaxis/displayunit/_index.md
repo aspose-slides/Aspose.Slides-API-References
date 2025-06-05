@@ -2,7 +2,7 @@
 title: DisplayUnit
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt den Skalierungswert der Anzeigeeinheiten für die Wertachse an. Lese-/Schreibzugriff auf DisplayUnitTypeaspose.slides.charts/displayunittype.
-type: docs  
+type: docs
 weight: 150  
 url: /de/aspose.slides.charts/iaxis/displayunit/
 ---  

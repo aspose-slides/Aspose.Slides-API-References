@@ -2,7 +2,7 @@
 title: Size
 second_title: Aspose.Sildes for .NET API Reference  
 description: 获取图像的大小。
-type: docs  
+type: docs
 weight: 20  
 url: /zh/aspose.slides/iimage/size/
 ---  

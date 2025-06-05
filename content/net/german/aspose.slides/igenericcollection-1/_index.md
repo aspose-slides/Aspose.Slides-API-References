@@ -2,7 +2,7 @@
 title: IGenericCollectionT
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Hilfs-Generic-Collections-Schnittstelle.
-type: docs  
+type: docs
 weight: 5760  
 url: /de/aspose.slides/igenericcollection-1/
 ---  

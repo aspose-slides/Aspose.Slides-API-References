@@ -2,7 +2,7 @@
 title: AsICollection
 second_title: Aspose.Sildes para .NET API Reference  
 description: Permite obtener la interfaz base ICollection. ICollection de solo lectura.
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides/iadjustvaluecollection/asicollection/
 ---  

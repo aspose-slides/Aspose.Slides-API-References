@@ -2,7 +2,7 @@
 title: WholeWordsOnly
 second_title: Aspose.Sildes для .NET API Reference  
 description: Установите true, чтобы соответствовать только целым словам, false - в противном случае. Чтение/запись булевый.
-type: docs  
+type: docs
 weight: 20  
 url: /ru/aspose.slides/itextsearchoptions/wholewordsonly/
 ---  

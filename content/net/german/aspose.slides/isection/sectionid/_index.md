@@ -2,7 +2,7 @@
 title: SectionId
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Abschnitts-ID.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides/isection/sectionid/
 ---  

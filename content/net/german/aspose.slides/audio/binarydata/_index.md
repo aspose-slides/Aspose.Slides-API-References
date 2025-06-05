@@ -2,7 +2,7 @@
 title: BinaryData
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt eine Kopie der Audiodaten zurück. Bei großen Datenmengen sollte die Verwendung der Methode GetStream in Betracht gezogen werden, um das unnötige Laden der Audiodaten in den Speicher oder sogar einen OutOfMemoryException zu vermeiden. Nur-Lesen Byte.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides/audio/binarydata/
 ---  

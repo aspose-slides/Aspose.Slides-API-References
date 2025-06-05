@@ -2,7 +2,7 @@
 title: AsICollection
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve la interfaz ICollection.
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides/igenericcollection-1/asicollection/
 ---  

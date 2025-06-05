@@ -2,7 +2,7 @@
 title: ConvertToGroupShape
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Преобразует устаревший диаграмму в редактируемую группировку. Созданный объект GroupShape добавляется в родительскую группировку на том же месте.
-type: docs  
+type: docs
 weight: 20  
 url: /ru/aspose.slides/legacydiagram/converttogroupshape/
 ---  

@@ -2,7 +2,7 @@
 title: DestFont
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Schriftart, die für die Substitution verwendet werden soll. Nur lesen IFontDataaspose.slides/ifontdata.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides/ifontsubstrule/destfont/
 ---  

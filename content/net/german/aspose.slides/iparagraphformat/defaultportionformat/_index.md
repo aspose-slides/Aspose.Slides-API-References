@@ -2,7 +2,7 @@
 title: DefaultPortionFormat
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt das Standard-Portionsformat eines Absatzes zurück. Keine Vererbung angewendet. Schreibgeschütztes IPortionFormataspose.slides/iportionformat.
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides/iparagraphformat/defaultportionformat/
 ---  

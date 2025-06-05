@@ -2,7 +2,7 @@
 title: Paragraph
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Stellt einen Absatz von Text dar.
-type: docs  
+type: docs
 weight: 9010  
 url: /de/aspose.slides/paragraph/
 ---  

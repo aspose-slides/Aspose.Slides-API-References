@@ -2,7 +2,7 @@
 title: ActualY
 second_title: Aspose.Sildes for .NET API Reference  
 description: 指定图表元素相对于图表左上角的实际顶部。在获取实际值之前，请调用方法 IChart.ValidateChartLayout。读取单个值。
-type: docs  
+type: docs
 weight: 40  
 url: /zh/aspose.slides.charts/iactuallayout/actualy/
 ---  

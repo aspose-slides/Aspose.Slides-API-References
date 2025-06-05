@@ -2,7 +2,7 @@
 title: CommentAuthor
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Stellt einen Autor von Kommentaren dar.
-type: docs  
+type: docs
 weight: 2540  
 url: /de/aspose.slides/commentauthor/
 ---  

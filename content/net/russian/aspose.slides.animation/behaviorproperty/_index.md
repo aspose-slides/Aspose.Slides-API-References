@@ -2,7 +2,7 @@
 title: BehaviorProperty
 second_title: Aspose.Slides для .NET API Reference  
 description: Представляет типы свойств для анимационного поведения. Следует списку свойств из https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx и https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx
-type: docs  
+type: docs
 weight: 110  
 url: /ru/aspose.slides.animation/behaviorproperty/
 ---  

@@ -2,7 +2,7 @@
 title: RemoveAt
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Entfernt das Element am angegebenen Index der Sammlung.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides/itabcollection/removeat/
 ---  

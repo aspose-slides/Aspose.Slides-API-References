@@ -2,7 +2,7 @@
 title: Position
 second_title: Aspose.Sildes pour .NET Référence API  
 description: Position du caractère de regroupement. Par défaut Bas
-type: docs  
+type: docs
 weight: 40  
 url: /fr/aspose.slides.mathtext/imathgroupingcharacter/position/
 ---  

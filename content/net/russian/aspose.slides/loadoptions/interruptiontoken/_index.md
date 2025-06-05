@@ -2,7 +2,7 @@
 title: InterruptionToken
 second_title: Aspose.Slides для .NET API Reference  
 description: Токен для мониторинга запросов на прерывание. Этот токен управляет всей жизнедеятельностью экземпляра IPresentationaspose.slides/ipresentation. Любая длительная операция, такая как загрузка или сохранение презентации, будет прервана через вызов метода Interruptaspose.slides/interruptiontokensource/interrupt источника InterruptionTokenSourceaspose.slides/interruptiontokensource.
-type: docs  
+type: docs
 weight: 90  
 url: /ru/aspose.slides/loadoptions/interruptiontoken/
 ---  

@@ -2,7 +2,7 @@
 title: Save
 second_title: Aspose.Sildes pour .NET API Reference  
 description: Enregistre le fichier de sortie à l'emplacement donné.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides.export.web/ioutputsaver/save/
 ---  

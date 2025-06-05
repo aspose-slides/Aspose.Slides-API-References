@@ -2,7 +2,7 @@
 title: AlternativeText
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Gibt den alternativen Text zurück oder legt ihn fest, der mit einer Form verknüpft ist. Lese-/Schreib-String.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides/shape/alternativetext/
 ---  

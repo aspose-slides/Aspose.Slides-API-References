@@ -2,7 +2,7 @@
 title: Slide
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt die übergeordnete Folie einer CellCollection zurück. Nur-Lese-IBaseSlideaspose.slides/ibaseslide.
-type: docs  
+type: docs
 weight: 50  
 url: /de/aspose.slides/cellcollection/slide/
 ---  

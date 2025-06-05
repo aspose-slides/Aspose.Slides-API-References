@@ -2,7 +2,7 @@
 title: ShowMediaControls
 second_title: Aspose.Slides für .NET API Referenz  
 description: Mediensteuerungen anzeigen
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides/slideshowsettings/showmediacontrols/
 ---  

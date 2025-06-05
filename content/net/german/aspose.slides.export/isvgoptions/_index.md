@@ -2,7 +2,7 @@
 title: ISVGOptions
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Stellt SVG-Optionen dar.
-type: docs  
+type: docs
 weight: 3890  
 url: /de/aspose.slides.export/isvgoptions/
 ---  

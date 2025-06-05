@@ -2,7 +2,7 @@
 title: MinorGridLinesFormat
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示图表轴上的次要网格线格式。只读 IChartLinesFormat aspose.slides.charts/ichartlinesformat.
-type: docs  
+type: docs
 weight: 390  
 url: /zh/aspose.slides.charts/iaxis/minorgridlinesformat/
 ---  

@@ -2,7 +2,7 @@
 title: IndexOf
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Возвращает индекс указанного раздела в коллекции.
-type: docs  
+type: docs
 weight: 60  
 url: /ru/aspose.slides/isectioncollection/indexof/
 ---  

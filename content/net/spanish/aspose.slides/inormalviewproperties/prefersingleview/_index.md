@@ -2,7 +2,7 @@
 title: PreferSingleView
 second_title: Aspose.Sildes for .NET API Reference  
 description: Especifica si el usuario prefiere ver una región de contenido única en ventana completa sobre la vista normal estándar con tres regiones de contenido. Si está habilitado, la aplicación puede optar por mostrar una de las regiones de contenido en toda la ventana. Booleano de lectura/escritura.
-type: docs  
+type: docs
 weight: 20  
 url: /es/aspose.slides/inormalviewproperties/prefersingleview/
 ---  

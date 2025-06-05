@@ -2,7 +2,7 @@
 title: Subtype
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示滤镜效果的子类型。读/写 FilterEffectSubtypeaspose.slides/filtereffectsubtype。
-type: docs  
+type: docs
 weight: 30  
 url: /zh/aspose.slides.animation/filtereffect/subtype/
 ---  
