@@ -46,8 +46,9 @@ jobs:
         with:
             hugo-version: '0.97.3'
             extended: true
-      - name: Install Dependicies1
+      - name: Change ownership of files
         run:  sudo chown -R valeriyten:valeriyten /home/valeriyten/.npm
+      - name: Install Dependicies1
         run:  npm install -D --save autoprefixer
       - name: Install Dependicies2
         run:  npm install -D --save postcss-cli
