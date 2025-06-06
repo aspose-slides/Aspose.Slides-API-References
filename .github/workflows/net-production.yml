@@ -47,6 +47,7 @@ jobs:
             hugo-version: '0.97.3'
             extended: true
       - name: Install Dependicies1
+        run:  sudo chown -R valeriyten:valeriyten /home/valeriyten/.npm
         run:  npm install -D --save autoprefixer
       - name: Install Dependicies2
         run:  npm install -D --save postcss-cli
