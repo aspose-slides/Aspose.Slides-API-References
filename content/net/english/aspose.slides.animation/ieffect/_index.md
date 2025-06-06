@@ -3,7 +3,7 @@ title: IEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents animation effect.
 type: docs
-weight: 410
+weight: 450
 url: /aspose.slides.animation/ieffect/
 ---
 

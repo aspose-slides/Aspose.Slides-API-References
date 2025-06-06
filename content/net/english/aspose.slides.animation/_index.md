@@ -3,7 +3,7 @@ title: Aspose.Slides.Animation
 second_title: Aspose.Sildes for .NET API Reference
 description: Contains classes for work with animation in Microsoft PowerPoint presentations.
 type: docs
-weight: 20
+weight: 30
 url: /aspose.slides.animation/
 ---
 

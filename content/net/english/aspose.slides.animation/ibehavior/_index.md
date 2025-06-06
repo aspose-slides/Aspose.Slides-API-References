@@ -3,7 +3,7 @@ title: IBehavior
 second_title: Aspose.Sildes for .NET API Reference
 description: Represent base class behavior of effect.
 type: docs
-weight: 330
+weight: 370
 url: /aspose.slides.animation/ibehavior/
 ---
 

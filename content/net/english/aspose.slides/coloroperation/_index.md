@@ -3,7 +3,7 @@ title: ColorOperation
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents different color operations used for color transformations. Immutable object.
 type: docs
-weight: 2440
+weight: 2480
 url: /aspose.slides/coloroperation/
 ---
 

@@ -3,7 +3,7 @@ title: IRotationEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: Represent rotation behavior of effect.
 type: docs
-weight: 490
+weight: 530
 url: /aspose.slides.animation/irotationeffect/
 ---
 

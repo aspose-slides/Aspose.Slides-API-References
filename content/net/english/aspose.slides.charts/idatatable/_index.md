@@ -3,7 +3,7 @@ title: IDataTable
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents data table properties.
 type: docs
-weight: 1980
+weight: 2020
 url: /aspose.slides.charts/idatatable/
 ---
 

@@ -3,7 +3,7 @@ title: GraphicalObject
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents abstract graphical object.
 type: docs
-weight: 4870
+weight: 4910
 url: /aspose.slides/graphicalobject/
 ---
 

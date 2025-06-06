@@ -3,7 +3,7 @@ title: Storage
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a temporary data storage for WebDocument./webdocument.
 type: docs
-weight: 4470
+weight: 4510
 url: /aspose.slides.export.web/storage/
 ---
 
@@ -26,8 +26,8 @@ public sealed class Storage
 | Name | Description |
 | --- | --- |
 | [ContainsKey](../../aspose.slides.export.web/storage/containskey)(string) | Determines whether the storage contains an element with the specified key. |
-| [Get&lt;TValue&gt;](../../aspose.slides.export.web/storage/get)(string) |  |
-| [Put&lt;TValue&gt;](../../aspose.slides.export.web/storage/put)(string, TValue) |  |
+| [Get&lt;TValue&gt;](../../aspose.slides.export.web/storage/get)(string) | Gets the data from the storage. |
+| [Put&lt;TValue&gt;](../../aspose.slides.export.web/storage/put)(string, TValue) | Puts the value into the storage. |
 
 ### See Also
 

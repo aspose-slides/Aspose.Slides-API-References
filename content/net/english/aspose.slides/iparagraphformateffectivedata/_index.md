@@ -3,7 +3,7 @@ title: IParagraphFormatEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which contains effective paragraph formatting properties.
 type: docs
-weight: 6400
+weight: 6440
 url: /aspose.slides/iparagraphformateffectivedata/
 ---
 

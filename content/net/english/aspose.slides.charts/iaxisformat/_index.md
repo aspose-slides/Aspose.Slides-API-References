@@ -3,7 +3,7 @@ title: IAxisFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents chart format properties.
 type: docs
-weight: 1640
+weight: 1680
 url: /aspose.slides.charts/iaxisformat/
 ---
 

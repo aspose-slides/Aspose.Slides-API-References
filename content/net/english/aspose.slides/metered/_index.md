@@ -3,7 +3,7 @@ title: Metered
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides methods to set metered key.
 type: docs
-weight: 8810
+weight: 8850
 url: /aspose.slides/metered/
 ---
 
@@ -25,7 +25,8 @@ public class Metered
 
 | Name | Description |
 | --- | --- |
-| [SetMeteredKey](../../aspose.slides/metered/setmeteredkey)(string, string) | Sets metered public and private key |
+| [GetProductName](../../aspose.slides/metered/getproductname)() |  |
+| [SetMeteredKey](../../aspose.slides/metered/setmeteredkey)(string, string) | Sets metered public and private key. If you purchase metered license, when start application, this API should be called, normally, this is enough. However, if always fail to upload consumption data and exceed 24 hours, the license will be set to evaluation status, to avoid such case, you should regularly check the license status, if it is evaluation status, call this API again. |
 | static [GetConsumptionCredit](../../aspose.slides/metered/getconsumptioncredit)() | Gets consumption credit |
 | static [GetConsumptionQuantity](../../aspose.slides/metered/getconsumptionquantity)() | Gets consumption file size |
 | static [IsMeteredLicensed](../../aspose.slides/metered/ismeteredlicensed)() | Check whether metered is licensed |
@@ -45,6 +46,13 @@ matered.SetMeteredKey("PublicKey", "PrivateKey");
 
 Dim matered As Metered = New Metered
 matered.SetMeteredKey("PublicKey", "PrivateKey")
+```
+
+the component jar file:
+
+```csharp
+Metered matered = new Metered();
+matered.setMeteredKey("PublicKey", "PrivateKey");
 ```
 
 ### See Also

@@ -3,7 +3,7 @@ title: MotionEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: Represent motion effect behavior of effect.
 type: docs
-weight: 590
+weight: 630
 url: /aspose.slides.animation/motioneffect/
 ---
 

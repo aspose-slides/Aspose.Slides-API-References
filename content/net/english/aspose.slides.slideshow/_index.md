@@ -3,7 +3,7 @@ title: Aspose.Slides.SlideShow
 second_title: Aspose.Sildes for .NET API Reference
 description: Contains classes for managing slideshows and slide transitions
 type: docs
-weight: 130
+weight: 140
 url: /aspose.slides.slideshow/
 ---
 

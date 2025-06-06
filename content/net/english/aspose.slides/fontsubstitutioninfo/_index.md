@@ -3,7 +3,7 @@ title: FontSubstitutionInfo
 second_title: Aspose.Sildes for .NET API Reference
 description: This structure represents the information about the font replacement when it will be rendered.
 type: docs
-weight: 4710
+weight: 4750
 url: /aspose.slides/fontsubstitutioninfo/
 ---
 

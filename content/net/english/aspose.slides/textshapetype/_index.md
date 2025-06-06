@@ -3,7 +3,7 @@ title: TextShapeType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents text wrapping shape.
 type: docs
-weight: 10670
+weight: 10710
 url: /aspose.slides/textshapetype/
 ---
 

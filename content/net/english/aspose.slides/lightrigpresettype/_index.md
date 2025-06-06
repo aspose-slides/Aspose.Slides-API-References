@@ -3,7 +3,7 @@ title: LightRigPresetType
 second_title: Aspose.Sildes for .NET API Reference
 description: Constants which define light preset types.
 type: docs
-weight: 7460
+weight: 7500
 url: /aspose.slides/lightrigpresettype/
 ---
 

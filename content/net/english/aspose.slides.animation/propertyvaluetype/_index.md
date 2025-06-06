@@ -3,7 +3,7 @@ title: PropertyValueType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represent property value types.
 type: docs
-weight: 680
+weight: 720
 url: /aspose.slides.animation/propertyvaluetype/
 ---
 

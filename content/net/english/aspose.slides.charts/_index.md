@@ -3,7 +3,7 @@ title: Aspose.Slides.Charts
 second_title: Aspose.Sildes for .NET API Reference
 description: Contains classes for work with charts in Microsoft PowerPoint presentations.
 type: docs
-weight: 30
+weight: 40
 url: /aspose.slides.charts/
 ---
 

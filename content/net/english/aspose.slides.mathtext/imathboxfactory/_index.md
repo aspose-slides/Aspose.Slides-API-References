@@ -3,7 +3,7 @@ title: IMathBoxFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: Allows to create a math box
 type: docs
-weight: 7950
+weight: 7990
 url: /aspose.slides.mathtext/imathboxfactory/
 ---
 

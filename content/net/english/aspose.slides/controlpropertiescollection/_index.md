@@ -3,7 +3,7 @@ title: ControlPropertiesCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: A collection of AcitveX properties.
 type: docs
-weight: 2620
+weight: 2660
 url: /aspose.slides/controlpropertiescollection/
 ---
 

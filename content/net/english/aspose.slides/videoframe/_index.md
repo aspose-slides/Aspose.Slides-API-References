@@ -3,7 +3,7 @@ title: VideoFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a video clip on a slide.
 type: docs
-weight: 11410
+weight: 11450
 url: /aspose.slides/videoframe/
 ---
 

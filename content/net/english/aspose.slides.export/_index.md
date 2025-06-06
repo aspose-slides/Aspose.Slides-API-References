@@ -3,7 +3,7 @@ title: Aspose.Slides.Export
 second_title: Aspose.Sildes for .NET API Reference
 description: Contains classes for exporting Microsoft PowerPoint presentations to different formats like Html Pdf Svg Xps and others.
 type: docs
-weight: 60
+weight: 70
 url: /aspose.slides.export/
 ---
 

@@ -3,7 +3,7 @@ title: CellFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents format of a table cell.
 type: docs
-weight: 1070
+weight: 1110
 url: /aspose.slides/cellformat/
 ---
 

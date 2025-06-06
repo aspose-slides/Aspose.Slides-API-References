@@ -3,7 +3,7 @@ title: PresentationPlayer
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the player of animations associated with the Presentation../aspose.slides/presentation.
 type: docs
-weight: 4200
+weight: 4240
 url: /aspose.slides.export/presentationplayer/
 ---
 
@@ -37,7 +37,7 @@ public class PresentationPlayer : IDisposable
 
 | Name | Description |
 | --- | --- |
-| delegate [FrameTickHandler](presentationplayer.frametickhandler) |  |
+| delegate [FrameTickHandler](presentationplayer.frametickhandler) | Represents the frame tick handler of [`FrameTick`](./frametick) event. |
 
 ### Examples
 

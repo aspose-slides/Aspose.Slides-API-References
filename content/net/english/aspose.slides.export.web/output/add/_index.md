@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds an output element for the context object.
 type: docs
 weight: 10
 url: /aspose.slides.export.web/output/add/
@@ -9,10 +9,22 @@ url: /aspose.slides.export.web/output/add/
 
 ## Add&lt;TContextObject&gt;(string, string, TContextObject) {#add_6}
 
+Adds an output element for the context object.
+
 ```csharp
 public IOutputFile Add<TContextObject>(string path, string templateKey, 
     TContextObject contextObject)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | String | Output path. |
+| templateKey | String | The key of the template used for context object transformation before output. |
+| contextObject | TContextObject | Context object. |
+
+### Return Value
+
+[`IOutputFile`](../../ioutputfile) object for the context object.
 
 ### See Also
 

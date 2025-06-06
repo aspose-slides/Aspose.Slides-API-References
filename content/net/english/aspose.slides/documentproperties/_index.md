@@ -3,7 +3,7 @@ title: DocumentProperties
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents properties of a presentation.
 type: docs
-weight: 2700
+weight: 2740
 url: /aspose.slides/documentproperties/
 ---
 

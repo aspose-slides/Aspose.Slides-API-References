@@ -3,7 +3,7 @@ title: IHyperlink
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a hyperlink.
 type: docs
-weight: 5910
+weight: 5950
 url: /aspose.slides/ihyperlink/
 ---
 

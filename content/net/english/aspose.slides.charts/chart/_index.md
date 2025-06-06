@@ -3,7 +3,7 @@ title: Chart
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an graphic chart on a slide.
 type: docs
-weight: 1180
+weight: 1220
 url: /aspose.slides.charts/chart/
 ---
 

@@ -3,7 +3,7 @@ title: Marker
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents marker of a chert.
 type: docs
-weight: 2250
+weight: 2290
 url: /aspose.slides.charts/marker/
 ---
 

@@ -3,7 +3,7 @@ title: IColorReplace
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a Color Replacement effect.
 type: docs
-weight: 3120
+weight: 3160
 url: /aspose.slides.effects/icolorreplace/
 ---
 

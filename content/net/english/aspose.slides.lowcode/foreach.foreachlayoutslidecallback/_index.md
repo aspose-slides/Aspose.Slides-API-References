@@ -1,17 +1,24 @@
 ---
 title: ForEach.ForEachLayoutSlideCallback
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Callback that will be invoked for each LayoutSlide./foreach/layoutslide in the Presentation../aspose.slides/presentation.
 type: docs
-weight: 7670
+weight: 7710
 url: /aspose.slides.lowcode/foreach.foreachlayoutslidecallback/
 ---
 
 ## ForEach.ForEachLayoutSlideCallback delegate
 
+Callback that will be invoked for each [`LayoutSlide`](../foreach/layoutslide) in the [`Presentation`](../../aspose.slides/presentation).
+
 ```csharp
 public delegate void ForEachLayoutSlideCallback(LayoutSlide layoutSlide, int index);
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| layoutSlide | LayoutSlide | Current iterated layout slide |
+| index | Int32 | Index of the current layout slide |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: ISketchFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents properties for lines sketch format.
 type: docs
-weight: 6800
+weight: 6840
 url: /aspose.slides/isketchformat/
 ---
 

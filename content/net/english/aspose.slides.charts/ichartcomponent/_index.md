@@ -3,7 +3,7 @@ title: IChartComponent
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a component of a chart.
 type: docs
-weight: 1710
+weight: 1750
 url: /aspose.slides.charts/ichartcomponent/
 ---
 

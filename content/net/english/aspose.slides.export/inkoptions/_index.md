@@ -3,7 +3,7 @@ title: InkOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides options that control the look of Ink objects in exported document.
 type: docs
-weight: 4050
+weight: 4090
 url: /aspose.slides.export/inkoptions/
 ---
 

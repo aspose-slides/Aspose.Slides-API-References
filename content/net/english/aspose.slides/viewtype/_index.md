@@ -3,7 +3,7 @@ title: ViewType
 second_title: Aspose.Sildes for .NET API Reference
 description: Presentation view types
 type: docs
-weight: 11440
+weight: 11480
 url: /aspose.slides/viewtype/
 ---
 

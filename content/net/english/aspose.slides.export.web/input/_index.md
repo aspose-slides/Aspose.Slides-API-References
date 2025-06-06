@@ -3,7 +3,7 @@ title: Input
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of input elements templates.
 type: docs
-weight: 4440
+weight: 4480
 url: /aspose.slides.export.web/input/
 ---
 
@@ -19,7 +19,7 @@ public sealed class Input
 
 | Name | Description |
 | --- | --- |
-| [AddTemplate&lt;TContextObject&gt;](../../aspose.slides.export.web/input/addtemplate)(string, string) |  |
+| [AddTemplate&lt;TContextObject&gt;](../../aspose.slides.export.web/input/addtemplate)(string, string) | Adds a template to the collection. |
 
 ### See Also
 

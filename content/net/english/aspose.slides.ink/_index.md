@@ -3,7 +3,7 @@ title: Aspose.Slides.Ink
 second_title: Aspose.Sildes for .NET API Reference
 description: Contains classes for work with Ink.
 type: docs
-weight: 100
+weight: 110
 url: /aspose.slides.ink/
 ---
 

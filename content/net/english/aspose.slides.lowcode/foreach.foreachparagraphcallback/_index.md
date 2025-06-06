@@ -1,17 +1,25 @@
 ---
 title: ForEach.ForEachParagraphCallback
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Callback that will be invoked for each Paragraph./foreach/paragraph on the BaseSlide../aspose.slides/baseslide.
 type: docs
-weight: 7690
+weight: 7730
 url: /aspose.slides.lowcode/foreach.foreachparagraphcallback/
 ---
 
 ## ForEach.ForEachParagraphCallback delegate
 
+Callback that will be invoked for each [`Paragraph`](../foreach/paragraph) on the [`BaseSlide`](../../aspose.slides/baseslide).
+
 ```csharp
 public delegate void ForEachParagraphCallback(Paragraph para, BaseSlide slide, int index);
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| para | Paragraph | Current iterated paragraph |
+| slide | BaseSlide | Current iterated slide |
+| index | Int32 | Index of the current paragraph on the slide |
 
 ### See Also
 

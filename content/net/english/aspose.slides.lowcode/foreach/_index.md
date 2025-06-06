@@ -3,7 +3,7 @@ title: ForEach
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a group of methods intended to iterate over different Presentation../aspose.slides/presentation model objects. These methods can be useful if you need to iterate and change some Presentation elements formatting or content e.g. change each portion formatting.
 type: docs
-weight: 7660
+weight: 7700
 url: /aspose.slides.lowcode/foreach/
 ---
 
@@ -34,12 +34,12 @@ public static class ForEach
 
 | Name | Description |
 | --- | --- |
-| delegate [ForEachLayoutSlideCallback](foreach.foreachlayoutslidecallback) |  |
-| delegate [ForEachMasterSlideCallback](foreach.foreachmasterslidecallback) |  |
-| delegate [ForEachParagraphCallback](foreach.foreachparagraphcallback) |  |
-| delegate [ForEachPortionCallback](foreach.foreachportioncallback) |  |
-| delegate [ForEachShapeCallback](foreach.foreachshapecallback) |  |
-| delegate [ForEachSlideCallback](foreach.foreachslidecallback) |  |
+| delegate [ForEachLayoutSlideCallback](foreach.foreachlayoutslidecallback) | Callback that will be invoked for each [`LayoutSlide`](./layoutslide) in the [`Presentation`](../../aspose.slides/presentation). |
+| delegate [ForEachMasterSlideCallback](foreach.foreachmasterslidecallback) | Callback that will be invoked for each [`MasterSlide`](./masterslide) in the [`Presentation`](../../aspose.slides/presentation). |
+| delegate [ForEachParagraphCallback](foreach.foreachparagraphcallback) | Callback that will be invoked for each [`Paragraph`](./paragraph) on the [`BaseSlide`](../../aspose.slides/baseslide). |
+| delegate [ForEachPortionCallback](foreach.foreachportioncallback) | Callback that will be invoked for each [`Portion`](./portion) in the [`Paragraph`](./paragraph) on the [`BaseSlide`](../../aspose.slides/baseslide). |
+| delegate [ForEachShapeCallback](foreach.foreachshapecallback) | Callback that will be invoked for each [`Shape`](./shape) in the [`Presentation`](../../aspose.slides/presentation). |
+| delegate [ForEachSlideCallback](foreach.foreachslidecallback) | Callback that will be invoked for each [`Slide`](./slide) in the [`Presentation`](../../aspose.slides/presentation). |
 
 ### Examples
 

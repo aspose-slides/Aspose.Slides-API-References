@@ -3,7 +3,7 @@ title: RotationEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: Represent rotation behavior of effect.
 type: docs
-weight: 690
+weight: 730
 url: /aspose.slides.animation/rotationeffect/
 ---
 

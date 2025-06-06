@@ -3,7 +3,7 @@ title: IHtmlOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a HTML exporting options.
 type: docs
-weight: 3800
+weight: 3840
 url: /aspose.slides.export/ihtmloptions/
 ---
 

@@ -1,17 +1,24 @@
 ---
 title: ForEach.ForEachShapeCallback
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Callback that will be invoked for each Shape./foreach/shape in the Presentation../aspose.slides/presentation.
 type: docs
-weight: 7710
+weight: 7750
 url: /aspose.slides.lowcode/foreach.foreachshapecallback/
 ---
 
 ## ForEach.ForEachShapeCallback delegate
 
+Callback that will be invoked for each [`Shape`](../foreach/shape) in the [`Presentation`](../../aspose.slides/presentation).
+
 ```csharp
 public delegate void ForEachShapeCallback(Shape shape, BaseSlide slide, int index);
 ```
+
+| Parameter | Description |
+| --- | --- |
+| slide |  |
+| index |  |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: IChartDataPoint
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents series data point.
 type: docs
-weight: 1740
+weight: 1780
 url: /aspose.slides.charts/ichartdatapoint/
 ---
 

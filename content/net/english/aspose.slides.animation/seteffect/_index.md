@@ -3,7 +3,7 @@ title: SetEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a set effect for an animation behavior.
 type: docs
-weight: 730
+weight: 770
 url: /aspose.slides.animation/seteffect/
 ---
 

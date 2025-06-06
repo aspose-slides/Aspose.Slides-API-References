@@ -3,7 +3,7 @@ title: IChart
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an graphic chart on a slide.
 type: docs
-weight: 1660
+weight: 1700
 url: /aspose.slides.charts/ichart/
 ---
 

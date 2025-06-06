@@ -3,7 +3,7 @@ title: Convert
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a group of methods intended to convert Presentation../aspose.slides/presentation.
 type: docs
-weight: 7640
+weight: 7680
 url: /aspose.slides.lowcode/convert/
 ---
 
@@ -34,7 +34,7 @@ public static class Convert
 
 | Name | Description |
 | --- | --- |
-| delegate [GetOutPathCallback](convert.getoutpathcallback) |  |
+| delegate [GetOutPathCallback](convert.getoutpathcallback) | Callback that will be invoked for each [`Slide`](../../aspose.slides/slide), the output path expected to be returned. |
 
 ### Examples
 

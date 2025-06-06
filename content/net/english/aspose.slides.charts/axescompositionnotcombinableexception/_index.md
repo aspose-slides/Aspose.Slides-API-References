@@ -3,7 +3,7 @@ title: AxesCompositionNotCombinableException
 second_title: Aspose.Sildes for .NET API Reference
 description: Exception which thrown when axes composition of the series is not combinable with present axes composition in chart.
 type: docs
-weight: 1080
+weight: 1120
 url: /aspose.slides.charts/axescompositionnotcombinableexception/
 ---
 

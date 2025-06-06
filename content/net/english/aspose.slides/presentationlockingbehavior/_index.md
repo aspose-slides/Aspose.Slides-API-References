@@ -3,7 +3,7 @@ title: PresentationLockingBehavior
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the behavior regarding treating the IPresentation./ipresentation source file or Stream while loading and working with an instance of IPresentation./ipresentation.
 type: docs
-weight: 9360
+weight: 9400
 url: /aspose.slides/presentationlockingbehavior/
 ---
 

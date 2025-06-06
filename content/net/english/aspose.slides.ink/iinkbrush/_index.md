@@ -3,7 +3,7 @@ title: IInkBrush
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents trace brush.
 type: docs
-weight: 7300
+weight: 7340
 url: /aspose.slides.ink/iinkbrush/
 ---
 

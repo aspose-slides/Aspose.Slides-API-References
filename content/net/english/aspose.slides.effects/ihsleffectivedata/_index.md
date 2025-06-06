@@ -3,7 +3,7 @@ title: IHSLEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a Hue/Saturation/Luminance effect. The hue saturation and luminance may each be adjusted relative to its current value.
 type: docs
-weight: 3250
+weight: 3290
 url: /aspose.slides.effects/ihsleffectivedata/
 ---
 

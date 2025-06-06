@@ -3,7 +3,7 @@ title: IComment
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a comment on a slide.
 type: docs
-weight: 5360
+weight: 5400
 url: /aspose.slides/icomment/
 ---
 

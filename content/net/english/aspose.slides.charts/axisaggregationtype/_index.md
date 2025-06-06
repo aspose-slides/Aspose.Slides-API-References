@@ -3,7 +3,7 @@ title: AxisAggregationType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents aggregation type of category axis. Used with Histogram or HistogramPareto series only.
 type: docs
-weight: 1110
+weight: 1150
 url: /aspose.slides.charts/axisaggregationtype/
 ---
 

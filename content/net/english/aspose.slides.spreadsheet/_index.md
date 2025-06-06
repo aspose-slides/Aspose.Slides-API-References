@@ -3,7 +3,7 @@ title: Aspose.Slides.Spreadsheet
 second_title: Aspose.Sildes for .NET API Reference
 description: Contains classes for work with spreadsheet objects in Microsoft PowerPoint presentations.
 type: docs
-weight: 150
+weight: 160
 url: /aspose.slides.spreadsheet/
 ---
 

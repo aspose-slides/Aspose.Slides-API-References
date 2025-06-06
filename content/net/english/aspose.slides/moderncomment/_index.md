@@ -3,7 +3,7 @@ title: ModernComment
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a comment on a slide.
 type: docs
-weight: 8820
+weight: 8860
 url: /aspose.slides/moderncomment/
 ---
 

@@ -3,7 +3,7 @@ title: IColorOperationCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of color transform operations.
 type: docs
-weight: 5310
+weight: 5350
 url: /aspose.slides/icoloroperationcollection/
 ---
 

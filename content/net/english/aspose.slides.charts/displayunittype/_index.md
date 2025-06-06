@@ -3,7 +3,7 @@ title: DisplayUnitType
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines multiplicity of the displayed data.
 type: docs
-weight: 1540
+weight: 1580
 url: /aspose.slides.charts/displayunittype/
 ---
 
@@ -19,7 +19,7 @@ public enum DisplayUnitType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | `0` | Values will dislayed as is. |
+| None | `0` | Values will be displayed as-is. |
 | Hundreds | `1` | Specifies the values on the chart shall be divided by 100. |
 | Thousands | `2` | Specifies the values on the chart shall be divided by 1,000. |
 | TenThousands | `3` | Specifies the values on the chart shall be divided by 10,000. |
@@ -28,7 +28,7 @@ public enum DisplayUnitType
 | TenMillions | `6` | Specifies the values on the chart shall be divided by 10,000,000. |
 | HundredMillions | `7` | Specifies the values on the chart shall be divided by 100,000,000. |
 | Billions | `8` | Specifies the values on the chart shall be divided by 1,000,000,000. |
-| Trillions | `9` | Specifies the values on the chart shall be divided by 1,000,000,000. |
+| Trillions | `9` | Specifies the values on the chart shall be divided by 1,000,000,000,000. |
 | CustomValue | `10` | Specifies the values on the chart shall be divided by a custom value. |
 
 ### See Also

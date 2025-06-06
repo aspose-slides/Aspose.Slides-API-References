@@ -1,7 +1,7 @@
 ---
 title: Put
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Puts the value into the storage.
 type: docs
 weight: 40
 url: /aspose.slides.export.web/storage/put/
@@ -9,9 +9,16 @@ url: /aspose.slides.export.web/storage/put/
 
 ## Storage.Put&lt;TValue&gt; method
 
+Puts the value into the storage.
+
 ```csharp
 public void Put<TValue>(string key, TValue value)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | String | Key for the value. |
+| value | TValue | Value. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: CaptionsCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of the closed captions.
 type: docs
-weight: 1040
+weight: 1080
 url: /aspose.slides/captionscollection/
 ---
 

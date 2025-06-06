@@ -3,7 +3,7 @@ title: ICameraEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which contains effective camera properties.
 type: docs
-weight: 5220
+weight: 5260
 url: /aspose.slides/icameraeffectivedata/
 ---
 

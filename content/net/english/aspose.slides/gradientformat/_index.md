@@ -3,7 +3,7 @@ title: GradientFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represent a gradient format.
 type: docs
-weight: 4800
+weight: 4840
 url: /aspose.slides/gradientformat/
 ---
 

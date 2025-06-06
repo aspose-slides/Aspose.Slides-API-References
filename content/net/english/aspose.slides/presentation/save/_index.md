@@ -1,10 +1,41 @@
 ---
 title: Save
 second_title: Aspose.Sildes for .NET API Reference
-description: Saves specified slides of a presentation to a file with the specified format with page number keeping.
+description: Saves all slides of a presentation to a set of files representing XAML markup.
 type: docs
 weight: 380
 url: /aspose.slides/presentation/save/
+---
+
+## Save(IXamlOptions) {#save}
+
+Saves all slides of a presentation to a set of files representing XAML markup.
+
+```csharp
+public void Save(IXamlOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | IXamlOptions | The XAML format options. |
+
+### Examples
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+	pres.Save(new XamlOptions { ExportHiddenSlides = true });
+}
+```
+
+### See Also
+
+* interface [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
+* class [Presentation](../../presentation)
+* namespace [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
+
 ---
 
 ## Save(string, int[], SaveFormat) {#save_7}
@@ -250,37 +281,6 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## Save(IXamlOptions) {#save}
-
-Saves all slides of a presentation to a set of files representing XAML markup.
-
-```csharp
-public void Save(IXamlOptions options)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| options | IXamlOptions | The XAML format options. |
-
-### Examples
-
-```csharp
-[C#]
-using (Presentation pres = new Presentation("pres.pptx"))
-{
-	pres.Save(new XamlOptions { ExportHiddenSlides = true });
-}
-```
-
-### See Also
-
-* interface [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
 * class [Presentation](../../presentation)
 * namespace [Aspose.Slides](../../presentation)
 * assembly [Aspose.Slides](../../../)

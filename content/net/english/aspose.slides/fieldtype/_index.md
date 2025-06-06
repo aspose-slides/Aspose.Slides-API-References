@@ -3,7 +3,7 @@ title: FieldType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a type of field. This value determines which text will be set to the field portion when it will be updated.
 type: docs
-weight: 4570
+weight: 4610
 url: /aspose.slides/fieldtype/
 ---
 

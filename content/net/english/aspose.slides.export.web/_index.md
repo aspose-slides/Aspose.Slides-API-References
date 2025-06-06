@@ -3,7 +3,7 @@ title: Aspose.Slides.Export.Web
 second_title: Aspose.Sildes for .NET API Reference
 description: Contains classes for exporting Microsoft PowerPoint presentations to Html with extension projects.
 type: docs
-weight: 70
+weight: 80
 url: /aspose.slides.export.web/
 ---
 

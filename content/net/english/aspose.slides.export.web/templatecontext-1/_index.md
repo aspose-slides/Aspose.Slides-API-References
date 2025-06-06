@@ -3,7 +3,7 @@ title: TemplateContextTObject
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a model object interface for a template engine.
 type: docs
-weight: 4480
+weight: 4520
 url: /aspose.slides.export.web/templatecontext-1/
 ---
 
@@ -28,7 +28,7 @@ public sealed class TemplateContext<TObject>
 
 | Name | Description |
 | --- | --- |
-| [SubModel&lt;TSubModel&gt;](../../aspose.slides.export.web/templatecontext`1/submodel)(TSubModel) |  |
+| [SubModel&lt;TSubModel&gt;](../../aspose.slides.export.web/templatecontext`1/submodel)(TSubModel) | Creates a child template context. |
 
 ### See Also
 

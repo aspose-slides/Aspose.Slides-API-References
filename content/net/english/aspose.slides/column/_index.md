@@ -3,7 +3,7 @@ title: Column
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a column in a table.
 type: docs
-weight: 2500
+weight: 2540
 url: /aspose.slides/column/
 ---
 

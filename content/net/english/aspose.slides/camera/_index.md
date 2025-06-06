@@ -3,7 +3,7 @@ title: Camera
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents Camera.
 type: docs
-weight: 1010
+weight: 1050
 url: /aspose.slides/camera/
 ---
 

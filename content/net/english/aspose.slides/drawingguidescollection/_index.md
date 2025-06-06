@@ -3,7 +3,7 @@ title: DrawingGuidesCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of the adjustable drawing guides.
 type: docs
-weight: 2730
+weight: 2770
 url: /aspose.slides/drawingguidescollection/
 ---
 

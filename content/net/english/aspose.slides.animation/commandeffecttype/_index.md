@@ -3,7 +3,7 @@ title: CommandEffectType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents command effect type for command effect behavior.
 type: docs
-weight: 190
+weight: 230
 url: /aspose.slides.animation/commandeffecttype/
 ---
 

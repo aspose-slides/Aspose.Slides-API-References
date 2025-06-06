@@ -3,7 +3,7 @@ title: BaseSlide
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents common data for all slide types.
 type: docs
-weight: 910
+weight: 950
 url: /aspose.slides/baseslide/
 ---
 

@@ -3,7 +3,7 @@ title: Sequence
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents sequence collection of effects.
 type: docs
-weight: 710
+weight: 750
 url: /aspose.slides.animation/sequence/
 ---
 

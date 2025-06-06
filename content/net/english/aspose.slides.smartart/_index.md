@@ -3,7 +3,7 @@ title: Aspose.Slides.SmartArt
 second_title: Aspose.Sildes for .NET API Reference
 description: Contains classes for work with SmartArt objects
 type: docs
-weight: 140
+weight: 150
 url: /aspose.slides.smartart/
 ---
 

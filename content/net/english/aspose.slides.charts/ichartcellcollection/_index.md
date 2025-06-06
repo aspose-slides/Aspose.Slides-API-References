@@ -3,7 +3,7 @@ title: IChartCellCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents collection of a cells with data.
 type: docs
-weight: 1700
+weight: 1740
 url: /aspose.slides.charts/ichartcellcollection/
 ---
 
