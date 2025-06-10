@@ -49,7 +49,7 @@ public OpenAIWebClient(string model, string apiKey, string organizationId, HttpC
 | model | String | OpenAI language model. Possible values: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
 | apiKey | String | OpenAI API key |
 | organizationId | String | Organization ID (optional) |
-| httpClient | HttpClient | An externally managed HttpClient instance. |
+| httpClient | HttpClient | An externally managed `HttpClient` instance. |
 
 ### Exceptions
 

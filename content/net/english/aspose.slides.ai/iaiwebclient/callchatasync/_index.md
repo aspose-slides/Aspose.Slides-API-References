@@ -9,7 +9,7 @@ url: /aspose.slides.ai/iaiwebclient/callchatasync/
 
 ## IAIWebClient.CallChatAsync method
 
-Sends a chat instruction to the AI model using a provided HttpClient instance and return response message to the given instruction.
+Sends a chat instruction to the AI model using a provided `HttpClient` instance and return response message to the given instruction.
 
 ```csharp
 public Task<string> CallChatAsync(string instruction)

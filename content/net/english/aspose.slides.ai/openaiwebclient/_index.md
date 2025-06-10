@@ -26,7 +26,7 @@ public class OpenAIWebClient : IAIWebClient, IDisposable
 
 | Name | Description |
 | --- | --- |
-| [CallChatAsync](../../aspose.slides.ai/openaiwebclient/callchatasync)(string) | Sends a chat instruction to the AI model using an externally managed HttpClient instance and returns response message to the given instruction. |
+| [CallChatAsync](../../aspose.slides.ai/openaiwebclient/callchatasync)(string) | Sends a chat instruction to the AI model using an externally managed `HttpClient` instance and returns response message to the given instruction. |
 | [Dispose](../../aspose.slides.ai/openaiwebclient/dispose)() | Releases resources used by this instance. |
 
 ### See Also

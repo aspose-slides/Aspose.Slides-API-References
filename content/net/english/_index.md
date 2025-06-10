@@ -13,7 +13,7 @@ is_root: true
 | Namespace | Description |
 | --- | --- |
 | [Aspose.Slides](./aspose.slides) | Contains classes for work with Microsoft PowerPoint presentations without utilizing Microsoft PowerPoint. |
-| [Aspose.Slides.AI](./aspose.slides.ai) |  |
+| [Aspose.Slides.AI](./aspose.slides.ai) | Contains classes that provide AI-based features for analyzing and processing PowerPoint presentations. |
 | [Aspose.Slides.Animation](./aspose.slides.animation) | Contains classes for work with animation in Microsoft PowerPoint presentations. |
 | [Aspose.Slides.Charts](./aspose.slides.charts) | Contains classes for work with charts in Microsoft PowerPoint presentations. |
 | [Aspose.Slides.DOM.Ole](./aspose.slides.dom.ole) | Contains classes for work with OLE objects in Microsoft PowerPoint presentations. |
