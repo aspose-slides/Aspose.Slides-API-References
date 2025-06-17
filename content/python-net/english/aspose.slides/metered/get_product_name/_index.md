@@ -1,25 +1,19 @@
 ﻿---
-title: is_metered_licensed method
+title: get_product_name method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/metered/is_metered_licensed/
-weight: 50
+url: /aspose.slides/metered/get_product_name/
+weight: 40
 ---
 
 
-## is_metered_licensed {#}
-Check whether metered is licensed
-
-### Returns
-
-True or false
+## get_product_name {#}
 
 
 
 ```python
-@staticmethod
-def is_metered_licensed():
+def get_product_name(self):
     ...
 ```
 
