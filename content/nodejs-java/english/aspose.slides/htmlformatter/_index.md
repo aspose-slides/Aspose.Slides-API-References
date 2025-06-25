@@ -34,44 +34,6 @@ HtmlFormatter
 
 | Name | Description |
 | --- | --- |
-| createCustomFormatter ([EmbedAllFontsHtmlController](../embedallfontshtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| formattingController | [EmbedAllFontsHtmlController](../embedallfontshtmlcontroller) | Callback interface which controls html file generation. |
-
- **Returns:**
-HtmlFormatter
-
-
----
-
-
-### createCustomFormatter {#createCustomFormatter}
-
-| Name | Description |
-| --- | --- |
-| createCustomFormatter ([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| formattingController | [VideoPlayerHtmlController](../videoplayerhtmlcontroller) | Callback interface which controls html file generation. |
-
- **Returns:**
-HtmlFormatter
-
-
----
-
-
-### createCustomFormatter {#createCustomFormatter}
-
-| Name | Description |
-| --- | --- |
 | createCustomFormatter ([EmbeddedEotFontsHtmlController](../embeddedeotfontshtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
  **Parameters:**
@@ -98,6 +60,44 @@ HtmlFormatter
 | Name | Type | Description |
 | --- | --- | --- |
 | formattingController | [ResponsiveHtmlController](../responsivehtmlcontroller) | Callback interface which controls html file generation. |
+
+ **Returns:**
+HtmlFormatter
+
+
+---
+
+
+### createCustomFormatter {#createCustomFormatter}
+
+| Name | Description |
+| --- | --- |
+| createCustomFormatter ([EmbedAllFontsHtmlController](../embedallfontshtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| formattingController | [EmbedAllFontsHtmlController](../embedallfontshtmlcontroller) | Callback interface which controls html file generation. |
+
+ **Returns:**
+HtmlFormatter
+
+
+---
+
+
+### createCustomFormatter {#createCustomFormatter}
+
+| Name | Description |
+| --- | --- |
+| createCustomFormatter ([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| formattingController | [VideoPlayerHtmlController](../videoplayerhtmlcontroller) | Callback interface which controls html file generation. |
 
  **Returns:**
 HtmlFormatter

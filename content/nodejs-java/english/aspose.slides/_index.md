@@ -414,6 +414,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [OdpReadException](odpreadexception) | Represents an exception which thrown on presentation reading errors. |
 | [OleEmbeddedDataInfo](oleembeddeddatainfo) | Represents embedded data info for OLE object. |
 | [OleObjectFrame](oleobjectframe) | Represents an OLE object on a slide. |
+| [OpenAIWebClient](openaiwebclient) | Build-in lightweight OpenAI web client |
 | [OptionalBlackTransition](optionalblacktransition) | Optional black slide transition effect. |
 | [OrganizationChartLayoutType](organizationchartlayouttype) | Represents formatting type the child nodes in an organization chart |
 | [Orientation](orientation) | Represents the orientation of a shape. |
@@ -545,6 +546,8 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [SlideSizeType](slidesizetype) | Represents the slide size preset. |
 | [SlideThemeManager](slidethememanager) | Provides access to slide theme overriden. |
 | [SlideUtil](slideutil) | Offer methods which help to search shapes and text in a presentation. |
+| [SlidesAIAgent](slidesaiagent) | Provides AI-powered features for processing presentations. |
+| [SlidesAIAgentException](slidesaiagentexception) | Represents Slides AI Agent related exceptions. |
 | [SlidesRange](slidesrange) | Slides range |
 | [SmartArt](smartart) | Represents a SmartArt diagram |
 | [SmartArtColorType](smartartcolortype) | Represents color scheme of a SmartArt diagram. |

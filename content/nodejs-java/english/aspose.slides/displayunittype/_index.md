@@ -16,7 +16,7 @@ url: /aspose.slides/displayunittype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-[None](#None) | 0 | Values will dislayed as is. |
+[None](#None) | 0 | Values will be displayed as-is. |
 [Hundreds](#Hundreds) | 1 | Specifies the values on the chart shall be divided by 100. |
 [Thousands](#Thousands) | 2 | Specifies the values on the chart shall be divided by 1,000. |
 [TenThousands](#TenThousands) | 3 | Specifies the values on the chart shall be divided by 10,000. |
@@ -25,7 +25,7 @@ url: /aspose.slides/displayunittype/
 [TenMillions](#TenMillions) | 6 | Specifies the values on the chart shall be divided by 10,000,000. |
 [HundredMillions](#HundredMillions) | 7 | Specifies the values on the chart shall be divided by 100,000,000. |
 [Billions](#Billions) | 8 | Specifies the values on the chart shall be divided by 1,000,000,000. |
-[Trillions](#Trillions) | 9 | Specifies the values on the chart shall be divided by 1,000,000,000. |
+[Trillions](#Trillions) | 9 | Specifies the values on the chart shall be divided by 1,000,000,000,000. |
 [CustomValue](#CustomValue) | 10 | Specifies the values on the chart shall be divided by a custom value. |
 
 
@@ -33,7 +33,7 @@ url: /aspose.slides/displayunittype/
 
 
 ### None {#None}
-Values will dislayed as is.
+Values will be displayed as-is.
 
 ---
 
@@ -78,7 +78,7 @@ Specifies the values on the chart shall be divided by 1,000,000,000.
 ---
 
 ### Trillions {#Trillions}
-Specifies the values on the chart shall be divided by 1,000,000,000.
+Specifies the values on the chart shall be divided by 1,000,000,000,000.
 
 ---
 
