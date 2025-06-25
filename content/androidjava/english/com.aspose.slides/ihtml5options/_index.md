@@ -45,6 +45,8 @@ Represents a HTML5 exporting options.
 | [setNotesCommentsLayouting(INotesCommentsLayoutingOptions value)](#setNotesCommentsLayouting-com.aspose.slides.INotesCommentsLayoutingOptions-) | Provides options that control how notes and comments is placed in exported document. |
 | [getDisableFontLigatures()](#getDisableFontLigatures--) | Gets or sets a value indicating whether text is rendered without using ligatures. |
 | [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Gets or sets a value indicating whether text is rendered without using ligatures. |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 ### getAnimateTransitions() {#getAnimateTransitions--}
 ```
 public abstract boolean getAnimateTransitions()
@@ -380,4 +382,63 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### getSlidesLayoutOptions() {#getSlidesLayoutOptions--}
+```
+public abstract ISlidesLayoutOptions getSlidesLayoutOptions()
+```
+
+
+Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      HandoutLayoutingOptions handoutLayoutingOptions = new HandoutLayoutingOptions();
+>      handoutLayoutingOptions.setHandout(HandoutType.Handouts4Horizontal);
+>      Html5Options options = new Html5Options();
+>      options.setSlidesLayoutOptions(handoutLayoutingOptions);
+> 
+>      pres.save("pres.html", SaveFormat.Html5, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+[ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
+### setSlidesLayoutOptions(ISlidesLayoutOptions value) {#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-}
+```
+public abstract void setSlidesLayoutOptions(ISlidesLayoutOptions value)
+```
+
+
+Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      HandoutLayoutingOptions handoutLayoutingOptions = new HandoutLayoutingOptions();
+>      handoutLayoutingOptions.setHandout(HandoutType.Handouts4Horizontal);
+>      Html5Options options = new Html5Options();
+>      options.setSlidesLayoutOptions(handoutLayoutingOptions);
+> 
+>      pres.save("pres.html", SaveFormat.Html5, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) |  |
 

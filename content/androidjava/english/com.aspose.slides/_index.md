@@ -249,6 +249,7 @@ url: /com.aspose.slides/
 | [GroupShape](../com.aspose.slides/groupshape) | Represents a group of shapes on a slide. |
 | [GroupShapeLock](../com.aspose.slides/groupshapelock) | Determines which operations are disabled on the parent GroupShape. |
 | [HSL](../com.aspose.slides/hsl) | Represents a Hue/Saturation/Luminance effect. |
+| [HandleRepeatedSpaces](../com.aspose.slides/handlerepeatedspaces) | Specifies how repeated regular space characters should be handled during Markdown export. |
 | [HandoutLayoutingOptions](../com.aspose.slides/handoutlayoutingoptions) | Represents the handout presentation layout mode for export. |
 | [HandoutType](../com.aspose.slides/handouttype) | Specifies how many slides and in what sequence will be placed on the page. |
 | [HeadingPair](../com.aspose.slides/headingpair) | Represents a 'Heading pair' property of the document. |
@@ -413,6 +414,7 @@ url: /com.aspose.slides/
 | [OdpReadException](../com.aspose.slides/odpreadexception) | Represents an exception which thrown on presentation reading errors. |
 | [OleEmbeddedDataInfo](../com.aspose.slides/oleembeddeddatainfo) | Represents embedded data info for OLE object. |
 | [OleObjectFrame](../com.aspose.slides/oleobjectframe) | Represents an OLE object on a slide. |
+| [OpenAIWebClient](../com.aspose.slides/openaiwebclient) | Build-in lightweight OpenAI web client |
 | [OptionalBlackTransition](../com.aspose.slides/optionalblacktransition) | Optional black slide transition effect. |
 | [OrganizationChartLayoutType](../com.aspose.slides/organizationchartlayouttype) | Represents formatting type the child nodes in an organization chart |
 | [Orientation](../com.aspose.slides/orientation) | Represents the orientation of a shape. |
@@ -513,6 +515,7 @@ url: /com.aspose.slides/
 | [SequenceCollection](../com.aspose.slides/sequencecollection) | Represents collection of interactive sequences. |
 | [SetEffect](../com.aspose.slides/seteffect) | Represents a set effect for an animation behavior. |
 | [Shape](../com.aspose.slides/shape) | Represents a shape on a slide. |
+| [ShapeAdjustmentType](../com.aspose.slides/shapeadjustmenttype) | Specifies different types of shape adjustment values. |
 | [ShapeBevel](../com.aspose.slides/shapebevel) | Contains the properties of shape's main face relief. |
 | [ShapeCollection](../com.aspose.slides/shapecollection) | Represents a collection of a shapes. |
 | [ShapeElement](../com.aspose.slides/shapeelement) | Represents a part of shape with same outline and fill properties. |
@@ -541,6 +544,8 @@ url: /com.aspose.slides/
 | [SlideSizeType](../com.aspose.slides/slidesizetype) | Represents the slide size preset. |
 | [SlideThemeManager](../com.aspose.slides/slidethememanager) | Provides access to slide theme overriden. |
 | [SlideUtil](../com.aspose.slides/slideutil) | Offer methods which help to search shapes and text in a presentation. |
+| [SlidesAIAgent](../com.aspose.slides/slidesaiagent) | Provides AI-powered features for processing presentations. |
+| [SlidesAIAgentException](../com.aspose.slides/slidesaiagentexception) | Represents Slides AI Agent related exceptions. |
 | [SlidesRange](../com.aspose.slides/slidesrange) | Slides range |
 | [SmartArt](../com.aspose.slides/smartart) | Represents a SmartArt diagram |
 | [SmartArtColorType](../com.aspose.slides/smartartcolortype) | Represents color scheme of a SmartArt diagram. |
@@ -656,6 +661,7 @@ url: /com.aspose.slides/
 
 | Interface | Description |
 | --- | --- |
+| [IAIWebClient](../com.aspose.slides/iaiwebclient) | AI Web client interface. |
 | [IAccessiblePVIObject<T>](../com.aspose.slides/iaccessiblepviobject) | Represents a type that can return corresponding effective data with the inheritance applied. |
 | [IActualLayout](../com.aspose.slides/iactuallayout) | Specifies actual position of a chart element. |
 | [IAdjustValue](../com.aspose.slides/iadjustvalue) | Represents a geometry shape's adjustment value. |
@@ -870,7 +876,7 @@ url: /com.aspose.slides/
 | [IHyperlinkContainer](../com.aspose.slides/ihyperlinkcontainer) | Represents hyperlink object. |
 | [IHyperlinkManager](../com.aspose.slides/ihyperlinkmanager) | Provide hyperlinks management (adding, removing). |
 | [IHyperlinkQueries](../com.aspose.slides/ihyperlinkqueries) | Provide easy access to contained hyperlinks. |
-| [IImage](../com.aspose.slides/iimage) | Represents the raster or vector image. |
+| [IImage](../com.aspose.slides/iimage) | Represents a raster or vector image. |
 | [IImageCollection](../com.aspose.slides/iimagecollection) | Represents collection of PPImage. |
 | [IImageTransformOCollectionEffectiveData](../com.aspose.slides/iimagetransformocollectioneffectivedata) | Immutable object that represents a readonly collection of effective image transform effects. |
 | [IImageTransformOperation](../com.aspose.slides/iimagetransformoperation) | Represents abstract image transformation effect. |

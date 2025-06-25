@@ -98,7 +98,7 @@ Gets or sets the brush size for a line in points.
 >      IInk ink = (IInk)pres.getSlides().get_Item(0).getShapes().get_Item(0);
 >      IInkTrace[] traces = ink.getTraces();
 >      IInkBrush brush = traces[0].getBrush();
->      Dimension2D brushSize = brush.getSize();
+>      SizeF brushSize = brush.getSize();
 >      brush.setSize(new com.aspose.slides.android.Size(5, 10));
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -125,7 +125,7 @@ Gets or sets the brush size for a line in points.
 >      IInk ink = (IInk)pres.getSlides().get_Item(0).getShapes().get_Item(0);
 >      IInkTrace[] traces = ink.getTraces();
 >      IInkBrush brush = traces[0].getBrush();
->      Dimension2D brushSize = brush.getSize();
+>      SizeF brushSize = brush.getSize();
 >      brush.setSize(new com.aspose.slides.android.Size(5, 10));
 >  } finally {
 >      if (pres != null) pres.dispose();

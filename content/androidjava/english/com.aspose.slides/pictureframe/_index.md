@@ -53,6 +53,7 @@ Represents a frame with a picture inside.
 | [setRelativeScaleHeight(float value)](#setRelativeScaleHeight-float-) | Returns or sets the scale of height(relative to original picture size) of the picture frame. |
 | [getRelativeScaleWidth()](#getRelativeScaleWidth--) | Returns or sets the scale of width (relative to original picture size) of the picture frame. |
 | [setRelativeScaleWidth(float value)](#setRelativeScaleWidth-float-) | Returns or sets the scale of width (relative to original picture size) of the picture frame. |
+| [isCameo()](#isCameo--) | Determines whether the PictureFrame is Cameo object or not. |
 ### getPictureFrameLock() {#getPictureFrameLock--}
 ```
 public final IPictureFrameLock getPictureFrameLock()
@@ -186,3 +187,13 @@ Returns or sets the scale of width (relative to original picture size) of the pi
 | --- | --- | --- |
 | value | float |  |
 
+### isCameo() {#isCameo--}
+```
+public final boolean isCameo()
+```
+
+
+Determines whether the PictureFrame is Cameo object or not. Read only boolean.
+
+**Returns:**
+boolean

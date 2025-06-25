@@ -1,7 +1,7 @@
 ---
 title: IImage
 second_title: Aspose.Slides for Android via Java API Reference
-description: Represents the raster or vector image.
+description: Represents a raster or vector image.
 type: docs
 url: /com.aspose.slides/iimage/
 ---
@@ -11,31 +11,35 @@ com.aspose.ms.System.IDisposable
 public interface IImage extends System.IDisposable
 ```
 
-Represents the raster or vector image.
+Represents a raster or vector image.
+
+--------------------
+
+This interface provides a common abstraction for handling both raster and vector images. Implementations may vary depending on the underlying image type.
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [save(String filename)](#save-java.lang.String-) | Save the image to the file. |
-| [save(String filename, int format)](#save-java.lang.String-int-) | Save the image to the file. |
-| [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | Save the image to the stream. |
-| [save(String filename, int format, int quality)](#save-java.lang.String-int-int-) | Save the image to the file in the specified format and quality. |
-| [save(OutputStream stream, int format, int quality)](#save-java.io.OutputStream-int-int-) | Save the image to the stream in the specified format and quality. |
-| [getSize()](#getSize--) | Gets an image size. |
-| [getWidth()](#getWidth--) | Gets the width of the image. |
-| [getHeight()](#getHeight--) | Gets the height of the image. |
+| [save(String filename)](#save-java.lang.String-) | Saves the image to a file. |
+| [save(String filename, int format)](#save-java.lang.String-int-) | Saves the image to a file in the specified format. |
+| [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | Saves the image to a stream in the specified format. |
+| [save(String filename, int format, int quality)](#save-java.lang.String-int-int-) | Saves the image to a file in the specified format and quality. |
+| [save(OutputStream stream, int format, int quality)](#save-java.io.OutputStream-int-int-) | Saves the image to a stream in the specified format and quality. |
+| [getSize()](#getSize--) | Gets the size of the image. |
+| [getWidth()](#getWidth--) | Gets the width of the image in pixels. |
+| [getHeight()](#getHeight--) | Gets the height of the image in pixels. |
 ### save(String filename) {#save-java.lang.String-}
 ```
 public abstract void save(String filename)
 ```
 
 
-Save the image to the file.
+Saves the image to a file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filename | java.lang.String |  |
+| filename | java.lang.String | The path to the file where the image will be saved. |
 
 ### save(String filename, int format) {#save-java.lang.String-int-}
 ```
@@ -43,13 +47,13 @@ public abstract void save(String filename, int format)
 ```
 
 
-Save the image to the file.
+Saves the image to a file in the specified format.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filename | java.lang.String |  |
-| format | int |  |
+| filename | java.lang.String | The path to the file where the image will be saved. |
+| format | int | The image format. |
 
 ### save(OutputStream stream, int format) {#save-java.io.OutputStream-int-}
 ```
@@ -57,13 +61,13 @@ public abstract void save(OutputStream stream, int format)
 ```
 
 
-Save the image to the stream.
+Saves the image to a stream in the specified format.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.OutputStream |  |
-| format | int |  |
+| stream | java.io.OutputStream | The stream where the image will be saved. |
+| format | int | The image format. |
 
 ### save(String filename, int format, int quality) {#save-java.lang.String-int-int-}
 ```
@@ -71,20 +75,14 @@ public abstract void save(String filename, int format, int quality)
 ```
 
 
-Save the image to the file in the specified format and quality.
-
---------------------
-
-The quality parameter can take values from 0 to 100 and only affects saving in ImageFormat.Jpeg.
-
-For all other formats, this parameter is ignored.
+Saves the image to a file in the specified format and quality.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filename | java.lang.String |  |
-| format | int |  |
-| quality | int |  |
+| filename | java.lang.String | The path to the file where the image will be saved. |
+| format | int | The image format. |
+| quality | int | The quality of the saved image (0 to 100). This parameter only affects saving in [ImageFormat.Jpeg](../../com.aspose.slides/imageformat\#Jpeg); for all other formats, it is ignored. |
 
 ### save(OutputStream stream, int format, int quality) {#save-java.io.OutputStream-int-int-}
 ```
@@ -92,20 +90,14 @@ public abstract void save(OutputStream stream, int format, int quality)
 ```
 
 
-Save the image to the stream in the specified format and quality.
-
---------------------
-
-The quality parameter can take values from 0 to 100 and only affects saving in ImageFormat.Jpeg.
-
-For all other formats, this parameter is ignored.
+Saves the image to a stream in the specified format and quality.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.OutputStream |  |
-| format | int |  |
-| quality | int |  |
+| stream | java.io.OutputStream | The stream where the image will be saved. |
+| format | int | The image format. |
+| quality | int | The quality of the saved image (0 to 100). This parameter only affects saving in [ImageFormat.Jpeg](../../com.aspose.slides/imageformat\#Jpeg); for all other formats, it is ignored. |
 
 ### getSize() {#getSize--}
 ```
@@ -113,7 +105,7 @@ public abstract Size getSize()
 ```
 
 
-Gets an image size.
+Gets the size of the image.
 
 **Returns:**
 [Size](../../com.aspose.slides.android/size)
@@ -123,7 +115,7 @@ public abstract int getWidth()
 ```
 
 
-Gets the width of the image.
+Gets the width of the image in pixels.
 
 **Returns:**
 int
@@ -133,7 +125,7 @@ public abstract int getHeight()
 ```
 
 
-Gets the height of the image.
+Gets the height of the image in pixels.
 
 **Returns:**
 int
