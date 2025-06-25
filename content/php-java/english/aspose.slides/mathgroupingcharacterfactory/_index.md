@@ -52,13 +52,13 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathMatrix](../mathmatrix), char, int, int) | Creates a math grouping character |
+| createMathGroupingCharacter ([MathLimit](../mathlimit), char, int, int) | Creates a math grouping character |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathMatrix](../mathmatrix) | math element to apply grouping character |
+| element | [MathLimit](../mathlimit) | math element to apply grouping character |
 | character | char | grouping character |
 | position | int | position of grouping character |
 | verticalJustification | int | vertical justification |
@@ -74,13 +74,13 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathLimit](../mathlimit), char, int, int) | Creates a math grouping character |
+| createMathGroupingCharacter ([MathMatrix](../mathmatrix), char, int, int) | Creates a math grouping character |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathLimit](../mathlimit) | math element to apply grouping character |
+| element | [MathMatrix](../mathmatrix) | math element to apply grouping character |
 | character | char | grouping character |
 | position | int | position of grouping character |
 | verticalJustification | int | vertical justification |
@@ -360,28 +360,6 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathFraction](../mathfraction), char, int, int) | Creates a math grouping character |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFraction](../mathfraction) | math element to apply grouping character |
-| character | char | grouping character |
-| position | int | position of grouping character |
-| verticalJustification | int | vertical justification |
-
- **Returns:**
-[MathGroupingCharacter](../mathgroupingcharacter)
-
-
----
-
-
-### createMathGroupingCharacter {#createMathGroupingCharacter}
-
-| Name | Description |
-| --- | --- |
 | createMathGroupingCharacter ([MathematicalText](../mathematicaltext), char, int, int) | Creates a math grouping character |
 
  **Parameters:**
@@ -426,13 +404,13 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathBox](../mathbox), char, int, int) | Creates a math grouping character |
+| createMathGroupingCharacter ([MathFraction](../mathfraction), char, int, int) | Creates a math grouping character |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBox](../mathbox) | math element to apply grouping character |
+| element | [MathFraction](../mathfraction) | math element to apply grouping character |
 | character | char | grouping character |
 | position | int | position of grouping character |
 | verticalJustification | int | vertical justification |
@@ -455,6 +433,28 @@ MathGroupingCharacterFactory
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathElementBase](../mathelementbase) | math element to apply grouping character |
+| character | char | grouping character |
+| position | int | position of grouping character |
+| verticalJustification | int | vertical justification |
+
+ **Returns:**
+[MathGroupingCharacter](../mathgroupingcharacter)
+
+
+---
+
+
+### createMathGroupingCharacter {#createMathGroupingCharacter}
+
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter ([MathBox](../mathbox), char, int, int) | Creates a math grouping character |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBox](../mathbox) | math element to apply grouping character |
 | character | char | grouping character |
 | position | int | position of grouping character |
 | verticalJustification | int | vertical justification |
@@ -511,13 +511,13 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathMatrix](../mathmatrix)) | Creates a math grouping character |
+| createMathGroupingCharacter ([MathLimit](../mathlimit)) | Creates a math grouping character |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathMatrix](../mathmatrix) | math element to apply grouping character |
+| element | [MathLimit](../mathlimit) | math element to apply grouping character |
 
  **Returns:**
 [MathGroupingCharacter](../mathgroupingcharacter)
@@ -530,13 +530,13 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathLimit](../mathlimit)) | Creates a math grouping character |
+| createMathGroupingCharacter ([MathMatrix](../mathmatrix)) | Creates a math grouping character |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathLimit](../mathlimit) | math element to apply grouping character |
+| element | [MathMatrix](../mathmatrix) | math element to apply grouping character |
 
  **Returns:**
 [MathGroupingCharacter](../mathgroupingcharacter)
@@ -777,25 +777,6 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathFraction](../mathfraction)) | Creates a math grouping character |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFraction](../mathfraction) | math element to apply grouping character |
-
- **Returns:**
-[MathGroupingCharacter](../mathgroupingcharacter)
-
-
----
-
-
-### createMathGroupingCharacter {#createMathGroupingCharacter}
-
-| Name | Description |
-| --- | --- |
 | createMathGroupingCharacter ([MathematicalText](../mathematicaltext)) | Creates a math grouping character |
 
  **Parameters:**
@@ -834,13 +815,13 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathBox](../mathbox)) | Creates a math grouping character |
+| createMathGroupingCharacter ([MathFraction](../mathfraction)) | Creates a math grouping character |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBox](../mathbox) | math element to apply grouping character |
+| element | [MathFraction](../mathfraction) | math element to apply grouping character |
 
  **Returns:**
 [MathGroupingCharacter](../mathgroupingcharacter)
@@ -860,6 +841,25 @@ MathGroupingCharacterFactory
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathElementBase](../mathelementbase) | math element to apply grouping character |
+
+ **Returns:**
+[MathGroupingCharacter](../mathgroupingcharacter)
+
+
+---
+
+
+### createMathGroupingCharacter {#createMathGroupingCharacter}
+
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter ([MathBox](../mathbox)) | Creates a math grouping character |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBox](../mathbox) | math element to apply grouping character |
 
  **Returns:**
 [MathGroupingCharacter](../mathgroupingcharacter)

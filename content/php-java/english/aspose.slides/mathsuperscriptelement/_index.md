@@ -29,7 +29,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -42,7 +42,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -211,19 +211,6 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
 | MathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
@@ -250,7 +237,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -276,280 +263,20 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
+| MathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
 | MathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathBlock](../mathblock)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathRadical](../mathradical)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathArray](../matharray)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathBar](../mathbar)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathFunction](../mathfunction)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathMatrix](../mathmatrix), [BaseScript](../basescript)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -575,7 +302,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathLimit](../mathlimit), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathLimit](../mathlimit), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -588,7 +315,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathLimit](../mathlimit), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathLimit](../mathlimit), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -757,19 +484,6 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
 | MathSuperscriptElement([MathLimit](../mathlimit), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
@@ -796,7 +510,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathLimit](../mathlimit), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -822,7 +536,293 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
+| MathSuperscriptElement([MathLimit](../mathlimit), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
 | MathSuperscriptElement([MathLimit](../mathlimit), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathBlock](../mathblock)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathRadical](../mathradical)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathArray](../matharray)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathBar](../mathbar)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathFunction](../mathfunction)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathMatrix](../mathmatrix), [BaseScript](../basescript)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -848,7 +848,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBlock](../mathblock), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathBlock](../mathblock), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -861,7 +861,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBlock](../mathblock), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathBlock](../mathblock), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -1030,19 +1030,6 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBlock](../mathblock), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
 | MathSuperscriptElement([MathBlock](../mathblock), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
@@ -1069,7 +1056,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBlock](../mathblock), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathBlock](../mathblock), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -1083,6 +1070,19 @@ MathSuperscriptElement
 | Name | Description |
 | --- | --- |
 | MathSuperscriptElement([MathBlock](../mathblock), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathBlock](../mathblock), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -1121,7 +1121,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathRadical](../mathradical), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathRadical](../mathradical), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -1134,7 +1134,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathRadical](../mathradical), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathRadical](../mathradical), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -1303,19 +1303,6 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathRadical](../mathradical), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
 | MathSuperscriptElement([MathRadical](../mathradical), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
@@ -1342,7 +1329,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathRadical](../mathradical), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathRadical](../mathradical), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -1356,6 +1343,19 @@ MathSuperscriptElement
 | Name | Description |
 | --- | --- |
 | MathSuperscriptElement([MathRadical](../mathradical), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathRadical](../mathradical), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -1394,7 +1394,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathArray](../matharray), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathArray](../matharray), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -1407,7 +1407,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathArray](../matharray), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathArray](../matharray), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -1576,19 +1576,6 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathArray](../matharray), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
 | MathSuperscriptElement([MathArray](../matharray), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
@@ -1615,7 +1602,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathArray](../matharray), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathArray](../matharray), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -1629,6 +1616,19 @@ MathSuperscriptElement
 | Name | Description |
 | --- | --- |
 | MathSuperscriptElement([MathArray](../matharray), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathArray](../matharray), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -1667,7 +1667,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -1680,7 +1680,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -1849,19 +1849,6 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
 | MathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
@@ -1888,7 +1875,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -1902,6 +1889,19 @@ MathSuperscriptElement
 | Name | Description |
 | --- | --- |
 | MathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -1940,7 +1940,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -1953,7 +1953,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -2122,19 +2122,6 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
 | MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
@@ -2161,7 +2148,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -2175,6 +2162,19 @@ MathSuperscriptElement
 | Name | Description |
 | --- | --- |
 | MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -2213,7 +2213,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathAccent](../mathaccent), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathAccent](../mathaccent), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -2226,7 +2226,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathAccent](../mathaccent), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathAccent](../mathaccent), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -2395,19 +2395,6 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
 | MathSuperscriptElement([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
@@ -2434,7 +2421,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathAccent](../mathaccent), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -2448,6 +2435,19 @@ MathSuperscriptElement
 | Name | Description |
 | --- | --- |
 | MathSuperscriptElement([MathAccent](../mathaccent), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathAccent](../mathaccent), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -2486,7 +2486,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBorderBox](../mathborderbox), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathBorderBox](../mathborderbox), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -2499,7 +2499,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBorderBox](../mathborderbox), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathBorderBox](../mathborderbox), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -2668,19 +2668,6 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
 | MathSuperscriptElement([MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
@@ -2707,7 +2694,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBorderBox](../mathborderbox), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -2721,6 +2708,19 @@ MathSuperscriptElement
 | Name | Description |
 | --- | --- |
 | MathSuperscriptElement([MathBorderBox](../mathborderbox), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathBorderBox](../mathborderbox), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -2759,7 +2759,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -2772,7 +2772,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -2941,19 +2941,6 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
 | MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
@@ -2980,7 +2967,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -2994,6 +2981,19 @@ MathSuperscriptElement
 | Name | Description |
 | --- | --- |
 | MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -3032,7 +3032,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBar](../mathbar), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathBar](../mathbar), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -3045,7 +3045,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBar](../mathbar), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathBar](../mathbar), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -3214,19 +3214,6 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBar](../mathbar), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
 | MathSuperscriptElement([MathBar](../mathbar), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
@@ -3253,7 +3240,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBar](../mathbar), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathBar](../mathbar), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -3267,6 +3254,19 @@ MathSuperscriptElement
 | Name | Description |
 | --- | --- |
 | MathSuperscriptElement([MathBar](../mathbar), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathBar](../mathbar), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -3305,7 +3305,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathFunction](../mathfunction), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathFunction](../mathfunction), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -3318,7 +3318,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathFunction](../mathfunction), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathFunction](../mathfunction), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -3487,19 +3487,6 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
 | MathSuperscriptElement([MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
@@ -3526,7 +3513,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathFunction](../mathfunction), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -3540,6 +3527,19 @@ MathSuperscriptElement
 | Name | Description |
 | --- | --- |
 | MathSuperscriptElement([MathFunction](../mathfunction), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathFunction](../mathfunction), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -3578,7 +3578,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -3591,7 +3591,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -3760,19 +3760,6 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
 | MathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
@@ -3799,7 +3786,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -3813,6 +3800,19 @@ MathSuperscriptElement
 | Name | Description |
 | --- | --- |
 | MathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -3851,7 +3851,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -3864,7 +3864,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -4033,19 +4033,6 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
 | MathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
@@ -4072,7 +4059,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -4098,280 +4085,20 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
+| MathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
 | MathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathFraction](../mathfraction), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathFraction](../mathfraction), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathFraction](../mathfraction), [MathBlock](../mathblock)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathFraction](../mathfraction), [MathRadical](../mathradical)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathFraction](../mathfraction), [MathArray](../matharray)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathFraction](../mathfraction), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathFraction](../mathfraction), [MathBar](../mathbar)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathFraction](../mathfraction), [MathFunction](../mathfunction)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathFraction](../mathfraction), [BaseScript](../basescript)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathFraction](../mathfraction), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathFraction](../mathfraction), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -4397,7 +4124,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathematicalText](../mathematicaltext), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -4410,7 +4137,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathematicalText](../mathematicaltext), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -4579,19 +4306,6 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
 | MathSuperscriptElement([MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
@@ -4618,7 +4332,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathematicalText](../mathematicaltext), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -4632,6 +4346,19 @@ MathSuperscriptElement
 | Name | Description |
 | --- | --- |
 | MathSuperscriptElement([MathematicalText](../mathematicaltext), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathematicalText](../mathematicaltext), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -4670,7 +4397,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([BaseScript](../basescript), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([BaseScript](../basescript), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -4683,7 +4410,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([BaseScript](../basescript), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([BaseScript](../basescript), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -4852,19 +4579,6 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([BaseScript](../basescript), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
 | MathSuperscriptElement([BaseScript](../basescript), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
@@ -4891,7 +4605,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([BaseScript](../basescript), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([BaseScript](../basescript), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -4917,6 +4631,19 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
+| MathSuperscriptElement([BaseScript](../basescript), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
 | MathSuperscriptElement([BaseScript](../basescript), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
@@ -4930,7 +4657,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBox](../mathbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -4943,7 +4670,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBox](../mathbox), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathFraction](../mathfraction), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -4956,7 +4683,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBox](../mathbox), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathFraction](../mathfraction), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -4969,7 +4696,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBox](../mathbox), [MathBlock](../mathblock)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathFraction](../mathfraction), [MathBlock](../mathblock)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -4982,7 +4709,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBox](../mathbox), [MathRadical](../mathradical)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathFraction](../mathfraction), [MathRadical](../mathradical)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -4995,7 +4722,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBox](../mathbox), [MathArray](../matharray)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathFraction](../mathfraction), [MathArray](../matharray)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -5008,7 +4735,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBox](../mathbox), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -5021,7 +4748,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -5034,7 +4761,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBox](../mathbox), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -5047,7 +4774,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBox](../mathbox), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathFraction](../mathfraction), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -5060,7 +4787,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBox](../mathbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -5073,7 +4800,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBox](../mathbox), [MathBar](../mathbar)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathFraction](../mathfraction), [MathBar](../mathbar)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -5086,7 +4813,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBox](../mathbox), [MathFunction](../mathfunction)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathFraction](../mathfraction), [MathFunction](../mathfunction)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -5099,7 +4826,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -5112,7 +4839,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBox](../mathbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -5125,7 +4852,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBox](../mathbox), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -5138,7 +4865,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBox](../mathbox), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathFraction](../mathfraction), [BaseScript](../basescript)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -5151,7 +4878,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBox](../mathbox), [BaseScript](../basescript)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -5164,7 +4891,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBox](../mathbox), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathFraction](../mathfraction), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -5177,7 +4904,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBox](../mathbox), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathFraction](../mathfraction), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -5190,7 +4917,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -5216,7 +4943,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathElementBase](../mathelementbase), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathElementBase](../mathelementbase), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -5229,7 +4956,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathElementBase](../mathelementbase), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathElementBase](../mathelementbase), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -5398,19 +5125,6 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathElementBase](../mathelementbase), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
 | MathSuperscriptElement([MathElementBase](../mathelementbase), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
@@ -5437,7 +5151,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathElementBase](../mathelementbase), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathElementBase](../mathelementbase), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -5463,7 +5177,293 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
+| MathSuperscriptElement([MathElementBase](../mathelementbase), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
 | MathSuperscriptElement([MathElementBase](../mathelementbase), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathBox](../mathbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathBox](../mathbox), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathBox](../mathbox), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathBox](../mathbox), [MathBlock](../mathblock)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathBox](../mathbox), [MathRadical](../mathradical)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathBox](../mathbox), [MathArray](../matharray)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathBox](../mathbox), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathBox](../mathbox), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathBox](../mathbox), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathBox](../mathbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathBox](../mathbox), [MathBar](../mathbar)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathBox](../mathbox), [MathFunction](../mathfunction)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathBox](../mathbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathBox](../mathbox), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathBox](../mathbox), [BaseScript](../basescript)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathBox](../mathbox), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathBox](../mathbox), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathBox](../mathbox), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -5489,7 +5489,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -5502,7 +5502,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -5671,19 +5671,6 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Returns:**
-MathSuperscriptElement
-
-
----
-
-
-### MathSuperscriptElement {#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
 | MathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
@@ -5710,7 +5697,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -5724,6 +5711,19 @@ MathSuperscriptElement
 | Name | Description |
 | --- | --- |
 | MathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Returns:**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Returns:**
 MathSuperscriptElement
@@ -5752,7 +5752,7 @@ MathSuperscriptElement
 | getChildren () | Get children elements |
 
  **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix), [MathLimit](../mathlimit), [MathBlock](../mathblock), [MathRadical](../mathradical), [MathArray](../matharray), [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), [MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar), [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathBox](../mathbox), [MathElementBase](../mathelementbase), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit), [MathMatrix](../mathmatrix), [MathBlock](../mathblock), [MathRadical](../mathradical), [MathArray](../matharray), [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), [MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar), [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathFraction](../mathfraction), [MathElementBase](../mathelementbase), [MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
 
 
 ---
@@ -5765,7 +5765,7 @@ MathSuperscriptElement
 | getSuperscript () | Superscript |
 
  **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix), [MathLimit](../mathlimit), [MathBlock](../mathblock), [MathRadical](../mathradical), [MathArray](../matharray), [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), [MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar), [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathBox](../mathbox), [MathElementBase](../mathelementbase), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit), [MathMatrix](../mathmatrix), [MathBlock](../mathblock), [MathRadical](../mathradical), [MathArray](../matharray), [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), [MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar), [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathFraction](../mathfraction), [MathElementBase](../mathelementbase), [MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
 
 
 ---

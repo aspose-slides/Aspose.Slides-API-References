@@ -63,6 +63,19 @@ int
 ---
 
 
+### getHandleRepeatedSpaces {#getHandleRepeatedSpaces}
+
+| Name | Description |
+| --- | --- |
+| getHandleRepeatedSpaces () | Specifies how repeated regular space characters should be handled during Markdown export. This property defines whether consecutive spaces are: - preserved as regular space characters, - alternated between regular spaces and non-breaking space entities (&nbsp;), - or fully replaced (after the first) with a non-breaking space to preserve visual alignment in Markdown output. The default value is HandleRepeatedSpaces#AlternateSpacesToNbsp. |
+
+ **Returns:**
+int
+
+
+---
+
+
 ### getImagesSaveFolderName {#getImagesSaveFolderName}
 
 | Name | Description |
@@ -84,6 +97,19 @@ String
 
  **Returns:**
 int
+
+
+---
+
+
+### getRemoveEmptyLines {#getRemoveEmptyLines}
+
+| Name | Description |
+| --- | --- |
+| getRemoveEmptyLines () | If set to true, removes empty or whitespace-only lines from the final Markdown output. Default is false. |
+
+ **Returns:**
+boolean
 
 
 ---
@@ -128,6 +154,25 @@ boolean
 ---
 
 
+### getSlideNumberFormat {#getSlideNumberFormat}
+
+| Name | Description |
+| --- | --- |
+| getSlideNumberFormat () | Gets or sets the format string used for slide number headers in Markdown output. The format must include the "{0}" placeholder, which will be replaced with the slide index during export. Example: "# Slide {0}" will produce "# Slide 1", "# Slide 2", etc. |
+
+ **Returns:**
+String
+
+ **Exception**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | Thrown if the format string does not contain the "{0}" placeholder. |
+
+
+---
+
+
 ### setBasePath {#setBasePath}
 
 | Name | Description |
@@ -167,6 +212,19 @@ void
 ---
 
 
+### setHandleRepeatedSpaces {#setHandleRepeatedSpaces}
+
+| Name | Description |
+| --- | --- |
+| setHandleRepeatedSpaces (int) | Specifies how repeated regular space characters should be handled during Markdown export. This property defines whether consecutive spaces are: - preserved as regular space characters, - alternated between regular spaces and non-breaking space entities (&nbsp;), - or fully replaced (after the first) with a non-breaking space to preserve visual alignment in Markdown output. The default value is HandleRepeatedSpaces#AlternateSpacesToNbsp. |
+
+ **Returns:**
+void
+
+
+---
+
+
 ### setImagesSaveFolderName {#setImagesSaveFolderName}
 
 | Name | Description |
@@ -185,6 +243,19 @@ void
 | Name | Description |
 | --- | --- |
 | setNewLineType (int) | Specifies whether the generated document should have new lines \\r(Macintosh) of \\n(Unix) or \\r\\n(Windows). Default is Unix. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setRemoveEmptyLines {#setRemoveEmptyLines}
+
+| Name | Description |
+| --- | --- |
+| setRemoveEmptyLines (boolean) | If set to true, removes empty or whitespace-only lines from the final Markdown output. Default is false. |
 
  **Returns:**
 void
@@ -227,6 +298,25 @@ void
 
  **Returns:**
 void
+
+
+---
+
+
+### setSlideNumberFormat {#setSlideNumberFormat}
+
+| Name | Description |
+| --- | --- |
+| setSlideNumberFormat (String) | Gets or sets the format string used for slide number headers in Markdown output. The format must include the "{0}" placeholder, which will be replaced with the slide index during export. Example: "# Slide {0}" will produce "# Slide 1", "# Slide 2", etc. |
+
+ **Returns:**
+void
+
+ **Exception**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | Thrown if the format string does not contain the "{0}" placeholder. |
 
 
 ---

@@ -42,10 +42,23 @@ String
 
 | Name | Description |
 | --- | --- |
-| getRawValue () | Returns or sets ajustment value "as is". Read/write long. |
+| getRawValue () | Returns or sets adjustment value "as is". Read/write long. |
 
  **Returns:**
 long
+
+
+---
+
+
+### getType {#getType}
+
+| Name | Description |
+| --- | --- |
+| getType () | Returns the type of the shape adjustment. Read-only ShapeAdjustmentType. |
+
+ **Returns:**
+int
 
 
 ---
@@ -68,7 +81,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| setRawValue (long) | Returns or sets ajustment value "as is". Read/write long. |
+| setRawValue (long) | Returns or sets adjustment value "as is". Read/write long. |
 
  **Returns:**
 void

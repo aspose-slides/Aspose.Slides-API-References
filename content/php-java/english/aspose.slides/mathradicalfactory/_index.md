@@ -50,14 +50,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates a math radical |
+| createMathRadical ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply radical |
-| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
+| degreeArgument | [MathLimit](../mathlimit) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -70,14 +70,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit)) | Creates a math radical |
+| createMathRadical ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply radical |
-| degreeArgument | [MathLimit](../mathlimit) | Degree value |
+| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -330,26 +330,6 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply radical |
-| degreeArgument | [MathFraction](../mathfraction) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
 | createMathRadical ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates a math radical |
 
  **Parameters:**
@@ -390,14 +370,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBox](../mathbox)) | Creates a math radical |
+| createMathRadical ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply radical |
-| degreeArgument | [MathBox](../mathbox) | Degree value |
+| degreeArgument | [MathFraction](../mathfraction) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -430,393 +410,13 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math radical |
+| createMathRadical ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBox](../mathbox)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply radical |
-| degreeArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathMatrix](../mathmatrix), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
-| degreeArgument | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathMatrix](../mathmatrix), [MathMatrix](../mathmatrix)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
-| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathMatrix](../mathmatrix), [MathLimit](../mathlimit)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
-| degreeArgument | [MathLimit](../mathlimit) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathMatrix](../mathmatrix), [MathBlock](../mathblock)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
-| degreeArgument | [MathBlock](../mathblock) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathMatrix](../mathmatrix), [MathRadical](../mathradical)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
-| degreeArgument | [MathRadical](../mathradical) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathMatrix](../mathmatrix), [MathArray](../matharray)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
-| degreeArgument | [MathArray](../matharray) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathMatrix](../mathmatrix), [MathDelimiter](../mathdelimiter)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
-| degreeArgument | [MathDelimiter](../mathdelimiter) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
-| degreeArgument | [MathNaryOperator](../mathnaryoperator) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
-| degreeArgument | [MathAccent](../mathaccent) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
-| degreeArgument | [MathBorderBox](../mathborderbox) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathMatrix](../mathmatrix), [MathBar](../mathbar)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
-| degreeArgument | [MathBar](../mathbar) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathMatrix](../mathmatrix), [MathFunction](../mathfunction)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
-| degreeArgument | [MathFunction](../mathfunction) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
-| degreeArgument | [MathSubscriptElement](../mathsubscriptelement) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathMatrix](../mathmatrix), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
-| degreeArgument | [MathSuperscriptElement](../mathsuperscriptelement) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
-| degreeArgument | [MathFraction](../mathfraction) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
-| degreeArgument | [MathematicalText](../mathematicaltext) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathMatrix](../mathmatrix), [BaseScript](../basescript)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
-| degreeArgument | [BaseScript](../basescript) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathMatrix](../mathmatrix), [MathBox](../mathbox)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
 | degreeArgument | [MathBox](../mathbox) | Degree value |
 
  **Returns:**
@@ -830,33 +430,13 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathMatrix](../mathmatrix), [MathElementBase](../mathelementbase)) | Creates a math radical |
+| createMathRadical ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
-| degreeArgument | [MathElementBase](../mathelementbase) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
+| baseArgument | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply radical |
 | degreeArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Degree value |
 
  **Returns:**
@@ -890,14 +470,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathLimit](../mathlimit), [MathMatrix](../mathmatrix)) | Creates a math radical |
+| createMathRadical ([MathLimit](../mathlimit), [MathLimit](../mathlimit)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathLimit](../mathlimit) | Base argument to apply radical |
-| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
+| degreeArgument | [MathLimit](../mathlimit) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -910,14 +490,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathLimit](../mathlimit), [MathLimit](../mathlimit)) | Creates a math radical |
+| createMathRadical ([MathLimit](../mathlimit), [MathMatrix](../mathmatrix)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathLimit](../mathlimit) | Base argument to apply radical |
-| degreeArgument | [MathLimit](../mathlimit) | Degree value |
+| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -1170,26 +750,6 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathLimit](../mathlimit) | Base argument to apply radical |
-| degreeArgument | [MathFraction](../mathfraction) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
 | createMathRadical ([MathLimit](../mathlimit), [MathematicalText](../mathematicaltext)) | Creates a math radical |
 
  **Parameters:**
@@ -1230,14 +790,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathLimit](../mathlimit), [MathBox](../mathbox)) | Creates a math radical |
+| createMathRadical ([MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathLimit](../mathlimit) | Base argument to apply radical |
-| degreeArgument | [MathBox](../mathbox) | Degree value |
+| degreeArgument | [MathFraction](../mathfraction) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -1270,6 +830,26 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
+| createMathRadical ([MathLimit](../mathlimit), [MathBox](../mathbox)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathLimit](../mathlimit) | Base argument to apply radical |
+| degreeArgument | [MathBox](../mathbox) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
 | createMathRadical ([MathLimit](../mathlimit), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math radical |
 
  **Parameters:**
@@ -1277,6 +857,426 @@ MathRadicalFactory
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathLimit](../mathlimit) | Base argument to apply radical |
+| degreeArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathMatrix](../mathmatrix), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
+| degreeArgument | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathMatrix](../mathmatrix), [MathLimit](../mathlimit)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
+| degreeArgument | [MathLimit](../mathlimit) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathMatrix](../mathmatrix), [MathMatrix](../mathmatrix)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
+| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathMatrix](../mathmatrix), [MathBlock](../mathblock)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
+| degreeArgument | [MathBlock](../mathblock) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathMatrix](../mathmatrix), [MathRadical](../mathradical)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
+| degreeArgument | [MathRadical](../mathradical) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathMatrix](../mathmatrix), [MathArray](../matharray)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
+| degreeArgument | [MathArray](../matharray) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathMatrix](../mathmatrix), [MathDelimiter](../mathdelimiter)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
+| degreeArgument | [MathDelimiter](../mathdelimiter) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
+| degreeArgument | [MathNaryOperator](../mathnaryoperator) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
+| degreeArgument | [MathAccent](../mathaccent) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
+| degreeArgument | [MathBorderBox](../mathborderbox) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathMatrix](../mathmatrix), [MathBar](../mathbar)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
+| degreeArgument | [MathBar](../mathbar) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathMatrix](../mathmatrix), [MathFunction](../mathfunction)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
+| degreeArgument | [MathFunction](../mathfunction) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
+| degreeArgument | [MathSubscriptElement](../mathsubscriptelement) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathMatrix](../mathmatrix), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
+| degreeArgument | [MathSuperscriptElement](../mathsuperscriptelement) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
+| degreeArgument | [MathematicalText](../mathematicaltext) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathMatrix](../mathmatrix), [BaseScript](../basescript)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
+| degreeArgument | [BaseScript](../basescript) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
+| degreeArgument | [MathFraction](../mathfraction) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathMatrix](../mathmatrix), [MathElementBase](../mathelementbase)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
+| degreeArgument | [MathElementBase](../mathelementbase) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathMatrix](../mathmatrix), [MathBox](../mathbox)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
+| degreeArgument | [MathBox](../mathbox) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
 | degreeArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Degree value |
 
  **Returns:**
@@ -1310,14 +1310,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathBlock](../mathblock), [MathMatrix](../mathmatrix)) | Creates a math radical |
+| createMathRadical ([MathBlock](../mathblock), [MathLimit](../mathlimit)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathBlock](../mathblock) | Base argument to apply radical |
-| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
+| degreeArgument | [MathLimit](../mathlimit) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -1330,14 +1330,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathBlock](../mathblock), [MathLimit](../mathlimit)) | Creates a math radical |
+| createMathRadical ([MathBlock](../mathblock), [MathMatrix](../mathmatrix)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathBlock](../mathblock) | Base argument to apply radical |
-| degreeArgument | [MathLimit](../mathlimit) | Degree value |
+| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -1590,26 +1590,6 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathBlock](../mathblock), [MathFraction](../mathfraction)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathBlock](../mathblock) | Base argument to apply radical |
-| degreeArgument | [MathFraction](../mathfraction) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
 | createMathRadical ([MathBlock](../mathblock), [MathematicalText](../mathematicaltext)) | Creates a math radical |
 
  **Parameters:**
@@ -1650,14 +1630,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathBlock](../mathblock), [MathBox](../mathbox)) | Creates a math radical |
+| createMathRadical ([MathBlock](../mathblock), [MathFraction](../mathfraction)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathBlock](../mathblock) | Base argument to apply radical |
-| degreeArgument | [MathBox](../mathbox) | Degree value |
+| degreeArgument | [MathFraction](../mathfraction) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -1678,6 +1658,26 @@ MathRadicalFactory
 | --- | --- | --- |
 | baseArgument | [MathBlock](../mathblock) | Base argument to apply radical |
 | degreeArgument | [MathElementBase](../mathelementbase) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathBlock](../mathblock), [MathBox](../mathbox)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBlock](../mathblock) | Base argument to apply radical |
+| degreeArgument | [MathBox](../mathbox) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -1730,14 +1730,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathRadical](../mathradical), [MathMatrix](../mathmatrix)) | Creates a math radical |
+| createMathRadical ([MathRadical](../mathradical), [MathLimit](../mathlimit)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathRadical](../mathradical) | Base argument to apply radical |
-| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
+| degreeArgument | [MathLimit](../mathlimit) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -1750,14 +1750,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathRadical](../mathradical), [MathLimit](../mathlimit)) | Creates a math radical |
+| createMathRadical ([MathRadical](../mathradical), [MathMatrix](../mathmatrix)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathRadical](../mathradical) | Base argument to apply radical |
-| degreeArgument | [MathLimit](../mathlimit) | Degree value |
+| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -2010,26 +2010,6 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathRadical](../mathradical), [MathFraction](../mathfraction)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathRadical](../mathradical) | Base argument to apply radical |
-| degreeArgument | [MathFraction](../mathfraction) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
 | createMathRadical ([MathRadical](../mathradical), [MathematicalText](../mathematicaltext)) | Creates a math radical |
 
  **Parameters:**
@@ -2070,14 +2050,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathRadical](../mathradical), [MathBox](../mathbox)) | Creates a math radical |
+| createMathRadical ([MathRadical](../mathradical), [MathFraction](../mathfraction)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathRadical](../mathradical) | Base argument to apply radical |
-| degreeArgument | [MathBox](../mathbox) | Degree value |
+| degreeArgument | [MathFraction](../mathfraction) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -2098,6 +2078,26 @@ MathRadicalFactory
 | --- | --- | --- |
 | baseArgument | [MathRadical](../mathradical) | Base argument to apply radical |
 | degreeArgument | [MathElementBase](../mathelementbase) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathRadical](../mathradical), [MathBox](../mathbox)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathRadical](../mathradical) | Base argument to apply radical |
+| degreeArgument | [MathBox](../mathbox) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -2150,14 +2150,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathArray](../matharray), [MathMatrix](../mathmatrix)) | Creates a math radical |
+| createMathRadical ([MathArray](../matharray), [MathLimit](../mathlimit)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathArray](../matharray) | Base argument to apply radical |
-| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
+| degreeArgument | [MathLimit](../mathlimit) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -2170,14 +2170,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathArray](../matharray), [MathLimit](../mathlimit)) | Creates a math radical |
+| createMathRadical ([MathArray](../matharray), [MathMatrix](../mathmatrix)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathArray](../matharray) | Base argument to apply radical |
-| degreeArgument | [MathLimit](../mathlimit) | Degree value |
+| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -2430,26 +2430,6 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathArray](../matharray), [MathFraction](../mathfraction)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathArray](../matharray) | Base argument to apply radical |
-| degreeArgument | [MathFraction](../mathfraction) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
 | createMathRadical ([MathArray](../matharray), [MathematicalText](../mathematicaltext)) | Creates a math radical |
 
  **Parameters:**
@@ -2490,14 +2470,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathArray](../matharray), [MathBox](../mathbox)) | Creates a math radical |
+| createMathRadical ([MathArray](../matharray), [MathFraction](../mathfraction)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathArray](../matharray) | Base argument to apply radical |
-| degreeArgument | [MathBox](../mathbox) | Degree value |
+| degreeArgument | [MathFraction](../mathfraction) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -2518,6 +2498,26 @@ MathRadicalFactory
 | --- | --- | --- |
 | baseArgument | [MathArray](../matharray) | Base argument to apply radical |
 | degreeArgument | [MathElementBase](../mathelementbase) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathArray](../matharray), [MathBox](../mathbox)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathArray](../matharray) | Base argument to apply radical |
+| degreeArgument | [MathBox](../mathbox) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -2570,14 +2570,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathDelimiter](../mathdelimiter), [MathMatrix](../mathmatrix)) | Creates a math radical |
+| createMathRadical ([MathDelimiter](../mathdelimiter), [MathLimit](../mathlimit)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathDelimiter](../mathdelimiter) | Base argument to apply radical |
-| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
+| degreeArgument | [MathLimit](../mathlimit) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -2590,14 +2590,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathDelimiter](../mathdelimiter), [MathLimit](../mathlimit)) | Creates a math radical |
+| createMathRadical ([MathDelimiter](../mathdelimiter), [MathMatrix](../mathmatrix)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathDelimiter](../mathdelimiter) | Base argument to apply radical |
-| degreeArgument | [MathLimit](../mathlimit) | Degree value |
+| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -2850,26 +2850,6 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathDelimiter](../mathdelimiter) | Base argument to apply radical |
-| degreeArgument | [MathFraction](../mathfraction) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
 | createMathRadical ([MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext)) | Creates a math radical |
 
  **Parameters:**
@@ -2910,14 +2890,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathDelimiter](../mathdelimiter), [MathBox](../mathbox)) | Creates a math radical |
+| createMathRadical ([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathDelimiter](../mathdelimiter) | Base argument to apply radical |
-| degreeArgument | [MathBox](../mathbox) | Degree value |
+| degreeArgument | [MathFraction](../mathfraction) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -2938,6 +2918,26 @@ MathRadicalFactory
 | --- | --- | --- |
 | baseArgument | [MathDelimiter](../mathdelimiter) | Base argument to apply radical |
 | degreeArgument | [MathElementBase](../mathelementbase) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathDelimiter](../mathdelimiter), [MathBox](../mathbox)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathDelimiter](../mathdelimiter) | Base argument to apply radical |
+| degreeArgument | [MathBox](../mathbox) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -2990,14 +2990,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Creates a math radical |
+| createMathRadical ([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathNaryOperator](../mathnaryoperator) | Base argument to apply radical |
-| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
+| degreeArgument | [MathLimit](../mathlimit) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -3010,14 +3010,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Creates a math radical |
+| createMathRadical ([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathNaryOperator](../mathnaryoperator) | Base argument to apply radical |
-| degreeArgument | [MathLimit](../mathlimit) | Degree value |
+| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -3270,26 +3270,6 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathNaryOperator](../mathnaryoperator) | Base argument to apply radical |
-| degreeArgument | [MathFraction](../mathfraction) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
 | createMathRadical ([MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Creates a math radical |
 
  **Parameters:**
@@ -3330,14 +3310,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Creates a math radical |
+| createMathRadical ([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathNaryOperator](../mathnaryoperator) | Base argument to apply radical |
-| degreeArgument | [MathBox](../mathbox) | Degree value |
+| degreeArgument | [MathFraction](../mathfraction) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -3358,6 +3338,26 @@ MathRadicalFactory
 | --- | --- | --- |
 | baseArgument | [MathNaryOperator](../mathnaryoperator) | Base argument to apply radical |
 | degreeArgument | [MathElementBase](../mathelementbase) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathNaryOperator](../mathnaryoperator) | Base argument to apply radical |
+| degreeArgument | [MathBox](../mathbox) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -3410,14 +3410,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathAccent](../mathaccent), [MathMatrix](../mathmatrix)) | Creates a math radical |
+| createMathRadical ([MathAccent](../mathaccent), [MathLimit](../mathlimit)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathAccent](../mathaccent) | Base argument to apply radical |
-| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
+| degreeArgument | [MathLimit](../mathlimit) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -3430,14 +3430,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathAccent](../mathaccent), [MathLimit](../mathlimit)) | Creates a math radical |
+| createMathRadical ([MathAccent](../mathaccent), [MathMatrix](../mathmatrix)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathAccent](../mathaccent) | Base argument to apply radical |
-| degreeArgument | [MathLimit](../mathlimit) | Degree value |
+| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -3690,26 +3690,6 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathAccent](../mathaccent) | Base argument to apply radical |
-| degreeArgument | [MathFraction](../mathfraction) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
 | createMathRadical ([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext)) | Creates a math radical |
 
  **Parameters:**
@@ -3750,14 +3730,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathAccent](../mathaccent), [MathBox](../mathbox)) | Creates a math radical |
+| createMathRadical ([MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathAccent](../mathaccent) | Base argument to apply radical |
-| degreeArgument | [MathBox](../mathbox) | Degree value |
+| degreeArgument | [MathFraction](../mathfraction) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -3778,6 +3758,26 @@ MathRadicalFactory
 | --- | --- | --- |
 | baseArgument | [MathAccent](../mathaccent) | Base argument to apply radical |
 | degreeArgument | [MathElementBase](../mathelementbase) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathAccent](../mathaccent), [MathBox](../mathbox)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathAccent](../mathaccent) | Base argument to apply radical |
+| degreeArgument | [MathBox](../mathbox) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -3830,14 +3830,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathBorderBox](../mathborderbox), [MathMatrix](../mathmatrix)) | Creates a math radical |
+| createMathRadical ([MathBorderBox](../mathborderbox), [MathLimit](../mathlimit)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathBorderBox](../mathborderbox) | Base argument to apply radical |
-| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
+| degreeArgument | [MathLimit](../mathlimit) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -3850,14 +3850,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathBorderBox](../mathborderbox), [MathLimit](../mathlimit)) | Creates a math radical |
+| createMathRadical ([MathBorderBox](../mathborderbox), [MathMatrix](../mathmatrix)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathBorderBox](../mathborderbox) | Base argument to apply radical |
-| degreeArgument | [MathLimit](../mathlimit) | Degree value |
+| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -4110,26 +4110,6 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathBorderBox](../mathborderbox) | Base argument to apply radical |
-| degreeArgument | [MathFraction](../mathfraction) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
 | createMathRadical ([MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext)) | Creates a math radical |
 
  **Parameters:**
@@ -4170,14 +4150,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathBorderBox](../mathborderbox), [MathBox](../mathbox)) | Creates a math radical |
+| createMathRadical ([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathBorderBox](../mathborderbox) | Base argument to apply radical |
-| degreeArgument | [MathBox](../mathbox) | Degree value |
+| degreeArgument | [MathFraction](../mathfraction) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -4198,6 +4178,26 @@ MathRadicalFactory
 | --- | --- | --- |
 | baseArgument | [MathBorderBox](../mathborderbox) | Base argument to apply radical |
 | degreeArgument | [MathElementBase](../mathelementbase) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathBorderBox](../mathborderbox), [MathBox](../mathbox)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBorderBox](../mathborderbox) | Base argument to apply radical |
+| degreeArgument | [MathBox](../mathbox) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -4250,14 +4250,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathGroupingCharacter](../mathgroupingcharacter), [MathMatrix](../mathmatrix)) | Creates a math radical |
+| createMathRadical ([MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
-| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
+| degreeArgument | [MathLimit](../mathlimit) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -4270,14 +4270,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit)) | Creates a math radical |
+| createMathRadical ([MathGroupingCharacter](../mathgroupingcharacter), [MathMatrix](../mathmatrix)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
-| degreeArgument | [MathLimit](../mathlimit) | Degree value |
+| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -4530,26 +4530,6 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
-| degreeArgument | [MathFraction](../mathfraction) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
 | createMathRadical ([MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext)) | Creates a math radical |
 
  **Parameters:**
@@ -4590,14 +4570,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox)) | Creates a math radical |
+| createMathRadical ([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
-| degreeArgument | [MathBox](../mathbox) | Degree value |
+| degreeArgument | [MathFraction](../mathfraction) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -4618,6 +4598,26 @@ MathRadicalFactory
 | --- | --- | --- |
 | baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
 | degreeArgument | [MathElementBase](../mathelementbase) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
+| degreeArgument | [MathBox](../mathbox) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -4670,14 +4670,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathBar](../mathbar), [MathMatrix](../mathmatrix)) | Creates a math radical |
+| createMathRadical ([MathBar](../mathbar), [MathLimit](../mathlimit)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathBar](../mathbar) | Base argument to apply radical |
-| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
+| degreeArgument | [MathLimit](../mathlimit) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -4690,14 +4690,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathBar](../mathbar), [MathLimit](../mathlimit)) | Creates a math radical |
+| createMathRadical ([MathBar](../mathbar), [MathMatrix](../mathmatrix)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathBar](../mathbar) | Base argument to apply radical |
-| degreeArgument | [MathLimit](../mathlimit) | Degree value |
+| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -4950,26 +4950,6 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathBar](../mathbar), [MathFraction](../mathfraction)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathBar](../mathbar) | Base argument to apply radical |
-| degreeArgument | [MathFraction](../mathfraction) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
 | createMathRadical ([MathBar](../mathbar), [MathematicalText](../mathematicaltext)) | Creates a math radical |
 
  **Parameters:**
@@ -5010,14 +4990,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathBar](../mathbar), [MathBox](../mathbox)) | Creates a math radical |
+| createMathRadical ([MathBar](../mathbar), [MathFraction](../mathfraction)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathBar](../mathbar) | Base argument to apply radical |
-| degreeArgument | [MathBox](../mathbox) | Degree value |
+| degreeArgument | [MathFraction](../mathfraction) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -5038,6 +5018,26 @@ MathRadicalFactory
 | --- | --- | --- |
 | baseArgument | [MathBar](../mathbar) | Base argument to apply radical |
 | degreeArgument | [MathElementBase](../mathelementbase) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathBar](../mathbar), [MathBox](../mathbox)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBar](../mathbar) | Base argument to apply radical |
+| degreeArgument | [MathBox](../mathbox) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -5090,14 +5090,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathFunction](../mathfunction), [MathMatrix](../mathmatrix)) | Creates a math radical |
+| createMathRadical ([MathFunction](../mathfunction), [MathLimit](../mathlimit)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathFunction](../mathfunction) | Base argument to apply radical |
-| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
+| degreeArgument | [MathLimit](../mathlimit) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -5110,14 +5110,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathFunction](../mathfunction), [MathLimit](../mathlimit)) | Creates a math radical |
+| createMathRadical ([MathFunction](../mathfunction), [MathMatrix](../mathmatrix)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathFunction](../mathfunction) | Base argument to apply radical |
-| degreeArgument | [MathLimit](../mathlimit) | Degree value |
+| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -5370,26 +5370,6 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFunction](../mathfunction) | Base argument to apply radical |
-| degreeArgument | [MathFraction](../mathfraction) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
 | createMathRadical ([MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Creates a math radical |
 
  **Parameters:**
@@ -5430,14 +5410,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathFunction](../mathfunction), [MathBox](../mathbox)) | Creates a math radical |
+| createMathRadical ([MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathFunction](../mathfunction) | Base argument to apply radical |
-| degreeArgument | [MathBox](../mathbox) | Degree value |
+| degreeArgument | [MathFraction](../mathfraction) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -5458,6 +5438,26 @@ MathRadicalFactory
 | --- | --- | --- |
 | baseArgument | [MathFunction](../mathfunction) | Base argument to apply radical |
 | degreeArgument | [MathElementBase](../mathelementbase) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathFunction](../mathfunction), [MathBox](../mathbox)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFunction](../mathfunction) | Base argument to apply radical |
+| degreeArgument | [MathBox](../mathbox) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -5510,14 +5510,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathSubscriptElement](../mathsubscriptelement), [MathMatrix](../mathmatrix)) | Creates a math radical |
+| createMathRadical ([MathSubscriptElement](../mathsubscriptelement), [MathLimit](../mathlimit)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply radical |
-| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
+| degreeArgument | [MathLimit](../mathlimit) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -5530,14 +5530,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathSubscriptElement](../mathsubscriptelement), [MathLimit](../mathlimit)) | Creates a math radical |
+| createMathRadical ([MathSubscriptElement](../mathsubscriptelement), [MathMatrix](../mathmatrix)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply radical |
-| degreeArgument | [MathLimit](../mathlimit) | Degree value |
+| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -5790,26 +5790,6 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply radical |
-| degreeArgument | [MathFraction](../mathfraction) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
 | createMathRadical ([MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext)) | Creates a math radical |
 
  **Parameters:**
@@ -5850,14 +5830,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox)) | Creates a math radical |
+| createMathRadical ([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply radical |
-| degreeArgument | [MathBox](../mathbox) | Degree value |
+| degreeArgument | [MathFraction](../mathfraction) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -5878,6 +5858,26 @@ MathRadicalFactory
 | --- | --- | --- |
 | baseArgument | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply radical |
 | degreeArgument | [MathElementBase](../mathelementbase) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply radical |
+| degreeArgument | [MathBox](../mathbox) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -5930,14 +5930,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates a math radical |
+| createMathRadical ([MathSuperscriptElement](../mathsuperscriptelement), [MathLimit](../mathlimit)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply radical |
-| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
+| degreeArgument | [MathLimit](../mathlimit) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -5950,14 +5950,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathSuperscriptElement](../mathsuperscriptelement), [MathLimit](../mathlimit)) | Creates a math radical |
+| createMathRadical ([MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply radical |
-| degreeArgument | [MathLimit](../mathlimit) | Degree value |
+| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -6210,26 +6210,6 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply radical |
-| degreeArgument | [MathFraction](../mathfraction) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
 | createMathRadical ([MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates a math radical |
 
  **Parameters:**
@@ -6270,14 +6250,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathSuperscriptElement](../mathsuperscriptelement), [MathBox](../mathbox)) | Creates a math radical |
+| createMathRadical ([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply radical |
-| degreeArgument | [MathBox](../mathbox) | Degree value |
+| degreeArgument | [MathFraction](../mathfraction) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -6310,393 +6290,13 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathSuperscriptElement](../mathsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math radical |
+| createMathRadical ([MathSuperscriptElement](../mathsuperscriptelement), [MathBox](../mathbox)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply radical |
-| degreeArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
-| degreeArgument | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathFraction](../mathfraction), [MathMatrix](../mathmatrix)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
-| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathFraction](../mathfraction), [MathLimit](../mathlimit)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
-| degreeArgument | [MathLimit](../mathlimit) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathFraction](../mathfraction), [MathBlock](../mathblock)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
-| degreeArgument | [MathBlock](../mathblock) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathFraction](../mathfraction), [MathRadical](../mathradical)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
-| degreeArgument | [MathRadical](../mathradical) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathFraction](../mathfraction), [MathArray](../matharray)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
-| degreeArgument | [MathArray](../matharray) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
-| degreeArgument | [MathDelimiter](../mathdelimiter) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
-| degreeArgument | [MathNaryOperator](../mathnaryoperator) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
-| degreeArgument | [MathAccent](../mathaccent) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathFraction](../mathfraction), [MathBorderBox](../mathborderbox)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
-| degreeArgument | [MathBorderBox](../mathborderbox) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathFraction](../mathfraction), [MathBar](../mathbar)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
-| degreeArgument | [MathBar](../mathbar) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathFraction](../mathfraction), [MathFunction](../mathfunction)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
-| degreeArgument | [MathFunction](../mathfunction) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
-| degreeArgument | [MathSubscriptElement](../mathsubscriptelement) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
-| degreeArgument | [MathSuperscriptElement](../mathsuperscriptelement) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
-| degreeArgument | [MathFraction](../mathfraction) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
-| degreeArgument | [MathematicalText](../mathematicaltext) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathFraction](../mathfraction), [BaseScript](../basescript)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
-| degreeArgument | [BaseScript](../basescript) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathFraction](../mathfraction), [MathBox](../mathbox)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
 | degreeArgument | [MathBox](../mathbox) | Degree value |
 
  **Returns:**
@@ -6710,33 +6310,13 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathFraction](../mathfraction), [MathElementBase](../mathelementbase)) | Creates a math radical |
+| createMathRadical ([MathSuperscriptElement](../mathsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
-| degreeArgument | [MathElementBase](../mathelementbase) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
+| baseArgument | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply radical |
 | degreeArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Degree value |
 
  **Returns:**
@@ -6770,14 +6350,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix)) | Creates a math radical |
+| createMathRadical ([MathematicalText](../mathematicaltext), [MathLimit](../mathlimit)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
-| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
+| degreeArgument | [MathLimit](../mathlimit) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -6790,14 +6370,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathematicalText](../mathematicaltext), [MathLimit](../mathlimit)) | Creates a math radical |
+| createMathRadical ([MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
-| degreeArgument | [MathLimit](../mathlimit) | Degree value |
+| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -7050,26 +6630,6 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
-| degreeArgument | [MathFraction](../mathfraction) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
 | createMathRadical ([MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext)) | Creates a math radical |
 
  **Parameters:**
@@ -7110,14 +6670,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathematicalText](../mathematicaltext), [MathBox](../mathbox)) | Creates a math radical |
+| createMathRadical ([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
-| degreeArgument | [MathBox](../mathbox) | Degree value |
+| degreeArgument | [MathFraction](../mathfraction) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -7138,6 +6698,26 @@ MathRadicalFactory
 | --- | --- | --- |
 | baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
 | degreeArgument | [MathElementBase](../mathelementbase) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathematicalText](../mathematicaltext), [MathBox](../mathbox)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
+| degreeArgument | [MathBox](../mathbox) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -7190,14 +6770,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([BaseScript](../basescript), [MathMatrix](../mathmatrix)) | Creates a math radical |
+| createMathRadical ([BaseScript](../basescript), [MathLimit](../mathlimit)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [BaseScript](../basescript) | Base argument to apply radical |
-| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
+| degreeArgument | [MathLimit](../mathlimit) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -7210,14 +6790,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([BaseScript](../basescript), [MathLimit](../mathlimit)) | Creates a math radical |
+| createMathRadical ([BaseScript](../basescript), [MathMatrix](../mathmatrix)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [BaseScript](../basescript) | Base argument to apply radical |
-| degreeArgument | [MathLimit](../mathlimit) | Degree value |
+| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -7470,26 +7050,6 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([BaseScript](../basescript), [MathFraction](../mathfraction)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [BaseScript](../basescript) | Base argument to apply radical |
-| degreeArgument | [MathFraction](../mathfraction) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
 | createMathRadical ([BaseScript](../basescript), [MathematicalText](../mathematicaltext)) | Creates a math radical |
 
  **Parameters:**
@@ -7530,14 +7090,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([BaseScript](../basescript), [MathBox](../mathbox)) | Creates a math radical |
+| createMathRadical ([BaseScript](../basescript), [MathFraction](../mathfraction)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [BaseScript](../basescript) | Base argument to apply radical |
-| degreeArgument | [MathBox](../mathbox) | Degree value |
+| degreeArgument | [MathFraction](../mathfraction) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -7570,6 +7130,26 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
+| createMathRadical ([BaseScript](../basescript), [MathBox](../mathbox)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [BaseScript](../basescript) | Base argument to apply radical |
+| degreeArgument | [MathBox](../mathbox) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
 | createMathRadical ([BaseScript](../basescript), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math radical |
 
  **Parameters:**
@@ -7590,13 +7170,13 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathBox](../mathbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a math radical |
+| createMathRadical ([MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
 | degreeArgument | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Degree value |
 
  **Returns:**
@@ -7610,33 +7190,13 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathBox](../mathbox), [MathMatrix](../mathmatrix)) | Creates a math radical |
+| createMathRadical ([MathFraction](../mathfraction), [MathLimit](../mathlimit)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
-| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathBox](../mathbox), [MathLimit](../mathlimit)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
 | degreeArgument | [MathLimit](../mathlimit) | Degree value |
 
  **Returns:**
@@ -7650,13 +7210,33 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathBox](../mathbox), [MathBlock](../mathblock)) | Creates a math radical |
+| createMathRadical ([MathFraction](../mathfraction), [MathMatrix](../mathmatrix)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
+| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathFraction](../mathfraction), [MathBlock](../mathblock)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
 | degreeArgument | [MathBlock](../mathblock) | Degree value |
 
  **Returns:**
@@ -7670,13 +7250,13 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathBox](../mathbox), [MathRadical](../mathradical)) | Creates a math radical |
+| createMathRadical ([MathFraction](../mathfraction), [MathRadical](../mathradical)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
 | degreeArgument | [MathRadical](../mathradical) | Degree value |
 
  **Returns:**
@@ -7690,13 +7270,13 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathBox](../mathbox), [MathArray](../matharray)) | Creates a math radical |
+| createMathRadical ([MathFraction](../mathfraction), [MathArray](../matharray)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
 | degreeArgument | [MathArray](../matharray) | Degree value |
 
  **Returns:**
@@ -7710,13 +7290,13 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathBox](../mathbox), [MathDelimiter](../mathdelimiter)) | Creates a math radical |
+| createMathRadical ([MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
 | degreeArgument | [MathDelimiter](../mathdelimiter) | Degree value |
 
  **Returns:**
@@ -7730,13 +7310,13 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Creates a math radical |
+| createMathRadical ([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
 | degreeArgument | [MathNaryOperator](../mathnaryoperator) | Degree value |
 
  **Returns:**
@@ -7750,13 +7330,13 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathBox](../mathbox), [MathAccent](../mathaccent)) | Creates a math radical |
+| createMathRadical ([MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
 | degreeArgument | [MathAccent](../mathaccent) | Degree value |
 
  **Returns:**
@@ -7770,13 +7350,13 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathBox](../mathbox), [MathBorderBox](../mathborderbox)) | Creates a math radical |
+| createMathRadical ([MathFraction](../mathfraction), [MathBorderBox](../mathborderbox)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
 | degreeArgument | [MathBorderBox](../mathborderbox) | Degree value |
 
  **Returns:**
@@ -7790,13 +7370,13 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathBox](../mathbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math radical |
+| createMathRadical ([MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
 | degreeArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Degree value |
 
  **Returns:**
@@ -7810,13 +7390,13 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathBox](../mathbox), [MathBar](../mathbar)) | Creates a math radical |
+| createMathRadical ([MathFraction](../mathfraction), [MathBar](../mathbar)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
 | degreeArgument | [MathBar](../mathbar) | Degree value |
 
  **Returns:**
@@ -7830,13 +7410,13 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathBox](../mathbox), [MathFunction](../mathfunction)) | Creates a math radical |
+| createMathRadical ([MathFraction](../mathfraction), [MathFunction](../mathfunction)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
 | degreeArgument | [MathFunction](../mathfunction) | Degree value |
 
  **Returns:**
@@ -7850,13 +7430,13 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates a math radical |
+| createMathRadical ([MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
 | degreeArgument | [MathSubscriptElement](../mathsubscriptelement) | Degree value |
 
  **Returns:**
@@ -7870,13 +7450,13 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathBox](../mathbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math radical |
+| createMathRadical ([MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
 | degreeArgument | [MathSuperscriptElement](../mathsuperscriptelement) | Degree value |
 
  **Returns:**
@@ -7890,33 +7470,13 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathBox](../mathbox), [MathFraction](../mathfraction)) | Creates a math radical |
+| createMathRadical ([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
-| degreeArgument | [MathFraction](../mathfraction) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
-| createMathRadical ([MathBox](../mathbox), [MathematicalText](../mathematicaltext)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
 | degreeArgument | [MathematicalText](../mathematicaltext) | Degree value |
 
  **Returns:**
@@ -7930,13 +7490,13 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathBox](../mathbox), [BaseScript](../basescript)) | Creates a math radical |
+| createMathRadical ([MathFraction](../mathfraction), [BaseScript](../basescript)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
 | degreeArgument | [BaseScript](../basescript) | Degree value |
 
  **Returns:**
@@ -7950,14 +7510,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathBox](../mathbox), [MathBox](../mathbox)) | Creates a math radical |
+| createMathRadical ([MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
-| degreeArgument | [MathBox](../mathbox) | Degree value |
+| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
+| degreeArgument | [MathFraction](../mathfraction) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -7970,13 +7530,13 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathBox](../mathbox), [MathElementBase](../mathelementbase)) | Creates a math radical |
+| createMathRadical ([MathFraction](../mathfraction), [MathElementBase](../mathelementbase)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
 | degreeArgument | [MathElementBase](../mathelementbase) | Degree value |
 
  **Returns:**
@@ -7990,13 +7550,33 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math radical |
+| createMathRadical ([MathFraction](../mathfraction), [MathBox](../mathbox)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
+| degreeArgument | [MathBox](../mathbox) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
 | degreeArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Degree value |
 
  **Returns:**
@@ -8030,14 +7610,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathElementBase](../mathelementbase), [MathMatrix](../mathmatrix)) | Creates a math radical |
+| createMathRadical ([MathElementBase](../mathelementbase), [MathLimit](../mathlimit)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathElementBase](../mathelementbase) | Base argument to apply radical |
-| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
+| degreeArgument | [MathLimit](../mathlimit) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -8050,14 +7630,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathElementBase](../mathelementbase), [MathLimit](../mathlimit)) | Creates a math radical |
+| createMathRadical ([MathElementBase](../mathelementbase), [MathMatrix](../mathmatrix)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathElementBase](../mathelementbase) | Base argument to apply radical |
-| degreeArgument | [MathLimit](../mathlimit) | Degree value |
+| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -8310,26 +7890,6 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathElementBase](../mathelementbase), [MathFraction](../mathfraction)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathElementBase](../mathelementbase) | Base argument to apply radical |
-| degreeArgument | [MathFraction](../mathfraction) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
 | createMathRadical ([MathElementBase](../mathelementbase), [MathematicalText](../mathematicaltext)) | Creates a math radical |
 
  **Parameters:**
@@ -8370,14 +7930,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathElementBase](../mathelementbase), [MathBox](../mathbox)) | Creates a math radical |
+| createMathRadical ([MathElementBase](../mathelementbase), [MathFraction](../mathfraction)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathElementBase](../mathelementbase) | Base argument to apply radical |
-| degreeArgument | [MathBox](../mathbox) | Degree value |
+| degreeArgument | [MathFraction](../mathfraction) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -8410,6 +7970,26 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
+| createMathRadical ([MathElementBase](../mathelementbase), [MathBox](../mathbox)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathElementBase](../mathelementbase) | Base argument to apply radical |
+| degreeArgument | [MathBox](../mathbox) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
 | createMathRadical ([MathElementBase](../mathelementbase), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math radical |
 
  **Parameters:**
@@ -8417,6 +7997,426 @@ MathRadicalFactory
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathElementBase](../mathelementbase) | Base argument to apply radical |
+| degreeArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathBox](../mathbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| degreeArgument | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathBox](../mathbox), [MathLimit](../mathlimit)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| degreeArgument | [MathLimit](../mathlimit) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathBox](../mathbox), [MathMatrix](../mathmatrix)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathBox](../mathbox), [MathBlock](../mathblock)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| degreeArgument | [MathBlock](../mathblock) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathBox](../mathbox), [MathRadical](../mathradical)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| degreeArgument | [MathRadical](../mathradical) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathBox](../mathbox), [MathArray](../matharray)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| degreeArgument | [MathArray](../matharray) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathBox](../mathbox), [MathDelimiter](../mathdelimiter)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| degreeArgument | [MathDelimiter](../mathdelimiter) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| degreeArgument | [MathNaryOperator](../mathnaryoperator) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathBox](../mathbox), [MathAccent](../mathaccent)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| degreeArgument | [MathAccent](../mathaccent) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathBox](../mathbox), [MathBorderBox](../mathborderbox)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| degreeArgument | [MathBorderBox](../mathborderbox) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathBox](../mathbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathBox](../mathbox), [MathBar](../mathbar)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| degreeArgument | [MathBar](../mathbar) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathBox](../mathbox), [MathFunction](../mathfunction)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| degreeArgument | [MathFunction](../mathfunction) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| degreeArgument | [MathSubscriptElement](../mathsubscriptelement) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathBox](../mathbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| degreeArgument | [MathSuperscriptElement](../mathsuperscriptelement) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathBox](../mathbox), [MathematicalText](../mathematicaltext)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| degreeArgument | [MathematicalText](../mathematicaltext) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathBox](../mathbox), [BaseScript](../basescript)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| degreeArgument | [BaseScript](../basescript) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathBox](../mathbox), [MathFraction](../mathfraction)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| degreeArgument | [MathFraction](../mathfraction) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathBox](../mathbox), [MathElementBase](../mathelementbase)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| degreeArgument | [MathElementBase](../mathelementbase) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathBox](../mathbox), [MathBox](../mathbox)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| degreeArgument | [MathBox](../mathbox) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
 | degreeArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Degree value |
 
  **Returns:**
@@ -8450,14 +8450,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates a math radical |
+| createMathRadical ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLimit](../mathlimit)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply radical |
-| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
+| degreeArgument | [MathLimit](../mathlimit) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -8470,14 +8470,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLimit](../mathlimit)) | Creates a math radical |
+| createMathRadical ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply radical |
-| degreeArgument | [MathLimit](../mathlimit) | Degree value |
+| degreeArgument | [MathMatrix](../mathmatrix) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -8730,26 +8730,6 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates a math radical |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply radical |
-| degreeArgument | [MathFraction](../mathfraction) | Degree value |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### createMathRadical {#createMathRadical}
-
-| Name | Description |
-| --- | --- |
 | createMathRadical ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates a math radical |
 
  **Parameters:**
@@ -8790,14 +8770,14 @@ MathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| createMathRadical ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox)) | Creates a math radical |
+| createMathRadical ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates a math radical |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply radical |
-| degreeArgument | [MathBox](../mathbox) | Degree value |
+| degreeArgument | [MathFraction](../mathfraction) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -8818,6 +8798,26 @@ MathRadicalFactory
 | --- | --- | --- |
 | baseArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply radical |
 | degreeArgument | [MathElementBase](../mathelementbase) | Degree value |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### createMathRadical {#createMathRadical}
+
+| Name | Description |
+| --- | --- |
+| createMathRadical ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox)) | Creates a math radical |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply radical |
+| degreeArgument | [MathBox](../mathbox) | Degree value |
 
  **Returns:**
 [MathRadical](../mathradical)

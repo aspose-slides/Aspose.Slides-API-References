@@ -248,6 +248,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [GroupShape](groupshape) | Represents a group of shapes on a slide. |
 | [GroupShapeLock](groupshapelock) | Determines which operations are disabled on the parent GroupShape. |
 | [HSL](hsl) | Represents a Hue/Saturation/Luminance effect. The hue, saturation, and luminance may each be adjusted relative to its current value. |
+| [HandleRepeatedSpaces](handlerepeatedspaces) | Specifies how repeated regular space characters should be handled during Markdown export. |
 | [HandoutLayoutingOptions](handoutlayoutingoptions) | Represents the handout presentation layout mode for export. |
 | [HandoutType](handouttype) | Specifies how many slides and in what sequence will be placed on the page. |
 | [HeadingPair](headingpair) | Represents a 'Heading pair' property of the document. It indicates the group name of document parts and the number of parts in group. |
@@ -261,7 +262,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [HyperlinkColorSource](hyperlinkcolorsource) | Represents source of hyperlink color. |
 | [HyperlinkManager](hyperlinkmanager) | Provide hyperlinks management (adding, removing). |
 | [HyperlinkQueries](hyperlinkqueries) | Provide easy access to contained hyperlinks. |
-| [IImage](iimage) | Represents the raster or vector image. |
+| [IImage](iimage) | Represents a raster or vector image. This interface provides a common abstraction for handling both raster and vector images. Implementations may vary depending on the underlying image type. |
 | [ImageCollection](imagecollection) | Represents collection of PPImage. |
 | [ImageFormat](imageformat) | Represents the file format of the image. |
 | [ImagePixelFormat](imagepixelformat) | Specifies the pixel format for the generated images. |
@@ -413,6 +414,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [OdpReadException](odpreadexception) | Represents an exception which thrown on presentation reading errors. |
 | [OleEmbeddedDataInfo](oleembeddeddatainfo) | Represents embedded data info for OLE object. |
 | [OleObjectFrame](oleobjectframe) | Represents an OLE object on a slide. |
+| [OpenAIWebClient](openaiwebclient) | Build-in lightweight OpenAI web client |
 | [OptionalBlackTransition](optionalblacktransition) | Optional black slide transition effect. |
 | [OrganizationChartLayoutType](organizationchartlayouttype) | Represents formatting type the child nodes in an organization chart |
 | [Orientation](orientation) | Represents the orientation of a shape. |
@@ -515,6 +517,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [SequenceCollection](sequencecollection) | Represents collection of interactive sequences. |
 | [SetEffect](seteffect) | Represents a set effect for an animation behavior. |
 | [Shape](shape) | Represents a shape on a slide. |
+| [ShapeAdjustmentType](shapeadjustmenttype) | Specifies different types of shape adjustment values. |
 | [ShapeBevel](shapebevel) | Contains the properties of shape's main face relief. |
 | [ShapeCollection](shapecollection) | Represents a collection of a shapes. |
 | [ShapeElement](shapeelement) | Represents a part of shape with same outline and fill properties. |
@@ -543,6 +546,8 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [SlideSizeType](slidesizetype) | Represents the slide size preset. |
 | [SlideThemeManager](slidethememanager) | Provides access to slide theme overriden. |
 | [SlideUtil](slideutil) | Offer methods which help to search shapes and text in a presentation. |
+| [SlidesAIAgent](slidesaiagent) | Provides AI-powered features for processing presentations. |
+| [SlidesAIAgentException](slidesaiagentexception) | Represents Slides AI Agent related exceptions. |
 | [SlidesRange](slidesrange) | Slides range |
 | [SmartArt](smartart) | Represents a SmartArt diagram |
 | [SmartArtColorType](smartartcolortype) | Represents color scheme of a SmartArt diagram. |
