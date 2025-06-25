@@ -14,6 +14,7 @@ weight: 12
 | Name | Description |
 | :- | :- |
 | [`aspose.slides`](/slides/python-net/aspose.slides/) | Contains classes for work with Microsoft PowerPoint presentations without utilizing Microsoft PowerPoint. |
+| [`aspose.slides.ai`](/slides/python-net/aspose.slides.ai/) | Contains classes that provide AI-based features for analyzing and processing PowerPoint presentations. |
 | [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation/) | Contains classes for work with animation in Microsoft PowerPoint presentations. |
 | [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts/) | Contains classes for work with charts in Microsoft PowerPoint presentations. |
 | [`aspose.slides.dom.ole`](/slides/python-net/aspose.slides.dom.ole/) | Contains classes for work with OLE objects in Microsoft PowerPoint presentations. |
