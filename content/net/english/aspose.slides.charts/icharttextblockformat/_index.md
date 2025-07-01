@@ -3,7 +3,7 @@ title: IChartTextBlockFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents formatting properties for chart text elements.
 type: docs
-weight: 1940
+weight: 1960
 url: /aspose.slides.charts/icharttextblockformat/
 ---
 

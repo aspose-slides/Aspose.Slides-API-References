@@ -3,7 +3,7 @@ title: HandoutLayoutingOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the handout presentation layout mode for export.
 type: docs
-weight: 3710
+weight: 3730
 url: /aspose.slides.export/handoutlayoutingoptions/
 ---
 

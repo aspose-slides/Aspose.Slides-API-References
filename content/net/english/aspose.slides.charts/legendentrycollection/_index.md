@@ -3,7 +3,7 @@ title: LegendEntryCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents legends collection.
 type: docs
-weight: 2260
+weight: 2280
 url: /aspose.slides.charts/legendentrycollection/
 ---
 

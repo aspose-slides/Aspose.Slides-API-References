@@ -3,7 +3,7 @@ title: ISingleCellChartValue
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a chart data cell.
 type: docs
-weight: 2170
+weight: 2190
 url: /aspose.slides.charts/isinglecellchartvalue/
 ---
 

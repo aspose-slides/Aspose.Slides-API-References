@@ -3,7 +3,7 @@ title: LineArrowheadWidth
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the width of an arrowhead.
 type: docs
-weight: 7550
+weight: 7580
 url: /aspose.slides/linearrowheadwidth/
 ---
 

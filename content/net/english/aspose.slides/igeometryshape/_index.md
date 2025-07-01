@@ -3,7 +3,7 @@ title: IGeometryShape
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the parent class for all geometric shapes.
 type: docs
-weight: 5820
+weight: 5840
 url: /aspose.slides/igeometryshape/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: AddSmartArt
 second_title: Aspose.Sildes for .NET API Reference
-description: Add SmartArt diagram.
+description: Creates a SmartArt diagram and adds it to the end of the shape collection.
 type: docs
 weight: 180
 url: /aspose.slides/shapecollection/addsmartart/
@@ -9,7 +9,7 @@ url: /aspose.slides/shapecollection/addsmartart/
 
 ## ShapeCollection.AddSmartArt method
 
-Add SmartArt diagram.
+Creates a SmartArt diagram and adds it to the end of the shape collection.
 
 ```csharp
 public ISmartArt AddSmartArt(float x, float y, float width, float height, 
@@ -18,15 +18,15 @@ public ISmartArt AddSmartArt(float x, float y, float width, float height,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | Single | The X-coordinate for a left side of diagram's frame. |
-| y | Single | The Y-coordinate for a left side of diagram's frame. |
-| width | Single | The width of diagram's frame. |
-| height | Single | The height of diagram's frame. |
-| layoutType | SmartArtLayoutType | The type of SmartArt diagram |
+| x | Single | The x-coordinate of the diagram’s frame, in points. |
+| y | Single | The y-coordinate of the diagram’s frame, in points. |
+| width | Single | The width of the diagram’s frame, in points. |
+| height | Single | The height of the diagram’s frame, in points. |
+| layoutType | SmartArtLayoutType | The SmartArt layout type. |
 
 ### Return Value
 
-Create SmartArt diagram
+The newly created [`ISmartArt`](../../../aspose.slides.smartart/ismartart).
 
 ### Examples
 

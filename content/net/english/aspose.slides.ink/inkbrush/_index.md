@@ -3,7 +3,7 @@ title: InkBrush
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an inkBrush object.
 type: docs
-weight: 7380
+weight: 7400
 url: /aspose.slides.ink/inkbrush/
 ---
 
@@ -20,6 +20,7 @@ public class InkBrush : IInkBrush
 | Name | Description |
 | --- | --- |
 | [Color](../../aspose.slides.ink/inkbrush/color) { get; set; } | Gets or sets the brush color for a line. |
+| [InkEffect](../../aspose.slides.ink/inkbrush/inkeffect) { get; } | Gets the ink effect type (e.g., Galaxy, Gold, Silver) that defines the visual style of the ink stroke. The value is parsed from the brush property "inkEffects". If no recognized effect is specified, NotDefined is returned. |
 | [Size](../../aspose.slides.ink/inkbrush/size) { get; set; } | Gets or sets the brush size for a line in points. |
 
 ### See Also

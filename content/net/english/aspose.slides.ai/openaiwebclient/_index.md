@@ -3,7 +3,7 @@ title: OpenAIWebClient
 second_title: Aspose.Sildes for .NET API Reference
 description: Build-in lightweight OpenAI web client
 type: docs
-weight: 20
+weight: 30
 url: /aspose.slides.ai/openaiwebclient/
 ---
 
@@ -27,6 +27,7 @@ public class OpenAIWebClient : IAIWebClient, IDisposable
 | Name | Description |
 | --- | --- |
 | [CallChatAsync](../../aspose.slides.ai/openaiwebclient/callchatasync)(string) | Sends a chat instruction to the AI model using an externally managed `HttpClient` instance and returns response message to the given instruction. |
+| [CreateConversation](../../aspose.slides.ai/openaiwebclient/createconversation)() | Creates a conversation instance. Unlike regular AI calls, conversations retain the entire context. |
 | [Dispose](../../aspose.slides.ai/openaiwebclient/dispose)() | Releases resources used by this instance. |
 
 ### See Also

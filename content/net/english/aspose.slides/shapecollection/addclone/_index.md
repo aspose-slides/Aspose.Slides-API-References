@@ -1,7 +1,7 @@
 ---
 title: AddClone
 second_title: Aspose.Sildes for .NET API Reference
-description: Adds a copy of a specified shape to the end of the collection.
+description: Creates a copy of the specified shape and adds it to the end of the shape collection.
 type: docs
 weight: 110
 url: /aspose.slides/shapecollection/addclone/
@@ -9,7 +9,7 @@ url: /aspose.slides/shapecollection/addclone/
 
 ## AddClone(IShape, float, float, float, float) {#addclone_2}
 
-Adds a copy of a specified shape to the end of the collection.
+Creates a copy of the specified shape and adds it to the end of the shape collection.
 
 ```csharp
 public IShape AddClone(IShape sourceShape, float x, float y, float width, float height)
@@ -17,15 +17,15 @@ public IShape AddClone(IShape sourceShape, float x, float y, float width, float 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceShape | IShape | Shape to clone. |
-| x | Single | X coordinate of a new shape. |
-| y | Single | Y coordinate of a new shape. |
-| width | Single | Width of a new shape. |
-| height | Single | Height of a new shape. |
+| sourceShape | IShape | The shape to clone. |
+| x | Single | The x-coordinate of the new shape’s frame, in points. |
+| y | Single | The y-coordinate of the new shape’s frame, in points. |
+| width | Single | The width of the new shape’s frame, in points. |
+| height | Single | The height of the new shape’s frame, in points. |
 
 ### Return Value
 
-New shape.
+The newly created [`IShape`](../../ishape).
 
 ### See Also
 
@@ -38,7 +38,7 @@ New shape.
 
 ## AddClone(IShape, float, float) {#addclone_1}
 
-Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the *sourceShape*.
+Creates a copy of the specified shape and adds it to the end of the shape collection. The new shape retains the width and height of the *sourceShape*.
 
 ```csharp
 public IShape AddClone(IShape sourceShape, float x, float y)
@@ -46,13 +46,13 @@ public IShape AddClone(IShape sourceShape, float x, float y)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceShape | IShape | Shape to clone. |
-| x | Single | X coordinate of a new shape. |
-| y | Single | Y coordinate of a new shape. |
+| sourceShape | IShape | The shape to clone. |
+| x | Single | The x-coordinate of the new shape’s frame, in points. |
+| y | Single | The y-coordinate of the new shape’s frame, in points. |
 
 ### Return Value
 
-New shape.
+The newly created [`IShape`](../../ishape).
 
 ### See Also
 
@@ -65,7 +65,7 @@ New shape.
 
 ## AddClone(IShape) {#addclone}
 
-Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the *sourceShape*.
+Creates a copy of the specified shape and adds it to the end of the shape collection. The cloned shape retains the original’s position and size.
 
 ```csharp
 public IShape AddClone(IShape sourceShape)
@@ -73,11 +73,11 @@ public IShape AddClone(IShape sourceShape)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceShape | IShape | Shape to clone. |
+| sourceShape | IShape | The [`IShape`](../../ishape) to clone. |
 
 ### Return Value
 
-New shape.
+The newly created [`IShape`](../../ishape).
 
 ### See Also
 

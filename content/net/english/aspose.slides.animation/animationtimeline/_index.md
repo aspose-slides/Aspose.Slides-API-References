@@ -3,7 +3,7 @@ title: AnimationTimeLine
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents timeline of animation.
 type: docs
-weight: 90
+weight: 110
 url: /aspose.slides.animation/animationtimeline/
 ---
 

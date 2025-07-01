@@ -1,7 +1,7 @@
 ---
 title: InsertSectionZoomFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: Creates a new Section Zoom object and inserts into to a collection at the specified index.
+description: Creates a new Section Zoom frame and inserts it into to the shape collection at the specified index.
 type: docs
 weight: 370
 url: /aspose.slides/shapecollection/insertsectionzoomframe/
@@ -9,7 +9,7 @@ url: /aspose.slides/shapecollection/insertsectionzoomframe/
 
 ## InsertSectionZoomFrame(int, float, float, float, float, ISection) {#insertsectionzoomframe}
 
-Creates a new Section Zoom object and inserts into to a collection at the specified index.
+Creates a new Section Zoom frame and inserts it into to the shape collection at the specified index.
 
 ```csharp
 public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, float width, 
@@ -18,22 +18,22 @@ public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, flo
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Int32 | The zero-based index at which Section Zoom frame should be inserted. |
-| x | Single | X coordinate of a new Section Zoom frame Single. |
-| y | Single | Y coordinate of a new Section Zoom frame Single. |
-| width | Single | Width of a new Section Zoom frame Single. |
-| height | Single | Height of a new Section Zoom frame Single. |
-| section | ISection | The slide object referenced by the Section Zoom frame [`ISection`](../../isection). |
+| index | Int32 | The zero-based index at which to insert the Section Zoom frame. |
+| x | Single | The x-coordinate of the new Section Zoom frame, in points. |
+| y | Single | The y-coordinate of the new Section Zoom frame, in points. |
+| width | Single | The width of the new Section Zoom frame, in points. |
+| height | Single | The height of the new Section Zoom frame, in points. |
+| section | ISection | The [`ISection`](../../isection) referenced by the Section Zoom frame; must belong to this presentation and contain at least one slide. |
 
 ### Return Value
 
-Created Section Zoom object [`ISectionZoomFrame`](../../isectionzoomframe).
+The newly created [`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Referenced section does not belong to the current presentation or does not contains any slides. |
+| ArgumentException | Thrown if the referenced section does not belong to the current presentation or contains no slides. |
 
 ### Examples
 
@@ -59,7 +59,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 
 ## InsertSectionZoomFrame(int, float, float, float, float, ISection, IPPImage) {#insertsectionzoomframe_1}
 
-Creates a new Section Zoom object and inserts it to a collection at the specified index.
+Creates a new Section Zoom frame with a predefined image and inserts it into to the shape collection at the specified index.
 
 ```csharp
 public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, float width, 
@@ -68,23 +68,23 @@ public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, flo
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Int32 | The zero-based index at which Section Zoom frame should be inserted. |
-| x | Single | X coordinate of a new Section Zoom frame Single. |
-| y | Single | Y coordinate of a new Section Zoom frame Single. |
-| width | Single | Width of a new Section Zoom frame Single. |
-| height | Single | Height of a new Section Zoom frame Single. |
-| section | ISection | The slide object referenced by the Section Zoom frame [`ISection`](../../isection). |
-| image | IPPImage | The image for the referenced slide [`IPPImage`](../../ippimage) |
+| index | Int32 | The zero-based index at which to insert the Section Zoom frame. |
+| x | Single | The x-coordinate of the new Section Zoom frame, in points. |
+| y | Single | The y-coordinate of the new Section Zoom frame, in points. |
+| width | Single | The width of the new Section Zoom frame, in points. |
+| height | Single | The height of the new Section Zoom frame, in points. |
+| section | ISection | The [`ISection`](../../isection) referenced by the Section Zoom frame; must belong to this presentation and contain at least one slide. |
+| image | IPPImage | The image to display within the Section Zoom frame. |
 
 ### Return Value
 
-Created Section Zoom object [`ISectionZoomFrame`](../../isectionzoomframe).
+The newly created [`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Referenced section does not belong to the current presentation or does not contains any slides. |
+| ArgumentException | Thrown if the referenced section does not belong to the current presentation or contains no slides. |
 
 ### Examples
 

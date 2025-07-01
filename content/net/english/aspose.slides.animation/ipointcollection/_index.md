@@ -3,7 +3,7 @@ title: IPointCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of portions.
 type: docs
-weight: 510
+weight: 530
 url: /aspose.slides.animation/ipointcollection/
 ---
 

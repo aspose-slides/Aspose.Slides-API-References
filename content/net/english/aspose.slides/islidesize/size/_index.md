@@ -1,7 +1,7 @@
 ---
 title: Size
 second_title: Aspose.Sildes for .NET API Reference
-description: Returns or sets the size in points. Assigning any value will reset Typeaspose.slides/islidesize/type property to Custom and set Orientationaspose.slides/islidesize/orientation. Read/write SizeF.
+description: Gets the slide dimensions in points.
 type: docs
 weight: 20
 url: /aspose.slides/islidesize/size/
@@ -9,11 +9,15 @@ url: /aspose.slides/islidesize/size/
 
 ## ISlideSize.Size property
 
-Returns or sets the size in points. Assigning any value will reset [`Type`](../type) property to Custom and set [`Orientation`](../orientation). Read/write SizeF.
+Gets the slide dimensions in points.
 
 ```csharp
 public SizeF Size { get; }
 ```
+
+### Remarks
+
+Assigning a new value resets the [`Type`](../type) property to Custom and sets the [`Orientation`](../orientation).
 
 ### See Also
 

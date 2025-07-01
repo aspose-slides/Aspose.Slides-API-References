@@ -1,7 +1,7 @@
 ---
 title: InsertChart
 second_title: Aspose.Sildes for .NET API Reference
-description: Creates a new Chart initialize it with sample series data and settings and inserts it to the specified position in the collection.
+description: Creates a new chart initializes it with sample series data and settings and inserts it into the shape collection at the specified index.
 type: docs
 weight: 310
 url: /aspose.slides/shapecollection/insertchart/
@@ -9,7 +9,7 @@ url: /aspose.slides/shapecollection/insertchart/
 
 ## InsertChart(ChartType, float, float, float, float, int) {#insertchart}
 
-Creates a new Chart, initialize it with sample series data and settings and inserts it to the specified position in the collection.
+Creates a new chart, initializes it with sample series data and settings, and inserts it into the shape collection at the specified index.
 
 ```csharp
 public IChart InsertChart(ChartType type, float x, float y, float width, float height, int index)
@@ -17,16 +17,16 @@ public IChart InsertChart(ChartType type, float x, float y, float width, float h
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | ChartType | Type of chart. |
-| x | Single | X coordinate of a new chart. |
-| y | Single | Y coordinate of a new chart. |
-| width | Single | Chart's width. |
-| height | Single | Chart's height. |
-| index | Int32 | Chart's position in the collection. |
+| type | ChartType | The type of chart to create. |
+| x | Single | The x-coordinate of the new chart, in points. |
+| y | Single | The y-coordinate of the new chart, in points. |
+| width | Single | The width of the new chart, in points. |
+| height | Single | The height of the new chart, in points. |
+| index | Int32 | The zero-based index at which to insert the new chart in the shape collection. |
 
 ### Return Value
 
-Created chart.
+The newly created [`IChart`](../../../aspose.slides.charts/ichart).
 
 ### See Also
 
@@ -40,7 +40,7 @@ Created chart.
 
 ## InsertChart(ChartType, float, float, float, float, int, bool) {#insertchart_1}
 
-Creates a new Chart and inserts it to the specified position in the collection.
+Creates a new chart, initializes it with sample series data and settings, and inserts it into the shape collection at the specified index.
 
 ```csharp
 public IChart InsertChart(ChartType type, float x, float y, float width, float height, int index, 
@@ -49,17 +49,17 @@ public IChart InsertChart(ChartType type, float x, float y, float width, float h
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | ChartType | Type of chart. |
-| x | Single | X coordinate of a new chart. |
-| y | Single | Y coordinate of a new chart. |
-| width | Single | Chart's width. |
-| height | Single | Chart's height. |
-| index | Int32 | Chart's position in the collection. |
-| initWithSample | Boolean | If true then new chart will be initialized with sample series data and settings. If false then new chart will have no series and minimum settings. In this case chart creation will be more fast. |
+| type | ChartType | The type of chart to create. |
+| x | Single | The x-coordinate of the new chart, in points. |
+| y | Single | The y-coordinate of the new chart, in points. |
+| width | Single | The width of the new chart, in points. |
+| height | Single | The height of the new chart, in points. |
+| index | Int32 | The zero-based index at which to insert the new chart in the shape collection. |
+| initWithSample | Boolean | True to initialize the new chart with sample series data and settings; false to create the chart with no series and only minimal settings, which makes creation faster. |
 
 ### Return Value
 
-Created chart.
+The newly created [`IChart`](../../../aspose.slides.charts/ichart).
 
 ### See Also
 

@@ -1,7 +1,7 @@
 ---
 title: InsertClone
 second_title: Aspose.Sildes for .NET API Reference
-description: Inserts a copy of a specified shape to specified position of the collection.
+description: Creates a copy of the specified shape and inserts it into the shape collection at the specified index.
 type: docs
 weight: 270
 url: /aspose.slides/ishapecollection/insertclone/
@@ -9,7 +9,7 @@ url: /aspose.slides/ishapecollection/insertclone/
 
 ## InsertClone(int, IShape, float, float, float, float) {#insertclone_2}
 
-Inserts a copy of a specified shape to specified position of the collection.
+Creates a copy of the specified shape and inserts it into the shape collection at the specified index.
 
 ```csharp
 public IShape InsertClone(int index, IShape sourceShape, float x, float y, float width, 
@@ -18,16 +18,16 @@ public IShape InsertClone(int index, IShape sourceShape, float x, float y, float
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Int32 | Index of new shape. |
-| sourceShape | IShape | Shape to clone. |
-| x | Single | X coordinate of a new shape. |
-| y | Single | Y coordinate of a new shape. |
-| width | Single | Width of a new shape. |
-| height | Single | Height of a new shape. |
+| index | Int32 | The zero-based index at which to insert the cloned shape. |
+| sourceShape | IShape | The [`IShape`](../../ishape) to clone. |
+| x | Single | The x-coordinate of the cloned shape’s frame, in points. |
+| y | Single | The y-coordinate of the cloned shape’s frame, in points. |
+| width | Single | The width of the cloned shape’s frame, in points. |
+| height | Single | The height of the cloned shape’s frame, in points. |
 
 ### Return Value
 
-Inserted shape.
+The newly created [`IShape`](../../ishape).
 
 ### See Also
 
@@ -40,7 +40,7 @@ Inserted shape.
 
 ## InsertClone(int, IShape, float, float) {#insertclone_1}
 
-Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the *sourceShape*.
+Creates a copy of the specified shape and inserts it into the shape collection at the specified index. The new shape retains the width and height of the *sourceShape*.
 
 ```csharp
 public IShape InsertClone(int index, IShape sourceShape, float x, float y)
@@ -48,14 +48,14 @@ public IShape InsertClone(int index, IShape sourceShape, float x, float y)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Int32 | Index of new shape. |
-| sourceShape | IShape | Shape to clone. |
-| x | Single | X coordinate of a new shape. |
-| y | Single | Y coordinate of a new shape. |
+| index | Int32 | The zero-based index at which to insert the cloned shape. |
+| sourceShape | IShape | The [`IShape`](../../ishape) to clone. |
+| x | Single | The x-coordinate of the cloned shape’s frame, in points. |
+| y | Single | The y-coordinate of the cloned shape’s frame, in points. |
 
 ### Return Value
 
-Inserted shape.
+The newly created [`IShape`](../../ishape).
 
 ### See Also
 
@@ -68,7 +68,7 @@ Inserted shape.
 
 ## InsertClone(int, IShape) {#insertclone}
 
-Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the *sourceShape*.
+Creates a copy of the specified shape and inserts it into the shape collection at the specified index. The cloned shape retains the original’s position and size.
 
 ```csharp
 public IShape InsertClone(int index, IShape sourceShape)
@@ -76,12 +76,12 @@ public IShape InsertClone(int index, IShape sourceShape)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Int32 | Index of new shape. |
-| sourceShape | IShape | Shape to clone. |
+| index | Int32 | The zero-based index at which to insert the cloned shape. |
+| sourceShape | IShape | The [`IShape`](../../ishape) to clone. |
 
 ### Return Value
 
-Inserted shape.
+The newly created [`IShape`](../../ishape).
 
 ### See Also
 

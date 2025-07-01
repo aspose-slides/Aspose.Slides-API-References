@@ -3,7 +3,7 @@ title: BevelPresetType
 second_title: Aspose.Sildes for .NET API Reference
 description: Constants which define 3D bevel of shape.
 type: docs
-weight: 970
+weight: 990
 url: /aspose.slides/bevelpresettype/
 ---
 

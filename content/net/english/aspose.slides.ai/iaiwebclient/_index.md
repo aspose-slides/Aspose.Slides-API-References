@@ -3,7 +3,7 @@ title: IAIWebClient
 second_title: Aspose.Sildes for .NET API Reference
 description: AI Web client interface. This interface enables to substitute different AI language models. Classes that implement this interface are supposed to be used along with SlidesAIAgent.
 type: docs
-weight: 10
+weight: 20
 url: /aspose.slides.ai/iaiwebclient/
 ---
 
@@ -20,6 +20,7 @@ public interface IAIWebClient
 | Name | Description |
 | --- | --- |
 | [CallChatAsync](../../aspose.slides.ai/iaiwebclient/callchatasync)(string) | Sends a chat instruction to the AI model using a provided `HttpClient` instance and return response message to the given instruction. |
+| [CreateConversation](../../aspose.slides.ai/iaiwebclient/createconversation)() | Creates a conversation instance. Unlike regular AI calls, conversations retain the entire context. |
 
 ### See Also
 

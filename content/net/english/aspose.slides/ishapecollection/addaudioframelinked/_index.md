@@ -1,7 +1,7 @@
 ---
 title: AddAudioFrameLinked
 second_title: Aspose.Sildes for .NET API Reference
-description: Adds a new audio frame with linked audio file to the end of a collection.
+description: Creates a new audio frame linked to an external audio file and adds it to the end of the shape collection.
 type: docs
 weight: 50
 url: /aspose.slides/ishapecollection/addaudioframelinked/
@@ -9,7 +9,7 @@ url: /aspose.slides/ishapecollection/addaudioframelinked/
 
 ## IShapeCollection.AddAudioFrameLinked method
 
-Adds a new audio frame with linked audio file to the end of a collection.
+Creates a new audio frame linked to an external audio file and adds it to the end of the shape collection.
 
 ```csharp
 public IAudioFrame AddAudioFrameLinked(float x, float y, float width, float height, string fname)
@@ -17,15 +17,15 @@ public IAudioFrame AddAudioFrameLinked(float x, float y, float width, float heig
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | Single | X coordinate of a new audio frame. |
-| y | Single | Y coordinate of a new audio frame. |
-| width | Single | Width of a new audio frame. |
-| height | Single | Height of a new audio frame. |
-| fname | String | Audio file name. |
+| x | Single | The x-coordinate of the new audio frame, in points. |
+| y | Single | The y-coordinate of the new audio frame, in points. |
+| width | Single | The width of the new audio frame, in points. |
+| height | Single | The height of the new audio frame, in points. |
+| fname | String | The path or name of the external audio file to link. |
 
 ### Return Value
 
-Created AudioFrame object.
+The newly created [`IAudioFrame`](../../iaudioframe).
 
 ### See Also
 

@@ -1,7 +1,7 @@
 ---
 title: InsertZoomFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: Creates a new Zoom object and inserts it to a collection at the specified index.
+description: Creates a new Zoom frame and inserts it into the shape collection at the specified index.
 type: docs
 weight: 410
 url: /aspose.slides/shapecollection/insertzoomframe/
@@ -9,7 +9,7 @@ url: /aspose.slides/shapecollection/insertzoomframe/
 
 ## InsertZoomFrame(int, float, float, float, float, ISlide) {#insertzoomframe}
 
-Creates a new Zoom object and inserts it to a collection at the specified index.
+Creates a new Zoom frame and inserts it into the shape collection at the specified index.
 
 ```csharp
 public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, float height, 
@@ -18,22 +18,22 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Int32 | The zero-based index at which Zoom frame should be inserted. |
-| x | Single | X coordinate of a new Zoom frame Single. |
-| y | Single | Y coordinate of a new Zoom frame Single. |
-| width | Single | Width of a new Zoom frame Single. |
-| height | Single | Height of a new Zoom frame Single. |
-| slide | ISlide | The slide object referenced by the Zoom frame [`ISlide`](../../islide). |
+| index | Int32 | The zero-based index at which to insert the Zoom frame. |
+| x | Single | The x-coordinate of the new Zoom frame, in points. |
+| y | Single | The y-coordinate of the new Zoom frame, in points. |
+| width | Single | The width of the new Zoom frame, in points. |
+| height | Single | The height of the new Zoom frame, in points. |
+| slide | ISlide | The [`ISlide`](../../islide) referenced by the Zoom frame. |
 
 ### Return Value
 
-Created Zoom object [`IZoomFrame`](../../izoomframe).
+The newly created [`IZoomFrame`](../../izoomframe).
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Referenced slide does not belong to the current presentation. |
+| ArgumentException | Thrown if the referenced slide does not belong to the current presentation. |
 
 ### Examples
 
@@ -59,7 +59,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 
 ## InsertZoomFrame(int, float, float, float, float, ISlide, IPPImage) {#insertzoomframe_1}
 
-Creates a new Zoom object and inserts it to a collection at the specified index.
+Creates a new Zoom frame with a predefined image and inserts it into the shape collection at the specified index.
 
 ```csharp
 public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, float height, 
@@ -68,23 +68,23 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Int32 | The zero-based index at which Zoom frame should be inserted. |
-| x | Single | X coordinate of a new Zoom frame Single. |
-| y | Single | Y coordinate of a new Zoom frame Single. |
-| width | Single | Width of a new Zoom frame Single. |
-| height | Single | Height of a new Zoom frame Single. |
-| slide | ISlide | The slide object referenced by the Zoom frame [`ISlide`](../../islide). |
-| image | IPPImage | The image for the referenced slide [`IPPImage`](../../ippimage) |
+| index | Int32 | The zero-based index at which to insert the Zoom frame. |
+| x | Single | The x-coordinate of the new Zoom frame, in points. |
+| y | Single | The y-coordinate of the new Zoom frame, in points. |
+| width | Single | The width of the new Zoom frame, in points. |
+| height | Single | The height of the new Zoom frame, in points. |
+| slide | ISlide | The [`ISlide`](../../islide) referenced by the Zoom frame. |
+| image | IPPImage | The image for the referenced slide [`IPPImage`](../../ippimage). |
 
 ### Return Value
 
-Created Zoom object [`IZoomFrame`](../../izoomframe).
+The newly created [`IZoomFrame`](../../izoomframe).
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Referenced slide does not belong to the current presentation. |
+| ArgumentException | Thrown if the referenced slide does not belong to the current presentation. |
 
 ### Examples
 

@@ -1,7 +1,7 @@
 ---
 title: InsertOleObjectFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: Creates a new OLE object and inserts it to a collection at the specified index.
+description: Creates a new OLE object frame and inserts it into the shape collection at the specified index.
 type: docs
 weight: 350
 url: /aspose.slides/shapecollection/insertoleobjectframe/
@@ -9,7 +9,7 @@ url: /aspose.slides/shapecollection/insertoleobjectframe/
 
 ## InsertOleObjectFrame(int, float, float, float, float, IOleEmbeddedDataInfo) {#insertoleobjectframe}
 
-Creates a new OLE object and inserts it to a collection at the specified index.
+Creates a new OLE object frame and inserts it into the shape collection at the specified index.
 
 ```csharp
 public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float width, float height, 
@@ -18,16 +18,16 @@ public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float w
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Int32 | The zero-based index at which OLE object should be inserted. |
-| x | Single | X coordinate of a new OLE frame. |
-| y | Single | Y coordinate of a new OLE frame. |
-| width | Single | Width of a new OLE frame. |
-| height | Single | Height of a new OLE frame. |
-| dataInfo | IOleEmbeddedDataInfo | Embedded data info [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |
+| index | Int32 | The zero-based index at which to insert the OLE object frame. |
+| x | Single | The x-coordinate of the new OLE frame, in points. |
+| y | Single | The y-coordinate of the new OLE frame, in points. |
+| width | Single | The width of the new OLE frame, in points. |
+| height | Single | The height of the new OLE frame, in points. |
+| dataInfo | IOleEmbeddedDataInfo | The embedded OLE data information ([`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo)). |
 
 ### Return Value
 
-Created OLE object.
+The newly created [`IOleObjectFrame`](../../ioleobjectframe).
 
 ### Examples
 
@@ -52,7 +52,7 @@ IOleObjectFrame oleObjectFrame = slidees.Shapes.AddOleObjectFrame(2, 150, 20, 50
 
 ## InsertOleObjectFrame(int, float, float, float, float, string, string) {#insertoleobjectframe_1}
 
-Creates a new OLE object and inserts it to a collection at the specified index.
+Creates a new OLE object frame and inserts it into the shape collection at the specified index.
 
 ```csharp
 public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float width, float height, 
@@ -61,17 +61,17 @@ public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float w
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Int32 | The zero-based index at which OLE object should be inserted. |
-| x | Single | X coordinate of a new OLE frame. |
-| y | Single | Y coordinate of a new OLE frame. |
-| width | Single | Width of a new OLE frame. |
-| height | Single | Height of a new OLE frame. |
-| className | String | Name of an OLE class. |
-| path | String | Path to the linked file. |
+| index | Int32 | The zero-based index at which to insert the OLE object frame. |
+| x | Single | The x-coordinate of the new OLE frame, in points. |
+| y | Single | The y-coordinate of the new OLE frame, in points. |
+| width | Single | The width of the new OLE frame, in points. |
+| height | Single | The height of the new OLE frame, in points. |
+| className | String | The class name of the OLE object. |
+| path | String | The path to the linked file. |
 
 ### Return Value
 
-Created OLE object.
+The newly created OLE object frame.
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: ColorType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents different color modes.
 type: docs
-weight: 2530
+weight: 2550
 url: /aspose.slides/colortype/
 ---
 

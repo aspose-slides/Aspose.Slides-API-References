@@ -3,7 +3,7 @@ title: GrayScale
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a Gray Scale effect. Converts all effect color values to a shade of gray corresponding to their luminance. Effect alpha opacity values are unaffected.
 type: docs
-weight: 2940
+weight: 2960
 url: /aspose.slides.effects/grayscale/
 ---
 

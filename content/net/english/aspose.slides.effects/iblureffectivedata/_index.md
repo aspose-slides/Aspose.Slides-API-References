@@ -3,7 +3,7 @@ title: IBlurEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which represents a Blur effect that is applied to the entire shape including its fill. All color channels including alpha are affected.
 type: docs
-weight: 3130
+weight: 3150
 url: /aspose.slides.effects/iblureffectivedata/
 ---
 

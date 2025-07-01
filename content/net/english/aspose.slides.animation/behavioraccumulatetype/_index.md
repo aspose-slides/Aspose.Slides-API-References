@@ -3,7 +3,7 @@ title: BehaviorAccumulateType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents types of accumulation of effect behaviors.
 type: docs
-weight: 110
+weight: 130
 url: /aspose.slides.animation/behavioraccumulatetype/
 ---
 

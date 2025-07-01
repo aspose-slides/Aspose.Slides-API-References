@@ -1,7 +1,7 @@
 ---
 title: AddOleObjectFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: Adds a new OLE object to the end of a collection.
+description: Creates a new OLE object frame and adds it to the end of the shape collection.
 type: docs
 weight: 120
 url: /aspose.slides/ishapecollection/addoleobjectframe/
@@ -9,7 +9,7 @@ url: /aspose.slides/ishapecollection/addoleobjectframe/
 
 ## AddOleObjectFrame(float, float, float, float, IOleEmbeddedDataInfo) {#addoleobjectframe}
 
-Adds a new OLE object to the end of a collection.
+Creates a new OLE object frame and adds it to the end of the shape collection.
 
 ```csharp
 public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float height, 
@@ -18,15 +18,15 @@ public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float he
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | Single | X coordinate of a new OLE frame. |
-| y | Single | Y coordinate of a new OLE frame. |
-| width | Single | Width of a new OLE frame. |
-| height | Single | Height of a new OLE frame. |
-| dataInfo | IOleEmbeddedDataInfo | Embedded data info [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |
+| x | Single | The x-coordinate of the new OLE frame, in points. |
+| y | Single | The y-coordinate of the new OLE frame, in points. |
+| width | Single | The width of the new OLE frame, in points. |
+| height | Single | The height of the new OLE frame, in points. |
+| dataInfo | IOleEmbeddedDataInfo | The embedded OLE data information ([`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo)). |
 
 ### Return Value
 
-Created OLE object.
+The newly created [`IOleObjectFrame`](../../ioleobjectframe).
 
 ### See Also
 
@@ -40,7 +40,7 @@ Created OLE object.
 
 ## AddOleObjectFrame(float, float, float, float, string, string) {#addoleobjectframe_1}
 
-Adds a new OLE object to the end of a collection.
+Creates a new OLE object frame and adds it to the end of the shape collection.
 
 ```csharp
 public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float height, 
@@ -49,16 +49,16 @@ public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float he
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | Single | X coordinate of a new OLE frame. |
-| y | Single | Y coordinate of a new OLE frame. |
-| width | Single | Width of a new OLE frame. |
-| height | Single | Height of a new OLE frame. |
-| className | String | Name of an OLE class. |
-| path | String | path to the linked file. |
+| x | Single | The x-coordinate of the new OLE frame, in points. |
+| y | Single | The y-coordinate of the new OLE frame, in points. |
+| width | Single | The width of the new OLE frame, in points. |
+| height | Single | The height of the new OLE frame, in points. |
+| className | String | The class name of the OLE object. |
+| path | String | The path to the linked file. |
 
 ### Return Value
 
-Created OLE object.
+The newly created [`IOleObjectFrame`](../../ioleobjectframe).
 
 ### See Also
 

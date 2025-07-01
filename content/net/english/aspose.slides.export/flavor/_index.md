@@ -3,7 +3,7 @@ title: Flavor
 second_title: Aspose.Sildes for .NET API Reference
 description: All markdown specifications used in program.
 type: docs
-weight: 3670
+weight: 3690
 url: /aspose.slides.export/flavor/
 ---
 

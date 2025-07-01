@@ -3,7 +3,7 @@ title: Dispose
 second_title: Aspose.Sildes for .NET API Reference
 description: Releases resources used by this instance.
 type: docs
-weight: 30
+weight: 40
 url: /aspose.slides.ai/openaiwebclient/dispose/
 ---
 

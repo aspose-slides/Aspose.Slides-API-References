@@ -3,7 +3,7 @@ title: Chart
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an graphic chart on a slide.
 type: docs
-weight: 1220
+weight: 1240
 url: /aspose.slides.charts/chart/
 ---
 
@@ -41,7 +41,7 @@ public class Chart : GraphicalObject, IChart
 | [HasLegend](../../aspose.slides.charts/chart/haslegend) { get; set; } | Determines whether a chart has a legend. Read/write Boolean. |
 | [HasRoundedCorners](../../aspose.slides.charts/chart/hasroundedcorners) { get; set; } | Specifies the chart area shall have rounded corners. Read/write Boolean. |
 | [HasTitle](../../aspose.slides.charts/chart/hastitle) { get; set; } | Determines whether a chart has a visible title. Read/write Boolean. |
-| [Height](../../aspose.slides/shape/height) { get; set; } | Returns or sets the height of the shape. Read/write Single. |
+| [Height](../../aspose.slides/shape/height) { get; set; } | Gets or sets the height of the shape, measured in points. Read/write Single. |
 | [Hidden](../../aspose.slides/shape/hidden) { get; set; } | Determines whether the shape is hidden. Read/write Boolean. |
 | [HyperlinkClick](../../aspose.slides/shape/hyperlinkclick) { get; set; } | Returns or sets the hyperlink defined for mouse click. Read/write [`IHyperlink`](../../aspose.slides/ihyperlink). |
 | [HyperlinkManager](../../aspose.slides/shape/hyperlinkmanager) { get; } | Returns the hyperlink manager. Read-only [`IHyperlinkManager`](../../aspose.slides/ihyperlinkmanager). |
@@ -52,7 +52,7 @@ public class Chart : GraphicalObject, IChart
 | [Legend](../../aspose.slides.charts/chart/legend) { get; } | Returns or sets a legend for a chart. Read-only [`ILegend`](../ilegend). |
 | virtual [LineFormat](../../aspose.slides/shape/lineformat) { get; } | Returns the LineFormat object that contains line formatting properties for a shape. Note: can return null for certain types of shapes which don't have line properties. Read-only [`ILineFormat`](../../aspose.slides/ilineformat). |
 | [Name](../../aspose.slides/shape/name) { get; set; } | Returns or sets the name of a shape. Must be not null. Use empty string value if needed. Read/write String. |
-| [OfficeInteropShapeId](../../aspose.slides/shape/officeinteropshapeid) { get; } | Gets unique shape identifier in slide scope. Read-only UInt32. See also [`UniqueId`](../../aspose.slides/shape/uniqueid) for getting unique shape identifier in presentation scope. |
+| [OfficeInteropShapeId](../../aspose.slides/shape/officeinteropshapeid) { get; } | Returns a slide-scoped unique identifier that remains constant for the lifetime of the shape and lets PowerPoint or interop code reliably reference the shape from anywhere in the document. Read-only UInt32. See also [`UniqueId`](../../aspose.slides/shape/uniqueid). |
 | [ParentGroup](../../aspose.slides/shape/parentgroup) { get; } | Returns parent GroupShape object if shape is grouped. Otherwise returns null. Read-only [`IGroupShape`](../../aspose.slides/igroupshape). |
 | [Placeholder](../../aspose.slides/shape/placeholder) { get; } | Returns the placeholder for a shape. Returns null if the shape has no placeholder. Read-only [`IPlaceholder`](../../aspose.slides/iplaceholder). |
 | [PlotArea](../../aspose.slides.charts/chart/plotarea) { get; } | Represents the plot area of a chart. Read-only [`IChartPlotArea`](../ichartplotarea). |
@@ -70,11 +70,11 @@ public class Chart : GraphicalObject, IChart
 | [ThemeManager](../../aspose.slides.charts/chart/thememanager) { get; } | Returns theme manager. Read-only [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
 | virtual [ThreeDFormat](../../aspose.slides/shape/threedformat) { get; } | Returns the ThreeDFormat object that 3d effect properties for a shape. Note: can return null for certain types of shapes which don't have 3d properties. Read-only [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
 | [Type](../../aspose.slides.charts/chart/type) { get; set; } | Returns or sets the chart type. Read/write [`ChartType`](../charttype). |
-| [UniqueId](../../aspose.slides/shape/uniqueid) { get; } | Gets unique shape identifier in presentation scope. Read-only UInt32. See also [`OfficeInteropShapeId`](../../aspose.slides/shape/officeinteropshapeid) for getting unique shape identifier in slide scope. |
+| [UniqueId](../../aspose.slides/shape/uniqueid) { get; } | Returns an internal, presentation-scoped identifier intended for use by add-ins or other code. Because this value can be reassigned by the user or programmatically, it must not be treated as a persistent unique key. Read-only UInt32. See also [`OfficeInteropShapeId`](../../aspose.slides/shape/officeinteropshapeid). |
 | [UserShapes](../../aspose.slides.charts/chart/usershapes) { get; } | Specify the shapes drawn on top of the chart. Read-only [`IGroupShape`](../../aspose.slides/igroupshape). |
-| [Width](../../aspose.slides/shape/width) { get; set; } | Returns or sets the width of the shape. Read/write Single. |
-| [X](../../aspose.slides/shape/x) { get; set; } | Returns or sets the x-coordinate of the upper-left corner of the shape. Read/write Single. |
-| [Y](../../aspose.slides/shape/y) { get; set; } | Returns or sets the y-coordinate of the upper-left corner of the shape. Read/write Single. |
+| [Width](../../aspose.slides/shape/width) { get; set; } | Gets or sets the width of the shape, measured in points. Read/write Single. |
+| [X](../../aspose.slides/shape/x) { get; set; } | Gets or sets the x-coordinate of the shape's upper-left corner, measured in points. Read/write Single. |
+| [Y](../../aspose.slides/shape/y) { get; set; } | Gets or sets the y-coordinate of the shape's upper-left corner, measured in points. Read/write Single. |
 | virtual [ZOrderPosition](../../aspose.slides/shape/zorderposition) { get; } | Returns the position of a shape in the z-order. Shapes[0] returns the shape at the back of the z-order, and Shapes[Shapes.Count - 1] returns the shape at the front of the z-order. Read-only Int32. |
 
 ## Methods

@@ -1,7 +1,7 @@
 ---
 title: InsertAutoShape
 second_title: Aspose.Sildes for .NET API Reference
-description: Creates a new AutoShape tunes it from default template and inserts it to the collection at the specified index. Note the type of the shape will be determined by the shapeType parameter.
+description: Creates a new auto shape and inserts it into the shape collection at the specified index applying default template formatting.
 type: docs
 weight: 250
 url: /aspose.slides/ishapecollection/insertautoshape/
@@ -9,7 +9,7 @@ url: /aspose.slides/ishapecollection/insertautoshape/
 
 ## InsertAutoShape(int, ShapeType, float, float, float, float) {#insertautoshape}
 
-Creates a new AutoShape, tunes it from default template and inserts it to the collection at the specified index. Note: the type of the shape will be determined by the shapeType parameter.
+Creates a new auto shape and inserts it into the shape collection at the specified index, applying default template formatting.
 
 ```csharp
 public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float y, float width, 
@@ -18,16 +18,16 @@ public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Int32 | The zero-based index at which value should be inserted. |
-| shapeType | ShapeType | An [`ShapeType`](../../shapetype) of shape. |
-| x | Single | The X-coordinate for a left side of shape's frame. |
-| y | Single | The Y-coordinate for a top side of shape's frame. |
-| width | Single | The width of shape's frame. |
-| height | Single | The height of shape's frame. |
+| index | Int32 | The zero-based index at which to insert the new auto shape. |
+| shapeType | ShapeType | The [`ShapeType`](../../shapetype) of the auto shape to insert. |
+| x | Single | The x-coordinate of the shape’s frame, in points. |
+| y | Single | The y-coordinate of the shape’s frame, in points. |
+| width | Single | The width of the shape’s frame, in points. |
+| height | Single | The height of the shape’s frame, in points. |
 
 ### Return Value
 
-Created AutoShape object.
+The newly created [`IAutoShape`](../../iautoshape).
 
 ### See Also
 
@@ -41,7 +41,7 @@ Created AutoShape object.
 
 ## InsertAutoShape(int, ShapeType, float, float, float, float, bool) {#insertautoshape_1}
 
-Creates a new AutoShape and inserts it to the collection at the specified index. Note: the type of the shape will be determined by the shapeType parameter.
+Creates a new auto shape and inserts it into the shape collection at the specified index, optionally initializing it with default template styling.
 
 ```csharp
 public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float y, float width, 
@@ -50,17 +50,17 @@ public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Int32 | The zero-based index at which value should be inserted. |
-| shapeType | ShapeType | An [`ShapeType`](../../shapetype) of shape. |
-| x | Single | The X-coordinate for a left side of shape's frame. |
-| y | Single | The Y-coordinate for a top side of shape's frame. |
-| width | Single | The width of shape's frame. |
-| height | Single | The height of shape's frame. |
-| createFromTemplate | Boolean | If true then new shape will be tuned from default template. Not empty name, simple style, text centered will be assined to the new shape. If false then all values of the properties of the new shape will have default values. |
+| index | Int32 | The zero-based index at which to insert the auto shape. |
+| shapeType | ShapeType | The [`ShapeType`](../../shapetype) of the auto shape to insert. |
+| x | Single | The x-coordinate of the shape’s frame, in points. |
+| y | Single | The y-coordinate of the shape’s frame, in points. |
+| width | Single | The width of the shape’s frame, in points. |
+| height | Single | The height of the shape’s frame, in points. |
+| createFromTemplate | Boolean | True to apply default template styling (including a non-empty name, simple style, and centered text); false to create the shape with all properties set to their defaults. |
 
 ### Return Value
 
-Created AutoShape object.
+The newly created [`IAutoShape`](../../iautoshape).
 
 ### See Also
 

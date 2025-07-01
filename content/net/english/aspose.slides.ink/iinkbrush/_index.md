@@ -3,7 +3,7 @@ title: IInkBrush
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents trace brush.
 type: docs
-weight: 7340
+weight: 7360
 url: /aspose.slides.ink/iinkbrush/
 ---
 
@@ -20,6 +20,7 @@ public interface IInkBrush
 | Name | Description |
 | --- | --- |
 | [Color](../../aspose.slides.ink/iinkbrush/color) { get; set; } | Gets or sets the brush color for a line. |
+| [InkEffect](../../aspose.slides.ink/iinkbrush/inkeffect) { get; } | Gets the ink effect type (e.g., Galaxy, Gold, Silver) that defines the visual style of the ink stroke. The value is parsed from the brush property "inkEffects". If no recognized effect is specified, NotDefined is returned. |
 | [Size](../../aspose.slides.ink/iinkbrush/size) { get; set; } | Gets or sets the brush size for a line in points. |
 
 ### See Also

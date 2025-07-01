@@ -3,7 +3,7 @@ title: IFormatSchemeEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which contains effective format scheme properties.
 type: docs
-weight: 11010
+weight: 11040
 url: /aspose.slides.theme/iformatschemeeffectivedata/
 ---
 

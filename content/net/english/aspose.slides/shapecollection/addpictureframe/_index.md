@@ -1,7 +1,7 @@
 ---
 title: AddPictureFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: Creates a new PictureFrame and adds it to the end of the collection.
+description: Creates a new picture frame containing the specified image and adds it to the end of the shape collection.
 type: docs
 weight: 160
 url: /aspose.slides/shapecollection/addpictureframe/
@@ -9,7 +9,7 @@ url: /aspose.slides/shapecollection/addpictureframe/
 
 ## ShapeCollection.AddPictureFrame method
 
-Creates a new PictureFrame and adds it to the end of the collection.
+Creates a new picture frame containing the specified image and adds it to the end of the shape collection.
 
 ```csharp
 public IPictureFrame AddPictureFrame(ShapeType shapeType, float x, float y, float width, 
@@ -18,16 +18,16 @@ public IPictureFrame AddPictureFrame(ShapeType shapeType, float x, float y, floa
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| shapeType | ShapeType | The shape contained in the set [`ShapeType`](../../shapetype) of shapes, except all sorts of lines: |
-| x | Single | The X-coordinate for a left side of shape's frame. |
-| y | Single | The Y-coordinate for a top side of shape's frame. |
-| width | Single | The width of shape's frame. |
-| height | Single | The height of shape's frame. |
-| image | IPPImage | The image of picture frame. |
+| shapeType | ShapeType | Specifies the shape type contained in [`ShapeType`](../../shapetype), except for all kinds of lines: |
+| x | Single | The x-coordinate of the picture frame, in points. |
+| y | Single | The y-coordinate of the picture frame, in points. |
+| width | Single | The width of the picture frame, in points. |
+| height | Single | The height of the picture frame, in points. |
+| image | IPPImage | The [`IPPImage`](../../ippimage) to display in the picture frame. |
 
 ### Return Value
 
-Created PictureFrame object.
+The newly created [`IPictureFrame`](../../ipictureframe).
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: AfterAnimationType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the after animation type of an animation effect.
 type: docs
-weight: 70
+weight: 90
 url: /aspose.slides.animation/afteranimationtype/
 ---
 

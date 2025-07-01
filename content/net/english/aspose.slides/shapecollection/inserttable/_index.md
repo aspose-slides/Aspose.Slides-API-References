@@ -1,7 +1,7 @@
 ---
 title: InsertTable
 second_title: Aspose.Sildes for .NET API Reference
-description: Creates a new Table and inserts it to the collection at the specified index.
+description: Creates a new table and inserts it into the shape collection at the specified index.
 type: docs
 weight: 390
 url: /aspose.slides/shapecollection/inserttable/
@@ -9,7 +9,7 @@ url: /aspose.slides/shapecollection/inserttable/
 
 ## ShapeCollection.InsertTable method
 
-Creates a new Table and inserts it to the collection at the specified index.
+Creates a new table and inserts it into the shape collection at the specified index.
 
 ```csharp
 public ITable InsertTable(int index, float x, float y, double[] columnWidths, double[] rowHeights)
@@ -17,15 +17,15 @@ public ITable InsertTable(int index, float x, float y, double[] columnWidths, do
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Int32 | The zero-based index at which value should be inserted. |
-| x | Single | The X-coordinate for a left side of shape's frame. |
-| y | Single | The Y-coordinate for a top side of shape's frame. |
-| columnWidths | Double[] | Array of doubles which represents widths of columns in the table. |
-| rowHeights | Double[] | Array of doubles which represents heights of rows in the table. |
+| index | Int32 | The zero-based index at which to insert the table. |
+| x | Single | The x-coordinate of the table, in points. |
+| y | Single | The y-coordinate of the table, in points. |
+| columnWidths | Double[] | An array of doubles representing the widths of the table’s columns, in points. |
+| rowHeights | Double[] | An array of doubles representing the heights of the table’s rows, in points. |
 
 ### Return Value
 
-Created Table object.
+The newly created [`ITable`](../../itable).
 
 ### See Also
 

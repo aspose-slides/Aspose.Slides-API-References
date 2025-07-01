@@ -3,7 +3,7 @@ title: IColorEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a color effect for an animation behavior.
 type: docs
-weight: 420
+weight: 440
 url: /aspose.slides.animation/icoloreffect/
 ---
 

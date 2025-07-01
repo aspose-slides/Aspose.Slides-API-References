@@ -3,7 +3,7 @@ title: ISvgShape
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents options for SVG shape.
 type: docs
-weight: 3980
+weight: 4000
 url: /aspose.slides.export/isvgshape/
 ---
 

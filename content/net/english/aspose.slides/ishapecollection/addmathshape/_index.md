@@ -1,7 +1,7 @@
 ---
 title: AddMathShape
 second_title: Aspose.Sildes for .NET API Reference
-description: Creates a new AutoShape of the type Rectangle to host mathematical content inside and adds it to the end of the collection.
+description: Creates a new rectangle auto shape to host mathematical content and adds it to the end of the shape collection.
 type: docs
 weight: 110
 url: /aspose.slides/ishapecollection/addmathshape/
@@ -9,7 +9,7 @@ url: /aspose.slides/ishapecollection/addmathshape/
 
 ## IShapeCollection.AddMathShape method
 
-Creates a new AutoShape of the type Rectangle to host mathematical content inside and adds it to the end of the collection.
+Creates a new rectangle auto shape to host mathematical content and adds it to the end of the shape collection.
 
 ```csharp
 public IAutoShape AddMathShape(float x, float y, float width, float height)
@@ -17,14 +17,14 @@ public IAutoShape AddMathShape(float x, float y, float width, float height)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | Single | The X-coordinate for a left side of shape's frame. |
-| y | Single | The Y-coordinate for a top side of shape's frame. |
-| width | Single | The width of shape's frame. |
-| height | Single | The height of shape's frame. |
+| x | Single | The x-coordinate of the shape’s frame, in points. |
+| y | Single | The y-coordinate of the shape’s frame, in points. |
+| width | Single | The width of the shape’s frame, in points. |
+| height | Single | The height of the shape’s frame, in points. |
 
 ### Return Value
 
-Created AutoShape object.
+The newly created [`IAutoShape`](../../iautoshape).
 
 ### See Also
 

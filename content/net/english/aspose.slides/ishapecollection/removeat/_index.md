@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Sildes for .NET API Reference
-description: Removes the element at the specified index of the collection.
+description: Removes the shape at the specified index from the shape collection.
 type: docs
 weight: 380
 url: /aspose.slides/ishapecollection/removeat/
@@ -9,7 +9,7 @@ url: /aspose.slides/ishapecollection/removeat/
 
 ## IShapeCollection.RemoveAt method
 
-Removes the element at the specified index of the collection.
+Removes the shape at the specified index from the shape collection.
 
 ```csharp
 public void RemoveAt(int index)
@@ -17,7 +17,7 @@ public void RemoveAt(int index)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Int32 | The zero-based index of the element to remove. |
+| index | Int32 | The zero-based index of the shape to remove. |
 
 ### See Also
 

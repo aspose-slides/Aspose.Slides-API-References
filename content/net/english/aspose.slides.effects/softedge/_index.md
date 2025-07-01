@@ -3,7 +3,7 @@ title: SoftEdge
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a soft edge effect. The edges of the shape are blurred while the fill is not affected.
 type: docs
-weight: 3570
+weight: 3590
 url: /aspose.slides.effects/softedge/
 ---
 

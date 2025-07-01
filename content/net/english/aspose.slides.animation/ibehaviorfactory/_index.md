@@ -3,7 +3,7 @@ title: IBehaviorFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: Allows to create animation effects
 type: docs
-weight: 390
+weight: 410
 url: /aspose.slides.animation/ibehaviorfactory/
 ---
 

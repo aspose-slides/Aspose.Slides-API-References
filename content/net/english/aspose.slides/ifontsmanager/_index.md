@@ -3,7 +3,7 @@ title: IFontsManager
 second_title: Aspose.Sildes for .NET API Reference
 description: Manages fonts across the presentation.
 type: docs
-weight: 5770
+weight: 5790
 url: /aspose.slides/ifontsmanager/
 ---
 

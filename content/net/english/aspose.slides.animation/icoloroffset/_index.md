@@ -3,7 +3,7 @@ title: IColorOffset
 second_title: Aspose.Sildes for .NET API Reference
 description: Represent color offset.
 type: docs
-weight: 430
+weight: 450
 url: /aspose.slides.animation/icoloroffset/
 ---
 

@@ -3,7 +3,7 @@ title: FontSubstCondition
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a rule fot font substitution
 type: docs
-weight: 4720
+weight: 4740
 url: /aspose.slides/fontsubstcondition/
 ---
 

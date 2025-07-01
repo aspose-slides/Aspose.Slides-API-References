@@ -1,7 +1,7 @@
 ---
 title: InsertConnector
 second_title: Aspose.Sildes for .NET API Reference
-description: Creates a new Connector tunes it from default template and inserts it to the collection at the specified index.
+description: Creates a new connector shape and inserts it into the shape collection at the specified index applying default template styling.
 type: docs
 weight: 330
 url: /aspose.slides/shapecollection/insertconnector/
@@ -9,7 +9,7 @@ url: /aspose.slides/shapecollection/insertconnector/
 
 ## InsertConnector(int, ShapeType, float, float, float, float) {#insertconnector}
 
-Creates a new Connector, tunes it from default template and inserts it to the collection at the specified index.
+Creates a new connector shape and inserts it into the shape collection at the specified index, applying default template styling.
 
 ```csharp
 public IConnector InsertConnector(int index, ShapeType shapeType, float x, float y, float width, 
@@ -18,16 +18,16 @@ public IConnector InsertConnector(int index, ShapeType shapeType, float x, float
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Int32 | The zero-based index at which value should be inserted. |
-| shapeType | ShapeType | An [`ShapeType`](../../shapetype) of shape. |
-| x | Single | The X-coordinate for a left side of shape's frame. |
-| y | Single | The Y-coordinate for a top side of shape's frame. |
-| width | Single | The width of shape's frame. |
-| height | Single | The height of shape's frame. |
+| index | Int32 | The zero-based index at which to insert the connector shape. |
+| shapeType | ShapeType | The [`ShapeType`](../../shapetype) of the connector shape to insert. |
+| x | Single | The x-coordinate of the connector’s frame, in points. |
+| y | Single | The y-coordinate of the connector’s frame, in points. |
+| width | Single | The width of the connector’s frame, in points. |
+| height | Single | The height of the connector’s frame, in points. |
 
 ### Return Value
 
-Created Connector object.
+The newly created [`IConnector`](../../iconnector).
 
 ### See Also
 
@@ -41,7 +41,7 @@ Created Connector object.
 
 ## InsertConnector(int, ShapeType, float, float, float, float, bool) {#insertconnector_1}
 
-Creates a new Connector and inserts it to the collection at the specified index.
+Creates a new connector shape and inserts it into the shape collection at the specified index, optionally applying default template styling.
 
 ```csharp
 public IConnector InsertConnector(int index, ShapeType shapeType, float x, float y, float width, 
@@ -50,17 +50,17 @@ public IConnector InsertConnector(int index, ShapeType shapeType, float x, float
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Int32 | The zero-based index at which value should be inserted. |
-| shapeType | ShapeType | An [`ShapeType`](../../shapetype) of shape. |
-| x | Single | The X-coordinate for a left side of shape's frame. |
-| y | Single | The Y-coordinate for a top side of shape's frame. |
-| width | Single | The width of shape's frame. |
-| height | Single | The height of shape's frame. |
-| createFromTemplate | Boolean | If true then new shape will be tuned from default template. Not empty name, simple style, text centered will be assined to the new shape. If false then all values of the properties of the new shape will have default values. |
+| index | Int32 | The zero-based index at which to insert the connector shape. |
+| shapeType | ShapeType | The [`ShapeType`](../../shapetype) of the connector shape to insert. |
+| x | Single | The x-coordinate of the connector’s frame, in points. |
+| y | Single | The y-coordinate of the connector’s frame, in points. |
+| width | Single | The width of the connector’s frame, in points. |
+| height | Single | The height of the connector’s frame, in points. |
+| createFromTemplate | Boolean | True to apply default template styling (non-empty name, simple style); false to create the connector with default property values. |
 
 ### Return Value
 
-Created Connector object.
+The newly created [`IConnector`](../../iconnector).
 
 ### See Also
 

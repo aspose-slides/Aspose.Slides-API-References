@@ -3,7 +3,7 @@ title: BaseShapeLock
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a base class for locks disabled operation.
 type: docs
-weight: 940
+weight: 960
 url: /aspose.slides/baseshapelock/
 ---
 

@@ -3,7 +3,7 @@ title: OuterShadow
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an Outer Shadow effect.
 type: docs
-weight: 3540
+weight: 3560
 url: /aspose.slides.effects/outershadow/
 ---
 

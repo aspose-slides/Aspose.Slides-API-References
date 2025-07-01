@@ -1,7 +1,7 @@
 ---
 title: InsertAudioFrameEmbedded
 second_title: Aspose.Sildes for .NET API Reference
-description: Insert an AudioFrame with embedded audio file. Embedded audio file sound can be a WAV only. It adds new audio into Presentation.Audios list.
+description: Creates a new audio frame with an embedded WAV file and inserts it into the shape collection at the specified index. The embedded audio is added to the Presentation.Audios collection.
 type: docs
 weight: 230
 url: /aspose.slides/ishapecollection/insertaudioframeembedded/
@@ -9,7 +9,7 @@ url: /aspose.slides/ishapecollection/insertaudioframeembedded/
 
 ## InsertAudioFrameEmbedded(int, float, float, float, float, Stream) {#insertaudioframeembedded_1}
 
-Insert an AudioFrame with embedded audio file. Embedded audio file sound can be a WAV only. It adds new audio into Presentation.Audios list.
+Creates a new audio frame with an embedded WAV file and inserts it into the shape collection at the specified index. The embedded audio is added to the Presentation.Audios collection.
 
 ```csharp
 public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float width, float height, 
@@ -18,16 +18,16 @@ public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float w
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Int32 | The zero-based index at which value should be inserted. |
-| x | Single | X coordinate of a new audio frame. |
-| y | Single | Y coordinate of a new audio frame. |
-| width | Single | Width of a new audio frame. |
-| height | Single | Height of a new audio frame. |
-| audio_stream | Stream | Audio stream. |
+| index | Int32 | The zero-based index at which to insert the audio frame. |
+| x | Single | The x-coordinate of the new audio frame, in points. |
+| y | Single | The y-coordinate of the new audio frame, in points. |
+| width | Single | The width of the new audio frame, in points. |
+| height | Single | The height of the new audio frame, in points. |
+| audio_stream | Stream | An input stream containing WAV audio data to embed. |
 
 ### Return Value
 
-Created AudioFrame object.
+The newly created [`IAudioFrame`](../../iaudioframe).
 
 ### See Also
 
@@ -40,7 +40,7 @@ Created AudioFrame object.
 
 ## InsertAudioFrameEmbedded(int, float, float, float, float, IAudio) {#insertaudioframeembedded}
 
-Insert an AudioFrame with embedded audio file. It uses audio file from Presentation.Audios list.
+Creates a new audio frame and inserts it into the shape collection at the specified index using an existing audio object from the Presentation.Audios list.
 
 ```csharp
 public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float width, float height, 
@@ -49,16 +49,16 @@ public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float w
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Int32 | The zero-based index at which value should be inserted. |
-| x | Single | X coordinate of a new audio frame. |
-| y | Single | Y coordinate of a new audio frame. |
-| width | Single | Width of a new audio frame. |
-| height | Single | Height of a new audio frame. |
-| audio | IAudio | Audio from Presentation.Audios list. |
+| index | Int32 | The zero-based index at which to insert the audio frame. |
+| x | Single | The x-coordinate of the new audio frame, in points. |
+| y | Single | The y-coordinate of the new audio frame, in points. |
+| width | Single | The width of the new audio frame, in points. |
+| height | Single | The height of the new audio frame, in points. |
+| audio | IAudio | An [`IAudio`](../../iaudio) instance from the Presentation.Audios collection to embed. |
 
 ### Return Value
 
-Created AudioFrame object.
+The newly created [`IAudioFrame`](../../iaudioframe).
 
 ### See Also
 

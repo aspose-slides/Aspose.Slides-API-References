@@ -3,7 +3,7 @@ title: MotionPathEditMode
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies how the motion path moves when the target shape is moved
 type: docs
-weight: 660
+weight: 680
 url: /aspose.slides.animation/motionpatheditmode/
 ---
 

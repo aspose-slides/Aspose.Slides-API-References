@@ -1,15 +1,15 @@
 ---
 title: SlideSize
 second_title: Aspose.Sildes for .NET API Reference
-description: Represents a size of slide.
+description: Represents the size and orientation of a slide.
 type: docs
-weight: 10230
+weight: 10260
 url: /aspose.slides/slidesize/
 ---
 
 ## SlideSize class
 
-Represents a size of slide.
+Represents the size and orientation of a slide.
 
 ```csharp
 public class SlideSize : DomObject<Presentation>, ISlideSize
@@ -19,16 +19,16 @@ public class SlideSize : DomObject<Presentation>, ISlideSize
 
 | Name | Description |
 | --- | --- |
-| [Orientation](../../aspose.slides/slidesize/orientation) { get; set; } | Returns or sets the slide orientation. Changing this value will swap slide's dimensions. Read/write [`SlideOrientation`](../slideorientation). |
-| [Size](../../aspose.slides/slidesize/size) { get; } | Returns or sets the size in points. Assigning any value will reset [`Type`](./type) property to Custom and set [`Orientation`](./orientation). Read/write SizeF. |
-| [Type](../../aspose.slides/slidesize/type) { get; } | Returns or sets the type of slide size. Assigning any value except Custom will change [`Size`](./size) accordingly, but will keep [`Orientation`](./orientation) intact. Read/write [`SlideSizeType`](../slidesizetype). |
+| [Orientation](../../aspose.slides/slidesize/orientation) { get; set; } | Gets or sets the slide orientation. |
+| [Size](../../aspose.slides/slidesize/size) { get; } | Gets the slide dimensions in points. |
+| [Type](../../aspose.slides/slidesize/type) { get; } | Gets the slide size type. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [SetSize](../../aspose.slides/slidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Sets the type of slide size and scales content using scale type. Assigning any value except Custom will change [`Size`](./size) accordingly, but will keep [`Orientation`](./orientation) intact. |
-| [SetSize](../../aspose.slides/slidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Sets the size in points and scales content using scale type. Assigning any value will reset [`Type`](./type) property to Custom and set [`Orientation`](./orientation). |
+| [SetSize](../../aspose.slides/slidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Sets the slide size by type and scales existing content. |
+| [SetSize](../../aspose.slides/slidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Sets the slide dimensions explicitly and scales existing content. |
 
 ### See Also
 

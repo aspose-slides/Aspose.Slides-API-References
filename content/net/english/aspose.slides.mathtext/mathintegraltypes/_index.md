@@ -3,7 +3,7 @@ title: MathIntegralTypes
 second_title: Aspose.Sildes for .NET API Reference
 description: Mathematical integral types
 type: docs
-weight: 8570
+weight: 8600
 url: /aspose.slides.mathtext/mathintegraltypes/
 ---
 

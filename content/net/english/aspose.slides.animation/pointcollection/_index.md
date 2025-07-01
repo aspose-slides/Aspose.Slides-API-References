@@ -3,7 +3,7 @@ title: PointCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represent collection of animation points.
 type: docs
-weight: 690
+weight: 710
 url: /aspose.slides.animation/pointcollection/
 ---
 

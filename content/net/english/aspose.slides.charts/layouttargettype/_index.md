@@ -3,7 +3,7 @@ title: LayoutTargetType
 second_title: Aspose.Sildes for .NET API Reference
 description: If layout of the plot area defined manually this property specifies whether to layout the plot area by its inside not including axis and axis labels or outside including axis and axis labels.
 type: docs
-weight: 2230
+weight: 2250
 url: /aspose.slides.charts/layouttargettype/
 ---
 

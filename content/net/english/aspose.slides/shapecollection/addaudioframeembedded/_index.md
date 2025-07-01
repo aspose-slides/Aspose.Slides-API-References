@@ -1,7 +1,7 @@
 ---
 title: AddAudioFrameEmbedded
 second_title: Aspose.Sildes for .NET API Reference
-description: Adds a new audio frame with embedded audio file to the end of a collection. Embedded audio file can be a WAV only. It adds new audio into Presentation.Audios list.
+description: Creates a new audio frame with an embedded WAV file and adds it to the end of the shape collection. The embedded audio is added to the Presentation.Audios collection.
 type: docs
 weight: 70
 url: /aspose.slides/shapecollection/addaudioframeembedded/
@@ -9,7 +9,7 @@ url: /aspose.slides/shapecollection/addaudioframeembedded/
 
 ## AddAudioFrameEmbedded(float, float, float, float, Stream) {#addaudioframeembedded_1}
 
-Adds a new audio frame with embedded audio file to the end of a collection. Embedded audio file can be a WAV only. It adds new audio into Presentation.Audios list.
+Creates a new audio frame with an embedded WAV file and adds it to the end of the shape collection. The embedded audio is added to the Presentation.Audios collection.
 
 ```csharp
 public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float height, 
@@ -18,15 +18,15 @@ public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float he
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | Single | X coordinate of a new audio frame. |
-| y | Single | Y coordinate of a new audio frame. |
-| width | Single | Width of a new audio frame. |
-| height | Single | Height of a new audio frame. |
-| audio_stream | Stream | Inout stream with audio data. |
+| x | Single | The x-coordinate of the new audio frame, in points. |
+| y | Single | The y-coordinate of the new audio frame, in points. |
+| width | Single | The width of the new audio frame, in points. |
+| height | Single | The height of the new audio frame, in points. |
+| audio_stream | Stream | An input stream containing WAV audio data to embed. |
 
 ### Return Value
 
-Created AudioFrame object.
+The newly created [`IAudioFrame`](../../iaudioframe).
 
 ### Examples
 
@@ -62,7 +62,7 @@ using (Presentation pres = new Presentation())
 
 ## AddAudioFrameEmbedded(float, float, float, float, IAudio) {#addaudioframeembedded}
 
-Adds a new audio frame with embedded audio file to the end of a collection. It uses audio file from Presentation.Audios list.
+Creates a new audio frame and adds it to the end of the shape collection using an existing audio object from the Presentation.Audios list.
 
 ```csharp
 public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float height, IAudio audio)
@@ -70,15 +70,15 @@ public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float he
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | Single | X coordinate of a new audio frame. |
-| y | Single | Y coordinate of a new audio frame. |
-| width | Single | Width of a new audio frame. |
-| height | Single | Height of a new audio frame. |
-| audio | IAudio | Audio from Presentation.Audios list. |
+| x | Single | The x-coordinate of the new audio frame, in points. |
+| y | Single | The y-coordinate of the new audio frame, in points. |
+| width | Single | The width of the new audio frame, in points. |
+| height | Single | The height of the new audio frame, in points. |
+| audio | IAudio | An [`IAudio`](../../iaudio) instance from the Presentation.Audios collection. |
 
 ### Return Value
 
-Created AudioFrame object.
+The newly created [`IAudioFrame`](../../iaudioframe).
 
 ### See Also
 

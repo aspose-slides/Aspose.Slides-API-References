@@ -3,7 +3,7 @@ title: IChartSeries
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a chart series.
 type: docs
-weight: 1890
+weight: 1910
 url: /aspose.slides.charts/ichartseries/
 ---
 

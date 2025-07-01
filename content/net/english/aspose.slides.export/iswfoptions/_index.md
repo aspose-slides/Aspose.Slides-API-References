@@ -3,7 +3,7 @@ title: ISwfOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides options that control how a presentation is saved in SWF format.
 type: docs
-weight: 4020
+weight: 4040
 url: /aspose.slides.export/iswfoptions/
 ---
 

@@ -3,7 +3,7 @@ title: EffectSubtype
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents subtypes of animation effect.
 type: docs
-weight: 300
+weight: 320
 url: /aspose.slides.animation/effectsubtype/
 ---
 

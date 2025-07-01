@@ -3,7 +3,7 @@ title: Size
 second_title: Aspose.Sildes for .NET API Reference
 description: Gets or sets the brush size for a line in points.
 type: docs
-weight: 20
+weight: 30
 url: /aspose.slides.ink/inkbrush/size/
 ---
 

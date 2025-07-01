@@ -3,7 +3,7 @@ title: MathNaryOperatorTypes
 second_title: Aspose.Sildes for .NET API Reference
 description: Nary operator IMathNaryOperator types excluding integrals For integrals MathIntegralTypes./mathintegraltypes
 type: docs
-weight: 8670
+weight: 8700
 url: /aspose.slides.mathtext/mathnaryoperatortypes/
 ---
 

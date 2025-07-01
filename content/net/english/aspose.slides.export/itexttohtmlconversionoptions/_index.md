@@ -3,7 +3,7 @@ title: ITextToHtmlConversionOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Options for extracting HTML from the Pptx text.
 type: docs
-weight: 4030
+weight: 4050
 url: /aspose.slides.export/itexttohtmlconversionoptions/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: AddVideoFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: Adds a new video frame to the end of a collection.
+description: Creates a new video frame and adds it to the end of the shape collection.
 type: docs
 weight: 210
 url: /aspose.slides/shapecollection/addvideoframe/
@@ -9,7 +9,7 @@ url: /aspose.slides/shapecollection/addvideoframe/
 
 ## AddVideoFrame(float, float, float, float, string) {#addvideoframe_1}
 
-Adds a new video frame to the end of a collection.
+Creates a new video frame and adds it to the end of the shape collection.
 
 ```csharp
 public IVideoFrame AddVideoFrame(float x, float y, float width, float height, string fname)
@@ -17,15 +17,15 @@ public IVideoFrame AddVideoFrame(float x, float y, float width, float height, st
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | Single | X coordinate of a new video frame. |
-| y | Single | Y coordinate of a new video frame. |
-| width | Single | Width of a new video frame. |
-| height | Single | Height of a new video frame. |
-| fname | String | Video file name. |
+| x | Single | The x-coordinate of the new video frame, in points. |
+| y | Single | The y-coordinate of the new video frame, in points. |
+| width | Single | The width of the new video frame, in points. |
+| height | Single | The height of the new video frame, in points. |
+| fname | String | The path or name of the video file to embed. |
 
 ### Return Value
 
-Created VideoFrame object.
+The newly created [`IVideoFrame`](../../ivideoframe).
 
 ### See Also
 
@@ -38,7 +38,7 @@ Created VideoFrame object.
 
 ## AddVideoFrame(float, float, float, float, IVideo) {#addvideoframe}
 
-Adds a new video frame to the end of a collection.
+Creates a new video frame and adds it to the end of the shape collection.
 
 ```csharp
 public IVideoFrame AddVideoFrame(float x, float y, float width, float height, IVideo video)
@@ -46,15 +46,15 @@ public IVideoFrame AddVideoFrame(float x, float y, float width, float height, IV
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | Single | X coordinate of a new video frame. |
-| y | Single | Y coordinate of a new video frame. |
-| width | Single | Width of a new video frame. |
-| height | Single | Height of a new video frame. |
-| video | IVideo | Video to add. |
+| x | Single | The x-coordinate of the new video frame, in points. |
+| y | Single | The y-coordinate of the new video frame, in points. |
+| width | Single | The width of the new video frame, in points. |
+| height | Single | The height of the new video frame, in points. |
+| video | IVideo | The [`IVideo`](../../ivideo) to embed in the video frame. |
 
 ### Return Value
 
-Created VideoFrame object.
+The newly created [`IVideoFrame`](../../ivideoframe).
 
 ### See Also
 

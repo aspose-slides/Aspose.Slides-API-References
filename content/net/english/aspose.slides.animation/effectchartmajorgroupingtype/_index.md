@@ -3,7 +3,7 @@ title: EffectChartMajorGroupingType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the type of an animation effect for charts element.
 type: docs
-weight: 250
+weight: 270
 url: /aspose.slides.animation/effectchartmajorgroupingtype/
 ---
 

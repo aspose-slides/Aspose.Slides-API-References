@@ -3,7 +3,7 @@ title: QuartileMethodType
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns type of quartile method
 type: docs
-weight: 2350
+weight: 2370
 url: /aspose.slides.charts/quartilemethodtype/
 ---
 

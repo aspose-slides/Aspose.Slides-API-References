@@ -3,7 +3,7 @@ title: TextAnimationCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents collection of text animations.
 type: docs
-weight: 790
+weight: 810
 url: /aspose.slides.animation/textanimationcollection/
 ---
 

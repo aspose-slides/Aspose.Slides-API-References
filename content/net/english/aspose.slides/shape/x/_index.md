@@ -1,7 +1,7 @@
 ---
 title: X
 second_title: Aspose.Sildes for .NET API Reference
-description: Returns or sets the x-coordinate of the upper-left corner of the shape. Read/write Single.
+description: Gets or sets the x-coordinate of the shapes upper-left corner measured in points. Read/write Single.
 type: docs
 weight: 300
 url: /aspose.slides/shape/x/
@@ -9,7 +9,7 @@ url: /aspose.slides/shape/x/
 
 ## Shape.X property
 
-Returns or sets the x-coordinate of the upper-left corner of the shape. Read/write Single.
+Gets or sets the x-coordinate of the shape's upper-left corner, measured in points. Read/write Single.
 
 ```csharp
 public float X { get; set; }
@@ -17,7 +17,7 @@ public float X { get; set; }
 
 ### Remarks
 
-Returned value is always defined (is not float.NaN). Assigned value must be defined (not float.NaN). You can set undefined values for RawFrame instance properties.
+The value returned is always defined and never NaN. The value assigned must also be defined; assign NaN only to properties of a `RawFrame` instance.
 
 ### See Also
 

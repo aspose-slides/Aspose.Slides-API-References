@@ -1,7 +1,7 @@
 ---
 title: IndexOf
 second_title: Aspose.Sildes for .NET API Reference
-description: Returns the zero-based index of the first occurrence of a shape in the collection.
+description: Returns the zero-based index of the first occurrence of the specified shape in the collection.
 type: docs
 weight: 210
 url: /aspose.slides/ishapecollection/indexof/
@@ -9,7 +9,7 @@ url: /aspose.slides/ishapecollection/indexof/
 
 ## IShapeCollection.IndexOf method
 
-Returns the zero-based index of the first occurrence of a shape in the collection.
+Returns the zero-based index of the first occurrence of the specified shape in the collection.
 
 ```csharp
 public int IndexOf(IShape shape)
@@ -21,7 +21,7 @@ public int IndexOf(IShape shape)
 
 ### Return Value
 
-The zero-based index of the first occurrence of shape within the collection, if found; otherwise, -1.
+The zero-based index of the first occurrence of the shape in the shape collection if found; otherwise, –1.
 
 ### See Also
 

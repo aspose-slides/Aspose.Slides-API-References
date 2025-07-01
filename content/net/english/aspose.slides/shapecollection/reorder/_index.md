@@ -1,7 +1,7 @@
 ---
 title: Reorder
 second_title: Aspose.Sildes for .NET API Reference
-description: Moves a shape from the collection to the specified position.
+description: Moves the specified shape to a new position within the shape collection.
 type: docs
 weight: 440
 url: /aspose.slides/shapecollection/reorder/
@@ -9,7 +9,7 @@ url: /aspose.slides/shapecollection/reorder/
 
 ## Reorder(int, IShape) {#reorder}
 
-Moves a shape from the collection to the specified position.
+Moves the specified shape to a new position within the shape collection.
 
 ```csharp
 public void Reorder(int index, IShape shape)
@@ -17,8 +17,8 @@ public void Reorder(int index, IShape shape)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Int32 | Target index. |
-| shape | IShape | Shape to move. |
+| index | Int32 | The zero-based target index where the shape will be placed. |
+| shape | IShape | The [`IShape`](../../ishape) to move within the collection. |
 
 ### See Also
 
@@ -31,7 +31,7 @@ public void Reorder(int index, IShape shape)
 
 ## Reorder(int, params IShape[]) {#reorder_1}
 
-Moves shapes from the collection to the specified position. Shapes will be placed starting from index in order they appear in list.
+Moves the specified shapes within the shape collection, placing them starting at the given index.
 
 ```csharp
 public void Reorder(int index, params IShape[] shapes)
@@ -39,8 +39,8 @@ public void Reorder(int index, params IShape[] shapes)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Int32 | Target index. |
-| shapes | IShape[] | Shapes to move. |
+| index | Int32 | The zero-based target index where the first specified shape will be placed; subsequent shapes follow in the order provided. |
+| shapes | IShape[] | One or more [`IShape`](../../ishape) instances to move within the collection. |
 
 ### See Also
 

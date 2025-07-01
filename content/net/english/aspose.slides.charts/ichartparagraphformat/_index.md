@@ -3,7 +3,7 @@ title: IChartParagraphFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a paragraph formatting properties of a chart.
 type: docs
-weight: 1860
+weight: 1880
 url: /aspose.slides.charts/ichartparagraphformat/
 ---
 

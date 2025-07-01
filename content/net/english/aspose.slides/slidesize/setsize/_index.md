@@ -1,7 +1,7 @@
 ---
 title: SetSize
 second_title: Aspose.Sildes for .NET API Reference
-description: Sets the type of slide size and scales content using scale type. Assigning any value except Custom will change Sizeaspose.slides/slidesize/size accordingly but will keep Orientationaspose.slides/slidesize/orientation intact.
+description: Sets the slide size by type and scales existing content.
 type: docs
 weight: 40
 url: /aspose.slides/slidesize/setsize/
@@ -9,7 +9,7 @@ url: /aspose.slides/slidesize/setsize/
 
 ## SetSize(SlideSizeType, SlideSizeScaleType) {#setsize}
 
-Sets the type of slide size and scales content using scale type. Assigning any value except Custom will change [`Size`](../size) accordingly, but will keep [`Orientation`](../orientation) intact.
+Sets the slide size by type and scales existing content.
 
 ```csharp
 public void SetSize(SlideSizeType type, SlideSizeScaleType scaleType)
@@ -17,8 +17,12 @@ public void SetSize(SlideSizeType type, SlideSizeScaleType scaleType)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | SlideSizeType | Slide size type. |
-| scaleType | SlideSizeScaleType | Scale type of slide content. |
+| type | SlideSizeType | The predefined slide size to apply. |
+| scaleType | SlideSizeScaleType | The content scaling mode to use. |
+
+### Remarks
+
+Assigning any value other than Custom adjusts the [`Size`](../size) based on the selected type, while preserving [`Orientation`](../orientation).
 
 ### See Also
 
@@ -32,7 +36,7 @@ public void SetSize(SlideSizeType type, SlideSizeScaleType scaleType)
 
 ## SetSize(float, float, SlideSizeScaleType) {#setsize_1}
 
-Sets the size in points and scales content using scale type. Assigning any value will reset [`Type`](../type) property to Custom and set [`Orientation`](../orientation).
+Sets the slide dimensions explicitly and scales existing content.
 
 ```csharp
 public void SetSize(float width, float height, SlideSizeScaleType scaleType)
@@ -40,9 +44,13 @@ public void SetSize(float width, float height, SlideSizeScaleType scaleType)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| width | Single | Width. |
-| height | Single | Height. |
-| scaleType | SlideSizeScaleType | Scale type of slide content. |
+| width | Single | The new slide width, in points. |
+| height | Single | The new slide height, in points. |
+| scaleType | SlideSizeScaleType | The content scaling mode to use. |
+
+### Remarks
+
+This resets the [`Type`](../type) property to Custom and sets the [`Orientation`](../orientation).
 
 ### See Also
 

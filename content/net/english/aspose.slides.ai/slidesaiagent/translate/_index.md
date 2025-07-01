@@ -3,7 +3,7 @@ title: Translate
 second_title: Aspose.Sildes for .NET API Reference
 description: Translates a presentation to the specified language using AI synchronous version.
 type: docs
-weight: 20
+weight: 40
 url: /aspose.slides.ai/slidesaiagent/translate/
 ---
 
