@@ -50,18 +50,18 @@ Represents a shape on a slide.
 | [getConnectionSiteCount()](#getConnectionSiteCount--) | Returns the number of connection sites on the shape. |
 | [getRotation()](#getRotation--) | Returns or sets the number of degrees the specified shape is rotated around the z-axis. |
 | [setRotation(float value)](#setRotation-float-) | Returns or sets the number of degrees the specified shape is rotated around the z-axis. |
-| [getX()](#getX--) | Returns or sets the x-coordinate of the upper-left corner of the shape. |
-| [setX(float value)](#setX-float-) | Returns or sets the x-coordinate of the upper-left corner of the shape. |
-| [getY()](#getY--) | Returns or sets the y-coordinate of the upper-left corner of the shape. |
-| [setY(float value)](#setY-float-) | Returns or sets the y-coordinate of the upper-left corner of the shape. |
-| [getWidth()](#getWidth--) | Returns or sets the width of the shape. |
-| [setWidth(float value)](#setWidth-float-) | Returns or sets the width of the shape. |
-| [getHeight()](#getHeight--) | Returns or sets the height of the shape. |
-| [setHeight(float value)](#setHeight-float-) | Returns or sets the height of the shape. |
+| [getX()](#getX--) | Gets or sets the x-coordinate of the shape's upper-left corner, measured in points. |
+| [setX(float value)](#setX-float-) | Gets or sets the x-coordinate of the shape's upper-left corner, measured in points. |
+| [getY()](#getY--) | Gets or sets the y-coordinate of the shape's upper-left corner, measured in points. |
+| [setY(float value)](#setY-float-) | Gets or sets the y-coordinate of the shape's upper-left corner, measured in points. |
+| [getWidth()](#getWidth--) | Gets or sets the width of the shape, measured in points. |
+| [setWidth(float value)](#setWidth-float-) | Gets or sets the width of the shape, measured in points. |
+| [getHeight()](#getHeight--) | Gets or sets the height of the shape, measured in points. |
+| [setHeight(float value)](#setHeight-float-) | Gets or sets the height of the shape, measured in points. |
 | [getBlackWhiteMode()](#getBlackWhiteMode--) | Property specifies how a shape will render in black-and-white display mode.. |
 | [setBlackWhiteMode(byte value)](#setBlackWhiteMode-byte-) | Property specifies how a shape will render in black-and-white display mode.. |
-| [getUniqueId()](#getUniqueId--) | Gets unique shape identifier in presentation scope. |
-| [getOfficeInteropShapeId()](#getOfficeInteropShapeId--) | Gets unique shape identifier in slide scope. |
+| [getUniqueId()](#getUniqueId--) | Returns an internal, presentation-scoped identifier intended for use by add-ins or other code. |
+| [getOfficeInteropShapeId()](#getOfficeInteropShapeId--) | Returns a slide-scoped unique identifier that remains constant for the lifetime of the shape and lets PowerPoint or interop code reliably reference the shape from anywhere in the document. |
 | [getAlternativeText()](#getAlternativeText--) | Returns or sets the alternative text associated with a shape. |
 | [setAlternativeText(String value)](#setAlternativeText-java.lang.String-) | Returns or sets the alternative text associated with a shape. |
 | [getAlternativeTextTitle()](#getAlternativeTextTitle--) | Returns or sets the title of alternative text associated with a shape. |
@@ -633,7 +633,7 @@ public final float getRotation()
 ```
 
 
-Returns or sets the number of degrees the specified shape is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Read/write  float .
+Returns or sets the number of degrees the specified shape is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Read/write float.
 
 --------------------
 
@@ -647,7 +647,7 @@ public final void setRotation(float value)
 ```
 
 
-Returns or sets the number of degrees the specified shape is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Read/write  float .
+Returns or sets the number of degrees the specified shape is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Read/write float.
 
 --------------------
 
@@ -664,11 +664,11 @@ public final float getX()
 ```
 
 
-Returns or sets the x-coordinate of the upper-left corner of the shape. Read/write  float .
+Gets or sets the x-coordinate of the shape's upper-left corner, measured in points. Read/write float.
 
 --------------------
 
-Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties.
+The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance.
 
 **Returns:**
 float
@@ -678,11 +678,11 @@ public final void setX(float value)
 ```
 
 
-Returns or sets the x-coordinate of the upper-left corner of the shape. Read/write  float .
+Gets or sets the x-coordinate of the shape's upper-left corner, measured in points. Read/write float.
 
 --------------------
 
-Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties.
+The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -695,11 +695,11 @@ public final float getY()
 ```
 
 
-Returns or sets the y-coordinate of the upper-left corner of the shape. Read/write  float .
+Gets or sets the y-coordinate of the shape's upper-left corner, measured in points. Read/write float.
 
 --------------------
 
-Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties.
+The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance.
 
 **Returns:**
 float
@@ -709,11 +709,11 @@ public final void setY(float value)
 ```
 
 
-Returns or sets the y-coordinate of the upper-left corner of the shape. Read/write  float .
+Gets or sets the y-coordinate of the shape's upper-left corner, measured in points. Read/write float.
 
 --------------------
 
-Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties.
+The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -726,11 +726,11 @@ public final float getWidth()
 ```
 
 
-Returns or sets the width of the shape. Read/write  float .
+Gets or sets the width of the shape, measured in points. Read/write float.
 
 --------------------
 
-Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties.
+The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance.
 
 **Returns:**
 float
@@ -740,11 +740,11 @@ public final void setWidth(float value)
 ```
 
 
-Returns or sets the width of the shape. Read/write  float .
+Gets or sets the width of the shape, measured in points. Read/write float.
 
 --------------------
 
-Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties.
+The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -757,11 +757,11 @@ public final float getHeight()
 ```
 
 
-Returns or sets the height of the shape. Read/write  float .
+Gets or sets the height of the shape, measured in points. Read/write float.
 
 --------------------
 
-Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties.
+The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance.
 
 **Returns:**
 float
@@ -771,11 +771,11 @@ public final void setHeight(float value)
 ```
 
 
-Returns or sets the height of the shape. Read/write  float .
+Gets or sets the height of the shape, measured in points. Read/write float.
 
 --------------------
 
-Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties.
+The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -811,7 +811,7 @@ public final long getUniqueId()
 ```
 
 
-Gets unique shape identifier in presentation scope. Read-only long. See also \#getOfficeInteropShapeId.getOfficeInteropShapeId for getting unique shape identifier in slide scope.
+Returns an internal, presentation-scoped identifier intended for use by add-ins or other code. Because this value can be reassigned by the user or programmatically, it must not be treated as a persistent unique key. Read-only long. See also \#getOfficeInteropShapeId.getOfficeInteropShapeId.
 
 **Returns:**
 long
@@ -821,7 +821,7 @@ public final long getOfficeInteropShapeId()
 ```
 
 
-Gets unique shape identifier in slide scope. Read-only long. See also \#getUniqueId.getUniqueId for getting unique shape identifier in presentation scope.
+Returns a slide-scoped unique identifier that remains constant for the lifetime of the shape and lets PowerPoint or interop code reliably reference the shape from anywhere in the document. Read-only long. See also \#getUniqueId.getUniqueId.
 
 **Returns:**
 long

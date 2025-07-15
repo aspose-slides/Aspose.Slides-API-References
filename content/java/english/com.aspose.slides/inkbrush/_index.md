@@ -23,6 +23,7 @@ Represents an inkBrush object.
 | [setColor(Color value)](#setColor-java.awt.Color-) | Gets or sets the brush color for a line. |
 | [getSize()](#getSize--) | Gets or sets the brush size for a line in points. |
 | [setSize(Dimension2D value)](#setSize-java.awt.geom.Dimension2D-) | Gets or sets the brush size for a line in points. |
+| [getInkEffect()](#getInkEffect--) | Gets the ink effect type (e.g., Galaxy, Gold, Silver) that defines the visual style of the ink stroke. |
 ### getColor() {#getColor--}
 ```
 public final Color getColor()
@@ -137,3 +138,13 @@ Gets or sets the brush size for a line in points.
 | --- | --- | --- |
 | value | java.awt.geom.Dimension2D |  |
 
+### getInkEffect() {#getInkEffect--}
+```
+public final int getInkEffect()
+```
+
+
+Gets the ink effect type (e.g., Galaxy, Gold, Silver) that defines the visual style of the ink stroke. The value is parsed from the brush property "inkEffects". If no recognized effect is specified, [InkEffectType.NotDefined](../../com.aspose.slides/inkeffecttype\#NotDefined) is returned.
+
+**Returns:**
+int

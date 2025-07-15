@@ -17,6 +17,7 @@ Represents trace brush.
 | [setColor(Color value)](#setColor-java.awt.Color-) | Gets or sets the brush color for a line. |
 | [getSize()](#getSize--) | Gets or sets the brush size for a line in points. |
 | [setSize(Dimension2D value)](#setSize-java.awt.geom.Dimension2D-) | Gets or sets the brush size for a line in points. |
+| [getInkEffect()](#getInkEffect--) | Gets the ink effect type (e.g., Galaxy, Gold, Silver) that defines the visual style of the ink stroke. |
 ### getColor() {#getColor--}
 ```
 public abstract Color getColor()
@@ -131,3 +132,28 @@ Gets or sets the brush size for a line in points.
 | --- | --- | --- |
 | value | java.awt.geom.Dimension2D |  |
 
+### getInkEffect() {#getInkEffect--}
+```
+public abstract int getInkEffect()
+```
+
+
+Gets the ink effect type (e.g., Galaxy, Gold, Silver) that defines the visual style of the ink stroke. The value is parsed from the brush property "inkEffects". If no recognized effect is specified, [InkEffectType.NotDefined](../../com.aspose.slides/inkeffecttype\#NotDefined) is returned.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("Presentation.pptx");
+>  try {
+>      Ink ink = (Ink) pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      IInkBrush brush = ink.getTraces()[0].getBrush();
+>      System.out.println("InkEffects = " + brush.getInkEffect());
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+int

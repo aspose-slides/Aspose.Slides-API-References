@@ -17,8 +17,8 @@ Specifies how repeated regular space characters should be handled during Markdow
 | Field | Description |
 | --- | --- |
 | [None](#None) | All spaces are preserved as regular space characters without any changes. |
-| [AlternateSpacesToNbsp](#AlternateSpacesToNbsp) | Converts sequences of two or more consecutive regular spaces by alternating between regular space characters and non-breaking space entities (   ). |
-| [MultipleSpacesToNbsp](#MultipleSpacesToNbsp) | Converts sequences of two or more consecutive regular spaces by preserving the first space as a regular space character and replacing all subsequent spaces with non-breaking space entities (   ). |
+| [AlternateSpacesToNbsp](#AlternateSpacesToNbsp) | Converts sequences of two or more consecutive regular spaces by alternating between regular space characters and non-breaking space entities NBSP. |
+| [MultipleSpacesToNbsp](#MultipleSpacesToNbsp) | Converts sequences of two or more consecutive regular spaces by preserving the first space as a regular space character and replacing all subsequent spaces with non-breaking space entities NBSP. |
 ### None {#None}
 ```
 public static final int None
@@ -33,7 +33,7 @@ public static final int AlternateSpacesToNbsp
 ```
 
 
-Converts sequences of two or more consecutive regular spaces by alternating between regular space characters and non-breaking space entities (   ). The first space is always preserved as a regular space.
+Converts sequences of two or more consecutive regular spaces by alternating between regular space characters and non-breaking space entities NBSP. The first space is always preserved as a regular space.
 
 ### MultipleSpacesToNbsp {#MultipleSpacesToNbsp}
 ```
@@ -41,5 +41,5 @@ public static final int MultipleSpacesToNbsp
 ```
 
 
-Converts sequences of two or more consecutive regular spaces by preserving the first space as a regular space character and replacing all subsequent spaces with non-breaking space entities (   ).
+Converts sequences of two or more consecutive regular spaces by preserving the first space as a regular space character and replacing all subsequent spaces with non-breaking space entities NBSP.
 
