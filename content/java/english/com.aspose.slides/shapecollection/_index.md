@@ -244,10 +244,10 @@ Creates a SmartArt diagram and adds it to the end of the shape collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | float | The x-coordinate of the diagram\\u2019s frame, in points. |
-| y | float | The y-coordinate of the diagram\\u2019s frame, in points. |
-| width | float | The width of the diagram\\u2019s frame, in points. |
-| height | float | The height of the diagram\\u2019s frame, in points. |
+| x | float | The x-coordinate of the diagram's frame, in points. |
+| y | float | The y-coordinate of the diagram's frame, in points. |
+| width | float | The width of the diagram's frame, in points. |
+| height | float | The height of the diagram's frame, in points. |
 | layoutType | int | The SmartArt layout type. |
 
 **Returns:**
@@ -1101,10 +1101,10 @@ Creates a new auto shape with default formatting and adds it to the end of the s
 | Parameter | Type | Description |
 | --- | --- | --- |
 | shapeType | int | The [ShapeType](../../com.aspose.slides/shapetype) of the auto shape to add. |
-| x | float | The x-coordinate of the shape\\u2019s frame, in points. |
-| y | float | The y-coordinate of the shape\\u2019s frame, in points. |
-| width | float | The width of the shape\\u2019s frame, in points. |
-| height | float | The height of the shape\\u2019s frame, in points. |
+| x | float | The x-coordinate of the shape's frame, in points. |
+| y | float | The y-coordinate of the shape's frame, in points. |
+| width | float | The width of the shape's frame, in points. |
+| height | float | The height of the shape's frame, in points. |
 
 **Returns:**
 [IAutoShape](../../com.aspose.slides/iautoshape) - The newly created [IAutoShape](../../com.aspose.slides/iautoshape).
@@ -1120,10 +1120,10 @@ Creates a new auto shape and adds it to the end of the shape collection, optiona
 | Parameter | Type | Description |
 | --- | --- | --- |
 | shapeType | int | The [ShapeType](../../com.aspose.slides/shapetype) of the auto shape to add. |
-| x | float | The x-coordinate of the shape\\u2019s frame, in points. |
-| y | float | The y-coordinate of the shape\\u2019s frame, in points. |
-| width | float | The width of the shape\\u2019s frame, in points. |
-| height | float | The height of the shape\\u2019s frame, in points. |
+| x | float | The x-coordinate of the shape's frame, in points. |
+| y | float | The y-coordinate of the shape's frame, in points. |
+| width | float | The width of the shape's frame, in points. |
+| height | float | The height of the shape's frame, in points. |
 | createFromTemplate | boolean | True to apply default template styling (simple style, centered text, and non-empty name) to the new shape; false to create the shape with all properties set to their default values. |
 
 **Returns:**
@@ -1163,10 +1163,10 @@ Creates a new rectangle auto shape to host mathematical content and adds it to t
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | float | The x-coordinate of the shape\\u2019s frame, in points. |
-| y | float | The y-coordinate of the shape\\u2019s frame, in points. |
-| width | float | The width of the shape\\u2019s frame, in points. |
-| height | float | The height of the shape\\u2019s frame, in points. |
+| x | float | The x-coordinate of the shape's frame, in points. |
+| y | float | The y-coordinate of the shape's frame, in points. |
+| width | float | The width of the shape's frame, in points. |
+| height | float | The height of the shape's frame, in points. |
 
 **Returns:**
 [IAutoShape](../../com.aspose.slides/iautoshape) - The newly created [IAutoShape](../../com.aspose.slides/iautoshape).
@@ -1183,10 +1183,10 @@ Creates a new auto shape and inserts it into the shape collection at the specifi
 | --- | --- | --- |
 | index | int | The zero-based index at which to insert the new auto shape. |
 | shapeType | int | The [ShapeType](../../com.aspose.slides/shapetype) of the auto shape to insert. |
-| x | float | The x-coordinate of the shape\\u2019s frame, in points. |
-| y | float | The y-coordinate of the shape\\u2019s frame, in points. |
-| width | float | The width of the shape\\u2019s frame, in points. |
-| height | float | The height of the shape\\u2019s frame, in points. |
+| x | float | The x-coordinate of the shape's frame, in points. |
+| y | float | The y-coordinate of the shape's frame, in points. |
+| width | float | The width of the shape's frame, in points. |
+| height | float | The height of the shape's frame, in points. |
 
 **Returns:**
 [IAutoShape](../../com.aspose.slides/iautoshape) - The newly created [IAutoShape](../../com.aspose.slides/iautoshape).
@@ -1203,10 +1203,10 @@ Creates a new auto shape and inserts it into the shape collection at the specifi
 | --- | --- | --- |
 | index | int | The zero-based index at which to insert the auto shape. |
 | shapeType | int | The [ShapeType](../../com.aspose.slides/shapetype) of the auto shape to insert. |
-| x | float | The x-coordinate of the shape\\u2019s frame, in points. |
-| y | float | The y-coordinate of the shape\\u2019s frame, in points. |
-| width | float | The width of the shape\\u2019s frame, in points. |
-| height | float | The height of the shape\\u2019s frame, in points. |
+| x | float | The x-coordinate of the shape's frame, in points. |
+| y | float | The y-coordinate of the shape's frame, in points. |
+| width | float | The width of the shape's frame, in points. |
+| height | float | The height of the shape's frame, in points. |
 | createFromTemplate | boolean | True to apply default template styling (including a non-empty name, simple style, and centered text); false to create the shape with all properties set to their defaults. |
 
 **Returns:**
@@ -1217,7 +1217,7 @@ public final IGroupShape addGroupShape()
 ```
 
 
-Creates a new empty group shape and adds it to the end of the shape collection. The group\\u2019s frame will automatically adjust to fit any shapes added to it.
+Creates a new empty group shape and adds it to the end of the shape collection. The group's frame will automatically adjust to fit any shapes added to it.
 
 --------------------
 
@@ -1261,10 +1261,10 @@ Creates a new group shape, converts the specified SVG image into individual shap
 | Parameter | Type | Description |
 | --- | --- | --- |
 | svgImage | [ISvgImage](../../com.aspose.slides/isvgimage) | The [ISvgImage](../../com.aspose.slides/isvgimage) containing vector content to convert into shapes. |
-| x | float | The x-coordinate of the group\\u2019s frame, in points. |
-| y | float | The y-coordinate of the group\\u2019s frame, in points. |
-| width | float | The width of the group\\u2019s frame, in points. |
-| height | float | The height of the group\\u2019s frame, in points. |
+| x | float | The x-coordinate of the group's frame, in points. |
+| y | float | The y-coordinate of the group's frame, in points. |
+| width | float | The width of the group's frame, in points. |
+| height | float | The height of the group's frame, in points. |
 
 **Returns:**
 [IGroupShape](../../com.aspose.slides/igroupshape) - The newly created [IGroupShape](../../com.aspose.slides/igroupshape).
@@ -1274,7 +1274,7 @@ public final IGroupShape insertGroupShape(int index)
 ```
 
 
-Creates a new empty group shape and inserts it to the shape collection at the specified index. The group\\u2019s frame will automatically adjust to fit any shapes added to it.
+Creates a new empty group shape and inserts it to the shape collection at the specified index. The group's frame will automatically adjust to fit any shapes added to it.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1323,10 +1323,10 @@ Creates a new connector shape with default template styling and adds it to the e
 | Parameter | Type | Description |
 | --- | --- | --- |
 | shapeType | int | The [ShapeType](../../com.aspose.slides/shapetype) of the connector shape to add. |
-| x | float | The x-coordinate of the connector\\u2019s frame, in points. |
-| y | float | The y-coordinate of the connector\\u2019s frame, in points. |
-| width | float | The width of the connector\\u2019s frame, in points. |
-| height | float | The height of the connector\\u2019s frame, in points. |
+| x | float | The x-coordinate of the connector's frame, in points. |
+| y | float | The y-coordinate of the connector's frame, in points. |
+| width | float | The width of the connector's frame, in points. |
+| height | float | The height of the connector's frame, in points. |
 
 **Returns:**
 [IConnector](../../com.aspose.slides/iconnector) - The newly created [IConnector](../../com.aspose.slides/iconnector).
@@ -1342,10 +1342,10 @@ Creates a new connector shape and adds it to the end of the shape collection, op
 | Parameter | Type | Description |
 | --- | --- | --- |
 | shapeType | int | The [ShapeType](../../com.aspose.slides/shapetype) of the connector shape to create. |
-| x | float | The x-coordinate of the connector\\u2019s frame, in points. |
-| y | float | The y-coordinate of the connector\\u2019s frame, in points. |
-| width | float | The width of the connector\\u2019s frame, in points. |
-| height | float | The height of the connector\\u2019s frame, in points. |
+| x | float | The x-coordinate of the connector's frame, in points. |
+| y | float | The y-coordinate of the connector's frame, in points. |
+| width | float | The width of the connector's frame, in points. |
+| height | float | The height of the connector's frame, in points. |
 | createFromTemplate | boolean | True to apply default template styling (non-empty name, simple style); false to create the connector with default property values. |
 
 **Returns:**
@@ -1363,10 +1363,10 @@ Creates a new connector shape and inserts it into the shape collection at the sp
 | --- | --- | --- |
 | index | int | The zero-based index at which to insert the connector shape. |
 | shapeType | int | The [ShapeType](../../com.aspose.slides/shapetype) of the connector shape to insert. |
-| x | float | The x-coordinate of the connector\\u2019s frame, in points. |
-| y | float | The y-coordinate of the connector\\u2019s frame, in points. |
-| width | float | The width of the connector\\u2019s frame, in points. |
-| height | float | The height of the connector\\u2019s frame, in points. |
+| x | float | The x-coordinate of the connector's frame, in points. |
+| y | float | The y-coordinate of the connector's frame, in points. |
+| width | float | The width of the connector's frame, in points. |
+| height | float | The height of the connector's frame, in points. |
 
 **Returns:**
 [IConnector](../../com.aspose.slides/iconnector) - The newly created [IConnector](../../com.aspose.slides/iconnector).
@@ -1383,10 +1383,10 @@ Creates a new connector shape and inserts it into the shape collection at the sp
 | --- | --- | --- |
 | index | int | The zero-based index at which to insert the connector shape. |
 | shapeType | int | The [ShapeType](../../com.aspose.slides/shapetype) of the connector shape to insert. |
-| x | float | The x-coordinate of the connector\\u2019s frame, in points. |
-| y | float | The y-coordinate of the connector\\u2019s frame, in points. |
-| width | float | The width of the connector\\u2019s frame, in points. |
-| height | float | The height of the connector\\u2019s frame, in points. |
+| x | float | The x-coordinate of the connector's frame, in points. |
+| y | float | The y-coordinate of the connector's frame, in points. |
+| width | float | The width of the connector's frame, in points. |
+| height | float | The height of the connector's frame, in points. |
 | createFromTemplate | boolean | True to apply default template styling (non-empty name, simple style); false to create the connector with default property values. |
 
 **Returns:**
@@ -1541,8 +1541,8 @@ Creates a new table and adds it to the end of the shape collection.
 | --- | --- | --- |
 | x | float | The x-coordinate of the table, in points. |
 | y | float | The y-coordinate of the table, in points. |
-| columnWidths | double[] | An array of doubles representing the widths of the table\\u2019s columns, in points. |
-| rowHeights | double[] | An array of doubles representing the heights of the table\\u2019s rows, in points. |
+| columnWidths | double[] | An array of doubles representing the widths of the table's columns, in points. |
+| rowHeights | double[] | An array of doubles representing the heights of the table's rows, in points. |
 
 **Returns:**
 [ITable](../../com.aspose.slides/itable) - The newly created [ITable](../../com.aspose.slides/itable).
@@ -1560,8 +1560,8 @@ Creates a new table and inserts it into the shape collection at the specified in
 | index | int | The zero-based index at which to insert the table. |
 | x | float | The x-coordinate of the table, in points. |
 | y | float | The y-coordinate of the table, in points. |
-| columnWidths | double[] | An array of doubles representing the widths of the table\\u2019s columns, in points. |
-| rowHeights | double[] | An array of doubles representing the heights of the table\\u2019s rows, in points. |
+| columnWidths | double[] | An array of doubles representing the widths of the table's columns, in points. |
+| rowHeights | double[] | An array of doubles representing the heights of the table's rows, in points. |
 
 **Returns:**
 [ITable](../../com.aspose.slides/itable) - The newly created [ITable](../../com.aspose.slides/itable).
@@ -1641,10 +1641,10 @@ Creates a copy of the specified shape and adds it to the end of the shape collec
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sourceShape | [IShape](../../com.aspose.slides/ishape) | The shape to clone. |
-| x | float | The x-coordinate of the new shape\\u2019s frame, in points. |
-| y | float | The y-coordinate of the new shape\\u2019s frame, in points. |
-| width | float | The width of the new shape\\u2019s frame, in points. |
-| height | float | The height of the new shape\\u2019s frame, in points. |
+| x | float | The x-coordinate of the new shape's frame, in points. |
+| y | float | The y-coordinate of the new shape's frame, in points. |
+| width | float | The width of the new shape's frame, in points. |
+| height | float | The height of the new shape's frame, in points. |
 
 **Returns:**
 [IShape](../../com.aspose.slides/ishape) - The newly created [IShape](../../com.aspose.slides/ishape).
@@ -1660,8 +1660,8 @@ Creates a copy of the specified shape and adds it to the end of the shape collec
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sourceShape | [IShape](../../com.aspose.slides/ishape) | The shape to clone. |
-| x | float | The x-coordinate of the new shape\\u2019s frame, in points. |
-| y | float | The y-coordinate of the new shape\\u2019s frame, in points. |
+| x | float | The x-coordinate of the new shape's frame, in points. |
+| y | float | The y-coordinate of the new shape's frame, in points. |
 
 **Returns:**
 [IShape](../../com.aspose.slides/ishape) - The newly created [IShape](../../com.aspose.slides/ishape).
@@ -1671,7 +1671,7 @@ public final IShape addClone(IShape sourceShape)
 ```
 
 
-Creates a copy of the specified shape and adds it to the end of the shape collection. The cloned shape retains the original\\u2019s position and size.
+Creates a copy of the specified shape and adds it to the end of the shape collection. The cloned shape retains the original's position and size.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1693,10 +1693,10 @@ Creates a copy of the specified shape and inserts it into the shape collection a
 | --- | --- | --- |
 | index | int | The zero-based index at which to insert the cloned shape. |
 | sourceShape | [IShape](../../com.aspose.slides/ishape) | The [IShape](../../com.aspose.slides/ishape) to clone. |
-| x | float | The x-coordinate of the cloned shape\\u2019s frame, in points. |
-| y | float | The y-coordinate of the cloned shape\\u2019s frame, in points. |
-| width | float | The width of the cloned shape\\u2019s frame, in points. |
-| height | float | The height of the cloned shape\\u2019s frame, in points. |
+| x | float | The x-coordinate of the cloned shape's frame, in points. |
+| y | float | The y-coordinate of the cloned shape's frame, in points. |
+| width | float | The width of the cloned shape's frame, in points. |
+| height | float | The height of the cloned shape's frame, in points. |
 
 **Returns:**
 [IShape](../../com.aspose.slides/ishape) - The newly created [IShape](../../com.aspose.slides/ishape).
@@ -1713,8 +1713,8 @@ Creates a copy of the specified shape and inserts it into the shape collection a
 | --- | --- | --- |
 | index | int | The zero-based index at which to insert the cloned shape. |
 | sourceShape | [IShape](../../com.aspose.slides/ishape) | The [IShape](../../com.aspose.slides/ishape) to clone. |
-| x | float | The x-coordinate of the cloned shape\\u2019s frame, in points. |
-| y | float | The y-coordinate of the cloned shape\\u2019s frame, in points. |
+| x | float | The x-coordinate of the cloned shape's frame, in points. |
+| y | float | The y-coordinate of the cloned shape's frame, in points. |
 
 **Returns:**
 [IShape](../../com.aspose.slides/ishape) - The newly created [IShape](../../com.aspose.slides/ishape).
@@ -1724,7 +1724,7 @@ public final IShape insertClone(int index, IShape sourceShape)
 ```
 
 
-Creates a copy of the specified shape and inserts it into the shape collection at the specified index. The cloned shape retains the original\\u2019s position and size.
+Creates a copy of the specified shape and inserts it into the shape collection at the specified index. The cloned shape retains the original's position and size.
 
 **Parameters:**
 | Parameter | Type | Description |

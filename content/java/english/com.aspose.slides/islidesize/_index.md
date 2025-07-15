@@ -57,7 +57,7 @@ Gets or sets the slide orientation.
 
 --------------------
 
-Changing this value swaps the slide\\u2019s width and height.
+Changing this value swaps the slide's width and height.
 
 **Returns:**
 int
@@ -71,7 +71,7 @@ Gets or sets the slide orientation.
 
 --------------------
 
-Changing this value swaps the slide\\u2019s width and height.
+Changing this value swaps the slide's width and height.
 
 **Parameters:**
 | Parameter | Type | Description |
