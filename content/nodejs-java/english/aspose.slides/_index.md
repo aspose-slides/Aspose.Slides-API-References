@@ -275,6 +275,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [Ink](ink) | Represents an ink object on a slide. |
 | [InkActions](inkactions) | Represents the root of ink actions. |
 | [InkBrush](inkbrush) | Represents an inkBrush object. |
+| [InkEffectType](inkeffecttype) | Specifies a set of predefined visual effects for ink rendering. Each effect corresponds to a texture or image that simulates a stylized ink appearance. These values can be used to customize the visual style of digital ink strokes during rendering. |
 | [InkOptions](inkoptions) | Provides options that control the look of Ink objects in exported document. |
 | [InkTrace](inktrace) | Represents an Trace object. A Trace element is used to record the data captured by the digitizer. It contains a sequence of points encoded according to the specification given by the InkTraceFormat object. |
 | [InnerShadow](innershadow) | Represents a Inner Shadow effect. |
@@ -475,6 +476,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [PptxUnsupportedFormatException](pptxunsupportedformatexception) | Exception which thrown when presentation file format is unsupported. |
 | [Presentation](presentation) | Represents a Microsoft PowerPoint presentation. |
 | [PresentationAnimationsGenerator](presentationanimationsgenerator) | Represents a generator of the animations in the Presentation. |
+| [PresentationContentAmountType](presentationcontentamounttype) | Specifies the amount of content included in the generated presentation, influencing both the number of slides and the level of detail per slide. |
 | [PresentationFactory](presentationfactory) | Allows to create presentation via COM interface |
 | [PresentationHeaderFooterManager](presentationheaderfootermanager) | Represents manager which holds behavior of all footer, date-time and page number placeholders of presentation. |
 | [PresentationInfo](presentationinfo) | Information about presentation file |
@@ -519,7 +521,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [Shape](shape) | Represents a shape on a slide. |
 | [ShapeAdjustmentType](shapeadjustmenttype) | Specifies different types of shape adjustment values. |
 | [ShapeBevel](shapebevel) | Contains the properties of shape's main face relief. |
-| [ShapeCollection](shapecollection) | Represents a collection of a shapes. |
+| [ShapeCollection](shapecollection) | Represents a collection of shapes. |
 | [ShapeElement](shapeelement) | Represents a part of shape with same outline and fill properties. |
 | [ShapeElementFillSource](shapeelementfillsource) | Represents how shape element should be filled. |
 | [ShapeElementStrokeSource](shapeelementstrokesource) | Represents how shape element should be drawn. |
@@ -541,7 +543,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [SlideShowSettings](slideshowsettings) | Represents the slide show settings for the presentation. |
 | [SlideShowTransition](slideshowtransition) | Represents slide show transition. |
 | [SlideShowType](slideshowtype) | Base slide show settings. Ancestors represent types of the slide show: PresentedBySpeaker Presented by a speaker (full screen) BrowsedByIndividual Browsed by individual (window) BrowsedAtKiosk Browsed at a kiosk (full screen) |
-| [SlideSize](slidesize) | Represents a size of slide. |
+| [SlideSize](slidesize) | Represents the size and orientation of a slide. |
 | [SlideSizeScaleType](slidesizescaletype) | Represents the scale type of slide content. |
 | [SlideSizeType](slidesizetype) | Represents the slide size preset. |
 | [SlideThemeManager](slidethememanager) | Provides access to slide theme overriden. |

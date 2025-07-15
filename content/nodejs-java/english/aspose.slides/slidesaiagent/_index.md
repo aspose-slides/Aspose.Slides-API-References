@@ -21,7 +21,7 @@ url: /aspose.slides/slidesaiagent/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| null | [OpenAIWebClient](../openaiwebclient) | aiClient |
+| aiClient | [OpenAIWebClient](../openaiwebclient) | AI client instance |
 
  **Returns:**
 SlidesAIAgent
@@ -30,7 +30,60 @@ SlidesAIAgent
 
 | Error | Condition |
 | --- | --- |
- | ArgumentNullException | AI client instance is not provided |
+ | IllegalArgumentException | if AI client is not provided |
+
+
+---
+
+
+### generatePresentation {#generatePresentation}
+
+| Name | Description |
+| --- | --- |
+| generatePresentation (String, int) | Generates a presentation from a text description |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| description | String | The topic, ideas, quotes or text snippets |
+| presentationContentAmount | int | Amount of content in resulting presentation |
+
+ **Returns:**
+[Presentation](../presentation)
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | IllegalArgumentException | if description is empty |
+
+
+---
+
+
+### generatePresentation {#generatePresentation}
+
+| Name | Description |
+| --- | --- |
+| generatePresentation (String, int, [Presentation](../presentation)) | Generates a presentation using custom template |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| description | String | The topic, ideas, quotes or text snippets |
+| presentationContentAmount | int | Amount of content in resulting presentation |
+| presentationTemplate | [Presentation](../presentation) | Presentation template for layout and design |
+
+ **Returns:**
+[Presentation](../presentation)
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | IllegalArgumentException | if parameters are invalid |
 
 
 ---
@@ -40,7 +93,7 @@ SlidesAIAgent
 
 | Name | Description |
 | --- | --- |
-| translate ([Presentation](../presentation), String) | Translates a presentation to the specified language using AI. |
+| translate ([Presentation](../presentation), String) | Translates a presentation to the specified language using AI |
 
  **Parameters:**
 
@@ -53,7 +106,7 @@ SlidesAIAgent
 
 | Error | Condition |
 | --- | --- |
- | OperationCanceledException | if translation fails Example usage: Presentation presentation = new Presentation("Presentation.pptx"); try { IAIWebClient aiWebClient = new OpenAIWebClient("gpt-4o-mini", "apiKey", null); SlidesAIAgent aiAgent = new SlidesAIAgent(aiWebClient); aiAgent.translate(presentation, "spanish"); presentation.save("translated.pptx", SaveFormat.Pptx); } finally { if (presentation != null) presentation.dispose(); } |
+ | IllegalArgumentException | if parameters are invalid |
 
 
 ---

@@ -9,13 +9,13 @@ url: /aspose.slides/slidesize/
 
 ## SlideSize class
 
- Represents a size of slide.
+ Represents the size and orientation of a slide.
  
 ### getOrientation {#getOrientation}
 
 | Name | Description |
 | --- | --- |
-| getOrientation () | Returns or sets the slide orientation. Read/write SlideOrientation. Changing this value will swap slide's dimensions. |
+| getOrientation () | Gets or sets the slide orientation. Changing this value swaps the slide’s width and height. |
 
  **Returns:**
 int
@@ -28,7 +28,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getSize () | Returns or sets the size in points. Read/write java.awt.geom.Dimension2D. Assigning any value will reset ( #getType) property to SlideSizeType#Custom and set ( #getOrientation/ #setOrientation(int)). |
+| getSize () | Gets the slide dimensions in points. Assigning a new value resets the #getType property to SlideSizeType#Custom and sets the #getOrientation/ #setOrientation(int). |
 
  **Returns:**
 Dimension2D
@@ -41,7 +41,7 @@ Dimension2D
 
 | Name | Description |
 | --- | --- |
-| getType () | Returns or sets the type of slide size. Read/write SlideSizeType. Assigning any value except SlideSizeType#Custom will change ( #getSize) accordingly, but will keep ( #getOrientation/ #setOrientation(int)) intact. |
+| getType () | Gets the slide size type. Assigning any value other than SlideSizeType#Custom adjusts the #getSize according to the predefined dimensions, while retaining the current #getOrientation/ #setOrientation(int). |
 
  **Returns:**
 int
@@ -54,7 +54,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setOrientation (int) | Returns or sets the slide orientation. Read/write SlideOrientation. Changing this value will swap slide's dimensions. |
+| setOrientation (int) | Gets or sets the slide orientation. Changing this value swaps the slide’s width and height. |
 
 
 ---
@@ -64,14 +64,14 @@ int
 
 | Name | Description |
 | --- | --- |
-| setSize (int, int) | Sets the type of slide size and scales content using scale type. |
+| setSize (int, int) | Sets the slide size by type and scales existing content. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| type | int | Slide size type. |
-| scaleType | int | Scale type of slide content. Assigning any value except SlideSizeType#Custom will change ( #getSize) accordingly, but will keep ( #getOrientation/ #setOrientation(int)) intact. |
+| type | int | The predefined slide size to apply. |
+| scaleType | int | The content scaling mode to use. Assigning any value other than SlideSizeType#Custom adjusts the #getSize based on the selected type, while preserving #getOrientation/ #setOrientation(int). |
 
 
 ---
@@ -81,15 +81,15 @@ int
 
 | Name | Description |
 | --- | --- |
-| setSize (float, float, int) | Sets the size in points and scales content using scale type. |
+| setSize (float, float, int) | Sets the slide dimensions explicitly and scales existing content. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| width | float | Width. |
-| height | float | Height. |
-| scaleType | int | Scale type of slide content. Assigning any value will reset ( #getType) property to SlideSizeType#Custom and set ( #getOrientation/ #setOrientation(int)). |
+| width | float | The new slide width, in points. |
+| height | float | The new slide height, in points. |
+| scaleType | int | The content scaling mode to use. This resets the #getType property to SlideSizeType#Custom and sets the #getOrientation/ #setOrientation(int). |
 
 
 ---

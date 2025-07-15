@@ -24,6 +24,19 @@ Color
 ---
 
 
+### getInkEffect {#getInkEffect}
+
+| Name | Description |
+| --- | --- |
+| getInkEffect () | Gets the ink effect type (e.g., Galaxy, Gold, Silver) that defines the visual style of the ink stroke. The value is parsed from the brush property "inkEffects". If no recognized effect is specified, InkEffectType#NotDefined is returned. |
+
+ **Returns:**
+int
+
+
+---
+
+
 ### getSize {#getSize}
 
 | Name | Description |

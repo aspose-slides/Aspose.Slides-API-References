@@ -16,10 +16,10 @@ url: /aspose.slides/buildversioninfo/
 
 | Name | Value | Description |
 | --- | --- | --- |
-[ProductMinor](#ProductMinor) | 6 | Minor version number. |
+[ProductMinor](#ProductMinor) | 7 | Minor version number. |
 [ProductMajor](#ProductMajor) | 25 | Major version number. |
-[AssemblyVersion](#AssemblyVersion) | 25.6 | Version of Aspose.Slides assembly. |
-[FileVersion](#FileVersion) | 25.6 | Version of assembly file. |
+[AssemblyVersion](#AssemblyVersion) | 25.7 | Version of Aspose.Slides assembly. |
+[FileVersion](#FileVersion) | 25.7 | Version of assembly file. |
 [Product](#Product) | Aspose.Slides for Node.js via Java | Product name of Aspose.Slides |
 
 

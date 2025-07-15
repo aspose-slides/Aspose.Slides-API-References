@@ -213,7 +213,7 @@ boolean
 | getSlidesLayoutOptions () | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. This property doesn't support assigning objects of type HandoutLayoutingOptions |
 
  **Returns:**
-[NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), [HandoutLayoutingOptions](../handoutlayoutingoptions)
+[HandoutLayoutingOptions](../handoutlayoutingoptions), [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)
 
 
 ---
@@ -379,7 +379,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setSlidesLayoutOptions ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. This property doesn't support assigning objects of type HandoutLayoutingOptions. |
+| setSlidesLayoutOptions ([HandoutLayoutingOptions](../handoutlayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. This property doesn't support assigning objects of type HandoutLayoutingOptions. |
 
 
 ---
@@ -389,7 +389,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setSlidesLayoutOptions ([HandoutLayoutingOptions](../handoutlayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. This property doesn't support assigning objects of type HandoutLayoutingOptions. |
+| setSlidesLayoutOptions ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. This property doesn't support assigning objects of type HandoutLayoutingOptions. |
 
 
 ---

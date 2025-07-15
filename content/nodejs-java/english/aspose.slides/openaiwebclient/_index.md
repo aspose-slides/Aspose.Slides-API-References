@@ -86,3 +86,16 @@ String
 ---
 
 
+### createConversation {#createConversation}
+
+| Name | Description |
+| --- | --- |
+| createConversation () | Creates a conversation instance. Unlike regular AI calls, conversations retain the entire context. |
+
+ **Returns:**
+OpenAIConversation
+
+
+---
+
+

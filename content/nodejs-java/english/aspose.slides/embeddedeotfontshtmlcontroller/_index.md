@@ -47,6 +47,25 @@ EmbeddedEotFontsHtmlController
 
 | Name | Description |
 | --- | --- |
+| EmbeddedEotFontsHtmlController([EmbedAllFontsHtmlController](../embedallfontshtmlcontroller)) | Creates new instance. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| controller | [EmbedAllFontsHtmlController](../embedallfontshtmlcontroller) | HTML formatting controller. |
+
+ **Returns:**
+EmbeddedEotFontsHtmlController
+
+
+---
+
+
+### EmbeddedEotFontsHtmlController {#EmbeddedEotFontsHtmlController}
+
+| Name | Description |
+| --- | --- |
 | EmbeddedEotFontsHtmlController([EmbeddedEotFontsHtmlController](../embeddedeotfontshtmlcontroller)) | Creates new instance. |
 
  **Parameters:**
@@ -73,25 +92,6 @@ EmbeddedEotFontsHtmlController
 | Name | Type | Description |
 | --- | --- | --- |
 | controller | [ResponsiveHtmlController](../responsivehtmlcontroller) | HTML formatting controller. |
-
- **Returns:**
-EmbeddedEotFontsHtmlController
-
-
----
-
-
-### EmbeddedEotFontsHtmlController {#EmbeddedEotFontsHtmlController}
-
-| Name | Description |
-| --- | --- |
-| EmbeddedEotFontsHtmlController([EmbedAllFontsHtmlController](../embedallfontshtmlcontroller)) | Creates new instance. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| controller | [EmbedAllFontsHtmlController](../embedallfontshtmlcontroller) | HTML formatting controller. |
 
  **Returns:**
 EmbeddedEotFontsHtmlController
@@ -143,87 +143,7 @@ EmbeddedEotFontsHtmlController
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [VideoFrame](../videoframe)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SmartArtShape](../smartartshape)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [AutoShape](../autoshape)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [GeometryShape](../geometryshape)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [ZoomFrame](../zoomframe)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SummaryZoomSection](../summaryzoomsection)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SectionZoomFrame](../sectionzoomframe)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [AudioFrame](../audioframe)) |  |
 
 
 ---
@@ -243,6 +163,26 @@ EmbeddedEotFontsHtmlController
 
 | Name | Description |
 | --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SmartArtShape](../smartartshape)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SummaryZoomSection](../summaryzoomsection)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
 | writeShapeEnd ([HtmlGenerator](../htmlgenerator), [InkActions](../inkactions)) |  |
 
 
@@ -253,7 +193,7 @@ EmbeddedEotFontsHtmlController
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SummaryZoomFrame](../summaryzoomframe)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
 
 
 ---
@@ -273,7 +213,7 @@ EmbeddedEotFontsHtmlController
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [ZoomObject](../zoomobject)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Chart](../chart)) |  |
 
 
 ---
@@ -283,7 +223,27 @@ EmbeddedEotFontsHtmlController
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Chart](../chart)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [GroupShape](../groupshape)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [ZoomFrame](../zoomframe)) |  |
 
 
 ---
@@ -303,7 +263,27 @@ EmbeddedEotFontsHtmlController
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [GeometryShape](../geometryshape)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [ZoomObject](../zoomobject)) |  |
 
 
 ---
@@ -333,7 +313,7 @@ EmbeddedEotFontsHtmlController
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [AudioFrame](../audioframe)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SectionZoomFrame](../sectionzoomframe)) |  |
 
 
 ---
@@ -343,7 +323,17 @@ EmbeddedEotFontsHtmlController
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [GroupShape](../groupshape)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SummaryZoomFrame](../summaryzoomframe)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [AutoShape](../autoshape)) |  |
 
 
 ---
@@ -359,11 +349,11 @@ EmbeddedEotFontsHtmlController
 ---
 
 
-### writeShapeStart {#writeShapeStart}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [VideoFrame](../videoframe)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [VideoFrame](../videoframe)) |  |
 
 
 ---
@@ -373,77 +363,7 @@ EmbeddedEotFontsHtmlController
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SmartArtShape](../smartartshape)) |  |
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [AutoShape](../autoshape)) |  |
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [GeometryShape](../geometryshape)) |  |
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [ZoomFrame](../zoomframe)) |  |
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SummaryZoomSection](../summaryzoomsection)) |  |
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SectionZoomFrame](../sectionzoomframe)) |  |
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [AudioFrame](../audioframe)) |  |
 
 
 ---
@@ -463,6 +383,26 @@ EmbeddedEotFontsHtmlController
 
 | Name | Description |
 | --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SmartArtShape](../smartartshape)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SummaryZoomSection](../summaryzoomsection)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
 | writeShapeStart ([HtmlGenerator](../htmlgenerator), [InkActions](../inkactions)) |  |
 
 
@@ -473,7 +413,7 @@ EmbeddedEotFontsHtmlController
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SummaryZoomFrame](../summaryzoomframe)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
 
 
 ---
@@ -493,7 +433,7 @@ EmbeddedEotFontsHtmlController
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [ZoomObject](../zoomobject)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Chart](../chart)) |  |
 
 
 ---
@@ -503,7 +443,27 @@ EmbeddedEotFontsHtmlController
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Chart](../chart)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [GroupShape](../groupshape)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [ZoomFrame](../zoomframe)) |  |
 
 
 ---
@@ -523,7 +483,27 @@ EmbeddedEotFontsHtmlController
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [GeometryShape](../geometryshape)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [ZoomObject](../zoomobject)) |  |
 
 
 ---
@@ -553,7 +533,7 @@ EmbeddedEotFontsHtmlController
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [AudioFrame](../audioframe)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SectionZoomFrame](../sectionzoomframe)) |  |
 
 
 ---
@@ -563,7 +543,17 @@ EmbeddedEotFontsHtmlController
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [GroupShape](../groupshape)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SummaryZoomFrame](../summaryzoomframe)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [AutoShape](../autoshape)) |  |
 
 
 ---
@@ -574,6 +564,16 @@ EmbeddedEotFontsHtmlController
 | Name | Description |
 | --- | --- |
 | writeShapeStart ([HtmlGenerator](../htmlgenerator), [Ink](../ink)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [VideoFrame](../videoframe)) |  |
 
 
 ---
