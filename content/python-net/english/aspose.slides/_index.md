@@ -270,7 +270,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`IShape`](/slides/python-net/aspose.slides/ishape/) | Represents a shape on a slide. |
 | [`IShapeBevel`](/slides/python-net/aspose.slides/ishapebevel/) | Represents properties of shape's main face relief. |
 | [`IShapeBevelEffectiveData`](/slides/python-net/aspose.slides/ishapebeveleffectivedata/) | Immutable object which contains effective shape's face relief properties. |
-| [`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection/) | Represents a collection of a shapes. |
+| [`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection/) | Represents a collection of shapes. |
 | [`IShapeElement`](/slides/python-net/aspose.slides/ishapeelement/) | Represents a part of shape with same outline and fill properties. |
 | [`IShapeFrame`](/slides/python-net/aspose.slides/ishapeframe/) | Represents shape frame's properties. |
 | [`IShapeStyle`](/slides/python-net/aspose.slides/ishapestyle/) | Represent shape's style reference. |
@@ -281,7 +281,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`ISlideComponent`](/slides/python-net/aspose.slides/islidecomponent/) | Represents a component of a slide. |
 | [`ISlideHeaderFooterManager`](/slides/python-net/aspose.slides/islideheaderfootermanager/) | Represents manager which holds behavior of the slide footer, date-time, page number placeholders. |
 | [`ISlideShowTransition`](/slides/python-net/aspose.slides/islideshowtransition/) | Represents slide show transition. |
-| [`ISlideSize`](/slides/python-net/aspose.slides/islidesize/) | Represents a size of slide. |
+| [`ISlideSize`](/slides/python-net/aspose.slides/islidesize/) | Represents the size and orientation of a slide. |
 | [`ISlideText`](/slides/python-net/aspose.slides/islidetext/) | Represents the text extracted from the slide |
 | [`ISlidesPicture`](/slides/python-net/aspose.slides/islidespicture/) | Represents a picture in a presentation. |
 | [`ISpreadsheetOptions`](/slides/python-net/aspose.slides/ispreadsheetoptions/) | Represents options which can be used to specify additional spreadsheets behavior. |
@@ -396,7 +396,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`SectionZoomFrame`](/slides/python-net/aspose.slides/sectionzoomframe/) | Represents a Section Zoom object in a slide. |
 | [`Shape`](/slides/python-net/aspose.slides/shape/) | Represents a shape on a slide. |
 | [`ShapeBevel`](/slides/python-net/aspose.slides/shapebevel/) | Contains the properties of shape's main face relief. |
-| [`ShapeCollection`](/slides/python-net/aspose.slides/shapecollection/) | Represents a collection of a shapes. |
+| [`ShapeCollection`](/slides/python-net/aspose.slides/shapecollection/) | Represents a collection of shapes. |
 | [`ShapeElement`](/slides/python-net/aspose.slides/shapeelement/) | Represents a part of shape with same outline and fill properties. |
 | [`ShapeFrame`](/slides/python-net/aspose.slides/shapeframe/) | Represents shape frame's properties. |
 | [`ShapeStyle`](/slides/python-net/aspose.slides/shapestyle/) | Represent shape's style reference. |
@@ -406,7 +406,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`SlideHeaderFooterManager`](/slides/python-net/aspose.slides/slideheaderfootermanager/) | Represents manager which holds behavior of the slide footer, date-time, page number placeholders. |
 | [`SlideShowSettings`](/slides/python-net/aspose.slides/slideshowsettings/) | Represents the slide show settings for the presentation. |
 | [`SlideShowType`](/slides/python-net/aspose.slides/slideshowtype/) | Base slide show settings. Ancestors represent types of the slide show:<br/>[`PresentedBySpeaker`](/slides/python-net/aspose.slides/presentedbyspeaker) Presented by a speaker (full screen)<br/>[`BrowsedByIndividual`](/slides/python-net/aspose.slides/browsedbyindividual) Browsed by individual (window)<br/>[`BrowsedAtKiosk`](/slides/python-net/aspose.slides/browsedatkiosk) Browsed at a kiosk (full screen) |
-| [`SlideSize`](/slides/python-net/aspose.slides/slidesize/) | Represents a size of slide. |
+| [`SlideSize`](/slides/python-net/aspose.slides/slidesize/) | Represents the size and orientation of a slide. |
 | [`SlidesRange`](/slides/python-net/aspose.slides/slidesrange/) | Slides range |
 | [`SpreadsheetOptions`](/slides/python-net/aspose.slides/spreadsheetoptions/) | Represents options which can be used to specify additional spreadsheets behavior. |
 | [`StreamWrapper`](/slides/python-net/aspose.slides/streamwrapper/) | Aspose.IO.Stream wrapper for COM interface. |

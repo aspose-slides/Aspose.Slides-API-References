@@ -9,7 +9,7 @@ weight: 360
 
 
 ## remove_at {#int}
-Removes the element at the specified index of the collection.
+Removes the shape at the specified index from the shape collection.
 
 
 ```python
@@ -20,7 +20,7 @@ def remove_at(self, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | **int** | The zero-based index of the element to remove. |
+| index | **int** | The zero-based index of the shape to remove. |
 
 
 

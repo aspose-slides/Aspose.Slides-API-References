@@ -9,11 +9,11 @@ weight: 380
 
 
 ## to_array {#}
-Creates and returns an array with all shapse in it.
+Creates and returns an array that contains all shapes.
 
 ### Returns
 
-Array of [`Shape`](/slides/python-net/aspose.slides/shape)
+An array of [`IShape`](/slides/python-net/aspose.slides/ishape) objects.
 
 
 
@@ -25,12 +25,11 @@ def to_array(self):
 
 
 ## to_array {#int-int}
-Creates and returns an array with all shapes from the specified range in it.
-An index of a first shape to return.A number of shapes to return.
+Creates and returns an array that contains all shapes in the specified range.
 
 ### Returns
 
-Array of [`Shape`](/slides/python-net/aspose.slides/shape)
+An array of [`IShape`](/slides/python-net/aspose.slides/ishape) objects.
 
 
 
@@ -42,13 +41,13 @@ def to_array(self, start_index, count):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| start_index | **int** |  |
-| count | **int** |  |
+| start_index | **int** | The index of the first shape to return. |
+| count | **int** | The number of shapes to return. |
 
 
 
 ### See Also
-* class [`Shape`](/slides/python-net/aspose.slides/shape)
+* class [`IShape`](/slides/python-net/aspose.slides/ishape)
 * class [`ShapeCollection`](/slides/python-net/aspose.slides/shapecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

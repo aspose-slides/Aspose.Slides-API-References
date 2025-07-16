@@ -9,11 +9,11 @@ weight: 150
 
 
 ## add_table {#float-float-listfloat-listfloat}
-Creates a new Table and adds it to the end of the collection.
+Creates a new table and adds it to the end of the shape collection.
 
 ### Returns
 
-Created Table object.
+The newly created [`ITable`](/slides/python-net/aspose.slides/itable).
 
 
 
@@ -25,10 +25,10 @@ def add_table(self, x, y, column_widths, row_heights):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x | **float** | The X-coordinate for a left side of shape's frame. |
-| y | **float** | The Y-coordinate for a top side of shape's frame. |
-| column_widths | **List[float]** | Array of doubles which represents widths of columns in the table. |
-| row_heights | **List[float]** | Array of doubles which represents heights of rows in the table. |
+| x | **float** | The x-coordinate of the table, in points. |
+| y | **float** | The y-coordinate of the table, in points. |
+| column_widths | **List[float]** | An array of doubles representing the widths of the table’s<br/><br/>            columns, in points. |
+| row_heights | **List[float]** | An array of doubles representing the heights of the table’s<br/><br/>            rows, in points. |
 
 
 

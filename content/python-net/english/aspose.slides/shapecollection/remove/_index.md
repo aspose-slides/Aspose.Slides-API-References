@@ -9,7 +9,7 @@ weight: 350
 
 
 ## remove {#ishape}
-Removes the first occurrence of a specific shape from the collection.
+Removes the first occurrence of the specified shape from the shape collection.
 
 
 ```python
@@ -20,7 +20,7 @@ def remove(self, shape):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| shape | [`IShape`](/slides/python-net/aspose.slides/ishape) | The shape to remove from the collection. |
+| shape | [`IShape`](/slides/python-net/aspose.slides/ishape) | The [`IShape`](/slides/python-net/aspose.slides/ishape) to remove. |
 
 
 

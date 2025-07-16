@@ -9,14 +9,14 @@ weight: 450
 
 
 ## y property
-Returns or sets the y-coordinate of the upper-left corner of the shape.
+Gets or sets the y-coordinate of the shape's upper-left corner, measured in points.
             Read/write **float**.
 
 
 ### Remarks
 
-Returned value is always defined (is not float.NaN).
-            Assigned value must be defined (not float.NaN). You can set undefined values for RawFrame instance properties.
+The value returned is always defined and never **float**.
+            The value assigned must also be defined; assign **float** only to properties of a `RawFrame` instance.
 
 ### Definition:
 ```python

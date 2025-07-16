@@ -9,11 +9,11 @@ weight: 320
 
 
 ## insert_table {#int-float-float-listfloat-listfloat}
-Creates a new Table and inserts it to the collection at the specified index.
+Creates a new table and inserts it into the shape collection at the specified index.
 
 ### Returns
 
-Created Table object.
+The newly created [`ITable`](/slides/python-net/aspose.slides/itable).
 
 
 
@@ -25,11 +25,11 @@ def insert_table(self, index, x, y, column_widths, row_heights):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | **int** | The zero-based index at which value should be inserted. |
-| x | **float** | The X-coordinate for a left side of shape's frame. |
-| y | **float** | The Y-coordinate for a top side of shape's frame. |
-| column_widths | **List[float]** | Array of doubles which represents widths of columns in the table. |
-| row_heights | **List[float]** | Array of doubles which represents heights of rows in the table. |
+| index | **int** | The zero-based index at which to insert the table. |
+| x | **float** | The x-coordinate of the table, in points. |
+| y | **float** | The y-coordinate of the table, in points. |
+| column_widths | **List[float]** | An array of doubles representing the widths of the table’s<br/><br/>            columns, in points. |
+| row_heights | **List[float]** | An array of doubles representing the heights of the table’s<br/><br/>            rows, in points. |
 
 
 

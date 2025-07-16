@@ -9,11 +9,11 @@ weight: 160
 
 
 ## add_video_frame {#float-float-float-float-str}
-Adds a new video frame to the end of a collection.
+Creates a new video frame and adds it to the end of the shape collection.
 
 ### Returns
 
-Created VideoFrame object.
+The newly created [`IVideoFrame`](/slides/python-net/aspose.slides/ivideoframe).
 
 
 
@@ -25,19 +25,19 @@ def add_video_frame(self, x, y, width, height, fname):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x | **float** | X coordinate of a new video frame. |
-| y | **float** | Y coordinate of a new video frame. |
-| width | **float** | Width of a new video frame. |
-| height | **float** | Height of a new video frame. |
-| fname | **str** | Video file name. |
+| x | **float** | The x-coordinate of the new video frame, in points. |
+| y | **float** | The y-coordinate of the new video frame, in points. |
+| width | **float** | The width of the new video frame, in points. |
+| height | **float** | The height of the new video frame, in points. |
+| fname | **str** | The path or name of the video file to embed. |
 
 
 ## add_video_frame {#float-float-float-float-ivideo}
-Adds a new video frame to the end of a collection.
+Creates a new video frame and adds it to the end of the shape collection.
 
 ### Returns
 
-Created VideoFrame object.
+The newly created [`IVideoFrame`](/slides/python-net/aspose.slides/ivideoframe).
 
 
 
@@ -49,11 +49,11 @@ def add_video_frame(self, x, y, width, height, video):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x | **float** | X coordinate of a new video frame. |
-| y | **float** | Y coordinate of a new video frame. |
-| width | **float** | Width of a new video frame. |
-| height | **float** | Height of a new video frame. |
-| video | [`IVideo`](/slides/python-net/aspose.slides/ivideo) | Video. |
+| x | **float** | The x-coordinate of the new video frame, in points. |
+| y | **float** | The y-coordinate of the new video frame, in points. |
+| width | **float** | The width of the new video frame, in points. |
+| height | **float** | The height of the new video frame, in points. |
+| video | [`IVideo`](/slides/python-net/aspose.slides/ivideo) | The [`IVideo`](/slides/python-net/aspose.slides/ivideo) to embed in the video frame. |
 
 
 

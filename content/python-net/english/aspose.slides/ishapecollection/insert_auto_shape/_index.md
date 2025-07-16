@@ -9,13 +9,12 @@ weight: 230
 
 
 ## insert_auto_shape {#int-shapetype-float-float-float-float}
-Creates a new AutoShape, tunes it from default template and inserts it to 
-            the collection at the specified index.
-            Note: the type of the shape will be determined by the shapeType parameter.
+Creates a new auto shape and inserts it into the shape collection at the specified index,
+            applying default template formatting.
 
 ### Returns
 
-Created AutoShape object.
+The newly created [`IAutoShape`](/slides/python-net/aspose.slides/iautoshape).
 
 
 
@@ -27,21 +26,21 @@ def insert_auto_shape(self, index, shape_type, x, y, width, height):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | **int** | The zero-based index at which value should be inserted. |
-| shape_type | [`ShapeType`](/slides/python-net/aspose.slides/shapetype) | An [`ShapeType`](/slides/python-net/aspose.slides/shapetype) of shape. |
-| x | **float** | The X-coordinate for a left side of shape's frame. |
-| y | **float** | The Y-coordinate for a top side of shape's frame. |
-| width | **float** | The width of shape's frame. |
-| height | **float** | The height of shape's frame. |
+| index | **int** | The zero-based index at which to insert the new auto shape. |
+| shape_type | [`ShapeType`](/slides/python-net/aspose.slides/shapetype) | The [`ShapeType`](/slides/python-net/aspose.slides/shapetype) of the auto shape to insert. |
+| x | **float** | The x-coordinate of the shape’s frame, in points. |
+| y | **float** | The y-coordinate of the shape’s frame, in points. |
+| width | **float** | The width of the shape’s frame, in points. |
+| height | **float** | The height of the shape’s frame, in points. |
 
 
 ## insert_auto_shape {#int-shapetype-float-float-float-float-bool}
-Creates a new AutoShape and inserts it to the collection at the specified index.
-            Note: the type of the shape will be determined by the shapeType parameter.
+Creates a new auto shape and inserts it into the shape collection at the specified index,
+            optionally initializing it with default template styling.
 
 ### Returns
 
-Created AutoShape object.
+The newly created [`IAutoShape`](/slides/python-net/aspose.slides/iautoshape).
 
 
 
@@ -53,13 +52,13 @@ def insert_auto_shape(self, index, shape_type, x, y, width, height, create_from_
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | **int** | The zero-based index at which value should be inserted. |
-| shape_type | [`ShapeType`](/slides/python-net/aspose.slides/shapetype) | An [`ShapeType`](/slides/python-net/aspose.slides/shapetype) of shape. |
-| x | **float** | The X-coordinate for a left side of shape's frame. |
-| y | **float** | The Y-coordinate for a top side of shape's frame. |
-| width | **float** | The width of shape's frame. |
-| height | **float** | The height of shape's frame. |
-| create_from_template | **bool** | If true then new shape will be tuned from default template. Not empty name, <br/><br/>            simple style, text centered will be assined to the new shape.<br/><br/>            If false then all values of the properties of the new shape will have default values. |
+| index | **int** | The zero-based index at which to insert the auto shape. |
+| shape_type | [`ShapeType`](/slides/python-net/aspose.slides/shapetype) | The [`ShapeType`](/slides/python-net/aspose.slides/shapetype) of the auto shape to insert. |
+| x | **float** | The x-coordinate of the shape’s frame, in points. |
+| y | **float** | The y-coordinate of the shape’s frame, in points. |
+| width | **float** | The width of the shape’s frame, in points. |
+| height | **float** | The height of the shape’s frame, in points. |
+| create_from_template | **bool** | True to apply default template styling (including a non-empty name, simple style, and centered text); <br/><br/>            false to create the shape with all properties set to their defaults. |
 
 
 

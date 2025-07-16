@@ -9,11 +9,11 @@ weight: 140
 
 
 ## add_summary_zoom_frame {#float-float-float-float}
-Adds a new Summary Zoom object to the end of a collection.
+Creates a new Summary Zoom frame and adds it to the end of the shape collection.
 
 ### Returns
 
-Created Summary Zoom object [`ISummaryZoomFrame`](/slides/python-net/aspose.slides/isummaryzoomframe).
+The newly created [`ISummaryZoomFrame`](/slides/python-net/aspose.slides/isummaryzoomframe).
 
 
 
@@ -25,10 +25,10 @@ def add_summary_zoom_frame(self, x, y, width, height):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x | **float** | X coordinate of a new Section Zoom frame **float**. |
-| y | **float** | Y coordinate of a new Section Zoom frame **float**. |
-| width | **float** | Width of a new Section Zoom frame **float**. |
-| height | **float** | Height of a new Section Zoom frame **float**. |
+| x | **float** | The x-coordinate of the new Summary Zoom frame, in points. |
+| y | **float** | The y-coordinate of the new Summary Zoom frame, in points. |
+| width | **float** | The width of the new Summary Zoom frame, in points. |
+| height | **float** | The height of the new Summary Zoom frame, in points. |
 
 ### Examples
 
@@ -43,7 +43,7 @@ This method creates a new Summary Zoom and puts a collection of objects into it 
 
 | Exception | Description |
 | :- | :- |
-| [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception) | There are no sections in the presentation, or the target slide does not belong to any section. |
+| [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception) | Thrown if there are no sections in the presentation, or if the target slide does not belong to any section. |
 
 
 

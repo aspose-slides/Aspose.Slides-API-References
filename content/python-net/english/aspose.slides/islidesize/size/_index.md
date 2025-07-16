@@ -9,9 +9,13 @@ weight: 30
 
 
 ## size property
-Returns or sets the size in points.
-Assigning any value will reset [`ISlideSize.type`](/slides/python-net/aspose.slides/islidesize/type) property to [`SlideSizeType.CUSTOM`](/slides/python-net/aspose.slides/slidesizetype/CUSTOM) and set [`ISlideSize.orientation`](/slides/python-net/aspose.slides/islidesize/orientation).
-            Read/write **aspose.pydrawing.SizeF**.
+Gets the slide dimensions in points.
+
+
+### Remarks
+
+Assigning a new value resets the [`ISlideSize.type`](/slides/python-net/aspose.slides/islidesize/type) property to [`SlideSizeType.CUSTOM`](/slides/python-net/aspose.slides/slidesizetype/CUSTOM)
+            and sets the [`ISlideSize.orientation`](/slides/python-net/aspose.slides/islidesize/orientation).
 
 ### Definition:
 ```python

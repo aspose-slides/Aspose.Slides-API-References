@@ -9,12 +9,12 @@ weight: 250
 
 
 ## insert_clone {#int-ishape}
-Inserts a copy of a specified shape to specified position of the collection.
-            X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the `source_shape`.
+Creates a copy of the specified shape and inserts it into the shape collection at the specified index.
+            The cloned shape retains the original’s position and size.
 
 ### Returns
 
-Inserted shape.
+The newly created [`IShape`](/slides/python-net/aspose.slides/ishape).
 
 
 
@@ -26,17 +26,17 @@ def insert_clone(self, index, source_shape):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | **int** | Index of new shape. |
-| source_shape | [`IShape`](/slides/python-net/aspose.slides/ishape) | Shape to clone. |
+| index | **int** | The zero-based index at which to insert the cloned shape. |
+| source_shape | [`IShape`](/slides/python-net/aspose.slides/ishape) | The [`IShape`](/slides/python-net/aspose.slides/ishape) to clone. |
 
 
 ## insert_clone {#int-ishape-float-float}
-Inserts a copy of a specified shape to specified position of the collection.
-            Width and Height of the new shape are equal to Width and Height of the `source_shape`.
+Creates a copy of the specified shape and inserts it into the shape collection at the specified index.
+            The new shape retains the width and height of the `source_shape`.
 
 ### Returns
 
-Inserted shape.
+The newly created [`IShape`](/slides/python-net/aspose.slides/ishape).
 
 
 
@@ -48,18 +48,18 @@ def insert_clone(self, index, source_shape, x, y):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | **int** | Index of new shape. |
-| source_shape | [`IShape`](/slides/python-net/aspose.slides/ishape) | Shape to clone. |
-| x | **float** | X coordinate of a new shape. |
-| y | **float** | Y coordinate of a new shape. |
+| index | **int** | The zero-based index at which to insert the cloned shape. |
+| source_shape | [`IShape`](/slides/python-net/aspose.slides/ishape) | The [`IShape`](/slides/python-net/aspose.slides/ishape) to clone. |
+| x | **float** | The x-coordinate of the cloned shape’s frame, in points. |
+| y | **float** | The y-coordinate of the cloned shape’s frame, in points. |
 
 
 ## insert_clone {#int-ishape-float-float-float-float}
-Inserts a copy of a specified shape to specified position of the collection.
+Creates a copy of the specified shape and inserts it into the shape collection at the specified index.
 
 ### Returns
 
-Inserted shape.
+The newly created [`IShape`](/slides/python-net/aspose.slides/ishape).
 
 
 
@@ -71,12 +71,12 @@ def insert_clone(self, index, source_shape, x, y, width, height):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | **int** | Index of new shape. |
-| source_shape | [`IShape`](/slides/python-net/aspose.slides/ishape) | Shape to clone. |
-| x | **float** | X coordinate of a new shape. |
-| y | **float** | Y coordinate of a new shape. |
-| width | **float** | Width of a new shape. |
-| height | **float** | Height of a new shape. |
+| index | **int** | The zero-based index at which to insert the cloned shape. |
+| source_shape | [`IShape`](/slides/python-net/aspose.slides/ishape) | The [`IShape`](/slides/python-net/aspose.slides/ishape) to clone. |
+| x | **float** | The x-coordinate of the cloned shape’s frame, in points. |
+| y | **float** | The y-coordinate of the cloned shape’s frame, in points. |
+| width | **float** | The width of the cloned shape’s frame, in points. |
+| height | **float** | The height of the cloned shape’s frame, in points. |
 
 
 

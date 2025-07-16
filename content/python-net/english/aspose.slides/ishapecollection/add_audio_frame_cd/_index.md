@@ -9,11 +9,11 @@ weight: 10
 
 
 ## add_audio_frame_cd {#float-float-float-float}
-Adds an AudioFrame with CD to the end of collection.
+Creates a new audio frame linked to a CD track and adds it to the end of the shape collection.
 
 ### Returns
 
-Created AudioFrame object.
+The newly created [`IAudioFrame`](/slides/python-net/aspose.slides/iaudioframe).
 
 
 
@@ -25,10 +25,10 @@ def add_audio_frame_cd(self, x, y, width, height):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x | **float** | X coordinate of a new audio frame. |
-| y | **float** | Y coordinate of a new audio frame. |
-| width | **float** | Width of a new audio frame. |
-| height | **float** | Height of a new audio frame. |
+| x | **float** | The x-coordinate of the new audio frame, in points. |
+| y | **float** | The y-coordinate of the new audio frame, in points. |
+| width | **float** | The width of the new audio frame, in points. |
+| height | **float** | The height of the new audio frame, in points. |
 
 
 

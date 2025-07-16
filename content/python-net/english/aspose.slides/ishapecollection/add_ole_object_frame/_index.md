@@ -9,11 +9,11 @@ weight: 100
 
 
 ## add_ole_object_frame {#float-float-float-float-ioleembeddeddatainfo}
-Adds a new OLE object to the end of a collection.
+Creates a new OLE object frame and adds it to the end of the shape collection.
 
 ### Returns
 
-Created OLE object.
+The newly created [`IOleObjectFrame`](/slides/python-net/aspose.slides/ioleobjectframe).
 
 
 
@@ -25,19 +25,19 @@ def add_ole_object_frame(self, x, y, width, height, data_info):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x | **float** | X coordinate of a new OLE frame. |
-| y | **float** | Y coordinate of a new OLE frame. |
-| width | **float** | Width of a new OLE frame. |
-| height | **float** | Height of a new OLE frame. |
-| data_info | [`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo) | Embedded data info [`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo). |
+| x | **float** | The x-coordinate of the new OLE frame, in points. |
+| y | **float** | The y-coordinate of the new OLE frame, in points. |
+| width | **float** | The width of the new OLE frame, in points. |
+| height | **float** | The height of the new OLE frame, in points. |
+| data_info | [`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo) | The embedded OLE data information ([`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo)). |
 
 
 ## add_ole_object_frame {#float-float-float-float-str-str}
-Adds a new OLE object to the end of a collection.
+Creates a new OLE object frame and adds it to the end of the shape collection.
 
 ### Returns
 
-Created OLE object.
+The newly created [`IOleObjectFrame`](/slides/python-net/aspose.slides/ioleobjectframe).
 
 
 
@@ -49,12 +49,12 @@ def add_ole_object_frame(self, x, y, width, height, class_name, path):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x | **float** | X coordinate of a new OLE frame. |
-| y | **float** | Y coordinate of a new OLE frame. |
-| width | **float** | Width of a new OLE frame. |
-| height | **float** | Height of a new OLE frame. |
-| class_name | **str** | Name of an OLE class. |
-| path | **str** | path to the linked file. |
+| x | **float** | The x-coordinate of the new OLE frame, in points. |
+| y | **float** | The y-coordinate of the new OLE frame, in points. |
+| width | **float** | The width of the new OLE frame, in points. |
+| height | **float** | The height of the new OLE frame, in points. |
+| class_name | **str** | The class name of the OLE object. |
+| path | **str** | The path to the linked file. <br/><br/>This path is stored verbatim in the presentation.<br/><br/>            If a relative path is specified, the file will be inaccessible when opening<br/><br/>            the presentation from a different directory. |
 
 
 

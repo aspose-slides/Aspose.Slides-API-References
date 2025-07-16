@@ -9,7 +9,7 @@ weight: 420
 
 
 ## parent_group property
-Returns parent GroupShape object for a shapes collection.
+Gets the parent group shape object for the shapes collection.
             Read-only [`IGroupShape`](/slides/python-net/aspose.slides/igroupshape).
 
 ### Definition:
