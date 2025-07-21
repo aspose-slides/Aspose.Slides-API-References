@@ -1,7 +1,7 @@
 ---
 title: AddClone()
 second_title: Aspose.Slides for C++ API Reference
-description: Adds a copy of a specified shape to the end of the collection.
+description: Creates a copy of the specified shape and adds it to the end of the shape collection.
 type: docs
 weight: 547
 url: /aspose.slides/shapecollection/addclone/
@@ -9,7 +9,7 @@ url: /aspose.slides/shapecollection/addclone/
 ## ShapeCollection::AddClone(System::SharedPtr\<IShape\>, float, float, float, float) method
 
 
-Adds a copy of a specified shape to the end of the collection.
+Creates a copy of the specified shape and adds it to the end of the shape collection.
 
 ```cpp
 System::SharedPtr<IShape> Aspose::Slides::ShapeCollection::AddClone(System::SharedPtr<IShape> sourceShape, float x, float y, float width, float height) override
@@ -20,20 +20,20 @@ System::SharedPtr<IShape> Aspose::Slides::ShapeCollection::AddClone(System::Shar
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceShape | [System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\> | [Shape](../../shape/) to clone. |
-| x | **float** | X coordinate of a new shape. |
-| y | **float** | Y coordinate of a new shape. |
-| width | **float** | Width of a new shape. |
-| height | **float** | Height of a new shape. |
+| sourceShape | [System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\> | The shape to clone. |
+| x | **float** | The x-coordinate of the new shape\\u2019s frame, in points. |
+| y | **float** | The y-coordinate of the new shape\\u2019s frame, in points. |
+| width | **float** | The width of the new shape\\u2019s frame, in points. |
+| height | **float** | The height of the new shape\\u2019s frame, in points. |
 
 ### Return Value
 
-New shape.
+The newly created [IShape](../../ishape/).
 
 ## ShapeCollection::AddClone(System::SharedPtr\<IShape\>, float, float) method
 
 
-Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the *sourceShape* .
+Creates a copy of the specified shape and adds it to the end of the shape collection. The new shape retains the width and height of the *sourceShape* .
 
 ```cpp
 System::SharedPtr<IShape> Aspose::Slides::ShapeCollection::AddClone(System::SharedPtr<IShape> sourceShape, float x, float y) override
@@ -44,18 +44,18 @@ System::SharedPtr<IShape> Aspose::Slides::ShapeCollection::AddClone(System::Shar
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceShape | [System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\> | [Shape](../../shape/) to clone. |
-| x | **float** | X coordinate of a new shape. |
-| y | **float** | Y coordinate of a new shape. |
+| sourceShape | [System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\> | The shape to clone. |
+| x | **float** | The x-coordinate of the new shape\\u2019s frame, in points. |
+| y | **float** | The y-coordinate of the new shape\\u2019s frame, in points. |
 
 ### Return Value
 
-New shape.
+The newly created [IShape](../../ishape/).
 
 ## ShapeCollection::AddClone(System::SharedPtr\<IShape\>) method
 
 
-Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the *sourceShape* .
+Creates a copy of the specified shape and adds it to the end of the shape collection. The cloned shape retains the original\\u2019s position and size.
 
 ```cpp
 System::SharedPtr<IShape> Aspose::Slides::ShapeCollection::AddClone(System::SharedPtr<IShape> sourceShape) override
@@ -66,11 +66,11 @@ System::SharedPtr<IShape> Aspose::Slides::ShapeCollection::AddClone(System::Shar
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceShape | [System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\> | [Shape](../../shape/) to clone. |
+| sourceShape | [System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\> | The [IShape](../../ishape/) to clone. |
 
 ### Return Value
 
-New shape.
+The newly created [IShape](../../ishape/).
 
 ## See Also
 

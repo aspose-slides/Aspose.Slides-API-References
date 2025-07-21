@@ -3,7 +3,7 @@ title: IsExceptionWrapper
 second_title: Aspose.Slides for C++ API Reference
 description: A template predicate that determines if the specified type is a Exception class or its descendant.
 type: docs
-weight: 1574
+weight: 1587
 url: /system/isexceptionwrapper/
 ---
 ## IsExceptionWrapper struct

@@ -1,7 +1,7 @@
 ---
 title: get_Type()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the type of slide size.
+description: Gets the slide size type.
 type: docs
 weight: 14
 url: /aspose.slides/slidesize/get_type/
@@ -9,16 +9,12 @@ url: /aspose.slides/slidesize/get_type/
 ## SlideSize::get_Type() method
 
 
-Returns the type of slide size.
+Gets the slide size type.
 
 ```cpp
 SlideSizeType Aspose::Slides::SlideSize::get_Type() override
 ```
 
-## Remarks
-
-
-Read [SlideSizeType](../../slidesizetype/). 
 ## See Also
 
 * Enum [SlideSizeType](../../slidesizetype/)

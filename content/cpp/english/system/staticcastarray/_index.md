@@ -3,7 +3,7 @@ title: StaticCastArray()
 second_title: Aspose.Slides for C++ API Reference
 description: Performs casting of elements of the specified array to different type. Override for cases then From is SmartPtr obj.
 type: docs
-weight: 2666
+weight: 2692
 url: /system/staticcastarray/
 ---
 ## System::StaticCastArray(const System::SharedPtr\<System::Array\<From\>\>\&) function

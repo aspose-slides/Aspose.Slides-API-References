@@ -33,7 +33,7 @@ class IPortionFormatEffectiveData : public virtual Aspose::Slides::IBasePortionF
 | virtual **float** [get_Escapement](../ibaseportionformateffectivedata/get_escapement/)() | Returns the superscript or subscript text. Value from -100% (subscript) to 100% (superscript). Read-only **float**. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IFillFormatEffectiveData](../ifillformateffectivedata/)\> [get_FillFormat](../ibaseportionformateffectivedata/get_fillformat/)() | Returns the text [FillFormat](../fillformat/) properties. Read-only [IFillFormatEffectiveData](../ifillformateffectivedata/). |
 | virtual **bool** [get_FontBold](../ibaseportionformateffectivedata/get_fontbold/)() | Determines whether the font is bold. Read-only **bool**. |
-| virtual **float** [get_FontHeight](../ibaseportionformateffectivedata/get_fontheight/)() | Returns the font height of a portion. Read-only **float**. |
+| virtual **float** [get_FontHeight](../ibaseportionformateffectivedata/get_fontheight/)() | Returns the font height of the text portion, in points. Read-only **float**. |
 | virtual **bool** [get_FontItalic](../ibaseportionformateffectivedata/get_fontitalic/)() | Determines whether the font is itallic. Read-only **bool**. |
 | virtual [TextUnderlineType](../textunderlinetype/) [get_FontUnderline](../ibaseportionformateffectivedata/get_fontunderline/)() | Returns the text underline type. Read-only [TextUnderlineType](../textunderlinetype/). |
 | virtual [System::Drawing::Color](../../system.drawing/color/) [get_HighlightColor](../ibaseportionformateffectivedata/get_highlightcolor/)() | Returns the color used to highlight a text. Read-only [System::Drawing::Color](../../system.drawing/color/). |
@@ -49,7 +49,7 @@ class IPortionFormatEffectiveData : public virtual Aspose::Slides::IBasePortionF
 | virtual **bool** [get_NormaliseHeight](../ibaseportionformateffectivedata/get_normaliseheight/)() | Determines whether the height of a text should be normalized. Read-only **bool**. |
 | virtual **bool** [get_ProofDisabled](../ibaseportionformateffectivedata/get_proofdisabled/)() | Determines whether the text shouldn't be proofed. Read-only **bool**. |
 | virtual **bool** [get_SmartTagClean](../ibaseportionformateffectivedata/get_smarttagclean/)() | Determines whether the smart tag should be cleaned. Read-only **bool**. |
-| virtual **float** [get_Spacing](../ibaseportionformateffectivedata/get_spacing/)() | Returns the intercharacter spacing increment. Read-only **float**. |
+| virtual **float** [get_Spacing](../ibaseportionformateffectivedata/get_spacing/)() | Returns the intercharacter spacing increment, in points. Read-only **float**. |
 | virtual [TextStrikethroughType](../textstrikethroughtype/) [get_StrikethroughType](../ibaseportionformateffectivedata/get_strikethroughtype/)() | Returns the strikethrough type of a text. Read-only [TextStrikethroughType](../textstrikethroughtype/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IFontData](../ifontdata/)\> [get_SymbolFont](../ibaseportionformateffectivedata/get_symbolfont/)() | Returns the symbolic font info. Read-only [IFontData](../ifontdata/). |
 | virtual [Aspose::Slides::TextCapType](../textcaptype/) [get_TextCapType](../ibaseportionformateffectivedata/get_textcaptype/)() | Returns the type of text capitalization. Read-only [Slides::TextCapType](../textcaptype/). |

@@ -1,7 +1,7 @@
 ---
 title: AddGroupShape()
 second_title: Aspose.Slides for C++ API Reference
-description: Creates a new GroupShape and adds it to the end of the collection. GroupShape frame size and position will be fitted to content when new shape will be added into the GroupShape.
+description: Creates a new empty group shape and adds it to the end of the shape collection. The group\\u2019s frame will automatically adjust to fit any shapes added to it.
 type: docs
 weight: 352
 url: /aspose.slides/ishapecollection/addgroupshape/
@@ -9,7 +9,7 @@ url: /aspose.slides/ishapecollection/addgroupshape/
 ## IShapeCollection::AddGroupShape() method
 
 
-Creates a new [GroupShape](../../groupshape/) and adds it to the end of the collection. [GroupShape](../../groupshape/) frame size and position will be fitted to content when new shape will be added into the [GroupShape](../../groupshape/).
+Creates a new empty group shape and adds it to the end of the shape collection. The group\\u2019s frame will automatically adjust to fit any shapes added to it.
 
 ```cpp
 virtual System::SharedPtr<IGroupShape> Aspose::Slides::IShapeCollection::AddGroupShape()=0
@@ -18,12 +18,12 @@ virtual System::SharedPtr<IGroupShape> Aspose::Slides::IShapeCollection::AddGrou
 
 ### Return Value
 
-Created [GroupShape](../../groupshape/) object.
+The newly created [IGroupShape](../../igroupshape/).
 
 ## IShapeCollection::AddGroupShape(System::SharedPtr\<ISvgImage\>, float, float, float, float) method
 
 
-Creates a new [GroupShape](../../groupshape/), fills it with converted shapes from SVG and adds it to the end of the collection.
+Creates a new group shape, converts the specified SVG image into individual shapes, and adds the resulting group to the end of the shape collection.
 
 ```cpp
 virtual System::SharedPtr<IGroupShape> Aspose::Slides::IShapeCollection::AddGroupShape(System::SharedPtr<ISvgImage> svgImage, float x, float y, float width, float height)=0
@@ -34,15 +34,15 @@ virtual System::SharedPtr<IGroupShape> Aspose::Slides::IShapeCollection::AddGrou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| svgImage | [System::SharedPtr](../../../system/sharedptr/)\<[ISvgImage](../../isvgimage/)\> | Svg image object [ISvgImage](../../isvgimage/) |
-| x | **float** | The X coordinate for the left side of the shape group frame. |
-| y | **float** | The Y coordinate for the top side of the shape group frame. |
-| width | **float** | The width of the group of the shape group frame. |
-| height | **float** | The height of a group of the shape group frame. |
+| svgImage | [System::SharedPtr](../../../system/sharedptr/)\<[ISvgImage](../../isvgimage/)\> | The [ISvgImage](../../isvgimage/) containing vector content to convert into shapes. |
+| x | **float** | The x-coordinate of the group\\u2019s frame, in points. |
+| y | **float** | The y-coordinate of the group\\u2019s frame, in points. |
+| width | **float** | The width of the group\\u2019s frame, in points. |
+| height | **float** | The height of the group\\u2019s frame, in points. |
 
 ### Return Value
 
-Created [GroupShape](../../groupshape/) object.
+The newly created [IGroupShape](../../igroupshape/).
 
 ## See Also
 

@@ -1,7 +1,7 @@
 ---
 title: InsertZoomFrame()
 second_title: Aspose.Slides for C++ API Reference
-description: Creates a new Zoom object and inserts it to a collection at the specified index.
+description: Creates a new Zoom frame and inserts it into the shape collection at the specified index.
 type: docs
 weight: 105
 url: /aspose.slides/ishapecollection/insertzoomframe/
@@ -9,7 +9,7 @@ url: /aspose.slides/ishapecollection/insertzoomframe/
 ## IShapeCollection::InsertZoomFrame(int32_t, float, float, float, float, System::SharedPtr\<ISlide\>) method
 
 
-Creates a new Zoom object and inserts it to a collection at the specified index.
+Creates a new Zoom frame and inserts it into the shape collection at the specified index.
 
 ```cpp
 virtual System::SharedPtr<IZoomFrame> Aspose::Slides::IShapeCollection::InsertZoomFrame(int32_t index, float x, float y, float width, float height, System::SharedPtr<ISlide> slide)=0
@@ -20,16 +20,16 @@ virtual System::SharedPtr<IZoomFrame> Aspose::Slides::IShapeCollection::InsertZo
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | **int32_t** | The zero-based index at which Zoom frame should be inserted. |
-| x | **float** | X coordinate of a new Zoom frame **float**. |
-| y | **float** | Y coordinate of a new Zoom frame **float**. |
-| width | **float** | Width of a new Zoom frame **float**. |
-| height | **float** | Height of a new Zoom frame **float**. |
-| slide | [System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\> | The slide object referenced by the Zoom frame [ISlide](../../islide/). |
+| index | **int32_t** | The zero-based index at which to insert the Zoom frame. |
+| x | **float** | The x-coordinate of the new Zoom frame, in points. |
+| y | **float** | The y-coordinate of the new Zoom frame, in points. |
+| width | **float** | The width of the new Zoom frame, in points. |
+| height | **float** | The height of the new Zoom frame, in points. |
+| slide | [System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\> | The [ISlide](../../islide/) referenced by the Zoom frame. |
 
 ### Return Value
 
-Created Zoom object [IZoomFrame](../../izoomframe/).
+The newly created [IZoomFrame](../../izoomframe/).
 ## Remarks
 
 
@@ -43,7 +43,7 @@ System::SharedPtr<IZoomFrame> zoomFrame = pres->get_Slides()->idx_get(0)->get_Sh
 ## IShapeCollection::InsertZoomFrame(int32_t, float, float, float, float, System::SharedPtr\<ISlide\>, System::SharedPtr\<IPPImage\>) method
 
 
-Creates a new Zoom object and inserts it to a collection at the specified index.
+Creates a new Zoom frame with a predefined image and inserts it into the shape collection at the specified index.
 
 ```cpp
 virtual System::SharedPtr<IZoomFrame> Aspose::Slides::IShapeCollection::InsertZoomFrame(int32_t index, float x, float y, float width, float height, System::SharedPtr<ISlide> slide, System::SharedPtr<IPPImage> image)=0
@@ -54,17 +54,17 @@ virtual System::SharedPtr<IZoomFrame> Aspose::Slides::IShapeCollection::InsertZo
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | **int32_t** | The zero-based index at which Zoom frame should be inserted. |
-| x | **float** | X coordinate of a new Zoom frame **float**. |
-| y | **float** | Y coordinate of a new Zoom frame **float**. |
-| width | **float** | Width of a new Zoom frame **float**. |
-| height | **float** | Height of a new Zoom frame **float**. |
-| slide | [System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\> | The slide object referenced by the Zoom frame [ISlide](../../islide/). |
-| image | [System::SharedPtr](../../../system/sharedptr/)\<[IPPImage](../../ippimage/)\> | The image for the referenced slide [IPPImage](../../ippimage/) |
+| index | **int32_t** | The zero-based index at which to insert the Zoom frame. |
+| x | **float** | The x-coordinate of the new Zoom frame, in points. |
+| y | **float** | The y-coordinate of the new Zoom frame, in points. |
+| width | **float** | The width of the new Zoom frame, in points. |
+| height | **float** | The height of the new Zoom frame, in points. |
+| slide | [System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\> | The [ISlide](../../islide/) referenced by the Zoom frame. |
+| image | [System::SharedPtr](../../../system/sharedptr/)\<[IPPImage](../../ippimage/)\> | The image for the referenced slide [IPPImage](../../ippimage/). |
 
 ### Return Value
 
-Created Zoom object [IZoomFrame](../../izoomframe/).
+The newly created [IZoomFrame](../../izoomframe/).
 ## Remarks
 
 

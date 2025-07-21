@@ -1,7 +1,7 @@
 ---
 title: get_Size()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the size in points.
+description: Gets the slide dimensions in points.
 type: docs
 weight: 1
 url: /aspose.slides/slidesize/get_size/
@@ -9,16 +9,12 @@ url: /aspose.slides/slidesize/get_size/
 ## SlideSize::get_Size() method
 
 
-Returns the size in points.
+Gets the slide dimensions in points.
 
 ```cpp
 System::Drawing::SizeF Aspose::Slides::SlideSize::get_Size() override
 ```
 
-## Remarks
-
-
-Read [System::Drawing::SizeF](../../../system.drawing/sizef/). 
 ## See Also
 
 * Class [SizeF](../../../system.drawing/sizef/)

@@ -117,6 +117,7 @@ url: /system/
 | [UriBuilder](./uribuilder/) | Provides methods to construct and modify universial resource identifiers (URIs). Objects of this class should only be allocated using [System::MakeObject()](./makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](./smartptr/) pointer and use this pointer to pass it to functions as argument. |
 | [UriParser](./uriparser/) | Used to parse a new URI scheme. Objects of this class should only be allocated using [System::MakeObject()](./makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](./smartptr/) pointer and use this pointer to pass it to functions as argument. |
 | [UriShim](./urishim/) | Service class. |
+| [ValueTuple](./valuetuple/) | Class that represents a [ValueTuple](./valuetuple/) data structure. |
 | [ValueType](./valuetype/) | Baseclass for value types with [Object](./object/) inheritance being truncated for performance reasons. This type should be allocated on stack and passed to functions by value or by reference. Never use [System::SmartPtr](./smartptr/) class to manage objects of this type. |
 | [Version](./version/) | Represents a version number. This type should be allocated on stack and passed to functions by value or by reference. Never use [System::SmartPtr](./smartptr/) class to manage objects of this type. |
 | [Void](./void/) |  |
@@ -162,6 +163,7 @@ url: /system/
 | [UInt16](./uint16/) | Contains methods to work with the unsigned 16-bit integer. |
 | [UInt32](./uint32/) | Contains methods to work with the unsigned 32-bit integer. |
 | [UInt64](./uint64/) | Contains methods to work with the unsigned 64-bit integer. |
+| [ValueTupleTypeInfo](./valuetupletypeinfo/) | Represents a pointer to [TypeInfo](./typeinfo/) object that contains information about [ValueTuple](./valuetuple/) class. |
 | [WeakPtrFromTypeParameter](./weakptrfromtypeparameter/) | Trait struct to convert argument type to a weak-pointer, if it is a pointer type. |
 ## Functions
 
@@ -280,9 +282,9 @@ url: /system/
 | [String](./string/) [operator+](./operator_plus/)(const char_t, const [String](./string/)\&) | [String](./string/) concatenation. |
 | [Decimal](./decimal/) [operator*](./operator_star/)(const T\&, const [Decimal](./decimal/)\&) | Returns a new instance of [Decimal](./decimal/) class that represents a value that is a result of multiplication of the specified value and the value represented by the specified [Decimal](./decimal/) object. |
 | [Decimal](./decimal/) [operator/](./operator_div/)(const T\&, const [Decimal](./decimal/)\&) | Returns a new instance of [Decimal](./decimal/) class that represents a value that is a result of division of the specified value and the value represented by the specified [Decimal](./decimal/) object. |
-| std::enable_if\<[IsExceptionWrapper](./isexceptionwrapper/)\<T\>::value, constT\&\>::type [Default](./default/)() | Returns the default-constructed instance of the specified type. |
-| std::enable_if<\![IsExceptionWrapper](./isexceptionwrapper/)\<T\>::value, constT\&\>::type [Default](./default/)() | Returns the default-constructed instance of the specified type. |
-| auto [Discard](./discard/)() | Returns the default-constructed temporary instance of the specified type, which can be placed instead of discarding '_' argument. |
+| std::enable_if\<[IsExceptionWrapper](./isexceptionwrapper/)\<T\>::value, constT\&\>::type [Default](./default/)() | Returns the reference to the single default-constructed instance of the exception type. |
+| std::enable_if<\![IsExceptionWrapper](./isexceptionwrapper/)\<T\>::value, constT\&\>::type [Default](./default/)() | Returns the reference to the single default-constructed instance of the non-exception type. |
+| T\& [Discard](./discard/)(T\&&) | Returns the default-constructed temporary instance of the specified type, which can be placed instead of discarding '_' argument. |
 | std::enable_if_t\<Details::is_lambda_void_void\<T\>::value\> [DoTryFinally](./dotryfinally/)(T\&&, F\&&) | The sigle function that emulates behavior of C#'s try[-catch]-finally statement. During translation of C#'s try[-catch]-finally statement with translator's option finally_statement_as_lambda set to true, the statement is translated into the invocation of this method. |
 | std::enable_if_t\<Details::is_lambda_void_boolref\<T\>::value, **bool**\> [DoTryFinally](./dotryfinally/)(T\&&, F\&&) | The sigle function that emulates behavior of C#'s try[-catch]-finally statement. During translation of C#'s try[-catch]-finally statement with translator's option finally_statement_as_lambda set to true, the statement is translated into the invocation of this method. This overload handles the case in which the return value of the function object that implements the try[-catch] part of the try[-catch]-finally statement is bool. |
 | std::enable_if_t\<Details::is_lambda_nonovoid_boolref\<T\>::value, std::optional\<Details::ResultOf\<T, **bool**\&\>\>\> [DoTryFinally](./dotryfinally/)(T\&&, F\&&) | The sigle function that emulates behavior of C#'s try[-catch]-finally statement. During translation of C#'s try[-catch]-finally statement with translator's option finally_statement_as_lambda set to true, the statement is translated into the invocation of this method. This overload handles the case in which the return value of the function object that implements the try[-catch] part of the try[-catch]-finally statement is bool&. |
@@ -401,6 +403,8 @@ url: /system/
 | [SharedPtr](./sharedptr/)\<[Array](./array/)\<To\>\> [DynamicCastArray](./dynamiccastarray/)(const [SharedPtr](./sharedptr/)\<[Array](./array/)\<From\>\>\&) | Performs casting of elements of the specified array to different type. |
 | std::istream\& [operator>>](./operator_greater_greater/)(std::istream\&, [String](./string/)\&) | Gets a string from the input streamusing UTF-8 encoding. |
 | std::wistream\& [operator>>](./operator_greater_greater/)(std::wistream\&, [String](./string/)\&) | Gets a string from the input stream. |
+| static [ValueTuple](./valuetuple/)\<Args...\> [MakeTuple](./maketuple/)(Args...) | Creates tuple on stack. |
+| static [ValueTuple](./valuetuple/)\<Args...\> [TieTuple](./tietuple/)(Args\&&...) | Creates tuple bound to some values. |
 | **bool** [is_vp_test](./is_vp_test/)(const ::testing::TestInfo *) |  |
 | **bool** [is_parametrized_test](./is_parametrized_test/)(const ::testing::TestInfo *) |  |
 | std::string [ForEachMemberGVName](./foreachmembergvname/)() |  |

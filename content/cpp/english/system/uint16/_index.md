@@ -3,7 +3,7 @@ title: UInt16
 second_title: Aspose.Slides for C++ API Reference
 description: Contains methods to work with the unsigned 16-bit integer.
 type: docs
-weight: 1847
+weight: 1860
 url: /system/uint16/
 ---
 ## UInt16 struct

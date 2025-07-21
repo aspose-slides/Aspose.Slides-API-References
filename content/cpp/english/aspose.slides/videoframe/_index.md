@@ -41,7 +41,7 @@ class VideoFrame : public Aspose::Slides::PictureFrame,
 | [System::SharedPtr](../../system/sharedptr/)\<[IFillFormat](../ifillformat/)\> [get_FillFormat](../shape/get_fillformat/)() override | Returns the [FillFormat](../fillformat/) object that contains fill formatting properties for a shape. Note: can return null for certain types of shapes which don't have fill properties. Read-only [IFillFormat](../ifillformat/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IShapeFrame](../ishapeframe/)\> [get_Frame](../shape/get_frame/)() override | Returns the shape frame's properties. Read [IShapeFrame](../ishapeframe/). |
 | **bool** [get_FullScreenMode](./get_fullscreenmode/)() override | Determines whether a video is shown in full screen mode. Read **bool**. |
-| **float** [get_Height](../shape/get_height/)() override | Returns the height of the shape. Read **float**. |
+| **float** [get_Height](../shape/get_height/)() override | Gets the height of the shape, measured in points. Read **float**. |
 | **bool** [get_Hidden](../shape/get_hidden/)() override | Determines whether the shape is hidden. Read **bool**. |
 | **bool** [get_HideAtShowing](./get_hideatshowing/)() override | Determines whether a [VideoFrame](./) is hidden. Read **bool**. |
 | [System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../ihyperlink/)\> [get_HyperlinkClick](../shape/get_hyperlinkclick/)() override | Returns the hyperlink defined for mouse click. Read [IHyperlink](../ihyperlink/). |
@@ -54,7 +54,7 @@ class VideoFrame : public Aspose::Slides::PictureFrame,
 | [System::SharedPtr](../../system/sharedptr/)\<[ILineFormat](../ilineformat/)\> [get_LineFormat](../shape/get_lineformat/)() override | Returns the [LineFormat](../lineformat/) object that contains line formatting properties for a shape. Note: can return null for certain types of shapes which don't have line properties. Read-only [ILineFormat](../ilineformat/). |
 | [System::String](../../system/string/) [get_LinkPathLong](./get_linkpathlong/)() override | Returns the name of an video file which is linked to a [VideoFrame](./). Read [System::String](../../system/string/). |
 | [System::String](../../system/string/) [get_Name](../shape/get_name/)() override | Returns the name of a shape. Must be not null. Use empty string value if needed. Read [System::String](../../system/string/). |
-| **uint32_t** [get_OfficeInteropShapeId](../shape/get_officeinteropshapeid/)() override | Gets unique shape identifier in slide scope. Read-only **uint32_t**. See also [Shape::get_UniqueId](../shape/get_uniqueid/) for getting unique shape identifier in presentation scope. |
+| **uint32_t** [get_OfficeInteropShapeId](../shape/get_officeinteropshapeid/)() override | Returns a slide-scoped unique identifier that remains constant for the lifetime of the shape and lets PowerPoint or interop code reliably reference the shape from anywhere in the document. Read-only **uint32_t**. See also [Shape::get_UniqueId](../shape/get_uniqueid/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IGroupShape](../igroupshape/)\> [get_ParentGroup](../shape/get_parentgroup/)() override | Returns parent [GroupShape](../groupshape/) object if shape is grouped. Otherwise returns null. Read-only [IGroupShape](../igroupshape/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IPictureFillFormat](../ipicturefillformat/)\> [get_PictureFormat](../pictureframe/get_pictureformat/)() override | Returns the [PictureFillFormat](../picturefillformat/) object for a picture frame. Read-only [IPictureFillFormat](../ipicturefillformat/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IPictureFrameLock](../ipictureframelock/)\> [get_PictureFrameLock](../pictureframe/get_pictureframelock/)() override | Returns shape's locks. Read-only [IPictureFrameLock](../ipictureframelock/). |
@@ -74,11 +74,11 @@ class VideoFrame : public Aspose::Slides::PictureFrame,
 | [System::SharedPtr](../../system/sharedptr/)\<[IThreeDFormat](../ithreedformat/)\> [get_ThreeDFormat](../shape/get_threedformat/)() override | Returns the [ThreeDFormat](../threedformat/) object that 3d effect properties for a shape. Note: can return null for certain types of shapes which don't have 3d properties. Read-only [IThreeDFormat](../ithreedformat/). |
 | **float** [get_TrimFromEnd](./get_trimfromend/)() override | Trim end [ms] |
 | **float** [get_TrimFromStart](./get_trimfromstart/)() override | Trim start [ms] |
-| **uint32_t** [get_UniqueId](../shape/get_uniqueid/)() override | Gets unique shape identifier in presentation scope. Read-only **uint32_t**. See also [Shape::get_OfficeInteropShapeId](../shape/get_officeinteropshapeid/) for getting unique shape identifier in slide scope. |
+| **uint32_t** [get_UniqueId](../shape/get_uniqueid/)() override | Returns an internal, presentation-scoped identifier intended for use by add-ins or other code. Because this value can be reassigned by the user or programmatically, it must not be treated as a persistent unique key. Read-only **uint32_t**. See also [Shape::get_OfficeInteropShapeId](../shape/get_officeinteropshapeid/). |
 | [AudioVolumeMode](../audiovolumemode/) [get_Volume](./get_volume/)() override | Returns the audio volume. Read [AudioVolumeMode](../audiovolumemode/). |
-| **float** [get_Width](../shape/get_width/)() override | Returns the width of the shape. Read **float**. |
-| **float** [get_X](../shape/get_x/)() override | Returns the x-coordinate of the upper-left corner of the shape. Read **float**. |
-| **float** [get_Y](../shape/get_y/)() override | Returns the y-coordinate of the upper-left corner of the shape. Read **float**. |
+| **float** [get_Width](../shape/get_width/)() override | Gets the width of the shape, measured in points. Read **float**. |
+| **float** [get_X](../shape/get_x/)() override | Gets the x-coordinate of the shape's upper-left corner, measured in points. Read **float**. |
+| **float** [get_Y](../shape/get_y/)() override | Gets the y-coordinate of the shape's upper-left corner, measured in points. Read **float**. |
 | **int32_t** [get_ZOrderPosition](../shape/get_zorderposition/)() override | Returns the position of a shape in the z-order. Shapes[0] returns the shape at the back of the z-order, and Shapes[Shapes.Count - 1] returns the shape at the front of the z-order. Read-only **int32_t**. |
 | [System::SharedPtr](../../system/sharedptr/)\<[IShape](../ishape/)\> [GetBasePlaceholder](../shape/getbaseplaceholder/)() override | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from). |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
@@ -108,7 +108,7 @@ class VideoFrame : public Aspose::Slides::PictureFrame,
 | void [set_EmbeddedVideo](./set_embeddedvideo/)([System::SharedPtr](../../system/sharedptr/)\<[IVideo](../ivideo/)\>) override | Sets embedded video object. Write [IVideo](../ivideo/). |
 | void [set_Frame](../shape/set_frame/)([System::SharedPtr](../../system/sharedptr/)\<[IShapeFrame](../ishapeframe/)\>) override | Sets the shape frame's properties. Write [IShapeFrame](../ishapeframe/). |
 | void [set_FullScreenMode](./set_fullscreenmode/)(**bool**) override | Determines whether a video is shown in full screen mode. Write **bool**. |
-| void [set_Height](../shape/set_height/)(**float**) override | Sets the height of the shape. Write **float**. |
+| void [set_Height](../shape/set_height/)(**float**) override | Sets the height of the shape, measured in points. Write **float**. |
 | void [set_Hidden](../shape/set_hidden/)(**bool**) override | Determines whether the shape is hidden. Write **bool**. |
 | void [set_HideAtShowing](./set_hideatshowing/)(**bool**) override | Determines whether a [VideoFrame](./) is hidden. Write **bool**. |
 | void [set_HyperlinkClick](../shape/set_hyperlinkclick/)([System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../ihyperlink/)\>) override | Sets the hyperlink defined for mouse click. Write [IHyperlink](../ihyperlink/). |
@@ -127,9 +127,9 @@ class VideoFrame : public Aspose::Slides::PictureFrame,
 | void [set_TrimFromEnd](./set_trimfromend/)(**float**) override | Trim end [ms] |
 | void [set_TrimFromStart](./set_trimfromstart/)(**float**) override | Trim start [ms] |
 | void [set_Volume](./set_volume/)([AudioVolumeMode](../audiovolumemode/)) override | Sets the audio volume. Write [AudioVolumeMode](../audiovolumemode/). |
-| void [set_Width](../shape/set_width/)(**float**) override | Sets the width of the shape. Write **float**. |
-| void [set_X](../shape/set_x/)(**float**) override | Sets the x-coordinate of the upper-left corner of the shape. Write **float**. |
-| void [set_Y](../shape/set_y/)(**float**) override | Sets the y-coordinate of the upper-left corner of the shape. Write **float**. |
+| void [set_Width](../shape/set_width/)(**float**) override | Sets the width of the shape, measured in points. Write **float**. |
+| void [set_X](../shape/set_x/)(**float**) override | Sets the x-coordinate of the shape's upper-left corner, measured in points. Write **float**. |
+| void [set_Y](../shape/set_y/)(**float**) override | Sets the y-coordinate of the shape's upper-left corner, measured in points. Write **float**. |
 | void [SetGeometryPath](../geometryshape/setgeometrypath/)([System::SharedPtr](../../system/sharedptr/)\<[IGeometryPath](../igeometrypath/)\>) override | Updates shape geometry from [IGeometryPath](../igeometrypath/) object. Coordinates must be relative to the left top corner of the shape. Changes the type of the shape ([ShapeType](../shapetype/)) to [ShapeType::Custom](../shapetype/). |
 | void [SetGeometryPaths](../geometryshape/setgeometrypaths/)([System::ArrayPtr](../../system/arrayptr/)\<[System::SharedPtr](../../system/sharedptr/)\<[IGeometryPath](../igeometrypath/)\>\>) override | Updates shape geometry from array of [IGeometryPath](../igeometrypath/). Coordinates must be relative to the left top corner of the shape. Changes the type of the shape ([ShapeType](../shapetype/)) to [ShapeType::Custom](../shapetype/). |
 | virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode. |

@@ -294,7 +294,7 @@ url: /aspose.slides/
 | [IShape](./ishape/) | Represents a shape on a slide. |
 | [IShapeBevel](./ishapebevel/) | Represents properties of shape's main face relief. |
 | [IShapeBevelEffectiveData](./ishapebeveleffectivedata/) | Immutable object which contains effective shape's face relief properties. |
-| [IShapeCollection](./ishapecollection/) | Represents a collection of a shapes. |
+| [IShapeCollection](./ishapecollection/) | Represents a collection of shapes. |
 | [IShapeElement](./ishapeelement/) | Represents a part of shape with same outline and fill properties. |
 | [IShapeFrame](./ishapeframe/) | Represents shape frame's properties. |
 | [IShapeStyle](./ishapestyle/) | Represent shape's style reference. |
@@ -305,7 +305,7 @@ url: /aspose.slides/
 | [ISlideComponent](./islidecomponent/) | Represents a component of a slide. |
 | [ISlideHeaderFooterManager](./islideheaderfootermanager/) | Represents manager which holds behavior of the slide footer, date-time, page number placeholders. |
 | [ISlideShowTransition](./islideshowtransition/) | Represents slide show transition. |
-| [ISlideSize](./islidesize/) | Represents a size of slide. |
+| [ISlideSize](./islidesize/) | Represents the size and orientation of a slide. |
 | [ISlidesPicture](./islidespicture/) | Represents a picture in a presentation. |
 | [ISlideText](./islidetext/) | Represents the text extracted from the slide |
 | [ISpreadsheetOptions](./ispreadsheetoptions/) | Represents options which can be used to specify additional spreadsheets behavior. |
@@ -402,7 +402,7 @@ url: /aspose.slides/
 | [SectionZoomFrame](./sectionzoomframe/) | Represents a [Section](./section/) Zoom object in a slide. |
 | [Shape](./shape/) | Represents a shape on a slide. |
 | [ShapeBevel](./shapebevel/) | Contains the properties of shape's main face relief. |
-| [ShapeCollection](./shapecollection/) | Represents a collection of a shapes. |
+| [ShapeCollection](./shapecollection/) | Represents a collection of shapes. |
 | [ShapeElement](./shapeelement/) | Represents a part of shape with same outline and fill properties. |
 | [ShapeFrame](./shapeframe/) | Represents shape frame's properties. |
 | [ShapeStyle](./shapestyle/) | Represent shape's style reference. |
@@ -412,7 +412,7 @@ url: /aspose.slides/
 | [SlideHeaderFooterManager](./slideheaderfootermanager/) | Represents manager which holds behavior of the slide footer, date-time, page number placeholders. |
 | [SlideShowSettings](./slideshowsettings/) | Represents the slide show settings for the presentation. |
 | [SlideShowType](./slideshowtype/) | Base slide show settings. Ancestors represent types of the slide show: [PresentedBySpeaker](./presentedbyspeaker/) Presented by a speaker (full screen) [BrowsedByIndividual](./browsedbyindividual/) Browsed by individual (window) [BrowsedAtKiosk](./browsedatkiosk/) Browsed at a kiosk (full screen) |
-| [SlideSize](./slidesize/) | Represents a size of slide. |
+| [SlideSize](./slidesize/) | Represents the size and orientation of a slide. |
 | [SlidesRange](./slidesrange/) | [Slides](./) range |
 | [SpreadsheetOptions](./spreadsheetoptions/) | Represents options which can be used to specify additional spreadsheets behavior. |
 | [StreamWrapper](./streamwrapper/) | Aspose.IO.Stream wrapper for COM interface. |

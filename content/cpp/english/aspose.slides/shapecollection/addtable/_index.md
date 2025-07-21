@@ -1,7 +1,7 @@
 ---
 title: AddTable()
 second_title: Aspose.Slides for C++ API Reference
-description: Creates a new Table and adds it to the end of the collection.
+description: Creates a new table and adds it to the end of the shape collection.
 type: docs
 weight: 469
 url: /aspose.slides/shapecollection/addtable/
@@ -9,7 +9,7 @@ url: /aspose.slides/shapecollection/addtable/
 ## ShapeCollection::AddTable(float, float, System::ArrayPtr\<double\>, System::ArrayPtr\<double\>) method
 
 
-Creates a new [Table](../../table/) and adds it to the end of the collection.
+Creates a new table and adds it to the end of the shape collection.
 
 ```cpp
 System::SharedPtr<ITable> Aspose::Slides::ShapeCollection::AddTable(float x, float y, System::ArrayPtr<double> columnWidths, System::ArrayPtr<double> rowHeights) override
@@ -20,14 +20,14 @@ System::SharedPtr<ITable> Aspose::Slides::ShapeCollection::AddTable(float x, flo
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | **float** | The X-coordinate for a left side of shape's frame. |
-| y | **float** | The Y-coordinate for a top side of shape's frame. |
-| columnWidths | [System::ArrayPtr](../../../system/arrayptr/)\<**double**\> | Array of doubles which represents widths of columns in the table. |
-| rowHeights | [System::ArrayPtr](../../../system/arrayptr/)\<**double**\> | Array of doubles which represents heights of rows in the table. |
+| x | **float** | The x-coordinate of the table, in points. |
+| y | **float** | The y-coordinate of the table, in points. |
+| columnWidths | [System::ArrayPtr](../../../system/arrayptr/)\<**double**\> | An array of doubles representing the widths of the table\\u2019s columns, in points. |
+| rowHeights | [System::ArrayPtr](../../../system/arrayptr/)\<**double**\> | An array of doubles representing the heights of the table\\u2019s rows, in points. |
 
 ### Return Value
 
-Created [Table](../../table/) object.
+The newly created [ITable](../../itable/).
 ## Remarks
 
 

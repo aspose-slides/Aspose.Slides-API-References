@@ -3,16 +3,16 @@ title: Discard()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns the default-constructed temporary instance of the specified type, which can be placed instead of discarding '_' argument.
 type: docs
-weight: 2107
+weight: 2133
 url: /system/discard/
 ---
-## System::Discard() function
+## System::Discard(T\&&) function
 
 
 Returns the default-constructed temporary instance of the specified type, which can be placed instead of discarding '_' argument.
 
 ```cpp
-template<typename T> auto System::Discard()
+template<typename T> T & System::Discard(T &&initial=Details::DefaultValue<T>())
 ```
 
 

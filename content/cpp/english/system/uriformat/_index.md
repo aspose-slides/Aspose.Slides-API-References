@@ -3,7 +3,7 @@ title: UriFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies how the URI is escaped.
 type: docs
-weight: 2900
+weight: 2952
 url: /system/uriformat/
 ---
 ## UriFormat enum

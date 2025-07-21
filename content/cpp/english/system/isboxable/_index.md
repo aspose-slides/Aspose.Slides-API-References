@@ -3,7 +3,7 @@ title: IsBoxable
 second_title: Aspose.Slides for C++ API Reference
 description: Template predicate that checks if boxing of the specified type is supported.
 type: docs
-weight: 1561
+weight: 1574
 url: /system/isboxable/
 ---
 ## IsBoxable struct

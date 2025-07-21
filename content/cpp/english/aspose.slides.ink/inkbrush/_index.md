@@ -26,6 +26,7 @@ class InkBrush : public Aspose::Slides::Ink::IInkBrush
 | static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
 | [System::Drawing::Color](../../system.drawing/color/) [get_Color](./get_color/)() override | Gets the brush color for a line. |
+| [InkEffectType](../inkeffecttype/) [get_InkEffect](./get_inkeffect/)() override | Gets the ink effect type (e.g., Galaxy, Gold, Silver) that defines the visual style of the ink stroke. The value is parsed from the brush property \"inkEffects\". If no recognized effect is specified, [InkEffectType::NotDefined](../inkeffecttype/) is returned. |
 | [System::Drawing::SizeF](../../system.drawing/sizef/) [get_Size](./get_size/)() override | Gets the brush size for a line in points. |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Analog of C# [Object.GetHashCode()](../../system/object/gethashcode/) method. Enables hashing of custom objects. |

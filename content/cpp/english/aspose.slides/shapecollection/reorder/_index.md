@@ -1,7 +1,7 @@
 ---
 title: Reorder()
 second_title: Aspose.Slides for C++ API Reference
-description: Moves a shape from the collection to the specified position.
+description: Moves the specified shape to a new position within the shape collection.
 type: docs
 weight: 339
 url: /aspose.slides/shapecollection/reorder/
@@ -9,7 +9,7 @@ url: /aspose.slides/shapecollection/reorder/
 ## ShapeCollection::Reorder(int32_t, System::SharedPtr\<IShape\>) method
 
 
-Moves a shape from the collection to the specified position.
+Moves the specified shape to a new position within the shape collection.
 
 ```cpp
 void Aspose::Slides::ShapeCollection::Reorder(int32_t index, System::SharedPtr<IShape> shape) override
@@ -20,13 +20,13 @@ void Aspose::Slides::ShapeCollection::Reorder(int32_t index, System::SharedPtr<I
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | **int32_t** | Target index. |
-| shape | [System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\> | [Shape](../../shape/) to move. |
+| index | **int32_t** | The zero-based target index where the shape will be placed. |
+| shape | [System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\> | The [IShape](../../ishape/) to move within the collection. |
 
 ## ShapeCollection::Reorder(int32_t, const System::ArrayPtr\<System::SharedPtr\<IShape\>\>\&) method
 
 
-Moves shapes from the collection to the specified position. Shapes will be placed starting from index in order they appear in list.
+Moves the specified shapes within the shape collection, placing them starting at the given index.
 
 ```cpp
 void Aspose::Slides::ShapeCollection::Reorder(int32_t index, const System::ArrayPtr<System::SharedPtr<IShape>> &shapes) override
@@ -37,8 +37,8 @@ void Aspose::Slides::ShapeCollection::Reorder(int32_t index, const System::Array
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | **int32_t** | Target index. |
-| shapes | const [System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\>\>\& | Shapes to move. |
+| index | **int32_t** | The zero-based target index where the first specified shape will be placed; subsequent shapes follow in the order provided. |
+| shapes | const [System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\>\>\& | One or more [IShape](../../ishape/) instances to move within the collection. |
 
 ## See Also
 

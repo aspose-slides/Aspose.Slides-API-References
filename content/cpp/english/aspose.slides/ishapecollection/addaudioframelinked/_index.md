@@ -1,7 +1,7 @@
 ---
 title: AddAudioFrameLinked()
 second_title: Aspose.Slides for C++ API Reference
-description: Adds a new audio frame with linked audio file to the end of a collection.
+description: Creates a new audio frame linked to an external audio file and adds it to the end of the shape collection.
 type: docs
 weight: 222
 url: /aspose.slides/ishapecollection/addaudioframelinked/
@@ -9,7 +9,7 @@ url: /aspose.slides/ishapecollection/addaudioframelinked/
 ## IShapeCollection::AddAudioFrameLinked(float, float, float, float, System::String) method
 
 
-Adds a new audio frame with linked audio file to the end of a collection.
+Creates a new audio frame linked to an external audio file and adds it to the end of the shape collection.
 
 ```cpp
 virtual System::SharedPtr<IAudioFrame> Aspose::Slides::IShapeCollection::AddAudioFrameLinked(float x, float y, float width, float height, System::String fname)=0
@@ -20,15 +20,15 @@ virtual System::SharedPtr<IAudioFrame> Aspose::Slides::IShapeCollection::AddAudi
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | **float** | X coordinate of a new audio frame. |
-| y | **float** | Y coordinate of a new audio frame. |
-| width | **float** | Width of a new audio frame. |
-| height | **float** | Height of a new audio frame. |
-| fname | [System::String](../../../system/string/) | [Audio](../../audio/) file name. |
+| x | **float** | The x-coordinate of the new audio frame, in points. |
+| y | **float** | The y-coordinate of the new audio frame, in points. |
+| width | **float** | The width of the new audio frame, in points. |
+| height | **float** | The height of the new audio frame, in points. |
+| fname | [System::String](../../../system/string/) | The path or name of the external audio file to link. |
 
 ### Return Value
 
-Created [AudioFrame](../../audioframe/) object.
+The newly created [IAudioFrame](../../iaudioframe/).
 
 ## See Also
 

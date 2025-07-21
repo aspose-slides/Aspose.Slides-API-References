@@ -1,7 +1,7 @@
 ---
 title: ISlideSize
 second_title: Aspose.Slides for C++ API Reference
-description: Represents a size of slide.
+description: Represents the size and orientation of a slide.
 type: docs
 weight: 3797
 url: /aspose.slides/islidesize/
@@ -9,7 +9,7 @@ url: /aspose.slides/islidesize/
 ## ISlideSize class
 
 
-Represents a size of slide.
+Represents the size and orientation of a slide.
 
 ```cpp
 class ISlideSize : public virtual System::Object
@@ -25,9 +25,9 @@ class ISlideSize : public virtual System::Object
 | static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
-| virtual [SlideOrientation](../slideorientation/) [get_Orientation](./get_orientation/)() | Returns the slide orientation. |
-| virtual [System::Drawing::SizeF](../../system.drawing/sizef/) [get_Size](./get_size/)() | Returns the size in points. Assigning any value will reset [ISlideSize::get_Type](./get_type/) value to [SlideSizeType::Custom](../slidesizetype/) and set [ISlideSize::get_Orientation](./get_orientation/). Read [System::Drawing::SizeF](../../system.drawing/sizef/). |
-| virtual [SlideSizeType](../slidesizetype/) [get_Type](./get_type/)() | Returns the type of slide size. Assigning any value except [SlideSizeType::Custom](../slidesizetype/) will change [ISlideSize::get_Size](./get_size/) accordingly, but will keep [ISlideSize::get_Orientation](./get_orientation/) intact. Read [Aspose::Slides::SlideSizeType](../slidesizetype/). |
+| virtual [SlideOrientation](../slideorientation/) [get_Orientation](./get_orientation/)() | Gets the slide orientation. |
+| virtual [System::Drawing::SizeF](../../system.drawing/sizef/) [get_Size](./get_size/)() | Gets the slide dimensions in points. Assigning a new value resets the [ISlideSize::get_Type](./get_type/) value to [SlideSizeType::Custom](../slidesizetype/) and sets [ISlideSize::get_Orientation](./get_orientation/). |
+| virtual [SlideSizeType](../slidesizetype/) [get_Type](./get_type/)() | Gets the slide size type. Assigning any value except [SlideSizeType::Custom](../slidesizetype/) adjusts the [ISlideSize::get_Size](./get_size/) according to the predefined dimensions, while retaining the current [ISlideSize::get_Orientation](./get_orientation/). |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Analog of C# [Object.GetHashCode()](../../system/object/gethashcode/) method. Enables hashing of custom objects. |
 | virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | Gets actual type of object. Analog of C# [System.Object.GetType()](../../system/object/gettype/) call. |
@@ -44,8 +44,8 @@ class ISlideSize : public virtual System::Object
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of strings. |
 | int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Decreases shared reference count by specified value. |
 | virtual void [set_Orientation](./set_orientation/)([SlideOrientation](../slideorientation/)) | Sets the slide orientation. |
-| virtual void [SetSize](./setsize/)([SlideSizeType](../slidesizetype/), [SlideSizeScaleType](../slidesizescaletype/)) | Sets the type of slide size and scales content using scale type. Assigning any value except [SlideSizeType::Custom](../slidesizetype/) will change [ISlideSize::get_Size](./get_size/) accordingly, but will keep [ISlideSize::get_Orientation](./get_orientation/) intact. |
-| virtual void [SetSize](./setsize/)(**float**, **float**, [SlideSizeScaleType](../slidesizescaletype/)) | Sets the size in points and scales content using scale type. Assigning any value will reset [ISlideSize::get_Type](./get_type/) value to [SlideSizeType::Custom](../slidesizetype/) and set [ISlideSize::get_Orientation](./get_orientation/). |
+| virtual void [SetSize](./setsize/)([SlideSizeType](../slidesizetype/), [SlideSizeScaleType](../slidesizescaletype/)) | Sets the slide size by type and scales existing content. Assigning any value other than [SlideSizeType::Custom](../slidesizetype/) adjusts the [ISlideSize::get_Size](./get_size/) based on the selected type, while preserving [ISlideSize::get_Orientation](./get_orientation/). |
+| virtual void [SetSize](./setsize/)(**float**, **float**, [SlideSizeScaleType](../slidesizescaletype/)) | Sets the slide dimensions explicitly and scales existing content. This resets the [ISlideSize::get_Type](./get_type/) value to [SlideSizeType::Custom](../slidesizetype/) and sets the [ISlideSize::get_Orientation](./get_orientation/). |
 | virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode. |
 | int [SharedCount](../../system/object/sharedcount/)() const | Gets current value of shared reference counter. |
 | [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | Increments shared reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |

@@ -3,7 +3,7 @@ title: StringSplitOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Determines string splitting behavior.
 type: docs
-weight: 2835
+weight: 2887
 url: /system/stringsplitoptions/
 ---
 ## StringSplitOptions enum

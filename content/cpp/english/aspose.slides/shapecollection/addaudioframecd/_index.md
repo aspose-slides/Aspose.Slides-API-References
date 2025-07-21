@@ -1,7 +1,7 @@
 ---
 title: AddAudioFrameCD()
 second_title: Aspose.Slides for C++ API Reference
-description: Adds an AudioFrame with CD to the end of collection.
+description: Creates a new audio frame linked to a CD track and adds it to the end of the shape collection.
 type: docs
 weight: 235
 url: /aspose.slides/shapecollection/addaudioframecd/
@@ -9,7 +9,7 @@ url: /aspose.slides/shapecollection/addaudioframecd/
 ## ShapeCollection::AddAudioFrameCD(float, float, float, float) method
 
 
-Adds an [AudioFrame](../../audioframe/) with CD to the end of collection.
+Creates a new audio frame linked to a CD track and adds it to the end of the shape collection.
 
 ```cpp
 System::SharedPtr<IAudioFrame> Aspose::Slides::ShapeCollection::AddAudioFrameCD(float x, float y, float width, float height) override
@@ -20,14 +20,14 @@ System::SharedPtr<IAudioFrame> Aspose::Slides::ShapeCollection::AddAudioFrameCD(
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | **float** | X coordinate of a new audio frame. |
-| y | **float** | Y coordinate of a new audio frame. |
-| width | **float** | Width of a new audio frame. |
-| height | **float** | Height of a new audio frame. |
+| x | **float** | The x-coordinate of the new audio frame, in points. |
+| y | **float** | The y-coordinate of the new audio frame, in points. |
+| width | **float** | The width of the new audio frame, in points. |
+| height | **float** | The height of the new audio frame, in points. |
 
 ### Return Value
 
-Created [AudioFrame](../../audioframe/) object.
+The newly created [IAudioFrame](../../iaudioframe/).
 
 ## See Also
 

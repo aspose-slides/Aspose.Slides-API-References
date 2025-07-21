@@ -1,7 +1,7 @@
 ---
 title: set_Width()
 second_title: Aspose.Slides for C++ API Reference
-description: Sets the width of the shape. Write float.
+description: Sets the width of the shape, measured in points. Write float.
 type: docs
 weight: 287
 url: /aspose.slides/ishape/set_width/
@@ -9,7 +9,7 @@ url: /aspose.slides/ishape/set_width/
 ## IShape::set_Width(float) method
 
 
-Sets the width of the shape. Write **float**.
+Sets the width of the shape, measured in points. Write **float**.
 
 ```cpp
 virtual void Aspose::Slides::IShape::set_Width(float value)=0
@@ -18,7 +18,7 @@ virtual void Aspose::Slides::IShape::set_Width(float value)=0
 ## Remarks
 
 
-Returned value is always defined (is not std::numeric_limits<float>::quiet_NaN()). Assigned value must be defined (not std::numeric_limits<float>::quiet_NaN()). You can set undefined values for RawFrame instance properties. 
+The value returned is always defined and never [std::numeric_limits<float>::quiet_NaN()](../). The value assigned must also be defined; assign [std::numeric_limits<float>::quiet_NaN()](../) only to properties of a **RawFrame** instance. 
 ## See Also
 
 * Class [IShape](../)

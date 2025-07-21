@@ -1,7 +1,7 @@
 ---
 title: ToArray()
 second_title: Aspose.Slides for C++ API Reference
-description: Creates and returns an array with all shapse in it.
+description: Creates and returns an array that contains all shapes.
 type: docs
 weight: 287
 url: /aspose.slides/ishapecollection/toarray/
@@ -9,7 +9,7 @@ url: /aspose.slides/ishapecollection/toarray/
 ## IShapeCollection::ToArray() method
 
 
-Creates and returns an array with all shapse in it.
+Creates and returns an array that contains all shapes.
 
 ```cpp
 virtual System::ArrayPtr<System::SharedPtr<IShape>> Aspose::Slides::IShapeCollection::ToArray()=0
@@ -18,12 +18,12 @@ virtual System::ArrayPtr<System::SharedPtr<IShape>> Aspose::Slides::IShapeCollec
 
 ### Return Value
 
-Array of [IShape](../../ishape/)
+An array of [IShape](../../ishape/) objects.
 
 ## IShapeCollection::ToArray(int32_t, int32_t) method
 
 
-Creates and returns an array with all shapes from the specified range in it.
+Creates and returns an array that contains all shapes in the specified range.
 
 ```cpp
 virtual System::ArrayPtr<System::SharedPtr<IShape>> Aspose::Slides::IShapeCollection::ToArray(int32_t startIndex, int32_t count)=0
@@ -34,12 +34,12 @@ virtual System::ArrayPtr<System::SharedPtr<IShape>> Aspose::Slides::IShapeCollec
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| startIndex | **int32_t** | An index of a first shape to return. |
-| count | **int32_t** | A number of shapes to return. |
+| startIndex | **int32_t** | The index of the first shape to return. |
+| count | **int32_t** | The number of shapes to return. |
 
 ### Return Value
 
-Array of [IShape](../../ishape/)
+An array of [IShape](../../ishape/) objects.
 
 ## See Also
 
