@@ -12,7 +12,7 @@ weight: 220
 Determines whether the corresponding master is deleted when all 
             the slides that follow that master are deleted.
             Note: Aspose.Slides will never remove any unused master by itself, 
-            to actually remove unused masters call **Aspose.Slides.IMasterSlideCollection.RemoveUnused(Syste**
+            to actually remove unused masters call [`IMasterSlideCollection.remove_unused`](/slides/python-net/aspose.slides/imasterslidecollection/remove_unused)
             Read/write **bool**.
 
 ### Definition:

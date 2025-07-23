@@ -24,7 +24,7 @@ def update_document_properties(self, document_properties):
 
 ### Examples
 
-This sample shows how to call the **Aspose.Slides.PresentationInfo.UpdateDocumentProperties(Aspose.Slide** method to
+This sample shows how to call the [`PresentationInfo.update_document_properties`](/slides/python-net/aspose.slides/presentationinfo/update_document_properties) method to
             update the document properties returned by call of the [`PresentationInfo.read_document_properties`](/slides/python-net/aspose.slides/presentationinfo/read_document_properties) method.
 
 

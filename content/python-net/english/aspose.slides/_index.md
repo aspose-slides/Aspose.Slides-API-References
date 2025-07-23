@@ -449,7 +449,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`ColorStringFormat`](/slides/python-net/aspose.slides/colorstringformat/) | Represents a type of hyperlink action. |
 | [`ColorTransformOperation`](/slides/python-net/aspose.slides/colortransformoperation/) | Defines color transform operation. |
 | [`ColorType`](/slides/python-net/aspose.slides/colortype/) | Represents different color modes. |
-| [`ControlType`](/slides/python-net/aspose.slides/controltype/) | Defines a control type which should be embedded by **Aspose.Slides.IControlCollection.AddControl(Aspose.Slides.ControlType,System.Single,System.Single,System.Single,Syste**. |
+| [`ControlType`](/slides/python-net/aspose.slides/controltype/) | Defines a control type which should be embedded by [`IControlCollection.add_control`](/slides/python-net/aspose.slides/icontrolcollection/add_control). |
 | [`EmbeddingLevel`](/slides/python-net/aspose.slides/embeddinglevel/) | Represents the licensing rights for embedding the font. |
 | [`FillBlendMode`](/slides/python-net/aspose.slides/fillblendmode/) | Determines blend mode. |
 | [`FillType`](/slides/python-net/aspose.slides/filltype/) | Specifies the interior fill type of various visual objects. |

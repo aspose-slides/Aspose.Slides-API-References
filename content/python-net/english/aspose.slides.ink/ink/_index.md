@@ -67,6 +67,8 @@ The Ink type exposes the following members:
 | [`remove_placeholder`](/slides/python-net/aspose.slides.ink/ink/remove_placeholder/#) | Defines that this shape isn't a placeholder. |
 | [`add_placeholder`](/slides/python-net/aspose.slides.ink/ink/add_placeholder/#iplaceholder) | Adds a new placeholder if there is no and sets placeholder properties to a specified one. |
 | [`get_base_placeholder`](/slides/python-net/aspose.slides.ink/ink/get_base_placeholder/#) | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from).<br/>A None is returned if the current shape is not inherited. |
+| [`register_ink_effect_image`](/slides/python-net/aspose.slides.ink/ink/register_ink_effect_image/#inkeffecttype-iimage) | Registers an image to collection of custom images used to simulate visual effects for ink brushes.<br/>            These images are used when rendering ink with specific [`InkEffectType`](/slides/python-net/aspose.slides.ink/inkeffecttype) values,<br/>            such as Galaxy, Rainbow, etc. By providing your own images, you can control how each ink effect appears. |
+| [`unregister_ink_effect_image`](/slides/python-net/aspose.slides.ink/ink/unregister_ink_effect_image/#inkeffecttype) | Unregisters an image from collection of custom images used to simulate visual effects for ink brushes<br/>            previously registered images via [`Ink.register_ink_effect_image`](/slides/python-net/aspose.slides.ink/ink/register_ink_effect_image). |
 
 
 ### See Also
