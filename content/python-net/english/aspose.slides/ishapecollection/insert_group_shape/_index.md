@@ -9,12 +9,12 @@ weight: 270
 
 
 ## insert_group_shape {#int}
-Creates a new GroupShape and inserts it to the collection at the specified index.
-            GroupShape frame size and position will be fitted to content when new shape will be added into the GroupShape.
+Creates a new empty group shape and inserts it to the shape collection at the specified index.
+            The group’s frame will automatically adjust to fit any shapes added to it.
 
 ### Returns
 
-Created GroupShape object.
+The newly created [`IGroupShape`](/slides/python-net/aspose.slides/igroupshape).
 
 
 
@@ -26,7 +26,7 @@ def insert_group_shape(self, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | **int** | The zero-based index at which value should be inserted. |
+| index | **int** | The zero-based index at which to insert the group shape. |
 
 
 

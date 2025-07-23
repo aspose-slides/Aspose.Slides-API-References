@@ -34,7 +34,7 @@ The IBasePortionFormatEffectiveData type exposes the following members:
 | [`smart_tag_clean`](/slides/python-net/aspose.slides/ibaseportionformateffectivedata/smart_tag_clean/) | Determines whether the smart tag should be cleaned.<br/>            Read-only **bool**. |
 | [`is_hard_underline_line`](/slides/python-net/aspose.slides/ibaseportionformateffectivedata/is_hard_underline_line/) | Determines whether the underline style has own LineFormat properties or inherits it<br/>            from the LineFormat properties of the text.<br/>            Read-only **bool**. |
 | [`is_hard_underline_fill`](/slides/python-net/aspose.slides/ibaseportionformateffectivedata/is_hard_underline_fill/) | Determines whether the underline style has own FillFormat properties or inherits it<br/>            from the FillFormat properties of the text.<br/>            Read-only **bool**. |
-| [`font_height`](/slides/python-net/aspose.slides/ibaseportionformateffectivedata/font_height/) | Returns the font height of a portion.<br/>            Read-only **float**. |
+| [`font_height`](/slides/python-net/aspose.slides/ibaseportionformateffectivedata/font_height/) | Returns the font height of the text portion, in points.<br/>            Read-only **float**. |
 | [`latin_font`](/slides/python-net/aspose.slides/ibaseportionformateffectivedata/latin_font/) | Returns the Latin font info.<br/>            Read-only [`IFontData`](/slides/python-net/aspose.slides/ifontdata). |
 | [`east_asian_font`](/slides/python-net/aspose.slides/ibaseportionformateffectivedata/east_asian_font/) | Returns the East Asian font info.<br/>            Read-only [`IFontData`](/slides/python-net/aspose.slides/ifontdata). |
 | [`complex_script_font`](/slides/python-net/aspose.slides/ibaseportionformateffectivedata/complex_script_font/) | Returns the complex script font info.<br/>            Read-only [`IFontData`](/slides/python-net/aspose.slides/ifontdata). |
@@ -43,7 +43,7 @@ The IBasePortionFormatEffectiveData type exposes the following members:
 | [`kerning_minimal_size`](/slides/python-net/aspose.slides/ibaseportionformateffectivedata/kerning_minimal_size/) | Returns the minimal font size, for which kerning should be switched on.<br/>            Read-only **float**. |
 | [`language_id`](/slides/python-net/aspose.slides/ibaseportionformateffectivedata/language_id/) | Returns the Id of a language.<br/>            Read-only **str**. |
 | [`alternative_language_id`](/slides/python-net/aspose.slides/ibaseportionformateffectivedata/alternative_language_id/) | Returns the Id of an alternative language.<br/>            Read-only **str**. |
-| [`spacing`](/slides/python-net/aspose.slides/ibaseportionformateffectivedata/spacing/) | Returns the intercharacter spacing increment.<br/>            Read-only **float**. |
+| [`spacing`](/slides/python-net/aspose.slides/ibaseportionformateffectivedata/spacing/) | Returns the intercharacter spacing increment, in points.<br/>            Read-only **float**. |
 
 
 ### See Also

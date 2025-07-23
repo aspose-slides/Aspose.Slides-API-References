@@ -9,7 +9,7 @@ url: /aspose.slides.export/enumerableframeargs/
 
 ## EnumerableFrameArgs class
 
-Represents return values of **Aspose.Slides.Export.PresentationEnumerableFramesGenerator.EnumerateFrames(System.Collections.Generic.IEnumerable{Aspose.Slide** method.
+Represents return values of [`PresentationEnumerableFramesGenerator.enumerate_frames`](/slides/python-net/aspose.slides.export/presentationenumerableframesgenerator/enumerate_frames) method.
 
 The EnumerableFrameArgs type exposes the following members:
 

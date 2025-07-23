@@ -9,11 +9,11 @@ weight: 310
 
 
 ## insert_summary_zoom_frame {#int-float-float-float-float}
-Creates a new Summary Zoom object and inserts it to a collection at the specified index.
+Creates a new Summary Zoom frame and inserts it into the shape collection at the specified index.
 
 ### Returns
 
-Created Summary Zoom object [`ISummaryZoomFrame`](/slides/python-net/aspose.slides/isummaryzoomframe).
+The newly created [`ISummaryZoomFrame`](/slides/python-net/aspose.slides/isummaryzoomframe).
 
 
 
@@ -25,11 +25,11 @@ def insert_summary_zoom_frame(self, index, x, y, width, height):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | **int** | The zero-based index at which Section Zoom frame should be inserted. |
-| x | **float** | X coordinate of a new Section Zoom frame **float**. |
-| y | **float** | Y coordinate of a new Section Zoom frame **float**. |
-| width | **float** | Width of a new Section Zoom frame **float**. |
-| height | **float** | Height of a new Section Zoom frame **float**. |
+| index | **int** | The zero-based index at which to insert the Summary Zoom frame. |
+| x | **float** | The x-coordinate of the new Summary Zoom frame, in points. |
+| y | **float** | The y-coordinate of the new Summary Zoom frame, in points. |
+| width | **float** | The width of the new Summary Zoom frame, in points. |
+| height | **float** | The height of the new Summary Zoom frame, in points. |
 
 ### Examples
 
@@ -38,13 +38,13 @@ This example demonstrates creation and inserting a Summary Zoom object at the sp
 
 ### Remarks
 
-This method creates a new Summary Zoom and puts a collection of objects into it for all the sections in this presentation.
+This method creates a Summary Zoom frame that aggregates summary links for all sections in the presentation.
 
 ### Exceptions
 
 | Exception | Description |
 | :- | :- |
-| [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception) | There are no sections in the presentation, or the target slide does not belong to any section. |
+| [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception) | Thrown if the presentation contains no sections, or if the target slide does not belong to any section. |
 
 
 

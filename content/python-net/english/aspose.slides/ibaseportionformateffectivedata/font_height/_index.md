@@ -9,7 +9,7 @@ weight: 80
 
 
 ## font_height property
-Returns the font height of a portion.
+Returns the font height of the text portion, in points.
             Read-only **float**.
 
 ### Definition:

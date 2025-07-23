@@ -9,11 +9,11 @@ weight: 120
 
 
 ## add_section_zoom_frame {#float-float-float-float-isection}
-Adds a new Section Zoom object to the end of a collection.
+Creates a new Section Zoom frame and adds it to the end of the shape collection.
 
 ### Returns
 
-Created Section Zoom object [`ISectionZoomFrame`](/slides/python-net/aspose.slides/isectionzoomframe).
+The newly created [`ISectionZoomFrame`](/slides/python-net/aspose.slides/isectionzoomframe).
 
 
 
@@ -25,11 +25,11 @@ def add_section_zoom_frame(self, x, y, width, height, section):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x | **float** | X coordinate of a new Section Zoom frame **float**. |
-| y | **float** | Y coordinate of a new Section Zoom frame **float**. |
-| width | **float** | Width of a new Section Zoom frame **float**. |
-| height | **float** | Height of a new Section Zoom frame **float**. |
-| section | [`ISection`](/slides/python-net/aspose.slides/isection) | The section object referenced by the Section Zoom frame [`ISection`](/slides/python-net/aspose.slides/isection). |
+| x | **float** | The x-coordinate of the new Section Zoom frame, in points. |
+| y | **float** | The y-coordinate of the new Section Zoom frame, in points. |
+| width | **float** | The width of the new Section Zoom frame, in points. |
+| height | **float** | The height of the new Section Zoom frame, in points. |
+| section | [`ISection`](/slides/python-net/aspose.slides/isection) | The [`ISection`](/slides/python-net/aspose.slides/isection) referenced by the Section Zoom frame; <br/><br/>            must belong to this presentation and contain at least one slide. |
 
 ### Examples
 
@@ -40,15 +40,16 @@ This example demonstrates adding a Section Zoom object to the end of a collectio
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentException))** | Referenced section does not belong to the current presentation or does not contains any slides. |
+| **RuntimeError(Proxy error(ArgumentException))** | Thrown if the referenced section does not belong to the current presentation or contains no slides. |
 
 
 ## add_section_zoom_frame {#float-float-float-float-isection-ippimage}
-Adds a new Section Zoom object to the end of a collection with a predefined image.
+Creates a new Section Zoom frame with a predefined image and adds it to the end of the
+            shape collection.
 
 ### Returns
 
-Created Section Zoom object [`ISectionZoomFrame`](/slides/python-net/aspose.slides/isectionzoomframe).
+The newly created [`ISectionZoomFrame`](/slides/python-net/aspose.slides/isectionzoomframe).
 
 
 
@@ -60,12 +61,12 @@ def add_section_zoom_frame(self, x, y, width, height, section, image):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x | **float** | X coordinate of a new Section Zoom frame **float**. |
-| y | **float** | Y coordinate of a new Section Zoom frame **float**. |
-| width | **float** | Width of a new Section Zoom frame **float**. |
-| height | **float** | Height of a new Section Zoom frame **float**. |
-| section | [`ISection`](/slides/python-net/aspose.slides/isection) | The section object referenced by the Section Zoom frame [`ISection`](/slides/python-net/aspose.slides/isection). |
-| image | [`IPPImage`](/slides/python-net/aspose.slides/ippimage) | The image for the referenced slide [`IPPImage`](/slides/python-net/aspose.slides/ippimage) |
+| x | **float** | The x-coordinate of the new Section Zoom frame, in points. |
+| y | **float** | The y-coordinate of the new Section Zoom frame, in points. |
+| width | **float** | The width of the new Section Zoom frame, in points. |
+| height | **float** | The height of the new Section Zoom frame, in points. |
+| section | [`ISection`](/slides/python-net/aspose.slides/isection) | The [`ISection`](/slides/python-net/aspose.slides/isection) referenced by the Section Zoom frame; <br/><br/>            must belong to this presentation and contain at least one slide. |
+| image | [`IPPImage`](/slides/python-net/aspose.slides/ippimage) | The [`IPPImage`](/slides/python-net/aspose.slides/ippimage) to display within the Section Zoom frame. |
 
 ### Examples
 
@@ -76,7 +77,7 @@ This example demonstrates adding a Section Zoom object to the end of a collectio
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentException))** | Referenced section does not belong to the current presentation or does not contains any slides. |
+| **RuntimeError(Proxy error(ArgumentException))** | Thrown if the referenced section does not belong to the current presentation or contains no slides. |
 
 
 

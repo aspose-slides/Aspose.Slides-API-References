@@ -9,7 +9,7 @@ weight: 370
 
 
 ## reorder {#int-ishape}
-Moves a shape from the collection to the specified position.
+Moves the specified shape to a new position within the shape collection.
 
 
 ```python
@@ -20,13 +20,12 @@ def reorder(self, index, shape):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | **int** | Target index. |
-| shape | [`IShape`](/slides/python-net/aspose.slides/ishape) | Shape to move. |
+| index | **int** | The zero-based target index where the shape will be placed. |
+| shape | [`IShape`](/slides/python-net/aspose.slides/ishape) | The [`IShape`](/slides/python-net/aspose.slides/ishape) to move within the collection. |
 
 
 ## reorder {#int-listishape}
-Moves shapes from the collection to the specified position.
-            Shapes will be placed starting from index in order they appear in list.
+Moves the specified shapes within the shape collection, placing them starting at the given index.
 
 
 ```python
@@ -37,8 +36,8 @@ def reorder(self, index, shapes):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | **int** | Target index. |
-| shapes | **List[IShape]** | Shapes to move. |
+| index | **int** | The zero-based target index where the first specified shape will be placed; <br/><br/>            subsequent shapes follow in the order provided. |
+| shapes | **List[IShape]** | One or more [`IShape`](/slides/python-net/aspose.slides/ishape) instances to move within the collection. |
 
 
 

@@ -9,11 +9,12 @@ weight: 220
 
 
 ## insert_audio_frame_linked {#int-float-float-float-float-str}
-Creates a new audio frame with linked audio file and inserts it to a collection at the specified index.
+Creates a new audio frame linked to an external audio file and inserts it into the shape
+            collection at the specified index.
 
 ### Returns
 
-Created AudioFrame object.
+The newly created [`IAudioFrame`](/slides/python-net/aspose.slides/iaudioframe).
 
 
 
@@ -25,12 +26,12 @@ def insert_audio_frame_linked(self, index, x, y, width, height, fname):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | **int** | The zero-based index at which audio frame should be inserted. |
-| x | **float** | X coordinate of a new audio frame. |
-| y | **float** | Y coordinate of a new audio frame. |
-| width | **float** | Width of a new audio frame. |
-| height | **float** | Height of a new audio frame. |
-| fname | **str** | Audio file name. |
+| index | **int** | The zero-based index at which to insert the audio frame. |
+| x | **float** | The x-coordinate of the new audio frame, in points. |
+| y | **float** | The y-coordinate of the new audio frame, in points. |
+| width | **float** | The width of the new audio frame, in points. |
+| height | **float** | The height of the new audio frame, in points. |
+| fname | **str** | The path or name of the external audio file to link. |
 
 
 

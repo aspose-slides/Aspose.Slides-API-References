@@ -9,8 +9,7 @@ weight: 10
 
 
 ## set_size {#slidesizetype-slidesizescaletype}
-Sets the type of slide size and scales content using scale type.
-Assigning any value except [`SlideSizeType.CUSTOM`](/slides/python-net/aspose.slides/slidesizetype/CUSTOM) will change [`ISlideSize.size`](/slides/python-net/aspose.slides/islidesize/size) accordingly, but will keep [`ISlideSize.orientation`](/slides/python-net/aspose.slides/islidesize/orientation) intact.
+Sets the slide size by type and scales existing content.
 
 
 ```python
@@ -21,13 +20,17 @@ def set_size(self, type, scale_type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| type | [`SlideSizeType`](/slides/python-net/aspose.slides/slidesizetype) | Slide size type. |
-| scale_type | [`SlideSizeScaleType`](/slides/python-net/aspose.slides/slidesizescaletype) | Scale type of slide content. |
+| type | [`SlideSizeType`](/slides/python-net/aspose.slides/slidesizetype) | The predefined slide size to apply. |
+| scale_type | [`SlideSizeScaleType`](/slides/python-net/aspose.slides/slidesizescaletype) | The content scaling mode to use. |
+
+### Remarks
+
+Assigning any value other than [`SlideSizeType.CUSTOM`](/slides/python-net/aspose.slides/slidesizetype/CUSTOM) adjusts the [`ISlideSize.size`](/slides/python-net/aspose.slides/islidesize/size)
+            based on the selected type, while preserving [`ISlideSize.orientation`](/slides/python-net/aspose.slides/islidesize/orientation).
 
 
 ## set_size {#float-float-slidesizescaletype}
-Sets the size in points and scales content using scale type.
-Assigning any value will reset [`ISlideSize.type`](/slides/python-net/aspose.slides/islidesize/type) property to [`SlideSizeType.CUSTOM`](/slides/python-net/aspose.slides/slidesizetype/CUSTOM) and set [`ISlideSize.orientation`](/slides/python-net/aspose.slides/islidesize/orientation).
+Sets the slide dimensions explicitly and scales existing content.
 
 
 ```python
@@ -38,9 +41,14 @@ def set_size(self, width, height, scale_type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| width | **float** | Width. |
-| height | **float** | Height. |
-| scale_type | [`SlideSizeScaleType`](/slides/python-net/aspose.slides/slidesizescaletype) | Scale type of slide content. |
+| width | **float** | The new slide width, in points. |
+| height | **float** | The new slide height, in points. |
+| scale_type | [`SlideSizeScaleType`](/slides/python-net/aspose.slides/slidesizescaletype) | The content scaling mode to use. |
+
+### Remarks
+
+This resets the [`ISlideSize.type`](/slides/python-net/aspose.slides/islidesize/type) property to [`SlideSizeType.CUSTOM`](/slides/python-net/aspose.slides/slidesizetype/CUSTOM)
+            and sets the [`ISlideSize.orientation`](/slides/python-net/aspose.slides/islidesize/orientation).
 
 
 

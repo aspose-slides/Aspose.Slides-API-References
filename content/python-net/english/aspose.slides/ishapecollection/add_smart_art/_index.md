@@ -9,11 +9,11 @@ weight: 130
 
 
 ## add_smart_art {#float-float-float-float-asposeslidessmartartsmartartlayouttype}
-Add SmartArt diagram.
+Creates a SmartArt diagram and adds it to the end of the shape collection.
 
 ### Returns
 
-Create SmartArt diagram
+The newly created [`ISmartArt`](/slides/python-net/aspose.slides.smartart/ismartart).
 
 
 
@@ -25,11 +25,11 @@ def add_smart_art(self, x, y, width, height, layout_type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x | **float** | The X-coordinate for a left side of diagram's frame. |
-| y | **float** | The Y-coordinate for a left side of diagram's frame. |
-| width | **float** | The width of diagram's frame. |
-| height | **float** | The height of diagram's frame. |
-| layout_type | [`SmartArtLayoutType`](/slides/python-net/aspose.slides.smartart/smartartlayouttype) | The type of SmartArt diagram |
+| x | **float** | The x-coordinate of the diagram’s frame, in points. |
+| y | **float** | The y-coordinate of the diagram’s frame, in points. |
+| width | **float** | The width of the diagram’s frame, in points. |
+| height | **float** | The height of the diagram’s frame, in points. |
+| layout_type | [`SmartArtLayoutType`](/slides/python-net/aspose.slides.smartart/smartartlayouttype) | The SmartArt layout type. |
 
 ### Examples
 
@@ -39,6 +39,7 @@ Example:
 
 ### See Also
 * class [`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection)
+* class [`ISmartArt`](/slides/python-net/aspose.slides.smartart/ismartart)
 * enumeration [`SmartArtLayoutType`](/slides/python-net/aspose.slides.smartart/smartartlayouttype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

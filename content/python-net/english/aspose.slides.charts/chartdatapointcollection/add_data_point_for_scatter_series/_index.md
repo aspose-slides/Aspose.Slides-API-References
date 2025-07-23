@@ -10,7 +10,7 @@ weight: 120
 
 ## add_data_point_for_scatter_series {#ichartdatacell-ichartdatacell}
 Creates the new data point and adds it to the end of collection.
-            Applicable for series which chartType is one of Scatter subtypes (see also **Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeScatter(Aspose.Slides.Chart** method).
+            Applicable for series which chartType is one of Scatter subtypes (see also [`ChartTypeCharacterizer.is_chart_type_scatter`](/slides/python-net/aspose.slides.charts/charttypecharacterizer/is_chart_type_scatter) method).
 
 ### Returns
 
@@ -32,7 +32,7 @@ def add_data_point_for_scatter_series(self, x_value, y_value):
 
 ## add_data_point_for_scatter_series {#float-ichartdatacell}
 Creates the new data point and adds it to the end of collection.
-            Applicable for series which chartType is one of Scatter subtypes (see also **Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeScatter(Aspose.Slides.Chart** method).
+            Applicable for series which chartType is one of Scatter subtypes (see also [`ChartTypeCharacterizer.is_chart_type_scatter`](/slides/python-net/aspose.slides.charts/charttypecharacterizer/is_chart_type_scatter) method).
 
 ### Returns
 
@@ -54,7 +54,7 @@ def add_data_point_for_scatter_series(self, x_value, y_value):
 
 ## add_data_point_for_scatter_series {#str-ichartdatacell}
 Creates the new data point and adds it to the end of collection.
-            Applicable for series which chartType is one of Scatter subtypes (see also **Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeScatter(Aspose.Slides.Chart** method).
+            Applicable for series which chartType is one of Scatter subtypes (see also [`ChartTypeCharacterizer.is_chart_type_scatter`](/slides/python-net/aspose.slides.charts/charttypecharacterizer/is_chart_type_scatter) method).
 
 ### Returns
 
@@ -76,7 +76,7 @@ def add_data_point_for_scatter_series(self, x_value, y_value):
 
 ## add_data_point_for_scatter_series {#ichartdatacell-float}
 Creates the new data point and adds it to the end of collection.
-            Applicable for series which chartType is one of Scatter subtypes (see also **Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeScatter(Aspose.Slides.Chart** method).
+            Applicable for series which chartType is one of Scatter subtypes (see also [`ChartTypeCharacterizer.is_chart_type_scatter`](/slides/python-net/aspose.slides.charts/charttypecharacterizer/is_chart_type_scatter) method).
 
 ### Returns
 
@@ -98,7 +98,7 @@ def add_data_point_for_scatter_series(self, x_value, y_value):
 
 ## add_data_point_for_scatter_series {#float-float}
 Creates the new data point and adds it to the end of collection.
-            Applicable for series which chartType is one of Scatter subtypes (see also **Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeScatter(Aspose.Slides.Chart** method).
+            Applicable for series which chartType is one of Scatter subtypes (see also [`ChartTypeCharacterizer.is_chart_type_scatter`](/slides/python-net/aspose.slides.charts/charttypecharacterizer/is_chart_type_scatter) method).
 
 ### Returns
 
@@ -120,7 +120,7 @@ def add_data_point_for_scatter_series(self, x_value, y_value):
 
 ## add_data_point_for_scatter_series {#str-float}
 Creates the new data point and adds it to the end of collection.
-            Applicable for series which chartType is one of Scatter subtypes (see also **Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeScatter(Aspose.Slides.Chart** method).
+            Applicable for series which chartType is one of Scatter subtypes (see also [`ChartTypeCharacterizer.is_chart_type_scatter`](/slides/python-net/aspose.slides.charts/charttypecharacterizer/is_chart_type_scatter) method).
 
 ### Returns
 

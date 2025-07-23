@@ -9,7 +9,7 @@ weight: 220
 
 
 ## spacing property
-Returns the intercharacter spacing increment.
+Returns the intercharacter spacing increment, in points.
             Read-only **float**.
 
 ### Definition:

@@ -9,11 +9,12 @@ weight: 90
 
 
 ## add_math_shape {#float-float-float-float}
-Creates a new Autoshape tuned from default template to math content and adds it to the end of the collection.
+Creates a new rectangle auto shape to host mathematical content and adds it to the
+            end of the shape collection.
 
 ### Returns
 
-Created AutoShape object.
+The newly created [`IAutoShape`](/slides/python-net/aspose.slides/iautoshape).
 
 
 
@@ -25,10 +26,10 @@ def add_math_shape(self, x, y, width, height):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x | **float** | The X-coordinate for a left side of shape's frame. |
-| y | **float** | The Y-coordinate for a top side of shape's frame. |
-| width | **float** | The width of shape's frame. |
-| height | **float** | The height of shape's frame. |
+| x | **float** | The x-coordinate of the shape’s frame, in points. |
+| y | **float** | The y-coordinate of the shape’s frame, in points. |
+| width | **float** | The width of the shape’s frame, in points. |
+| height | **float** | The height of the shape’s frame, in points. |
 
 ### Examples
 

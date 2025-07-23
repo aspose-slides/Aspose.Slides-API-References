@@ -9,7 +9,7 @@ url: /aspose.slides/controltype/
 
 ## ControlType enumeration
 
-Defines a control type which should be embedded by **Aspose.Slides.IControlCollection.AddControl(Aspose.Slides.ControlType,System.Single,System.Single,System.Single,Syste**.
+Defines a control type which should be embedded by [`IControlCollection.add_control`](/slides/python-net/aspose.slides/icontrolcollection/add_control).
 
 The ControlType type exposes the following members:
 

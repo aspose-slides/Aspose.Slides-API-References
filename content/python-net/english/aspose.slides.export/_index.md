@@ -15,7 +15,7 @@ Contains classes for exporting Microsoft PowerPoint presentations to different f
 | [`EmbedAllFontsHtmlController`](/slides/python-net/aspose.slides.export/embedallfontshtmlcontroller/) | The formatting controller class to use for embedding all presentation fonts in WOFF format. |
 | [`EmbeddedEotFontsHtmlController`](/slides/python-net/aspose.slides.export/embeddedeotfontshtmlcontroller/) | The formatting controller class to use for fonts embedding in EOT format |
 | [`EmbeddedWoffFontsHtmlController`](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/) | The formatting controller class to use for fonts embedding in WOFF format |
-| [`EnumerableFrameArgs`](/slides/python-net/aspose.slides.export/enumerableframeargs/) | Represents return values of **Aspose.Slides.Export.PresentationEnumerableFramesGenerator.EnumerateFrames(System.Collections.Generic.IEnumerable{Aspose.Slide** method. |
+| [`EnumerableFrameArgs`](/slides/python-net/aspose.slides.export/enumerableframeargs/) | Represents return values of [`PresentationEnumerableFramesGenerator.enumerate_frames`](/slides/python-net/aspose.slides.export/presentationenumerableframesgenerator/enumerate_frames) method. |
 | [`GifOptions`](/slides/python-net/aspose.slides.export/gifoptions/) | Represents GIF exporting options. |
 | [`HandoutLayoutingOptions`](/slides/python-net/aspose.slides.export/handoutlayoutingoptions/) | Represents the handout presentation layout mode for export. |
 | [`Html5Options`](/slides/python-net/aspose.slides.export/html5options/) | Represents a HTML5 exporting options. |

@@ -9,11 +9,11 @@ weight: 280
 
 
 ## insert_ole_object_frame {#int-float-float-float-float-ioleembeddeddatainfo}
-Creates a new OLE object and inserts it to a collection at the specified index.
+Creates a new OLE object frame and inserts it into the shape collection at the specified index.
 
 ### Returns
 
-Created OLE object.
+The newly created [`IOleObjectFrame`](/slides/python-net/aspose.slides/ioleobjectframe).
 
 
 
@@ -25,20 +25,20 @@ def insert_ole_object_frame(self, index, x, y, width, height, data_info):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | **int** | The zero-based index at which OLE object should be inserted. |
-| x | **float** | X coordinate of a new OLE frame. |
-| y | **float** | Y coordinate of a new OLE frame. |
-| width | **float** | Width of a new OLE frame. |
-| height | **float** | Height of a new OLE frame. |
-| data_info | [`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo) | Embedded data info [`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo). |
+| index | **int** | The zero-based index at which to insert the OLE object frame. |
+| x | **float** | The x-coordinate of the new OLE frame, in points. |
+| y | **float** | The y-coordinate of the new OLE frame, in points. |
+| width | **float** | The width of the new OLE frame, in points. |
+| height | **float** | The height of the new OLE frame, in points. |
+| data_info | [`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo) | The embedded OLE data information ([`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo)). |
 
 
 ## insert_ole_object_frame {#int-float-float-float-float-str-str}
-Creates a new OLE object and inserts it to a collection at the specified index.
+Creates a new OLE object frame and inserts it into the shape collection at the specified index.
 
 ### Returns
 
-Created OLE object.
+The newly created [`IOleObjectFrame`](/slides/python-net/aspose.slides/ioleobjectframe).
 
 
 
@@ -50,13 +50,13 @@ def insert_ole_object_frame(self, index, x, y, width, height, class_name, path):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | **int** | The zero-based index at which OLE object should be inserted. |
-| x | **float** | X coordinate of a new OLE frame. |
-| y | **float** | Y coordinate of a new OLE frame. |
-| width | **float** | Width of a new OLE frame. |
-| height | **float** | Height of a new OLE frame. |
-| class_name | **str** | Name of an OLE class. |
-| path | **str** | Path to the linked file. |
+| index | **int** | The zero-based index at which to insert the OLE object frame. |
+| x | **float** | The x-coordinate of the new OLE frame, in points. |
+| y | **float** | The y-coordinate of the new OLE frame, in points. |
+| width | **float** | The width of the new OLE frame, in points. |
+| height | **float** | The height of the new OLE frame, in points. |
+| class_name | **str** | The class name of the OLE object. |
+| path | **str** | The path to the linked file. <br/><br/>This path is stored verbatim in the presentation.<br/><br/>            If a relative path is specified, the file will be inaccessible when opening<br/><br/>            the presentation from a different directory. |
 
 
 

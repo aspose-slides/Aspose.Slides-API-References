@@ -9,12 +9,12 @@ weight: 190
 
 
 ## index_of {#ishape}
-Returns the zero-based index of the first occurrence of a shape in the collection.
+Returns the zero-based index of the first occurrence of the specified shape in the collection.
 
 ### Returns
 
-The zero-based index of the first occurrence of shape within
-            the collection, if found; otherwise, -1.
+The zero-based index of the first occurrence of the shape in the shape collection if found;
+            otherwise, –1.
 
 
 

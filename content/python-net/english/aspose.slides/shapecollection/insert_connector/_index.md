@@ -9,12 +9,12 @@ weight: 260
 
 
 ## insert_connector {#int-shapetype-float-float-float-float}
-Creates a new Connector, tunes it from default template and inserts it to 
-            the collection at the specified index.
+Creates a new connector shape and inserts it into the shape collection at the specified index,
+            applying default template styling.
 
 ### Returns
 
-Created Connector object.
+The newly created [`IConnector`](/slides/python-net/aspose.slides/iconnector).
 
 
 
@@ -26,20 +26,21 @@ def insert_connector(self, index, shape_type, x, y, width, height):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | **int** | The zero-based index at which value should be inserted. |
-| shape_type | [`ShapeType`](/slides/python-net/aspose.slides/shapetype) | An [`ShapeType`](/slides/python-net/aspose.slides/shapetype) of shape. |
-| x | **float** | The X-coordinate for a left side of shape's frame. |
-| y | **float** | The Y-coordinate for a top side of shape's frame. |
-| width | **float** | The width of shape's frame. |
-| height | **float** | The height of shape's frame. |
+| index | **int** | The zero-based index at which to insert the connector shape. |
+| shape_type | [`ShapeType`](/slides/python-net/aspose.slides/shapetype) | The [`ShapeType`](/slides/python-net/aspose.slides/shapetype) of the connector shape to insert. |
+| x | **float** | The x-coordinate of the connector’s frame, in points. |
+| y | **float** | The y-coordinate of the connector’s frame, in points. |
+| width | **float** | The width of the connector’s frame, in points. |
+| height | **float** | The height of the connector’s frame, in points. |
 
 
 ## insert_connector {#int-shapetype-float-float-float-float-bool}
-Creates a new Connector and inserts it to the collection at the specified index.
+Creates a new connector shape and inserts it into the shape collection at the specified index,
+            optionally applying default template styling.
 
 ### Returns
 
-Created Connector object.
+The newly created [`IConnector`](/slides/python-net/aspose.slides/iconnector).
 
 
 
@@ -51,13 +52,13 @@ def insert_connector(self, index, shape_type, x, y, width, height, create_from_t
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | **int** | The zero-based index at which value should be inserted. |
-| shape_type | [`ShapeType`](/slides/python-net/aspose.slides/shapetype) | An [`ShapeType`](/slides/python-net/aspose.slides/shapetype) of shape. |
-| x | **float** | The X-coordinate for a left side of shape's frame. |
-| y | **float** | The Y-coordinate for a top side of shape's frame. |
-| width | **float** | The width of shape's frame. |
-| height | **float** | The height of shape's frame. |
-| create_from_template | **bool** | If true then new shape will be tuned from default template. Not empty name, <br/><br/>            simple style, text centered will be assined to the new shape.<br/><br/>            If false then all values of the properties of the new shape will have default values. |
+| index | **int** | The zero-based index at which to insert the connector shape. |
+| shape_type | [`ShapeType`](/slides/python-net/aspose.slides/shapetype) | The [`ShapeType`](/slides/python-net/aspose.slides/shapetype) of the connector shape to insert. |
+| x | **float** | The x-coordinate of the connector’s frame, in points. |
+| y | **float** | The y-coordinate of the connector’s frame, in points. |
+| width | **float** | The width of the connector’s frame, in points. |
+| height | **float** | The height of the connector’s frame, in points. |
+| create_from_template | **bool** | True to apply default template styling (non-empty name, simple style);<br/><br/>            false to create the connector with default property values. |
 
 
 

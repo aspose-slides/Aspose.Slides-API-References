@@ -9,7 +9,7 @@ weight: 180
 
 
 ## clear {#}
-Removes all shapes from the collection.
+Removes all shapes from the shape collection.
 
 
 ```python

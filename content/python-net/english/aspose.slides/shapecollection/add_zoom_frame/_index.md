@@ -9,11 +9,11 @@ weight: 170
 
 
 ## add_zoom_frame {#float-float-float-float-islide}
-Adds a new Zoom object to the end of a collection.
+Creates a new Zoom frame and adds it to the end of the shape collection.
 
 ### Returns
 
-Created Zoom object [`IZoomFrame`](/slides/python-net/aspose.slides/izoomframe).
+The newly created [`IZoomFrame`](/slides/python-net/aspose.slides/izoomframe).
 
 
 
@@ -25,11 +25,11 @@ def add_zoom_frame(self, x, y, width, height, slide):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x | **float** | X coordinate of a new Zoom frame **float**. |
-| y | **float** | Y coordinate of a new Zoom frame **float**. |
-| width | **float** | Width of a new Zoom frame **float**. |
-| height | **float** | Height of a new Zoom frame **float**. |
-| slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | The slide object referenced by the Zoom frame [`ISlide`](/slides/python-net/aspose.slides/islide). |
+| x | **float** | The x-coordinate of the new Zoom frame, in points. |
+| y | **float** | The y-coordinate of the new Zoom frame, in points. |
+| width | **float** | The width of the new Zoom frame, in points. |
+| height | **float** | The height of the new Zoom frame, in points. |
+| slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | The [`ISlide`](/slides/python-net/aspose.slides/islide) referenced by the Zoom frame;<br/><br/>            must belong to this presentation. |
 
 ### Examples
 
@@ -40,15 +40,15 @@ This example demonstrates adding a Zoom object to the end of a collection
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentException))** | Referenced slide does not belong to the current presentation. |
+| **RuntimeError(Proxy error(ArgumentException))** | Thrown if the referenced slide does not belong to the current presentation. |
 
 
 ## add_zoom_frame {#float-float-float-float-islide-ippimage}
-Adds a new Zoom object to the end of a collection.
+Creates a new Zoom frame and adds it to the end of the shape collection.
 
 ### Returns
 
-Created Zoom object [`IZoomFrame`](/slides/python-net/aspose.slides/izoomframe).
+The newly created [`IZoomFrame`](/slides/python-net/aspose.slides/izoomframe).
 
 
 
@@ -60,12 +60,12 @@ def add_zoom_frame(self, x, y, width, height, slide, image):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x | **float** | X coordinate of a new Zoom frame **float**. |
-| y | **float** | Y coordinate of a new Zoom frame **float**. |
-| width | **float** | Width of a new Zoom frame **float**. |
-| height | **float** | Height of a new Zoom frame **float**. |
-| slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | The slide object referenced by the Zoom frame [`ISlide`](/slides/python-net/aspose.slides/islide). |
-| image | [`IPPImage`](/slides/python-net/aspose.slides/ippimage) | The image for the referenced slide [`IPPImage`](/slides/python-net/aspose.slides/ippimage) |
+| x | **float** | The x-coordinate of the new Zoom frame, in points. |
+| y | **float** | The y-coordinate of the new Zoom frame, in points. |
+| width | **float** | The width of the new Zoom frame, in points. |
+| height | **float** | The height of the new Zoom frame, in points. |
+| slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | The [`ISlide`](/slides/python-net/aspose.slides/islide) referenced by the Zoom frame;<br/><br/>            must belong to this presentation. |
+| image | [`IPPImage`](/slides/python-net/aspose.slides/ippimage) | The image for the referenced slide [`IPPImage`](/slides/python-net/aspose.slides/ippimage). |
 
 ### Examples
 
@@ -76,7 +76,7 @@ This example demonstrates adding a Zoom object to the end of a collection
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentException))** | Referenced slide does not belong to the current presentation. |
+| **RuntimeError(Proxy error(ArgumentException))** | Thrown if the referenced slide does not belong to the current presentation. |
 
 
 

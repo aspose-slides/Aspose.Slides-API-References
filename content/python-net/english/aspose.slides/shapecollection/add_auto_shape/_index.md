@@ -9,11 +9,12 @@ weight: 40
 
 
 ## add_auto_shape {#shapetype-float-float-float-float}
-Creates a new AutoShape, tunes it from default template and adds it to the end of the collection.
+Creates a new auto shape with default formatting and adds it to the end of the
+            shape collection.
 
 ### Returns
 
-Created AutoShape object.
+The newly created [`IAutoShape`](/slides/python-net/aspose.slides/iautoshape).
 
 
 
@@ -25,19 +26,20 @@ def add_auto_shape(self, shape_type, x, y, width, height):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| shape_type | [`ShapeType`](/slides/python-net/aspose.slides/shapetype) | The [`ShapeType`](/slides/python-net/aspose.slides/shapetype) of shape. |
-| x | **float** | The X-coordinate for a left side of shape's frame. |
-| y | **float** | The Y-coordinate for a top side of shape's frame. |
-| width | **float** | The width of shape's frame. |
-| height | **float** | The height of shape's frame. |
+| shape_type | [`ShapeType`](/slides/python-net/aspose.slides/shapetype) | The [`ShapeType`](/slides/python-net/aspose.slides/shapetype) of the auto shape to add. |
+| x | **float** | The x-coordinate of the shape’s frame, in points. |
+| y | **float** | The y-coordinate of the shape’s frame, in points. |
+| width | **float** | The width of the shape’s frame, in points. |
+| height | **float** | The height of the shape’s frame, in points. |
 
 
 ## add_auto_shape {#shapetype-float-float-float-float-bool}
-Creates a new AutoShape and adds it to the end of the collection.
+Creates a new auto shape and adds it to the end of the shape collection, optionally
+            initializing it with default template formatting.
 
 ### Returns
 
-Created AutoShape object.
+The newly created [`IAutoShape`](/slides/python-net/aspose.slides/iautoshape).
 
 
 
@@ -49,12 +51,12 @@ def add_auto_shape(self, shape_type, x, y, width, height, create_from_template):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| shape_type | [`ShapeType`](/slides/python-net/aspose.slides/shapetype) | The [`ShapeType`](/slides/python-net/aspose.slides/shapetype) of shape. |
-| x | **float** | The X-coordinate for a left side of shape's frame. |
-| y | **float** | The Y-coordinate for a top side of shape's frame. |
-| width | **float** | The width of shape's frame. |
-| height | **float** | The height of shape's frame. |
-| create_from_template | **bool** | If true then new shape will be tuned from default template. Not empty name, <br/><br/>            simple style, text centered will be assined to the new shape.<br/><br/>            If false then all values of the properties of the new shape will have default values. |
+| shape_type | [`ShapeType`](/slides/python-net/aspose.slides/shapetype) | The [`ShapeType`](/slides/python-net/aspose.slides/shapetype) of the auto shape to add. |
+| x | **float** | The x-coordinate of the shape’s frame, in points. |
+| y | **float** | The y-coordinate of the shape’s frame, in points. |
+| width | **float** | The width of the shape’s frame, in points. |
+| height | **float** | The height of the shape’s frame, in points. |
+| create_from_template | **bool** | True to apply default template styling (simple style, centered text, and non-empty name)<br/><br/>            to the new shape; false to create the shape with all properties set to their default values. |
 
 
 
