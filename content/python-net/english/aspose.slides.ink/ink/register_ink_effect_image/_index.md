@@ -28,10 +28,8 @@ def register_ink_effect_image(effect_type, image):
 
 ### Remarks
 
-This method allows replacing the default ink effect textures with user-defined ones,
-            which is particularly useful when default assets are restricted by licensing or unavailable at runtime.
-            
-             must associate an [`InkEffectType`](/slides/python-net/aspose.slides.ink/inkeffecttype) value with a corresponding
+This method allows replacing the default ink effect textures with user-defined ones, which is particularly useful when default assets are restricted by licensing or unavailable at runtime.
+Each registered value pair must associate an [`InkEffectType`](/slides/python-net/aspose.slides.ink/inkeffecttype) value with a corresponding
 [`IImage`](/slides/python-net/aspose.slides/iimage) object (e.g., Bitmap, or an Aspose image interface).
 
 
