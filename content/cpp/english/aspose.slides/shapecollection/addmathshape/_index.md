@@ -1,7 +1,7 @@
 ---
 title: AddMathShape()
 second_title: Aspose.Slides for C++ API Reference
-description: Creates a new Autoshape tuned from default template to math content and adds it to the end of the collection.
+description: Creates a new rectangle auto shape to host mathematical content and adds it to the end of the shape collection.
 type: docs
 weight: 365
 url: /aspose.slides/shapecollection/addmathshape/
@@ -9,7 +9,7 @@ url: /aspose.slides/shapecollection/addmathshape/
 ## ShapeCollection::AddMathShape(float, float, float, float) method
 
 
-Creates a new Autoshape tuned from default template to math content and adds it to the end of the collection.
+Creates a new rectangle auto shape to host mathematical content and adds it to the end of the shape collection.
 
 ```cpp
 System::SharedPtr<IAutoShape> Aspose::Slides::ShapeCollection::AddMathShape(float x, float y, float width, float height) override
@@ -20,14 +20,14 @@ System::SharedPtr<IAutoShape> Aspose::Slides::ShapeCollection::AddMathShape(floa
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | **float** | The X-coordinate for a left side of shape's frame. |
-| y | **float** | The Y-coordinate for a top side of shape's frame. |
-| width | **float** | The width of shape's frame. |
-| height | **float** | The height of shape's frame. |
+| x | **float** | The x-coordinate of the shape\\u2019s frame, in points. |
+| y | **float** | The y-coordinate of the shape\\u2019s frame, in points. |
+| width | **float** | The width of the shape\\u2019s frame, in points. |
+| height | **float** | The height of the shape\\u2019s frame, in points. |
 
 ### Return Value
 
-Created [AutoShape](../../autoshape/) object.
+The newly created [IAutoShape](../../iautoshape/).
 ## Remarks
 
 

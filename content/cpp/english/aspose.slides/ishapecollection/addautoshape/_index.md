@@ -1,7 +1,7 @@
 ---
 title: AddAutoShape()
 second_title: Aspose.Slides for C++ API Reference
-description: Creates a new AutoShape, tunes it from default template and adds it to the end of the collection.
+description: Creates a new auto shape with default formatting and adds it to the end of the shape collection.
 type: docs
 weight: 313
 url: /aspose.slides/ishapecollection/addautoshape/
@@ -9,7 +9,7 @@ url: /aspose.slides/ishapecollection/addautoshape/
 ## IShapeCollection::AddAutoShape(ShapeType, float, float, float, float) method
 
 
-Creates a new [AutoShape](../../autoshape/), tunes it from default template and adds it to the end of the collection.
+Creates a new auto shape with default formatting and adds it to the end of the shape collection.
 
 ```cpp
 virtual System::SharedPtr<IAutoShape> Aspose::Slides::IShapeCollection::AddAutoShape(ShapeType shapeType, float x, float y, float width, float height)=0
@@ -20,20 +20,20 @@ virtual System::SharedPtr<IAutoShape> Aspose::Slides::IShapeCollection::AddAutoS
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| shapeType | [ShapeType](../../shapetype/) | The [ShapeType](../../shapetype/) of shape. |
-| x | **float** | The X-coordinate for a left side of shape's frame. |
-| y | **float** | The Y-coordinate for a top side of shape's frame. |
-| width | **float** | The width of shape's frame. |
-| height | **float** | The height of shape's frame. |
+| shapeType | [ShapeType](../../shapetype/) | The [ShapeType](../../shapetype/) of the auto shape to add. |
+| x | **float** | The x-coordinate of the shape\\u2019s frame, in points. |
+| y | **float** | The y-coordinate of the shape\\u2019s frame, in points. |
+| width | **float** | The width of the shape\\u2019s frame, in points. |
+| height | **float** | The height of the shape\\u2019s frame, in points. |
 
 ### Return Value
 
-Created [AutoShape](../../autoshape/) object.
+The newly created [IAutoShape](../../iautoshape/).
 
 ## IShapeCollection::AddAutoShape(ShapeType, float, float, float, float, bool) method
 
 
-Creates a new [AutoShape](../../autoshape/) and adds it to the end of the collection.
+Creates a new auto shape and adds it to the end of the shape collection, optionally initializing it with default template formatting.
 
 ```cpp
 virtual System::SharedPtr<IAutoShape> Aspose::Slides::IShapeCollection::AddAutoShape(ShapeType shapeType, float x, float y, float width, float height, bool createFromTemplate)=0
@@ -44,16 +44,16 @@ virtual System::SharedPtr<IAutoShape> Aspose::Slides::IShapeCollection::AddAutoS
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| shapeType | [ShapeType](../../shapetype/) | The [ShapeType](../../shapetype/) of shape. |
-| x | **float** | The X-coordinate for a left side of shape's frame. |
-| y | **float** | The Y-coordinate for a top side of shape's frame. |
-| width | **float** | The width of shape's frame. |
-| height | **float** | The height of shape's frame. |
-| createFromTemplate | **bool** | If true then new shape will be tuned from default template. Not empty name, simple style, text centered will be assined to the new shape. If false then all values of the properties of the new shape will have default values. |
+| shapeType | [ShapeType](../../shapetype/) | The [ShapeType](../../shapetype/) of the auto shape to add. |
+| x | **float** | The x-coordinate of the shape\\u2019s frame, in points. |
+| y | **float** | The y-coordinate of the shape\\u2019s frame, in points. |
+| width | **float** | The width of the shape\\u2019s frame, in points. |
+| height | **float** | The height of the shape\\u2019s frame, in points. |
+| createFromTemplate | **bool** | True to apply default template styling (simple style, centered text, and non-empty name) to the new shape; false to create the shape with all properties set to their default values. |
 
 ### Return Value
 
-Created [AutoShape](../../autoshape/) object.
+The newly created [IAutoShape](../../iautoshape/).
 
 ## See Also
 

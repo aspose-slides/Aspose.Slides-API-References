@@ -1,7 +1,7 @@
 ---
 title: SetSize()
 second_title: Aspose.Slides for C++ API Reference
-description: Sets the type of slide size and scales content using scale type.
+description: Sets the slide size by type and scales existing content.
 type: docs
 weight: 53
 url: /aspose.slides/slidesize/setsize/
@@ -9,7 +9,7 @@ url: /aspose.slides/slidesize/setsize/
 ## SlideSize::SetSize(SlideSizeType, SlideSizeScaleType) method
 
 
-Sets the type of slide size and scales content using scale type.
+Sets the slide size by type and scales existing content.
 
 ```cpp
 void Aspose::Slides::SlideSize::SetSize(SlideSizeType type, SlideSizeScaleType scaleType) override
@@ -20,17 +20,17 @@ void Aspose::Slides::SlideSize::SetSize(SlideSizeType type, SlideSizeScaleType s
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [SlideSizeType](../../slidesizetype/) | [Slide](../../slide/) size type. |
-| scaleType | [SlideSizeScaleType](../../slidesizescaletype/) | Scale type of slide content. |
+| type | [SlideSizeType](../../slidesizetype/) | The predefined slide size to apply. |
+| scaleType | [SlideSizeScaleType](../../slidesizescaletype/) | The content scaling mode to use. |
 ## Remarks
 
 
-Assigning any value except [SlideSizeType::Custom](../../slidesizetype/) will change [SlideSize::get_Size](../get_size/) accordingly, but will keep [SlideSize::get_Orientation](../get_orientation/) intact.
+Assigning any value other than [SlideSizeType::Custom](../../slidesizetype/) adjusts the [SlideSize::get_Size](../get_size/) based on the selected type, while preserving [SlideSize::get_Orientation](../get_orientation/). 
 
 ## SlideSize::SetSize(float, float, SlideSizeScaleType) method
 
 
-Sets the size in points and scales content using scale type.
+Sets the slide dimensions explicitly and scales existing content.
 
 ```cpp
 void Aspose::Slides::SlideSize::SetSize(float width, float height, SlideSizeScaleType scaleType) override
@@ -41,13 +41,13 @@ void Aspose::Slides::SlideSize::SetSize(float width, float height, SlideSizeScal
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| width | **float** | Width. |
-| height | **float** | Height. |
-| scaleType | [SlideSizeScaleType](../../slidesizescaletype/) | Scale type of slide content. |
+| width | **float** | The new slide width, in points. |
+| height | **float** | The new slide height, in points. |
+| scaleType | [SlideSizeScaleType](../../slidesizescaletype/) | The content scaling mode to use. |
 ## Remarks
 
 
-Assigning any value will reset [Type](../get_type/) property to [SlideSizeType::Custom](../../slidesizetype/) and set [SlideSize::get_Orientation()](../get_orientation/).
+This resets the [SlideSize::get_Type](../get_type/) property to [SlideSizeType::Custom](../../slidesizetype/) and sets the [Orientation](../../orientation/). 
 
 ## See Also
 

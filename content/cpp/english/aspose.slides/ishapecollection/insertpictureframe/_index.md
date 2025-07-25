@@ -1,7 +1,7 @@
 ---
 title: InsertPictureFrame()
 second_title: Aspose.Slides for C++ API Reference
-description: Creates a new PictureFrame and inserts it to the collection at the specified index.
+description: Creates a new picture frame containing the specified image and inserts it into the shape collection at the specified index.
 type: docs
 weight: 417
 url: /aspose.slides/ishapecollection/insertpictureframe/
@@ -9,7 +9,7 @@ url: /aspose.slides/ishapecollection/insertpictureframe/
 ## IShapeCollection::InsertPictureFrame(int32_t, ShapeType, float, float, float, float, System::SharedPtr\<IPPImage\>) method
 
 
-Creates a new [PictureFrame](../../pictureframe/) and inserts it to the collection at the specified index.
+Creates a new picture frame containing the specified image and inserts it into the shape collection at the specified index.
 
 ```cpp
 virtual System::SharedPtr<IPictureFrame> Aspose::Slides::IShapeCollection::InsertPictureFrame(int32_t index, ShapeType shapeType, float x, float y, float width, float height, System::SharedPtr<IPPImage> image)=0
@@ -20,8 +20,8 @@ virtual System::SharedPtr<IPictureFrame> Aspose::Slides::IShapeCollection::Inser
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | **int32_t** | The zero-based index at which value should be inserted. |
-| shapeType | [ShapeType](../../shapetype/) | The shape contained in the set [ShapeType](../../shapetype/) of shapes, except all sorts of lines:
+| index | **int32_t** | The zero-based index at which to insert the picture frame. |
+| shapeType | [ShapeType](../../shapetype/) | Specifies the shape type contained in [ShapeType](../../shapetype/), except for all kinds of lines:
 
 [ShapeType::Line](../../shapetype/),
 
@@ -42,15 +42,15 @@ virtual System::SharedPtr<IPictureFrame> Aspose::Slides::IShapeCollection::Inser
 [ShapeType::CurvedConnector4](../../shapetype/),
 
 [ShapeType::CurvedConnector5](../../shapetype/). |
-| x | **float** | The X-coordinate for a left side of shape's frame. |
-| y | **float** | The Y-coordinate for a top side of shape's frame. |
-| width | **float** | The width of shape's frame. |
-| height | **float** | The height of shape's frame. |
-| image | [System::SharedPtr](../../../system/sharedptr/)\<[IPPImage](../../ippimage/)\> | The image of picture frame. |
+| x | **float** | The x-coordinate of the picture frame, in points. |
+| y | **float** | The y-coordinate of the picture frame, in points. |
+| width | **float** | The width of the picture frame, in points. |
+| height | **float** | The height of the picture frame, in points. |
+| image | [System::SharedPtr](../../../system/sharedptr/)\<[IPPImage](../../ippimage/)\> | The [IPPImage](../../ippimage/) to display in the picture frame. |
 
 ### Return Value
 
-Created [PictureFrame](../../pictureframe/) object.
+The newly created [IPictureFrame](../../ipictureframe/).
 
 ## See Also
 

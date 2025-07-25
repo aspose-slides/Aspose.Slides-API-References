@@ -48,7 +48,7 @@ class Chart : public Aspose::Slides::GraphicalObject,
 | **bool** [get_HasLegend](./get_haslegend/)() override | Determines whether a chart has a legend. Read **bool**. |
 | **bool** [get_HasRoundedCorners](./get_hasroundedcorners/)() override | Specifies the chart area shall have rounded corners. Read **bool**. |
 | **bool** [get_HasTitle](./get_hastitle/)() override | Determines whether a chart has a visible title. Read **bool**. |
-| **float** [get_Height](../../aspose.slides/shape/get_height/)() override | Returns the height of the shape. Read **float**. |
+| **float** [get_Height](../../aspose.slides/shape/get_height/)() override | Gets the height of the shape, measured in points. Read **float**. |
 | **bool** [get_Hidden](../../aspose.slides/shape/get_hidden/)() override | Determines whether the shape is hidden. Read **bool**. |
 | [System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../../aspose.slides/ihyperlink/)\> [get_HyperlinkClick](../../aspose.slides/shape/get_hyperlinkclick/)() override | Returns the hyperlink defined for mouse click. Read [IHyperlink](../../aspose.slides/ihyperlink/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IHyperlinkManager](../../aspose.slides/ihyperlinkmanager/)\> [get_HyperlinkManager](../../aspose.slides/shape/get_hyperlinkmanager/)() override | Returns the hyperlink manager. Read-only [IHyperlinkManager](../../aspose.slides/ihyperlinkmanager/). |
@@ -59,7 +59,7 @@ class Chart : public Aspose::Slides::GraphicalObject,
 | [System::SharedPtr](../../system/sharedptr/)\<[ILegend](../ilegend/)\> [get_Legend](./get_legend/)() override | Returns a legend for a chart. Read-only [ILegend](../ilegend/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[ILineFormat](../../aspose.slides/ilineformat/)\> [get_LineFormat](../../aspose.slides/shape/get_lineformat/)() override | Returns the [LineFormat](../../aspose.slides/lineformat/) object that contains line formatting properties for a shape. Note: can return null for certain types of shapes which don't have line properties. Read-only [ILineFormat](../../aspose.slides/ilineformat/). |
 | [System::String](../../system/string/) [get_Name](../../aspose.slides/shape/get_name/)() override | Returns the name of a shape. Must be not null. Use empty string value if needed. Read [System::String](../../system/string/). |
-| **uint32_t** [get_OfficeInteropShapeId](../../aspose.slides/shape/get_officeinteropshapeid/)() override | Gets unique shape identifier in slide scope. Read-only **uint32_t**. See also [Shape::get_UniqueId](../../aspose.slides/shape/get_uniqueid/) for getting unique shape identifier in presentation scope. |
+| **uint32_t** [get_OfficeInteropShapeId](../../aspose.slides/shape/get_officeinteropshapeid/)() override | Returns a slide-scoped unique identifier that remains constant for the lifetime of the shape and lets PowerPoint or interop code reliably reference the shape from anywhere in the document. Read-only **uint32_t**. See also [Shape::get_UniqueId](../../aspose.slides/shape/get_uniqueid/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IGroupShape](../../aspose.slides/igroupshape/)\> [get_ParentGroup](../../aspose.slides/shape/get_parentgroup/)() override | Returns parent [GroupShape](../../aspose.slides/groupshape/) object if shape is grouped. Otherwise returns null. Read-only [IGroupShape](../../aspose.slides/igroupshape/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IPlaceholder](../../aspose.slides/iplaceholder/)\> [get_Placeholder](../../aspose.slides/shape/get_placeholder/)() override | Returns the placeholder for a shape. Returns null if the shape has no placeholder. Read-only [IPlaceholder](../../aspose.slides/iplaceholder/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IChartPlotArea](../ichartplotarea/)\> [get_PlotArea](./get_plotarea/)() override | Represents the plot area of a chart. Read-only [IChartPlotArea](../ichartplotarea/). |
@@ -77,11 +77,11 @@ class Chart : public Aspose::Slides::GraphicalObject,
 | [System::SharedPtr](../../system/sharedptr/)\<[Aspose::Slides::Theme::IOverrideThemeManager](../../aspose.slides.theme/ioverridethememanager/)\> [get_ThemeManager](./get_thememanager/)() override | Returns theme manager. Read-only [Aspose::Slides::Theme::IOverrideThemeManager](../../aspose.slides.theme/ioverridethememanager/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IThreeDFormat](../../aspose.slides/ithreedformat/)\> [get_ThreeDFormat](../../aspose.slides/shape/get_threedformat/)() override | Returns the [ThreeDFormat](../../aspose.slides/threedformat/) object that 3d effect properties for a shape. Note: can return null for certain types of shapes which don't have 3d properties. Read-only [IThreeDFormat](../../aspose.slides/ithreedformat/). |
 | [ChartType](../charttype/) [get_Type](./get_type/)() override | Returns the chart type. Read [ChartType](../charttype/). |
-| **uint32_t** [get_UniqueId](../../aspose.slides/shape/get_uniqueid/)() override | Gets unique shape identifier in presentation scope. Read-only **uint32_t**. See also [Shape::get_OfficeInteropShapeId](../../aspose.slides/shape/get_officeinteropshapeid/) for getting unique shape identifier in slide scope. |
+| **uint32_t** [get_UniqueId](../../aspose.slides/shape/get_uniqueid/)() override | Returns an internal, presentation-scoped identifier intended for use by add-ins or other code. Because this value can be reassigned by the user or programmatically, it must not be treated as a persistent unique key. Read-only **uint32_t**. See also [Shape::get_OfficeInteropShapeId](../../aspose.slides/shape/get_officeinteropshapeid/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IGroupShape](../../aspose.slides/igroupshape/)\> [get_UserShapes](./get_usershapes/)() override | Specify the shapes drawn on top of the chart. Read-only [IGroupShape](../../aspose.slides/igroupshape/). |
-| **float** [get_Width](../../aspose.slides/shape/get_width/)() override | Returns the width of the shape. Read **float**. |
-| **float** [get_X](../../aspose.slides/shape/get_x/)() override | Returns the x-coordinate of the upper-left corner of the shape. Read **float**. |
-| **float** [get_Y](../../aspose.slides/shape/get_y/)() override | Returns the y-coordinate of the upper-left corner of the shape. Read **float**. |
+| **float** [get_Width](../../aspose.slides/shape/get_width/)() override | Gets the width of the shape, measured in points. Read **float**. |
+| **float** [get_X](../../aspose.slides/shape/get_x/)() override | Gets the x-coordinate of the shape's upper-left corner, measured in points. Read **float**. |
+| **float** [get_Y](../../aspose.slides/shape/get_y/)() override | Gets the y-coordinate of the shape's upper-left corner, measured in points. Read **float**. |
 | **int32_t** [get_ZOrderPosition](../../aspose.slides/shape/get_zorderposition/)() override | Returns the position of a shape in the z-order. Shapes[0] returns the shape at the back of the z-order, and Shapes[Shapes.Count - 1] returns the shape at the front of the z-order. Read-only **int32_t**. |
 | [System::SharedPtr](../../system/sharedptr/)\<[IShape](../../aspose.slides/ishape/)\> [GetBasePlaceholder](../../aspose.slides/shape/getbaseplaceholder/)() override | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from). |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
@@ -113,7 +113,7 @@ class Chart : public Aspose::Slides::GraphicalObject,
 | void [set_HasLegend](./set_haslegend/)(**bool**) override | Determines whether a chart has a legend. Write **bool**. |
 | void [set_HasRoundedCorners](./set_hasroundedcorners/)(**bool**) override | Specifies the chart area shall have rounded corners. Write **bool**. |
 | void [set_HasTitle](./set_hastitle/)(**bool**) override | Determines whether a chart has a visible title. Write **bool**. |
-| void [set_Height](../../aspose.slides/shape/set_height/)(**float**) override | Sets the height of the shape. Write **float**. |
+| void [set_Height](../../aspose.slides/shape/set_height/)(**float**) override | Sets the height of the shape, measured in points. Write **float**. |
 | void [set_Hidden](../../aspose.slides/shape/set_hidden/)(**bool**) override | Determines whether the shape is hidden. Write **bool**. |
 | void [set_HyperlinkClick](../../aspose.slides/shape/set_hyperlinkclick/)([System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../../aspose.slides/ihyperlink/)\>) override | Sets the hyperlink defined for mouse click. Write [IHyperlink](../../aspose.slides/ihyperlink/). |
 | void [set_HyperlinkMouseOver](../../aspose.slides/shape/set_hyperlinkmouseover/)([System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../../aspose.slides/ihyperlink/)\>) override | Sets the hyperlink defined for mouse over. Write [IHyperlink](../../aspose.slides/ihyperlink/). |
@@ -125,9 +125,9 @@ class Chart : public Aspose::Slides::GraphicalObject,
 | void [set_ShowDataLabelsOverMaximum](./set_showdatalabelsovermaximum/)(**bool**) override | Specifies data labels over the maximum of the chart shall be shown. Write **bool**. |
 | void [set_Style](./set_style/)([StyleType](../styletype/)) override | Sets the chart style. Write [StyleType](../styletype/). |
 | void [set_Type](./set_type/)([ChartType](../charttype/)) override | Sets the chart type. Write [ChartType](../charttype/). |
-| void [set_Width](../../aspose.slides/shape/set_width/)(**float**) override | Sets the width of the shape. Write **float**. |
-| void [set_X](../../aspose.slides/shape/set_x/)(**float**) override | Sets the x-coordinate of the upper-left corner of the shape. Write **float**. |
-| void [set_Y](../../aspose.slides/shape/set_y/)(**float**) override | Sets the y-coordinate of the upper-left corner of the shape. Write **float**. |
+| void [set_Width](../../aspose.slides/shape/set_width/)(**float**) override | Sets the width of the shape, measured in points. Write **float**. |
+| void [set_X](../../aspose.slides/shape/set_x/)(**float**) override | Sets the x-coordinate of the shape's upper-left corner, measured in points. Write **float**. |
+| void [set_Y](../../aspose.slides/shape/set_y/)(**float**) override | Sets the y-coordinate of the shape's upper-left corner, measured in points. Write **float**. |
 | virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode. |
 | int [SharedCount](../../system/object/sharedcount/)() const | Gets current value of shared reference counter. |
 | [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | Increments shared reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |

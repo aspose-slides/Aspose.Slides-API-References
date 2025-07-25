@@ -1,7 +1,7 @@
 ---
 title: InsertAudioFrameCD()
 second_title: Aspose.Slides for C++ API Reference
-description: Insert an AudioFrame with CD.
+description: Creates a new audio frame linked to a CD track and inserts it into the shape collection at the specified index.
 type: docs
 weight: 209
 url: /aspose.slides/ishapecollection/insertaudioframecd/
@@ -9,7 +9,7 @@ url: /aspose.slides/ishapecollection/insertaudioframecd/
 ## IShapeCollection::InsertAudioFrameCD(int32_t, float, float, float, float) method
 
 
-Insert an [AudioFrame](../../audioframe/) with CD.
+Creates a new audio frame linked to a CD track and inserts it into the shape collection at the specified index.
 
 ```cpp
 virtual System::SharedPtr<IAudioFrame> Aspose::Slides::IShapeCollection::InsertAudioFrameCD(int32_t index, float x, float y, float width, float height)=0
@@ -20,15 +20,15 @@ virtual System::SharedPtr<IAudioFrame> Aspose::Slides::IShapeCollection::InsertA
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | **int32_t** | The zero-based index at which video frame should be inserted. |
-| x | **float** | X coordinate of a new audio frame. |
-| y | **float** | Y coordinate of a new audio frame. |
-| width | **float** | Width of a new audio frame. |
-| height | **float** | Height of a new audio frame. |
+| index | **int32_t** | The zero-based index at which to insert the audio frame. |
+| x | **float** | The x-coordinate of the new audio frame, in points. |
+| y | **float** | The y-coordinate of the new audio frame, in points. |
+| width | **float** | The width of the new audio frame, in points. |
+| height | **float** | The height of the new audio frame, in points. |
 
 ### Return Value
 
-Created [AudioFrame](../../audioframe/) object.
+The newly created [IAudioFrame](../../iaudioframe/).
 
 ## See Also
 

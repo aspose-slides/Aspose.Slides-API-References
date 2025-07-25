@@ -1,7 +1,7 @@
 ---
 title: InsertConnector()
 second_title: Aspose.Slides for C++ API Reference
-description: Creates a new Connector, tunes it from default template and inserts it to the collection at the specified index.
+description: Creates a new connector shape and inserts it into the shape collection at the specified index, applying default template styling.
 type: docs
 weight: 391
 url: /aspose.slides/ishapecollection/insertconnector/
@@ -9,7 +9,7 @@ url: /aspose.slides/ishapecollection/insertconnector/
 ## IShapeCollection::InsertConnector(int32_t, ShapeType, float, float, float, float) method
 
 
-Creates a new [Connector](../../connector/), tunes it from default template and inserts it to the collection at the specified index.
+Creates a new connector shape and inserts it into the shape collection at the specified index, applying default template styling.
 
 ```cpp
 virtual System::SharedPtr<IConnector> Aspose::Slides::IShapeCollection::InsertConnector(int32_t index, ShapeType shapeType, float x, float y, float width, float height)=0
@@ -20,21 +20,21 @@ virtual System::SharedPtr<IConnector> Aspose::Slides::IShapeCollection::InsertCo
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | **int32_t** | The zero-based index at which value should be inserted. |
-| shapeType | [ShapeType](../../shapetype/) | An [ShapeType](../../shapetype/) of shape. |
-| x | **float** | The X-coordinate for a left side of shape's frame. |
-| y | **float** | The Y-coordinate for a top side of shape's frame. |
-| width | **float** | The width of shape's frame. |
-| height | **float** | The height of shape's frame. |
+| index | **int32_t** | The zero-based index at which to insert the connector shape. |
+| shapeType | [ShapeType](../../shapetype/) | The [ShapeType](../../shapetype/) of the connector shape to insert. |
+| x | **float** | The x-coordinate of the connector\\u2019s frame, in points. |
+| y | **float** | The y-coordinate of the connector\\u2019s frame, in points. |
+| width | **float** | The width of the connector\\u2019s frame, in points. |
+| height | **float** | The height of the connector\\u2019s frame, in points. |
 
 ### Return Value
 
-Created [Connector](../../connector/) object.
+The newly created [IConnector](../../iconnector/).
 
 ## IShapeCollection::InsertConnector(int32_t, ShapeType, float, float, float, float, bool) method
 
 
-Creates a new [Connector](../../connector/) and inserts it to the collection at the specified index.
+Creates a new connector shape and inserts it into the shape collection at the specified index, optionally applying default template styling.
 
 ```cpp
 virtual System::SharedPtr<IConnector> Aspose::Slides::IShapeCollection::InsertConnector(int32_t index, ShapeType shapeType, float x, float y, float width, float height, bool createFromTemplate)=0
@@ -45,17 +45,17 @@ virtual System::SharedPtr<IConnector> Aspose::Slides::IShapeCollection::InsertCo
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | **int32_t** | The zero-based index at which value should be inserted. |
-| shapeType | [ShapeType](../../shapetype/) | An [ShapeType](../../shapetype/) of shape. |
-| x | **float** | The X-coordinate for a left side of shape's frame. |
-| y | **float** | The Y-coordinate for a top side of shape's frame. |
-| width | **float** | The width of shape's frame. |
-| height | **float** | The height of shape's frame. |
-| createFromTemplate | **bool** | If true then new shape will be tuned from default template. Not empty name, simple style, text centered will be assined to the new shape. If false then all values of the properties of the new shape will have default values. |
+| index | **int32_t** | The zero-based index at which to insert the connector shape. |
+| shapeType | [ShapeType](../../shapetype/) | The [ShapeType](../../shapetype/) of the connector shape to insert. |
+| x | **float** | The x-coordinate of the connector\\u2019s frame, in points. |
+| y | **float** | The y-coordinate of the connector\\u2019s frame, in points. |
+| width | **float** | The width of the connector\\u2019s frame, in points. |
+| height | **float** | The height of the connector\\u2019s frame, in points. |
+| createFromTemplate | **bool** | True to apply default template styling (non-empty name, simple style); false to create the connector with default property values. |
 
 ### Return Value
 
-Created [Connector](../../connector/) object.
+The newly created [IConnector](../../iconnector/).
 
 ## See Also
 

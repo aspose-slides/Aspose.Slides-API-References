@@ -1,7 +1,7 @@
 ---
 title: AddAudioFrameEmbedded()
 second_title: Aspose.Slides for C++ API Reference
-description: "Adds a new audio frame with embedded audio file to the end of a collection. Embedded audio file can be a WAV only. It adds new audio into Presentation::get_Audios list."
+description: "Creates a new audio frame with an embedded WAV file and adds it to the end of the shape collection. The embedded audio is added to the Presentation::get_Audios collection."
 type: docs
 weight: 287
 url: /aspose.slides/shapecollection/addaudioframeembedded/
@@ -9,7 +9,7 @@ url: /aspose.slides/shapecollection/addaudioframeembedded/
 ## ShapeCollection::AddAudioFrameEmbedded(float, float, float, float, System::SharedPtr\<System::IO::Stream\>) method
 
 
-Adds a new audio frame with embedded audio file to the end of a collection. Embedded audio file can be a WAV only. It adds new audio into [Presentation::get_Audios](../../presentation/get_audios/) list.
+Creates a new audio frame with an embedded WAV file and adds it to the end of the shape collection. The embedded audio is added to the [Presentation::get_Audios](../../presentation/get_audios/) collection.
 
 ```cpp
 System::SharedPtr<IAudioFrame> Aspose::Slides::ShapeCollection::AddAudioFrameEmbedded(float x, float y, float width, float height, System::SharedPtr<System::IO::Stream> audio_stream) override
@@ -20,15 +20,15 @@ System::SharedPtr<IAudioFrame> Aspose::Slides::ShapeCollection::AddAudioFrameEmb
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | **float** | X coordinate of a new audio frame. |
-| y | **float** | Y coordinate of a new audio frame. |
-| width | **float** | Width of a new audio frame. |
-| height | **float** | Height of a new audio frame. |
-| audio_stream | [System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\> | Inout stream with audio data. |
+| x | **float** | The x-coordinate of the new audio frame, in points. |
+| y | **float** | The y-coordinate of the new audio frame, in points. |
+| width | **float** | The width of the new audio frame, in points. |
+| height | **float** | The height of the new audio frame, in points. |
+| audio_stream | [System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\> | An input stream containing WAV audio data to embed. |
 
 ### Return Value
 
-Created [AudioFrame](../../audioframe/) object.
+The newly created [IAudioFrame](../../iaudioframe/).
 ## Remarks
 
 
@@ -56,7 +56,7 @@ pres->Save(u"AudioFrameEmbed_out.pptx", SaveFormat::Pptx);
 ## ShapeCollection::AddAudioFrameEmbedded(float, float, float, float, System::SharedPtr\<IAudio\>) method
 
 
-Adds a new audio frame with embedded audio file to the end of a collection. It uses audio file from [Presentation::get_Audios](../../presentation/get_audios/) list.
+Creates a new audio frame and adds it to the end of the shape collection using an existing audio object from the [Presentation::get_Audios](../../presentation/get_audios/) list.
 
 ```cpp
 System::SharedPtr<IAudioFrame> Aspose::Slides::ShapeCollection::AddAudioFrameEmbedded(float x, float y, float width, float height, System::SharedPtr<IAudio> audio) override
@@ -67,15 +67,15 @@ System::SharedPtr<IAudioFrame> Aspose::Slides::ShapeCollection::AddAudioFrameEmb
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | **float** | X coordinate of a new audio frame. |
-| y | **float** | Y coordinate of a new audio frame. |
-| width | **float** | Width of a new audio frame. |
-| height | **float** | Height of a new audio frame. |
-| audio | [System::SharedPtr](../../../system/sharedptr/)\<[IAudio](../../iaudio/)\> | [Audio](../../audio/) from [Presentation::get_Audios](../../presentation/get_audios/) list. |
+| x | **float** | The x-coordinate of the new audio frame, in points. |
+| y | **float** | The y-coordinate of the new audio frame, in points. |
+| width | **float** | The width of the new audio frame, in points. |
+| height | **float** | The height of the new audio frame, in points. |
+| audio | [System::SharedPtr](../../../system/sharedptr/)\<[IAudio](../../iaudio/)\> | An [IAudio](../../iaudio/) instance from the [Presentation::get_Audios](../../presentation/get_audios/) collection. |
 
 ### Return Value
 
-Created [AudioFrame](../../audioframe/) object.
+The newly created [IAudioFrame](../../iaudioframe/).
 
 ## See Also
 

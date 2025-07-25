@@ -1,7 +1,7 @@
 ---
 title: get_Type()
 second_title: Aspose.Slides for C++ API Reference
-description: "Returns the type of slide size. Assigning any value except SlideSizeType::Custom will change ISlideSize::get_Size accordingly, but will keep ISlideSize::get_Orientation intact. Read Aspose::Slides::SlideSizeType."
+description: "Gets the slide size type. Assigning any value except SlideSizeType::Custom adjusts the ISlideSize::get_Size according to the predefined dimensions, while retaining the current ISlideSize::get_Orientation."
 type: docs
 weight: 14
 url: /aspose.slides/islidesize/get_type/
@@ -9,12 +9,16 @@ url: /aspose.slides/islidesize/get_type/
 ## ISlideSize::get_Type() method
 
 
-Returns the type of slide size. Assigning any value except [SlideSizeType::Custom](../../slidesizetype/) will change [ISlideSize::get_Size](../get_size/) accordingly, but will keep [ISlideSize::get_Orientation](../get_orientation/) intact. Read [Aspose::Slides::SlideSizeType](../../slidesizetype/).
+Gets the slide size type. Assigning any value except [SlideSizeType::Custom](../../slidesizetype/) adjusts the [ISlideSize::get_Size](../get_size/) according to the predefined dimensions, while retaining the current [ISlideSize::get_Orientation](../get_orientation/).
 
 ```cpp
 virtual SlideSizeType Aspose::Slides::ISlideSize::get_Type()=0
 ```
 
+## Remarks
+
+
+Assigning any value other than [SlideSizeType::Custom](../../slidesizetype/) adjusts the [System::Drawing::Size](../../../system.drawing/size/) according to the predefined dimensions, while retaining the current [Orientation](../../orientation/). 
 ## See Also
 
 * Enum [SlideSizeType](../../slidesizetype/)

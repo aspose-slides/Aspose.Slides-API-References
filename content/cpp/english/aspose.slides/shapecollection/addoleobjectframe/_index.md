@@ -1,7 +1,7 @@
 ---
 title: AddOleObjectFrame()
 second_title: Aspose.Slides for C++ API Reference
-description: Adds a new OLE object to the end of a collection.
+description: Creates a new OLE object frame and adds it to the end of the shape collection.
 type: docs
 weight: 183
 url: /aspose.slides/shapecollection/addoleobjectframe/
@@ -9,7 +9,7 @@ url: /aspose.slides/shapecollection/addoleobjectframe/
 ## ShapeCollection::AddOleObjectFrame(float, float, float, float, System::SharedPtr\<IOleEmbeddedDataInfo\>) method
 
 
-Adds a new OLE object to the end of a collection.
+Creates a new OLE object frame and adds it to the end of the shape collection.
 
 ```cpp
 System::SharedPtr<IOleObjectFrame> Aspose::Slides::ShapeCollection::AddOleObjectFrame(float x, float y, float width, float height, System::SharedPtr<IOleEmbeddedDataInfo> dataInfo) override
@@ -20,16 +20,17 @@ System::SharedPtr<IOleObjectFrame> Aspose::Slides::ShapeCollection::AddOleObject
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | **float** | X coordinate of a new OLE frame. |
-| y | **float** | Y coordinate of a new OLE frame. |
-| width | **float** | Width of a new OLE frame. |
-| height | **float** | Height of a new OLE frame. |
-| dataInfo | [System::SharedPtr](../../../system/sharedptr/)\<[IOleEmbeddedDataInfo](../../ioleembeddeddatainfo/)\> | Embedded data info [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo/). |
+| x | **float** | The x-coordinate of the new OLE frame, in points. |
+| y | **float** | The y-coordinate of the new OLE frame, in points. |
+| width | **float** | The width of the new OLE frame, in points. |
+| height | **float** | The height of the new OLE frame, in points. |
+| dataInfo | [System::SharedPtr](../../../system/sharedptr/)\<[IOleEmbeddedDataInfo](../../ioleembeddeddatainfo/)\> | The information about the embedded OLE data ([IOleEmbeddedDataInfo](../../ioleembeddeddatainfo/)). |
 
 ### Return Value
 
-Created OLE object.
+The newly created [IOleObjectFrame](../../ioleobjectframe/).
 ## Remarks
+
 
 
 The following examples shows how to adding OLE Object Frames to [Slides](../../) of PowerPoint [Presentation](../../presentation/). 
@@ -62,11 +63,10 @@ auto oleObjectFrame = slide->get_Shapes()->AddOleObjectFrame(0.0f, 0.0f, slideSi
 pres->Save(u"OleEmbed_out.pptx", SaveFormat::Pptx);
 ```
 
-
 ## ShapeCollection::AddOleObjectFrame(float, float, float, float, System::String, System::String) method
 
 
-Adds a new OLE object to the end of a collection.
+Creates a new OLE object frame and adds it to the end of the shape collection.
 
 ```cpp
 System::SharedPtr<IOleObjectFrame> Aspose::Slides::ShapeCollection::AddOleObjectFrame(float x, float y, float width, float height, System::String className, System::String path) override
@@ -77,21 +77,21 @@ System::SharedPtr<IOleObjectFrame> Aspose::Slides::ShapeCollection::AddOleObject
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | **float** | X coordinate of a new OLE frame. |
-| y | **float** | Y coordinate of a new OLE frame. |
-| width | **float** | Width of a new OLE frame. |
-| height | **float** | Height of a new OLE frame. |
-| className | [System::String](../../../system/string/) | Name of an OLE class. |
-| path | [System::String](../../../system/string/) | Path to the linked file. |
+| x | **float** | The x-coordinate of the new OLE frame, in points. |
+| y | **float** | The y-coordinate of the new OLE frame, in points. |
+| width | **float** | The width of the new OLE frame, in points. |
+| height | **float** | The height of the new OLE frame, in points. |
+| className | [System::String](../../../system/string/) | The class name of the OLE object. |
+| path | [System::String](../../../system/string/) | The path to the linked file. |
 
 ### Return Value
 
-Created OLE object.
+The newly created [IOleObjectFrame](../../ioleobjectframe/).
 ## Remarks
 
 
 
-The path is stored in the presentation as is. If a relative path is specified the corresponding file will be inaccessible when opening the presentation from a different directory.
+This path is stored verbatim in the presentation. If a relative path is specified, the file will be inaccessible when opening the presentation from a different directory.
 
 ## See Also
 

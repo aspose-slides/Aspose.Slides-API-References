@@ -1,7 +1,7 @@
 ---
 title: AddSectionZoomFrame()
 second_title: Aspose.Slides for C++ API Reference
-description: Adds a new Section Zoom object to the end of a collection.
+description: Creates a new Section Zoom frame and adds it to the end of the shape collection.
 type: docs
 weight: 118
 url: /aspose.slides/ishapecollection/addsectionzoomframe/
@@ -9,7 +9,7 @@ url: /aspose.slides/ishapecollection/addsectionzoomframe/
 ## IShapeCollection::AddSectionZoomFrame(float, float, float, float, System::SharedPtr\<ISection\>) method
 
 
-Adds a new [Section](../../section/) Zoom object to the end of a collection.
+Creates a new [Section](../../section/) Zoom frame and adds it to the end of the shape collection.
 
 ```cpp
 virtual System::SharedPtr<ISectionZoomFrame> Aspose::Slides::IShapeCollection::AddSectionZoomFrame(float x, float y, float width, float height, System::SharedPtr<ISection> section)=0
@@ -20,15 +20,15 @@ virtual System::SharedPtr<ISectionZoomFrame> Aspose::Slides::IShapeCollection::A
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | **float** | X coordinate of a new [Section](../../section/) Zoom frame **float**. |
-| y | **float** | Y coordinate of a new [Section](../../section/) Zoom frame **float**. |
-| width | **float** | Width of a new [Section](../../section/) Zoom frame **float**. |
-| height | **float** | Height of a new [Section](../../section/) Zoom frame **float**. |
-| section | [System::SharedPtr](../../../system/sharedptr/)\<[ISection](../../isection/)\> | The section object referenced by the [Section](../../section/) Zoom frame [ISection](../../isection/). |
+| x | **float** | The x-coordinate of the new [Section](../../section/) Zoom frame, in points. |
+| y | **float** | The y-coordinate of the new [Section](../../section/) Zoom frame, in points. |
+| width | **float** | The width of the new [Section](../../section/) Zoom frame, in points. |
+| height | **float** | The height of the new [Section](../../section/) Zoom frame, in points. |
+| section | [System::SharedPtr](../../../system/sharedptr/)\<[ISection](../../isection/)\> | The [ISection](../../isection/) referenced by the [Section](../../section/) Zoom frame; must belong to this presentation and contain at least one slide. |
 
 ### Return Value
 
-Created [Section](../../section/) Zoom object [ISectionZoomFrame](../../isectionzoomframe/).
+The newly created [ISectionZoomFrame](../../isectionzoomframe/).
 ## Remarks
 
 
@@ -44,7 +44,7 @@ auto zoomFrame = shapes->AddSectionZoomFrame(150.0f, 20.0f, 50.0f, 50.0f, pres->
 ## IShapeCollection::AddSectionZoomFrame(float, float, float, float, System::SharedPtr\<ISection\>, System::SharedPtr\<IPPImage\>) method
 
 
-Adds a new [Section](../../section/) Zoom object to the end of a collection with a predefined image.
+Creates a new [Section](../../section/) Zoom frame with a predefined image and adds it to the end of the shape collection.
 
 ```cpp
 virtual System::SharedPtr<ISectionZoomFrame> Aspose::Slides::IShapeCollection::AddSectionZoomFrame(float x, float y, float width, float height, System::SharedPtr<ISection> section, System::SharedPtr<IPPImage> image)=0
@@ -55,16 +55,16 @@ virtual System::SharedPtr<ISectionZoomFrame> Aspose::Slides::IShapeCollection::A
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | **float** | X coordinate of a new [Section](../../section/) Zoom frame **float**. |
-| y | **float** | Y coordinate of a new [Section](../../section/) Zoom frame **float**. |
-| width | **float** | Width of a new [Section](../../section/) Zoom frame **float**. |
-| height | **float** | Height of a new [Section](../../section/) Zoom frame **float**. |
-| section | [System::SharedPtr](../../../system/sharedptr/)\<[ISection](../../isection/)\> | The section object referenced by the [Section](../../section/) Zoom frame [ISection](../../isection/). |
-| image | [System::SharedPtr](../../../system/sharedptr/)\<[IPPImage](../../ippimage/)\> | The image for the referenced slide [IPPImage](../../ippimage/) |
+| x | **float** | The x-coordinate of the new [Section](../../section/) Zoom frame, in points. |
+| y | **float** | The y-coordinate of the new [Section](../../section/) Zoom frame, in points. |
+| width | **float** | The width of the new [Section](../../section/) Zoom frame, in points. |
+| height | **float** | The height of the new [Section](../../section/) Zoom frame, in points. |
+| section | [System::SharedPtr](../../../system/sharedptr/)\<[ISection](../../isection/)\> | The [ISection](../../isection/) referenced by the [Section](../../section/) Zoom frame; must belong to this presentation and contain at least one slide. |
+| image | [System::SharedPtr](../../../system/sharedptr/)\<[IPPImage](../../ippimage/)\> | The [IPPImage](../../ippimage/) to display within the [Section](../../section/) Zoom frame. |
 
 ### Return Value
 
-Created [Section](../../section/) Zoom object [ISectionZoomFrame](../../isectionzoomframe/).
+The newly created [ISectionZoomFrame](../../isectionzoomframe/).
 ## Remarks
 
 

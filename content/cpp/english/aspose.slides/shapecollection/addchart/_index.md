@@ -1,7 +1,7 @@
 ---
 title: AddChart()
 second_title: Aspose.Slides for C++ API Reference
-description: Creates a new Chart, initialize it with sample series data and settings and adds it to the end of the collection.
+description: Creates a new chart, initializes it with sample series data and settings, and adds it to the end of the shape collection.
 type: docs
 weight: 66
 url: /aspose.slides/shapecollection/addchart/
@@ -9,7 +9,7 @@ url: /aspose.slides/shapecollection/addchart/
 ## ShapeCollection::AddChart(Charts::ChartType, float, float, float, float) method
 
 
-Creates a new Chart, initialize it with sample series data and settings and adds it to the end of the collection.
+Creates a new chart, initializes it with sample series data and settings, and adds it to the end of the shape collection.
 
 ```cpp
 System::SharedPtr<Charts::IChart> Aspose::Slides::ShapeCollection::AddChart(Charts::ChartType type, float x, float y, float width, float height) override
@@ -20,15 +20,15 @@ System::SharedPtr<Charts::IChart> Aspose::Slides::ShapeCollection::AddChart(Char
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [Charts::ChartType](../../../aspose.slides.charts/charttype/) | Type of chart. |
-| x | **float** | X coordinate of a new chart. |
-| y | **float** | Y coordinate of a new chart. |
-| width | **float** | Chart's width. |
-| height | **float** | Chart's height. |
+| type | [Charts::ChartType](../../../aspose.slides.charts/charttype/) | The type of chart to add. |
+| x | **float** | The x-coordinate of the new chart, in points. |
+| y | **float** | The y-coordinate of the new chart, in points. |
+| width | **float** | The width of the chart, in points. |
+| height | **float** | The height of the chart, in points. |
 
 ### Return Value
 
-Created chart.
+The newly created [IChart](../).
 ## Remarks
 
 
@@ -105,7 +105,7 @@ pres->Save(u"AsposeChart_out.pptx", SaveFormat::Pptx);
 ## ShapeCollection::AddChart(Charts::ChartType, float, float, float, float, bool) method
 
 
-Creates a new Chart and adds it to the end of the collection.
+Creates a new chart, initializes it with sample series data and settings, and adds it to the end of the shape collection.
 
 ```cpp
 System::SharedPtr<Charts::IChart> Aspose::Slides::ShapeCollection::AddChart(Charts::ChartType type, float x, float y, float width, float height, bool initWithSample) override
@@ -116,16 +116,16 @@ System::SharedPtr<Charts::IChart> Aspose::Slides::ShapeCollection::AddChart(Char
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [Charts::ChartType](../../../aspose.slides.charts/charttype/) | Type of chart. |
-| x | **float** | X coordinate of a new chart. |
-| y | **float** | Y coordinate of a new chart. |
-| width | **float** | Chart's width. |
-| height | **float** | Chart's height. |
-| initWithSample | **bool** | If true then new chart will be initialized with sample series data and settings. If false then new chart will have no series and minimum settings. In this case chart creation will be more fast. |
+| type | [Charts::ChartType](../../../aspose.slides.charts/charttype/) | The type of chart to add. |
+| x | **float** | The x-coordinate of the new chart, in points. |
+| y | **float** | The y-coordinate of the new chart, in points. |
+| width | **float** | The width of the chart, in points. |
+| height | **float** | The height of the chart, in points. |
+| initWithSample | **bool** | True to initialize the new chart with sample series data and settings; false to create the chart with no series and only minimal settings, which makes creation faster. |
 
 ### Return Value
 
-Created chart.
+The newly created [IChart](../).
 
 ## See Also
 

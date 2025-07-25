@@ -1,7 +1,7 @@
 ---
 title: get_OfficeInteropShapeId()
 second_title: Aspose.Slides for C++ API Reference
-description: "Gets unique shape identifier in slide scope. Read-only uint32_t. See also Shape::get_UniqueId for getting unique shape identifier in presentation scope."
+description: "Returns a slide-scoped unique identifier that remains constant for the lifetime of the shape and lets PowerPoint or interop code reliably reference the shape from anywhere in the document. Read-only uint32_t. See also Shape::get_UniqueId."
 type: docs
 weight: 430
 url: /aspose.slides/shape/get_officeinteropshapeid/
@@ -9,7 +9,7 @@ url: /aspose.slides/shape/get_officeinteropshapeid/
 ## Shape::get_OfficeInteropShapeId() method
 
 
-Gets unique shape identifier in slide scope. Read-only **uint32_t**. See also [Shape::get_UniqueId](../get_uniqueid/) for getting unique shape identifier in presentation scope.
+Returns a slide-scoped unique identifier that remains constant for the lifetime of the shape and lets PowerPoint or interop code reliably reference the shape from anywhere in the document. Read-only **uint32_t**. See also [Shape::get_UniqueId](../get_uniqueid/).
 
 ```cpp
 uint32_t Aspose::Slides::Shape::get_OfficeInteropShapeId() override

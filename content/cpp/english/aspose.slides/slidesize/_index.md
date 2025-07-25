@@ -1,7 +1,7 @@
 ---
 title: SlideSize
 second_title: Aspose.Slides for C++ API Reference
-description: Represents a size of slide.
+description: Represents the size and orientation of a slide.
 type: docs
 weight: 5188
 url: /aspose.slides/slidesize/
@@ -9,7 +9,7 @@ url: /aspose.slides/slidesize/
 ## SlideSize class
 
 
-Represents a size of slide.
+Represents the size and orientation of a slide.
 
 ```cpp
 class SlideSize : public Aspose::Slides::DomObject<System::SharedPtr<Aspose::Slides::Presentation>>,
@@ -26,9 +26,9 @@ class SlideSize : public Aspose::Slides::DomObject<System::SharedPtr<Aspose::Sli
 | static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
-| [SlideOrientation](../slideorientation/) [get_Orientation](./get_orientation/)() override | Returns the slide orientation. |
-| [System::Drawing::SizeF](../../system.drawing/sizef/) [get_Size](./get_size/)() override | Returns the size in points. |
-| [SlideSizeType](../slidesizetype/) [get_Type](./get_type/)() override | Returns the type of slide size. |
+| [SlideOrientation](../slideorientation/) [get_Orientation](./get_orientation/)() override | Gets the slide orientation. |
+| [System::Drawing::SizeF](../../system.drawing/sizef/) [get_Size](./get_size/)() override | Gets the slide dimensions in points. |
+| [SlideSizeType](../slidesizetype/) [get_Type](./get_type/)() override | Gets the slide size type. |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Analog of C# [Object.GetHashCode()](../../system/object/gethashcode/) method. Enables hashing of custom objects. |
 | virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | Gets actual type of object. Analog of C# [System.Object.GetType()](../../system/object/gettype/) call. |
@@ -45,8 +45,8 @@ class SlideSize : public Aspose::Slides::DomObject<System::SharedPtr<Aspose::Sli
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of strings. |
 | int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Decreases shared reference count by specified value. |
 | void [set_Orientation](./set_orientation/)([SlideOrientation](../slideorientation/)) override | Sets the slide orientation. |
-| void [SetSize](./setsize/)([SlideSizeType](../slidesizetype/), [SlideSizeScaleType](../slidesizescaletype/)) override | Sets the type of slide size and scales content using scale type. |
-| void [SetSize](./setsize/)(**float**, **float**, [SlideSizeScaleType](../slidesizescaletype/)) override | Sets the size in points and scales content using scale type. |
+| void [SetSize](./setsize/)([SlideSizeType](../slidesizetype/), [SlideSizeScaleType](../slidesizescaletype/)) override | Sets the slide size by type and scales existing content. |
+| void [SetSize](./setsize/)(**float**, **float**, [SlideSizeScaleType](../slidesizescaletype/)) override | Sets the slide dimensions explicitly and scales existing content. |
 | void [SetTemplateWeakPtr](./settemplateweakptr/)(**uint32_t**) override | Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode. |
 | int [SharedCount](../../system/object/sharedcount/)() const | Gets current value of shared reference counter. |
 | [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | Increments shared reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |

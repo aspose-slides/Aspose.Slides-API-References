@@ -1,7 +1,7 @@
 ---
 title: AddVideoFrame()
 second_title: Aspose.Slides for C++ API Reference
-description: Adds a new video frame to the end of a collection.
+description: Creates a new video frame and adds it to the end of the shape collection.
 type: docs
 weight: 170
 url: /aspose.slides/ishapecollection/addvideoframe/
@@ -9,7 +9,7 @@ url: /aspose.slides/ishapecollection/addvideoframe/
 ## IShapeCollection::AddVideoFrame(float, float, float, float, System::String) method
 
 
-Adds a new video frame to the end of a collection.
+Creates a new video frame and adds it to the end of the shape collection.
 
 ```cpp
 virtual System::SharedPtr<IVideoFrame> Aspose::Slides::IShapeCollection::AddVideoFrame(float x, float y, float width, float height, System::String fname)=0
@@ -20,20 +20,20 @@ virtual System::SharedPtr<IVideoFrame> Aspose::Slides::IShapeCollection::AddVide
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | **float** | X coordinate of a new video frame. |
-| y | **float** | Y coordinate of a new video frame. |
-| width | **float** | Width of a new video frame. |
-| height | **float** | Height of a new video frame. |
-| fname | [System::String](../../../system/string/) | [Video](../../video/) file name. |
+| x | **float** | The x-coordinate of the new video frame, in points. |
+| y | **float** | The y-coordinate of the new video frame, in points. |
+| width | **float** | The width of the new video frame, in points. |
+| height | **float** | The height of the new video frame, in points. |
+| fname | [System::String](../../../system/string/) | The path or name of the video file to embed. |
 
 ### Return Value
 
-Created [VideoFrame](../../videoframe/) object.
+The newly created [IVideoFrame](../../ivideoframe/).
 
 ## IShapeCollection::AddVideoFrame(float, float, float, float, System::SharedPtr\<IVideo\>) method
 
 
-Adds a new video frame to the end of a collection.
+Creates a new video frame and adds it to the end of the shape collection.
 
 ```cpp
 virtual System::SharedPtr<IVideoFrame> Aspose::Slides::IShapeCollection::AddVideoFrame(float x, float y, float width, float height, System::SharedPtr<IVideo> video)=0
@@ -44,15 +44,15 @@ virtual System::SharedPtr<IVideoFrame> Aspose::Slides::IShapeCollection::AddVide
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | **float** | X coordinate of a new video frame. |
-| y | **float** | Y coordinate of a new video frame. |
-| width | **float** | Width of a new video frame. |
-| height | **float** | Height of a new video frame. |
-| video | [System::SharedPtr](../../../system/sharedptr/)\<[IVideo](../../ivideo/)\> | [Video](../../video/). |
+| x | **float** | The x-coordinate of the new video frame, in points. |
+| y | **float** | The y-coordinate of the new video frame, in points. |
+| width | **float** | The width of the new video frame, in points. |
+| height | **float** | The height of the new video frame, in points. |
+| video | [System::SharedPtr](../../../system/sharedptr/)\<[IVideo](../../ivideo/)\> | The [IVideo](../../ivideo/) to embed in the video frame. |
 
 ### Return Value
 
-Created [VideoFrame](../../videoframe/) object.
+The newly created [IVideoFrame](../../ivideoframe/).
 
 ## See Also
 

@@ -3,7 +3,7 @@ title: ThisPtr
 second_title: Aspose.Slides for C++ API Reference
 description: Pointer type.
 type: docs
-weight: 40
+weight: 53
 url: /system.collections.generic/sortedset/thisptr/
 ---
 ## ThisPtr typedef

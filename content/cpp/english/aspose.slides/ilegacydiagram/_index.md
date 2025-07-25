@@ -37,7 +37,7 @@ class ILegacyDiagram : public virtual Aspose::Slides::IGraphicalObject
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IFillFormat](../ifillformat/)\> [get_FillFormat](../ishape/get_fillformat/)() | Returns the [FillFormat](../fillformat/) object that contains fill formatting properties for a shape. Read-only [IFillFormat](../ifillformat/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IShapeFrame](../ishapeframe/)\> [get_Frame](../ishape/get_frame/)() | Returns the shape frame's properties. Read [IShapeFrame](../ishapeframe/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IGraphicalObjectLock](../igraphicalobjectlock/)\> [get_GraphicalObjectLock](../igraphicalobject/get_graphicalobjectlock/)() | Returns shape's locks. Read-only [IGraphicalObjectLock](../igraphicalobjectlock/). |
-| virtual **float** [get_Height](../ishape/get_height/)() | Returns the height of the shape. Read **float**. |
+| virtual **float** [get_Height](../ishape/get_height/)() | Gets the height of the shape, measured in points. Read **float**. |
 | virtual **bool** [get_Hidden](../ishape/get_hidden/)() | Determines whether the shape is hidden. Read **bool**. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../ihyperlink/)\> [get_HyperlinkClick](../ihyperlinkcontainer/get_hyperlinkclick/)() | Returns the hyperlink defined for mouse click. Read [IHyperlink](../ihyperlink/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IHyperlinkManager](../ihyperlinkmanager/)\> [get_HyperlinkManager](../ihyperlinkcontainer/get_hyperlinkmanager/)() | Hyperlinks manager Read-only [IHyperlinkManager](../ihyperlinkmanager/). |
@@ -47,7 +47,7 @@ class ILegacyDiagram : public virtual Aspose::Slides::IGraphicalObject
 | virtual **bool** [get_IsTextHolder](../ishape/get_istextholder/)() | Determines whether the shape is TextHolder. Read-only **bool**. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[ILineFormat](../ilineformat/)\> [get_LineFormat](../ishape/get_lineformat/)() | Returns the [LineFormat](../lineformat/) object that contains line formatting properties for a shape. Read-only [ILineFormat](../ilineformat/). |
 | virtual [System::String](../../system/string/) [get_Name](../ishape/get_name/)() | Returns the name of a shape. Read [System::String](../../system/string/). |
-| virtual **uint32_t** [get_OfficeInteropShapeId](../ishape/get_officeinteropshapeid/)() | Gets unique shape identifier in slide scope. Read-only **uint32_t**. See also [IShape::get_UniqueId](../ishape/get_uniqueid/) for getting unique shape identifier in presentation scope. |
+| virtual **uint32_t** [get_OfficeInteropShapeId](../ishape/get_officeinteropshapeid/)() | Returns a slide-scoped unique identifier that remains constant for the lifetime of the shape and lets PowerPoint or interop code reliably reference the shape from anywhere in the document. Read-only **uint32_t**. See also [IShape::get_UniqueId](../ishape/get_uniqueid/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IGroupShape](../igroupshape/)\> [get_ParentGroup](../ishape/get_parentgroup/)() | Returns parent [GroupShape](../groupshape/) object if shape is grouped. Otherwise returns null. Read-only [IGroupShape](../igroupshape/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IPlaceholder](../iplaceholder/)\> [get_Placeholder](../ishape/get_placeholder/)() | Returns the placeholder for a shape. Read-only [IPlaceholder](../iplaceholder/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IPresentation](../ipresentation/)\> [get_Presentation](../ipresentationcomponent/get_presentation/)() | Returns the presentation. Read-only [IPresentation](../ipresentation/). |
@@ -56,10 +56,10 @@ class ILegacyDiagram : public virtual Aspose::Slides::IGraphicalObject
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IBaseShapeLock](../ibaseshapelock/)\> [get_ShapeLock](../ishape/get_shapelock/)() | Returns shape's locks. Read-only [IBaseShapeLock](../ibaseshapelock/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IBaseSlide](../ibaseslide/)\> [get_Slide](../islidecomponent/get_slide/)() | Returns the base slide. Read-only [IBaseSlide](../ibaseslide/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IThreeDFormat](../ithreedformat/)\> [get_ThreeDFormat](../ishape/get_threedformat/)() | Returns the [ThreeDFormat](../threedformat/) object that contains line formatting properties for a shape. Read-only [IThreeDFormat](../ithreedformat/). |
-| virtual **uint32_t** [get_UniqueId](../ishape/get_uniqueid/)() | Gets unique shape identifier in presentation scope. Read-only **uint32_t**. See also [IShape::get_OfficeInteropShapeId](../ishape/get_officeinteropshapeid/) for getting unique shape identifier in slide scope. |
-| virtual **float** [get_Width](../ishape/get_width/)() | Returns the width of the shape. Read **float**. |
-| virtual **float** [get_X](../ishape/get_x/)() | Returns the x-coordinate of the upper-left corner of the shape. Read **float**. |
-| virtual **float** [get_Y](../ishape/get_y/)() | Returns the y-coordinate of the upper-left corner of the shape. Read **float**. |
+| virtual **uint32_t** [get_UniqueId](../ishape/get_uniqueid/)() | Returns an internal, presentation-scoped identifier intended for use by add-ins or other code. Because this value can be reassigned by the user or programmatically, it must not be treated as a persistent unique key. Read-only **uint32_t**. See also [IShape::get_OfficeInteropShapeId](../ishape/get_officeinteropshapeid/). |
+| virtual **float** [get_Width](../ishape/get_width/)() | Gets the width of the shape, measured in points. Read **float**. |
+| virtual **float** [get_X](../ishape/get_x/)() | Gets the x-coordinate of the shape's upper-left corner, measured in points. Read **float**. |
+| virtual **float** [get_Y](../ishape/get_y/)() | Gets the y-coordinate of the shape's upper-left corner, measured in points. Read **float**. |
 | virtual **int32_t** [get_ZOrderPosition](../ishape/get_zorderposition/)() | Returns the position of a shape in the z-order. Shapes[0] returns the shape at the back of the z-order, and Shapes[Shapes.Count - 1] returns the shape at the front of the z-order. Read-only **int32_t**. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IShape](../ishape/)\> [GetBasePlaceholder](../ishape/getbaseplaceholder/)() | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from). |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
@@ -86,7 +86,7 @@ class ILegacyDiagram : public virtual Aspose::Slides::IGraphicalObject
 | virtual void [set_AlternativeTextTitle](../ishape/set_alternativetexttitle/)([System::String](../../system/string/)) | Sets the title of alternative text associated with a shape. Write [System::String](../../system/string/). |
 | virtual void [set_BlackWhiteMode](../ishape/set_blackwhitemode/)([Aspose::Slides::BlackWhiteMode](../blackwhitemode/)) | Property specifies how a shape will render in black-and-white display mode.. Write [Slides::BlackWhiteMode](../blackwhitemode/). |
 | virtual void [set_Frame](../ishape/set_frame/)([System::SharedPtr](../../system/sharedptr/)\<[IShapeFrame](../ishapeframe/)\>) | Sets the shape frame's properties. Write [IShapeFrame](../ishapeframe/). |
-| virtual void [set_Height](../ishape/set_height/)(**float**) | Sets the height of the shape. Write **float**. |
+| virtual void [set_Height](../ishape/set_height/)(**float**) | Sets the height of the shape, measured in points. Write **float**. |
 | virtual void [set_Hidden](../ishape/set_hidden/)(**bool**) | Determines whether the shape is hidden. Write **bool**. |
 | virtual void [set_HyperlinkClick](../ihyperlinkcontainer/set_hyperlinkclick/)([System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../ihyperlink/)\>) | Sets the hyperlink defined for mouse click. Write [IHyperlink](../ihyperlink/). |
 | virtual void [set_HyperlinkMouseOver](../ihyperlinkcontainer/set_hyperlinkmouseover/)([System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../ihyperlink/)\>) | Sets the hyperlink defined for mouse over. Write [IHyperlink](../ihyperlink/). |
@@ -94,9 +94,9 @@ class ILegacyDiagram : public virtual Aspose::Slides::IGraphicalObject
 | virtual void [set_Name](../ishape/set_name/)([System::String](../../system/string/)) | Sets the name of a shape. Write [System::String](../../system/string/). |
 | virtual void [set_RawFrame](../ishape/set_rawframe/)([System::SharedPtr](../../system/sharedptr/)\<[IShapeFrame](../ishapeframe/)\>) | Sets the raw shape frame's properties. Write [IShapeFrame](../ishapeframe/). |
 | virtual void [set_Rotation](../ishape/set_rotation/)(**float**) | Sets the number of degrees the specified shape is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Write **float**. |
-| virtual void [set_Width](../ishape/set_width/)(**float**) | Sets the width of the shape. Write **float**. |
-| virtual void [set_X](../ishape/set_x/)(**float**) | Sets the x-coordinate of the upper-left corner of the shape. Write **float**. |
-| virtual void [set_Y](../ishape/set_y/)(**float**) | Sets the y-coordinate of the upper-left corner of the shape. Write **float**. |
+| virtual void [set_Width](../ishape/set_width/)(**float**) | Sets the width of the shape, measured in points. Write **float**. |
+| virtual void [set_X](../ishape/set_x/)(**float**) | Sets the x-coordinate of the shape's upper-left corner, measured in points. Write **float**. |
+| virtual void [set_Y](../ishape/set_y/)(**float**) | Sets the y-coordinate of the shape's upper-left corner, measured in points. Write **float**. |
 | virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode. |
 | int [SharedCount](../../system/object/sharedcount/)() const | Gets current value of shared reference counter. |
 | [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | Increments shared reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |

@@ -1,7 +1,7 @@
 ---
 title: AddSummaryZoomFrame()
 second_title: Aspose.Slides for C++ API Reference
-description: Adds a new Summary Zoom object to the end of a collection.
+description: Creates a new Summary Zoom frame and adds it to the end of the shape collection.
 type: docs
 weight: 157
 url: /aspose.slides/shapecollection/addsummaryzoomframe/
@@ -9,7 +9,7 @@ url: /aspose.slides/shapecollection/addsummaryzoomframe/
 ## ShapeCollection::AddSummaryZoomFrame(float, float, float, float) method
 
 
-Adds a new Summary Zoom object to the end of a collection.
+Creates a new Summary Zoom frame and adds it to the end of the shape collection.
 
 ```cpp
 System::SharedPtr<ISummaryZoomFrame> Aspose::Slides::ShapeCollection::AddSummaryZoomFrame(float x, float y, float width, float height) override
@@ -20,14 +20,14 @@ System::SharedPtr<ISummaryZoomFrame> Aspose::Slides::ShapeCollection::AddSummary
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | **float** | X coordinate of a new [Section](../../section/) Zoom frame **float**. |
-| y | **float** | Y coordinate of a new [Section](../../section/) Zoom frame **float**. |
-| width | **float** | Width of a new [Section](../../section/) Zoom frame **float**. |
-| height | **float** | Height of a new [Section](../../section/) Zoom frame **float**. |
+| x | **float** | The x-coordinate of the new Summary Zoom frame, in points. |
+| y | **float** | The y-coordinate of the new Summary Zoom frame, in points. |
+| width | **float** | The width of the new Summary Zoom frame, in points. |
+| height | **float** | The height of the new Summary Zoom frame, in points. |
 
 ### Return Value
 
-Created Summary Zoom object [ISummaryZoomFrame](../../isummaryzoomframe/).
+The newly created [ISummaryZoomFrame](../../isummaryzoomframe/).
 ## Remarks
 
 
