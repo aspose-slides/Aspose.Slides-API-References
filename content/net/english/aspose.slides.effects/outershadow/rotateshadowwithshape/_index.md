@@ -1,7 +1,7 @@
 ---
 title: RotateShadowWithShape
 second_title: Aspose.Sildes for .NET API Reference
-description: Specifies whether the shadow should rotate with the shape if the shape is rotated. Read/write Boolean.
+description: Indicates whether the shadow rotates together with the shape. Default value  true. Read/write Boolean.
 type: docs
 weight: 50
 url: /aspose.slides.effects/outershadow/rotateshadowwithshape/
@@ -9,7 +9,7 @@ url: /aspose.slides.effects/outershadow/rotateshadowwithshape/
 
 ## OuterShadow.RotateShadowWithShape property
 
-Specifies whether the shadow should rotate with the shape if the shape is rotated. Read/write Boolean.
+Indicates whether the shadow rotates together with the shape. Default value – true. Read/write Boolean.
 
 ```csharp
 public bool RotateShadowWithShape { get; set; }

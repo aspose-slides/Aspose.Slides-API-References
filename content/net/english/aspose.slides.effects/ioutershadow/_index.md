@@ -3,7 +3,7 @@ title: IOuterShadow
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an Outer Shadow effect.
 type: docs
-weight: 3400
+weight: 3430
 url: /aspose.slides.effects/ioutershadow/
 ---
 
@@ -22,16 +22,16 @@ public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>,
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | Allows to get base IAccessiblePVIObject interface. Read-only [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | Allows to get base IImageTransformOperation interface. Read-only [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Blur radius. Read/write Double. |
-| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Direction of shadow. Read/write Single. |
-| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Distance of shadow. Read/write Double. |
-| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Rectangle alignment. Read/write [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Specifies whether the shadow should rotate with the shape if the shape is rotated. Read/write Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Specifies the horizontal scaling factor, negative scaling causes a flip. Read/write Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Specifies the vertical scaling factor, negative scaling causes a flip. Read/write Double. |
-| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Color of shadow. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Specifies the horizontal skew angle (in degrees). Read/write Double. |
-| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Specifies the vertical skew angle (in degrees). Read/write Double. |
+| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Blur radius, in points. Default value – 0 pt. Read/write Double. |
+| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Direction of the shadow, in degrees. Default value – 0 ° (left-to-right). Read/write Single. |
+| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Distance of the shadow from the object, in points. Default value – 0 pt. Read/write Double. |
+| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Rectangle alignment. Default value – Bottom. Read/write [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Indicates whether the shadow rotates together with the shape. Default value – true. Read/write Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Horizontal scaling factor, in percent of the original size. Negative scaling causes a flip. Default value – 100 %. Read/write Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Vertical scaling factor, in percent of the original size. Negative scaling causes a flip. Default value – 100 %. Read/write Double. |
+| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Color of the shadow. Default value – automatic black (theme-dependent). Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Horizontal skew angle, in degrees. Default value – 0 °. Read/write Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Vertical skew angle, in degrees. Default value – 0 °. Read/write Double. |
 
 ### See Also
 

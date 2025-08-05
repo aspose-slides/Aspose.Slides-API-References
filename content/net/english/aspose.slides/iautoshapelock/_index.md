@@ -3,7 +3,7 @@ title: IAutoShapeLock
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines which operations are disabled on the parent AutoshapeEx.
 type: docs
-weight: 5110
+weight: 5180
 url: /aspose.slides/iautoshapelock/
 ---
 

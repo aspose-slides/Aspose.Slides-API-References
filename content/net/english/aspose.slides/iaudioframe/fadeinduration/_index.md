@@ -3,7 +3,7 @@ title: FadeInDuration
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the time duration for the initial fade-in of the media in milliseconds. Read/write Single.
 type: docs
-weight: 80
+weight: 90
 url: /aspose.slides/iaudioframe/fadeinduration/
 ---
 

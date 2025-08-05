@@ -3,7 +3,7 @@ title: Embedded
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines whether a sound is embedded to a presentation. Read-only Boolean.
 type: docs
-weight: 60
+weight: 70
 url: /aspose.slides/iaudioframe/embedded/
 ---
 

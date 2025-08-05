@@ -3,7 +3,7 @@ title: TemplateContextTObject
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a model object interface for a template engine.
 type: docs
-weight: 4540
+weight: 4610
 url: /aspose.slides.export.web/templatecontext-1/
 ---
 

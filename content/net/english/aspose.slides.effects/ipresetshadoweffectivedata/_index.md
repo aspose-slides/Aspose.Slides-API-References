@@ -3,7 +3,7 @@ title: IPresetShadowEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which represents a Preset Shadow effect.
 type: docs
-weight: 3430
+weight: 3460
 url: /aspose.slides.effects/ipresetshadoweffectivedata/
 ---
 

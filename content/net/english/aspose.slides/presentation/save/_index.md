@@ -1,10 +1,78 @@
 ---
 title: Save
 second_title: Aspose.Sildes for .NET API Reference
-description: Saves all slides of a presentation to a set of files representing XAML markup.
+description: Saves all slides of a presentation to a stream in the specified format.
 type: docs
 weight: 380
 url: /aspose.slides/presentation/save/
+---
+
+## Save(Stream, SaveFormat) {#save_1}
+
+Saves all slides of a presentation to a stream in the specified format.
+
+```csharp
+public void Save(Stream stream, SaveFormat format)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Output stream. |
+| format | SaveFormat | Format of the exported data. |
+
+### See Also
+
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* class [Presentation](../../presentation)
+* namespace [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## Save(string, SaveFormat, ISaveOptions) {#save_6}
+
+```csharp
+public void Save(string fname, SaveFormat format, ISaveOptions options)
+```
+
+### See Also
+
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* class [Presentation](../../presentation)
+* namespace [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## Save(Stream, SaveFormat, ISaveOptions) {#save_2}
+
+Saves all slides of a presentation to a stream in the specified format and with additional options.
+
+```csharp
+public void Save(Stream stream, SaveFormat format, ISaveOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Output stream. |
+| format | SaveFormat | Format of the exported data. |
+| options | ISaveOptions | Additional format options. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| NotSupportedException | If you try to save encrypted file in none Office 2007-2010 format |
+
+### See Also
+
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* class [Presentation](../../presentation)
+* namespace [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
+
 ---
 
 ## Save(IXamlOptions) {#save}
@@ -213,74 +281,6 @@ public void Save(string fname, SaveFormat format)
 ### See Also
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## Save(Stream, SaveFormat) {#save_1}
-
-Saves all slides of a presentation to a stream in the specified format.
-
-```csharp
-public void Save(Stream stream, SaveFormat format)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | Stream | Output stream. |
-| format | SaveFormat | Format of the exported data. |
-
-### See Also
-
-* enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## Save(string, SaveFormat, ISaveOptions) {#save_6}
-
-```csharp
-public void Save(string fname, SaveFormat format, ISaveOptions options)
-```
-
-### See Also
-
-* enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## Save(Stream, SaveFormat, ISaveOptions) {#save_2}
-
-Saves all slides of a presentation to a stream in the specified format and with additional options.
-
-```csharp
-public void Save(Stream stream, SaveFormat format, ISaveOptions options)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | Stream | Output stream. |
-| format | SaveFormat | Format of the exported data. |
-| options | ISaveOptions | Additional format options. |
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| NotSupportedException | If you try to save encrypted file in none Office 2007-2010 format |
-
-### See Also
-
-* enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
 * class [Presentation](../../presentation)
 * namespace [Aspose.Slides](../../presentation)
 * assembly [Aspose.Slides](../../../)

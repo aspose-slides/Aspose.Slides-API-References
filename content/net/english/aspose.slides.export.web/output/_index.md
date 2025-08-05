@@ -3,7 +3,7 @@ title: Output
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of output elements for IWebDocument.
 type: docs
-weight: 4510
+weight: 4580
 url: /aspose.slides.export.web/output/
 ---
 

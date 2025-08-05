@@ -3,7 +3,7 @@ title: Table
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a table on a slide.
 type: docs
-weight: 10620
+weight: 10700
 url: /aspose.slides/table/
 ---
 

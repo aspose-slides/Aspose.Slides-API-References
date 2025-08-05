@@ -3,7 +3,7 @@ title: ParagraphFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: This class contains the paragraph formatting properties. Unlike IParagraphFormatEffectiveData./iparagraphformateffectivedata all properties of this class are writeable.
 type: docs
-weight: 9110
+weight: 9190
 url: /aspose.slides/paragraphformat/
 ---
 

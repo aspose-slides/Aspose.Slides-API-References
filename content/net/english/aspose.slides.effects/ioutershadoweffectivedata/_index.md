@@ -3,7 +3,7 @@ title: IOuterShadowEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which represents an Outer Shadow effect.
 type: docs
-weight: 3410
+weight: 3440
 url: /aspose.slides.effects/ioutershadoweffectivedata/
 ---
 

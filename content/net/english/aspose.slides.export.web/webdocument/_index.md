@@ -3,7 +3,7 @@ title: WebDocument
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a transition form of the presentation for saving into a web format.
 type: docs
-weight: 4550
+weight: 4620
 url: /aspose.slides.export.web/webdocument/
 ---
 

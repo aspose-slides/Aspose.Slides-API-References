@@ -3,7 +3,7 @@ title: PptOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides options that control how a presentation is saved in PPT format.
 type: docs
-weight: 4230
+weight: 4300
 url: /aspose.slides.export/pptoptions/
 ---
 

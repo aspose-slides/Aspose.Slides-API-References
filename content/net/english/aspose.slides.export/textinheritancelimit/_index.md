@@ -3,7 +3,7 @@ title: TextInheritanceLimit
 second_title: Aspose.Sildes for .NET API Reference
 description: Controls the depth of the text properties inheritance.
 type: docs
-weight: 4410
+weight: 4480
 url: /aspose.slides.export/textinheritancelimit/
 ---
 

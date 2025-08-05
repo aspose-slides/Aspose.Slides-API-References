@@ -3,7 +3,7 @@ title: Contains
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines whether the ICollection contains a specific value.
 type: docs
-weight: 230
+weight: 240
 url: /aspose.slides.effects/imagetransformoperationcollection/contains/
 ---
 

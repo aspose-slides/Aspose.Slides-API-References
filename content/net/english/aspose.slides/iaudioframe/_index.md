@@ -3,7 +3,7 @@ title: IAudioFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an audio clip on a slide.
 type: docs
-weight: 5090
+weight: 5160
 url: /aspose.slides/iaudioframe/
 ---
 
@@ -24,6 +24,7 @@ public interface IAudioFrame : IPictureFrame
 | [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | Returns or sets a last track time. Read/write Int32. |
 | [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | Returns or sets a start track index. Read/write Int32. |
 | [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | Returns or sets a start track time. Read/write Int32. |
+| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | Gets the collection of closed captions associated with the audio frame. This property is read-only and returns an [`ICaptionsCollection`](../icaptionscollection) containing all caption tracks. |
 | [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | Determines whether a sound is embedded to a presentation. Read-only Boolean. |
 | [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | Returns or sets embedded audio object. Read/write [`IAudio`](../iaudio). |
 | [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | Specifies the time duration for the initial fade-in of the media in milliseconds. Read/write Single. |

@@ -3,7 +3,7 @@ title: MathArray
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies a vertical array of equations or any mathematical objects
 type: docs
-weight: 8360
+weight: 8440
 url: /aspose.slides.mathtext/matharray/
 ---
 

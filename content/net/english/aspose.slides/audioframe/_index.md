@@ -27,6 +27,7 @@ public class AudioFrame : PictureFrame, IAudioFrame
 | [AudioCdStartTrack](../../aspose.slides/audioframe/audiocdstarttrack) { get; set; } | Returns or sets a start track index. Read/write Int32. |
 | [AudioCdStartTrackTime](../../aspose.slides/audioframe/audiocdstarttracktime) { get; set; } | Returns or sets a start track time. Read/write Int32. |
 | [BlackWhiteMode](../../aspose.slides/shape/blackwhitemode) { get; set; } | Property specifies how a shape will render in black-and-white display mode.. Read/write [`BlackWhiteMode`](../blackwhitemode). |
+| [CaptionTracks](../../aspose.slides/audioframe/captiontracks) { get; } | Gets the collection of closed captions associated with the audio frame. This property is read-only and returns an [`ICaptionsCollection`](../icaptionscollection) containing all caption tracks. |
 | [ConnectionSiteCount](../../aspose.slides/shape/connectionsitecount) { get; } | Returns the number of connection sites on the shape. Read-only Int32. |
 | [CustomData](../../aspose.slides/shape/customdata) { get; } | Returns the shape's custom data. Read-only [`ICustomData`](../icustomdata). |
 | virtual [EffectFormat](../../aspose.slides/shape/effectformat) { get; } | Returns the EffectFormat object which contains pixel effects applied to a shape. Note: can return null for certain types of shapes which don't have effect properties. Read-only [`IEffectFormat`](../ieffectformat). |

@@ -3,7 +3,7 @@ title: WheelTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: Wheel slide transition effect.
 type: docs
-weight: 10230
+weight: 10310
 url: /aspose.slides.slideshow/wheeltransition/
 ---
 

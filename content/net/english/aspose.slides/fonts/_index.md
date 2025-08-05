@@ -3,7 +3,7 @@ title: Fonts
 second_title: Aspose.Sildes for .NET API Reference
 description: Fonts collection.
 type: docs
-weight: 4780
+weight: 4850
 url: /aspose.slides/fonts/
 ---
 
@@ -22,6 +22,15 @@ public class Fonts : IFonts
 | [ComplexScriptFont](../../aspose.slides/fonts/complexscriptfont) { get; set; } | Returns or sets the complex script font. Read/write [`IFontData`](../ifontdata). |
 | [EastAsianFont](../../aspose.slides/fonts/eastasianfont) { get; set; } | Returns or sets the East Asian font. Read/write [`IFontData`](../ifontdata). |
 | [LatinFont](../../aspose.slides/fonts/latinfont) { get; set; } | Returns or sets the Latin font. Read/write [`IFontData`](../ifontdata). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | Gets the font name associated with a specific script tag from the presentation theme. |
+| [GetScriptFontMap](../../aspose.slides/fonts/getscriptfontmap)() | Returns a dictionary of all script font definitions in the presentation. |
+| [RemoveScriptFont](../../aspose.slides/fonts/removescriptfont)(string) | Removes the font setting associated with a specific script tag from the theme's font collection. |
+| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | Assigns a font name to a specific script tag, which defines how text of that script will be rendered in the presentation. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: ISvgShapeFormattingController
 second_title: Aspose.Sildes for .NET API Reference
 description: Controls SVG shape generation.
 type: docs
-weight: 4020
+weight: 4090
 url: /aspose.slides.export/isvgshapeformattingcontroller/
 ---
 

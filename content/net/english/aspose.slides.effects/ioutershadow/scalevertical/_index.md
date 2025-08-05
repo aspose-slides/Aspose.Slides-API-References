@@ -1,7 +1,7 @@
 ---
 title: ScaleVertical
 second_title: Aspose.Sildes for .NET API Reference
-description: Specifies the vertical scaling factor negative scaling causes a flip. Read/write Double.
+description: Vertical scaling factor in percent of the original size. Negative scaling causes a flip. Default value  100 . Read/write Double.
 type: docs
 weight: 90
 url: /aspose.slides.effects/ioutershadow/scalevertical/
@@ -9,7 +9,7 @@ url: /aspose.slides.effects/ioutershadow/scalevertical/
 
 ## IOuterShadow.ScaleVertical property
 
-Specifies the vertical scaling factor, negative scaling causes a flip. Read/write Double.
+Vertical scaling factor, in percent of the original size. Negative scaling causes a flip. Default value – 100 %. Read/write Double.
 
 ```csharp
 public double ScaleVertical { get; set; }

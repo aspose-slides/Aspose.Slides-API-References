@@ -3,7 +3,7 @@ title: MasterSlide
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a master slide in a presentation.
 type: docs
-weight: 7850
+weight: 7930
 url: /aspose.slides/masterslide/
 ---
 

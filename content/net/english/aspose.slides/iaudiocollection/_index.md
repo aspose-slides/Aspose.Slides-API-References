@@ -3,7 +3,7 @@ title: IAudioCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of embedded audio files.
 type: docs
-weight: 5080
+weight: 5150
 url: /aspose.slides/iaudiocollection/
 ---
 

@@ -3,7 +3,7 @@ title: VbaReferenceOleTypeLib
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents OLE Automation type library reference.
 type: docs
-weight: 11450
+weight: 11530
 url: /aspose.slides.vba/vbareferenceoletypelib/
 ---
 

@@ -3,7 +3,7 @@ title: IVbaReferenceProject
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents reference to an external VBA project.
 type: docs
-weight: 11380
+weight: 11460
 url: /aspose.slides.vba/ivbareferenceproject/
 ---
 

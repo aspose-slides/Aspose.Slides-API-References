@@ -3,7 +3,7 @@ title: Aspose.Slides.Warnings
 second_title: Aspose.Sildes for .NET API Reference
 description: Contains classes that represents various kind of warnings
 type: docs
-weight: 200
+weight: 210
 url: /aspose.slides.warnings/
 ---
 

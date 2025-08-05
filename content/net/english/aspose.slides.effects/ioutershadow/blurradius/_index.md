@@ -1,7 +1,7 @@
 ---
 title: BlurRadius
 second_title: Aspose.Sildes for .NET API Reference
-description: Blur radius. Read/write Double.
+description: Blur radius in points. Default value  0 pt. Read/write Double.
 type: docs
 weight: 30
 url: /aspose.slides.effects/ioutershadow/blurradius/
@@ -9,7 +9,7 @@ url: /aspose.slides.effects/ioutershadow/blurradius/
 
 ## IOuterShadow.BlurRadius property
 
-Blur radius. Read/write Double.
+Blur radius, in points. Default value – 0 pt. Read/write Double.
 
 ```csharp
 public double BlurRadius { get; set; }

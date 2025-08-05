@@ -1,7 +1,7 @@
 ---
 title: Direction
 second_title: Aspose.Sildes for .NET API Reference
-description: Direction of shadow. Read/write Single.
+description: Direction of the shadow in degrees. Default value  0  left-to-right. Read/write Single.
 type: docs
 weight: 20
 url: /aspose.slides.effects/outershadow/direction/
@@ -9,7 +9,7 @@ url: /aspose.slides.effects/outershadow/direction/
 
 ## OuterShadow.Direction property
 
-Direction of shadow. Read/write Single.
+Direction of the shadow, in degrees. Default value – 0 ° (left-to-right). Read/write Single.
 
 ```csharp
 public float Direction { get; set; }

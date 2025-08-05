@@ -3,7 +3,7 @@ title: IImageTransformOperationCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of effects apllied to an image.
 type: docs
-weight: 3340
+weight: 3370
 url: /aspose.slides.effects/iimagetransformoperationcollection/
 ---
 
@@ -35,6 +35,7 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 | [AddAlphaReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphareplaceeffect)(float) | Adds the new Alpha Replace effect to the end of a collection. |
 | [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | Adds the new Bi-Level (black/white) effect to the end of a collection. |
 | [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | Adds the new Blur effect to the end of a collection. |
+| [AddBrightnessContrastEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbrightnesscontrasteffect)(float, float) | Adds the new BrightnessContrast effect to the end of a collection. |
 | [AddColorChangeEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorchangeeffect)() | Adds the new Color Change effect to the end of a collection. |
 | [AddColorReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorreplaceeffect)() | Adds the new Color Replacement effect to the end of a collection. |
 | [AddDuotoneEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffect)() | Adds the new Duotone effect to the end of a collection. |

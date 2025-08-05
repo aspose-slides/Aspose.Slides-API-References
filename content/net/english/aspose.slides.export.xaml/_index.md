@@ -3,7 +3,7 @@ title: Aspose.Slides.Export.Xaml
 second_title: Aspose.Sildes for .NET API Reference
 description: Contains classes for exporting Microsoft PowerPoint presentations to XAML.
 type: docs
-weight: 90
+weight: 100
 url: /aspose.slides.export.xaml/
 ---
 

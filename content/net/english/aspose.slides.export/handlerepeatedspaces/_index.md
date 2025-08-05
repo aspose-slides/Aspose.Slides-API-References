@@ -3,7 +3,7 @@ title: HandleRepeatedSpaces
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies how repeated regular space characters should be handled during Markdown export.
 type: docs
-weight: 3720
+weight: 3790
 url: /aspose.slides.export/handlerepeatedspaces/
 ---
 

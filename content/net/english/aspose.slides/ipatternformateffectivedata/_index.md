@@ -3,7 +3,7 @@ title: IPatternFormatEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which contains effective pattern filling properties.
 type: docs
-weight: 6490
+weight: 6560
 url: /aspose.slides/ipatternformateffectivedata/
 ---
 

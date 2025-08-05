@@ -3,7 +3,7 @@ title: SaveOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Abstract class with options that control how a presentation is saved.
 type: docs
-weight: 4320
+weight: 4390
 url: /aspose.slides.export/saveoptions/
 ---
 

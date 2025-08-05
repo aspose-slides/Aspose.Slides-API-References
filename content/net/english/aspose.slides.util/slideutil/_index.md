@@ -3,7 +3,7 @@ title: SlideUtil
 second_title: Aspose.Sildes for .NET API Reference
 description: Offer methods which help to search shapes and text in a presentation.
 type: docs
-weight: 11280
+weight: 11360
 url: /aspose.slides.util/slideutil/
 ---
 
@@ -26,8 +26,10 @@ public static class SlideUtil
 | static [FindAndReplaceText](../../aspose.slides.util/slideutil/findandreplacetext)(IPresentation, bool, string, string, PortionFormat) | Finds and replaces text in presentation with given format |
 | static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape)(IBaseSlide, string) | Find shape by alternative text on a slide in a PPTX presentation. |
 | static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape_1)(IPresentation, string) | Find shape by alternative text in a PPTX presentation. |
+| static [FindShapesByPlaceholderType](../../aspose.slides.util/slideutil/findshapesbyplaceholdertype)(IBaseSlide, PlaceholderType) | Searches for all shapes on the specified slide that match the given placeholder type. |
 | static [GetAllTextBoxes](../../aspose.slides.util/slideutil/getalltextboxes)(IBaseSlide) | Returns all text frames on a slide in a PPTX presentation. |
 | static [GetAllTextFrames](../../aspose.slides.util/slideutil/getalltextframes)(IPresentation, bool) | Returns all text frames in a PPTX presentation. |
+| static [GetTextBoxesContainsText](../../aspose.slides.util/slideutil/gettextboxescontainstext)(IBaseSlide, string, bool) | Returns all text frames on the specified slide that contain the given text. |
 
 ### See Also
 

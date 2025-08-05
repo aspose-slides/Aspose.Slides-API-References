@@ -1,7 +1,7 @@
 ---
 title: SkewHorizontal
 second_title: Aspose.Sildes for .NET API Reference
-description: Specifies the horizontal skew angle in degrees. Read/write Double.
+description: Horizontal skew angle in degrees. Default value  0 . Read/write Double.
 type: docs
 weight: 110
 url: /aspose.slides.effects/ioutershadow/skewhorizontal/
@@ -9,7 +9,7 @@ url: /aspose.slides.effects/ioutershadow/skewhorizontal/
 
 ## IOuterShadow.SkewHorizontal property
 
-Specifies the horizontal skew angle (in degrees). Read/write Double.
+Horizontal skew angle, in degrees. Default value – 0 °. Read/write Double.
 
 ```csharp
 public double SkewHorizontal { get; set; }

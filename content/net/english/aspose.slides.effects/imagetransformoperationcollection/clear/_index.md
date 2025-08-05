@@ -3,7 +3,7 @@ title: Clear
 second_title: Aspose.Sildes for .NET API Reference
 description: Removes all image effects from a collection.
 type: docs
-weight: 220
+weight: 230
 url: /aspose.slides.effects/imagetransformoperationcollection/clear/
 ---
 

@@ -3,7 +3,7 @@ title: TabCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of tabs.
 type: docs
-weight: 10600
+weight: 10680
 url: /aspose.slides/tabcollection/
 ---
 

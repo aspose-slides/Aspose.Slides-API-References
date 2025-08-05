@@ -1,7 +1,7 @@
 ---
 title: SkewVertical
 second_title: Aspose.Sildes for .NET API Reference
-description: Specifies the vertical skew angle in degrees. Read/write Double.
+description: Vertical skew angle in degrees. Default value  0 . Read/write Double.
 type: docs
 weight: 120
 url: /aspose.slides.effects/ioutershadow/skewvertical/
@@ -9,7 +9,7 @@ url: /aspose.slides.effects/ioutershadow/skewvertical/
 
 ## IOuterShadow.SkewVertical property
 
-Specifies the vertical skew angle (in degrees). Read/write Double.
+Vertical skew angle, in degrees. Default value – 0 °. Read/write Double.
 
 ```csharp
 public double SkewVertical { get; set; }
