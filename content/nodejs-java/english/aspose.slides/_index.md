@@ -61,6 +61,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [BlackWhiteMode](blackwhitemode) | Determines how colored shape should be transformed into black and white. |
 | [BlobManagementOptions](blobmanagementoptions) | Represents options which can be used to manage BLOB handling rules and other BLOB settings. |
 | [Blur](blur) | Represents a Blur effect that is applied to the entire shape, including its fill. All color channels, including alpha, are affected. |
+| [BrightnessContrast](brightnesscontrast) | Represents a BrightnessContrast effect. Ajusts brightness and contrast |
 | [BrowsedAtKiosk](browsedatkiosk) | Browsed at a kiosk (full screen) |
 | [BrowsedByIndividual](browsedbyindividual) | Browsed by individual (window) |
 | [BubbleSizeRepresentationType](bubblesizerepresentationtype) | Specifies the possible ways to represent data as bubble chart sizes. |
@@ -191,6 +192,9 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [ErrorBarValueType](errorbarvaluetype) | Represents type of error bar value |
 | [ErrorBarsCustomValues](errorbarscustomvalues) | Specifies the errors bar values. It shall be used only when the Error bars value type is Custom. |
 | [ErrorBarsFormat](errorbarsformat) | Represents error bars of chart series. ErrorBars custom values are in IChartDataPointCollection (in ( IChartDataPoint#getErrorBarsCustomValues) property). |
+| [ExcelDataCell](exceldatacell) | Represents a single cell in an Excel workbook. |
+| [ExcelDataWorkbook](exceldataworkbook) | Represents a workbook that provides access to Excel data for general use. |
+| [ExcelWorkbookImporter](excelworkbookimporter) | Provides functionality for importing content from an Excel workbook into a presentation. |
 | [ExternalResourceResolver](externalresourceresolver) | Callback class used to resolve external resources during Html, Svg documents import. Using this resolver could create a vulnerability when client provided HTML or SVG file will make server software to obtain local or network file. Use with caution. It is recommended not to specify ExternalResourceResolver at all (only embedded objects will be read) or create some subclass which checks if specified uri is valid. |
 | [ExtraColorScheme](extracolorscheme) | Represents an additional color scheme which can be assigned to a slide. |
 | [ExtraColorSchemeCollection](extracolorschemecollection) | Represents a collection of additional color schemes. |

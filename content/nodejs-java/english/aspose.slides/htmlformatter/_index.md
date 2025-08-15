@@ -15,13 +15,13 @@ url: /aspose.slides/htmlformatter/
 
 | Name | Description |
 | --- | --- |
-| createCustomFormatter ([EmbeddedWoffFontsHtmlController](../embeddedwofffontshtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
+| createCustomFormatter ([EmbedAllFontsHtmlController](../embedallfontshtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| formattingController | [EmbeddedWoffFontsHtmlController](../embeddedwofffontshtmlcontroller) | Callback interface which controls html file generation. |
+| formattingController | [EmbedAllFontsHtmlController](../embedallfontshtmlcontroller) | Callback interface which controls html file generation. |
 
  **Returns:**
 HtmlFormatter
@@ -34,13 +34,13 @@ HtmlFormatter
 
 | Name | Description |
 | --- | --- |
-| createCustomFormatter ([EmbedAllFontsHtmlController](../embedallfontshtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
+| createCustomFormatter ([EmbeddedWoffFontsHtmlController](../embeddedwofffontshtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| formattingController | [EmbedAllFontsHtmlController](../embedallfontshtmlcontroller) | Callback interface which controls html file generation. |
+| formattingController | [EmbeddedWoffFontsHtmlController](../embeddedwofffontshtmlcontroller) | Callback interface which controls html file generation. |
 
  **Returns:**
 HtmlFormatter

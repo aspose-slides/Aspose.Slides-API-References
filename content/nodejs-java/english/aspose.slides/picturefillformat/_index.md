@@ -22,7 +22,7 @@ url: /aspose.slides/picturefillformat/
 | Name | Type | Description |
 | --- | --- | --- |
 | deleteCroppedAreasOfImage | boolean | If true, the function will remove the cropped areas of the image, potentially further reducing its size. |
-| resolution | int | The target resolution for compression, specified as a value of the PicturesCompression enum. This function changes the image's size and resolution similar to PowerPoint's "Picture Format -> Compress Pictures" feature. |
+| resolution | int | The target resolution for compression, specified as a value of the PicturesCompression enum. This function changes the image's size and resolution similar to PowerPoint's "Picture Format -&gt; Compress Pictures" feature. |
 
  **Returns:**
 boolean
@@ -48,7 +48,7 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | deleteCroppedAreasOfImage | boolean | If true, the function will remove the cropped areas of the image, potentially further reducing its size. |
-| resolution | float | The target resolution in DPI. This value must be positive and defines how the image will be resized. This function changes the image's size and resolution similar to PowerPoint's "Picture Format -> Compress Pictures" feature. |
+| resolution | float | The target resolution in DPI. This value must be positive and defines how the image will be resized. This function changes the image's size and resolution similar to PowerPoint's "Picture Format -&gt; Compress Pictures" feature. |
 
  **Returns:**
 boolean

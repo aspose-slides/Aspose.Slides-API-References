@@ -21,7 +21,7 @@ url: /aspose.slides/openaiwebclient/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| model | String | OpenAI language model (gpt-4o, gpt-4o-mini, etc.) |
+| model | String | OpenAI language model. Possible values: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
 | apiKey | String | OpenAI API key |
 | organizationId | String | Organization ID (optional) |
 
@@ -32,7 +32,7 @@ OpenAIWebClient
 
 | Error | Condition |
 | --- | --- |
- | IllegalArgumentException | if API key or model are null/empty |
+ | ArgumentException | Text model value can't be null or empty |
 
 
 ---
@@ -42,10 +42,25 @@ OpenAIWebClient
 
 | Name | Description |
 | --- | --- |
-| OpenAIWebClient(String, String, String, HttpURLConnection) |  |
+| OpenAIWebClient(String, String, String, HttpURLConnection) | Creates instance of OpenAI Web client. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| model | String | OpenAI language model. Possible values: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
+| apiKey | String | OpenAI API key |
+| organizationId | String | Organization ID (optional) |
+| httpClient | HttpURLConnection | An externally managed `HttpURLConnection` instance. |
 
  **Returns:**
 OpenAIWebClient
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | Text model value can't be null or empty |
 
 
 ---
@@ -80,7 +95,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| close () |  |
+| close () | Releases resources used by this instance. |
 
 
 ---
