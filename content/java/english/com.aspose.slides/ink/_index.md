@@ -47,7 +47,7 @@ Gets all traces containing in the IInk element [IInkTrace](../../com.aspose.slid
 com.aspose.slides.IInkTrace[]
 ### getInkEffectImages() {#getInkEffectImages--}
 ```
-public static System.Collections.Generic.IGenericDictionary<Integer,IImage> getInkEffectImages()
+public static System.Collections.Generic.Dictionary<Integer,IImage> getInkEffectImages()
 ```
 
 
@@ -65,4 +65,4 @@ Gets the collection of custom images used to simulate visual effects for ink bru
 This property allows replacing the default ink effect textures with user-defined ones, which is particularly useful when default assets are restricted by licensing or unavailable at runtime. Each entry in the dictionary must associate an [InkEffectType](../../com.aspose.slides/inkeffecttype) value with a corresponding [IImage](../../com.aspose.slides/iimage) object (e.g., Bitmap, or an Aspose image interface).
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericDictionary<java.lang.Integer,com.aspose.slides.IImage>
+com.aspose.ms.System.Collections.Generic.Dictionary<java.lang.Integer,com.aspose.slides.IImage>

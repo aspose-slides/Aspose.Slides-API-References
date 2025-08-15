@@ -20,14 +20,14 @@ Build-in lightweight OpenAI web client
 | Constructor | Description |
 | --- | --- |
 | [OpenAIWebClient(String model, String apiKey, String organizationId)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-) | Creates instance of OpenAI Web client. |
-| [OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) |  |
+| [OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | Creates instance of OpenAI Web client. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [callChat(String instruction)](#callChat-java.lang.String-) | Sends a chat instruction to the AI model using an externally managed  instance and returns response message to the given instruction. |
 | [createConversation()](#createConversation--) | Creates a conversation instance. |
-| [close()](#close--) |  |
+| [close()](#close--) | Releases resources used by this instance. |
 ### OpenAIWebClient(String model, String apiKey, String organizationId) {#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-}
 ```
 public OpenAIWebClient(String model, String apiKey, String organizationId)
@@ -39,7 +39,7 @@ Creates instance of OpenAI Web client.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| model | java.lang.String | OpenAI language model (gpt-4o, gpt-4o-mini, etc.) |
+| model | java.lang.String | OpenAI language model. Possible values: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
 | apiKey | java.lang.String | OpenAI API key |
 | organizationId | java.lang.String | Organization ID (optional) |
 
@@ -49,13 +49,15 @@ public OpenAIWebClient(String model, String apiKey, String organizationId, HttpU
 ```
 
 
+Creates instance of OpenAI Web client.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| model | java.lang.String |  |
-| apiKey | java.lang.String |  |
-| organizationId | java.lang.String |  |
-| httpClient | java.net.HttpURLConnection |  |
+| model | java.lang.String | OpenAI language model. Possible values: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
+| apiKey | java.lang.String | OpenAI API key |
+| organizationId | java.lang.String | Organization ID (optional) |
+| httpClient | java.net.HttpURLConnection | An externally managed HttpURLConnection instance. |
 
 ### callChat(String instruction) {#callChat-java.lang.String-}
 ```
@@ -84,9 +86,9 @@ Creates a conversation instance. Unlike regular AI calls, conversations retain t
 [IAIConversation](../../com.aspose.slides/iaiconversation) - An [IAIConversation](../../com.aspose.slides/iaiconversation) instance.
 ### close() {#close--}
 ```
-public void close()
+public final void close()
 ```
 
 
-
+Releases resources used by this instance.
 

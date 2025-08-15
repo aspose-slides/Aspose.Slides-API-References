@@ -39,6 +39,7 @@ Represents a collection of effects apllied to an image.
 | [addHSLEffect(float hue, float saturation, float luminance)](#addHSLEffect-float-float-float-) | Adds the new Hue/Saturation/Luminance effect to the end of a collection. |
 | [addLuminanceEffect(float brightness, float contrast)](#addLuminanceEffect-float-float-) | Adds the new Luminance effect to the end of a collection. |
 | [addTintEffect(float hue, float amount)](#addTintEffect-float-float-) | Adds the new Tint effect to the end of a collection. |
+| [addBrightnessContrastEffect(float brightness, float contrast)](#addBrightnessContrastEffect-float-float-) | Adds the new BrightnessContrast effect to the end of a collection. |
 | [size()](#size--) | Returns the number of image effects in a collection. |
 | [isReadOnly()](#isReadOnly--) | Gets a value indicating whether the [IGenericCollection](../../com.aspose.slides/igenericcollection) is read-only. |
 | [addItem(IImageTransformOperation operation)](#addItem-com.aspose.slides.IImageTransformOperation-) | Adds the new image effect to the end of a collection. |
@@ -301,6 +302,22 @@ Adds the new Tint effect to the end of a collection.
 
 **Returns:**
 [ITint](../../com.aspose.slides/itint) - Index of the new image effect in a collection.
+### addBrightnessContrastEffect(float brightness, float contrast) {#addBrightnessContrastEffect-float-float-}
+```
+public final IBrightnessContrast addBrightnessContrastEffect(float brightness, float contrast)
+```
+
+
+Adds the new BrightnessContrast effect to the end of a collection.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| brightness | float | The percent to change the brightness. |
+| contrast | float | The percent to change the contrast. |
+
+**Returns:**
+[IBrightnessContrast](../../com.aspose.slides/ibrightnesscontrast) - Index of the new image effect in a collection.
 ### size() {#size--}
 ```
 public final int size()
