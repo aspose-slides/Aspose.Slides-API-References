@@ -3,7 +3,7 @@ title: ILuminanceEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a Luminance effect. Brightness linearly shifts all colors closer to white or black. Contrast scales all colors to be either closer or further apart.
 type: docs
-weight: 768
+weight: 807
 url: /aspose.slides.effects/iluminanceeffectivedata/
 ---
 ## ILuminanceEffectiveData class

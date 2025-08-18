@@ -3,7 +3,7 @@ title: Reflection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a Reflection effect.
 type: docs
-weight: 1028
+weight: 1067
 url: /aspose.slides.effects/reflection/
 ---
 ## Reflection class

@@ -3,7 +3,7 @@ title: IBiLevelEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which represents a Bi-Level (black/white) effect. Input colors whose luminance is less than the specified threshold value are changed to black. Input colors whose luminance are greater than or equal the specified value are set to white. The alpha effect values are unaffected by this effect.
 type: docs
-weight: 430
+weight: 443
 url: /aspose.slides.effects/ibileveleffectivedata/
 ---
 ## IBiLevelEffectiveData class

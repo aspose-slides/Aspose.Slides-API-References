@@ -3,7 +3,7 @@ title: PdfImportOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the PDF import options
 type: docs
-weight: 53
+weight: 66
 url: /aspose.slides.import/pdfimportoptions/
 ---
 ## PdfImportOptions class

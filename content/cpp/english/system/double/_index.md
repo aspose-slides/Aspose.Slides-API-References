@@ -3,7 +3,7 @@ title: Double
 second_title: Aspose.Slides for C++ API Reference
 description: Contains methods to work with the double-precision floating-point number.
 type: docs
-weight: 1483
+weight: 1509
 url: /system/double/
 ---
 ## Double struct

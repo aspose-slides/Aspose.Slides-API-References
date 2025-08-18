@@ -3,7 +3,7 @@ title: GetAllTextFrames()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns all text frames in a PPTX presentation.
 type: docs
-weight: 53
+weight: 79
 url: /aspose.slides.util/slideutil/getalltextframes/
 ---
 ## SlideUtil::GetAllTextFrames(System::SharedPtr\<IPresentation\>, bool) method

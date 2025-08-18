@@ -3,7 +3,7 @@ title: IColorChange
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a Color Change effect. Instances of FromColor are replaced with instances of ToColor.
 type: docs
-weight: 469
+weight: 508
 url: /aspose.slides.effects/icolorchange/
 ---
 ## IColorChange class

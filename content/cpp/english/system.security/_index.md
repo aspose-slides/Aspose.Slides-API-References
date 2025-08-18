@@ -3,7 +3,7 @@ title: "System::Security"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 742
+weight: 755
 url: /system.security/
 ---
 

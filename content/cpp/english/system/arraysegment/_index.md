@@ -1,7 +1,7 @@
 ---
 title: ArraySegment
 second_title: Aspose.Slides for C++ API Reference
-description: "Represents a segment of the one-dimensional array. Objects of this class should only be allocated using System::MakeObject() function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into System::SmartPtr pointer and use this pointer to pass it to functions as argument."
+description: "Represents a segment of the one-dimensional array. This type should be allocated on stack and passed to functions by value or by reference. Never use System::SmartPtr class to manage objects of this type."
 type: docs
 weight: 27
 url: /system/arraysegment/
@@ -9,7 +9,7 @@ url: /system/arraysegment/
 ## ArraySegment class
 
 
-Represents a segment of the one-dimensional array. Objects of this class should only be allocated using [System::MakeObject()](../makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](../smartptr/) pointer and use this pointer to pass it to functions as argument.
+Represents a segment of the one-dimensional array. This type should be allocated on stack and passed to functions by value or by reference. Never use [System::SmartPtr](../smartptr/) class to manage objects of this type.
 
 ```cpp
 template<typename T>class ArraySegment : public System::Object

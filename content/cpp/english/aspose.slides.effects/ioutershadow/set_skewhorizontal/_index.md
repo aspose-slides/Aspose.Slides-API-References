@@ -1,7 +1,7 @@
 ---
 title: set_SkewHorizontal()
 second_title: Aspose.Slides for C++ API Reference
-description: Specifies the horizontal skew angle (in degrees). Write double.
+description: Horizontal skew angle, in degrees. Default value \\u2013 0 \\u00B0. Write double.
 type: docs
 weight: 131
 url: /aspose.slides.effects/ioutershadow/set_skewhorizontal/
@@ -9,7 +9,7 @@ url: /aspose.slides.effects/ioutershadow/set_skewhorizontal/
 ## IOuterShadow::set_SkewHorizontal(double) method
 
 
-Specifies the horizontal skew angle (in degrees). Write **double**.
+Horizontal skew angle, in degrees. Default value \\u2013 0 \\u00B0. Write **double**.
 
 ```cpp
 virtual void Aspose::Slides::Effects::IOuterShadow::set_SkewHorizontal(double value)=0

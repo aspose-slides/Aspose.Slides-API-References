@@ -12,7 +12,7 @@ url: /system/valuetuple/item/
 Gets the reference to value of the [ValueTuple](../) object's component.
 
 ```cpp
-template<int32_t> std::tuple_element<Index, tuple_t>::type & System::ValueTuple<Args>::Item()
+template<std::size_t> std::tuple_element_t<Index, tuple_t> & System::ValueTuple<Args>::Item()
 ```
 
 
@@ -28,7 +28,7 @@ template<int32_t> std::tuple_element<Index, tuple_t>::type & System::ValueTuple<
 Gets the value of the [ValueTuple](../) object's component.
 
 ```cpp
-template<int32_t> const std::tuple_element<Index, tuple_t>::type & System::ValueTuple<Args>::Item() const
+template<std::size_t> const std::tuple_element_t<Index, tuple_t> & System::ValueTuple<Args>::Item() const
 ```
 
 

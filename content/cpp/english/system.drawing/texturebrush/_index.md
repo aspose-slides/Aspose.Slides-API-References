@@ -19,8 +19,8 @@ class TextureBrush : public System::Drawing::Brush
 
 | Method | Description |
 | --- | --- |
-| [SharedPtr](../../system/sharedptr/)\<[Brush](../brush/)\> [Clone](./clone/)() override | Creates a copy of the current object. |
-| void [Dispose](../brush/dispose/)() | Releases operating system resources acquired by the current object. |
+| [SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\> [Clone](./clone/)() override | Creates a copy of the current object. |
+| virtual void [Dispose](../../system/idisposable/dispose/)() | Does nothing. |
 | virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | Compares objects using C# [Object.Equals](../../system/object/equals/) semantics. |
 | static std::enable_if\<[IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Compares reference type objects in C# style. |
 | static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&\![IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Compares value type objects in C# style. |

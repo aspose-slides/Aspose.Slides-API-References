@@ -3,7 +3,7 @@ title: IVisualEffect
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 976
+weight: 1015
 url: /aspose.slides.effects/ivisualeffect/
 ---
 ## IVisualEffect class

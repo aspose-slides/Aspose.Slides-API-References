@@ -3,7 +3,7 @@ title: InnerShadow
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a Inner Shadow effect.
 type: docs
-weight: 833
+weight: 872
 url: /aspose.slides.effects/innershadow/
 ---
 ## InnerShadow class

@@ -3,7 +3,7 @@ title: IImageTransformOperationCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a collection of effects apllied to an image.
 type: docs
-weight: 703
+weight: 742
 url: /aspose.slides.effects/iimagetransformoperationcollection/
 ---
 ## IImageTransformOperationCollection class
@@ -29,6 +29,7 @@ class IImageTransformOperationCollection : public System::Collections::Generic::
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IAlphaReplace](../ialphareplace/)\> [AddAlphaReplaceEffect](./addalphareplaceeffect/)(**float**) | Adds the new Alpha Replace effect to the end of a collection. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IBiLevel](../ibilevel/)\> [AddBiLevelEffect](./addbileveleffect/)(**float**) | Adds the new Bi-Level (black/white) effect to the end of a collection. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IBlur](../iblur/)\> [AddBlurEffect](./addblureffect/)(**double**, **bool**) | Adds the new [Blur](../blur/) effect to the end of a collection. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IBrightnessContrast](../ibrightnesscontrast/)\> [AddBrightnessContrastEffect](./addbrightnesscontrasteffect/)(**float**, **float**) | Adds the new [BrightnessContrast](../brightnesscontrast/) effect to the end of a collection. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IColorChange](../icolorchange/)\> [AddColorChangeEffect](./addcolorchangeeffect/)() | Adds the new Color Change effect to the end of a collection. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IColorReplace](../icolorreplace/)\> [AddColorReplaceEffect](./addcolorreplaceeffect/)() | Adds the new Color Replacement effect to the end of a collection. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IDuotone](../iduotone/)\> [AddDuotoneEffect](./addduotoneeffect/)() | Adds the new [Duotone](../duotone/) effect to the end of a collection. |

@@ -3,7 +3,7 @@ title: Duotone
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a Duotone effect. For each pixel, combines Color1 and Color2 through a linear interpolation to determine the new color for that pixel.
 type: docs
-weight: 144
+weight: 157
 url: /aspose.slides.effects/duotone/
 ---
 ## Duotone class

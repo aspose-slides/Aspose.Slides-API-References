@@ -1,7 +1,7 @@
 ---
 title: set_ScaleHorizontal()
 second_title: Aspose.Slides for C++ API Reference
-description: Specifies the horizontal scaling factor, negative scaling causes a flip. Write double.
+description: Horizontal scaling factor, in percent of the original size. Negative scaling causes a flip. Default value \\u2013 100 %. Write double.
 type: docs
 weight: 209
 url: /aspose.slides.effects/outershadow/set_scalehorizontal/
@@ -9,7 +9,7 @@ url: /aspose.slides.effects/outershadow/set_scalehorizontal/
 ## OuterShadow::set_ScaleHorizontal(double) method
 
 
-Specifies the horizontal scaling factor, negative scaling causes a flip. Write **double**.
+Horizontal scaling factor, in percent of the original size. Negative scaling causes a flip. Default value \\u2013 100 %. Write **double**.
 
 ```cpp
 void Aspose::Slides::Effects::OuterShadow::set_ScaleHorizontal(double value) override

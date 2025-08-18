@@ -3,7 +3,7 @@ title: IAlphaFloorEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which represents an Alpha Floor effect. Alpha (opacity) values less than 100% are changed to zero. In other words, anything partially transparent becomes fully transparent.
 type: docs
-weight: 287
+weight: 300
 url: /aspose.slides.effects/ialphaflooreffectivedata/
 ---
 ## IAlphaFloorEffectiveData class

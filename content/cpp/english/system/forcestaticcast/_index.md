@@ -3,7 +3,7 @@ title: ForceStaticCast()
 second_title: Aspose.Slides for C++ API Reference
 description: Performs real static cast on SmartPtr objects.
 type: docs
-weight: 2289
+weight: 2315
 url: /system/forcestaticcast/
 ---
 ## System::ForceStaticCast(SmartPtr\<TFrom\> const\&) function

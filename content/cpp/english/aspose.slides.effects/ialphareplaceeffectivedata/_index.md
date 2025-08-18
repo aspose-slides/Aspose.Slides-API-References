@@ -3,7 +3,7 @@ title: IAlphaReplaceEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which represents and Alpha Replace effect. Effect alpha (opacity) values are replaced by a fixed alpha.
 type: docs
-weight: 391
+weight: 404
 url: /aspose.slides.effects/ialphareplaceeffectivedata/
 ---
 ## IAlphaReplaceEffectiveData class

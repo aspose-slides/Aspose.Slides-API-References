@@ -3,7 +3,7 @@ title: IEffectFactory
 second_title: Aspose.Slides for C++ API Reference
 description: Allows to create effects' instances
 type: docs
-weight: 560
+weight: 599
 url: /aspose.slides.effects/ieffectfactory/
 ---
 ## IEffectFactory class

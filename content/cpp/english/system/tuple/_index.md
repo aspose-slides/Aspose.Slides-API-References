@@ -3,7 +3,7 @@ title: Tuple
 second_title: Aspose.Slides for C++ API Reference
 description: Class that represents a tuple data structure. Maximum number of items is 8.
 type: docs
-weight: 1262
+weight: 1288
 url: /system/tuple/
 ---
 ## Tuple class

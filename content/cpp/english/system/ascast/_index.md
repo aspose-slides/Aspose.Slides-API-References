@@ -3,7 +3,7 @@ title: AsCast()
 second_title: Aspose.Slides for C++ API Reference
 description: Casts the source type to the result type using 'as' operator cast. Used when simple constructor-like cast is needed.
 type: docs
-weight: 2328
+weight: 2354
 url: /system/ascast/
 ---
 ## System::AsCast(const Source\&) function

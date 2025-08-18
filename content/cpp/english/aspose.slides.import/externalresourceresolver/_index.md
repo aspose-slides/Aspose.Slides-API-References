@@ -3,7 +3,7 @@ title: ExternalResourceResolver
 second_title: Aspose.Slides for C++ API Reference
 description: Callback class used to resolve external resources during Html, Svg documents import.
 type: docs
-weight: 1
+weight: 14
 url: /aspose.slides.import/externalresourceresolver/
 ---
 ## ExternalResourceResolver class

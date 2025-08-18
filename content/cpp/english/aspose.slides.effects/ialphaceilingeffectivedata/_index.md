@@ -3,7 +3,7 @@ title: IAlphaCeilingEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which represents an Alpha Ceiling effect. Alpha (opacity) values greater than zero are changed to 100%. In other words, anything partially opaque becomes fully opaque.
 type: docs
-weight: 261
+weight: 274
 url: /aspose.slides.effects/ialphaceilingeffectivedata/
 ---
 ## IAlphaCeilingEffectiveData class

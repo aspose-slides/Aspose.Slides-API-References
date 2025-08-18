@@ -3,7 +3,7 @@ title: GrayScale
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a Gray Scale effect. Converts all effect color values to a shade of gray, corresponding to their luminance. Effect alpha (opacity) values are unaffected.
 type: docs
-weight: 196
+weight: 209
 url: /aspose.slides.effects/grayscale/
 ---
 ## GrayScale class

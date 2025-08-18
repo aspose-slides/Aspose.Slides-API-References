@@ -3,7 +3,7 @@ title: "System::Xml::Schema"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 1067
+weight: 1080
 url: /system.xml.schema/
 ---
 

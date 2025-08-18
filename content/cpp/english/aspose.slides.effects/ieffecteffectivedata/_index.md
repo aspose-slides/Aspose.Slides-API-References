@@ -3,7 +3,7 @@ title: IEffectEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Base class for immutable objects, which represent effect.
 type: docs
-weight: 547
+weight: 586
 url: /aspose.slides.effects/ieffecteffectivedata/
 ---
 ## IEffectEffectiveData class

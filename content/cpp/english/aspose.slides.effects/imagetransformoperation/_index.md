@@ -3,7 +3,7 @@ title: ImageTransformOperation
 second_title: Aspose.Slides for C++ API Reference
 description: Represents abstract image transformation effect.
 type: docs
-weight: 794
+weight: 833
 url: /aspose.slides.effects/imagetransformoperation/
 ---
 ## ImageTransformOperation class

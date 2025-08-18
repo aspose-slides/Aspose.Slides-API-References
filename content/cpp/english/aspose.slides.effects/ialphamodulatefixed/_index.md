@@ -3,7 +3,7 @@ title: IAlphaModulateFixed
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an Alpha Modulate Fixed effect. Effect alpha (opacity) values are multiplied by a fixed percentage.
 type: docs
-weight: 352
+weight: 365
 url: /aspose.slides.effects/ialphamodulatefixed/
 ---
 ## IAlphaModulateFixed class

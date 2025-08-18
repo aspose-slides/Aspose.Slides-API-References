@@ -3,7 +3,7 @@ title: FindAndReplaceText()
 second_title: Aspose.Slides for C++ API Reference
 description: Finds and replaces text in presentation with given format
 type: docs
-weight: 27
+weight: 40
 url: /aspose.slides.util/slideutil/findandreplacetext/
 ---
 ## SlideUtil::FindAndReplaceText(System::SharedPtr\<IPresentation\>, bool, System::String, System::String, System::SharedPtr\<PortionFormat\>) method

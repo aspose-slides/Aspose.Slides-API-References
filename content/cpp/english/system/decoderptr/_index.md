@@ -3,7 +3,7 @@ title: DecoderPtr
 second_title: Aspose.Slides for C++ API Reference
 description: "An alias for a smart pointer that points to an instance of System::Text::Decoder class."
 type: docs
-weight: 3082
+weight: 3108
 url: /system/decoderptr/
 ---
 ## DecoderPtr typedef

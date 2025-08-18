@@ -3,7 +3,7 @@ title: IsStringByteSequence
 second_title: Aspose.Slides for C++ API Reference
 description: Template magic to check if a type is a sequence of string characters.
 type: docs
-weight: 1626
+weight: 1652
 url: /system/isstringbytesequence/
 ---
 ## IsStringByteSequence struct

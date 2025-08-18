@@ -3,7 +3,7 @@ title: AsyncCallback
 second_title: Aspose.Slides for C++ API Reference
 description: A delegate type that represents a method to be called when asynchronous operation completes.
 type: docs
-weight: 3277
+weight: 3303
 url: /system/asynccallback/
 ---
 ## AsyncCallback typedef

@@ -3,7 +3,7 @@ title: MethodAccessException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 3706
+weight: 3732
 url: /system/methodaccessexception/
 ---
 ## MethodAccessException typedef

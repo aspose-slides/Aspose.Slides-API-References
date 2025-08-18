@@ -9,7 +9,7 @@ url: /aspose.slides.charts/ichartdataworkbook/
 ## IChartDataWorkbook class
 
 
-Provides access to embedded Excel workbook
+Provides access to embedded [Excel](../../aspose.slides.excel/) workbook
 
 ```cpp
 class IChartDataWorkbook : public virtual System::Object

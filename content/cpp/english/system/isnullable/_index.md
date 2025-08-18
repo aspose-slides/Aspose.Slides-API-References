@@ -3,7 +3,7 @@ title: IsNullable
 second_title: Aspose.Slides for C++ API Reference
 description: A template predicate that determines if its template argument T in Nullable or its subclass.
 type: docs
-weight: 1600
+weight: 1626
 url: /system/isnullable/
 ---
 ## IsNullable struct

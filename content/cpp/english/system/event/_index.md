@@ -3,7 +3,7 @@ title: Event
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an event - a mechanism through which subscribers are notified about an occurence of interest by means of a delegate invocation.
 type: docs
-weight: 3316
+weight: 3342
 url: /system/event/
 ---
 ## Event typedef

@@ -3,7 +3,7 @@ title: IAlphaInverse
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an Alpha Inverse effect. Alpha (opacity) values are inverted by subtracting from 100%.
 type: docs
-weight: 300
+weight: 313
 url: /aspose.slides.effects/ialphainverse/
 ---
 ## IAlphaInverse class

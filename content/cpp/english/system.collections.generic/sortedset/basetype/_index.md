@@ -3,7 +3,7 @@ title: BaseType
 second_title: Aspose.Slides for C++ API Reference
 description: Vase type.
 type: docs
-weight: 27
+weight: 40
 url: /system.collections.generic/sortedset/basetype/
 ---
 ## BaseType typedef

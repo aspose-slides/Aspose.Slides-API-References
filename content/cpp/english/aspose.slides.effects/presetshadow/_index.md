@@ -3,7 +3,7 @@ title: PresetShadow
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a Preset Shadow effect.
 type: docs
-weight: 1015
+weight: 1054
 url: /aspose.slides.effects/presetshadow/
 ---
 ## PresetShadow class

@@ -3,7 +3,7 @@ title: IOuterShadowEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which represents an Outer Shadow effect.
 type: docs
-weight: 859
+weight: 898
 url: /aspose.slides.effects/ioutershadoweffectivedata/
 ---
 ## IOuterShadowEffectiveData class

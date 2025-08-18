@@ -3,7 +3,7 @@ title: IDuotone
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a Duotone effect.
 type: docs
-weight: 521
+weight: 560
 url: /aspose.slides.effects/iduotone/
 ---
 ## IDuotone class

@@ -3,7 +3,7 @@ title: Convert
 second_title: Aspose.Slides for C++ API Reference
 description: "The structure that contains methods performing conversion of values of one type to the values of another type. This type should be allocated on stack and passed to functions by value or by reference. Never use System::SmartPtr class to manage objects of this type."
 type: docs
-weight: 1470
+weight: 1496
 url: /system/convert/
 ---
 ## Convert struct

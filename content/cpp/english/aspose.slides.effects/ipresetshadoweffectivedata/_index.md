@@ -3,7 +3,7 @@ title: IPresetShadowEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which represents a Preset Shadow effect.
 type: docs
-weight: 885
+weight: 924
 url: /aspose.slides.effects/ipresetshadoweffectivedata/
 ---
 ## IPresetShadowEffectiveData class

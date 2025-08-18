@@ -3,7 +3,7 @@ title: IGrayScale
 second_title: Aspose.Slides for C++ API Reference
 description: Represents IImageTransformOperation interface.
 type: docs
-weight: 625
+weight: 664
 url: /aspose.slides.effects/igrayscale/
 ---
 ## IGrayScale class

@@ -9,7 +9,7 @@ url: /aspose.slides.charts/ichartdata/writeworkbookstream/
 ## IChartData::WriteWorkbookStream(System::SharedPtr\<System::IO::MemoryStream\>) method
 
 
-Initializes the internally contained Excel workbook with user-specified value.
+Initializes the internally contained [Excel](../../../aspose.slides.excel/) workbook with user-specified value.
 
 ```cpp
 virtual void Aspose::Slides::Charts::IChartData::WriteWorkbookStream(System::SharedPtr<System::IO::MemoryStream> ms)=0
@@ -20,7 +20,7 @@ virtual void Aspose::Slides::Charts::IChartData::WriteWorkbookStream(System::Sha
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ms | [System::SharedPtr](../../../system/sharedptr/)\<[System::IO::MemoryStream](../../../system.io/memorystream/)\> | The user-supplied stream containing the entire Excel workbook. |
+| ms | [System::SharedPtr](../../../system/sharedptr/)\<[System::IO::MemoryStream](../../../system.io/memorystream/)\> | The user-supplied stream containing the entire [Excel](../../../aspose.slides.excel/) workbook. |
 
 ## See Also
 

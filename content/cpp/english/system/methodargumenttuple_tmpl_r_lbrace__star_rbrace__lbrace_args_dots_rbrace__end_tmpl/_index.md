@@ -3,7 +3,7 @@ title: MethodArgumentTuple< R(*)(Args...)>
 second_title: Aspose.Slides for C++ API Reference
 description: Defines tuple to store method arguments.
 type: docs
-weight: 1704
+weight: 1730
 url: /system/methodargumenttuple_tmpl_r_lbrace__star_rbrace__lbrace_args_dots_rbrace__end_tmpl/
 ---
 ## MethodArgumentTuple< R(*)(Args...)> struct

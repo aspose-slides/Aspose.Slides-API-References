@@ -3,7 +3,7 @@ title: TestCompare
 second_title: Aspose.Slides for C++ API Reference
 description: Service structure providing interface to compare collections.
 type: docs
-weight: 1808
+weight: 1834
 url: /system/testcompare/
 ---
 ## TestCompare struct

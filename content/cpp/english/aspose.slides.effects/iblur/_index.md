@@ -3,7 +3,7 @@ title: IBlur
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a Blur effect that is applied to the entire shape, including its fill. All color channels, including alpha, are affected.
 type: docs
-weight: 443
+weight: 456
 url: /aspose.slides.effects/iblur/
 ---
 ## IBlur class

@@ -28,7 +28,7 @@ url: /aspose.slides.charts/
 | [ChartDataPointCollection](./chartdatapointcollection/) | Represents collection of a series data point. |
 | [ChartDataPointLevel](./chartdatapointlevel/) | Represents data point level. Applies for Treemap and Sunburst chart. |
 | [ChartDataPointLevelsManager](./chartdatapointlevelsmanager/) | Container of data point levels. Applied for Treeamp and Sunburst series. Data point levels indexing is zero-based. |
-| [ChartDataWorkbook](./chartdataworkbook/) | Provides access to embedded Excel workbook |
+| [ChartDataWorkbook](./chartdataworkbook/) | Provides access to embedded [Excel](../aspose.slides.excel/) workbook |
 | [ChartDataWorksheet](./chartdataworksheet/) | Represents worksheet associated with [IChartDataCell](./ichartdatacell/) |
 | [ChartDataWorksheetCollection](./chartdataworksheetcollection/) | Represents the collection of worksheets of chart data workbook. |
 | [ChartLinesFormat](./chartlinesformat/) | Represents gridlines format properties. |
@@ -69,7 +69,7 @@ url: /aspose.slides.charts/
 | [IChartDataPointCollection](./ichartdatapointcollection/) | Represents collection of a series data point. |
 | [IChartDataPointLevel](./ichartdatapointlevel/) | Represents data point level. Applies for Treemap and Sunburst chart. |
 | [IChartDataPointLevelsManager](./ichartdatapointlevelsmanager/) | Container of data point levels. Applied for Treeamp and Sunburst series. Data point levels indexing is zero-based. |
-| [IChartDataWorkbook](./ichartdataworkbook/) | Provides access to embedded Excel workbook |
+| [IChartDataWorkbook](./ichartdataworkbook/) | Provides access to embedded [Excel](../aspose.slides.excel/) workbook |
 | [IChartDataWorksheet](./ichartdataworksheet/) | Represents worksheet associated with [IChartDataCell](./ichartdatacell/) |
 | [IChartDataWorksheetCollection](./ichartdataworksheetcollection/) | Represents the collection of worksheets of chart data workbook. |
 | [IChartLinesFormat](./ichartlinesformat/) | Represents gridlines format properties. |

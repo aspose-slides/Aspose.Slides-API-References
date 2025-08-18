@@ -3,7 +3,7 @@ title: ITintEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which represents a Tint effect. Shifts effect color values towards/away from hue by the specified amount.
 type: docs
-weight: 963
+weight: 1002
 url: /aspose.slides.effects/itinteffectivedata/
 ---
 ## ITintEffectiveData class

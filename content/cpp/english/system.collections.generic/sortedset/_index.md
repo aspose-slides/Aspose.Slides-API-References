@@ -37,6 +37,7 @@ template<typename T>class SortedSet : public System::Collections::Generic::BaseS
 | virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
 | virtual int [get_Count](../icollection/get_count/)() const | Gets number of elements in collection. |
 | virtual **bool** [get_IsReadOnly](../icollection/get_isreadonly/)() const | Checks if collection is read only. |
+| T [get_Max](./get_max/)() const | Gets the maximum value in the [SortedSet](./). |
 | [SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\> [get_SyncRoot](../icollection/get_syncroot/)() const | Gets the object the collection is being synchronized through. |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | virtual [SharedPtr](../../system/sharedptr/)\<[IEnumerator](../ienumerator/)\<T\>\> [GetEnumerator](../ienumerable/getenumerator/)() | Gets enumerator. |

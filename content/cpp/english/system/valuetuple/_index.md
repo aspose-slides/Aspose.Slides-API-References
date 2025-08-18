@@ -3,7 +3,7 @@ title: ValueTuple
 second_title: Aspose.Slides for C++ API Reference
 description: Class that represents a ValueTuple data structure.
 type: docs
-weight: 1353
+weight: 1379
 url: /system/valuetuple/
 ---
 ## ValueTuple class
@@ -22,8 +22,8 @@ template<typename ...>class ValueTuple : public System::Details::BoxableObjectBa
 | **bool** [Equals](./equals/)([SharedPtr](../sharedptr/)\<[Object](../object/)\>) | Determines if the current and the specified objects are identical. |
 | **int32_t** [GetHashCode](./gethashcode/)() const |  |
 | const [TypeInfo](../typeinfo/)\& [GetType](./gettype/)() const |  |
-| std::tuple_element\<Index, tuple_t\>::type\& [Item](./item/)() | Gets the reference to value of the [ValueTuple](./) object's component. |
-| const std::tuple_element\<Index, tuple_t\>::type\& [Item](./item/)() const | Gets the value of the [ValueTuple](./) object's component. |
+| std::tuple_element_t\<Index, tuple_t\>\& [Item](./item/)() | Gets the reference to value of the [ValueTuple](./) object's component. |
+| const std::tuple_element_t\<Index, tuple_t\>\& [Item](./item/)() const | Gets the value of the [ValueTuple](./) object's component. |
 | [ValueTuple](./)\& [operator=](./operator_equal/)(const [ValueTuple](./)\<OtherArgs...\>\&) |  |
 | **bool** [operator==](./operator_equal_equal/)(const [ValueTuple](./)\&) const |  |
 | [System::String](../string/) [ToString](./tostring/)() const |  |

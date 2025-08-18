@@ -3,7 +3,7 @@ title: TypeInfoPtr
 second_title: Aspose.Slides for C++ API Reference
 description: "Wrapper for a pointer to an instance of TypeInfo class. This type should be allocated on stack and passed to functions by value or by reference. Never use System::SmartPtr class to manage objects of this type."
 type: docs
-weight: 1847
+weight: 1873
 url: /system/typeinfoptr/
 ---
 ## TypeInfoPtr struct

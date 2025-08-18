@@ -20,7 +20,7 @@ System::SharedPtr<IChartCellCollection> Aspose::Slides::Charts::ChartDataWorkboo
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| formula | [System::String](../../../system/string/) | Excel formula like \"Sheet1!$A$2:$A$5\". |
+| formula | [System::String](../../../system/string/) | [Excel](../../../aspose.slides.excel/) formula like \"Sheet1!$A$2:$A$5\". |
 | skipHiddenCells | **bool** | If true then method returns collection without hidden cells. |
 
 ## See Also

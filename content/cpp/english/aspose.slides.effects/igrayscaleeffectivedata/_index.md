@@ -3,7 +3,7 @@ title: IGrayScaleEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which representsepresents a Gray Scale effect. Converts all effect color values to a shade of gray, corresponding to their luminance. Effect alpha (opacity) values are unaffected.
 type: docs
-weight: 638
+weight: 677
 url: /aspose.slides.effects/igrayscaleeffectivedata/
 ---
 ## IGrayScaleEffectiveData class

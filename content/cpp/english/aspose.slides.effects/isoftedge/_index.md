@@ -3,7 +3,7 @@ title: ISoftEdge
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a Soft Edge effect. The edges of the shape are blurred, while the fill is not affected.
 type: docs
-weight: 924
+weight: 963
 url: /aspose.slides.effects/isoftedge/
 ---
 ## ISoftEdge class
