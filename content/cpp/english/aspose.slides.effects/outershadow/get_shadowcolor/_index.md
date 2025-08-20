@@ -1,7 +1,7 @@
 ---
 title: get_ShadowColor()
 second_title: Aspose.Slides for C++ API Reference
-description: Color of shadow. Read-only IColorFormat.
+description: Color of the shadow. Default value \\u2013 automatic black (theme-dependent). Read-only IColorFormat.
 type: docs
 weight: 79
 url: /aspose.slides.effects/outershadow/get_shadowcolor/
@@ -9,7 +9,7 @@ url: /aspose.slides.effects/outershadow/get_shadowcolor/
 ## OuterShadow::get_ShadowColor() method
 
 
-Color of shadow. Read-only [IColorFormat](../../../aspose.slides/icolorformat/).
+Color of the shadow. Default value \\u2013 automatic black (theme-dependent). Read-only [IColorFormat](../../../aspose.slides/icolorformat/).
 
 ```cpp
 System::SharedPtr<IColorFormat> Aspose::Slides::Effects::OuterShadow::get_ShadowColor() override

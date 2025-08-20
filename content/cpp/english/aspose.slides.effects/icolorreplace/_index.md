@@ -3,7 +3,7 @@ title: IColorReplace
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a Color Replacement effect.
 type: docs
-weight: 495
+weight: 534
 url: /aspose.slides.effects/icolorreplace/
 ---
 ## IColorReplace class

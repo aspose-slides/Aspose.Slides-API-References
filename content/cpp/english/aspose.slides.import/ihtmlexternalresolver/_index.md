@@ -3,7 +3,7 @@ title: IHtmlExternalResolver
 second_title: Aspose.Slides for C++ API Reference
 description: Callback interface used by HTML import routine to obtain referrenced objects such as images.
 type: docs
-weight: 40
+weight: 53
 url: /aspose.slides.import/ihtmlexternalresolver/
 ---
 ## IHtmlExternalResolver class

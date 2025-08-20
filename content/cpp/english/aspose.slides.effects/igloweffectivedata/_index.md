@@ -3,7 +3,7 @@ title: IGlowEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which represents a Glow effect, in which a color blurred outline is added outside the edges of the object.
 type: docs
-weight: 612
+weight: 651
 url: /aspose.slides.effects/igloweffectivedata/
 ---
 ## IGlowEffectiveData class

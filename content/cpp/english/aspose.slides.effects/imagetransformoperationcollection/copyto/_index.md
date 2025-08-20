@@ -3,7 +3,7 @@ title: CopyTo()
 second_title: Aspose.Slides for C++ API Reference
 description: "Copies the elements of the ICollection to an System::Array, starting at a particular System::Array index."
 type: docs
-weight: 313
+weight: 326
 url: /aspose.slides.effects/imagetransformoperationcollection/copyto/
 ---
 ## ImageTransformOperationCollection::CopyTo(System::ArrayPtr\<System::SharedPtr\<IImageTransformOperation\>\>, int32_t) method

@@ -3,7 +3,7 @@ title: IOuterShadow
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an Outer Shadow effect.
 type: docs
-weight: 846
+weight: 885
 url: /aspose.slides.effects/ioutershadow/
 ---
 ## IOuterShadow class
@@ -26,16 +26,16 @@ class IOuterShadow : public virtual Aspose::Slides::Effects::IImageTransformOper
 | static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
-| virtual **double** [get_BlurRadius](./get_blurradius/)() | [Blur](../blur/) radius. Read **double**. |
-| virtual **float** [get_Direction](./get_direction/)() | Direction of shadow. Read **float**. |
-| virtual **double** [get_Distance](./get_distance/)() | Distance of shadow. Read **double**. |
-| virtual [RectangleAlignment](../../aspose.slides/rectanglealignment/) [get_RectangleAlign](./get_rectanglealign/)() | Rectangle alignment. Read [RectangleAlignment](../../aspose.slides/rectanglealignment/). |
-| virtual **bool** [get_RotateShadowWithShape](./get_rotateshadowwithshape/)() | Specifies whether the shadow should rotate with the shape if the shape is rotated. Read **bool**. |
-| virtual **double** [get_ScaleHorizontal](./get_scalehorizontal/)() | Specifies the horizontal scaling factor, negative scaling causes a flip. Read **double**. |
-| virtual **double** [get_ScaleVertical](./get_scalevertical/)() | Specifies the vertical scaling factor, negative scaling causes a flip. Read **double**. |
-| virtual [System::SharedPtr](../../system/sharedptr/)\<[IColorFormat](../../aspose.slides/icolorformat/)\> [get_ShadowColor](./get_shadowcolor/)() | Color of shadow. Read-only [IColorFormat](../../aspose.slides/icolorformat/). |
-| virtual **double** [get_SkewHorizontal](./get_skewhorizontal/)() | Specifies the horizontal skew angle (in degrees). Read **double**. |
-| virtual **double** [get_SkewVertical](./get_skewvertical/)() | Specifies the vertical skew angle (in degrees). Read **double**. |
+| virtual **double** [get_BlurRadius](./get_blurradius/)() | [Blur](../blur/) radius, in points. Default value \\u2013 0 pt. Read **double**. |
+| virtual **float** [get_Direction](./get_direction/)() | Direction of the shadow, in degrees. Default value \\u2013 0 \\u00B0 (left-to-right). Read **float**. |
+| virtual **double** [get_Distance](./get_distance/)() | Distance of the shadow from the object, in points. Default value \\u2013 0 pt. Read **double**. |
+| virtual [RectangleAlignment](../../aspose.slides/rectanglealignment/) [get_RectangleAlign](./get_rectanglealign/)() | Rectangle alignment. Default value \\u2013 [RectangleAlignment::Bottom](../../aspose.slides/rectanglealignment/). Read [RectangleAlignment](../../aspose.slides/rectanglealignment/). |
+| virtual **bool** [get_RotateShadowWithShape](./get_rotateshadowwithshape/)() | Indicates whether the shadow rotates together with the shape. Default value \\u2013 true. Read **bool**. |
+| virtual **double** [get_ScaleHorizontal](./get_scalehorizontal/)() | Horizontal scaling factor, in percent of the original size. Negative scaling causes a flip. Default value \\u2013 100 %. Read **double**. |
+| virtual **double** [get_ScaleVertical](./get_scalevertical/)() | Vertical scaling factor, in percent of the original size. Negative scaling causes a flip. Default value \\u2013 100 %. Read **double**. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IColorFormat](../../aspose.slides/icolorformat/)\> [get_ShadowColor](./get_shadowcolor/)() | Color of the shadow. Default value \\u2013 automatic black (theme-dependent). Read-only [IColorFormat](../../aspose.slides/icolorformat/). |
+| virtual **double** [get_SkewHorizontal](./get_skewhorizontal/)() | Horizontal skew angle, in degrees. Default value \\u2013 0 \\u00B0. Read **double**. |
+| virtual **double** [get_SkewVertical](./get_skewvertical/)() | Vertical skew angle, in degrees. Default value \\u2013 0 \\u00B0. Read **double**. |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | virtual T [GetEffective](../../aspose.slides/iaccessiblepviobject/geteffective/)() | Gets effective data with the inheritance applied. |
 | virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Analog of C# [Object.GetHashCode()](../../system/object/gethashcode/) method. Enables hashing of custom objects. |
@@ -52,15 +52,15 @@ class IOuterShadow : public virtual Aspose::Slides::Effects::IImageTransformOper
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of string and nullptr. |
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of strings. |
 | int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Decreases shared reference count by specified value. |
-| virtual void [set_BlurRadius](./set_blurradius/)(**double**) | [Blur](../blur/) radius. Write **double**. |
-| virtual void [set_Direction](./set_direction/)(**float**) | Direction of shadow. Write **float**. |
-| virtual void [set_Distance](./set_distance/)(**double**) | Distance of shadow. Write **double**. |
-| virtual void [set_RectangleAlign](./set_rectanglealign/)([RectangleAlignment](../../aspose.slides/rectanglealignment/)) | Rectangle alignment. Write [RectangleAlignment](../../aspose.slides/rectanglealignment/). |
-| virtual void [set_RotateShadowWithShape](./set_rotateshadowwithshape/)(**bool**) | Specifies whether the shadow should rotate with the shape if the shape is rotated. Write **bool**. |
-| virtual void [set_ScaleHorizontal](./set_scalehorizontal/)(**double**) | Specifies the horizontal scaling factor, negative scaling causes a flip. Write **double**. |
-| virtual void [set_ScaleVertical](./set_scalevertical/)(**double**) | Specifies the vertical scaling factor, negative scaling causes a flip. Write **double**. |
-| virtual void [set_SkewHorizontal](./set_skewhorizontal/)(**double**) | Specifies the horizontal skew angle (in degrees). Write **double**. |
-| virtual void [set_SkewVertical](./set_skewvertical/)(**double**) | Specifies the vertical skew angle (in degrees). Write **double**. |
+| virtual void [set_BlurRadius](./set_blurradius/)(**double**) | [Blur](../blur/) radius, in points. Default value \\u2013 0 pt. Write **double**. |
+| virtual void [set_Direction](./set_direction/)(**float**) | Direction of the shadow, in degrees. Default value \\u2013 0 \\u00B0 (left-to-right). Write **float**. |
+| virtual void [set_Distance](./set_distance/)(**double**) | Distance of the shadow from the object, in points. Default value \\u2013 0 pt. Write **double**. |
+| virtual void [set_RectangleAlign](./set_rectanglealign/)([RectangleAlignment](../../aspose.slides/rectanglealignment/)) | Rectangle alignment. Default value \\u2013 [RectangleAlignment::Bottom](../../aspose.slides/rectanglealignment/). Write [RectangleAlignment](../../aspose.slides/rectanglealignment/). |
+| virtual void [set_RotateShadowWithShape](./set_rotateshadowwithshape/)(**bool**) | Indicates whether the shadow rotates together with the shape. Default value \\u2013 true. Write **bool**. |
+| virtual void [set_ScaleHorizontal](./set_scalehorizontal/)(**double**) | Horizontal scaling factor, in percent of the original size. Negative scaling causes a flip. Default value \\u2013 100 %. Write **double**. |
+| virtual void [set_ScaleVertical](./set_scalevertical/)(**double**) | Vertical scaling factor, in percent of the original size. Negative scaling causes a flip. Default value \\u2013 100 %. Write **double**. |
+| virtual void [set_SkewHorizontal](./set_skewhorizontal/)(**double**) | Horizontal skew angle, in degrees. Default value \\u2013 0 \\u00B0. Write **double**. |
+| virtual void [set_SkewVertical](./set_skewvertical/)(**double**) | Vertical skew angle, in degrees. Default value \\u2013 0 \\u00B0. Write **double**. |
 | virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode. |
 | int [SharedCount](../../system/object/sharedcount/)() const | Gets current value of shared reference counter. |
 | [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | Increments shared reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |

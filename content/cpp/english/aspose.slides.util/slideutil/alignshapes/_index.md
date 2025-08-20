@@ -3,7 +3,7 @@ title: AlignShapes()
 second_title: Aspose.Slides for C++ API Reference
 description: Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other.
 type: docs
-weight: 14
+weight: 27
 url: /aspose.slides.util/slideutil/alignshapes/
 ---
 ## SlideUtil::AlignShapes(ShapesAlignmentType, bool, System::SharedPtr\<IBaseSlide\>) method

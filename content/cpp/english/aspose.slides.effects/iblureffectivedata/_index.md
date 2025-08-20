@@ -3,7 +3,7 @@ title: IBlurEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which represents a Blur effect that is applied to the entire shape, including its fill. All color channels, including alpha, are affected.
 type: docs
-weight: 456
+weight: 469
 url: /aspose.slides.effects/iblureffectivedata/
 ---
 ## IBlurEffectiveData class

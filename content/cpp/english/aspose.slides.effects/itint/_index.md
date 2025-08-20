@@ -3,7 +3,7 @@ title: ITint
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a Tint effect. Shifts effect color values towards/away from hue by the specified amount.
 type: docs
-weight: 950
+weight: 989
 url: /aspose.slides.effects/itint/
 ---
 ## ITint class

@@ -3,7 +3,7 @@ title: CastResult
 second_title: Aspose.Slides for C++ API Reference
 description: Template magic to deduce cast results.
 type: docs
-weight: 1431
+weight: 1470
 url: /system/castresult/
 ---
 ## CastResult struct

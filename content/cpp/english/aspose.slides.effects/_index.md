@@ -22,6 +22,7 @@ url: /aspose.slides.effects/
 | [AlphaReplace](./alphareplace/) | Represents and Alpha Replace effect. Effect alpha (opacity) values are replaced by a fixed alpha. |
 | [BiLevel](./bilevel/) | Represents a Bi-Level (black/white) effect. Input colors whose luminance is less than the specified threshold value are changed to black. Input colors whose luminance are greater than or equal the specified value are set to white. The alpha effect values are unaffected by this effect. |
 | [Blur](./blur/) | Represents a [Blur](./blur/) effect that is applied to the entire shape, including its fill. All color channels, including alpha, are affected. |
+| [BrightnessContrast](./brightnesscontrast/) | Represents a [BrightnessContrast](./brightnesscontrast/) effect. Ajusts brightness and contrast |
 | [ColorChange](./colorchange/) | Represents a Color Change effect. Instances of FromColor are replaced with instances of ToColor. |
 | [ColorReplace](./colorreplace/) | Represents a Color Replacement effect. All effect colors are changed to a fixed color. Alpha values are unaffected. |
 | [Duotone](./duotone/) | Represents a [Duotone](./duotone/) effect. For each pixel, combines Color1 and Color2 through a linear interpolation to determine the new color for that pixel. |
@@ -49,6 +50,8 @@ url: /aspose.slides.effects/
 | [IBiLevelEffectiveData](./ibileveleffectivedata/) | Immutable object which represents a Bi-Level (black/white) effect. Input colors whose luminance is less than the specified threshold value are changed to black. Input colors whose luminance are greater than or equal the specified value are set to white. The alpha effect values are unaffected by this effect. |
 | [IBlur](./iblur/) | Represents a [Blur](./blur/) effect that is applied to the entire shape, including its fill. All color channels, including alpha, are affected. |
 | [IBlurEffectiveData](./iblureffectivedata/) | Immutable object which represents a [Blur](./blur/) effect that is applied to the entire shape, including its fill. All color channels, including alpha, are affected. |
+| [IBrightnessContrast](./ibrightnesscontrast/) | Represents a [BrightnessContrast](./brightnesscontrast/) effect. Ajusts brightness and contrast |
+| [IBrightnessContrastEffectiveData](./ibrightnesscontrasteffectivedata/) | Immutable object which represents a [BrightnessContrast](./brightnesscontrast/) effect. Ajusts brightness and contrast |
 | [IColorChange](./icolorchange/) | Represents a Color Change effect. Instances of FromColor are replaced with instances of ToColor. |
 | [IColorChangeEffectiveData](./icolorchangeeffectivedata/) | Immutable object which represents a Color Change effect. Instances of FromColor are replaced with instances of ToColor. |
 | [IColorReplace](./icolorreplace/) | Represents a Color Replacement effect. |

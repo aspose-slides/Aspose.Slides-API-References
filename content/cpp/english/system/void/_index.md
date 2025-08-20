@@ -3,7 +3,7 @@ title: Void
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 1379
+weight: 1418
 url: /system/void/
 ---
 ## Void class

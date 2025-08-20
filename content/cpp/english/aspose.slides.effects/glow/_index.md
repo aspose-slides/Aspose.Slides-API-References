@@ -3,7 +3,7 @@ title: Glow
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a Glow effect, in which a color blurred outline is added outside the edges of the object.
 type: docs
-weight: 183
+weight: 196
 url: /aspose.slides.effects/glow/
 ---
 ## Glow class

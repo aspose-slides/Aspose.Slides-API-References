@@ -3,7 +3,7 @@ title: IsConstant()
 second_title: Aspose.Slides for C++ API Reference
 description: Implements 'is' constant pattern translation.
 type: docs
-weight: 2341
+weight: 2393
 url: /system/isconstant/
 ---
 ## System::IsConstant(const ExpressionT\&, const ConstantT\&) function

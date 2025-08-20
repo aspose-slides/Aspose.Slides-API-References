@@ -3,7 +3,7 @@ title: ScopedCulture
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a culture used within the scope.
 type: docs
-weight: 1145
+weight: 1158
 url: /system/scopedculture/
 ---
 ## ScopedCulture class

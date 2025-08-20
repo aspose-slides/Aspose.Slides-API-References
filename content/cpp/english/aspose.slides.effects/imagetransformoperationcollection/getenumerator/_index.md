@@ -3,7 +3,7 @@ title: GetEnumerator()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns an enumerator that iterates through the collection.
 type: docs
-weight: 339
+weight: 352
 url: /aspose.slides.effects/imagetransformoperationcollection/getenumerator/
 ---
 ## ImageTransformOperationCollection::GetEnumerator() method

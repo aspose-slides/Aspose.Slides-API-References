@@ -9,7 +9,7 @@ url: /aspose.slides.charts/chartdata/readworkbookstream/
 ## ChartData::ReadWorkbookStream() method
 
 
-Writes the internally contained Excel workbook it into an in-memory stream.
+Writes the internally contained [Excel](../../../aspose.slides.excel/) workbook it into an in-memory stream.
 
 ```cpp
 System::SharedPtr<System::IO::MemoryStream> Aspose::Slides::Charts::ChartData::ReadWorkbookStream() override
@@ -18,7 +18,7 @@ System::SharedPtr<System::IO::MemoryStream> Aspose::Slides::Charts::ChartData::R
 
 ### Return Value
 
-Returns an instance of **MemoryStream** containing a copy of the internally contained Excel workbook.
+Returns an instance of **MemoryStream** containing a copy of the internally contained [Excel](../../../aspose.slides.excel/) workbook.
 
 ## See Also
 

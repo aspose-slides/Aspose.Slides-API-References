@@ -12,7 +12,7 @@ url: /system.drawing/texturebrush/clone/
 Creates a copy of the current object.
 
 ```cpp
-virtual SharedPtr<Brush> System::Drawing::TextureBrush::Clone() override
+virtual SharedPtr<Object> System::Drawing::TextureBrush::Clone() override
 ```
 
 
@@ -23,7 +23,7 @@ A shared pointer to the copy of the current object.
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Brush](../../brush/)
+* Class [Object](../../../system/object/)
 * Class [TextureBrush](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

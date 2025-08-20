@@ -3,7 +3,7 @@ title: IAlphaModulateFixedEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which represents an Alpha Modulate Fixed effect. Effect alpha (opacity) values are multiplied by a fixed percentage.
 type: docs
-weight: 365
+weight: 378
 url: /aspose.slides.effects/ialphamodulatefixedeffectivedata/
 ---
 ## IAlphaModulateFixedEffectiveData class

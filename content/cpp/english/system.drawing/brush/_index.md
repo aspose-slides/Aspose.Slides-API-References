@@ -12,15 +12,16 @@ url: /system.drawing/brush/
 A base class for classes that represent fillers used to fill the interiors of graphical shapes. Objects of this class should only be allocated using [System::MakeObject()](../../system/makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](../../system/smartptr/) pointer and use this pointer to pass it to functions as argument.
 
 ```cpp
-class Brush : public System::Object
+class Brush : public System::ICloneable,
+              public System::IDisposable
 ```
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| virtual [SharedPtr](../../system/sharedptr/)\<[Brush](./)\> [Clone](./clone/)() | RTTI information. |
-| void [Dispose](./dispose/)() | Releases operating system resources acquired by the current object. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[System::Object](../../system/object/)\> [Clone](../../system/icloneable/clone/)() | Creates a copy of the current object and returns a shared pointer to it. |
+| virtual void [Dispose](../../system/idisposable/dispose/)() | Does nothing. |
 | virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | Compares objects using C# [Object.Equals](../../system/object/equals/) semantics. |
 | static std::enable_if\<[IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Compares reference type objects in C# style. |
 | static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&\![IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Compares value type objects in C# style. |
@@ -54,6 +55,7 @@ class Brush : public System::Object
 | virtual  [~Object](../../system/object/~object/)() | Destroys object. Frees all internal data structures. |
 ## See Also
 
-* Class [Object](../../system/object/)
+* Class [ICloneable](../../system/icloneable/)
+* Class [IDisposable](../../system/idisposable/)
 * Namespace [System::Drawing](../)
 * Library [Aspose.Slides](../../)

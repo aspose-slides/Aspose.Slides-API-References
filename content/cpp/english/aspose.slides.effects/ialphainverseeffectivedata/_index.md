@@ -3,7 +3,7 @@ title: IAlphaInverseEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which represents an Alpha Inverse effect. Alpha (opacity) values are inverted by subtracting from 100%.
 type: docs
-weight: 313
+weight: 326
 url: /aspose.slides.effects/ialphainverseeffectivedata/
 ---
 ## IAlphaInverseEffectiveData class

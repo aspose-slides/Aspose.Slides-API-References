@@ -3,7 +3,7 @@ title: IAlphaReplace
 second_title: Aspose.Slides for C++ API Reference
 description: Represents base IImageTransformOperation interface.
 type: docs
-weight: 378
+weight: 391
 url: /aspose.slides.effects/ialphareplace/
 ---
 ## IAlphaReplace class

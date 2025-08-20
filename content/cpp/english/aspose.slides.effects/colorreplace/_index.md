@@ -3,7 +3,7 @@ title: ColorReplace
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a Color Replacement effect. All effect colors are changed to a fixed color. Alpha values are unaffected.
 type: docs
-weight: 131
+weight: 144
 url: /aspose.slides.effects/colorreplace/
 ---
 ## ColorReplace class

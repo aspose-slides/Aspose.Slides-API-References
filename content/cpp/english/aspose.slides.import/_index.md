@@ -3,7 +3,7 @@ title: "Aspose::Slides::Import"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 105
+weight: 118
 url: /aspose.slides.import/
 ---
 
@@ -13,6 +13,7 @@ url: /aspose.slides.import/
 
 | Class | Description |
 | --- | --- |
+| [ExcelWorkbookImporter](./excelworkbookimporter/) | Provides functionality for importing content from an [Excel](../aspose.slides.excel/) workbook into a presentation. |
 | [ExternalResourceResolver](./externalresourceresolver/) | Callback class used to resolve external resources during Html, Svg documents import. |
 | [HtmlExternalResolver](./htmlexternalresolver/) | Callback object used by HTML import routine to obtain referrenced objects such as images. |
 | [IExternalResourceResolver](./iexternalresourceresolver/) | Callback interface used to resolve external resources during Html, Svg documents import. |

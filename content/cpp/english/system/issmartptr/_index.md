@@ -3,7 +3,7 @@ title: IsSmartPtr
 second_title: Aspose.Slides for C++ API Reference
 description: Trait class to check if a type is a specialization of SmartPtr class.
 type: docs
-weight: 1600
+weight: 1639
 url: /system/issmartptr/
 ---
 ## IsSmartPtr struct

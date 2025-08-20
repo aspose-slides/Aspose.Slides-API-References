@@ -1,5 +1,5 @@
 ---
-title: Aspose.Slides for C++ API Reference (version 25.7)
+title: Aspose.Slides for C++ API Reference (version 25.8)
 type: docs
 weight: 12
 url: /
@@ -15,6 +15,7 @@ is_root: true
 - [Aspose::Slides::DOM::Ole](./aspose.slides.dom.ole/)
 - [Aspose::Slides::Drawing](./aspose.slides.drawing/)
 - [Aspose::Slides::Effects](./aspose.slides.effects/)
+- [Aspose::Slides::Excel](./aspose.slides.excel/)
 - [Aspose::Slides::Export](./aspose.slides.export/)
 - [Aspose::Slides::Export::Xaml](./aspose.slides.export.xaml/)
 - [Aspose::Slides::Import](./aspose.slides.import/)

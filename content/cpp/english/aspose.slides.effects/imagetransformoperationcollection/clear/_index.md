@@ -3,7 +3,7 @@ title: Clear()
 second_title: Aspose.Slides for C++ API Reference
 description: Removes all image effects from a collection.
 type: docs
-weight: 287
+weight: 300
 url: /aspose.slides.effects/imagetransformoperationcollection/clear/
 ---
 ## ImageTransformOperationCollection::Clear() method

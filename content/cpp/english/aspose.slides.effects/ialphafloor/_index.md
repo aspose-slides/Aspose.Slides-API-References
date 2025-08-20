@@ -3,7 +3,7 @@ title: IAlphaFloor
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an Alpha Floor effect. Alpha (opacity) values less than 100% are changed to zero. In other words, anything partially transparent becomes fully transparent.
 type: docs
-weight: 274
+weight: 287
 url: /aspose.slides.effects/ialphafloor/
 ---
 ## IAlphaFloor class

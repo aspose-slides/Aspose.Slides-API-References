@@ -1,7 +1,7 @@
 ---
 title: get_CaptionTracks()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the closed captions collection of the video. Read-only ICaptionsCollection.
+description: Gets the collection of closed captions associated with the video frame. This property is read-only and returns an ICaptionsCollection containing all caption tracks.
 type: docs
 weight: 261
 url: /aspose.slides/videoframe/get_captiontracks/
@@ -9,7 +9,7 @@ url: /aspose.slides/videoframe/get_captiontracks/
 ## VideoFrame::get_CaptionTracks() method
 
 
-Returns the closed captions collection of the video. Read-only [ICaptionsCollection](../../icaptionscollection/).
+Gets the collection of closed captions associated with the video frame. This property is read-only and returns an [ICaptionsCollection](../../icaptionscollection/) containing all caption tracks.
 
 ```cpp
 System::SharedPtr<ICaptionsCollection> Aspose::Slides::VideoFrame::get_CaptionTracks() override

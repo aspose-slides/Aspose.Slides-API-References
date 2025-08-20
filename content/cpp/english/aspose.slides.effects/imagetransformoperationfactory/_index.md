@@ -3,7 +3,7 @@ title: ImageTransformOperationFactory
 second_title: Aspose.Slides for C++ API Reference
 description: Allows to create image transform operations
 type: docs
-weight: 820
+weight: 859
 url: /aspose.slides.effects/imagetransformoperationfactory/
 ---
 ## ImageTransformOperationFactory class

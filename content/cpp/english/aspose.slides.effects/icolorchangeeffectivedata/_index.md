@@ -3,7 +3,7 @@ title: IColorChangeEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which represents a Color Change effect. Instances of FromColor are replaced with instances of ToColor.
 type: docs
-weight: 482
+weight: 521
 url: /aspose.slides.effects/icolorchangeeffectivedata/
 ---
 ## IColorChangeEffectiveData class

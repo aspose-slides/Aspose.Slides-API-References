@@ -3,7 +3,7 @@ title: ISoftEdgeEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which represents a soft edge effect. The edges of the shape are blurred, while the fill is not affected.
 type: docs
-weight: 937
+weight: 976
 url: /aspose.slides.effects/isoftedgeeffectivedata/
 ---
 ## ISoftEdgeEffectiveData class

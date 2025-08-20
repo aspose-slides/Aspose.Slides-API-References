@@ -3,7 +3,7 @@ title: TypeInfo
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a particular type and provides information about it.
 type: docs
-weight: 1288
+weight: 1314
 url: /system/typeinfo/
 ---
 ## TypeInfo class

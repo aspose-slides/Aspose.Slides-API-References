@@ -3,7 +3,7 @@ title: SlideUtil()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 66
+weight: 92
 url: /aspose.slides.util/slideutil/slideutil/
 ---
 ## SlideUtil::SlideUtil() constructor

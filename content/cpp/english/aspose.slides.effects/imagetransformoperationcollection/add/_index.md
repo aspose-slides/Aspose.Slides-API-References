@@ -3,7 +3,7 @@ title: Add()
 second_title: Aspose.Slides for C++ API Reference
 description: Adds the new image effect to the end of a collection.
 type: docs
-weight: 274
+weight: 287
 url: /aspose.slides.effects/imagetransformoperationcollection/add/
 ---
 ## ImageTransformOperationCollection::Add(const System::SharedPtr\<IImageTransformOperation\>\&) method

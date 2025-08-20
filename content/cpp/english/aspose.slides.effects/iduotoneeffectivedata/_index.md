@@ -3,7 +3,7 @@ title: IDuotoneEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which represents a Duotone effect. For each pixel, combines clr1 and clr2 through a linear interpolation to determine the new color for that pixel.
 type: docs
-weight: 534
+weight: 573
 url: /aspose.slides.effects/iduotoneeffectivedata/
 ---
 ## IDuotoneEffectiveData class

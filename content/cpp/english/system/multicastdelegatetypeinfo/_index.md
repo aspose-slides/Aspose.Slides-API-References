@@ -3,7 +3,7 @@ title: MulticastDelegateTypeInfo
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a pointer to TypeInfo object that contains information about MulticastDelegate class.
 type: docs
-weight: 1730
+weight: 1769
 url: /system/multicastdelegatetypeinfo/
 ---
 ## MulticastDelegateTypeInfo struct

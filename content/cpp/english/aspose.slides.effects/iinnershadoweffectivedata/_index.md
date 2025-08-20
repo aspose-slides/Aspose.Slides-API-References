@@ -3,7 +3,7 @@ title: IInnerShadowEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which represents a inner shadow effect.
 type: docs
-weight: 742
+weight: 781
 url: /aspose.slides.effects/iinnershadoweffectivedata/
 ---
 ## IInnerShadowEffectiveData class

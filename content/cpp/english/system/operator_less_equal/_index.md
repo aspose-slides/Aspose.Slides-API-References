@@ -3,7 +3,7 @@ title: operator<=()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 1977
+weight: 2029
 url: /system/operator_less_equal/
 ---
 ## System::operator<=(std::nullptr_t, DateTime) function

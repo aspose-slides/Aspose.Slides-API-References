@@ -3,7 +3,7 @@ title: HSL
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a Hue/Saturation/Luminance effect. The hue, saturation, and luminance may each be adjusted relative to its current value.
 type: docs
-weight: 209
+weight: 222
 url: /aspose.slides.effects/hsl/
 ---
 ## HSL class

@@ -123,6 +123,33 @@ static int32_t System::Int32::Parse(const String &value, Globalization::NumberSt
 static int32_t System::Int32::Parse(const String &value, Globalization::NumberStyles styles, std::nullptr_t=nullptr)
 ```
 
+## Int32::Parse(const ReadOnlySpan\<char16_t\>\&) method
+
+
+
+
+```cpp
+static int32_t System::Int32::Parse(const ReadOnlySpan<char16_t> &span)
+```
+
+## Int32::Parse(const ReadOnlySpan\<char16_t\>\&, std::nullptr_t) method
+
+
+
+
+```cpp
+static int32_t System::Int32::Parse(const ReadOnlySpan<char16_t> &span, std::nullptr_t)
+```
+
+## Int32::Parse(const ReadOnlySpan\<char16_t\>\&, Globalization::NumberStyles, const SharedPtr\<IFormatProvider\>\&) method
+
+
+
+
+```cpp
+static int32_t System::Int32::Parse(const ReadOnlySpan<char16_t> &span, Globalization::NumberStyles styles, const SharedPtr<IFormatProvider> &provider)
+```
+
 ## See Also
 
 * Enum [NumberStyles](../../../system.globalization/numberstyles/)
@@ -132,5 +159,6 @@ static int32_t System::Int32::Parse(const String &value, Globalization::NumberSt
 * Class [IFormatProvider](../../iformatprovider/)
 * Class [CultureInfo](../../../system.globalization/cultureinfo/)
 * Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
+* Class [ReadOnlySpan](../../readonlyspan/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

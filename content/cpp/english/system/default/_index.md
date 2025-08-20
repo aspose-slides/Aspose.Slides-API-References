@@ -1,15 +1,15 @@
 ---
 title: Default()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the default-constructed instance of the specified type.
+description: Returns the reference to the single default-constructed instance of the exception type.
 type: docs
-weight: 2094
+weight: 2146
 url: /system/default/
 ---
 ## System::Default() function
 
 
-Returns the default-constructed instance of the specified type.
+Returns the reference to the single default-constructed instance of the exception type.
 
 ```cpp
 template<typename T> std::enable_if<IsExceptionWrapper<T>::value, constT &>::type System::Default()
@@ -25,7 +25,7 @@ template<typename T> std::enable_if<IsExceptionWrapper<T>::value, constT &>::typ
 ## System::Default() function
 
 
-Returns the default-constructed instance of the specified type.
+Returns the reference to the single default-constructed instance of the non-exception type.
 
 ```cpp
 template<typename T> std::enable_if<!IsExceptionWrapper<T>::value, constT &>::type System::Default()

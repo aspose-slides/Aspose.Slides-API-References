@@ -3,7 +3,7 @@ title: IImageTransformOCollectionEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object that represents a readonly collection of effective image transform effects.
 type: docs
-weight: 677
+weight: 716
 url: /aspose.slides.effects/iimagetransformocollectioneffectivedata/
 ---
 ## IImageTransformOCollectionEffectiveData class

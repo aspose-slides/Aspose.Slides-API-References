@@ -3,7 +3,7 @@ title: "System::IO"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 547
+weight: 560
 url: /system.io/
 ---
 

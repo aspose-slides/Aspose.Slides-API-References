@@ -3,7 +3,7 @@ title: IBiLevel
 second_title: Aspose.Slides for C++ API Reference
 description: Represents base IImageTransformOperation interface.
 type: docs
-weight: 417
+weight: 430
 url: /aspose.slides.effects/ibilevel/
 ---
 ## IBiLevel class

@@ -3,7 +3,7 @@ title: IFillOverlayEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which represents a Fill Overlay effect. A fill overlay may be used to specify an additional fill for an object and blend the two fills together.
 type: docs
-weight: 586
+weight: 625
 url: /aspose.slides.effects/ifilloverlayeffectivedata/
 ---
 ## IFillOverlayEffectiveData class

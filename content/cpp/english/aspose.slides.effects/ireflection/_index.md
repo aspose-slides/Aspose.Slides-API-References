@@ -3,7 +3,7 @@ title: IReflection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a reflection effect.
 type: docs
-weight: 898
+weight: 937
 url: /aspose.slides.effects/ireflection/
 ---
 ## IReflection class

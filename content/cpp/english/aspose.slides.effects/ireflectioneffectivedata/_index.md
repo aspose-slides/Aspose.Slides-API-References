@@ -3,7 +3,7 @@ title: IReflectionEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which represents a Reflection effect.
 type: docs
-weight: 911
+weight: 950
 url: /aspose.slides.effects/ireflectioneffectivedata/
 ---
 ## IReflectionEffectiveData class
