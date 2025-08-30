@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/chart/chart_data_table/
-weight: 240
+weight: 170
 ---
 
 

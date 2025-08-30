@@ -9,6 +9,9 @@ weight: 130
 
 
 ## SlideCollection indexer
+Gets the element at the specified index.
+            Read-only [`Slide`](/slides/python-net/aspose.slides/slide).
+
 ## Indexer
 
 | Name | Description |
@@ -17,6 +20,7 @@ weight: 130
 
 
 ### See Also
+* class [`Slide`](/slides/python-net/aspose.slides/slide)
 * class [`SlideCollection`](/slides/python-net/aspose.slides/slidecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

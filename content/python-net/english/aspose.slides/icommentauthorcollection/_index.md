@@ -31,7 +31,7 @@ Gets the element at the specified index.
 | [`find_by_name`](/slides/python-net/aspose.slides/icommentauthorcollection/find_by_name/#str) | Find author in a collection by name. |
 | [`find_by_name_and_initials`](/slides/python-net/aspose.slides/icommentauthorcollection/find_by_name_and_initials/#str-str) | Find author in a collection by name and initials. |
 | [`remove_at`](/slides/python-net/aspose.slides/icommentauthorcollection/remove_at/#int) | Removes the author at the specified index of the collection. |
-| [`remove`](/slides/python-net/aspose.slides/icommentauthorcollection/remove/#icommentauthor) | Removes the first occurrence of the specified author in a collection. |
+| [`remove`](/slides/python-net/aspose.slides/icommentauthorcollection/remove/#asposeslidesicommentauthor) | Removes the first occurrence of the specified author in a collection. |
 | [`clear`](/slides/python-net/aspose.slides/icommentauthorcollection/clear/#) | Removes all authors from a collection. |
 
 

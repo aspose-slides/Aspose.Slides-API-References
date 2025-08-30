@@ -8,7 +8,7 @@ weight: 290
 ---
 
 
-## insert_picture_frame {#int-shapetype-float-float-float-float-ippimage}
+## insert_picture_frame {#int-asposeslidesshapetype-float-float-float-float-asposeslidesippimage}
 Creates a new picture frame containing the specified image and inserts it into the shape
             collection at the specified index.
 

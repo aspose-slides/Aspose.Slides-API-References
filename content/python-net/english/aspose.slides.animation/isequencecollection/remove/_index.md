@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## remove {#isequence}
+## remove {#asposeslidesanimationisequence}
 Removes specified sequence from a collection.
 
 

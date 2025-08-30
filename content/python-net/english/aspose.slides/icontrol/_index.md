@@ -24,8 +24,6 @@ The IControl type exposes the following members:
 | [`properties`](/slides/python-net/aspose.slides/icontrol/properties/) | Returns a collection of ActiveX properties.<br/>            Read-only [`IControlPropertiesCollection`](/slides/python-net/aspose.slides/icontrolpropertiescollection). |
 | [`persistence`](/slides/python-net/aspose.slides/icontrol/persistence/) | Gets the method used to store properties of the ActiveX control.<br/>            Read only [`PersistenceType`](/slides/python-net/aspose.slides/persistencetype). |
 | [`active_x_control_binary`](/slides/python-net/aspose.slides/icontrol/active_x_control_binary/) | Specifies the persistence of an ActiveX control when the method used to persist is either PersistStream, PersistStreamInit or PersistStorage. |
-| [`slide`](/slides/python-net/aspose.slides/icontrol/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides/icontrol/presentation/) |  |
 
 
 ### See Also

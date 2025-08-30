@@ -9,6 +9,8 @@ weight: 20
 
 
 ## VbaReferenceCollection indexer
+Gets the element at the specified index.
+
 ## Indexer
 
 | Name | Description |

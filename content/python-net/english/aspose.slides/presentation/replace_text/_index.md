@@ -8,7 +8,7 @@ weight: 100
 ---
 
 
-## replace_text {#str-str-itextsearchoptions-ifindresultcallback}
+## replace_text {#str-str-asposeslidesitextsearchoptions-asposeslidesifindresultcallback}
 Replaces all occurrences of the specified text with another specified text.
 
 

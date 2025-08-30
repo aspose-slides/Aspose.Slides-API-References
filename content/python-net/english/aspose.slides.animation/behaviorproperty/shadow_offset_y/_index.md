@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.animation/behaviorproperty/shadow_offset_y/
-weight: 710
+weight: 730
 ---
 
 

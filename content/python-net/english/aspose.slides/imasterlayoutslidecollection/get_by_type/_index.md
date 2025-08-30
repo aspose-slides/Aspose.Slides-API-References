@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## get_by_type {#slidelayouttype}
+## get_by_type {#asposeslidesslidelayouttype}
 
 
 
@@ -25,7 +25,6 @@ def get_by_type(self, type):
 
 
 ### See Also
-* class [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide)
 * class [`IMasterLayoutSlideCollection`](/slides/python-net/aspose.slides/imasterlayoutslidecollection)
 * enumeration [`SlideLayoutType`](/slides/python-net/aspose.slides/slidelayouttype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)

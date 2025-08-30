@@ -10,6 +10,7 @@ weight: 60
 
 ## rectangle_align property
 Rectangle alignment.
+            Default value – [`RectangleAlignment.BOTTOM`](/slides/python-net/aspose.slides/rectanglealignment/BOTTOM). 
             Read/write [`RectangleAlignment`](/slides/python-net/aspose.slides/rectanglealignment).
 
 ### Definition:

@@ -31,10 +31,6 @@ The IDataLabelFormat type exposes the following members:
 | [`show_label_as_data_callout`](/slides/python-net/aspose.slides.charts/idatalabelformat/show_label_as_data_callout/) | Determines either specified chart's data label will be displayed as data callout or as data label.<br/><br/>            If parent of this DataLabelFormat object is a DataLabelCollection collection of data labels then this<br/>            property gets or sets the default value of the ShowLabelAsDataCallout property for the new data <br/>            labels in the DataLabelCollection collection.<br/>            Set this property with value also sets this value to the ShowLabelAsDataCallout property <br/>            for all data labels in the DataLabelCollection collection<br/>            (i.e. "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" cause to <br/>            all DataLabels[i].ShowLabelAsDataCallout is equal to val). |
 | [`show_label_value_from_cell`](/slides/python-net/aspose.slides.charts/idatalabelformat/show_label_value_from_cell/) | Represents a specified chart's data label cell value display behavior. <br/>            True displays cell value. False to hide.<br/>            Read/write **bool**. |
 | [`separator`](/slides/python-net/aspose.slides.charts/idatalabelformat/separator/) | Sets or returns a Variant representing the separator used for the data labels on a chart.<br/>            Read/write **str**. |
-| [`text_format`](/slides/python-net/aspose.slides.charts/idatalabelformat/text_format/) |  |
-| [`chart`](/slides/python-net/aspose.slides.charts/idatalabelformat/chart/) |  |
-| [`slide`](/slides/python-net/aspose.slides.charts/idatalabelformat/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides.charts/idatalabelformat/presentation/) |  |
 
 
 ### See Also

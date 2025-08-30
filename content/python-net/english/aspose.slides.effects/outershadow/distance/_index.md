@@ -4,12 +4,13 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/outershadow/distance/
-weight: 50
+weight: 40
 ---
 
 
 ## distance property
-Distance of shadow.
+Distance of the shadow from the object, in points.
+            Default value – 0 pt.
             Read/write **float**.
 
 ### Definition:

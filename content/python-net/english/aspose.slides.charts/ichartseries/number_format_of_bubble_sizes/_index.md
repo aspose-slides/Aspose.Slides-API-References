@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/ichartseries/number_format_of_bubble_sizes/
-weight: 260
+weight: 230
 ---
 
 

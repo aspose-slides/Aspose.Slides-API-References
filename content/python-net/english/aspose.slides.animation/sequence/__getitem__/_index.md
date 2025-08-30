@@ -9,6 +9,8 @@ weight: 90
 
 
 ## Sequence indexer
+Returns an effect at the specified index.
+
 ## Indexer
 
 | Name | Description |

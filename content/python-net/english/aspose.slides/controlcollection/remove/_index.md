@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## remove {#icontrol}
+## remove {#asposeslidesicontrol}
 Removes an ActiveX control from the collection.
 
 

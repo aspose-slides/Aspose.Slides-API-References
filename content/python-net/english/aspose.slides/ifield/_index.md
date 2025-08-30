@@ -18,8 +18,6 @@ The IField type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`type`](/slides/python-net/aspose.slides/ifield/type/) | Returns or sets field's type.<br/>            Read/write [`IFieldType`](/slides/python-net/aspose.slides/ifieldtype). |
-| [`slide`](/slides/python-net/aspose.slides/ifield/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides/ifield/presentation/) |  |
 
 
 ### See Also

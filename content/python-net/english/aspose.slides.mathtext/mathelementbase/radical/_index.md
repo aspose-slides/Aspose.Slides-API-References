@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/mathelementbase/radical/
-weight: 120
+weight: 110
 ---
 
 
-## radical {#imathelement}
+## radical {#asposeslidesmathtextimathelement}
 Specifies the mathematical root of the given degree from the specified argument.
 
 ### Returns

@@ -35,9 +35,6 @@ The IChartSeriesGroup type exposes the following members:
 | [`bubble_size_scale`](/slides/python-net/aspose.slides.charts/ichartseriesgroup/bubble_size_scale/) | Specifies the scale factor for the bubble chart (can be <br/>            between 0 and 300 percents of the default size).<br/>            Read/write **int**. |
 | [`hi_low_lines_format`](/slides/python-net/aspose.slides.charts/ichartseriesgroup/hi_low_lines_format/) | Specifies HiLowLines format. <br/>            HiLowLines applied with HiLowClose, OpenHiLowClose, VolumeHiLowClose and VolumeOpenHiLowClose chart types. |
 | [`bubble_size_representation`](/slides/python-net/aspose.slides.charts/ichartseriesgroup/bubble_size_representation/) | Specifies how the bubble size values are represented on the bubble chart.<br/>            Read/write [`BubbleSizeRepresentationType`](/slides/python-net/aspose.slides.charts/bubblesizerepresentationtype). |
-| [`chart`](/slides/python-net/aspose.slides.charts/ichartseriesgroup/chart/) |  |
-| [`slide`](/slides/python-net/aspose.slides.charts/ichartseriesgroup/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides.charts/ichartseriesgroup/presentation/) |  |
 
 Gets the element at the specified index.
 

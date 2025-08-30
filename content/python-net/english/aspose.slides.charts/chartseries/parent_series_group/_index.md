@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/chartseries/parent_series_group/
-weight: 330
+weight: 300
 ---
 
 

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#presentation-float}
+## __init__ {#asposeslidespresentation-float}
 Creates new instance of the [`PresentationPlayer`](/slides/python-net/aspose.slides.export/presentationplayer).
 
 

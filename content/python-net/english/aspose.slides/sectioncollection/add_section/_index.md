@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add_section {#str-islide}
+## add_section {#str-asposeslidesislide}
 Add slides section started form specific slide.
 
 ### Returns
@@ -31,7 +31,6 @@ def add_section(self, name, started_from_slide):
 
 
 ### See Also
-* class [`ISection`](/slides/python-net/aspose.slides/isection)
 * class [`ISlide`](/slides/python-net/aspose.slides/islide)
 * class [`SectionCollection`](/slides/python-net/aspose.slides/sectioncollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)

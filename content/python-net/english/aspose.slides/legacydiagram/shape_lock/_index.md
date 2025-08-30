@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/legacydiagram/shape_lock/
-weight: 390
+weight: 350
 ---
 
 

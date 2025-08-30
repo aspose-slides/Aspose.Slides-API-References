@@ -22,8 +22,6 @@ The ColorChange type exposes the following members:
 | :- | :- |
 | [`from_color`](/slides/python-net/aspose.slides.effects/colorchange/from_color/) | Color which will be replaced.<br/>            Read-only [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
 | [`to_color`](/slides/python-net/aspose.slides.effects/colorchange/to_color/) | Color which will replace.<br/>            Read-only [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
-| [`slide`](/slides/python-net/aspose.slides.effects/colorchange/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides.effects/colorchange/presentation/) |  |
 
 ## Methods
 

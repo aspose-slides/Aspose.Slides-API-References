@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## get_font_bytes {#ifontdata-asposepydrawingfontstyle}
+## get_font_bytes {#asposeslidesifontdata-asposepydrawingfontstyle}
 Retrieves the byte array representing the font data for a specified font style and font data.
 
 ### Returns

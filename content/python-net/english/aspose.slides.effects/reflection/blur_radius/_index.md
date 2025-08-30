@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/reflection/blur_radius/
-weight: 30
+weight: 20
 ---
 
 

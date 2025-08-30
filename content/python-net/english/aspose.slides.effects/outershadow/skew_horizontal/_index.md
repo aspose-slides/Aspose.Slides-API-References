@@ -4,12 +4,13 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/outershadow/skew_horizontal/
-weight: 110
+weight: 100
 ---
 
 
 ## skew_horizontal property
-Specifies the horizontal skew angle (in degrees).
+Horizontal skew angle, in degrees.
+            Default value – 0 °.
             Read/write **float**.
 
 ### Definition:

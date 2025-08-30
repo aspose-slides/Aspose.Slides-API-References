@@ -26,7 +26,6 @@ def create_gray_scale(self):
 
 
 ### See Also
-* class [`IGrayScale`](/slides/python-net/aspose.slides.effects/igrayscale)
 * class [`IImageTransformOperationFactory`](/slides/python-net/aspose.slides.effects/iimagetransformoperationfactory)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

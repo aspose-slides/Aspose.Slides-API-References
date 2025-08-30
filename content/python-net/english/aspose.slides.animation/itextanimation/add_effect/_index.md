@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_effect {#effecttype-effectsubtype-effecttriggertype}
+## add_effect {#asposeslidesanimationeffecttype-asposeslidesanimationeffectsubtype-asposeslidesanimationeffecttriggertype}
 Add new effect to the end of current sequence to end of group text animations.
             Only valid if count of text paragraphs equal or greater of counts effect of this group!
 

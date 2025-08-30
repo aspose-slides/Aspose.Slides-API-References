@@ -9,6 +9,9 @@ weight: 20
 
 
 ## AudioCollection indexer
+Gets the element at the specified index.
+            Read-only [`IAudio`](/slides/python-net/aspose.slides/iaudio).
+
 ## Indexer
 
 | Name | Description |
@@ -18,6 +21,7 @@ weight: 20
 
 ### See Also
 * class [`AudioCollection`](/slides/python-net/aspose.slides/audiocollection)
+* class [`IAudio`](/slides/python-net/aspose.slides/iaudio)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

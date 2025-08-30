@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## get_count {#ishape}
+## get_count {#asposeslidesishape}
 Returns count of effects for the specified shape.
 
 

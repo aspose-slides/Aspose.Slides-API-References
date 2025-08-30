@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#ichartdatapoint}
+## __init__ {#asposeslideschartsichartdatapoint}
 Creates a new instance of DataLabel class.
 
 

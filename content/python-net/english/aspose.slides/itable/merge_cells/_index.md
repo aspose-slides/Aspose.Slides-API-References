@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/itable/merge_cells/
-weight: 50
+weight: 10
 ---
 
 
-## merge_cells {#icell-icell-bool}
+## merge_cells {#asposeslidesicell-asposeslidesicell-bool}
 Merges neighbour cells.
 
 ### Returns

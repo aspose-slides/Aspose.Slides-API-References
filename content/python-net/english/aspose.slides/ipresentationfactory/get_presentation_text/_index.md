@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## get_presentation_text {#str-textextractionarrangingmode}
+## get_presentation_text {#str-asposeslidestextextractionarrangingmode}
 Retrieves the raw text from the slides
 
 ### Returns
@@ -29,7 +29,7 @@ def get_presentation_text(self, file, mode):
 | mode | [`TextExtractionArrangingMode`](/slides/python-net/aspose.slides/textextractionarrangingmode) | Extraction mode |
 
 
-## get_presentation_text {#iorawiobase-textextractionarrangingmode}
+## get_presentation_text {#iorawiobase-asposeslidestextextractionarrangingmode}
 Retrieves the raw text from the slides
 
 ### Returns
@@ -50,7 +50,7 @@ def get_presentation_text(self, stream, mode):
 | mode | [`TextExtractionArrangingMode`](/slides/python-net/aspose.slides/textextractionarrangingmode) | Extraction mode |
 
 
-## get_presentation_text {#iorawiobase-textextractionarrangingmode-iloadoptions}
+## get_presentation_text {#iorawiobase-asposeslidestextextractionarrangingmode-asposeslidesiloadoptions}
 Retrieves the raw text from the slides
 
 ### Returns
@@ -76,7 +76,6 @@ def get_presentation_text(self, stream, mode, options):
 ### See Also
 * class [`ILoadOptions`](/slides/python-net/aspose.slides/iloadoptions)
 * class [`IPresentationFactory`](/slides/python-net/aspose.slides/ipresentationfactory)
-* class [`IPresentationText`](/slides/python-net/aspose.slides/ipresentationtext)
 * enumeration [`TextExtractionArrangingMode`](/slides/python-net/aspose.slides/textextractionarrangingmode)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

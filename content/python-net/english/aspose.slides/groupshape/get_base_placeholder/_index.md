@@ -23,7 +23,6 @@ def get_base_placeholder(self):
 
 ### See Also
 * class [`GroupShape`](/slides/python-net/aspose.slides/groupshape)
-* class [`IShape`](/slides/python-net/aspose.slides/ishape)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

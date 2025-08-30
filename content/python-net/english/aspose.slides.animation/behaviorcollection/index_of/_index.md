@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## index_of {#ibehavior}
+## index_of {#asposeslidesanimationibehavior}
 Determines the index of a specific item in the **System.Collections.Generic.IList`1**.
 
 ### Returns

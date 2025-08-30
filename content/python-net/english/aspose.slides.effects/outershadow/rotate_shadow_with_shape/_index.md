@@ -4,12 +4,13 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/outershadow/rotate_shadow_with_shape/
-weight: 70
+weight: 60
 ---
 
 
 ## rotate_shadow_with_shape property
-Specifies whether the shadow should rotate with the shape if the shape is rotated.
+Indicates whether the shadow rotates together with the shape.
+            Default value – true.
             Read/write **bool**.
 
 ### Definition:

@@ -9,7 +9,8 @@ weight: 50
 
 
 ## distance property
-Distance of shadow.
+Distance of the shadow from the object, in points.
+            Default value – 0 pt.
             Read/write **float**.
 
 ### Definition:

@@ -9,6 +9,8 @@ weight: 60
 
 
 ## IMotionPath indexer
+Returns a command at the specified index.
+
 ## Indexer
 
 | Name | Description |

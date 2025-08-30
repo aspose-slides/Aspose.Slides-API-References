@@ -22,8 +22,6 @@ The ColorReplace type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`color`](/slides/python-net/aspose.slides.effects/colorreplace/color/) | Returns color format which will replace color of every pixel.<br/>            Read-only [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
-| [`slide`](/slides/python-net/aspose.slides.effects/colorreplace/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides.effects/colorreplace/presentation/) |  |
 
 ## Methods
 

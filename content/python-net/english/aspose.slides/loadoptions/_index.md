@@ -18,7 +18,7 @@ The LoadOptions type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [`__init__`](/slides/python-net/aspose.slides/loadoptions/__init__/#) | Creates new default load options. |
-| [`__init__`](/slides/python-net/aspose.slides/loadoptions/__init__/#loadformat) | Creates new load options. |
+| [`__init__`](/slides/python-net/aspose.slides/loadoptions/__init__/#asposeslidesloadformat) | Creates new load options. |
 
 ## Properties
 

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/videoframe/picture_frame_lock/
-weight: 450
+weight: 390
 ---
 
 

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/swfoptions/show_page_stepper/
-weight: 170
+weight: 160
 ---
 
 

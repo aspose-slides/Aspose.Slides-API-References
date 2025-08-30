@@ -13,13 +13,6 @@ Callback interface used by HTML import routine to obtain referrenced objects suc
 
 The IHtmlExternalResolver type exposes the following members:
 
-## Methods
-
-| Method | Description |
-| :- | :- |
-| [`resolve_uri`](/slides/python-net/aspose.slides.importing/ihtmlexternalresolver/resolve_uri/#str-str) |  |
-| [`get_entity`](/slides/python-net/aspose.slides.importing/ihtmlexternalresolver/get_entity/#str) |  |
-
 
 ### See Also
 * module [`aspose.slides.importing`](/slides/python-net/aspose.slides.importing)

@@ -18,9 +18,6 @@ The IFormattedTextContainer type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`text_format`](/slides/python-net/aspose.slides.charts/iformattedtextcontainer/text_format/) | Returns chart text format.<br/>            Read-only [`IChartTextFormat`](/slides/python-net/aspose.slides.charts/icharttextformat). |
-| [`chart`](/slides/python-net/aspose.slides.charts/iformattedtextcontainer/chart/) |  |
-| [`slide`](/slides/python-net/aspose.slides.charts/iformattedtextcontainer/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides.charts/iformattedtextcontainer/presentation/) |  |
 
 
 ### See Also

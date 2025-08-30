@@ -8,7 +8,7 @@ weight: 180
 ---
 
 
-## nary {#mathnaryoperatortypes-imathelement-imathelement}
+## nary {#asposeslidesmathtextmathnaryoperatortypes-asposeslidesmathtextimathelement-asposeslidesmathtextimathelement}
 
 
 
@@ -25,7 +25,7 @@ def nary(self, type, lower_limit, upper_limit):
 | upper_limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
 
 
-## nary {#mathnaryoperatortypes-str-str}
+## nary {#asposeslidesmathtextmathnaryoperatortypes-str-str}
 
 
 
@@ -46,7 +46,6 @@ def nary(self, type, lower_limit, upper_limit):
 ### See Also
 * class [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock)
 * class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
-* class [`IMathNaryOperator`](/slides/python-net/aspose.slides.mathtext/imathnaryoperator)
 * enumeration [`MathNaryOperatorTypes`](/slides/python-net/aspose.slides.mathtext/mathnaryoperatortypes)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

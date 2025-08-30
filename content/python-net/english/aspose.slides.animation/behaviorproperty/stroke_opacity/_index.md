@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.animation/behaviorproperty/stroke_opacity/
-weight: 990
+weight: 1010
 ---
 
 

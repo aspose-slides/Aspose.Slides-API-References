@@ -22,8 +22,6 @@ The Blur type exposes the following members:
 | :- | :- |
 | [`radius`](/slides/python-net/aspose.slides.effects/blur/radius/) | Returns or sets blur radius.<br/>            Read/write **float**. |
 | [`grow`](/slides/python-net/aspose.slides.effects/blur/grow/) | Determines whether the bounds of the object should be grown as a result of the blurring.<br/>            True indicates the bounds are grown while false indicates that they are not.<br/>            Read/write **bool**. |
-| [`slide`](/slides/python-net/aspose.slides.effects/blur/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides.effects/blur/presentation/) |  |
 
 ## Methods
 

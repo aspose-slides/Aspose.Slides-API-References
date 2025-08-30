@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/stringchartvalue/as_literal_string/
-weight: 60
+weight: 40
 ---
 
 

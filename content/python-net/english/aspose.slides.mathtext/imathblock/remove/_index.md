@@ -8,7 +8,7 @@ weight: 210
 ---
 
 
-## remove {#imathelement}
+## remove {#asposeslidesmathtextimathelement}
 
 
 

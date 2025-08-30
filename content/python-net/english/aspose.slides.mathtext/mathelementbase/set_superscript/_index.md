@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/mathelementbase/set_superscript/
-weight: 170
+weight: 160
 ---
 
 
-## set_superscript {#imathelement}
+## set_superscript {#asposeslidesmathtextimathelement}
 Creates superscript
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 300
 ---
 
 
-## insert_section_zoom_frame {#int-float-float-float-float-isection}
+## insert_section_zoom_frame {#int-float-float-float-float-asposeslidesisection}
 Creates a new Section Zoom frame and inserts it into to the shape collection at the
             specified index.
 
@@ -45,7 +45,7 @@ This example demonstrates the creation and inserting a Section Zoom object at th
 | **RuntimeError(Proxy error(ArgumentException))** | Thrown if the referenced section does not belong to the current presentation or contains no slides. |
 
 
-## insert_section_zoom_frame {#int-float-float-float-float-isection-ippimage}
+## insert_section_zoom_frame {#int-float-float-float-float-asposeslidesisection-asposeslidesippimage}
 Creates a new Section Zoom frame with a predefined image and inserts it into to the shape
             collection at the specified index.
 

@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## insert {#int-iportion}
+## insert {#int-asposeslidesiportion}
 Inserts a Portion into the collection at the specified index.
 
 

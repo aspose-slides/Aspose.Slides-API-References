@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## add_connector {#shapetype-float-float-float-float}
+## add_connector {#asposeslidesshapetype-float-float-float-float}
 Creates a new connector shape with default template styling and adds it to the end of the
             shape collection.
 
@@ -37,7 +37,7 @@ def add_connector(self, shape_type, x, y, width, height):
 The following example shows how to add a connector (a bent connector) between two shapes (an ellipse and rectangle) in PowerPoint Presentation.
 
 
-## add_connector {#shapetype-float-float-float-float-bool}
+## add_connector {#asposeslidesshapetype-float-float-float-float-bool}
 Creates a new connector shape and adds it to the end of the shape collection,
             optionally applying default template styling.
 

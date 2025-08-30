@@ -29,7 +29,7 @@ def add(self, position, color):
 | color | **aspose.pydrawing.Color** | Color of the new radient stop. |
 
 
-## add {#float-presetcolor}
+## add {#float-asposeslidespresetcolor}
 Creates the new gradient stop and adds it to the end of collection.
 
 ### Returns
@@ -50,7 +50,7 @@ def add(self, position, preset_color):
 | preset_color | [`PresetColor`](/slides/python-net/aspose.slides/presetcolor) | Color of the new radient stop. |
 
 
-## add {#float-schemecolor}
+## add {#float-asposeslidesschemecolor}
 Creates the new gradient stop and adds it to the end of collection.
 
 ### Returns
@@ -74,7 +74,6 @@ def add(self, position, scheme_color):
 
 ### See Also
 * class [`GradientStopCollection`](/slides/python-net/aspose.slides/gradientstopcollection)
-* class [`IGradientStop`](/slides/python-net/aspose.slides/igradientstop)
 * enumeration [`PresetColor`](/slides/python-net/aspose.slides/presetcolor)
 * enumeration [`SchemeColor`](/slides/python-net/aspose.slides/schemecolor)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)

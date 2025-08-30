@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## index_of {#iportion}
+## index_of {#asposeslidesiportion}
 Determines the index of a specific portion in collection.
 
 ### Returns

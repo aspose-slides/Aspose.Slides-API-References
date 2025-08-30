@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add_clone {#ilayoutslide}
+## add_clone {#asposeslidesilayoutslide}
 Adds a copy of a specified layout slide to the presentation.
 
 ### Returns
@@ -36,7 +36,7 @@ When cloning a layout between different presentations layout's master can be clo
             Manual cloning of master slides will be neither prevented nor registered.
 
 
-## add_clone {#ilayoutslide-imasterslide}
+## add_clone {#asposeslidesilayoutslide-asposeslidesimasterslide}
 Adds a copy of a specified layout slide to the presentation.
 
 ### Returns

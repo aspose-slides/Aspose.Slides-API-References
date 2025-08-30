@@ -9,11 +9,13 @@ weight: 90
 
 
 ## ISequence indexer
+Returns an effect at the specified index.
+
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| index |  |
+| index | Index |
 
 
 ### See Also

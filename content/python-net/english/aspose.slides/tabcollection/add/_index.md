@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#itab}
+## add {#asposeslidesitab}
 Adds a Tab to the collection.
 
 ### Returns
@@ -28,7 +28,7 @@ def add(self, value):
 | value | [`ITab`](/slides/python-net/aspose.slides/itab) | The Tab object to be added at the end of the collection. |
 
 
-## add {#float-tabalignment}
+## add {#float-asposeslidestabalignment}
 Adds a Tab to the collection.
 
 ### Returns

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/idatalabel/value_from_cell/
-weight: 240
+weight: 80
 ---
 
 

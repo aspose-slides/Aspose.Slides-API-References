@@ -26,7 +26,6 @@ def add_alpha_modulate_effect(self):
 
 
 ### See Also
-* class [`IAlphaModulate`](/slides/python-net/aspose.slides.effects/ialphamodulate)
 * class [`IImageTransformOperationCollection`](/slides/python-net/aspose.slides.effects/iimagetransformoperationcollection)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

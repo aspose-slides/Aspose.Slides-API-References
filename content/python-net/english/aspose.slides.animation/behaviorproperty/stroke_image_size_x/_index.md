@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.animation/behaviorproperty/stroke_image_size_x/
-weight: 950
+weight: 970
 ---
 
 

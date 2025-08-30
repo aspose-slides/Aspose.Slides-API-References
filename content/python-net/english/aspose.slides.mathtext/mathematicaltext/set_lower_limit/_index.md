@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/mathematicaltext/set_lower_limit/
-weight: 140
+weight: 130
 ---
 
 
-## set_lower_limit {#imathelement}
+## set_lower_limit {#asposeslidesmathtextimathelement}
 Takes lower limit
 
 ### Returns

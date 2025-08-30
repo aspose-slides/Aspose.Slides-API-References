@@ -36,8 +36,6 @@ The PictureFillFormat type exposes the following members:
 | [`tile_scale_y`](/slides/python-net/aspose.slides/picturefillformat/tile_scale_y/) | Returns or sets the vertical scale for the texture fill as a percentage.<br/>             Read/write **float**. |
 | [`tile_alignment`](/slides/python-net/aspose.slides/picturefillformat/tile_alignment/) | Returns or sets how the texture is aligned within the shape. This setting controls the starting point of the texture pattern and how it repeats across the shape.<br/>             Read/write [`RectangleAlignment`](/slides/python-net/aspose.slides/rectanglealignment). |
 | [`tile_flip`](/slides/python-net/aspose.slides/picturefillformat/tile_flip/) | Flips the texture tile around its horizontal, vertical or both axis.<br/>             Read/write [`TileFlip`](/slides/python-net/aspose.slides/tileflip). |
-| [`slide`](/slides/python-net/aspose.slides/picturefillformat/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides/picturefillformat/presentation/) |  |
 
 ## Methods
 

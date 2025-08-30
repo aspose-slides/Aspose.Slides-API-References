@@ -9,6 +9,8 @@ weight: 10
 
 
 ## IChartSeriesGroupCollection indexer
+Gets the series group by index.
+
 ## Indexer
 
 | Name | Description |

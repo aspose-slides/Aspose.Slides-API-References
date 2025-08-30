@@ -19,7 +19,7 @@ def enclose(self):
 
 
 
-## enclose {#char-char}
+## enclose {#systemchar-systemchar}
 
 
 
@@ -31,11 +31,11 @@ def enclose(self, beginning_character, ending_character):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| beginning_character | **char** |  |
-| ending_character | **char** |  |
+| beginning_character | **System.Char** |  |
+| ending_character | **System.Char** |  |
 
 
-## enclose {#char-char-char}
+## enclose {#systemchar-systemchar-systemchar}
 Encloses child elements of this block in specified characters such as parenthesis or another as framing
             and delimit with a separator character
 
@@ -53,9 +53,9 @@ def enclose(self, beginning_character, ending_character, separator_character):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| beginning_character | **char** | Beginning character (usually left bracket) |
-| ending_character | **char** | Ending character (usually right bracket) |
-| separator_character | **char** | Separator character |
+| beginning_character | **System.Char** | Beginning character (usually left bracket) |
+| ending_character | **System.Char** | Ending character (usually right bracket) |
+| separator_character | **System.Char** | Separator character |
 
 ### Examples
 

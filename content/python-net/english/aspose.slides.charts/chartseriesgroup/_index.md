@@ -36,8 +36,6 @@ The ChartSeriesGroup type exposes the following members:
 | [`bubble_size_scale`](/slides/python-net/aspose.slides.charts/chartseriesgroup/bubble_size_scale/) | Specifies the scale factor for the bubble chart (can be <br/>            between 0 and 300 percents of the default size).<br/>            Read/write **int**. |
 | [`pie_split_custom_points`](/slides/python-net/aspose.slides.charts/chartseriesgroup/pie_split_custom_points/) | The custom split information for a pie-of-pie or bar-of-pie chart with a custom split.<br/>            Contains data points that shall be drawn in the second pie or bar in a pie-of-pie or <br/>            bar-of-pie chart.<br/>            Read-only [`PieSplitCustomPointCollection`](/slides/python-net/aspose.slides.charts/piesplitcustompointcollection). |
 | [`chart`](/slides/python-net/aspose.slides.charts/chartseriesgroup/chart/) | Returns the parent chart.<br/>            Read-only [`IChart`](/slides/python-net/aspose.slides.charts/ichart). |
-| [`slide`](/slides/python-net/aspose.slides.charts/chartseriesgroup/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides.charts/chartseriesgroup/presentation/) |  |
 
 Gets the element at the specified index.
 

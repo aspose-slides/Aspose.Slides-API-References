@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/mathematicaltext/set_subscript/
-weight: 170
+weight: 160
 ---
 
 
-## set_subscript {#imathelement}
+## set_subscript {#asposeslidesmathtextimathelement}
 Creates subscript
 
 ### Returns

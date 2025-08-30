@@ -187,7 +187,6 @@ The following example shows how to converting slides With notes and comments to 
 
 
 ### See Also
-* class [`IImage`](/slides/python-net/aspose.slides/iimage)
 * class [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions)
 * class [`ITiffOptions`](/slides/python-net/aspose.slides.export/itiffoptions)
 * class [`Slide`](/slides/python-net/aspose.slides/slide)

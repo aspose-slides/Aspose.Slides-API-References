@@ -27,7 +27,6 @@ def create_property_effect(self):
 
 ### See Also
 * class [`BehaviorFactory`](/slides/python-net/aspose.slides.animation/behaviorfactory)
-* class [`IPropertyEffect`](/slides/python-net/aspose.slides.animation/ipropertyeffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
 

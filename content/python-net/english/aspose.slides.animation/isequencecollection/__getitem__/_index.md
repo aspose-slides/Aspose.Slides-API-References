@@ -9,6 +9,8 @@ weight: 50
 
 
 ## ISequenceCollection indexer
+Returns a sequense at the specified index.
+
 ## Indexer
 
 | Name | Description |

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## format_shape {#isvgshape-ishape}
+## format_shape {#asposeslidesexportisvgshape-asposeslidesishape}
 This function is called before rendering of shape to SVG to allow user to control resulting SVG.
 
 

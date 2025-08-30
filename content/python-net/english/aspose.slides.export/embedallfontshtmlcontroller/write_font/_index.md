@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## write_font {#ihtmlgenerator-ifontdata-ifontdata-str-str-bytes}
+## write_font {#asposeslidesexportihtmlgenerator-asposeslidesifontdata-asposeslidesifontdata-str-str-bytes}
 Writes data as base64 into HTML document itself
 
 

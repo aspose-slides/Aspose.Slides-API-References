@@ -9,11 +9,13 @@ weight: 80
 
 
 ## IBehaviorCollection indexer
+Returns a behavior at the specified index.
+
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| index |  |
+| index | Index of a behavior to return. |
 
 
 ### See Also

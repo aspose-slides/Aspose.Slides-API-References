@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/ichartdatapoint/error_bars_custom_values/
-weight: 110
+weight: 70
 ---
 
 

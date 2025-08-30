@@ -28,7 +28,7 @@ def enclose(self):
 Example:
 
 
-## enclose {#char-char}
+## enclose {#systemchar-systemchar}
 Encloses a math element in specified characters such as parenthesis or another characters as framing
 
 ### Returns
@@ -45,8 +45,8 @@ def enclose(self, beginning_character, ending_character):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| beginning_character | **char** | Beginning character (usually left bracket) |
-| ending_character | **char** | Ending character (usually right bracket) |
+| beginning_character | **System.Char** | Beginning character (usually left bracket) |
+| ending_character | **System.Char** | Ending character (usually right bracket) |
 
 ### Examples
 

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## geometry_path_to_graphics_path {#igeometrypath}
+## geometry_path_to_graphics_path {#asposeslidesigeometrypath}
 Converts [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath) to **aspose.pydrawing.Drawing2D.GraphicsPath**.
 
             GraphicsPath can be transformed in a different ways using its convenient methods and then transformed back into

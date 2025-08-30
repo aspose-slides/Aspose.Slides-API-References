@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/table/line_format/
-weight: 380
+weight: 320
 ---
 
 

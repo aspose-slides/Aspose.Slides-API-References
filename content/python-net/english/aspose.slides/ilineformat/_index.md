@@ -39,7 +39,7 @@ The ILineFormat type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`equals`](/slides/python-net/aspose.slides/ilineformat/equals/#ilineformat) | Determines whether the two LineFormat instances are equal. |
+| [`equals`](/slides/python-net/aspose.slides/ilineformat/equals/#asposeslidesilineformat) | Determines whether the two LineFormat instances are equal. |
 | [`get_effective`](/slides/python-net/aspose.slides/ilineformat/get_effective/#) | Gets effective line formatting data with the inheritance applied. |
 
 

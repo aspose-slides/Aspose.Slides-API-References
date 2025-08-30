@@ -61,7 +61,6 @@ Example:
 
 
 ### See Also
-* class [`IMathBorderBox`](/slides/python-net/aspose.slides.mathtext/imathborderbox)
 * class [`MathLeftSubSuperscriptElement`](/slides/python-net/aspose.slides.mathtext/mathleftsubsuperscriptelement)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

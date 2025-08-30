@@ -23,8 +23,8 @@ The MathLimitFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`create_math_limit`](/slides/python-net/aspose.slides.mathtext/mathlimitfactory/create_math_limit/#imathelement-imathelement-bool) | Creates IMathLimit |
-| [`create_math_limit`](/slides/python-net/aspose.slides.mathtext/mathlimitfactory/create_math_limit/#imathelement-imathelement) | Creates IMathLimit with limit at the bottom |
+| [`create_math_limit`](/slides/python-net/aspose.slides.mathtext/mathlimitfactory/create_math_limit/#asposeslidesmathtextimathelement-asposeslidesmathtextimathelement-bool) | Creates IMathLimit |
+| [`create_math_limit`](/slides/python-net/aspose.slides.mathtext/mathlimitfactory/create_math_limit/#asposeslidesmathtextimathelement-asposeslidesmathtextimathelement) | Creates IMathLimit with limit at the bottom |
 
 
 ### Remarks

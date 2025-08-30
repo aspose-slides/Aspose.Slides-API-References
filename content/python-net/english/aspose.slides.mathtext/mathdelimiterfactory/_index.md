@@ -23,8 +23,8 @@ The MathDelimiterFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`create_math_delimiter`](/slides/python-net/aspose.slides.mathtext/mathdelimiterfactory/create_math_delimiter/#imathelement) | Create a math delimiter by applying to the element |
-| [`create_math_delimiter`](/slides/python-net/aspose.slides.mathtext/mathdelimiterfactory/create_math_delimiter/#imathelementcollection) | Create a math delimiter by applying to the element |
+| [`create_math_delimiter`](/slides/python-net/aspose.slides.mathtext/mathdelimiterfactory/create_math_delimiter/#asposeslidesmathtextimathelement) | Create a math delimiter by applying to the element |
+| [`create_math_delimiter`](/slides/python-net/aspose.slides.mathtext/mathdelimiterfactory/create_math_delimiter/#asposeslidesmathtextimathelementcollection) | Create a math delimiter by applying to the element |
 
 
 ### Remarks

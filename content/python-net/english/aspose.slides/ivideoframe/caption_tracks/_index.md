@@ -4,13 +4,13 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ivideoframe/caption_tracks/
-weight: 210
+weight: 20
 ---
 
 
 ## caption_tracks property
-Returns the closed captions collection of the video.
-             Read-only [`ICaptionsCollection`](/slides/python-net/aspose.slides/icaptionscollection).
+Gets the collection of closed captions associated with the audio frame.
+             This property is read-only and returns an [`ICaptionsCollection`](/slides/python-net/aspose.slides/icaptionscollection) containing all caption tracks.
 
 ### Definition:
 ```python

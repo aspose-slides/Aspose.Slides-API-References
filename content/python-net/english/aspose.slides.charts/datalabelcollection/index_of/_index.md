@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## index_of {#idatalabel}
+## index_of {#asposeslideschartsidatalabel}
 Returns an index of the specified DataLabel in the collection.
 
 ### Returns

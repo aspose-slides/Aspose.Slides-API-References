@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#ishape}
+## add {#asposeslidesishape}
 Add new interactive sequence.
             Read/write [`Sequence`](/slides/python-net/aspose.slides.animation/sequence).
 
@@ -26,7 +26,6 @@ def add(self, shape_trigger):
 
 
 ### See Also
-* class [`ISequence`](/slides/python-net/aspose.slides.animation/isequence)
 * class [`IShape`](/slides/python-net/aspose.slides/ishape)
 * class [`Sequence`](/slides/python-net/aspose.slides.animation/sequence)
 * class [`SequenceCollection`](/slides/python-net/aspose.slides.animation/sequencecollection)

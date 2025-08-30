@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#imasterslide-slidelayouttype-str}
+## add {#asposeslidesimasterslide-asposeslidesslidelayouttype-str}
 Adds a new layout slide to the presentation.
 
 ### Returns
@@ -49,7 +49,6 @@ def add(self, master, layout_type, layout_name):
 
 ### See Also
 * class [`GlobalLayoutSlideCollection`](/slides/python-net/aspose.slides/globallayoutslidecollection)
-* class [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide)
 * class [`IMasterSlide`](/slides/python-net/aspose.slides/imasterslide)
 * enumeration [`SlideLayoutType`](/slides/python-net/aspose.slides/slidelayouttype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)

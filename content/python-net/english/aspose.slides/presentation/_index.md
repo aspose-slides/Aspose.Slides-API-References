@@ -18,11 +18,11 @@ The Presentation type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [`__init__`](/slides/python-net/aspose.slides/presentation/__init__/#) | This constructor creates new presentation from scratch.<br/>            Created presentation has one empty slide. |
-| [`__init__`](/slides/python-net/aspose.slides/presentation/__init__/#loadoptions) | This constructor creates new presentation from scratch.<br/>            Created presentation has one empty slide. |
+| [`__init__`](/slides/python-net/aspose.slides/presentation/__init__/#asposeslidesloadoptions) | This constructor creates new presentation from scratch.<br/>            Created presentation has one empty slide. |
 | [`__init__`](/slides/python-net/aspose.slides/presentation/__init__/#iorawiobase) | This constructor is the primary mechanism for reading an existing Presentation. |
-| [`__init__`](/slides/python-net/aspose.slides/presentation/__init__/#iorawiobase-loadoptions) | This constructor is the primary mechanism for reading an existing Presentation. |
+| [`__init__`](/slides/python-net/aspose.slides/presentation/__init__/#iorawiobase-asposeslidesloadoptions) | This constructor is the primary mechanism for reading an existing Presentation. |
 | [`__init__`](/slides/python-net/aspose.slides/presentation/__init__/#str) | This constructor gets a source file path from which<br/>             the contents of the Presentation are read. |
-| [`__init__`](/slides/python-net/aspose.slides/presentation/__init__/#str-loadoptions) | This constructor gets a source file path from which<br/>            the contents of the Presentation are read. |
+| [`__init__`](/slides/python-net/aspose.slides/presentation/__init__/#str-asposeslidesloadoptions) | This constructor gets a source file path from which<br/>            the contents of the Presentation are read. |
 
 ## Properties
 
@@ -88,11 +88,11 @@ The Presentation type exposes the following members:
 | [`print`](/slides/python-net/aspose.slides/presentation/print/#str) | Print the whole presentation to the specified printer,<br/>            using the standard (no User Interface) print controller. |
 | [`print`](/slides/python-net/aspose.slides/presentation/print/#asposepydrawingprintingprintersettings-str) | Prints the document according to the specified printer settings, using<br/>            the standard (no User Interface) print controller and a presentation name. |
 | [`highlight_text`](/slides/python-net/aspose.slides/presentation/highlight_text/#str-asposepydrawingcolor) | Highlights all matches of the sample text with the specified color. |
-| [`highlight_text`](/slides/python-net/aspose.slides/presentation/highlight_text/#str-asposepydrawingcolor-itextsearchoptions-ifindresultcallback) | Highlights all matches of the sample text with the specified color. |
+| [`highlight_text`](/slides/python-net/aspose.slides/presentation/highlight_text/#str-asposepydrawingcolor-asposeslidesitextsearchoptions-asposeslidesifindresultcallback) | Highlights all matches of the sample text with the specified color. |
 | [`get_slide_by_id`](/slides/python-net/aspose.slides/presentation/get_slide_by_id/#int) | Returns a Slide, MasterSlide or LayoutSlide by Id. |
 | [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/presentation/join_portions_with_same_formatting/#) | Joins runs with same formatting in all paragraphs in all acceptable shapes in all slides. |
 | [`highlight_regex`](/slides/python-net/aspose.slides/presentation/highlight_regex/#str-asposepydrawingcolor) | Highlights all matches of the regular expression with the specified color. |
-| [`replace_text`](/slides/python-net/aspose.slides/presentation/replace_text/#str-str-itextsearchoptions-ifindresultcallback) | Replaces all occurrences of the specified text with another specified text. |
+| [`replace_text`](/slides/python-net/aspose.slides/presentation/replace_text/#str-str-asposeslidesitextsearchoptions-asposeslidesifindresultcallback) | Replaces all occurrences of the specified text with another specified text. |
 | [`replace_regex`](/slides/python-net/aspose.slides/presentation/replace_regex/#str-str) | Replaces all matches of the regular expression with the specified string. |
 
 

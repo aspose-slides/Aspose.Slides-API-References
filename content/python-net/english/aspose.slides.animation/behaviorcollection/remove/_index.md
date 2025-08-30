@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## remove {#ibehavior}
+## remove {#asposeslidesanimationibehavior}
 Removes specified behavior from a collection.
 
 

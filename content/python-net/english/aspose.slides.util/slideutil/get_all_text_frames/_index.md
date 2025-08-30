@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.util/slideutil/get_all_text_frames/
-weight: 50
+weight: 60
 ---
 
 
-## get_all_text_frames {#ipresentation-bool}
+## get_all_text_frames {#asposeslidesipresentation-bool}
 Returns all text frames in a PPTX presentation.
 
 ### Returns

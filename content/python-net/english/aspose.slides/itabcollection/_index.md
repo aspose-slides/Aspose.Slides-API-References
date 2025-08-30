@@ -26,8 +26,8 @@ Gets the element at the specified index.
 
 | Method | Description |
 | :- | :- |
-| [`add`](/slides/python-net/aspose.slides/itabcollection/add/#float-tabalignment) | Adds a Tab to the collection. |
-| [`add`](/slides/python-net/aspose.slides/itabcollection/add/#itab) | Adds a Tab to the collection. |
+| [`add`](/slides/python-net/aspose.slides/itabcollection/add/#float-asposeslidestabalignment) | Adds a Tab to the collection. |
+| [`add`](/slides/python-net/aspose.slides/itabcollection/add/#asposeslidesitab) | Adds a Tab to the collection. |
 | [`clear`](/slides/python-net/aspose.slides/itabcollection/clear/#) | Removes all elements from the collection. |
 | [`remove_at`](/slides/python-net/aspose.slides/itabcollection/remove_at/#int) | Removes the element at the specified index of the collection. |
 

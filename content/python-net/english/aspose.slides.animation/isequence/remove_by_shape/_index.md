@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## remove_by_shape {#ishape}
+## remove_by_shape {#asposeslidesishape}
 Remove effect for the specified shape.
 
 

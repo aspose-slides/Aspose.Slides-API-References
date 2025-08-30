@@ -73,8 +73,6 @@ The Axis type exposes the following members:
 | [`is_underflow_bin`](/slides/python-net/aspose.slides.charts/axis/is_underflow_bin/) | Specifies if underflow bin applied. Use IsAutomaticUnderflowBin and UnderflowBin to adjust underflow bin value. |
 | [`is_automatic_underflow_bin`](/slides/python-net/aspose.slides.charts/axis/is_automatic_underflow_bin/) | Specifies automatic underflow bin value. If false: use UnderflowBin property. |
 | [`underflow_bin`](/slides/python-net/aspose.slides.charts/axis/underflow_bin/) | Specifies underflow bin custom value. Applied when IsAutomaticUnderflowBin property setted to false and IsUnderflowBin property equals true. |
-| [`slide`](/slides/python-net/aspose.slides.charts/axis/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides.charts/axis/presentation/) |  |
 
 ## Methods
 

@@ -9,6 +9,8 @@ weight: 20
 
 
 ## ImageTransformOCollectionEffectiveData indexer
+Returns element by index.
+
 ## Indexer
 
 | Name | Description |

@@ -9,6 +9,8 @@ weight: 110
 
 
 ## ParagraphCollection indexer
+Gets the element at the specified index.
+
 ## Indexer
 
 | Name | Description |

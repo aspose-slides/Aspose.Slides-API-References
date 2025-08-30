@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/chartseries/pie_split_by/
-weight: 340
+weight: 310
 ---
 
 

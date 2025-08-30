@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## add_auto_shape {#shapetype-float-float-float-float}
+## add_auto_shape {#asposeslidesshapetype-float-float-float-float}
 Creates a new auto shape with default formatting and adds it to the end of the
             shape collection.
 
@@ -33,7 +33,7 @@ def add_auto_shape(self, shape_type, x, y, width, height):
 | height | **float** | The height of the shape’s frame, in points. |
 
 
-## add_auto_shape {#shapetype-float-float-float-float-bool}
+## add_auto_shape {#asposeslidesshapetype-float-float-float-float-bool}
 Creates a new auto shape and adds it to the end of the shape collection, optionally
             initializing it with default template formatting.
 

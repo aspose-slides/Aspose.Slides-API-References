@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/zoomframe/is_text_holder/
-weight: 300
+weight: 240
 ---
 
 

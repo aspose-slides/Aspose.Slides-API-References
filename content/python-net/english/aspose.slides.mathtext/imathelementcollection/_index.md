@@ -32,14 +32,14 @@ Gets the element at the specified index.
 
 | Method | Description |
 | :- | :- |
-| [`add`](/slides/python-net/aspose.slides.mathtext/imathelementcollection/add/#imathelement) | Adds a math element to the end of the collection. |
-| [`index_of`](/slides/python-net/aspose.slides.mathtext/imathelementcollection/index_of/#imathelement) | Determines the index of a specific math element in collection. |
-| [`insert`](/slides/python-net/aspose.slides.mathtext/imathelementcollection/insert/#int-imathelement) | Inserts a math element into the collection at the specified index. |
+| [`add`](/slides/python-net/aspose.slides.mathtext/imathelementcollection/add/#asposeslidesmathtextimathelement) | Adds a math element to the end of the collection. |
+| [`index_of`](/slides/python-net/aspose.slides.mathtext/imathelementcollection/index_of/#asposeslidesmathtextimathelement) | Determines the index of a specific math element in collection. |
+| [`insert`](/slides/python-net/aspose.slides.mathtext/imathelementcollection/insert/#int-asposeslidesmathtextimathelement) | Inserts a math element into the collection at the specified index. |
 | [`clear`](/slides/python-net/aspose.slides.mathtext/imathelementcollection/clear/#) | Removes all elements from the collection. |
-| [`contains`](/slides/python-net/aspose.slides.mathtext/imathelementcollection/contains/#imathelement) | Determines whether the collection contains a specific value. |
-| [`remove`](/slides/python-net/aspose.slides.mathtext/imathelementcollection/remove/#imathelement) | Removes the first occurrence of a specific object from the collection. |
+| [`contains`](/slides/python-net/aspose.slides.mathtext/imathelementcollection/contains/#asposeslidesmathtextimathelement) | Determines whether the collection contains a specific value. |
+| [`remove`](/slides/python-net/aspose.slides.mathtext/imathelementcollection/remove/#asposeslidesmathtextimathelement) | Removes the first occurrence of a specific object from the collection. |
 | [`remove_at`](/slides/python-net/aspose.slides.mathtext/imathelementcollection/remove_at/#int) | Removes the element at the specified index of the collection. |
-| [`copy_to`](/slides/python-net/aspose.slides.mathtext/imathelementcollection/copy_to/#listimathelement-int) | Copy to specified array. |
+| [`copy_to`](/slides/python-net/aspose.slides.mathtext/imathelementcollection/copy_to/#listasposeslidesmathtextimathelement-int) | Copy to specified array. |
 
 
 ### Examples

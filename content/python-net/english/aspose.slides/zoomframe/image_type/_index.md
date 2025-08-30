@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/zoomframe/image_type/
-weight: 270
+weight: 210
 ---
 
 

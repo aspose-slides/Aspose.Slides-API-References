@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/baseslide/slide_show_transition/
-weight: 180
+weight: 140
 ---
 
 

@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_math_box {#imathelement}
+## create_math_box {#asposeslidesmathtextimathelement}
 Create a math box by applying to the element
 
 ### Returns
@@ -30,7 +30,6 @@ def create_math_box(self, element):
 
 
 ### See Also
-* class [`IMathBox`](/slides/python-net/aspose.slides.mathtext/imathbox)
 * class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
 * class [`MathBoxFactory`](/slides/python-net/aspose.slides.mathtext/mathboxfactory)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)

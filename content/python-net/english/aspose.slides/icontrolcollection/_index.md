@@ -25,10 +25,10 @@ Returns a control at the specified position.
 
 | Method | Description |
 | :- | :- |
-| [`remove`](/slides/python-net/aspose.slides/icontrolcollection/remove/#icontrol) | Removes an ActiveX control from the collection. |
+| [`remove`](/slides/python-net/aspose.slides/icontrolcollection/remove/#asposeslidesicontrol) | Removes an ActiveX control from the collection. |
 | [`remove_at`](/slides/python-net/aspose.slides/icontrolcollection/remove_at/#int) | Removes an ActiveX control stored at specified position from the collection. |
 | [`clear`](/slides/python-net/aspose.slides/icontrolcollection/clear/#) | Removes all controls from the collection. |
-| [`add_control`](/slides/python-net/aspose.slides/icontrolcollection/add_control/#controltype-float-float-float-float) | Creates and adds a new control to the collection. |
+| [`add_control`](/slides/python-net/aspose.slides/icontrolcollection/add_control/#asposeslidescontroltype-float-float-float-float) | Creates and adds a new control to the collection. |
 
 
 ### See Also

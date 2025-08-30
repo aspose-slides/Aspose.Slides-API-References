@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/autoshapelock/aspect_ratio_locked/
-weight: 40
+weight: 30
 ---
 
 

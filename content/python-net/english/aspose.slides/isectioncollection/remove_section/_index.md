@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## remove_section {#isection}
+## remove_section {#asposeslidesisection}
 Remove section. Slides contained in the section will be merged into previous section.
 
 

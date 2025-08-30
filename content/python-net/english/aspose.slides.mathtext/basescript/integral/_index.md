@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/basescript/integral/
-weight: 80
+weight: 70
 ---
 
 
-## integral {#mathintegraltypes}
+## integral {#asposeslidesmathtextmathintegraltypes}
 Takes the integral without limits
 
 ### Returns
@@ -32,7 +32,7 @@ def integral(self, integral_type):
 Example:
 
 
-## integral {#mathintegraltypes-imathelement-imathelement}
+## integral {#asposeslidesmathtextmathintegraltypes-asposeslidesmathtextimathelement-asposeslidesmathtextimathelement}
 Takes the integral
 
 ### Returns
@@ -58,7 +58,7 @@ def integral(self, integral_type, lower_limit, upper_limit):
 Example:
 
 
-## integral {#mathintegraltypes-str-str}
+## integral {#asposeslidesmathtextmathintegraltypes-str-str}
 Takes the integral
 
 ### Returns
@@ -84,7 +84,7 @@ def integral(self, integral_type, lower_limit, upper_limit):
 Example:
 
 
-## integral {#mathintegraltypes-imathelement-imathelement-mathlimitlocations}
+## integral {#asposeslidesmathtextmathintegraltypes-asposeslidesmathtextimathelement-asposeslidesmathtextimathelement-asposeslidesmathtextmathlimitlocations}
 Takes the integral
 
 ### Returns
@@ -111,7 +111,7 @@ def integral(self, integral_type, lower_limit, upper_limit, limit_locations):
 Example:
 
 
-## integral {#mathintegraltypes-str-str-mathlimitlocations}
+## integral {#asposeslidesmathtextmathintegraltypes-str-str-asposeslidesmathtextmathlimitlocations}
 Takes the integral
 
 ### Returns

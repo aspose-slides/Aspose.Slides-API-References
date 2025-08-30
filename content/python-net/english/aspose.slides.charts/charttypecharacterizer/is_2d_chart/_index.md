@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## is_2d_chart {#charttype}
+## is_2d_chart {#asposeslideschartscharttype}
 Return true if `chart_type` is one of 2D chart types.
 
 

@@ -4,12 +4,13 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/outershadow/blur_radius/
-weight: 30
+weight: 20
 ---
 
 
 ## blur_radius property
-Blur radius.
+Blur radius, in points.
+            Default value – 0 pt.
             Read/write **float**.
 
 ### Definition:

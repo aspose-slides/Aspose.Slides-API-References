@@ -9,6 +9,8 @@ weight: 30
 
 
 ## IDataLabelCollection indexer
+Gets the data label for the data point with the specified index.
+
 ## Indexer
 
 | Name | Description |

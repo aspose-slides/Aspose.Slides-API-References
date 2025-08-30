@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/iaudioframe/trim_from_start/
-weight: 660
+weight: 180
 ---
 
 

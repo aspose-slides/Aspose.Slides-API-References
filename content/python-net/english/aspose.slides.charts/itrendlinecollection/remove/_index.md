@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## remove {#itrendline}
+## remove {#asposeslideschartsitrendline}
 Removes the specified value.
 
 

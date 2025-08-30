@@ -9,7 +9,8 @@ weight: 110
 
 
 ## skew_horizontal property
-Specifies the horizontal skew angle (in degrees).
+Horizontal skew angle, in degrees.
+            Default value – 0 °.
             Read/write **float**.
 
 ### Definition:

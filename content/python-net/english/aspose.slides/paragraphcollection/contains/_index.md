@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## contains {#iparagraph}
+## contains {#asposeslidesiparagraph}
 Determines whether the **System.Collections.Generic.ICollection`1** contains a specific value.
 
 ### Returns

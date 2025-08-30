@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#float-float-float-float-nullablebool-nullablebool-float}
+## __init__ {#float-float-float-float-asposeslidesnullablebool-asposeslidesnullablebool-float}
 Creates new shape frame's properties.
 
 

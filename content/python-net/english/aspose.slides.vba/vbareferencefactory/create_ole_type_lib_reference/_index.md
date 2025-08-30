@@ -31,7 +31,6 @@ def create_ole_type_lib_reference(self, name, libid):
 
 
 ### See Also
-* class [`IVbaReferenceOleTypeLib`](/slides/python-net/aspose.slides.vba/ivbareferenceoletypelib)
 * class [`VbaReferenceFactory`](/slides/python-net/aspose.slides.vba/vbareferencefactory)
 * module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
 * library [`Aspose.Slides`](/slides/python-net)

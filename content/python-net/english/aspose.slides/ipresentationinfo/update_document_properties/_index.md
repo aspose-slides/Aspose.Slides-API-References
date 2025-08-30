@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## update_document_properties {#idocumentproperties}
+## update_document_properties {#asposeslidesidocumentproperties}
 Updates properties of binded presentation.
 
 

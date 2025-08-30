@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## insert_clone {#int-irow-bool}
+## insert_clone {#int-asposeslidesirow-bool}
 Creates a copy of the specified template row and insert it at the specified position in a table.
 
 ### Returns

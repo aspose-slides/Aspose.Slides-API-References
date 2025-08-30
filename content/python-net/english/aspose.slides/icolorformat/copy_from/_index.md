@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## copy_from {#icolorformat}
+## copy_from {#asposeslidesicolorformat}
 Copy color format from "color".
 
 

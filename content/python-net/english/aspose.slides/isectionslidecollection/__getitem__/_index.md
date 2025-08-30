@@ -9,6 +9,9 @@ weight: 10
 
 
 ## ISectionSlideCollection indexer
+Gets the element at the specified index.
+            Read-only [`ISlide`](/slides/python-net/aspose.slides/islide).
+
 ## Indexer
 
 | Name | Description |
@@ -18,6 +21,7 @@ weight: 10
 
 ### See Also
 * class [`ISectionSlideCollection`](/slides/python-net/aspose.slides/isectionslidecollection)
+* class [`ISlide`](/slides/python-net/aspose.slides/islide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

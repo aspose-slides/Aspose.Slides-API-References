@@ -28,8 +28,6 @@ The ChartTitle type exposes the following members:
 | [`text_frame_for_overriding`](/slides/python-net/aspose.slides.charts/charttitle/text_frame_for_overriding/) | Can contain a rich formatted text. If this property is not None then this <br/>            formatted text value overrides auto-generated text.<br/>            Auto-generated text is an implicit property of the data label, the display <br/>            unit label of the value axis, the axis title, the chart title, the label of the trendline.<br/>            Auto-generated text is formatted with the IFormattedTextContainer.TextFormat property.<br/>            Read-only [`ITextFrame`](/slides/python-net/aspose.slides/itextframe). |
 | [`text_format`](/slides/python-net/aspose.slides.charts/charttitle/text_format/) | Returns text format.<br/>            Read-only [`IChartTextFormat`](/slides/python-net/aspose.slides.charts/icharttextformat). |
 | [`chart`](/slides/python-net/aspose.slides.charts/charttitle/chart/) | Returns the parent chart.<br/>            Read-only [`IChart`](/slides/python-net/aspose.slides.charts/ichart). |
-| [`slide`](/slides/python-net/aspose.slides.charts/charttitle/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides.charts/charttitle/presentation/) |  |
 
 ## Methods
 

@@ -26,7 +26,6 @@ def create_duotone(self):
 
 
 ### See Also
-* class [`IDuotone`](/slides/python-net/aspose.slides.effects/iduotone)
 * class [`ImageTransformOperationFactory`](/slides/python-net/aspose.slides.effects/imagetransformoperationfactory)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

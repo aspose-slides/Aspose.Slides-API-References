@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.animation/commandeffect/shape_target/
-weight: 70
+weight: 60
 ---
 
 

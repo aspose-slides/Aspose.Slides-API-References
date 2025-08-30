@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## remove {#icaptions}
+## remove {#asposeslidesicaptions}
 Removes the specified closed captions from the collection.
 
 

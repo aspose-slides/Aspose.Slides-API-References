@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#imathelement}
+## __init__ {#asposeslidesmathtextimathelement}
 Initializes a new instance of the MathGroupingCharacter class 
             with the default grouping character U+23DF (BOTTOM CURLY BRACKET)
 
@@ -28,7 +28,7 @@ def __init__(self, element):
 Example:
 
 
-## __init__ {#imathelement-char-mathtopbotpositions-mathtopbotpositions}
+## __init__ {#asposeslidesmathtextimathelement-systemchar-asposeslidesmathtextmathtopbotpositions-asposeslidesmathtextmathtopbotpositions}
 Initializes a new instance of the MathGroupingCharacter class.
 
 
@@ -41,7 +41,7 @@ def __init__(self, element, character, position, vertical_justification):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | The base element to which the bar is applied |
-| character | **char** | Grouping Character |
+| character | **System.Char** | Grouping Character |
 | position | [`MathTopBotPositions`](/slides/python-net/aspose.slides.mathtext/mathtopbotpositions) | Position of grouping character |
 | vertical_justification | [`MathTopBotPositions`](/slides/python-net/aspose.slides.mathtext/mathtopbotpositions) | Vertical justification of group character |
 

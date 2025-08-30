@@ -36,14 +36,13 @@ The Slide type exposes the following members:
 | [`hidden`](/slides/python-net/aspose.slides/slide/hidden/) | Determines whether the specified slide is hidden during a slide show.<br/>            Read/write **bool**. |
 | [`layout_slide`](/slides/python-net/aspose.slides/slide/layout_slide/) | Returns or sets the layout slide for the current slide.<br/>            Read/write [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide). |
 | [`notes_slide_manager`](/slides/python-net/aspose.slides/slide/notes_slide_manager/) | Allow to access notes slide, add and remove it.<br/>            Read-only [`INotesSlideManager`](/slides/python-net/aspose.slides/inotesslidemanager). |
-| [`slide`](/slides/python-net/aspose.slides/slide/slide/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
 | [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/slide/join_portions_with_same_formatting/#) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
-| [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/slide/join_portions_with_same_formatting/#ishapecollection) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
+| [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/slide/join_portions_with_same_formatting/#asposeslidesishapecollection) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/slide/get_thumbnail/#float-float) | Returns a Thumbnail Bitmap object with custom scaling. |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/slide/get_thumbnail/#) | Returns a Thumbnail Image object (20% of real size). |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/slide/get_thumbnail/#asposeslidesexportirenderingoptions) | Returns a Thumbnail Bitmap object. |
@@ -63,13 +62,13 @@ The Slide type exposes the following members:
 | [`render_to_graphics`](/slides/python-net/aspose.slides/slide/render_to_graphics/#asposeslidesexportirenderingoptions-asposepydrawinggraphics-asposepydrawingsize) | Renders certain slide to a Graphics object using specified size. |
 | [`write_as_svg`](/slides/python-net/aspose.slides/slide/write_as_svg/#iorawiobase) | Saves the slide content as an SVG file. |
 | [`write_as_svg`](/slides/python-net/aspose.slides/slide/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) | Saves the slide content as an SVG file. |
-| [`equals`](/slides/python-net/aspose.slides/slide/equals/#ibaseslide) | Determines whether the two IBaseSlide instances are equal.<br/>            Returning value is calculated based on slide's structure and static content.<br/>            Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
+| [`equals`](/slides/python-net/aspose.slides/slide/equals/#asposeslidesibaseslide) | Determines whether the two IBaseSlide instances are equal.<br/>            Returning value is calculated based on slide's structure and static content.<br/>            Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
 | [`create_theme_effective`](/slides/python-net/aspose.slides/slide/create_theme_effective/#) | Returns an effective theme for this slide. |
 | [`find_shape_by_alt_text`](/slides/python-net/aspose.slides/slide/find_shape_by_alt_text/#str) | Finds first occurrence of a shape with the specified alternative text. |
 | [`write_as_emf`](/slides/python-net/aspose.slides/slide/write_as_emf/#iorawiobase) | Saves the slide content as an EMF file. |
 | [`remove`](/slides/python-net/aspose.slides/slide/remove/#) | Removes slide from presentation. |
 | [`reset`](/slides/python-net/aspose.slides/slide/reset/#) | Resets position, size and formatting of every shape that has a prototype on LayoutSlide. |
-| [`get_slide_comments`](/slides/python-net/aspose.slides/slide/get_slide_comments/#icommentauthor) | Returns all slide comments added by specific author. |
+| [`get_slide_comments`](/slides/python-net/aspose.slides/slide/get_slide_comments/#asposeslidesicommentauthor) | Returns all slide comments added by specific author. |
 
 
 ### See Also

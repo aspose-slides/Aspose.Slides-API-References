@@ -8,7 +8,7 @@ weight: 110
 ---
 
 
-## function {#imathelement}
+## function {#asposeslidesmathtextimathelement}
 Takes a function of an argument using this instance as the function name
 
 ### Returns

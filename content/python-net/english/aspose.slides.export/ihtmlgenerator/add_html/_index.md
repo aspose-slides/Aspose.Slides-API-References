@@ -23,7 +23,7 @@ def add_html(self, html):
 | html | **str** | Text to add. |
 
 
-## add_html {#listchar}
+## add_html {#listsystemchar}
 Adds formatted HTML text.
 
 
@@ -35,10 +35,10 @@ def add_html(self, html):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| html | **List[char]** | Text to add. |
+| html | **List[System.Char]** | Text to add. |
 
 
-## add_html {#listchar-int-int}
+## add_html {#listsystemchar-int-int}
 Adds formatted HTML text.
 
 
@@ -50,7 +50,7 @@ def add_html(self, html, start_index, length):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| html | **List[char]** | Text to add. |
+| html | **List[System.Char]** | Text to add. |
 | start_index | **int** | Start index of the portion to add. |
 | length | **int** | Length of the portion to add. |
 

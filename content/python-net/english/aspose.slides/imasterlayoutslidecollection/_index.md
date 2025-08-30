@@ -25,14 +25,14 @@ The IMasterLayoutSlideCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`add_clone`](/slides/python-net/aspose.slides/imasterlayoutslidecollection/add_clone/#ilayoutslide) | Adds a copy of a specified layout slide to the end of the collection. |
-| [`insert_clone`](/slides/python-net/aspose.slides/imasterlayoutslidecollection/insert_clone/#int-ilayoutslide) | Inserts a copy of a specified layout slide to specified position of the collection. |
-| [`add`](/slides/python-net/aspose.slides/imasterlayoutslidecollection/add/#slidelayouttype-str) | Adds a new layout slide to the end of the collection. |
-| [`insert`](/slides/python-net/aspose.slides/imasterlayoutslidecollection/insert/#int-slidelayouttype-str) | Inserts a new layout slide to specified position of the collection. |
+| [`add_clone`](/slides/python-net/aspose.slides/imasterlayoutslidecollection/add_clone/#asposeslidesilayoutslide) | Adds a copy of a specified layout slide to the end of the collection. |
+| [`insert_clone`](/slides/python-net/aspose.slides/imasterlayoutslidecollection/insert_clone/#int-asposeslidesilayoutslide) | Inserts a copy of a specified layout slide to specified position of the collection. |
+| [`add`](/slides/python-net/aspose.slides/imasterlayoutslidecollection/add/#asposeslidesslidelayouttype-str) | Adds a new layout slide to the end of the collection. |
+| [`insert`](/slides/python-net/aspose.slides/imasterlayoutslidecollection/insert/#int-asposeslidesslidelayouttype-str) | Inserts a new layout slide to specified position of the collection. |
 | [`remove_at`](/slides/python-net/aspose.slides/imasterlayoutslidecollection/remove_at/#int) | Removes the element at the specified index of the collection. |
-| [`reorder`](/slides/python-net/aspose.slides/imasterlayoutslidecollection/reorder/#int-ilayoutslide) | Moves layout slide from the collection to the specified position. |
-| [`get_by_type`](/slides/python-net/aspose.slides/imasterlayoutslidecollection/get_by_type/#slidelayouttype) |  |
-| [`remove`](/slides/python-net/aspose.slides/imasterlayoutslidecollection/remove/#ilayoutslide) |  |
+| [`reorder`](/slides/python-net/aspose.slides/imasterlayoutslidecollection/reorder/#int-asposeslidesilayoutslide) | Moves layout slide from the collection to the specified position. |
+| [`get_by_type`](/slides/python-net/aspose.slides/imasterlayoutslidecollection/get_by_type/#asposeslidesslidelayouttype) |  |
+| [`remove`](/slides/python-net/aspose.slides/imasterlayoutslidecollection/remove/#asposeslidesilayoutslide) |  |
 | [`remove_unused`](/slides/python-net/aspose.slides/imasterlayoutslidecollection/remove_unused/#) |  |
 
 

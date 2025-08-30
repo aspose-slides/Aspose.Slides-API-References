@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## remove {#ilayoutslide}
+## remove {#asposeslidesilayoutslide}
 Removes a layout from the collection.
 
 

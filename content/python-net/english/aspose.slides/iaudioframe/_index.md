@@ -35,63 +35,7 @@ The IAudioFrame type exposes the following members:
 | [`volume_value`](/slides/python-net/aspose.slides/iaudioframe/volume_value/) | Returns or sets the audio volume in percents.<br/>             Read/write **float**. |
 | [`trim_from_start`](/slides/python-net/aspose.slides/iaudioframe/trim_from_start/) | Specifies the time duration to be removed from the beginning of the media during playback, in milliseconds.<br/>            Read/write **float**. |
 | [`trim_from_end`](/slides/python-net/aspose.slides/iaudioframe/trim_from_end/) | Specifies the time duration to be removed from the end of the media during playback, in milliseconds.<br/>            Read/write **float**. |
-| [`shape_lock`](/slides/python-net/aspose.slides/iaudioframe/shape_lock/) |  |
-| [`picture_frame_lock`](/slides/python-net/aspose.slides/iaudioframe/picture_frame_lock/) |  |
-| [`picture_format`](/slides/python-net/aspose.slides/iaudioframe/picture_format/) |  |
-| [`relative_scale_height`](/slides/python-net/aspose.slides/iaudioframe/relative_scale_height/) |  |
-| [`relative_scale_width`](/slides/python-net/aspose.slides/iaudioframe/relative_scale_width/) |  |
-| [`shape_style`](/slides/python-net/aspose.slides/iaudioframe/shape_style/) |  |
-| [`shape_type`](/slides/python-net/aspose.slides/iaudioframe/shape_type/) |  |
-| [`adjustments`](/slides/python-net/aspose.slides/iaudioframe/adjustments/) |  |
-| [`is_text_holder`](/slides/python-net/aspose.slides/iaudioframe/is_text_holder/) |  |
-| [`placeholder`](/slides/python-net/aspose.slides/iaudioframe/placeholder/) |  |
-| [`custom_data`](/slides/python-net/aspose.slides/iaudioframe/custom_data/) |  |
-| [`raw_frame`](/slides/python-net/aspose.slides/iaudioframe/raw_frame/) |  |
-| [`frame`](/slides/python-net/aspose.slides/iaudioframe/frame/) |  |
-| [`line_format`](/slides/python-net/aspose.slides/iaudioframe/line_format/) |  |
-| [`three_d_format`](/slides/python-net/aspose.slides/iaudioframe/three_d_format/) |  |
-| [`effect_format`](/slides/python-net/aspose.slides/iaudioframe/effect_format/) |  |
-| [`fill_format`](/slides/python-net/aspose.slides/iaudioframe/fill_format/) |  |
-| [`hidden`](/slides/python-net/aspose.slides/iaudioframe/hidden/) |  |
-| [`z_order_position`](/slides/python-net/aspose.slides/iaudioframe/z_order_position/) |  |
-| [`connection_site_count`](/slides/python-net/aspose.slides/iaudioframe/connection_site_count/) |  |
-| [`rotation`](/slides/python-net/aspose.slides/iaudioframe/rotation/) |  |
-| [`x`](/slides/python-net/aspose.slides/iaudioframe/x/) |  |
-| [`y`](/slides/python-net/aspose.slides/iaudioframe/y/) |  |
-| [`width`](/slides/python-net/aspose.slides/iaudioframe/width/) |  |
-| [`height`](/slides/python-net/aspose.slides/iaudioframe/height/) |  |
-| [`alternative_text`](/slides/python-net/aspose.slides/iaudioframe/alternative_text/) |  |
-| [`alternative_text_title`](/slides/python-net/aspose.slides/iaudioframe/alternative_text_title/) |  |
-| [`name`](/slides/python-net/aspose.slides/iaudioframe/name/) |  |
-| [`is_decorative`](/slides/python-net/aspose.slides/iaudioframe/is_decorative/) |  |
-| [`unique_id`](/slides/python-net/aspose.slides/iaudioframe/unique_id/) |  |
-| [`office_interop_shape_id`](/slides/python-net/aspose.slides/iaudioframe/office_interop_shape_id/) |  |
-| [`is_grouped`](/slides/python-net/aspose.slides/iaudioframe/is_grouped/) |  |
-| [`black_white_mode`](/slides/python-net/aspose.slides/iaudioframe/black_white_mode/) |  |
-| [`parent_group`](/slides/python-net/aspose.slides/iaudioframe/parent_group/) |  |
-| [`slide`](/slides/python-net/aspose.slides/iaudioframe/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides/iaudioframe/presentation/) |  |
-| [`hyperlink_click`](/slides/python-net/aspose.slides/iaudioframe/hyperlink_click/) |  |
-| [`hyperlink_mouse_over`](/slides/python-net/aspose.slides/iaudioframe/hyperlink_mouse_over/) |  |
-| [`hyperlink_manager`](/slides/python-net/aspose.slides/iaudioframe/hyperlink_manager/) |  |
-
-## Methods
-
-| Method | Description |
-| :- | :- |
-| [`get_thumbnail`](/slides/python-net/aspose.slides/iaudioframe/get_thumbnail/#) |  |
-| [`get_thumbnail`](/slides/python-net/aspose.slides/iaudioframe/get_thumbnail/#shapethumbnailbounds-float-float) |  |
-| [`get_image`](/slides/python-net/aspose.slides/iaudioframe/get_image/#) |  |
-| [`get_image`](/slides/python-net/aspose.slides/iaudioframe/get_image/#shapethumbnailbounds-float-float) |  |
-| [`write_as_svg`](/slides/python-net/aspose.slides/iaudioframe/write_as_svg/#iorawiobase) |  |
-| [`write_as_svg`](/slides/python-net/aspose.slides/iaudioframe/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
-| [`get_geometry_paths`](/slides/python-net/aspose.slides/iaudioframe/get_geometry_paths/#) |  |
-| [`set_geometry_path`](/slides/python-net/aspose.slides/iaudioframe/set_geometry_path/#igeometrypath) |  |
-| [`set_geometry_paths`](/slides/python-net/aspose.slides/iaudioframe/set_geometry_paths/#listigeometrypath) |  |
-| [`create_shape_elements`](/slides/python-net/aspose.slides/iaudioframe/create_shape_elements/#) |  |
-| [`add_placeholder`](/slides/python-net/aspose.slides/iaudioframe/add_placeholder/#iplaceholder) |  |
-| [`remove_placeholder`](/slides/python-net/aspose.slides/iaudioframe/remove_placeholder/#) |  |
-| [`get_base_placeholder`](/slides/python-net/aspose.slides/iaudioframe/get_base_placeholder/#) |  |
+| [`caption_tracks`](/slides/python-net/aspose.slides/iaudioframe/caption_tracks/) | Gets the collection of closed captions associated with the audio frame.<br/>            This property is read-only and returns an [`ICaptionsCollection`](/slides/python-net/aspose.slides/icaptionscollection) containing all caption tracks. |
 
 
 ### See Also

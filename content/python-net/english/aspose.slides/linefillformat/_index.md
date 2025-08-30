@@ -24,8 +24,6 @@ The LineFillFormat type exposes the following members:
 | [`solid_fill_color`](/slides/python-net/aspose.slides/linefillformat/solid_fill_color/) | Returns the color of a solid fill.<br/>            Read-only [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
 | [`gradient_format`](/slides/python-net/aspose.slides/linefillformat/gradient_format/) | Returns the gradient fill format.<br/>            Read-only [`IGradientFormat`](/slides/python-net/aspose.slides/igradientformat). |
 | [`pattern_format`](/slides/python-net/aspose.slides/linefillformat/pattern_format/) | Returns the pattern fill format.<br/>            Read-only [`IPatternFormat`](/slides/python-net/aspose.slides/ipatternformat). |
-| [`slide`](/slides/python-net/aspose.slides/linefillformat/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides/linefillformat/presentation/) |  |
 
 
 ### See Also

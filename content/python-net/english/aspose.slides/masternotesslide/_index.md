@@ -33,15 +33,14 @@ The MasterNotesSlide type exposes the following members:
 | [`header_footer_manager`](/slides/python-net/aspose.slides/masternotesslide/header_footer_manager/) | Returns HeaderFooter manager of the master notes slide.<br/>            Read-only [`IMasterHandoutSlideHeaderFooterManager`](/slides/python-net/aspose.slides/imasterhandoutslideheaderfootermanager). |
 | [`theme_manager`](/slides/python-net/aspose.slides/masternotesslide/theme_manager/) | Returns the theme manager.<br/>            Read-only [`IMasterThemeManager`](/slides/python-net/aspose.slides.theme/imasterthememanager). |
 | [`notes_style`](/slides/python-net/aspose.slides/masternotesslide/notes_style/) | Returns the style of a notes text.<br/>            Read-only [`ITextStyle`](/slides/python-net/aspose.slides/itextstyle). |
-| [`slide`](/slides/python-net/aspose.slides/masternotesslide/slide/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
 | [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/masternotesslide/join_portions_with_same_formatting/#) | Joins runs with same formatting in all paragraphs all acceptable shapes. |
-| [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/masternotesslide/join_portions_with_same_formatting/#ishapecollection) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
-| [`equals`](/slides/python-net/aspose.slides/masternotesslide/equals/#ibaseslide) | Determines whether the two IBaseSlide instances are equal.<br/>            Returning value is calculated based on slide's structure and static content.<br/>            Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
+| [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/masternotesslide/join_portions_with_same_formatting/#asposeslidesishapecollection) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
+| [`equals`](/slides/python-net/aspose.slides/masternotesslide/equals/#asposeslidesibaseslide) | Determines whether the two IBaseSlide instances are equal.<br/>            Returning value is calculated based on slide's structure and static content.<br/>            Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
 | [`create_theme_effective`](/slides/python-net/aspose.slides/masternotesslide/create_theme_effective/#) | Returns an effective theme for this slide. |
 | [`find_shape_by_alt_text`](/slides/python-net/aspose.slides/masternotesslide/find_shape_by_alt_text/#str) | Finds first occurrence of a shape with the specified alternative text. |
 

@@ -19,7 +19,7 @@ The HtmlOptions type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides.export/htmloptions/__init__/#ilinkembedcontroller) | Creates a new HtmlOptions object specifiing callback. |
+| [`__init__`](/slides/python-net/aspose.slides.export/htmloptions/__init__/#asposeslidesexportilinkembedcontroller) | Creates a new HtmlOptions object specifiing callback. |
 | [`__init__`](/slides/python-net/aspose.slides.export/htmloptions/__init__/#) | Creates a new HtmlOptions object for saving into single HTML file. |
 
 ## Properties

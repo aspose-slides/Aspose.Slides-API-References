@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/imathdelimiter/delimit/
-weight: 30
+weight: 10
 ---
 
 
-## delimit {#char}
+## delimit {#systemchar}
 Delimits arguments using the specified delimiter character
 
 ### Returns
@@ -25,7 +25,7 @@ def delimit(self, separator_character):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| separator_character | **char** | delimiter character |
+| separator_character | **System.Char** | delimiter character |
 
 ### Examples
 

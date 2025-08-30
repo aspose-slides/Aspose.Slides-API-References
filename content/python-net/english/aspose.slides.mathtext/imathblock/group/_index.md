@@ -19,7 +19,7 @@ def group(self):
 
 
 
-## group {#char-mathtopbotpositions-mathtopbotpositions}
+## group {#systemchar-asposeslidesmathtextmathtopbotpositions-asposeslidesmathtextmathtopbotpositions}
 
 
 
@@ -31,7 +31,7 @@ def group(self, character, position, vertical_justification):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| character | **char** |  |
+| character | **System.Char** |  |
 | position | [`MathTopBotPositions`](/slides/python-net/aspose.slides.mathtext/mathtopbotpositions) |  |
 | vertical_justification | [`MathTopBotPositions`](/slides/python-net/aspose.slides.mathtext/mathtopbotpositions) |  |
 
@@ -39,7 +39,6 @@ def group(self, character, position, vertical_justification):
 
 ### See Also
 * class [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock)
-* class [`IMathGroupingCharacter`](/slides/python-net/aspose.slides.mathtext/imathgroupingcharacter)
 * enumeration [`MathTopBotPositions`](/slides/python-net/aspose.slides.mathtext/mathtopbotpositions)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/axis/is_automatic_major_unit/
-weight: 230
+weight: 190
 ---
 
 

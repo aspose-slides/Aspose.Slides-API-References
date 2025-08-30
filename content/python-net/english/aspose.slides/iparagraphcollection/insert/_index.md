@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## insert {#int-iparagraph}
+## insert {#int-asposeslidesiparagraph}
 Inserts a Paragraph into the collection at the specified index.
 
 
@@ -24,7 +24,7 @@ def insert(self, index, value):
 | value | [`IParagraph`](/slides/python-net/aspose.slides/iparagraph) | The Paragraph to insert. |
 
 
-## insert {#int-iparagraphcollection}
+## insert {#int-asposeslidesiparagraphcollection}
 Inserts a content of ParagraphCollection into the collection at the specified index.
 
 

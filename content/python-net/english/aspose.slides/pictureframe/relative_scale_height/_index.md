@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/pictureframe/relative_scale_height/
-weight: 430
+weight: 380
 ---
 
 

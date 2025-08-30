@@ -9,7 +9,9 @@ weight: 90
 
 
 ## scale_vertical property
-Specifies the vertical scaling factor, negative scaling causes a flip.
+Vertical scaling factor, in percent of the original size.
+            Negative scaling causes a flip.
+            Default value – 100 %.
             Read/write **float**.
 
 ### Definition:

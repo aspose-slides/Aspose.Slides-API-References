@@ -9,6 +9,8 @@ weight: 90
 
 
 ## PortionCollection indexer
+Gets the element at the specified index.
+
 ## Indexer
 
 | Name | Description |

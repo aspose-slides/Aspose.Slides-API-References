@@ -9,6 +9,8 @@ weight: 50
 
 
 ## IGradientStopCollection indexer
+Returns the gradient stop by index.
+
 ## Indexer
 
 | Name | Description |

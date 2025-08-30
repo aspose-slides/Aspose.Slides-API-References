@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#orientation-float}
+## add {#asposeslidesorientation-float}
 Adds the drawing guide at the end of the collection.
 
 
@@ -26,7 +26,6 @@ def add(self, orientation, position):
 
 
 ### See Also
-* class [`IDrawingGuide`](/slides/python-net/aspose.slides/idrawingguide)
 * class [`IDrawingGuidesCollection`](/slides/python-net/aspose.slides/idrawingguidescollection)
 * enumeration [`Orientation`](/slides/python-net/aspose.slides/orientation)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)

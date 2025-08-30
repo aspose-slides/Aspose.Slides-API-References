@@ -8,7 +8,7 @@ weight: 130
 ---
 
 
-## index_of {#imathelement}
+## index_of {#asposeslidesmathtextimathelement}
 
 
 

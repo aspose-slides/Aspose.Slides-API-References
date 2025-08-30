@@ -29,7 +29,7 @@ def remove_node(self, index):
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | index is less than 0.  -or- index is equal to or greater than siblings count. |
 
 
-## remove_node {#ismartartnode}
+## remove_node {#asposeslidessmartartismartartnode}
 Remove node or sub node.
 
 

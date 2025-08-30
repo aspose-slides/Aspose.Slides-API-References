@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ibaseslide/timeline/
-weight: 190
+weight: 140
 ---
 
 

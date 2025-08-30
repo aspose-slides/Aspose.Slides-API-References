@@ -9,6 +9,9 @@ weight: 40
 
 
 ## FontFallBackRulesCollection indexer
+Gets the rule at the specified index.
+            Read-only [`IFontFallBackRule`](/slides/python-net/aspose.slides/ifontfallbackrule).
+
 ## Indexer
 
 | Name | Description |
@@ -18,6 +21,7 @@ weight: 40
 
 ### See Also
 * class [`FontFallBackRulesCollection`](/slides/python-net/aspose.slides/fontfallbackrulescollection)
+* class [`IFontFallBackRule`](/slides/python-net/aspose.slides/ifontfallbackrule)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

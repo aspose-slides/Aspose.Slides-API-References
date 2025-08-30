@@ -27,7 +27,6 @@ def add_text_frame_for_overriding(self, text):
 
 ### See Also
 * class [`ChartTitle`](/slides/python-net/aspose.slides.charts/charttitle)
-* class [`ITextFrame`](/slides/python-net/aspose.slides/itextframe)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
 

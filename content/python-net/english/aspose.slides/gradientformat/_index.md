@@ -25,8 +25,6 @@ The GradientFormat type exposes the following members:
 | [`linear_gradient_scaled`](/slides/python-net/aspose.slides/gradientformat/linear_gradient_scaled/) | Determines whether a gradient is scaled.<br/>            Read/write [`NullableBool`](/slides/python-net/aspose.slides/nullablebool). |
 | [`gradient_shape`](/slides/python-net/aspose.slides/gradientformat/gradient_shape/) | Returns or sets the shape of a gradient.<br/>            Read/write [`GradientShape`](/slides/python-net/aspose.slides/gradientshape). |
 | [`gradient_stops`](/slides/python-net/aspose.slides/gradientformat/gradient_stops/) | Returns the collection of gradient stops.<br/>            Read-only [`IGradientStopCollection`](/slides/python-net/aspose.slides/igradientstopcollection). |
-| [`slide`](/slides/python-net/aspose.slides/gradientformat/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides/gradientformat/presentation/) |  |
 
 
 ### See Also

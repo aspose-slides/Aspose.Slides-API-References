@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/isvgoptions/disable_gradient_split/
-weight: 60
+weight: 50
 ---
 
 

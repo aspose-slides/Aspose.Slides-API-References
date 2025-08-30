@@ -34,7 +34,7 @@ Returns the closed captions at the specified index.
 | :- | :- |
 | [`add`](/slides/python-net/aspose.slides/captionscollection/add/#str-str) | Adds WebVTT closed captions to the end of the collection. |
 | [`add`](/slides/python-net/aspose.slides/captionscollection/add/#str-iorawiobase) | Adds WebVTT closed captions to the end of the collection from a stream. |
-| [`remove`](/slides/python-net/aspose.slides/captionscollection/remove/#icaptions) | Removes the specified closed captions from the collection. |
+| [`remove`](/slides/python-net/aspose.slides/captionscollection/remove/#asposeslidesicaptions) | Removes the specified closed captions from the collection. |
 | [`remove_at`](/slides/python-net/aspose.slides/captionscollection/remove_at/#int) | Removes the closed captions at the specified index. |
 | [`clear`](/slides/python-net/aspose.slides/captionscollection/clear/#) | Removes all closed captions from the collection. |
 

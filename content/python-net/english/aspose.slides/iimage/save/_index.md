@@ -23,7 +23,7 @@ def save(self, filename):
 | filename | **str** | The path to the file where the image will be saved. |
 
 
-## save {#str-imageformat}
+## save {#str-asposeslidesimageformat}
 Saves the image to a file in the specified format.
 
 
@@ -39,7 +39,7 @@ def save(self, filename, format):
 | format | [`ImageFormat`](/slides/python-net/aspose.slides/imageformat) | The image format. |
 
 
-## save {#iorawiobase-imageformat}
+## save {#iorawiobase-asposeslidesimageformat}
 Saves the image to a stream in the specified format.
 
 
@@ -55,7 +55,7 @@ def save(self, stream, format):
 | format | [`ImageFormat`](/slides/python-net/aspose.slides/imageformat) | The image format. |
 
 
-## save {#str-imageformat-int}
+## save {#str-asposeslidesimageformat-int}
 Saves the image to a file in the specified format and quality.
 
 
@@ -72,7 +72,7 @@ def save(self, filename, format, quality):
 | quality | **int** | The quality of the saved image (0 to 100).  <br/><br/>            This parameter only affects saving in [`ImageFormat.JPEG`](/slides/python-net/aspose.slides/imageformat/JPEG); for all other formats, it is ignored. |
 
 
-## save {#iorawiobase-imageformat-int}
+## save {#iorawiobase-asposeslidesimageformat-int}
 Saves the image to a stream in the specified format and quality.
 
 

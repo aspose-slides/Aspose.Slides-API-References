@@ -27,7 +27,6 @@ def create_color_effect(self):
 
 ### See Also
 * class [`BehaviorFactory`](/slides/python-net/aspose.slides.animation/behaviorfactory)
-* class [`IColorEffect`](/slides/python-net/aspose.slides.animation/icoloreffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
 

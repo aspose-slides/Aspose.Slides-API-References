@@ -71,10 +71,6 @@ The IAxis type exposes the following members:
 | [`is_underflow_bin`](/slides/python-net/aspose.slides.charts/iaxis/is_underflow_bin/) | Specifies if underflow bin applied. Use IsAutomaticUnderflowBin and UnderflowBin to adjust underflow bin value. |
 | [`is_automatic_underflow_bin`](/slides/python-net/aspose.slides.charts/iaxis/is_automatic_underflow_bin/) | Specifies automatic underflow bin value. If false: use UnderflowBin property. |
 | [`underflow_bin`](/slides/python-net/aspose.slides.charts/iaxis/underflow_bin/) | Specifies underflow bin custom value. Applied when IsAutomaticUnderflowBin property setted to false and IsUnderflowBin property equals true. |
-| [`text_format`](/slides/python-net/aspose.slides.charts/iaxis/text_format/) |  |
-| [`chart`](/slides/python-net/aspose.slides.charts/iaxis/chart/) |  |
-| [`slide`](/slides/python-net/aspose.slides.charts/iaxis/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides.charts/iaxis/presentation/) |  |
 
 ## Methods
 

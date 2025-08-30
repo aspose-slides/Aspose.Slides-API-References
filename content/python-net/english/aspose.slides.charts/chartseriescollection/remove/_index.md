@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## remove {#ichartseries}
+## remove {#asposeslideschartsichartseries}
 Removes the specified value.
 
 

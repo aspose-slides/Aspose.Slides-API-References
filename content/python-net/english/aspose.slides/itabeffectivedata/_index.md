@@ -20,6 +20,12 @@ The ITabEffectiveData type exposes the following members:
 | [`position`](/slides/python-net/aspose.slides/itabeffectivedata/position/) | Returns position of a tab.<br/>            Assigning this property can change tab's index in collection and invalidate Enumerator.<br/>            Read-only **float**. |
 | [`alignment`](/slides/python-net/aspose.slides/itabeffectivedata/alignment/) | Returns align style of a tab.<br/>            Read-only [`TabAlignment`](/slides/python-net/aspose.slides/tabalignment). |
 
+## Methods
+
+| Method | Description |
+| :- | :- |
+| [`compare_to`](/slides/python-net/aspose.slides/itabeffectivedata/compare_to/#any) |  |
+
 
 ### Remarks
 

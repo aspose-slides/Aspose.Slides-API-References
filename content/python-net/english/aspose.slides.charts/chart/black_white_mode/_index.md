@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/chart/black_white_mode/
-weight: 210
+weight: 150
 ---
 
 

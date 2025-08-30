@@ -8,7 +8,7 @@ weight: 170
 ---
 
 
-## is_error_bars_y_allowed {#charttype}
+## is_error_bars_y_allowed {#asposeslideschartscharttype}
 Returns if error bars Y allowed for specified series type.
 
 ### Returns

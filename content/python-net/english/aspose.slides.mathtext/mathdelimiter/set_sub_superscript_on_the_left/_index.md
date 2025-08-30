@@ -8,7 +8,7 @@ weight: 160
 ---
 
 
-## set_sub_superscript_on_the_left {#imathelement-imathelement}
+## set_sub_superscript_on_the_left {#asposeslidesmathtextimathelement-asposeslidesmathtextimathelement}
 Creates subscript and superscript on the left
 
 ### Returns

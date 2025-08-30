@@ -28,8 +28,6 @@ The EffectFormat type exposes the following members:
 | [`preset_shadow_effect`](/slides/python-net/aspose.slides/effectformat/preset_shadow_effect/) | Preset shadow.<br/>            Read/write [`IPresetShadow`](/slides/python-net/aspose.slides.effects/ipresetshadow). |
 | [`reflection_effect`](/slides/python-net/aspose.slides/effectformat/reflection_effect/) | Reflection. <br/>            Read/write [`IReflection`](/slides/python-net/aspose.slides.effects/ireflection). |
 | [`soft_edge_effect`](/slides/python-net/aspose.slides/effectformat/soft_edge_effect/) | Soft edge.<br/>            Read/write [`ISoftEdge`](/slides/python-net/aspose.slides.effects/isoftedge). |
-| [`slide`](/slides/python-net/aspose.slides/effectformat/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides/effectformat/presentation/) |  |
 
 ## Methods
 

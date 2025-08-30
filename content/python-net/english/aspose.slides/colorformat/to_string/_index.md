@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## to_string {#colorstringformat}
+## to_string {#asposeslidescolorstringformat}
 Returns a **str** that represents the current color format.
 
 ### Returns

@@ -26,7 +26,7 @@ Gets the element at the specified index.
 | Method | Description |
 | :- | :- |
 | [`add_empty_module`](/slides/python-net/aspose.slides.vba/ivbamodulecollection/add_empty_module/#str) | Adds a new empty module to the VBA Project. |
-| [`remove`](/slides/python-net/aspose.slides.vba/ivbamodulecollection/remove/#ivbamodule) | Removes the first occurrence of a specific object from the collection. |
+| [`remove`](/slides/python-net/aspose.slides.vba/ivbamodulecollection/remove/#asposeslidesvbaivbamodule) | Removes the first occurrence of a specific object from the collection. |
 
 
 ### See Also

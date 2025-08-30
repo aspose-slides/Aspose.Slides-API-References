@@ -34,15 +34,13 @@ The ColorFormat type exposes the following members:
 | [`saturation`](/slides/python-net/aspose.slides/colorformat/saturation/) | Returns or sets the saturation component of a color in HSL representation.<br/>            All color transformations are ignored.<br/>            Read/write **float**. |
 | [`luminance`](/slides/python-net/aspose.slides/colorformat/luminance/) | Returns or sets the luminance component of a color in HSL representation.<br/>            All color transformations are ignored.<br/>            Read/write **float**. |
 | [`color_transform`](/slides/python-net/aspose.slides/colorformat/color_transform/) | Returns the collection of color transformations applied to a color.<br/>            Read-only [`IColorOperationCollection`](/slides/python-net/aspose.slides/icoloroperationcollection). |
-| [`slide`](/slides/python-net/aspose.slides/colorformat/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides/colorformat/presentation/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [`to_string`](/slides/python-net/aspose.slides/colorformat/to_string/#colorstringformat) | Returns a **str** that represents the current color format. |
-| [`copy_from`](/slides/python-net/aspose.slides/colorformat/copy_from/#icolorformat) | Copy color format from "color". |
+| [`to_string`](/slides/python-net/aspose.slides/colorformat/to_string/#asposeslidescolorstringformat) | Returns a **str** that represents the current color format. |
+| [`copy_from`](/slides/python-net/aspose.slides/colorformat/copy_from/#asposeslidesicolorformat) | Copy color format from "color". |
 
 
 ### See Also

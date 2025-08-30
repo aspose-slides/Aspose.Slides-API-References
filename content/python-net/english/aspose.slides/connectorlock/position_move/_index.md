@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/connectorlock/position_move/
-weight: 80
+weight: 70
 ---
 
 

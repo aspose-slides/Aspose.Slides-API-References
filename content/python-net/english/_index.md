@@ -19,8 +19,8 @@ weight: 12
 | [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts/) | Contains classes for work with charts in Microsoft PowerPoint presentations. |
 | [`aspose.slides.dom.ole`](/slides/python-net/aspose.slides.dom.ole/) | Contains classes for work with OLE objects in Microsoft PowerPoint presentations. |
 | [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects/) | Contains classes for work with various effects in Microsoft PowerPoint presentations. |
+| [`aspose.slides.excel`](/slides/python-net/aspose.slides.excel/) |  |
 | [`aspose.slides.export`](/slides/python-net/aspose.slides.export/) | Contains classes for exporting Microsoft PowerPoint presentations to different formats like Html, Pdf, Svg, Xps and others. |
-| [`aspose.slides.export.web`](/slides/python-net/aspose.slides.export.web/) | Contains classes for exporting Microsoft PowerPoint presentations to Html with extension projects. |
 | [`aspose.slides.export.xaml`](/slides/python-net/aspose.slides.export.xaml/) | Contains classes for exporting Microsoft PowerPoint presentations to XAML. |
 | [`aspose.slides.importing`](/slides/python-net/aspose.slides.importing/) | Contains classes importing data into Microsoft PowerPoint presentations. |
 | [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink/) | Contains classes for work with Ink. |

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## equals {#ihyperlink}
+## equals {#asposeslidesihyperlink}
 Determines whether the two Hyperlink instances are equal.
 
 ### Returns

@@ -9,6 +9,10 @@ weight: 10
 
 
 ## ISmartArtShapeCollection indexer
+Gets the element at the specified index.
+            Read-only [`ISmartArtShape`](/slides/python-net/aspose.slides.smartart/ismartartshape).
+Zero-based index of the element
+
 ## Indexer
 
 | Name | Description |
@@ -17,6 +21,7 @@ weight: 10
 
 
 ### See Also
+* class [`ISmartArtShape`](/slides/python-net/aspose.slides.smartart/ismartartshape)
 * class [`ISmartArtShapeCollection`](/slides/python-net/aspose.slides.smartart/ismartartshapecollection)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)

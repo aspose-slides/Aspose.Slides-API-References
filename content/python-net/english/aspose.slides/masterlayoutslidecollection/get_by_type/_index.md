@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## get_by_type {#slidelayouttype}
+## get_by_type {#asposeslidesslidelayouttype}
 Returns the first layout slide of specified type.
 A type of layout slide to find.[`LayoutSlide`](/slides/python-net/aspose.slides/layoutslide) with specified type or None if no layouts found.
 
@@ -26,7 +26,6 @@ def get_by_type(self, type):
 
 
 ### See Also
-* class [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide)
 * class [`LayoutSlide`](/slides/python-net/aspose.slides/layoutslide)
 * class [`MasterLayoutSlideCollection`](/slides/python-net/aspose.slides/masterlayoutslidecollection)
 * enumeration [`SlideLayoutType`](/slides/python-net/aspose.slides/slidelayouttype)

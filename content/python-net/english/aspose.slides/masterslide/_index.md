@@ -38,15 +38,14 @@ The MasterSlide type exposes the following members:
 | [`preserve`](/slides/python-net/aspose.slides/masterslide/preserve/) | Determines whether the corresponding master is deleted when all the slides that follow that master are deleted.<br/>            Note: Aspose.Slides will never remove any unused master by itself, to actually remove unused masters call [`MasterSlideCollection.remove_unused`](/slides/python-net/aspose.slides/masterslidecollection/remove_unused)<br/>            Read/write **bool**. |
 | [`has_depending_slides`](/slides/python-net/aspose.slides/masterslide/has_depending_slides/) | Returns true if there exists at least one slide that depends on this master slide.<br/>            Read-only **bool**. |
 | [`theme_manager`](/slides/python-net/aspose.slides/masterslide/theme_manager/) | Returns the theme manager.<br/>            Read-only [`IMasterThemeManager`](/slides/python-net/aspose.slides.theme/imasterthememanager). |
-| [`slide`](/slides/python-net/aspose.slides/masterslide/slide/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
 | [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/masterslide/join_portions_with_same_formatting/#) | Joins runs with same formatting in all paragraphs all acceptable shapes. |
-| [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/masterslide/join_portions_with_same_formatting/#ishapecollection) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
-| [`equals`](/slides/python-net/aspose.slides/masterslide/equals/#ibaseslide) | Determines whether the two IBaseSlide instances are equal.<br/>            Returning value is calculated based on slide's structure and static content.<br/>            Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
+| [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/masterslide/join_portions_with_same_formatting/#asposeslidesishapecollection) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
+| [`equals`](/slides/python-net/aspose.slides/masterslide/equals/#asposeslidesibaseslide) | Determines whether the two IBaseSlide instances are equal.<br/>            Returning value is calculated based on slide's structure and static content.<br/>            Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
 | [`create_theme_effective`](/slides/python-net/aspose.slides/masterslide/create_theme_effective/#) | Returns an effective theme for this slide. |
 | [`find_shape_by_alt_text`](/slides/python-net/aspose.slides/masterslide/find_shape_by_alt_text/#str) | Finds first occurrence of a shape with the specified alternative text. |
 | [`apply_external_theme_to_depending_slides`](/slides/python-net/aspose.slides/masterslide/apply_external_theme_to_depending_slides/#str) | Creates a new master slide based on the current one, applying an external theme to it <br/>            and applies the created master slide to all dependent slides. |

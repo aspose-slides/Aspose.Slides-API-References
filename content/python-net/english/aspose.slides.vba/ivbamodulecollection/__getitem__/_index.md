@@ -9,6 +9,8 @@ weight: 30
 
 
 ## IVbaModuleCollection indexer
+Gets the element at the specified index.
+
 ## Indexer
 
 | Name | Description |

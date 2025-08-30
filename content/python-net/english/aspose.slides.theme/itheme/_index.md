@@ -20,7 +20,6 @@ The ITheme type exposes the following members:
 | [`color_scheme`](/slides/python-net/aspose.slides.theme/itheme/color_scheme/) | Returns the color scheme.<br/>            Read-only [`IColorScheme`](/slides/python-net/aspose.slides.theme/icolorscheme). |
 | [`font_scheme`](/slides/python-net/aspose.slides.theme/itheme/font_scheme/) | Returns the font scheme.<br/>            Read-only [`IFontScheme`](/slides/python-net/aspose.slides.theme/ifontscheme). |
 | [`format_scheme`](/slides/python-net/aspose.slides.theme/itheme/format_scheme/) | Returns the shape format scheme.<br/>            Read-only [`IFormatScheme`](/slides/python-net/aspose.slides.theme/iformatscheme). |
-| [`presentation`](/slides/python-net/aspose.slides.theme/itheme/presentation/) |  |
 
 ## Methods
 

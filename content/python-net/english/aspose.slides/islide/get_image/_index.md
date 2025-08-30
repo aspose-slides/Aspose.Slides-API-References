@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/islide/get_image/
-weight: 40
+weight: 10
 ---
 
 
@@ -150,7 +150,6 @@ def get_image(self, options, scale_x, scale_y):
 
 
 ### See Also
-* class [`IImage`](/slides/python-net/aspose.slides/iimage)
 * class [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions)
 * class [`ISlide`](/slides/python-net/aspose.slides/islide)
 * class [`ITiffOptions`](/slides/python-net/aspose.slides.export/itiffoptions)

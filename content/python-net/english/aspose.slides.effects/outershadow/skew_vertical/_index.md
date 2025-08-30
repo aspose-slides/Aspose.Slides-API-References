@@ -4,12 +4,13 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/outershadow/skew_vertical/
-weight: 120
+weight: 110
 ---
 
 
 ## skew_vertical property
-Specifies the vertical skew angle (in degrees).
+Vertical skew angle, in degrees.
+            Default value – 0 °.
             Read/write **float**.
 
 ### Definition:
