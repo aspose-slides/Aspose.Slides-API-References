@@ -28,7 +28,7 @@ The ExcelDataWorkbook type exposes the following members:
 | [`get_cell`](/slides/python-net/aspose.slides.excel/exceldataworkbook/get_cell/#str-int-int) | Retrieves a cell from the specified worksheet using its name and cell coordinates. |
 | [`get_cell`](/slides/python-net/aspose.slides.excel/exceldataworkbook/get_cell/#int-str) | Retrieves a cell from the specified worksheet using its index and Excel-style cell name (e.g., "B2"). |
 | [`get_cell`](/slides/python-net/aspose.slides.excel/exceldataworkbook/get_cell/#str-str) | Retrieves a cell from the specified worksheet using Excel-style cell name (e.g., "B2"). |
-| [`get_cells`](/slides/python-net/aspose.slides.excel/exceldataworkbook/get_cells/#str-bool) |  |
+| [`get_cells`](/slides/python-net/aspose.slides.excel/exceldataworkbook/get_cells/#str-bool) | Retrieves a collection of cells from the workbook that match the specified formula. |
 | [`get_charts_from_worksheet`](/slides/python-net/aspose.slides.excel/exceldataworkbook/get_charts_from_worksheet/#str) | Retrieves a dictionary containing the indexes and names of all charts in the specified worksheet of an Excel workbook. |
 | [`get_worksheet_names`](/slides/python-net/aspose.slides.excel/exceldataworkbook/get_worksheet_names/#) | Retrieves the names of all worksheets contained in the Excel workbook. |
 
