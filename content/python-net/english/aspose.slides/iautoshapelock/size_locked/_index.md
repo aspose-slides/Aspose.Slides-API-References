@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/iautoshapelock/size_locked/
-weight: 120
+weight: 110
 ---
 
 

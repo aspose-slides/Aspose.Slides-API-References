@@ -21,7 +21,6 @@ def read_document_properties(self):
 
 
 ### See Also
-* class [`IDocumentProperties`](/slides/python-net/aspose.slides/idocumentproperties)
 * class [`PresentationInfo`](/slides/python-net/aspose.slides/presentationinfo)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

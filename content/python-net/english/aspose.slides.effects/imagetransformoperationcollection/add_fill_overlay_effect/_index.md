@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/imagetransformoperationcollection/add_fill_overlay_effect/
-weight: 130
+weight: 140
 ---
 
 
@@ -26,7 +26,6 @@ def add_fill_overlay_effect(self):
 
 
 ### See Also
-* class [`IFillOverlay`](/slides/python-net/aspose.slides.effects/ifilloverlay)
 * class [`ImageTransformOperationCollection`](/slides/python-net/aspose.slides.effects/imagetransformoperationcollection)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

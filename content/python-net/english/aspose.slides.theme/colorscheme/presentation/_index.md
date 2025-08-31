@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.theme/colorscheme/presentation/
-weight: 150
+weight: 130
 ---
 
 

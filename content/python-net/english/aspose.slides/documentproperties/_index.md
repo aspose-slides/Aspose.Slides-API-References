@@ -65,12 +65,12 @@ The DocumentProperties type exposes the following members:
 | [`get_custom_property_value`](/slides/python-net/aspose.slides/documentproperties/get_custom_property_value/#str-any) | Gets a named boolean value from the custom properties. |
 | [`get_custom_property_value`](/slides/python-net/aspose.slides/documentproperties/get_custom_property_value/#str-any) | Gets a named integer value from the custom properties. |
 | [`get_custom_property_value`](/slides/python-net/aspose.slides/documentproperties/get_custom_property_value/#str-any) | Gets a named DateTime value from the custom properties. |
-| [`get_custom_property_value`](/slides/python-net/aspose.slides/documentproperties/get_custom_property_value/#str-any) |  |
-| [`get_custom_property_value`](/slides/python-net/aspose.slides/documentproperties/get_custom_property_value/#str-any) |  |
-| [`get_custom_property_value`](/slides/python-net/aspose.slides/documentproperties/get_custom_property_value/#str-any) |  |
+| [`get_custom_property_value`](/slides/python-net/aspose.slides/documentproperties/get_custom_property_value/#str-any) | Gets a named string value from the custom properties. |
+| [`get_custom_property_value`](/slides/python-net/aspose.slides/documentproperties/get_custom_property_value/#str-any) | Gets a named float value from the custom properties. |
+| [`get_custom_property_value`](/slides/python-net/aspose.slides/documentproperties/get_custom_property_value/#str-any) | Gets a named double value from the custom properties. |
 | [`set_custom_property_value`](/slides/python-net/aspose.slides/documentproperties/set_custom_property_value/#str-bool) | Sets a named boolean custom property. |
 | [`set_custom_property_value`](/slides/python-net/aspose.slides/documentproperties/set_custom_property_value/#str-int) | Sets a named integer custom property. |
-| [`set_custom_property_value`](/slides/python-net/aspose.slides/documentproperties/set_custom_property_value/#str-datetime) | Sets a named DateTime custom property. |
+| [`set_custom_property_value`](/slides/python-net/aspose.slides/documentproperties/set_custom_property_value/#str-systemdatetime) | Sets a named DateTime custom property. |
 | [`set_custom_property_value`](/slides/python-net/aspose.slides/documentproperties/set_custom_property_value/#str-str) | Sets a named string custom property. |
 | [`set_custom_property_value`](/slides/python-net/aspose.slides/documentproperties/set_custom_property_value/#str-float) | Sets a named float custom property. |
 | [`set_custom_property_value`](/slides/python-net/aspose.slides/documentproperties/set_custom_property_value/#str-float) | Sets a named double custom property. |

@@ -34,18 +34,18 @@ Gets the element at the specified index.
 
 | Method | Description |
 | :- | :- |
-| [`add`](/slides/python-net/aspose.slides/paragraphcollection/add/#iparagraph) | Adds a Paragraph to the end of collection. |
-| [`add`](/slides/python-net/aspose.slides/paragraphcollection/add/#iparagraphcollection) | Adds a content of ParagraphCollection to the end of collection. |
-| [`insert`](/slides/python-net/aspose.slides/paragraphcollection/insert/#int-iparagraph) | Inserts a Paragraph into the collection at the specified index. |
-| [`insert`](/slides/python-net/aspose.slides/paragraphcollection/insert/#int-iparagraphcollection) | Inserts a content of ParagraphCollection into the collection at the specified index. |
+| [`add`](/slides/python-net/aspose.slides/paragraphcollection/add/#asposeslidesiparagraph) | Adds a Paragraph to the end of collection. |
+| [`add`](/slides/python-net/aspose.slides/paragraphcollection/add/#asposeslidesiparagraphcollection) | Adds a content of ParagraphCollection to the end of collection. |
+| [`insert`](/slides/python-net/aspose.slides/paragraphcollection/insert/#int-asposeslidesiparagraph) | Inserts a Paragraph into the collection at the specified index. |
+| [`insert`](/slides/python-net/aspose.slides/paragraphcollection/insert/#int-asposeslidesiparagraphcollection) | Inserts a content of ParagraphCollection into the collection at the specified index. |
 | [`add_from_html`](/slides/python-net/aspose.slides/paragraphcollection/add_from_html/#str) | Adds text from specified html string to the collection. |
 | [`add_from_html`](/slides/python-net/aspose.slides/paragraphcollection/add_from_html/#str-asposeslidesimportingiexternalresourceresolver-str) | Adds text from specified html string to the collection. |
-| [`index_of`](/slides/python-net/aspose.slides/paragraphcollection/index_of/#iparagraph) | Determines the index of a specific item in the **System.Collections.Generic.IList`1**. |
+| [`index_of`](/slides/python-net/aspose.slides/paragraphcollection/index_of/#asposeslidesiparagraph) | Determines the index of a specific item in the **System.Collections.Generic.IList`1**. |
 | [`clear`](/slides/python-net/aspose.slides/paragraphcollection/clear/#) | Removes all elements from the collection. |
-| [`contains`](/slides/python-net/aspose.slides/paragraphcollection/contains/#iparagraph) | Determines whether the **System.Collections.Generic.ICollection`1** contains a specific value. |
-| [`copy_to`](/slides/python-net/aspose.slides/paragraphcollection/copy_to/#listiparagraph-int) | Copies the elements of the **System.Collections.Generic.ICollection`1** to an **System.Array**, starting at a particular **System.Array** index. |
+| [`contains`](/slides/python-net/aspose.slides/paragraphcollection/contains/#asposeslidesiparagraph) | Determines whether the **System.Collections.Generic.ICollection`1** contains a specific value. |
+| [`copy_to`](/slides/python-net/aspose.slides/paragraphcollection/copy_to/#listasposeslidesiparagraph-int) | Copies the elements of the **System.Collections.Generic.ICollection`1** to an **System.Array**, starting at a particular **System.Array** index. |
 | [`remove_at`](/slides/python-net/aspose.slides/paragraphcollection/remove_at/#int) | Removes the element at the specified index of the collection. |
-| [`remove`](/slides/python-net/aspose.slides/paragraphcollection/remove/#iparagraph) | Removes the first occurrence of a specific object from the **System.Collections.Generic.ICollection`1**. |
+| [`remove`](/slides/python-net/aspose.slides/paragraphcollection/remove/#asposeslidesiparagraph) | Removes the first occurrence of a specific object from the **System.Collections.Generic.ICollection`1**. |
 | [`export_to_html`](/slides/python-net/aspose.slides/paragraphcollection/export_to_html/#int-int-asposeslidesexportitexttohtmlconversionoptions) | Converts specifying paragraphs to the HTML and returns it as String object. |
 
 

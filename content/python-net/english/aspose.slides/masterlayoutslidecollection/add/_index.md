@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#slidelayouttype-str}
+## add {#asposeslidesslidelayouttype-str}
 Adds a new layout slide to the end of the collection.
 
 ### Returns
@@ -46,7 +46,6 @@ def add(self, layout_type, layout_name):
 
 
 ### See Also
-* class [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide)
 * class [`MasterLayoutSlideCollection`](/slides/python-net/aspose.slides/masterlayoutslidecollection)
 * enumeration [`SlideLayoutType`](/slides/python-net/aspose.slides/slidelayouttype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)

@@ -18,10 +18,6 @@ The ILegendEntryProperties type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`hide`](/slides/python-net/aspose.slides.charts/ilegendentryproperties/hide/) | Returns or sets the hide flag of legend entry.<br/>            Read/write **bool**. |
-| [`text_format`](/slides/python-net/aspose.slides.charts/ilegendentryproperties/text_format/) |  |
-| [`chart`](/slides/python-net/aspose.slides.charts/ilegendentryproperties/chart/) |  |
-| [`slide`](/slides/python-net/aspose.slides.charts/ilegendentryproperties/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides.charts/ilegendentryproperties/presentation/) |  |
 
 
 ### See Also

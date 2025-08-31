@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.theme/imasterthemeable/theme_manager/
-weight: 70
+weight: 20
 ---
 
 

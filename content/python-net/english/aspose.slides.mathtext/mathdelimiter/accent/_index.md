@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## accent {#char}
+## accent {#systemchar}
 Sets an accent mark (a character on the top of this element)
 
 ### Returns
@@ -25,7 +25,7 @@ def accent(self, accent_character):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| accent_character | **char** | Accent character. The value should be within the range of (U+0300–U+036F) or (U+20D0–U+20EF) |
+| accent_character | **System.Char** | Accent character. The value should be within the range of (U+0300–U+036F) or (U+20D0–U+20EF) |
 
 ### Examples
 

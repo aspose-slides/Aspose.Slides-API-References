@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/isvgoptions/delete_pictures_cropped_areas/
-weight: 30
+weight: 20
 ---
 
 

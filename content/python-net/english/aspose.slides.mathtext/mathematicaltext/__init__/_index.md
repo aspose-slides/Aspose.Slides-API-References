@@ -23,7 +23,7 @@ def __init__(self):
 Example:
 
 
-## __init__ {#char}
+## __init__ {#systemchar}
 Create MathText with single symbol
 
 
@@ -35,7 +35,7 @@ def __init__(self, math_symbol):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| math_symbol | **char** | single symbol |
+| math_symbol | **System.Char** | single symbol |
 
 ### Examples
 
@@ -61,7 +61,7 @@ def __init__(self, math_text):
 Example:
 
 
-## __init__ {#str-iportionformat}
+## __init__ {#str-asposeslidesiportionformat}
 Create MathematicalText from text and format settings
 
 

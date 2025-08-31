@@ -9,6 +9,9 @@ weight: 10
 
 
 ## CellCollection indexer
+Returns a cell by it's position.
+            Read-only [`Cell`](/slides/python-net/aspose.slides/cell).
+
 ## Indexer
 
 | Name | Description |
@@ -17,6 +20,7 @@ weight: 10
 
 
 ### See Also
+* class [`Cell`](/slides/python-net/aspose.slides/cell)
 * class [`CellCollection`](/slides/python-net/aspose.slides/cellcollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

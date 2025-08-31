@@ -9,6 +9,9 @@ weight: 10
 
 
 ## ExtraColorSchemeCollection indexer
+Returns an color scheme by index.
+            Read-only [`ExtraColorScheme`](/slides/python-net/aspose.slides.theme/extracolorscheme).
+
 ## Indexer
 
 | Name | Description |
@@ -17,6 +20,7 @@ weight: 10
 
 
 ### See Also
+* class [`ExtraColorScheme`](/slides/python-net/aspose.slides.theme/extracolorscheme)
 * class [`ExtraColorSchemeCollection`](/slides/python-net/aspose.slides.theme/extracolorschemecollection)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

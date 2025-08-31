@@ -43,7 +43,6 @@ def from_file(filename, use_embedded_color_management):
 
 
 ### See Also
-* class [`IImage`](/slides/python-net/aspose.slides/iimage)
 * class [`Images`](/slides/python-net/aspose.slides/images)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

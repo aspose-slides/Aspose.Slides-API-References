@@ -9,7 +9,8 @@ weight: 30
 
 
 ## blur_radius property
-Blur radius.
+Blur radius, in points.
+            Default value – 0 pt.
             Read/write **float**.
 
 ### Definition:

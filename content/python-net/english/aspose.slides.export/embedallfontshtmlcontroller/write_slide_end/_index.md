@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## write_slide_end {#ihtmlgenerator-islide}
+## write_slide_end {#asposeslidesexportihtmlgenerator-asposeslidesislide}
 Called to write html slide footer. Called once per each of slides.
 
 

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/paragraph/end_paragraph_portion_format/
-weight: 70
+weight: 50
 ---
 
 

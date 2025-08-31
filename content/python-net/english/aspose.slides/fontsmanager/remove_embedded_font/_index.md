@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## remove_embedded_font {#ifontdata}
+## remove_embedded_font {#asposeslidesifontdata}
 Removes the embedded font
 
 

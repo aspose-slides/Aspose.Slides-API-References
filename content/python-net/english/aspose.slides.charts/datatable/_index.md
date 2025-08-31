@@ -24,8 +24,6 @@ The DataTable type exposes the following members:
 | [`show_legend_key`](/slides/python-net/aspose.slides.charts/datatable/show_legend_key/) | True if the data label legend key is visible.<br/>            Read/write **bool**. |
 | [`chart`](/slides/python-net/aspose.slides.charts/datatable/chart/) | Returns chart.<br/>            Read-only [`IChart`](/slides/python-net/aspose.slides.charts/ichart). |
 | [`text_format`](/slides/python-net/aspose.slides.charts/datatable/text_format/) | Returns text format.<br/>            Read-only [`IChartTextFormat`](/slides/python-net/aspose.slides.charts/icharttextformat). |
-| [`slide`](/slides/python-net/aspose.slides.charts/datatable/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides.charts/datatable/presentation/) |  |
 
 
 ### See Also

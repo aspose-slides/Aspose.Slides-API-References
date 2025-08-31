@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_data_point_for_area_series {#ichartdatacell}
+## add_data_point_for_area_series {#asposeslideschartsichartdatacell}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Area subtypes (see also ChartTypeCharacterizer.IsChartTypeArea(ChartType) method).
 
@@ -53,7 +53,6 @@ def add_data_point_for_area_series(self, value):
 
 ### See Also
 * class [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell)
-* class [`IChartDataPoint`](/slides/python-net/aspose.slides.charts/ichartdatapoint)
 * class [`IChartDataPointCollection`](/slides/python-net/aspose.slides.charts/ichartdatapointcollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

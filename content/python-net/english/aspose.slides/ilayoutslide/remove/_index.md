@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ilayoutslide/remove/
-weight: 60
+weight: 20
 ---
 
 

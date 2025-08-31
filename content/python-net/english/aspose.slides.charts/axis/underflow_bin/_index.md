@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/axis/underflow_bin/
-weight: 630
+weight: 570
 ---
 
 

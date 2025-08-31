@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_audio {#iaudio}
+## add_audio {#asposeslidesiaudio}
 Adds a copy of an audio file from an another presentation.
 
 ### Returns
@@ -68,7 +68,7 @@ def add_audio(self, audio_data):
 | audio_data | **bytes** | Audio bytes. |
 
 
-## add_audio {#iorawiobase-loadingstreambehavior}
+## add_audio {#iorawiobase-asposeslidesloadingstreambehavior}
 Creates and adds a audio to a presentation from stream.
 
 ### Returns

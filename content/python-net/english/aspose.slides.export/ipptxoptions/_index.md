@@ -20,11 +20,6 @@ The IPptxOptions type exposes the following members:
 | [`conformance`](/slides/python-net/aspose.slides.export/ipptxoptions/conformance/) | Specifies the conformance class to which the Presentation document conforms.<br/>            Default value is [`Conformance.ECMA_376_2006`](/slides/python-net/aspose.slides.export/conformance/ECMA_376_2006) |
 | [`zip_64_mode`](/slides/python-net/aspose.slides.export/ipptxoptions/zip_64_mode/) | Specifies whether the ZIP64 format is used for the Presentation document. <br/>            The default value is [`Zip64Mode.IF_NECESSARY`](/slides/python-net/aspose.slides.export/zip64mode/IF_NECESSARY) |
 | [`refresh_thumbnail`](/slides/python-net/aspose.slides.export/ipptxoptions/refresh_thumbnail/) | Specifies whether the presentation thumbnail will be refreshed. <br/>            Read/write **bool**.<br/>            Default value is **true** . |
-| [`warning_callback`](/slides/python-net/aspose.slides.export/ipptxoptions/warning_callback/) |  |
-| [`progress_callback`](/slides/python-net/aspose.slides.export/ipptxoptions/progress_callback/) |  |
-| [`default_regular_font`](/slides/python-net/aspose.slides.export/ipptxoptions/default_regular_font/) |  |
-| [`gradient_style`](/slides/python-net/aspose.slides.export/ipptxoptions/gradient_style/) |  |
-| [`skip_java_script_links`](/slides/python-net/aspose.slides.export/ipptxoptions/skip_java_script_links/) |  |
 
 
 ### See Also

@@ -8,7 +8,7 @@ weight: 160
 ---
 
 
-## is_error_bars_x_allowed {#charttype}
+## is_error_bars_x_allowed {#asposeslideschartscharttype}
 Returns if error bars X allowed for specified series type.
 
 ### Returns

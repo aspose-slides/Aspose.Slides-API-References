@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## divide {#imathelement}
+## divide {#asposeslidesmathtextimathelement}
 Creates a fraction with this numerator and specified denominator
 
 ### Returns
@@ -56,7 +56,7 @@ def divide(self, denominator):
 Example:
 
 
-## divide {#imathelement-mathfractiontypes}
+## divide {#asposeslidesmathtextimathelement-asposeslidesmathtextmathfractiontypes}
 Creates a fraction of the specified type with this numerator and specified denominator
 
 ### Returns
@@ -81,7 +81,7 @@ def divide(self, denominator, fraction_type):
 Example:
 
 
-## divide {#str-mathfractiontypes}
+## divide {#str-asposeslidesmathtextmathfractiontypes}
 Creates a fraction of the specified type with this numerator and specified denominator
 
 ### Returns
@@ -109,7 +109,6 @@ Example:
 
 ### See Also
 * class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
-* class [`IMathFraction`](/slides/python-net/aspose.slides.mathtext/imathfraction)
 * enumeration [`MathFractionTypes`](/slides/python-net/aspose.slides.mathtext/mathfractiontypes)
 * class [`MathMatrix`](/slides/python-net/aspose.slides.mathtext/mathmatrix)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## create_math_accent {#imathelement}
+## create_math_accent {#asposeslidesmathtextimathelement}
 Creates a math accent applying to a specified math element with the default accent character value
 
 ### Returns
@@ -28,7 +28,7 @@ def create_math_accent(self, element):
 | element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | math element to apply accent |
 
 
-## create_math_accent {#imathelement-char}
+## create_math_accent {#asposeslidesmathtextimathelement-systemchar}
 Creates a math accent applying to a specified math element
 
 ### Returns
@@ -46,12 +46,11 @@ def create_math_accent(self, element, accent_character):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | math element to apply accent |
-| accent_character | **char** | accent character |
+| accent_character | **System.Char** | accent character |
 
 
 
 ### See Also
-* class [`IMathAccent`](/slides/python-net/aspose.slides.mathtext/imathaccent)
 * class [`IMathAccentFactory`](/slides/python-net/aspose.slides.mathtext/imathaccentfactory)
 * class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)

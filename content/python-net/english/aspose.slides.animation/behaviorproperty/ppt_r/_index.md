@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.animation/behaviorproperty/ppt_r/
-weight: 530
+weight: 550
 ---
 
 

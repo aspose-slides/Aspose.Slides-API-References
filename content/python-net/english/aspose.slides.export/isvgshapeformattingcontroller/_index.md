@@ -17,7 +17,7 @@ The ISvgShapeFormattingController type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`format_shape`](/slides/python-net/aspose.slides.export/isvgshapeformattingcontroller/format_shape/#isvgshape-ishape) | This function is called before rendering of shape to SVG to allow user to control resulting SVG. |
+| [`format_shape`](/slides/python-net/aspose.slides.export/isvgshapeformattingcontroller/format_shape/#asposeslidesexportisvgshape-asposeslidesishape) | This function is called before rendering of shape to SVG to allow user to control resulting SVG. |
 
 
 ### See Also

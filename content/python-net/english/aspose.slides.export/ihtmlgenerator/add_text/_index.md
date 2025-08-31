@@ -24,7 +24,7 @@ def add_text(self, text):
 | text | **str** | Text to add. |
 
 
-## add_text {#listchar}
+## add_text {#listsystemchar}
 Adds plain text to the html files, replacing special characters with html entities.
             Linebreaks and whitespaces aren't replaced.
 
@@ -37,10 +37,10 @@ def add_text(self, text):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| text | **List[char]** | Text to add. |
+| text | **List[System.Char]** | Text to add. |
 
 
-## add_text {#listchar-int-int}
+## add_text {#listsystemchar-int-int}
 Adds plain text to the html files, replacing special characters with html entities.
             Linebreaks and whitespaces aren't replaced.
 
@@ -53,7 +53,7 @@ def add_text(self, text, start_index, length):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| text | **List[char]** | Text to add. |
+| text | **List[System.Char]** | Text to add. |
 | start_index | **int** | Start index of the portion to add. |
 | length | **int** | Length of the portion to add. |
 

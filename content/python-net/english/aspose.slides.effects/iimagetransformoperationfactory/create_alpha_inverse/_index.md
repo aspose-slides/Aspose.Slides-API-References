@@ -26,7 +26,6 @@ def create_alpha_inverse(self):
 
 
 ### See Also
-* class [`IAlphaInverse`](/slides/python-net/aspose.slides.effects/ialphainverse)
 * class [`IImageTransformOperationFactory`](/slides/python-net/aspose.slides.effects/iimagetransformoperationfactory)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

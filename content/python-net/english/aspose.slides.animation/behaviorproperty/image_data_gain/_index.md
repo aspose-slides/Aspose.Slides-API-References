@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.animation/behaviorproperty/image_data_gain/
-weight: 470
+weight: 490
 ---
 
 

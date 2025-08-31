@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#imathelement-imathelement}
+## __init__ {#asposeslidesmathtextimathelement-asposeslidesmathtextimathelement}
 Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
 
 
@@ -28,7 +28,7 @@ def __init__(self, numerator, denominator):
 Example:
 
 
-## __init__ {#imathelement-imathelement-mathfractiontypes}
+## __init__ {#asposeslidesmathtextimathelement-asposeslidesmathtextimathelement-asposeslidesmathtextmathfractiontypes}
 Initializes MathFraction with the specified numerator, denominator and type
 
 

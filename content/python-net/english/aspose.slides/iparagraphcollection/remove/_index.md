@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## remove {#iparagraph}
+## remove {#asposeslidesiparagraph}
 Removes the first occurrence of a specific paragraph.
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#iparagraph}
+## add {#asposeslidesiparagraph}
 Adds a Paragraph to the end of collection.
 
 
@@ -23,7 +23,7 @@ def add(self, value):
 | value | [`IParagraph`](/slides/python-net/aspose.slides/iparagraph) | The Paragraph to be added to the end of the collection. |
 
 
-## add {#iparagraphcollection}
+## add {#asposeslidesiparagraphcollection}
 Adds a content of ParagraphCollection to the end of collection.
 
 ### Returns

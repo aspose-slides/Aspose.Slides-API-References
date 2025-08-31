@@ -23,7 +23,7 @@ def add_attribute_value(self, value):
 | value | **str** | Attribute value string. |
 
 
-## add_attribute_value {#listchar}
+## add_attribute_value {#listsystemchar}
 Quotes attribute value and adds it to the html file.
 
 
@@ -35,10 +35,10 @@ def add_attribute_value(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | **List[char]** | Attribute value string. |
+| value | **List[System.Char]** | Attribute value string. |
 
 
-## add_attribute_value {#listchar-int-int}
+## add_attribute_value {#listsystemchar-int-int}
 Quotes attribute value and adds it to the html file.
 
 
@@ -50,7 +50,7 @@ def add_attribute_value(self, value, start_index, length):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | **List[char]** | Attribute value string. |
+| value | **List[System.Char]** | Attribute value string. |
 | start_index | **int** | Start index of the portion to add. |
 | length | **int** | Length of the portion to add. |
 

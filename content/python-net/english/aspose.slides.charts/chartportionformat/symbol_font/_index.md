@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/chartportionformat/symbol_font/
-weight: 270
+weight: 240
 ---
 
 

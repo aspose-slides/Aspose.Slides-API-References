@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/datalabel/data_label_format/
-weight: 170
+weight: 110
 ---
 
 

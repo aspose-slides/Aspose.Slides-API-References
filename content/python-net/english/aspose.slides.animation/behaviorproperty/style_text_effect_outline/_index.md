@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.animation/behaviorproperty/style_text_effect_outline/
-weight: 1160
+weight: 1180
 ---
 
 

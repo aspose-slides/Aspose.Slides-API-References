@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#imathblock}
+## add {#asposeslidesmathtextimathblock}
 
 
 

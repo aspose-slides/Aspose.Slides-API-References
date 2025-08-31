@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/imagetransformoperationcollection/add_luminance_effect/
-weight: 160
+weight: 170
 ---
 
 
@@ -31,7 +31,6 @@ def add_luminance_effect(self, brightness, contrast):
 
 
 ### See Also
-* class [`ILuminance`](/slides/python-net/aspose.slides.effects/iluminance)
 * class [`ImageTransformOperationCollection`](/slides/python-net/aspose.slides.effects/imagetransformoperationcollection)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

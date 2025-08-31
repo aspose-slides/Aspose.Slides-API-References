@@ -38,7 +38,7 @@ The ILineFormatEffectiveData type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`equals`](/slides/python-net/aspose.slides/ilineformateffectivedata/equals/#ilineformateffectivedata) | Determines whether the two ILineFormatEffectiveData instances are equal. |
+| [`equals`](/slides/python-net/aspose.slides/ilineformateffectivedata/equals/#asposeslidesilineformateffectivedata) | Determines whether the two ILineFormatEffectiveData instances are equal. |
 
 
 ### Remarks

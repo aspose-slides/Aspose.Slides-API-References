@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/moderncomment/text_selection_start/
-weight: 120
+weight: 110
 ---
 
 

@@ -9,7 +9,8 @@ weight: 120
 
 
 ## skew_vertical property
-Specifies the vertical skew angle (in degrees).
+Vertical skew angle, in degrees.
+            Default value – 0 °.
             Read/write **float**.
 
 ### Definition:

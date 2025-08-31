@@ -17,9 +17,9 @@ The IMathNaryOperatorFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`create_math_nary_operator`](/slides/python-net/aspose.slides.mathtext/imathnaryoperatorfactory/create_math_nary_operator/#char-imathelement-imathelement-imathelement) | Creates IMathNaryOperator |
-| [`create_math_nary_operator`](/slides/python-net/aspose.slides.mathtext/imathnaryoperatorfactory/create_math_nary_operator/#char-imathelement-imathelement) | Creates IMathNaryOperator |
-| [`create_math_nary_operator`](/slides/python-net/aspose.slides.mathtext/imathnaryoperatorfactory/create_math_nary_operator/#char-imathelement) | Creates IMathNaryOperator |
+| [`create_math_nary_operator`](/slides/python-net/aspose.slides.mathtext/imathnaryoperatorfactory/create_math_nary_operator/#systemchar-asposeslidesmathtextimathelement-asposeslidesmathtextimathelement-asposeslidesmathtextimathelement) | Creates IMathNaryOperator |
+| [`create_math_nary_operator`](/slides/python-net/aspose.slides.mathtext/imathnaryoperatorfactory/create_math_nary_operator/#systemchar-asposeslidesmathtextimathelement-asposeslidesmathtextimathelement) | Creates IMathNaryOperator |
+| [`create_math_nary_operator`](/slides/python-net/aspose.slides.mathtext/imathnaryoperatorfactory/create_math_nary_operator/#systemchar-asposeslidesmathtextimathelement) | Creates IMathNaryOperator |
 
 
 ### Remarks

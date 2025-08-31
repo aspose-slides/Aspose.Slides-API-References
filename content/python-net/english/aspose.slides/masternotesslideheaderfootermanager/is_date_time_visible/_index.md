@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/masternotesslideheaderfootermanager/is_date_time_visible/
-weight: 180
+weight: 150
 ---
 
 

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/connector/three_d_format/
-weight: 510
+weight: 460
 ---
 
 

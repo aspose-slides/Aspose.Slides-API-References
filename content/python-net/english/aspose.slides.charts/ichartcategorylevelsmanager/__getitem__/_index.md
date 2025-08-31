@@ -9,6 +9,8 @@ weight: 30
 
 
 ## IChartCategoryLevelsManager indexer
+Returns IChartDataCell object for defined level.
+
 ## Indexer
 
 | Name | Description |

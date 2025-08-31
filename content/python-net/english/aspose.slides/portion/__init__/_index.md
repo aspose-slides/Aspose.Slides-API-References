@@ -34,7 +34,7 @@ def __init__(self, str):
 | str | **str** |  |
 
 
-## __init__ {#portion}
+## __init__ {#asposeslidesportion}
 Initializes a new instance of the Portion class.
 
 

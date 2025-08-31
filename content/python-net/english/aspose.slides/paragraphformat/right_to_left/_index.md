@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/paragraphformat/right_to_left/
-weight: 170
+weight: 130
 ---
 
 

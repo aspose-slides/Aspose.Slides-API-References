@@ -37,7 +37,6 @@ def get_font_embedding_level(self, font_bytes, font_name):
 
 
 ### See Also
-* enumeration [`EmbeddingLevel`](/slides/python-net/aspose.slides/embeddinglevel)
 * class [`IFontsManager`](/slides/python-net/aspose.slides/ifontsmanager)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

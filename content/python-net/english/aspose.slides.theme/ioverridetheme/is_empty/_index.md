@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.theme/ioverridetheme/is_empty/
-weight: 170
+weight: 120
 ---
 
 

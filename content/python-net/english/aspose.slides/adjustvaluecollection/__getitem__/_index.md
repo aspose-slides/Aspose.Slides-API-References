@@ -9,11 +9,13 @@ weight: 10
 
 
 ## AdjustValueCollection indexer
+Returns adjustment by index.
+
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| index |  |
+| index | adjustment's index. |
 
 
 ### See Also

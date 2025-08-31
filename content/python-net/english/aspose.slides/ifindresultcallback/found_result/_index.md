@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## found_result {#itextframe-str-str-int}
+## found_result {#asposeslidesitextframe-str-str-int}
 Callback method that receives data about the found text.
 
 

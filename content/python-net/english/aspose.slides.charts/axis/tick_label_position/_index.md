@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/axis/tick_label_position/
-weight: 580
+weight: 520
 ---
 
 

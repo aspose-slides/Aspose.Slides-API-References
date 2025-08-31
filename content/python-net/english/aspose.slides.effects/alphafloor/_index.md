@@ -17,13 +17,6 @@ Represents an Alpha Floor effect.
 
 The AlphaFloor type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`slide`](/slides/python-net/aspose.slides.effects/alphafloor/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides.effects/alphafloor/presentation/) |  |
-
 ## Methods
 
 | Method | Description |

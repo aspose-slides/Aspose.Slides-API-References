@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/mathelementbase/to_border_box/
-weight: 190
+weight: 180
 ---
 
 
@@ -61,7 +61,6 @@ Example:
 
 
 ### See Also
-* class [`IMathBorderBox`](/slides/python-net/aspose.slides.mathtext/imathborderbox)
 * class [`MathElementBase`](/slides/python-net/aspose.slides.mathtext/mathelementbase)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

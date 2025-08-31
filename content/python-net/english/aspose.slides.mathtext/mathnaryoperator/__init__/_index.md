@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#char-imathelement}
+## __init__ {#systemchar-asposeslidesmathtextimathelement}
 Initializes a new instance of the MathNaryOperator class.
 
 
@@ -20,7 +20,7 @@ def __init__(self, operator_symbol, base_argument):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| operator_symbol | **char** | Nary operator symbol |
+| operator_symbol | **System.Char** | Nary operator symbol |
 | base_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Base argument |
 
 ### Examples
@@ -28,7 +28,7 @@ def __init__(self, operator_symbol, base_argument):
 Example:
 
 
-## __init__ {#char-imathelement-imathelement}
+## __init__ {#systemchar-asposeslidesmathtextimathelement-asposeslidesmathtextimathelement}
 Initializes a new instance of the MathNaryOperator class.
 
 
@@ -40,7 +40,7 @@ def __init__(self, operator_symbol, base_argument, lower_limit):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| operator_symbol | **char** | Nary operator symbol |
+| operator_symbol | **System.Char** | Nary operator symbol |
 | base_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Base argument |
 | lower_limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Lower limit |
 
@@ -49,7 +49,7 @@ def __init__(self, operator_symbol, base_argument, lower_limit):
 Example:
 
 
-## __init__ {#char-imathelement-imathelement-imathelement}
+## __init__ {#systemchar-asposeslidesmathtextimathelement-asposeslidesmathtextimathelement-asposeslidesmathtextimathelement}
 Initializes a new instance of the MathNaryOperator class.
 
 
@@ -61,7 +61,7 @@ def __init__(self, operator_symbol, base_argument, lower_limit, upper_limit):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| operator_symbol | **char** | Nary operator symbol |
+| operator_symbol | **System.Char** | Nary operator symbol |
 | base_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Base argument |
 | lower_limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Lower limit |
 | upper_limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Upper limit |

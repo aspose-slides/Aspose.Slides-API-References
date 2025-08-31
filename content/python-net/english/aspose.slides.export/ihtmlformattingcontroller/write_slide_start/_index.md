@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## write_slide_start {#ihtmlgenerator-islide}
+## write_slide_start {#asposeslidesexportihtmlgenerator-asposeslidesislide}
 Called to write html slide header. Called once per each of slides.
 
 

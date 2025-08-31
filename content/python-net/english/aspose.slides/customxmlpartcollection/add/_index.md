@@ -92,7 +92,6 @@ def add(self, input_stream):
 
 ### See Also
 * class [`CustomXmlPartCollection`](/slides/python-net/aspose.slides/customxmlpartcollection)
-* class [`ICustomXmlPart`](/slides/python-net/aspose.slides/icustomxmlpart)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

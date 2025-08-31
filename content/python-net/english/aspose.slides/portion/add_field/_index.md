@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add_field {#ifieldtype}
+## add_field {#asposeslidesifieldtype}
 Converts this portion to the automaticaly updated field.
 
 

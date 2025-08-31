@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_clone {#icolumn-bool}
+## add_clone {#asposeslidesicolumn-bool}
 Creates a copy of the specified template row and inserts it at the bottom of a table.
 
 ### Returns

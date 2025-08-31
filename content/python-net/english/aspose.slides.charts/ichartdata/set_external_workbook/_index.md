@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/ichartdata/set_external_workbook/
-weight: 20
+weight: 30
 ---
 
 

@@ -9,11 +9,13 @@ weight: 90
 
 
 ## BehaviorCollection indexer
+Retirns a behavior at the specified index.
+
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| index |  |
+| index | Index of a behavior to return. |
 
 
 ### See Also

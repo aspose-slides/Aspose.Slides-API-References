@@ -30,7 +30,6 @@ def add_empty_module(self, name):
 
 
 ### See Also
-* class [`IVbaModule`](/slides/python-net/aspose.slides.vba/ivbamodule)
 * class [`VbaModuleCollection`](/slides/python-net/aspose.slides.vba/vbamodulecollection)
 * module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
 * library [`Aspose.Slides`](/slides/python-net)

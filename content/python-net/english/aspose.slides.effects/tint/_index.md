@@ -16,13 +16,6 @@ Represents a Tint effect.
 
 The Tint type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`slide`](/slides/python-net/aspose.slides.effects/tint/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides.effects/tint/presentation/) |  |
-
 ## Methods
 
 | Method | Description |

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/itrendline/related_legend_entry/
-weight: 170
+weight: 100
 ---
 
 

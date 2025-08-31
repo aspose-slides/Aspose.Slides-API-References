@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/imagetransformoperationcollection/add_hsl_effect/
-weight: 150
+weight: 160
 ---
 
 
@@ -32,7 +32,6 @@ def add_hsl_effect(self, hue, saturation, luminance):
 
 
 ### See Also
-* class [`IHSL`](/slides/python-net/aspose.slides.effects/ihsl)
 * class [`ImageTransformOperationCollection`](/slides/python-net/aspose.slides.effects/imagetransformoperationcollection)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

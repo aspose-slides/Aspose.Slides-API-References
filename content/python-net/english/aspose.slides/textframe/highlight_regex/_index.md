@@ -28,7 +28,7 @@ def highlight_regex(self, regex, highlight_color):
 The following code sample shows how to highlight text in a TextFrame using a regular expression.
 
 
-## highlight_regex {#str-asposepydrawingcolor-itexthighlightingoptions}
+## highlight_regex {#str-asposepydrawingcolor-asposeslidesitexthighlightingoptions}
 Highlights all matches of the regular expression with the specified color.
 
 

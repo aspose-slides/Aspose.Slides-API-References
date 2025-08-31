@@ -9,11 +9,13 @@ weight: 20
 
 
 ## PieSplitCustomPointCollection indexer
+Returns chart data point for specified index.
+
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| index |  |
+| index | Index. |
 
 
 ### See Also

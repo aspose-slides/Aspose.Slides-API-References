@@ -24,7 +24,7 @@ The IWarningInfo type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`send_warning`](/slides/python-net/aspose.slides.warnings/iwarninginfo/send_warning/#iwarningcallback) | If receiver is not None ends warning to a specified receiver and throws the <br/>            AbortRequestedException if receiver decided to abort a operation. |
+| [`send_warning`](/slides/python-net/aspose.slides.warnings/iwarninginfo/send_warning/#asposeslideswarningsiwarningcallback) | If receiver is not None ends warning to a specified receiver and throws the <br/>            AbortRequestedException if receiver decided to abort a operation. |
 
 
 ### See Also

@@ -24,7 +24,7 @@ def to_svg(pres_path):
 | pres_path | **str** | Path of the input presentation |
 
 
-## to_svg {#presentation-asposeslidesexportisvgoptions}
+## to_svg {#asposeslidespresentation-asposeslidesexportisvgoptions}
 Converts [`Presentation`](/slides/python-net/aspose.slides/presentation) to SVG.
 
 

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/imathborderbox/hide_right/
-weight: 270
+weight: 50
 ---
 
 

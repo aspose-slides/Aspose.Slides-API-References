@@ -32,7 +32,6 @@ def create_tint(self, hue, amount):
 
 ### See Also
 * class [`IImageTransformOperationFactory`](/slides/python-net/aspose.slides.effects/iimagetransformoperationfactory)
-* class [`ITint`](/slides/python-net/aspose.slides.effects/itint)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
 

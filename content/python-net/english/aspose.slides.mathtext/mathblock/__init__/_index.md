@@ -23,7 +23,7 @@ def __init__(self):
 Example:
 
 
-## __init__ {#imathelement}
+## __init__ {#asposeslidesmathtextimathelement}
 Creates a new mathematical block and puts specified element in it
 
 
@@ -42,7 +42,7 @@ def __init__(self, math_element):
 Example:
 
 
-## __init__ {#iterableimathelement}
+## __init__ {#systemcollectionsgenericienumerable1asposeslidesmathtextimathelement}
 
 
 
@@ -54,7 +54,7 @@ def __init__(self, math_elements):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| math_elements | **Iterable[IMathElement]** |  |
+| math_elements | **System.Collections.Generic.IEnumerable`1[[Aspose.Slides.MathText.IMathElement]]** |  |
 
 
 

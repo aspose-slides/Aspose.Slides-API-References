@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## remove {#ichartcategory}
+## remove {#asposeslideschartsichartcategory}
 Removes the specified value.
 
 

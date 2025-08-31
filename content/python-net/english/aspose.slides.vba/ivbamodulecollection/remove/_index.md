@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## remove {#ivbamodule}
+## remove {#asposeslidesvbaivbamodule}
 Removes the first occurrence of a specific object from the collection.
 
 

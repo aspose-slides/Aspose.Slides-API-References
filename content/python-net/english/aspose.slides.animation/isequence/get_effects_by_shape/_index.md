@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## get_effects_by_shape {#ishape}
+## get_effects_by_shape {#asposeslidesishape}
 Returns array of effects for the specified shape.
 
 ### Returns

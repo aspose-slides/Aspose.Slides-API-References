@@ -370,6 +370,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`PortionCollection`](/slides/python-net/aspose.slides/portioncollection/) | Represents a collection of portions. |
 | [`PortionFactory`](/slides/python-net/aspose.slides/portionfactory/) | Allows to create test portions |
 | [`PortionFormat`](/slides/python-net/aspose.slides/portionformat/) | This class contains the text portion formatting properties. Unlike [`IPortionFormatEffectiveData`](/slides/python-net/aspose.slides/iportionformateffectivedata), all properties of this class are writeable. |
+| [`PositionedString`](/slides/python-net/aspose.slides/positionedstring/) |  |
 | [`PptCorruptFileException`](/slides/python-net/aspose.slides/pptcorruptfileexception/) | Exception which thrown when presentation file is probably corrupt. |
 | [`PptEditException`](/slides/python-net/aspose.slides/ppteditexception/) | Represents an exception thrown when edit presentation error is detected. |
 | [`PptException`](/slides/python-net/aspose.slides/pptexception/) | Represents a standard internal exception type. |
@@ -411,6 +412,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`SpreadsheetOptions`](/slides/python-net/aspose.slides/spreadsheetoptions/) | Represents options which can be used to specify additional spreadsheets behavior. |
 | [`StreamWrapper`](/slides/python-net/aspose.slides/streamwrapper/) | Aspose.IO.Stream wrapper for COM interface. |
 | [`StreamWrapperFactory`](/slides/python-net/aspose.slides/streamwrapperfactory/) | Factory of StreamWrappers. For COM interface. |
+| [`StringStringPair`](/slides/python-net/aspose.slides/stringstringpair/) |  |
 | [`SummaryZoomFrame`](/slides/python-net/aspose.slides/summaryzoomframe/) | Represents a Summary Zoom object in a slide. |
 | [`SummaryZoomSection`](/slides/python-net/aspose.slides/summaryzoomsection/) | Represents a Summary Zoom Section object in a Summary Zoom frame. |
 | [`SummaryZoomSectionCollection`](/slides/python-net/aspose.slides/summaryzoomsectioncollection/) | Represents a collection of Summary Zoom Section objects. |

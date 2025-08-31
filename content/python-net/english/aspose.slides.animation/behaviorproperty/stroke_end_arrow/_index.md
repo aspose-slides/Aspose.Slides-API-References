@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.animation/behaviorproperty/stroke_end_arrow/
-weight: 910
+weight: 930
 ---
 
 

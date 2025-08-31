@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.animation/ipropertyeffect/by/
-weight: 40
+weight: 20
 ---
 
 

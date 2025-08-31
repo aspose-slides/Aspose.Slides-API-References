@@ -8,7 +8,7 @@ weight: 110
 ---
 
 
-## reorder {#int-islide}
+## reorder {#int-asposeslidesislide}
 Moves slide from the collection to the specified position.
 
 
@@ -24,7 +24,7 @@ def reorder(self, index, slide):
 | slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | Slide to move. |
 
 
-## reorder {#int-listislide}
+## reorder {#int-listasposeslidesislide}
 Moves slides from the collection to the specified position.
             Slides will be placed starting from index in order they appear in list.
 
@@ -38,7 +38,7 @@ def reorder(self, index, slides):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | index | **int** | Target index. |
-| slides | **List[ISlide]** | Slides to move. |
+| slides | **List[aspose.slides.ISlide]** | Slides to move. |
 
 
 

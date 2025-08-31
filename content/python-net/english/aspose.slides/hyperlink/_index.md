@@ -20,8 +20,8 @@ The Hyperlink type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [`__init__`](/slides/python-net/aspose.slides/hyperlink/__init__/#str) | Creates an instance of a hyperlink. |
-| [`__init__`](/slides/python-net/aspose.slides/hyperlink/__init__/#islide) | Creates an instance of a hyperlink which points to specific slide.<br/>            Note: created hyperlink should be assigned to some object from the same presentation, otherwise link will be saved as NoAction. |
-| [`__init__`](/slides/python-net/aspose.slides/hyperlink/__init__/#hyperlink-str-str-bool-bool-bool) | Creates an instance of a hyperlink using another hyperlink as source, overriding secondary properties. |
+| [`__init__`](/slides/python-net/aspose.slides/hyperlink/__init__/#asposeslidesislide) | Creates an instance of a hyperlink which points to specific slide.<br/>            Note: created hyperlink should be assigned to some object from the same presentation, otherwise link will be saved as NoAction. |
+| [`__init__`](/slides/python-net/aspose.slides/hyperlink/__init__/#asposeslideshyperlink-str-str-bool-bool-bool) | Creates an instance of a hyperlink using another hyperlink as source, overriding secondary properties. |
 
 ## Properties
 
@@ -46,14 +46,12 @@ The Hyperlink type exposes the following members:
 | [`stop_sound_on_click`](/slides/python-net/aspose.slides/hyperlink/stop_sound_on_click/) | Determines whether the sound should be stopped on hyperlink click.<br/>            Read/write **bool**. |
 | [`sound`](/slides/python-net/aspose.slides/hyperlink/sound/) | Represents the playing sound of the hyperlink.<br/>            Read/write [`IAudio`](/slides/python-net/aspose.slides/iaudio). |
 | [`color_source`](/slides/python-net/aspose.slides/hyperlink/color_source/) | Represents the source of hyperlink color - either styles or portion format.<br/>            Read/write [`HyperlinkColorSource`](/slides/python-net/aspose.slides/hyperlinkcolorsource). |
-| [`slide`](/slides/python-net/aspose.slides/hyperlink/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides/hyperlink/presentation/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [`equals`](/slides/python-net/aspose.slides/hyperlink/equals/#ihyperlink) | Determines whether the two Hyperlink instances are equal. |
+| [`equals`](/slides/python-net/aspose.slides/hyperlink/equals/#asposeslidesihyperlink) | Determines whether the two Hyperlink instances are equal. |
 
 
 ### See Also

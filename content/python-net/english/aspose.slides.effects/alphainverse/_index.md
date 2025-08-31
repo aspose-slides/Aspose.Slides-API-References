@@ -16,13 +16,6 @@ Represents an Alpha Inverse effect.
 
 The AlphaInverse type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`slide`](/slides/python-net/aspose.slides.effects/alphainverse/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides.effects/alphainverse/presentation/) |  |
-
 ## Methods
 
 | Method | Description |

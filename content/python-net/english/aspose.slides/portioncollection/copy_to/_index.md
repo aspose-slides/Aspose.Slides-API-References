@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## copy_to {#listiportion-int}
+## copy_to {#listasposeslidesiportion-int}
 Copies the elements of the **System.Collections.Generic.ICollection`1** to an **System.Array**, starting at a particular **System.Array** index.
 
 
@@ -20,7 +20,7 @@ def copy_to(self, array, array_index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| array | **List[IPortion]** | The one-dimensional **System.Array** that is the destination of the elements copied from **System.Collections.Generic.ICollection`1**. The **System.Array** must have zero-based indexing. |
+| array | **List[aspose.slides.IPortion]** | The one-dimensional **System.Array** that is the destination of the elements copied from **System.Collections.Generic.ICollection`1**. The **System.Array** must have zero-based indexing. |
 | array_index | **int** | The zero-based index in `array` at which copying begins. |
 
 ### Exceptions

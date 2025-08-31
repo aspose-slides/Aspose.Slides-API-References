@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/notesslide/header_footer_manager/
-weight: 120
+weight: 80
 ---
 
 

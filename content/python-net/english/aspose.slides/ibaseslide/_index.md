@@ -27,8 +27,6 @@ The IBaseSlide type exposes the following members:
 | [`background`](/slides/python-net/aspose.slides/ibaseslide/background/) | Returns slide's background.<br/>            Read-only [`IBackground`](/slides/python-net/aspose.slides/ibackground). |
 | [`hyperlink_queries`](/slides/python-net/aspose.slides/ibaseslide/hyperlink_queries/) | Provides easy access to contained hyperlinks.<br/>            Read-only [`IHyperlinkQueries`](/slides/python-net/aspose.slides/ihyperlinkqueries). |
 | [`show_master_shapes`](/slides/python-net/aspose.slides/ibaseslide/show_master_shapes/) | Specifies if shapes on the master slide should be shown on slides or not.<br/>            For master slide itself this property always returns `false`.<br/>            Read/write **bool**. |
-| [`slide`](/slides/python-net/aspose.slides/ibaseslide/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides/ibaseslide/presentation/) |  |
 
 ## Methods
 
@@ -36,8 +34,7 @@ The IBaseSlide type exposes the following members:
 | :- | :- |
 | [`find_shape_by_alt_text`](/slides/python-net/aspose.slides/ibaseslide/find_shape_by_alt_text/#str) | Finds first occurrence of a shape with the specified alternative text. |
 | [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/ibaseslide/join_portions_with_same_formatting/#) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
-| [`equals`](/slides/python-net/aspose.slides/ibaseslide/equals/#ibaseslide) | Determines whether the two IBaseSlide instances are equal.<br/>            Returning value is calculated based on slide's structure and static content.<br/>            Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
-| [`create_theme_effective`](/slides/python-net/aspose.slides/ibaseslide/create_theme_effective/#) |  |
+| [`equals`](/slides/python-net/aspose.slides/ibaseslide/equals/#asposeslidesibaseslide) | Determines whether the two IBaseSlide instances are equal.<br/>            Returning value is calculated based on slide's structure and static content.<br/>            Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
 
 
 ### See Also

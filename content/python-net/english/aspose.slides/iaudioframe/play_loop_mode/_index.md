@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/iaudioframe/play_loop_mode/
-weight: 520
+weight: 140
 ---
 
 

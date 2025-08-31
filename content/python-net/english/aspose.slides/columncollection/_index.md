@@ -26,8 +26,8 @@ Returns the column at the specified index.
 
 | Method | Description |
 | :- | :- |
-| [`add_clone`](/slides/python-net/aspose.slides/columncollection/add_clone/#icolumn-bool) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
-| [`insert_clone`](/slides/python-net/aspose.slides/columncollection/insert_clone/#int-icolumn-bool) | Creates a copy of the specified template column and insert it at the specified position in a table. |
+| [`add_clone`](/slides/python-net/aspose.slides/columncollection/add_clone/#asposeslidesicolumn-bool) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
+| [`insert_clone`](/slides/python-net/aspose.slides/columncollection/insert_clone/#int-asposeslidesicolumn-bool) | Creates a copy of the specified template column and insert it at the specified position in a table. |
 | [`remove_at`](/slides/python-net/aspose.slides/columncollection/remove_at/#int-bool) | Removes a column at the specified position from a table. |
 
 

@@ -23,10 +23,6 @@ The IPropertyEffect type exposes the following members:
 | [`value_type`](/slides/python-net/aspose.slides.animation/ipropertyeffect/value_type/) | Specifies the type of a property value.<br/>            Read/write [`PropertyValueType`](/slides/python-net/aspose.slides.animation/propertyvaluetype). |
 | [`calc_mode`](/slides/python-net/aspose.slides.animation/ipropertyeffect/calc_mode/) | Specifies the interpolation mode for the animation<br/>            Read/write [`PropertyCalcModeType`](/slides/python-net/aspose.slides.animation/propertycalcmodetype). |
 | [`points`](/slides/python-net/aspose.slides.animation/ipropertyeffect/points/) | Specifies the points of the animation.<br/>            Read/write [`IPointCollection`](/slides/python-net/aspose.slides.animation/ipointcollection). |
-| [`accumulate`](/slides/python-net/aspose.slides.animation/ipropertyeffect/accumulate/) |  |
-| [`additive`](/slides/python-net/aspose.slides.animation/ipropertyeffect/additive/) |  |
-| [`properties`](/slides/python-net/aspose.slides.animation/ipropertyeffect/properties/) |  |
-| [`timing`](/slides/python-net/aspose.slides.animation/ipropertyeffect/timing/) |  |
 
 
 ### See Also

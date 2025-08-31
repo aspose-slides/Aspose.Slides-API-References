@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## insert {#int-charttype}
+## insert {#int-asposeslideschartscharttype}
 Creates new chart series and inserts it into the collection.
 
 
@@ -28,7 +28,6 @@ def insert(self, index, type):
 ### See Also
 * class [`ChartSeriesCollection`](/slides/python-net/aspose.slides.charts/chartseriescollection)
 * enumeration [`ChartType`](/slides/python-net/aspose.slides.charts/charttype)
-* class [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
 

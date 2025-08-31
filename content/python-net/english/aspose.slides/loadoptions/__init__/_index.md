@@ -19,7 +19,7 @@ def __init__(self):
 
 
 
-## __init__ {#loadformat}
+## __init__ {#asposeslidesloadformat}
 Creates new load options.
 
 

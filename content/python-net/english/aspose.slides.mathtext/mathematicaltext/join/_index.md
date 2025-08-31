@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/mathematicaltext/join/
-weight: 100
+weight: 90
 ---
 
 
-## join {#imathelement}
+## join {#asposeslidesmathtextimathelement}
 Joins a mathematical element and forms a mathematical block
 
 ### Returns
@@ -58,7 +58,6 @@ Example:
 
 
 ### See Also
-* class [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock)
 * class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
 * class [`MathematicalText`](/slides/python-net/aspose.slides.mathtext/mathematicaltext)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)

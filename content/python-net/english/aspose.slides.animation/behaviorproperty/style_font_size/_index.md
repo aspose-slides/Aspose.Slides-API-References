@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.animation/behaviorproperty/style_font_size/
-weight: 1070
+weight: 1090
 ---
 
 

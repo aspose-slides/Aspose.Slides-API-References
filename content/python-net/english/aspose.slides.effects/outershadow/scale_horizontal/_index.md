@@ -4,12 +4,14 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/outershadow/scale_horizontal/
-weight: 80
+weight: 70
 ---
 
 
 ## scale_horizontal property
-Specifies the horizontal scaling factor, negative scaling causes a flip.
+Horizontal scaling factor, in percent of the original size.
+            Negative scaling causes a flip.
+            Default value – 100 %.
             Read/write **float**.
 
 ### Definition:

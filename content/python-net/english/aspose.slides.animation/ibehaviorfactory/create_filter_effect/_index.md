@@ -27,7 +27,6 @@ def create_filter_effect(self):
 
 ### See Also
 * class [`IBehaviorFactory`](/slides/python-net/aspose.slides.animation/ibehaviorfactory)
-* class [`IFilterEffect`](/slides/python-net/aspose.slides.animation/ifiltereffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/imagetransformoperationcollection/add_tint_effect/
-weight: 170
+weight: 180
 ---
 
 
@@ -32,7 +32,6 @@ def add_tint_effect(self, hue, amount):
 
 ### See Also
 * class [`ImageTransformOperationCollection`](/slides/python-net/aspose.slides.effects/imagetransformoperationcollection)
-* class [`ITint`](/slides/python-net/aspose.slides.effects/itint)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
 

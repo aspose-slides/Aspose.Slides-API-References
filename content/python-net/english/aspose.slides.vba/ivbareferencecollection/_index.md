@@ -25,7 +25,7 @@ Gets the element at the specified index.
 
 | Method | Description |
 | :- | :- |
-| [`add`](/slides/python-net/aspose.slides.vba/ivbareferencecollection/add/#ivbareference) | Adds the new reference to references collection |
+| [`add`](/slides/python-net/aspose.slides.vba/ivbareferencecollection/add/#asposeslidesvbaivbareference) | Adds the new reference to references collection |
 
 
 ### See Also

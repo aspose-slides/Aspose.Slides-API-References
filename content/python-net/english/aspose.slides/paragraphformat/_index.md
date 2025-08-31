@@ -39,11 +39,6 @@ The ParagraphFormat type exposes the following members:
 | [`default_tab_size`](/slides/python-net/aspose.slides/paragraphformat/default_tab_size/) | Returns or sets default tabulation size with no inheritance.<br/>            Read/write **float**. |
 | [`tabs`](/slides/python-net/aspose.slides/paragraphformat/tabs/) | Returns tabulations of a paragraph. No inheritance applied.<br/>            Read-only [`ITabCollection`](/slides/python-net/aspose.slides/itabcollection). |
 | [`font_alignment`](/slides/python-net/aspose.slides/paragraphformat/font_alignment/) | Returns or sets a font alignment in a paragraph with no inheritance.<br/>            Read/write [`FontAlignment`](/slides/python-net/aspose.slides/fontalignment). |
-| [`slide`](/slides/python-net/aspose.slides/paragraphformat/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides/paragraphformat/presentation/) |  |
-| [`bullet`](/slides/python-net/aspose.slides/paragraphformat/bullet/) |  |
-| [`depth`](/slides/python-net/aspose.slides/paragraphformat/depth/) |  |
-| [`default_portion_format`](/slides/python-net/aspose.slides/paragraphformat/default_portion_format/) |  |
 
 ## Methods
 

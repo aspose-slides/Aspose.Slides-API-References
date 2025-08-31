@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_embedded_font {#ifontdata-asposeslidesexportembedfontcharacters}
+## add_embedded_font {#asposeslidesifontdata-asposeslidesexportembedfontcharacters}
 Adds the embedded font.
 Keep in mind when copying any fonts that most fonts are copyrighted. First locate the license of 
             a font before hand and verify they can be freely transferred to another machine.An ArgumentException can be thrown if font data is None or this font is already embedded

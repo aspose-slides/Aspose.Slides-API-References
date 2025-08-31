@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/oleobjectframe/embedded_file_name/
-weight: 210
+weight: 170
 ---
 
 

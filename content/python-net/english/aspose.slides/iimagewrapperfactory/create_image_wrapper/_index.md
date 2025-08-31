@@ -28,7 +28,7 @@ def create_image_wrapper(self, image):
 | image | **aspose.pydrawing.Image** | Existing Image **aspose.pydrawing.Image** |
 
 
-## create_image_wrapper {#iimage}
+## create_image_wrapper {#asposeslidesiimage}
 Initializes a new instance of the ImageWrapper class from the specified existing image.
 
 ### Returns

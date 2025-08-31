@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/portionformat/complex_script_font/
-weight: 80
+weight: 60
 ---
 
 

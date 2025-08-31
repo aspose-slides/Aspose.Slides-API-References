@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/ichartdatapoint/data_point_levels/
-weight: 100
+weight: 60
 ---
 
 

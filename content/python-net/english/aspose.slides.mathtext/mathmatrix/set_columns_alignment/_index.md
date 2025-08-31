@@ -8,7 +8,7 @@ weight: 220
 ---
 
 
-## set_columns_alignment {#int-int-mathhorizontalalignment}
+## set_columns_alignment {#int-int-asposeslidesmathtextmathhorizontalalignment}
 Set the horizontal alignment of the specified columns
 
 

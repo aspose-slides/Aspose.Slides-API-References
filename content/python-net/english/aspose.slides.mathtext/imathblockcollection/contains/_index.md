@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## contains {#imathblock}
+## contains {#asposeslidesmathtextimathblock}
 Determines whether the collection contains a specific value.
 
 ### Returns

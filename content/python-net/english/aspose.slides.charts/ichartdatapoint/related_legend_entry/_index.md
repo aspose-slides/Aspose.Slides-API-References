@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/ichartdatapoint/related_legend_entry/
-weight: 190
+weight: 150
 ---
 
 

@@ -18,8 +18,6 @@ The IMultipleCellChartValue type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`as_cells`](/slides/python-net/aspose.slides.charts/imultiplecellchartvalue/as_cells/) | Returns or sets the collection of chart cells.<br/>            Read/write [`IChartCellCollection`](/slides/python-net/aspose.slides.charts/ichartcellcollection). |
-| [`data_source_type`](/slides/python-net/aspose.slides.charts/imultiplecellchartvalue/data_source_type/) |  |
-| [`data`](/slides/python-net/aspose.slides.charts/imultiplecellchartvalue/data/) |  |
 
 
 ### See Also

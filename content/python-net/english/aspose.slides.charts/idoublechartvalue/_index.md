@@ -20,9 +20,6 @@ The IDoubleChartValue type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`as_literal_double`](/slides/python-net/aspose.slides.charts/idoublechartvalue/as_literal_double/) | Returns or sets literal double value if DataSourceType = Charts.DataSourceType.DoubleLiterals.<br/>            Read/write **float**. |
-| [`as_cell`](/slides/python-net/aspose.slides.charts/idoublechartvalue/as_cell/) |  |
-| [`data_source_type`](/slides/python-net/aspose.slides.charts/idoublechartvalue/data_source_type/) |  |
-| [`data`](/slides/python-net/aspose.slides.charts/idoublechartvalue/data/) |  |
 
 ## Methods
 

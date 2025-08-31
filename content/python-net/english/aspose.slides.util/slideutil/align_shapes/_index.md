@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## align_shapes {#shapesalignmenttype-bool-ibaseslide}
+## align_shapes {#asposeslidesshapesalignmenttype-bool-asposeslidesibaseslide}
 Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide
             or align them relative to each other.
 
@@ -31,7 +31,7 @@ def align_shapes(alignment_type, align_to_slide, slide):
 Example:
 
 
-## align_shapes {#shapesalignmenttype-bool-igroupshape}
+## align_shapes {#asposeslidesshapesalignmenttype-bool-asposeslidesigroupshape}
 Changes the placement of all shapes within group shape. Aligns shapes to the margins or the edge of the slide
             or align them relative to each other.
 
@@ -54,7 +54,7 @@ def align_shapes(alignment_type, align_to_slide, group_shape):
 Example:
 
 
-## align_shapes {#shapesalignmenttype-bool-ibaseslide-listint}
+## align_shapes {#asposeslidesshapesalignmenttype-bool-asposeslidesibaseslide-listint}
 Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide
              or align them relative to each other.
 
@@ -78,7 +78,7 @@ def align_shapes(alignment_type, align_to_slide, slide, shape_indexes):
 Example:
 
 
-## align_shapes {#shapesalignmenttype-bool-igroupshape-listint}
+## align_shapes {#asposeslidesshapesalignmenttype-bool-asposeslidesigroupshape-listint}
 Changes the placement of selected shapes within group shape. Aligns shapes to the margins or the edge of the slide
             or align them relative to each other.
 

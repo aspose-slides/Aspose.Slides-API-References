@@ -33,6 +33,7 @@ The BehaviorProperty type exposes the following members:
 | [`scale_x`](/slides/python-net/aspose.slides.animation/behaviorproperty/scale_x/) | Represents 'ScaleX' property |
 | [`scale_y`](/slides/python-net/aspose.slides.animation/behaviorproperty/scale_y/) | Represents 'ScaleY' property |
 | [`r`](/slides/python-net/aspose.slides.animation/behaviorproperty/r/) | Represents 'r' property |
+| [`fill_color`](/slides/python-net/aspose.slides.animation/behaviorproperty/fill_color/) | Represents 'fillcolor' property |
 | [`style_opacity`](/slides/python-net/aspose.slides.animation/behaviorproperty/style_opacity/) | Represents 'style.opacity' property |
 | [`style_rotation`](/slides/python-net/aspose.slides.animation/behaviorproperty/style_rotation/) | Represents 'style.rotation' property |
 | [`style_visibility`](/slides/python-net/aspose.slides.animation/behaviorproperty/style_visibility/) | Represents 'style.visibility' property |
@@ -59,6 +60,7 @@ The BehaviorProperty type exposes the following members:
 | [`image_data_chromakey`](/slides/python-net/aspose.slides.animation/behaviorproperty/image_data_chromakey/) | Represents 'imageData.chromakey' property |
 | [`fill_on`](/slides/python-net/aspose.slides.animation/behaviorproperty/fill_on/) | Represents 'fill.on' property |
 | [`fill_type`](/slides/python-net/aspose.slides.animation/behaviorproperty/fill_type/) | Represents 'fill.type' property |
+| [`fill_color_`](/slides/python-net/aspose.slides.animation/behaviorproperty/fill_color_/) | Represents 'fill.color' property |
 | [`fill_opacity`](/slides/python-net/aspose.slides.animation/behaviorproperty/fill_opacity/) | Represents 'fill.opacity' property |
 | [`fill_color2`](/slides/python-net/aspose.slides.animation/behaviorproperty/fill_color2/) | Represents 'fill.color2' property |
 | [`fill_method`](/slides/python-net/aspose.slides.animation/behaviorproperty/fill_method/) | Represents 'fill.method' property |

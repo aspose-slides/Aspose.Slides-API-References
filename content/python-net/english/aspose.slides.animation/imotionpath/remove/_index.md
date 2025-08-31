@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## remove {#imotioncmdpath}
+## remove {#asposeslidesanimationimotioncmdpath}
 Removes specified commans from the collection.
 
 

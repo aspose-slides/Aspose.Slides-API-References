@@ -8,7 +8,7 @@ weight: 100
 ---
 
 
-## add_ole_object_frame {#float-float-float-float-ioleembeddeddatainfo}
+## add_ole_object_frame {#float-float-float-float-asposeslidesioleembeddeddatainfo}
 Creates a new OLE object frame and adds it to the end of the shape collection.
 
 ### Returns

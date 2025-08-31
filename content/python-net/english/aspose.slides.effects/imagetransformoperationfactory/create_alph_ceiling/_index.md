@@ -26,7 +26,6 @@ def create_alph_ceiling(self):
 
 
 ### See Also
-* class [`IAlphaCeiling`](/slides/python-net/aspose.slides.effects/ialphaceiling)
 * class [`ImageTransformOperationFactory`](/slides/python-net/aspose.slides.effects/imagetransformoperationfactory)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

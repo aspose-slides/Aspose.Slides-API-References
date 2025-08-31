@@ -8,7 +8,7 @@ weight: 150
 ---
 
 
-## is_chart_type_surface {#charttype}
+## is_chart_type_surface {#asposeslideschartscharttype}
 Return true if chartType is one of Surface subtypes.
             Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint):
 [`ChartType.SURFACE_3D`](/slides/python-net/aspose.slides.charts/charttype/SURFACE_3D),

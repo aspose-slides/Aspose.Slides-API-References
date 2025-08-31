@@ -9,11 +9,13 @@ weight: 50
 
 
 ## ChartCellCollection indexer
+Returns a cell (IChartDataCell) by index.
+
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| index |  |
+| index | Index of a cell. |
 
 
 ### See Also

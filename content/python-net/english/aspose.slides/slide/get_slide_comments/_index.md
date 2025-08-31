@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## get_slide_comments {#icommentauthor}
+## get_slide_comments {#asposeslidesicommentauthor}
 Returns all slide comments added by specific author.
 
 ### Returns

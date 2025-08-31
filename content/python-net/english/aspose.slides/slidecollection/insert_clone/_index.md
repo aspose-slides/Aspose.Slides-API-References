@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## insert_clone {#int-islide}
+## insert_clone {#int-asposeslidesislide}
 Inserts a copy of a specified slide to specified position of the collection.
 
 ### Returns
@@ -45,7 +45,7 @@ When cloning a slide between different presentations slide's master can be clone
 [`IMasterSlideCollection.add_clone`](/slides/python-net/aspose.slides/imasterslidecollection/add_clone) for cloning masters.
 
 
-## insert_clone {#int-islide-ilayoutslide}
+## insert_clone {#int-asposeslidesislide-asposeslidesilayoutslide}
 Inserts a copy of a specified slide to specified position of the collection.
 
 ### Returns
@@ -67,7 +67,7 @@ def insert_clone(self, index, source_slide, dest_layout):
 | dest_layout | [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide) | Layout slide for a new slide. |
 
 
-## insert_clone {#int-islide-imasterslide-bool}
+## insert_clone {#int-asposeslidesislide-asposeslidesimasterslide-bool}
 Inserts a copy of a specified source slide to specified position of the collection.
             Appropriate layout will be selected automatically from the specified 
             master (appropriate layout is the layout with the same Type or Name as 

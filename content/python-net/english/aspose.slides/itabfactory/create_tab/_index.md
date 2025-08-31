@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## create_tab {#float-tabalignment}
+## create_tab {#float-asposeslidestabalignment}
 Creates a new ITab instance.
 
 ### Returns
@@ -31,7 +31,6 @@ def create_tab(self, position, align):
 
 
 ### See Also
-* class [`ITab`](/slides/python-net/aspose.slides/itab)
 * class [`ITabFactory`](/slides/python-net/aspose.slides/itabfactory)
 * enumeration [`TabAlignment`](/slides/python-net/aspose.slides/tabalignment)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)

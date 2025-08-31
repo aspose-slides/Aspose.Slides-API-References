@@ -76,11 +76,11 @@ The IPresentation type exposes the following members:
 | [`print`](/slides/python-net/aspose.slides/ipresentation/print/#str) | Print the whole presentation to the specified printer,<br/>            using the standard (no User Interface) print controller. |
 | [`print`](/slides/python-net/aspose.slides/ipresentation/print/#asposepydrawingprintingprintersettings-str) | Prints the document according to the specified printer settings, using<br/>            the standard (no User Interface) print controller and a presentation name. |
 | [`highlight_text`](/slides/python-net/aspose.slides/ipresentation/highlight_text/#str-asposepydrawingcolor) | Highlights all matches of the sample text with the specified color. |
-| [`highlight_text`](/slides/python-net/aspose.slides/ipresentation/highlight_text/#str-asposepydrawingcolor-itextsearchoptions-ifindresultcallback) | Highlights all matches of the sample text with the specified color. |
+| [`highlight_text`](/slides/python-net/aspose.slides/ipresentation/highlight_text/#str-asposepydrawingcolor-asposeslidesitextsearchoptions-asposeslidesifindresultcallback) | Highlights all matches of the sample text with the specified color. |
 | [`get_slide_by_id`](/slides/python-net/aspose.slides/ipresentation/get_slide_by_id/#int) | Returns a Slide, MasterSlide or LayoutSlide by Id. |
 | [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/ipresentation/join_portions_with_same_formatting/#) | Joins runs with same formatting in all paragraphs in all acceptable shapes in all slides. |
 | [`highlight_regex`](/slides/python-net/aspose.slides/ipresentation/highlight_regex/#str-asposepydrawingcolor) |  |
-| [`replace_text`](/slides/python-net/aspose.slides/ipresentation/replace_text/#str-str-itextsearchoptions-ifindresultcallback) | Replaces all occurrences of the specified text with another specified text. |
+| [`replace_text`](/slides/python-net/aspose.slides/ipresentation/replace_text/#str-str-asposeslidesitextsearchoptions-asposeslidesifindresultcallback) | Replaces all occurrences of the specified text with another specified text. |
 | [`replace_regex`](/slides/python-net/aspose.slides/ipresentation/replace_regex/#str-str) |  |
 
 

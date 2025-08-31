@@ -8,7 +8,7 @@ weight: 350
 ---
 
 
-## remove {#ishape}
+## remove {#asposeslidesishape}
 Removes the first occurrence of the specified shape from the shape collection.
 
 

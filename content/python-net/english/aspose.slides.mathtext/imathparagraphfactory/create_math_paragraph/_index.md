@@ -24,7 +24,7 @@ def create_math_paragraph(self):
 
 
 
-## create_math_paragraph {#imathblock}
+## create_math_paragraph {#asposeslidesmathtextimathblock}
 Creates a math paragraph and places the specified math block in it
 
 ### Returns
@@ -47,7 +47,6 @@ def create_math_paragraph(self, math_block):
 
 ### See Also
 * class [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock)
-* class [`IMathParagraph`](/slides/python-net/aspose.slides.mathtext/imathparagraph)
 * class [`IMathParagraphFactory`](/slides/python-net/aspose.slides.mathtext/imathparagraphfactory)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

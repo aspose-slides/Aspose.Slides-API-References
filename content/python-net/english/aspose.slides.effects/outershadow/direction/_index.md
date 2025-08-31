@@ -4,12 +4,13 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/outershadow/direction/
-weight: 40
+weight: 30
 ---
 
 
 ## direction property
-Direction of shadow.
+Direction of the shadow, in degrees.
+            Default value – 0 ° (left-to-right).
             Read/write **float**.
 
 ### Definition:

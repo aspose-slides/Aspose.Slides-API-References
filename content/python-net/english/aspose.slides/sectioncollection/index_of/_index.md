@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## index_of {#isection}
+## index_of {#asposeslidesisection}
 Returns an index of the specified section in the collection.
 
 ### Returns

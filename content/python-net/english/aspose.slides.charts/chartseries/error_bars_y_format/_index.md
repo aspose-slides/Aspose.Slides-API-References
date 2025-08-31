@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/chartseries/error_bars_y_format/
-weight: 120
+weight: 90
 ---
 
 

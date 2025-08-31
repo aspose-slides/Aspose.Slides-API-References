@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/ichartdatapoint/is_bubble_3d/
-weight: 160
+weight: 120
 ---
 
 

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/basescript/underbar/
-weight: 220
+weight: 210
 ---
 
 

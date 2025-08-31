@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/colorchange/to_color/
-weight: 70
+weight: 40
 ---
 
 

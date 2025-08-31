@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.animation/behaviorproperty/stroke_dash_style/
-weight: 900
+weight: 920
 ---
 
 

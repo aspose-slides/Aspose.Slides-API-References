@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/ierrorbarsformat/value_type/
-weight: 120
+weight: 70
 ---
 
 

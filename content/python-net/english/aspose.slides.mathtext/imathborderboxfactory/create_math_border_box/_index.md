@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## create_math_border_box {#imathelement}
+## create_math_border_box {#asposeslidesmathtextimathelement}
 Create a math border box by applying to the element
 
 ### Returns
@@ -28,7 +28,7 @@ def create_math_border_box(self, element):
 | element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | math element to apply border box |
 
 
-## create_math_border_box {#imathelement-bool-bool-bool-bool-bool-bool-bool-bool}
+## create_math_border_box {#asposeslidesmathtextimathelement-bool-bool-bool-bool-bool-bool-bool-bool}
 Create a math border box by applying to the element
 
 ### Returns
@@ -58,7 +58,6 @@ def create_math_border_box(self, element, hide_top, hide_bottom, hide_left, hide
 
 
 ### See Also
-* class [`IMathBorderBox`](/slides/python-net/aspose.slides.mathtext/imathborderbox)
 * class [`IMathBorderBoxFactory`](/slides/python-net/aspose.slides.mathtext/imathborderboxfactory)
 * class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)

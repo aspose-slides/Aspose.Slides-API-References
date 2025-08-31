@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/icell/col_span/
-weight: 90
+weight: 80
 ---
 
 

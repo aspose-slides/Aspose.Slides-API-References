@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/iimagetransformoperationcollection/add_color_change_effect/
-weight: 100
+weight: 110
 ---
 
 
@@ -26,7 +26,6 @@ def add_color_change_effect(self):
 
 
 ### See Also
-* class [`IColorChange`](/slides/python-net/aspose.slides.effects/icolorchange)
 * class [`IImageTransformOperationCollection`](/slides/python-net/aspose.slides.effects/iimagetransformoperationcollection)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -9,11 +9,13 @@ weight: 10
 
 
 ## IChartDataWorksheetCollection indexer
+Returns the worksheet by index.
+
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| index |  |
+| index | Index of the worksheet in the collection. |
 
 
 ### See Also

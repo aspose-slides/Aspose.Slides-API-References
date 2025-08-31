@@ -9,6 +9,8 @@ weight: 60
 
 
 ## IChartCategoryCollection indexer
+Gets the element at the specified index.
+
 ## Indexer
 
 | Name | Description |

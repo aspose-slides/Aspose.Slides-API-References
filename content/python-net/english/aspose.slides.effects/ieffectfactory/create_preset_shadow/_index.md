@@ -27,7 +27,6 @@ def create_preset_shadow(self):
 
 ### See Also
 * class [`IEffectFactory`](/slides/python-net/aspose.slides.effects/ieffectfactory)
-* class [`IPresetShadow`](/slides/python-net/aspose.slides.effects/ipresetshadow)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
 

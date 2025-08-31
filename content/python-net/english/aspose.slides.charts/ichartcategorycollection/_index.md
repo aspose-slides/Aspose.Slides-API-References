@@ -32,10 +32,10 @@ Gets the element at the specified index.
 
 | Method | Description |
 | :- | :- |
-| [`add`](/slides/python-net/aspose.slides.charts/ichartcategorycollection/add/#ichartdatacell) | If category exists in collection, return it. Else creates new chart category from <br/>[`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) and adds it to the collection. |
+| [`add`](/slides/python-net/aspose.slides.charts/ichartcategorycollection/add/#asposeslideschartsichartdatacell) | If category exists in collection, return it. Else creates new chart category from <br/>[`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) and adds it to the collection. |
 | [`add`](/slides/python-net/aspose.slides.charts/ichartcategorycollection/add/#any) | Creates new [`IChartCategory`](/slides/python-net/aspose.slides.charts/ichartcategory) from value and adds it to the collection. |
-| [`index_of`](/slides/python-net/aspose.slides.charts/ichartcategorycollection/index_of/#ichartcategory) | Searches for the specified [`IChartCategory`](/slides/python-net/aspose.slides.charts/ichartcategory) and returns the zero-based index of the first occurrence within the entire Collection |
-| [`remove`](/slides/python-net/aspose.slides.charts/ichartcategorycollection/remove/#ichartcategory) | Removes the specified value. |
+| [`index_of`](/slides/python-net/aspose.slides.charts/ichartcategorycollection/index_of/#asposeslideschartsichartcategory) | Searches for the specified [`IChartCategory`](/slides/python-net/aspose.slides.charts/ichartcategory) and returns the zero-based index of the first occurrence within the entire Collection |
+| [`remove`](/slides/python-net/aspose.slides.charts/ichartcategorycollection/remove/#asposeslideschartsichartcategory) | Removes the specified value. |
 | [`remove_at`](/slides/python-net/aspose.slides.charts/ichartcategorycollection/remove_at/#int) | Removes the element at the given index. |
 | [`clear`](/slides/python-net/aspose.slides.charts/ichartcategorycollection/clear/#) | Removes all elements from the collection. |
 

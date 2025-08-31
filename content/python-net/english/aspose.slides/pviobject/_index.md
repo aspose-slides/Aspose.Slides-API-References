@@ -13,13 +13,6 @@ Encapsulates basic service infrastructure for objects can be a subject of proper
 
 The PVIObject type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`slide`](/slides/python-net/aspose.slides/pviobject/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides/pviobject/presentation/) |  |
-
 
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)

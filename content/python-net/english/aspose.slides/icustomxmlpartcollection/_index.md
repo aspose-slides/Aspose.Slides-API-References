@@ -29,7 +29,7 @@ Returns the element at the specified index.
 | [`add`](/slides/python-net/aspose.slides/icustomxmlpartcollection/add/#str) | Adds new custom xml part. |
 | [`add`](/slides/python-net/aspose.slides/icustomxmlpartcollection/add/#iorawiobase) | Adds new custom xml part. |
 | [`remove_at`](/slides/python-net/aspose.slides/icustomxmlpartcollection/remove_at/#int) | Removes custom xml part at the specified index. |
-| [`remove`](/slides/python-net/aspose.slides/icustomxmlpartcollection/remove/#icustomxmlpart) | Removes the first occurrence of a specific object from the collection. |
+| [`remove`](/slides/python-net/aspose.slides/icustomxmlpartcollection/remove/#asposeslidesicustomxmlpart) | Removes the first occurrence of a specific object from the collection. |
 | [`clear`](/slides/python-net/aspose.slides/icustomxmlpartcollection/clear/#) | Removes all items from the collection. |
 
 

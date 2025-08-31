@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/itrendline/display_r_squared_value/
-weight: 100
+weight: 40
 ---
 
 

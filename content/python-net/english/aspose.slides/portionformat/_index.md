@@ -56,8 +56,6 @@ The PortionFormat type exposes the following members:
 | [`hyperlink_click`](/slides/python-net/aspose.slides/portionformat/hyperlink_click/) | Returns or sets the hyperlink defined for mouse click.<br/>            Read/write [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink). |
 | [`hyperlink_mouse_over`](/slides/python-net/aspose.slides/portionformat/hyperlink_mouse_over/) | Returns or sets the hyperlink defined for mouse over.<br/>            Read/write [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink). |
 | [`hyperlink_manager`](/slides/python-net/aspose.slides/portionformat/hyperlink_manager/) | Hyperlinks manager.<br/>            Read-only [`IHyperlinkManager`](/slides/python-net/aspose.slides/ihyperlinkmanager). |
-| [`slide`](/slides/python-net/aspose.slides/portionformat/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides/portionformat/presentation/) |  |
 
 ## Methods
 

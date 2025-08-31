@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## is_chart_type_bar {#charttype}
+## is_chart_type_bar {#asposeslideschartscharttype}
 Return true if chartType is one of Bar subtypes.
             Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint):
 [`ChartType.CLUSTERED_BAR`](/slides/python-net/aspose.slides.charts/charttype/CLUSTERED_BAR),

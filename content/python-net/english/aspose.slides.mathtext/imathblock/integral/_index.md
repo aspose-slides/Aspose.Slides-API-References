@@ -8,7 +8,7 @@ weight: 150
 ---
 
 
-## integral {#mathintegraltypes}
+## integral {#asposeslidesmathtextmathintegraltypes}
 
 
 
@@ -23,7 +23,7 @@ def integral(self, integral_type):
 | integral_type | [`MathIntegralTypes`](/slides/python-net/aspose.slides.mathtext/mathintegraltypes) |  |
 
 
-## integral {#mathintegraltypes-imathelement-imathelement}
+## integral {#asposeslidesmathtextmathintegraltypes-asposeslidesmathtextimathelement-asposeslidesmathtextimathelement}
 
 
 
@@ -40,7 +40,7 @@ def integral(self, integral_type, lower_limit, upper_limit):
 | upper_limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
 
 
-## integral {#mathintegraltypes-str-str}
+## integral {#asposeslidesmathtextmathintegraltypes-str-str}
 
 
 
@@ -57,7 +57,7 @@ def integral(self, integral_type, lower_limit, upper_limit):
 | upper_limit | **str** |  |
 
 
-## integral {#mathintegraltypes-imathelement-imathelement-mathlimitlocations}
+## integral {#asposeslidesmathtextmathintegraltypes-asposeslidesmathtextimathelement-asposeslidesmathtextimathelement-asposeslidesmathtextmathlimitlocations}
 
 
 
@@ -75,7 +75,7 @@ def integral(self, integral_type, lower_limit, upper_limit, limit_locations):
 | limit_locations | [`MathLimitLocations`](/slides/python-net/aspose.slides.mathtext/mathlimitlocations) |  |
 
 
-## integral {#mathintegraltypes-str-str-mathlimitlocations}
+## integral {#asposeslidesmathtextmathintegraltypes-str-str-asposeslidesmathtextmathlimitlocations}
 
 
 
@@ -97,7 +97,6 @@ def integral(self, integral_type, lower_limit, upper_limit, limit_locations):
 ### See Also
 * class [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock)
 * class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
-* class [`IMathNaryOperator`](/slides/python-net/aspose.slides.mathtext/imathnaryoperator)
 * enumeration [`MathIntegralTypes`](/slides/python-net/aspose.slides.mathtext/mathintegraltypes)
 * enumeration [`MathLimitLocations`](/slides/python-net/aspose.slides.mathtext/mathlimitlocations)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)

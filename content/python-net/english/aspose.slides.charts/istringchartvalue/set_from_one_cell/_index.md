@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## set_from_one_cell {#ichartdatacell}
+## set_from_one_cell {#asposeslideschartsichartdatacell}
 Sets value from specified cell.
 
 

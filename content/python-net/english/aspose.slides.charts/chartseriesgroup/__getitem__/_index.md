@@ -9,6 +9,8 @@ weight: 10
 
 
 ## ChartSeriesGroup indexer
+Gets the element at the specified index.
+
 ## Indexer
 
 | Name | Description |

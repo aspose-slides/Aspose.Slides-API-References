@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## generate_presentation {#str-presentationcontentamounttype}
+## generate_presentation {#str-asposeslidesaipresentationcontentamounttype}
 Generates a presentation instance from a text description. Provide a topic, ideas, quotes, or text snippets in the required language.
 
 
@@ -30,7 +30,7 @@ def generate_presentation(self, description, presentation_content_amount):
 | **RuntimeError(Proxy error(ArgumentException))** | AI chat instruction can't be None or empty. |
 
 
-## generate_presentation {#str-presentationcontentamounttype-ipresentation}
+## generate_presentation {#str-asposeslidesaipresentationcontentamounttype-asposeslidesipresentation}
 Generates a presentation instance from a text description. Provide a topic, ideas, quotes, or text snippets in the required language.
 
 

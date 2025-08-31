@@ -20,13 +20,6 @@ The IOverrideThemeManager type exposes the following members:
 | [`is_override_theme_enabled`](/slides/python-net/aspose.slides.theme/ioverridethememanager/is_override_theme_enabled/) | Determines whether OverrideTheme overrides inherited effective theme or not.<br/>            To enable OverrideTheme for overriding use OverrideTheme.Init*() methods.<br/>            To disable OverrideTheme from overriding use OverrideTheme.Clear() method.<br/>            Read-only **bool**. |
 | [`override_theme`](/slides/python-net/aspose.slides.theme/ioverridethememanager/override_theme/) | Returns the overriding theme object.<br/>            Read/write [`IOverrideTheme`](/slides/python-net/aspose.slides.theme/ioverridetheme). |
 
-## Methods
-
-| Method | Description |
-| :- | :- |
-| [`create_theme_effective`](/slides/python-net/aspose.slides.theme/ioverridethememanager/create_theme_effective/#) |  |
-| [`apply_color_scheme`](/slides/python-net/aspose.slides.theme/ioverridethememanager/apply_color_scheme/#iextracolorscheme) |  |
-
 
 ### See Also
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)

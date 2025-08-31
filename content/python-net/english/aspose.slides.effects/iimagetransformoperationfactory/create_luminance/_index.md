@@ -32,7 +32,6 @@ def create_luminance(self, brightness, contrast):
 
 ### See Also
 * class [`IImageTransformOperationFactory`](/slides/python-net/aspose.slides.effects/iimagetransformoperationfactory)
-* class [`ILuminance`](/slides/python-net/aspose.slides.effects/iluminance)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
 

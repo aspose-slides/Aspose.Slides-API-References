@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## set_internal_hyperlink_click {#islide}
+## set_internal_hyperlink_click {#asposeslidesislide}
 Sets internal hyperlink on click.
 
 ### Returns
@@ -30,7 +30,6 @@ def set_internal_hyperlink_click(self, target_slide):
 
 
 ### See Also
-* class [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink)
 * class [`IHyperlinkManager`](/slides/python-net/aspose.slides/ihyperlinkmanager)
 * class [`ISlide`](/slides/python-net/aspose.slides/islide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)

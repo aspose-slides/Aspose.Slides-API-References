@@ -39,8 +39,6 @@ The ICell type exposes the following members:
 | [`table`](/slides/python-net/aspose.slides/icell/table/) | Returns the parent Table object for a cell.<br/>            Read-only [`ITable`](/slides/python-net/aspose.slides/itable). |
 | [`is_merged_cell`](/slides/python-net/aspose.slides/icell/is_merged_cell/) | Returns true if the cell is merged with any adjusted cell, false otherwise.<br/>            Read-only **bool**. |
 | [`cell_format`](/slides/python-net/aspose.slides/icell/cell_format/) | Returns the CellFormat object that contains formatting properties for this cell.<br/>            Read-only [`ICellFormat`](/slides/python-net/aspose.slides/icellformat). |
-| [`slide`](/slides/python-net/aspose.slides/icell/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides/icell/presentation/) |  |
 
 ## Methods
 

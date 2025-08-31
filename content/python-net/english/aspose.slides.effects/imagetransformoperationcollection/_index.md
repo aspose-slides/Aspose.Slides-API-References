@@ -15,13 +15,6 @@ Represents a collection of effects apllied to an image.
 
 The ImageTransformOperationCollection type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`slide`](/slides/python-net/aspose.slides.effects/imagetransformoperationcollection/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides.effects/imagetransformoperationcollection/presentation/) |  |
-
 Returns an [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation) from the collection by it's index.
 
 ## Indexer
@@ -52,6 +45,7 @@ Returns an [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/
 | [`add_hsl_effect`](/slides/python-net/aspose.slides.effects/imagetransformoperationcollection/add_hsl_effect/#float-float-float) | Adds the new Hue/Saturation/Luminance effect to the end of a collection. |
 | [`add_luminance_effect`](/slides/python-net/aspose.slides.effects/imagetransformoperationcollection/add_luminance_effect/#float-float) | Adds the new Luminance effect to the end of a collection. |
 | [`add_tint_effect`](/slides/python-net/aspose.slides.effects/imagetransformoperationcollection/add_tint_effect/#float-float) | Adds the new Tint effect to the end of a collection. |
+| [`add_brightness_contrast_effect`](/slides/python-net/aspose.slides.effects/imagetransformoperationcollection/add_brightness_contrast_effect/#float-float) | Adds the new BrightnessContrast effect to the end of a collection. |
 
 
 ### See Also

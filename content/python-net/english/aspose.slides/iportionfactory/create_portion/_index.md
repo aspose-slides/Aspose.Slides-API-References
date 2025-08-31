@@ -44,7 +44,7 @@ def create_portion(self, str):
 | str | **str** | String. |
 
 
-## create_portion {#iportion}
+## create_portion {#asposeslidesiportion}
 Creates a portion with the using of a specified portion data.
 
 ### Returns

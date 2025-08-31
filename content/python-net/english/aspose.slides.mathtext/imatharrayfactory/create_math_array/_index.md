@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## create_math_array {#imathelement}
+## create_math_array {#asposeslidesmathtextimathelement}
 Creates a math array and places the specified element in it
 
 ### Returns
@@ -28,7 +28,7 @@ def create_math_array(self, element):
 | element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | math element to place in array |
 
 
-## create_math_array {#imathelementcollection}
+## create_math_array {#asposeslidesmathtextimathelementcollection}
 Creates a math array and places specified elements in it
 
 ### Returns
@@ -50,7 +50,6 @@ def create_math_array(self, elements):
 
 
 ### See Also
-* class [`IMathArray`](/slides/python-net/aspose.slides.mathtext/imatharray)
 * class [`IMathArrayFactory`](/slides/python-net/aspose.slides.mathtext/imatharrayfactory)
 * class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
 * class [`IMathElementCollection`](/slides/python-net/aspose.slides.mathtext/imathelementcollection)

@@ -18,7 +18,6 @@ The IVbaReferenceOleTypeLib type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`libid`](/slides/python-net/aspose.slides.vba/ivbareferenceoletypelib/libid/) | Represents the identifier of an Automation type library.<br/>            Read/write **str**. |
-| [`name`](/slides/python-net/aspose.slides.vba/ivbareferenceoletypelib/name/) |  |
 
 
 ### See Also

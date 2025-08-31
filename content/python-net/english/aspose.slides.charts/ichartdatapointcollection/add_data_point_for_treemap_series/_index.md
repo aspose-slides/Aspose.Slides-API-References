@@ -8,7 +8,7 @@ weight: 160
 ---
 
 
-## add_data_point_for_treemap_series {#ichartdatacell}
+## add_data_point_for_treemap_series {#asposeslideschartsichartdatacell}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chart type is Treemap.
 
@@ -32,7 +32,6 @@ def add_data_point_for_treemap_series(self, size_value):
 
 ### See Also
 * class [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell)
-* class [`IChartDataPoint`](/slides/python-net/aspose.slides.charts/ichartdatapoint)
 * class [`IChartDataPointCollection`](/slides/python-net/aspose.slides.charts/ichartdatapointcollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

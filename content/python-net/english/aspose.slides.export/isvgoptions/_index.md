@@ -31,11 +31,6 @@ The ISVGOptions type exposes the following members:
 | [`external_fonts_handling`](/slides/python-net/aspose.slides.export/isvgoptions/external_fonts_handling/) | Determines a way of handling externally loaded fonts.<br/>            Read/write [`SvgExternalFontsHandling`](/slides/python-net/aspose.slides.export/svgexternalfontshandling). |
 | [`ink_options`](/slides/python-net/aspose.slides.export/isvgoptions/ink_options/) | Provides options that control the look of Ink objects in exported document.<br/>            Read-only [`IInkOptions`](/slides/python-net/aspose.slides.export/iinkoptions) |
 | [`disable_font_ligatures`](/slides/python-net/aspose.slides.export/isvgoptions/disable_font_ligatures/) | Gets or sets a value indicating whether text is rendered without using ligatures.<br/>            When set to `true`, ligatures will be disabled in the rendered output. By default, this property is set to `false`. |
-| [`warning_callback`](/slides/python-net/aspose.slides.export/isvgoptions/warning_callback/) |  |
-| [`progress_callback`](/slides/python-net/aspose.slides.export/isvgoptions/progress_callback/) |  |
-| [`default_regular_font`](/slides/python-net/aspose.slides.export/isvgoptions/default_regular_font/) |  |
-| [`gradient_style`](/slides/python-net/aspose.slides.export/isvgoptions/gradient_style/) |  |
-| [`skip_java_script_links`](/slides/python-net/aspose.slides.export/isvgoptions/skip_java_script_links/) |  |
 
 
 ### See Also

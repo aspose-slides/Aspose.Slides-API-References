@@ -9,7 +9,8 @@ weight: 100
 
 
 ## shadow_color property
-Color of shadow.
+Color of the shadow.
+            Default value – automatic black (theme-dependent).
             Read-only [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat).
 
 ### Definition:

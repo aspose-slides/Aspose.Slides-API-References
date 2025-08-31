@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/svgoptions/disable_line_end_cropping/
-weight: 90
+weight: 80
 ---
 
 

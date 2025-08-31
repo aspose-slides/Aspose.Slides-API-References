@@ -9,6 +9,8 @@ weight: 40
 
 
 ## IDigitalSignatureCollection indexer
+Returns the signature by index.
+
 ## Indexer
 
 | Name | Description |

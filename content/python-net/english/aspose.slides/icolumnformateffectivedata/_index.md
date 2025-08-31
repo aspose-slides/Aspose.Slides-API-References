@@ -13,18 +13,6 @@ Immutable object which contains effective table column formatting properties.
 
 The IColumnFormatEffectiveData type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`fill_format`](/slides/python-net/aspose.slides/icolumnformateffectivedata/fill_format/) |  |
-| [`border_left`](/slides/python-net/aspose.slides/icolumnformateffectivedata/border_left/) |  |
-| [`border_top`](/slides/python-net/aspose.slides/icolumnformateffectivedata/border_top/) |  |
-| [`border_right`](/slides/python-net/aspose.slides/icolumnformateffectivedata/border_right/) |  |
-| [`border_bottom`](/slides/python-net/aspose.slides/icolumnformateffectivedata/border_bottom/) |  |
-| [`border_diagonal_down`](/slides/python-net/aspose.slides/icolumnformateffectivedata/border_diagonal_down/) |  |
-| [`border_diagonal_up`](/slides/python-net/aspose.slides/icolumnformateffectivedata/border_diagonal_up/) |  |
-
 
 ### Remarks
 

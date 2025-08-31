@@ -18,13 +18,6 @@ The ICellFormatEffectiveData type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`transparency`](/slides/python-net/aspose.slides/icellformateffectivedata/transparency/) | Gets the transparency of the fill color.<br/>            Read **float**. |
-| [`fill_format`](/slides/python-net/aspose.slides/icellformateffectivedata/fill_format/) |  |
-| [`border_left`](/slides/python-net/aspose.slides/icellformateffectivedata/border_left/) |  |
-| [`border_top`](/slides/python-net/aspose.slides/icellformateffectivedata/border_top/) |  |
-| [`border_right`](/slides/python-net/aspose.slides/icellformateffectivedata/border_right/) |  |
-| [`border_bottom`](/slides/python-net/aspose.slides/icellformateffectivedata/border_bottom/) |  |
-| [`border_diagonal_down`](/slides/python-net/aspose.slides/icellformateffectivedata/border_diagonal_down/) |  |
-| [`border_diagonal_up`](/slides/python-net/aspose.slides/icellformateffectivedata/border_diagonal_up/) |  |
 
 
 ### Remarks

@@ -22,8 +22,6 @@ The Camera type exposes the following members:
 | [`camera_type`](/slides/python-net/aspose.slides/camera/camera_type/) | Camera type.<br/>            Read/write [`CameraPresetType`](/slides/python-net/aspose.slides/camerapresettype). |
 | [`field_of_view_angle`](/slides/python-net/aspose.slides/camera/field_of_view_angle/) | Camera FOV (0-180 deg, field of View).<br/>            Read/write **float**. |
 | [`zoom`](/slides/python-net/aspose.slides/camera/zoom/) | Camera zoom (positive value in percentage).<br/>            Read/write **float**. |
-| [`slide`](/slides/python-net/aspose.slides/camera/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides/camera/presentation/) |  |
 
 ## Methods
 

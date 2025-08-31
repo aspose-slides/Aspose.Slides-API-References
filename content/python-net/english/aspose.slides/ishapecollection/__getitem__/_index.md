@@ -9,6 +9,9 @@ weight: 390
 
 
 ## IShapeCollection indexer
+Gets the element at the specified index.
+            Read-only [`IShape`](/slides/python-net/aspose.slides/ishape).
+
 ## Indexer
 
 | Name | Description |
@@ -17,6 +20,7 @@ weight: 390
 
 
 ### See Also
+* class [`IShape`](/slides/python-net/aspose.slides/ishape)
 * class [`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

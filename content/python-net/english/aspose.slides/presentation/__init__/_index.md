@@ -20,7 +20,7 @@ def __init__(self):
 
 
 
-## __init__ {#loadoptions}
+## __init__ {#asposeslidesloadoptions}
 This constructor creates new presentation from scratch.
             Created presentation has one empty slide.
 
@@ -73,7 +73,7 @@ def __init__(self, file):
 | **RuntimeError(Proxy error(ArgumentException))** | Thrown when input file has zero length |
 
 
-## __init__ {#iorawiobase-loadoptions}
+## __init__ {#iorawiobase-asposeslidesloadoptions}
 This constructor is the primary mechanism for reading an existing Presentation.
 
 
@@ -89,7 +89,7 @@ def __init__(self, stream, load_options):
 | load_options | [`LoadOptions`](/slides/python-net/aspose.slides/loadoptions) | Additional load options. |
 
 
-## __init__ {#str-loadoptions}
+## __init__ {#str-asposeslidesloadoptions}
 This constructor gets a source file path from which
             the contents of the Presentation are read.
 

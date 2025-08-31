@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#imathelement}
+## __init__ {#asposeslidesmathtextimathelement}
 Creates a mathematical array and places the specified element in it
 
 
@@ -27,7 +27,7 @@ def __init__(self, element):
 Example:
 
 
-## __init__ {#iterableimathelement}
+## __init__ {#systemcollectionsgenericienumerable1asposeslidesmathtextimathelement}
 
 
 
@@ -39,7 +39,7 @@ def __init__(self, elements):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| elements | **Iterable[IMathElement]** |  |
+| elements | **System.Collections.Generic.IEnumerable`1[[Aspose.Slides.MathText.IMathElement]]** |  |
 
 
 

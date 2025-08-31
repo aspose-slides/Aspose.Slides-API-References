@@ -9,6 +9,9 @@ weight: 60
 
 
 ## ISummaryZoomSectionCollection indexer
+Gets the element at the specified index.
+            Read-only [`ISummaryZoomSection`](/slides/python-net/aspose.slides/isummaryzoomsection).
+
 ## Indexer
 
 | Name | Description |
@@ -17,6 +20,7 @@ weight: 60
 
 
 ### See Also
+* class [`ISummaryZoomSection`](/slides/python-net/aspose.slides/isummaryzoomsection)
 * class [`ISummaryZoomSectionCollection`](/slides/python-net/aspose.slides/isummaryzoomsectioncollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

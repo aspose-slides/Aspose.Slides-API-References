@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## init_color_scheme_from {#icolorscheme}
+## init_color_scheme_from {#asposeslidesthemeicolorscheme}
 Init ColorScheme with new object for overriding ColorScheme of InheritedTheme.
 
 

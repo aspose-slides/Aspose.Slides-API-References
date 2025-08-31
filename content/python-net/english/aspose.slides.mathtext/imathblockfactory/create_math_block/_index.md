@@ -24,7 +24,7 @@ def create_math_block(self):
 
 
 
-## create_math_block {#imathelement}
+## create_math_block {#asposeslidesmathtextimathelement}
 Create a math block and place the element in it
 
 ### Returns
@@ -44,7 +44,7 @@ def create_math_block(self, math_element):
 | math_element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | A math element |
 
 
-## create_math_block {#imathelementcollection}
+## create_math_block {#asposeslidesmathtextimathelementcollection}
 Create a math block and place elements in it
 
 ### Returns
@@ -66,7 +66,6 @@ def create_math_block(self, math_elements):
 
 
 ### See Also
-* class [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock)
 * class [`IMathBlockFactory`](/slides/python-net/aspose.slides.mathtext/imathblockfactory)
 * class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
 * class [`IMathElementCollection`](/slides/python-net/aspose.slides.mathtext/imathelementcollection)

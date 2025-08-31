@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/graphicalobject/hyperlink_manager/
-weight: 230
+weight: 190
 ---
 
 

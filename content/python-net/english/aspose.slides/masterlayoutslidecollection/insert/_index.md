@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## insert {#int-slidelayouttype-str}
+## insert {#int-asposeslidesslidelayouttype-str}
 Inserts a new layout slide to specified position of the collection.
 
 ### Returns
@@ -44,7 +44,6 @@ Inserted layout for value SlideLayoutType.Custom of `layout_type`
 
 
 ### See Also
-* class [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide)
 * class [`MasterLayoutSlideCollection`](/slides/python-net/aspose.slides/masterlayoutslidecollection)
 * enumeration [`SlideLayoutType`](/slides/python-net/aspose.slides/slidelayouttype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)

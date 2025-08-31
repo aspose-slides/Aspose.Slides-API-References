@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#ifontfallbackrule}
+## add {#asposeslidesifontfallbackrule}
 Add a new FallBack rule to the end of the collection.
 
 

@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## insert_clone {#int-ilayoutslide}
+## insert_clone {#int-asposeslidesilayoutslide}
 Inserts a copy of a specified layout slide to specified position of the collection.
 
 ### Returns

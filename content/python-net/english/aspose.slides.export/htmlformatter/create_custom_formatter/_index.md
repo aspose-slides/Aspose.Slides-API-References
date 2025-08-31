@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## create_custom_formatter {#ihtmlformattingcontroller}
+## create_custom_formatter {#asposeslidesexportihtmlformattingcontroller}
 Creates and returns HTML formatter for custom callback-driven html generation.
 
 

@@ -34,11 +34,6 @@ The ISwfOptions type exposes the following members:
 | [`jpeg_quality`](/slides/python-net/aspose.slides.export/iswfoptions/jpeg_quality/) | Specifies the quality of JPEG images.             <br/>            Default is 95. |
 | [`notes_comments_layouting`](/slides/python-net/aspose.slides.export/iswfoptions/notes_comments_layouting/) | Provides options that control how notes and comments is placed in exported document. |
 | [`slides_layout_options`](/slides/python-net/aspose.slides.export/iswfoptions/slides_layout_options/) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [`ISlidesLayoutOptions`](/slides/python-net/aspose.slides.export/islideslayoutoptions).<br/>            This property doesn't support assigning objects of type `Aspose.Slides.Export.HandoutLayoutingOptions` |
-| [`warning_callback`](/slides/python-net/aspose.slides.export/iswfoptions/warning_callback/) |  |
-| [`progress_callback`](/slides/python-net/aspose.slides.export/iswfoptions/progress_callback/) |  |
-| [`default_regular_font`](/slides/python-net/aspose.slides.export/iswfoptions/default_regular_font/) |  |
-| [`gradient_style`](/slides/python-net/aspose.slides.export/iswfoptions/gradient_style/) |  |
-| [`skip_java_script_links`](/slides/python-net/aspose.slides.export/iswfoptions/skip_java_script_links/) |  |
 
 
 ### See Also

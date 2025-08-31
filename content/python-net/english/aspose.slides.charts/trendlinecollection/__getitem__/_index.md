@@ -9,6 +9,9 @@ weight: 30
 
 
 ## TrendlineCollection indexer
+Gets the element at the specified index.
+            Read-only [`Trendline`](/slides/python-net/aspose.slides.charts/trendline).
+
 ## Indexer
 
 | Name | Description |
@@ -17,6 +20,7 @@ weight: 30
 
 
 ### See Also
+* class [`Trendline`](/slides/python-net/aspose.slides.charts/trendline)
 * class [`TrendlineCollection`](/slides/python-net/aspose.slides.charts/trendlinecollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

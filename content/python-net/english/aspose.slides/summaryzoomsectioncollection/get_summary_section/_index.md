@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## get_summary_section {#isection}
+## get_summary_section {#asposeslidesisection}
 Returns Summary Zoom Section element for the given section.
 
 ### Returns

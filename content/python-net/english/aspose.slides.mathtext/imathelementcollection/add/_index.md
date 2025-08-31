@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#imathelement}
+## add {#asposeslidesmathtextimathelement}
 Adds a math element to the end of the collection.
 
 

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#colortransformoperation}
+## add {#asposeslidescolortransformoperation}
 Adds a new operation to the end of collection.
 
 ### Returns
@@ -28,7 +28,7 @@ def add(self, operation):
 | operation | [`ColorTransformOperation`](/slides/python-net/aspose.slides/colortransformoperation) | Operation type. |
 
 
-## add {#colortransformoperation-float}
+## add {#asposeslidescolortransformoperation-float}
 Adds a new operation to the end of collection.
 
 ### Returns
@@ -52,7 +52,6 @@ def add(self, operation, parameter):
 
 ### See Also
 * enumeration [`ColorTransformOperation`](/slides/python-net/aspose.slides/colortransformoperation)
-* class [`IColorOperation`](/slides/python-net/aspose.slides/icoloroperation)
 * class [`IColorOperationCollection`](/slides/python-net/aspose.slides/icoloroperationcollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

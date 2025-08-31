@@ -29,8 +29,6 @@ The BulletFormat type exposes the following members:
 | [`is_bullet_hard_color`](/slides/python-net/aspose.slides/bulletformat/is_bullet_hard_color/) | Determines whether the bullet has own color or inherits it from the first portion in the paragraph.<br/>**NullableBool.True**  if bullet has own color and **NullableBool.False**  if bullet<br/>            inherits color from the first portion in the paragraph.<br/>            Read/write [`NullableBool`](/slides/python-net/aspose.slides/nullablebool). |
 | [`is_bullet_hard_font`](/slides/python-net/aspose.slides/bulletformat/is_bullet_hard_font/) | Determines whether the bullet has own font or inherits it from the first portion in the paragraph.<br/>**NullableBool.True**  if bullet has own font and **NullableBool.False**  if bullet<br/>            inherits font from the first portion in the paragraph.<br/>            Read/write [`NullableBool`](/slides/python-net/aspose.slides/nullablebool). |
 | [`picture`](/slides/python-net/aspose.slides/bulletformat/picture/) | Returns the picture used as a bullet in a paragraph with no inheritance.<br/>            Read-only [`ISlidesPicture`](/slides/python-net/aspose.slides/islidespicture). |
-| [`slide`](/slides/python-net/aspose.slides/bulletformat/slide/) |  |
-| [`presentation`](/slides/python-net/aspose.slides/bulletformat/presentation/) |  |
 
 ## Methods
 
