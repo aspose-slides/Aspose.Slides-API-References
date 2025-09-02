@@ -19,6 +19,10 @@ public class ChartTitle : IChartTitle
 
 | Name | Description |
 | --- | --- |
+| [ActualHeight](../../aspose.slides.charts/charttitle/actualheight) { get; } | Specifies actual height of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
+| [ActualWidth](../../aspose.slides.charts/charttitle/actualwidth) { get; } | Specifies actual width of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
+| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | Specifies actual x location (left) of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
+| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | Specifies actual top of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
 | [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | Bottom. Read-only Single. |
 | [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | Returns the parent chart. Read-only [`IChart`](../ichart). |
 | [Format](../../aspose.slides.charts/charttitle/format) { get; } | Returns the fill, line, effect styles of a title. Read-only [`IFormat`](../iformat). |

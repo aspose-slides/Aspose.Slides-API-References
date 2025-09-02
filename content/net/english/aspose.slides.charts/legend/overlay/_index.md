@@ -3,7 +3,7 @@ title: Overlay
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines whether other chart elements shall be allowed to overlap legend. Read/write Boolean.
 type: docs
-weight: 60
+weight: 100
 url: /aspose.slides.charts/legend/overlay/
 ---
 

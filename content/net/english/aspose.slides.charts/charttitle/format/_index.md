@@ -3,7 +3,7 @@ title: Format
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns the fill line effect styles of a title. Read-only IFormataspose.slides.charts/iformat.
 type: docs
-weight: 30
+weight: 70
 url: /aspose.slides.charts/charttitle/format/
 ---
 

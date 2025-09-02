@@ -12,7 +12,7 @@ url: /aspose.slides.charts/icharttitle/
 Represents chart title properties.
 
 ```csharp
-public interface IChartTitle : ILayoutable, IOverridableText
+public interface IChartTitle : IActualLayout, ILayoutable, IOverridableText
 ```
 
 ## Properties
@@ -26,6 +26,7 @@ public interface IChartTitle : ILayoutable, IOverridableText
 
 ### See Also
 
+* interface [IActualLayout](../iactuallayout)
 * interface [ILayoutable](../ilayoutable)
 * interface [IOverridableText](../ioverridabletext)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)

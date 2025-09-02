@@ -19,6 +19,10 @@ public class Legend : DomObject<Chart>, ILegend
 
 | Name | Description |
 | --- | --- |
+| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | Specifies actual height of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
+| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | Specifies actual width of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
+| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | Specifies actual x location (left) of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
+| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | Specifies actual top of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
 | [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Bottom. Read-only Single. |
 | [Chart](../../aspose.slides.charts/legend/chart) { get; } | Returns the chart. Read-only [`IChart`](../ichart). |
 | [Entries](../../aspose.slides.charts/legend/entries) { get; } | Gets legend entries. Read-only [`ILegendEntryCollection`](../ilegendentrycollection). |

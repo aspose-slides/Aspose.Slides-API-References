@@ -12,7 +12,7 @@ url: /aspose.slides.charts/ilegend/
 Represents chart's legend properties.
 
 ```csharp
-public interface ILegend : IFormattedTextContainer, ILayoutable
+public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
 ```
 
 ## Properties
@@ -28,6 +28,7 @@ public interface ILegend : IFormattedTextContainer, ILayoutable
 
 ### See Also
 
+* interface [IActualLayout](../iactuallayout)
 * interface [IFormattedTextContainer](../iformattedtextcontainer)
 * interface [ILayoutable](../ilayoutable)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)

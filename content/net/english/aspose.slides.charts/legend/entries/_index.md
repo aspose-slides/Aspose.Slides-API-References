@@ -3,7 +3,7 @@ title: Entries
 second_title: Aspose.Sildes for .NET API Reference
 description: Gets legend entries. Read-only ILegendEntryCollectionaspose.slides.charts/ilegendentrycollection.
 type: docs
-weight: 30
+weight: 70
 url: /aspose.slides.charts/legend/entries/
 ---
 

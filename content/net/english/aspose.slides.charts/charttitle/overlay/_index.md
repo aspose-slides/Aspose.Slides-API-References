@@ -3,7 +3,7 @@ title: Overlay
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines whether other chart elements shall be allowed to overlap title. Read/write Boolean.
 type: docs
-weight: 50
+weight: 90
 url: /aspose.slides.charts/charttitle/overlay/
 ---
 
