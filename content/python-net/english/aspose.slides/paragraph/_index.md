@@ -18,7 +18,7 @@ The Paragraph type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [`__init__`](/slides/python-net/aspose.slides/paragraph/__init__/#) | Initializes a new instance of the Paragraph class with default properties. |
-| [`__init__`](/slides/python-net/aspose.slides/paragraph/__init__/#asposeslidesparagraph) | Copy constructor that initializes a new instance of a Paragraph class. |
+| [`__init__`](/slides/python-net/aspose.slides/paragraph/__init__/#paragraph) | Copy constructor that initializes a new instance of a Paragraph class. |
 
 ## Properties
 
@@ -28,6 +28,8 @@ The Paragraph type exposes the following members:
 | [`paragraph_format`](/slides/python-net/aspose.slides/paragraph/paragraph_format/) | Returns the formatting object for this paragraph.<br/>            Read-only [`IParagraphFormat`](/slides/python-net/aspose.slides/iparagraphformat). |
 | [`text`](/slides/python-net/aspose.slides/paragraph/text/) | Gets or sets the the plain text of a paragraph.<br/>            Read/write **str**. |
 | [`end_paragraph_portion_format`](/slides/python-net/aspose.slides/paragraph/end_paragraph_portion_format/) | Specifies the portion properties that are to be used if another portion is inserted after <br/>            the last one. |
+| [`slide`](/slides/python-net/aspose.slides/paragraph/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides/paragraph/presentation/) |  |
 
 ## Methods
 

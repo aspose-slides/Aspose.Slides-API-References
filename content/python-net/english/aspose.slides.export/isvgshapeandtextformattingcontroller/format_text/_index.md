@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/isvgshapeandtextformattingcontroller/format_text/
-weight: 10
+weight: 20
 ---
 
 
-## format_text {#asposeslidesexportisvgtspan-asposeslidesiportion-asposeslidesitextframe}
+## format_text {#isvgtspan-iportion-itextframe}
 This function is called before rendering of text portion to SVG to allow user to control resulting SVG.
 
 

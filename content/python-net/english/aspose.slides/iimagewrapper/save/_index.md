@@ -23,7 +23,7 @@ def save(self, file_name):
 | file_name | **str** | File name **str** |
 
 
-## save {#iorawiobase-asposeslidesppimageformat}
+## save {#iorawiobase-ppimageformat}
 Saves the Image to the specified stream in the specified format.
 
 
@@ -39,7 +39,7 @@ def save(self, stream, image_format):
 | image_format | [`PPImageFormat`](/slides/python-net/aspose.slides/ppimageformat) | Image format [`PPImageFormat`](/slides/python-net/aspose.slides/ppimageformat) |
 
 
-## save {#str-asposeslidesppimageformat}
+## save {#str-ppimageformat}
 Saves the Image to the specified file in the specified format.
 
 

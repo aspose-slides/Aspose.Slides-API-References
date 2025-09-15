@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/igeometryshape/get_geometry_paths/
-weight: 20
+weight: 40
 ---
 
 

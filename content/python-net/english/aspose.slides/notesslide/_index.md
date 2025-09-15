@@ -34,14 +34,15 @@ The NotesSlide type exposes the following members:
 | [`notes_text_frame`](/slides/python-net/aspose.slides/notesslide/notes_text_frame/) | Returns a TextFrame with notes' text if there is one.<br/>            Read-only [`ITextFrame`](/slides/python-net/aspose.slides/itextframe). |
 | [`theme_manager`](/slides/python-net/aspose.slides/notesslide/theme_manager/) | Returns the overriding theme manager.<br/>            Read-only [`IOverrideThemeManager`](/slides/python-net/aspose.slides.theme/ioverridethememanager). |
 | [`parent_slide`](/slides/python-net/aspose.slides/notesslide/parent_slide/) | Returns the parent slide.<br/>            Read-only [`ISlide`](/slides/python-net/aspose.slides/islide). |
+| [`slide`](/slides/python-net/aspose.slides/notesslide/slide/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
 | [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/notesslide/join_portions_with_same_formatting/#) | Joins runs with same formatting in all paragraphs all acceptable shapes. |
-| [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/notesslide/join_portions_with_same_formatting/#asposeslidesishapecollection) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
-| [`equals`](/slides/python-net/aspose.slides/notesslide/equals/#asposeslidesibaseslide) | Determines whether the two IBaseSlide instances are equal.<br/>            Returning value is calculated based on slide's structure and static content.<br/>            Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
+| [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/notesslide/join_portions_with_same_formatting/#ishapecollection) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
+| [`equals`](/slides/python-net/aspose.slides/notesslide/equals/#ibaseslide) | Determines whether the two IBaseSlide instances are equal.<br/>            Returning value is calculated based on slide's structure and static content.<br/>            Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
 | [`create_theme_effective`](/slides/python-net/aspose.slides/notesslide/create_theme_effective/#) | Returns an effective theme for this slide. |
 | [`find_shape_by_alt_text`](/slides/python-net/aspose.slides/notesslide/find_shape_by_alt_text/#str) | Finds first occurrence of a shape with the specified alternative text. |
 

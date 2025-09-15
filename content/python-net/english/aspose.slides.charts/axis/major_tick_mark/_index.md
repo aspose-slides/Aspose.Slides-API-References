@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/axis/major_tick_mark/
-weight: 360
+weight: 400
 ---
 
 

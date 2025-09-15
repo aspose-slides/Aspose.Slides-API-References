@@ -8,7 +8,7 @@ weight: 230
 ---
 
 
-## insert_auto_shape {#int-asposeslidesshapetype-float-float-float-float}
+## insert_auto_shape {#int-shapetype-float-float-float-float}
 Creates a new auto shape and inserts it into the shape collection at the specified index,
             applying default template formatting.
 
@@ -34,7 +34,7 @@ def insert_auto_shape(self, index, shape_type, x, y, width, height):
 | height | **float** | The height of the shape’s frame, in points. |
 
 
-## insert_auto_shape {#int-asposeslidesshapetype-float-float-float-float-bool}
+## insert_auto_shape {#int-shapetype-float-float-float-float-bool}
 Creates a new auto shape and inserts it into the shape collection at the specified index,
             optionally initializing it with default template styling.
 

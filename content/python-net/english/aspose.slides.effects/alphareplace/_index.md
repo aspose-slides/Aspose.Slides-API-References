@@ -16,6 +16,13 @@ Represents and Alpha Replace effect.
 
 The AlphaReplace type exposes the following members:
 
+## Properties
+
+| Property | Description |
+| :- | :- |
+| [`slide`](/slides/python-net/aspose.slides.effects/alphareplace/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.effects/alphareplace/presentation/) |  |
+
 ## Methods
 
 | Method | Description |

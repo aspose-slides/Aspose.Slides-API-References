@@ -30,6 +30,7 @@ def set_external_hyperlink_mouse_over(self, url):
 
 
 ### See Also
+* class [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink)
 * class [`IHyperlinkManager`](/slides/python-net/aspose.slides/ihyperlinkmanager)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

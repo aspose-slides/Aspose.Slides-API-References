@@ -26,6 +26,7 @@ def add_text_frame_for_overriding(self, text):
 
 
 ### See Also
+* class [`ITextFrame`](/slides/python-net/aspose.slides/itextframe)
 * class [`Trendline`](/slides/python-net/aspose.slides.charts/trendline)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

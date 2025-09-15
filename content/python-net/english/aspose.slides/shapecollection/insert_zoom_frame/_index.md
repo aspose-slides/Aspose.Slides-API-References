@@ -8,7 +8,7 @@ weight: 340
 ---
 
 
-## insert_zoom_frame {#int-float-float-float-float-asposeslidesislide}
+## insert_zoom_frame {#int-float-float-float-float-islide}
 Creates a new Zoom frame and inserts it into the shape collection at the specified index.
 
 ### Returns
@@ -44,7 +44,7 @@ This example demonstrates creation and inserting a Zoom object at the specified 
 | **RuntimeError(Proxy error(ArgumentException))** | Thrown if the referenced slide does not belong to the current presentation. |
 
 
-## insert_zoom_frame {#int-float-float-float-float-asposeslidesislide-asposeslidesippimage}
+## insert_zoom_frame {#int-float-float-float-float-islide-ippimage}
 Creates a new Zoom frame with a predefined image and inserts it into the shape collection
             at the specified index.
 

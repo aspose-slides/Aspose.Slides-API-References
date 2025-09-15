@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add {#asposeslidesmathtextimathblock}
+## add {#imathblock}
 Adds IMathBlock to the end of collection.
 
 

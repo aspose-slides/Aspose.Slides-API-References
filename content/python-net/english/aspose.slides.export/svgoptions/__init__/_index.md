@@ -19,7 +19,7 @@ def __init__(self):
 
 
 
-## __init__ {#asposeslidesexportilinkembedcontroller}
+## __init__ {#ilinkembedcontroller}
 Initializes a new instance of the SVGOptions class specifying the link embedding controller object.
 
 

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## create_math_delimiter {#asposeslidesmathtextimathelement}
+## create_math_delimiter {#imathelement}
 Create a math delimiter by applying to the element
 
 ### Returns
@@ -28,7 +28,7 @@ def create_math_delimiter(self, element):
 | element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | math element to apply delimiter |
 
 
-## create_math_delimiter {#asposeslidesmathtextimathelementcollection}
+## create_math_delimiter {#imathelementcollection}
 Create a math delimiter by applying to the element
 
 ### Returns
@@ -50,6 +50,7 @@ def create_math_delimiter(self, math_elements):
 
 
 ### See Also
+* class [`IMathDelimiter`](/slides/python-net/aspose.slides.mathtext/imathdelimiter)
 * class [`IMathDelimiterFactory`](/slides/python-net/aspose.slides.mathtext/imathdelimiterfactory)
 * class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
 * class [`IMathElementCollection`](/slides/python-net/aspose.slides.mathtext/imathelementcollection)

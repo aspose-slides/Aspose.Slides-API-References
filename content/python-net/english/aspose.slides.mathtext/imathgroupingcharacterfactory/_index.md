@@ -17,8 +17,8 @@ The IMathGroupingCharacterFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`create_math_grouping_character`](/slides/python-net/aspose.slides.mathtext/imathgroupingcharacterfactory/create_math_grouping_character/#asposeslidesmathtextimathelement-systemchar-asposeslidesmathtextmathtopbotpositions-asposeslidesmathtextmathtopbotpositions) | Creates a math grouping character |
-| [`create_math_grouping_character`](/slides/python-net/aspose.slides.mathtext/imathgroupingcharacterfactory/create_math_grouping_character/#asposeslidesmathtextimathelement) | Creates a math grouping character |
+| [`create_math_grouping_character`](/slides/python-net/aspose.slides.mathtext/imathgroupingcharacterfactory/create_math_grouping_character/#imathelement-char-mathtopbotpositions-mathtopbotpositions) | Creates a math grouping character |
+| [`create_math_grouping_character`](/slides/python-net/aspose.slides.mathtext/imathgroupingcharacterfactory/create_math_grouping_character/#imathelement) | Creates a math grouping character |
 
 
 ### Remarks

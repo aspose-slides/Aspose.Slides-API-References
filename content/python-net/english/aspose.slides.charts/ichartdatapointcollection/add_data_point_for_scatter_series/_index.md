@@ -8,7 +8,7 @@ weight: 120
 ---
 
 
-## add_data_point_for_scatter_series {#asposeslideschartsichartdatacell-asposeslideschartsichartdatacell}
+## add_data_point_for_scatter_series {#ichartdatacell-ichartdatacell}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer.IsChartTypeScatter(ChartType) method).
 
@@ -30,7 +30,7 @@ def add_data_point_for_scatter_series(self, x_value, y_value):
 | y_value | [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) | Data point YValue |
 
 
-## add_data_point_for_scatter_series {#float-asposeslideschartsichartdatacell}
+## add_data_point_for_scatter_series {#float-ichartdatacell}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer.IsChartTypeScatter(ChartType) method).
 
@@ -52,7 +52,7 @@ def add_data_point_for_scatter_series(self, x_value, y_value):
 | y_value | [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) | Data point YValue |
 
 
-## add_data_point_for_scatter_series {#str-asposeslideschartsichartdatacell}
+## add_data_point_for_scatter_series {#str-ichartdatacell}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer.IsChartTypeScatter(ChartType) method).
 
@@ -74,7 +74,7 @@ def add_data_point_for_scatter_series(self, x_value, y_value):
 | y_value | [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) | Data point YValue |
 
 
-## add_data_point_for_scatter_series {#asposeslideschartsichartdatacell-float}
+## add_data_point_for_scatter_series {#ichartdatacell-float}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer.IsChartTypeScatter(ChartType) method).
 
@@ -143,6 +143,7 @@ def add_data_point_for_scatter_series(self, x_value, y_value):
 
 ### See Also
 * class [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell)
+* class [`IChartDataPoint`](/slides/python-net/aspose.slides.charts/ichartdatapoint)
 * class [`IChartDataPointCollection`](/slides/python-net/aspose.slides.charts/ichartdatapointcollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

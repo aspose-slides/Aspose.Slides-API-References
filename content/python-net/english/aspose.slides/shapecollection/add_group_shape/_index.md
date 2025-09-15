@@ -29,7 +29,7 @@ def add_group_shape(self):
 The following example shows how to add a group shape to a slide of PowerPoint Presentation.
 
 
-## add_group_shape {#asposeslidesisvgimage-float-float-float-float}
+## add_group_shape {#isvgimage-float-float-float-float}
 Creates a new group shape, converts the specified SVG image into individual shapes,
             and adds the resulting group to the end of the shape collection.
 

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#asposeslidesmathtextimathelement-asposeslidesmathtextimathelement-asposeslidesmathtextimathelement}
+## __init__ {#imathelement-imathelement-imathelement}
 Initializes a new instance of the MathRightSubSuperscriptElement class.
 
 

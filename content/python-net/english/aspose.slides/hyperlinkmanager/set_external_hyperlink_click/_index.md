@@ -30,6 +30,7 @@ The following sample code shows how to add Text Box with Hyperlink.
 
 ### See Also
 * class [`HyperlinkManager`](/slides/python-net/aspose.slides/hyperlinkmanager)
+* class [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

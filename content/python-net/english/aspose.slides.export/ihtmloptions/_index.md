@@ -27,6 +27,11 @@ The IHtmlOptions type exposes the following members:
 | [`disable_font_ligatures`](/slides/python-net/aspose.slides.export/ihtmloptions/disable_font_ligatures/) | Gets or sets a value indicating whether text is rendered without using ligatures.<br/>            When set to `true`, ligatures will be disabled in the rendered output. By default, this property is set to `false`. |
 | [`slides_layout_options`](/slides/python-net/aspose.slides.export/ihtmloptions/slides_layout_options/) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [`ISlidesLayoutOptions`](/slides/python-net/aspose.slides.export/islideslayoutoptions). |
 | [`ink_options`](/slides/python-net/aspose.slides.export/ihtmloptions/ink_options/) | Provides options that control the look of Ink objects in exported document.<br/>            Read-only [`IInkOptions`](/slides/python-net/aspose.slides.export/iinkoptions) |
+| [`warning_callback`](/slides/python-net/aspose.slides.export/ihtmloptions/warning_callback/) |  |
+| [`progress_callback`](/slides/python-net/aspose.slides.export/ihtmloptions/progress_callback/) |  |
+| [`default_regular_font`](/slides/python-net/aspose.slides.export/ihtmloptions/default_regular_font/) |  |
+| [`gradient_style`](/slides/python-net/aspose.slides.export/ihtmloptions/gradient_style/) |  |
+| [`skip_java_script_links`](/slides/python-net/aspose.slides.export/ihtmloptions/skip_java_script_links/) |  |
 
 
 ### See Also

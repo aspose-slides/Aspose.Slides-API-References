@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#asposeslidesanimationmotioncommandpathtype-listasposepydrawingpointf-asposeslidesanimationmotionpathpointstype-bool}
+## add {#motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
 Add new command to path
 
 ### Returns

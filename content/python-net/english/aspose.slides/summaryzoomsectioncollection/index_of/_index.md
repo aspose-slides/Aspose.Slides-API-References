@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## index_of {#asposeslidesisummaryzoomsection}
+## index_of {#isummaryzoomsection}
 Returns an index of the specified SummaryZoomSection object.
 
 ### Returns

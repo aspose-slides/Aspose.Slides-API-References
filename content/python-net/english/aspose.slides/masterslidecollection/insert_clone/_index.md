@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## insert_clone {#int-asposeslidesimasterslide}
+## insert_clone {#int-imasterslide}
 Inserts a copy of a specified master slide to specified position of the collection.
             Linked layout slides will be copied too.
 

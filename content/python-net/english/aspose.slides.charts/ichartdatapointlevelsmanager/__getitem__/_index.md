@@ -9,8 +9,6 @@ weight: 10
 
 
 ## IChartDataPointLevelsManager indexer
-Returns IChartDataPointLevel object for defined level.
-
 ## Indexer
 
 | Name | Description |

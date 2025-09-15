@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/imathdelimiter/separator_character/
-weight: 80
+weight: 300
 ---
 
 

@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/mathelementbase/set_sub_superscript_on_the_left/
-weight: 130
+weight: 140
 ---
 
 
-## set_sub_superscript_on_the_left {#asposeslidesmathtextimathelement-asposeslidesmathtextimathelement}
+## set_sub_superscript_on_the_left {#imathelement-imathelement}
 Creates subscript and superscript on the left
 
 ### Returns

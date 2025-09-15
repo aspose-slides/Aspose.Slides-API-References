@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## find_shape {#asposeslidesipresentation-str}
+## find_shape {#ipresentation-str}
 Find shape by alternative text in a PPTX presentation.
 
 ### Returns
@@ -30,7 +30,7 @@ def find_shape(pres, alt_text):
 | alt_text | **str** | Alternative text of a shape. |
 
 
-## find_shape {#asposeslidesibaseslide-str}
+## find_shape {#ibaseslide-str}
 Find shape by alternative text on a slide in a PPTX presentation.
 
 ### Returns
@@ -56,6 +56,7 @@ def find_shape(slide, alt_text):
 ### See Also
 * class [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide)
 * class [`IPresentation`](/slides/python-net/aspose.slides/ipresentation)
+* class [`IShape`](/slides/python-net/aspose.slides/ishape)
 * class [`SlideUtil`](/slides/python-net/aspose.slides.util/slideutil)
 * module [`aspose.slides.util`](/slides/python-net/aspose.slides.util)
 * library [`Aspose.Slides`](/slides/python-net)

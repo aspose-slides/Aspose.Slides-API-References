@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## merge_cells {#asposeslidesicell-asposeslidesicell-bool}
+## merge_cells {#icell-icell-bool}
 Merges neighbour cells.
 
 ### Returns

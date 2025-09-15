@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## remove {#asposeslidesicommentauthor}
+## remove {#icommentauthor}
 Removes the first occurrence of the specified author in a collection.
 
 

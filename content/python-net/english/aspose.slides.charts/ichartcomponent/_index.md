@@ -18,6 +18,8 @@ The IChartComponent type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`chart`](/slides/python-net/aspose.slides.charts/ichartcomponent/chart/) | Returns the chart.<br/>            Read-only [`IChart`](/slides/python-net/aspose.slides.charts/ichart). |
+| [`slide`](/slides/python-net/aspose.slides.charts/ichartcomponent/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.charts/ichartcomponent/presentation/) |  |
 
 
 ### See Also

@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## insert {#int-asposeslidesanimationmotioncommandpathtype-listasposepydrawingpointf-asposeslidesanimationmotionpathpointstype-bool}
+## insert {#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
 Insert new command to path
 
 

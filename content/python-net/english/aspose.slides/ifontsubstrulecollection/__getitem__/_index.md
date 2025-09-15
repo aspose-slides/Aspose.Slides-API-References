@@ -9,8 +9,6 @@ weight: 30
 
 
 ## IFontSubstRuleCollection indexer
-Gets the element at the specified index.
-
 ## Indexer
 
 | Name | Description |

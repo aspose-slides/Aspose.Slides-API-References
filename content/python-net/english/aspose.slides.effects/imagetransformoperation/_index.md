@@ -15,6 +15,13 @@ Represents abstract image transformation effect.
 
 The ImageTransformOperation type exposes the following members:
 
+## Properties
+
+| Property | Description |
+| :- | :- |
+| [`slide`](/slides/python-net/aspose.slides.effects/imagetransformoperation/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.effects/imagetransformoperation/presentation/) |  |
+
 
 ### See Also
 * class [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation)

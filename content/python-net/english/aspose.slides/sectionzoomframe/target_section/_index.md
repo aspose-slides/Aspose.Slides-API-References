@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/sectionzoomframe/target_section/
-weight: 370
+weight: 430
 ---
 
 

@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## insert {#int-asposeslidescolortransformoperation}
+## insert {#int-colortransformoperation}
 Inserts the new operation to a collection.
 
 ### Returns
@@ -29,7 +29,7 @@ def insert(self, position, operation):
 | operation | [`ColorTransformOperation`](/slides/python-net/aspose.slides/colortransformoperation) | Operation type. |
 
 
-## insert {#int-asposeslidescolortransformoperation-float}
+## insert {#int-colortransformoperation-float}
 Inserts the new operation to a collection.
 
 ### Returns
@@ -54,6 +54,7 @@ def insert(self, position, operation, parameter):
 
 ### See Also
 * enumeration [`ColorTransformOperation`](/slides/python-net/aspose.slides/colortransformoperation)
+* class [`IColorOperation`](/slides/python-net/aspose.slides/icoloroperation)
 * class [`IColorOperationCollection`](/slides/python-net/aspose.slides/icoloroperationcollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

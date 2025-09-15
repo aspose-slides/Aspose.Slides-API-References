@@ -8,7 +8,7 @@ weight: 150
 ---
 
 
-## insert {#int-asposeslidesmathtextimathelement}
+## insert {#int-imathelement}
 Inserts a MathElement into the collection at the specified index.
 
 

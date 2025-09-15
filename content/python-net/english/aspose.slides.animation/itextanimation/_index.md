@@ -24,7 +24,7 @@ The ITextAnimation type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`add_effect`](/slides/python-net/aspose.slides.animation/itextanimation/add_effect/#asposeslidesanimationeffecttype-asposeslidesanimationeffectsubtype-asposeslidesanimationeffecttriggertype) | Add new effect to the end of current sequence to end of group text animations.<br/>            Only valid if count of text paragraphs equal or greater of counts effect of this group! |
+| [`add_effect`](/slides/python-net/aspose.slides.animation/itextanimation/add_effect/#effecttype-effectsubtype-effecttriggertype) | Add new effect to the end of current sequence to end of group text animations.<br/>            Only valid if count of text paragraphs equal or greater of counts effect of this group! |
 
 
 ### See Also

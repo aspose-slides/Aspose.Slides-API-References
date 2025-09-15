@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## find_shapes_by_placeholder_type {#asposeslidesibaseslide-asposeslidesplaceholdertype}
+## find_shapes_by_placeholder_type {#ibaseslide-placeholdertype}
 Searches for all shapes on the specified slide that match the given placeholder type.
 
 ### Returns

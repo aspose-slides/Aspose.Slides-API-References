@@ -29,12 +29,14 @@ The MathPortion type exposes the following members:
 | [`text`](/slides/python-net/aspose.slides.mathtext/mathportion/text/) | Gets or sets the plain text of a portion.<br/>            Read/write **str**. |
 | [`field`](/slides/python-net/aspose.slides.mathtext/mathportion/field/) | Returns a field of this portion.<br/>            Read-only [`IField`](/slides/python-net/aspose.slides/ifield). |
 | [`math_paragraph`](/slides/python-net/aspose.slides.mathtext/mathportion/math_paragraph/) | Math paragraph |
+| [`slide`](/slides/python-net/aspose.slides.mathtext/mathportion/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.mathtext/mathportion/presentation/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [`add_field`](/slides/python-net/aspose.slides.mathtext/mathportion/add_field/#asposeslidesifieldtype) | Converts this portion to the automaticaly updated field. |
+| [`add_field`](/slides/python-net/aspose.slides.mathtext/mathportion/add_field/#ifieldtype) | Converts this portion to the automaticaly updated field. |
 | [`add_field`](/slides/python-net/aspose.slides.mathtext/mathportion/add_field/#str) | Converts this portion to the automaticaly updated field. |
 | [`remove_field`](/slides/python-net/aspose.slides.mathtext/mathportion/remove_field/#) | Converts this field portion to the simple portion. |
 | [`get_rect`](/slides/python-net/aspose.slides.mathtext/mathportion/get_rect/#) | Get coordinates of rect that bounds portion. The rect includes all the lines of<br/>             text in portion, including empty ones. |

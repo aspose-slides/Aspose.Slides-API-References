@@ -112,6 +112,7 @@ Example:
 
 
 ### See Also
+* class [`IExcelDataCell`](/slides/python-net/aspose.slides.excel/iexceldatacell)
 * class [`IExcelDataWorkbook`](/slides/python-net/aspose.slides.excel/iexceldataworkbook)
 * module [`aspose.slides.excel`](/slides/python-net/aspose.slides.excel)
 * library [`Aspose.Slides`](/slides/python-net)

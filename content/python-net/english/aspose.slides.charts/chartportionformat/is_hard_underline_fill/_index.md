@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/chartportionformat/is_hard_underline_fill/
-weight: 130
+weight: 140
 ---
 
 

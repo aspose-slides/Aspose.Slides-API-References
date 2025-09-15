@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ioleobjectframe/set_embedded_data/
-weight: 10
+weight: 60
 ---
 
 
-## set_embedded_data {#asposeslidesioleembeddeddatainfo}
+## set_embedded_data {#ioleembeddeddatainfo}
 Sets information about OLE embedded data.
 
 

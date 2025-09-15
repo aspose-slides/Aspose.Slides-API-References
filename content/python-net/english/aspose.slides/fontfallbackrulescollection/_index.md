@@ -32,8 +32,8 @@ Gets the rule at the specified index.
 
 | Method | Description |
 | :- | :- |
-| [`add`](/slides/python-net/aspose.slides/fontfallbackrulescollection/add/#asposeslidesifontfallbackrule) | Add a specified FallBack rule to the end of the collection. |
-| [`remove`](/slides/python-net/aspose.slides/fontfallbackrulescollection/remove/#asposeslidesifontfallbackrule) | Removes the first occurrence of a specific FallBack rule from the collection. |
+| [`add`](/slides/python-net/aspose.slides/fontfallbackrulescollection/add/#ifontfallbackrule) | Add a specified FallBack rule to the end of the collection. |
+| [`remove`](/slides/python-net/aspose.slides/fontfallbackrulescollection/remove/#ifontfallbackrule) | Removes the first occurrence of a specific FallBack rule from the collection. |
 
 
 ### See Also

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/presetshadow/shadow_color/
-weight: 50
+weight: 60
 ---
 
 

@@ -19,7 +19,7 @@ The Tab type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides/tab/__init__/#float-asposeslidestabalignment) | Creates new Tab |
+| [`__init__`](/slides/python-net/aspose.slides/tab/__init__/#float-tabalignment) | Creates new Tab |
 
 ## Properties
 
@@ -27,6 +27,8 @@ The Tab type exposes the following members:
 | :- | :- |
 | [`position`](/slides/python-net/aspose.slides/tab/position/) | Returns or sets position of a tab.<br/>            Assigning this property can change tab's index in collection and invalidate Enumerator.<br/>            Read/write **float**. |
 | [`alignment`](/slides/python-net/aspose.slides/tab/alignment/) | Returns or sets align style of a tab.<br/>            Read/write [`TabAlignment`](/slides/python-net/aspose.slides/tabalignment). |
+| [`slide`](/slides/python-net/aspose.slides/tab/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides/tab/presentation/) |  |
 
 ## Methods
 

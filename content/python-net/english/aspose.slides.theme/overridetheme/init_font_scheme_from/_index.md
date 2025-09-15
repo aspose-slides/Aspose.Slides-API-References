@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## init_font_scheme_from {#asposeslidesthemeifontscheme}
+## init_font_scheme_from {#ifontscheme}
 Init FontScheme with new object for overriding FontScheme of InheritedTheme.
 
 

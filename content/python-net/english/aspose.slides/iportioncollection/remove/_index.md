@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## remove {#asposeslidesiportion}
+## remove {#iportion}
 Removes the first occurrence of a specific object from the **System.Collections.Generic.ICollection`1**.
 
 ### Returns

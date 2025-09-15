@@ -17,6 +17,13 @@ Represents an Alpha Ceiling effect.
 
 The AlphaCeiling type exposes the following members:
 
+## Properties
+
+| Property | Description |
+| :- | :- |
+| [`slide`](/slides/python-net/aspose.slides.effects/alphaceiling/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.effects/alphaceiling/presentation/) |  |
+
 ## Methods
 
 | Method | Description |

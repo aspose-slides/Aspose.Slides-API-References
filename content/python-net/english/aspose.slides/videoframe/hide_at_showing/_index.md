@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/videoframe/hide_at_showing/
-weight: 250
+weight: 310
 ---
 
 

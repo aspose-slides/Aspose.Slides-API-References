@@ -19,7 +19,7 @@ def __init__(self):
 
 
 
-## __init__ {#asposeslidesexportilinkembedcontroller}
+## __init__ {#ilinkembedcontroller}
 Creates a new HtmlOptions object specifiing callback.
 
 

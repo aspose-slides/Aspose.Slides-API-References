@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## get_by_type {#asposeslidesslidelayouttype}
+## get_by_type {#slidelayouttype}
 Returns the first layout slide of specified type.
 
 ### Returns

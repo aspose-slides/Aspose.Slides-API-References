@@ -23,7 +23,7 @@ The TabFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`create_tab`](/slides/python-net/aspose.slides/tabfactory/create_tab/#float-asposeslidestabalignment) | Creates a new ITab instance. |
+| [`create_tab`](/slides/python-net/aspose.slides/tabfactory/create_tab/#float-tabalignment) | Creates a new ITab instance. |
 
 
 ### Remarks

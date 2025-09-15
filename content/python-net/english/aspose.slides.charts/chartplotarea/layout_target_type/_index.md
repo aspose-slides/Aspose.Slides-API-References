@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/chartplotarea/layout_target_type/
-weight: 100
+weight: 150
 ---
 
 

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#asposeslideschartstrendlinetype}
+## add {#trendlinetype}
 Adds the new Trendline at the end of a collection and return it.
 
 
@@ -25,6 +25,7 @@ def add(self, trendline_type):
 
 
 ### See Also
+* class [`ITrendline`](/slides/python-net/aspose.slides.charts/itrendline)
 * class [`TrendlineCollection`](/slides/python-net/aspose.slides.charts/trendlinecollection)
 * enumeration [`TrendlineType`](/slides/python-net/aspose.slides.charts/trendlinetype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)

@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_math_radical {#asposeslidesmathtextimathelement-asposeslidesmathtextimathelement}
+## create_math_radical {#imathelement-imathelement}
 Creates a math radical
 
 ### Returns
@@ -32,6 +32,7 @@ def create_math_radical(self, base_argument, degree_argument):
 
 ### See Also
 * class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
+* class [`IMathRadical`](/slides/python-net/aspose.slides.mathtext/imathradical)
 * class [`MathRadicalFactory`](/slides/python-net/aspose.slides.mathtext/mathradicalfactory)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

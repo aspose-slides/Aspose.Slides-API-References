@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## set_internal_hyperlink_mouse_over {#asposeslidesislide}
+## set_internal_hyperlink_mouse_over {#islide}
 Sets internal hyperlink mouse over.
 
 ### Returns
@@ -30,6 +30,7 @@ def set_internal_hyperlink_mouse_over(self, target_slide):
 
 
 ### See Also
+* class [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink)
 * class [`IHyperlinkManager`](/slides/python-net/aspose.slides/ihyperlinkmanager)
 * class [`ISlide`](/slides/python-net/aspose.slides/islide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)

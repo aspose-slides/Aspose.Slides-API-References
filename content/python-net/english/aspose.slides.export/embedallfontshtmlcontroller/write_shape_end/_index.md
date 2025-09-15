@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## write_shape_end {#asposeslidesexportihtmlgenerator-asposeslidesishape}
+## write_shape_end {#ihtmlgenerator-ishape}
 Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous.
 
 

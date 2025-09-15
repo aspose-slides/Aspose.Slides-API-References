@@ -9,8 +9,6 @@ weight: 70
 
 
 ## IFontFallBackRule indexer
-Gets the font name at the specified index.
-
 ## Indexer
 
 | Name | Description |

@@ -8,7 +8,7 @@ weight: 190
 ---
 
 
-## index_of {#asposeslidesishape}
+## index_of {#ishape}
 Returns the zero-based index of the first occurrence of the specified shape in the collection.
 
 ### Returns

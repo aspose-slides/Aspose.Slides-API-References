@@ -37,7 +37,7 @@ def add_audio_frame_embedded(self, x, y, width, height, audio_stream):
 The following examples shows how to create Audio Frame.
 
 
-## add_audio_frame_embedded {#float-float-float-float-asposeslidesiaudio}
+## add_audio_frame_embedded {#float-float-float-float-iaudio}
 Creates a new audio frame and adds it to the end of the shape collection using an
             existing audio object from the Presentation.Audios list.
 

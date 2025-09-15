@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## set_text_format {#asposeslidesiportionformat}
+## set_text_format {#iportionformat}
 
 
 
@@ -23,7 +23,7 @@ def set_text_format(self, source):
 | source | [`IPortionFormat`](/slides/python-net/aspose.slides/iportionformat) |  |
 
 
-## set_text_format {#asposeslidesiparagraphformat}
+## set_text_format {#iparagraphformat}
 
 
 
@@ -38,7 +38,7 @@ def set_text_format(self, source):
 | source | [`IParagraphFormat`](/slides/python-net/aspose.slides/iparagraphformat) |  |
 
 
-## set_text_format {#asposeslidesitextframeformat}
+## set_text_format {#itextframeformat}
 
 
 

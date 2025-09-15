@@ -8,7 +8,7 @@ weight: 120
 ---
 
 
-## add_section_zoom_frame {#float-float-float-float-asposeslidesisection}
+## add_section_zoom_frame {#float-float-float-float-isection}
 Creates a new Section Zoom frame and adds it to the end of the shape collection.
 
 ### Returns
@@ -43,7 +43,7 @@ This example demonstrates adding a Section Zoom object to the end of a collectio
 | **RuntimeError(Proxy error(ArgumentException))** | Thrown if the referenced section does not belong to the current presentation or contains no slides. |
 
 
-## add_section_zoom_frame {#float-float-float-float-asposeslidesisection-asposeslidesippimage}
+## add_section_zoom_frame {#float-float-float-float-isection-ippimage}
 Creates a new Section Zoom frame with a predefined image and adds it to the end of the
             shape collection.
 

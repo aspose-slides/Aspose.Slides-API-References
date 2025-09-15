@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#asposeslideschartsichartdatacell}
+## add {#ichartdatacell}
 Add new cell to the collection.
 
 

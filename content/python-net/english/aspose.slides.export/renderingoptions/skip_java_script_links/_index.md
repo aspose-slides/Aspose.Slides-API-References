@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/renderingoptions/skip_java_script_links/
-weight: 70
+weight: 80
 ---
 
 

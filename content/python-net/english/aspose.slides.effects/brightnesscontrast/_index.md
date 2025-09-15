@@ -16,6 +16,13 @@ Represents a BrightnessContrast effect.
 
 The BrightnessContrast type exposes the following members:
 
+## Properties
+
+| Property | Description |
+| :- | :- |
+| [`slide`](/slides/python-net/aspose.slides.effects/brightnesscontrast/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.effects/brightnesscontrast/presentation/) |  |
+
 ## Methods
 
 | Method | Description |

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#asposeslidesmathtextimathelement-asposeslidesmathtextimathelement}
+## __init__ {#imathelement-imathelement}
 Initializes a new instance of the MathLimit class with lower limit
 
 
@@ -28,7 +28,7 @@ def __init__(self, base_arg, limit):
 Example:
 
 
-## __init__ {#asposeslidesmathtextimathelement-asposeslidesmathtextimathelement-bool}
+## __init__ {#imathelement-imathelement-bool}
 Initializes a new instance of the MathLimit class.
 
 

@@ -9,13 +9,11 @@ weight: 50
 
 
 ## IControlCollection indexer
-Returns a control at the specified position.
-
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| index | Index of a control. |
+| index |  |
 
 
 ### See Also

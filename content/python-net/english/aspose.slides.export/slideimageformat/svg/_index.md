@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## svg {#asposeslidesexportsvgoptions}
+## svg {#svgoptions}
 Slides should converted to a SVG format.
 
 

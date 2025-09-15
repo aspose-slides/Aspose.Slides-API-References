@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## add_data_point_for_doughnut_series {#asposeslideschartsichartdatacell}
+## add_data_point_for_doughnut_series {#ichartdatacell}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Doughnut subtypes (see also [`ChartTypeCharacterizer.is_chart_type_doughnut`](/slides/python-net/aspose.slides.charts/charttypecharacterizer/is_chart_type_doughnut) method).
 
@@ -54,6 +54,7 @@ def add_data_point_for_doughnut_series(self, value):
 ### See Also
 * class [`ChartDataPointCollection`](/slides/python-net/aspose.slides.charts/chartdatapointcollection)
 * class [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell)
+* class [`IChartDataPoint`](/slides/python-net/aspose.slides.charts/ichartdatapoint)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
 

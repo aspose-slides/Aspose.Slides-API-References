@@ -27,6 +27,7 @@ def create_outer_shadow(self):
 
 ### See Also
 * class [`IEffectFactory`](/slides/python-net/aspose.slides.effects/ieffectfactory)
+* class [`IOuterShadow`](/slides/python-net/aspose.slides.effects/ioutershadow)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
 

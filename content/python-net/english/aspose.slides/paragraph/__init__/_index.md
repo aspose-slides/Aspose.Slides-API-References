@@ -19,7 +19,7 @@ def __init__(self):
 
 
 
-## __init__ {#asposeslidesparagraph}
+## __init__ {#paragraph}
 Copy constructor that initializes a new instance of a Paragraph class.
 
 

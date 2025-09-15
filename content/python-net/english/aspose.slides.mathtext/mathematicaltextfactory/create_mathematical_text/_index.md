@@ -24,7 +24,7 @@ def create_mathematical_text(self):
 
 
 
-## create_mathematical_text {#systemchar}
+## create_mathematical_text {#char}
 Create mathematical text element with the specified value
 
 ### Returns
@@ -41,7 +41,7 @@ def create_mathematical_text(self, math_symbol):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| math_symbol | **System.Char** | single symbol to use as text value |
+| math_symbol | **char** | single symbol to use as text value |
 
 
 ## create_mathematical_text {#str}
@@ -64,7 +64,7 @@ def create_mathematical_text(self, math_text):
 | math_text | **str** | text value |
 
 
-## create_mathematical_text {#str-asposeslidesiportionformat}
+## create_mathematical_text {#str-iportionformat}
 Create empty mathematical text element with the specified value and formatting properties
 
 ### Returns
@@ -87,6 +87,7 @@ def create_mathematical_text(self, math_text, portion_format):
 
 
 ### See Also
+* class [`IMathematicalText`](/slides/python-net/aspose.slides.mathtext/imathematicaltext)
 * class [`IPortionFormat`](/slides/python-net/aspose.slides/iportionformat)
 * class [`MathematicalTextFactory`](/slides/python-net/aspose.slides.mathtext/mathematicaltextfactory)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)

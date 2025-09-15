@@ -8,7 +8,7 @@ weight: 140
 ---
 
 
-## set_lower_limit {#asposeslidesmathtextimathelement}
+## set_lower_limit {#imathelement}
 Takes lower limit
 
 ### Returns

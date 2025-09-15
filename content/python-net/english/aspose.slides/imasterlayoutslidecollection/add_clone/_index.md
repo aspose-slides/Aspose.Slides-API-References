@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add_clone {#asposeslidesilayoutslide}
+## add_clone {#ilayoutslide}
 Adds a copy of a specified layout slide to the end of the collection.
 
 ### Returns

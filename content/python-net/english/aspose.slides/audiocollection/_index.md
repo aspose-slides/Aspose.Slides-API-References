@@ -26,9 +26,9 @@ Gets the element at the specified index.
 
 | Method | Description |
 | :- | :- |
-| [`add_audio`](/slides/python-net/aspose.slides/audiocollection/add_audio/#asposeslidesiaudio) | Adds a copy of an audio file from an another presentation. |
+| [`add_audio`](/slides/python-net/aspose.slides/audiocollection/add_audio/#iaudio) | Adds a copy of an audio file from an another presentation. |
 | [`add_audio`](/slides/python-net/aspose.slides/audiocollection/add_audio/#iorawiobase) | Creates and adds a audio to a presentation from stream. |
-| [`add_audio`](/slides/python-net/aspose.slides/audiocollection/add_audio/#iorawiobase-asposeslidesloadingstreambehavior) | Creates and adds a audio to a presentation from stream. |
+| [`add_audio`](/slides/python-net/aspose.slides/audiocollection/add_audio/#iorawiobase-loadingstreambehavior) | Creates and adds a audio to a presentation from stream. |
 | [`add_audio`](/slides/python-net/aspose.slides/audiocollection/add_audio/#bytes) | Creates and adds a audio to a presentation from byte array. |
 
 

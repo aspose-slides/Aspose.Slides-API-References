@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#asposeslidesvbaivbareference}
+## add {#ivbareference}
 Adds the new reference to references collection
 
 

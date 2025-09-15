@@ -30,6 +30,7 @@ def create_bi_level(self, threshold):
 
 
 ### See Also
+* class [`IBiLevel`](/slides/python-net/aspose.slides.effects/ibilevel)
 * class [`IImageTransformOperationFactory`](/slides/python-net/aspose.slides.effects/iimagetransformoperationfactory)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

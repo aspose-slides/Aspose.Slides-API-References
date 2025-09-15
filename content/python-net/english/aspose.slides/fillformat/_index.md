@@ -25,6 +25,8 @@ The FillFormat type exposes the following members:
 | [`pattern_format`](/slides/python-net/aspose.slides/fillformat/pattern_format/) | Returns the pattern fill format.<br/>            Read-only [`IPatternFormat`](/slides/python-net/aspose.slides/ipatternformat). |
 | [`picture_fill_format`](/slides/python-net/aspose.slides/fillformat/picture_fill_format/) | Returns the picture fill format.<br/>            Read-only [`IPictureFillFormat`](/slides/python-net/aspose.slides/ipicturefillformat). |
 | [`rotate_with_shape`](/slides/python-net/aspose.slides/fillformat/rotate_with_shape/) | Determines whether the fill should be rotated with shape.<br/>            Read/write [`NullableBool`](/slides/python-net/aspose.slides/nullablebool). |
+| [`slide`](/slides/python-net/aspose.slides/fillformat/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides/fillformat/presentation/) |  |
 
 ## Methods
 

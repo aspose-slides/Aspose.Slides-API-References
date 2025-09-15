@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add_empty_slide {#asposeslidesilayoutslide}
+## add_empty_slide {#ilayoutslide}
 Adds a new empty slide to the end of the collection.
 
 ### Returns
@@ -31,6 +31,7 @@ def add_empty_slide(self, layout):
 
 ### See Also
 * class [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide)
+* class [`ISlide`](/slides/python-net/aspose.slides/islide)
 * class [`SlideCollection`](/slides/python-net/aspose.slides/slidecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

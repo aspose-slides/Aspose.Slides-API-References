@@ -21,6 +21,8 @@ The AlphaModulateFixed type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`amount`](/slides/python-net/aspose.slides.effects/alphamodulatefixed/amount/) | Returns an amount of effect in percents.<br/>            Read/write **float**. |
+| [`slide`](/slides/python-net/aspose.slides.effects/alphamodulatefixed/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.effects/alphamodulatefixed/presentation/) |  |
 
 ## Methods
 

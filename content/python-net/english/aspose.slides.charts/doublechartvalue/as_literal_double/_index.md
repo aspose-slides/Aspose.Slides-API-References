@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/doublechartvalue/as_literal_double/
-weight: 30
+weight: 50
 ---
 
 

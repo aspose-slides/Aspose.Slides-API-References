@@ -17,7 +17,8 @@ The ISvgShapeAndTextFormattingController type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`format_text`](/slides/python-net/aspose.slides.export/isvgshapeandtextformattingcontroller/format_text/#asposeslidesexportisvgtspan-asposeslidesiportion-asposeslidesitextframe) | This function is called before rendering of text portion to SVG to allow user to control resulting SVG. |
+| [`format_text`](/slides/python-net/aspose.slides.export/isvgshapeandtextformattingcontroller/format_text/#isvgtspan-iportion-itextframe) | This function is called before rendering of text portion to SVG to allow user to control resulting SVG. |
+| [`format_shape`](/slides/python-net/aspose.slides.export/isvgshapeandtextformattingcontroller/format_shape/#isvgshape-ishape) |  |
 
 
 ### Examples

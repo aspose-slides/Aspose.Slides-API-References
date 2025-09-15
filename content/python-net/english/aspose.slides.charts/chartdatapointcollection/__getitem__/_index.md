@@ -9,8 +9,6 @@ weight: 220
 
 
 ## ChartDataPointCollection indexer
-Returns the series data point by index (its serial number in this collection).
-
 ## Indexer
 
 | Name | Description |

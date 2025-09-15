@@ -27,6 +27,7 @@ The IConnectorLock type exposes the following members:
 | [`adjust_handles_locked`](/slides/python-net/aspose.slides/iconnectorlock/adjust_handles_locked/) | Determines whether a changing adjust values is forbidden.<br/>            Read/write **bool**. |
 | [`arrowheads_locked`](/slides/python-net/aspose.slides/iconnectorlock/arrowheads_locked/) | Determines whether a changing arrowheads is forbidden.<br/>            Read/write **bool**. |
 | [`shape_type_locked`](/slides/python-net/aspose.slides/iconnectorlock/shape_type_locked/) | Determines whether a changing of a shape type is forbidden.<br/>            Read/write **bool**. |
+| [`no_locks`](/slides/python-net/aspose.slides/iconnectorlock/no_locks/) |  |
 
 
 ### See Also

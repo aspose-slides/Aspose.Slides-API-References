@@ -16,6 +16,13 @@ Represents a Hue/Saturation/Luminance effect.
 
 The HSL type exposes the following members:
 
+## Properties
+
+| Property | Description |
+| :- | :- |
+| [`slide`](/slides/python-net/aspose.slides.effects/hsl/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.effects/hsl/presentation/) |  |
+
 ## Methods
 
 | Method | Description |

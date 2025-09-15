@@ -29,6 +29,12 @@ The Legend type exposes the following members:
 | [`format`](/slides/python-net/aspose.slides.charts/legend/format/) | Returns the format of a legend.<br/>            Read-only [`IFormat`](/slides/python-net/aspose.slides.charts/iformat). |
 | [`chart`](/slides/python-net/aspose.slides.charts/legend/chart/) | Returns the chart.<br/>            Read-only [`IChart`](/slides/python-net/aspose.slides.charts/ichart). |
 | [`entries`](/slides/python-net/aspose.slides.charts/legend/entries/) | Gets legend entries.<br/>            Read-only [`ILegendEntryCollection`](/slides/python-net/aspose.slides.charts/ilegendentrycollection). |
+| [`actual_x`](/slides/python-net/aspose.slides.charts/legend/actual_x/) | Specifies actual x location (left) of the chart element relative to the left top corner of the chart.<br/>            Call method IChart.ValidateChartLayout() before to get actual values. <br/>            Read **float**. |
+| [`actual_y`](/slides/python-net/aspose.slides.charts/legend/actual_y/) | Specifies actual top of the chart element relative to the left top corner of the chart.<br/>            Call method IChart.ValidateChartLayout() before to get actual values. <br/>            Read **float**. |
+| [`actual_width`](/slides/python-net/aspose.slides.charts/legend/actual_width/) | Specifies actual width of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. <br/>            Read **float**. |
+| [`actual_height`](/slides/python-net/aspose.slides.charts/legend/actual_height/) | Specifies actual height of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. <br/>            Read **float**. |
+| [`slide`](/slides/python-net/aspose.slides.charts/legend/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.charts/legend/presentation/) |  |
 
 
 ### See Also

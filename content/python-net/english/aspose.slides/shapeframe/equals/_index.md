@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## equals {#asposeslidesshapeframe}
+## equals {#shapeframe}
 Returns a value indicating whether this instance is equal to a specified object.
 
 ### Returns

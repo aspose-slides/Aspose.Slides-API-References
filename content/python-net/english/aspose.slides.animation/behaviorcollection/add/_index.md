@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#asposeslidesanimationibehavior}
+## add {#ibehavior}
 Add new behavior to a collection.
 
 

@@ -17,7 +17,7 @@ The IMathSuperscriptElementFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`create_math_superscript_element`](/slides/python-net/aspose.slides.mathtext/imathsuperscriptelementfactory/create_math_superscript_element/#asposeslidesmathtextimathelement-asposeslidesmathtextimathelement) | Creates IMathSuperscriptElement |
+| [`create_math_superscript_element`](/slides/python-net/aspose.slides.mathtext/imathsuperscriptelementfactory/create_math_superscript_element/#imathelement-imathelement) | Creates IMathSuperscriptElement |
 
 
 ### Remarks

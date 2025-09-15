@@ -15,6 +15,13 @@ Represents a collection of effects apllied to an image.
 
 The ImageTransformOperationCollection type exposes the following members:
 
+## Properties
+
+| Property | Description |
+| :- | :- |
+| [`slide`](/slides/python-net/aspose.slides.effects/imagetransformoperationcollection/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.effects/imagetransformoperationcollection/presentation/) |  |
+
 Returns an [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation) from the collection by it's index.
 
 ## Indexer

@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_math_right_sub_superscript_element {#asposeslidesmathtextimathelement-asposeslidesmathtextimathelement-asposeslidesmathtextimathelement}
+## create_math_right_sub_superscript_element {#imathelement-imathelement-imathelement}
 Creates an instance of IMathRightSubSuperscriptElementFactory
 
 ### Returns
@@ -33,6 +33,7 @@ def create_math_right_sub_superscript_element(self, base_arg, sub_script, super_
 
 ### See Also
 * class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
+* class [`IMathRightSubSuperscriptElement`](/slides/python-net/aspose.slides.mathtext/imathrightsubsuperscriptelement)
 * class [`MathRightSubSuperscriptElementFactory`](/slides/python-net/aspose.slides.mathtext/mathrightsubsuperscriptelementfactory)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

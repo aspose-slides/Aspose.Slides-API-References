@@ -57,7 +57,7 @@ def get_custom_property_value(self, name, value):
 
 
 ## get_custom_property_value {#str-any}
-Gets a named string value from the custom properties.
+
 
 
 ```python
@@ -68,12 +68,12 @@ def get_custom_property_value(self, name, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name | **str** | Name of the custom property to get |
-| value | **Any** | Custom property value |
+| name | **str** |  |
+| value | **Any** |  |
 
 
 ## get_custom_property_value {#str-any}
-Gets a named float value from the custom properties.
+
 
 
 ```python
@@ -84,12 +84,12 @@ def get_custom_property_value(self, name, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name | **str** | Name of the custom property to get |
-| value | **Any** | Custom property value |
+| name | **str** |  |
+| value | **Any** |  |
 
 
 ## get_custom_property_value {#str-any}
-Gets a named double value from the custom properties.
+
 
 
 ```python
@@ -100,8 +100,8 @@ def get_custom_property_value(self, name, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name | **str** | Name of the custom property to get. |
-| value | **Any** | Custom property value |
+| name | **str** |  |
+| value | **Any** |  |
 
 
 

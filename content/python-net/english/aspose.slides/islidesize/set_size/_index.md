@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## set_size {#asposeslidesslidesizetype-asposeslidesslidesizescaletype}
+## set_size {#slidesizetype-slidesizescaletype}
 Sets the slide size by type and scales existing content.
 
 
@@ -29,7 +29,7 @@ Assigning any value other than [`SlideSizeType.CUSTOM`](/slides/python-net/aspos
             based on the selected type, while preserving [`ISlideSize.orientation`](/slides/python-net/aspose.slides/islidesize/orientation).
 
 
-## set_size {#float-float-asposeslidesslidesizescaletype}
+## set_size {#float-float-slidesizescaletype}
 Sets the slide dimensions explicitly and scales existing content.
 
 

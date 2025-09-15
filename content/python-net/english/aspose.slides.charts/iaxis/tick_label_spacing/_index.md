@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/iaxis/tick_label_spacing/
-weight: 530
+weight: 600
 ---
 
 

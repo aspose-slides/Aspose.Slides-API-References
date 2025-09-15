@@ -17,6 +17,13 @@ Represents a Luminance effect.
 
 The Luminance type exposes the following members:
 
+## Properties
+
+| Property | Description |
+| :- | :- |
+| [`slide`](/slides/python-net/aspose.slides.effects/luminance/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.effects/luminance/presentation/) |  |
+
 ## Methods
 
 | Method | Description |

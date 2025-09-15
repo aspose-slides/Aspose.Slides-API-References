@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## get_text_boxes_contains_text {#asposeslidesibaseslide-str-bool}
+## get_text_boxes_contains_text {#ibaseslide-str-bool}
 Returns all text frames on the specified slide that contain the given text.
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## set_event_handler {#asposeslidesexportsvgevent-str}
+## set_event_handler {#svgevent-str}
 Sets event handler for the shape
 
 

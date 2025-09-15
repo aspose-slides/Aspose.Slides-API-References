@@ -23,19 +23,21 @@ The ITextFrame type exposes the following members:
 | [`hyperlink_queries`](/slides/python-net/aspose.slides/itextframe/hyperlink_queries/) | Provides easy access to contained hyperlinks.<br/>            Read-only [`IHyperlinkQueries`](/slides/python-net/aspose.slides/ihyperlinkqueries). |
 | [`parent_shape`](/slides/python-net/aspose.slides/itextframe/parent_shape/) | Returns the parent shape or None if the parent object does not implement the IShape interface<br/>            Read-only [`IShape`](/slides/python-net/aspose.slides/ishape). |
 | [`parent_cell`](/slides/python-net/aspose.slides/itextframe/parent_cell/) | Returns the parent cell or None if the parent object does not implement the ICell interface.<br/>            Read-only [`ICell`](/slides/python-net/aspose.slides/icell). |
+| [`slide`](/slides/python-net/aspose.slides/itextframe/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides/itextframe/presentation/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
 | [`highlight_text`](/slides/python-net/aspose.slides/itextframe/highlight_text/#str-asposepydrawingcolor) | Highlights all matches of the sample text with the specified color. |
-| [`highlight_text`](/slides/python-net/aspose.slides/itextframe/highlight_text/#str-asposepydrawingcolor-asposeslidesitexthighlightingoptions) | Highlights all matches of the sample text with the specified color. |
-| [`highlight_text`](/slides/python-net/aspose.slides/itextframe/highlight_text/#str-asposepydrawingcolor-asposeslidesitextsearchoptions-asposeslidesifindresultcallback) | Highlights all matches of the sample text with the specified color. |
+| [`highlight_text`](/slides/python-net/aspose.slides/itextframe/highlight_text/#str-asposepydrawingcolor-itexthighlightingoptions) | Highlights all matches of the sample text with the specified color. |
+| [`highlight_text`](/slides/python-net/aspose.slides/itextframe/highlight_text/#str-asposepydrawingcolor-itextsearchoptions-ifindresultcallback) | Highlights all matches of the sample text with the specified color. |
 | [`highlight_regex`](/slides/python-net/aspose.slides/itextframe/highlight_regex/#str-asposepydrawingcolor) |  |
-| [`highlight_regex`](/slides/python-net/aspose.slides/itextframe/highlight_regex/#str-asposepydrawingcolor-asposeslidesitexthighlightingoptions) | Highlights all matches of the regular expression with the specified color. |
+| [`highlight_regex`](/slides/python-net/aspose.slides/itextframe/highlight_regex/#str-asposepydrawingcolor-itexthighlightingoptions) | Highlights all matches of the regular expression with the specified color. |
 | [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/itextframe/join_portions_with_same_formatting/#) | Joins runs with same formatting in all paragraphs. |
 | [`split_text_by_columns`](/slides/python-net/aspose.slides/itextframe/split_text_by_columns/#) | Splits the text content of the [`ITextFrame`](/slides/python-net/aspose.slides/itextframe) into an array of strings,  <br/>            where each element corresponds to a separate text column within the frame. |
-| [`replace_text`](/slides/python-net/aspose.slides/itextframe/replace_text/#str-str-asposeslidesitextsearchoptions-asposeslidesifindresultcallback) | Replaces all occurrences of the specified text with another specified text. |
+| [`replace_text`](/slides/python-net/aspose.slides/itextframe/replace_text/#str-str-itextsearchoptions-ifindresultcallback) | Replaces all occurrences of the specified text with another specified text. |
 | [`replace_regex`](/slides/python-net/aspose.slides/itextframe/replace_regex/#str-str) |  |
 
 

@@ -9,8 +9,6 @@ weight: 20
 
 
 ## PointCollection indexer
-Returns a point at the specified index.
-
 ## Indexer
 
 | Name | Description |

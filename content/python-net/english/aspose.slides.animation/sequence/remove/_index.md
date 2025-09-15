@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## remove {#asposeslidesanimationieffect}
+## remove {#ieffect}
 Removes specified effect from a collection.
 
 

@@ -8,7 +8,7 @@ weight: 200
 ---
 
 
-## is_series_uses_x_value_coordinate {#asposeslideschartscharttype}
+## is_series_uses_x_value_coordinate {#charttype}
 Returns if specified series type uses X value coordinates.
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## shapes {#asposeslidespresentation}
+## shapes {#presentation}
 Collects all instances of [`Shape`](/slides/python-net/aspose.slides/shape) in the [`Presentation`](/slides/python-net/aspose.slides/presentation).
 
 ### Returns

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.smartart/smartart/office_interop_shape_id/
-weight: 310
+weight: 360
 ---
 
 

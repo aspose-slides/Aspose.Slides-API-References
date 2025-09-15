@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## index_of {#asposeslideschartsichartseries}
+## index_of {#ichartseries}
 Searches for the specified [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries) and returns the zero-based index of the first occurrence within the entire Collection
 
 ### Returns

@@ -32,14 +32,14 @@ Retirns a behavior at the specified index.
 
 | Method | Description |
 | :- | :- |
-| [`add`](/slides/python-net/aspose.slides.animation/behaviorcollection/add/#asposeslidesanimationibehavior) | Add new behavior to a collection. |
-| [`index_of`](/slides/python-net/aspose.slides.animation/behaviorcollection/index_of/#asposeslidesanimationibehavior) | Determines the index of a specific item in the **System.Collections.Generic.IList`1**. |
-| [`insert`](/slides/python-net/aspose.slides.animation/behaviorcollection/insert/#int-asposeslidesanimationibehavior) | Inserts new behavior to a collection at the specified index. |
-| [`copy_to`](/slides/python-net/aspose.slides.animation/behaviorcollection/copy_to/#listasposeslidesanimationibehavior-int) | Copies the elements of the **System.Collections.Generic.ICollection`1** to an **System.Array**, starting at a particular **System.Array** index. |
-| [`remove`](/slides/python-net/aspose.slides.animation/behaviorcollection/remove/#asposeslidesanimationibehavior) | Removes specified behavior from a collection. |
+| [`add`](/slides/python-net/aspose.slides.animation/behaviorcollection/add/#ibehavior) | Add new behavior to a collection. |
+| [`index_of`](/slides/python-net/aspose.slides.animation/behaviorcollection/index_of/#ibehavior) | Determines the index of a specific item in the **System.Collections.Generic.IList`1**. |
+| [`insert`](/slides/python-net/aspose.slides.animation/behaviorcollection/insert/#int-ibehavior) | Inserts new behavior to a collection at the specified index. |
+| [`copy_to`](/slides/python-net/aspose.slides.animation/behaviorcollection/copy_to/#listibehavior-int) | Copies the elements of the **System.Collections.Generic.ICollection`1** to an **System.Array**, starting at a particular **System.Array** index. |
+| [`remove`](/slides/python-net/aspose.slides.animation/behaviorcollection/remove/#ibehavior) | Removes specified behavior from a collection. |
 | [`remove_at`](/slides/python-net/aspose.slides.animation/behaviorcollection/remove_at/#int) | Removes behavior from a collection at the specified index. |
 | [`clear`](/slides/python-net/aspose.slides.animation/behaviorcollection/clear/#) | Removes all behaviors from a collection. |
-| [`contains`](/slides/python-net/aspose.slides.animation/behaviorcollection/contains/#asposeslidesanimationibehavior) | Determines whether the **System.Collections.Generic.ICollection`1** contains a specific value. |
+| [`contains`](/slides/python-net/aspose.slides.animation/behaviorcollection/contains/#ibehavior) | Determines whether the **System.Collections.Generic.ICollection`1** contains a specific value. |
 
 
 ### See Also

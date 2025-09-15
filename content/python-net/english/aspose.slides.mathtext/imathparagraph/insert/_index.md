@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## insert {#int-asposeslidesmathtextimathblock}
+## insert {#int-imathblock}
 
 
 

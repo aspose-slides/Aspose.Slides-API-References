@@ -26,8 +26,8 @@ Gets the element at the specified index.
 
 | Method | Description |
 | :- | :- |
-| [`add_video`](/slides/python-net/aspose.slides/ivideocollection/add_video/#asposeslidesivideo) | Adds a copy of an video file from an another presentation. |
-| [`add_video`](/slides/python-net/aspose.slides/ivideocollection/add_video/#iorawiobase-asposeslidesloadingstreambehavior) | Creates and adds a video to a presentation from stream. |
+| [`add_video`](/slides/python-net/aspose.slides/ivideocollection/add_video/#ivideo) | Adds a copy of an video file from an another presentation. |
+| [`add_video`](/slides/python-net/aspose.slides/ivideocollection/add_video/#iorawiobase-loadingstreambehavior) | Creates and adds a video to a presentation from stream. |
 | [`add_video`](/slides/python-net/aspose.slides/ivideocollection/add_video/#bytes) | Creates and adds a video to a presentation from byte array. |
 
 

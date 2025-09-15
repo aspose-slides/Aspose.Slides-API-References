@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## equals {#asposeslidesibaseslide}
+## equals {#ibaseslide}
 Determines whether the two IBaseSlide instances are equal.
             Returning value is calculated based on slide's structure and static content.
             Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder.

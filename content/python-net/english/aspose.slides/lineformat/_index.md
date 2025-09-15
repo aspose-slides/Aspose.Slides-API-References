@@ -36,12 +36,14 @@ The LineFormat type exposes the following members:
 | [`end_arrowhead_width`](/slides/python-net/aspose.slides/lineformat/end_arrowhead_width/) | Returns or sets the arrowhead width at the end of a line.<br/>            Read/write [`LineArrowheadWidth`](/slides/python-net/aspose.slides/linearrowheadwidth). |
 | [`begin_arrowhead_length`](/slides/python-net/aspose.slides/lineformat/begin_arrowhead_length/) | Returns or sets the arrowhead length at the beginning of a line.<br/>            Read/write [`LineArrowheadLength`](/slides/python-net/aspose.slides/linearrowheadlength). |
 | [`end_arrowhead_length`](/slides/python-net/aspose.slides/lineformat/end_arrowhead_length/) | Returns or sets the arrowhead length at the end of a line.<br/>            Read/write [`LineArrowheadLength`](/slides/python-net/aspose.slides/linearrowheadlength). |
+| [`slide`](/slides/python-net/aspose.slides/lineformat/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides/lineformat/presentation/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [`equals`](/slides/python-net/aspose.slides/lineformat/equals/#asposeslidesilineformat) | Determines whether the two LineFormat instances are equal. |
+| [`equals`](/slides/python-net/aspose.slides/lineformat/equals/#ilineformat) | Determines whether the two LineFormat instances are equal. |
 | [`get_effective`](/slides/python-net/aspose.slides/lineformat/get_effective/#) | Gets effective line formatting data with the inheritance applied. |
 
 

@@ -8,7 +8,7 @@ weight: 220
 ---
 
 
-## remove {#asposeslidesmathtextimathelement}
+## remove {#imathelement}
 Removes the first occurrence of a specific object from the collection.
 
 ### Returns

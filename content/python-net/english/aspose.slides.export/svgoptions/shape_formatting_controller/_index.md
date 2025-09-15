@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/svgoptions/shape_formatting_controller/
-weight: 160
+weight: 170
 ---
 
 

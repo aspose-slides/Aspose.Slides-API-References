@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/axis/is_number_format_linked_to_source/
-weight: 280
+weight: 320
 ---
 
 

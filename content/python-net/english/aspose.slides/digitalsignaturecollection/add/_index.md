@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#asposeslidesidigitalsignature}
+## add {#idigitalsignature}
 Adds the signature at the end of collection.
 
 

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/axis/major_grid_lines_format/
-weight: 350
+weight: 390
 ---
 
 

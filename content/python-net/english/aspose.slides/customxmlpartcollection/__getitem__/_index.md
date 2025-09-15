@@ -9,13 +9,11 @@ weight: 50
 
 
 ## CustomXmlPartCollection indexer
-Returns the element at the specified index.
-
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| index | The zero-based index of the element to get. |
+| index |  |
 
 
 ### See Also

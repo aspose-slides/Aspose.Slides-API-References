@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/chartseries/bar_3d_shape/
-weight: 20
+weight: 50
 ---
 
 

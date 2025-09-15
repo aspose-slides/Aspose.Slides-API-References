@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## add_connector {#asposeslidesshapetype-float-float-float-float}
+## add_connector {#shapetype-float-float-float-float}
 Creates a new connector shape with default template styling and adds it to the end of the
             shape collection.
 
@@ -33,7 +33,7 @@ def add_connector(self, shape_type, x, y, width, height):
 | height | **float** | The height of the connector’s frame, in points. |
 
 
-## add_connector {#asposeslidesshapetype-float-float-float-float-bool}
+## add_connector {#shapetype-float-float-float-float-bool}
 Creates a new connector shape and adds it to the end of the shape collection,
             optionally applying default template styling.
 

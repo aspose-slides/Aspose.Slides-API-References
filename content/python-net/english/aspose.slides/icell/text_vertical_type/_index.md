@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/icell/text_vertical_type/
-weight: 260
+weight: 290
 ---
 
 

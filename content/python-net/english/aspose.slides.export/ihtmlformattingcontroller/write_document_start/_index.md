@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## write_document_start {#asposeslidesexportihtmlgenerator-asposeslidesipresentation}
+## write_document_start {#ihtmlgenerator-ipresentation}
 Called to write html document header. Called once per presentation conversion.
 
 

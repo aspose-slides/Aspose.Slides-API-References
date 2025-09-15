@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add {#asposeslidesanimationmotioncommandpathtype-listasposepydrawingpointf-asposeslidesanimationmotionpathpointstype-bool}
+## add {#motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
 Add new command to path
 
 
@@ -28,6 +28,7 @@ def add(self, type, pts, pts_type, b_relative_coord):
 
 
 ### See Also
+* class [`IMotionCmdPath`](/slides/python-net/aspose.slides.animation/imotioncmdpath)
 * enumeration [`MotionCommandPathType`](/slides/python-net/aspose.slides.animation/motioncommandpathtype)
 * class [`MotionPath`](/slides/python-net/aspose.slides.animation/motionpath)
 * enumeration [`MotionPathPointsType`](/slides/python-net/aspose.slides.animation/motionpathpointstype)

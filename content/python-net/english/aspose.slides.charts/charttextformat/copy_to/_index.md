@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## copy_to {#asposeslidesitextframe}
+## copy_to {#itextframe}
 Copies text format to specified text frame.
 
 

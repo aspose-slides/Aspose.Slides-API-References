@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/idatalabelformat/show_percentage/
-weight: 130
+weight: 180
 ---
 
 

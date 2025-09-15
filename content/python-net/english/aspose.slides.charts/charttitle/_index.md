@@ -27,7 +27,13 @@ The ChartTitle type exposes the following members:
 | [`format`](/slides/python-net/aspose.slides.charts/charttitle/format/) | Returns the fill, line, effect styles of a title.<br/>            Read-only [`IFormat`](/slides/python-net/aspose.slides.charts/iformat). |
 | [`text_frame_for_overriding`](/slides/python-net/aspose.slides.charts/charttitle/text_frame_for_overriding/) | Can contain a rich formatted text. If this property is not None then this <br/>            formatted text value overrides auto-generated text.<br/>            Auto-generated text is an implicit property of the data label, the display <br/>            unit label of the value axis, the axis title, the chart title, the label of the trendline.<br/>            Auto-generated text is formatted with the IFormattedTextContainer.TextFormat property.<br/>            Read-only [`ITextFrame`](/slides/python-net/aspose.slides/itextframe). |
 | [`text_format`](/slides/python-net/aspose.slides.charts/charttitle/text_format/) | Returns text format.<br/>            Read-only [`IChartTextFormat`](/slides/python-net/aspose.slides.charts/icharttextformat). |
+| [`actual_x`](/slides/python-net/aspose.slides.charts/charttitle/actual_x/) | Specifies actual x location (left) of the chart element relative to the left top corner of the chart.<br/>            Call method IChart.ValidateChartLayout() before to get actual values. <br/>            Read **float**. |
+| [`actual_y`](/slides/python-net/aspose.slides.charts/charttitle/actual_y/) | Specifies actual top of the chart element relative to the left top corner of the chart.<br/>            Call method IChart.ValidateChartLayout() before to get actual values. <br/>            Read **float**. |
+| [`actual_width`](/slides/python-net/aspose.slides.charts/charttitle/actual_width/) | Specifies actual width of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. <br/>            Read **float**. |
+| [`actual_height`](/slides/python-net/aspose.slides.charts/charttitle/actual_height/) | Specifies actual height of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. <br/>            Read **float**. |
 | [`chart`](/slides/python-net/aspose.slides.charts/charttitle/chart/) | Returns the parent chart.<br/>            Read-only [`IChart`](/slides/python-net/aspose.slides.charts/ichart). |
+| [`slide`](/slides/python-net/aspose.slides.charts/charttitle/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.charts/charttitle/presentation/) |  |
 
 ## Methods
 

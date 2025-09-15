@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## as_argument_of_function {#asposeslidesmathtextimathelement}
+## as_argument_of_function {#imathelement}
 
 
 
@@ -38,7 +38,7 @@ def as_argument_of_function(self, function_name):
 | function_name | **str** |  |
 
 
-## as_argument_of_function {#asposeslidesmathtextmathfunctionsofoneargument}
+## as_argument_of_function {#mathfunctionsofoneargument}
 
 
 
@@ -53,7 +53,7 @@ def as_argument_of_function(self, function_type):
 | function_type | [`MathFunctionsOfOneArgument`](/slides/python-net/aspose.slides.mathtext/mathfunctionsofoneargument) |  |
 
 
-## as_argument_of_function {#asposeslidesmathtextmathfunctionsoftwoarguments-asposeslidesmathtextimathelement}
+## as_argument_of_function {#mathfunctionsoftwoarguments-imathelement}
 
 
 
@@ -69,7 +69,7 @@ def as_argument_of_function(self, function_type, additional_argument):
 | additional_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
 
 
-## as_argument_of_function {#asposeslidesmathtextmathfunctionsoftwoarguments-str}
+## as_argument_of_function {#mathfunctionsoftwoarguments-str}
 
 
 
@@ -89,6 +89,7 @@ def as_argument_of_function(self, function_type, additional_argument):
 ### See Also
 * class [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock)
 * class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
+* class [`IMathFunction`](/slides/python-net/aspose.slides.mathtext/imathfunction)
 * enumeration [`MathFunctionsOfOneArgument`](/slides/python-net/aspose.slides.mathtext/mathfunctionsofoneargument)
 * enumeration [`MathFunctionsOfTwoArguments`](/slides/python-net/aspose.slides.mathtext/mathfunctionsoftwoarguments)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)

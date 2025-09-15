@@ -22,6 +22,8 @@ The IBackground type exposes the following members:
 | [`effect_format`](/slides/python-net/aspose.slides/ibackground/effect_format/) | Returns a EffectFormat for BackgroundType.OwnBackground fill.<br/>            Read-only [`IEffectFormat`](/slides/python-net/aspose.slides/ieffectformat). |
 | [`style_color`](/slides/python-net/aspose.slides/ibackground/style_color/) | Returns a ColorFormat for a BackgroundType.Themed fill.<br/>            Read-only [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
 | [`style_index`](/slides/python-net/aspose.slides/ibackground/style_index/) | Returns an index of BackgroundType.Themed fill in background theme collection.<br/>            0 means no fill.<br/>            1..999 - index.<br/>            Read/write **int**. |
+| [`slide`](/slides/python-net/aspose.slides/ibackground/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides/ibackground/presentation/) |  |
 
 ## Methods
 

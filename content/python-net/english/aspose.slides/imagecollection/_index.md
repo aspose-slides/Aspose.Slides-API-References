@@ -26,13 +26,13 @@ Gets the element at the specified index.
 
 | Method | Description |
 | :- | :- |
-| [`add_image`](/slides/python-net/aspose.slides/imagecollection/add_image/#asposeslidesippimage) | Adds a copy of an image from an another presentation. |
+| [`add_image`](/slides/python-net/aspose.slides/imagecollection/add_image/#ippimage) | Adds a copy of an image from an another presentation. |
 | [`add_image`](/slides/python-net/aspose.slides/imagecollection/add_image/#asposepydrawingimage) | Add an image to a presentation. |
-| [`add_image`](/slides/python-net/aspose.slides/imagecollection/add_image/#asposeslidesiimage) | Add an image to a presentation. |
+| [`add_image`](/slides/python-net/aspose.slides/imagecollection/add_image/#iimage) | Add an image to a presentation. |
 | [`add_image`](/slides/python-net/aspose.slides/imagecollection/add_image/#iorawiobase) | Add an image to a presentation from stream. |
-| [`add_image`](/slides/python-net/aspose.slides/imagecollection/add_image/#iorawiobase-asposeslidesloadingstreambehavior) | Creates and adds an image to a presentation from stream. |
+| [`add_image`](/slides/python-net/aspose.slides/imagecollection/add_image/#iorawiobase-loadingstreambehavior) | Creates and adds an image to a presentation from stream. |
 | [`add_image`](/slides/python-net/aspose.slides/imagecollection/add_image/#bytes) | Adds an image to a presentation from specified buffer. |
-| [`add_image`](/slides/python-net/aspose.slides/imagecollection/add_image/#asposeslidesisvgimage) | Add an image to a presentation from Svg object. |
+| [`add_image`](/slides/python-net/aspose.slides/imagecollection/add_image/#isvgimage) | Add an image to a presentation from Svg object. |
 
 
 ### See Also

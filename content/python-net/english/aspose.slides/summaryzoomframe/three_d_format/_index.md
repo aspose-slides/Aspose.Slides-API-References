@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/summaryzoomframe/three_d_format/
-weight: 360
+weight: 410
 ---
 
 

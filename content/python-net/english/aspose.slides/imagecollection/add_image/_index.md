@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_image {#asposeslidesippimage}
+## add_image {#ippimage}
 Adds a copy of an image from an another presentation.
 
 ### Returns
@@ -52,7 +52,7 @@ def add_image(self, image):
 This method converts WMF/EMF metafiles to raster PNG image before inserting to a presentation.
 
 
-## add_image {#asposeslidesiimage}
+## add_image {#iimage}
 Add an image to a presentation.
 
 ### Returns
@@ -120,7 +120,7 @@ def add_image(self, buffer):
 | buffer | **bytes** | Buffer. |
 
 
-## add_image {#asposeslidesisvgimage}
+## add_image {#isvgimage}
 Add an image to a presentation from Svg object.
 
 ### Returns
@@ -146,7 +146,7 @@ def add_image(self, svg_image):
 | **RuntimeError(Proxy error(ArgumentNullException))** | When svgImage parameter is None. |
 
 
-## add_image {#iorawiobase-asposeslidesloadingstreambehavior}
+## add_image {#iorawiobase-loadingstreambehavior}
 Creates and adds an image to a presentation from stream.
 
 ### Returns

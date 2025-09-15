@@ -31,8 +31,8 @@ Gets the element at the specified index.
 
 | Method | Description |
 | :- | :- |
-| [`add`](/slides/python-net/aspose.slides/fontsubstrulecollection/add/#asposeslidesifontsubstrule) | Adds the new font substitution rule to the collection |
-| [`remove`](/slides/python-net/aspose.slides/fontsubstrulecollection/remove/#asposeslidesifontsubstrule) | Removes the first occurrence of a specific object from the collection. |
+| [`add`](/slides/python-net/aspose.slides/fontsubstrulecollection/add/#ifontsubstrule) | Adds the new font substitution rule to the collection |
+| [`remove`](/slides/python-net/aspose.slides/fontsubstrulecollection/remove/#ifontsubstrule) | Removes the first occurrence of a specific object from the collection. |
 
 
 ### See Also

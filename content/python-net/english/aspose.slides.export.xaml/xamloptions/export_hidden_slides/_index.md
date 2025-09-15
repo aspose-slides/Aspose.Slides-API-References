@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export.xaml/xamloptions/export_hidden_slides/
-weight: 30
+weight: 40
 ---
 
 

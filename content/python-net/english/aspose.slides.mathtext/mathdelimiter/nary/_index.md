@@ -8,7 +8,7 @@ weight: 120
 ---
 
 
-## nary {#asposeslidesmathtextmathnaryoperatortypes-asposeslidesmathtextimathelement-asposeslidesmathtextimathelement}
+## nary {#mathnaryoperatortypes-imathelement-imathelement}
 Creates a N-ary operator
 
 ### Returns
@@ -34,7 +34,7 @@ def nary(self, type, lower_limit, upper_limit):
 Example:
 
 
-## nary {#asposeslidesmathtextmathnaryoperatortypes-str-str}
+## nary {#mathnaryoperatortypes-str-str}
 Creates a N-ary operator
 
 ### Returns

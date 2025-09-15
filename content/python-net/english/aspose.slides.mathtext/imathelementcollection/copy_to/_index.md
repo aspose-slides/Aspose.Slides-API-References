@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## copy_to {#listasposeslidesmathtextimathelement-int}
+## copy_to {#listimathelement-int}
 Copy to specified array.
 
 
@@ -20,7 +20,7 @@ def copy_to(self, array, array_index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| array | **List[aspose.slides.mathtext.IMathElement]** | Array to copy to. |
+| array | **List[IMathElement]** | Array to copy to. |
 | array_index | **int** | Index to begin copying. |
 
 ### Examples

@@ -17,10 +17,10 @@ The ExcelWorkbookImporter type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`add_chart_from_workbook`](/slides/python-net/aspose.slides.importing/excelworkbookimporter/add_chart_from_workbook/#asposeslidesishapecollection-float-float-asposeslidesexceliexceldataworkbook-str-int-bool) | Retrieves a chart from the specified Excel workbook and adds it to the end of the given shape collection at the specified coordinates. |
-| [`add_chart_from_workbook`](/slides/python-net/aspose.slides.importing/excelworkbookimporter/add_chart_from_workbook/#asposeslidesishapecollection-float-float-asposeslidesexceliexceldataworkbook-str-str-bool) | Retrieves a chart from the specified Excel workbook and adds it to the end of the given shape collection at the specified coordinates. |
-| [`add_chart_from_workbook`](/slides/python-net/aspose.slides.importing/excelworkbookimporter/add_chart_from_workbook/#asposeslidesishapecollection-float-float-iorawiobase-str-str-bool) | Retrieves a chart from the specified Excel workbook and adds it to the end of the given shape collection at the specified coordinates. |
-| [`add_chart_from_workbook`](/slides/python-net/aspose.slides.importing/excelworkbookimporter/add_chart_from_workbook/#asposeslidesishapecollection-float-float-str-str-str-bool) | Retrieves a chart from the specified Excel workbook and adds it to the end of the given shape collection at the specified coordinates. |
+| [`add_chart_from_workbook`](/slides/python-net/aspose.slides.importing/excelworkbookimporter/add_chart_from_workbook/#ishapecollection-float-float-asposeslidesexceliexceldataworkbook-str-int-bool) | Retrieves a chart from the specified Excel workbook and adds it to the end of the given shape collection at the specified coordinates. |
+| [`add_chart_from_workbook`](/slides/python-net/aspose.slides.importing/excelworkbookimporter/add_chart_from_workbook/#ishapecollection-float-float-asposeslidesexceliexceldataworkbook-str-str-bool) | Retrieves a chart from the specified Excel workbook and adds it to the end of the given shape collection at the specified coordinates. |
+| [`add_chart_from_workbook`](/slides/python-net/aspose.slides.importing/excelworkbookimporter/add_chart_from_workbook/#ishapecollection-float-float-iorawiobase-str-str-bool) | Retrieves a chart from the specified Excel workbook and adds it to the end of the given shape collection at the specified coordinates. |
+| [`add_chart_from_workbook`](/slides/python-net/aspose.slides.importing/excelworkbookimporter/add_chart_from_workbook/#ishapecollection-float-float-str-str-str-bool) | Retrieves a chart from the specified Excel workbook and adds it to the end of the given shape collection at the specified coordinates. |
 
 
 ### See Also

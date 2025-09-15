@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_chart_from_workbook {#asposeslidesishapecollection-float-float-asposeslidesexceliexceldataworkbook-str-int-bool}
+## add_chart_from_workbook {#ishapecollection-float-float-asposeslidesexceliexceldataworkbook-str-int-bool}
 Retrieves a chart from the specified Excel workbook and adds it to the end of the given shape collection at the specified coordinates.
 
 ### Returns
@@ -45,7 +45,7 @@ Example:
 | **RuntimeError(Proxy error(ArgumentException))** | Thrown when any required parameter is None, empty, or if the chart cannot be found in the workbook. |
 
 
-## add_chart_from_workbook {#asposeslidesishapecollection-float-float-asposeslidesexceliexceldataworkbook-str-str-bool}
+## add_chart_from_workbook {#ishapecollection-float-float-asposeslidesexceliexceldataworkbook-str-str-bool}
 Retrieves a chart from the specified Excel workbook and adds it to the end of the given shape collection at the specified coordinates.
 
 ### Returns
@@ -82,7 +82,7 @@ Example:
 | **RuntimeError(Proxy error(ArgumentException))** | Thrown when any required parameter is None, empty, or if the chart cannot be found in the workbook. |
 
 
-## add_chart_from_workbook {#asposeslidesishapecollection-float-float-iorawiobase-str-str-bool}
+## add_chart_from_workbook {#ishapecollection-float-float-iorawiobase-str-str-bool}
 Retrieves a chart from the specified Excel workbook and adds it to the end of the given shape collection at the specified coordinates.
 
 ### Returns
@@ -120,7 +120,7 @@ Example:
 | **RuntimeError(Proxy error(InvalidOperationException))** | Thrown when the input data is in an unsupported format. |
 
 
-## add_chart_from_workbook {#asposeslidesishapecollection-float-float-str-str-str-bool}
+## add_chart_from_workbook {#ishapecollection-float-float-str-str-str-bool}
 Retrieves a chart from the specified Excel workbook and adds it to the end of the given shape collection at the specified coordinates.
 
 ### Returns

@@ -28,6 +28,8 @@ The ShapeBevel type exposes the following members:
 | [`width`](/slides/python-net/aspose.slides/shapebevel/width/) | Bevel width.<br/>            Read/write **float**. |
 | [`height`](/slides/python-net/aspose.slides/shapebevel/height/) | Bevel height.<br/>            Read/write **float**. |
 | [`bevel_type`](/slides/python-net/aspose.slides/shapebevel/bevel_type/) | Bevel type.<br/>            Read/write [`BevelPresetType`](/slides/python-net/aspose.slides/bevelpresettype). |
+| [`slide`](/slides/python-net/aspose.slides/shapebevel/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides/shapebevel/presentation/) |  |
 
 
 ### See Also

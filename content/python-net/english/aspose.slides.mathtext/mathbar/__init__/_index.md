@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#asposeslidesmathtextimathelement}
+## __init__ {#imathelement}
 Initializes MathBar with overbar (Top position)
 
 
@@ -27,7 +27,7 @@ def __init__(self, element):
 Example:
 
 
-## __init__ {#asposeslidesmathtextimathelement-asposeslidesmathtextmathtopbotpositions}
+## __init__ {#imathelement-mathtopbotpositions}
 Initializes MathBar with specified position
 
 

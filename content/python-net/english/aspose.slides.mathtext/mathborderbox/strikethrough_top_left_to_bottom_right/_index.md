@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/mathborderbox/strikethrough_top_left_to_bottom_right/
-weight: 310
+weight: 320
 ---
 
 

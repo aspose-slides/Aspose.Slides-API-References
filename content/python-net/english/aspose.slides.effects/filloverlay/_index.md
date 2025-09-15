@@ -22,6 +22,8 @@ The FillOverlay type exposes the following members:
 | :- | :- |
 | [`fill_format`](/slides/python-net/aspose.slides.effects/filloverlay/fill_format/) | Fill format.<br/>            Read-only [`IFillFormat`](/slides/python-net/aspose.slides/ifillformat). |
 | [`blend`](/slides/python-net/aspose.slides.effects/filloverlay/blend/) | FillBlendMode.<br/>            Read/write [`FillBlendMode`](/slides/python-net/aspose.slides/fillblendmode). |
+| [`slide`](/slides/python-net/aspose.slides.effects/filloverlay/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.effects/filloverlay/presentation/) |  |
 
 ## Methods
 

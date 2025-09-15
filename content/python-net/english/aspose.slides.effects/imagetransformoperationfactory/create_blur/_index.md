@@ -31,6 +31,7 @@ def create_blur(self, radius, grow):
 
 
 ### See Also
+* class [`IBlur`](/slides/python-net/aspose.slides.effects/iblur)
 * class [`ImageTransformOperationFactory`](/slides/python-net/aspose.slides.effects/imagetransformoperationfactory)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

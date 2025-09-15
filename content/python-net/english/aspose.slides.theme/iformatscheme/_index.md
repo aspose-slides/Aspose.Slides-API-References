@@ -21,6 +21,8 @@ The IFormatScheme type exposes the following members:
 | [`line_styles`](/slides/python-net/aspose.slides.theme/iformatscheme/line_styles/) | Returns a collection of theme defined line styles.<br/>            Read-only [`ILineFormatCollection`](/slides/python-net/aspose.slides.theme/ilineformatcollection). |
 | [`effect_styles`](/slides/python-net/aspose.slides.theme/iformatscheme/effect_styles/) | Returns a collection of theme defined effect styles.<br/>            Read-only [`IEffectStyleCollection`](/slides/python-net/aspose.slides.theme/ieffectstylecollection). |
 | [`background_fill_styles`](/slides/python-net/aspose.slides.theme/iformatscheme/background_fill_styles/) | Returns a collection of theme defined background fill styles.<br/>            Read-only [`IFillFormatCollection`](/slides/python-net/aspose.slides.theme/ifillformatcollection). |
+| [`slide`](/slides/python-net/aspose.slides.theme/iformatscheme/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.theme/iformatscheme/presentation/) |  |
 
 
 ### See Also

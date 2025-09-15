@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#asposeslideschartscharttype}
+## add {#charttype}
 Creates new chart series and adds it to the collection.
 
 ### Returns
@@ -28,7 +28,7 @@ def add(self, type):
 | type | [`ChartType`](/slides/python-net/aspose.slides.charts/charttype) | Type of series |
 
 
-## add {#asposeslideschartsichartdatacell-asposeslideschartscharttype}
+## add {#ichartdatacell-charttype}
 Creates new chart series from [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) and adds it to the collection.
 
 ### Returns
@@ -54,7 +54,7 @@ If chart series careted from same cell already in collection
             then method adds nothing and returns it's index.
 
 
-## add {#asposeslideschartsichartcellcollection-asposeslideschartscharttype}
+## add {#ichartcellcollection-charttype}
 Creates new chart series from [`IChartCellCollection`](/slides/python-net/aspose.slides.charts/ichartcellcollection) and adds it to the collection.
 
 ### Returns
@@ -80,7 +80,7 @@ If chart series careted from same cell already in collection
             then method adds nothing and returns it's index.
 
 
-## add {#str-asposeslideschartscharttype}
+## add {#str-charttype}
 Creates new chart series from value and adds it to the collection.
 
 ### Returns
@@ -106,6 +106,7 @@ def add(self, name, type):
 * enumeration [`ChartType`](/slides/python-net/aspose.slides.charts/charttype)
 * class [`IChartCellCollection`](/slides/python-net/aspose.slides.charts/ichartcellcollection)
 * class [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell)
+* class [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries)
 * class [`IChartSeriesCollection`](/slides/python-net/aspose.slides.charts/ichartseriescollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

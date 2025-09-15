@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.theme/ioverridetheme/init_font_scheme_from_inherited/
-weight: 70
+weight: 80
 ---
 
 

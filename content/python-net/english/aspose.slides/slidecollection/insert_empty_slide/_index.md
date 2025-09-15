@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## insert_empty_slide {#int-asposeslidesilayoutslide}
+## insert_empty_slide {#int-ilayoutslide}
 Inserts a copy of a specified slide to specified position of the collection.
 
 ### Returns
@@ -32,6 +32,7 @@ def insert_empty_slide(self, index, layout):
 
 ### See Also
 * class [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide)
+* class [`ISlide`](/slides/python-net/aspose.slides/islide)
 * class [`SlideCollection`](/slides/python-net/aspose.slides/slidecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

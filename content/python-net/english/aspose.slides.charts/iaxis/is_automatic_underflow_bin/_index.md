@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/iaxis/is_automatic_underflow_bin/
-weight: 260
+weight: 300
 ---
 
 

@@ -13,6 +13,13 @@ Represents objects that can be themed with [`ITheme`](/slides/python-net/aspose.
 
 The IThemeable type exposes the following members:
 
+## Properties
+
+| Property | Description |
+| :- | :- |
+| [`slide`](/slides/python-net/aspose.slides.theme/ithemeable/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.theme/ithemeable/presentation/) |  |
+
 ## Methods
 
 | Method | Description |

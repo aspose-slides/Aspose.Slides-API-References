@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#asposeslidesiportion}
+## add {#iportion}
 Adds a Portion to the end of collection.
 
 

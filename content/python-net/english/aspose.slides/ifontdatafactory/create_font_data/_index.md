@@ -30,6 +30,7 @@ def create_font_data(self, font_name):
 
 
 ### See Also
+* class [`IFontData`](/slides/python-net/aspose.slides/ifontdata)
 * class [`IFontDataFactory`](/slides/python-net/aspose.slides/ifontdatafactory)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

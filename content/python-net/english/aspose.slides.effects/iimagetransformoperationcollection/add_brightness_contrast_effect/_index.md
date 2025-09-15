@@ -31,6 +31,7 @@ def add_brightness_contrast_effect(self, brightness, contrast):
 
 
 ### See Also
+* class [`IBrightnessContrast`](/slides/python-net/aspose.slides.effects/ibrightnesscontrast)
 * class [`IImageTransformOperationCollection`](/slides/python-net/aspose.slides.effects/iimagetransformoperationcollection)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -8,7 +8,7 @@ weight: 280
 ---
 
 
-## set_upper_limit {#asposeslidesmathtextimathelement}
+## set_upper_limit {#imathelement}
 
 
 
@@ -42,6 +42,7 @@ def set_upper_limit(self, limit):
 ### See Also
 * class [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock)
 * class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
+* class [`IMathLimit`](/slides/python-net/aspose.slides.mathtext/imathlimit)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
 

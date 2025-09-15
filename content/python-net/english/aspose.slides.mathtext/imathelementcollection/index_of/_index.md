@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## index_of {#asposeslidesmathtextimathelement}
+## index_of {#imathelement}
 Determines the index of a specific math element in collection.
 
 ### Returns

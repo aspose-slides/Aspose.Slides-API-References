@@ -8,7 +8,7 @@ weight: 180
 ---
 
 
-## set_subscript {#asposeslidesmathtextimathelement}
+## set_subscript {#imathelement}
 Creates subscript
 
 ### Returns

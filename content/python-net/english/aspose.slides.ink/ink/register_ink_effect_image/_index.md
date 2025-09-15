@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## register_ink_effect_image {#asposeslidesinkinkeffecttype-asposeslidesiimage}
+## register_ink_effect_image {#inkeffecttype-iimage}
 Registers an image to collection of custom images used to simulate visual effects for ink brushes.
             These images are used when rendering ink with specific [`InkEffectType`](/slides/python-net/aspose.slides.ink/inkeffecttype) values,
             such as Galaxy, Rainbow, etc. By providing your own images, you can control how each ink effect appears.

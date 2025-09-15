@@ -18,6 +18,13 @@ Represents a Bi-Level (black/white) effect.
 
 The BiLevel type exposes the following members:
 
+## Properties
+
+| Property | Description |
+| :- | :- |
+| [`slide`](/slides/python-net/aspose.slides.effects/bilevel/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.effects/bilevel/presentation/) |  |
+
 ## Methods
 
 | Method | Description |

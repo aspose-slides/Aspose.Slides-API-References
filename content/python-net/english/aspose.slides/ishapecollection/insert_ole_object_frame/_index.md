@@ -8,7 +8,7 @@ weight: 280
 ---
 
 
-## insert_ole_object_frame {#int-float-float-float-float-asposeslidesioleembeddeddatainfo}
+## insert_ole_object_frame {#int-float-float-float-float-ioleembeddeddatainfo}
 Creates a new OLE object frame and inserts it into the shape collection at the specified index.
 
 ### Returns

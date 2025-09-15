@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/shape/raw_frame/
-weight: 290
+weight: 320
 ---
 
 
