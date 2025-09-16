@@ -62,6 +62,7 @@ url: /com.aspose.slides/
 | [BlackWhiteMode](../com.aspose.slides/blackwhitemode) | Determines how colored shape should be transformed into black and white. |
 | [BlobManagementOptions](../com.aspose.slides/blobmanagementoptions) | Represents options which can be used to manage BLOB handling rules and other BLOB settings. |
 | [Blur](../com.aspose.slides/blur) | Represents a Blur effect that is applied to the entire shape, including its fill. |
+| [BrightnessContrast](../com.aspose.slides/brightnesscontrast) | Represents a BrightnessContrast effect. |
 | [BrowsedAtKiosk](../com.aspose.slides/browsedatkiosk) | Browsed at a kiosk (full screen) |
 | [BrowsedByIndividual](../com.aspose.slides/browsedbyindividual) | Browsed by individual (window) |
 | [BubbleSizeRepresentationType](../com.aspose.slides/bubblesizerepresentationtype) | Specifies the possible ways to represent data as bubble chart sizes. |
@@ -192,6 +193,9 @@ url: /com.aspose.slides/
 | [ErrorBarValueType](../com.aspose.slides/errorbarvaluetype) | Represents type of error bar value |
 | [ErrorBarsCustomValues](../com.aspose.slides/errorbarscustomvalues) | Specifies the errors bar values. |
 | [ErrorBarsFormat](../com.aspose.slides/errorbarsformat) | Represents error bars of chart series. |
+| [ExcelDataCell](../com.aspose.slides/exceldatacell) | Represents a single cell in an Excel workbook. |
+| [ExcelDataWorkbook](../com.aspose.slides/exceldataworkbook) | Represents a workbook that provides access to Excel data for general use. |
+| [ExcelWorkbookImporter](../com.aspose.slides/excelworkbookimporter) | Provides functionality for importing content from an Excel workbook into a presentation. |
 | [ExternalResourceResolver](../com.aspose.slides/externalresourceresolver) | Callback class used to resolve external resources during Html, Svg documents import. |
 | [ExtraColorScheme](../com.aspose.slides/extracolorscheme) | Represents an additional color scheme which can be assigned to a slide. |
 | [ExtraColorSchemeCollection](../com.aspose.slides/extracolorschemecollection) | Represents a collection of additional color schemes. |
@@ -275,6 +279,7 @@ url: /com.aspose.slides/
 | [Ink](../com.aspose.slides/ink) | Represents an ink object on a slide. |
 | [InkActions](../com.aspose.slides/inkactions) | Represents the root of ink actions. |
 | [InkBrush](../com.aspose.slides/inkbrush) | Represents an inkBrush object. |
+| [InkEffectType](../com.aspose.slides/inkeffecttype) | Specifies a set of predefined visual effects for ink rendering. |
 | [InkOptions](../com.aspose.slides/inkoptions) | Provides options that control the look of Ink objects in exported document. |
 | [InkTrace](../com.aspose.slides/inktrace) | Represents an Trace object. |
 | [InnerShadow](../com.aspose.slides/innershadow) | Represents a Inner Shadow effect. |
@@ -473,6 +478,7 @@ url: /com.aspose.slides/
 | [PptxUnsupportedFormatException](../com.aspose.slides/pptxunsupportedformatexception) | Exception which thrown when presentation file format is unsupported. |
 | [Presentation](../com.aspose.slides/presentation) | Represents a Microsoft PowerPoint presentation. |
 | [PresentationAnimationsGenerator](../com.aspose.slides/presentationanimationsgenerator) | Represents a generator of the animations in the [Presentation](../com.aspose.slides/presentation). |
+| [PresentationContentAmountType](../com.aspose.slides/presentationcontentamounttype) | Specifies the amount of content included in the generated presentation, influencing both the number of slides and the level of detail per slide. |
 | [PresentationFactory](../com.aspose.slides/presentationfactory) | Allows to create presentation via COM interface |
 | [PresentationHeaderFooterManager](../com.aspose.slides/presentationheaderfootermanager) | Represents manager which holds behavior of all footer, date-time and page number placeholders of presentation. |
 | [PresentationInfo](../com.aspose.slides/presentationinfo) | Information about presentation file |
@@ -517,7 +523,7 @@ url: /com.aspose.slides/
 | [Shape](../com.aspose.slides/shape) | Represents a shape on a slide. |
 | [ShapeAdjustmentType](../com.aspose.slides/shapeadjustmenttype) | Specifies different types of shape adjustment values. |
 | [ShapeBevel](../com.aspose.slides/shapebevel) | Contains the properties of shape's main face relief. |
-| [ShapeCollection](../com.aspose.slides/shapecollection) | Represents a collection of a shapes. |
+| [ShapeCollection](../com.aspose.slides/shapecollection) | Represents a collection of shapes. |
 | [ShapeElement](../com.aspose.slides/shapeelement) | Represents a part of shape with same outline and fill properties. |
 | [ShapeElementFillSource](../com.aspose.slides/shapeelementfillsource) | Represents how shape element should be filled. |
 | [ShapeElementStrokeSource](../com.aspose.slides/shapeelementstrokesource) | Represents how shape element should be drawn. |
@@ -539,7 +545,7 @@ url: /com.aspose.slides/
 | [SlideShowSettings](../com.aspose.slides/slideshowsettings) | Represents the slide show settings for the presentation. |
 | [SlideShowTransition](../com.aspose.slides/slideshowtransition) | Represents slide show transition. |
 | [SlideShowType](../com.aspose.slides/slideshowtype) | Base slide show settings. |
-| [SlideSize](../com.aspose.slides/slidesize) | Represents a size of slide. |
+| [SlideSize](../com.aspose.slides/slidesize) | Represents the size and orientation of a slide. |
 | [SlideSizeScaleType](../com.aspose.slides/slidesizescaletype) | Represents the scale type of slide content. |
 | [SlideSizeType](../com.aspose.slides/slidesizetype) | Represents the slide size preset. |
 | [SlideThemeManager](../com.aspose.slides/slidethememanager) | Provides access to slide theme overriden. |
@@ -661,6 +667,7 @@ url: /com.aspose.slides/
 
 | Interface | Description |
 | --- | --- |
+| [IAIConversation](../com.aspose.slides/iaiconversation) | Represents a conversation instance. |
 | [IAIWebClient](../com.aspose.slides/iaiwebclient) | AI Web client interface. |
 | [IAccessiblePVIObject<T>](../com.aspose.slides/iaccessiblepviobject) | Represents a type that can return corresponding effective data with the inheritance applied. |
 | [IActualLayout](../com.aspose.slides/iactuallayout) | Specifies actual position of a chart element. |
@@ -711,6 +718,8 @@ url: /com.aspose.slides/
 | [IBlobManagementOptions](../com.aspose.slides/iblobmanagementoptions) | A Binary Large Object (BLOB) is a binary data stored as a single entity - i.e. |
 | [IBlur](../com.aspose.slides/iblur) | Represents a Blur effect that is applied to the entire shape, including its fill. |
 | [IBlurEffectiveData](../com.aspose.slides/iblureffectivedata) | Immutable object which represents a Blur effect that is applied to the entire shape, including its fill. |
+| [IBrightnessContrast](../com.aspose.slides/ibrightnesscontrast) | Represents a BrightnessContrast effect. |
+| [IBrightnessContrastEffectiveData](../com.aspose.slides/ibrightnesscontrasteffectivedata) | Immutable object which represents a BrightnessContrast effect. |
 | [IBulkTextFormattable](../com.aspose.slides/ibulktextformattable) | Represents an object with possibility of bulk setting child text elements' formats. |
 | [IBulletFormat](../com.aspose.slides/ibulletformat) | Represents paragraph bullet formatting properties. |
 | [IBulletFormatEffectiveData](../com.aspose.slides/ibulletformateffectivedata) | Immutable object which contains effective paragraph bullet formatting properties. |
@@ -809,6 +818,8 @@ url: /com.aspose.slides/
 | [IEmptyTransition](../com.aspose.slides/iemptytransition) | Empty slide transition effect. |
 | [IErrorBarsCustomValues](../com.aspose.slides/ierrorbarscustomvalues) | Specifies the errors bar values. |
 | [IErrorBarsFormat](../com.aspose.slides/ierrorbarsformat) | Represents error bars of chart series. |
+| [IExcelDataCell](../com.aspose.slides/iexceldatacell) | Represents a single cell in an Excel workbook. |
+| [IExcelDataWorkbook](../com.aspose.slides/iexceldataworkbook) | Represents a workbook that provides access to Excel data for general use. |
 | [IExternalResourceResolver](../com.aspose.slides/iexternalresourceresolver) | Callback interface used to resolve external resources during Html, Svg documents import. |
 | [IExtraColorScheme](../com.aspose.slides/iextracolorscheme) | Represents an additional color scheme which can be assigned to a slide. |
 | [IExtraColorSchemeCollection](../com.aspose.slides/iextracolorschemecollection) | Represents a collection of additional color schemes. |
@@ -1070,7 +1081,7 @@ url: /com.aspose.slides/
 | [IShape](../com.aspose.slides/ishape) | Represents a shape on a slide. |
 | [IShapeBevel](../com.aspose.slides/ishapebevel) | Represents properties of shape's main face relief. |
 | [IShapeBevelEffectiveData](../com.aspose.slides/ishapebeveleffectivedata) | Immutable object which contains effective shape's face relief properties. |
-| [IShapeCollection](../com.aspose.slides/ishapecollection) | Represents a collection of a shapes. |
+| [IShapeCollection](../com.aspose.slides/ishapecollection) | Represents a collection of shapes. |
 | [IShapeElement](../com.aspose.slides/ishapeelement) | Represents a part of shape with same outline and fill properties. |
 | [IShapeFrame](../com.aspose.slides/ishapeframe) | Represents shape frame's properties. |
 | [IShapeStyle](../com.aspose.slides/ishapestyle) | Represent shape's style reference. |
@@ -1085,7 +1096,7 @@ url: /com.aspose.slides/
 | [ISlideHeaderFooterManager](../com.aspose.slides/islideheaderfootermanager) | Represents manager which holds behavior of the slide footer, date-time, page number placeholders. |
 | [ISlideImageFormat](../com.aspose.slides/islideimageformat) | Determines format in which slide image will be saved for presentation to HTML export. |
 | [ISlideShowTransition](../com.aspose.slides/islideshowtransition) | Represents slide show transition. |
-| [ISlideSize](../com.aspose.slides/islidesize) | Represents a size of slide. |
+| [ISlideSize](../com.aspose.slides/islidesize) | Represents the size and orientation of a slide. |
 | [ISlideText](../com.aspose.slides/islidetext) | Represents the text extracted from the slide |
 | [ISlidesLayoutOptions](../com.aspose.slides/islideslayoutoptions) | Represents the presentation layout mode for export. |
 | [ISlidesPicture](../com.aspose.slides/islidespicture) | Represents a picture in a presentation. |

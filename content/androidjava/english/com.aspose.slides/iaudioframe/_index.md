@@ -51,6 +51,7 @@ Represents an audio clip on a slide.
 | [setTrimFromStart(float value)](#setTrimFromStart-float-) | Specifies the time duration to be removed from the beginning of the media during playback, in milliseconds. |
 | [getTrimFromEnd()](#getTrimFromEnd--) | Specifies the time duration to be removed from the end of the media during playback, in milliseconds. |
 | [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | Specifies the time duration to be removed from the end of the media during playback, in milliseconds. |
+| [getCaptionTracks()](#getCaptionTracks--) | Gets the collection of closed captions associated with the audio frame. |
 ### getAudioCdStartTrack() {#getAudioCdStartTrack--}
 ```
 public abstract int getAudioCdStartTrack()
@@ -700,3 +701,39 @@ Specifies the time duration to be removed from the end of the media during playb
 | --- | --- | --- |
 | value | float |  |
 
+### getCaptionTracks() {#getCaptionTracks--}
+```
+public abstract ICaptionsCollection getCaptionTracks()
+```
+
+
+Gets the collection of closed captions associated with the audio frame. This property is read-only and returns an [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) containing all caption tracks.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("audio with captions.pptx");
+>  try {
+>     for (IShape shape : pres.getSlides().get_Item(0).getShapes())
+>     {
+>         if (shape instanceof IAudioFrame)
+>         {
+>             IAudioFrame audioFrame = (IAudioFrame) shape;
+>             // Save the caption track's binary data as a .vtt file
+>             for (ICaptions captionTrack : audioFrame.getCaptionTracks())
+>             {
+>                 FileOutputStream fos = new FileOutputStream(captionTrack.getCaptionId() + ".vtt");
+>                 fos.write(captionTrack.getBinaryData());
+>                 fos.close();
+>             }
+>         }
+>     }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+[ICaptionsCollection](../../com.aspose.slides/icaptionscollection)

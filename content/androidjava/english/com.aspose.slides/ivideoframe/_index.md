@@ -36,7 +36,7 @@ Represents a video clip on a slide.
 | [setTrimFromStart(float value)](#setTrimFromStart-float-) | Trim start [ms] |
 | [getTrimFromEnd()](#getTrimFromEnd--) | Trim end [ms] |
 | [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | Trim end [ms] |
-| [getCaptionTracks()](#getCaptionTracks--) | Returns the closed captions collection of the video. |
+| [getCaptionTracks()](#getCaptionTracks--) | Gets the collection of closed captions associated with the audio frame. |
 ### getRewindVideo() {#getRewindVideo--}
 ```
 public abstract boolean getRewindVideo()
@@ -311,7 +311,7 @@ public abstract ICaptionsCollection getCaptionTracks()
 ```
 
 
-Returns the closed captions collection of the video. Read-only [ICaptionsCollection](../../com.aspose.slides/icaptionscollection).
+Gets the collection of closed captions associated with the audio frame. This property is read-only and returns an [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) containing all caption tracks.
 
 --------------------
 

@@ -44,7 +44,7 @@ Represents properties of a presentation.
 >      // Create a reference to IDocumentProperties object associated with Presentation
 >      IDocumentProperties documentProperties = pres.getDocumentProperties();
 >      // Set the builtin properties
->      documentProperties.setAuthor("Aspose.Slides for Java");
+>      documentProperties.setAuthor("Aspose.Slides for Android via Java");
 >      documentProperties.setTitle("Modifying Presentation Properties");
 >      documentProperties.setSubject("Aspose Subject");
 >      // Save your presentation to a file

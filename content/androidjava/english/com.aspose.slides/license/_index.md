@@ -39,7 +39,7 @@ In this example, an attempt will be made to find a license file named MyLicense.
 | --- | --- |
 | [setLicense(InputStream stream)](#setLicense-java.io.InputStream-) | Licenses the component. |
 | [setLicense(String namePath)](#setLicense-java.lang.String-) | Licenses the component. |
-| [getVersion()](#getVersion--) | Returns version of Aspose.Slides for Java. |
+| [getVersion()](#getVersion--) | Returns version of Aspose.Slides for Android via Java. |
 | [resetLicense()](#resetLicense--) | Reset the license. |
 | [isLicensed()](#isLicensed--) |  |
 ### License() {#License--}
@@ -121,7 +121,7 @@ public static final String getVersion()
 ```
 
 
-Returns version of Aspose.Slides for Java.
+Returns version of Aspose.Slides for Android via Java.
 
 **Returns:**
 java.lang.String
