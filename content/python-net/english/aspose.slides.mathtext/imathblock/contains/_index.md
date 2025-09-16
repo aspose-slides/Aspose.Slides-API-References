@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## contains {#asposeslidesmathtextimathelement}
+## contains {#imathelement}
 
 
 

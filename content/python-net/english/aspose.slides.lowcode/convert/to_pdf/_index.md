@@ -25,7 +25,7 @@ def to_pdf(pres_path, out_path):
 | out_path | **str** | Output path |
 
 
-## to_pdf {#asposeslidespresentation-str}
+## to_pdf {#presentation-str}
 Converts [`Presentation`](/slides/python-net/aspose.slides/presentation) to PDF.
 
 
@@ -60,7 +60,7 @@ def to_pdf(pres_path, out_path, options):
 | options | [`IPdfOptions`](/slides/python-net/aspose.slides.export/ipdfoptions) | Output PDF options |
 
 
-## to_pdf {#asposeslidespresentation-str-asposeslidesexportipdfoptions}
+## to_pdf {#presentation-str-asposeslidesexportipdfoptions}
 Converts [`Presentation`](/slides/python-net/aspose.slides/presentation) to PDF.
 
 

@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## as_argument_of_function {#asposeslidesmathtextimathelement}
+## as_argument_of_function {#imathelement}
 Takes specified function using this instance as the argument
 
 ### Returns
@@ -56,7 +56,7 @@ def as_argument_of_function(self, function_name):
 Example:
 
 
-## as_argument_of_function {#asposeslidesmathtextmathfunctionsofoneargument}
+## as_argument_of_function {#mathfunctionsofoneargument}
 Takes specified function using this instance as the argument
 
 ### Returns
@@ -80,7 +80,7 @@ def as_argument_of_function(self, function_type):
 Example:
 
 
-## as_argument_of_function {#asposeslidesmathtextmathfunctionsoftwoarguments-asposeslidesmathtextimathelement}
+## as_argument_of_function {#mathfunctionsoftwoarguments-imathelement}
 Takes specified function using this instance as the argument and specified additional argument
 
 ### Returns
@@ -105,7 +105,7 @@ def as_argument_of_function(self, function_type, additional_argument):
 Example:
 
 
-## as_argument_of_function {#asposeslidesmathtextmathfunctionsoftwoarguments-str}
+## as_argument_of_function {#mathfunctionsoftwoarguments-str}
 Takes specified function using this instance as the argument and specified additional argument
 
 ### Returns

@@ -29,6 +29,8 @@ The ThreeDFormat type exposes the following members:
 | [`camera`](/slides/python-net/aspose.slides/threedformat/camera/) | Returns or sets the settings of a camera.<br/>            Read-only [`ICamera`](/slides/python-net/aspose.slides/icamera). |
 | [`light_rig`](/slides/python-net/aspose.slides/threedformat/light_rig/) | Returns or sets the type of a light.<br/>            Read-only [`ILightRig`](/slides/python-net/aspose.slides/ilightrig). |
 | [`material`](/slides/python-net/aspose.slides/threedformat/material/) | Returns or sets the type of a material.<br/>            Read/write [`MaterialPresetType`](/slides/python-net/aspose.slides/materialpresettype). |
+| [`slide`](/slides/python-net/aspose.slides/threedformat/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides/threedformat/presentation/) |  |
 
 ## Methods
 

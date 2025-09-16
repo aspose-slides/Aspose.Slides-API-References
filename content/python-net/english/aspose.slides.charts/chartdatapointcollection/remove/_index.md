@@ -8,7 +8,7 @@ weight: 200
 ---
 
 
-## remove {#asposeslideschartsichartdatapoint}
+## remove {#ichartdatapoint}
 Removes the specified value.
 
 

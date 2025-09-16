@@ -17,7 +17,7 @@ The IWarningCallback type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`warning`](/slides/python-net/aspose.slides.warnings/iwarningcallback/warning/#asposeslideswarningsiwarninginfo) | Callback method which receives warning and decides whether operation should be aborted. |
+| [`warning`](/slides/python-net/aspose.slides.warnings/iwarningcallback/warning/#iwarninginfo) | Callback method which receives warning and decides whether operation should be aborted. |
 
 
 ### See Also

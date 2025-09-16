@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## enumerate_frames {#systemcollectionsgenericienumerable1asposeslidesislide}
+## enumerate_frames {#iterableislide}
 
 
 
@@ -20,7 +20,7 @@ def enumerate_frames(self, slides):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| slides | **System.Collections.Generic.IEnumerable`1[[Aspose.Slides.ISlide]]** |  |
+| slides | **Iterable[ISlide]** |  |
 
 
 

@@ -9,13 +9,11 @@ weight: 20
 
 
 ## IImageCollection indexer
-Returns image by its index.
-
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| index | Index. |
+| index |  |
 
 
 ### See Also

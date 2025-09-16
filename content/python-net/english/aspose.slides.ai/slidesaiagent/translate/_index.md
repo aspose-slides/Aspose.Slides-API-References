@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## translate {#asposeslidesipresentation-str}
+## translate {#ipresentation-str}
 Translates a presentation to the specified language using AI (synchronous version).
 
 

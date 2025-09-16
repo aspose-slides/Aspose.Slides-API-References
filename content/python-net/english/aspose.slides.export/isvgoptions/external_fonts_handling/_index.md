@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/isvgoptions/external_fonts_handling/
-weight: 70
+weight: 80
 ---
 
 

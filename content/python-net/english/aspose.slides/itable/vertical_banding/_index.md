@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/itable/vertical_banding/
-weight: 140
+weight: 540
 ---
 
 

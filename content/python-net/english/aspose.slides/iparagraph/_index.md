@@ -21,6 +21,8 @@ The IParagraph type exposes the following members:
 | [`paragraph_format`](/slides/python-net/aspose.slides/iparagraph/paragraph_format/) | Returns the formatting object for this paragraph.<br/>            Read-only [`IParagraphFormat`](/slides/python-net/aspose.slides/iparagraphformat). |
 | [`text`](/slides/python-net/aspose.slides/iparagraph/text/) | Gets or sets the the plain text of a paragraph.<br/>            Read/write **str**. |
 | [`end_paragraph_portion_format`](/slides/python-net/aspose.slides/iparagraph/end_paragraph_portion_format/) | Specifies the portion properties that are to be used if another portion is inserted after <br/>            the last one. |
+| [`slide`](/slides/python-net/aspose.slides/iparagraph/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides/iparagraph/presentation/) |  |
 
 ## Methods
 

@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## remove {#asposeslidesifontfallbackrule}
+## remove {#ifontfallbackrule}
 Removes the first occurrence of a specific FallBack rule from the collection.
 
 

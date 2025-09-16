@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/mathematicaltext/nary/
-weight: 100
+weight: 110
 ---
 
 
-## nary {#asposeslidesmathtextmathnaryoperatortypes-asposeslidesmathtextimathelement-asposeslidesmathtextimathelement}
+## nary {#mathnaryoperatortypes-imathelement-imathelement}
 Creates a N-ary operator
 
 ### Returns
@@ -34,7 +34,7 @@ def nary(self, type, lower_limit, upper_limit):
 Example:
 
 
-## nary {#asposeslidesmathtextmathnaryoperatortypes-str-str}
+## nary {#mathnaryoperatortypes-str-str}
 Creates a N-ary operator
 
 ### Returns

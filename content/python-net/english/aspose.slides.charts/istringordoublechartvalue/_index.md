@@ -21,6 +21,9 @@ The IStringOrDoubleChartValue type exposes the following members:
 | :- | :- |
 | [`as_literal_string`](/slides/python-net/aspose.slides.charts/istringordoublechartvalue/as_literal_string/) | Returns or sets the literal string if DataSourceType property is DataSourceType.StringLiterals.<br/>            Read/write **str**. |
 | [`as_literal_double`](/slides/python-net/aspose.slides.charts/istringordoublechartvalue/as_literal_double/) | Returns or sets the literal double if DataSourceType property is DataSourceType.DoubleLiterals.<br/>            Read/write **float**. |
+| [`as_cell`](/slides/python-net/aspose.slides.charts/istringordoublechartvalue/as_cell/) |  |
+| [`data_source_type`](/slides/python-net/aspose.slides.charts/istringordoublechartvalue/data_source_type/) |  |
+| [`data`](/slides/python-net/aspose.slides.charts/istringordoublechartvalue/data/) |  |
 
 ## Methods
 

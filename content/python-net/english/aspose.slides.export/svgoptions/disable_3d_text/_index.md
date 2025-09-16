@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/svgoptions/disable_3d_text/
-weight: 50
+weight: 60
 ---
 
 

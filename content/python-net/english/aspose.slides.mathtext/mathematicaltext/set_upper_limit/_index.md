@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/mathematicaltext/set_upper_limit/
-weight: 180
+weight: 190
 ---
 
 
-## set_upper_limit {#asposeslidesmathtextimathelement}
+## set_upper_limit {#imathelement}
 Takes upper limit
 
 ### Returns

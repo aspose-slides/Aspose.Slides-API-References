@@ -9,8 +9,6 @@ weight: 10
 
 
 ## IChartSeriesGroup indexer
-Gets the element at the specified index.
-
 ## Indexer
 
 | Name | Description |

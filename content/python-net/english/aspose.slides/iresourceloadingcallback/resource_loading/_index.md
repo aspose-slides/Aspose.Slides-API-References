@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## resource_loading {#asposeslidesiresourceloadingargs}
+## resource_loading {#iresourceloadingargs}
 Callback method which regulates external resources loading.
 
 ### Returns

@@ -24,16 +24,16 @@ The IFontsManager type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`add_embedded_font`](/slides/python-net/aspose.slides/ifontsmanager/add_embedded_font/#asposeslidesifontdata-asposeslidesexportembedfontcharacters) | Adds the embedded font.<br/>Keep in mind when copying any fonts that most fonts are copyrighted. First locate the license of <br/>            a font before hand and verify they can be freely transferred to another machine.An ArgumentException can be thrown if font data is None or this font is already embedded |
+| [`add_embedded_font`](/slides/python-net/aspose.slides/ifontsmanager/add_embedded_font/#ifontdata-asposeslidesexportembedfontcharacters) | Adds the embedded font.<br/>Keep in mind when copying any fonts that most fonts are copyrighted. First locate the license of <br/>            a font before hand and verify they can be freely transferred to another machine.An ArgumentException can be thrown if font data is None or this font is already embedded |
 | [`add_embedded_font`](/slides/python-net/aspose.slides/ifontsmanager/add_embedded_font/#bytes-asposeslidesexportembedfontcharacters) | Adds the embedded font<br/>Keep in mind when adding any fonts that most fonts are copyrighted. First locate the license of <br/>            a font before hand and verify they can be freely transferred to another machine.An ArgumentException can be thrown if font data is None or this font is already embedded |
-| [`replace_font`](/slides/python-net/aspose.slides/ifontsmanager/replace_font/#asposeslidesifontdata-asposeslidesifontdata) | Replace font in presentation |
-| [`replace_font`](/slides/python-net/aspose.slides/ifontsmanager/replace_font/#asposeslidesifontsubstrule) | Replace font in presentation using information provided in [`IFontSubstRule`](/slides/python-net/aspose.slides/ifontsubstrule) |
-| [`replace_font`](/slides/python-net/aspose.slides/ifontsmanager/replace_font/#asposeslidesifontsubstrulecollection) | Replace font in presentation using information provided in collection of [`IFontSubstRule`](/slides/python-net/aspose.slides/ifontsubstrule) |
+| [`replace_font`](/slides/python-net/aspose.slides/ifontsmanager/replace_font/#ifontdata-ifontdata) | Replace font in presentation |
+| [`replace_font`](/slides/python-net/aspose.slides/ifontsmanager/replace_font/#ifontsubstrule) | Replace font in presentation using information provided in [`IFontSubstRule`](/slides/python-net/aspose.slides/ifontsubstrule) |
+| [`replace_font`](/slides/python-net/aspose.slides/ifontsmanager/replace_font/#ifontsubstrulecollection) | Replace font in presentation using information provided in collection of [`IFontSubstRule`](/slides/python-net/aspose.slides/ifontsubstrule) |
 | [`get_fonts`](/slides/python-net/aspose.slides/ifontsmanager/get_fonts/#) | Returns the fonts used in the presentation |
 | [`get_substitutions`](/slides/python-net/aspose.slides/ifontsmanager/get_substitutions/#) | Gets the information about fonts that will be replaced on the presentation's rendering. |
 | [`get_embedded_fonts`](/slides/python-net/aspose.slides/ifontsmanager/get_embedded_fonts/#) | Returns the fonts embedded in the presentation |
-| [`remove_embedded_font`](/slides/python-net/aspose.slides/ifontsmanager/remove_embedded_font/#asposeslidesifontdata) | Removes the embedded font |
-| [`get_font_bytes`](/slides/python-net/aspose.slides/ifontsmanager/get_font_bytes/#asposeslidesifontdata-asposepydrawingfontstyle) | Retrieves the byte array representing the font data for a specified font style and font data. |
+| [`remove_embedded_font`](/slides/python-net/aspose.slides/ifontsmanager/remove_embedded_font/#ifontdata) | Removes the embedded font |
+| [`get_font_bytes`](/slides/python-net/aspose.slides/ifontsmanager/get_font_bytes/#ifontdata-asposepydrawingfontstyle) | Retrieves the byte array representing the font data for a specified font style and font data. |
 | [`get_font_embedding_level`](/slides/python-net/aspose.slides/ifontsmanager/get_font_embedding_level/#bytes-str) | Determines the embedding level of a font from the given byte array and font name. |
 
 

@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## insert {#int-asposeslideschartscharttype}
+## insert {#int-charttype}
 Creates new chart series and inserts it into the collection.
 
 ### Returns

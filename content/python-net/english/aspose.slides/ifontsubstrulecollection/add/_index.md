@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#asposeslidesifontsubstrule}
+## add {#ifontsubstrule}
 Adds the new font substitution rule to the collection
 
 

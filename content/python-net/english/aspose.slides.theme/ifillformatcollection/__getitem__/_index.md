@@ -9,9 +9,6 @@ weight: 10
 
 
 ## IFillFormatCollection indexer
-Gets the element at the specified index.
-            Read-only [`IFillFormat`](/slides/python-net/aspose.slides/ifillformat).
-
 ## Indexer
 
 | Name | Description |
@@ -20,7 +17,6 @@ Gets the element at the specified index.
 
 
 ### See Also
-* class [`IFillFormat`](/slides/python-net/aspose.slides/ifillformat)
 * class [`IFillFormatCollection`](/slides/python-net/aspose.slides.theme/ifillformatcollection)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

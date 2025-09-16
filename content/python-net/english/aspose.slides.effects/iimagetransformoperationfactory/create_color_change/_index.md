@@ -26,6 +26,7 @@ def create_color_change(self):
 
 
 ### See Also
+* class [`IColorChange`](/slides/python-net/aspose.slides.effects/icolorchange)
 * class [`IImageTransformOperationFactory`](/slides/python-net/aspose.slides.effects/iimagetransformoperationfactory)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

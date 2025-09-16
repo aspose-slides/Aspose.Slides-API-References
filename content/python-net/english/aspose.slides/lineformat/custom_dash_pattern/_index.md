@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/lineformat/custom_dash_pattern/
-weight: 90
+weight: 100
 ---
 
 

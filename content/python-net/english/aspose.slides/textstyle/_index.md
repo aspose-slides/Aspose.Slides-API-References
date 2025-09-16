@@ -20,6 +20,8 @@ The TextStyle type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`default_paragraph_format`](/slides/python-net/aspose.slides/textstyle/default_paragraph_format/) | Default paragraph propertiies.<br/>            Read-only [`IParagraphFormat`](/slides/python-net/aspose.slides/iparagraphformat). |
+| [`slide`](/slides/python-net/aspose.slides/textstyle/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides/textstyle/presentation/) |  |
 
 ## Methods
 

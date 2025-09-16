@@ -8,7 +8,7 @@ weight: 260
 ---
 
 
-## insert_connector {#int-asposeslidesshapetype-float-float-float-float}
+## insert_connector {#int-shapetype-float-float-float-float}
 Creates a new connector shape and inserts it into the shape collection at the specified index,
             applying default template styling.
 
@@ -34,7 +34,7 @@ def insert_connector(self, index, shape_type, x, y, width, height):
 | height | **float** | The height of the connector’s frame, in points. |
 
 
-## insert_connector {#int-asposeslidesshapetype-float-float-float-float-bool}
+## insert_connector {#int-shapetype-float-float-float-float-bool}
 Creates a new connector shape and inserts it into the shape collection at the specified index,
             optionally applying default template styling.
 

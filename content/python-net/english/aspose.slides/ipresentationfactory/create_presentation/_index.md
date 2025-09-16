@@ -24,7 +24,7 @@ def create_presentation(self):
 
 
 
-## create_presentation {#asposeslidesiloadoptions}
+## create_presentation {#iloadoptions}
 Creates new presentation with additional load options
 
 ### Returns
@@ -47,6 +47,7 @@ def create_presentation(self, options):
 
 ### See Also
 * class [`ILoadOptions`](/slides/python-net/aspose.slides/iloadoptions)
+* class [`IPresentation`](/slides/python-net/aspose.slides/ipresentation)
 * class [`IPresentationFactory`](/slides/python-net/aspose.slides/ipresentationfactory)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

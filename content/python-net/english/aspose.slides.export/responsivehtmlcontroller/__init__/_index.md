@@ -19,7 +19,7 @@ def __init__(self):
 
 
 
-## __init__ {#asposeslidesexportihtmlformattingcontroller}
+## __init__ {#ihtmlformattingcontroller}
 Creates new instance
 
 

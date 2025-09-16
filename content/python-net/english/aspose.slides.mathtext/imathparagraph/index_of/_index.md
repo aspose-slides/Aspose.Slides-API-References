@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## index_of {#asposeslidesmathtextimathblock}
+## index_of {#imathblock}
 
 
 

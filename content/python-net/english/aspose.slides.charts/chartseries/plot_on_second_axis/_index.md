@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/chartseries/plot_on_second_axis/
-weight: 340
+weight: 370
 ---
 
 

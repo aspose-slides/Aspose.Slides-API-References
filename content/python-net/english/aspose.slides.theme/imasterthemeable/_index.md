@@ -18,6 +18,14 @@ The IMasterThemeable type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`theme_manager`](/slides/python-net/aspose.slides.theme/imasterthemeable/theme_manager/) | Returns master theme manager.<br/>            Read-only [`IMasterThemeManager`](/slides/python-net/aspose.slides.theme/imasterthememanager). |
+| [`slide`](/slides/python-net/aspose.slides.theme/imasterthemeable/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.theme/imasterthemeable/presentation/) |  |
+
+## Methods
+
+| Method | Description |
+| :- | :- |
+| [`create_theme_effective`](/slides/python-net/aspose.slides.theme/imasterthemeable/create_theme_effective/#) |  |
 
 
 ### See Also

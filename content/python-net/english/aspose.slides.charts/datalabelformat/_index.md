@@ -35,6 +35,8 @@ The DataLabelFormat type exposes the following members:
 | [`separator`](/slides/python-net/aspose.slides.charts/datalabelformat/separator/) | Sets or returns a Variant representing the separator used for the data labels on a chart.<br/>            Read/write **str**. |
 | [`text_format`](/slides/python-net/aspose.slides.charts/datalabelformat/text_format/) | Returns chart text format.<br/>            Read-only [`IChartTextFormat`](/slides/python-net/aspose.slides.charts/icharttextformat). |
 | [`chart`](/slides/python-net/aspose.slides.charts/datalabelformat/chart/) | Returns the chart.<br/>            Read-only [`IChart`](/slides/python-net/aspose.slides.charts/ichart). |
+| [`slide`](/slides/python-net/aspose.slides.charts/datalabelformat/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.charts/datalabelformat/presentation/) |  |
 
 
 ### See Also

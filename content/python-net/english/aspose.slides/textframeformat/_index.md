@@ -40,6 +40,9 @@ The TextFrameFormat type exposes the following members:
 | [`rotation_angle`](/slides/python-net/aspose.slides/textframeformat/rotation_angle/) | Specifies custom the rotation that is being applied to the text within the bounding box. If it not<br/>            specified, the rotation of the accompanying shape is used. If it is specified, then this is<br/>            applied independently from the shape. That is the shape can have a rotation applied in<br/>            addition to the text itself having a rotation applied to it.<br/>            The resulted value of visual text rotation summarized from this property and predefined<br/>            vertical type in property TextVerticalType.<br/>            Read/write **float**. |
 | [`transform`](/slides/python-net/aspose.slides/textframeformat/transform/) | Gets or sets text wrapping shape.<br/>            Read/write [`TextShapeType`](/slides/python-net/aspose.slides/textshapetype). |
 | [`keep_text_flat`](/slides/python-net/aspose.slides/textframeformat/keep_text_flat/) | Gets or sets keeping text flat even if a 3-D Rotation effect was applied.<br/>            Read/write **bool**. |
+| [`slide`](/slides/python-net/aspose.slides/textframeformat/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides/textframeformat/presentation/) |  |
+| [`text_style`](/slides/python-net/aspose.slides/textframeformat/text_style/) |  |
 
 ## Methods
 

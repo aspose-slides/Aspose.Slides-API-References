@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#asposeslidesishape}
+## add {#ishape}
 Add new interactive sequence.
 
 ### Returns

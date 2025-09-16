@@ -21,6 +21,8 @@ The GradientStop type exposes the following members:
 | :- | :- |
 | [`position`](/slides/python-net/aspose.slides/gradientstop/position/) | Returns or sets the position (0..1) of a gradient stop.<br/>            Read/write **float**. |
 | [`color`](/slides/python-net/aspose.slides/gradientstop/color/) | Returns the color of a gradient stop.<br/>            Read-only [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
+| [`slide`](/slides/python-net/aspose.slides/gradientstop/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides/gradientstop/presentation/) |  |
 
 
 ### See Also

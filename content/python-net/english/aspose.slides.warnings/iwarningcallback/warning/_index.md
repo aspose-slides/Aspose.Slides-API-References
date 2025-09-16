@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## warning {#asposeslideswarningsiwarninginfo}
+## warning {#iwarninginfo}
 Callback method which receives warning and decides whether operation should be aborted.
 
 ### Returns

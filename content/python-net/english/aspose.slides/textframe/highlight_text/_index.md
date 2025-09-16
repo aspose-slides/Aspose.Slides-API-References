@@ -24,7 +24,7 @@ def highlight_text(self, text, highlight_color):
 | highlight_color | **aspose.pydrawing.Color** | The color to highlight the text. |
 
 
-## highlight_text {#str-asposepydrawingcolor-asposeslidesitexthighlightingoptions}
+## highlight_text {#str-asposepydrawingcolor-itexthighlightingoptions}
 Highlights all matches of the sample text with the specified color.
 
 
@@ -45,7 +45,7 @@ def highlight_text(self, text, highlight_color, options):
 The following sample code shows how to Highlight Text in a TextFrame.
 
 
-## highlight_text {#str-asposepydrawingcolor-asposeslidesitextsearchoptions-asposeslidesifindresultcallback}
+## highlight_text {#str-asposepydrawingcolor-itextsearchoptions-ifindresultcallback}
 Highlights all matches of the sample text with the specified color.
 
 

@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## remove_summary_zoom_section {#asposeslidesisection}
+## remove_summary_zoom_section {#isection}
 Remove Summary Zoom Section object from the collection.
 
 

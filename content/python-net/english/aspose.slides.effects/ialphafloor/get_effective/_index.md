@@ -22,6 +22,7 @@ def get_effective(self):
 
 ### See Also
 * class [`IAlphaFloor`](/slides/python-net/aspose.slides.effects/ialphafloor)
+* class [`IAlphaFloorEffectiveData`](/slides/python-net/aspose.slides.effects/ialphaflooreffectivedata)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
 

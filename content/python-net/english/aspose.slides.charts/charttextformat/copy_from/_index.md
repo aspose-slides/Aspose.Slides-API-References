@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## copy_from {#asposeslidesitextframe}
+## copy_from {#itextframe}
 Copies text format from specified text frame.
 
 

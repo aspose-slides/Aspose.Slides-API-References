@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/chartseries/show_outlier_points/
-weight: 420
+weight: 460
 ---
 
 

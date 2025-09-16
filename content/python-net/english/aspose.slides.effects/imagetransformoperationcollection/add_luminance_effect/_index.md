@@ -31,6 +31,7 @@ def add_luminance_effect(self, brightness, contrast):
 
 
 ### See Also
+* class [`ILuminance`](/slides/python-net/aspose.slides.effects/iluminance)
 * class [`ImageTransformOperationCollection`](/slides/python-net/aspose.slides.effects/imagetransformoperationcollection)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

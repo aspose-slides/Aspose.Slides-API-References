@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/groupshape/group_shape_lock/
-weight: 160
+weight: 190
 ---
 
 

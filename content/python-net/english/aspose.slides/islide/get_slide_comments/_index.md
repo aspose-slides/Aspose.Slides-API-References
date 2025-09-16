@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/islide/get_slide_comments/
-weight: 20
+weight: 50
 ---
 
 
-## get_slide_comments {#asposeslidesicommentauthor}
+## get_slide_comments {#icommentauthor}
 Returns all slide comments added by specific author.
 
 ### Returns

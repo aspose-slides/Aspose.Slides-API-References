@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## delimit {#systemchar}
+## delimit {#char}
 Delimits child elements with separator character (without the brackets)
 
 ### Returns
@@ -25,7 +25,7 @@ def delimit(self, separator_character):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| separator_character | **System.Char** | Separator character |
+| separator_character | **char** | Separator character |
 
 ### Examples
 

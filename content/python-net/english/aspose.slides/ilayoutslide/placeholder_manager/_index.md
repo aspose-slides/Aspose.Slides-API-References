@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ilayoutslide/placeholder_manager/
-weight: 90
+weight: 200
 ---
 
 

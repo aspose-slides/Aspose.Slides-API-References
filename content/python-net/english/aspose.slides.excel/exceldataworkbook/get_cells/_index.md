@@ -9,6 +9,11 @@ weight: 30
 
 
 ## get_cells {#str-bool}
+Retrieves a collection of cells from the workbook that match the specified formula.
+
+### Returns
+
+A read-only list of cells that match the specified formula.
 
 
 
@@ -20,8 +25,12 @@ def get_cells(self, formula, skip_hidden_cells):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| formula | **str** |  |
-| skip_hidden_cells | **bool** |  |
+| formula | **str** | A formula or range expression (e.g., "Sheet1!A1:B3") used to identify target cells. |
+| skip_hidden_cells | **bool** | If `true`, hidden cells (e.g., in hidden rows or columns) will be excluded from the result. |
+
+### Examples
+
+Example:
 
 
 

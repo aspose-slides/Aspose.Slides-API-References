@@ -9,8 +9,6 @@ weight: 70
 
 
 ## MotionPath indexer
-Returns a command at the specified index.
-
 ## Indexer
 
 | Name | Description |

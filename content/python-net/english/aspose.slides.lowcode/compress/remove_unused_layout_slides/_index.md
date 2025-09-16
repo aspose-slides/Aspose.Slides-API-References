@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## remove_unused_layout_slides {#asposeslidespresentation}
+## remove_unused_layout_slides {#presentation}
 Makes compression of the [`Presentation`](/slides/python-net/aspose.slides/presentation) by removing unused layout slides.
 
 

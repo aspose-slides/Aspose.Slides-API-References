@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## index_of {#asposeslidesmathtextimathblock}
+## index_of {#imathblock}
 Determines the index of a specific IMathBlock in collection.
 
 ### Returns

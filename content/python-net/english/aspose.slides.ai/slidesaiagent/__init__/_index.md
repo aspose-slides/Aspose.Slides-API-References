@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#asposeslidesaiiaiwebclient}
+## __init__ {#iaiwebclient}
 SlidesAIAgent constructor
 
 

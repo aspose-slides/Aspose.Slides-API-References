@@ -14,6 +14,12 @@ Represents modified OLE Automation type library reference in which
 
 The IVbaReferenceOleTwiddledTypeLib type exposes the following members:
 
+## Properties
+
+| Property | Description |
+| :- | :- |
+| [`name`](/slides/python-net/aspose.slides.vba/ivbareferenceoletwiddledtypelib/name/) |  |
+
 
 ### See Also
 * module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)

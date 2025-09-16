@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## insert_modern_comment {#int-str-asposeslidesislide-asposeslidesishape-asposepydrawingpointf-systemdatetime}
+## insert_modern_comment {#int-str-islide-ishape-asposepydrawingpointf-datetime}
 Insert new modern comment to a collection at the specified index.
 
 ### Returns
@@ -30,12 +30,13 @@ def insert_modern_comment(self, index, text, slide, shape, position, creation_ti
 | slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | Slide in a presentation where to add a new modern comment. |
 | shape | [`IShape`](/slides/python-net/aspose.slides/ishape) | Shape on a slide to which a new modern comment is associated. |
 | position | **aspose.pydrawing.PointF** | Position on a slide where to add a new modern comment. |
-| creation_time | **System.DateTime** | Time of a modern comment creation. |
+| creation_time | **DateTime** | Time of a modern comment creation. |
 
 
 
 ### See Also
 * class [`CommentCollection`](/slides/python-net/aspose.slides/commentcollection)
+* class [`IModernComment`](/slides/python-net/aspose.slides/imoderncomment)
 * class [`IShape`](/slides/python-net/aspose.slides/ishape)
 * class [`ISlide`](/slides/python-net/aspose.slides/islide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)

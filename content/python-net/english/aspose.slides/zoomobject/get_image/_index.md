@@ -25,7 +25,7 @@ def get_image(self):
 
 
 
-## get_image {#asposeslidesshapethumbnailbounds-float-float}
+## get_image {#shapethumbnailbounds-float-float}
 Returns shape thumbnail.
 
 ### Returns
@@ -49,6 +49,7 @@ def get_image(self, bounds, scale_x, scale_y):
 
 
 ### See Also
+* class [`IImage`](/slides/python-net/aspose.slides/iimage)
 * enumeration [`ShapeThumbnailBounds`](/slides/python-net/aspose.slides/shapethumbnailbounds)
 * class [`ZoomObject`](/slides/python-net/aspose.slides/zoomobject)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)

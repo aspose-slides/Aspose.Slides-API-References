@@ -23,7 +23,7 @@ def __init__(self):
 Example:
 
 
-## __init__ {#asposeslidesmathtextimathblock}
+## __init__ {#imathblock}
 Initializes a new instance of the MathParagraph class.
 
 

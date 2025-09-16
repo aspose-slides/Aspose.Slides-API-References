@@ -8,7 +8,7 @@ weight: 200
 ---
 
 
-## radical {#asposeslidesmathtextimathelement}
+## radical {#imathelement}
 Specifies the mathematical root of the given degree from the specified argument.
 
 ### Returns

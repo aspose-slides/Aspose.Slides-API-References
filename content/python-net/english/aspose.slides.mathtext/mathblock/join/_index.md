@@ -8,7 +8,7 @@ weight: 170
 ---
 
 
-## join {#asposeslidesmathtextimathelement}
+## join {#imathelement}
 Joins a mathematical element with this mathematical block
 
 ### Returns
@@ -58,6 +58,7 @@ Example:
 
 
 ### See Also
+* class [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock)
 * class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
 * class [`MathBlock`](/slides/python-net/aspose.slides.mathtext/mathblock)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)

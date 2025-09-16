@@ -8,7 +8,7 @@ weight: 170
 ---
 
 
-## add_zoom_frame {#float-float-float-float-asposeslidesislide}
+## add_zoom_frame {#float-float-float-float-islide}
 Creates a new Zoom frame and adds it to the end of the shape collection.
 
 ### Returns
@@ -43,7 +43,7 @@ This example demonstrates adding a Zoom object to the end of a collection
 | **RuntimeError(Proxy error(ArgumentException))** | Thrown if the referenced slide does not belong to the current presentation. |
 
 
-## add_zoom_frame {#float-float-float-float-asposeslidesislide-asposeslidesippimage}
+## add_zoom_frame {#float-float-float-float-islide-ippimage}
 Creates a new Zoom frame and adds it to the end of the shape collection.
 
 ### Returns

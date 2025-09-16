@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/chart/has_rounded_corners/
-weight: 290
+weight: 360
 ---
 
 

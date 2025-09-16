@@ -9,8 +9,6 @@ weight: 10
 
 
 ## IGradientStopCollectionEffectiveData indexer
-Returns the gradient stop by index.
-
 ## Indexer
 
 | Name | Description |

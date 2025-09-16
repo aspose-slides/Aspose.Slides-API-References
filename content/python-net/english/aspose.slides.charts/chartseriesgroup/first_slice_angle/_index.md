@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/chartseriesgroup/first_slice_angle/
-weight: 60
+weight: 90
 ---
 
 

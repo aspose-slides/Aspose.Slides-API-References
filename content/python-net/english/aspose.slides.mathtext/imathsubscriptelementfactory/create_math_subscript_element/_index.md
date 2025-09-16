@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## create_math_subscript_element {#asposeslidesmathtextimathelement-asposeslidesmathtextimathelement}
+## create_math_subscript_element {#imathelement-imathelement}
 Creates IMathSubscriptElement
 
 ### Returns
@@ -32,6 +32,7 @@ def create_math_subscript_element(self, base_arg, sub_script):
 
 ### See Also
 * class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
+* class [`IMathSubscriptElement`](/slides/python-net/aspose.slides.mathtext/imathsubscriptelement)
 * class [`IMathSubscriptElementFactory`](/slides/python-net/aspose.slides.mathtext/imathsubscriptelementfactory)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

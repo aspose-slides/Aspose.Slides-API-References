@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.theme/ioverridetheme/init_format_scheme_from/
-weight: 90
+weight: 100
 ---
 
 
-## init_format_scheme_from {#asposeslidesthemeiformatscheme}
+## init_format_scheme_from {#iformatscheme}
 Init FormatScheme with new object for overriding FormatScheme of InheritedTheme.
 
 

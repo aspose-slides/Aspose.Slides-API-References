@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## equals {#asposeslidesilineformat}
+## equals {#ilineformat}
 Determines whether the two LineFormat instances are equal.
 
 ### Returns

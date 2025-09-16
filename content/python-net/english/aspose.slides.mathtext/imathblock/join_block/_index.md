@@ -8,7 +8,7 @@ weight: 170
 ---
 
 
-## join_block {#asposeslidesmathtextimathblock}
+## join_block {#imathblock}
 Joins another mathematical block with this one
 
 ### Returns

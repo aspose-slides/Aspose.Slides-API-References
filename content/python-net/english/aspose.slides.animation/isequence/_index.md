@@ -32,17 +32,17 @@ Returns an effect at the specified index.
 
 | Method | Description |
 | :- | :- |
-| [`add_effect`](/slides/python-net/aspose.slides.animation/isequence/add_effect/#asposeslidesishape-asposeslidesanimationeffecttype-asposeslidesanimationeffectsubtype-asposeslidesanimationeffecttriggertype) | Add new effect to the end of sequence. |
-| [`add_effect`](/slides/python-net/aspose.slides.animation/isequence/add_effect/#asposeslidesiparagraph-asposeslidesanimationeffecttype-asposeslidesanimationeffectsubtype-asposeslidesanimationeffecttriggertype) | Add new animation effect for paragraph to the end of sequence. |
-| [`add_effect`](/slides/python-net/aspose.slides.animation/isequence/add_effect/#asposeslideschartsichart-asposeslidesanimationeffectchartmajorgroupingtype-int-asposeslidesanimationeffecttype-asposeslidesanimationeffectsubtype-asposeslidesanimationeffecttriggertype) | Adds the new chart animation effect for category or series to the end of sequence. |
-| [`add_effect`](/slides/python-net/aspose.slides.animation/isequence/add_effect/#asposeslideschartsichart-asposeslidesanimationeffectchartminorgroupingtype-int-int-asposeslidesanimationeffecttype-asposeslidesanimationeffectsubtype-asposeslidesanimationeffecttriggertype) | Adds the new chart animation effect for elements in category or series to the end of sequence. |
-| [`remove`](/slides/python-net/aspose.slides.animation/isequence/remove/#asposeslidesanimationieffect) | Removes specified effect from a collection. |
+| [`add_effect`](/slides/python-net/aspose.slides.animation/isequence/add_effect/#ishape-effecttype-effectsubtype-effecttriggertype) | Add new effect to the end of sequence. |
+| [`add_effect`](/slides/python-net/aspose.slides.animation/isequence/add_effect/#iparagraph-effecttype-effectsubtype-effecttriggertype) | Add new animation effect for paragraph to the end of sequence. |
+| [`add_effect`](/slides/python-net/aspose.slides.animation/isequence/add_effect/#asposeslideschartsichart-effectchartmajorgroupingtype-int-effecttype-effectsubtype-effecttriggertype) | Adds the new chart animation effect for category or series to the end of sequence. |
+| [`add_effect`](/slides/python-net/aspose.slides.animation/isequence/add_effect/#asposeslideschartsichart-effectchartminorgroupingtype-int-int-effecttype-effectsubtype-effecttriggertype) | Adds the new chart animation effect for elements in category or series to the end of sequence. |
+| [`remove`](/slides/python-net/aspose.slides.animation/isequence/remove/#ieffect) | Removes specified effect from a collection. |
 | [`remove_at`](/slides/python-net/aspose.slides.animation/isequence/remove_at/#int) | Removes an effect from a collection. |
 | [`clear`](/slides/python-net/aspose.slides.animation/isequence/clear/#) | Removes all effects from a collection. |
-| [`remove_by_shape`](/slides/python-net/aspose.slides.animation/isequence/remove_by_shape/#asposeslidesishape) | Remove effect for the specified shape. |
-| [`get_effects_by_shape`](/slides/python-net/aspose.slides.animation/isequence/get_effects_by_shape/#asposeslidesishape) | Returns array of effects for the specified shape. |
-| [`get_effects_by_paragraph`](/slides/python-net/aspose.slides.animation/isequence/get_effects_by_paragraph/#asposeslidesiparagraph) | Returns array of effects for the specified paragraph. |
-| [`get_count`](/slides/python-net/aspose.slides.animation/isequence/get_count/#asposeslidesishape) | Returns count of effects for the specified shape. |
+| [`remove_by_shape`](/slides/python-net/aspose.slides.animation/isequence/remove_by_shape/#ishape) | Remove effect for the specified shape. |
+| [`get_effects_by_shape`](/slides/python-net/aspose.slides.animation/isequence/get_effects_by_shape/#ishape) | Returns array of effects for the specified shape. |
+| [`get_effects_by_paragraph`](/slides/python-net/aspose.slides.animation/isequence/get_effects_by_paragraph/#iparagraph) | Returns array of effects for the specified paragraph. |
+| [`get_count`](/slides/python-net/aspose.slides.animation/isequence/get_count/#ishape) | Returns count of effects for the specified shape. |
 
 
 ### See Also

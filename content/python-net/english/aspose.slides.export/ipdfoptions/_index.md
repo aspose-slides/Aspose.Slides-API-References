@@ -36,6 +36,11 @@ The IPdfOptions type exposes the following members:
 | [`apply_image_transparent`](/slides/python-net/aspose.slides.export/ipdfoptions/apply_image_transparent/) | Applies the specified transparent color to an image if `true`. |
 | [`ink_options`](/slides/python-net/aspose.slides.export/ipdfoptions/ink_options/) | Provides options that control the look of Ink objects in exported document.<br/>            Read-only [`IInkOptions`](/slides/python-net/aspose.slides.export/iinkoptions) |
 | [`include_ole_data`](/slides/python-net/aspose.slides.export/ipdfoptions/include_ole_data/) | True to convert all OLE data from the presentation to embedded files in the resulting PDF.<br/>            Read/write **bool**. |
+| [`warning_callback`](/slides/python-net/aspose.slides.export/ipdfoptions/warning_callback/) |  |
+| [`progress_callback`](/slides/python-net/aspose.slides.export/ipdfoptions/progress_callback/) |  |
+| [`default_regular_font`](/slides/python-net/aspose.slides.export/ipdfoptions/default_regular_font/) |  |
+| [`gradient_style`](/slides/python-net/aspose.slides.export/ipdfoptions/gradient_style/) |  |
+| [`skip_java_script_links`](/slides/python-net/aspose.slides.export/ipdfoptions/skip_java_script_links/) |  |
 
 
 ### See Also

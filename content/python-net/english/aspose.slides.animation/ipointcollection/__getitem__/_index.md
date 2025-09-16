@@ -9,8 +9,6 @@ weight: 10
 
 
 ## IPointCollection indexer
-Returns a point at the specified index.
-
 ## Indexer
 
 | Name | Description |

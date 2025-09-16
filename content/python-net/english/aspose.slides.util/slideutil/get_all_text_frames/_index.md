@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## get_all_text_frames {#asposeslidesipresentation-bool}
+## get_all_text_frames {#ipresentation-bool}
 Returns all text frames in a PPTX presentation.
 
 ### Returns

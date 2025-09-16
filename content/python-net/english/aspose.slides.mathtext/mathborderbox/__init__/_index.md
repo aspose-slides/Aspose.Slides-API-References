@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#asposeslidesmathtextimathelement}
+## __init__ {#imathelement}
 Creates MathBorderBox element with rectangular border
 
 
@@ -27,7 +27,7 @@ def __init__(self, element):
 Example:
 
 
-## __init__ {#asposeslidesmathtextimathelement-bool-bool-bool-bool-bool-bool-bool-bool}
+## __init__ {#imathelement-bool-bool-bool-bool-bool-bool-bool-bool}
 Creates MathBorderBox element
 
 

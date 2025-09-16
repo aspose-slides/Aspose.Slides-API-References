@@ -40,7 +40,7 @@ def set_custom_property_value(self, name, value):
 | value | **int** | Custom property value |
 
 
-## set_custom_property_value {#str-systemdatetime}
+## set_custom_property_value {#str-datetime}
 Sets a named DateTime custom property.
 
 
@@ -53,7 +53,7 @@ def set_custom_property_value(self, name, value):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | name | **str** | Name of the custom property to set |
-| value | **System.DateTime** | Custom property value |
+| value | **DateTime** | Custom property value |
 
 
 ## set_custom_property_value {#str-str}

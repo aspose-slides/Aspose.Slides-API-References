@@ -46,6 +46,8 @@ The ChartPortionFormat type exposes the following members:
 | [`language_id`](/slides/python-net/aspose.slides.charts/chartportionformat/language_id/) | Returns or sets the Id of a proofing language. Used for checking spelling and grammar.<br/>            Read/write **str**. |
 | [`alternative_language_id`](/slides/python-net/aspose.slides.charts/chartportionformat/alternative_language_id/) | Returns or sets the Id of an alternative language.<br/>            Read/write **str**. |
 | [`spacing`](/slides/python-net/aspose.slides.charts/chartportionformat/spacing/) | Returns or sets the intercharacter spacing increment.<br/>**float.NaN**  means value is undefined and should be inherited from the Master.<br/>            Read/write **float**. |
+| [`slide`](/slides/python-net/aspose.slides.charts/chartportionformat/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.charts/chartportionformat/presentation/) |  |
 
 
 ### Remarks

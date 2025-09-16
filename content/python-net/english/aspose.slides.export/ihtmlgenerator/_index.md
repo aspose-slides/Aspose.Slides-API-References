@@ -29,14 +29,14 @@ The IHtmlGenerator type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [`add_html`](/slides/python-net/aspose.slides.export/ihtmlgenerator/add_html/#str) | Adds formatted HTML text. |
-| [`add_html`](/slides/python-net/aspose.slides.export/ihtmlgenerator/add_html/#listsystemchar) | Adds formatted HTML text. |
-| [`add_html`](/slides/python-net/aspose.slides.export/ihtmlgenerator/add_html/#listsystemchar-int-int) | Adds formatted HTML text. |
+| [`add_html`](/slides/python-net/aspose.slides.export/ihtmlgenerator/add_html/#listchar) | Adds formatted HTML text. |
+| [`add_html`](/slides/python-net/aspose.slides.export/ihtmlgenerator/add_html/#listchar-int-int) | Adds formatted HTML text. |
 | [`add_text`](/slides/python-net/aspose.slides.export/ihtmlgenerator/add_text/#str) | Adds plain text to the html files, replacing special characters with html entities.<br/>            Linebreaks and whitespaces aren't replaced. |
-| [`add_text`](/slides/python-net/aspose.slides.export/ihtmlgenerator/add_text/#listsystemchar) | Adds plain text to the html files, replacing special characters with html entities.<br/>            Linebreaks and whitespaces aren't replaced. |
-| [`add_text`](/slides/python-net/aspose.slides.export/ihtmlgenerator/add_text/#listsystemchar-int-int) | Adds plain text to the html files, replacing special characters with html entities.<br/>            Linebreaks and whitespaces aren't replaced. |
+| [`add_text`](/slides/python-net/aspose.slides.export/ihtmlgenerator/add_text/#listchar) | Adds plain text to the html files, replacing special characters with html entities.<br/>            Linebreaks and whitespaces aren't replaced. |
+| [`add_text`](/slides/python-net/aspose.slides.export/ihtmlgenerator/add_text/#listchar-int-int) | Adds plain text to the html files, replacing special characters with html entities.<br/>            Linebreaks and whitespaces aren't replaced. |
 | [`add_attribute_value`](/slides/python-net/aspose.slides.export/ihtmlgenerator/add_attribute_value/#str) | Quotes attribute value and adds it to the html file. |
-| [`add_attribute_value`](/slides/python-net/aspose.slides.export/ihtmlgenerator/add_attribute_value/#listsystemchar) | Quotes attribute value and adds it to the html file. |
-| [`add_attribute_value`](/slides/python-net/aspose.slides.export/ihtmlgenerator/add_attribute_value/#listsystemchar-int-int) | Quotes attribute value and adds it to the html file. |
+| [`add_attribute_value`](/slides/python-net/aspose.slides.export/ihtmlgenerator/add_attribute_value/#listchar) | Quotes attribute value and adds it to the html file. |
+| [`add_attribute_value`](/slides/python-net/aspose.slides.export/ihtmlgenerator/add_attribute_value/#listchar-int-int) | Quotes attribute value and adds it to the html file. |
 
 
 ### See Also

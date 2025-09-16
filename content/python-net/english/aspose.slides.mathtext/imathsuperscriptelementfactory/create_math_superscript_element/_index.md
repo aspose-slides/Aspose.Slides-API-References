@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## create_math_superscript_element {#asposeslidesmathtextimathelement-asposeslidesmathtextimathelement}
+## create_math_superscript_element {#imathelement-imathelement}
 Creates IMathSuperscriptElement
 
 ### Returns
@@ -32,6 +32,7 @@ def create_math_superscript_element(self, base_arg, super_script):
 
 ### See Also
 * class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
+* class [`IMathSuperscriptElement`](/slides/python-net/aspose.slides.mathtext/imathsuperscriptelement)
 * class [`IMathSuperscriptElementFactory`](/slides/python-net/aspose.slides.mathtext/imathsuperscriptelementfactory)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

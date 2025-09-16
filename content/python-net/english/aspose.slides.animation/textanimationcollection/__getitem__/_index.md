@@ -9,8 +9,6 @@ weight: 30
 
 
 ## TextAnimationCollection indexer
-Returns element by index.
-
 ## Indexer
 
 | Name | Description |

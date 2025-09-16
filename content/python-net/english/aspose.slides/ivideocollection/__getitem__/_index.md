@@ -9,9 +9,6 @@ weight: 20
 
 
 ## IVideoCollection indexer
-Gets the element at the specified index.
-            Read-only [`IVideo`](/slides/python-net/aspose.slides/ivideo).
-
 ## Indexer
 
 | Name | Description |
@@ -20,7 +17,6 @@ Gets the element at the specified index.
 
 
 ### See Also
-* class [`IVideo`](/slides/python-net/aspose.slides/ivideo)
 * class [`IVideoCollection`](/slides/python-net/aspose.slides/ivideocollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -8,7 +8,7 @@ weight: 180
 ---
 
 
-## set_superscript {#asposeslidesmathtextimathelement}
+## set_superscript {#imathelement}
 Creates superscript
 
 ### Returns

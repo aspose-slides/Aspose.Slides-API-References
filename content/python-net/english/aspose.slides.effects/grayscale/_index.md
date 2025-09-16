@@ -16,6 +16,13 @@ Represents a Gray Scale effect. Converts all effect color values to a shade of g
 
 The GrayScale type exposes the following members:
 
+## Properties
+
+| Property | Description |
+| :- | :- |
+| [`slide`](/slides/python-net/aspose.slides.effects/grayscale/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.effects/grayscale/presentation/) |  |
+
 ## Methods
 
 | Method | Description |

@@ -7,6 +7,7 @@ url: /aspose.slides.excel/
 ---
 
 
+Contains classes for work with external Microsoft Excel spreadsheets.
 ## Classes
 
 | Class | Description |

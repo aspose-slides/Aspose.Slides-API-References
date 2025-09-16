@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/graphicalobject/is_text_holder/
-weight: 230
+weight: 270
 ---
 
 

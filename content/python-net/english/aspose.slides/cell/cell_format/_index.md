@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/cell/cell_format/
-weight: 60
+weight: 80
 ---
 
 

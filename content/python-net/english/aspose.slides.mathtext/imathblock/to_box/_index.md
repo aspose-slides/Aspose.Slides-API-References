@@ -22,6 +22,7 @@ def to_box(self):
 
 ### See Also
 * class [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock)
+* class [`IMathBox`](/slides/python-net/aspose.slides.mathtext/imathbox)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
 

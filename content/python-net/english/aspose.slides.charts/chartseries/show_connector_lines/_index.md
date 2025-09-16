@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/chartseries/show_connector_lines/
-weight: 380
+weight: 420
 ---
 
 

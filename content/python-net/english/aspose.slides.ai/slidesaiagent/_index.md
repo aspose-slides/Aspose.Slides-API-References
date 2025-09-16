@@ -17,15 +17,15 @@ The SlidesAIAgent type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides.ai/slidesaiagent/__init__/#asposeslidesaiiaiwebclient) | SlidesAIAgent constructor |
+| [`__init__`](/slides/python-net/aspose.slides.ai/slidesaiagent/__init__/#iaiwebclient) | SlidesAIAgent constructor |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [`generate_presentation`](/slides/python-net/aspose.slides.ai/slidesaiagent/generate_presentation/#str-asposeslidesaipresentationcontentamounttype) | Generates a presentation instance from a text description. Provide a topic, ideas, quotes, or text snippets in the required language. |
-| [`generate_presentation`](/slides/python-net/aspose.slides.ai/slidesaiagent/generate_presentation/#str-asposeslidesaipresentationcontentamounttype-asposeslidesipresentation) | Generates a presentation instance from a text description. Provide a topic, ideas, quotes, or text snippets in the required language. |
-| [`translate`](/slides/python-net/aspose.slides.ai/slidesaiagent/translate/#asposeslidesipresentation-str) | Translates a presentation to the specified language using AI (synchronous version). |
+| [`generate_presentation`](/slides/python-net/aspose.slides.ai/slidesaiagent/generate_presentation/#str-presentationcontentamounttype) | Generates a presentation instance from a text description. Provide a topic, ideas, quotes, or text snippets in the required language. |
+| [`generate_presentation`](/slides/python-net/aspose.slides.ai/slidesaiagent/generate_presentation/#str-presentationcontentamounttype-ipresentation) | Generates a presentation instance from a text description. Provide a topic, ideas, quotes, or text snippets in the required language. |
+| [`translate`](/slides/python-net/aspose.slides.ai/slidesaiagent/translate/#ipresentation-str) | Translates a presentation to the specified language using AI (synchronous version). |
 
 
 ### See Also

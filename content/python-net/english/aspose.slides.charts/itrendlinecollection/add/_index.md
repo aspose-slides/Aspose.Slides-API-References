@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#asposeslideschartstrendlinetype}
+## add {#trendlinetype}
 Adds the new Trendline at the end of a collection and return it.
 
 ### Returns

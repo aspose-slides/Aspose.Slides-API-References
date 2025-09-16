@@ -24,7 +24,7 @@ def highlight_regex(self, regex, highlight_color):
 | highlight_color | **aspose.pydrawing.Color** |  |
 
 
-## highlight_regex {#str-asposepydrawingcolor-asposeslidesitexthighlightingoptions}
+## highlight_regex {#str-asposepydrawingcolor-itexthighlightingoptions}
 Highlights all matches of the regular expression with the specified color.
 
 

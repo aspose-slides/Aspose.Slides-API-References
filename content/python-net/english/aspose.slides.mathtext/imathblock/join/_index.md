@@ -8,7 +8,7 @@ weight: 160
 ---
 
 
-## join {#asposeslidesmathtextimathelement}
+## join {#imathelement}
 
 
 

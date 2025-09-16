@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/chartportionformat/east_asian_font/
-weight: 40
+weight: 50
 ---
 
 

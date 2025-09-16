@@ -9,13 +9,11 @@ weight: 50
 
 
 ## IChartCellCollection indexer
-Returns a cell (IChartDataCell) by index.
-
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| index | Index of a cell. |
+| index |  |
 
 
 ### See Also

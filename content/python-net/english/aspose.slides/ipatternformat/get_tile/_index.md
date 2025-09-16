@@ -51,6 +51,7 @@ def get_tile(self, background, foreground):
 
 
 ### See Also
+* class [`IImage`](/slides/python-net/aspose.slides/iimage)
 * class [`IPatternFormat`](/slides/python-net/aspose.slides/ipatternformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

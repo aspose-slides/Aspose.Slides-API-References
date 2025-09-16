@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/iaxis/is_overflow_bin/
-weight: 290
+weight: 330
 ---
 
 

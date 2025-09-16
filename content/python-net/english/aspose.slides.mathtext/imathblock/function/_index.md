@@ -8,7 +8,7 @@ weight: 100
 ---
 
 
-## function {#asposeslidesmathtextimathelement}
+## function {#imathelement}
 
 
 
@@ -42,6 +42,7 @@ def function(self, function_argument):
 ### See Also
 * class [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock)
 * class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
+* class [`IMathFunction`](/slides/python-net/aspose.slides.mathtext/imathfunction)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
 

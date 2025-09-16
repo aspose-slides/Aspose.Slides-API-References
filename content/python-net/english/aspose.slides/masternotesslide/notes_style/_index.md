@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/masternotesslide/notes_style/
-weight: 110
+weight: 150
 ---
 
 

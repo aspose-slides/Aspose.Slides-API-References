@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## copy_to {#listasposeslidesidrawingguide-int}
+## copy_to {#listidrawingguide-int}
 Copies all elements from the collection to the specified array.
 
 
@@ -20,7 +20,7 @@ def copy_to(self, array, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| array | **List[aspose.slides.IDrawingGuide]** | Target array. |
+| array | **List[IDrawingGuide]** | Target array. |
 | index | **int** | Starting index in the target array. |
 
 

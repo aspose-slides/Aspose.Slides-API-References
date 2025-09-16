@@ -32,10 +32,10 @@ Returns the drawing guide by index.
 
 | Method | Description |
 | :- | :- |
-| [`add`](/slides/python-net/aspose.slides/drawingguidescollection/add/#asposeslidesorientation-float) | Adds the drawing guide at the end of the collection. |
+| [`add`](/slides/python-net/aspose.slides/drawingguidescollection/add/#orientation-float) | Adds the drawing guide at the end of the collection. |
 | [`remove_at`](/slides/python-net/aspose.slides/drawingguidescollection/remove_at/#int) | Removes the drawing guide at the specified index. |
 | [`clear`](/slides/python-net/aspose.slides/drawingguidescollection/clear/#) | Removes all elements from the collection. |
-| [`copy_to`](/slides/python-net/aspose.slides/drawingguidescollection/copy_to/#listasposeslidesidrawingguide-int) | Copies all elements from the collection to the specified array. |
+| [`copy_to`](/slides/python-net/aspose.slides/drawingguidescollection/copy_to/#listidrawingguide-int) | Copies all elements from the collection to the specified array. |
 
 
 ### See Also

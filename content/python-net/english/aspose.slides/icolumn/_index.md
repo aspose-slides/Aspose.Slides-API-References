@@ -32,9 +32,9 @@ The IColumn type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`set_text_format`](/slides/python-net/aspose.slides/icolumn/set_text_format/#asposeslidesiportionformat) |  |
-| [`set_text_format`](/slides/python-net/aspose.slides/icolumn/set_text_format/#asposeslidesiparagraphformat) |  |
-| [`set_text_format`](/slides/python-net/aspose.slides/icolumn/set_text_format/#asposeslidesitextframeformat) |  |
+| [`set_text_format`](/slides/python-net/aspose.slides/icolumn/set_text_format/#iportionformat) |  |
+| [`set_text_format`](/slides/python-net/aspose.slides/icolumn/set_text_format/#iparagraphformat) |  |
+| [`set_text_format`](/slides/python-net/aspose.slides/icolumn/set_text_format/#itextframeformat) |  |
 
 
 ### See Also

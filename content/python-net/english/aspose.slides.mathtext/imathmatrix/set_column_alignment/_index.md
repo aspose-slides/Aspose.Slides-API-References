@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/imathmatrix/set_column_alignment/
-weight: 80
+weight: 200
 ---
 
 
-## set_column_alignment {#int-asposeslidesmathtextmathhorizontalalignment}
+## set_column_alignment {#int-mathhorizontalalignment}
 Set the horizontal alignment of the specified column
 
 

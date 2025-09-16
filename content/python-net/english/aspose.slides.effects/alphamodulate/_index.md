@@ -17,6 +17,13 @@ Represents an Alpha Modulate effect.
 
 The AlphaModulate type exposes the following members:
 
+## Properties
+
+| Property | Description |
+| :- | :- |
+| [`slide`](/slides/python-net/aspose.slides.effects/alphamodulate/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.effects/alphamodulate/presentation/) |  |
+
 ## Methods
 
 | Method | Description |

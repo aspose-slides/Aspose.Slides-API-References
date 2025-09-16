@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/ichartseriesgroup/is_color_varied/
-weight: 110
+weight: 140
 ---
 
 

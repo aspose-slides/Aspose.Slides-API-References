@@ -8,7 +8,7 @@ weight: 140
 ---
 
 
-## insert {#int-asposeslidesmathtextimathelement}
+## insert {#int-imathelement}
 
 
 

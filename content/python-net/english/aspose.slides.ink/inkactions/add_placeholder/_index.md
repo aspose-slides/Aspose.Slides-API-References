@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_placeholder {#asposeslidesiplaceholder}
+## add_placeholder {#iplaceholder}
 Adds a new placeholder if there is no and sets placeholder properties to a specified one.
 
 ### Returns

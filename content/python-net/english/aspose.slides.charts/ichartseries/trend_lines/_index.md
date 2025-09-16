@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/ichartseries/trend_lines/
-weight: 440
+weight: 490
 ---
 
 

@@ -37,6 +37,7 @@ def apply_external_theme_to_depending_slides(self, fname):
 
 
 ### See Also
+* class [`IMasterSlide`](/slides/python-net/aspose.slides/imasterslide)
 * class [`MasterSlide`](/slides/python-net/aspose.slides/masterslide)
 * class [`PptxReadException`](/slides/python-net/aspose.slides/pptxreadexception)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)

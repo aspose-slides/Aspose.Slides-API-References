@@ -23,6 +23,8 @@ The Duotone type exposes the following members:
 | :- | :- |
 | [`color1`](/slides/python-net/aspose.slides.effects/duotone/color1/) | Returns target color format for dark pixels.<br/>            Read-only [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
 | [`color2`](/slides/python-net/aspose.slides.effects/duotone/color2/) | Returns target color format for light pixels.<br/>            Read-only [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
+| [`slide`](/slides/python-net/aspose.slides.effects/duotone/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.effects/duotone/presentation/) |  |
 
 ## Methods
 

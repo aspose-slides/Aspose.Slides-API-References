@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## apply_color_scheme {#asposeslidesthemeiextracolorscheme}
+## apply_color_scheme {#iextracolorscheme}
 Applies extra color scheme to a slide.
 
 

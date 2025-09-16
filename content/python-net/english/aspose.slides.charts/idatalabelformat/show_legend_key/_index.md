@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/idatalabelformat/show_legend_key/
-weight: 120
+weight: 170
 ---
 
 

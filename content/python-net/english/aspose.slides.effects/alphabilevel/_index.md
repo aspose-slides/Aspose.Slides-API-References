@@ -22,6 +22,8 @@ The AlphaBiLevel type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`threshold`](/slides/python-net/aspose.slides.effects/alphabilevel/threshold/) | Returns effect threshold.<br/>            Read/write **float**. |
+| [`slide`](/slides/python-net/aspose.slides.effects/alphabilevel/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.effects/alphabilevel/presentation/) |  |
 
 ## Methods
 

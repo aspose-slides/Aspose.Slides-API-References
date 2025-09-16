@@ -28,7 +28,7 @@ def highlight_text(self, text, highlight_color):
 The following code sample shows how to highlight text in a PowerPoint presentation.
 
 
-## highlight_text {#str-asposepydrawingcolor-asposeslidesitextsearchoptions-asposeslidesifindresultcallback}
+## highlight_text {#str-asposepydrawingcolor-itextsearchoptions-ifindresultcallback}
 Highlights all matches of the sample text with the specified color.
 
 

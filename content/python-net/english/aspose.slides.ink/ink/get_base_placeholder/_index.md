@@ -23,6 +23,7 @@ def get_base_placeholder(self):
 
 ### See Also
 * class [`Ink`](/slides/python-net/aspose.slides.ink/ink)
+* class [`IShape`](/slides/python-net/aspose.slides/ishape)
 * module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
 * library [`Aspose.Slides`](/slides/python-net)
 

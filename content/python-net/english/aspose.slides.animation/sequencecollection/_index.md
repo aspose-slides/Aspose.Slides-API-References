@@ -31,8 +31,8 @@ Returns a sequense at the specified index.
 
 | Method | Description |
 | :- | :- |
-| [`add`](/slides/python-net/aspose.slides.animation/sequencecollection/add/#asposeslidesishape) | Add new interactive sequence.<br/>            Read/write [`Sequence`](/slides/python-net/aspose.slides.animation/sequence). |
-| [`remove`](/slides/python-net/aspose.slides.animation/sequencecollection/remove/#asposeslidesanimationisequence) | Removes specified sequence from a collection. |
+| [`add`](/slides/python-net/aspose.slides.animation/sequencecollection/add/#ishape) | Add new interactive sequence.<br/>            Read/write [`Sequence`](/slides/python-net/aspose.slides.animation/sequence). |
+| [`remove`](/slides/python-net/aspose.slides.animation/sequencecollection/remove/#isequence) | Removes specified sequence from a collection. |
 | [`remove_at`](/slides/python-net/aspose.slides.animation/sequencecollection/remove_at/#int) | Removes sequence at the specified index. |
 | [`clear`](/slides/python-net/aspose.slides.animation/sequencecollection/clear/#) | Removes all sequences from a collection. |
 

@@ -40,7 +40,7 @@ def replace_image(self, new_image):
 | new_image | **aspose.pydrawing.Image** |  |
 
 
-## replace_image {#asposeslidesiimage}
+## replace_image {#iimage}
 Replaces image data. Attention: when Image is metafile - it will be rasterized. Use ReplaceImage(byte[]) instead
 The new image.When newImage parameter is None.
 
@@ -56,7 +56,7 @@ def replace_image(self, new_image):
 | new_image | [`IImage`](/slides/python-net/aspose.slides/iimage) |  |
 
 
-## replace_image {#asposeslidesippimage}
+## replace_image {#ippimage}
 Replaces image data.
 The new IPPImage.When newImage parameter is None.
 

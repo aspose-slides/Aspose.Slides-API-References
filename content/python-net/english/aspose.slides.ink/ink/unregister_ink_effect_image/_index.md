@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## unregister_ink_effect_image {#asposeslidesinkinkeffecttype}
+## unregister_ink_effect_image {#inkeffecttype}
 Unregisters an image from collection of custom images used to simulate visual effects for ink brushes
             previously registered images via [`Ink.register_ink_effect_image`](/slides/python-net/aspose.slides.ink/ink/register_ink_effect_image).
 

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/ichartseriesgroup/has_series_lines/
-weight: 90
+weight: 120
 ---
 
 

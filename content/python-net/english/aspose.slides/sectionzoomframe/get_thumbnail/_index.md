@@ -25,7 +25,7 @@ def get_thumbnail(self):
 
 
 
-## get_thumbnail {#asposeslidesshapethumbnailbounds-float-float}
+## get_thumbnail {#shapethumbnailbounds-float-float}
 Returns shape thumbnail.
 
 ### Returns

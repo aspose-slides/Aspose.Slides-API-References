@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## write_document_end {#asposeslidesexportihtmlgenerator-asposeslidesipresentation}
+## write_document_end {#ihtmlgenerator-ipresentation}
 Called to write html document footer. Called once per presentation conversion.
 
 

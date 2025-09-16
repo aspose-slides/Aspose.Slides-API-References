@@ -20,6 +20,8 @@ The SketchFormat type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`sketch_type`](/slides/python-net/aspose.slides/sketchformat/sketch_type/) | Returns or sets the sketch type.<br/>            Read/write [`LineSketchType`](/slides/python-net/aspose.slides/linesketchtype). |
+| [`slide`](/slides/python-net/aspose.slides/sketchformat/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides/sketchformat/presentation/) |  |
 
 
 ### See Also

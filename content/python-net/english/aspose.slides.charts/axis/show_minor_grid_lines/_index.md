@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/axis/show_minor_grid_lines/
-weight: 500
+weight: 550
 ---
 
 

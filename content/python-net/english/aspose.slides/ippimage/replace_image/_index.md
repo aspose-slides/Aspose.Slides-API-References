@@ -38,7 +38,7 @@ def replace_image(self, new_image):
 | new_image | **aspose.pydrawing.Image** | The new image. |
 
 
-## replace_image {#asposeslidesiimage}
+## replace_image {#iimage}
 Replaces image.
 
 
@@ -53,7 +53,7 @@ def replace_image(self, new_image):
 | new_image | [`IImage`](/slides/python-net/aspose.slides/iimage) | The new image. |
 
 
-## replace_image {#asposeslidesippimage}
+## replace_image {#ippimage}
 Replaces image.
 
 

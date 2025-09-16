@@ -23,6 +23,9 @@ The ILayoutable type exposes the following members:
 | [`height`](/slides/python-net/aspose.slides.charts/ilayoutable/height/) | Specifies the height of the chart element as a fraction of the height of the chart.<br/>            Read/write **float**. |
 | [`right`](/slides/python-net/aspose.slides.charts/ilayoutable/right/) | Gets the right of the chart element as a fraction of the width of the chart.<br/>            Read-only **float**. |
 | [`bottom`](/slides/python-net/aspose.slides.charts/ilayoutable/bottom/) | Gets the top of the chart element as a fraction of the height of the chart.<br/>            Read-only **float**. |
+| [`chart`](/slides/python-net/aspose.slides.charts/ilayoutable/chart/) |  |
+| [`slide`](/slides/python-net/aspose.slides.charts/ilayoutable/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.charts/ilayoutable/presentation/) |  |
 
 
 ### See Also

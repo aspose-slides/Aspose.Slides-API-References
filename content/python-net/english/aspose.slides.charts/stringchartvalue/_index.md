@@ -30,7 +30,7 @@ The StringChartValue type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`set_from_one_cell`](/slides/python-net/aspose.slides.charts/stringchartvalue/set_from_one_cell/#asposeslideschartsichartdatacell) | Sets value from specified cell. |
+| [`set_from_one_cell`](/slides/python-net/aspose.slides.charts/stringchartvalue/set_from_one_cell/#ichartdatacell) | Sets value from specified cell. |
 | [`get_cells_address_in_workbook`](/slides/python-net/aspose.slides.charts/stringchartvalue/get_cells_address_in_workbook/#) | If DataSourceType property is DataSourceType.Worksheet then this method returns address<br/>            of the cells in workbook which represent the string data. Otherwise return<br/>            empty string. |
 
 

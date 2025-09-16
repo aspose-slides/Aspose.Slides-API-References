@@ -9,8 +9,6 @@ weight: 20
 
 
 ## IVbaReferenceCollection indexer
-Gets the element at the specified index.
-
 ## Indexer
 
 | Name | Description |

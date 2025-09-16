@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## insert {#int-asposeslidesanimationibehavior}
+## insert {#int-ibehavior}
 Inserts new behavior to a collection at the specified index.
 
 

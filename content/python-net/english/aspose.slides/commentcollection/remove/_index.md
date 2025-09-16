@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## remove {#asposeslidesicomment}
+## remove {#icomment}
 Removes the first occurrence of the specified comment in a collection.
 
 

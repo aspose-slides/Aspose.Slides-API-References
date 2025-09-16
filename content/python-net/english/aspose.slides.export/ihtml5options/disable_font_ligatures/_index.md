@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/ihtml5options/disable_font_ligatures/
-weight: 40
+weight: 50
 ---
 
 

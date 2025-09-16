@@ -31,6 +31,8 @@ The Trendline type exposes the following members:
 | [`text_frame_for_overriding`](/slides/python-net/aspose.slides.charts/trendline/text_frame_for_overriding/) | Can contain a rich formatted text. If this property is not None then this <br/>            formatted text value overrides auto-generated text of data label.<br/>            Auto-generated text of data label means text that is managed by ShowSeriesName, <br/>            ShowValue, ... properties and is formatted with the TextFormatManager.TextFormat property.<br/>            Read-only [`ITextFrame`](/slides/python-net/aspose.slides/itextframe). |
 | [`text_format`](/slides/python-net/aspose.slides.charts/trendline/text_format/) | Returns text format.<br/>            Read-only [`IChartTextFormat`](/slides/python-net/aspose.slides.charts/icharttextformat). |
 | [`chart`](/slides/python-net/aspose.slides.charts/trendline/chart/) | Returns the parent chart.<br/>            Read-only [`IChart`](/slides/python-net/aspose.slides.charts/ichart). |
+| [`slide`](/slides/python-net/aspose.slides.charts/trendline/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.charts/trendline/presentation/) |  |
 
 ## Methods
 

@@ -9,13 +9,11 @@ weight: 20
 
 
 ## IPieSplitCustomPointCollection indexer
-Returns chart data point by index.
-
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| index | Index of  data-point. |
+| index |  |
 
 
 ### See Also

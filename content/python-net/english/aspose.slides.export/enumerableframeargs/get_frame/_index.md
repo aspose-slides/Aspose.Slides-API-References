@@ -22,6 +22,7 @@ def get_frame(self):
 
 ### See Also
 * class [`EnumerableFrameArgs`](/slides/python-net/aspose.slides.export/enumerableframeargs)
+* class [`IImage`](/slides/python-net/aspose.slides/iimage)
 * class [`PresentationEnumerableFramesGenerator`](/slides/python-net/aspose.slides.export/presentationenumerableframesgenerator)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

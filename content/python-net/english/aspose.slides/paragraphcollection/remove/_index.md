@@ -8,7 +8,7 @@ weight: 90
 ---
 
 
-## remove {#asposeslidesiparagraph}
+## remove {#iparagraph}
 Removes the first occurrence of a specific object from the **System.Collections.Generic.ICollection`1**.
 
 ### Returns

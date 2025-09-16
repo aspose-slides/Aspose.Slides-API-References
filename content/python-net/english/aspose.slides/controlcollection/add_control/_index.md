@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_control {#asposeslidescontroltype-float-float-float-float}
+## add_control {#controltype-float-float-float-float}
 Creates and adds a new control to the collection.
 
 ### Returns
@@ -36,6 +36,7 @@ def add_control(self, control_type, x, y, width, height):
 ### See Also
 * class [`ControlCollection`](/slides/python-net/aspose.slides/controlcollection)
 * enumeration [`ControlType`](/slides/python-net/aspose.slides/controltype)
+* class [`IControl`](/slides/python-net/aspose.slides/icontrol)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

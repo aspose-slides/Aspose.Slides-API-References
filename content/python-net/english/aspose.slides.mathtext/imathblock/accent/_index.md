@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## accent {#systemchar}
+## accent {#char}
 
 
 
@@ -20,11 +20,12 @@ def accent(self, accent_character):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| accent_character | **System.Char** |  |
+| accent_character | **char** |  |
 
 
 
 ### See Also
+* class [`IMathAccent`](/slides/python-net/aspose.slides.mathtext/imathaccent)
 * class [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

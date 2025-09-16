@@ -9,8 +9,6 @@ weight: 10
 
 
 ## ChartDataPointLevelsManager indexer
-Returns IChartDataPointLevel object for defined level.
-
 ## Indexer
 
 | Name | Description |

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/ichartseries/parent_label_layout/
-weight: 290
+weight: 320
 ---
 
 

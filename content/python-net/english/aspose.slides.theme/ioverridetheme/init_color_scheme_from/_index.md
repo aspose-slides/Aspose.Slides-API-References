@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.theme/ioverridetheme/init_color_scheme_from/
-weight: 30
+weight: 40
 ---
 
 
-## init_color_scheme_from {#asposeslidesthemeicolorscheme}
+## init_color_scheme_from {#icolorscheme}
 Init ColorScheme with new object for overriding ColorScheme of InheritedTheme.
 
 

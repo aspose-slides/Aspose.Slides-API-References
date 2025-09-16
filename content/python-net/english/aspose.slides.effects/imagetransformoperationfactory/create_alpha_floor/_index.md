@@ -26,6 +26,7 @@ def create_alpha_floor(self):
 
 
 ### See Also
+* class [`IAlphaFloor`](/slides/python-net/aspose.slides.effects/ialphafloor)
 * class [`ImageTransformOperationFactory`](/slides/python-net/aspose.slides.effects/imagetransformoperationfactory)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

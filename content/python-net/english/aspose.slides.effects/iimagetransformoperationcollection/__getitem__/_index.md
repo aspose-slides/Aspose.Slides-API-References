@@ -9,8 +9,6 @@ weight: 200
 
 
 ## IImageTransformOperationCollection indexer
-Returns an [`IImageTransformOperation`](/slides/python-net/aspose.slides.effects/iimagetransformoperation) from the collection by it's index.
-
 ## Indexer
 
 | Name | Description |
@@ -19,7 +17,6 @@ Returns an [`IImageTransformOperation`](/slides/python-net/aspose.slides.effects
 
 
 ### See Also
-* class [`IImageTransformOperation`](/slides/python-net/aspose.slides.effects/iimagetransformoperation)
 * class [`IImageTransformOperationCollection`](/slides/python-net/aspose.slides.effects/iimagetransformoperationcollection)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

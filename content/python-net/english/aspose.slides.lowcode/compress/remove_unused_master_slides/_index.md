@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## remove_unused_master_slides {#asposeslidespresentation}
+## remove_unused_master_slides {#presentation}
 Makes compression of the [`Presentation`](/slides/python-net/aspose.slides/presentation) by removing unused master slides.
 
 

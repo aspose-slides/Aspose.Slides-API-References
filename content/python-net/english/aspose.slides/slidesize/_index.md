@@ -25,8 +25,8 @@ The SlideSize type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`set_size`](/slides/python-net/aspose.slides/slidesize/set_size/#asposeslidesslidesizetype-asposeslidesslidesizescaletype) | Sets the slide size by type and scales existing content. |
-| [`set_size`](/slides/python-net/aspose.slides/slidesize/set_size/#float-float-asposeslidesslidesizescaletype) | Sets the slide dimensions explicitly and scales existing content. |
+| [`set_size`](/slides/python-net/aspose.slides/slidesize/set_size/#slidesizetype-slidesizescaletype) | Sets the slide size by type and scales existing content. |
+| [`set_size`](/slides/python-net/aspose.slides/slidesize/set_size/#float-float-slidesizescaletype) | Sets the slide dimensions explicitly and scales existing content. |
 
 
 ### See Also

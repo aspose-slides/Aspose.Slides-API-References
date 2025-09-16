@@ -9,13 +9,11 @@ weight: 40
 
 
 ## SmartArtNodeCollection indexer
-Returns node by index
-
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| index | The zero-based index of the element |
+| index |  |
 
 
 ### See Also

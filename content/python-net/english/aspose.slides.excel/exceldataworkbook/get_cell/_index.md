@@ -113,6 +113,7 @@ Example:
 
 ### See Also
 * class [`ExcelDataWorkbook`](/slides/python-net/aspose.slides.excel/exceldataworkbook)
+* class [`IExcelDataCell`](/slides/python-net/aspose.slides.excel/iexceldatacell)
 * module [`aspose.slides.excel`](/slides/python-net/aspose.slides.excel)
 * library [`Aspose.Slides`](/slides/python-net)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/outershadow/skew_horizontal/
-weight: 100
+weight: 110
 ---
 
 

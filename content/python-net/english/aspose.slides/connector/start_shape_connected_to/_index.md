@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/connector/start_shape_connected_to/
-weight: 440
+weight: 490
 ---
 
 

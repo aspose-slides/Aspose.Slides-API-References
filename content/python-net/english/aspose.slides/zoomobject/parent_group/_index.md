@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/zoomobject/parent_group/
-weight: 280
+weight: 330
 ---
 
 

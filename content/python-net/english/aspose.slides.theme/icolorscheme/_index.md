@@ -29,6 +29,8 @@ The IColorScheme type exposes the following members:
 | [`accent6`](/slides/python-net/aspose.slides.theme/icolorscheme/accent6/) | Sixth accent color in the scheme.<br/>            Read-only [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
 | [`hyperlink`](/slides/python-net/aspose.slides.theme/icolorscheme/hyperlink/) | Color for the hyperlinks.<br/>            Read-only [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
 | [`followed_hyperlink`](/slides/python-net/aspose.slides.theme/icolorscheme/followed_hyperlink/) | Color for the visited hyperlinks.<br/>            Read-only [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
+| [`slide`](/slides/python-net/aspose.slides.theme/icolorscheme/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.theme/icolorscheme/presentation/) |  |
 
 
 ### See Also

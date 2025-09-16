@@ -35,7 +35,7 @@ def insert_audio_frame_embedded(self, index, x, y, width, height, audio_stream):
 | audio_stream | **io.RawIOBase** | An input stream containing WAV audio data to embed. |
 
 
-## insert_audio_frame_embedded {#int-float-float-float-float-asposeslidesiaudio}
+## insert_audio_frame_embedded {#int-float-float-float-float-iaudio}
 Creates a new audio frame and inserts it into the shape collection at the specified index
             using an existing audio object from the Presentation.Audios list.
 

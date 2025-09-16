@@ -30,6 +30,7 @@ def find_shape_by_alt_text(self, alt_text):
 
 
 ### See Also
+* class [`IShape`](/slides/python-net/aspose.slides/ishape)
 * class [`MasterSlide`](/slides/python-net/aspose.slides/masterslide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

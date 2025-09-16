@@ -34,6 +34,10 @@ The IChartDataPoint type exposes the following members:
 | [`invert_if_negative`](/slides/python-net/aspose.slides.charts/ichartdatapoint/invert_if_negative/) | Specifies the data point shall invert its colors if the value is negative.<br/>            Read/write **bool**. |
 | [`data_point_levels`](/slides/python-net/aspose.slides.charts/ichartdatapoint/data_point_levels/) | Returns container of  data point levels. Applied for Treeamp and Sunburst series.<br/>            Data point levels indexing is zero-based. |
 | [`index`](/slides/python-net/aspose.slides.charts/ichartdatapoint/index/) | Determines which of the parent's children collection this data point applies to.<br/>            Read **int**. |
+| [`actual_x`](/slides/python-net/aspose.slides.charts/ichartdatapoint/actual_x/) |  |
+| [`actual_y`](/slides/python-net/aspose.slides.charts/ichartdatapoint/actual_y/) |  |
+| [`actual_width`](/slides/python-net/aspose.slides.charts/ichartdatapoint/actual_width/) |  |
+| [`actual_height`](/slides/python-net/aspose.slides.charts/ichartdatapoint/actual_height/) |  |
 
 ## Methods
 

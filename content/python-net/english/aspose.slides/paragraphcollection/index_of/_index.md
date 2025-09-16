@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## index_of {#asposeslidesiparagraph}
+## index_of {#iparagraph}
 Determines the index of a specific item in the **System.Collections.Generic.IList`1**.
 
 ### Returns

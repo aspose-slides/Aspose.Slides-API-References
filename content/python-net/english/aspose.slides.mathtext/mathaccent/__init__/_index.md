@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#asposeslidesmathtextimathelement}
+## __init__ {#imathelement}
 Creates a math accent applying to a specified math element with the default accent character value
 
 
@@ -27,7 +27,7 @@ def __init__(self, element):
 Example:
 
 
-## __init__ {#asposeslidesmathtextimathelement-systemchar}
+## __init__ {#imathelement-char}
 Creates a math accent applying to a specified math element
 
 
@@ -40,7 +40,7 @@ def __init__(self, element, accent_character):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | math element to apply accent |
-| accent_character | **System.Char** | accent character |
+| accent_character | **char** | accent character |
 
 ### Examples
 

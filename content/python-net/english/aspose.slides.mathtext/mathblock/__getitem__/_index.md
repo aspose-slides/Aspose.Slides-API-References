@@ -9,13 +9,11 @@ weight: 350
 
 
 ## MathBlock indexer
-Gets or sets IMathElement at the specified index.
-
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| index | The zero-based index of the item |
+| index |  |
 
 
 ### See Also

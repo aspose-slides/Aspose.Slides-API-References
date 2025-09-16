@@ -43,6 +43,7 @@ def create_file_stream_wrapper(self, file_name, file_mode, file_access):
 
 
 ### See Also
+* class [`IStreamWrapper`](/slides/python-net/aspose.slides/istreamwrapper)
 * class [`StreamWrapperFactory`](/slides/python-net/aspose.slides/streamwrapperfactory)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

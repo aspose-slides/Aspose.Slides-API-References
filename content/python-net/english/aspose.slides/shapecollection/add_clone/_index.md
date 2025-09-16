@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## add_clone {#asposeslidesishape}
+## add_clone {#ishape}
 Creates a copy of the specified shape and adds it to the end of the shape collection.
             The cloned shape retains the original’s position and size.
 
@@ -29,7 +29,7 @@ def add_clone(self, source_shape):
 | source_shape | [`IShape`](/slides/python-net/aspose.slides/ishape) | The [`IShape`](/slides/python-net/aspose.slides/ishape) to clone. |
 
 
-## add_clone {#asposeslidesishape-float-float}
+## add_clone {#ishape-float-float}
 Creates a copy of the specified shape and adds it to the end of the shape collection.
             The new shape retains the width and height of the `source_shape`.
 
@@ -52,7 +52,7 @@ def add_clone(self, source_shape, x, y):
 | y | **float** | The y-coordinate of the new shape’s frame, in points. |
 
 
-## add_clone {#asposeslidesishape-float-float-float-float}
+## add_clone {#ishape-float-float-float-float}
 Creates a copy of the specified shape and adds it to the end of the shape collection.
 
 ### Returns

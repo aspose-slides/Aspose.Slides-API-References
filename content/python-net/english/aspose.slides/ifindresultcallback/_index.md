@@ -17,7 +17,7 @@ The IFindResultCallback type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`found_result`](/slides/python-net/aspose.slides/ifindresultcallback/found_result/#asposeslidesitextframe-str-str-int) | Callback method that receives data about the found text. |
+| [`found_result`](/slides/python-net/aspose.slides/ifindresultcallback/found_result/#itextframe-str-str-int) | Callback method that receives data about the found text. |
 
 
 ### See Also
