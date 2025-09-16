@@ -37,6 +37,10 @@ Represents chart's legend properties.
 | [getFormat()](#getFormat--) | Returns the format of a legend. |
 | [getChart()](#getChart--) | Returns the chart. |
 | [getEntries()](#getEntries--) | Gets legend entries. |
+| [getActualX()](#getActualX--) | Specifies actual x location (left) of the chart element relative to the left top corner of the chart. |
+| [getActualY()](#getActualY--) | Specifies actual top of the chart element relative to the left top corner of the chart. |
+| [getActualWidth()](#getActualWidth--) | Specifies actual width of the chart element. |
+| [getActualHeight()](#getActualHeight--) | Specifies actual height of the chart element. |
 | [getSlide()](#getSlide--) | Returns the parent slide of a FillFormat. |
 | [getPresentation()](#getPresentation--) | Returns the parent presentation of a FillFormat. |
 ### getX() {#getX--}
@@ -237,6 +241,46 @@ Gets legend entries. Read-only [ILegendEntryCollection](../../com.aspose.slides/
 
 **Returns:**
 [ILegendEntryCollection](../../com.aspose.slides/ilegendentrycollection)
+### getActualX() {#getActualX--}
+```
+public final float getActualX()
+```
+
+
+Specifies actual x location (left) of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read float.
+
+**Returns:**
+float
+### getActualY() {#getActualY--}
+```
+public final float getActualY()
+```
+
+
+Specifies actual top of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read float.
+
+**Returns:**
+float
+### getActualWidth() {#getActualWidth--}
+```
+public final float getActualWidth()
+```
+
+
+Specifies actual width of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read float.
+
+**Returns:**
+float
+### getActualHeight() {#getActualHeight--}
+```
+public final float getActualHeight()
+```
+
+
+Specifies actual height of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read float.
+
+**Returns:**
+float
 ### getSlide() {#getSlide--}
 ```
 public final IBaseSlide getSlide()

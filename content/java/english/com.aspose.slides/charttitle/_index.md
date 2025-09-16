@@ -35,6 +35,10 @@ Represents chart title properties.
 | [addTextFrameForOverriding(String text)](#addTextFrameForOverriding-java.lang.String-) | Initialize TextFrameForOverriding with the text in paramener "text". |
 | [getTextFrameForOverriding()](#getTextFrameForOverriding--) | Can contain a rich formatted text. |
 | [getTextFormat()](#getTextFormat--) | Returns text format. |
+| [getActualX()](#getActualX--) | Specifies actual x location (left) of the chart element relative to the left top corner of the chart. |
+| [getActualY()](#getActualY--) | Specifies actual top of the chart element relative to the left top corner of the chart. |
+| [getActualWidth()](#getActualWidth--) | Specifies actual width of the chart element. |
+| [getActualHeight()](#getActualHeight--) | Specifies actual height of the chart element. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 | [getChart()](#getChart--) | Returns the parent chart. |
 | [getSlide()](#getSlide--) | Returns the parent slide of a FillFormat. |
@@ -219,6 +223,46 @@ Returns text format. Read-only [IChartTextFormat](../../com.aspose.slides/ichart
 
 **Returns:**
 [IChartTextFormat](../../com.aspose.slides/icharttextformat)
+### getActualX() {#getActualX--}
+```
+public final float getActualX()
+```
+
+
+Specifies actual x location (left) of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read float.
+
+**Returns:**
+float
+### getActualY() {#getActualY--}
+```
+public final float getActualY()
+```
+
+
+Specifies actual top of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read float.
+
+**Returns:**
+float
+### getActualWidth() {#getActualWidth--}
+```
+public final float getActualWidth()
+```
+
+
+Specifies actual width of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read float.
+
+**Returns:**
+float
+### getActualHeight() {#getActualHeight--}
+```
+public final float getActualHeight()
+```
+
+
+Specifies actual height of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read float.
+
+**Returns:**
+float
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()
