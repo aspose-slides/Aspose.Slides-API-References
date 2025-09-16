@@ -30,6 +30,58 @@ url: /aspose.slides/charttitle/
 ---
 
 
+### getActualHeight {#getActualHeight}
+
+| Name | Description |
+| --- | --- |
+| getActualHeight () | Specifies actual height of the chart element. Call function IChart.ValidateChartLayout() before to get actual values. Read float. |
+
+ **Returns:**
+float
+
+
+---
+
+
+### getActualWidth {#getActualWidth}
+
+| Name | Description |
+| --- | --- |
+| getActualWidth () | Specifies actual width of the chart element. Call function IChart.ValidateChartLayout() before to get actual values. Read float. |
+
+ **Returns:**
+float
+
+
+---
+
+
+### getActualX {#getActualX}
+
+| Name | Description |
+| --- | --- |
+| getActualX () | Specifies actual x location (left) of the chart element relative to the left top corner of the chart. Call function IChart.ValidateChartLayout() before to get actual values. Read float. |
+
+ **Returns:**
+float
+
+
+---
+
+
+### getActualY {#getActualY}
+
+| Name | Description |
+| --- | --- |
+| getActualY () | Specifies actual top of the chart element relative to the left top corner of the chart. Call function IChart.ValidateChartLayout() before to get actual values. Read float. |
+
+ **Returns:**
+float
+
+
+---
+
+
 ### getBottom {#getBottom}
 
 | Name | Description |
@@ -128,7 +180,7 @@ float
 | getSlide () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
 
  **Returns:**
-[Slide](../slide), [NotesSlide](../notesslide), [MasterNotesSlide](../masternotesslide), [MasterHandoutSlide](../masterhandoutslide), [BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [MasterSlide](../masterslide)
+[NotesSlide](../notesslide), [MasterNotesSlide](../masternotesslide), [LayoutSlide](../layoutslide), [BaseSlide](../baseslide), [Slide](../slide), [MasterSlide](../masterslide), [MasterHandoutSlide](../masterhandoutslide)
 
 
 ---

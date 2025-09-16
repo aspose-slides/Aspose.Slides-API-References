@@ -15,6 +15,160 @@ url: /aspose.slides/sequence/
 
 | Name | Description |
 | --- | --- |
+| addEffect ([Ink](../ink), int, int, int) | Add new effect to the end of sequence. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [Ink](../ink) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
+
+ **Returns:**
+[Effect](../effect)
+
+
+---
+
+
+### addEffect {#addEffect}
+
+| Name | Description |
+| --- | --- |
+| addEffect ([SmartArtShape](../smartartshape), int, int, int) | Add new effect to the end of sequence. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [SmartArtShape](../smartartshape) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
+
+ **Returns:**
+[Effect](../effect)
+
+
+---
+
+
+### addEffect {#addEffect}
+
+| Name | Description |
+| --- | --- |
+| addEffect ([VideoFrame](../videoframe), int, int, int) | Add new effect to the end of sequence. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [VideoFrame](../videoframe) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
+
+ **Returns:**
+[Effect](../effect)
+
+
+---
+
+
+### addEffect {#addEffect}
+
+| Name | Description |
+| --- | --- |
+| addEffect ([AutoShape](../autoshape), int, int, int) | Add new effect to the end of sequence. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [AutoShape](../autoshape) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
+
+ **Returns:**
+[Effect](../effect)
+
+
+---
+
+
+### addEffect {#addEffect}
+
+| Name | Description |
+| --- | --- |
+| addEffect ([SectionZoomFrame](../sectionzoomframe), int, int, int) | Add new effect to the end of sequence. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [SectionZoomFrame](../sectionzoomframe) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
+
+ **Returns:**
+[Effect](../effect)
+
+
+---
+
+
+### addEffect {#addEffect}
+
+| Name | Description |
+| --- | --- |
+| addEffect ([SmartArt](../smartart), int, int, int) | Add new effect to the end of sequence. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [SmartArt](../smartart) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
+
+ **Returns:**
+[Effect](../effect)
+
+
+---
+
+
+### addEffect {#addEffect}
+
+| Name | Description |
+| --- | --- |
+| addEffect ([InkActions](../inkactions), int, int, int) | Add new effect to the end of sequence. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [InkActions](../inkactions) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
+
+ **Returns:**
+[Effect](../effect)
+
+
+---
+
+
+### addEffect {#addEffect}
+
+| Name | Description |
+| --- | --- |
 | addEffect ([AudioFrame](../audioframe), int, int, int) | Add new effect to the end of sequence. |
 
  **Parameters:**
@@ -59,233 +213,13 @@ url: /aspose.slides/sequence/
 
 | Name | Description |
 | --- | --- |
-| addEffect ([InkActions](../inkactions), int, int, int) | Add new effect to the end of sequence. |
+| addEffect ([OleObjectFrame](../oleobjectframe), int, int, int) | Add new effect to the end of sequence. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [InkActions](../inkactions) | Shape object IShape for adding an effect |
-| effectType | int | Type of an animation effect EffectType |
-| subtype | int | Subtypes of animation effect EffectSubtype |
-| triggerType | int | Trigger type of effect EffectTriggerType |
-
- **Returns:**
-[Effect](../effect)
-
-
----
-
-
-### addEffect {#addEffect}
-
-| Name | Description |
-| --- | --- |
-| addEffect ([PictureFrame](../pictureframe), int, int, int) | Add new effect to the end of sequence. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [PictureFrame](../pictureframe) | Shape object IShape for adding an effect |
-| effectType | int | Type of an animation effect EffectType |
-| subtype | int | Subtypes of animation effect EffectSubtype |
-| triggerType | int | Trigger type of effect EffectTriggerType |
-
- **Returns:**
-[Effect](../effect)
-
-
----
-
-
-### addEffect {#addEffect}
-
-| Name | Description |
-| --- | --- |
-| addEffect ([Table](../table), int, int, int) | Add new effect to the end of sequence. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [Table](../table) | Shape object IShape for adding an effect |
-| effectType | int | Type of an animation effect EffectType |
-| subtype | int | Subtypes of animation effect EffectSubtype |
-| triggerType | int | Trigger type of effect EffectTriggerType |
-
- **Returns:**
-[Effect](../effect)
-
-
----
-
-
-### addEffect {#addEffect}
-
-| Name | Description |
-| --- | --- |
-| addEffect ([GraphicalObject](../graphicalobject), int, int, int) | Add new effect to the end of sequence. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [GraphicalObject](../graphicalobject) | Shape object IShape for adding an effect |
-| effectType | int | Type of an animation effect EffectType |
-| subtype | int | Subtypes of animation effect EffectSubtype |
-| triggerType | int | Trigger type of effect EffectTriggerType |
-
- **Returns:**
-[Effect](../effect)
-
-
----
-
-
-### addEffect {#addEffect}
-
-| Name | Description |
-| --- | --- |
-| addEffect ([SummaryZoomSection](../summaryzoomsection), int, int, int) | Add new effect to the end of sequence. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [SummaryZoomSection](../summaryzoomsection) | Shape object IShape for adding an effect |
-| effectType | int | Type of an animation effect EffectType |
-| subtype | int | Subtypes of animation effect EffectSubtype |
-| triggerType | int | Trigger type of effect EffectTriggerType |
-
- **Returns:**
-[Effect](../effect)
-
-
----
-
-
-### addEffect {#addEffect}
-
-| Name | Description |
-| --- | --- |
-| addEffect ([AutoShape](../autoshape), int, int, int) | Add new effect to the end of sequence. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [AutoShape](../autoshape) | Shape object IShape for adding an effect |
-| effectType | int | Type of an animation effect EffectType |
-| subtype | int | Subtypes of animation effect EffectSubtype |
-| triggerType | int | Trigger type of effect EffectTriggerType |
-
- **Returns:**
-[Effect](../effect)
-
-
----
-
-
-### addEffect {#addEffect}
-
-| Name | Description |
-| --- | --- |
-| addEffect ([GroupShape](../groupshape), int, int, int) | Add new effect to the end of sequence. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [GroupShape](../groupshape) | Shape object IShape for adding an effect |
-| effectType | int | Type of an animation effect EffectType |
-| subtype | int | Subtypes of animation effect EffectSubtype |
-| triggerType | int | Trigger type of effect EffectTriggerType |
-
- **Returns:**
-[Effect](../effect)
-
-
----
-
-
-### addEffect {#addEffect}
-
-| Name | Description |
-| --- | --- |
-| addEffect ([Shape](../shape), int, int, int) | Add new effect to the end of sequence. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [Shape](../shape) | Shape object IShape for adding an effect |
-| effectType | int | Type of an animation effect EffectType |
-| subtype | int | Subtypes of animation effect EffectSubtype |
-| triggerType | int | Trigger type of effect EffectTriggerType |
-
- **Returns:**
-[Effect](../effect)
-
-
----
-
-
-### addEffect {#addEffect}
-
-| Name | Description |
-| --- | --- |
-| addEffect ([ZoomObject](../zoomobject), int, int, int) | Add new effect to the end of sequence. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [ZoomObject](../zoomobject) | Shape object IShape for adding an effect |
-| effectType | int | Type of an animation effect EffectType |
-| subtype | int | Subtypes of animation effect EffectSubtype |
-| triggerType | int | Trigger type of effect EffectTriggerType |
-
- **Returns:**
-[Effect](../effect)
-
-
----
-
-
-### addEffect {#addEffect}
-
-| Name | Description |
-| --- | --- |
-| addEffect ([GeometryShape](../geometryshape), int, int, int) | Add new effect to the end of sequence. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [GeometryShape](../geometryshape) | Shape object IShape for adding an effect |
-| effectType | int | Type of an animation effect EffectType |
-| subtype | int | Subtypes of animation effect EffectSubtype |
-| triggerType | int | Trigger type of effect EffectTriggerType |
-
- **Returns:**
-[Effect](../effect)
-
-
----
-
-
-### addEffect {#addEffect}
-
-| Name | Description |
-| --- | --- |
-| addEffect ([SectionZoomFrame](../sectionzoomframe), int, int, int) | Add new effect to the end of sequence. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [SectionZoomFrame](../sectionzoomframe) | Shape object IShape for adding an effect |
+| shape | [OleObjectFrame](../oleobjectframe) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -323,6 +257,72 @@ url: /aspose.slides/sequence/
 
 | Name | Description |
 | --- | --- |
+| addEffect ([GraphicalObject](../graphicalobject), int, int, int) | Add new effect to the end of sequence. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [GraphicalObject](../graphicalobject) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
+
+ **Returns:**
+[Effect](../effect)
+
+
+---
+
+
+### addEffect {#addEffect}
+
+| Name | Description |
+| --- | --- |
+| addEffect ([GroupShape](../groupshape), int, int, int) | Add new effect to the end of sequence. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [GroupShape](../groupshape) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
+
+ **Returns:**
+[Effect](../effect)
+
+
+---
+
+
+### addEffect {#addEffect}
+
+| Name | Description |
+| --- | --- |
+| addEffect ([SummaryZoomSection](../summaryzoomsection), int, int, int) | Add new effect to the end of sequence. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [SummaryZoomSection](../summaryzoomsection) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
+
+ **Returns:**
+[Effect](../effect)
+
+
+---
+
+
+### addEffect {#addEffect}
+
+| Name | Description |
+| --- | --- |
 | addEffect ([LegacyDiagram](../legacydiagram), int, int, int) | Add new effect to the end of sequence. |
 
  **Parameters:**
@@ -330,72 +330,6 @@ url: /aspose.slides/sequence/
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [LegacyDiagram](../legacydiagram) | Shape object IShape for adding an effect |
-| effectType | int | Type of an animation effect EffectType |
-| subtype | int | Subtypes of animation effect EffectSubtype |
-| triggerType | int | Trigger type of effect EffectTriggerType |
-
- **Returns:**
-[Effect](../effect)
-
-
----
-
-
-### addEffect {#addEffect}
-
-| Name | Description |
-| --- | --- |
-| addEffect ([ZoomFrame](../zoomframe), int, int, int) | Add new effect to the end of sequence. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [ZoomFrame](../zoomframe) | Shape object IShape for adding an effect |
-| effectType | int | Type of an animation effect EffectType |
-| subtype | int | Subtypes of animation effect EffectSubtype |
-| triggerType | int | Trigger type of effect EffectTriggerType |
-
- **Returns:**
-[Effect](../effect)
-
-
----
-
-
-### addEffect {#addEffect}
-
-| Name | Description |
-| --- | --- |
-| addEffect ([SmartArt](../smartart), int, int, int) | Add new effect to the end of sequence. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [SmartArt](../smartart) | Shape object IShape for adding an effect |
-| effectType | int | Type of an animation effect EffectType |
-| subtype | int | Subtypes of animation effect EffectSubtype |
-| triggerType | int | Trigger type of effect EffectTriggerType |
-
- **Returns:**
-[Effect](../effect)
-
-
----
-
-
-### addEffect {#addEffect}
-
-| Name | Description |
-| --- | --- |
-| addEffect ([SmartArtShape](../smartartshape), int, int, int) | Add new effect to the end of sequence. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [SmartArtShape](../smartartshape) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -433,13 +367,13 @@ url: /aspose.slides/sequence/
 
 | Name | Description |
 | --- | --- |
-| addEffect ([Ink](../ink), int, int, int) | Add new effect to the end of sequence. |
+| addEffect ([ZoomFrame](../zoomframe), int, int, int) | Add new effect to the end of sequence. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [Ink](../ink) | Shape object IShape for adding an effect |
+| shape | [ZoomFrame](../zoomframe) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -455,13 +389,13 @@ url: /aspose.slides/sequence/
 
 | Name | Description |
 | --- | --- |
-| addEffect ([VideoFrame](../videoframe), int, int, int) | Add new effect to the end of sequence. |
+| addEffect ([Table](../table), int, int, int) | Add new effect to the end of sequence. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [VideoFrame](../videoframe) | Shape object IShape for adding an effect |
+| shape | [Table](../table) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -477,13 +411,79 @@ url: /aspose.slides/sequence/
 
 | Name | Description |
 | --- | --- |
-| addEffect ([OleObjectFrame](../oleobjectframe), int, int, int) | Add new effect to the end of sequence. |
+| addEffect ([Shape](../shape), int, int, int) | Add new effect to the end of sequence. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [OleObjectFrame](../oleobjectframe) | Shape object IShape for adding an effect |
+| shape | [Shape](../shape) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
+
+ **Returns:**
+[Effect](../effect)
+
+
+---
+
+
+### addEffect {#addEffect}
+
+| Name | Description |
+| --- | --- |
+| addEffect ([GeometryShape](../geometryshape), int, int, int) | Add new effect to the end of sequence. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [GeometryShape](../geometryshape) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
+
+ **Returns:**
+[Effect](../effect)
+
+
+---
+
+
+### addEffect {#addEffect}
+
+| Name | Description |
+| --- | --- |
+| addEffect ([ZoomObject](../zoomobject), int, int, int) | Add new effect to the end of sequence. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [ZoomObject](../zoomobject) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
+
+ **Returns:**
+[Effect](../effect)
+
+
+---
+
+
+### addEffect {#addEffect}
+
+| Name | Description |
+| --- | --- |
+| addEffect ([PictureFrame](../pictureframe), int, int, int) | Add new effect to the end of sequence. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [PictureFrame](../pictureframe) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -593,6 +593,97 @@ int
 
 | Name | Description |
 | --- | --- |
+| getCount ([Ink](../ink)) | Returns count of effects for the specified shape. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getCount {#getCount}
+
+| Name | Description |
+| --- | --- |
+| getCount ([SmartArtShape](../smartartshape)) | Returns count of effects for the specified shape. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getCount {#getCount}
+
+| Name | Description |
+| --- | --- |
+| getCount ([VideoFrame](../videoframe)) | Returns count of effects for the specified shape. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getCount {#getCount}
+
+| Name | Description |
+| --- | --- |
+| getCount ([AutoShape](../autoshape)) | Returns count of effects for the specified shape. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getCount {#getCount}
+
+| Name | Description |
+| --- | --- |
+| getCount ([SectionZoomFrame](../sectionzoomframe)) | Returns count of effects for the specified shape. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getCount {#getCount}
+
+| Name | Description |
+| --- | --- |
+| getCount ([SmartArt](../smartart)) | Returns count of effects for the specified shape. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getCount {#getCount}
+
+| Name | Description |
+| --- | --- |
+| getCount ([InkActions](../inkactions)) | Returns count of effects for the specified shape. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getCount {#getCount}
+
+| Name | Description |
+| --- | --- |
 | getCount ([AudioFrame](../audioframe)) | Returns count of effects for the specified shape. |
 
  **Returns:**
@@ -619,137 +710,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getCount ([InkActions](../inkactions)) | Returns count of effects for the specified shape. |
-
- **Returns:**
-int
-
-
----
-
-
-### getCount {#getCount}
-
-| Name | Description |
-| --- | --- |
-| getCount ([PictureFrame](../pictureframe)) | Returns count of effects for the specified shape. |
-
- **Returns:**
-int
-
-
----
-
-
-### getCount {#getCount}
-
-| Name | Description |
-| --- | --- |
-| getCount ([Table](../table)) | Returns count of effects for the specified shape. |
-
- **Returns:**
-int
-
-
----
-
-
-### getCount {#getCount}
-
-| Name | Description |
-| --- | --- |
-| getCount ([GraphicalObject](../graphicalobject)) | Returns count of effects for the specified shape. |
-
- **Returns:**
-int
-
-
----
-
-
-### getCount {#getCount}
-
-| Name | Description |
-| --- | --- |
-| getCount ([SummaryZoomSection](../summaryzoomsection)) | Returns count of effects for the specified shape. |
-
- **Returns:**
-int
-
-
----
-
-
-### getCount {#getCount}
-
-| Name | Description |
-| --- | --- |
-| getCount ([AutoShape](../autoshape)) | Returns count of effects for the specified shape. |
-
- **Returns:**
-int
-
-
----
-
-
-### getCount {#getCount}
-
-| Name | Description |
-| --- | --- |
-| getCount ([GroupShape](../groupshape)) | Returns count of effects for the specified shape. |
-
- **Returns:**
-int
-
-
----
-
-
-### getCount {#getCount}
-
-| Name | Description |
-| --- | --- |
-| getCount ([Shape](../shape)) | Returns count of effects for the specified shape. |
-
- **Returns:**
-int
-
-
----
-
-
-### getCount {#getCount}
-
-| Name | Description |
-| --- | --- |
-| getCount ([ZoomObject](../zoomobject)) | Returns count of effects for the specified shape. |
-
- **Returns:**
-int
-
-
----
-
-
-### getCount {#getCount}
-
-| Name | Description |
-| --- | --- |
-| getCount ([GeometryShape](../geometryshape)) | Returns count of effects for the specified shape. |
-
- **Returns:**
-int
-
-
----
-
-
-### getCount {#getCount}
-
-| Name | Description |
-| --- | --- |
-| getCount ([SectionZoomFrame](../sectionzoomframe)) | Returns count of effects for the specified shape. |
+| getCount ([OleObjectFrame](../oleobjectframe)) | Returns count of effects for the specified shape. |
 
  **Returns:**
 int
@@ -775,46 +736,46 @@ int
 
 | Name | Description |
 | --- | --- |
+| getCount ([GraphicalObject](../graphicalobject)) | Returns count of effects for the specified shape. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getCount {#getCount}
+
+| Name | Description |
+| --- | --- |
+| getCount ([GroupShape](../groupshape)) | Returns count of effects for the specified shape. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getCount {#getCount}
+
+| Name | Description |
+| --- | --- |
+| getCount ([SummaryZoomSection](../summaryzoomsection)) | Returns count of effects for the specified shape. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getCount {#getCount}
+
+| Name | Description |
+| --- | --- |
 | getCount ([LegacyDiagram](../legacydiagram)) | Returns count of effects for the specified shape. |
-
- **Returns:**
-int
-
-
----
-
-
-### getCount {#getCount}
-
-| Name | Description |
-| --- | --- |
-| getCount ([ZoomFrame](../zoomframe)) | Returns count of effects for the specified shape. |
-
- **Returns:**
-int
-
-
----
-
-
-### getCount {#getCount}
-
-| Name | Description |
-| --- | --- |
-| getCount ([SmartArt](../smartart)) | Returns count of effects for the specified shape. |
-
- **Returns:**
-int
-
-
----
-
-
-### getCount {#getCount}
-
-| Name | Description |
-| --- | --- |
-| getCount ([SmartArtShape](../smartartshape)) | Returns count of effects for the specified shape. |
 
  **Returns:**
 int
@@ -840,7 +801,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getCount ([Ink](../ink)) | Returns count of effects for the specified shape. |
+| getCount ([ZoomFrame](../zoomframe)) | Returns count of effects for the specified shape. |
 
  **Returns:**
 int
@@ -853,7 +814,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getCount ([VideoFrame](../videoframe)) | Returns count of effects for the specified shape. |
+| getCount ([Table](../table)) | Returns count of effects for the specified shape. |
 
  **Returns:**
 int
@@ -866,7 +827,46 @@ int
 
 | Name | Description |
 | --- | --- |
-| getCount ([OleObjectFrame](../oleobjectframe)) | Returns count of effects for the specified shape. |
+| getCount ([Shape](../shape)) | Returns count of effects for the specified shape. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getCount {#getCount}
+
+| Name | Description |
+| --- | --- |
+| getCount ([GeometryShape](../geometryshape)) | Returns count of effects for the specified shape. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getCount {#getCount}
+
+| Name | Description |
+| --- | --- |
+| getCount ([ZoomObject](../zoomobject)) | Returns count of effects for the specified shape. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getCount {#getCount}
+
+| Name | Description |
+| --- | --- |
+| getCount ([PictureFrame](../pictureframe)) | Returns count of effects for the specified shape. |
 
  **Returns:**
 int
@@ -880,6 +880,97 @@ int
 | Name | Description |
 | --- | --- |
 | getEffectsByParagraph ([Paragraph](../paragraph)) | Returns array of effects for the specified paragraph. |
+
+ **Returns:**
+[Effect](../effect)
+
+
+---
+
+
+### getEffectsByShape {#getEffectsByShape}
+
+| Name | Description |
+| --- | --- |
+| getEffectsByShape ([Ink](../ink)) | Returns array of effects for the specified shape. |
+
+ **Returns:**
+[Effect](../effect)
+
+
+---
+
+
+### getEffectsByShape {#getEffectsByShape}
+
+| Name | Description |
+| --- | --- |
+| getEffectsByShape ([SmartArtShape](../smartartshape)) | Returns array of effects for the specified shape. |
+
+ **Returns:**
+[Effect](../effect)
+
+
+---
+
+
+### getEffectsByShape {#getEffectsByShape}
+
+| Name | Description |
+| --- | --- |
+| getEffectsByShape ([VideoFrame](../videoframe)) | Returns array of effects for the specified shape. |
+
+ **Returns:**
+[Effect](../effect)
+
+
+---
+
+
+### getEffectsByShape {#getEffectsByShape}
+
+| Name | Description |
+| --- | --- |
+| getEffectsByShape ([AutoShape](../autoshape)) | Returns array of effects for the specified shape. |
+
+ **Returns:**
+[Effect](../effect)
+
+
+---
+
+
+### getEffectsByShape {#getEffectsByShape}
+
+| Name | Description |
+| --- | --- |
+| getEffectsByShape ([SectionZoomFrame](../sectionzoomframe)) | Returns array of effects for the specified shape. |
+
+ **Returns:**
+[Effect](../effect)
+
+
+---
+
+
+### getEffectsByShape {#getEffectsByShape}
+
+| Name | Description |
+| --- | --- |
+| getEffectsByShape ([SmartArt](../smartart)) | Returns array of effects for the specified shape. |
+
+ **Returns:**
+[Effect](../effect)
+
+
+---
+
+
+### getEffectsByShape {#getEffectsByShape}
+
+| Name | Description |
+| --- | --- |
+| getEffectsByShape ([InkActions](../inkactions)) | Returns array of effects for the specified shape. |
 
  **Returns:**
 [Effect](../effect)
@@ -918,137 +1009,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getEffectsByShape ([InkActions](../inkactions)) | Returns array of effects for the specified shape. |
-
- **Returns:**
-[Effect](../effect)
-
-
----
-
-
-### getEffectsByShape {#getEffectsByShape}
-
-| Name | Description |
-| --- | --- |
-| getEffectsByShape ([PictureFrame](../pictureframe)) | Returns array of effects for the specified shape. |
-
- **Returns:**
-[Effect](../effect)
-
-
----
-
-
-### getEffectsByShape {#getEffectsByShape}
-
-| Name | Description |
-| --- | --- |
-| getEffectsByShape ([Table](../table)) | Returns array of effects for the specified shape. |
-
- **Returns:**
-[Effect](../effect)
-
-
----
-
-
-### getEffectsByShape {#getEffectsByShape}
-
-| Name | Description |
-| --- | --- |
-| getEffectsByShape ([GraphicalObject](../graphicalobject)) | Returns array of effects for the specified shape. |
-
- **Returns:**
-[Effect](../effect)
-
-
----
-
-
-### getEffectsByShape {#getEffectsByShape}
-
-| Name | Description |
-| --- | --- |
-| getEffectsByShape ([SummaryZoomSection](../summaryzoomsection)) | Returns array of effects for the specified shape. |
-
- **Returns:**
-[Effect](../effect)
-
-
----
-
-
-### getEffectsByShape {#getEffectsByShape}
-
-| Name | Description |
-| --- | --- |
-| getEffectsByShape ([AutoShape](../autoshape)) | Returns array of effects for the specified shape. |
-
- **Returns:**
-[Effect](../effect)
-
-
----
-
-
-### getEffectsByShape {#getEffectsByShape}
-
-| Name | Description |
-| --- | --- |
-| getEffectsByShape ([GroupShape](../groupshape)) | Returns array of effects for the specified shape. |
-
- **Returns:**
-[Effect](../effect)
-
-
----
-
-
-### getEffectsByShape {#getEffectsByShape}
-
-| Name | Description |
-| --- | --- |
-| getEffectsByShape ([Shape](../shape)) | Returns array of effects for the specified shape. |
-
- **Returns:**
-[Effect](../effect)
-
-
----
-
-
-### getEffectsByShape {#getEffectsByShape}
-
-| Name | Description |
-| --- | --- |
-| getEffectsByShape ([ZoomObject](../zoomobject)) | Returns array of effects for the specified shape. |
-
- **Returns:**
-[Effect](../effect)
-
-
----
-
-
-### getEffectsByShape {#getEffectsByShape}
-
-| Name | Description |
-| --- | --- |
-| getEffectsByShape ([GeometryShape](../geometryshape)) | Returns array of effects for the specified shape. |
-
- **Returns:**
-[Effect](../effect)
-
-
----
-
-
-### getEffectsByShape {#getEffectsByShape}
-
-| Name | Description |
-| --- | --- |
-| getEffectsByShape ([SectionZoomFrame](../sectionzoomframe)) | Returns array of effects for the specified shape. |
+| getEffectsByShape ([OleObjectFrame](../oleobjectframe)) | Returns array of effects for the specified shape. |
 
  **Returns:**
 [Effect](../effect)
@@ -1074,46 +1035,46 @@ int
 
 | Name | Description |
 | --- | --- |
+| getEffectsByShape ([GraphicalObject](../graphicalobject)) | Returns array of effects for the specified shape. |
+
+ **Returns:**
+[Effect](../effect)
+
+
+---
+
+
+### getEffectsByShape {#getEffectsByShape}
+
+| Name | Description |
+| --- | --- |
+| getEffectsByShape ([GroupShape](../groupshape)) | Returns array of effects for the specified shape. |
+
+ **Returns:**
+[Effect](../effect)
+
+
+---
+
+
+### getEffectsByShape {#getEffectsByShape}
+
+| Name | Description |
+| --- | --- |
+| getEffectsByShape ([SummaryZoomSection](../summaryzoomsection)) | Returns array of effects for the specified shape. |
+
+ **Returns:**
+[Effect](../effect)
+
+
+---
+
+
+### getEffectsByShape {#getEffectsByShape}
+
+| Name | Description |
+| --- | --- |
 | getEffectsByShape ([LegacyDiagram](../legacydiagram)) | Returns array of effects for the specified shape. |
-
- **Returns:**
-[Effect](../effect)
-
-
----
-
-
-### getEffectsByShape {#getEffectsByShape}
-
-| Name | Description |
-| --- | --- |
-| getEffectsByShape ([ZoomFrame](../zoomframe)) | Returns array of effects for the specified shape. |
-
- **Returns:**
-[Effect](../effect)
-
-
----
-
-
-### getEffectsByShape {#getEffectsByShape}
-
-| Name | Description |
-| --- | --- |
-| getEffectsByShape ([SmartArt](../smartart)) | Returns array of effects for the specified shape. |
-
- **Returns:**
-[Effect](../effect)
-
-
----
-
-
-### getEffectsByShape {#getEffectsByShape}
-
-| Name | Description |
-| --- | --- |
-| getEffectsByShape ([SmartArtShape](../smartartshape)) | Returns array of effects for the specified shape. |
 
  **Returns:**
 [Effect](../effect)
@@ -1139,7 +1100,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getEffectsByShape ([Ink](../ink)) | Returns array of effects for the specified shape. |
+| getEffectsByShape ([ZoomFrame](../zoomframe)) | Returns array of effects for the specified shape. |
 
  **Returns:**
 [Effect](../effect)
@@ -1152,7 +1113,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getEffectsByShape ([VideoFrame](../videoframe)) | Returns array of effects for the specified shape. |
+| getEffectsByShape ([Table](../table)) | Returns array of effects for the specified shape. |
 
  **Returns:**
 [Effect](../effect)
@@ -1165,7 +1126,46 @@ int
 
 | Name | Description |
 | --- | --- |
-| getEffectsByShape ([OleObjectFrame](../oleobjectframe)) | Returns array of effects for the specified shape. |
+| getEffectsByShape ([Shape](../shape)) | Returns array of effects for the specified shape. |
+
+ **Returns:**
+[Effect](../effect)
+
+
+---
+
+
+### getEffectsByShape {#getEffectsByShape}
+
+| Name | Description |
+| --- | --- |
+| getEffectsByShape ([GeometryShape](../geometryshape)) | Returns array of effects for the specified shape. |
+
+ **Returns:**
+[Effect](../effect)
+
+
+---
+
+
+### getEffectsByShape {#getEffectsByShape}
+
+| Name | Description |
+| --- | --- |
+| getEffectsByShape ([ZoomObject](../zoomobject)) | Returns array of effects for the specified shape. |
+
+ **Returns:**
+[Effect](../effect)
+
+
+---
+
+
+### getEffectsByShape {#getEffectsByShape}
+
+| Name | Description |
+| --- | --- |
+| getEffectsByShape ([PictureFrame](../pictureframe)) | Returns array of effects for the specified shape. |
 
  **Returns:**
 [Effect](../effect)
@@ -1181,7 +1181,7 @@ int
 | getTriggerShape () | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
  **Returns:**
-[AudioFrame](../audioframe), [Connector](../connector), [InkActions](../inkactions), [PictureFrame](../pictureframe), [Table](../table), [GraphicalObject](../graphicalobject), [SummaryZoomSection](../summaryzoomsection), [AutoShape](../autoshape), [GroupShape](../groupshape), [Shape](../shape), [ZoomObject](../zoomobject), [GeometryShape](../geometryshape), [SectionZoomFrame](../sectionzoomframe), [Chart](../chart), [LegacyDiagram](../legacydiagram), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [SmartArtShape](../smartartshape), [SummaryZoomFrame](../summaryzoomframe), [Ink](../ink), [VideoFrame](../videoframe), [OleObjectFrame](../oleobjectframe)
+[Ink](../ink), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [AutoShape](../autoshape), [SectionZoomFrame](../sectionzoomframe), [SmartArt](../smartart), [InkActions](../inkactions), [AudioFrame](../audioframe), [Connector](../connector), [OleObjectFrame](../oleobjectframe), [Chart](../chart), [GraphicalObject](../graphicalobject), [GroupShape](../groupshape), [SummaryZoomSection](../summaryzoomsection), [LegacyDiagram](../legacydiagram), [SummaryZoomFrame](../summaryzoomframe), [ZoomFrame](../zoomframe), [Table](../table), [Shape](../shape), [GeometryShape](../geometryshape), [ZoomObject](../zoomobject), [PictureFrame](../pictureframe)
 
 
 ---
@@ -1268,6 +1268,76 @@ int
 
 | Name | Description |
 | --- | --- |
+| removeByShape ([Ink](../ink)) | Remove effect for the specified shape. |
+
+
+---
+
+
+### removeByShape {#removeByShape}
+
+| Name | Description |
+| --- | --- |
+| removeByShape ([SmartArtShape](../smartartshape)) | Remove effect for the specified shape. |
+
+
+---
+
+
+### removeByShape {#removeByShape}
+
+| Name | Description |
+| --- | --- |
+| removeByShape ([VideoFrame](../videoframe)) | Remove effect for the specified shape. |
+
+
+---
+
+
+### removeByShape {#removeByShape}
+
+| Name | Description |
+| --- | --- |
+| removeByShape ([AutoShape](../autoshape)) | Remove effect for the specified shape. |
+
+
+---
+
+
+### removeByShape {#removeByShape}
+
+| Name | Description |
+| --- | --- |
+| removeByShape ([SectionZoomFrame](../sectionzoomframe)) | Remove effect for the specified shape. |
+
+
+---
+
+
+### removeByShape {#removeByShape}
+
+| Name | Description |
+| --- | --- |
+| removeByShape ([SmartArt](../smartart)) | Remove effect for the specified shape. |
+
+
+---
+
+
+### removeByShape {#removeByShape}
+
+| Name | Description |
+| --- | --- |
+| removeByShape ([InkActions](../inkactions)) | Remove effect for the specified shape. |
+
+
+---
+
+
+### removeByShape {#removeByShape}
+
+| Name | Description |
+| --- | --- |
 | removeByShape ([AudioFrame](../audioframe)) | Remove effect for the specified shape. |
 
 
@@ -1288,107 +1358,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| removeByShape ([InkActions](../inkactions)) | Remove effect for the specified shape. |
-
-
----
-
-
-### removeByShape {#removeByShape}
-
-| Name | Description |
-| --- | --- |
-| removeByShape ([PictureFrame](../pictureframe)) | Remove effect for the specified shape. |
-
-
----
-
-
-### removeByShape {#removeByShape}
-
-| Name | Description |
-| --- | --- |
-| removeByShape ([Table](../table)) | Remove effect for the specified shape. |
-
-
----
-
-
-### removeByShape {#removeByShape}
-
-| Name | Description |
-| --- | --- |
-| removeByShape ([GraphicalObject](../graphicalobject)) | Remove effect for the specified shape. |
-
-
----
-
-
-### removeByShape {#removeByShape}
-
-| Name | Description |
-| --- | --- |
-| removeByShape ([SummaryZoomSection](../summaryzoomsection)) | Remove effect for the specified shape. |
-
-
----
-
-
-### removeByShape {#removeByShape}
-
-| Name | Description |
-| --- | --- |
-| removeByShape ([AutoShape](../autoshape)) | Remove effect for the specified shape. |
-
-
----
-
-
-### removeByShape {#removeByShape}
-
-| Name | Description |
-| --- | --- |
-| removeByShape ([GroupShape](../groupshape)) | Remove effect for the specified shape. |
-
-
----
-
-
-### removeByShape {#removeByShape}
-
-| Name | Description |
-| --- | --- |
-| removeByShape ([Shape](../shape)) | Remove effect for the specified shape. |
-
-
----
-
-
-### removeByShape {#removeByShape}
-
-| Name | Description |
-| --- | --- |
-| removeByShape ([ZoomObject](../zoomobject)) | Remove effect for the specified shape. |
-
-
----
-
-
-### removeByShape {#removeByShape}
-
-| Name | Description |
-| --- | --- |
-| removeByShape ([GeometryShape](../geometryshape)) | Remove effect for the specified shape. |
-
-
----
-
-
-### removeByShape {#removeByShape}
-
-| Name | Description |
-| --- | --- |
-| removeByShape ([SectionZoomFrame](../sectionzoomframe)) | Remove effect for the specified shape. |
+| removeByShape ([OleObjectFrame](../oleobjectframe)) | Remove effect for the specified shape. |
 
 
 ---
@@ -1408,37 +1378,37 @@ int
 
 | Name | Description |
 | --- | --- |
+| removeByShape ([GraphicalObject](../graphicalobject)) | Remove effect for the specified shape. |
+
+
+---
+
+
+### removeByShape {#removeByShape}
+
+| Name | Description |
+| --- | --- |
+| removeByShape ([GroupShape](../groupshape)) | Remove effect for the specified shape. |
+
+
+---
+
+
+### removeByShape {#removeByShape}
+
+| Name | Description |
+| --- | --- |
+| removeByShape ([SummaryZoomSection](../summaryzoomsection)) | Remove effect for the specified shape. |
+
+
+---
+
+
+### removeByShape {#removeByShape}
+
+| Name | Description |
+| --- | --- |
 | removeByShape ([LegacyDiagram](../legacydiagram)) | Remove effect for the specified shape. |
-
-
----
-
-
-### removeByShape {#removeByShape}
-
-| Name | Description |
-| --- | --- |
-| removeByShape ([ZoomFrame](../zoomframe)) | Remove effect for the specified shape. |
-
-
----
-
-
-### removeByShape {#removeByShape}
-
-| Name | Description |
-| --- | --- |
-| removeByShape ([SmartArt](../smartart)) | Remove effect for the specified shape. |
-
-
----
-
-
-### removeByShape {#removeByShape}
-
-| Name | Description |
-| --- | --- |
-| removeByShape ([SmartArtShape](../smartartshape)) | Remove effect for the specified shape. |
 
 
 ---
@@ -1458,7 +1428,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| removeByShape ([Ink](../ink)) | Remove effect for the specified shape. |
+| removeByShape ([ZoomFrame](../zoomframe)) | Remove effect for the specified shape. |
 
 
 ---
@@ -1468,7 +1438,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| removeByShape ([VideoFrame](../videoframe)) | Remove effect for the specified shape. |
+| removeByShape ([Table](../table)) | Remove effect for the specified shape. |
 
 
 ---
@@ -1478,7 +1448,107 @@ int
 
 | Name | Description |
 | --- | --- |
-| removeByShape ([OleObjectFrame](../oleobjectframe)) | Remove effect for the specified shape. |
+| removeByShape ([Shape](../shape)) | Remove effect for the specified shape. |
+
+
+---
+
+
+### removeByShape {#removeByShape}
+
+| Name | Description |
+| --- | --- |
+| removeByShape ([GeometryShape](../geometryshape)) | Remove effect for the specified shape. |
+
+
+---
+
+
+### removeByShape {#removeByShape}
+
+| Name | Description |
+| --- | --- |
+| removeByShape ([ZoomObject](../zoomobject)) | Remove effect for the specified shape. |
+
+
+---
+
+
+### removeByShape {#removeByShape}
+
+| Name | Description |
+| --- | --- |
+| removeByShape ([PictureFrame](../pictureframe)) | Remove effect for the specified shape. |
+
+
+---
+
+
+### setTriggerShape {#setTriggerShape}
+
+| Name | Description |
+| --- | --- |
+| setTriggerShape ([Ink](../ink)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+
+
+---
+
+
+### setTriggerShape {#setTriggerShape}
+
+| Name | Description |
+| --- | --- |
+| setTriggerShape ([SmartArtShape](../smartartshape)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+
+
+---
+
+
+### setTriggerShape {#setTriggerShape}
+
+| Name | Description |
+| --- | --- |
+| setTriggerShape ([VideoFrame](../videoframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+
+
+---
+
+
+### setTriggerShape {#setTriggerShape}
+
+| Name | Description |
+| --- | --- |
+| setTriggerShape ([AutoShape](../autoshape)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+
+
+---
+
+
+### setTriggerShape {#setTriggerShape}
+
+| Name | Description |
+| --- | --- |
+| setTriggerShape ([SectionZoomFrame](../sectionzoomframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+
+
+---
+
+
+### setTriggerShape {#setTriggerShape}
+
+| Name | Description |
+| --- | --- |
+| setTriggerShape ([SmartArt](../smartart)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+
+
+---
+
+
+### setTriggerShape {#setTriggerShape}
+
+| Name | Description |
+| --- | --- |
+| setTriggerShape ([InkActions](../inkactions)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
 
 ---
@@ -1508,107 +1578,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setTriggerShape ([InkActions](../inkactions)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
-
-
----
-
-
-### setTriggerShape {#setTriggerShape}
-
-| Name | Description |
-| --- | --- |
-| setTriggerShape ([PictureFrame](../pictureframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
-
-
----
-
-
-### setTriggerShape {#setTriggerShape}
-
-| Name | Description |
-| --- | --- |
-| setTriggerShape ([Table](../table)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
-
-
----
-
-
-### setTriggerShape {#setTriggerShape}
-
-| Name | Description |
-| --- | --- |
-| setTriggerShape ([GraphicalObject](../graphicalobject)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
-
-
----
-
-
-### setTriggerShape {#setTriggerShape}
-
-| Name | Description |
-| --- | --- |
-| setTriggerShape ([SummaryZoomSection](../summaryzoomsection)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
-
-
----
-
-
-### setTriggerShape {#setTriggerShape}
-
-| Name | Description |
-| --- | --- |
-| setTriggerShape ([AutoShape](../autoshape)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
-
-
----
-
-
-### setTriggerShape {#setTriggerShape}
-
-| Name | Description |
-| --- | --- |
-| setTriggerShape ([GroupShape](../groupshape)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
-
-
----
-
-
-### setTriggerShape {#setTriggerShape}
-
-| Name | Description |
-| --- | --- |
-| setTriggerShape ([Shape](../shape)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
-
-
----
-
-
-### setTriggerShape {#setTriggerShape}
-
-| Name | Description |
-| --- | --- |
-| setTriggerShape ([ZoomObject](../zoomobject)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
-
-
----
-
-
-### setTriggerShape {#setTriggerShape}
-
-| Name | Description |
-| --- | --- |
-| setTriggerShape ([GeometryShape](../geometryshape)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
-
-
----
-
-
-### setTriggerShape {#setTriggerShape}
-
-| Name | Description |
-| --- | --- |
-| setTriggerShape ([SectionZoomFrame](../sectionzoomframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| setTriggerShape ([OleObjectFrame](../oleobjectframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
 
 ---
@@ -1628,37 +1598,37 @@ int
 
 | Name | Description |
 | --- | --- |
+| setTriggerShape ([GraphicalObject](../graphicalobject)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+
+
+---
+
+
+### setTriggerShape {#setTriggerShape}
+
+| Name | Description |
+| --- | --- |
+| setTriggerShape ([GroupShape](../groupshape)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+
+
+---
+
+
+### setTriggerShape {#setTriggerShape}
+
+| Name | Description |
+| --- | --- |
+| setTriggerShape ([SummaryZoomSection](../summaryzoomsection)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+
+
+---
+
+
+### setTriggerShape {#setTriggerShape}
+
+| Name | Description |
+| --- | --- |
 | setTriggerShape ([LegacyDiagram](../legacydiagram)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
-
-
----
-
-
-### setTriggerShape {#setTriggerShape}
-
-| Name | Description |
-| --- | --- |
-| setTriggerShape ([ZoomFrame](../zoomframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
-
-
----
-
-
-### setTriggerShape {#setTriggerShape}
-
-| Name | Description |
-| --- | --- |
-| setTriggerShape ([SmartArt](../smartart)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
-
-
----
-
-
-### setTriggerShape {#setTriggerShape}
-
-| Name | Description |
-| --- | --- |
-| setTriggerShape ([SmartArtShape](../smartartshape)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
 
 ---
@@ -1678,7 +1648,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setTriggerShape ([Ink](../ink)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| setTriggerShape ([ZoomFrame](../zoomframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
 
 ---
@@ -1688,7 +1658,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setTriggerShape ([VideoFrame](../videoframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| setTriggerShape ([Table](../table)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
 
 ---
@@ -1698,7 +1668,37 @@ int
 
 | Name | Description |
 | --- | --- |
-| setTriggerShape ([OleObjectFrame](../oleobjectframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| setTriggerShape ([Shape](../shape)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+
+
+---
+
+
+### setTriggerShape {#setTriggerShape}
+
+| Name | Description |
+| --- | --- |
+| setTriggerShape ([GeometryShape](../geometryshape)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+
+
+---
+
+
+### setTriggerShape {#setTriggerShape}
+
+| Name | Description |
+| --- | --- |
+| setTriggerShape ([ZoomObject](../zoomobject)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+
+
+---
+
+
+### setTriggerShape {#setTriggerShape}
+
+| Name | Description |
+| --- | --- |
+| setTriggerShape ([PictureFrame](../pictureframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
 
 ---

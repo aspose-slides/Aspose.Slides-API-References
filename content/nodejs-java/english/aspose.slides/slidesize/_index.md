@@ -15,7 +15,7 @@ url: /aspose.slides/slidesize/
 
 | Name | Description |
 | --- | --- |
-| getOrientation () | Gets or sets the slide orientation. Changing this value swaps the slide’s width and height. |
+| getOrientation () | Gets or sets the slide orientation. Changing this value swaps the slide&#39s width and height. |
 
  **Returns:**
 int
@@ -54,7 +54,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setOrientation (int) | Gets or sets the slide orientation. Changing this value swaps the slide’s width and height. |
+| setOrientation (int) | Gets or sets the slide orientation. Changing this value swaps the slide&#39s width and height. |
 
 
 ---
