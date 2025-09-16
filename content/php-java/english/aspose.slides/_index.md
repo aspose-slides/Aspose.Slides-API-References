@@ -61,6 +61,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [BlackWhiteMode](blackwhitemode) | Determines how colored shape should be transformed into black and white. |
 | [BlobManagementOptions](blobmanagementoptions) | Represents options which can be used to manage BLOB handling rules and other BLOB settings. |
 | [Blur](blur) | Represents a Blur effect that is applied to the entire shape, including its fill. All color channels, including alpha, are affected. |
+| [BrightnessContrast](brightnesscontrast) | Represents a BrightnessContrast effect. Ajusts brightness and contrast |
 | [BrowsedAtKiosk](browsedatkiosk) | Browsed at a kiosk (full screen) |
 | [BrowsedByIndividual](browsedbyindividual) | Browsed by individual (window) |
 | [BubbleSizeRepresentationType](bubblesizerepresentationtype) | Specifies the possible ways to represent data as bubble chart sizes. |
@@ -191,6 +192,9 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [ErrorBarValueType](errorbarvaluetype) | Represents type of error bar value |
 | [ErrorBarsCustomValues](errorbarscustomvalues) | Specifies the errors bar values. It shall be used only when the Error bars value type is Custom. |
 | [ErrorBarsFormat](errorbarsformat) | Represents error bars of chart series. ErrorBars custom values are in IChartDataPointCollection (in ( IChartDataPoint#getErrorBarsCustomValues) property). |
+| [ExcelDataCell](exceldatacell) | Represents a single cell in an Excel workbook. |
+| [ExcelDataWorkbook](exceldataworkbook) | Represents a workbook that provides access to Excel data for general use. |
+| [ExcelWorkbookImporter](excelworkbookimporter) | Provides functionality for importing content from an Excel workbook into a presentation. |
 | [ExternalResourceResolver](externalresourceresolver) | Callback class used to resolve external resources during Html, Svg documents import. Using this resolver could create a vulnerability when client provided HTML or SVG file will make server software to obtain local or network file. Use with caution. It is recommended not to specify ExternalResourceResolver at all (only embedded objects will be read) or create some subclass which checks if specified uri is valid. |
 | [ExtraColorScheme](extracolorscheme) | Represents an additional color scheme which can be assigned to a slide. |
 | [ExtraColorSchemeCollection](extracolorschemecollection) | Represents a collection of additional color schemes. |
@@ -275,6 +279,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [Ink](ink) | Represents an ink object on a slide. |
 | [InkActions](inkactions) | Represents the root of ink actions. |
 | [InkBrush](inkbrush) | Represents an inkBrush object. |
+| [InkEffectType](inkeffecttype) | Specifies a set of predefined visual effects for ink rendering. Each effect corresponds to a texture or image that simulates a stylized ink appearance. These values can be used to customize the visual style of digital ink strokes during rendering. |
 | [InkOptions](inkoptions) | Provides options that control the look of Ink objects in exported document. |
 | [InkTrace](inktrace) | Represents an Trace object. A Trace element is used to record the data captured by the digitizer. It contains a sequence of points encoded according to the specification given by the InkTraceFormat object. |
 | [InnerShadow](innershadow) | Represents a Inner Shadow effect. |
@@ -475,6 +480,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [PptxUnsupportedFormatException](pptxunsupportedformatexception) | Exception which thrown when presentation file format is unsupported. |
 | [Presentation](presentation) | Represents a Microsoft PowerPoint presentation. |
 | [PresentationAnimationsGenerator](presentationanimationsgenerator) | Represents a generator of the animations in the Presentation. |
+| [PresentationContentAmountType](presentationcontentamounttype) | Specifies the amount of content included in the generated presentation, influencing both the number of slides and the level of detail per slide. |
 | [PresentationFactory](presentationfactory) | Allows to create presentation via COM interface |
 | [PresentationHeaderFooterManager](presentationheaderfootermanager) | Represents manager which holds behavior of all footer, date-time and page number placeholders of presentation. |
 | [PresentationInfo](presentationinfo) | Information about presentation file |
@@ -519,7 +525,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [Shape](shape) | Represents a shape on a slide. |
 | [ShapeAdjustmentType](shapeadjustmenttype) | Specifies different types of shape adjustment values. |
 | [ShapeBevel](shapebevel) | Contains the properties of shape's main face relief. |
-| [ShapeCollection](shapecollection) | Represents a collection of a shapes. |
+| [ShapeCollection](shapecollection) | Represents a collection of shapes. |
 | [ShapeElement](shapeelement) | Represents a part of shape with same outline and fill properties. |
 | [ShapeElementFillSource](shapeelementfillsource) | Represents how shape element should be filled. |
 | [ShapeElementStrokeSource](shapeelementstrokesource) | Represents how shape element should be drawn. |
@@ -541,7 +547,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [SlideShowSettings](slideshowsettings) | Represents the slide show settings for the presentation. |
 | [SlideShowTransition](slideshowtransition) | Represents slide show transition. |
 | [SlideShowType](slideshowtype) | Base slide show settings. Ancestors represent types of the slide show: PresentedBySpeaker Presented by a speaker (full screen) BrowsedByIndividual Browsed by individual (window) BrowsedAtKiosk Browsed at a kiosk (full screen) |
-| [SlideSize](slidesize) | Represents a size of slide. |
+| [SlideSize](slidesize) | Represents the size and orientation of a slide. |
 | [SlideSizeScaleType](slidesizescaletype) | Represents the scale type of slide content. |
 | [SlideSizeType](slidesizetype) | Represents the slide size preset. |
 | [SlideThemeManager](slidethememanager) | Provides access to slide theme overriden. |

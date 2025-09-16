@@ -41,6 +41,19 @@ url: /aspose.slides/sequencecollection/
 
 | Name | Description |
 | --- | --- |
+| add ([Shape](../shape)) | Add new interactive sequence. Read/write Sequence. |
+
+ **Returns:**
+[Sequence](../sequence)
+
+
+---
+
+
+### add {#add}
+
+| Name | Description |
+| --- | --- |
 | add ([SmartArtShape](../smartartshape)) | Add new interactive sequence. Read/write Sequence. |
 
  **Returns:**
@@ -67,19 +80,6 @@ url: /aspose.slides/sequencecollection/
 
 | Name | Description |
 | --- | --- |
-| add ([Shape](../shape)) | Add new interactive sequence. Read/write Sequence. |
-
- **Returns:**
-[Sequence](../sequence)
-
-
----
-
-
-### add {#add}
-
-| Name | Description |
-| --- | --- |
 | add ([Ink](../ink)) | Add new interactive sequence. Read/write Sequence. |
 
  **Returns:**
@@ -93,7 +93,7 @@ url: /aspose.slides/sequencecollection/
 
 | Name | Description |
 | --- | --- |
-| add ([SummaryZoomFrame](../summaryzoomframe)) | Add new interactive sequence. Read/write Sequence. |
+| add ([GeometryShape](../geometryshape)) | Add new interactive sequence. Read/write Sequence. |
 
  **Returns:**
 [Sequence](../sequence)
@@ -106,7 +106,7 @@ url: /aspose.slides/sequencecollection/
 
 | Name | Description |
 | --- | --- |
-| add ([GeometryShape](../geometryshape)) | Add new interactive sequence. Read/write Sequence. |
+| add ([SummaryZoomFrame](../summaryzoomframe)) | Add new interactive sequence. Read/write Sequence. |
 
  **Returns:**
 [Sequence](../sequence)
@@ -275,7 +275,7 @@ url: /aspose.slides/sequencecollection/
 
 | Name | Description |
 | --- | --- |
-| add ([ZoomObject](../zoomobject)) | Add new interactive sequence. Read/write Sequence. |
+| add ([LegacyDiagram](../legacydiagram)) | Add new interactive sequence. Read/write Sequence. |
 
  **Returns:**
 [Sequence](../sequence)
@@ -288,7 +288,7 @@ url: /aspose.slides/sequencecollection/
 
 | Name | Description |
 | --- | --- |
-| add ([LegacyDiagram](../legacydiagram)) | Add new interactive sequence. Read/write Sequence. |
+| add ([ZoomObject](../zoomobject)) | Add new interactive sequence. Read/write Sequence. |
 
  **Returns:**
 [Sequence](../sequence)

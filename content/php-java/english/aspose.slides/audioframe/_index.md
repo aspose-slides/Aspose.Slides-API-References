@@ -63,6 +63,19 @@ int
 ---
 
 
+### getCaptionTracks {#getCaptionTracks}
+
+| Name | Description |
+| --- | --- |
+| getCaptionTracks () | Gets the collection of closed captions associated with the audio frame. This property is read-only and returns an ICaptionsCollection containing all caption tracks. |
+
+ **Returns:**
+[CaptionsCollection](../captionscollection)
+
+
+---
+
+
 ### getEmbedded {#getEmbedded}
 
 | Name | Description |

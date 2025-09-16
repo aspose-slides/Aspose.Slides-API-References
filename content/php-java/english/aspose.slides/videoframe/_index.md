@@ -15,7 +15,7 @@ url: /aspose.slides/videoframe/
 
 | Name | Description |
 | --- | --- |
-| getCaptionTracks () | Returns the closed captions collection of the video. Read-only ICaptionsCollection. |
+| getCaptionTracks () | Gets the collection of closed captions associated with the video frame. This property is read-only and returns an ICaptionsCollection containing all caption tracks. |
 
  **Returns:**
 [CaptionsCollection](../captionscollection)

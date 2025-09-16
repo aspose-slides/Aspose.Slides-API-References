@@ -107,7 +107,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -120,7 +120,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -211,7 +211,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -237,20 +237,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -264,6 +251,19 @@ MathSubscriptElement
 | Name | Description |
 | --- | --- |
 | MathSubscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBox](../mathbox)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -380,7 +380,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathLimit](../mathlimit), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -393,7 +393,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathLimit](../mathlimit), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -484,7 +484,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathLimit](../mathlimit), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -510,20 +510,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathLimit](../mathlimit), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathLimit](../mathlimit), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -537,6 +524,19 @@ MathSubscriptElement
 | Name | Description |
 | --- | --- |
 | MathSubscriptElement([MathLimit](../mathlimit), [MathBox](../mathbox)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathLimit](../mathlimit), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -653,7 +653,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -666,7 +666,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -757,7 +757,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -783,20 +783,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathMatrix](../mathmatrix), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -810,6 +797,19 @@ MathSubscriptElement
 | Name | Description |
 | --- | --- |
 | MathSubscriptElement([MathMatrix](../mathmatrix), [MathBox](../mathbox)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathMatrix](../mathmatrix), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -926,7 +926,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathBlock](../mathblock), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -939,7 +939,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathBlock](../mathblock), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -1030,7 +1030,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathBlock](../mathblock), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathBlock](../mathblock), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -1056,20 +1056,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathBlock](../mathblock), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathBlock](../mathblock), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathBlock](../mathblock), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -1083,6 +1070,19 @@ MathSubscriptElement
 | Name | Description |
 | --- | --- |
 | MathSubscriptElement([MathBlock](../mathblock), [MathBox](../mathbox)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathBlock](../mathblock), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -1199,7 +1199,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathRadical](../mathradical), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -1212,7 +1212,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathRadical](../mathradical), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -1303,7 +1303,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathRadical](../mathradical), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathRadical](../mathradical), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -1329,20 +1329,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathRadical](../mathradical), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathRadical](../mathradical), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathRadical](../mathradical), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -1356,6 +1343,19 @@ MathSubscriptElement
 | Name | Description |
 | --- | --- |
 | MathSubscriptElement([MathRadical](../mathradical), [MathBox](../mathbox)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathRadical](../mathradical), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -1472,7 +1472,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathArray](../matharray), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathArray](../matharray), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -1485,7 +1485,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathArray](../matharray), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathArray](../matharray), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -1576,7 +1576,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathArray](../matharray), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathArray](../matharray), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -1602,20 +1602,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathArray](../matharray), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathArray](../matharray), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathArray](../matharray), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -1629,6 +1616,19 @@ MathSubscriptElement
 | Name | Description |
 | --- | --- |
 | MathSubscriptElement([MathArray](../matharray), [MathBox](../mathbox)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathArray](../matharray), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -1745,7 +1745,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -1758,7 +1758,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -1849,7 +1849,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -1875,20 +1875,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathDelimiter](../mathdelimiter), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -1914,280 +1901,20 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
+| MathSubscriptElement([MathDelimiter](../mathdelimiter), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
 | MathSubscriptElement([MathDelimiter](../mathdelimiter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathArray](../matharray)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [BaseScript](../basescript)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -2291,7 +2018,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathAccent](../mathaccent), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -2304,7 +2031,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathAccent](../mathaccent), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -2395,7 +2122,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -2421,20 +2148,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathAccent](../mathaccent), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -2460,7 +2174,293 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
+| MathSubscriptElement([MathAccent](../mathaccent), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
 | MathSubscriptElement([MathAccent](../mathaccent), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathArray](../matharray)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [BaseScript](../basescript)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -2564,7 +2564,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathBorderBox](../mathborderbox), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -2577,7 +2577,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathBorderBox](../mathborderbox), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -2668,7 +2668,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -2694,20 +2694,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathBorderBox](../mathborderbox), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -2721,6 +2708,19 @@ MathSubscriptElement
 | Name | Description |
 | --- | --- |
 | MathSubscriptElement([MathBorderBox](../mathborderbox), [MathBox](../mathbox)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathBorderBox](../mathborderbox), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -2837,7 +2837,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -2850,7 +2850,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -2941,7 +2941,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -2967,20 +2967,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -2994,6 +2981,19 @@ MathSubscriptElement
 | Name | Description |
 | --- | --- |
 | MathSubscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -3110,7 +3110,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathBar](../mathbar), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -3123,7 +3123,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathBar](../mathbar), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -3214,7 +3214,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathBar](../mathbar), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathBar](../mathbar), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -3240,20 +3240,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathBar](../mathbar), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathBar](../mathbar), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathBar](../mathbar), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -3267,6 +3254,19 @@ MathSubscriptElement
 | Name | Description |
 | --- | --- |
 | MathSubscriptElement([MathBar](../mathbar), [MathBox](../mathbox)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathBar](../mathbar), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -3383,7 +3383,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathFunction](../mathfunction), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -3396,7 +3396,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathFunction](../mathfunction), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -3487,7 +3487,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -3513,20 +3513,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathFunction](../mathfunction), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -3540,6 +3527,19 @@ MathSubscriptElement
 | Name | Description |
 | --- | --- |
 | MathSubscriptElement([MathFunction](../mathfunction), [MathBox](../mathbox)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathFunction](../mathfunction), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -3656,7 +3656,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -3669,7 +3669,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -3760,7 +3760,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -3786,20 +3786,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -3813,6 +3800,19 @@ MathSubscriptElement
 | Name | Description |
 | --- | --- |
 | MathSubscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -3929,7 +3929,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -3942,7 +3942,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -4033,7 +4033,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -4059,20 +4059,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -4098,553 +4085,20 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
+| MathSubscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
 | MathSubscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathBlock](../mathblock)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathRadical](../mathradical)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathArray](../matharray)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathBar](../mathbar)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathFunction](../mathfunction)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathematicalText](../mathematicaltext), [BaseScript](../basescript)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathBox](../mathbox)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([BaseScript](../basescript), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([BaseScript](../basescript), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([BaseScript](../basescript), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([BaseScript](../basescript), [MathBlock](../mathblock)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([BaseScript](../basescript), [MathRadical](../mathradical)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([BaseScript](../basescript), [MathArray](../matharray)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([BaseScript](../basescript), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([BaseScript](../basescript), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([BaseScript](../basescript), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([BaseScript](../basescript), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([BaseScript](../basescript), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([BaseScript](../basescript), [MathBar](../mathbar)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([BaseScript](../basescript), [MathFunction](../mathfunction)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([BaseScript](../basescript), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([BaseScript](../basescript), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([BaseScript](../basescript), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([BaseScript](../basescript), [BaseScript](../basescript)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([BaseScript](../basescript), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([BaseScript](../basescript), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([BaseScript](../basescript), [MathBox](../mathbox)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([BaseScript](../basescript), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -4748,7 +4202,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -4761,7 +4215,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -4852,7 +4306,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -4878,20 +4332,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathFraction](../mathfraction), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -4917,6 +4358,19 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
+| MathSubscriptElement([MathFraction](../mathfraction), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
 | MathSubscriptElement([MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
@@ -4930,7 +4384,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathElementBase](../mathelementbase), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([BaseScript](../basescript), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -4943,7 +4397,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathElementBase](../mathelementbase), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([BaseScript](../basescript), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -4956,7 +4410,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathElementBase](../mathelementbase), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([BaseScript](../basescript), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -4969,7 +4423,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathElementBase](../mathelementbase), [MathBlock](../mathblock)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([BaseScript](../basescript), [MathBlock](../mathblock)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -4982,7 +4436,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathElementBase](../mathelementbase), [MathRadical](../mathradical)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([BaseScript](../basescript), [MathRadical](../mathradical)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -4995,7 +4449,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathElementBase](../mathelementbase), [MathArray](../matharray)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([BaseScript](../basescript), [MathArray](../matharray)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -5008,7 +4462,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathElementBase](../mathelementbase), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([BaseScript](../basescript), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -5021,7 +4475,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathElementBase](../mathelementbase), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([BaseScript](../basescript), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -5034,7 +4488,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathElementBase](../mathelementbase), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([BaseScript](../basescript), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -5047,7 +4501,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathElementBase](../mathelementbase), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([BaseScript](../basescript), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -5060,7 +4514,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathElementBase](../mathelementbase), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([BaseScript](../basescript), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -5073,7 +4527,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathElementBase](../mathelementbase), [MathBar](../mathbar)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([BaseScript](../basescript), [MathBar](../mathbar)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -5086,7 +4540,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathElementBase](../mathelementbase), [MathFunction](../mathfunction)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([BaseScript](../basescript), [MathFunction](../mathfunction)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -5099,7 +4553,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathElementBase](../mathelementbase), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([BaseScript](../basescript), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -5112,7 +4566,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathElementBase](../mathelementbase), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([BaseScript](../basescript), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -5125,7 +4579,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathElementBase](../mathelementbase), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([BaseScript](../basescript), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -5138,7 +4592,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathElementBase](../mathelementbase), [BaseScript](../basescript)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([BaseScript](../basescript), [BaseScript](../basescript)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -5151,7 +4605,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathElementBase](../mathelementbase), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([BaseScript](../basescript), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -5164,7 +4618,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathElementBase](../mathelementbase), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([BaseScript](../basescript), [MathBox](../mathbox)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -5177,7 +4631,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathElementBase](../mathelementbase), [MathBox](../mathbox)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([BaseScript](../basescript), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -5190,7 +4644,280 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathElementBase](../mathelementbase), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([BaseScript](../basescript), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathBlock](../mathblock)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathRadical](../mathradical)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathArray](../matharray)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathBar](../mathbar)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathFunction](../mathfunction)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathematicalText](../mathematicaltext), [BaseScript](../basescript)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathBox](../mathbox)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathematicalText](../mathematicaltext), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -5294,7 +5021,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathBox](../mathbox), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -5307,7 +5034,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathBox](../mathbox), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -5398,7 +5125,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathBox](../mathbox), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathBox](../mathbox), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -5424,20 +5151,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathBox](../mathbox), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathBox](../mathbox), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathBox](../mathbox), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -5463,7 +5177,293 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
+| MathSubscriptElement([MathBox](../mathbox), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
 | MathSubscriptElement([MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathElementBase](../mathelementbase), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathElementBase](../mathelementbase), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathElementBase](../mathelementbase), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathElementBase](../mathelementbase), [MathBlock](../mathblock)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathElementBase](../mathelementbase), [MathRadical](../mathradical)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathElementBase](../mathelementbase), [MathArray](../matharray)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathElementBase](../mathelementbase), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathElementBase](../mathelementbase), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathElementBase](../mathelementbase), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathElementBase](../mathelementbase), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathElementBase](../mathelementbase), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathElementBase](../mathelementbase), [MathBar](../mathbar)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathElementBase](../mathelementbase), [MathFunction](../mathfunction)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathElementBase](../mathelementbase), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathElementBase](../mathelementbase), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathElementBase](../mathelementbase), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathElementBase](../mathelementbase), [BaseScript](../basescript)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathElementBase](../mathelementbase), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathElementBase](../mathelementbase), [MathBox](../mathbox)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathElementBase](../mathelementbase), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathElementBase](../mathelementbase), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -5567,7 +5567,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -5580,7 +5580,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -5671,7 +5671,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -5697,20 +5697,7 @@ MathSubscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSubscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSubscriptElement class. |
-
- **Returns:**
-MathSubscriptElement
-
-
----
-
-
-### MathSubscriptElement {#MathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSubscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
+| MathSubscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -5724,6 +5711,19 @@ MathSubscriptElement
 | Name | Description |
 | --- | --- |
 | MathSubscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox)) | Initializes a new instance of the MathSubscriptElement class. |
+
+ **Returns:**
+MathSubscriptElement
+
+
+---
+
+
+### MathSubscriptElement {#MathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSubscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathSubscriptElement class. |
 
  **Returns:**
 MathSubscriptElement
@@ -5752,7 +5752,7 @@ MathSubscriptElement
 | getChildren () | Get children elements |
 
  **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit), [MathMatrix](../mathmatrix), [MathBlock](../mathblock), [MathRadical](../mathradical), [MathArray](../matharray), [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), [MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar), [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathFraction](../mathfraction), [MathElementBase](../mathelementbase), [MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit), [MathMatrix](../mathmatrix), [MathBlock](../mathblock), [MathRadical](../mathradical), [MathArray](../matharray), [MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar), [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction), [BaseScript](../basescript), [MathematicalText](../mathematicaltext), [MathBox](../mathbox), [MathElementBase](../mathelementbase), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
 
 
 ---
@@ -5765,7 +5765,7 @@ MathSubscriptElement
 | getSubscript () | Subscript |
 
  **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit), [MathMatrix](../mathmatrix), [MathBlock](../mathblock), [MathRadical](../mathradical), [MathArray](../matharray), [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), [MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar), [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathFraction](../mathfraction), [MathElementBase](../mathelementbase), [MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit), [MathMatrix](../mathmatrix), [MathBlock](../mathblock), [MathRadical](../mathradical), [MathArray](../matharray), [MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar), [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction), [BaseScript](../basescript), [MathematicalText](../mathematicaltext), [MathBox](../mathbox), [MathElementBase](../mathelementbase), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
 
 
 ---

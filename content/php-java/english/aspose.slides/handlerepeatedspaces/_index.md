@@ -18,8 +18,8 @@ url: /aspose.slides/handlerepeatedspaces/
 | Name | Value | Description |
 | --- | --- | --- |
 [None](#None) | 0 | All spaces are preserved as regular space characters without any changes. No transformation is applied, and multiple consecutive spaces are exported as-is. |
-[AlternateSpacesToNbsp](#AlternateSpacesToNbsp) | 1 | Converts sequences of two or more consecutive regular spaces by alternating between regular space characters and non-breaking space entities ({@code &nbsp;}). The first space is always preserved as a regular space. |
-[MultipleSpacesToNbsp](#MultipleSpacesToNbsp) | 2 | Converts sequences of two or more consecutive regular spaces by preserving the first space as a regular space character and replacing all subsequent spaces with non-breaking space entities ({@code &nbsp;}). |
+[AlternateSpacesToNbsp](#AlternateSpacesToNbsp) | 1 | Converts sequences of two or more consecutive regular spaces by alternating between regular space characters and non-breaking space entities NBSP. The first space is always preserved as a regular space. |
+[MultipleSpacesToNbsp](#MultipleSpacesToNbsp) | 2 | Converts sequences of two or more consecutive regular spaces by preserving the first space as a regular space character and replacing all subsequent spaces with non-breaking space entities NBSP. |
 
 
 ---
@@ -31,12 +31,12 @@ All spaces are preserved as regular space characters without any changes. No tra
 ---
 
 ### AlternateSpacesToNbsp {#AlternateSpacesToNbsp}
-Converts sequences of two or more consecutive regular spaces by alternating between regular space characters and non-breaking space entities ({@code &nbsp;}). The first space is always preserved as a regular space.
+Converts sequences of two or more consecutive regular spaces by alternating between regular space characters and non-breaking space entities NBSP. The first space is always preserved as a regular space.
 
 ---
 
 ### MultipleSpacesToNbsp {#MultipleSpacesToNbsp}
-Converts sequences of two or more consecutive regular spaces by preserving the first space as a regular space character and replacing all subsequent spaces with non-breaking space entities ({@code &nbsp;}).
+Converts sequences of two or more consecutive regular spaces by preserving the first space as a regular space character and replacing all subsequent spaces with non-breaking space entities NBSP.
 
 ---
 

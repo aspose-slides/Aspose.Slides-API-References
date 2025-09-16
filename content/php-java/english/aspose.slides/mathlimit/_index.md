@@ -106,7 +106,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -119,7 +119,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -210,7 +210,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -236,20 +236,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -263,6 +250,19 @@ MathLimit
 | Name | Description |
 | --- | --- |
 | MathLimit([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -379,7 +379,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathLimit](../mathlimit), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -392,7 +392,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathLimit](../mathlimit), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -483,7 +483,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathLimit](../mathlimit), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathLimit](../mathlimit), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -509,20 +509,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathLimit](../mathlimit), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathLimit](../mathlimit), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathLimit](../mathlimit), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -536,6 +523,19 @@ MathLimit
 | Name | Description |
 | --- | --- |
 | MathLimit([MathLimit](../mathlimit), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathLimit](../mathlimit), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -652,7 +652,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathMatrix](../mathmatrix), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -665,7 +665,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathMatrix](../mathmatrix), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -756,7 +756,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathMatrix](../mathmatrix), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -782,20 +782,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathMatrix](../mathmatrix), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathMatrix](../mathmatrix), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -809,6 +796,19 @@ MathLimit
 | Name | Description |
 | --- | --- |
 | MathLimit([MathMatrix](../mathmatrix), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathMatrix](../mathmatrix), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -925,7 +925,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathBlock](../mathblock), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -938,7 +938,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBlock](../mathblock), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -1029,7 +1029,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBlock](../mathblock), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathBlock](../mathblock), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -1055,20 +1055,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBlock](../mathblock), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathBlock](../mathblock), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathBlock](../mathblock), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -1082,6 +1069,19 @@ MathLimit
 | Name | Description |
 | --- | --- |
 | MathLimit([MathBlock](../mathblock), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathBlock](../mathblock), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -1198,7 +1198,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathRadical](../mathradical), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -1211,7 +1211,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathRadical](../mathradical), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -1302,7 +1302,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathRadical](../mathradical), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathRadical](../mathradical), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -1328,20 +1328,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathRadical](../mathradical), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathRadical](../mathradical), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathRadical](../mathradical), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -1355,6 +1342,19 @@ MathLimit
 | Name | Description |
 | --- | --- |
 | MathLimit([MathRadical](../mathradical), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathRadical](../mathradical), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -1471,7 +1471,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathArray](../matharray), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathArray](../matharray), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -1484,7 +1484,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathArray](../matharray), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathArray](../matharray), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -1575,7 +1575,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathArray](../matharray), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathArray](../matharray), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -1601,20 +1601,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathArray](../matharray), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathArray](../matharray), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathArray](../matharray), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -1628,6 +1615,19 @@ MathLimit
 | Name | Description |
 | --- | --- |
 | MathLimit([MathArray](../matharray), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathArray](../matharray), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -1744,7 +1744,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -1757,7 +1757,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -1848,7 +1848,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -1874,20 +1874,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathDelimiter](../mathdelimiter), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -1913,280 +1900,20 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
+| MathLimit([MathDelimiter](../mathdelimiter), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
 | MathLimit([MathDelimiter](../mathdelimiter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathArray](../matharray), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [BaseScript](../basescript), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -2290,7 +2017,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathAccent](../mathaccent), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -2303,7 +2030,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathAccent](../mathaccent), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -2394,7 +2121,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathAccent](../mathaccent), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -2420,20 +2147,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathAccent](../mathaccent), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathAccent](../mathaccent), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -2459,7 +2173,293 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
+| MathLimit([MathAccent](../mathaccent), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
 | MathLimit([MathAccent](../mathaccent), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathArray](../matharray), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [BaseScript](../basescript), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -2563,7 +2563,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathBorderBox](../mathborderbox), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -2576,7 +2576,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBorderBox](../mathborderbox), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -2667,7 +2667,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -2693,20 +2693,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathBorderBox](../mathborderbox), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -2720,6 +2707,19 @@ MathLimit
 | Name | Description |
 | --- | --- |
 | MathLimit([MathBorderBox](../mathborderbox), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathBorderBox](../mathborderbox), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -2836,7 +2836,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -2849,7 +2849,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -2940,7 +2940,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -2966,20 +2966,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathGroupingCharacter](../mathgroupingcharacter), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -2993,6 +2980,19 @@ MathLimit
 | Name | Description |
 | --- | --- |
 | MathLimit([MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathGroupingCharacter](../mathgroupingcharacter), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -3109,7 +3109,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathBar](../mathbar), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -3122,7 +3122,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBar](../mathbar), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -3213,7 +3213,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBar](../mathbar), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathBar](../mathbar), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -3239,20 +3239,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBar](../mathbar), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathBar](../mathbar), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathBar](../mathbar), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -3266,6 +3253,19 @@ MathLimit
 | Name | Description |
 | --- | --- |
 | MathLimit([MathBar](../mathbar), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathBar](../mathbar), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -3382,7 +3382,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathFunction](../mathfunction), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -3395,7 +3395,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathFunction](../mathfunction), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -3486,7 +3486,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathFunction](../mathfunction), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathFunction](../mathfunction), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -3512,20 +3512,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathFunction](../mathfunction), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathFunction](../mathfunction), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathFunction](../mathfunction), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -3539,6 +3526,19 @@ MathLimit
 | Name | Description |
 | --- | --- |
 | MathLimit([MathFunction](../mathfunction), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathFunction](../mathfunction), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -3655,7 +3655,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -3668,7 +3668,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -3759,7 +3759,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -3785,20 +3785,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathSubscriptElement](../mathsubscriptelement), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -3812,6 +3799,19 @@ MathLimit
 | Name | Description |
 | --- | --- |
 | MathLimit([MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathSubscriptElement](../mathsubscriptelement), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -3928,7 +3928,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -3941,7 +3941,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -4032,7 +4032,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -4058,20 +4058,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathSuperscriptElement](../mathsuperscriptelement), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -4097,553 +4084,20 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
+| MathLimit([MathSuperscriptElement](../mathsuperscriptelement), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
 | MathLimit([MathSuperscriptElement](../mathsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathLimit](../mathlimit), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathBlock](../mathblock), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathRadical](../mathradical), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathArray](../matharray), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathDelimiter](../mathdelimiter), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathBar](../mathbar), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [BaseScript](../basescript), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathLimit](../mathlimit), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathMatrix](../mathmatrix), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathBlock](../mathblock), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathRadical](../mathradical), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathArray](../matharray), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathDelimiter](../mathdelimiter), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathBorderBox](../mathborderbox), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathBar](../mathbar), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [BaseScript](../basescript), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -4747,7 +4201,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathFraction](../mathfraction), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -4760,7 +4214,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathFraction](../mathfraction), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -4851,7 +4305,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathFraction](../mathfraction), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -4877,20 +4331,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathFraction](../mathfraction), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathFraction](../mathfraction), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -4916,6 +4357,19 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
+| MathLimit([MathFraction](../mathfraction), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
 | MathLimit([MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
@@ -4929,7 +4383,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([BaseScript](../basescript), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -4942,7 +4396,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathLimit](../mathlimit), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([BaseScript](../basescript), [MathLimit](../mathlimit), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -4955,7 +4409,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathMatrix](../mathmatrix), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([BaseScript](../basescript), [MathMatrix](../mathmatrix), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -4968,7 +4422,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathBlock](../mathblock), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([BaseScript](../basescript), [MathBlock](../mathblock), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -4981,7 +4435,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathRadical](../mathradical), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([BaseScript](../basescript), [MathRadical](../mathradical), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -4994,7 +4448,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathArray](../matharray), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([BaseScript](../basescript), [MathArray](../matharray), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -5007,7 +4461,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathDelimiter](../mathdelimiter), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([BaseScript](../basescript), [MathDelimiter](../mathdelimiter), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -5020,7 +4474,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([BaseScript](../basescript), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -5033,7 +4487,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([BaseScript](../basescript), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -5046,7 +4500,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathBorderBox](../mathborderbox), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([BaseScript](../basescript), [MathBorderBox](../mathborderbox), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -5059,7 +4513,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([BaseScript](../basescript), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -5072,7 +4526,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathBar](../mathbar), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([BaseScript](../basescript), [MathBar](../mathbar), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -5085,7 +4539,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([BaseScript](../basescript), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -5098,7 +4552,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([BaseScript](../basescript), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -5111,7 +4565,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([BaseScript](../basescript), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -5124,7 +4578,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([BaseScript](../basescript), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -5137,7 +4591,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [BaseScript](../basescript), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([BaseScript](../basescript), [BaseScript](../basescript), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -5150,7 +4604,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([BaseScript](../basescript), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -5163,7 +4617,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([BaseScript](../basescript), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -5176,7 +4630,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([BaseScript](../basescript), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -5189,7 +4643,280 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([BaseScript](../basescript), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathLimit](../mathlimit), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathBlock](../mathblock), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathRadical](../mathradical), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathArray](../matharray), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathDelimiter](../mathdelimiter), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathBar](../mathbar), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [BaseScript](../basescript), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -5293,7 +5020,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathBox](../mathbox), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -5306,7 +5033,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBox](../mathbox), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -5397,7 +5124,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBox](../mathbox), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathBox](../mathbox), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -5423,20 +5150,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBox](../mathbox), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathBox](../mathbox), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathBox](../mathbox), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -5462,7 +5176,293 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
+| MathLimit([MathBox](../mathbox), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
 | MathLimit([MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathLimit](../mathlimit), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathMatrix](../mathmatrix), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathBlock](../mathblock), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathRadical](../mathradical), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathArray](../matharray), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathDelimiter](../mathdelimiter), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathBorderBox](../mathborderbox), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathBar](../mathbar), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [BaseScript](../basescript), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -5566,7 +5566,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -5579,7 +5579,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -5670,7 +5670,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -5696,20 +5696,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
+| MathLimit([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -5723,6 +5710,19 @@ MathLimit
 | Name | Description |
 | --- | --- |
 | MathLimit([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 
  **Returns:**
 MathLimit
@@ -5839,7 +5839,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -5852,7 +5852,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -5943,7 +5943,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -5969,20 +5969,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -5996,6 +5983,19 @@ MathLimit
 | Name | Description |
 | --- | --- |
 | MathLimit([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -6112,7 +6112,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathLimit](../mathlimit), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -6125,7 +6125,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathLimit](../mathlimit), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -6216,7 +6216,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathLimit](../mathlimit), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -6242,20 +6242,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathLimit](../mathlimit), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathLimit](../mathlimit), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -6269,6 +6256,19 @@ MathLimit
 | Name | Description |
 | --- | --- |
 | MathLimit([MathLimit](../mathlimit), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathLimit](../mathlimit), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -6385,7 +6385,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -6398,7 +6398,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -6489,7 +6489,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -6515,20 +6515,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathMatrix](../mathmatrix), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -6542,6 +6529,19 @@ MathLimit
 | Name | Description |
 | --- | --- |
 | MathLimit([MathMatrix](../mathmatrix), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathMatrix](../mathmatrix), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -6658,7 +6658,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathBlock](../mathblock), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -6671,7 +6671,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBlock](../mathblock), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -6762,7 +6762,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBlock](../mathblock), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathBlock](../mathblock), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -6788,20 +6788,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBlock](../mathblock), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathBlock](../mathblock), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathBlock](../mathblock), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -6815,6 +6802,19 @@ MathLimit
 | Name | Description |
 | --- | --- |
 | MathLimit([MathBlock](../mathblock), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathBlock](../mathblock), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -6931,7 +6931,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathRadical](../mathradical), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -6944,7 +6944,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathRadical](../mathradical), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -7035,7 +7035,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathRadical](../mathradical), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathRadical](../mathradical), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -7061,20 +7061,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathRadical](../mathradical), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathRadical](../mathradical), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathRadical](../mathradical), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -7088,6 +7075,19 @@ MathLimit
 | Name | Description |
 | --- | --- |
 | MathLimit([MathRadical](../mathradical), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathRadical](../mathradical), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -7204,7 +7204,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathArray](../matharray), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathArray](../matharray), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -7217,7 +7217,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathArray](../matharray), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathArray](../matharray), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -7308,7 +7308,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathArray](../matharray), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathArray](../matharray), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -7334,20 +7334,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathArray](../matharray), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathArray](../matharray), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathArray](../matharray), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -7361,6 +7348,19 @@ MathLimit
 | Name | Description |
 | --- | --- |
 | MathLimit([MathArray](../matharray), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathArray](../matharray), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -7477,7 +7477,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -7490,7 +7490,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -7581,7 +7581,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -7607,20 +7607,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathDelimiter](../mathdelimiter), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -7646,280 +7633,20 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
+| MathLimit([MathDelimiter](../mathdelimiter), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
 | MathLimit([MathDelimiter](../mathdelimiter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathArray](../matharray)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [BaseScript](../basescript)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -8023,7 +7750,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathAccent](../mathaccent), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -8036,7 +7763,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathAccent](../mathaccent), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -8127,7 +7854,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -8153,20 +7880,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathAccent](../mathaccent), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -8192,7 +7906,293 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
+| MathLimit([MathAccent](../mathaccent), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
 | MathLimit([MathAccent](../mathaccent), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathArray](../matharray)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [BaseScript](../basescript)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -8296,7 +8296,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathBorderBox](../mathborderbox), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -8309,7 +8309,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBorderBox](../mathborderbox), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -8400,7 +8400,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -8426,20 +8426,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathBorderBox](../mathborderbox), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -8453,6 +8440,19 @@ MathLimit
 | Name | Description |
 | --- | --- |
 | MathLimit([MathBorderBox](../mathborderbox), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathBorderBox](../mathborderbox), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -8569,7 +8569,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -8582,7 +8582,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -8673,7 +8673,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -8699,20 +8699,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathGroupingCharacter](../mathgroupingcharacter), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -8726,6 +8713,19 @@ MathLimit
 | Name | Description |
 | --- | --- |
 | MathLimit([MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathGroupingCharacter](../mathgroupingcharacter), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -8842,7 +8842,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathBar](../mathbar), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -8855,7 +8855,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBar](../mathbar), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -8946,7 +8946,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBar](../mathbar), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathBar](../mathbar), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -8972,20 +8972,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBar](../mathbar), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathBar](../mathbar), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathBar](../mathbar), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -8999,6 +8986,19 @@ MathLimit
 | Name | Description |
 | --- | --- |
 | MathLimit([MathBar](../mathbar), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathBar](../mathbar), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -9115,7 +9115,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathFunction](../mathfunction), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -9128,7 +9128,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathFunction](../mathfunction), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -9219,7 +9219,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -9245,20 +9245,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathFunction](../mathfunction), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -9272,6 +9259,19 @@ MathLimit
 | Name | Description |
 | --- | --- |
 | MathLimit([MathFunction](../mathfunction), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathFunction](../mathfunction), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -9388,7 +9388,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -9401,7 +9401,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -9492,7 +9492,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -9518,20 +9518,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathSubscriptElement](../mathsubscriptelement), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -9545,6 +9532,19 @@ MathLimit
 | Name | Description |
 | --- | --- |
 | MathLimit([MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathSubscriptElement](../mathsubscriptelement), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -9661,7 +9661,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -9674,7 +9674,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -9765,7 +9765,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -9791,20 +9791,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathSuperscriptElement](../mathsuperscriptelement), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -9830,553 +9817,20 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
+| MathLimit([MathSuperscriptElement](../mathsuperscriptelement), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
 | MathLimit([MathSuperscriptElement](../mathsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathLimit](../mathlimit)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathBlock](../mathblock)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathRadical](../mathradical)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathArray](../matharray)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathBar](../mathbar)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [BaseScript](../basescript)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathematicalText](../mathematicaltext), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathLimit](../mathlimit)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathBlock](../mathblock)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathRadical](../mathradical)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathArray](../matharray)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathBar](../mathbar)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [BaseScript](../basescript)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([BaseScript](../basescript), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -10480,7 +9934,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -10493,7 +9947,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -10584,7 +10038,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -10610,20 +10064,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathFraction](../mathfraction), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -10649,6 +10090,19 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
+| MathLimit([MathFraction](../mathfraction), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
 | MathLimit([MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
@@ -10662,7 +10116,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([BaseScript](../basescript), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -10675,7 +10129,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathLimit](../mathlimit)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([BaseScript](../basescript), [MathLimit](../mathlimit)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -10688,7 +10142,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([BaseScript](../basescript), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -10701,7 +10155,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathBlock](../mathblock)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([BaseScript](../basescript), [MathBlock](../mathblock)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -10714,7 +10168,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathRadical](../mathradical)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([BaseScript](../basescript), [MathRadical](../mathradical)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -10727,7 +10181,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathArray](../matharray)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([BaseScript](../basescript), [MathArray](../matharray)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -10740,7 +10194,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([BaseScript](../basescript), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -10753,7 +10207,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([BaseScript](../basescript), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -10766,7 +10220,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([BaseScript](../basescript), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -10779,7 +10233,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([BaseScript](../basescript), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -10792,7 +10246,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([BaseScript](../basescript), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -10805,7 +10259,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathBar](../mathbar)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([BaseScript](../basescript), [MathBar](../mathbar)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -10818,7 +10272,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([BaseScript](../basescript), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -10831,7 +10285,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([BaseScript](../basescript), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -10844,7 +10298,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([BaseScript](../basescript), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -10857,7 +10311,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([BaseScript](../basescript), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -10870,7 +10324,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [BaseScript](../basescript)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([BaseScript](../basescript), [BaseScript](../basescript)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -10883,7 +10337,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([BaseScript](../basescript), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -10896,7 +10350,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([BaseScript](../basescript), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -10909,7 +10363,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([BaseScript](../basescript), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -10922,7 +10376,280 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathElementBase](../mathelementbase), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([BaseScript](../basescript), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathLimit](../mathlimit)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathBlock](../mathblock)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathRadical](../mathradical)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathArray](../matharray)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathBar](../mathbar)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [BaseScript](../basescript)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathematicalText](../mathematicaltext), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -11026,7 +10753,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathBox](../mathbox), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -11039,7 +10766,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBox](../mathbox), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -11130,7 +10857,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBox](../mathbox), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathBox](../mathbox), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -11156,20 +10883,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathBox](../mathbox), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathBox](../mathbox), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathBox](../mathbox), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -11195,7 +10909,293 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
+| MathLimit([MathBox](../mathbox), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
 | MathLimit([MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathLimit](../mathlimit)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathBlock](../mathblock)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathRadical](../mathradical)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathArray](../matharray)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathBar](../mathbar)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [BaseScript](../basescript)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathElementBase](../mathelementbase), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -11299,7 +11299,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -11312,7 +11312,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -11403,7 +11403,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -11429,20 +11429,7 @@ MathLimit
 
 | Name | Description |
 | --- | --- |
-| MathLimit([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-
- **Returns:**
-MathLimit
-
-
----
-
-
-### MathLimit {#MathLimit}
-
-| Name | Description |
-| --- | --- |
-| MathLimit([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
+| MathLimit([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -11456,6 +11443,19 @@ MathLimit
 | Name | Description |
 | --- | --- |
 | MathLimit([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+
+ **Returns:**
+MathLimit
+
+
+---
+
+
+### MathLimit {#MathLimit}
+
+| Name | Description |
+| --- | --- |
+| MathLimit([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 
  **Returns:**
 MathLimit
@@ -11484,7 +11484,7 @@ MathLimit
 | getBase () | Base argument |
 
  **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit), [MathMatrix](../mathmatrix), [MathBlock](../mathblock), [MathRadical](../mathradical), [MathArray](../matharray), [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), [MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar), [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathFraction](../mathfraction), [MathElementBase](../mathelementbase), [MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit), [MathMatrix](../mathmatrix), [MathBlock](../mathblock), [MathRadical](../mathradical), [MathArray](../matharray), [MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar), [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction), [BaseScript](../basescript), [MathematicalText](../mathematicaltext), [MathBox](../mathbox), [MathElementBase](../mathelementbase), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
 
 
 ---
@@ -11497,7 +11497,7 @@ MathLimit
 | getChildren () | Get children elements |
 
  **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit), [MathMatrix](../mathmatrix), [MathBlock](../mathblock), [MathRadical](../mathradical), [MathArray](../matharray), [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), [MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar), [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathFraction](../mathfraction), [MathElementBase](../mathelementbase), [MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit), [MathMatrix](../mathmatrix), [MathBlock](../mathblock), [MathRadical](../mathradical), [MathArray](../matharray), [MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar), [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction), [BaseScript](../basescript), [MathematicalText](../mathematicaltext), [MathBox](../mathbox), [MathElementBase](../mathelementbase), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
 
 
 ---
@@ -11510,7 +11510,7 @@ MathLimit
 | getLimit () | Limit argument |
 
  **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit), [MathMatrix](../mathmatrix), [MathBlock](../mathblock), [MathRadical](../mathradical), [MathArray](../matharray), [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), [MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar), [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathFraction](../mathfraction), [MathElementBase](../mathelementbase), [MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit), [MathMatrix](../mathmatrix), [MathBlock](../mathblock), [MathRadical](../mathradical), [MathArray](../matharray), [MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar), [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction), [BaseScript](../basescript), [MathematicalText](../mathematicaltext), [MathBox](../mathbox), [MathElementBase](../mathelementbase), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
 
 
 ---
