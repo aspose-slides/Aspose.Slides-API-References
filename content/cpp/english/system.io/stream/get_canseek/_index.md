@@ -3,7 +3,7 @@ title: get_CanSeek()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines if the stream supports seeking.
 type: docs
-weight: 235
+weight: 274
 url: /system.io/stream/get_canseek/
 ---
 ## Stream::get_CanSeek() const method

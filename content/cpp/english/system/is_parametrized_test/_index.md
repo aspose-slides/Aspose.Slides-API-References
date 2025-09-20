@@ -3,7 +3,7 @@ title: is_parametrized_test()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 2796
+weight: 2835
 url: /system/is_parametrized_test/
 ---
 ## System::is_parametrized_test(const ::testing::TestInfo *) function

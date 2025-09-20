@@ -3,7 +3,7 @@ title: CopyTo()
 second_title: Aspose.Slides for C++ API Reference
 description: Copies bytes to the specified stream.
 type: docs
-weight: 170
+weight: 209
 url: /system.io/stream/copyto/
 ---
 ## Stream::CopyTo(const SharedPtr\<Stream\>\&) method

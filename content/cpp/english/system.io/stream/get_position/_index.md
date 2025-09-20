@@ -3,7 +3,7 @@ title: get_Position()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns the current position of the stream.
 type: docs
-weight: 196
+weight: 235
 url: /system.io/stream/get_position/
 ---
 ## Stream::get_Position() const method

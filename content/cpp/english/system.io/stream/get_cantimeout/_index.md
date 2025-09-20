@@ -3,7 +3,7 @@ title: get_CanTimeout()
 second_title: Aspose.Slides for C++ API Reference
 description: Gets a value that determines whether the current stream can time out.
 type: docs
-weight: 261
+weight: 300
 url: /system.io/stream/get_cantimeout/
 ---
 ## Stream::get_CanTimeout() const method

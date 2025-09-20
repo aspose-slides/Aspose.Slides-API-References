@@ -3,7 +3,7 @@ title: MemberAccessException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 3719
+weight: 3797
 url: /system/memberaccessexception/
 ---
 ## MemberAccessException typedef

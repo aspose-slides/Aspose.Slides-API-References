@@ -3,7 +3,7 @@ title: Write()
 second_title: Aspose.Slides for C++ API Reference
 description: Writes the specified subrange of bytes from the specified byte array to the stream.
 type: docs
-weight: 40
+weight: 53
 url: /system.io/stream/write/
 ---
 ## Stream::Write(const ArrayPtr\<uint8_t\>\&, int32_t, int32_t) method

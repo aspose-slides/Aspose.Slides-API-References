@@ -3,7 +3,7 @@ title: TimerQueue
 second_title: Aspose.Slides for C++ API Reference
 description: Queue that handles Timer objects. This is just an implementation. Timer objects register there by themselves, you don't have to do so to use them - use Timer class API instead. This is a singleton type with memory management done by access function(s). You should never create instances of it directly.
 type: docs
-weight: 209
+weight: 248
 url: /system.threading/timerqueue/
 ---
 ## TimerQueue class

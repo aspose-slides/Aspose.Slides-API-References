@@ -3,7 +3,7 @@ title: ParameterizedThreadStart
 second_title: Aspose.Slides for C++ API Reference
 description: Thread function with single parameter.
 type: docs
-weight: 365
+weight: 404
 url: /system.threading/parameterizedthreadstart/
 ---
 ## ParameterizedThreadStart typedef

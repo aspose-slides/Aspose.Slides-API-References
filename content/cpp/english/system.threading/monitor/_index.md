@@ -3,7 +3,7 @@ title: Monitor
 second_title: Aspose.Slides for C++ API Reference
 description: Class Monitor provides a mechanism that synchronizes access to objects.
 type: docs
-weight: 118
+weight: 157
 url: /system.threading/monitor/
 ---
 ## Monitor class

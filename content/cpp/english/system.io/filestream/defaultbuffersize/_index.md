@@ -3,7 +3,7 @@ title: DefaultBufferSize
 second_title: Aspose.Slides for C++ API Reference
 description: Default value of the number of bytes bufferred during read and write operations.
 type: docs
-weight: 235
+weight: 274
 url: /system.io/filestream/defaultbuffersize/
 ---
 ## DefaultBufferSize field

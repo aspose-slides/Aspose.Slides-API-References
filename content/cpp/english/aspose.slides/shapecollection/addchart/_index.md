@@ -28,7 +28,7 @@ System::SharedPtr<Charts::IChart> Aspose::Slides::ShapeCollection::AddChart(Char
 
 ### Return Value
 
-The newly created [IChart](../).
+The newly created [Charts::IChart](../../../aspose.slides.charts/ichart/).
 ## Remarks
 
 
@@ -125,7 +125,7 @@ System::SharedPtr<Charts::IChart> Aspose::Slides::ShapeCollection::AddChart(Char
 
 ### Return Value
 
-The newly created [IChart](../).
+The newly created [Charts::IChart](../../../aspose.slides.charts/ichart/).
 
 ## See Also
 

@@ -14,6 +14,9 @@ url: /system.threading/
 | Class | Description |
 | --- | --- |
 | [AutoResetEvent](./autoresetevent/) | Event to notify waiting thread that resets automatically. Objects of this class should only be allocated using [System::MakeObject()](../system/makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](../system/smartptr/) pointer and use this pointer to pass it to functions as argument. |
+| [CancellationToken](./cancellationtoken/) | Propagates notification that operations should be canceled. This class provides a mechanism for cooperative cancellation between threads, allowing one thread to notify others that an operation should be canceled. |
+| [CancellationTokenRegistration](./cancellationtokenregistration/) | Represents a registration for a cancellation token callback. |
+| [CancellationTokenSource](./cancellationtokensource/) | A cancellation token source that can be used to trigger cancellation notifications. |
 | [Details_SemaphoreFullException](./details_semaphorefullexception/) |  |
 | [Details_SynchronizationLockException](./details_synchronizationlockexception/) |  |
 | [Details_ThreadAbortException](./details_threadabortexception/) |  |

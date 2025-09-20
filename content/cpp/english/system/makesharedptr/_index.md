@@ -3,7 +3,7 @@ title: MakeSharedPtr()
 second_title: Aspose.Slides for C++ API Reference
 description: Converts raw pointer to smart pointer.
 type: docs
-weight: 2640
+weight: 2666
 url: /system/makesharedptr/
 ---
 ## System::MakeSharedPtr(X *) function

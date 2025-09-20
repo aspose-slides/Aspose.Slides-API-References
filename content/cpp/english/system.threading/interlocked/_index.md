@@ -3,7 +3,7 @@ title: Interlocked
 second_title: Aspose.Slides for C++ API Reference
 description: Provides API for thread-safe operations. This is a static type with no instance services. You should never create instances of it by any means.
 type: docs
-weight: 92
+weight: 131
 url: /system.threading/interlocked/
 ---
 ## Interlocked class

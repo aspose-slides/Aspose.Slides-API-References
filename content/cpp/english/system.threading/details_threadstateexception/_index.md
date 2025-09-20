@@ -3,7 +3,7 @@ title: Details_ThreadStateException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 66
+weight: 105
 url: /system.threading/details_threadstateexception/
 ---
 ## Details_ThreadStateException class

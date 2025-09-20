@@ -29,7 +29,7 @@ System::SharedPtr<Charts::IChart> Aspose::Slides::ShapeCollection::InsertChart(C
 
 ### Return Value
 
-The newly created [IChart](../).
+The newly created [Charts::IChart](../../../aspose.slides.charts/ichart/).
 
 ## ShapeCollection::InsertChart(Charts::ChartType, float, float, float, float, int32_t, bool) method
 
@@ -55,7 +55,7 @@ System::SharedPtr<Charts::IChart> Aspose::Slides::ShapeCollection::InsertChart(C
 
 ### Return Value
 
-The newly created [IChart](../).
+The newly created [Charts::IChart](../../../aspose.slides.charts/ichart/).
 
 ## See Also
 

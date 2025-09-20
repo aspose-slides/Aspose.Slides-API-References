@@ -3,7 +3,7 @@ title: Details_ThreadInterruptedException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 53
+weight: 92
 url: /system.threading/details_threadinterruptedexception/
 ---
 ## Details_ThreadInterruptedException class

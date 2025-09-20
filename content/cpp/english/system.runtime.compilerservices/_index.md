@@ -13,5 +13,9 @@ url: /system.runtime.compilerservices/
 
 | Class | Description |
 | --- | --- |
+| [ConfiguredResultTaskAwaitable](./configuredresulttaskawaitable/) |  |
+| [ConfiguredTaskAwaitable](./configuredtaskawaitable/) |  |
 | [ITuple](./ituple/) | Defines a general-purpose [Tuple](../system/tuple/) implementation that allows access to [Tuple](../system/tuple/) instance members without knowing the underlying [Tuple](../system/tuple/) type. |
+| [ResultTaskAwaiter](./resulttaskawaiter/) |  |
 | [RuntimeHelpers](./runtimehelpers/) | Helper class to get some object information in runtime. |
+| [TaskAwaiter](./taskawaiter/) |  |

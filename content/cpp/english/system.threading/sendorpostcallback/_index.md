@@ -3,7 +3,7 @@ title: SendOrPostCallback
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 352
+weight: 391
 url: /system.threading/sendorpostcallback/
 ---
 ## SendOrPostCallback typedef

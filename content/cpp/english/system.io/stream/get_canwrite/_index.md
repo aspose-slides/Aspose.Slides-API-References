@@ -3,7 +3,7 @@ title: get_CanWrite()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines if the stream is writable.
 type: docs
-weight: 248
+weight: 287
 url: /system.io/stream/get_canwrite/
 ---
 ## Stream::get_CanWrite() const method

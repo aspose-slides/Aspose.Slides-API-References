@@ -3,7 +3,7 @@ title: UriHostNameType
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the type of host name.
 type: docs
-weight: 2991
+weight: 3030
 url: /system/urihostnametype/
 ---
 ## UriHostNameType enum

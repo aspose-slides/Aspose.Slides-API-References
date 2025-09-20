@@ -3,7 +3,7 @@ title: IFormatProviderPtr
 second_title: Aspose.Slides for C++ API Reference
 description: "An alias for a smart pointer that points to an instance of System::IFormatProvider class."
 type: docs
-weight: 3017
+weight: 3056
 url: /system/iformatproviderptr/
 ---
 ## IFormatProviderPtr typedef

@@ -3,7 +3,7 @@ title: Null
 second_title: Aspose.Slides for C++ API Reference
 description: A stream with no underlying storage.
 type: docs
-weight: 326
+weight: 365
 url: /system.io/stream/null/
 ---
 ## Null field
