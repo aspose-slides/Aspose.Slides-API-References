@@ -3,7 +3,7 @@ title: EffectStyleCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of effect styles.
 type: docs
-weight: 10930
+weight: 10940
 url: /aspose.slides.theme/effectstylecollection/
 ---
 

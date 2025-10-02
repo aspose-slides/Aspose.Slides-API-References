@@ -3,7 +3,7 @@ title: InkEffectType
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies a set of predefined visual effects for ink rendering. Each effect corresponds to a texture or image that simulates a stylized ink appearance. These values can be used to customize the visual style of digital ink strokes during rendering.
 type: docs
-weight: 7490
+weight: 7500
 url: /aspose.slides.ink/inkeffecttype/
 ---
 

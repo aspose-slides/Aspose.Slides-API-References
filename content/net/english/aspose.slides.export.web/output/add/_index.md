@@ -7,7 +7,7 @@ weight: 10
 url: /aspose.slides.export.web/output/add/
 ---
 
-## Add&lt;TContextObject&gt;(string, string, TContextObject) {#add_6}
+## Add&lt;TContextObject&gt;(string, string, TContextObject) {#add_7}
 
 Adds an output element for the context object.
 
@@ -35,7 +35,7 @@ public IOutputFile Add<TContextObject>(string path, string templateKey,
 
 ---
 
-## Add(string, IPPImage) {#add_2}
+## Add(string, IPPImage) {#add_3}
 
 Adds an output element for the image.
 
@@ -62,7 +62,7 @@ public IOutputFile Add(string path, IPPImage image)
 
 ---
 
-## Add(string, IImage) {#add_1}
+## Add(string, IImage) {#add_2}
 
 Adds an output element for the image.
 
@@ -89,7 +89,7 @@ public IOutputFile Add(string path, IImage image)
 
 ---
 
-## Add(string, IVideo) {#add_3}
+## Add(string, IVideo) {#add_4}
 
 Adds an output element for the video.
 
@@ -116,35 +116,36 @@ public IOutputFile Add(string path, IVideo video)
 
 ---
 
-## Add(string, IFontData, FontStyle) {#add}
+## Add(string, IFontData, FontStyleType) {#add}
 
-Adds an output element for the font.
+Creates and adds an output file element for the specified font.
 
 ```csharp
-public IOutputFile Add(string path, IFontData fontData, FontStyle fontStyle)
+public IOutputFile Add(string path, IFontData fontData, FontStyleType fontStyle)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | String | Output path. |
-| fontData | IFontData | Font to output. |
-| fontStyle | FontStyle | Font style. |
+| path | String | The file path where the font output will be saved. |
+| fontData | IFontData | The font data to be written to the output. |
+| fontStyle | FontStyleType | The style of the font (e.g., Regular, Bold, Italic). |
 
 ### Return Value
 
-[`IOutputFile`](../../ioutputfile) object for the font.
+An [`IOutputFile`](../../ioutputfile) instance for the generated font.
 
 ### See Also
 
 * interface [IOutputFile](../../ioutputfile)
 * interface [IFontData](../../../aspose.slides/ifontdata)
+* enum [FontStyleType](../../../aspose.slides/fontstyletype)
 * class [Output](../../output)
 * namespace [Aspose.Slides.Export.Web](../../output)
 * assembly [Aspose.Slides](../../../)
 
 ---
 
-## Add(string, string) {#add_5}
+## Add(string, string) {#add_6}
 
 Adds an output element for the text content.
 

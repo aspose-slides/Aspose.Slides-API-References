@@ -3,7 +3,7 @@ title: ITab
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a tabulation for a text.
 type: docs
-weight: 7100
+weight: 7110
 url: /aspose.slides/itab/
 ---
 

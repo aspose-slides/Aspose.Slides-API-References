@@ -460,6 +460,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [FillType](./filltype) | Specifies the interior fill type of various visual objects. |
 | [FontAlignment](./fontalignment) | Represents vertical font alignment. |
 | [FontCollectionIndex](./fontcollectionindex) | Represents font's index in a collection. |
+| [FontStyleType](./fontstyletype) | Defines formatting styles that can be applied to text. |
 | [FontSubstCondition](./fontsubstcondition) | Represents a rule fot font substitution |
 | [GradientDirection](./gradientdirection) | Represents the gradient style. |
 | [GradientShape](./gradientshape) | Represents the shape of gradient fill. |

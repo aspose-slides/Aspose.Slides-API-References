@@ -3,7 +3,7 @@ title: LayoutPlaceholderManager
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents manager that allows you to add placeholders to the layout slide.
 type: docs
-weight: 7540
+weight: 7550
 url: /aspose.slides/layoutplaceholdermanager/
 ---
 

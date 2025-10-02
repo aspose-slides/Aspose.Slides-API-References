@@ -1,7 +1,7 @@
 ---
 title: GetCells
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Retrieves a collection of cells from the workbook that match the specified formula.
 type: docs
 weight: 30
 url: /aspose.slides.excel/exceldataworkbook/getcells/
@@ -9,8 +9,30 @@ url: /aspose.slides.excel/exceldataworkbook/getcells/
 
 ## ExcelDataWorkbook.GetCells method
 
+Retrieves a collection of cells from the workbook that match the specified formula.
+
 ```csharp
 public ReadOnlyCollection<IExcelDataCell> GetCells(string formula, bool skipHiddenCells)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | String | A formula or range expression (e.g., "Sheet1!A1:B3") used to identify target cells. |
+| skipHiddenCells | Boolean | If `true`, hidden cells (e.g., in hidden rows or columns) will be excluded from the result. |
+
+### Return Value
+
+A read-only list of cells that match the specified formula.
+
+### Examples
+
+Example:
+
+```csharp
+[C#]
+ExcelDataWorkbook wb = new ExcelDataWorkbook(testFile);
+IReadOnlyList<IExcelDataCell> cells = wb.GetCells("Sheet1!A2:A6", false);
+Console.WriteLine(cells.Count); //Output: 5
 ```
 
 ### See Also

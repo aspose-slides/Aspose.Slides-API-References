@@ -1,23 +1,24 @@
 ---
 title: CreateMathAccent
 second_title: Aspose.Sildes for .NET API Reference
-description: Creates a math accent applying to a specified math element with the default accent character value
+description: Creates a math accent applying to a specified math element
 type: docs
 weight: 10
 url: /aspose.slides.mathtext/imathaccentfactory/createmathaccent/
 ---
 
-## CreateMathAccent(IMathElement) {#createmathaccent}
+## CreateMathAccent(IMathElement, char) {#createmathaccent_1}
 
-Creates a math accent applying to a specified math element with the default accent character value
+Creates a math accent applying to a specified math element
 
 ```csharp
-public IMathAccent CreateMathAccent(IMathElement element)
+public IMathAccent CreateMathAccent(IMathElement element, char accentCharacter)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | element | IMathElement | math element to apply accent |
+| accentCharacter | Char | accent character |
 
 ### Return Value
 
@@ -33,18 +34,17 @@ new math accent
 
 ---
 
-## CreateMathAccent(IMathElement, char) {#createmathaccent_1}
+## CreateMathAccent(IMathElement) {#createmathaccent}
 
-Creates a math accent applying to a specified math element
+Creates a math accent applying to a specified math element with the default accent character value
 
 ```csharp
-public IMathAccent CreateMathAccent(IMathElement element, char accentCharacter)
+public IMathAccent CreateMathAccent(IMathElement element)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | element | IMathElement | math element to apply accent |
-| accentCharacter | Char | accent character |
 
 ### Return Value
 

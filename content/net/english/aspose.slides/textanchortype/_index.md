@@ -3,7 +3,7 @@ title: TextAnchorType
 second_title: Aspose.Sildes for .NET API Reference
 description: text box alignment within a text area.
 type: docs
-weight: 10750
+weight: 10760
 url: /aspose.slides/textanchortype/
 ---
 

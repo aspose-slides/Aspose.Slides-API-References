@@ -3,7 +3,7 @@ title: LoadingStreamBehavior
 second_title: Aspose.Sildes for .NET API Reference
 description: The Stream passed to a method is considered as a Binary Large Object BLOB see IBlobManagementOptions./iblobmanagementoptions description. Values of this enumeration identify how the Stream should be treated when it passed to the method. Depending on the requirements different decisions could be made to provide the most efficient behavior.
 type: docs
-weight: 7760
+weight: 7770
 url: /aspose.slides/loadingstreambehavior/
 ---
 

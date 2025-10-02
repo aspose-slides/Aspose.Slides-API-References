@@ -25,7 +25,7 @@ public class SlideImageFormat : ISlideImageFormat
 
 | Name | Description |
 | --- | --- |
-| static [Bitmap](../../aspose.slides.export/slideimageformat/bitmap)(float, ImageFormat) | Slides should be converted to a raster image. |
+| static [Bitmap](../../aspose.slides.export/slideimageformat/bitmap#bitmap)(float, ImageFormat) | Slides should be converted to a raster image. |
 | static [Svg](../../aspose.slides.export/slideimageformat/svg)(SVGOptions) | Slides should converted to a SVG format. |
 
 ### See Also

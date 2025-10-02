@@ -3,7 +3,7 @@ title: MasterTheme
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a master theme.
 type: docs
-weight: 11270
+weight: 11280
 url: /aspose.slides.theme/mastertheme/
 ---
 

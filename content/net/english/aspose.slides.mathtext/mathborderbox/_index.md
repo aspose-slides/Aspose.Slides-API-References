@@ -3,7 +3,7 @@ title: MathBorderBox
 second_title: Aspose.Sildes for .NET API Reference
 description: Draws a rectangular or some other border around the IMathElement.
 type: docs
-weight: 8500
+weight: 8510
 url: /aspose.slides.mathtext/mathborderbox/
 ---
 

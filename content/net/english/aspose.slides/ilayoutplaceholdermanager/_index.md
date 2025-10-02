@@ -3,7 +3,7 @@ title: ILayoutPlaceholderManager
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents manager that allows you to add placeholders to the layout slide.
 type: docs
-weight: 6140
+weight: 6150
 url: /aspose.slides/ilayoutplaceholdermanager/
 ---
 

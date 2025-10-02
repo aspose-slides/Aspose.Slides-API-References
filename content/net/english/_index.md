@@ -18,7 +18,7 @@ is_root: true
 | [Aspose.Slides.Charts](./aspose.slides.charts) | Contains classes for work with charts in Microsoft PowerPoint presentations. |
 | [Aspose.Slides.DOM.Ole](./aspose.slides.dom.ole) | Contains classes for work with OLE objects in Microsoft PowerPoint presentations. |
 | [Aspose.Slides.Effects](./aspose.slides.effects) | Contains classes for work with various effects in Microsoft PowerPoint presentations. |
-| [Aspose.Slides.Excel](./aspose.slides.excel) |  |
+| [Aspose.Slides.Excel](./aspose.slides.excel) | Contains classes for work with external Microsoft Excel spreadsheets. |
 | [Aspose.Slides.Export](./aspose.slides.export) | Contains classes for exporting Microsoft PowerPoint presentations to different formats like Html, Pdf, Svg, Xps and others. |
 | [Aspose.Slides.Export.Web](./aspose.slides.export.web) | Contains classes for exporting Microsoft PowerPoint presentations to Html with extension projects. |
 | [Aspose.Slides.Export.Xaml](./aspose.slides.export.xaml) | Contains classes for exporting Microsoft PowerPoint presentations to XAML. |

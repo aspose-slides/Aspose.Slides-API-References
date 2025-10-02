@@ -3,7 +3,7 @@ title: LightingDirection
 second_title: Aspose.Sildes for .NET API Reference
 description: Constants which define light directions.
 type: docs
-weight: 7620
+weight: 7630
 url: /aspose.slides/lightingdirection/
 ---
 

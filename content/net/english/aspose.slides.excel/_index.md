@@ -1,13 +1,13 @@
 ---
 title: Aspose.Slides.Excel
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Contains classes for work with external Microsoft Excel spreadsheets.
 type: docs
 weight: 70
 url: /aspose.slides.excel/
 ---
 
-
+Contains classes for work with external Microsoft Excel spreadsheets.
 
 ## Classes
 

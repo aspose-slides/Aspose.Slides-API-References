@@ -30,7 +30,7 @@ public class ExcelDataWorkbook : IExcelDataWorkbook
 | [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_3)(string, string) | Retrieves a cell from the specified worksheet using Excel-style cell name (e.g., "B2"). |
 | [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell)(int, int, int) | Retrieves a cell from the specified worksheet using its index and cell coordinates. |
 | [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_2)(string, int, int) | Retrieves a cell from the specified worksheet using its name and cell coordinates. |
-| [GetCells](../../aspose.slides.excel/exceldataworkbook/getcells)(string, bool) |  |
+| [GetCells](../../aspose.slides.excel/exceldataworkbook/getcells)(string, bool) | Retrieves a collection of cells from the workbook that match the specified formula. |
 | [GetChartsFromWorksheet](../../aspose.slides.excel/exceldataworkbook/getchartsfromworksheet)(string) | Retrieves a dictionary containing the indexes and names of all charts in the specified worksheet of an Excel workbook. |
 | [GetWorksheetNames](../../aspose.slides.excel/exceldataworkbook/getworksheetnames)() | Retrieves the names of all worksheets contained in the Excel workbook. |
 

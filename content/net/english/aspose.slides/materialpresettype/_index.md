@@ -3,7 +3,7 @@ title: MaterialPresetType
 second_title: Aspose.Sildes for .NET API Reference
 description: Constants which define material of shape.
 type: docs
-weight: 7960
+weight: 7970
 url: /aspose.slides/materialpresettype/
 ---
 

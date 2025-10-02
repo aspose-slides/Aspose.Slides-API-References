@@ -12,16 +12,17 @@ url: /aspose.slides.export/slideimageformat/bitmap/
 Slides should be converted to a raster image.
 
 ```csharp
-public static SlideImageFormat Bitmap(float scale, ImageFormat imgFormat)
+public static SlideImageFormat Bitmap(float scale, ImageFormat imageFormat)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| scale | Single | Image scale factor. |
-| imgFormat | ImageFormat | Image format. |
+| scale | Single | The factor by which to scale the output image. |
+| imageFormat | ImageFormat | The format of the resulting image (e.g., PNG, JPEG). |
 
 ### See Also
 
+* enum [ImageFormat](../../../aspose.slides/imageformat)
 * class [SlideImageFormat](../../slideimageformat)
 * namespace [Aspose.Slides.Export](../../slideimageformat)
 * assembly [Aspose.Slides](../../../)

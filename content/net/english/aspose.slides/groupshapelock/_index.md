@@ -3,7 +3,7 @@ title: GroupShapeLock
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines which operations are disabled on the parent GroupShape.
 type: docs
-weight: 5030
+weight: 5040
 url: /aspose.slides/groupshapelock/
 ---
 

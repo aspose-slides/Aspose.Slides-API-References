@@ -3,7 +3,7 @@ title: FontsManager
 second_title: Aspose.Sildes for .NET API Reference
 description: Manages fonts across the presentation.
 type: docs
-weight: 4870
+weight: 4880
 url: /aspose.slides/fontsmanager/
 ---
 
@@ -29,7 +29,7 @@ public class FontsManager : IFontsManager
 | [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | Adds the embedded font Keep in mind when copying any fonts that most fonts are copyrighted. First locate the license of a font before hand and verify they can be freely transferred to another machine.An ArgumentException can be thrown if font data is null or this font is already embedded |
 | [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | Adds the embedded font Keep in mind when copying any fonts that most fonts are copyrighted. First locate the license of a font before hand and verify they can be freely transferred to another machine.An ArgumentException can be thrown if font data is null or this font is already embedded |
 | [GetEmbeddedFonts](../../aspose.slides/fontsmanager/getembeddedfonts)() | Returns the fonts embedded in the presentation |
-| [GetFontBytes](../../aspose.slides/fontsmanager/getfontbytes)(IFontData, FontStyle) | Retrieves the byte array representing the font data for a specified font style and font data. |
+| [GetFontBytes](../../aspose.slides/fontsmanager/getfontbytes#getfontbytes)(IFontData, FontStyleType) | Retrieves the byte array representing the font data for a specified font style and font data. |
 | [GetFontEmbeddingLevel](../../aspose.slides/fontsmanager/getfontembeddinglevel)(byte[], string) | Determines the embedding level of a font from the given byte array and font name. |
 | [GetFonts](../../aspose.slides/fontsmanager/getfonts)() | Returns the fonts used in the presentation |
 | [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions)() | Gets the information about fonts that will be replaced on the presentation's rendering. |

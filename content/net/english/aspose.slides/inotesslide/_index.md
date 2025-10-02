@@ -3,7 +3,7 @@ title: INotesSlide
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a notes slide in a presentation.
 type: docs
-weight: 6430
+weight: 6440
 url: /aspose.slides/inotesslide/
 ---
 

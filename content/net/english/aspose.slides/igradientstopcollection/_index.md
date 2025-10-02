@@ -3,7 +3,7 @@ title: IGradientStopCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represnts a collection of gradient stops.
 type: docs
-weight: 5960
+weight: 5970
 url: /aspose.slides/igradientstopcollection/
 ---
 
