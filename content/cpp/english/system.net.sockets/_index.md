@@ -3,7 +3,7 @@ title: "System::Net::Sockets"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 690
+weight: 716
 url: /system.net.sockets/
 ---
 

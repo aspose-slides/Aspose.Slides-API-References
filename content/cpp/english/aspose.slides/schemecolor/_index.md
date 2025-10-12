@@ -3,7 +3,7 @@ title: SchemeColor
 second_title: Aspose.Slides for C++ API Reference
 description: Represents colors in a color scheme.
 type: docs
-weight: 6228
+weight: 6241
 url: /aspose.slides/schemecolor/
 ---
 ## SchemeColor enum

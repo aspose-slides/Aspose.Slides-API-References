@@ -3,7 +3,7 @@ title: Trim()
 second_title: Aspose.Slides for C++ API Reference
 description: Removes all whitespace characters from both beginning and end of the string.
 type: docs
-weight: 638
+weight: 664
 url: /system/string/trim/
 ---
 ## String::Trim() const method

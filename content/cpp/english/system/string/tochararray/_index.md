@@ -3,7 +3,7 @@ title: ToCharArray()
 second_title: Aspose.Slides for C++ API Reference
 description: Converts string or substring to array of characters.
 type: docs
-weight: 469
+weight: 495
 url: /system/string/tochararray/
 ---
 ## String::ToCharArray(int32_t, int32_t) const method

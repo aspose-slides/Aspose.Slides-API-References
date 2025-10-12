@@ -3,7 +3,7 @@ title: StreamWriterPtr
 second_title: Aspose.Slides for C++ API Reference
 description: "An alias for a smart pointer that points to an instance of System::IO::StreamWriter class."
 type: docs
-weight: 3225
+weight: 3303
 url: /system/streamwriterptr/
 ---
 ## StreamWriterPtr typedef

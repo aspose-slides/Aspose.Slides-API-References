@@ -3,7 +3,7 @@ title: LastIndexOfAny()
 second_title: Aspose.Slides for C++ API Reference
 description: Looks for any of passed characters through whole string backwardly. Compares last string character to all characters in anyOf, then compares previous one and so on. Returns index of the first match found.
 type: docs
-weight: 625
+weight: 651
 url: /system/string/lastindexofany/
 ---
 ## String::LastIndexOfAny(const ArrayPtr\<char_t\>\&) const method

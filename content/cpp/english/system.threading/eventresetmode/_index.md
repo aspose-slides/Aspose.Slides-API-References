@@ -3,7 +3,7 @@ title: EventResetMode
 second_title: Aspose.Slides for C++ API Reference
 description: Indicates how event state resets.
 type: docs
-weight: 261
+weight: 313
 url: /system.threading/eventresetmode/
 ---
 ## EventResetMode enum

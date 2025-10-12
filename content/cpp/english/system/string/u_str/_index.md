@@ -3,7 +3,7 @@ title: u_str()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns ICU-styled null-terminated buffer. May reallocate the string.
 type: docs
-weight: 27
+weight: 40
 url: /system/string/u_str/
 ---
 ## String::u_str() const method

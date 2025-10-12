@@ -3,7 +3,7 @@ title: MaterialPresetType
 second_title: Aspose.Slides for C++ API Reference
 description: Constants which define material of shape.
 type: docs
-weight: 6020
+weight: 6033
 url: /aspose.slides/materialpresettype/
 ---
 ## MaterialPresetType enum

@@ -20,6 +20,7 @@ class SlideImageFormat : public Aspose::Slides::Export::ISlideImageFormat
 | Method | Description |
 | --- | --- |
 | static [System::SharedPtr](../../system/sharedptr/)\<[SlideImageFormat](./)\> [Bitmap](./bitmap/)(**float**, [System::SharedPtr](../../system/sharedptr/)\<[System::Drawing::Imaging::ImageFormat](../../system.drawing.imaging/imageformat/)\>) | [Slides](../../aspose.slides/) should be converted to a raster image. |
+| static [System::SharedPtr](../../system/sharedptr/)\<[SlideImageFormat](./)\> [Bitmap](./bitmap/)(**float**, [Aspose::Slides::ImageFormat](../../aspose.slides/imageformat/)) | [Slides](../../aspose.slides/) should be converted to a raster image. |
 | virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | Compares objects using C# [Object.Equals](../../system/object/equals/) semantics. |
 | static std::enable_if\<[IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Compares reference type objects in C# style. |
 | static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&\![IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Compares value type objects in C# style. |

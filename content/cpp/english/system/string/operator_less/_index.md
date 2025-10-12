@@ -3,7 +3,7 @@ title: operator<()
 second_title: Aspose.Slides for C++ API Reference
 description: Order-compares strings.
 type: docs
-weight: 313
+weight: 326
 url: /system/string/operator_less/
 ---
 ## String::operator<(const String\&) const method

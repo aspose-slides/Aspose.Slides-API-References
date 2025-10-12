@@ -3,7 +3,7 @@ title: wait_handle_t
 second_title: Aspose.Slides for C++ API Reference
 description: Handle type.
 type: docs
-weight: 417
+weight: 469
 url: /system.threading/wait_handle_t/
 ---
 ## wait_handle_t typedef

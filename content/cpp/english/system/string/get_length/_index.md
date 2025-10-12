@@ -3,7 +3,7 @@ title: get_Length()
 second_title: Aspose.Slides for C++ API Reference
 description: Gets string length.
 type: docs
-weight: 209
+weight: 222
 url: /system/string/get_length/
 ---
 ## String::get_Length() const method

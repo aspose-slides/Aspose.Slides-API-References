@@ -3,7 +3,7 @@ title: Read()
 second_title: Aspose.Slides for C++ API Reference
 description: Reads the specified number of bytes from the stream and writes them to the specified byte array.
 type: docs
-weight: 170
+weight: 183
 url: /system.io/filestream/read/
 ---
 ## FileStream::Read(const ArrayPtr\<uint8_t\>\&, int32_t, int32_t) method

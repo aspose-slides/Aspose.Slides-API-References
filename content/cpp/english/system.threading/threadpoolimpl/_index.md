@@ -3,7 +3,7 @@ title: ThreadPoolImpl
 second_title: Aspose.Slides for C++ API Reference
 description: Thread pool internal data. This is a singleton type with memory management done by access function(s). You should never create instances of it directly.
 type: docs
-weight: 183
+weight: 235
 url: /system.threading/threadpoolimpl/
 ---
 ## ThreadPoolImpl class

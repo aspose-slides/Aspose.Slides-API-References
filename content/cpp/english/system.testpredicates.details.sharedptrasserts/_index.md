@@ -3,7 +3,7 @@ title: "System::TestPredicates::Details::SharedPtrAsserts"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 898
+weight: 924
 url: /system.testpredicates.details.sharedptrasserts/
 ---
 

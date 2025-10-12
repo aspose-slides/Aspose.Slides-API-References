@@ -3,7 +3,7 @@ title: IsNormalized()
 second_title: Aspose.Slides for C++ API Reference
 description: Checks if unicode string is normalized using normalization form specified.
 type: docs
-weight: 430
+weight: 456
 url: /system/string/isnormalized/
 ---
 ## String::IsNormalized(System::Text::NormalizationForm) const method

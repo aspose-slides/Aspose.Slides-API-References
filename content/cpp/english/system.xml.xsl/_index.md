@@ -3,7 +3,7 @@ title: "System::Xml::Xsl"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 1119
+weight: 1158
 url: /system.xml.xsl/
 ---
 

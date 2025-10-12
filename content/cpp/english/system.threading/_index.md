@@ -3,7 +3,7 @@ title: "System::Threading"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 950
+weight: 976
 url: /system.threading/
 ---
 
@@ -14,6 +14,9 @@ url: /system.threading/
 | Class | Description |
 | --- | --- |
 | [AutoResetEvent](./autoresetevent/) | Event to notify waiting thread that resets automatically. Objects of this class should only be allocated using [System::MakeObject()](../system/makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](../system/smartptr/) pointer and use this pointer to pass it to functions as argument. |
+| [CancellationToken](./cancellationtoken/) | Propagates notification that operations should be canceled. This class provides a mechanism for cooperative cancellation between threads, allowing one thread to notify others that an operation should be canceled. |
+| [CancellationTokenRegistration](./cancellationtokenregistration/) | Represents a registration for a cancellation token callback. |
+| [CancellationTokenSource](./cancellationtokensource/) | A cancellation token source that can be used to trigger cancellation notifications. |
 | [Details_SemaphoreFullException](./details_semaphorefullexception/) |  |
 | [Details_SynchronizationLockException](./details_synchronizationlockexception/) |  |
 | [Details_ThreadAbortException](./details_threadabortexception/) |  |
@@ -25,6 +28,7 @@ url: /system.threading/
 | [Monitor](./monitor/) | Class [Monitor](./monitor/) provides a mechanism that synchronizes access to objects. |
 | [Mutex](./mutex/) | [Mutex](./mutex/) implemnetation. Objects of this class should only be allocated using [System::MakeObject()](../system/makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](../system/smartptr/) pointer and use this pointer to pass it to functions as argument. |
 | [Semaphore](./semaphore/) | [Semaphore](./semaphore/) implementation. Objects of this class should only be allocated using [System::MakeObject()](../system/makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](../system/smartptr/) pointer and use this pointer to pass it to functions as argument. |
+| [SynchronizationContext](./synchronizationcontext/) | Provides the basic functionality for propagating a synchronization context across various synchronization operations. |
 | [Thread](./thread/) | [Thread](./thread/) implementation. Objects of this class should only be allocated using [System::MakeObject()](../system/makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](../system/smartptr/) pointer and use this pointer to pass it to functions as argument. |
 | [ThreadPool](./threadpool/) | [Thread](./thread/) pool API allowing it pushing jobs into queue to be read by pool of worker threads. This is a static type with no instance services. You should never create instances of it by any means. |
 | [ThreadPoolImpl](./threadpoolimpl/) | [Thread](./thread/) pool internal data. This is a singleton type with memory management done by access function(s). You should never create instances of it directly. |

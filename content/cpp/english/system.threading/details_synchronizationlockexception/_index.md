@@ -3,7 +3,7 @@ title: Details_SynchronizationLockException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 27
+weight: 66
 url: /system.threading/details_synchronizationlockexception/
 ---
 ## Details_SynchronizationLockException class

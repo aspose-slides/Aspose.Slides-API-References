@@ -3,7 +3,7 @@ title: ExplicitCast()
 second_title: Aspose.Slides for C++ API Reference
 description: Casts the source type to the result type using explicit cast. Used when the source and the result types are the same.
 type: docs
-weight: 2341
+weight: 2393
 url: /system/explicitcast/
 ---
 ## System::ExplicitCast(const Source\&) function
@@ -306,6 +306,60 @@ The cast result.
 ## System::ExplicitCast(const Source\&) function
 
 
+Casts the source type to the result type using explicit cast. Used for copying value types to heap when value type should be referenced as smart pointer (in generics constrained with interface type but specialized with structure implementing this interface).
+
+```cpp
+template<typename Result,typename Source> std::enable_if_t<Details::CastType<Source, Result>::HeapifyBoxing, typename CastResult<Result>::type> System::ExplicitCast(const Source &value)
+```
+
+
+### Template parameters
+
+| Parameter | Description |
+| --- | --- |
+| Source | The source type. |
+| Result | The result type. |
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | const Source\& | [Object](../object/) to cast. |
+
+### Return Value
+
+The cast result.
+
+## System::ExplicitCast(const Source\&) function
+
+
+Casts the source type to the result type using explicit cast. Used for getting interfaces from value types.
+
+```cpp
+template<typename Result,typename Source> std::enable_if_t<Details::CastType<Source, Result>::InterfaceBoxing, typename CastResult<Result>::type> System::ExplicitCast(const Source &value)
+```
+
+
+### Template parameters
+
+| Parameter | Description |
+| --- | --- |
+| Source | The source type. |
+| Result | The result type. |
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | const Source\& | [Object](../object/) to cast. |
+
+### Return Value
+
+The cast result.
+
+## System::ExplicitCast(const Source\&) function
+
+
 Casts the source type to the result type using explicit cast. Used for common boxing.
 
 ```cpp
@@ -337,6 +391,33 @@ Casts the source type to the result type using explicit cast. Used for [System::
 
 ```cpp
 template<typename Result,typename Source> std::enable_if_t<Details::CastType<Source, Result>::StringBoxing, typename CastResult<Result>::type> System::ExplicitCast(const Source &value)
+```
+
+
+### Template parameters
+
+| Parameter | Description |
+| --- | --- |
+| Source | The source type. |
+| Result | The result type. |
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | const Source\& | [Object](../object/) to cast. |
+
+### Return Value
+
+The cast result.
+
+## System::ExplicitCast(const Source\&) function
+
+
+Casts the source type to the result type using explicit cast. Used for unboxing interfaces.
+
+```cpp
+template<typename Result,typename Source> std::enable_if_t<Details::CastType<Source, Result>::InterfaceUnboxing, Result> System::ExplicitCast(const Source &value)
 ```
 
 

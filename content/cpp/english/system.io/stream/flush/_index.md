@@ -3,7 +3,7 @@ title: Flush()
 second_title: Aspose.Slides for C++ API Reference
 description: Clears this stream's buffers and writes all buffered data to the underlying storage.
 type: docs
-weight: 79
+weight: 105
 url: /system.io/stream/flush/
 ---
 ## Stream::Flush() method

@@ -3,7 +3,7 @@ title: WaitCallback
 second_title: Aspose.Slides for C++ API Reference
 description: Callback item to be executed once there is a spot.
 type: docs
-weight: 391
+weight: 443
 url: /system.threading/waitcallback/
 ---
 ## WaitCallback typedef

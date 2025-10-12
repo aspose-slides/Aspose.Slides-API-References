@@ -3,7 +3,7 @@ title: get_pointer()
 second_title: Aspose.Slides for C++ API Reference
 description: Gets referenced object of smart pointer.
 type: docs
-weight: 2692
+weight: 2744
 url: /system/get_pointer/
 ---
 ## System::get_pointer(System::SmartPtr\<T\> const\&) function

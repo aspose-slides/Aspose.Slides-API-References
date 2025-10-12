@@ -3,7 +3,7 @@ title: operator!=()
 second_title: Aspose.Slides for C++ API Reference
 description: Non-equality comparison operator.
 type: docs
-weight: 300
+weight: 313
 url: /system/string/operator_not_equal/
 ---
 ## String::operator!=(const String\&) const method

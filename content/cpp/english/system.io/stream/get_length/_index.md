@@ -3,7 +3,7 @@ title: get_Length()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns the length of the stream in bytes.
 type: docs
-weight: 209
+weight: 248
 url: /system.io/stream/get_length/
 ---
 ## Stream::get_Length() const method

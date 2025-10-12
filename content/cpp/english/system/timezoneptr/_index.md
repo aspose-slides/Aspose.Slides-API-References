@@ -3,7 +3,7 @@ title: TimeZonePtr
 second_title: Aspose.Slides for C++ API Reference
 description: Shared pointer to an instance of TimeZone class.
 type: docs
-weight: 3901
+weight: 4018
 url: /system/timezoneptr/
 ---
 ## TimeZonePtr typedef

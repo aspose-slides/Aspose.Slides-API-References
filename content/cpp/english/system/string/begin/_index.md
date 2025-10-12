@@ -3,7 +3,7 @@ title: begin()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns pointer to the beginning of actual string buffer. Never reallocates anything. Doesn't guarantee buffer to be null-terminated.
 type: docs
-weight: 40
+weight: 53
 url: /system/string/begin/
 ---
 ## String::begin() const method

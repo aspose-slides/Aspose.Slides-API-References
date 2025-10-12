@@ -3,7 +3,7 @@ title: EndWrite()
 second_title: Aspose.Slides for C++ API Reference
 description: Ends an asynchronous write operation. Waits until the specified asynchronous write operation completes.
 type: docs
-weight: 157
+weight: 196
 url: /system.io/stream/endwrite/
 ---
 ## Stream::EndWrite(System::SharedPtr\<System::IAsyncResult\>) method

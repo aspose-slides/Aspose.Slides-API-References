@@ -3,7 +3,7 @@ title: ITuple
 second_title: Aspose.Slides for C++ API Reference
 description: Defines a general-purpose Tuple implementation that allows access to Tuple instance members without knowing the underlying Tuple type.
 type: docs
-weight: 1
+weight: 53
 url: /system.runtime.compilerservices/ituple/
 ---
 ## ITuple class

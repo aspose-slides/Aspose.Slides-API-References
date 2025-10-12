@@ -3,7 +3,7 @@ title: ToAsciiString()
 second_title: Aspose.Slides for C++ API Reference
 description: "Converts string to std::string. Uses ASCII encoding."
 type: docs
-weight: 183
+weight: 196
 url: /system/string/toasciistring/
 ---
 ## String::ToAsciiString() const method

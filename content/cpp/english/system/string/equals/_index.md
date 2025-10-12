@@ -3,7 +3,7 @@ title: Equals()
 second_title: Aspose.Slides for C++ API Reference
 description: String equality comparison. Several modes provided by StringComparison enumeration are supported.
 type: docs
-weight: 365
+weight: 391
 url: /system/string/equals/
 ---
 ## String::Equals(const String\&, System::StringComparison) const method

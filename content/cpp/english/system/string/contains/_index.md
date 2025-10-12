@@ -3,7 +3,7 @@ title: Contains()
 second_title: Aspose.Slides for C++ API Reference
 description: Checks if str is a substring of current string.
 type: docs
-weight: 378
+weight: 404
 url: /system/string/contains/
 ---
 ## String::Contains(const String\&) const method

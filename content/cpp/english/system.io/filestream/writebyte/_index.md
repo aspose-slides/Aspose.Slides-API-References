@@ -3,7 +3,7 @@ title: WriteByte()
 second_title: Aspose.Slides for C++ API Reference
 description: Writes the specified unsigned 8-bit integer value to the stream.
 type: docs
-weight: 209
+weight: 235
 url: /system.io/filestream/writebyte/
 ---
 ## FileStream::WriteByte(uint8_t) method

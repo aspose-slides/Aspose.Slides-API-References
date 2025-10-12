@@ -3,7 +3,7 @@ title: Join()
 second_title: Aspose.Slides for C++ API Reference
 description: Joins array using string as separator.
 type: docs
-weight: 807
+weight: 833
 url: /system/string/join/
 ---
 ## String::Join(const String\&, const ArrayPtr\<String\>\&, int, int) method

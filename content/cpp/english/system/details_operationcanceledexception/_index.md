@@ -1,7 +1,7 @@
 ---
 title: Details_OperationCanceledException
 second_title: Aspose.Slides for C++ API Reference
-description: "OperationCanceledException is thrown in a thread upon cancellation of an operation that the thread was executing. CancellationToken member is not implemented. Never create instances of this class manually. Use the OperationCanceledException class instead. Never wrap the OperationCanceledException class instances into System::SmartPtr."
+description: "OperationCanceledException is thrown in a thread upon cancellation of an operation that the thread was executing. Never create instances of this class manually. Use the OperationCanceledException class instead. Never wrap the OperationCanceledException class instances into System::SmartPtr."
 type: docs
 weight: 586
 url: /system/details_operationcanceledexception/
@@ -9,7 +9,7 @@ url: /system/details_operationcanceledexception/
 ## Details_OperationCanceledException class
 
 
-OperationCanceledException is thrown in a thread upon cancellation of an operation that the thread was executing. CancellationToken member is not implemented. Never create instances of this class manually. Use the OperationCanceledException class instead. Never wrap the OperationCanceledException class instances into [System::SmartPtr](../smartptr/).
+OperationCanceledException is thrown in a thread upon cancellation of an operation that the thread was executing. Never create instances of this class manually. Use the OperationCanceledException class instead. Never wrap the OperationCanceledException class instances into [System::SmartPtr](../smartptr/).
 
 ```cpp
 class Details_OperationCanceledException : public System::Details_SystemException

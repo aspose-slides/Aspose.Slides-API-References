@@ -3,7 +3,7 @@ title: SetLength()
 second_title: Aspose.Slides for C++ API Reference
 description: Sets the length of the stream represented by the current object.
 type: docs
-weight: 196
+weight: 222
 url: /system.io/filestream/setlength/
 ---
 ## FileStream::SetLength(int64_t) method

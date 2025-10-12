@@ -3,7 +3,7 @@ title: Insert()
 second_title: Aspose.Slides for C++ API Reference
 description: Inserts substring at specified position.
 type: docs
-weight: 716
+weight: 742
 url: /system/string/insert/
 ---
 ## String::Insert(int, const String\&) const method

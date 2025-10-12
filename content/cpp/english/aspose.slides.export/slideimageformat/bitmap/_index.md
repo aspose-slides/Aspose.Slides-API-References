@@ -27,8 +27,33 @@ static System::SharedPtr<SlideImageFormat> Aspose::Slides::Export::SlideImageFor
 
 
 
+Deprecated
+:   Use Bitmap(float scale, [Slides.ImageFormat](../../../aspose.slides/imageformat/) imageFormat) method instead. This method will be removed after release of version 25.10.
+
+## SlideImageFormat::Bitmap(float, Aspose::Slides::ImageFormat) method
+
+
+[Slides](../../../aspose.slides/) should be converted to a raster image.
+
+```cpp
+static System::SharedPtr<SlideImageFormat> Aspose::Slides::Export::SlideImageFormat::Bitmap(float scale, Aspose::Slides::ImageFormat imageFormat)
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| scale | **float** | The factor by which to scale the output image. |
+| imageFormat | [Aspose::Slides::ImageFormat](../../../aspose.slides/imageformat/) | The format of the resulting image (e.g., PNG, JPEG). |
+
+### Return Value
+
+
+
 ## See Also
 
+* Enum [ImageFormat](../../../aspose.slides/imageformat/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [SlideImageFormat](../)
 * Class [ImageFormat](../../../system.drawing.imaging/imageformat/)

@@ -3,7 +3,7 @@ title: Details_ThreadAbortException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 40
+weight: 79
 url: /system.threading/details_threadabortexception/
 ---
 ## Details_ThreadAbortException class

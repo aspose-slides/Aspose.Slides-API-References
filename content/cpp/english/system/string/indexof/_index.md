@@ -3,7 +3,7 @@ title: IndexOf()
 second_title: Aspose.Slides for C++ API Reference
 description: Substring forward lookup.
 type: docs
-weight: 586
+weight: 612
 url: /system/string/indexof/
 ---
 ## String::IndexOf(const String\&, System::StringComparison) const method

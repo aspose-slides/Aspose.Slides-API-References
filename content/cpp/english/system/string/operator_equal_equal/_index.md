@@ -3,7 +3,7 @@ title: operator==()
 second_title: Aspose.Slides for C++ API Reference
 description: Equality comparison operator.
 type: docs
-weight: 287
+weight: 300
 url: /system/string/operator_equal_equal/
 ---
 ## String::operator==(const String\&) const method

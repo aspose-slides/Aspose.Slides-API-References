@@ -1,0 +1,39 @@
+---
+title: WriteAsync()
+second_title: Aspose.Slides for C++ API Reference
+description: Asynchronously writes a sequence of bytes to the current stream, advances the current position within this stream by the number of bytes written, and monitors cancellation requests.
+type: docs
+weight: 261
+url: /system.io/filestream/writeasync/
+---
+## FileStream::WriteAsync(const ArrayPtr\<uint8_t\>\&, int32_t, int32_t, const Threading::CancellationToken\&) method
+
+
+Asynchronously writes a sequence of bytes to the current stream, advances the current position within this stream by the number of bytes written, and monitors cancellation requests.
+
+```cpp
+TaskPtr System::IO::FileStream::WriteAsync(const ArrayPtr<uint8_t> &buffer, int32_t offset, int32_t count, const Threading::CancellationToken &cancellationToken) override
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| buffer | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | The array containing the bytes to write. |
+| offset | **int32_t** | A 0-based index of the elemnet in **buffer** at which the subrange to write begins. |
+| count | **int32_t** | The number of elements in the subrange to write. |
+| cancellationToken | const [Threading::CancellationToken](../../../system.threading/cancellationtoken/)\& | The token to monitor for cancellation requests. |
+
+### Return Value
+
+A task that represents the asynchronous write operation.
+
+## See Also
+
+* Typedef [TaskPtr](../../../system/taskptr/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
+* Class [CancellationToken](../../../system.threading/cancellationtoken/)
+* Class [FileStream](../)
+* Namespace [System::IO](../../)
+* Library [Aspose.Slides](../../../)

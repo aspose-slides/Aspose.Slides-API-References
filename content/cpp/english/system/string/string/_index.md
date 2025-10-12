@@ -3,7 +3,7 @@ title: String()
 second_title: Aspose.Slides for C++ API Reference
 description: Default constructor. Creates string object which is considered null.
 type: docs
-weight: 1
+weight: 14
 url: /system/string/string/
 ---
 ## String::String() constructor

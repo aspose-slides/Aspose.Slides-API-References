@@ -3,7 +3,7 @@ title: TimerCallback
 second_title: Aspose.Slides for C++ API Reference
 description: Callback function to be called by timer.
 type: docs
-weight: 404
+weight: 456
 url: /system.threading/timercallback/
 ---
 ## TimerCallback typedef

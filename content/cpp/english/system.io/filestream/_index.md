@@ -35,9 +35,12 @@ class FileStream : public System::IO::Stream
 | virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
 |  [FileStream](./filestream/)(const [String](../../system/string/)\&, [FileMode](../filemode/)) | Constructs a new instance of [FileStream](./) class and initializes it with the specified parameters. |
 |  [FileStream](./filestream/)(const [String](../../system/string/)\&, [FileMode](../filemode/), [FileAccess](../fileaccess/), [FileShare](../fileshare/), **int32_t**, [FileOptions](../fileoptions/)) | Constructs a new instance of [FileStream](./) class and initializes it with the specified parameters. |
+|  [FileStream](./filestream/)(const [String](../../system/string/)\&, [FileMode](../filemode/), [FileAccess](../fileaccess/), [FileShare](../fileshare/), **int32_t**, **bool**) | Constructs a new instance of [FileStream](./) class and initializes it with the specified parameters. |
 |  [FileStream](./filestream/)(const [FileStream](./)\&) |  |
 | void [Flush](./flush/)() override | Clears this stream's buffers and writes all buffered data to the underlying file. |
 | void [Flush](./flush/)(**bool**) | Clears this stream's buffers and writes all buffered data to the underlying file. Synonym for method [Flush()](./flush/). |
+| [TaskPtr](../../system/taskptr/) [FlushAsync](./flushasync/)(const [Threading::CancellationToken](../../system.threading/cancellationtoken/)\&) override | Asynchronously clears all buffers for this stream, causes any buffered data to be written to the underlying device, and monitors cancellation requests. |
+| [TaskPtr](../../system/taskptr/) [FlushAsync](../stream/flushasync/)() | Asynchronously clears all buffers for this stream, causes any buffered data to be written to the underlying device, and monitors cancellation requests. |
 | **bool** [get_CanRead](./get_canread/)() const override | Determines if the stream is readable. |
 | **bool** [get_CanSeek](./get_canseek/)() const override | Determines if the stream supports seeking. |
 | virtual **bool** [get_CanTimeout](../stream/get_cantimeout/)() const | Gets a value that determines whether the current stream can time out. |
@@ -60,6 +63,8 @@ class FileStream : public System::IO::Stream
 | **int32_t** [Read](./read/)(const [ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>\&, **int32_t**, **int32_t**) override | Reads the specified number of bytes from the stream and writes them to the specified byte array. |
 | **int32_t** [Read](./read/)(const System::Details::ArrayView\<**uint8_t**\>\&, **int32_t**, **int32_t**) override | Reads the specified number of bytes from the stream and writes them to the specified byte array. |
 | **int32_t** [Read](../stream/read/)(const System::Details::StackArray\<**uint8_t**, N\>\&, **int32_t**, **int32_t**) | Reads the specified number of bytes from the stream and writes them to the specified byte array. |
+| [RTaskPtr](../../system/rtaskptr/)\<**int32_t**\> [ReadAsync](./readasync/)(const [ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>\&, **int32_t**, **int32_t**, const [Threading::CancellationToken](../../system.threading/cancellationtoken/)\&) override | Asynchronously reads a sequence of bytes from the current stream, advances the position within the stream by the number of bytes read, and monitors cancellation requests. |
+| [RTaskPtr](../../system/rtaskptr/)\<**int32_t**\> [ReadAsync](../stream/readasync/)(const [ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>\&, **int32_t**, **int32_t**) | Asynchronously reads a sequence of bytes from the current stream, advances the position within the stream by the number of bytes read, and monitors cancellation requests. |
 | **int32_t** [ReadByte](./readbyte/)() override | Reads a single byte from the stream and returns a 32-bit integer value equivalent to the value of the read byte. |
 | static **bool** [ReferenceEquals](../../system/object/referenceequals/)([ptr](../../system/object/ptr/) const\&, [ptr](../../system/object/ptr/) const\&) | Compares objects by reference. |
 | static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, T const\&) | Compares objects by reference. |
@@ -84,6 +89,8 @@ class FileStream : public System::IO::Stream
 | void [Write](./write/)(const [ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>\&, **int32_t**, **int32_t**) override | Writes the specified subrange of bytes from the specified byte array to the stream. |
 | void [Write](./write/)(const System::Details::ArrayView\<**uint8_t**\>\&, **int32_t**, **int32_t**) override | Writes the specified subrange of bytes from the specified byte array to the stream. |
 | void [Write](../stream/write/)(const System::Details::StackArray\<**uint8_t**, N\>\&, **int32_t**, **int32_t**) | Writes the specified subrange of bytes from the specified byte array to the stream. |
+| [TaskPtr](../../system/taskptr/) [WriteAsync](./writeasync/)(const [ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>\&, **int32_t**, **int32_t**, const [Threading::CancellationToken](../../system.threading/cancellationtoken/)\&) override | Asynchronously writes a sequence of bytes to the current stream, advances the current position within this stream by the number of bytes written, and monitors cancellation requests. |
+| [TaskPtr](../../system/taskptr/) [WriteAsync](../stream/writeasync/)(const [ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>\&, **int32_t**, **int32_t**) | Asynchronously writes a sequence of bytes to the current stream, advances the current position within this stream by the number of bytes written, and monitors cancellation requests. |
 | void [WriteByte](./writebyte/)(**uint8_t**) override | Writes the specified unsigned 8-bit integer value to the stream. |
 |  [~FileStream](./~filestream/)() | Destructor. |
 | virtual  [~Object](../../system/object/~object/)() | Destroys object. Frees all internal data structures. |

@@ -3,7 +3,7 @@ title: PathFillModeType
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the manner in which a path should be filled
 type: docs
-weight: 6098
+weight: 6111
 url: /aspose.slides/pathfillmodetype/
 ---
 ## PathFillModeType enum

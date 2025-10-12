@@ -3,7 +3,7 @@ title: FromAscii()
 second_title: Aspose.Slides for C++ API Reference
 description: Creates String from ASCII string.
 type: docs
-weight: 911
+weight: 937
 url: /system/string/fromascii/
 ---
 ## String::FromAscii(const char *) method

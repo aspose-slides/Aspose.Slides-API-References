@@ -3,7 +3,7 @@ title: Ptr
 second_title: Aspose.Slides for C++ API Reference
 description: An alias for a shared pointer to this class.
 type: docs
-weight: 339
+weight: 378
 url: /system.io/stream/ptr/
 ---
 ## Ptr typedef

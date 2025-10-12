@@ -3,7 +3,7 @@ title: operator+=()
 second_title: Aspose.Slides for C++ API Reference
 description: Concatenation assignment operator.
 type: docs
-weight: 274
+weight: 287
 url: /system/string/operator_plus_equal/
 ---
 ## String::operator+=(char_t) method

@@ -3,7 +3,7 @@ title: Replace()
 second_title: Aspose.Slides for C++ API Reference
 description: Replaces all occurrences of character in the string.
 type: docs
-weight: 703
+weight: 729
 url: /system/string/replace/
 ---
 ## String::Replace(char_t, char_t) const method

@@ -3,7 +3,7 @@ title: Is()
 second_title: Aspose.Slides for C++ API Reference
 description: Checks if string object is of type specified by TypeInfo passed.
 type: docs
-weight: 573
+weight: 599
 url: /system/string/is/
 ---
 ## String::Is(const System::TypeInfo\&) const method

@@ -242,6 +242,33 @@ template<class T> static std::enable_if<System::IsBoxable<T>::value &&!IsNullabl
 
 True if 'is' returns true, false otherwise.
 
+## ObjectExt::Is(const SmartPtr\<V\>\&) method
+
+
+Implements 'is' operator translation. Specialization value types boxed to interfaces.
+
+```cpp
+template<class T,class V> static std::enable_if<System::IsBoxable<T>::value &&!IsNullable<T>::value &&!std::is_enum<T>::value &&!std::is_same<V, Object>::value, bool>::type System::ObjectExt::Is(const SmartPtr<V> &obj)
+```
+
+
+### Template parameters
+
+| Parameter | Description |
+| --- | --- |
+| T | Target type. |
+| V | Type of the pointed object. |
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | const [SmartPtr](../../smartptr/)\<V\>\& | [Object](../../object/) to test for 'is' operator. |
+
+### Return Value
+
+True if 'is' returns true, false otherwise.
+
 ## ObjectExt::Is(const SmartPtr\<U\>\&) method
 
 

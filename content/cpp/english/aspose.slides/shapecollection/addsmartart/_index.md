@@ -28,14 +28,14 @@ System::SharedPtr<SmartArt::ISmartArt> Aspose::Slides::ShapeCollection::AddSmart
 
 ### Return Value
 
-The newly created [ISmartArt](../).
+The newly created [SmartArt::ISmartArt](../../../aspose.slides.smartart/ismartart/).
 ## Remarks
 
 
 
 ```cpp
 auto pres = System::MakeObject<Presentation>();
-auto slide = pres->get_Slides()->idx_get(0);
+auto slide = pres->get_Slide(0);
 auto smart = slide->get_Shapes()->AddSmartArt(0.0f, 0.0f, 400.0f, 400.0f, SmartArtLayoutType::BasicBlockList);
 ```
 

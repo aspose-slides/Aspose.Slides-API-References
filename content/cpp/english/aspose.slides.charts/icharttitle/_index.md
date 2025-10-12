@@ -13,7 +13,8 @@ Represents chart title properties.
 
 ```cpp
 class IChartTitle : public Aspose::Slides::Charts::ILayoutable,
-                    public Aspose::Slides::Charts::IOverridableText
+                    public Aspose::Slides::Charts::IOverridableText,
+                    public Aspose::Slides::Charts::IActualLayout
 ```
 
 ## Methods
@@ -27,6 +28,10 @@ class IChartTitle : public Aspose::Slides::Charts::ILayoutable,
 | static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
+| virtual **float** [get_ActualHeight](../iactuallayout/get_actualheight/)() | Specifies actual height of the chart element. Call method [IChart::ValidateChartLayout](../ichart/validatechartlayout/) before to get actual values. Read **float**. |
+| virtual **float** [get_ActualWidth](../iactuallayout/get_actualwidth/)() | Specifies actual width of the chart element. Call method [IChart::ValidateChartLayout](../ichart/validatechartlayout/) before to get actual values. Read **float**. |
+| virtual **float** [get_ActualX](../iactuallayout/get_actualx/)() | Specifies actual x location (left) of the chart element relative to the left top corner of the chart. Call method [IChart::ValidateChartLayout](../ichart/validatechartlayout/) before to get actual values. Read **float**. |
+| virtual **float** [get_ActualY](../iactuallayout/get_actualy/)() | Specifies actual top of the chart element relative to the left top corner of the chart. Call method [IChart::ValidateChartLayout](../ichart/validatechartlayout/) before to get actual values. Read **float**. |
 | virtual **float** [get_Bottom](../ilayoutable/get_bottom/)() | Gets the top of the chart element as a fraction of the height of the chart. Read-only **float**. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IChart](../ichart/)\> [get_Chart](../ichartcomponent/get_chart/)() | Returns the chart. Read-only [IChart](../ichart/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IFormat](../iformat/)\> [get_Format](./get_format/)() | Returns the fill, line, effect styles of a title. Read-only [IFormat](../iformat/). |
@@ -74,5 +79,6 @@ class IChartTitle : public Aspose::Slides::Charts::ILayoutable,
 
 * Class [ILayoutable](../ilayoutable/)
 * Class [IOverridableText](../ioverridabletext/)
+* Class [IActualLayout](../iactuallayout/)
 * Namespace [Aspose::Slides::Charts](../)
 * Library [Aspose.Slides](../../)

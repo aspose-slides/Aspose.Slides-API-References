@@ -3,7 +3,7 @@ title: IsEmpty()
 second_title: Aspose.Slides for C++ API Reference
 description: Checks if string is both non-null and empty.
 type: docs
-weight: 118
+weight: 131
 url: /system/string/isempty/
 ---
 ## String::IsEmpty() const method

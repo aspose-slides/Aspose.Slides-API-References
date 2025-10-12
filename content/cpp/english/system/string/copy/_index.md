@@ -3,7 +3,7 @@ title: Copy()
 second_title: Aspose.Slides for C++ API Reference
 description: Creates string copy.
 type: docs
-weight: 833
+weight: 859
 url: /system/string/copy/
 ---
 ## String::Copy(const String\&) method

@@ -3,7 +3,7 @@ title: StartsWith()
 second_title: Aspose.Slides for C++ API Reference
 description: Checks if string begins with specified substring.
 type: docs
-weight: 443
+weight: 469
 url: /system/string/startswith/
 ---
 ## String::StartsWith(const String\&) const method

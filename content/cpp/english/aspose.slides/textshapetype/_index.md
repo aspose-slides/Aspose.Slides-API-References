@@ -3,7 +3,7 @@ title: TextShapeType
 second_title: Aspose.Slides for C++ API Reference
 description: Represents text wrapping shape.
 type: docs
-weight: 6501
+weight: 6514
 url: /aspose.slides/textshapetype/
 ---
 ## TextShapeType enum

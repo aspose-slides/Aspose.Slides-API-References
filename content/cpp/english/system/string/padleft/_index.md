@@ -3,7 +3,7 @@ title: PadLeft()
 second_title: Aspose.Slides for C++ API Reference
 description: Adds padding on the left of original string.
 type: docs
-weight: 677
+weight: 703
 url: /system/string/padleft/
 ---
 ## String::PadLeft(int, char_t) const method

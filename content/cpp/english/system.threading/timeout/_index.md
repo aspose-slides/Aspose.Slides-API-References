@@ -3,7 +3,7 @@ title: Timeout
 second_title: Aspose.Slides for C++ API Reference
 description: Threading timeout special values. This is a static type with no instance services. You should never create instances of it by any means.
 type: docs
-weight: 235
+weight: 287
 url: /system.threading/timeout/
 ---
 ## Timeout struct

@@ -3,7 +3,7 @@ title: get_Audio()
 second_title: Aspose.Slides for C++ API Reference
 description: "Return embedded audio file in the presentation at the specified index. Read-only Aspose::Slides::IAudio"
 type: docs
-weight: 638
+weight: 651
 url: /aspose.slides/presentation/get_audio/
 ---
 ## Presentation::get_Audio(int32_t) method
