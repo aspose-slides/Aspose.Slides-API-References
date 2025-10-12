@@ -457,6 +457,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`FillType`](/slides/python-net/aspose.slides/filltype/) | Specifies the interior fill type of various visual objects. |
 | [`FontAlignment`](/slides/python-net/aspose.slides/fontalignment/) | Represents vertical font alignment. |
 | [`FontCollectionIndex`](/slides/python-net/aspose.slides/fontcollectionindex/) | Represents font's index in a collection. |
+| [`FontStyleType`](/slides/python-net/aspose.slides/fontstyletype/) | Defines formatting styles that can be applied to text. |
 | [`FontSubstCondition`](/slides/python-net/aspose.slides/fontsubstcondition/) | Represents a rule fot font substitution |
 | [`GradientDirection`](/slides/python-net/aspose.slides/gradientdirection/) | Represents the gradient style. |
 | [`GradientShape`](/slides/python-net/aspose.slides/gradientshape/) | Represents the shape of gradient fill. |
