@@ -29,11 +29,12 @@ The FontsManager type exposes the following members:
 | [`replace_font`](/slides/python-net/aspose.slides/fontsmanager/replace_font/#ifontdata-ifontdata) | Replace font in presentation |
 | [`replace_font`](/slides/python-net/aspose.slides/fontsmanager/replace_font/#ifontsubstrule) | Replace font in presentation using information provided in [`FontSubstRule`](/slides/python-net/aspose.slides/fontsubstrule) |
 | [`replace_font`](/slides/python-net/aspose.slides/fontsmanager/replace_font/#ifontsubstrulecollection) | Replace font in presentation using information provided in collection of [`FontSubstRule`](/slides/python-net/aspose.slides/fontsubstrule) |
+| [`get_font_bytes`](/slides/python-net/aspose.slides/fontsmanager/get_font_bytes/#ifontdata-fontstyletype) | Retrieves the byte array representing the font data for a specified font style and font data. |
+| [`get_font_bytes`](/slides/python-net/aspose.slides/fontsmanager/get_font_bytes/#ifontdata-asposepydrawingfontstyle) | Retrieves the byte array representing the font data for a specified font style and font data. |
 | [`get_fonts`](/slides/python-net/aspose.slides/fontsmanager/get_fonts/#) | Returns the fonts used in the presentation |
 | [`get_substitutions`](/slides/python-net/aspose.slides/fontsmanager/get_substitutions/#) | Gets the information about fonts that will be replaced on the presentation's rendering. |
 | [`get_embedded_fonts`](/slides/python-net/aspose.slides/fontsmanager/get_embedded_fonts/#) | Returns the fonts embedded in the presentation |
 | [`remove_embedded_font`](/slides/python-net/aspose.slides/fontsmanager/remove_embedded_font/#ifontdata) | Removes the embedded font |
-| [`get_font_bytes`](/slides/python-net/aspose.slides/fontsmanager/get_font_bytes/#ifontdata-asposepydrawingfontstyle) | Retrieves the byte array representing the font data for a specified font style and font data. |
 | [`get_font_embedding_level`](/slides/python-net/aspose.slides/fontsmanager/get_font_embedding_level/#bytes-str) | Determines the embedding level of a font from the given byte array and font name. |
 
 

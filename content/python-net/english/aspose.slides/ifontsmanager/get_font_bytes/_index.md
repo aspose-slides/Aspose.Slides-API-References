@@ -29,8 +29,30 @@ def get_font_bytes(self, font_data, font_style):
 | font_style | **aspose.pydrawing.FontStyle** | The style of the font for which the data is to be retrieved **aspose.pydrawing.FontStyle**. |
 
 
+## get_font_bytes {#ifontdata-fontstyletype}
+Retrieves the byte array representing the font data for a specified font style and font data.
+
+### Returns
+
+A byte array containing the font data for the specified font style. If the font data or style is not found, returns None.
+
+
+
+```python
+def get_font_bytes(self, font_data, font_style):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| font_data | [`IFontData`](/slides/python-net/aspose.slides/ifontdata) | The font data object containing the information about the font [`IFontData`](/slides/python-net/aspose.slides/ifontdata). |
+| font_style | [`FontStyleType`](/slides/python-net/aspose.slides/fontstyletype) | The style of the font for which the data is to be retrieved [`FontStyleType`](/slides/python-net/aspose.slides/fontstyletype). |
+
+
 
 ### See Also
+* enumeration [`FontStyleType`](/slides/python-net/aspose.slides/fontstyletype)
 * class [`IFontData`](/slides/python-net/aspose.slides/ifontdata)
 * class [`IFontsManager`](/slides/python-net/aspose.slides/ifontsmanager)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
